@@ -1,0 +1,395 @@
+---
+title: "在 Power BI Desktop (預覽) 中使用圖形地圖"
+description: "在 Power BI Desktop 中使用圖形地圖建立區域的相對比較"
+services: powerbi
+documentationcenter: 
+author: davidiseminger
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 09/06/2017
+ms.author: davidi
+ms.openlocfilehash: 4f3e8c0c8090eb8e5bba9f6058b579c843cfa79c
+ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 11/15/2017
+---
+# <a name="shape-maps-in-power-bi-desktop-preview"></a>在 Power BI Desktop (預覽) 中的圖形地圖
+在 Power BI Desktop 中，您可將不同的色彩套用至不同的區域，建立**圖形地圖**視覺效果，於地圖上顯示區域的相對比較。 相對於**地圖**視覺效果，**圖形地圖**無法精確顯示地圖上資料點的地理位置；相反地，其主要目的是以不同的著色方式，在地圖上顯示區域的相對比較。
+
+**圖形地圖**視覺效果以 ESRI/TopoJSON 地圖為基礎，其具有使用您建立的自訂地圖的強大能力，例如地理位置、座位安排、樓面規劃等等。 本**圖形地圖**的預覽版本尚不具備使用自訂地圖的能力，但預覽版本結束後，亦即預計於下一次 Power BI Desktop 每月更新時，即會啟用自訂地圖的功能。
+
+## <a name="creating-shape-maps"></a>建立圖形地圖
+您可以用此 Preview 版本隨附的地圖測試 [圖形地圖] 控制項，如果您自己的自訂地圖符合下一節**使用自訂地圖**中所述需求，也可加以使用。
+
+**圖形地圖**視覺效果僅供預覽，且必須在 Power BI Desktop 中加以啟用。 若要啟用 [圖形地圖]，請選取 [檔案] > [選項和設定] > [選項] > [預覽功能]，然後選取 [圖形地圖] 核取方塊。 您完成選取後必須重新啟動 Power BI Desktop。
+
+![](media/desktop-shape-map/shape-map_1a.png)
+
+[圖形地圖] 啟用後，按一下 [視覺效果] 窗格中的 [圖形地圖] 控制項。
+
+![](media/desktop-shape-map/shape-map_2.png)
+
+Power BI Desktop 會建立空的**圖形地圖**視覺效果設計畫布。
+
+![](media/desktop-shape-map/shape-map_3.png)
+
+執行下列步驟來建立**圖形地圖**：
+
+1. 在 [欄位] 窗格中，將具有區域名稱 (或縮寫) 的資料欄位拖曳到**位置**值區，並將資料量值欄位拖曳到**值** 貯體 (您還不會看到地圖)。
+   
+   > [!NOTE]
+> 如需快速取得地圖資料以測試**圖形地圖**的資訊，請參閱以下主題為**取得地圖資料**的一節。
+   > 
+   > 
+   
+   ![](media/desktop-shape-map/shape-map_3a.png)
+2. 在 [格式] 設定窗格中，展開 [圖形]，然後從 [標準地圖] 下拉式清單中選取，以顯示您的資料。 此時會出現轉譯，如下圖所示。
+   
+   ![](media/desktop-shape-map/shape-map_3b.png)
+   
+   > [!NOTE]
+> 本文章最後的**區域索引鍵**一節中為具有地圖區域索引鍵的資料表集合，您可以用來測試**圖形地圖**視覺效果。
+   > 
+   > 
+3. 然後，您可以從 [格式] 設定窗格中修改地圖投射和縮放設定，以及資料點的色彩。 您也可以修改縮放設定。 例如，您可以變更色彩、設定最大值和最小值，以此類推。
+   
+   ![](media/desktop-shape-map/shape-map_3d.png)
+4. 您也可以將類別資料行加入**圖例**貯體中，並以類別為基礎來分類地圖區域。
+
+## <a name="use-custom-maps"></a>使用自訂地圖
+只要自訂地圖為 **TopoJSON** 格式，就可在**圖形地圖**加以使用。 如果您的地圖為其他格式，可以使用 [**Map Shaper**](http://mapshaper.org/) 等線上工具將 *shapefiles* 或您的 *GeoJSON* 地圖轉換成 **TopoJSON** 格式。
+
+若要使用您的 **TopoJSON** 地圖檔，請將 ShapeMap 視覺效果加入報表中，然後將一些資料加入 *Location* 與 *Values* 貯體中。 然後，在已選取 [格式] 區段 (如下圖顯示為 (1) 的畫刷圖示) 的 [視覺效果] 窗格中，展開 [圖形] 區段，然後選取 [+ 新增地圖]。
+
+![](media/desktop-shape-map/shape-map_6.png)
+
+## <a name="getting-map-data"></a>取得地圖資料
+若您需要快速將資料輸入模型，以測試**圖形地圖**，您可以複製本文章最後的其中一個資料表，然後從 [主資料夾] 功能區選取 [輸入資料]。
+
+![](media/desktop-shape-map/shape-map_4.png)
+
+然後您就可以將資料表貼到 Power BI Desktop 中。 頂端列會自動識別為標頭。
+
+![](media/desktop-shape-map/shape-map_5.png)
+
+您只需要輸入新的資料行名稱 (在空白資料行右邊)，就可以新增資料行，然後在每個資料格中加入值，就像您在 Excel 中的做法一樣。 完成後，選取 [載入]，該資料表就會加入 Power BI Desktop 的資料模型中。
+
+> [!NOTE]
+> 使用國家或地區時，請使用三個字母的縮寫，以確保地理編碼在地圖視覺效果中運作正常。 請「不要」使用兩個字母的縮寫，因為可能無法正確辨識某些國家或地區。
+> 
+> 如果您只有兩個字母的縮寫，請參閱[此外部部落格文章](https://blog.ailon.org/how-to-display-2-letter-country-data-on-a-power-bi-map-85fc738497d6#.yudauacxp)，以了解如何將兩個字母的國家/地區縮寫與三個字母的國家/地區縮寫產生關聯的步驟。
+> 
+> 
+
+## <a name="preview-behavior-and-requirements"></a>預覽行為及需求
+本**圖形地圖**的預覽版本有幾個考量和需求：
+
+* **圖形地圖**視覺效果僅供預覽，且必須在 Power BI Desktop 中加以啟用。 若要啟用 [圖形地圖]，請選取 [檔案] > [選項和設定] > [選項] > [預覽功能]，然後選取 [圖形地圖] 核取方塊。
+* 目前，您也必須設定**值**的貯體，**圖例**分類才能正常運作。 我們預計會在**圖形地圖**的最終發行版本中改善此行為。
+* **圖形地圖**發行版本的使用者介面會顯示目前選取地圖的地圖索引鍵，在本預覽中，您可以參考本文章下列**區域索引鍵**一節中資料表內的地圖區域索引鍵。
+
+## <a name="region-keys"></a>區域索引鍵
+在此預覽版本中使用下列**區域索引鍵**，以測試**圖形地圖**。
+
+### <a name="australia-states"></a>澳洲︰州
+| 識別碼 | abbr | iso | 名稱 | 郵遞區號 |
+| --- | --- | --- | --- | --- |
+| au-wa |WA |AU-WA |西澳洲 |WA |
+| au-vic |Vic |AU-VIC |維多利亞 |VIC |
+| au-tas |Tas |AU-TAS |塔斯馬尼亞 |TAS |
+| au-sa |SA |AU-SA |澳洲南部 |SA |
+| au-qld |Qld |AU-QLD |昆士蘭 |QLD |
+| au-nt |NT |AU-NT |北領地 |NT |
+| au-nsw |NSW |AU-NSW |新南威爾斯 |NSW |
+| au-act |ACT |AU-ACT |澳洲首都特區 |ACT |
+
+### <a name="austria-states"></a>奧地利︰邦
+| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| --- | --- | --- | --- | --- |
+| at-wi |AT-9 |Wien |維也納 |WI |
+| at-vo |AT-8 |Vorarlberg |福拉爾貝格 |VO |
+| at-tr |AT-7 |Tirol |提洛 |TR |
+| at-st |AT-6 |Steiermark |史泰爾馬克 |ST |
+| at-sz |AT-5 |Salzburg |薩爾斯堡 |SZ |
+| at-oo |AT-4 |Oberösterreich |上奧地利 |OO |
+| at-no |AT-3 |Niederösterreich |下奧地利 |NO |
+| at-ka |AT-2 |Kärnten |克恩頓 |KA |
+| at-bu |AT-1 |Burgenland |布根蘭 |BU |
+
+### <a name="brazil-states"></a>巴西︰州
+| 識別碼 |
+| --- |
+| 托坎廷斯 |
+| 伯南布科 |
+| 戈亞斯 |
+| 塞爾希培 |
+| 聖保羅 |
+| 聖卡塔琳娜 |
+| 羅賴馬 |
+| 朗多尼亞 |
+| 南里奧格蘭德 |
+| 北里奧格蘭德 |
+| 里約熱內盧 |
+| 皮奧伊 |
+| 巴拉那 |
+| 帕拉伊巴 |
+| 帕拉 |
+| 米納斯吉拉斯 |
+| 馬托格羅索 |
+| 馬拉尼昂 |
+| 南馬托格羅索 |
+| 聯邦區 |
+| 塞阿臘 |
+| 聖埃斯皮里圖 |
+| 巴伊亞 |
+| 亞馬遜 |
+| 阿馬帕 |
+| 阿拉戈斯 |
+| 阿克雷 |
+| 訴訟區域 1 |
+| 訴訟區域 2 |
+| 訴訟區域 3 |
+| 訴訟區域 4 |
+
+### <a name="canada-provinces"></a>加拿大︰省
+| 識別碼 | iso | 名稱 | 郵遞區號 |
+| --- | --- | --- | --- |
+| ca-nu |CA-NU |努納福特 |NU |
+| ca-nt |CA-NT |西北領地 |NT |
+| ca-yt |CA-YT |育空 |YT |
+| ca-sk |CA-SK |薩克其萬 |SK |
+| ca-qc |CA-QC |魁北克 |QC |
+| ca-pe |CA-PE |愛德華王子島 |PE |
+| ca-on |CA-ON |安大略 |ON |
+| ca-ns |CA-NS |新斯科細亞 |NS |
+| ca-nl |CA-NL |紐芬蘭及拉布拉多 |NL |
+| ca-nb |CA-NB |新布藍茲維 |NB |
+| ca-mb |CA-MB |曼尼托巴 |MB |
+| ca-bc |CA-BC |不列顛哥倫比亞 |BC |
+| ca-ab |CA-AB |亞伯達 |AB |
+
+### <a name="france-regions"></a>法國︰大區
+| 識別碼 | 名稱 | 名稱 - 繁體中文 |
+| --- | --- | --- |
+| Alsace |Alsace |阿爾薩斯 |
+| Rhone-Alpes |Rhône-Alpes |隆河─阿爾卑斯 |
+| Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |普羅旺斯─阿爾卑斯─蔚藍海岸 |
+| Poitou-Charentes |Poitou-Charentes |普瓦圖─夏朗德 |
+| Picardie |Picardie |皮卡第 |
+| Pays de la Loire |Pays de la Loire |羅亞爾河地區 |
+| Nord-Pas-de-Calais |Nord-Pas-de-Calais |北部─加來海峽 |
+| Midi-Pyrenees |Midi-Pyrénées |南部─庇里牛斯 |
+| Lorraine |Lorraine |洛林 |
+| Limousin |Limousin |利穆贊 |
+| Languedoc-Roussillon |Languedoc-Roussillon |朗格多克─魯西永 |
+| Ile-del-France |Île-de-France |法蘭西島 |
+| Haute-Normandie |Haute-Normandie |上諾曼地 |
+| Franche-Comte |Franche-Comté |法蘭琪─康堤 |
+| Corse |Corse |科西嘉島 |
+| Champagne-Ardenne |Champagne-Ardenne |香檳─阿登 |
+| Centre-Val de Loire |Centre-Val de Loire |中央-羅亞爾河谷 |
+| Bretagne |Bretagne |布列塔尼 |
+| Bourgogne |Bourgogne |勃根地 |
+| Basse-Normandie |Basse-Normandie |下諾曼地 |
+| Auvergne |Auvergne |奧弗涅 |
+| Aquitaine |Aquitaine |阿基坦 |
+
+### <a name="germany-states"></a>德國︰邦
+| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| --- | --- | --- | --- | --- |
+| de-be |DE-BE |Berlin |柏林 |BE |
+| de-th |DE-TH |Thüringen |圖林根 |TH |
+| de-st |DE-ST |Sachsen Anhalt |薩克森─安哈特 |ST |
+| de-sn |DE-SN |Sachsen |薩克森 |SN |
+| de-mv |DE-MV |Mecklenburg Vorpommern |梅克倫堡─前波莫瑞 |MV |
+| de-bb |DE-BB |Brandenburg |布蘭登堡 |BB |
+| de-sh |DE-SH |Schleswig Holstein |什列斯威─好斯敦 |SH |
+| de-sl |DE-SL |Saarland |薩爾蘭 |SL |
+| de-rp |DE-RP |Rheinland Pfalz |萊茵蘭─普法茲 |RP |
+| de-nw |DE-NW |Nordrhein Westfalen |北萊茵─西發利亞 |NW |
+| de-ni |DE-NI |Niedersachsen |下薩克森 |NI |
+| de-he |DE-HE |Hessen |黑森 |HE |
+| de-hh |DE-HH |Hamburg |漢堡 |HH |
+| de-hb |DE-HB |Bremen |不萊梅 |HB |
+| de-by |DE-BY |Bayern |巴伐利亞 |BY |
+| de-bw |DE-BW |Baden-Württemberg |巴登─符登堡 |BW |
+
+### <a name="ireland-counties"></a>愛爾蘭︰郡
+| 識別碼 |
+| --- |
+| 威克洛 |
+| 韋克斯福德 |
+| 韋斯特米斯 |
+| 瓦特福 |
+| 斯萊戈 |
+| 蒂珀雷里 |
+| 羅斯康芒 |
+| 奧法利 |
+| 莫納亨 |
+| 米斯 |
+| 梅奧 |
+| 勞斯 |
+| 朗福德 |
+| 利默里克 |
+| 利特里姆 |
+| 萊伊什 |
+| 基爾肯尼 |
+| 基爾代爾 |
+| 凱里 |
+| 戈爾韋 |
+| 都柏林 |
+| 多尼戈爾 |
+| 科克 |
+| 克萊爾 |
+| 卡文 |
+| 卡洛 |
+
+### <a name="italy-regions"></a>義大利︰大區
+| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| --- | --- | --- | --- | --- |
+| it-vn |IT-34 |Veneto |威尼托 |VN |
+| it-vd |IT-23 |Valle d'Aosta |瓦萊達奧斯塔 |VD |
+| it-um |IT-55 |Umbria |溫布利亞 |UM |
+| it-tt |IT-32 |Trentino Alto Adige |特倫提諾─上阿迪傑 |TT |
+| it-tc |IT-52 |Toscana |托斯卡尼 |TC |
+| it-sc |IT-82 |Sicilia |西西里 |SC |
+| it-sd |IT-88 |Sardegna |薩丁尼亞 |SD |
+| it-pm |IT-21 |Piemonte |皮埃蒙特 |PM |
+| it-ml |IT-67 |Molise |莫利塞 |ML |
+| it-mh |IT-57 |Marche |馬爾凱 |MH |
+| it-lm |IT-25 |Lombardia |倫巴底 |LM |
+| it-lg |IT-42 |Liguria |利古里亞 |LG |
+| it-lz |IT-62 |Lazio |拉吉歐 |LZ |
+| it-fv |IT-36 |Friuli-Venezia Giulia |佛里烏利─威尼斯朱利亞 |FV |
+| it-er |IT-45 |Emilia-Romagna |艾米利亞─羅馬涅 |ER |
+| it-cm |IT-72 |Campania |坎帕尼亞 |CM |
+| it-lb |IT-78 |Calabria |卡拉布里亞 |LB |
+| it-bc |IT-77 |Basilicata |巴西利卡塔 |BC |
+| it-pu |IT-75 |Apulia |普利亞 |PU |
+| it-ab |IT-65 |Abruzzo |阿布魯佐 |AB |
+
+### <a name="mexico-states"></a>墨西哥︰州
+| 識別碼 | abreviatura | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| --- | --- | --- | --- | --- | --- |
+| mx-zac |Zac. |MX-ZAC |Zacatecas |薩卡特卡斯 |ZA |
+| mx-yuc |Yuc. |MX-YUC |Yucatán |猶加敦 |YU |
+| mx-ver |Ver. |MX-VER |Veracruz |維拉克魯斯 |VE |
+| mx-tla |Tlax. |MX-TLA |Tlaxcala |特拉斯卡拉 |TL |
+| mx-tam |Tamps. |MX-TAM |Tamaulipas |塔毛利帕斯 |TM |
+| mx-tab |Tab. |MX-TAB |Tabasco |塔巴斯科 |TB |
+| mx-son |Son. |MX-SON |Sonora |索諾拉 |SO |
+| mx-sin |Sin. |MX-SIN |Sinaloa |錫那羅亞 |SI |
+| mx-slp |S.L.P. |MX-SLP |San Luis Potosí |聖路易斯波托西 |SL |
+| mx-roo |Q.R. |MX-ROO |Quintana Roo |金塔納羅奧 |QR |
+| mx-que |Qro. |MX-QUE |Querétaro |克雷塔羅 |QE |
+| mx-pue |Pue. |MX-PUE |Puebla |普埃布拉 |PU |
+| mx-oax |Oax. |MX-OAX |Oaxaca |瓦哈卡 |OA |
+| mx-nle |N.L. |MX-NLE |Nuevo León |新萊昂 |NL |
+| mx-nay |Nay. |MX-NAY |Nayarit |納亞里特 |NA |
+| mx-mor |Mor. |MX-MOR |Morelos |莫雷洛斯 |MR |
+| mx-mic |Mich. |MX-MIC |Michoacán |米卻肯 |MC |
+| mx-mex |Méx. |MX-MEX |Estado de México |墨西哥州 |MX |
+| mx-jal |Jal. |MX-JAL |Jalisco |哈利斯科 |JA |
+| mx-hid |Hgo. |MX-HID |Hidalgo |伊達爾戈 |HI |
+| mx-gro |Gro. |MX-GRO |Guerrero |格雷羅 |GR |
+| mx-gua |Gto. |MX-GUA |Guanajuato |瓜納華托 |GT |
+| mx-dur |Dgo. |MX-DUR |Durango |杜蘭戈 |DU |
+| mx-dif |Col. |MX-DIF |Ciudad de México |墨西哥城 |DF |
+| mx-col |Coah. |MX-COL |Colima |科利馬 |CL |
+| mx-coa |Chis. |MX-COA |Coahuila |科阿韋拉 |CA |
+| mx-chh |Chih. |MX-CHH |Chihuahua |契瓦瓦 |CH |
+| mx-chp |CDMX. |MX-CHP |Chiapas |恰帕斯 |CP |
+| mx-cam |Camp. |MX-CAM |Campeche |坎佩切 |CM |
+| mx-bcs |B.C.S. |MX-BCS |Baja California Sur |南下加利福尼亞 |BS |
+| mx-bcn |B.C. |MX-BCN |Baja California |下加利福尼亞 |BN |
+| mx-agu |Ags. |MX-AGU |Aguascalientes |阿瓜斯卡連特斯 |AG |
+
+### <a name="netherlands-provinces"></a>荷蘭︰省
+| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 |
+| --- | --- | --- | --- |
+| nl-zh |NL-ZH |Zuid-Holland |南荷蘭 |
+| nl-ze |NL-ZE |Zeeland |澤蘭 |
+| nl-ut |NL-UT |Utrecht |烏特勒支 |
+| nl-ov |NL-OV |Overijssel |上愛塞 |
+| nl-nh |NL-NH |Noord-Holland |北荷蘭 |
+| nl-nb |NL-NB |Noord-Brabant |北布拉邦 |
+| nl-li |NL-LI |Limburg |林堡 |
+| nl-gr |NL-GR |Groningen |格羅寧根 |
+| nl-ge |NL-GE |Gelderland |吉德蘭 |
+| nl-fr |NL-FR |Fryslân |菲士蘭 |
+| nl-fl |NL-FL |Flevoland |夫利佛蘭 |
+| nl-dr |NL-DR |Drenthe |德倫特 |
+
+### <a name="uk-countries"></a>英國：構成國
+| 識別碼 | iso | 名稱 |
+| --- | --- | --- |
+| gb-wls |GB-WLS |威爾斯 |
+| gb-sct |GB-SCT |蘇格蘭 |
+| gb-nir |GB-NIR |北愛爾蘭 |
+| gb-eng |GB-ENG |英格蘭 |
+
+### <a name="usa-states"></a>美國︰州
+| 識別碼 | 名稱 | 郵遞區號 |
+| --- | --- | --- |
+| us-mi |密西根 |MI |
+| us-ak |阿拉斯加 |AK |
+| us-hi |夏威夷 |HI |
+| us-fl |佛羅里達 |FL |
+| us-la |路易斯安那 |LA |
+| us-ar |阿肯色 |AR |
+| us-sc |南卡羅來納 |SC |
+| us-ga |喬治亞 |GA |
+| us-ms |密西西比 |MS |
+| us-al |阿拉巴馬 |AL |
+| us-nm |新墨西哥 |NM |
+| us-tx |德克薩斯 |TX |
+| us-tn |田納西 |TN |
+| us-nc |北卡羅來那州 |NC |
+| us-ok |奧克拉荷馬 |確定 |
+| us-az |亞歷桑那 |AZ |
+| us-mo |密蘇里 |MO |
+| us-va |維吉尼亞 |VA |
+| us-ks |堪薩斯 |KS |
+| us-ky |肯塔基 |KY |
+| us-co |科羅拉多 |CO |
+| us-md |馬里蘭 |MD |
+| us-wv |西維吉尼亞 |WV |
+| us-de |德拉瓦 |DE |
+| us-dc |哥倫比亞特區 |DC |
+| us-il |伊利諾 |IL |
+| us-oh |俄亥俄 |OH |
+| us-ca |加利福尼亞 |CA |
+| us-ut |猶他 |UT |
+| us-nv |內華達 |NV |
+| us-in |印第安納 |IN |
+| us-nj |紐澤西 |NJ |
+| us-ri |羅德島 |RI |
+| us-ct |康乃狄克 |CT |
+| us-pa |賓夕法尼亞 |PA |
+| us-ny |紐約 |NY |
+| us-ne |內布拉斯加 |NE |
+| us-ma |麻薩諸塞 |MA |
+| us-ia |愛荷華 |IA |
+| us-nh |新罕布夏 |NH |
+| us-or |奧勒崗 |OR |
+| us-mn |明尼蘇達 |MN |
+| us-vt |佛蒙特 |VT |
+| us-id |愛達荷 |識別碼 |
+| us-wi |威斯康辛 |WI |
+| us-wy |懷俄明 |WY |
+| us-sd |南達科他 |SD |
+| us-nd |北達科他 |ND |
+| us-me |緬因 |ME |
+| us-mt |蒙大拿 |MT |
+| us-wa |華盛頓 |WA |
+

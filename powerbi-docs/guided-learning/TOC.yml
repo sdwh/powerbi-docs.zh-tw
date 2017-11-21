@@ -1,0 +1,16 @@
+- name: 使用者入門
+  href: 'gettingstarted.yml#step-0'
+- name: 取得資料
+  href: 'gettingdata.yml#step-0'
+- name: 建立模型
+  href: 'modeling.yml#step-0'
+- name: 視覺化
+  href: 'visualizations.yml#step-0'
+- name: 探索資料
+  href: 'exploringdata.yml#step-0'
+- name: Power BI 與 Excel
+  href: 'powerbiandexcel.yml#step-0'
+- name: 發佈與共用
+  href: 'publishingandsharing.yml#step-0'
+- name: DAX 簡介
+  href: 'introductiontodax.yml#step-0'
