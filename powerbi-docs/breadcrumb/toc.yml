@@ -1,0 +1,17 @@
+- name: Docs
+  href: /
+  topicHref: /
+  items:
+    - name: Power BI
+      tocHref: /power-bi/
+      topicHref: /power-bi/
+      items:
+        - name: 開發人員
+          tocHref: /power-bi/developer/
+          topicHref: /power-bi/developer/
+        - name: 導引式學習
+          tocHref: /power-bi/guided-learning/
+          topicHref: /power-bi/guided-learning/
+        - name: 報表伺服器
+          tocHref: /power-bi/report-server/
+          topicHref: /power-bi/report-server/
