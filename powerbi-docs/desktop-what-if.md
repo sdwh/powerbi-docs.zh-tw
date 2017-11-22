@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: 39de6173c88beb1b56092677887b71e603888143
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5b02f55a14592020e73005e44f8692cdb01693c7
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>在 Power BI Desktop 中建立及使用模擬參數來視覺化變數
 從 2017 年 8 月發行的 **Power BI Desktop** 開始，您可以為報表建立**模擬**變數，將變數當作交叉分析篩選器與其互動，進而視覺化及量化報表中的不同索引鍵值。
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/15/2017
 
 您可以在 **Power BI Desktop** 的 [模型] 索引標籤上找到**模擬**參數。 當您這樣做時，會出現對話方塊，您可以在其中設定參數。
 
-### <a name="creating-a-what-if-parameter"></a>建立模擬參數
+## <a name="creating-a-what-if-parameter"></a>建立模擬參數
 若要建立**模擬**參數，請從 **Power BI Desktop** 的 [模型] 索引標籤選取 [模擬] 按鈕。 在下圖中，我們建立了稱為「折扣百分比」的參數，並將其資料類型設定為 [小數]。 [最小值] 為零，[最大值] 為 0.50 (50%)。 我們也將 [增量] 設定為 0.05 (5%)。 這是與報表互動時會調整的參數量。
 
 ![](media/desktop-what-if/what-if_02.png)

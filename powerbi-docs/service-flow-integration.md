@@ -18,14 +18,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/30/2017
 ms.author: mihart
-ms.openlocfilehash: 387f6bf9f9022fedf1266c32da3d61d3035e7d90
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: efab2e6be1d376a0da70c13bb66144ba34afa58c
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 和 Power BI
-## <a name="what-is-microsoft-flow"></a>Microsoft Flow 是什麼
+
 [Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started) 是一款 SaaS 供應項目，在企業用戶所仰賴的越來越多種應用程式和 SaaS 服務之間，將工作流程自動化。 您可以使用 Flow 整合最愛的應用程式和服務 (包括 Power BI) 來將工作自動化，以取得通知、同步檔案、收集資料等。 工作流程自動化讓重複性的工作變得輕鬆。
 
 [立即開始使用 Flow。](https://flow.microsoft.com/documentation/getting-started)
@@ -110,7 +110,7 @@ ms.lasthandoff: 11/13/2017
    
     ![](media/service-flow-integration/power-bi-flow-notice.png)
 
-### <a name="next-steps"></a>後續步驟
+## <a name="next-steps"></a>後續步驟
 * [開始使用 Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)
 * [在Power BI 服務中設定資料警示](service-set-data-alerts.md)
 * [在 iPhone 上設定資料警示](mobile-set-data-alerts-in-the-mobile-apps.md)

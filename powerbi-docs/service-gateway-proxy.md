@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 6fb6250f8cd82c7057abe3f9cf9792dc733ea4b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 77ae086d4b9c86f0d5ec4c0515ad96919160059d
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>設定內部部署資料閘道的 Proxy 設定
 您的工作環境可能需要執行 Proxy 以存取網際網路。 這可以防止內部部署資料閘道連接至服務。
@@ -48,40 +48,6 @@ Proxy 資訊是在 .NET 設定檔中所設定。 位置和檔案名稱將會隨�
 第二個是與 Power BI 服務互動和處理要求的實際 Windows 服務。
 
     C:\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config
-
-### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
-> [!NOTE]
-> Power BI 有一個新版本的個人閘道，稱為**內部部署資料閘道 (個人模式)**。 本文的這一節描述舊版的個人閘道，稱為 **Power BI Gateway - Personal**，將於 2017 年 7 月 31 日之後淘汰並停止運作。 如需新版個人閘道的相關資訊，包括如何安裝新版本，請參閱[**內部部署資料閘道 (個人模式)** 文章](service-gateway-personal-mode.md)。
-> 
-> 
-
-可透過以下兩種方式之一來安裝個人閘道。 作為 Windows 服務 (管理員) 或使用者模式應用程式。 這會在安裝期間決定。 因此，您的設定檔可能會在兩個位置其中之一，視閘道的安裝方式而定。 您可以查看這兩個位置。
-
-**設定**
-
-第一個是實際設定閘道的設定畫面。 若您有設定閘道的問題，可以查看這個檔案。
-
-作為 *Windows 服務*，它將會是如下所示。
-
-    C:\Program Files\Power BI Personal Gateway\1.0\Configurator\GWConfig.exe.config
-    C:\Program Files\Power BI Personal Gateway\1.0\Configurator\PowerBIGatewayAgentCmdLine.exe.config
-
-作為*使用者模式應用程式*，它將會是如下所示。
-
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Configurator\GWConfig.exe.config
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Configurator\PowerBIGatewayAgentCmdLine.exe.config
-
-**Windows 服務**
-
-第二個是與 Power BI 服務互動和處理要求的實際 Windows 服務。
-
-作為 *Windows 服務*，它將會是如下所示。
-
-    C:\Program Files\Power BI Personal Gateway\1.0\Gateway\diawp.exe.config
-
-作為*使用者模式應用程式*，它將會是如下所示。
-
-    C:\Users\<user>\AppData\Local\Power BI Gateway - Personal \1.0\Gateway\diawp.exe.config
 
 ## <a name="configuring-proxy-settings"></a>設定 Proxy 設定
 預設的 Proxy 設定如下所示。

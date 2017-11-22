@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: c3e8c4d110bccf1ed8a992b22bd1014a770d5bb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c48e7042f16ac43619a7a0a6708a54f0575d795f
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="using-r-in-query-editor"></a>在查詢編輯器中使用 R
 您可以在 Power BI Desktop **查詢編輯器**中使用 **R，**統計學家、資料科學家和資料分析師廣泛使用的程式設計語言。 將 R 整合到**資料編輯器中**，可讓您使用 R 執行資料清理，以及在資料集執行進階資料成形與分析，包括補足遺漏的資料、預測及叢集等。 **R**是功能強大的語言，可用於**查詢編輯器**以準備您的資料模型及建立報表。
@@ -56,7 +56,7 @@ ms.lasthandoff: 11/15/2017
        output$completedValues <- completedData$"SMI missing values"
    
    > [!NOTE]
-> 您的 R 環境中必須安裝 mice 程式庫，前述指令碼才能正常運作。 若要安裝 mice，請在 R 安裝中執行下列命令：|      > install.packages('mice')
+   > 您的 R 環境中必須安裝 mice 程式庫，前述指令碼才能正常運作。 若要安裝 mice，請在 R 安裝中執行下列命令：|      > install.packages('mice')
    > 
    > 
    
@@ -72,7 +72,6 @@ ms.lasthandoff: 11/15/2017
    
    一旦這樣做，就會在名為 *completedValues* 的 [欄位] 區中看到新的一行。 請注意，這裡有多個遺失的資料項目，像是第 15 和 18 列。 下一節說明 R 如何處理該狀況。
    
-   注意
 
 在 R 指令碼只有五行的情況下，**查詢編輯器**透過預測模型填入遺失的值。
 

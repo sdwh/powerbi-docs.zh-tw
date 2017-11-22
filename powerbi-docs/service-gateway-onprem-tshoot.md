@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 1ef54451275b1c7fe1e84c330a4bea95f0bca820
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2663c9f2adf69ce224de90feb822b7cfedc935a5
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>對內部部署資料閘道偵錯
 本文探討使用「內部部署資料閘道」時可能遇到的一些常見問題。
@@ -170,10 +170,6 @@ ms.lasthandoff: 11/15/2017
 2. 您的帳戶未列於閘道組態內資料來源的 [使用者] 索引標籤中。 您必須將閘道的系統管理員加入該清單。
 3. 您的 Power BI Desktop 檔案中有多個資料來源，但並非所有資料來源都是使用閘道設定。 您必須使用閘道定義每個資料來源，才能在排程的重新整理期間顯示閘道。
 
-> [!WARNING]
-> 如果其中一個資料來源需要 OAuth 驗證，您將無法使用內部部署資料閘道進行設定。 內部部署資料閘道目前不支援 OAuth 驗證。 您必須從 Power BI Desktop 移除需要 OAuth 驗證的資料來源，才能設定排程的重新整理。
-> 
-> 
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>錯誤：閘道用戶端上所收到未經壓縮的資料超過限制。
 確切的限制為每個資料表 10 GB 未壓縮的資料。 如果即將達到此限制，您有適當的選項可最佳化及避免此問題。 減少使用高度重複的長字串值並改用標準化索引鍵，或移除資料行 (如果不在使用中) 特別會有幫助。

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 336ae54d8c8d3226303a415729a7b02ceea6b680
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e84c5045906cb91f028f0c33b5af8164871d8882
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>使用開發人員工具建立自訂視覺效果
 自訂視覺效果可讓您滿足使用者的需求，並契合應用程式的設計。 您可以使用開發人員工具來建立 Power BI 的自訂視覺效果。
@@ -382,7 +382,6 @@ pbiviz update 1.2.0
 [Power BI 中的視覺效果](power-bi-report-visualizations.md)  
 [Power BI 中的自訂視覺效果](power-bi-custom-visuals.md)  
 [將自訂視覺效果發佈至 Office 市集](developer/office-store.md)  
-[下載並使用 Office 市集的自訂視覺效果](service-custom-visuals-office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  
 [Less CSS](http://lesscss.org/)  
 
