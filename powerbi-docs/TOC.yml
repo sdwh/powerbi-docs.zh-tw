@@ -12,10 +12,6 @@
           href: service-free-vs-pro.md
         - name: Power BI 的資料來源
           href: service-get-data.md
-        - name: Power BI 影片
-          href: videos.md
-        - name: Power BI 網路研討會
-          href: webinars.md
         - name: 新的 Power BI 導覽體驗
           href: service-the-new-power-bi-experience.md
         - name: 10 個祕訣協助您取得說明
@@ -248,7 +244,7 @@
           href: service-notification-center.md
         - name: 在儀表板中加入影像、文字方塊、影片或 Web 程式碼
           href: service-dashboard-add-widget.md
-        - name: 編輯圖格：調整大小、移動、重新命名、釘選、刪除、加入超連結
+        - name: 編輯磚：調整大小、移動、重新命名、釘選、刪除、新增超連結
           href: service-dashboard-edit-tile.md
         - name: 設計絕佳 Power BI 儀表板的秘訣
           href: service-dashboards-design-tips.md
@@ -294,7 +290,7 @@
           href: service-cortana-troubleshoot.md
     - name: 分享您的成果
       items:
-        - name: 應該如何共同作業和共用儀表板和報表？
+        - name: 應該如何共同作業以及共用儀表板和報表？
           href: service-how-to-collaborate-distribute-dashboards-reports.md
         - name: 使用儀表板和報表安裝並使用應用程式
           href: service-install-use-apps.md
@@ -428,7 +424,7 @@
           href: service-add-hyperlink-to-text-box.md
         - name: 長條圖
           href: service-histograms.md
-        - name: Power BI Map 視覺效果的秘訣和訣竅
+        - name: Power BI 地圖視覺效果的秘訣和訣竅
           href: power-bi-map-tips-and-tricks.md
         - name: Power BI 報表中的文字方塊
           href: power-bi-reports-add-text-and-shapes.md
@@ -444,7 +440,7 @@
           href: power-bi-visualization-customize-x-axis-and-y-axis.md
         - name: 教學課程：Power BI 中的環圈圖
           href: power-bi-visualization-doughnut-charts.md
-        - name: 教學課程：Power BI 的區域分布圖 (分級著色圖)
+        - name: 教學課程：Power BI 中的區域分布圖 (分區著色圖)
           href: power-bi-visualization-filled-maps-choropleths.md
         - name: 教學課程：Power BI 中的漏斗圖
           href: power-bi-visualization-funnel-charts.md
@@ -532,7 +528,7 @@
           href: service-gateway-onprem-faq.md
         - name: 內部部署資料閘道 (個人模式)
           href: service-gateway-personal-mode.md
-        - name: 對內部部署資料閘道偵錯
+        - name: 為內部部署資料閘道進行疑難排解
           href: service-gateway-onprem-tshoot.md
         - name: Power BI Gateway - Personal
           href: personal-gateway.md
@@ -572,6 +568,8 @@
           href: service-admin-portal.md
         - name: 稽核 Power BI
           href: service-admin-auditing.md
+        - name: 使用 Azure AD B2B
+          href: service-admin-azure-ad-b2b.md
         - name: 尋找已登入的使用者
           href: service-admin-access-usage.md
         - name: 資料列層級安全性和 Power BI
@@ -600,11 +598,11 @@
           href: service-admin-how-to-use-the-same-account-as-azure.md
         - name: Office 365 專用 - 已知問題
           href: service-admin-office-365-dedicated-known-issues.md
-        - name: '[使用 EXCEL 分析] 的疑難排解'
+        - name: 為 Excel 中的分析功能進行疑難排解
           href: desktop-troubleshooting-analyze-in-excel.md
-        - name: 對內部部署資料閘道偵錯
+        - name: 為內部部署資料閘道進行疑難排解
           href: service-gateway-onprem-tshoot.md
-        - name: Power BI Gateway - Personal 疑難排解
+        - name: 為 Power BI Gateway - Personal 進行疑難排解
           href: service-admin-troubleshooting-power-bi-personal-gateway.md
         - name: 不支援重新整理的資料來源疑難排解
           href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
@@ -658,7 +656,7 @@
           href: desktop-enter-data-directly-into-desktop.md
         - name: 在 Power BI Desktop 中連接至 Excel
           href: desktop-connect-excel.md
-        - name: Power BI Desktop 中的 Analysis Services 多維度模型
+        - name: Power BI Desktop 中的 Analysis Services 多維度資料
           href: desktop-ssas-multidimensional.md
         - name: 在 Power BI Desktop 中連接至 CSV 檔案
           href: desktop-connect-csv.md
@@ -682,11 +680,11 @@
           href: desktop-use-directquery.md
         - name: Power BI 和 DirectQuery
           href: desktop-directquery-about.md
-        - name: DirectQuery 所支援的資料來源
+        - name: DirectQuery 支援的資料來源
           href: desktop-directquery-data-sources.md
         - name: Oracle 與 Teradata 資料庫的 DirectQuery
           href: desktop-directquery-for-oracle-teradata.md
-        - name: DirectQuery 與 SAP Business Warehouse (BW)
+        - name: DirectQuery 和 SAP Business Warehouse (BW)
           href: desktop-directquery-sap-bw.md
         - name: DirectQuery 和 SAP HANA
           href: desktop-directquery-sap-hana.md
@@ -772,7 +770,7 @@
           href: desktop-grouping-and-binning.md
         - name: 功能區圖表
           href: desktop-ribbon-charts.md
-        - name: 使用新的 Matrix 視覺效果
+        - name: 使用新的矩陣視覺效果
           href: desktop-matrix-visual.md
         - name: 使用 R 建立 Power BI 視覺效果
           href: desktop-r-visuals.md
@@ -794,7 +792,7 @@
           href: desktop-inline-hierarchy-labels.md
         - name: 使用數字範圍交叉分析篩選器
           href: desktop-slicer-numeric-range.md
-        - name: 使用相關的日期交叉分析篩選器
+        - name: 使用相對日期交叉分析篩選器
           href: desktop-slicer-filter-date-range.md
         - name: 建立 Cortana 的自訂 Power BI 回應卡
           href: service-cortana-answer-cards.md
@@ -828,9 +826,9 @@
           href: desktop-send-smile-privacy-statement.md
     - name: 疑難排解
       items:
-        - name: 解決 Power BI Desktop 和 Power Query 匯入 Access 資料庫和 .XLS 試算表的問題
+        - name: 解決 Power BI Desktop 和 Power Query 中匯入 Access 資料庫和 Excel 試算表的問題
           href: desktop-access-database-errors.md
-        - name: 解決啟動 Power BI Desktop 的問題
+        - name: 解決啟動 Power BI Desktop 時發生的問題
           href: desktop-error-launching-desktop.md
 - name: Power BI 行動裝置應用程式
   items:
@@ -864,7 +862,7 @@
           href: mobile-apps-qr-code.md
         - name: 取得 Power BI 行動裝置應用程式中的通知
           href: mobile-apps-notification-center.md
-        - name: 在行動裝置應用程式標註並共用磚、報表或視覺效果
+        - name: 在行動裝置應用程式中標註及共用磚、報表或視覺效果
           href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
         - name: 在 Power BI 行動裝置應用程式中設定資料警示
           href: mobile-set-data-alerts-in-the-mobile-apps.md
@@ -924,7 +922,7 @@
       items:
         - name: 開發人員可如何利用 Power BI？
           href: developer/what-can-you-do.md
-        - name: Power BI API 可以做些什麼
+        - name: Power BI API 可以做些什麼？
           href: developer/overview-of-power-bi-rest-api.md
     - name: 內嵌
       items:
@@ -1104,6 +1102,8 @@
           href: report-server/quickstart-embed.md
     - name: 參考
       items:
+        - name: REST API
+          href: report-server/rest-api.md
         - name: WMI
           href: 'https://go.microsoft.com/fwlink/?linkid=848719'
         - name: SOAP API
@@ -1114,5 +1114,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848723'
 - name: 資源
   items:
+    - name: Power BI 影片
+      href: videos.md
+    - name: Power BI 網路研討會
+      href: webinars.md
     - name: 白皮書
       href: whitepapers.md
