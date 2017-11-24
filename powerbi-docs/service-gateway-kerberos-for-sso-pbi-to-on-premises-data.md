@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: c69c3baff3c0ce00b06c5a6af43be8488133d42e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c676fafe2274139efdc7b4a5be5174b86ade5b50
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 以從 Power BI 單一登入 (SSO) 到內部部署資料來源
 您可以藉由使用 Kerberos 來設定內部部署資料閘道，取得無縫單一登入連線，讓 Power BI 報表和儀表板從內部部署資料更新。 內部部署資料閘道可以使用 DirectQuery 加速單一登入 (SSO)，DirectQuery 是用來連線至內部部署資料來源。
@@ -60,6 +60,15 @@ ms.lasthandoff: 11/15/2017
    > 至於服務 SID，如果 AAD DirSync/Connect 已設定且使用者帳戶已同步處理，閘道服務不需要在執行階段執行本機 AD 查閱，而且您可以針對閘道服務使用本機服務 SID (不需要網域帳戶)。  本文件概述的 Kerberos 限制委派設定步驟都是相同的 (只是是根據服務 SID 來套用，而不是根據網域帳戶)。
    > 
    > 
+
+
+> [!NOTE]
+> 若要允許 SAP HANA 使用 SSO，您必須將下列兩項 HANA 專用設定套用到 SAP：
+>    1. 使用 SAP 於 2017 年 10 月底發行的 HANA 修補程式 122.13，升級 SAP HANA 伺服器。 
+>    2. 在閘道電腦上安裝最新的 SAP HANA ODBC 驅動程式。  最低版本為 2017 年 8 月的 HANA ODBC 2.00.020.00 版。
+> 
+
+
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>Kerberos 設定不完整的錯誤
 如果基礎資料庫伺服器和閘道未針對 **Kerberos 限制委派**正確設定，您可能會收到下列錯誤訊息：

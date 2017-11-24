@@ -17,14 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/31/2017
 ms.author: mihart
-ms.openlocfilehash: d810383c87dae59e3993cef638497e64fd398dc7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81f7b4a68b66a2bfbdf285007ff4ff636c326a6c
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI 服務中的儀表板
-## <a name="what-is-a-dashboard"></a>什麼是儀表板？
+
 Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常稱為畫布。 因為受限於一張頁面，所以設計良好的儀表板只包含故事最重要的項目。
 
 ![](media/service-dashboards/power-bi-dashboard2.png)
@@ -64,7 +64,7 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 | 可以建立視覺效果 |僅限使用 [新增磚] 在儀表板新增小工具 |可以建立許多不同類型的視覺效果、新增自訂視覺效果、編輯視覺效果，以及更多的編輯權限。 |
 | 自訂 |可以使用視覺效果 (磚) 執行作業，如移動和排列、調整大小、新增連結、重新命名、刪除和全螢幕顯示。 但是，資料和視覺效果本身都是唯讀的。 |在 [閱讀檢視] 中您可以發佈、內嵌、篩選、匯出、下載為 .pbix、檢視相關內容、產生 QR 代碼、在 Excel 中進行分析等等。  在 [編輯檢視] 中，您可以執行目前述及的所有作業及其他更多。 |
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>儀表板「建立者」和儀表板「取用者」
+## <a name="dashboard-creators-and-dashboard-consumers"></a>儀表板建立者和儀表板取用者
 視您的角色而定，您可能是建立儀表板供自己使用，或與同事共用儀表板的人。 您想要了解如何建立和共用儀表板。 或者，您可能是從其他人收到儀表板的人。 您想要了解如何熟悉及與儀表板互動。
 
 以下是依角色協助您開始的一些主題。

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 7f5b5114951265e2dd76dbbd8a33045d44e21989
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9bff028c0db75e4c0e4f3b2fe97b4ed19c0d1518
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 報告中的協助工具
 **Power BI Desktop** 有功能可讓行動不便人士更輕鬆地使用 **Power BI Desktop** 報告並與之互動。 這些功能包括能夠利用鍵盤或螢幕助讀程式來使用報告、利用 Tab 鍵聚焦於頁面上的不同物件，以及在視覺效果中貼心地使用標記。
@@ -76,7 +76,7 @@ ms.lasthandoff: 11/15/2017
 ## <a name="considerations-and-limitations"></a>考量與限制
 協助工具功能已知有一些問題和限制，如下列清單所述：
 
-* 只有在 **Power BI 服務**中檢視的報表才支援 JAWS，包括任何內嵌報表。 **Power BI Desktop** 小組正積極讓它也能用於 **Power BI Desktop** 中檢視的報表。
+* JAWS 適用於在 **Power BI 服務**中檢視的報表，包括任何內嵌報表。 **Power BI Desktop** 也支援 JAWS，但您必須先開啟螢幕助讀程式才能開啟 **Power BI Desktop** 檔案，以使螢幕朗讀功能正常運作。
 
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI Desktop 中使用報告佈景主題 (預覽)](desktop-report-themes.md)

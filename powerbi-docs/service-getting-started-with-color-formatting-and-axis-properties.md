@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: a40f1fba503ca9bc76f77381fe977d6944b595a1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 04b9a745d3969ab42c2a02c9b3cc28a65cd4d69c
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>開始使用色彩格式和軸屬性
 在 **Power BI** 中，您可以變更資料數列、資料點、甚至視覺效果背景的色彩。 您也可以變更 x 軸和 y 軸的顯示方式，讓您完全掌控儀表板和報表的顯示方式。
@@ -97,6 +97,7 @@ ms.lasthandoff: 11/15/2017
 > 
 > 
 
+## <a name="next-step"></a>下一個步驟
 如需詳細資訊，請參閱下列文章：  
 
 * [在 Power BI 中色彩格式設定的秘訣和訣竅](service-tips-and-tricks-for-color-formatting.md)  

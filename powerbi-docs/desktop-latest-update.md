@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/08/2017
 ms.author: davidi
-ms.openlocfilehash: b08cf6b2f01252773fdeec07b6a2e135e14101a5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a4a348d88bc9613c2d18766ff1ea398538088c9b
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新的 Power BI Desktop 中有什麼新功能？
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/15/2017
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
-### <a name="reporting"></a>報告：
+### <a name="reporting"></a>報告
 
 -   資料表和矩陣視覺效果的規則式條件式格式化  [[影片]](https://youtu.be/sI3yRjdnJ7w?t=55s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting) 
 -   資料表和矩陣視覺效果的資料格對齊  [[影片]](https://youtu.be/sI3yRjdnJ7w?t=4m16s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
@@ -54,17 +54,17 @@ ms.lasthandoff: 11/15/2017
 -   最近發行的自訂視覺效果  [[影片]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>分析：
+### <a name="analytics"></a>分析
 
 -   多列卡片之多維度 AS 模型的資料格層級格式  [[影片]](https://youtu.be/sI3yRjdnJ7w?t=27m25s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
 
 
-### <a name="data-connectivity"></a>資料連接：
+### <a name="data-connectivity"></a>資料連線
 
 -   Impala 連接器 - Windows 驗證的支援  [[影片]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)[[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
 
 
-### <a name="other"></a>其他：
+### <a name="other"></a>其他
 
 -   查詢編輯 - 從範例改進新增資料行  [[影片]](https://youtu.be/sI3yRjdnJ7w?t=28m34s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
 

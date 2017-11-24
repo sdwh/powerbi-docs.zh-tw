@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 761f25f92151c2bc2bd6557757de97e6ad8dd54d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ed0d4087912d1f4f6f1b4f6690c3cacd478beae3
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 的 DAX 基本概念
 本文適用對象為剛開始使用 Power BI Desktop 的使用者。 其目的在於以快速且容易了解的方式，為您介紹如何使用資料分析運算式 (DAX)，以便解決一些基本計算和資料分析問題。 我們將逐一探討一些概念性資訊、一系列您可以完成的工作，以及用來測試所學內容的幾項測驗。 完成本文之後，您便可充分了解 DAX 最重要的基本概念。
@@ -88,46 +88,37 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 
 ### <a name="task-create-a-measure-formula"></a>工作：建立量值公式
 若要完成這項工作，您需要開啟 Contoso Sales 範例 Power BI Desktop 檔案。
-
-**1.**在 [報表] 檢視的 [欄位] 清單中，以滑鼠右鍵按一下 **Sales** 資料表，然後按一下 [新增量值]。
-
-**2.**在公式列中，輸入新量值名稱 **Previous Quarter Sales** 來取代 [量值]。
-
-**3.**在等號後面輸入 **SUM**，後面接著左括弧。
-
-> 我們不會輸入資料行名稱直接加總，而是輸入另一個函數，來篩選  要加總的資料。
-> 
-> 
-
-**4.**在括弧之間輸入 **CALCULATE**，後面接著左括弧。
-
-> 您將透過我們傳遞給 CALCULATE 函數的引數，使用 CALCULATE 函數來篩選要加總的金額。 這就是所謂的巢狀函數。 CALCULATE 函數至少有兩個引數。 第一個引數是要評估的運算式，第二個引數是篩選條件。
-> 
-> 
-
-**5.**在 **CALCULATE** 函數的括弧 **()** 之間輸入 **Sales[SalesAmount]**。 這是 CALCULATE 函數的第一個運算式引數。
-
-**6.**鍵入逗號 (**,**) 以指定第一個篩選條件，然後鍵入 **PREVIOUSQUARTER**，後面接著左括弧。
-
-> 您將使用 PREVIOUSQUARTER 時間智慧函數，依上一季來篩選總和結果。
-> 
-> 
-
-**7.**在 PREVIOUSQUARTER 函式的括弧 **()** 之間鍵入 **Calendar[DateKey]**。
-
-> PREVIOUSQUARTER 函數有一個引數，那就是包含連續日期範圍的資料行。
-> 
-> 
-
-**8.**確定這兩個引數都已傳遞至 PREVIOUSQUARTER 函式，並以兩個左括弧 **))** 來結束 CALCULATE 函數。
-
-您的公式現在看起來應該像這樣：
-
-> **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
-> 
-> 
-
-**9.**按一下公式列中的核取記號 ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) 或按 Enter 鍵，以驗證公式並將其加入模型。
+    
+1.  在 [報表] 檢視的 [欄位] 清單中，以滑鼠右鍵按一下 **Sales** 資料表，然後按一下 [新增量值]。
+    
+2.  在公式列中，輸入新量值名稱 **Previous Quarter Sales** 來取代 [量值]。
+    
+3.  在等號後面輸入 **SUM**，後面接著左括弧。
+    
+    我們不會輸入資料行名稱直接加總，而是輸入另一個函數，來篩選  要加總的資料。
+    
+4.  在括弧之間輸入 **CALCULATE**，後面接著左括弧。
+    
+    您將透過我們傳遞給 CALCULATE 函數的引數，使用 CALCULATE 函數來篩選要加總的金額。 這就是所謂的巢狀函數。 CALCULATE 函數至少有兩個引數。 第一個引數是要評估的運算式，第二個引數是篩選條件。
+   
+5.  在 **CALCULATE** 函數的括弧 **()** 之間輸入 **Sales[SalesAmount]**。 這是 CALCULATE 函數的第一個運算式引數。
+    
+6.  鍵入逗號 (**,**) 以指定第一個篩選條件，然後鍵入 **PREVIOUSQUARTER**，後面接著左括弧。
+    
+    您將使用 PREVIOUSQUARTER 時間智慧函數，依上一季來篩選總和結果。
+    
+7.  在 PREVIOUSQUARTER 函式的括弧 **()** 之間鍵入 **Calendar[DateKey]**。
+    
+    PREVIOUSQUARTER 函數有一個引數，那就是包含連續日期範圍的資料行。
+    >
+    
+8.  確定這兩個引數都已傳遞至 PREVIOUSQUARTER 函式，並以兩個左括弧 **))** 來結束 CALCULATE 函數。
+    
+   您的公式現在看起來應該像這樣：
+    
+    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
+    
+9. 按一下公式列中的核取記號 ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) 或按 Enter 鍵，以驗證公式並將其加入模型。
 
 大功告成！ 您剛才使用 DAX 建立的量值並不簡單。 這個公式將根據報表中套用的篩選條件來計算上一季的總銷售額。 例如，如果我們將 SalesAmount 和新的 Previous Quarter Sales 量值置於圖表中，再加入 Year 和 QuarterOfYear 做為交叉分析篩選器，則會得到類似下面的結果：
 

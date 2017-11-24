@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 16c39e646c487789de62d0c030150475c8bb8292
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 12a9462a0594c6a52c7319073120cf323910d3e4
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 散佈圖中的高密度取樣
 從 **Power BI Desktop** 的 2017 年 9 月版和「Power BI 服務」的更新開始，有新的取樣演算法可以改善散佈圖代表高密度資料的方式。
@@ -73,7 +73,7 @@ ms.lasthandoff: 11/15/2017
   
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
-## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>如何針對散佈圖開啟**高密度取樣**
+## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>如何開啟散佈圖的高密度取樣
 若要開啟 [高密度取樣]，請選取散佈圖，然後移至 [格式設定] 窗格，展開 [一般] 卡片。 在接近卡片底部，有一個稱為 [高密度取樣] 的切換滑桿可用。 若要將它開啟，請滑動到 [開啟]。
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)

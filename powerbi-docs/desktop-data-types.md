@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 71822f5d3e40eae4f43df5ab7129796e2a9d87b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da685cf95adb9d9f5bd4891f9447cbfe76759182
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的資料類型
 本文描述 Power BI Desktop 與資料分析運算式 (DAX) 支援的資料類型。 
@@ -30,6 +30,7 @@ ms.lasthandoff: 11/15/2017
 
 由於某些 DAX 函數具有特殊資料類型需求，因此必須執行這項作業。 在多數情況下，DAX 會為您隱含地轉換資料類型，但在某些情況下則不會。  例如，如果 DAX 函數需要 [日期] 資料類型，但您資料行的資料類型為 [文字]，DAX 函數將無法正常運作。  因此，為資料行取得正確的資料類型既重要又實用。 本文稍後將說明隱含轉換。
 
+## <a name="determine-and-specify-a-columns-data-type"></a>判斷及指定資料行的資料類型
 在 Power BI Desktop 中，您可以判斷及指定 [查詢編輯器]、[資料檢視] 或 [報表檢視] 中之資料行的資料類型：
 
 **查詢編輯器中的資料類型**

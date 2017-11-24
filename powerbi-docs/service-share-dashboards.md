@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/14/2017
 ms.author: maggies
-ms.openlocfilehash: 9c88c70de013679ea27faae17a3672c0d172b2a9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>與同事和其他人共用 Power BI 儀表板
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 提供[數種方式可進行共同作業以及散發您的儀表板](service-how-to-collaborate-distribute-dashboards-reports.md)，而共用只是其中的一種功能。
@@ -63,7 +63,7 @@ ms.lasthandoff: 11/15/2017
    
    當組織外的收件者按一下連結時，他們會看到儀表板，但不是在平常的 Power BI 入口網站中。 如需詳細資料，請參閱以下的[與組織外部人員共用儀表板](service-share-dashboards.md#share-a-dashboard-with-people-outside-your-organization)。
 
-## <a name="who-has-access-to-a-dashboard-i-shared"></a>誰可以存取我共用的儀表板？
+## <a name="who-has-access-to-a-dashboard-you-shared"></a>有哪些人員可以存取您共用的儀表板？
 有時您需要查看您已共用儀表板的人員，以及這些人已共用儀表板的其他人員。
 
 1. 在儀表板清單或儀表板本身中，選取 [共用] ![共用圖示](media/service-share-dashboards/power-bi-share-icon.png)。 
@@ -109,13 +109,11 @@ ms.lasthandoff: 11/15/2017
 
 * 一般來說，您和您的同事在儀表板中會看到相同的資料。 因此，如果您的權限看到的資料比他們多，他們就能夠看到您儀表板中所有的資料。 不過，如果[資料列層級安全性 (RLS)](service-admin-rls.md) 已套用至儀表板的基礎資料集，則會使用每個人的認證來決定其可以存取的資料。
 * 共用您儀表板的每個人都可以看到此儀表板，並在[閱讀檢視](service-report-open-in-reading-view.md)中與您的報表互動。 他們無法建立報表，或在現有的報表中儲存變更。
-* 但沒有人可以看到或下載資料集。
+* 沒有人可以看到或下載資料集。
 * 每個人都可以手動[重新整理儀表板資料](refresh-data.md)
 * 如果電子郵件使用 Office 365，您可以輸入與通訊群組相關聯的電子郵件地址來與通訊群組的成員共用。
 * 電子郵件網域與您相同的同事，以及網域不同、但登錄在相同租用戶中的同事，可以與其他人共用儀表板。 例如，假設網域 contoso.com 和 contoso2.com 都登錄在相同的租用戶中。 如果您的電子郵件地址是 konrads@contoso.com，則 ravali@contoso.com 和 gustav@contoso2.com 只要經過您授權共用，就可以共用。
-* 如果您的同事已能存取特定的儀表板，您只需要在儀表板中時，複製該儀表板的 URL，就能傳送該儀表板的直接連結。 例如：   
-  
-    https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx
+* 如果您的同事已能存取特定的儀表板，您只需要在儀表板中時，複製該儀表板的 URL，就能傳送該儀表板的直接連結。 例如：`https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * 同樣地，如果您的同事已能存取特定的儀表板，您可以[傳送基礎報表的直接連結](service-share-reports.md)。 
 
 ## <a name="next-steps"></a>後續步驟

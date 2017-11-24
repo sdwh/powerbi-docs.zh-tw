@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: b425e7ea2cffeff31cc8cf49330ca3835d92165c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f82bcc9d9add1683f593da6457fde2a4bbce2e02
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>在 Power BI Desktop 中從範例新增資料行
 自 **Power BI Desktop** 的 2017 年 4 月版本起，您只要為新資料行提供一或個範例值，就可以使用**查詢編輯器**將資料的新資料行新增到模型。 您可以從目前選取範圍建立新的資料行範例，也可以依據指定資料表中的所有 (或所選) 資料行提供輸入。
@@ -83,26 +83,29 @@ ms.lasthandoff: 11/15/2017
 
 * **參考**
   
-  * 特定資料行的參考 (包括修剪、清除 (2017 年 6 月) 和大小寫轉換)
+  * 特定資料行的參考 (包括修剪、清除及大小寫轉換)
+
 * **文字轉換**
   
   * 合併 (支援結合常值字串與整個資料行值)
   * 取代
   * 長度
-  * 擷取
-    
+  * 擷取   
     * 前幾個字元
     * 後幾個字元
     * 範圍
     * 分隔符號前的文字
     * 分隔符號後的文字
     * 分隔符號之間的文字
-  * 從 2017 年 6 月發行的 **Power BI Desktop** 開始，有下列支援的**文字轉換**可用：
-    
     * 長度
 
+* 從 **Power BI Desktop** 的 2017 年 11 月版本開始支援下列**文字轉換**：
+    
+  * 移除字元
+  * 保留字元
+
 > [!NOTE]
-> 請留意，所有「文字」轉換都可能必須修剪、清除 (2017 年 6 月) 或將大小寫轉換套用到資料行值。
+> 所有「文字」轉換皆考量到欄位值可能需要的修剪、清除或套用大小寫轉換。
 > 
 > 
 
@@ -118,8 +121,6 @@ ms.lasthandoff: 11/15/2017
   * 月中的週
   * 年中的週
   * 年
-* 從 2017 年 6 月 **Power BI Desktop** 發行開始，有下列支援的額外**日期轉換**可用：
-  
   * 存留期
   * 年初
   * 年底
@@ -133,13 +134,13 @@ ms.lasthandoff: 11/15/2017
   * 月中的日
   * 一日開始
   * 一日結束
+
+
 * **時間轉換**
   
   * 小時
   * 分鐘
-  * 秒
-* **日期/時間/時區轉換**從 2017 年 7 月 **Power BI Desktop** 發行開始，有下列支援的轉換可用：
-  
+  * 秒  
   * 當地時間
 
 > [!NOTE]
@@ -147,7 +148,8 @@ ms.lasthandoff: 11/15/2017
 > 
 > 
 
-* **數字轉換** - 從 2017 年 7 月 **Power BI Desktop** 發行開始，有下列支援的轉換可用：
+* **數字轉換** 
+
   * 絕對值
   * 反餘弦值
   * 反正弦值
@@ -175,3 +177,10 @@ ms.lasthandoff: 11/15/2017
   * 加總
   * 正切值
 
+* 從 **Power BI Desktop** 2017 年 11 月版本開始支援下列**數字轉換**：
+
+  * 建立貯體/範圍
+
+* **一般**
+  
+  * 條件資料行

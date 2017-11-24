@@ -17,22 +17,22 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: f7e7f0df4791fb4f9af67c4a5d885aa0e830f7df
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 06abac9ceba037769f9720dfbc4f0b32d5486686
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常見查詢工作
 當使用 Power BI Desktop 的 [查詢編輯器]  視窗時，有很多常用的工作。 本文將示範這些常見工作，並提供其他資訊的連結。 
 
 這裡示範的常見查詢工作如下所示：
 
-* 連接至資料
-* 塑造及合併資料
-* 分組資料列
+* 連接到資料
+* 資料成形及合併
+* 將資料列分組
 * 樞紐資料行
-* 建立自訂的資料行
+* 建立自訂資料行
 * 查詢公式
 
 我們將使用幾個資料連線來完成這些工作。 如果您想要自行逐步執行這些工作，可以下載或連接至資料。
@@ -43,7 +43,7 @@ ms.lasthandoff: 11/15/2017
 
 連接至這兩個資料來源所需的步驟是常見查詢工作的開始位置。
 
-## <a name="connect-to-data"></a>連接至資料
+## <a name="connect-to-data"></a>連接到資料
 若要連接至 Power BI Desktop 中的資料，請從功能區上的 [主資料夾]  索引標籤選取 [取得資料]  按鈕。 Power BI Desktop 會呈現一個功能表，其中具有最常見的資料來源。 如需 Power BI Desktop 可連接的資料來源完整清單，請選取功能表底部的 [其他...]  按鈕。 如需詳細資訊，請參閱 [Power BI Desktop 中的資料來源](https://powerbi.uservoice.com/knowledgebase/articles/471643).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
@@ -68,7 +68,7 @@ ms.lasthandoff: 11/15/2017
 
 如需連接至 Power BI Desktop 資料的逐步示範，請參閱[連接至 Power BI Desktop 中的資料](https://powerbi.uservoice.com/knowledgebase/articles/471635).
 
-## <a name="shape-and-combine-data"></a>塑造及合併資料
+## <a name="shape-and-combine-data"></a>資料成形及合併
 您可以輕鬆地使用查詢編輯器塑造及合併資料。 本節包含一些範例，說明如何塑造資料。 如需資料成形及合併的更完整示範，請參閱 [使用 Power BI Desktop 合併資料並使其成形](https://powerbi.uservoice.com/knowledgebase/articles/471644)。
 
 在上一節中，我們連接到兩組資料 – Excel 活頁簿和 Web 資源。 一旦載入到查詢編輯器中，我們會看到下列畫面，包含選取網頁上的查詢 (從 [查詢]  窗格中所列的可用查詢，在 [查詢編輯器] 視窗的左邊)。
@@ -83,7 +83,7 @@ ms.lasthandoff: 11/15/2017
 
 有許多方式可以在此查詢中塑造資料；我可以移除從頂端或底部算起的任何數目的資料列；我可以加入資料行、分割資料行、取代值和執行其他塑造工作，來指示查詢編輯器將資料處理成我要的樣子。
 
-## <a name="group-rows"></a>分組資料列
+## <a name="group-rows"></a>將資料列分組
 在查詢編輯器中，您可以將多個資料列的值分組成單一值。 這適用於彙總提供的產品數、總銷售額或學生人數。
 
 在此範例中，我們將分組教育註冊資料集中的資料列。 資料來自 Excel 活頁簿，並且已在查詢編輯器中塑造，只取得我們需要的資料行、重新命名資料表，並執行一些其他轉換。
@@ -122,7 +122,7 @@ ms.lasthandoff: 11/15/2017
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotcomplete.png)
 
-## <a name="create-custom-columns"></a>建立自訂的資料行
+## <a name="create-custom-columns"></a>建立自訂資料行
 在查詢編輯器中，您可以建立自訂公式，對資料表中的多個資料行進行操作，然後將這類公式的結果放入新的 (自訂) 資料行。 查詢編輯器可讓您輕鬆地建立自訂的資料行。
 
 在查詢編輯器中，從功能區上的 [加入資料行]  索引標籤，選取 [加入自訂資料行]  。

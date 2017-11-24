@@ -196,8 +196,6 @@
           href: service-connect-to-tygraph.md
         - name: UserVoice
           href: service-connect-to-uservoice.md
-        - name: Visual Studio Team Services
-          href: service-connect-to-visual-studio.md
         - name: VMob
           href: service-connect-to-vmob.md
         - name: Webtrends
@@ -402,10 +400,6 @@
           href: power-bi-visualization-export-data.md
         - name: 變更 Power BI 報表的視覺效果類型
           href: power-bi-report-change-visualization-type.md
-        - name: 在 Power BI 報表中加入自訂視覺效果
-          href: power-bi-report-add-custom-visual.md
-        - name: 下載並使用 Office 市集的自訂視覺效果
-          href: service-custom-visuals-office-store.md
         - name: 開始使用色彩格式和軸屬性
           href: service-getting-started-with-color-formatting-and-axis-properties.md
         - name: 在 Power BI 中色彩格式化的秘訣和訣竅
@@ -532,6 +526,8 @@
           href: service-gateway-onprem-tshoot.md
         - name: Power BI Gateway - Personal
           href: personal-gateway.md
+        - name: 使用 Kerberos 進行單一登入 (SSO)
+          href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: 設定 Proxy 設定
           href: service-gateway-proxy.md
         - name: 管理您的企業資料來源 - Analysis Services
@@ -756,8 +752,6 @@
           href: desktop-insights.md
         - name: Power BI 中的書籤
           href: desktop-bookmarks.md
-        - name: 在報表中新增自訂視覺效果 (Desktop)
-          href: power-bi-custom-visuals-use.md
         - name: 使用報表主題
           href: desktop-report-themes.md
         - name: 使用快速量值
@@ -962,8 +956,6 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: 檢閱自訂視覺效果的安全性與隱私權
           href: service-custom-visuals-review-for-security-and-privacy.md
-        - name: 將自訂視覺效果發佈至 Office 市集
-          href: developer/office-store.md
         - name: 讓自訂視覺效果獲得認證
           href: power-bi-custom-visuals-certified.md
     - name: 將資料推送至儀表板

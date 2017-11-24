@@ -17,14 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/27/2017
 ms.author: mihart
-ms.openlocfilehash: 338f45ec7aa4564dfd17678b5c5296a08c078334
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: cfd085913ea1ef2cf08942ca4570f98eba34a3d4
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的零售分析範例教學
-## <a name="about-the-retail-analysis-sample"></a>關於零售分析範例
+
 這個產業範例的儀表板、基礎資料集和報表，會分析在多個門市和區域售出之品項的零售資料。 計量會比較今年與去年在以下領域的表現：銷售、單位、毛利率和變異數，以及新門市分析。 此為來自 obviEnce 的匿名真實資料 ([www.obvience.com](http://www.obvience.com))。
 
 您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529778).
@@ -134,7 +134,7 @@ ms.lasthandoff: 11/13/2017
 
 這是安全的作業環境。 您一律可以選擇不儲存變更。 但如果儲存了變更，您也可以隨時移至 [取得資料]，重新複製此範例。
 
-## <a name="next-steps-connect-to-your-data"></a>下一步：連接到您的資料
+## <a name="connect-to-your-data"></a>連線到您的資料
 希望本教學已讓您了解 Power BI 儀表板、問與答和報表能夠如何提供零售資料的深入資訊。 現在輪到您了 — 連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 深入了解[開始使用 Power BI](service-get-started.md).
 
 ## <a name="next-steps"></a>後續步驟

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/09/2017
 ms.author: asaxton
-ms.openlocfilehash: dafd1d7891410818cc2c23031bf1a5f8c750438e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b09c497f04a59819f42e1841dd79912d19303041
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>以個人身分註冊 Power BI
 了解如何註冊 Power BI，並開始利用它來滿足您的個人報告和視覺效果需求。
@@ -57,7 +57,7 @@ Power BI 會要求您使用公司或學校的電子郵件地址來註冊。 Powe
 > 
 > 
 
-## <a name="which-one-do-i-need"></a>我需要何種選項
+## <a name="which-one-do-you-need"></a>您需要哪一項？
 您可以檢閱每個授權類型隨附的功能，以判斷您需要何種選項。 免費使用者可取得服務的大部分功能，但不包括共用和共同作業功能。 Power BI Pro 使用者可以利用服務中的所有功能，但不是免費。 如果您不需要共用任何內容，則「免費」可能適合您。 請至 [Power BI 定價頁面](https://powerbi.microsoft.com//pricing/)深入了解。
 
 本文其餘部分將探討如何註冊每個選項。
@@ -93,7 +93,7 @@ Power BI 會要求您使用公司或學校的電子郵件地址來註冊。 Powe
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup7.png)
 
-### <a name="what-if-im-already-part-of-an-existing-organization"></a>如果我已經屬於現有的組織，該怎麼做？
+### <a name="what-if-youre-already-part-of-an-existing-organization"></a>如果您已經屬於現有的組織，該怎麼做？
 如果您的帳戶屬於現有的組織，您會收到訊息，要求您要使用該帳戶登入。 選取 [繼續]，然後以您的 Office 365 登入資訊登入。
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup5.png)
@@ -102,7 +102,7 @@ Power BI 會要求您使用公司或學校的電子郵件地址來註冊。 Powe
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup6.png)
 
-## <a name="in-service-power-bi-pro-60-day-trial"></a>服務內的 Power BI Pro 60 天試用版
+## <a name="in-service-power-bi-pro-60-day-trial"></a>服務內的 Power BI Pro 60 天試用
 當您已註冊免費帳戶之後，可以選擇免費試用 Pro 版 60 天。 在試用期間您將可存取所有的 Pro 功能。 Power BI Pro 有 Power BI 免費版本的所有功能，還有其他共用和共同作業功能。 如需詳細資訊，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing)。 若要嘗試 Power BI Pro 的 60 天免費試用版，請登入 Power BI，然後嘗試 Power BI Pro 的功能：
 
 * [建立應用程式工作區](service-create-distribute-apps.md)
@@ -132,7 +132,7 @@ Power BI 會要求您使用公司或學校的電子郵件地址來註冊。 Powe
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial3.png)
 
-## <a name="what-if-you-want-the-full-power-bi-pro"></a>如果您想要完整的 Power BI Pro，該怎麼辦？
+## <a name="what-if-you-want-the-full-power-bi-pro"></a>如果您想要完整的 Power BI Pro，該怎麼做？
 無法以個人身分取得 Power BI Pro 授權。 您必須連絡 IT 系統管理員來購買和指派授權給您的帳戶。 如需詳細資訊，請參閱[購買 Power BI Pro](service-admin-purchasing-power-bi-pro.md)。
 
 ## <a name="troubleshooting"></a>疑難排解

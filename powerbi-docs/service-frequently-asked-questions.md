@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 48b0899d27e41cbc1d33d018696dd57d7c6f989a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e4cd07ca9917e7039fa2d179bbeeaf7962492f93
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>關於 Power BI 的常見問題集
 * 如果您有其他問題，請[嘗試詢問 Power BI 社群](http://community.powerbi.com/)。
@@ -115,9 +115,8 @@ Power BI 資料來源的清單很廣泛，但它可分為下列幾個部分：
 * [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
 * [Windows 市集](http://go.microsoft.com/fwlink/?LinkId=526478)
 
-## <a name="power-bi-desktops-software-license-terms-say-you-may-install-and-use-one-copy-of-the-software-on-your-premises"></a>Power BI Desktop 的軟體授權條款聲明「您可以在您的單位安裝及使用一份軟體的複本。」
-### <a name="does-this-mean-i-am-limited-to-one-copy-of-power-bi-desktop-for-the-entire-company"></a>這代表限制整個公司都只能使用一份 Power BI Desktop 的複本嗎？
-Power BI Desktop 的使用權限不會限制整個公司都只能使用一份 Power BI Desktop 的複本。 每個公司中的個別使用者都可以在其單位安裝並使用一份複本。
+## <a name="am-i-limited-to-one-copy-of-power-bi-desktop-for-my-entire-company"></a>我在整個公司中只能使用一份 Power BI Desktop 的複本嗎？
+Power BI Desktop 的軟體授權條款聲明「您可以在您的單位安裝及使用一份軟體的複本。」 這並未限制您在整個公司中只能使用一份 Power BI Desktop 複本。 每個公司中的個別使用者都可以在其單位安裝並使用一份複本。
 
 ## <a name="where-do-i-get-started-with-power-bi"></a>我要從哪裡開始使用 Power BI？
 下列資源可用來幫助您開始使用：

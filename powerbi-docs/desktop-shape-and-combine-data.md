@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: b222addc2e72308e94a3d8836c8e9039c7208bae
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22c5b8f64ef24f6ef6ff918058a56dc36fefddfa
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>在 Power BI Desktop 中將資料成形及合併
 有了 **Power BI Desktop**，您可以連接到各種不同的資料來源，再將資料成形以符合您的需求。 將資料 *成形* 的意思為轉換資料，例如重新命名資料行或資料表、將文字變更為數值、移除資料列、將第一個資料列設定為標頭等。 「結合」資料的意思為連線到二或多個資料來源、視需要將資料成形，再將它們合併為一個實用的查詢。
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/15/2017
 
 請注意，Power BI Desktop 中的 **查詢編輯器** 經常會用到快顯功能表及功能區。 您可以在 [轉換]  功能區中選取的大多數功能，也可以透過以滑鼠右鍵按一下項目 (例如資料行)，然後從顯示的功能表中進行選擇來加以存取。
 
-## <a name="shape-data"></a>塑造資料
+## <a name="shape-data"></a>資料成形
 當您在查詢編輯器中將資料成形時，您會提供逐步指示 (查詢編輯器會為您執行)，以在查詢編輯器載入及呈現資料時調整資料。 原始資料來源不會受到影響，只有這個特定資料檢視會受調整或「成形」 。
 
 查詢編輯器會記錄您指定的步驟 (例如重新命名資料表、轉換資料類型或刪除資料行)，而且會在這個查詢每次連接到資料來源時執行這些步驟，因此資料一律會以您指定的方式來成形。 每當您使用 Power BI Desktop 的查詢編輯器功能時，或任何人使用您的共用查詢，例如 **Power BI** 服務上的查詢，都會進行這個程序。 系統會循序擷取 [查詢設定]  窗格之 [套用的步驟] 下的所有步驟。
@@ -160,11 +160,11 @@ ms.lasthandoff: 11/15/2017
 
 ![](media/desktop-shape-and-combine-data/shapecombine_usefirstrowasheaders.png)
 
-    >[!NOTE]
-    >This is a good time to point out that the *sequence* of applied steps in Query Editor is important, and can affect how the data is shaped. It’s also important to consider how one step may impact another subsequent step; if you remove a step from the Applied Steps, subsequent steps may not behave as originally intended, because of the impact of the query’s sequence of steps.
+>[!NOTE]
+>現在便可看出查詢編輯器中套用的步驟*順序*很重要，該順序可能會影響資料的成形方式。 同時也必須考慮一個步驟對另一個後續的步驟可能會有什麼影響；如果您從 [套用的步驟] 移除一個步驟，後續的步驟可能就不會和原本預期的行為一樣，這便是受到查詢步驟順序的影響。
 
-    >[!NOTE]
-    >When you resize the Query Editor window to make the width smaller, some ribbon items are condensed to make the best use of visible space. When you increase the width of the Query Editor window, the ribbon items expand to make the most use of the increased ribbon area.
+>[!NOTE]
+>當您調整 [查詢編輯器] 視窗的大小使其變窄時，會壓縮某些功能區項目，以便充分利用可見空間。 當您加寬 [查詢編輯器] 視窗時，功能區項目會展開以充分利用增加的功能區。
 
 * 重新命名資料行和資料表本身 – 一般會有幾種方式可以重新命名資料行，您可以先選取資料行，然後從功能區上的 [轉換] 索引標籤選取 [重新命名]，或者按一下滑鼠右鍵，並從出現的功能表選取 [重新命名…] 。 下圖的箭號指向這兩個選項；您只需要選擇其中一項。
 

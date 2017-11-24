@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
-ms.openlocfilehash: efbf5998bfc419dbcf5d7f685da128f26fcd70dd
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: faaa96ad889b650d1902aa5916c0d9b35c7b49a5
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>教學課程：動態資料列層級安全性與 Analysis Services 表格式模型
 本教學課程示範實作 **Analysis Services 表格式模型**內**資料列層級安全性**的所需步驟，並示範如何將其用於 Power BI 報表中。 本教學課程的步驟設計為讓您依照指示進行，並藉由完成樣本資料集學習所需的步驟。
@@ -166,6 +166,6 @@ ms.lasthandoff: 11/13/2017
 ## <a name="considerations"></a>考量
 當使用資料列層級安全性、SSAS 和 Power BI 時，請牢記幾個考量。
 
-1. 搭配 Power BI 的內部部署資料列層級安全性，僅適用於即時連線。
+1. 搭配 Power BI 的內部部署資料列層級安全性僅適用於即時連線。
 2. 存取報表的使用者是否可立即使用處理模型後的任何資料變更，取決於 Power BI 服務的**即時連線**。
 

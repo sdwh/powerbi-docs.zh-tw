@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 11/21/2017
 ms.author: maikelson
-ms.openlocfilehash: ba59c8dffc9ec79b914fac849e30ca2c0b22fc90
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a9f825afa7fedcec43626ba9b2f26e20a6408b6d
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -31,47 +31,53 @@ ms.lasthandoff: 11/15/2017
 
 開始使用這些熱門的網路研討會
 
-[開始使用 Power BI](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
+- [開始使用 Power BI](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-[如何設計令人驚豔的 Power BI 報表](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+- [如何設計令人驚豔的 Power BI 報表](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-[使用 Power BI Premium 加速採用新式 BI](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
+- [使用 Power BI Premium 加速採用新式 BI](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
+
+- [Power BI 報表伺服器的精彩新功能 - 2017 年 11 月](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
 
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
 進行註冊以收到 Power BI 專家傳來的資訊，並參加即時的問與答會議
 
-[從 Power BI 社群參與即將舉行的網路研討會](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+>[從 Power BI 社群參與即將舉行的網路研討會](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-[銷售與服務的應用智慧 - 11/15/17](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
+- [結合在一起力量更大：Excel 使用者透過使用 Power BI 所能獲得的 5 個好處 - 11/27/17](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
-[Power BI 報表伺服器中的精彩新功能 - 11/21/17](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
+- [製造商：您所處的產業正在經歷數位轉型 - 利用分析功能維持領導地位以獲得最大利益 - 12/05/17](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
-[結合在一起力量更大：Excel 使用者透過使用 Power BI 所能獲得的 5 個好處 - 11/27/17](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
-
-[製造商：您所處的產業正在經歷數位轉型 - 利用分析功能維持領導地位以獲得最大利益 - 12/05/17](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
-
-[改善醫療保健業的獲利能力 - 12/12/17](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
+- [改善醫療保健業的獲利能力 - 12/12/17](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
 ## <a name="on-demand-webinars"></a>隨選網路研討會
 
 在任何時候觀賞錄製下來的會議實況
 
-[瀏覽我們的社群專家所主講的 Power BI 隨選網路研討會影片庫](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+>[瀏覽我們的社群專家所主講的 Power BI 隨選網路研討會影片庫](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-[如何實作成功的資料控管策略好讓組織更加安全](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
+- [如何實作成功的資料控管策略好讓組織更加安全](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 
-[詢問合作夥伴：開發 Power BI 的自訂視覺效果](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
+- [詢問合作夥伴：開發 Power BI 的自訂視覺效果](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
-[Microsoft 如何執行 Power BI](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
+- [Microsoft 如何執行 Power BI](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
 
-[Power BI 安全性深入探討](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
+- [銷售與服務的應用智慧](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
-## <a name="next-steps"></a>後續步驟
+- [Power BI 安全性深入探討](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-[Power BI 白皮書](whitepapers.md)
+## <a name="see-also"></a>另請參閱
 
-[Microsoft Data Insights Summit 2017 隨選會議實況](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
+- [Power BI 白皮書](whitepapers.md)
 
-[開始使用 Power BI](service-get-started.md)
+- [Microsoft Data Insights Summit 2017 隨選會議實況](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
+
+- [開始使用 Power BI](service-get-started.md)
+
+- 在 Twitter 上關注 [@MSPowerBI](https://twitter.com/mspowerbi)
+
+- 訂閱我們的 [YouTube 頻道](https://www.youtube.com/mspowerbi)
+
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
