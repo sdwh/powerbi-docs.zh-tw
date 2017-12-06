@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: e03538061190290b251319a6919b918edc6c38fc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 58cfc6feb510dc9dc335b473b40ee4a7f341ee10
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理您的資料來源─Analysis Services
 安裝內部部署資料閘道之後，您必須新增可搭配閘道使用的資料來源。 本文將探討如何使用閘道和資料來源。 您可以針對已排程的重新整理或即時連線，使用 Analysis Services 資料來源。
@@ -46,7 +46,7 @@ ms.lasthandoff: 11/15/2017
 * 動作和命名集不會公開至 Power BI，但您仍然可以連接至同樣包含動作或命名集的多維度 Cube，然後建立視覺效果和報表。
 
 ## <a name="add-a-gateway"></a>加入閘道
-若要新增閘道，請直接將閘道[下載](https://go.microsoft.com/fwlink/?LinkId=698861)並安裝到您環境中的伺服器上。 安裝閘道之後，它會顯示在 [管理閘道] 底下的閘道清單中。
+若要新增閘道，只要[下載](https://go.microsoft.com/fwlink/?LinkId=698861)閘道並在您環境中的伺服器即可。 安裝閘道之後，它會顯示在 [管理閘道] 底下的閘道清單中。
 
 > [!NOTE]
 > 您必須是至少一個閘道的管理員，才會顯示 [管理閘道]。 當以管理員身分加入閘道時，或者當您安裝並設定閘道時，就會發生這種情況。
@@ -158,7 +158,7 @@ ms.lasthandoff: 11/15/2017
 > 
 > 
 
-在具有可設定「自訂使用者對應」的「內部部署資料閘道」上，執行下列動作：
+在具有可設定自訂使用者對應的內部部署資料閘道上，執行下列動作：
 
 1. 尋找要搜尋的 Active Directory (自動或可設定)
 2. 透過 **Power BI 服務**根據連入的 UPN 字串 (“firstName.lastName@contoso.com”) 來查閱 AD 人員屬性 (例如 Email)。
@@ -169,14 +169,14 @@ ms.lasthandoff: 11/15/2017
 如何設定您的閘道執行 AD 查閱：
 
 1. 下載並安裝最新閘道
-2. 在閘道中，您需要使用網域帳戶來變更要執行的**內部部署資料閘道服務** (而非本機服務帳戶；否則，在執行階段，AD 查閱將無法正常運作)。 您必須重新啟動閘道服務，變更才會生效。  前往您電腦上的閘道應用程式 (搜尋 "on-premises data gateway" 或「內部部署資料閘道」)。 若要這樣做，請移至 [服務設定] > [變更服務帳戶]。 除非您想要改為建立新的閘道，否則請確定您有此閘道的修復金鑰，因為您必須在相同的電腦上才能進行還原。 
+2. 在閘道中，您需要使用網域帳戶來變更要執行的**內部部署資料閘道服務** (而非本機服務帳戶；否則在執行階段，AD 查閱將無法正常運作)。 您必須重新啟動閘道服務，變更才會生效。  前往您電腦上的閘道應用程式 (搜尋 “on-premises data gateway” 或「內部部署資料閘道」)。 若要這樣做，請移至 [服務設定] > [變更服務帳戶]。 除非您想要改為建立新的閘道，否則請確定您有此閘道的修復金鑰，因為您必須在相同的電腦上才能進行還原。 
 3. 以系統管理員身分巡覽至閘道的安裝資料夾 *C:\Program Files\On-premises data gateway*，確認您具有寫入權限，並編輯下列檔案：
    
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. 根據「您的」 AD 使用者的 Active Directory 屬性設定，編輯下列兩個設定值。 下面所示的設定值只是範例，而您必須根據 Active Directory 設定來指定它們。 
    
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
-5. 重新啟動「內部部署資料閘道」服務，以讓設定變更生效。
+5. 重新啟動**內部部署資料閘道**服務，以讓設定變更生效。
 
 ### <a name="working-with-mapping-rules"></a>使用對應規則
 若要建立對應規則，請輸入一個**原始名稱**和 **新名稱**，然後選取 [新增]。
@@ -192,7 +192,7 @@ ms.lasthandoff: 11/15/2017
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard"></a>使用萬用字元 (*)
+### <a name="using-wildcard-"></a>使用萬用字元 (*)
 [Replace (Original name)] \(取代 (原始名稱)) 字串可以使用萬用字元。 它只能用於本身，不能搭配任何其他字串部分。 這可讓您接受所有使用者，將單一值傳遞給資料來源。 當您希望組織中的所有使用者在本機環境中使用同一使用者時，這非常有用。
 
 ### <a name="test-a-mapping-rule"></a>測試對應規則
@@ -221,7 +221,7 @@ ms.lasthandoff: 11/15/2017
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings8.png)
 
 ## <a name="manage-users"></a>管理使用者
-您可以在 [使用者] 索引標籤上，針對資料來源加入並移除可以使用這個資料來源的使用者或安全性群組。
+您可以在 [使用者] 索引標籤上，為資料來源新增及移除可以使用這個資料來源的使用者或安全性群組。
 
 > [!NOTE]
 > 使用者清單僅控制獲准發行報表的人員。 報表擁有者可以建立儀表板或內容套件，並與其他使用者共用。

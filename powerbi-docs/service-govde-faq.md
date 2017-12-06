@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/28/2017
 ms.author: davidi
-ms.openlocfilehash: a606798e613bbfa4c1f304d89afa5f8ebd02f81d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9a2f191dcf88d3506ab0724c0916064b31fbf3f0
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>德國雲端客戶的 Power BI 常見問題集
 **Power BI 服務**為歐盟/歐洲自由貿易協定 (EU/EFTA) 客戶提供一個版本，通常稱為 Microsoft Cloud Deutschland (MCD)。 本文所討論的 **Power BI 服務**版本為 EU/EFTA 客戶專屬，獨立且不同於商用版本的 **Power BI 服務**，或提供給政府客戶的 Power BI 服務。
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/15/2017
 4. **德國雲端的 Power BI 服務中有免費服務嗎？**
    
    否。 我們未在德國雲端的 Power BI 服務中提供免費授權版本。 不過，如果您的業務需求與 Power BI 免費供應項目相符，我們也鼓勵您註冊[公用雲端中的 Power BI 免費供應項目](https://powerbi.microsoft.com/get-started/)。
-5. **我可以搭配德國雲端的 Power BI 服務，使用 Power BI Desktop、Power BI Mobile、內部部署資料閘道及 Publisher for Excel 嗎？**
+5. **我可以搭配德國雲端的 Power BI 服務，使用 Power BI Desktop、Power BI 行動版、內部部署資料閘道及 Publisher for Excel 嗎？**
    
    是。 我們更新了 Power BI 用戶端產品，以搭配德國雲端的 Power BI 服務順暢運作。 請使用您的德國雲端 Power BI 服務帳戶登入，開始使用與德國雲端 Power BI 服務相同的用戶端產品。 您可以從下列位置下載最新版本的用戶端產品：
    

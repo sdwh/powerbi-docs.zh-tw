@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bcb859fe6364f28a59607f28f675f89e1a562f8e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7774153ff73fb67a434ac79016507a2e94cf40f1
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal 疑難排解
 以下探討使用 Power BI Gateway - Personal 時可能遇到的一些常見問題。
@@ -86,7 +86,10 @@ ms.lasthandoff: 11/15/2017
 如果您有大小超過 4 MB 的單一資料列，就可能發生這種情況。 您必須從資料來源判斷那是什麼資料列，並嘗試加以篩選或縮減該資料列的大小。
 
 ## <a name="data-sources"></a>資料來源
-**遺漏資料提供者** - 個人閘道只有 64 位元版本。 必須將資料提供者的 64 位元版本安裝在個人閘道安裝的相同電腦上。 例如，如果該資料集的資料來源是 Microsoft Access，您就必須將 64 位元的 ACE 提供者安裝在安裝了個人閘道的相同電腦上。  **注意** ：如果您有 32 位元 Excel，您就無法在同一部電腦上安裝 64 位元的 ACE 提供者。
+**遺漏資料提供者** - 個人閘道只有 64 位元版本。 必須將資料提供者的 64 位元版本安裝在個人閘道安裝的相同電腦上。 例如，如果該資料集的資料來源是 Microsoft Access，您就必須將 64 位元的 ACE 提供者安裝在安裝了個人閘道的相同電腦上。  
+
+>[!NOTE]
+>如果您有 32 位元 Excel，就無法在同一部電腦上安裝 64 位元的 ACE 提供者。
 
 **Access 資料庫不支援 Windows 驗證** - Power BI 目前對於 Access 資料庫僅支援匿名操作。 我們正在研究如何啟用 Access 資料庫的 Windows 驗證。
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: ceb39db7a69335e059d958a29fecfa9849fe2ae8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 55caee3b289f187d6b955c216098313b483956f5
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>尋找已登入的 Power BI 使用者
 如果您是租用戶系統管理員，而且想要查看誰已登入 Power BI，可以使用 Azure Active Directory 存取和使用情況報告來了解情形。
@@ -51,7 +51,7 @@ ms.lasthandoff: 11/13/2017
     ![](media/service-admin-access-usage/azure-portal-sign-ins.png)
 3. 依 [Microsoft Power BI] 或 [Power BI Gateway] 來篩選應用程式，然後選取 [套用]。
    
-    [Microsoft Power BI] 適用於與服務相關的登入活動，而 [Power BI Gateway] 是內部部署資料閘道的特定登入。
+    **Microsoft Power BI** 適用於與服務相關的登入活動，而 **Power BI Gateway** 是內部部署資料閘道的特定登入。
    
     ![](media/service-admin-access-usage/sign-in-filter.png)
 

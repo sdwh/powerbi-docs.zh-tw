@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/02/2017
 ms.author: davidi
-ms.openlocfilehash: 8d592a620f7a18cad3d70a09e6cd7a960683f860
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: e905fa099537f49a9a8e69a9d3121f955b74864f
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="on-premises-data-gateway"></a>內部部署資料閘道
 內部部署資料閘道作為橋接器，替內部部署資料 (非位於雲端的資料) 與 Power BI、Microsoft Flow、Logic Apps 以及 PowerApps 服務之間，提供快速且安全的資料傳輸。
@@ -93,7 +93,7 @@ ms.lasthandoff: 11/17/2017
 ## <a name="troubleshooting"></a>疑難排解
 若您在安裝和設定閘道時遇到問題，請務必參閱[為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)。 若您認為您的防火牆發生問題，請參閱疑難排解文章中的[防火牆或 Proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) 一節。
 
-若您認為自己遇到閘道 Proxy 問題，請參閱[設定 Power BI 閘道的 Proxy 設定](service-gateway-proxy.md)。
+若您認為自己遇到閘道 Proxy 問題，請參閱[進行 Power BI Gateway 的 Proxy 設定](service-gateway-proxy.md)。
 
 ## <a name="next-steps"></a>後續步驟
 [管理您的資料來源─Analysis Services](service-gateway-enterprise-manage-ssas.md)  
@@ -102,7 +102,7 @@ ms.lasthandoff: 11/17/2017
 [管理您的資料來源 - Oracle](service-gateway-onprem-manage-oracle.md)  
 [管理您的資料來源 - 匯入/已排程的重新整理](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [內部部署資料閘道 - 深入資訊](service-gateway-onprem-indepth.md)  
-[內部部署資料閘道 (個人模式) -新版本的個人閘道](service-gateway-personal-mode.md)
-[設定內部部署資料閘道的 Proxy 設定](service-gateway-proxy.md)  
+[內部部署資料閘道 (個人模式) - 新版本的個人閘道](service-gateway-personal-mode.md)
+[進行內部部署資料閘道的 Proxy 設定](service-gateway-proxy.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: 063fd92829c6b642fc33e578026d109d891b8fd5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: bf814b03c4e973afce7115ae111da520af498347
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="on-premises-data-gateway-faq"></a>內部部署資料閘道常見問題集
 <!-- Shared FAQ shared Include -->
@@ -60,7 +60,7 @@ ms.lasthandoff: 11/15/2017
 **問題︰**我需要升級個人閘道嗎？
 **回答︰**否，您可以繼續針對 Power BI 使用個人閘道。
 
-**問題：**透過內部部署資料閘道進行連接時，多久會重新整理一次 Power BI 儀表板中的磚？  
+**問題：**透過內部部署資料閘道連線時，多久會重新整理一次 Power BI 儀表板中的磚？  
 **回答：** 約十分鐘。 DirectQuery 連線就是如此。 這並不表示磚會每十分鐘就對內部部署伺服器發出查詢及顯示新資料。
 
 **問題：** 如果 Excel 活頁簿具有連接到內部部署資料來源的 Power Pivot 資料模型，我可以上傳 Excel 活頁簿嗎？ 針對此案例，我會需要閘道嗎？  

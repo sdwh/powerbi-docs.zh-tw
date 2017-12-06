@@ -1,5 +1,5 @@
 ---
-title: "針對從 Power BI 到內部部署資料來源的 SSO (單一登入)，在內部部署閘道上使用 Kerberos"
+title: "對於從 Power BI 到內部部署資料來源的 SSO (單一登入)，在內部部署閘道上使用 Kerberos"
 description: "使用 Kerberos 設定您的閘道，啟用從 Power BI 到內部部署資料來源的 SSO"
 services: powerbi
 documentationcenter: 
@@ -17,14 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: c676fafe2274139efdc7b4a5be5174b86ade5b50
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: c00281d6b9e8a75df3b08cf1f99d0c9357129816
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 以從 Power BI 單一登入 (SSO) 到內部部署資料來源
-您可以藉由使用 Kerberos 來設定內部部署資料閘道，取得無縫單一登入連線，讓 Power BI 報表和儀表板從內部部署資料更新。 內部部署資料閘道可以使用 DirectQuery 加速單一登入 (SSO)，DirectQuery 是用來連線至內部部署資料來源。
+您可以藉由使用 Kerberos 來設定內部部署資料閘道，取得無縫單一登入連線，讓 Power BI 報表和儀表板從內部部署資料更新。 內部部署資料閘道可以使用 DirectQuery 加速單一登入 (SSO)，也就是用來連線到內部部署資料來源的方法。
 
 目前支援下列資料來源：SQL Server、SAP HANA 和 Teradata，全部都是以 [Kerberos 限制委派](https://technet.microsoft.com/library/jj553400.aspx)為基礎。
 
@@ -85,16 +85,16 @@ ms.lasthandoff: 11/22/2017
 必須設定數個項目，Kerberos 限制委派才能正常運作，包括服務帳戶的「服務主體名稱」(SPN) 和委派設定。
 
 ### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>必要條件 1：安裝及設定內部部署資料閘道
-這個內部部署資料閘道支援就地升級，以及承接現有閘道的設定。
+這個內部部署資料閘道版本支援就地升級，以及承接現有閘道的設定。
 
-### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>必要條件 2：以網域帳戶執行閘道 Windows 服務
+### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>必要條件 2：以網域帳戶身分執行閘道 Windows 服務
 在標準安裝中，閘道是以電腦本機服務帳戶執行 (具體而言是 NT Service\PBIEgwService)，例如下圖顯示的內容：
 
 ![](media/service-gateway-kerberos-for-sso-pbi-to-on-premises-data/kerberos-sso-on-prem_04.png)
 
 若要啟用 **Kerberos 限制委派**，閘道必須以網域帳戶執行，除非 AAD 已與本機 Active Directory 進行同步處理 (使用 AAD DirSync/Connect)。 若要讓這項帳戶變更正確運作，您有兩個選項：
 
-* 如果以舊版內部部署資料閘道開始，請完全依照下列文章中所述的所有五個步驟順序 (包括執行步驟 3 中的閘道設定程式)：
+* 如果從舊版內部部署資料閘道開始，請完全依序遵循下列文章中所述的所有五個步驟 (包括執行步驟 3 中的閘道設定程式)：
   
   * [將閘道服務帳戶變更為網域使用者](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/#changing-the-gateway-service-account-to-a-domain-user)
   * 如果您已經安裝內部部署資料閘道的預覽版本，有一個直接從閘道設定程式切換到服務帳戶的新 UI 引導式方法。 請參閱本文結尾附近的**將閘道切換到網域帳戶**一節。
@@ -118,10 +118,10 @@ ms.lasthandoff: 11/22/2017
 下列各節會輪番說明這些步驟。
 
 ### <a name="configure-an-spn-for-the-gateway-service-account"></a>設定閘道服務帳戶的 SPN
-首先，判斷 SPN 是否已針對作為閘道服務帳戶的網域帳戶建立，但是遵循這些步驟：
+首先，判斷 SPN 是否已經為當作閘道服務帳戶使用的網域帳戶建立，但是遵循這些步驟：
 
 1. 以網域系統管理員身分啟動 **Active Directory 使用者和電腦**
-2. 以滑鼠右鍵按一下網域，選取 [尋找]，然後輸入閘道服務帳戶的帳戶名稱
+2. 以滑鼠右鍵按一下網域，選取 [尋找]，然後鍵入閘道服務帳戶的帳戶名稱
 3. 在搜尋結果中，以滑鼠右鍵按一下閘道服務帳戶，然後選取 [屬性]。
    
    * 如果 [委派] 索引標籤在 [屬性] 對話方塊中顯示，則 SPN 已建立，您可以往前跳至有關設定委派設定的下個小節。
@@ -134,10 +134,10 @@ ms.lasthandoff: 11/22/2017
 
 完成該步驟之後，我們可以繼續設定委派設定。
 
-### <a name="configure-delegation-settings-on-the-gateway-service-account"></a>在閘道服務帳戶上設定委派設定
+### <a name="configure-delegation-settings-on-the-gateway-service-account"></a>在閘道服務帳戶上進行委派設定
 第二個設定需求是閘道服務帳戶上的委派設定。 您可以使用多個工具來執行這些步驟。 在本文中，我們將使用 **Active Directory 使用者和電腦**，這是 Microsoft Management Console (MMC) 嵌入式管理單元，可用來管理及發佈目錄中的資訊，預設可用於網域控制站。 您也可以透過其他電腦上的 **Windows 功能**設定來啟用它。
 
-我們必須使用通訊協定傳輸來設定 **Kerberos 限制委派**。 使用限制委派，您必須明確了解您想要委派到哪個服務 – 例如，只有您的 SQL Server 或 SAP HANA 伺服器接受來自閘道服務帳戶的委派呼叫。
+我們必須使用通訊協定傳輸來設定 **Kerberos 限制委派**。 使用限制委派，您必須明確了解您想要委派到哪個服務。例如，只有您的 SQL Server 或 SAP Hana 伺服器接受來自閘道服務帳戶的委派呼叫。
 
 本節假設您已經為基礎資料來源 (例如，SQL Server、SAP HANA、Teradata 等等) 設定 SPN。 若要了解如何設定這些資料來源伺服器 SPN，請參閱個別資料庫伺服器的技術文件。 您也可以查看部落格文章，描述[*您的應用程式需要何種 SPN？*](https://blogs.msdn.microsoft.com/psssql/2010/06/23/my-kerberos-checklist/)
 
@@ -187,7 +187,7 @@ ms.lasthandoff: 11/22/2017
 此設定在大部分情況下都能運作。 不過，使用 Kerberos 會有不同的設定，根據您的環境而異。 如果仍然無法載入報表，您必須連絡網域系統管理員，以便進一步調查。
 
 ## <a name="switching-the-gateway-to-a-domain-account"></a>將閘道切換到網域帳戶
-稍早在本文中，我們討論了使用**內部部署資料閘道**使用者介面，從本機服務帳戶切換閘道，以便以網域帳戶執行。 以下是完成此作業所需的步驟。
+稍早在本文中，我們討論了如何使用**內部部署資料閘道**使用者介面，將閘道從本機服務帳戶切換為以網域帳戶執行。 以下是完成此作業所需的步驟。
 
 1. 啟動**內部部署資料閘道**設定工具。
    

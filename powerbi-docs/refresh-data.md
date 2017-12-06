@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: ab8b9810029691c13e668710b651843e685006e4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 若要做出正確決策，確保您能夠一直取得最新資料就相當重要。 您可能已經使用 Power BI 中的 [取得資料] 連接及上傳一些資料，也已經建立一些報表和儀表板。 現在，您想要確定您的資料都是最新且最優良的。
@@ -165,7 +165,7 @@ Power BI 中的內容套件有兩種類型：
 
 當連接到使用即時連接的 SQL Server Analysis Services (SSAS) 資料來源時，不像 DirectQuery，SSAS 來源的即時連接，即使在載入報表時都可以對快取執行。 此行為可改善報表的負載效能。 您可以使用 [重新整理] 按鈕向 SSAS 資料來源要求最新的資料。 SSAS 資料來源的擁有者可以設定資料集的排程快取重新整理頻率，以確保需要時能取得最新狀態的報表。 
 
-當您設定內部部署的資料來源時，可以將該資料來源視為已經排程的重新整理選項。 這就如同個人閘道器的替代方案。
+當您設定內部部署資料閘道的資料來源時，可以使用該資料來源當作排程的重新整理選項。 這就如同個人閘道器的替代方案。
 
 > [!NOTE]
 > 如果您的資料集設定為即時或 DirectQuery 連接，則會大約每小時或在與資料互動時重新整理資料集。 您可以在 Power BI 服務的 [排定的快取重新整理] 選項中，手動調整 [重新整理頻率]。
@@ -181,7 +181,7 @@ Power BI 中的內容套件有兩種類型：
 | Oracle |是 |是 |是 |
 | Teradata |是 |是 |是 |
 
-如需深入了解，請參閱[內部部署資料閘道](service-gateway-onprem.md)。
+若要深入了解，請參閱[內部部署資料閘道](service-gateway-onprem.md)
 
 ## <a name="databases-in-the-cloud"></a>雲端資料庫
 使用 DirectQuery，在 Power BI 和雲端資料庫之間就會有直接連線。 當您與視覺效果互動時，會將查詢從 Power BI 直接傳送到資料庫。 接著傳回更新的資料，視覺效果隨即更新。 另外，因為 Power BI 服務和資料來源都位於雲端，所以不需要個人閘道。
@@ -243,7 +243,7 @@ Power BI 中的內容套件有兩種類型：
 > 
 > 
 
-如需深入了解，請參閱 [Power BI 的 Excel 資料](service-excel-workbook-files.md)、[Power BI Gateway - Personal](personal-gateway.md)、[內部部署資料閘道](service-gateway-onprem.md)、[重新整理建立自本機磁碟上 Excel 活頁簿的資料集](refresh-excel-file-local-drive.md)。
+若要深入了解，請參閱 [Power BI 中的 Excel 資料](service-excel-workbook-files.md)、[Power BI Gateway - Personal](personal-gateway.md)、[內部部署資料閘道](service-gateway-onprem.md)、[重新整理建立自本機磁碟上 Excel 活頁簿的資料集](refresh-excel-file-local-drive.md)。
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>包含來自 OData 摘要之資訊的 Power BI Desktop 檔案
 在此情況下，您可在 Power BI Desktop 中使用 [取得資料] 連接及匯入來自 OData 摘要的人口普查資料。  您在 Power BI Desktop 中建立數個報表，然後將檔案命名為 WACensus，並儲存在電腦中的共用。 接著將檔案發佈到 Power BI 服務。

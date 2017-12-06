@@ -1,5 +1,5 @@
 ## <a name="how-the-gateway-works"></a>閘道運作方式
-![on-prem-data-gateway-how-it-works](./media/gateway-onprem-how-it-works-include/on-prem-data-gateway-how-it-works.png)
+![On-prem-data-gateway-how-it-works](./media/gateway-onprem-how-it-works-include/on-prem-data-gateway-how-it-works.png)
 
 我們先來看看使用者與連接至內部部署資料來源的項目互動時的情形。 
 

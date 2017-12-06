@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/23/2017
 ms.author: mihart
-ms.openlocfilehash: 42f9ec1dd56c2317bec07abde9822fc2b5340c07
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c1b926e129e8d82edd9c329a51623908c4e7c9e0
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="aggregates-in-power-bi"></a>Power BI 中的彙總
 ## <a name="what-is-an-aggregate"></a>什麼是彙總？
@@ -115,7 +115,11 @@ ms.lasthandoff: 11/13/2017
 
 答︰另一個可能的原因是，您將欄位放到了只允許類別值的「值區」。  在此情況下，您只能選擇計數與相異計數。
 
-答︰第三個可能的原因是，您使用欄位作為座標軸。 例如，在橫條圖的軸上，Power BI 會針對每個相異值顯示一個橫條，它完全不會彙總欄位值。 注意︰此規則的例外狀況是散佈圖，它「需要」彙總 X 軸和 Y 軸的值。
+答︰第三個可能的原因是，您使用欄位作為座標軸。 例如，在橫條圖的軸上，Power BI 會針對每個相異值顯示一個橫條，它完全不會彙總欄位值。 
+
+>[!NOTE]
+>此規則的例外狀況是散佈圖，「需要」彙總 X 軸和 Y 軸的值。
+
 
 問︰我有散佈圖，而且我希望我的欄位「不要」彙總。  要怎麼做？
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 81a52b1810b2c35f67420741f3f89585626aa577
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 7f01ed805358b5b74a32ae26fb757f592c617088
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
@@ -142,7 +142,7 @@ ms.lasthandoff: 11/22/2017
 ***取得資料***
 
 * 檔案大小限制增加到 1 GB︰Excel 活頁簿和 Power BI Desktop 檔案的檔案大小限制都增加到 1 GB。
-* 找到使用企業閘道和其他閘道更新設定的 SSAS 伺服器︰現在當您設定企業閘道時，貴公司的使用者都能夠在 Power BI 服務中透過 \[Get Data] \(取得資料) 頁面存取這些伺服器。 我們現在還支援使用閘道重新整理內含 SAP Business Warehouse 伺服器資料的資料集，以及在搭配使用 Analysis Services 與閘道時建立 UPN 對應規則。
+* 找到使用 Enterprise 閘道和其他閘道更新設定的 SSAS 伺服器︰現在當您設定 Enterprise 閘道時，貴公司的使用者都能夠在 Power BI 服務中透過 [取得資料] 頁面存取這些伺服器。 我們現在還支援使用閘道重新整理內含 SAP Business Warehouse 伺服器資料的資料集，以及在搭配使用 Analysis Services 與閘道時建立 UPN 對應規則。
 
 ***資料列層級安全性 (RLS)***
 

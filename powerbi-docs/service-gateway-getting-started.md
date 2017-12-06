@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/25/2017
 ms.author: davidi
-ms.openlocfilehash: 617dcbf1d149966369aa0d1566094f6ce820a40a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a93f24dc621dc5b044473fd16cc635fdef987a62
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>開始使用 Power BI 閘道
 歡迎使用**開始使用 Power BI 閘道**指南。 這個簡短逐步解說會帶領您了解閘道的作用、其運作方式，以及如何安裝、設定和執行專屬閘道。  
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/15/2017
 幸好，Power BI 提供兩個閘道，並且針對所有這些案例進行調整。 Power BI 的這兩個閘道供應項目如下︰
 
 * **內部部署資料閘道 (個人模式)** - 可讓一位使用者連線至來源，但不能與其他人共用。 只能與 Power BI 搭配使用。
-* **內部部署資料閘道**：可讓多位使用者連接至多個內部部署資料來源，並且可供 Power BI、**PowerApps**、Flow 和 Azure Logic 應用程式使用，這些都是透過單一閘道安裝來完成。
+* **內部部署資料閘道**：可讓多位使用者連線到多個內部部署資料來源，並且可供 Power BI、PowerApps、Flow 和 Azure Logic Apps 使用，這些都能透過單一閘道安裝來完成。
 
 兩個閘道都執行類似的功能，可方便存取私用內部部署網路上的資料；因此，資料可以用於 Power BI 這類雲端服務中。 個人閘道可供一個人使用，而且只能由 Power BI 使用，而**內部部署資料閘道**可供許多使用者和許多服務使用。
 
@@ -161,8 +161,8 @@ ms.lasthandoff: 11/15/2017
 ## <a name="next-steps"></a>後續步驟
 [使用內部部署資料閘道](service-gateway-onprem.md)  
 [內部部署資料閘道 - 深入資訊](service-gateway-onprem-indepth.md)  
-[內部部署資料閘道 (個人模式)](service-gateway-personal-mode.md)
-
+[在內部部署資料閘道 (個人模式)](service-gateway-personal-mode.md)
 [為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)  
+
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

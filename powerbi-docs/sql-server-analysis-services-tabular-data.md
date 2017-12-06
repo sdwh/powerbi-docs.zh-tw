@@ -17,17 +17,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: 207a779b38aade4c888a2dced503e25d3e7928f9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 6925dc9bcf3e500af18cf63c62f6cb33c297392b
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI 中的 SQL Server Analysis Services 即時資料
 Power BI 有兩種方式可以連接到即時 SQL Server Analysis Services 伺服器。 您可以在 [取得資料] 中連接至 SQL Server Analysis Services 伺服器，或者連接到 [Power BI Desktop 檔案](service-desktop-files.md)或 [Excel 活頁簿](service-excel-workbook-files.md) (該活頁簿已連接至 Analysis Services 伺服器)。
 
  >[!IMPORTANT]
- >* 若要連接到即時 Analysis Services 伺服器，系統管理員必須安裝及設定內部部署資料閘道。 如需詳細資訊，請參閱[內部資料閘道深入探討](service-gateway-onprem.md)。
+ >* 若要連線到即時 Analysis Services 伺服器，必須由系統管理員安裝及設定內部部署資料閘道。 如需詳細資訊，請參閱[內部部署資料閘道](service-gateway-onprem.md)。
  >* 使用閘道時，您的資料會保持內部部署。  根據此資料建立的報表會儲存在 Power BI 服務中。 
  >* Analysis Services 即時連接的[自然語言查詢問與答](service-q-and-a-direct-query.md)目前僅為預覽版。
 

@@ -20,7 +20,7 @@
 * 不同電腦上可安裝多個內部部署資料閘道，並可從相同的 Power BI 閘道管理介面一併管理 (個人模式除外，請參閱下列的項目符號)
 * 每個 Power BI 使用者只能執行一個個人模式閘道。 如果為相同的使用者安裝另一個個人模式閘道 (即使在不同的電腦上)，最新的安裝都會取代先前的既有安裝。
 
-![on-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
+![On-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
 
 以下是安裝閘道前要考慮的事項。
 
@@ -29,11 +29,11 @@
 
 閘道安裝後，您必須使用工作或學校帳戶登入。
 
-![on-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
+![On-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
 
 登入後，您可以選擇要設定新的閘道，還是要移轉、還原或取代現有的閘道。
 
-![on-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
+![On-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
 
 ## <a name="configure-a-new-gateway"></a>設定新的閘道
 1. 輸入**閘道**的名稱
@@ -45,7 +45,7 @@
 > 
 > 
 
-![on-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
+![On-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
 
 ### <a name="migrate-restore-or-take-over-an-existing-gateway"></a>移轉、還原或取代現有的閘道
 您需要選取想要復原的閘道，並提供最初建立閘道時所使用的修復金鑰。

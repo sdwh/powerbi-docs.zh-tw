@@ -950,6 +950,10 @@
           href: developer/migrate-tool.md
         - name: 移轉程式碼片段
           href: developer/migrate-code-snippets.md
+        - name: 為您的內嵌應用程式進行疑難排解
+          href: developer/embedded-troubleshoot.md
+        - name: 常見問題集
+          href: developer/embedded-faq.md
     - name: 建立自訂視覺效果
       items:
         - name: 使用開發人員工具建立自訂視覺效果

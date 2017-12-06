@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 11/27/2017
 ms.author: maikelson
-ms.openlocfilehash: a9f825afa7fedcec43626ba9b2f26e20a6408b6d
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 57b1f5dd0e62ce6119201059b01d81294c8d826c
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -29,9 +29,11 @@ ms.lasthandoff: 11/22/2017
 
 ## <a name="featured-webinars"></a>精選的網路研討會
 
-開始使用這些熱門的網路研討會
+開始使用這些熱門的隨選網路研討會
 
 - [開始使用 Power BI](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
+
+- [相得益彰：Excel 使用者透過使用 Power BI 所能獲得的 5 個好處](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 - [如何設計令人驚豔的 Power BI 報表](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
@@ -45,8 +47,6 @@ ms.lasthandoff: 11/22/2017
 進行註冊以收到 Power BI 專家傳來的資訊，並參加即時的問與答會議
 
 >[從 Power BI 社群參與即將舉行的網路研討會](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-- [結合在一起力量更大：Excel 使用者透過使用 Power BI 所能獲得的 5 個好處 - 11/27/17](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 - [製造商：您所處的產業正在經歷數位轉型 - 利用分析功能維持領導地位以獲得最大利益 - 12/05/17](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 

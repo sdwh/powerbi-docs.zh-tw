@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
-ms.openlocfilehash: faaa96ad889b650d1902aa5916c0d9b35c7b49a5
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 9321572b41a3719f218030565d159e4dc8105863
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>教學課程：動態資料列層級安全性與 Analysis Services 表格式模型
 本教學課程示範實作 **Analysis Services 表格式模型**內**資料列層級安全性**的所需步驟，並示範如何將其用於 Power BI 報表中。 本教學課程的步驟設計為讓您依照指示進行，並藉由完成樣本資料集學習所需的步驟。
@@ -84,7 +84,7 @@ ms.lasthandoff: 11/17/2017
 9. 此公式會指定將所有資料行解析為 false 布林條件。因此，沒有辦法查詢 **DimUserSecurity** 資料表中的資料行。
 10. 現在我們需要處理並部署該模型。 您可以參考[這篇文章](https://msdn.microsoft.com/library/hh231693.aspx) 以取得有關部署模型方面的協助。
 
-## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>工作 3︰將資料來源加入您的內部部署資料閘道
+## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>工作 3︰在您的內部部署資料閘道中新增資料來源
 1. 部署表格式模型以供使用之後，您需要在 Power BI 入口網站中將資料來源連線加入內部部署 Analysis Services 表格式伺服器中。
 2. 若要允許 **Power BI 服務**存取您內部部署的分析服務，必須在環境中安裝及設定**[內部部署資料閘道](service-gateway-onprem.md)**。
 3. 當正確設定閘道之後，必須為 **Analysis Services** 表格式執行個體建立資料來源連接。 本文將說明如何[在 Power BI 入口網站中加入資料來源](service-gateway-enterprise-manage-ssas.md)。

@@ -1,5 +1,5 @@
 ---
-title: "設定內部部署資料閘道的 Proxy 設定"
+title: "進行內部部署資料閘道的 Proxy 設定"
 description: "設定內部部署資料閘道的 Proxy 設定的相關資訊。"
 services: powerbi
 documentationcenter: 
@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 77ae086d4b9c86f0d5ec4c0515ad96919160059d
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 1598a2580c24623abc1bbb5fb5a3590ab0f2a6f6
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/23/2017
 ---
-# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>設定內部部署資料閘道的 Proxy 設定
-您的工作環境可能需要執行 Proxy 以存取網際網路。 這可以防止內部部署資料閘道連接至服務。
+# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>進行內部部署資料閘道的 Proxy 設定
+您的工作環境可能需要執行 Proxy 以存取網際網路。 這可以防止內部部署資料閘道連線到服務。
 
 ## <a name="does-your-network-use-a-proxy"></a>您的網路是否使用 Proxy？
 如欲判斷您的網路是否使用 Proxy，可以參考 Superuser.com 刊登的下列文章。
@@ -58,7 +58,7 @@ Proxy 資訊是在 .NET 設定檔中所設定。 位置和檔案名稱將會隨�
 
 預設設定適用於 Windows 驗證。 若您的 Proxy 使用另一種格式的驗證，您將必須變更設定。 若您不確定，應該連絡網路系統管理員。
 
-若要深入了解.NET 設定檔的 Proxy 項目的設定，請參閱 [defaultProxy 項目 (網路設定)](https://msdn.microsoft.com/library/kd3cf2ex.aspx)
+若要深入了解.NET 設定檔的 Proxy 項目設定，請參閱 [defaultProxy 項目 (網路設定)](https://msdn.microsoft.com/library/kd3cf2ex.aspx)。
 
 ## <a name="changing-the-gateway-service-account-to-a-domain-user"></a>將閘道服務帳戶變更為網域使用者
 如前文所述，將 Proxy 設定為使用預設認證時，您與 Proxy 之間可能會出現驗證問題。 這是因為預設服務帳戶是服務 SID，而不是通過驗證的網域使用者。 您可以變更閘道的服務帳戶，讓 Proxy 驗證順利進行。
@@ -81,7 +81,7 @@ Proxy 資訊是在 .NET 設定檔中所設定。 位置和檔案名稱將會隨�
         net stop PBIEgwService
    
         net start PBIEgwService
-3. 啟動**內部部署資料閘道設定程式**。 您可以先選取 Windows 的 [開始] 按鈕，然後搜尋 *內部部署資料閘道*。
+3. 啟動**內部部署資料閘道設定程式**。 您可以選取 Windows 的 [開始] 按鈕，然後搜尋「內部部署資料閘道」。
 4. 登入 Power BI。
 5. 使用您的修復金鑰還原閘道。
    

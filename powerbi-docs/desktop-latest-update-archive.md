@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/08/2017
 ms.author: davidi
-ms.openlocfilehash: 0d25b8415926b1049c84359fdee0f6a339064b58
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 1ad6621683d6f28b63af373372c1d5100a0abd16
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -241,7 +241,7 @@ ms.lasthandoff: 11/15/2017
 ### <a name="data-connectivity"></a>資料連接：
 
 -   自訂資料連接器支援 [[影片]](https://youtu.be/YlNVE5dgcSI?t=25m53s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#customConnectors)
--   **Power BI 服務** 即時連線至內部部署和發送串流資料集 [[影片]](https://youtu.be/YlNVE5dgcSI?t=26m42s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#liveConnect)
+-   **Power BI 服務**對內部部署的 Live Connect 發送串流資料集 [[影片]](https://youtu.be/YlNVE5dgcSI?t=26m42s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#liveConnect)
 -   Impala 連接器現在正式推出 [[影片]](https://youtu.be/YlNVE5dgcSI?t=27m20s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)
 -   Amazon Redshift 連接器現在正式推出 [[影片]](https://youtu.be/YlNVE5dgcSI?t=27m20s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#redshift)
 -   SAP BW 連接器 - DirectQuery 支援 [[影片]](https://youtu.be/YlNVE5dgcSI?t=27m45s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#sapBW)

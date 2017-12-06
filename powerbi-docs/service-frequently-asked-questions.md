@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: e4cd07ca9917e7039fa2d179bbeeaf7962492f93
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 61d74fb9c25abb0cbc5135795d5567016f88b0c0
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>關於 Power BI 的常見問題集
 * 如果您有其他問題，請[嘗試詢問 Power BI 社群](http://community.powerbi.com/)。
@@ -75,7 +75,7 @@ Power BI 不支援消費者電子郵件服務或電信提供者所提供的電�
 Power BI 服務 [https://powerbi.com](https://powerbi.com) 不以私人的內部雲端服務形式提供。 不過，您有另外三個選項來檢視及使用內部部署資料。 
 
 ### <a name="on-premises-data-gateway"></a>內部部署資料閘道
-使用 Power BI 和 Power BI Desktop，您可以安全地連線到自己的內部部署資料來源。 使用[內部部署資料閘道](service-gateway-onprem.md)時，可以即時連接到您的內部部署 SQL Server Analysis Services 伺服器及其他資料來源。 您也可以使用集中式閘道設定排程的重新整理。 若無法使用閘道，可以使用 [Power BI Gateway - Personal](personal-gateway.md) 重新整理內部部署資料來源的資料。
+使用 Power BI 和 Power BI Desktop，您可以安全地連線到自己的內部部署資料來源。 使用[內部部署資料閘道](service-gateway-onprem.md)，可以即時連線到您的內部部署 SQL Server Analysis Services 伺服器及其他資料來源。 您也可以使用集中式閘道設定排程的重新整理。 若無法使用閘道，可以使用 [Power BI Gateway - Personal](personal-gateway.md) 重新整理內部部署資料來源的資料。
 
 ### <a name="power-bi-report-server"></a>Power BI 報表伺服器
 Power BI 報表伺服器是一項解決方案，您可在本身內部加以部署，以建立、發行及管理報表，然後以不同的方式將其傳遞給不同使用者，無論是在網頁瀏覽器中、在他們的行動裝置上或是他們收件匣中的電子郵件都可以。 深入了解 [Power BI 報表伺服器](report-server/get-started.md)。

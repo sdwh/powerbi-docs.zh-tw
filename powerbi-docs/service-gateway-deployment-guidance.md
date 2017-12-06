@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: a96651f55860fd057d50d77dc4dffab4da91cdc5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 3caf9f8aef802e8423f6a3940e55aba99331b912
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>部署 Power BI 之資料閘道的指引
 本文提供在網路環境中部署資料閘道的指引和考量。 **閘道**是一種軟體，可針對雲端服務中的後續使用 (例如 Power BI)，方便存取私用內部部署網路上的資料。 本文會引導您完成部署，並提供**內部部署資料閘道**安裝的指引。
@@ -52,7 +52,7 @@ ms.lasthandoff: 11/15/2017
 * **排程重新整理**：根據查詢大小以及每天發生的重新整理次數，您可以選擇保持建議的最低硬體需求，或升級為更高效能的電腦。 如果未摺疊指定的查詢，就會在閘道電腦上進行轉換；因此，閘道電腦受惠於具有更多可用的 RAM。
 * **DirectQuery**：每次任何使用者開啟報表或查看資料時，都會傳送查詢。 因此，如果您預期有 1,000 位以上的使用者同時存取資料，則您會想要確定電腦具有穩固且支援硬體的元件。 更多的 CPU 核心將會導致 **DirectQuery** 連接具有更佳的輸送量。
 
-安裝**內部部署資料閘道**之電腦的需求如下：
+安裝**內部部署資料閘道**的電腦需求如下：
 
 **最低：**
 
@@ -90,7 +90,7 @@ ms.lasthandoff: 11/15/2017
 #### <a name="logs"></a>記錄
 設定和服務記錄會提供有關閘道發生情況的另一個維度。 因為並非所有錯誤訊息都會顯示在 Power BI 服務上，所以當您的連接未如預期運作時，請一律檢查閘道記錄。
 
-檢視本機電腦上所有記錄檔的簡單方法，是在初始安裝完成之後，於重新開啟閘道時使用 **內部部署資料閘道上的 [匯出記錄] 按鈕，然後選取 [診斷] > [匯出記錄]。
+檢視本機電腦上所有記錄檔的簡單方法，是在初始安裝完成之後，於重新開啟閘道時使用**內部部署資料閘道**上的 [匯出記錄] 按鈕，然後選取 [診斷] > [匯出記錄]。
 
 #### <a name="additional-logging"></a>其他記錄
 閘道預設會執行基本記錄。 如果您要調查閘道問題，並且需要查詢連接詳細資料的詳細資訊，則可以暫時啟用「詳細資訊記錄」收集其他記錄資訊。 若要這樣做，請在已安裝的閘道中選取 [診斷] > [其他記錄]。
@@ -134,7 +134,7 @@ ms.lasthandoff: 11/15/2017
 在您登入之後，請選取 [Migrate an existing gateway]\(移轉現有閘道) 選項。 接下來，您需要選擇想要復原或移轉的閘道，最後提供修復金鑰，並點擊 [設定]。 完成該步驟之後，新的閘道將會取代舊的閘道，而且新的閘道將會繼承其名稱以及所有先前設定的資料來源。 所有資料來源現在都會經過新的電腦，而不需要重新發佈任何項目。 尚未支援自動容錯移轉，但它是閘道小組主動考量的功能。
 
 #### <a name="administrators"></a>管理員
-您可以在 **Power BI 服務**中找到閘道管理員清單。 登入 **Power BI 服務時，請選取 [設定]\(齒輪圖示) -> [管理閘道] -> [閘道 UI]。  
+您可以在 **Power BI 服務**中找到閘道管理員清單。 登入 **Power BI** 服務時，請選取 [設定]&nbsp;(齒輪圖示) > [管理閘道] > [閘道 UI]。  
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_05.png)
 

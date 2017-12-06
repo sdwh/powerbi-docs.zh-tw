@@ -45,7 +45,7 @@
 > 
 
 ## <a name="forcing-https-communication-with-azure-service-bus"></a>強制與 Azure 服務匯流排進行 HTTPS 通訊
-您可以強制閘道器使用 HTTPS 與 Azure 服務匯流排進行通訊，而不使用直接 TCP。 這可能會對效能產生影響。 若要這樣做，請修改 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 檔案，方法是將值從 `AutoDetect` 變更為 `Https`，如本段後面接著的程式碼片段所示。 該檔案 (依預設) 位於 C:\Program Files\On-premises data gateway。
+您可以強制閘道使用 HTTPS 與 Azure 服務匯流排進行通訊，而不使用 TCP。 這可能會對效能產生影響。 若要這樣做，請修改 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 檔案，方法是將值從 `AutoDetect` 變更為 `Https`，如本段後面接著的程式碼片段所示。 該檔案 (依預設) 位於 C:\Program Files\On-premises data gateway。
 
 ```
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
@@ -55,7 +55,7 @@
 
 ServiceBusSystemConnectivityModeString 參數的值有區分大小寫。 有效值為「自動偵測」和「Https」。
 
-您也可以使用 [2017 年 3 月](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/)版本開始提供的閘道器使用者介面，強制閘道器採用此行為。 在閘道器使用者介面中選取 [網路]，然後將 [Azure 服務匯流排連線模式] 切換為 [開啟]。
+您也可以使用 [2017 年 3 月](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/)版本開始提供的閘道使用者介面，強制閘道器採用此行為。 在閘道器使用者介面中選取 [網路]，然後將 [Azure 服務匯流排連線模式] 切換為 [開啟]。
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_01.png)
 
@@ -66,9 +66,9 @@ ServiceBusSystemConnectivityModeString 參數的值有區分大小寫。 有效�
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ## <a name="support-for-tls-1112"></a>TLS 1.1/1.2 支援
-有了 2017 年 8 月更新和以上版本之後，內部部署資料閘道預設會使用傳輸層安全性 (TLS) 1.1 或 1.2，以與 **Power BI 服務**進行通訊。 舊版內部部署資料閘道預設會使用 TLS 1.0。 在 2018 年 1 月 15 日，TLS 1.0 支援將結束 (包括閘道使用 TLS 1.0 與 **Power BI 服務**互動的功能)，因此您必須在屆期前將內部部署資料閘道安裝升級為 2017 年 8 月版本或更新版本，以確保閘道持續運作。
+有了 2017 年 8 月更新和以上版本之後，內部部署資料閘道會根據預設，使用傳輸層安全性 (TLS) 1.1 或 1.2 與 **Power BI 服務**通訊。 根據預設，舊版內部部署資料閘道會使用 TLS 1.0。 TLS 1.0 支援將於 2018 年 1 月 15 日結束 (包括閘道使用 TLS 1.0 與 **Power BI 服務**互動的功能)，因此您必須在屆期前將內部部署資料閘道安裝升級為 2017 年 8 月版本或更新版本，以確保閘道持續運作。
 
-請務必注意，在 11 月 1 日之前，內部部署資料閘道仍然支援 TLS 1.0，而且閘道會使用它作為後援機制。 若要確保所有閘道流量使用 TLS 1.1 或 1.2 (以及避免在閘道上使用 TLS 1.0)，您必須新增或修改執行閘道服務之電腦上的下列登錄機碼：
+請務必注意，在 11 月 1 日之前，內部部署資料閘道仍然支援 TLS 1.0，並用以當成後援機制。 若要確保所有閘道流量使用 TLS 1.1 或 1.2 (以及避免在閘道上使用 TLS 1.0)，您必須新增或修改執行閘道服務之電腦上的下列登錄機碼：
 
         [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
         [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001

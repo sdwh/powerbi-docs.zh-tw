@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/25/2017
 ms.author: davidi
-ms.openlocfilehash: 23799e0fcaf2dfc64f8ab7d47aa7d30b3d6ecf17
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 268c06569199bc00b28918b46a142942c9e03ba6
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 有了 **Power BI Desktop**，當您連接到資料來源時，隨時可將資料的複本匯入 **Power BI Desktop**。 對於某些資料來源，可用的替代方式是：使用 **DirectQuery**直接連接到資料來源。
@@ -82,7 +82,7 @@ ms.lasthandoff: 11/15/2017
 ## <a name="publish-to-the-power-bi-service"></a>發行至 Power BI 服務
 使用 **DirectQuery** 建立的報表可以發行至 Power BI 服務。
 
-如果使用的資料來源不需要**內部部署資料閘道** (**Azure SQL Database**、**Azure SQL 資料倉儲**，或 **Redshift**)，就必須提供認證，才能讓已發行的報表顯示在 Power BI 服務。
+如果使用的資料來源不需要**內部部署資料閘道** (**Azure SQL Database**、**Azure SQL 資料倉儲**或 **Redshift**)，就必須提供認證，才能讓已發行的報表顯示在 Power BI 服務中。
 
 您可以提供認證，方法是選取 Power BI 中的 **設定** 齒輪圖示，然後選取 [設定] 。
 
@@ -94,7 +94,7 @@ Power BI 會顯示 [設定] 視窗。 從該處選取 [資料集] 索引標籤�
 
 除非提供認證，否則開啟已發行的報表，或探索使用連接至這類資料來源的 **DirectQuery** 建立的資料集會產生錯誤。
 
-如為 **Azure SQL Database**、**Azure SQL 資料倉儲**，以及 **Redshift** 以外之使用 DirectQuery 的其他資料來源，必須安裝**內部部署資料閘道**，而且必須註冊資料來源以建立資料連線。 您可以[深入了解內部部署資料閘道](http://go.microsoft.com/fwlink/p/?LinkID=627094)。
+若是 **Azure SQL Database**、**Azure SQL 資料倉儲**及 **Redshift** 以外之使用 DirectQuery 的其他資料來源，必須安裝**內部部署資料閘道**，而且必須註冊資料來源以建立資料連線。 您可以[深入了解內部部署資料閘道](http://go.microsoft.com/fwlink/p/?LinkID=627094)。
 
 ## <a name="next-steps"></a>後續步驟
 如需 **DirectQuery** 的詳細資訊，請參閱下列資源：

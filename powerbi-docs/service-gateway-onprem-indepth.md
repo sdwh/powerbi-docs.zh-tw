@@ -1,6 +1,6 @@
 ---
 title: "深入了解內部部署資料閘道"
-description: "這篇文章探討內部部署閘道的深入資訊。 這會探討服務與 Azure Active Directory 之間的運作方式以及本機 Active Directory 使用 Analysis Services 時的運作方式"
+description: "本文探討內部部署閘道的深入資訊。 這會探討服務與 Azure Active Directory 之間的運作方式以及本機 Active Directory 使用 Analysis Services 時的運作方式"
 services: powerbi
 documentationcenter: 
 author: davidiseminger
@@ -17,18 +17,18 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: c030f1b18b654be6bba6a7bf2d10af322567c4d1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ca1761c0708681e6b413ba679980bacb3931e01d
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解內部部署資料閘道
 您組織中的使用者可以看到您的內部部署資料 (他們已經具有存取授權)，但在那些使用者能夠連接至內部部署資料來源之前，內部部署資料閘道必須先行安裝和設定。 此閘道有助於讓雲端的使用者快速安全地以幕後通訊方式，在內部部署資料來源和雲端之間往返。
 
 安裝和設定閘道器通常是由系統管理員完成。 此作業也許需要對內部部署伺服器的專業知識，而且在某些情況下可能需要伺服器管理員權限。
 
-本文不會提供如何安裝和設定閘道器的逐步指引。 為此，請務必查看[內部部署資料閘道](service-gateway-onprem.md)。 本文旨在讓您深入了解閘道器的運作方式。 我們也將深入探討 Azure Active Directory 和 Analysis Services 中使用者名稱和安全性的相關詳細資料，以及雲端服務如何運用使用者用以登入的電子郵件地址、閘道和 Active Directory，進而安全地連接及查詢內部部署資料。
+本文不會提供如何安裝和設定閘道器的逐步指引。 如需該資訊，請務必查看[內部部署資料閘道](service-gateway-onprem.md)。 本文旨在讓您深入了解閘道器的運作方式。 我們也將深入探討 Azure Active Directory 和 Analysis Services 中使用者名稱和安全性的相關詳細資料，以及雲端服務如何運用使用者用以登入的電子郵件地址、閘道和 Active Directory，進而安全地連接及查詢內部部署資料。
 
 <!-- Shared Requirements Include -->
 [!INCLUDE [gateway-onprem-requirements-include](./includes/gateway-onprem-how-it-works-include.md)]

@@ -1,6 +1,6 @@
 ---
-title: "對內部部署資料閘道偵錯"
-description: "本文章提供您對內部部署資料閘道所遇到之問題進行疑難排解的方法。 其提供已知問題可能的因應措施，以及可協助您的工具。"
+title: "為內部部署資料閘道進行疑難排解"
+description: "本文章提供您對內部部署資料閘道問題進行疑難排解的方法。 其提供已知問題可能的因應措施，以及可協助您的工具。"
 services: powerbi
 documentationcenter: 
 author: davidiseminger
@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 2663c9f2adf69ce224de90feb822b7cfedc935a5
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 62405898f06a75fdad9da1f635f01bebdb445d2e
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
-# <a name="troubleshooting-the-on-premises-data-gateway"></a>對內部部署資料閘道偵錯
-本文探討使用「內部部署資料閘道」時可能遇到的一些常見問題。
+# <a name="troubleshooting-the-on-premises-data-gateway"></a>為內部部署資料閘道進行疑難排解
+本文探討使用**內部部署資料閘道**時可能遇到的一些常見問題。
 
 <!-- Shared Community & support links Include -->
 [!INCLUDE [gateway-onprem-tshoot-support-links-include](./includes/gateway-onprem-tshoot-support-links-include.md)]
@@ -82,9 +82,9 @@ ms.lasthandoff: 11/22/2017
 4. 選擇性地套用修復金鑰，以還原現有的閘道。
 
 ### <a name="support-for-tls-1112"></a>TLS 1.1/1.2 支援
-有了 2017 年 8 月更新和以上版本之後，內部部署資料閘道預設會使用傳輸層安全性 (TLS) 1.1 或 1.2，以與 **Power BI 服務**進行通訊。 舊版內部部署資料閘道預設會使用 TLS 1.0。 在 2017 年 11 月 1 日，TLS 1.0 支援將結束；因此，在此日期之前，您必須將內部部署資料閘道安裝升級成 2017 年 8 月版本或更新版本，確保閘道持續運作。
+有了 2017 年 8 月更新和以上版本之後，內部部署資料閘道會根據預設，使用傳輸層安全性 (TLS) 1.1 或 1.2 與 **Power BI 服務**通訊。 根據預設，舊版內部部署資料閘道會使用 TLS 1.0。 TLS 1.0 支援將在 2017 年 11 月 1 日結束；因此，在此日期之前，您必須將內部部署資料閘道安裝升級成 2017 年 8 月版本或更新版本，確保閘道持續運作。
 
-請務必注意，在 11 月 1 日之前，內部部署資料閘道仍然支援 TLS 1.0，而且閘道會使用它作為後援機制。 若要確保所有閘道流量使用 TLS 1.1 或 1.2 (以及避免在閘道上使用 TLS 1.0)，您必須新增或修改執行閘道服務之電腦上的下列登錄機碼：
+請務必注意，在 11 月 1 日之前，內部部署資料閘道仍然支援 TLS 1.0，並用以當成後援機制。 若要確保所有閘道流量使用 TLS 1.1 或 1.2 (以及避免在閘道上使用 TLS 1.0)，您必須新增或修改執行閘道服務之電腦上的下列登錄機碼：
 
         [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
         [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
@@ -169,7 +169,6 @@ ms.lasthandoff: 11/22/2017
 1. 在 Power BI Desktop 中輸入的伺服器和資料庫名稱，不符合閘道已設定的資料來源。 這些必須是相同的值。 它們不區分大小寫。
 2. 您的帳戶未列於閘道組態內資料來源的 [使用者] 索引標籤中。 您必須將閘道的系統管理員加入該清單。
 3. 您的 Power BI Desktop 檔案中有多個資料來源，但並非所有資料來源都是使用閘道設定。 您必須使用閘道定義每個資料來源，才能在排程的重新整理期間顯示閘道。
-
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>錯誤：閘道用戶端上所收到未經壓縮的資料超過限制。
 確切的限制為每個資料表 10 GB 未壓縮的資料。 如果即將達到此限制，您有適當的選項可最佳化及避免此問題。 減少使用高度重複的長字串值並改用標準化索引鍵，或移除資料行 (如果不在使用中) 特別會有幫助。

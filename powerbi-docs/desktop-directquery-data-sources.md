@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/26/2017
 ms.author: davidi
-ms.openlocfilehash: 5de07cb5f834d7f40ddd5391e83afa85edd7233c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9817011491f65f84201c4d26ee04aa5cd8704ab1
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支援的資料來源
 **Power BI Desktop** 和 **Power BI 服務**有許多資料來源供您連線和存取資料。 本文描述 Power BI 的哪些資料來源可支援稱為 **DirectQuery** 的連線方法。 如需 DirectQuery 的詳細資訊，請參閱 [ **Power BI 中的 DirectQuery**](desktop-directquery-about.md)。
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/15/2017
 **(Beta)** 和 **(預覽)** 資料來源唯一的差別是 **(預覽)** 來源必須先啟用成為預覽功能，才可供使用。 若要啟用 **(預覽)** 資料連接器，請在 **Power BI Desktop** 中移至 [檔案] > [選項和設定]，然後移至 [設定] > [選項] > [預覽功能]。
 
 ## <a name="on-premises-gateway-requirements"></a>內部部署閘道需求
-下表指定將報告發佈至 **Power BI 服務**之後，是否需要**內部部署資料閘道**才能連線至指定的資料來源。
+下表指定將報表發佈到 **Power BI 服務**之後，是否需要**內部部署資料閘道**才能連線到指定的資料來源。
 
 | 來源 | 需要閘道？ |
 | --- | --- |
