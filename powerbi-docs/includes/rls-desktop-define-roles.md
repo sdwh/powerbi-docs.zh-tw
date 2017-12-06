@@ -1,10 +1,6 @@
 ## <a name="define-roles-and-rules-within-power-bi-desktop"></a>在 Power BI Desktop 中定義角色和規則
 您可以在 Power BI Desktop 中定義角色和規則。 當發行至 Power BI 時，也會發行角色定義。
 
-如果想要利用動態安全性，您必須啟用預覽切換 [啟用 DirectQuery 的雙向交叉篩選功能]。 這會啟用交叉篩選的功能，並在兩個方向都套用安全性篩選。
-
-![](./media/rls-desktop-define-roles/powerbi-desktop-preview-bi-directional-directquery.png)
-
 若要定義安全性角色，您可以執行下列作業。
 
 1. 將資料匯入 Power BI Desktop 報表，或設定 DirectQuery 連線。

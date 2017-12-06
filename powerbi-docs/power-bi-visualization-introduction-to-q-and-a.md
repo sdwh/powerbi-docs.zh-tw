@@ -28,7 +28,7 @@ ms.lasthandoff: 11/13/2017
 有時若要從您的資料獲得解答，最快的方法是使用自然語言詢問問題。  在本教學課程中，我們將探討由 2 種不同的方式來建立相同的視覺效果：在報表中建立以及在問與答中提問。  
 
 ## <a name="method-1-using-the-report-editor"></a>方法 1：使用報表編輯器
-1. 從您的 Power BI 工作區選取 [Get Data] (取得資料) \> [範例] \> [零售分析範例]  >  [連接]。
+1. 從您的 Power BI 工作區選取 [Get Data] \(取得資料) \> [範例] \> [零售分析範例]  >  [連接]。
    
     ![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
 2. 儀表板包含 [去年度銷售額和本年度銷售額] 區域圖的圖格。  選取此圖格。 
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/13/2017
 3. 選取 [編輯報表] ，在 [編輯檢視] 中開啟報表。  如果您不是報表的擁有者，就不會有在 [編輯] 檢視中開啟報表的選項。
    
     ![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
-4. 選取區域圖，然後在 [欄位]  窗格中檢閱設定。  報表建立者選取了這 3 個值 ([Time > FiscalMonth] (時間 > 會計月份)、[Sales > This Year Sales] (銷售 > 本年度銷售額)、[Sales >Last Year Sales >Value] (銷售 > 去年度銷售額 > 值))，然後在 [軸] 與 [值] 庫中組織這些值，進而建立此圖表。
+4. 選取區域圖，然後在 [欄位]  窗格中檢閱設定。  報表建立者選取了這 3 個值 ([Time > FiscalMonth] \(時間 > 會計月份)、[Sales > This Year Sales] \(銷售 > 本年度銷售額)、[Sales >Last Year Sales >Value] \(銷售 > 去年度銷售額 > 值))，然後在 [軸] 與 [值] 庫中組織這些值，進而建立此圖表。
    
     ![](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
 

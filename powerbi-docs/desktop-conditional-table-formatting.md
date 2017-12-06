@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 5e5366b9f4ba8515f0fe6e2dc7fd0abe761bab8c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5626c022449f40c40611cde2831aa5d373043089
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="conditional-formatting-in-tables"></a>設定資料表格式化的條件
 設定資料表格式化的條件時，您可以根據資料格值指定自訂資料格背景色彩，包括使用漸層色彩。 若要存取條件式格式設定，請在 Power BI Desktop [視覺效果] 窗格的 [欄位] 集區，選取您要格式化的 [值] 集區中，值旁邊的向下箭號 (或以滑鼠右鍵按一下欄位)。 您只能管理 [欄位] 集區之 [值] 區域中的欄位條件式格式設定。

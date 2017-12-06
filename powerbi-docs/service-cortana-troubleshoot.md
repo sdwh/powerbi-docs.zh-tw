@@ -83,14 +83,14 @@ ms.lasthandoff: 11/13/2017
    </br>
    
    ![Power BI 中的回應卡索引標籤](media/service-cortana-troubleshoot/power-bi-answer-card2.png)
-4. 有時候，您初次在 [Utterance] 欄位中鍵入內容時，不會有任何反應。 請把這當作在啟動系統；您正在讓疑難排解工具知道該啟動了。 剪下並貼上，或重新鍵入 [Utterance] 欄位中。 在本例中，回應卡的名稱為 **Cortana stores**。 在工具中貼上或鍵入 **Cortana stores**，會產生單一結果，顯示在 [Interpretations] (解譯) 欄位中。 按一下以查看 Cortana 視窗中所顯示的回應卡，在此情況下，為 **Cortana stores**。
+4. 有時候，您初次在 [Utterance] 欄位中鍵入內容時，不會有任何反應。 請把這當作在啟動系統；您正在讓疑難排解工具知道該啟動了。 剪下並貼上，或重新鍵入 [Utterance] 欄位中。 在本例中，回應卡的名稱為 **Cortana stores**。 在工具中貼上或鍵入 **Cortana stores**，會產生單一結果，顯示在 [Interpretations]\ (解譯) 欄位中。 按一下以查看 Cortana 視窗中所顯示的回應卡，在此情況下，為 **Cortana stores**。
    
    ![Utterance 欄位中的 Cortana stores](media/service-cortana-troubleshoot/power-bi-utterance.png)
    
    因為得到了結果，所以我們現在知道 Cortana **已經**在 Power BI 中啟用。 這把問題的範圍縮小到了 Windows 端、或 Cortana 語言設定，或已讓 100 個以上的資料集使用 Cortana。
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>從儀表板擷取答案時發生問題嗎？
-尋找已與您共用的儀表板嗎？  開啟 [Power BI] > [Shared with me] (與我共用)，並找到儀表板的名稱。  然後在 [Utterance] 欄位中鍵入該名稱。
+尋找已與您共用的儀表板嗎？  開啟 [Power BI] > [Shared with me]\ (與我共用)，並找到儀表板的名稱。  然後在 [Utterance] 欄位中鍵入該名稱。
 
     ![Open Shared with me in Power BI](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 

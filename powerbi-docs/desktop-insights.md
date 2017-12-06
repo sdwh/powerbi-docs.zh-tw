@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: d4b1d1866fc56d48960539a420819d99afc13eb1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e32cf08625d6d36013175ad9533eac8791e76814
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>使用 Power BI Desktop (預覽) 中的深入解析
-您可以要求 **Power BI Desktop** 說明圖表中的增減情況，並取得快速、自動化、具洞察力的資料分析。 只要以滑鼠右鍵按一下資料點，然後選取 [分析] > [說明減少的情形] (如果之前的橫條圖較低的話，則為增加情形)，即會以便於使用的視窗形式將深入解析傳遞給您。
+您可以要求 **Power BI Desktop** 說明圖表中的增減情況，並取得快速、自動化、具洞察力的資料分析。 只要以滑鼠右鍵按一下資料點，然後選取 [分析] > [說明減少的情形] \(如果之前的橫條圖較低的話，則為增加情形)，即會以便於使用的視窗形式將深入解析傳遞給您。
 
 ![](media/desktop-insights/insights_01.png)
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/15/2017
 > 
 
 ## <a name="using-insights"></a>使用深入解析
-若要使用深入解析，只要以滑鼠右鍵按一下橫條圖或線條視覺效果中的任何資料點，然後選取 [分析] > [說明增加的情形] (或 [說明減少的情形]，因為所有深入解析都是以先前的資料點變更為依據)。
+若要使用深入解析，只要以滑鼠右鍵按一下橫條圖或線條視覺效果中的任何資料點，然後選取 [分析] > [說明增加的情形]\ (或 [說明減少的情形]，因為所有深入解析都是以先前的資料點變更為依據)。
 
 ![](media/desktop-insights/insights_02.png)
 

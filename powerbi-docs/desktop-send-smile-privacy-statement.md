@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 17215f8a1c9aa0da40c52b5dd957c2a7d8c5613b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ac0dc4919eb8eee2bb4ae4b7d2e3a466dba26bd9
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop 傳送笑臉隱私權聲明
 在 Microsoft，我們致力於保護您的隱私權，同時提供能滿足所需效能、功能和便利性的產品。 本隱私權聲明詳細說明 Microsoft Power BI Desktop 意見反應「傳送笑臉」的許多資料收集和使用做法。 它不適用於其他線上或離線的 Microsoft 網站、產品或服務。

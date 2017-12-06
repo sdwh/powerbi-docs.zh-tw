@@ -70,7 +70,7 @@ ms.lasthandoff: 11/15/2017
 
 您連接的資料中心取決於您瀏覽至 comScore 中的 URL。
 
-如果使用 https://dax.comscore.com，請輸入 "US"；如果使用 https://dax.comscore.eu，請輸入"EU"。
+如果使用 https://dax.comscore.com ，請輸入 "US"；如果使用 https://dax.comscore.eu，請輸入"EU"。
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 

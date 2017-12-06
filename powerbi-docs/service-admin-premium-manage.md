@@ -159,7 +159,7 @@ P SKU 無法降級為 EM SKU。 您可以將滑鼠停留在提供說明的已停
 ![容量管理的工作區指派區域](media/service-admin-premium-manage/capacity-manage-workspaces.png)
 
 1. 選取 [指派工作區]。 這會列在多個位置，而且全部都執行相同的工作。
-2. 選取 [The entire organization's workspaces] (整個組織的工作區) 或 [Specific workspaces by user] (使用者的特定工作區)。
+2. 選取 [The entire organization's workspaces]\ (整個組織的工作區) 或 [Specific workspaces by user] \(使用者的特定工作區)。
    
    | 選取項目 | 描述 |
    | --- | --- |

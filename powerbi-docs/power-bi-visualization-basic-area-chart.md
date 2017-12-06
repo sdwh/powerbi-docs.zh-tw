@@ -44,7 +44,7 @@ ms.lasthandoff: 11/15/2017
 3. 加入新的報表頁面。
 4. 建立依月份顯示本年度和去年度銷售額的區域圖。
    
-   a.  從 [欄位] 窗格中選取 [銷售額] \> [This Year Sales] (去年度銷售額)，以及 [This Year Sales > Value] (本年度銷售額 > 值)。
+   a.  從 [欄位] 窗格中選取 [銷售額] \> [This Year Sales] \(去年度銷售額)，以及 [This Year Sales > Value] \(本年度銷售額 > 值)。
    
    b.  將圖表轉換成基本區域圖。    
    ![](media/power-bi-visualization-basic-area-chart/convertchart.png)
