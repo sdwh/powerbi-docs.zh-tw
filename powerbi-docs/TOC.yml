@@ -784,8 +784,8 @@
           href: desktop-inline-hierarchy-labels.md
         - name: 使用數字範圍交叉分析篩選器
           href: desktop-slicer-numeric-range.md
-        - name: 使用相對日期交叉分析篩選器
-          href: desktop-slicer-filter-date-range.md
+        - name: 建立可以調整大小的回應式交叉分析篩選器
+          href: power-bi-slicer-filter-responsive.md
         - name: 建立 Cortana 的自訂 Power BI 回應卡
           href: service-cortana-answer-cards.md
         - name: 資料列層級安全性
