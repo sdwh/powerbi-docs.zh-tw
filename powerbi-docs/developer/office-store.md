@@ -1,6 +1,6 @@
 ---
-title: "將自訂視覺效果發佈至 Office 市集"
-description: "了解如何將自訂視覺效果發佈至 Office 市集供其他人探索使用。"
+title: "在 AppSource 上發佈自訂視覺效果"
+description: "了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及使用。"
 services: powerbi
 documentationcenter: 
 author: guyinacube
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/20/2017
+ms.date: 12/5/2017
 ms.author: asaxton
-ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: 0d3608d30fdf689c2121e65c5c4cafb861c88c2e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="publish-custom-visuals-to-the-office-store"></a>將自訂視覺效果發佈至 Office 市集
-了解如何將自訂視覺效果發佈至 Office 市集供其他人探索使用。
+# <a name="publish-custom-visuals-to-appsource"></a>在 AppSource 上發佈自訂視覺效果
+了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及使用。 Office
 
-一旦建立了自訂的視覺效果，您可能會想要發佈至 Office 市集供其他人探索使用。 您需要先做一些準備才能執行這項作業。 如需如何建立自訂視覺效果的詳細資訊，請參閱[使用開發人員工具建立自訂視覺效果](../service-custom-visuals-getting-started-with-developer-tools.md)。
+一旦建立了自訂的視覺效果後，您可能需要發佈至 AppSource 供其他人探索及使用。 您需要先做一些準備才能執行這項作業。 如需如何建立自訂視覺效果的詳細資訊，請參閱[使用開發人員工具建立自訂視覺效果](../service-custom-visuals-getting-started-with-developer-tools.md)。
 
-![](media/office-store/powerbi-custom-visual-store.png)
+![](media/office-store/AppSource_01.jpg)
 
-什麼是 Office 市集？ 簡而言之，就是可為 Office 365 軟體找到應用程式 (增益集) 的位置。 [Office 市集](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)連接數百萬位的 Office 365 使用者和解決方案，協助他們比以前更有效率、更通透、更完美地完成工作。
+什麼是 AppSource？ 簡單來說，這是針對 Microsoft 產品和服務尋找 SaaS 應用程式和增益集的地方。 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 為上百萬名 Office 365、Dynamics 365、Cortana Intelligence 等的使用者提供了尋找解決方案的管道，讓使用者能夠以更有效率、更確切且更得心應手的方式搞定工作。
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>準備提交您的自訂視覺效果
 完成自訂視覺效果的編碼及測試並封裝到 pbiviz 檔案後，您應該也準備好下列項目以備提交。
@@ -57,14 +57,14 @@ ms.lasthandoff: 11/21/2017
 > 
 > 
 
-## <a name="submitting-to-the-office-store"></a>提交至 Office 市集
-從 Power BI 小組取得應用程式套件 XML 後，請巡覽至 [Office 開發人員中心](https://sellerdashboard.microsoft.com/Application/Summary)以提交視覺效果至 Office 市集。
+## <a name="submitting-to-appsource"></a>提交至 AppSource
+從 Power BI 小組取得應用程式套件 XML 後，請瀏覽至[開發人員中心](https://sellerdashboard.microsoft.com/Application/Summary)以將視覺效果提交至 AppSource。
 
 > [!NOTE]
 > 您必須擁有有效的 Office 程式開發人員帳戶，才能登入 [Office 開發人員中心](https://dev.office.com/)。 Office 開發人員帳戶必須是 Microsoft 帳戶 (Live ID，例如 hotmail.com 或 outlook.com)。
 > 
 > [!IMPORTANT]
-> 您必須先向 Power BI 小組傳送附有 .pbiviz 檔案和 .pbix 檔案的電子郵件，再提交至 Office 市集。 這樣 Power BI 小組才能將這些檔案上傳到公用的共用伺服器。 否則，Office 市集無法擷取檔案。 每個新的視覺效果提交、現有視覺效果的更新及對 Office 市集拒絕的提交修正，都必須傳送這些檔案。
+> 您必須先將附有 .pbiviz 檔案和 .pbix 檔案的電子郵件傳送至 Power BI 小組，然後再提交至 AppSource。 這樣可讓 Power BI 小組將這些檔案上傳到公用的共用伺服器。 否則，市集就無法擷取檔案。 每個新的視覺效果提交、現有視覺效果的更新及對拒絕的提交修正，都必須傳送這些檔案。
 > 
 > 
 

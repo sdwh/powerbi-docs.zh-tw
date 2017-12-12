@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 72cfae29d00d5612abed6e5de7475dd1c62ab1b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表安裝並使用應用程式
 Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處。 組織中的人員可使用關鍵的商務資訊來建立及發佈應用程式。 也許您已在使用 Google Analytics (分析) 和 Microsoft Dynamics CRM 這類[外部服務](service-connect-to-services.md)，而其中亦提供 Power BI 應用程式。 
@@ -34,7 +34,7 @@ Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處
 計劃撰寫應用程式嗎？ 如需詳細資訊，請參閱[在 Power BI 中建立和發佈應用程式](service-create-distribute-apps.md)。
 
 ## <a name="get-a-new-app"></a>取得新的應用程式
-您可以透過一些不同的方式取得應用程式。 應用程式作者可以在您的 Power BI 帳戶中自動安裝應用程式或將應用程式的直接連結傳送給您，或者您可以在 AppSource 中搜尋它，而在 AppSource 中，您可以看到所有可存取的應用程式。 在行動裝置上的 Power BI 中，您只可從直接連結進行安裝，而不可從 AppSource。 如果應用程式作者自動安裝應用程式，您就會在您的應用程式清單中看到它。
+您可以使用兩種不同的方式來取得應用程式。 應用程式作者可以將應用程式的直接連結傳送給您，或者您可以在 AppSource 中搜尋它，而在 AppSource 中，您可以看到所有可存取的應用程式。 在行動裝置上的 Power BI 中，您只可從直接連結進行安裝，而不可從 AppSource。 
 
 ### <a name="install-an-app-from-a-direct-link"></a>透過直接連結安裝應用程式
 自行安裝新應用程式的最簡單方式是向應用程式作者取得直接連結。 Power BI 會建立安裝連結，作者可傳送該連結給您。

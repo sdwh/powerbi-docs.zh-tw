@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: e84c5045906cb91f028f0c33b5af8164871d8882
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: bdba3cb9a7dc64dbf71a48a7ae2223e74c302b70
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>使用開發人員工具建立自訂視覺效果
 自訂視覺效果可讓您滿足使用者的需求，並契合應用程式的設計。 您可以使用開發人員工具來建立 Power BI 的自訂視覺效果。
@@ -347,8 +347,8 @@ pbiviz update 1.2.0
 ## <a name="debugging"></a>偵錯
 如需偵錯自訂視覺效果的祕訣，請參閱[偵錯指南](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md)。
 
-## <a name="submit-your-visual-to-the-office-store"></a>提交視覺效果至 Office 市集
-您可以包含在 Office 市集中。 如需此程序的詳細資訊，請參閱[將自訂視覺效果發佈至 Office 市集](developer/office-store.md)。
+## <a name="submit-your-visual-to-appsource"></a>將視覺效果提交至 AppSource
+您可以列出視覺效果供其他人使用，但要將它提交至 AppSource。 如需此程序的詳細資訊，請參閱[將自訂視覺效果發佈至 AppSource](developer/office-store.md)。
 
 ## <a name="troubleshooting"></a>疑難排解
 **找不到 pbiviz 命令 (或類似的錯誤)**

@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: "DAX 簡介"
 metadata:
@@ -10,16 +11,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
+  ms.openlocfilehash: 375f4144016121171f9e7449f2d664efe7cf3aa1
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.translationtype: HT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 12/06/2017
 items:
 - durationInMinutes: 1
   content: "了解如何從知名專家建立和使用 DAX。\n"
-  ms.openlocfilehash: 5723e4a56974ab25eb43f3130755f6bccb71214c
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
-  ms.translationtype: HT
-  ms.contentlocale: zh-TW
-  ms.lasthandoff: 11/15/2017
 - title: "DAX 簡介"
   durationInMinutes: 9
   content: >
@@ -62,4 +63,4 @@ items:
 
 
     [!INCLUDE [](includes/7-6-dax-tables-and-filtering.md)]
-- content: "您已完成 Microsoft Power BI 導引式學習的 **DAX 簡介**一節。\0"
+- content: "您已完成 Power BI 引導式學習的 **DAX 簡介**一節。 美妙之旅！ 如果您已依序完成這些教學課程，就已完成**引導式學習**的所有小節。 做得很棒！ 現在請使用 **Power BI** 來建立吸引人的報告和內容豐富的儀表板。\0"

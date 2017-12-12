@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/28/2017
 ms.author: asaxton
-ms.openlocfilehash: 3ee74e9a7f2f174b37e582089e0d9a1d6c433831
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 180e80ee327342b26849aa63a3910337737ac9ad
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="administering-power-bi-in-your-organization"></a>管理貴組織中的 Power BI
 Microsoft Power BI 讓使用者能夠視覺化資料、共用探索，以及以容易了解的新方式共同作業。 若要深入了解，請參閱[開始使用 Power BI](service-get-started.md)。
@@ -60,6 +60,7 @@ Microsoft Power BI 讓使用者能夠視覺化資料、共用探索，以及以�
 * [我還應該準備什麼？](#are-there-any-additional-things-i-should-be-prepared-for)
 * [這是免費的嗎？這些授權要收費嗎？](#is-this-free-will-i-be-charged-for-these-licenses)
 * [我的 Power BI 租用戶位於何處？](#where-is-my-power-bi-tenant-located)
+* [什麼是 Power BI SLA (服務等級協定)？](#what-is-the-power-bi-sla)
 
 **Power BI 的安全性**
 
@@ -255,6 +256,9 @@ Power BI 提供的管理入口網站，可讓您檢視使用量統計資料、�
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>我的 Power BI 租用戶位於何處？
 若要了解如何尋找您的 Power BI 租用戶所在位置，也稱為資料區域，請參閱 [Where is my Power BI tenant located?](service-admin-where-is-my-tenant-located.md) (我的 Power BI 租用戶位於何處？)。
+
+### <a name="what-is-the-power-bi-sla"></a>什麼是 Power BI SLA？
+如需 Power BI SLA (服務等級協定) 的相關資訊，請參閱 Microsoft Licensing 網站**授權**一節中的[授權條款及文件](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)文章。
 
 ## <a name="security-in-power-bi"></a>Power BI 的安全性
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI 是否符合國家、地區和業界的特定法規要求？

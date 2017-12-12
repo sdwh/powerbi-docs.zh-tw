@@ -7,7 +7,7 @@
 ## <a name="an-overview-of-power-bi-desktop"></a>Power BI Desktop 概觀
 Power BI Desktop 是連接、清理及視覺化資料的工具。 使用 Power BI Desktop，您可以連接到資料，然後用不同的方式建立模型和視覺效果。 大部分使用商業智慧專案的使用者，會長時間使用 Power BI Desktop。
 
-您可以[從 Web](http://go.microsoft.com/fwlink/?LinkID=521662) 或從 Power BI 服務下載 Power BI Desktop。 只要選取 Power BI 右上角的向下箭號按鈕，然後選取 [Power BI Desktop]。
+您可以[從 web](http://go.microsoft.com/fwlink/?LinkID=521662) 下載 Power BI Desktop，也可以從 [**Azure 市集**](http://aka.ms/pbidesktopstore)安裝 **Power BI Desktop** 作為應用程式，或者可以從 Power BI 服務下載它。 如需在服務中取得 **Power BI Desktop**，只要選取 Power BI 右上角的向下箭號按鈕，然後選取 [Power BI Desktop]。
 
 ![](media/1-1-overview-of-power-bi-desktop/1-1_1.png)
 

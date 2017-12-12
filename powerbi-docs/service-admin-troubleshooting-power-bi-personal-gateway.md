@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 7774153ff73fb67a434ac79016507a2e94cf40f1
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 6fbd9f56099e4053524a04680c0d4c0c366ce068
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal 疑難排解
 以下探討使用 Power BI Gateway - Personal 時可能遇到的一些常見問題。
 
 > [!NOTE]
-> 如果您遇到以下未列出的問題，可以在[社群網站](http://community.powerbi.com/)尋求進一步協助，也可以建立[支援票證](https://powerbi.microsoft.com/support/)。
+> 目前供個人使用的閘道版本是**內部部署資料閘道 (個人)**。 請更新您的安裝才能使用該版本。
 > 
 > 
 

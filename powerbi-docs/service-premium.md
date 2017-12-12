@@ -1,5 +1,5 @@
 ---
-title: "何謂 Power BI Pro 內容？"
+title: "Power BI Premium - 這是什麼？"
 description: "Power BI Premium 是您的組織或小組的專用容量，給您更可靠的效能和更大的資料磁碟區，不需要您購買每個使用者授權。"
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/10/2017
+ms.date: 12/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 816f1151b6f49ace8151f1c26aee18a8c746ff08
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7c1536693490252029d51ddc619eaa7266095403
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium - 這是什麼？
 Power BI Premium 為您的組織或小組提供專門用來執行 Power BI 服務的資源，給您更可靠的效能和更大的資料磁碟區。 Premium 也可讓您廣泛發佈內容，不需要您為檢視者購買每個使用者授權。
@@ -69,9 +69,13 @@ Power BI Premium 適用於有不同 v 核心容量的節點設定。 如需特�
 
 * P 節點可用於內嵌部署或服務部署
 * EM 節點只能用於內嵌部署
+* EM1 和 EM2 
+* 只有 Office 365 全域系統管理員的使用者才能正常運作此資料表中的連結 - 其他人會收到 404 錯誤。 
 
 | 節點容量 | 核心總數<br/>(後端 + 前端) | 後端核心 | 前端核心 | DirectQuery/即時連線限制 | 尖峰時間的頁面呈現上限 | 可用性 |
 | --- | --- | --- | --- | --- | --- | --- |
+| [EM1 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 個 V 核心 |.5 個核心，2.5 GB RAM |.5 個核心 |每秒 3.75 個 |150-300 |可用 |
+| [EM2 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 個 v 核心 |1 個核心，5GB RAM |1 個核心 |每秒 7.5 個 |301-600 |可用 |
 | [EM3 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 個 v 核心 |2 個核心，10GB RAM |2 個核心 | |601-1,200 |可用 |
 | [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 個 v 核心 |4 個核心，25GB RAM |4 個核心 |每秒 30 個 |1,201-2,400 |可用 (也提供[逐月](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)) |
 | [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 個 v 核心 |8 個核心，50GB RAM |8 個核心 |每秒 60 個 |2,401-4,800 |可用 |

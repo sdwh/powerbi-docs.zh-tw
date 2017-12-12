@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>搭配 Power BI 內嵌內容使用資料列層級安全性
 資料列層級安全性 (RLS) 可用來限制報表或資料集中資料的使用者存取權，讓多位不同的使用者可以在使用相同報表的同時，各自看到不同的資料。 從 Power BI 內嵌報表時，可利用 RLS。
@@ -145,7 +145,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 * 雖然 Power BI 服務不會將 RLS 設定套用至系統管理員或具有編輯權限的成員，但當您使用內嵌權杖提供身分識別時，則會將它套用至資料。
 * 只有報表讀取/寫入才支援在呼叫 GenerateToken 時傳遞身分識別資訊。 稍後將會推出其他資源的支援。
 * 內部部署伺服器支援 Analysis Services 即時連線。
-* 不支援 Azure Analysis Services 即時連線。
+* Azure Analysis Services 即時連線支援依角色篩選，而非動態依使用者名稱篩選。
 * 如果基礎資料集不需要 RLS，GenerateToken 要求**不得**包含有效的身分識別。
 * 如果基礎資料集是雲端模型 (快取模型或 DirectQuery)，有效的身分識別必須包含至少一個角色。 否則，不會發生角色指派。
 * 身分識別清單中只能提供一個身分識別。 我們未來將使用清單為儀表板內嵌啟用多重身分識別權杖。

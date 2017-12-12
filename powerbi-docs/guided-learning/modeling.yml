@@ -13,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "連線至多個資料來源，然後將這些來源結合，以建立符合您需求的唯一資料模型。\n"
-  ms.openlocfilehash: 6486ec39aa624f4387c6006637b9b77e47fe0c2a
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: 760a683fd4267f2dc1fc3e59783770ad4904dcfb
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
+items:
+- durationInMinutes: 1
+  content: "透過 **Power BI** 中的**建立模型**功能，您可以連線至多個資料來源，然後將這些來源結合，以建立符合您需求的唯一資料模型。\n"
 - title: "資料模型簡介"
   durationInMinutes: 3
   content: >
@@ -72,4 +72,4 @@ items:
 
 
     [!INCLUDE [](includes/2-6a-explore-time-based-data.md)]
-- content: "您已完成 Microsoft Power BI 導引式學習的**建立模型**一節。\0"
+- content: "您進行得很順利。 請繼續認真了解 Power BI！ 您已完成 Microsoft Power BI 導引式學習的**建立模型**一節。 接下來是視覺效果。\0"

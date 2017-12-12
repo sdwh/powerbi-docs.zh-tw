@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 022f085d12d7dc872052ca9205deca264b1c0418
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2a7b4cc652e600b9a368f6f7eda657c06e131da3
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="share-power-bi-reports-with-your-coworkers"></a>與同事共用 Power BI 報表
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 提供[數種方式可進行共同作業以及散發您的報表](service-how-to-collaborate-distribute-dashboards-reports.md)，而共用只是其中的一種功能。
@@ -68,13 +68,14 @@ ms.lasthandoff: 11/15/2017
    
    在本例中，資料表的名稱是 **Store**、欄位名稱是 **Territory**，要篩選的值是 **NC**：
    
-    ?filter=Store/Territory eq NC
+    ?filter=Store/Territory eq 'NC'
    
    ![已篩選的報表 URL](media/service-share-reports/power-bi-filter-url3.png)
    
-   瀏覽器會新增特殊字元來代表斜線和空格，因此最後會是︰
+   瀏覽器會新增特殊字元來代表斜線、空格和單引號，因此最後會是︰
    
-   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Store%252FTerritory%20eq%20NC
+   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
+
 3. 將此 URL 傳送給您的同事。 
    
    當他們選取連結時，Power BI 會開啟已篩選報表的唯讀版本。

@@ -3,7 +3,7 @@ title: "安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop"
 description: "了解如何安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: maggiesMSFT
 manager: kfile
 backup: 
 editor: 
@@ -15,33 +15,49 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/20/2017
-ms.author: asaxton
-ms.openlocfilehash: 5fd5f41523ffcba03eb4749a9560922bcff42a7c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 12/05/2017
+ms.author: maggies
+ms.openlocfilehash: efae785bb063e1bfb1b8333e36447dcaa66a70b4
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 了解如何安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop。
 
-您將須下載並安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop。 這與搭配 Power BI 服務使用的 Power BI Desktop 版本不同。 需要如此以確保報表伺服器可與已知版本的報表和模型互動。 
+若要建立 Power BI 報表伺服器的 Power BI 報告，您必須下載並安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop。 此版本與搭配 Power BI 服務使用的 Power BI Desktop 不同。 使用此版本可確保報表伺服器可與已知版本的報告和模型互動。 
 
 > [!NOTE]
-> Power BI Desktop 和針對 Power BI 報表伺服器最佳化的 Power BI Desktop 可以並存安裝。
-> 
-> 
+> 您可以將 Power BI Desktop 和針對 Power BI 報表伺服器最佳化的 Power BI Desktop 並排安裝在相同電腦上。
 
-## <a name="download-and-install"></a>下載並安裝
-您可以從 [Microsoft 下載中心](https://go.microsoft.com/fwlink/?linkid=837581)，或從報表伺服器的入口網站內，下載針對 Power BI 報表伺服器最佳化的 Power BI Desktop。
+## <a name="download-and-install-power-bi-desktop"></a>下載及安裝 Power BI Desktop
 
-下載安裝程式之後，您便可安裝 Power BI Desktop。
+要確定您所擁有的針對 Power BI 報表伺服器最佳化之最新版 Power BI Desktop 最簡單的方式，是從報表伺服器的 web 入口網站開始。
+
+1. 在報表伺服器 web 入口網站中，選取 [下載] 箭號 > [Power BI Desktop]。
+
+    ![從 Web 入口網站下載 Power BI Desktop](media/install-powerbi-desktop/report-server-download-web-portal.png)
+
+    或者您可以直接移至 Microsoft 下載中心的 [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (已針對 Power BI 報表伺服器最佳化 - 2017 年 10 月)。
+
+2. 在 [下載中心] 頁面上，選取 [下載]。
+
+3. 根據您的電腦，選取： 
+
+    - **PBIDesktopRS.msi** (32 位元版本) 或
+
+    - **PBIDesktopRS_x64.msi** (64 位元版本)。
+
+1. 下載安裝程式之後，執行 Power BI Desktop (2017 年 10 月) 安裝精靈。
+2. 在安裝結束時，請核取 [立即啟動 Power BI Desktop]。
+   
+    其會自動啟動，一切即就緒。
 
 ## <a name="verify-you-are-using-the-correct-version"></a>驗證您使用正確的版本
 您可透過，驗證使用正確的 Power BI Desktop。查看 Power BI Desktop 內的啟動螢幕或標題列。 標題列會指出版本的發行年份和月份。
 
-![](media/install-powerbi-desktop/powerbi-desktop-rs-title-bar.png "Power BI Desktop 的標題列")
+![針對 Power BI 報表伺服器最佳化的 Power BI Desktop 標題列](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
 
 Power BI 服務的 Power BI Desktop 版本不會在標題列中顯示年份和月份。
 

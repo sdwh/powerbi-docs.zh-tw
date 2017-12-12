@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 58af226f6c3d93fffc805e23fcf1bda0d055058d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 29a089e13c2dd687a2caf19f43b1aae28e397a20
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表建立並發佈應用程式
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/15/2017
 
 透過 Power BI 應用程式 (目前在預覽階段)，您可以建立多組儀表板和報表，然後將這些應用程式發佈至整個組織、特定的人員或群組。 如果您是報告建立者或系統管理員，應用程式可讓您更輕鬆地管理許多儀表板的權限。
 
-商務使用者可透過幾個不同的方式取得您的應用程式。 如果 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 否則，他們可以從 Microsoft AppSource 安裝您的應用程式，或者您可以將直接連結傳送給他們。 他們可以輕鬆地找到並傳回至您的內容，因為它就在一個地方。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 深入了解[商務使用者的應用程式體驗](service-install-use-apps.md)。
+商務使用者可以從 Microsoft AppSource 安裝這些應用程式，或者您也可以將直接連結傳送給他們。 他們可以輕鬆地找到並傳回至您的內容，因為它就在一個地方。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 深入了解[商務使用者的應用程式體驗](service-install-use-apps.md)。
 
 ### <a name="apps-and-organizational-content-packs"></a>應用程式和組織內容套件
 應用程式是組織內容套件的演進。 如果您已經有組織內容套件，則它們會繼續與應用程式並存運作。
@@ -119,7 +119,7 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
    
      ![應用程式內容](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. 最後，在 [存取] 上，決定誰可以存取應用程式：組織中的所有人，或是特定人員或電子郵件通訊群組清單。 如果您有權限，您可以決定為收件者自動安裝應用程式。
+4. 最後，在 [存取] 上，決定誰可以存取應用程式：組織中的所有人，或是特定人員或 Active Directory 安全性群組。 
    
      ![應用程式存取](media/service-create-distribute-apps/power-bi-apps-access.png)
 
@@ -127,7 +127,7 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
    
      ![應用程式完成](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-您已對其發佈應用程式的商務使用者可以透過幾種不同的方式找到它。 首先，如果您可以自動安裝應用程式，該應用程式就會出現在其 Power BI 帳戶的 [應用程式] 底下。  您可以將應用程式的直接連結傳送給他們，或者他們可以在 Microsoft AppSource 中搜尋它，而在 Microsoft AppSource 中，他們可以看到所有可存取的應用程式。 之後，只要他們移至 [應用程式]，就會在其清單中看到此應用程式。
+您可以透過兩個不同的方式找到已對其發佈應用程式的商務使用者。 您可以將應用程式的直接連結傳送給他們，或者他們可以在 Microsoft AppSource 中搜尋它，而在 Microsoft AppSource 中，他們可以看到所有可存取的應用程式。 之後，只要他們移至 [應用程式]，就會在其清單中看到此應用程式。
 
 深入了解[商務使用者的應用程式體驗](service-install-use-apps.md)。
 

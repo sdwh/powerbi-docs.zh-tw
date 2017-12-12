@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a5542e7a4c0b1d5014a6fce0042c07fec7398ab4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e60ff6d06e4ac0cddf398ccfc1d30e4d97e0773c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>在 Power BI 中使用書籤來分享深入解析並建立故事 (預覽)
 您可以使用 Power BI 中的**書籤**來擷取目前設定的報表頁面檢視 (包括視覺效果的篩選和狀態)，稍後只要選取儲存的書籤，就可以返回該狀態。 
@@ -152,7 +152,8 @@ ms.lasthandoff: 11/15/2017
 * 當您建立書籤時，「不會」儲存報表窗格的交叉醒目提示狀態。 
 * 如果您在建立書籤之後將視覺效果新增至報表頁面，視覺效果就會以其預設狀態顯示。 換句話說，如果您在先前建立書籤的頁面中引進交叉分析篩選器，交叉分析篩選器就會以其預設狀態運作。
 * 在建立書籤之後移動視覺效果的結果會反映在書籤中。 
-* 當您將報表發行至 **Power BI 服務**時，報表中「必須」至少有一個書籤，才能在服務中使用書籤。 每個發行的報表都必須符合這項條件。
+* 當您將報表發佈至 **Power BI 服務**時，報表中「必須」至少有一個書籤，才能在服務中使用書籤。 每個發行的報表都必須符合這項條件。
+* 由於書籤目前是預覽功能，它們在[**適用於報表伺服器的 Power BI Desktop**](report-server/quickstart-create-powerbi-report.md) 上還無法使用。
 
 ## <a name="next-steps"></a>後續步驟
 如需類似功能或與書籤互動的詳細資訊，請參閱下列文章：

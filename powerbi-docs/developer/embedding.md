@@ -15,24 +15,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 36eb4231b6b3d3278d571722bde731051ffdf05e
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/17
+ms.author: mihart
+ms.openlocfilehash: 38860e6535f44e8831c62c045e7c5d0e130c35aa
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="embedding-with-power-bi"></a>Power BI 的內嵌功能
-Power BI 提供 API 來將您的儀表板和報表內嵌至應用程式。 Power BI API 在內嵌內容時，提供一組一致的功能以及最新 Power BI 功能的存取權 (例如儀表板、閘道和應用程式工作區)。
+Power BI 提供 API 來將您的儀表板和報表內嵌至應用程式。 Power BI API 在內嵌內容時，會提供一組一致的功能以及最新 Power BI 功能的存取權 (例如儀表板、閘道和應用程式工作區)。
 
 ## <a name="a-single-api"></a>單一 API
-內嵌 Power BI 內容時有兩個主要案例。 對組織進行內嵌，以及對客戶進行內嵌。 這兩個案例都允許使用 Power BI REST API。 這可讓您將儀表板和報告內嵌至您的自訂應用程式，並使用相同的 API 來服務組織或客戶。 您可以針對內嵌需求而完整利用 JavaScript 和 REST API。
+內嵌 Power BI 內容時有兩個主要案例。  內嵌貴組織中有 Power BI 授權的使用者，以及內嵌使用者和客戶而不要求他們有 Power BI 授權。 這兩個案例都允許使用 Power BI REST API。 
+
+針對沒有 Power BI 授權的客戶和使用者，將儀表板和報告內嵌至您的自訂應用程式，並使用相同的 API 來服務組織或客戶。 您的客戶會看到應用程式所管理的資料。 針對貴組織中的 Power BI 使用者，他們可以另外選擇要直接在 Power BI 中，還是在內嵌應用程式內容中檢視自己的資料。 您可以針對內嵌需求而完整利用 JavaScript 和 REST API。
 
 若要檢視內嵌運作方式的範例，請參閱 [JavaScript 內嵌範例](https://microsoft.github.io/PowerBI-JavaScript/demo/)。
 
 ## <a name="embedding-for-your-organization"></a>對組織進行內嵌
-對組織進行內嵌可讓您擴充 Power BI 服務。 當您想要檢視內容時，應用程式的終端使用者就需要登入 Power BI 服務。 您的組織中有人登入之後，他們只能存取 Power BI 服務中已經與他們共用的儀表板和報告。 
+對組織進行內嵌可讓您擴充 Power BI 服務。 當應用程式的使用者需要檢視其內容時，就需要登入 Power BI 服務。 貴組織中有人登入之後，他們只能在 Power BI 服務中存取他們自己的和已經與他們共用的儀表板和報告。 
 
 對組織進行內嵌的範例包括內部 Web 應用程式、SharePoint Online 網頁組件和 Microsoft Teams 整合。
 
@@ -45,7 +47,7 @@ Power BI 提供 API 來將您的儀表板和報表內嵌至應用程式。 Power
 針對 Power BI 使用者內嵌時，可透過 [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) 來使用自助功能，例如編輯、儲存等。
 
 ## <a name="embedding-for-your-customers"></a>對客戶進行內嵌
-對客戶進行內嵌可讓您將儀表板和報表內嵌至沒有 Power BI 帳戶的使用者。 您的客戶完全不需要了解 Power BI。 需要至少一個 Power BI Pro 帳戶。 Power BI Pro 帳戶將成為應用程式的主帳戶。 將這個當作 Proxy 帳戶。 Power BI Pro 帳戶也可讓您產生內嵌權杖，以允許存取 Power BI 服務內的儀表板和報表。 
+對客戶進行內嵌，可讓您將儀表板和報告內嵌至沒有 Power BI 帳戶的使用者。 您的客戶完全不需要了解 Power BI。 若要建立內嵌的應用程式，至少需要一個 Power BI Pro 帳戶。 Power BI Pro 帳戶將成為應用程式的主帳戶。 將這個當作 Proxy 帳戶。 Power BI Pro 帳戶也可讓您產生內嵌權杖，以提供存取 Power BI 服務內應用程式所擁有/管理的儀表板和報告。 
 
 對客戶進行內嵌的範例包括銷售給其他公司的 ISV 應用程式。
 

@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: "視覺化"
 metadata:
@@ -12,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "視覺效果可將您的資料帶入生活之中，並顯露出唯有吸引人且令人驚訝的視覺呈現方式所能展現的深入解析。 本節會說明如何做到。\n"
-  ms.openlocfilehash: e63bc13ecb7f9a0e296188c3a328e0cd19c83184
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: 9104611f4ab91a2d212715820a0f5119f8f1503b
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
+items:
+- durationInMinutes: 1
+  content: "視覺效果可將您的資料帶入生活之中，並顯露出唯有吸引人且令人驚訝的視覺呈現方式所能展現的深入解析。 **Power BI** 引導式學習的本章會示範如何開始加以使用。\n"
 - title: "Power BI 的視覺效果簡介"
   durationInMinutes: 2
   content: >
@@ -155,4 +156,4 @@ items:
 
 
     [!INCLUDE [](includes/3-11h-r-visual-integration.md)]
-- content: "您已完成 Microsoft Power BI 導引式學習的**視覺效果**一節。\0"
+- content: "做得很好。 您已完成**引導式學習**的**視覺效果**一節，請準備好進行下一個教學課程 - **探索資料**。\0"
