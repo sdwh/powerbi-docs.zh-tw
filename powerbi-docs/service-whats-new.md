@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 7f01ed805358b5b74a32ae26fb757f592c617088
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
@@ -167,7 +167,7 @@ ms.lasthandoff: 11/27/2017
 
 **2016 年 4 月 28 日**
 
-* [儀表板磚的快速深入剖析](service-insights.md#run-quick-insights-on-a-dashboard-tile)︰在焦點模式中檢視磚時，按一下 \[Get Insights] \(取得深入剖析) 即可在數秒內自動搜尋磚及其相關資料，以了解關聯性、極端值、趨勢、季節性、趨勢的轉折點及主要因素。
+* [儀表板磚的快速深入剖析](service-insights.md)︰在焦點模式中檢視磚時，按一下 \[Get Insights] \(取得深入剖析) 即可在數秒內自動搜尋磚及其相關資料，以了解關聯性、極端值、趨勢、季節性、趨勢的轉折點及主要因素。
 
 如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)
 

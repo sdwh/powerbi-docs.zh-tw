@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 29a089e13c2dd687a2caf19f43b1aae28e397a20
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表建立並發佈應用程式
 
@@ -120,8 +120,6 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
      ![應用程式內容](media/service-create-distribute-apps/power-bi-apps-content.png)
 
 4. 最後，在 [存取] 上，決定誰可以存取應用程式：組織中的所有人，或是特定人員或 Active Directory 安全性群組。 
-   
-     ![應用程式存取](media/service-create-distribute-apps/power-bi-apps-access.png)
 
 5. 當您選取 [完成] 時，會看到確認它已準備好要發佈的訊息。 在成功對話方塊中，您可以複製直接連結至此應用程式的 URL，並將它傳送給您已與之共用的人員。
    
