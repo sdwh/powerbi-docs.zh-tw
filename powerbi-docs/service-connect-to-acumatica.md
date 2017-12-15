@@ -72,7 +72,7 @@ Acumatica OData 端點的格式如下，而且應該使用 HTTPS：
 
     https://[sitedomain]/odata/[companyname]
 
-當您登入 Acumatica 時，應用程式網站網域可以在您的瀏覽器網址列中找到。 在下列範例中，站台網域是 "https://pbi.acumatica.com"，因此要提供的 OData 端點是 "https://pbi.acumatica.com/odata"。
+當您登入 Acumatica 時，應用程式網站網域可以在您的瀏覽器網址列中找到。 在下列範例中，站台網域是 "https://pbi.acumatica.com" ，因此要提供的 OData 端點是 "https://pbi.acumatica.com/odata" 。
 
  ![](media/service-connect-to-acumatica/url.png)
 

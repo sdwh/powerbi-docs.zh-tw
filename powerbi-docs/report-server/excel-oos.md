@@ -92,7 +92,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **參數**
 
-* **–InternalURL** 是執行 Office Online Server 之伺服器的完整網域名稱 (FQDN)，例如 http://<伺服器服名稱>.contoso.com。
+* **–InternalURL** 是執行 Office Online Server 之伺服器的完整網域名稱 (FQDN)，例如 http://servername.contoso.com 。
 * **–ExternalURL** 是可在網際網路上存取的 FQDN。
 * **–CertificateName** 是憑證的易記名稱。
 
@@ -105,7 +105,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **參數**
 
-* **–InternalURL** 是執行 Office Online Server 之伺服器的名稱，例如 http://<伺服器服名稱>。
+* **–InternalURL** 是執行 Office Online Server 之伺服器的名稱，例如 http://servername 。
 * **–AllowHttp** 設定伺服器陣列使用 HTTP。
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>確認已成功建立 Office Online Server 伺服器陣列
