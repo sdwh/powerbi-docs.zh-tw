@@ -1,5 +1,4 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: "發佈與共用"
 metadata:
   title: "發佈與共用 | Microsoft Power BI"
@@ -7,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: introductiontodax
-  nextTutorialTitle: "DAX 簡介"
+  nextTutorialTitle: Introduction to DAX
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/06/2017
   ms.author: davidi
-  ms.openlocfilehash: c7204f34360f22f75c43ed65271d1263071719b9
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: cc8560f56cba1f8bb0dc3d7faedf44433318288b
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
 items:
 - durationInMinutes: 1
-  content: "資料與他人共用時才能發揮最大效用；了解如何發佈、匯出、共用及散發您的 Power BI 資料深入解析。\n"
+  content: >
+    Data is most powerful when shared with others - learn how to publish, export, share, and distribute your Power BI data insights.
 - title: "內容套件、安全性及群組的簡介"
   durationInMinutes: 2
   content: >
@@ -104,4 +104,4 @@ items:
   durationInMinutes: 4
   content: >
     [!INCLUDE [](includes/6-5-guided-learning-completion.md)]
-- content: "您已完成 Power BI 引導式學習的**發佈與共用**一節。 如果您需要 DAX 的簡介 (用於建立 Power BI 查詢的語言)，請前往下一個教學課程。\0"
+- content: "You've completed the **Publishing and sharing** section of Power BI Guided Learning. If you want an introduction to DAX, the language used to create Power BI queries, head to the next tutorial.\0"
