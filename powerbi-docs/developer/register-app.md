@@ -77,7 +77,7 @@ ms.lasthandoff: 11/13/2017
     ![](media/register-app/azuread-new-app-registration.png)
 5. 遵循提示並建立新的應用程式。
    
-   * 若是 Web 應用程式，請提供登入 URL，也就是應用程式的基底 URL，可供使用者登入，例如 http://localhost:13526。
+   * 若是 Web 應用程式，請提供登入 URL，也就是應用程式的基底 URL，可供使用者登入，例如 http://localhost:13526 。
    * 若是原生應用程式，請提供 [重新導向 URI]，供 Azure AD 用來傳回權杖回應。 輸入您的應用程式專用的值，例如 http://myapplication/redirect
 
 如需如何在 Azure Active Directory 中註冊應用程式的詳細資訊，請參閱[整合應用程式與 Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
