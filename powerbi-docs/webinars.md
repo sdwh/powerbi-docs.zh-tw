@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 12/07/2017
 ms.author: maikelson
-ms.openlocfilehash: 57b1f5dd0e62ce6119201059b01d81294c8d826c
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
+ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -41,14 +41,11 @@ ms.lasthandoff: 11/27/2017
 
 - [Power BI 報表伺服器的精彩新功能 - 2017 年 11 月](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
 
-
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
 進行註冊以收到 Power BI 專家傳來的資訊，並參加即時的問與答會議
 
 >[從 Power BI 社群參與即將舉行的網路研討會](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-- [製造商：您所處的產業正在經歷數位轉型 - 利用分析功能維持領導地位以獲得最大利益 - 12/05/17](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
 - [改善醫療保健業的獲利能力 - 12/12/17](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
@@ -60,6 +57,8 @@ ms.lasthandoff: 11/27/2017
 
 - [如何實作成功的資料控管策略好讓組織更加安全](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 
+- [將報表從良好轉換為極佳！](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
+
 - [詢問合作夥伴：開發 Power BI 的自訂視覺效果](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
 - [Microsoft 如何執行 Power BI](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
@@ -67,6 +66,8 @@ ms.lasthandoff: 11/27/2017
 - [銷售與服務的應用智慧](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
 - [Power BI 安全性深入探討](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
+
+- [製造商：您所處的產業正在經歷數位轉型 - 利用分析功能維持領導地位以獲得最大利益](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
 ## <a name="see-also"></a>另請參閱
 

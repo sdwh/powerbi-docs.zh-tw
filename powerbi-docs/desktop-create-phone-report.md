@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/08/2017
 ms.author: maggies
-ms.openlocfilehash: 7a32885efb0813cc430f37952ca4fc9c5e435121
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0dd906bc1b165793e9ff91f64324eeb8e1d1266c
+ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>建立為 Power BI 手機應用程式最佳化的報表
-當您[在 Power BI Desktop 中建立報表](desktop-report-view.md)時，可以建立專用於手機的報表版本，以提升在手機上行動裝置應用程式中使用的體驗。 您可以重新安排視覺效果或調整其大小，也不必全部納入，藉由對手機改造報表獲得最佳體驗。 您還可以[建立「回應式」視覺效果](desktop-create-responsive-visuals.md)，能夠適當調整大小，供您在手機上檢視。 此外，如果您將篩選新增至報表，在 iPhone 上，這些篩選會自動顯示在電話報表中。 您的報表讀者可以看到它們並使用它們來篩選報表。
+當您[在 Power BI Desktop 中建立報表](desktop-report-view.md)時，可以建立專用於手機的報表版本，以提升在手機上行動裝置應用程式中使用的體驗。 您可以重新安排視覺效果或調整其大小，也不必全部納入，藉由對手機改造報表獲得最佳體驗。 您還可以建立[回應式視覺效果](#optimize-a-visual-for-any-size)和[回應式交叉分析篩選器](#enhance-slicers-to-to-work-well-in-phone-reports)，以適當調整大小，供您在手機上檢視。 此外，如果您將篩選新增至報表，這些篩選會自動顯示在電話報表中。 您的報表讀者可以看到它們並使用它們來篩選報表。
 
 ![手機上的最佳化報表](media/desktop-create-phone-report/07-power-bi-phone-report-portrait.png)
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 11/13/2017
    ![調整視覺效果大小](media/desktop-create-phone-report/03_resizing_a_viz_to_grid.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>為任何大小將視覺效果最佳化
-您可以將儀表板或報表中的視覺效果設定為「回應式」，不管是什麼樣的螢幕大小，都能以動態方式變更，顯示最多的資料與深入解析。
+您可以將儀表板或報表中的視覺效果設定為「回應式」，不管是什麼樣的螢幕大小，都能以動態方式變更，顯示最多的資料與深入解析。 
 
 視覺效果的大小變更時，Power BI 會排定資料檢視的優先順序，例如自動移除邊框，並將圖例移至視覺效果頂部，如此一來即使視覺效果變小，也能充分表達資訊。
 
@@ -82,10 +82,14 @@ ms.lasthandoff: 11/13/2017
 交叉分析篩選器提供在畫布上篩選報表資料的功能。 在一般報表撰寫模式下設計交叉分析篩選器時，您可以修改部分交叉分析篩選器設定，使其更適用於手機報表：
 
 * 決定報表讀者只能選取一個項目或可以選取多個項目。
-* 讓交叉分析篩選器垂直或水平呈現。 
 * 在交叉分析篩選器周圍加上方塊，讓報表更容易掃描。
+* 將交叉分析篩選器設為垂直、水平或回應式。 
 
-深入了解如何[在 Power BI 服務中建立交叉分析篩選器](guided-learning/visualizations.yml#step-4)。
+如果您將交叉分析篩選器設為回應式，則在變更其大小和形狀時會顯示較多或較少選項。 它可以是高、短、寬或窄。 如果您將它設得夠小，則它只會變成報表頁面上的篩選圖示。 
+
+![Power BI 回應式交叉分析篩選器](media/desktop-create-phone-report/power-bi-slicer-2-rows.png)
+
+深入了解如何[建立回應式交叉分析篩選器](power-bi-slicer-filter-responsive.md)。
 
 ## <a name="publish-a-phone-report"></a>發行手機報表
 * 若要發行手機版的報表，請[從 Power BI Desktop 將主要報表發行至 Power BI 服務](desktop-upload-desktop-files.md)，手機版即同時發行。

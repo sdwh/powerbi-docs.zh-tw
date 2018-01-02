@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/17/2017
-ms.author: jaimeta
-ms.openlocfilehash: e56976943e58aba8c9ef36c576a16ab5eba4c796
-ms.sourcegitcommit: 7d4ad2ba92a932d7cc6637348e0774be6623559e
+ms.date: 12/11/2017
+ms.author: tankas
+ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -32,6 +32,10 @@ ms.lasthandoff: 11/18/2017
 ## <a name="october-2017"></a>2017年 10 月
 
 - **Power BI 報表伺服器**
+    - *1.1.6551.5155 版 (組建 14.0.600.438)，發行日期：2017 年 12 月 11 日*
+        - Bug 修正
+            - 在重新整理特定 Power BI Desktop 報表之後無法儲存資料。
+
     - 1.1.6530.30789 版 (組建 14.0.600.437)，發行日期：2017 年 11 月 17 日
         - Bug 修正
             - 修正基本驗證案例 

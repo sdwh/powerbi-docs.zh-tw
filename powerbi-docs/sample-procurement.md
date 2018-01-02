@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: 576ddfbbf52a2738dd32597479ffd03d554a5256
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 957e7c05907f1fc75eddeb271c664f898203e591
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的採購分析範例：導覽
 此產業儀表板範例以及基礎報表，會依類別及地點來分析一家製造公司對廠商的花費。 本範例會探討以下幾方面：
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/13/2017
 
 想要跟著做嗎？ 在 [Power BI 服務](https://powerbi.com)中，前往 [取得資料] > [範例] > [採購分析範例] > [連接]，以取得自己的範例複本。
 
-您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529784)。
+[!Note] 您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529784)。 活頁簿包含您可檢視和修改的 Power View 工作表。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。
 
 ## <a name="spending-trends"></a>支出趨勢
 我們先來看依類別和地點區分的支出趨勢。  

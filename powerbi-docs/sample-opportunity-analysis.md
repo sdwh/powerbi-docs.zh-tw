@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: c51984aed112b62143ab132672b331cd0f97c7a1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的商機分析範例：導覽
 **商機追蹤範例** 包含一個儀表板及相關聯的報表，以分析一家具有 2 個銷售通路 (「直接」  和「合作夥伴」 ) 的軟體公司。 此儀表板由銷售經理所建立，以區域、交易量及通路來追蹤商機與營收。
@@ -38,7 +38,8 @@ ms.lasthandoff: 11/13/2017
 
 此範例是系列中的一部分，該系列說明您可如何使用 Power BI 的商業導向資料、報表及儀表板。 此為來自 obviEnce 的匿名真實資料 ([www.obvience.com)](http://www.obvience.com/)。
 
-您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529782).  
+>[!Note] 
+您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529782). 活頁簿包含您可檢視和修改的 Power View 工作表。  若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。 
 
 ![](media/sample-opportunity-analysis/opportunity1.png)
 

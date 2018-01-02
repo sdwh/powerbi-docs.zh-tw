@@ -1,6 +1,6 @@
 ---
-title: "以全螢幕模式顯示儀表板、儀表板磚和報表頁面"
-description: "以全螢幕模式 (也就是「電視模式」)，顯示儀表板、儀表板磚和報表頁面。"
+title: "以全螢幕模式顯示儀表板、儀表板磚、報表頁面和報表視覺效果"
+description: "以全螢幕模式 (也就是「電視模式」)，顯示儀表板、儀表板磚、報表視覺效果和報表頁面。"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 87fbe780991969f5fe3e9a31af58e54015d13678
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: a8d1a49a341b98778a6ad08c823397f420b2475e
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="full-screen-mode-in-power-bi"></a>Power BI 的全螢幕模式
 ## <a name="what-is-full-screen-mode"></a>什麼是全螢幕模式？
@@ -37,16 +37,16 @@ ms.lasthandoff: 11/13/2017
 * 在小螢幕上檢視
 * 以鎖定模式檢閱 -- 您可以透過觸控螢幕或用滑鼠點選磚，而不需要開啟基礎報表或儀表板
 
-> **注意**：全螢幕模式與[焦點 (快顯) 模式](service-focus-mode.md)不同。
+> **注意**：全螢幕模式與[焦點 (顯出) 模式](service-focus-mode.md)不同。
 > 
 > 
 
-觀看 Amanda 以全螢幕模式開啟及瀏覽其儀表板，然後套用一些 URL 參數以控制預設顯示。 然後遵循影片下方的逐步指示親自試試看。
+觀看 Amanda 以全螢幕模式開啟及巡覽其儀表板，然後套用一些 URL 參數以控制預設顯示。 然後遵循影片下方的逐步指示親自試試看。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="dashboards-and-report-pages-in-full-screen-mode"></a>全螢幕模式的儀表板和報表頁面
-1. 從儀表板或報表上方的 Power BI 功能表列，選取**全螢幕**圖示![全螢幕圖示](media/service-fullscreen-mode/power-bi-full-screen-icon.png)。 儀表板畫布或報表頁面隨即填滿整個畫面。 下方為儀表板範例。
+1. 從儀表板或報表上方的 Power BI 功能表列，選取**全螢幕**圖示 ![全螢幕圖示](media/service-fullscreen-mode/power-bi-full-screen-icon.png)。 儀表板畫布或報表頁面隨即填滿整個畫面。 下方為儀表板範例。
    
       ![儀表板會顯示為全螢幕](media/service-fullscreen-mode/power-bi-dash-full-screen.png)
 2. 全螢幕模式中有數個功能表選項。  若要顯示功能表，只要移動滑鼠或游標即可。 
@@ -58,7 +58,7 @@ ms.lasthandoff: 11/13/2017
     ![報表的功能表](media/service-fullscreen-mode/power-bi-report-menu.png)    
    
     ![上一頁圖示](media/service-fullscreen-mode/power-bi-back-icon.png)    
-    使用 [上一頁] 按鈕可導覽至瀏覽器中的上一頁。 若上一頁是 Power BI 頁面，則其也會以全螢幕模式顯示。  全螢幕模式會持續到您關閉全螢幕為止。
+    使用 [上一頁] 按鈕可導覽至瀏覽器中的上一頁。 如果上一頁是 Power BI 頁面，則也會以全螢幕模式顯示。  全螢幕模式會持續到您關閉全螢幕為止。
    
     ![列印圖示](media/service-fullscreen-mode/power-bi-print-icon.png)    
     使用此按鈕可列印全螢幕模式的儀表板或報表頁面。 
@@ -89,7 +89,7 @@ ms.lasthandoff: 11/13/2017
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 中的儀表板](service-dashboards.md)  
-[儀表板和儀表板磚的焦點模式](service-focus-mode.md)    
+[焦點模式](service-focus-mode.md)    
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/07/2017
 ms.author: asaxton
-ms.openlocfilehash: b16bae6cc8932a488920949815833def5980c1f3
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 147ec28e64cf271843fcffdd14abe005345170e0
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者
 
@@ -30,10 +30,7 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
-> 這項功能目前無法在 Power BI 行動裝置使用。 
-> 
-> 
-
+> Power BI 行動應用程式目前無法提供這項功能。 在行動裝置上，您可以在瀏覽器中檢視使用 Azure AD B2B 所共用的 Power BI 內容。 
 
 ## <a name="invite-guest-users"></a>邀請來賓使用者
 
@@ -99,6 +96,12 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 來賓使用者已在其租用戶內獲派 Power BI Pro 授權。
 
 ![來賓使用者帶來自己的授權](media/service-admin-azure-ad-b2b/license-approach3.png)
+
+## <a name="limitations"></a>限制
+
+* 外部 B2B 來賓限制於僅限內容耗用。 外部 B2B 來賓可以檢視應用程式、儀表板和報表、匯出資料，並建立儀表板和報表的電子郵件訂用帳戶。 他們無法存取工作區或發行其專屬內容。
+* Power BI 行動應用程式目前無法提供這項功能。 在行動裝置上，您可以在瀏覽器中檢視使用 Azure AD B2B 所共用的 Power BI 內容。
+* 在最高雲端 (政府) 內，不支援搭配使用來賓使用者與 Power BI。
 
 ## <a name="next-steps"></a>後續步驟
 

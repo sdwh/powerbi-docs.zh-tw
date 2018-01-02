@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: cff6a984f4c3d47bbf7dcd3df43253c318b2bf50
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 97fb3625848210f6222317cf3fc48eea305ef04d
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>開始使用 Power BI for Windows 10 行動裝置應用程式
 Power BI 的 Windows 10 行動裝置應用程式可將 Power BI 帶著走，以最新狀態、啟用觸控式行動裝置的方式存取您的商務資訊。 在 [Windows 開始畫面](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上，隨處檢視公司儀表板並與之互動。
@@ -35,10 +35,8 @@ Power BI 的 Windows 10 行動裝置應用程式可將 Power BI 帶著走，以�
 ## <a name="first-things-first"></a>最重要的第一件事
 * 從 Windows 市集[**取得適用於 Windows 10 的 Power BI 行動裝置應用程式**](http://go.microsoft.com/fwlink/?LinkID=526478)。
   
-  > [!NOTE]
-  > 您的裝置必須執行 Windows 10。 應用程式最適合與具有至少 2 GB RAM 與 8 GB 內部儲存空間的裝置搭配使用。 它可以在至少 1 GB RAM 的裝置上執行。
-  > 
-  > 
+  您的裝置必須執行 Windows 10。 應用程式可以在具有至少 3 GB RAM 和 8 GB 內部儲存空間的裝置上執行。
+   
 * 了解 [Power BI 行動裝置應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>在網路上註冊 Power BI 服務

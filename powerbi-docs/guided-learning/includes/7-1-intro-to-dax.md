@@ -5,7 +5,7 @@
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX 和此引導式學習影片系列
 本**引導式學習**一節的目標是教導您 DAX 的基本知識和基本概念，包括如何看待 DAX、其運作方式，以及由知名 DAX 專家 [Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) 所說明 (與透過眾多經驗所學習) 的最實用功能。
 
-![](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
+![Alberto Ferrari 的相片](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
 本**引導式學習**一節中有關 **DAX** 的影片，從 DAX 公式語言運作方式的觀點教導您 DAX 的基本知識。 從頭建立 DAX 公式時，這相當實用，但同時非常適合您在**查詢編輯器**中建立查詢時了解 Power BI 如何建立該等 DAX 公式。
 

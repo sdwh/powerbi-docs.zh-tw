@@ -380,6 +380,8 @@
           href: service-export-to-pbix.md
         - name: 使用 URL 中的查詢字串參數篩選報表
           href: service-url-filters.md
+        - name: 在 Power BI 中建置快速且可靠報表的最佳做法
+          href: power-bi-reports-performance.md
     - name: 視覺化
       items:
         - name: Power BI 中的視覺效果
@@ -746,6 +748,8 @@
       items:
         - name: Power BI Desktop 中的報表檢視
           href: desktop-report-view.md
+        - name: Power BI Desktop 中的問與答
+          href: desktop-qna-in-reports.md
         - name: Power BI Desktop 中的分析窗格
           href: desktop-analytics-pane.md
         - name: 使用 Power BI Desktop 中的深入解析

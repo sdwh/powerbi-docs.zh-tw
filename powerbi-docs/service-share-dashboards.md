@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>與同事和其他人共用 Power BI 儀表板
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 提供[數種方式可進行共同作業以及散發您的儀表板](service-how-to-collaborate-distribute-dashboards-reports.md)，而共用只是其中的一種功能。
@@ -91,6 +91,8 @@ ms.lasthandoff: 11/17/2017
    * [讀取]，阻止該員與其他人共用。
    * [移除存取權]，使該員完全看不到儀表板。
 
+4. 在 [移除存取權] 對話方塊中，決定是否要一併移除報表和資料集等相關內容的存取權。 如果在移除項目時出現警告圖示 ![Power BI 警告圖示](media/service-share-dashboards/power-bi-warning-icon.png)，建議您先移除相關的內容，因為這些內容將無法正確顯示。
+
 ## <a name="share-a-dashboard-with-people-outside-your-organization"></a>與組織外部人員共用儀表板
 與組織外部人員共用時，他們會收到具有共用儀表板連結的電子郵件，而且必須登入 Power BI 才能看到儀表板。 如果沒有 Power BI Pro 授權，他們可以按一下連結來註冊授權。
 
@@ -115,6 +117,33 @@ ms.lasthandoff: 11/17/2017
 * 電子郵件網域與您相同的同事，以及網域不同、但登錄在相同租用戶中的同事，可以與其他人共用儀表板。 例如，假設網域 contoso.com 和 contoso2.com 都登錄在相同的租用戶中。 如果您的電子郵件地址是 konrads@contoso.com，則 ravali@contoso.com 和 gustav@contoso2.com 只要經過您授權共用，就可以共用。
 * 如果您的同事已能存取特定的儀表板，您只需要在儀表板中時，複製該儀表板的 URL，就能傳送該儀表板的直接連結。 例如：`https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * 同樣地，如果您的同事已能存取特定的儀表板，您可以[傳送基礎報表的直接連結](service-share-reports.md)。 
+
+## <a name="troubleshoot-sharing"></a>針對共用問題進行疑難排解
+
+### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>我的儀表板收件者看到磚中出現鎖定圖示或「需要權限」的訊息
+
+如果與您共用的人員在嘗試檢視報表時，看到儀表板的磚被鎖定或顯示「需要權限」的訊息，則您需要授與他們基礎資料集的權限。 其做法如下：
+
+1. 前往內容清單中的 [資料集] 索引標籤。
+
+1. 選取資料集 > [管理權限] 旁的省略符號 (**...**)。
+
+    ![管理權限](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
+
+3. 選取 [新增使用者]。
+
+    ![選取 [新增使用者]](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
+
+1. 輸入個人、通訊群組或安全性群組的完整電子郵件地址。 您無法共用動態通訊清單。
+
+    ![新增電子郵件地址](media/service-share-dashboards/power-bi-add-user-dataset.png)
+
+5. 選取 [加入] 。
+
+### <a name="i-cant-share-a-dashboard"></a>我無法共用儀表板
+
+若要共用儀表板，您必須具備再次共用基礎內容 (任何相關報表和資料集) 的權限。 如果您看到無法共用的訊息，可請報表作者提供再次共用這些報表和資料集的權限。
+
 
 ## <a name="next-steps"></a>後續步驟
 * 有任何意見嗎？ 請移駕 [Power BI 社群網站](https://community.powerbi.com/)提供您的建議。
