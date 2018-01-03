@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: a5a82694cb48a23e572c49a350439335276cabf9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8425b631bb64911081861dc4a21de04b698f0f67
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report"></a>從現有的報表建立新的報表
 或許您有已經連接至資料集的報表，而且有些想要重複使用或修改的視覺效果。  為什麼不乾脆複製該報表當作新報表的基礎呢？  若要這樣做：
@@ -46,4 +46,3 @@ ms.lasthandoff: 11/13/2017
 [建立新的視覺效果](power-bi-report-add-visualizations-ii.md)
 
 [刪除不需要的視覺效果](service-delete.md)
-

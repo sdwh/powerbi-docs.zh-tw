@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: f189ab5b195a945b6a21ea868cf29257e30c0d20
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 5ab075ede78ad5c08858878d6652e9b102a87fca
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 視覺效果的秘訣和訣竅
 Power BI 與 Bing 地圖服務整合以提供預設地圖座標 (這個程序稱為地理編碼)，以便您建立地圖。 這兩者使用演算法來識別正確位置，但有時會猜測最接近的位置。 如果 Power BI 無法自行建立地圖視覺效果，則會請求 Bing 地圖服務協助。  
@@ -32,7 +32,7 @@ Power BI 與 Bing 地圖服務整合以提供預設地圖座標 (這個程序稱
 ## <a name="what-is-sent-to-bing-maps"></a>傳送至 Bing 地圖服務的項目
 Power BI 服務和 Power BI Desktop 會將 Bing 建立地圖視覺效果所需的地理資料傳送至 Bing。 這可能包括 [位置]、[緯度] 和 [經度] 貯體中的資料，以及 [報告層級]、[頁面層級] 或 [視覺效果層級] 的任何篩選貯體中的地理欄位。 傳送的確切資料依地圖類型而異。 若要深入了解，請參閱 [Bing 地圖服務隱私權](https://go.microsoft.com/fwlink/?LinkID=248686)。
 
-* 以地圖來說 (泡泡地圖)，如果提供緯度和經度，則不會將資料傳送至 Bing。 否則，[位置] \(及 [篩選]) 貯體中的任何資料會傳送至 Bing。     
+* 以地圖來說 (泡泡地圖)，如果提供緯度和經度，則不會將資料傳送至 Bing。 否則，[位置] (及 [篩選]) 貯體中的任何資料會傳送至 Bing。     
 * 區域分布圖需要 [位置] 貯體中的欄位，即使提供緯度和經度亦然。 [位置]、[緯度] 或 [經度] 貯體中的資料都會傳送至 Bing。
   
     在下列範例中，[廠商] 欄位用於地理編碼，因此會將所有廠商資料傳送至 Bing。 [大小] 和 [色彩飽和度] 貯體中的資料不會傳送至 Bing。
