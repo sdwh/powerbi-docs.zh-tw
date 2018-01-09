@@ -1,6 +1,6 @@
 ---
-title: "變更 Power BI 報表的視覺效果類型"
-description: "變更 Power BI 報表的視覺效果類型"
+title: "變更報告中的視覺效果類型"
+description: "在 Power BI 服務和 Power BI Desktop 中變更報告視覺效果的類型"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 629163044a48e15cbd5b2412f4da886cd373c56d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 40ca8c24ec79f61bf0c8b3db71fdd84cdbb6a109
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>變更 Power BI 報表的視覺效果類型
-請嘗試不同類型的 Power BI 視覺效果，看看哪一種最能說明資料。 
+在 Power BI 服務和 Power BI Desktop 中嘗試不同類型的視覺效果，看看哪一種最能說明資料。 
 
-1. 如果您的報表還沒有視覺效果，請[在 [編輯檢視] 中開啟報表](service-reading-view-and-editing-view.md)並[建立視覺效果](power-bi-report-add-visualizations-i.md)。
+1. 開啟已經有至少一個視覺效果的報告。   
 2. 在 [視覺效果] 窗格中選取新的視覺效果類型。  
    
    ![](media/power-bi-report-change-visualization-type/changeviz.gif)

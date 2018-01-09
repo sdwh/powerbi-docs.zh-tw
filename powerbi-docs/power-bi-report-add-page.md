@@ -1,6 +1,6 @@
 ---
-title: "在 Power BI 報表中加入頁面"
-description: "在 Power BI 報表中加入頁面"
+title: "在報告中新增頁面或複製頁面"
+description: "在 Power BI 服務和 Power BI Desktop 中新增 Power BI 報告的頁面"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,24 +15,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: c40f13975d06879701d8966ef5f97b43a298cce0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 36962e85528668139a4d5d460936212965032233
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="add-a-page-to-a-power-bi-report"></a>在 Power BI 報表中加入頁面
-## <a name="add-a-new-blank-page"></a>加入新的空白頁面
-報表頁面不必擠得滿滿的，只要新增空白頁面即可。
+# <a name="add-a-page-to-a-power-bi-report-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中新增 Power BI 報告的頁面
+報表頁面不必擠得滿滿的，只要新增空白頁面即可。 
 
+新增及複製報告頁面時，需要有報告的編輯權限。 在 Power BI 服務中，這表示在[編輯檢視](service-reading-view-and-editing-view.md)中開啟報告。 
+
+## <a name="add-a-new-blank-page"></a>加入新的空白頁面
 選取黃色加號圖示，然後輸入頁面的新名稱。  
 
 ![](media/power-bi-report-add-page/reorderpages2.gif)
 
 ## <a name="duplicate-a-page"></a>複製頁面
-從頂端控制列，在[編輯模式](service-interact-with-a-report-in-editing-view.md)中，選取**複製此頁面**圖示。
+從頂端控制列，在[編輯檢視](service-interact-with-a-report-in-editing-view.md)中，選取 [複製此頁面] 圖示。
 
 ![](media/power-bi-report-add-page/pbi_duplicate.png)
 

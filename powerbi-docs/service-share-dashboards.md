@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>與同事和其他人共用 Power BI 儀表板
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 提供[數種方式可進行共同作業以及散發您的儀表板](service-how-to-collaborate-distribute-dashboards-reports.md)，而共用只是其中的一種功能。
@@ -122,7 +122,11 @@ ms.lasthandoff: 12/12/2017
 
 ### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>我的儀表板收件者看到磚中出現鎖定圖示或「需要權限」的訊息
 
-如果與您共用的人員在嘗試檢視報表時，看到儀表板的磚被鎖定或顯示「需要權限」的訊息，則您需要授與他們基礎資料集的權限。 其做法如下：
+與您共用的人員在嘗試檢視報告時，可以看到儀表板中鎖定的圖格或「需要權限」訊息。
+
+![Power BI 鎖定的圖格](media/service-share-dashboards/power-bi-locked_tile_small.png)
+
+若是如此，您需要授與他們基礎資料集的權限。 其做法如下：
 
 1. 前往內容清單中的 [資料集] 索引標籤。
 

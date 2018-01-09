@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/31/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 20760bec773c6f1d2a3cbbfaefd0651b97cbe601
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>將影像、文字、視訊和其他項目新增至儀表板
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/13/2017
 假設您希望儀表板上有公司的標誌或其他影像。 您將需要線上儲存映像檔，並連結到它。 請確定不需要特殊認證以便存取映像檔。 例如，OneDrive 和 SharePoint 需要驗證，因此儲存在那裡的映像無法如此新增至儀表板。  
 
 1. 選取 [影像] > [下一步]。
-2. 將影像資訊加入 [ **圖格詳細資料** ] 窗格。
+2. 將影像資訊新增至 [新增影像圖格] 視窗。
    
     ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
@@ -56,16 +56,16 @@ ms.lasthandoff: 11/13/2017
 ## <a name="add-a-text-box-or-dashboard-heading"></a>新增文字方塊或儀表板標題
 1. 選取 [文字方塊] > [下一步]。
    
-    ![](media/service-dashboard-add-widget/power-bi-add-text-box-new.png)
-   
    > **注意**︰若要加入儀表板標題，請在文字方塊中輸入您的標題並增加字型。
-   > 
    > 
 2. 設定文字方塊的格式︰
    
    * 若要在文字方塊上方顯示標題，請選取 [ **顯示標題和副標題** ]，並輸入標題和/或副標題。
    * 輸入並格式化文字方塊的內容。  
-   * 或者設定標題的自訂連結。  不過在此範例中，我們已經在文字方塊內加入了超連結，因此請保持 [ **設定自訂連結** ] 的未核取狀態。
+   * 或者設定標題的自訂連結。 自訂連結可以是外部網站或您的工作區中的儀表板或報告。 不過在此範例中，我們已在文字方塊內新增超連結，因此會將 [設定自訂連結] 保持未核取狀態。
+
+     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+   
 3. 選取 [ **套用**]。  在儀表板上，視需要調整文字方塊大小和移動文字方塊。
    
    ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
@@ -74,7 +74,7 @@ ms.lasthandoff: 11/13/2017
 將 YouTube 或 Vimeo 影片加入儀表板後，該影片就會直接在儀表板上播放。
 
 1. 選取 [影片] > [下一步]。
-2. 將影片資訊加入 [ **圖格詳細資料** ] 窗格。
+2. 將影片資訊新增至 [新增影片圖格] 窗格。
    
     ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
@@ -100,7 +100,7 @@ ms.lasthandoff: 11/13/2017
    
    * 若要在圖格上方顯示標題，請選取 [顯示標題和副標題]  ，並輸入標題和/或副標題。
    * 輸入內嵌程式碼。 我們在這個範例會複製並貼上 Twitter 摘要。
-   * 選取 [ **套用**]。  在儀表板上，視需要調整 Web 內容大小和移動 Web 內容。
+3. 選取 [ **套用**]。  在儀表板上，視需要調整 Web 內容大小和移動 Web 內容。
      
       ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 

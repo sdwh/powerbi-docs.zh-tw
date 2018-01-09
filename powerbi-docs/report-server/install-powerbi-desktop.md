@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 12/15/2017
 ms.author: maggies
-ms.openlocfilehash: 589a77624169e9fb59999109668439c5f729c5f5
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: c1c38d9d98c92963534081049cdcc6a557313639
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 了解如何安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop。
@@ -69,6 +69,36 @@ Power BI 服務的 Power BI Desktop 版本不會在標題列中顯示年份和�
 您隨時可以開啟您想要先用的 Power BI Desktop 版本， 然後再從 Power BI Desktop 中開啟檔案。
 
 無論是從 Power BI 報表伺服器內編輯 Power BI 報表，還是從入口網站建立新的 Power BI 報表，都一律會開啟正確的 Power BI Destop 版本。
+
+## <a name="considerations-and-limitations"></a>考量與限制
+Power BI 報表伺服器和 Power BI 服務 (http://powerbi.com) 中的報表行為幾乎完全相同，但部分功能不同。
+
+### <a name="in-a-browser"></a>在瀏覽器中
+Power BI 報表伺服器報表支援所有視覺效果，包括：
+
+* 自訂視覺效果
+
+Power BI 報表伺服器報表不支援：
+
+* R 視覺效果
+* ArcGIS 地圖
+* 階層連結
+* Power BI Desktop 預覽功能
+
+### <a name="in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中
+Power BI 報表伺服器報表支援 [Power BI 行動裝置應用程式](../mobile-apps-for-mobile-devices.md)中的所有基本功能，包括：
+
+* [手機報表配置](../desktop-create-phone-report.md)：您可以將 Power BI 行動裝置應用程式的報表最佳化。 在您的行動電話上，最佳化的報表會有特殊圖示 ![手機報表配置圖示](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) 和配置。
+  
+    ![專為手機設計的報表](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+
+Power BI 報表伺服器報表不支援 Power BI 行動裝置應用程式中的下列功能：
+
+* R 視覺效果
+* ArcGIS 地圖
+* 自訂視覺效果
+* 階層連結
+* 地區篩選或條碼
 
 ## <a name="next-steps"></a>後續步驟
 現在您已安裝 Power BI Desktop，即可開始建立 Power BI 報表。

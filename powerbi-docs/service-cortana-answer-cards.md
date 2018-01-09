@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/29/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 2abaa2ae00b353af46c267083f879cbf9536b397
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 79e10c7d47eb5105e0c3e79bd3451315eae6d27e
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>使用 Power BI 服務或 Power BI Desktop 建立 Cortana 的自訂回應頁面
 您可以使用 Power BI 的完整功能，建立稱為「Cortana 回應頁面」 (有時稱為「Cortana 回應卡」)、專為回答 Cortana 問題所設計的特殊報表頁面。
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
-> [!NOTE]
+> [!IMPORTANT]
 > 如果您試用 Cortana 和 Power BI 儀表板 Preview，則可以略過本文的其餘部分。 不需要進行設定，Cortana 就可以搜尋 Power BI 儀表板。
 > 
 > 
@@ -63,7 +63,7 @@ ms.lasthandoff: 11/15/2017
    > 若要改善結果，請避免使用同時也是資料行名稱的文字。
    > 
    > 
-6. (選擇性) 如果您的報表包含頁面層級篩選，您可以設定 [必須進行單一選取] 。 只有指定問題中的唯一篩選項目時，Cortana 才會將這個報表顯示為答案。
+6. (選擇性) 如果您的報告包含頁面層級篩選，可以設定 [只可單選]。 只有指定問題中的唯一篩選項目時，Cortana 才會將這個報表顯示為答案。 在 [篩選條件] 窗格底部可以找到 [只可單選]。
    
    > [!NOTE]
    > 您不必設定 [只可單選] 也可要求 Cortana 顯示有頁面層級篩選的報表。  例如「顯示 Charlotte Lindseys 的業績」會顯示回應頁面，不論 [只可單選] 設定為何。

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 14d4954cd747e7c578c693212401f57806001228
-ms.sourcegitcommit: 6e8fbbbcbe3e1a38207b29a9ca66ea94fb2a51fb
+ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>內嵌 Power BI 儀表板、報表和磚
 
@@ -140,9 +140,9 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 
 | 節點容量 | 核心總數<br/>(後端 + 前端) | 後端核心 | 前端核心 | DirectQuery/即時連線限制 | 尖峰時間的頁面呈現上限 |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 個 v 核心 |.5 個核心，3GB RAM |.5 個核心 | |1-300 |
-| A2 |2 個 v 核心 |1 個核心，5GB RAM |1 個核心 | |301-600 |
-| A3 |4 個 v 核心 |2 個核心，10GB RAM |2 個核心 | |601-1,200 |
+| A1 |1 個 v 核心 |.5 個核心，3GB RAM |.5 個核心 | 每秒 5 個 |1-300 |
+| A2 |2 個 v 核心 |1 個核心，5GB RAM |1 個核心 | 每秒 10 個 |301-600 |
+| A3 |4 個 v 核心 |2 個核心，10GB RAM |2 個核心 | 每秒 15 個 |601-1,200 |
 | A4 |8 個 v 核心 |4 個核心，25GB RAM |4 個核心 |每秒 30 個 |1,201-2,400 |
 | A5 |16 個 v 核心 |8 個核心，50GB RAM |8 個核心 |每秒 60 個 |2,401-4,800 |
 | A6 |32 個 v 核心 |16 個核心，100GB RAM |16 個核心 |每秒 120 個 |4,801-9600 |

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: d29008365ab7df8f0bcd8297bfd5dc2f41c0e3a4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>建立 Power BI 問與答的精選問題
 如果您擁有自己的資料集，則可將自己的精選問題新增至該資料集。  接著，Power BI 問與答會向使用您資料集的同事顯示這些問題。  精選問題可讓您的同事有些概念，知道要針對資料集詢問哪類問題。 您可自行決定要新增什麼精選問題 -- 新增熱門問題、會顯示有趣結果的問題，或難以簡短說明的問題。
@@ -32,13 +32,13 @@ ms.lasthandoff: 11/15/2017
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> [iPad、iPhone 及 iPod Touch 裝置上適用於 iOS 的 Microsoft Power BI 應用程式](mobile-apps-ios-qna.md)也提供精選問題問與答。
+> 問與答精選問題可使用於 [iPad、iPhone 及 iPod Touch 裝置上適用於 iOS 的 Microsoft Power BI 應用程式](mobile-apps-ios-qna.md)和 Power BI Desktop 問與答預覽。 但建立問題僅適用於 Power BI 服務 (app.powerbi.com)。
 > 
 > 
 
 本文使用[零售分析銷售範例](sample-datasets.md)。
 
-1. 選取問與答的問題方塊。   您會發現問與答顯示出資料集中出現的詞彙清單，這非常有幫助。
+1. 在儀表板上，選取 [問與答] 問題方塊。   您會發現問與答顯示出資料集中出現的詞彙清單，這非常有幫助。
 2. 若要新增至此清單，請選取 Power BI 右上角的齒輪圖示。  
    ![](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. 選取 [設定] &gt; [資料集] &gt; [零售分析範例] &gt; [精選問與答問題]。  

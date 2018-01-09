@@ -15,32 +15,33 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 2f428095eb57c5358770f1d6d8572316d2b84c37
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3401fac7b0e7e6b5b5404a5a837822772e1d70f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="doughnut-charts-in-power-bi-tutorial"></a>Power BI 中的環圈圖 (教學課程)
 環圈圖類似於圓形圖之處，在於它會顯示部分與整體的關聯性。 唯一的差別在於，中央為空白，且保留空間給標籤或圖示。
 
 ## <a name="create-a-doughnut-chart"></a>建立環圈圖
-如果要跟著做，請登入 Power BI 並選取 [取得資料] \> [範例] \> [零售分析範例] \> [連接]。 
+這些指示會使用「零售分析範例」來建立環圈圖，依類別顯示今年度銷售量。 若要跟著做，請針對 Power BI 服務 (app.powerbi.com) 或 Power BI Desktop [下載範例](sample-datasets.md)。
 
-1. 從此儀表板，選取 [所有門市] 磚，開啟 [零售分析範例] 報表。
-2. 選取 [編輯報表]  ，在編輯檢視中開啟報表。
-3. [加入新的報表頁面](power-bi-report-add-page.md)。
-4. 建立依類別顯示今年度銷售量的環圈圖。
+1. 從[空白報告頁面](power-bi-report-add-page.md)開始，選取 [SalesStage] \> [銷售階段] 欄位。 如果您使用 Power BI 服務，請務必在[編輯檢視](service-interact-with-a-report-in-editing-view.md)中開啟報告。
+
+2. 從 [欄位] 窗格中，選取 [銷售額] \> [去年度銷售額]。  
    
-   * 從 **欄位** 窗格中，選取 **銷售額**\> **去年度銷售額**。
-   * 轉換成環圈圖。 如果 [值]  區域中沒有 [去年度銷售額]，請將其拖曳到該區域。
+3. 從 [視覺效果] 窗格中，選取環圈圖的圖示 ![環圈圖圖示]()，以將橫條圖轉換成環圈圖。 如果 [值] 區域中沒有 [去年度銷售額]，請將其拖曳到該區域。
      
-       ![](media/power-bi-visualization-doughnut-charts/convertdonut.png)
-   * 選取 [項目] \> [類別]，將其加入 [圖例] 區域。 
+   ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
+
+4. 選取 [項目] \> [類別]，將其加入 [圖例] 區域。 
      
-       ![](media/power-bi-visualization-doughnut-charts/doughnuttutorial.png)
+    ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
+
+5. 選擇性地[調整圖表文字的大小和色彩](power-bi-visualization-customize-title-background-and-legend.md)。 
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 * 環圈圖圖表值的總和必須達 100%。

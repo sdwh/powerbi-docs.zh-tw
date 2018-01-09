@@ -1,6 +1,6 @@
 ---
-title: "Power BI 支援的快速深入剖析類型"
-description: "使用 Power BI 快速深入剖析。"
+title: "Power BI 支援的深入解析類型"
+description: "使用 Power BI 快速深入解析和檢視深入解析。"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/03/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 13f5614cf121b17d8ae4dff9653f5789372f7f49
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="types-of-quick-insights-supported-by-power-bi"></a>Power BI 支援的快速深入剖析類型
-## <a name="how-does-quick-insights-work"></a>快速深入剖析如何運作？
+# <a name="types-of-insights-supported-by-power-bi"></a>Power BI 支援的深入解析類型
+## <a name="how-does-insights-work"></a>深入解析如何運作？
 Power BI 可快速地搜尋資料集的不同子集，同時套用一組複雜的演算法來探索潛在相關的深入剖析資訊。 Power BI 會在分配的時間內盡可能掃描資料集。
 
-您可以針對資料集或磚 (相關深入資訊) 來執行深入資訊摘要。   
+您可以針對資料集或儀表板圖格執行深入解析。   
 
-## <a name="what-types-of-quick-insights-can-we-find"></a>我們可以尋找哪些類型的深入資訊摘要？
+## <a name="what-types-of-insights-can-we-find"></a>我們可以尋找哪些類型的深入剖析資訊？
 以下是我們所使用的一些演算法：
 
 ## <a name="category-outliers-topbottom"></a>類別極端值 (上/下)
@@ -78,9 +78,9 @@ Power BI 可快速地搜尋資料集的不同子集，同時套用一組複雜�
 ![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 深入資訊摘要](service-insights.md)
+[Power BI 深入解析](service-insights.md)
 
-如果您擁有資料集，請[針對深入資訊摘要將它最佳化](service-insights-optimize.md)。
+如果您擁有資料集，請[針對深入解析將它最佳化](service-insights-optimize.md)。
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

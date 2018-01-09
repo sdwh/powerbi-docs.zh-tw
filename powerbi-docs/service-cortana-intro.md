@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 12/13/2017
 ms.author: mihart
-ms.openlocfilehash: 458c6663697f8c968915c54dba1c80be422c0f80
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>使用 Cortana for Power BI 快速找出並檢視您的 Power BI 資料
 在您的 Windows 10 裝置上使用 Cortana，以取得重要業務問題的即時解答。 Cortana 藉由與 Power BI 整合，可直接從 Power BI 儀表板和報表擷取關鍵資訊。 需要的只有 Windows 10 2015 年 11 月 (含) 以上的版本、Cortana、Power BI 以及至少一個資料集的存取權。
@@ -85,13 +85,19 @@ Cortana 可以在您擁有的儀表板以及已與您共用的儀表板中尋找
      ![](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 2. Cortana 準備就緒之後，請在 Cortana 搜尋列中鍵入或說出問題。 Cortana 會顯示可用的結果。 如果有符合問題的 Power BI 儀表板，就會顯示在 [最佳相符] 或 [Power BI] 下方。
    
-     ![Cortana 搜尋會尋找 Power BI 儀表板](media/service-cortana-intro/power-bi-cortana-searching2.png "Cortana 會尋找 Power BI 儀表板")
+     ![Cortana 搜尋會尋找 Power BI 儀表板](media/service-cortana-intro/power-bi-cortana-search-hr.png "Cortana 會尋找 Power BI 儀表板")
    
    > [!NOTE]
    > 目前僅支援英文。
    > 
    > 
-3. 選取儀表板名稱，以在 Power BI 中開啟儀表板。 
+3. 選取儀表板以在 Cortana 中開啟。
+
+    ![選取 Power BI 儀表板](media/service-cortana-intro/power-bi-cortana-dashboard.png "選取 Power BI 儀表板")
+
+    您可以[編輯儀表板的電話檢視](service-create-dashboard-mobile-phone-view.md)，以變更配置。 
+
+1. 在 Cortana 中，您也有選項可在 Power BI 服務或 Power Bi 行動裝置中開啟儀表板。 選取 [在網頁上開啟]，以在 Power BI 服務中開啟儀表板。 
    
    ![從 Cortana 開啟儀表板](media/service-cortana-intro/power-bi-dashboard-opens.png "從 Cortana 開啟儀表板")   
 4. 現在讓我們使用 Cortana 搜尋報表。 我們需要知道[頁面包含 Cortana 回應卡的報表](service-cortana-answer-cards.md)。 在此範例中，名為 "Cortana-New-Stores" 的報表具有名為 "cortana stores" 的 Cortana 回應卡頁面。  

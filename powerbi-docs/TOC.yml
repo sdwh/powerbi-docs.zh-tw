@@ -454,10 +454,8 @@
           href: power-bi-visualization-treemaps.md
         - name: 教學課程：Power BI 中的瀑布圖
           href: power-bi-visualization-waterfall-charts.md
-        - name: 提出問題來為 Power BI 儀表板建立大數字圖格
-          href: power-bi-visualization-big-number.md
-        - name: 從 Power BI 報表建立大數字的圖格
-          href: power-bi-visualization-big-number-report.md
+        - name: 教學課程：Power BI 中的卡片 (大數字圖格)
+          href: power-bi-visualization-card.md
         - name: 在 Power BI 中使用 R 指令碼建立進階分析和視覺效果
           href: service-r-visuals.md
     - name: 檔案的資料
@@ -938,6 +936,8 @@
           href: developer/integrate-report.md
         - name: 將內容整合到您的應用程式中 (應用程式擁有資料)
           href: developer/embed-sample-for-customers.md
+        - name: 將自訂配置內嵌到應用程式中
+          href: developer/embedded-custom-layout.md
         - name: 建立 Azure Active Directory 租用戶
           href: developer/create-an-azure-active-directory-tenant.md
         - name: 註冊應用程式

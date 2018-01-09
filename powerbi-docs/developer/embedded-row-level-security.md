@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/30/2017
+ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
-ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
+ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>搭配 Power BI 內嵌內容使用資料列層級安全性
-資料列層級安全性 (RLS) 可用來限制報表或資料集中資料的使用者存取權，讓多位不同的使用者可以在使用相同報表的同時，各自看到不同的資料。 從 Power BI 內嵌報表時，可利用 RLS。
+資料列層級安全性 (RLS) 可用來限制使用者存取儀表板、圖格、報告和資料集內的資料。 多位不同的使用者可在看見不同的資料時使用這些相同的成品。 內嵌支援 RLS。
 
 如果您要為非 Power BI 使用者內嵌 (應用程式擁有資料)，這通常是 ISV 案例，則本文很適合您！ 您必須設定代表使用者和角色的內嵌權杖。 請繼續閱讀以了解如何執行這項操作。
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/01/2017
 
 若要利用 RLS，請務必了解三個主要概念：使用者、角色和規則。 讓我們分別探討：
 
-**使用者** – 這些是檢視報表的實際終端使用者。 在 Power BI Embedded 中，使用者是由內嵌權杖中的使用者名稱屬性所識別。
+**使用者**– 檢視成品 (儀表板、圖格、報告或資料集) 的終端使用者。 在 Power BI Embedded 中，使用者是由內嵌權杖中的使用者名稱屬性所識別。
 
 **角色** – 使用者會有隸屬的角色。 角色是規則的容器，可以命名為「銷售經理」或「銷售代表」等。您會在 Power BI Desktop 中建立角色。 如需詳細資訊，請參閱 [Power BI Desktop 的資料列層級安全性 (RLS)](../desktop-rls.md)。
 
@@ -85,11 +85,11 @@ RLS 是在 Power BI Desktop 中撰寫。 我們可以在資料集和報表處於
 
 使用者會由您的應用程式驗證和授權，而內嵌權杖可用來授權該使用者存取特定 Power BI Embedded 報表。 Power BI Embedded 沒有關於您使用者身分識別的任何特定資訊。 您必須傳遞一些額外的內容作為身分識別形式內嵌權杖的一部分，RLS 才能運作。 這可以藉由 [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API 來完成。
 
-[GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API 接受表示相關資料集的身分識別清單。 目前只能提供一個身分識別。 儀表板內嵌未來將會新增對多個資料集的支援。 您必須傳遞下列項目作為身分識別的一部分，RLS 才能運作。
+[GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API 接受表示相關資料集的身分識別清單。 您必須傳遞下列項目作為身分識別的一部分，RLS 才能運作。
 
 * **使用者名稱 (必要項)**– 這是套用 RLS 規則時可用來協助識別使用者的字串。 只能列出單一使用者。
 * **角色 (必要項)** – 含有套用資料列層級安全性規則時要選取之角色的字串。 如果傳遞多個角色，則應該以字串陣列形式來傳遞。
-* **資料集 (必要項)** – 適用於您要內嵌之報表的資料集。 只能在資料集清單中提供一個資料集。 儀表板內嵌未來將會支援多個資料集。
+* **資料集 (必要項)** – 適用於您要內嵌之成品的資料集。 
 
 您可以在 **PowerBIClient.Reports** 上使用 **GenerateTokenInGroup** 方法來建立內嵌權杖。 目前僅支援報表。
 
@@ -125,7 +125,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 }
 ```
 
-現在，結合所有項目，當有人登入您的應用程式檢視此報表時，他們只能看到依照資料列層級安全性的定義所允許檢視的資料。
+現在，結合所有項目，當有人登入您的應用程式檢視此成品時，他們只能看到依照資料列層級安全性的定義所允許檢視的資料。
 
 ## <a name="working-with-analysis-services-live-connections"></a>使用 Analysis Services 即時連線
 內部部署伺服器可以搭配 Analysis Services 即時連線使用資料列層級安全性。 使用這種類型的連線時，您應該了解幾個特定概念。
@@ -143,12 +143,11 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 ## <a name="considerations-and-limitations"></a>考量與限制
 * 使用內嵌權杖時，在 Power BI 服務中將使用者指派給角色不會影響 RLS。
 * 雖然 Power BI 服務不會將 RLS 設定套用至系統管理員或具有編輯權限的成員，但當您使用內嵌權杖提供身分識別時，則會將它套用至資料。
-* 只有報表讀取/寫入才支援在呼叫 GenerateToken 時傳遞身分識別資訊。 稍後將會推出其他資源的支援。
 * 內部部署伺服器支援 Analysis Services 即時連線。
 * Azure Analysis Services 即時連線支援依角色篩選，而非動態依使用者名稱篩選。
 * 如果基礎資料集不需要 RLS，GenerateToken 要求**不得**包含有效的身分識別。
-* 如果基礎資料集是雲端模型 (快取模型或 DirectQuery)，有效的身分識別必須包含至少一個角色。 否則，不會發生角色指派。
-* 身分識別清單中只能提供一個身分識別。 我們未來將使用清單為儀表板內嵌啟用多重身分識別權杖。
+* 如果基礎資料集是雲端模型 (快取模型或 DirectQuery)，有效的身分識別必須包含至少一個角色，否則不會發生角色指派。
+* 身分識別清單可讓多個身分識別權杖用於儀表板內嵌。 對於所有其他成品，此清單包含單一身分識別。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

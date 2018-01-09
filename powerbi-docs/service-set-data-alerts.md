@@ -16,16 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/06/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: cfbd7d124784b15b432921554c8ac5bbe321846c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 服務中的資料警示
-設定警示，以在儀表板中的資料變更時超出您所設定的限制時通知您。 只可對從報表視覺效果釘選的磚上，為量測計、KPI 和卡片設定警示。 可以對從報表釘選到儀表板的串流資料集上所建立的視覺效果，設定警示，但不可對使用 [新增磚] >  [自訂串流資料] 直接於儀表板上建立的串流磚，設定警示。 即使將儀表板分享給他人共用，仍只有您才能查看您所設定的警示。 資料警示會在平台之間完全同步處理；請在 [ Power BI 行動裝置應用程式](mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服務中設定和檢視資料警示。 其不適用於 Power BI Desktop。 警示還可以[透過 Microsoft Flow 進行自動化及整合](https://flow.microsoft.com) - [動手試試看](service-flow-integration.md)。
+設定警示，以在儀表板中的資料變更時超出您所設定的限制時通知您。 
+
+只可在從報告視覺效果釘選的圖格上，為量測計、KPI 和卡片設定警示。 可以對從報表釘選到儀表板的串流資料集上所建立的視覺效果，設定警示，但不可對使用 [新增磚] >  [自訂串流資料] 直接於儀表板上建立的串流磚，設定警示。 
+
+即使將儀表板分享給他人共用，仍只有您才能查看您所設定的警示。 資料警示會在平台之間完全同步處理；請在 [ Power BI 行動裝置應用程式](mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服務中設定和檢視資料警示。 其不適用於 Power BI Desktop。 警示還可以[透過 Microsoft Flow 進行自動化及整合](https://flow.microsoft.com) - [動手試試看](service-flow-integration.md)。
 
 ![](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -46,13 +50,12 @@ ms.lasthandoff: 11/13/2017
    ![](media/service-set-data-alerts/powerbi-card.png)
 2. 選取鈴鐺圖示 ![](media/service-set-data-alerts/power-bi-bell-icon.png)，以為 [商店數總計] 新增一或多個警示。
    
-   ![](media/service-set-data-alerts/powerbi-set-alert.png)
-3. 若要開始，請確定已將滑桿設為 [開啟]，並為您的警示提供標題。 磚可幫助您輕鬆地辨識警示。
+1. 若要開始，請選取 [+ 新增警示規則]，確定已將滑桿設為 [開啟]，並為您的警示提供標題。 磚可幫助您輕鬆地辨識警示。
    
    ![](media/service-set-data-alerts/powerbi-alert-title.png)
 4. 向下捲動並輸入警示的詳細資料。  在此範例中，我們要建立警示，在商店數總計超過 100 家時通知我們。 警示會出現在我們的通知中心內。 我們也同樣設定讓 Power BI 傳送電子郵件給我們。
    
-   ![](media/service-set-data-alerts/powerbi-set-alert-details.png)
+   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
 5. 選取 [儲存]。
 
 ## <a name="receiving-alerts"></a>接收警示
@@ -76,7 +79,7 @@ ms.lasthandoff: 11/13/2017
    > 
 
 ## <a name="managing-alerts"></a>管理警示
-有三種方式可以管理您的通知，分別是從儀表板的磚本身、從 Power BI 的 [設定] 功能表，以及在 [iPhone 的 Power BI 行動應用程式](mobile-set-data-alerts-in-the-mobile-apps.md)或 [Windows 10 的 Power BI 行動應用程式](mobile-set-data-alerts-in-the-mobile-apps.md)個別的磚上。
+有許多方式可以管理您的通知，分別是從儀表板的圖格本身、從 Power BI 的 [設定] 功能表，以及在 [iPhone 的 Power BI 行動裝置應用程式](mobile-set-data-alerts-in-the-mobile-apps.md)或 [Windows 10 的 Power BI 行動裝置應用程式](mobile-set-data-alerts-in-the-mobile-apps.md)個別的圖格上。
 
 ### <a name="from-the-tile-itself"></a>從磚本身
 1. 當您需要變更或移除磚的警示時，請選取鈴鐺圖示 ![](media/service-set-data-alerts/power-bi-bell-icon.png)，以重新開啟 [管理警示] 視窗。 您為該磚設定的所有警示皆會顯示。

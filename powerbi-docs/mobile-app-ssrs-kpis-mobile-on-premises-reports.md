@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 99fceab5904deaa510edd213c349dcfb2e38ac28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5bbd2f09187e9fac16f6cc4b9ac3ff59a888ed7f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視內部部署報表伺服器報表和 KPI
 適用於︰
@@ -63,7 +63,14 @@ Power BI 行動裝置應用程式提供 Power BI 報表伺服器及 SQL Server 2
 3. 點選 [連線到伺服器]。
    
     ![連線到伺服器](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
-4. 請填入伺服器位址以及使用者名稱和密碼。 請使用此格式的伺服器位址：
+
+     行動裝置應用程式需要以某種方式存取伺服器。 有幾種方式可執行此作業：
+
+    - 位於相同的網路上/使用 VPN 是最簡單的方式。
+    - 可以使用 Web Application Proxy 從組織外部進行連線。 如需詳細資訊，請參閱[使用 OAuth 連線到 Reporting Services](mobile-oauth-ssrs.md)。 
+    - 在防火牆中開啟連線 (連接埠)。
+
+1. 請填入伺服器位址以及使用者名稱和密碼。 請使用此格式的伺服器位址：
    
      `http://<servername>/reports`
    
@@ -71,10 +78,7 @@ Power BI 行動裝置應用程式提供 Power BI 報表伺服器及 SQL Server 2
    
      `https://<servername>/reports`
    
-   > [!NOTE]
-   > 請在連接字串前面包含 **http** 或 **https**。
-   > 
-   > 
+   請在連接字串前面包含 **http** 或 **https**。
    
     ![連線到伺服器對話方塊](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (選擇性) 在 [進階選項] 下，您可以依需要提供伺服器易記的名稱。
@@ -100,7 +104,7 @@ Power BI 報表、Reporting Services 行動報表和 KPI 皆顯示在 Reporting 
 
 * 點選 [我的最愛]。
   
-   ![左側瀏覽窗格中的我的最愛](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server.png)
+   ![左側瀏覽窗格中的我的最愛](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    入口網站上您最愛的 KPI 和報表以及在 Power BI 服務中的 Power BI 儀表板，都在這個頁面上：
   

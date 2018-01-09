@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 231bf7febb19583414d976cc612d06c2caa1e246
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 91c185a082cebc6a9196e0e86898fe366363f8c2
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="funnel-charts-tutorial"></a>漏斗圖 (教學課程)
 漏斗圖幫您將有循序連接階段的線性程序視覺化。 例如，銷售漏斗圖透過以下階段追蹤客戶：潛在客戶 \> 合格的潛在客戶 \> 期望 \> 合約 \> 結案。  漏斗圖的圖形一看就能表達出您追蹤中程序的健全狀況。
@@ -59,15 +59,15 @@ ms.lasthandoff: 11/13/2017
 
 現在建立您自己的漏斗圖，其中可顯示每個銷售階段中擁有的商機數。
 
-這些指示會使用商機分析範例。 如果要跟著做，請[下載範例](sample-datasets.md)、登入 Power BI，然後選取 [取得資料] \> [範例] \> [商機分析範例] \> [連接]。
+這些指示會使用商機分析範例。 若要跟著做，請針對 Power BI 服務 (app.powerbi.com) 或 Power BI Desktop [下載範例](sample-datasets.md)。   
 
-1. 在 [編輯檢視](service-interact-with-a-report-in-editing-view.md) 中，從[空白報表頁面](power-bi-report-add-page.md)開始，選取 [SalesStage] \> [銷售階段] 欄位。  
+1. 從[空白報告頁面](power-bi-report-add-page.md)開始，選取 [SalesStage] \> [銷售階段] 欄位。 如果您使用 Power BI 服務，請務必在[編輯檢視](service-interact-with-a-report-in-editing-view.md)中開啟報告。
    
     ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [將圖表轉換](power-bi-report-change-visualization-type.md)成漏斗圖。 請注意，[銷售階段]  良好地位於 [群組]  井中。 
 3. 從 [欄位] 窗格，選取 [事實] \> [商機計數]。
    
-    ![](media/power-bi-visualization-funnel-charts/funnelfinal_new.png)
+    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. 暫留在列上會顯示豐富的資訊。
    
    * 階段名稱
@@ -90,14 +90,13 @@ ms.lasthandoff: 11/13/2017
 2. 若要設定視覺效果互相交叉醒目提示及交叉篩選之方式的喜好設定，請參閱[在 Power BI 中與視覺效果互動](service-reports-visual-interactions.md)
 
 ## <a name="create-a-funnel-chart-in-qa"></a>在問與答中建立漏斗圖
-反白顯示已從 [商機追蹤] 資料集釘選了至少一個視覺效果的儀表板。  當您在問與答中輸入問題時，Power BI 從所有與所選的儀表板 (具有釘選圖格) 相關聯的資料集搜尋解答。 如需詳細資訊，請參閱 [Power BI - 基本概念](service-basic-concepts.md)。
+開啟 [商機分析範例] 儀表板，或任何從 [商機分析範例] 資料集釘選了至少一個視覺效果的儀表板。  當您在問與答中輸入問題時，Power BI 從所有與所選的儀表板 (具有釘選圖格) 相關聯的資料集搜尋解答。 如需詳細資訊，請參閱 [Power BI - 基本概念](service-basic-concepts.md)。
 
-1. 反白顯示已從 [商機追蹤] 資料集釘選了至少一個圖格的儀表板。
-2. 開始在 [問與答] 問題方塊中輸入您的問題。
+1. 在 [商機分析範例] 儀表板上，開始在 [問與答] 問題方塊中輸入您的問題。
    
    ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
    
-   請務必加入「做為漏斗圖」讓 Power BI 知道您偏好哪一種視覺效果。
+2. 請務必加入「做為漏斗圖」讓 Power BI 知道您偏好哪一種視覺效果。
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 83f143427ce74f593ea6e8d99f8a6b127ee4488d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cf0eeaa16e7dc3576cb774cb7bb7dfef9c4486d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>購買 Power BI Pro
 Power BI Pro 可讓使用者發佈報告、共用儀表板、與同事在工作區中共同作業，以及參與其他相關的活動，例如能夠：
@@ -34,7 +34,7 @@ Power BI Pro 可讓使用者發佈報告、共用儀表板、與同事在工作�
 
 IT 系統管理員有幾種選項可在您的組織內使用 Power BI Pro。 您可以透過 Office 365 系統管理中心或透過 Microsoft 代表或合作夥伴購買 Power BI Pro。 本文將探討兩種適用於 Power BI Pro 的試用版選項，然後說明如何以組織身分購買。
 
-如需有關 Power BI Premium，以及 Power BI Pro 如何納入 Premium 供應項目中的詳細資訊，請參閱 [Power BI Premium - 這是什麼？](service-premium.md)。
+如需有關 Power BI Premium，以及 Power BI Pro 如何納入 Premium 供應項目中的詳細資訊，請參閱 [Power BI Premium - 這是什麼？](service-premium.md)
 
 ## <a name="pricing"></a>價格
 如需 Power BI Pro 的最新定價資訊及所包含功能的資料表清單，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing/)。
@@ -118,6 +118,11 @@ IT 系統管理員有幾種選項可在您的組織內使用 Power BI Pro。 您
 當您使用服務時，可以前往**齒輪**圖示，然後選取 [管理個人儲存體]，藉此驗證您有 Pro 試用帳戶。
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro3.png)
+
+## <a name="grace-period"></a>寬限期
+在 Power BI Pro 授權到期後，有 30 天的寬限期。 
+
+Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳細資訊，請參閱[我的商務用 Office 365 訂用帳戶結束時，我的資料和存取權會發生什麼情況？](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 的自助式註冊](service-self-service-signup-for-power-bi.md)  

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 12/18/2017
 ms.author: asaxton
-ms.openlocfilehash: 83613f0ed915a03b65b90d4bf61e37568b922182
-ms.sourcegitcommit: c2deaff54434da67698a14cc00172a2119ed1a56
+ms.openlocfilehash: 6ee8ab6d30d84857de9cd415ee58caade4e94a57
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="azure-sql-database-with-directquery"></a>具有 DirectQuery 的 Azure SQL Database
 了解如何直接連線至 Azure SQL Database 及建立使用即時資料的報表。 您可以將您的資料保留在來源，而不是在 Power BI 中。
@@ -31,9 +31,9 @@ ms.lasthandoff: 12/09/2017
 **注意：**
 
 * 連接時請指定完整的伺服器名稱 (請參閱以下以取得詳細資料)
-* 請確定已將資料庫的防火牆規則設定為[允許存取 Azure 服務](https://msdn.microsoft.com/library/azure/ee621782.aspx)。
+* 請確定已將資料庫的防火牆規則設定為 [[允許存取 Azure 服務](https://msdn.microsoft.com/library/azure/ee621782.aspx)]
 * 例如選取資料行或加入篩選器的每一個動作，都會傳送查詢回資料庫
-* 圖格會大約每隔 15 分鐘重新整理 (重新整理不需要排程) 當您連接時，這可以在 [進階] 設定中調整。
+* 圖格會每小時重新整理 (重新整理不需要排程)。 當您連接時，這可以在 [進階] 設定中調整。
 * 問與答不能用於 DirectQuery 資料集
 * 不會自動挑選結構描述變更
 
@@ -42,12 +42,19 @@ ms.lasthandoff: 12/09/2017
 ## <a name="power-bi-desktop-and-directquery"></a>Power BI Desktop 和 DirectQuery
 您必須使用 Power BI Desktop，才能連線到使用 DirectQuery 的 Azure SQL Database。 這個方法提供額外的彈性和功能。 使用 Power BI Desktop 建立的報表可以發行至 Power BI 服務。 您可以深入了解如何在 Power BI Desktop 中連線到 [ DirectQuery 的 Azure SQL Database](desktop-use-directquery.md)。 
 
-## <a name="connecting-through-power-bi"></a>透過 Power BI 連接
-您無法直接從 Power BI 服務連線到 Azure SQL Database。 當您選取 [Azure SQL Database 連接器](https://app.powerbi.com/getdata/bigdata/azure-sql-database-with-live-connect)時，系統會要求您在 Power BI Desktop 內建立連線。 您接著可以將 Power BI Desktop 報表發行至 Power BI 服務。 
+## <a name="single-sign-on"></a>單一登入
 
-![](media/service-azure-sql-database-with-direct-connect/azure-sql-database-in-power-bi.png)
+在您將 Azure SQL DirectQuery 資料集發行至服務之後，您可以透過 Azure Active Directory (Azure AD) OAuth2 為終端使用者啟用單一登入 (SSO)。 
 
-### <a name="finding-parameter-values"></a>尋找參數值
+若要啟用 SSO，請移至資料集、開啟 [資料來源] 索引標籤，然後檢查 [SSO] 方塊。
+
+![設定 Azure SQL DQ 對話方塊](media/service-azure-sql-database-with-direct-connect/sso-dialog.png)
+
+若已啟用 SSO 選項，且您的使用者存取在資料來源上建立的報告，Power BI 會在對 Azure SQL 資料庫的查詢中傳送其已驗證的 Azure AD 認證。 這可讓 Power BI 遵從在資料來源層級所設定的安全性設定。
+
+SSO 選項會在使用此資料來源的所有資料集中生效。 它不會影響用於匯入案例的驗證方法。
+
+## <a name="finding-parameter-values"></a>尋找參數值
 在 Azure 入口網站中可以找到您完整的伺服器名稱和資料庫名稱。
 
 ![](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
@@ -59,4 +66,3 @@ ms.lasthandoff: 12/09/2017
 [開始使用 Power BI](service-get-started.md)  
 [取得 Power BI 的資料](service-get-data.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

@@ -1,6 +1,6 @@
 ---
 title: "在 Power BI 行動裝置應用程式中設定資料警示"
-description: "了解如何在 Power BI 行動裝置應用程式及 Power BI 服務中設定警示，以在儀表板中的資料變更超出您設定的限制時通知您。"
+description: "了解如何在 Power BI 行動裝置應用程式中設定警示，以在儀表板中的資料變更超出您設定的限制時通知您。"
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 822285a38e08f173ff8cae69c8e7e8ad94957692
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c6406a6d1ad4269352ce8421b91f4304fd35c78f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中設定資料警示
 適用於︰
@@ -30,7 +30,9 @@ ms.lasthandoff: 11/13/2017
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
 
-您可以在 Power BI 行動應用程式及 Power BI 服務中設定警示，以在儀表板中的資料變更超出您設定的限制時通知您。 警示適用於只包含單一數字的磚，例如卡片與量測計，但不適用於串流資料。 您可以在行動裝置上設定資料警示，然後在 Power BI 服務中檢視，反之亦然。 即使共用了儀表板或圖格快照集，也只有您才可以查看您設定的資料警示。
+您可以在 Power BI 行動裝置應用程式和 Power BI 服務中的儀表板上設定警示。 警示會在圖格中的資料變更超出您所設定的限制時通知您。 警示適用於只包含單一數字的磚，例如卡片與量測計，但不適用於串流資料。 您可以在行動裝置上設定資料警示，然後在 Power BI 服務中檢視，反之亦然。 即使共用了儀表板或圖格快照集，也只有您才可以查看您設定的資料警示。
+
+如果您有 Power BI Pro 授權，或有免費的 Power BI 授權且共用儀表板具備 Premium 功能，您可以在圖格上設定警示。 
 
 > [!WARNING]
 > 資料驅動的警示通知會提供資料的相關資訊。 如果您的裝置被偷，建議您前往 Power BI 服務關閉所有資料驅動的警示規則。 

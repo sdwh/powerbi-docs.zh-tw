@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 9dc9cb883e1d62c282501e628f52c13267d830b6
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4c4c31f6289f6b3d12b619b7c6c297d861177fbf
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="favorite-dashboards-in-the-power-bi-service"></a>Power BI 服務中我的最愛儀表板
 當您將儀表板設為「最愛」時，便可以從所有的工作區存取它。  我的最愛通常是指您最常瀏覽的項目。
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/13/2017
 > 
 > 
 
-您也可以選取單一儀表板作為 Power BI 中的[精選儀表板](service-dashboard-featured.md)。
+您也可以選取單一儀表板作為 Power BI 服務中的[精選儀表板](service-dashboard-featured.md)。
 
 ## <a name="add-a-dashboard-as-a-favorite"></a>將儀表板新增為「我的最愛」
 觀看 Amanda 將 [我的最愛] 新增至工作區，然後遵循以下影片的逐步指示親自試試看。
@@ -50,7 +50,7 @@ ms.lasthandoff: 11/13/2017
    ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
 ## <a name="working-with-favorites"></a>使用「我的最愛」
-1. 若要查看您五個最新的最愛，請從任何工作區選取 [我的最愛] 右邊的箭號。  您可以從這裡選取最愛的儀表板，加以開啟。 只會列出五個最新的最愛 (依字母順序)。 如果您有五個以上的最愛，請選取 [See all] \(全部查看) 以開啟 [我的最愛] 畫面 (請參閱下面的 #2)。 
+1. 若要您的最愛，請從任何工作區，選取 [我的最愛] 右邊的彈出式箭號。  您可以從這裡選取最愛的儀表板，加以開啟。 只會列出五個我的最愛 (依字母順序)。 如果您有五個以上的最愛，請選取 [全部查看] 以開啟 [我的最愛] 畫面 (請參閱下面的第 2 點)。 
    
    ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
 2. 若要查看您新增為我的最愛的**所有**儀表板，請在左側功能窗格中選取 [我的最愛] 或我的最愛 ![](media/service-dashboard-favorite/power-bi-favorites-icon.png) 圖示。  
@@ -60,7 +60,7 @@ ms.lasthandoff: 11/13/2017
    您可以從這裡選取儀表板加以開啟，或與同事共用儀表板。
 
 ## <a name="unfavorite-a-dashboard"></a>將儀表板移除最愛
-不再如往常般經常使用儀表板？  您可以將其移除最愛。 將儀表板移除最愛時，儀表板就會從 [我的最愛] 中移除，但不會從 Power BI 中移除。
+不再如往常般經常使用儀表板？  您可以將其移除最愛。 將儀表板移除最愛時，儀表板就會從 [我的最愛] 清單中移除，但不會從 Power BI 中移除。
 
 1. 在左側功能窗格中，選取 [我的最愛] 以開啟 [我的最愛] 畫面。
    

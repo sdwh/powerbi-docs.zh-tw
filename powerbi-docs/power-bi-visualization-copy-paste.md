@@ -15,16 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 7eea8b8299561b65a6af704489d4c69c33ca27b4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8b1efc64dc471bafa410f41c94f7e06d638fe9e0
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="copy-and-paste-a-visualization-in-power-bi"></a>複製並貼上 Power BI 的視覺效果
-1. 在 Power BI 的 [編輯檢視](service-reading-view-and-editing-view.md) 中開啟報表，如果您的報表還沒有視覺效果，請[建立視覺效果](power-bi-report-add-visualizations-i.md)。 
+# <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中複製並貼上視覺效果
+複製並貼上視覺效果時，需要有報告的編輯權限。 在 Power BI 服務中，這表示在[編輯檢視](service-reading-view-and-editing-view.md)中開啟報告。
+
+1. 開啟至少有一個視覺效果的報告。  
+
 2. 選取視覺效果並使用 **Ctrl+C** 複製，並使用 **Ctrl+V** 貼上。  
    ![](media/power-bi-visualization-copy-paste/copypasteviznew.gif)
 

@@ -1,6 +1,6 @@
 ---
 title: "Power BI 中的精選儀表板"
-description: "說明如何在 Power BI 中建立精選儀表板"
+description: "說明如何在 Power BI 服務中建立精選儀表板"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,27 +16,28 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f87f13c71d60a8edc831a1fd9cc7d0a1d5656634
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="featured-dashboards-in-power-bi"></a>Power BI 中的精選儀表板
+# <a name="featured-dashboards-in-power-bi-service"></a>Power BI 服務中的精選儀表板
 ## <a name="create-a-featured-dashboard"></a>建立精選儀表板
-許多使用者會有一個比其他任何儀表板更常瀏覽的儀表板。  這可能是您用來執行業務的儀表板，或可能包含來自許多不同儀表板和報表的磚彙總。
+許多使用者會有一個比其他任何儀表板更常瀏覽的儀表板。  這可能是用來執行業務的儀表板，或可能是包含來自許多不同儀表板和報告之圖格彙總的儀表板。
 
 ![](media/service-dashboard-featured/power-bi-feature-nav.png)
 
 當您將儀表板選取為 [精選] 時，每次開啟 Power BI 服務時，都會開啟服務並顯示該儀表板。  
 
-> **注意**︰您也可以選取幾個儀表板，並將其設定為「我的最愛」。 請參閱[我的最愛儀表板](service-dashboard-favorite.md)。
-> 
-> 
+您也可以選取幾個儀表板，並將其設定為「我的最愛」。 請參閱[我的最愛儀表板](service-dashboard-favorite.md)。
 
-如果您尚未設定 [精選] 儀表板，Power BI 將會開啟到最後一個使用的儀表板。  
+> [!NOTE] 
+>本主題適用於 Power BI 服務，不適用於 Power BI Desktop。
+
+如果您尚未設定精選儀表板，Power BI 將會開啟到您上次使用的儀表板。  
 
 ### <a name="to-set-a-dashboard-as-featured"></a>將儀表板設定為**精選**
 觀賞 Amanda 如何建立精選儀表板，然後遵循影片下方的指示親自試試看。
@@ -70,6 +71,8 @@ ms.lasthandoff: 11/13/2017
 2. 在頂端功能表列中，選取 [停用精選儀表板]。
    
     ![](media/service-dashboard-featured/power-bi-unfeature.png)
+
+現在 Power BI 會開啟到您上次使用的儀表板。  
 
 ## <a name="next-steps"></a>後續步驟
 [將儀表板設為最愛](service-dashboard-favorite.md)

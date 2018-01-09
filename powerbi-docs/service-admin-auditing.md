@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/28/2017
+ms.date: 12/12/2017
 ms.author: asaxton
-ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>在組織內使用稽核
 
@@ -35,6 +35,16 @@ ms.lasthandoff: 11/29/2017
 
 > [!NOTE]
 > Power BI 的稽核功能目前為預覽狀態，且所有資料區域皆可使用。
+
+## <a name="requirements"></a>需求
+您必須符合這些需求才能存取稽核記錄：
+
+- 若要存取 Office 365 安全性與合規性中心的稽核區段，您必須具有 Exchange Online 授權 (隨附於 Office 365 Enterprise E3 和 E5 訂用帳戶)。
+- 您必須是全域管理員或擁有 Exchange 管理員角色，才能提供稽核記錄的存取權。 
+
+  Exchange 管理員角色是透過 Exchange 管理中心控制。 如需詳細資訊，請參閱 [Exchange Online 中的權限](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx)。
+
+- 如果您有稽核記錄的存取權，但並不是全域管理員或 Power BI 服務管理員，您將無法存取 Power BI 管理入口網站。 在此情況下，您必須取得 Office 365 安全性與合規性中心的直接連結。
 
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>在 Power BI 管理入口網站啟用稽核功能
 
@@ -70,8 +80,8 @@ Power BI 會開始記錄您的使用者在 Power BI 中執行的各種活動。 
    ![](media/service-admin-auditing/powerbi-admin.png)
 
 3. 選取 [稽核記錄]。
-4. 
-5. 選取 [前往 O365 系統管理中心]。
+ 
+4. 選取 [前往 O365 系統管理中心]。
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 

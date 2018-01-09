@@ -1,5 +1,5 @@
 ---
-title: "從問與答將磚釘選到 Power BI 儀表板"
+title: "從問與答將磚釘選到儀表板"
 description: "說明如何從問與答的問題方塊將磚釘選至 Power BI 儀表板"
 services: powerbi
 documentationcenter: 
@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f37c0f9e433f1ac8c6bb8f7f3fa4b513fb4b4652
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8a876c5a05fcdadff1a874148f5d56465bcc8c62
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>從問與答將磚釘選到儀表板
 ## <a name="how-to-pin-a-tile-from-qa"></a>如何從問與答釘選磚
 問與答是 Power BI 隨選報表工具。 需要尋找特定的深入剖析資訊嗎？ 提出與您的資料有關的問題，然後以視覺效果的形式接收回應。
 
-> **注意**：如果要跟著做，請開啟[零售分析範例](sample-retail-analysis.md)。
+在儀表板和報告中可使用 [問與答]。 在本文中，我們會從儀表板開啟 [問與答]。 儀表板適用於 Power BI 服務，但不適用於 Power BI Desktop。 如果要跟著做，請開啟[零售分析範例儀表板](sample-retail-analysis.md)。
 > 
 > 
 
@@ -40,7 +40,9 @@ ms.lasthandoff: 11/13/2017
    問題方塊可提供您建議。
 4. 若要將圖表加入儀表板作為磚，請選取畫布右上角的釘選圖示 ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png)。
 5. 將磚釘選至現有的儀表板或新的儀表板上。 
-   
+
+   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+
    * 現有儀表板：從下拉式清單中選取儀表板的名稱。 您只能選擇具有目前工作區的儀表板。
    * 新的儀表板︰輸入新儀表板的名稱，它就會新增至目前工作區。
 6. 選取 [釘選] 。

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: c1801db4135d6d97a940e593de37ca2886194b53
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI 中的散佈圖與泡泡圖 (教學課程)
 散佈圖一律會有兩個值座標軸，沿著水平軸顯示一組數字資料，沿著垂直軸顯示另一組數值。 此圖表顯示 x 與 y 數交集處的點，結合這些值可形成單一的資料點。 視資料之不同，這些資料點可能平均散布或不平均地散佈在水平軸。
@@ -47,25 +47,30 @@ ms.lasthandoff: 11/13/2017
 * 與象限一起使用。
 
 ## <a name="create-a-scatter-chart"></a>建立散佈圖
+觀賞這段影片來了解 Will 如何建立散佈圖，然後依照下列步驟自行建立一個散佈圖。
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. 在[編輯檢視](service-interact-with-a-report-in-editing-view.md)中開啟零售分析範例，然後[加入新的報表頁面](power-bi-report-add-page.md)。
-2. 從 [欄位] 窗格中，選取 [銷售額] > [每平方英尺銷售額] 與 [銷售額] > [總銷售額差異 %]。
-3. 從 [欄位] 窗格中選取 [區域] > [區域]。
+
+這些指示使用零售分析範例。 若要跟著做，請針對 Power BI 服務 (app.powerbi.com) 或 Power BI Desktop [下載範例](sample-datasets.md)。   
+
+1. 從[空白報告頁面](power-bi-report-add-page.md)開始，選取 [銷售額] \> [每平方英尺銷售額] 及 [銷售額] > [總銷售額差異 %] 欄位。 如果您使用 Power BI 服務，請務必在[編輯檢視](service-interact-with-a-report-in-editing-view.md)中開啟報告。
+ 
+2. 從 [欄位] 窗格中選取 [區域] > [區域]。
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_pre_convert.png)
+    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 4. 轉換成散佈圖。 在 [視覺效果] 窗格中，選取散佈圖圖示。
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
 5. 將 [區域]  從 [詳細資料]  拖曳至 [圖例] 。
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_new.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
 我們現在沿著 Y 軸有繪製總銷售額差異 % 的散佈圖，以及沿著 X 軸繪製每平方英尺銷售額的散佈圖。  資料點色彩代表區域。  現在讓我們加入第三個維度。
 
 ## <a name="create-a-bubble-chart"></a>建立泡泡圖
 1. 從 [欄位] 窗格中，將 [銷售額] > [本年度銷售額] > [值] 拖曳至 [大小] 區域。 
    
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_size.png)
+   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
 2. 暫留在泡泡圖上。  泡泡的大小反映 **本年度銷售額**的值。
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
