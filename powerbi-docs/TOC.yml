@@ -1006,8 +1006,6 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: 資源
       items:
-        - name: Apiary
-          href: 'https://go.microsoft.com/fwlink/?linkid=848278'
         - name: JavaScript 內嵌示範
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: 範例
@@ -1052,6 +1050,8 @@
           href: report-server/data-sources.md
         - name: 連接至資料來源
           href: report-server/connect-data-sources.md
+        - name: '存取共用資料集作為 OData 摘要 '
+          href: report-server/access-dataset-odata.md
         - name: 設定排程的重新整理
           href: report-server/configure-scheduled-refresh.md
         - name: 在報表中新增註解
