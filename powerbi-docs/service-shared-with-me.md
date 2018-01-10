@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 68e1fdfe5fd86b247d05c5d93d9e6b724a8b07ba
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>顯示已與我共用的 Power BI 儀表板
 ## <a name="shared-with-me"></a>與我共用
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/13/2017
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
-根據擁有者授與您的權限，您將有許多選項可以與儀表板和基礎報表互動。 這些包括可以建立儀表板的複本、以[閱讀檢視](service-interact-with-a-report-in-reading-view.md)開啟報表，以及重新與其他同事共用。
+根據擁有者授與您的權限，您將有許多選項可以與儀表板和基礎報表互動。 這些包括可以建立儀表板的複本、以[閱讀檢視](service-reading-view-and-editing-view.md)開啟報表，以及重新與其他同事共用。
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>可從 [與我共用] 畫面使用的動作
 * 選取星狀圖示，以[將儀表板設為最愛](service-dashboard-favorite.md)。

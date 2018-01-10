@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/04/2017
-ms.author: asaxton
-ms.openlocfilehash: 03c19f34b9fab240a67cd8ed4d4b7ca3f66bb966
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.author: maghan
+ms.openlocfilehash: af1776e2f14f678569ae55d8bc05c7197475497f
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>支援 Power BI 報表伺服器的時間軸
 Power BI 報表伺服器每年發行數次。 下個版本正式推出 (GA) 後會提供安全性和重大更新。 下個版本發行後，舊版仍會繼續收到 12 個月發行週期的其餘安全性更新。

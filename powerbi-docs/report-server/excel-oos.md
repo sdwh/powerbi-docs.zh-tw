@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/23/2017
-ms.author: asaxton
-ms.openlocfilehash: 2aee1652f802e35a99d3681fdbf6177ea29355ab
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 44a423bcebb89a581dbcffde3b8e7704701656ad
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>使用 Office Online Server (OOS) 設定報表伺服器來裝載 Excel 活頁簿
 除了在入口網站中檢視 Power BI 報表之外，商務使用者現在也可以在 Power BI 報表伺服器中執行與 Excel 活頁簿相同的作業，讓他們有一個位置可以發佈和檢視其自助 Microsoft BI 內容。
@@ -92,7 +92,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **參數**
 
-* **–InternalURL** 是執行 Office Online Server 之伺服器的完整網域名稱 (FQDN)，例如 http://servername.contoso.com 。
+* **–InternalURL** 是執行 Office Online Server 之伺服器的完整網域名稱 (FQDN)，例如 http://<伺服器服名稱>.contoso.com。
 * **–ExternalURL** 是可在網際網路上存取的 FQDN。
 * **–CertificateName** 是憑證的易記名稱。
 
@@ -105,7 +105,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **參數**
 
-* **–InternalURL** 是執行 Office Online Server 之伺服器的名稱，例如 http://servername 。
+* **–InternalURL** 是執行 Office Online Server 之伺服器的名稱，例如 http://<伺服器服名稱>。
 * **–AllowHttp** 設定伺服器陣列使用 HTTP。
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>確認已成功建立 Office Online Server 伺服器陣列

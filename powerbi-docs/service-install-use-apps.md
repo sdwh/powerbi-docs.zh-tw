@@ -16,11 +16,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表安裝並使用應用程式
 Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處。 組織中的人員可使用關鍵的商務資訊來建立及發佈應用程式。 也許您已在使用 Google Analytics (分析) 和 Microsoft Dynamics CRM 這類[外部服務](service-connect-to-services.md)，而其中亦提供 Power BI 應用程式。 
@@ -63,7 +63,7 @@ Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處
 3. 選取 [Get it now]\(立即取得)，將它新增至 [應用程式] 頁面。 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>與應用程式中的儀表板和報表互動
-現在，您可以探索應用程式中儀表板和報表的資料。 您可以進行所有標準 Power BI 互動，例如篩選、反白顯示、排序和向下鑽研。 閱讀[與 Power BI 中的報表互動](service-interact-with-a-report-in-reading-view.md)。 
+現在，您可以探索應用程式中儀表板和報表的資料。 您可以進行所有標準 Power BI 互動，例如篩選、反白顯示、排序和向下鑽研。 閱讀[與 Power BI 中的報表互動](service-reading-view-and-editing-view.md)。 
 
 您無法儲存您進行的變更，但可以隨時從報表中的資料表或其他視覺效果[將資料匯出至 Excel](power-bi-visualization-export-data.md)。
 

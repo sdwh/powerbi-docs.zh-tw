@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/04/2018
 ms.author: mihart
-ms.openlocfilehash: 83d569c071d70576856ff301c8e0967ef607d512
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a1f424229a05b7f4b5507100287719f8d4cac005
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Power BI 服務及 Power BI Desktop 中由 Esri 提供的 ArcGIS 地圖
 此教學課程是從 ArcGIS 地圖建立者的觀點來撰寫。 一旦建立者與同事共用 ArcGIS 地圖，該同事雖然可以檢視地圖並與其互動，但無法儲存變更。 若要深入了解如何檢視 ArcGIS 地圖，請參閱[與 ArcGIS 地圖互動](power-bi-visualizations-arcgis.md)。
@@ -33,8 +33,7 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 
 > [!TIP]
 > GIS 是 Geographic Information Science (地理資訊科學) 的縮寫。
-> 
-> 
+
 
 下方範例以 2016 年可支配所得中位數的人口統計圖層為背景，使用深灰色畫布以熱度圖形式顯示區域銷售額。 如同您在閱讀時看到的，ArcGIS Maps 提供幾乎無限制的增強式對應功能、人口統計資料，以及更吸引人的地圖視覺效果，讓您可以呈現更精彩的故事。
 

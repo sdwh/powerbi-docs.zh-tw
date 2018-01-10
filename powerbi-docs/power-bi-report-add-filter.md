@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d409633129c6c203e897d76c0acf043bf09ea29d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: bd358b8e986313ba665326de0ff2722e0113554d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="add-a-filter-to-a-power-bi-report-in-editing-view"></a>將篩選新增至 Power BI 報表 (使用 [編輯] 檢視)
 > [!TIP]
@@ -30,13 +30,13 @@ ms.lasthandoff: 11/13/2017
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>[讀取檢視] 與 [編輯檢視] 中的報表篩選之間的差異為何
-您可使用下列兩種模式與報表互動：[閱讀檢視](service-interact-with-a-report-in-reading-view.md) 和 [編輯檢視](service-interact-with-a-report-in-editing-view.md)。  而篩選功能會依據您使用的模式來提供。
+您可使用下列兩種模式與報表互動：[閱讀檢視](service-reading-view-and-editing-view.md) 和 [編輯檢視](service-interact-with-a-report-in-editing-view.md)。  而篩選功能會依據您使用的模式來提供。
 
 * 在 [編輯檢視] 中，您可以新增報表、頁面和視覺效果篩選。 當您儲存報表時，也會將篩選一起儲存。 而在 [閱讀檢視] 中檢視報表的人可以與您加入的篩選互動，但不能儲存他們所做的變更。
 * 在 [閱讀檢視] 中，您可以與報表中已存在的任何報表、頁面和視覺效果篩選互動，但無法儲存您的篩選變更。
 
 > [!NOTE]
-> 本文將說明如何在報表的 [編輯檢視] 中建立篩選。  如需 [閱讀檢視] 中篩選的詳細資訊，請參閱[在報表的 [閱讀檢視] 中與篩選互動](service-interact-with-a-report-in-reading-view.md)。
+> 本文將說明如何在報表的 [編輯檢視] 中建立篩選。  如需 [閱讀檢視] 中篩選的詳細資訊，請參閱[在報表的 [閱讀檢視] 中與篩選互動](service-reading-view-and-editing-view.md)。
 > 
 > 
 
@@ -146,7 +146,7 @@ ms.lasthandoff: 11/13/2017
 
   [報表的篩選和醒目提示](power-bi-reports-filters-and-highlighting.md)
 
-[在 [閱讀檢視] 中與篩選條件及醒目提示互動](service-interact-with-a-report-in-reading-view.md)
+[在 [閱讀檢視] 中與篩選條件及醒目提示互動](service-reading-view-and-editing-view.md)
 
 [變更報表視覺效果相互交叉篩選及交叉醒目提示的方式](service-reports-visual-interactions.md)
 

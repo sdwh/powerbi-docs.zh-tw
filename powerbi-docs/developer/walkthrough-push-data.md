@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 01/05/2017
 ms.author: asaxton
-ms.openlocfilehash: e62b08614a38502fb79f48f369013d32fd538659
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: aba135a0a790025f732379ecb07157f1150d999c
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>將資料推送至 Power BI 資料集
 您可以使用 Power BI API 將資料推送至 Power BI 資料集。 例如，您會想要擴充現有商務工作流程，將關鍵資料推送至資料集。 在此情況下，您會想要將 Sales Marketing 資料集 (其中含 Product 資料表) 推送至資料集。
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/15/2017
 下一節是有關資料推送的 Power BI API 作業的一般討論。
 
 ## <a name="power-bi-api-operations-to-push-data"></a>推送資料的 Power BI API 作業
-透過 Power BI REST API，您可以將資料來源推送至 Power BI。 當應用程式將資料列加入資料集時，儀表板上的磚會自動更新為更新的資料。 若要推送資料，您可使用[建立資料集](https://msdn.microsoft.com/library/mt203562.aspx)作業和[加入資料列](https://msdn.microsoft.com/library/mt203561.aspx)作業。 若要找出資料集，您可以使用[取得資料集](https://msdn.microsoft.com/library/mt203567.aspx)作業。 針對任何一項作業，您可以傳遞群組識別碼來和群組合作。 使用[取得群組](https://msdn.microsoft.com/library/mt243842.aspx)作業，以取得群組識別碼清單。 如需有關如何使用 Power BI REST API 的範例，請參閱 [ARYAPIARY 上的 Power BI REST API](http://docs.powerbi.apiary.io/)。
+透過 Power BI REST API，您可以將資料來源推送至 Power BI。 當應用程式將資料列加入資料集時，儀表板上的磚會自動更新為更新的資料。 若要推送資料，您可使用[建立資料集](https://msdn.microsoft.com/library/mt203562.aspx)作業和[加入資料列](https://msdn.microsoft.com/library/mt203561.aspx)作業。 若要找出資料集，您可以使用[取得資料集](https://msdn.microsoft.com/library/mt203567.aspx)作業。 針對任何一項作業，您可以傳遞群組識別碼來和群組合作。 使用[取得群組](https://msdn.microsoft.com/library/mt243842.aspx)作業，以取得群組識別碼清單。
 
 以下是將資料推送至資料集的作業：
 
@@ -126,6 +126,5 @@ ms.lasthandoff: 11/15/2017
 [取得群組](https://msdn.microsoft.com/library/mt243842.aspx)  
 [JSON 簡介](http://json.org/)  
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
-[PIARY 上的 Power BI REST API](http://docs.powerbi.apiary.io/)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

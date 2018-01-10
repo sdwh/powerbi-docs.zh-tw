@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/09/2017
 ms.author: mihart
-ms.openlocfilehash: dac5628756898a20fe139447bc2d165ba804320c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 67cc9508d71fa29303d09e8901294a2d6b7f8a56
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>從報表建立 Power BI 儀表板
 您已閱讀 [Power BI 的儀表板](service-dashboards.md)，現在想要建立自己的儀表板。 有許多不同的方式可以建立儀表板：從報表、從頭建立、從資料集、複製現有的儀表板等等。  本主題和影片會示範如何釘選現有報表的視覺效果，來建立新的儀表板。
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/15/2017
 1. 停留在相同的工作區，然後選取 [報表] 索引標籤。新匯入的報表會顯示黃色星號。 選取報表名稱，以開啟它。
    
     ![](media/service-dashboard-create/power-bi-reports.png)
-2. 報表隨即在[閱讀檢視](service-interact-with-a-report-in-reading-view.md)中開啟。 請注意，它的底部有兩個索引標籤︰[折扣分析] 和 [支出概觀]。 每個索引標籤都代表報表的一個頁面。
+2. 報表隨即在[閱讀檢視](service-reading-view-and-editing-view.md)中開啟。 請注意，它的底部有兩個索引標籤︰[折扣分析] 和 [支出概觀]。 每個索引標籤都代表報表的一個頁面。
    
     ![](media/service-dashboard-create/power-bi-reading-view.png)
 3. 暫留在視覺效果上，以顯示可用的選項。 若要在儀表板上新增視覺效果，請選取釘選 ![](media/service-dashboard-create/power-bi-pin-icon.png) 圖示。

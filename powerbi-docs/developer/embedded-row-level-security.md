@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: ffaf4439f48b23dcff8e965b5bea1aeaf19afcc0
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>搭配 Power BI 內嵌內容使用資料列層級安全性
 資料列層級安全性 (RLS) 可用來限制使用者存取儀表板、圖格、報告和資料集內的資料。 多位不同的使用者可在看見不同的資料時使用這些相同的成品。 內嵌支援 RLS。
@@ -91,7 +91,7 @@ RLS 是在 Power BI Desktop 中撰寫。 我們可以在資料集和報表處於
 * **角色 (必要項)** – 含有套用資料列層級安全性規則時要選取之角色的字串。 如果傳遞多個角色，則應該以字串陣列形式來傳遞。
 * **資料集 (必要項)** – 適用於您要內嵌之成品的資料集。 
 
-您可以在 **PowerBIClient.Reports** 上使用 **GenerateTokenInGroup** 方法來建立內嵌權杖。 目前僅支援報表。
+您可以在 **PowerBIClient.Reports** 上使用 **GenerateTokenInGroup** 方法來建立內嵌權杖。 
 
 例如，您可以變更 [PowerBIEmbedded_AppOwnsData](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) 範例。 *Home\HomeController.cs line 76 and 77* 無法從：
 

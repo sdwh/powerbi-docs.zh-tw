@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>將磚整合至應用程式中 (使用者擁有資料)
 了解如何在對組織進行內嵌時，使用 REST API 呼叫配合 Power BI JavaScript API 將磚整合或內嵌至 Web 應用程式。
@@ -56,7 +56,7 @@ ms.lasthandoff: 12/20/2017
 您必須先擷取儀表板識別碼，才能取得磚。 如需如何擷取儀表板的資訊，請參閱[將儀表板整合到應用程式 (使用者擁有資料)](integrate-dashboard.md)。
 
 ### <a name="get-tiles-using-an-access-token"></a>使用存取權杖取得磚
-有了您在[步驟 2](#step-2-get-an-access-token-from-azure-ad) 中擷取的**存取權杖**，即可呼叫[取得磚](https://msdn.microsoft.com/library/mt465741.aspx)作業。 [取得磚](https://msdn.microsoft.com/library/mt465741.aspx)作業會傳回磚清單。 您可以從磚清單中取得單一磚。 以下是用於取得磚的完整 C# 方法。 如需有關如何使用 Power BI REST API 的範例，請參閱 [ARYAPIARY 上的 Power BI REST API](http://docs.powerbi.apiary.io/)。
+有了您在[步驟 2](#step-2-get-an-access-token-from-azure-ad) 中擷取的**存取權杖**，即可呼叫[取得磚](https://msdn.microsoft.com/library/mt465741.aspx)作業。 [取得磚](https://msdn.microsoft.com/library/mt465741.aspx)作業會傳回磚清單。 您可以從磚清單中取得單一磚。 以下是用於取得磚的完整 C# 方法。 
 
 若要進行 REST API 呼叫，您必須使用 *Bearer {access token}* 的格式包含 *Authorization* 標頭。
 

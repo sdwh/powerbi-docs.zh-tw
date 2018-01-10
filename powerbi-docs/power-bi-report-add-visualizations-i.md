@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: c8baa19eef8210a375e77acee379389ccd5dbade
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 82519877ac9a9603d87f20fc3f1155af34421078
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>第一部分，在 Power BI 報表中新增視覺效果 (教學課程)
 本文提供在報表中建立視覺效果的快速簡介。  如需更進一步的內容，請[參閱第二部分](power-bi-report-add-visualizations-ii.md)。 觀看 Amanda 示範數種不同方式，以在報表畫布上建立、編輯和格式化視覺效果。 接著，自己試著使用[銷售和行銷範例](sample-datasets.md)來建立專屬報表。
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/13/2017
    
    繼續[第 2 部分：在 Power BI 報表中加入視覺效果](power-bi-report-add-visualizations-ii.md)
    
-   在報表中[與視覺效果互動](service-interact-with-a-report-in-reading-view.md)。
+   在報表中[與視覺效果互動](service-reading-view-and-editing-view.md)。
    
    [執行更多的視覺效果](power-bi-report-visualizations.md)。
    

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: asaxton
-ms.openlocfilehash: a10cd93a06d14e3e66fd9cce480dc0ec99e67aeb
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c5dfbbf5150dbf8ddb4388ac64f6c313eedd578e
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>開發人員可如何利用 Power BI？
 Power BI 提供各種開發人員選項。 範圍包括內嵌、自訂視覺效果和串流資料集。
@@ -51,7 +51,6 @@ Azure 中的 Power BI 服務和 Power BI Embedded 合併使用，以提供單一
 [將自訂視覺效果發佈至 Office 市集](office-store.md)  
 [Power BI Visuals Git 存放庫](https://github.com/Microsoft/PowerBI-visuals)  
 [JavaScript 內嵌示範](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[Apiary 上的 Power BI API](http://docs.powerbi.apiary.io/#)  
 [Power BI Premium 技術白皮書](https://aka.ms/pbipremiumwhitepaper)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

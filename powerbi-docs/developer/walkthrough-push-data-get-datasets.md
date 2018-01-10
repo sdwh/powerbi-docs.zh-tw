@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: f0ca594b6f87ab2e186909f10a8ba4b7e1bce062
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a9dd782931904ada208b68ccbceeb7e1c0d95ec6
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步驟 4：取得資料集，以便將資料列加入 Power BI 資料表
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
-在＜將資料推送至資料集＞的**步驟 3** [在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)中，您呼叫了[建立資料集](https://msdn.microsoft.com/library/mt203562.aspx)作業，以在 Power BI 中建立資料集。 在此步驟中，您會使用[取得資料集](https://msdn.microsoft.com/library/mt203567.aspx)作業和 Newtonsoft.Json 來取得資料集識別碼。您使用步驟 4 中的資料集識別碼將資料列加入資料集。 如需有關如何使用 Power BI REST API 的範例，請參閱 [ARYAPIARY 上的 Power BI REST API](http://docs.powerbi.apiary.io/)。
+在＜將資料推送至資料集＞的**步驟 3** [在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)中，您呼叫了[建立資料集](https://msdn.microsoft.com/library/mt203562.aspx)作業，以在 Power BI 中建立資料集。 在此步驟中，您會使用[取得資料集](https://msdn.microsoft.com/library/mt203567.aspx)作業和 Newtonsoft.Json 來取得資料集識別碼。您使用步驟 4 中的資料集識別碼將資料列加入資料集。 
 
 若要將資料推送至 Power BI 資料集，您需要參考資料集中的資料表。 若要參考資料集中的資料表，您首先需要取得 **資料集識別碼**。 您可使用[取得資料集](https://msdn.microsoft.com/library/mt203567.aspx)作業來取得**資料集識別碼**。 **取得資料集**作業會傳回 JSON 字串，包含 Power BI 中的所有資料集清單。 建議使用 [Newtonsoft.Json](http://www.newtonsoft.com/json) 還原序列化 JSON 字串。
 
@@ -278,7 +278,6 @@ ms.lasthandoff: 11/15/2017
 [將資料推送至 Power BI](walkthrough-push-data.md)  
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
 [Power BI REST API 參考](https://msdn.microsoft.com/library/mt147898.aspx)  
-[PIARY 上的 Power BI REST API](http://docs.powerbi.apiary.io/)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

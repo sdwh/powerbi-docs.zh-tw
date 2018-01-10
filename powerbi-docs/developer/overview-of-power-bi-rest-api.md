@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: asaxton
-ms.openlocfilehash: 23a77e2b8ac8754b122888e3d0d64f2c3886b61b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5a6d760667608feb07932b9175b6949387b33f9a
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>開發人員可如何利用 Power BI？
 Power BI 顯示互動式儀表板，可即時從不同的資料來源建立及更新。 您可以使用任何支援 REST 呼叫的程式設計語言，建立即時整合 Power BI 儀表板的應用程式。 您也可以將 Power BI 磚和報告整合到應用程式中。
@@ -59,7 +59,6 @@ Power BI 開發人員範例包含用來內嵌儀表板、報告和圖格的項�
 ## <a name="developer-tools"></a>開發人員工具
 以下是可用來協助您開發 Power BI 項目的工具。
 
-* [Apiari 互動式 API 主控台](http://docs.powerbi.apiary.io/)
 * [JavaScript 內嵌示範](https://microsoft.github.io/PowerBI-JavaScript/demo)
 
 ## <a name="next-steps"></a>後續步驟

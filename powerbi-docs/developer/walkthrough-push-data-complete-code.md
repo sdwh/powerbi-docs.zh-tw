@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: 128b30dcb932dd629d1219fc92da7283918ea467
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 137ff1157d15b5a62ab7a66f30b1ba043747f75d
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>將資料推送至資料集的完整程式碼清單
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
@@ -237,7 +237,7 @@ ms.lasthandoff: 11/15/2017
 [將資料列新增至 Power BI 資料表](walkthrough-push-data-add-rows.md)  
 [Power BI REST API 參考](https://msdn.microsoft.com/library/mt147898.aspx)  
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
-[PIARY 上的 Power BI REST API](http://docs.powerbi.apiary.io/)  
+
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 
