@@ -1,6 +1,6 @@
 ---
 title: "在 Power BI 行動裝置應用程式中尋找儀表板、報告及應用程式。"
-description: "了解儀表板和報表在 Power BI 行動裝置應用程式中的所在位置，視其來源而定。"
+description: "了解儀表板、報表和應用程式在 Power BI 行動裝置應用程式中的所在位置，視其來源而定。"
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6dca860e4711d85b4b53c31c91ba4cba20bbe6e7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中尋找儀表板、報告及應用程式。
 適用於︰
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/13/2017
 ## <a name="3-apps"></a>3 應用程式
 應用程式是您組織的特殊用途儀表板和報表集合，可提供進行更快速且更輕鬆的資料驅動決策之關鍵計量。 在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 中，可以輕鬆地找到並安裝應用程式。 安裝它們之後，即可以從任何裝置進行檢視。 
 
-![Power BI 新導覽](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-apps.png)
+![Power BI 新導覽](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
 您可以使用應用程式自動取得作者所提出的所有更新，而且作者也會控制排定資料重新整理的頻率。 您不需要擔心如何保持最新的作者變更。
 

@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6e1e74f26ab1d0a0a59bc33b9d1068807918e18e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: bebd31bbdbd2a571d565c6939199eedd7ecdb049
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI 服務的基本概念
 
@@ -95,7 +95,7 @@ Power BI 的 4 個主要建置組塊是：***儀表板***、***報告***、***�
 ## <a name="reports"></a>報表
 Power BI 報表是一或多個頁面的視覺效果 (圖表和圖形，例如折線圖、圓形圖、樹狀圖和許多其他項目)。 視覺效果 (visualization) 也稱為「視覺效果」(visual)。 報表中的所有視覺效果都是來自單一資料集。 報告可以在 Power BI 從頭開始建立，也可以透過同事與您共用的儀表板匯入，或者可以在您從 Excel、Power BI Desktop、資料庫、SaaS 應用程式和[應用程式](service-get-data.md)連線到資料集時建立報告。  例如，當您連接到包含 Power View 工作表的 Excel 活頁簿時，Power BI 會根據這些工作表建立報表。 而當您連接至 SaaS 應用程式時，Power BI 則會匯入預先建立的報表。
 
-有 2 種模式可以檢視報表並與之互動：[閱讀檢視](service-report-open-in-reading-view.md)和[編輯檢視](service-interact-with-a-report-in-editing-view.md)。  只有報表建立者、共同擁有者及授與權限者，才能存取該報表之***編輯檢視***的所有瀏覽、設計、建立及共用功能。 而與這些人員共用報表的其他人員則可以使用***閱讀檢視***瀏覽報表並與之互動.   
+有 2 種模式可以檢視報表並與之互動：[閱讀檢視和編輯檢視](service-reading-view-and-editing-view.md)。  只有報表建立者、共同擁有者及授與權限者，才能存取該報表之***編輯檢視***的所有瀏覽、設計、建立及共用功能。 而與這些人員共用報表的其他人員則可以使用***閱讀檢視***瀏覽報表並與之互動.   
 
 當您開啟工作區時，相關聯的報告會列在 [報告] 索引標籤之下。每個列出的報告只會根據一個基礎資料集，呈現一或多個頁面的視覺效果。 若要開啟報表，只要選取該報表即可。 
 

@@ -12,7 +12,7 @@
           href: service-free-vs-pro.md
         - name: Power BI 的資料來源
           href: service-get-data.md
-        - name: 新的 Power BI 導覽體驗
+        - name: 在 Power BI 中瀏覽 - 瀏覽體驗
           href: service-the-new-power-bi-experience.md
         - name: 10 個祕訣協助您取得說明
           href: service-tips-for-finding-help.md
@@ -68,7 +68,7 @@
           href: sample-retail-analysis.md
     - name: 一般工作
       items:
-        - name: Power BI 中最愛的儀表板
+        - name: Power BI 中我的最愛儀表板、報告與應用程式
           href: service-dashboard-favorite.md
         - name: 列印儀表板、列印儀表板磚、列印報表頁面
           href: service-print.md
@@ -228,7 +228,7 @@
           href: service-pin-tile-to-another-dashboard.md
         - name: 從 Excel 將磚釘選到 Power BI 儀表板
           href: service-dashboard-pin-tile-from-excel.md
-        - name: Power BI publisher for Excel
+        - name: Power BI Publisher for Excel
           href: publisher-for-excel.md
         - name: 從問與答的問題方塊將圖格釘選至 Power BI 儀表板
           href: service-dashboard-pin-tile-from-q-and-a.md
@@ -378,7 +378,7 @@
           href: service-url-filters.md
         - name: 在 Power BI 中建置快速且可靠報表的最佳做法
           href: power-bi-reports-performance.md
-    - name: 視覺化
+    - name: 視覺效果
       items:
         - name: Power BI 中的視覺效果
           href: power-bi-report-visualizations.md

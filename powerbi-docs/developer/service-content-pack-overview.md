@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 4a8ea2acfcfe41192b82addfe52dbe67a0df8088
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.date: 01/04/2018
+ms.author: maghan
+ms.openlocfilehash: 1eaa549bf42c17cd2bd857efd4d50b991e862ea0
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 服務內容套件計劃概觀
 內容套件是一組全新內容，可讓使用者立即從來源取得深入剖析資訊。 內容套件通常著重於可提供角色、網域或工作流程深入剖析資訊的特定商務案例。
@@ -49,6 +49,7 @@ ISV 可建置範本內容套件，讓客戶透過自己的帳戶連線並實例�
 * 您有商務使用者所使用的 SaaS 應用程式。
 * 您的 SaaS 應用程式具有可在 Power BI 中視覺化的使用者資料。
 * 您的 SaaS 應用程式具有可透過公用網際網路存取的 API。 理想情況下，此 API 是 REST 型的 API 或 OData 摘要。 Power BI 內容套件支援多種驗證類型，例如基本驗證、OAuth 2.0 和 API 金鑰。 
+* 已核准您的 SaaS 應用程式發佈內容套件。 請提交要求給 pbiservicesapps@microsoft.com。我們將會檢閱每份提交的相關性與預期使用量。 
 * 簽署的夥伴協議。 您會在[提交步驟](template-content-pack-testing.md#submission)執行此作業。
 
 如需技術需求的詳細資訊，請檢閱[撰寫](template-content-pack-authoring.md)一節。

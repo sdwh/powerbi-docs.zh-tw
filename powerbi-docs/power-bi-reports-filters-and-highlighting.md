@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 57960c3ca46e48f399e0492192c10cba2cfa7ea9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0f81b0fa87af5af281b40224bac3b5815461cb9e
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>在 Power BI 報表中進行篩選和醒目提示的相關事項
 ***篩選***會保留您最關切的資料，而將其他所有資料移除。  ***醒目提示***與篩選不同，它不會移除資料，而會將一部分可見資料醒目提示，未醒目提示的資料會保持可見但呈現暗灰色。
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/15/2017
 
 * 篩選及反白顯示簡介 (您現正閱讀的文章)
 * 若要[在您擁有的 [編輯檢視]/報表中建立及使用篩選並加以反白顯示](power-bi-report-add-filter.md)，可以使用的方式。 若您具有報表的編輯權限，即可建立、修改及刪除報表中的篩選和反白顯示。
-* 若要[在與您共用的報表中或報表的 [讀取檢視] 中使用篩選和反白顯示](service-interact-with-a-report-in-reading-view.md)，可以使用的方式。 您可執行的動作較少，但 Power BI 仍提供您廣泛的篩選及反白顯示選項。  
+* 若要[在與您共用的報表中或報表的 [讀取檢視] 中使用篩選和反白顯示](service-reading-view-and-editing-view.md)，可以使用的方式。 您可執行的動作較少，但 Power BI 仍提供您廣泛的篩選及反白顯示選項。  
 * [[編輯檢視] 中可用的篩選及反白顯示控制項詳細介紹](power-bi-how-to-report-filter.md)內含多種篩選類型的深入探討 (例如日期與時間、數值、文字)，以及基本與進階選項之間的差異。
 * 既然您已了解篩選及反白顯示的預設運作方式，接著再[了解如何變更頁面上的視覺效果篩選及反白顯示彼此的方式](service-reports-visual-interactions.md)
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 11/15/2017
 > 
 
 ## <a name="filters-in-reading-view-versus-editing-view"></a>閱讀檢視與編輯檢視中的篩選比較
-您可使用下列兩種模式與報表互動：[閱讀檢視](service-interact-with-a-report-in-reading-view.md) 和 [編輯檢視](service-interact-with-a-report-in-editing-view.md)。  而篩選功能會依據您使用的模式來提供。
+您可使用下列兩種模式與報表互動：[閱讀檢視和編輯檢視](service-reading-view-and-editing-view.md)。  而篩選功能會依據您使用的模式來提供。
 
 * 在 [編輯檢視] 中，您可以新增報表、頁面和視覺效果篩選。 當您儲存報表時，也會將篩選一起儲存。 而在 [閱讀檢視] 中檢視報表的人可以與您加入的篩選互動，但不能儲存他們所做的變更。
 * 在 [閱讀檢視] 中，您可以與報表中已存在的任何頁面和視覺效果篩選互動，但無法儲存您的篩選變更。
@@ -66,7 +66,7 @@ ms.lasthandoff: 11/15/2017
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-在 [讀取檢視] 中，透過修改現有的篩選來瀏覽資料。 於[在 [讀取檢視] 中與篩選互動](service-interact-with-a-report-in-reading-view.md)這篇文章中了解如何做到
+在 [讀取檢視] 中，透過修改現有的篩選來瀏覽資料。 於[在 [讀取檢視] 中與篩選互動](service-reading-view-and-editing-view.md)這篇文章中了解如何做到
 
 ### <a name="the-filters-pane-in-editing-view"></a>[編輯檢視] 中的 [篩選] 窗格
 若您具備報表的擁有者權限，並以 [編輯檢視] 加以開啟，則會看到 [篩選] 只是可用的數個編輯窗格中的一項。
@@ -83,7 +83,7 @@ ms.lasthandoff: 11/15/2017
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
 ## <a name="next-steps"></a>後續步驟
-[與篩選互動和醒目提示 (在 [閱讀檢視] 中)](service-interact-with-a-report-in-reading-view.md)
+[與篩選互動和醒目提示 (在 [閱讀檢視] 中)](service-reading-view-and-editing-view.md)
 
 [將篩選新增至報表 (在 [編輯檢視] 中)](power-bi-report-add-filter.md)
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/18/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 83c63ee2bed5ae7674223cf2fc3f9241308926e9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22dc1c9b703b500625a5aed23b6187fd3f616dde
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>向下鑽研 Power BI 的視覺效果
 ## <a name="drill-down-requires-a-hierarchy"></a>向下鑽研需要階層
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/15/2017
 ## <a name="method-1-for-drill-down"></a>向下鑽研的方法 1
 這個方法會使用視覺效果本身上方角落出現的鑽研圖示。
 
-1. 在 Power BI 中，以[閱讀檢視](service-report-open-in-reading-view.md)或[編輯檢視](service-reading-view-and-editing-view.md)開啟報表。 鑽研的視覺效果需要有階層。 
+1. 在 Power BI 中，以[閱讀檢視或編輯檢視](service-reading-view-and-editing-view.md)開啟報表。 鑽研的視覺效果需要有階層。 
    
    階層會顯示在下列動畫中。  視覺效果具有由國家/地區、城市、郵遞區號和城市名稱組成的階層。 每個國家/地區有一或多個城市，每個城市有一或多個郵遞區號等等。根據預設，視覺效果只會顯示國家/地區資料，因為「國家/地區」最先出現在清單中。
    
@@ -75,7 +75,7 @@ ms.lasthandoff: 11/15/2017
 ## <a name="method-2-for-drill-down"></a>向下鑽研的方法 2
 這個方法會使用上方 Power BI 功能表列的 [瀏覽] 下拉式清單。
 
-1. 在 Power BI 中，以[閱讀檢視](service-report-open-in-reading-view.md)或[編輯檢視](service-reading-view-and-editing-view.md)開啟報表。 鑽研的視覺效果需要有階層。 
+1. 在 Power BI 中，以[閱讀檢視或編輯檢視](service-reading-view-and-editing-view.md)開啟報表。 鑽研的視覺效果需要有階層。 
    
    階層會顯示在下圖中。  視覺效果具有由國家/地區、城市、郵遞區號和城市名稱組成的階層。 每個國家/地區有一或多個城市，每個城市有一或多個郵遞區號等等。根據預設，視覺效果只會顯示國家/地區資料，因為「國家/地區」最先出現在清單中。
    

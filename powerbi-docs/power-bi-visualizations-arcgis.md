@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 511f01494410215451d9f77ff637c7cfce8e89b3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>在 Power BI 中與 ArcGIS 地圖互動
 本主題是從在 Power BI 服務、Power BI Desktop 或 Power BI Mobile 中「取用」ArcGIS 地圖的人員觀點來撰寫。 一旦建立者與您共用 ArcGIS 地圖，可利用許多方法與該地圖互動。  若要深入了解如何建立 ArcGIS 地圖，請參閱[由 Esri 提供的 ArcGIS 地圖教學課程](power-bi-visualization-arcgis.md)。
@@ -62,7 +62,7 @@ ArcGIS Maps for Power BI 具有三個選取模式。 一次最多可以選取 25
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>與 ArcGIS 地圖互動
-您可以使用的功能取決於您是「建立者」(建立地圖的人) 或「取用者」(與您共用 ArcGIS 地圖的人)。 如果您以取用者身分與 ArcGIS 地圖互動 (也稱為[閱讀檢視](service-interact-with-a-report-in-reading-view.md))，以下是您可以採取的動作。
+您可以使用的功能取決於您是「建立者」(建立地圖的人) 或「取用者」(與您共用 ArcGIS 地圖的人)。 如果您以取用者身分與 ArcGIS 地圖互動 (也稱為[閱讀檢視](service-reading-view-and-editing-view.md))，以下是您可以採取的動作。
 
 * 如同其他視覺效果類型，您可以[釘選到儀表板](service-dashboard-pin-tile-from-report.md)、[檢視](service-reports-show-data.md)及/或[匯出基礎資料](power-bi-visualization-export-data.md)，然後在[焦點模式](service-focus-mode.md)和[全螢幕](service-fullscreen-mode.md)中查看地圖。    
 * 展開 [篩選] 窗格以使用篩選探索地圖。 當您關閉報表時，不會儲存您所套用的篩選。    

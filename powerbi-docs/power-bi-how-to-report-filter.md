@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/29/2017
 ms.author: mihart
-ms.openlocfilehash: 3710b8136a5f8f00d78047d9468dce0d6e68377f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>報表 [篩選] 窗格概觀
 這篇文章深入探討報表 [篩選] 窗格。 您會在 Power BI 報表的 [編輯檢視] 及 [讀取檢視] 中看到窗格。
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/15/2017
 有許多不同的方式可在 Power BI 中篩選資料，建議您先閱讀[關於篩選和反白顯示](power-bi-reports-filters-and-highlighting.md)。
 
 ## <a name="working-with-filters"></a>使用篩選
-您可以在 [編輯檢視](service-interact-with-a-report-in-editing-view.md) 或 [閱讀檢視](service-interact-with-a-report-in-reading-view.md) 中開啟報表。 在 [編輯檢視] 中，報表擁有者可以[將篩選新增至報表](power-bi-report-add-filter.md)，而這些篩選會與報表一起儲存。 在 [閱讀檢視] 中檢視報表的人員可以與篩選互動，但無法將篩選變更儲存至報表。
+您可以在[編輯檢視或閱讀檢視](service-reading-view-and-editing-view.md)中開啟報表。 在 [編輯檢視] 中，報表擁有者可以[將篩選新增至報表](power-bi-report-add-filter.md)，而這些篩選會與報表一起儲存。 在 [閱讀檢視] 中檢視報表的人員可以與篩選互動，但無法將篩選變更儲存至報表。
 
 ## <a name="filters-in-reading-view"></a>[讀取檢視] 中的篩選
 在 [讀取檢視] 中開啟報表時，[篩選] 窗格會顯示於報表畫布右方。 若未看見窗格，請選取右上角的箭號展開窗格。
@@ -122,7 +122,7 @@ ms.lasthandoff: 11/15/2017
 
 ## <a name="next-steps"></a>後續步驟
 [報表的篩選和醒目提示](power-bi-reports-filters-and-highlighting.md)  
-[在 [閱讀檢視] 中與篩選條件及醒目提示互動](service-interact-with-a-report-in-reading-view.md)  
+[在 [閱讀檢視] 中與篩選條件及醒目提示互動](service-reading-view-and-editing-view.md)  
 [在報表的編輯檢視中建立篩選條件](power-bi-report-add-filter.md)  
 [變更報表視覺效果相互交叉篩選及交叉醒目提示的方式](service-reports-visual-interactions.md)
 

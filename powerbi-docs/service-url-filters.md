@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/4/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 當您在 Power BI 服務中開啟報表時，每頁報表各有其唯一的 URL。 若要篩選該報表頁面，您可以使用報表畫布上的 [篩選] 窗格。  或者您也可以將查詢字串參數新增到 URL，以篩選報表。 您可能有想要向同事展示的報表，並想要預先為他們篩選。 其中一個執行方式是從報表的預設 URL 著手、將篩選參數新增到 URL，然後用電子郵件將整個 URL 寄送給他們。
@@ -41,7 +41,7 @@ URL?filter=***資料表***/***欄位*** eq '***值***'
 * **資料表**和**欄位**名稱區分大小寫，**值**則無。
 * 從報表檢視中隱藏的欄位仍可篩選。
 * **值**的前後必須加上單引號。
-* 欄位類型必須是字串。
+* 欄位類型必須是數字或字串
 * 資料表和欄位名稱不能有任何空格。
 
 如果仍感到困惑，請繼續閱讀，我們會詳加解說。  
@@ -108,7 +108,7 @@ https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/R
 使用查詢字串參數時，有幾件點事項要注意。
 
 * 查詢字串篩選不會處理[發行至網路](service-publish-to-web.md)或 Power BI Embedded。   
-* 欄位類型必須是字串。
+* 欄位類型必須是數字或字串。
 * 資料表和欄位名稱不能有任何空格。
 
 ## <a name="next-steps"></a>後續步驟

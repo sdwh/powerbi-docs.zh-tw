@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: b96ea3b0de070bee292b1d59a5abd9b0739a656a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -30,24 +30,50 @@ ms.lasthandoff: 11/13/2017
 * [Power BI Desktop 的新功能](desktop-latest-update.md)  
 * [Power BI 服務的新功能](service-whats-new.md)  
 
-## <a name="september-2017"></a>2017 年 9 月
-### <a name="filters-for-phone-reports-in-iphones"></a>iPhone 中手機報表的篩選
+## <a name="december-2017"></a>2017 年 12 月
+### <a name="improved-permission-management"></a>改善的權限管理
+
+我們做了一些變更，讓您在管理資料集、儀表板及報表的使用者權限時能夠更加精確。
+
+### <a name="auto-installed-apps"></a>自動安裝的應用程式
+
+您完全不需要在 Power BI 中安裝某些應用程式。 在您組織中的 Power BI 應用程式建立者可以建立包含儀表板和報表集合的「應用程式」。 然後他們可以發行應用程式，並將它設定為自動安裝在 Power BI 服務和 Power BI 行動應用程式中。 當應用程式設定好為您安裝時，它會自動出現在您的 [應用程式] 功能表：
+
+![Power BI 行動裝置應用程式中的應用程式](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
+
+## <a name="november-2017"></a>2017 年 11 月
+### <a name="iphone-x-optimization"></a>iPhone X 最佳化
+
+我們已最佳化 iPhone X 的應用程式配置，因此您可以在每部裝置上時髦地瀏覽資料。
+
+## <a name="october-2017"></a>2017年 10 月
+### <a name="filters-for-phone-reports-in-android"></a>Android 中手機報表的篩選
+
+如果您在 Power BI Desktop 中建立了專為手機調整頁面的報表，而且該報表有篩選，您現在就可以在 Android 上手機報表中套用這些篩選。 閱讀更多 Android 上的 Power BI 報表篩選相關資訊。
+
+### <a name="show-data-in-reports"></a>在報表中顯示資料
+
+您現在可以在報表中將視覺效果切換成資料表檢視，以查看資料背後的數字。 若要存取這項功能，請從報表上的視覺效果的 ... 功能表點選 [顯示資料]，或展開之視覺效果的 [動作] 功能表上的新增圖示。
+
+## <a name="previous-months"></a>前幾個月
+
+### <a name="september-2017"></a>2017 年 9 月
+#### <a name="filters-for-phone-reports-in-iphones"></a>iPhone 中手機報表的篩選
 如果您在 Power BI Desktop 中建立了專為手機調整頁面的報表，而且該報表有篩選，您現在就可以在 iPhone 上手機報表中套用這些篩選。 閱讀更多[iPhone 上的 Power BI 報表篩選](https://powerbi.microsoft.com/blog/filters-coming-for-phone-reports-on-ios/)相關資訊。
 
-## <a name="august-2017"></a>2017 年 8 月
-### <a name="ios-proxy-settings-support"></a>iOS Proxy 設定支援
+### <a name="august-2017"></a>2017 年 8 月
+#### <a name="ios-proxy-settings-support"></a>iOS Proxy 設定支援
 您現在可以在 Power BI iOS 行動裝置應用程式中進行 Proxy 設定。 這表示 Power BI 現在能夠使用您行動裝置上的 VPN 連線，讓更多使用者和組織能隨時隨地安全地運用 Power BI 功能。
 
-## <a name="july-2017"></a>2017 年 7 月
+### <a name="july-2017"></a>2017 年 7 月
 閱讀 [2017 年 7 月的行動裝置應用程式功能摘要](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview)
 
-### <a name="ios-devices"></a>iOS 裝置
+#### <a name="ios-devices"></a>iOS 裝置
 **新的 iOS 問與答體驗 (預覽)**：您現在除了能取得問題的解答之外，還能使用自然語言來取得相關深入解析。 即使您不太確定要尋找的項目，問與答也會主動顯示與您資料相關的深入解析。 新的行動裝置問與答體驗是與 Microsoft Research 小組共同作業研發而成，展現了我們產品的強大技術。 試用此教學課程，[詢問 iOS 行動裝置應用程式資料的相關問題](mobile-apps-ios-qna.md)。
 
 ### <a name="responsive-visuals"></a>回應式視覺效果
 適用於手機報表與儀表板的**回應式視覺效果**：您可以將儀表版或報表中的視覺效果設定為「回應式」，不管是什麼樣的螢幕大小，都能以動態方式變更，顯示最多的資料與深入解析。 閱讀[關於回應式視覺效果的部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)。
 
-## <a name="previous-months"></a>前幾個月
 ### <a name="june-2107"></a>2017 年 6 月
 #### <a name="all-devices"></a>所有裝置
 **將應用程式設為我的最愛**：您原本已可將儀表板設為我的最愛。 最近，[Power BI 新增了應用程式](service-install-use-apps.md)，而您現在也能將這些應用程式設為我的最愛。 
@@ -107,7 +133,7 @@ ms.lasthandoff: 11/13/2017
 #### <a name="ios-devices"></a>iOS 裝置
 **透過問與答預覽詢問有關資料的問題** 
 
-透過問與答，您可以用自己的用語詢問資料相關問題，而 Power BI 會提供答案。 問與答已在 Power BI 服務中，位於 http://powerbi.com 。現在也[在 iPhone 或 iPad 上的行動裝置應用程式中提供](mobile-apps-ios-qna.md)。
+透過問與答，您可以用自己的用語詢問資料相關問題，而 Power BI 會提供答案。 問與答已在 Power BI 服務中，位於 http://powerbi.com。現在也[在 iPhone 或 iPad 上的行動裝置應用程式中提供](mobile-apps-ios-qna.md)。
 
 **連線到多部 SSRS 伺服器** 
 

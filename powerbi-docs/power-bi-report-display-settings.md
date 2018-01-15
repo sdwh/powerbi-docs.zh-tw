@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 57c441c489bf71db4b45bdfb96821b3cc2dcdec3
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 報表的頁面顯示設定
 我們了解保持報表版面配置像素完美的重要性。 有時候這會有點困難，因為您和您的同事使用外觀比例和大小不同的螢幕檢視這些報表。 
@@ -45,7 +45,7 @@ ms.lasthandoff: 01/03/2018
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-[閱讀檢視](service-interact-with-a-report-in-reading-view.md) 和 [編輯檢視](service-interact-with-a-report-in-editing-view.md) 中都可使用 [頁面檢視] 設定。 在 [編輯檢視] 中，報告擁有者可以將頁面檢視設定指派給個別的報告頁面，而這些設定會隨報告一起儲存。 當同事在 [閱讀檢視] 中開啟該報告時，她看到的是以擁有者設定所顯示的報告頁面。  同事可以在 [閱讀檢視] 中，變更「某些」頁面檢視設定，但是在離開報告時不會儲存所做的變更。
+[閱讀檢視和編輯檢視](service-reading-view-and-editing-view.md)中都可使用 [頁面檢視] 設定。 在 [編輯檢視] 中，報告擁有者可以將頁面檢視設定指派給個別的報告頁面，而這些設定會隨報告一起儲存。 當同事在 [閱讀檢視] 中開啟該報告時，她看到的是以擁有者設定所顯示的報告頁面。  同事可以在 [閱讀檢視] 中，變更「某些」頁面檢視設定，但是在離開報告時不會儲存所做的變更。
 
 ##    <a name="page-view-settings"></a>頁面檢視設定
 第一組 [頁面檢視] 設定可控制報告頁面相對於瀏覽器視窗的顯示。  選擇如下：

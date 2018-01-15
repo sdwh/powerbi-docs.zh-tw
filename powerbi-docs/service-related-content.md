@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 4610523d7c18246394974083c948b7bc018b4da1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>檢視 Power BI 服務中的相關內容
 [相關內容] 窗格會顯示您的 Power BI 服務內容 (儀表板、報表及資料集) 如何互連。  這個窗格經過了改良，讓您可以從中執行重新整理、重新命名、產生深入資訊等常用工作。 選取相關報表或儀表板，其隨即在您的 Power BI 工作區中開啟。   
@@ -74,7 +74,7 @@ ms.lasthandoff: 11/15/2017
 <br>
 **方法 2**
 
-在[閱讀檢視](service-interact-with-a-report-in-reading-view.md)中開啟報表，然後從頂端功能表列選取 ![](media/service-related-content/power-bi-view-related-new.png)。
+在[閱讀檢視](service-reading-view-and-editing-view.md)中開啟報表，然後從頂端功能表列選取 ![](media/service-related-content/power-bi-view-related-new.png)。
 
 [相關內容] 窗格隨即開啟。 其中顯示已建立關聯的資料集，以及至少從該報表釘選了一個磚的所有儀表板。 這份報表有釘選到 2 個不同儀表板的視覺效果。
 
@@ -97,7 +97,7 @@ ms.lasthandoff: 11/15/2017
 
 ## <a name="limitations-and-troubleshooting"></a>限制與疑難排解
 * 如果您的瀏覽器空間不足，就不會看到 [檢視相關項目] 的選項，但還是會看到 [檢視相關項目] 圖示 ![](media/service-related-content/power-bi-view-related-icon-new.png)。 選取圖示以開啟 [相關內容] 窗格。
-* 若要開啟報表的 [相關內容]，必須使用[閱讀檢視](service-interact-with-a-report-in-reading-view.md)。
+* 若要開啟報表的 [相關內容]，必須使用[閱讀檢視](service-reading-view-and-editing-view.md)。
 * 在 Power BI Desktop 中無法使用 [相關內容]。
 * [相關內容] 功能不適用於串流資料集。
 

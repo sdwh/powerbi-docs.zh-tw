@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>訂閱 Power BI 報表或儀表板
 讓您最重要的儀表板和報表維持最新的狀態從沒這麼容易過。 訂閱對您來說最重要的報表頁面和儀表板，Power BI 就會以電子郵件寄送快照集到您的收件匣。 您要告訴 Power BI 需要收到電子郵件的頻率︰從一天一次到每週一次。 電子郵件和快照集會使用 Power BI 設定中的語言集合。 如果未定義任何語言，Power BI 就會使用目前的瀏覽器語言。
@@ -65,7 +65,7 @@ ms.lasthandoff: 12/02/2017
    ![](media/service-report-subscribe/power-bi-view-related-screen.png)
 
 ## <a name="subscribe-to-a-report-page"></a>訂閱報表頁面
-1. 從[閱讀檢視](service-report-open-in-reading-view.md)開啟報表。
+1. 從[閱讀檢視](service-reading-view-and-editing-view.md)開啟報表。
 2. 從頂端功能表列，選取 [訂閱]。
    
    ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
@@ -109,6 +109,7 @@ ms.lasthandoff: 12/02/2017
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 * 目前，訂閱不適用於來自內容套件或 Power BI 應用程式的儀表板或報表。 但有因應措施...複製一份報表/儀表板，並改為新增該版本的訂閱。
+* 報表頁面訂閱會繫結至報表頁面的名稱。 如果您訂閱報表頁面，並將它重新命名，您必須重新建立訂閱
 * 對於即時連線資料集的電子郵件訂閱，您只會在資料變更時收到電子郵件。 因此，如果發生重新整理但沒有任何資料變更，Power BI 將不會傳送電子郵件給您。
 * 電子郵件訂閱不支援大部分[自訂視覺效果](power-bi-custom-visuals.md)。  其中一個例外是[「已認證」](power-bi-custom-visuals-certified.md)的自訂視覺效果。  
 * 電子郵件訂閱傳送時會使用報表的預設篩選器和交叉分析篩選器狀態。 在訂閱之前對預設值所做的任何變更將不會顯示在電子郵件中。    
