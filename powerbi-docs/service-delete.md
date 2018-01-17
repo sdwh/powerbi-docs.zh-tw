@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: e2f1ca5abf05c92e76497d7b50600e6ef12e03fc
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 2994e61407bd858792e73019472cd6752abb401d
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>刪除 Power BI 服務中的絶大部分所有項目
 本文會教導您如何刪除 Power BI 服務中的儀表板、報告、活頁簿、資料集、應用程式、視覺效果和工作區。
@@ -141,7 +141,7 @@ ms.lasthandoff: 12/21/2017
 本文涵蓋如何刪除 Power BI 服務的主要建置組塊。 但您在 Power BI 中還有其他可刪除的項目。  
 
 * [移除精選儀表板](service-dashboard-featured.md#change-the-featured-dashboard)
-* [移除儀表板 (將儀表板移除最愛)](service-dashboard-favorite.md#unfavorite-a-dashboard)
+* [移除儀表板 (將儀表板移除最愛)](service-dashboard-favorite.md)
 * [刪除報表頁面](service-delete.md)
 * [刪除儀表板磚](service-dashboard-edit-tile.md)
 * [刪除報表視覺效果](service-delete.md)
