@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表建立並發佈應用程式
 
@@ -51,14 +51,9 @@ ms.lasthandoff: 12/12/2017
 ## <a name="app-workspaces"></a>應用程式工作區
 「應用程式工作區」是可供您建立應用程式的位置，因此，您必須先建立應用程式工作區，然後再建立應用程式。 如果您曾在 Power BI 中使用過群組工作區，則會熟悉應用程式工作區。 它們是群組工作區的演進 - 應用程式中內容的臨時區域和容器。 
 
-您可以將同事新增至這些工作區，作為成員或系統管理員。 應用程式工作區的所有成員和系統管理員都需要 Power BI Pro 授權。 在工作區中，您們全都可以共同處理儀表板、報告和文章，以準備發佈給更多對象，甚至整個組織。 
+您可以將同事新增至這些工作區，作為成員或系統管理員。 應用程式工作區的所有成員和系統管理員都需要 Power BI Pro 授權。 在工作區中，所有成員皆可在儀表板、報表和其他文章上共同作業，以準備發佈給更多對象，甚至整個組織。 
 
-內容準備就緒時，請發佈應用程式。 您可以將直接連結傳送給更多的對象，或者可以移至 [從 AppSource 下載並探索更多應用程式]，從 [應用程式] 索引標籤找到您的應用程式。 這些人無法修改應用程式的內容，但可以在 Power BI 服務或其中一個行動裝置應用程式中與它互動 - 篩選、反白顯示和排序資料本身。 
-
-### <a name="how-are-app-workspaces-different-from-group-workspaces"></a>應用程式工作區與群組工作區的差異為何？
-所有現有群組工作區都可以作為應用程式工作區，而且可以從其中任一工作區發佈應用程式。 以下是應用程式工作區與群組工作區不同的一個地方︰您建立應用程式工作區，作為建立和儲存特定應用程式的位置。 應用程式與應用程式工作區內容之間具有一對一關聯性。 當您發佈應用程式時，應用程式工作區中的所有項目都會在應用程式中。 
-
-既然您了解應用程式和應用程式工作區，就讓我們開始建立和發佈應用程式。 
+當內容就緒時，您選擇想要發佈的儀表板及報表，然後發佈應用程式。 您可以將直接連結傳送給更多的對象，或者可以移至 [從 AppSource 下載並探索更多應用程式]，從 [應用程式] 索引標籤找到您的應用程式。 這些人無法修改應用程式的內容，但可以在 Power BI 服務或其中一個行動裝置應用程式中與它互動 - 篩選、反白顯示和排序資料本身。 
 
 ## <a name="create-an-app-workspace"></a>建立應用程式工作區
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]

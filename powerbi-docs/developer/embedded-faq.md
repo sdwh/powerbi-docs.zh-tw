@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 01/15/2018
 ms.author: asaxton
-ms.openlocfilehash: 5f884c9c45627ee3c129daca77e38d17f1223909
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: aa4401a6c913d38e471f83b88fec351308d25870
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -56,6 +56,10 @@ Microsoft 的建議是，企業購買 Power BI Premium (企業級的自助雲端
 
 在某些情況下，ISV (通常規模較大) 會想要使用 P SKU，不僅在組織內獲得預先封裝 Power BI 服務的額外優勢，也能在應用程式內嵌。 當然，如果有些企業只想建置企業營運應用程式並在其中內嵌分析，而不想使用預先封裝的 Power BI 服務，也可能決定使用 Azure 中的 A SKU。
 
+### <a name="how-many-embed-tokens-can-i-create"></a>我可以建立多少內嵌權杖？
+
+具有 PRO 授權的內嵌權杖適用於開發和開發測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數量有限。 您必須[購買容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)才可在生產環境中進行內嵌作業。 購買容量後，您可產生的內嵌權杖數量就不受限制。
+
 ### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>Power BI Embedded 什麼時候會在 Azure 中提供？
 
 Power BI Embedded 現已正式運作。
@@ -87,6 +91,12 @@ Power BI Embedded 是一組可供開發人員用來在平台即服務供應項�
 |帳單 |每小時 |每月 |每月 |
 |承諾用量  |無承諾用量 |每年  |每月/每年 |
 |差異 |完整彈性 - 可以在 Azure 入口網站中，或透過 API 相應增加/減少、暫停/繼續資源  |可用於在 SharePoint Online 和 Microsoft Teams 內嵌內容 |在相同容量中結合應用程式內嵌及使用 Power BI 服務 |
+
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>在 Azure 中建立 PBIE 容量的必要條件為何？
+
+- 您必須登入您組織的目錄 (不支援 MSA 帳戶)。
+- 您須有 Power BI 租用戶，也就是您目錄中至少須有一位使用者已註冊 Power BI。 
+- 您在組織目錄中須有 Azure 訂用帳戶。
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>如何監視容量使用？
 
@@ -130,7 +140,7 @@ Power BI Embedded 每小時計量。
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Power BI Embedded 的使用量會如何在帳單上顯示？
 
-Power BI Embedded 會依據部署的節點類型，以可預測的每小時費率開立帳單。
+Power BI Embedded 會依據部署的節點類型，以可預測的每小時費率開立帳單。 請注意，只要資源在使用中的狀態，即使您未使用，也會向您計費。 若要停止計費，您須主動暫停資源。 您可透過 Azure 或 ARM API 予以暫停。
 
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>如果我已經購買 Power BI Premium，而現在想要 Azure 中 Power BI Embedded 的某些優勢，會發生什麼情況？
 

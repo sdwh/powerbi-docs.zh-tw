@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="export-data-from-visualizations"></a>從視覺效果匯出資料
 如果您想要查看用來建立視覺效果的資料，可以[在 Power BI 中顯示該資料](service-reports-show-data.md)或將資料匯出至 Excel 成為 .xlsx 或 .csv 檔案。   
@@ -46,7 +46,7 @@ ms.lasthandoff: 12/20/2017
 ## <a name="from-a-visualization-in-a-report"></a>從報表中的視覺效果
 若要跟著做，請在[編輯檢視](service-reading-view-and-editing-view.md)中開啟[採購分析範例報表](sample-procurement.md)。 [新增空白的報表頁面](power-bi-report-add-page.md)。 然後遵循下列步驟來新增彙總及視覺效果層級篩選。
 
-1. 建立新的直條圖。  從 [欄位] 窗格，選取 [位置] > [城市] 和 [發票] > [折扣百分比]。   
+1. 建立新的直條圖。  從 [欄位] 窗格，選取 [位置] > [城市] 和 [發票] > [折扣百分比]。  您可能必須將**折扣百分比**移到 [值] 中。 
    
     ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 2. 將 [折扣百分比] 的彙總從 [計數] 變更為 [平均]。 在 [值] 中，選取 [折扣百分比] 右邊的箭號 (可能是 [折扣百分比計數])，然後選擇 [平均]。

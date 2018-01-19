@@ -1,6 +1,6 @@
 ---
-title: "Power BI 服務中的我的最愛 (儀表板)"
-description: "說明如何將 Power BI 服務中的儀表板設為我的最愛"
+title: "Power BI 服務中之我的最愛 (儀表板、報表、應用程式)"
+description: "說明如何在 Power BI 服務中將儀表板、報表和應用程式設為我的最愛"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 4c4c31f6289f6b3d12b619b7c6c297d861177fbf
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 79a47126c43f61d3495a948bf1a30f3d918429f3
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/11/2018
 ---
-# <a name="favorite-dashboards-in-the-power-bi-service"></a>Power BI 服務中我的最愛儀表板
-當您將儀表板設為「最愛」時，便可以從所有的工作區存取它。  我的最愛通常是指您最常瀏覽的項目。
+# <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Power BI 服務中的常用儀表板、報告和應用程式
+當您將內容設為「我的最愛」時，將可從所有工作區予以存取。  我的最愛通常是您最常瀏覽的內容。
 
 > [!NOTE]
 > 本主題適用於 Power BI 服務，不適用於 Power BI Desktop。
@@ -34,40 +34,50 @@ ms.lasthandoff: 12/21/2017
 
 您也可以選取單一儀表板作為 Power BI 服務中的[精選儀表板](service-dashboard-featured.md)。
 
-## <a name="add-a-dashboard-as-a-favorite"></a>將儀表板新增為「我的最愛」
+## <a name="add-a-dashboard-or-report-as-a-favorite"></a>將儀表板或報表新增為「我的最愛」
 觀看 Amanda 將 [我的最愛] 新增至工作區，然後遵循以下影片的逐步指示親自試試看。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
 
-1. 開啟您經常使用的儀表板。 甚至已與您共用的儀表板可以是「我的最愛」。
-2. 從 Power BI 服務的右上角，選取 [我的最愛] 或星號 ![](media/service-dashboard-favorite/power-bi-favorite-icon.png) 圖示。
+1. 開啟您常用的儀表板或報表。 即使是別人與您共用的內容，也可以設為「我的最愛」。
+2. 從 Power BI 服務的右上角，選取 [我的最愛] 或星形 ![](media/service-dashboard-favorite/power-bi-favorite-icon.png)  圖示。
    
    ![](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
    
-   您也可以從工作區的 [儀表板] 索引標籤中，將儀表板設為我的最愛。
+   您也可以從工作區 [儀表板] 或 [報表] 內容檢視索引標籤將儀表板或報表設為我的最愛。
    
    ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
+## <a name="add-an-app-as-a-favorite"></a>將應用程式新增為「我的最愛」
+
+1. 從左側瀏覽窗格中，選取 [應用程式]。
+
+  ![](media/service-dashboard-favorite/power-bi-favorite-apps.png)
+
+2. 停留在應用程式上以顯示更多詳細資料。  選取星形 ![](media/service-dashboard-favorite/power-bi-favorite-icon.png)  圖示以設為我的最愛。
+   
+   ![](media/service-dashboard-favorite/power-bi-favorite-app.png)
+
 ## <a name="working-with-favorites"></a>使用「我的最愛」
-1. 若要您的最愛，請從任何工作區，選取 [我的最愛] 右邊的彈出式箭號。  您可以從這裡選取最愛的儀表板，加以開啟。 只會列出五個我的最愛 (依字母順序)。 如果您有五個以上的最愛，請選取 [全部查看] 以開啟 [我的最愛] 畫面 (請參閱下面的第 2 點)。 
+1. 若要您的最愛，請從任何工作區，選取 [我的最愛] 右邊的彈出式箭號。  您可以在這裡選取我的最愛並加以開啟。 只會列出五個我的最愛 (依字母順序)。 如果超過五個，請選取 [查看全部] 開啟 [我的最愛] 畫面 (請參閱下文的第 2 點)。 
    
    ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
-2. 若要查看您新增為我的最愛的**所有**儀表板，請在左側功能窗格中選取 [我的最愛] 或我的最愛 ![](media/service-dashboard-favorite/power-bi-favorites-icon.png) 圖示。  
+2. 若要查看您已新增為我的最愛的**所有**內容，請在左側功能窗格中選取 [我的最愛] 或我的最愛 ![](media/service-dashboard-favorite/power-bi-favorites-icon.png)  圖示。  
    
     ![](media/service-dashboard-favorite/power-bi-favorites-screen.png)
    
-   您可以從這裡選取儀表板加以開啟，或與同事共用儀表板。
+   您可以在這裡執行下列動作：開啟、識別擁有者，甚至與同事共用。
 
-## <a name="unfavorite-a-dashboard"></a>將儀表板移除最愛
-不再如往常般經常使用儀表板？  您可以將其移除最愛。 將儀表板移除最愛時，儀表板就會從 [我的最愛] 清單中移除，但不會從 Power BI 中移除。
+## <a name="unfavorite-content"></a>移除最愛的內容
+某份報表的使用頻率不再如往常頻繁嗎？  您可以將其移除最愛。 移除最愛的內容時，其會從 [我的最愛] 清單中移除，但不會從 Power BI 中移除。
 
 1. 在左側功能窗格中，選取 [我的最愛] 以開啟 [我的最愛] 畫面。
    
    ![](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
-2. 選取要移除最愛的儀表板旁邊的黃色星號。
+2. 選取內容旁的黃色星星即可移除最愛。
 
-> **注意**︰您也可以從儀表板本身將儀表板從 [我的最愛] 中移除。 在儀表板的右上角，您會看到一個黃色星號和「移除最愛」這個詞組。 選取其中一個，以從我的最愛清單中移除該儀表板。 
+> **注意**︰您也可以將儀表板、報表或應用程式本身移除最愛。 只要開啟並取消選取黃色圖示就可以了。   
 > 
 > 
 

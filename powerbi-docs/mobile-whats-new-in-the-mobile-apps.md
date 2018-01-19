@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -31,6 +31,11 @@ ms.lasthandoff: 01/05/2018
 * [Power BI 服務的新功能](service-whats-new.md)  
 
 ## <a name="december-2017"></a>2017 年 12 月
+
+### <a name="improved-security-management"></a>改進的安全性管理 
+
+我們在 Android 裝置上新增了條件式存取 (CA) 及 Microsoft Intune 行動裝置管理 (MDM) 的支援，以加強保護您組織中的資料。 iOS 上已可使用。
+
 ### <a name="improved-permission-management"></a>改善的權限管理
 
 我們做了一些變更，讓您在管理資料集、儀表板及報表的使用者權限時能夠更加精確。

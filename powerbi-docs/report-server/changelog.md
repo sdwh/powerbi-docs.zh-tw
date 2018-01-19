@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
+ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -32,6 +32,13 @@ ms.lasthandoff: 12/12/2017
 ## <a name="october-2017"></a>2017年 10 月
 
 - **Power BI 報表伺服器**
+    - 版本 1.1.6582.41691 (組建 14.0.600.442)，發行日期：2018 年 1 月 10 日
+        - 安全性更新
+        - Bug 修正
+            - Model.GetParameters 傳回 400 的修正
+            - 設定共用資料設為現有分頁報表 (RDL) 的修正
+            - 將具有不同參數值的報表匯出成 PDF 時，ExecutionNotFoundException 的修正
+
     - *1.1.6551.5155 版 (組建 14.0.600.438)，發行日期：2017 年 12 月 11 日*
         - Bug 修正
             - 在重新整理特定 Power BI Desktop 報表之後無法儲存資料。
@@ -61,6 +68,9 @@ ms.lasthandoff: 12/12/2017
             - 協助工具增強功能
 
 - **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
+    - 版本：2.51.4885.2501 (2017 年 10 月)，發行日期：2018 年 1 月 10 日
+        - 安全性更新
+
     - 版本：2.51.4885.1423 (2017 年 10 月)，發行日期：2017 年 11 月 17 日
         - Bug 修正
             - 修正無法在 x86 OS 上執行 32 位元的 Power BI Desktop
@@ -74,6 +84,9 @@ ms.lasthandoff: 12/12/2017
 ## <a name="june-2017"></a>2017 年 6 月
 
 - **Power BI 報表伺服器**
+    - 組建 14.0.600.309，發行日期：2018 年 1 月 10 日
+        - 安全性更新
+
     - 組建 14.0.600.305，發行日期：2017 年 9 月 19 日  
         - Bug 修正
             - 更新至最新的 [Bing 地圖服務 Web 控制項](https://msdn.microsoft.com/library/mt712542.aspx)
@@ -87,6 +100,10 @@ ms.lasthandoff: 12/12/2017
 
     - 組建 14.0.600.271，發行日期：2017 年 6 月 12 日
         - Power BI 報表伺服器初始版本
+
+- **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
+    - 版本：2.47.4766.4901 (2017 年 6 月)，發行日期：2018 年 1 月 10 日
+        - 安全性更新
 
 ## <a name="next-steps"></a>後續步驟
 

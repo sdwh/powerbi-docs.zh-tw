@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: c00281d6b9e8a75df3b08cf1f99d0c9357129816
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: a90926d14289ff0a904f29b7b43f70aa2cbc3130
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 以從 Power BI 單一登入 (SSO) 到內部部署資料來源
 您可以藉由使用 Kerberos 來設定內部部署資料閘道，取得無縫單一登入連線，讓 Power BI 報表和儀表板從內部部署資料更新。 內部部署資料閘道可以使用 DirectQuery 加速單一登入 (SSO)，也就是用來連線到內部部署資料來源的方法。
@@ -63,11 +63,15 @@ ms.lasthandoff: 11/27/2017
 
 
 > [!NOTE]
-> 若要允許 SAP HANA 使用 SSO，您必須將下列兩項 HANA 專用設定套用到 SAP：
->    1. 使用 SAP 於 2017 年 10 月底發行的 HANA 修補程式 122.13，升級 SAP HANA 伺服器。 
+> 若要為 SAP HANA 啟用 SSO，您必須確保 SAP 符合下列 HANA 專用設定：
+>    1. 確定 SAP HANA 伺服器執行的版本是 2.00.022* 或更高/更新版。 
 >    2. 在閘道電腦上安裝最新的 SAP HANA ODBC 驅動程式。  最低版本為 2017 年 8 月的 HANA ODBC 2.00.020.00 版。
+>
+> 下列 SAP 修補程式及升級的連結可能有幫助。 請注意，您必須使用您的 SAP 支援帳戶登入下列資源，該 SAP 可能會變更或更新這些連結。
 > 
-
+> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386) 
+> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324) 
+> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
 
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>Kerberos 設定不完整的錯誤

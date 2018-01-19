@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/19/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: e614273c21dd5c222816700f0d42888e661ba1e0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>內嵌 Power BI 儀表板、報表和磚
 
@@ -133,10 +133,13 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 
 ### <a name="embedding-for-your-customers"></a>對客戶進行內嵌
 
-如果您要對客戶進行內嵌，則會想要執行下列作業。
+如果要為客戶進行內嵌作業，請執行下列作業。
 
 * 如果您要使用不同的租用戶進行開發，則必須確定生產環境中具有應用程式工作區、儀表板和報表。 請務必在 Azure AD 中建立生產租用戶的應用程式，並指派適當的應用程式權限，如步驟 1 所示。
 * 購買符合您需求的容量。 您可以使用下表來了解您可能需要的 Power BI Embedded 容量 SKU。 如需詳細資料，請參閱[內嵌的分析容量規劃白皮書](https://aka.ms/pbiewhitepaper)。 當您準備好購買時，可以在 [Microsoft Azure 入口網站](https://portal.azure.com)內進行。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
+
+> [!IMPORTANT]
+> 因為內嵌權杖只適用於開發測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數目有限。 [必須購買容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)才可進行生產環境內嵌案例。 購買容量後，內嵌權杖產生的數量就不受限制。
 
 | 節點容量 | 核心總數<br/>(後端 + 前端) | 後端核心 | 前端核心 | DirectQuery/即時連線限制 | 尖峰時間的頁面呈現上限 |
 | --- | --- | --- | --- | --- | --- |
@@ -152,6 +155,8 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
     ![將應用程式工作區指派給容量](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * 將更新過的應用程式部署至生產環境，然後開始內嵌 Power BI 儀表板和報表。
+
+
 
 ## <a name="admin-settings"></a>管理員設定
 

@@ -1,6 +1,6 @@
 ---
-title: "在 Power BI 行動裝置應用程式中檢視儀表板"
-description: "建立或連線到 Power BI 服務中的儀表板。 然後在 Power BI 行動裝置應用程式中檢視。"
+title: "在 Power BI 行動裝置應用程式中檢視儀表板和報表"
+description: "建立或連線到 Power BI 服務中的儀表板和報表。 然後在 Power BI 行動裝置應用程式中檢視。"
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,15 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/18/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 07a514f5d5c5046f8046bb231aef941f201a829b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/17/2018
 ---
-# <a name="view-your-dashboards-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視儀表板
+# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視儀表板和報表
 適用於︰
 
 | ![iPhone](media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android 手機](media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android 平板電腦](media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows 10 裝置](media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
@@ -35,10 +35,10 @@ ms.lasthandoff: 11/13/2017
 ## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>在 Power BI 服務 (https://powerbi.com) 中建立儀表板
 **您未在行動應用程式中建立儀表板。** 
 
-若要在您的行動裝置上查看儀表板，您需要在網頁瀏覽器中建立或連線到該儀表板。 
+若要在您的行動裝置上查看儀表板和報表，您需要在網頁瀏覽器中建立或連線到該儀表板和報表。 
 
 1. 前往 Power BI 服務 ([https://www.powerbi.com](https://www.powerbi.com))，然後[註冊帳戶](service-self-service-signup-for-power-bi.md)。
-2. [建立您自己的 Power BI 儀表板](service-dashboard-create.md)，或連接到現有[各種服務的內容套件](service-connect-to-services.md)。
+2. [建立您自己的 Power BI 儀表板和報表](service-get-started.md)，或連線到現有的 [Power BI 應用程式](service-connect-to-services.md)取得各項服務，例如 [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) 和 [Adobe Analyics](service-connect-to-adobe-analytics.md)。
 
 這是 Power BI 服務中的其中一個 Power BI 儀表板：
 

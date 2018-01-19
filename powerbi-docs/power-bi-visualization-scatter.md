@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI 中的散佈圖與泡泡圖 (教學課程)
 散佈圖一律會有兩個值座標軸，沿著水平軸顯示一組數字資料，沿著垂直軸顯示另一組數值。 此圖表顯示 x 與 y 數交集處的點，結合這些值可形成單一的資料點。 視資料之不同，這些資料點可能平均散布或不平均地散佈在水平軸。
@@ -75,6 +75,14 @@ ms.lasthandoff: 01/03/2018
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. 也可選擇[將視覺效果色彩、標籤、標題、背景等項目格式化](service-getting-started-with-color-formatting-and-axis-properties.md)。
+
+## <a name="accessibility"></a>協助工具
+
+您可以使用「標記圖形」讓身障人士更方便使用您的散佈圖或泡泡圖。 
+
+若要選取標記圖形，請選取 [視覺效果] 窗格的 [格式] 區段，展開 [圖形] 區段，然後選取標記圖形。
+
+![標記圖形](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**散佈圖只有一個資料點**
