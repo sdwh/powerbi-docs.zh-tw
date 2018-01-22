@@ -266,26 +266,36 @@
           href: service-data-classification.md
     - name: 詢問資料相關的問題
       items:
-        - name: Power BI 中的問與答
-          href: service-q-and-a.md
-        - name: 如何使用 Power BI 問與答
-          href: service-how-to-q-and-a.md
-        - name: 教學課程：開始使用 Power BI 問與答
-          href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: 搭配 Power BI Gateway - Enterprise 資料使用問與答 (預覽)
-          href: service-q-and-a-direct-query.md
-        - name: 讓資料適用於 Power BI 的問與答
-          href: service-prepare-data-for-q-and-a.md
-        - name: 適用於 Power BI 的 Cortana 簡介
-          href: service-cortana-intro.md
-        - name: 啟用適用於 Power BI 的 Cortana
-          href: service-cortana-enable.md
-        - name: 建立 Power BI 問與答的精選問題
-          href: service-q-and-a-create-featured-questions.md
-        - name: 透過 Power BI 中的問與答提出問題的秘訣和訣竅
-          href: service-q-and-a-tips.md
-        - name: 疑難排解 Cortana
-          href: service-cortana-troubleshoot.md
+        - name: 概觀
+          items:
+            - name: Power BI 中的問與答
+              href: power-bi-q-and-a.md
+            - name: 適用於 Power BI 的 Cortana 簡介
+              href: service-cortana-intro.md
+        - name: 快速入門
+          items:
+            - name: 開始使用 Power BI 問與答
+              href: power-bi-visualization-introduction-to-q-and-a.md
+        - name: 教學課程
+          items:
+            - name: 使用問與答來建立視覺效果及建置報表
+              href: power-bi-tutorial-q-and-a.md
+        - name: 如何
+          items:
+            - name: 搭配 Power BI Gateway - Enterprise 資料使用問與答 (預覽)
+              href: service-q-and-a-direct-query.md
+            - name: 讓資料適用於 Power BI 的問與答
+              href: service-prepare-data-for-q-and-a.md
+            - name: 啟用適用於 Power BI 的 Cortana
+              href: service-cortana-enable.md
+            - name: 建立 Power BI 問與答的精選問題
+              href: service-q-and-a-create-featured-questions.md
+        - name: 資源
+          items:
+            - name: 透過 Power BI 中的問與答提出問題的秘訣和訣竅
+              href: service-q-and-a-tips.md
+            - name: 疑難排解 Cortana
+              href: service-cortana-troubleshoot.md
     - name: 分享您的成果
       items:
         - name: 應該如何共同作業以及共用儀表板和報表？
