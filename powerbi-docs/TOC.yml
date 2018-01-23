@@ -524,6 +524,8 @@
           href: service-gateway-onprem.md
         - name: 內部部署資料閘道 - 深入資訊
           href: service-gateway-onprem-indepth.md
+        - name: 內部部署資料閘道的高可用性叢集
+          href: service-gateway-high-availability-clusters.md
         - name: 內部部署資料閘道常見問題集
           href: service-gateway-onprem-faq.md
         - name: 內部部署資料閘道 (個人模式)
@@ -766,6 +768,10 @@
           href: desktop-quick-measures.md
         - name: 使用 What if 參數
           href: desktop-what-if.md
+        - name: 使用鑽研
+          href: desktop-drillthrough.md
+        - name: 使用相對日期交叉分析篩選器與篩選
+          href: desktop-slicer-filter-date-range.md
         - name: Power BI 報表的協助工具
           href: desktop-accessibility.md
         - name: 使用分組與收納
