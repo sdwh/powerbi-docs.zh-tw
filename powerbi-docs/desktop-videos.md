@@ -31,10 +31,10 @@ ms.lasthandoff: 12/06/2017
 * [Power BI Desktop 的高階概觀](https://www.youtube.com/watch?v=Qgam9M8I0xA)，從取得資料及建置報表到將報表上傳至 Power BI，以便重新整理報表並與其他使用者共用。
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe>
-*了解[如何使用 Power BI Desktop 建置出色的報表](https://www.youtube.com/watch?v=ByIUx-HmQbw)。
+* 了解 [如何使用 Power BI Desktop 建置出色的報表](https://www.youtube.com/watch?v=ByIUx-HmQbw)。
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe>
-*了解如何在 Power BI Desktop 中[使用查詢編輯器匯入、重新塑造和轉換資料](https://www.youtube.com/watch?v=ByIUx-HmQbw)。
+* 了解如何在 Power BI Desktop 中 [使用查詢編輯器匯入、重新塑造和轉換資料](https://www.youtube.com/watch?v=ByIUx-HmQbw)。
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/ByIUx-HmQbw" frameborder="0" allowfullscreen></iframe>
 
