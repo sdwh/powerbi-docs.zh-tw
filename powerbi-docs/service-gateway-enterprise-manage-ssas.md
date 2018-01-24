@@ -192,7 +192,7 @@ ms.lasthandoff: 11/27/2017
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard-"></a>使用萬用字元 (*)
+### <a name="using-wildcard-"></a>使用萬用字元 (\*)
 [Replace (Original name)] \(取代 (原始名稱)) 字串可以使用萬用字元。 它只能用於本身，不能搭配任何其他字串部分。 這可讓您接受所有使用者，將單一值傳遞給資料來源。 當您希望組織中的所有使用者在本機環境中使用同一使用者時，這非常有用。
 
 ### <a name="test-a-mapping-rule"></a>測試對應規則
