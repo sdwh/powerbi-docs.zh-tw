@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: eb106547efa67accacd3c955d53bc9ac4d114d8e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 692fdaa4861ed4ae692698439b6c86a30d60c790
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>使用 Power BI 連接到 Azure 搜尋服務
 Azure 搜尋服務流量分析可讓您監視及了解 Azure 搜尋服務的流量。 Power BI 的 Azure 搜尋服務內容套件提供了搜尋資料的詳細深入解析，包括過去 30 天內的搜尋、索引、服務統計資料和延遲。 更多詳細資料請參閱 [Azure 部落格文章](https://azure.microsoft.com/en-us/blog/analyzing-your-azure-search-traffic/)。
@@ -50,7 +50,7 @@ Azure 搜尋服務流量分析可讓您監視及了解 Azure 搜尋服務的流�
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](service-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理

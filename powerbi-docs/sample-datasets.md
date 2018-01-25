@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 2b5568020d3d99788d4fe2288fbc468d82d4e2bf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5087e69190372fe7303fb46254885f7a7a456f70
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>哪種範例資料可搭配 Power BI 使用？
 您是否剛接觸 Power BI 並想要試用，但沒有任何資料；  或您可能有資料集，但因為 (還) 不了解 Power BI 的運作方式，而擔心可能會不小心損害資料集？

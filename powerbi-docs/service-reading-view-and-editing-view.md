@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 服務報告中的閱讀檢視和編輯檢視
 在 Power BI 服務 (而非 Power BI Desktop) 中，有兩種模式可與報告互動：閱讀檢視和編輯檢視。 [閱讀檢視] 適用於所有使用者，特別是針對資料「取用者」而設計，[編輯檢視] 則僅適用於報表「建立者」和擁有者。 
@@ -56,7 +56,7 @@ ms.lasthandoff: 01/09/2018
 | [報表**檢視**選項](power-bi-report-display-settings.md) | 是，但有些例外狀況。 | 是，所有項目，包括格線、貼齊，以及鎖定。 |
 | [建立重新整理排程](refresh-data.md) | 否  | 是 |
 | [訂閱報表](service-report-subscribe.md) | 是 | 否 |
-| [問與答 - 在報表中詢問問題](service-q-and-a.md) | 否  | 是 |
+| [問與答 - 在報表中詢問問題](power-bi-q-and-a.md) | 否  | 是 |
 | [檢視使用計量](service-usage-metrics.md) | 是，在報表畫布上。 | 是，在報表清單中 (內容檢視) |
 | [檢視相關項目](service-related-content.md) | 是，在報表畫布上。 | 是，在報表清單中 (內容檢視) |
 | [儲存報表](service-report-save.md) | 是，但只使用 [另存新檔]。 | 是 |

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/27/2017
 ms.author: mihart
-ms.openlocfilehash: 6d043f21635308def7b119c072a7f99c118e901d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d92edce9ae1332c4a0c73be5db93201c9b87dc86
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="the-power-bi-samples-a-tutorial"></a>Power BI 範例，即教學課程
 <!-- Shared newnav Include -->
@@ -91,7 +91,7 @@ ms.lasthandoff: 11/15/2017
     ![](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > 如果磚是使用 [Power BI 問與答](service-q-and-a.md)所建立，會改為開啟問與答頁面。
+   > 如果磚是使用 [Power BI 問與答](power-bi-q-and-a.md)所建立，會改為開啟問與答頁面。
    > 
    > 
 4. 返回您的 [資料集] 索引標籤，您有多種選項可以探索資料集。  您無法加以開啟及查看所有資料行和資料列 (如同您在 Power BI Desktop 或 Excel 中)。  當有人與同事共用內容套件時，他們通常會想共用深入資訊，而不會把資料的直接存取權提供給同事。 但這不表示您無法探索資料集。  

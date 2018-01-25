@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: c53c7f5e0748e186c68bcc2642b381cf17c423eb
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b97dd32a3b6b075509c15dd1c1df5009c99e5f0b
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>使用 Power BI 連接到 comScore Digital Analytix
 使用 Power BI 內容套件以視覺化方式檢視和瀏覽 Power BI 中的 comScore Digital Analytix 資料。 資料會自動每天重新整理一次。
@@ -51,7 +51,7 @@ ms.lasthandoff: 11/15/2017
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](service-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
@@ -70,7 +70,7 @@ ms.lasthandoff: 11/15/2017
 
 您連接的資料中心取決於您瀏覽至 comScore 中的 URL。
 
-如果使用 https://dax.comscore.com ，請輸入 "US"；如果使用 https://dax.comscore.eu ，請輸入"EU"。
+如果使用 https://dax.comscore.com，請輸入 "US"；如果使用 https://dax.comscore.eu，請輸入"EU"。
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 

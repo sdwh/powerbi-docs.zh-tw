@@ -17,40 +17,40 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 22d490a58fd522b805d9709a1e697d1d2e89df6c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 408f41e1a50b895166308fcba129d86f5c05d0e7
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>使用 Power BI 連接到 Zuora
-Zuora for Power BI 可讓您以視覺化方式顯示重要的營收、帳單與訂閱資料。 使用預設儀表板與報表來分析使用狀況趨勢、追蹤帳單與付款，以及監視週期性營收，或根據您自己的獨特儀表板與報告需求進行自訂。 
+Zuora for Power BI 可讓您以視覺化方式顯示重要的營收、帳單與訂閱資料。 使用預設儀表板與報表來分析使用狀況趨勢、追蹤帳單與付款，以及監視週期性營收，或根據您自己的獨特儀表板與報告需求進行自訂。
 
 連接到 [Zuora](https://app.powerbi.com/getdata/services/Zuora) for Power BI。
 
 ## <a name="how-to-connect"></a>如何連接
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
-   
+
    ![](media/service-connect-to-zuora/getdata.png)
 2. 在 [服務]  方塊中，選取 [取得] 。
-   
+
    ![](media/service-connect-to-zuora/services.png)
 3. 選取 [Zuora] \> [取得]。
-   
+
    ![](media/service-connect-to-zuora/zuora.png)
-4. 指定您的 Zuora URL。 這通常是 "https://www.zuora.com" ，請參閱以下關於[尋找這些參數](#FindingParams)的詳細資料。
-   
+4. 指定您的 Zuora URL。 這通常是 "https://www.zuora.com"，請參閱以下關於[尋找這些參數](#FindingParams)的詳細資料。
+
    ![](media/service-connect-to-zuora/params.png)
 5. 在 [ **驗證方法**] 選取 [ **基本** ]，然後輸入使用者名稱及密碼，再選取 [ **登入**]。
-   
+
     ![](media/service-connect-to-zuora/creds.png)
 6. 一經核准，匯入程序會自動開始。 完成時，新的儀表板、報表和模型會出現在瀏覽窗格中。 選取儀表板以檢視匯入的資料。
-   
+
      ![](media/service-connect-to-zuora/dashboard.png)
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](service-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
@@ -111,4 +111,3 @@ Zuora 內容套件會提取 Zuora 帳戶的許多不同層面。 如果您未使
 [開始使用 Power BI](service-get-started.md)
 
 [取得 Power BI 中的資料](service-get-data.md)
-

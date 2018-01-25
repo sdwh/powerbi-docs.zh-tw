@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 27749be1cb344ad731af2b2747dfee4bc24fab08
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: efb0bde571926d2e3e671aeca36ac148d1dd6710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>使用 Power BI 連接到 Alpine Metrics 銷售預測內容套件
 Alpine Metrics 為各種規模的銷售組織提供最先進的雲端及隨選「預測銷售程序最佳化」。 Power BI 的 Alpine Metrics 銷售預測內容套件包含可能及預測的銷售和風險等計量資訊，讓您深入探索企業的未來。 
@@ -49,7 +49,7 @@ Alpine Metrics 為各種規模的銷售組織提供最先進的雲端及隨選�
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](service-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理

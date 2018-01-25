@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/24/2017
+ms.date: 01/18/2018
 ms.author: jastru
-ms.openlocfilehash: 4b861927bad961837f40f34636f0570106aaabc6
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5d9b65448fced78bf3eb4ed02c84e1561d2d209a
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 問與答中詢問問題的秘訣
 ## <a name="words-and-terminology-that-qa-recognizes"></a>問與答可辨識的字組與專有名詞
@@ -101,7 +101,7 @@ Power BI 最強大的功能之一是能夠合併來自不同資料集的資料�
 問與答顯示您的結果之後，持續保存交談內容！ 使用視覺效果的互動功能與問答集，發掘更多深入資訊。
 
 ## <a name="next-steps"></a>後續步驟
-回到 [Power BI 中的問與答](service-q-and-a.md)  
+回到 [Power BI 中的問與答](power-bi-q-and-a.md)  
 
 [Power BI - 基本概念](service-basic-concepts.md)  
 

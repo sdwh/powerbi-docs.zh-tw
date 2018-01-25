@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 0f4cd7166334338e4b19586c189fd363c5b7c934
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b508019eaebe6851909594a8a6174ad5f8c969a1
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>使用 Power BI 連接到 Ziosk Survey Analytics
 Power BI 的 Ziosk Survey Analytics 內容套件讓使用 Ziosk 資料表的餐廳，能夠存取由 Ziosk 問卷資料所提供的獨特深入資訊，包括依日期、地點、員工等的區隔。
@@ -49,7 +49,7 @@ Power BI 的 Ziosk Survey Analytics 內容套件讓使用 Ziosk 資料表的餐�
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](service-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理

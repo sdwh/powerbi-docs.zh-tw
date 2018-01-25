@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: be245be7c8f83cb363e93a5d2bc452418f436e37
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+ms.openlocfilehash: 405be2083b26659f1f26ec04e72319ca5981bdf0
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI 服務的基本概念
 
@@ -120,7 +120,7 @@ Power BI 報表是一或多個頁面的視覺效果 (圖表和圖形，例如折
 * [Power BI 行動裝置應用程式中的報告](mobile-reports-in-the-mobile-apps.md)
 
 ## <a name="dashboards"></a>儀表板
-「儀表板」是您在 **Power BI 服務**中所建立，或由同事在 **Power BI 服務**中建立並與您共用的東西。 其為含有零或多個磚與 Widget 的單一畫布。 從報告或從[問與答](service-q-and-a.md)釘選的每個圖格會顯示從資料集建立並釘選到儀表板的單一[視覺效果](power-bi-report-visualizations.md)。 整個報告頁面也可以當作單一圖格釘選到儀表板。 有許多方法可將磚加入儀表板中；本概觀主題無法全部涵蓋。 若要深入了解，請參閱 [Power BI 的儀表板磚](service-dashboard-tiles.md). 
+「儀表板」是您在 **Power BI 服務**中所建立，或由同事在 **Power BI 服務**中建立並與您共用的東西。 其為含有零或多個磚與 Widget 的單一畫布。 從報告或從[問與答](power-bi-q-and-a.md)釘選的每個圖格會顯示從資料集建立並釘選到儀表板的單一[視覺效果](power-bi-report-visualizations.md)。 整個報告頁面也可以當作單一圖格釘選到儀表板。 有許多方法可將磚加入儀表板中；本概觀主題無法全部涵蓋。 若要深入了解，請參閱 [Power BI 的儀表板磚](service-dashboard-tiles.md). 
 
 為何要建立儀表板？  以下只是部分原因：
 
@@ -207,7 +207,7 @@ Power BI 報表是一或多個頁面的視覺效果 (圖表和圖形，例如折
 
 ![問與答的問題方塊](media/service-basic-concepts/power-bi-qna.png)
 
-一旦您開始輸入問題，問與答就會帶您前往問與答的頁面。 您在輸入時，問與答會以修改措辭、自動填入、建議及更多方式，協助您詢問適當的問題並找尋最佳解答。 如果有您喜歡的視覺效果 (解答)，請予以釘選到您的儀表板中。 如需詳細資訊，請參閱 [Power BI 中的問與答](service-q-and-a.md)。
+一旦您開始輸入問題，問與答就會帶您前往問與答的頁面。 您在輸入時，問與答會以修改措辭、自動填入、建議及更多方式，協助您詢問適當的問題並找尋最佳解答。 如果有您喜歡的視覺效果 (解答)，請予以釘選到您的儀表板中。 如需詳細資訊，請參閱 [Power BI 中的問與答](power-bi-q-and-a.md)。
 
 ### <a name="4-icon-buttons"></a>4.**圖示按鈕** 
 右上角的圖示為您的資源，可供您設定、通知、下載、取得說明，並將意見反應提供給 Power BI 小組。 選取雙箭頭以 [全螢幕] 模式開啟儀表板。  
@@ -217,7 +217,7 @@ Power BI 報表是一或多個頁面的視覺效果 (圖表和圖形，例如折
 ### <a name="5-dashboard-title-navigation-path-aka-breadcrumbs"></a>5.**儀表板標題** (導覽路徑，也稱為階層連結)
 您不一定能輕鬆地指出哪個工作區和儀表板為作用中，因此 Power BI 會為您建立導覽路徑。  在此範例中，我們看到工作區 (我的工作區) 和儀表板標題 (零售分析範例)。  如果我們開啟了報告，則報告的名稱會附加至導覽路徑的結尾。  路徑的每個部分都是作用中的超連結。  
 
-請注意儀表板標題之後的 "C" 圖示。 此儀表板具有「機密」[資料分類標籤](/service-data-classification.md)。 此標籤可識別資料的敏感性和安全性層級。 如果您的系統管理員已開啟資料分類，則每個儀表板將會設定一個預設標籤。 儀表板擁有者應變更此標籤，以符合其儀表板的適當安全性層級。
+請注意儀表板標題之後的 "C" 圖示。 此儀表板具有「機密」[資料分類標籤](service-data-classification.md)。 此標籤可識別資料的敏感性和安全性層級。 如果您的系統管理員已開啟資料分類，則每個儀表板將會設定一個預設標籤。 儀表板擁有者應變更此標籤，以符合其儀表板的適當安全性層級。
 
 ![](media/service-basic-concepts/power-bi-title.png)
 

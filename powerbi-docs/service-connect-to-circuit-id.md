@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: ecbcccfbbece8255494c78220a81de62b3ddcc40
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 295d8dbd24c9ae6bce84cb76f6a5e23e7474b893
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>使用 Power BI 連接到電路識別碼
 使用 Power BI 可以輕鬆地分析來自 Circuit ID 的通訊資料。 Power BI 會擷取您的資料，然後根據該資料建置預設的儀表板和相關報表。 在建立連接之後，您可以瀏覽資料並自訂儀表板以符合您的需求。 資料會自動每天重新整理。
@@ -47,7 +47,7 @@ ms.lasthandoff: 11/15/2017
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](service-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理

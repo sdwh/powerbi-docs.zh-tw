@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: dd64f4fb4651e393e770dda9323c10356424c780
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 66d1544797008b4ed4c0ce2c7acd041aa60b967b
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>使用 Power BI 連接到 Acumatica
 Power BI Acumatica 內容套件可讓您快速深入了解機會資料。 Power BI 會擷取您的資料 (包含機會、帳戶和客戶)，然後根據該資料建置預設的儀表板和相關報表。
@@ -57,7 +57,7 @@ Power BI Acumatica 內容套件可讓您快速深入了解機會資料。 Power 
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](service-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
@@ -72,7 +72,7 @@ Acumatica OData 端點的格式如下，而且應該使用 HTTPS：
 
     https://[sitedomain]/odata/[companyname]
 
-當您登入 Acumatica 時，應用程式網站網域可以在您的瀏覽器網址列中找到。 在下列範例中，站台網域是 "https://pbi.acumatica.com" ，因此要提供的 OData 端點是 "https://pbi.acumatica.com/odata" 。
+當您登入 Acumatica 時，應用程式網站網域可以在您的瀏覽器網址列中找到。 在下列範例中，站台網域是 "https://pbi.acumatica.com"，因此要提供的 OData 端點是 "https://pbi.acumatica.com/odata"。
 
  ![](media/service-connect-to-acumatica/url.png)
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
@@ -470,7 +470,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 **2015 年 10 月 6 日**
 
-* 透過 Power BI 問與答，您可以使用簡單、直覺的問題來探索資料，並收到以互動式圖表和圖形呈現的回答。 在此版本中，我們加入了一項功能來協助您，即使您還不知道資料的任何內容，也能開始使用 Power BI 問與答。 若要開始使用此功能，請[導覽到任一個儀表板，然後按一下問與答問題方塊附近的 [如何發問] 連結](service-how-to-q-and-a.md)。 Power BI 隨即依據您的資料，為您呈現多項建議。
+* 透過 Power BI 問與答，您可以使用簡單、直覺的問題來探索資料，並收到以互動式圖表和圖形呈現的回答。 在此版本中，我們加入了一項功能來協助您，即使您還不知道資料的任何內容，也能開始使用 Power BI 問與答。 若要開始使用此功能，請[導覽到任一個儀表板，然後按一下問與答問題方塊附近的 [如何發問] 連結](power-bi-tutorial-q-and-a.md)。 Power BI 隨即依據您的資料，為您呈現多項建議。
 * 兩週前，我們開始支援在 Power BI Desktop 將圖形插入報表畫布中。 本週，我們很高興宣布，現在當您在 Power BI Web 應用程式中撰寫及 (或) 編輯報表時，也可以將圖形加入您的報表畫布中。
 * 我們加入了在共用儀表板時關閉電子郵件通知的選項。 只要在 Power BI 共用對話方塊中，取消核取 [傳送電子郵件通知給收件者] 核取方塊即可。 系統將會顯示一組 URL，複製此 URL 並分享給您的同事，他們就能存取儀表板。
 * Microsoft Dynamics NAV 是適用於中小型組織的商務管理解決方案。 此服務為客戶提供完整的解決方案，讓企業更有效控制財務和商務程序。 Power BI 內容套件為 Dynamics NAV 使用者提供現成報表，例如銷售和收益、商機管道、獲利率等。 這些計量都在可完全自訂的儀表板上組織，讓您能夠輕鬆連接並立即開始探索您的資料。

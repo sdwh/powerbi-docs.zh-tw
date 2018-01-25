@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: f942c0551a473140903e2fce19feba641a62e5a2
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 38b9233bda842877b4c8c16df2904f5fe8b1966d
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>使用 Power BI 連接到 Microsoft Dynamics AX 內容套件
 Microsoft Dynamics AX 有三種針對不同商務使用者的 Power BI 內容套件。 專為 CFO 所設計的財務績效內容套件，可存取組織財務績效的深入資訊。 零售通路績效內容套件針對注重銷售績效的通路管理員，直接繪製零售與商務資料，以預測趨勢和探索深入資訊。 成本管理是專為 COO 和 CFO 所設計，並提供作業效能的詳細資料。
@@ -52,7 +52,7 @@ Microsoft Dynamics AX 有三種針對不同商務使用者的 Power BI 內容套
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](service-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理

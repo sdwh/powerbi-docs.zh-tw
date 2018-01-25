@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 3aa07c88daccc84bcf09af9d31a73a4411a3e541
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: fe4b35a6132a1d36f48e54e1c779454009402340
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>使用 Power BI 連接到 Application Insights
 使用 Power BI 從 [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) 遙測建立功能強大的自訂儀表板。 想像以新方法運用應用程式遙測。 將來自多個應用程式或元件服務的度量合併到一個儀表板上。 第一版的 Power BI Application Insights 內容套件，包含常用的度量小工具，例如作用中使用者、頁面檢視、工作階段、瀏覽器和作業系統版本，以及地圖的使用者地理分佈。
@@ -53,7 +53,7 @@ ms.lasthandoff: 11/15/2017
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](service-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理

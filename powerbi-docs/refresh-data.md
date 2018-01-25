@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 647b042d10768f4ecbb3083384efa9000202a11f
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 若要做出正確決策，確保您能夠一直取得最新資料就相當重要。 您可能已經使用 Power BI 中的 [取得資料] 連接及上傳一些資料，也已經建立一些報表和儀表板。 現在，您想要確定您的資料都是最新且最優良的。
@@ -112,7 +112,7 @@ Power BI 內有四種主要的重新整理類型。 封裝重新整理、模型/
 | 會使用 \[取得資料] \(位於功能區) 連接到任何所列資料來源，以及從中查詢資料。 |否 |是 |否 (請參閱下文) |
 | [取得資料] 是用於連接和瀏覽即時的 Analysis Services 資料庫。 |是 |否 |是 |
 | [取得資料] 是用於連接和瀏覽支援的內部部署 DirectQuery 資料來源。 |是 |否 |是 |
-| 會使用 [取得資料] 連接到 Azure SQL Database、Azure SQL 資料倉儲、Azure HDInsight Spark，以及從中查詢資料。 |是 (小時) |否 |否 |
+| 會使用 [取得資料] 連接到 Azure SQL Database、Azure SQL 資料倉儲、Azure HDInsight Spark，以及從中查詢資料。 |是 |是 |否 |
 | [取得資料] 是用來連接到任何所列內部部署資料來源 (Hadoop 檔案 (HDFS) 及 Microsoft Exchange 除外)，以及從中查詢資料。 |否 |是 |是 |
 
 > [!NOTE]

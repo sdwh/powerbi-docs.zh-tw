@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/31/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 81f7b4a68b66a2bfbdf285007ff4ff636c326a6c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 800808a8c09166b8a5b1389b9a54fb57cfa13b12
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI 服務中的儀表板
 
@@ -82,7 +82,7 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 * 深入了解[儀表板磚](service-dashboard-tiles.md)以及選取一個磚時會發生什麼情況。
 * 不喜歡儀表板的外觀？  您可以[調整大小、移動和重新命名磚](service-dashboard-edit-tile.md)。
 * 想要追蹤個別的儀表板磚，並在它達到某個閾值時收到電子郵件？ [建立磚警示](service-set-data-alerts.md)。
-* 享受向儀表板提問的樂趣。 了解如何使用 [Power BI 問與答](service-how-to-q-and-a.md)提出與您的資料相關的問題，然後接收視覺效果的回應。
+* 享受向儀表板提問的樂趣。 了解如何使用 [Power BI 問與答](power-bi-tutorial-q-and-a.md)提出與您的資料相關的問題，然後接收視覺效果的回應。
 
 > [!TIP]
 > 如果這裡找不到您要的解答，請使用左邊的目錄。

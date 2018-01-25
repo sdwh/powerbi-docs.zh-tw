@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 344ed348f087ead10a8fa4a2c297909e8da628f4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c9a257ad413ff659ab763b26688a22c8461949eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>使用 Power BI 連接到 Twilio
 Power BI 的 Microsoft Twilio 內容套件可讓您提取 Power BI 資料，並建立現成的 [Twilio 儀表板](https://powerbi.microsoft.com/integrations/twilio)和報表，顯示資料的深入解析。 您也可以針對 Power BI 所建立的資料集，建立您自訂的報表和儀表板。 資料會每天重新整理一次，讓您隨時查看最新的資料。
@@ -47,7 +47,7 @@ Power BI 的 Microsoft Twilio 內容套件可讓您提取 Power BI 資料，並�
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](service-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理

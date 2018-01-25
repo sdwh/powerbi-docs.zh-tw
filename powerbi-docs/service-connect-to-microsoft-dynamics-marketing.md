@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 5ef00013299be73b809a84bfbc977a3666d7e49c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2800dc496d32c099024db0960c87912afb3b79d7
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>使用 Power BI 連接到 Microsoft Dynamics Marketing
 Power BI 的 Microsoft Dynamics Marketing 內容套件可讓您輕鬆存取並分析 Dynamics Marketing 的資料。 此內容套件使用 OData 摘要頂端的描述性模型，包括所有必要的實體和量值，例如方案、行銷活動、行銷連絡人和公司、潛在客戶、用戶互動與用戶評分、電子郵件行銷訊息和網站、行為觀察、預算、金融交易、效能 KPI 及其他許多資料。 
@@ -53,7 +53,7 @@ Power BI 的 Microsoft Dynamics Marketing 內容套件可讓您輕鬆存取並�
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](service-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: b94ede61185e2029e259fd851eaa022737346210
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 6d398a7594cfde65d878cbd317a2669b945da9e6
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>在 Power BI Desktop 中使用群組和量化
 當 **Power BI Desktop** 建立視覺效果時，會根據在基礎資料中找到的值，將資料彙總成區塊 (或**群組**)。 通常沒有問題，但您偶爾會想要調整這些區塊的呈現方式。 例如，您可能想要將三種產品類別放在一個較大的類別 (一個「群組」) 中。 或者您可能想要以量化大小 1,000,000 美元來查看銷售數字，而不是等分為 923,983 美元。
@@ -69,7 +69,7 @@ ms.lasthandoff: 12/06/2017
 
 ![](media/desktop-grouping-and-binning/grouping-binning_7.png)
 
-若要查看**量化**的執行方式，請觀賞這段[影片](https://youtu.be/UXEYSvgvMaQ?t=12m17s)。
+若要查看**量化**的執行方式，請觀賞這段[影片](https://www.youtube.com/watch?v=BRvdZSfO0DY)。
 
 使用**群組**和**量化**可確保報表中的視覺效果只以您要的方式來顯示資料。
 

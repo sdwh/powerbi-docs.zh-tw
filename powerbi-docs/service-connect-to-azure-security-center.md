@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: d052bc054e55eabfab53ad3b1ac9229f0a750785
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e26a26d7cba2ae3d68586a2e0dcdf87481009bd6
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-azure-security-center-with-power-bi"></a>使用 Power BI 連接到 Azure 資訊安全中心
 將您的 Azure 安全性資料與 Power BI 連接，以深入了解您的 Azure 工作負載安全性。 Power BI 會自動建立以 Azure 資訊安全中心資料為基礎的儀表板與報表，讓您分析及瀏覽資料。
@@ -50,7 +50,7 @@ ms.lasthandoff: 11/15/2017
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](service-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理

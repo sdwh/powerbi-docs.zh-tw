@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: a96e4b0f20eaea1a9f9e9fc71ea2724952f61fc3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 67ed59961ca5bc4b382adf105bbc5c97ff470118
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>使用 Power BI 連接到 AT Internet Bridge
 AT Internet 可協助您從資料擷取即時運算值，方法是使用 Analytics Suite 這套統一的數位分析平台。 Power BI 的 AT Internet Bridge 內容套件包含適用您網站的資料瀏覽、來源、當地語系化以及裝置。
@@ -50,7 +50,7 @@ AT Internet 可協助您從資料擷取即時運算值，方法是使用 Analyti
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](service-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 01/29/2018
 ms.author: mihart
-ms.openlocfilehash: 91c185a082cebc6a9196e0e86898fe366363f8c2
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 5447b23f7d7dd50bf0d9f9e0cfcc84ea9ad0cc8a
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="funnel-charts-tutorial"></a>漏斗圖 (教學課程)
 漏斗圖幫您將有循序連接階段的線性程序視覺化。 例如，銷售漏斗圖透過以下階段追蹤客戶：潛在客戶 \> 合格的潛在客戶 \> 期望 \> 合約 \> 結案。  漏斗圖的圖形一看就能表達出您追蹤中程序的健全狀況。
@@ -54,7 +54,7 @@ ms.lasthandoff: 01/03/2018
 ## <a name="create-a-basic-funnel-chart"></a>建立基本漏斗圖
 觀賞這段影片，了解 Will 如何使用銷售與行銷範例來建立漏斗圖。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/maTzOJSRB3g" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qKRZPBnaUXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 現在建立您自己的漏斗圖，其中可顯示每個銷售階段中擁有的商機數。

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: cde6ca545d37b2ba490578bf43e7de95b10931d7
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 007d4f6f5181722e23e280e1a57d305d7f069155
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>使用 Power BI 連接到 ClickDimensions
 Power BI 的 ClickDimensions 內容套件可讓使用者在 Power BI 中利用 ClickDimensions 行銷資料，讓管理團隊進一步深入探索其銷售和行銷活動的成功原因。 在 Power BI 儀表板和報表中，以視覺化方式檢視和分析電子郵件互動、網站瀏覽和表單送出。
@@ -50,7 +50,7 @@ Power BI 的 ClickDimensions 內容套件可讓使用者在 Power BI 中利用 C
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](service-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
