@@ -298,7 +298,7 @@
               href: service-cortana-troubleshoot.md
     - name: 分享您的成果
       items:
-        - name: 應該如何共同作業以及共用儀表板和報表？
+        - name: 應該如何共同作業和共用儀表板和報表？
           href: service-how-to-collaborate-distribute-dashboards-reports.md
         - name: 使用儀表板和報表安裝並使用應用程式
           href: service-install-use-apps.md
@@ -308,9 +308,9 @@
           href: service-organizational-content-pack-introduction.md
         - name: 建立及發行組織內容套件 (教學課程)
           href: service-organizational-content-pack-create-and-publish.md
-        - name: 與同事和其他人共用儀表板
+        - name: 共用儀表板和報表
           href: service-share-dashboards.md
-        - name: 與同事共用報表
+        - name: 共用篩選過的報表
           href: service-share-reports.md
         - name: 從 Power BI 發佈至網路
           href: service-publish-to-web.md
