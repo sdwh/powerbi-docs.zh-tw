@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: ec5d5de3d29ccbe857f6fd40320353c357e6539e
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 6b2002348ae7e8ef2bb2e112eb8be967d0c68545
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>從 Power BI 將報表匯出至 PowerPoint (預覽)
 有了 Power BI，您現在可以將報表發佈至 **Microsoft PowerPoint**，並根據 Power BI 報表輕鬆地建立投影片組。 當您**匯出至 PowerPoint** 時會發生下列狀況︰
 
 * Power BI 報表中的每個頁面都會變成 PowerPoint 的個別投影片
-* Power BI 報表中的每個視覺效果都會匯出成 PowerPoint 中的高解析度影像
+* Power BI 報表中的每個頁面都會匯出成 PowerPoint 中的單一高解析度影像
 * Power BI 報表中的文字方塊會變成 PowerPoint 的可編輯文字方塊
 * PowerPoint 中會建立連結至 Power BI 報表的連結
 
@@ -65,7 +65,11 @@ ms.lasthandoff: 12/06/2017
 2. 您也會獲得一些有關報表的實用資訊，包括匯出報表所依據的「上次資料重新整理」，以及「下載於」時間和日期，也就是 Power BI 報表匯出為 PowerPoint 檔案的日期和時間。
 3. 每張報表頁面都是一張個別的投影片，如左導覽窗格中所示。
 
-當您瀏覽個別的投影片時，您會發現每項視覺效果都是獨立的影像 (如前文所述)。 這樣一來，您就可以複製該影像，並將其貼入另一張投影片，或您想要的任何位置。
+當您瀏覽個別的投影片時，您會發現每個報表頁面都是獨立的影像。
+
+>[!NOTE]
+> 每個報表頁面擁有一個視覺效果是新的行為。 先前的行為 (針對每個視覺效果提供獨立的影像) 已不再實作。 
+ 
 
 ![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_6.png)
 
@@ -85,6 +89,7 @@ ms.lasthandoff: 12/06/2017
 * PowerPoint 中的頁面一律會以標準的 9:16 大小建立，而不論 Power BI 報表中的原始頁面大小或維度為何。
 * Power BI 租用戶網域外部使用者擁有的報表 (例如，組織外部某人所擁有並與您共用的報表) 無法發行至 PowerPoint。
 * 如果您與組織外部的某人 (也就是不在您 Power BI 租用戶中的使用者) 共用儀表板，該使用者會無法將與共用儀表板的相關報表匯出至 PowerPoint。 舉例來說，如果您是 aaron@contoso.com，您可以和 david@cohowinery.com 共用。但是 david@cohowinery.com 無發將相關報表匯出至 PowerPoint。
+* 如先前所述，每個報表頁面會匯出為 PowerPoint 檔中的單一影像。 
 
 ## <a name="next-steps"></a>後續步驟
 [使用 Excel 分析](service-analyze-in-excel.md)

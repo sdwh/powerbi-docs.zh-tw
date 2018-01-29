@@ -1,6 +1,6 @@
 ---
 title: "儀表板和報表的使用計量"
-description: "說明如何檢視 Power BI 儀表板和報表的使用計量。 透過內容創作者的使用計量來測量及放大您的影響力。"
+description: "如何檢視、儲存和使用 Power BI 儀表板和報表的使用計量。 透過內容創作者的使用計量來測量及放大您的影響力。"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,39 +16,37 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 04709b76b8e3e464b5384fa2bf137cd79b0749a7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 36a79b6ec984ee663868c5f20efaa8cd5b596d2a
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>儀表板和報表的使用計量
 如果您建立儀表板和報表，使用計量可協助您了解其影響。 當您執行儀表板使用計量或報表使用計量時，您可以探索這些儀表板和報表在整個組織內的使用方式、使用內容、使用者及用途。  
 
 > [!NOTE]
 > 使用計量會追蹤內嵌在 SharePoint Online 的報表使用情況。 它們也會透過「使用者擁有認證」和「應用程式擁有認證」兩個工作流程來追蹤儀表板和報表的內嵌。 使用計量不會追蹤透過[發行至 Web](service-publish-to-web.md) 內嵌的報表使用情況。
-> 
-> 
 
 這些使用計量報表是唯讀的。 不過，您可以使用 [另存新檔] 來個人化使用計量報表。 這會建立全新的資料集，並將唯讀報表轉換成可供編輯的全功能 Power BI 報表。 個人化報表可以包含所選儀表板或報表的計量，此外藉由移除預設篩選，您現在可以存取所選工作區中所有儀表板的使用計量。
 
 ![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ## <a name="why-are-usage-metrics-important-to-me"></a>使用計量為何對我至關重要？
- 了解您內容的使用方法，可協助您展示您的影響力及優先處理方向。 使用計量可能顯示組織的大型部門每天都使用您的某份報表，也可能會顯示您建立的儀表板完全無人檢視。 這種類型的意見反應對指引工作投入方向毫無價值。
+了解您內容的使用方法，可協助您展示您的影響力及優先處理方向。 使用計量可能顯示組織的大型部門每天都使用您的某份報表，也可能會顯示您建立的儀表板完全無人檢視。 這種類型的意見反應對指引工作投入方向毫無價值。
 
 您只能在 Power BI 服務中執行使用計量報表。  不過，如果您儲存使用計量報表或將其釘選到儀表板，您將能夠在行動裝置上開啟該報表並與其互動。
 
-> **注意**︰使用計量功能會擷取所有使用者 (包括免費和 Pro) 的使用量資訊。 不過，需要有 Pro 授權才能執行及存取使用計量資料。
-> 
-> 
+### <a name="prerequisites"></a>先決條件
+- 使用計量功能會擷取所有使用者 (包括免費和 Pro) 的使用量資訊。 不過，需要有 Pro 授權才能執行及存取使用計量資料。
+- 提供所選工作區中儀表板或報表的使用計量。 若要存取特定儀表板或報表的使用計量，您必須：    
+    • 具有該儀表板或報表的編輯權限   
+    • 具有 Pro 授權
 
 ## <a name="about-the-usage-metrics-report"></a>關於使用計量報表
-提供所選工作區中儀表板或報表的使用計量。 若要存取特定儀表板或報表的使用計量資料，您必須：    
-•    具有該儀表板或報表的編輯權限   
-•    具有 Pro 授權
+
 
 當您選取 [使用計量] 或圖示 ![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) 時，Power BI 會產生預先建立的報表，顯示過去 90 天的使用計量內容。  報表看起來類似您熟悉的 Power BI 報表，但它的設計為參考性而非互動性。 不論終端使用者是透過 Web 應用程式或行動裝置應用程式等進行存取，您將能夠依據其收到存取權的方式進行分割。隨著您的儀表板和報表的進展，使用計量報表也會進展，每天都會更新資料。  
 
@@ -68,8 +66,9 @@ ms.lasthandoff: 01/05/2018
     ![](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
 4. 若要開啟結果，請選取 [檢視使用計量]。
    
-    使用計量將會是您部署及維護 Power BI 儀表板和報表的強大幫手。 想知道報表的哪些頁面最有用，哪些頁面應該逐漸淘汰嗎？ 請依報表頁面分割來了解。想知道您是否應該為儀表板建立行動配置嗎？ 使用計量報表將讓您知道有多少使用者正在透過行動置應用程式或網頁瀏覽器存取您的內容。
-5. 您也可以選擇將視覺效果釘選到儀表板，以更輕鬆地監視這些視覺效果或與他人共用。
+    使用計量將會是您部署及維護 Power BI 儀表板和報表的強大幫手。 想知道報表的哪些頁面最有用，哪些頁面應該逐漸淘汰嗎？ 請依 [報表頁面] 分割來了解。想知道您是否應該為儀表板建立行動配置嗎？ 依 [平台] 分割以發現有多少使用者正在透過行動置應用程式或網頁瀏覽器存取您的內容。
+
+5. (選擇性) 將滑鼠暫留在視覺效果上，然後選取釘選圖示，以將視覺效果新增至儀表板。 或者，從頂端的功能表列選取 [動態釘選頁面] 將整個頁面新增至儀表板。 從儀表板，您可以更輕鬆地監視使用計量，或與他人共用。
    
    > **注意**：如果您將使用計量報表中的磚釘選到儀表板，該儀表板即無法新增至應用程式或內容套件。
    > 
@@ -101,7 +100,10 @@ ms.lasthandoff: 01/05/2018
 ![](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
 ## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>將使用計量報表儲存為全功能的 Power BI 報表 (個人化)
-使用 [另存新檔] 將使用計量報表轉換成可以自訂和共用的全功能 Power BI 報表。 一旦您建立個人化複本，您將取得基礎資料集的完整存取權，如此可讓您完整自訂使用計量報表，以符合您的特定需求。 您甚至可以使用 Power BI Desktop，透過[即時連線到 Power BI 服務功能](https://powerbi.microsoft.com/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop)，來建立自訂使用計量報表。
+
+![](media/service-usage-metrics/power-bi-save-as.png)
+
+使用 [另存新檔] 將使用計量報表轉換成可以自訂和共用的全功能 Power BI 報表。 一旦您建立個人化複本，您將取得基礎資料集的完整存取權，如此可讓您自訂使用計量報表，以符合您的特定需求。 您甚至可以使用 Power BI Desktop，透過[即時連線到 Power BI 服務功能](https://powerbi.microsoft.com/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop)，來建立自訂使用計量報表。
 
 更棒的是，基礎資料集包含工作區中所有儀表板或報表的使用量詳細資料。 這會開啟更多可能性。 例如，您可以建立根據使用量來比較工作區中所有儀表板的報表。 您也可以將分散在 Power BI 應用程式中的所有內容使用量進行彙總，為該應用程式建立使用計量儀表板。  請參閱下面的[移除頁面層級篩選](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace)。
 
@@ -109,26 +111,23 @@ ms.lasthandoff: 01/05/2018
 當 Power BI 建立全功能報表時，也會建立**由目前工作區所包含之過去 90 天內存取之所有儀表板或所有報表組成的**新資料集。 例如，假設您具有名為「銷售量」的工作區，其中包含三個儀表板和兩個報表，而且您建立了「東北」儀表板的使用計量報表。 然後您使用 [另存新檔] 將其個人化並轉換成全功能報表。 新報表的資料集不僅包含「名為「東北」之儀表板」的使用計量，也包含「銷售量」工作區中所有三個儀表板的使用計量。 根據預設，此報表會顯示「東北」儀表板的資料，您需要[移除篩選](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace) (按一下) 才能顯示所有三個儀表板的資料。
 
 ### <a name="create-a-copy-of-the-usage-report-using-save-as"></a>使用 [另存新檔] 建立使用量報表的複本
-當您使用 [另存新檔]\(個人化) 建立複本時，Power BI 會將預先建立的唯讀報表轉換成全功能報表。  乍看之下完全相同。 不過，您現在可以在 [編輯檢視] 中開啟報表；新增視覺效果、篩選和頁面；修改或刪除現有的視覺效果；以及執行其他更多工作。 Power BI 也會建立全新的資料集，其中包含該工作區中所有儀表板或所有報表的使用計量。
+當您使用 [另存新檔]\(個人化) 建立複本時，Power BI 會將預先建立的唯讀報表轉換成全功能報表。  乍看之下完全相同。 不過，您現在可以在 [編輯檢視] 中開啟報表；新增視覺效果、篩選和頁面；修改或刪除現有的視覺效果；以及執行其他更多工作。 Power BI 會將全新的報表和資料集儲存在目前的工作區中。 在下列範例中，目前的工作區是 **mihart**。
 
-> **提示**：若要允許 Power BI 存取工作區中所有儀表板或所有報表的使用計量，請[移除頁面層級篩選](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace)。
-> 
-> 
 
-1. 從預先建立的使用計量報表，選取 [檔案] > [另存新檔]。 Power BI 將使用計量報表轉換為全功能的 Power BI 報表。 這稱為「個人化」使用計量報表。
+1. 從預先建立的使用計量報表，選取 [檔案] > [另存新檔]。 Power BI 將使用計量報表轉換為全功能的 Power BI 報表。 這稱為「個人化」使用計量報表。 個人化的使用報表和資料集儲存在目前的工作區 (名為 **mihart*)。
    
     ![](media/service-usage-metrics/power-bi-save-as.png)
 2. 在 [編輯] 檢視中開啟報表，並[同和任何其他 Power BI 報表互動一樣與該報表互動](service-interact-with-a-report-in-editing-view.md)。 例如，新增新的頁面和建置新的視覺效果、新增篩選、格式化字型和色彩等等。
    
     ![](media/service-usage-metrics/power-vi-editing-view.png)
-3. 或者，開啟新的資料集，並從頭開始建立報表。
+3. 或者，從新的資料集開始，並從頭開始建立報表。
    
     ![](media/service-usage-metrics/power-bi-new-dataset.png)
-4. 新的報表儲存在目前的工作區，而且也會新增至 [最近] 內容清單。
+4. 新的報表儲存在目前的工作區 (mihart)，而且也會新增至 [最近] 內容清單。
    
     ![](media/service-usage-metrics/power-bi-new-report.png)
 
-### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>移除篩選以查看工作區中的所有使用計量資料
+### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>移除篩選以查看工作區中的「所有」使用計量資料
 若要查看工作區中所有儀表板或所有報表的計量，您必須移除篩選。 根據預設，個人化報表會經過篩選，只顯示儀表板或用來建立該儀表板之報表的計量。
 
 例如，您可以使用名為「歐洲銷售量」的儀表板來建立這個新的個人化報表，只顯示「歐洲銷售量」儀表板的使用量資料。 若要移除篩選，並啟用該工作區中所有儀表板的資料：

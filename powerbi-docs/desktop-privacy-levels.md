@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 733e24f44c63b8887c3c8b00999f7cea22581a86
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 743f9dc0a96c2816693695f4ca2878aba09873df
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop 隱私權等級
 在 **Power BI Desktop** 中，隱私權等級會指定某個資料來源與其他資料來源隔離程度的隔離等級。 雖然嚴格的隔離等級能夠阻擋資料來源交換資訊，卻可能會降低功能並影響效能。
@@ -69,6 +69,10 @@ ms.lasthandoff: 11/15/2017
 
 > **安全性注意事項：**在 [隱私權等級] 對話方塊中選取 [忽略隱私權等級可能會改善效能] 以啟用 [隱私權等級]，可能會將敏感或機密資料暴露給未經授權的人員。 除非確定資料來源不包含敏感或機密資料，否則請勿啟用 [隱私權等級]。
 > 
+> 
+
+> [!CAUTION]
+> [忽略隱私權等級可能會改善效能] 不適用於 Power BI 服務。 因此，啟用此設定的 Power BI Desktop 報表 (會發行到 Power BI 服務) 「不會」在服務中使用時反映此行為。
 > 
 
 **設定隱私權等級**

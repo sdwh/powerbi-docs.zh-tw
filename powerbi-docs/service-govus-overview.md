@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/23/2018
 ms.author: davidi
-ms.openlocfilehash: 78bac79fc440f0a4efe19947ca7a6e9c53866b0a
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 2832849d887795c2af0750f01e929045f75c12fe
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 **Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本專為美國政府客戶而設計，並且獨立且不同於商用版本的 **Power BI 服務**。
@@ -45,11 +45,24 @@ ms.lasthandoff: 12/06/2017
 * Power BI 的所有資料在 Azure SQL 和 Blob 儲存體中都已加密
 * 使用[內容套件](service-connect-to-services.md)連接至服務
 
+## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>政府和公用 Azure 雲端服務之間的連線 
+
+Azure 分散於多個雲端。 根據預設，會允許租用戶以開啟對雲端特定執行個體的防火牆規則，但跨雲端網路不同，且需要開啟特定的防火牆規則，以便在服務之間通訊。 如果您是 Power BI 客戶，而且在公用雲端中有需要存取的現有 SQL 執行個體，您必須在 SQL 中開啟對 Azure 政府雲端 IP 空間的特定防火牆規則，針對下列資料中心：
+
+* USGov 愛荷華
+* USGov 維吉尼亞
+* USGov 德州
+* USGov 亞歷桑那
+
+公用雲端中的 IP 空間可供使用，但對於政府雲端，您必須開啟 Azure 支援票證以要求上述所列資料中心的 IP 範圍。 
+
+
 ## <a name="limitations-of-power-bi-us-government"></a>適用於美國政府的 Power BI 限制
 **Power BI 服務**商用版本中可用的部分功能「不」可用於美國政府客戶的 **Power BI 服務**。 Power BI 小組積極地將這些功能提供給美國政府客戶，並且會在這些功能可用時更新本文。
 
 * **Power BI 美國政府**只能作為 Pro 授權。 在系統管理入口網站中進行的任何 Power BI (免費) 授權參考 (或使用者身分) 都是在商用 Power BI 服務雲端中執行。
 * **稽核** - 稽核不會在 Office 365 安全性和合規性的入口網站進行。
+* **Cortana 中的 Power BI 內容** - Power BI 結果不會顯示在 Cortana 搜尋結果中，其中包括適用於您的 Power BI 內容 (儀表板、報表、應用程式) 的結果，以及顯示特定關鍵字之 Cortana 最佳化報表頁面的結果。
 
 如果您已將 **Power BI** 免費授權指派給您的帳戶，則這些帳戶會在 **Power BI** 服務的商用版本中執行，而不是 **Power BI 美國政府**供應項目的一部分。 針對這些免費帳戶，您可能會遇到下列問題︰
 

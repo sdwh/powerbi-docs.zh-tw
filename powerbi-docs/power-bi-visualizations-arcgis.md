@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 797b22ed6f07e64d7e4970f8f0dfe5e93a7c0ec4
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>在 Power BI 中與 ArcGIS 地圖互動
 本主題是從在 Power BI 服務、Power BI Desktop 或 Power BI Mobile 中「取用」ArcGIS 地圖的人員觀點來撰寫。 一旦建立者與您共用 ArcGIS 地圖，可利用許多方法與該地圖互動。  若要深入了解如何建立 ArcGIS 地圖，請參閱[由 Esri 提供的 ArcGIS 地圖教學課程](power-bi-visualization-arcgis.md)。
@@ -31,7 +31,6 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 
 > [!TIP]
 > GIS 是 Geographic Information Science (地理資訊科學) 的縮寫。
-> 
 > 
 
 我們所使用的範例是[由 ESRI 提供的 ArcGIS 地圖教學課程](power-bi-visualization-arcgis.md)中所建立的相同 ArcGIS 地圖。 它會依鄉/鎮/市/區查看去年銷售量，使用街道基礎地圖、泡泡符號來表示大小，並使用平均家庭收入的參考圖層。 此地圖包含 3 個圖釘及一個行車時間半徑範圍 (以紫色顯示)。
@@ -99,7 +98,7 @@ ArcGIS Maps for Power BI 可在下列服務和應用程式中使用：
 <td>是</td>
 </tr>
 <tr>
-<td>Power BI 服務 (PowerBI.com)</td>
+<td>Power BI 服務 (app.powerbi.com)</td>
 <td>是</td>
 </tr>
 <tr>

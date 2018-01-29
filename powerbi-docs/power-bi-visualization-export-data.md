@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+ms.openlocfilehash: 8567326cb685a03fd1af618aad5310234677ab6d
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-data-from-visualizations"></a>從視覺效果匯出資料
 如果您想要查看用來建立視覺效果的資料，可以[在 Power BI 中顯示該資料](service-reports-show-data.md)或將資料匯出至 Excel 成為 .xlsx 或 .csv 檔案。   
@@ -74,8 +74,7 @@ ms.lasthandoff: 01/11/2018
    
    >[!WARNING]
    >匯出基礎資料可讓使用者查看所有詳細資料 -- 資料中的每個資料行。 Power BI 服務系統管理員可以替組織關閉這項功能。 如果您是資料集擁有者，您可以將專屬資料行設定為 [隱藏]，它們就不會顯示在 Desktop 或 Power BI 服務的 [欄位] 清單中。
-   > 
-   > 
+   
    
    **基礎資料**︰如果您的視覺效果具有彙總，而且您想要查看所有基礎詳細資料，請選取此選項。 基本上，選取 [基礎資料] 會移除彙總。 當您選取 [匯出] 時，資料會匯出到 .xlsx 檔案，且您的瀏覽器會提示您儲存檔案。 儲存之後，請在 Excel 中開啟檔案。
    
@@ -85,7 +84,9 @@ ms.lasthandoff: 01/11/2018
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 * 可從 **Power BI Desktop** 和 **Power BI 服務**匯出至 .csv 的資料列數上限為 30,000。
-* Pro 和免費使用者在 **Power BI 服務**中可以匯出到 .xlsx 的資料列數上限分別為 150,000 和 30,000。
+* 可匯出至 .xlsx 的資料列數上限為 150,000。
+* 使用「基礎資料」匯出將無法運作，如果資料來源是 Analysis Services 即時連線，而版本早於 2016 且模型中的資料表沒有唯一的索引鍵。  
+* 使用「基礎資料」匯出將無法運作，如果已針對匯出中的視覺效果啟用「顯示沒有資料的項目」選項。
 * 使用 DirectQuery 時，可匯出的最大資料量為 16 MB。 這可能會導致匯出的資料列數小於上限，特別是如果有許多資料行、有難以壓縮的資料，以及有導致增加檔案大小並減少所匯出資料列數的其他因素。
 * Power BI 僅在使用基本彙總的視覺效果中支援匯出。 使用模型或報表量值的視覺效果無法進行匯出。
 * 目前不支援自訂視覺效果和 R 視覺效果。

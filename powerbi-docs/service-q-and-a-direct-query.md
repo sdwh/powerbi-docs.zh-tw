@@ -1,5 +1,5 @@
 ---
-title: "透過即時連線來使用問與答)"
+title: "透過即時連線來使用問與答"
 description: "有關透過 Analysis Services 資料的即時連線和內部部署資料閘道來使用 Power BI 問與答自然語言查詢的文件。"
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 453a2a9dd4ea5e41d404d3e81cebbff7c35f1b6c
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>啟用即時連線的問與答
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>什麼是內部部署資料閘道？  什麼是即時連線？
@@ -39,7 +39,7 @@ Power BI 中的資料集可匯入 Power BI，或者您可以建立與資料集�
 如需詳細資訊，請參閱：
 
 * 什麼是[內部部署資料閘道](service-gateway-onprem.md)？
-* [Power BI 問與答簡介](service-q-and-a.md)
+* [Power BI 問與答簡介](power-bi-q-and-a.md)
 
 ## <a name="enable-qa"></a>啟用問與答
 設定資料閘道之後，從 Power BI 連線到您的資料。  您可以使用內部部署資料建立儀表板，或上傳使用內部部署資料的 .pbix 檔案。  您也可能在與您共用的儀表板、報表和資料集中已有內部部署資料。
@@ -55,22 +55,20 @@ Power BI 中的資料集可匯入 Power BI，或者您可以建立與資料集�
     ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>會快取哪些資料，以及如何保護隱私權？
-當您啟用內部部署資料的問與答時，會快取服務中的資料子集。 這樣做是為了確保問與答的執行效能最理想。 我們會從快取中排除長度超過 24 個字元的值。 當您取消核取 \[Turn on Q&A for this dataset] \(在此資料集開啟問與答) 來停用問與答或在刪除資料集時，快取會在幾小時內刪除。
+當您啟用內部部署資料的問與答時，會快取服務中的資料子集。 這樣做是為了確保問與答的執行效能最理想。 Power BI 會從快取中排除長度超過 24 個字元的值。 當您取消核取 \[Turn on Q&A for this dataset] \(在此資料集開啟問與答) 來停用問與答或在刪除資料集時，快取會在幾小時內刪除。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 此功能的預覽階段期間有幾項限制︰
 
-* 一開始，此功能僅適用於 SQL Server 2016 Analysis Services 表格式資料來源。 此功能已最佳化，現在可使用表格式資料。 某些功能適用於多維度資料來源，但多維度尚未支援完整的問與答體驗。 內部部署資料閘道支援的其他資料來源將於公開預覽期間推出。
+* 一開始，此功能僅適用於 SQL Server 2016 Analysis Services 表格式資料來源。 此功能已最佳化，現在可使用表格式資料。 某些功能適用於多維度資料來源，但多維度尚未支援完整的問與答體驗。 內部部署資料閘道支援的其他資料來源將隨著時間推出。
 * 公開預覽一開始並未完整支援 SQL Server Analysis Services 中定義的資料列層級安全性。 在問與答中詢問問題時，輸入問題後的「自動完成」功能可顯示使用者無權存取的字串值。 不過，報表和圖表視覺效果會使用模型中定義的 RLS，因此不會公開任何基礎數值資料。 未來更新將會發行控制此行為的選項。
 * 只有內部部署資料閘道支援即時連線。 因此，這無法用於個人閘道器。
 
 ## <a name="next-steps"></a>後續步驟
 [內部部署資料閘道](service-gateway-onprem.md)  
 [管理您的資料來源─Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Power BI 深入資訊摘要](service-insights.md)  
-[針對 Power BI 深入資訊摘要將資料最佳化](service-insights-optimize.md)  
 [Power BI - 基本概念](service-basic-concepts.md)  
-[Power BI 中的儀表板](service-dashboards.md)  
+[Power BI 問與答概觀](power-bi-q-and-a.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

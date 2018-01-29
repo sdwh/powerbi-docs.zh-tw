@@ -1,5 +1,5 @@
 ---
-title: "建立 Power BI 問與答的精選問題"
+title: "如何建立 Power BI 問與答的精選問題"
 description: "說明如何建立 Power BI 問與答的精選問題"
 services: powerbi
 documentationcenter: 
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: e6a83796afe6afab02ec463d3dd2074d1fdc529a
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>建立 Power BI 問與答的精選問題
-如果您擁有自己的資料集，則可將自己的精選問題新增至該資料集。  接著，Power BI 問與答會向使用您資料集的同事顯示這些問題。  精選問題可讓您的同事有些概念，知道要針對資料集詢問哪類問題。 您可自行決定要新增什麼精選問題 -- 新增熱門問題、會顯示有趣結果的問題，或難以簡短說明的問題。
+如果您擁有自己的資料集，則可將自己的精選問題新增至該資料集。  接著，Power BI 問與答會向使用 (取用) 您資料集的同事顯示這些問題。  精選問題可讓您的同事有些概念，知道要針對資料集詢問哪類問題。 您可自行決定要新增什麼精選問題 -- 新增熱門問題、會顯示有趣結果的問題，或難以簡短說明的問題。
 
 觀賞 Will 如何將一些精選問題加入 Power BI 問與答，並接著使用這些精選問題來探索其資料集。 然後遵循影片下方的逐步指示親自試試看。
 
@@ -33,7 +33,6 @@ ms.lasthandoff: 01/03/2018
 
 > [!NOTE]
 > 問與答精選問題可使用於 [iPad、iPhone 及 iPod Touch 裝置上適用於 iOS 的 Microsoft Power BI 應用程式](mobile-apps-ios-qna.md)和 Power BI Desktop 問與答預覽。 但建立問題僅適用於 Power BI 服務 (app.powerbi.com)。
-> 
 > 
 
 本文使用[零售分析銷售範例](sample-datasets.md)。
@@ -54,7 +53,7 @@ ms.lasthandoff: 01/03/2018
    ![](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>後續步驟
-[Power BI 中的問與答](service-q-and-a.md)  
+[Power BI 中的問與答](power-bi-q-and-a.md)  
 [教學課程：Power BI 問與答簡介](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI - 基本概念](service-basic-concepts.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

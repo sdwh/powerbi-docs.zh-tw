@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/12/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 955435ee526c6acae8f478539641529515e2e0a8
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 90449f79da8aed3d992b9ac8bf83ac2ac4c0f83c
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>讓自訂視覺效果*經認證*
 ## <a name="what-is-meant-by-certified"></a>*經認證*是什麼意思？
@@ -89,12 +89,12 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [Enhanced scatter](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) (增強的散佈圖) | |
 | [Enlighten Aquarium](https://appsource.microsoft.com/product/power-bi-visuals/WA104381112?src=office&tab=Overview) (Enlighten 水族箱) | |
 | [Enlighten Bubble stack](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380868) (Enlighten 泡泡堆疊圖) | |
+| [Enlighten Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960?tab=Overview) (Enlighten 交叉分析篩選器) | |
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) (Enlighten 隨機顯示堆疊圖) | |
 | [Enlighten waffle chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) (Enlighten 方格比例圖) | |
 | [Enlighten World Flags](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380923) (Enlighten 世界旗幟) | |
-| [Flywheel]() | |
 | [Forecasting TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326?src=office) (預測 TBATS) | |
-| [甘特圖](https://store.office.com/gantt-WA104380765.aspx) |[影片](https://youtu.be/qJ7s_KrGiUU) |
+| [漏斗與來源]() | || [甘特圖](https://store.office.com/gantt-WA104380765.aspx) |[影片](https://youtu.be/qJ7s_KrGiUU) |
 | [Hierarachy chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333?src=office) (Akvelon 階層圖) | |
 | [長條圖](https://store.office.com/histogram-chart-WA104380776.aspx) | |
 | [水平漏斗圖](https://appsource.microsoft.com/product/power-bi-visuals/WA104380846) |[影片](https://youtu.be/SudZei68PPo) |
@@ -125,7 +125,6 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [龍捲風圖](https://store.office.com/tornado-chart-WA104380768.aspx) |[影片](https://youtu.be/AQvd2FhRyCI) |
 | [Ultimate Variance chart by Klaus Birringer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140?src=office) (Klaus Birringer 終極差異正負長條圖) | |
 | [Ultimate Waterfall free](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380956) (免費的終極瀑布圖) | |
-| [Venn Diagram by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381231) (MAQ Software 文氏圖) | |
 | [VitaraCharts - MicroChart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381165) | |
 | [Waffle chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049?src=office&tab=Overview) (Waffle 圖表) |[影片](https://youtu.be/1vRqYUsm3Vk) |
 | [Word 雲端](https://store.office.com/word-cloud-WA104380752.aspx?) |[影片](https://www.youtube.com/watch?v=AblTenl9fqo) |

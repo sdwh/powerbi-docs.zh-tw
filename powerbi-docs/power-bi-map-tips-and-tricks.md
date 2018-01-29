@@ -16,18 +16,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 5ab075ede78ad5c08858878d6652e9b102a87fca
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 553e3c417f79d6d1c5a45737ad370d74f72177ca
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 視覺效果的秘訣和訣竅
-Power BI 與 Bing 地圖服務整合以提供預設地圖座標 (這個程序稱為地理編碼)，以便您建立地圖。 這兩者使用演算法來識別正確位置，但有時會猜測最接近的位置。 如果 Power BI 無法自行建立地圖視覺效果，則會請求 Bing 地圖服務協助。  
+Power BI 與 Bing 地圖服務整合以提供預設地圖座標 (這個程序稱為地理編碼)，以便您建立地圖。 這兩者使用演算法來識別正確位置，但有時會猜測最接近的位置。 如果 Power BI 無法自行建立地圖視覺效果，則會請求 Bing 地圖服務協助。 
 
-若要提高正確地理編碼的可能性，請使用下列祕訣。 第一組祕訣是讓您在可以存取資料集本身時使用。 而第二組秘訣則是您在無法存取資料集時，可以在 Power BI 中執行的作業。
+您或您的系統管理員可能需要更新防火牆，以允許存取 Bing 用以進行地理編碼的 URL。  這些 URL 是：
+* https://dev.virtualearth.net/REST/V1/Locations
+* https://platform.bing.com/geo/spatial/v1/public/Geodata
+* https://www.bing.com/api/maps/mapcontrol
+
+若要提高正確地理編碼的可能性，請使用下列祕訣。 第一組祕訣是讓您在可以存取資料集本身時使用。 第二組祕訣則是您在無法存取資料集時，可以在 Power BI 中執行的作業。 最後一組是 URL 的清單
 
 ## <a name="what-is-sent-to-bing-maps"></a>傳送至 Bing 地圖服務的項目
 Power BI 服務和 Power BI Desktop 會將 Bing 建立地圖視覺效果所需的地理資料傳送至 Bing。 這可能包括 [位置]、[緯度] 和 [經度] 貯體中的資料，以及 [報告層級]、[頁面層級] 或 [視覺效果層級] 的任何篩選貯體中的地理欄位。 傳送的確切資料依地圖類型而異。 若要深入了解，請參閱 [Bing 地圖服務隱私權](https://go.microsoft.com/fwlink/?LinkID=248686)。

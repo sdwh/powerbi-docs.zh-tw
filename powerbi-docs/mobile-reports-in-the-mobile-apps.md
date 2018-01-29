@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/23/2018
 ms.author: maggies
-ms.openlocfilehash: 3515a57f88db1c8a7b12706680c0aade8b2cdbfa
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -50,7 +50,7 @@ Power BI 報表會根據您取得的位置，儲存在行動裝置應用程式�
   ![以橫向模式顯示的手機報表](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>檢視為手機最佳化的報表
-Power BI 報表作者可以建立專為手機最佳化的報表版面配置。 在報表清單中，最佳化的報表會有特殊圖示 ![手機報表圖示](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)：
+Power BI 報表作者可以建立專為手機最佳化的報表版面配置。 針對手機最佳化的報表頁面已新增功能：例如，您可以向下鑽研，並在焦點模式中排序視覺效果，且可以存取[報表作者新增至報表頁面的篩選條件](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)。 在報表清單中，最佳化的報表會有特殊圖示 ![手機報表圖示](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)：
 
 ![開啟手機報表](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -58,7 +58,7 @@ Power BI 報表作者可以建立專為手機最佳化的報表版面配置。 �
 
 ![以直向檢視顯示的報表](media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
 
-報表可能會有為手機最佳化與未最佳化的混合頁面。 如果是這種情況，當您翻閱報表時，檢視會針對每一頁從直向切換為橫向。
+ 報表可能會有為手機最佳化與未最佳化的混合頁面。 如果是這種情況，當您翻閱報表時，檢視會針對每一頁從直向切換為橫向。
 
 深入了解[為手機檢視最佳化的報表](mobile-apps-view-phone-report.md)。
 

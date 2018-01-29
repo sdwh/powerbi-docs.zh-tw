@@ -1,5 +1,5 @@
 ---
-title: "Power BI 中的星形量測計圖表 (教學課程)"
+title: "教學課程 - Power BI 中的星形量測計圖表"
 description: "教學課程：Power BI 中的星形量測計圖表"
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7299b95cb3dd1fab4edce1764c69e1b2657ef547
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 354bfc01231f0f11aabd533bf29f987dec7c9771
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Power BI 中的星形量測計圖表 (教學課程)
 星形量測計圖表具有圓弧線段，並且會顯示針對某一目標/KPI 測量進度的單一值。  目標或目標值是由線條 (指針) 表示。 達到該目標的進度是由陰影表示。  代表該進度的值會以粗體顯示在弧線內。所有可能的值會從最小 (最左邊的值) 到最大 (最右邊的值) 平均分散在弧線上。
@@ -39,17 +39,25 @@ ms.lasthandoff: 11/15/2017
 * 顯示單一量值的健全狀況。
 * 顯示可快速掃描和了解的資訊。
 
+### <a name="prerequisites"></a>先決條件
+ - Power BI 服務或 Power BI Desktop
+ - 財務範例 Excel 活頁簿：[直接下載範例](http://go.microsoft.com/fwlink/?LinkID=521962)。
+
 ## <a name="create-a-basic-radial-gauge"></a>建立基本的星形量測計
-這些指示使用財務範例。 如果要跟著做，請[下載範例](http://go.microsoft.com/fwlink/?LinkID=521962)到您的電腦、登入 Power BI 並選取 **取得資料\>檔案\>本機檔案] > [開啟**。 
+這些指示使用 Power BI 服務。 若要跟著做，請登入 Power BI 並開啟 Excel 財務範例檔案。  
 
 或觀看 Will 說明如何建立單一計量的視覺效果︰量測計、卡片及 KPI。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>步驟 1：開啟財務範例 Excel 檔案。
-1. [下載範例財務 Excel 檔案](sample-financial-download.md)。
-2. 選取 **取得資料\>檔案** 並瀏覽至您儲存檔案的位置，在 Power BI 中開啟檔案。 選取 [匯入]。 財務範例隨即加入工作區成為資料集。
-3. 選取 [財務範例]  ，在瀏覽模式中加以開啟。
+### <a name="step-1-open-the-financial-sample-excel-file"></a>步驟 1：開啟財務範例 Excel 檔案
+1. 如果尚未這麼做，請[下載範例財務 Excel 檔案](sample-financial-download.md)。 請記住您儲存的位置。
+
+2. 選取 [取得資料] \> [檔案] 並瀏覽至您儲存檔案的位置，在 [Power BI 服務] 中開啟檔案。 選取 [匯入]。 財務範例隨即加入工作區成為資料集。
+
+3. 從 [資料集] 內容清單，選取 [財務範例]，在瀏覽模式中加以開啟。
+
+    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>步驟 2：建立追蹤總銷售額的量測計
 1. 在 [欄位]  窗格中，選取 [總銷售額] 。

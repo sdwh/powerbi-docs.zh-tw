@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 08b01048823d928d5c07fd4ad86764bc13921a31
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2c15cf503a7c66a3b89e45cc338ee5174e5f24e7
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Power BI 中的區域分布圖 (分級著色圖) (教學課程)
 區域分布圖使用陰影、濃淡或圖樣，顯示值的比例如何隨著地理位置或地區而有所不同。  可使用範圍介於淺色 (較不常見/較低) 到深色 (較常見/較多) 的陰影，快速顯示這些相對差異。    
@@ -31,6 +31,11 @@ ms.lasthandoff: 11/13/2017
 
 ## <a name="what-is-sent-to-bing"></a>傳送至 Bing 的項目
 Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編碼)。 當您在 Power BI 服務或 Power BI Desktop 中建立地圖視覺效果時，[位置]、[緯度] 和 [經度] 貯體中的資料 (用來建立該視覺效果) 會傳送至 Bing。
+
+您或您的系統管理員可能需要更新防火牆，以允許存取 Bing 用以進行地理編碼的 URL。  這些 URL 是：
+* https://dev.virtualearth.net/REST/V1/Locations
+* https://platform.bing.com/geo/spatial/v1/public/Geodata
+* https://www.bing.com/api/maps/mapcontrol
 
 如需有關傳送至 Bing 之資料的詳細資訊，以及提升地理編碼成功率的祕訣，請參閱[地圖視覺效果的祕訣和訣竅](power-bi-map-tips-and-tricks.md)。
 

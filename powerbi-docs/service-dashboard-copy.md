@@ -1,6 +1,6 @@
 ---
 title: "建立 Power BI 儀表板複本"
-description: "複製 Power BI 儀表板 "
+description: "如何複製 Power BI 儀表板 "
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,20 +16,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/26/2017
+ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: c8d44c7b0f65ad9a7bef0824c0f1bb7494eaff88
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6527006095e6d716687477e7408a980ee765fb5a
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
-# <a name="create-a-copy-of-a-power-bi-dashboard"></a>建立 Power BI 儀表板複本
+# <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>在 Power BI 服務中建立儀表板的複本
 ![](media/service-dashboard-copy/power-bi-dashboard.png)
 
-有許多不同的原因會建立您自己的儀表板複本。 複本會儲存到使用中 (相同) 的工作區。 您可能想要進行變更，並測試其與原始版本的效能；或建立要依同事、地區或小組散發的略為不同的版本。 同事可能欣賞您的儀表板設計，並且想要使用它向經理報告。 另一個原因是您的新資料庫具有相同的資料結構和資料類型，而且想要重複使用您已建立的儀表板，這也一樣可以完成，但在 Power BI Desktop 中需要執行一些工作。 
+ 有許多不同的原因會建立儀表板複本。 您可能想要進行變更，並測試其與原始版本的效能；或建立要依同事、地區或小組散發的略為不同的版本。 同事可能欣賞您的儀表板設計，並且想要使用它向經理報告。 另一個原因是您的新資料庫具有相同的資料結構和資料類型，而且想要重複使用您已建立的儀表板，這也一樣可以完成，但在 Power BI Desktop 中需要執行一些工作。 
 
-已與您共用為應用程式的儀表板不能重複。
+儀表板是使用 Power BI 服務來建立 (和複製)，並且可以在 Power BI 行動版和 Power BI Embedded 中檢視。  在 Power BI Desktop 中無法使用儀表板。 
+
+若要建立儀表板的複本，您必須是儀表板「建立者」。 已與您共用為應用程式的儀表板不能重複。
 
 1. 開啟儀表板。
 2. 在右上角選取省略符號 (...)，然後選擇 [複製儀表板]。
@@ -42,8 +44,16 @@ ms.lasthandoff: 11/13/2017
    
    ![](media/service-dashboard-copy/power-bi-copied.png)
 
+5.    開啟新的儀表板，並視需要加以編輯。 以下是接下來您可能想要進行的一些事：    
+    a. [移動、重新命名、調整大小或甚至刪除磚](service-dashboard-edit-tile.md)。  
+    b. 選取磚省略符號 (...) 然後選擇 [編輯詳細資料]，以編輯磚詳細資料和超連結。  
+    c. [從儀表板功能表列新增磚](service-dashboard-add-widget.md) (**新增磚**)  
+    d. [從問與答](service-dashboard-pin-tile-from-q-and-a.md)或[從報表](service-dashboard-pin-tile-from-report.md)釘選新的磚。  
+    e. 重新命名儀表板、開啟或關閉問與答，並從儀表板的 [設定] 窗格設定磚流程。  (選取儀表板省略符號 (...) 下拉式清單，並選擇 [設定])  
+    f. 直接與同事共用儀表板，或作為 Power BI 應用程式的一部分。 
+
+
 ## <a name="next-steps"></a>後續步驟
-* [編輯、調整大小和移動磚](service-dashboard-edit-tile.md) 
 * [設計絕佳儀表板的秘訣](service-dashboards-design-tips.md) 
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

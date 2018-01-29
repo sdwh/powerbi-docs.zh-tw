@@ -15,24 +15,54 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI 的銷售與行銷範例：導覽
+
+## <a name="overview-of-the-sales-and-marketing-sample"></a>銷售與行銷範例概觀
 **銷售與行銷範例** 包含一家名為 VanArsdel Ltd 的虛構製造公司的儀表板和報表。此儀表板由 VanArsdel 行銷長 (CMO) 所建立，可查看業界及其公司的市場佔有率、產品量、銷售額及人氣。
 
 VanArsdel 有許多競爭對手但仍是該產業的市場領導者。 CMO 想要提高市場佔有率和探索成長的商機。 但是基於某些原因，VanArsdel 的市場佔有率在 6 月份已開始大幅滑落 。
 
 此範例是系列中的一部分，該系列說明您可如何使用 Power BI 的商業導向資料、報表及儀表板。 此為來自 obviEnce 的匿名真實資料 (www.obvience.com)。
 
-[!Note] 您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529785). 活頁簿包含您可檢視和修改的 Power View 工作表。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。
-
 ![](media/sample-sales-and-marketing/sales1.png)
+
+## <a name="prerequisites"></a>先決條件
+
+ 您必須先將範例下載為內容套件、.pbix 檔案或 Excel 活頁簿，才能使用範例。
+
+### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
+
+1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
+2. 在左下角選取 [取得資料]。
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. 在顯示的 [取得資料] 頁面上，選取 [範例]。
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. 選取 [銷售與行銷範例]，然後選擇 [連線]。  
+  
+   ![銷售與行銷範例](media/sample-sales-and-marketing/sales9.png)
+   
+5. Power BI 會匯入內容套件，並將新的儀表板、報表及資料集新增到您目前的工作區。 新的內容會以黃色星號標示。 
+   
+   ![星號](media/sample-sales-and-marketing/sales10.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>取得此範例的 .pbix 檔案
+
+或者，您可以下載此範例為 .pbix 檔案，其設計目的是要用於 Power BI Desktop。 
+
+ * [銷售與行銷範例](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
+您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529785)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>儀表板告訴我們什麼？
 讓我們開始瀏覽儀表板並查看 CMO 已釘選的圖格。 我們可以看到我們的市場佔有率、銷售和人氣的相關資訊。 接著，我們可以看到這些資料是依區域、時間和競爭對手細分。
@@ -48,21 +78,21 @@ VanArsdel 有許多競爭對手但仍是該產業的市場領導者。 CMO 想�
 #### <a name="which-segments-drive-our-sales-does-it-match-the-industry-trend"></a>哪些市場區隔可帶動銷售？ 它符合產業趨勢嗎？
 1. 選取 [依市場區隔的整體銷售單位總量] 圖格以開啟問與答。
 2. 在現有查詢的結尾輸入 **for VanArsdel** 。 問與答可解譯問題，並顯示答案與已更新的圖表。 我們產品量是來自 [便利性] 和 [合適性] 兩個市場區隔。
-   
+
    ![](media/sample-sales-and-marketing/sales2.png)
 3. 我們在 [合適性]  和 [便利性]  兩個類別目錄的市佔率非常高；這些都是我們具競爭力的市場區隔。
 4. 選取上方導覽列 (階層連結) 中的儀表板名稱，以巡覽回儀表板。
 
 #### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>依據類別目錄 (與地區) 的單位銷售總量市場佔有率為何？
-1. 請注意 [依製造商、地區的總單位 YTD] 圖格。 我想知道依類別目錄的單位銷售總量市場佔有率為何？ 
-   
+1. 請注意 [依製造商、地區的總單位 YTD] 圖格。 我想知道依類別目錄的單位銷售總量市場佔有率為何？
+
    ![](media/sample-sales-and-marketing/sales3.png)
 2. 在儀表板頂端的問題方塊中，將問題輸入為**依 2014 年製造商和類別目錄的單位總數矩形式樹狀結構圖**。 請注意當您輸入問題時，視覺效果更新的方式。
    ![](media/sample-sales-and-marketing/totalunitsbymanufacturerandcategoryfor2014asatreemap-new.png)
 3. 若要比較其中的發現，可將圖表釘選到儀表板。 有趣的是，在 2014 年中，VanArsdel 只有銷售屬於 **都市** 類別目錄的產品。
 4. 瀏覽回儀表板。
 
-儀表板也是報表的進入點。  如果圖格是從基礎報表建立，按一下該圖格即會開啟報表。 
+儀表板也是報表的進入點。  如果圖格是從基礎報表建立，按一下該圖格即會開啟報表。
 
 在我們的儀表板中，R12M (循環 12 個月) 一行顯示我們的市場佔有率已不再隨時間增加，甚至有點衰退。 那麼，為什麼市場佔有率在 6 月會大幅下滑？ 若要進一步調查，請按一下此視覺效果來開啟基礎報表。
 
@@ -72,7 +102,7 @@ VanArsdel 有許多競爭對手但仍是該產業的市場領導者。 CMO 想�
 
 1. 請看看 [月份 VanArsdel 單位總量] 直條圖底部。 黑色的資料行代表 VanArsdel (我們的產品) 而綠色代表我們的競爭對手。 2014 年 6 月 VanArsdel 的下滑情況並未發生在競爭對手身上。
 2. 我們將右側中間的 [依市場區隔的類別目錄量] 橫條圖篩選為顯示 VanArsdel 的前 2 大市場區隔。 看一下這個篩選的建立方式：  
-   
+
    a.  展開右側的 [篩選] 窗格。  
    b.  按一下以選取視覺效果。  
    c.  在視覺效果層級篩選下方，已將**市場區隔**篩選為只包含**便利性**和**合適性**.  
@@ -112,4 +142,3 @@ VanArsdel 有許多競爭對手但仍是該產業的市場領導者。 CMO 想�
 
 ## <a name="next-steps-connect-to-your-data"></a>下一步：連接到您的資料
 我們希望本教學已示範 Power BI 儀表板、問與答和報表如何讓您深入了解銷售與行銷的資料。 現在輪到您了 — 連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 深入了解[開始使用 Power BI](service-get-started.md).  
-

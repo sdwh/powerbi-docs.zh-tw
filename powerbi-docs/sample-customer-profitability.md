@@ -15,23 +15,55 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 9a100b7d13c11a8bd066b72a570f45d0c2bc08be
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 82e909962a0ed1db50f2ba3729988fd7aacadc80
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客戶獲利率範例：導覽
-「客戶獲利率範例」內容套件包含製作行銷資料的公司儀表板、報表和資料集。 CFO 建立這個儀表板是為了查看轄下 5 個業務單位經理 (或主管)、產品、客戶和毛利 (GM) 的關鍵度量。 她一眼即可看出影響獲利率的因素。
+「客戶獲利率範例」內容套件包含製作行銷資料的公司儀表板、報表和資料集。 CFO 建立這個儀表板是為了查看所屬五個業務單位經理 (或主管)、產品、客戶和毛利 (GM) 的關鍵度量。 她一眼即可看出影響獲利率的因素。
 
 此範例是系列中的一部分，該系列說明您可如何使用 Power BI 的商業導向資料、報表及儀表板。 此為來自 obviEnce 的匿名真實資料 ([www.obvience.com](http://www.obvience.com/))。
 
-您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529781).  
-![](media/sample-customer-profitability/power-bi-dash.png)
+## <a name="prerequisites"></a>先決條件
+
+您必須先將範例下載為內容套件、.pbix 檔案或 Excel 活頁簿，才能使用範例。
+
+### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
+
+1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
+2. 在左下角選取 [取得資料]。
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. 在顯示的 [取得資料] 頁面上，選取 [範例]。
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. 選取 [客戶獲利率範例]，然後選擇 [連線]。  
+   
+   ![取得資料](media/sample-customer-profitability/get-supplier-sample.png)
+5. Power BI 會匯入內容套件，並將新的儀表板、報表及資料集新增到您目前的工作區。 新的內容會以黃色星號標示。 使用範例讓 Power BI 進行測試回合。  
+   
+   ![星號](media/sample-customer-profitability/supplier-sample-asterisk.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>取得此範例的 .pbix 檔案
+
+或者，您可以下載此範例為 .pbix 檔案，其設計目的是要用於 Power BI Desktop。 
+
+- [客戶獲利率範例](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
+
+您也可以只下載[此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529781)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>儀表板告訴我們什麼？
+
+在 [我的工作區] 下，尋找客戶獲利率範例的儀表板：
+
+![客戶獲利率範例的儀表板](media/sample-customer-profitability/power-bi-dash.png)
+
 ### <a name="company-wide-dashboard-tiles"></a>全公司的儀表板圖格
 這些圖格讓 CFO 看到對她而言很重要的高階公司度量。  當她看到值得關注的項目時，她可以選取圖格深入探究資料。
 
@@ -123,6 +155,8 @@ Annelie 的 GM% 最低，但我們可以看到它三月之後穩定增加。 相
 我們可以類似的方法瀏覽其他產業，甚至加入客戶，以在視覺效果中了解 Valery 績效的成因。
 
 這是安全的作業環境。 您一律可以選擇不儲存變更。 但如果儲存了變更，您也可以隨時移至 [取得資料]  ，重新複製此範例。
+
+您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529781).
 
 ## <a name="next-steps-connect-to-your-data"></a>下一步：連接到您的資料
 我們希望本教學已示範 Power BI 儀表板、問與答和報表如何讓您深入了解客戶的資料。 現在換您登場 — 連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 深入了解[開始使用 Power BI](service-get-started.md).

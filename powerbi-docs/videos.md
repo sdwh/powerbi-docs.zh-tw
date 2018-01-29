@@ -15,31 +15,36 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: c29ea77eab09657b5c21fe97322464523b0621dc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4ef3991fc285adc84cdcb5efca00c2f9486e9825
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="power-bi-videos"></a>Power BI 影片
 Power BI 有 YouTube 頻道喔！ 您可以瀏覽[我們的頻道](https://www.youtube.com/user/mspowerbi/videos)；如果您剛開始使用 Power BI，[Analyze & Visualize Data with Power BI 播放清單](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)是很好的起點.
 
-* 這段影片涵蓋了 Power BI 資料處理最佳化的一些秘訣。 先了解最佳的資料格式，再將它上傳至服務。
+以下是一些該播放清單中的影片，能讓您快速入門。
+
+* Power BI 服務和 Power BI Desktop 的概觀。
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/l2wy4XgQIu0" frameborder="0" allowfullscreen></iframe>
-* 使用 Power BI 上傳本機電腦的檔案，既快速又簡單。 這裡告訴您方法！
+* 共同合作與共用。
   
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/ETj-z3NyY_o" frameborder="0" allowfullscreen></iframe>
-* OneDrive 是連接資料並確定它隨時保持最新狀態的好方法。
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/5DABLeJzQYM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+* Power BI 行動版概觀
   
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/6cOjiV_klrs" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/07uBWhaCo78" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+* 適用於開發人員的 Power BI
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/47uXJW1GIUY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
 
 ## <a name="watch-some-of-our-new-uploads"></a>觀看一些新的上傳內容
-* [時間智慧](https://youtu.be/MNAaHw4PxzE)
-* [分組和量化](https://youtu.be/51n2itS7K5I)
-* [SAP HANA](https://youtu.be/FOjJLvsIACc)
+* [日期交叉分析篩選器](https://youtu.be/V7i82ZZm0vw)
+* [自訂視覺效果](https://youtu.be/d-rXAJ3_uAo)
+* [Power BI 服務中的警示](https://youtu.be/JbL2-HJ8clE)
 
 ## <a name="more-videos"></a>更多影片
 請查看以下收集的來源和內容來觀賞更多影片。

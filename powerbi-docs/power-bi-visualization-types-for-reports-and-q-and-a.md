@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 5e4788e57bd1836d3d5db10dfb86e2c71c00c34f
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 7d9869c16b88cb410073644bdae94173b9cea023
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
 ## <a name="power-bi-visualizations"></a>Power BI 視覺效果
 近期將加入新的視覺效果，請密切注意！
 
-也請看看 [Office 市集](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)，您會發現這裡有一份持續增加的自訂視覺效果清單，供您下載並用在自己的儀表板和報告中。 腦中充滿創造力嗎？ [了解如何建立您自己的視覺效果並新增至社群網站](developer/office-store.md)。  
+也請查看 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)，您會發現這裡有一份持續成長的[自訂視覺效果](power-bi-custom-visuals.md)清單，供您下載並用在自己的儀表板和報告中。 腦中充滿創造力嗎？ [了解如何建立您自己的視覺效果並新增至這個社群網站](developer/office-store.md)。  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI 提供的視覺效果清單
 所有這些視覺效果皆可加入 Power BI 報表、在問與答中指定，並釘選到儀表板。
