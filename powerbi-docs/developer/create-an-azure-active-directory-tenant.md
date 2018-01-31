@@ -3,7 +3,7 @@ title: "建立要搭配 Power BI 使用的 Azure Active Directory 租用戶"
 description: "了解如何使用 Power BI REST API 來建立新的 Azure Active Directory (Azure AD) 租用戶，以用於您的自訂應用程式。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/30/2017
 ms.author: mihart
-ms.openlocfilehash: 22d939dbd0a582611f2f4e90e2306456376e211b
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 0e5df07ab3690b88c2fcf6673db44f8f79b1817d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>建立要搭配 Power BI 使用的 Azure Active Directory 租用戶
 了解如何使用 Power BI REST API 來建立新的 Azure Active Directory (Azure AD) 租用戶，以用於您的自訂應用程式。

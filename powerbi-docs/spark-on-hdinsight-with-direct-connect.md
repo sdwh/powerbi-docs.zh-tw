@@ -3,7 +3,7 @@ title: "具有 DirectQuery 之 HDInsight 上的 Spark"
 description: "具有 DirectQuery 之 HDInsight 上的 Spark"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 41e29c343480930878ccce888b0c613f0c960cd8
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: c2b0f2fab2b9ccd2540ad45d6156ce9547513deb
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>具有 DirectQuery 之 HDInsight 上的 Spark
 具有 DirectQuery 之 Azure HDInsight 上的 Spark，可讓您根據 Spark 叢集中已有的資料和度量建立動態報表。 藉由 DirectQuery，當您瀏覽報表檢視中的資料時，會將查詢傳送回您的 Azure HDInsight Spark 叢集。 這種做法推薦給熟悉所連接實體的使用者。

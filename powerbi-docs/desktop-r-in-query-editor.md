@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: c48e7042f16ac43619a7a0a6708a54f0575d795f
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 025db9cabe1a63b5038e3b83c901b579f84c03e1
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="using-r-in-query-editor"></a>在查詢編輯器中使用 R
 您可以在 Power BI Desktop **查詢編輯器**中使用 **R，**統計學家、資料科學家和資料分析師廣泛使用的程式設計語言。 將 R 整合到**資料編輯器中**，可讓您使用 R 執行資料清理，以及在資料集執行進階資料成形與分析，包括補足遺漏的資料、預測及叢集等。 **R**是功能強大的語言，可用於**查詢編輯器**以準備您的資料模型及建立報表。

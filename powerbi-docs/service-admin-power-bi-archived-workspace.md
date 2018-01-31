@@ -3,7 +3,7 @@ title: "Power BI 封存工作區"
 description: "管理 Office 365 租用戶之後的 Power BI 封存工作區"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: e321fc33eb32988c358ac87290150fe54c1e9479
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 7698a1207f19382430fb8e225543b32b6aebcd49
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-archived-workspace"></a>Power BI 封存工作區
 任何人都可以透過 Power BI 在幾分鐘內完成註冊並開始使用服務。  稍後，您組織的 IT 部門可能會選擇代替組織中的使用者接管 Power BI。  如果發生這種接管情況，您不僅會因為集中管理組織內的使用者和權限而受益，也可以使用針對組織內其他服務所用的相同使用者名稱和密碼進行登入，因而簡化登入。 

@@ -3,7 +3,7 @@ title: "使用 Microsoft Intune 設定行動裝置應用程式"
 description: "如何使用 Microsoft Intune 設定 Power BI 行動應用程式 這包括如何新增及部署應用程式， 以及如何建立行動應用程式原則來控制安全性。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 793734acf8e5d5a11747ec850cdf0faeda8448dd
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: 97f28a845be24baa7633f0cf4fcac29d4d1e74e9
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>使用 Microsoft Intune 設定行動裝置應用程式
 Microsoft Intune 可讓組織管理裝置和應用程式。 iOS 和 Android 的 Power BI 行動應用程式可與 Intune 整合，讓您管理裝置上的應用程式，以及控制安全性。 您可以透過設定原則，控制像是要求 Access PIN 碼、控制應用程式處理資料的方式，甚至是加密不在使用中之應用程式的資料等項目。

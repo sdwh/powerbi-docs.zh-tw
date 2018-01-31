@@ -3,7 +3,7 @@ title: "為應用程式驗證使用者及取得 Azure AD 存取權杖"
 description: "了解如何在 Azure Active Directory 內註冊應用程式，以用來內嵌 Power BI 內容。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/11/2017
-ms.author: asaxton
-ms.openlocfilehash: ad6f48f5abca9be6f25cfcaab783fdd0829cab46
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 3ff0fa3c83654ac577e98e730dc68ce3686e1198
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>為 Power BI 應用程式驗證使用者及取得 Azure AD 存取權杖
 深入了解如何利用 REST API 在 Power BI 應用程式中驗證使用者及取得要使用的存取權杖。

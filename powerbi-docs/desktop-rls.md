@@ -3,7 +3,7 @@ title: "了解 Power BI Desktop 的資料列層級安全性 (RLS)"
 description: "如何在 Power BI Desktop 內，為匯入的資料集和 DirectQuery 設定資料列層級安全性。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/12/2017
-ms.author: asaxton
-ms.openlocfilehash: e6b6efb976de8df6064f2eb1156237d1a1250807
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: fccb2094158ed2dffaa0a80cc5609dfbf382be30
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="row-level-security-rls-with-power-bi-desktop"></a>使用 Power BI Desktop 的資料列層級安全性 (RLS)
 使用 Power BI Desktop 的資料列層級安全性 (RLS) 可用來限制指定的使用者的資料存取。 篩選會限制資料列層級的資料。 您可以在角色中定義篩選。

@@ -3,7 +3,7 @@ title: "移轉報表伺服器安裝"
 description: "了解如何將現有的 SQL Server Reporting Services 執行個體移轉到 Power BI 報表伺服器執行個體。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 4800d829dd69d36279e17dc4a27881560f457d86
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 67fe876bb9de92cc7f4c0c140f7c016f01216cdd
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="migrate-a-report-server-installation"></a>移轉報表伺服器安裝
 了解如何將現有的 SQL Server Reporting Services (SSRS) 執行個體移轉到 Power BI 報表伺服器執行個體。

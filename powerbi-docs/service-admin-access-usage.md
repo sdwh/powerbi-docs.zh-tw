@@ -3,7 +3,7 @@ title: "尋找已登入的 Power BI 使用者"
 description: "如果您是租用戶系統管理員，而且想要查看誰已登入 Power BI，可以使用 Azure Active Directory 存取和使用情況報告來了解情形。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: asaxton
-ms.openlocfilehash: 55caee3b289f187d6b955c216098313b483956f5
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.author: maghan
+ms.openlocfilehash: 82998231146c1661c6bde38f7e0ac769b4b7b772
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>尋找已登入的 Power BI 使用者
 如果您是租用戶系統管理員，而且想要查看誰已登入 Power BI，可以使用 Azure Active Directory 存取和使用情況報告來了解情形。

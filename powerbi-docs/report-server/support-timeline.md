@@ -3,7 +3,7 @@ title: "支援 Power BI 報表伺服器的時間軸"
 description: "Power BI 報表伺服器的版本與可用性清單。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/04/2017
 ms.author: maghan
-ms.openlocfilehash: af1776e2f14f678569ae55d8bc05c7197475497f
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: d5696e76f12af65627fe8166d330b0b7f444f4d2
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>支援 Power BI 報表伺服器的時間軸
 Power BI 報表伺服器每年發行數次。 下個版本正式推出 (GA) 後會提供安全性和重大更新。 下個版本發行後，舊版仍會繼續收到 12 個月發行週期的其餘安全性更新。

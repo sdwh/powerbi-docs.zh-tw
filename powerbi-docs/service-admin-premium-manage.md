@@ -3,7 +3,7 @@ title: "管理 Power BI Premium 和 Power BI Embedded 內的容量"
 description: "了解如何管理 Power BI Premium，以及讓整個組織存取內容。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/10/2017
-ms.author: asaxton
-ms.openlocfilehash: d78e5ee1648daaa5aeb9247483bf849cf07d2599
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: aaa538fa35a4ae272373cb3ee3b1d1d12b6eb424
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>管理 Power BI Premium 和 Power BI Embedded 內的容量
 了解如何管理提供內容專用資源的 Power BI Premium 和 Power BI Embedded 容量。
@@ -159,7 +159,7 @@ P SKU 無法降級為 EM SKU。 您可以將滑鼠停留在提供說明的已停
 ![容量管理的工作區指派區域](media/service-admin-premium-manage/capacity-manage-workspaces.png)
 
 1. 選取 [指派工作區]。 這會列在多個位置，而且全部都執行相同的工作。
-2. 選取 [The entire organization's workspaces]\ (整個組織的工作區) 或 [Specific workspaces by user] \(使用者的特定工作區)。
+2. 選取 [The entire organization's workspaces] (整個組織的工作區) 或 [Specific workspaces by user] (使用者的特定工作區)。
    
    | 選取項目 | 描述 |
    | --- | --- |

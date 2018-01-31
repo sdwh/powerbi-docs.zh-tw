@@ -3,7 +3,7 @@ title: "註冊應用程式以內嵌 Power BI 內容"
 description: "了解如何在 Azure Active Directory 內註冊應用程式，以用來內嵌 Power BI 內容。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 55bd0ed1be7b5853c6de786df34812fddafc1db8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: cc9a4c7a29ddb84e6230d42f31a9c6a0427008f1
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>註冊 Azure AD 應用程式以內嵌 Power BI 內容
 了解如何在 Azure Active Directory (Azure AD) 內註冊應用程式，以用來內嵌 Power BI 內容。
@@ -77,7 +77,7 @@ ms.lasthandoff: 11/13/2017
     ![](media/register-app/azuread-new-app-registration.png)
 5. 遵循提示並建立新的應用程式。
    
-   * 若是 Web 應用程式，請提供登入 URL，也就是應用程式的基底 URL，可供使用者登入，例如 http://localhost:13526 。
+   * 若是 Web 應用程式，請提供登入 URL，也就是應用程式的基底 URL，可供使用者登入，例如 http://localhost:13526。
    * 若是原生應用程式，請提供 [重新導向 URI]，供 Azure AD 用來傳回權杖回應。 輸入您的應用程式專用的值，例如 http://myapplication/redirect
 
 如需如何在 Azure Active Directory 中註冊應用程式的詳細資訊，請參閱[整合應用程式與 Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)

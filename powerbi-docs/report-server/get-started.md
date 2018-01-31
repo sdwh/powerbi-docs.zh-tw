@@ -3,7 +3,7 @@ title: "開始使用 Power BI 報表伺服器"
 description: "了解如何安裝 Power BI 報表伺服器。 "
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: a1dc05e722d4b50321b1fc825eeab9284d2d88b5
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 61558613b0022f7585b31c3e3d674a64ea009d61
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="get-started-with-power-bi-report-server"></a>開始使用 Power BI 報表伺服器
 使用 Power BI 報表伺服器所提供的多種可立即使用的工具及服務，建立、部署及管理內部部署的 Power BI 報表、行動報表及編頁報表。
