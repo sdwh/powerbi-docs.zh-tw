@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 58cfc6feb510dc9dc335b473b40ee4a7f341ee10
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理您的資料來源─Analysis Services
 安裝內部部署資料閘道之後，您必須新增可搭配閘道使用的資料來源。 本文將探討如何使用閘道和資料來源。 您可以針對已排程的重新整理或即時連線，使用 Analysis Services 資料來源。
@@ -142,7 +142,7 @@ ms.lasthandoff: 11/27/2017
 然後，您會看到加入規則及測試指定使用者的選項。
 
 > [!NOTE]
-> 您可能會不小心變更無意更動的使用者。 例如，如果您的**取代 (原始值)** 是 *@contoso.com*，而您的 **使用 (新名稱)** 是 *@contoso.local*，之後 *@contoso.local* 將會取代所有登入包含 *@contoso.com* 的使用者。 此外，如果您的**代替 (原始名稱)**為 dave@contoso.com，而您的**使用 (新名稱)**為 *dave@contoso.local*，具有 v-dave@contoso.com登入的使用者會作為 v-dave *@contoso.local* 傳送。
+> 您可能會不小心變更無意更動的使用者。 例如，如果您的**取代 (原始值)** 是 @contoso.com，而您的**使用 (新名稱)** 是 @contoso.local，之後 @contoso.local 將會取代所有登入包含 @contoso.com 的使用者。 此外，如果您的**代替 (原始名稱)**為 dave@contoso.com，而您的**使用 (新名稱)**為 dave@contoso.local，具有 v-dave@contoso.com登入的使用者會作為 v-dave@contoso.local 傳送。
 > 
 > 
 

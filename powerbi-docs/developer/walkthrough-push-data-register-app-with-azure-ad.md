@@ -3,7 +3,7 @@ title: "使用 Azure AD 註冊應用程式"
 description: "逐步解說 ─ 將資料推送至資料集 ─ 使用 Azure AD 註冊應用程式"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: asaxton
-ms.openlocfilehash: e5c1629ea6b90ec52a3c567916a9f686eb4d1bee
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: 48ab2a51a479269b8846288b64089964a0544681
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>步驟 1：使用 Azure AD 註冊應用程式
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
@@ -39,7 +39,7 @@ ms.lasthandoff: 11/15/2017
 2. 按一下 [使用現有的帳戶登入] ，然後登入 Power BI 帳戶。
 3. 輸入 **應用程式名稱** ，例如「推送資料應用程式範例」。
 4. 在 [應用程式類型] 選擇 [原生應用程式] 。
-5. 輸入 **Redirect URL**，例如 **https://login.live.com/oauth20_desktop.srf** 。 在 **原生用戶端應用程式**中，重新導向 URI 會提供 **Azure AD** 驗證之特定應用程式的詳細資訊。 用戶端應用程式的標準 URI 是 https://login.live.com/oauth20_desktop.srf 。
+5. 輸入 **Redirect URL**，例如 **https://login.live.com/oauth20_desktop.srf**。 在 **原生用戶端應用程式**中，重新導向 URI 會提供 **Azure AD** 驗證之特定應用程式的詳細資訊。 用戶端應用程式的標準 URI 是https://login.live.com/oauth20_desktop.srf。
 6. 在 [選擇要存取的 API] 選擇 [讀取和寫入所有資料集] 。 關於所有 Power BI 應用程式權限，請參閱 [Power BI 權限](power-bi-permissions.md)。
 7. 按一下 [註冊應用程式] ，然後儲存產生的 **用戶端識別碼** 。 **用戶端識別碼** 可識別 Azure AD 中的應用程式。
 

@@ -3,7 +3,7 @@ title: "Power BI 的內嵌功能"
 description: "Power BI 提供 API 來將您的儀表板和報表內嵌至應用程式。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/30/17
 ms.author: mihart
-ms.openlocfilehash: 38860e6535f44e8831c62c045e7c5d0e130c35aa
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 4d112ae4c25f080a3eb90de596c056366da3fe1d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="embedding-with-power-bi"></a>Power BI 的內嵌功能
 Power BI 提供 API 來將您的儀表板和報表內嵌至應用程式。 Power BI API 在內嵌內容時，會提供一組一致的功能以及最新 Power BI 功能的存取權 (例如儀表板、閘道和應用程式工作區)。
