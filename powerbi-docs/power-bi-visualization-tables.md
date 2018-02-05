@@ -1,6 +1,6 @@
 ---
-title: "Power BI 報表與儀表板中的資料表視覺效果 (教學課程)"
-description: "在 Power BI 報表和儀表板中使用資料表視覺效果的祕訣，包括如何調整資料行寬度。"
+title: "教學課程 - Power BI 報表與儀表板中的資料表視覺效果 (教學課程)"
+description: "在 Power BI 報表和儀表板中使用資料表視覺效果的教學課程，包括如何調整資料行寬度。"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e4a2e162ca193af756e7182fb118bc7e72d38d28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4785df6bbc14bf0da4500a9cffdcd47381e412f4
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>在 Power BI 報表和儀表板使用資料 (教學課程)
 資料表是一個方格，其中以資料列和資料行的邏輯數列包含相關的資料。 它也可能包含標頭和總計資料列。 資料表適合處理您要在許多值裡尋找單一類別的量化比較。 例如，這個資料表會顯示**類別**的 5 個不同量值。
@@ -40,11 +40,16 @@ ms.lasthandoff: 11/13/2017
 > 如果資料表有太多值，請考慮將它轉換成矩陣和/或使用向下鑽研。
 > 
 > 
+## <a name="prerequisites"></a>先決條件
+ - Power BI 服務或 Power BI Desktop
+ - 零售分析範例
+
 
 ## <a name="create-a-table"></a>建立資料表
-如果要跟著做，請登入 Power BI 並選取 [取得資料] > [範例] > [零售分析範例]。 我們將建立上述的資料表，依項目類別顯示銷售值。
+我們將建立上述的資料表，依項目類別顯示銷售值。 若要跟著做，請登入 Power BI 服務並選取 [取得資料] \> [範例] \> [零售分析範例] > [連線]，然後選擇 [移至儀表板]**。 建立視覺效果需要有資料集和報表的編輯權限。 幸運的是，所有的 Power BI 範例都是可編輯的。 如果有報表已與您共用，您將無法在報表中建立視覺效果。
 
-1. 在 [我的工作區] 中，選取 [資料集] 索引標籤，向下捲動至您剛剛新增的 [零售分析範例]。  選取**建立報表**圖示。
+1. 從左側瀏覽窗格中，選取 [工作區] > [我的工作區]。    
+2. 選取 [資料集] 索引標籤，並向下捲動至您剛剛新增的 [零售分析範例] 資料集。  選取**建立報表**圖示。
    
     ![](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. 在報表編輯器中，選取 [項目]  >  [類別]。  Power BI 會自動建立資料表，列出所有類別。

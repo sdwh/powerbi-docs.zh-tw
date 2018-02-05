@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a707a7b590804d24d60d17590408afbdf8f81f4c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: ef2e89ba2bac451ce0230829bbf4aa0b60713899
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常見查詢工作
 當使用 Power BI Desktop 的 [查詢編輯器]  視窗時，有很多常用的工作。 本文將示範這些常見工作，並提供其他資訊的連結。 
@@ -69,7 +69,7 @@ ms.lasthandoff: 12/06/2017
 如需連接至 Power BI Desktop 資料的逐步示範，請參閱[連接至 Power BI Desktop 中的資料](https://powerbi.uservoice.com/knowledgebase/articles/471635).
 
 ## <a name="shape-and-combine-data"></a>資料成形及合併
-您可以輕鬆地使用查詢編輯器塑造及合併資料。 本節包含一些範例，說明如何塑造資料。 如需資料成形及合併的更完整示範，請參閱 [使用 Power BI Desktop 合併資料並使其成形](https://powerbi.uservoice.com/knowledgebase/articles/471644)。
+您可以輕鬆地使用查詢編輯器塑造及合併資料。 本節包含一些範例，說明如何塑造資料。 如需塑造與合併資料的更完整示範，請參閱**[使用 Power BI Desktop 塑造及合併資料](https://powerbi.uservoice.com/knowledgebase/articles/471644)**。
 
 在上一節中，我們連接到兩組資料 – Excel 活頁簿和 Web 資源。 一旦載入到查詢編輯器中，我們會看到下列畫面，包含選取網頁上的查詢 (從 [查詢]  窗格中所列的可用查詢，在 [查詢編輯器] 視窗的左邊)。
 

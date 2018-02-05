@@ -1,11 +1,11 @@
 ---
-title: "與同事共用 Power BI 報表"
-description: "了解如何與組織中的同事共用 Power BI 報表和已篩選的報表。"
+title: "篩選並與同事共用 Power BI 報表"
+description: "了解如何與組織中的同事共用已篩選的 Power BI 報表。"
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 featuredvideoid: 0tUwn8DHo3s
@@ -16,43 +16,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/18/2018
 ms.author: maggies
-ms.openlocfilehash: 2a7b4cc652e600b9a368f6f7eda657c06e131da3
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: fff70dc8e0fa1eaafd68d5995881b2c416d4e29d
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/24/2018
 ---
-# <a name="share-power-bi-reports-with-your-coworkers"></a>與同事共用 Power BI 報表
-「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 提供[數種方式可進行共同作業以及散發您的報表](service-how-to-collaborate-distribute-dashboards-reports.md)，而共用只是其中的一種功能。
+# <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>與同事共用已篩選的 Power BI 報表
+「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 還提供[數種其他方式可進行共同作業及散發您的報表](service-how-to-collaborate-distribute-dashboards-reports.md)。
 
 若要共用，您和您的收件者必須具有 [Power BI Pro 授權](service-free-vs-pro.md)，或內容必須位於[進階容量](service-premium.md)中。 有任何建議嗎？ Power BI 小組向來重視您的意見反應，請前往 [Power BI 社群網站](https://community.powerbi.com/)。
 
-您可以從您自己的 [我的工作區] 或應用程式工作區，與相同電子郵件網域中的同事共用報表。 當您與他人共用報表時，他們可以檢視此報表並與之互動，但是無法編輯此報表。 除非套用[資料列層級安全性 (RLS)](service-admin-rls.md)，否則他們會看到您在報表中看到的相同資料。 
+您可以從 Power BI 服務中的許多位置，與位於相同電子郵件網域的同事共用報表：您的 [我的最愛]、[最近]、[與我共用] \(如果擁有者允許的話\)、[我的工作區] 或其他工作區。 當您與他人共用報表時，他們可以檢視此報表並與之互動，但是無法編輯此報表。 除非套用[資料列層級安全性 (RLS)](service-admin-rls.md)，否則他們會看到您在報表中看到的相同資料。 
 
-## <a name="share-a-power-bi-report"></a>共用 Power BI 報表
-1. 在 Power BI 服務中，[建立儀表板](service-dashboard-create.md)與至少一個連結至您想要共用之報表的磚。 
-   
-    即使您只想要共用報表，也需要先建立連結至該報表的儀表板才能共用。 
-
-1. 在儀表板右上角，選取 [共用]。
-
-     ![選取 [共用]](media/service-share-reports/power-bi-share-upper-right.png)
-  
-2. 將它傳給預定收件者。 如果您不想對他們傳送關於儀表板的郵件，請清除 [傳送電子郵件通知給收件者] 核取方塊。
-
-     ![清除 [傳送電子郵件通知] 核取方塊](media/service-share-reports/power-bi-share-dont-send-mail.png)
-
-4. 選取 [共用] 。
-
-      您共用儀表板的人員現在有檢視基礎報表的權限。 
-
-1. 在 Power BI 服務中開啟報表、複製報表頁面 URL，並將它傳送給您的同事。 
-   
-    當他們選取連結時，Power BI 會開啟報表的唯讀版本。
-
-## <a name="share-a-filtered-version-of-a-report"></a>共用報表的篩選版本
+## <a name="filter-and-share-a-report"></a>篩選並共用報表
 如果要共用報表的篩選版本呢？ 可能是只顯示特定城市或特定銷售人員或特定年份等資料的報表。 您可以建立自訂 URL 來完成這項工作。
 
 1. 在 [[編輯檢視]](service-reading-view-and-editing-view.md) 中開啟報告，套用篩選條件，然後儲存報告。
@@ -74,11 +53,13 @@ ms.lasthandoff: 12/06/2017
    
    瀏覽器會新增特殊字元來代表斜線、空格和單引號，因此最後會是︰
    
-   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
+   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-xxxxxxxxxxxx/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
 
-3. 將此 URL 傳送給您的同事。 
-   
-   當他們選取連結時，Power BI 會開啟已篩選報表的唯讀版本。
+3. [共用報表](service-share-dashboards.md)，但清除 [傳送電子郵件通知給收件者] 核取方塊。 
+
+    ![共用報表對話方塊](media/service-share-reports/power-bi-share-report-dialog.png)
+
+4. 傳送含有您先前所建立篩選的連結。
 
 ## <a name="next-steps"></a>後續步驟
 * 有任何意見嗎？ 請移駕 [Power BI 社群網站](https://community.powerbi.com/)提供您的建議。

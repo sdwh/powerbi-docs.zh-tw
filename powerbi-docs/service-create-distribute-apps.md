@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 01/24/2018
 ms.author: maggies
-ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表建立並發佈應用程式
 
@@ -32,7 +32,13 @@ ms.lasthandoff: 01/17/2018
 
 透過 Power BI 應用程式 (目前在預覽階段)，您可以建立多組儀表板和報表，然後將這些應用程式發佈至整個組織、特定的人員或群組。 如果您是報告建立者或系統管理員，應用程式可讓您更輕鬆地管理許多儀表板的權限。
 
-商務使用者可以從 Microsoft AppSource 安裝這些應用程式，或者您也可以將直接連結傳送給他們。 他們可以輕鬆地找到並傳回至您的內容，因為它就在一個地方。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 深入了解[商務使用者的應用程式體驗](service-install-use-apps.md)。
+商務使用者可透過幾個不同的方式取得您的應用程式。 如果 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 否則，他們可以從 Microsoft AppSource 安裝您的應用程式，或者您可以將直接連結傳送給他們。 他們可以輕鬆地找到並傳回至您的內容，因為它就在一個地方。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 深入了解[商務使用者的應用程式體驗](service-install-use-apps.md)。
+
+### <a name="licenses-for-apps"></a>應用程式的授權
+如果您是應用程式建立者，則您需要 Power BI Pro 授權。 您的應用程式使用者有兩個選項。
+
+* 選項 1：所有商務使用者都需要 **Power BI Pro** 授權，才能檢視您的應用程式。 
+* 選項 2：如果您的應用程式位於 Power BI Premium 容量中，則組織中的免費使用者可以檢視應用程式內容。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium.md)。
 
 ### <a name="apps-and-organizational-content-packs"></a>應用程式和組織內容套件
 應用程式是組織內容套件的演進。 如果您已經有組織內容套件，則它們會繼續與應用程式並存運作。
@@ -41,12 +47,6 @@ ms.lasthandoff: 01/17/2018
 
 ## <a name="video-apps-and-app-workspaces"></a>影片：應用程式及應用程式工作區
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-## <a name="licenses-for-apps"></a>應用程式的授權
-如果您是應用程式建立者，則您需要 Power BI Pro 授權。 您的應用程式使用者有兩個選項。
-
-* 選項 1：所有商務使用者都需要 **Power BI Pro** 授權，才能檢視您的應用程式。 
-* 選項 2：如果您的應用程式位於 Power BI Premium 容量中，則組織中的免費使用者可以檢視應用程式內容。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium.md)。
 
 ## <a name="app-workspaces"></a>應用程式工作區
 「應用程式工作區」是可供您建立應用程式的位置，因此，您必須先建立應用程式工作區，然後再建立應用程式。 如果您曾在 Power BI 中使用過群組工作區，則會熟悉應用程式工作區。 它們是群組工作區的演進 - 應用程式中內容的臨時區域和容器。 
@@ -106,21 +106,23 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
    
      ![發佈應用程式](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. 首先，在 [詳細資料] 上，填寫描述以協助人員尋找應用程式。 您可以設定背景色彩來進行個人化。
+2. 在 [詳細資料] 上，填寫描述以協助人員尋找應用程式。 您可以設定背景色彩來進行個人化。
    
      ![應用程式詳細資料](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. 接下來，在 [內容] 上，您會看到即將發佈為應用程式一部分的內容，即您在該工作區中選取的所有內容。 您也可以設定應用程式登陸頁面，這是儀表板或報表人員移至您的應用程式時先看到的頁面。 您可以選擇 [無]。 接著，他們會到達應用程式中所有內容的清單。 
+3. 在 [內容] 上，您會看到即將發佈為應用程式一部分的內容，即您在該工作區中選取的所有內容。 您也可以設定應用程式登陸頁面，這是儀表板或報表人員移至您的應用程式時先看到的頁面。 您可以選擇 [無]。 接著，他們會到達應用程式中所有內容的清單。 
    
      ![應用程式內容](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. 最後，在 [存取] 上，決定誰可以存取應用程式：組織中的所有人，或是特定人員或 Active Directory 安全性群組。 
+4. 在 [存取] 上，決定誰可以存取應用程式：組織中的所有人、特定人員、Active Directory 安全性群組。 如果您有權限，您可以決定為收件者自動安裝應用程式。
+
+    ![應用程式存取](media/service-create-distribute-apps/power-bi-apps-access.png)
 
 5. 當您選取 [完成] 時，會看到確認它已準備好要發佈的訊息。 在成功對話方塊中，您可以複製直接連結至此應用程式的 URL，並將它傳送給您已與之共用的人員。
    
      ![應用程式完成](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-您可以透過兩個不同的方式找到已對其發佈應用程式的商務使用者。 您可以將應用程式的直接連結傳送給他們，或者他們可以在 Microsoft AppSource 中搜尋它，而在 Microsoft AppSource 中，他們可以看到所有可存取的應用程式。 之後，只要他們移至 [應用程式]，就會在其清單中看到此應用程式。
+您已對其發佈應用程式的商務使用者可以透過幾種不同的方式找到它。 如果您可以自動安裝應用程式，該應用程式就會出現在其 Power BI 帳戶的 [應用程式] 底下。 您可以將應用程式的直接連結傳送給他們，或者他們可以在 Microsoft AppSource 中搜尋它，而在 Microsoft AppSource 中，他們可以看到所有可存取的應用程式。 無論取得方式為何，之後只要他們移至 [應用程式]，就會在其清單中看到此應用程式。
 
 深入了解[商務使用者的應用程式體驗](service-install-use-apps.md)。
 
@@ -137,6 +139,7 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 1. 回到內容的應用程式工作區清單，然後選取 [更新應用程式]。
    
      ![更新應用程式按鈕](media/service-create-distribute-apps/power-bi-app-update-button.png)
+
 4. 更新 [詳細資料]、[內容] 和 [存取]\(必要時)，然後選取 [更新應用程式]。
    
      ![更新應用程式按鈕](media/service-create-distribute-apps/power-bi-app-update-complete.png)
@@ -167,7 +170,9 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 * 經過一段時間之後，我們計劃要淘汰組織內容套件，因此建議您從現在開始建立應用程式。  
 
 ### <a name="what-about-read-only-members-in-groups"></a>群組中的唯讀成員如何？
-在群組中，您可以新增只能檢視內容的唯讀成員。 這種方法的主要問題是您無法將安全性群組新增為成員。 您可以使用應用程式將應用程式工作區的唯讀版本發佈給大量對象，包括安全性群組。 您可以預備應用程式中儀表板和報表的變更，而不會影響使用者。 建議您日後透過這種方式來使用應用程式。 在長期執行之後，我們也計劃取代工作區的唯讀成員。  
+在群組中，您可以新增只能檢視內容的唯讀成員。 這種方法的主要問題是您無法將安全性群組新增為成員。 
+
+您可以使用應用程式將應用程式工作區的唯讀版本發佈給大量對象，包括安全性群組。 您可以預備應用程式中儀表板和報表的變更，而不會影響使用者。 建議您日後透過這種方式來使用應用程式。 在長期執行之後，我們也計劃取代工作區的唯讀成員。  
 
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI 中安裝和使用應用程式](service-install-use-apps.md)

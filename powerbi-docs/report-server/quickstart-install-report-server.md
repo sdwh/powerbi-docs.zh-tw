@@ -3,7 +3,7 @@ title: "快速入門︰安裝 Power BI 報表伺服器"
 description: "安裝 Power BI 報表伺服器本身非常快速。 無論是下載還是安裝及設定，您應都可在幾分鐘內即啟動並執行。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/28/2017
+ms.date: 01/29/2018
 ms.author: maghan
-ms.openlocfilehash: 934b4d3f2da44a161cd76d14c9f042aaf697f26d
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>快速入門︰安裝 Power BI 報表伺服器
 安裝 Power BI 報表伺服器本身非常快速。 無論是下載還是安裝及設定，您應都可在幾分鐘內即啟動並執行。
@@ -30,7 +30,9 @@ ms.lasthandoff: 01/06/2018
 
  **下載**![下載](media/quickstart-install-report-server/download.png "下載")
 
-若要下載 Power BI 報表伺服器，請移至[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)。 若要下載針對 Power BI 報表伺服器最佳化的 Power BI Desktop，請移至 [Microsoft 下載中心](https://go.microsoft.com/fwlink/?linkid=837581)。
+若要下載 Power BI 報表伺服器，請移至[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)。 
+
+移至 Microsoft 下載中心來下載 [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (已針對 Power BI 報表伺服器最佳化 - 2017 年 10 月)。
 
 ![提示](media/quickstart-install-report-server/fyi-tip.png "提示")如需目前的版本資訊，請參閱 [Power BI 報表伺服器版本資訊](release-notes.md)。
 

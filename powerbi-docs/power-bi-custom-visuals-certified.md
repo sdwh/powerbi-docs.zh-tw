@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: 90449f79da8aed3d992b9ac8bf83ac2ac4c0f83c
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: f9824b29515481742c339bc76e766e5e62cf1716
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>讓自訂視覺效果*經認證*
 ## <a name="what-is-meant-by-certified"></a>*經認證*是什麼意思？
@@ -93,6 +93,7 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) (Enlighten 隨機顯示堆疊圖) | |
 | [Enlighten waffle chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) (Enlighten 方格比例圖) | |
 | [Enlighten World Flags](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380923) (Enlighten 世界旗幟) | |
+| [力導向圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) \(英文\) |[影片](https://youtu.be/YsTa7uyJ4sg) |
 | [Forecasting TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326?src=office) (預測 TBATS) | |
 | [漏斗與來源]() | || [甘特圖](https://store.office.com/gantt-WA104380765.aspx) |[影片](https://youtu.be/qJ7s_KrGiUU) |
 | [Hierarachy chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333?src=office) (Akvelon 階層圖) | |
@@ -115,6 +116,7 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [捲軸](https://store.office.com/scroller-WA104381018.aspx) |[影片](https://youtu.be/uhRFQF2cGSY) |
 | [Smart Filter by SQLBI](https://store.office.com/smart-filter-by-okviz-WA104380859.aspx) (SQLBI 智慧篩選) |[影片](https://youtu.be/gcJsDDRQq28) |
 | [Sparkline by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910?src=office&tab=Overview) (OKViz 走勢圖) |[影片](https://youtu.be/0m3Vnvso9tY) |
+| [流線圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772?tab=Overview) \(英文\) |  |
 | [Sunburst](https://appsource.microsoft.com/product/power-bi-visuals/WA104380767?src=office&tab=Overview) (放射環狀圖) | |
 | [Table Heatmap](https://store.office.com/table-heatmap-WA104380818.aspx) (資料表熱度圖) | |
 | [轉速計](https://store.office.com/tachometer-WA104380937.aspx?) |[影片](https://www.youtube.com/watch?v=C3OXdETbS9o) |

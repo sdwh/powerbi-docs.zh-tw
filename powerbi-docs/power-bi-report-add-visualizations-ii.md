@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2b3f25c772a049d10bc03941db677c67c844da8b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 40d6ee1f1448856b444201532caffd4b8c904c85
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>第 2 部分，在 Power BI 報表中新增視覺效果 (教學課程)
 在[第 1 部分](power-bi-report-add-visualizations-ii.md)，您選取了欄位名稱旁邊的核取方塊來建立基本的視覺效果。  在第 2 部分，您會學習如何使用拖放及充分利用 [欄位]  和 [視覺效果]  窗格來建立和修改視覺效果。
+
+### <a name="prerequisites"></a>先決條件
+- [第 1 部分](power-bi-report-add-visualizations-ii.md)
+- Power BI 服務 - 可以使用 Power BI 服務和 Power BI Desktop 將視覺效果新增至報表。 本教學課程會使用 Power BI 服務。 
+- 零售分析範例
 
 ## <a name="create-a-new-visualization"></a>建立新的視覺效果
 本教學課程中，我們要深入探討零售分析資料集，並建立幾個重要的視覺效果。
@@ -64,7 +69,6 @@ ms.lasthandoff: 11/13/2017
 ## <a name="next-steps"></a>後續步驟
 * 如需有關 [欄位] 窗格的詳細資訊，請參閱[報表編輯器... 導覽](service-the-report-editor-take-a-tour.md).   
 * 若要了解如何篩選及醒目提示視覺效果，請參閱 [Power BI 報表的篩選和醒目提示](power-bi-reports-filters-and-highlighting.md).  
-* 若要深入了解使用及變更彙總，請參閱[報表的彙總](service-aggregates.md).  
 * 深入了解 [Power BI 報表中的視覺效果](power-bi-report-visualizations.md)。  
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
+* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

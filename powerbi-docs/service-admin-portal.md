@@ -3,7 +3,7 @@ title: "Power BI 管理入口網站"
 description: "管理入口網站可讓您管理貴組織的 Power BI 租用戶。 包含項目如使用計量、存取 Office 365 系統管理中心及設定等。"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
-ms.author: asaxton
-ms.openlocfilehash: d831363d6afa88aa94d78776f59f81ba8ba96299
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.date: 01/02/2018
+ms.author: maghan
+ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
 
@@ -209,6 +209,16 @@ ms.lasthandoff: 12/18/2017
 ### <a name="user-arcgis-maps-for-power-bi-preview"></a>使用 ArcGIS Maps for Power BI (預覽)
 
 組織中的使用者可以使用 Esri 提供的 ArcGIS Maps for Power BI (預覽) 視覺效果。 [深入了解](power-bi-visualization-arcgis.md)
+
+
+## <a name="custom-visuals-settings"></a>自訂視覺效果設定
+### <a name="enable-custom-visuals-for-the-entire-organization"></a>針對整個組織啟用自訂視覺效果
+組織中的使用者可以共用自訂視覺效果，並與其互動。 [深入了解](power-bi-custom-visuals.md)
+
+![自訂視覺效果設定](media/service-admin-portal/powerbi-admin-custom-visuals.png)
+
+> [!NOTE]
+> 這項設定適用於整個組織，而無法限於特定群組。
 
 ## <a name="r-visuals-settings"></a>R 視覺效果設定
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 5e5bc8eaa4e710e6564ee6f1d3ea1bfcf7f28127
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7a76cc071a114a7bbd4ccc8ade61ff10b7b2e4c5
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="treemaps-in-power-bi-tutorial"></a>Power BI 中的矩形式樹狀結構圖 (教學課程)
 矩形式樹狀結構圖會將階層式資料顯示成一組巢狀矩形。  階層的每個層級會由包含其他矩形 (「分葉」) 的彩色矩形 (通常稱為「分支」) 代表。  每個矩形內的空間是根據測量的量化值來配置，並且矩形會依大小從左上角 (最大) 排列到右下 (最小)。
@@ -41,20 +41,25 @@ ms.lasthandoff: 11/15/2017
 * 使用大小和色彩編碼顯示屬性。
 * 找出模式、極端值、最重要的參與者和例外狀況。
 
+### <a name="prerequisites"></a>先決條件
+ - Power BI 服務或 Power BI Desktop
+ - 零售分析範例
+
 ## <a name="create-a-basic-treemap"></a>建立基本的矩形式樹狀結構圖
 想要先觀賞其他人建立矩形式樹狀結構圖嗎？  請跳至這段影片的 2:10 處，觀看 Amanda 建立矩形式樹狀結構圖。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-或是建立您自己的矩形式樹狀結構圖。 這些指示使用零售分析範例。 如果要跟著做，請[下載範例](sample-datasets.md)，登入 Power BI，然後選取 [取得資料] \> [Excel 活頁簿] \> [連接] \> [零售分析範例.xlsx]。
+或是建立您自己的矩形式樹狀結構圖。 這些指示使用零售分析範例。 若要跟著做，請登入 Power BI 服務 (而非 Desktop)，並選取 [取得資料] \> [範例] \> [零售分析範例] \> [連線] \> [移至儀表板]。 在報表中建立視覺效果，需要有資料集和報表的編輯權限。 幸運的是，Power BI 範例都是可編輯的。 但如果有人與您共用報表，您將會無法新增新的視覺效果。
 
-1. 從 [編輯檢視](service-interact-with-a-report-in-editing-view.md) 開始，並選取 [銷售額] > [去年銷售額] 量值。   
-   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)
-2. 將圖表轉換成矩形式樹狀結構圖。  
-   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)
-3. 將 [項目] > [類別] 拖曳到 [群組] 部分。 Power BI 隨之建立矩形式樹狀結構圖，其中矩形大小可反映總銷售額，而色彩則代表類別目錄。  在本質上，您已建立以視覺方式描述依類別目錄的總銷售額相對大小的階層。  [男裝]  類別目錄的銷售額最高，[襪子]  類別目錄則最低。
-   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)
-4. 將 [商店] > [鏈結] 拖曳到 [詳細資料] 部分以完成矩形式樹狀結構圖。 您現在可以依照類別目錄和鏈結比較去年的銷售額。   
+1. 選取 [所有門市] 磚以開啟 [零售分析範例] 報表。    
+2. 開啟[編輯檢視](service-interact-with-a-report-in-editing-view.md)，並選取 [銷售額] > [去年銷售額] 量值。   
+   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)   
+3. 將圖表轉換成矩形式樹狀結構圖。  
+   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)   
+4. 將 [項目] > [類別] 拖曳到 [群組] 部分。 Power BI 會建立矩形式樹狀結構圖，其中的矩形大小會反映總銷售額，而色彩則代表類別。  在本質上，您已建立以視覺方式描述依類別目錄的總銷售額相對大小的階層。  [男裝]  類別目錄的銷售額最高，[襪子]  類別目錄則最低。   
+   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)   
+5. 將 [商店] > [鏈結] 拖曳到 [詳細資料] 部分以完成矩形式樹狀結構圖。 您現在可以依照類別目錄和鏈結比較去年的銷售額。   
    ![](media/power-bi-visualization-treemaps/treemap_addgroup_new.png)
    
    > [!NOTE]
@@ -73,17 +78,15 @@ ms.lasthandoff: 11/15/2017
 
 1. 在矩形式樹狀結構圖上，選取類別目錄或類別目錄中的鏈結。  這會交叉醒目提示頁面上的其他視覺效果。 例如，選取 [050-鞋子] 會顯示鞋子的去年銷售額美金 $3,640,471 元，其中有美金 $2,174,185 元來自 Fashions Direct。  
    ![](media/power-bi-visualization-treemaps/treemaphiliting.png)
-2. 在 [依鏈結的去年銷售額]  圓形圖中，選取 [Fashion Direct]  配量。  
-   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)
+
+2. 在 [依鏈結的去年銷售額] 圓形圖中，選取 [Fashion Direct] 配量，對矩形式樹狀結構圖進行交叉篩選。  
+   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
+
 3. 若要管理圖表互相交叉醒目提示及交叉篩選的方式，請參閱[在 Power BI 報表中與視覺效果互動](service-reports-visual-interactions.md)
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 中的報表](service-reports.md)  
-[將視覺效果新增至報表](power-bi-report-add-visualizations-i.md)  
-[Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-[將視覺效果釘選至儀表板](service-dashboard-pin-tile-from-report.md)  
+[將視覺效果釘選到儀表板](service-dashboard-pin-tile-from-report.md)  
 [Power BI - 基本概念](service-basic-concepts.md)  
-[請試用 - 完全免費！](https://powerbi.com/)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)  
 

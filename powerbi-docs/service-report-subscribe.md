@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: fc697437ff9f5fb6b8dd49f6513c728d1b8ddfeb
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>訂閱 Power BI 報表或儀表板
 讓您最重要的儀表板和報表維持最新的狀態從沒這麼容易過。 訂閱對您來說最重要的報表頁面和儀表板，Power BI 就會以電子郵件寄送快照集到您的收件匣。 您要告訴 Power BI 需要收到電子郵件的頻率︰從一天一次到每週一次。 電子郵件和快照集會使用 Power BI 設定中的語言集合。 如果未定義任何語言，Power BI 就會使用目前的瀏覽器語言。
@@ -119,6 +119,7 @@ ms.lasthandoff: 01/09/2018
 * 由於電子郵件大小限制，儀表板或報表若含有非常大的影像，訂閱可能會失敗。    
 * 如果超過 2 個月未瀏覽某些儀表板和報表，Power BI 會自動暫停重新整理與這些儀表板和報表建立關聯的資料集。  不過，如果您新增儀表板或報表的訂閱，即使有段時間未瀏覽也不會暫停。    
 * 若您未收到訂閱電子郵件，請確認您的使用者主體名稱 (UPN) 能夠接收電子郵件。 [Power BI 小組正致力於放寬這項需求](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163)，請隨時留意。 
+* 傳送的報表和儀表板會使用您的 Power BI 語言設定。 預設語言為英文。 若要查看或設定語言喜好設定，請選取齒輪圖示 ![](media/service-report-subscribe/power-bi-settings-icon.png) **> [設定] > [一般] > [語言]**。
 
 ## <a name="next-steps"></a>後續步驟
 * 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)    

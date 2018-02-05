@@ -1,11 +1,11 @@
 ---
-title: "該如何在 Power BI 中共同作業和共用儀表板及報表？"
+title: "該如何在 Power BI 中進行共同作業和共用？"
 description: "在 Power BI 中，您可以多種方式來共同作業和共用儀表板、報表和磚。 各有其優點。"
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 qualityfocus: monitoring
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/24/18
 ms.author: maggies
-ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>該如何在 Power BI 中共同作業和共用儀表板及報表？
-您建立儀表板和報告。 或許您也透過它們與同事共同作業。 然後，您希望其他人可以存取它們。 散發它們的最佳方式為何？
+您已建立儀表板和報表。 或許您也透過它們與同事共同作業。 然後，您希望其他人可以存取它們。 散發它們的最佳方式為何？
 
 在本文中，我們將比較 Power BI 內共同作業與共用的選項： 
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/06/2017
 * 發行至網站，任何人都可以查看並與它們互動。
 * 列印。 
 
-無論您選擇哪個選項，都必須具有 [Power BI Pro 授權](service-free-vs-pro.md)，或內容必須位於[進階容量](service-premium.md)中，才能共用儀表板。 根據您選擇的選項，檢視您儀表板的同事會有不同的授權需求。 下列各節組說明詳細資料。 有任何建議嗎？ Power BI 小組向來重視您的意見反應，請前往 [Power BI 社群網站](https://community.powerbi.com/)。
+無論您選擇哪個選項，都必須具有 [Power BI Pro 授權](service-free-vs-pro.md)，或內容必須位於[進階容量](service-premium.md)中，才能共用儀表板。 根據您選擇的選項，檢視您儀表板的同事會有不同的授權需求。 下列各節組說明詳細資料。 
 
 ![Power BI 服務中的應用程式](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 12/06/2017
 
 ![發佈應用程式圖示](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-在 Power BI 服務中可以輕鬆地找到並安裝應用程式 ([https://powerbi.com](https://powerbi.com))。 您可以將應用程式的直接連結傳送給商務使用者，或者他們可以在 AppSource 中進行搜尋。 深入了解如何[發佈您的應用程式](service-create-distribute-apps.md#publish-your-app)。 
+在 Power BI 服務中可以輕鬆地找到並安裝應用程式 ([https://powerbi.com](https://powerbi.com))。 您可以將應用程式的直接連結傳送給商務使用者，或者他們可以在 AppSource 中進行搜尋。 如果您的 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 深入了解如何[發佈您的應用程式](service-create-distribute-apps.md#publish-your-app)。 
 
 當他們安裝應用程式之後，就可以在瀏覽器或行動裝置中檢視此應用程式。
 
@@ -69,9 +69,7 @@ ms.lasthandoff: 12/06/2017
 
 您也可以與組織外部人員共用。 他們也可以檢視和與儀表板互動，但不能共用儀表板。 
 
-深入了解[從 Power BI 服務共用儀表板](service-share-dashboards.md)。
-
-您也可以[共用報表的直接連結](service-share-reports.md)，並略過儀表板。 您可以對連結新增篩選，讓收件者看到篩選後的報表檢視。
+深入了解從 Power BI 服務[共用儀表板和報表](service-share-dashboards.md)。 您也可以將篩選新增至連結並[共用已篩選的報表檢視](service-share-reports.md)。
 
 ## <a name="annotate-and-share-from-the-power-bi-mobile-apps"></a>從 Power BI 行動裝置應用程式標註並共用
 在 iOS 和 Android 裝置的 Power BI 行動裝置應用程式中，您可以標註磚、報表或視覺效果，然後透過電子郵件與任何人共用它。 

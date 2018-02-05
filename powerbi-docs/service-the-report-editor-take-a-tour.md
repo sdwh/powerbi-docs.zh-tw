@@ -1,5 +1,5 @@
 ---
-title: "報表編輯器...導覽"
+title: "快速入門 - 報表編輯器...導覽"
 description: "報表編輯器...進行導覽。"
 services: powerbi
 documentationcenter: 
@@ -16,20 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: e5ee6db22fe0fa7fd1e61ebbfb7dbee9d3458159
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>報表編輯器...導覽
+## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中編輯報表
 Power BI 服務中的報表編輯器與 Power BI Desktop 中的報表編輯器非常類似。 下列影片將說明 Power BI Desktop 中的報表編輯器，而本文則說明 Power BI 服務中的報表編輯器。 
+
+## <a name="the-difference-between-report-creators-and-report-consumers"></a>報表「建立者」和報表「取用者」的差異
+建立和編輯報表的功能只限報表擁有者使用 (也稱為「建立者」)。 如果您「取用」與您共用的報表，則仍然只能在 Power BI 服務的[閱讀檢視](service-reading-view-and-editing-view.md)中開啟報表並與之互動，但不具有所有提供給報表建立者健全且完整的功能。  
+
+若要深入了解報表閱讀檢視，請參閱 [Power BI 服務中的閱讀檢視和編輯檢視](service-reading-view-and-editing-view.md)。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-在 Power BI 服務中，「報表編輯器」只能在[編輯檢視](service-reading-view-and-editing-view.md)中使用。 若要以編輯檢視開啟報表，您必須是報表擁有者。
+在 Power BI 服務中，「報表編輯器」只能在[編輯檢視](service-reading-view-and-editing-view.md)中使用。 若要以編輯檢視開啟報表，您必須是報表擁有者或建立者。
 
 Power BI 報表編輯器是由 3 個區段所組成︰  
 
@@ -87,7 +93,9 @@ Power BI 報表編輯器是由 3 個區段所組成︰
 
 - - -
 ## <a name="the-filters-pane"></a>[篩選] 窗格
-檢視、設定和修改分頁、報表、鑽研和視覺效果層級的篩選。
+使用 [篩選] 窗格在頁面、報表、鑽研和視覺效果層級來檢視、設定和修改報表的持續篩選。 是的，您可以選取視覺效果項目或使用如交叉分析篩選器之類的工具，在報表頁面和視覺效果上執行隨選篩選，但使用 [篩選] 窗格會將篩選的狀態與報表一起儲存。 
+
+[篩選] 窗格還有另一項強大的功能：***使用某個欄位進行篩選，而該欄位並未用於報表的任一視覺效果中***。 讓我詳細說明。 當您建立報表頁面時，Power BI 會自動將您用於視覺效果中的所有欄位新增到 [篩選] 窗格的 [視覺效果層級] 篩選區域。  但是，如果您要使用目前並未用於視覺效果中的欄位來設定視覺效果、頁面、鑽研或報表篩選，只需將該欄位拖曳至其中一個篩選值區即可。   
 
 ![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -125,11 +133,7 @@ Power BI 報表編輯器是由 3 個區段所組成︰
 ## <a name="next-steps"></a>後續步驟：
 [建立報表](service-report-create-new.md)
 
-[編輯報表](service-interact-with-a-report-in-editing-view.md)
-
-深入了解 [Power BI 中的報表](service-reports.md)
-
-[開始使用 Power BI](service-get-started.md)
+深入了解 [Power BI 服務](service-reports.md)、[Power BI Desktop](desktop-report-view.md) 和 [Power BI 行動版](mobile-apps-view-phone-report.md)中的報表。
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

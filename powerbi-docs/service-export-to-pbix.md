@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: 259007c76b7b53ba0ea55a28fbdd189469383364
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 7c0bd2f342385f71fd91bb81a284ef41deb46169
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>將報表從 Power BI 服務匯出至 Desktop (預覽)
 在 Power BI Desktop 中，您可以匯出 (也稱為「下載」) 報表至 Power BI 服務，方法是儲存報表，並選取 [發佈]。 您也可以另一個方向來匯出，並從 Power BI 服務下載報表到 Desktop。 在任一方向中，匯出的檔案副檔名為 *.pbix* 。
@@ -37,7 +37,7 @@ ms.lasthandoff: 01/23/2018
 2. 從功能表列中，選取 [檔案] > [下載報表]。
    
    > [!NOTE]
-   > 報表必須在 2016 年 11 月 23 日後[使用 Power BI Desktop 建立](guided-learning/publishingandsharing.yml#step-2)，或在那之後更新，才能下載報表。 如果沒有，Power BI 服務中的「下載報表」功能表選項會是灰色。
+   > 報表必須是在 2016 年 11 月 23 日後[使用 Power BI Desktop 建立](guided-learning/publishingandsharing.yml#step-2)，並在那之後進行更新，才能順利下載。 如果沒有，Power BI 服務中的「下載報表」功能表選項會是灰色。
    > 
    > 
 3. 建立 .pbix 檔案時，狀態橫幅會顯示進度。 當檔案已準備就緒時，系統會要求您開啟或儲存 .pbix 檔案。 檔案名稱與報表標題相符。
@@ -59,7 +59,7 @@ ms.lasthandoff: 01/23/2018
 從 Power BI 服務下載 (匯出) *.pbix* 檔案有幾項重要的相關考量和限制。
 
 * 若要下載檔案，您必須要有報表的編輯存取權
-* 報表必須已從 **Power BI Desktop** 產生並「發佈」到 **Power BI 服務**，或是必須已將 .pbix「上傳」到服務。
+* 報表必須是使用 **Power BI Desktop** 建立，並已*發佈*到 **Power BI 服務**，或是必須已將 .pbix *上傳*到服務。
 * 報表必須在 2016 年 11 月 23 日之後發佈或更新。 在這之前發佈的報表無法下載。
 * 此功能無法對原先是在 **Power BI 服務**中建立的報表運作，包括內容套件。
 * 開啟下載的檔案時，應一律使用最新版本的 **Power BI Desktop**。 下載的 *.pbix* 檔案無法在舊版 **Power BI Desktop** 中開啟。

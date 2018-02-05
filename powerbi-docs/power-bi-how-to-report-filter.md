@@ -1,6 +1,6 @@
 ---
-title: "瀏覽 Power BI 篩選窗格"
-description: "如何使用報表篩選"
+title: "Power BI 篩選窗格概觀"
+description: "Power BI 服務和 Power BI 儀表板中報表篩選窗格的概觀"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 14aa2a2813484c3af814332736906c2aae0e0230
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>報表 [篩選] 窗格概觀
-這篇文章深入探討報表 [篩選] 窗格。 您會在 Power BI 報表的 [編輯檢視] 及 [讀取檢視] 中看到窗格。
+這篇文章深入探討報表 [篩選] 窗格。 您會在 [Power BI 服務的 [編輯檢視] 和 [正在讀取檢視]](service-reading-view-and-editing-view.md)，以及 [Power BI Desktop 的 [報表檢視]](desktop-report-view.md) 中看見此窗格。
 
 有許多不同的方式可在 Power BI 中篩選資料，建議您先閱讀[關於篩選和反白顯示](power-bi-reports-filters-and-highlighting.md)。
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 01/09/2018
 您可以在[編輯檢視或閱讀檢視](service-reading-view-and-editing-view.md)中開啟報表。 在 [編輯檢視] 中，報表擁有者可以[將篩選新增至報表](power-bi-report-add-filter.md)，而這些篩選會與報表一起儲存。 在 [閱讀檢視] 中檢視報表的人員可以與篩選互動，但無法將篩選變更儲存至報表。
 
 ## <a name="filters-in-reading-view"></a>[讀取檢視] 中的篩選
-在 [讀取檢視] 中開啟報表時，[篩選] 窗格會顯示於報表畫布右方。 若未看見窗格，請選取右上角的箭號展開窗格。
+在 [正在讀取檢視] 中開啟報表時，[篩選] 窗格會顯示於報表畫布右方。 若未看見窗格，請選取右上角的箭號展開窗格。
 
 在此範例中，我們已選取具有 6 個篩選的視覺效果。 報表頁面也有篩選，列在 [頁面層級篩選] 標題下。 有一個[鑽研篩選](power-bi-report-add-filter.md)，整份報表也有一個篩選︰**FiscalYear** 是 2013 或 2014。
 
@@ -75,9 +75,9 @@ ms.lasthandoff: 01/09/2018
  在進階或基本篩選模式中，選取橡皮擦圖示 ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) 重設篩選。 
 
 ## <a name="add-a-filter"></a>新增篩選
-* 在編輯檢視中，藉由從 [欄位] 窗格選取欄位，並將它拖曳到適當的篩選 (您會看到 [將欄位拖曳到這裡] 文字)，以將篩選新增至視覺效果、分頁、鑽研或報表。 將欄位作為篩選新增時加以微調，方法是使用 [基本篩選] 及 [進階篩選] 控制項 (如下所述)。
+* 在 [編輯檢視] 中，藉由從 [欄位] 窗格選取欄位，並將它拖曳到適當的篩選 (您會看到 [將欄位拖曳到這裡] 文字)，以將篩選新增至視覺效果、分頁、鑽研或報表。 將欄位作為篩選新增時加以微調，方法是使用 [基本篩選] 及 [進階篩選] 控制項 (如下所述)。
 
-將新的欄位拖曳至視覺效果層級篩選區域不會將該欄位新增至視覺效果，但能讓您使用此新欄位篩選該視覺效果。 在下方範例中，[Chain] 作為新篩選新增至視覺效果。 請注意，僅將 [Chain] 作為篩選新增並不會更改視覺效果，除非您使用 [基本篩選] 或 [進階篩選] 控制項。
+- **將新的欄位拖曳至視覺效果層級篩選區域不會將該欄位新增至視覺效果**，但能讓您使用此新欄位篩選該視覺效果。 在下方範例中，[Chain] 作為新篩選新增至視覺效果。 請注意，僅將 [Chain] 作為篩選新增並不會更改視覺效果，除非您使用 [基本篩選] 或 [進階篩選] 控制項。
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: b9bdde9e258af733dd182f3ea3bd814520a31e8c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>開始在 iPad 上使用 Power BI 行動裝置應用程式
 iPad 的 Microsoft Power BI for iOS 傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 
@@ -41,7 +41,7 @@ iPad 的 Microsoft Power BI for iOS 傳遞 Power BI、Power BI 報表伺服器�
 從 Apple App Store [下載 iPad 應用程式](http://go.microsoft.com/fwlink/?LinkId=522062)。
 
 > [!NOTE]
-> 您的 iPad 必須執行至少 iOS 9.0 以上版本。 
+> 您的 iPad 必須執行至少 iOS 10 以上版本。 
 > 
 > 
 

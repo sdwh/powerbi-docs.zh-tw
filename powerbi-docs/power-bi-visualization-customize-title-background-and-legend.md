@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 424e96c5315bd41fc79999555097602f629a1285
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>自訂視覺效果標題、圖例及背景 (教學課程)
 在本教學課程中，您將學到一些不同的方法，可以用來自訂視覺效果。   有許多選項可以自訂視覺效果，了解它們的最佳方式是探索 [格式化] 窗格 (選取滾筒刷圖示)。  為了讓您快速入門，本文向您示範如何自訂視覺效果標題、圖例和背景。  
@@ -33,9 +33,12 @@ ms.lasthandoff: 11/15/2017
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
+### <a name="prerequisites"></a>先決條件
+- Power BI 服務或 Power BI Desktop
+- 零售分析範例
 
 ## <a name="customize-visualization-titles-in-reports"></a>自訂報表中的視覺效果標題
-若要跟著做，請登入 app.powerbi，然後在[編輯檢視](service-interact-with-a-report-in-editing-view.md)[開啟零售分析範例](sample-datasets.md)報表。
+若要跟著做，請登入 Power BI 服務 (app.powerbi.com)，然後在[編輯檢視](service-interact-with-a-report-in-editing-view.md)中[開啟零售分析範例](sample-datasets.md)報表。
 
 > [!NOTE]
 > 當您將視覺效果釘選至儀表板時，它會變成儀表板圖格。  圖格本身也可以使用新的[標題和副標題、超連結來自訂，也能調整大小](service-dashboard-edit-tile.md)。
@@ -120,7 +123,6 @@ ms.lasthandoff: 11/15/2017
 | 瀑布圖 |是 |是 |可以 |
 
 ## <a name="next-steps"></a>後續步驟
-深入了解 [Power BI 報表中的視覺效果](power-bi-report-visualizations.md)  
 [自訂 X 軸和 Y 軸](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [自訂色彩和軸屬性](service-getting-started-with-color-formatting-and-axis-properties.md)  
 [Power BI - 基本概念](service-basic-concepts.md)  

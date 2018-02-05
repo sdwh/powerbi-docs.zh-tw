@@ -17,8 +17,8 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 19795cc3dd04fbba8db9c154631751f7dbe6a2ef
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 1c9be142c7d72950052b152cf7db1aaee54fe453
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/24/2018
@@ -34,7 +34,7 @@ ms.lasthandoff: 01/24/2018
 
 ![](media/sample-human-resources/hr1.png)
 
-此範例是系列中的一部分，該系列說明您可如何使用 Power BI 的商業導向資料、報表及儀表板。 此為來自 obviEnce 的匿名真實資料 ([www.obvience.com)](http://www.obvience.com/)。
+此範例是系列中的一部分，該系列說明您可如何使用 Power BI 的商業導向資料、報表及儀表板。 此為來自 obviEnce 的匿名真實資料 ([www.obvience.com)](http://www.obvience.com/)。 資料會以數種格式提供：內容套件/應用程式、Excel 活頁簿，或 .pbix Power BI Desktop 檔案。 若要深入了解，請參閱[範例資料集](sample-datasets.md)。
 
 ## <a name="prerequisites"></a>先決條件
 

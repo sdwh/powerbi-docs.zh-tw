@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -63,7 +63,7 @@ Power BI 報表作者可以建立專為手機最佳化的報表版面配置。 �
 深入了解[為手機檢視最佳化的報表](mobile-apps-view-phone-report.md)。
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>使用交叉分析篩選器來篩選報表頁面
-在 Power BI 服務中設計報表時 [(https://powerbi.com)](https://powerbi.com)，請記住在手機上您看不到 [篩選] 窗格，但是您會[在報表頁面上看到交叉分析篩選器](power-bi-visualization-slicers.md)。 將交叉分析篩選器新增至報表，讓您和您的同事可以在手機上使用交叉分析篩選器來篩選頁面。
+在 Power BI Desktop 或 Power BI 服務中設計報表時，請考慮[將交叉分析篩選器加入報表頁面中](power-bi-visualization-slicers.md)。 您和您的同事可以在瀏覽器的頁面中和行動裝置應用程式中，使用交叉分析篩選器來篩選頁面。 當您在手機上檢視報表時，可以在橫向模式中，以及針對手機直向模式的最佳化頁面中，查看交叉分析篩選器並與它互動。
 
 * 當您在報表頁面上的交叉分析篩選器中選取值時，會篩選頁面上的其他視覺效果。
   

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 01/24/2018
 ms.author: maikelson
-ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.openlocfilehash: 91a629699c782914ec542a2b7a668cf25e47ec27
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -47,13 +47,15 @@ ms.lasthandoff: 12/18/2017
 
 >[從 Power BI 社群參與即將舉行的網路研討會](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-- [改善醫療保健業的獲利能力 - 12/12/17](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
+沒有已排定的網路研討會。 請稍後再回來查看近期的活動。
 
 ## <a name="on-demand-webinars"></a>隨選網路研討會
 
 在任何時候觀賞錄製下來的會議實況
 
 >[瀏覽我們的社群專家所主講的 Power BI 隨選網路研討會影片庫](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+
+- [改善醫療保健業的獲利能力](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website) (英文)
 
 - [如何實作成功的資料控管策略好讓組織更加安全](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 

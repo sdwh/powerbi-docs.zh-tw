@@ -1,5 +1,5 @@
 ---
-title: "從資料集建立新的報表 "
+title: "教學課程 - 從資料集建立新的報表 "
 description: "從資料集建立新的 Power BI 報表。"
 services: powerbi
 documentationcenter: 
@@ -15,20 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: f4afb1eaa1b3012fdbdb0eff35e9eff695cc32e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>匯入資料集以建立新的 Power BI 報表
 您已閱讀 [Power BI 中的報表](service-reports.md)，現在想要建立自己的報表。 有許多不同的方式可建立報表，在本文中，我們一開始是從 Excel 資料集建立非常基本的報表。 了解建立報表的基本概念之後，底部的＜後續步驟＞會將您導向更進階的報表主題。  
 
 > **提示**︰若要透過複製現有報表來建立報表，請參閱[複製報表](power-bi-report-copy.md)。
 > 
-> 
+### <a name="prerequisites"></a>先決條件
+- Power BI 服務 (若要使用 Power BI Desktop 建立報表，請參閱 [Desktop 的報表檢視](desktop-report-view.md))   
+- 零售分析範例資料集
 
 ## <a name="import-the-dataset"></a>匯入資料集
 這種建立報表的方法會從資料集和空白報表畫布開始。 如果要跟著做，請[下載零售分析範例 Excel 資料集](http://go.microsoft.com/fwlink/?LinkId=529778)，並將它儲存至商務用 OneDrive (慣用) 或本機。
@@ -36,7 +38,7 @@ ms.lasthandoff: 11/13/2017
 1. 我們會在 Power BI 服務工作區中建立報表，因此請選取現有工作區或建立新工作區。
    
    ![](media/service-report-create-new/power-bi-workspaces2.png)
-2. 在左側導覽列底部，選取 [取得資料]。
+2. 在左側導覽窗格底部，選取 [取得資料]。
    
    ![](media/service-report-create-new/power-bi-get-data3.png)
 3. 選取 [檔案]，然後導覽至您已儲存零售分析範例的位置。
@@ -83,7 +85,7 @@ ms.lasthandoff: 11/13/2017
 4. 選取 [時間] > [期間] 以將它新增至 [軸] 井。
    
     ![](media/service-report-create-new/power-bi-report-step5.png)
-5. 若要排序視覺效果，請選取省略符號，然後選擇 [依據期間排序]。
+5. 若要依時間期間排序視覺效果，請選取省略符號，然後選擇 [依據期間排序]。
 6. 現在讓我們新增交叉分析篩選器。 選取畫布上的空白區域，然後選擇交叉分析篩選器 ![](media/service-report-create-new/power-bi-slicer-icon.png) 範本。 這樣會將空白交叉分析篩選器新增至畫布。
    
     ![](media/service-report-create-new/power-bi-report-step6.png)    
@@ -93,12 +95,11 @@ ms.lasthandoff: 11/13/2017
 8. 使用交叉分析篩選器，依區域尋找模式和深入資訊。
    
    ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
-9. 選擇性地繼續新增視覺效果。
+
+繼續探索資料，並新增視覺效果。 當您找到特別有趣的深入解析時，請[將它們釘選到儀表板](service-dashboard-pin-tile-from-report.md)。
 
 ## <a name="next-steps"></a>後續步驟
-* [建立報表複本](power-bi-report-copy.md)
-* [儲存報表](service-report-save.md)    
 * [在報表中新增頁面](power-bi-report-add-page.md)  
-* 了解如何[將視覺效果釘選到儀表板](service-dashboard-pin-tile-from-report.md)    
+* 了解如何[將視覺效果釘選到儀表板](service-dashboard-pin-tile-from-report.md)   
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 
