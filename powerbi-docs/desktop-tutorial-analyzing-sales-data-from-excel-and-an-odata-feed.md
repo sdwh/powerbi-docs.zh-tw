@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 03c5afae78e1688cadfdef9c0a96ca9f24247e12
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>教學課程：分析來自 Excel 和 OData 摘要的銷售資料
 有了 **Power BI Desktop**，您便可以連接到各種不同的資料來源，然後以有趣、具信服力的資料分析和視覺效果，來結合資料使其成形。 在本教學課程中，您將了解如何結合來自兩個資料來源的資料。 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/15/2017
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
-若要遵循本教學課程中的步驟進行，您需要 Products 活頁簿，其下載方式為**：**[按一下](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[這裡](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[來下載 ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[.](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
+若要遵循本教學課程中的步驟進行，您需要 Products 活頁簿，其下載方式為**：**[按一下](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[這裡](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[來下載 ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[。](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
 
 在 [另存新檔]  對話方塊中，將檔案命名為 **Products.xlsx**。
 
@@ -140,7 +140,7 @@ Power BI Desktop 可讓您根據所匯入的資料行建立計算方式，以加
 
 ### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>步驟 5：設定 LineTotal 欄位的資料類型
 1. 以滑鼠右鍵按一下 **LineTotal** 資料行。
-2. 選取 [變更類型]  ，然後選擇 [十進位數字]。
+2. 選取 [變更類型]，然後選擇 [十進位數字]。
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
@@ -229,6 +229,5 @@ Power BI Desktop 可讓您與交互醒目提示並彼此篩選的視覺效果互
 * [觀看 Power BI Desktop 影片](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [瀏覽 Power BI 論壇](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [閱讀 Power BI 部落格](http://go.microsoft.com/fwlink/?LinkID=519327)
-
 
 
