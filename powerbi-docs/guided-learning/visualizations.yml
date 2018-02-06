@@ -1,12 +1,12 @@
 ### YamlMime:Tutorial
-title: "視覺化"
+title: "視覺效果"
 metadata:
   title: "視覺效果 | Microsoft Power BI"
   description: "視覺效果可將您的資料帶入生活之中，並顯露出唯有吸引人且令人驚訝的視覺呈現方式所能展現的深入解析。 本節會說明如何做到。"
   audience: Business User
   level: Beginner
   nextTutorialHref: exploringdata
-  nextTutorialTitle: Exploring data
+  nextTutorialTitle: "探索資料"
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +15,13 @@ metadata:
   ms.date: 12/05/2017
   ms.author: davidi
   ms.openlocfilehash: e1492e55e47ea0871f4a07a0cc599570f36cae40
-  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 12/12/2017
+  ms.lasthandoff: 02/06/2018
 items:
 - durationInMinutes: 1
-  content: >
-    Visualizations bring your data to life, and reveal insights that only compelling and amazing visual representations can. This section of **Power BI** Guided Learning shows you how to get started using them.
+  content: "視覺效果可將您的資料帶入生活之中，並顯露出唯有吸引人且令人驚訝的視覺呈現方式所能展現的深入解析。 **Power BI** 引導式學習的本章會示範如何開始加以使用。\n"
 - title: "Power BI 的視覺效果簡介"
   durationInMinutes: 2
   content: >
@@ -156,4 +155,4 @@ items:
 
 
     [!INCLUDE [](includes/3-11h-r-visual-integration.md)]
-- content: "Nice work. You've completed the **Visualizations** section of **Guided Learning**, and you're ready for the next tutorial - **Exploring data**.\0"
+- content: "做得很好。 您已完成**引導式學習**的**視覺效果**一節，請準備好進行下一個教學課程 - **探索資料**。\0"
