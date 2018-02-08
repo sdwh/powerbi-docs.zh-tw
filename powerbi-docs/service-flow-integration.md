@@ -62,7 +62,7 @@ ms.lasthandoff: 01/24/2018
 1. 從觸發程序下拉式清單中，選取一項 Power BI 資料警示。 選取 [New medal for Ireland] \(愛爾蘭的新獎牌)。 若要了解如何建立警示，請參閱 [Power BI 中的資料警示](service-set-data-alerts.md)。
    
    ![](media/service-flow-integration/power-bi-trigger-flow.png)
-2. 輸入一或多個有效電子郵件地址，然後選取 [編輯] (如下所示) 或 [新增動態內容]。 
+2. 輸入一或多個有效電子郵件地址，然後選取 [編輯]\(如下所示) 或 [新增動態內容]。 
    
    ![](media/service-flow-integration/power-bi-flow-email.png)
 
