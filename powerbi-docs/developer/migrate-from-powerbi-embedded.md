@@ -126,7 +126,7 @@ Microsoft 最近[宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/mic
 #### <a name="directquery-dataset--report"></a>DirectQuery 資料集和報表
 **流程**
 
-1. 呼叫 GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources，並儲存收到的連接字串。
+1. 呼叫 GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources ，並儲存收到的連接字串。
 2. 從 PaaS 工作區，呼叫下載 PBIX API。
 3. 儲存 PBIX。
 4. 對 SaaS 工作區呼叫匯入 PBIX。
