@@ -47,9 +47,7 @@ ms.lasthandoff: 01/24/2018
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-<a name="create">
-
-</a> 若要建立自己的組合圖，請登入 Power BI 服務並選取 [取得資料] \> [範例]\> [零售分析範例] > [連線]> [移至儀表板]****。
+<a name="create"></a> 若要建立自己的組合圖，請登入 Power BI 服務並選取 [取得資料] \> [範例]\> [零售分析範例] > [連線]> [移至儀表板]****。
 
 1. 從 [零售分析範例] 儀表板，選取 [所有門市]  圖格，開啟 [零售分析範例] 報表。
 2. 選取 [編輯報表]  ，在編輯檢視中開啟報表。
