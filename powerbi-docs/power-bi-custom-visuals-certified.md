@@ -66,7 +66,7 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [Box and Whisker](https://appsource.microsoft.com/product/power-bi-visuals/WA104380831?src=office&tab=Overview) (盒鬚圖) | |
 | [Brick chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380836) (MAQ Software 磚塊圖) | |
 | [Bubble chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381340?src=office) (Akvelon 泡泡圖) | |
-| [重點式圖表](https://store.office.com/app.aspx?assetid=WA104380755) |[Video1](https://youtu.be/AOlsFYkfkcw)   [Video2](https://youtu.be/AQvd2FhRyCI) |
+| [重點式圖表](https://store.office.com/app.aspx?assetid=WA104380755) |[影片1](https://youtu.be/AOlsFYkfkcw)   [影片2](https://youtu.be/AQvd2FhRyCI) |
 | [Bullet Chart by OKViz](https://store.office.com/bullet-chart-by-okviz-WA104380953.aspx) (依 OKViz 排列的重點式圖表) |[影片](https://youtu.be/mtvUNl9bMjA) |
 | [Calendar by Tallan](https://appsource.microsoft.com/product/power-bi-visuals/WA104381146?src=office&tab=Overview) (Tallan 行事曆) | |
 | [Candlestick by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380952) (OKViz K 線圖) | |
