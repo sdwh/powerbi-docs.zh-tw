@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: 47168f33b8c6aca967b7b4d14248f9ec6b4d0767
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: d3643ae398c037c375c8e67360794047a6f66ed7
+ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 有了 **Power BI Desktop**，當您連接到資料來源時，隨時可將資料的複本匯入 **Power BI Desktop**。 對於某些資料來源，可用的替代方式是：使用 **DirectQuery**直接連接到資料來源。
@@ -61,7 +61,7 @@ ms.lasthandoff: 12/06/2017
 * 根據預設，量值中允許的 DAX 運算式會有所限制，詳細資訊請參閱後續段落 (在此項目符號清單後)
 * 使用 **DirectQuery** 傳回資料時，限制為 1 百萬個資料列。 這不會影響用來建立使用 **DirectQuery**傳回的資料集彙總或計算，只會影響傳回的資料列。 比方說，您可以使用在資料來源執行的查詢彙總 10 萬個資料列，並使用 **DirectQuery**準確地將該彙總的結果傳回 Power BI，只要傳回 Power BI 的資料小於 1 百萬個資料列即可。 如果從 **DirectQuery**傳回的資料列超過 1 百萬個，Power BI 便會傳回錯誤。
 
-為確保傳送至基礎資料來源的查詢皆具有足夠的效能，系統根據預設會對量值有所限制。 進階使用者可以選擇略過此限制，方法是選取 [檔案] > [選項][設定] > [選項]、[設定] > [DirectQuery]，然後選取 [允許在 DirectQuery 模式中量值不受限制] 選項 *。 選取該選項後，即可使用任何適用於量值的 DAX 運算式。 不過使用者也必須了解，在匯入資料時效能很好的某些運算式，在 DirectQuery 模式中可能會導致後端來源的查詢速度緩慢。
+為確保傳送至基礎資料來源的查詢皆具有足夠的效能，系統根據預設會對量值有所限制。 進階使用者可以藉由依序選取 [檔案] > [選項]，[設定] > [選項] 及 [設定] > [DirectQuery]，然後選取選項 [在 DirectQuery 模式中允許不受限制的量值]。 選取該選項後，即可使用任何適用於量值的 DAX 運算式。 不過使用者也必須了解，在匯入資料時效能很好的某些運算式，在 DirectQuery 模式中可能會導致後端來源的查詢速度緩慢。
 
 ## <a name="important-considerations-when-using-directquery"></a>使用 DirectQuery 時的重要考量
 使用 **DirectQuery** 時，應考慮下列三點：
