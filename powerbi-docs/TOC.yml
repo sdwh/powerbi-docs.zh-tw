@@ -128,8 +128,6 @@
           href: service-connect-to-azure-consumption-insights.md
         - name: Azure 搜尋服務
           href: service-connect-to-azure-search.md
-        - name: Azure 資訊安全中心
-          href: service-connect-to-azure-security-center.md
         - name: Bing
           href: service-connect-to-bing.md
         - name: 電路識別碼
@@ -928,7 +926,7 @@
           href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
         - name: 將 Power BI 磚或儀表板釘選到開始畫面
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-        - name: 在 Surface Hub 使用簡報模式檢視 Power BI
+        - name: 在 Surface Hub 以簡報模式檢視 Power BI
           href: mobile-windows-10-app-presentation-mode.md
 - name: Power BI 開發人員
   items:
@@ -980,8 +978,6 @@
       items:
         - name: 使用開發人員工具建立自訂視覺效果
           href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: 檢閱自訂視覺效果的安全性與隱私權
-          href: service-custom-visuals-review-for-security-and-privacy.md
         - name: 讓自訂視覺效果獲得認證
           href: power-bi-custom-visuals-certified.md
     - name: 將資料推送至儀表板
