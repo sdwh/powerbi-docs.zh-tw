@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: c82b5c302511d5c82ae0048b8dce4f227f6fc5b1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 53d367d0dc76b338659283215855f4b55a2679fd
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>關於 Power BI 的常見問題集
 * 如果您有其他問題，請[嘗試詢問 Power BI 社群](http://community.powerbi.com/)。
@@ -141,7 +141,7 @@ Power BI Desktop 的軟體授權條款聲明「您可以在您的單位安裝及
 ## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>如果我的 Power BI Pro 授權到期，會發生什麼情況？
 在 Power BI Pro 授權到期後，有 30 天的寬限期。
 
-Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳細資訊，請參閱[我的商務用 Office 365 訂用帳戶結束時，我的資料和存取權會發生什麼情況？](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
+Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳細資訊，請參閱[我的商務用 Office 365 訂用帳戶結束時，我的資料和存取權會發生什麼情況？](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI 是否符合國家、地區和業界的特定合規性要求？
 請在 [Microsoft 信任中心](http://go.microsoft.com/fwlink/?LinkId=785324)深入了解 Power BI 合規性。

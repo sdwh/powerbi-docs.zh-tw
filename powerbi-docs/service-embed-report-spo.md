@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
-ms.openlocfilehash: 99b6391dc48772e21dd64038699a3365225167eb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78be1a631a167a3b32ecb7d884a3428dc6a362b0
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -98,12 +98,6 @@ ms.lasthandoff: 01/30/2018
 
 2. 與需要存取報表的使用者共用儀表板。 如需詳細資訊，請參閱 [Share a dashboard with colleagues and others](service-share-dashboards.md) (與同事和其他人共用儀表板)。
 
-## <a name="allowing-free-users-access-to-reports"></a>允許免費使用者存取報表
-
-免費使用者能夠檢視用 SharePoint Online 的 Power BI Web 組件內嵌的報表。 您為免費使用者提供存取權的方式，與上述[授與報表存取權](#granting-access-to-reports)給 Pro 使用者的方式相同。 報表所在的工作區也必須具備 Power BI Premium 容量。 
-
-例如，如果您在應用程式工作區中有報表，就必須將應用程式工作區指派給 Power BI Premium 容量。 您也必須將免費使用者新增到該應用程式工作區的成員清單。
-
 ## <a name="web-part-settings"></a>網頁組件設定
 
 以下是 SharePoint Online 的 Power BI 網頁組件之可調整設定的描述。
@@ -160,5 +154,5 @@ ms.lasthandoff: 01/30/2018
 [Share a dashboard with colleagues and others](service-share-dashboards.md) (與同事和其他人共用儀表板)  
 [Power BI Premium - 這是什麼？](service-premium.md)  
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/) 
 

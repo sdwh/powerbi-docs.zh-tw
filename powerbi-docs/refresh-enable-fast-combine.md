@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/06/2018
 ms.author: davidi
-ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: 5d754dbdd5d52e7a5b123755015e656d9fb2cea2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>停用在 Power BI 閘道器的隱私權設定─個人
 > [!NOTE]
@@ -45,7 +45,7 @@ ms.lasthandoff: 12/22/2017
 > 
 
 ## <a name="what-is-fast-combine"></a>什麼是快速合併？
-如需深入了解隱私權等級和「快速合併」，您可以查看[隱私權等級](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)。 根據預設，隱私權層級會設定為私用，因而造成上述錯誤。 這是因為私用的設定會隔離其他來源的資料來源。 一種會導致問題的範例是，會另一個資料來源取得輸入的參數型查詢。
+如需深入了解隱私權等級和「快速合併」，您可以查看[隱私權等級](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)。 根據預設，隱私權層級會設定為私用，因而造成上述錯誤。 這是因為私用的設定會隔離其他來源的資料來源。 一種會導致問題的範例是，會另一個資料來源取得輸入的參數型查詢。
 
 開啟「快速合併」會忽略私用設定，並允許執行。
 
@@ -85,7 +85,7 @@ ms.lasthandoff: 12/22/2017
 
 ## <a name="next-steps"></a>後續步驟
 [內部部署資料閘道 (個人模式) - 新版本的個人閘道](service-gateway-personal-mode.md)
-[隱私權等級](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
+[隱私權等級](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
 [Power BI Desktop 中的常見查詢工作](desktop-common-query-tasks.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 02/06/2018
 ms.author: yshoukry
-ms.openlocfilehash: 9a00183a81e549f873fab53807072b1beeaec7c2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: e71b8d16407dccd559037cfe0aecd8079f62175e
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>使用 Power BI 連接到 Azure 稽核記錄
 您可以使用 Azure 稽核記錄內容套件，來分析及視覺化儲存在稽核記錄中的資訊。 Power BI 會擷取您的資料、建置現成的儀表板，然根據該資料建立報表。
@@ -59,7 +59,7 @@ ms.lasthandoff: 01/19/2018
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
 
 ## <a name="system-requirements"></a>系統需求
-Azure 稽核記錄檔內容套件需要存取 Azure 入口網站中的稽核記錄檔。 更多詳細資料在[這裡](https://azure.microsoft.com/en-us/documentation/articles/insights-debugging-with-events/)。
+Azure 稽核記錄檔內容套件需要存取 Azure 入口網站中的稽核記錄檔。 更多詳細資料在[這裡](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/)。
 
 <a name="FindingParams"></a>
 

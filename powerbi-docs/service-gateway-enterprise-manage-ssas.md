@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 72445988ff4080b7c24f09f797f2038b957631ef
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理您的資料來源─Analysis Services
 安裝內部部署資料閘道之後，您必須新增可搭配閘道使用的資料來源。 本文將探討如何使用閘道和資料來源。 您可以針對已排程的重新整理或即時連線，使用 Analysis Services 資料來源。
@@ -89,17 +89,6 @@ ms.lasthandoff: 01/25/2018
 您可以設定資料來源的隱私權等級， 如此可控制如何混搭資料。 這只能用於已排程的重新整理。 不適用於即時連線。 [深入了解](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
-
-## <a name="get-data-experience-for-analysis-services-in-power-bi-site"></a>Power BI 網站中 Analysis Services 的「取得資料」體驗
-直接使用 Power BI 服務內的「取得資料」是使用 Analysis Services 的唯一選項。 您不需要 Power BI Desktop，也可以連接至閘道內設定的即時 Analysis Services 資料來源。 您的帳戶必須先列在閘道下資料來源的 [使用者] 索引標籤中，才能顯示在清單中。 若要連接至資料來源，您可以執行以下項目。
-
-1. 在 Power BI 服務內，選取 [取得資料]。
-2. 請選取 [資料庫]。
-3. 按一下 [SQL Server Analysis Services] >  [連接]。
-4. 從清單中選取資料來源。 此處會列出任何您可以存取的 Analysis Services 資料來源。
-5. 請選取您要連接的模型。 然後，選取 [連接]。
-
-您將會看到資料集與伺服器名稱一同顯示。 然後，您可以選取該資料集，並開始在上面建立報表。 這將適用於即時資料。
 
 ## <a name="usernames-with-analysis-services"></a>Analysis Services 與使用者名稱
 每次使用者和連接至 Analysis Services 的報表互動時，會將有效使用者名稱傳遞至閘道器，然後傳到內部部署 Analysis Services 伺服器。 您用以登入 Power BI 的電子郵件地址即為當作有效使用者傳遞給 Analysis Services 的內容。 傳遞此內容時是使用連接屬性 [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth)。 此電子郵件地址應符合本機 Active Directory 網域內定義的 UPN。 UPN 是 Active Directory 帳戶的屬性。 接著，該 Windows 帳戶就必須出現於 Analysis Services 角色中。 如果找不到任何相符項目，Active Directory 的登入即失敗。 [深入了解](https://msdn.microsoft.com/library/ms677605.aspx)

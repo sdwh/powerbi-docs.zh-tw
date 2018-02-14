@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
-ms.openlocfilehash: 251503064cca2c0365df74ed0c21b296fb30a7a8
-ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+ms.openlocfilehash: 99267fa0ffa1910f9dab920f939082aadb55d6aa
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 效能最佳做法 
 本文提供如何在 Power BI 中建置快速且可靠報表的指引。  
@@ -142,7 +142,7 @@ ms.lasthandoff: 12/12/2017
 
 [Azure Speed Test](http://azurespeedtest.azurewebsites.net/) 這類工具可以指出用戶端與 Azure 區域之間的網路延遲。 一般而言，若要將網路延遲的影響降到最低，請盡量將資料來源、閘道和 Power BI 叢集保留在最接近的位置。 如果網路延遲是問題，您可以嘗試放置閘道和資料來源，使其更接近 Power BI 叢集，而方法是將它們放置在虛擬機器上。 
 
-若要進一步改善網路延遲，請考慮使用 [Azure ExpressRoute](https://azure.microsoft.com/en-us/services/expressroute/)，其可在用戶端與 Azure 資料中心之間建立更快速且更可靠的網路連線。 
+若要進一步改善網路延遲，請考慮使用 [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)，其可在用戶端與 Azure 資料中心之間建立更快速且更可靠的網路連線。 
 
 ## <a name="next-steps"></a>後續步驟
 - [規劃 Power BI 企業部署](https://aka.ms/pbienterprisedeploy)，以及大規模 Power BI 部署的全面指引 
