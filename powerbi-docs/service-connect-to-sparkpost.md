@@ -3,7 +3,7 @@ title: "使用 Power BI 連接到 SparkPost"
 description: SparkPost for Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 0547f288649ef9d2c494d979c39bb9661b8b35f4
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 11cfb3b02c37ab839726c7fe87079afafb35f3b1
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>使用 Power BI 連接到 SparkPost
 Power BI 的 SparkPost 內容套件可讓您將 SparkPost 帳戶的寶貴資料集，擷取放入令人發想的儀表板。 您可以使用 SparkPost 內容套件視覺化整體的電子郵件統計資料，包括網域、活動和 ISP 參與。

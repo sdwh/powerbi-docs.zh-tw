@@ -3,7 +3,7 @@ title: "使用 Power BI 連接到 Mandrill"
 description: Mandrill for Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 92b069bded7fc6a22480d8190c1b8d0f53f959e4
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 32058acfe0c7631791e718d54c6d81f4dd707c50
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>使用 Power BI 連接到 Mandrill
 Power BI 內容套件會從 Mandrill 帳戶提取資料，並產生儀表板、一組報表與資料集，可讓您瀏覽資料。 請使用 Mandrill 分析，快速深入了解您的電子報或行銷活動。 資料會設定為每天重新整理，確保您所監視的資料為最新狀態。

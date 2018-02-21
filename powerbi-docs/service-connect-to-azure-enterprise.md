@@ -3,7 +3,7 @@ title: "使用 Power BI 連接到 Microsoft Azure 企業版"
 description: "Power BI 的 Microsoft Azure 企業版"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 9e19246d6caa8111ab4e61b5dc8fd6207ea1099e
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 040b72422b3267fcc4e909244b1a51fb48edfc81
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>使用 Power BI 連接到 Microsoft Azure 企業版
 使用 Power BI 內容套件探索並監控 Power BI 中的 Microsoft Azure 企業版資料。 資料會自動每天重新整理一次。

@@ -3,7 +3,7 @@ title: "使用 Power BI 連接到 Acumatica"
 description: Acumatica for Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 66d1544797008b4ed4c0ce2c7acd041aa60b967b
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: f03bc074c398796ddf0435662e7ee928799116d0
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>使用 Power BI 連接到 Acumatica
 Power BI Acumatica 內容套件可讓您快速深入了解機會資料。 Power BI 會擷取您的資料 (包含機會、帳戶和客戶)，然後根據該資料建置預設的儀表板和相關報表。

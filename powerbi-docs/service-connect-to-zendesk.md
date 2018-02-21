@@ -3,7 +3,7 @@ title: "使用 Power BI 連接到 Zendesk"
 description: Zendesk for Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 89f8fb24a762916ef7fabb16140cae31dac49f11
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 447f400136f9678cad068f215ee82522253fc0d5
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>使用 Power BI 連接到 Zendesk
 Zendesk 內容套件包含 Power BI 儀表板和一組 Power BI 報表，提供您有關於票證數量及代理程式效能的深入分析資料。 您可以使用提供的儀表板和報表，或是加以自訂，以反白顯示您特別有興趣的資訊。  資料會自動每天重新整理一次。 

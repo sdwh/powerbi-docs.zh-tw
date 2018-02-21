@@ -3,7 +3,7 @@ title: "使用 Power BI 連接到 Google Analytics (分析)"
 description: Google Analytics for Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 2e4ee5b6ba5625f1b184b5953a8b60429085562d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: sarinas
+ms.openlocfilehash: bc8cddede36bfa511f7044550e4b0dae4e463d92
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>使用 Power BI 連接到 Google Analytics (分析)
 透過 Power BI 連接到 Google Analytics 時，一開始會連接到您的 Google Analytics 帳戶。 您會看到 Power BI 儀表板和一組 Power BI 報表，供您深入了解網站流量和使用者維度。 您可以與儀表板和報表互動，但無法儲存變更。 資料會自動每天重新整理一次。

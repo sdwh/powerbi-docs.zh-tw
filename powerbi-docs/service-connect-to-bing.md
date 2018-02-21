@@ -3,7 +3,7 @@ title: "使用 Power BI 連接到 Bing"
 description: Bing for Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 305b718f16db7543b928df6902e406d23188b217
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: sarinas
+ms.openlocfilehash: 57dabe4131da49770ddea73c44c60c79f5c75fd1
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-bing-with-power-bi"></a>使用 Power BI 連接到 Bing
 Bing 內容套件可讓您檢視與所選字詞的網際網路搜尋活動相關的分析。

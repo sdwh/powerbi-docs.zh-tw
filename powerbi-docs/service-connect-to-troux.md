@@ -3,7 +3,7 @@ title: "使用 Power BI 連接到 Troux"
 description: Troux for Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: c2d8e22758e3d28a3851b99140876ff1646a6be0
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: cc5bccad484f6fcc4f7a59e1789fd1a12526874c
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-troux-for-power-bi"></a>連接到 Troux for Power BI
 使用 Troux 內容套件，您能以全新的方式，直接在 Power BI 中視覺化企業架構的儲存機制。 內容套件為您商務功能提供一組深入分析，同時提供具有這些功能的應用程式以及支援這些應用程式的技術，這些技術都可以使用 Power BI 完全自訂。

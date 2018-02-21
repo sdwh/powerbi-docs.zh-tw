@@ -3,7 +3,7 @@ title: "使用 Power BI 連接到 Planview Enterprise"
 description: Planview Enterprise for Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: cef43b20a6c7fe91ef35567caa511d125c536bf5
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: cd7026fe72bff40fd28aadf4ed3d2f9ee2b5d2fe
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>使用 Power BI 連接到 Planview Enterprise
 使用 Planview Enterprise 內容套件，您可以全新的方式，直接在 Power BI 中視覺化資源和工作管理資料。 請使用 Planview Enterprise 登入認證以互動方式查看投資組合的費用、了解超出預算及預算不足的部分，以及清楚專案如何配合公司的策略優先順序。 您也可以擴充立即可用的儀表板和報表，取得對您而言最重要的深入資訊。

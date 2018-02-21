@@ -3,7 +3,7 @@ title: "使用 Power BI 連接到 Webtrends"
 description: Webtrends for Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 23bfef9442aa334dd7b141fd470ab9176a17f91e
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 6ac4a361c5c265b06e1f869d9858afe9101f6e69
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>使用 Power BI 連接到 Webtrends
 Power BI 的 Webtrends 內容套件包含各種現成度量，例如網頁的總檢視，和依流量來源的查閱次數。 在 Power BI 中視覺化您的 Webtrends 資料時，首先請連接至 Webtrends 帳戶。 您可以使用提供的儀表板和報表，或是加以自訂，以反白顯示您特別有興趣的資訊。  資料會自動每天重新整理一次。

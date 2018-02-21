@@ -3,7 +3,7 @@ title: "使用 Power BI 連接到 tyGraph"
 description: tyGraph for Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 113d635469130a85486db4bccb555d4aa599f961
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 200438c1c7a488f963b44040324374905d643b6e
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>使用 Power BI 連接到 tyGraph
 使用 Power BI 內容套件以視覺化方式檢視和瀏覽 Power BI 中的 tyGraph 資料。 首先連接至 tyGraph 帳戶並載入儀表板、報表和資料集。 現成的內容包含如作用中參與量值 (MAE 分數) 與熱門參與者等深入資訊。 進一步自訂它以反白顯示您最關心的資訊。  資料會根據您設定的排程自動重新整理。
