@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/02/2017
+ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 7d4609d682af729ef60553263c3407aa99b17b5a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: a666099d55b70f088a101738e3ffea8fcf218659
+ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="power-bi-free-vs-pro"></a>Power BI 免費版與 Pro 版的比較
 Power BI 的每位使用者有可能使用免費版也有可能使用 Pro 版。 最好先了解這兩種使用者類型之間的差異。
 
-服務中的「所有使用者」都是免費或 Pro。 免費版或專業版使用者之間主要的差異在於共用以及共同作業。 只有 Pro 版的使用者才可將內容發行至應用程式工作區、使用無進階容量的應用程式、共用儀表板以及訂閱儀表板和報表。 免費使用者現在可以透過所有連線能力選項，例如 DirectQuery、即時連線及使用資料閘道，以連線至所有資料來源。
+服務中的「所有使用者」都是免費或 Pro。 免費版或專業版使用者之間主要的差異在於共用以及共同作業。 只有 Pro 版的使用者才可將內容發行至應用程式工作區、使用無 Premium 容量的應用程式、共用儀表板以及訂閱儀表板和報表。 免費使用者現在可以透過所有連線能力選項，例如 DirectQuery、即時連線及使用資料閘道，以連線至所有資料來源。
 
 若應用程式已發行，且其使用標的之應用程式工作區已指派為進階容量，則免費的使用者即可使用這些應用程式。
 

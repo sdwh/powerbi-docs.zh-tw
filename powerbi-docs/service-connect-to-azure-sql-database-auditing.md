@@ -3,7 +3,7 @@ title: "SQL Database 稽核內容套件"
 description: "適用於 Power BI 的 SQL Database 稽核內容套件"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: yshoukry
-ms.openlocfilehash: a2faefa9ebd62ef50e530dcad91482918f94d6d2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 70b8eea066b7d3b37b1508c83082cbc82e0949aa
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>適用於 Power BI 的 SQL Database 稽核內容套件
 Power BI 的 Azure [SQL Database 稽核](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/)內容套件可協助您了解資料庫活動，以及獲取可能指出業務疑慮或可疑安全性違規之差異及異常的深入資訊。 

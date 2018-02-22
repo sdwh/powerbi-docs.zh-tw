@@ -3,7 +3,7 @@ title: "使用 Power BI 連接到 Marketo"
 description: Marketo for Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: c642b50e1b0e24aa261e68bdca536e6e9e112dd1
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: d747b357315e275fae2f65d7e4e961f4867807a3
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>使用 Power BI 連接到 Marketo
 適用於 Marketo 的 Power BI 內容套件，可讓您深入了解您的 Marketo 帳戶有關潛在客戶和其活動的資料。建立此連接時可擷取您的資料，並自動依據該資料提供儀表板和相關報表。
@@ -47,7 +47,7 @@ ms.lasthandoff: 01/19/2018
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    
-   這可讓 *Power BI 的 Marketo* 內容套件存取 [Marketo 分析](https://powerbi.microsoft.com/integrations/marketo)資料，並可讓您分析 Power BI 中的資料。 資料會每天重新整理一次。
+   這可讓「Power BI 的 Marketo」內容套件存取 [Marketo 分析](https://powerbi.microsoft.com/integrations/marketo)資料，並可讓您分析 Power BI 中的資料。 資料會每天重新整理一次。
 6. 一旦連接到 Marketo 帳戶，會載入儀表板與您的所有資料：
    
    ![](media/service-connect-to-marketo/pbi_marketodash.png)
