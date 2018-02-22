@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>使用 Power BI 連接到 Project "Madeira"
 Power BI 和專案「Madeira」內容套件讓您輕鬆深入探索專案「Madeira」的資料。 Power BI 會擷取您的資料 (銷售和財務資料)，然後根據該資料建置現成的儀表板和報表。
@@ -47,7 +47,7 @@ Power BI 和專案「Madeira」內容套件讓您輕鬆深入探索專案「Made
     >[!NOTE]
     >您必須是專案「Madeira」中的超級使用者。
    
-    ![](media/service-connect-to-project-madeira/creds.png)
+   ![](media/service-connect-to-project-madeira/creds.png)
 6. 連接後，會自動載入儀表板、報表和資料集。 完成時，磚會更新為您帳戶中的資料。  
    
     ![](media/service-connect-to-project-madeira/dashboard.png)
@@ -95,12 +95,14 @@ Power BI 和專案「Madeira」內容套件讓您輕鬆深入探索專案「Made
 ## <a name="troubleshooting"></a>疑難排解
 Power BI 儀表板仰賴上列已發佈的 Web 服務，當您從目前的財務解決方案匯入資料時，該儀表板會顯示示範公司或您公司的資料。 不過，如果發生錯誤，本節提供常見問題的因應措施。
 
-**「參數驗證失敗。請確定所有參數都有效」** 如果在輸入專案 “Madeira” 的 URL 後，看到此錯誤，請確定您已滿足下列需求：  
+**「參數驗證失敗。請確定所有參數都有效。」**
 
-    - URL 會完全遵循此模式 https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company ('*CRONUS%20US*')  
-    - 刪除括弧中公司名稱後的所有文字  
-    - 請確定在 URL 結尾沒有尾端斜線。  
-    - 請確定 URL 使用的是安全連線，安全的 URL 會以 https 開頭。  
+如果您在輸入專案「Madeira」URL 之後看到此錯誤，請確定 URL 滿足以下需求：  
+
+   - URL 完全遵循此模式 https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company ('*CRONUS%20US*')  
+   - 刪除括弧中公司名稱後的所有文字  
+   - 確定在 URL 結尾沒有尾端斜線。  
+   - 確定 URL 使用的是安全連線，安全的 URL 會以 https 開頭。  
 
 **「登入失敗」** 如果使用專案「Madeira」認證登入儀表板時收到「登入失敗」錯誤，可能是下列其中一個問題所導致：  
 
