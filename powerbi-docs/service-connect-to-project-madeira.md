@@ -3,7 +3,7 @@ title: "使用 Power BI 連接到 Project Madeira"
 description: Project Madeira for Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.author: sarinas
+ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>使用 Power BI 連接到 Project "Madeira"
 Power BI 和專案「Madeira」內容套件讓您輕鬆深入探索專案「Madeira」的資料。 Power BI 會擷取您的資料 (銷售和財務資料)，然後根據該資料建置現成的儀表板和報表。
@@ -99,10 +99,10 @@ Power BI 儀表板仰賴上列已發佈的 Web 服務，當您從目前的財務
 
 如果您在輸入專案「Madeira」URL 之後看到此錯誤，請確定 URL 滿足以下需求：  
 
-   - URL 完全遵循此模式 https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company ('*CRONUS%20US*')  
+   - URL 會完全遵循此模式 https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company ('*CRONUS%20US*')  
    - 刪除括弧中公司名稱後的所有文字  
-   - 確定在 URL 結尾沒有尾端斜線。  
-   - 確定 URL 使用的是安全連線，安全的 URL 會以 https 開頭。  
+   - 請確定在 URL 結尾沒有尾端斜線。  
+   - 請確定 URL 使用的是安全連線，安全的 URL 會以 https 開頭。  
 
 **「登入失敗」** 如果使用專案「Madeira」認證登入儀表板時收到「登入失敗」錯誤，可能是下列其中一個問題所導致：  
 
