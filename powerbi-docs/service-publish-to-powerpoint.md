@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: 4ca79e960bc0370789ee735ba6b5391cbb8b110f
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 5ebfa2f54c26c0b4c3321120558e1cccb8bce146
+ms.sourcegitcommit: ed49510adee96042c02d6bdadbfcf8a2e566fbf8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/13/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>從 Power BI 將報表匯出至 PowerPoint (預覽)
 有了 Power BI，您現在可以將報表發佈至 **Microsoft PowerPoint**，並根據 Power BI 報表輕鬆地建立投影片組。 當您**匯出至 PowerPoint** 時會發生下列狀況︰
@@ -64,6 +64,8 @@ ms.lasthandoff: 01/25/2018
 1. 投影片組的第一頁包含您的報表名稱及連結，讓您**在 Power BI 中檢視**作為投影片組基礎的報表。
 2. 您也會獲得一些有關報表的實用資訊，包括匯出報表所依據的「上次資料重新整理」，以及「下載於」時間和日期，也就是 Power BI 報表匯出為 PowerPoint 檔案的日期和時間。
 3. 每張報表頁面都是一張個別的投影片，如左導覽窗格中所示。
+4. 已發行的報表會根據您 Power BI 設定中的語言來進行轉譯，否則會根據您的瀏覽器地區設定來進行轉譯。 若要查看或設定語言喜好設定，請選取齒輪圖示 ![](media/service-report-subscribe/power-bi-settings-icon.png) **> [設定] > [一般] > [語言]**。 如需地區設定的資訊，請參閱 [Power BI 支援的語言與國家/地區](supported-languages-countries-regions.md)。
+5. PowerPoint 簡報包含了一張封面投影片，其中有正確時區的匯出時間。
 
 當您瀏覽個別的投影片時，您會發現每個報表頁面都是獨立的影像。
 

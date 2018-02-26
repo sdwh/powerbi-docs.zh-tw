@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表建立並發佈應用程式
 
@@ -64,6 +64,8 @@ ms.lasthandoff: 01/25/2018
 
 * [連接至服務](service-connect-to-services.md)，例如 Microsoft Dynamics CRM、Salesforce 或 Google Analytics。
 * [從檔案取得資料](service-get-data-from-files.md)，例如 Excel、CSV 或 Power BI Desktop (PBIX) 檔案。
+
+當您在應用程式工作區中檢視內容時，擁有者會顯示為應用程式工作區的名稱。
 
 ## <a name="add-an-image-to-your-app-optional"></a>將影像新增至應用程式 (選擇性)
 Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用程式的縮寫。 但是，您可能會想要使用影像來進行自訂。 若要新增影像，您需要有 Exchange Online 的授權。

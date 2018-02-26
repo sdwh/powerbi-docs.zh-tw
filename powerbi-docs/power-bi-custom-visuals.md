@@ -3,7 +3,7 @@ title: "Power BI 中的自訂視覺效果"
 description: "Power BI 中的自訂視覺效果"
 services: powerbi
 documentationcenter: 
-author: mihart
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,54 +15,114 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/20/2017
-ms.author: mihart
-ms.openlocfilehash: c50b984cd8babc845dbe0223613e463a7a8ee76d
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.date: 02/06/2018
+ms.author: maghan
+ms.openlocfilehash: 72c4c0e3a177f83582677113b1c349a6ae295428
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI 的自訂視覺效果
-建立或編輯 Power BI 報表時，有各式各樣的視覺效果供您使用。 這些視覺效果會顯示在 [視覺效果] 窗格。 當您下載 Power BI Desktop 或開啟 Power BI 服務 (app.powerbi.com) 時，這組視覺效果已經「內建」。 
+建立或編輯 Power BI 報表時，有各式各樣的視覺效果供您使用。 這些視覺效果會顯示在 [視覺效果] 窗格。 當您下載 Power BI Desktop 或開啟 Power BI 服務 (app.powerbi.com) 時，這組視覺效果已經「內建」。
 
 ![](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
 但您能夠使用的不只這組視覺效果，選取省略符號可以開啟另一個報表視覺效果來源：「自訂視覺效果」。
 
-自訂視覺效果由社群成員與 Microsoft 建立，並在 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 上提供。 您可以下載這些視覺效果並將其新增至 Power BI 報表。 這些自訂視覺效果皆經過 Microsoft 核准，作用與 Power BI 的內建視覺效果相似，可供篩選、醒目提示、編輯和共用等等。 
+自訂視覺效果是由開發人員使用自訂視覺效果 SDK 所建立，可讓商務使用者以最符合業務的方式來查看資料。 報表作者之後可以將自訂視覺效果檔案匯入其報表中，並將它們當成 Power BI 視覺效果來使用。 自訂視覺效果是 Power BI 中的第一類物件，可以加以篩選、反白顯示、編輯、共用等等。
 
-什麼是 AppSource？ 簡單來說，這是為 Microsoft 軟體尋找應用程式、增益集和延伸模組的地方。 [AppSource](https://appsource.microsoft.com) 為上百萬名 Office 365、Azure、Dynamics 365、Cortana 及 Power BI 等產品的使用者提供了尋找解決方案的管道，讓使用者能夠以更有效率、更切實且更得心應手的方式搞定工作。
+自訂視覺效果可以有 3 種部署通道的形式：
+* 自訂視覺效果檔案
+* 組織視覺效果
+* Marketplace 視覺效果
 
-## <a name="two-types-of-custom-visuals"></a>兩種類型的自訂視覺效果
+## <a name="custom-visual-files"></a>自訂視覺效果檔案
 
-AppSource 提供的 Power BI 自訂解決方案可分為 2 類：**經過核准**與**經過認證**。 「AppSource 核准」的視覺效果可在瀏覽器、報表及儀表板中執行。  「Power BI 認證」的視覺效果已通過嚴格測試，且可在其他情況下受到支援，例如[電子郵件訂閱](service-report-subscribe.md)以及[匯出至 PowerPoint](service-publish-to-powerpoint.md)。
+自訂視覺效果是一種套件，其中包含的程式碼可用來轉譯提供給自訂視覺效果的資料。 任何人都可以建立自訂視覺效果，並將它封裝為單一 .pbiviz 檔案，以便匯入到 Power BI 報表中。
 
-若要查看已認證的自訂視覺效果清單，或提交您自己的視覺效果，請參閱[已認證的自訂視覺效果](power-bi-custom-visuals-certified.md)。
+> [!WARNING]
+> 自訂視覺效果可能包含具有安全性或隱私權風險的程式碼；在您將自訂視覺效果匯入至您的報表中之前，請確定您信任自訂視覺效果的作者與來源。
+> 
+> 
 
-您是否為 Web 開發人員，而且有興趣將自己建立的視覺效果發佈到 AppSource 呢？  請參閱[開始使用開發人員工具](service-custom-visuals-getting-started-with-developer-tools.md)並了解如何[在 AppSource 上發佈視覺效果](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)。
+## <a name="organization-visuals-preview"></a>組織視覺效果 (預覽)
 
-## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>從 Microsoft AppSource 下載或匯入自訂視覺效果
-您可以選擇從 Power BI 與 AppSource 網站下載及匯入視覺效果。 
+Power BI 系統管理員可以將自訂視覺效果部署到組織中，讓報表作者可以輕鬆地探索與使用系統管理員核准在組織內部使用的自訂視覺效果。 如此可讓系統管理員得以選擇要在組織中部署的特定自訂視覺效果，以及輕鬆管理 (例如，更新版本、停用/啟用) 視覺效果的方法。 報表作者可以輕易地探索組織專屬的視覺效果，而且能夠流暢地支援更新這些視覺效果。
 
-###    <a name="import-custom-visuals-from-within-power-bi"></a>從 Power BI 匯入自訂視覺效果
-1. 從 [視覺效果] 窗格底部選取省略符號。 
+如需有關組織自訂視覺效果的詳細資訊，請[深入了解組織視覺效果的相關資訊](power-bi-custom-visuals-organization.md)。
+
+## <a name="marketplace-visuals"></a>Marketplace 視覺效果
+
+社群成員與 Microsoft 貢獻出自訂視覺效果以供公眾使用，並將自訂視覺效果發佈至 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) Marketplace。 您可以下載這些視覺效果並將其新增至 Power BI 報表。 所有這些自訂視覺效果的功能與品質，都已通過 Microsoft 的測試與核准。
+
+什麼是 AppSource？ 簡單來說，這是為 Microsoft 軟體尋找應用程式、增益集和延伸模組的地方。 [AppSource](https://appsource.microsoft.com/en-us/) 為上百萬名 Office 365、Azure、Dynamics 365、Cortana 及 Power BI 等產品的使用者提供了尋找解決方案的管道，讓使用者能夠以更有效率、更切實且更得心應手的方式搞定工作。
+
+### <a name="certified-visuals"></a>認證的視覺效果
+
+Power BI 認證的視覺效果為已通過額外嚴格品質測試的 Marketplace 視覺效果，且支援額外的使用案例，例如[電子郵件訂閱](https://docs.microsoft.com/en-us/power-bi/service-report-subscribe)以及[匯出至 PowerPoint](https://docs.microsoft.com/en-us/power-bi/service-publish-to-powerpoint)。
+若要查看已認證的自訂視覺效果清單，或提交您自己的視覺效果，請參閱[已認證的自訂視覺效果](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-certified)。
+
+您是否為 Web 開發人員，而且有興趣將自己建立的視覺效果發佈到 AppSource 呢？ 請參閱[開始使用開發人員工具](https://docs.microsoft.com/en-us/power-bi/service-custom-visuals-getting-started-with-developer-tools)並了解如何[在 AppSource 上發佈視覺效果](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)。
+
+### <a name="import-a-custom-visuals-from-a-file"></a>從檔案匯入自訂視覺效果
+
+1. 從 [視覺效果] 窗格底部選取省略符號。
 
     ![](media/power-bi-custom-visuals/power-bi-visualizations2.png)
 
-2. 在下拉式清單中，選取 [從市集匯入]。
+2. 在下拉式清單中，選取 [從檔案匯入]。
 
-    ![](media/power-bi-custom-visuals/power-bi-custom-visual-import.png)
+    ![](media/power-bi-custom-visuals/power-bi-custom-visual-import-from-file.png)
 
-3. 捲動清單，尋找要匯入的視覺效果。 
+3. 從 [開啟檔案] 功能表中，選取您想要匯入的 .pbiviz 檔案，然後選取 [開啟]。 自訂效果的圖示會新增至 [視覺效果] 窗格的底部，並可立即用於報表中。
+
+    ![](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
+
+### <a name="import-organization-visuals"></a>匯入組織視覺效果
+
+1. 從 [視覺效果] 窗格底部選取省略符號。
+
+    ![](media/power-bi-custom-visuals/power-bi-visual-org-01.png)
+
+2. 在下拉式清單中，選取 [從 Marketplace 匯入]。
+
+    ![](media/power-bi-custom-visuals/power-bi-visual-org-02.png)
+
+3. 選取頂端索引標籤功能表中的 [我的組織]。
+
+    ![](media/power-bi-custom-visuals/power-bi-visual-org-03.png)
+
+4. 捲動清單，尋找要匯入的視覺效果。
+    
+    ![](media/power-bi-custom-visuals/power-bi-visual-org-04.png)
+
+5. 選取 [新增] 匯入自訂視覺效果。 自訂效果的圖示會新增至 [視覺效果] 窗格的底部，並可立即用於報表中。
+
+    ![](media/power-bi-custom-visuals/power-bi-visual-org-05.png)
+ 
+## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>從 Microsoft AppSource 下載或匯入自訂視覺效果
+您可以選擇從 Power BI 與 AppSource 網站下載及匯入視覺效果。
+
+### <a name="import-custom-visuals-from-within-power-bi"></a>從 Power BI 匯入自訂視覺效果
+
+1. 從 [視覺效果] 窗格底部選取省略符號。
+
+    ![](media/power-bi-custom-visuals/power-bi-visualizations2.png)
+
+2. 在下拉式清單中，選取 [從 Marketplace 匯入]。
+
+    ![](media/power-bi-custom-visuals/power-bi-visual-org-02.png)
+
+3. 捲動清單，尋找要匯入的視覺效果。
 
     ![](media/power-bi-custom-visuals/power-bi-import-visual.png)
 
-4.  若要深入了解其中一個視覺效果，請加以反白並選取。
+4. 若要深入了解其中一個視覺效果，請加以反白並選取。
 
     ![](media/power-bi-custom-visuals/power-bi-select.png)
 
-5.  您可以在詳細資料頁面上檢視螢幕擷取畫面、影片、詳細的描述等等。 
+5. 您可以在詳細資料頁面上檢視螢幕擷取畫面、影片、詳細的描述等等。
 
     ![](media/power-bi-custom-visuals/power-bi-synoptic.png)
 
@@ -70,12 +130,11 @@ AppSource 提供的 Power BI 自訂解決方案可分為 2 類：**經過核准*
 
     ![](media/power-bi-custom-visuals/power-bi-reviews.png)
 
-7.    選取 [新增] 匯入自訂視覺效果。 自訂效果的圖示會新增至 [視覺效果] 窗格的底部，並可立即用於報表中。
+7. 選取 [新增] 以匯入自訂視覺效果。 自訂效果的圖示會新增至 [視覺效果] 窗格的底部，並可立即用於報表中。
 
-       ![](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
+    ![](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-
-###    <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>從 Microsoft AppSource 下載並匯入自訂視覺效果
+### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>從 Microsoft AppSource 下載並匯入自訂視覺效果
 
 1. 請先前往 [Microsoft AppSource](https://appsource.microsoft.com) 並選取 [應用程式] 索引標籤。 
 
@@ -103,22 +162,14 @@ AppSource 提供的 Power BI 自訂解決方案可分為 2 類：**經過核准*
 
     ![](media/power-bi-custom-visuals/powerbi-custom-try-sample.png)
 
-6. 儲存 .pbiviz 檔案並開啟 Power BI。    
-7. 開啟您想將自訂效果新增至其中的報表，然後從 [視覺效果] 窗格的底部選取省略符號 > [從檔案匯入]。  
+6. 儲存 .pbiviz 檔案並開啟 Power BI。
 
-      ![](media/power-bi-custom-visuals/power-bi-custom-visual-import-from-file.png)
+7. 將 .pbiviz 檔案匯入您的報表 (請參閱上述[從檔案匯入自訂視覺效果](#import-a-custom-visuals-from-a-file)一節)
 
-8. 選取自訂效果檔案即可將該自訂效果的圖示新增到 [視覺效果] 窗格的底部。 您隨後便可在報表中使用該自訂效果。
-
-    ![](media/power-bi-custom-visuals/power-bi-chord.png)
-    
-##    <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-
+## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
 - 自訂視覺效果在匯入後會加入特定的報表。 如果想在另一份報表中使用這個視覺效果，也必須將它匯入該報表。 使用 [另存新檔]  選項儲存具有自訂視覺效果的報表時，自訂視覺效果的複本就會與新報表一起儲存。
 
 - 如果您沒有看到 [視覺效果] 窗格，這表示您沒有該報表的編輯權限。  您只能在您可編輯的報表中新增自訂視覺效果，而在與您共用的報表中則不能。
 
-
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

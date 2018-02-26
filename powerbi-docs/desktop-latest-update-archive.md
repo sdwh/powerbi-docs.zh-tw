@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 2a65b8b895d6461efa29290dbd9d09639358678d
-ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
+ms.openlocfilehash: 71a86c29c1ac690233016d91c4a66111978d47ba
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -30,6 +30,56 @@ ms.lasthandoff: 01/12/2018
 下列章節說明 **Power BI Desktop** 前幾個月的更新。
 
 您一律可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您使用哪種方式安裝 **Power BI Desktop**，每月的版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
+
+
+## <a name="january-2018-update-2544970761"></a>2018 年 1 月更新 (2.54.4970.761)
+
+我們以 **Power BI Desktop** 更新集合來迎接新年。我們在新年度的願望便是持續推出更新。
+
+旁邊的連結分別更新下列項目：
+
+* 討論到某功能時，**[影片]** 會在新的瀏覽器分頁中摘錄片段。
+* 某些功能有 **[文章]** 提供詳細資料。
+* 每月更新的 **[部落格]** 文章中則說明大多數功能。
+-   最後，有些功能一目瞭然，因此不需要文章或影片。
+
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
+
+以下是 1 月 **Power BI Desktop** 新增的更新：
+
+### <a name="reporting"></a>報告
+
+-   顯示和隱藏頁面 [[影片]](https://youtu.be/W8Pp5wuCXJw?t=20s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages) 
+-   控制笛卡兒座標和地圖視覺效果的資料標籤背景色彩 [[影片]](https://youtu.be/W8Pp5wuCXJw?t=3m13s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dataLabelBackground) 
+-   增加圖表中用於軸標籤的區域 [[影片]](https://youtu.be/W8Pp5wuCXJw?t=5m10s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#axisSize) 
+-   列 / 資料行邊框間距控制項 [[影片]](https://youtu.be/W8Pp5wuCXJw?t=6m40s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#padding) 
+-   分階層顯示日期 (預覽) [[影片]](https://youtu.be/W8Pp5wuCXJw?t=7m41s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dateHierarchy) 
+-   新增相對日期交叉分析篩選器的錨點日期 [[影片]](https://youtu.be/W8Pp5wuCXJw?t=9m22s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate) 
+-   問與答中前 N 個選取項目  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
+-   許多全新自訂視覺效果  [[影片]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
+
+### <a name="analytics"></a>分析
+
+-   相互關聯係數快速量值 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
+
+
+### <a name="data-connectivity"></a>資料連線
+
+-   Azure SQL Database 和資料倉儲連接器的 Azure Active Directory 驗證支援 [[影片]](https://youtu.be/W8Pp5wuCXJw?t=21m42s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#AADauth) 
+
+
+> [!NOTE]
+> 您也可以[查看 Power BI Desktop 的所有可用資料來源](desktop-data-sources.md)，我們的資料來源會持續增加，因此請經常回來查看。
+
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
+
+下列影片將描述並示範這些更新。 您也可以從部落格文章觀賞這段影片。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
+
+> [!NOTE]
+> 您可能也會想要了解 [Power BI 服務的新功能](service-whats-new.md)，並請同時查閱 [Power BI 行動應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。
+
 
 
 ## <a name="december-2017-update-2534954481-"></a>2017 年 12 月更新 (2.53.4954.481)

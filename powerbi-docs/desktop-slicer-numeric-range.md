@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: cee6cd859507105b7fc0c7e7075478d3a876f7bb
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 6d63236254906619f7244db9f57af162a19a70d6
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>在 Power BI Desktop 中使用數值範圍交叉分析篩選器
 透過 [數值範圍交叉分析篩選器]，您可以將各式各樣的篩選器套用至資料模型中的任何數值資料行。 您可以選擇篩選兩個數字**之間**、**小於或等於**某個數字，或是**大於或等於**某個數字。 這聽起來或許很簡單，但卻是篩選資料的強大方式。
@@ -56,6 +56,11 @@ ms.lasthandoff: 01/25/2018
 最後，如果我們選取 [大於或等於]，則滑動軸的右控點 (上限值) 會消失，而我們可以調整下限值，如下圖所示。 現在，只有 [UnitPrice] 大於或等於 750.56 的項目會顯示在報表頁面的視覺效果中。
 
 ![](media/desktop-slicer-numeric-range/slicer-numeric-range_7.png)
+
+## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer-preview"></a>使用數值範圍交叉分析篩選器貼齊至整數 (預覽)
+
+從 2018 年 2 月版本的 **Power BI Desktop** 開始，您的數值範圍交叉分析篩選器將會貼齊至整數。 這樣可讓您的交叉分析篩選器完全對齊整數。 貼齊至整數不適用於小數位數篩選器。
+
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 [數值範圍交叉分析篩選器] 目前適用下列限制與考量

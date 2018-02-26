@@ -15,26 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: add95532f645c143aea0f58200f9e3b1467320d0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02498ff745a2e06a49ed6064a4f7eefebff305f8
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 [分析] 窗格
-有了 **Power BI Desktop** 的 [分析] 窗格，您就可以將動態「參考線」新增至視覺效果，為重要的趨勢或深入解析提供焦點。 [分析] 窗格位於 Power BI Desktop 的 [視覺效果] 區域中，從 2016 年 8 月版本 (2.37.4464.321 版或更新版本) 開始提供，如下所示。
+有了 **Power BI Desktop** 的 [分析] 窗格，您就可以將動態「參考線」新增至視覺效果，為重要的趨勢或深入解析提供焦點。 [分析] 窗格位於 Power BI Desktop 的 [視覺效果] 區域中。
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
 
 > [!NOTE]
 > [分析] 窗格只會在您選取了 Power BI Desktop 畫布上的視覺效果時顯示。
-> 
-> 
 
-## <a name="enable-forecasting-preview"></a>啟用預測 (預覽)
-此外，有了 **Power BI Desktop** 的 2016 年 9 月版本 (2.39.4526.362 版或更新版本)，您也可以從 [分析] 窗格執行「預測」。 您必須前往 [檔案] > [選項與設定] > [選項]，然後從左側窗格選取 [預覽功能] 以啟用此預覽功能。 選取 [預測] 旁的核取方塊以啟用此功能，如下圖所示。 您必須重新啟動 **Power BI Desktop**，變更才會生效。
+## <a name="search-within-the-analytics-pane"></a>在分析窗格內進行搜尋
+從 2018 年 2 月發行的 **Power BI Desktop** (2.55.5010.201 版或更新版本) 開始，您可以在 [分析] 窗格內進行搜尋，此窗格是 [視覺效果] 窗格的一個子區段。 如下圖所示，選取 [分析] 窗格之後，就會出現搜尋方塊。
 
 ![](media/desktop-analytics-pane/analytics-pane_1b.png)
 

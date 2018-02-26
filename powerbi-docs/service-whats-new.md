@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/01/2017
-ms.author: sirsu
-ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.date: 02/07/2018
+ms.author: nikhilga
+ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
@@ -35,6 +35,23 @@ ms.lasthandoff: 01/19/2018
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+## <a name="january-2018"></a>2018 年 1 月
+*   共用 Power BI 報表並設為我的最愛。
+*   適用於 Azure SQL Database 和資料倉儲的 OAuth2 和 DirectQuery 單一登入支援 (SSO)。
+*   區域內稽核：稽核記錄現在將會儲存在與其租用戶相同的 Office 365 區域中。
+*   SharePoint Online [Power BI 報表網頁組件](https://go.microsoft.com/fwlink/p/?LinkId=825698)的 GA。
+*   針對租用戶中所有使用者關閉檢視自訂視覺效果的系統管理控制項。
+*   Azure Analysis Services (AAS) 排程的重新整理支援。
+
+## <a name="previous-months-2017"></a>前幾個月 (2017)
+## <a name="october-and-november-2017"></a>2017 年 10 月和 11 月
+*   [Power BI 應用程式](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)的選擇性發行內容。
+*   [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) 的外部使用者發佈。
+* 使用 AI 技術應用程式的建議。
+* 儀表板磚上 UI 更新。
+* 應用程式的電子郵件訂閱支援。 
+* [發佈至網路](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings)的細微系統管理控制項。
+
 ## <a name="september-2017"></a>2017 年 9 月
 * 與具有「進階」的免費使用者共用儀表板。
 * 配置容量以符合您的 v 核心集區業務需求。
@@ -42,7 +59,6 @@ ms.lasthandoff: 01/19/2018
 * [PubNub 區塊](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards)來輕鬆地將資料發送至 REST API
 * 改善的[使用計量](service-usage-metrics.md)負載效能。
 
-## <a name="previous-months-2017"></a>前幾個月 (2017)
 ### <a name="august-2017"></a>2017 年 8 月
 * 使用[每位使用者使用計量](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/)來了解您的對象。
 * 開始使用線上服務的 [Power BI 服務](service-connect-to-services.md)應用程式。

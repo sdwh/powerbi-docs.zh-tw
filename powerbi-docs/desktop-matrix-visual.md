@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ff29fa49cc3ad1a57ae0d09596b6e0d086b4d349
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>在 Power BI Desktop 中使用矩陣視覺效果
 透過 [矩陣] 視覺效果，您可以在 **Power BI Desktop** 報表中建立矩陣視覺效果 (有時也稱為 [資料表])，並與其他視覺效果交叉醒目提示矩陣內的項目。 此外，您可以選取資料列、資料行，甚至是個別資料格，然後交叉醒目提示。 最後，為了更妥善運用配置空間，矩陣視覺效果支援分層式配置。
@@ -34,6 +34,19 @@ ms.lasthandoff: 01/25/2018
 > 從 2017 年 7 月發行的 **Power BI Desktop** 開始，矩陣和資料表視覺效果會反映所套用**報表主題**中的樣式 (包括色彩)。 這些可能不是您預期的矩陣視覺效果色彩，而且您可以在「報表主題」設定中進行變更。 如需主題的詳細資訊，請參閱[**在 Power BI Desktop 中使用報表主題**](desktop-report-themes.md)。
 > 
 > 
+
+## <a name="understanding-how-power-bi-calculates-totals"></a>了解 Power BI 如何計算總和
+
+在開始了解如何使用**矩陣**視覺效果之前，務必先了解 Power BI 如何計算資料表和矩陣中的總和與小計值。 針對總和與小計資料列，量值會根據基礎資料的所有資料列進行評估，而不是僅僅加總可見或顯示資料列中的值。 這表示在總和資料列中，可能會得到與您預期不同的值。 
+
+看看下列**矩陣**視覺效果。 
+
+![](media/desktop-matrix-visual/matrix-visual_3.png)
+
+在此範例中，**矩陣**視覺效果最右邊的每個資料列都會顯示每位銷售人員/日期組合的 *Amount* (數量)。 不過，因為由於銷售人員能在多個日期上顯示，數字可能會出現一次以上。 因此，基礎資料的正確總和並不等於可見值的單純加總。 當加總的值屬於一對多關係中的「單一」端時，這是的常見模式。
+
+查看總和與小計時，請記住這些值是來自基礎資料，而不是來自可見值。 
+
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>使用矩陣視覺效果的向下切入
 透過 [矩陣] 視覺效果，您可以執行各式各樣有趣但之前未曾提供的向下切入活動。 這包括使用資料列、資料行，甚至是個別區段和資料格向下切入的功能。 讓我們來看看上述每項的運作方式。
@@ -144,16 +157,12 @@ ms.lasthandoff: 01/25/2018
 
 ![](media/desktop-matrix-visual/matrix-visual_19.png)
 
-## <a name="limitations-and-considerations"></a>限制與考量
-在此版本的 [矩陣] 視覺效果中，有幾點限制和考量要留意。
+## <a name="next-steps"></a>後續步驟
 
-* 資料行上的鑽研只能透過右鍵功能表來完成，而且目前沒有任何跡象顯示您可以在視覺效果上鑽研資料列或資料行群組
-* 您只能同時展開層級中的所有項目，而不是一次展開一個類別
-* 以滑鼠右鍵按一下資料行標題時，功能表中可能會出現 [查看記錄]，但無法操作
-* 目前沒有 [總計] 資料列
-* 關閉分層式配置中的小計列沒有任何作用
-* 如果內部群組所包含的文字比外部群組短，則可能會截斷資料行標題
-* 變更逐步的配置縮排不應該將最外層的資料列群組縮排
+您可能也會對下列文章感興趣：
 
-歡迎您告訴我們您的想法。 我們目前正在對這個 [矩陣] 視覺效果進行**問卷調查**，如果您有幾分鐘的時間，請[填寫問卷](https://www.instant.ly/s/PYXT1)。
+* [在 Power BI Desktop 報表中使用格線與貼齊格線](desktop-gridlines-snap-to-grid.md)
+* [Power BI Desktop 中的資料來源](desktop-data-sources.md)
+* [Power BI Desktop 中的資料類型](desktop-data-types.md)
 
+ 

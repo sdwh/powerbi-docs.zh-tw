@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/02/2018
+ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 01/30/2018
 
 ![](media/service-admin-portal/powerbi-admin-settings.png)
 
-入口網站中有五個索引標籤。 說明如下。
+入口網站中有六個索引標籤。 說明如下。
 
 * [使用計量](#usage-metrics)
 * [使用者](#users)
@@ -48,6 +48,7 @@ ms.lasthandoff: 01/30/2018
 * [租用戶設定](#tenant-settings)
 * [Premium 設定](#premium-settings)
 * [內嵌程式碼](#embed-codes)
+* [組織視覺效果](#Organization-visuals)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -269,6 +270,46 @@ ms.lasthandoff: 01/30/2018
 
 身為管理員，您可以檢視針對您租用戶產生的內嵌程式碼。 您有檢視報告及刪除內嵌程式碼以將它撤銷的動作。
 
+## <a name="organization-visuals"></a>組織視覺效果
+
+組織視覺效果索引標籤可讓您在組織內部部署和管理自訂視覺效果，因此您可以輕鬆地在組織中部署專屬的自訂視覺效果，讓報表作者可以輕鬆地直接從 Power BI Desktop 探索這些視覺效果並匯入到報表中。
+ 
+頁面會顯示目前部署在組織存放庫中的所有自訂視覺效果。
+ 
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+### <a name="add-a-new-custom-visual"></a>新增自訂視覺效果
+
+若要將新的自訂視覺效果新增到清單中，請選取 [新增自訂視覺效果]
+
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+
+> [!WARNING]
+> 自訂視覺效果可能包含具有安全性或隱私權風險的程式碼；在您將自訂視覺效果部署到組織存放庫之前，請確定您信任自訂視覺效果的作者與來源。
+> 
+
+填入欄位：
+ 
+* 選擇 .pbiviz 檔案 (必要)：選取要上傳的自訂視覺效果。 僅支援版本化 API 自訂視覺效果 (請參閱此處以了解其意義)。
+上傳自訂視覺效果之前，您應該先檢閱該視覺效果的安全性和隱私權，確定它符合組織的標準。 深入了解自訂視覺效果安全性。
+ 
+* 命名您的自訂視覺效果 (必要)：提供視覺效果一個簡短標題，以便 Power BI Desktop 使用者了解其用途
+ 
+* 圖示 (必要)：將在 Power BI Desktop UI 中顯示的圖示檔案。
+ 
+* 描述：視覺效果的簡短描述，以提供使用者更多相關內容與資訊
+ 
+選取 [套用] 以起始上傳要求。 如果成功，就會在清單中看到新的項目。 如果失敗，就會收到一則適當的錯誤訊息
+ 
+### <a name="delete-a-custom-visual-from-the-list"></a>從清單刪除自訂視覺效果
+
+選取資源回收筒圖示，從存放庫中永久刪除視覺效果。
+重要事項：刪除動作無法復原。 一旦刪除，視覺效果會立即停止在現有的報表中轉譯。 即使您重新上傳相同的視覺效果，它也不會取代上一個已刪除的視覺效果。使用者必須重新匯入新的視覺效果，並取代報表中的執行個體。
+ 
+### <a name="how-to-update-a-visual"></a>如何更新視覺效果
+
+如果有新版的視覺效果 (例如，Bug 修正、新功能等)，而想要更新存放庫中的視覺效果，請上傳新的檔案 (確定視覺效果識別碼維持不變) 成為清單中的新入口，並確定您在標題和描述中提供了正確的詳細資料 (例如，「我的視覺效果 2.0 版」)。 下一次使用者從 Power BI Desktop 進入組織存放庫時，將能匯入新的版本，並且會出現提示取代報表中的目前版本。
+ 
 ## <a name="next-steps"></a>後續步驟
 
 [了解 Power BI 系統管理員角色](service-admin-role.md)  

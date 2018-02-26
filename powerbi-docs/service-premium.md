@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/05/2018
 ms.author: maghan
-ms.openlocfilehash: eb2072b0beadf3f6f2cf702f35f56441bc38c7ff
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b2e41884ca799ca07223a4b5444e39b38aa2102a
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium - 這是什麼？
 Power BI Premium 為您的組織或小組提供專門用來執行 Power BI 服務的資源，給您更可靠的效能和更大的資料磁碟區。 Premium 也可讓您廣泛發佈內容，不需要您為檢視者購買每個使用者授權。
@@ -46,7 +46,7 @@ Power BI 中有兩種容量。 共用容量和 Power BI Premium 容量。 以下
 | 內嵌的 API 和控制項 |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用")<sup>2</sup> |
 | **在內部部署發佈 Power BI 報告** |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用") |
 
-*<sup>1</sup> 應用程式中的免費使用者使用方式包括在 Web 和行動裝置中檢視內容、使用問與答、深入資訊摘要、Cortana、匯出至 CSV、Excel 和 PowerPoint。*  
+*<sup>1</sup> 應用程式中的免費使用者使用方式包括在 Web 和行動裝置中檢視內容、使用問與答、深入資訊摘要、Cortana、匯出至 CSV、Excel 和 PowerPoint。其他未列出的活動需要 Pro 授權，例如在共用資料集上建立報告和 [在 Excel 中進行分析]。深入了解 [Power BI 免費和 Pro](service-free-vs-pro.md) 功能。*  
 *<sup>2</sup> Power BI Premium 的未來增強功能發佈 GA。*
 
 ### <a name="premium-capacity"></a>進階容量

@@ -1,6 +1,6 @@
 ---
 title: "該如何在 Power BI 中進行共同作業和共用？"
-description: "在 Power BI 中，您可以多種方式來共同作業和共用儀表板、報表和磚。 各有其優點。"
+description: "在 Power BI 中，您可以多種方式來共同作業和共用儀表板、報表、磚和應用程式。 各有其優點。"
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/18
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 31d862fd2086c0e1bdc98f3e6d84fcc1d2c094de
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/11/2018
 ---
-# <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>該如何在 Power BI 中共同作業和共用儀表板及報表？
+# <a name="how-should-i-collaborate-and-share-in-power-bi"></a>該如何在 Power BI 中進行共同作業和共用？
+
 您已建立儀表板和報表。 或許您也透過它們與同事共同作業。 然後，您希望其他人可以存取它們。 散發它們的最佳方式為何？
 
 在本文中，我們將比較 Power BI 內共同作業與共用的選項： 

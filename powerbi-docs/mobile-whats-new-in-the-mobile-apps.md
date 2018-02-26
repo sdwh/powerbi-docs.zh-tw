@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -29,6 +29,24 @@ ms.lasthandoff: 01/17/2018
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](desktop-latest-update.md)  
 * [Power BI 服務的新功能](service-whats-new.md)  
+
+## <a name="january-2018"></a>2018 年 1 月
+
+### <a name="report-favorites"></a>我的最愛報表
+
+將報表標記為我的最愛，即可讓它們顯示在 [我的最愛] 頁面上。 閱讀更多以了解 [Power BI 行動裝置應用程式中的我的最愛](mobile-apps-favorites.md)。
+
+### <a name="view-shared-reports"></a>檢視共用報表
+
+現在當有人與您共用報表時，它會與儀表板一起在 [與我共用] 頁面上列出。
+
+### <a name="improved-hyperlink-support"></a>改善的超連結支援
+
+您現在可以點選自訂視覺效果中的連結，以便在您的行動裝置瀏覽器中開啟它們。
+
+### <a name="intune-integration-android"></a>Intune 整合 (Android)
+
+支援使用 Intune 行動裝置管理的條件式存取。
 
 ## <a name="december-2017"></a>2017 年 12 月
 
