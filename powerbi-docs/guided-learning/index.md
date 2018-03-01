@@ -110,7 +110,7 @@ ms.lasthandoff: 11/17/2017
                                 <img src="media/pbi-modeling.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-建立模型 </h3>
+模型化 </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
                                 <a class="barLink" href="modeling.yml#step-1">資料模型簡介</a>
@@ -157,7 +157,7 @@ ms.lasthandoff: 11/17/2017
                                 <img src="media/pbi-visualizations.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-視覺化 </h3>
+視覺效果 </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
                                 <a class="barLink" href="visualizations.yml#step-1">Power BI 的視覺效果簡介</a>

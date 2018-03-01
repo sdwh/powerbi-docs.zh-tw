@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/11/2017
 ms.author: maghan
-ms.openlocfilehash: f729f20315d907cc2416723ba10b8c296e313899
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Premium
+ms.openlocfilehash: e25677f615f4aa5b1489604814cebc6916809c41
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-premium-release-notes"></a>Power BI Premium 版本資訊
 下列為 Power BI Premium 的版本資訊：專用容量為您的組織或小組提供更可靠的效能、更大的資料磁碟區、即使檢視者沒有每個的使用者授權也能夠散發內容。

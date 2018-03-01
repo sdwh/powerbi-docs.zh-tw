@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: a666099d55b70f088a101738e3ffea8fcf218659
-ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
+LocalizationGroup: Get started
+ms.openlocfilehash: 0d6282f1b0e89fbe1deb4fbea6a578b831fafd98
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-free-vs-pro"></a>Power BI 免費版與 Pro 版的比較
 Power BI 的每位使用者有可能使用免費版也有可能使用 Pro 版。 最好先了解這兩種使用者類型之間的差異。
