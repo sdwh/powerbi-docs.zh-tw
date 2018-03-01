@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 2dcf3b50b9019880a9a7a11c863bed88783214c7
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Get started
+ms.openlocfilehash: f76bc638893a06545fb5a71ec633dd470fd47dd8
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>瀏覽：搜尋、尋找和排序 Power BI 服務中的內容
 有許多方法可以瀏覽 Power BI 服務中的內容。 工作區中的內容會依類型加以組織：儀表板、報告、活頁簿和資料集。  而內容也會依使用情況加以組織：我的最愛、最近、應用程式、與我共用及精選。 這些通往您的內容的不同路徑，可讓您在 Power BI 服務中快速找出您所需的內容。  

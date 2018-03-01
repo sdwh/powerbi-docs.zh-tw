@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 79a47126c43f61d3495a948bf1a30f3d918429f3
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 779ef2c532d0b580f4a3d19c50815193d03c2f07
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Power BI 服務中的常用儀表板、報告和應用程式
 當您將內容設為「我的最愛」時，將可從所有工作區予以存取。  我的最愛通常是您最常瀏覽的內容。
