@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 1c9be142c7d72950052b152cf7db1aaee54fe453
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Samples
+ms.openlocfilehash: 7cd91ad5d6b43803745e5c6a12b6168e17f376af
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI 的人力資源範例：導覽
 
@@ -38,7 +39,7 @@ ms.lasthandoff: 01/24/2018
 
 ## <a name="prerequisites"></a>先決條件
 
- 您必須先將範例下載為內容套件、.pbix 檔案或 Excel 活頁簿，才能使用範例。
+ 您必須先將範例下載為[內容套件](https://docs.microsoft.com/en-us/power-bi/sample-human-resources#get-the-content-pack-for-this-sample)、[.pbix 檔案](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)或 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529780)，才能使用範例。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 

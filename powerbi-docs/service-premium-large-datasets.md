@@ -15,17 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
-ms.author: v-mamcge
-ms.openlocfilehash: 82ac4382fe80d83b60705f135b50738718f28876
-ms.sourcegitcommit: 7eb15c813a0d14322cb1316bb7aab23cbc13aae6
+ms.date: 02/27/2018
+ms.author: jocaplan
+LocalizationGroup: Premium
+ms.openlocfilehash: def06965692644c0328dae7a1d0ade8d13cc0d6c
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>大型資料集的 Power BI Premium 支援
 
-Power BI Premium 支援上傳大小最多為 10 GB 的 Power BI Desktop (.pbix) 檔案。 若要使用大型資料集，請將它發行至指派給 Premium 容量的工作區。
+Power BI Premium 支援上傳大小最多為 10 GB 的 Power BI Desktop (.pbix) 檔案。 上傳之後，資料集可以重新整理，最多 12 GB 的大小。 若要使用大型資料集，請將它發行至指派給 Premium 容量的工作區。
  
 ## <a name="best-practices"></a>最佳作法
 
