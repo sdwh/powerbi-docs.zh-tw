@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 95c46e6efddd9f0bde6be6cbc1e484f0f72452ce
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Get started
+ms.openlocfilehash: f9e30b3feb5f9b85a87686e4484bba035ff839aa
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服務的資料來源
 資料是 Power BI 的核心。 每當您瀏覽資料、建立圖表與儀表板、利用問與答提出問題時，您看到的所有視覺效果與答案其實都是從資料集取得其基礎資料。 但是，該資料集又來自何處？ 來自資料來源。
@@ -70,7 +71,7 @@ ms.lasthandoff: 12/06/2017
 
 在其他情況下，您可能必須查詢所需的資料並將該資料載入檔案。 例如，假設您在組織伺服器上的資料倉儲資料庫中有物流資料。 在 Power BI 服務中，您無法直接連接到該資料庫並開始瀏覽其資料 (除非是表格式模型資料庫)。 不過，您可以使用 Power BI Desktop 或 Excel 查詢物流資料並將該資料載入資料模型，再儲存為檔案。 然後將該檔案匯入資料集建立所在的 Power BI。
 
-您可能會問：「但是，該資料庫上的物流資料每天在變。 如何確保 Power BI 中的資料集會重新整理？」 Power BI Desktop or Excel 檔案中的連接資訊會連同資料一起匯入資料集。 如果您設定排程重新整理或手動重新整理資料集，Power BI 會使用資料集中的連接資訊以及其他一些設定，直接連接到資料庫、查詢更新並將這些更新載入資料集。 可能需要有 Power BI Gateway 來保護內部部署伺服器與 Power BI 之間的任何資料傳輸。 報表與儀表板中的任何視覺效果都會自動重新整理。
+您可能會問：「但是，該資料庫上的物流資料每天在變。 我該如何確定我在 Power BI 中的資料集會重新整理？」Power BI Desktop or Excel 檔案中的連接資訊會連同資料一起匯入資料集。 如果您設定排程重新整理或手動重新整理資料集，Power BI 會使用資料集中的連接資訊以及其他一些設定，直接連接到資料庫、查詢更新並將這些更新載入資料集。 可能需要有 Power BI Gateway 來保護內部部署伺服器與 Power BI 之間的任何資料傳輸。 報表與儀表板中的任何視覺效果都會自動重新整理。
 
 您會發現，雖然您無法直接從 Power BI 服務連接到資料來源，但並不表示您無法將該資料匯入 Power BI。 只需要一些額外步驟及 IT 部門的一些協助，就能辦到。 如需深入了解，請參閱 [Power BI Desktop 中的資料來源](desktop-data-sources.md)。
 
