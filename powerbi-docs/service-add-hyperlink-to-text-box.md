@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 9533985238fa9fb40bbab4e9ddd459aaaaffc135
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 95352c72dfca1c1439f89d532dbcfcc5cd26758c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>將超連結加入報表中的文字方塊
 文字方塊可以加入報表、從報表釘選到儀表板，並直接加入儀表板。 可以將超連結加入文字方塊中，不論其所在的位置。 **本主題涵蓋 Power BI 服務 (不是 Power BI Desktop) 中報告中的文字方塊。**

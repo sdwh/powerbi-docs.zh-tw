@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 5132f34182664327c608a96cd6c2a63ae335a21f
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: ab73dde22fdb0603a900ac67b6e76e8f5aaf3872
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>搭配使用外部 R IDE 與 Power BI
 透過 **Power BI Desktop**，您可以使用您的外部 R IDE (整合式開發環境) 來建立並精簡 R 指令碼，然後在 Power BI 中使用這些指令碼。

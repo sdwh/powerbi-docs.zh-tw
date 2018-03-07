@@ -1,7 +1,28 @@
--- title: 在 Power BI Desktop 中塑造與合併資料 description: 在 Power BI Desktop 中塑造與合併資料 services: powerbi documentationcenter: '' author: davidiseminger manager: kfile backup: '' editor: '' tags: '' qualityfocus: no qualitydate: ''
-
-ms.service: powerbi ms.devlang: NA ms.topic: article ms.tgt_pltfrm: NA ms.workload: powerbi ms.date: 01/30/2018 ms.author: davidi
-
+---
+title: "在 Power BI Desktop 中將資料成形及合併"
+description: "在 Power BI Desktop 中將資料成形及合併"
+services: powerbi
+documentationcenter: 
+author: davidiseminger
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 01/30/2018
+ms.author: davidi
+LocalizationGroup: Transform and shape data
+ms.openlocfilehash: c8f2419ae2898a59907763392eb86b4877b4fd75
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>在 Power BI Desktop 中將資料成形及合併
 有了 **Power BI Desktop**，您可以連接到各種不同的資料來源，再將資料成形以符合您的需求。 將資料 *成形* 的意思為轉換資料，例如重新命名資料行或資料表、將文字變更為數值、移除資料列、將第一個資料列設定為標頭等。 「結合」資料的意思為連線到二或多個資料來源、視需要將資料成形，再將它們合併為一個實用的查詢。
@@ -103,7 +124,7 @@ ms.service: powerbi ms.devlang: NA ms.topic: article ms.tgt_pltfrm: NA ms.worklo
 
 我們很幸運：有另一個公用的資料來源可執行該項工作，但還需要進行相當多的塑造，才能予以連接到我們的退休資料表。 以下是州名縮寫的 Web 資源：
 
-<https://zh.wikipedia.org/wiki/美國各州縮寫列表>
+<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
 從 [查詢編輯器] 的 **常用** 功能區，選取 **新增來源\>Web** 並輸入位址，然後選取 [確定]，[導覽器] 會顯示在該網頁上找到的資訊。
 

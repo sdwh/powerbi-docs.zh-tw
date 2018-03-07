@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 173c02c2d44236539c81edc2612e944b01641653
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Share your work
+ms.openlocfilehash: d8aac093b06910d5d32c2e5d33951db9448757c4
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>管理 Power BI 和 Office 365 中的應用程式工作區
 [Power BI 或 Office 365 中應用程式工作區](service-install-use-apps.md)的建立者或管理員，有幾個管理 Power BI 中工作區的層面要管理。 您在 Office 365 中管理的其他層面。 

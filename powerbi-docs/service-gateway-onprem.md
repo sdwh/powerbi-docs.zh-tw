@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 02/22/2018
 ms.author: davidi
-ms.openlocfilehash: 0e0ad501ed809fc1f7cd8cc66d7f5d13badf7d15
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Gateways
+ms.openlocfilehash: c9025194ebe8ce6b1829aacd9d74bff5d9c55e3c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="on-premises-data-gateway"></a>內部部署資料閘道
 內部部署資料閘道作為橋接器，替內部部署資料 (非位於雲端的資料) 與 Power BI、Microsoft Flow、Logic Apps 以及 PowerApps 服務之間，提供快速且安全的資料傳輸。

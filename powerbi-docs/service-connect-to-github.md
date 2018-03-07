@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 565fa325617ee6eced80266e2a76bed57551adb5
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: eb37cb0551a613cf85d5b5dd2608b018a3a05250
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-github-with-power-bi"></a>使用 Power BI 連接到 GitHub
 適用於 Power BI 的 GitHub 內容套件可讓您藉由參與、問題、提取要求和作用中的使用者相關資料，深入了解 GitHub 儲存機制 (也稱為 repo)。

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: e2844283e82943c38a4c8262fee97817ebf68973
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 709921a98f6e06572063cf78a83e42bd6b439262
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-microsoft-azure-consumption-insights-with-power-bi"></a>使用 Power BI 連接到 Microsoft Azure Consumption Insights
 使用 Power BI 內容套件探索並監視 Power BI 中的 Microsoft Azure 耗用量資料。 資料會自動每天重新整理一次。

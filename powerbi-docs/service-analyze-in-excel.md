@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 262245dab44ae904b51d6cb1449082171631dc09
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Reports
+ms.openlocfilehash: 385a89d6b50507833c1e43327c405f02b2468ac2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="analyze-in-excel"></a>使用 Excel 分析
 有時候您可能會想要使用 Excel 來檢視和與您有 Power BI 的資料集互動。 有了 [使用 EXCEL 分析]，您可以做到，並以存在於 Power BI 中的資料集為基礎來存取 Excel 的樞紐分析表、 圖表和交叉分析篩選器的功能。

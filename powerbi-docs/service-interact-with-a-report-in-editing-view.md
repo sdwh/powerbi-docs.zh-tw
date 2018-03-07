@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: da4f81f1c97477f7e141c90bb841b6dcb7bb092c
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>在 Power BI 服務中與編輯檢視的報表互動
 如果您擁有者權限，可以在 Power BI 服務和 Power BI Desktop 中編輯報表。 不同於 Desktop，Power BI 服務有兩種不同模式可與報表互動 -- [閱讀檢視](service-reading-view-and-editing-view.md) (適用於報表「取用者」) 和 [編輯檢視] (適用於報表擁有者和建立者)。 本文教學課程涵蓋 Power BI 服務中的編輯檢視。 

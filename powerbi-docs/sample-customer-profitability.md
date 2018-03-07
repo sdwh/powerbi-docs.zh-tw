@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 2ce970ee31b06447055d059ed9b604c169713030
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
+ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/01/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客戶獲利率範例：導覽
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>瀏覽客戶獲利率範例概觀
 「客戶獲利率範例」內容套件包含製作行銷資料的公司儀表板、報表和資料集。 CFO 建立這個儀表板是為了查看轄下 5 個業務單位經理 (或主管)、產品、客戶和毛利 (GM) 的關鍵度量。 她一眼即可看出影響獲利率的因素。
 
-<<<<<<< 標頭 ![](media/sample-customer-profitability/power-bi-dash.png)
+![](media/sample-customer-profitability/power-bi-dash.png)
 
 此範例是系列中的一部分，該系列說明您可如何使用 Power BI 的商業導向資料、報表及儀表板。 此為來自 obviEnce 的匿名真實資料 ([www.obvience.com](http://www.obvience.com/))。 資料會以數種格式提供：內容套件/應用程式、Excel 活頁簿，或 .pbix Power BI Desktop 檔案。 請參閱[範例資料集](sample-datasets.md)。
 
@@ -58,14 +58,7 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-<a name="if-you-want-to-dig-into-the-datasource-for-this-sample-its-also-available-as-an-excel-workbookhttpgomicrosoftcomfwlinklinkid529781-the-workbook-contains-power-view-sheets-that-you-can-view-and-modify-to-see-the-raw-data-select-power-pivot--manage"></a>如果您想要深入了解此範例的資料來源，我們也有以 [(Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529781) 的格式提供它。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。
-=======
-
-此範例是系列中的一部分，該系列說明您可如何使用 Power BI 的商業導向資料、報表及儀表板。 此為來自 obviEnce 的匿名真實資料 ([www.obvience.com](http://www.obvience.com/))。 資料會以數種格式提供：內容套件/應用程式、Excel 活頁簿，或 .pbix Power BI Desktop 檔案。 請參閱[範例資料集](sample-datasets.md)。
-
-### <a name="prerequisites"></a>先決條件
-想要跟著做嗎？ 在 [Power BI 服務](https://powerbi.com)中，前往 [取得資料] > [範例] > [客戶獲利率] > [連線]，以取得自己的範例複本。
->>>>>>> def2c8e086d65b6a3fb92247175730746226ae3e
+如果您想要深入了解此範例的資料來源，我們也有以 [(Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529781) 的格式提供它。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。
 
 
 ## <a name="what-is-our-dashboard-telling-us"></a>儀表板告訴我們什麼？

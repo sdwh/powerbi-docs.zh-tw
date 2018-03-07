@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: a0c4a4a5685b9923f794b9f9aa761884a9ea6b27
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 09362afc3bc84b454db8a095edc5135f1b9955d8
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>使用 Power BI 連接到 Microsoft Dynamics AX 內容套件
 Microsoft Dynamics AX 有三種針對不同商務使用者的 Power BI 內容套件。 專為 CFO 所設計的財務績效內容套件，可存取組織財務績效的深入資訊。 零售通路績效內容套件針對注重銷售績效的通路管理員，直接繪製零售與商務資料，以預測趨勢和探索深入資訊。 成本管理是專為 COO 和 CFO 所設計，並提供作業效能的詳細資料。

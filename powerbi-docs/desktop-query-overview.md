@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: fff6db53d19eb69bf582d3ec526ac625ec5cbab1
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Transform and shape data
+ms.openlocfilehash: 8b7fb21e533fecbfe93481741ae53b0073f6a776
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop 中的查詢概觀
 透過 **Power BI Desktop**，您可以連線到資料世界、建立具吸引力的基礎報表，並與他人分享您的成果。其他使用者可接著以您的成果作為建置基礎，擴展自己的商務智慧成果。

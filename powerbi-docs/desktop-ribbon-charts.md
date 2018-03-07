@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 8a558019eaf01af066fe5669bcbd82bd4e0c5229
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: 3dab818c863f00c97635d00ba07e75eb3c8e5b37
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>在 Power BI 中使用功能區圖表
 您可以在 **Power BI**中使用**功能區圖表**來視覺化資料，並快速地判斷哪個類別的資料具有最高的等級 (最大值)。 功能區圖表適合顯示等級變更，最高等級 (值) 一律顯示於每個時段的最上方。 從 2017 年 9 月版本開始，功能區圖表提供於 **Power BI Desktop** 中，並提供於 **Power BI 服務**的後續更新。

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 72c4c0e3a177f83582677113b1c349a6ae295428
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 66b4af61ebc46afa65403f9e5d5fa47289c0a07b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI 的自訂視覺效果
 建立或編輯 Power BI 報表時，有各式各樣的視覺效果供您使用。 這些視覺效果會顯示在 [視覺效果] 窗格。 當您下載 Power BI Desktop 或開啟 Power BI 服務 (app.powerbi.com) 時，這組視覺效果已經「內建」。

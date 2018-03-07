@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 14aa2a2813484c3af814332736906c2aae0e0230
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 83aed39c8a652ed5b38c18b67f1cdccfc7884240
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>報表 [篩選] 窗格概觀
 這篇文章深入探討報表 [篩選] 窗格。 您會在 [Power BI 服務的 [編輯檢視] 和 [正在讀取檢視]](service-reading-view-and-editing-view.md)，以及 [Power BI Desktop 的 [報表檢視]](desktop-report-view.md) 中看見此窗格。

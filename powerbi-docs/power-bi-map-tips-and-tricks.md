@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 553e3c417f79d6d1c5a45737ad370d74f72177ca
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 5a78481376d679025fe3ac8929dff8756eb61257
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 視覺效果的秘訣和訣竅
 Power BI 與 Bing 地圖服務整合以提供預設地圖座標 (這個程序稱為地理編碼)，以便您建立地圖。 這兩者使用演算法來識別正確位置，但有時會猜測最接近的位置。 如果 Power BI 無法自行建立地圖視覺效果，則會請求 Bing 地圖服務協助。 

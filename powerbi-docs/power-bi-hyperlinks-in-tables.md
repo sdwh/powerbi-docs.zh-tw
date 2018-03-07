@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: a5a38934ab684691921c480a02024376a4655b8b
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 69c9943045777950c52d21a441c87a67dd9feab1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="hyperlinks-in-tables"></a>資料表中的超連結
 本主題將教導您如何使用 Power BI Desktop 建立超連結。 建立之後，請接著使用 Desktop 或 Power BI 服務將那些超連結新增至您的報表資料表和矩陣中。 
@@ -74,7 +75,7 @@ ms.lasthandoff: 01/24/2018
    ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot3.png)
 4. 將游標放在包含 URL 的資料行，其中的 URL 想要轉換成 Power BI 資料表中的超連結。
    
-   > **注意**：URL 的開頭必須是 **http:// 、 https://**  或 **www**。
+   > **注意**：URL 的開頭必須是 **http://、https://** 或 **www**。
    > 
    > 
 5. 在 [報表屬性]  群組中，選取 [資料類別目錄]  下拉式清單，然後選擇 [Web URL] 。 

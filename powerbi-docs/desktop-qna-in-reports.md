@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: davidi
-ms.openlocfilehash: 2c62cda672355f070ce8b2ba18d629dfe70f7700
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+LocalizationGroup: Create reports
+ms.openlocfilehash: dacbb31e8e32abfcb34e565958620d579f68b4f2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>使用 Power BI Desktop 中的自然語言查詢問與答
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 甚至在資料回答時更為強大，這是 **Power BI Desktop** 中的問與答可讓您執行的作業。

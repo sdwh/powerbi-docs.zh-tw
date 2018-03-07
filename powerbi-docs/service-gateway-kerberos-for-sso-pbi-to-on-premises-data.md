@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: a90926d14289ff0a904f29b7b43f70aa2cbc3130
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Gateways
+ms.openlocfilehash: 6ea2e521350b6036b8d2e9b852eb47c546dd818f
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 以從 Power BI 單一登入 (SSO) 到內部部署資料來源
 您可以藉由使用 Kerberos 來設定內部部署資料閘道，取得無縫單一登入連線，讓 Power BI 報表和儀表板從內部部署資料更新。 內部部署資料閘道可以使用 DirectQuery 加速單一登入 (SSO)，也就是用來連線到內部部署資料來源的方法。

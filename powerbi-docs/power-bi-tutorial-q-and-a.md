@@ -14,11 +14,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 3c137c55f5f8326ff1281d4be00fabac2f14347b
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 44501e5447248164f6f04d4463213939975e18ae
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>教學課程：如何使用問與答來建立視覺效果及建置報表
 [問與答概觀](power-bi-q-and-a.md)簡介了 Power BI 問與答，並區分「取用者」(與他們共用了儀表板和報表) 和「建立者」(擁有基礎的報表和資料集)。 本教學課程的第一個部分，設計的對象主要是針對使用 Power BI 服務來取用儀表板的人。 第二個部分的設計則是針對使用 Power BI 服務或 Power BI Desktop 建立報表的人。 [問與答和 Power BI 行動版](mobile-apps-ios-qna.md)和[問與答與 Power BI Embedded](developer/qanda.md) 包含於個別的文章中。
@@ -52,7 +53,7 @@ ms.lasthandoff: 01/19/2018
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-viz.png)
 
-4. 當您輸入問題時，Power BI 會使用在儀表板上有磚的任何資料集尋找最佳解答。  如果所有的圖格都來自 *datasetA* ，則您的答案將來自 *datasetA* 。  如果有磚來自 *datasetA* 和 *datasetB* ，則問與答就會搜尋這 2 個資料集的最佳回應。
+4. 當您輸入問題時，Power BI 會使用在儀表板上有磚的任何資料集尋找最佳解答。  如果所有的圖格都來自 *datasetA*，則您的答案將來自 *datasetA*。  如果有磚來自 *datasetA* 和 *datasetB* ，則問與答就會搜尋這 2 個資料集的最佳回應。
 
    > [!TIP]
    > 所以要小心，如果只有一個磚來自 *datasetA* ，而您從儀表板中移除了，問與答將不再有權存取 *datasetA* 。

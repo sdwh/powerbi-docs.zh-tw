@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 9bff028c0db75e4c0e4f3b2fe97b4ed19c0d1518
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+LocalizationGroup: Create reports
+ms.openlocfilehash: c0e11a46e6e228da2f2ca8ac3f7be63ae20c1d92
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 報告中的協助工具
 **Power BI Desktop** 有功能可讓行動不便人士更輕鬆地使用 **Power BI Desktop** 報告並與之互動。 這些功能包括能夠利用鍵盤或螢幕助讀程式來使用報告、利用 Tab 鍵聚焦於頁面上的不同物件，以及在視覺效果中貼心地使用標記。

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 5cbc48fc8c5787bcc5b7507284aaa5673dd0010d
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 61a32431e15950dd712e95779bda81bbf0ee6f43
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>使用 Power BI 連接到 SweetIQ
 Power BI 內容套件會從 SweetIQ 帳戶提取資料，並產生現成的內容，讓您輕鬆瀏覽資料。 使用 SweetIQ 內容套件來分析有關您的地點、清單、評分和評論。 資料會設定為每天重新整理，確保您所監視的資料為最新狀態。

@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 78fa4125c87415629ec4fb7021b97dfe7d5d53b4
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Visualizations
+ms.openlocfilehash: d4156429b728718fa89131a46ebd0f5dd5aabf67
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="customize-x-axis-and-y-axis-properties-tutorial"></a>自訂 X 軸和 Y 軸屬性 (教學課程)
 本教學課程中，您將學到許多不同的方法，可以用來自訂視覺效果的 X 軸和 Y 軸。 並非所有視覺效果都擁有座標軸或可以自訂；例如，圓餅圖沒有軸。 且自訂選項將隨視覺效果而異，一篇文章無法涵蓋太多選項。 因此，我們將探討一些最常用的軸自訂項目，並使用Power BI 報表畫布中的視覺格式設定索引標籤以輕鬆解說。  

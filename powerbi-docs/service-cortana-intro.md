@@ -13,11 +13,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/13/2018
 ms.author: mihart
-ms.openlocfilehash: 648880925f343032c24cda612da58ef2fdadcf80
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 11bba0ec026650e59b8757b207f5f6d596499f0a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>使用 Cortana for Power BI 快速找出並檢視您的 Power BI 資料
 在您的 Windows 10 裝置上使用 Cortana，以取得重要業務問題的即時解答。 Cortana 藉由與 Power BI 整合，可直接從 Power BI 儀表板和報表擷取關鍵資訊。 需要的只有 Windows 10 2015 年 11 月 (含) 以上的版本、Cortana、Power BI 以及至少一個資料集的存取權。

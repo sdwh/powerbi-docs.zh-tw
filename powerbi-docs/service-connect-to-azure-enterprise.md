@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 040b72422b3267fcc4e909244b1a51fb48edfc81
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 60bcad86af5fcaa09d6b2fb16b581ec7c37264ae
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>使用 Power BI 連接到 Microsoft Azure 企業版
 使用 Power BI 內容套件探索並監控 Power BI 中的 Microsoft Azure 企業版資料。 資料會自動每天重新整理一次。

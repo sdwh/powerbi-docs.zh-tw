@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>使用 Power BI 連接到 Project "Madeira"
 Power BI 和專案「Madeira」內容套件讓您輕鬆深入探索專案「Madeira」的資料。 Power BI 會擷取您的資料 (銷售和財務資料)，然後根據該資料建置現成的儀表板和報表。
@@ -106,8 +107,8 @@ Power BI 儀表板仰賴上列已發佈的 Web 服務，當您從目前的財務
 
 **「登入失敗」** 如果使用專案「Madeira」認證登入儀表板時收到「登入失敗」錯誤，可能是下列其中一個問題所導致：  
 
-    - 您使用的帳戶沒有從帳戶讀取專案「Madeira」資料的權限。 請確認您專案「Madeira」的使用者帳戶，並確定密碼已經使用正確的 Web 服務存取金鑰，然後再試一次。  
-    - 您嘗試連線的專案「Madeira」執行個體不具備有效的 SSL 憑證。 在此情況下，您會看到更詳細的錯誤訊息 (「無法建立信任的 SSL 關係 」)。 請注意，自我簽署的憑證不受支援。  
+   - 您使用的帳戶沒有從帳戶讀取專案「Madeira」資料的權限。 請確認您專案「Madeira」的使用者帳戶，並確定密碼已經使用正確的 Web 服務存取金鑰，然後再試一次。  
+   - 您嘗試連線的專案「Madeira」執行個體不具備有效的 SSL 憑證。 在此情況下，您會看到更詳細的錯誤訊息 (「無法建立信任的 SSL 關係 」)。 請注意，自我簽署的憑證不受支援。  
 
 **「糟糕」** 如果通過 [驗證] 對話方塊之後看到「糟糕」錯誤對話方塊，通常是由於連接到內容套件資料時遇到了問題。 請確認 URL 遵循以上指定的模式︰  
     https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')

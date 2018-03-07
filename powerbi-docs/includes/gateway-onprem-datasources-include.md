@@ -7,6 +7,7 @@
 | 資料夾 |否 |是 |
 | IBM DB2 |否 |是 |
 | IBM Informix 資料庫 |否 |是 |
+| IBM Netezza |是 |是 |
 | Impala |是 |是 |
 | MySQL |否 |是 |
 | OData |否 |是 |

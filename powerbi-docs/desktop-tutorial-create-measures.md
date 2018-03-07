@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: f51d7d07bd36784978e43c516424b6f08fc4e211
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: 96295ced577ddb18b8c56031278bf9a81cddf981
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中建立您自己的量值
 Power BI Desktop 中一些最強大的資料分析方案可使用量值來建立。 當我們與報表互動時，量值在我們的資料上執行計算，藉此協助我們。 本教學課程將引導您了解，並在 Power BI Desktop 中建立一些您自己的基本量值。
@@ -79,7 +80,7 @@ Power BI Desktop 中一些最強大的資料分析方案可使用量值來建立
 我們需要扣除折扣的量值，並從銷售金額傳回。 因為我們要讓量值不管視覺效果中內容為何都能計算結果，所以事實上，我們需要將 [SalesAmount] 的總和減去 [DiscountAmount] 和 [ReturnAmount] 的總和。 此時這看起來似乎有點複雜；但是別擔心，稍後就會更加清楚。
 
 ### <a name="net-sales"></a>淨銷售額
-1.  以滑鼠右鍵按一下，或按一下欄位清單中的 **Sales** 資料表向下箭號，然後按一下 **新增量值**。 這樣可確保我們新的量值會儲存在 [Sales] 資料表，在那裡會比較容易找到。
+1.  以滑鼠右鍵按一下，或按一下欄位清單中的 [Sales] 資料表向下箭號，然後按一下 [新增量值]。 這樣可確保我們新的量值會儲存在 [Sales] 資料表，在那裡會比較容易找到。
     
     ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     
@@ -125,7 +126,7 @@ Power BI Desktop 中一些最強大的資料分析方案可使用量值來建立
     
     現在我們要減去其他兩個資料行。
     
-5.  在第一個運算式的右括弧後，輸入一個空格，然後輸入一個減號運算子 (**-**)，後面再接著另一個空格。 然後輸入另一個的 SUM 函數，其中引數為 **Sales [DiscountAmount]** 資料行。
+5.  在第一個運算式的右括弧後，輸入一個空格，然後輸入一個減號運算子 (**-**)，後面再接著另一個空格。 然後輸入另一個的 SUM 函數，其中引數為 [Sales [DiscountAmount]]  資料行。
     
     ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_discamount.png)
     
@@ -141,7 +142,7 @@ Power BI Desktop 中一些最強大的資料分析方案可使用量值來建立
     
     現在我們可以加入公式的最後一個部分。
     
-7.  加入另一個減號運算子，後面接著另一個 SUM 函數和 **Sales[ReturnAmount]** 資料行作為其引數。
+7.  加入另一個減號運算子，後面接著另一個 SUM 函數和 [Sales[ReturnAmount]] 資料行作為其引數。
     
     ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_complete.png)
     
@@ -152,7 +153,7 @@ Power BI Desktop 中一些最強大的資料分析方案可使用量值來建立
 ### <a name="lets-add-our-new-measure-to-a-report"></a>讓我們在報表中加入新的量值
 現在我們可以將 [Net Sales] 量值加入報表畫布，且會依據我們加入報表的任何其他欄位來計算淨銷售額。 讓我們依國家/地區查閱淨銷售額。
 
-1.  將 **Net Sales** 量值從 **Sales** 資料表拖曳至報表畫布。
+1.  將 [Net Sales] 量值從 [Sales] 資料表拖曳至報表畫布。
     
 2. 現在將 **RegionCountryName** 欄位從 **Geography** 資料表拖曳至此圖表。
     
@@ -160,7 +161,7 @@ Power BI Desktop 中一些最強大的資料分析方案可使用量值來建立
     
     讓我們加入更多資料。
     
-3.  將 **SalesAmount** 欄位拖曳到圖表，以查看淨銷售額與銷售金額之間的差異。
+3.  將 [SalesAmount] 欄位拖曳到圖表，以查看淨銷售額與銷售金額之間的差異。
     
     現在，我們的圖表中真的有兩個量值。 已自動加總的 SalesAmount，和我們所建立的 Net Sales 量值。 在每個案例中，這些結果會依據圖表中另一個欄位的內容計算，即 [RegionCountryName] 中的國家/地區。
     
@@ -168,7 +169,7 @@ Power BI Desktop 中一些最強大的資料分析方案可使用量值來建立
     
     讓我們加入交叉分析篩選器，如此可以依日曆年度進一步細分淨銷售額與銷售金額。
     
-4.  按一下圖表旁邊的空白區域，然後在 **視覺效果** 中按一下 [資料表視覺效果]。
+4.  按一下圖表旁邊的空白區域，然後在 [視覺效果] 中按一下 [資料表視覺效果]。
     
     ![](media/desktop-tutorial-create-measures/meastut_netsales_blanktablevisbutton.png)
     
@@ -176,7 +177,7 @@ Power BI Desktop 中一些最強大的資料分析方案可使用量值來建立
     
     ![](media/desktop-tutorial-create-measures/meastut_netsales_blanktable.png)
     
-5.  將 **Year** 欄位從 **Calendar** 資料表拖曳至新的空白資料表。
+5.  將 [Year] 欄位從 [Calendar] 資料表拖曳至新的空白資料表。
     
     ![](media/desktop-tutorial-create-measures/meastut_netsales_yearaggtable.png)
     
@@ -188,7 +189,7 @@ Power BI Desktop 中一些最強大的資料分析方案可使用量值來建立
     
     現在我們可以變更資料表視覺效果的 [Year] 欄位到交叉分析篩選器中。
 
-    7.  在 **視覺效果** 按一下 **交叉分析篩選器** 視覺效果。
+    7.  在 [視覺效果] 按一下 [交叉分析篩選器] 視覺效果。
 
     ![](media/desktop-tutorial-create-measures/meastut_netsales_year_changetoslicer.png)
     
@@ -232,7 +233,7 @@ Power BI Desktop 中一些最強大的資料分析方案可使用量值來建立
     
     很無聊，對吧？ 別擔心。
     
-5.  請將圖表視覺效果類型變更為 **樹狀圖**。
+5.  請將圖表視覺效果類型變更為 [樹狀圖]。
     
     ![](media/desktop-tutorial-create-measures/meastut_nspu_changetotreemap.png)
     

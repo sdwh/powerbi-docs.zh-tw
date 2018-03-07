@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 647b042d10768f4ecbb3083384efa9000202a11f
-ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
+LocalizationGroup: Data refresh
+ms.openlocfilehash: 23709342f522d029e01cf7192627e179d260fa8d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 若要做出正確決策，確保您能夠一直取得最新資料就相當重要。 您可能已經使用 Power BI 中的 [取得資料] 連接及上傳一些資料，也已經建立一些報表和儀表板。 現在，您想要確定您的資料都是最新且最優良的。
@@ -37,7 +38,7 @@ ms.lasthandoff: 01/20/2018
 
 「資料集」  會在您使用 [取得資料] 連接及上傳來自內容套件、檔案的資料，或連接至即時資料來源時，自動在 Power BI 中建立。 在 Power BI Desktop 和 Excel 2016 中，您也可以如同使用 [取得資料] 一般，將檔案直接發佈到 Power BI 服務。
 
-在每個案例中，[我的工作區] 或 [群組]\(Power BI 服務的容器) 中都會建立並顯示資料集。 當您選取資料集的 **省略號 (...)** 時，就可以瀏覽報表中的資料、編輯設定和設定重新整理。
+在每個案例中，[我的工作區] 或 [群組] (Power BI 服務的容器) 中都會建立並顯示資料集。 當您選取資料集的 **省略號 (...)** 時，就可以瀏覽報表中的資料、編輯設定和設定重新整理。
 
 ![](media/refresh-data/dataset-menu.png)
 

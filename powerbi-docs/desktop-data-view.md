@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: b22e8f2e1fe8443fda3c1ec0ce05d3e46af6855c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Model your data
+ms.openlocfilehash: dba33cd5476b26d7c81238bf4eedc366deb65191
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop 中的資料檢視
 [資料檢視] 可協助您檢查、瀏覽及了解 Power BI Desktop 模型中的資料。 它與您在 [查詢編輯器] 中檢視資料表、資料行和資料的方式不同。 在 [資料檢視] 中，您所看到的資料是載入模型「之後」  的樣子。

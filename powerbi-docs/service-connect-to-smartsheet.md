@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 49d0187336aec4a7cbdd4472355f933a16d5e60e
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: c44df79beea53ffd4900c7016651f876f7a44666
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>使用 Power BI 連接到 Smartsheet
 Smartsheet 提供一個簡單的平台，供共同作業與檔案共用使用。 適用於 Power BI 的 Smartsheet 內容套件提供了儀表板、報表與資料集，其顯示 Smartsheet 帳戶的概觀。 您也可以使用 [Power BI Desktop](desktop-connect-to-data.md) 直接連接到您帳戶中的個別工作表。 

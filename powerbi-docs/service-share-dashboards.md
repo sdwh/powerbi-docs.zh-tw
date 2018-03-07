@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: maggies
-ms.openlocfilehash: 55a05510af5f368d4c978d336e0869705d611eff
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Share your work
+ms.openlocfilehash: 4e8750078e36dad3c3b9b784ad88d12ac3b6fd7d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用您的 Power BI 儀表板和報表
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 還提供[數種其他方式可進行共同作業及散發您的儀表板和報表](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -75,7 +76,7 @@ ms.lasthandoff: 01/24/2018
    
     ![[共用儀表板] 對話方塊的 [存取] 索引標籤](media/service-share-dashboards/power-bi-share-dialog-access.png)
    
-    組織外部人員列為 [Guest]。
+    組織外部人員列為 [Guest] 。
 
 ## <a name="stop-sharing-or-stop-others-from-sharing"></a>停止共用或停止其他人共用
 只有儀表板或報表擁有者可以開啟和關閉再次共用。
@@ -92,7 +93,7 @@ ms.lasthandoff: 01/24/2018
    
    ![[讀取並再次共用] 的省略符號](media/service-share-dashboards/power-bi-change-access.png)
    
-   * [讀取]，阻止該人員與其他人共用。
+   * [讀取]，阻止該員與其他人共用。
    * [移除存取權]，使該人員完全看不到共用的內容。
 
 4. 在 [移除存取權] 對話方塊中，決定是否要一併移除報表和資料集等相關內容的存取權。 如果在移除項目時出現警告圖示 ![Power BI 警告圖示](media/service-share-dashboards/power-bi-warning-icon.png)，建議您先移除相關的內容，因為這些內容將無法正確顯示。

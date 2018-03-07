@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 3b05064265e951e64d1f34d801555e837fc4d8fb
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 059f842dae35fa7a46094d0ade990df7514908d6
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>使用 Power BI 連接到 Microsoft Dynamics Marketing
 Power BI 的 Microsoft Dynamics Marketing 內容套件可讓您輕鬆存取並分析 Dynamics Marketing 的資料。 此內容套件使用 OData 摘要頂端的描述性模型，包括所有必要的實體和量值，例如方案、行銷活動、行銷連絡人和公司、潛在客戶、用戶互動與用戶評分、電子郵件行銷訊息和網站、行為觀察、預算、金融交易、效能 KPI 及其他許多資料。 

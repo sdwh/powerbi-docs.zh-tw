@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: f82bcc9d9add1683f593da6457fde2a4bbce2e02
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+LocalizationGroup: Create reports
+ms.openlocfilehash: 1fcdd2d8b1eff61e3e53ca919e082afb4ec8e835
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>在 Power BI Desktop 中從範例新增資料行
 自 **Power BI Desktop** 的 2017 年 4 月版本起，您只要為新資料行提供一或個範例值，就可以使用**查詢編輯器**將資料的新資料行新增到模型。 您可以從目前選取範圍建立新的資料行範例，也可以依據指定資料表中的所有 (或所選) 資料行提供輸入。

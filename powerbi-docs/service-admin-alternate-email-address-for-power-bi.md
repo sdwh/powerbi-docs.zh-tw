@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/09/2017
 ms.author: maghan
-ms.openlocfilehash: dd9e146b22c95d8c915ea653ee287bb7a51e6b06
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Troubleshooting
+ms.openlocfilehash: c97f60e39d68060c8eb3396bac4eb7725dab9c86
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="using-an-alternate-email-address"></a>使用備用電子郵件地址
 預設會使用您用來註冊 Power BI 的電子郵件地址，來傳送有關 Power BI 中活動的更新給您。  例如，當有人傳送共用邀請給您時，便會傳送至這個地址。

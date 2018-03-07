@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/29/2018
 ms.author: maggies
-ms.openlocfilehash: d7c27792b9eefc97c39f9211fe246e81d0932a80
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Share your work
+ms.openlocfilehash: 1837bc36ac4707663b5583699b0090ac9a692eb7
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>在 Power BI 應用程式工作區中共同作業
 Power BI 應用程式工作區是與您的同事共同作業以利用儀表板、報表和資料集來建立「應用程式」的絕佳地方。 這就是設計工作區的目的 - 共同作業。 完成與同事共同作業來處理儀表板和報表之後，接著將它封裝成應用程式並進行散發。 深入了解[在 Power BI 中建立應用程式和應用程式工作區](service-create-distribute-apps.md)。 

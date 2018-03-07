@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 32058acfe0c7631791e718d54c6d81f4dd707c50
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 2e0d0b43d148642e4c96dbc4c3f9a4f6f94d1774
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>使用 Power BI 連接到 Mandrill
 Power BI 內容套件會從 Mandrill 帳戶提取資料，並產生儀表板、一組報表與資料集，可讓您瀏覽資料。 請使用 Mandrill 分析，快速深入了解您的電子報或行銷活動。 資料會設定為每天重新整理，確保您所監視的資料為最新狀態。

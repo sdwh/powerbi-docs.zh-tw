@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
-ms.openlocfilehash: 0dd906bc1b165793e9ff91f64324eeb8e1d1266c
-ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
+LocalizationGroup: Create reports
+ms.openlocfilehash: ea6da7eb23268e7605ff46281c63030a6d72798c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>建立為 Power BI 手機應用程式最佳化的報表
 當您[在 Power BI Desktop 中建立報表](desktop-report-view.md)時，可以建立專用於手機的報表版本，以提升在手機上行動裝置應用程式中使用的體驗。 您可以重新安排視覺效果或調整其大小，也不必全部納入，藉由對手機改造報表獲得最佳體驗。 您還可以建立[回應式視覺效果](#optimize-a-visual-for-any-size)和[回應式交叉分析篩選器](#enhance-slicers-to-to-work-well-in-phone-reports)，以適當調整大小，供您在手機上檢視。 此外，如果您將篩選新增至報表，這些篩選會自動顯示在電話報表中。 您的報表讀者可以看到它們並使用它們來篩選報表。

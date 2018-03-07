@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
-ms.openlocfilehash: 9321572b41a3719f218030565d159e4dc8105863
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 982b027ebf7605cdc0ce122759d5f3837d23c0ed
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>教學課程：動態資料列層級安全性與 Analysis Services 表格式模型
 本教學課程示範實作 **Analysis Services 表格式模型**內**資料列層級安全性**的所需步驟，並示範如何將其用於 Power BI 報表中。 本教學課程的步驟設計為讓您依照指示進行，並藉由完成樣本資料集學習所需的步驟。

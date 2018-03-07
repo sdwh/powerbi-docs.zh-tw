@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 79e10c7d47eb5105e0c3e79bd3451315eae6d27e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Create reports
+ms.openlocfilehash: c4816ede1ea5364e5db2156af747a3d05231d02a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>使用 Power BI 服務或 Power BI Desktop 建立 Cortana 的自訂回應頁面
 您可以使用 Power BI 的完整功能，建立稱為「Cortana 回應頁面」 (有時稱為「Cortana 回應卡」)、專為回答 Cortana 問題所設計的特殊報表頁面。

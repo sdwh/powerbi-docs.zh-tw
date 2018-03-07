@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: 0288e9613a187b64e5bc71c952e01d70f1f56012
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>內部部署資料閘道的高可用性叢集
 您可以建立**內部部署資料閘道**安裝的**高可用性叢集**，以確保貴組織可以存取 Power BI 報告和儀表板中使用的內部部署資料資源。 這類叢集允許閘道系統管理員將閘道群組，以避免存取內部部署資料資源時發生單一失敗點。 本文說明建立內部部署資料閘道的高可用性叢集時可以採取的步驟，並分享進行這些設定時的最佳做法。 高可用性閘道叢集需要 2017 年 11 月更新的內部部署資料閘道或更新版本。

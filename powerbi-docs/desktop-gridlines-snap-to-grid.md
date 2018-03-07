@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 7dc805f8e791a839bc6b69eb07a71496b64844a2
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: 1b6b1a3ecda7d3f827975da8fcfec5d9d5b67023
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>在 Power BI Desktop 報表中使用格線與貼齊格線
 **Power BI Desktop** 報表畫布提供格線，以便您讓視覺效果在報表頁面上整齊對齊，並提供貼齊格線功能，讓報表中的視覺效果看起來清爽、整齊且間距相等。

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 5904910bc0bca9bc69962263a0e77b8597dab370
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 67b4e6420177d2b268838b3052e29f230025cfb8
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 服務中的 R 套件
 您可以使用功能強大的 [R 程式設計語言](https://www.r-project.org/)在 Power BI 服務中建立視覺效果。 Power BI 服務支援眾多 R 套件 (有更多套件一直受到支援)，有些套件則不具支援。

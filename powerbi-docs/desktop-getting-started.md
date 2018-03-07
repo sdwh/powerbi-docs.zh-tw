@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: c0689b969c1956d0344afb2bc8aef7bda32c159e
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Get started
+ms.openlocfilehash: 33908283e567cadc5ef8d4ffe2389ac8fef54b65
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>開始使用 Power BI Desktop
 歡迎使用 **Power BI Desktop 使用者入門指南**。 此 Power BI Desktop 簡短教學課程能讓您熟悉它的運作方式、示範它的功能，以及加速您建置穩固資料模型的能力 — 以及令人讚嘆的報表，增強您的商業智慧工作。 
@@ -161,7 +162,7 @@ Power BI Desktop 中的查詢編輯器能夠充分利用右鍵功能表，也會
 
 我們很幸運：有另一個公用的資料來源可執行該項工作，但還需要進行相當多的塑造，才能予以連接到我們的退休資料表。 以下是州名縮寫的 Web 資源：
 
-<https://zh.wikipedia.org/wiki/美國各州縮寫列表>
+<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
 從 [查詢編輯器] 中的 [常用] 功能區，我們選取 [取得資料] **\> [Web]** 並輸入位址，然後選取 [確定]，[導覽器] 視窗便會顯示在該網頁上找到的資訊。
 

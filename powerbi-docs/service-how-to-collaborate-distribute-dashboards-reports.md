@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 31d862fd2086c0e1bdc98f3e6d84fcc1d2c094de
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+LocalizationGroup: Share your work
+ms.openlocfilehash: adcba818f60a66ecc4be5827e1ce7688618d0c72
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>該如何在 Power BI 中進行共同作業和共用？
 
@@ -83,7 +84,7 @@ ms.lasthandoff: 02/11/2018
 
 您也可以從 Windows 10 裝置的 Power BI 應用程式[共用磚的快照集](mobile-share-tile-windows-10-phone-app.md)。
 
-## <a name="publish-to-the-web"></a>發行至網站
+## <a name="publish-to-the-web"></a>發行到網站
 您可以將 Power BI 報表發行至整個網際網路，方法是在任何裝置上將互動式視覺效果內嵌到部落格文章、網站、社交媒體和其他線上通訊。 網際網路上的任何人都可以檢視您的報表，而且您無法控制誰可以查看您的發行內容。 他們不需要 Power BI 授權。 您只能在可編輯的報表中使用發行至網站。 如果報表是與您共用，或報表是在應用程式中，則您無法將報表發行至網站。 深入了解[發行至網站](service-publish-to-web.md).
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>列印或儲存為 PDF 或其他靜態檔案

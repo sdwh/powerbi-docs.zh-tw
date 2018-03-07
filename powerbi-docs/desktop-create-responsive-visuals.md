@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: a059c01d6e9e08851434f71a1f36ac096054e291
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Create reports
+ms.openlocfilehash: 4c80048213b20365102bcb9c6842c342d8b9052b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>針對任何大小最佳化 Power BI 視覺效果
 您可以將儀表板或報表中的視覺效果設定為「回應式」，不管是什麼樣的螢幕大小，都能以動態方式變更，顯示最多的資料與深入解析。

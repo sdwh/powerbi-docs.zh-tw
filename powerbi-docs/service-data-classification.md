@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: amac
-ms.openlocfilehash: d9693d89561bc0f942226934bc401a587a6ae20d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: aed13e5bc7a21caa87e4c5b25fd61d55dcfc6129
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="dashboard-data-classification"></a>儀表板資料分類
 每個儀表板各不相同，而且隨著您所連接的資料來源不同，您可能會發現您和與您一起共用儀表板的同事，必須依據資料敏感性的不同，而採取不同的預防措施。 有一些儀表板應禁止與公司外部的人員共用或禁止列印，有一些則可任意共用。 透過儀表板資料分類，您就能提醒共用您儀表板的使用者，注意其應遵守的安全性層級。 您可以使用您公司 IT 部門所定義的分類來標記儀表板，讓檢視內容的每個人對於該資料的敏感性都能有相同的認知。

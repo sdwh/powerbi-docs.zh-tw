@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 48c9e18592a06437c001a51a6f7b6bb77c4c719d
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Create reports
+ms.openlocfilehash: 8893e9f048f10f2c9c4d5bf787382b7cf65f54a9
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用報表主題 (預覽)
 透過 [報表主題]，您可以將某個色彩主題套用至整個報表，例如公司色彩、季節性色彩，或是您可能想要套用至報表的任何其他色彩主題。 當您套用 [報表主題] 時，報表中的所有視覺效果都會使用您選取之主題中的色彩 (但有些例外，本文稍後將進行說明)。

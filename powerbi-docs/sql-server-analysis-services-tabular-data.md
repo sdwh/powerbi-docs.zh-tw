@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: a2a0b2ae9f663f5bd2ba1c599f4f55232c0d1973
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Data from databases
+ms.openlocfilehash: e0053489b2591aa6ffc931b5022fda8bb3b44c8f
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI 中的 SQL Server Analysis Services 即時資料
 Power BI 有兩種方式可以連接到即時 SQL Server Analysis Services 伺服器。 您可以在 [取得資料] 中連接至 SQL Server Analysis Services 伺服器，或者連接到 [Power BI Desktop 檔案](service-desktop-files.md)或 [Excel 活頁簿](service-excel-workbook-files.md) (該活頁簿已連接至 Analysis Services 伺服器)。

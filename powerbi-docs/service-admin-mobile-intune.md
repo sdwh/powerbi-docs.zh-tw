@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: 97f28a845be24baa7633f0cf4fcac29d4d1e74e9
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: 2ac008a1b71a4e4df4e6515c85ec11e95dac7205
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>使用 Microsoft Intune 設定行動裝置應用程式
 Microsoft Intune 可讓組織管理裝置和應用程式。 iOS 和 Android 的 Power BI 行動應用程式可與 Intune 整合，讓您管理裝置上的應用程式，以及控制安全性。 您可以透過設定原則，控制像是要求 Access PIN 碼、控制應用程式處理資料的方式，甚至是加密不在使用中之應用程式的資料等項目。
@@ -49,7 +50,7 @@ Microsoft Intune 可以與行動裝置管理 (MDM) 同時存在 Office 365 中�
 若要取得 iOS 的應用程式 URL，必須從 iTunes 取得。
 
 1. 開啟 iTunes。
-2. 搜尋 Power BI。
+2. 搜尋 *Power BI*。
 3. 您應該會看到 [iPhone Apps]  和 [iPad Apps]  下列出 [Microsoft Power BI] 。 您可以擇一使用，這兩者都會取得相同的 URL。
 4. 選取 [取得]  下拉式清單，然後選取 [複製連結] 。
    
@@ -90,7 +91,7 @@ Microsoft Intune 可以與行動裝置管理 (MDM) 同時存在 Office 365 中�
    
     ![](media/service-admin-mobile-intune/intune-add-software-ios1.png)
 3. 提供 [發行者]、[名稱] 和 [描述]。 您也可以提供一個**圖示**。 [類別] 是針對公司入口網站應用程式。 完成後，選取 [下一步]。
-4. 您可以決定要以 [任一]  \(預設)、[iPad]  或 [iPhone] 發行應用程式。 預設會顯示 [任一]  ，此選項適用於這兩種裝置類型。 iPhone 和 iPad 的 Power BI 應用程式 URL 相同。 選取 [下一步] 。
+4. 您可以決定要以 [任一]  (預設)、[iPad]  或 [iPhone] 發行應用程式。 預設會顯示 [任一]  ，此選項適用於這兩種裝置類型。 iPhone 和 iPad 的 Power BI 應用程式 URL 相同。 選取 [下一步] 。
 5. 選取 [上傳] 。
 
 > [!NOTE]

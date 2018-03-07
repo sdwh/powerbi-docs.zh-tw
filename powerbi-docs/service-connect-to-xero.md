@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 19e5abdeb19bd88d4ddc1f7d595bd7c46b17fbea
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: d9f61067f89fb031926428109ef5dac5bcfd6392
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-xero-with-power-bi"></a>使用 Power BI 連接到 Xero
 Xero 是簡單易用的線上會計軟體，專為小型企業所設計。 您可以運用 Xero 的財務功能加上此 Power BI 內容套件，建立一份高吸睛力的報表。 您的預設儀表板包括許多小型企業計量，例如現金狀況、收入項下開支、利損趨勢、應收帳款天數及投資報酬率。

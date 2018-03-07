@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 4c1ddee96d82af446256d812f5b982a1802a6c30
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Model your data
+ms.openlocfilehash: 1b6a08ffbc7d1edfe0a86b6eb0a84702dec22da0
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 的 DAX 基本概念
 本文適用對象為剛開始使用 Power BI Desktop 的使用者。 其目的在於以快速且容易了解的方式，為您介紹如何使用資料分析運算式 (DAX)，以便解決一些基本計算和資料分析問題。 我們將逐一探討一些概念性資訊、一系列您可以完成的工作，以及用來測試所學內容的幾項測驗。 完成本文之後，您便可充分了解 DAX 最重要的基本概念。
@@ -71,7 +72,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 
 這個量值在加入報表後，會加總我們所包含的其他每個欄位的銷售額 (例如美國的行動電話)，以計算並傳回值。
 
-您可能會想：「這個量值的功能，不是與直接將 SalesAmount 欄位加入我的報表中一樣嗎？ 」 沒錯。 但建立自己的量值來加總 SalesAmount 欄位中的值有個好處：那就是可以將這個量值當做引數用於其他公式。 雖然現在可能有點難以理解，但隨著您愈來愈熟練於 DAX 公式，了解這點可讓您的公式和模型更有效率。 事實上，您稍後將會看到 Total Sales 量值如何顯示為其他公式中的引數。
+您可能會想：「這個量值的功能，不是與直接將 SalesAmount 欄位加入我的報表中一樣嗎？」 沒錯。 但建立自己的量值來加總 SalesAmount 欄位中的值有個好處：那就是可以將這個量值當做引數用於其他公式。 雖然現在可能有點難以理解，但隨著您愈來愈熟練於 DAX 公式，了解這點可讓您的公式和模型更有效率。 事實上，您稍後將會看到 Total Sales 量值如何顯示為其他公式中的引數。
 
 接著我們將探討這個公式的其他幾點。 我們將特別介紹 [SUM](https://msdn.microsoft.com/library/ee634387.aspx) 函數。 函數是預先撰寫的公式，以便簡化數值、日期、時間、文字等複雜的計算和操作。 稍後您將進一步了解函數。
 

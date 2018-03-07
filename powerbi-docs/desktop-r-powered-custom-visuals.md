@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: f2887b5d93a6f88c00f8ab8d21676ed53776b9f2
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: d43b9ec0d471c8a824d3c4d081a38f3bea6ad1e9
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>在 Power BI 中使用 R 提供技術的自訂視覺效果
 在 **Power BI Desktop** 與 **Power BI 服務**中，您不必具備任何 R 的知識或編寫任何 R 指令碼，就能使用 R 提供技術支援的自訂視覺效果。 這讓您能夠充分運用 R 視覺效果的分析與視覺效果功能及 R 指令碼，而不必親自學習 R 或設計程式。

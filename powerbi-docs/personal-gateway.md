@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: fc062387282bf01fd06a9e3d2420ac748c0bc592
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 06ed973b3b16f5ac8ed8bef484d48af994a4e5f2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 > [!NOTE]
@@ -72,11 +73,11 @@ Power BI 和閘道器之間的資料傳輸會透過 [Azure 服務匯流排](http
 
 **問題：** 如果我的 Excel 活頁簿或 Power BI Desktop 檔案同時從線上和內部部署資料來源取得資料呢？
 
-**回答：** 「需要」  閘道。 您必須安裝和設定閘道器，才能重新整理來自內部部署資料來源的資料。
+**回答：「需要」**閘道器。 您必須安裝和設定閘道器，才能重新整理來自內部部署資料來源的資料。
 
-**問題：** 如果我的 Excel 活頁簿中只有我輸入的資料列呢？**
+**問題：**如果我的 Excel 活頁簿中只有我輸入的資料列呢？**
 
-**回答：** 「不」  需要閘道。 只有在活頁簿使用 Power Query 或 Power Pivot 來查詢資料並將資料載入受支援之內部部署資料來源的資料模型時，您才需要安裝並設定閘道器。
+**回答：「不」**需要閘道器。 只有在活頁簿使用 Power Query 或 Power Pivot 來查詢資料並將資料載入受支援之內部部署資料來源的資料模型時，您才需要安裝並設定閘道器。
 
 ## <a name="setting-up-a-gateway-for-the-first-time"></a>首次設定閘道器
 首次設定閘道器的程序有三個步驟：

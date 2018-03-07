@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: d3643ae398c037c375c8e67360794047a6f66ed7
-ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+LocalizationGroup: Connect to data
+ms.openlocfilehash: ec124ef4ae34b064e217b3ce646a329d538e4214
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 有了 **Power BI Desktop**，當您連接到資料來源時，隨時可將資料的複本匯入 **Power BI Desktop**。 對於某些資料來源，可用的替代方式是：使用 **DirectQuery**直接連接到資料來源。

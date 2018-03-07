@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: c7316871de31392f74b1656545fc7a1fbc16fc56
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Model your data
+ms.openlocfilehash: 2e1aed189f858bee3b1d110df5b91caed88f479b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop 中的量值
 **Power BI Desktop** 可協助您深入探索資料，只要按幾下滑鼠按鍵即可。 但有時候，資料並無法提供您解決一些重要問題所需的一切答案， 而量值可協助您達成目的。

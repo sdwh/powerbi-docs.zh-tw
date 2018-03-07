@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: e0b8e6e573f9d511dd934b996f63bcdfdd386cf0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Create reports
+ms.openlocfilehash: 5222b6ba99c9e61d1070f66115b90aa29099fd8d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>在 Power BI Desktop 中建立及使用模擬參數來視覺化變數
 從 2017 年 8 月發行的 **Power BI Desktop** 開始，您可以為報表建立**模擬**變數，將變數當作交叉分析篩選器與其互動，進而視覺化及量化報表中的不同索引鍵值。

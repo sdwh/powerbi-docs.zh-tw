@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: d1d8115269c8b8961563225d781cba0f7001c540
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 48f4e18a2ad5c5acbc1265ac684857d85b4f5e8a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>使用 Power BI 連接到 Ziosk Survey Analytics
 Power BI 的 Ziosk Survey Analytics 內容套件讓使用 Ziosk 資料表的餐廳，能夠存取由 Ziosk 問卷資料所提供的獨特深入資訊，包括依日期、地點、員工等的區隔。
