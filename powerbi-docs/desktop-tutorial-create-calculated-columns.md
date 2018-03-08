@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 9ea93980a095ca4e626b6f8071d044448af59635
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: acdaa95908cd03006170eb06ddfc780c836c64ac
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中建立您自己的導出資料行
 有時候您分析中的資料，恰好未包含想取得結果的特定欄位。 這是 [計算結果欄] 所在之處。 計算結果欄使用資料分析運算式 (DAX) 公式，藉此定義資料行的值。 這些值可以與任何項目有關，可以是放在一起的文字值，來自模型中其他位置的幾個不同資料行，或者可以是從其他值計算所得的數值。 例如，假設您的資料具有 [城市] 與 [縣市] 的資料行 (像是在欄位清單中的欄位)，但您要的是單一 [位置] 欄位，是同時具有兩者的單一值，例如佛羅里達州邁阿密。 這正是計算結果欄的目的。
@@ -33,7 +34,7 @@ ms.lasthandoff: 12/06/2017
 若要完成本教學課程中的步驟，您將需要下載 [Power BI Desktop 的 Contoso 銷售範例](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)檔案。 這是[在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)教學課程中所使用的相同範例檔案。 它已經包含虛構公司 Contoso, Inc. 的銷售資料。因為檔案中的資料是從資料庫所匯入，所以您無法連接到資料來源或在查詢編輯器中檢視。 當您自己的電腦上具備此檔案時，請直接在 Power BI Desktop 中開啟它。
 
 ## <a name="lets-create-a-calculated-column"></a>讓我們來建立計算結果欄
-假設我們想要在資料列的單一值中，顯示產品類別目錄與產品子類別目錄，例如行動電話 – 配件、行動電話 – 智慧型手機和 PDA 等等。 在 [報表檢視] 或 [資料檢視] \(我們這裡使用 [報表檢視])，如果我們查看 [欄位] 清單中的產品資料表，就會發現提供的欄位不是我們要的欄位。 不過，我們確實有 [ProductCategory] 和 [ProductSubcategory] 欄位，各自位於其自己的資料表中。
+假設我們想要在資料列的單一值中，顯示產品類別目錄與產品子類別目錄，例如行動電話 – 配件、行動電話 – 智慧型手機和 PDA 等等。 在 [報表檢視] 或 [資料檢視] (我們這裡使用 [報表檢視])，如果我們查看 [欄位] 清單中的產品資料表，就會發現提供的欄位不是我們要的欄位。 不過，我們確實有 [ProductCategory] 和 [ProductSubcategory] 欄位，各自位於其自己的資料表中。
 
  ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_nonewcol.png)
 
