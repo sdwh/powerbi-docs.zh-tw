@@ -20,10 +20,10 @@ ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: a52a50b647e743bfd29eecd970c1f381098bd344
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="combo-chart-in-power--tutorial"></a>Power 中的組合圖 (教學課程)
 在 Power BI 中，組合圖是結合折線圖和直條圖的單一視覺效果。 將 2 種圖結合成一個，讓您可以更快速地比較資料。
