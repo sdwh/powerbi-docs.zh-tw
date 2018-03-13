@@ -664,11 +664,13 @@
           href: desktop-ssas-multidimensional.md
         - name: 在 Power BI Desktop 中連接至 CSV 檔案
           href: desktop-connect-csv.md
-        - name: 在 Power BI Desktop 中連接到 Impala 資料庫 (Preview)
+        - name: 在 Power BI Desktop 中連線到 Adobe Analytics (預覽)
+          href: desktop-connect-csv.md
+        - name: 在 Power BI Desktop 中連線至 Impala 資料庫
           href: desktop-connect-impala.md
         - name: 在 Power BI Desktop 中連接至 OData 摘要
           href: desktop-connect-odata.md
-        - name: 在 Power BI Desktop 中連接至 Amazon Redshift 資料庫 (預覽)
+        - name: 在 Power BI Desktop 中連線至 Amazon Redshift 資料庫
           href: desktop-connect-redshift.md
         - name: 從 Power BI Desktop 連接至網頁
           href: desktop-connect-to-web.md
@@ -768,6 +770,8 @@
           href: desktop-slicers.md
         - name: Power BI 中的書籤
           href: desktop-bookmarks.md
+        - name: 建立自訂報表工具提示 (預覽)
+          href: desktop-tooltips.md
         - name: 使用報表主題
           href: desktop-report-themes.md
         - name: 使用快速量值
