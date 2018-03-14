@@ -1,5 +1,5 @@
 ---
-title: "Power BI 中的精選儀表板"
+title: "Power BI 中精選的儀表板"
 description: "說明如何在 Power BI 服務中建立精選儀表板"
 services: powerbi
 documentationcenter: 
@@ -16,19 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: efa6d0266ae6fc8418ff4a6f2f78e47f5481d166
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Power BI 服務中的精選儀表板
 ## <a name="create-a-featured-dashboard"></a>建立精選儀表板
 許多使用者會有一個比其他任何儀表板更常瀏覽的儀表板。  這可能是用來執行業務的儀表板，或可能是包含來自許多不同儀表板和報告之圖格彙總的儀表板。
 
-![](media/service-dashboard-featured/power-bi-feature-nav.png)
+![設為精選圖示](media/service-dashboard-featured/power-bi-feature-nav.png)
 
 當您將儀表板選取為 [精選] 時，每次開啟 Power BI 服務時，都會開啟服務並顯示該儀表板。  
 
@@ -47,22 +48,22 @@ ms.lasthandoff: 12/21/2017
 
 
 1. 開啟您想要設為 [精選] 的儀表板。 
-2. 在上方導覽列中，您將會看到 [設為精選儀表板] 或只是精選 ![](media/service-dashboard-featured/power-bi-featured-icon.png) 圖示。 選取任一個。
+2. 在上方瀏覽列中，您將會看到 [設為精選儀表板] 或只有精選圖示 ![精選圖示](media/service-dashboard-featured/power-bi-featured-icon.png)。 選取任一個。
    
-    ![](media/service-dashboard-featured/power-bi-set-as-featured.png)
+    ![設為精選圖示](media/service-dashboard-featured/power-bi-set-as-featured.png)
 3. 確認您的選擇。
    
-    ![](media/service-dashboard-featured/power-bi-create-featured.png)
+    ![設定精選儀表板](media/service-dashboard-featured/power-bi-create-featured.png)
 
 ## <a name="change-the-featured-dashboard"></a>變更精選儀表板
 當然，如果您稍後改變心意，可以將新的儀表板設為精選儀表板。
 
 1. 遵循上述步驟 1 和 2。
    
-    ![](media/service-dashboard-featured/power-bi-change-feature.png)
+    ![變更精選儀表板視窗](media/service-dashboard-featured/power-bi-change-feature.png)
 2. 選取 [設為精選儀表板]。 將儀表板移除精選並不會將其從您的工作區中移除。  
    
-    ![](media/service-dashboard-featured/power-bi-success.png)
+    ![成功訊息](media/service-dashboard-featured/power-bi-success.png)
 
 ## <a name="remove-the-featured-dashboard"></a>移除精選儀表板
 如果您決定不想要將任何儀表板指定為精選，以下是取消精選儀表板的方式。
@@ -70,7 +71,7 @@ ms.lasthandoff: 12/21/2017
 1. 開啟目前的精選儀表板。
 2. 在頂端功能表列中，選取 [停用精選儀表板]。
    
-    ![](media/service-dashboard-featured/power-bi-unfeature.png)
+    ![刪除精選項目](media/service-dashboard-featured/power-bi-unfeature.png)
 
 現在 Power BI 會開啟到您上次使用的儀表板。  
 

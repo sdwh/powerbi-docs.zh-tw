@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1a4290d06d623b21b64e1ff03fb0382a55dc2a3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>以焦點模式顯示儀表板磚或報表視覺效果
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -36,39 +36,41 @@ ms.lasthandoff: 02/24/2018
 > 焦點模式與[全螢幕模式](service-fullscreen-mode.md)不同。
 > 
 ## <a name="focus-mode-for-dashboard-tiles"></a>儀表板磚的焦點模式
-1. 將滑鼠指標停留在磚視覺效果上方，並選取省略符號 (...)，然後選擇 [Open in focus mode] (以焦點模式開啟) ![](media/service-focus-mode/power-bi-dashboard-focus-mode.png)。  
+1. 將滑鼠指標停留在磚視覺效果上方，並選取省略符號 (...)，然後選擇 [Open in focus mode (以焦點模式開啟)] 
+
+    ![磚的省略符號功能表](media/service-focus-mode/power-bi-dashboard-focus-mode.png).
    
 2. 這會開啟磚，並填滿整個報表畫布。 
 
-   ![](media/service-focus-mode/power-bi-tile-focus.png)
+   ![磚會填滿報表畫布](media/service-focus-mode/power-bi-tile-focus.png)
 
-3. 展開 [篩選] 窗格，以查看套用到這個視覺效果的所有篩選。
+3. 展開 [篩選] 窗格，以查看套用到此視覺效果的所有篩選。
    
-   ![](media/service-focus-mode/power-bi-focus-filters.png)
+   ![具有 [篩選] 窗格的焦點模式](media/service-focus-mode/power-bi-focus-filters.png)
 
 4. 修改篩選以進一步探索，如果發現有趣的視覺效果，可將該視覺效果釘選到儀表板。
 
 5. 離開焦點模式，然後選取 [< 結束焦點模式] (位於視覺效果的左上角) 返回儀表板。
    
-    ![](media/service-focus-mode/power-bi-tile-exit-focus.png)    
+    ![離開焦點模式](media/service-focus-mode/power-bi-tile-exit-focus.png)    
 
 
 ## <a name="focus-mode-for-report-visualizations"></a>報表視覺效果的焦點模式
 
-1. 將滑鼠指標停留在報表視覺效果上方，並選取**焦點模式**圖示 ![](media/service-focus-mode/pbi_popout.jpg)。  
+1. 將滑鼠指標停留在報表視覺效果上方，並選取**焦點模式**圖示 ![焦點模式圖示](media/service-focus-mode/pbi_popout.jpg)。  
    
-   ![](media/service-focus-mode/power-bi-hover-focus.png)
+   ![顯示在磚上的焦點圖示](media/service-focus-mode/power-bi-hover-focus.png)
 2. 此視覺效果會開啟並填滿整個畫布。 
 
    
-   ![](media/service-focus-mode/power-bi-display-focus-newer2.png)
-3. 展開 [篩選] 窗格，以查看套用到這個視覺效果的所有篩選。
+   ![焦點模式中的視覺效果](media/service-focus-mode/power-bi-display-focus-newer2.png)
+3. 展開 [篩選] 窗格，以查看套用到此視覺效果的所有篩選。
    
-   ![](media/service-focus-mode/power-bi-display-focus-filters.png)
+   ![具有 [篩選] 畫面的焦點模式](media/service-focus-mode/power-bi-display-focus-filters.png)
 4. 修改篩選以進一步探索，如果發現有趣的視覺效果，可將該視覺效果釘選到儀表板。   
 5. 離開焦點模式，然後選取 [< 返回報表] (位於視覺效果的左上角) 返回報表。 
    
-    ![](media/service-focus-mode/power-bi-exit-focus-report.png)  
+    ![離開焦點模式](media/service-focus-mode/power-bi-exit-focus-report.png)  
 
 ## <a name="go-from-focus-mode-to-full-screen-mode"></a>從焦點模式移至全螢幕模式
 進入焦點模式之後，即可[以全螢幕 (電視模式) 檢視](service-fullscreen-mode.md)磚或視覺效果。全螢幕模式隨即顯示，而不受功能表和導覽按鈕的干擾。

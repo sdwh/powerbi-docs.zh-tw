@@ -16,17 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 6c29f0915009fced89c80e05f40b91c467e505ce
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>顯示已與我共用的 Power BI 儀表板
 ## <a name="shared-with-me"></a>與我共用
-![](media/service-shared-with-me/power-bi-share-dash.png)
+![共用圖示](media/service-shared-with-me/power-bi-share-dash.png)
 
 同事與您共用儀表板時，儀表板的標題會新增至 [與我共用] 清單。 此儀表板只能從 [與我共用] 取得，但無法從工作區或 [應用程式] 取得。
 
@@ -38,8 +39,8 @@ ms.lasthandoff: 01/09/2018
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>可從 [與我共用] 畫面使用的動作
 * 選取星狀圖示，以[將儀表板設為最愛](service-dashboard-favorite.md)。
-* [移除儀表板](service-delete.md)  ![](media/service-shared-with-me/power-bi-delete-icon.png)
-* 部分儀表板可以重新予以共用 ![](media/service-shared-with-me/power-bi-share-icon-new.png)
+* [移除儀表板](service-delete.md)  ![垃圾桶圖示](media/service-shared-with-me/power-bi-delete-icon.png)
+* 部分儀表板可以重新予以共用  ![共用圖示](media/service-shared-with-me/power-bi-share-icon-new.png)
 * 此外，如果您的儀表板清單太長，請[使用搜尋欄位和排序找出您需要的內容](service-navigation-search-filter-sort.md)。
   
   > [!NOTE]
@@ -51,7 +52,7 @@ ms.lasthandoff: 01/09/2018
 ## <a name="filter-shared-dashboards-by-owner"></a>依擁有者篩選共用儀表板
 可以依內容擁有者進一步篩選 [與我共用] 畫面中的內容。 例如，如果我選取 [Amanda]，則只會看到 Amanda 已與我共用的儀表板。
 
-![](media/service-shared-with-me/power-bi-owner.png)
+![依擁有者篩選的儀表板](media/service-shared-with-me/power-bi-owner.png)
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI - 基本概念](service-basic-concepts.md)  

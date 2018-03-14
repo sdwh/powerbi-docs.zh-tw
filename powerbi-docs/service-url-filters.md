@@ -16,18 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 5015886d0314c767bc16fe223c7db91adb0fd2bb
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 當您在 Power BI 服務中開啟報表時，每頁報表各有其唯一的 URL。 若要篩選該報表頁面，您可以使用報表畫布上的 [篩選] 窗格。  或者您也可以將查詢字串參數新增到 URL，以篩選報表。 您可能有想要向同事展示的報表，並想要預先為他們篩選。 其中一個執行方式是從報表的預設 URL 著手、將篩選參數新增到 URL，然後用電子郵件將整個 URL 寄送給他們。
 
-![](media/service-url-filters/power-bi-report2.png)
+![服務中的 Power BI 報表](media/service-url-filters/power-bi-report2.png)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/WQFtN8nvM4A?list=PLv2BtOtLblH3YE_Ycas5B1GtcoFfJXavO&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -36,7 +37,7 @@ ms.lasthandoff: 01/09/2018
 
 URL?filter=***資料表***/***欄位*** eq '***值***'
 
-![](media/service-url-filters/power-bi-filter-urls7b.png)
+![具篩選的 URL](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * **資料表**和**欄位**名稱區分大小寫，**值**則無。
 * 從報表檢視中隱藏的欄位仍可篩選。
@@ -49,7 +50,7 @@ URL?filter=***資料表***/***欄位*** eq '***值***'
 ## <a name="filter-on-a-field"></a>篩選欄位
 假設報表的 URL 如下所示。
 
-![](media/service-url-filters/power-bi-filter-urls6.png)
+![起始 URL](media/service-url-filters/power-bi-filter-urls6.png)
 
 而我們可以從地圖視覺效果 (上方) 看到，我們有門市位於北卡羅萊納州。
 
@@ -61,7 +62,7 @@ URL?filter=***資料表***/***欄位*** eq '***值***'
 
 ?filter=Store/Territory eq 'NC'
 
-![](media/service-url-filters/power-bi-filter-urls7.png)
+![具篩選的 URL](media/service-url-filters/power-bi-filter-urls7.png)
 
 >[!NOTE]
 >NC 是儲存在 [Store] 資料表 [Territory] 欄位中的值。

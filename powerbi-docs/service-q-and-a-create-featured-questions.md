@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: e6a83796afe6afab02ec463d3dd2074d1fdc529a
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 38cb04269937aa0b56589e4831eb7a3b027986d0
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>建立 Power BI 問與答的精選問題
 如果您擁有自己的資料集，則可將自己的精選問題新增至該資料集。  接著，Power BI 問與答會向使用 (取用) 您資料集的同事顯示這些問題。  精選問題可讓您的同事有些概念，知道要針對資料集詢問哪類問題。 您可自行決定要新增什麼精選問題 -- 新增熱門問題、會顯示有趣結果的問題，或難以簡短說明的問題。
@@ -39,18 +40,18 @@ ms.lasthandoff: 01/19/2018
 
 1. 在儀表板上，選取 [問與答] 問題方塊。   您會發現問與答顯示出資料集中出現的詞彙清單，這非常有幫助。
 2. 若要新增至此清單，請選取 Power BI 右上角的齒輪圖示。  
-   ![](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
+   ![齒輪圖示](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. 選取 [設定] &gt; [資料集] &gt; [零售分析範例] &gt; [精選問與答問題]。  
 4. 選取 [新增問題] 。
    
-   ![](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
+   ![[設定] 功能表](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
 5. 在文字方塊中輸入您的問題，然後選取 [套用] 。   如果要新增其他問題，您也可以再選取 [新增問題] 。  
-   ![](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
+   ![精選問與答問題面板](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
 6. 瀏覽回零售分析範例的 Power BI 儀表板，並將您的游標放在 [問與答] 問題方塊中。   
-   ![](media/service-q-and-a-create-featured-questions/power-bi-featured-q.png)
+   ![問與答的問題方塊](media/service-q-and-a-create-featured-questions/power-bi-featured-q.png)
 7. 清單中的第一個新精選問題為**依地區銷售額，以地圖表示**。 請加以選取。  
 8. 答案會顯示為填滿的地圖視覺效果。  
-   ![](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
+   ![地圖視覺效果](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>後續步驟
 [Power BI 中的問與答](power-bi-q-and-a.md)  

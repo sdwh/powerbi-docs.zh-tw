@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 187ca632ad947e5cb657f3a5d19e1d62262259b4
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 服務中的資料警示
 設定警示，以在儀表板中的資料變更時超出您所設定的限制時通知您。 
@@ -31,7 +32,7 @@ ms.lasthandoff: 12/21/2017
 
 即使將儀表板分享給他人共用，仍只有您才能查看您所設定的警示。 資料警示會在平台之間完全同步處理；請在 [ Power BI 行動裝置應用程式](mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服務中設定和檢視資料警示。 其不適用於 Power BI Desktop。 警示還可以[透過 Microsoft Flow 進行自動化及整合](https://flow.microsoft.com) - [動手試試看](service-flow-integration.md)。
 
-![](media/service-set-data-alerts/powerbi-alert-types-new.png)
+![磚](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
 > [!WARNING]
 > 資料驅動的警示通知會提供資料的相關資訊。 如果您在行動裝置上檢視 Power BI 資料，而該裝置遭竊，建議您使用 Power BI 服務關閉所有資料驅動的警示規則。
@@ -47,16 +48,16 @@ ms.lasthandoff: 12/21/2017
 
 1. 啟動儀表板。 選取儀表板量測計、KPI 或卡片磚中的省略符號。
    
-   ![](media/service-set-data-alerts/powerbi-card.png)
-2. 選取鈴鐺圖示 ![](media/service-set-data-alerts/power-bi-bell-icon.png)，以為 [商店數總計] 新增一或多個警示。
+   ![[商店數總計] 磚](media/service-set-data-alerts/powerbi-card.png)
+2. 選取鈴鐺圖示 ![警示圖示](media/service-set-data-alerts/power-bi-bell-icon.png)，以為 [商店數總計] 新增一或多個警示。
    
 1. 若要開始，請選取 [+ 新增警示規則]，確定已將滑桿設為 [開啟]，並為您的警示提供標題。 磚可幫助您輕鬆地辨識警示。
    
-   ![](media/service-set-data-alerts/powerbi-alert-title.png)
+   ![[管理警示] 視窗](media/service-set-data-alerts/powerbi-alert-title.png)
 4. 向下捲動並輸入警示的詳細資料。  在此範例中，我們要建立警示，在商店數總計超過 100 家時通知我們。 警示會出現在我們的通知中心內。 我們也同樣設定讓 Power BI 傳送電子郵件給我們。
    
-   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. 選取 [儲存]。
+   ![在 [管理警示] 視窗中設定 [臨界值]](media/service-set-data-alerts/power-bi-set-alert-details.png)
+5. 選取 [儲存] 。
 
 ## <a name="receiving-alerts"></a>接收警示
 當正在追蹤的資料達到您所設定的其中一個臨界值時，會出現一些連鎖反應。 首先，Power BI 會檢查自傳送上個警示之後的經過時間，是否已超過 1 小時或 24 小時 (取決於您選取的選項)。 只要資料超過臨界值，您就會收到警示。
@@ -65,13 +66,13 @@ ms.lasthandoff: 12/21/2017
 
 1. 您如有設定傳送電子郵件警示，將會在收件匣中看到類似如下所述的狀況。
    
-   ![](media/service-set-data-alerts/powerbi-alerts-email.png)
+   ![警示電子郵件](media/service-set-data-alerts/powerbi-alerts-email.png)
 2. Power BI 會在您的**通知中心**新增一則訊息，並將新的警示圖示加入適用的磚 。
    
-   ![](media/service-set-data-alerts/powerbi-alert-notifications.png)
+   ![Power BI 服務中的通知圖示](media/service-set-data-alerts/powerbi-alert-notifications.png)
 3. 若要查看警示詳細資料，請開啟您的通知中心。
    
-    ![](media/service-set-data-alerts/powerbi-alert-notfication.png)
+    ![讀取警示](media/service-set-data-alerts/powerbi-alert-notfication.png)
    
    > [!NOTE]
    > 警示只對重新整理的資料有作用。 當資料重新整理時，Power BI 會檢查該資料有無設定警示。 若資料已達警示臨界值，便會觸發警示。
@@ -82,23 +83,23 @@ ms.lasthandoff: 12/21/2017
 有許多方式可以管理您的通知，分別是從儀表板的圖格本身、從 Power BI 的 [設定] 功能表，以及在 [iPhone 的 Power BI 行動裝置應用程式](mobile-set-data-alerts-in-the-mobile-apps.md)或 [Windows 10 的 Power BI 行動裝置應用程式](mobile-set-data-alerts-in-the-mobile-apps.md)個別的圖格上。
 
 ### <a name="from-the-tile-itself"></a>從磚本身
-1. 當您需要變更或移除磚的警示時，請選取鈴鐺圖示 ![](media/service-set-data-alerts/power-bi-bell-icon.png)，以重新開啟 [管理警示] 視窗。 您為該磚設定的所有警示皆會顯示。
+1. 當您需要變更或移除磚的警示時，請選取鈴鐺圖示 ![警示圖示](media/service-set-data-alerts/power-bi-bell-icon.png)，以重新開啟 [管理警示] 視窗。 您為該磚設定的所有警示皆會顯示。
    
-    ![](media/service-set-data-alerts/powerbi-see-alerts.png).
+    ![[管理警示] 視窗](media/service-set-data-alerts/powerbi-see-alerts.png).
 2. 若要修改警示，請選取警示名稱左側的箭號。
    
-    ![](media/service-set-data-alerts/powerbi-see-alerts-arrow.png).
+    ![警示名稱旁的箭號](media/service-set-data-alerts/powerbi-see-alerts-arrow.png).
 3. 若要刪除警示，請選取警示名稱右側的垃圾桶。
    
-      ![](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
+      ![已選取垃圾桶圖示](media/service-set-data-alerts/powerbi-see-alerts-delete.png)
 
 ### <a name="from-the-power-bi-settings-menu"></a>從 Power BI 的 [設定] 功能表
 1. 從 Power BI 功能表列選取齒輪圖示。
    
-    ![](media/service-set-data-alerts/powerbi-gear-icon.png).
+    ![齒輪圖示](media/service-set-data-alerts/powerbi-gear-icon.png).
 2. 選取 [設定] 下的 [警示]。
    
-    ![](media/service-set-data-alerts/powerbi-alert-settings.png)
+    ![[設定] 視窗的 [警示] 索引標籤](media/service-set-data-alerts/powerbi-alert-settings.png)
 3. 您可以在此處開啟及關閉警示、開啟 [管理警示] 視窗執行變更，或是刪除警示。
 
 ## <a name="tips-and-troubleshooting"></a>提示與疑難排解

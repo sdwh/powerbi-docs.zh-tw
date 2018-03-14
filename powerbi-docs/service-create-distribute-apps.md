@@ -14,13 +14,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/22/2018
 ms.author: maggies
-ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Share your work
+ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表建立並發佈應用程式
 
@@ -94,7 +95,7 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
      ![自訂影像](media/service-create-distribute-apps/power-bi-apps-image.png)
 
 ## <a name="publish-your-app"></a>發佈您的應用程式
-當應用程式工作區中的儀表板和報表準備就緒時，您就可以將它們發佈為應用程式。 請記住，您不必將所有報表和儀表板都發佈到工作區。 您可以只發佈已準備就緒的項目。 
+當應用程式工作區中的儀表板和報表準備就緒時，您就可以將它們發佈為應用程式。 請記住，您不必將所有報表和儀表板都發佈到工作區。 您可以只發佈已準備就緒的項目。
 
 1. 在工作區清單檢視中，決定您想要在應用程式中包含哪些儀表板和報表。
 
@@ -104,23 +105,23 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 
      ![相關儀表板的警告](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
-1. 選取右上角的 [發佈應用程式] 按鈕，來啟動共用該工作區中所有內容的程序。
+2. 選取右上角的 [發佈應用程式] 按鈕，來啟動共用該工作區中所有內容的程序。
    
      ![發佈應用程式](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. 在 [詳細資料] 上，填寫描述以協助人員尋找應用程式。 您可以設定背景色彩來進行個人化。
+3. 在 [詳細資料] 上，填寫描述以協助人員尋找應用程式。 您可以設定背景色彩來進行個人化。
    
      ![應用程式詳細資料](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. 在 [內容] 上，您會看到即將發佈為應用程式一部分的內容，即您在該工作區中選取的所有內容。 您也可以設定應用程式登陸頁面，這是儀表板或報表人員移至您的應用程式時先看到的頁面。 您可以選擇 [無]。 接著，他們會到達應用程式中所有內容的清單。 
+4. 在 [內容] 上，您會看到即將發佈為應用程式一部分的內容，即您在該工作區中選取的所有內容。 您也可以設定應用程式登陸頁面，這是儀表板或報表人員移至您的應用程式時先看到的頁面。 您可以選擇 [無]。 接著，他們會到達應用程式中所有內容的清單。 
    
      ![應用程式內容](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. 在 [存取] 上，決定誰可以存取應用程式：組織中的所有人、特定人員、Active Directory 安全性群組。 如果您有權限，您可以決定為收件者自動安裝應用程式。
+5. 在 [存取] 上，決定誰可以存取應用程式：組織中的所有人、特定人員、Active Directory 安全性群組。 如果您有權限，您可以決定為收件者自動安裝應用程式。 您可以在 [Power BI 管理入口網站](#how-to-enable-pushing-apps)中啟用這項設定。 您可以了解[推送應用程式](#how-to-enable-pushing-apps)的其他考量。
 
     ![應用程式存取](media/service-create-distribute-apps/power-bi-apps-access.png)
 
-5. 當您選取 [完成] 時，會看到確認它已準備好要發佈的訊息。 在成功對話方塊中，您可以複製直接連結至此應用程式的 URL，並將它傳送給您已與之共用的人員。
+6. 當您選取 [完成] 時，會看到確認它已準備好要發佈的訊息。 在成功對話方塊中，您可以複製直接連結至此應用程式的 URL，並將它傳送給您已與之共用的人員。
    
      ![應用程式完成](media/service-create-distribute-apps/power-bi-apps-success.png)
 
@@ -138,7 +139,7 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
    
      應用程式工作區是臨時區域；因此，您的變更在重新發佈之前不會即時推入應用程式中。 這可讓您進行變更，而不影響已發佈的應用程式。  
  
-1. 回到內容的應用程式工作區清單，然後選取 [更新應用程式]。
+3. 回到內容的應用程式工作區清單，然後選取 [更新應用程式]。
    
      ![更新應用程式按鈕](media/service-create-distribute-apps/power-bi-app-update-button.png)
 
@@ -147,6 +148,32 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
      ![更新應用程式按鈕](media/service-create-distribute-apps/power-bi-app-update-complete.png)
 
 您已對其發佈應用程式的人員會自動看到應用程式的已更新版本。 
+
+# <a name="automatically-install-apps-for-end-users"></a>自動為終端使用者安裝應用程式
+您可以自動為終端使用者安裝應用程式，因此可更輕鬆地將適當的應用程式散發到適當的人員或群組。
+
+應用程式會提供您的終端使用者執行其工作所需的資料。 現在您可以自動安裝應用程式內容清單中的這些應用程式，而不是從 Microsoft AppSource 中尋找或追蹤安裝連結。 這可讓您更輕鬆地向使用者推出標準 Power BI 內容。
+
+## <a name="how-to-install-an-app-automatically-for-end-users"></a>如何自動為終端使用者安裝應用程式
+一旦系統管理員啟用此功能之後，應用程式發行者就有新的選項可**自動安裝應用程式**。 ***核取***方塊且應用程式發行者選取 [完成] (若是現有的應用程式則為 [更新應用程式]) 之後，應用程式就會推送至 [存取] 索引標籤上應用程式的 [權限] 區段中所定義的所有使用者或群組。
+
+![允許推送應用程式](media/service-create-distribute-apps/power-bi-apps-access.png)
+
+## <a name="how-users-get-the-apps-that-were-pushed-to-them"></a>使用者如何取得推送給他們的應用程式
+推送應用程式之後，該應用程式會自動出現在 [應用程式] 清單中。 您可以統籌組織中的使用者或工作角色必須立即擁有的應用程式。
+
+![允許推送應用程式](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+
+### <a name="considerations-for-automatically-installing-apps"></a>自動安裝應用程式的考量
+推送應用程式給終端使用者時，請記住下列事項：
+
+* 自動為使用者安裝應用程式可能需要時間。 大部分應用程式會立即為使用者安裝，但推送應用程式可能需要時間。  這取決於應用程式中的項目數及有權存取的人數。 建議在使用者需要之前，於時間充足的下班時間推送應用程式。 與幾位使用者確認，再廣泛宣傳應用程式可供使用。
+
+* 重新整理您的瀏覽器。 使用者可能需要重新整理，或關閉並重新開啟其瀏覽器，才能在 [應用程式] 清單中看到推送的應用程式。
+
+* 如果使用者未立即在 [應用程式] 清單中看到應用程式，則應該重新整理，或關閉並重新開啟其瀏覽器。
+
+* 盡量不要造成使用者太多負擔。 請小心不要推送太多應用程式，這樣使用者才能認定預先安裝的應用程式對他們有用。 為調配時間，最好控制誰可以將應用程式推送給終端使用者。 您可以建立連絡點，來將組織中的應用程式推送給終端使用者。
 
 ## <a name="unpublish-an-app"></a>解除發佈應用程式
 應用程式工作區的任何成員都可以解除發佈應用程式。
@@ -167,7 +194,7 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>應用程式與組織內容套件的差異為何？
 應用程式是內容套件的演進和簡化，但有一些主要差異。 
 
-* 商務使用者在安裝內容組件之後失去其群組身分識別︰它只是與其他儀表板和報表穿插的儀表板和報表清單。 相反地，應用程式會維護其群組和身分識別，即使在安裝之後也是一樣。 這可讓商務使用者在經過一段時間之後仍可輕鬆地繼續進行導覽。  
+* 商務使用者在安裝內容組件之後失去其群組身分識別︰它只是與其他儀表板和報表穿插的儀表板和報表清單。 相反地，應用程式會維護其群組和身分識別，即使在安裝之後也是一樣。 這可讓商務使用者在經過一段時間之後仍可輕鬆地繼續進行導覽。
 * 您可以從任何工作區建立多個內容套件，但應用程式與其工作區具有 1:1 關聯性。 我們相信這可讓應用程式在執行一段長時間之後更容易了解和維護。 如需如何計劃改善這個區域的詳細資訊，請參閱 Power BI 部落格的＜藍圖＞一節。 
 * 經過一段時間之後，我們計劃要淘汰組織內容套件，因此建議您從現在開始建立應用程式。  
 
@@ -179,5 +206,5 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI 中安裝和使用應用程式](service-install-use-apps.md)
 * [外部服務的 Power BI 應用程式](service-connect-to-services.md)
+* [Power BI 管理入口網站](https://docs.microsoft.com/en-us/power-bi/service-admin-portal)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
-

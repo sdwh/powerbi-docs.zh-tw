@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: ea4dfaf8678e19894c1947282197d7e14cfaa944
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3d20b27b24851872b05a9c7dccb383032e1d65b8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>刪除 Power BI 服務中的絶大部分所有項目
 本文會教導您如何刪除 Power BI 服務中的儀表板、報告、活頁簿、資料集、應用程式、視覺效果和工作區。
@@ -36,21 +36,21 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="to-delete-a-dashboard"></a>刪除儀表板
 1. 在工作區中，選取 [儀表板] 索引標籤。
-2. 找到要刪除的儀表板，然後選取刪除圖示 ![](media/service-delete/power-bi-delete-icon.png)。
+2. 找到要刪除的儀表板，然後選取刪除圖示 ![刪除圖示](media/service-delete/power-bi-delete-icon.png).
 
-    ![](media/service-delete/power-bi-delete-dash.gif)
+    ![影片](media/service-delete/power-bi-delete-dash.gif)
 
 ## <a name="delete-a-report"></a>刪除報表
 別擔心，刪除報表不會刪除報表所依據的資料集。  您從報表釘選的所有視覺效果也安全無虞：它們會保留在儀表板上，直到您個別加以刪除。
 
 ### <a name="to-delete-a-report"></a>刪除報表
 1. 在工作區中，選取 [報表] 索引標籤。
-2. 找到要刪除的報表，然後選取刪除圖示 ![](media/service-delete/power-bi-delete-icon.png)。   
+2. 找到要刪除的報表，然後選取刪除圖示   ![刪除圖示](media/service-delete/power-bi-delete-icon.png).   
 
-    ![](media/service-delete/power-bi-delete-reportnew.png)
+    ![工作區的報表索引標籤](media/service-delete/power-bi-delete-reportnew.png)
 3. 確認刪除。
 
-   ![](media/service-delete/power-bi-delete-report.png)
+   ![[刪除報表] 對話方塊](media/service-delete/power-bi-delete-report.png)
 
    > [!NOTE]
    > 如果報表是[內容套件](service-organizational-content-pack-introduction.md)的一部分，您就無法使用這個方法刪除它。  請參閱[移除與組織內容套件的連接](service-organizational-content-pack-disconnect.md)。
@@ -64,12 +64,12 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="to-delete-a-workbook"></a>刪除活頁簿
 1. 在工作區中，選取 [活頁簿] 索引標籤。
-2. 找到要刪除的活頁簿，然後選取刪除 ![](media/service-delete/power-bi-delete-report2.png) 圖示。
+2. 找到要刪除的活頁簿，然後選取刪除 ![刪除圖示](media/service-delete/power-bi-delete-report2.png) 圖示。
 
-    ![](media/service-delete/power-bi-delete-workbooknew.png)
+    ![[活頁簿] 索引標籤](media/service-delete/power-bi-delete-workbooknew.png)
 3. 確認刪除。
 
-   ![](media/service-delete/power-bi-delete-confirm.png)
+   ![[移除活頁簿] 對話方塊](media/service-delete/power-bi-delete-confirm.png)
 
 ## <a name="delete-a-dataset"></a>刪除資料集
 資料集可以刪除。 不過，刪除資料集也會刪除包含該資料集資料的所有報告和儀表板圖格。
@@ -80,13 +80,13 @@ ms.lasthandoff: 02/24/2018
 1. 在工作區中，選取 [資料集] 索引標籤。
 2. 找到要刪除的資料集，然後選取省略符號 (...)。  
 
-    ![](media/service-delete/power-bi-delete-datasetnew.png)
+    ![[資料集] 索引標籤](media/service-delete/power-bi-delete-datasetnew.png)
 3. 從下拉式清單中，選取 [刪除]。
 
-   ![](media/service-delete/power-bi-delete-datasetnew2.png)
+   ![省略符號功能表](media/service-delete/power-bi-delete-datasetnew2.png)
 4. 確認刪除。
 
-   ![](media/service-delete/power-bi-delete-dataset-confirm.png)
+   ![[刪除儀表板] 對話方塊](media/service-delete/power-bi-delete-dataset-confirm.png)
 
 ## <a name="delete-an-app-workspace"></a>刪除應用程式工作區
 > [!WARNING]
@@ -99,13 +99,13 @@ ms.lasthandoff: 02/24/2018
 ### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>刪除應用程式工作區 - 如果您是系統管理員
 1. 從左側導覽中，選取 [工作區]
 
-    ![](media/service-delete/power-bi-delete-workspace.png)
+    ![應用程式工作區](media/service-delete/power-bi-delete-workspace.png)
 2. 選取要刪除之工作區右邊的省略符號 (...)，然後選擇 [編輯工作區]。
 
-   ![](media/service-delete/power-bi-edit-workspace.png)
+   ![省略符號功能表 > [編輯工作區]](media/service-delete/power-bi-edit-workspace.png)
 3. 在 [編輯工作區] 視窗中，選取 [刪除工作區] > [刪除]。
 
-    ![](media/service-delete/power-bi-delete-workspace2.png)
+    ![刪除工作區](media/service-delete/power-bi-delete-workspace2.png)
 
 ### <a name="to-remove-an-app-workspace-from-your-list"></a>從清單中移除應用程式工作區
 如果您不再想要成為應用程式工作區成員，則可以「離開」它，並將它從清單中移除。 保留工作區，會針對所有其他工作區成員將它保留在原地。  
@@ -118,7 +118,7 @@ ms.lasthandoff: 02/24/2018
 1. 請從您想要移除的應用程式工作區中啟動。
 2. 在右上角選取省略符號 (...)，然後選擇 [Leave workspace]\(保留工作區) > 保留。
 
-      ![](media/service-delete/power-bi-leave-workspace.png)
+      ![離開工作區](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
    > 您在下拉式清單中看到的選項取決於您是該應用程式工作區的系統管理員還是成員。
@@ -134,7 +134,7 @@ ms.lasthandoff: 02/24/2018
 1. 在左側導覽中，選取 [應用程式] 以開啟應用程式清單頁面。
 2. 將滑鼠游標移至要刪除的應用程式上方，然後選取刪除 ![](media/service-delete/power-bi-delete-report2.png) 圖示。
 
-   ![](media/service-delete/power-bi-delete-app.png)
+   ![選取 [應用程式]](media/service-delete/power-bi-delete-app.png)
 
    如果您不小心移除應用程式，則有數個選項可以進行復原。  您可以要求應用程式建立者重新傳送它、找到包含應用程式連結的原始電子郵件、檢查[通知中心](service-notification-center.md)以查看是否仍列出該應用程式的通知，或者檢查組織的 [AppSource](service-install-use-apps.md)。
 

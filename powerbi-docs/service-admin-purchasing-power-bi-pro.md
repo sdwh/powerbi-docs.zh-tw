@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: maghan
-ms.openlocfilehash: 6019cde4864087c75b22663ff5461790d4e24961
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: c4fa2e0e2927f8050648884e1833adf618a7d4f5
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>購買 Power BI Pro
 Power BI Pro 可讓使用者發佈報告、共用儀表板、與同事在工作區中共同作業，以及參與其他相關的活動，例如能夠：
@@ -36,7 +37,7 @@ IT 系統管理員有幾種選項可在您的組織內使用 Power BI Pro。 您
 
 如需有關 Power BI Premium，以及 Power BI Pro 如何納入 Premium 供應項目中的詳細資訊，請參閱 [Power BI Premium - 這是什麼？](service-premium.md)
 
-## <a name="pricing"></a>價格
+## <a name="pricing"></a>定價
 如需 Power BI Pro 的最新定價資訊及所包含功能的資料表清單，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing/)。
 
 ## <a name="in-service-power-bi-pro-60-day-trial-for-individuals"></a>服務內的 Power BI Pro 60 天個人試用版
@@ -63,7 +64,7 @@ IT 系統管理員有幾種選項可在您的組織內使用 Power BI Pro。 您
 > 隨著 Power BI Premium 上市及 Power BI 免費版供應項目在 2017 年 6 月 1 所做的變更，您可能符合 Pro 延長試用版的資格。 如需詳細資訊，請參閱 [Pro 延長試用版啟用](service-extended-pro-trial.md)。
 
 ### <a name="what-this-looks-like-within-the-service"></a>此服務的外觀
-當您使用服務時，可以前往 **齒輪*圖示，然後選取 [管理個人儲存體]，藉此驗證您有 Pro 試用帳戶。
+當您在服務內時，您可以確認您有 Pro 試用帳戶，方法是前往**齒輪**圖示，然後選取 [管理個人儲存空間]。
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro-trial3.png)
 

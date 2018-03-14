@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 4ffa00f92a6ee1275c1f8a691369cfd54363aa98
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 45f10ab7fef7669adbbc836e67a4daaed267905e
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="opt-in-for-power-bi-preview-features"></a>加入宣告 Power BI 預覽功能
 ## <a name="what-are-preview-features"></a>什麼是「預覽功能」？
@@ -37,10 +37,10 @@ ms.lasthandoff: 02/24/2018
 ## <a name="find-previews-and-turn-them-on-and-off"></a>尋找預覽並將其開啟 (及關閉)
 1. 選取 Power BI 螢幕右上角的齒輪圖示以開啟您的 [設定] 功能表，然後選擇 [設定]。
    
-   ![](media/service-preview-features/power-bi-settings.png).
+   ![[設定] 功能表](media/service-preview-features/power-bi-settings.png).
 2. 選取 [一般] 索引標籤。如果預覽存在，您將會看到**預覽功能**的選項，或者會看到列在左側的預覽功能。  在此範例中，有針對 ArcGIS Maps 列出的預覽。 
    
-   ![](media/service-preview-features/power-bi-preview-arcgis.png)
+   ![[一般] 索引標籤](media/service-preview-features/power-bi-preview-arcgis.png)
 3. 選取 [開啟] 選項按鈕，或標記核取方塊，以試用全新的體驗。 然後選取 [套用]。
 4. 若要關閉預覽功能，請遵循上述步驟 1-3，在步驟 3 中選擇 [關閉]，或移除核取方塊，然後選取 [套用]。
 

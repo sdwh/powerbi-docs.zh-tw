@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 的儀表板圖格
 儀表板和儀表板磚是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 雖然無法在 Power BI 行動裝置中建立或釘選儀表板磚，但可以進行[檢視及共用](mobile-tiles-in-the-mobile-apps.md)。 而且，在 Power BI 行動裝置中，您可以[使用 iPhone 應用程式將圖片新增至儀表板](mobile-iphone-app-get-started.md)。
 
 ## <a name="dashboard-tiles"></a>儀表板圖格
-![](media/service-dashboard-tiles/power-bi-dashboard.png)
+![Power BI 儀表板](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 圖格是您釘選到儀表板的資料快照。 您可以從報表、資料集、儀表板、問與答方塊、Excel 和 SQL Server Reporting Services (SSRS) 及更多的地方建立圖格。  這個螢幕擷取畫面顯示許多釘選到儀表板的不同磚。
 
@@ -53,34 +54,34 @@ ms.lasthandoff: 01/03/2018
 
 可以使用[新增磚](service-dashboard-add-widget.md)，直接在儀表板上建立影像、文字方塊、視訊、串流資料和 Web 內容的獨立磚。
 
-  ![](media/service-dashboard-tiles/add_widgetnew.png)
+  ![新增磚圖示](media/service-dashboard-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>與儀表板上的圖格互動
 ### <a name="move-and-resize-a-tile"></a>移動和調整圖格大小
-抓取磚並[在儀表板上移動](service-dashboard-edit-tile.md)。 將滑鼠暫留並選取控點 ![](media/service-dashboard-tiles/resize-handle.jpg) 以調整圖格大小。
+抓取磚並[在儀表板上移動](service-dashboard-edit-tile.md)。 將滑鼠暫留並選取控點 ![控點](media/service-dashboard-tiles/resize-handle.jpg) 以調整圖格大小。
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>將滑鼠暫留在圖格上以變更其外觀和行為
 1. 將滑鼠暫留在圖格上以顯示省略符號。
    
-    ![](media/service-dashboard-tiles/ellipses_new.png)
+    ![磚省略符號](media/service-dashboard-tiles/ellipses_new.png)
 2. 選取省略符號開啟圖格的 [動作] 功能表。
    
-    ![](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![省略符號圖示](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     從這裡您可以：
    
-   * [開啟用來建立此圖格的報表](service-reports.md)![](media/service-dashboard-tiles/chart-icon.jpg)  
+   * [開啟用於建立此磚的報表](service-reports.md) ![報表圖示](media/service-dashboard-tiles/chart-icon.jpg)  
    
-   * [開啟用來建立此圖格的工作表](service-reports.md)![](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
+   * [開啟用於建立此磚的工作表](service-reports.md) ![工作表圖示](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [在焦點模式中檢視](service-focus-mode.md) ![](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [匯出圖格中所使用的資料](power-bi-visualization-export-data.md)![](media/service-dashboard-tiles/export-icon.png)
-     * [編輯標題和副標題、加入超連結、顯示上次重新整理的時間](service-dashboard-edit-tile.md) ![](media/service-dashboard-tiles/pencil-icon.jpg)
-     * [執行深入解析](service-insights.md)![](media/service-dashboard-tiles/power-bi-insights.png)
-     * [將磚釘選到另一個儀表板](service-pin-tile-to-another-dashboard.md)
-       ![](media/service-dashboard-tiles/pin-icon.jpg)
-   * [移除磚](service-dashboard-edit-tile.md)
-     ![](media/service-dashboard-tiles/trash-icon.png)
+     * [以焦點模式檢視](service-focus-mode.md) ![焦點圖示](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+     * [匯出磚中所使用的資料](power-bi-visualization-export-data.md) ![匯出資料圖示](media/service-dashboard-tiles/export-icon.png)
+     * [編輯標題與副標題、新增超連結、顯示上次重新整理時間](service-dashboard-edit-tile.md) ![編輯圖示](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [執行深入解析](service-insights.md) ![深入解析圖示](media/service-dashboard-tiles/power-bi-insights.png)
+     * [將磚釘選到另一個儀表板 ](service-pin-tile-to-another-dashboard.md)
+       ![釘選圖示](media/service-dashboard-tiles/pin-icon.jpg)
+     * [移除磚](service-dashboard-edit-tile.md)
+     ![刪除圖示](media/service-dashboard-tiles/trash-icon.png)
 3. 若要關閉動作功能表，選取畫布中的空白區域。
 
 ### <a name="select-click-a-tile"></a>選取 (按一下) 圖格

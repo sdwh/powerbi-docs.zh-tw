@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>啟用即時連線的問與答
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>什麼是內部部署資料閘道？  什麼是即時連線？
@@ -44,15 +45,15 @@ Power BI 中的資料集可匯入 Power BI，或者您可以建立與資料集�
 ## <a name="enable-qa"></a>啟用問與答
 設定資料閘道之後，從 Power BI 連線到您的資料。  您可以使用內部部署資料建立儀表板，或上傳使用內部部署資料的 .pbix 檔案。  您也可能在與您共用的儀表板、報表和資料集中已有內部部署資料。
 
-1. 選取 Power BI 右上角的齒輪圖示 ![](media/service-q-and-a-direct-query/power-bi-cog.png)，然後選擇 [設定]。
+1. 選取 Power BI 右上角的齒輪圖示 ![齒輪圖示](media/service-q-and-a-direct-query/power-bi-cog.png)，然後選擇 [設定]。
    
-   ![](media/service-q-and-a-direct-query/powerbi-settings.png)
+   ![[設定] 功能表](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. 選取 [資料集]，然後選擇資料集以啟用問與答。
    
-   ![](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
+   ![[設定] 功能表的 [資料集] 畫面](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
 3. 展開 \[Q&A and Cortana] \(問與答及 Cortana)，選取 \[Turn on Q&A for this dataset] \(在此資料集開啟問與答) 核取方塊，然後選擇 \[套用]。
    
-    ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
+    ![展開的問與答區域](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>會快取哪些資料，以及如何保護隱私權？
 當您啟用內部部署資料的問與答時，會快取服務中的資料子集。 這樣做是為了確保問與答的執行效能最理想。 Power BI 會從快取中排除長度超過 24 個字元的值。 當您取消核取 \[Turn on Q&A for this dataset] \(在此資料集開啟問與答) 來停用問與答或在刪除資料集時，快取會在幾小時內刪除。

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9f4d4897558f241d316ee9d7021b4c34660fe9bf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cdea6474901dad27a4155b80fb605502102201a5
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>重新命名 Power BI 服務中的絶大部分項目
 本文會教導您如何重新命名 Power BI 服務中的儀表板、報表、報表頁面、活頁簿、資料集、應用程式和工作區。
@@ -41,20 +41,20 @@ ms.lasthandoff: 02/24/2018
 | [與我共用] 中的內容 |否 |否 |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>重新命名儀表板、報表或活頁簿
-1. 從工作區開始，然後選取 [儀表板]、[報表] 或 [活頁簿] 索引標籤。將滑鼠游標移至要重新命名的項目上方，然後選取齒輪圖示 ![](media/service-rename/powerbi-cog-icon.png)。 如果沒有齒輪圖示，您就沒有重新命名的權限。
+1. 從工作區開始，然後選取 [儀表板]、[報表] 或 [活頁簿] 索引標籤。將滑鼠游標移至要重新命名的項目上方，然後選取齒輪圖示 ![齒輪圖示](media/service-rename/powerbi-cog-icon.png)。 如果沒有齒輪圖示，您就沒有重新命名的權限。
    
-   ![](media/service-rename/power-bi-workspace-dashboards.png)
+   ![Power BI 服務工作區](media/service-rename/power-bi-workspace-dashboards.png)
 2. 在 [設定] 頁面上，輸入新名稱，然後選取 [儲存]。
    
-   ![](media/service-rename/power-bi-rename-dashboard2.png)
+   ![資料集的設定視窗](media/service-rename/power-bi-rename-dashboard2.png)
 
 ## <a name="rename-a-dataset"></a>重新命名資料集
 1. 從工作區開始，然後選取 [資料集] 索引標籤。
    
-   ![](media/service-rename/power-bi-ellipses.png)
+   ![工作區的 [資料集] 索引標籤](media/service-rename/power-bi-ellipses.png)
 2. 將滑鼠游標移至要重新命名的項目上方，並選取省略符號 (...)，然後選擇 [重新命名]。  
    
-      ![](media/service-rename/power-bi-rename-datasets.png)
+      ![選取 [重新命名]](media/service-rename/power-bi-rename-datasets.png)
    
    > [!NOTE]
    > 下拉式清單中的選項將會不同。
@@ -62,7 +62,7 @@ ms.lasthandoff: 02/24/2018
    > 
 3. 在 [設定] 頁面上，輸入新名稱，然後選取 [儲存]。
    
-     ![](media/service-rename/power-bi-rename.png)
+     ![[重新命名] 窗格](media/service-rename/power-bi-rename.png)
 
 ## <a name="rename-an-app-workspace"></a>重新命名應用程式工作區
 任何具有系統管理員權限的人員都可以重新命名應用程式工作區。
@@ -70,10 +70,10 @@ ms.lasthandoff: 02/24/2018
 1. 從您要重新命名的工作區開始。
 2. 在右上角選取省略符號 (...)，然後選擇 [編輯工作區]。 如果您未看到此選項，您就沒有重新命名此工作區的權限。 
    
-    ![](media/service-rename/power-bi-edit-workspace.png)
+    ![選取 [編輯工作區]](media/service-rename/power-bi-edit-workspace.png)
 3. 輸入新的工作區名稱，然後選取 [儲存]。
    
-   ![](media/service-rename/power-bi-workspace-rename.png)
+   ![[編輯工作區] 窗格](media/service-rename/power-bi-workspace-rename.png)
 
 ## <a name="rename-a-page-in-a-report"></a>重新命名報表中的頁面
 不喜歡 Power BI 報表中的頁面名稱嗎？  要設定新的名稱，只要按一下即可。 您可以在[報表編輯檢視](service-interact-with-a-report-in-editing-view.md)中重新命名頁面。
@@ -81,14 +81,14 @@ ms.lasthandoff: 02/24/2018
 1. 在[編輯檢視](service-reading-view-and-editing-view.md)中開啟報表。
 2. 找出 Power BI 視窗底部的報表頁面索引標籤。
    
-    ![](media/service-rename/report-page-tabs-new.png)
+    ![醒目提示索引標籤的報表](media/service-rename/report-page-tabs-new.png)
 3. 選取索引標籤，開啟您想要重新命名的報表頁面。
 4. 在索引標籤上的名稱按兩下以反白顯示。  
    
-    ![](media/service-rename/hilite-tab.png)
+    ![索引標籤名稱特寫](media/service-rename/hilite-tab.png)
 5. 輸入新的報表頁面名稱，然後選取 ENTER。
    
-    ![](media/service-rename/new-name.png)
+    ![鍵入新的頁面名稱](media/service-rename/new-name.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 * 如果要重新命名的項目已與您共用，或已是內容套件的一部分，則您看不到齒輪圖示，因此無法存取 [設定]。

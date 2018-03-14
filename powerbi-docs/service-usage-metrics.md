@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/21/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 36a79b6ec984ee663868c5f20efaa8cd5b596d2a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>儀表板和報表的使用計量
 如果您建立儀表板和報表，使用計量可協助您了解其影響。 當您執行儀表板使用計量或報表使用計量時，您可以探索這些儀表板和報表在整個組織內的使用方式、使用內容、使用者及用途。  
@@ -32,7 +33,7 @@ ms.lasthandoff: 01/23/2018
 
 這些使用計量報表是唯讀的。 不過，您可以使用 [另存新檔] 來個人化使用計量報表。 這會建立全新的資料集，並將唯讀報表轉換成可供編輯的全功能 Power BI 報表。 個人化報表可以包含所選儀表板或報表的計量，此外藉由移除預設篩選，您現在可以存取所選工作區中所有儀表板的使用計量。
 
-![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
+![使用計量報表](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ## <a name="why-are-usage-metrics-important-to-me"></a>使用計量為何對我至關重要？
 了解您內容的使用方法，可協助您展示您的影響力及優先處理方向。 使用計量可能顯示組織的大型部門每天都使用您的某份報表，也可能會顯示您建立的儀表板完全無人檢視。 這種類型的意見反應對指引工作投入方向毫無價值。
@@ -48,7 +49,7 @@ ms.lasthandoff: 01/23/2018
 ## <a name="about-the-usage-metrics-report"></a>關於使用計量報表
 
 
-當您選取 [使用計量] 或圖示 ![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) 時，Power BI 會產生預先建立的報表，顯示過去 90 天的使用計量內容。  報表看起來類似您熟悉的 Power BI 報表，但它的設計為參考性而非互動性。 不論終端使用者是透過 Web 應用程式或行動裝置應用程式等進行存取，您將能夠依據其收到存取權的方式進行分割。隨著您的儀表板和報表的進展，使用計量報表也會進展，每天都會更新資料。  
+當您選取 [使用計量] 或圖示 ![使用計量圖示](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) 時，Power BI 會產生預先建立的報表，顯示過去 90 天的使用計量內容。  報表看起來類似您熟悉的 Power BI 報表，但它的設計為參考性而非互動性。 不論終端使用者是透過 Web 應用程式或行動裝置應用程式等進行存取，您將能夠依據其收到存取權的方式進行分割。隨著您的儀表板和報表的進展，使用計量報表也會進展，每天都會更新資料。  
 
 使用計量報表不會出現在 [最近]、[工作區]、[我的最愛] 或其他內容清單中。 這些報表無法新增至應用程式。 如果您將使用計量報表中的磚釘選到儀表板，該儀表板即無法新增至應用程式或內容套件。
 
@@ -56,14 +57,14 @@ ms.lasthandoff: 01/23/2018
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>開啟儀表板或報表的使用計量報表
 1. 在包含儀表板或報表的工作區中啟動。
-2. 從工作區內容清單或從儀表板或報表中，選取使用計量![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)圖示。
+2. 從工作區內容清單或從儀表板或報表中，選取**使用計量**圖示 ![使用計量圖示](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)。
    
-    ![](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
+    ![[儀表板] 索引標籤](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
    
-    ![](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
+    ![選取 [使用計量]](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
 3. 當您第一次執行此作業時，Power BI 會建立使用計量報表，讓您了解它準備好的時機。
    
-    ![](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
+    ![計量已準備就緒](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
 4. 若要開啟結果，請選取 [檢視使用計量]。
    
     使用計量將會是您部署及維護 Power BI 儀表板和報表的強大幫手。 想知道報表的哪些頁面最有用，哪些頁面應該逐漸淘汰嗎？ 請依 [報表頁面] 分割來了解。想知道您是否應該為儀表板建立行動配置嗎？ 依 [平台] 分割以發現有多少使用者正在透過行動置應用程式或網頁瀏覽器存取您的內容。
@@ -84,7 +85,7 @@ ms.lasthandoff: 01/23/2018
 | 報表頁面交叉分析篩選器 |不可以 |可以 |如果報表有 1 個以上的頁面，請依檢視的頁面分割報表。 如果您看到 [空白] 清單選項，表示最近新增了報表頁面 (新頁面的實際名稱會在 24 小時內出現在交叉分析篩選器清單中)，及/或已刪除報表頁面。 [空白] 包含這類情況。 |
 | 每日檢視 |可以 |可以 |每日檢視的總數 - 只要使用者載入報表頁面或儀表板即視為檢視。 |
 | 每日的唯一檢視者 |可以 |可以 |檢視儀表板或報表的「不同」使用者數目 (根據 AAD 使用者帳戶)。 |
-| 每位使用者的檢視 |可以 |可以 |過去 90 天內的檢視次數，依個別使用者細分。 |
+| 每位使用者的檢視 |是 |是 |過去 90 天內的檢視次數，依個別使用者細分。 |
 | 每日的共用 |可以 |不可以 |儀表板與其他使用者或群組共用的次數。 |
 | 檢視總數 |可以 |可以 |過去 90 天的檢視數目。 |
 | 檢視者總數 |可以 |可以 |過去 90 天的唯一檢視者數目。 |
@@ -94,14 +95,14 @@ ms.lasthandoff: 01/23/2018
 | 排名：共用總數 |可以 |不可以 |超過過去 90 天之組織中所有儀表板的共用總數，決定該儀表板或報表的排名。 |
 
 ### <a name="dashboard-usage-metrics-report"></a>儀表板使用計量報表
-![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
+![儀表板使用計量報表](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ### <a name="report-usage-metrics-report"></a>報表使用計量報表
-![](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
+![報表使用計量報表](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
 ## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>將使用計量報表儲存為全功能的 Power BI 報表 (個人化)
 
-![](media/service-usage-metrics/power-bi-save-as.png)
+![另存新檔](media/service-usage-metrics/power-bi-save-as.png)
 
 使用 [另存新檔] 將使用計量報表轉換成可以自訂和共用的全功能 Power BI 報表。 一旦您建立個人化複本，您將取得基礎資料集的完整存取權，如此可讓您自訂使用計量報表，以符合您的特定需求。 您甚至可以使用 Power BI Desktop，透過[即時連線到 Power BI 服務功能](https://powerbi.microsoft.com/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop)，來建立自訂使用計量報表。
 
@@ -116,16 +117,16 @@ ms.lasthandoff: 01/23/2018
 
 1. 從預先建立的使用計量報表，選取 [檔案] > [另存新檔]。 Power BI 將使用計量報表轉換為全功能的 Power BI 報表。 這稱為「個人化」使用計量報表。 個人化的使用報表和資料集儲存在目前的工作區 (名為 **mihart*)。
    
-    ![](media/service-usage-metrics/power-bi-save-as.png)
+    ![另存新檔](media/service-usage-metrics/power-bi-save-as.png)
 2. 在 [編輯] 檢視中開啟報表，並[同和任何其他 Power BI 報表互動一樣與該報表互動](service-interact-with-a-report-in-editing-view.md)。 例如，新增新的頁面和建置新的視覺效果、新增篩選、格式化字型和色彩等等。
    
-    ![](media/service-usage-metrics/power-vi-editing-view.png)
+    ![在 [編輯檢視] 中開啟報表](media/service-usage-metrics/power-vi-editing-view.png)
 3. 或者，從新的資料集開始，並從頭開始建立報表。
    
-    ![](media/service-usage-metrics/power-bi-new-dataset.png)
+    ![[資料集] 索引標籤](media/service-usage-metrics/power-bi-new-dataset.png)
 4. 新的報表儲存在目前的工作區 (mihart)，而且也會新增至 [最近] 內容清單。
    
-    ![](media/service-usage-metrics/power-bi-new-report.png)
+    ![[報表] 索引標籤](media/service-usage-metrics/power-bi-new-report.png)
 
 ### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>移除篩選以查看工作區中的「所有」使用計量資料
 若要查看工作區中所有儀表板或所有報表的計量，您必須移除篩選。 根據預設，個人化報表會經過篩選，只顯示儀表板或用來建立該儀表板之報表的計量。
@@ -134,10 +135,10 @@ ms.lasthandoff: 01/23/2018
 
 1. 在 [編輯檢視] 中開啟個人化報表。
    
-    ![](media/service-usage-metrics/power-bi-editing-view.png)
+    ![選取 [編輯報表]](media/service-usage-metrics/power-bi-editing-view.png)
 2. 在 [篩選] 窗格中，找到 [報表層級篩選] 貯體，然後選取 [x] 以移除篩選。
    
-    ![](media/service-usage-metrics/power-bi-report-level-filter2.png)
+    ![移除篩選](media/service-usage-metrics/power-bi-report-level-filter2.png)
    
     您的個人化報表現在會顯示整個工作區的計量。
 
@@ -146,13 +147,13 @@ ms.lasthandoff: 01/23/2018
 
 1. 選取 Power BI 服務右上角的齒輪圖示，然後選擇 [管理入口網站]，開啟管理入口網站。
    
-    ![](media/service-usage-metrics/power-bi-admin-portal-new.png)
+    ![選取齒輪圖示](media/service-usage-metrics/power-bi-admin-portal-new.png)
 2. 從管理入口網站中，選取 [租用戶設定] 並選擇 [內容創作者的使用計量]。
    
-    ![](media/service-usage-metrics/power-bi-usage-settings.png)
+    ![管理入口網站](media/service-usage-metrics/power-bi-usage-settings.png)
 3. 啟用 (或停用) 使用計量，然後選取 [套用]。
    
-    ![](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
+    ![已啟用使用計量](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
 停用其整個組織的使用計量時，系統管理員可以使用 [刪除所有現有的使用計量內容] 選項，刪除利用使用計量報表和資料集所建置的所有現有報表和儀表板磚。 此選項會移除組織中可能已使用它之所有使用者的使用計量資料之所有存取權。 請小心，因為刪除現有使用計量內容是無法復原的。
 

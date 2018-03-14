@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/07/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 1d9c183a7fab95caa44221bd2d252ab92889b3f4
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>在 Power BI 服務 (app.powerbi.com) 中開啟報表
 報表提供於 Power BI 服務、Power BI Desktop、Power BI Mobile，甚至是 Power BI Embedded。 本文適用於在 ***Power BI 服務***中開啟報表。
@@ -32,11 +32,11 @@ ms.lasthandoff: 01/09/2018
 
 1. 從工作區開始，然後選取 [報表] 索引標籤以顯示該工作區中的所有報表。  
    
-   ![](media/service-report-open/power-bi-open-report.png)
-1. 選取報表名稱，以 [閱讀檢視] 開啟報表。  
+   ![工作區的 [報表] 索引標籤](media/service-report-open/power-bi-open-report.png)
+2. 選取報表名稱，以 [閱讀檢視] 開啟報表。  
    
-    ![](media/service-report-open/power-bi-reading-view.png)
-1. [在 [閱讀檢視] 中有許多可用功能](service-reading-view-and-editing-view.md)。  這個範例報表有多個頁面，因此請選取報表畫布底部的每個索引標籤來開始探索。 
+    ![[閱讀檢視] 中的報表](media/service-report-open/power-bi-reading-view.png)
+3. [在 [閱讀檢視] 中有許多可用功能](service-reading-view-and-editing-view.md)。  這個範例報表有多個頁面，因此請選取報表畫布底部的每個索引標籤來開始探索。 
 
 ## <a name="open-a-report-from-a-dashboard"></a>從儀表板開啟報表
 有許多其他方式可以開啟報表；例如，您可以在儀表板上啟動，然後選取已從報表建立的磚。  選取磚時會以閱讀檢視開啟報表。 如果要跟著做，[請開啟 [銷售與行銷範例] 儀表板](sample-datasets.md)。
@@ -47,34 +47,34 @@ ms.lasthandoff: 01/09/2018
 
 2.  在此範例中，我們已選取 [總單位 YTD...] 直條圖磚。
 
-    ![](media/service-report-open/power-bi-dashboard.png)
+    ![已選取磚的儀表板](media/service-report-open/power-bi-dashboard.png)
 
 3.  相關報表會在 [閱讀檢視] 中開啟。 請注意，我們在「YTD 類別」頁面上。 此報表頁面包含我們從儀表板選取的直條圖。
 
-    ![](media/service-report-open/power-bi-report.png)
+    ![在 [閱讀檢視] 中開啟報表](media/service-report-open/power-bi-report.png)
 
 4. 留在 [閱讀檢視]，或選取 [編輯報表]，在 [編輯檢視] 中開啟報表。 請記住，只有具有該報表編輯權限的人可以在 [編輯檢視] 中開啟它。
 
-    ![](media/service-report-open/power-bi-edit-report.png)
+    ![報表編輯器顯示編輯報表圖示](media/service-report-open/power-bi-edit-report.png)
 
 ## <a name="create-a-brand-new-report-from-a-dataset"></a>從資料集建立全新的報表
 開啟報表的另一個方法是從資料集。 當您從資料集開始時，報表畫布會是空白的，所以方法建議用於想要根據他們擁有之資料集建立新報表的報表「建立者」。 如上面的範例，若要跟著做，請下載[銷售與行銷範例應用程式](sample-datasets.md)。
 
 1. 在包含您想要作為報表基礎之資料集的工作區中開始。
 
-   ![](media/service-report-open/power-bi-workspace.png)
+   ![左側瀏覽窗格顯示應用程式工作區](media/service-report-open/power-bi-workspace.png)
 
 2. 選取 [資料集] 索引標籤，顯示該工作區中所有資料集的清單。 這稱為**資料集**內容檢視清單。
    
-   ![](media/service-report-open/power-bi-dataset.png)
+   ![資料集清單](media/service-report-open/power-bi-dataset.png)
 
 1. 找出資料集並選取**建立報表**圖示，在編輯檢視中開啟資料集。 如果您沒有編輯資料集的權限，您將無法開啟它。 
    
-    ![](media/service-report-open/power-bi-create-report.png)
+    ![具有建立報表圖示的資料集](media/service-report-open/power-bi-create-report.png)
 
 3. 資料集會在報表編輯器中開啟。 您會看到右邊顯示資料欄位，等著您開始瀏覽和建立視覺效果。 
 
-   ![](media/service-report-open/power-bi-blank-canvas.png)
+   ![報表畫布](media/service-report-open/power-bi-blank-canvas.png)
 
 ##  <a name="still-more-ways-to-open-a-report"></a>仍然有更多方法來開啟報表
 當您更熟悉巡覽 Power BI 服務之後，便會找出最適合您的工作流程。 還有一些其他方法可存取報表：

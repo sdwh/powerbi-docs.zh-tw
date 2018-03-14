@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: f0a50c0aba1a05c55236192a730c3187cb37c055
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
+ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 服務內容套件計劃概觀
 內容套件是一組全新內容，可讓使用者立即從來源取得深入剖析資訊。 內容套件通常著重於可提供角色、網域或工作流程深入剖析資訊的特定商務案例。
@@ -64,9 +64,9 @@ ISV 可建置範本內容套件，讓客戶透過自己的帳戶連線並實例�
 * 考慮針對個別特殊情況提供多個內容套件  
 
 ## <a name="frequently-asked-questions"></a>常見問題集
-**我可以為非我所有的協力廠商 SaaS 應用程式建置 Power BI 服務內容套件嗎？**
+**我可以作為協力廠商為非我所有的 SaaS 應用程式建置 Power BI 服務內容套件嗎？**
 
-否，目前需要先和 SaaS 應用程式的擁有者簽署夥伴協議，才能在服務中發行內容套件。
+我們需要先和 SaaS 應用程式的擁有者簽署夥伴協議，才能在服務中發行內容套件。 作為第三方，您需要協助和 SaaS 應用程式擁有者簽署夥伴協議。
 
 **我的服務沒有公用的開發人員 API。仍然可以建置 Power BI 服務內容套件，直接從資料存放區提取資料嗎？**
 
@@ -76,9 +76,13 @@ ISV 可建置範本內容套件，讓客戶透過自己的帳戶連線並實例�
 
 Power BI 服務內容套件支援任何 REST API 或 OData 摘要。 Power BI 可以使用多種驗證類型，包括基本驗證、OAuth2.0 和 Web API 金鑰。 如需技術需求的詳細資料，請參閱[撰寫](template-content-pack-authoring.md#dashboard)一文。
 
+**我在 Power BI 中已發行內容套件。如何更新它？**
+
+已發行的內容套件一個月可更新一次。 請在當月最後一天以前將更新要求提交給 [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)，該更新將會在下個月的第一週發行。
+
 **我有很多關於服務內容套件的問題。如何連絡您？**
 
-歡迎您使用電子郵件提出問題：pbiservicesapps@microsoft.com
+歡迎您使用電子郵件提出問題：[pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
 ## <a name="support"></a>支援
 開發期間如需支援，請使用 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)。 我們會主動監視和管理該網站， 讓適當的小組可快速開始處理客戶事件。

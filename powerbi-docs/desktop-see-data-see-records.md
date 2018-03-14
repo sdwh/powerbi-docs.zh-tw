@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/22/2018
 ms.author: davidi
-ms.openlocfilehash: a61a5d46c2f663ff7e8388a862f5649487504092
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Learn more
+ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>使用 Power BI Desktop 中的查看資料和查看記錄
 在 **Power BI Desktop** 中，您可以向下鑽研任何視覺效果的詳細資料，並查看所選視覺效果資料或個別資料元素的文字表示。 這些功能有時稱為「點選」，或「鑽研」或「鑽研到詳細資料」。
@@ -69,6 +70,9 @@ ms.lasthandoff: 01/25/2018
 選取 [查看記錄] 之後，**Power BI Desktop** 會著重在該個別資料元素，並將畫布空間專用於顯示該元素的資料，如下圖所示。
 
 ![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+
+> [!NOTE]
+> 您無法將 [查看記錄] 檢視中所檢視 (或由使用者所修改) 之資料的變更儲存至報表。
 
 若要回到報表，請選取畫布左上角的 [< 回到報表] 按鈕。
 

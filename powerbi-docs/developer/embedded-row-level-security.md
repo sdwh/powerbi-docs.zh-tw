@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2dde59bba1c5d9ded1c82cf2dd1086be14f19304
+ms.sourcegitcommit: d6e013eb6291ae832970e220830d9862a697d1be
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>搭配 Power BI 內嵌內容使用資料列層級安全性
 資料列層級安全性 (RLS) 可用來限制使用者存取儀表板、圖格、報告和資料集內的資料。 多位不同的使用者可在看見不同的資料時使用這些相同的成品。 內嵌支援 RLS。
@@ -140,6 +140,47 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 您可以使用內嵌權杖中的身分識別來提供角色。 如果未提供任何角色，則會使用所提供的使用者名稱來解析相關聯的角色。
 
+**使用 CustomData 功能**
+
+CustomData 功能可讓您使用 CustomData 連接字串屬性傳遞任意文字 (字串)，這是 AS 所要使用的值 (透過 CUSTOMDATA() 函數)。
+您可以使用這項功能作為自訂資料取用的替代方式。
+您可以在角色 DAX 查詢中使用，也可以在量值 DAX 查詢中不搭配任何角色使用。
+CustomData 功能是下列成品之權杖產生功能的一部分：儀表板、報表和磚。 儀表板可以有多個 CustomData 身分識別 (每個磚/模型一個)。
+
+> [!NOTE]
+> CustomData 功能僅適用於位於 Azure Analysis Services 中的模型，而且僅適用於即時模式。 不同於使用者和角色，您無法在 .pbix 檔案中設定自訂資料功能。 使用自訂資料功能產生權杖時，您必須具有使用者名稱。
+>
+>
+
+**CustomData SDK 新增項目**
+
+權杖產生案例中的有效身分識別中已新增 CustomData 字串屬性。
+        
+        [JsonProperty(PropertyName = "customData")]
+        public string CustomData { get; set; }
+
+您可以使用下列呼叫，透過自訂資料來建立身分識別：
+
+        public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+
+**CustomData SDK 用法**
+
+如果您呼叫 REST API，您可以在每個身分識別中新增自訂資料，例如：
+
+```
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "username": "EffectiveIdentity",
+            "roles": [ "Role1", "Role2" ],
+            "customData": "MyCustomData",
+            "datasets": [ "fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc" ]
+        }
+    ]
+}
+```
+
 ## <a name="considerations-and-limitations"></a>考量與限制
 * 使用內嵌權杖時，在 Power BI 服務中將使用者指派給角色不會影響 RLS。
 * 雖然 Power BI 服務不會將 RLS 設定套用至系統管理員或具有編輯權限的成員，但當您使用內嵌權杖提供身分識別時，則會將它套用至資料。
@@ -150,4 +191,3 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 * 身分識別清單可讓多個身分識別權杖用於儀表板內嵌。 對於所有其他成品，此清單包含單一身分識別。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

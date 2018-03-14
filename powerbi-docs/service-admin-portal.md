@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/23/2018
 ms.author: maghan
-ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Administration
+ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
 
@@ -192,6 +193,19 @@ ms.lasthandoff: 02/09/2018
 ### <a name="create-template-organizational-content-packs"></a>建立範本組織內容套件
 
 組織中的使用者可以建立內容套件，其中使用建基於 Power BI Desktop 中一個資料來源的資料集。
+
+### <a name="push-apps-to-end-users"></a>將應用程式推送給終端使用者
+
+您的租用戶系統管理員可在 [租用戶設定] 中推送應用程式。
+
+   ![允許推送應用程式](media/service-create-distribute-apps/power-bi-apps-pushapps01.png)
+
+您可以將該設定切換至 [已啟用]，然後指定取得這項功能的人員 (整個組織或特定安全性群組)。
+
+> [!NOTE]
+> 請記住，租用戶設定變更可能需要一些時間才會生效。
+
+請前往這裡以深入了解[推送應用程式](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users)。
 
 ## <a name="integration-settings"></a>整合設定
 

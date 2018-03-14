@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 83b813ccdc9ed0ef232f5eede715ad3a795253d0
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>設計絕佳 Power BI 儀表板的秘訣
 現在您已經建立儀表板，及新增了某些圖格，請思考如何讓您的儀表板不只是好看，同時功能也更強。 一般而言，這代表將最重要的資訊設定為待命，讓它簡潔且整齊。
@@ -50,7 +51,7 @@ ms.lasthandoff: 01/03/2018
 
 ### <a name="make-the-most-important-information-biggest"></a>將最重要的資訊大小調整為最大
 如果儀表板上的文字和視覺效果大小都一樣，您的讀者會很難專注於最重要的內容。 例如，卡片視覺效果是凸顯重要數字的好方法：  
-![](media/service-dashboards-design-tips/pbi_card.png)
+![卡片視覺效果](media/service-dashboards-design-tips/pbi_card.png)
 
 但請務必提供內容。  
 

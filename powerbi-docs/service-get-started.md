@@ -16,23 +16,23 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: aacc31c3ebb31bf6f8077a2bf802e8127048a431
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cbb7697e3d3dbc92c2917b0a80deadfc0b9fd5a0
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="get-started-with-power-bi-service-apppowerbicom"></a>開始使用 Power BI 服務 (app.powerbi.com)
 本教學課程可協助您開始使用 ***Power BI 服務***。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，強烈建議您先閱讀[什麼是 Power BI](guided-learning/gettingstarted.yml#step-1)。
 
-![](media/service-get-started/power-bi-components.png)
+![此圖顯示桌面、服務與行動裝置之間的關聯性](media/service-get-started/power-bi-components.png)
 
 Power BI 服務有免費版本和專業版本。 無論您使用哪個版本，如果您已有帳戶，請開啟瀏覽器並輸入 app.powerbi.com 以開啟 Power BI 服務。 如果您是新使用者，建議改從 www.powerbi.com 著手。 從這裡，您可以在登入服務前深入了解 Power BI。  當您準備好進行試用時，請選取您在右上角看到的 [免費註冊] 連結。 如果您的系統管理員已經為您啟用 Power BI，請勿使用 [免費註冊] 按鈕，但改為直接前往 app.powerbi.com。 
 
-![](media/service-get-started/power-bi-sign-up.png)
+![免費登入或註冊](media/service-get-started/power-bi-sign-up.png)
 
 如果您需要 Power BI Desktop 的協助，請參閱[開始使用 Desktop](desktop-getting-started.md). 如果您想要尋求 Power BI Mobile 的協助，請參閱[行動裝置的 Power BI 應用程式](mobile-apps-for-mobile-devices.md)。
 
@@ -58,27 +58,27 @@ Microsoft Power BI 協助您掌握關切資訊的最新狀態。  使用 Power B
 1. [登入 Power BI](http://www.powerbi.com/)。 沒有帳戶嗎？ 別擔心，您可以免費註冊。
 2. Power BI 會在您的瀏覽器中開啟。 選取左導覽列底部的 [取得資料] 。
    
-   ![](media/service-get-started/getdata3.png)
+   ![取得資料](media/service-get-started/getdata3.png)
 3. 選取 [檔案] 。 
    
-   ![](media/service-get-started/gs1.png)
+   ![取得檔案](media/service-get-started/gs1.png)
 4. 瀏覽至電腦上的檔案，然後選擇 [開啟]。 如果您在商務用 OneDrive 中儲存它，請選取該選項。 如果您在本機儲存它，請選取 [本機檔案]。 
    
-   ![](media/service-get-started/gs2.png)
+   ![[取得資料] > [檔案] 畫面](media/service-get-started/gs2.png)
 5. 在本教學課程中，我們將選取 [匯入] 以將 Excel 檔案新增為資料集，接著使用該資料集來建立報表和儀表板。 如果您選取 [上傳]，整個 Excel 活頁簿會上傳至 Power BI，在其中，您可以在 Excel Online 中進行開啟和編輯。
    
-   ![](media/service-get-started/power-bi-import.png)
+   ![選擇 [匯入]](media/service-get-started/power-bi-import.png)
 6. 您的資料集就緒時，請選取 [檢視資料集] 以在報表編輯器中進行開啟。 
 
-    ![](media/service-get-started/power-bi-gs.png)
+    ![[您的資料集已就緒] 對話方塊](media/service-get-started/power-bi-gs.png)
 
     由於我們尚未建立任何視覺效果，所以報告畫布會空白。
 
-    ![](media/service-get-started/power-bi-report-editor.png)
+    ![空白報表畫布](media/service-get-started/power-bi-report-editor.png)
 
 6. 看看頂端功能表列，並請注意，有 [閱讀檢視] 的選項。 由於您有 [閱讀檢視] 的選項，這表示您目前處於**編輯檢視**中。 
 
-    ![](media/service-get-started/power-bi-editing-view.png)
+    ![[閱讀檢視] 選項](media/service-get-started/power-bi-editing-view.png)
 
     在 [編輯檢視] 中，您可以建立和修改報告，因為您是報告的「擁有者」；您是「建立者」。 當您與同事共用您的報告時，他們只能夠在 [閱讀檢視] 中與報告互動；他們是「取用者」。 深入了解[閱讀檢視和編輯檢視](service-reading-view-and-editing-view.md)。
     
@@ -91,49 +91,49 @@ Microsoft Power BI 協助您掌握關切資訊的最新狀態。  使用 Power B
     
 1. 在報告編輯器中，我們會使用頁面右側的 [欄位] 窗格來建立視覺效果。  選取 [總銷售額] 旁的核取方塊，然後按一下 [日期]。
    
-   ![](media/service-get-started/fields.png)
+   ![[欄位] 清單](media/service-get-started/fields.png)
 
 2. Power BI 會分析資料並建立視覺效果。  如果先選取 [日期]  就會看到資料表。  如果先選取 [總銷售額]  就會看到圖表。 切換不同的資料顯示方式。 讓我們以折線圖形式查看此資料。 從 [視覺效果] 窗格中選取折線圖圖示 (也稱為範本)。
    
-   ![](media/service-get-started/gettingstart5new.png)
+   ![已選取圖示的報表編輯器](media/service-get-started/gettingstart5new.png)
 
 3. 這看起來很有趣，讓我們將它「釘選」到儀表板。 將滑鼠停留在視覺效果上，並選取 [釘選] 圖示。  釘選這個視覺效果時，它會儲存在儀表板上並保持最新狀態，讓您一眼就能追蹤最新的值。
    
-   ![](media/service-get-started/pinnew.png)
+   ![釘選圖示](media/service-get-started/pinnew.png)
 
 5. 因為這是一份新報告，系統會提示您先儲存該報告，才可將視覺效果釘選到儀表板。 為報告命名 (例如「銷售歷史數據」) 並選取 [儲存並繼續]。 
    
-   ![](media/service-get-started/pbi_getstartsaveb4pinnew.png)
+   ![儲存報表對話方塊](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
 6. 讓我們將折線圖釘選到新的儀表板，並將它命名為「教學課程的財務範例」。 
    
-   ![](media/service-get-started/power-bi-pin.png)
+   ![為報表命名](media/service-get-started/power-bi-pin.png)
    
  1. 選取 [釘選] 。
    
     靠近右上角的成功訊息讓您知道，視覺效果已當成磚加入儀表板。
    
-    ![](media/service-get-started/power-bi-pin-success.png)
+    ![[已釘選到儀表板] 對話方塊](media/service-get-started/power-bi-pin-success.png)
 
 8. 選取 [移至儀表板] 將釘選的折線圖視為全新儀表板的圖格。 藉由新增更多視覺效果圖格，以及[重新命名、調整大小、連結和調整圖格位置](service-dashboard-edit-tile.md)，讓您的儀表板更完善。
    
-   ![](media/service-get-started/power-bi-new-dashboard.png)
+   ![已釘選視覺效果的儀表板](media/service-get-started/power-bi-new-dashboard.png)
    
    選取儀表板上新的磚，即可隨時返回報表。 Power BI 會讓您回到 [閱讀檢視] 中的報告編輯器。 若要切換回 [編輯檢視]，請選取頂端功能表列中的 [編輯報告]。 一旦在 [編輯檢視] 中，請繼續瀏覽及釘選圖格。 
 
 ## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>步驟 3：使用 [問與答] 繼續探索 (自然語言查詢)
 1. 如要快速瀏覽資料，請試著在問與答方塊中提問。 [問與答] 問題方塊位於儀表板頂端 (**詢問一個與資料相關的問題**) 以及報告的頂端功能表列中 (**詢問問題**)。 例如，試試看輸入「營收最高的部門」。
    
-   ![](media/service-get-started/powerbi-qna.png)
+   ![問與答畫布](media/service-get-started/powerbi-qna.png)
 
-2. [問與答] 會搜尋答案，並以視覺效果的形式呈現。 選取釘選圖示 ![](media/service-get-started/pbi_pinicon.png) 以在儀表板上顯示此視覺效果。
+2. [問與答] 會搜尋答案，並以視覺效果的形式呈現。 選取釘選圖示 ![釘選圖示](media/service-get-started/pbi_pinicon.png) 也會在儀表板上顯示此視覺效果。
 3. 將視覺效果釘選到「教學課程的財務範例」儀表板。
    
-    ![](media/service-get-started/power-bi-pin2.png)
+    ![[釘選到儀表板] 對話方塊](media/service-get-started/power-bi-pin2.png)
 
 4. 返回儀表板，您會在這裡看到新的圖格。
 
-   ![](media/service-get-started/power-bi-final-dashboard.png)
+   ![已釘選圖表的儀表板](media/service-get-started/power-bi-final-dashboard.png)
 
 ## <a name="next-steps"></a>後續步驟
 準備試試其他的嗎？  以下是一些探索 Power BI 的絕佳方法。

@@ -15,18 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Reports
+ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 服務報告中的閱讀檢視和編輯檢視
 在 Power BI 服務 (而非 Power BI Desktop) 中，有兩種模式可與報告互動：閱讀檢視和編輯檢視。 [閱讀檢視] 適用於所有使用者，特別是針對資料「取用者」而設計，[編輯檢視] 則僅適用於報表「建立者」和擁有者。 
 
-![](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
+![報表建立者與報表取用者的作品](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>報表閱讀檢視
 
@@ -65,7 +66,7 @@ ms.lasthandoff: 01/19/2018
 ||||
 | [新增或重新命名報表頁面](power-bi-report-add-page.md)  | 否  | 是  |
 | [複製報表頁面](power-bi-report-copy-paste-page.md) | 否  | 是 |
-| [刪除報表頁面](service-delete.md) | 不可以 | 可以 |
+| [刪除報表頁面](service-delete.md) | 不可以 | 是 |
 |**使用報表視覺效果**|
 ||||
 | [將視覺效果新增至報表](power-bi-report-add-visualizations-i.md) | 否  | 是 |
@@ -83,17 +84,17 @@ ms.lasthandoff: 01/19/2018
 
 1. 根據預設，報告通常會在 [閱讀檢視] 中開啟。 如果您看到 [編輯報告] 的選項，您可以表明您處於 [閱讀檢視] 中。 如果 [編輯報告] 呈現灰色，您就沒有在 [編輯檢視] 中開啟報告的權限。
 
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
+   ![編輯報表呈現灰色](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
 2. 如果 [編輯報告] 未呈現灰色，加以選取即可在 [編輯檢視] 中開啟報告。 
    
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
+   ![編輯報表選項](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
    
    報表目前處於 [編輯檢視] 中，使用的是您上次在 [閱讀檢視] 中使用的[顯示設定](power-bi-report-display-settings.md)。
 
 2. 若要返回 [閱讀檢視]，請從上方導覽列中選取 [閱讀檢視]。
    
-    ![](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
+    ![[閱讀檢視] 選項](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
 

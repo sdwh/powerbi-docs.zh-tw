@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: a7c4db0044772c28a3cb7a62649de3001945246c
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Reports
+ms.openlocfilehash: 7e2ef4a1ec49335a49e7f934a7606b2fe64f755c
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="visualization-interactions-in-a-power-bi-report"></a>在 Power BI 報表中與視覺效果互動
 如果您有報表的編輯權限，可以使用 [視覺效果互動] 變更報表頁面上視覺效果相互影響的方式。 
@@ -44,24 +45,24 @@ ms.lasthandoff: 01/11/2018
 2. 顯示 [視覺效果互動] 選項。
     - 在 Power BI 服務中，從 [報表] 功能表列上選取下拉式清單。
 
-       ![](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
+       ![[視覺互動] 下拉式清單](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
 
     - 在 Desktop 中，選取 [格式] > [互動]。
 
-        ![](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
+        ![依序選取 [格式] 和 [互動]](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
 
 3. 若要開啟視覺效果互動控制項，請選取 [編輯互動]。 Power BI 會將交叉篩選及交叉醒目提示圖示新增至報表頁面上所有其他視覺效果。
    
-    ![](media/service-reports-visual-interactions/power-bi-icons-on.png)
+    ![開啟 [視覺互動] 的報表](media/service-reports-visual-interactions/power-bi-icons-on.png)
 3. 決定所選視覺效果對其他視覺效果的影響。  並也對報表頁面上所有其他視覺效果重複執行動作 (選用)。
    
-   * 如應交叉篩選視覺效果，請選取**篩選**圖示 ![](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png)。
-   * 如應交叉醒目提示視覺效果，請選取**醒目提示**圖示 ![](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png)。
-   * 若不應有任何影響，請選取**無影響**圖示 ![](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png)。
+   * 如應交叉篩選視覺效果，請選取**篩選**圖示 ![篩選圖示](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png)。
+   * 如應交叉醒目提示視覺效果，請選取**醒目提示**圖示 ![醒目提示圖示](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png)。
+   * 若不應有任何影響，請選取**無影響**圖示 ![無影響圖示](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png)。
 
 4. 若要開啟切入控制項，請選取 [切入篩選其他視覺效果]。  現在當您向下 (和向上) 切入視覺效果時，報表頁面上的其他視覺效果會變更，以反映目前的切入選取項目。 
 
-   ![](media/service-reports-visual-interactions/drill2.gif)
+   ![開啟切入控制項的影片](media/service-reports-visual-interactions/drill2.gif)
 
 ### <a name="next-steps"></a>後續步驟
 [如何使用報表篩選](power-bi-how-to-report-filter.md)

@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 664e07b1a772c0eb5d14372061511bc86c671b64
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的報表
 ## <a name="what-is-a-power-bi-report"></a>什麼是 Power BI 報表？
 Power BI「報表」是資料集的多面向檢視，以視覺效果顯示該資料集的各種發現與深入資訊。  報表只能有一種視覺效果或有各種視覺效果的頁面。 根據您的工作角色，您可能是「建立」報表的人員，也可能是「取用」或使用報表的人員。
 
-![](media/service-reports/reportview.png)
+![報表頁面](media/service-reports/reportview.png)
 
 這份報表有 3 個頁面 (或索引標籤)，而且我們目前正在檢視 [銷售門市概觀] 頁面。 此頁面有 6 個不同的視覺效果和一個頁面標題。 視覺效果可以「釘選」到儀表板，而且在選取該釘選視覺效果時，會開啟從中釘選它的報表。
 

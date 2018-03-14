@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 62796d9eb376ab4c92cc5596176ac501a69c0e62
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="printing-from-power-bi-service"></a>從 Power BI 服務列印
 從 Power BI 服務列印整個儀表板、儀表板磚、報表頁面或報表視覺效果。 一次只能列印一頁報表 -- 您無法一次列印整份報表。
@@ -39,27 +39,26 @@ ms.lasthandoff: 02/24/2018
 
 ## <a name="print-a-dashboard"></a>列印儀表板
 1. 開啟您想要列印的儀表板。
-2. 在右上角選取省略符號 (...) 並選擇 [列印儀表板]。
+2. 在右上角選取省略符號 (...) 並選擇 [列印儀表板] 。
    
-    ![](media/service-print/pbi_print_dash_ellipses.png)
+    ![[列印儀表板] 選項](media/service-print/pbi_print_dash_ellipses.png)
 3. 您瀏覽器的 [列印] 視窗會隨即開啟。 選擇設定及列印目的地，然後選取 [列印]。
    
    > [!NOTE]
    > 顯示的列印對話方塊會依據您使用的瀏覽器而有所不同。
    > 
-   > 
    
-    ![](media/service-print/pbi_print_dash_new2.png)
+    ![[列印] 對話方塊](media/service-print/pbi_print_dash_new2.png)
 
 ## <a name="print-a-dashboard-tile"></a>列印儀表板磚
-1. 藉由選取省略符號並且選擇「焦點」圖示 ![](media/service-print/power-bi-focus-icon.png)，[在焦點模式中開啟圖格](service-focus-mode.md)。
+1. 藉由選取省略符號並且選擇焦點圖示 ![焦點圖示](media/service-print/power-bi-focus-icon.png)，[在焦點模式中開啟磚](service-focus-mode.md)。
    
-    ![](media/service-print/menu-options.png)
-2. 從上方導覽列中選取全螢幕圖示 ![](media/service-print/power-bi-full-screen-icon.png)，以[全螢幕模式](service-fullscreen-mode.md)開啟磚。
+    ![省略符號功能表](media/service-print/menu-options.png)
+2. 從上方導覽列中選取全螢幕圖示 ![全螢幕圖示](media/service-print/power-bi-full-screen-icon.png)，以[全螢幕模式](service-fullscreen-mode.md)開啟磚。
 3. 將滑鼠停留在磚上方以顯示 [選項] 功能表。
    
-    ![](media/service-print/menu-options-new.png)
-4. 選取列印圖示 ![](media/service-print/print-icon.png)。     
+    ![全螢幕選項功能表](media/service-print/menu-options-new.png)
+4. 選取列印圖示 ![列印圖示](media/service-print/print-icon.png)。     
    
    > [!NOTE]
    > 顯示的列印對話方塊會依據您使用的瀏覽器而有所不同。
@@ -72,7 +71,7 @@ ms.lasthandoff: 02/24/2018
 1. 以 [閱讀檢視] 或 [編輯檢視] 開啟報表。
 2. 選取 [檔案] > [列印] 即可列印目前報表頁面。
    
-    ![](media/service-print/power-bi-print.png)
+    ![Power BI [檔案] 功能表](media/service-print/power-bi-print.png)
 3. 您瀏覽器的 [列印] 視窗會隨即開啟。
    
    > [!NOTE]
@@ -81,7 +80,7 @@ ms.lasthandoff: 02/24/2018
    > 
 
 ## <a name="print-a-report-visual"></a>列印報表視覺效果
-1. [以焦點模式開啟視覺效果](service-focus-mode.md)，方法是將滑鼠游標移至磚上方，並選取右上角的焦點圖示 ![](media/service-print/power-bi-focus-icon.png)。
+1. [以焦點模式開啟視覺效果](service-focus-mode.md)，方法是將滑鼠游標移至磚上方，並選取右上角的焦點圖示![焦點圖示](media/service-print/power-bi-focus-icon.png)。
 2. 依照上述*列印報表頁面*底下的步驟 2-3。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解

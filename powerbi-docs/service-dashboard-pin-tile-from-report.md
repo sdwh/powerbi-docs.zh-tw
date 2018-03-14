@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 34574cf73d12d91df7a497cf297a9ecda9f5cc57
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 8fbc2ecafb34339a68b4ca5ecd0fa063082644a2
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>從報表將圖格釘選至 Power BI 儀表板
 ## <a name="pinning-tiles-from-a-report"></a>釘選報表的磚
@@ -45,7 +46,7 @@ ms.lasthandoff: 12/21/2017
 
 1. 將滑鼠停留在要釘選的視覺效果上，並選取釘選 ![](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png) 圖示。 Power BI 會開啟 [釘選至儀表板]  畫面。
    
-     ![](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
+     ![[釘選到儀表板] 視窗](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
 2. 決定要釘選到現有儀表板或新儀表板。
    
    * 現有儀表板：從下拉式清單中選取儀表板的名稱。 已與您共用的儀表板，不會出現在下拉式清單中。
@@ -55,7 +56,7 @@ ms.lasthandoff: 12/21/2017
    
    靠近右上角的成功訊息讓您知道，視覺效果已當成磚加入儀表板。
    
-   ![](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
+   ![成功訊息](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
 5. 從瀏覽窗格中，選取具有新圖格的儀表板。 選取該圖格以跳回到報表。 或者，[編輯磚顯示和行為](service-dashboard-edit-tile.md)。
 
 ## <a name="pin-an-entire-report-page"></a>釘選整份報表頁面

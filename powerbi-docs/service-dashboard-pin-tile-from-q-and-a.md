@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: a3df29b478675eeeec876863299c0a33073fb381
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Dashboards
+ms.openlocfilehash: bd9f49c338afc413107ee811bf9ee33c3e9737a4
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>從問與答將磚釘選到儀表板
 ## <a name="how-to-pin-a-tile-from-qa"></a>如何從問與答釘選磚
@@ -34,16 +35,16 @@ ms.lasthandoff: 01/19/2018
 
 1. 開啟[儀表板](service-dashboards.md)，其中至少有一個從報表釘選的磚。 當您提問時，Power BI 會在具有釘選到該儀表板之磚的任何資料集中尋找解答。  若要深入了解，請參閱[取得資料](service-get-data.md)。
 2. 在儀表板頂端的問題方塊中，開始輸入您想要知道的資料相關問題。  
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
+   ![問與答的問題方塊](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. 例如，當您輸入「去年各月份和地區的銷售額」...   
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
+   ![鍵入問題](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
 
    問題方塊可提供您建議。
 4. 若要將圖表加入儀表板作為磚，請選取畫布右上角的釘選圖示 ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png)。 如果儀表板已與您共用，您就無法釘選任何視覺效果。
 
 5. 將磚釘選至現有的儀表板或新的儀表板上。
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+   ![[釘選到儀表板] 對話方塊](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
 
    * 現有儀表板：從下拉式清單中選取儀表板的名稱。 您只能選擇具有目前工作區的儀表板。
    * 新的儀表板︰輸入新儀表板的名稱，它就會新增至目前工作區。
@@ -52,15 +53,15 @@ ms.lasthandoff: 01/19/2018
 
    靠近右上角的成功訊息讓您知道，視覺效果已當成磚加入儀表板。  
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
+   ![已釘選到儀表板](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
 7. 選取 [移至儀表板] 以查看新磚。 於該處，您可以在儀表板上[重新命名、調整大小、新增超連結和重新置放磚等等](service-dashboard-edit-tile.md)。
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
+   ![含有圖格的儀表板](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 * 當您開始輸入問題時，問與答會立即開始從與目前儀表板相關聯的所有資料集搜尋最佳回應。  「目前儀表板」是列在上方導覽列中的儀表板。 例如，這個問題將會在 [零售分析範例] 儀表板中提出，而此儀表板是 **mihart** 應用程式工作區的一部分。
 
-  ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
+  ![階層連結](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **問與答如何知道要使用哪些資料集**？  問與答可存取至少已有一個視覺效果釘選至該儀表板的所有資料集。
 
 * **看不到問題方塊**？ 請連絡 Power BI 系統管理員。 系統管理員能夠停用問與答。

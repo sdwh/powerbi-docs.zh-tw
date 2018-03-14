@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 430ff5ad86636d96ca693ff7fc1ac1bb0d16b5cc
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: afa3753d04cfb74c2673d222a0b1e6b07a1f5118
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="power-bi-notifications"></a>Power BI 通知
 通知中心是按時間排列的 Power BI 體驗相關資訊摘要。 加以開啟即可看到下列訊息的循序摘要：已與您共用的新儀表板、您的群組空間變更、Power BI 事件和會議的資訊、您已設定的警示等等。 您可以[在 Power BI 服務中設定警示](service-set-data-alerts.md)，也可以在 Power BI 行動裝置應用程式中設定警示。
@@ -34,13 +35,13 @@ ms.lasthandoff: 01/03/2018
 
 1. 當您登入 Power BI 時，所有在您離線時傳來的通知都會加入摘要中。 如果您有新通知，Power BI 會顯示有新項目數目的黃色泡泡。
    
-   ![](media/service-notification-center/power-bi-new-notification.png)
+   ![新通知圖示](media/service-notification-center/power-bi-new-notification.png)
 2. 在 Power BI 功能表列選取通知圖示。
    
-   ![](media/service-notification-center/power-bi-notifications-icon.png)
+   ![已選取通知圖示的頂端功能表列](media/service-notification-center/power-bi-notifications-icon.png)
 3. 最新通知會列在頂端，而且未讀取的訊息會有醒目提示。 通知會保留 90 天，除非您將其刪除，或是達到 100 則上限。
    
-   ![](media/service-notification-center/power-bi-notifications.png)
+   ![通知中心](media/service-notification-center/power-bi-notifications.png)
 4. 若要關閉通知，請選取 X 圖示。
 
 ### <a name="next-steps"></a>後續步驟

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 03be98e9aa2bd4d91357cc00208d82bd0116f69c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
+ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>在 AppSource 上發佈自訂視覺效果
 了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及使用。 Office
@@ -86,7 +86,7 @@ ms.lasthandoff: 01/30/2018
    * 「提交標題」：您的提交在開發人員中心的命名方式
    * 「版本」︰版本號碼是從您的增益集應用程式套件自動填入。
    * 「發行日期 (UTC)」：選取應用程式在市集發行的日期。 如果選擇未來的日期，則市集要到該日期才會提供應用程式。
-   * 「類別」：第一個類別會自動填入 "Data Visualization + BI"。 這是所有 Power BI 自訂視覺效果的標記方式。您最多可以提供 2 個額外的類別，方便使用者搜尋您的視覺效果。
+   * 「類別」：第一個類別會自動填入 "Data Visualization + BI"。 這是所有 Power BI 自訂視覺效果的標記方式。 您最多可以提供 2 個額外的類別，方便使用者搜尋您的視覺效果
    * 「測試備註」：選擇性，如果您想要為 Microsoft 軟體測試人員提供一些指示。
    * 「我的應用程式需要、支援、包含或使用密碼或加密」：保持取消核取
    * 「將此增益集放在 iPad 上的 Office 增益集目錄中」：保持取消核取
@@ -121,7 +121,7 @@ ms.lasthandoff: 01/30/2018
     > 如果您選取除了「免費」以外的選項或在應用程式內購買已提交的視覺效果內容，此提交將會遭到拒絕。
     > 
     > 
-17. 您現在可以選取 **儲存為草稿" 於稍後提交，或選取 [提交送審] 向 Office 市集提交自訂的視覺效果。
+17. 您現在可以選取 [儲存為草稿] 於稍後提交，或選取 [提交送審] 向 Office 市集提交自訂的視覺效果。
 
 ## <a name="tracking-submission-status-and-usage"></a>追蹤提交狀態和使用方式
 您可以檢閱[驗證原則](https://dev.office.com/officestore/docs/validation-policies#13-power-bi-custom-visuals)。

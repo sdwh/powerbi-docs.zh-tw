@@ -15,20 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 7c0bd2f342385f71fd91bb81a284ef41deb46169
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Reports
+ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>將報表從 Power BI 服務匯出至 Desktop (預覽)
 在 Power BI Desktop 中，您可以匯出 (也稱為「下載」) 報表至 Power BI 服務，方法是儲存報表，並選取 [發佈]。 您也可以另一個方向來匯出，並從 Power BI 服務下載報表到 Desktop。 在任一方向中，匯出的檔案副檔名為 *.pbix* 。
 
 有幾項需要注意的限制和考量，將在本文稍後討論。
 
-![](media/service-export-to-pbix/power-bi-file-export.png)
+![[檔案] 下拉式清單](media/service-export-to-pbix/power-bi-file-export.png)
 
 ## <a name="download-the-report-as-a-pbix"></a>將報表下載為 .pbix
 若要下載 .pbix 檔案，請遵循下列步驟：
@@ -42,18 +43,18 @@ ms.lasthandoff: 01/29/2018
    > 
 3. 建立 .pbix 檔案時，狀態橫幅會顯示進度。 當檔案已準備就緒時，系統會要求您開啟或儲存 .pbix 檔案。 檔案名稱與報表標題相符。
    
-    ![](media/service-export-to-pbix/power-bi-save-pbix.png)
+    ![開啟、儲存或取消](media/service-export-to-pbix/power-bi-save-pbix.png)
    
     您現在有使用 Power BI 服務 (app.powerbi.com) 或 Power BI Desktop 開啟 .pbix 檔案的選項。     
 4. 若要立即在 Desktop 中開啟報表，請選取 [開啟]。 若要將檔案儲存至特定位置，請選取 [儲存] > [另存新檔]。 如果您還沒有這麼做，請[安裝 Power BI Desktop](desktop-get-the-desktop.md)。
    
     當您在 Desktop 中開啟報表時，警告訊息可讓您了解 Power BI 服務報表的某些功能可能無法用於 Desktop。
    
-    ![](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
+    ![警告對話方塊](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
 
 5. Desktop 中的報表編輯器與 Power BI 服務中的報表編輯器非常類似。  
    
-    ![](media/service-export-to-pbix/power-bi-desktop.png)
+    ![Desktop 報表編輯器](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 從 Power BI 服務下載 (匯出) *.pbix* 檔案有幾項重要的相關考量和限制。

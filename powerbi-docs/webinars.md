@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/01/2018
 ms.author: maikelson
-ms.openlocfilehash: a16ed05732f5031f0a6f33522d52bb501e241c4f
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: eb1f158dd054d9e1e462b556897fde8a74ae4bc3
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -39,6 +39,10 @@ ms.lasthandoff: 02/09/2018
 <br>由 Miranda Li 主持
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Simply-Compelling-Seven-Tips-to-Better-Visualization-Design/m-p/173401?Is=Website)
 
+**20 分鐘內了解如何瀏覽 Power BI 儀表板**
+<br>由 Miguel Martinez 主持
+<br>[報名並立即觀看](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
 **相得益彰：Excel 使用者透過使用 Power BI 所能獲得的 5 個好處**
 <br>由 Carlos Otero 和 Miguel Martinez 主持
 <br>[報名並立即觀看](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
@@ -49,36 +53,14 @@ ms.lasthandoff: 02/09/2018
 
 進行註冊以收到 Power BI 專家傳來的資訊，並參加即時的問與答會議
 
-**Office 365 財務專業人員網路研討會系列 - 第 2 集：自動化週期報告與提供自助分析**
-<br>由 Mark Traverso 和 Miguel Martinez
-<br>2 月 15 日，下午 12:00 PST，下午 3:00 EST
+**Power BI 採用架構網路研討會系列：第 1 部分 - 採用：採用資料驅動的文化**
+<br>作者：Manu Kanwarpal
+<br>*月 8 日，上午 9:00 PST，下午 12:00 EST*
 
-了解祕訣、訣竅與最佳做法，進而使用 Office 365 在日常工作中達成更多目標。
+將組織的思維導向資料驅動的文化，並報名網路研討會系列，為 Power BI 採用 Microsoft 提供的架構。 採用自助商業智慧 (BI) 極富挑戰性，而取得工具只是旅途中的第一步。 只有人員、程序及技術的變化才能使採用成功。
+此網路研討會是系列五部的第一章，將為您的組織釋放 Power BI 的潛力。
 
-[報名後即可於 2 月 15 日觀看](https://aka.ms/Office365FinanceProsPBI) \(英文\)
-
-**與 Microsoft 一同銷售 BI 解決方案**
-<br>由 Tamer Farag
-<br>2 月 15 日，上午 8:00 PST，上午 11:00 EST
-
-參加此網路研討會以了解如何成功地與 Microsoft 合作，一同抓住「商業智慧」的市場商機。 取得我們最新訓練資源、行銷資料、獎勵和優惠的概觀，以協助建立及擴充您的做法。 另外，也了解如何讓解決方案在 PowerBI.com 和 AppSource.com 上展示，以確保您的解決方案和優惠獲得 Microsoft 客戶和銷售人員的注意。
-
-[報名後即可於 2 月 15 日觀看](https://infopedia.eventbuilder.com/event?eventid=l9d4s7) \(英文\)
-
-**20 分鐘內了解如何瀏覽 Power BI 儀表板**
-<br>由 Miguel Martinez 主持
-<br>*2018 年 2 月 21日，上午 10:00 PST，下午 1:00 EST*
-
-您是否曾在開啟 Power BI 儀表板後，卻不知道該從何著手嗎？  我該如何瀏覽此儀表板，才能找到重要的資料？ 您是否會因為害怕「把東西弄壞」而在篩取器與交叉分析器的使用上投鼠忌器呢？  別擔心，跟著我們的腳步就能在 Power BI 儀表板上找到方向。 只要您有需要，我們隨時都能帶您了解其他管理員使用的常見功能，以向下切入到您需要的資料。
-
-[報名後即可於 2 月 21 日觀看](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
-
-**使用新的 Power BI 和 data.world 連接器將公用或私用資料集視覺化**
-<br>2 月 22 日，上午 10:00 PST，下午 1:00 EST
-
-Microsoft 已和 data.world 合作推出新的資料連接器可讓您將 data.world 資料集匯入 Power BI Desktop 中。 加入我們以了解如何充分運用此絕佳的新連接器，並利用 data.world 社群的力量，與其他人共用及在您資料蘊含的意義上共同作業。
-
-[報名後即可於 2 月 22 日觀看](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+[報名以在 3 月 8 日觀看](https://info.microsoft.com/ww-landing-powerbi-adoption.html?Is=Website)
 
 >[從 Power BI 社群參與即將舉行的網路研討會](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
@@ -110,7 +92,15 @@ Microsoft 已和 data.world 合作推出新的資料連接器可讓您將 data.w
 <br>由來自 Blue Margin 的 Jon Thompson 與 Elgin Fastener Group 的 Jim Pastor 主持
 <br>[報名並立即觀看](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
+**使用新的 Power BI 和 data.world 連接器將公用或私用資料集視覺化**
+<br>作者：Patrick McGarry 與 Miguel Martinez
+<br>[報名並立即觀看](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
 ### <a name="advanced-topics"></a>進階主題 ###
+
+**Office 365 財務專業人員網路研討會系列 - 第 2 集：自動化週期報告與提供自助分析**
+<br>由 Mark Traverso 和 Miguel Martinez
+<br>[報名並立即觀看](https://aka.ms/Office365FinanceProsPBI)
 
 **如何實作成功的資料控管策略好讓組織更加安全**
 <br>由 Ajay Anandan 主持

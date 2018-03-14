@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: maghan
-ms.openlocfilehash: 890c748c7e7502394fd2e6e024521e99082a1c77
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Share your work
+ms.openlocfilehash: ee1b403eaa8456266b452ff34814dc4f4059d9a6
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -135,7 +136,7 @@ ms.lasthandoff: 01/30/2018
 [發行至 Web] 支援絕大部分的資料來源和 Power BI 服務中的報表，但不支援或提供下列報表：
 
 1. 使用資料列層級安全性的報表。
-2. 使用內部部署 Analysis Services Tablular 的報表。
+2. 使用任何即時連線資料來源的報表，包括裝載於內部部署 Analysis Service 多維度、Azure Analysis Services 和 Power BI 服務的 Analysis Services 表格式。
 3. 直接或透過組織內容套件與您共用的報表。
 4. 位在您非屬編輯成員之群組中的報表。
 5. [發行至 Web] 報表目前不支援 "R" 視覺效果。
