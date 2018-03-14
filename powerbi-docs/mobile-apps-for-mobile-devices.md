@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6803c8aa2898c9ab27b515c04d7db813e7d44ea4
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 7285e15b6f63cc53b9221a46e0a524313c413cda
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="take-power-bi-anywhere-in-mobile-apps-for-your-mobile-device"></a>行動裝置帶著 Power BI 行動裝置應用程式趴趴走
 您可於 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 中檢視您的 Power BI 儀表板和報表，並於 [Power BI 報表伺服器](report-server/get-started.md)上檢視內部部署 Power BI 報表。 現在可從 Power BI 行動裝置應用程式連線到內部部署和雲端的資料。 嘗試在行動裝置上檢視 Power BI 儀表板和報表，並與其互動，無論是 iOS (iPad、iPhone、iPod Touch 或 Apple Watch)、Android 手機或平板電腦，或是 Windows 10 裝置皆可。
@@ -51,4 +51,5 @@ Microsoft Intune 讓組織可以控制像是要求存取 PIN、控制應用程�
 ## <a name="next-steps"></a>後續步驟
 * [Power BI 免費與Pro 授權](service-free-vs-pro.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+
 
