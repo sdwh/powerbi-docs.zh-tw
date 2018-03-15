@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客戶獲利率範例：導覽
 
@@ -40,21 +40,22 @@ ms.lasthandoff: 03/01/2018
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
 2. 在左下角選取 [取得資料]。
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. 在顯示的 [取得資料] 頁面上，選取 [範例]。
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. 選取 [客戶獲利率範例]，然後選擇 [連線]。  
-   
+
    ![取得資料](media/sample-customer-profitability/get-supplier-sample.png)
 5. Power BI 會匯入內容套件，並將新的儀表板、報表及資料集新增到您目前的工作區。 新的內容會以黃色星號標示。 使用範例讓 Power BI 進行測試回合。  
-   
+
    ![星號](media/sample-customer-profitability/supplier-sample-asterisk.png)
-  
+
 ### <a name="get-the-pbix-file-for-this-sample"></a>取得此範例的 .pbix 檔案
 
-或者，您可以下載此範例為 .pbix 檔案，其設計目的是要用於 Power BI Desktop。 [客戶獲利率範例](<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Profitability Sample PBIX.pbix)
+或者，您可以下載此範例為 .pbix 檔案，其設計目的是要用於 Power BI Desktop。
+[客戶獲利率範例](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
@@ -87,13 +88,13 @@ ms.lasthandoff: 03/01/2018
 
 ![](media/sample-customer-profitability/power-bi-manager2.png)
 
-- 除了 Carlos 以外的所有主管皆已超越其銷售目標。 但 Carlos 的實際銷售額是最高的。 
+- 除了 Carlos 以外的所有主管皆已超越其銷售目標。 但 Carlos 的實際銷售額是最高的。
 - Annelie 的 GM% 最低，但我們可以看到它三月之後穩定增加。
-- 相反地，Valery 的 GM% 卻巨幅下滑。 
-- 而 Andrew 這一年的變動劇烈。 
+- 相反地，Valery 的 GM% 卻巨幅下滑。
+- 而 Andrew 這一年的變動劇烈。
 
 ## <a name="explore-the-dashboards-underlying-data"></a>探索儀表板的基礎資料
-儀表板具有連結到報表和 Excel 活頁簿的磚。 
+儀表板具有連結到報表和 Excel 活頁簿的磚。
 
 ### <a name="open-the-excel-online-data-source"></a>開啟 Excel 線上資料來源
 此儀表板上的兩個磚，[Target vs Actual] \(目標與實際\) 和 [Year Over Year Revenue Growth] \(逐年營收成長\)，都是從 Excel 活頁簿釘選而來。 當您選取其中任何一個磚時，Power BI 隨即開啟該磚的資料來源 (在此範例中為 Excel Online)。
@@ -112,14 +113,14 @@ ms.lasthandoff: 03/01/2018
 
 4. 繼續探索，如果發現感興趣的項目，選取右上角的 [釘選] ![](media/sample-customer-profitability/power-bi-excel-pin.png) 將它[釘選到儀表板](service-dashboard-pin-tile-from-excel.md)。
 
-5. 使用瀏覽器的上一頁箭頭來返回儀表板。 
+5. 使用瀏覽器的上一頁箭頭來返回儀表板。
 
 ### <a name="open-the-underlying-power-bi-report"></a>開啟基礎 Power BI 報表
-「客戶獲利率」範本儀表板上大部分的磚，都是從基礎「客戶獲利率」範本報表中釘選而來。 
+「客戶獲利率」範本儀表板上大部分的磚，都是從基礎「客戶獲利率」範本報表中釘選而來。
 
-1. 選取其中一個磚，以在 [閱讀檢視] 中開啟該報表。 
+1. 選取其中一個磚，以在 [閱讀檢視] 中開啟該報表。
 
-2. 報表有 3 個頁面。 報表底部的每個索引標籤都代表一個頁面。 
+2. 報表有 3 個頁面。 報表底部的每個索引標籤都代表一個頁面。
 
     ![](media/sample-customer-profitability/power-bi-report-tabs.png)
 
@@ -155,10 +156,10 @@ ms.lasthandoff: 03/01/2018
 
 在泡泡圖中，CFO 會尋找最大的泡泡，因為它們對營收的影響最大。 在區域圖中的主管姓名上按一下，依主管篩選頁面，讓您更容易依產業區段查看每一位經理的影響力。
 
-* Andrew 影響的區域遍及許多不同的產業區段，其 GM% (多為好的一面) 和差異 % 的變化也極大。 
-* Annelie 的圖表很類似，除了她專注於少數幾個產業區段，聚焦於聯邦區段及短劍產品。 
-* Carlos 目標明確，在服務區段取得豐厚的利潤。 他在高科技區段及對他而言嶄新的工業區段的差異 % 成長驚人，與預算相較，表現十分突出。 
-* Tina 負責少數幾個區段且擁有最高的 GM%，但她的泡泡都不大，這表示她對公司營收的影響最小。 
+* Andrew 影響的區域遍及許多不同的產業區段，其 GM% (多為好的一面) 和差異 % 的變化也極大。
+* Annelie 的圖表很類似，除了她專注於少數幾個產業區段，聚焦於聯邦區段及短劍產品。
+* Carlos 目標明確，在服務區段取得豐厚的利潤。 他在高科技區段及對他而言嶄新的工業區段的差異 % 成長驚人，與預算相較，表現十分突出。
+* Tina 負責少數幾個區段且擁有最高的 GM%，但她的泡泡都不大，這表示她對公司營收的影響最小。
 * Valery 只負表一種產品，只處理 5 個產業區段。 她的產業影響力有季節性，但一直都是大型的泡泡，這表示她對公司營收的影響巨大。 產業可否說明她不盡人意的表現？
 
 ### <a name="executive-scorecard"></a>主管計分卡
@@ -174,9 +175,9 @@ ms.lasthandoff: 03/01/2018
     ![](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. 輸入 **Valery 依各項產業分列的總營收**。 請注意當您輸入問題時，視覺效果更新的方式。
-   
+
     ![](media/sample-customer-profitability/power-bi-qna.png)
-   
+
    配銷是 Valery 最大的收益區域。
 
 ### <a name="dig-deeper-by-adding-filters"></a>加入篩選器更深入探究
@@ -184,15 +185,15 @@ ms.lasthandoff: 03/01/2018
 
 1. 開啟 [Industry Margin Analysis] \(產業利潤分析\) 報表頁面。
 2. 在不選取報表頁面上任何視覺效果的情況下，展開右側的篩選窗格 (如果未展開)。 [篩選] 窗格應該只會顯示頁面層級篩選。  
-   
+
    ![](media/sample-customer-profitability/power-bi-filters.png)
 3. 找到 [產業] 的篩選，然後選取箭號來展開清單。 讓我們新增 [配銷] 產業的頁面篩選。 首先，清除 [全選] 核取方塊，以清除所有選取項目。 然後僅選取 [配銷]。  
-   
+
    ![](media/sample-customer-profitability/customer7.png)
 4. 「每月毛利和主管姓名」區域圖告訴我們，只有 Valery 和 Tina 在此產業有客戶，而且 Valery 只有在六月到十一月這段時間才需要處理這項產業的業務。   
-5. 在「每月毛利和主管」區域圖圖例中，依序選取 [Tina] 和 [Valery]。 請注意，和 Valery 相比，Tina 的「產品總收益」部分真的很小。 
+5. 在「每月毛利和主管」區域圖圖例中，依序選取 [Tina] 和 [Valery]。 請注意，和 Valery 相比，Tina 的「產品總收益」部分真的很小。
 6. 若要查看實際的營收，請使用問與答要求**依主管及案例顯示配銷的總營收**。  
-   
+
      ![](media/sample-customer-profitability/power-bi-qna2.png)
 
     我們可以類似的方法瀏覽其他產業，甚至加入客戶，以在視覺效果中了解 Valery 績效的成因。
@@ -205,4 +206,3 @@ ms.lasthandoff: 03/01/2018
 我們希望本教學已示範 Power BI 儀表板、問與答和報表如何讓您深入了解客戶的資料。 現在換您登場 — 連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 深入了解[開始使用 Power BI](service-get-started.md).
 
 [返回 Power BI 中的範例](sample-datasets.md)  
-
