@@ -20,10 +20,10 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="printing-from-power-bi-service"></a>從 Power BI 服務列印
 從 Power BI 服務列印整個儀表板、儀表板磚、報表頁面或報表視覺效果。 一次只能列印一頁報表 -- 您無法一次列印整份報表。
@@ -39,7 +39,7 @@ ms.lasthandoff: 03/02/2018
 
 ## <a name="print-a-dashboard"></a>列印儀表板
 1. 開啟您想要列印的儀表板。
-2. 在右上角選取省略符號 (...) 並選擇 [列印儀表板] 。
+2. 在右上角選取省略符號 (...) 並選擇 [列印儀表板]。
    
     ![[列印儀表板] 選項](media/service-print/pbi_print_dash_ellipses.png)
 3. 您瀏覽器的 [列印] 視窗會隨即開啟。 選擇設定及列印目的地，然後選取 [列印]。

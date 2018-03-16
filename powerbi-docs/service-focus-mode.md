@@ -20,10 +20,10 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>以焦點模式顯示儀表板磚或報表視覺效果
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/02/2018
 
    ![磚會填滿報表畫布](media/service-focus-mode/power-bi-tile-focus.png)
 
-3. 展開 [篩選] 窗格，以查看套用到此視覺效果的所有篩選。
+3. 展開 [篩選] 窗格，以查看套用到這個視覺效果的所有篩選。
    
    ![具有 [篩選] 窗格的焦點模式](media/service-focus-mode/power-bi-focus-filters.png)
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 03/02/2018
 
    
    ![焦點模式中的視覺效果](media/service-focus-mode/power-bi-display-focus-newer2.png)
-3. 展開 [篩選] 窗格，以查看套用到此視覺效果的所有篩選。
+3. 展開 [篩選] 窗格，以查看套用到這個視覺效果的所有篩選。
    
    ![具有 [篩選] 畫面的焦點模式](media/service-focus-mode/power-bi-display-focus-filters.png)
 4. 修改篩選以進一步探索，如果發現有趣的視覺效果，可將該視覺效果釘選到儀表板。   

@@ -20,10 +20,10 @@ ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 187ca632ad947e5cb657f3a5d19e1d62262259b4
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 服務中的資料警示
 設定警示，以在儀表板中的資料變更時超出您所設定的限制時通知您。 
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/02/2018
 4. 向下捲動並輸入警示的詳細資料。  在此範例中，我們要建立警示，在商店數總計超過 100 家時通知我們。 警示會出現在我們的通知中心內。 我們也同樣設定讓 Power BI 傳送電子郵件給我們。
    
    ![在 [管理警示] 視窗中設定 [臨界值]](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. 選取 [儲存] 。
+5. 選取 [儲存]。
 
 ## <a name="receiving-alerts"></a>接收警示
 當正在追蹤的資料達到您所設定的其中一個臨界值時，會出現一些連鎖反應。 首先，Power BI 會檢查自傳送上個警示之後的經過時間，是否已超過 1 小時或 24 小時 (取決於您選取的選項)。 只要資料超過臨界值，您就會收到警示。

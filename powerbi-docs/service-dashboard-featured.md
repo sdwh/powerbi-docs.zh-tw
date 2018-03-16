@@ -1,5 +1,5 @@
 ---
-title: "Power BI 中精選的儀表板"
+title: "Power BI 中的精選儀表板"
 description: "說明如何在 Power BI 服務中建立精選儀表板"
 services: powerbi
 documentationcenter: 
@@ -20,10 +20,10 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: efa6d0266ae6fc8418ff4a6f2f78e47f5481d166
-ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Power BI 服務中的精選儀表板
 ## <a name="create-a-featured-dashboard"></a>建立精選儀表板
