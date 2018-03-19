@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ab73dde22fdb0603a900ac67b6e76e8f5aaf3872
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3903a4d7351ab00da24750736840c6ba35cffa2b
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>搭配使用外部 R IDE 與 Power BI
 透過 **Power BI Desktop**，您可以使用您的外部 R IDE (整合式開發環境) 來建立並精簡 R 指令碼，然後在 Power BI 中使用這些指令碼。
@@ -53,7 +53,7 @@ ms.lasthandoff: 02/24/2018
 如果沒有 **.R** 檔案關聯存在，可以在 [選項] 對話方塊的 [瀏覽至您慣用的 R IDE] 區段中指定自訂 IDE 的路徑。 您也可以啟動不同的 R IDE，方法是選取 **Power BI Desktop** 中**啟動 R IDE** 箭號圖示旁邊的**設定**齒輪圖示。
 
 ## <a name="launch-an-r-ide-from-power-bi-desktop"></a>從 Power BI Desktop 啟動 R IDE
-請執行下列步驟，以從 **Power BI Desktop** 啟動 R IDE。
+請執行下列步驟，以從 **Power BI Desktop** 啟動 R IDE：
 
 1. 將資料載入 **Power BI Desktop**。
 2. 從 [欄位] 窗格中選取幾個您想要使用的欄位。 如果您尚未啟用指令碼視覺效果，系統會提示您執行這項操作。

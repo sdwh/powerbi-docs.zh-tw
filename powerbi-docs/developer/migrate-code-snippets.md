@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
+ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c868c039e8edfe218c2a578402690a40ed1f3030
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: d293f2184f0f9a314a77c362312de4ab6a4dc5df
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="code-snippets-for-migrating-content-from-power-bi-embedded"></a>從 Power BI Embedded 移轉內容的程式碼片段
-以下是內容移轉所需之基本作業的一些程式碼片段。 針對特定報告類型的相關流程，請參閱[如何將 Power BI Embedded 工作區集合內容移轉至 Power BI](migrate-from-powerbi-embedded.md#content-migration)。
+# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>從 Power BI 工作區集合遷移內容的程式碼片段
+以下是內容移轉所需之基本作業的一些程式碼片段。 針對特定報告類型的相關流程，請參閱[如何將 Power BI 工作區集合內容遷移至 Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration)。
 
 有**移轉工具**可用來協助您將 Power BI Embedded (PaaS) 的內容複製到 Power BI 服務 (SaaS)。 尤其是當您有許多內容時。 如需詳細資訊，請參閱 [Power BI Embedded 移轉工具](migrate-tool.md)。
 

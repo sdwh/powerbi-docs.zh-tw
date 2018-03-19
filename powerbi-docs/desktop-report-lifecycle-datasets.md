@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fff56b220579a19505337f2ac9697cd3e61e83cb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>從 Power BI Desktop 連線到 Power BI 服務中的資料集
 您可在 Power BI 服務中建立連到共用資料集的即時連線，並從同一個資料集建立許多不同的報表。 這表示您可以在 Power BI Desktop 中建立完美的資料模型、將其發佈到 Power BI 服務，接著您和其他人就可以從同一個通用資料模型建立多個不同報表 (在個別 .pbix 檔案中)。 這項功能稱為 **Power BI 服務即時連線**。
@@ -101,7 +101,7 @@ Power BI 的熱門程度帶來一項挑戰，也就是報表、儀表板及其�
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_10.png)
 
-現在您 (和其他人) 只要從同一個資料集，就可以建立及共用自訂報表並加以共用。 這方法很適合讓一位具有專業知識的人建立一份內容完善的資料集 (就像 Anna 做的那樣)，再讓許多團隊成員使用那份共用資料集建立自己的報表。
+現在您 (和其他人) 可從同一個資料集建立及共用自訂報表。 這方法很適合讓一位具有專業知識的人建立一份內容完善的資料集 (就像 Anna 做的那樣)，再讓許多團隊成員使用那份共用資料集建立自己的報表。
 
 > [!NOTE]
 > 當您依據使用 **Power BI 服務**即時連線的資料集建立報表時，只能將該報表發佈到包含所用資料集的相同 Power BI 服務工作區。
@@ -116,8 +116,8 @@ Power BI 的熱門程度帶來一項挑戰，也就是報表、儀表板及其�
 * 由於這是即時連線，因此無法使用左側瀏覽和模型化，行為與連線到 **SQL Server Analysis Services** 時相似。
 * 由於這是即時連線，因此會強制執行 RLS (資料列及角色層級安全性)、商務用 OneDrive 及其他這類連線行為，方式和連線到 **SQL Server Analysis Services** 時相同。
 * 選取 **Power BI 服務**中要連線的目標資料集時，搜尋方塊僅適用於已展開的工作區。
-* 如果您修改原本共用的 .pbix 檔案，就會覆寫 **Power BI 服務**中共用的資料集和報表。
-* 無法取代原先共用的報表。 嘗試這樣做會導致產生警告，提示您為檔案重新命名再發佈。
+* 如果擁有者修改原本共用的 .pbix 檔案，就會覆寫 **Power BI 服務**中共用的資料集和報表。
+* 工作區成員無法取代原先共用的報表。 嘗試這樣做會導致產生警告，提示您為檔案重新命名再發佈。
 * 如果您刪除 **Power BI 服務**中的共用資料集，其他 **Power BI Desktop** (.pbix 檔案) 就無法再正常運作或顯示其視覺效果。
 * 若是內容套件，您必須先建立內容套件的複本，再將其當作將 .pbix 報表和資料集共用到 **Power BI 服務**的基礎。
 * 若是來自「我的組織」的內容套件，在複製後，您就無法取代服務上建立的報表及 (或) 透過即時連線時複製內容套件而建立的報表。 嘗試這樣做會導致產生警告，提示您為檔案重新命名再發佈。 在此情況下，您只能取代已發行的即時連線報表。

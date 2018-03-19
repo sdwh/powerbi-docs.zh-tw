@@ -1,6 +1,6 @@
 ---
-title: "如何將 Power BI Embedded 工作區集合內容移轉至 Power BI"
-description: "了解如何從 Power BI Embedded 移轉至 Power BI 服務，並利用內嵌在應用程式中的進階功能。"
+title: "如何將 Power BI 工作區集合內容遷移至 Power BI"
+description: "了解如何從 Power BI 工作區集合遷移至 Power BI Embedded，並利用內嵌在應用程式中的進階功能。"
 services: powerbi
 documentationcenter: 
 author: markingmyname
@@ -10,37 +10,37 @@ editor:
 tags: 
 qualityfocus: no
 qualitydate: 
-ms.service: powerbi
+ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/24/2018
+ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>如何將 Power BI Embedded 工作區集合內容移轉至 Power BI
-了解如何從 Power BI Embedded 移轉至 Power BI 服務，並利用內嵌在應用程式中的進階功能。
+# <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何將 Power BI 工作區集合內容遷移至 Power BI Embedded
+了解如何從 Power BI 工作區集合遷移至 Power BI Embedded，並利用內嵌在應用程式中的進階功能。
 
-Microsoft 最近[宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft-accelerates-modern-bi-adoption-with-power-bi-premium/)，這是一種新容量授權模型，可提高使用者如何存取、共用和散發內容的彈性。 此供應項目也會提供 Power BI 服務的額外延展性和效能。
+Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/en-us/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/)，這是一種新容量授權模型，可提高使用者如何存取、共用和散發內容的彈性。 此供應項目也會提供額外延展性和效能。
 
-透過引進 Power BI Premium，Power BI Embedded 和 Power BI 服務將合力促進如何將 Power BI 內容內嵌到應用程式中。 這表示，在內嵌內容時，您會有一個 API 介面、一組一致的功能以及最新 Power BI 功能的存取權 (例如儀表板、閘道和應用程式工作區)。 接著，您將可以開始使用 Power BI Desktop 並移至具有 Power BI Premium 的部署，而這會在 2017 年第二季正式上市。
+使用 Power BI Embedded，在內嵌內容時，您會有一個 API 介面、一組一致的功能以及最新 Power BI 功能的存取權 (例如儀表板、閘道和應用程式工作區)。 接著，您即可開始使用 Power BI Desktop 並移至具有 Power BI Embedded 的部署。
 
-目前的 Power BI Embedded 服務仍然可在所涵蓋供應項目正式上市後繼續運作一段有限時間：遵守企業合約的客戶可以進行存取直到現有合約到期；透過 Direct 或 CSP 通道取得 Power BI Embedded 的客戶則可在 Power BI Premium 正式上市後無限存取一年。  本文所提供的指引是有關如何從 Azure 服務移轉至 Power BI 服務，以及應用程式中預期變更的內容。
+目前的 Power BI 工作區集合在有限的時間內仍會繼續提供服務。 Enterprise 合約的客戶在現有合約到期後仍可繼續存取服務；透過直接或 CSP 通路取得 Power BI 工作區集合的客戶，自 Power BI Embedded 正式發行一年內，仍可繼續存取服務。  本文會提供從 Power BI 工作區集合遷移至新 Power BI Embedded 體驗的指引，以及應用程式中預期變更的內容。
 
 > [!IMPORTANT]
-> 雖然移轉與 Power BI 服務相依，但是使用**內嵌權杖**時未與應用程式使用者的 Power BI 相依。 他們不需要註冊 Power BI，即可檢視應用程式中的內嵌內容。 您可以使用這個內嵌方法，來服務非 Power BI 使用者。
+> 雖然遷移與 Power BI Embedded 相依，但是使用**內嵌權杖**時未與應用程式使用者的 Power BI 相依。 他們不需要註冊 Power BI，即可檢視應用程式中的內嵌內容。 您可以使用 Embedded 的這個內嵌方法，來服務 Power BI 使用者。
 > 
 > 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
 ## <a name="prepare-for-the-migration"></a>準備移轉
-您需要執行許多事項才能準備從 Power BI Embedded Azure 服務移轉至 Power BI 服務。 您必須要有租用戶，以及具有 Power BI Pro 授權的使用者。
+您需要執行許多準備事項才能從 Power BI 工作區集合遷移至 Power BI Embedded。 您必須要有租用戶，以及具有 Power BI Pro 授權的使用者。
 
 1. 請確定您可以存取 Azure Active Directory (Azure AD) 租用戶。
    
@@ -67,7 +67,7 @@ Microsoft 最近[宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/mic
 2. 將建立內容之分析師的帳戶。
    
     應該視需要將這些使用者指派給應用程式工作區。
-3. 應用程式 *master* 使用者帳戶或服務帳戶。
+3. 應用程式 *master* 使用者帳戶或 Embedded 帳戶。
    
     應用程式後端將會儲存此帳戶的認證，並使用它取得 Azure AD 權杖以與 Power BI REST API 搭配使用。 這個帳戶將用來產生應用程式的內嵌權杖。 這個帳戶也需要是針對內嵌而建立之應用程式工作區的管理員。
    
@@ -100,16 +100,16 @@ Microsoft 最近[宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/mic
 > 
 
 ## <a name="content-migration"></a>內容移轉
-將內容從工作區集合移轉至 Power BI 服務時，可以同時移轉至目前解決方案，而且不需要任何關機時間。
+將內容從工作區集合遷移至 Power BI Embedded，可以同時遷移至目前解決方案，而且不需要任何關機時間。
 
-有**移轉工具**可用來協助您將 Power BI Embedded 的內容複製到 Power BI 服務。 尤其是當您有許多內容時。 如需詳細資訊，請參閱 [Power BI Embedded 移轉工具](migrate-tool.md)。
+有**遷移工具**可用來協助您將 Power BI 工作區集合的內容複製到 Power BI Embedded。 尤其是當您有許多內容時。 如需詳細資訊，請參閱 [Power BI Embedded 移轉工具](migrate-tool.md)。
 
 內容移轉主要依賴兩個 API。
 
 1. 下載 PBIX - 此 API 可以下載在 2016 年 10 月後上傳至 Power BI 的 PBIX 檔案。
 2. 匯入 PBIX - 此 API 會將任何 PBIX 上傳至 Power BI。
 
-如需某些相關程式碼片段，請參閱[從 Power BI Embedded 移轉內容的程式碼片段](migrate-code-snippets.md)。
+如需某些相關程式碼片段，請參閱[從 Power BI 工作區集合遷移內容的程式碼片段](migrate-code-snippets.md)。
 
 ### <a name="report-types"></a>報表類型
 有數種類型的報表，而每種報表都需要略有不同的移轉流程。
@@ -126,7 +126,7 @@ Microsoft 最近[宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/mic
 #### <a name="directquery-dataset--report"></a>DirectQuery 資料集和報表
 **流程**
 
-1. 呼叫 GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources ，並儲存收到的連接字串。
+1. 呼叫 GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources，並儲存收到的連接字串。
 2. 從 PaaS 工作區，呼叫下載 PBIX API。
 3. 儲存 PBIX。
 4. 對 SaaS 工作區呼叫匯入 PBIX。
@@ -150,7 +150,7 @@ Microsoft 最近[宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/mic
 1. 呼叫含資料集 Json 的「建立資料集」API，以在 SaaS 工作區中建立資料集。
 2. 重建已建立資料集* 的報表。
 
-嘗試下列動作，可能可以使用一些因應措施將推送 API 報表從 PaaS 移轉至 SaaS。
+嘗試下列動作，可能可以使用一些因應措施將推送 API 報表從 PaaS 遷移至 SaaS。
 
 1. 將某些虛擬 PBIX 上傳至 PaaS 工作區。
 2. 複製推送 API 報表，並將它繫結至步驟 1 中的虛擬 PBIX。
@@ -160,7 +160,7 @@ Microsoft 最近[宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/mic
 6. 將報表重新繫結至推送 API 資料集。
 
 ## <a name="create-and-upload-new-reports"></a>建立和上傳新報表
-除了您從 Power BI Embedded Azure 服務所移轉的內容之外，還可以使用 Power BI Desktop 建立報表和資料集，然後將這些報表發佈至應用程式工作區。 發佈報表的一般使用者必須有 Power BI Pro 授權，才能發佈至應用程式工作區。
+除了您從 Power BI 工作區集合所遷移的內容之外，還可以使用 Power BI Desktop 建立報表和資料集，然後將這些報表發佈至應用程式工作區。 發佈報表的一般使用者必須有 Power BI Pro 授權，才能發佈至應用程式工作區。
 
 ## <a name="rebuild-your-application"></a>重建應用程式
 1. 您需要修改應用程式，以使用 Power BI REST API 以及 powerbi.com 內的報表位置。
@@ -174,30 +174,29 @@ Microsoft 最近[宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/mic
 當您準備好進入生產環境時，必須執行下列作業。
 
 * 如果您要使用不同的租用戶進行開發，則必須確定生產環境中具有應用程式工作區、儀表板和報表。 您也必須確定已在 Azure AD 中建立生產租用戶的應用程式，並獲指派適當的應用程式權限，如步驟 1 所示。
-* 購買符合您需求的容量。 若要深入了解您所需的數量及容量類型，請參閱[內嵌的分析容量規劃白皮書](https://aka.ms/pbiewhitepaper) (英文)。 您可以在 Azure 中[購買容量](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)。
+* 購買符合您需求的容量。 若要深入了解您所需的數量及容量類型，請參閱 [Power BI Embedded 分析容量規劃白皮書](https://aka.ms/pbiewhitepaper)。 您可以在 Azure 中[購買容量](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)。
 * 在進階下，編輯應用程式工作區，並將它指派給進階容量。
  
-    ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
     
-* 將更新過的應用程式部署至生產環境，然後開始從 Power BI 服務內嵌報表。
+* 將更新過的應用程式部署至生產環境，然後開始從 Power BI Embedded 內嵌報表。
 
 ## <a name="after-migration"></a>移轉之後
 您應該在 Azure 內執行一些清除工作。
 
-* 移除 Azure Power BI Embedded 服務內已部署解決方案的所有工作區。
+* 移除 Power BI 工作區集合之 Azure Embedded 內已部署解決方案的所有工作區。
 * 刪除任何存在於 Azure 內的工作區集合。
 
 ## <a name="next-steps"></a>後續步驟
 [內嵌在 Power BI 之中](embedding.md)  
-[Power BI Embedded 移轉工具](migrate-tool.md)  
-[從 Power BI Embedded 移轉內容的程式碼片段](migrate-code-snippets.md)  
-[如何內嵌 Power BI 儀表板、報表和磚](embedding-content.md)  
+[Power BI 工作區集合遷移工具](migrate-tool.md)  
+[從 Power BI 工作區集合遷移內容的程式碼片段](migrate-code-snippets.md)  
+[如何內嵌 Power BI 儀表板、報告和圖格](embedding-content.md)  
 [何謂 Power BI Premium](../service-premium.md)  
 [JavaScript API Git 存放庫](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 存放庫](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 內嵌示範](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[內嵌的分析容量規劃白皮書](https://aka.ms/pbiewhitepaper)  
+[工作區集合分析容量規劃白皮書](https://aka.ms/pbiewhitepaper)  
 [Power BI Premium 技術白皮書](https://aka.ms/pbipremiumwhitepaper)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
-

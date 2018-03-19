@@ -1,5 +1,5 @@
 ---
-title: "使用 Power BI 中的書籤 (預覽)"
+title: "在 Power BI 中使用書籤"
 description: "Power BI Desktop 中的書籤可讓您儲存報表中的檢視和設定，然後建立類似故事的簡報"
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a56983f48d80cf39b89958db4327e3632ee733e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>在 Power BI 中使用書籤來分享深入解析並建立故事 (預覽)
+# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用書籤來共用深入解析並建立故事 
 您可以使用 Power BI 中的**書籤**來擷取目前設定的報表頁面檢視 (包括視覺效果的篩選和狀態)，稍後只要選取儲存的書籤，就可以返回該狀態。 
 
 您也可以建立書籤集合，依您想要的順序加以排列，然後在簡報中逐步執行每個書籤，以醒目提示一系列深入解析，或您想要透過視覺效果和報表述說的故事。 
@@ -33,12 +33,14 @@ ms.lasthandoff: 02/24/2018
 
 書籤有許多用途。 您可以使用書籤來追蹤自己建立報表的進度 (新增、刪除和重新命名書籤都很容易)，您也可以建立書籤來建立依序逐步執行書籤之類似 PowerPoint 的簡報，以便透過報表述說故事。 此外，根據您認為書籤最適合使用的方式，可能還有其他用途。
 
-### <a name="enable-the-bookmarks-preview"></a>啟用書籤預覽
-從 **2017 年 10 月**版的 **Power BI Desktop** 開始，您可以試用新的**書籤**功能，您也可以針對 **Power BI 服務**中已啟用書籤的報表來試用這項功能。 若要啟用這項預覽功能，請選取 [檔案] > [選項及設定] > [選項] > [預覽功能]，然後選取 [書籤] 旁的核取方塊。 您完成選取後必須重新啟動 Power BI Desktop。
+### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>啟用書籤預覽 (2018 年 3 月之前的版本)
+Power BI Desktop 自 2018 年 3 月版開始正式推出書籤。 
+
+我們建議您升級至最新版本。 但如果您的 Power BI Desktop 版本比該版舊，您可以嘗試 **Power BI Desktop** 自 **2017 年 10 月**版開始的**書籤**功能，以及 **Power BI 服務**中啟用書籤的報表。 若要啟用這項預覽功能，請選取 [檔案] > [選項及設定] > [選項] > [預覽功能]，然後選取 [書籤] 旁的核取方塊。 
 
 ![啟用 [選項] 視窗中的 [書籤]](media/desktop-bookmarks/bookmarks_02.png)
 
-完成選取後，必須重新啟動 **Power BI Desktop**。
+選取啟用書籤預覽版後，您必須重新啟動 **Power BI Desktop**。
 
 ## <a name="using-bookmarks"></a>使用書籤
 若要使用書籤，請選取 [檢視] 功能區，然後選取 [書籤窗格] 方塊。 
@@ -147,14 +149,13 @@ ms.lasthandoff: 02/24/2018
 請注意，您必須使用灰色書籤標題列來巡覽書籤，而不是黑色箭號 (黑色箭號可讓您在報表頁面而非書籤之間移動)。
 
 ## <a name="limitations-and-considerations"></a>限制與考量
-在此預覽版的**書籤**中，有幾點限制和考量要留意。
+在本版的**書籤**中，有幾點限制和考量要留意。
 
 * 如果自訂視覺效果是篩選「來源」，則無法與書籤搭配使用。 如果您使用自訂視覺效果來篩選頁面上的項目 (例如標籤方塊交叉分析篩選器)，然後使用書籤返回該頁面，頁面可能會經過篩選，但不會更新自訂視覺效果以顯示頁面的篩選方式。 
 * 當您建立書籤時，「不會」儲存報表窗格的交叉醒目提示狀態。 
 * 如果您在建立書籤之後將視覺效果新增至報表頁面，視覺效果就會以其預設狀態顯示。 換句話說，如果您在先前建立書籤的頁面中引進交叉分析篩選器，交叉分析篩選器就會以其預設狀態運作。
 * 在建立書籤之後移動視覺效果的結果會反映在書籤中。 
 * 當您將報表發佈至 **Power BI 服務**時，報表中「必須」至少有一個書籤，才能在服務中使用書籤。 每個發行的報表都必須符合這項條件。
-* 由於書籤目前是預覽功能，它們在[**適用於報表伺服器的 Power BI Desktop**](report-server/quickstart-create-powerbi-report.md) 上還無法使用。
 
 ## <a name="next-steps"></a>後續步驟
 如需類似功能或與書籤互動的詳細資訊，請參閱下列文章：

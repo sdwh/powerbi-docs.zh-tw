@@ -18,21 +18,21 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e4415f4315400e7ff11c356badee19eebace82b7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c28a53f4421c88bfc6237813ce6fdb76cc160cd
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>在 Power BI Desktop 中使用泛型介面連接到資料
-您可以使用內建資料連接器，在 **Power BI Desktop** 中連接到多種不同的資料來源，連接器會顯示在 [取得資料] 視窗中，從 **Access 資料庫**到 **Zendesk** 資源皆涵蓋在內。 您也可以使用 **Power BI Desktop** 內建的泛型介面 (例如 **ODBC** 或 **REST API**) 連接到「其他」各式各樣的資料來源，這還能進一步擴充您的連線選項。
+您可以使用內建資料連接器，在 **Power BI Desktop** 中連接到多種不同的資料來源，連接器會顯示在 [取得資料] 視窗中，從 **Access 資料庫**到 **Zendesk** 資源皆涵蓋在內。 您也可以使用 **Power BI Desktop** 內建的泛型介面 (例如 **ODBC** 或 **REST API**) 連線到「其他」各式各樣的資料來源，進一步擴充您的連線選項。
 
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
 ## <a name="power-bi-desktop-data-interfaces"></a>Power BI Desktop 資料介面
 **Power BI Desktop** 包含一系列資料連接器，專為連接到特定資料來源而打造，而且數量持續增加。 例如，如果在您選取 [取得資料] > [更多...] \(如上圖所示) 時，顯示的視窗中出現了其他資料來源，**SharePoint 清單**資料連接器會在 **SharePoint 清單**專用的連線順序期間提供特定欄位和支援資訊。
 
-此外，**Power BI Desktop** 還可讓您使用下列其中一個泛型資料介面，連接到 [取得資料] 清單中未明確指出的資料來源：
+此外，**Power BI Desktop** 還可讓您使用下列其中一個泛型資料介面，連接到 [取得資料] 清單中未指出的資料來源：
 
 * **ODBC**
 * **OLE DB**
@@ -44,7 +44,7 @@ ms.lasthandoff: 02/24/2018
 
 在下列章節中，您可以找到可透過這些泛型介面存取的資料來源清單。
 
-找不到想在 **Power BI Desktop** 使用的資料來源嗎？ 請[讓我們知道](https://ideas.powerbi.com/)，好讓我們將其新增到意見和要求清單中。
+找不到想在 **Power BI Desktop** 使用的資料來源嗎？ 向 Power BI 小組的[想法和要求清單](https://ideas.powerbi.com/)提交您的想法。
 
 ## <a name="data-sources-accessible-through-odbc"></a>可透過 ODBC 存取的資料來源
 **Power BI Desktop** 中的 **ODBC** 連接器讓您只要指定**資料來源名稱 (DSN)** 或「連接字串」，即可從任何協力廠商 ODBC 驅動程式匯入資料。 您也可以選擇指定要對 ODBC 驅動程式執行的 SQL 陳述式。
@@ -114,7 +114,7 @@ ms.lasthandoff: 02/24/2018
 | R Script |R 統計檔案 |[CRAN 提供的 R 指令碼指導](https://cran.r-project.org/doc/manuals/R-data.html) |
 
 ## <a name="next-steps"></a>後續步驟
-您可以使用 Power BI Desktop 連接至各式各樣的資料來源。 如需有關資料來源的詳細資訊，請參閱下列資源︰
+您可以使用 **Power BI Desktop** 連線至各式各樣的資料來源。 如需有關資料來源的詳細資訊，請參閱下列資源︰
 
 * [開始使用 Power BI Desktop](desktop-getting-started.md)
 * [Power BI Desktop 中的資料來源](desktop-data-sources.md)

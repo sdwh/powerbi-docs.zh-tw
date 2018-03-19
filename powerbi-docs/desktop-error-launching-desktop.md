@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6d5e4592d1bf041672f89dd38f03ddc6ff196735
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 43263afb63fa0350a240cae602f4a2acf8ef8edd
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>解決 Power BI Desktop 無法啟動的問題
 在 **Power BI Desktop** 中，因為 Power BI 內部部署閘道在本機電腦的具名管道上設置了系統管理原則限制，所以會封鎖安裝並執行舊版 **Power BI 內部部署資料閘道**的使用者，讓他們無法啟動 Power BI Desktop。 
@@ -42,7 +42,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>協助解決啟動 Power BI Desktop 時發生的其他問題
 我們致力於將 **Power BI Desktop** 所發生的問題涵蓋在本文中。 我們經常檢視可能會影響眾多客戶的問題，並將它們包含在我們的文章內。
 
-如果啟動 **Power BI Desktop** 時發生的問題與內部部署資料閘道無關，或上述解決方法無法解決問題，您可以將支援事件提交給 [Power BI 支援](https://support.powerbi.com) (https://support.powerbi.com) 來協助找出並解決問題。
+如果啟動 **Power BI Desktop** 時所發生的問題與內部部署資料閘道無關，或上述解決方法無法解決問題，您可以將支援事件提交給 [Power BI 支援](https://support.powerbi.com) (https://support.powerbi.com) 來協助找出並解決問題。
 
 如果未來遇到 **Power BI Desktop** 的其他問題 (我們希望沒有或非常少)，開啟追蹤並收集記錄檔將有助於更佳隔離並找出問題。 若要開啟追蹤，請選取 [檔案] > [選項及設定] > [選項]，選取 [診斷]，然後核取 [診斷選項] 下的 [啟用追蹤]。 我們了解 **Power BI Desktop** 必須在執行中才能設定此選項，因此更有助於解決未來與啟動 **Power BI Desktop** 相關聯的問題。
 

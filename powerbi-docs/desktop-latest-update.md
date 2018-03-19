@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e68f581e735619a85024cb9582bbc88b8f9aca79
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8dda30e988b4ab47eb32a85d746aeed38d565f2b
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新的 Power BI Desktop 中有什麼新功能？
 
-## <a name="february-2018-update-2555010521"></a>2018 年 2 月更新 (2.55.5010.521)
+## <a name="march-2018-update-2565023861"></a>2018 年 3 月更新 (2.56.5023.861)
 
 您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您使用哪種方式安裝 **Power BI Desktop**，每月的版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
-我們非常喜愛這個月的 **Power BI Desktop** 更新，希望您覺得它們就像一盒甜蜜的巧克力。
+我們很幸運能有這個月的 **Power BI Desktop** 更新。
 
 旁邊的連結分別更新下列項目：
 
@@ -45,46 +45,39 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="reporting"></a>報告
 
-* 跨多個頁面複選資料點  [[影片]](https://youtu.be/KeVB5RwMzJo?t=23s) \(英文\) [[文章]](desktop-multi-select.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) \(英文\) 
-* 跨報告的多個頁面同步處理交叉分析篩選器  [[影片]](https://youtu.be/KeVB5RwMzJo?t=3m33s) \(英文\) [[文章]](desktop-slicers.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) \(英文\) 
-* 數值範圍交叉分析篩選器改進 - 貼齊至整數 (預覽)  [[影片]](https://youtu.be/KeVB5RwMzJo?t=8m44s) \(英文\)  [[文章]](desktop-slicer-numeric-range.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
-* 更快速的 Bing 地圖服務地理編碼 (Web 預覽) - 最高快 6 倍 [[影片]](https://youtu.be/KeVB5RwMzJo?t=10m18s) \(英文\)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) \(英文\) 
-* 橫條圖和直條圖視覺效果的資料標籤溢位  [[影片]](https://youtu.be/KeVB5RwMzJo?t=12m31s) \(英文\)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) \(英文\) 
-* 搜尋 [格式化] 和 [分析] 窗格  [[影片]](https://youtu.be/KeVB5RwMzJo?t=14m46s) \(英文\)  [[文章]](desktop-analytics-pane.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) \(英文\) 
-
+* 報表頁面工具提示  [[影片]](https://youtu.be/kuI6MMzDh34?t=16s)  [[文章]]()  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* 現在正式推出書籤  [[影片]](https://youtu.be/kuI6MMzDh34?t=9m2s)  [[文章]](desktop-bookmarks.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
+* 顯示 [資料表] 和 [矩陣] 資料行的單位和精確度控制  [[影片]](https://youtu.be/kuI6MMzDh34?t=11m1s)  [[文章]](desktop-slicer-numeric-range.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
+* 關閉報表讀取模式的視覺效果標頭  [[影片]](https://youtu.be/kuI6MMzDh34?t=12m25s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
+* 改善的預設視覺效果置放  [[影片]](https://youtu.be/kuI6MMzDh34?t=14m45s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
 
 ### <a name="custom-visuals"></a>自訂視覺效果
 
-* 組織自訂視覺效果 (預覽)  [[影片]](https://youtu.be/KeVB5RwMzJo?t=19m23s) \(英文\)  [[文章]](power-bi-custom-visuals-organization.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) \(英文\) 
-
-
-### <a name="analytics"></a>分析
-
-* 設定自訂日期資料表  [[影片]](https://youtu.be/KeVB5RwMzJo?t=16m4s) \(英文\)  [[文章]](desktop-date-tables.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable) \(英文\)
-* 快速量值現在正式推出  [[影片]](https://youtu.be/KeVB5RwMzJo?t=17m52s) \(英文\)  [[文章]](desktop-quick-measures.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) \(英文\) 
+* 許多新的自訂視覺效果  [[影片]](https://youtu.be/kuI6MMzDh34?t=15m43s)   [[文章]](power-bi-custom-visuals-organization.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>資料連線
 
-* 改進對 SAP HANA 的 DirectQuery (預覽)  [[影片]](https://youtu.be/KeVB5RwMzJo?t=30m1s) \(英文\)  [[文章]](desktop-directquery-sap-hana.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) \(英文\) 
+* Visual Studio Team Services 連接器改善  [[影片]](https://youtu.be/kuI6MMzDh34?t=32m)  [[文章]](desktop-multi-select.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#vsts) 
+* SAP HANA 連接器增強功能  [[影片]](https://youtu.be/kuI6MMzDh34?t=32m44s)  [[文章]](desktop-directquery-sap-hana.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#saphana) 
+  * 現已正式推出 DirectQuery 多維度支援
+  * SSL 憑證驗證支援
+* 現在正式推出 SAP BW DirectQuery  [[影片]](https://youtu.be/kuI6MMzDh34?t=34m10s)  [[文章]](desktop-directquery-sap-hana.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
+* 現在正式推出 Azure Analysis Services 連接器  [[影片]](https://youtu.be/kuI6MMzDh34?t=34m10s)  [[文章]](desktop-directquery-sap-hana.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
 
 ### <a name="other"></a>其他
 
-* DirectQuery 效能改進  [[影片]](https://youtu.be/KeVB5RwMzJo?t=32m24s) \(英文\)  [[文章]](desktop-directquery-about.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) \(英文\) 
-* 開啟和儲存效能改進  [[影片]](https://youtu.be/KeVB5RwMzJo?t=33m40s) \(英文\)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) \(英文\) 
-* [顯示沒有資料的項目] 改進  [[影片]](https://youtu.be/KeVB5RwMzJo?t=34m6s) \(英文\)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) \(英文\) 
-* 即將推出的 **Power BI 服務**的持續篩選控制功能  [[影片]](https://youtu.be/KeVB5RwMzJo?t=34m56s) \(英文\)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) \(英文\) 
-
-
+* 改善錯誤報告  [[影片]](https://youtu.be/kuI6MMzDh34?t=34m51s)  [[文章]](desktop-directquery-about.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
+* 檢視之前發生的錯誤  [[影片]](https://youtu.be/kuI6MMzDh34?t=34m51s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
 
 > [!NOTE]
 > 您也可以[查看 Power BI Desktop 的所有可用資料來源](desktop-data-sources.md)，我們的資料來源會持續增加，因此請經常回來查看。
 
-需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
 
 
 下列影片將描述並示範這些更新。 您也可以從部落格文章觀賞這段影片。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KeVB5RwMzJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kuI6MMzDh34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 > [!NOTE]

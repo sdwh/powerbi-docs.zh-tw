@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c2f2fcca7c1d915f94960824d32a5d4f18a978b6
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表建立並發佈應用程式
 
@@ -174,6 +174,8 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 * 如果使用者未立即在 [應用程式] 清單中看到應用程式，則應該重新整理，或關閉並重新開啟其瀏覽器。
 
 * 盡量不要造成使用者太多負擔。 請小心不要推送太多應用程式，這樣使用者才能認定預先安裝的應用程式對他們有用。 為調配時間，最好控制誰可以將應用程式推送給終端使用者。 您可以建立連絡點，來將組織中的應用程式推送給終端使用者。
+
+* 不會自動為未接受邀請的來賓使用者安裝應用程式。  
 
 ## <a name="unpublish-an-app"></a>解除發佈應用程式
 應用程式工作區的任何成員都可以解除發佈應用程式。

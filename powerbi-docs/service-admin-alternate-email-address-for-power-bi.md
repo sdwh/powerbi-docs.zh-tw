@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/08/2018
 ms.author: maghan
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c97f60e39d68060c8eb3396bac4eb7725dab9c86
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: adc78cceb8a6b6edd06896e53a1a64cf0d28b2b8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-an-alternate-email-address"></a>使用備用電子郵件地址
 預設會使用您用來註冊 Power BI 的電子郵件地址，來傳送有關 Power BI 中活動的更新給您。  例如，當有人傳送共用邀請給您時，便會傳送至這個地址。
@@ -45,6 +45,19 @@ ms.lasthandoff: 02/24/2018
 > 變更這項設定不會影響用來傳送服務更新、電子報和其他促銷通訊的電子郵件地址。  這些項目一律會傳送至您原本用來註冊 Power BI 的電子郵件地址。
 > 
 > 
+
+## <a name="updating-through-azure-active-directory"></a>透過 Azure Active Directory 更新
+擷取適用於 Power BI 的 Active Azure Directory (AAD) 內嵌權杖時，您可以使用三種不同的電子郵件。 這三種不同類型為：
+
+* 與使用者 AAD 帳戶相關聯的主要電子郵件地址
+* UserPrincipalName (UPN) 電子郵件地址
+* “other” 電子郵件地址陣列屬性
+
+Power BI 會會根據下列準則選取要使用的電子郵件：
+1.  如果 AAD 租用戶的使用者物件中存在 mail 屬性，則 Power BI 會在電子郵件地址中使用該 mail 屬性
+2.  如果 UPN 電子郵件「不是」**\*.onmicrosoft.com** 網域的電子郵件地址 ("@" 符號後面的資訊)，則 Power BI 會在電子郵件地址中使用該 mail 屬性
+3.  如果 AAD 租用戶的使用者物件中存在 “other” 電子郵件陣列屬性，則會使用該清單中的第一個電子郵件 (因為這個屬性中會有一份電子郵件清單)
+4. 如果上述條件都不存在，則會使用 UPN 位址
 
 ## <a name="updating-with-powershell"></a>透過 PowerShell 更新
 您也可以透過適用於 Azure Active Directory 的 PowerShell 來更新備用電子郵件地址。 做法是使用 [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser) 命令。

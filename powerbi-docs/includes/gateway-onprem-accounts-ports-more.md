@@ -2,7 +2,7 @@
 使用者將會使用公司或學校帳戶登入。 這是您的組織帳戶。 如果您註冊 Office 365 供應項目，而且未提供實際的公司電子郵件，其看起來可能會類似 nancy@contoso.onmicrosoft.com。您在雲端服務中的帳戶會儲存在 Azure Active Directory (AAD) 租用戶中。 在大部分情況下，您的 AAD 帳戶 UPN 會與電子郵件地址相符。
 
 ## <a name="windows-service-account"></a>Windows 服務帳戶
-內部部署資料閘道已設定為使用 NT SERVICE\PBIEgwService 來表示 Windows 服務的登入認證。 根據預設，其具有「以服務方式登入」的權限。 這在您要安裝閘道的電腦內容中。
+內部部署資料閘道已設定為使用 *NT SERVICE\PBIEgwService* 來表示 Windows 服務的登入認證。 根據預設，其具有「以服務方式登入」的權限。 這在您要安裝閘道的電腦內容中。
 
 > [!NOTE]
 > 如果您選取個人模式，請另外設定 Windows 服務帳戶。
@@ -66,9 +66,9 @@ ServiceBusSystemConnectivityModeString 參數的值有區分大小寫。 有效�
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ## <a name="support-for-tls-1112"></a>TLS 1.1/1.2 支援
-有了 2017 年 8 月更新和以上版本之後，內部部署資料閘道會根據預設，使用傳輸層安全性 (TLS) 1.1 或 1.2 與 **Power BI 服務**通訊。 根據預設，舊版內部部署資料閘道會使用 TLS 1.0。 2018 年 3 月 15 日將結束 TLS 1.0 支援 (包括閘道使用 TLS 1.0 與 **Power BI 服務**互動的功能)，因此您必須在屆期前將內部部署資料閘道安裝升級為 2017 年 8 月版本或更新版本，以確保閘道持續運作。
+有了 2017 年 8 月更新和以上版本之後，內部部署資料閘道預設會使用傳輸層安全性 (TLS) 1.1 或 1.2，以與 **Power BI 服務**進行通訊。 舊版內部部署資料閘道預設會使用 TLS 1.0。 2018 年 3 月 15 日將結束 TLS 1.0 支援 (包括閘道使用 TLS 1.0 與 **Power BI 服務**互動的功能)，因此您必須在屆期前將內部部署資料閘道安裝升級為 2017 年 8 月版本或更新版本，以確保閘道持續運作。
 
-請務必注意，在 11 月 1 日之前，內部部署資料閘道仍然支援 TLS 1.0，並用以當成後援機制。 若要確保所有閘道流量使用 TLS 1.1 或 1.2 (以及避免在閘道上使用 TLS 1.0)，您必須新增或修改執行閘道服務之電腦上的下列登錄機碼：
+請務必注意，在 11 月 1 日之前，內部部署資料閘道仍然支援 TLS 1.0，而且閘道會使用它作為後援機制。 若要確保所有閘道流量使用 TLS 1.1 或 1.2 (以及避免在閘道上使用 TLS 1.0)，您必須新增或修改執行閘道服務之電腦上的下列登錄機碼：
 
         [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
         [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001

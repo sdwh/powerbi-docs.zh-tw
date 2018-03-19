@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 85ac8564efca953d338bef9aab8b59699d992c19
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ff28f5d43b065ae798e2e9f275c8e8b59e9ee1ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
@@ -78,13 +78,14 @@ ms.lasthandoff: 02/24/2018
 * Oracle 資料庫
 * IBM DB2 資料庫
 * IBM Informix 資料庫 (搶鮮版 (Beta))
-* IBM Netezza (Beta)
+* IBM Netezza
 * MySQL 資料庫
 * PostgreSQL 資料庫
 * Sybase 資料庫
 * Teradata 資料庫
 * SAP HANA 資料庫
-* SAP Business Warehouse 伺服器
+* SAP Business Warehouse 應用程式伺服器
+* SAP Business Warehouse 訊息伺服器搶鮮版 (Beta)
 * Amazon Redshift
 * Impala
 * Google BigQuery (搶鮮版 (Beta))
@@ -103,13 +104,14 @@ ms.lasthandoff: 02/24/2018
 
 * Azure SQL Database
 * Azure SQL 資料倉儲
-* Azure Analysis Services 資料庫 (搶鮮版 (Beta))
+* Azure Analysis Services 資料庫
 * Azure Blob 儲存體
 * Azure 表格儲存體
 * Azure Cosmos DB (搶鮮版 (Beta))
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark (Beta)
+* HDInsight 互動式查詢搶鮮版 (Beta)
 
 下圖顯示 [Azure]  的 [取得資料] 視窗。
 
@@ -121,6 +123,7 @@ ms.lasthandoff: 02/24/2018
 * SharePoint Online 清單
 * Microsoft Exchange Online
 * Dynamics 365 (線上)
+* Dynamics NAV 搶鮮版 (Beta)
 * Dynamics 365 for Financials (搶鮮版 (Beta))
 * Common Data Service (搶鮮版 (Beta))
 * Microsoft Azure Consumption Insights (搶鮮版 (Beta))
@@ -128,23 +131,24 @@ ms.lasthandoff: 02/24/2018
 * Salesforce 物件
 * Salesforce 報表
 * Google Analytics (分析)
+* Adobe Analytics
 * appFigures (Beta)
 * comScore Digital Analytix (Beta)
 * Dynamics 365 for Customer Insights (Beta)
+* Data.World - 取得資料集搶鮮版 (Beta)
 * Facebook
 * GitHub (Beta)
-* Kusto (搶鮮版 (Beta))
 * MailChimp (Beta)
+* Merketo (Beta)
 * Mixpanel (搶鮮版 (Beta))
-* Planview Enterprise (Beta)
-* Projectplace (搶鮮版 (Beta))
+* Planview Enterprise One - PRM 搶鮮版 (Beta)
+* Planview Projectplace 搶鮮版 (Beta)
 * QuickBooks Online (Beta)
 * Smartsheet
 * SparkPost (Beta)
-* SQL Sentry (Beta)
 * Stripe (搶鮮版 (Beta))
 * SweetIQ (Beta)
-* Troux (Beta)
+* Planview Enterprise One - CMT 搶鮮版 (Beta)
 * Twilio (Beta)
 * tyGraph (Beta)
 * Webtrends (Beta)
@@ -157,6 +161,7 @@ ms.lasthandoff: 02/24/2018
 [其他]  類別提供下列資料連線：
 
 * Vertica (搶鮮版 (Beta))
+* Kusto (搶鮮版 (Beta))
 * Web
 * SharePoint 清單
 * OData 摘要
@@ -203,4 +208,3 @@ ms.lasthandoff: 02/24/2018
 * [Power BI Desktop 中的資料類型](desktop-data-types.md)
 * [使用 Power BI Desktop 合併資料並使其成形](desktop-shape-and-combine-data.md)
 * [Power BI Desktop 中的常見查詢工作](desktop-common-query-tasks.md)    
-

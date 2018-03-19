@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/23/2018
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
 
@@ -142,9 +142,13 @@ ms.lasthandoff: 02/24/2018
 
 組織中的使用者可以和組織外的使用者共用儀表板。
 
+![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+
+以下是您與外部使用者共用時會出現的訊息。
+
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>發佈至網路
+### <a name="publish-to-web"></a>發行至網站
 
 組織中的使用者可以將報表發行到網路。 [深入了解](service-publish-to-web.md)
 

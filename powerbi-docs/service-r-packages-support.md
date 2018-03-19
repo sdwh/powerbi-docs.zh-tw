@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 67b4e6420177d2b268838b3052e29f230025cfb8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 189e9ed8bb63df4fdbebc5eaa11625bef4592d38
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 服務中的 R 套件
 您可以使用功能強大的 [R 程式設計語言](https://www.r-project.org/)在 Power BI 服務中建立視覺效果。 Power BI 服務支援眾多 R 套件 (有更多套件一直受到支援)，有些套件則不具支援。
@@ -41,7 +41,7 @@ ms.lasthandoff: 02/24/2018
   
   * 針對 R 視覺效果，您可以安裝任何套件 (包含自訂 R 套件)
   * 針對自訂 R 視覺效果，公用 CRAN 套件僅支援自動安裝套件
-* 基於安全性和隱私權考量，我們目前不支援服務中透過全球資訊網提供用戶端-伺服器查詢的 R 套件 (例如 RgoogleMaps)。 會封鎖這類嘗試的網路功能。 請參閱下列章節，以取得支援與不支援的 R 套件清單。
+* 基於安全性和隱私權考量，不支援服務中透過全球資訊網提供用戶端-伺服器查詢的 R 套件 (例如 RgoogleMaps)。 會封鎖這類嘗試的網路功能。 請參閱下列章節，以取得支援與不支援的 R 套件清單。
 * 包含新 R 套件的核准程序具有樹狀結構的相依性；無法支援需要在服務中安裝的一些相依性。
 
 ## <a name="r-packages-that-are-supported-in-power-bi"></a>Power BI 中支援的 R 套件
@@ -116,7 +116,7 @@ ms.lasthandoff: 02/24/2018
 | cubature |1.1-2 |https://cran.r-project.org/web/packages/cubature/index.html |
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
-| Data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
+| data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
 | date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
@@ -202,7 +202,7 @@ ms.lasthandoff: 02/24/2018
 | heavy |0.3 |https://cran.r-project.org/web/packages/heavy/index.html |
 | HH |3.1-25 |https://cran.r-project.org/web/packages/HH/index.html |
 | HI |0.4 |https://cran.r-project.org/web/packages/HI/index.html |
-| Highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
+| highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
 | Hmisc |3.17-3 |https://cran.r-project.org/web/packages/Hmisc/index.html |
 | HSAUR |1.3-7 |https://cran.r-project.org/web/packages/HSAUR/index.html |
 | ifultools |2.0-1 |https://cran.r-project.org/web/packages/ifultools/index.html |
@@ -296,7 +296,7 @@ ms.lasthandoff: 02/24/2018
 | pcaPP |1.9-60 |https://cran.r-project.org/web/packages/pcaPP/index.html |
 | pdc |1.0.3 |https://cran.r-project.org/web/packages/pdc/index.html |
 | PerformanceAnalytics |1.4.3541 |https://cran.r-project.org/web/packages/PerformanceAnalytics/index.html |
-| Plotly |4.5.6 |https://cran.r-project.org/web/packages/plotly/index.html |
+| plotly |4.5.6 |https://cran.r-project.org/web/packages/plotly/index.html |
 | plotmo |3.1.4 |https://cran.r-project.org/web/packages/plotmo/index.html |
 | plotrix |3.6-1 |https://cran.r-project.org/web/packages/plotrix/index.html |
 | pls |2.5-0 |https://cran.r-project.org/web/packages/pls/index.html |
@@ -325,7 +325,7 @@ ms.lasthandoff: 02/24/2018
 | Rcpp |0.12.3 |https://cran.r-project.org/web/packages/Rcpp/index.html |
 | RcppArmadillo |0.6.600.4.0 |https://cran.r-project.org/web/packages/RcppArmadillo/index.html |
 | RcppEigen |0.3.2.8.1 |https://cran.r-project.org/web/packages/RcppEigen/index.html |
-| redmonder |0.2.0 |https://cran.r-project.org/web/packages/Redmonder/index.html |
+| Redmonder |0.2.0 |https://cran.r-project.org/web/packages/Redmonder/index.html |
 | registry |0.3 |https://cran.r-project.org/web/packages/registry/index.html |
 | relimp |1.0-5 |https://cran.r-project.org/web/packages/relimp/index.html |
 | reshape |0.8.5 |https://cran.r-project.org/web/packages/reshape/index.html |

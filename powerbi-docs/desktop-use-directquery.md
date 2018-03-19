@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec124ef4ae34b064e217b3ce646a329d538e4214
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: df45bbaa142b2c476a6391b1c43638e1ee76c3ae
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 有了 **Power BI Desktop**，當您連接到資料來源時，隨時可將資料的複本匯入 **Power BI Desktop**。 對於某些資料來源，可用的替代方式是：使用 **DirectQuery**直接連接到資料來源。
@@ -83,7 +83,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="publish-to-the-power-bi-service"></a>發行至 Power BI 服務
 使用 **DirectQuery** 建立的報表可以發行至 Power BI 服務。
 
-如果使用的資料來源不需要**內部部署資料閘道** (**Azure SQL Database**、**Azure SQL 資料倉儲**或 **Redshift**)，就必須提供認證，才能讓已發行的報表顯示在 Power BI 服務中。
+如果使用的資料來源不需要**內部部署資料閘道** (**Azure SQL Database**、**Azure SQL 資料倉儲**或 **Redshift**)，就必須提供認證，才能讓已發佈的報表顯示在 Power BI 服務中。
 
 您可以提供認證，方法是選取 Power BI 中的 **設定** 齒輪圖示，然後選取 [設定] 。
 

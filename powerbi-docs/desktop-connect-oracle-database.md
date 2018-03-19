@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6308b2e201b669bf17ee636677232b365d62e332
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>連接到 Oracle 資料庫
 若要使用 **Power BI Desktop** 連接到 Oracle 資料庫，執行 Power BI Desktop 的電腦上必須安裝正確的 Oracle 用戶端軟體。 您使用的 Oracle 用戶端軟體取決於您安裝的 Power BI Desktop 版本，也就是 **32 位元**版本或 **64 位元**版本。
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/24/2018
 **支援的版本**：Oracle 9 和更新版本，Oracle 用戶端軟體 8.1.7 版和更新版本。
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>判斷您已安裝的 Power BI Desktop 版本
-若要判斷您已安裝的 Power BI Desktop 版本，請選取 [檔案] > [關於]，然後檢查 [版本:] 行。 在下圖中，已安裝 64 位元版本的 Power BI Desktop：
+若要判斷您已安裝的 Power BI Desktop 版本，請選取 [檔案] > [說明] > [關於]，然後檢查 [版本:] 行。 在下圖中，已安裝 64 位元版本的 Power BI Desktop：
 
 ![](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 02/24/2018
 * [適用於 Windows x64 的 64 位元 ODAC 12c Release 4 (12.1.0.2.4)](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 ## <a name="connect-to-an-oracle-database"></a>連接到 Oracle 資料庫
-安裝相符的 Oracle 用戶端驅動程式之後，您可以連接到 Oracle 資料庫。 採取下列步驟來連接。
+安裝相符的 Oracle 用戶端驅動程式之後，您可以連接到 Oracle 資料庫。 請採取下列步驟建立連線：
 
 1. 從 [取得資料] 視窗中，選取 [資料庫] > [Oracle 資料庫]
    

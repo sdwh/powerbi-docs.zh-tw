@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0863b41ecc0f7053ae0d958d25c756c8597880ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 連接器
 您可以透過 Power BI Desktop 存取 **SAP BusinessWarehouse (BW)** 資料。
@@ -33,12 +33,16 @@ ms.lasthandoff: 02/24/2018
 1. 在本機電腦上安裝 **SAP NetWeaver** 程式庫。 您可以從 SAP 管理員，或是直接從 [SAP Software Download Center](https://support.sap.com/swdc) (SAP 軟體下載中心) 取得 **SAP Netweaver**。 由於 **SAP Software Download Center** (SAP 軟體下載中心) 經常變更其結構，因此未提供瀏覽該網站的更具體指引。 **SAP NetWeaver** 程式庫通常也包含在 SAP 用戶端工具的安裝中。
    
    您可以搜尋 *SAP Note #1025361* 以取得最新版本的下載位置。 請確認 **SAP NetWeaver** 程式庫 (32 位元或 64 位元) 的架構符合您的 **Power BI Desktop** 安裝，然後依據 SAP Note 安裝 **SAP NetWeaver RFC SDK** 內含的所有檔案。
-2. [取得資料] 對話方塊將 **SAP Business Warehouse 伺服器**項目納入 [資料庫] 類別中。
+2. [取得資料] 對話方塊在 [資料庫] 類別中包含 **SAP Business Warehouse 應用程式伺服器**和 **SAP Business Warehouse 訊息伺服器**項目。
    
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>SAP BW 連接器功能
-Power BI Desktop 的 **SAP BW 連接器**預覽版可讓使用者從 **SAP Business Warehouse 伺服器** Cube 匯入資料。 您也可以搭配使用 DirectQuery 與 **SAP BW 連接器**。 您必須指定「伺服器」、「系統名稱」與「用戶端識別碼」以建立連線。
+Power BI Desktop 的 **SAP BW 連接器**可讓您從您的 **SAP Business Warehouse 伺服器** Cube 匯入資料，或者您可以使用 DirectQuery 搭配 **SAP BW 連接器**。 
+
+若要深入了解 **SAP BW 連接器**以及它如何與 DirectQuery 搭配使用，請參閱 [DirectQuery 和 SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) 一文。
+
+連線時，您必須指定「伺服器」、「系統名稱」與「用戶端識別碼」以建立連線。
 
 ![](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
@@ -105,3 +109,9 @@ Power BI Desktop 的 **SAP BW 連接器**預覽版可讓使用者從 **SAP Busin
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
 
+## <a name="next-steps"></a>後續步驟
+如需 SAP HANA 和 DirectQuery 的詳細資訊，請參閱下列資源：
+
+* [DirectQuery 和 SAP HANA](desktop-directquery-sap-hana.md)
+* [Power BI 中的 DirectQuery](desktop-directquery-about.md)
+* [DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)

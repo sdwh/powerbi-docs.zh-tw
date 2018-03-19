@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>開始在 iPad 上使用 Power BI 行動裝置應用程式
 iPad 的 Microsoft Power BI for iOS 傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 
@@ -31,7 +31,7 @@ iPad 的 Microsoft Power BI for iOS 傳遞 Power BI、Power BI 報表伺服器�
 在 Power BI Desktop 中建立 Power BI 報表，並發行報表：
 
 * [將它們發行至 Power BI 服務](service-get-started.md)，並建立儀表板。
-* [將內部部署的報表發行至 Power BI 報表伺服器](report-server/quickstart-create-powerbi-report.md)。
+* [將內部部署的報表發佈至 Power BI 報表伺服器](report-server/quickstart-create-powerbi-report.md)。
 
 然後在 iPad 的 Power BI 應用程式中，與您內部部署或雲端中的儀表板和報表互動。
 
@@ -138,4 +138,5 @@ Microsoft Intune 讓組織可以控制像是要求存取 PIN、控制應用程�
 ### <a name="see-also"></a>另請參閱
 * [開始使用 Power BI](service-get-started.md)  
 * 有問題嗎？ 請嘗試詢問 [Power BI 社群](http://community.powerbi.com/)
+
 

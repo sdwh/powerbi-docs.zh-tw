@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b61285c54d337ce85ab470180f8cfa2a66f0820e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 94e52d2d56cd7ba0ec04db47bc93dd18fc880f39
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>連接至 Power BI Desktop 中的資料
 透過 Power BI Desktop，您可以輕鬆地連接到持續擴展的資料世界。 如果您沒有 Power BI Desktop，您可以[下載](http://go.microsoft.com/fwlink/?LinkID=521662)並加以安裝。
@@ -80,7 +80,7 @@ Power BI Desktop 中有「各式各樣」  的可用資料來源。 下圖顯示
 * [使用 Power BI Desktop 合併資料並使其成形](desktop-shape-and-combine-data.md)
 * [Power BI Desktop 中的常見查詢工作](desktop-common-query-tasks.md)   
 
-想要提供意見反應嗎？ 太好了 – 請使用 Power BI Desktop 中的 [傳送意見反應]  功能表項目。 我們期待您的留言！
+想要提供意見反應嗎？ 太好了 – 使用 Power BI Desktop 的 [Submit an Idea] (送出想法) 功能表項目或瀏覽 [Community Feedback](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) (社群意見應)。 我們期待您的留言！
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

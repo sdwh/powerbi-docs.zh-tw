@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ac61259fc0f02e8f84a94502e9f8dd89d5ca4b96
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop 傳送笑臉隱私權聲明
+
+自 2018年 3 月版的 **Power BI Desktop** 開始，錯誤報告使用 Windows 錯誤報告平台，而非「傳送笑臉」或「傳送苦臉」功能。 您可以在 [Windows 隱私權部落格](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/)取得 Windows 錯誤報告平台的詳細資訊。 
+
+## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>2018 年 3 月版之前的 Power BI Desktop 版本
+
 在 Microsoft，我們致力於保護您的隱私權，同時提供能滿足所需效能、功能和便利性的產品。 本隱私權聲明詳細說明 Microsoft Power BI Desktop 意見反應「傳送笑臉」的許多資料收集和使用做法。 它不適用於其他線上或離線的 Microsoft 網站、產品或服務。
 
 除本聲明另有提及，否則「傳送笑臉」不會將個人資訊傳送至 Microsoft。 我們不會未經您的許可擅自將傳送至 Microsoft 的資訊提供給 Microsoft 與其控管的分公司與關係企業共用。

@@ -18,15 +18,15 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 06ed973b3b16f5ac8ed8bef484d48af994a4e5f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7a523284bd777d87b7ac42ba7e9ff82ee7bdf623
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 > [!NOTE]
-> Power BI 有一個新版本的 Personal Gateway，稱為**內部部署資料閘道 (個人模式)**。 下列文章描述舊版的個人閘道，稱為 **Power BI Gateway - Personal**，將於 2017 年 7 月 31 日之後淘汰並停止運作。 如需新版個人閘道的相關資訊，包括如何安裝新版本，請參閱[**內部部署資料閘道 (個人模式)** 文章](service-gateway-personal-mode.md)。
+> Power BI 有一個新版本的個人閘道，稱為**內部部署資料閘道 (個人模式)**。 下列文章描述舊版的個人閘道，稱為 **Power BI Gateway - Personal**，將於 2017 年 7 月 31 日之後淘汰並停止運作。 如需新版個人閘道的相關資訊，包括如何安裝新版本，請參閱[**內部部署資料閘道 (個人模式)** 文章](service-gateway-personal-mode.md)。
 > 
 > 
 
@@ -73,11 +73,11 @@ Power BI 和閘道器之間的資料傳輸會透過 [Azure 服務匯流排](http
 
 **問題：** 如果我的 Excel 活頁簿或 Power BI Desktop 檔案同時從線上和內部部署資料來源取得資料呢？
 
-**回答：「需要」**閘道器。 您必須安裝和設定閘道器，才能重新整理來自內部部署資料來源的資料。
+**回答：** 「需要」  閘道。 您必須安裝和設定閘道器，才能重新整理來自內部部署資料來源的資料。
 
-**問題：**如果我的 Excel 活頁簿中只有我輸入的資料列呢？**
+**問題：** 如果我的 Excel 活頁簿中只有我輸入的資料列呢？**
 
-**回答：「不」**需要閘道器。 只有在活頁簿使用 Power Query 或 Power Pivot 來查詢資料並將資料載入受支援之內部部署資料來源的資料模型時，您才需要安裝並設定閘道器。
+**回答：** 「不」  需要閘道。 只有在活頁簿使用 Power Query 或 Power Pivot 來查詢資料並將資料載入受支援之內部部署資料來源的資料模型時，您才需要安裝並設定閘道器。
 
 ## <a name="setting-up-a-gateway-for-the-first-time"></a>首次設定閘道器
 首次設定閘道器的程序有三個步驟：

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 173093cd7b8601357c893e2299031f331c440a75
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: aed84f27ff838456b519283f45ae5f58feaf2521
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-phones"></a>開始在 Android 手機上使用 Power BI 行動裝置應用程式
 Microsoft Power BI for Android 應用程式傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 
@@ -31,7 +31,7 @@ Microsoft Power BI for Android 應用程式傳遞 Power BI、Power BI 報表伺�
 在 Power BI Desktop 中建立 Power BI 報表，並發行報表：
 
 * [將它們發行至 Power BI 服務](service-get-started.md)，並建立儀表板。
-* [將內部部署的報表發行至 Power BI 報表伺服器](report-server/quickstart-create-powerbi-report.md)。
+* [將內部部署的報表發佈至 Power BI 報表伺服器](report-server/quickstart-create-powerbi-report.md)。
 
 然後在 Android 手機的 Power BI 應用程式中，與您內部部署或雲端中的儀表板和報表互動。
 
@@ -142,4 +142,5 @@ Microsoft Intune 讓組織可以控制像是要求存取 PIN、控制應用程�
 * 從 Android App Store [下載 Android 應用程式](http://go.microsoft.com/fwlink/?LinkID=544867)。
 * [開始使用 Power BI](service-get-started.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+
 

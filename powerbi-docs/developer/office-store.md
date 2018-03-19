@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
-ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
+ms.openlocfilehash: 5dc5cda126943bbb6da25e384b789c169187b249
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>在 AppSource 上發佈自訂視覺效果
 了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及使用。 Office
@@ -38,7 +38,7 @@ ms.lasthandoff: 02/23/2018
 | 項目 | 必要 | 描述 |
 | --- | --- | --- |
 | Pbiviz 套件包含所有必要的中繼資料 |是 |視覺效果名稱<br>顯示名稱<br>GUID<br>版本<br>描述<br>作者名稱和電子郵件 |
-| .pbix 報表檔案範例 |是 |為展示您的視覺效果，您應該協助使用者熟悉該視覺效果。 您應該強調視覺效果為使用者帶來的價值，並提供範例使用方式、格式化選項等等。您也可以在結尾新增「提示」頁面，提供一些像是提示與祕訣、要避免的事項等等。 |
+| .pbix 報表檔案範例 |是 |為展示您的視覺效果，您應該協助使用者熟悉該視覺效果。 您應該強調視覺效果為使用者帶來的價值，並提供範例使用方式、格式化選項等等。您也可以在結尾新增「提示」頁面，提供一些像是提示與祕訣、要避免的事項等等。<br>.pbix 報表範例檔案必須離線工作，不能有任何外部連線 |
 | 圖示 |是 |您應該包含店面中會出現的自訂視覺效果標誌。 格式可以是 .png、.jpg、.jpeg 或 .gif。 它必須剛好 300px (寬度) x 300px (高度)。 檔案大小不能大於 512 KB。 |
 | 螢幕擷取畫面 |是 |您必須提供至少一張螢幕擷取畫面。 格式可以是 .png、.jpg、.jpeg 或 .gif。 它必須剛好為 1366px (寬度) x 768px (高度)。 檔案大小不能大於 1024 KB。 「為提高使用率，請新增文字泡泡以表達每張螢幕擷取畫面所顯示重要功能的價值定位。」 |
 | 支援下載連結 |是 |提供 URL 以支援使用您視覺效果發生問題的客戶。 URL 的格式應該包含 https:// 或 http://。 |

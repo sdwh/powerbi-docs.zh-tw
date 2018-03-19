@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/15/2018
+ms.date: 03/07/2018
 ms.author: maghan
-ms.openlocfilehash: 9d387208b1ace0b0f0fd700b471e07e3b2584883
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -66,7 +66,7 @@ Power BI Embedded 現已正式運作。
 
 ## <a name="technical"></a>技術
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-em-skus-in-office-365"></a>Azure 中的 A SKU 和 Office 365 中的 EM SKU 有何差異？
+### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure 中的 A SKU 和 Office 365 中的 EM SKU 有何差異？
 
 PowerBI.com 是企業解決方案，在軟體即服務供應項目中提供社群共同作業、電子郵件訂閱等多項功能
 
@@ -128,6 +128,10 @@ ISV/開發人員必須先有 Power BI 帳戶，才能在 Azure 中購買 Power B
 
 澳洲東南部、巴西南部、加拿大中部、美國東部 2、印度西部、日本東部、美國中北部、北歐、美國中南部、東南亞、英國南部、西歐、美國西部及美國西部 2。
 
+### <a name="what-type-of-content-pack-data-can-be-embedded"></a>哪種內容套件資料可以內嵌？
+
+從內容套件資料集建置的**儀表板**和**磚**「無法」內嵌，但是從內容套件資料集建置的**報表**「可以」內嵌。
+
 ## <a name="licensing"></a>授權
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>如何購買 Power BI Embedded？
@@ -170,7 +174,7 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 ### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>Power BI Embedded 可在哪裡使用？ 美國政府？ 德國？ 中國？ 時機為何？
 
-Power BI Embedded 會在 GA 時，於 Azure 商業雲端提供。  主權雲端可用性則在未來新增。
+Power BI Embedded 可在 Azure 商業雲端和美國政府雲端中取得。  未來會新增德國及中國的主權雲端可用性。
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Power BI Embedded 是否可用於非營利及教育用途？
 
