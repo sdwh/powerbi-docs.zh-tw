@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f9e30b3feb5f9b85a87686e4484bba035ff839aa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f2749976772d2bc2e3d48ca355925cafad93fe0c
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服務的資料來源
 資料是 Power BI 的核心。 每當您瀏覽資料、建立圖表與儀表板、利用問與答提出問題時，您看到的所有視覺效果與答案其實都是從資料集取得其基礎資料。 但是，該資料集又來自何處？ 來自資料來源。
 
-在本文中，我們將逐一探討您可以從 Power BI 服務連接的不同資料來源類型。 請記住，您還可以從許多其他資料來源類型取得資料。 但這些類型可能需要先使用 Power BI Desktop 或 Excel 的進階資料查詢與模型化功能。 我們稍後會討論更多有關這方面的資訊。 現在，讓我們看看您可以直接從 Power BI 服務網站連接的不同資料來源類型。
+在本文中，我們將逐一探討您可以從 Power BI 服務連接的不同資料來源類型。 請記住，您還可以從許多其他資料來源類型取得資料。 但這些類型可能需要先使用 Power BI Desktop 或 Excel 的進階資料查詢與模型化功能。 我們稍後會討論更多有關這方面的資訊。 現在，讓我們看看您可以直接從 Power BI 服務網站連線的不同資料來源類型。
 
 您可以從 Power BI 中的任何資料來源取得資料，方法是按一下 **我的工作區** > **取得資料**.
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="files"></a>檔案
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** (.xlsx、xlxm) - Excel 的獨特之處，在於活頁簿不但可以有您自行輸入工作表的資料，您也可以使用 Power Query (Excel 2016 的 [取得和轉換]) 或 Power Pivot，從外部資料來源查詢及載入資料。 您可以匯入工作表中的資料表中的資料 (資料「必須」在資料表中)，或匯入已載入到資料模型的資料。 如需深入了解，請參閱[從 Excel 取得資料](service-get-data-from-files.md)。
+**Excel** (.xlsx、xlxm) Excel 的獨特之處，在於活頁簿不但可以有您自行輸入工作表的資料，您也可以使用 Power Query (Excel 2016 的 [取得和轉換]) 或 Power Pivot，從外部資料來源查詢及載入資料。 您可以匯入工作表中的資料表中的資料 (資料「必須」在資料表中)，或匯入已載入到資料模型的資料。 如需深入了解，請參閱[從 Excel 取得資料](service-get-data-from-files.md)。
 
 **Power BI Desktop** (.pbix) - 您可以使用 Power BI Desktop，從外部資料來源查詢及載入資料、以量值與關聯性擴充您的資料模型，以及建立報表。 您可以將 Power BI Desktop 檔案匯入 Power BI 網站。 Power BI Desktop 最適合充分了解其資料來源、資料查詢與轉換以及資料模型化概念的更進階使用者。 如需深入了解，請參閱[連接至 Power BI Desktop 中的資料](desktop-connect-to-data.md)。
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="databases"></a>資料庫
 ![](media/service-get-data/pbi_getdata_databases.png)
 
-**雲端資料庫** - 您可以從 Power BI 服務，使用 DirectQuery 即時連接到 Azure SQL Database、Azure SQL 資料倉儲、Azure HD Insight 上的 Spark 及 SQL Server Analysis Services。 從 Power BI 連接到這些資料庫是即時的，換句話說，當您連接到 Azure SQL Database 時，即可開始在 Power BI 中建立報表來探索其資料，每當您分割資料或將其他欄位加入視覺效果中，就會直接查詢資料庫。 如需深入了解，請參閱 [Azure 和 Power BI](service-azure-and-power-bi.md)。
+**雲端資料庫** - 您可以從 Power BI 服務，使用 DirectQuery 即時連接到 Azure SQL Database、Azure SQL 資料倉儲、Azure HD Insight 上的 Spark 及 SQL Server Analysis Services。 從 Power BI 連線到這些資料庫是即時的，換句話說，當您連接到 Azure SQL Database 時，即可開始在 Power BI 中建立報表來探索其資料，每當您分割資料或將其他欄位新增至視覺效果中，就會直接查詢資料庫。 如需深入了解，請參閱 [Azure 和 Power BI](service-azure-and-power-bi.md)。
 
 **內部部署資料庫** - 您可以從 Power BI 服務，直接連接到 SQL Server Analysis Services 表格式模型資料庫。 需要有 Power BI Enterprise Gateway。 如果您不確定如何連接到組織的表格式模型資料庫，請洽詢您的系統管理員或 IT 部門。 如需深入了解，請參閱 [Power BI 中的 SQL Server Analysis 表格式資料](sql-server-analysis-services-tabular-data.md)。
 
@@ -91,7 +91,7 @@ Power BI 中經常使用資料集與資料來源等詞彙。 這兩個詞彙通�
 
 Azure SQL Database、Azure SQL 資料倉儲與 Azure HDInsight 上的 Spark 是雲端上的資料來源，因此很獨特。 因為 Power BI 服務也是在雲端中，所以 Power BI 可以使用 DirectQuery 即時連接到這些資料來源。 您在 Power BI 中看到的內容一律會同步處理，而不需要設定重新整理。
 
-SQL Server Analysis Services 的獨特之處，在於當您從 Power BI 連接到此服務時，會是類似 Azure 雲端資料庫的即時連接，但資料庫本身則是在您組織的伺服器上。 這種連線需要 Power BI Gateway，通常會由 IT 部門進行設定。
+SQL Server Analysis Services 的獨特之處，在於當您從 Power BI 連接到此服務時，會是類似 Azure 雲端資料庫的即時連線，但資料庫本身則是在您組織的伺服器上。 這種連線需要 Power BI Gateway，通常會由 IT 部門進行設定。
 
 資料重新整理是 Power BI 很重要的一部分，不是本文所能深入探討。 如果您想要徹底了解，請務必查看 [Power BI 的資料重新整理](refresh-data.md)。
 
