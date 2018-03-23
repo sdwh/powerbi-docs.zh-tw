@@ -1,28 +1,28 @@
 ---
-title: "從 Power BI 中刪除儀表板、報表、活頁簿、資料集或工作區"
-description: "了解如何刪除 Power BI 中的絶大部分所有項目"
+title: 從 Power BI 中刪除儀表板、報表、活頁簿、資料集或工作區
+description: 了解如何刪除 Power BI 中的絶大部分所有項目
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 03/03/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3d20b27b24851872b05a9c7dccb383032e1d65b8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9c8c7e7406b70f35f0669dfc3e565671777665ad
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>刪除 Power BI 服務中的絶大部分所有項目
 本文會教導您如何刪除 Power BI 服務中的儀表板、報告、活頁簿、資料集、應用程式、視覺效果和工作區。
