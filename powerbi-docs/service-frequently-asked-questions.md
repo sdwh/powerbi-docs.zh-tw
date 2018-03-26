@@ -1,13 +1,13 @@
 ---
-title: "Power BI 常見問題集"
-description: "瀏覽 Power BI 服務、Power BI Desktop 和 Power BI 行動應用程式的常見問題與解答清單。"
+title: Power BI 常見問題集
+description: 瀏覽 Power BI 服務、Power BI Desktop 和 Power BI 行動應用程式的常見問題與解答清單。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 04/04/2016
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: af02b57fefaf9764e7a1eac8172d6dc0111dfccd
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7f1c42d46568723706bcdd349790c963f204a33c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>關於 Power BI 的常見問題集
 * 如果您有其他問題，請[嘗試詢問 Power BI 社群](http://community.powerbi.com/)。
@@ -72,7 +72,7 @@ Power BI 不支援消費者電子郵件服務或電信提供者所提供的電�
 是的，直接向 Microsoft 購買時會提供非營利定價。 您可以透過 [Microsoft Product Donation (Microsoft 產品捐贈)](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) 網站深入了解並註冊。 政府和學術機構定價是透過 MOSP/Direct、EA 和 Open 授權方案提供。 也提供聯合採購的政府價格。 Power BI 尚不適用於美國政府社群雲端 (GCC)。
 
 ## <a name="is-power-bi-available-on-premises"></a>Power BI 可以在內部部署使用嗎？
-Power BI 服務 [https://powerbi.com](https://powerbi.com) 不以私人的內部雲端服務形式提供。 不過，您有另外三個選項來檢視及使用內部部署資料。 
+Power BI [https://powerbi.com](https://powerbi.com) 不是私用的內部雲端服務。 不過，您有另外三個選項來檢視及使用內部部署資料。 
 
 ### <a name="on-premises-data-gateway"></a>內部部署資料閘道
 使用 Power BI 和 Power BI Desktop，您可以安全地連線到自己的內部部署資料來源。 使用[內部部署資料閘道](service-gateway-onprem.md)，可以即時連線到您的內部部署 SQL Server Analysis Services 伺服器及其他資料來源。 您也可以使用集中式閘道設定排程的重新整理。 若無法使用閘道，可以使用 [Power BI Gateway - Personal](personal-gateway.md) 重新整理內部部署資料來源的資料。
