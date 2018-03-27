@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中連線至 Amazon Redshift 資料庫"
-description: "在 Power BI Desktop 中輕鬆連接到 Amazon Redshift 資料庫並加以使用"
+title: 在 Power BI Desktop 中連線至 Amazon Redshift 資料庫
+description: 在 Power BI Desktop 中輕鬆連接到 Amazon Redshift 資料庫並加以使用
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,17 +18,17 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: de0e6b61197bfe25048a2722d5aab42f1c15e999
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9597d056067fb1af291f46a088b94a39da57eab9
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Amazon Redshift
 在 **Power BI Desktop** 中，您可以連接至 **Amazon Redshift** 資料庫並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。
 
 ## <a name="connect-to-an-amazon-redshift-database"></a>連接到 Amazon Redshift 資料庫
-若要連線至 **Amazon Redshift** 資料庫，請從 Power BI Desktop 的 [首頁] 功能區選取 [取得資料]。 從左側類別中選取 [資料庫]，您就會看到 [Amazon Redshift]。
+若要連接到 **Amazon Redshift** 資料庫，請從 Power BI Desktop 的 [首頁] 功能區選取 [取得資料]。 從左側類別中選取 [資料庫]，您就會看到 [Amazon Redshift]。
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
@@ -46,7 +46,7 @@ ms.lasthandoff: 02/24/2018
 
 當您在 [導覽器] 視窗完成選取後，就可以 [匯入] 或 [編輯] 資料。
 
-* 如果選擇 [載入] 資料，系統會提示您要使用 [匯入] 或 [DirectQuery] 模式載入資料。 如需詳細資訊，請查看這篇[說明 DirectQuery 的文章](desktop-use-directquery.md)。
+* 如果選擇 [載入] 資料，系統會提示您使用 [匯入] 或 [DirectQuery] 模式載入資料。 如需詳細資訊，請查看這篇[說明 DirectQuery 的文章](desktop-use-directquery.md)。
 * 如果選擇 [編輯] 資料，**Query Editor**隨即顯示，您可以從中將各種轉換及篩選條件套用到資料，其中有多種適用於基礎 **Amazon Redshift** 本身 (如受支援)。
 
 ## <a name="next-steps"></a>後續步驟

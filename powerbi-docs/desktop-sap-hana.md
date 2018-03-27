@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中使用 SAP HANA"
-description: "在 Power BI Desktop 中使用 SAP HANA"
+title: 在 Power BI Desktop 中使用 SAP HANA
+description: 在 Power BI Desktop 中使用 SAP HANA
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da99de218594d09a8cd76aafa9fc227b648ba7af
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1c8f3bfc64c6ab895d62749d4d4bc0d2d70d0a9b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP HANA
 使用 Power BI Desktop，您現在可以存取 **SAP HANA** 資料庫。 若要使用 **SAP HANA**，SAP HANA ODBC 驅動程式必須安裝在本機用戶端電腦，以便 Power BI Desktop **SAP HANA** 資料連接正常運作。 您可以從 [SAP Software Download Center](https://support.sap.com/swdc) (SAP 軟體下載中心) 下載 SAP HANA ODBC 驅動程式. 從該處搜尋適用於 Windows 電腦的 SAP HANA CLIENT。 由於 **SAP Software Download Center** (SAP 軟體下載中心) 經常變更其結構，因此未提供瀏覽該網站的更具體指引。
 
-若要連線到 **SAP HANA** 資料庫，請選取 [取得資料] > [資料庫] > [SAP HANA 資料庫]，如下圖所示。
+若要連接到 **SAP HANA** 資料庫，請選取 [取得資料] > [資料庫] > [SAP HANA 資料庫]，如下圖所示：
 
 ![](media/desktop-sap-hana/sap-hana-1.png)
 
@@ -40,10 +40,10 @@ ms.lasthandoff: 03/08/2018
 ### <a name="supported-features-for-sap-hana"></a>SAP HANA 的支援功能
 這個版本包含許多 **SAP HANA**功能，如下列清單所示：
 
-* 適用於 **SAP HANA** 的 Power BI 連接器使用 SAP ODBC 驅動程式來提供最佳使用體驗。
+* 適用於 **SAP HANA** 的 Power BI 連接器使用 SAP ODBC 驅動程式來提供最佳使用者體驗
 * **SAP HANA** 同時支援 [DirectQuery] 和 [匯入] 選項
 * Power BI 支援 HANA 資訊模型 (例如 [分析] 和 [計算] 檢視)，而且已最佳化瀏覽
-* 透過 **SAP HANA** ，您也可以使用直接 SQL 功能連接到資料列和資料行資料表
+* 透過 **SAP HANA**，您也可以使用直接 SQL 功能連接到資料列和資料行資料表
 * 包含 HANA 模型的最佳化瀏覽
 * Power BI 支援 **SAP HANA** 變數和輸入參數
 

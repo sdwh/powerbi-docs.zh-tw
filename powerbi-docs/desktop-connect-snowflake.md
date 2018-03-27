@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中連接到 Snowflake 運算倉儲"
-description: "在 Power BI Desktop 中輕鬆連接並使用 Snowflake 運算倉儲"
+title: 在 Power BI Desktop 中連接到 Snowflake 運算倉儲
+description: 在 Power BI Desktop 中輕鬆連接並使用 Snowflake 運算倉儲
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8e4ad8d1780684ee122565dee29c0cea78dc8131
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 762a8bebfa757b41bfeafb54b278eca41a57f35d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>在 Power BI Desktop 中連接到 Snowflake
 在 Power BI Desktop 中，您可以連接至 **Snowflake** 運算倉儲並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。 

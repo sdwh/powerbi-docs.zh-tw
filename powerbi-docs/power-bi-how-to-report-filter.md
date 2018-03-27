@@ -1,39 +1,41 @@
 ---
-title: "Power BI 篩選窗格概觀"
-description: "Power BI 服務和 Power BI 儀表板中報表篩選窗格的概觀"
+title: Power BI 篩選窗格概觀
+description: Power BI 服務和 Power BI 儀表板中報表篩選窗格的概觀
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/15/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83aed39c8a652ed5b38c18b67f1cdccfc7884240
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 00b0b116aa59ebab1d963a8803f788040761d9f5
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>報表 [篩選] 窗格概觀
 這篇文章深入探討報表 [篩選] 窗格。 您會在 [Power BI 服務的 [編輯檢視] 和 [正在讀取檢視]](service-reading-view-and-editing-view.md)，以及 [Power BI Desktop 的 [報表檢視]](desktop-report-view.md) 中看見此窗格。
 
 有許多不同的方式可在 Power BI 中篩選資料，建議您先閱讀[關於篩選和反白顯示](power-bi-reports-filters-and-highlighting.md)。
 
-## <a name="working-with-filters"></a>使用篩選
-您可以在[編輯檢視或閱讀檢視](service-reading-view-and-editing-view.md)中開啟報表。 在 [編輯檢視] 中，報表擁有者可以[將篩選新增至報表](power-bi-report-add-filter.md)，而這些篩選會與報表一起儲存。 在 [閱讀檢視] 中檢視報表的人員可以與篩選互動，但無法將篩選變更儲存至報表。
+## <a name="working-with-the-report-filters-pane"></a>使用報表篩選窗格
+在 Power BI Desktop 中，您可以在報表檢視中開啟報表。 在 Power BI 服務中，您可以在[編輯檢視或閱讀檢視](service-reading-view-and-editing-view.md)中開啟報表。 在 [編輯檢視] 和 Desktop 的 [報表檢視] 中，報表擁有者可以[將篩選新增至報表](power-bi-report-add-filter.md)，而這些篩選會與報表一起儲存。 在 [閱讀檢視] 中檢視報表的人員可以與篩選互動，但無法將篩選新增至報表。
 
-## <a name="filters-in-reading-view"></a>[讀取檢視] 中的篩選
-在 [正在讀取檢視] 中開啟報表時，[篩選] 窗格會顯示於報表畫布右方。 若未看見窗格，請選取右上角的箭號展開窗格。
+在 Power BI 服務中，報表會保留您在 [篩選] 窗格中所做的任何變更，而這些變更會傳送至行動版的報表。 若要將 [篩選] 窗格重設為建立者預設值，請從頂端功能表列選取 [重設為預設值]。     
+
+## <a name="open-the-filters-pane"></a>開啟 [篩選] 窗格
+開啟報表時，[篩選] 窗格會顯示於報表畫布右方。 若未看見窗格，請選取右上角的箭號展開窗格。 如果您在 Power BI 服務的 [閱讀檢視] 中，右邊唯一可用的窗格是 [篩選] 窗格。
 
 在此範例中，我們已選取具有 6 個篩選的視覺效果。 報表頁面也有篩選，列在 [頁面層級篩選] 標題下。 有一個[鑽研篩選](power-bi-report-add-filter.md)，整份報表也有一個篩選︰**FiscalYear** 是 2013 或 2014。
 
@@ -49,14 +51,18 @@ ms.lasthandoff: 02/24/2018
 * 變更篩選，例如將 [Lindseys] 變更為 [Fashions Direct]。
   
      ![](media/power-bi-how-to-report-filter/power-bi-filter-chain.png)
+
+* 從頂端功能表列選取 [重設為預設值]，將篩選重設為其原始狀態。    
+    ![](media/power-bi-how-to-report-filter/power-bi-reset-to-default.png)
+    
 * 選取篩選名稱旁邊的 **x** 即可刪除篩選。
   
-  刪除篩選會將其從清單移除，但不會從報表刪除資料。  例如，如果您刪除 [FiscalYear is 2013 or 2014] 篩選，會計年度資料仍會留在報表中，但不會再篩選為僅顯示 2013 年及 2014年；將顯示資料包含的所有會計年度。  不過，刪除篩選後即無法再加以修改，因為其已從清單移除。 清除篩選是較佳的選擇，方法是選取橡皮擦圖示 ![](media/power-bi-how-to-report-filter/power-bi-eraser-icon.png)。
+  刪除篩選會將其從清單移除，但不會從報表刪除資料。  例如，如果您刪除 [FiscalYear is 2013 or 2014] 篩選，會計年度資料仍會留在報表中，但不會再篩選為僅顯示 2013 年及 2014 年；將顯示資料包含的所有會計年度。  不過，刪除篩選後即無法再加以修改，因為其已從清單移除。 清除篩選是較佳的選擇，方法是選取橡皮擦圖示 ![](media/power-bi-how-to-report-filter/power-bi-eraser-icon.png)。
   
   ![](media/power-bi-how-to-report-filter/power-bi-delete-filter.png)
 
 ## <a name="filters-in-editing-view"></a>[編輯檢視] 中的篩選
-在 [編輯檢視] 中開啟報表時，[篩選] 窗格會顯示於 [視覺效果] 窗格底部的報表畫布右方。 若未看見窗格，請選取右上角的箭號展開窗格。
+在 Desktop 或 Power BI 服務的 [編輯檢視] 中開啟報表時，[篩選] 窗格會顯示於 [視覺效果] 窗格底部的報表畫布右方。 若未看見窗格，請選取右上角的箭號展開窗格。
 
 ![](media/power-bi-how-to-report-filter/power-bi-all-filters.png).  
 
@@ -73,16 +79,16 @@ ms.lasthandoff: 02/24/2018
 ![](media/power-bi-how-to-report-filter/pbi_filterlistdropdown.jpg)
 
 ## <a name="clear-a-filter"></a>清除篩選
- 在進階或基本篩選模式中，選取橡皮擦圖示 ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) 重設篩選。 
+ 在進階或基本篩選模式中，選取橡皮擦圖示 ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) 清除篩選。 
 
 ## <a name="add-a-filter"></a>新增篩選
-* 在 [編輯檢視] 中，藉由從 [欄位] 窗格選取欄位，並將它拖曳到適當的篩選 (您會看到 [將欄位拖曳到這裡] 文字)，以將篩選新增至視覺效果、分頁、鑽研或報表。 將欄位作為篩選新增時加以微調，方法是使用 [基本篩選] 及 [進階篩選] 控制項 (如下所述)。
+* 在 Desktop 和 Power BI 服務的 [編輯檢視] 中，藉由從 [欄位] 窗格選取欄位，並將它拖曳到適當的篩選 (您會看到 [將欄位拖曳到這裡] 文字)，以將篩選新增至視覺效果、分頁、鑽研或報表。 將欄位作為篩選新增時加以微調，方法是使用 [基本篩選] 及 [進階篩選] 控制項 (如下所述)。
 
 - **將新的欄位拖曳至視覺效果層級篩選區域不會將該欄位新增至視覺效果**，但能讓您使用此新欄位篩選該視覺效果。 在下方範例中，[Chain] 作為新篩選新增至視覺效果。 請注意，僅將 [Chain] 作為篩選新增並不會更改視覺效果，除非您使用 [基本篩選] 或 [進階篩選] 控制項。
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 
-* 用來建立視覺效果的所有欄位也可以作為篩選。 首先，選取要啟用的視覺效果。 視覺效果正使用的欄位列於 [視覺效果] 窗格中 (如果您在 [編輯] 檢視中)，以及 [視覺效果層級篩選] 標題下的 [篩選] 窗格中。
+* 用來建立視覺效果的所有欄位也可以作為篩選。 首先，選取要啟用的視覺效果。 視覺效果正使用的欄位列於 [視覺效果] 窗格中，以及 [視覺效果層級篩選] 標題下的 [欄位] 窗格中。
   
    ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.png)  
   

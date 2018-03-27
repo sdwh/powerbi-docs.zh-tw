@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop (預覽) 中使用圖形地圖"
-description: "在 Power BI Desktop 中使用圖形地圖建立區域的相對比較"
+title: 在 Power BI Desktop (預覽) 中使用圖形地圖
+description: 在 Power BI Desktop 中使用圖形地圖建立區域的相對比較
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 335e9800be3d2a2cd30cc84835ab7b0173922c46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>在 Power BI Desktop (預覽) 中的圖形地圖
 在 Power BI Desktop 中，您可將不同的色彩套用至不同的區域，建立**圖形地圖**視覺效果，於地圖上顯示區域的相對比較。 相對於**地圖**視覺效果，**圖形地圖**無法精確顯示地圖上資料點的地理位置；相反地，其主要目的是以不同的著色方式，在地圖上顯示區域的相對比較。
@@ -73,6 +73,23 @@ Power BI Desktop 會建立空的**圖形地圖**視覺效果設計畫布。
 若要使用您的 **TopoJSON** 地圖檔，請將 ShapeMap 視覺效果加入報表中，然後將一些資料加入 *Location* 與 *Values* 貯體中。 然後，在已選取 [格式] 區段 (如下圖顯示為 (1) 的畫刷圖示) 的 [視覺效果] 窗格中，展開 [圖形] 區段，然後選取 [+ 新增地圖]。
 
 ![](media/desktop-shape-map/shape-map_6.png)
+
+## <a name="sample-custom-map"></a>自訂地圖範例
+「美國律師事務所」發行有關其訴訟和個案數的年度會計報表。  您可以在下列連結中找到其所有報表：
+
+https://www.justice.gov/usao/resources/annual-statistical-reports
+
+由於州會劃分為多個區域，因此我們必須使用自訂圖形地圖。  藉由將美國司法管轄區的 **TopoJSON** 地圖匯入 **Power BI Desktop**，我們可以接著將年度會計區域律師資料視覺化。  下圖顯示此地圖的範例。
+
+![](media/desktop-shape-map/shape-map_7a.png)
+
+您也可以使用個別州地圖來執行有趣的作業，並根據其所包含的區域顯示更多詳細資料。 
+
+![](media/desktop-shape-map/shape-map_7b.png)
+
+如果您想要測試此資料集和視覺效果，您可以下載原始 PBIX 檔案，透過下列連結來產生此報表。
+
+* [自訂圖形地圖示範 .PBIX 檔案](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>取得地圖資料
 若您需要快速將資料輸入模型，以測試**圖形地圖**，您可以複製本文章最後的其中一個資料表，然後從 [主資料夾] 功能區選取 [輸入資料]。

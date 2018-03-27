@@ -1,27 +1,27 @@
 ---
-title: "如何內嵌 Power BI 儀表板、報表和磚"
-description: "了解您在應用程式中內嵌 Power BI 內容時必須採取的步驟。"
+title: 如何內嵌 Power BI 儀表板、報表和磚
+description: 了解您在應用程式中內嵌 Power BI 內容時必須採取的步驟。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/11/2018
+ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: ff39d6847a296622d8ce0903370d17d41662df0c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>內嵌 Power BI 儀表板、報表和磚
 
@@ -88,6 +88,10 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 如果您要內嵌客戶的儀表板和報表，則必須將這些儀表板和報表放在應用程式工作區內。 上面所提及的「主」帳戶必須是應用程式工作區的管理員。
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
+
+> [!NOTE]
+> 非管理使用者最多只能建立 250 個應用程式工作區。 若要建立更多應用程式工作區，您需要使用租用戶系統管理員帳戶。
+>
 
 ### <a name="create-and-upload-your-reports"></a>建立和上傳報表
 

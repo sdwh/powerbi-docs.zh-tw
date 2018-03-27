@@ -1,15 +1,15 @@
 ---
-title: "從 Power BI Desktop 連線到 Power BI 服務中的資料集"
-description: "在多個 Power BI Desktop 報表使用通用資料集，以及管理報表生命週期"
+title: 從 Power BI Desktop 連線到 Power BI 服務中的資料集
+description: 在多個 Power BI Desktop 報表使用通用資料集，以及管理報表生命週期
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 09da52bea3486d95b730836a393ac0ffe9b10cc4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>從 Power BI Desktop 連線到 Power BI 服務中的資料集
 您可在 Power BI 服務中建立連到共用資料集的即時連線，並從同一個資料集建立許多不同的報表。 這表示您可以在 Power BI Desktop 中建立完美的資料模型、將其發佈到 Power BI 服務，接著您和其他人就可以從同一個通用資料模型建立多個不同報表 (在個別 .pbix 檔案中)。 這項功能稱為 **Power BI 服務即時連線**。
@@ -59,7 +59,7 @@ Power BI 的熱門程度帶來一項挑戰，也就是報表、儀表板及其�
 現在我們已經知道 **Power BI 服務即時連線**有多好用，以及如何將這個方法當作報表生命週期管理的最佳做法使用，接著為您逐步解說步驟，從 Anna 的優質報表 (和資料集) 前進到她 Power BI 工作區中的團隊成員可以使用的資料集。
 
 ### <a name="publish-a-power-bi-report-and-dataset"></a>發佈 Power BI 報表和資料集
-使用 **Power BI 服務即時連線**管理報表生命週期的第一步，是擁有團隊成員想要使用的報表 (和資料集)。 因此，Anna 必須先從 **Power BI Destkop** **發佈**她的報表。 她從 Power BI Desktop 的 [常用] 功能區選取 [發佈] 以完成這個動作。
+使用 **Power BI 服務即時連線**管理報表生命週期的第一步，是擁有團隊成員想要使用的報表 (和資料集)。 因此，Anna 必須先從 **Power BI Desktop** **發佈**她的報表。 她從 Power BI Desktop 的 [常用] 功能區選取 [發佈] 以完成這個動作。
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 

@@ -1,16 +1,16 @@
 ---
-title: "經認證的 Power BI 自訂視覺效果"
-description: "提交自訂視覺效果進行認證的需求和程序。 以及已通過認證的自訂視覺效果清單。"
+title: 經認證的 Power BI 自訂視覺效果
+description: 提交自訂視覺效果進行認證的需求和程序。 以及已通過認證的自訂視覺效果清單。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: d768756c8c7ede792c547f03779396f11e6e4f85
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>讓自訂視覺效果*經認證*
 ## <a name="what-is-meant-by-certified"></a>*經認證*是什麼意思？
@@ -60,7 +60,6 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>經認證的自訂視覺效果清單
 | AppSource 的連結 | 影片的連結 |
 | --- | --- |
-| [Association Rules](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380815) (關聯規則) | |
 | [Aster Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) (Aster 繪圖) | |
 | [Beyondsoft Calendar](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) (Beyondsoft 行事曆) | |
 | [Bowtie Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) (MAQ Software 的蝴蝶結圖表) | [影片](https://youtu.be/So5xKMSpVJI) |
@@ -77,11 +76,7 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [Chord](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380761) (和弦圖) | [影片](https://youtu.be/AQvd2FhRyCI) |
 | [Circular Gauge by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380837) (MAQ Software 的圓形量測計) | [影片](https://youtu.be/9NHXALkBXuY) |
 | [Cluster Map](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380806) (叢集對應) | |
-| [Clustering](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380861) (叢集) | |
-| [Clustering With Outliers](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380889) (具有極端值的叢集) | |
-| [Correlation plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380814) (相互關聯繪圖) | |
 | [Linear gauge by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380874) (MAQ Software 的圓柱量測計) | [影片](https://youtu.be/DgdoWi7Gcxo) |
-| [Decision Tree Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380817) (決策樹圖表) | |
 | [Dial Gauge](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381184) (標度盤量測計) | |
 | [Dot Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760) (點圖) | |
 | [Dot Plot by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380949) (OKViz 點圖) | [影片](https://youtu.be/By16pX9KT40) |
@@ -97,8 +92,6 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) (Enlighten 隨機顯示堆疊圖) | |
 | [Enlighten Waffle Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) (Enlighten 方格比例圖) | |
 | [力導向圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) \(英文\) | [影片](https://youtu.be/YsTa7uyJ4sg) |
-| [Forecasting TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326) (預測 TBATS) | |
-| [Forecasting with ARIMA](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380888) (使用 ARIMA 進行預測) | |
 | [Funnel with Source by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) (MAQ Software 的來源漏斗圖) | [影片](https://youtu.be/R_EcimsLI8U) |
 | [甘特圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [影片](https://youtu.be/qJ7s_KrGiUU) |
 | [Ring Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) (MAQ Software 상기하여 Gantt 차트) | [影片](https://youtu.be/vJLV9JRCpI8) |
@@ -119,6 +112,7 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [Play Axis (Dynamic Slicer)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) (播放軸 (動態交叉分析篩選器)) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [影片](https://youtu.be/IvfIP3E6-1Q) |
 | [Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) (Power KPI 矩陣) | [影片](https://youtu.be/1enze8pcGzY) |
+| [Pulse Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381006) (Pulse 圖表) | [影片](https://youtu.be/DQWdcQtjDVw) |
 | [Quadrant Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) (MAQ Software 的象限圖) | [影片](https://youtu.be/ppBnyhqWNC0) |
 | [Radar Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) (雷達圖) | |
 | [Ring Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) (MAQ Software 的環狀圖) | [影片](https://youtu.be/pDToHDFHnq8) |
@@ -127,7 +121,6 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [捲軸](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
 | [Smart Filter by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) (依 OKViz 排列的智慧篩選) | [影片](https://youtu.be/gcJsDDRQq28) |
 | [Sparkline by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) (OKViz 走勢圖) | [影片](https://youtu.be/0m3Vnvso9tY) |
-| [Spline chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380860) (曲線圖) | |
 | [Stream Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772) (流線圖) | |
 | [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) (放射環狀圖) | |
 | [Table Heatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) (資料表熱度圖) | |
@@ -135,8 +128,6 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [Text Filter](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) (文字篩選) | |
 | [Text Wrapper by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) (MAQ Software 的文字包裝函式) | |
 | [Thermometer](https://appsource.microsoft.com/en-us/product/office/WA104379807) (溫度計) | |
-| [Time series decomposition chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) (時間序列分解圖表) | |
-| [Time Series Forecasting Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380816) (時間序列預測圖表) | |
 | [Timeline Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) (時間軸交叉分析篩選器) | [影片](https://youtu.be/ozMtZ4_NZ10) |
 | [龍捲風圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [影片](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [Trading Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) (MAQ Software 的交易圖) | [影片](https://youtu.be/xhTR6y6J9Ko) |

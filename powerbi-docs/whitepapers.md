@@ -1,27 +1,27 @@
 ---
-title: "Power BI 的技術白皮書"
-description: "技術白皮書可讓您更深入探索 Power BI 主題。"
+title: Power BI 的技術白皮書
+description: 技術白皮書可讓您更深入探索 Power BI 主題。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/16/2018
 ms.author: maghan
-ms.openlocfilehash: ac3f2b52374df0ea9a153a97548e40420388181d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 5e9e0ea009e403b89af7ff67e81062433ba56b80
+ms.sourcegitcommit: 863df35192b9aba1e7c22a64bc8df24418416730
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 的技術白皮書
 
@@ -42,5 +42,6 @@ ms.lasthandoff: 01/30/2018
 | [Securing the Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (保護表格式 BI 語意模型) |此技術白皮書介紹表格式 BI 語意和 Power BI 的資訊安全模型。 您將了解如何建立角色、實作動態安全性、設定模擬設定、管理角色，以及選擇連線到適用於您網路安全性內容之模型的方法。 |
 | [Power BI 報表伺服器的容量規劃指引](report-server/capacity-planning.md) |本文旨在提供 Power BI 報表伺服器容量規劃的相關指引，文中並共用對報表伺服器的各種工作負載所執行的多項負載測試結果。 |
 | [Power BI Premium 規劃和部署](https://aka.ms/Premium-Capacity-Planning-Deployment)| 本文提供為妥善定義之工作負載規劃和部署 Premium 容量的指引和最佳做法。|
+| [Power BI 和 SAP BW](https://aka.ms/powerbiandsapbw)| 本文描述 SAP 客戶可如何從將 Power BI 連線到其現有的 SAP Business Warehouse (BW) 系統中受益。|
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)

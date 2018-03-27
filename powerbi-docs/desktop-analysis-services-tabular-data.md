@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI Desktop 中的 Analysis Services 表格式資料"
-description: "Power BI Desktop 中的 Analysis Services 表格式資料"
+title: 使用 Power BI Desktop 中的 Analysis Services 表格式資料
+description: Power BI Desktop 中的 Analysis Services 表格式資料
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 02ce801db4eb6f5040c1d0e31ee0746a475c0bbb
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: ac5786c51fdf3f927605fdf20123a8ea93e74f8a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 Analysis Services 表格式資料
 Power BI Desktop 提供兩種方法，讓您連接到 SQL Server Analysis Services 表格式模型並從中取得資料：使用即時連接進行瀏覽，或選取項目並匯入 Power BI Desktop。
@@ -54,7 +54,7 @@ Power BI Desktop 提供兩種方法，讓您連接到 SQL Server Analysis Servic
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
 * 如果您選擇「選取項目並取得資料」，請在 [導覽器] 中，選取一個表格式模型或檢視方塊。 您可以進一步只選擇要載入的特定資料表或資料行。 若要將資料成形再載入，請按一下 [編輯] 以開啟 [查詢編輯器]。 當您完成時，按一下 [載入] 以將資料匯入 Power BI Desktop。
 
-![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
+  ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 **問︰**我需要內部部署資料閘道嗎？
@@ -73,7 +73,7 @@ Power BI Desktop 提供兩種方法，讓您連接到 SQL Server Analysis Servic
 
 **問：** 如果我建立即時連接，是否可以在 Power BI Desktop 中編輯模型或查詢？
 
-**答：**您可以在 Power BI Desktop 中建立報告等級量值，但瀏覽即時資料時，將會停用所有其他查詢和模型化功能。
+**答：**您可以在 Power BI Desktop 中建立報表層級量值，但瀏覽即時資料時，將會停用所有其他查詢和模型化功能。
 
 **問：** 如果我建立即時連接，它是否安全？
 

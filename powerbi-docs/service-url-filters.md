@@ -1,29 +1,29 @@
 ---
-title: "使用 URL 新增 Power BI 報表參數"
-description: "使用 URL 查詢字串參數篩選報表，甚至對多個欄位進行篩選。"
+title: 使用 URL 新增 Power BI 報表參數
+description: 使用 URL 查詢字串參數篩選報表，甚至對多個欄位進行篩選。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/15/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5015886d0314c767bc16fe223c7db91adb0fd2bb
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 72afa61316800e9636d7b1a1536ff9c43b66c453
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 當您在 Power BI 服務中開啟報表時，每頁報表各有其唯一的 URL。 若要篩選該報表頁面，您可以使用報表畫布上的 [篩選] 窗格。  或者您也可以將查詢字串參數新增到 URL，以篩選報表。 您可能有想要向同事展示的報表，並想要預先為他們篩選。 其中一個執行方式是從報表的預設 URL 著手、將篩選參數新增到 URL，然後用電子郵件將整個 URL 寄送給他們。

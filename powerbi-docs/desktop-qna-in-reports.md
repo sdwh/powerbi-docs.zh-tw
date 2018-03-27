@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI Desktop 中的問與答"
-description: "您現在可以使用問與答，以在 Power BI Desktop 中使用自然語言查詢"
+title: 使用 Power BI Desktop 中的問與答
+description: 您現在可以使用問與答，以在 Power BI Desktop 中使用自然語言查詢
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dacbb31e8e32abfcb34e565958620d579f68b4f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>使用 Power BI Desktop 中的自然語言查詢問與答
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 甚至在資料回答時更為強大，這是 **Power BI Desktop** 中的問與答可讓您執行的作業。
@@ -184,7 +184,7 @@ Power BI 預設會積極地彙總數值資料行，因此「年度總銷售額�
 
 ![新增問與答的同義字](media/desktop-qna-in-reports/desktop-qna_21.png)
 
-[同義字] 欄位會出現在 **Power BI Desktop** 右側，而您可以在其中新增同義字，如下列影像所示。
+[同義字] 欄位會出現在 **Power BI Desktop** 右側，而您可以在其中新增同義字，如下圖所示。
 
 ![新增問與答的同義字](media/desktop-qna-in-reports/desktop-qna_22.png)
 

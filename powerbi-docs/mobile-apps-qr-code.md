@@ -1,27 +1,27 @@
 ---
-title: "從行動裝置掃描 Power BI QR 代碼"
-description: "Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要搜尋即可直接連接到適用於 iPhone 和 Android 裝置之 Power BI 行動應用程式中的相關 BI 資訊。"
+title: 從行動裝置掃描 Power BI QR 代碼
+description: Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要搜尋即可直接連接到適用於 iPhone 和 Android 裝置之 Power BI 行動應用程式中的相關 BI 資訊。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 80c8de8626f2d891a7875933ee72a43dd5d7f09e
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2716452f285d8df0aa0d3b89c2b9b36aa87cc5cc
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>從行動裝置掃描 Power BI QR 代碼
 適用於︰
@@ -36,10 +36,10 @@ Power BI 中的 QR 代碼可以將真實世界中的任何項目直接連接到�
 
 您可以使用 Power BI 應用程式的掃描器，或安裝在手機上的任何其他掃描器，直接從手機掃描 QR 代碼，以立即存取相關的磚或報表。 
 
+如果您的同事尚未與您共用儀表板或報表，您可以直接從行動裝置應用程式要求存取。 
+
 > [!NOTE]
-> 如果您的同事尚未與您共用儀表板或報表，您可以直接從行動裝置應用程式要求存取。
-> 
-> 
+> 您也可以[使用 Power BI for Mixed Reality 應用程式掃描報表 QR 代碼](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)。
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>使用 Power BI 掃描器掃描 iPhone 上的 Power BI QR 代碼
 1. 在 Power BI 行動裝置應用程式中，開啟左上方的全域瀏覽功能表 ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png)。 
@@ -80,5 +80,6 @@ Power BI 中的 QR 代碼可以將真實世界中的任何項目直接連接到�
 * 透過行動裝置應用程式[實際連接 Power BI 資料](mobile-apps-data-in-real-world-context.md)
 * [為 Power BI 服務的磚建立 QR 代碼](service-create-qr-code-for-tile.md)
 * [為 Power BI 服務的報表建立 QR 代碼](service-create-qr-code-for-report.md)
+* 您也可以[使用 Power BI for Mixed Reality 應用程式掃描 QR 代碼](mobile-mixed-reality-app.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

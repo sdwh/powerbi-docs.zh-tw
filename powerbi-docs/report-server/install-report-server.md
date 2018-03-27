@@ -1,27 +1,27 @@
 ---
-title: "安裝 Power BI 報表伺服器"
-description: "了解如何安裝 Power BI 報表伺服器。 "
+title: 安裝 Power BI 報表伺服器
+description: 了解如何安裝 Power BI 報表伺服器。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 340e4a79e4ab0950143ea1af4f1c9a1f9c54b64c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 8b8bb3867ec1630dc5163148e4aa20e10c0504b7
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="install-power-bi-report-server"></a>安裝 Power BI 報表伺服器
 
@@ -29,11 +29,9 @@ ms.lasthandoff: 01/30/2018
 
  **下載**![下載](media/install-report-server/download.png "下載")
 
-若要下載 Power BI 報表伺服器，請移至[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)。 
+若要下載 Power BI 報表伺服器，請前往[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)，然後選取 [下載免費試用]。 
 
-移至 Microsoft 下載中心來下載 [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (已針對 Power BI 報表伺服器最佳化 - 2017 年 10 月)。
-
-![提示](media/install-report-server/fyi-tip.png "提示")如需目前的版本資訊，請參閱 [Power BI 報表伺服器版本資訊](release-notes.md)。
+## <a name="video-install-power-bi-report-server"></a>影片：安裝 Power BI 報表伺服器
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -41,6 +39,7 @@ ms.lasthandoff: 01/30/2018
 安裝 Power BI 報表伺服器之前，建議您先檢閱[安裝 Power BI 報表伺服器的硬體和軟體需求](system-requirements.md)。
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI 報表伺服器產品金鑰
+
 #### <a name="power-bi-premium"></a>Power BI Premium
 如果您已購買 Power BI Premium，則在 Power BI 報表伺服器管理入口網站的 [進階設定] 索引標籤內，您將可存取 Power BI 報表伺服器產品金鑰。 這只適用於全域系統管理員，或已獲指派 Power BI 服務系統管理員角色的使用者。
 
@@ -56,10 +55,7 @@ ms.lasthandoff: 01/30/2018
 ## <a name="install-your-report-server"></a>安裝報表伺服器
 安裝 Power BI 報表伺服器不難。 安裝檔案只要幾個步驟。
 
-> [!NOTE]
-> 安裝時不需要使用 SQL Server 資料庫引擎伺服器。 但在安裝之後需要一部來設定 Reporting Services。
-> 
-> 
+安裝時不需要使用 SQL Server 資料庫引擎伺服器。 但在安裝之後需要一部來設定 Reporting Services。
 
 1. 找到 PowerBIReportServer.exe 的位置並啟動安裝程式。
 2. 選取 [安裝 Power BI 報表伺服器]。
@@ -84,15 +80,14 @@ ms.lasthandoff: 01/30/2018
    
     ![指定安裝路徑](media/install-report-server/pbireportserver-install-file-path.png)
    
-   > [!NOTE]
-   > 預設路徑是 C:\Program Files\Microsoft Power BI Report Server。
-   > 
-   > 
-7. 安裝成功後，請選取 [設定報表伺服器] 啟動 Reporting Services 設定管理員。
+    預設路徑是 C:\Program Files\Microsoft Power BI Report Server。
+
+1. 安裝成功後，請選取 [設定報表伺服器] 啟動 Reporting Services 設定管理員。
    
     ![設定報表伺服器](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuration-your-report-server"></a>設定報表伺服器
+## <a name="configuring-your-report-server"></a>設定報表伺服器
+
 選取安裝程式中的 [設定報表伺服器] 後，您會看到 Reporting Services 設定管理員。 如需詳細資訊，請參閱 [Reporting Services 設定管理員](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)。
 
 您需要[建立報表伺服器資料庫](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)來完成 Reporting services 的初始設定。 需要 SQL Server 資料庫伺服器才能完成此步驟。

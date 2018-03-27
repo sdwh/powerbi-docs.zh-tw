@@ -1,15 +1,15 @@
 ---
-title: "從 Power BI Desktop 連接至網頁"
-description: "輕鬆地連接並使用在 Power BI Desktop 中的網頁"
+title: 從 Power BI Desktop 連接至網頁
+description: 輕鬆地連接並使用在 Power BI Desktop 中的網頁
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0ee3ff3b3ca33ea4760f9f08b4e05cbd65e2ab34
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 23984d8e64445d869062e942eb6155ff58b0d0ae
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>從 Power BI Desktop 連接至網頁
 您可以連接至網頁並將其資料匯入 Power BI Desktop，以在您的視覺效果和資料模型中使用。
@@ -47,7 +47,7 @@ ms.lasthandoff: 02/24/2018
 
 這樣就可以連接到網頁，並將其資料帶入 Power BI Desktop。
 
-您可以從這裡將這些欄位拖曳到報表畫布上，並建立您想要的所有視覺效果。 您也可以從該網頁使用此資料，就像使用任何其他資料一樣：您可以加以修改、可以在模型中建立該資料與其他資料來源之間的關聯性，或是以您喜歡的方式建立專屬於您的 Power BI 報表。
+您可以從這裡將這些欄位拖曳到報表畫布上，並建立您想要的所有視覺效果。 您也可以從該網頁使用此資料，就像使用任何其他資料一樣：您可以加以修改、可以在模型中建立該資料與其他資料來源之間的關聯性，或是以您喜歡的方式建立您想要的 Power BI 報表。
 
 若要查看連接至網頁的深入探討，請看看 [Power BI Desktop 入門指南](desktop-getting-started.md)。
 

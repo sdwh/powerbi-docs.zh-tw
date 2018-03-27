@@ -1,15 +1,15 @@
 ---
-title: "Power BI 報表伺服器的變更記錄"
-description: "此變更記錄適用於 Power BI 報表伺服器，並列出新的項目，以及每個發行組建的 Bug 修正。"
+title: Power BI 報表伺服器的變更記錄
+description: 此變更記錄適用於 Power BI 報表伺服器，並列出新的項目，以及每個發行組建的 Bug 修正。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: jtarquino
 manager: jonhp
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,17 +17,35 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
-ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
+ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
 此變更記錄適用於 Power BI 報表伺服器，並列出新的項目，以及每個發行組建的 Bug 修正。
 
-如需新功能的詳細資訊，請參閱 [Power BI 報表伺服器的新增功能](whats-new.md)。
+如需新功能的詳細資訊，請參閱 [Power BI 報表伺服器的新增功能](whats-new.md)。 
+
+## <a name="march-2018"></a>2018 年 3 月
+- **Power BI 報表伺服器**
+    - 版本 1.2.6648.38132 (組建 15.0.2.378)，發行日期：2018 年 3 月 19 日
+        - 安全性更新
+        - 協助工具改善
+        - Bug 修正
+            - 針對編頁報表 (RDL)，修正編輯其屬性後還原之連結報表中的參數可見度
+            - 修正其自訂表單驗證會忽略滑動期限 Cookie 的入口網站
+            - 修正 Word 的匯出，如果列內容空白，會建立不相等的列高
+            - 針對編頁報表 (RDL)，修正以連接字串為基礎的運算式，當我們變更資料來源的認證時，會刪除該連接字串
+            - 修正搭配使用 KPI 和文字值的功能
+            - 針對編頁報表 (RDL)，修正將新資料集指派給現有編頁報表 (RDL) 的功能
+            - 其他穩定性和可用性修正
+
+- **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
+    - 版本：2.56.5023.1043 (2018 年 3 月)，發行日期：2018 年 3 月 19 日
+        - 包含與 Power BI 報表伺服器連接所需的變更 (2018 年 3 月)
 
 ## <a name="october-2017"></a>2017年 10 月
 

@@ -1,34 +1,32 @@
 ---
-title: "Power BI 報表伺服器的新功能"
-description: "了解 Power BI 報表伺服器的新功能。 其涵蓋主要功能範圍，並會隨著新項目發行而更新。"
+title: Power BI 報表伺服器的新功能
+description: 了解 Power BI 報表伺服器的新功能。 其涵蓋主要功能範圍，並會隨著新項目發行而更新。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/31/2017
-ms.author: maghan
-ms.openlocfilehash: 2ac4efa4e1eff5099fa3732b0fa753b04941979e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 了解 Power BI 報表伺服器的新功能。 其涵蓋主要功能範圍，並會隨著新項目發行而更新。
 
 若要下載 Power BI 報表伺服器，以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop，請移至[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)。
-
-![提示](media/whats-new/fyi-tip.png "提示")如需目前的版本資訊，請參閱 [Power BI 報表伺服器版本資訊](release-notes.md)。
 
 如需相關的「新功能」資訊，請參閱︰
 
@@ -37,6 +35,103 @@ ms.lasthandoff: 01/30/2018
 * [Power BI 行動裝置 App 的新功能](../mobile-whats-new-in-the-mobile-apps.md)
 * [Power BI 小組部落格](https://powerbi.microsoft.com/blog/)
 
+## <a name="march-2018-release"></a>2018 年 3 月版本
+
+2018 年 3 月，我們在針對 Power BI 報表伺服器最佳化的 Power BI Desktop 版本中新增了許多功能。 這些功能可依區域細分如下： 
+- [視覺效果](#visuals-updates)
+- [報告](#reporting)
+- [分析](#analytics)
+- [效能](#performance)
+- [報表伺服器](#report-server)
+- [其他](#other-improvements)
+
+### <a name="highlights-of-this-release"></a>本版重點
+
+在這整個很長的新功能清單中，以下是特別值得關注的功能。
+
+#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[資料表和矩陣之以規則為基礎的條件式格式設定](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+ 
+建立規則，根據您資料表或矩陣中的特定商務邏輯，來視情況著色資料行的背景或字型色彩。
+
+#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[顯示和隱藏頁面](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+
+您希望讀者可存取您的報表，但某些頁面尚未完成。 現在您可以隱藏這些頁面，直到就緒為止。 或者，您可以從一般瀏覽隱藏頁面，而且讀者可以透過書籤或鑽研到達頁面。
+
+#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[標記書籤](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+
+標記書籤是指建立書籤，透過您報表中的資料來述說故事。
+
+- [書籤的交叉醒目提示](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting)：書籤會在您建立書籤時，維護並顯示報表頁面的交叉醒目提示狀態。
+- [更多書籤彈性](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility)：書籤會反映您在報表中設定的屬性，而且只會影響您選擇的視覺效果。
+
+#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[跨多個圖表複選資料點](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+
+在多個圖表中選取多個資料點，並將交叉篩選套用至整個頁面。
+
+#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[跨報表的多個頁面同步交叉分析篩選器](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+
+交叉分析篩選器可套用至一個、兩個或多個報表頁面。
+
+#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[快速量值](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+
+根據資料表中的現有量值和數值資料行，建立新的量值。
+
+#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[向下切入篩選其他視覺效果](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+
+當您在某個視覺效果的指定類別中向下切入時，您可以讓它依該相同的類別篩選頁面上的所有視覺效果。
+
+### <a name="visuals-updates"></a>視覺效果更新
+
+- [資料表和矩陣的資料格對齊](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment)
+- [顯示資料表和矩陣資料行的單位和精確度控制](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits)
+- [橫條圖和直條圖的資料標籤溢位](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow)
+- [控制笛卡兒座標和地圖視覺效果的資料標籤背景色彩](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dataLabelBackground)
+- [橫條/直條邊框間距控制項](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#padding)
+- [增加用於圖表中軸標籤的面積](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#axisSize)
+- [從 X 和 Y 軸群組的散佈圖視覺效果](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart)
+- [根據緯度和經度之地圖的高密度取樣](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps)
+- [回應式交叉分析篩選器](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive)
+- [新增相對日期交叉分析篩選器的錨點日期](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate)
+
+### <a name="reporting"></a>報告
+
+- [關閉報表讀取模式的視覺效果標頭](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader)
+- [慢速資料來源的報表選項](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource)
+- [改善的預設視覺效果放置](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement)
+- [透過選取窗格控制視覺效果排序](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#selectionPane)
+- [鎖定報表上的物件](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#lock)
+- [搜尋格式設定和分析窗格](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
+- [欄位屬性窗格和欄位描述](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
+
+### <a name="analytics"></a>分析
+
+- [UTCNOW() 和 UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
+- [標記自訂日期資料表](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
+- [鑽研篩選其他視覺效果](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+- [多列卡片之多維度 AS 模型的資料格層級格式](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
+ 
+### <a name="performance"></a>效能
+
+- [篩選效能提升](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
+- [DirectQuery 效能改善](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
+- [開啟和儲存效能改善](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf)
+- [[顯示沒有資料的項目] 改善](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData)
+ 
+### <a name="report-server"></a>報表伺服器 
+
+#### <a name="export-to-accessible-pdf"></a>匯出至可存取的 PDF
+
+當您將編頁報表 (RDL) 匯出至 PDF 時，您現在可以取得可存取/標記的 PDF 檔案。 雖然其大小更大，但更方便螢幕助讀程式和其他輔助技術讀取和巡覽。 您可以將 **AccessiblePDF** 裝置資訊設定設為 **True**，來啟用可存取的 PDF。 請參閱 [PDF 裝置資訊設定](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings)和[變更裝置資訊設定](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)。
+
+
+### <a name="other-improvements"></a>其他功能改進
+
+- [從範例新增資料行改善](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples)
+- [諮詢服務快速連結](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#consultingServices)
+- [改善的錯誤報告](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors)
+- [檢視之前發生的錯誤](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors)
+
+ 
 ## <a name="october-2017-release"></a>2017 年 10 月版本
 ### <a name="power-bi-report-data-sources"></a>Power BI 報表資料來源
 Power BI 報表伺服器中的 Power BI 報表可以連線到各種資料來源。 您可以匯入資料及排程資料重新整理，或使用 DirectQuery 或即時連線到 SQL Server Analysis Services，直接進行查詢。 請參閱支援排程重新整理的資料來源清單，以及支援「Power BI 報表伺服器中 Power BI 報表資料來源」中 DirectQuery 的資料來源清單。
@@ -111,7 +206,6 @@ Power BI 報表伺服器現在支援新的 Power BI 資料表和矩陣視覺效�
 * 增強報表中使用註解的共同作業
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 報表伺服器版本資訊](release-notes.md)  
 [使用者手冊](user-handbook-overview.md)  
 [系統管理員手冊](admin-handbook-overview.md)  
 [快速入門︰安裝 Power BI 報表伺服器](quickstart-install-report-server.md)  

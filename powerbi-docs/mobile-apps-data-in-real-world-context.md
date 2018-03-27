@@ -1,33 +1,33 @@
 ---
-title: "使用 Power BI 行動裝置應用程式取得實際資料"
-description: "Power BI 行動裝置應用程式可以將現實生活直接連接至相關的 BI 資訊，不需進行任何搜尋。"
+title: 使用 Power BI 行動裝置應用程式取得實際資料
+description: Power BI 行動裝置應用程式可以將現實生活直接連接至相關的 BI 資訊，不需進行任何搜尋。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 670d83e41476bf3d38a0f98908e20e7d35f9e22d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f4ad86ddf6604e2e8bd9d562249b3f2865a3ec7d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>使用 Power BI 行動裝置應用程式取得實際資料
 Power BI 行動裝置應用程式可以數種不同的方法，將現實生活直接連接至相關的 BI 資訊。 
 
 ## <a name="qr-codes-for-tiles"></a>磚的 QR 代碼
-在儀表板中為磚建立 QR 代碼，並將 QR 代碼放置在任何您想要的位置。 當您的同事以其 iPhone 或 Android 手機掃描代碼時，會看到與該 QR 代碼相關聯的磚；在 iPhone 上，他們會在擴增實境中看到磚。
+在儀表板中為報表或磚建立 QR 代碼，並將 QR 代碼放置在任何您想要的位置。 當您的同事以其 iPhone、Android 手機或 Power BI for Mixed Reality 應用程式掃描代碼時，會看到與該 QR 代碼建立關聯的磚。 在 iPhone 上，他們會在擴增實境中看到磚。
 
 ![QR 代碼](media/mobile-apps-data-in-real-world-context/power-bi-ios-qr-ar-scanner-small.png)
 
@@ -35,6 +35,7 @@ Power BI 行動裝置應用程式可以數種不同的方法，將現實生活�
 
 * [在 Power BI 中建立磚的 QR 代碼](service-create-qr-code-for-tile.md)
 * [從行動裝置掃描 Power BI QR 代碼](mobile-apps-qr-code.md)
+* [使用 Power BI for Mixed Reality 應用程式掃描 QR 代碼](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)。
 
 ## <a name="qr-codes-for-reports"></a>報表的 QR 代碼
 建立報表的 QR 代碼。  當您的同事以其 iPhone 掃描代碼時 (Android 手機即將推出)，他們會看到與該 QR 代碼相關聯的報表。 

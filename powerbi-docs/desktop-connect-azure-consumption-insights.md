@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Azure 使用深入解析資料"
-description: "輕鬆地連線到 Azure，並使用 Power BI Desktop 深入了解耗用量和使用"
+title: 在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Azure 使用深入解析資料
+description: 輕鬆地連線到 Azure，並使用 Power BI Desktop 深入了解耗用量和使用
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Azure 使用深入解析
 使用 **Azure 使用深入解析**連接器，您可以使用 **Power BI Desktop** 連線到 Azure，並取得關於貴組織的 Azure 服務使用量的深入資料和相關資訊。 您也可以建立量值、自訂資料行和視覺效果，報告及共用有關貴組織 Azure 使用量的資訊。 這一版的 **Azure 使用深入解析**連接器處於搶鮮版 (Beta)，並可能有所變更。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01.png)
 
-在本文章中，您了解如何使用 **Azure 使用深入解析**連接器進行連線，並取得您需要的資料、如何從使用 Azure Enterprise 連接器移轉，且您會發現「使用方式詳細資料資料行」的對應，這提供於 **ACI** (Azure 使用深入解析) API。
+在本文中，您了解如何使用 **Azure 使用深入解析**連接器進行連線，並取得您需要的資料、如何從使用 Azure Enterprise 連接器移轉，且您會發現「使用方式詳細資料資料行」的對應，這提供於 **ACI** (Azure 使用深入解析) API。
 
 ## <a name="connect-to-azure-consumption-insights"></a>連線到 Azure 使用深入解析
 若要成功使用 **Azure 使用深入解析**連接器進行連線，您必須能夠存取 Azure 入口網站內的企業功能。
@@ -42,7 +42,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
-* 您可以從 [Azure 企業版入口網站](https://ea.azure.com)取得註冊號碼，位置如下列影像所示。
+* 您可以從 [Azure 企業版入口網站](https://ea.azure.com)取得註冊號碼，位置如下圖所示：
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
@@ -61,7 +61,7 @@ ms.lasthandoff: 02/24/2018
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
 
 > [!NOTE]
-> *Summary 和 PriceSheet 資料表只可供註冊層級 API 金鑰之用。 此外，這些資料表中的資料預設具有目前月份的 *Usage* 和 *PriceSheet* 資料。 *Summary* 和 *MarketPlace* 資料表不受限於目前月份。
+> *Summary* 和 *PriceSheet* 資料表只可供註冊層級 API 金鑰之用。 此外，這些資料表中的資料預設具有目前月份的 *Usage* 和 *PriceSheet* 資料。 *Summary* 和 *MarketPlace* 資料表不受限於目前月份。
 > 
 > 
 
@@ -84,16 +84,16 @@ Azure 也包含範例自訂查詢的集合，您可以使用空的查詢來擷�
 
     = MicrosoftAzureConsumptionInsights.Contents
 
-隨即出現範例集合，如下圖所示。
+隨即出現範例集合，如下圖所示：
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 當處理報表和建立查詢時，請使用下列各項：
 
-* 若要定義從目前日期開始的月份數，請使用 *noOfMonths*
+* 若要定義從目前日期開始的月份數，請使用 *numberOfMonth*
   * 使用介於 1 到 36 的值來代表您要匯入的月份數，從目前日期開始。 我們建議您不要取得超過 12 個月的資料，以避免匯入條件約束的臨界值，以及 Power BI 中查詢允許的資料量。
 * 若要定義歷程記錄時間範圍中的月份期間，請使用 *startBillingDataWindow* 和 *endBillingDataWindow*
-* 請「勿」使用 *noOfMonths* 搭配 *startBillingDataWindow* 或 *endBillingDataWindow*
+* 請「勿」將 *numberOfMonth* 與 *startBillingDataWindow* 或 *endBillingDataWindow* 搭配使用
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>從 Azure 企業版連接器移轉
 有些客戶使用 *Azure 企業版連接器 (搶鮮版 (Beta))* 建立視覺效果，這最終將會中止服務，並取代為 **Azure 使用深入解析**連接器。 **Azure 使用深入解析**連接器的功能和增強功能包括：
@@ -108,7 +108,7 @@ Azure 也包含範例自訂查詢的集合，您可以使用空的查詢來擷�
 第一個步驟是使用 **Azure 使用深入解析**連接器進行連線，如本文稍早所詳述。 在此步驟中，從 **Power BI Desktop** 的 [首頁] 功能區選取 **[取得資料] > [空的查詢]**。
 
 ### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>步驟 2：使用進階編輯器來建立查詢
-在查詢編輯器中，從 [首頁] 功能區的 [查詢] 區段，選取 [進階編輯器]。 在出現的 [進階編輯器] 視窗中，輸入下列查詢。
+在查詢編輯器中，從 [首頁] 功能區的 [查詢] 區段，選取 [進階編輯器]。 在出現的 [進階編輯器] 視窗中，輸入下列查詢：
 
     let    
         enrollmentNumber = "100",
@@ -127,11 +127,11 @@ Azure 也包含範例自訂查詢的集合，您可以使用空的查詢來擷�
 接下來，您必須將任何自訂資料行或您建立的量值移至新的詳細資料資料表。 以下是步驟。
 
 1. 開啟 [記事本] \(或其他文字編輯器)。
-2. 選取您想要移動的量值，並從 [公式] 欄位複製文字，放在 [記事本] 中。
+2. 選取您想要移動的量值，並從 [公式] 欄位複製文字且放在 [記事本] 中。
    
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. 將 *Query1* 重新命名為原始的詳細資料資料表名稱。
-4. 在資料表中建立新的量值和自訂資料行，方法是以滑鼠右鍵按一下資料表，選擇 [新增量值]，然後剪下並貼上您的商店量值和資料行，直到全部完成。
+4. 在資料表中建立新的量值和自訂資料行，方法是以滑鼠右鍵按一下資料表，選擇 [新增量值]，然後剪下並貼上您儲存的量值和資料行，直到全部完成。
 
 ### <a name="step-4-re-link-tables-that-had-relationships"></a>步驟 4：重新連結有關聯性的資料表
 許多儀表板有其他用來查閱或篩選的資料表，例如日期資料表或用於自訂專案的資料表。 重新建立這些關聯性，可以解決大部分剩餘的問題。 以下說明如何執行這項作業。
@@ -149,7 +149,7 @@ Azure 也提供 [**Azure 使用深入解析 (ACI) API**](https://azure.microsoft
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>在入口網站、連接器和 API 之間對應名稱和使用詳細資料
 Azure 入口網站中的詳細資料資料行和名稱，在 API 和連接器中類似，但並非完全相同。 為了協助釐清，下表提供 API、連接器與您在 Azure 入口網站中看到的資料行之間的對應。 同時也指出資料行是否已經淘汰。 如需這些詞彙的詳細資訊和定義，請參閱 [Azure 帳單資料字典](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail)。
 
-| ACI 連接器 / ContentPack ColumnName | ACI API 資料行名稱 | EA 資料行名稱 | 已淘汰 / 為了回溯相容性而存在 |
+| ACI 連接器 / ContentPack ColumnName | ACI API 資料行名稱 | EA 資料行名稱 | 已淘汰/為了回溯相容性而存在 |
 | --- | --- | --- | --- |
 | AccountName |accountName |Account Name |否 |
 | AccountId |accountId | |是 |
@@ -175,7 +175,7 @@ Azure 入口網站中的詳細資料資料行和名稱，在 API 和連接器中
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |否 |
 | MeterId |meterId |Meter ID |否 |
 | 月 | |月 |否 |
-| Product |product |Product |否 |
+| 產品 |product |產品 |否 |
 | ProductId |productId | |是 |
 | Resource Group |resourceGroup |Resource Group |否 |
 | Resource Location |resourceLocation |Resource Location |否 |

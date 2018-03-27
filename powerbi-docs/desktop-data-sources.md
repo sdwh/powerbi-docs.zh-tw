@@ -1,13 +1,13 @@
 ---
-title: "Power BI Desktop 中的資料來源"
-description: "Power BI Desktop 中的資料來源"
+title: Power BI Desktop 中的資料來源
+description: Power BI Desktop 中的資料來源
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 04/29/2016
 ms.service: powerbi
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ff28f5d43b065ae798e2e9f275c8e8b59e9ee1ce
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 4bfdbaaa305f80195fd08155ecca744444495aeb
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
 
-若要連接到資料，請從 [主資料夾]  功能區選取 [取得資料]  。 選取向下箭號，或按鈕上的 [取得資料]  文字，會顯示 [最常見]  資料類型功能表，如下圖所示。
+若要連接到資料，請從 [主資料夾]  功能區選取 [取得資料]  。 選取向下箭號，或按鈕上的 [取得資料] 文字，會顯示 [最常見] 資料類型功能表，如下圖所示：
 
 ![](media/desktop-data-sources/data-sources_1.png)
 

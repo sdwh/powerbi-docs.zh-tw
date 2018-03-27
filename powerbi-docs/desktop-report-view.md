@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop 中的報表檢視"
-description: "Power BI Desktop 中的報表檢視"
+title: Power BI Desktop 中的報表檢視
+description: Power BI Desktop 中的報表檢視
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e68a819325e601f869b34c4ccbe3e873fe9408b3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af10699ea30b9d8e8dd8e3495860c43387a7e0be
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop 中的報表檢視
 若您已在使用 Power BI，就會知道建立報表提供動態檢視方塊及深入剖析資訊有多容易。 Power BI Desktop 提供更多進階的 Power BI 功能。 有了 Power BI Desktop，您可以建立進階查詢、混用來自多種來源的資料、建立資料表之間的關聯性等等。
 
-Power BI Desktop 包含 [報表檢視]，可讓您從中建立任意數量的報表頁面且包含視覺效果。 報表檢視提供中有許多設計，與 Power BI 服務中的報表編輯檢視幾乎完全相同。 您可以在回處移動、複製及貼上、合併其中的視覺效果等等。
+Power BI Desktop 包含 [報表檢視]，可讓您從中建立任意數量的報表頁面且包含視覺效果。 報表檢視提供中有許多設計，與 Power BI 服務中的報表編輯檢視幾乎完全相同。 您可以在四處移動、複製及貼上、合併其中的視覺效果等等。
 
 之間唯一的差別是使用 Power BI Desktop 時，您可以處理您的查詢及建立資料模型，讓資料在報表中能夠提供最透徹的深入剖析資訊。 您可以將 Power BI Desktop 檔案儲存在任何位置，無論是本機磁碟機或雲端。
 
@@ -44,7 +44,7 @@ Power BI Desktop 包含 [報表檢視]，可讓您從中建立任意數量的報
 
 ![](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-若要變更視覺效果的類型，可以選取從功能區中的 [視覺效果]  群組選取所需類型，或在 **變更視覺效果類型** 圖示上按一下滑鼠右鍵，然後選取所需的類型。
+若要變更視覺效果類型，您可以從功能區的 [視覺效果] 群組中選取該類型，或在**變更視覺效果類型**圖示上按一下滑鼠右鍵，然後選取其他類型。
 
 ![](media/desktop-report-view/pbid_reportview_changevis.gif)
 
@@ -53,7 +53,7 @@ Power BI Desktop 包含 [報表檢視]，可讓您從中建立任意數量的報
 > 
 > 
 
-報表至少會提供一個空白頁面讓您開始。 頁面會出現在畫布左側的導覽窗格中。 您可以在頁面中加入各種視覺效果，但請注意不要過量。 在頁面上加入太多的視覺效果，反而會讓頁面看起來十分零亂而不利尋找到正確的資訊。 您可以在報表中加入新頁面，只要按一下功能區上的 [新頁面]  即可。
+報表至少會提供一個空白頁面讓您開始。 頁面會出現在畫布左側的導覽窗格中。 您可以在頁面中加入各種視覺效果，但請注意不要過量。 在頁面上加入太多的視覺效果，反而會讓頁面看起來十分零亂而不利尋找到正確的資訊。 您可以新增頁面至報表。 只要按一下功能區上的 [新增頁面] 即可。
 
 ![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 

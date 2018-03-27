@@ -1,15 +1,15 @@
 ---
-title: "連接至 Power BI Desktop 中的資料"
-description: "連接至 Power BI Desktop 中的資料"
+title: 連接至 Power BI Desktop 中的資料
+description: 連接至 Power BI Desktop 中的資料
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 94e52d2d56cd7ba0ec04db47bc93dd18fc880f39
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: eb6d31864570a2078cf46b7e30fa771fd7773e93
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>連接至 Power BI Desktop 中的資料
 透過 Power BI Desktop，您可以輕鬆地連接到持續擴展的資料世界。 如果您沒有 Power BI Desktop，您可以[下載](http://go.microsoft.com/fwlink/?LinkID=521662)並加以安裝。
