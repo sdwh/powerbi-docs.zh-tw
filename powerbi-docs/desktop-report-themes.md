@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中使用報表主題 (預覽)"
-description: "了解如何在 Power BI Desktop 中使用自訂調色盤，並將它套用至整個報表"
+title: 在 Power BI Desktop 中使用報表主題 (預覽)
+description: 了解如何在 Power BI Desktop 中使用自訂調色盤，並將它套用至整個報表
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8893e9f048f10f2c9c4d5bf787382b7cf65f54a9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用報表主題 (預覽)
 透過 [報表主題]，您可以將某個色彩主題套用至整個報表，例如公司色彩、季節性色彩，或是您可能想要套用至報表的任何其他色彩主題。 當您套用 [報表主題] 時，報表中的所有視覺效果都會使用您選取之主題中的色彩 (但有些例外，本文稍後將進行說明)。
@@ -163,7 +163,7 @@ ms.lasthandoff: 02/24/2018
         }
     }
 
-對於 **visualName** 和 **cardName** 區段，您可以列出特定視覺效果和 cardName，或者如果您想要該設定套用至所有視覺效果或包含特定視覺效果屬性的所有卡片，您可以使用星號 ("*")。當您想要在報表中全域套用設定時，例如應該用於整個報表中的所有視覺效果字型大小或特定字型家族，您可以使用星號 ("*")。
+對於 **visualName** 和 **cardName** 區段，您可以列出特定視覺效果和 cardName，或者如果您想要該設定套用至所有視覺效果或包含特定視覺效果屬性的所有卡片，您可以使用星號 ("\*")。 當您想要在報表中全域套用設定時，例如應該用於整個報表中的所有視覺效果字型大小或特定字型家族，您可以使用星號 ("\*")。
 
 > [!NOTE]
 > 只需要指定您要影響的格式設定項目。 JSON 檔案中不包含的任何格式設定項目，會還原為其預設值和設定。

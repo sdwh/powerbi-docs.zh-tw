@@ -1,28 +1,28 @@
 ---
-title: "複製 Power BI 報表"
-description: "從另一份報表建立新的 Power BI 報表。"
+title: 複製 Power BI 報表
+description: 從另一份報表建立新的 Power BI 報表。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 63d545f24db126566d5c7f9c485e9cc4fd0e079e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f7b4230a6dc9089008928145863fe70977fb92f4
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report"></a>從現有的報表建立新的報表
 或許您有已經連接至資料集的報表，而且有些想要重複使用或修改的視覺效果。  為什麼不乾脆複製該報表當作新報表的基礎呢？  若要這樣做：

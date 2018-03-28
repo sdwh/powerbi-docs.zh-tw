@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 3/19/2018
+ms.date: 3/22/2018
 ms.author: maggies
-ms.openlocfilehash: 5295a62897c740872480b905f3aef4af37ca0942
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: 7c0f7ad804a61aeade6f120f2a2d2bd048219ee2
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>快速入門︰建立 Power BI 報表伺服器的 Power BI 報表
 您可在 Power BI 報表伺服器入口網站儲存和管理內部部署 Power BI 報表，如同您可在 Power BI 服務 (https://powerbi.com)) 中將 Power BI 報表儲存於雲端一樣。 在 Power BI Desktop 中建立和編輯報表，並將其發行至入口網站。 接著您組織的報表讀者就可在瀏覽器，或在行動裝置上的 Power BI 行動裝置應用程式中加以檢視。
@@ -54,7 +54,7 @@ ms.lasthandoff: 03/21/2018
    
     其會自動啟動，一切即就緒。 「Power BI Desktop (2018 年 3 月)」出現在標題列中即表示版本正確。
 
-    ![Power BI Desktop 2018 年 3 月版本](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+    ![Power BI Desktop 2018 年 3 月版本](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
 
 3. 如果您不熟悉 Power BI Desktop，請考慮觀看歡迎畫面上的影片。
    
