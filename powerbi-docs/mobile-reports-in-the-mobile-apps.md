@@ -1,27 +1,27 @@
 ---
-title: "探索 Power BI 行動裝置應用程式中的報表"
-description: "了解如何在手機或平板電腦上的 Power BI 行動裝置應用程式中檢視報表，並與其互動。 您可以使用 Power BI 服務或 Power BI Desktop 來建立報表，然後在 Mobile Apps 中與其互動。 "
+title: 探索 Power BI 行動裝置應用程式中的報表
+description: '了解如何在手機或平板電腦上的 Power BI 行動裝置應用程式中檢視報表，並與其互動。 您可以使用 Power BI 服務或 Power BI Desktop 來建立報表，然後在 Mobile Apps 中與其互動。 '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/25/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -33,24 +33,26 @@ ms.lasthandoff: 01/29/2018
 Power BI 報表是資料的互動式檢視，以視覺效果顯示資料的各種發現與洞見及需要深入了解的事項。 在 Power BI 行動裝置應用程式中檢視報表是三步驟程序中的第三個步驟。
 
 1. [在 Power BI Desktop 中建立報表](desktop-report-view.md)。 您甚至還可以在 Power BI Desktop 中[為手機最佳化報表](mobile-apps-view-phone-report.md)。 
-2. 將這些報表發行到 Power BI 服務 [(https://powerbi.com)](https://powerbi.com) 或 [Power BI 報表伺服器](report-server/get-started.md)。  
+2. 將那些報表發行到 Power BI 服務 [(https://powerbi.com)](https://powerbi.com) 或 [Power BI 報表伺服器](report-server/get-started.md)。  
 3. 然後在 Power BI 行動裝置應用程式中與這些報表互動。
 
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>在行動裝置應用程式中開啟 Power BI 報表
 Power BI 報表會根據您取得的位置，儲存在行動裝置應用程式中的不同位置。 這些報表可能會在 [應用程式]、[與我共用]、[工作區]\(包括 [我的工作區]) 中，或在報表伺服器上。 有時您會經過相關的儀表板才能抵達某個報表，有時會列出這些報表。
 
-* 在儀表板中，點選磚右上角的省略符號 (...) > [開啟報表]。
+* 在儀表板中，點選圖格右上角的省略符號 (...) > [開啟報表]。
   
   ![開啟報表](media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
-  不是所有的磚都有在報表中開啟的選項。 例如，點選藉由在問與答方塊中提問所建立的磚時不會開啟報表。 
+  不是所有的圖格都有在報表中開啟的選項。 例如，點選藉由在問與答方塊中提問所建立的圖格時不會開啟報表。 
   
   在手機上，報表會以橫向模式開啟，除非[已最佳化成適合在手機上檢視](mobile-reports-in-the-mobile-apps.md#view-reports-optimized-for-phones)。
   
   ![以橫向模式顯示的手機報表](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>檢視為手機最佳化的報表
-Power BI 報表作者可以建立專為手機最佳化的報表版面配置。 針對手機最佳化的報表頁面已新增功能：例如，您可以向下鑽研，並在焦點模式中排序視覺效果，且可以存取[報表作者新增至報表頁面的篩選條件](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)。 在報表清單中，最佳化的報表會有特殊圖示 ![手機報表圖示](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)：
+Power BI 報表作者可以建立專為手機最佳化的報表版面配置。 針對手機最佳化的報表頁面已新增功能：例如，您可以向下鑽研，並在焦點模式中排序視覺效果，且可以存取[報表作者新增至報表頁面的篩選條件](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone)。 在您手機上開啟的報表會篩選為網頁上的報表中已經篩選的值，並且顯示頁面上有作用中篩選器的訊息。 您可以在手機上變更篩選。
+
+在報表清單中，最佳化的報表會有特殊圖示 ![手機報表圖示](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png)：
 
 ![開啟手機報表](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -63,7 +65,7 @@ Power BI 報表作者可以建立專為手機最佳化的報表版面配置。 �
 深入了解[為手機檢視最佳化的報表](mobile-apps-view-phone-report.md)。
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>使用交叉分析篩選器來篩選報表頁面
-在 Power BI Desktop 或 Power BI 服務中設計報表時，請考慮[將交叉分析篩選器加入報表頁面中](power-bi-visualization-slicers.md)。 您和您的同事可以在瀏覽器的頁面中和行動裝置應用程式中，使用交叉分析篩選器來篩選頁面。 當您在手機上檢視報表時，可以在橫向模式中，以及針對手機直向模式的最佳化頁面中，查看交叉分析篩選器並與它互動。
+在 Power BI Desktop 或 Power BI 服務中設計報表時，請考慮[將交叉分析篩選器加入報表頁面中](power-bi-visualization-slicers.md)。 您和您的同事可以在瀏覽器的頁面中和行動裝置應用程式中，使用交叉分析篩選器來篩選頁面。 當您在手機上檢視報表時，可以在橫向模式中，以及針對手機直向模式的最佳化頁面中，查看交叉分析篩選器並與它互動。 如果您在瀏覽器中於交叉分析篩選器或篩選器中選取某個值，則當您在行動裝置應用程式中檢視頁面時也會選取該值。 您會看到訊息指出頁面上有作用中的篩選器。  
 
 * 當您在報表頁面上的交叉分析篩選器中選取值時，會篩選頁面上的其他視覺效果。
   

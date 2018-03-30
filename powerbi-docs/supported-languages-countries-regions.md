@@ -1,28 +1,28 @@
 ---
-title: "Power BI 支援的語言和國家 (地區)"
-description: "請參閱 Power BI 服務、Power BI Desktop 和 Power BI 文件的支援語言和國家/地區清單。"
+title: Power BI 支援的語言和國家 (地區)
+description: 請參閱 Power BI 服務、Power BI Desktop 和 Power BI 文件的支援語言和國家/地區清單。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 03/20/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c007202bc6526872ea3469ccc5e46b71a8e6dcb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0ca6a21e67e7ab1d2a0c0daa8da07052041db139
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI 支援的語言和國家 (地區)
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 02/24/2018
 如需可使用 Power BI 的國家與地區清單，請參閱[國際供應清單](https://products.office.com/business/international-availability)。 
 
 ## <a name="languages-for-the-power-bi-service"></a>Power BI 服務的語言
-(瀏覽器的) Power BI 服務有下列 42 種語言版本：
+(瀏覽器的) Power BI 服務提供下列 44 種語言版本：
 
 * 阿拉伯文
 * 巴斯克文 - Basque
@@ -101,8 +101,8 @@ Power BI 會根據您電腦上的語言喜好設定偵測您的語言。 存取�
 1. 按一下瀏覽器視窗右上角的 [工具] 按鈕：
    
    ![Internet Explorer [工具] 按鈕](media/supported-languages-countries-regions/languages1.png)
-2. 按一下 [網際網路選項] 。
-3. 在 [網際網路選項] 對話方塊，[一般] 索引標籤的 [外觀] 下，按一下 [語言]  按鈕。
+2. 按一下 [網際網路選項]。
+3. 在 [網際網路選項] 對話方塊，[一般] 索引標籤的 [外觀] 下，按一下 [語言] 按鈕。
 
 #### <a name="google-chrome-version-42"></a>Google Chrome (42 版)
 1. 按一下瀏覽器視窗右上角的 [功能表] 按鈕：

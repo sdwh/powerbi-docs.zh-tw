@@ -1,27 +1,27 @@
 ---
-title: "從 Power BI 行動裝置應用程式共用儀表板或報表"
-description: "您可以從 Power BI 行動裝置應用程式來共用連結，以邀請同事檢視您的儀表板和報表。 了解方法。"
+title: 從 Power BI 行動裝置應用程式共用儀表板或報表
+description: 從 Power BI 行動裝置應用程式共用連結，以邀請其他人檢視您的儀表板和報表。 了解方法。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 328e73b31934259fb50e412b6dc2f88a379a7469
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5bbcf02dfb0c11ca605e0c07f2670bd3a3422e96
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>從 Power BI 行動裝置應用程式共用儀表板或報表
 適用於︰
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/27/2018
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
 
-只要有 [Power BI Pro 授權](service-free-vs-pro.md)，您就可以從 Power BI 行動裝置應用程式來共用連結，以邀請同事檢視您的儀表板和報表。 與您共用的人必須和您位在相同的電子郵件網域，同時也必須具有 Power BI Pro 授權，或內容必須位於[進階容量](service-premium.md)中。
+只要有 [Power BI Pro 授權](service-free-vs-pro.md)，您就可以從 Power BI 行動裝置應用程式共用連結，以邀請其他人檢視您的儀表板和報表。 您可以與任何人共用，不論對方是否在組織內，有無公司郵件帳戶都可以。 他們也必須具有 Power BI Pro 授權，否則內容便必須位於 [Premium 容量](service-premium.md)中。
 
 從 Power BI for iOS 和 Android 行動裝置應用程式中，您也可以與任何人一起[標註並共用圖格、報告或視覺效果的快照集](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。 
 
@@ -38,14 +38,13 @@ ms.lasthandoff: 02/27/2018
 1. 在儀表板或報表底部的動作列中點選**共用**圖示 ![共用圖示](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png)。
    
    ![iPhone 共用圖示](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-dashboard-invite.png)
-2. 點選 [邀請同事]。
-3. 鍵入名稱並以逗號分隔，再鍵入要隨邀請一起發送的訊息。
-4. 若要允許再次共用，請保持選取 [Allow recipients to reshare (允許收件者再次共用)]。
+2. 鍵入名稱並以逗號分隔，再鍵入要隨邀請一起發送的訊息。
+3. 若要允許再次共用，請保持選取 [Allow recipients to reshare (允許收件者再次共用)]。
    
    再次共用可讓您的同事透過 Web 或行動裝置應用程式，將電子郵件邀請轉寄給組織中的其他人。
 5. 點選右上角的 [傳送]  。
    
-   您的同事會收到附有儀表板或報表直接連結的電子郵件邀請。 邀請有效期一個月。 當他們在瀏覽器或 Power BI 行動裝置應用程式中開啟邀請函時，它會新增至 Power BI 帳戶的 [與我共用] 區段。
+   收件者會收到具有儀表板或報表直接連結的電子郵件邀請。 邀請有效期一個月。 當他們在瀏覽器或 Power BI 行動裝置應用程式中開啟邀請函時，它會新增至 Power BI 帳戶的 [與我共用] 區段。
    
    ![與我共用](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
@@ -68,14 +67,14 @@ ms.lasthandoff: 02/27/2018
 
 ## <a name="share-from-your-ipad"></a>從您的 iPad 共用
 1. 點選儀表板或報表右上角的**共用**圖示 ![共用圖示](media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png)。
-2. 點選 [邀請同事]，然後鍵入電子郵件地址及隨邀請一起發送的訊息。
+2. 輸入電子郵件地址及隨邀請一起發送的訊息。
 3. 若要允許再次共用，請保持選取 [Allow recipients to reshare (允許收件者再次共用)]。
    
    再次共用允許您的同事透過 Web 或 mobile apps，將電子郵件邀請轉寄給貴組織的其他人。 
 
 4. 點選右上角的 [傳送]  。
    
-   您的同事會收到附有儀表板或報表直接連結的電子郵件邀請。 邀請有效期一個月。 當他們在瀏覽器或 Power BI 行動裝置應用程式中開啟邀請函時，它會新增至 Power BI 帳戶的 [與我共用] 區段。
+   收件者會收到具有儀表板或報表直接連結的電子郵件邀請。 邀請有效期一個月。 當他們在瀏覽器或 Power BI 行動裝置應用程式中開啟邀請函時，它會新增至 Power BI 帳戶的 [與我共用] 區段。
    
    ![與我共用](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
@@ -97,7 +96,7 @@ ms.lasthandoff: 02/27/2018
 1. 在儀表板或報表首頁上，點選省略符號 (...)，然後點選 [邀請同事]。
    
    ![邀請同事](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
-2. 或者點選儀表板或報表右上角的邀請圖示 ![邀請圖示](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
+2. 或者，在儀表板或報表中，點選邀請圖示 ![邀請圖示](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
 
     如果您是儀表板的擁有者，您會看到與您共用此儀表板或報表的同事清單及這些標註：
 
@@ -111,7 +110,7 @@ ms.lasthandoff: 02/27/2018
    
 1. 點選右上角的**傳送**圖示 ![傳送圖示](media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_sendplane.png) 傳送郵件。
    
-   您的同事會收到附有儀表板直接連結的電子郵件邀請函。 邀請有效期一個月。 當他們在瀏覽器或 Power BI 行動裝置應用程式中開啟邀請函時，它會新增至 Power BI 帳戶的 [與我共用] 區段。
+   收件者會收到具有儀表板直接連結的電子郵件邀請。 邀請有效期一個月。 當他們在瀏覽器或 Power BI 行動裝置應用程式中開啟邀請函時，它會新增至 Power BI 帳戶的 [與我共用] 區段。
    
    ![與我共用](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
    
@@ -146,7 +145,7 @@ ms.lasthandoff: 02/27/2018
    
 1. 點選**傳送**圖示 ![傳送圖示](media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png)。
    
-   您的同事會收到附有儀表板或報表直接連結的電子郵件邀請。 邀請有效期一個月。 當他們在瀏覽器或 Power BI 行動裝置應用程式中開啟邀請函時，它會新增至 Power BI 帳戶的 [與我共用] 區段。
+   收件者會收到具有儀表板或報表直接連結的電子郵件邀請。 邀請有效期一個月。 當他們在瀏覽器或 Power BI 行動裝置應用程式中開啟邀請函時，它會新增至 Power BI 帳戶的 [與我共用] 區段。
    
    ![與我共用](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    

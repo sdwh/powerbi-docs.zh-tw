@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -35,6 +35,18 @@ ms.lasthandoff: 03/15/2018
 ### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 應用程式 (預覽)
 
 在最近一次匯入資料到所在位置的行動中，我們建立了 Power BI for Mixed Reality 應用程式。 您可以在沉浸於虛擬世界的同時，檢視您的儀表板和報表，或將這些項目放在您環境內容中的特定位置以進行檢視。 深入了解新的 [Power BI for Mixed Reality 應用程式](mobile-mixed-reality-app.md)。
+
+### <a name="share-reports-and-dashboards-externally"></a>與外部共用報表及儀表板
+
+直接從應用程式與組織外的使用者共用儀表板及報表。 組織和社交帳戶都必須已啟用外部共用。 
+
+### <a name="persistent-filters"></a>永續性篩選
+
+當您在網頁上的 Power BI 中設定篩選器和交叉分析篩選器時，您的篩選選項也會儲存到行動裝置應用程式中，以便您從先前離開的地方繼續。
+
+### <a name="refresh-reports-on-the-ipad"></a>在 iPad 上重新整理報表
+
+Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 
 ## <a name="february-2018"></a>2018 年 2 月
 
@@ -92,7 +104,7 @@ ms.lasthandoff: 03/15/2018
 
 ### <a name="show-data-in-reports"></a>在報表中顯示資料
 
-您現在可以在報表中將視覺效果切換成資料表檢視，以查看資料背後的數字。 若要存取這項功能，請從報表上的視覺效果的 ... 功能表點選 [顯示資料]，或展開之視覺效果的 [動作] 功能表上的新增圖示。
+您現在可以在報表中將視覺效果切換成資料表檢視，以查看資料背後的數字。 若要存取這個功能，請從報表上的視覺效果的 ... 功能表點選 [顯示資料]，或展開之視覺效果的 [動作] 功能表上的新增圖示。
 
 ## <a name="previous-months"></a>前幾個月
 
@@ -182,7 +194,7 @@ ms.lasthandoff: 03/15/2018
 **Power BI for Android 平板電腦行動裝置應用程式**現已正式運作。 [開始在 Android 平板上使用 Power BI](mobile-android-tablet-app-get-started.md)。
 
 #### <a name="ios-and-android-devices"></a>iOS 及 Android 裝置
-**儀表板磚的新功能表**：瀏覽到基礎報表、展開磚或管理警示，全都能直接在儀表板磚上的功能表執行。 
+**儀表板圖格的新功能表**：瀏覽到基礎報表、展開圖格或管理警示，全都能直接在儀表板圖格上的功能表執行。 
 
 這個功能表對 iOS、橫向模式的 Android 手機及 Android 平板電腦而言是新的。 在 Windows 及縱向模式的 Android 手機則已經存在。
 
@@ -190,7 +202,7 @@ ms.lasthandoff: 03/15/2018
 閱讀 [January 2017 mobile apps blog feature summary](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-january-2017) (2017 年 1 月 mobile apps 部落格功能摘要)。
 
 #### <a name="all-devices"></a>所有裝置
-**在資料表和矩陣中載入超過 100 個資料列**：現在，如果您在儀表板或報表上有大型資料表或矩陣，我們會在磚內盡可能地顯示資料。 然後在焦點模式中，您可以向下捲動以載入其他資料列。
+**在資料表和矩陣中載入超過 100 個資料列**：現在，如果您在儀表板或報表上有大型資料表或矩陣，我們會在圖格內盡可能地顯示資料。 然後在焦點模式中，您可以向下捲動以載入其他資料列。
 
 **手機報表 - 正式運作**：Power BI 手機報表目前已正式運作。 在 Power BI Desktop 中，您可以為行動裝置檢視器調整現有報表的縱向檢視。 深入了解[撰寫 Power BI Desktop 中的手機報表](desktop-create-phone-report.md)和[手機上的報表體驗](mobile-apps-view-phone-report.md)。
 
@@ -213,7 +225,7 @@ ms.lasthandoff: 03/15/2018
 #### <a name="ios-devices"></a>iOS 裝置
 **標註並共用**
 
-現在您可以從 Power BI for iOS 行動裝置應用程式標註並共用磚、報表或視覺效果。 
+現在您可以從 Power BI for iOS 行動裝置應用程式標註並共用圖格、報表或視覺效果。 
 
 * [在 iPhone 上](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [在 iPad 上](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
@@ -222,9 +234,9 @@ ms.lasthandoff: 03/15/2018
 
 如果您掃描無權存取之儀表板的 QR 代碼，現在可以從行動裝置應用程式提交存取要求。
 
-**影像磚上的自訂 URL**
+**影像圖格上的自訂 URL**
 
-如果影像磚有儀表板擁有者所定義的自訂 URL，則當您點選磚時，會直接移至該 URL 而不需要在焦點模式下開啟磚。 
+如果影像圖格有儀表板擁有者所定義的自訂 URL，則當您點選圖格時，會直接移至該 URL 而不需要在焦點模式下開啟圖格。 
 
 #### <a name="iphone"></a>iPhone
 **Apple Watch 改進**
@@ -232,9 +244,9 @@ ms.lasthandoff: 03/15/2018
 您現在可以直接從 Watch 應用程式重新整理 Apple Watch 資料。 按壓 Apple Watch 儀表板索引頁面以重新整理資料。 (Power BI 行動裝置應用程式必須在 iPhone 上背景執行，才能成功)。
 
 #### <a name="android"></a>Android
-**影像磚上的自訂 URL**
+**影像圖格上的自訂 URL**
 
-如果影像磚有儀表板擁有者所定義的自訂 URL，則當您點選磚時，會直接移至該 URL 而不需要在焦點模式下開啟磚。 此外，包含預先定義之自訂 URL 的儀表板磚，現在可以在應用程式內將讀者重新導向到報表。
+如果影像圖格有儀表板擁有者所定義的自訂 URL，則當您點選圖格時，會直接移至該 URL 而不需要在焦點模式下開啟圖格。 此外，包含預先定義之自訂 URL 的儀表板圖格，現在可以在應用程式內將讀者重新導向到報表。
 
 ### <a name="november-2016"></a>2016 年 11 月
 閱讀 [November 2016 Power BI mobile apps feature summary](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-november-2016/) (2016 年 11 月的 Power BI 行動裝置應用程式功能摘要)。
@@ -251,7 +263,7 @@ ms.lasthandoff: 03/15/2018
 **我的最愛**：在 Android 裝置上標記您最愛的儀表板，並在一個便利的位置集中查看您的所有[最愛的 Power BI 儀表板和 Reporting Services 行動報表和 KPI](mobile-android-tablet-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports)。 
 
 #### <a name="ios-devices"></a>iOS 裝置
-**連結**：磚和視覺效果中的 URL 現在都可以點選，並在瀏覽器中開啟。
+**連結**：圖格和視覺效果中的 URL 現在都可以點選，並在瀏覽器中開啟。
 
 #### <a name="windows-devices"></a>Windows 裝置
 **地圖置中**：聚焦於您位置附近的資料
@@ -272,7 +284,7 @@ ms.lasthandoff: 03/15/2018
 **改進 Apple Watch 重新整理**：Apple Watch 行動裝置應用程式已針對 Watch OS3 多所改進
 
 #### <a name="android-phones"></a>Android 手機
-**已新增手動更新磚**：您現在可以手動重新整理儀表板磚。 DirectQuery 的磚會從資料集擷取最新的資料。
+**已新增手動更新圖格**：您現在可以手動重新整理儀表板圖格。 DirectQuery 的圖格會從資料集擷取最新的資料。
 
 #### <a name="windows-10-phones"></a>Windows 10 手機
 **地理篩選**：您現在可以在 Windows 10 手機上，根據您目前的位置來篩選您的報表，只顯示所需要的資料。
@@ -285,23 +297,23 @@ ms.lasthandoff: 03/15/2018
 
 **儀表板資料分類**：查看儀表板擁有者指派給儀表板的資料分類。 閱讀更多以了解如何[將儀表板分類](service-data-classification.md)。
 
-**資料驅動的警示**：在您的資料依照 KPI、量測計和卡片磚的預設方式變更時，收到警示通知。 深入了解：
+**資料驅動的警示**：在您的資料依照 KPI、量測計和卡片圖格的預設方式變更時，收到警示通知。 深入了解：
 
 * [Power BI for Android 手機應用程式上的警示](mobile-set-data-alerts-in-the-mobile-apps.md)。 
 * [Power BI for iOS 手機應用程式上的警示](mobile-set-data-alerts-in-the-mobile-apps.md)。 
 * [Power BI for Windows 10 裝置應用程式上的警示](mobile-set-data-alerts-in-the-mobile-apps.md)。
 
 #### <a name="ios-on-iphones-and-ipads"></a>iPhone 和 iPad 上的 iOS
-**iPad 上焦點模式中全螢幕的磚**：當您點選 iPad 上的磚時，磚現在會利用整個 iPad 螢幕大小，在焦點模式中以全螢幕開啟。
+**iPad 上焦點模式中全螢幕的圖格**：當您點選 iPad 上的圖格時，圖格現在會利用整個 iPad 螢幕大小，在焦點模式中以全螢幕開啟。
 
-**手動重新整理磚**：在 iOS 的 Power BI 行動裝置應用程式中開啟儀表板，然後從螢幕頂端下拉，以手動重新整理磚。 
+**手動重新整理圖格**：在 iOS 的 Power BI 行動裝置應用程式中開啟儀表板，然後從螢幕頂端下拉，以手動重新整理圖格。 
 
 **Intune MAM 的支援**：新增 Microsoft Intune 行動應用程式管理 (MAM) 功能的支援。
 
 深入了解 [Power BI 行動裝置應用程式上的 Microsoft Intune](service-admin-mobile-intune.md)。
 
 #### <a name="windows-10-devices"></a>Windows 10 裝置
-**全螢幕與簡報模式**：您可以在 Surface Hub 上以簡報模式顯示報表，以及在 Windows 10 裝置上以全螢幕模式顯示儀表板、報表和磚。
+**全螢幕與簡報模式**：您可以在 Surface Hub 上以簡報模式顯示報表，以及在 Windows 10 裝置上以全螢幕模式顯示儀表板、報表和圖格。
 
 ### <a name="july-2016"></a>2016 年 7 月
 #### <a name="all-phones"></a>所有手機
@@ -321,15 +333,15 @@ ms.lasthandoff: 03/15/2018
 #### <a name="ios-on-iphones-and-ipads"></a>iPhone 和 iPad 上的 iOS
 **改進安全性管理**：為特定儀表板中顯示的商務資料選取風險分類。
 
-**行動裝置深入資訊**：檢視群組直條圖磚上的摘要資料 (最大值、最小值和全部)。
+**行動裝置深入資訊**：檢視群組直條圖圖格上的摘要資料 (最大值、最小值和全部)。
 
-**改進手動重新整理**：您現在可以手動重新整理儀表板磚。 針對以直接查詢為基礎的磚，此動作會從資料模型擷取最新的資料。
+**改進手動重新整理**：您現在可以手動重新整理儀表板圖格。 針對以直接查詢為基礎的圖格，此動作會從資料模型擷取最新的資料。
 
 **改進警告與橫幅**：我們改進了行動裝置應用程式的警告與橫幅。
 
 **報表頁面的 QR 代碼**：服務中產生的 QR 代碼將會連結至特定頁面，而不是整份報表。
 
-**一般增強功能**：我們改進了行動裝置應用程式中磚的錯誤訊息。
+**一般增強功能**：我們改進了行動裝置應用程式中圖格的錯誤訊息。
 
 #### <a name="windows-10-devices"></a>Windows 10 裝置
 **改進安全性管理**：為特定儀表板中顯示的商務資料選取風險分類。
@@ -340,7 +352,7 @@ ms.lasthandoff: 03/15/2018
 如需詳細資料，請參閱[六月 Power BI 行動裝置應用程式部落格文章](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-june-2016/)。
 
 #### <a name="qr-codes-now-display-in-augmented-reality-ios"></a>QR 代碼現在可以擴增實境方式顯示 (iOS)
-現在當您掃描 Power BI 服務所產生的 QR 代碼時，磚會以擴增實境的方式呈現。 
+現在當您掃描 Power BI 服務所產生的 QR 代碼時，圖格會以擴增實境的方式呈現。 
 
 深入了解[連接真實世界中的資料](mobile-apps-data-in-real-world-context.md)。
 
@@ -376,13 +388,13 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 #### <a name="power-bi-app-for-windows-10-devices"></a>適用於 Windows 10 裝置的 Power BI 應用程式
 * **簡報模式** 從 Power BI 應用程式將 Power BI 儀表板和報表以簡報模式顯示。
 * **SQL Server 2016 [Reporting Services 行動報表](mobile-app-windows-10-ssrs-kpis-mobile-reports.md)**現可用於 Windows 10 裝置。
-* 當您將滑鼠暫留在儀表板磚上時，會看到**資料工具提示**。
+* 當您將滑鼠暫留在儀表板圖格上時，會看到**資料工具提示**。
 
 ### <a name="march-2016"></a>2016 年 3 月
 請參閱 [2016 年 3 月的 Power BI 行動裝置應用程式部落格](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-march-2016/)。
 
 #### <a name="iphone-mobile-app"></a>iPhone 行動應用程式
-**Apple Watch** 在您的 [Apple Watch](mobile-apple-watch.md) 上檢視 Power BI 磚和 KPI。
+**Apple Watch** 在您的 [Apple Watch](mobile-apple-watch.md) 上檢視 Power BI 圖格和 KPI。
 
 **iOS 9.0 和更新版本**：為了保障 Power BI 的最佳體驗和新功能，目前僅支援執行 iOS 9.0 及更新版本的裝置。
 
@@ -392,19 +404,19 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 
 **離線時的新資料** 新的背景重新整理會在您上線時自動更新快取的資料，所以[即使離線時](mobile-apps-offline-data.md)也會有最新的資料。 
 
-**Bing 和 R 磚**：在焦點模式中開啟 Bing 和 R 磚。​
+**Bing 和 R 圖格**：在焦點模式中開啟 Bing 和 R 圖格。​
 
 #### <a name="android-mobile-app"></a>Android 行動裝置應用程式
 **SQL Server 2016 行動報表及 KPI**：[檢視 SQL Server 2016 行動報表及 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)，然後在 SSRS 資料夾之間瀏覽。
 
-**檢視報表**從儀表板上的磚開啟報表。
+**檢視報表**從儀表板上的圖格開啟報表。
 
 **離線時的新資料** 新的背景重新整理會在您上線時自動更新快取的資料，所以[即使離線時](mobile-apps-offline-data.md)也會有最新的資料。 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>適用於 Windows 10 裝置的 Power BI 應用程式
 **快速存取** 使用新的 [最近檢視] 清單和全域搜尋快速存取您的儀表板、報表和群組，以便找到您需要的資料。
 
-**Bing 和 R 磚**：在焦點模式中開啟 Bing 和 R 磚。​
+**Bing 和 R 圖格**：在焦點模式中開啟 Bing 和 R 圖格。​
 
 **開始畫面上更多的動態磚** [在開始畫面上將 KPI 和資料列卡釘選](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)為動態磚，以便您可以一眼看到所有的關鍵度量。
 
@@ -423,7 +435,7 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 
 [在 Windows 10 手機上檢視報表](mobile-reports-in-the-mobile-apps.md)。
 
-[在 Windows 10 行動儀表板上更快取得深入資訊](mobile-tiles-in-the-mobile-apps.md)：共用磚快照集，或直接從儀表板開啟報表。
+[在 Windows 10 行動儀表板上更快取得深入資訊](mobile-tiles-in-the-mobile-apps.md)：共用圖格快照集，或直接從儀表板開啟報表。
 
 ### <a name="january-2016"></a>2016 年 1 月
 所有一月功能改進皆已涵蓋於 2015 年 12 月新發行的[適用於 Windows 10 手機的 Power BI 應用程式](mobile-windows-10-phone-app-get-started.md)。 現在則將在其他適用於行動裝置的 Power BI 應用程式中推出。 閱讀有關這些功能改進的部落格文章。
@@ -434,11 +446,11 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 
 **存取快取資料** 快取資料不會到期，所以您永遠可以在離線時存取快取資料。
 
-**R 磚和 Web Widget** 在您行動裝置上的儀表板檢視這些新的磚類型。
+**R 圖格和 Web Widget** 在您行動裝置上的儀表板檢視這些新的圖格類型。
 
 **Bing 儀表板**在 Power BI 服務中，您現在可以[使用 Bing 搜尋結果建立儀表板](service-connect-to-bing.md)，並在您的行動裝置上加以檢視。
 
-**將報表頁面釘選為儀表板上的磚**：您現在可以將整個報表頁面釘選到 Power BI 服務中的儀表板。您可以您 iPhone 或 Android 手機的 Power BI 應用程式中檢視報表頁面。
+**將報表頁面釘選為儀表板上的圖格**：您現在可以將整個報表頁面釘選到 Power BI 服務中的儀表板。您可以您 iPhone 或 Android 手機的 Power BI 應用程式中檢視報表頁面。
 
 ### <a name="december-2015"></a>2015 年 12 月
 Power BI 小組提供多個主要的新增與更新項目，強而有力地結束 2015 年。
@@ -460,7 +472,7 @@ Power BI 小組提供多個主要的新增與更新項目，強而有力地結�
 
 * 在同事與您共用儀表板時收到通知。 (iOS)
 * 檢視儀表板上釘選的所有報表頁面。 (iOS 與 Android)
-* [掃描 QR 代碼](http://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)，並直接前往 Android 手機上相關的磚。
+* [掃描 QR 代碼](http://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)，並直接前往 Android 手機上相關的圖格。
 
 ### <a name="november-2015"></a>2015 年 11 月
 閱讀 [2015 年 11 月的 Power BI 行動部落格文章](http://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-mobile-apps-update-_2d00_-november-2015.aspx)。
@@ -473,11 +485,11 @@ Power BI 小組提供多個主要的新增與更新項目，強而有力地結�
 * 企業現在可以[使用 Microsoft Intune 設定適用於 iOS 和 Android 的 Power BI 行動裝置應用程式](service-admin-mobile-intune.md)來管理裝置和應用程式。
 
 #### <a name="iphone-mobile-app"></a>iPhone 行動應用程式
-* 直接從 iPhone [將圖片磚加入儀表板中](mobile-iphone-app-get-started.md)。
-* [在 Power BI 服務中建立 QR 代碼](service-create-qr-code-for-tile.md)，然後從 iPhone 加以掃描，以針對特定的磚開啟 Power BI 應用程式。
+* 直接從 iPhone [將圖片圖格加入儀表板中](mobile-iphone-app-get-started.md)。
+* [在 Power BI 服務中建立 QR 代碼](service-create-qr-code-for-tile.md)，然後從 iPhone 加以掃描，以針對特定的圖格開啟 Power BI 應用程式。
 
 #### <a name="the-power-bi-app-for-windows-devices"></a>適用於 Windows 裝置的 Power BI 應用程式
-* [直接從磚連接至特定 URL](service-dashboard-edit-tile.md#hyperlink)。
+* [直接從圖格連接至特定 URL](service-dashboard-edit-tile.md#hyperlink)。
 
 ### <a name="october-2015"></a>2015 年 10 月
 閱讀[十月中 Power BI 行動部落格文章](http://blogs.msdn.com/b/powerbi/archive/2015/10/21/power-bi-mobile-mid-october-updates-are-here.aspx)。

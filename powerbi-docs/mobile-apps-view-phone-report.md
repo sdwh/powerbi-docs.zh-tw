@@ -1,27 +1,27 @@
 ---
-title: "檢視為手機最佳化的 Power BI 報表"
-description: "了解與報表頁面進行互動，該頁面已針對在 Power BI 手機應用程式中檢視進行最佳化。"
+title: 檢視為手機最佳化的 Power BI 報表
+description: 了解與報表頁面進行互動，該頁面已針對在 Power BI 手機應用程式中檢視進行最佳化。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 275dc9fff2f87dd4811eb1a3fe3db944a2965b58
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>檢視為手機最佳化的 Power BI 報表
 
@@ -47,7 +47,7 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
 * [Android 手機上的報表](mobile-reports-in-the-mobile-apps.md)。
 
 ## <a name="filter-the-report-page-on-a-phone"></a>在電話上篩選報表頁面
-如果已為電話最佳化的報表定義篩選，則當您在電話上檢視報表時，就可以使用這些篩選。 
+如果已為電話最佳化的報表定義篩選，則當您在電話上檢視報表時，就可以使用這些篩選。 在您手機上開啟的報表會篩選為網頁上的報表中已經篩選的值，並且顯示頁面上有作用中篩選器的訊息。 您可以在手機上變更篩選。
 
 1. 點選篩選圖示 ![手機篩選圖示](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) 在頁面底部。 
 2. 使用基本或進階篩選，查看您感興趣的結果。
@@ -71,9 +71,9 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
   
     ![展開為焦點模式](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
-您在焦點模式所執行的動作會沿用至報表畫布，反之亦然，提供您順暢的探索體驗。 比方說，如果您將視覺效果中的值醒目提示，然後返回整份報表，整個報表會篩選至您在視覺效果中醒目提示的值。
+您在焦點模式所執行的動作會沿用至報表畫布，反之亦然，提供您順暢的探索體驗。 例如，如果您將視覺效果中的值醒目提示，然後返回整份報表，整個報表會篩選至您在視覺效果中醒目提示的值。
 
-有鑑於螢幕大小限制，某些動作只有在焦點模式中才可進行︰
+由於螢幕大小限制，某些動作只有在焦點模式中才可進行︰
 
 * **向下切入**視覺效果中顯示的資訊。 在下方深入了解如何在手機報表中[向下和向上切入](mobile-apps-view-phone-report.md#drill-down-in-a-visual)。
 * **排序**視覺效果中的值。

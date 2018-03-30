@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: ''
 author: mihart
 manager: kfile
-backup: sirsu
+backup: ''
 editor: ''
 tags: ''
 qualityfocus: no
@@ -15,22 +15,23 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: c4f05645f98e67fcf81c61d91bfdccb9612ed46b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
 
-* [Power BI Desktop 的新功能](desktop-latest-update.md)  
-* [Power BI 行動裝置 App 的新功能](mobile-whats-new-in-the-mobile-apps.md)  
-* [Power BI 小組部落格](https://powerbi.microsoft.com/blog/)
+- [Power BI Desktop 的新功能](desktop-latest-update.md)  
+- [Power BI 行動裝置 App 的新功能](mobile-whats-new-in-the-mobile-apps.md)  
+- [Power BI 小組部落格](https://powerbi.microsoft.com/blog/)
+- Dynamics 365 的[商務應用程式 2018 年 春季版本資訊](https://aka.ms/bagspring2018releasenotes_internal)：商務應用程式的最新更新，以及在我們的平台上建置您自己的應用程式與擴充功能的新功能。 
 
 您也可以觀賞 YouTube 頻道，以取得「最新功能」和其他功能的相關資訊。
 
@@ -60,7 +61,7 @@ ms.lasthandoff: 03/23/2018
 *   [Power BI 應用程式](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)的選擇性發行內容。
 *   [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) 的外部使用者發佈。
 * 使用 AI 技術應用程式的建議。
-* 儀表板磚上 UI 更新。
+* 儀表板圖格上 UI 更新。
 * 應用程式的電子郵件訂閱支援。 
 * [發佈至網路](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings)的細微系統管理控制項。
 
@@ -132,7 +133,7 @@ ms.lasthandoff: 03/23/2018
 * 使用此 Power BI 內容套件瀏覽您的 [Jira 專案管理資料](https://powerbi.microsoft.com/blog/explore-your-jira-data-with-power-bi/)
 * 使用此 Power BI 內容套件瀏覽您的 [Insightcentr 資料](https://powerbi.microsoft.com/blog/explore-your-insightcentr-data-with-power-bi/)
 * 使用[資訊圖表設計工具的自訂視覺效果](https://powerbi.microsoft.com/blog/quickly-create-infographics-with-the-infographic-designer-custom-visual-for-power-bi/)快速建立資訊圖
-* 私人預覽︰[Azure 串流分析](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/)會輸出 Power BI 串流資料集，您可以用來建立串流磚。
+* 私人預覽︰[Azure 串流分析](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/)會輸出 Power BI 串流資料集，您可以用來建立串流圖格。
 * 預覽︰將 [ESRI ArcGIS 地圖視覺效果](https://powerbi.microsoft.com/blog/arcgis-maps-for-powerbi-available-in-powerbi-service/)新增到您的報表和儀表板
 
 ### <a name="october-2016"></a>2016 年 10 月
@@ -155,14 +156,14 @@ ms.lasthandoff: 03/23/2018
 
 ***在 Excel 中分析您的內部部署資料***
 
-* [使用 EXCEL 分析] 功能已擴充為支援內部部署資料集。 我們建立安全且直接的連接方式來連接到您的內部部署資料集，讓您可以在 Excel 中進行分析。 我們也引進了一項設定，讓系統管理員可以關閉內部部署來源的 [使用 Excel 分析] 功能。  
+* [使用 EXCEL 分析] 功能已擴充為支援內部部署資料集。 我們建立安全且直接的連接方式來連接到您的內部部署資料集，讓您可以在 Excel 中進行分析。 我們也引進了一個設定，讓系統管理員可以關閉內部部署來源的 [使用 Excel 分析] 功能。  
 
 如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/power-bi-july-update-for-service-and-mobile/)
 
 ### <a name="june-2016"></a>2016 年 6 月
 ***深入資訊摘要***
 
-* 使用複雜篩選的快速深入剖析︰我們很高興地宣布，過去範圍為單一磚的快速深入剖析，現在能夠處理複雜的篩選。
+* 使用複雜篩選的快速深入剖析︰我們很高興地宣布，過去範圍為單一圖格的快速深入剖析，現在能夠處理複雜的篩選。
 
 如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/)
 
@@ -175,12 +176,12 @@ ms.lasthandoff: 03/23/2018
 ***資料列層級安全性 (RLS)***
 
 * Azure Active Directory (AAD) 群組支援︰使用者現在可以將 AAD 群組 (安全性群組和通訊群組清單) 指派給角色。 這樣更容易同時將數個角色指派給大型的使用者群組。
-* [使用其基礎資料就地具備 RLS 的報表測試 RLS 角色](service-admin-rls.md#validating-the-role-within-power-bi-desktop)︰我們在 RLS 預覽加入了一項功能，可讓您以特定角色測試您的資料集。 如此可確保角色依您的預期運作，再讓其他使用者使用您的儀表板。
+* [使用其基礎資料就地具備 RLS 的報表測試 RLS 角色](service-admin-rls.md#validating-the-role-within-power-bi-desktop)︰我們在 RLS 預覽加入了一個功能，可讓您以特定角色測試您的資料集。 如此可確保角色依您的預期運作，再讓其他使用者使用您的儀表板。
 * 根據直接查詢定義 RLS 並將其套用至雲端模型︰您現在可以為直接查詢資料來源建立和套用 RLS 規則。
 
 ***儀表板***
 
-* 我的最愛儀表板︰為協助您取得最常使用的儀表板，我們新增了一項方法，讓您將這些儀表板加入我的最愛，從所有工作區都可以輕鬆存取。
+* 我的最愛儀表板︰為協助您取得最常使用的儀表板，我們新增了一個方法，讓您將這些儀表板加入我的最愛，從所有工作區都可以輕鬆存取。
 
 ***使用 Excel 分析***
 
@@ -195,7 +196,7 @@ ms.lasthandoff: 03/23/2018
 
 **2016 年 4 月 28 日**
 
-* [儀表板磚的快速深入剖析](service-insights.md)︰在焦點模式中檢視磚時，按一下 \[Get Insights] \(取得深入剖析) 即可在數秒內自動搜尋磚及其相關資料，以了解關聯性、極端值、趨勢、季節性、趨勢的轉折點及主要因素。
+* [儀表板圖格的快速深入剖析](service-insights.md)︰在焦點模式中檢視圖格時，按一下 \[Get Insights] \(取得深入剖析) 即可在數秒內自動搜尋圖格及其相關資料，以了解關聯性、極端值、趨勢、季節性、趨勢的轉折點及主要因素。
 
 如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)
 
@@ -220,7 +221,7 @@ ms.lasthandoff: 03/23/2018
 
 ***儀表板***
 
-* [Vimeo 影片磚](service-dashboard-add-widget.md)︰從儀表板新增包含內嵌 Vimeo 播放程式的磚。
+* [Vimeo 影片圖格](service-dashboard-add-widget.md)︰從儀表板新增包含內嵌 Vimeo 播放程式的圖格。
 
 ***使用 Excel 分析***
 
@@ -240,7 +241,7 @@ ms.lasthandoff: 03/23/2018
 
 * 系統管理使用方式報告︰將使用方式報表加入 Power BI 系統管理中心。
 * 資料列層級安全性︰這是預覽功能，可讓您設定 Power BI 資料集的權限。
-* 停用匯出資料︰租用戶中的使用者無法再將磚和視覺資料匯出到 .csv 檔案。
+* 停用匯出資料︰租用戶中的使用者無法再將圖格和視覺資料匯出到 .csv 檔案。
 
 ***問與答***
 
@@ -248,7 +249,7 @@ ms.lasthandoff: 03/23/2018
 
 ***行動***
 
-* Apple Watch 上的 KPI：監視您的 KPI 和卡片磚，而不必開啟 Power BI 應用程式。
+* Apple Watch 上的 KPI：監視您的 KPI 和卡片圖格，而不必開啟 Power BI 應用程式。
 
 ***Excel***
 
@@ -268,8 +269,8 @@ ms.lasthandoff: 03/23/2018
 ***儀表板***
 
 * 全螢幕模式︰不須先結束全螢幕模式也能列印
-* 全螢幕模式︰展開您要填滿整個畫布的磚，然後選取 [符合寬度] 來移除多餘的空白字元
-* 使用磚流程將您的磚自動對齊畫布左上角。
+* 全螢幕模式︰展開您要填滿整個畫布的圖格，然後選取 [符合寬度] 來移除多餘的空白字元
+* 使用圖格流程將您的圖格自動對齊畫布左上角。
 
 ***深入資訊摘要***
 
@@ -331,11 +332,11 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 ***儀表板***
 
-* 匯出磚資料
+* 匯出圖格資料
 * 將影像或文字方塊 Widget 加入儀表板中
 * 列印儀表板
-* 重新整理磚上的時間
-* 儀表板磚上的工具提示
+* 重新整理圖格上的時間
+* 儀表板圖格上的工具提示
 
 ***共同作業***
 
@@ -355,7 +356,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 * 在 Excel Desktop 中開啟 Excel 報表
 * 釘選 Excel 圖表
-* Excel 磚的格式增強功能
+* Excel 圖格的格式增強功能
 
 ***其他***
 
@@ -409,7 +410,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 **2015 年 12 月 10 日**
 
 * 將報表頁面釘選至儀表板
-* 重新整理儀表板磚
+* 重新整理儀表板圖格
 * 在交叉分析篩選器中使用影像
 * 變更報表視覺效果之間的互動
   
@@ -443,10 +444,10 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 **2015 年 11 月 18 日**
 
 * 建立重複的儀表板
-* 隨意放置儀表板磚
+* 隨意放置儀表板圖格
 * 改進全螢幕檢視瀏覽
 * 提升從組織邀請人員到 Power BI 群組的體驗
-* 改進磚的錯誤訊息
+* 改進圖格的錯誤訊息
 
 如需所有詳細資料，請瀏覽 [Power BI 部落格](http://blogs.msdn.com/b/powerbi/archive/2015/11/17/power-bi-weekly-service-update-1117.aspx)
 
@@ -489,16 +490,16 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 * 用以在大螢幕電視上展示儀表板和報表的全螢幕模式
 * 全螢幕模式的「符合螢幕」支援，以在可用空間中顯示您的整個報表
-* 聚焦模式，以取得儀表板磚的更多詳細資料
-* 檢視每個磚上次更新時間的功能
-* 檢視每個磚來源的功能
+* 聚焦模式，以取得儀表板圖格的更多詳細資料
+* 檢視每個圖格上次更新時間的功能
+* 檢視每個圖格來源的功能
 * Planview Enterprise 是端對端公事包兼資源管理解決方案，將策略連接到執行，改進整個企業的決策。 適用於 Power BI 的 Planview Enterprise 內容套件可讓您以全新的方式，將資源和工作管理資料視覺化。 只要使用您的認證登入，就能開始以互動方式探索您的公事包投資成本、預算狀態，以及專案與策略優先順序之間的配合程度。
 
 若要深入了解，請檢視我們的[部落格](http://blogs.msdn.com/b/powerbi/archive/2015/10/13/power-bi-weekly-service-update-1013.aspx)和[線上文件](service-get-started.md)。
 
 **2015 年 10 月 6 日**
 
-* 透過 Power BI 問與答，您可以使用簡單、直覺的問題來探索資料，並收到以互動式圖表和圖形呈現的回答。 在此版本中，我們加入了一項功能來協助您，即使您還不知道資料的任何內容，也能開始使用 Power BI 問與答。 若要開始使用此功能，請[導覽到任一個儀表板，然後按一下問與答問題方塊附近的 [如何發問] 連結](power-bi-tutorial-q-and-a.md)。 Power BI 隨即依據您的資料，為您呈現多項建議。
+* 透過 Power BI 問與答，您可以使用簡單、直覺的問題來探索資料，並收到以互動式圖表和圖形呈現的回答。 在此版本中，我們加入了一個功能來協助您，即使您還不知道資料的任何內容，也能開始使用 Power BI 問與答。 若要開始使用此功能，請[導覽到任一個儀表板，然後按一下問與答問題方塊附近的 [如何發問] 連結](power-bi-tutorial-q-and-a.md)。 Power BI 隨即依據您的資料，為您呈現多個建議。
 * 兩週前，我們開始支援在 Power BI Desktop 將圖形插入報表畫布中。 本週，我們很高興宣布，現在當您在 Power BI Web 應用程式中撰寫及 (或) 編輯報表時，也可以將圖形加入您的報表畫布中。
 * 我們加入了在共用儀表板時關閉電子郵件通知的選項。 只要在 Power BI 共用對話方塊中，取消核取 [傳送電子郵件通知給收件者] 核取方塊即可。 系統將會顯示一組 URL，複製此 URL 並分享給您的同事，他們就能存取儀表板。
 * Microsoft Dynamics NAV 是適用於中小型組織的商務管理解決方案。 此服務為客戶提供完整的解決方案，讓企業更有效控制財務和商務程序。 Power BI 內容套件為 Dynamics NAV 使用者提供現成報表，例如銷售和收益、商機管道、獲利率等。 這些計量都在可完全自訂的儀表板上組織，讓您能夠輕鬆連接並立即開始探索您的資料。
@@ -517,7 +518,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 **2015 年 9 月 22 日**
 
-* 透過範圍從 1x1 到 5x5 的額外磚大小來自訂儀表板，讓您的儀表板更具彈性。
+* 透過範圍從 1x1 到 5x5 的額外圖格大小來自訂儀表板，讓您的儀表板更具彈性。
 * 您現在可以[從群組空間共用 (和取消共用) 儀表板](service-collaborate-power-bi-workspace.md)，方法就和在自己的空間中執行此動作一樣。 一旦同事接受您的共用邀請後，共用的儀表板 (及其相關聯報表) 就會以唯讀權限加入其本身空間中。
 * 我們將 5 個額外的[產業相關範例](sample-datasets.md)加入了 Power BI：客戶獲利率、人力資源、商機分析、採購分析以及銷售與行銷範例。
 * Stripe 是線上商務的進階付款平台。 從新創企業到全球 500 強公司，數以千計的公司都使用 Stripe，接受來自世界各地 130 種以上的貨幣。 使用您現有 Stripe 帳戶連接 Power BI，即可[使用 Power BI 的 Stripe 內容套件來監視、探索及視覺化您的 Stripe 活動](service-connect-to-stripe.md).
@@ -528,7 +529,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 * 您現在可以選擇要將視覺效果釘選到哪個儀表板！ 您可以從現有儀表板中選擇目標儀表板，或甚至建立新的儀表板並一次完成釘選視覺效果。
 * 此外，您可以控制儀表板的視覺化色彩。 如果您的報表使用的佈景主題與儀表板佈景主題不同，則可以控制視覺效果是否要保留目前的佈景主題，還是要使用預設的儀表板佈景主題來達到各種來源之視覺效果的一致性。
-* 您現在可以將磚從一個儀表板釘選到另一個儀表板，方式就如同將報表視覺效果釘選到儀表板。
+* 您現在可以將圖格從一個儀表板釘選到另一個儀表板，方式就如同將報表視覺效果釘選到儀表板。
 * 如果 60 天的 Power BI Pro 試用期即將屆滿，您可以[與我們連絡](http://go.microsoft.com/fwlink/?LinkID=624573&clcid=0x409now)，要求延長試用。 經過核准之後，您的試用將再延長 60 天。
 * comScore Digital Analytix 是一套線上解決方案，透過最佳的分析和對象人口統計資料，供您深入了解使用者基底。 使用 Power BI comScore 內容套件，您可以快速連接並開始獲得 Web 分析資料的深入解析。 此內容套件包含現成儀表板、一組報表，和策劃資料集，來協助您瀏覽和向下鑽研您的資料。 如需深入了解內容套件，請參閱我們的[部落格](http://blogs.msdn.com/b/powerbi/archive/2015/09/16/visualize-and-explore-your-comscore-data-with-power-bi.aspx)和[說明主題](service-connect-to-connect-to.md). 
 
@@ -542,7 +543,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 **2015 年 9 月 1 日**
 
 * Webtrends 能協助公司了解客戶資料，推動數位行銷的成功。 使用者能夠針對跨越 Web、社交、行動和 SharePoint 管道的訪客旅程圖，觀察、分析和傳遞其深入解析。 隨著 [Webtrends 內容套件](http://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx)的發行，使用者將能夠使用 Power BI 監視、分析和視覺化 Webtrends 分析資料。 Power BI 的 Webtrends 內容套件[說明頁面](service-connect-to-webtrends.md)包含詳細資訊。
-* 從問答集開始使用會更加簡單。 當您將游標放在問與答文字方塊時，我們會立即顯示與您資料相關的問題和重要度量清單。  在下拉式清單中，您預設會看到已釘選到儀表板的磚相關問題，以及您資料集中每個資料表的項目。
+* 從問答集開始使用會更加簡單。 當您將游標放在問與答文字方塊時，我們會立即顯示與您資料相關的問題和重要度量清單。  在下拉式清單中，您預設會看到已釘選到儀表板的圖格相關問題，以及您資料集中每個資料表的項目。
 * 我們顯示的動態畫布大小預設會使用最適合瀏覽器視窗大小的維度，呈現所有報表項目。 如果您想要鎖定外觀比例，或想要以不同方式容納您的報表，我們現在支援其他三個選項：調整成一頁、符合寬度、實際大小。
 * 我們也提高了您可以擁有的資料集和報表數目限制。 您的 Power BI 現在最多可以有 200 個資料集，每個資料集 200 份報表。
 
@@ -576,20 +577,20 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 * [帶入整個 Excel 檔案](service-excel-workbook-files.md)：您可以將儲存在商務用 OneDrive 的任何 Excel 活頁簿帶入 Power BI，並檢視整個活頁簿，方式就和在 Excel Online 完全一樣。
 * [帶入 CSV 檔案](service-get-data-from-files.md)：就像 Excel 或 Power BI Desktop 檔案一樣，逗號分隔值 (CSV) 文字檔也可以是您的 Power BI 儀表板和報表的資料集。
 * 取代 Excel、Power BI Desktop 和 CSV 檔案：您可以將檔案的更新版本上傳至 Power BI，以其取代現有的資料集。 所有連接到此資料集的報表和儀表板現在都會自動使用新的版本。
-* 我們很高興宣佈，本週的 Power BI 更新現在在 [Visual Studio Team Services 內容套件](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)中提供工作項目追蹤。 此更新包括新的儀表板、報表和更新的資料集，提供您工作項目的深入解析，以及初始版本所包含的 Git 儲存機制、提取要求和版本控制內容等重要度量。 如需如何開始使用的其他詳細資料，請參閱 [Power BI 的 Visual Studio Online 內容套件說明頁面](service-connect-to-quickbooks-online.md)。
+* 我們很高興宣佈，本週的 Power BI 更新現在在 [Visual Studio Team Services 內容套件](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)中提供工作項目追蹤。 此更新包括新的儀表板、報表和更新的資料集，提供您工作項目的深入解析，以及初始版本所包含的 Git 存放庫、提取要求和版本控制內容等重要度量。 如需如何開始使用的其他詳細資料，請參閱 [Power BI 的 Visual Studio Online 內容套件說明頁面](service-connect-to-quickbooks-online.md)。
 
 **2015 年 7 月 14 日**
 
 * Acumatica Cloud ERP 提供一套完全整合的商務管理應用程式，例如財務、配銷、CRM 和專案會計，並且採用強大且富彈性的平台。 使用 Power BI [Acumatica 內容套件](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)，可讓您快速連接並立即取得商機資料的深入解析。 此內容包含現成可用的儀表板、一組報告，和策劃資料集，以瀏覽並提供詳細資料，例如依日期統計的成交商機總計。 您可以在[這裡](service-connect-to-acumatica.md)深入了解. 
-* [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) 現在提供管理完善的 Spark 服務。 這項功能允許反覆的機器學習和互動式資料分析等案例。 Power BI 可讓您直接連接到在 HDInsight 上的 Spark 中的資料，其中提供簡單且即時的瀏覽。 如需詳細資訊，請閱讀我們的[說明文件](spark-on-hdinsight-with-direct-connect.md)。
+* [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) 現在提供管理完善的 Spark 服務。 這個功能允許反覆的機器學習和互動式資料分析等案例。 Power BI 可讓您直接連接到在 HDInsight 上的 Spark 中的資料，其中提供簡單且即時的瀏覽。 如需詳細資訊，請閱讀我們的[說明文件](spark-on-hdinsight-with-direct-connect.md)。
 * [Office 365 導覽和應用程式啟動器整合](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher)。 只要按一下，您現在便可以導覽到所有 Office 365 應用程式。
-* [指定自訂 URL](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url)，以便使用者使用者按一下磚時導覽至該處。 您現在能夠完全控制使用者的去向：特定報表、另一個儀表板、SSRS 報表，或是外部網站。 
+* [指定自訂 URL](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url)，以便使用者使用者按一下圖格時導覽至該處。 您現在能夠完全控制使用者的去向：特定報表、另一個儀表板、SSRS 報表，或是外部網站。 
 * 您在 Power BI 耗用的[儲存體可見度與管理](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)
 * [設定問答集顯示的視覺效果和欄位](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#visual)
 
 **2015 年 7 月 7 日**
 
-* 其中一項最受期待與要求的功能現在已由 Power BI 提供使用。 從現在開始，您可以在 Power BI 中[更新資料集](http://blogs.msdn.com/b/powerbi/archive/2015/07/07/refresh-for-on-premises-sources-is-here.aspx)，其連接到您的內部部署來源，例如 SQL Server。 您可以更新從 Power BI 設計工具檔案或 Excel 活頁簿 (使用 Power Query 或 Power Pivot 將資料匯入活頁簿) 所建立的資料集。 
+* 其中一個最受期待與要求的功能現在已由 Power BI 提供使用。 從現在開始，您可以在 Power BI 中[更新資料集](http://blogs.msdn.com/b/powerbi/archive/2015/07/07/refresh-for-on-premises-sources-is-here.aspx)，其連接到您的內部部署來源，例如 SQL Server。 您可以更新從 Power BI 設計工具檔案或 Excel 活頁簿 (使用 Power Query 或 Power Pivot 將資料匯入活頁簿) 所建立的資料集。 
 
 **2015 年 6 月 30 日**
 
