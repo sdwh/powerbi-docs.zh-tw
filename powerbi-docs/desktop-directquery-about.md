@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 中的 DirectQuery"
-description: "了解如何搭配 Power BI 使用 DirectQuery"
+title: 使用 Power BI 中的 DirectQuery
+description: 了解如何搭配 Power BI 使用 DirectQuery
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: aba599f4ab5bcc9d1f5c0446e4476a169ca5e2c4
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 89dae54ed1faaa868ca022360480540de9dbe295
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>使用 Power BI 中的 DirectQuery
 您可以在使用 **Power BI Desktop** 或 **Power BI 服務**時連接到各種不同的資料來源，而且可以利用不同的方法來進行這些資料連接。 您可以將資料「匯入」Power BI (這是取得資料的最常見方法)，也可以直接連接到原始來源存放庫中的資料 (也稱為 **DirectQuery**)。 本文將說明 **DirectQuery** 及其功能，包括下列主題：
@@ -51,7 +51,7 @@ Power BI 會連接到相當大量的各種資料來源，包括：
 * 簡易檔案 (Excel、JSON 等)
 * 其他資料來源 (Spark、網站、Microsoft Exchange 等)
 
-對於這些來源，您通常可以將資料匯入 Power BI。 對於其他來源，您也可以使用 DirectQuery 進行連接。 [DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)一文說明支援 DirectQuery 的一組正確來源。 未來將有更多來源啟用 DirectQuery，主要是預期可提供良好互動式查詢效能的來源。
+對於這些來源，您通常可以將資料匯入 Power BI。 對於某些來源，您也可以使用 DirectQuery 來連線。 [DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)一文說明支援 DirectQuery 的一組正確來源。 未來將有更多來源啟用 DirectQuery，主要是預期可提供良好互動式查詢效能的來源。
 
 **SQL Server Analysis Services** 是特殊案例。 連接到 SQL Server Analysis Services 時，您可以選擇匯入資料，或使用「即時連接」。  使用即時連接類似於 DirectQuery，不會匯入任何資料，而且一律會查詢基礎資料來源以重新整理視覺效果；但「即時連接」在許多其他方面並不同，因此使用不同的術語 (「即時」 與 *DirectQuery*)。
 
@@ -71,7 +71,7 @@ Power BI 會連接到相當大量的各種資料來源，包括：
 ### <a name="directquery-connections"></a>DirectQuery 連接
 在 **Power BI Desktop** 中使用 [Get Data]\(取得資料) 連接到資料來源並選擇 [DirectQuery] 時，該連接的行為如下所示：
 
-* 在最初的 [Get Data]\(取得資料) 體驗期間，已選取來源。 對於關聯式來源，這表示選取一組資料表，而每個資料表仍會定義一個查詢以邏輯方式傳回一組資料。 對於 SAP BW 等多維度來源，只會選取該來源。
+* 在最初的 [Get Data]\(取得資料) 體驗期間，已選取來源。 對於關聯式來源，這表示選取一組資料表，而每個資料表仍會定義一個查詢以邏輯方式傳回一組資料。 對於多維度來源，如 SAP BW，只會選取該來源。
 * 不過，載入時，不會實際將資料匯入 Power BI 存放區。 相反地，在 **Power BI Desktop** 中建立視覺效果時，會傳送查詢至基礎資料來源以擷取必要的資料。 重新整理視覺效果所需的時間將取決於基礎資料來源的效能。
 * 基礎資料的任何變更不會立即反映在任何現有的視覺效果中。 您仍然必須重新整理，此時會針對每個視覺效果重新傳送必要的查詢，並視需要更新視覺效果。
 * 將報表發佈至 **Power BI 服務**時，會在 Power BI 服務中再次產生資料集，就如同匯入一樣。 不過，該資料集「不會包含任何資料」。
@@ -102,9 +102,9 @@ Power BI 會連接到相當大量的各種資料來源，包括：
 | --- | --- |
 | 資料經常變更，而且需要幾近「即時」的報告 |含有已匯入資料的模型最多可以每小時重新整理一次。 因此，如果資料持續變更，而且報表必須顯示最新資料，則光是使用匯入並排程重新整理可能無法符合這些需求。 另請注意，您也可以將資料直接串流到 Power BI 中，不過在此情況中，支援的資料量有限。 <br/> <br/> 相對之下，使用 DirectQuery 表示開啟或重新整理報表或儀表板一律會顯示來源中的最新資料。 此外，可以更頻繁地更新儀表板磚 (最高每 15 分鐘一次)。 |
 | 資料很大 |如果資料很大，當然無法全部匯入。 相對之下，DirectQuery 由於是就地查詢，因此不需要傳送大量資料。 <br/> <br/> 不過，資料很大也可能表示對該基礎來源的查詢效能太慢 (如本文稍後的＜使用 DirectQuery 的影響＞一節所述)。 您不一定要匯入完整的詳細資料。 相反地，您可以在匯入期間預先彙總資料 (而 [查詢編輯器] 可輕易達成此目的)。 如有必要，您可以只匯入每個視覺效果所需的彙總資料。 因此，雖然 DirectQuery 是處理大型資料的最簡單方法，請一律記住匯入彙總資料可解決基礎來源太慢的問題。 |
-| 安全性規則是在基礎來源中定義 |匯入資料之後，Power BI 將會使用目前的使用者認證 (從 Power BI Desktop)，或使用設定排程重新整理時所定義的認證 (從 Power BI 服務) 連接到資料來源。 因此，在發佈及共用這類報表時務必謹慎，請只與可查看相同資料的使用者共用，或定義資料列層級安全性作為資料集的一部分。 <br/> <br/> 在理想情況下，DirectQuery 一律會查詢基礎來源，如此可確保套用該基礎來源中的所有安全性。 不過，Power BI 現在一律會使用與用於匯入相同的認證來連接基礎來源。 <br/> <br/> 因此，在 Power BI 允許將報表取用者的身分識別傳遞至基礎來源之前，DirectQuery 不會提供與資料來源安全性相關的任何優勢。 |
+| 安全性規則是在基礎來源中定義 |匯入資料之後，Power BI 將會使用目前的使用者認證 (從 Power BI Desktop)，或使用設定排程重新整理時所定義的認證 (從 Power BI 服務) 連線到資料來源。 因此，在發佈及共用這類報表時務必謹慎，請只與可查看相同資料的使用者共用，或定義資料列層級安全性作為資料集的一部分。 <br/> <br/> 在理想情況下，DirectQuery 一律會查詢基礎來源，如此可確保套用該基礎來源中的所有安全性。 不過，Power BI 現在一律會使用與用於匯入相同的認證來連接基礎來源。 <br/> <br/> 因此，在 Power BI 允許將報表取用者的身分識別傳遞至基礎來源之前，DirectQuery 不會提供與資料來源安全性相關的任何優勢。 |
 | 套用資料主權限制 |某些組織設有資料主權原則，換句話說資料不可以離開組織內部。 採用匯入的解決方案很明顯會有問題。 相對之下，使用 DirectQuery 可將資料保留在基礎來源中。 <br/> <br/> 不過請注意，即使是使用 DirectQuery，還是會有一些視覺效果層級的資料快取保留在 Power BI 服務中 (由於排程重新整理磚所致)。 |
-| 基礎資料來源是包含量值的 OLAP 來源 |如果基礎資料來源包含 *量值 *(例如 SAP HANA 或 SAP Business Warehouse)，則匯入資料會帶來其他問題。 這表示匯入的資料會位於由查詢所定義的特定彙總層級。 例如，依 Class、Year 和 City 測量 TotalSales。 如果建立要求在更高層級彙總資料的視覺效果 (例如 TotalSales by Year)，則會進一步彙總此彙總值。 這對加總量值 (例如 Sum、Min) 沒有問題，但對非加總量值 (例如 Average、DistinctCount) 則有問題。 <br/> <br/> 若要輕鬆地直接從來源取得正確的彙總資料 (特定視覺效果所需的資料)，則必須像是在 DirectQuery 中一樣針對每個視覺效果傳送查詢。 <br/> <br/> 連接到 SAP Business Warehouse (BW) 時，選擇 DirectQuery 可進行此量值處理。 [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md) 中將進一步說明 SAP BW 的支援。 <br/> <br/> 不過，透過 SAP HANA 的 DirectQuery 目前會將它視為等同於關聯式來源，因此會提供類似於匯入的行為。 [DirectQuery 和 SAP HANA](desktop-directquery-sap-hana.md) 中將進一步說明此主題。 |
+| 基礎資料來源是包含量值的 OLAP 來源 |如果基礎資料來源包含「量值」(例如 SAP HANA 或 SAP Business Warehouse)，則匯入資料會帶來其他問題。 這表示匯入的資料會位於由查詢所定義的特定彙總層級。 例如，依 Class、Year 和 City 測量 TotalSales。 如果建立要求在更高層級彙總資料的視覺效果 (例如 TotalSales by Year)，則會進一步彙總此彙總值。 這對加總量值 (例如 Sum、Min) 沒有問題，但對非加總量值 (例如 Average、DistinctCount) 則有問題。 <br/> <br/> 若要輕鬆地直接從來源取得正確的彙總資料 (特定視覺效果所需的資料)，則必須像是在 DirectQuery 中一樣針對每個視覺效果傳送查詢。 <br/> <br/> 連接到 SAP Business Warehouse (BW) 時，選擇 DirectQuery 可進行此量值處理。 [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md) 中將進一步說明 SAP BW 的支援。 <br/> <br/> 不過，透過 SAP HANA 的 DirectQuery 目前會將它視為等同於關聯式來源，因此會提供類似於匯入的行為。 [DirectQuery 和 SAP HANA](desktop-directquery-sap-hana.md) 中將進一步說明此主題。 |
 
 總而言之，根據 Power BI 中 DirectQuery 的目前功能，在下列情況下會有所幫助：
 
@@ -131,7 +131,7 @@ Power BI 會連接到相當大量的各種資料來源，包括：
 
 此外，從 [Get Data]\(取得資料) 對話方塊或 [查詢編輯器] 產生的查詢，將用於為擷取視覺效果必要資料所產生及傳送之查詢內的子選擇。 因此，在查詢編輯器中定義的查詢必須在此內容中有效。 特別是這表示您無法使用採用通用資料表運算式的查詢，也無法使用叫用預存程序的查詢。
 
-### <a name="modelling-limitations"></a>模型限制
+### <a name="modeling-limitations"></a>模型限制
 「模型」一詞在此內容中表示精簡及擴充未經處理資料的功能，屬於撰寫使用模型之報表的一部分。 範例包括：
 
 * 定義資料表之間的關聯性
@@ -141,12 +141,12 @@ Power BI 會連接到相當大量的各種資料來源，包括：
 * 定義資料行的格式、預設摘要和排序次序
 * 群組或叢集值
 
-使用 **DirectQuery** 時，仍可進行許多這類模型擴充，而且也有擴充未處理資料的原則，以便改善後續使用。 不過，使用 DirectQuery 時，某些模型功能無法使用或受到限制。 為避免效能問題，通常會套用這些限制。 下列項目符號清單中列出所有 DirectQuery 來源常見的一組限制。 還有其他限制可能會套用至個別來源，如本文結尾附近的*資料來源的特定詳細資料*中所述。
+使用 **DirectQuery** 時，仍可進行許多這類模型擴充，而且也有擴充未處理資料的原則，以便改善後續使用。 不過，使用 DirectQuery 時，某些模型功能會無法使用或受到限制。 為避免效能問題，通常會套用這些限制。 下列項目符號清單中列出所有 DirectQuery 來源常見的一組限制。 還有其他限制可能會套用至個別來源，如本文結尾附近的*資料來源的特定詳細資料*中所述。
 
 * **沒有內建日期階層：**匯入資料時，每個日期/日期時間資料行預設也會有內建日期階層可用。 例如，如果匯入包含 OrderDate 資料行的銷售訂單資料表，則在視覺效果中使用 OrderDate 時，可以選擇要使用的適當層級 (Year、Month、Day)。 使用 DirectQuery 模式時無法使用此內建日期階層。 不過請注意，如果基礎來源中有可用的 Date 資料表 (這在許多資料倉儲中很常見)，則可以如往常般使用 DAX 時間智慧函式。
 * **計算結果欄限制：**計算結果欄僅限於內部資料列，換句話說，它們只會參考相同資料表之其他資料行的值，而不會使用任何彙總函式。 此外，允許的 DAX 純量函式 (例如 LEFT()) 僅限於可直接發送至基礎來源的函式，因此會因來源的實際功能而有所不同。 撰寫計算結果欄的 DAX 時，不會在自動完成功能中列出不支援的函式，而且如果使用這些函式，將會導致錯誤。
 * **不支援父子式 DAX 函式：**在 DirectQuery 模型中，您無法使用通常用來處理父子式結構 (例如會計科目表或員工階層) 的 DAX PATH() 函式系列。
-* **量值限制 (預設情況下)：**預設會限制可用於量值的 DAX 函式和運算式。 同樣地，自動完成功能會限制列出的函式，而且如果使用無效的函式或運算式，則會發生錯誤。 這樣做只是為了確保量值預設會限制為本身不太可能造成任何效能問題的簡單量值。 進階使用者可以選擇略過此限制，方法是選取 [檔案] > [選項]，然後選取 [設定] > [選項] > [DirectQuery]，再選取 [允許在 DirectQuery 模式中量值不受限制] 選項。 選取該選項後，即可使用任何適用於量值的 DAX 運算式。 不過使用者也必須了解，在匯入資料時效能很好的某些運算式，在 DirectQuery 模式中可能會導致後端來源的查詢速度緩慢。
+* **量值的限制 (預設)：**根據預設，會限制可用於量值的 DAX 函式和運算式。 同樣地，自動完成功能會限制列出的函式，而且如果使用無效的函式或運算式，則會發生錯誤。 這樣做只是為了確保量值預設會限制為本身不太可能造成任何效能問題的簡單量值。 進階使用者可以選擇略過此限制，方法是依序選取 [檔案] > [選項及設定] > [選項]、[DirectQuery]及 [允許在 DirectQuery 模式中量值不受限制] 選項。 選取該選項後，即可使用任何適用於量值的 DAX 運算式。 不過使用者也必須了解，在匯入資料時效能很好的某些運算式，在 DirectQuery 模式中可能會導致後端來源的查詢速度緩慢。
   
   * 例如，根據預設：
     
@@ -186,7 +186,7 @@ DirectQuery 模型支援幾乎所有報告功能。 因此，只要基礎來源�
 
 報表上的每個使用者互動都可能會導致重新整理視覺效果。 例如，在交叉分析篩選器上選取不同的值將需要傳送一組新的查詢，以重新整理所有受影響的視覺效果。 相同規則也適用於在視覺效果上按一下以交叉醒目提示其他視覺效果，或是變更篩選。  
 
-當然同樣地，編輯新的報表需要針對產生最終所需視覺效果之路徑上的每個步驟傳送查詢。
+當然同樣地，編輯新的報表將會需要針對路徑上的每個步驟傳送查詢，以產生最終所需視覺效果。
 
 這會產生一些結果快取，因此如果最近取得完全相同的結果，則會即時重新整理視覺效果。 如果將任何資料列層級安全性定義為報表的一部分，則不會在使用者之間共用這類快取。
 
@@ -274,7 +274,7 @@ DirectQuery 模型支援幾乎所有報告功能。 因此，只要基礎來源�
 
    ![](media/desktop-directquery-about/directquery-about_03b.png)
 
-    選取 [減少查詢] 上的核取方塊可讓您停用整份報告的交叉醒目提示。 您也可以顯示交叉分析篩選器和/或篩選器選取項目的 [套用] 按鈕，讓您可以選取多個交叉分析篩選器和篩選器選取項目之後再套用它們，這樣就不會傳送查詢，直到您選取交叉分析篩選器上的 [套用] 按鈕才會傳送。 然後您的選取範圍會用來篩選資料。
+    選取 [減少查詢] 上的核取方塊可讓您停用整份報告的交叉醒目提示。 您也可以顯示交叉分析篩選器和/或篩選器選取項目的 [套用] 按鈕，讓您可以選取多個交叉分析篩選器和篩選器選取項目之後再套用它們，這樣就不會傳送查詢，直到您選取交叉分析篩選器上的 [套用] 按鈕才會傳送。 您的選取範圍即可用來篩選資料。
 
     當您在 **Power BI Desktop** 中和報告互動時，以及當您的使用者在 **Power BI service** 中取用報告時，這些選項將會套用報告。
 
@@ -342,7 +342,7 @@ DirectQuery 模型支援幾乎所有報告功能。 因此，只要基礎來源�
 
 巡覽至該資料夾的父資料夾會顯示含有 *AnalysisServicesWorkspaces* 的資料夾，其中每個開啟的 **Power BI Desktop** 執行個體會包含一個工作區子資料夾。 這些子資料夾會在名稱後面加上整數來命名，例如 *AnalysisServicesWorkspace2058279583*。
 
-該資料夾內會有 *\Data* 子資料夾，其中包含目前 Power BI 工作階段的追蹤檔案 FlightRecorderCurrent.trc。 當相關聯的 Power BI Desktop 工作階段結束時，即會刪除對應的工作區資料夾。
+該資料夾內會有 *\\Data* 子資料夾，其中包含目前 Power BI 工作階段的追蹤檔案 FlightRecorderCurrent.trc。 當相關聯的 Power BI Desktop 工作階段結束時，即會刪除對應的工作區資料夾。
 
 您可以使用 **SQL Server Profiler** 工具來讀取追蹤檔案，該工具是當作 **SQL Server Management Studio** 的一部分免費下載取得。 您可以從[這個位置](https://msdn.microsoft.com/library/mt238290.aspx)取得該工具。
 
@@ -374,7 +374,7 @@ DirectQuery 模型支援幾乎所有報告功能。 因此，只要基礎來源�
 * **持續時間：**執行 DAX 或 SQL 查詢所需的持續時間 (毫秒)。
 * **錯誤：**指出是否發生錯誤 (在此情況下也會以紅色顯示事件)。
 
-請注意，在上圖中，已縮小一些較不相關的資料行，以便更清楚地看到相關的資料行。
+請注意，在上圖中，一些較不相關的資料行已縮小，好讓相關資料行較容易看見。
 
 擷取追蹤以協助診斷潛在效能問題的建議方法如下：
 

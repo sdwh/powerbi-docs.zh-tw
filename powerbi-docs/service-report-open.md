@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI 中，以 [閱讀檢視] 或 [編輯檢視] 開啟報表"
-description: "以閱讀檢視或編輯檢視來開啟 Power BI 報表"
+title: 在 Power BI 中，以 [閱讀檢視] 或 [編輯檢視] 開啟報表
+description: 以閱讀檢視或編輯檢視來開啟 Power BI 報表
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

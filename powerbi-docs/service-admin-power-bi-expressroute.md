@@ -1,15 +1,15 @@
 ---
-title: "Power BI 和 ExpressRoute"
-description: "Power BI 和 ExpressRoute"
+title: Power BI 和 ExpressRoute
+description: Power BI 和 ExpressRoute
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 30bc1c58d02634748acfc2dce4fbfbec51fa6cba
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: faf438e9f76a7a929f7369dc91ef4edb4fbef42d
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI 和 ExpressRoute
 透過 **Power BI** 和 **ExpressRoute**，您可以建立從組織到 Power BI (或使用 ISP 設備代管) 的私人網路連線，藉由略過網際網路，更妥善地保護您的 Power BI 機密資料和連線。
@@ -49,7 +49,7 @@ Power BI 使用 ExpressRoute 時的兩種整體例外狀況為：
 * 從**內容傳遞網路 (CDN)** 和網站下載的靜態檔案
 * 透過公用網際網路傳送的**遙測**資料
 
-Power BI 使用多個**內容傳遞網路 (CDN)** 或網站，以透過公用網際網路，根據地區設定有效率地將必要靜態內容和檔案散發給使用者。 這些靜態檔案包括產品下載 (例如 **Power BI Desktop**、**內部部署資料閘道** 或來自不同獨立服務提供者的 **Power BI 內容套件**)、用來啟動及建立任何 Power BI 後續連線的瀏覽器設定檔，以及初始的安全 Power BI 登入頁面 (實際認證只會透過 ExpressRoute 傳送)。   
+Power BI 使用多個**內容傳遞網路 (CDN)** 或網站，以透過公用網際網路，根據地區設定有效率地將必要靜態內容和檔案散發給使用者。 這些靜態檔案包括產品下載 (例如 **Power BI Desktop**、**內部部署資料閘道** 或來自不同獨立服務提供者的 **Power BI 內容套件**)、用來起始及建立任何 Power BI 後續連線的瀏覽器設定檔，以及初始的安全 Power BI 登入頁面 (實際認證只會透過 ExpressRoute 傳送)。   
 
 特定**遙測資料**也會透過公用網際網路和 ExpressRoute 傳送。 這些遙測資料包括使用量統計資料和類似的資料，會傳輸到用來監視使用量和活動的服務。
 

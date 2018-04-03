@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop 中的採用參考完整性設定"
-description: "透過 DirectQuery，了解如何讓 Power BI Desktop 採用參考完整性"
+title: Power BI Desktop 中的採用參考完整性設定
+description: 透過 DirectQuery，了解如何讓 Power BI Desktop 採用參考完整性
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0d92fc16a6bde09f3783c2035a4a6b5c97e7b933
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9494b7774c8ba7d91398b14fb6ae2f21649050fa
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Power BI Desktop 中的採用參考完整性設定
 使用 **DirectQuery** 連接到資料來源時，您可以使用 [採用參考完整性] 選項來允許對資料來源執行更有效率的查詢。 這項功能對於基礎資料有幾項需求，而且只有在使用 **DirectQuery** 時才能存取。
@@ -45,10 +45,10 @@ ms.lasthandoff: 02/24/2018
 1. 下圖顯示 **Orders** 資料表和 **Products** 資料表，請注意 **Orders[ProductID]** 和 **Products[ProductID]** 之間存在參考完整性。 **Orders** 資料表中的 **[ProductID]** 資料行永遠不可為 *Null* ，而且每個值也都會出現在 **Products** 資料表中。 因此，您應該設定 [採用參考完整性]，以取得更有效率的查詢 (使用此設定不會變更以視覺化方式顯示的值)。
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. 在下圖中，請注意 **Orders[DepotID]** 和 **Depots[DepotID]** 之間不存在參考完整性，因為某些 *Orders* 的 **DepotID** 為 *Null* 。 因此，您「不」應該設定 [採用參考完整性]。
+2. 在下圖中，請注意 **Orders[DepotID]** 和 **Depots[DepotID]** 之間不存在參考完整性，因為某些 *Orders* 的 **DepotID** 為 *Null*。 因此，您「不」應該設定 [採用參考完整性]。
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
-3. 最後，下列資料表中的 **Orders[CustomerID]** 和 **Customers[CustID]** 之間沒有參考完整性；**CustomerID** 包含 *Customers* 資料表中不存在的某些值 (在本例中為 *CustX*)。 因此，您「不」應該設定 [採用參考完整性]。
+3. 最後，下列資料表中的 **Orders[CustomerID]** 和 **Customers[CustID]** 之間不存在參考完整性；**CustomerID** 包含 *Customers* 資料表中不存在的某些值 (在本例中為 *CustX*)。 因此，您「不」應該設定 [採用參考完整性]。
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 

@@ -1,15 +1,15 @@
 ---
-title: "停用隱私權設定"
-description: "如何在個人閘道器中啟用「快速合併」，以停用重新整理的隱私權設定。"
+title: 停用隱私權設定
+description: 如何在個人閘道器中啟用「快速合併」，以停用重新整理的隱私權設定。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,15 +18,15 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 54d5f5ec2db890de0fbcef5ef0633548b90a6079
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b8ec52f3c8bcb4051bd0ac9064786ddbfd15d9fe
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>停用在 Power BI 閘道器的隱私權設定─個人
 > [!NOTE]
-> Power BI 有一個新版本的 Personal Gateway，稱為**內部部署資料閘道 (個人模式)**。 下列文章描述舊版的個人閘道，稱為 **Power BI Gateway - Personal**，將於 2017 年 7 月 31 日之後淘汰並停止運作。 如需新版個人閘道的相關資訊，包括如何安裝新版本，請參閱[**內部部署資料閘道 (個人模式)** 文章](service-gateway-personal-mode.md)。 新版本的個人閘道中也有快速合併功能，該文章中也會描述此功能。
+> Power BI 有一個新版本的個人閘道，稱為**內部部署資料閘道 (個人模式)**。 下列文章描述舊版的個人閘道，稱為 **Power BI Gateway - Personal**，將於 2017 年 7 月 31 日之後淘汰並停止運作。 如需新版個人閘道的相關資訊，包括如何安裝新版本，請參閱[**內部部署資料閘道 (個人模式)** 文章](service-gateway-personal-mode.md)。 新版本的個人閘道中也有快速合併功能，該文章中也會描述此功能。
 > 
 > 
 

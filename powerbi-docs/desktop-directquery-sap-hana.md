@@ -1,15 +1,15 @@
 ---
-title: "Power BI 中的 DirectQuery for SAP HANA"
-description: "搭配使用 DirectQuery 與 SAP HANA 時的考量"
+title: Power BI 中的 DirectQuery for SAP HANA
+description: 搭配使用 DirectQuery 與 SAP HANA 時的考量
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b1b56ee467dfdf6dc8c63557a9a9f4ab86e965e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 966399c2ad11ac6a04400e3c009927deb6d35b94
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery 和 SAP HANA
 您可以使用 **DirectQuery** 來直接連線到 **SAP HANA** 資料來源。 連線到 SAP HANA 時有兩個選項：
@@ -43,7 +43,7 @@ ms.lasthandoff: 03/08/2018
 
 ## <a name="treat-sap-hana-as-a-multi-dimensional-source-default"></a>將 SAP HANA 視為多維度來源 (預設值)
 
-所有新的 SAP HANA 連線預設都會使用這個連線方法，將 SAP HANA 視為多維度來源。 若要將連至 SAP HANA 的連線視為關聯來源，您必須選取 [檔案] > [選項及設定]，然後選取 [Direct Query] > [Treat SAP HANA as a relational source] (將 SAP HANA 視為關聯來源) 底下的方塊。 由於此功能目前為**預覽版**，因此您「無法」將使用多維度方法建立的報表發佈至 Power BI 服務，如果這麼做，將會導致在 Power BI 服務內開啟報表時發生錯誤。  
+所有新的 SAP HANA 連線預設都會使用這個連線方法，將 SAP HANA 視為多維度來源。 若要將連至 SAP HANA 的連線視為關聯來源，您必須選取 [檔案] > [選項及設定] > [選項]，然後選取 [Direct Query] > [將 SAP HANA 視為關聯來源] 底下的方塊。 由於此功能目前為**預覽版**，因此您「無法」將使用多維度方法建立的報表發佈至 Power BI 服務，如果這麼做，將會導致在 Power BI 服務內開啟報表時發生錯誤。  
 
 以多維度來源形式連線到 SAP HANA 時，適用下列情況：
 
@@ -63,11 +63,11 @@ ms.lasthandoff: 03/08/2018
 
 * 在 SAP HANA 中，可以將一個屬性定義為使用另一個屬性作為其標籤。 例如 **Product** (值為 1、2、3 等) 可以使用 **ProductName** (值為 Bike、Shirt、Gloves 等) 作為其標籤。 在此案例中，單一欄位 **Product** 會顯示在欄位清單中，其值會是 Bike、Shirt、Gloves 等標籤，但其排序及唯一性將取決於索引鍵值 1、2、3。 此外，也會建立一個隱藏欄 **Product.Key**，可讓您視需要存取基礎索引鍵值。 
 
-在連線時，會顯示基礎 SAP HANA 檢視中定義的所有變數，並可輸入必要的值。 您可以在後續變更這些值，方法是從功能區中選取 [編輯查詢]，然後從所顯示的下拉式功能表中選取 [編輯變數]。 
+在連線時，將會顯示基礎 SAP HANA 檢視中定義的所有變數，並可輸入必要的值。 您可以在後續變更這些值，方法是從功能區中選取 [編輯查詢]，然後從所顯示的下拉式功能表中選取 [管理參數]。 
 
 使用 DirectQuery 時，允許的模型化作業比一般案例有更多限制，因為需要確保能夠一律從 SAP HANA 取得正確的彙總資料。 不過，仍然可以進行許多新增和變更，包括定義量值、將欄位重新命名和隱藏，以及定義顯示格式。 在重新整理時會保留所有這類變更，並且會套用對 SAP HANA 檢視所做的所有非衝突變更。 
 
-### <a name="additional-modelling-restrictions"></a>其他模型限制
+### <a name="additional-modeling-restrictions"></a>其他模型限制
 
 使用 DirectQuery 來連線到 SAP HANA 時，其他主要的模型化限制如下： 
 
@@ -80,7 +80,7 @@ ms.lasthandoff: 03/08/2018
 
 ### <a name="additional-visualization-restrictions"></a>其他視覺效果限制
 
-使用 DirectQuery 來連線到 SAP HANA (視為多維度來源) 時，在視覺效果方面有一些限制： 
+使用 DirectQuery 來連線到 SAP HANA (視為多維度來源) 時，在視覺效果方面有限制： 
 * **沒有資料行彙總：**您無法變更視覺效果的資料行彙總，它一律為「不摘要」。
 
 ## <a name="treat-sap-hana-as-a-relational-source"></a>將 SAP HANA 視為關聯來源 
@@ -138,7 +138,7 @@ ms.lasthandoff: 03/08/2018
 * **其他階層中繼資料** - 在 Power BI 中會顯示階層的基本結構，不過有些階層中繼資料 (例如控制不完全階層的行為) 將不會有任何作用。
 同樣地，這也是 SQL 介面所加諸的限制所造成。
 * **使用 SSL 的連線** - 您無法連線到已設定為使用 SSL 的 SAP HANA 執行個體。
-對屬性檢視的支援 - Power BI 可以連線到「分析」和「計算」檢視，但無法直接連線到「屬性」檢視。
+* **對屬性檢視的支援** - Power BI 可以連線到 [分析] 和 [計算] 檢視，但無法直接連線到 [屬性] 檢視。
 * **對目錄物件的支援** - Power BI 無法連線到「目錄」物件。
 * **在發佈後對變數進行變更** - 在發佈報表之後，您便無法直接在 Power BI 服務中變更任何 SAP HANA 變數的值。 
  

@@ -1,15 +1,15 @@
 ---
-title: "不支援重新整理的資料來源疑難排解"
-description: "不支援重新整理的資料來源疑難排解"
+title: 不支援重新整理的資料來源疑難排解
+description: 不支援重新整理的資料來源疑難排解
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 28ec83a12de986d7dab0a2cceb622b62ea16da1b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d09d75350cbffbab78c1a44252f18d2216c2505f
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>不支援重新整理的資料來源疑難排解
 當您嘗試設定資料集的排程重新整理時，可能會看到錯誤。

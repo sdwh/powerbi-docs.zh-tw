@@ -1,15 +1,15 @@
 ---
-title: "管理 Power BI Premium 和 Power BI Embedded 內的容量"
-description: "了解如何管理 Power BI Premium，以及讓整個組織存取內容。"
+title: 管理 Power BI Premium 和 Power BI Embedded 內的容量
+description: 了解如何管理 Power BI Premium，以及讓整個組織存取內容。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: a6040871652484ad5de70a0d73e14a13742fe56a
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 556f91464e8a08b5cb149648be2b097578964af9
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>管理 Power BI Premium 和 Power BI Embedded 內的容量
 了解如何管理提供內容專用資源的 Power BI Premium 和 Power BI Embedded 容量。
@@ -47,6 +47,10 @@ ms.lasthandoff: 03/15/2018
 * **Power BI Embedded：** [在 Azure 入口網站中建立 Power BI Embedded 容量](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
 
 當您購買 Power BI Premium SKU 時，您的租用戶會收到供執行中容量使用的對應 V 核心數目。 例如，購買 Power BI Premium P3 SKU 可提供租用戶 32 個 V 核心。
+
+> [!NOTE]
+> 訂閱結束後，您會擁有 30 天的完整存取權，但在 30 天過後，您的內容會還原至共用的容量。 一般共用授權不支援大於 1 GB 的模型。
+>
 
 ## <a name="capacity-admins"></a>容量管理員
 > [!NOTE]

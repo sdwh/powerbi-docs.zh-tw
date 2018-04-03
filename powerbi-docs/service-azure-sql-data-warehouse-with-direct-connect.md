@@ -1,28 +1,28 @@
 ---
-title: "具有 DirectQuery 的 Azure SQL 資料倉儲"
-description: "具有 DirectQuery 的 Azure SQL 資料倉儲"
+title: 具有 DirectQuery 的 Azure SQL 資料倉儲
+description: 具有 DirectQuery 的 Azure SQL 資料倉儲
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 6d7cb2161702b844866af66896dbadb35ad801ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 87b49833b5c0d1d634d440e947659a12ac87b66c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>具有 DirectQuery 的 Azure SQL 資料倉儲
 具有 DirectQuery 的 Azure SQL 資料倉儲可讓您根據 Azure SQL 資料倉儲中已有的資料和度量建立動態報表。 藉由 DirectQuery，當您瀏覽資料時，會即時將查詢傳回至您的 Azure SQL 資料倉儲。 這項功能搭配 SQL 資料倉儲的調整功能，可讓使用者依據數 TB 的資料，幾分鐘內就能建立動態報表。 此外，[在 Power BI 中開啟]  按鈕的引進可讓使用者將 Power BI 直接連接到其 SQL 資料倉儲，而不需要手動指定相關資訊。
@@ -84,9 +84,13 @@ SQL 資料倉儲也會列在 Power BI 的 [取得資料] 頁面上。
 
 ![](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
+> [!NOTE]
+> 如果您的 Power BI 租用戶與 Azure SQL 資料倉儲位於相同區域中，將不會有輸出費用。 您可以使用[這些指示](https://docs.microsoft.com/en-us/power-bi/service-admin-where-is-my-tenant-located)來找到您的 Power BI 租用戶所在位置。
+>
+
 ## <a name="next-steps"></a>後續步驟
 [開始使用 Power BI](service-get-started.md)  
 [取得 Power BI 的資料](service-get-data.md)  
 [Azure SQL 資料倉儲](https://azure.microsoft.com/en-us/documentation/services/sql-data-warehouse/)  
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 
+有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

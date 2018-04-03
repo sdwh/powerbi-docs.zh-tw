@@ -1,15 +1,15 @@
 ---
-title: "Project Online：透過 Power BI Desktop 連接到資料"
-description: "Project Online：透過 Power BI Desktop 連接到資料"
+title: Project Online：透過 Power BI Desktop 連接到資料
+description: Project Online：透過 Power BI Desktop 連接到資料
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f5fa21845167d2d9d419f163429fd1f025c1749
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0577c6e3ce89e51c767273b634f6d3d88875eead
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online：透過 Power BI Desktop 連接到資料
 您可以透過 Power BI Desktop 連接到 Project Online 中的資料。
@@ -38,10 +38,12 @@ ms.lasthandoff: 02/24/2018
    
    如果您的 Project Web App 網站位址類似 https://\<租用戶名稱\>.sharepoint.com/sites/pwa，您所輸入的 OData 摘要位址會是 https://\<租用戶名稱\>.sharepoint.com/sites/pwa/\_api/Projectdata。
    
-   在此範例中，我們使用的是 https://contoso.sharepoint.com/sites/pwa/default.aspx
+   在本例中，我們使用 https://contoso.sharepoint.com/sites/pwa/default.aspx
 5. Power BI Desktop 會提示您驗證 Office 365 帳戶。 請選取組織帳戶，然後輸入您的認證。
    
    ![](media/desktop-project-online-connect-to-data/image.png)
+
+請注意，您用來連線到 OData 摘要的帳戶，至少必須有 Project Web App 網站的公事包檢視者存取權。 
 
 從這裡，您可以選擇要連接的資料表並建立查詢。  要了解如何開始進行嗎？  下列部落格文章示範如何從 Project Online 資料建立燃盡圖。  該部落格文章使用 Power Query 連接到 Project Online，不過也適用於 Power BI Desktop。
 
