@@ -1,15 +1,15 @@
 ---
-title: "使用備用電子郵件地址"
-description: "使用備用電子郵件地址"
+title: 使用備用電子郵件地址
+description: 使用備用電子郵件地址
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -55,7 +55,7 @@ ms.lasthandoff: 03/12/2018
 
 Power BI 會會根據下列準則選取要使用的電子郵件：
 1.  如果 AAD 租用戶的使用者物件中存在 mail 屬性，則 Power BI 會在電子郵件地址中使用該 mail 屬性
-2.  如果 UPN 電子郵件「不是」**\*.onmicrosoft.com** 網域的電子郵件地址 ("@" 符號後面的資訊)，則 Power BI 會在電子郵件地址中使用該 mail 屬性
+2.  如果 UPN 電子郵件「不是」**\*.onmicrosoft.com** 網域的電子郵件地址 ("\@" 符號後面的資訊)，則 Power BI 會在電子郵件地址中使用該 mail 屬性
 3.  如果 AAD 租用戶的使用者物件中存在 “other” 電子郵件陣列屬性，則會使用該清單中的第一個電子郵件 (因為這個屬性中會有一份電子郵件清單)
 4. 如果上述條件都不存在，則會使用 UPN 位址
 
