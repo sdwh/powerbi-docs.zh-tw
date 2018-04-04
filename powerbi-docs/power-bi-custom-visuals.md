@@ -1,15 +1,15 @@
 ---
-title: "Power BI 中的自訂視覺效果"
-description: "Power BI 中的自訂視覺效果"
+title: Power BI 中的自訂視覺效果
+description: Power BI 中的自訂視覺效果
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 66b4af61ebc46afa65403f9e5d5fa47289c0a07b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6e5459492879cccbd2f18c572140eabfd0ab0f1c
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI 的自訂視覺效果
 建立或編輯 Power BI 報表時，有各式各樣的視覺效果供您使用。 這些視覺效果會顯示在 [視覺效果] 窗格。 當您下載 Power BI Desktop 或開啟 Power BI 服務 (app.powerbi.com) 時，這組視覺效果已經「內建」。
@@ -47,7 +47,7 @@ ms.lasthandoff: 02/24/2018
 > 
 > 
 
-## <a name="organization-visuals-preview"></a>組織視覺效果 (預覽)
+## <a name="organization-visuals"></a>組織視覺效果
 
 Power BI 系統管理員可以將自訂視覺效果部署到組織中，讓報表作者可以輕鬆地探索與使用系統管理員核准在組織內部使用的自訂視覺效果。 如此可讓系統管理員得以選擇要在組織中部署的特定自訂視覺效果，以及輕鬆管理 (例如，更新版本、停用/啟用) 視覺效果的方法。 報表作者可以輕易地探索組織專屬的視覺效果，而且能夠流暢地支援更新這些視覺效果。
 

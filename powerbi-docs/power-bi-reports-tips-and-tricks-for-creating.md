@@ -1,15 +1,15 @@
 ---
-title: "建立令人驚豔報表的祕訣"
-description: "在 Power BI 服務中建立報表的秘訣和訣竅"
+title: 建立令人驚豔報表的祕訣
+description: 在 Power BI 服務中建立報表的秘訣和訣竅
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 4ad78f3c776fcb5aa44332e23fdf5a14531b2bdf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d19cc60ea23f87e14e78db9e896a4b17c19aeb66
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tips-for-creating-stunning-reports"></a>建立令人驚豔報表的祕訣
 在 Power BI 服務與 Power BI Desktop 中建立和使用報表非常類似，因此大部分的這些連結可適用於任一者。
@@ -45,7 +45,7 @@ ms.lasthandoff: 02/24/2018
 * [閱讀部落格](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
 * [觀賞網路研討會](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
 
-## <a name="next-steps"></a>後續步驟
+## <a name="next-steps"></a>後續步驟 
 [Power BI - 基本概念](service-basic-concepts.md)
 
 [Power BI 中的報表](service-reports.md)

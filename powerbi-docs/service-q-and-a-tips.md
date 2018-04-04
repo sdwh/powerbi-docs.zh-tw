@@ -1,15 +1,15 @@
 ---
-title: "透過 Power BI 中的問與答提出問題的秘訣和訣竅"
-description: "透過 Power BI 中的問與答提出問題的秘訣和訣竅"
+title: 透過 Power BI 中的問與答提出問題的秘訣和訣竅
+description: 透過 Power BI 中的問與答提出問題的秘訣和訣竅
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bdf1f161e0a95bda5b37d9c43a3bdcc6bde1066a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 28ebd938b1121e1d2d453a9c9e72592b1c814742
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 問與答中詢問問題的秘訣
 ## <a name="words-and-terminology-that-qa-recognizes"></a>問與答可辨識的字組與專有名詞
@@ -94,9 +94,6 @@ ms.lasthandoff: 02/24/2018
 * 將游標移回 [問題] 方塊時，從基礎資料集自動建議取代的字詞。
 * 依據基礎資料集中的資料，再次陳述問題。 這有助於確保問與答能了解您的問題，因為問與答會將您使用的字組，以基礎資料集的同義字取代。
 * 不了解的字組會變暗。
-
-## <a name="combine-results-from-more-than-one-dataset"></a>合併來自多個資料集的結果
-Power BI 最強大的功能之一是能夠合併來自不同資料集的資料。  因此不要將您的問題侷限在單一資料集，您可以詢問從多個資料集擷取資料的問題。 例如，如果我的儀表板包含來自零售分析範例的磚及州人口資料集，我可以要求*依州人口以橫條圖遞減顯示商店計數*.
 
 ## <a name="dont-stop-now"></a>不立即停止
 問與答顯示您的結果之後，持續保存交談內容！ 使用視覺效果的互動功能與問答集，發掘更多深入資訊。

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/21/2018
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 3777c58bae36d6115b51b64e0422529fe390a13c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 報表伺服器中的 Power BI 報表資料來源
 Power BI 報表可以連線到不同的資料來源。 根據使用資料的方式而定，可以使用不同的資料來源。 可以匯入資料，或者使用 DirectQuery 或與 SQL Server Analysis Services 的即時連線，直接查詢資料。
@@ -84,7 +84,7 @@ Power BI 報表可以連線到不同的資料來源。 根據使用資料的方�
 | Web |是 |是 |否 |
 | XML |是 |是 |否 |
 | appFigures (Beta) |是 |否 |否 |
-| Azure Analysis Services 資料庫 (搶鮮版 (Beta)) |是 |否 |否 |
+| Azure Analysis Services 資料庫 |是 |否 |是 |
 | Azure Cosmos DB (搶鮮版 (Beta)) |是 |否 |否 |
 | Azure HDInsight Spark (Beta) |是 |否 |否 |
 | Common Data Service (搶鮮版 (Beta)) |是 |否 |否 |
