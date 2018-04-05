@@ -354,7 +354,7 @@
           href: power-bi-reports-filters-and-highlighting.md
         - name: 如何使用報表篩選
           href: power-bi-how-to-report-filter.md
-        - name: 使用 Excel 分析
+        - name: 在 Excel 中分析
           href: service-analyze-in-excel.md
         - name: 變更報表中的視覺效果互動方式
           href: service-reports-visual-interactions.md
@@ -728,7 +728,7 @@
           href: desktop-common-query-tasks.md
         - name: 在 Power BI Desktop (預覽) 中使用圖形地圖
           href: desktop-shape-map.md
-        - name: 合併二進位檔
+        - name: 合併檔案 (二進位檔)
           href: desktop-combine-binaries.md
     - name: 製作資料模型
       items:
