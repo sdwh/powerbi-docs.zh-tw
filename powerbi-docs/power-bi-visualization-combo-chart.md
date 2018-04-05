@@ -1,16 +1,16 @@
 ---
-title: "教學課程 - 組合圖"
-description: "這份關於組合圖的教學課程，說明組合圖使用時機，以及如何在 Power BI 服務與 Desktop 中建置。"
+title: 教學課程 - 組合圖
+description: 這份關於組合圖的教學課程，說明組合圖使用時機，以及如何在 Power BI 服務與 Desktop 中建置。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: lnv66cTZ5ho
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a52a50b647e743bfd29eecd970c1f381098bd344
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: b5e89a9a1f2e88ed793dff6457b58fd9ac609ef5
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="combo-chart-in-power--tutorial"></a>Power 中的組合圖 (教學課程)
 在 Power BI 中，組合圖是結合折線圖和直條圖的單一視覺效果。 將 2 種圖結合成一個，讓您可以更快速地比較資料。
@@ -46,9 +46,9 @@ ms.lasthandoff: 03/12/2018
 ## <a name="create-a-basic-single-axis-combo-chart"></a>建立單一軸的基本組合圖
 觀看 Will 如何使用銷售和行銷範例建立組合圖。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>  
 
-<a name="create"></a> 若要建立自己的組合圖，請登入 Power BI 服務並選取 [取得資料] \> [範例]\> [零售分析範例] > [連線]> [移至儀表板]****。
+<a name="create"></a> 若要建立自己的組合圖，請登入 Power BI 服務並選取 [取得資料] \> [範例]\> [零售分析範例] > [連線]> [移至儀表板]。
 
 1. 從 [零售分析範例] 儀表板，選取 [所有門市]  圖格，開啟 [零售分析範例] 報表。
 2. 選取 [編輯報表]  ，在編輯檢視中開啟報表。
