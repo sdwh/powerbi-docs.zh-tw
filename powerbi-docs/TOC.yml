@@ -992,6 +992,8 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: 讓自訂視覺效果獲得認證
           href: power-bi-custom-visuals-certified.md
+        - name: 在 AppSource 上發佈自訂視覺效果
+          href: developer/office-store.md
     - name: 將資料推送至儀表板
       items:
         - name: 將資料推送至儀表板
