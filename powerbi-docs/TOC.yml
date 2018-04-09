@@ -770,6 +770,8 @@
           href: desktop-insights.md
         - name: Power BI Desktop 中的交叉分析篩選器
           href: desktop-slicers.md
+        - name: 使用 Power BI 中的按鈕
+          href: desktop-buttons.md
         - name: Power BI 中的書籤
           href: desktop-bookmarks.md
         - name: 建立自訂報表工具提示 (預覽)
