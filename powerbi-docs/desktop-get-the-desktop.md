@@ -1,13 +1,13 @@
 ---
-title: "取得 Power BI Desktop"
-description: "下載及安裝 Power BI Desktop"
+title: 取得 Power BI Desktop
+description: 下載及安裝 Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 08/15/2017
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0a0ffc46feadc5868b8e7a4bd273b7d8acc8bfb5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a03e859e769f880b0c627080a864b41e96fc138b
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="get-power-bi-desktop"></a>取得 Power BI Desktop
 **Power BI Desktop** 可讓您建立進階查詢、模型，以及將資料視覺化的報表。 透過 **Power BI Desktop**，您可以建立資料模型、建立報表，並發行到 Power BI 服務以分享您的工作。  **Power BI Desktop** 可免費下載。
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/24/2018
 有兩種方式可以取得 **Power BI Desktop**，下列各節會一一描述：
 
 * 直接**下載** (將 MSI 套件下載並安裝在電腦上)
-* 從 **Windows 市集**為應用程式安裝
+* 從 **Microsoft Store** 作為應用程式安裝
 
 任一方法皆可為您的電腦取得最新版的 **Power BI Desktop**，但有些許差異值得注意，下列各節會詳述。
 
@@ -54,31 +54,32 @@ ms.lasthandoff: 02/24/2018
 ![](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
-> 不支援將下載的 (MSI) 版本和 **Power BI Desktop** 的 **Windows 市集**版本安裝在同一部電腦上 (有時也稱為「並存」安裝)。
+> 不支援將下載的 (MSI) 版本和 **Power BI Desktop** 的 **Microsoft Store** 版本安裝在同一部電腦上 (有時也稱為「並存」安裝)。
 > 
 > 
 
-## <a name="install-as-an-app-from-the-windows-store"></a>從 Windows 市集作為應用程式安裝
-您也可以使用下列連結從 Windows 市集取得 **Power BI Desktop**：
+## <a name="install-as-an-app-from-the-microsoft-store"></a>從 Microsoft Store 作為應用程式安裝
+您也可以使用下列連結，從 Microsoft Store 取得 **Power BI Desktop**：
 
-* [從 **Windows 市集**](http://aka.ms/pbidesktopstore)安裝 **Power BI Desktop**
+* [從 **Microsoft Store** 安裝 **Power BI Desktop**](http://aka.ms/pbidesktopstore)
 
 ![](media/desktop-get-the-desktop/getpbid_04.png)
 
-從 Windows 市集取得 **Power BI Desktop** 有幾個優點：
+從 Microsoft Store 取得 **Power BI Desktop** 有幾個優點：
 
 * **自動更新** - 只要有最新版本，Windows 就會自動在背景下載，所以您的版本一律是最新狀態。
-* **較小的下載** - **Windows 市集**可確保僅將每個更新中有變更的元件下載到您的電腦，這樣每個更新的下載項目就會比較小。
-* **無須管理員權限** - 直接下載和安裝 MSI 時，您必須是系統管理員才能順利完成安裝。 當您從 Windows 市集取得 **Power BI Desktop** 時，「不」需要管理員權限。
-* **啟用IT 推出** - **Windows 市集**版本更容易部署或*推出*供您組織中的所有人使用，而且可以透過 **Microsoft 商務用市集**提供 **Power BI Desktop**。
-* **語言偵測** - **Windows 市集**版本包含所有支援的語言，並會在每次啟動時，檢查電腦上使用的語言。 這也會影響 **Power BI Desktop** 中所建模型的當地語系化；例如，內建日期階層會符合建立 .pbix 檔案時 **Power BI Desktop** 使用的語言。
+* **較小的下載**：**Microsoft Store** 可確保僅將每個更新中有變更的元件下載到您的電腦，這樣每個更新的下載項目就會比較小。
+* **無須管理員權限** - 直接下載和安裝 MSI 時，您必須是系統管理員才能順利完成安裝。 當您從 Microsoft Store 取得 **Power BI Desktop** 時，不需要管理員權限。
+* **啟用 IT 推出**：**Microsoft Store** 版本更容易部署或*推出*供您組織中的所有人使用，而且可以透過**商務用 Microsoft Store** 提供 **Power BI Desktop**。
+* **語言偵測**：**Microsoft Store** 版本包含所有支援的語言，並會在每次啟動時，檢查電腦上使用的語言。 這也會影響 **Power BI Desktop** 中所建模型的當地語系化；例如，內建日期階層會符合建立 .pbix 檔案時 **Power BI Desktop** 使用的語言。
 
-從 Windows 市集安裝 **Power BI Desktop** 有幾項考量與限制，包括下列：
+從 Microsoft Store 安裝 **Power BI Desktop** 有幾項考量與限制，包括下列各項：
 
 * 如果使用 SAP 連接器，您可能需要將 SAP 驅動程式檔案移到 *Windows\System32* 資料夾。
+* 從 Microsoft Store 安裝 **Power BI Desktop**，不會從 MSI 版本複製使用者設定。 您可能必須重新連線到您最近的資料來源，然後重新輸入您的資料來源認證。 
 
 > [!NOTE]
-> 不支援將下載的 (MSI) 版本和 **Power BI Desktop** 的 **Windows 市集**版本安裝在同一部電腦上 (有時也稱為「並存」安裝)。
+> 不支援將下載的 (MSI) 版本和 **Power BI Desktop** 的 **Microsoft Store** 版本安裝在同一部電腦上 (有時也稱為「並存」安裝)。 您應該手動解除安裝 **Power BI Desktop**，然後再從 **Microsoft Store** 下載它
 > 
 > [!NOTE]
 > **Power BI Desktop** 的 Power BI 報表伺服器版本與本文所討論的版本是不同的安裝。 如需 **Power BI Desktop** 之報表伺服器版本的資訊，請參閱[快速入門︰建立 Power BI 報表伺服器的 Power BI 報表](report-server/quickstart-create-powerbi-report.md)一文。
