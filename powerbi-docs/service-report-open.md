@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: c5177f4ccce8e8e274944cdcb539ca65a8f87ca8
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 17921d1fe28a1b4c0640748123efe4b70982b18d
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>在 Power BI 服務 (app.powerbi.com) 中開啟報表
 報表提供於 Power BI 服務、Power BI Desktop、Power BI Mobile，甚至是 Power BI Embedded。 本文適用於在 ***Power BI 服務***中開啟報表。
@@ -78,7 +78,7 @@ ms.lasthandoff: 03/02/2018
 
 ##  <a name="still-more-ways-to-open-a-report"></a>仍然有更多方法來開啟報表
 當您更熟悉巡覽 Power BI 服務之後，便會找出最適合您的工作流程。 還有一些其他方法可存取報表：
-- 從左側功能窗格使用 [我的最愛]、[最近]、[應用程式]和 [與我共用]。 
+- 從左側功能窗格使用 [我的最愛]、[最近]、[應用程式] 和 [與我共用]。 
 - 使用[檢視相關項目](service-related-content.md)
 - 有人[與您共用](service-share-reports.md)或您[設定警示](service-set-data-alerts.md)時使用電子郵件。    
 - 從您的[通知中心](service-notification-center.md)    

@@ -1,15 +1,15 @@
 ---
-title: "管理您的資料來源 ─ Analysis Services"
-description: "如何管理內部部署資料閘道及屬於該閘道的資料來源。 本文同時適用於多維度和表格式模式的 Analysis Services"
+title: 管理您的資料來源─Analysis Services
+description: 如何管理內部部署資料閘道及屬於該閘道的資料來源。 本文同時適用於多維度和表格式模式的 Analysis Services
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ce9a6d962098b3f40c351d0319c4b7908f4e4f7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 59fc3db101de246aaf4ab08c7916b25497b74fd2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理您的資料來源─Analysis Services
 安裝內部部署資料閘道之後，您必須新增可搭配閘道使用的資料來源。 本文將探討如何使用閘道和資料來源。 您可以針對已排程的重新整理或即時連線，使用 Analysis Services 資料來源。
@@ -76,7 +76,7 @@ ms.lasthandoff: 02/24/2018
 閘道器將使用您輸入的 **使用者名稱** 和 **密碼** 連接到 Analysis Services 執行個體。
 
 > [!NOTE]
-> 您輸入的 Windows 帳戶，必須擁有您所連接執行個體的伺服器系統管理員權限。 如果此帳號的密碼設有期限，在密碼未針對資料來源更新的情況下，使用者就會收到連接錯誤。 如需詳細資訊，請參閱主要內部部署資料閘道文章，以深入了解[認證](service-gateway-onprem.md#credentials)的儲存方式。
+> 您輸入的 Windows 帳戶，必須擁有您所連接執行個體的伺服器系統管理員權限。 如果此帳號的密碼設有期限，在密碼未針對資料來源更新的情況下，使用者就會收到連接錯誤。 如需詳細資訊，請參閱主要的內部部署資料閘道文章，以深入了解[認證](service-gateway-onprem.md#credentials)的儲存方式。
 > 
 > 
 
@@ -159,7 +159,7 @@ ms.lasthandoff: 02/24/2018
 如何設定您的閘道執行 AD 查閱：
 
 1. 下載並安裝最新閘道
-2. 在閘道中，您需要使用網域帳戶來變更要執行的**內部部署資料閘道服務** (而非本機服務帳戶；否則在執行階段，AD 查閱將無法正常運作)。 您必須重新啟動閘道服務，變更才會生效。  前往您電腦上的閘道應用程式 (搜尋 “on-premises data gateway” 或「內部部署資料閘道」)。 若要這樣做，請移至 [服務設定] > [變更服務帳戶]。 除非您想要改為建立新的閘道，否則請確定您有此閘道的修復金鑰，因為您必須在相同的電腦上才能進行還原。 
+2. 在閘道中，您需要使用網域帳戶 (而非本機服務帳戶；否則 AD 查閱將無法在執行階段正常運作) 來變更要執行的**內部部署資料閘道服務**。 您必須重新啟動閘道服務，變更才會生效。  前往您電腦上的閘道應用程式 (搜尋 “on-premises data gateway” 或「內部部署資料閘道」)。 若要這樣做，請移至 [服務設定] > [變更服務帳戶]。 除非您想要改為建立新的閘道，否則請確定您有此閘道的修復金鑰，因為您必須在相同的電腦上才能進行還原。 
 3. 以系統管理員身分巡覽至閘道的安裝資料夾 *C:\Program Files\On-premises data gateway*，確認您具有寫入權限，並編輯下列檔案：
    
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 

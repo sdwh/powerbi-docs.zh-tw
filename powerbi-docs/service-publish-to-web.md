@@ -1,28 +1,28 @@
 ---
-title: "Power BI 的 [發行至 Web]"
-description: "透過 Power BI 的 [發行至 Web]，您可以輕鬆地使用任何裝置，線上內嵌互動式 Power BI 視覺效果，例如內嵌至部落格文章、網站，或透過電子郵件、社交媒體傳送。"
+title: Power BI 的 [發行至 Web]
+description: 透過 Power BI 的 [發行至 Web]，您可以輕鬆地使用任何裝置，線上內嵌互動式 Power BI 視覺效果，例如內嵌至部落格文章、網站，或透過電子郵件、社交媒體傳送。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -133,13 +133,16 @@ ms.lasthandoff: 03/08/2018
 
 ## <a name="limitations"></a>限制
 
-[發行至 Web] 支援絕大部分的資料來源和 Power BI 服務中的報表，但不支援或提供下列報表：
+[發行至 Web] 支援絕大部分的資料來源和 Power BI 服務中的報表，但 [發行至 Web] **目前不支援或提供**下列報表：
 
 1. 使用資料列層級安全性的報表。
-2. 使用任何即時連線資料來源的報表，包括裝載於內部部署 Analysis Service 多維度、Azure Analysis Services 和 Power BI 服務的 Analysis Services 表格式。
+2. 使用任何即時連線資料來源的報表，包括裝載於內部部署 的 Analysis Services 表格式、Analysis Service 多維度和 Azure Analysis Services。
 3. 直接或透過組織內容套件與您共用的報表。
 4. 位在您非屬編輯成員之群組中的報表。
 5. [發行至 Web] 報表目前不支援 "R" 視覺效果。
+6. 從已發行至 Web 之報表中的視覺效果匯出資料
+7. ArcGIS Maps for Power BI 視覺效果
+8. [安全的機密或專屬資訊](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>租用戶設定
 
@@ -177,7 +180,7 @@ Power BI 系統管理員可以啟用或停用發佈到 web 功能。 他們也�
 
 ## <a name="how-it-works-technical-details"></a>運作方式 (技術性詳細資料)
 
-使用 [ **發佈至網路**] 建立內嵌程式碼後，任何網路使用者皆可以檢視報表。 報表可以公開取得，因此，您可以預期檢閱者日後透過社交媒體輕鬆共用報表。 使用者直接開啟公用 URL 或在內嵌的網頁或部落格中檢視報表時，Power BI 會快取報表定義和檢視報表所需的查詢結果。 這確保數千名並行使用者可以同時檢視報表，而不會影響效能。  
+使用 [ **發佈至網路**] 建立內嵌程式碼後，任何網路使用者皆可以檢視報表。 報表可以公開取得，因此，您可以預期檢閱者日後透過社交媒體輕鬆共用報表。 使用者直接開啟公用 URL 或在內嵌的網頁或部落格中檢視報表時，Power BI 會快取報表定義和檢視報表所需的查詢結果。 這確保數千名並行使用者可以同時檢視報表，而不會影響效能。
 
 系統會長時間保留快取，所以如果您更新報表定義 (例如變更檢視模式)，或重新整理報表資料，系統需要大約一小時，才會在使用者檢視的報表上反映變更。 因此建議您預先準備要進行的工作，並且只在對設定滿意後再建立 [ **發佈至網路** ] 內嵌程式碼。
 

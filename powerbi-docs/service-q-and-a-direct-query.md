@@ -1,15 +1,15 @@
 ---
-title: "透過即時連線來使用問與答"
-description: "有關透過 Analysis Services 資料的即時連線和內部部署資料閘道來使用 Power BI 問與答自然語言查詢的文件。"
+title: 透過即時連線來使用問與答
+description: 有關透過即時連線至 Analysis Services 資料和內部部署資料閘道來使用 Power BI 問與答自然語言查詢的文件。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: mihart
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: c6fa26d85d362af0d66276509f4e52ba718d338a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>啟用即時連線的問與答
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>什麼是內部部署資料閘道？  什麼是即時連線？
@@ -63,7 +63,7 @@ Power BI 中的資料集可匯入 Power BI，或者您可以建立與資料集�
 
 * 一開始，此功能僅適用於 SQL Server 2016 Analysis Services 表格式資料來源。 此功能已最佳化，現在可使用表格式資料。 某些功能適用於多維度資料來源，但多維度尚未支援完整的問與答體驗。 內部部署資料閘道支援的其他資料來源將隨著時間推出。
 * 公開預覽一開始並未完整支援 SQL Server Analysis Services 中定義的資料列層級安全性。 在問與答中詢問問題時，輸入問題後的「自動完成」功能可顯示使用者無權存取的字串值。 不過，報表和圖表視覺效果會使用模型中定義的 RLS，因此不會公開任何基礎數值資料。 未來更新將會發行控制此行為的選項。
-* 只有內部部署資料閘道支援即時連線。 因此，這無法用於個人閘道器。
+* 僅支援即時連線至內部部署資料閘道。 因此，這無法用於個人閘道器。
 
 ## <a name="next-steps"></a>後續步驟
 [內部部署資料閘道](service-gateway-onprem.md)  

@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI 中使用書籤"
-description: "Power BI Desktop 中的書籤可讓您儲存報表中的檢視和設定，然後建立類似故事的簡報"
+title: 在 Power BI 中使用書籤
+description: Power BI Desktop 中的書籤可讓您儲存報表中的檢視和設定，然後建立類似故事的簡報
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,23 +18,23 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用書籤來共用深入解析並建立故事 
-您可以使用 Power BI 中的**書籤**來擷取目前設定的報表頁面檢視 (包括視覺效果的篩選和狀態)，稍後只要選取儲存的書籤，就可以返回該狀態。 
+在 Power BI 中使用**書籤**可協助您擷取目前設定的報表頁面檢視 (包括視覺效果的篩選和狀態)，讓您稍後只要選取儲存的書籤，就可以返回該狀態。 
 
 您也可以建立書籤集合，依您想要的順序加以排列，然後在簡報中逐步執行每個書籤，以醒目提示一系列深入解析，或您想要透過視覺效果和報表述說的故事。 
 
 ![Power BI 中的書籤](media/desktop-bookmarks/bookmarks_01.png)
 
-書籤有許多用途。 您可以使用書籤來追蹤自己建立報表的進度 (新增、刪除和重新命名書籤都很容易)，您也可以建立書籤來建立依序逐步執行書籤之類似 PowerPoint 的簡報，以便透過報表述說故事。 此外，根據您認為書籤最適合使用的方式，可能還有其他用途。
+書籤有許多用途。 您可以使用書籤來持續追蹤自己建立報表的進度 (新增、刪除和重新命名書籤都很容易)，也可以建立書籤來建置依序逐步執行書籤之類似 PowerPoint 的簡報，以便透過報表述說故事。 此外，根據您認為書籤最適合使用的方式，可能還有其他用途。
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>啟用書籤預覽 (2018 年 3 月之前的版本)
-Power BI Desktop 自 2018 年 3 月版開始正式推出書籤。 
+從 Power BI Desktop 的 2018 年 3 月版本開始，正式推出書籤。 
 
 我們建議您升級至最新版本。 但如果您的 Power BI Desktop 版本比該版舊，您可以嘗試 **Power BI Desktop** 自 **2017 年 10 月**版開始的**書籤**功能，以及 **Power BI 服務**中啟用書籤的報表。 若要啟用這項預覽功能，請選取 [檔案] > [選項及設定] > [選項] > [預覽功能]，然後選取 [書籤] 旁的核取方塊。 
 
@@ -63,7 +63,7 @@ Power BI Desktop 自 2018 年 3 月版開始正式推出書籤。
 
 ![新增書籤](media/desktop-bookmarks/bookmarks_04.png)
 
-**Power BI Desktop** 會建立書籤，並為其提供泛型名稱。 您可以輕鬆地「重新命名」書籤、將它「刪除」或「更新」書籤，方法是選取書籤名稱旁的省略符號，然後從出現的功能表中選取一個動作。
+**Power BI Desktop** 會建立書籤，並為其提供泛型名稱。 您可以藉由選取書籤名稱旁的省略符號，然後從出現的功能表中選取一個動作，輕鬆地「重新命名」、「刪除」或「更新」書籤。
 
 ![使用省略符號來選取書籤的子功能表](media/desktop-bookmarks/bookmarks_05.png)
 
@@ -84,15 +84,15 @@ Power BI Desktop 自 2018 年 3 月版開始正式推出書籤。
 在 [檢視] 模式中，有一些需要注意的功能：
 
 1. 書籤的名稱會出現在畫布底部的書籤標題列中。
-2. 書籤標題列的箭號可讓您移至下一個或上一個書籤
-3. 您可以從 [書籤] 窗格中選取 [結束]，或選取位於書籤標題列中的 **X**，以結束 [檢視] 模式。 
+2. 書籤標題列的箭號可讓您移至下一個或上一個書籤。
+3. 您可以從 [書籤] 窗格中選取 [結束]，或選取可在書籤標題列中找到的 **X**，來結束 [檢視] 模式。 
 
 ![書籤的書籤標題列功能](media/desktop-bookmarks/bookmarks_07.png)
 
 當您在 [檢視] 模式時，您可以關閉 [書籤] 窗格 (藉由按一下該窗格上的 X)，為您的簡報提供更多空間。 此外，在 [檢視] 模式中，所有視覺效果都是互動式，並可用於交叉醒目提示，就像是與其互動一樣。 
 
 ## <a name="visibility---using-the-selection-pane"></a>可見度 - 使用 [選取] 窗格
-在此版書籤中，也引進了新的 [選取] 窗格。 [選取] 窗格提供目前頁面上的所有物件清單，可讓您選取物件並指定該物件是否為可見。 
+在此版書籤中，也引進了新的 [選取] 窗格。 [選取] 窗格提供目前頁面上的所有物件清單，可讓您選取物件並指定給定的物件是否為可見。 
 
 ![啟用 [選取] 窗格](media/desktop-bookmarks/bookmarks_08.png)
 

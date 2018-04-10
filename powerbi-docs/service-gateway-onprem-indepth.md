@@ -1,15 +1,15 @@
 ---
-title: "深入了解內部部署資料閘道"
-description: "本文探討內部部署閘道的深入資訊。 這會探討服務與 Azure Active Directory 之間的運作方式以及本機 Active Directory 使用 Analysis Services 時的運作方式"
+title: 深入了解內部部署資料閘道
+description: 本文探討內部部署閘道的深入資訊。 這會探討服務與 Azure Active Directory 之間的運作方式以及本機 Active Directory 使用 Analysis Services 時的運作方式
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7283ee62838779590bbc01eb8b4348cfc7873dc1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5ab3159be71fbefbbe034ce8f39f9df02b48ede3
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解內部部署資料閘道
-您組織中的使用者可以看到您的內部部署資料 (他們已經具有存取授權)，但在那些使用者能夠連接至內部部署資料來源之前，內部部署資料閘道必須先行安裝和設定。 此閘道有助於讓雲端的使用者快速安全地以幕後通訊方式，在內部部署資料來源和雲端之間往返。
+您組織中的使用者可以存取內部部署資料 (他們已經具有存取授權)，但在那些使用者能夠連線至您的內部部署資料來源之前，必須先安裝並設定內部部署資料閘道。 此閘道有助於讓雲端的使用者快速安全地以幕後通訊方式，在內部部署資料來源和雲端之間往返。
 
 安裝和設定閘道器通常是由系統管理員完成。 此作業也許需要對內部部署伺服器的專業知識，而且在某些情況下可能需要伺服器管理員權限。
 
@@ -120,7 +120,7 @@ Power BI 可讓您對應 Analysis Services 資料來源的使用者名稱。 您
 
 在其他情況下，問題則可能出在使用者登入的電子郵件地址類型，或 Analysis Services 無法解析有效使用者名稱。 如果您有多個互相信任的網域，且閘道位於其中一個，而 Analysis Services 位於另一個，則這種情況有時會造成一些問題。
 
-我們不會在這裡進行閘道問題的疑難排解，而是在另一篇文章[為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)中，提供一系列的疑難排解步驟。 希望您不會遇到任何問題。 但如果您遇到了問題，則了解這裡所有步驟和疑難排解文章將有所幫助。
+我們不會在這裡進行閘道問題的疑難排解，而是在另一篇文章 ([為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)) 中提供一系列的疑難排解步驟。 希望您不會遇到任何問題。 但如果您遇到了問題，則了解這裡所有步驟和疑難排解文章將有所幫助。
 
 <!-- Account and Port information -->
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]

@@ -1,15 +1,15 @@
 ---
-title: "管理您的 SAP HANA 資料來源"
-description: "如何管理內部部署資料閘道及屬於該閘道的資料來源。 本文為 SAP HANA 專用。"
+title: 管理您的 SAP HANA 資料來源
+description: 如何管理內部部署資料閘道及屬於該閘道的資料來源。 本文為 SAP HANA 專用。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8f9ec69c2a131a8de8f53385170bbddc59211f7b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 43bc0c22918e041f354c29ae9cc3ee4806b8da1a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-sap-hana-data-source"></a>管理您的 SAP HANA 資料來源
 安裝內部部署資料閘道之後，您必須新增可搭配閘道使用的資料來源。 本文將探討如何使用閘道和資料來源。 您可以針對已排程的重新整理或 DirectQuery，使用 SAP HANA 資料來源。
@@ -60,7 +60,7 @@ ms.lasthandoff: 02/24/2018
 您接著需要填入資料來源的資訊，包括 **伺服器**、 **使用者名稱** 和 **密碼**。
 
 > [!NOTE]
-> 資料來源的所有查詢都會使用這些認證來執行。 如需詳細資訊，請參閱主要內部部署資料閘道文章，以深入了解[認證](service-gateway-onprem.md#credentials)的儲存方式。
+> 資料來源的所有查詢都會使用這些認證來執行。 如需詳細資訊，請參閱主要的內部部署資料閘道文章，以深入了解[認證](service-gateway-onprem.md#credentials)的儲存方式。
 > 
 > 
 

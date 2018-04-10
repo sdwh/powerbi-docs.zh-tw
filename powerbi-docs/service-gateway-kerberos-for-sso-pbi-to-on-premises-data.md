@@ -1,15 +1,15 @@
 ---
-title: "對於從 Power BI 到內部部署資料來源的 SSO (單一登入)，在內部部署閘道上使用 Kerberos"
-description: "使用 Kerberos 設定您的閘道，啟用從 Power BI 到內部部署資料來源的 SSO"
+title: 對於從 Power BI 到內部部署資料來源的 SSO (單一登入)，在內部部署閘道上使用 Kerberos
+description: 使用 Kerberos 設定您的閘道，啟用從 Power BI 到內部部署資料來源的 SSO
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 834800b26e8dd3738f274a73aa4ff9b36402a3d9
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: f60709e45e844ff7ab1a9c6bf3cb669c567dfcc8
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 以從 Power BI 單一登入 (SSO) 到內部部署資料來源
-您可以藉由使用 Kerberos 來設定內部部署資料閘道，取得無縫單一登入連線，讓 Power BI 報表和儀表板從內部部署資料更新。 內部部署資料閘道可以使用 DirectQuery 加速單一登入 (SSO)，也就是用來連線到內部部署資料來源的方法。
+您可以藉由使用 Kerberos 來設定內部部署資料閘道，以取得順暢的單一登入連線，讓 Power BI 報表和儀表板能夠從內部部署資料進行更新。 內部部署資料閘道可以使用 DirectQuery 加速單一登入 (SSO)，DirectQuery 是用來連線至內部部署資料來源。
 
 目前支援下列資料來源：SQL Server、SAP HANA 和 Teradata，全部都是以 [Kerberos 限制委派](https://technet.microsoft.com/library/jj553400.aspx)為基礎。
 
@@ -94,7 +94,7 @@ ms.lasthandoff: 03/12/2018
 必須設定數個項目，Kerberos 限制委派才能正常運作，包括服務帳戶的「服務主體名稱」(SPN) 和委派設定。
 
 ### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>必要條件 1：安裝及設定內部部署資料閘道
-這個內部部署資料閘道版本支援就地升級，以及承接現有閘道的設定。
+這個內部部署資料閘道支援就地升級，以及承接現有閘道的設定。
 
 ### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>必要條件 2：以網域帳戶身分執行閘道 Windows 服務
 在標準安裝中，閘道是以電腦本機服務帳戶執行 (具體而言是 NT Service\PBIEgwService)，例如下圖顯示的內容：
@@ -103,7 +103,7 @@ ms.lasthandoff: 03/12/2018
 
 若要啟用 **Kerberos 限制委派**，閘道必須以網域帳戶執行，除非 AAD 已與本機 Active Directory 進行同步處理 (使用 AAD DirSync/Connect)。 若要讓這項帳戶變更正確運作，您有兩個選項：
 
-* 如果從舊版內部部署資料閘道開始，請完全依序遵循下列文章中所述的所有五個步驟 (包括執行步驟 3 中的閘道設定程式)：
+* 如果以舊版內部部署資料閘道開始，請完全依照下列文章中所述的所有五個步驟順序 (包括執行步驟 3 中的閘道設定程式)：
   
   * [將閘道服務帳戶變更為網域使用者](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/#changing-the-gateway-service-account-to-a-domain-user)
   * 如果您已經安裝內部部署資料閘道的預覽版本，有一個直接從閘道設定程式切換到服務帳戶的新 UI 引導式方法。 請參閱本文結尾附近的**將閘道切換到網域帳戶**一節。
@@ -196,7 +196,7 @@ ms.lasthandoff: 03/12/2018
 此設定在大部分情況下都能運作。 不過，使用 Kerberos 會有不同的設定，根據您的環境而異。 如果仍然無法載入報表，您必須連絡網域系統管理員，以便進一步調查。
 
 ## <a name="switching-the-gateway-to-a-domain-account"></a>將閘道切換到網域帳戶
-稍早在本文中，我們討論了如何使用**內部部署資料閘道**使用者介面，將閘道從本機服務帳戶切換為以網域帳戶執行。 以下是完成此作業所需的步驟。
+稍早在本文中，我們討論了使用**內部部署資料閘道**使用者介面，從本機服務帳戶切換閘道，以便以網域帳戶執行。 以下是完成此作業所需的步驟。
 
 1. 啟動**內部部署資料閘道**設定工具。
    

@@ -1,15 +1,15 @@
 ---
-title: "進行內部部署資料閘道的 Proxy 設定"
-description: "設定內部部署資料閘道的 Proxy 設定的相關資訊。"
+title: 設定內部部署資料閘道的 Proxy 設定
+description: 設定內部部署資料閘道的 Proxy 設定的相關資訊。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 27b8d36ed870501170efdb81c40edb6cb4727499
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f6bfc47e7b74d9b17479a2ac7fc3dbc3f3e76816
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
-# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>進行內部部署資料閘道的 Proxy 設定
+# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>設定內部部署資料閘道的 Proxy 設定
 您的工作環境可能需要執行 Proxy 以存取網際網路。 這可以防止內部部署資料閘道連線到服務。
 
 ## <a name="does-your-network-use-a-proxy"></a>您的網路是否使用 Proxy？
@@ -36,7 +36,7 @@ ms.lasthandoff: 02/24/2018
 Proxy 資訊是在 .NET 設定檔中所設定。 位置和檔案名稱將會隨您正在使用的閘道而有所不同。
 
 ### <a name="on-premises-data-gateway"></a>內部部署資料閘道
-有兩個主要的設定檔與內部部署資料閘道有關。
+有兩個與內部部署資料閘道有關的主要設定檔。
 
 **設定**
 
@@ -50,7 +50,7 @@ Proxy 資訊是在 .NET 設定檔中所設定。 位置和檔案名稱將會隨�
 
     C:\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config
 
-## <a name="configuring-proxy-settings"></a>進行 Proxy 設定
+## <a name="configuring-proxy-settings"></a>設定 Proxy 設定
 預設的 Proxy 設定如下所示。
 
     <system.net>
@@ -69,8 +69,8 @@ Proxy 資訊是在 .NET 設定檔中所設定。 位置和檔案名稱將會隨�
 > 
 > 
 
-### <a name="change-the-on-premises-data-gateway-service-account"></a>變更內部部署資料閘道的服務帳戶
-1. 變更**內部資料閘道服務**的 Windows 服務帳戶。
+### <a name="change-the-on-premises-data-gateway-service-account"></a>變更內部部署資料閘道服務帳戶
+1. 變更**內部部署資料閘道服務**的 Windows 服務帳戶。
    
     此服務的預設帳戶是 *NT SERVICE\PBIEgwService*。 您可以將其變更為 Active Directory 網域中的網域使用者帳戶。 也可以使用受管理的服務帳戶，以免需要變更密碼。
    

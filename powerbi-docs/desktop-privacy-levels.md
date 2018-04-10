@@ -1,15 +1,15 @@
 ---
-title: "了解 Power BI Desktop 隱私權等級"
-description: "Power BI Desktop 隱私權等級"
+title: 了解 Power BI Desktop 隱私權等級
+description: Power BI Desktop 隱私權等級
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3cf6875fcb0756bfa9f5622a8d49f5b645b13c24
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 110d851e08ee8b63645c11507500eb2cbf179a46
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop 隱私權等級
 在 **Power BI Desktop** 中，隱私權等級會指定某個資料來源與其他資料來源隔離程度的隔離等級。 雖然嚴格的隔離等級能夠阻擋資料來源交換資訊，卻可能會降低功能並影響效能。
@@ -31,15 +31,6 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-privacy-levels/desktop_privacylevels1.png)
 
- 每個資料來源的 [隱私權] 設定對話方塊皆位於 [檔案] > [選項及設定] > [資料來源設定] 下。 請選取資料來源，然後選取 [編輯] 。 [資料來源設定]  對話方塊隨即出現，您可在對話方塊底部的下拉式功能表中選取適當的隱私權等級，如下圖所示。
-
- ![](media/desktop-privacy-levels/desktop_privacylevels2.png)
-
-> [!CAUTION]
-> 包含高度敏感或機密資料的資料來源應設定為 [私人]。
-> 
-> 
-
 ## <a name="configure-a-privacy-level"></a>設定隱私權等級
 利用隱私權等級設定，您可指定某個資料來源與其他資料來源隔離程度的隔離等級。
 
@@ -47,10 +38,10 @@ ms.lasthandoff: 02/24/2018
 | --- | --- | --- |
 | **私人資料來源** |[私人]  資料來源包含敏感或機密資訊，而且可以限制只有授權的使用者才能看到資料來源。 私人資料來源與其他資料來源完全隔離。 |Facebook 資料、包含股票獎酬的文字檔案或包含員工績效考核資訊的活頁簿。 |
 | **組織資料來源** |[組織]  資料來源限制只有受信任的一群人才能看到資料來源。 [組織]  資料來源與所有 [公用]  資料來源相隔離，但與其他 [組織]  資料來源可彼此互見。 |內部網路 SharePoint 網站上啟用了信任群組權限的 **Microsoft Word** 文件。 |
-| **公用資料來源** |[公用]  資料來源允許所有人看到資料來源中所包含的資料。 只有檔案、網際網路資料來源或活頁簿資料可以標示為 [公用] 。 |Microsoft Azure Marketplace 的可用資料、維基百科頁面的可用資料，或包含公開網頁複製資料的本機檔案。 |
+| **公用資料來源** |[公用]  資料來源允許所有人看到資料來源中所包含的資料。 只有檔案、網際網路資料來源或活頁簿資料可以標示為**公用**。 |Microsoft Azure Marketplace 的可用資料、維基百科頁面的可用資料，或包含從公開網頁複製之資料的本機檔案。 |
 
 ## <a name="configure-privacy-level-settings"></a>設定隱私權等級設定
-每個資料來源的 [隱私權] 設定對話方塊皆位於 [檔案] > [選項及設定] > [資料來源設定] 下。
+每個資料來源的 [隱私權] 設定對話方塊皆位於 [檔案] > [選項及設定] > [資料來源設定] 中。
 
 若要設定資料來源的隱私權等級，請選取資料來源，然後選取 [編輯] 。 [資料來源設定]  對話方塊隨即出現，您可在對話方塊底部的下拉式功能表中選取適當的隱私權等級，如下圖所示。
 

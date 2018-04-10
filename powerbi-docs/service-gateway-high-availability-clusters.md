@@ -1,15 +1,15 @@
 ---
-title: "內部部署資料閘道的高可用性叢集"
-description: "您可以建立內部部署資料閘道的叢集，您的企業提供高可用性。"
+title: 內部部署資料閘道的高可用性叢集
+description: 您可以建立內部部署資料閘道的叢集，以便為您的企業提供高可用性。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9ad1d4288184368dbb294bfafa69fe005780b322
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>內部部署資料閘道的高可用性叢集
-您可以建立**內部部署資料閘道**安裝的**高可用性叢集**，以確保貴組織可以存取 Power BI 報告和儀表板中使用的內部部署資料資源。 這類叢集允許閘道系統管理員將閘道群組，以避免存取內部部署資料資源時發生單一失敗點。 本文說明建立內部部署資料閘道的高可用性叢集時可以採取的步驟，並分享進行這些設定時的最佳做法。 高可用性閘道叢集需要 2017 年 11 月更新的內部部署資料閘道或更新版本。
+您可以建立**內部部署資料閘道**安裝的**高可用性叢集**，以確保貴組織可以存取 Power BI 報表和儀表板中使用的內部部署資料資源。 這類叢集允許閘道系統管理員將閘道群組，以避免存取內部部署資料資源時發生單一失敗點。 本文說明建立內部部署資料閘道的高可用性叢集時可以採取的步驟，並分享進行這些設定時的最佳做法。 高可用性閘道叢集需要 2017 年 11 月更新的內部部署資料閘道或更新版本。
 
 
 ## <a name="setting-up-high-availability-clusters-of-gateways"></a>設定閘道的高可用性叢集
@@ -90,7 +90,7 @@ PowerShell 指令碼可用於內部部署資料閘道安裝資料夾。 依預�
 -   [管理您的資料來源 - 匯入/已排程的重新整理](service-gateway-enterprise-manage-scheduled-refresh.md)  
 -   [內部部署資料閘道 - 深入資訊](service-gateway-onprem-indepth.md)  
 -   [內部部署資料閘道 (個人模式)](service-gateway-personal-mode.md)
--   [進行內部部署資料閘道的 Proxy 設定](service-gateway-proxy.md)  
+-   [設定內部部署資料閘道的 Proxy 設定](service-gateway-proxy.md)  
 -   [使用 Kerberos 以從 Power BI 單一登入 (SSO) 到內部部署資料來源](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

@@ -1,15 +1,15 @@
 ---
-title: "Power BI 資料來源必要條件"
-description: "Power BI 資料來源必要條件"
+title: Power BI 資料來源必要條件
+description: Power BI 資料來源必要條件
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,22 +18,22 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 274c94c7cdb2586e0c03af77de7f937700b6814e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 282526e18777e623725859adc84475525dcf25ba
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI 資料來源的必要條件
 針對每個資料提供者，Power BI 會在物件上支援特定的提供者版本。 如需 Power BI 可用資料來源的詳細資訊，請參閱[資料來源](desktop-data-sources.md)。 下表說明這些需求。
 
 | 資料來源 | 提供者 | 最低提供者版本 | 最低資料來源版本 | 支援的資料來源物件 | 下載連結 |
 | --- | --- | --- | --- | --- | --- |
-| SQL Server |ADO.net (內建於 .Net Framework) |.Net framework 3.5 (僅限) |SQL Server 2005+ |資料表/檢視、純量函數、資料表函數 |包含在 .NET Framework 3.5 或更新版本中 |
+| SQL Server |ADO.net (內建於 .Net Framework) |.NET Framework 3.5 (僅限) |SQL Server 2005+ |資料表/檢視、純量函數、資料表函數 |包含在 .NET Framework 3.5 或更新版本中 |
 | Access |Microsoft Access 資料庫引擎 (ACE) |ACE 2010 SP1 |沒有限制 |資料表/檢視 |[下載連結](http://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Excel (僅限 .xls 檔案) (請參閱附註 1) |Microsoft Access 資料庫引擎 (ACE) |ACE 2010 SP1 |沒有限制 |資料表、工作表 |[下載連結](http://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Oracle (請參閱附註 2) |ODP.NET |ODAC 11.2 版本 5 (11.2.0.3.20) |9.x + |資料表/檢視 |[下載連結](http://go.microsoft.com/fwlink/?linkid=272376&clcid=0x409) |
-| System.Data.OracleClient (內建於 .Net Framework) |.NET framework 3.5 |9.x + |資料表/檢視 |包含在 .NET Framework 3.5 或更新版本中 | |
+| | System.Data.OracleClient (內建於 .NET Framework) |.NET framework 3.5 |9.x + |資料表/檢視 |包含在 .NET Framework 3.5 或更新版本中 |
 | IBM DB2 |來自 IBM (IBM 資料伺服器驅動程式套件的一部分) 的 ADO.Net 用戶端 |10.1 |9.1+ |資料表/檢視 |[下載連結](http://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
 | MySQL |連接器/網路 |6.6.5 |5.1 |資料表/檢視、純量函數 |[下載連結](http://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
 | PostgreSQL |NPGSQL ADO.NET 提供者 |2.0.12 |7.4 |資料表/檢視 |[下載連結](http://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |

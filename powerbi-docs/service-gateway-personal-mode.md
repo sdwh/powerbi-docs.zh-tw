@@ -1,15 +1,15 @@
 ---
-title: "內部部署資料閘道 (個人模式)"
-description: "適用於 Power BI 且個人可以用於連接到內部部署資料的資料閘道"
+title: 內部部署資料閘道 (個人模式)
+description: 適用於 Power BI 且個人可以用於連接到內部部署資料的資料閘道
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/14/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 777e5f27954890fe842096c0f2633f6803ebf319
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>內部部署資料閘道 (個人模式)
 您可以使用內部部署資料來源，並使用閘道建立 Power BI 報表和儀表板。 **閘道**是一種軟體，可協助存取私用內部部署網路上所儲存的資料，然後可讓您使用 **Power BI 服務**這類線上服務中的資料。 **內部部署資料閘道 (個人模式)** 是最近發行的 Power BI 閘道更新，可讓個人在自己的電腦上安裝閘道，以及存取內部部署資料。
@@ -30,12 +30,12 @@ ms.lasthandoff: 02/24/2018
 ![](media/service-gateway-personal-mode/gateway-personal-mode_00.png)
 
 > [!NOTE]
-> **內部部署資料閘道 (個人模式)** 會取代先前支援的個人閘道版本：**Power BI Gateway - Personal**。 先前的個人閘道只會繼續運作到 2017 年 7 月 31 日。 如需如何更新為新版本的資訊，請參閱下列各節。
+> **內部部署資料閘道 (個人模式)** 取代先前支援的個人閘道版本 (稱為 **Power BI Gateway - Personal**)。 先前的個人閘道只會繼續運作到 2017 年 7 月 31 日。 如需如何更新為新版本的資訊，請參閱下列各節。
 > 
 > 
 
 ## <a name="features-of-the-on-premises-data-gateway-personal-mode"></a>內部部署資料閘道 (個人模式) 的功能
-隨著**內部部署資料閘道 (個人模式)** 的發行，我們也提供了多項改進與新增的功能。 在舊版個人閘道 (稱為 **Power BI Gateway - Personal**) 中，其實作有一些限制。 與許多 Power BI 產品相同，我們聆聽客戶需求、要求和其使用產品的方式。 因此，**內部部署資料閘道 (個人模式)** 已從頭到尾經過重新設計，並包括下列功能與改進：
+發行**內部部署資料閘道 (個人模式)** 時，也會立即提供一組改善和功能。 在舊版個人閘道 (稱為 **Power BI Gateway - Personal**) 中，其實作有一些限制。 與許多 Power BI 產品相同，我們聆聽客戶需求、要求和其使用產品的方式。 因此，**內部部署資料閘道 (個人模式)** 已從頭開始重新設計，並包括下列功能和改善：
 
 * **改善的可靠性** - 個人閘道的新版本已因程式碼和結構軟體改善而改進舊版本的可靠性。
 * **增強的擴充性** - 在結構軟體改善時，其他功能可以在可用時輕鬆地新增至個人閘道。
@@ -47,7 +47,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/service-gateway-personal-mode/gateway-personal-mode_02.png)
 
-您也可以從[這個位置](https://go.microsoft.com/fwlink/?LinkId=820925&clcid=0x409)下載閘道。 您可以遵循安裝步驟，另外，由於安裝程序可讓您安裝兩種閘道版本的其中之一 (可與其他人共用的標準閘道，或個人模式)，因此請務必在系統提示您選擇要安裝的閘道版本時，選取**內部部署資料閘道 (個人模式)**。
+您也可以從[這個位置](https://go.microsoft.com/fwlink/?LinkId=820925&clcid=0x409)下載閘道。 您可以遵循安裝步驟，而且，因為安裝程序可讓您安裝任一版本的閘道 (可與其他人共用的標準閘道，或個人模式)，所以請確定您在提示輸入要安裝的閘道版本時選取**內部部署資料閘道 (個人模式)**。
 
 ### <a name="updating-from-the-previous-personal-gateway"></a>從舊版個人閘道進行更新
 如果您已經安裝 **Power BI Gateway - Personal** 閘道，則當您在 **Power BI 服務**的 [設定] 下檢視 [資料集] 時，系統會提示您安裝新版和增強版的個人閘道。
@@ -84,12 +84,12 @@ ms.lasthandoff: 02/24/2018
 您可以移至 [新增/移除程式]，並查看 **Power BI Gateway - Personal** 是否出現在清單中；如果是，則已安裝舊版個人閘道。
 
 ## <a name="using-fast-combine-with-the-personal-gateway"></a>搭配使用快速合併與個人閘道
-如果您搭配舊版閘道使用**快速合併**，則必須採取下列步驟來重新啟用**快速合併**以與**內部部署資料閘道 (個人模式)** 搭配運作：
+如果您搭配使用**快速合併**與舊版閘道，則必須採取下列步驟來重新啟用**快速合併**以與**內部部署資料閘道 (個人模式)** 搭配運作：
 
 1. 使用檔案總管，開啟下列檔案：
    
    ```
-   %localappdata%\Microsoft\on-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
+   %localappdata%\Microsoft\On-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
    ```
 2. 在檔案底端，新增下列文字：
    
@@ -122,9 +122,9 @@ ms.lasthandoff: 02/24/2018
 * 我可以並存執行**內部部署資料閘道 (個人模式)** 與**內部部署資料閘道** (先前稱為企業版的閘道) 嗎？
   
   * **答**：是，使用新版本時，可以同時執行兩者。
-* 我能以服務形式執行**內部部署資料閘道 (個人模式)** 嗎？
+* 我可以將**內部部署資料閘道 (個人模式)** 執行為服務嗎？
   
-  * **答**：否。 **內部部署資料閘道 (個人模式)** 只能以應用程式形式執行。 如果您需要以服務形式及 (或) 系統管理員模式執行閘道，務必考慮[**內部部署資料閘道**](service-gateway-onprem.md) (先前稱為「企業閘道」)。
+  * **答**：否。 **內部部署資料閘道 (個人模式)** 只能執行為應用程式。 如果您需要將閘道執行為服務且 (或) 使用系統管理員模式，則需要考量[**內部部署資料閘道**](service-gateway-onprem.md) (先前稱為「企業閘道」)。
 * **內部部署資料閘道 (個人模式)** 的更新頻率為何？
   
   * **答**：我們想要每月更新個人閘道。

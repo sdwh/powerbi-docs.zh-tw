@@ -1,31 +1,31 @@
 ---
-title: "內部部署資料閘道"
-description: "這是 Power BI 的內部部署資料閘道概觀。 您可以使用此閘道處理 DirectQuery 資料來源。 您也可以使用此閘道以內部部署資料重新整理雲端資料集。"
+title: 內部部署資料閘道
+description: 這是 Power BI 的內部部署資料閘道概觀。 您可以使用此閘道處理 DirectQuery 資料來源。 您也可以使用此閘道以內部部署資料重新整理雲端資料集。
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 02/22/2018
-ms.author: davidi
+ms.date: 03/26/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: c9025194ebe8ce6b1829aacd9d74bff5d9c55e3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1c0bd455d8b2dd34cc7d9ef20b0e75c5457034d2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway"></a>內部部署資料閘道
-內部部署資料閘道作為橋接器，替內部部署資料 (非位於雲端的資料) 與 Power BI、Microsoft Flow、Logic Apps 以及 PowerApps 服務之間，提供快速且安全的資料傳輸。
+內部部署資料閘道會用來作為橋接器，在內部部署資料 (非位於雲端的資料) 與 Power BI、Microsoft Flow、Logic Apps 以及 PowerApps 服務之間，提供快速且安全的資料轉送。
 
 您可以同時以不同服務使用單一閘道。 如果您同時使用 Power BI 與 PowerApps，單一閘道亦可同時用於兩者。 其取決於您登入時使用的帳戶。
 
@@ -91,6 +91,11 @@ ms.lasthandoff: 02/24/2018
 <!-- How the gateway works -->
 [!INCLUDE [gateway-onprem-how-it-works-include](./includes/gateway-onprem-how-it-works-include.md)]
 
+## <a name="limitations-and-considerations"></a>限制與考量
+* 目前不支援 [Azure 資訊保護](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
+) \(機器翻譯\)
+* 目前不支援[線上存取](https://products.office.com/en-us/access)
+
 ## <a name="troubleshooting"></a>疑難排解
 若您在安裝和設定閘道時遇到問題，請務必參閱[為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)。 若您認為您的防火牆發生問題，請參閱疑難排解文章中的[防火牆或 Proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) 一節。
 
@@ -104,6 +109,6 @@ ms.lasthandoff: 02/24/2018
 [管理您的資料來源 - 匯入/已排程的重新整理](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [內部部署資料閘道 - 深入資訊](service-gateway-onprem-indepth.md)  
 [內部部署資料閘道 (個人模式) - 新版本的個人閘道](service-gateway-personal-mode.md)
-[進行內部部署資料閘道的 Proxy 設定](service-gateway-proxy.md)  
+[設定內部部署資料閘道的 Proxy 設定](service-gateway-proxy.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

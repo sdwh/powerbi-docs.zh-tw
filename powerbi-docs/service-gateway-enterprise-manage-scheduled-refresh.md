@@ -1,15 +1,15 @@
 ---
-title: "管理您的資料來源 - 匯入/已排程的重新整理"
-description: "如何管理內部部署資料閘道及屬於該閘道的資料來源。 本文旨在說明可用於匯入/已排程重新整理的資料來源。"
+title: 管理您的資料來源 - 匯入/已排程的重新整理
+description: 如何管理內部部署資料閘道及屬於該閘道的資料來源。 本文旨在說明可用於匯入/已排程重新整理的資料來源。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8002cf2df278cd3329b62b5322a6faabc9394f57
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4fdd1380f10a44c45dd17b04c21ccfba8fbf9cd8
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>管理您的資料來源 - 匯入/已排程的重新整理
 安裝內部部署資料閘道之後，您必須新增可搭配閘道使用的資料來源。 本文將探討相對於 DirectQuery 或即時連線，如何使用可用於已排程之重新整理的閘道和資料來源。
@@ -60,7 +60,7 @@ ms.lasthandoff: 02/24/2018
 您接著需要填入資料來源的資訊，包括用來存取資料來源的來源資訊和認證。
 
 > [!NOTE]
-> 資料來源的所有查詢都會使用這些認證來執行。 如需詳細資訊，請參閱主要內部部署資料閘道文章，以深入了解[認證](service-gateway-onprem.md#credentials)的儲存方式。
+> 資料來源的所有查詢都會使用這些認證來執行。 如需詳細資訊，請參閱主要的內部部署資料閘道文章，以深入了解[認證](service-gateway-onprem.md#credentials)的儲存方式。
 > 
 > 
 
@@ -120,7 +120,7 @@ ms.lasthandoff: 02/24/2018
 > 
 
 ## <a name="limitations"></a>限制
-* OAuth 不是內部部署資料閘道支援的驗證結構描述。 您無法新增需要 OAuth 的資料來源。 如果您的資料集有需要 OAuth 的資料來源，就無法使用閘道進行排程的重新整理。
+* OAuth 不是內部部署資料閘道支援的驗證配置。 您無法新增需要 OAuth 的資料來源。 如果您的資料集有需要 OAuth 的資料來源，就無法使用閘道進行排程的重新整理。
 
 ## <a name="next-steps"></a>後續步驟
 [內部部署資料閘道](service-gateway-onprem.md)  

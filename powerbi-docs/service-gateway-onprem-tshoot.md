@@ -1,28 +1,28 @@
 ---
-title: "為內部部署資料閘道進行疑難排解"
-description: "本文章提供您對內部部署資料閘道問題進行疑難排解的方法。 其提供已知問題可能的因應措施，以及可協助您的工具。"
+title: 為內部部署資料閘道進行疑難排解
+description: 本文提供您對內部部署資料閘道問題進行疑難排解的方法。 其提供已知問題可能的因應措施，以及可協助您的工具。
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/21/2017
-ms.author: davidi
+ms.date: 03/23/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1651f18194cd47582376b52bb6359db10a330c27
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9742fd0d48f4a77b5019aa7547fa511404c6f63e
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>為內部部署資料閘道進行疑難排解
 本文探討使用**內部部署資料閘道**時可能遇到的一些常見問題。
@@ -56,7 +56,7 @@ ms.lasthandoff: 02/24/2018
 設定結束時，會再次呼叫 Power BI 服務以驗證閘道。 Power BI 服務未將閘道報告為「即時」 。 重新啟動 Windows 服務可能會讓通訊成功。 您可以如下所述收集並檢閱記錄檔，以取得詳細資訊。
 
 ### <a name="script-error-during-sign-into-power-bi"></a>登入 Power BI 期間發生指令碼錯誤
-登入內部部署資料閘道組態的 Power BI 時，您可能會收到指令碼錯誤。 安裝下列安全性更新應可解決問題。 這可以透過 Windows Update 安裝。
+登入屬於內部部署資料閘道設定一部分的 Power BI 時，您可能會收到指令碼錯誤。 安裝下列安全性更新應可解決問題。 這可以透過 Windows Update 安裝。
 
 [MS16-051：Internet Explorer 的安全性更新︰2016 年 5 月 10 日 (KB 3154070)](https://support.microsoft.com/kb/3154070)
 
@@ -78,14 +78,14 @@ ms.lasthandoff: 02/24/2018
 1. 將閘道解除安裝。
 2. 刪除下列資料夾。
    
-        c:\Program Files\on-premises data gateway
+        c:\Program Files\On-premises data gateway
 3. 重新安裝該閘道。
 4. 選擇性地套用修復金鑰，以還原現有的閘道。
 
 ### <a name="support-for-tls-1112"></a>TLS 1.1/1.2 支援
-有了 2017 年 8 月更新和以上版本之後，內部部署資料閘道會根據預設，使用傳輸層安全性 (TLS) 1.1 或 1.2 與 **Power BI 服務**通訊。 根據預設，舊版內部部署資料閘道會使用 TLS 1.0。 TLS 1.0 支援將在 2017 年 11 月 1 日結束；因此，在此日期之前，您必須將內部部署資料閘道安裝升級成 2017 年 8 月版本或更新版本，確保閘道持續運作。
+有了 2017 年 8 月更新和以上版本之後，內部部署資料閘道預設會使用傳輸層安全性 (TLS) 1.1 或 1.2，以與 **Power BI 服務**進行通訊。 舊版內部部署資料閘道預設會使用 TLS 1.0。 在 2017 年 11 月 1 日，TLS 1.0 支援將結束；因此，在此日期之前，您必須將內部部署資料閘道安裝升級成 2017 年 8 月版本或更新版本，確保閘道持續運作。
 
-請務必注意，在 11 月 1 日之前，內部部署資料閘道仍然支援 TLS 1.0，並用以當成後援機制。 若要確保所有閘道流量使用 TLS 1.1 或 1.2 (以及避免在閘道上使用 TLS 1.0)，您必須新增或修改執行閘道服務之電腦上的下列登錄機碼：
+請務必注意，在 11 月 1 日之前，內部部署資料閘道仍然支援 TLS 1.0，而且閘道會使用它作為後援機制。 若要確保所有閘道流量使用 TLS 1.1 或 1.2 (以及避免在閘道上使用 TLS 1.0)，您必須新增或修改執行閘道服務之電腦上的下列登錄機碼：
 
         [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
         [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
@@ -175,7 +175,7 @@ ms.lasthandoff: 02/24/2018
 確切的限制為每個資料表 10 GB 未壓縮的資料。 如果即將達到此限制，您有適當的選項可最佳化及避免此問題。 減少使用高度重複的長字串值並改用標準化索引鍵，或移除資料行 (如果不在使用中) 特別會有幫助。
 
 ## <a name="reports"></a>報表
-### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>因為您無法透過內部部署資料閘道存取資料來源，所以報表無法存取資料來源。
+### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>因為您無法透過內部部署資料閘道存取我們的資料來源，所以報表無法存取資料來源。
 此情形通常由下列其中一個項目所造成。
 
 1. 資料來源資訊與基礎資料集中的項目不符合。 伺服器和資料庫名稱必須與為內部部署資料閘道定義的資料來源，或是您在 Power BI Desktop 內提供的名稱相符。 如果您在 Power BI Desktop 中使用 IP 位址，則內部部署資料閘道的資料來源也必須使用 IP 位址。
@@ -193,7 +193,7 @@ ms.lasthandoff: 02/24/2018
 
 您可以選擇性地查看 Power BI 從 Azure Active Directory 取得哪些項目。
 
-1. 請瀏覽 [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net)。
+1. 瀏覽至 [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net)。
 2. 選擇右上角的 [登入]。
 3. 執行下列查詢。 您會看到相當大的 JSON 回應。
    
@@ -314,11 +314,13 @@ from [dbo].[V_CustomerOrders] as [$Table])
 GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
-### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
-在 *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* 檔案中，將 `TraceVerbosity` 值從 `4` 變更為 `5`。 根據預設，這個檔案位於 *C:\Program Files\On-premises data gateway* 。 變更此設定時，就會開始將詳細資訊項目記錄至閘道記錄檔， 包括顯示持續期間的項目。
+### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
+在 *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* 檔案中，將 `TracingVerbosity` 值從 `4` 變更為 `5`。 根據預設，這個檔案位於 *C:\Program Files\On-premises data gateway* 。 變更此設定時，就會開始將詳細資訊項目記錄至閘道記錄檔， 包括顯示持續期間的項目。 您也可以在內部部署閘道應用程式中啟用 [其他記錄] 按鈕，以啟用詳細資訊項目。
+
+   ![其他記錄](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
-> 將 TraceVerbosity 啟用為 `5`，可能會根據閘道器使用量而大幅增加記錄大小。 在您檢閱完記錄之後，需要將 TraceVerbosity 設定為 `4`。 不建議長期啟用這項設定。
+> 將 TracingVerbosity 啟用為 `5`，可能會根據閘道使用量而大幅增加記錄大小。 在您檢閱完記錄之後，需要將 TraceVerbosity 設定為 `4`。 不建議長期啟用這項設定。
 > 
 > 
 
@@ -352,10 +354,76 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
    > 
    > 
 
+## <a name="kerberos"></a>Kerberos
+
+如果未針對 [Kerberos 限制委派](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)正確設定基礎資料庫伺服器和內部部署資料閘道，請啟用閘道上的[詳細資訊記錄](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig)，並根據閘道記錄檔中的錯誤/追蹤進行調查以作為疑難排解的起點。
+
+### <a name="impersonationlevel"></a>ImpersonationLevel
+
+ImpersonationLevel 與 SPN 設定或本機原則設定有關。
+
+```
+[DataMovement.PipeLine.GatewayDataAccess] About to impersonate user DOMAIN\User (IsAuthenticated: True, ImpersonationLevel: Identification)
+```
+
+**解決方案**
+
+遵循下列步驟來解決此問題：
+1. 針對內部部署閘道設定 SPN
+2. 在 Active Directory (AD) 中設定限制委派
+
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException：無法針對使用者的使用者識別碼建立 Windows 身分識別
+
+如果您不能代表其他使用者進行模擬，就會發生 FailedToImpersonateUserException。 如果您嘗試模擬的帳戶來自閘道服務網域所在網域以外的其他網域 (這是限制)，也會發生此問題。
+
+**解決方案**
+* 確認已根據上述＜ImpersonationLevel＞一節中的步驟正確進行設定
+* 確定它正嘗試模擬的使用者識別碼是有效的 AD 帳戶
+
+### <a name="general-error-1033-error-while-parsing-protocol"></a>一般錯誤；剖析通訊協定時發生 1033 錯誤
+
+如果使用者是使用 UPN (alias@domain.com) 來模擬的，則當您在 SAP HANA 中設定的外部識別碼與登入不符時，就會收到 1033 錯誤。 在記錄中，您將會在錯誤記錄檔上方看到「已將原始 UPN 'alias@domain.com' 取代為新的 UPN 'alias@domain.com'」，如下所示。
+
+```
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+```
+
+**解決方案**
+* SAP HANA 會要求模擬使用者在 AD 中使用 sAMAccountName 屬性 (使用者別名)。 如果這不正確，您將會看到 1033 錯誤。
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+
+* 您應該會在記錄中看到 sAMAccountName (別名) 而不是 UPN，其為後面接著網域的別名 (alias@doimain.com)
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+
+```
+      <setting name="ADUserNameReplacementProperty" serializeAs="String">
+        <value>sAMAccount</value>
+      </setting>
+      <setting name="ADServerPath" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="CustomASDataSource" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ADUserNameLookupProperty" serializeAs="String">
+        <value>AADEmail</value>
+```
+
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] 通訊連結失敗;-10709 連線失敗 (RTE:[-1] Kerberos 錯誤。 主要: "其他失敗 [851968]"，次要: "安全性套件沒有可供使用的認證
+
+如果未在 AD 中正確設定您的委派，您將會收到 -10709 連線失敗錯誤訊息。
+
+**解決方案**
+* 針對閘道服務帳戶，在 AD 中的 [委派] 索引標籤上，確定您有 SAP Hana 伺服器
+
+   ![委派索引標籤](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
-### <a name="refresh-history"></a>重新整理記錄
+### <a name="refresh-history"></a>重新整理歷程記錄
 使用閘道進行排定的重新整理時，**重新整理記錄**可以協助您查看發生了哪些錯誤，以及在需要建立支援要求時提供有用的資料。 您可以同時檢視已排程及依需求的重新整理。 以下是取得 **重新整理記錄**的方式。
 
 1. 在 Power BI 瀏覽窗格中，於 [資料集]  中選取資料集 &gt; [開啟功能表]&gt; [排程重新整理] 。
@@ -378,4 +446,3 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 [管理您的資料來源 - SQL Server](service-gateway-enterprise-manage-sql.md)  
 [管理您的資料來源 - 匯入/已排程的重新整理](service-gateway-enterprise-manage-scheduled-refresh.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

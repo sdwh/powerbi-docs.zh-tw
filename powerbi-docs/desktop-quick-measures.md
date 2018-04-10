@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI 中使用快速量值，輕鬆執行常用及功能強大的計算"
-description: "快速量值提供現成的 DAX 公式，以快速執行常用的計算"
+title: 在 Power BI 中使用快速量值，輕鬆執行常用及功能強大的計算
+description: 快速量值提供現成的 DAX 公式，以快速執行常用的計算
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9cc94593ca6fd98590d69bee3a2fa4cae6d0050
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>使用快速量值，輕鬆執行常用及功能強大的計算
 您可以使用**快速量值**，快速輕鬆執行常用及功能強大的計算。 **快速量值**會依據您在對話方塊中提供的輸入，在幕後執行一組 DAX 命令 (DAX 是現成的，所以您不必撰寫)，然後顯示結果，供您在報表中使用。 更棒的是，您可以查看快速量值所執行的 DAX，以啟發或拓展您的 DAX 知識。
@@ -46,7 +46,7 @@ ms.lasthandoff: 02/24/2018
 
 目前載入的資料集必須可進行模型化，才能使用 [快速量值]。 否則，當您以滑鼠右鍵按一下 [欄位] 清單時，即時連線 (例如 Power BI 服務資料集的連線) 不會顯示 [快速量值] 功能表項目 (SSAS 即時連線則除外)。 
 
-使用 SQL Server Analysis Services (SSAS) 即時連線時，可以使用部分**快速量值**。 **Power BI Desktop** 只會顯示建立連線之 SSAS 版本支援的**快速量值**集合。 因此，如果您連線到 SSAS 即時資料來源且看不到清單中的某些**快速量值**，這是因為您所連線的 SSAS 版本不支援 用來實作該**快速量值**的 DAX 量值。
+使用 SQL Server Analysis Services (SSAS) 即時連線時，可以使用部分**快速量值**。 **Power BI Desktop** 只會顯示建立連線之 SSAS 版本支援的**快速量值**集合。 因此，如果您連線到 SSAS 即時資料來源，但看不到清單中的某些**快速量值**，這是因為您所連線的 SSAS 版本不支援用來實作該**快速量值**的 DAX 量值。
 
 從右鍵功能表選取時，以下 [快速量值] 視窗隨即顯示，讓您可以選取想要的計算，以及您要執行計算的目標欄位。
 
@@ -59,14 +59,14 @@ ms.lasthandoff: 02/24/2018
 快速量值計算類型有五種不同群組，各自有一組計算。 群組和計算如下：
 
 * **依類別來彙總**
-  * 分類中的平均
-  * 分類中的差異
-  * 分類中的最大值
-  * 分類中的最小值
+  * 每個類別的平均值
+  * 每個類別的變異數
+  * 每個分類的最大值
+  * 每個分類的最小值
   * 每個分類的加權平均
 * **篩選條件**
   * 篩選過的值
-  * 基準差異
+  * 與篩選後值的差值
   * 與篩選後值的百分比差異
   * 新類別的銷售量
 * **時間智慧**
@@ -92,7 +92,7 @@ ms.lasthandoff: 02/24/2018
   * 星級評等
   * 值的串連清單
 
-我們很期待擴增這些計算，也想要知道您想要哪些**快速量值**，以及您是否對**快速量值**有任何想法 (包括基礎 DAX 公式) 要提交給我們參考。 您可以在文末找到相關的詳細資訊。
+我們很期待擴增這些計算，也想要知道您想要看見哪些**快速量值**，以及您是否對**快速量值**有任何想法 (包括基礎 DAX 公式) 要提交給我們參考。 您可以在文末找到相關的詳細資訊。
 
 ## <a name="example-of-quick-measures"></a>快速量值的範例
 讓我們看看其中一個**快速量值**實際執行的範例。
@@ -101,7 +101,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
-當我們以右鍵按一下 [值] 欄位並選取 [快速量值]，可以選取 [分類中的平均] 作為「計算」，然後選取 [Sum of SalesAmount] 作為「基底值」，再從右側窗格的 [欄位] 方塊將該欄位拖曳到左側 [分類] 區段中，以指定 *SalesAmount*。
+當我們以滑鼠右鍵按一下 [值] 欄位並選取 [快速量值] 時，可以選取 [每個類別的平均值] 作為「計算」，然後選取 [Sum of SalesAmount] 作為「基底值」，再從右側窗格的 [欄位] 方塊將該欄位拖曳到左側 [分類] 區段中，以指定 *SalesAmount*。
 
 ![](media/desktop-quick-measures/quick-measures_06.png)
 
@@ -128,7 +128,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-quick-measures/quick-measures_10.png)
 
-這項功能本身很棒，因為您可以看到量值背後的公式。 但更重要的是，還能讓您使用**快速量值**了解如何建立基礎 DAX 公式。
+這項功能本身很棒，因為您可以看到量值背後的公式。 但更重要的是，還能讓您使用**快速量值**來了解如何建立基礎 DAX 公式。
 
 想像您需要進行年度計算，但不確定如何建立 DAX 公式 (或您不知道從哪裡著手！)。 與其在桌前懊惱，不如使用**年度變化**計算來建立**快速量值**，並查看執行方式。 也就是建立**快速量值**並查看其如何在視覺效果中顯示、查看 DAX 公式如何運作，然後直接對 DAX 進行變更或建立另一個量值，直到計算滿足您的需求或預期為止。
 

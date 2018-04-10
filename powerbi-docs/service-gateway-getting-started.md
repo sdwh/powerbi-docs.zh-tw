@@ -1,15 +1,15 @@
 ---
-title: "開始使用 Power BI 閘道"
-description: "了解 Power BI 資料閘道的基本概念。"
+title: 開始使用 Power BI 閘道
+description: 了解 Power BI 資料閘道的基本概念。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: e56af5ae1c59afc7d7aef01450bb1c778eb70b14
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bf01bb7764db09d6afe24e520f2d185c191ef56c
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>開始使用 Power BI 閘道
 歡迎使用**開始使用 Power BI 閘道**指南。 這個簡短逐步解說會帶領您了解閘道的作用、其運作方式，以及如何安裝、設定和執行專屬閘道。  
@@ -86,7 +86,7 @@ ms.lasthandoff: 02/24/2018
 * 閘道不能安裝在網域控制站上。
 * 同一部電腦最多可安裝兩個內部部署資料閘道，每個閘道各執行一種模式 (個人和標準)。 
 * 同一部電腦不可有一個以上的閘道執行相同的模式。
-* 不同電腦上可安裝多個內部部署資料閘道，並可從相同的 Power BI 閘道管理介面一併管理 (個人模式除外，請參閱下列的項目符號)。
+* 不同電腦上可安裝多個內部部署資料閘道，並可從相同的 Power BI 閘道管理介面一併管理 (個人模式除外，請參閱下列項目符號)。
 * 每個 Power BI 使用者只能執行一個個人模式閘道。 如果為相同的使用者安裝另一個個人模式閘道 (即使在不同的電腦上)，最新的安裝都會取代先前的既有安裝。
 
 選取 [下一步] 時，即開始安裝閘道。 您需要指定安裝它的位置，而且通常最好是預設位置。
@@ -162,7 +162,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="next-steps"></a>後續步驟
 [使用內部部署資料閘道](service-gateway-onprem.md)  
 [內部部署資料閘道 - 深入資訊](service-gateway-onprem-indepth.md)  
-[在內部部署資料閘道 (個人模式)](service-gateway-personal-mode.md)
+[內部部署資料閘道 (個人模式)](service-gateway-personal-mode.md)
 [為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

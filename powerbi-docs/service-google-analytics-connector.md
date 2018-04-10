@@ -1,15 +1,15 @@
 ---
-title: "協力廠商服務：適用於 Power BI Desktop 的 Google Analytics 連接器"
-description: "協力廠商服務：適用於 Power BI Desktop 的 Google Analytics 連接器"
+title: 協力廠商服務：適用於 Power BI Desktop 的 Google Analytics 連接器
+description: 協力廠商服務：適用於 Power BI Desktop 的 Google Analytics 連接器
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e05f64b52c34b3f038994e9cac8a9b7e6aebc7ad
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdd48073d80176eff1576633c2e9f15bdd430a60
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop 的 Google Analytics 連接器
 > [!NOTE]
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/24/2018
 您可以使用 **Google Analytics (分析)** 連接器連接 Google Analytics 資料。 若要連接，請遵循下列步驟：
 
 1. 在 **Power BI Desktop** 中，從 [主資料夾] 功能區索引標籤選取 [取得資料]。
-2. 在 [取得資料]  視窗中，從左窗格的類別中選取 [其他]  。
+2. 在 [Get Data] \(取得資料\) 視窗中，從左窗格的類別中選取 [線上服務]。
 3. 從右窗格的選項中選取 [Google Analytics]  。
 4. 在視窗底部選取 [連接] 。  
    ![](media/service-google-analytics-connector/tps_googleanalytics_1.png)

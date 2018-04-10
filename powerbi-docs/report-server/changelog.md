@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 1345cfee8eb92b9b4e3cf883f19edddee859a1c3
+ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/29/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -31,6 +31,12 @@ ms.lasthandoff: 03/20/2018
 
 ## <a name="march-2018"></a>2018 年 3 月
 - **Power BI 報表伺服器**
+    - 版本 1.2.6660.39920 (組建 15.0.2.389)，發行日期：2018 年 3 月 28 日
+        - Bug 修正
+            - 針對 Power BI 報表 (PBIX)，修正匯出資料無法從 Power BI 視覺效果運作的情況
+            - 針對 Power BI 報表 (PBIX)，修正 URL 篩選無法運作的情況
+            - 針對編頁報表 (RDL)，修正在升級到 Power BI 報表伺服器 3 月版本之後映像無法在 IE11 中正確顯示的情況
+
     - 版本 1.2.6648.38132 (組建 15.0.2.378)，發行日期：2018 年 3 月 19 日
         - 安全性更新
         - 協助工具改善

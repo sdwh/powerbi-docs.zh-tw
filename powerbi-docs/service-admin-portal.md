@@ -1,28 +1,28 @@
 ---
-title: "Power BI 管理入口網站"
-description: "管理入口網站可讓您管理貴組織的 Power BI 租用戶。 包含項目如使用計量、存取 Office 365 系統管理中心及設定等。"
+title: Power BI 管理入口網站
+description: 管理入口網站可讓您管理貴組織的 Power BI 租用戶。 包含項目如使用計量、存取 Office 365 系統管理中心及設定等。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
-ms.author: maghan
+ms.date: 04/02/2018
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
 
@@ -148,7 +148,7 @@ ms.lasthandoff: 03/08/2018
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>發行至網站
+### <a name="publish-to-web"></a>發佈至網站
 
 組織中的使用者可以將報表發行到網路。 [深入了解](service-publish-to-web.md)
 
@@ -326,8 +326,8 @@ ms.lasthandoff: 03/08/2018
  
 ### <a name="how-to-update-a-visual"></a>如何更新視覺效果
 
-如果有新版的視覺效果 (例如，Bug 修正、新功能等)，而想要更新存放庫中的視覺效果，請上傳新的檔案 (確定視覺效果識別碼維持不變) 成為清單中的新入口，並確定您在標題和描述中提供了正確的詳細資料 (例如，「我的視覺效果 2.0 版」)。 下一次使用者從 Power BI Desktop 進入組織存放庫時，將能匯入新的版本，並且會出現提示取代報表中的目前版本。
- 
+如果您因為有新版的視覺效果 (例如 Bug 修正、新功能等) 而想要更新存放庫中的視覺效果，請選取**更新**圖示並上傳新檔案。 確定視覺效果識別碼會維持不變。 新檔案將取代先前的檔案，供整個組織內的所有報表使用。 不過，如果新版的視覺效果可能會中斷舊版視覺效果的任何使用方式或資料結構，則不要取代舊版。 您應該改以為新版視覺效果建立新的清單。 例如，將新的版本號碼 (版本 X.X) 新增至最新列出的視覺效果標題中。 透過這種方法，可以很清楚地表示它只是具有更新版本號碼的相同視覺效果，讓現有的報表不會中斷其功能。 再次提醒，請確定視覺效果識別碼維持不變。 之後，當使用者下一次從 Power BI Desktop 進入組織存放庫時，就能匯入新版本，並將提示他們來取代報表中的目前版本。
+
 ## <a name="next-steps"></a>後續步驟
 
 [了解 Power BI 系統管理員角色](service-admin-role.md)  

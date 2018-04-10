@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用報表主題 (預覽)
-透過 [報表主題]，您可以將某個色彩主題套用至整個報表，例如公司色彩、季節性色彩，或是您可能想要套用至報表的任何其他色彩主題。 當您套用 [報表主題] 時，報表中的所有視覺效果都會使用您選取之主題中的色彩 (但有些例外，本文稍後將進行說明)。
+透過**報表主題**，您可以將某個色彩主題套用至整個報表，例如公司色彩、季節性色彩，或是您可能想要套用的任何其他色彩主題。 當您套用 [報表主題] 時，報表中的所有視覺效果都會使用您選取之主題中的色彩 (但有些例外，本文稍後將進行說明)。
 
 ![](media/desktop-report-themes/report-themes_1.png)
 
@@ -62,7 +62,7 @@ ms.lasthandoff: 03/23/2018
 
 * **name** - 這是主題名稱，也是唯一必要的欄位
 * **dataColors** - 列出可用於 Power BI Desktop 視覺效果資料的十六進位碼色彩代碼。 此清單可視需要包含任意數量的色彩
-* **background**、**foreground** 和 **tableAccent** - 這些值是應該在 [資料表] 和 [矩陣] 視覺效果中使用的色彩。 這些色彩的使用方式取決於所套用的特定資料表或矩陣樣式。 「資料表」和「矩陣」視覺效果預設會套用這些樣式。
+* **background**、**foreground** 和 **tableAccent**：這些值是應該在 [資料表] 和 [矩陣] 視覺效果中使用的色彩。 這些色彩的使用方式取決於所套用的特定資料表或矩陣樣式。 「資料表」和「矩陣」視覺效果預設會套用這些樣式。
 
 若要將樣式套用至 [資料表] 或 [矩陣] 視覺效果，請選取視覺效果並在 [視覺效果] 窗格中選取 [格式] 區段，然後展開 [矩陣樣式] 並從 [樣式] 下拉式清單選取一個樣式。
 
@@ -78,7 +78,7 @@ ms.lasthandoff: 03/23/2018
         "tableAccent": "#568410"
     }
 
-在這裡，您可以輸入代表所選色彩的自訂色彩十六進位碼。
+您可以從該處輸入代表所選色彩的自訂色彩十六進位碼。
 
 從 2017 年 9 月版本的 **Power BI Desktop** 開始，JSON 檔案可以更詳盡。 在 JSON 檔案中，您只會定義想要影響的格式設定，而任何「未」在 JSON 中指定的一切都會還原為 Power BI 預設設定。
 
@@ -100,7 +100,7 @@ ms.lasthandoff: 03/23/2018
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>報表主題色彩與報表不一致的情況
 如果您將自訂色彩設定 (或個別色彩) 套用至視覺效果中的特定資料點，套用報表主題將「不會」覆寫自訂資料點色彩。
 
-此外，如果您使用調色盤的 [佈景主題色彩] 區段手動設定資料點的色彩，當您套用新的報表主題時，將「不會」更新該色彩 (或這些色彩)。 若要還原為您的預設色彩 (以便在套用新的報表主題時更新這些色彩)，您可以在 [佈景主題色彩] 調色盤中選取 [還原為預設值]。
+此外，如果您使用調色盤的 [佈景主題色彩] 區段手動設定資料點的色彩，當您套用新的報表主題時，將「不會」更新該色彩 (或那些色彩)。 若要還原為您的預設色彩 (以便在套用新的報表主題時更新這些色彩)，您可以在 [佈景主題色彩] 調色盤中選取 [還原為預設值]。
 
 ![](media/desktop-report-themes/report-themes_9.png)
 

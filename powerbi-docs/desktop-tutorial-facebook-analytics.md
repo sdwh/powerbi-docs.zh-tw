@@ -1,15 +1,15 @@
 ---
-title: "教學課程：使用 Power BI Desktop 的 Facebook 分析"
-description: "教學課程：使用 Power BI Desktop 的 Facebook 分析"
+title: 教學課程：使用 Power BI Desktop 的 Facebook 分析
+description: 教學課程：使用 Power BI Desktop 的 Facebook 分析
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,213 +18,234 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e0bdec7d2774fd5c6641041af14b2170d7223151
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6113ab53e36dd035772c0bd9812f9870a6404eac
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教學課程：使用 Power BI Desktop 的 Facebook 分析
-本教學課程中，您將了解如何將資料從 **Facebook**匯入並視覺化。 在本教學課程中，您將學習如何連接到特定的 Facebook 頁面 (Power BI 頁面)、套用資料轉換步驟，並建立一些視覺效果。
 
-以下是您要執行的步驟：
+在本教學課程中，您將了解如何從 Facebook 匯入資料，並用於 Power BI Desktop 中。 您將連線 Power BI Facebook 頁面並從中匯入資料、將轉換套用至匯入的資料，然後在報表視覺效果中使用資料。
 
-* **工作 1：** 連接至 Facebook 網頁
-* **工作 2**：使用報表檢視建立視覺效果
-  
-  * **步驟 1**：建立樹狀圖視覺效果
-* **工作 3**：在查詢檢視中塑造資料
-  
-  * **步驟 1**：將日期時間資料行分成兩個
-  * **步驟 2**：加入相關資料表中的彙總值
-* **工作 4**：使用報表檢視建立其他視覺效果
-  
-  * **步驟 1**：載入查詢到您的報表
-  * **步驟 2**：建立折線圖和橫條圖
+## <a name="connect-to-a-facebook-page"></a>連線至 Facebook 頁面
 
-## <a name="task-1-connect-to-a-facebook-page"></a>**工作 1：連線至 Facebook 網頁**
-在這項工作中，您要從 [Microsoft Power BI Facebook](https://www.facebook.com/microsoftbi) 網站 (URL 是：*https://www.facebook.com/microsoftbi) 匯入資料*.
+本教學課程使用來自 [Microsoft Power BI Facebook 頁面](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*) 的資料。 除了個人的 Facebook 帳戶之外，您不需要任何特殊認證就能連線此頁面並從中匯出資料。
 
-任何人都可以連接到該頁面上，並遵循下列步驟 - 不需要任何特殊的認證 (除了您自己的 Facebook 帳戶以外，您在此步驟中會用到)。
-
-![](media/desktop-tutorial-facebook-analytics/1.png)
-
-1. 在 [開始使用] 對話方塊或 [常用] **功能區索引標籤**中，選取 [取得資料]。
-2. [取得資料]  對話方塊隨即出現，讓您從各種資料來源中選取。 從 [其他]  群組選取 [Facebook]  。
+1. 開啟 Power BI Desktop，接著在 [開始使用] 對話方塊中選取 [取得資料]，或在 [首頁] 功能區索引標籤中選取 [取得資料]，然後選取 [更多]。
    
-   ![](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
+2. 在 [取得資料] 對話方塊中，從 [線上服務] 群組選取 [Facebook]，然後選取 [連接]。
    
-   當您選取 [連接] 時，對話方塊隨即出現，警示您使用協力廠商服務的風險。
+   ![取得資料](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
-3. 當您選取 [繼續] 後， **Facebook** 對話方塊隨即出現，您可將頁面名稱 (**microsoftbi**) 貼到 [使用者名稱]  文字方塊。 從 [連線]  下拉式清單選取 [貼文]  。
+   對話方塊隨即出現，提醒您使用第三方服務的風險。
    
-   ![](media/desktop-tutorial-facebook-analytics/2.png)
-4. 按一下 [確定] 。
-5. 當系統提示您輸入認證時，請使用您的 Facebook 帳戶登入，並允許 Power BI 存取您的帳戶。
+   ![第三方服務警告](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/facebookcredentials.png)
-
-建立對於頁面連線後，您會看到模型載入資料。 
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
-
-其中 **查詢編輯器** 會顯示資料。 **查詢編輯器** 是 Power BI Desktop 的一部分，但在個別視窗中載入，也是在資料連線上執行轉換的地方。
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
-
-當資料為您所需時，您可以將它載入 Power BI Desktop。 從 [常用] 功能區選取 [載入並關閉]。
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
-
-您會看到一個對話方塊，顯示將資料載入 Power BI Desktop 資料模型的進度。
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loading.png)
-
-載入之後，您將會進入 [報表]  檢視，其中會在右邊的 [欄位]  清單列出資料表的資料行。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner1.png)
-
-## <a name="task-2-create-visualizations-using-the-report-view"></a>**工作 2：使用報表檢視建立視覺效果**
-現在您已從頁面載入資料，您可以使用視覺效果，快速且輕鬆地深入了解您的資料。
-
-**步驟 1** ：建立樹狀圖視覺效果
-
-建立視覺效果不難，我們只要從 [欄位清單] 拖曳欄位，並放置在 [報表畫布]。
-
-將 [type] 欄位拖曳到 [報表] 畫布。 Power BI Desktop 會在 [報表畫布] 中建立新的視覺效果。 接下來，將 \[type] 從 \[欄位] \(您剛才拖曳至 \[報表] 畫布的相同欄位) 拖曳至 [值] 區域，以建立 \[橫條圖] 視覺效果。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner2.png)
-
-我們可以從 [視覺效果]  窗格選取不同的圖示，輕鬆變更視覺效果的類型。 讓我們將類型變更為 [樹狀圖]  ，方法是從 [視覺效果] 選取其圖示，如下圖所示。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3.png)
-
-接下來讓我們加入圖例，然後變更資料點的色彩。 在 [視覺效果]  窗格中選取 [格式]  圖示；[格式]  圖示看起來像畫刷。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3a.png)
-
-當您選取 [圖例] 旁的向下箭號時，此區段會展開，以顯示如何自訂所選取視覺效果的圖例。 在本案例中，我們執行下列選項：
-
-* 將 [圖例]  滑桿移動至 [開啟]  讓圖例出現
-* 從 [圖例位置]  下拉式清單選取 [右邊] 
-* 將 [標題]  滑桿移動至 [開啟]  ，讓圖例的標題出現
-* 在 [類型]  輸入圖例的標題
-
-在下圖中，已經進行這些設定，且會在視覺效果中反映。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3b.png)
-
-接下來讓我們變更其中一個資料點的色彩。 這個連結資料點應該是藍色，所以很接近超連結的常見色彩。
-
-選取 [資料色彩]  旁邊的箭頭，以展開該區段。 資料點隨即顯示，同時在每個顏色旁都有選取項目箭頭，讓我們為每個資料點選取不同色彩。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3c.png)
-
-當您按一下任何資料點旁 [色彩] 方塊的向下箭號時，[色彩選擇] 對話方塊隨即出現，讓您選擇色彩。 在此情況下，我們將選擇淺藍色。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3d.png)
-
-這樣看起來好多了。 在下圖中，您可以看到色彩如何套用至視覺效果中的資料點，且圖例也會自動更新，如同其在 [資料色彩]  區段的色彩一樣。
-
-![](media/desktop-tutorial-facebook-analytics/fbdesigner3e.png)
-
-## <a name="task-3-shape-data-in-the-table"></a>**工作 3：將資料表中的資料定形**
-現在您已匯入選取的資料表，而且您開始以視覺化方式檢視，您可能會發現您需要執行各種資料圖形和清理步驟，以充分運用您的資料。
-
-**步驟 1** ：將日期時間資料行分成兩個
-
-在此步驟中，您將分割 **created\_time** 資料行，以取得日期和時間值。 每當您進入 Power BI Desktop，並且想要修改現有的查詢，您就需要啟動 [查詢編輯器] 。 若要這樣做，請從 [主資料夾]  索引標籤選取 [編輯查詢]  。
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
-
-1. 在 [查詢編輯器] 方格中，捲動至右方，直到您找到 **created\_time** 資料行
-2. 以滑鼠右鍵按一下 [查詢預覽] 方格中的資料行標頭，然後按一下 [分割資料行]**\> [依分隔符號]** 以分割資料行。 在分隔符號下拉式清單中選擇 [自訂]，然後輸入 **"T"**。請注意這項作業也適用於 [常用] 功能區索引標籤的 [管理資料行] 群組。
+3. 選取 [繼續]。 [Facebook] 對話方塊隨即出現。
    
-   ![](media/desktop-tutorial-facebook-analytics/9.png)
+4. 在 [使用者名稱] 文字方塊中輸入或貼上頁面名稱 **microsoftbi**、從 [連接] 下拉式清單中選取 [貼文]，然後選取 [確定]。
    
-   ![](media/desktop-tutorial-facebook-analytics/10.png)
-3. 將建立的資料行分別重新命名為 **created\_date** 和 **created\_time**。
-4. 選取新的資料行 **created\_time**，**** 然後在 [查詢檢視] 功能區中，瀏覽至 [加入資料行] 索引標籤，並在 [日期和時間] 群組下選取 [時間] **\> [小時]**。 這會新增新的資料行，其中只有時間的小時部分。
+   ![連線](media/desktop-tutorial-facebook-analytics/2.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/11.png)
-5. 將新的 **Hour** 資料行類型變更為 [整數]，方法是瀏覽至 [常用] 索引標籤，並選取 [資料類型] 下拉式清單，或以滑鼠右鍵按一下資料行，並選取 [轉換] **\> [整數]**。
+5. 當提示您輸入認證時，請登入您的 Facebook 帳戶，並允許 Power BI 存取您的帳戶。
    
-   ![](media/desktop-tutorial-facebook-analytics/12.png)
+   ![認證](media/desktop-tutorial-facebook-analytics/facebookcredentials.png)
 
-**步驟 2** ：加入相關資料表中的彙總值
-
-在此步驟中，您會加入巢狀值的共用計數，以便您使用於視覺效果中。
-
-1. 繼續向右捲動，直到您看到 [shares]  資料行。 巢狀的值表示我們需要做其他轉換才能取得實際的值。
-2. 在資料行標頭右上角選取 ![](media/desktop-tutorial-facebook-analytics/14.png) 圖示以開啟 [展開/彙總] 產生器。 選取 [計數]  並點擊 [確定] 。 這會在資料表新增每個資料列的共用計數。
+   連接到 Power BI Facebook 頁面之後，您就會看見頁面**貼文**資料的預覽。 
    
-   ![](media/desktop-tutorial-facebook-analytics/15.png)
+   ![資料預覽](media/desktop-tutorial-facebook-analytics/t_fb_1-loadpreview.png)
    
-   資料載入之後，將資料行重新命名為 **shares** ，方法是用滑鼠右鍵按一下資料行名稱，以滑鼠右鍵在資料行或在 [查詢檢視]  功能區上按一下，選取 [轉換]  索引標籤和 [任何資料行]  群組下的 [重新命名]  。
-3. 最後，變更新的 **shares** 資料行類型為 **整數**。 您可以選取資料行並變更類型，方法是以滑鼠右鍵按一下資料行，並選取 [轉換] **\>[整數]** 或 **** 瀏覽至 [常用] 索引標籤，並選取 [資料類型] 下拉式清單。
+## <a name="shape-and-transform-the-imported-data"></a>使匯入的資料成形和轉換
 
-### <a name="query-steps-created"></a>已建立的查詢步驟
-當您在查詢檢視中執行轉換時，會建立查詢步驟並列於 [查詢設定]  窗格的 [適用步驟]  清單中。 每個查詢步驟都有對應的查詢公式，也稱為 "M" 語言。
+您想要查看並顯示歷來具有最多留言的貼文，但您注意到在**貼文**資料預覽中，**created_time** 資料難以閱讀和理解，而且完全沒有任何留言資料。 您需要執行某種資料成形和清理作業，才能充分利用資料。 您可以使用 Power BI Desktop 的 **Power Query 編輯器**，在將資料匯入至 Power BI Desktop 之前或之後加以編輯。 
 
-![](media/desktop-tutorial-facebook-analytics/16.png)
+### <a name="split-the-datetime-column"></a>分割日期/時間資料行
 
-| 工作 | 查詢步驟 | 公式 |
-| --- | --- | --- |
-| 連接至 Facebook 來源 |來源 |Facebook.Graph (&quot;https://graph.facebook.com/microsoftbi/posts&quot;) |
-| **分割資料行** 以取得您需要的值 |依分隔符號分割資料行 |Table.SplitColumn (Source,&quot;created_time&quot;,Splitter.SplitTextByDelimiter(&quot;T&quot;),{&quot;created_time.1&quot;, &quot;created_time.2&quot;}) |
-| **變更新資料行的類型** (自動步驟) |變更的類型 |Table.TransformColumnTypes (#&quot;依分隔符號分割資料行&quot;,{{&quot;created_time.1&quot;, type date}, {&quot;created_time.2&quot;, type time}}) |
-| **為**資料行**重新命名** |重新命名的資料行 |Table.RenameColumns (#&quot;變更的類型&quot;,{{&quot;created_time.1&quot;, &quot;created_date&quot;}, {&quot;created_time.2&quot;, &quot;created_time&quot;}}) |
-| **插入**資料行**** |插入的小時 |Table.AddColumn (#&quot;重新命名的資料行&quot;, &quot;Hour&quot;, each Time.Hour([created_time]), type number) |
-| **變更類型** |變更的類型 1 |Table.TransformColumnTypes (#&quot;插入的小時&quot;,{{&quot;Hour&quot;, type text}}) |
-| **展開**巢狀表格中的值**** |展開 [shares] |Table.ExpandRecordColumn (#&quot;變更的類型 1&quot;, &quot;shares&quot;, {&quot;count&quot;}, {&quot;shares.count&quot;}) |
-| **為**資料行**重新命名** |重新命名資料行1 |Table.RenameColumns (#&quot;展開 shares&quot;,{{&quot;shares.count&quot;, &quot;shares&quot;}}) |
-| **變更類型** |已變更的類型 2 |Table.TransformColumnTypes (#&quot;重新命名的資料行 1&quot;,{{&quot;shares&quot;, Int64.Type}}) |
+首先，分隔 **created_time** 資料行中的日期和時間值，使其更容易閱讀。 
 
-## <a name="task-4-create-additional-visualizations-using-the-report-view"></a>**工作 4：使用報表檢視建立其他視覺效果**
-現在我們已將資料轉換為圖形，供我們接下來的分析所用，我們可以將產生的資料表載入報表，並建立其他視覺效果。
-
-**步驟 1** ：載入查詢到您的報表
-
-若要將查詢結果載入至報表，我們要從 [查詢編輯器] 選取 [載入並關閉]。 這會將我們所做的變更載入 Power BI Desktop，並關閉 [查詢編輯器] 。
-
-![](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
-
-在 Power BI Desktop，必須確定我們是否位於 [報表]  檢視。 從 Power BI Desktop 中的左工具列選取上方圖示。
-
-![](media/desktop-tutorial-facebook-analytics/17.png)
-
-**步驟 2** ：建立折線圖和橫條圖
-
-若要建立視覺效果，我們可以將欄位從 [欄位清單]  拖曳到 [報表畫布] 。
-
-1. 將 [共用]  欄位拖曳到 [報表]  畫布，建立橫條圖。 然後將 created\_date 拖曳到圖表上，而 Power BI Desktop 會將視覺效果變更為 [折線圖]。
+1. 在 Facebook 資料預覽中，選取 [編輯]。 
    
-   ![](media/desktop-tutorial-facebook-analytics/19.png)
-2. 下一步，將 [共用]  欄位拖曳至 [報表畫布] 。 現在將 [小時]  欄位拖曳到 [欄位清單]  下的 [軸] 區段。
+   ![資料預覽編輯](media/desktop-tutorial-facebook-analytics/t_fb_1-editpreview.png)
    
-   ![](media/desktop-tutorial-facebook-analytics/20.png)
-3. 我們可以在 [視覺效果]  窗格按一下不同的圖示，輕鬆變更視覺效果的類型。 下圖的箭號指向**橫條圖**圖示。
+   Power BI Desktop 的 **Power Query 編輯器**會在新視窗中開啟，並顯示來自 Power BI Facebook 頁面的資料預覽。 
    
-   ![](media/desktop-tutorial-facebook-analytics/21.png)
-4. 請將視覺效果類型變更為 [橫條圖] 。
-5. [橫條圖]  隨即建立，但軸卻不是我們所要的 - 我們想要從另一方向 (從高到低) 進行排序。 選取 [Y 軸]  旁邊的向下箭頭，以展開該區段。 我們要將軸的類型從 [連續]  變更為 [類別] ，因此它將依我們所需方式排序 (下圖顯示我們選擇之前的軸 - 請看後續的圖，了解我們想要的樣子)。
+   ![Power Query 編輯器](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
+   
+2. 選取 **created_time** 資料行。 請注意，它目前是文字資料類型，在資料行標頭中會以 **ABC** 圖示來表示。 以滑鼠右鍵按一下標頭，然後在下拉式清單中選取 [分割資料行] > [依分隔符號]，或在功能區 [首頁] 索引標籤的 [轉換] 下方選取 [分割資料行] > [依分隔符號]。  
+   
+   ![依分隔符號分割資料行](media/desktop-tutorial-facebook-analytics/delimiter1.png)
+   
+3. 在 [依分隔符號分割資料行] 對話方塊中，從下拉式清單中選取 [自訂]、於輸入欄位中輸入 **T** (作為 created_time 值時間部分開頭的字元)，然後選取 [確定]。 
+   
+   ![[依分隔符號分割資料行] 對話方塊](media/desktop-tutorial-facebook-analytics/delimiter2.png)
+   
+   該資料行會分割成兩個資料行，各自包含 **T** 分隔符號前後的字串，並分別命名為 **created_time.1** 和 **created_time.2**。 請注意，Power BI 已自動偵測到並將第一個資料行的資料類型變更為 **Date**，以及將第二個資料行變更為 **Time**，而且已將日期和時間值格式化，使其更容易閱讀。
+   
+4. 按兩下各個資料行標頭，或選取每個資料行，然後選取功能區中 [轉換] 索引標籤之 [任何資料行] 群組中的 [重新命名]，接著分別輸入新的資料行標頭 **created_date** 和 **created_time**，藉以將資料行重新命名。
+   
+   ![新的日期和時間資料行](media/desktop-tutorial-facebook-analytics/delimiter3.png)
+   
+### <a name="expand-the-nested-column"></a>展開巢狀資料行
 
-![](media/desktop-tutorial-facebook-analytics/22.png)
+日期和時間資料現在會以您想要的方式呈現，您可以展開巢狀資料行即可公開留言資料。 
 
-這樣看起來好多了。 現在我們在此頁面上有三個視覺效果，我們可以視需要設定大小以填滿報表頁面。
+1. 選取 **object_link** 資料行，然後選取 ![展開圖示](media/desktop-tutorial-facebook-analytics/14.png) 圖示，以開啟 [展開/彙總] 對話方塊。 選取 [connections] \(連接\)，然後選取 [確定]。 
+   
+   ![展開 object_link](media/desktop-tutorial-facebook-analytics/expand1.png)
+   
+   資料行標題會變更為 **object_link.connections**。
+2. 再次選取 **object_link.connections** 資料行上方的 ![展開圖示](media/desktop-tutorial-facebook-analytics/14.png) 圖示、選取 [comments] \(留言\)，然後選取 [確定]。 資料行標題會變更為 **object_link.connections.comments**。
+   
+3. 選取 **object_link.connections.comments** 資料行上方的 ![展開圖示](media/desktop-tutorial-facebook-analytics/14.png) 圖示，但這次在對話方塊中選取 [彙總] 而不是 [展開]。 選取 [# id 的計數]，然後選取 [確定]。 
+   
+   ![彙總留言](media/desktop-tutorial-facebook-analytics/expand2.png)
+   
+   資料行現在會顯示每個訊息的留言數目。 
+   
+4. 將 **object_link.connections.comments.id 的計數**資料行重新命名為 **Number of comments** \(留言數目\)。
+   
+5. 選取 **Number of comments** \(留言數目\) 標頭旁的向下箭號，然後選取 [遞減排序] 以查看已排序的貼文 (從最多留言數目到最少留言數目)。 
+   
+   ![每個訊息的留言](media/desktop-tutorial-facebook-analytics/data-fixed.png)
+   
+### <a name="review-query-steps"></a>檢閱查詢步驟
 
-![](media/desktop-tutorial-facebook-analytics/23.png)
+當您在 **Power Query編輯器**中使資料成形並轉換時，每個步驟都會記錄於 [Power Query 編輯器] 視窗右側 [查詢設定] 窗格的 [套用的步驟] 區域中。 您可以反向逐步執行「套用的步驟」，以確實查看您做了哪些變更，並視需要編輯、刪除或重新排列它們 (雖然這可能會有風險，因為變更前面的步驟可能中斷接下來的步驟)。 
 
-如您所見，自訂報表中的視覺效果很容易，所以可以依您想要的方式呈現資料。 Power BI Desktop 提供流暢的端對端體驗，包括從各種資料來源取得資料，調整以符合您的分析需求，乃至於以豐富且互動的方式將此資料視覺化。 準備好報表之後，您可以[將其上傳至 Power BI](desktop-upload-desktop-files.md) 並建立以此為基礎的儀表板，您可以與其他 Power BI 使用者共用該儀表板。
+套用資料轉換之後，套用的步驟看起來應該如下：
+   
+   ![套用的步驟](media/desktop-tutorial-facebook-analytics/applied-steps.png)
+   
+   >[!TIP]
+   >套用的步驟本質上是以 **Power Query 語言** (亦稱為 **M** 語言) 所撰寫的公式。 若要查看和編輯公式，請選取功能區 [首頁] 索引標籤之 [查詢] 群組中的 [進階編輯器]。 
 
-您可以在[這裡](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/FacebookAnalytics.pbix)下載本教學課程的最終結果
+### <a name="import-the-transformed-data"></a>匯入轉換的資料
 
-### <a name="where-else-can-i-get-more-information"></a>還可以從何處取得更多資訊？
+當您處理完資料之後，請在功能區的 [首頁] 索引標籤中選取 [關閉並套用] > [關閉並套用]，以將資料匯入至 Power BI Desktop。 
+   
+   ![關閉並套用](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
+   
+   對話方塊會顯示將資料載入至 Power BI Desktop 資料模型的進度。 
+   
+   ![正在載入資料](media/desktop-tutorial-facebook-analytics/t_fb_1-loading.png)
+   
+   載入資料之後，它會在報表檢視中顯示為 [欄位] 清單中的新查詢。
+   
+   ![新增查詢](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
+   
+## <a name="use-the-data-in-report-visualizations"></a>在報表視覺效果中使用資料 
+
+現在您已從 Facebook 頁面載入資料，便可以使用視覺效果，快速且輕鬆地深入解析您的資料。 建立視覺效果很簡單；只要選取一個欄位，或將它從 [欄位] 清單拖曳至報表畫布即可。
+
+### <a name="create-a-bar-chart"></a>建立橫條圖
+
+1. 在 Power BI Desktop 報表檢視中，從欄位清單選取 [message] \(訊息\)，或將它拖曳至畫布。 畫布上會出現一個顯示所有貼文訊息的資料表。 
+   
+   ![新增查詢](media/desktop-tutorial-facebook-analytics/table-viz.png)
+   
+2. 選取該資料表之後，也請選取欄位清單中的 **Number of comments** \(留言數目\)，或將它拖曳到資料表。 
+   
+3. 在 [視覺效果] 窗格中，選取**堆疊橫條圖**圖示。 資料表會變更為橫條圖，並顯示每個貼文的留言數目。 
+   
+   ![橫條圖](media/desktop-tutorial-facebook-analytics/barchart1.png)
+   
+4. 選取視覺效果右上角的省略符號 (...)，然後選取 [排序依據 Number of comments]，以便依遞減的留言數目排序資料表。 
+   
+   ![依留言數目排序](media/desktop-tutorial-facebook-analytics/barchart2.png)
+   
+5. 請注意，大部分留言都會與**空白**訊息相關聯 (這些貼文可能是報導、連結、影片或其他非文字內容)。 若要篩選出空白列，請選取 [視覺效果] 窗格底部 [篩選] 下方的 [message (全部)]、選取 [全選]，然後選取 [空白] 以將之取消選取。 [篩選] 項目會變更為 [message 不是 (空白)]，而空白列會從圖表視覺效果中消失。 
+   
+   ![篩選出空白](media/desktop-tutorial-facebook-analytics/barchart3.png)
+   
+### <a name="format-the-chart"></a>將資料表格式化
+
+視覺效果變得越來越有趣了，但您在圖表中看不到大部分貼文內容。 顯示更多貼文內容：
+
+1. 使用圖表視覺效果的控點，盡可能將圖表大小調整到最大。 
+   
+2. 選取圖表之際，選取 [視覺效果] 窗格中的**格式圖示** (滾筒刷)。
+   
+3. 選取 **Y 軸**旁的向下箭號，然後將 [最大容量] 旁的滑桿拖曳到最右邊 (50%)。 
+4. 同時將 [文字大小] 降至 **10** 以容納更多文字。
+   
+   ![格式變更](media/desktop-tutorial-facebook-analytics/barchart4.png)
+   
+   圖表現在會顯示更多貼文內容。 
+   
+   ![顯示更多貼文](media/desktop-tutorial-facebook-analytics/barchart5.png)
+   
+圖表的 X 軸 (留言數目) 不會顯示實際值，而且看不到圖表底部。 您決定改用資料標籤。 
+
+1. 選取格式圖示，然後選取 **X 軸**旁的滑桿來將它**關閉**。 
+   
+2. 選取**資料標籤**旁的滑桿以將之**開啟**。 現在圖表會顯示每個貼文的確切留言數目。
+   
+   ![套用資料標籤](media/desktop-tutorial-facebook-analytics/barchart6.png)
+   
+### <a name="edit-the-data-type"></a>編輯資料類型
+
+看起來好多了，但資料標籤全都有 **.0** 小數位數，這可能會造成失焦與誤解，因為 **Number of posts** \(貼文數目\) 必須是整數。 您需要將 **Number of posts** \(貼文數目\) 資料行的資料類型變更為整數。
+
+1. 若要編輯資料類型，以滑鼠右鍵按一下 [欄位] 清單中的 **Query1**，或將滑鼠停留在它的上方，並選取**更多選項**省略符號 (...)，然後選取 [編輯查詢]。 您也可以從功能區 [首頁] 索引標籤的 [外部資料] 區域中選取 [編輯查詢]，然後從下拉式清單中選取 [編輯查詢]。 Power BI Desktop 的 **Power Query 編輯器** 會在另一個視窗中開啟。
+   
+   ![從 [欄位] 清單編輯查詢](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![從功能區編輯查詢](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
+   
+2. 在 Power Query 編輯器中，選取 **Number of comments** \(留言數目\) 資料行，並透過下列其中一種方式，將資料類型變更為**整數**： 
+   - 選取 **Number of comments** \(留言數目\) 資料行標頭旁的 **1.2** 圖示，然後從下拉式清單中選取 [整數]，或者
+   - 以滑鼠右鍵按一下資料行標頭，然後選取 [變更類型] > [整數]，或者
+   - 在 [首頁] 索引標籤的 [轉換] 群組或 [轉換] 索引標籤的 [任何資料行] 群組中選取 [資料類型：十進位數字]，然後選取 [整數]。
+   
+   資料行標頭中的圖示會變更為 **123**，表示整數資料類型。
+   
+   ![變更資料類型](media/desktop-tutorial-facebook-analytics/change-datatype.png)
+   
+3. 選取 [關閉並套用] (或僅 [套用]) 以套用變更，同時讓 Power Query 編輯器視窗保持開啟。 一旦載入變更之後，圖表上的資料標籤就會變成整數。 
+   
+   ![具有整數的圖表](media/desktop-tutorial-facebook-analytics/vis-3.png)
+   
+### <a name="create-a-date-slicer"></a>建立日期交叉分析篩選器
+
+您想要以視覺化方式顯示貼文歷來的留言數目。 您可以建立交叉分析篩選器視覺效果，以篩選不同時間範圍的圖表資料。 
+
+1. 按一下畫布的空白區域，然後選取 [視覺效果] 窗格中的**交叉分析篩選器圖示**。 空白的交叉分析篩選器視覺效果隨即出現。 
+   
+   ![選取交叉分析篩選器圖示](media/desktop-tutorial-facebook-analytics/slicer1.png)
+   
+2. 從 [欄位] 清單中選取 **created_date** 欄位，或將它拖曳到新的交叉分析篩選器。 交叉分析篩選器會根據欄位的日期資料類型而變更為日期範圍滑桿。
+   
+   ![日期範圍滑桿交叉分析篩選器](media/desktop-tutorial-facebook-analytics/slicer2.png)
+   
+3. 移動滑桿控點來選取不同的日期範圍，並注意圖表資料如何據以篩選。 您也可以選取交叉分析篩選器中的日期欄位並輸入特定日期，或從快顯行事曆中來選擇。
+    
+   ![進行資料配量](media/desktop-tutorial-facebook-analytics/slicer3.png)
+   
+### <a name="format-the-visualizations"></a>將視覺效果格式化
+
+您決定要為圖表提供更清楚且更吸引人的標題。 
+
+1. 選取圖表之際，選取**格式**圖示，然後選取下拉式箭號以展開**標題**。
+2. 將 [標題文字] 變更為 **Comments per post** \(每篇貼文的留言\)。 
+3. 選取 [字型色彩] 旁的下拉式箭號，然後選取綠色以搭配視覺效果的綠色列。
+4. 將 [文字大小] 增加到 **10**，並將 [字型家族] 變更為 **Segoe (Bold)**。
+
+![將圖表標題格式化](media/desktop-tutorial-facebook-analytics/formatting1.png)
+
+嘗試使用其他格式化選項和設定，以變更視覺效果的外觀。 
+
+![視覺效果](media/desktop-tutorial-facebook-analytics/vis-1.png)
+
+## <a name="create-more-visualizations"></a>建立更多視覺效果
+
+如您所見，很容易就能自訂報表中的視覺效果，以便依您想要的方式來呈現資料。 例如，嘗試使用匯入的 Facebook 資料來建立此折線圖，以顯示歷來的留言數目。
+
+![折線圖](media/desktop-tutorial-facebook-analytics/moreviz.png)
+
+Power BI Desktop 提供從頭到尾流暢的體驗，包括從各種資料來源取得資料、讓資料成形以符合您的分析需求，乃至於以豐富且互動的方式將此資料視覺化。 準備好報表之後，您可以[將其上傳至 Power BI 服務](desktop-upload-desktop-files.md)並依此建立儀表板，以便與與其他 Power BI 使用者共用。
+
+## <a name="next-steps"></a>後續步驟
 * [閱讀其他 Power BI Desktop 教學課程](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [觀看 Power BI Desktop 影片](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [瀏覽 Power BI 論壇](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [閱讀 Power BI 部落格](http://go.microsoft.com/fwlink/?LinkID=519327)
-
-
 

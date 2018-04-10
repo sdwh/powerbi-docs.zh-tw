@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b0b49e5c628f5e01bb2368d9bc471acc5342f97
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 685091cff071676da050d1a042a487fdadc77407
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>購買 Power BI Pro
 
@@ -70,6 +70,10 @@ Office IT 系統管理員可以將 Power BI Pro 當作 Office 365 Enterprise E5 
 ## <a name="pricing"></a>價格
 
 如需最新定價資訊，請參閱 [Power BI 定價](https://powerbi.microsoft.com/en-us/pricing/)。
+
+> [!NOTE]
+> 已指派 Pro 授權的使用者將會在訂用帳戶結束後的 30 天內擁有完整存取權。 發生這種情況時，您將會在管理入口網站中看見您的訂用帳戶顯示為「已過期」。
+>
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 的自助式註冊](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)

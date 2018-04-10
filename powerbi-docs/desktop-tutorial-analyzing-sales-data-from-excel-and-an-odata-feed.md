@@ -1,15 +1,15 @@
 ---
-title: "教學課程：在 Power BI Desktop 中分析來自 Excel 和 OData 摘要的銷售資料"
-description: "教學課程：分析來自 Excel 和 OData 摘要的銷售資料"
+title: 教學課程：在 Power BI Desktop 中分析來自 Excel 和 OData 摘要的銷售資料
+description: 教學課程：分析來自 Excel 和 OData 摘要的銷售資料
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>教學課程：分析來自 Excel 和 OData 摘要的銷售資料
 有了 **Power BI Desktop**，您便可以連接到各種不同的資料來源，然後以有趣、具信服力的資料分析和視覺效果，來結合資料使其成形。 在本教學課程中，您將了解如何結合來自兩個資料來源的資料。 
@@ -133,7 +133,7 @@ Power BI Desktop 可讓您根據所匯入的資料行建立計算方式，以加
 1. 在 [加入資料行]  功能區索引標籤中，按一下 [加入自訂資料行]  。
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. 在 [新增自訂資料行] 對話方塊的 [自訂資料行公式] 文字方塊中，輸入 **[Order\_Details.UnitPrice] \* [Order\_Details.Quantity]**。
+2. 在 [新增自訂資料行] 對話方塊的 [自訂資料行公式] 文字方塊中，輸入 **[Order\_Details.UnitPrice]** \* **[Order\_Details.Quantity]**。
 3. 在 [新資料行名稱]  文字方塊中，輸入 **LineTotal**。
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)

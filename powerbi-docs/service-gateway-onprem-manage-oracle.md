@@ -1,15 +1,15 @@
 ---
-title: "管理您的資料來源 - Oracle"
-description: "如何管理內部部署資料閘道及屬於該閘道的資料來源。"
+title: 管理您的資料來源 - Oracle
+description: 如何管理內部部署資料閘道及屬於該閘道的資料來源。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 538904ea8ddb64d530daade143cc290046994464
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2e0e786d043466e5620f0faedfb1761014144164
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---oracle"></a>管理您的資料來源 - Oracle
 安裝內部部署資料閘道之後，您必須新增可搭配閘道使用的資料來源。 本文將探討如何使用閘道和資料來源。 您可以針對已排程的重新整理或 DirectQuery，使用 Oracle 資料來源。
@@ -42,7 +42,7 @@ ms.lasthandoff: 02/24/2018
 
 * [32 位元的 Oracle Access Components (ODAC) 與 Oracle Developer Tools for Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
-若是 **64 位元**版本的 Power BI Desktop 或是內部部署資料閘道，使用下列連結下載並安裝 **64 位元** 的 Oracle 用戶端︰
+若是 **64 位元**版本的 Power BI Desktop 或是內部部署資料閘道，使用下列連結下載並安裝 **64 位元**的 Oracle 用戶端：
 
 * [適用於 Windows x64 的 64 位元 ODAC 12.2c Release 1 (12.2.0.1.0)](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
@@ -102,7 +102,7 @@ CONTOSO =
 您也需要選擇 [驗證方法] 。  此方法可以是 [Windows]  或 [基本] 。  若您要使用在 Oracle 而非 Windows 驗證中所建立的帳戶，則需要選擇 [基本]。 然後輸入要用於這個資料來源的認證。
 
 > [!NOTE]
-> 資料來源的所有查詢都會使用這些認證來執行。 如需詳細資訊，請參閱主要內部部署資料閘道文章，以深入了解[認證](service-gateway-onprem.md#credentials)的儲存方式。
+> 資料來源的所有查詢都會使用這些認證來執行。 如需詳細資訊，請參閱主要的內部部署資料閘道文章，以深入了解[認證](service-gateway-onprem.md#credentials)的儲存方式。
 > 
 > 
 
@@ -177,7 +177,7 @@ CONTOSO =
 > 
 > 
 
-如何與閘道相關的其他疑難排解資訊，請參閱[為內部部署資料閘道疑難排解](service-gateway-onprem-tshoot.md)。
+如何與閘道相關的其他疑難排解資訊，請參閱[為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)。
 
 ## <a name="next-steps"></a>後續步驟
 [內部部署資料閘道](service-gateway-onprem.md)  

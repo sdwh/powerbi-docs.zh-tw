@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 的報表工具提示頁面"
-description: "Power BI Desktop 中的工具提示頁面可讓您在報表中建立豐富的暫留式工具提示視覺效果"
+title: 使用 Power BI 的報表工具提示頁面
+description: Power BI Desktop 中的工具提示頁面可讓您在報表中建立豐富的暫留式工具提示視覺效果
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,23 +18,23 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2905dbc51e684ec39ac36a76c7024db0fe15cc18
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中根據報表頁面建立工具提示 (預覽)
 您可以建立視覺化的豐富**報表工具提示**，它們是您在 **Power BI Desktop** 中根據報表頁面所建立的，當您將滑鼠停留在視覺效果上時就會顯示。 透過建立作為工具提示的報表頁面，您的自訂工具提示可以包含視覺效果、影像和任何其他您在報表頁面中建立的項目集合。 
 
 ![Power BI Desktop 的報表工具提示](media/desktop-tooltips/desktop-tooltips_00a.png)
 
-您可以建立許多工具提示頁面，不限數量。 每個工具提示頁面都可與您報表中的一或多個欄位建立關聯，以便在您將滑鼠停留在包含所選欄位的視覺效果上時，您在工具提示頁面建立的工具提示，會根據滑鼠停留的 datapoint 篩選，在您的滑鼠停留在視覺效果上時出現。 
+您可以建立許多工具提示頁面，不限數量。 每個工具提示頁面都可與報表中的一或多個欄位建立關聯，因此在您將滑鼠停留在包含所選欄位的視覺效果上時，您在工具提示頁面建立的工具提示，會根據滑鼠停留的資料點進行篩選，在滑鼠停留於視覺效果上時出現。 
 
 您可以使用報表工具提示執行各式各樣有趣的作業。 讓我們看看如何建立工具提示，以及設定它們必須執行的作業。
 
 ### <a name="enable-the-tooltips-preview"></a>啟用工具提示預覽 
-因為報表工具提示目前為預覽，所以您要先啟用它們才可以建立報表工具提示。 若要啟用報表工具提示預覽功能，請選取 Power BI Desktop 的 [檔案] > [選項及設定] > [選項] > [預覽功能]，然後選取 [書籤] 旁的核取方塊。 
+因為報表工具提示目前為預覽，所以您要先啟用它們才可以建立報表工具提示。 若要啟用報表工具提示預覽功能，請選取 Power BI Desktop 的 [檔案] > [選項及設定] > [選項] > [預覽功能]，然後選取 [報表頁面工具提示] 旁的核取方塊。 
 
 ![啟用報表工具提示的預覽功能](media/desktop-tooltips/desktop-tooltips_01.png)
 
@@ -99,7 +99,7 @@ ms.lasthandoff: 03/08/2018
 
 ## <a name="reverting-to-default-tooltips"></a>還原成預設工具提示
 
-如果您為視覺效果建立手動工具提示，但您決定改要預設的工具提示，您可以隨時返回 Power BI 提供的預設工具提示。 若要這樣做，當已選取視覺效果且展開 [工具提示] 卡時，只要從 [頁面] 下拉式清單選取 [自動] 即可返回預設值。
+如果您為視覺效果建立手動工具提示，但決定改用預設的工具提示，則可以隨時返回 Power BI 提供的預設工具提示。 若要這樣做，當已選取視覺效果且展開 [工具提示] 卡時，只要從 [頁面] 下拉式清單選取 [自動] 即可返回預設值。
 
 ![返回視覺效果的預設工具提示](media/desktop-tooltips/desktop-tooltips_11.png)
 
@@ -126,7 +126,7 @@ ms.lasthandoff: 03/08/2018
 ## <a name="limitations-and-considerations"></a>限制與考量
 在此預覽版的報表**工具提示**中，有幾點限制和考量要留意。
 
-* 以行動裝置應用程式或在內嵌環境中檢視報表時 (包括發佈至 Web)，不支援報表工具提示。 
+* 以行動裝置應用程式或在內嵌環境中檢視報表時 (包括發行至 Web)，不支援報表工具提示。 
 * 自訂視覺效果不支援報表工具提示。 
 * 叢集目前不支援作為欄位，無法顯示在報表工具提示中。 
 * 選擇要在報表工具提示中顯示的欄位時，在比較使用欄位或類別時，當具有選取欄位的摘要符合時，包含該欄位的視覺效果只會顯示指定的工具提示。 

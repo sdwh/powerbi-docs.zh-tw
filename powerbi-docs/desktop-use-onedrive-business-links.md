@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中使用商務用 OneDrive"
-description: "在 Power BI Desktop 中使用商務用 OneDrive"
+title: 在 Power BI Desktop 中使用商務用 OneDrive
+description: 在 Power BI Desktop 中使用商務用 OneDrive
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d203668f3fbb3f9a50af50280d68d2fadf15f64
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad83703b77907488f47f9b5f419e8e4d5145ae97
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>在 Power BI Desktop 中使用商務用 OneDrive
 許多人都將 Excel 活頁簿儲存在可與 Power BI Desktop 完美搭配的商務用 OneDrive 磁碟機上。 有了 **Power BI Desktop**，您可以使用儲存在**商務用 OneDrive** 中的 **Excel** 檔案線上連結來建立報表和視覺效果。 您可以使用**商務用 OneDrive** 群組帳戶或您的個人**商務用 OneDrive** 帳戶。
@@ -59,7 +59,7 @@ ms.lasthandoff: 02/24/2018
 [導覽器] 視窗隨即出現，可讓您從在 Excel 活頁簿中找到的資料表、工作表和範圍清單進行選取。 您可以從該處使用商務用 OneDrive 檔案，就像使用其他 Excel 檔案一樣，並建立報表且就像任何其他資料來源一樣在資料集中使用該報表。
 
 > [!NOTE]
-> 若要使用**商務用 OneDrive** 檔案作為 Power BI 服務中的資料來源，並針對該檔案啟用 [服務重新整理]，請確定您在進行重新整理的設定時，選取 [OAuth2] 來作為 [驗證方法]。 否則您可能會在嘗試連線，或重新整理時遇到錯誤 (例如「無法更新資料來源認證」)。 選取 **OAuth2** 作為驗證方法，就能解決該項認證錯誤。
+> 若要使用**商務用 OneDrive** 檔案作為 Power BI 服務中的資料來源，並針對該檔案啟用**服務重新整理**，請確定您在進行重新整理的設定時，會選取 [OAuth2] 作為**驗證方法**。 否則您可能會在嘗試連線或重新整理時遇到錯誤 (例如「無法更新資料來源認證」)。 選取 **OAuth2** 作為驗證方法，就能解決該項認證錯誤。
 > 
 > 
 
