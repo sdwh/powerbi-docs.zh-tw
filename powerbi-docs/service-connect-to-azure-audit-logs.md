@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 連接到 Azure 稽核記錄"
+title: 使用 Power BI 連接到 Azure 稽核記錄
 description: Azure Audit Logs for Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

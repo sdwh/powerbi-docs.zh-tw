@@ -1,15 +1,15 @@
 ---
-title: "管理 Power BI 和 Office 365 中的應用程式工作區"
-description: "Power BI 中的應用程式工作區是建置在 Office 365 群組上的共同作業體驗。 管理 Power BI 和 Office 365 中的應用程式工作區。"
+title: 管理 Power BI 和 Office 365 中的應用程式工作區
+description: Power BI 中的應用程式工作區是建置在 Office 365 群組上的共同作業體驗。 管理 Power BI 和 Office 365 中的應用程式工作區。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

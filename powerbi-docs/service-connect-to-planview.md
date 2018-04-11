@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 連接到 Planview Enterprise"
+title: 使用 Power BI 連接到 Planview Enterprise
 description: Planview Enterprise for Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "在 OneDrive 中共用連結到 Excel 檔案的儀表板 - Power BI"
-description: "閱讀以了解如何在商務用 OneDrive 共用連線到 Excel 活頁簿的儀表板，其中有釘選自該活頁簿的磚。"
+title: 在 OneDrive 中共用連結到 Excel 檔案的儀表板 - Power BI
+description: 閱讀以了解如何在商務用 OneDrive 共用連線到 Excel 活頁簿的儀表板，其中有釘選自該活頁簿的磚。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

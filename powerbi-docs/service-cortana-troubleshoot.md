@@ -1,16 +1,16 @@
 ---
-title: "對適用於 Power BI 的 Cortana 進行疑難排解"
-description: "如果您在搭配 Power BI 使用 Cortana 時遇到問題，請嘗試這些建議。"
+title: 對適用於 Power BI 的 Cortana 進行疑難排解
+description: 如果您在搭配 Power BI 使用 Cortana 時遇到問題，請嘗試這些建議。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

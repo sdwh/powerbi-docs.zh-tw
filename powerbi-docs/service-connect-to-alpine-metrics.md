@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 連接到 Alpine Metrics 銷售預測內容套件"
-description: "Power BI 的 Alpine Metrics 銷售預測內容套件"
+title: 使用 Power BI 連接到 Alpine Metrics 銷售預測內容套件
+description: Power BI 的 Alpine Metrics 銷售預測內容套件
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

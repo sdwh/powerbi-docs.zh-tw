@@ -1,15 +1,15 @@
 ---
-title: "從 Power BI 將報表匯出至 PowerPoint (預覽)"
-description: "了解如何將 Power BI 報表匯出至 PowerPoint。"
+title: 從 Power BI 將報表匯出至 PowerPoint (預覽)
+description: 了解如何將 Power BI 報表匯出至 PowerPoint。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

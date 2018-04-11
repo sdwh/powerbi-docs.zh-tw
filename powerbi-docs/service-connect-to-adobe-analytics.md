@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 連接到 Adobe Analytics"
-description: "從 Power BI 連線到 Adobe Analytics，以使用在儀表板和報表中顯示您帳戶資料的應用程式。"
+title: 使用 Power BI 連接到 Adobe Analytics
+description: 從 Power BI 連線到 Adobe Analytics，以使用在儀表板和報表中顯示您帳戶資料的應用程式。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

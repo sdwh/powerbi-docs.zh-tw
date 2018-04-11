@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 連接到所用服務"
-description: "連接到執行業務所用的多個服務，例如 Salesforce、Microsoft Dynamics CRM 和 Google Analytics。"
+title: 使用 Power BI 連接到所用服務
+description: 連接到執行業務所用的多個服務，例如 Salesforce、Microsoft Dynamics CRM 和 Google Analytics。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

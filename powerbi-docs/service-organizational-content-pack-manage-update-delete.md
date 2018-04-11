@@ -1,15 +1,15 @@
 ---
-title: "組織內容套件：管理與更新"
-description: "閱讀以了解如何在 Power BI 中管理、更新和刪除組織內容套件。"
+title: 組織內容套件：管理與更新
+description: 閱讀以了解如何在 Power BI 中管理、更新和刪除組織內容套件。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

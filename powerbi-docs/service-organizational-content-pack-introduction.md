@@ -1,15 +1,15 @@
 ---
-title: "Power BI 中的組織內容套件簡介"
-description: "閱讀以了解如何將您的儀表板、報表、Excel 活頁簿和資料集封裝到可與同事共用的組織內容套件中。"
+title: Power BI 中的組織內容套件簡介
+description: 閱讀以了解如何將您的儀表板、報表、Excel 活頁簿和資料集封裝到可與同事共用的組織內容套件中。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,11 +1,11 @@
 ---
-title: "啟用適用於 Power BI 的 Cortana"
-description: "搭配使用 Cortana 和 Power BI 從您的資料中取得答案。 針對每個 Power BI 資料集啟用 Cortana，然後允許 Cortana 從 Windows 裝置存取您的資料集。"
+title: 啟用適用於 Power BI 的 Cortana
+description: 搭配使用 Cortana 和 Power BI 從您的資料中取得答案。 針對每個 Power BI 資料集啟用 Cortana，然後允許 Cortana 從 Windows 裝置存取您的資料集。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,12 +1,12 @@
 ---
-title: "使用 Power BI 中的儀表板和報表安裝並使用應用程式"
-description: "Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處。"
+title: 使用 Power BI 中的儀表板和報表安裝並使用應用程式
+description: Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 10/02/2017
 ms.service: powerbi

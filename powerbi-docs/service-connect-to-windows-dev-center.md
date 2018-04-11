@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI 連接到 Windows 開發人員中心"
+title: 使用 Power BI 連接到 Windows 開發人員中心
 description: Windows Dev Center for Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

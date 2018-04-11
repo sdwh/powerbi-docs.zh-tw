@@ -1,15 +1,15 @@
 ---
-title: "SQL Database 稽核內容套件"
-description: "適用於 Power BI 的 SQL Database 稽核內容套件"
+title: SQL Database 稽核內容套件
+description: 適用於 Power BI 的 SQL Database 稽核內容套件
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

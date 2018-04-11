@@ -1,15 +1,15 @@
 ---
-title: "如何讓 Excel 資料適用於 Power BI 的問與答"
-description: "如何讓資料適用於 Power BI 的問與答"
+title: 如何讓 Excel 資料適用於 Power BI 的問與答
+description: 如何讓資料適用於 Power BI 的問與答
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,13 +1,13 @@
 ---
-title: "與同事和其他人共用 Power BI 儀表板和報表"
-description: "如何與組織內外的同事共用 Power BI 儀表板與報表，以及需要了解的共用相關資訊。"
+title: 與同事和其他人共用 Power BI 儀表板和報表
+description: 如何與組織內外的同事共用 Power BI 儀表板與報表，以及需要了解的共用相關資訊。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: 0tUwn8DHo3s
 qualityfocus: monitoring
 qualitydate: 08/14/2017
@@ -76,7 +76,7 @@ ms.lasthandoff: 02/24/2018
    
     ![[共用儀表板] 對話方塊的 [存取] 索引標籤](media/service-share-dashboards/power-bi-share-dialog-access.png)
    
-    組織外部人員列為 [Guest] 。
+    組織外部人員列為 [Guest]。
 
 ## <a name="stop-sharing-or-stop-others-from-sharing"></a>停止共用或停止其他人共用
 只有儀表板或報表擁有者可以開啟和關閉再次共用。

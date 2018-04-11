@@ -1,13 +1,13 @@
 ---
-title: "該如何在 Power BI 中進行共同作業和共用？"
-description: "在 Power BI 中，您可以多種方式來共同作業和共用儀表板、報表、磚和應用程式。 各有其優點。"
+title: 該如何在 Power BI 中進行共同作業和共用？
+description: 在 Power BI 中，您可以多種方式來共同作業和共用儀表板、報表、磚和應用程式。 各有其優點。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 02/28/2017
 ms.service: powerbi
@@ -84,7 +84,7 @@ ms.lasthandoff: 02/24/2018
 
 您也可以從 Windows 10 裝置的 Power BI 應用程式[共用磚的快照集](mobile-share-tile-windows-10-phone-app.md)。
 
-## <a name="publish-to-the-web"></a>發行到網站
+## <a name="publish-to-the-web"></a>發行至網站
 您可以將 Power BI 報表發行至整個網際網路，方法是在任何裝置上將互動式視覺效果內嵌到部落格文章、網站、社交媒體和其他線上通訊。 網際網路上的任何人都可以檢視您的報表，而且您無法控制誰可以查看您的發行內容。 他們不需要 Power BI 授權。 您只能在可編輯的報表中使用發行至網站。 如果報表是與您共用，或報表是在應用程式中，則您無法將報表發行至網站。 深入了解[發行至網站](service-publish-to-web.md).
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>列印或儲存為 PDF 或其他靜態檔案

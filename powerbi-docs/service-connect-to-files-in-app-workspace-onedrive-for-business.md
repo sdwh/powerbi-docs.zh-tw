@@ -1,15 +1,15 @@
 ---
-title: "連接到 Power BI 應用程式工作中 OneDrive 的檔案"
-description: "了解如何將 Excel、CSV 與 Power BI Desktop 檔案儲存和連接至 Power BI 應用程式工作區的 OneDrive。"
+title: 連接到 Power BI 應用程式工作中 OneDrive 的檔案
+description: 了解如何將 Excel、CSV 與 Power BI Desktop 檔案儲存和連接至 Power BI 應用程式工作區的 OneDrive。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "快速入門 - 開始使用 Power BI 問與答"
-description: "快速入門：開始搭配使用 Power BI 服務與零售分析範例的問與答"
+title: 快速入門 - 開始使用 Power BI 問與答
+description: 快速入門：開始搭配使用 Power BI 服務與零售分析範例的問與答
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

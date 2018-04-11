@@ -1,12 +1,12 @@
 ---
-title: "教學課程 - 在儀表板或報表中使用問與答"
-description: "如何使用 Power BI 問與答在儀表板和報表中建立新視覺效果的教學課程。"
+title: 教學課程 - 在儀表板或報表中使用問與答
+description: 如何使用 Power BI 問與答在儀表板和報表中建立新視覺效果的教學課程。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -53,7 +53,7 @@ ms.lasthandoff: 02/24/2018
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-viz.png)
 
-4. 當您輸入問題時，Power BI 會使用在儀表板上有磚的任何資料集尋找最佳解答。  如果所有的圖格都來自 *datasetA*，則您的答案將來自 *datasetA*。  如果有磚來自 *datasetA* 和 *datasetB* ，則問與答就會搜尋這 2 個資料集的最佳回應。
+4. 當您輸入問題時，Power BI 會使用在儀表板上有磚的任何資料集尋找最佳解答。  如果所有的圖格都來自 *datasetA* ，則您的答案將來自 *datasetA* 。  如果有磚來自 *datasetA* 和 *datasetB* ，則問與答就會搜尋這 2 個資料集的最佳回應。
 
    > [!TIP]
    > 所以要小心，如果只有一個磚來自 *datasetA* ，而您從儀表板中移除了，問與答將不再有權存取 *datasetA* 。

@@ -1,15 +1,15 @@
 ---
-title: "與組織內容套件中斷連接 - Power BI"
-description: "了解如何藉由刪除 Power BI 中內容套件的資料集來移除組織內容套件的連線。"
+title: 與組織內容套件中斷連接 - Power BI
+description: 了解如何藉由刪除 Power BI 中內容套件的資料集來移除組織內容套件的連線。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

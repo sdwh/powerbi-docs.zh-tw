@@ -1,14 +1,14 @@
 ---
-title: "使用 Power BI 中的儀表板和報表建立並發佈應用程式"
-description: "了解如何建立及發佈應用程式，這些應用程式是為了提供重要計量給組織而建立的一組儀表板和報告。"
+title: 使用 Power BI 中的儀表板和報表建立並發佈應用程式
+description: 了解如何建立及發佈應用程式，這些應用程式是為了提供重要計量給組織而建立的一組儀表板和報告。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

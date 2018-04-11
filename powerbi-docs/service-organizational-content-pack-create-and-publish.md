@@ -1,15 +1,15 @@
 ---
-title: "建立及發佈組織內容套件 - Power BI"
-description: "在本教學課程中，您將建立組織內容套件、限制特定群組才能存取，並將該套件發佈至 Power BI 上的組織內容套件程式庫。"
+title: 建立及發佈組織內容套件 - Power BI
+description: 在本教學課程中，您將建立組織內容套件、限制特定群組才能存取，並將該套件發佈至 Power BI 上的組織內容套件程式庫。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

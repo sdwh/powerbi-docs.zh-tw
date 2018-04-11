@@ -1,15 +1,15 @@
 ---
-title: "組織內容套件：存取與複製"
-description: "閱讀以了解如何建立 Power BI 中組織內容套件的複本，以及對存取權疑難排解"
+title: 組織內容套件：存取與複製
+description: 閱讀以了解如何建立 Power BI 中組織內容套件的複本，以及對存取權疑難排解
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

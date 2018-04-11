@@ -1,13 +1,13 @@
 ---
-title: "篩選並與同事共用 Power BI 報表"
-description: "了解如何與組織中的同事共用已篩選的 Power BI 報表。"
+title: 篩選並與同事共用 Power BI 報表
+description: 了解如何與組織中的同事共用已篩選的 Power BI 報表。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: 0tUwn8DHo3s
 qualityfocus: complete
 qualitydate: 06/22/2016

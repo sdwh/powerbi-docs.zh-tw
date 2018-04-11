@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI 應用程式工作區中共同作業"
-description: "了解如何使用 Office 365 服務，以在您應用程式工作區的 Power BI Desktop 檔案上共同作業，例如在商務用 OneDrive 上共用檔案、Exchange 中的交談、行事曆及工作等。"
+title: 在 Power BI 應用程式工作區中共同作業
+description: 了解如何使用 Office 365 服務，以在您應用程式工作區的 Power BI Desktop 檔案上共同作業，例如在商務用 OneDrive 上共用檔案、Exchange 中的交談、行事曆及工作等。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
