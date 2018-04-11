@@ -3,7 +3,7 @@ title: 管理您的資料來源 - SQL
 description: 如何管理內部部署資料閘道及屬於該閘道的資料來源。
 services: powerbi
 documentationcenter: ''
-author: davidiseminger
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ad9b619f7e0d52442796dc461948a705b9b0f74a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 563c0c65ab7c696449732ad01a0f20ca87383d15
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="manage-your-data-source---sql-server"></a>管理您的資料來源 - SQL Server
 安裝內部部署資料閘道之後，您就能新增可搭配閘道使用的資料來源。 本文將探討如何使用閘道和資料來源。 您可以針對已排程的重新整理或 SQL Server，使用 SAP HANA 資料來源。

@@ -1,28 +1,28 @@
 ---
-title: "管理和部署方法"
-description: "說明 Power BI 生態系統內的控管概念、選項和建議的白皮書。"
+title: 管理和部署方法
+description: 說明 Power BI 生態系統內的控管概念、選項和建議的白皮書。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 400fa6aa16f77da60a912bcd6c45665f880d8afd
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8f2f48143e9f1c5a304f8d864ea39b8118d331f8
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>管理和部署方法
 過去數十年來，各公司行號已漸漸意識到需要策略性地運用資料資產，才能從市場商機獲益。 無論是執行競爭性分析或了解操作模式，許多組織現在都了解他們可以從利用資料策略保持競爭優勢中獲益。  

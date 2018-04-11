@@ -1,28 +1,28 @@
 ---
-title: "Office 365 專用客戶 - 已知問題"
-description: "Office 365 專用客戶支援 - 已知問題。 本主題描述 Office 365 專用客戶的特定問題。 其中包括群組功能的限制，以及 iPhone 應用程式使用虛名網域的限制。"
+title: Office 365 專用客戶 - 已知問題
+description: Office 365 專用客戶支援 - 已知問題。 本主題描述 Office 365 專用客戶的特定問題。 其中包括群組功能的限制，以及 iPhone 應用程式使用虛名網域的限制。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 52557673256a05af21a252cc9fc564e562520882
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4ba9aaf309e7cc749ee9293b0bb906a26b81e59c
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Office 365 專用客戶 - 已知問題
 Power BI 現在支援 Office 365 專用客戶。  如果您是 O365 專用客戶，您可以從該租用戶的帳戶登入並使用 Power BI。 目前已知有兩個問題。
