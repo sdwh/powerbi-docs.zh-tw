@@ -1,40 +1,33 @@
 ---
-title: "在 Power BI Desktop 中連線到 Adobe Analytics (預覽)"
-description: "輕鬆連線到 Adobe Analytics Power BI Desktop 並加以使用"
+title: 在 Power BI Desktop 中連線至 Adobe Analytics
+description: 輕鬆連線到 Adobe Analytics Power BI Desktop 並加以使用
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/09/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: efd6d066e2f98f86248730917c2f4aa0c8a39983
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 4488cd373fae22c4494ac697602536496ffc9b00
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
-# <a name="connect-to-adobe-analytics-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中連線到 Adobe Analytics (預覽)
+# <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Adobe Analytics 
 在 **Power BI Desktop** 中，您可以連線至 **Adobe Analytics** 並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。 
 
 ![從 Adobe Analytics 取得資料](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
-
-## <a name="enable-the-adobe-analytics-connector-preview"></a>啟用 Adobe Analytics 連接器預覽 
-因為 **Adobe Analytics** 連接器目前為預覽狀態，所以您需要啟用預覽功能才能在 [取得資料] 視窗中使用連接器。 若要啟用連接器預覽，請選取 Power BI Desktop 的 [檔案] > [選項及設定] > [選項] > [預覽功能]，然後選取 [書籤] 旁的核取方塊。 
-
-![[選項] 中的 [啟用 Adobe Analytics 連接器預覽]](media/desktop-connect-adobe-analytics/connect-adobe-analytics_02.png)
-
-選取 [啟用 Adobe Analytics 連接器預覽] 後，您需要重新啟動 **Power BI Desktop**。
 
 ## <a name="connect-to-adobe-analytics-data"></a>連線到 Adobe Analytics 資料
 若要連線至 **Adobe Analytics** 資料，請從 Power BI Desktop 的 [首頁] 功能區選取 [取得資料]。 從左邊的類別選取 [線上服務]，您就會看到 **Adobe Analytics 連接器**。
