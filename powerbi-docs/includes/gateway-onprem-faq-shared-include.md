@@ -43,8 +43,8 @@
 **問題：**可以強制閘道在 Azure 服務匯流排使用 HTTPS 流量，而不使用 TCP 嗎？  
 **回答：** 可以。 不過，這會大幅降低效能。 您會需要修改 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 檔案。 您會需要將值從 `AutoDetect` 變更為 `Https`。 根據預設，這個檔案位於 *C:\Program Files\On-premises data gateway* 。
 
-**問題︰**我需要將 Azure DataCenter IP 清單加入白名單嗎？ 何處取得清單？  
-**回答︰**如果您要封鎖輸出 IP 流量，您可能需要將 Azure DataCenter IP 清單加入白名單。 目前，閘道會使用 IP 位址及完整網域名稱來與 Azure 服務匯流排通訊。 Azure DataCenter IP 清單會每週更新一次。 您可以下載 [Microsoft Azure 資料中心的 IP 清單](https://www.microsoft.com/download/details.aspx?id=41653)。
+**問題︰**我需要將 Azure DataCenter IP 清單加入允許清單嗎？ 何處取得清單？  
+**回答︰**如果您要封鎖輸出 IP 流量，您可能需要將 Azure DataCenter IP 清單加入允許清單。 目前，閘道會使用 IP 位址及完整網域名稱來與 Azure 服務匯流排通訊。 Azure DataCenter IP 清單會每週更新一次。 您可以下載 [Microsoft Azure 資料中心的 IP 清單](https://www.microsoft.com/download/details.aspx?id=41653)。
 
 ```
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">

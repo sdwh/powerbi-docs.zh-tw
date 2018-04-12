@@ -184,7 +184,7 @@ Power BI 和閘道器之間的資料傳輸會透過 [Azure 服務匯流排](http
 | login.microsoftonline.com |443 |HTTPS |
 | login.windows.net |443 |HTTPS |
 
-如果您需要白名單 IP 位址，而不是網域，您可以下載並使用 Microsoft Azure Datacenter IP 範圍清單。 [下載](https://www.microsoft.com/download/details.aspx?id=41653)
+如果您需要允許清單 IP 位址，而不是網域，您可以下載並使用 Microsoft Azure Datacenter IP 範圍清單。 [下載](https://www.microsoft.com/download/details.aspx?id=41653)
 
 ## <a name="next-steps"></a>後續步驟
 [內部部署資料閘道 (個人模式) - 新版本的個人閘道](service-gateway-personal-mode.md)
