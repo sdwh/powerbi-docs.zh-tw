@@ -1,28 +1,28 @@
 ---
-title: "管理貴組織中的 Power BI"
-description: "管理貴組織中的 Power BI"
+title: 管理貴組織中的 Power BI
+description: 管理貴組織中的 Power BI
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b42be834822b4363c58bc4454c38f7973336c7dc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>管理貴組織中的 Power BI
 Microsoft Power BI 讓使用者能夠視覺化資料、共用探索，以及以容易了解的新方式共同作業。 若要深入了解，請參閱[開始使用 Power BI](service-get-started.md)。
@@ -206,7 +206,7 @@ Power BI 提供的管理入口網站，可讓您檢視使用量統計資料、�
 1. 註冊 Power BI，使用符合您想要管理的租用戶網域的電子郵件地址網域，即可加入租用戶。 例如，如果 Microsoft 建立了 contoso.com 租用戶，您需要使用以 @contoso.com 結尾的電子郵件地址加入租用戶。
 2. 透過驗證網域擁有權可以宣告系統管理控制權︰只要位在租用戶中，即可透過驗證網域擁有權將自己升級成 *全域管理員* 角色。 請遵循下列步驟執行此項作業：
    
-   1. 移至 [https://portal.office.com](https://portal.office.com)。
+   1. 前往 [https://portal.office.com](https://portal.office.com)。
    2. 選取左上角的應用程式啟動器圖示，然後選擇 [系統管理員]。
    3. 閱讀 \[Become the admin] \(成為系統管理員) 頁面中的指示，然後選擇 \[Yes, I want to be the admin] \(是，我想要成為系統管理員)。
       

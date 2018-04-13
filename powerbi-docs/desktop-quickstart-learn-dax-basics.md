@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop 的 DAX 基本概念"
-description: "Power BI Desktop 的 DAX 基本概念"
+title: Power BI Desktop 的 DAX 基本概念
+description: Power BI Desktop 的 DAX 基本概念
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 1b6a08ffbc7d1edfe0a86b6eb0a84702dec22da0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 474cca86151925ee4991d477a6127536180808a8
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 的 DAX 基本概念
 本文適用對象為剛開始使用 Power BI Desktop 的使用者。 其目的在於以快速且容易了解的方式，為您介紹如何使用資料分析運算式 (DAX)，以便解決一些基本計算和資料分析問題。 我們將逐一探討一些概念性資訊、一系列您可以完成的工作，以及用來測試所學內容的幾項測驗。 完成本文之後，您便可充分了解 DAX 最重要的基本概念。
@@ -40,7 +40,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 
 **範例活頁簿**
 
-了解 DAX 的最佳方式是建立一些基本公式、用來處理一些實際資料，並親自查看結果。 此處的範例和工作使用適用於 Power BI Desktop Preview 的 Contoso Sales 範例檔案。 這是＜教學課程：在 Power BI Desktop 中建立您自己的量值＞一文中所使用的相同範例檔案。 您可以從[這裡](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)下載。
+了解 DAX 的最佳方式是建立一些基本公式、用來處理一些實際資料，並親自查看結果。 此處的範例和工作使用適用於 Power BI Desktop Preview 的 Contoso Sales 範例檔案。 這是[教學課程：在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)一文中所使用的相同範例檔案。 這是要下載的[範例檔案](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)。
 
 ## <a name="lets-begin"></a>現在就開始進行！
 我們將分成下列三個基本概念來介紹 DAX：「語法」 、「函數」 和「內容」 。 DAX 當然還有其他重要概念，不過了解這三個概念將為您的 DAX 技能奠定最佳基礎。
@@ -72,7 +72,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 
 這個量值在加入報表後，會加總我們所包含的其他每個欄位的銷售額 (例如美國的行動電話)，以計算並傳回值。
 
-您可能會想：「這個量值的功能，不是與直接將 SalesAmount 欄位加入我的報表中一樣嗎？」 沒錯。 但建立自己的量值來加總 SalesAmount 欄位中的值有個好處：那就是可以將這個量值當做引數用於其他公式。 雖然現在可能有點難以理解，但隨著您愈來愈熟練於 DAX 公式，了解這點可讓您的公式和模型更有效率。 事實上，您稍後將會看到 Total Sales 量值如何顯示為其他公式中的引數。
+您可能會想：「這個量值的功能，不是與直接將 SalesAmount 欄位加入我的報表中一樣嗎？ 」 沒錯。 但建立自己的量值來加總 SalesAmount 欄位中的值有個好處：那就是可以將這個量值當做引數用於其他公式。 雖然現在可能有點難以理解，但隨著您愈來愈熟練於 DAX 公式，了解這點可讓您的公式和模型更有效率。 事實上，您稍後將會看到 Total Sales 量值如何顯示為其他公式中的引數。
 
 接著我們將探討這個公式的其他幾點。 我們將特別介紹 [SUM](https://msdn.microsoft.com/library/ee634387.aspx) 函數。 函數是預先撰寫的公式，以便簡化數值、日期、時間、文字等複雜的計算和操作。 稍後您將進一步了解函數。
 
@@ -83,7 +83,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 > 
 > 
 
-您的公式語法必須正確。 在大多數情況下，如果語法不正確，便會傳回語法錯誤。 在其他情況下，語法可能正確，但傳回的值可能不是您預期的值。 Power BI Desktop 中的 DAX 編輯器提供了建議，這項功能可用來協助您選取正確的元素，以建立語法正確的公式。
+您的公式語法必須正確。 在大多數情況下，如果語法不正確，便會傳回語法錯誤。 在其他情況下，語法可能正確，但傳回的值可能不是您預期的值。 Power BI Desktop 中的 DAX 編輯器包含建議功能，可用來協助您選取正確的元素，以建立語法正確的公式。
 
 一起來建立一個簡單的公式。 這項工作將協助您進一步了解公式語法，以及公式列中的建議功能如何協助您。
 
@@ -111,7 +111,6 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 7.  在 PREVIOUSQUARTER 函式的括弧 **()** 之間鍵入 **Calendar[DateKey]**。
     
     PREVIOUSQUARTER 函數有一個引數，那就是包含連續日期範圍的資料行。
-    >
     
 8.  確定這兩個引數都已傳遞至 PREVIOUSQUARTER 函式，並以兩個左括弧 **))** 來結束 CALCULATE 函數。
     
@@ -144,15 +143,15 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 ### <a name="functions"></a>函數
 函數是預先定義的公式，使用特定值和呼叫的引數，依特定順序或結構來執行計算。 引數可以是其他函數、另一個公式、運算式、資料行參考、數值、文字、TRUE 或 FALSE 等邏輯值，或常數。
 
-DAX 包含下列函數類別：[日期和時間](https://msdn.microsoft.com/library/ee634786.aspx)、[時間智慧](https://msdn.microsoft.com/library/ee634763.aspx)[、](https://msdn.microsoft.com/library/ee634552.aspx)[資訊](https://msdn.microsoft.com/library/ee634552.aspx)、[邏輯](https://msdn.microsoft.com/library/ee634365.aspx)[、](https://msdn.microsoft.com/library/ee634365.aspx)[數學](https://msdn.microsoft.com/library/ee634241.aspx)、[統計](https://msdn.microsoft.com/library/ee634822.aspx)、[文字](https://msdn.microsoft.com/library/ee634938.aspx)、[父子式](https://msdn.microsoft.com/library/mt150102.aspx)和[其他](https://msdn.microsoft.com/library/mt150101.aspx)函數。 如果您熟悉 Excel 公式中的函數，DAX 中的許多函數看起來會很類似；不過，DAX 函數在下列方面是獨一無二的：
+DAX 包含下列函數類別：[日期和時間](https://msdn.microsoft.com/library/ee634786.aspx)、[時間智慧](https://msdn.microsoft.com/library/ee634763.aspx)、[資訊](https://msdn.microsoft.com/library/ee634552.aspx)、[邏輯](https://msdn.microsoft.com/library/ee634365.aspx)、[數學](https://msdn.microsoft.com/library/ee634241.aspx)、[統計](https://msdn.microsoft.com/library/ee634822.aspx)、[文字](https://msdn.microsoft.com/library/ee634938.aspx)、[父子式](https://msdn.microsoft.com/library/mt150102.aspx)和[其他](https://msdn.microsoft.com/library/mt150101.aspx)函式。 如果您熟悉 Excel 公式中的函數，DAX 中的許多函數看起來會很類似；不過，DAX 函數在下列方面是獨一無二的：
 
 * DAX 函數一律會參考完整的資料行或資料表。 如果您只想使用某個資料表或資料行中的特定值，您可以將篩選條件加入公式。
 * 如果您需要逐列自訂計算，DAX 提供函數，讓您使用目前的資料列值或相關值做為一種引數，以執行因內容而異的計算。 稍後您將進一步了解內容。
 * DAX 包含許多會傳回資料表而不是值的函數。 該資料表不會顯示出來，但會用來提供其他函數的輸入。 例如，您可以擷取資料表，然後計算其中的相異值；或者計算所篩選的不同資料表或資料行的動態總和。
 * DAX 包含各種時間智慧函數。 這些函數可讓您定義或選取日期範圍，並以此為依據來執行動態計算。 例如，您可以比較不同平行區間的總和。
-* Excel 有一個非常受歡迎的函數 VLOOKUP。 不同於 Excel 的 VLOOKUP，DAX 函數不會以資料格或資料格範圍做為參考。 DAX 函數會以資料行或資料表做為參考。 請記住，在 Power BI Desktop 中，您會使用關聯式資料模型。 查閱另一個資料表中的值其實相當簡單，而且在大多數情況下，您完全不需要建立任何公式。
+* Excel 有一個非常受歡迎的函數 VLOOKUP。 不同於 Excel 的 VLOOKUP，DAX 函數不會以資料格或資料格範圍做為參考。 DAX 函數會以資料行或資料表做為參考。 請記得，在 Power BI Desktop 中，您會使用關聯式資料模型。 查閱另一個資料表中的值其實相當簡單，而且在大多數情況下，您完全不需要建立任何公式。
   
-  如您所見，DAX 函數可協助您建立非常強大的公式。 我們其實只接觸到函數的基本概念。 隨著您愈來愈熟練 DAX，您將會使用許多不同的函數來建立公式。 [DAX 函數參考](https://msdn.microsoft.com/library/ee634396.aspx)是您進一步了解每個 DAX 函數的其中一個最佳地點。
+  如您所見，DAX 函數可協助您建立非常強大的公式。 我們其實只接觸到函數的基本概念。 隨著您愈來愈熟練 DAX，您將會使用許多不同的函數來建立公式。 [DAX 函式參考](https://msdn.microsoft.com/library/ee634396.aspx)是您進一步了解每個 DAX 函數的最佳地點之一。
 
 ### <a name="functions-quickquiz"></a>函數快速測驗
 1. 函數一律會參考的項目為何？

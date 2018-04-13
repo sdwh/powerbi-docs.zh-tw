@@ -1,15 +1,15 @@
 ---
-title: "使用 Power BI Desktop 中的導出資料行"
-description: "Power BI Desktop 中的導出資料行"
+title: 使用 Power BI Desktop 中的導出資料行
+description: Power BI Desktop 中的導出資料行
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e9d1820bff2768f2169530ec49cfa2963bff9baa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a47e707969b592ec27c79558699638ce14f8640
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>使用 Power BI Desktop 中的導出資料行
 透過導出資料行，您可以將新資料加入模型中已有的資料表。 您會建立定義資料行值的資料分析運算式 (DAX) 公式，而不是從資料來源查詢值並將其載入新的資料行。 在 Power BI Desktop 中，導出資料行是透過 [報表檢視] 中的 [新增資料行] 功能來建立。
@@ -54,7 +54,7 @@ Jeff 以滑鼠右鍵按一下 [Geography] 資料表，然後按一下 [新增資
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-他可以將該欄位連同出貨編號一起加入報表畫布。 只要幾個動作，很快地 Jeff 便有 [City, State] 欄位。 他可以加入幾乎任何類型的視覺效果。 Jeff 也會看到在建立地圖視覺效果時，Power BI Desktop 甚至知道如何讀取新資料行中的 [City, State] 值。
+他可以將該欄位連同出貨編號一起加入報表畫布。 不出一會兒功夫，Jeff 就得到了能夠新增至任何類型視覺效果的 [City]、[State] 欄位。 Jeff 會在建立地圖視覺效果時看到這些項目，Power BI Desktop 甚至了解如何讀取新資料行中的 City、State 值。
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
