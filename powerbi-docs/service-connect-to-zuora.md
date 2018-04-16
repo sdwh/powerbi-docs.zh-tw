@@ -39,7 +39,7 @@ Zuora for Power BI 可讓您以視覺化方式顯示重要的營收、帳單與�
 3. 選取 [Zuora] \> [取得]。
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. 指定您的 Zuora URL。 這通常是 "https://www.zuora.com"，請參閱以下關於[尋找這些參數](#FindingParams)的詳細資料。
+4. 指定您的 Zuora URL。 這通常是 "https://www.zuora.com" ，請參閱以下關於[尋找這些參數](#FindingParams)的詳細資料。
 
    ![](media/service-connect-to-zuora/params.png)
 5. 在 [ **驗證方法**] 選取 [ **基本** ]，然後輸入使用者名稱及密碼，再選取 [ **登入**]。
