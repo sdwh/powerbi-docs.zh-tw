@@ -1,28 +1,28 @@
 ---
-title: "複製並貼上 Power BI 的視覺效果"
-description: "複製並貼上 Power BI 的視覺效果"
+title: 複製並貼上 Power BI 的視覺效果
+description: 複製並貼上 Power BI 的視覺效果
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8074845fc2f48ba8b06134cfefcbf8f15ace5350
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8e00bb4ca2e39462624a489dd96bbd2b266aa6c3
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中複製並貼上視覺效果
 複製並貼上視覺效果時，需要有報告的編輯權限。 在 Power BI 服務中，這表示在[編輯檢視](service-reading-view-and-editing-view.md)中開啟報告。
@@ -34,8 +34,6 @@ ms.lasthandoff: 02/24/2018
 
 ### <a name="next-steps"></a>後續步驟
 深入了解 [Power BI 報表中的視覺效果](power-bi-report-visualizations.md)
-
-[Power BI - 基本概念](service-basic-concepts.md)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

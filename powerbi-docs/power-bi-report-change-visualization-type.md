@@ -1,28 +1,28 @@
 ---
-title: "變更報告中的視覺效果類型"
-description: "在 Power BI 服務和 Power BI Desktop 中變更報告視覺效果的類型"
+title: 變更報告中的視覺效果類型
+description: 在 Power BI 服務和 Power BI Desktop 中變更報告視覺效果的類型
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/20/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c6a5759be3df141e2a93fe8c969a45cdc0b004be
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4ed26bbec81093654314f058f8bcbfac927cf70f
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>變更 Power BI 報表的視覺效果類型
 在 Power BI 服務和 Power BI Desktop 中嘗試不同類型的視覺效果，看看哪一種最能說明資料。 

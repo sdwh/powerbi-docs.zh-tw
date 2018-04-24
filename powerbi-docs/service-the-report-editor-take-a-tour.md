@@ -1,29 +1,29 @@
 ---
-title: "快速入門 - 報表編輯器...導覽"
-description: "報表編輯器...進行導覽。"
+title: 快速入門 - 報表編輯器...導覽
+description: 報表編輯器...進行導覽。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: b134fe1e5d14f3707391888951178553d5cda7e5
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>報表編輯器...導覽
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中編輯報表
@@ -56,7 +56,6 @@ Power BI 報表編輯器是由 3 個區段所組成︰
 |  |  |
 | --- | --- |
 | ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>[視覺效果] 窗格上方會指出使用中的視覺效果類型，在此範例中是群組直條圖。<br><br></li> <li>[視覺效果] 窗格下方 (必須向下捲動) 會顯示視覺效果正在使用的欄位。 這個圖表使用 FiscalMonth、DistrictManager 和總銷售額變異數。 <br><br></li><li>[篩選] 窗格 (必須向下捲動) 會顯示任何已套用的篩選條件。 <br><br></li><li>[欄位] 窗格會列出可用的資料表，如果您展開資料表的名稱時，還能看到構成該資料表的欄位。 黃色字型可讓您了解該資料表至少有一個欄位用在視覺效果中。<br><br></li><li>![油漆滾筒圖示](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) 若要顯示格式化窗格，請針對選取的視覺效果，選取油漆滾筒圖示。<br><br></li><li>![放大鏡圖示](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) 若要顯示 [分析] 窗格，請選取放大鏡圖示。</ul> |
-|  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>[視覺效果] 窗格 (由上至下)
 ![[視覺效果] 窗格頂端](media/service-the-report-editor-take-a-tour/selectviz.png)

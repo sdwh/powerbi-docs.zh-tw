@@ -1,29 +1,29 @@
 ---
-title: "KPI 視覺效果 (教學課程)"
-description: "在 Power BI 服務和 Power BI Desktop 中建立 KPI"
+title: KPI 視覺效果 (教學課程)
+description: 在 Power BI 服務和 Power BI Desktop 中建立 KPI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: xmja6EpqaO0
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1a937b77135d6ad7843a6e0be779c235a1073f46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4d6af52f10f16d973dc97ed0da1ed74bf63ec2cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="kpi-visuals-tutorial"></a>KPI 視覺效果 (教學課程)
 關鍵效能指標 (KPI) 是一種視覺提示，指出對於可測量目標已達成的進度。 如需 KPI 的詳細資訊，請參閱 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)
@@ -76,11 +76,8 @@ KPI 在行動裝置上也可供使用，讓您可隨時連線到貴企業的活�
 * 若您的 KPI 看起來不像上述說明，可能是因為您需要依照月份排序。 因為 KPI 沒有排序選項，所以將視覺效果轉換為 KPI *之前*，必須先依照月份排序。
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 中的報表](service-reports.md)
 
 [Power BI 報表的視覺效果](power-bi-report-visualizations.md)
-
-[Power BI - 基本概念](service-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

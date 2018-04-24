@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 服務報告中的閱讀檢視和編輯檢視
 在 Power BI 服務 (而非 Power BI Desktop) 中，有兩種模式可與報告互動：閱讀檢視和編輯檢視。 [閱讀檢視] 適用於所有使用者，特別是針對資料「取用者」而設計，[編輯檢視] 則僅適用於報表「建立者」和擁有者。
@@ -48,7 +48,6 @@ ms.lasthandoff: 03/15/2018
 |工作  | 閱讀檢視  | 編輯檢視 |
 |-------------------------|-------|-------|
 |**完整報表**  |
-||||
 | [建立或編輯報表](service-report-create-new.md) | 否  | 是 |
 | [共用報表](service-share-reports.md)| 是 | 是，也可以管理權限，包括提供其他人「擁有者」權限。 |
 | [從 [篩選] 窗格建立持續性 (永久) 的視覺效果層級、鑽研、頁面層級和報表層級的篩選](power-bi-report-add-filter.md) | 否  | 是 |
@@ -63,12 +62,10 @@ ms.lasthandoff: 03/15/2018
 | [儲存報表](service-report-save.md) | 是，但只使用 [另存新檔]。 | 是 |
 | [刪除報表](service-delete.md) | 否  | 是 |
 |**報表頁面** |
-||||
 | [新增或重新命名報表頁面](power-bi-report-add-page.md)  | 否  | 是  |
 | [複製報表頁面](power-bi-report-copy-paste-page.md) | 否  | 是 |
 | [刪除報表頁面](service-delete.md) | 不可以 | 可以 |
 |**使用報表視覺效果**|
-||||
 | [將視覺效果新增至報表](power-bi-report-add-visualizations-i.md) | 否  | 是 |
 | [在報表中新增文字方塊和圖形](power-bi-reports-add-text-and-shapes.md) | 否  | 是 |
 | [使用報表 [格式] 窗格](service-the-report-editor-take-a-tour.md) | 否 | 是 |

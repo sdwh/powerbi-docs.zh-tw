@@ -1,28 +1,28 @@
 ---
-title: "移動、調整大小及顯示視覺效果"
-description: "在 Power BI 服務和 Power BI Desktop 中移動視覺效果及調整其大小"
+title: 移動、調整大小及顯示視覺效果
+description: 在 Power BI 服務和 Power BI Desktop 中移動視覺效果及調整其大小
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a46df6e225a5546f58e4f111d9cd3920a128614c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 66df86d0db9767f29a1fdca637b95bb66cd9252d
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中變更報告視覺效果的類型
 只有報告建立者和擁有者可以移動視覺效果及調整其大小。 在 Power BI 服務 (app.powerbi.com) 中，這表示在[編輯檢視](service-reading-view-and-editing-view.md)中開啟報告。
@@ -43,9 +43,5 @@ ms.lasthandoff: 02/24/2018
 
 ## <a name="next-steps"></a>後續步驟
 [調整儀表板上的視覺效果](service-dashboard-edit-tile.md)  
-
-[Power BI 報表的視覺效果](power-bi-report-visualizations.md)  
-
-[Power BI - 基本概念](service-basic-concepts.md)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

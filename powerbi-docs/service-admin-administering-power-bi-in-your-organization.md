@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>管理貴組織中的 Power BI
 Microsoft Power BI 讓使用者能夠視覺化資料、共用探索，以及以容易了解的新方式共同作業。 若要深入了解，請參閱[開始使用 Power BI](service-get-started.md)。
@@ -185,8 +185,6 @@ Microsoft Power BI 讓使用者能夠視覺化資料、共用探索，以及以�
 如果貴組織已有現成的 Office 365 環境，而且組織中所有的使用者都有 Office 365 帳戶，身分識別管理就不會變更。
 
 如果貴組織已有現成的 Office 365 環境，但組織中並非所有使用者都有 Office 365 帳戶，我們會在租用戶中建立使用者，然後根據使用者的工作或學校電子郵件地址指派授權。 這表示，您在任何特定時間內管理的使用者數目，會成長為貴組織註冊服務的使用者。
-
-如果您要管理內部部署目錄，並使用 Active Directory 同盟服務 (AD FS)，Microsoft 不會將使用者新增至租用戶中，而嘗試加入租用戶的使用者會收到連絡組織系統管理員的訊息。
 
 如果貴組織沒有連接到您電子郵件網域的 Office 365 環境，身分識別管理方式就不會有任何變更。 使用者會新增至僅限雲端的新使用者目錄中，而您可以選擇是否接管成為租用戶系統管理員並管理使用者。
 

@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/15/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 72afa61316800e9636d7b1a1536ff9c43b66c453
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: c23d36c408c1714df9a480d5f35da9691af620d9
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 當您在 Power BI 服務中開啟報表時，每頁報表各有其唯一的 URL。 若要篩選該報表頁面，您可以使用報表畫布上的 [篩選] 窗格。  或者您也可以將查詢字串參數新增到 URL，以篩選報表。 您可能有想要向同事展示的報表，並想要預先為他們篩選。 其中一個執行方式是從報表的預設 URL 著手、將篩選參數新增到 URL，然後用電子郵件將整個 URL 寄送給他們。
@@ -98,7 +98,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 將報表發佈到 Power BI 服務，然後使用 URL 查詢字串篩選成只顯示 NC 的 Lindseys 門市資料。
 
-https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
+    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>從篩選的報表釘選磚
 在您使用查詢字串參數篩選報表後，可以將視覺效果從該報表釘選到儀表板。 儀表板上的磚會顯示經過篩選的資料，而選取該儀表板磚會開啟用來建立該磚的報表。  不過，您使用 URL 進行的篩選不會儲存在報表，而選取儀表板磚時，報表會以未篩選的狀態開啟。  這表示儀表板磚中顯示的資料與報表視覺效果中顯示的資料不相符。

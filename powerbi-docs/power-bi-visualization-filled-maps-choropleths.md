@@ -1,29 +1,29 @@
 ---
-title: "Power BI 中的區域分布圖 (分級著色圖) (教學課程)"
-description: "文件 - 在 Power BI 中建立區域分布圖 (分級著色圖) 的相關教學課程"
+title: Power BI 中的區域分布圖 (分級著色圖) (教學課程)
+description: 文件 - 在 Power BI 中建立區域分布圖 (分級著色圖) 的相關教學課程
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/19/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0d4e1cd766cf5f1b35b5d0a6ca0946820efe9f3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a6cddcf361072bdd265a94de9efd5dbc7ecf05c8
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Power BI 中的區域分布圖 (分級著色圖) (教學課程)
 區域分布圖使用陰影、濃淡或圖樣，顯示值的比例如何隨著地理位置或地區而有所不同。  可使用範圍介於淺色 (較不常見/較低) 到深色 (較常見/較多) 的陰影，快速顯示這些相對差異。    
@@ -104,7 +104,7 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
    ![](media/power-bi-visualization-filled-maps-choropleths/img009.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-地圖資料可能模稜兩可。  例如，有在法國的巴黎，但也有「德州，巴黎」(Paris, Texas)。 您的地理資料可能會儲存在個別資料行 – 縣市名稱的資料行、州或省名稱的資料行等等 – 所以 Bing 可能無法判斷這裡的巴黎是哪個巴黎。 如果您的資料集已經包含經度和緯度資料，Power BI 有特殊欄位可協助避免地圖資料模稜兩可。 直接將包含緯度資料的欄位拖曳到 [視覺效果] \> [緯度] 區域。  然後對經度資料執行相同的動作。  
+地圖資料可能模稜兩可。  例如，有在法國的巴黎，但也有「德州，巴黎」(Paris, Texas)。 您的地理資料可能會儲存在個別資料行 (縣市名稱的資料行、州或省名稱的資料行等等)，所以 Bing 可能無法判斷這裡的巴黎是哪個巴黎。 如果您的資料集已經包含經度和緯度資料，Power BI 有特殊欄位可協助避免地圖資料模稜兩可。 直接將包含緯度資料的欄位拖曳到 [視覺效果] \> [緯度] 區域。  然後對經度資料執行相同的動作。  
 ![](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
 
 如果您有權限可編輯 Power BI Desktop 中的資料集，請觀賞這段影片，以協助解決地圖模稜兩可的情況。
