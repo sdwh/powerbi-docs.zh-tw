@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1f1eeda618c54def9e756f727161d5bc7d541218
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Azure 使用深入解析
 使用 **Azure 使用深入解析**連接器，您可以使用 **Power BI Desktop** 連線到 Azure，並取得關於貴組織的 Azure 服務使用量的深入資料和相關資訊。 您也可以建立量值、自訂資料行和視覺效果，報告及共用有關貴組織 Azure 使用量的資訊。 這一版的 **Azure 使用深入解析**連接器處於搶鮮版 (Beta)，並可能有所變更。
@@ -151,7 +151,7 @@ Azure 入口網站中的詳細資料資料行和名稱，在 API 和連接器中
 
 | ACI 連接器 / ContentPack ColumnName | ACI API 資料行名稱 | EA 資料行名稱 | 已淘汰/為了回溯相容性而存在 |
 | --- | --- | --- | --- |
-| AccountName |accountName |Account Name |否 |
+| AccountName |accountName |帳戶名稱 |否 |
 | AccountId |accountId | |是 |
 | AcccountOwnerId |accountOwnerEmail |AccountOwnerId |否 |
 | AdditionalInfo |additionalInfo |AdditionalInfo |否 |
@@ -161,23 +161,23 @@ Azure 入口網站中的詳細資料資料行和名稱，在 API 和連接器中
 | ConsumedServiceId |consumedServiceId | |是 |
 | Cost |cost |ExtendedCost |否 |
 | Cost Center |costCenter |Cost Center |否 |
-| 日期 |date |日期 |否 |
-| 日 | |日 |否 |
-| DepartmentName |departmentName |Department Name |否 |
+| 日期 |日期 |日期 |否 |
+| 天 | |天 |否 |
+| DepartmentName |departmentName |部門名稱 |否 |
 | DepartmentID |departmentId | |是 |
 | Instance ID | | |是 |
 | InstanceId |instanceId |Instance ID |否 |
 | 位置 | | |是 |
 | Meter Category |meterCategory |Meter Category |否 |
 | Meter ID | | |是 |
-| Meter Name |meterName |Meter Name |否 |
+| 計量名稱 |meterName |計量名稱 |否 |
 | Meter Region |meterRegion |Meter Region |否 |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |否 |
 | MeterId |meterId |Meter ID |否 |
 | 月 | |月 |否 |
 | 產品 |product |產品 |否 |
 | ProductId |productId | |是 |
-| Resource Group |resourceGroup |Resource Group |否 |
+| 資源群組 |resourceGroup |資源群組 |否 |
 | Resource Location |resourceLocation |Resource Location |否 |
 | ResourceGroupId | | |是 |
 | ResourceLocationId |resourceLocationId | |是 |
@@ -189,7 +189,7 @@ Azure 入口網站中的詳細資料資料行和名稱，在 API 和連接器中
 | ServiceInfo2Id | | |是 |
 | Store Service Identifier |storeServiceIdentifier |Store Service Identifier |否 |
 | StoreServiceIdentifierId | | |是 |
-| Subscription Name |subscriptionName |Subscription Name |否 |
+| 訂用帳戶名稱 |subscriptionName |訂用帳戶名稱 |否 |
 | 標記 |tags |標記 |否 |
 | TagsId | | |是 |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |否 |
