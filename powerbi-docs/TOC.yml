@@ -124,13 +124,13 @@
           href: service-connect-to-at-internet.md
         - name: Azure Mobile Engagement
           href: service-connect-to-azure-mobile.md
-        - name: Microsoft Azure Consumption Insights
+        - name: Microsoft Azure 使用量見解
           href: service-connect-to-azure-consumption-insights.md
         - name: Azure 搜尋服務
           href: service-connect-to-azure-search.md
         - name: Bing
           href: service-connect-to-bing.md
-        - name: 電路識別碼
+        - name: Circuit ID
           href: service-connect-to-circuit-id.md
         - name: ClickDimensions
           href: service-connect-to-clickdimensions.md
@@ -210,7 +210,7 @@
           href: service-connect-to-ziosk.md
         - name: Zuora
           href: service-connect-to-zuora.md
-    - name: 儀表板
+    - name: Dashboards
       items:
         - name: Power BI 的儀表板
           href: service-dashboards.md
@@ -846,10 +846,12 @@
           href: desktop-send-smile-privacy-statement.md
     - name: 疑難排解
       items:
-        - name: 解決 Power BI Desktop 和 Power Query 中匯入 Access 資料庫和 Excel 試算表的問題
-          href: desktop-access-database-errors.md
+        - name: 解決 Power BI Desktop 登入期間的問題
+          href: desktop-troubleshooting-sign-in.md
         - name: 解決啟動 Power BI Desktop 時發生的問題
           href: desktop-error-launching-desktop.md
+        - name: 解決 Power BI Desktop 和 Power Query 中匯入 Access 資料庫和 Excel 試算表的問題
+          href: desktop-access-database-errors.md
 - name: Power BI 行動裝置應用程式
   items:
     - name: 開始使用
@@ -1070,9 +1072,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848709'
         - name: 使用 KPI
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-        - name: 支援的資料來源
+        - name: Power BI 報表 (.pbix) 資料來源
           href: report-server/data-sources.md
-        - name: 連接至資料來源
+        - name: Paginated 報表 (.rdl) 資料來源
           href: report-server/connect-data-sources.md
         - name: '存取共用資料集作為 OData 摘要 '
           href: report-server/access-dataset-odata.md
