@@ -1,15 +1,15 @@
 ---
-title: "針對 Power BI 報表伺服器中排程的重新整理進行疑難排解"
-description: "本文會討論可用來針對 Power BI 報表伺服器中排程的重新整理之問題進行疑難排解的資源。"
+title: 針對 Power BI 報表伺服器中排程的重新整理進行疑難排解
+description: 本文會討論可用來針對 Power BI 報表伺服器中排程的重新整理之問題進行疑難排解的資源。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 466505ae2c4050629e8bbcc4ff90cde520d31375
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: cf084492a7b5d1ecc10ff933eeaef4cdbdc14022
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>針對 Power BI 報表伺服器中排程的重新整理進行疑難排解
 本文會討論可用來針對 Power BI 報表伺服器中排程的重新整理之問題進行疑難排解的資源。
@@ -60,7 +60,6 @@ ms.lasthandoff: 01/30/2018
 
 | 設定 | 描述 |
 | --- | --- |
-| EnablePowerBIReportEmbeddedModels |啟用或停用在您的報表中使用匯入之資料的能力。 有效值為 True 或 False。 |
 | MaxFileSizeMb |上傳報表的最大檔案大小。 預設值為 1000 MB (1 GB)。 最大值為 2000 MB (2 GB)。 |
 | ModelCleanupCycleMinutes |定義檢查模型以從記憶體中收回的頻率。 預設值為 15 分鐘。 |
 | ModelExpirationMinutes |定義根據最後使用和收回的時間，模型到期之前有多少時間。 預設值為 60 分鐘。 |
