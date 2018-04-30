@@ -1,29 +1,29 @@
 ---
-title: "儀表板和報表的使用計量"
-description: "如何檢視、儲存和使用 Power BI 儀表板和報表的使用計量。 透過內容創作者的使用計量來測量及放大您的影響力。"
+title: 儀表板和報表的使用計量
+description: 如何檢視、儲存和使用 Power BI 儀表板和報表的使用計量。 透過內容創作者的使用計量來測量及放大您的影響力。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>儀表板和報表的使用計量
 如果您建立儀表板和報表，使用計量可協助您了解其影響。 當您執行儀表板使用計量或報表使用計量時，您可以探索這些儀表板和報表在整個組織內的使用方式、使用內容、使用者及用途。  
@@ -53,7 +53,7 @@ ms.lasthandoff: 03/09/2018
 
 使用計量報表不會出現在 [最近]、[工作區]、[我的最愛] 或其他內容清單中。 這些報表無法新增至應用程式。 如果您將使用計量報表中的磚釘選到儀表板，該儀表板即無法新增至應用程式或內容套件。
 
-若要挖掘更深入的報表資料，或根據資料集建立您自己的報表，請使用 [另存新檔] (請參閱[將使用計量報表儲存為全功能的 Power BI 報表](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report))。
+若要挖掘更深入的報表資料，或根據資料集建立您自己的報表，請使用 [另存新檔] (請參閱[將使用計量報表儲存為全功能的 Power BI 報表](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize)))。
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>開啟儀表板或報表的使用計量報表
 1. 在包含儀表板或報表的工作區中啟動。

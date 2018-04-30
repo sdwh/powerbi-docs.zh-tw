@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5f081dff246c478f1b9ee3c918de2099b8382100
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 5480768fc088b3a32a1af222d38e3829298e8f0d
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解內部部署資料閘道
 您組織中的使用者可以存取內部部署資料 (他們已經具有存取授權)，但在那些使用者能夠連線至您的內部部署資料來源之前，必須先安裝並設定內部部署資料閘道。 此閘道有助於讓雲端的使用者快速安全地以幕後通訊方式，在內部部署資料來源和雲端之間往返。
@@ -87,10 +87,7 @@ Power BI 可讓您對應 Analysis Services 資料來源的使用者名稱。 您
    您可以在 Azure 網站或 Office 365 管理入口網站上建立帳戶，帳戶名稱必須符合本機 Active Directory 帳戶的 UPN。
 2. 您可以使用 [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) 工具，將本機帳戶同步處理至您的 Azure Active Directory 租用戶。
    
-   Azure AD Connect 工具提供目錄和密碼同步處理使用的選項。 如果您不是租用戶管理員或本機網域系統管理員，您必須連絡您的 IT 管理員來進行這項設定。
-3. 您可以設定 Active Directory 同盟服務 (ADFS)。
-   
-   您可以使用 [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) 工具將 ADFS 伺服器與 AAD 租用戶建立關聯。 ADFS 使用以上所討論的目錄同步作業，但允許單一登入 (SSO) 體驗。 例如，如果您位於您的公司網路中，當您前往雲端服務並移至登入後，系統可能不會提示您輸入使用者名稱或密碼。 您必須與您的 IT 管理員討論這是否可供您的組織使用。
+   Azure AD Connect 工具提供了目錄同步處理和設定驗證的選項，包括密碼雜湊同步處理、傳遞驗證和同盟。 如果您不是租用戶管理員或本機網域系統管理員，您必須連絡您的 IT 管理員來進行這項設定。
 
 使用 Azure AD Connect 可確保 UPN 會在 AAD 與本機 Active Directory 之間相符。
 

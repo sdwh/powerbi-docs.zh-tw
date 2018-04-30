@@ -1,29 +1,29 @@
 ---
-title: "地圖視覺效果的秘訣和訣竅，包括與 Bing 地圖服務的整合"
-description: "Power BI 地圖服務視覺效果、位置、經度和緯度，以及如何與 Bing 地圖服務整合運作的秘訣和訣竅。 "
+title: 地圖秘訣和訣竅 (包括 Bing 地圖服務整合)
+description: 'Power BI 地圖服務視覺效果、位置、經度和緯度，以及如何與 Bing 地圖服務整合運作的秘訣和訣竅。 '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: ajTPGNpthcg
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a78481376d679025fe3ac8929dff8756eb61257
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 031d977adbeb0697bcdd1bb6b19ebf21ec16e516
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 視覺效果的秘訣和訣竅
 Power BI 與 Bing 地圖服務整合以提供預設地圖座標 (這個程序稱為地理編碼)，以便您建立地圖。 這兩者使用演算法來識別正確位置，但有時會猜測最接近的位置。 如果 Power BI 無法自行建立地圖視覺效果，則會請求 Bing 地圖服務協助。 

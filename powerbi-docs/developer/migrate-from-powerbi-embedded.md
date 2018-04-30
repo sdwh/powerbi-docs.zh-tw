@@ -1,15 +1,15 @@
 ---
-title: "如何將 Power BI 工作區集合內容遷移至 Power BI"
-description: "了解如何從 Power BI 工作區集合遷移至 Power BI Embedded，並利用內嵌在應用程式中的進階功能。"
+title: 如何將 Power BI 工作區集合內容遷移至 Power BI
+description: 了解如何從 Power BI 工作區集合遷移至 Power BI Embedded，並利用內嵌在應用程式中的進階功能。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5cf1be502267b14075ac6160ce93fce47941d3c2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何將 Power BI 工作區集合內容遷移至 Power BI Embedded
 了解如何從 Power BI 工作區集合遷移至 Power BI Embedded，並利用內嵌在應用程式中的進階功能。
@@ -58,8 +58,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/en-us/b
 
 > [!NOTE]
 > 這些帳戶必須擁有 Power BI Pro 授權，才能使用應用程式工作區。
-> 
-> 
+>
 
 1. 租用戶系統管理員使用者。
    
@@ -71,10 +70,13 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/en-us/b
    
     應用程式後端將會儲存此帳戶的認證，並使用它取得 Azure AD 權杖以與 Power BI REST API 搭配使用。 這個帳戶將用來產生應用程式的內嵌權杖。 這個帳戶也需要是針對內嵌而建立之應用程式工作區的管理員。
    
-   > [!NOTE]
-   > 此為貴組織中的一般使用者帳戶，將用於內嵌。
-   > 
-   > 
+> [!NOTE]
+> 此為貴組織中的一般使用者帳戶，將用於內嵌。
+>
+
+> [!NOTE]
+> 如果 App-Only 權杖驗證是您的應用程式的需求，請按一下[這裡](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement)與我們連絡。
+>
 
 ## <a name="app-registration-and-permissions"></a>應用程式註冊和權限
 您必須在 Azure AD 內註冊應用程式，並授與特定權限。
@@ -126,13 +128,13 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/en-us/b
 #### <a name="directquery-dataset--report"></a>DirectQuery 資料集和報表
 **流程**
 
-1. 呼叫 GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources，並儲存收到的連接字串。
+1. 呼叫 GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources 並儲存已接收的連接字串。
 2. 從 PaaS 工作區，呼叫下載 PBIX API。
 3. 儲存 PBIX。
 4. 對 SaaS 工作區呼叫匯入 PBIX。
-5. 更新連接字串，方法是呼叫 - POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
-6. 取得 GW 識別碼和資料來源識別碼，方法是呼叫 - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
-7. 更新使用者的認證，方法是呼叫 - PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
+5. 呼叫 POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections 更新連接字串
+6. 呼叫 GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources 取得 GW 識別碼和資料來源識別碼
+7. 呼叫 PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} 更新使用者的認證
 
 #### <a name="old-dataset--reports"></a>舊資料集和報表
 這些是在 2016 年 10 月之前建立的資料集/報表。 下載 PBIX 不支援 2016 年 10 月之前上傳的 PBIX

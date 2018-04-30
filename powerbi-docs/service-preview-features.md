@@ -1,36 +1,36 @@
 ---
-title: "加入宣告預覽功能"
-description: "如何開啟 (開關) 預覽中的 Power BI 功能。"
+title: 加入宣告預覽功能
+description: 如何開啟 (開關) 預覽中的 Power BI 功能。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 45f10ab7fef7669adbbc836e67a4daaed267905e
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 54aa25b0d5252af24bdbefef3f1d5798df2f6168
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="opt-in-for-power-bi-preview-features"></a>加入宣告 Power BI 預覽功能
+# <a name="opt-in-for-power-bi-service-preview-features"></a>加入宣告 Power BI 服務預覽功能
 ## <a name="what-are-preview-features"></a>什麼是「預覽功能」？
-當我們改進 Power BI 時，會以「預覽功能」的形式發行一些新功能。 您可以開啟或關閉預覽功能，以獲得試用機會。
+當我們改進 Power BI 服務時，會以「預覽功能」的形式發行一些新功能。 您可以開啟或關閉預覽功能，以獲得試用機會。
 
 > [!TIP]
-> 有疑問或意見反應嗎？ [請瀏覽 Power BI 社群論壇](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)。
+> 預覽功能也在 Power BI Desktop 中提供使用，如需詳細資訊，請[瀏覽 Power BI Desktop 社群論壇](https://community.powerbi.com/t5/Desktop/bd-p/power-bi-designer)。
 > 
 > 
 

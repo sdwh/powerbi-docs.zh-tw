@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中使用群組和量化"
-description: "了解如何在 Power BI Desktop 中群組和量化項目"
+title: 在 Power BI Desktop 中使用群組和量化
+description: 了解如何在 Power BI Desktop 中群組和量化項目
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,19 +18,19 @@ ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ec663e61a6cb5281500e605fda35ecb81d7b71a2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b4bc8af482dd2fa2084889eb98c6be2857271451
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>在 Power BI Desktop 中使用群組和量化
-當 **Power BI Desktop** 建立視覺效果時，會根據在基礎資料中找到的值，將資料彙總成區塊 (或**群組**)。 通常沒有問題，但您偶爾會想要調整這些區塊的呈現方式。 例如，您可能想要將三種產品類別放在一個較大的類別 (一個「群組」) 中。 或者您可能想要以量化大小 1,000,000 美元來查看銷售數字，而不是等分為 923,983 美元。
+當 **Power BI Desktop** 建立視覺效果時，會根據在基礎資料中找到的值，將資料彙總成區塊 (或群組)。 通常沒有問題，但您偶爾會想要調整這些區塊的呈現方式。 例如，您可能想要將三種產品類別放在一個較大的類別 (一個「群組」) 中。 或者您可能想要以量化大小 1,000,000 美元來查看銷售數字，而不是等分為 923,983 美元。
 
-在 Power BI Desktop 中，您可以**群組**資料點，以協助您更清楚地檢視、分析及探索視覺效果中的資料和趨勢。 您也可以定義**量化大小** (通常稱為**量化**)，將值放入大小相同的群組，好讓您以有意義的方式將資料視覺化。
+在 Power BI Desktop 中，您可以**群組**資料點，以協助您更清楚地檢視、分析及探索視覺效果中的資料和趨勢。 您也可以定義**量化大小** (通常稱為「量化」)，將值放入大小相同的群組，好讓您以有意義的方式將資料視覺化。
 
 ### <a name="using-grouping"></a>使用群組
-若要使用**群組**，請按住 Ctrl 鍵再按一下滑鼠來複選項目，以選取視覺效果上的兩個或多個項目。 然後以滑鼠右鍵按一下其中一個複選項目，再從出現的功能表中選取 [群組]。
+若要使用群組，請按住 Ctrl 鍵再按一下滑鼠來複選項目，以選取視覺效果上的兩個或多個項目。 然後以滑鼠右鍵按一下其中一個複選項目，再從出現的功能表中選取 [群組]。
 
 ![](media/desktop-grouping-and-binning/grouping-binning_1.png)
 
@@ -42,23 +42,23 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-grouping-and-binning/grouping-binning_3.png)
 
-在出現的 [群組] 視窗中，您可以建立新的群組或修改現有的群組。 您也可以「重新命名」任何群組，方法是按兩下 [群組和成員] 方塊中的 [群組] 標題，然後鍵入新名稱。
+在出現的 [群組] 視窗中，您可以建立新的群組或修改現有的群組。 您也可以「重新命名」任何群組，方法是按兩下 [群組和成員] 方塊中的 [群組] 標題，然後輸入新名稱。
 
-您可以使用此視窗中的群組執行各種作業。 您可以將 [未分組的值] 清單的項目新增到新的群組，或新增到其中一個現有群組。 若要建立新的群組，請從 [未分組的值] 方塊選取兩個或更多個項目 (使用 CTRL + 按一下)，然後按一下該方塊下方的 [群組] 按鈕。
+有各式各樣可以用群組變出的花樣。 您可以將 [未分組的值] 清單的項目新增到新的群組，或新增到其中一個現有群組。 若要建立新的群組，請從 [未分組的值] 方塊選取兩個或更多個項目 (使用 CTRL + 按一下)，然後按一下該方塊下方的 [群組] 按鈕。
 
 您可以將未分組的值新增至現有的群組︰只要選取 [未分組的值]，然後選取要新增的目標現有群組，再按一下 [群組] 按鈕。 若要從群組移除項目，請從 [群組及成員] 方塊加以選取，然後按一下 [取消群組]。 您也可以選擇未分組的類別是要放入 [其他] 群組中，還是要維持未分組。
 
 ![](media/desktop-grouping-and-binning/grouping-binning_4.png)
 
 > [!NOTE]
-> 您可以在 [欄位] 中建立任何欄位的群組，而不需要從現有的視覺效果中進行複選。 只要以滑鼠右鍵按一下欄位，然後從出現的功能表中選取 [群組] 即可。
+> 您可以在 [欄位] 中建立任何欄位的群組，而不需要從現有的視覺效果中進行複選。 只要以滑鼠右鍵按一下欄位，然後從出現的功能表中選取 [新增群組] 即可。
 > 
 > 
 
 ### <a name="using-binning"></a>使用量化
 您可以在 **Power BI Desktop** 中，設定數值和時間欄位的量化大小。 您可以使用量化，將 **Power BI Desktop** 顯示的資料設定為正確大小。
 
-若要套用量化大小，請以滑鼠右鍵按一下 [欄位]，然後選取 [群組]。
+若要套用量化大小，請以滑鼠右鍵按一下 [欄位]，然後選取 [新增群組]。
 
 ![](media/desktop-grouping-and-binning/grouping-binning_5.png)
 

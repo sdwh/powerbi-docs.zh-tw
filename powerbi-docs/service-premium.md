@@ -1,28 +1,28 @@
 ---
-title: "Power BI Premium - 這是什麼？"
-description: "Power BI Premium 是您的組織或小組的專用容量，給您更可靠的效能和更大的資料磁碟區，不需要您購買每個使用者授權。"
+title: Power BI Premium - 這是什麼？
+description: Power BI Premium 是您的組織或小組的專用容量，給您更可靠的效能和更大的資料磁碟區，不需要您購買每個使用者授權。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 11cfdfdfbc4b918d00633b78ec0bdafabfe99cd6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 617e56fd688016c8ee17184f726fb018a0128e05
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium - 這是什麼？
 Power BI Premium 為您的組織或小組提供專門用來執行 Power BI 服務的資源，給您更可靠的效能和更大的資料磁碟區。 Premium 也可讓您廣泛發佈內容，不需要您為檢視者購買每個使用者授權。
@@ -71,19 +71,21 @@ Power BI Premium 適用於有不同 v 核心容量的節點設定。 如需特�
 * P 節點可用於內嵌部署或服務部署
 * EM 節點只能用於內嵌部署
 * EM1 和 EM2 
-* 只有 Office 365 全域系統管理員的使用者才能正常運作此資料表中的連結 - 其他人會收到 404 錯誤。 
 
-| 節點容量 | 核心總數<br/>(後端 + 前端) | 後端核心 | 前端核心 | DirectQuery/即時連線限制 | 尖峰時間的頁面呈現上限 | 可用性 |
+>[!NOTE]
+>只有 Office 365 全域系統管理員的使用者才能正常運作此資料表中的連結 - 其他人會收到 404 錯誤。 
+
+| 節點容量 | V 核心總數<br/>(後端 + 前端) | 後端 V 核心 | 前端 V 核心 | DirectQuery/即時連線限制 | 尖峰時間的頁面呈現上限 | 可用性 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [EM1 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 個 V 核心 |.5 個核心，2.5 GB RAM |.5 個核心 |每秒 3.75 個 |150-300 |可用 |
-| [EM2 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 個 v 核心 |1 個核心，5GB RAM |1 個核心 |每秒 7.5 個 |301-600 |可用 |
-| [EM3 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 個 v 核心 |2 個核心，10GB RAM |2 個核心 | |601-1,200 |可用 |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 個 v 核心 |4 個核心，25GB RAM |4 個核心 |每秒 30 個 |1,201-2,400 |可用 (也提供[逐月](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)) |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 個 v 核心 |8 個核心，50GB RAM |8 個核心 |每秒 60 個 |2,401-4,800 |可用 |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 個 v 核心 |16 個核心，100GB RAM |16 個核心 |每秒 120 個 |4,801-9600 |可用 |
+| [EM1 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 個 V 核心 |.5 個 V 核心，2.5 GB RAM |.5 個 V 核心 |每秒 3.75 個 |150-300 |可用 |
+| [EM2 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 個 v 核心 |1 個 V 核心，5GB RAM |1 個 V 核心 |每秒 7.5 個 |301-600 |可用 |
+| [EM3 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 個 v 核心 |2 個 V 核心，10GB RAM |2 個 v 核心 | |601-1,200 |可用 |
+| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 個 v 核心 |4 個 V 核心，25GB RAM |4 個 v 核心 |每秒 30 個 |1,201-2,400 |可用 (也提供[逐月](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)) |
+| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 個 v 核心 |8 個 V 核心，50GB RAM |8 個 v 核心 |每秒 60 個 |2,401-4,800 |可用 |
+| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 個 v 核心 |16 個 V 核心，100GB RAM |16 個 v 核心 |每秒 120 個 |4,801-9600 |可用 |
 
-* 前端核心負責 Web 服務、儀表板和報告文件管理、存取權限管理、排程、API、上傳和下載，大致上就是與使用者經驗有關的一切作業。
-* 後端核心承擔重任：查詢處理、快取管理、執行 R 伺服器、資料重新整理、自然語言處理、即時摘要，以及在伺服器端轉譯報告和影像。 為了配合後端核心，也會保留一定數量的記憶體。 在處理大型資料模型，或大量的使用中資料集時，有足夠的記憶體就變得特別重要。
+* 前端 V 核心負責 Web 服務、儀表板和報表文件管理、存取權限管理、排程、API、上傳和下載，大致上就是與使用者體驗有關的一切作業。
+* 後端 V 核心承擔重任：查詢處理、快取管理、執行 R 伺服器、資料重新整理、自然語言處理、即時摘要，以及在伺服器端轉譯報表和影像。 為了配合後端 V 核心，也會保留一定數量的記憶體。 在處理大型資料模型，或大量的使用中資料集時，有足夠的記憶體就變得特別重要。
 
 ## <a name="power-bi-report-server"></a>Power BI 報表伺服器
 Power BI Premium 包含在內部部署執行 Power BI 報表伺服器的權限。 如需詳細資訊，請參閱[開始使用 Power BI 報表伺服器](report-server/get-started.md)。

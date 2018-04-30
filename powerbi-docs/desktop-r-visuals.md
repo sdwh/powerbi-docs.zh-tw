@@ -1,15 +1,15 @@
 ---
-title: "使用 R 建立 Power BI 視覺效果"
-description: "使用 R 建立 Power BI 視覺效果"
+title: 使用 R 建立 Power BI 視覺效果
+description: 使用 R 建立 Power BI 視覺效果
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2e59e3b9d718fa2e0c8c3411968fd4ab66a5851
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e1768da4ace3fd18b181a46f48e3247cebd1cff0
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 建立 Power BI 視覺效果
 有了 **Power BI Desktop**，您可以使用 **R** 將資料視覺化。
@@ -41,21 +41,27 @@ ms.lasthandoff: 02/24/2018
 1. 在 [視覺效果] 窗格中選取 **R 視覺效果**圖示 (如下圖所示) 以加入 R 視覺效果。
    
    ![](media/desktop-r-visuals/r-visuals-3.png)
-2. 當您將 R 視覺效果新增至報表時，**Power BI Desktop** 會執行下列動作：
+
+   當您將 R 視覺效果新增至報表時，**Power BI Desktop** 會執行下列動作：
    
    - 報表畫布上會出現預留位置 R 視覺影像。
    
    - **R 指令碼編輯器**會隨即在中央窗格的底部顯示。
    
    ![](media/desktop-r-visuals/r-visuals-4.png)
-3. 接下來，將您想要在 R 指令碼中使用的欄位新增到 [欄位] 的 [值] 區段中，就如同任何其他 **Power BI Desktop** 視覺效果一般。 只有新增到 [欄位] 中的欄位才可供 R 指令碼使用，而您在 **Power BI Desktop R 指令碼編輯器**中使用 R 指令碼時，也可以新增欄位，或從 [欄位] 移除不需要的欄位。 **Power BI Desktop** 會自動偵測您已新增或移除哪些欄位。
+
+2. 接下來，將您想要在 R 指令碼中使用的欄位新增到 [欄位] 的 [值] 區段中，就如同任何其他 **Power BI Desktop** 視覺效果一般。 
+    
+    只有加入到 [欄位] 的欄位才可提供您的 R 指令碼使用。 您在 **Power BI Desktop R 指令碼編輯器**中使用 R 指令碼時，也可以新增欄位，或從 [欄位] 移除不需要的欄位。 **Power BI Desktop** 會自動偵測您已新增或移除哪些欄位。
    
    > [!NOTE]
    > R 視覺效果的預設彙總類型為「不摘要」。
    > 
    > 
    
-1. 現在您可以使用選取的資料來建立繪圖。 在您選取欄位時， **R 指令碼編輯器** 會根據您在 [編輯器] 窗格上方灰色區段中所選取的項目，產生支援的 R 指令碼繫結程式碼。 在您選取或移除額外的欄位時，R 指令碼編輯器中的程式碼會隨之自動產生或受到移除。
+3. 現在您可以使用選取的資料來建立繪圖。 
+
+    在您選取欄位時， **R 指令碼編輯器** 會根據您在 [編輯器] 窗格上方灰色區段中所選取的項目，產生支援的 R 指令碼繫結程式碼。 在您選取或移除額外的欄位時，R 指令碼編輯器中的程式碼會隨之自動產生或受到移除。
    
    在下圖所示的範例中，已選取三個欄位：hp、gear 以及 drat。 由於選取了這些項目，R 指令碼編輯器會產生下列繫結程式碼：
    
@@ -71,52 +77,52 @@ ms.lasthandoff: 02/24/2018
    > 
    > 
    
-   產生的資料框架稱為 **資料集**，且可以根據所選資料行的各自名稱來加以存取。 例如，在 R 指令碼中撰寫 *dataset$gear* 即可存取 gear 欄位。 針對使用空格或特殊字元的欄位，使用單引號加以括住。
-2. 由於資料框架會根據您選取的欄位自動產生，因此您可以撰寫 R 指令碼，進而繪製到 R 預設裝置。 指令碼完成後，請從 \[R 指令碼編輯器]  標題列選取 \[執行]  \(\[執行] 位於標題列右側)。
+   產生的資料框架稱為**資料集**，且您可以根據所選資料行的各自名稱來加以存取。 例如，在 R 指令碼中撰寫 *dataset$gear* 即可存取 gear 欄位。 針對使用空格或特殊字元的欄位，使用單引號加以括住。
+
+4. 由於資料框架會根據您選取的欄位自動產生，因此您可以撰寫 R 指令碼，進而繪製到 R 預設裝置。 指令碼完成後，請從 \[R 指令碼編輯器]  標題列選取 \[執行]  \(\[執行] 位於標題列右側)。
    
-    選取 [執行] 後，**Power BI Desktop** 會識別繪製內容並將其呈現在畫布上。
-   由於此處理序會在本機的 R 安裝上執行，因此請確定已安裝必要的套件。
+    選取 [執行] 後，**Power BI Desktop** 會識別繪製內容並將其呈現在畫布上。 由於此程序會在本機的 R 安裝上執行，因此請確定已安裝必要的套件。
    
    當下列任一種狀況發生時，**Power BI Desktop** 會重新繪製視覺效果：
    
-   * 從 [R 指令碼編輯器] 標題列選取 [執行] 時
+   * 當您從 [R 指令碼編輯器] 標題列選取 [執行] 時
    * 每當因資料重新整理、篩選或反白顯示而發生資料變更時
 
-下圖顯示相互關聯繪製程式碼的範例，並繪製不同類型汽車屬性之間的關聯性。
+    下圖顯示相互關聯繪製程式碼的範例，它繪製不同類型汽車屬性之間的關聯性。
 
-![](media/desktop-r-visuals/r-visuals-6.png)
+    ![](media/desktop-r-visuals/r-visuals-6.png)
 
-若要取得更大的視覺效果檢視，您可以將 **R 指令碼編輯器**最小化。 當然，就如同 **Power BI Desktop** 中的其他視覺效果，您可以在環圈圖視覺效果 (上方範例影像右側的圓形視覺效果) 中只選取跑車，藉此交叉篩選相互關聯繪製內容。
+5. 若要取得更大的視覺效果檢視，您可以將 **R 指令碼編輯器**最小化。 當然，就如同 **Power BI Desktop** 中的其他視覺效果，您可以在環圈圖視覺效果 (上方範例影像右側的圓形視覺效果) 中只選取跑車，藉此交叉篩選相互關聯繪製內容。
 
-![](media/desktop-r-visuals/r-visuals-7.png)
+    ![](media/desktop-r-visuals/r-visuals-7.png)
 
-您也可以修改 R 指令碼以自訂視覺效果，並透過將參數加入繪製命令中，進而利用 R 的強大功能。
+6. 您也可以修改 R 指令碼以自訂視覺效果，並透過將參數加入繪製命令中，進而利用 R 的強大功能。
 
-原始的繪製命令如下：
+    原始的繪製命令如下：
 
     corrplot(M, method = "color",  tl.cex=0.6, tl.srt = 45, tl.col = "black")
 
-在 R 指令碼中進行一些變更後，新的命令如下：
+    在 R 指令碼中進行一些變更後，新的命令如下：
 
     corrplot(M, method = "circle", tl.cex=0.6, tl.srt = 45, tl.col = "black", type= "upper", order="hclust")
 
-如此一來，R 視覺效果現在可繪製圓形且只會將上半部列入考量，並重新排序叢集相互關聯屬性的矩陣，如下圖所示。
+    如此一來，R 視覺效果現在可繪製圓形且只會將上半部列入考量，並重新排序叢集相互關聯屬性的矩陣，如下圖所示。
 
-![](media/desktop-r-visuals/r-visuals-8.png)
+    ![](media/desktop-r-visuals/r-visuals-8.png)
 
-當執行 R 指令碼而產生錯誤時，R 視覺效果不會進行繪製，且畫布上會顯示錯誤訊息。 如需有關錯誤的詳細資訊，請從畫布上的 R 視覺效果錯誤選取 **查看詳細資料** 。
+    當執行 R 指令碼而產生錯誤時，R 視覺效果不會進行繪製，且畫布上會顯示錯誤訊息。 如需有關錯誤的詳細資訊，請從畫布上的 R 視覺效果錯誤選取 **查看詳細資料** 。
 
-![](media/desktop-r-visuals/r-visuals-9.png)
+    ![](media/desktop-r-visuals/r-visuals-9.png)
 
-> **R 指令碼的安全性︰**R 視覺效果是從 R 指令碼建立，其中的程式碼可能具有安全性或隱私權風險。 初次嘗試檢視 R 視覺效果或與其互動時，使用者會看到安全性警告訊息。 請在信任作者與來源，或已檢閱並了解 R 指令碼之後，才啟用 R 視覺效果。
-> 
-> 
+    > **R 指令碼的安全性︰**R 視覺效果是從 R 指令碼建立，其中的程式碼可能具有安全性或隱私權風險。 初次嘗試檢視 R 視覺效果或與其互動時，使用者會看到安全性警告訊息。 請在信任作者與來源，或已檢閱並了解 R 指令碼之後，才啟用 R 視覺效果。
+    > 
+    > 
 
 ## <a name="known-limitations"></a>已知的限制
 **Power BI Desktop** 中的 R 視覺效果有一些限制：
 
 * 資料大小限制 – R 視覺效果用於繪製的資料限制為 150,000 個資料列。 如果選取超過 150,000 個資料列，則只會使用前 150,000 個資料列，而且影像上會顯示訊息。
-* 計算時間限制 – 如果 R 視覺效果計算超過 5 分鐘，執行時間會逾時並導致錯誤。
+* 計算時間限制 – 如果 R 視覺效果計算超過五分鐘，執行時間會逾時並導致錯誤。
 * 關聯性 – 如同其他 Power BI Desktop 視覺效果，如果選取來自不同資料表的資料欄位，而其之間沒有定義關聯性，便會發生錯誤。
 * R 視覺效果會在資料更新、篩選及反白顯示時進行重新整理。 不過，影像本身不是互動式，且不得為交叉篩選的來源。
 * R 視覺效果會回應反白顯示的其他視覺效果，但您不能點選 R 視覺效果中的項目，無法交叉篩選其他項目。

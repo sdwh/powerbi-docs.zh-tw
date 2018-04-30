@@ -1,28 +1,28 @@
 ---
-title: "使用 Excel 分析"
-description: "深入了解如何在 Excel 中分析 Power BI 資料集"
+title: 使用 Excel 分析
+description: 深入了解如何在 Excel 中分析 Power BI 資料集
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 385a89d6b50507833c1e43327c405f02b2468ac2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5cd319266e91a6bc4736a123375b797331dba568
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="analyze-in-excel"></a>使用 Excel 分析
 有時候您可能會想要使用 Excel 來檢視和與您有 Power BI 的資料集互動。 有了 [使用 EXCEL 分析]，您可以做到，並以存在於 Power BI 中的資料集為基礎來存取 Excel 的樞紐分析表、 圖表和交叉分析篩選器的功能。
@@ -105,3 +105,5 @@ ms.lasthandoff: 02/24/2018
 
 由於使用者必須重新整理資料集，但 Excel Online 不支援對外部連接重新整理，因此建議這些使用者在自己的電腦上用桌面版 Excel 來開啟活頁簿。
 
+## <a name="troubleshooting"></a>疑難排解
+有時候使用 [使用 EXCEL 分析] 可能會取得非預期的結果，或功能無法如您預期般運作。 [此頁面可提供使用 [使用 EXCEL 分析] 時的常見問題解決方案](desktop-troubleshooting-analyze-in-excel.md)

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c6c924095e3aaf4839f1c9422e027ba5373b9ad4
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: ee696e4d967e995771480d660de260b6d3b755cd
+ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="on-premises-data-gateway"></a>內部部署資料閘道
 內部部署資料閘道會用來作為橋接器，在內部部署資料 (非位於雲端的資料) 與 Power BI、Microsoft Flow、Logic Apps 以及 PowerApps 服務之間，提供快速且安全的資料轉送。
@@ -95,6 +95,11 @@ ms.lasthandoff: 04/08/2018
 * 目前不支援 [Azure 資訊保護](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
 ) \(機器翻譯\)
 * 目前不支援[線上存取](https://products.office.com/en-us/access)
+
+## <a name="tenant-level-administration"></a>租用戶層級管理 
+
+目前沒有單一位置可供租用戶系統管理員用來管理其他使用者已安裝並設定之所有閘道。  如果您是租用戶系統管理員，建議您要求組織中的使用者，將您以系統管理員身分新增至他們所安裝的每個閘道。 這可讓您透過 [閘道設定] 頁面或 [PowerShell 命令](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters)管理組織中的所有閘道。 
+
 
 ## <a name="troubleshooting"></a>疑難排解
 若您在安裝和設定閘道時遇到問題，請務必參閱[為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)。 若您認為您的防火牆發生問題，請參閱疑難排解文章中的[防火牆或 Proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) 一節。

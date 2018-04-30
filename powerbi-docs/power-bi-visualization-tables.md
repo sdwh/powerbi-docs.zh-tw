@@ -1,29 +1,29 @@
 ---
-title: "教學課程 - Power BI 報表與儀表板中的資料表視覺效果 (教學課程)"
-description: "在 Power BI 報表和儀表板中使用資料表視覺效果的教學課程，包括如何調整資料行寬度。"
+title: Power BI 報表與儀表板中的資料表視覺效果 (教學課程)
+description: 在 Power BI 報表和儀表板中使用資料表視覺效果的教學課程，包括如何調整資料行寬度。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fd5085912ec74312fa4a4b25060cbd4afba94
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>在 Power BI 報表和儀表板使用資料 (教學課程)
 資料表是一個方格，其中以資料列和資料行的邏輯數列包含相關的資料。 它也可能包含標頭和總計資料列。 資料表適合處理您要在許多值裡尋找單一類別的量化比較。 例如，這個資料表會顯示**類別**的 5 個不同量值。
@@ -69,15 +69,21 @@ ms.lasthandoff: 02/24/2018
 
 * 嘗試格式化資料表格線。 我們新增了一條藍色的垂直格線，將空白新增至資料列，並稍微增加了邊框及文字的大小。
   
-    ![](media/power-bi-visualization-tables/power-bi-table-grid2-new.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
   
     ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * 針對資料行標頭，我們變更了背景色彩，新增了邊框，並增加了字型大小。 
   
-    ![](media/power-bi-visualization-tables/power-bi-table-column.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
+
   
     ![](media/power-bi-visualization-tables/power-bi-table-column2.png)
-* 在進行一些額外的格式化之後，以下是我們最後完成的資料表。 由於您有許多可以使用的格式化選項，我們建議您從一個一般的資料表開始學習，開啟 [格式化] 窗格![](media/power-bi-visualization-tables/power-bi-format.png)，並進行探索。 
+
+* 您甚至可以將格式套用至個別資料行和資料行標頭。 首先展開**欄位格式化**，然後從下拉式清單中選取要格式化的資料行。 根據資料行的值，欄位格式化可讓您設定下列項目：顯示單位、字型色彩、小數位數、背景、對齊方式等。 一旦您調整設定，請決定是否將這些設定套用至標頭及總計資料列。
+
+    ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+
+* 在進行一些額外的格式化之後，以下是我們最後完成的資料表。 由於您有許多可以使用的格式化選項，我們建議您從預設格式設定開始學習，開啟 [格式化] 窗格 ![](media/power-bi-visualization-tables/power-bi-format.png)，並進行探索。 
   
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 

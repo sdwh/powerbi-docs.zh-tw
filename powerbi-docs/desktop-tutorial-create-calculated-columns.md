@@ -1,15 +1,15 @@
 ---
-title: "教學課程：在 Power BI Desktop 中建立您自己的導出資料行"
-description: "教學課程：在 Power BI Desktop 中建立您自己的導出資料行"
+title: 教學課程：在 Power BI Desktop 中建立您自己的導出資料行
+description: 教學課程：在 Power BI Desktop 中建立您自己的導出資料行
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,135 +18,126 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: acdaa95908cd03006170eb06ddfc780c836c64ac
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 526659cfe0631eb9cb43ff6b47729a8a6227ec68
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中建立您自己的導出資料行
-有時候您分析中的資料，恰好未包含想取得結果的特定欄位。 這是 [計算結果欄] 所在之處。 計算結果欄使用資料分析運算式 (DAX) 公式，藉此定義資料行的值。 這些值可以與任何項目有關，可以是放在一起的文字值，來自模型中其他位置的幾個不同資料行，或者可以是從其他值計算所得的數值。 例如，假設您的資料具有 [城市] 與 [縣市] 的資料行 (像是在欄位清單中的欄位)，但您要的是單一 [位置] 欄位，是同時具有兩者的單一值，例如佛羅里達州邁阿密。 這正是計算結果欄的目的。
 
-計算結果欄類似於兩者根據 DAX 公式所計算的量值，但它們所使用的方式又不同。 在視覺效果的 [值] 區域最常使用量值，藉此根據您在資料表中資料列的其他欄位，或根據視覺效果的 [軸]、[圖例] 或 [群組] 區域，來計算結果。 另一方面，當您需要在資料表上的資料列、或在 [軸]、[圖例] 或 [群組] 區域中資料行的結果時，便會使用計算結果欄。
+有時，您分析中的資料並未包含需要取得結果的特定欄位。 這就是「計算結果欄」派上用場的地方。 計算結果欄會使用「資料分析運算式」(DAX) 公式來定義資料行的值，從將來自一些不同資料行的文字值組合在一起，到從其他值計算出一個數值，都包含在內。 例如，假設您的資料具有 [城市] 和 [州別] 欄位，但您想要一個包含兩者的單一 [位置] 欄位，例如「佛羅里達州邁阿密」。 這正是計算結果欄的目的。
 
-本教學課程將引導您了解，並在 Power BI Desktop 中建立一些您自己的計算結果欄。 本文適用於已經熟悉使用 Power BI Desktop，用來建立更進階模型的 Power BI 使用者。 您應該已經很熟悉使用 [查詢] 匯入資料、使用多個相關資料表，以及將欄位加入報表畫布。 如果您剛開始使用 Power BI Desktop，請務必參閱[開始使用 Power BI Desktop](desktop-getting-started.md)。
+計算結果欄與[量值](desktop-tutorial-create-measures.md)的相似之處在於兩者都是以 DAX 公式為基礎，相異之處則是兩者的使用方式不同。 您通常會在視覺效果的 [值] 區域中使用量值，以根據其他欄位計算結果。 您會在視覺效果的資料列、軸、圖例及群組區域中，使用計算結果欄作為新的**欄位**。
 
-若要完成本教學課程中的步驟，您將需要下載 [Power BI Desktop 的 Contoso 銷售範例](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)檔案。 這是[在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)教學課程中所使用的相同範例檔案。 它已經包含虛構公司 Contoso, Inc. 的銷售資料。因為檔案中的資料是從資料庫所匯入，所以您無法連接到資料來源或在查詢編輯器中檢視。 當您自己的電腦上具備此檔案時，請直接在 Power BI Desktop 中開啟它。
+本教學課程將引導您了解計算結果欄，以及在 Power BI Desktop 中的報表視覺效果中建立和使用一些計算結果欄。 
 
-## <a name="lets-create-a-calculated-column"></a>讓我們來建立計算結果欄
-假設我們想要在資料列的單一值中，顯示產品類別目錄與產品子類別目錄，例如行動電話 – 配件、行動電話 – 智慧型手機和 PDA 等等。 在 [報表檢視] 或 [資料檢視] (我們這裡使用 [報表檢視])，如果我們查看 [欄位] 清單中的產品資料表，就會發現提供的欄位不是我們要的欄位。 不過，我們確實有 [ProductCategory] 和 [ProductSubcategory] 欄位，各自位於其自己的資料表中。
+### <a name="prerequisites"></a>先決條件
+- 本教學課程適用於已經熟悉使用 Power BI Desktop，用來建立更進階模型的 Power BI 使用者。 您應該已經熟悉如何使用 [取得資料] 和 **Power Query 編輯器**來匯入資料、使用多個相關資料表，以及將欄位新增至 [報表] 畫布。 如果您剛開始使用 Power BI Desktop，請務必參閱[開始使用 Power BI Desktop](desktop-getting-started.md)。
+  
+- 本教學課程使用[適用於 Power BI Desktop 的 Contoso 銷售範例](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)，這是[在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)教學課程中所使用的相同範例。 這份來自虛構公司 Contoso, Inc. 的銷售資料是從資料庫匯入的，因此您無法連線到資料來源或在「Power Query 編輯器」中檢視它。 請在您自己的電腦上下載檔案並將檔案解壓縮，然後在 Power BI Desktop 中開啟它。
 
- ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_nonewcol.png)
+## <a name="create-a-calculated-column-with-values-from-related-tables"></a>使用來自相關資料表的值來建立計算結果欄
 
-我們將建立新的計算結果欄，將這兩個資料行的值結合成新資料行的新值。 有趣的是，我們需要將兩個不同資料表的資料結合成單一資料行。 因為我們將使用 DAX 來建立新的資料行，所以我們可以充分利用既有模型的功能，包括現有不同資料表之間的關聯性。
+在您的「銷售報表」中，您想要將產品類別和子類別顯示成單一值，例如「行動電話 – 配件」、「行動電話 – 智慧型手機和 PDA」等。 [欄位] 清單中並沒有提供該資料的欄位，但有 [ProductCategory] 欄位和 [ProductSubcategory] 欄位，分別在自己的資料表中。 您可以建立一個計算結果欄，以結合來自這兩個資料行的值。 DAX 公式可以利用您已經建立之模型的完整功能，包括現有不同資料表之間的關聯性。 
 
-### <a name="to-create-a-productfullcategory-column"></a>建立 [ProductFullCategory] 資料行
-1.  以滑鼠右鍵按一下，或按一下 [欄位] 清單中的 [ProductSubcategory] 資料表向下箭號，然後按一下 [新增資料行]。 這樣可確保將我們新的資料行加入 [ProductSubcategory] 資料表。
+ ![[欄位] 清單中的資料行](media/desktop-tutorial-create-calculated-columns/create1.png)
+
+1.  選取 [更多選項] 省略符號 (...)，或在 [欄位] 清單中的 [ProductSubcategory] 資料表上按一下滑鼠右鍵，然後選取 [新增資料行]。 這會在 ProductSubcategory 資料表中建立新的資料行。
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_newcolumn.png)
+    ![新增資料行](media/desktop-tutorial-create-calculated-columns/create2.png)
     
-    報表畫布或資料格上方會出現公式列。 我們可以在其中將資料行重新命名，並輸入 DAX 公式。
+    公式列會出現在 [報表] 畫布頂端，可供您為資料行命名及輸入 DAX 公式。
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_newcolumnformula.png)
+    ![公式列](media/desktop-tutorial-create-calculated-columns/create3.png)
     
-    根據預設，新的計算結果欄名稱就是「資料行」。 如果我們沒有重新命名，則當我們建立另一個量值時，它就會命名為資料行 2、資料行 3，依此類推。 我們會想要讓資料行更容易識別，所以會將新的資料行重新命名。
+2.  新的計算結果欄名稱預設就是「資料行」。 如果您未將它重新命名，額外的新資料行將會命名為「資料行 2」、「資料行 3」，依此類推。 您會想要讓資料行更容易識別，因此既然公式列中已經醒目提示**資料行**名稱，請輸入 **ProductFullCategory** 將它重新命名，然後輸入一個等號 (**=**)。
     
-2.  因為 [資料行] 名稱已反白顯示在公式列中，所以只要輸入 **ProductFullCategory**。
+3.  您想要讓新資料行中的值以 ProductCategory 名稱作為開頭。 由於這個資料行在不同但相關的資料表中，因此您可以使用 [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) 函數來幫助您取得它。
     
-    現在我們可以開始輸入公式。 我們想要新資料行中的值開頭為 [ProductCategory] 資料表中的 [ProductCategory] 名稱。 因為這個資料行位於不同但相關的資料表中，所以我們要使用 [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) 函數來幫助我們取得資料行。
+    在等號後面，輸入 **r**。 下拉式建議清單會顯示所有開頭為字母 R 的 DAX 函數。選取每個函數便會顯示其效果的描述。 在您輸入時，建議清單會調整成越來越接近您所需的函數。 選取 **RELATED**，然後按 **Enter**鍵。
     
-3.  在等號後面輸入 **R**。您會看到下拉式建議清單隨即出現，列出所有開頭字母為 R 的 DAX 函數。當我們輸入更多字母，建議清單就更能調整至接近我們所需的函數。 在函數旁可看到函數的描述。 向下捲動以選取 [RELATED]，然後按 Enter 鍵。
+    ![選擇 [RELATED]](media/desktop-tutorial-create-calculated-columns/create4.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_1.png)
+    左括弧隨即出現，並伴隨另一個您可以傳遞給 RELATED 函數的相關資料行建議清單，其中有關於所預期參數的描述和詳細資料。 
     
-    左括弧隨即出現，並出現另一個建議清單，其中有我們可傳遞至 RELATED 函數的可用資料行。 同時也顯示預期參數的描述和詳細資訊。
+    ![選擇 [ProductCategory]](media/desktop-tutorial-create-calculated-columns/create5.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_2.png)
-    
-    運算式一律出現在左右括弧之間。 在此情況下，我們的運算式將包含傳遞至 RELATED 函數的單一引數；也就是要從中傳回值的相關資料行。 資料行清單會自動縮小範圍，以便只顯示相關資料行。 在此情況下，我們想要的是在 [ProductCategory] 資料表的 [ProductCategory] 資料行。
-    
-    選取 [ProductCategory [ProductCategory]] ，然後輸入右括弧。
+4.  您想要來自 [ProductCategory] 資料表的 [ProductCategory] 資料行。 請選取 [ProductCategory[ProductCategory]]、按 **Enter** 鍵，然後輸入右括弧。
     
     > [!TIP]
-    > 語法錯誤通常因遺失或錯置右括弧所導致。 但如果您忘記，Power BI Desktop 通常會加入右括弧。
-    > 
-    > 
+    > 語法錯誤的原因通常是遺失或錯置右括弧，不過有時 Power BI Desktop 會為您加上該括弧。
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_3.png)
+4. 您想要使用虛線和空格來分隔新值中的 ProductCategory 和 ProductSubcategory，因此請在第一個運算式的右括號之後，輸入空格、**&** 符號、雙引號 (**"**)、空格、虛線 (**-**)、另一個空格、另一個雙引號，以及另一個 & 符號。 您的公式現在看起來應該像這樣：
     
-4. 我們想要新增虛線符號來分隔每個值，因此請在第一個運算式的右括號之後，輸入空格、& 符號、引號、空格、虛線 (-)、另一個空格、右引號和另一個 & 符號。 您的公式現在看起來應該像這樣：
-    
-    **ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &**
+    `ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &`
     
     > [!TIP]
-    > 按一下公式列右側的向下Ｖ形箭號，以展開工式編輯器。 按 Alt 鍵和 Enter 下移一行，然後按 Tab 來移動項目。
-    > 
-    > 
+    > 如果您需要更多空間，請選取公式列右側的向下 V 形箭號，以展開公式編輯器。 在編輯器中，按 **Alt + Enter** 鍵來下移一行，然後按 **Tab** 鍵來移動項目。
     
-5.  最後，輸入另一個左括弧，然後選取 **[ProductSubcategory]** 資料行以完成公式。 您的公式看起來應該像這樣：
+5.  輸入一個左括弧 (**[**)，然後選取 [ProductSubcategory] 資料行以完成公式。 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_5.png)
+    ![選擇 [ProductSubcategory]](media/desktop-tutorial-create-calculated-columns/create6.png)
     
-    您會發現我們在呼叫 [ProductSubcategory] 資料行的第二個運算式中並未使用另一個 RELATED 函數。 這是因為這個資料行所在的資料表，與我們建立新資料行的資料表相同。 我們可以輸入 [ProductCategory]，包含資料表名稱 (完整名稱) 或不含 (非限定)。
+    您不需要使用另一個 RELATED 函數來呼叫第二個運算式中的 ProductSubcategory 資料表，因為您正於此資料表中建立計算結果欄。 您可以輸入包含資料表名稱前置詞 (完整名稱) 或不含資料表名稱前置詞 (非限定) 的 [ProductSubcategory]。
     
-6.  按下 Enter 或在公式列中按一下核取記號以完成公式。 公式會進行驗證並加入 [ProductSubcategory]  資料表中的欄位清單。
+6.  按 **Enter** 鍵或選取公式列中的核取記號來完成公式。 公式會進行驗證，然後 **ProductFullCategory** 資料行名稱會出現在 [欄位] 清單的 [ProductSubcategory] 資料表中。 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_6.png)
+    ![完成的 ProductFullCategory 資料行](media/desktop-tutorial-create-calculated-columns/create7.png)
     
-    您會發現在欄位清單中計算結果欄具有特殊的圖示。 這顯示出它們包含公式。 在 Power BI Desktop 的外觀就只會如此顯示。 PowerBI 服務 (Power BI 網站) 中沒有變更公式的方式，所以計算結果欄欄位不會有圖示。
+    >[!NOTE]
+    >在 Power BI Desktop 的欄位清單中，計算結果欄會有特殊的圖示，顯示它們包含公式。 在 Power BI 服務 (Power BI 網站) 中，由於無法變更公式，因此計算結果欄並沒有圖示。
     
-## <a name="lets-add-our-new-column-to-a-report"></a>讓我們在報表中加入新的資料行
-現在我們可以將新的 [ProductFullCategory] 資料行加入報表畫布。 讓我們依 [ProductFullCategory] 查看 [SalesAmount]。
+## <a name="use-your-new-column-in-a-report"></a>在報表中使用新的資料行
 
-將 [ProductFullCategory]  資料行從 [ProductSubcategory]  資料表拖曳至報表畫布，然後將 [SalesAmount]  欄位從 [Sales]  資料表拖曳至此圖表。
+現在您可以使用新的 ProductFullCategory 資料行，以依 ProductFullCategory 查看 SalesAmount。
 
-![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_report_1.png)
+1. 選取 [ProductFullCategory]  資料行或將其從 [ProductSubcategory] 資料表中拖曳至 [報表] 畫布，以建立一個顯示所有 ProductFullCategory 名稱的資料表。
+   
+   ![ProductFullCategory 資料表](media/desktop-tutorial-create-calculated-columns/vis1.png)
+    
+2. 選取 [SalesAmount] 欄位或將其從 [Sales] 資料表中拖曳至資料表，以顯示每個 ProductFullCategory 的 SalesAmount。
+   
+   ![依 ProductFullCategory 顯示 SalesAmount 的資料表](media/desktop-tutorial-create-calculated-columns/vis2.png)
+    
+## <a name="create-a-calculated-column-that-uses-an-if-function"></a>建立使用 IF 函數的計算結果欄
 
-## <a name="lets-create-another"></a>讓我們來建立另一個計算結果欄
-您現在知道如何建立計算結果欄，讓我們來建立另一個。
+「Contoso 銷售範例」包含營運中和非營運中商店的銷售資料。 您想要藉由建立 Active StoreName 欄位，確保在報表中將「營運中」商店銷售額與「非營運中」商店銷售額清楚分隔。 在新的 Active StoreName 計算結果欄中，每個「營運中」商店會以商店全名顯示，而非營運中商店則會一起成組歸類到 "Inactive" 下。 
 
-Power BI Desktop 的 Contoso Sales 範例模型包含營運中和非營運中商店的銷售資料。 我們希望將針對非營運中商店所顯示的資料清楚識別出來。 事實上，我們需要名為 Active StoreName 的欄位。 若要這樣做，我們要建立另一個資料行。 在此情況下，如果商店非營運中，我們要新的 [Active StoreName] 資料行 (做為欄位) 將此商店的名稱顯示為「非營運中」，但是當其為營運中的商店時，則顯示商店的實際名稱。
+幸好，Stores 資料表有名為 [Status] 的資料行，如果商店為營運中，其值會是 "On"，如果商店為非營運中，則其值為 "Off"。 您的 DAX 公式將會使用邏輯 [IF](https://msdn.microsoft.com/library/ee634824.aspx) 函數來測試每個商店的「狀態」，然後根據結果傳回特定的值。 如果商店的「狀態」是 "On"，公式就會傳回商店的名稱。 如果是 "Off"，公式就會將其 Active StoreName 指派為 "Inactive"。 
 
-幸好 [Store] 資料表有名為 [Status] 的資料行，如果商店為營運中，其值為 On，如果商店為非營運中，其值為 Off。 我們可以測試 [Status] 資料行中每個資料列的值，藉此在新的資料行中建立新的值。
 
-### <a name="to-create-an-active-storename-column"></a>建立 [Active StoreName] 資料行
-1.  在 [Store] 資料表建立新的計算結果欄，名為 **Active StoreName**。
+1.  在 **Stores** 資料表中建立新的計算結果欄，並在公式列中將其命名為 **Active StoreName**。
     
-    在這個資料行中，我們的 DAX 公式會檢查每間商店的狀態。 如果商店狀態是 On，則我們的公式會傳回商店名稱。 如果是 Off，則名稱為「非營運中」。 若要這樣做，我們將使用邏輯 [IF](https://msdn.microsoft.com/library/ee634824.aspx) 函數，若結果為 True 或 False，則會測試商店狀態，然後傳回特定的值。
+2.  在 **=** 符號之後，開始輸入 **IF**。 建議清單將會顯示您可以加入的項目。 選取 [IF] 。
     
-2.  開始輸入 **IF**。 建議清單會顯示我們可以加入的項目。 選取 [IF] 。
+    ![選取 [IF]](media/desktop-tutorial-create-calculated-columns/if1.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_1.png)
+3.  IF 的第一個引數是一個了解商店「狀態」是否為 "On" 的邏輯測試。 輸入左括號 **[** 以列出 Stores 資料表中的資料行，然後選取 [Status]。
     
-    IF 的第一個引數是邏輯測試。 我們想要測試商店狀態是否為 “On”。
+    ![選取 [Status]](media/desktop-tutorial-create-calculated-columns/if2.png)
     
-3.  輸入左括號 **[**，可以讓我們從 [Store] 資料表選取資料行。 選取 [Status] 。
+4.  在 [Status] 後緊接著輸入 **="On"**，然後輸入逗號 (**,**) 以結束引數。 工具提示會建議您現在需要新增當結果為 TRUE 時要傳回的值。
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_2.png)
+    ![新增 TRUE 值](media/desktop-tutorial-create-calculated-columns/if3.png)
     
-4.  在 [Status] 後緊接著輸入 **="On"**，然後輸入逗號 (**,**)，以輸入第二個引數。 工具提示會建議我們，需要加入當結果為 True 時的值。
+5.  如果商店的狀態是 "On"，您想要顯示該商店的名稱。 輸入左括號 (**[**) 並選取 [StoreName] 資料行，然後輸入另一個逗號。 工具提示現在會指出您需要新增當結果為 FALSE 時要傳回的值。 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_3.png)
+    ![新增 FALSE 值](media/desktop-tutorial-create-calculated-columns/if4.png)
     
-5.  如果商店是 On，我們想要顯示此商店名稱。 輸入左括號 **[** ，並選取 [StoreName]  資料行，然後輸入另一個逗號，讓我們可以輸入第三個引數。
+6.  您希望該值是 *Inactive*，因此請輸入 **"Inactive"**，然後按 **Enter** 鍵或選取公式列中的核取記號來完成公式。 公式會進行驗證，然後新資料行的名稱會出現在 [欄位] 清單的 [Stores] 資料表中。
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_step5.png)
+    ![Active StoreName 資料行](media/desktop-tutorial-create-calculated-columns/if5.png)
     
-6.  我們需要加入當結果為 False 時的值，在此情況下我們想要這個值為 **“Inactive”**。
+8.  您可以在視覺效果中使用新的 Active StoreName 資料行，就像任何其他欄位一樣。 若要依 Active StoreName 顯示 SalesAmount，請選取 [Active StoreName] 欄位或將其拖曳至畫布，然後選取 [SalesAmount] 欄位或將其拖曳至資料表。 在此資料表中，營運中商店會依名稱個別顯示，但非營運中商店則會一起成組歸類到結尾的 *Inactive* 中。 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_step6.png)
+    ![依 Active StoreName 顯示 SalesAmount 的資料表](media/desktop-tutorial-create-calculated-columns/if6.png)
     
-7.  按下 Enter 或在公式列中按一下核取記號以完成公式。 公式會進行驗證並加入 [Stores] 資料表中的欄位清單。
-    
-    就像任何其他欄位，我們可以在視覺效果使用新的 [Active StoreName] 資料行。 在此圖中，狀態為 On 的商店會各自依名稱顯示，但會將狀態為 Off 的商店分在同一組，並顯示為非營運中。 
-    
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_viz.png)
-    
-## <a name="what-weve-learned"></a>我們所學的內容
-計算結果欄可以充實我們的資料，並且更易於了解。 我們學到如何使用公式列建立計算結果欄、如何使用建議清單，以及如何為新的資料行命名最合適的名稱。
+## <a name="what-youve-learned"></a>您學到的內容
+計算結果欄可以充實您的資料，並提供更簡單明瞭的見解。 您已了解如何在欄位清單和公式列中建立計算結果欄、使用建議清單和工具提示來協助建構公式、使用適當的引數來呼叫 DAX 函數 (例如 RELATED 和 IF)，以及在報表視覺效果中使用計算結果欄。
 
 ## <a name="next-steps"></a>後續步驟
-如果您想要深入剖析 DAX 公式，並使用更進階的 DAX 公式建立計算結果欄，請參閱 [Power BI Desktop 的 DAX 基本概念](desktop-quickstart-learn-dax-basics.md)。 本文著重在 DAX 中的基本概念，例如語法、函數，並且更徹底了解內容。
+如果您想要深入剖析 DAX 公式，並使用更進階的公式來建立計算結果欄，請參閱 [Power BI Desktop 的 DAX 基本概念](desktop-quickstart-learn-dax-basics.md)。 本文著重在 DAX 中的基本概念，例如語法、函數，並且更徹底了解內容。
 
 請務必將[資料分析運算式(DAX) 參考](https://msdn.microsoft.com/library/gg413422.aspx)加入我的最愛中。 您可以在此找到 DAX 語法、運算子和超過 200 種 DAX 函數的詳細資訊。
 

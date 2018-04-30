@@ -1,28 +1,28 @@
 ---
-title: "設計絕佳 Power BI 儀表板的秘訣"
-description: "設計絕佳 Power BI 儀表板的秘訣"
+title: 設計絕佳 Power BI 儀表板的秘訣
+description: 設計絕佳 Power BI 儀表板的秘訣
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9d71d417a2d7beb7f968bf18fc6de90794663ec8
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>設計絕佳 Power BI 儀表板的秘訣
 現在您已經建立儀表板，及新增了某些圖格，請思考如何讓您的儀表板不只是好看，同時功能也更強。 一般而言，這代表將最重要的資訊設定為待命，讓它簡潔且整齊。
@@ -31,25 +31,28 @@ ms.lasthandoff: 03/09/2018
 
 > [!TIP]
 > 報表的許多設計準則也適用於儀表板。  閱讀我們的技術白皮書︰[報表和視覺效果的最佳設計準則](power-bi-visualization-best-practices.md)。
-> 
-> 
+>
+>
 
-### <a name="consider-your-audience"></a>請考慮您的對象
+## <a name="watch-the-dashboard-makeover-webinarhttpsinfomicrosoftcomco-powerbi-wbnr-fy16-05may-12-dashboard-makeover-registrationhtml"></a>觀賞[儀表板改造網路研討會](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)
+了解 Microsoft 首席專案經理暨 Power BI 儀表板專家 Marc Reguera 如何[進行儀表板改造](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)。
+
+## <a name="consider-your-audience"></a>請考慮您的對象
 什麼關鍵度量能幫助他們做出決策？ 他們將如何使用儀表板？ 哪些已了解的或文化特性的假設可能會影響設計選擇？ 哪些資訊是您的對象邁向成功所需？
 
 請記得，儀表板是概觀，是用來監控資料目前狀態的單一位置。 儀表板以基礎報表和資料集為基礎，其中可包含大量詳細資料。 讀者可以從您的儀表板鑽研報表。 因此除非讀者需要監視詳細資料，否則不要將詳細資料放在儀表板上。
 
 儀表板會在哪裡顯示？ 如果儀表板位於大型監視器上，您可以在上面放置更多的內容。 如果讀者將在平板電腦上檢視，則較少的圖格會更容易閱讀。
 
-### <a name="tell-a-story-and-keep-it-to-one-screen"></a>說個故事並保存到一個畫面
+## <a name="tell-a-story-and-keep-it-to-one-screen"></a>說個故事並保存到一個畫面
 因為儀表板的用意是要一目瞭然地顯示重要資訊，所以在一個畫面上有全部的圖格最為理想。 可以避免在儀表板上使用捲軸嗎？
 
 儀表板過於雜亂嗎？  移除必要資訊以外的所有內容，可以更加輕鬆地讀取和解譯。
 
-### <a name="make-use-of-full-screen-mode"></a>使用全螢幕模式
+## <a name="make-use-of-full-screen-mode"></a>使用全螢幕模式
 以[全螢幕](service-fullscreen-mode.md)顯示儀表板，不會分散注意力。
 
-### <a name="make-the-most-important-information-biggest"></a>將最重要的資訊大小調整為最大
+## <a name="make-the-most-important-information-biggest"></a>將最重要的資訊大小調整為最大
 如果儀表板上的文字和視覺效果大小都一樣，您的讀者會很難專注於最重要的內容。 例如，卡片視覺效果是凸顯重要數字的好方法：  
 ![卡片視覺效果](media/service-dashboards-design-tips/pbi_card.png)
 
@@ -57,10 +60,10 @@ ms.lasthandoff: 03/09/2018
 
 了解[只用一個數字來建立磚](power-bi-visualization-card.md).
 
-### <a name="put-the-most-important-information-in-the-upper-corner"></a>將最重要的資訊放在左上角
+## <a name="put-the-most-important-information-in-the-upper-corner"></a>將最重要的資訊放在左上角
 大部分的人從上往下讀取，所以將最高層級的詳細資料放置在頂端，並且當您順著對象閱讀的方向移動時，會顯示更多的詳細資料 (由左到右、由右到左)。
 
-### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>為資料使用正確的視覺效果，並將其格式化以方便閱讀
+## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>為資料使用正確的視覺效果，並將其格式化以方便閱讀
 請不要只是為了不同而讓視覺效果不同。  視覺效果應該要能繪製圖片，且應該要很容易「閱讀」及解譯。  對某些資料和視覺效果而言，簡單的圖形視覺效果已經綽綽有餘。 但是其他資料可能需要更複雜的視覺效果 - 請務必使用標題和標籤，以及使用其他自訂項目，以協助讀者。  
 
 * [選擇適當的資料視覺效果](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx)。 請小心使用會扭曲實際情況的圖表，也就是立體圖表。 請記住，人腦很難解譯有圓弧的圖形。 圓形圖、環圈圖、量表圖和其他有圓弧的圖表類型可能很好看，但它們不是資料視覺效果的最佳做法。
@@ -84,7 +87,6 @@ ms.lasthandoff: 03/09/2018
 * *Advanced Presentations by Design* ，作者：Andrew Abela   
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 中的儀表板](service-dashboards.md)  
+[從報表建立儀表板](service-dashboard-create.md)  
 [Power BI - 基本概念](service-basic-concepts.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

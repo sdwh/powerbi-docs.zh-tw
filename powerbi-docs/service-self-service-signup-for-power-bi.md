@@ -1,13 +1,13 @@
 ---
-title: "以個人身分註冊 Power BI"
-description: "了解如何註冊 Power BI，並開始利用它來滿足您的個人報告和視覺效果需求。"
+title: 以個人身分註冊 Power BI
+description: 了解如何註冊 Power BI，並開始利用它來滿足您的個人報告和視覺效果需求。
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 08/02/2017
 ms.service: powerbi
@@ -16,13 +16,13 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/02/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: b098c87796306bedb8f9da43971d093f464dd4bd
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 7f40fdfd3e9784ab05fe0f44612cea6d48d739fe
+ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>以個人身分註冊 Power BI
 了解如何註冊 Power BI，並開始利用它來滿足您的個人報告和視覺效果需求。
@@ -68,7 +68,7 @@ Power BI 會要求您使用公司或學校的電子郵件地址來註冊。 您�
 註冊 Power BI 最快的方式，就是註冊 Power BI (免費) 帳戶。 不需為此帳戶支付費用，而且此帳戶可讓您使用本服務中提供的多種功能。
 
 > [!NOTE]
-> 如果您收到我們已經知道您的訊息，請嘗試瀏覽至 https://app.powerbi.com 並登入。
+> 如果收到我們已經認識您的訊息，請嘗試瀏覽至 https://app.powerbi.com 並登入。
 > 
 > 
 

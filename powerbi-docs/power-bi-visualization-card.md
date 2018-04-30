@@ -1,28 +1,28 @@
 ---
-title: "卡片視覺效果 (也稱為大數字圖格)"
-description: "在 Power BI 中建立卡片視覺效果"
+title: 卡片視覺效果 (也稱為大數字圖格)
+description: 在 Power BI 中建立卡片視覺效果
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f38f3bb19be268cba4745c88aa98d09c080c773e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3e30e0f742d97817583ecdfd72df65a8658ec977
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="card-visualizations"></a>卡片視覺效果
 有時您在 Power BI 儀表板或報告中追蹤的最重要項目是一個單一數字，例如總銷售額、歷年的市佔率，或總商機。 這類型的視覺效果稱為「卡片」。 幾乎所有的原生 Power BI 視覺效果，都可以使用報告編輯器或 [問與答] 來建立卡片。
@@ -91,6 +91,25 @@ ms.lasthandoff: 02/24/2018
 - 如果完全看不到問題方塊，請連絡系統或租用戶系統管理員。    
 - 如果您使用 Desktop 且按兩下報告中的空白處並未開啟 [問與答]，您可能需要啟用它。  選取 [檔案] > [選項及設定] > [選項] > [預覽功能] > [問與答]，然後重新啟動 Desktop。
 
+## <a name="format-a-card"></a>格式化卡片
+您有變更標籤、文字、色彩等等的許多選項。 學習的最佳方法是建立卡片，然後探索 [格式化] 窗格。 以下是幾個可用的格式化選項。 
+
+1. 從選取畫刷圖示開始，以開啟 [格式化] 窗格。 
+
+    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+2. 展開 [資料標籤] 並變更色彩、大小和字型家族。 如果您有數千個存放區，則可以使用 [顯示單位] 以千為單位顯示存放區數目，並控制小數位數。 例如，125.8K 而不是 125,832.00。
+
+3.  展開 [類別目錄標籤] 並變更色彩和大小。
+
+    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+
+4. 展開 [背景] 並移動滑桿至 [開啟]。  現在您可以變更背景色彩和透明度。
+
+    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+
+5. 繼續探索格式化選項，直到您的卡片完全符合您的喜好。 
+
+    ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 的儀表板磚](service-dashboard-tiles.md)

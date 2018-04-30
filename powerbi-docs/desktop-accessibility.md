@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop 報告中的協助工具"
-description: "用於建立可存取之 Power BI Desktop 報告的功能和建議"
+title: Power BI Desktop 報告中的協助工具
+description: 用於建立可存取之 Power BI Desktop 報告的功能和建議
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c0e11a46e6e228da2f2ca8ac3f7be63ae20c1d92
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a0268af4d5b6ec1e94b42735100196e11c4d119b
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 報告中的協助工具
 **Power BI Desktop** 有功能可讓行動不便人士更輕鬆地使用 **Power BI Desktop** 報告並與之互動。 這些功能包括能夠利用鍵盤或螢幕助讀程式來使用報告、利用 Tab 鍵聚焦於頁面上的不同物件，以及在視覺效果中貼心地使用標記。
@@ -41,7 +41,7 @@ ms.lasthandoff: 02/24/2018
 
 透過協助工具增強功能，您可以利用鍵盤或螢幕助讀程式，並搭配下列技巧來使用 **Power BI Desktop** 報告：
 
-您可以使用 **Ctrl+F6**，在報告頁面索引標籤之間或給定報告頁面上的物件之間**切換焦點**。
+您可以使用 **Ctrl+F6**，在報告頁面索引標籤之間或給定報告頁面上的物件之間切換焦點。
 
 * 當焦點在「報告頁面索引標籤」時，可使用*Tab* 鍵或「方向」鍵將焦點從一個報告頁面移至下一個報告頁面。 不論目前是否已選取報告頁面的標題，螢幕助讀程式都會讀出標題。 若要載入焦點目前所在的報告頁面，請使用 *Enter* 鍵或「空格」鍵。
 * 當焦點在載入的「報告頁面」時，請使用*Tab* 鍵將焦點移至頁面上的每個物件，包括所有文字方塊、影像、圖形和圖表。 螢幕助讀程式會朗讀物件的類型，以及作者為該物件提供的描述。 

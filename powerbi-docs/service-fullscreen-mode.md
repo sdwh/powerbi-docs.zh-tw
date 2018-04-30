@@ -1,35 +1,39 @@
 ---
-title: "以全螢幕模式顯示儀表板、儀表板磚、報表頁面和報表視覺效果"
-description: "以全螢幕模式 (也就是「電視模式」) 來顯示儀表板、儀表板磚、報表視覺效果和報表頁面。"
+title: 以全螢幕模式顯示儀表板、磚、報表頁面和視覺效果
+description: 以全螢幕模式 (也就是「電視模式」) 來顯示儀表板、儀表板磚、報表視覺效果和報表頁面。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 23241edc3b7fec6b4cf10c422fc7744268ed2cdc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="full-screen-mode-in-power-bi"></a>Power BI 的全螢幕模式
+# <a name="full-screen-mode-in-power-bi-service"></a>Power BI 服務的全螢幕模式
 ## <a name="what-is-full-screen-mode"></a>什麼是全螢幕模式？
 ![儀表板的全螢幕模式使用前和使用後](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-顯示內容 (儀表板、報表頁面、磚和視覺效果) 而不受功能表和導覽按鈕的干擾。  您可隨時取得內容的完整檢視，而不含其他無關項目。 這有時稱為電視模式。 全螢幕模式中可用的功能會因內容而異。  
+顯示您的 Power BI 內容 (儀表板、報表頁面、磚和視覺效果) 而不受功能表和導覽按鈕的干擾。  您可隨時取得內容的完整檢視，而不含其他無關項目。 這有時稱為電視模式。 全螢幕模式中可用的功能會因內容而異。 
+
+如果您使用 Power BI 行動版，[Windows 10 行動裝置應用程式可使用全螢幕](mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop 沒有適用於報表或視覺效果的全螢幕模式，但對於[關聯性檢視](desktop-report-view.md)和[報表視覺效果的焦點模式](service-focus-mode.md)具有符合一頁大小。
+
+ 
 
 全螢幕模式的部分用法如下：
 

@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI Desktop 中使用矩陣視覺效果"
-description: "了解矩陣視覺效果如何在 Power BI Desktop 中啟用分層式配置和細微的醒目提示"
+title: 在 Power BI Desktop 中使用矩陣視覺效果
+description: 了解矩陣視覺效果如何在 Power BI Desktop 中啟用分層式配置和細微的醒目提示
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: de40c8ee25c5facc1c4396c807d38784c11e8bca
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdab0ee5a4804bcb05e936f4e6a9455127d352fa
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>在 Power BI Desktop 中使用矩陣視覺效果
-透過 [矩陣] 視覺效果，您可以在 **Power BI Desktop** 報表中建立矩陣視覺效果 (有時也稱為 [資料表])，並與其他視覺效果交叉醒目提示矩陣內的項目。 此外，您可以選取資料列、資料行，甚至是個別資料格，然後交叉醒目提示。 最後，為了更妥善運用配置空間，矩陣視覺效果支援分層式配置。
+透過 [矩陣] 視覺效果功能，您可以在 **Power BI Desktop** 報表中建立矩陣視覺效果 (有時也稱為「資料表」)，並與其他視覺效果交叉醒目提示矩陣內的元素。 此外，您可以選取資料列、資料行，甚至是個別資料格，然後交叉醒目提示。 最後，為了更妥善運用配置空間，矩陣視覺效果支援分層式配置。
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
@@ -63,7 +63,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-matrix-visual/matrix-visual_5.png)
 
-類似於其他視覺效果中的鑽研和展開行為，選取這些按鈕可讓我們在整個階層內向下切入 (或備份)。 在本例中，我們可以從 [類別] 向下切入至 [子類別]，如下圖所示，其中已選取向下切入一層圖示 (乾草叉)。
+類似於其他視覺效果中的鑽研和展開行為，選取這些按鈕可讓我們在整個階層內向下切入 (或備份)。 在此情況下，我們可以從 [類別] 向下切入至 [子類別]，如下圖所示，其中已選取向下切入一層圖示 (乾草叉)。
 
 ![](media/desktop-matrix-visual/matrix-visual_6.png)
 
@@ -71,17 +71,17 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-matrix-visual/matrix-visual_7.png)
 
-請注意，出現的功能表中還有一些選項會產生不同的結果：
+請注意，出現的功能表中還有幾個選項會產生不同的結果：
 
 選取 [向下切入] 會展開「該」資料列層級的矩陣，並「排除」除了按下右鍵的資料列標題以外的所有其他資料列標題。 在下圖中，已用滑鼠右鍵按一下 [Computers] 並選取 [向下切入]。 請注意，其他最上層的資料列不會再出現於矩陣中。 這是很有用的功能，並且是 [交叉醒目提示] 區段中特別酷炫的功能。
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
-我們可以按一下**向上切入**圖示，回到之前的最上層檢視。 如果接著從右鍵功能表選取 [顯示下一個層級]，則會取得一份按字母排列的清單，列出下一層的所有項目 (在本例中為 [子類別] 欄位)，但不包含較高層級的階層分類。
+您可以按一下 [向上切入]圖示，回到之前的最上層檢視。 如果接著從右鍵功能表選取 [顯示下一個層級]，則會取得一份按字母排列的清單，列出下一個層級的所有項目 (在本例中為 [子類別] 欄位)，但不包含較高層級的階層分類。
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-當我們按一下左上角的**向上切入**圖示讓矩陣顯示所有最上層類別，然後再按一下滑鼠右鍵並選取 [展開至下一個層級]，即會顯示下列畫面：
+當您按一下左上角的**向上切入**圖示讓矩陣顯示所有最上層類別，然後再按一下滑鼠右鍵並選取 [展開至下一個層級]，即會顯示以下畫面：
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
@@ -96,11 +96,11 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-matrix-visual/matrix-visual_11.png)
 
-選取 [向下切入] 時，會顯示 [Deluxe] 之資料行階層的下一個層級，在本例中為 [色彩]。
+當您選取 [向下切入] 時，隨即顯示 [Deluxe] 的資料行階層的下一個層級，在此情況下是 [Color]。
 
 ![](media/desktop-matrix-visual/matrix-visual_12.png)
 
-其餘右鍵功能表項目在資料行上的運作方式與資料列相同 (請參閱上一節：**資料列標題上的向下切入**)。 您可以 [顯示下一個層級]、[展開至下一個層級]，以及 [包含] 或 [排除] 您的資料行，就像是處理資料列一樣。
+其餘右鍵功能表項目在資料行上的運作方式與資料列相同 (請參閱上一節：**資料列標題上的向下切入**)。 您可以 [顯示下一個層級]、[展開至下一個層級]、[包含] 或 [排除] 您的資料行，就像是處理資料列一樣。
 
 > [!NOTE]
 > 矩陣視覺效果左上角的向下切入圖示和向上切入圖示只適用於資料列。 若要在資料行上向下切入，您必須使用右鍵功能表。
@@ -118,7 +118,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-matrix-visual/matrix-visual_13.png)
 
-您可以輕鬆地調整 [分層式配置] 設定。 選取 [矩陣] 視覺效果時，在 [視覺效果] 窗格的 [格式] 區段 (油漆滾筒圖示) 中，展開 [資料列標題] 區段。 其中有兩個選項︰[分層式配置] 切換開關 (將它開啟或關閉) 和 [逐步的配置縮排]\(以像素為單位指定縮排數量)。
+您可以輕鬆地調整分層式配置設定。 選取 [矩陣] 視覺效果時，在 [視覺效果] 窗格的 [格式] 區段 (油漆滾筒圖示) 中，展開 [資料列標題] 區段。 您有兩個選項：[分層式配置] 切換選項 (將它開啟或關閉) 和 [逐步的配置縮排] (以像素為單位指定縮排數量)。
 
 ![](media/desktop-matrix-visual/matrix-visual_15.png)
 
@@ -136,9 +136,9 @@ ms.lasthandoff: 02/24/2018
 相同程序適用於資料行小計。
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>矩陣視覺效果的交叉醒目提示
-透過 [矩陣] 視覺效果，您可以選取矩陣中的任何項目作為交叉醒目提示的基礎。 在 [矩陣] 中選取一個資料行，即會醒目提示該資料行，就像是報表頁面上的任何其他視覺效果一樣。 這向來是其他視覺效果和資料點選取範圍的通用功能，現在 [矩陣] 視覺效果也可參與。
+使用 [矩陣] 視覺效果，您可以選取矩陣中的任何元素作為交叉醒目提示的基礎。 在 [矩陣] 中選取一個資料行，即會醒目提示該資料行，就像是報表頁面上的任何其他視覺效果一樣。 這是其他視覺效果和資料點選擇的共通功能，因此 [矩陣] 視覺效果現在也提供相同的功能。
 
-此外，交叉醒目提示也可以使用 Ctrl+按一下滑鼠左鍵。 例如，在下圖中，已從 [矩陣] 視覺效果選取子類別集合。 注意視覺效果中未選取的項目如何呈現灰色，以及頁面上的其他視覺效果如何反映 [矩陣] 視覺效果中所做的選擇。
+此外，交叉醒目提示也可以使用 Ctrl + 按一下滑鼠左鍵。 例如，在下圖中，已從 [矩陣] 視覺效果選取子類別集合。 注意視覺效果中未選取的項目如何呈現灰色，以及頁面上的其他視覺效果如何反映 [矩陣] 視覺效果中所做的選擇。
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
 
@@ -150,7 +150,7 @@ ms.lasthandoff: 02/24/2018
 * 在 [欄位] 窗格中，以滑鼠右鍵按一下 [欄位]，然後從功能表選取 [設定格式化的條件]。
   
   ![](media/desktop-matrix-visual/matrix-visual_17.png)
-* 或者，在 [格式] 窗格中，展開 [設定格式化的條件] 卡片，然後將 [背景色階] 或 [字型色階] 的滑桿移至 [開啟]。 開啟任一項都會顯示 [進階控制項] 的連結，讓您自訂色彩和彩色格式的值。
+* 或者，在 [格式] 窗格中，展開 [設定格式化的條件] 卡片，然後將 [背景色階] 或 [字型色階] 的滑桿移至 [開啟]。 開啟其中任一個選項就會顯示 [進階控制項] 連結，可讓您自訂色彩格式設定的色彩和值。
   
   ![](media/desktop-matrix-visual/matrix-visual_18.png)
 

@@ -1,15 +1,15 @@
 ---
-title: "查看 Power BI Desktop 視覺效果中的資料和記錄"
-description: "使用 Power BI Desktop 的查看資料和查看記錄功能向下鑽研詳細資料"
+title: 查看 Power BI Desktop 視覺效果中的資料和記錄
+description: 使用 Power BI Desktop 的查看資料和查看記錄功能向下鑽研詳細資料
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,78 +18,81 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 507c2e5e6d9f41e3342019cc8f051dd1e11954cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>使用 Power BI Desktop 中的查看資料和查看記錄
-在 **Power BI Desktop** 中，您可以向下鑽研任何視覺效果的詳細資料，並查看所選視覺效果資料或個別資料元素的文字表示。 這些功能有時稱為「點選」，或「鑽研」或「鑽研到詳細資料」。
+在 **Power BI Desktop** 中，您可以向下鑽研到視覺效果的詳細資料，並查看所選視覺效果基底資料的文字表示或個別資料記錄。 這些功能有時稱為「按一下」，或「鑽研」或「鑽研到詳細資料」。
 
-您可以使用 [查看記錄] 檢視某視覺效果一個所選資料元素的基礎資料列，或使用 [查看資料] 檢視視覺效果中所用值的文字版本。 使用 [查看資料] 和 [查看記錄] 有一些限制，會在這篇文章的結尾討論。
+您可以使用 [查看資料] 來檢視所選視覺效果所使用的值的文字版本，或使用 [查看記錄] 來檢視所選記錄或資料點的所有資料。 
 
-![](media/desktop-see-data-see-records/see-data-see-records_1.png)
+![[查看資料] 與 [查看記錄]](media/desktop-see-data-see-records/see-data-record.png)
 
-## <a name="using-see-data-in-power-bi-desktop"></a>在 Power BI Desktop 中使用查看資料
-[查看資料] 按鈕位於功能區 [視覺效果工具] 的 [資料/鑽研] 索引標籤。
+>[!IMPORTANT]
+>[查看資料] 與 [查看記錄] 只支援以下視覺效果類型：
+>  - 橫條圖
+>  - 直條圖
+>  - 環圈圖
+>  - 區域分布圖
+>  - 漏斗圖
+>  - 地圖
+>  - 圓形圖
+>  - 矩形式樹狀結構圖
 
-![](media/desktop-see-data-see-records/see-data-see-records_2.png)
+## <a name="use-see-data-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 [查看資料]
 
-您也可以在視覺效果按一下滑鼠右鍵，然後從出現的功能表選取 [查看資料]，來**查看資料**。
+[查看資料] 會顯示視覺效果的基底資料。 [查看資料] 會在已選取視覺效果時，顯示在功能區 [視覺效果工具] 區段的 [資料/鑽研] 索引標籤中。
 
-![](media/desktop-see-data-see-records/see-data-see-records_3.png)
+![功能區中的 [查看資料]](media/desktop-see-data-see-records/see-data1.png)
 
-> [!NOTE]
-> 您的滑鼠必須在視覺效果的資料點暫留，才能使用滑鼠右鍵功能表。
-> 
-> 
+若要查看資料，您也可以在視覺效果上按一下滑鼠右鍵，然後從顯示的功能表中選取 [顯示資料]，或是選取視覺效果右上角的**更多選項**省略符號 (...)，然後選取 [顯示資料]。
 
-當您選取 [查看資料] 時，**Power BI Desktop** 著重於您選取的視覺效果和資料，並將畫布空間專用於顯示視覺效果和資料的文字表示。 視覺效果會顯示在畫布上的上半部，資料會顯示在下半部，如下圖所示。 這是「水平」檢視。
-
-![](media/desktop-see-data-see-records/see-data-see-records_4.png)
-
-您也可以選取右上角的圖示切換到「垂直檢視」 (或回到「水平檢視」)。
-
-![](media/desktop-see-data-see-records/see-data-see-records_5.png)
-
-若要回到報表，請選取畫布左上角的 [< 回到報表]。
-
-![](media/desktop-see-data-see-records/see-data-see-records_6.png)
-
-## <a name="using-see-records-in-power-bi-desktop"></a>在 Power BI Desktop 中使用查看記錄
-您也可以將焦點放在視覺效果中的一個資料元素，並向下鑽研其背後的資料。 一旦選取了視覺效果，有兩種方式可使用 [查看記錄]：您可以在 [資料/鑽研] 功能區啟用 [查看記錄] 切換按鈕，然後按一下資料元素，或者您可以用滑鼠右鍵按一下資料元素，並從出現的功能表選取 [查看記錄]。
-
-![](media/desktop-see-data-see-records/see-data-see-records_7.png)
+![按一下滑鼠右鍵的 [顯示資料]](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![更多選項的 [顯示資料]](media/desktop-see-data-see-records/see-data3.png)
 
 > [!NOTE]
-> 如果選取的視覺效果不支援 [查看記錄]，則功能區上的按鈕會呈現灰色。
-> 
-> 
+> 您的滑鼠必須在視覺效果的資料點暫留，才能使用右鍵功能表。
 
-選取 [查看記錄] 之後，**Power BI Desktop** 會著重在該個別資料元素，並將畫布空間專用於顯示該元素的資料，如下圖所示。
+當您選取 [查看資料] 或 [顯示資料] 時，Power BI Desktop 畫布會同時顯示資料的視覺效果和文字表示。 在「水平檢視」中，視覺效果顯示在畫布的上半部，而資料顯示在下半部。 
 
-![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+![水平檢視](media/desktop-see-data-see-records/see-data4a.png)
+
+您可以選取畫布右上角的圖示，以在水平檢視和「垂直檢視」之間切換。
+
+![垂直檢視切換](media/desktop-see-data-see-records/see-data4.png)
+
+若要回到報表，請選取畫布左上角的 [< 返回報表]。
+
+![返回報表](media/desktop-see-data-see-records/see-data5.png)
+
+## <a name="use-see-records-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 [查看記錄]
+
+您也可以將焦點放在視覺效果中的一個資料記錄，然後鑽研到它背後的資料。 若要使用 [查看記錄]，請選取視覺效果，然後選取功能區的 [視覺效果工具] 區段中 [資料/鑽研] 索引標籤的 [查看記錄]，然後選取視覺效果上的資料點或資料列。 
+
+![功能區中的 [查看記錄]](media/desktop-see-data-see-records/see-record1.png)
 
 > [!NOTE]
-> 您無法將 [查看記錄] 檢視中所檢視 (或由使用者所修改) 之資料的變更儲存至報表。
+> 如果功能區中的 [查看記錄] 按鈕已停用且顯示為灰色，表示所選取的視覺效果不支援 [查看記錄]。
 
-若要回到報表，請選取畫布左上角的 [< 回到報表] 按鈕。
+您也可以滑鼠右鍵按一下資料元素，並從顯示的功能表中選取 [查看記錄]。
 
-## <a name="limitations"></a>限制
-使用 [查看資料] 或 [查看記錄] 時有幾項限制要考慮：
+![按一下滑鼠右鍵的 [查看記錄]](media/desktop-see-data-see-records/see-record2.png)
 
-* 只支援下列視覺效果類型︰
-  * **橫條圖**
-  * **直條圖**
-  * **地圖**
-  * **樹狀圖**
-  * **區域分布圖**
-  * **圓形圖**
-  * **環圈圖**
-  * **漏斗圖**
-* 當視覺效果使用導出量值時，則無法使用 [查看記錄]\(See Records)
-* 連接到即時多維度模型 (MD) 時，您不能使用 [查看記錄]\(See Records)
+當您選取資料元素的 [查看記錄] 時，Power BI Desktop 畫布會顯示與所選元素相關聯的所有資料。 
+
+![](media/desktop-see-data-see-records/see-record3.png)
+
+若要回到報表，請選取畫布左上角的 [< 返回報表]。
+
+![](media/desktop-see-data-see-records/see-record4.png)
+
+> [!NOTE]
+>[查看記錄] 有以下限制：
+> - 您無法在 [查看記錄] 檢視中變更資料並儲存回報表。
+> - 當視覺效果使用導出量值時，無法使用 [查看記錄]。
+> - 當您連接到即時多維度模型 (MD) 時，不能使用 [查看記錄]。
 
 ## <a name="next-steps"></a>後續步驟
 **Power BI Desktop** 有各種報表格式和資料管理功能。 請查看下列資源以取得一些範例︰

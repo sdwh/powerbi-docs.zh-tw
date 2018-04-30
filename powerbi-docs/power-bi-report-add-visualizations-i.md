@@ -1,32 +1,32 @@
 ---
-title: "第一部分，在 Power BI 報表中新增視覺效果 (教學課程)"
-description: "教學課程：第一部分，在 Power BI 報表中加入視覺效果"
+title: 第一部分，在 Power BI 報表中新增視覺效果 (教學課程)
+description: 教學課程：第一部分，在 Power BI 報表中加入視覺效果
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: IkJda4O7oGs
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b81061c25b453fc35e1490c3ded2d9c9770d4599
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b6fdc11b19e130272cf715f4cff58721f46dd6e8
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>第一部分，在 Power BI 報表中新增視覺效果 (教學課程)
-本文提供在報表中建立視覺效果的快速簡介。  如需更進一步的內容，請[參閱第二部分](power-bi-report-add-visualizations-ii.md)。 觀看 Amanda 示範數種不同方式，以在報表畫布上建立、編輯和格式化視覺效果。 接著，自己試著使用[銷售和行銷範例](sample-datasets.md)來建立專屬報表。
+本文提供在報表中使用 Power BI 服務或 Power BI Desktop 建立視覺效果的快速簡介。  如需更進一步的內容，請[參閱第二部分](power-bi-report-add-visualizations-ii.md)。 觀看 Amanda 示範數種不同方式，以在報表畫布上建立、編輯和格式化視覺效果。 接著，自己試著使用[銷售和行銷範例](sample-datasets.md)來建立專屬報表。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 

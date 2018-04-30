@@ -15,27 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 46f8d11d45423a9f7df96ac4d1e59c5d805304a7
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 23fa4ea28631e7545a1d68cd1f631eb087c56b98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-auditing-within-your-organization"></a>在組織內使用稽核
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 了解您可以如何使用 Power BI 的稽核來監視和調查所執行的動作。 您可以使用安全與合規性中心或使用 PowerShell。
 
 了解誰正在對 Power BI 租用戶的哪個項目採取什麼動作，可能對於幫助貴組織符合其需求，例如符合法規合規性與記錄管理等而言極為重要。
 
 您可以依日期範圍、使用者、儀表板、報表、資料集和活動類型來篩選稽核資料。 您也可以用 csv (逗號分隔值) 檔案下載活動以便離線分析。
-
-> [!NOTE]
-> Power BI 的稽核功能目前為預覽狀態，且所有資料區域皆可使用。
 
 ## <a name="requirements"></a>需求
 您必須符合這些需求才能存取稽核記錄：
@@ -47,28 +42,8 @@ ms.lasthandoff: 04/08/2018
 
 - 如果您有稽核記錄的存取權，但並不是全域管理員或 Power BI 服務管理員，您將無法存取 Power BI 管理入口網站。 在此情況下，您必須取得 Office 365 安全性與合規性中心的直接連結。
 
-## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>在 Power BI 管理入口網站啟用稽核功能
-
-您必須啟用稽核，貴組織才能使用報表。 您可以在管理入口網站的租用戶設定中完成。
-
-1. 選擇右上角的**齒輪圖示**。
-
-2. 選取 [管理入口網站]。
-   
-   ![](media/service-admin-auditing/powerbi-admin.png)
-
-3. 選取 [租用戶設定]。
-   
-   ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
-
-4. 開啟 \[Create audit logs for internal activity auditing and compliance purposes] \(建立稽核記錄以用於內部活動稽核和合規性用途)。
-
-5. 選取 [ **套用**]。
-
-Power BI 會開始記錄您的使用者在 Power BI 中執行的各種活動。 記錄需要 48 小時才會顯示在 O365 安全與規範中心。 如需記錄哪些活動的詳細資訊，請參閱 [Power BI 稽核的活動清單](#list-of-activities-audited-by-power-bi)。
-
 > [!NOTE]
-> 若要啟用租用戶中的 Power BI 稽核，您的租用戶中至少必須有一個 Exchange 信箱的授權。
+> 若要檢視租用戶中的 Power BI 稽核記錄，您的租用戶中至少必須有一個 Exchange 信箱的授權。
 
 ## <a name="accessing-your-audit-logs"></a>存取您的稽核記錄
 

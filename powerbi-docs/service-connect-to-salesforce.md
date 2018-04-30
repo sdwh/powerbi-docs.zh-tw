@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 04/13/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8089c796441fd4200b146da6330dd5c208bf8b30
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 62624d35f1fb477c4daf2ffcef92bb18fb8a6a8e
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>使用 Power BI 連接到 Salesforce
 您可以使用 Power BI 輕鬆地連接到您的 Salesforce.com 帳戶。 建立此連接時可擷取您的資料，並自動依據您的資料提供儀表板和相關報表。
@@ -72,11 +72,13 @@ ms.lasthandoff: 02/24/2018
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
 
-## <a name="system-requirements"></a>系統需求
-* 與已啟用 API 存取的 Salesforce 生產帳戶連接
-* 登入期間獲授 Power BI 應用程式的權限
-* 帳戶有足夠可用的 API 呼叫，以便提取和重新整理資料
-* 進行重新整理所需的有效驗證權杖。 請確認您匯入的 Salesforce 資料集為 5 個以下，原因是 Salesforce 有每個應用程式最多 5 個驗證權杖的上限
+## <a name="system-requirements-and-considerations"></a>系統需求和考量
+- 與已啟用 API 存取的 Salesforce 生產帳戶連接
+- 登入期間獲授 Power BI 應用程式的權限
+- 帳戶有足夠可用的 API 呼叫，以便提取和重新整理資料
+- 進行重新整理所需的有效驗證權杖。 請確認您匯入的 Salesforce 資料集為 5 個以下，原因是 Salesforce 有每個應用程式最多 5 個驗證權杖的上限
+- Salesforce Reports API 有支援最多 2000 個資料列的限制。
+
 
 ## <a name="troubleshooting"></a>疑難排解
 如發生任何錯誤，請檢閱上述需求。 另請注意，目前不支援登入自訂或沙箱網域。

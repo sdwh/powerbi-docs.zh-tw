@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: 1345cfee8eb92b9b4e3cf883f19edddee859a1c3
-ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
+ms.openlocfilehash: 67b9a162d689a8615a3e2459295eab6dad6d2364
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/29/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -92,6 +92,9 @@ ms.lasthandoff: 03/29/2018
             - 協助工具增強功能
 
 - **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
+    - *版本：2.51.4885.3981 (2017 年 10 月)，發行日期：2018 年 4 月 10 日*
+        - 安全性更新
+
     - 版本：2.51.4885.2501 (2017 年 10 月)，發行日期：2018 年 1 月 10 日
         - 安全性更新
 
