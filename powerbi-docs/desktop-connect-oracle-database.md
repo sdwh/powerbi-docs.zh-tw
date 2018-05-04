@@ -1,28 +1,28 @@
 ---
-title: "連接到 Oracle 資料庫"
-description: "將 Oracle 連接至 Power BI Desktop 所需的步驟和下載"
+title: 連接到 Oracle 資料庫
+description: 將 Oracle 連接至 Power BI Desktop 所需的步驟和下載
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 4/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: e898fb3f7024b4041616770d6fe1d8e8469878dd
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>連接到 Oracle 資料庫
 若要使用 **Power BI Desktop** 連接到 Oracle 資料庫，執行 Power BI Desktop 的電腦上必須安裝正確的 Oracle 用戶端軟體。 您使用的 Oracle 用戶端軟體取決於您安裝的 Power BI Desktop 版本，也就是 **32 位元**版本或 **64 位元**版本。
@@ -49,7 +49,7 @@ ms.lasthandoff: 03/12/2018
 1. 從 [取得資料] 視窗中，選取 [資料庫] > [Oracle 資料庫]
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. 在出現的 [Oracle 資料庫] 對話方塊中，提供伺服器名稱，然後選取 [連接]。 如果需要 SID，您可以使用以下格式加以指定︰*伺服器名稱/SID*。
+2. 在出現的 [Oracle 資料庫] 對話方塊中，提供伺服器名稱，然後選取 [連接]。 如果需要 SID，您可以使用以下格式來指定：*ServerName/SID*，其中 SID 是資料庫的唯一名稱。 如果 *ServerName/SID* 格式沒有用，請嘗試使用 *ServerName/ServiceName*，其中 ServiceName 是連接時使用的別名。
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 3. 如果要使用原生資料庫查詢匯入資料，您可以展開 [Oracle 資料庫] 對話方塊的 [進階選項] 區段，然後將查詢置於 [SQL 陳述式] 方塊中。

@@ -1,28 +1,28 @@
 ---
-title: "適用於美國政府客戶的 Power BI 註冊"
-description: "對於美國政府客戶，深入了解如何針對美國政府組織註冊 Power BI 美國政府服務"
+title: 適用於美國政府客戶的 Power BI 註冊
+description: 對於美國政府客戶，深入了解如何針對美國政府組織註冊 Power BI 美國政府服務
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/27/2017
+ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服務中註冊美國政府組織
 **Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本專為美國政府客戶而設計，並且獨立且不同於商用版本的 **Power BI 服務**。
@@ -48,7 +48,7 @@ ms.lasthandoff: 02/27/2018
 > 應該由入口網站的系統管理員執行這些步驟。
 >
 
-1. 移至 [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government)。
+1. 前往 [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government)。
 
 >[!NOTE]
 >如果您目前不想註冊 Government Cloud，請連絡您的業務代表。
@@ -73,7 +73,7 @@ ms.lasthandoff: 02/27/2018
 6. 指派使用者給帳戶。
    
    ![](media/service-govus-signup/service_govus_signup_5.png)
-7. 登入適用於美國政府客戶的 **Power BI 服務**，網址是：[https://app.powerbigov.us](https://app.powerbigov.us)
+7. 在 [https://app.powerbigov.us](https://app.powerbigov.us) 登入適用於美國政府客戶的 **Power BI 服務**
 
 ## <a name="additional-signup-information"></a>其他的註冊資訊
 以下是在不同授權移轉案例中註冊 **Power BI 美國政府**的詳細資訊。
@@ -97,12 +97,7 @@ ms.lasthandoff: 02/27/2018
 ### <a name="whitelisting-instructions"></a>設為允許清單指示
 「設為允許清單」是 Power BI 工程小組用來將客戶從商用雲端環境移至安全政府雲端環境的程序。 這可確保美國政府雲端中可用的功能如預期般運作。 第一次購買美國政府 **Power BI** 服務的所有現有 (或新的) 美國政府客戶，「必須」起始下列允許清單處理。 處理必須在安裝或移轉至美國政府 **Power BI** 服務之前完成。 
 
-若要針對美國政府雲端將您的租用戶「設為允許清單」，請從下列連結填寫提出要求的支援票證。 請注意，只有系統管理員才能提出這項要求︰
-
-* [「設為允許清單」線上支援要求 ](https://powerbi.microsoft.com/clouds/)
-* 請確定您將網域包括到「設為允許清單」，以及與您一起處理該程序之 Microsoft 代表的電子郵件。
-
-「設為允許清單」程序大約需要三週，在此期間，Power BI 工程小組會進行適當變更，確保租用戶在美國政府雲端正確操作。
+若要將您的租用戶加入美國政府雲端的「白名單」，請連絡 Microsoft 帳戶小組來協助您加入白名單。 請注意，只有系統管理員能提出此要求。 「設為允許清單」程序大約需要三週，在此期間，Power BI 工程小組會進行適當變更，確保租用戶在美國政府雲端正確操作。
 
 從 Power BI **免費**授權移轉至 **Power BI 美國政府**的客戶 (而且，根據定義，如本文前面所述移轉至相關聯 **Pro** 授權功能)，將會遇到本文的下節中所述的問題，直到 Power BI 工程小組將其租用戶「設為允許清單」。
 

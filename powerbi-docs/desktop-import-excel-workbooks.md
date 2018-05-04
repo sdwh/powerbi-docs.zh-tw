@@ -1,15 +1,15 @@
 ---
-title: "將 Excel 活頁簿匯入 Power BI Desktop"
-description: "將 Excel 活頁簿匯入 Power BI Desktop"
+title: 將 Excel 活頁簿匯入 Power BI Desktop
+description: 將 Excel 活頁簿匯入 Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 998f33eb2251814839a2d456da2624981e6114ab
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 247b8dca825f3e98de02207ba6d146e1aacd7580
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>將 Excel 活頁簿匯入 Power BI Desktop
 透過 **Power BI Desktop**，您可以輕鬆地將內含 Power Query 查詢、Power Pivot 模型和 Power View 工作表的 Excel 活頁簿，匯入 Power BI Desktop。 系統會根據 Excel 活頁簿自動建立報表和視覺效果，一旦匯入，您便可以使用現有功能及隨 Power BI Desktop 每月更新所發行的新功能，持續改進及精簡這些報表。
@@ -62,17 +62,17 @@ Power BI Desktop 可匯入 Excel 中的下列項目，通常稱為「物件」 �
 | --- | --- |
 | Power Query 查詢 |所有來自 Excel 的 Power Query 查詢都會轉換成 Power BI Desktop 中的查詢。 如果 Excel 活頁簿中已定義查詢群組，則會在 Power BI Desktop 中複寫相同的組織。 除非在 Excel 中設定為 [只建立連線]，否則會載入所有查詢。 您可以在 Power BI Desktop 中，透過 [查詢編輯器]  的 [常用]  索引標籤中的 [屬性]  對話方塊來自訂載入行為。 |
 | Power Pivot 外部資料連接 |所有 Power Pivot 外部資料連接都會轉換成 Power BI Desktop 中的查詢。 |
-| 連結的資料表或目前的活頁簿資料表 |如果 Excel 中有工作表資料表連結到資料模型，或連結到查詢 (透過 [從資料表] 或 M 中的 *Excel.CurrentWorkbook()* 函式)，則會顯示下列選項：
-  1. 將資料表匯入 Power BI Desktop 檔案。 這份資料表是一次性的資料快照集，之後您便無法在 Power BI Desktop 中編輯資料表中的資料。 使用這個選項建立的資料表有一百萬個字元的大小限制 (結合所有資料行標頭和資料格的總計)。    
-  2. 保留原始活頁簿的連接。 或者，您可以保留原始 Excel 活頁簿的連接，Power BI Desktop 會在每次重新整理時擷取這個資料表中的最新內容，就像是針對 Power BI Desktop 中的 Excel 活頁簿建立的其他任何查詢一樣。 | | 資料模型計算結果欄、量值、KPI、資料類別和關聯性 |這些資料模型物件會轉換為 Power BI Desktop 中的相等物件。 請注意，Power BI Desktop 目前不提供某些資料類別，例如**映像**。 在這些情況下，會重設有問題之資料行的資料類別資訊。 | | Power View 工作表 |您可以針對 Excel 中的每個 Power View 工作表建立新的報表頁面。 這些報表頁面的名稱和順序會符合原始 Excel 活頁簿。 |
+| 連結的資料表或目前的活頁簿資料表 |如果 Excel 中有工作表資料表連結到資料模型，或連結到查詢 (使用 [從資料表] 或 M 中的 *Excel.CurrentWorkbook()* 函式)，則會顯示以下選項：1. 將資料表匯入 Power BI Desktop 檔案。 這份資料表是一次性的資料快照集，之後您便無法在 Power BI Desktop 中編輯資料表中的資料。 使用這個選項建立的資料表有一百萬個字元的大小限制 (結合所有資料行標頭和資料格的總計)。 2. 保留原始活頁簿的連接。 或者，您可以保留原始 Excel 活頁簿的連接，Power BI Desktop 會在每次重新整理時擷取這個資料表中的最新內容，就像是針對 Power BI Desktop 中的 Excel 活頁簿建立的其他任何查詢一樣。 |
+| 資料模型的計算結果欄、量值、KPI、資料類別和關聯性 |這些資料模型物件會轉換成 Power BI Desktop 中的對等物件。 請注意，Power BI Desktop 目前不提供某些資料類別，例如**映像**。 在這些情況下，會重設有問題之資料行的資料類別資訊。 |
+| Power View 工作表 |您可以針對 Excel 中的每個 Power View 工作表建立新的報表頁面。 這些報表頁面的名稱和順序會符合原始 Excel 活頁簿。 |
 
 ## <a name="are-there-any-limitations-to-importing-a-workbook"></a>匯入活頁簿有任何限制嗎？
 將活頁簿匯入 Power BI Desktop 有些限制，如下所列：
 
-1. **Analysis Services 表格式模型的外部連接：** 在 Excel 2013 中，您可以建立 SQL Server Analysis Services 表格式模型的連接，並在這些模型之上建立 Power View 報表，而不需要匯入資料。 目前不支援使用這種連接類型將 Excel 活頁簿匯入 Power BI Desktop，但未來更新將會提供。 在此同時，您必須在 Power BI Desktop 中重新建立這些外部連接。
-2. **階層：** Power BI Desktop 目前不支援這種資料模型物件類型。 因此，將 Excel 活頁簿匯入 Power BI Desktop 時會略過階層。
-3. **二進位資料行：** Power BI Desktop 目前不支援這種資料模型資料行類型。 二進位資料行已從 Power BI Desktop 的結果資料表中移除。
-4. **不支援的 Power View 項目：** Power BI Desktop 目前不提供 Power View 中的一些功能，例如佈景主題或特定視覺效果類型 (具有播放軸的散佈圖、向下鑽研行為等)。 這些不支援的視覺效果會導致在 Power BI Desktop 報表中的對應位置出現「視覺效果不受支援」  的訊息，您可以視需要予以刪除或重新設定。
-5. **使用 Power Query 之*****從資料表*****或使用 M 之*****Excel.CurrentWorkbook*****的具名範圍：**目前不支援將這個具名範圍資料匯入 Power BI Desktop，但 Power BI Desktop 已規劃此更新。 目前，這些具名範圍會當做外部 Excel 活頁簿的連接，載入 Power BI Desktop。
-6. **PowerPivot 至 SSRS：** 由於 Power BI Desktop 目前不提供該資料來源，因此目前不支援 SQL Server Reporting Services (SSRS) 的 PowerPivot 外部連接。
+* **Analysis Services 表格式模型的外部連接：** 在 Excel 2013 中，您可以建立 SQL Server Analysis Services 表格式模型的連接，並在這些模型之上建立 Power View 報表，而不需要匯入資料。 目前不支援使用這種連接類型將 Excel 活頁簿匯入 Power BI Desktop。 因應措施是在 Power BI Desktop 中建立這些外部連接。
+* **階層：** Power BI Desktop 目前不支援這種資料模型物件類型。 因此，將 Excel 活頁簿匯入 Power BI Desktop 時會略過階層。
+* **二進位資料行：** Power BI Desktop 目前不支援這種資料模型資料行類型。 二進位資料行已從 Power BI Desktop 的結果資料表中移除。
+* **不支援的 Power View 元素：**Power BI Desktop 不提供 Power View 中的一些功能，例如佈景主題或特定視覺效果類型 (具有播放軸的散佈圖、向下切入行為等)。 這些不支援的視覺效果會導致在 Power BI Desktop 報表中的對應位置出現「視覺效果不受支援」  的訊息，您可以視需要予以刪除或重新設定。
+* **使用 Power Query 之*****從資料表*****或使用 M 之*****Excel.CurrentWorkbook*****的具名範圍：**目前不支援將這個具名範圍資料匯入 Power BI Desktop，但 Power BI Desktop 已規劃此更新。 目前，這些具名範圍會當做外部 Excel 活頁簿的連接，載入 Power BI Desktop。
+* **PowerPivot 至 SSRS：** 由於 Power BI Desktop 目前不提供該資料來源，因此目前不支援 SQL Server Reporting Services (SSRS) 的 PowerPivot 外部連接。
 

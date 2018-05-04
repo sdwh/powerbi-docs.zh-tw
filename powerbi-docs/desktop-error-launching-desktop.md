@@ -1,28 +1,28 @@
 ---
-title: "解決啟動 Power BI Desktop 的問題"
-description: "解決啟動 Power BI Desktop 的問題"
+title: 解決啟動 Power BI Desktop 的問題
+description: 解決啟動 Power BI Desktop 的問題
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 43263afb63fa0350a240cae602f4a2acf8ef8edd
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 2014524b3209a67bd0f0aaa3d1ddf00042227c4d
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>解決 Power BI Desktop 無法啟動的問題
 在 **Power BI Desktop** 中，因為 Power BI 內部部署閘道在本機電腦的具名管道上設置了系統管理原則限制，所以會封鎖安裝並執行舊版 **Power BI 內部部署資料閘道**的使用者，讓他們無法啟動 Power BI Desktop。 
@@ -39,10 +39,12 @@ ms.lasthandoff: 03/12/2018
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>解決方法 3：以系統管理員權限執行 Power BI Desktop
 或者，您可以系統管理員的身分成功啟動 Power BI Desktop，這樣也可以成功啟動 Power BI Desktop。 但仍建議您如前文所述，安裝最新版的 Power BI 內部部署資料閘道。
 
+請務必注意，Power BI Desktop 經過程式設計成多處理序架構，且這些處理序中有數個使用 Windows 具名管道來通訊。 可能會有其他處理序影響那些具名管道。 這種影響最常見的原因是安全性，包括的情況如防毒軟體或防火牆可能會封鎖管道或將流量重新導向至特定連接埠。 以系統管理員權限啟動 Power BI Desktop 可以解決該問題。 如果無法以系統管理員權限啟動，請連絡您的系統管理員以判斷是哪些已套用的安全性規則讓具名管道無法正常通訊，並且將 Power BI Desktop 和其個別的子處理序加入白名單。
+
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>協助解決啟動 Power BI Desktop 時發生的其他問題
 我們致力於將 **Power BI Desktop** 所發生的問題涵蓋在本文中。 我們經常檢視可能會影響眾多客戶的問題，並將它們包含在我們的文章內。
 
-如果啟動 **Power BI Desktop** 時所發生的問題與內部部署資料閘道無關，或上述解決方法無法解決問題，您可以將支援事件提交給 [Power BI 支援](https://support.powerbi.com) (https://support.powerbi.com) 來協助找出並解決問題。
+如果啟動 **Power BI Desktop** 時發生的問題與內部部署資料閘道無關，或上述解決方法無法解決問題，您可以將支援事件提交給 [Power BI 支援](https://support.powerbi.com) (https://support.powerbi.com)，以協助找出並解決問題。
 
 如果未來遇到 **Power BI Desktop** 的其他問題 (我們希望沒有或非常少)，開啟追蹤並收集記錄檔將有助於更佳隔離並找出問題。 若要開啟追蹤，請選取 [檔案] > [選項及設定] > [選項]，選取 [診斷]，然後核取 [診斷選項] 下的 [啟用追蹤]。 我們了解 **Power BI Desktop** 必須在執行中才能設定此選項，因此更有助於解決未來與啟動 **Power BI Desktop** 相關聯的問題。
 

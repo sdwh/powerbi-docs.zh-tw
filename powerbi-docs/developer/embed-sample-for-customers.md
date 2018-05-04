@@ -1,15 +1,15 @@
 ---
-title: "將客戶的 Power BI 內容內嵌至應用程式"
-description: "了解如何使用 Power BI API，將客戶的儀表板、磚或報表整合或內嵌至 Web 應用程式。"
+title: 將客戶的 Power BI 內容內嵌至應用程式
+description: 了解如何使用 Power BI API，將客戶的儀表板、磚或報表整合或內嵌至 Web 應用程式。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
 ms.author: maghan
-ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 779ae9a6df285b58c83021f87ed593af9ec0b3fb
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>將 Power BI 儀表板、磚或報表內嵌至應用程式
 了解如何在對客戶進行內嵌時，使用 Power BI .NET SDK 配合 Power BI JavaScript API 將儀表板、磚或報表整合或內嵌至 Web 應用程式。 這通常是 ISV 案例。
@@ -126,7 +126,7 @@ Report report = reports.Value.FirstOrDefault();
 必須產生內嵌權杖，以供 JavaScript API 使用。 內嵌權杖專屬於您內嵌的項目。 這表示每次內嵌 Power BI 內容時，您都必須為其建立一個新的內嵌權杖。 如需更多詳細資訊，包括要使用的 **accessLevel**，請參閱 [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)。
 
 > [!IMPORTANT]
-> 因為內嵌權杖只適用於開發測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數目有限。 [必須購買容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)才可進行生產環境內嵌案例。 購買容量後，內嵌權杖產生的數量就不受限制。
+> 因為內嵌權杖只適用於開發測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數目有限。 [必須購買容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)才可進行生產環境內嵌案例。 購買容量後，內嵌權杖產生的數量就不受限制。 移至[取得可用功能](https://msdn.microsoft.com/en-us/library/mt846473.aspx) \(英文\) 來檢查已經使用多少免費的內嵌權杖。
 
 您可以在[對組織進行內嵌範例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)的 **Controllers\HomeController.cs** 中，找到關於這項作業的範例。
 

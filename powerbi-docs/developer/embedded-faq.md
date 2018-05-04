@@ -1,27 +1,27 @@
 ---
-title: "關於 Power BI Embedded 的常見問題集"
-description: "瀏覽 Power BI Embedded 相關的常見問題與回答清單。"
+title: 關於 Power BI Embedded 的常見問題集
+description: 瀏覽 Power BI Embedded 相關的常見問題與回答清單。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/07/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 24e4dbaf6ede92436ff05c8cb57756e3ab7e8526
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -60,10 +60,6 @@ Microsoft 的建議是，企業購買 Power BI Premium (企業級的自助雲端
 
 具有 PRO 授權的內嵌權杖適用於開發和開發測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數量有限。 您必須[購買容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)才可在生產環境中進行內嵌作業。 購買容量後，您可產生的內嵌權杖數量就不受限制。
 
-### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>Power BI Embedded 什麼時候會在 Azure 中提供？
-
-Power BI Embedded 現已正式運作。
-
 ## <a name="technical"></a>技術
 
 ### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure 中的 A SKU 和 Office 365 中的 EM SKU 有何差異？
@@ -74,7 +70,7 @@ Power BI Embedded 是一組可供開發人員用來在平台即服務供應項�
 
 以下是各項差異的部份清單。
 
-|功能  |Power BI Embedded<br>(A SKU) |Power BI Premium 容量<br>(EM SKU)  |
+|功能  |Power BI Embedded<br>(A SKU) |Power BI Premium 容量<br>(EM SKU)  | 
 |---------|---------|---------|
 |從 Power BI 應用程式工作區內嵌成品     |Azure 容量 |Office 365 容量 |
 |必須有 Power BI 授權才能取用報表 |否  |是 |
@@ -138,14 +134,6 @@ ISV/開發人員必須先有 Power BI 帳戶，才能在 Azure 中購買 Power B
 
 Power BI Embedded 透過 Azure 提供。
 
-### <a name="how-power-bi-embedded-be-metered"></a>Power BI Embedded 的計量方式為何？
-
-Power BI Embedded 每小時計量。
-
-### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Power BI Embedded 的使用量會如何在帳單上顯示？
-
-Power BI Embedded 會依據部署的節點類型，以可預測的每小時費率開立帳單。 請注意，只要資源在使用中的狀態，即使您未使用，也會向您計費。 若要停止計費，您須主動暫停資源。 您可透過 Azure 或 ARM API 予以暫停。
-
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>如果我已經購買 Power BI Premium，而現在想要 Azure 中 Power BI Embedded 的某些優勢，會發生什麼情況？
 
 客戶會繼續為任何現有的 Power BI Premium 購買項目付費，直到目前合約期限結束為止，接著，如有必要，可在該時間點切換 Power BI Premium 購買項目。
@@ -153,6 +141,14 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 ### <a name="do-i-still-have-to-buy-power-bi-premium-to-get-access-to-power-bi-embedded"></a>我仍必須購買 Power BI Premium 才能存取 Power BI Embedded 嗎？
 
 不必，Power BI Embedded 即包含您將解決方案部署及散發到客戶時的必要容量 (以 Azure 為基礎)。
+
+### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>Power BI Embedded 有什麼購買承諾？ 
+
+客戶可以小時為單位變更使用量。 Power BI Embedded 服務沒有每月或年度承諾用量。
+
+### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Power BI Embedded 的使用量會如何在帳單上顯示？
+
+Power BI Embedded 會依據部署的節點類型，以可預測的每小時費率開立帳單。 請注意，只要資源在使用中的狀態，即使您未使用，也會向您計費。 若要停止計費，您須主動暫停資源。
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>誰會需要 Power BI Pro 授權以使用 Power BI Embedded？為什麼？
 
@@ -168,16 +164,21 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 因為 Power BI Embedded 是 Azure 的一部份，所以您可以使用[註冊 Azure 時收到的美金 $200 元點數](https://azure.microsoft.com/free/)使用服務。
 
-### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>Power BI Embedded 有什麼購買承諾？ 
+### <a name="is-there-a-limit-to-the-number-of-embed-tokens-a-power-bi-master-account-can-generate"></a>Power BI 主要帳戶可以產生的內嵌權杖數量是否受限制？ 
 
-客戶可以小時為單位變更使用量。 Power BI Embedded 服務沒有每月或年度承諾用量。
+是，它受到限制，因為這些內嵌權杖僅供開發測試使用。 對於任何生產環境內嵌案例，[必須購買容量](#technical)才可進行。 購買容量後，內嵌權杖產生的數量就不受限制。 移至[取得可用功能](https://msdn.microsoft.com/en-us/library/mt846473.aspx) \(英文\) 來檢查已經使用多少免費的內嵌權杖。
 
-### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>Power BI Embedded 可在哪裡使用？ 美國政府？ 德國？ 中國？ 時機為何？
+### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Power BI Embedded 是否可供主權雲端使用 (美國政府、德國、中國)？
 
-Power BI Embedded 可在 Azure 商業雲端和美國政府雲端中取得。  未來會新增德國及中國的主權雲端可用性。
+Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereign-clouds.md)使用。 中國雲端仍然**無法**使用。
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Power BI Embedded 是否可用於非營利及教育用途？
 
 非營利及教育機構可以購買 Azure。 在 Azure 中，並無適用這幾種客戶的特殊定價。
 
+如需詳細資訊，請參閱[為您的內嵌應用程式進行疑難排解](embedded-troubleshoot.md)
+
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+
+
+

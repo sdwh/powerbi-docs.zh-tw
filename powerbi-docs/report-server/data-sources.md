@@ -1,6 +1,6 @@
 ---
 title: Power BI 報表伺服器中的 Power BI 報表資料來源
-description: Power BI 報表可以連線到不同的資料來源。 根據使用資料的方式而定，可以使用不同的資料來源。
+description: Power BI 報表 (.pbix) 可以連接到數種資料來源。 根據使用資料的方式而定，可以使用不同的資料來源。
 services: powerbi
 documentationcenter: ''
 author: markingmyname
@@ -15,23 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/02/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: a32ef2e1e85b252a2a1071cb95c80149486c2604
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 報表伺服器中的 Power BI 報表資料來源
-Power BI 報表可以連線到不同的資料來源。 根據使用資料的方式而定，可以使用不同的資料來源。 可以匯入資料，或者使用 DirectQuery 或與 SQL Server Analysis Services 的即時連線，直接查詢資料。
+# <a name="power-bi-report-pbix-data-sources-in-power-bi-report-server"></a>Power BI 報表 (.pbix) 資料來源在 Power BI 報表伺服器中
+Power BI 報表可以連接到數種資料來源。 根據使用資料的方式而定，可以使用不同的資料來源。 可以匯入資料，或者使用 DirectQuery 或與 SQL Server Analysis Services 的即時連線，直接查詢資料。
 
-這些資料來源專屬於 Power BI 報表伺服器中使用的 Power BI 報表。 如需支援分頁報表之資料來源的詳細資訊，請參閱 [Reporting Services 支援的資料來源](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)。
+這些資料來源專屬於 Power BI 報表伺服器中使用的 Power BI 報表。 如需支援分頁報表 (.rdl) 的資料來源詳細資訊，請參閱 [Reporting Services 支援的資料來源](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)。
 
 > [!IMPORTANT]
-> Power BI Desktop 報表中的所有資料來源都必須支援設定排程的重新整理。
-> 
-> 
+> Power BI Desktop 報表中的所有資料來源都必須支援設定排定的重新整理。
+>  
 
 ## <a name="list-of-supported-data-sources"></a>支援的資料來源清單
 
@@ -216,7 +215,7 @@ Power BI 報表伺服器對 DirectQuery 不支援 OAuth 型驗證。
 
 
 ## <a name="next-steps"></a>後續步驟
-既然已挑選您的資料來源，請使用該資料來源中的資料以[建立報表](quickstart-create-powerbi-report.md)。
+您現在已經連接到您的資料來源，接著可以使用來自該資料來源的資料[建立 Power BI 報表](quickstart-create-powerbi-report.md)。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

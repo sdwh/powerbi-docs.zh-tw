@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 2caf5adc442a5794a23e3ed5af478f5467068b14
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>內嵌 Power BI 儀表板、報表和磚
 
@@ -143,7 +143,7 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 * 購買符合您需求的容量。 您可以使用下表來了解您可能需要的 Power BI Embedded 容量 SKU。 如需詳細資料，請參閱[內嵌的分析容量規劃白皮書](https://aka.ms/pbiewhitepaper)。 當您準備好購買時，可以在 [Microsoft Azure 入口網站](https://portal.azure.com)內進行。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
 
 > [!IMPORTANT]
-> 因為內嵌權杖只適用於開發測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數目有限。 [必須購買容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)才可進行生產環境內嵌案例。 購買容量後，內嵌權杖產生的數量就不受限制。
+> 因為內嵌權杖只適用於開發測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數目有限。 [必須購買容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)才可進行生產環境內嵌案例。 購買容量後，內嵌權杖產生的數量就不受限制。 移至[取得可用功能](https://msdn.microsoft.com/en-us/library/mt846473.aspx) \(英文\) 來檢查已經使用多少免費的內嵌權杖。
 
 | 節點容量 | 核心總數<br/>(後端 + 前端) | 後端核心 | 前端核心 | DirectQuery/即時連線限制 | 尖峰時間的頁面呈現上限 |
 | --- | --- | --- | --- | --- | --- |

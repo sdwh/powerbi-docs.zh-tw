@@ -1,39 +1,32 @@
 ---
-title: "使用 Office Online Server (OOS) 設定報表伺服器來裝載 Excel 活頁簿"
-description: "除了在入口網站中檢視 Power BI 報表之外，商務使用者現在也可以在 Power BI 報表伺服器中執行與 Excel 活頁簿相同的作業。"
+title: 使用 Office Online Server (OOS) 來裝載 Excel 活頁簿 - Power BI Report Server
+description: 除了在 Web 入口網站中檢視 Power BI 報表，Power BI 報表伺服器可以使用 Office Online Server (OOS) 來裝載 Excel 活頁簿。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/23/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>使用 Office Online Server (OOS) 設定報表伺服器來裝載 Excel 活頁簿
-除了在入口網站中檢視 Power BI 報表之外，商務使用者現在也可以在 Power BI 報表伺服器中執行與 Excel 活頁簿相同的作業，讓他們有一個位置可以發佈和檢視其自助 Microsoft BI 內容。
+除了在 Web 入口網站中檢視 Power BI 報表，Power BI 報表伺服器可以使用 [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) 來裝載 Excel 活頁簿。 您的報表伺服器會成為發佈和檢視自助服務 Microsoft BI 內容的單一位置。
 
-> [!NOTE]
-> 這是 2017 年 8 月 Preview 版本所含的預覽功能。 如需詳細資訊，請參閱 [Power BI 報表伺服器的新功能](whats-new.md)。
-> 
-> 
-
-![要從報表伺服器入口網站檢視的 Excel 報表。](media/excel-oos/excel-in-pbirs.png)
-
-這是利用 [Office Online Server](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx) (OOS) 所完成。
+![從報表伺服器 Web 入口網站檢視的 Excel 報表](media/excel-oos/excel-in-pbirs.png)
 
 ## <a name="prepare-server-to-run-office-online-server"></a>準備伺服器以執行 Office Online Server
 在將執行 Office Online Server 的伺服器上，執行這些程序。 此伺服器必須是 Windows Server 2012 R2 或 Windows Server 2016。 Windows Server 2016 需要 Office Online Server 2017 年 4 月或更新版本。
@@ -92,7 +85,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **參數**
 
-* **–InternalURL** 是執行 Office Online Server 之伺服器的完整網域名稱 (FQDN)，例如 http://<伺服器服名稱>.contoso.com。
+* **–InternalURL** 是執行 Office Online Server 的伺服器完整網域名稱 (FQDN)，例如 http://servername.contoso.com。
 * **–ExternalURL** 是可在網際網路上存取的 FQDN。
 * **–CertificateName** 是憑證的易記名稱。
 
@@ -105,7 +98,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **參數**
 
-* **–InternalURL** 是執行 Office Online Server 之伺服器的名稱，例如 http://<伺服器服名稱>。
+* **–InternalURL** 是執行 Office Online Server 的伺服器名稱，例如 http://servername。
 * **–AllowHttp** 設定伺服器陣列使用 HTTP。
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>確認已成功建立 Office Online Server 伺服器陣列

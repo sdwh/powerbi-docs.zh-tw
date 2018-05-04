@@ -1,27 +1,27 @@
 ---
-title: "註冊應用程式以內嵌 Power BI 內容"
-description: "了解如何在 Azure Active Directory 內註冊應用程式，以用來內嵌 Power BI 內容。"
+title: 註冊應用程式以內嵌 Power BI 內容
+description: 了解如何在 Azure Active Directory 內註冊應用程式，以用來內嵌 Power BI 內容。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: cc9a4c7a29ddb84e6230d42f31a9c6a0427008f1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>註冊 Azure AD 應用程式以內嵌 Power BI 內容
 了解如何在 Azure Active Directory (Azure AD) 內註冊應用程式，以用來內嵌 Power BI 內容。
@@ -59,6 +59,22 @@ ms.lasthandoff: 01/30/2018
    
     接著會提供**用戶端識別碼**給您。 如果您選取 [伺服器端 Web 應用程式]，則還會收到**用戶端祕密**。 之後若有需要，可從 Azure 入口網站中擷取**用戶端識別碼**。 如果您遺失**用戶端祕密**，則必須在 Azure 入口網站中建立一個新的。
 
+8. 您必須瀏覽到 Azure，才能選取 [授與權限]。
+> [!Note]
+    > 必須是 Azure 租用戶中的全域系統管理員才能完成此操作
+>
+
+* 移至 Azure。
+* 搜尋並選取 [應用程式註冊]。
+* 選擇您的應用程式。
+* 選取 [設定] 。
+* 選取 [必要權限]。
+* 選取 [Power BI 服務] 來驗證您在應用程式註冊網站選取的權限。
+* 選取 [授與權限]。
+
+
+
+
 現在，您可以在自訂應用程式中，使用已註冊的應用程式來與 Power BI 服務互動。
 
 > [!IMPORTANT]
@@ -77,8 +93,8 @@ ms.lasthandoff: 01/30/2018
     ![](media/register-app/azuread-new-app-registration.png)
 5. 遵循提示並建立新的應用程式。
    
-   * 若是 Web 應用程式，請提供登入 URL，也就是應用程式的基底 URL，可供使用者登入，例如 http://localhost:13526。
-   * 若是原生應用程式，請提供 [重新導向 URI]，供 Azure AD 用來傳回權杖回應。 輸入您的應用程式專用的值，例如 http://myapplication/redirect
+   * 對於 Web 應用程式，請提供登入 URL，也就是應用程式的基底 URL，可供使用者登入，例如 http://localhost:13526。
+   * 若是原生應用程式，請提供 [重新導向 URI]，供 Azure AD 用來傳回權杖回應。 輸入您應用程式特定的值。例如 http://myapplication/redirect
 
 如需如何在 Azure Active Directory 中註冊應用程式的詳細資訊，請參閱[整合應用程式與 Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -190,4 +206,5 @@ ms.lasthandoff: 01/30/2018
 既然您已在 Azure AD 中註冊應用程式，就必須在應用程式中驗證使用者。 若要深入了解，請參閱[為 Power BI 應用程式驗證使用者及取得 Azure AD 存取權杖](get-azuread-access-token.md)。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+
 
