@@ -1,8 +1,8 @@
 ### YamlMime:Tutorial
-title: "DAX 簡介"
+title: DAX 簡介
 metadata:
-  title: "DAX 簡介 | Microsoft Power BI"
-  description: "了解如何從知名專家建立和使用 DAX。"
+  title: DAX 簡介 | Microsoft Power BI
+  description: 了解如何從知名專家建立和使用 DAX。
   audience: Business User
   level: Beginner
   displayType: one-column
@@ -10,56 +10,57 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 5553a2b4dc3856cb90f1d392709fb313acf3c4d8
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 51c99cf6290cb6eaf27e12021415e24b927060fc
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "了解如何從知名專家建立和使用 DAX。\n"
-- title: "DAX 簡介"
+  content: >
+    了解如何從知名專家建立和使用 DAX。
+- title: DAX 簡介
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/lRhOJP3bZCo?rel=0]
 
 
     [!INCLUDE [](includes/7-1-intro-to-dax.md)]
-- title: "DAX 計算類型"
+- title: DAX 計算類型
   durationInMinutes: 22
   content: >
     > [!Video https://www.youtube.com/embed/BVlijY68wp8?rel=0]
 
 
     [!INCLUDE [](includes/7-2-dax-calculation-types.md)]
-- title: "DAX 函數"
+- title: DAX 函數
   durationInMinutes: 17
   content: >
     > [!Video https://www.youtube.com/embed/siTnzquk1SU?rel=0]
 
 
     [!INCLUDE [](includes/7-3-dax-functions.md)]
-- title: "在 DAX 運算式中使用變數"
+- title: 在 DAX 運算式中使用變數
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/kd4tgKxhRTU?rel=0]
 
 
     [!INCLUDE [](includes/7-4-dax-expressions.md)]
-- title: "資料表關聯性與 DAX"
+- title: 資料表關聯性與 DAX
   durationInMinutes: 13
   content: >
     > [!Video https://www.youtube.com/embed/yec1f5A08mc?rel=0]
 
 
     [!INCLUDE [](includes/7-5-table-relationships-and-dax.md)]
-- title: "DAX 資料表和篩選"
+- title: DAX 資料表和篩選
   durationInMinutes: 32
   content: >
     > [!Video https://www.youtube.com/embed/6eAoDI4VDFs?rel=0]
 
 
     [!INCLUDE [](includes/7-6-dax-tables-and-filtering.md)]
-- content: "您已完成 Power BI 引導式學習的 **DAX 簡介**一節。 美妙之旅！ 如果您已依序完成這些教學課程，就已完成**引導式學習**的所有小節。 做得很棒！ 現在請使用 **Power BI** 來建立吸引人的報告和內容豐富的儀表板。\0"
+- content: 您已完成 Power BI 引導式學習的 **DAX 簡介**一節。 美妙之旅！ 如果您已依序完成這些教學課程，就已完成**引導式學習**的所有小節。 做得很棒！ 現在請使用 **Power BI** 來建立吸引人的報告和內容豐富的儀表板。

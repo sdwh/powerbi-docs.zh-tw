@@ -1,106 +1,107 @@
 ### YamlMime:Tutorial
-title: "發佈與共用"
+title: 發佈與共用
 metadata:
-  title: "發佈與共用 | Microsoft Power BI"
-  description: "資料與他人共用時才能發揮最大效用；了解如何發佈、匯出、共用及散發您的 Power BI 資料深入解析。"
+  title: 發佈與共用 | Microsoft Power BI
+  description: 資料與他人共用時才能發揮最大效用；了解如何發佈、匯出、共用及散發您的 Power BI 資料深入解析。
   audience: Business User
   level: Beginner
-  nextTutorialHref: introductiontodax
-  nextTutorialTitle: "DAX 簡介"
+  nextTutorialHref: introductiontodax.yml
+  nextTutorialTitle: DAX 簡介
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/06/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: cc8560f56cba1f8bb0dc3d7faedf44433318288b
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 32729b224866381b41be53ac1eb8f7f1874903b4
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "資料與他人共用時才能發揮最大效用；了解如何發佈、匯出、共用及散發您的 Power BI 資料深入解析。\n"
-- title: "內容套件、安全性及群組的簡介"
+  content: >
+    資料與他人共用時才能發揮最大效用；了解如何發佈、匯出、共用及散發您的 Power BI 資料深入解析。
+- title: 內容套件、安全性及群組的簡介
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/5DABLeJzQYM?rel=0]
 
 
     [!INCLUDE [](includes/6-0-intro-content-packs-groups.md)]
-- title: "發佈 Power BI Desktop 報表"
+- title: 發佈 Power BI Desktop 報表
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/i0zAvCRLScI?rel=0]
 
 
     [!INCLUDE [](includes/4-1-publish-reports.md)]
-- title: "列印和匯出儀表板與報表"
+- title: 列印和匯出儀表板與報表
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/gauDt5ZV74I?rel=0]
 
 
     [!INCLUDE [](includes/4-4g-print-and-export-dashboards-reports.md)]
-- title: "手動重新發佈和重新整理資料"
+- title: 手動重新發佈和重新整理資料
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/O60a1Acdpkc?rel=0]
 
 
     [!INCLUDE [](includes/4-5-manually-republish-reports.md)]
-- title: "Power BI Mobile 簡介"
+- title: Power BI Mobile 簡介
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/Sfb_vDIb6Dc?rel=0]
 
 
     [!INCLUDE [](includes/4-4a-power-bi-mobile.md)]
-- title: "在 Power BI 中建立群組"
+- title: 在 Power BI 中建立群組
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/758Lnhj9DRo?rel=0]
 
 
     [!INCLUDE [](includes/6-1-create-groups.md)]
-- title: "建置內容套件"
+- title: 建置內容套件
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/8V2WP4nFCiA?rel=0]
 
 
     [!INCLUDE [](includes/6-2-create-content-packs.md)]
-- title: "使用內容套件"
+- title: 使用內容套件
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/fE9R6ydo8yk?rel=0]
 
 
     [!INCLUDE [](includes/6-3-use-content-packs.md)]
-- title: "更新內容套件"
+- title: 更新內容套件
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/nem2r4NpTyU?rel=0]
 
 
     [!INCLUDE [](includes/6-4-update-content-pack.md)]
-- title: "整合商務用 OneDrive 與 Power BI"
+- title: 整合商務用 OneDrive 與 Power BI
   durationInMinutes: 3
   content: >
     > [!Video https://www.youtube.com/embed/mxjakuVGgnU?rel=0]
 
 
     [!INCLUDE [](includes/6-4a-integrate-onedrive-for-business.md)]
-- title: "發行至網站"
+- title: 發行至 Web
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/jNPOaLP9hlc?rel=0]
 
 
     [!INCLUDE [](includes/6-6-publish-to-web.md)]
-- title: "完成 Power BI 引導式學習"
+- title: 完成 Power BI 引導式學習
   durationInMinutes: 4
   content: >
     [!INCLUDE [](includes/6-5-guided-learning-completion.md)]
-- content: "您已完成 Power BI 引導式學習的**發佈與共用**一節。 如果您需要 DAX 的簡介 (用於建立 Power BI 查詢的語言)，請前往下一個教學課程。\0"
+- content: 您已完成 Power BI 引導式學習的**發佈與共用**一節。 如果您需要 DAX 的簡介 (用於建立 Power BI 查詢的語言)，請前往下一個教學課程。
