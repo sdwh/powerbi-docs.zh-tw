@@ -1,15 +1,15 @@
 ---
-title: "支援 Power BI 的瀏覽器"
-description: "查看支援 Power BI 的瀏覽器清單"
+title: 支援 Power BI 的瀏覽器
+description: 查看支援 Power BI 的瀏覽器清單
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article

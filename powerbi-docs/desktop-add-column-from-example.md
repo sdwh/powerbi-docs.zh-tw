@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08ae182e62fc370b66b2ef88b0c6b7c91a46eff1
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 5031e31f83925d17fb87f39e4610a53617b9fca3
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>在 Power BI Desktop 中從範例新增資料行
 自 **Power BI Desktop** 的 2017 年 4 月版本起，您只要為新資料行提供一或個範例值，就可以使用**查詢編輯器**將資料的新資料行新增到模型。 您可以從目前選取範圍建立新的資料行範例，也可以依據指定資料表中的所有 (或所選) 資料行提供輸入。
@@ -42,7 +42,7 @@ ms.lasthandoff: 04/26/2018
 
 ![](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-在本文中，我們使用來自下列 Wikipedia 文章的資料 (您可以按一下這個連結，自行取得資料並跟著進行)：
+若要從網頁取得資料，請移至 [首頁] 索引標籤，按一下 [取得資料] > [Web]，然後將 URL 貼入出現的對話方塊。 本文使用 Wikipedia 文章中的資料。 您可以按一下下列連結為您自己取得資料，並遵循指示：
 
 * [**美國州份和領地列表**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
 
@@ -51,24 +51,24 @@ ms.lasthandoff: 04/26/2018
 ![](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
 ## <a name="the-add-column-from-examples-pane"></a>[從範例新增資料行] 窗格
-在您進行選取，以從範例新增新資料行後，新的窗格隨即出現，顯示目前資料表中的資料行 (您可能必須捲動才能看到全部)。 新的 **Column1** 也會顯示在右側，**Power BI Desktop** 會依據您的範例建立該資料行。 在下方，新的 **Column1** 標頭為空白儲存格，您可以在其中鍵入範例，讓 Power BI 用以建立規則及轉換，以符合您的範例。
+在您進行選取，以從範例新增新資料行後，新的窗格隨即出現，顯示目前資料表中的資料行 (您可能必須捲動才能看到全部)。 新的 **Column1** 也會顯示在右側，這是 **Power BI Desktop** 依據您的範例所建立的資料行。 在新的 **Column1** 標頭下為空白儲存格，您可以在其中鍵入範例，讓 Power BI 用以建立規則及轉換，以符合您的範例。
 
-另請注意，這是 [查詢設定] 窗格中的 [套用的動作]。 一如往常，**查詢編輯器**會記錄您的轉換步驟，並依序將其套用到查詢。
+請注意，這是 [查詢設定] 窗格中的 [Applied Step] \(套用的步驟\)。 一如往常，**查詢編輯器**會記錄您的轉換步驟，並依序將其套用到查詢。
 
 ![](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
 這稱作 [從範例新增資料行] 窗格，其中包含四個主要區域：
 
-1. **命令列**包括功能或轉換的簡短描述。
+1. 包含功能或轉換之簡短描述的**命令列**。
 2. [傳送意見反應] 選項可協助 Power BI 改進這項功能。
-3. [確定] 和 [取消] 按鈕，可讓您認可轉換及新增資料行，或取消。
+3. [確定] 和 [取消] 按鈕，可讓您認可轉換及新增資料行，或取消作業。
 4. 新資料行區域，您可以在這裡鍵入任何資料列中的範例值 (向 Power BI 提供您的範例)，與該資料列中的其他資料行相關。
 
 ![](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-當您在新資料行中鍵入範例時，Power BI 會依據偵測到的轉換，供您預覽其建立的資料行會如何顯示。 例如，我們對應資料表第一行中的 *Alabama* 值，在第一列鍵入 *Alabama* 。 在我們按下 *Enter* 時，Power BI 隨即依據該值填入資料行。
+當您在新資料行中鍵入範例時，Power BI 會依據偵測到的轉換，供您預覽其建立的資料行外觀。 例如，如果您在第一個資料列中鍵入 *Alabama*，它會對應到資料表第一個資料行中的 *Alabama* 值。 當您按下 *Enter* 時，Power BI 就會立即依據該值填入資料行。
 
-但我們接著前往含有 *Massachusetts[E]* 的資料列，並刪除最後的 *[E]* 部份 (因為不想要這部份)，而 Power BI 偵測到這項變更，並使用範例建立了轉換。 請注意中上方窗格中的轉換說明。
+但是，假設您移至包含 *Massachusetts[E]* 的資料列並刪除它最後的 *[E]* (因為您不再需要它)。 Power BI 會偵測到變更，並使用此範例建立轉換。 請注意中間上方窗格中的轉換說明。
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
@@ -80,7 +80,7 @@ ms.lasthandoff: 04/26/2018
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-ykbVW9wQfw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="considerations-and-limitations"></a>考量與限制
-使用 [從範例新增資料行] 時有多種轉換可用，但並非所有轉換都包含在內。 下方清單提供「支援」的所有轉換。
+使用 [從範例新增資料行] 時有多種轉換可用，但並非所有轉換都包含在內。 以下清單提供所有受支援的轉換。
 
 * **參考**
   

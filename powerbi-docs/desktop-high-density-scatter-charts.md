@@ -1,47 +1,47 @@
 ---
-title: "Power BI 中的高密度散佈圖"
-description: "Power BI 中的高密度散佈圖"
+title: Power BI 中的高密度散佈圖
+description: Power BI 中的高密度散佈圖
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 714d9e0378cff0c03e26999d240857108e4ec5ad
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f0c1117dc6a74f3ffc8ef9f93610aa83c54b50dc
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 散佈圖中的高密度取樣
-從 **Power BI Desktop** 的 2017 年 9 月版和「Power BI 服務」的更新開始，有新的取樣演算法可以改善散佈圖代表高密度資料的方式。
+從 **Power BI Desktop** 的 2017 年 9 月版和 **Power BI 服務**的更新開始，有新的取樣演算法可以改善散佈圖代表高密度資料的方式。
 
-例如，您可以從組織的銷售活動建立散佈圖，每間商店每年有數以萬計的資料點。 這類資訊的散佈圖會可用資料進行取樣 (選取以有意義的方式轉譯該資料，來說明銷售隨著時間的變化)，並建立代表基礎資料的散佈圖。 這是高密度散佈圖的常見做法，而且 Power BI 已改善對高密度資料的取樣，本文會描述其詳細資料。
+例如，您可以從組織的銷售活動建立散佈圖，每間商店每年有數以萬計的資料點。 這類資訊的散佈圖會可用資料進行取樣 (選取以有意義的方式轉譯該資料，來說明銷售隨著時間的變化)，並建立代表基礎資料的散佈圖。 這是高密度散佈圖中的常見做法。 Power BI 已改善對高密度資料的取樣，本文會描述其詳細資料。
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
 
 > [!NOTE]
-> 本文中所述的「高密度取樣」演算法適用且可用於 **Power BI Desktop** 和 **Power BI 服務**。
+> **Power BI Desktop** 和 **Power BI 服務**散佈圖可使用本文中所述的**高密度取樣**演算法。
 > 
 > 
 
 ## <a name="how-high-density-scatter-charts-work"></a>高密度散佈圖的運作方式
 先前，**Power BI** 透過決定性方式選取完整基礎資料範圍中的範例資料點集合，以建立散佈圖。 具體來說，Power BI 會在散佈圖圖表數列中，選取第一個和最後一個資料列，然後平均分配剩餘的資料列，以便在散佈圖上繪製總計 3500 個資料點。 例如，如果樣本有 35,000 個資料列，則會選取第一個和最後一個資料列來繪製，然後也會繪製每十個資料列 (35000 / 10 = 每十個資料列 = 3,500 個資料點)。 此外，先前資料數列中無法繪製的 null 值或點 (例如文字值) 的點不會顯示，因此在產生視覺效果時並未考慮它們。 使用這樣的取樣，散佈圖的認知密度也是根據代表性資料點，因此隱含的視覺效果密度是取樣點的一種情況，而不是完整的基礎資料集合。
 
-當您啟用**高密度取樣**時，Power BI 會實作演算法，刪除重疊的點，並確保視覺效果上的點可以在與視覺效果互動時觸達。 它也可確保在視覺效果會代表資料集裡的所有點，為選取點的意義提供內容，而不只是繪製代表性的樣本。
+當您啟用**高密度取樣**時，Power BI 會實作演算法，刪除重疊的點，並確保視覺效果上的點可以在與視覺效果互動時觸達。 演算法也可確保在視覺效果會代表資料集裡的所有點，為選取點的意義提供內容，而不只是繪製代表性的樣本。
 
-根據定義，會針對高密度資料進行取樣，讓可相當快速建立的視覺效果回應互動性 (視覺效果上有太多資料點可能會導致動彈不得，而且可能會影響趨勢可見性）。 此類資料的取樣方式，以提供最佳視覺效果體驗並確保代表所有資料，是推動建立取樣演算法的力量。 在 Power BI 中，此演算法已經過改善，可提供回應、轉譯和清楚保留整體資料集中重要點的最佳組合。
+根據定義，取樣高密度資料可在合理範圍內快速建立互動回應的視覺效果。 視覺效果上有太多資料點會拖慢速度，並降低趨勢的可見性。 所以，資料的取樣方式會推動取樣演算法的建立，以提供最佳視覺效果體驗並確保代表所有資料。 在 Power BI 中，此演算法現已改善，可提供回應、轉譯和清楚保留整體資料集中重要點的最佳組合。
 
 > [!NOTE]
 > 使用**高密度取樣**演算法的散佈圖，最適合繪製在正方形的視覺效果，如同所有散佈圖一樣。
@@ -65,7 +65,7 @@ ms.lasthandoff: 02/24/2018
 ### <a name="when-the-standard-algorithm-for-scatter-charts-is-used"></a>針對散佈圖使用標準演算法的時機
 有些情況下無法套用**高密度取樣**至散佈圖，而會使用原始的演算法。 這些情況如下所示：
 
-* 如果您以滑鼠右鍵按一下 [詳細資料]，然後從出現的功能表選取 [顯示沒有資料的項目]，散佈圖會還原成原始的演算法。
+* 如果您以滑鼠右鍵按一下 [詳細資料] 下的值，然後從功能表將它設為 [顯示沒有資料的項目]，散佈圖會還原成原始的演算法。
   
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
 * [播放] 軸中的任何值將導致散佈圖還原成原始的演算法。
@@ -75,15 +75,15 @@ ms.lasthandoff: 02/24/2018
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>如何開啟散佈圖的高密度取樣
-若要開啟 [高密度取樣]，請選取散佈圖，然後移至 [格式設定] 窗格，展開 [一般] 卡片。 在接近卡片底部，有一個稱為 [高密度取樣] 的切換滑桿可用。 若要將它開啟，請滑動到 [開啟]。
+若要開啟 [高密度取樣]，請選取散佈圖並移至 [格式] 窗格，展開 [一般] 介面卡，在該卡片底部的附近，將 [高密度取樣] 切換滑桿移至 [開啟]。
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
 
 > [!NOTE]
-> 一旦開啟滑桿，Power BI 會嘗試盡可能使用**高密度取樣**演算法。 無法使用此演算法時 (例如，您在「播放」軸放了值)，滑桿會停留在 [開啟]位置，但圖表已還原成標準演算法。 如果您接著從「播放」軸移除值 (或是狀況變更為可使用高密度取樣演算法)，因為滑桿為開啟，所以圖表會自動使用高密度取樣。
+> 一旦開啟滑桿，Power BI 會嘗試盡可能使用**高密度取樣**演算法。 無法使用此演算法時 (例如，您在「播放」軸放了值)，滑桿會停留在 [開啟]位置，但圖表已還原成標準演算法。 如果您接著從「播放」軸移除值 (或是狀況變更為可使用高密度取樣演算法)，圖表會自動使用適合該圖表的高密度取樣，因為功能啟用中。
 > 
 > [!NOTE]
-> 資料點會依索引分組及/或選取。 具有圖例不會影響演算法的取樣，而只會影響視覺效果的排序。
+> 資料點會依索引分組或選取。 具有圖例不會影響演算法的取樣，而只會影響視覺效果的排序。
 > 
 > 
 

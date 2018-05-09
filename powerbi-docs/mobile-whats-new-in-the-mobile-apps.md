@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/09/2018
+ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -34,7 +34,7 @@ ms.lasthandoff: 04/16/2018
 
 ### <a name="mobile-drill-down-and-drill-up"></a>行動向下切入與向上切入
 
-您現在可以向下切入和向上切入行動裝置上的報表視覺效果。 若要存取這項新功能，請點選並按住以在報表視覺效果中開啟 [工具提示] 功能表，然後點選 [切入] 按鈕深入探索您的資料。
+您現在可以向下切入和向上切入行動裝置上的報表視覺效果。 若要存取這項新功能，請點選並按住以在報表視覺效果中開啟 [工具提示] 功能表，然後點選 [切入] 按鈕深入探索您的資料。 深入了解 [drilling up and down in the mobile apps](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/) (向上和向下切入 Mobile Apps)。
 
 ### <a name="persistent-filters"></a>永續性篩選
 

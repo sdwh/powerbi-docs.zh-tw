@@ -1,15 +1,15 @@
 ---
-title: "將儀表板釘選到 Windows 10 的開始畫面 - Power BI 行動裝置應用程式"
-description: "了解如何將 Power BI 儀表板從 Power BI 行動裝置應用程式釘選到 Windows 10 的開始畫面，以便您可以一眼就看到關鍵計量。"
+title: 將儀表板釘選到 Windows 10 的開始畫面 - Power BI 行動裝置應用程式
+description: 了解如何將 Power BI 儀表板從 Power BI 行動裝置應用程式釘選到 Windows 10 的開始畫面，以便您可以一眼就看到關鍵計量。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

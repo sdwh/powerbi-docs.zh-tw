@@ -1,15 +1,15 @@
 ---
-title: "Power BI 效能最佳做法"
-description: "本文提供如何在 Power BI 中建置快速且可靠報表的指引"
+title: Power BI 效能最佳做法
+description: 本文提供如何在 Power BI 中建置快速且可靠報表的指引
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

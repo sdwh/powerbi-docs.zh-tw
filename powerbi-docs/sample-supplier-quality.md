@@ -1,15 +1,15 @@
 ---
-title: "Power BI 的供應商品質分析範例：導覽"
-description: "Power BI 的供應商品質分析範例：導覽"
+title: Power BI 的供應商品質分析範例：導覽
+description: Power BI 的供應商品質分析範例：導覽
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

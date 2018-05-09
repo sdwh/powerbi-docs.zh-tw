@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 4/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b5da2bf43f2d38e0828571e2b9d404feb615ac69
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7be260a5989ffb6a9dc1b72dad90d227e0b6295b
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>在 Power BI Desktop 中使用鑽研
 使用 **Power BI Desktop** 中的**鑽研**，您可以在報表中建立頁面，著重於特定的實體 - 例如供應商、客戶或製造商。 使用該焦點報表頁面，使用者可以滑鼠右鍵按一下其他報表頁面中的資料點，然後鑽研至著重頁面，取得經過篩選為該內容的詳細資料。
@@ -45,8 +45,8 @@ ms.lasthandoff: 04/16/2018
 ## <a name="use-your-own-image-for-a-back-button"></a>使用您自己的影像作為返回按鈕    
  因為返回按鈕是影像，您可以使用任何想要的影像來取代視覺效果的影像，它將仍會正常運作為返回按鈕，讓報表使用者能回到其原始頁面。
 
-1. 若要使用您自己的影像當作返回按鈕，請在鑽研頁面上放置影像視覺效果。
-2. 選取該視覺效果，然後將 [返回按鈕] 滑桿設定成開啟。 您的影像現在已當作返回按鈕。
+1. 在 [首頁] 索引標籤上按一下 [映像]，然後找出您的映像，並將它放在 [鑽研] 頁面。
+2. 在 [鑽研] 頁面中選取您的新映像，然後在 [格式化映像] 區段下方，將 [連結] 滑桿設成 [開啟]，將 [類型] 設成 [上一步]。 您的影像現在已當作返回按鈕。
 
     ![](media/desktop-drillthrough/drillthrough_05.png)
 

@@ -1,15 +1,15 @@
 ---
-title: "升級 Power BI 報表伺服器"
-description: "了解如何升級 Power BI 報表伺服器。"
+title: 升級 Power BI 報表伺服器
+description: 了解如何升級 Power BI 報表伺服器。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

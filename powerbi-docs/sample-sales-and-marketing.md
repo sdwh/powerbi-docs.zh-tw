@@ -1,15 +1,15 @@
 ---
-title: "Power BI 的銷售與行銷範例：導覽"
-description: "Power BI 的銷售與行銷範例：導覽"
+title: Power BI 的銷售與行銷範例：導覽
+description: Power BI 的銷售與行銷範例：導覽
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

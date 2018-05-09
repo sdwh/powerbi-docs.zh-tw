@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/20/2018
+ms.date: 04/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 598266306657337e8190075b2a5e42de2b7d2144
-ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
+ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
+ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -42,6 +42,14 @@ ms.lasthandoff: 04/23/2018
 <br>[立即註冊觀看 - 第 3 部分 - 服務管理：Power BI 服務管理見解](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) \(英文\)
 <br>[立即註冊觀看 - 第 2 部分 - 控管：管理您的 Power BI 使用量](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) \(英文\)
 <br>[立即註冊觀看 - 第 1 部分 - 採用：採用資料驅動的文化](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) \(英文\)
+
+**在 20 分鐘內深入了解 Power BI Embedded**
+<br>作者：Megan Asarrane 與 Colin Murphy
+<br>*2018 年 5 月 23 日，上午 10:00 PST，下午 1:00 EST*
+
+此網路研討會旨在介紹 Power BI Embedded。 此網路研討會結束時，使用者應該能夠了解什麼是 Power BI Embedded，後續的步驟是開始使用產品，以及在何處可以取得說明/資源。
+
+[報名後即可於 5 月 23 日觀看](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
 
 >[從 Power BI 社群參與即將舉行的網路研討會](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
@@ -132,8 +140,9 @@ ms.lasthandoff: 04/23/2018
 <br>[註冊觀看](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website) \(英文\)
 <br>[下載進階分析入門套件開始追蹤](https://aka.ms/pbiaawebinar)
 
-**Office 365 財務專業人員網路研討會系列 - 第 2 集：自動化週期報告與提供自助分析**
-<br>由 Mark Traverso 和 Miguel Martinez
+**Office 365 財務專業人員網路研討會系列**
+<br>主講人：Mark Traverso、Carlos Otero、Johnnie Thomas、Amanda Cofsky 與 Miguel Martinez
+<br>了解祕訣、訣竅與最佳做法，進而使用 Office 365 在日常工作中達成更多目標。
 <br>[報名並立即觀看](https://aka.ms/Office365FinanceProsPBI)
 
 **成為完整堆疊 Power BI 絕地武士 - 透過「星際大戰」資料逐步解說 Power BI 最先進的功能**

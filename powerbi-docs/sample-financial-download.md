@@ -1,15 +1,15 @@
 ---
-title: "下載 Power BI 的財務範例活頁簿"
-description: "下載 Power BI 的財務範例活頁簿"
+title: 下載 Power BI 的財務範例活頁簿
+description: 下載 Power BI 的財務範例活頁簿
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

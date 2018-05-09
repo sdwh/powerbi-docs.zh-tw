@@ -1,15 +1,15 @@
 ---
-title: "開始在 Android 平板電腦上使用 Power BI 行動裝置應用程式"
-description: "了解 Power BI for Android 平板電腦行動裝置應用程式如何讓您將 Power BI 帶著走，以行動存取內部部署及雲端的商務資訊。"
+title: 開始在 Android 平板電腦上使用 Power BI 行動裝置應用程式
+description: 了解 Power BI for Android 平板電腦行動裝置應用程式如何讓您將 Power BI 帶著走，以行動存取內部部署及雲端的商務資訊。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

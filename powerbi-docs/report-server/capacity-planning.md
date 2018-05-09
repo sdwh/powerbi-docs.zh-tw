@@ -1,15 +1,15 @@
 ---
-title: "Power BI 報表伺服器的容量規劃指引"
-description: "本文提供 Power BI 報表伺服器容量規劃的相關指引，文中並共用對各種工作負載所執行的負載測試結果。"
+title: Power BI 報表伺服器的容量規劃指引
+description: 本文提供 Power BI 報表伺服器容量規劃的相關指引，文中並共用對各種工作負載所執行的負載測試結果。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: parthsha
 manager: kfile
 backup: maghan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Power BI 的 IT 支出分析範例教學"
-description: "Power BI 的 IT 支出分析範例教學"
+title: Power BI 的 IT 支出分析範例教學
+description: Power BI 的 IT 支出分析範例教學
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

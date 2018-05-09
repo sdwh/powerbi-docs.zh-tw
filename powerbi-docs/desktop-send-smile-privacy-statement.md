@@ -1,15 +1,15 @@
 ---
-title: "Power BI Desktop 傳送笑臉隱私權聲明"
-description: "Power BI Desktop 傳送笑臉隱私權聲明"
+title: Power BI Desktop 傳送笑臉隱私權聲明
+description: Power BI Desktop 傳送笑臉隱私權聲明
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

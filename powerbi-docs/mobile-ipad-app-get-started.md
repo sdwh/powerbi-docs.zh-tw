@@ -1,13 +1,13 @@
 ---
-title: "開始在 iPad 上使用 Power BI 行動裝置應用程式"
-description: "了解 iPad 的 Microsoft Power BI for iOS 應用程式如何將 Power BI 帶入您的口袋，讓您可以行動存取內部部署和雲端的商務資訊。"
+title: 開始在 iPad 上使用 Power BI 行動裝置應用程式
+description: 了解 iPad 的 Microsoft Power BI for iOS 應用程式如何將 Power BI 帶入您的口袋，讓您可以行動存取內部部署和雲端的商務資訊。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: identified
 qualitydate: 08/08/2016
 ms.service: powerbi

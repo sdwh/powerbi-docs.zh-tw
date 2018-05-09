@@ -1,15 +1,15 @@
 ---
-title: "Power BI 開始使用協力廠商應用程式"
-description: "Power BI 開始使用協力廠商應用程式"
+title: Power BI 開始使用協力廠商應用程式
+description: Power BI 開始使用協力廠商應用程式
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article

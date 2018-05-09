@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 15d492aba39da23a06ac2f13bce676e0123a332c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: f982ba613bef66514aab39b43cf0fe92b1b7b81c
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>在 Power BI Desktop 中新增自訂資料行
 您可以使用 **Power BI Desktop** 中的**查詢編輯器**，輕鬆將資料的新自訂資料行新增到模型。 您可以使用簡單的按鈕建立定義自訂資料行的 [M 公式](https://msdn.microsoft.com/library/mt270235.aspx)，建立自訂資料行並為其重新命名。 M 公式有[完整的函式參考內容集](https://msdn.microsoft.com/library/mt779182.aspx)。 
@@ -40,7 +40,7 @@ ms.lasthandoff: 04/26/2018
 
 ![](media/desktop-add-custom-column/add-custom-column_02.png)
 
-當您這樣做時，[新增自訂資料行] 隨即顯示，我們會在下一節加以討論。
+[新增自訂資料行] 隨即顯示，這會在下一節中討論。
 
 ## <a name="the-add-custom-column-window"></a>[新增自訂資料行] 視窗
 在 [新增自訂資料行] 視窗中，您會在右方窗格中看到可用欄位的清單，您的自訂資料行名稱位於頂端 (只要在文字方塊中鍵入新名稱，即可為其重新命名)，以及您依據從右側插入的欄位、新增運算子或建立公式而建立 (或撰寫) 的 [**M** 公式](https://msdn.microsoft.com/library/mt779182.aspx)，新的自訂資料行會依此定義。 

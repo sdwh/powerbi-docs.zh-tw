@@ -1,15 +1,15 @@
 ---
-title: "延長的 Pro 試用開跑"
-description: "從 2017 年 6 月 1 開始，所有符合資格的使用者將能夠加入 Power BI 服務的 Pro 延長試用版。"
+title: 延長的 Pro 試用開跑
+description: 從 2017 年 6 月 1 開始，所有符合資格的使用者將能夠加入 Power BI 服務的 Pro 延長試用版。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

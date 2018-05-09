@@ -1,15 +1,15 @@
 ---
-title: "在 Power BI 中撰寫範本內容套件"
-description: "範本內容套件撰寫"
+title: 在 Power BI 中撰寫範本內容套件
+description: 範本內容套件撰寫
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

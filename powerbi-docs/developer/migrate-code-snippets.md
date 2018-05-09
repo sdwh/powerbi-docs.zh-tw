@@ -1,15 +1,15 @@
 ---
-title: "從 Power BI Embedded 移轉內容的程式碼片段"
-description: "以下是內容移轉所需之基本作業的一些程式碼片段"
+title: 從 Power BI Embedded 移轉內容的程式碼片段
+description: 以下是內容移轉所需之基本作業的一些程式碼片段
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
