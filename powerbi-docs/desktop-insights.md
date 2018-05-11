@@ -1,28 +1,28 @@
 ---
-title: "使用 Power BI Desktop (預覽) 中的深入解析"
-description: "使用 Power BI Desktop 輕鬆獲得增減情況的深入解析"
+title: 使用 Power BI Desktop (預覽) 中的深入解析
+description: 使用 Power BI Desktop 輕鬆獲得增減情況的深入解析
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/25/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 17a66c362124616796eb48a7052d89226555df3b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2a98e0e5f79819c7530f713d2ccb541a18b0ce6c
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>使用 Power BI Desktop (預覽) 中的深入解析
 您可以要求 **Power BI Desktop** 說明圖表中的增減情況，並取得快速、自動化、具洞察力的資料分析。 只要以滑鼠右鍵按一下資料點，然後選取 [分析] > [說明減少的情形] (如果之前的橫條圖較低的話，則為增加情形)，即會以便於使用的視窗形式將深入解析傳遞給您。

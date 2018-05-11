@@ -1,6 +1,6 @@
 ---
 title: 使用 Power BI 連接到 GitHub
-description: GitHub for Power BI
+description: 適用於 GitHub 的 Power BI
 services: powerbi
 documentationcenter: ''
 author: SarinaJoan
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: eb37cb0551a613cf85d5b5dd2608b018a3a05250
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 83eb0f534a7aa98746e04a63d5474138159393f8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="connect-to-github-with-power-bi"></a>使用 Power BI 連接到 GitHub
 適用於 Power BI 的 GitHub 內容套件可讓您藉由參與、問題、提取要求和作用中的使用者相關資料，深入了解 GitHub 儲存機制 (也稱為 repo)。
@@ -100,10 +100,9 @@ ms.lasthandoff: 02/24/2018
 如有必要，您可以確認您的 GitHub 認證。  
 
 1. 在另一個瀏覽器視窗中，移至 GitHub 網站並登入 GitHub。 在 GitHub 網站右上角，可以看到您已登入。    
-2. 在 GitHub 中瀏覽至您計劃要在 Power BI 中存取之儲存機制的 URL。 例如︰https://github.com/dotnet/corefx。  
+2. 在 GitHub 中瀏覽至您計劃要在 Power BI 中存取之儲存機制的 URL。 例如：https://github.com/dotnet/corefx。  
 3. 回到 Power BI，嘗試連接至 GitHub。 在 [設定 GitHub] 對話方塊中，請使用相同儲存機制的儲存機制名稱和儲存機制擁有者名稱。  
 
 ## <a name="next-steps"></a>後續步驟
 * [開始使用 Power BI](service-get-started.md)
 * [取得資料](service-get-data.md)
-

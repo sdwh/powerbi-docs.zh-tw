@@ -1,28 +1,28 @@
 ---
-title: "使用 Power BI Desktop 在視覺效果中的多重資料元素選取"
-description: "只要使用「CTRL+按一下」，您就可以在 Power BI Desktop 視覺效果中選取多個資料點"
+title: 使用 Power BI Desktop 在視覺效果中的多重資料元素選取
+description: 只要使用「CTRL+按一下」，您就可以在 Power BI Desktop 視覺效果中選取多個資料點
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f3018274c390920579cb7b60a589d00abdd4a5ce
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 406fa7e53ac295ff3d474454ff99d5a3c5d00266
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="multi-select-data-elements-in-visuals-using-power-bi-desktop"></a>使用 Power BI Desktop 在視覺效果中的多重資料元素選取
 
