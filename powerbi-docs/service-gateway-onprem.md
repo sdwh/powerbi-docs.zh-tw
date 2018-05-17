@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ee696e4d967e995771480d660de260b6d3b755cd
-ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
+ms.openlocfilehash: e993a7ced826879e87b6f1d101f50e264fdc6854
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="on-premises-data-gateway"></a>內部部署資料閘道
+
 內部部署資料閘道會用來作為橋接器，在內部部署資料 (非位於雲端的資料) 與 Power BI、Microsoft Flow、Logic Apps 以及 PowerApps 服務之間，提供快速且安全的資料轉送。
 
 您可以同時以不同服務使用單一閘道。 如果您同時使用 Power BI 與 PowerApps，單一閘道亦可同時用於兩者。 其取決於您登入時使用的帳戶。

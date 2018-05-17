@@ -1,15 +1,15 @@
 ---
-title: "設定 Kerberos 使用 Power BI 報表"
-description: "了解如何設定報表伺服器進行資料來源的 Kerberos 驗證，這些是用在分散式環境 Power BI 報表內的資料來源。"
+title: 設定 Kerberos 使用 Power BI 報表
+description: 了解如何設定報表伺服器進行資料來源的 Kerberos 驗證，這些是用在分散式環境 Power BI 報表內的資料來源。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 70d4992ad4680d2a412a6bdded895f4248f5dab1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 8a99f4d07b17ae1a8d260c1655dfbb948f76c317
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>設定 Kerberos 使用 Power BI 報表
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -223,7 +223,7 @@ FQDN 和 NetBIOS SPN 將 SPN 放在電腦帳戶上看起來如下。
 
 ## <a name="next-steps"></a>後續步驟
 [系統管理員手冊](admin-handbook-overview.md)  
-[快速入門︰安裝 Power BI 報表伺服器](quickstart-install-report-server.md)  
+[安裝 Power BI 報表伺服器](install-report-server.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

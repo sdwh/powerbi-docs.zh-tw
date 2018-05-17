@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 4a96582eb8864cd41b5b307d05be890fc3bbff34
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 611a8cd1f2ff3da16d700f8d2b9f15787dda8475
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>管理 Power BI Premium 和 Power BI Embedded 內的容量
 了解如何管理提供內容專用資源的 Power BI Premium 和 Power BI Embedded 容量。
@@ -55,8 +55,8 @@ ms.lasthandoff: 04/08/2018
 ## <a name="capacity-admins"></a>容量管理員
 > [!NOTE]
 > Power BI Embedded 容量的容量管理員是在 Microsoft Azure 入口網站內定義。
-> 
-> 
+>
+>
 
 當您被指派為容量的容量管理員時，您就可以全權掌控容量和其系統管理功能。 從 Power BI 管理入口網站，您可以新增更多容量管理員 (僅限 Power BI Premium)，或將容量指派權限授與使用者。 您可以將工作區大量指派給容量，並檢視容量的使用量計量。
 
@@ -81,14 +81,14 @@ V 核心數目會反映已使用的數量以及可用來建立容量的數量。
 1. 選取 [設定新的容量]。
 2. 提供您容量的**名稱**。
 3. 定義誰是這個容量的容量管理員。
-   
+
     容量管理員不需要是 Power BI 管理員或 Office 365 全域管理員。如需詳細資訊，請參閱 [Power BI Premium 容量管理員](#capacity-admins)。
 4. 選取容量大小。 可用的選項取決於您有多少可用的 V 核心。 您無法選取超過可用數量的選項。
-   
+
     ![可用的 Premium 容量大小](media/service-admin-premium-manage/premium-capacity-size.png)
 5. 選取 [設定]。
 
-![設定新的容量](media/service-admin-premium-manage/set-up-capacity.png)
+    ![設定新的容量](media/service-admin-premium-manage/set-up-capacity.png)
 
 容量管理員以及 Power BI 管理員和 Office 365 全域管理員，接著會看到管理入口網站內所列的容量。
 
@@ -103,15 +103,15 @@ V 核心數目會反映已使用的數量以及可用來建立容量的數量。
 
 > [!NOTE]
 > Power BI Embedded 容量設定是在 Microsoft Azure 入口網站內管理。
-> 
-> 
+>
+>
 
 ### <a name="change-capacity-size-power-bi-premium"></a>變更容量大小 (Power BI Premium)
 Power BI 管理員和 Office 365 全域管理員可選取 [變更容量大小]，來變更 Power BI Premium 容量大小。 不是 Power BI 管理員或 Office 365 全域管理員的容量管理員沒有此選項。
 
 ![變更 Power BI Premium 容量大小](media/service-admin-premium-manage/change-capacity-size.png)
 
-如有可用的資源，[變更容量大小] 畫面可讓您升級或降級容量大小。 系統管理員可隨意建立、調整大小和刪除節點，只要他們有必要的 V 核心數量。 
+如有可用的資源，[變更容量大小] 畫面可讓您升級或降級容量大小。 系統管理員可隨意建立、調整大小和刪除節點，只要他們有必要的 V 核心數量。
 
 P SKU 無法降級為 EM SKU。 您可以將滑鼠停留在提供說明的已停用選項上。
 
@@ -129,31 +129,41 @@ P SKU 無法降級為 EM SKU。 您可以將滑鼠停留在提供說明的已停
 
 > [!NOTE]
 > Power BI Embedded 容量的容量管理員是在 Microsoft Azure 入口網站內指派。
-> 
-> 
+>
+>
 
 ![](media/service-admin-premium-manage/capacity-user-permissions.png)
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
 
 ## <a name="usage-measurements-power-bi-premium"></a>使用量度量 (Power BI Premium)
-針對每個容量，您可以使用 CPU、記憶體和直接查詢的使用量度量。 每個 KPI 都有三個指標：[好 (綠色)]、[臨界 (黃色)] 和 [嚴重 (紅色)]。 建議您監視這些計量，確保您的使用者在使用進階內容時看到良好的效能。
+針對每個容量，您可以查看 CPU、「記憶體使用量」、「記憶體過度置換」和「直接查詢」的使用量度量。 建議您監視這些計量，確保您的使用者看到良好的容量效能：
 
-**Power BI Embedded 容量使用量是在 Azure 入口網站中監視。**
+![過去七天的使用量](media/service-admin-premium-manage/premium-dashboard-tiles.png)
 
-![](media/service-admin-premium-manage/usage-metrics-critical.png "容量使用計量 - 重大")
+> [!NOTE]
+> Power BI Embedded 容量使用量是在 Azure 入口網站中監視。
 
 | 計量 | 描述 |
 | --- | --- |
-| CPU |您核心的 CPU 使用量。 |
-| 記憶體 |代表後端核心的記憶體壓力。 具體而言，這個計量是因使用多個模型的記憶體壓力而從記憶體收回模型的頻率。 |
-| DQ/s |* 我們限制每秒的 DirectQuery 和即時連線查詢總數。<br/>* P1 的限制為 30/s、P2 為 60/s，而 P3 為 120/s。<br/>* DirectQuery 和即時連線查詢計數等於上面的節流。 例如，如果您每秒有 15 個 DirectQuery 和 15 個即時連線，請按節流。<br/>* 這會平均套用至內部部署和雲端連線。 |
+| CPU |CPU 超過 80% 使用率的次數。 |
+| 記憶體過度置換 |代表後端核心的記憶體壓力。 具體而言，這個計量是因使用多個資料集的記憶體壓力而從記憶體收回資料集的次數。 |
+| 記憶體使用量 |平均記憶體使用量，以吉位元組 (GB) 表示。 |
+| DQ/s | 「直接查詢」和「即時連線」計數超過 80% 限制的次數。 <br> <br> * 我們限制每秒的 DirectQuery 和即時連線查詢總數。<br><br>* P1 的限制為 30/s、P2 為 60/s，而 P3 為 120/s。<br><br> *「直接查詢」和即時連線查詢計數會新增至上面的節流。 例如，如果您每秒有 15 個 DirectQuery 和 15 個即時連線，請按節流。<br/><br>* 這會平均套用至內部部署和雲端連線。 |
 
-這些計量是臨界/嚴重時，您的使用者可能會看到報表和重新整理效能降低，特別是尖峰負載時間。
+計量會反映過去一週的使用率。  如果您想要看到更詳細的計量檢視，則可以按一下任何摘要磚。  這會將您帶往進階容量之每個計量的詳細圖表。  這些圖表在過去一週每小時都會彙總一次，並有助於找出您何時可能已有進階容量的特定效能相關事件。  
 
-計量會反映過去一週的使用率，並且設計成在容量多載時計算執行個體數目，因此為使用者提供小於最佳效能的效能。
+![詳細使用量圖表 CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
 
-每次出現「使用率超過 80%」都應該視為效能可能會降低。 有許多案例是使用者之關鍵效能問題的良好指標。
+![詳細使用量圖表記憶體過度置換](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
+
+
+![詳細使用量圖表記憶體大小](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
+
+
+![詳細使用量圖表記憶體過度置換](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
+
+您也可以將任何計量的基礎資料匯出至 csv 檔案。  這項匯出會依每三分鐘的間隔提供過去一週每天的詳細資訊。
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>將工作區指派給容量
 有幾種方法可以將工作區指派給容量。
@@ -165,7 +175,7 @@ P SKU 無法降級為 EM SKU。 您可以將滑鼠停留在提供說明的已停
 
 1. 選取 [指派工作區]。 這會列在多個位置，而且全部都執行相同的工作。
 2. 選取 [The entire organization's workspaces] (整個組織的工作區) 或 [Specific workspaces by user] (使用者的特定工作區)。
-   
+
    | 選取項目 | 描述 |
    | --- | --- |
    | **The entire organization's workspaces (整個組織的工作區)** |將整個組織的工作區指派給進階容量，會將組織中的所有「應用程式工作區」和「我的工作區」指派給這個進階容量。 此外，所有目前和未來使用者都有權將個別工作區重新指派給這個容量。 |
@@ -180,23 +190,23 @@ P SKU 無法降級為 EM SKU。 您可以將滑鼠停留在提供說明的已停
 若要將工作區移至容量，您必須具有該工作區的管理員權限，同時具有該容量的容量指派權限。 請注意，工作區管理員一律可以從進階容量中移除工作區。
 
 1. 選取省略符號 (...) 並選取 [編輯工作區]，來編輯應用程式工作區。
-   
+
     ![從省略符號操作功能表編輯工作區](media/service-admin-premium-manage/edit-app-workspace.png)
 2. 在 [編輯工作區] 內，展開 [進階]。
 3. 如果您已經獲提供任何容量的容量指派權限，則可以選擇開啟這個工作區的 [進階]。
 4. 選取您想要將這個應用程式工作區指派至其中的容量。
-   
+
     ![容量選項下拉式清單](media/service-admin-premium-manage/app-workspace-advanced.png)
 5. 選取 [儲存]。
 
 儲存之後，工作區和其所有內容都會移至進階容量，而不會干擾一般使用者的任何體驗。
 
 ## <a name="what-premium-looks-like-for-users"></a>Premium 對使用者而言是什麼
-在大部分的情況下，使用者甚至不需要知道它們位在進階容量中。 其儀表板和報表也能夠運作。 您會看到進階容量中工作區旁的菱形圖示，這是視覺效果提示。 
+在大部分的情況下，使用者甚至不需要知道它們位在進階容量中。 其儀表板和報表也能夠運作。 您會看到進階容量中工作區旁的菱形圖示，這是視覺效果提示。
 
 ![菱形表示 Premium 容量已備份工作區](media/service-admin-premium-manage/premium-workspace.png)
 
-## <a name="power-bi-report-server-product-key"></a>Power BI 報表伺服器產品金鑰)
+## <a name="power-bi-report-server-product-key"></a>Power BI 報表伺服器產品金鑰
 在 Power BI 管理入口網站的 [容量設定] 索引標籤內，您可以存取 Power BI 報表伺服器產品金鑰。 這只適用於全域管理員，或已獲指派 Power BI 服務系統管理員角色的使用者，如已購買 Power BI Premium SKU。
 
 ![[容量設定] 內的 Power BI 報表伺服器金鑰](media/service-admin-premium-manage/pbirs-product-key.png)
@@ -211,4 +221,3 @@ P SKU 無法降級為 EM SKU。 您可以將滑鼠停留在提供說明的已停
 當您將工作區指派給 Premium 容量時，請與免費使用者共用已發佈的應用程式。 如需詳細資訊，請參閱[在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md)。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
-

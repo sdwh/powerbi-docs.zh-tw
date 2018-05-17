@@ -1,31 +1,31 @@
 ---
-title: "在 Power BI 查詢編輯器中使用 R"
-description: "在 Power BI Desktop 查詢編輯器中使用 R 以進行進階分析"
+title: 在 Power BI 查詢編輯器中使用 R
+description: 在 Power BI Desktop 查詢編輯器中使用 R 以進行進階分析
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ab6d935eb955dea5e2362a1cc52cf30657f4f8df
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 6f5121de914938c78d4eef8a180cabad5e50236d
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="using-r-in-query-editor"></a>在查詢編輯器中使用 R
-您可以在 Power BI Desktop **查詢編輯器**中使用 **R，**統計學家、資料科學家和資料分析師廣泛使用的程式設計語言。 將 R 整合到**資料編輯器中**，可讓您使用 R 執行資料清理，以及在資料集執行進階資料成形與分析，包括補足遺漏的資料、預測及叢集等。 **R**是功能強大的語言，可用於**查詢編輯器**以準備您的資料模型及建立報表。
+您可以在 Power BI Desktop **查詢編輯器**中使用 **R，** 統計學家、資料科學家和資料分析師廣泛使用的程式設計語言。 將 R 整合到**資料編輯器中**，可讓您使用 R 執行資料清理，以及在資料集執行進階資料成形與分析，包括補足遺漏的資料、預測及叢集等。 **R**是功能強大的語言，可用於**查詢編輯器**以準備您的資料模型及建立報表。
 
 ## <a name="installing-r"></a>安裝 R
 若要在 Power BI Desktop 的使用 **R**，您需要在本機電腦上安裝 **R**。 您可以從許多位置免費下載並安裝 **R**，包括 [Revolution Open 下載頁面](https://mran.revolutionanalytics.com/download/)以及 [CRAN 儲存機制](https://cran.r-project.org/bin/windows/base/)。

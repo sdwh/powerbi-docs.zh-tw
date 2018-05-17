@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 247b8dca825f3e98de02207ba6d146e1aacd7580
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: e8937efdc646d38942ffc7f0b216103fdcf053cb
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>將 Excel 活頁簿匯入 Power BI Desktop
 透過 **Power BI Desktop**，您可以輕鬆地將內含 Power Query 查詢、Power Pivot 模型和 Power View 工作表的 Excel 活頁簿，匯入 Power BI Desktop。 系統會根據 Excel 活頁簿自動建立報表和視覺效果，一旦匯入，您便可以使用現有功能及隨 Power BI Desktop 每月更新所發行的新功能，持續改進及精簡這些報表。
@@ -72,7 +72,7 @@ Power BI Desktop 可匯入 Excel 中的下列項目，通常稱為「物件」 �
 * **Analysis Services 表格式模型的外部連接：** 在 Excel 2013 中，您可以建立 SQL Server Analysis Services 表格式模型的連接，並在這些模型之上建立 Power View 報表，而不需要匯入資料。 目前不支援使用這種連接類型將 Excel 活頁簿匯入 Power BI Desktop。 因應措施是在 Power BI Desktop 中建立這些外部連接。
 * **階層：** Power BI Desktop 目前不支援這種資料模型物件類型。 因此，將 Excel 活頁簿匯入 Power BI Desktop 時會略過階層。
 * **二進位資料行：** Power BI Desktop 目前不支援這種資料模型資料行類型。 二進位資料行已從 Power BI Desktop 的結果資料表中移除。
-* **不支援的 Power View 元素：**Power BI Desktop 不提供 Power View 中的一些功能，例如佈景主題或特定視覺效果類型 (具有播放軸的散佈圖、向下切入行為等)。 這些不支援的視覺效果會導致在 Power BI Desktop 報表中的對應位置出現「視覺效果不受支援」  的訊息，您可以視需要予以刪除或重新設定。
-* **使用 Power Query 之*****從資料表*****或使用 M 之*****Excel.CurrentWorkbook*****的具名範圍：**目前不支援將這個具名範圍資料匯入 Power BI Desktop，但 Power BI Desktop 已規劃此更新。 目前，這些具名範圍會當做外部 Excel 活頁簿的連接，載入 Power BI Desktop。
+* **不支援的 Power View 元素：** Power BI Desktop 不提供 Power View 中的一些功能，例如佈景主題或特定視覺效果類型 (具有播放軸的散佈圖、向下切入行為等)。 這些不支援的視覺效果會導致在 Power BI Desktop 報表中的對應位置出現「視覺效果不受支援」  的訊息，您可以視需要予以刪除或重新設定。
+* **使用 Power Query 之*****從資料表*****或使用 M 之*****Excel.CurrentWorkbook*****的具名範圍：** 目前不支援將這個具名範圍資料匯入 Power BI Desktop，但 Power BI Desktop 已規劃此更新。 目前，這些具名範圍會當做外部 Excel 活頁簿的連接，載入 Power BI Desktop。
 * **PowerPivot 至 SSRS：** 由於 Power BI Desktop 目前不提供該資料來源，因此目前不支援 SQL Server Reporting Services (SSRS) 的 PowerPivot 外部連接。
 

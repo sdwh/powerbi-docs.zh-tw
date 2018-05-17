@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 992282438ceac88dce759b60dc26f0767d0b1f86
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>使用快速量值，輕鬆執行常用及功能強大的計算
 您可以使用**快速量值**，快速輕鬆執行常用及功能強大的計算。 **快速量值**會依據您在對話方塊中提供的輸入，在幕後執行一組 DAX 命令 (DAX 是現成的，所以您不必撰寫)，然後顯示結果，供您在報表中使用。 更棒的是，您可以查看快速量值所執行的 DAX，以啟發或拓展您的 DAX 知識。
@@ -43,8 +43,6 @@ ms.lasthandoff: 03/30/2018
 若要建立 [快速量值]，請在 **Power BI Desktop** 中以右鍵按一下 [欄位] 區中的欄位 (任一欄位)，然後從出現的功能表中選取 [快速量值]。
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
-
-目前載入的資料集必須可進行模型化，才能使用 [快速量值]。 否則，當您以滑鼠右鍵按一下 [欄位] 清單時，即時連線 (例如 Power BI 服務資料集的連線) 不會顯示 [快速量值] 功能表項目 (SSAS 即時連線則除外)。 
 
 使用 SQL Server Analysis Services (SSAS) 即時連線時，可以使用部分**快速量值**。 **Power BI Desktop** 只會顯示建立連線之 SSAS 版本支援的**快速量值**集合。 因此，如果您連線到 SSAS 即時資料來源，但看不到清單中的某些**快速量值**，這是因為您所連線的 SSAS 版本不支援用來實作該**快速量值**的 DAX 量值。
 
@@ -141,9 +139,10 @@ ms.lasthandoff: 03/30/2018
 ## <a name="limitations-and-considerations"></a>限制與考量
 有幾點限制和考量要留意。
 
-* **快速量值**僅在您可以修改模型時可供使用，當您使用 DirectQuery 或大多數即時連線時則無法使用 (如上所述支援 SSAS 即時連線)。
+* **快速量值**僅在您可以修改模型時可供使用，當您使用一些即時連線時則無法使用 (如上所述支援 SSAS 表格式即時連線)。
 * 新增到 [欄位] 區的量值可以搭配報表中任何視覺效果使用。
 * 您可以隨時查看與**快速量值**相關的 DAX，方法是選取 [欄位] 區中已建立的量值，然後查看 [公式列] 中的公式。
+* 使用 DirectQuery 模式時，無法建立時間智慧快速量值。 轉譯成傳送到您資料來源的 T-SQL 陳述式時，這些快速量值中使用的 DAX 函式會影響效能。
 
 > [!WARNING]
 > 快速量值目前「只會」產生 DAX 陳述式，並以逗號作為引數分隔符號。 如果 **Power BI Desktop** 版本的當地語系化語言是以逗號作為小數分隔符號，快速量值就無法正常運作。
@@ -151,7 +150,7 @@ ms.lasthandoff: 03/30/2018
 > 
 
 ### <a name="time-intelligence-and-quick-measures"></a>時間智慧與快速量值
-從 2017 年 10 月更新的 **Power BI Desktop** 開始，您可以使用自己的自訂日期資料表並搭配時間智慧**快速量值**。 如果您的資料模型具有自訂日期資料表，您可以針對時間智慧快速量值使用該資料表中的主要日期資料行。 您「必須」確定建立模型時，該資料表中的主要日期資料行已標示為「日期」資料表，如[這篇文章](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)中所述。
+從 2017 年 10 月更新的 **Power BI Desktop** 開始，您可以使用自己的自訂日期資料表並搭配時間智慧**快速量值**。 如果您要使用外部表格式模型，則請確定建置模型時，該資料表中的主要日期資料行已標示為「日期」資料表，如[這篇文章](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)中所述。 如果您要匯入自己的日期資料表，則請務必將它標記為日期資料表，如[這篇文章](https://docs.microsoft.com/power-bi/desktop-date-tables)中所述
 
 ### <a name="additional-information-and-examples"></a>其他資訊及範例
 我們預期會為各個**快速量值**計算提供範例和指引，因此請儘速回來查看焦點文章的更新。

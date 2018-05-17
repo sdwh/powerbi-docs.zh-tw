@@ -1,15 +1,15 @@
 ---
-title: "安裝 Power BI 報表伺服器的硬體和軟體需求"
-description: "您會在這裡找到安裝並執行 Power BI 報表伺服器的最低硬體和軟體需求。"
+title: 安裝 Power BI 報表伺服器的硬體和軟體需求
+description: 您會在這裡找到安裝並執行 Power BI 報表伺服器的最低硬體和軟體需求。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 44a1af1553aaa28a5f4abab13bad1fafa040003a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 26710c6a19ea4f9389718bea51ffff82dfadd3eb
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>安裝 Power BI 報表伺服器的硬體和軟體需求
 您會在這裡找到安裝並執行 Power BI 報表伺服器的最低硬體和軟體需求。
@@ -31,8 +31,8 @@ ms.lasthandoff: 01/30/2018
 | --- | --- |
 | .NET Framework |4.6<br><br>您可以從 [Windows 的 Microsoft .NET Framework 4.6 (Web 安裝程式)](http://support.microsoft.com/kb/3045560) 手動安裝 .NET Framework。<br/><br/> 如需 .NET Framework 4.6 的詳細資訊、建議和指導，請參閱[開發人員的 .NET Framework 部署指南](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)。<br/><br/>Windows 8.1 和 Windows Server 2012 R2 需要有 [KB2919355](http://support.microsoft.com/kb/2919355) 才能安裝 .NET Framework 4.6。 |
 | 硬碟 |Power BI 報表伺服器至少需要 1 GB 的可用硬碟空間。<br><br>裝載報表伺服器資料庫的資料庫伺服器則需要額外的空間。 |
-| 記憶體 |**最小值：**1 GB<br/><br/> **建議值︰**至少 4 GB |
-| 處理器速度 |**最小值︰**x64 處理器︰1.4 GHz<br/><br/> **建議值：**2.0 GHz 或更快 |
+| 記憶體 |**最小值：** 1 GB<br/><br/> **建議值︰** 至少 4 GB |
+| 處理器速度 |**最小值︰** x64 處理器︰1.4 GHz<br/><br/> **建議值：** 2.0 GHz 或更快 |
 | 處理器類型 |x64 處理器︰AMD Opteron、AMD Athlon 64、具有 Intel EM64T 支援的 Intel Xeon、具有 EM64T 支援的 Intel Pentium IV |
 | 作業系統 |Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
 
@@ -76,7 +76,7 @@ Power BI 報表伺服器會安裝預設值，以設定讓報表伺服器運作�
 ## <a name="next-steps"></a>後續步驟
 [使用者手冊](user-handbook-overview.md)  
 [系統管理員手冊](admin-handbook-overview.md)  
-[快速入門︰安裝 Power BI 報表伺服器](quickstart-install-report-server.md)  
+[安裝 Power BI 報表伺服器](install-report-server.md)  
 [安裝報表產生器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [下載 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

@@ -1,5 +1,5 @@
 ---
-title: KPI 視覺效果 (教學課程)
+title: KPI 視覺效果
 description: 在 Power BI 服務和 Power BI Desktop 中建立 KPI
 services: powerbi
 documentationcenter: ''
@@ -19,13 +19,13 @@ ms.workload: powerbi
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4d6af52f10f16d973dc97ed0da1ed74bf63ec2cc
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 92fafc120e34fc3f11d203ca784189f037ad5a7f
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="kpi-visuals-tutorial"></a>KPI 視覺效果 (教學課程)
+# <a name="kpi-visuals"></a>KPI 視覺效果
 關鍵效能指標 (KPI) 是一種視覺提示，指出對於可測量目標已達成的進度。 如需 KPI 的詳細資訊，請參閱 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)
 
 ## <a name="when-to-use-a-kpi"></a>使用 KPI 的時機

@@ -15,19 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: 2fd3b599e89646f7bcebbe8b65212765fe76874b
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>使用 Power BI Desktop 中的自然語言查詢問與答
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 甚至在資料回答時更為強大，這是 **Power BI Desktop** 中的問與答可讓您執行的作業。
 
 若要讓問與答成功解譯可回應的大量問題，問與答必須對模型進行假設。 如果您模型的結構不符合其中一或多個假設，則需要調整模型。 不論是否使用問與答，這些問與答調整都是 Power BI 中任何模型的相同最佳做法最佳化。 
+
+> [!NOTE]
+> 只有在使用包含**已匯入**資料的模型時，才能使用「問與答」。 不支援即時連線至 SSAS 和 DirectQuery 模型。
+>
+>
 
 在下列各節中，我們會描述如何調整您的模型，讓它適用於 Power BI 問與答。
 

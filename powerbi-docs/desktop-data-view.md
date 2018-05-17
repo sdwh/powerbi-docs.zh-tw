@@ -1,28 +1,28 @@
 ---
-title: "Power BI Desktop 中的資料檢視"
-description: "Power BI Desktop 中的資料檢視"
+title: Power BI Desktop 中的資料檢視
+description: Power BI Desktop 中的資料檢視
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: dba33cd5476b26d7c81238bf4eedc366deb65191
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 35bbefc0378ab6eec745737d5a13b215aa955830
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop 中的資料檢視
 [資料檢視] 可協助您檢查、瀏覽及了解 Power BI Desktop 模型中的資料。 它與您在 [查詢編輯器] 中檢視資料表、資料行和資料的方式不同。 在 [資料檢視] 中，您所看到的資料是載入模型「之後」  的樣子。
@@ -33,15 +33,15 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-data-view/dataview_fullscreen.png)
 
-**1.**資料檢視圖示 - 按一下可進入 [資料檢視]。
+**1.** 資料檢視圖示 - 按一下可進入 [資料檢視]。
 
-**2.**資料格 - 顯示選取的資料表，以及其中的所有資料行和資料列。 [報表檢視] 中的隱藏資料行會呈現灰色。以滑鼠右鍵按一下資料行可取得相關選項。
+**2.** 資料格 - 顯示選取的資料表，以及其中的所有資料行和資料列。 [報表檢視] 中的隱藏資料行會呈現灰色。以滑鼠右鍵按一下資料行可取得相關選項。
 
-**3.**模型化功能區 - 管理關聯性；建立計算；變更資料行的資料類型、格式、資料類別。
+**3.** 模型化功能區 - 管理關聯性；建立計算；變更資料行的資料類型、格式、資料類別。
 
-**4.**公式列 - 輸入量值和導出資料行的 DAX 公式。
+**4.** 公式列 - 輸入量值和導出資料行的 DAX 公式。
 
-**5.**搜尋 - 在模型中搜尋資料表或資料行。
+**5.** 搜尋 - 在模型中搜尋資料表或資料行。
 
-**6.**欄位清單 - 選取要在資料格中檢視的資料表或資料行。
+**6.** 欄位清單 - 選取要在資料格中檢視的資料表或資料行。
 

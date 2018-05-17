@@ -1,15 +1,15 @@
 ---
-title: "教學課程：即刻從 Excel 活頁簿到令人驚豔的報表"
-description: "教學課程：即刻從 Excel 活頁簿到令人驚豔的報表"
+title: 即刻從 Excel 活頁簿到令人驚豔的報表
+description: 即刻從 Excel 活頁簿到令人驚豔的報表
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: 64872b94d13f30cbab08d67530cc6ae0ccbe8fc3
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 849511476200d401432fdcc2ad88ec2930448bf9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>即刻從 Excel 活頁簿到令人驚豔的報表
 您的經理在下班時想要看到您最近的銷售數字以及之前行銷活動效果的報表。 但最新的資料在各種協力廠商系統中，以及您膝上型電腦的檔案內。 在過去，需要好幾個小時的時間才能製作具有各種視覺效果與格式的報表， 所以您覺得有點焦慮。
@@ -43,7 +43,7 @@ ms.lasthandoff: 03/02/2018
 ## <a name="upload-your-excel-file-into-power-bi"></a>將 Excel 檔上傳到 Power BI
 Power BI 可連接至許多資料來源，包括您電腦上的 Excel 檔。 若要開始使用，請登入 Power BI。 若尚未註冊，[可以免費註冊](https://powerbi.com)。
 
-您想要建立新的儀表板。 開啟 [我的工作區]，然後選取**+ 建立**圖示。
+您想要建立新的儀表板。 開啟 [我的工作區]，然後選取 **+ 建立**圖示。
 
 ![建立圖示](media/service-from-excel-to-stunning-report/power-bi-new-dash.png)
 

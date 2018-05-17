@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: 995b1aab5547369ef9c4ceebae3f69c268107164
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: dd6ab0afdb171a1cdb1267adee8bb1c411596dff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>支援 Power BI 報表伺服器的時間軸
 Power BI 報表伺服器每年發行數次。 下個版本正式推出 (GA) 後會提供安全性和重大更新。 下個版本發行後，舊版仍會繼續收到 12 個月發行週期的其餘安全性更新。
@@ -46,7 +46,7 @@ Power BI 報表伺服器每年發行數次。 下個版本正式推出 (GA) 後�
 [Power BI 報表伺服器的新功能](whats-new.md)  
 [使用者手冊](user-handbook-overview.md)  
 [系統管理員手冊](admin-handbook-overview.md)  
-[快速入門︰安裝 Power BI 報表伺服器](quickstart-install-report-server.md)  
+[安裝 Power BI 報表伺服器](install-report-server.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

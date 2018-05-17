@@ -1,6 +1,6 @@
 ---
-title: 快速入門 - 開始使用 Power BI 問與答
-description: 快速入門：開始搭配使用 Power BI 服務與零售分析範例的問與答
+title: 開始使用 Power BI 問與答
+description: 開始使用與 Power BI 服務與零售分析範例搭配使用的問與答
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0f4f56431fd0c667411c302f4f30f0c395269e4a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aa9b90521d2bf8df88676756135442a22277a4e8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="get-started-with-power-bi-qa-quickstart"></a>開始使用 Power BI 問與答 (快速入門)
+# <a name="get-started-with-power-bi-qa"></a>開始使用 Power BI 問與答
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>使用 Power BI 問與答與零售分析範例
 有時若要從您的資料獲得解答，最快的方法是使用自然語言詢問問題。  在本快速入門中，我們將探討由 2 種不同的方式來建立相同的視覺效果：第一種是在報表中建立，第二種則是在問與答中提問。 我們將使用 Power BI 服務，但使用 Power BI Desktop 的程序幾乎相同。
 

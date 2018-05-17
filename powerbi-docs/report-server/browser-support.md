@@ -1,15 +1,15 @@
 ---
-title: "Power BI 報表伺服器的瀏覽器支援"
-description: "了解管理及檢視 Power BI 報表伺服器和報表檢視器控制項所支援的瀏覽器版本。"
+title: Power BI 報表伺服器的瀏覽器支援
+description: 了解管理及檢視 Power BI 報表伺服器和報表檢視器控制項所支援的瀏覽器版本。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: 273a336280a371f694fb08a43d75e24535942e9a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: a0ac612ec132d5aefc8353b4ef92212913e3db5a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI 報表伺服器的瀏覽器支援
 了解管理及檢視 Power BI 報表伺服器和報表檢視器控制項所支援的瀏覽器版本。
@@ -120,7 +120,7 @@ Your browser does not support scripts or has been configured to not allow script
 
 ## <a name="next-steps"></a>後續步驟
 [系統管理員手冊](admin-handbook-overview.md)  
-[快速入門︰安裝 Power BI 報表伺服器](quickstart-install-report-server.md)  
+[安裝 Power BI 報表伺服器](install-report-server.md)  
 [安裝報表產生器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [下載 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

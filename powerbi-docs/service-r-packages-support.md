@@ -1,28 +1,28 @@
 ---
-title: "了解支援哪些 R 套件在 Power BI 中使用及建立 R 指令碼"
-description: "Power BI 中支援與不支援的 R 套件"
+title: 了解支援哪些 R 套件在 Power BI 中使用及建立 R 指令碼
+description: Power BI 中支援與不支援的 R 套件
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 189e9ed8bb63df4fdbebc5eaa11625bef4592d38
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: c4ff69bff3c65fa64f90184668d34fac5a82815f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 服務中的 R 套件
 您可以使用功能強大的 [R 程式設計語言](https://www.r-project.org/)在 Power BI 服務中建立視覺效果。 Power BI 服務支援眾多 R 套件 (有更多套件一直受到支援)，有些套件則不具支援。
@@ -117,7 +117,7 @@ ms.lasthandoff: 03/12/2018
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
 | data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
-| date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
+| 日期 |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
 | deepnet |0.2 |https://cran.r-project.org/web/packages/deepnet/index.html |
@@ -201,7 +201,7 @@ ms.lasthandoff: 03/12/2018
 | hdrcde |3.1 |https://cran.r-project.org/web/packages/hdrcde/index.html |
 | heavy |0.3 |https://cran.r-project.org/web/packages/heavy/index.html |
 | HH |3.1-25 |https://cran.r-project.org/web/packages/HH/index.html |
-| HI |0.4 |https://cran.r-project.org/web/packages/HI/index.html |
+| 夏威夷 |0.4 |https://cran.r-project.org/web/packages/HI/index.html |
 | highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
 | Hmisc |3.17-3 |https://cran.r-project.org/web/packages/Hmisc/index.html |
 | HSAUR |1.3-7 |https://cran.r-project.org/web/packages/HSAUR/index.html |
@@ -364,7 +364,7 @@ ms.lasthandoff: 03/12/2018
 | snowFT |1.4-0 |https://cran.r-project.org/web/packages/snowFT/index.html |
 | sp |1.2-2 |https://cran.r-project.org/web/packages/sp/index.html |
 | spacetime |1.1-5 |https://cran.r-project.org/web/packages/spacetime/index.html |
-| spam |1.3-0 |https://cran.r-project.org/web/packages/spam/index.html |
+| 垃圾郵件 |1.3-0 |https://cran.r-project.org/web/packages/spam/index.html |
 | SparseM |1.7 |https://cran.r-project.org/web/packages/SparseM/index.html |
 | spatial |7.3-11 |https://cran.r-project.org/web/packages/spatial/index.html |
 | spBayes |0.3-9 |https://cran.r-project.org/web/packages/spBayes/index.html |

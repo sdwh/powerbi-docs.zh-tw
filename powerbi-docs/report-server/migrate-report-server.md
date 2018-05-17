@@ -1,15 +1,15 @@
 ---
-title: "移轉報表伺服器安裝"
-description: "了解如何將現有的 SQL Server Reporting Services 執行個體移轉到 Power BI 報表伺服器執行個體。"
+title: 移轉報表伺服器安裝
+description: 了解如何將現有的 SQL Server Reporting Services 執行個體移轉到 Power BI 報表伺服器執行個體。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 67fe876bb9de92cc7f4c0c140f7c016f01216cdd
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 9983956ccb33cc9c45fd1ac316fb74d07eb3acf5
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="migrate-a-report-server-installation"></a>移轉報表伺服器安裝
 了解如何將現有的 SQL Server Reporting Services (SSRS) 執行個體移轉到 Power BI 報表伺服器執行個體。
@@ -107,7 +107,7 @@ rs.exe
 
 ## <a name="next-steps"></a>後續步驟
 [系統管理員手冊](admin-handbook-overview.md)  
-[快速入門︰安裝 Power BI 報表伺服器](quickstart-install-report-server.md)  
+[安裝 Power BI 報表伺服器](install-report-server.md)  
 [使用 rs.exe 公用程式和 Web 服務編寫指令碼](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

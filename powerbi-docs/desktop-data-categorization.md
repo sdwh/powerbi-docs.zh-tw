@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: cc66655e49860160b43afa5d1acb688c37468212
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: f5eb26eee9bedbdd804dfba1912a1aa328310816
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop 中的資料分類
 在 **Power BI Desktop** 中，您可以指定資料行的資料類別，讓 Power BI Desktop 知道如何在視覺效果中處理其值。

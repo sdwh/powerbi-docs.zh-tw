@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2ab907dd15e43892147967902fbb94d09ef4125b
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: f70ebae419c83e359f950d7b1180809d3e25b59e
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>在 Power BI 中建立可以調整大小的回應式交叉分析篩選器 (預覽)
 
@@ -87,5 +87,5 @@ ms.lasthandoff: 03/15/2018
 
 ## <a name="next-steps"></a>後續步驟
 
-- [教學課程：Power BI 服務中的交叉分析篩選器](power-bi-visualization-slicers.md)
+- [Power BI 服務中的交叉分析篩選器](power-bi-visualization-slicers.md)
 - 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)

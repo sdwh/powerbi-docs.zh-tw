@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d9500f2c3d385e96b9133a3b634fe06f9769936e
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: f1b92cf370dfdfdbeadd71ee954030aa8a79d338
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>在 Power BI Desktop 和 Power BI 服務中建立報表的祕訣和訣竅
 為了充分利用您的資料，有時您需要一些額外的協助。 我們集結了一些秘訣與技巧，可供您在 Microsoft Power BI Desktop、Power BI 服務中，以及在啟用 Power Pivot 增益集與已安裝並啟用 Power Query 的 Microsoft Excel 2016 或 Microsoft Excel 2013 Pro-Plus 版本中，用來建立報表。
@@ -166,7 +166,7 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 ### <a name="using-dax-for-the-first-time"></a>第一次使用 DAX
 DAX 是 Power BI Desktop 的計算公式語言，  並已針對 BI 分析最佳化。  如果您只用過類似 SQL 的查詢語言，則這與您熟悉的語言稍有不同。 如需了解 DAX，網路上和文獻中均提供相當實用的資源。
 
-[快速入門：了解 Power BI Desktop 的 DAX 基本概念](desktop-quickstart-learn-dax-basics.md)
+[了解 Power BI Desktop 的 DAX 基本概念](desktop-quickstart-learn-dax-basics.md)
 
 [資料分析運算式 (DAX) 參考](https://msdn.microsoft.com/library/gg413422.aspx)
 

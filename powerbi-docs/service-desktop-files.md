@@ -1,13 +1,13 @@
 ---
-title: "從 Power BI Desktop 檔案取得資料"
-description: "了解如何從 Power BI Desktop 取得資料和報表並放入 Power BI"
+title: 從 Power BI Desktop 檔案取得資料
+description: 了解如何從 Power BI Desktop 取得資料和報表並放入 Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 03/30/2016
 ms.service: powerbi
@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3ebe9edbd77bf1661effd34c798c822305e265ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e7896556f4397d190183483c2bb22ea1918b7f68
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>從 Power BI Desktop 檔案取得資料
 ![](media/service-desktop-files/pbid_file_icon.png)
