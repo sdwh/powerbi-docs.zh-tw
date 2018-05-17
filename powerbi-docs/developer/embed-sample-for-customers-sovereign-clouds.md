@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 5d0d679a9b5d3bea494915dc981e155ad69eeac6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>將主權雲端的 Power BI 儀表板、磚或報表內嵌至應用程式
 了解如何在對客戶進行內嵌時，使用 Power BI .NET SDK 配合 Power BI JavaScript API 將儀表板、磚或報表整合或內嵌至 Web 應用程式。 這通常是 ISV 案例。
@@ -38,7 +38,7 @@ Power BI 也支援主權 (私人) 雲端。 每個主權雲端都有它自己的
 
 ![內嵌的儀表板](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-若要開始使用此逐步解說，您需要一個 **Power BI** 帳戶。 如果您尚未設定任何帳戶，則可根據政府類型，[註冊一個美國政府 Power BI 帳戶](../service-govus-signup.md)或[一個適用於德國雲端的 Power BI 帳戶](https://powerbi.microsoft.com/en-us/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)。
+若要開始使用此逐步解說，您需要一個 **Power BI** 帳戶。 如果您尚未設定任何帳戶，則可根據政府類型，[註冊一個美國政府 Power BI 帳戶](../service-govus-signup.md)或[一個適用於德國雲端的 Power BI 帳戶](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)。
 
 > [!NOTE]
 > 想要改為內嵌組織的內容嗎？ 請參閱[將儀表板整合到應用程式中](integrate-dashboard.md)。
@@ -407,7 +407,7 @@ var embedConfig = new EmbedConfig()
 
 * GitHub 上有範例應用程式可供您檢閱。 上述範例皆以該範例為基礎。 如需詳細資訊，請參閱[對組織進行內嵌範例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)。
 * 如需 JavaScript API 的詳細資訊，請參考[Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) \(英文\)。
-* 如需適用於德國雲端的 Power BI 詳細資訊，請參考[適用於德國雲端的 Power BI 常見問題集](https://docs.microsoft.com/en-us/power-bi/service-govde-faq)
+* 如需適用於德國雲端的 Power BI 詳細資訊，請參考[適用於德國雲端的 Power BI 常見問題集](https://docs.microsoft.com/power-bi/service-govde-faq)
 * [如何將 Power BI 工作區集合內容遷移至 Power BI](migrate-from-powerbi-embedded.md)
 
 限制與考量

@@ -3,18 +3,18 @@
 
 ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
 
-[以角色身分檢視] 對話方塊可讓您變更正在查看的特定使用者或角色的檢視。 您會看到您所建立的角色。
+[View as roles]\ (以角色身分檢視\) 對話方塊可讓您變更正在查看的特定使用者或角色的檢視。 您可以看到自己建立的角色。
 
 ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
 
 選取已建立的角色，然後選取 [確定] 將該角色套用到您正在檢視的內容。 報表只會呈現與該角色相關的資料。
 
-您也可以選取 [其他使用者] 並提供指定的使用者。 最好提供使用者主體名稱 (UPN)，因為這正是 Power BI 服務會使用的。 選取 [確定]，報表就會顯示該使用者可以看到的內容。 
+您也可以選取 [其他使用者] 並提供指定的使用者。 因為 Power BI 服務會使用使用者主體名稱 (UPN)，所以建議提供該名稱。 選取 [確定]，報表就會顯示該使用者可以看到的內容。 
 
 ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
 
 > [!NOTE]
-> 如果您使用的是以 DAX 運算式為基礎的動態安全性，在 Power BI Desktop 中，這只會顯示不同的結果。
+> 如果您使用以 DAX 運算式為基礎的動態安全性，則在 Power BI Desktop 中，這只會顯示不同的結果。
 > 
 > 
 

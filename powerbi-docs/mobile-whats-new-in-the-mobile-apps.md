@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 381cfeaf8e117cfdc952e361cd0e6cb633b65f47
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -271,7 +271,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 #### <a name="android-devices"></a>Android 裝置
 **預覽︰Intune 行動應用程式管理** - 對於 Microsoft Intune 行動應用程式管理員 (MAM) 的 Power BI 支援，現在針對 Android 裝置上的 Power BI Pro 使用者處於預覽狀態。 
 
-**我的最愛**：在 Android 裝置上標記您最愛的儀表板，並在一個便利的位置集中查看您的所有[最愛的 Power BI 儀表板和 Reporting Services 行動報表和 KPI](mobile-android-tablet-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports)。 
+**我的最愛**：在 Android 裝置上標記您最愛的儀表板，並在一個便利的位置集中查看您的所有[最愛的 Power BI 儀表板和 Reporting Services 行動報表和 KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports)。 
 
 #### <a name="ios-devices"></a>iOS 裝置
 **連結**：磚和視覺效果中的 URL 現在都可以點選，並在瀏覽器中開啟。

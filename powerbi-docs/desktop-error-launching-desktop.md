@@ -44,7 +44,7 @@ ms.lasthandoff: 04/26/2018
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>協助解決啟動 Power BI Desktop 時發生的其他問題
 我們致力於將 **Power BI Desktop** 所發生的問題涵蓋在本文中。 我們經常檢視可能會影響眾多客戶的問題，並將它們包含在我們的文章內。
 
-如果啟動 **Power BI Desktop** 時發生的問題與內部部署資料閘道無關，或上述解決方法無法解決問題，您可以將支援事件提交給 [Power BI 支援](https://support.powerbi.com) (https://support.powerbi.com)，以協助找出並解決問題。
+如果啟動 **Power BI Desktop** 時發生的問題與內部部署資料閘道無關，或上述解決方法無法解決問題，您可以將支援事件提交給 [Power BI 支援](https://support.powerbi.com) (https://support.powerbi.com), 以協助找出並解決問題。
 
 如果未來遇到 **Power BI Desktop** 的其他問題 (我們希望沒有或非常少)，開啟追蹤並收集記錄檔將有助於更佳隔離並找出問題。 若要開啟追蹤，請選取 [檔案] > [選項及設定] > [選項]，選取 [診斷]，然後核取 [診斷選項] 下的 [啟用追蹤]。 我們了解 **Power BI Desktop** 必須在執行中才能設定此選項，因此更有助於解決未來與啟動 **Power BI Desktop** 相關聯的問題。
 

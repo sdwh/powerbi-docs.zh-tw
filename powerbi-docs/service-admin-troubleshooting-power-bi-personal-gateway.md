@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d321d70fe201af500feb35ef4e5ea1df6cc558f0
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2f5ca353d26b83a8c8cce5356724b351cb9d1621
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal 疑難排解
 以下探討使用 Power BI Gateway - Personal 時可能遇到的一些常見問題。
@@ -76,11 +76,11 @@ ms.lasthandoff: 04/16/2018
 
 **錯誤：[無法結合資料] &lt;查詢部分&gt;/&lt;…&gt;/&lt;…&gt;存取的資料來源擁有無法一起使用的隱私權等級。請重建這個資料組合。**
 
-**解決方案**：這個錯誤是由於隱私權等級限制及所使用的資料來源類型所致。 [深入了解](refresh-enable-fast-combine.md)
+**解決方案**：這個錯誤是由於隱私權等級限制及所使用的資料來源類型所致。
 
 **錯誤：資料來源錯誤：無法將值 "\[Table\]" 轉換成類型 Table。**
 
-**解決方案**：這個錯誤是由於隱私權等級限制及所使用的資料來源類型所致。 [深入了解](refresh-enable-fast-combine.md)
+**解決方案**：這個錯誤是由於隱私權等級限制及所使用的資料來源類型所致。
 
 **錯誤：這個資料列沒有足夠空間。**
 
@@ -104,7 +104,7 @@ ms.lasthandoff: 04/16/2018
 
 Power BI 目前不支援使用 ACE OLEDB 提供者之資料來源的 Windows 驗證。
 
-**解決方案：**若要解決這個錯誤，您可以選取 [匿名驗證]。 舊版 ACE OLEDB 提供者的匿名認證相當於 Windows 認證。
+**解決方案：** 若要解決這個錯誤，您可以選取 [匿名驗證]。 舊版 ACE OLEDB 提供者的匿名認證相當於 Windows 認證。
 
 ## <a name="tile-refresh"></a>磚重新整理
 如果您收到儀表板磚重新整理錯誤，請參閱下列文章。
