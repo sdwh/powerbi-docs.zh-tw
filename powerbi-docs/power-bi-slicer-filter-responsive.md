@@ -15,52 +15,52 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/08/2017
+ms.date: 05/04/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f70ebae419c83e359f950d7b1180809d3e25b59e
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: ac30f03bc9f221097eeaa1c203bd19daa473cfa4
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/12/2018
 ---
-# <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>在 Power BI 中建立可以調整大小的回應式交叉分析篩選器 (預覽)
+# <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>在 Power BI 中建立可以調整大小的回應式交叉分析篩選器
 
 您可以將回應式交叉分析篩選器調整成報表上的任何空間大小。 使用回應式交叉分析篩選器時，您可以將它們調整成不同大小和形狀；可以從水平改成正方形和垂直排列，而且交叉分析篩選器中的值也會自動重新排列。 在 Power BI Desktop 和 Power BI 服務中，您可以將水平交叉分析篩選器和日期/範圍交叉分析篩選器設為回應式。 此外，日期/範圍交叉分析篩選器也改善了觸控區域，您可以輕鬆用手指對其進行變更。 您可以視需要將回應式交叉分析篩選器調小或調大；它們也會自動調整成 Power BI 服務和 Power BI 行動版應用程式中的報表大小。 
 
-![回應式交叉分析篩選器可以是各種形狀](media/power-bi-slicer-filter-responsive/responsive-slicer-gif.gif)
+![回應式交叉分析篩選器可以是各種形狀](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer.gif)
 
 ## <a name="create-a-slicer"></a>建立交叉分析篩選器
 
 若要建立動態交叉分析篩選器，第一個步驟是先建立基本的交叉分析篩選器。 
 
-1. 在 [視覺效果] 窗格中，選取**交叉分析篩選器**圖示 ![交叉分析篩選器圖示](media/power-bi-slicer-filter-responsive/power-bi-slicer-icon.png)。
+1. 在 [視覺效果] 窗格中，選取**交叉分析篩選器**圖示 ![交叉分析篩選器圖示](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png)。
 2. 將您想要篩選的欄位拖曳至 [欄位]。
 
-    ![將欄位新增至交叉分析篩選器](media/power-bi-slicer-filter-responsive/power-bi-slicer-field.png)
+    ![將欄位新增至交叉分析篩選器](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
 
 ## <a name="convert-to-a-horizontal-slicer"></a>轉換成水平交叉分析篩選器
 
 1. 選取交叉分析篩選器，然後在 [視覺效果] 窗格中選取 [格式] 索引標籤。
 2. 展開 [一般] 區段，然後針對 [方向] 選取 [水平]。
 
-    ![將交叉分析篩選器設為水平](media/power-bi-slicer-filter-responsive/power-bi-slicer-horizontal.png) 
+    ![將交叉分析篩選器設為水平](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-2-horizontal.png) 
 
 1.  您可以把寬度設得更寬一點，以顯示更多的值。
 
-     ![讓交叉分析篩選器更寬](media/power-bi-slicer-filter-responsive/power-bi-slicer-wide-horizontal.png)
+     ![讓交叉分析篩選器更寬](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-3-wider.png)
 
 ## <a name="make-it-responsive-and-experiment-with-it"></a>將其設為回應式，並進行嘗試
 
 這個步驟很容易。 
 
-1. 在 [格式] 索引標籤上，[一般] 區段正下方的 [方向] 中，將 [Responsive (Preview)] (回應式 (預覽)) 滑動至 [開啟]。  
+1. 在 [格式] 索引標籤上，[一般] 區段正下方的 [方向] 中，將 [Responsive] (回應式) 滑動至 [開啟]。  
 
-    ![交叉分析篩選器現在已是回應式](media/power-bi-slicer-filter-responsive/power-bi-slicer-wide-responsive.png)
+    ![交叉分析篩選器現在已是回應式](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-4-responsive-on.png)
 
 1. 現在您可以開始試用看看。 拖曳邊角，即可進行長、寬、高的變化。 如果您將它設得很小，它就會變成一個篩選圖示。
 
-    ![很小的回應式交叉分析篩選器就像一個篩選圖示一般](media/power-bi-slicer-filter-responsive/power-bi-slicer-small-filter-icon.png)
+    ![很小的回應式交叉分析篩選器就像一個篩選圖示一般](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-5-mini-icon.png)
 
 ## <a name="add-it-to-a-phone-report-layout"></a>將該圖示新增至手機報表配置
 
@@ -68,11 +68,11 @@ ms.lasthandoff: 05/07/2018
 
 1. 在 [檢視] 功能表上，選取 [手機配置]。
 
-     ![手機配置圖示，[檢視] 功能表](media/power-bi-slicer-filter-responsive/power-bi-phone-layout-menu.png)
+     ![手機配置圖示，[檢視] 功能表](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-6-phone-layout-button.png)
     
 1. 將手機報表中您需要的所有視覺效果拖曳至方格中。 當您拖曳回應式交叉分析篩選器時，可以將其設為您想要的大小 (在此案例中為篩選圖示大小)。
 
-    ![將交叉分析篩選器新增至手機報表配置](media/power-bi-slicer-filter-responsive/power-bi-slicer-phone-layout.png)
+    ![將交叉分析篩選器新增至手機報表配置](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-7-phone-slicer-icon.png)
 
 深入了解如何建立[針對 Power BI 行動版應用程式最佳化的報表](desktop-create-phone-report.md)。
 
