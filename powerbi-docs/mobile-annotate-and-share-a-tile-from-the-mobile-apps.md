@@ -1,49 +1,41 @@
 ---
 title: Power BI 行動裝置應用程式中的標註並共用
 description: '了解從 Microsoft Power BI for iOS 和 Android 行動裝置應用程式標註並共用圖格、報告和視覺效果。 '
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 02/28/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 12dd7e2dcce655b6cde370877f56c4d57e18dbd9
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: c70a5c50a139423f6c5e69ed6ec9a416dfae8b4e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/17/2018
 ---
-# <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中標註並共用圖格、報表或視覺效果。
+# <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中標註並共用磚、報表或視覺效果。
 適用於︰
 
 | ![iPhone](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/ipad-logo-50-px.png) | ![Android 手機](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Android 平板電腦](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手機 |Android 平板電腦 |
 
-您可以從 Power BI for iOS 和 Android 裝置的行動裝置應用程式標註並共用圖格、報告或視覺效果的快照集。 收件者看到的外觀與送出郵件加上連結時完全相同。 您可以將圖格的快照集傳送給任何人，不只是在相同電子郵件網域的同事而已。 您可以新增註解 (線條、文字或戳記) 然後共用它。
+您可以從 Power BI for iOS 和 Android 裝置的行動裝置應用程式標註並共用圖格、報告或視覺效果的快照集。 收件者看到的外觀與送出郵件加上連結時完全相同。 您可以將磚的快照集傳送給任何人，不只是在相同電子郵件網域的同事而已。 您可以新增註解 (線條、文字或戳記) 然後共用它。
 
 ![包含註解的報表](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-iphone-annotate.png)
 
 包含註解的報表
 
-具有圖格、報告或視覺效果快照集的郵件也包括 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 上實際物件的連結。 如果您和您的收件者都具有 Power BI Pro 授權或內容位於[進階容量](service-premium.md)中，且您已經與收件者共用項目，收件者只需按一下連結就能直接前往圖格、報表或視覺效果。 
+具有圖格、報告或視覺效果快照集的郵件也包括 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 上實際物件的連結。 如果您和您的收件者都具有 Power BI Pro 授權或內容位於[進階容量](service-premium.md)中，且您已經與收件者共用項目，收件者只需按一下連結就能直接前往磚、報表或視覺效果。 
 
-您也可以[從 Power BI for Windows 10 裝置的行動裝置應用程式共用圖格](mobile-share-tile-windows-10-phone-app.md)，但不能標註圖格。
+您也可以[從 Power BI for Windows 10 裝置的行動裝置應用程式共用圖格](mobile-share-tile-windows-10-phone-app.md)，但不能標註磚。
 
-## <a name="open-a-tile-for-annotating"></a>開啟圖格以便標註
-1. 點選圖格以此在焦點模式中開啟。
-2. 點選標註圖示 ![標註圖示](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) 位於圖格的右上角。
-3. 即可[標註和共用圖格](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)。
+## <a name="open-a-tile-for-annotating"></a>開啟磚以便標註
+1. 點選磚，藉此在焦點模式中開啟。
+2. 點選標註圖示 ![標註圖示](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) 位於磚的右上角。
+3. 即可[標註和共用磚](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)。
 
 ## <a name="open-a-report-for-annotating"></a>開啟報表以便標註
 1. 開啟報表。 
@@ -70,7 +62,7 @@ ms.lasthandoff: 03/28/2018
    
    * 若要繪製不同色彩和粗細的線條，請點選波浪狀線條圖示、選擇寬度和色彩，然後繪製。  
    * 若要輸入註解，請點選 [AA]、選擇文字大小和色彩，然後輸入。  
-   * 若要在圖格上貼上戳記 (例如表情符號)，請點選笑臉、選擇色彩，並點選想要的位置。   
+   * 若要在磚上貼上戳記 (例如表情符號)，請點選笑臉、選擇色彩，並點選想要的位置。   
 2. 在標註之後，請點選右上角的 [共用]。
 3. 開啟郵件應用程式，輸入收件者的名稱，以及視需要修改訊息。  
    

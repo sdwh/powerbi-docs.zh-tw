@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到 Azure 稽核記錄
 description: Azure Audit Logs for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bb88ca524df5dd8c683c38a1a54a9bd626dad840
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 22020595b4f972f112f10e16fe7ae7d7fd4abed7
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>使用 Power BI 連接到 Azure 稽核記錄
 您可以使用 Azure 稽核記錄內容套件，來分析及視覺化儲存在稽核記錄中的資訊。 Power BI 會擷取您的資料、建置現成的儀表板，然根據該資料建立報表。
@@ -67,8 +59,8 @@ Azure 稽核記錄檔內容套件需要存取 Azure 入口網站中的稽核記�
 ## <a name="finding-parameters"></a>尋找參數
 有兩個簡單的方法可尋找您的訂用帳戶 ID。
 
-1. 從 https://portal.azure.com -&gt; [瀏覽] -&gt; [訂閱] -&gt; [訂閱識別碼]。
-2. 從 https://manage.windowsazure.com -&gt; [設定] -&gt; [訂閱識別碼]。
+1. 從 https://portal.azure.com -&gt; 瀏覽 -&gt; 訂閱 -&gt; 訂閱識別碼
+2. 從 https://manage.windowsazure.com -&gt; 設定 -&gt; 訂用帳戶識別碼
 
 您的訂閱識別碼會是一組很長的數字和字元，類似上述步驟 \#4 中的範例。 
 

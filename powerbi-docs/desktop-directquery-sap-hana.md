@@ -1,35 +1,27 @@
 ---
 title: Power BI 中的 DirectQuery for SAP HANA
 description: 搭配使用 DirectQuery 與 SAP HANA 時的考量
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 966399c2ad11ac6a04400e3c009927deb6d35b94
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: c7978ee67d54aa919abaf0b40a80f1841ac7bf35
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery 和 SAP HANA
 您可以使用 **DirectQuery** 來直接連線到 **SAP HANA** 資料來源。 連線到 SAP HANA 時有兩個選項：
 
 * **將 SAP HANA 視為多維度來源 (預設值)：** 在此情況下，行為將會類似於 Power BI 連線到其他多維度來源時，例如 SAP Business Warehouse 或 Analysis Services。 使用此設定來連線到 SAP HANA 時，會選取單一分析或計算檢視，而欄位清單中則會提供該檢視的所有量值、階層及屬性。 隨著視覺效果的建立，將會一律從 SAP HANA 擷取彙總資料。 這是建議的方法，也是 SAP HANA 上的新 DirectQuery 報表預設值。
 
-* **將 SAP HANA 視為關聯來源：**在此情況下，Power BI 會將 SAP HANA 視為關聯來源。 這提供更大的彈性，但必須小心確保依照預期方式彙總量值，以及避免效能問題。
+* **將 SAP HANA 視為關聯來源：** 在此情況下，Power BI 會將 SAP HANA 視為關聯來源。 這提供更大的彈性，但必須小心確保依照預期方式彙總量值，以及避免效能問題。
 
 用來進行連線的方法取決於全域工具選項，其設定方式為選取 [檔案] > [選項及設定]，接著選取 [選項] > [DirectQuery]，然後選取 [Treat SAP HANA as a relational source] (將 SAP HANA 視為關聯來源) 選項，如下圖所示。 
 
@@ -71,17 +63,17 @@ ms.lasthandoff: 03/22/2018
 
 使用 DirectQuery 來連線到 SAP HANA 時，其他主要的模型化限制如下： 
 
-* **不支援計算結果欄：**已停用建立計算結果欄的功能。 也就是說，建立計算結果欄的群組和叢集將無法使用。
-* **量值的其他限制：**在可於量值中使用的 DAX 運算式上有其他限制，用以反映 SAP HANA 所提供的支援層級。
-* **不支援定義關聯性：**只能查詢報表內的單一檢視，因此不支援定義關聯性。
+* **不支援計算結果欄：** 已停用建立計算結果欄的功能。 也就是說，建立計算結果欄的群組和叢集將無法使用。
+* **量值的其他限制：** 在可於量值中使用的 DAX 運算式上有其他限制，用以反映 SAP HANA 所提供的支援層級。
+* **不支援定義關聯性：** 只能查詢報表內的單一檢視，因此不支援定義關聯性。
 * **沒有資料檢視：[資料檢視]** 通常會顯示資料表中的詳細等級資料。 由於 SAP HANA 等 OLAP 來源本質的緣故，因此無法透過 SAP HANA 使用此檢視。
-* **資料行和量值詳細資料是固定的：**欄位清單中所示的資料行和量值因基礎來源已固定，而且無法修改。 例如，您無法刪除資料行，也無法變更其資料類型 (不過可以重新命名)。
-* **DAX 中的其他限制：**可用於量值定義的 DAX 上還有其他限制，以反映來源中的限制。 例如，您無法對資料表使用彙總函式。
+* **資料行和量值詳細資料是固定的：** 欄位清單中所示的資料行和量值因基礎來源已固定，而且無法修改。 例如，您無法刪除資料行，也無法變更其資料類型 (不過可以重新命名)。
+* **DAX 中的其他限制：** 可用於量值定義的 DAX 上還有其他限制，以反映來源中的限制。 例如，您無法對資料表使用彙總函式。
 
 ### <a name="additional-visualization-restrictions"></a>其他視覺效果限制
 
 使用 DirectQuery 來連線到 SAP HANA (視為多維度來源) 時，在視覺效果方面有限制： 
-* **沒有資料行彙總：**您無法變更視覺效果的資料行彙總，它一律為「不摘要」。
+* **沒有資料行彙總：** 您無法變更視覺效果的資料行彙總，它一律為「不摘要」。
 
 ## <a name="treat-sap-hana-as-a-relational-source"></a>將 SAP HANA 視為關聯來源 
 

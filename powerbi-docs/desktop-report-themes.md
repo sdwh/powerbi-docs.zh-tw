@@ -1,28 +1,20 @@
 ---
 title: 在 Power BI Desktop 中使用報表主題 (預覽)
 description: 了解如何在 Power BI Desktop 中使用自訂調色盤，並將它套用至整個報表
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8f4f8c257404eaca97f419603bac386da5bf7446
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用報表主題 (預覽)
 透過**報表主題**，您可以將某個色彩主題套用至整個報表，例如公司色彩、季節性色彩，或是您可能想要套用的任何其他色彩主題。 當您套用 [報表主題] 時，報表中的所有視覺效果都會使用您選取之主題中的色彩 (但有些例外，本文稍後將進行說明)。
@@ -149,7 +141,7 @@ ms.lasthandoff: 05/04/2018
 
 * **name** - 這是主題名稱，也是唯一必要的欄位
 * **dataColors** - 列出可用於 Power BI Desktop 視覺效果資料的十六進位碼色彩代碼。 此清單可視需要包含任意數量的色彩
-* **background**、**foreground** 和 **tableAccent** - 這些值是應該在 [資料表] 和 [矩陣] 視覺效果中使用的色彩。 這些色彩的使用方式取決於所套用的特定資料表或矩陣樣式。 「資料表」和「矩陣」視覺效果預設會套用這些樣式。
+* **背景**、**前景**以及 **tableAccent** - 這些值為色彩，應會套用在各式各樣類型的視覺效果上。 **前景**適用於文字方塊的文字、KPI 目標文字、多列卡片文字、卡值文字、量測計圖說文字、垂直交叉分析篩選器項目文字，以及**資料表**和**矩陣**總計與值的文字。 **背景**會套用至按鈕填滿，以及組合圖標籤背景。 這些色彩的使用方式，取決於所套用的特定視覺效果。 「資料表」和「矩陣」視覺效果預設會套用這些樣式。
 
 若要建立延伸格式 JSON 檔案，並且可更詳細而細微地控制格式設定，您需要新增 **visualStyles** 區段到 JSON 檔案中，並把格式特性巢狀放置在該區段。 **visualStyles** 區段的格式看起來如下：
 

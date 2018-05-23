@@ -1,34 +1,26 @@
 ---
 title: 使用 Power BI 中的儀表板和報表安裝並使用應用程式
 description: Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 10/02/2017
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 406e1219296c5b2491e3b59d5a8cd6f50cfc2376
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: de566aa22a7c48a27682a9c577f84eb6015ac8b7
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表安裝並使用應用程式
 Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處。 組織中的人員可使用關鍵的商務資訊來建立及發佈應用程式。 也許您已在使用 Google Analytics (分析) 和 Microsoft Dynamics CRM 這類[外部服務](service-connect-to-services.md)，而其中亦提供 Power BI 應用程式。 
 
 ![Power BI 的應用程式](media/service-install-use-apps/power-bi-apps-left-nav.png)
 
-在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 和行動裝置中可以輕鬆找到並安裝應用程式。 安裝完應用程式之後，因為所有儀表板都會集中在應用程式、瀏覽器或在行動裝置中，所以您不必記住許多不同儀表板的名稱。
+在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 和行動裝置中，可輕鬆找到並安裝應用程式。 安裝完應用程式之後，因為所有儀表板都會集中在應用程式、瀏覽器或在行動裝置中，所以您不必記住許多不同儀表板的名稱。
 
 透過應用程式，每當應用程式作者發行更新時，您就會自動看到變更。 作者也會控制資料重新整理的排程頻率，因此您無須擔心如何將其保持在最新狀態。 
 
@@ -42,7 +34,7 @@ Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處
 
 **在您的電腦上** 
 
-當您按一下電子郵件中的連結時，Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 就會在瀏覽器中開啟。 您確認想要安裝應用程式，而且它會開啟到應用程式登陸頁面。
+按一下電子郵件中的連結，即會在瀏覽器中開啟 Power BI 服務 ([https://powerbi.com](https://powerbi.com))。 您確認想要安裝應用程式，而且它會開啟到應用程式登陸頁面。
 
 ![Power BI 服務中的應用程式登陸頁面](media/service-install-use-apps/power-bi-app-landing-page-opportunity-480.png)
 

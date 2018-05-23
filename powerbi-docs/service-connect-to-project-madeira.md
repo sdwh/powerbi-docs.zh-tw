@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到 Project Madeira
 description: Project Madeira for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>使用 Power BI 連接到 Project "Madeira"
 Power BI 和專案「Madeira」內容套件讓您輕鬆深入探索專案「Madeira」的資料。 Power BI 會擷取您的資料 (銷售和財務資料)，然後根據該資料建置現成的儀表板和報表。
@@ -40,7 +32,7 @@ Power BI 和專案「Madeira」內容套件讓您輕鬆深入探索專案「Made
     ![](media/service-connect-to-project-madeira/services.png)
 3. 選取 [專案「Madeira」]，然後選取 [取得]。  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. 出現提示時，輸入您的專案「Madeira」 URL。 URL 必須完全遵循下列模式：https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US')，並且具有您的專案「Madeira」公司名稱。 請注意結尾沒有尾端斜線，且連線必須為 https。 請參閱[以下](#FindingParams)關於尋找此 URL 的詳細資訊。  
+4. 出現提示時，輸入您的專案「Madeira」 URL。 URL 必須完全遵循下列模式：https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US')，且附上專案「Madeira」公司名稱。 請注意結尾沒有尾端斜線，且連線必須為 https。 請參閱[以下](#FindingParams)關於尋找此 URL 的詳細資訊。  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. 出現提示時，請將驗證方法選取為 [基本]，輸入您的專案「Madeira」電子郵件地址作為使用者名稱，然後輸入專案「Madeira」帳戶的 Web 服務存取金鑰作為密碼。 如果您已經在瀏覽器中登入專案「Madeira」，可能就不會出現輸入認證的提示。 請參閱[以下](#FindingParams)關於產生此存取金鑰的詳細資料。  

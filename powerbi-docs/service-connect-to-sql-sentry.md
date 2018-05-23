@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到 SQL Sentry
 description: SQL Sentry for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c73502381e99bf64a8e342ca46ee1bb7089b6825
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8ad41917c887cff7db991051aa35d5dad6b6a8fa
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>使用 Power BI 連接到 SQL Sentry
 使用 Power BI 可輕鬆分析由 SQL Sentry 所收集的效能資料。 Power BI 會擷取您的資料，然後根據該資料建置預設的儀表板和相關報表。
@@ -30,7 +22,7 @@ ms.lasthandoff: 02/24/2018
 連接到 Power BI 的 [SQL Sentry 內容套件](https://app.powerbi.com/groups/me/getdata/services/sql-sentry)。
 
 >[!NOTE]
->存取您用來連接到 http://cloud.sqlsentry.com 的 SQL Sentry 帳戶，並且需要您將監視之資料庫的識別碼，才能連接。  找到資料庫識別碼位置的說明如下。
+>存取用於連線到 http://cloud.sqlsentry.com 的 SQL Sentry 帳戶，同時需要您將監視的資料庫識別碼，才可連線。  找到資料庫識別碼位置的說明如下。
 
 ## <a name="how-to-connect"></a>如何連接
 1. 選取左側瀏覽窗格底部的 [取得資料]  。

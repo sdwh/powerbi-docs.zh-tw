@@ -1,28 +1,20 @@
 ---
 title: Power BI 效能最佳做法
 description: 本文提供如何在 Power BI 中建置快速且可靠報表的指引
-services: powerbi
-documentationcenter: ''
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/12/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 效能最佳做法 
 本文提供如何在 Power BI 中建置快速且可靠報表的指引。  
@@ -96,8 +88,14 @@ ms.lasthandoff: 03/12/2018
 ## <a name="understand-custom-visual-performance"></a>了解自訂視覺效果效能 
 請務必以其步調放入每個自訂視覺效果，以確保高效能。 最佳化不佳的自訂視覺效果可能會對整個報表的效能造成負面影響。 
  
-## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>深入探討 SQL Profiler 和 Power BI Desktop 的查詢效能 
-若要深入探討佔用最多時間和資源的視覺效果，您可以將 SQL Profiler 連線至 Power BI Desktop，以取得查詢效能的所有完整檢視。 指示如下： 
+## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>深入探討 SQL Profiler 和 Power BI Desktop 的查詢效能
+
+若要深入探討佔用最多時間和資源的視覺效果，您可以將 SQL Profiler 連線至 Power BI Desktop，以取得查詢效能的所有完整檢視。
+
+> [!NOTE]
+> Power BI Desktop 支援連線到診斷連接埠。 其他工具可連線到診斷連接埠，並為診斷目的而執行追蹤。 *不支援對模型進行任何變更！對模型進行變更可能會導致損毀以及資料遺失。*
+
+指示如下：
   
 1. **安裝 SQL Server Profiler 並執行 Power BI Desktop** 
 

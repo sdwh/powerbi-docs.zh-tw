@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到 Xero
 description: Xero for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d9f61067f89fb031926428109ef5dac5bcfd6392
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d3074602af73d937e64a9155d3d197b91b1b1ae8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-xero-with-power-bi"></a>使用 Power BI 連接到 Xero
 Xero 是簡單易用的線上會計軟體，專為小型企業所設計。 您可以運用 Xero 的財務功能加上此 Power BI 內容套件，建立一份高吸睛力的報表。 您的預設儀表板包括許多小型企業計量，例如現金狀況、收入項下開支、利損趨勢、應收帳款天數及投資報酬率。
@@ -102,7 +94,7 @@ Xero 是簡單易用的線上會計軟體，專為小型企業所設計。 您�
 * 如果您的內容套件重新整理失敗，請檢查您是否在 Power BI 中超過一次連接到相同的組織。 Xero 只允許每個組織中存在單一使用中連線，如果您連接到同一個組織一次以上，您可能會看到錯誤並指出您的認證無效。  
 * 對於類似連接至適用於 Power BI 之 Xero 內容套件的錯誤訊息或載入非常緩慢等問題，先清除快取 / Cookie 並重新啟動瀏覽器，再重新連接至 Power BI。  
 
-對於其他問題，如果問題仍然存在，請在 http://support.powerbi.com 提出票證。
+若是其他問題，而問題仍然存在，請在 http://support.powerbi.com 提出申請。
 
 ## <a name="next-steps"></a>後續步驟
 [開始使用 Power BI](service-get-started.md)

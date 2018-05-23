@@ -1,28 +1,20 @@
 ---
 title: 忘記 Power BI 的密碼？
 description: 忘記 Power BI 的密碼？
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1a35aa822fe4b223fc217d568e136dbf1a6ea9df
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: e15b3d9b43f2cd203075d8dc9397b81a8240de6e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="forgot-your-password-for-power-bi"></a>忘記 Power BI 的密碼？
 如果您忘記密碼，您可以使用下列連結來要求密碼重設。

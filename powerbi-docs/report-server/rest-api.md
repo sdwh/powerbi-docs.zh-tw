@@ -1,27 +1,19 @@
 ---
-title: "Power BI 報表伺服器版本資訊"
-description: "REST API 提供以程式設計方式存取 Power BI 報表伺服器目錄中的物件。"
-services: powerbi
-documentationcenter: 
+title: Power BI 報表伺服器版本資訊
+description: REST API 提供以程式設計方式存取 Power BI 報表伺服器目錄中的物件。
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 554270d3b7bdbd3de88a7d5865dae8cdf226a6b2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e77c77acb7808923097eb3e2146bef816eda51ee
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>使用 Power BI 報表伺服器中的 REST API 進行開發
 Power BI 報表伺服器支援具象狀態傳輸 (REST) API。 REST API 是服務端點，會支援一組 HTTP 作業 (方法)，該作業提供報表伺服器內資源的建立、擷取、更新或刪除存取權。

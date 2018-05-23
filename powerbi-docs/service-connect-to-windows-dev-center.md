@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到 Windows 開發人員中心
 description: Windows Dev Center for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 246c1dc22d120ac01fe5276bbd0a2dd95b0dbc1f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>使用 Power BI 連接到 Windows 開發人員中心
 使用 Power BI 內容套件探索並監視 Power BI 中的 Windows 開發人員中心應用程式中分析資料。 資料會自動每天重新整理一次。
@@ -73,7 +65,7 @@ ms.lasthandoff: 02/24/2018
 ## <a name="finding-parameters"></a>尋找參數
 您可以移至 [應用程式管理] 下的應用程式識別頁面，找到應用程式的應用程式識別碼。
 
-應用程式識別碼位於您的 Windows 10 市集 URL 的結尾 (https://www.microsoft.com/store/apps/ {應用程式識別碼})
+應用程式識別碼位於 Windows 10 市集 URL 的結尾，https://www.microsoft.com/store/apps/ **{應用程式識別碼}**
 
 ## <a name="next-steps"></a>後續步驟
 [開始使用 Power BI](service-get-started.md)

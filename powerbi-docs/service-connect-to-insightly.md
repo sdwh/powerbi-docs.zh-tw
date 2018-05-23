@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到 Insightly
 description: Insightly for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a49260a90647178e0737e728804b00c004b21376
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>使用 Power BI 連接到 Insightly
 使用 Insightly 內容套件在 Power BI 中視覺化和共用 Insightly CRM 資料。 使用 Insightly API 金鑰連接到 Power BI，檢視及建立使用 CRM 資料的報表和儀表板。 透過 Power BI，您可以新方式分析資料、建立功能強大的圖形和圖表，並在地圖上顯示連絡人、潛在客戶和組織。
@@ -83,7 +75,7 @@ ms.lasthandoff: 02/24/2018
 ![](media/service-connect-to-insightly/findapi.png)
 
 ## <a name="troubleshooting"></a>疑難排解
-您的資料會透過 Insightly API 匯入，其中包含以 Insightly 訂閱方案層級為基礎的每日限制。 這些限制會列在 API 文件的＜速率限制/節流要求＞一節：https://api.insight.ly/v2.2/Help#!/Overview/Introduction#ratelimit
+您的資料會透過 Insightly API 匯入，其中包含以 Insightly 訂閱方案層級為基礎的每日限制。 這些限制列於 API 文件的＜速率限制/節流要求＞一節：https://api.insight.ly/v2.2/Help#!/Overview/Introduction#ratelimit
 
 提供的報表會使用 Insightly 的預設欄位，可能不含自訂項目。 編輯報表以檢視所有可用欄位。
 

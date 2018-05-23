@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到 Marketo
 description: Marketo for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>使用 Power BI 連接到 Marketo
 適用於 Marketo 的 Power BI 內容套件，可讓您深入了解您的 Marketo 帳戶有關潛在客戶和其活動的資料。建立此連接時可擷取您的資料，並自動依據該資料提供儀表板和相關報表。
@@ -43,8 +35,8 @@ ms.lasthandoff: 02/24/2018
    
    ![](media/service-connect-to-marketo/pbi_marketoconnect.png)
    
-   進一步了解 Marketo REST 端點：[http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/)。
-5. 使用 [基本]  驗證方法時，請輸入用戶端 ID 做為 **使用者名稱** 和用戶端密碼做為 **密碼**。 用戶端識別碼和用戶端密碼可於 Marketo 或從您的 Marketo 系統管理員取得 ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/))。 
+   深入閱讀 Marketo REST 端點：[ http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/)。
+5. 使用 [基本]  驗證方法時，請輸入用戶端 ID 做為 **使用者名稱** 和用戶端密碼做為 **密碼**。 Marketo 中提供用戶端識別碼與用戶端密碼，或是可從您的 marketo 系統管理員 ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)) 取得。 
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    

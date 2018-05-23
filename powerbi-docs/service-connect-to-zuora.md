@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到 Zuora
 description: Zuora for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2f7e4c666cf6ec3cb69424a3922f5feedd61bf89
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f283a8ed273dcb609e9d5160adbeb714e8935ab9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>使用 Power BI 連接到 Zuora
 Zuora for Power BI 可讓您以視覺化方式顯示重要的營收、帳單與訂閱資料。 使用預設儀表板與報表來分析使用狀況趨勢、追蹤帳單與付款，以及監視週期性營收，或根據您自己的獨特儀表板與報告需求進行自訂。
@@ -39,7 +31,7 @@ Zuora for Power BI 可讓您以視覺化方式顯示重要的營收、帳單與�
 3. 選取 [Zuora] \> [取得]。
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. 指定您的 Zuora URL。 這通常是 "https://www.zuora.com" ，請參閱以下關於[尋找這些參數](#FindingParams)的詳細資料。
+4. 指定您的 Zuora URL。 一般來說為 "https://www.zuora.com"，請參閱以下[尋找這些參數](#FindingParams)，以了解詳細資料。
 
    ![](media/service-connect-to-zuora/params.png)
 5. 在 [ **驗證方法**] 選取 [ **基本** ]，然後輸入使用者名稱及密碼，再選取 [ **登入**]。

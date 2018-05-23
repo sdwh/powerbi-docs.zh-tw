@@ -1,27 +1,19 @@
 ---
-title: "在 Windows 10 行動裝置應用程式中檢視 SSRS 行動報表和 KPI - Power BI"
-description: "Power BI for Windows 10 行動裝置應用程式提供重要內部部署商務資訊的即時觸控式行動存取。"
-services: powerbi
-documentationcenter: 
+title: 在 Windows 10 行動裝置應用程式中檢視 SSRS 行動報表和 KPI - Power BI
+description: Power BI for Windows 10 行動裝置應用程式提供重要內部部署商務資訊的即時觸控式行動存取。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 7d210e6f31cd76060bcc824622962804b82dc495
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7bbf03c35284924c415a9ae1348528ed80c3f2fe
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>在 Windows 10 Power BI 行動裝置應用程式中檢視 Reporting Services (SSRS) 行動報表和 KPI
 Power BI for Windows 10 行動裝置應用程式提供 SQL Server 2016 Reporting Services 中重要內部部署商務資訊的即時觸控式行動存取。 

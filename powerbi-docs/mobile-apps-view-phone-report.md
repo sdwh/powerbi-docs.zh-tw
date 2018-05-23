@@ -1,27 +1,19 @@
 ---
 title: 檢視為手機最佳化的 Power BI 報表
 description: 了解與報表頁面進行互動，該頁面已針對在 Power BI 手機應用程式中檢視進行最佳化。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 275dc9fff2f87dd4811eb1a3fe3db944a2965b58
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 8ec03ae7eebcba4505cad02b76b9c48fefef34cb
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>檢視為手機最佳化的 Power BI 報表
 
@@ -71,9 +63,9 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
   
     ![展開為焦點模式](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
-您在焦點模式所執行的動作會沿用至報表畫布，反之亦然，提供您順暢的探索體驗。 例如，如果您將視覺效果中的值醒目提示，然後返回整份報表，整個報表會篩選至您在視覺效果中醒目提示的值。
+您在焦點模式所執行的動作會沿用至報表畫布，反之亦然，提供您順暢的探索體驗。 比方說，如果您將視覺效果中的值醒目提示，然後返回整份報表，整個報表會篩選至您在視覺效果中醒目提示的值。
 
-由於螢幕大小限制，某些動作只有在焦點模式中才可進行︰
+有鑑於螢幕大小限制，某些動作只有在焦點模式中才可進行︰
 
 * **向下切入**視覺效果中顯示的資訊。 在下方深入了解如何在手機報表中[向下和向上切入](mobile-apps-view-phone-report.md#drill-down-in-a-visual)。
 * **排序**視覺效果中的值。

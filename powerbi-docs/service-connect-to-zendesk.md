@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到 Zendesk
 description: Zendesk for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 52adef9d30ec269e6e3a954632a54814b241623d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 997dd8b598e67d590723c72fb35245c3b3486c8b
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>使用 Power BI 連接到 Zendesk
 Zendesk 內容套件包含 Power BI 儀表板和一組 Power BI 報表，提供您有關於票證數量及代理程式效能的深入分析資料。 您可以使用提供的儀表板和報表，或是加以自訂，以反白顯示您特別有興趣的資訊。  資料會自動每天重新整理一次。 
@@ -42,7 +34,7 @@ Zendesk 內容套件包含 Power BI 儀表板和一組 Power BI 報表，提供�
 3. 選取 [Zendesk] \> [連接] 。
    
    ![](media/service-connect-to-zendesk/zendesk.png)
-4. 提供與您帳戶相關聯的 URL。 其格式為 **https://company.zendesk.com**，請參閱以下關於[尋找這些參數](#FindingParams)的詳細資訊。
+4. 提供與您帳戶相關聯的 URL。 其格式為 **https://company.zendesk.com**，請參閱下方的[尋找這些參數](#FindingParams)，以了解詳細資料。
    
    ![](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
 5. 出現提示時，請輸入您的 Zendesk 認證。  選取 [oAuth 2]  做為驗證機制，然後按一下 [登入] 。 請遵循 Zendesk 驗證流程。 (如果您已經在瀏覽器中登入 Zendesk，可能就不會出現輸入認證的提示。)

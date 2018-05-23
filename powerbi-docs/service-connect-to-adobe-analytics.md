@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到 Adobe Analytics
 description: 從 Power BI 連線到 Adobe Analytics，以使用在儀表板和報表中顯示您帳戶資料的應用程式。
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 452f970efda4c49e197ed578f5c5b05917aa43e7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>使用 Power BI 連接到 Adobe Analytics
 透過 Power BI 連接到 Adobe Analytics 時，一開始會連接到 Adobe Analytics 行銷雲端帳戶。 您會看到應用程式與 Power BI 儀表板和一組 Power BI 報表，供您深入了解網站流量和使用者維度。 資料會自動每天重新整理一次。 您可以與儀表板和報表互動，但無法儲存變更。
@@ -98,7 +90,7 @@ Power BI 使用 Adobe Analytics 報告 API 來定義並執行下列資料表的�
 ## <a name="troubleshooting"></a>疑難排解
 如果您在提供認證之後看到錯誤，指出您沒有權限，請與您的系統管理員確認是否有權存取 Adobe Analytics API。 另請確認所提供的 Adobe 識別碼已連結到行銷雲端組織 (與 Adobe Analytics 公司相關聯)。
 
-如果您成功通過認證畫面之後遇到錯誤，有可能是因為報表佔用太多時間來完成所造成。 常見的錯誤格式為「無法從 Adobe 分析報表取得資料。內容包含 &quot;查閱者、頁面&quot;，持續時間約為 xx 秒」*。 請檢閱＜包含的內容＞章節，並與您的 Adobe 執行個體大小相比較。 不幸的是目前無法解決此逾時。 不過我們正在考慮更新，以便更加支援較大的執行個體，請提供意見反應給 Power BI 小組，網址為 https://ideas.powerbi.com。
+如果您成功通過認證畫面之後遇到錯誤，有可能是因為報表佔用太多時間來完成所造成。 常見的錯誤格式為「無法從 Adobe 分析報表取得資料。內容包含 &quot;查閱者、頁面&quot;，持續時間約為 xx 秒」。 請檢閱＜包含的內容＞章節，並與您的 Adobe 執行個體大小相比較。 不幸的是目前無法解決此逾時。 不過我們正在考慮進行更新，以為較大的執行個體提供更佳的支援，請為 Power BI 小組提供您的意見反應，網址為 https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>後續步驟
 * [Power BI 中的應用程式是什麼？](service-install-use-apps.md)

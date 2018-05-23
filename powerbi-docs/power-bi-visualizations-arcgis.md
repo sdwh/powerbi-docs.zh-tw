@@ -1,28 +1,21 @@
 ---
-title: "與已和您共用的 ArcGIS 地圖互動"
-description: "在閱讀檢視中使用 ArcGIS 地圖 "
-services: powerbi
-documentationcenter: 
+title: 與已和您共用的 ArcGIS 地圖互動
+description: '在閱讀檢視中使用 ArcGIS 地圖 '
 author: mihart
 manager: kfile
-backup: 
-editor: 
+ms.reviewer: ''
 tags: power bi, service, desktop, mobile
-featuredvideoid: 
-qualityfocus: monitoring
-qualitydate: 06/23/2017
+featuredvideoid: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 3a4c722144b1d3d44dee0f742b5ae90ccef53fe3
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: 2a5e654062c056308431b2a94f7e2da4e3d46d17
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>在 Power BI 中與 ArcGIS 地圖互動
 本主題是從在 Power BI 服務、Power BI Desktop 或 Power BI Mobile 中「取用」ArcGIS 地圖的人員觀點來撰寫。 一旦建立者與您共用 ArcGIS 地圖，可利用許多方法與該地圖互動。  若要深入了解如何建立 ArcGIS 地圖，請參閱[由 Esri 提供的 ArcGIS 地圖教學課程](power-bi-visualization-arcgis.md)。
