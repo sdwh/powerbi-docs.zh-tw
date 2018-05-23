@@ -1,28 +1,20 @@
 ---
 title: 移動、調整大小及顯示視覺效果
 description: 在 Power BI 服務和 Power BI Desktop 中移動視覺效果及調整其大小
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 66df86d0db9767f29a1fdca637b95bb66cd9252d
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 38c8787592407e15711617f0baac10f2a81790dd
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中變更報告視覺效果的類型
 只有報告建立者和擁有者可以移動視覺效果及調整其大小。 在 Power BI 服務 (app.powerbi.com) 中，這表示在[編輯檢視](service-reading-view-and-editing-view.md)中開啟報告。

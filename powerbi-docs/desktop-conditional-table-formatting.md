@@ -1,28 +1,20 @@
 ---
 title: 在 Power BI Desktop 中設定資料表格式化的條件
 description: 將自訂格式套用至資料表
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1626c2af5906004b6b4f79f4830f003b96e241fc
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 9599b40940c9d9cca254bb2ed2e87c161cce371f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="conditional-formatting-in-tables"></a>設定資料表格式化的條件
 設定資料表格式化的條件時，您可以根據資料格值或根據其他值或欄位來指定自訂資料格背景色彩，也可以使用漸層色彩。 若要存取條件式格式設定，請在 Power BI Desktop [視覺效果] 窗格的 [欄位] 集區，選取您要格式化的 [值] 集區中，值旁邊的向下箭號 (或以滑鼠右鍵按一下欄位)。 您只能管理 [欄位] 集區之 [值] 區域中的欄位條件式格式設定。

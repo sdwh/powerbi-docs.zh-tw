@@ -1,28 +1,20 @@
 ---
 title: Power BI 中的高密度線路取樣
 description: Power BI 中的高密度線路取樣
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3fa4de000f553693c75439bd1e956e0882efb179
-ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
+ms.openlocfilehash: 7fb3e6163d63cdf3f40d0400f246095550fc9032
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Power BI 中的高密度線路取樣
 從 **Power BI Desktop** 的 2017 年 6 月版和 **Power BI 服務**的更新開始，有新的取樣演算法可以改善對高密度資料進行取樣的視覺效果。 例如，您可以利用零售商店的銷售結果來建立折線圖，而每間商店每年都會有一萬張以上的銷售收據。 這類銷售資訊的折線圖會對每間商店的資料進行取樣 (選取以有意義的方式轉譯該資料，來說明銷售隨著時間的變化)，並建立多數列的折線圖，進而代表基礎資料。 這是視覺化高密度資料的常見做法。 Power BI Desktop 已改善對高密度資料的取樣，本文會描述其詳細資料。

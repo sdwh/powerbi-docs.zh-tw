@@ -1,28 +1,20 @@
 ---
-title: "取得 Power BI 問題說明的 10 個祕訣"
-description: "當您有 Power BI 如何運作方式的問題時，可利用下列 10 種方法取得說明"
-services: powerbi
-documentationcenter: 
+title: 取得 Power BI 問題說明的 10 個祕訣
+description: 當您有 Power BI 如何運作方式的問題時，可利用下列 10 種方法取得說明
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0984e00dbe6b82a2b5b9cfc07f318ded03961f64
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>取得 Power BI 問題說明的 10 個祕訣
 您在使用 Power BI 時曾感到挫折嗎？或您曾在需要 Power BI 問題的解答時，因為無法即時如願而難以繼續嗎？ 
@@ -52,7 +44,7 @@ Power BI 小組會在他們的定期 [Power BI 部落格文章](https://powerbi.
 ## <a name="6-attend-training"></a>6 參加訓練
 您能選擇參加的訓練不勝枚舉，從可以實地操作的實驗室訓練到訓練短片一應俱全。
 
-* Power BI 網站上的[引導式學習](guided-learning/gettingstarted.yml#step-1)。
+* Power BI 網站上的[引導式學習](guided-learning/gettingstarted.yml?tutorial-step=1)。
 * Power BI 網站上現場或點播的[免費 Power BI 網路研討會](webinars.md)。
 
 您也可在網路上找到其他選項，例如︰

@@ -1,28 +1,20 @@
 ---
 title: 如何購買 Power BI Premium
 description: 了解如何管理 Power BI Premium，以及讓整個組織存取內容。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 10/17/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: e5bf5f4995c628640de2400f1097e89969eded7d
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2789f2e3e8198ddc0363fb07488f5fe8f39441a6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何購買 Power BI Premium
 了解如何為您的組織購買 Power BI Premium 容量。
@@ -79,7 +71,7 @@ ms.lasthandoff: 04/08/2018
 您現在可以在 Power BI 系統管理中心內管理這個容量。 如需詳細資訊，請參閱[管理 Power BI Premium](service-admin-premium-manage.md)。
 
 ## <a name="purchase-more-capacities"></a>購買更多的容量
-當您在 Power BI 管理入口網站的 [進階設定] 區段時，如果您是系統管理員，您會看到 [購買更多] 按鈕。 此按鈕可讓您連入 Office 365 入口網站。 進入 Office 365 系統管理中心之後，您可以執行下列動作。
+當您在 Power BI 管理入口網站的 [進階設定] 區段時，如果您是系統管理員，您會看到 [購買更多] 按鈕。 這個按鈕會帶您到 Office 365 入口網站。 到達 Office 365 系統管理中心之後，您可以執行下列動作。
 
 1. 選取 [計費] > [購買服務]。
 2. 在 [其他方案] 下，尋找您要購買更多的 Power BI Premium 項目。

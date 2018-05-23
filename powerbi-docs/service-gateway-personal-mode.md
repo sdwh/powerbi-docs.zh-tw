@@ -1,28 +1,20 @@
 ---
 title: 內部部署資料閘道 (個人模式)
 description: 適用於 Power BI 且個人可以用於連接到內部部署資料的資料閘道
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 97b1119577d90e6570625af7de95d3417d3c48ba
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>內部部署資料閘道 (個人模式)
 您可以使用內部部署資料來源，並使用閘道建立 Power BI 報表和儀表板。 **閘道**是一種軟體，可協助存取私用內部部署網路上所儲存的資料，然後可讓您使用 **Power BI 服務**這類線上服務中的資料。 **內部部署資料閘道 (個人模式)** 是最近發行的 Power BI 閘道更新，可讓個人在自己的電腦上安裝閘道，以及存取內部部署資料。

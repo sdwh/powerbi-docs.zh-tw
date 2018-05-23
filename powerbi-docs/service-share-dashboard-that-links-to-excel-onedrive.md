@@ -1,28 +1,20 @@
 ---
 title: 在 OneDrive 中共用連結到 Excel 檔案的儀表板 - Power BI
 description: 閱讀以了解如何在商務用 OneDrive 共用連線到 Excel 活頁簿的儀表板，其中有釘選自該活頁簿的磚。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 56dec052240c60543831ef05624943e3d71f953a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c8afcb15097a4d9a0d15f76304085f81daa17809
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>在 OneDrive 中共用連結到 Excel 檔案的 Power BI 儀表板
 在 Power BI 中，您可以[連接到商務用 OneDrive 的 Excel 活頁簿](service-excel-workbook-files.md)，並從該活頁簿將磚釘選至儀表板。 當您共用儀表板，或建立包含該儀表板的內容組件時：

@@ -1,28 +1,20 @@
 ---
 title: Power BI 開始使用協力廠商應用程式
 description: Power BI 開始使用協力廠商應用程式
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d1204c15e7f9cc0dae7685eae959ef2018b634a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7ac6cee3331333b40119d6f5ab014b2e39d2ef23
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-third-party-apps"></a>開始使用協力廠商應用程式
 有了 Power BI，您就可以使用 Microsoft 以外的公司或個人所建置的應用程式。 例如，您可能會使用將 Power BI 磚整合到自訂建置 Web 應用程式的協力廠商應用程式。 當您使用協力廠商應用程式時，系統會要求您將 Power BI 帳戶和資源特定權限授與該應用程式。 請務必只將權限授予給您已知且信任的應用程式。 應用程式的權限可以隨時撤銷。 請參閱[撤銷協力廠商應用程式權限](#revoke).

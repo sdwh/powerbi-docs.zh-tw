@@ -1,28 +1,20 @@
 ---
 title: 重新整理建立自 Excel 活頁簿的資料集 - 雲端
 description: 重新整理建立自 OneDrive 或 SharePoint Online 上 Excel 活頁簿的資料集
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 9c5d6faec5826391c25056c2c7eb43ad9c2cc70c
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: b7a49a04ed344d6977dba5ac739c0f0d41aca5b9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>重新整理建立自 OneDrive 或 SharePoint Online 上 Excel 活頁簿的資料集
 您可以將儲存於本機電腦，或商務用 OneDrive 與 SharePoint Online 這類雲端儲存體的 Excel 活頁簿加以匯入。 我們將討論使用雲端儲存體存放 excel 檔案的優點。 如需如何將 Excel 檔案匯入 Power BI 的詳細資訊，請參閱[從 Excel 活頁簿檔案取得資料](service-excel-workbook-files.md)。

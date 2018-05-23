@@ -1,28 +1,20 @@
 ---
 title: 建立 Cortana 的自訂 Power BI 回應頁面
 description: 在 Power BI 中建立 Cortana 的自訂回應頁面
-services: powerbi
-documentationcenter: ''
 author: yaron
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5933002b13e90a745397a4e77cafb1808f2ad28
-ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
+ms.openlocfilehash: d2f657423903b783c2e57822cabb577acd10a8bc
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>使用 Power BI 服務或 Power BI Desktop 建立 Cortana 的自訂回應頁面
 您可以使用 Power BI 的完整功能，建立稱為「Cortana 回應頁面」 (有時稱為*Cortana Answer Card*)、專為回答 Cortana 問題所設計的特殊報表頁面。

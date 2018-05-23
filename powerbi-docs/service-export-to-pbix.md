@@ -1,28 +1,20 @@
 ---
-title: "如何將報表從 Power BI 服務匯出至 Desktop (預覽)"
-description: "從 Power BI 服務將報表下載到 Power BI Desktop 檔案"
-services: powerbi
-documentationcenter: 
+title: 如何將報表從 Power BI 服務匯出至 Desktop (預覽)
+description: 從 Power BI 服務將報表下載到 Power BI Desktop 檔案
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>將報表從 Power BI 服務匯出至 Desktop (預覽)
 在 Power BI Desktop 中，您可以匯出 (也稱為「下載」) 報表至 Power BI 服務，方法是儲存報表，並選取 [發佈]。 您也可以另一個方向來匯出，並從 Power BI 服務下載報表到 Desktop。 在任一方向中，匯出的檔案副檔名為 *.pbix* 。
@@ -38,7 +30,7 @@ ms.lasthandoff: 03/02/2018
 2. 從功能表列中，選取 [檔案] > [下載報表]。
    
    > [!NOTE]
-   > 報表必須是在 2016 年 11 月 23 日後[使用 Power BI Desktop 建立](guided-learning/publishingandsharing.yml#step-2)，並在那之後進行更新，才能順利下載。 如果沒有，Power BI 服務中的「下載報表」功能表選項會是灰色。
+   > 報表必須是在 2016 年 11 月 23 日後[使用 Power BI Desktop 建立](guided-learning/publishingandsharing.yml?tutorial-step=2)，並在那之後進行更新，才能順利下載。 如果沒有，Power BI 服務中的「下載報表」功能表選項會是灰色。
    > 
    > 
 3. 建立 .pbix 檔案時，狀態橫幅會顯示進度。 當檔案已準備就緒時，系統會要求您開啟或儲存 .pbix 檔案。 檔案名稱與報表標題相符。

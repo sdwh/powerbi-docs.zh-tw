@@ -1,28 +1,20 @@
 ---
 title: 在 Power BI Desktop 中新增自訂資料行
 description: 在 Power BI Desktop 中快速建立新的自訂資料行
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f982ba613bef66514aab39b43cf0fe92b1b7b81c
-ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
+ms.openlocfilehash: 30f39cd2b79792e9d4d3c41a1d60a8ddce6802f6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>在 Power BI Desktop 中新增自訂資料行
 您可以使用 **Power BI Desktop** 中的**查詢編輯器**，輕鬆將資料的新自訂資料行新增到模型。 您可以使用簡單的按鈕建立定義自訂資料行的 [M 公式](https://msdn.microsoft.com/library/mt270235.aspx)，建立自訂資料行並為其重新命名。 M 公式有[完整的函式參考內容集](https://msdn.microsoft.com/library/mt779182.aspx)。 

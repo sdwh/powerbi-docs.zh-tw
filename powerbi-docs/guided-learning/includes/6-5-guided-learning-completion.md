@@ -4,13 +4,13 @@
 
 這是本課程的最後一節 (也是最後一個主題，除非您想要學習 DAX)，因此如果您已依照順序瀏覽所有這些章節，請花點時間鼓勵自己。 表現良好！ 您現在已十分熟悉這些「重要概念」：
 
-* 何謂 [Power BI](../gettingstarted.yml#step-1)
-* Power BI 的[建置組塊](../gettingstarted.yml#step-3)
-* [取得](../gettingdata.yml#step-3)資料並加以[模型化](../modeling.yml#step-1)
-* [視覺效果](../visualizations.yml#step-1)
-* 在 Power BI 服務中[探索資料](../exploringdata.yml#step-1)
-* 搭配使用 [Excel 和 Power BI](../powerbiandexcel.yml#step-1)
-* 並[發佈和共用](../publishingandsharing.yml#step-1)您的工作
+* 何謂 [Power BI](../gettingstarted.yml?tutorial-step=1)
+* Power BI 的[建置組塊](../gettingstarted.yml?tutorial-step=3)
+* [取得](../gettingdata.yml?tutorial-step=3)資料並加以[模型化](../modeling.yml?tutorial-step=1)
+* [視覺效果](../visualizations.yml?tutorial-step=1)
+* 在 Power BI 服務中[探索資料](../exploringdata.yml?tutorial-step=1)
+* 搭配使用 [Excel 和 Power BI](../powerbiandexcel.yml?tutorial-step=1)
+* 並[發佈和共用](../publishingandsharing.yml?tutorial-step=1)您的工作
 
 現在您腦中已具備這些大量的知識，您已準備好學以致用！ 您可透過以下連結進行下載或使瀏覽器連接到 Power BI 服務：
 

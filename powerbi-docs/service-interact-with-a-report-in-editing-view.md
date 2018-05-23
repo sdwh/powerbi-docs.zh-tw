@@ -1,28 +1,20 @@
 ---
 title: 與編輯檢視的報表互動
 description: 在 Power BI 服務中與報表編輯檢視的報表互動
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6b4fcd59b16e9fd7ef0dcddfc44a93bb842a32f8
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>在 Power BI 服務中與編輯檢視的報表互動
 報表可以在 Power BI 服務和 Power BI Desktop 中建立與編輯。 在 Power BI 服務中，您可以在**編輯檢視**中建立和編輯報表。 而在 Power BI Desktop 中，您可以在[**報表檢視**](desktop-report-view.md)中建立和編輯報表。 本文涵蓋 Power BI 服務中的編輯檢視。 

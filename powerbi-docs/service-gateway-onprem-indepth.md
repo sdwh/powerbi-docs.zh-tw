@@ -1,28 +1,20 @@
 ---
 title: 深入了解內部部署資料閘道
 description: 本文探討內部部署閘道的深入資訊。 這會探討服務與 Azure Active Directory 之間的運作方式以及本機 Active Directory 使用 Analysis Services 時的運作方式
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5480768fc088b3a32a1af222d38e3829298e8f0d
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解內部部署資料閘道
 您組織中的使用者可以存取內部部署資料 (他們已經具有存取授權)，但在那些使用者能夠連線至您的內部部署資料來源之前，必須先安裝並設定內部部署資料閘道。 此閘道有助於讓雲端的使用者快速安全地以幕後通訊方式，在內部部署資料來源和雲端之間往返。

@@ -1,28 +1,20 @@
 ---
-title: "如何將超連結加入資料表"
-description: "資料表中的超連結"
-services: powerbi
-documentationcenter: 
+title: 如何將超連結加入資料表
+description: 資料表中的超連結
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: identified
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 69c9943045777950c52d21a441c87a67dd9feab1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d696a7492f1295f2e2c9b39088b0eacdb66b15ca
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="hyperlinks-in-tables"></a>資料表中的超連結
 本主題將教導您如何使用 Power BI Desktop 建立超連結。 建立之後，請接著使用 Desktop 或 Power BI 服務將那些超連結新增至您的報表資料表和矩陣中。 
@@ -53,7 +45,7 @@ ms.lasthandoff: 02/24/2018
    * 選取要使用的圖表。
    * 選取油漆滾筒圖示![](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png)來開啟 [格式化] 索引標籤。
    * 展開 [值]、找到 **URL 圖示**並將它**開啟**。
-6. (選擇性) [將報表從 Desktop 發佈到 Power BI 服務](guided-learning/publishingandsharing.yml#step-2)，然後在 Power BI 服務中開啟報表。 超連結在該處也可以運作。
+6. (選擇性) [將報表從 Desktop 發佈到 Power BI 服務](guided-learning/publishingandsharing.yml?tutorial-step=2)，然後在 Power BI 服務中開啟報表。 超連結在該處也可以運作。
 
 ### <a name="for-data-connected-with-directquery"></a>使用 DirectQuery 連接資料
 您無法在 DirectQuery 模式中建立新的資料行。  但若資料已經包含 URL，您可以將它們轉換成超連結。
@@ -61,7 +53,7 @@ ms.lasthandoff: 02/24/2018
 1. 在 [報表] 檢視中，使用包含 URL 的欄位建立資料表。
 2. 選取該資料行，且在 [模型] 索引標籤中選擇 [資料類別] 的下拉式清單。
 3. 選取 [Web URL] 。 超連結為藍色加底線。
-4. (選擇性) [將報表從 Desktop 發佈到 Power BI 服務](guided-learning/publishingandsharing.yml#step-2)，然後在 Power BI 服務中開啟報表。 超連結在該處也可以運作。
+4. (選擇性) [將報表從 Desktop 發佈到 Power BI 服務](guided-learning/publishingandsharing.yml?tutorial-step=2)，然後在 Power BI 服務中開啟報表。 超連結在該處也可以運作。
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-excel-power-pivot"></a>在 Excel Power Pivot 中建立資料表或矩陣超連結
 將超連結新增至 Power BI 資料表和矩陣的另一種方式，是先在資料集內建立超連結，然後才從 Power BI 匯入/連線至該資料集。 這個範例會使用 Excel 活頁簿。

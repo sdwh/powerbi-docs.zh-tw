@@ -1,28 +1,20 @@
 ---
 title: Power BI 篩選窗格概觀
 description: Power BI 服務和 Power BI 儀表板中報表篩選窗格的概觀
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/15/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 00b0b116aa59ebab1d963a8803f788040761d9f5
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>報表 [篩選] 窗格概觀
 這篇文章深入探討報表 [篩選] 窗格。 您會在 [Power BI 服務的 [編輯檢視] 和 [正在讀取檢視]](service-reading-view-and-editing-view.md)，以及 [Power BI Desktop 的 [報表檢視]](desktop-report-view.md) 中看見此窗格。

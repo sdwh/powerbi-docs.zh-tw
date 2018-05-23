@@ -1,28 +1,20 @@
 ---
-title: "瀏覽可在 Power BI 使用的範例"
-description: "適用於 Power BI 的範例內容套件、PBIX 檔案及 Excel 資料集"
-services: powerbi
-documentationcenter: 
+title: 瀏覽可在 Power BI 使用的範例
+description: 適用於 Power BI 的範例內容套件、PBIX 檔案及 Excel 資料集
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: monitoring
-qualitydate: 03/05/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8a2b330ee134bf8aeb94315b90e71824ec1eb8ef
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: cf93d16eae91743ce52f1de915336c6df4d82202
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>哪種範例資料可搭配 Power BI 使用？
 您是否剛接觸 Power BI 並想要試用，但沒有任何資料；  或您可能有資料集，但因為 (還) 不了解 Power BI 的運作方式，而擔心可能會不小心損害資料集？

@@ -1,29 +1,21 @@
 ---
-title: "檢視 Power BI 服務中的相關內容"
-description: "瀏覽變得更容易，檢視儀表板、報表及資料集中的相關內容"
-services: powerbi
-documentationcenter: 
+title: 檢視 Power BI 服務中的相關內容
+description: 瀏覽變得更容易，檢視儀表板、報表及資料集中的相關內容
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 43dffab862173779068f1180f83bc6c92bf98013
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9aa0169f76515dd2f05a3e9debb8bc3d10cbdd07
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>檢視 Power BI 服務中的相關內容
 [相關內容] 窗格會顯示您的 Power BI 服務內容 (儀表板、報表及資料集) 如何互連。  這個窗格經過了改良，讓您可以從中執行重新整理、重新命名、產生深入資訊等常用工作。 選取相關報表或儀表板，其隨即在您的 Power BI 工作區中開啟。   

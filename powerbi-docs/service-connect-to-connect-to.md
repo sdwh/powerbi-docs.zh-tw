@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到 comScore Digital Analytix
 description: comScore Digital Analytix for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c7e476cb9e5a210ce2d37691c44ed05dd9f3c256
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bc9a8637416bdea50e955c1aea73bbcfeed51bb6
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>使用 Power BI 連接到 comScore Digital Analytix
 使用 Power BI 內容套件以視覺化方式檢視和瀏覽 Power BI 中的 comScore Digital Analytix 資料。 資料會自動每天重新整理一次。
@@ -71,7 +63,7 @@ ms.lasthandoff: 02/24/2018
 
 您連接的資料中心取決於您瀏覽至 comScore 中的 URL。
 
-如果使用 https://dax.comscore.com，請輸入 "US"；如果使用 https://dax.comscore.eu，請輸入"EU"。
+如果您使用 https://dax.comscore.com，請輸入 "US"，如果您使用 https://dax.comscore.eu，請輸入 "EU"。
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 

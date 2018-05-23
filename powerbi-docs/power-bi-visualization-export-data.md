@@ -1,29 +1,21 @@
 ---
-title: "從 Power BI 視覺效果匯出資料"
-description: "從報表視覺效果和儀表板視覺效果匯出資料，並在 Excel 中檢視。"
-services: powerbi
-documentationcenter: 
+title: 從 Power BI 視覺效果匯出資料
+description: 從報表視覺效果和儀表板視覺效果匯出資料，並在 Excel 中檢視。
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: jtlLGRKBvXY
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b5e5463f19c95106a026770ad987f013f472e541
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5a3192910faf41bee925eb4938098bccb6434bb2
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="export-data-from-visualizations"></a>從視覺效果匯出資料
 如果您想要查看用來建立視覺效果的資料，可以[在 Power BI 中顯示該資料](service-reports-show-data.md)或將資料匯出至 Excel 成為 .xlsx 或 .csv 檔案。   

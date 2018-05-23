@@ -1,29 +1,21 @@
 ---
-title: "向下鑽研 Power BI 的視覺效果"
-description: "本文說明如何向下鑽研 Microsoft Power BI 服務和 Power BI Desktop 的視覺效果。"
-services: powerbi
-documentationcenter: 
+title: 向下鑽研 Power BI 的視覺效果
+description: 本文說明如何向下鑽研 Microsoft Power BI 服務和 Power BI Desktop 的視覺效果。
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: MNAaHw4PxzE
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 02/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fb834c92953c2cafcbca77bc1b3828b385755bca
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: d622e6b461668d1972a78f6844bd269fb6596061
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>向下鑽研 Power BI 的視覺效果
 ## <a name="drill-down-requires-a-hierarchy"></a>向下鑽研需要階層
@@ -35,7 +27,7 @@ ms.lasthandoff: 02/28/2018
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon4.png)  ![](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)  ![](media/power-bi-visualization-drill-down/power-bi-drill-icon3.png)
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) ![](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png)  
 
-日期是獨特的階層類型。 當您將日期欄位新增到視覺效果時，Power BI 會自動新增包含年、季、月和日的時間階層。 如需詳細資訊，請參閱[視覺效果階層和向下鑽研行為](guided-learning/visualizations.yml#step-18)或觀看以下影片。
+日期是獨特的階層類型。 當您將日期欄位新增到視覺效果時，Power BI 會自動新增包含年、季、月和日的時間階層。 如需詳細資訊，請參閱[視覺效果階層和向下鑽研行為](guided-learning/visualizations.yml?tutorial-step=18)或觀看以下影片。
 
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/MNAaHw4PxzE?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -126,7 +118,7 @@ Power BI 可讓您一次展開一個子集，或一次展開所有子集。 您�
 請注意，季度報表與年度報表的資料會相同，但在您向下切入至針對 [值] 所指定的詳細等級之後，您會看到單一報表變得更具體，而「所有月份」報表則有更多資料。
 
 
-|展開模式|年|季|月|日|
+|展開模式|年|季|月|天|
 | ---|:---:|:---:|:---:|---|
 |單一|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
 |全部|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
@@ -147,7 +139,7 @@ Power BI 可讓您一次展開一個子集，或一次展開所有子集。 您�
 除了視覺效果，我們還會看到每份報表呈現資料中所反映的階層。 下表顯示向下切入單一國家/地區或所有國家/地區的報表中 [顯示資料] 的結果。 當您向下切入時，您會看到單一報表變得更具體，而「所有國家/地區」報表則有更多資料。
 
 
-| 展開模式|領域|鄉/鎮/市/區|郵遞區號|名稱|
+| 展開模式|地區|鄉/鎮/市/區|郵遞區號|名稱|
 | ---|:---:|:---:|:---:|---|
 |單一|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
 |全部|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|

@@ -1,29 +1,21 @@
 ---
-title: "Power BI 服務和 Desktop 中的報表視覺效果概觀"
-description: "Microsoft Power BI 中的報表視覺效果概觀。"
-services: powerbi
-documentationcenter: 
+title: Power BI 服務和 Desktop 中的報表視覺效果概觀
+description: Microsoft Power BI 中的報表視覺效果概觀。
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6846a58642dd65545016a7159f6bb461edaf373
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f0e0dc02fc07849c68c00ce857da0ccbeb2d76df
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 報表的視覺效果
 視覺效果會顯示在資料中探索到的見解。 Power BI 報表可能需要有一個視覺效果的單一頁面，或是它可能會有充滿視覺效果的頁面。 在 Power BI 服務中，視覺效果可以[從報表釘選到儀表板](service-dashboard-pin-tile-from-report.md)。 

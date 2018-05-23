@@ -1,28 +1,20 @@
 ---
 title: 在 Power BI 報表中進行篩選和醒目提示的相關事項
 description: 在 Power BI 報表中進行篩選和醒目提示的相關事項
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ffbab0c1e203ce3fd8779b4eebca90debbb531e5
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 855ed26172fa0f157787ba4cfdc3e7e6ab4ff4ba
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>在 Power BI 報表中進行篩選和醒目提示的相關事項
 ***篩選***會保留您最關切的資料，而將其他所有資料移除。  ***醒目提示***與篩選不同，它不會移除資料，而會將一部分可見資料醒目提示，未醒目提示的資料會保持可見但呈現暗灰色。

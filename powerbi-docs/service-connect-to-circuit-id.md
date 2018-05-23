@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到電路識別碼
 description: Circuit ID for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 57c93ac0bc64e7171abf659ba54e453bf215296a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0cc0125f35dc90a03eeaeed0d5e69c0a5c3115ae
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>使用 Power BI 連接到電路識別碼
 使用 Power BI 可以輕鬆地分析來自 Circuit ID 的通訊資料。 Power BI 會擷取您的資料，然後根據該資料建置預設的儀表板和相關報表。 在建立連接之後，您可以瀏覽資料並自訂儀表板以符合您的需求。 資料會自動每天重新整理。

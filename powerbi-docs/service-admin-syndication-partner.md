@@ -1,28 +1,20 @@
 ---
 title: 無法將 Power BI 加入 O365 合作夥伴中
 description: 無法將 Power BI 加入 Office 365 同步發行合作夥伴中。 同步發行模型是 Office 365 使用的購買模型。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ace24b392668b5459d21a451319fd54eb6430371
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 39f40c4b8aaf53e81f15c1ad29d1d8425f017468
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>無法將 Power BI 加入 Office 365 合作夥伴訂閱
 Office 365 允許公司將 Office 365 與其所擁有的解決方案進行搭配整合並加以轉售 ，讓客戶只需透過一個連絡窗口，就能處理購買、帳單和支援等事宜。

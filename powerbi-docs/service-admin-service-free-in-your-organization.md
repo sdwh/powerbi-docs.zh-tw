@@ -1,28 +1,20 @@
 ---
 title: 組織的 Power BI (免費)
 description: 本文從組織觀點探討 Power BI (免費) 的選項。 如果您是您租用戶的系統管理員，本文將向您說明如何管理免費註冊。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5da8b4cbb86766e6b411af902fce4bf18f480612
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2ba97b76b13c9adf3c9f20d5d42c5ec9c363edda
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>組織的 Power BI (免費)
 這會查看貴組織中可如何使用 Power BI (免費) 供應項目。 組織代表您有一個租用戶，而且可以管理該租用戶內的使用者與服務。 身為管理員，您可以控制授權指派，或您可以允許使用者以個人身分註冊。 我們將探討 Power BI (免費) 授權，以及如何控制個人註冊。

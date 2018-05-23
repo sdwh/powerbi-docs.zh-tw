@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到 VMob
 description: VMob for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 89d1a4cecb7c62dffe71524353bcd48957245594
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b1f2970ad73783acf3736856463915161056b801
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>使用 Power BI 連接到 VMob
 透過 Power BI 和 VMob 內容套件來追蹤和瀏覽 VMob 資料很容易。 Power BI 會擷取下列資料：過去 30 天任何時候的使用者統計資料、過去 30 天的零售 KPI，以及過去 30 天的行銷活動績效。

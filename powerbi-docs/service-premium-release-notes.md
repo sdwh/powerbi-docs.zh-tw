@@ -1,28 +1,20 @@
 ---
 title: Power BI Premium 版本資訊
 description: 閱讀 Power BI Premium 的版本資訊 - 適用於您的組織或小組的專用容量。
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 91126fa362dd6bca3e85b28959b5059825cd8a07
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-premium-release-notes"></a>Power BI Premium 版本資訊
 下列為 Power BI Premium 的版本資訊：專用容量為您的組織或小組提供更可靠的效能、更大的資料磁碟區、即使檢視者沒有每個的使用者授權也能夠散發內容。

@@ -1,34 +1,26 @@
 ---
 title: Power BI 報表中的文字方塊和圖形
 description: 使用 Microsoft Power BI 服務在報表中新增及建立文字方塊和圖形的文件。
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
+ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5e71159e2c7d0cb7439a14bf5d8e082192c4ab7a
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="static-content-in-power-bi-reports"></a>Power BI 報表中的靜態內容
 可以使用 Power BI 服務和 Power BI Desktop 將文字方塊和圖形新增至報表。 在這兩種情況下，您都必須要有報表的編輯權限。 如果報表已在 Power BI 服務中與您共用，則您將不具有編輯權限。 
 
-看看 Will 如何使用 Power BI Desktop 來[將靜態影像新增至報表](guided-learning/visualizations.yml#step-11)，並依照影片下方的步驟，使用 Power BI 服務來嘗試完成同樣的動作。
+看看 Will 如何使用 Power BI Desktop 來[將靜態影像新增至報表](guided-learning/visualizations.yml?tutorial-step=11)，並依照影片下方的步驟，使用 Power BI 服務來嘗試完成同樣的動作。
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
 > 

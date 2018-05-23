@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到帶狀線
 description: Stripe for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8d5c99f901471d61ec8483e1f8c898071ce8c25c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 533a8ae7f0030c70ed5212c890215a2b43d8e870
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>使用 Power BI 連接到帶狀線
 您可以在 Power BI 中，使用 Power BI 內容套件來視覺化及瀏覽 Stripe 資料。 Power BI 的 Stripe 內容套件會提取有關您的客戶、費用、事件和發票的資料。 這些資料包括過去 30 天的最近一萬個事件和五千筆費用。 此內容會依您控制的排程每天自動重新整理一次。 

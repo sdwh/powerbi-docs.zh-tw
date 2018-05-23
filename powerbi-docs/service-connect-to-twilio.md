@@ -1,28 +1,20 @@
 ---
 title: 使用 Power BI 連接到 Twilio
 description: Twilio for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 04f1c71aa70d171b6a786ab8bdc32dc9686b14c3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f81330ec331ae42dea994982369428e9f7eb23aa
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>使用 Power BI 連接到 Twilio
 Power BI 的 Microsoft Twilio 內容套件可讓您提取 Power BI 資料，並建立現成的 [Twilio 儀表板](https://powerbi.microsoft.com/integrations/twilio)和報表，顯示資料的深入解析。 您也可以針對 Power BI 所建立的資料集，建立您自訂的報表和儀表板。 資料會每天重新整理一次，讓您隨時查看最新的資料。

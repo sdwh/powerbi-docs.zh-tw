@@ -1,28 +1,20 @@
 ---
 title: 使用新的 Office 365 試用版註冊 Power BI
 description: 使用新的 Office 365 試用版註冊 Power BI
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5db7d92b7d62d1518682d831dd425e8b4b6efe86
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: dd43c063d56f75fd1ba45b6c596f54fd002adad6
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>使用新的 Office 365 試用版註冊 Power BI
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -45,7 +37,7 @@ ms.lasthandoff: 04/08/2018
 4. 這樣就大功告成了！  完成後，系統會將您重新導向至 Power BI。
 
 ## <a name="important-considerations"></a>重要考量
-使用這個註冊方法會建立新的組織租用戶，而且您將會成為該租用戶的系統管理員。  由於 Power BI 中的共用僅限於單一租用戶，因此您無法與這個租用戶外部的使用者共用。  例如，如果您在步驟 2 中建立租用戶 yourcompany.onmicrosoft.com，您將無法與 yourcompany.com 上的使用者共用。您可以如 [這個說明主題](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG)所述，新增使用者至租用戶，再與其共用。
+使用這個註冊方法會建立新的組織租用戶，而且您將會成為該租用戶的系統管理員。 您可以如 [這個說明主題](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG)所述，新增使用者至租用戶，再與其共用。
 
 ## <a name="next-steps"></a>後續步驟
 [管理貴組織中的 Power BI](service-admin-administering-power-bi-in-your-organization.md)  

@@ -1,28 +1,20 @@
 ---
 title: 管理 Power BI 和 Office 365 中的應用程式工作區
 description: Power BI 中的應用程式工作區是建置在 Office 365 群組上的共同作業體驗。 管理 Power BI 和 Office 365 中的應用程式工作區。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d8aac093b06910d5d32c2e5d33951db9448757c4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 859ab3fdfd06040d8bbf131ab91ea6c9f84deb40
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>管理 Power BI 和 Office 365 中的應用程式工作區
 [Power BI 或 Office 365 中應用程式工作區](service-install-use-apps.md)的建立者或管理員，有幾個管理 Power BI 中工作區的層面要管理。 您在 Office 365 中管理的其他層面。 

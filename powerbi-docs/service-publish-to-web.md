@@ -1,28 +1,20 @@
 ---
 title: Power BI 的 [發行至 Web]
 description: 透過 Power BI 的 [發行至 Web]，您可以輕鬆地使用任何裝置，線上內嵌互動式 Power BI 視覺效果，例如內嵌至部落格文章、網站，或透過電子郵件、社交媒體傳送。
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: b85ffb97948976e25347039dfa4f81dda9f1ea7c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -31,7 +23,7 @@ ms.lasthandoff: 04/03/2018
 您也可以輕鬆編輯、更新、重新整理或取消共用已發佈的視覺效果。
 
 > [!WARNING]
-> 使用 [發行至 Web] 時，網際網路上的任何人都可以檢視您發佈的報表或視覺效果。 無須驗證即可檢視這些報表。 使用 [發佈至網路] 時，請只針對網際網路上所有人 (未經驗證的一般大眾) 皆可檢視的報表和資料。 這包括報表中所彙總的詳細等級資料。 發行這份報表之前，請先確定您有權能公開共用資料和視覺效果。 請勿發行機密或專屬資訊。 如有疑問，請先核查貴組織的原則再發行。
+> 使用 [發行至 Web] 時，網際網路上的任何人都可以檢視您發佈的報表或視覺效果。 無須驗證即可檢視這些報表。 使用 [發佈至網路] 時，請只針對網際網路上所有人 (未經驗證的一般大眾) 皆可檢視的報表和資料。 這包括報表中所彙總的詳細等級資料。 發行此報表之前，請確認您有公開分享資料及視覺效果的權限。 請勿發行機密或專屬資訊。 如有疑問，請先核查貴組織的原則再發行。
 
 ## <a name="how-to-use-publish-to-web"></a>如何使用 [發佈至網路]
 

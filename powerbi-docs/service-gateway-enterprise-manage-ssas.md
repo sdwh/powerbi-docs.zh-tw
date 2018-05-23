@@ -1,28 +1,20 @@
 ---
 title: 管理您的資料來源─Analysis Services
 description: 如何管理內部部署資料閘道及屬於該閘道的資料來源。 本文同時適用於多維度和表格式模式的 Analysis Services
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: fe875310f7dbfd6b0240096f3ed542d8031bcf99
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理您的資料來源─Analysis Services
 安裝內部部署資料閘道之後，您必須新增可搭配閘道使用的資料來源。 本文將探討如何使用閘道和資料來源。 您可以針對已排程的重新整理或即時連線，使用 Analysis Services 資料來源。
@@ -132,7 +124,7 @@ ms.lasthandoff: 04/08/2018
 然後，您會看到加入規則及測試指定使用者的選項。
 
 > [!NOTE]
-> 您可能會不小心變更無意更動的使用者。 例如，如果您的**取代 (原始值)** 是 @contoso.com，而您的**使用 (新名稱)** 是 @contoso.local，之後 @contoso.local 將會取代所有登入包含 @contoso.com 的使用者。 此外，如果您的**代替 (原始名稱)**為 dave@contoso.com，而您的**使用 (新名稱)**為 dave@contoso.local，具有 v-dave@contoso.com登入的使用者會作為 v-dave@contoso.local 傳送。
+> 您可能會不小心變更無意更動的使用者。 例如，如果您的**取代 (原始值)** 是 @contoso.com，而您的**使用 (新名稱)** 是 @contoso.local，之後 @contoso.local 將會取代所有登入包含 @contoso.com 的使用者。 此外，如果您的**代替 (原始名稱)** 為 dave@contoso.com，而您的**使用 (新名稱)** 為 dave@contoso.local，具有 v-dave@contoso.com登入的使用者會作為 v-dave@contoso.local 傳送。
 > 
 > 
 
