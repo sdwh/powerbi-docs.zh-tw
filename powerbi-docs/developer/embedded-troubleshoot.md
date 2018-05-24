@@ -1,27 +1,19 @@
 ---
 title: 為您的內嵌應用程式進行疑難排解
 description: 本文探討您在從 Power BI 內嵌內容時，可能會遇到的幾個常見問題。
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 13bdbbfec2e76b526b92d65f6f9f5cd1372f2094
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 2108d8fc290a5af568a3e06ae5986e82413b680b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -144,5 +136,3 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 如需詳細資訊，請參閱 [Power BI Embedded 常見問題集](embedded-faq.md)。
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-
-

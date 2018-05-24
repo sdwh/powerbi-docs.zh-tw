@@ -1,27 +1,19 @@
 ---
 title: Power BI 的技術白皮書
 description: 技術白皮書可讓您更深入探索 Power BI 主題。
-services: powerbi
-documentationcenter: ''
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/11/2018
-ms.author: maghan
-ms.openlocfilehash: 049ffb993e749e9cb251130438e351d8adbe3bdf
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
+ms.author: maggies
+ms.openlocfilehash: e64850351c9bdc1877eed3a53323e7934e11fbe7
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 的技術白皮書
 
@@ -37,11 +29,12 @@ ms.lasthandoff: 04/16/2018
 | [安全性](service-admin-power-bi-security.md) |提供 Power BI 安全性的詳細說明。 |
 | [Power BI 與 GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Power BI 將非常有助於您符合 GDPR 的規範。 本文件的目的是提供您一些 GDPR 的基本了解，並將其與 Power BI 相關聯。 盡管在這份文件中所述的特定情況下，GDPR 合規性是強制性的，但它絕不是「核取方塊」練習。 這也是加強您的整體資料保護和隱私權功能的一種方式。|
 | [使用 Azure Active Directory B2B 將 Power BI 內容散發給外部來賓使用者](https://aka.ms/powerbi-b2b-whitepaper)|本文概述如何使用 Azure Active Directory 企業對企業 (AAD B2B) 的整合，將內容散發給組織外部的使用者。|
-| [報表和視覺效果的最佳設計做法](power-bi-visualization-best-practices.md) |提供在 Power BI 中設計報表的最佳做法。 |
 | [使用 Power BI 進行進階分析](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |描述 Power BI 的進階分析功能，包括預測性分析、自訂視覺效果、R 整合和資料分析運算式。 |
+| [報表和視覺效果的最佳設計做法](power-bi-visualization-best-practices.md) |提供在 Power BI 中設計報表的最佳做法。 |
 | [雙向篩選](desktop-bidirectional-filtering.md) |說明 Power BI Desktop 中的雙向交叉篩選 (技術白皮書另涵蓋 SQL Server Analysis Services 2016，這兩者有相同的行為)。 |
 | [SQL Server 2016 Analysis Services 中的 DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |對於 SQL Server 2016，DirectQuery 已經過重新設計，讓速度和效能大幅提升，但現在要了解和實作也變得較複雜。 |
-| [Securing the Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (保護表格式 BI 語意模型) |此技術白皮書介紹表格式 BI 語意和 Power BI 的資訊安全模型。 您將了解如何建立角色、實作動態安全性、設定模擬設定、管理角色，以及選擇連線到適用於您網路安全性內容之模型的方法。 |
 | [Power BI 和 SAP BW](https://aka.ms/powerbiandsapbw)| 本文描述 SAP 客戶可如何從將 Power BI 連線到其現有的 SAP Business Warehouse (BW) 系統中受益。|
+| [Power BI 管理與部署方法](http://go.microsoft.com/fwlink/?LinkId=785915&clcid=0x409) | 提供 Power BI 生態系統內的控管概念、選項和建議。 |
+| [Securing the Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (保護表格式 BI 語意模型) |此技術白皮書介紹表格式 BI 語意和 Power BI 的資訊安全模型。 您將了解如何建立角色、實作動態安全性、設定模擬設定、管理角色，以及選擇連線到適用於您網路安全性內容之模型的方法。 |
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)

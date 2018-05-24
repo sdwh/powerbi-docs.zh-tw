@@ -1,27 +1,19 @@
 ---
-title: "Power BI 服務內容套件計劃概觀"
-description: "內容套件認證計劃"
-services: powerbi
-documentationcenter: 
+title: Power BI 服務內容套件計劃概觀
+description: 內容套件認證計劃
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
-ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
+ms.openlocfilehash: cfb9727a41d602ce14bfd2a403a87e82d2f0e94d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 服務內容套件計劃概觀
 內容套件是一組全新內容，可讓使用者立即從來源取得深入剖析資訊。 內容套件通常著重於可提供角色、網域或工作流程深入剖析資訊的特定商務案例。
@@ -84,8 +76,8 @@ Power BI 服務內容套件支援任何 REST API 或 OData 摘要。 Power BI �
 
 歡迎您使用電子郵件提出問題：[pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
-## <a name="support"></a>支援
-開發期間如需支援，請使用 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)。 我們會主動監視和管理該網站， 讓適當的小組可快速開始處理客戶事件。
+## <a name="support"></a>Support
+如需在開發期間的支援，請使用 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)。 我們會主動監視和管理該網站， 讓適當的小組可快速開始處理客戶事件。
 
 ## <a name="next-step"></a>下一個步驟
 [撰寫](template-content-pack-authoring.md)

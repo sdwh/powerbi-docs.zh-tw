@@ -1,28 +1,20 @@
 ---
-title: "如何重新整理 Xero 內容套件認證"
-description: "如果您使用 Xero Power BI 內容套件，內容套件每日更新可能會因為最近的 Power BI 服務事件而發生問題。"
-services: powerbi
-documentationcenter: 
+title: 如何重新整理 Xero 內容套件認證
+description: 如果您使用 Xero Power BI 內容套件，內容套件每日更新可能會因為最近的 Power BI 服務事件而發生問題。
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 2be07994ebd136fa3cd99cd3d64967618cde7258
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5978443f05e039c34ff023f235624968b5eb8a3e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>如何在重新整理失敗時，重新整理 Xero 內容套件認證
 如果您使用 Xero Power BI 內容套件，內容套件每日更新可能會因為最近的 Power BI 服務事件而發生問題。
@@ -52,7 +44,7 @@ ms.lasthandoff: 02/24/2018
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 
-如果重新整理仍然有問題，歡迎來信詢問：[http://support.powerbi.com](http://support.powerbi.com)。 
+如果重新整理仍然有問題，歡迎來信詢問：[http://support.powerbi.com](http://support.powerbi.com) 
 
 如需深入了解 Power BI 的 Xero 內容套件，請瀏覽 [Xero 內容套件說明頁](service-connect-to-xero.md)。
 

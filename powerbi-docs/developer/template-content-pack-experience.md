@@ -1,34 +1,26 @@
 ---
-title: "Power BI 中的範本內容套件體驗"
-description: "範本內容套件體驗"
-services: powerbi
-documentationcenter: 
+title: Power BI 中的範本內容套件體驗
+description: 範本內容套件體驗
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maghan
-ms.openlocfilehash: fb1aaded94ce5411cf26257a1e561125cec9a347
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 1a29767eb76122865e93927bbbec1fbdcebe5678
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Power BI 中的範本內容套件體驗
 本節將提供連線至 ISV [內容套件](../service-connect-to-services.md)之使用者的一般體驗重點。 
 
 透過連接到已發行的內容套件 (網址為 https://app.powerbi.com/getdata/services)，自行嘗試連線體驗 (例如如下所述的 [GitHub 內容套件](https://app.powerbi.com/getdata/services/github))。
 
-## <a name="connect"></a>連接
+## <a name="connect"></a>連線
 若要開始使用，使用者可瀏覽內容套件庫並選取要連接的內容套件。 內容套件項目會提供名稱、圖示和描述性文字，以為使用者提供更多資訊。
 
 ![連線](media/template-content-pack-experience/github_data.png)

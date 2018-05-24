@@ -1,27 +1,19 @@
 ---
-title: "使用開發人員工具建立自訂視覺效果"
-description: "自訂視覺效果可讓您滿足使用者的需求，並契合應用程式的設計。 您可以使用開發人員工具來建立 Power BI 的自訂視覺效果。"
-services: powerbi
-documentationcenter: 
+title: 使用開發人員工具建立自訂視覺效果
+description: 自訂視覺效果可讓您滿足使用者的需求，並契合應用程式的設計。 您可以使用開發人員工具來建立 Power BI 的自訂視覺效果。
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: c7ed6a9b8acc74c9d4e39ff21a10624a208847f4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>使用開發人員工具建立自訂視覺效果
 自訂視覺效果可讓您滿足使用者的需求，並契合應用程式的設計。 您可以使用開發人員工具來建立 Power BI 的自訂視覺效果。
@@ -87,7 +79,7 @@ ms.lasthandoff: 03/09/2018
     --install-cert  Install localhost certificate
     </code></pre>
 
-<a name"ssl-setup"></a>
+<a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>伺服器憑證安裝
 若要啟用視覺效果的即時預覽，需具備受信任的 HTTPS 伺服器。 在開始之前，您必須先安裝 SSL 憑證，才能將視覺效果資產載入網頁瀏覽器。 
@@ -97,9 +89,24 @@ ms.lasthandoff: 03/09/2018
 > 
 > 
 
-若要新增憑證，請執行下列命令。
+若要建立憑證，請執行下列命令。
+
+    pbiviz --create-cert
+
+> [!NOTE]
+> 您應該會看到一則訊息，指示憑證的位置路徑和新產生的複雜密碼。
+> 
+> 
+
+
+若要安裝憑證，請執行下列命令。
 
     pbiviz --install-cert
+    
+> [!NOTE]
+> 您應該會看到一則訊息，指示使用新產生的複雜密碼來安裝 PFX 憑證。
+> 
+> 
 
 **Windows OS**
 

@@ -1,27 +1,19 @@
 ---
-title: "建立 Power BI 行動裝置應用程式中的特定位置連結"
-description: "了解如何使用統一資源識別項 (URI)，建立 Power BI 行動裝置應用程式中特定儀表板、磚或報表的深層連結。"
-services: powerbi
-documentationcenter: 
+title: 建立 Power BI 行動裝置應用程式中的特定位置連結
+description: 了解如何使用統一資源識別項 (URI)，建立 Power BI 行動裝置應用程式中特定儀表板、磚或報表的深層連結。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: f0174dfd845508b859f703827cec6e1a9290fe78
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>建立 Power BI 行動裝置應用程式中的特定位置連結
 您可以建立和使用統一資源識別項 (URI)，以連結至所有行動平台 (iOS、Android 裝置和 Windows 10) 上之 Power BI 行動裝置應用程式內的特定位置 (「深層連結」)。
@@ -47,7 +39,7 @@ https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270*
 
 如果儀表板位於 [我的工作區] 以外的群組中，請在儀表板識別碼前面或後面加上 `&GroupObjectId=<36-character-group-id>`。 例如： 
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60**&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
 
 請注意兩者之間的 & 符號。
 

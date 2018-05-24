@@ -1,28 +1,20 @@
 ---
 title: 開始使用 Power BI Desktop
 description: 開始使用 Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 99f2679f30c8eebf40389883b41601d4fc3da939
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>開始使用 Power BI Desktop
 歡迎使用 **Power BI Desktop 使用者入門指南**。 此 Power BI Desktop 簡短教學課程能讓您熟悉它的運作方式、示範它的功能，以及加速您建置穩固資料模型的能力 — 以及令人讚嘆的報表，增強您的商業智慧工作。 
@@ -336,6 +328,10 @@ Power BI Desktop 中的查詢編輯器能夠充分利用右鍵功能表，也會
 
 您可以使用 Power BI Desktop 和 Power BI 服務來製作與資料相關的顯目混搭與視覺效果。 如需詳細資訊，請查看下一節。
 
+## <a name="diagnostics"></a>診斷
+
+Power BI Desktop 支援連線到診斷連接埠。 其他工具可連線到診斷連接埠，並為診斷目的而執行追蹤。 *不支援對模型進行任何變更！對模型進行變更可能會導致損毀以及資料遺失。*
+
 ## <a name="next-steps"></a>後續步驟
 您可以使用 Power BI Desktop 執行各種作業。 如需有關其功能的詳細資訊，請參閱下列資源：
 
@@ -344,4 +340,3 @@ Power BI Desktop 中的查詢編輯器能夠充分利用右鍵功能表，也會
 * [連接至 Power BI Desktop 中的資料](desktop-connect-to-data.md)
 * [使用 Power BI Desktop 合併資料並使其成形](desktop-shape-and-combine-data.md)
 * [Power BI Desktop 中的常見查詢工作](desktop-common-query-tasks.md)   
-

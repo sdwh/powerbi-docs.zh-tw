@@ -1,27 +1,19 @@
 ---
 title: Power BI 報表伺服器的容量規劃指引
 description: 本文提供 Power BI 報表伺服器容量規劃的相關指引，文中並共用對各種工作負載所執行的負載測試結果。
-services: powerbi
-documentationcenter: ''
 author: parthsha
 manager: kfile
-backup: maghan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maghan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 36d12e520cd53abc0159e698f3f469f62f884c95
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 94f137f0b8627bf34e78d9ac36574c64dd5d4752
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI 報表伺服器的容量規劃指引
 Power BI 報表伺服器是客戶可以在其防火牆後方內部部署的自助 BI 和企業報告解決方案。 它結合 Power BI Desktop 的互動式報表功能與 SQL Server Reporting Services 的內部部署伺服器平台。 隨著企業內的分析和報告使用量愈來愈大，估算所需的硬體基礎結構和軟體授權以依照企業使用者總數來調整規模會是項挑戰。 本文旨在提供 Power BI 報表伺服器容量規劃的相關指引，文中並共用對報表伺服器的各種工作負載所執行的多項負載測試結果。 雖然組織的報表、查詢和使用模式差異很大，但本文中所呈現的結果，以及所使用的實際測試及其執行方式的詳細描述，可作為任何人在部署 Power BI 報表伺服器之初期規劃程序的參考點。
@@ -121,7 +113,7 @@ Power BI 報表伺服器部署是由下列虛擬機器所組成：
 ### <a name="1-topology"></a>1 拓撲
 **1.1 Power BI 報表伺服器拓撲**
 
-為了只專注於不同設定下的 Power BI 報表伺服器行為，已修正每種機器類型的 VM 設定 (裝載 Power BI 報表伺服器的機器除外)。 每部機器已根據第二代 (v2) D 系列機器佈建進階儲存體磁碟。 您可以在 https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/ 的＜一般目的＞一節下，找到有關每種 VM 大小的詳細資訊。
+為了只專注於不同設定下的 Power BI 報表伺服器行為，已修正每種機器類型的 VM 設定 (裝載 Power BI 報表伺服器的機器除外)。 每部機器已根據第二代 (v2) D 系列機器佈建進階儲存體磁碟。 您可以在 https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/ 的「一般用途」區段找到有關每個 VM 大小的詳細資訊。
 
 | 虛擬機器類型 | 處理器 | 記憶體 | Azure VM 大小 |
 | --- | --- | --- | --- |
@@ -131,7 +123,7 @@ Power BI 報表伺服器部署是由下列虛擬機器所組成：
 
 **1.2 Power BI 報表伺服器虛擬機器設定** 
 
-裝載 Power BI 報表伺服器的虛擬機器使用不同的處理器和記憶體組態。 不同於其他 VM，此機器已根據第三代 (v3) D 系列機器佈建進階儲存體磁碟。 您可以在 https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/ 的＜一般目的＞一節下，找到有關此 VM 大小的詳細資訊。
+裝載 Power BI 報表伺服器的虛擬機器使用不同的處理器和記憶體組態。 不同於其他 VM，此機器已根據第三代 (v3) D 系列機器佈建進階儲存體磁碟。 您可以在 https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/ 的「一般用途」區段找到有關此 VM 大小的詳細資訊。
 
 | 虛擬機器 | 處理器 | 記憶體 | Azure VM 大小 |
 | --- | --- | --- | --- |
@@ -144,8 +136,8 @@ Power BI 報表伺服器部署是由下列虛擬機器所組成：
 1. 從 GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest) 複製 Reporting Services LoadTest 專案。
 2. 在專案目錄中，您會找到一個稱為 RSLoadTests.sln 的方案檔。 在 Visual Studio 2015 或更新版本中開啟此檔案。
 3. 決定您是要對自己或 Microsoft Azure 的 Power BI 報表伺服器部署執行這項工具。 如果您要對自己的部署執行這項工具，請移至步驟 5。
-4. 遵循 https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure 上所列的指示，在 Azure 中建立 Power BI 報表伺服器環境。
-5. 一旦您完成部署環境，請遵循 https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution 上所列的指示來執行測試。
+4. 請遵循 https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure 中列出的指示，在 Azure 中建立 Power BI 報表伺服器環境。
+5. 完成部署環境後，請按照 https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution 上列出的指示執行測試。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

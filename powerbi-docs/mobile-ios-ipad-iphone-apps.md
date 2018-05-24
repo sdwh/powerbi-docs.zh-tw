@@ -1,34 +1,26 @@
 ---
-title: "在 iOS 裝置的 Power BI 行動裝置應用程式中探索資料"
-description: "在 iPad、iPhone、Apple Watch 和 iPod Touch 上檢視和使用 Power BI 儀表板和報表，以及 Reporting Services 行動報表和 KPI。"
-services: powerbi
-documentationcenter: 
+title: 在 iOS 裝置的 Power BI 行動裝置應用程式中探索資料
+description: 在 iPad、iPhone、Apple Watch 和 iPod Touch 上檢視和使用 Power BI 儀表板和報表，以及 Reporting Services 行動報表和 KPI。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 0b09706b8d8f7f4dbf9c2f8d3f6fc844383ce6be
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b0785555e288084f97d06d05161ebef78d21731c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="explore-your-data-on-the-power-bi-mobile-app-for-ios-devices"></a>在 iOS 裝置的 Power BI 行動裝置應用程式中探索資料
 Microsoft Power BI for iOS 應用程式提供 iPad、iPhone、Apple Watch 以及 iPod Touch 的行動 BI 體驗。 這項應用程式提供即時的觸控式行動裝置，讓您存取重要的商務資訊，並可隨時隨地檢視組織的 Power BI 儀表板和報表以及 Reporting Services 行動報表和 KPI，並與其互動。 瀏覽儀表板中的資料，並使用電子郵件或文字訊息與同事共用。
 
 ![iPhone 與 iPad](media/mobile-ios-ipad-iphone-apps/pbi_ipad_iphonedevices.png)
 
-請前往 Power BI (https://powerbi.com) 註冊以取得 Power BI 服務。
+前往 Power BI (https://powerbi.com) 註冊 Power BI 服務。
 
 查看 [Power BI 行動裝置應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
