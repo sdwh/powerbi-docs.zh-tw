@@ -23,7 +23,7 @@ ms.lasthandoff: 05/17/2018
 
 ![AppSource 應用程式](media/service-connect-to-services/overview.png)
 
-安裝應用程式之後，您可以在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 及 Power BI 行動應用程式中檢視儀表板與報表。 
+安裝應用程式之後，即可在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 及 Power BI 行動應用程式中，檢視儀表板與報表。 
 
 ![Power BI 行動應用程式中的 Google Analytics 應用程式](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
