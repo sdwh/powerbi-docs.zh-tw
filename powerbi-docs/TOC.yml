@@ -96,6 +96,8 @@
                   href: service-print.md
                 - name: 訂閱報表或儀表板
                   href: service-report-subscribe.md
+                - name: 以多種方式開啟報表
+                  href: service-report-open.md
                 - name: 重新命名 Power BI 中的內容
                   href: service-rename.md
                 - name: 以全螢幕模式 (電視模式) 顯示儀表板和報表

@@ -8,14 +8,14 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入門 - 瀏覽 Power BI 服務
 
@@ -125,6 +125,19 @@ ms.lasthandoff: 05/17/2018
 ![排序內容](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 若要深入了解，請參閱 [Power BI 導覽：搜尋、排序、篩選](service-navigation-search-filter-sort.md)。
+
+## <a name="clean-up-resources"></a>清除資源
+完成此快速入門後，您可以根據需求，刪除零售分析範例儀表板、報表和資料集。
+
+1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。    
+2. 在左側瀏覽窗格中，選取 [工作區] > [我的工作區]。  
+    有注意到表示我的最愛的黃色星號嗎？    
+3. 在 [儀表板] 索引標籤上，選取零售分析儀表板旁邊的垃圾桶**刪除**圖示。    
+
+    ![刪除儀表板](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. 選取 [報表] 索引標籤，然後對零售分析報表執行相同的動作。
+1. 選擇 [資料集] 索引標籤，然後對零售分析資料集執行相同的動作。
 
 ## <a name="next-steps"></a>後續步驟
 

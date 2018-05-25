@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 071f7ea0c324ec8fe0160766f65cf929f811362a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: aeaea6d14cf8f4fd62fbbf5098e68429fe40b96a
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 當您在 Power BI 服務中開啟報表時，每頁報表各有其唯一的 URL。 若要篩選該報表頁面，您可以使用報表畫布上的 [篩選] 窗格。  或者您也可以將查詢字串參數新增到 URL，以篩選報表。 您可能有想要向同事展示的報表，並想要預先為他們篩選。 其中一個執行方式是從報表的預設 URL 著手、將篩選參數新增到 URL，然後用電子郵件將整個 URL 寄送給他們。
@@ -97,9 +97,10 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 在某些情況下，這在您想要查看不同結果時會很實用；在儀表板上已篩選，在報表則未篩選。
 
-## <a name="limitations-and-troubleshooting"></a>限制與疑難排解
+## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 使用查詢字串參數時，有幾件點事項要注意。
 
+* 在 Power BI 報表伺服器，[傳遞報表參數](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)的方法可以是將其包含在報表 URL 中。 這些 URL 參數不會有前置詞，因為會直接傳遞到報表處理引擎。 
 * 查詢字串篩選不會處理[發行至網路](service-publish-to-web.md)或 Power BI Embedded。   
 * 欄位類型必須是數字或字串。
 * 資料表和欄位名稱不能有任何空格。
