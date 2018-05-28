@@ -1022,7 +1022,7 @@
           href: report-server/system-requirements.md
         - name: 瀏覽器支援
           href: report-server/browser-support.md
-        - name: 系統管理員的報表伺服器
+        - name: 系統管理員概觀
           href: report-server/admin-handbook-overview.md
         - name: 報表伺服器基本概念
           items:
@@ -1080,6 +1080,8 @@
               href: report-server/migrate-report-server.md
             - name: 設定 Kerberos 使用 Power BI 報表
               href: report-server/configure-kerberos-powerbi-reports.md
+            - name: 從遠端設定行動裝置應用程式存取
+              href: report-server/configure-powerbi-mobile-apps-remote.md
             - name: 編輯 Excel 活頁簿
               href: report-server/excel-oos.md
     - name: 參考
