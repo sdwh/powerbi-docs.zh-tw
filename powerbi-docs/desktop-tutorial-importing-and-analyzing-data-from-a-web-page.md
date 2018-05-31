@@ -1,168 +1,196 @@
 ---
-title: "教學課程： 使用 Power BI Desktop 從網頁匯入和分析資料"
-description: "教學課程： 使用 Power BI Desktop 從網頁匯入和分析資料"
+title: 教學課程：使用 Power BI Desktop 從網頁匯入和分析資料
+description: 教學課程：使用 Power BI Desktop 從網頁匯入和分析資料
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 9650f0be6ca795fdea3395721c0eb02e80464821
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 14c6cc0d221e5ed0a2fe6ead88deb9e8fb867290
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945955"
 ---
-# <a name="analyzing-web-page-data-using-power-bi-desktop-tutorial"></a>使用 Power BI Desktop 分析網頁資料 (教學課程)
-在本教學課程中，您將學習如何從網頁上匯入資料的資料表，和建立報表以視覺化方式檢視這項資料。 做為此程序的一部分，您可以在網頁上可用的資料表之間瀏覽，並套用資料轉換步驟，將資料表轉換為新的圖形。
+# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>教學課程：使用 Power BI Desktop 分析網頁資料
 
- 本文內容：
+您是一名鐵桿足球迷，想要報導歐洲足球聯賽 (歐洲盃) 歷年的得獎者。 您可以使用 Power BI Desktop，從網頁將此資料匯入至報表，然後建立視覺效果來顯示資料。 在本教學課程中，您將學習使用 Power BI Desktop 來完成下列動作：
 
-* **工作 1：**連接到 Web 資料來源
-* **工作 2：**在查詢檢視中塑造資料
-  * 步驟 1：移除其他資料行，只顯示感興趣的資料行
-  * 步驟 2：替換值以清除選取資料行的值
-  * 步驟 3：篩選資料行中的值
-  * 步驟 4：重新命名資料行
-  * 步驟 5：篩選資料行中的 null 值
-  * 步驟 6：重新命名 查詢
-  * 已建立的查詢步驟
-* **工作 3：**使用報表檢視建立視覺效果
-  * 步驟 1：載入查詢至報表
-  * 步驟 2：建立地圖視覺效果
+- 連線到 Web 資料來源並瀏覽可用的資料表，
+- 在 **Power Query 編輯器**中塑造和轉換資料，
+- 命名查詢並匯入 Power BI Desktop 報表，然後 
+- 建立及自訂地圖和圓形圖視覺效果。
 
-## <a name="task-1-connect-to-a-web-data-source"></a>工作 1：連接到 Web 資料來源
- 在工作 1 中，您會從下列位置的 UEFA 歐洲足球錦標賽 Wikipedia 頁面匯入聯賽摘要資料表：http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship
+## <a name="connect-to-a-web-data-source"></a>連線到 Web 資料來源
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
+您可以從 UEFA 歐洲足球聯賽維基百科頁面的成績表格取得 UEEA 得獎者資料，網址是 http://en.wikipedia.org/wiki/UEFA_European_Football_Championship。 
 
-### <a name="add-a-wikipedia-page-data-source"></a>加入 Wikipedia 頁面資料來源
-1. 在 [開始使用] 對話方塊或 [常用] 功能區索引標籤中，選取 [取得資料]。
-2. 這會帶出 [取得資料]  對話方塊，以便您從各種資料來源挑選，將資料匯入 Power BI Desktop。 我們將會選取 [Web]  ，它位在 [所有]  或 [其他]  群組。
-3. 在 [Web 內容] 對話方塊的 [URL] 文字方塊中，貼上 Wikipedia URL (http://en.wikipedia.org/wiki/UEFA\_European\_Football\_Championship)。
-4. 按一下 [確定] 。
+![維基百科成績資料表](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
-建立網頁的連線後，您可在 [導覽器]  對話方塊看到此 Wikipedia 上的可用資料表清單。 您可以按一下每個資料表以預覽資料。
+匯入資料：
 
-在 [導覽器]  左窗格中選取此聯賽摘要結果的 [結果 [編輯]]  資料表，或選取 [結果 [編輯]]  資料表，然後選取 [編輯] 。 這可讓我們要重新塑造這份資料表，然後才載入至報表，因為資料不在我們分析所需的圖形之內。
+1. 在 Power BI Desktop [首頁]功能區索引標籤上，按一下 [取得資料] 旁的向下箭頭，然後選取 [Web]。
+   
+   ![功能區的 [取得資料]](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web3.png) 
+   
+   >[!NOTE]
+   >您也可以選取 [取得資料] 項目本身，或從 Power BI [開始使用] 對話方塊選取 [取得資料]，然後從 [取得資料] 對話方塊的 [全部] 或 [其他] 區段選取 [Web]，最後選取 [連接]。
+   
+2. 在 [從 Web] 對話方塊方塊中，將 URL `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` 貼到 **URL** 文字方塊中，然後選取 [確定]。
+   
+    ![對話方塊的 [取得資料]](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
+   
+   連線到維基百科網頁之後，Power BI [導覽器] 對話方塊會顯示頁面上可用的資料表清單。 您可以選取任何資料表名稱來預覽其資料。 **Results[edit]** 資料表有您想要的資料，但不是您想要的形式。 您將重新塑造和清除資料，然後再將資料載入報表。 
+   
+   ![導覽器對話方塊](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
+   
+   >[!NOTE]
+   >[預覽] 窗格會顯示最近選取的資料表，但當您選取 [編輯] 或 [載入] 時，所有選取的資料表都會載入 **Power Query 編輯器**。 
+   
+3. 選取 [導覽器] 清單中的 **Results[edit]** 資料表，然後再選取 [編輯]。 
+   
+   **Power Query 編輯器**中會開啟資料表的預覽，您可以在其中套用各種轉換來清除資料。 
+   
+   ![Power Query 編輯器](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+   
+## <a name="shape-data-in-power-query-editor"></a>在 Power Query 編輯器中塑造資料
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
+您想要只顯示年份和贏得勝利的國家/地區，以便讓資料更容易閱讀。 您可以使用 **Power Query 編輯器**來執行這些資料塑造和清理步驟。
 
-這會讓資料表預覽處在 [查詢] 檢視中，我們可以在其中套用一組轉換步驟來清除資料。
+首先，除了 [Year] \(年份\) 和 [Final Winners] \(最終獲勝者\) 之外，移除資料表中的所有資料行。
 
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage3.png)
+1. 在 **Power Query 編輯器**方格中，選取 [Year] \(年份\) 和 [Final Winners] \(最終獲勝者\) 資料行 (按住 **Ctrl** 鍵可選取多個項目)。
+   
+2. 以滑鼠右鍵按一下並從下拉式清單中選取 [移除其他資料行]，或者從 [首頁] 功能區索引標籤的 [管理資料行] 群組，依序選取 [移除資料行] > [移除其他資料行]，以便從資料表中移除所有其他資料行。 
+   
+   ![移除其他資料行下拉式清單](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) 或 ![移除其他資料行功能區](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
 
-## <a name="task-2-shape-data-in-the-subject-table"></a>工作 2：主題資料表中的圖形資料
-現在您已經針對資料查詢選取了主題資料表，您會了解如何執行各種資料圖形和清理步驟。
-
-**步驟 1：**移除其他資料行，只顯示感興趣的資料行
-
-在此步驟中，您會移除所有資料行，除了 [年]  和 [最終得獎者] 以外。
-
-1. 在 **查詢預覽** 方格中，選取 **Year** 和 **Final Winners** 資料行 (使用 **CTRL** + **按一下滑鼠左鍵**)。
-2. 以滑鼠右鍵按一下 [查詢預覽]  方格中的資料行標頭，然後按一下 [移除其他資料行]  來移除未選取的資料行。 請注意這項作業也適用於 [管理資料行]  群組的 [主資料夾]  功能區索引標籤 。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
-
-**步驟 2：**取代值以整理選取資料行中的值
-
-在此步驟中，您會取代 [年]  資料行的 [詳細資料] 後置詞。 請注意這個後置詞位於新行，使其在資料表預覽中無法見到。 不過，如果您在 [年] 資料行具有數值的資料格按一下，您會在詳細檢視中看到完整值。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage5.png)
+接下來，從 [Year] \(年份\) 資料行儲存格移除 **Details** 這個多餘的字。
 
 1. 選取 [年]  資料行。
-2. 在 [查詢檢視]  功能區上，按一下 [主資料夾]  索引標籤的 [取代值]  ，或以滑鼠右鍵按一下 [年]  直條圖，然後按一下 [取代值]  將詳細資料取代為空白文字。
-3. 在 [取代值]  對話方塊的 [要尋找的值]  文字方塊輸入詳細資料，並將 [取代為]  文字方塊保留空白。
-4. 按一下 [確定] 。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage6.png)
-
- **步驟 3：**篩選資料行中的值
-
-在此步驟中，您篩選 [年]  資料行，顯示不包含「年」的資料列。
-
-1. 按一下 [年]  資料行之篩選下拉式清單的箭號。
-2. 在 [篩選]  下拉式清單中，清除 [年]  選項。
-3. 按一下 [確定] 。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
-
-**步驟 4：**重新命名資料行
-
-現在我們已清除在 [年]  資料行中的資料，我們會使用 [最終得獎者]  資料行。
-
-因為我們只會查看得獎者清單，所以我們可以重新命名此資料行為 **國家/地區**。
-
-1. 選取 [查詢] 預覽中的 [最終得獎者]  資料行。
-2. 在 [查詢檢視]  功能區的 [轉換]  索引標籤和 [任何資料行]  群組，您會找到 [重新命名] 。
-3. 如此可讓資料行名稱可以編輯。 我們會重新命名此資料行為 **國家/地區**。
-
-**步驟 5：**篩選資料行中的 Null 值
-
-我們也要篩選出 [國家/地區]  資料行的 null 值。 若要這樣做，我們可以使用在步驟 3 中看到的篩選條件功能表，或者我們可以：
-
-1. 在 [國家/地區]  資料行，以滑鼠右鍵按一下其中一個包含 null 值的資料格。
-2. 在內容功能表中選取 [文字篩選] **\> [不等於]**。
-3. 這會建立新的篩選步驟來移除 [國家/地區]  資料行中有 null 值的資料列。
-
-**步驟 6：**命名查詢
-
-在此步驟中，您將最終查詢命名為 **歐洲盃得獎者**。
-
-1. 在 [查詢設定]  窗格的 [名稱]  文字方塊中輸入 **歐洲盃得獎者**。
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
-
-## <a name="task-3-create-visualizations-using-the-report-view"></a>工作 3：建立使用報表檢視的視覺效果
-現在我們已將資料轉換為圖形，供我們的分析所用，我們可以將產生的資料表載入報表，並建立一些視覺效果。
-
-**步驟 1** ：載入查詢到您的報表
-
-若要將查詢結果載入至 Power BI Desktop 並建立報表，我們要從 [常用] 功能區選取 [關閉並載入]。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
-
-這樣會觸發查詢的評估和將資料表輸出傳送至報表。 在 Power BI Desktop 選取 **報表** 圖示，以查看在 [報表] 檢視中的 Power BI Desktop。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage10.png)
-
-您可以在 [報表檢視]  右邊的 [欄位窗格] 看到產生的資料表欄位。
-
-![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
-
-**步驟 2：**建立地圖視覺效果
-
-若要建立視覺效果，我們可以將欄位從 [欄位清單]  拖曳到 [報表畫布] 。
-
-1. 將 [國家/地區]  欄位拖曳至 [報表畫布] 。 如此會在 [報表畫布] 建立新的視覺效果。 在此情況下，由於我們有一份國家/地區清單，所以它會建立 [地圖視覺效果] 。
+2. 以滑鼠右鍵按一下並從下拉式清單中選取 [取代值]，或到功能區的 [首頁] 索引標籤中，從 [轉換] 群組中選取 [取代值] (也可以在 [轉換] 索引標籤的 [任何資料行] 群組中找到)。 
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage12.png)
-2. 我們可以在 [視覺效果]  窗格按一下不同的圖示，輕鬆變更視覺效果的類型。
+   ![取代值下拉式清單](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web7.png) 或 ![取代值功能區](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8a.png)
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage13.png)
-3. 我們要跟著 [地圖]  的地圖視覺效果類型，我們也可以藉由拖曳其中一個視覺效果的邊角到所需大小，來調整視覺效果大小。
+3. 在 [取代值] 對話方塊的 [要尋找的值] 文字方塊中輸入 **Details**，並將 [取代為] 文字方塊保留空白，然後選取 [確定]，即可從 [Year] \(年份\) 項目中刪除 "Details" 這個字。
    
-   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
-4. 請注意目前地圖中所有點的大小相同。 我們想要變更為贏了較多場歐洲盃聯賽的國家/地區會在地圖中以較大的點顯示。 為了這樣做，我們可以將 [欄位清單]  中的 [年]  欄位拖曳至 [欄位窗格]  下半部的 [值] 方塊。
+   ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage6.png)
+
+某些 [Year] \(年份\) 儲存格只包含 "Year" 這個字，而不是年份值。 您可以篩選 [Year] 資料行，以便只顯示不包含 "Year" 這個字的資料列。 
+
+1. 按一下 [Year] \(年份\) 資料行的篩選向下箭頭。
+   
+2. 在下拉式清單中，向下捲動並清除 [Year] \(年份\) 選項旁邊的核取方塊，然後選取 [確定] 來移除在 [Year] \(年份\) 資料行中只有 "Year" 這個字的資料列。 
+
+   ![篩選資料](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7.png)
+
+清除 [Year] \(年份\) 資料行中的資料之後，接著就可以使用 [Final Winner] \(最終獲勝者\) 資料行。 因為您現在只需要最終獲勝者資料，所以可以將此資料行重新命名為 **Country** \(國家/地區\)。 重新命名資料行：
+
+1. 按兩下或點選並按住 [Final Winner] \(最終獲勝者\) 資料行標題，或 
+   - 在 [Final Winner] \(最終獲勝者\) 資料行標題按一下滑鼠右鍵，然後從下拉式清單中選取 [重新命名]，或 
+   - 選取 [Final Winner] \(最終獲勝者\) 資料行，然後從功能區 [轉換] 索引標籤的 [任何資料行] 群組中選取 [重新命名]。 
+   
+   ![重新命名下拉式清單](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7a.png) 或 ![重新命名功能區](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8.png)
+   
+2. 在標題中輸入 **Country** \(國家/地區\)，然後按 **Enter** 鍵來重新命名資料行。
+
+您也可以篩選掉 "2020" 之類的資料列，它們在 [Country] 資料行中為空值。 和處理 [Year] \(年份\) 值一樣，您可以使用篩選功能表，或者您可以：
+
+1. 在 **2020** 資料列的 [Country] 儲存格上按一下滑鼠右鍵，此儲存格的值為 *null*。 
+2. 依序選取內容功能表中的 [文字篩選] > [不等於]，以移除包含此儲存格值的所有資料列。
+   
+   ![文字篩選](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web11.png)
+   
+## <a name="import-the-query-into-report-view"></a>將查詢匯入報表檢視
+
+將資料塑造成想要的形式之後，接著就可以將查詢命名為 "Euro Cup Winners" (歐洲盃獲勝者)，然後匯入報表中。
+
+1. 在 [查詢設定] 窗格的 [名稱] 文字方塊中，輸入 **Euro Cup Winners** \(歐洲盃獲勝者\)，然後按 **Enter** 鍵。
+   
+   ![命名查詢](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage8.png)
+
+2. 從功能區的 [首頁] 索引標籤依序選取 [關閉並套用] > [關閉並套用]。
+   
+   ![關閉並套用](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
+   
+此查詢會載入至 Power BI Desktop **報表檢視**，顯示在其中的 [欄位] 窗格。 
+   
+   ![欄位窗格](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
+>[!TIP]
+>您隨時可以回到 **Power Query 編輯器**並執行以下操作來編輯和精簡查詢：
+>- 選取 [欄位] 窗格 [Euro Cup Winners] \(歐洲杯獲勝者\) 旁邊的 [更多選項] 省略符號 (**...**)，然後從下拉式清單中選取 [編輯查詢]，或
+>- 在報表檢視 [首頁] 功能區索引標籤的 [外部資料] 群組中，依序選取 [編輯查詢] > [編輯查詢]。 
+
+## <a name="create-a-visualization"></a>建立視覺效果
+
+根據您的資料建立視覺效果： 
+
+1. 選取 [欄位]窗格中的 [Country] \(國家/地區\) 欄位，或將它拖曳至報表畫布。 Power BI Desktop 會將資料辨識為國家/地區名稱，並自動建立**地圖**視覺效果。 
+   
+   ![地圖視覺效果](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web14.png)
+   
+2. 拖曳位在角落的控點來放大地圖，這樣就可以看到所有獲勝國家/地區的名稱。  
+
+   ![放大地圖](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
+   
+3. 地圖會顯示顯示相同的資料點，代表每一個贏得歐洲盃聯賽的國家/地區。 若要讓每個資料點的大小反映該國家/地區的獲勝頻率，請將 [Year] \(年份\) 欄位拖曳至 [視覺效果] 窗格下方 [大小] 底下的 [將資料欄位拖曳到此處]。 這個欄位會自動變更為 [Count of Year] \(年度計數\) 量值。在地圖視覺效果中，現在較大的資料點代表贏得更多比賽的國家/地區。 
    
    ![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage15.png)
+   
 
-如您所見，自訂報表中的視覺效果很容易，以便依您想要的方式呈現資料。 Power BI Desktop 提供流暢的端對端體驗，包括從各種資料來源取得資料，調整以符合您的分析需求，乃至於以豐富且互動的方式將此資料視覺化。 準備好報表之後，您可以[將其上傳至 Power BI](desktop-upload-desktop-files.md) 並建立以此為基礎的儀表板，您可以與其他 Power BI 使用者共用該儀表板。
+## <a name="customize-the-visualization"></a>自訂視覺效果
 
-這是 **從 Web 匯入資料** 教學課程的總結。 您可以從[這裡](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Data_From_The_Web.pbix)下載完整 Power BI Desktop 檔案.
+如您所見，根據資料來建立視覺效果十分容易。 自訂視覺效果同樣輕鬆簡單，讓資料以您所希望的方式來呈現。 
 
-## <a name="where-else-can-i-get-more-information"></a>還可以從何處取得更多資訊？
+### <a name="format-the-map"></a>設定地圖格式
+您可以選取視覺效果，然後選取 [視覺效果] 窗格中的 [格式] 圖示 (滾筒刷)，即可變更視覺效果的外觀。 例如，視覺效果中的 "Germany" (德國) 資料點會產生誤導，因為西德贏了兩場聯賽且德國贏了一場，但地圖將兩個資料點重疊，而不是將它們分開或加在一起。 您可以將這兩個點用不同顏色表示，以突顯此事。 您也可以為地圖提供一個更清楚且更吸引人的標題。 
+
+1. 選取視覺效果之際，選取 [格式] 圖示，接著選取 [資料色彩] 以展開資料色彩選項。 
+   
+   ![資料格式色彩](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   
+2. 將 [全部顯示] 設定為 [開啟]，然後選取 [West Germany] \(西德\) 旁邊的下拉式清單，最後選擇黃色。 
+   
+   ![變更色彩](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web16.png)
+   
+3. 選取 [標題] 來展開標題選項，然後在 [標題文字] 欄位中，輸入 **Euro Cup Winners** \(歐洲杯獲勝者\) 來取代目前的標題。 
+4. 將 [文字色彩] 變更成紅色、[文字大小] 變更為 **12**，以及將 [字型家族] 變更為 [Segoe (Bold)]。 
+   
+   ![資料格式色彩](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   
+
+現在地圖視覺效果看起來像這樣：
+
+![格式化後旳地圖視覺效果](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web18.png)
+   
+### <a name="change-the-visualization-type"></a>變更視覺效果類型
+您可以選取視覺效果，然後選取 [視覺效果] 窗格上方的不同圖示，即可變更視覺效果的類型。 例如，地圖視覺效果中沒有蘇聯和捷克的資料，因為世界地圖找不到這兩個國家。 樹狀圖或圓形圖之類的視覺效果可能更精確，因為它會顯示所有的值。 
+
+若要將地圖變更為圓形圖，請選取地圖，然後選取 [視覺效果] 窗格中的 [圓形圖] 圖示。 
+   
+![](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web19.png)
+
+>[!TIP]
+>- 您可以使用 [資料色彩] 格式化選項，讓 "Germany" (德國) 和 "West Germany" (西德) 變成相同的色彩。 
+>- 若要將最常獲勝的國家/地區分在圓形圖上的同一組，請選取視覺效果右上角的省略符號 (**...**)，然後選取下拉式清單中的 [依據年度計數排序]。 
+
+Power BI Desktop 提供從頭到尾流暢的體驗，包括從各種資料來源取得資料、讓資料成形以符合您的分析需求，乃至於以豐富且互動的方式將此資料視覺化。 準備好報表之後，您可以[將其上傳至 Power BI](desktop-upload-desktop-files.md) 並建立以此為基礎的儀表板，您可以與其他 Power BI 使用者共用該儀表板。
+
+## <a name="see-also"></a>另請參閱
 * [閱讀其他 Power BI Desktop 教學課程](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [觀看 Power BI Desktop 影片](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [瀏覽 Power BI 論壇](http://go.microsoft.com/fwlink/?LinkID=519326)

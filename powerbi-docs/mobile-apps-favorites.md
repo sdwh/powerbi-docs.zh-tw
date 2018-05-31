@@ -1,27 +1,28 @@
 ---
-title: "Power BI 行動裝置應用程式中我的最愛項目"
-description: "了解如何在行動應用程式中建立及檢視我的最愛 Power BI 儀表板、報表和應用程式，以及「Power BI 報表伺服器」和 Reporting Services 報表與 KPI。"
+title: Power BI 行動裝置應用程式中我的最愛項目
+description: 了解如何在行動應用程式中建立及檢視我的最愛 Power BI 儀表板、報表和應用程式，以及「Power BI 報表伺服器」和 Reporting Services 報表與 KPI。
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/09/2018
+ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: d3b53618f43652fffcb53502fd9d55ef91f2aff3
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 4edffdbf918e4ccf7e31821d359df54dfc275f46
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812142"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>在 Power BI 行動應用程式中建立及檢視我的最愛項目
 適用於︰
@@ -32,7 +33,7 @@ ms.lasthandoff: 02/11/2018
 
 了解如何在行動應用程式中建立及檢視我的最愛 Power BI 儀表板、報表和應用程式，以及我的最愛內部部署「Power BI 報表伺服器」和 Reporting Services KPI 與報表。
 
-當您在 Power BI 行動應用程式中建立我的最愛項目時，即可在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 及所有行動裝置的 [我的最愛] 頁面上看到該項目。 
+當您在 Power BI 行動裝置應用程式中建立我的最愛項目時，即可在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 及所有行動裝置的 [我的最愛] 頁面上看到該項目。 
 
 ![Power BI 行動裝置應用程式中我的最愛項目](media/mobile-apps-find-content-mobile-devices/power-bi-android-favorites-reports.png)
 
@@ -62,10 +63,10 @@ ms.lasthandoff: 02/11/2018
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-ios-and-windows-10-mobile-apps"></a>在 iOS 與 Windows 10 行動應用程式中將儀表板或報表設為我的最愛
 您可以從儀表板或報表清單，或是從儀表板或報表本身，將 Power BI 儀表板或報表設為我的最愛。
 
-* 在行動應用程式的儀表板或報表清單中，點選名稱旁邊的空心星號 ![[不是我的最愛] 圖示](media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)。 星號會變成黃色 ![[我的最愛] 圖示](media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)。
+* 在行動應用程式的儀表板或報表清單中，點選名稱旁邊的空心星號 ![[不是我的最愛] 圖示](media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 星號會變成黃色 ![[我的最愛] 圖示](media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
   
     ![儀表板的我的最愛項目](media/mobile-apps-favorites/power-bi-mobile-make-dashboard-favorite.png)
-* 在儀表板或報表上，點選功能區中的空心星號 ![[不是我的最愛] 圖示](media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)。 星號會變成黃色 ![[我的最愛] 圖示](media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)。
+* 在儀表板或報表上，點選功能區中的空心星號 ![[不是我的最愛] 圖示](media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 星號會變成黃色 ![[我的最愛] 圖示](media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
   
     ![已選取的 [我的最愛] 圖示](media/mobile-apps-favorites/power-bi-mobile-favorite-selected.png)
 
@@ -75,12 +76,12 @@ ms.lasthandoff: 02/11/2018
 * 在行動應用程式的儀表板或報表清單中，點選名稱旁邊的垂直省略符號 (...)，然後點選 [我的最愛]。 您會在名稱旁看到黃色星號 ![[我的最愛] 圖示](media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)。
   
     ![Android 的 [我的最愛] 功能表](media/mobile-apps-favorites/power-bi-android-make-favorite.png)
-* 在儀表板或報表上，點選功能區中的空心星號 ![[不是我的最愛] 圖示](media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)。 星號會變成暗灰色 ![[我的最愛] 圖示](media/mobile-apps-favorites/power-bi-android-favorite-icon.png)。
+* 在儀表板或報表上，點選功能區中的空心星號 ![[不是我的最愛] 圖示](media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 星號會變成暗灰色 ![[我的最愛] 圖示](media/mobile-apps-favorites/power-bi-android-favorite-icon.png).
   
     ![Android 的 [我的最愛] 星號](media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
 
 ## <a name="make-favorite-power-bi-report-server-and-reporting-services-reports-and-kpis"></a>建立最愛的 Power BI 報表伺服器和 Reporting Services 報表與 KPI
-您可以在 Power BI 行動裝置應用程式中，檢視您最愛的 Power BI 報表伺服器和 Reporting Services 報表與 KPI，但無法將它們設成行動裝置應用程式的 [我的最愛]。 [在入口網站中將其標記為 [我的最愛]](report-server/getting-around.md#tag-your-favorite-reports-and-kpis)。 
+您可以在 Power BI 行動裝置應用程式中，檢視您最愛的 Power BI 報表伺服器和 Reporting Services 報表與 KPI，但無法將它們設成行動裝置應用程式的 [我的最愛]。 [在入口網站中將其標記為 [我的最愛]](report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites)。 
 
 ## <a name="next-steps"></a>後續步驟
 * [Power BI 服務中我的最愛儀表板](service-dashboard-favorite.md) 

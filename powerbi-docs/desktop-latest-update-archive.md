@@ -15,25 +15,21 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/04/2018
+ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 50dd3dcf791cd3f2e366957ad37c830b7f4c35f2
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 11e1b210d6d90f0f813f378775daac36e53dbaf0
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/09/2018
+ms.locfileid: "33917174"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
 本文說明 **Power BI Desktop** 的先前更新。 如需最新月份的版本，請參閱 [**Power BI Desktop** 最新更新](desktop-latest-update.md)。
 
-下列章節說明 **Power BI Desktop** 前幾個月的更新。
-
 您一律可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您使用哪種方式安裝 **Power BI Desktop**，每月的版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
-
-
-我們很幸運能夠順利推出三月的 **Power BI Desktop** 更新。
 
 旁邊的連結分別更新下列項目：
 
@@ -44,7 +40,57 @@ ms.lasthandoff: 04/05/2018
 
 您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
-以下是本月 **Power BI Desktop** 新增的更新：
+下列章節說明 **Power BI Desktop** 前幾個月的更新。
+
+## <a name="april-2018-update-2575068501"></a>2018 年 4 月更新 (2.57.5068.501)
+
+我們真的對四月的 **Power BI Desktop** 更新感到相當滿意。 我們已在數個區域中推出更新，並希望這些更新所附帶的精美視覺效果能協助您打造未來的報表。 
+
+
+### <a name="reporting"></a>報告
+
+* 問與答總管  [[影片]](https://youtu.be/W_Nb73Od_AI?t=13s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer) 
+* 觸發動作的按鈕  [[影片]](https://youtu.be/W_Nb73Od_AI?t=9m42s) [[文章]](desktop-buttons.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#buttons) 
+* 組合圖線條樣式  [[影片]](https://youtu.be/W_Nb73Od_AI?t=16m55s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#comboLines) 
+* 改善視覺效果的預設排序方式  [[影片]](https://youtu.be/W_Nb73Od_AI?t=19m21s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sort) 
+* 數值交叉分析篩選器現已正式推出  [[影片]](https://youtu.be/W_Nb73Od_AI?t=21m13s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#numericSlicer) 
+
+### <a name="analytics"></a>分析
+
+* 更新您的語言結構描述  [[影片]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[文章]](power-bi-custom-visuals-organization.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
+* 新的 DAX 函式：COMBINEVALUES()  [[影片]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
+
+### <a name="custom-visuals"></a>自訂視覺效果
+
+* 組織視覺效果現已正式推出  [[影片]](https://youtu.be/W_Nb73Od_AI?t=26m11s)  [[文章]](power-bi-custom-visuals-organization.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
+* 許多全新自訂視覺效果  [[影片]](https://youtu.be/W_Nb73Od_AI?t=28m8s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
+
+### <a name="data-connectivity"></a>資料連線
+
+* Adobe Analytics 連接器現已正式推出  [[影片]](https://youtu.be/kuI6MMzDh34?t=32m) [[文章]](desktop-multi-select.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#adobeAnalytics) 
+* SAP HANA 連接器改善：連接埠選取範圍  [[影片]](https://youtu.be/kuI6MMzDh34?t=32m44s)  [[文章]](desktop-directquery-sap-hana.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
+* Dynamics 365 Business Central 連接器  [[影片]](https://youtu.be/kuI6MMzDh34?t=34m10s)  [[文章]](desktop-directquery-sap-hana.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#dynamics365BusinessCentral) 
+
+
+
+> [!NOTE]
+> 您也可以[查看 Power BI Desktop 的所有可用資料來源](desktop-data-sources.md)，我們的資料來源會持續增加，因此請經常回來查看。
+
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
+
+
+下列影片將描述並示範這些更新。 您也可以從部落格文章觀賞這段影片。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W_Nb73Od_AI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+> [!NOTE]
+> 您可能也會想要了解 [Power BI 服務的新功能](service-whats-new.md)，並請同時查閱 [Power BI 行動應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。
+
+
+
+## <a name="march-2018-update-"></a>2018 年 3 月更新 ()
+
+我們很幸運能夠順利推出三月的 **Power BI Desktop** 更新。 以下是 3 月 **Power BI Desktop** 新增的更新：
 
 ### <a name="reporting"></a>報告
 

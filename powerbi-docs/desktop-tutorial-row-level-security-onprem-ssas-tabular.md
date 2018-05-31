@@ -1,30 +1,24 @@
 ---
-title: 教學課程：Power BI 中的動態資料列層級安全性與 Analysis Services 表格式模型
-description: 教學課程：動態資料列層級安全性與 Analysis Services 表格式模型
-services: powerbi
-documentationcenter: ''
+title: Power BI 中的動態資料列層級安全性與 Analysis Services 表格式模型
+description: 動態資料列層級安全性與 Analysis Services 表格式模型
 author: selvarms
 manager: amitaro
-backup: davidi
+ms.reviewer: davidi
 editor: davidi
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/12/2017
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456126"
 ---
-# <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>教學課程：動態資料列層級安全性與 Analysis Services 表格式模型
+# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>動態資料列層級安全性與 Analysis Services 表格式模型
 本教學課程示範實作 **Analysis Services 表格式模型**內**資料列層級安全性**的所需步驟，並示範如何將其用於 Power BI 報表中。 本教學課程的步驟設計為讓您依照指示進行，並藉由完成樣本資料集學習所需的步驟。
 
 本教學課程會詳細敘述下列步驟，協助您了解如何使用 Analysis Services 表格式模型實作動態資料列層級安全性︰
@@ -38,7 +32,7 @@ ms.lasthandoff: 03/22/2018
 * 根據報表建立新的儀表板，最後，
 * 與同事共用儀表板
 
-若要遵循本教學課程中的步驟，您需要 **AdventureworksDW2012** 資料庫，您可以從**[存放庫](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)**下載。
+若要遵循本教學課程中的步驟，您需要 **AdventureworksDW2012** 資料庫，您可以從**[存放庫](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)** 下載。
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>工作 1︰建立使用者安全性資料表，並定義資料關聯性
 有許多已發行的文章說明如何定義資料列層級動態的安全性與 **SQL Server Analysis Services (SSAS) 表格式** 模型。 我們的範例遵循 [Implement Dynamic Security by Using Row Filters](https://msdn.microsoft.com/library/hh479759.aspx) (使用資料列篩選來實作動態安全性) 一文。 下列步驟將引導您完成在本教學課程中的第一項工作：

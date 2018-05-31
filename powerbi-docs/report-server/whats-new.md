@@ -15,25 +15,31 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 04/19/2018
 ms.author: maggies
-ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 21769ee9c88dd2310da2a86be8dbadd1f17522ff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813246"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 了解 Power BI 報表伺服器的新功能。 其涵蓋主要功能範圍，並會隨著新項目發行而更新。
 
 若要下載 Power BI 報表伺服器，以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop，請移至[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)。
 
-如需相關的「新功能」資訊，請參閱︰
+此外，也請查看下列來源來掌握「Power BI 報表伺服器」新功能的最新動態。
+
+* [Microsoft Power BI 部落格](https://powerbi.microsoft.com/blog/)
+* [SQL Server Reporting Services 小組部落格](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [Guy in a Cube YouTube 頻道](https://aka.ms/guyinacube)
+
+如需相關的 Power BI「新功能」資訊，請參閱︰
 
 * [Power BI 服務的新功能](../service-whats-new.md)
 * [Power BI Desktop 的新功能](../desktop-latest-update.md)
 * [Power BI 行動裝置 App 的新功能](../mobile-whats-new-in-the-mobile-apps.md)
-* [Power BI 小組部落格](https://powerbi.microsoft.com/blog/)
 
 ## <a name="march-2018-release"></a>2018 年 3 月版本
 
@@ -110,7 +116,7 @@ ms.lasthandoff: 03/20/2018
 - [鑽研篩選其他視覺效果](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 - [多列卡片之多維度 AS 模型的資料格層級格式](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
  
-### <a name="performance"></a>效能
+### <a name="performance"></a>Performance
 
 - [篩選效能提升](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
 - [DirectQuery 效能改善](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
@@ -208,7 +214,7 @@ Power BI 報表伺服器現在支援新的 Power BI 資料表和矩陣視覺效�
 ## <a name="next-steps"></a>後續步驟
 [使用者手冊](user-handbook-overview.md)  
 [系統管理員手冊](admin-handbook-overview.md)  
-[快速入門︰安裝 Power BI 報表伺服器](quickstart-install-report-server.md)  
+[安裝 Power BI 報表伺服器](install-report-server.md)  
 [安裝報表產生器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [下載 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

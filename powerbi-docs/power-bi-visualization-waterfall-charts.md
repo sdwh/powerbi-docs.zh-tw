@@ -1,16 +1,16 @@
 ---
-title: "Power BI 中的瀑布圖 (教學課程)"
-description: "教學課程：Power BI 中的瀑布圖"
+title: Power BI 中的瀑布圖
+description: Power BI 中的瀑布圖
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: maTzOJSRB3g
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0755f888e6828aab467f3988ce0052e029bc51e3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 101680bd353237af61a885155acd2fcd66a35404
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812602"
 ---
-# <a name="waterfall-charts-in-power-bi-tutorial"></a>Power BI 中的瀑布圖 (教學課程)
+# <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布圖
 瀑布圖會顯示總額的增減變動。 它適用於了解起始值 (例如淨收益) 如何受到一系列正面和負面變更的影響。
 
 資料行會標示色彩，讓您快速地分辨增加和減少。 起始值和最終值資料行通常[在水平軸上開始](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "在水平軸上開始")，而中間值則是浮動的資料行。 由於其「外觀」，瀑布圖也稱為橋樑圖 (bridge chart)。

@@ -1,29 +1,22 @@
 ---
-title: 快速入門︰建立 Power BI 報表伺服器的 Power BI 報表
+title: 建立 Power BI 報表伺服器的 Power BI 報表
 description: 了解如何透過一些簡單步驟，建立 Power BI 報表伺服器的 Power BI 報表。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 3/22/2018
 ms.author: maggies
-ms.openlocfilehash: 7c0f7ad804a61aeade6f120f2a2d2bd048219ee2
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9f5ea2a83fff37be07933669403b7eb53ceb09c0
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
+ms.locfileid: "34310469"
 ---
-# <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>快速入門︰建立 Power BI 報表伺服器的 Power BI 報表
+# <a name="create-a-power-bi-report-for-power-bi-report-server"></a>建立 Power BI 報表伺服器的 Power BI 報表
 您可在 Power BI 報表伺服器入口網站儲存和管理內部部署 Power BI 報表，如同您可在 Power BI 服務 (https://powerbi.com)) 中將 Power BI 報表儲存於雲端一樣。 在 Power BI Desktop 中建立和編輯報表，並將其發行至入口網站。 接著您組織的報表讀者就可在瀏覽器，或在行動裝置上的 Power BI 行動裝置應用程式中加以檢視。
 
 ![入口網站中的 Power BI 報表](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
@@ -131,11 +124,10 @@ Power BI 報表伺服器報表不支援 Power BI 行動裝置應用程式中的�
 
 ## <a name="next-steps"></a>後續步驟
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-有許多絕佳的資源可用來在 Power BI Desktop 中建立報表。 這些連結是不錯的起點。
+有許多絕佳的資源可用來在 Power BI Desktop 中建立報表。 此連結是不錯的起點。
 
 * [開始使用 Power BI Desktop](../desktop-getting-started.md)
-* 引導式學習︰[開始使用 Power BI Desktop](../guided-learning/gettingdata.yml#step-2)
-
+* 引導式學習︰[開始使用 Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
 
 ### <a name="power-bi-report-server"></a>Power BI 報表伺服器
 * [安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)  

@@ -1,27 +1,20 @@
 ---
 title: Power BI 報表伺服器的變更記錄
 description: 此變更記錄適用於 Power BI 報表伺服器，並列出新的項目，以及每個發行組建的 Bug 修正。
-services: powerbi
-documentationcenter: ''
 author: jtarquino
-manager: jonhp
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+manager: kfile
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 12/11/2017
-ms.author: tankas
-ms.openlocfilehash: 67b9a162d689a8615a3e2459295eab6dad6d2364
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.author: jtarquino
+ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295668"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -31,6 +24,24 @@ ms.lasthandoff: 04/16/2018
 
 ## <a name="march-2018"></a>2018 年 3 月
 - **Power BI 報表伺服器**
+    - *版本 1.2.6690.34729 (組建：15.0.2.402)，發行日期：2018 年 4 月 27 日*
+        - Bug 修正
+            - 啟用 SQL Server Reporting Services 2017 目錄移轉功能
+            - 針對 Power BI 報表 (PBIX)
+                - 當伺服器設定為使用自訂驗證時，可以重新整理報表
+                - 修改報表屬性不會重設資料來源認證
+            - 針對編頁報表 (RDL)
+                - 在 RDL 運算式中使用 `Lookup()` 或導數函式 (例如 `LookupSet()` 和 `MultiLookup()`) 已不再會產生 `#Error`
+                - 連結報表在列印時會依照目標報表的頁面大小
+                - 可以針對使用串聯參數的連結報表建立訂閱
+                - 使用 IE11 時，可以修改多值參數預設值
+                - 可以編輯資料導向訂閱傳遞選項
+                - 可以在訂閱處於執行中狀態時，檢視和編輯訂閱
+                - 設定資料來源認證不會移除以運算式為基礎的連接字串
+            - 針對 KPI
+                - 更新資料時會重新整理趨勢線
+            - 一般穩定性改進
+
     - 版本 1.2.6660.39920 (組建 15.0.2.389)，發行日期：2018 年 3 月 28 日
         - Bug 修正
             - 針對 Power BI 報表 (PBIX)，修正匯出資料無法從 Power BI 視覺效果運作的情況
@@ -120,7 +131,7 @@ ms.lasthandoff: 04/16/2018
 
     - 組建 14.0.600.301，發行日期：2017 年 7 月 11 日
         - Bug 修正
-            - {{UserId}} 標記會解析成預存認證，而不是正在 Power BI 報表中執行報表的使用者
+            - `{{UserId}}` 標記會解析成預存認證，而不是正在「Power BI 報表」中執行報表的使用者
             - 無法轉譯 Power BI 報表伺服器報表中的某些影像
             - 無法變更 Power BI 報表伺服器中 Power BI 報表的名稱
             - 無法載入 Power BI 行動應用程式中的自訂視覺效果 (您可能需要重新安裝行動裝置應用程式，以清除本機快取)
@@ -136,7 +147,7 @@ ms.lasthandoff: 04/16/2018
 
 [使用者手冊](user-handbook-overview.md)  
 [系統管理員手冊](admin-handbook-overview.md)  
-[快速入門︰安裝 Power BI 報表伺服器](quickstart-install-report-server.md)  
+[安裝 Power BI 報表伺服器](install-report-server.md)  
 [安裝報表產生器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [下載 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

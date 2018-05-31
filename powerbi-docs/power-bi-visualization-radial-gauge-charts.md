@@ -1,16 +1,16 @@
 ---
-title: "教學課程 - Power BI 中的星形量測計圖表"
-description: "教學課程：Power BI 中的星形量測計圖表"
+title: Power BI 中的星形量測計圖表
+description: Power BI 中的星形量測計圖表
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: xmja6Epqa
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5b0b5861c567997bb5636c4fe00085535debc8f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a972e3ae702fc1746bebecbc5de00f47031f76a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813039"
 ---
-# <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Power BI 中的星形量測計圖表 (教學課程)
+# <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的星形量測計圖表
 星形量測計圖表具有圓弧線段，並且會顯示針對某一目標/KPI 測量進度的單一值。  目標或目標值是由線條 (指針) 表示。 達到該目標的進度是由陰影表示。  代表該進度的值會以粗體顯示在弧線內。所有可能的值會從最小 (最左邊的值) 到最大 (最右邊的值) 平均分散在弧線上。
 
 下列範例中，我們是汽車零售商，正在追蹤銷售團隊每個月的平均銷售額。 我們的目標是 140，以黑色指針代表。  最小的可能平均銷售量是 0，而我們將最大值設為 200。  藍色陰影顯示我們這個月的銷售量目前平均約為 120。 幸好我們還有一週的時間來達成目標。

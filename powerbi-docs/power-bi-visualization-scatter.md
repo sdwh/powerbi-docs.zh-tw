@@ -1,16 +1,16 @@
 ---
-title: "Power BI 中的散佈圖 (教學課程)"
-description: "教學課程：Power BI 中的散佈圖"
+title: Power BI 中的散佈圖
+description: Power BI 中的散佈圖
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: PVcfPoVE3Ys
 qualityfocus: identified
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5467456321b171116cf984ec276c3694b4030b
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: a3befe1e32aa86113433a4f891ddd46a253c8062
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813108"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Power BI 中的散佈圖與泡泡圖 (教學課程)
+# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI 中的散佈圖與泡泡圖
 散佈圖一律會有兩個值座標軸，沿著水平軸顯示一組數字資料，沿著垂直軸顯示另一組數值。 此圖表顯示 x 與 y 數交集處的點，結合這些值可形成單一的資料點。 視資料之不同，這些資料點可能平均散布或不平均地散佈在水平軸。
 
 泡泡圖會將資料點以泡泡取代，而泡泡的「大小」代表其他維度的資料。

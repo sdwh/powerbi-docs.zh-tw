@@ -1,30 +1,23 @@
 ---
-title: "Power BI 中的環圈圖 (教學課程)"
-description: "教學課程：Power BI 中的環圈圖"
-services: powerbi
-documentationcenter: 
+title: Power BI 中的環圈圖
+description: Power BI 中的環圈圖
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dca772fd2a1b8f40fa61f1abc41145e8ff6e5a8a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5d8be3d160e8ea37ba9814c7bd78c3ad5a751d3b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294188"
 ---
-# <a name="doughnut-charts-in-power-bi-tutorial"></a>Power BI 中的環圈圖 (教學課程)
+# <a name="doughnut-charts-in-power-bi"></a>Power BI 中的環圈圖
 環圈圖類似於圓形圖之處，在於它會顯示部分與整體的關聯性。 唯一的差別在於，中央為空白，且保留空間給標籤或圖示。
 
 ## <a name="create-a-doughnut-chart"></a>建立環圈圖

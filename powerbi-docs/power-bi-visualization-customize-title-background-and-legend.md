@@ -1,31 +1,24 @@
 ---
-title: "開始格式化 Power BI 視覺效果 (教學課程)"
-description: "教學課程：自訂視覺化標題、背景和圖例"
-services: powerbi
-documentationcenter: 
+title: 開始設定 Power BI 視覺效果的格式
+description: 自訂視覺化標題、背景和圖例
 author: mihart
 manager: kfile
-backup: 
-editor: 
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
-qualityfocus: monitoring
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e81f4e9ede3591accc94576291179b4fd40215e5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297093"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>自訂視覺效果標題、圖例及背景 (教學課程)
+# <a name="customize-visualization-titles-legends-and-backgrounds"></a>自訂視覺效果標題、圖例及背景
 在本教學課程中，您將學到一些不同的方法，可以用來自訂視覺效果。   有許多選項可以自訂視覺效果，了解它們的最佳方式是探索 [格式化] 窗格 (選取滾筒刷圖示)。  為了讓您快速入門，本文向您示範如何自訂視覺效果標題、圖例和背景。  
 
 並非所有視覺效果都可自訂，請[參閱完整清單](#list)。  
@@ -50,7 +43,7 @@ ms.lasthandoff: 02/24/2018
 2. 在 [視覺效果] 窗格中，選取滾筒刷圖示以顯示格式化選項。  選取 [標題] 以展開該區段。  
    
    ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
-3. 選取 [開啟] (或 [關閉]) 滑桿，以開啟及關閉  **標題** 。 現在請將其保持 [開啟] 。  
+3. 選取 \[開啟] \(或 [關閉]) 滑桿，以開啟及關閉  **標題** 。 現在請將其保持 [開啟] 。  
    
    ![](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
 4. 變更 **標題文字** ，方法是在文字欄位中輸入 **依開張月份的門市計數** 。  
@@ -121,7 +114,7 @@ ms.lasthandoff: 02/24/2018
 | 資料表 |是 |是 |N/A |
 | 文字方塊 |不可以 |是 |N/A |
 | 矩形式樹狀結構圖 |是 |是 |是 |
-| 瀑布圖 |是 |是 |是 |
+| 瀑布圖 |是 |是 |可以 |
 
 ## <a name="next-steps"></a>後續步驟
 [自訂 X 軸和 Y 軸](power-bi-visualization-customize-x-axis-and-y-axis.md)  

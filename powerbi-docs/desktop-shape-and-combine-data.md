@@ -1,33 +1,34 @@
 ---
-title: 在 Power BI Desktop 中將資料成形及合併
-description: 在 Power BI Desktop 中將資料成形及合併
-services: powerbi
-documentationcenter: ''
+title: 將多個來源的資料成形及合併
+description: 在本教學課程中，您將了解如何在 Power BI Desktop 中將資料成形及合併
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/30/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0bb2f8a8d9299d525085a8ba7d2ecabdcd9e6c78
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288743"
 ---
-# <a name="shape-and-combine-data-in-power-bi-desktop"></a>在 Power BI Desktop 中將資料成形及合併
-有了 **Power BI Desktop**，您可以連接到各種不同的資料來源，再將資料成形以符合您的需求。 將資料 *成形* 的意思為轉換資料，例如重新命名資料行或資料表、將文字變更為數值、移除資料列、將第一個資料列設定為標頭等。 「結合」資料的意思為連線到二或多個資料來源、視需要將資料成形，再將它們合併為一個實用的查詢。
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中將資料成形及合併
 
-本文示範如何使用 Power BI Desktop 讓查詢成形，並特別說明其中一些最常見的工作。 如需進一步了解此處所用的查詢，包括如何從頭建立查詢，請參閱[開始使用 Power BI Desktop](desktop-getting-started.md).
+有了 **Power BI Desktop**，您可以連線到各種不同的資料來源，再將資料成形以符合需求，以便建立能夠與其他人共用的視覺效果報表。 將資料 *成形* 的意思為轉換資料，例如重新命名資料行或資料表、將文字變更為數值、移除資料列、將第一個資料列設定為標頭等。 「結合」資料的意思為連線到二或多個資料來源、視需要將資料成形，再將它們合併為一個實用的查詢。
+
+在本教學課程中，您將了解如何：
+
+* 使用**查詢編輯器**將資料成形
+* 連線到資料來源
+* 連線到另一個資料來源
+* 合併那些資料來源，並建立可在報表中使用的資料模型
+
+本教學課程示範如何使用 Power BI Desktop 讓查詢成形，並特別說明其中一些最常見的工作。 如需進一步了解此處所用的查詢，包括如何從頭建立查詢，請參閱[開始使用 Power BI Desktop](desktop-getting-started.md).
 
 請注意，Power BI Desktop 中的 **查詢編輯器** 經常會用到快顯功能表及功能區。 您可以在 [轉換]  功能區中選取的大多數功能，也可以透過以滑鼠右鍵按一下項目 (例如資料行)，然後從顯示的功能表中進行選擇來加以存取。
 
@@ -200,7 +201,7 @@ ms.lasthandoff: 04/04/2018
 
 當您有一或多個資料行要加入另一個查詢時，您可「合併」  查詢。 當您有其他資料列要加入現有的查詢時，您可「附加」  查詢。
 
-在本案例中，我們想要合併查詢。 若要開始，我們從 [查詢編輯器] 左窗格中選取想將其他查詢併入的目標 查詢，在本案例中為 *RetirementStats* 。 然後從功能區上的 **[常用]\>**索引標籤選取 **[組合]** [合併查詢]。
+在本案例中，我們想要合併查詢。 若要開始，我們從 [查詢編輯器] 左窗格中選取想將其他查詢併入的目標 查詢，在本案例中為 *RetirementStats* 。 然後從功能區上的 **[常用]\>** 索引標籤選取 **[組合]** [合併查詢]。
 
 ![](media/desktop-shape-and-combine-data/shapecombine_mergequeries.png)
 

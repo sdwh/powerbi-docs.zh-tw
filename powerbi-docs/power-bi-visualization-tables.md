@@ -1,31 +1,24 @@
 ---
-title: Power BI 報表與儀表板中的資料表視覺效果 (教學課程)
+title: Power BI 報表與儀表板中的資料表視覺效果
 description: 在 Power BI 報表和儀表板中使用資料表視覺效果的教學課程，包括如何調整資料行寬度。
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 37f4e06aee41b8741dd3a1a1a52e3237fbd893a3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293252"
 ---
-# <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>在 Power BI 報表和儀表板使用資料 (教學課程)
+# <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>在 Power BI 報表和儀表板中使用資料表
 資料表是一個方格，其中以資料列和資料行的邏輯數列包含相關的資料。 它也可能包含標頭和總計資料列。 資料表適合處理您要在許多值裡尋找單一類別的量化比較。 例如，這個資料表會顯示**類別**的 5 個不同量值。
 
 ![](media/power-bi-visualization-tables/table.png)

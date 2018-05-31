@@ -1,27 +1,20 @@
 ---
-title: "在 Power BI 行動裝置應用程式中檢視儀表板和報表"
-description: "建立或連線到 Power BI 服務中的儀表板和報表。 然後在 Power BI 行動裝置應用程式中檢視。"
-services: powerbi
-documentationcenter: 
+title: 在 Power BI 行動裝置應用程式中檢視儀表板和報表
+description: 建立或連線到 Power BI 服務中的儀表板和報表。 然後在 Power BI 行動裝置應用程式中檢視。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 07/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/16/2018
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295862"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視儀表板和報表
 適用於︰
@@ -32,7 +25,7 @@ ms.lasthandoff: 01/17/2018
 
 儀表板是貴公司生命週期和流程的入口網站。 儀表板則是概觀，是用來監控企業目前狀態的單一位置。
 
-## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>在 Power BI 服務 (https://powerbi.com) 中建立儀表板
+## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>在 Power BI 服務中建立儀表板 (https://powerbi.com)
 **您未在行動應用程式中建立儀表板。** 
 
 若要在您的行動裝置上查看儀表板和報表，您需要在網頁瀏覽器中建立或連線到該儀表板和報表。 
@@ -115,31 +108,21 @@ ms.lasthandoff: 01/17/2018
    
    ![儀表板首頁](media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-     -     黃色星形 ![我的最愛星星](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 會顯示您最愛的儀表板。 
+    黃色星形 ![我的最愛星星](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 會顯示您最愛的儀表板。 
 
-     -     每個儀表板名稱下的標記法 (在此例中為 "MBI") ![資料分類](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)顯示每個儀表板中資料的分類方式。 深入了解 [Power BI 的資料分類](service-data-classification.md)。
-
+    每個儀表板名稱下的標記法 (在此例中為 "MBI") ![資料分類](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)顯示每個儀表板中資料的分類方式。 深入了解 [Power BI 的資料分類](service-data-classification.md)。
 
     Power BI 儀表板在您的 Android 手機上看起來稍有不同。 所有圖格會以相同的寬度出現，且其排列方式為從上到下逐一排列。
 
     ![儀表板直向檢視](media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-     您也可以簡單地旋轉手機，在手機上以橫向模式檢視儀表板。
-
-    > [AZURE.TIP] 如果您是儀表板的擁有者，在 Power BI 服務中，您可以[建立手機直向模式專用的儀表板檢視](service-create-dashboard-mobile-phone-view.md)。 
+    如果您是儀表板的擁有者，在 Power BI 服務中，您可以[建立手機直向模式專用的儀表板檢視](service-create-dashboard-mobile-phone-view.md)。 
 
 1. 在儀表板時，您可以點選名稱旁邊的垂直省略符號 (...) 來邀請同事、重新整理，或取得儀表板的相關資訊：
    
    ![省略符號功能表](media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. 上下撥動，即可查看[儀表板中的所有磚](mobile-tiles-in-the-mobile-apps.md)。 
 3. 若要返回儀表板首頁，請點選儀表板名稱以開啟軌跡，然後點選 [我的工作區]：   
-
-### <a name="view-dashboards-in-landscape-mode-on-your-android-phone"></a>在 Android 手機中以橫向模式檢視儀表板
-您只要將電話轉向，即可以橫向模式檢視儀表板。 儀表板版面配置由一系列磚變更為整個儀表板的檢視，您會看到所有儀表板的磚配置和其在 Power BI 服務中一樣。
-
-![儀表板橫向](media/mobile-apps-view-dashboard/power-bi-android-landscape-dashboard.png)
-
-您可以使用「捏合」手勢，放大和縮小儀表板的不同區域，平移以巡覽。 您也可以[點選磚](mobile-tiles-in-the-mobile-apps.md)，並在焦點模式中開啟，然後與您的資料互動。
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>在 Android 平板電腦上檢視儀表板
 1. 在您的 Android 平板電腦上開啟 Power BI 應用程式並登入。

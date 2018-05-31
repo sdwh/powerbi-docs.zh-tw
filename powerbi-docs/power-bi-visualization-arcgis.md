@@ -1,16 +1,16 @@
 ---
-title: "在 Power BI 中建立由 ESRI 提供的 ArcGIS 地圖 (教學課程)"
-description: "在 Power BI 中建立由 ESRI 提供的 ArcGIS 地圖 "
+title: 在 Power BI 中建立由 ESRI 提供的 ArcGIS 地圖
+description: '在 Power BI 中建立由 ESRI 提供的 ArcGIS 地圖 '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: EKVvOZmxg9s
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,12 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e2a56510b409e001db94164d5856e4c036e3f391
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: a71073c6e4f5962e8cdd6ddfb92d41628d8799c1
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813338"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Power BI 服務及 Power BI Desktop 中由 Esri 提供的 ArcGIS 地圖
 此教學課程是從 ArcGIS 地圖建立者的觀點來撰寫。 一旦建立者與同事共用 ArcGIS 地圖，該同事雖然可以檢視地圖並與其互動，但無法儲存變更。 若要深入了解如何檢視 ArcGIS 地圖，請參閱[與 ArcGIS 地圖互動](power-bi-visualizations-arcgis.md)。

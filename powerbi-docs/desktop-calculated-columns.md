@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2a92426061b37753c529b84a1de6b8068cb3bc5f
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 79d72cefbf6c6e5cf27aa0e4f90b4a1eb3114013
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33810912"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>使用 Power BI Desktop 中的導出資料行
 透過導出資料行，您可以將新資料加入模型中已有的資料表。 您會建立定義資料行值的資料分析運算式 (DAX) 公式，而不是從資料來源查詢值並將其載入新的資料行。 在 Power BI Desktop 中，導出資料行是透過 [報表檢視] 中的 [新增資料行] 功能來建立。
@@ -59,7 +60,7 @@ Jeff 以滑鼠右鍵按一下 [Geography] 資料表，然後按一下 [新增資
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
 ## <a name="learn-more"></a>深入了解
-我們在此僅快速介紹導出資料行。 請務必參閱[在 Power BI Desktop 中建立導出資料行](desktop-tutorial-create-calculated-columns.md)教學課程，您可以從中下載範例檔案，並取得有關如何建立更多資料行的逐步解說課程。 
+我們在此僅快速介紹導出資料行。 請務必參閱[教學課程：在 Power BI Desktop 中建立計算結果欄](desktop-tutorial-create-calculated-columns.md)教學課程，您可以從中下載範例檔案，並取得有關如何建立更多資料行的逐步解說課程。 
 
 若要深入了解 DAX，請參閱 [Power BI Desktop 中的 DAX 基本概念](desktop-quickstart-learn-dax-basics.md).
 

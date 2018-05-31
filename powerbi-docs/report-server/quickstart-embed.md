@@ -1,108 +1,107 @@
 ---
-title: "使用 iFrame 來內嵌報告"
-description: "安裝 Power BI 報表伺服器本身非常快速。 無論是下載還是安裝及設定，您應都可在幾分鐘內即啟動並執行。"
-services: powerbi
-documentationcenter: 
+title: 使用 iFrame 來內嵌報告
+description: 在 SharePoint 伺服器的 iFrame 中內嵌 Power BI 報表伺服器報表
 author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/09/2017
 ms.author: maghan
-ms.openlocfilehash: 56835bfb25c8c930099fadf710137f69fa89fc2e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 05/04/2018
+ms.topic: quickstart
+ms.service: powerbi
+ms.component: powerbi-report-server
+ms.custom: mvc
+manager: kfile
+ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293689"
 ---
-# <a name="quickstart-embed-a-power-bi-report-using-an-iframe-and-url-parameters"></a>快速入門：使用 iFrame 及 URL 參數內嵌 Power BI 報表
+# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>快速入門：在 SharePoint 伺服器中使用 iFrame 來內嵌 Power BI 報表伺服器報表
 
-您可以在應用程式中使用 iFrame 來內嵌任何報告。 
+在本快速入門中，您將了解如何在 SharePoint 頁面中使用 iFrame 來內嵌「Power BI 報表伺服器」報表。 如果您使用 SharePoint Online，則「Power BI 報表伺服器」必需可供公開存取。 在 SharePoint Online 中，與 Power BI 服務搭配運作的「Power BI 網頁組件」並無法與「Power BI 報表伺服器」搭配運作。 
 
-## <a name="url-parameter"></a>URL 參數
+![iFrame 範例](media/quickstart-embed/quickstart_embed_01.png)
+## <a name="prerequisites"></a>先決條件
+* 您將必須安裝並設定 [Power BI 報表伺服器](https://powerbi.microsoft.com/en-us/report-server/)。
+* 您將必須安裝[已針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)。
+* 您將必須安裝並設定 [SharePoint](https://docs.microsoft.com/en-us/sharepoint/install/install)環境。
 
-在報告的任何 URL 中，您可以新增 `?rs:Embed=true` 的查詢字串參數。
+## <a name="creating-the-power-bi-report-server-report-url"></a>建立 Power BI 報表伺服器報表 URL
 
-例如：
+1. 從 GitHub 下載範例 - [部落格示範](https://github.com/Microsoft/powerbi-desktop-samples)。
 
-```
-http://myserver/reports/powerbi/Sales?rs:embed=true
-```
+    ![下載範例 PBIX 檔案](media/quickstart-embed/quickstart_embed_14.png)
 
-這適用於 Power BI 報表伺服器內的所有報告類型。
+2. 在**已針對 Power BI 報表伺服器最佳化的 Power BI Desktop** 中，開啟來自 GitHub 的範例 PBIX 檔案。
 
-## <a name="iframe"></a>iFrame
+    ![PBI RS Desktop 工具](media/quickstart-embed/quickstart_embed_02.png)
 
-取得您的 URL 之後，您可以在網頁內建立 iFrame 來放置報告。
+3. 將報表儲存至「Power BI 報表伺服器」。 
 
-例如：
+    ![PBI RS 儲存](media/quickstart-embed/quickstart_embed_03.png)
 
-```
-<iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
-```
+4. 在「入口網站」中檢視報表。
 
-## <a name="url-filter"></a>URL 篩選
+    ![入口網站](media/quickstart-embed/quickstart_embed_04.png)
 
-您可以在 URL 中新增查詢字串參數，以篩選 Power BI 報表中所傳回的資料。
+### <a name="capturing-the-url-parameter"></a>擷取 URL 參數
 
-語法很簡單；只要從報表 URL 著手、新增問號，然後新增此篩選語法即可。
+取得您的 URL 之後，便可以在 SharePoint 頁面內建立 iFrame 來裝載報表。 您可以針對任何「Power BI 報表伺服器」報表 URL，新增查詢字串 `?rs:embed=true` 來將報表內嵌至 iFrame。 
 
-URL?filter=***資料表***/***欄位*** eq '***值***'
+   例如：
+    ``` 
+    http://myserver/reports/powerbi/Sales?rs:embed=true
+    ```
+## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>在 SharePoint iFrame 中內嵌 Power BI 報表伺服器報表
 
-請記住這些考量：
+1. 瀏覽至 SharePoint [網站內容] 頁面。
 
-- **資料表**和**欄位**名稱區分大小寫，**值**則無。
-- 您可以使用報表檢視中隱藏的欄位來篩選報表。
-- **值**的前後必須加上單引號。
-- 欄位類型必須是字串。
-- 資料表和欄位名稱不能有空格。
+    ![網站內容頁面](media/quickstart-embed/quickstart_embed_05.png)
 
-###  <a name="example-filter-on-a-field"></a>範例：篩選欄位
+2. 選擇您想要新增報表的頁面。
 
-以[零售分析範例](../sample-datasets.md)為例。 假設這是名為「power-bi」的資料夾中報表伺服器上報表的 URL：
+    ![網站內容頁面應用程式](media/quickstart-embed/quickstart_embed_06.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample
-```
+3. 選取右上方的齒輪圖示，然後選取 [編輯頁面]。
 
-您會看到「零售分析範例」中的地圖視覺效果顯示北卡羅來那州以及其他州的門市。
+    ![[編輯頁面] 選項](media/quickstart-embed/quickstart_embed_07.png)
 
-![零售分析範例的地圖視覺效果](media/quickstart-embed/report-server-retail-analysis-sample-map.png)
+4. 選取 [新增網頁組件]。
 
-*NC* 是儲存在 [Store] 資料表 [Territory] 欄位中的值。 因此若要篩選報表，使其只顯示北卡羅萊納州門市的資料，請將下列內容加到 URL 後：
+    ![新增網頁組件](media/quickstart-embed/quickstart_embed_08.png)
 
-?filter=Store/Territory eq 'NC'
+5. 在 [類別] 底下，選取 [媒體及內容]，在 [組件] 底下，選取 [內容編輯器]，然後選取 [新增]。
 
-現在，報表已篩選出北卡羅萊納州；報表頁面上的所有視覺效果都只會顯示北卡羅萊納州的資料。
+    ![選取內容編輯器網頁組件](media/quickstart-embed/quickstart_embed_09.png) ![選取 [新增]](media/quickstart-embed/quickstart_embed_091.png)
 
-![零售分析範例的篩選後視覺效果](media/quickstart-embed/report-server-retail-analysis-sample-filtered-map.png)
+6. 選取 [按一下此處新增內容]。
 
-### <a name="create-a-dax-formula-to-filter-on-multiple-values"></a>建立 DAX 公式以篩選多個值
+    ![新增內容](media/quickstart-embed/quickstart_embed_10.png)
 
-篩選多個欄位的另一種方法是在 Power BI Desktop 中建立計算結果欄，將兩個欄位串連成單一值。 接著您就可以篩選該值。
+7. 在功能區中，選取 [文字格式] 索引標籤，然後選取 [編輯來源]。
 
-例如，零售分析範例有兩個欄位：Territory 和 Chain。 在 Power BI Desktop 中，您可以[建立計算結果欄](../desktop-tutorial-create-calculated-columns.md) (欄位)，名稱為 TerritoryChain。 請記住，**欄位**名稱不能有任何空格。 以下是該資料行的 DAX 公式。
+     ![編輯來源](media/quickstart-embed/quickstart_embed_11.png)
 
-TerritoryChain = [Territory] & "-" & [Chain]
+8. 在 [編輯來源] 視窗中，貼上您的 iFrame 程式碼，然後選取 [確定]。
 
-將報表發佈到 Power BI 報表伺服器，然後使用 URL 查詢字串篩選成只顯示 NC 的 Lindseys 門市資料。
+    ![iFrame 程式碼](media/quickstart-embed/quickstart_embed_12.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample?filter=Store/TerritoryChain eq 'NC-Lindseys'
+     例如：
+     ```
+     <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
+     ```
 
-```
+9. 在功能區中，選取 [頁面] 索引標籤，然後選取 [停止編輯]。
+
+    ![停止編輯](media/quickstart-embed/quickstart_embed_13.png)
+
+10. 現在，您應該會在頁面上看到報表。
+
+    ![iFrame 範例](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>後續步驟
 
 [快速入門︰建立 Power BI 報表伺服器的 Power BI 報表](quickstart-create-powerbi-report.md)  
 [快速入門︰建立 Power BI 報表伺服器的編頁報告](quickstart-create-paginated-report.md)  
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/) 

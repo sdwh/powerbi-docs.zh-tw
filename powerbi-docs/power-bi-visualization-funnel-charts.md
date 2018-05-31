@@ -1,16 +1,16 @@
 ---
-title: "漏斗圖 (教學課程)"
-description: "教學課程：Power BI 中的漏斗圖"
+title: 漏斗圖
+description: Power BI 中的漏斗圖
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: maTzOJSRB3g
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 34be2f0ed53cdb8b45e60174d09e7da2da1fcce2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cdac4e594eab4887fc6e72d8870090be4ddd86a7
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812740"
 ---
-# <a name="funnel-charts-tutorial"></a>漏斗圖 (教學課程)
+# <a name="funnel-charts"></a>漏斗圖
 漏斗圖幫您將有循序連接階段的線性程序視覺化。 例如，銷售漏斗圖透過以下階段追蹤客戶：潛在客戶 \> 合格的潛在客戶 \> 期望 \> 合約 \> 結案。  漏斗圖的圖形一看就能表達出您追蹤中程序的健全狀況。
 
 漏斗圖的每個階段代表總數中所佔的百分比。 因此，在大部分情況下，漏斗圖形狀像漏斗 -- 第一階段最大，然後每個後續階段比前一階段小。  梨狀的漏斗圖也很實用，能識別出程序中的問題。  但通常第一階段，也就是「引入」階段佔最大部分。
