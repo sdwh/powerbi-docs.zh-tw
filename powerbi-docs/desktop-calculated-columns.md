@@ -1,29 +1,21 @@
 ---
 title: 使用 Power BI Desktop 中的導出資料行
 description: Power BI Desktop 中的導出資料行
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 79d72cefbf6c6e5cf27aa0e4f90b4a1eb3114013
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 3c1df2f08732a45b98e2de84684735171b004602
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33810912"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290353"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>使用 Power BI Desktop 中的導出資料行
 透過導出資料行，您可以將新資料加入模型中已有的資料表。 您會建立定義資料行值的資料分析運算式 (DAX) 公式，而不是從資料來源查詢值並將其載入新的資料行。 在 Power BI Desktop 中，導出資料行是透過 [報表檢視] 中的 [新增資料行] 功能來建立。
