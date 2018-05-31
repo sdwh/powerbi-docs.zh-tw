@@ -1,28 +1,20 @@
 ---
 title: 管理 Power BI 報表伺服器入口網站中的內容
 description: 閱讀有關管理「Power BI 報表伺服器」入口網站中內容的資訊。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: 022d884e98876a78ab1cfd53cc93cd648cb68efe
-ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
+ms.openlocfilehash: f739104bc9b67e51792e6e76da08b9e6dbb7cef3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2018
-ms.locfileid: "33892500"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293229"
 ---
 # <a name="manage-content-in-the-web-portal"></a>管理入口網站中的內容 
 Power BI 報表伺服器入口網站是可檢視、儲存和管理您的 Power BI、行動裝置、編頁報表及 KPI 的內部部署位置。

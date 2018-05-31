@@ -1,30 +1,22 @@
 ---
 title: Power BI 中的區域分布圖 (分區著色圖)
 description: 有關在 Power BI 中建立區域分布圖 (分級著色圖) 的文件
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e982fa5cc75249ab2475e02150a92294cb87980a
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 5933404b9429ca773ed119addd81d86ad1a28597
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812303"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293045"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI 中的區域分布圖 (分區著色圖)
 區域分布圖使用陰影、濃淡或圖樣，顯示值的比例如何隨著地理位置或地區而有所不同。  可使用範圍介於淺色 (較不常見/較低) 到深色 (較常見/較多) 的陰影，快速顯示這些相對差異。    

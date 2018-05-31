@@ -1,31 +1,21 @@
 ---
 title: 什麼是 Power BI 行動裝置應用程式？
 description: 使用 Power BI 行動裝置應用程式，無論在內部部署或雲端中都可與您的資料保持連接。 檢視您的行動裝置上的 Power BI 儀表板和報表。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 01/06/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-mobile
 ms.topic: overview
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 04/26/2018
 ms.author: maggies
-ms.component: powerbi-mobile
 ms.custom: ''
-ms.reviewer: ''
-ms.openlocfilehash: 254e04eed9dc2fd32fbfeb51f147701d7c47d3f2
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 4a3b5aec179eb9436f1d8ed8a58bcf97906e1c1f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812188"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294701"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>什麼是 Power BI 行動裝置應用程式？
 Power BI 為 iOS、Android 和 Windows 10 行動裝置提供了一組行動應用程式。 在行動裝置應用程式中，您可以與雲端和內部部署的資料連線及互動。 
