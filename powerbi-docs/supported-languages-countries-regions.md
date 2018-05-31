@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33871470"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI 支援的語言和國家 (地區)
 
@@ -165,6 +166,11 @@ Power BI 會根據您電腦上的語言喜好設定偵測您的語言。 存取�
 - 如何比較及排序字串。 例如，因為土耳其文有兩個字母 i (取決於您的資料庫定序)，兩者在排序時會產生不同的順序。 
 - Power BI Desktop 從日期欄位建立隱藏的日期資料表時所使用的語言。 例如，欄位名稱為 Month/Monat/Mois 等等。
 
+> [!NOTE]
+> Power BI 的模型目前使用不區分大小寫 (或區分假名) 的地區設定，因此 “ABC” 和 “abc” 會視為相等。 如果先將 “ABC” 載入資料庫，其他只有大小寫不同的字串 (例如 “Abc”) 就不會載入成個別的值。
+> 
+>
+
 以下說明如何設定模型語言。
 
 1. 在 Power BI Desktop 中，移至 [檔案] > [選項及設定] > [選項]。
@@ -173,6 +179,10 @@ Power BI 會根據您電腦上的語言喜好設定偵測您的語言。 存取�
 
     ![在 Power BI Desktop 中設定模型語言](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
+> [!NOTE]
+> 在建立 Power BI 模型之後，便無法變更其語言。
+> 
+>
 
 ## <a name="languages-for-the-help-documentation"></a>說明文件的語言
 說明已當地語系化為這 10 種語言︰ 

@@ -1,6 +1,6 @@
 ---
-title: 教學課程：在 Power BI Desktop 中分析來自 Excel 和 OData 摘要的銷售資料
-description: 教學課程：分析來自 Excel 和 OData 摘要的銷售資料
+title: 教學課程：在 Power BI Desktop 中結合來自 Excel 和 OData 摘要的資料
+description: 教學課程：結合來自 Excel 和 OData 摘要的資料
 services: powerbi
 documentationcenter: ''
 author: davidiseminger
@@ -15,220 +15,254 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
-ms.author: davidi
+ms.date: 05/02/2018
+ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 00c4915df0e18504ec6f5d26540d9289c2f5ddb2
+ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/10/2018
+ms.locfileid: "33945978"
 ---
-# <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>教學課程：分析來自 Excel 和 OData 摘要的銷售資料
-有了 **Power BI Desktop**，您便可以連接到各種不同的資料來源，然後以有趣、具信服力的資料分析和視覺效果，來結合資料使其成形。 在本教學課程中，您將了解如何結合來自兩個資料來源的資料。 
+# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>教學課程：結合來自 Excel 和 OData 摘要的銷售資料
 
-資料通常會分散在多個資料來源，例如產品資訊可能位於某個資料庫中，而銷售資訊可能位於另一個資料庫中。 您在本文中會學到的技術包含 Excel 活頁簿和 OData 摘要，而這些技術也適用於其他資料來源，例如 SQL Server 查詢、CSV 檔案或 Power BI Desktop 中的任何資料來源。
+資料通常會分散在多個資料來源，例如產品資訊可能位於某個資料庫中，而銷售資訊可能位於另一個資料庫中。 使用 **Power BI Desktop** 時，您可以合併不同來源的資料，以建立有趣、 吸引人的資料分析和視覺效果。 
 
-在本教學課程中，您將匯入來自 Excel (包含產品資訊) 和 OData 摘要 (包含訂單資料) 的資料。 您將會執行轉換和彙總步驟，並結合來自這兩個來源的資料，以產生呈現互動式視覺效果的 **Total Sales per Product and Year** 報表。 
-
-最終報表看起來會像是這樣：
-
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
-
-若要依照本教學課程中的步驟進行，您需要 Products 活頁簿，其下載方式為：**[按一下這裡來下載 Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**
-
-在 [另存新檔]  對話方塊中，將檔案命名為 **Products.xlsx**。
-
-## <a name="task-1-get-product-data-from-an-excel-workbook"></a>工作 1：從 Excel 活頁簿取得產品資料
-在這項工作中，您會將 Products.xlsx 檔案內的產品匯入 Power BI Desktop 中。
-
-### <a name="step-1-connect-to-an-excel-workbook"></a>步驟 1：連接到 Excel 活頁簿
-1. 啟動 Power BI Desktop。
-2. 從 [常用] 功能區選取 [取得資料]。 Excel 是其中一個**最常用**的資料連線，因此您可以直接從 [取得資料] 功能表中加以選取。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
-3. 如果您直接選取 [取得資料] 按鈕，您也可以選取 [檔案] **\> [Excel]**，然後選取 [連接]。
-4. 在 [開啟檔案]  對話方塊中，選取 **Products.xlsx** 檔案。
-5. 在 [導覽器]  窗格中，選取 **Products** 資料表，然後選取 [編輯] 。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_2.png)
-
-### <a name="step-2-remove-other-columns-to-only-display-columns-of-interest"></a>步驟 2：移除其他資料行，只顯示感興趣的資料行
-在這個步驟中，您會移除所有其他資料行，而只保留 **ProductID**、 **ProductName**、 **UnitsInStock**和 **QuantityPerUnit**。 在 Power BI Desktop 中，完成同一個工作的方法通常有好幾種。 例如，許多功能區中按鈕的功能，也可以透過資料行或資料格的快顯功能表來完成。
-
-Power BI Desktop 包含查詢編輯器，可讓您使資料連接成形並加以轉換。 當您從 [導覽器]  選取 [編輯] 時，查詢編輯器會隨即自動開啟。 您也可以從 Power BI Desktop 的 [常用]  功能區選取 [編輯查詢]  ，以開啟查詢編輯器。 在查詢編輯器中，執行下列步驟。
-
-1. 在查詢編輯器中，選取 **ProductID**、 **ProductName**、 **QuantityPerUnit**和 **UnitsInStock** 資料行 (使用 **Ctrl+Click** 選取多個資料行，或使用 **Shift+Click** 選取相鄰的資料行)。
-2. 從功能區選取 [移除資料行] \> [移除其他資料行]，或以滑鼠右鍵按一下資料行標頭，然後按一下 [移除其他資料行]。
-
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_removeothercolumns.png)
-
-### <a name="step-3-change-the-data-type-of-the-unitsinstock-column"></a>步驟 3：變更 UnitsInStock 資料行的資料類型
-當查詢編輯器連接到資料時，它會檢閱每個欄位並決定最佳資料類型。 若是 Excel 活頁簿，則庫存產品數量一律為整數，因此在這個步驟中，您會確認 **UnitsInStock** 資料行的資料類型是否為整數。
-
-1. 選取 **UnitsInStock** 資料行。
-2. 在 [常用]  功能區中，選取 [資料類型]  下拉按鈕。
-3. 如果還不是整數，請從下拉式清單選取 [整數]  做為資料類型 ([資料類型:]  按鈕也會顯示目前選取範圍的資料類型)。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_wholenumber.png)      
-
-### <a name="power-bi-desktop-steps-created"></a>建立的 Power BI Desktop 步驟
-當您在查詢編輯器中執行查詢作業時，會建立查詢步驟並列於 [查詢設定]  窗格內的 [套用的步驟]  清單中。 每個查詢步驟都有對應的公式，又稱為 "M" 語言。 如需 "M" 公式語言的詳細資訊，請參閱[了解 Power BI 公式](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f).
-
-| 工作 | 查詢步驟 | 公式 |
-| --- | --- | --- |
-| 連接到 Excel 活頁簿 |來源 |Source{[Name="Products"]}[Data] |
-| 將第一個資料列升級為資料表資料行標頭 |FirstRowAsHeader |[Table.PromoteHeaders](https://support.office.com/Article/TablePromoteHeaders-b8eaeb95-042a-42e1-9164-6d3c646acadc "Table.PromoteHeaders") <br /> (Products) |
-| 移除其他資料行，只顯示感興趣的資料行 |RemovedOtherColumns |[Table.SelectColumns](https://support.office.com/Article/TableSelectColumns-20bb9e28-9fd3-4cd2-a21b-97972c82ec22 "Table.SelectColumns")  <br />(FirstRowAsHeader,{"ProductID", "ProductName", "QuantityPerUnit", "UnitsInStock"}) |
-| 變更資料類型 |變更的類型 |Table.TransformColumnTypes(\#"Removed Other Columns",{{"UnitsInStock", Int64.Type}}) |
-
-## <a name="task-2-import-order-data-from-an-odata-feed"></a>工作 2：從 OData 摘要匯入訂單資料
-在這項工作中，您將匯入訂單資料。 這個步驟代表連接到銷售系統。 您會將位於下列 URL 之範例 Northwind OData 摘要中的資料匯入 Power BI Desktop，而您可以在下列步驟中複製 (然後貼上) 這個 URL：<http://services.odata.org/V3/Northwind/Northwind.svc/> 
-
-### <a name="step-1-connect-to-an-odata-feed"></a>步驟 1：連接到 OData 摘要
-1. 從查詢編輯器的 [常用] 功能區索引標籤選取 [取得資料]
-2. 瀏覽至 [OData 摘要]  資料來源。
-3. 在 [OData 摘要]  對話方塊中，貼上 Northwind OData 摘要的 **URL** 。
-4. 選取 [確定] 。
-5. 在 [導覽器]  窗格中，選取 **Orders** 資料表，然後選取 [編輯] 。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/anlayzingsalesdata_odatafeed.png)
+在本教學課程中，您將了解如何合併兩個不同來源的資料：一個是包含產品資訊的 Excel 活頁簿，另一個是包含訂單資料的 OData 摘要。 匯入每個資料集並執行轉換和彙總步驟之後，就可以使用這兩個來源的資料產生一份能呈現互動視覺效果的銷售分析報表。 這些技術也可以套用至 SQL Server 查詢、CSV 檔案以及 Power BI Desktop 中的任何其他資料來源。
 
 >[!NOTE]
->您可以按一下資料表名稱來查看預覽，而無須選取核取方塊。
+>在 Power BI Desktop 中，完成同一件工作的方法通常有好幾種。 比方說，在資料行或資料格上按一下滑鼠右鍵或者選取 [更多選項]，同樣也會有很多的功能區選項。 以下步驟描述幾種替代方法。 
 
-### <a name="step-2-expand-the-orderdetails-table"></a>步驟 2：展開 Order\_Details 資料表
-**Orders** 資料表包含 **Details** 資料表的參考，其中包含每筆訂單中的個別產品。 當您連接到具有多個資料表的資料來源時 (例如關聯式資料庫)，您便可以使用這些參考來建立查詢。 
+## <a name="import-the-product-data-from-excel"></a>從 Excel 匯入產品資料
 
-在這個步驟中，展開與 **Orders** 資料表相關的 **Order\_Details** 資料表，以將 **Order\_Details** 中的 **ProductID**、**UnitPrice** 和 **Quantity** 資料行合併到 **Orders** 資料表。 以下是這些資料表中的資料表示法：
+首先，從 Excel Products.xlsx 活頁簿，將產品資料匯入 Power BI Desktop。
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orderdetails.png)
+1. [下載 Products.xlsx Excel 活頁簿](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)，然後儲存為 **Products.xlsx**。
+   
+2. 在 Power BI Desktop 功能區中，到 [首頁] 索引標籤的 [取得資料]，選取旁邊的下拉式箭號，然後從 [最常用] 下拉式清單 選取 **Excel**。 
+   
+   ![取得資料](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_1.png)
+   
+   >[!NOTE]
+   >您也可以選取 [取得資料] 項目本身，或從 Power BI [開始] 對話方塊選取 [取得資料]，然後選取 **Excel** 或者在 [取得資料] 對話方塊中依序選取 [檔案] > **Excel**，然後選取 [連接]。
+   
+3. 在 [開啟]對話方塊中，瀏覽至並選取 **Products.xlsx** 檔案，然後選取 [開啟]。
+   
+4. 在 [導覽器]  窗格中，選取 **Products** 資料表，然後選取 [編輯] 。
+   
+   ![Excel 的導覽器窗格](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_2.png)
+   
+**Power Query 編輯器**中會開啟資料表的預覽，您可以在其中套用各種轉換來清除資料。 
+   
+![Power Query 編輯器](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
+   
+>[!NOTE]
+>您也可以從 Power BI Desktop 的 [首頁] 功能區依序選取 [編輯查詢] > [編輯查詢]，或者在 [報表檢視] 中的任何查詢旁邊按一下滑鼠右鍵或選取 [更多選項]，接著選取 [編輯查詢]，同樣可以開啟 **Power Query 編輯器**。
 
-**展開** 作業會將相關資料表中的資料行合併到主體資料表。 執行查詢時，相關資料表 (**Order\_Details**) 中的資料列會合併到主體資料表 (**Orders**) 中的資料列。
+## <a name="clean-up-the-products-columns"></a>清除產品資料行
 
-展開 **Order\_Details** 資料表之後，會將三個新資料行和其他資料列加入 **Orders** 資料表中，分別用於巢狀或相關資料表中的每個資料列。
+結合的報表只會使用 Excel 活頁簿的 **ProductID**、**ProductName**、**QuantityPerUnit** 和 **UnitsInStock** 資料行，因此您可以移除其他資料行。 
 
-1. 在 [查詢檢視] 中，捲動至 **Order\_Details** 資料行。
-2. 在 **Order\_Details** 資料行中，選取展開圖示 (![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/expand.png))。
+1. 在 **Power Query 編輯器**中，選取 **ProductID**、**ProductName**、**QuantityPerUnit** 和 **UnitsInStock** 資料行 (使用 **Ctrl**+**按一下**來選取多個資料行，或使用 **Shift**+**+按一下**來選取相鄰的資料行)。
+   
+2. 在任何選取的標題上按一下滑鼠右鍵，然後從下拉式清單中選取 [移除其他資料行]，除了選取的資料行外，資料表中其他的資料行一律移除。 
+   您也可以從 [首頁] 功能區索引標籤的 [管理資料行] 群組，依序選取 [刪除資料行] > [移除其他資料行]。 
+   
+   ![移除其他資料行](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/analyzingsalesdata_removeothercolumns.png)
+
+## <a name="import-the-order-data-from-an-odata-feed"></a>從 OData 摘要匯入訂單資料
+
+接下來，從範例 Northwind 銷售系統 OData 摘要，匯入訂單資料。 
+
+1. 在 **Power Query 編輯器**中，選取 [新來源]，然後從 [最常用]下拉式清單選取 [OData 摘要]。 
+   
+   ![取得 OData](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
+   
+2. 在 [OData 摘要] 對話方塊中，貼上 Northwind OData 摘要的 URL - `http://services.odata.org/V3/Northwind/Northwind.svc/` 然後選取 [確定]。
+   
+   ![OData 摘要對話方塊](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
+   
+3. 在 [導覽器] 窗格中，選取 [訂單]資料表，然後選取 [確定] 並將資料載入 **Power Query 編輯器**。
+   
+   ![OData 的導覽器窗格](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/analyzingsalesdata_odatafeed.png)
+   
+   >[!NOTE]
+   >在 [導覽器] 窗格中，您可以按一下資料表名稱來查看預覽，無須勾選核取方塊。
+
+## <a name="expand-the-order-data"></a>展開訂單資料
+
+當連線的資料來源擁有多個資料表，例如關聯式資料庫或 Northwind OData 摘要，您可以使用資料表之間的參考來建立自己的查詢。 **訂單**資料表包含數個關聯資料表的參考。 您可以使用**展開**作業，將 **ProductID**、**UnitPrice** 以及 **Quantity** 資料欄，從關聯的 **Order_Details** 資料表新增至主題 (**Orders**) 資料表。 
+
+1. 往**訂單**資料表右方捲動，直到可以看到 **Order_Details** 資料行為止。 請注意，這個資料行不包含資料，它包含另一個資料表的參考。
+   
+   ![Order_Details column](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
+   
+2. 在 **Order_Details** 資料行標題中，選取 [展開]圖示 (![展開圖示](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/expand.png))。 
+   
 3. 在 [展開]  下拉式清單中：
+   
    1. 選取 [(選取所有資料行)]  以清除所有資料行。
-   2. 選取 **ProductID**、 **UnitPrice**和 **Quantity**。
-   3. 按一下 [確定] 。
-      ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/7.png)
+      
+   2. 選取 **ProductID**、**UnitPrice** 和 **Quantity**，然後選取 [確定]。
+      
+      ![展開對話方塊](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)
 
-### <a name="step-3-remove-other-columns-to-only-display-columns-of-interest"></a>步驟 3：移除其他資料行，只顯示感興趣的資料行
-在這個步驟中，您會移除所有其他資料行，而只保留 **OrderDate、ShipCity**、**ShipCountry**、**Order\_Details.ProductID**、**Order\_Details.UnitPrice** 和 **Order\_Details.Quantity** 資料行。 在先前的工作中，您使用了 [移除其他資料行] 。 在這項工作中，您會移除選取的資料行。
+展開 **Order_Details** 資料表之後，**Order_Details** 資料行會被巢狀資料表的三個新資料行所取代，而且資料表中會有新的資料列，用來填寫每一個訂單新增的資料。 
 
-1. 在 [查詢檢視] 中，完成 a. 和 b. 以選取所有資料行：
-   1. 按一下第一個資料行 (**OrderID**)。
-   2. 在最後一個資料行 (**Shipper**) 上按一下 Shift + 滑鼠左鍵。
-   3. 選取所有資料行之後，使用 Ctrl + 按一下滑鼠左鍵來取消選取下列資料行：**OrderDate**、**ShipCity**、**ShipCountry**、**Order\_Details.ProductID**、**Order\_Details.UnitPrice** 和 **Order\_Details.Quantity**。
-2. 只選取要移除的資料行之後，以滑鼠右鍵按一下任何選取的資料行標頭，然後按一下 [移除資料行] 。
+![展開的資料行](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
-### <a name="step-4-calculate-the-line-total-for-each-orderdetails-row"></a>步驟 4：計算每個 Order\_Details 資料列的項目總計
-Power BI Desktop 可讓您根據所匯入的資料行建立計算方式，以加強要連接的資料。 在這個步驟中，您會建立 [自訂資料行] 來計算每個 **Order\_Details** 資料列的項目總計。
+## <a name="create-a-custom-calculated-column"></a>建立一個自訂的計算結果欄
 
-計算每個 **Order\_Details** 資料列的項目總計：
+Power Query 編輯器可讓您建立各種計算式和自訂的欄位，讓您的資料具備多樣性。 您會建立一個自訂的資料行，然後它會將單價乘以商品數量，以此得出訂單中每一單項產品的總價。
 
-1. 在 [加入資料行]  功能區索引標籤中，按一下 [加入自訂資料行]  。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. 在 [新增自訂資料行] 對話方塊的 [自訂資料行公式] 文字方塊中，輸入 **[Order\_Details.UnitPrice]** \* **[Order\_Details.Quantity]**。
-3. 在 [新資料行名稱]  文字方塊中，輸入 **LineTotal**。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)
-4. 按一下 [確定] 。
-
-### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>步驟 5：設定 LineTotal 欄位的資料類型
-1. 以滑鼠右鍵按一下 **LineTotal** 資料行。
-2. 選取 [變更類型]，然後選擇 [十進位數字]。
-   
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
-
-### <a name="step-6-rename-and-reorder-columns-in-the-query"></a>步驟 6：重新命名和重新排列查詢中的資料行
-最後，在這個步驟中，您會重新命名最終資料行並變更其順序，以讓模型更容易用於建立報表。
-
-1. 在 [查詢編輯器] 中，將 **LineTotal** 資料行向左拖曳到 **ShipCountry**之後。
+1. 在 Power Query 編輯器的 [新增資料行] 功能區中，選取 [自訂資料行]。
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/10.png)
-2. 移除 *Order\_Details。* 從 **Order\_Details.ProductID**、**Order\_Details.UnitPrice** 和 **Order\_Details.Quantity** 資料行中移除前置詞，方法是在各個資料行標頭上按兩下，然後從資料行名稱中刪除該文字。
-
-### <a name="power-bi-desktop-steps-created"></a>建立的 Power BI Desktop 步驟
-當您在查詢編輯器中執行查詢作業時，會建立查詢步驟並列於 [查詢設定]  窗格內的 [套用的步驟]  清單中。 每個查詢步驟都有對應的 Power Query 公式，又稱為 "M" 語言。 如需這個公式語言的詳細資訊，請參閱[了解 Power BI 公式](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f "了解 Power Query 公式").
-
-| 工作 | 查詢步驟 | 公式 |
-| --- | --- | --- |
-| 連接到 OData 摘要 |來源 |Source{[Name="Orders"]}[Data] |
-| 展開 Order\_Details 資料表 |展開 Order\_Details |[Table.ExpandTableColumn](https://support.office.com/Article/TableExpandTableColumn-54903f25-75a2-4a44-a9a3-52a9d895ee98 "Table.ExpandTableColumn") <br /> (Orders, "Order\_Details", {"ProductID", "UnitPrice", "Quantity"}, {"Order\_Details.ProductID", "Order\_Details.UnitPrice", "Order\_Details.Quantity"}) |
-| 移除其他資料行，只顯示感興趣的資料行 |RemovedColumns |[Table.RemoveColumns](https://support.office.com/Article/TableRemoveColumns-6265190e-2f58-4300-85b8-df88fc1a67d3 "Table.RemoveColumns") <br />(\#"Expand Order\_Details",{"OrderID", "CustomerID", "EmployeeID", "RequiredDate", "ShippedDate", "ShipVia", "Freight", "ShipName", "ShipAddress", "ShipCity", "ShipRegion", "ShipPostalCode", "ShipCountry", "Customer", "Employee", "Shipper"}) |
-| 計算每個 Order\_Details 資料列的項目總計 |InsertedColumn |[Table.AddColumn](https://support.office.com/Article/TableAddColumn-6c64d0a5-9654-4d15-bfb6-9cc380aaf3c0 "Table.AddColumn") <br /> (RemovedColumns, "Custom", each [Order\_Details.UnitPrice] \* [Order\_Details.Quantity]) |
-
-## <a name="task-3-combine-the-products-and-total-sales-queries"></a>工作 3：結合 Products 和 Total Sales 查詢
-Power BI Desktop 不需要您結合查詢來建立報表。 相反地，您可以建立兩個資料集之間的 **關聯性** 。 您可以在資料集通用的任何資料行上建立這些關聯性。 如需詳細資訊，請參閱[建立和管理關聯性](desktop-create-and-manage-relationships.md).
-
-在本教學課程中，Orders 和 Products 資料共用一個通用的 'ProductID' 欄位，因此我們需要確保在搭配 Power BI Desktop 使用的模型中有這兩項資料的關聯性。 您可以直接在 Power BI Desktop 中指定這兩個資料表的資料行彼此相關 (也就是資料行具有相同的值)。 Power BI Desktop 會為您找出關聯性的方向和基數。 在某些情況下，它甚至還會自動偵測關聯性。
-
-在這項工作中，您會確認 Power BI Desktop 中已建立 **Products** 和 **Total Sales** 查詢的關聯性。
-
-### <a name="step-1-confirm-the-relationship-between-products-and-total-sales"></a>步驟 1：確認 Products 和 Total Sales 之間的關聯性
-1. 首先，我們需要將在查詢編輯器中建立的模型載入 Power BI Desktop 中。 從查詢編輯器的 [常用] 功能區選取 [關閉並載入]。
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. Power BI Desktop 會從這兩個查詢載入資料。
+2. 在 [自訂資料行] 對話方塊的 [新資料行名稱] 欄位輸入 **LineTotal**。
+
+3. 在 **=** 之後的 [自訂資料行公式] 欄位中，輸入 **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]**。 (您也可以從 [可用的資料行] 捲動方塊中選取欄位名稱，然後選取 [<< 插入]，而不用逐個輸入)。 
+3. 選取 [確定] 。
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)      
-3. 載入資料之後，選取 [常用]  功能區中的 [管理關聯性]  按鈕。
+   ![自訂的資料行對話方塊](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
+
+新的 **LineTotal** 欄位會顯示為 **Orders** 資料表的最後一個資料行。
+
+## <a name="set-the-data-type-for-the-new-field"></a>設定新欄位的資料類型
+
+當 Power Query 編輯器連接到資料時，它會決定每個欄位的最佳資料類型，並據此顯示資料。 您可以根據標題中的圖示，或在 [首頁] 功能區索引標籤的 [轉換] 群組中的 [資料類型] 下方，看到指派至各欄位的資料類型。 
+
+新 **LineTotal** 資料行的資料類型為**任何**，但其值為貨幣。 若要指派一種資料類型，請在 **LineTotal** 資料行標題按一下滑鼠右鍵，接著從下拉式清單中選取 [變更資料類型]，然後選取 [固定的小數位數]。 
+
+![變更資料類型](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/12.png)
+
+>[!NOTE]
+>您也可以選取 **LineTotal** 資料行，然後到 [首頁] 功能區索引標籤的 [轉換] 區域，選取 [資料類型]，接著選取 [固定的小數位數]。
+
+## <a name="clean-up-the-orders-columns"></a>清除訂單資料行
+
+若想在報表中更輕鬆地使用您的模型，可以刪除、重新命名和重新排列某些資料行。
+
+您報表只會使用 **OrderDate**、**ShipCity**、**ShipCountry**、**Order_Details.ProductID**、**Order_Details.UnitPrice** 以及 **Order_Details.Quantity** 資料行。 您可以選取這些資料行，並使用 [移除其他資料行]，這和您在 Excel 中的操作完全相同。或者，除了列出的資料行之外，您可以選取其他的資料行，然後在其中一個選取的資料行上按一下滑鼠右鍵，最後選取 [移除資料行]，全部予以移除。 
+
+您可以移除 *Order_Details* 資料行，這樣 **Order_Details.ProductID**、**Order_Details.UnitPrice** 和 **Order_Details.Quantity** 資料行就更容易識別了。 在資料行名稱前面加上前置詞。 若要將資料行分別重新命名為 **ProductID**、**UnitPrice** 和 **Quantity**：
+
+1. 按兩下或點選並按住每個資料行的標題，或者在資料行標題按一下滑鼠右鍵，然後選取下拉式清單中的 [重新命名]。 
+2. 刪除 *Order_Details.* 在每個名稱前加上的前置詞，然後按下 **Enter**。
+
+最後，為了讓 **LineTotal** 存取更容易，請將它往左側拖曳，一直到 **ShipCountry** 資料行右側才停止。
+
+![清除資料表](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
+
+## <a name="review-the-query-steps"></a>檢閱查詢步驟
+
+當您在 Power Query 編輯器中塑造以及轉換資料時，每個步驟都會記錄至 Power Query 編輯器右側 [查詢設定] 窗格的 [套用的步驟] 區域中。 您可以反向逐步執行「套用的步驟」，以重新檢查您做了哪些變更，並視需要編輯、刪除或重新排列它們 (雖然這可能會有風險，因為變更前面的步驟可能中斷接下來的步驟)。 
+
+在 Power Query 編輯器左側的 [查詢] 清單中選取每一個查訽，然後在 [查詢設定] 中重新檢查 [套用的步驟]。 套用之前的資料轉換後，兩個查詢的「套用的步驟」應該類似如下：
+
+![產品查詢套用的步驟](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/15.png) &nbsp;&nbsp; ![訂單查詢套用的步驟](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/17.png)
+
+>[!TIP]
+>套用的步驟本質上是以 **Power Query 語言** (亦稱為 **M** 語言) 所撰寫的公式。 若要查看和編輯公式，請選取功能區 [首頁] 索引標籤之 [查詢] 群組中的 [進階編輯器]。 
+
+## <a name="import-the-transformed-queries"></a>匯入轉換的查詢
+
+當您處理完資料之後，請在 [首頁] 功能區索引標籤的 [關閉] 群組中依序選取 [關閉並套入] > [關閉並套入]，將資料匯入 Power BI Desktop。 
+
+![關閉並套用](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
+
+載入資料後，查詢會出現在 Power BI Desktop 報表檢視的 [欄位] 清單中。
+
+![欄位清單中的資料行](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
+
+## <a name="manage-the-relationship-between-the-datasets"></a>管理資料集之間的關聯性
+
+Power BI Desktop 不需要您結合查詢來建立報表。 不過，您可以根據資料集共有的欄位，利用它們之間的關聯性來擴充及豐富您的報表。 Power BI Desktop 會自動偵測關聯性，或您可以在 Power BI Desktop [管理關聯] 對話方塊建立它們。 若要深入了解 Power BI Desktop 中的關聯性，請參閱[建立和管理關聯性](desktop-create-and-manage-relationships.md)。
+
+此教學課程中的 Orders 和 Products 資料集有一個共同的 *ProductID* 欄位，所以它們會因為這個資料行而產生一種關聯性。 
+
+1. 在 Power BI Desktop 報表檢視中，在 [首頁] 功能區的 [關聯性] 區域中，選取 [管理關聯]。
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
-4. 選取 [新增...] 按鈕
+   ![管理關聯性功能區](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_5.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
-5. 當我們嘗試建立關聯性時，我們會看到已經存在一個關聯性！ 如 [建立關聯性]  對話方塊所示，每個查詢的 [ProductsID]  欄位 (加網底的資料行) 都已經建立關聯性。
+2. 在 [管理關聯性]對話方塊中，請注意，Power BI Desktop 已偵測到並列出 Products 和 Orders 資料表之間的作用中關聯性。 若要檢視關聯性，請選取 [編輯]。 
    
-    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/12.png)
-6. 選取 [取消] ，然後選取 Power BI Desktop 中的 [關聯性]  檢視。
+   ![管理關聯性對話方塊](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_6.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_7.png)
-7. 如下圖所示，查詢之間的關聯性會以視覺化方式顯示。
+   [編輯關聯性] 對話方塊隨即開啟，顯示關聯性的細節。  
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
-8. 當您按兩下連接查詢之線條上的箭號時，[編輯關聯性]  對話方塊會隨即出現。
+   ![編輯關聯性對話方塊](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_7.png)
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_9.png)
-9. 由於不需要進行任何變更，因此我們將直接選取 [取消]  來關閉 [編輯關聯性]  對話方塊。
+3. Power BI Desktop 已正確偵測到關聯性，因此您可以選取 [取消]，然後選取 [關閉] 來離開關聯性對話方塊。
 
-## <a name="task-4-build-visuals-using-your-data"></a>工作 4：使用您的資料建立視覺效果
-Power BI Desktop 可讓您建立各種視覺效果，來深入探索您的資料。 您可以建立多頁報表，而且每一頁可以有多種視覺效果。 您可以與視覺效果互動，以協助分析及了解您的資料。 如需編輯報表的詳細資訊，請參閱[編輯報表](service-interact-with-a-report-in-editing-view.md).
+您也可以在 Power BI Desktop 視窗左側選取 [關聯性] 檢視，即可檢視並管理所選查詢之間的關聯性。 按兩下連接兩個查詢，以開啟線的箭號**編輯關聯性**對話方塊和檢視或變更關聯性。 
 
-在這項工作中，您會根據先前載入的資料建立報表。 您可以使用 [欄位] 窗格來選取要從中建立視覺效果的資料行。
+![關聯性檢視](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_8.png)
 
-### <a name="step-1-create-charts-showing-units-in-stock-by-product-and-total-sales-by-year"></a>步驟 1：建立圖表以顯示產品的庫存單位數量和年度總銷售額
-將 [UnitsInStock]  從 [欄位] 窗格 ([欄位] 窗格位於畫面最右側) 拖曳到畫布上的空白處。 即會建立一種資料表視覺效果。 接著將 [ProductName] 拖曳到 [視覺效果] 窗格下半部的 [軸] 方塊中。 然後使用視覺效果右上角的圖示來選取 [排序依據] **\> [UnitsInStock]**。
+若要從關聯性檢視回到報表檢視，請選取 [報表檢視] 圖示。 
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/14.png)
+![報表檢視圖示](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_9.png)
 
-將 [OrderDate]  拖曳到第一個圖表下方的畫布上，然後將 \[LineTotal] \(同樣從 \[欄位] 窗格中) 拖曳到視覺效果上，再選取折線圖。 即會建立下列視覺效果。
+## <a name="create-visualizations-using-your-data"></a>使用您的資料建立視覺效果
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/15.png)
+Power BI Desktop 報表檢視讓您建立各種視覺效果，以便深入探索您的資料。 您可以建立多頁報表，而且每一頁可以有多種視覺效果。 您和其他人可以與視覺效果互動，以協助分析及了解您的資料。 如需深入了解如何在 Power BI 服務 (您的站台) 中檢視和編輯報表，請參閱[編輯報表](service-interact-with-a-report-in-editing-view.md)。
 
- 接著將 [ShipCountry]  拖曳到右上方畫布的空白處。 由於您已選取地理欄位，因此會自動建立地圖。 現在將 [LineTotal]  拖曳到 [值]  欄位；地圖上代表每個國家/地區的圓形現在會依運送至該國家/地區之訂單的 [LineTotal]  調整大小。
+您可以使用這兩個資料集以及它們之間的關聯性，協助視覺化並分析銷售資料之間的關聯性。 
 
-![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/17.png)
+首先，使用這兩個查詢的欄位來建立堆疊直條圖，顯示每個訂購產品的數量。 
 
-### <a name="step-2-interact-with-your-report-visuals-to-analyze-further"></a>步驟 2：與報表視覺效果互動以進一步分析
-Power BI Desktop 可讓您與交互醒目提示並彼此篩選的視覺效果互動，以發掘進一步的趨勢。 如需詳細資訊，請參閱[在報表中進行篩選和醒目提示](power-bi-reports-filters-and-highlighting.md)
-
-1. 按一下位於**加拿大**中心的淺藍色圓形。 注意其他視覺效果如何經過篩選，只顯示加拿大的庫存 (**ShipCountry**) 和訂單總數 (**LineTotal**)。
+1. 從右側 [欄位] 窗格的 **Orders** 選取 **Quantity** 欄位，或者將它拖曳至畫布上的空白處。 這樣會建立堆疊直條圖，顯示所有訂購產品的總數量。 
    
-   ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
+2. 從 [欄位] 窗格的 [Products] 選取 **ProductName**，中或將它拖曳到圖表，以顯示每個訂購產品的數量。 
+   
+3. 若要按照訂購量高低順序排列產品，請選取視覺效果右上角的 [更多選項] 省略符號 (**...**)，然後選取 [排序依據 Quantity]。
+   
+4. 使用在圖表邊角的控點，將它放大，這樣可以看到更多的產品名稱。 
+   
+   ![Quantity by ProductName 橫條圖](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/19.png)
 
-## <a name="complete-sales-analysis-report"></a>完成銷售分析報表
-執行上述所有步驟之後，即會有一份結合 Products.xlsx 檔案和 Northwind OData 摘要資料的銷售報表。 這個報表會以視覺化方式顯示，以協助分析來自不同國家/地區的銷售資訊。 您可以從[這裡](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Analyzing_Sales_Data.pbix)下載本教學課程的完整 Power BI Desktop 檔案.
+接下來，建立一張圖表來顯示一段時間 (**OrderDate**) 的訂單金額 (**LineTotal**)。 
+
+1. 在沒有選取任何內容的畫布上，從 [欄位] 窗格的 **Orders** 中選取 **LineTotal**，或將它拖曳到畫布上的空白處。 堆疊直條圖會顯示所有訂單的總金額。 
+   
+2. 在選取的圖表中，從 **Orders** 選取 **OrderDate**，或者將它拖曳至圖表。 圖表現在會顯示針對每個訂單日期的產品線總數。 
+   
+3. 拖曳每個角落來調整視覺效果，即可看到更多的資料。 
+   
+   ![LineTotals by OrderDate 折線圖](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/20.png)
+   
+   >[!TIP]
+   >如果您在圖表上只看到 Years (只有三個資料點)，請到 [視覺效果] 窗格的 **Axis** 欄位中，按一下 **OrderDate** 旁邊的向下箭頭，然後選取 **OrderDate** 而不是 **Date Hierarchy**。 
+
+最後，建立一個地圖視覺效果，顯示每個國家/地區的訂單金額。 
+
+1. 在沒有選取任何內容的畫布上，從 [欄位] 窗格的 **Orders** 中選取 **ShipCountry**，或將它拖曳到畫布上的空白處。 Power BI Desktop 會偵測到資料是國家/地區名稱，並自動建立地圖視覺效果，只要有國家/地區下訂單，便用一個資料點表示。 
+   
+2. 若要讓資料點的大小反映每個國家/地區的訂單數量，可以將 **LineTotal** 欄位拖曳到地圖 (或將它拖曳至 [視覺效果] 窗格 [大小] 底下的 [將資料欄位拖曳到此處])。 現在在地圖上圓圈的大小會反映每個國家/地區的訂單金額。 
+   
+   ![依 ShipCountry 的 LineTotals 地圖視覺效果](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/21.png)
+
+## <a name="interact-with-your-report-visuals-to-analyze-further"></a>與報表視覺效果互動以進一步分析
+
+Power BI Desktop 可讓您與視覺效果 (交叉醒目提示並相互篩選) 互動，以發掘進一步的趨勢。 如需詳細資訊，請參閱[在報表中進行篩選和醒目提示](power-bi-reports-filters-and-highlighting.md)。 
+
+因為您的查詢之間存在關聯性，所以與某一個視覺效果的互動，會影響在頁面上所有其他的視覺效果。 
+
+在地圖視覺效果中，選取以**加拿大**為中心的圓圈。 請注意，其他兩個視覺效果篩選會反白顯示的加拿大地區的商品總計和訂單數量。
+
+![篩選出加拿大地區的銷售資料](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/22.png)
+
+如果您在 **Quantity by ProductName** 圖表中選取一個產品，則地圖和日期圖表篩選器會反映該產品的資料，另外如果您在 **LineTotal by OrderDate** 圖表中選取一個日期，地圖和產品圖表篩選器會顯示該日期的資料。 
+>[!TIP]
+>若要取消選取某個視覺效果，請再選取視覺效果一次，或選取另一個視覺效果。 
+
+## <a name="complete-the-sales-analysis-report"></a>完成銷售分析報表
+
+您完成的報表會合併 Products.xlsx Excel 檔案中的資料以及 Northwind OData 摘要，形成各種視覺效果，這有助於分析不同國家/地區、時間範圍以及產品的訂單資訊。 準備好報表之後，您可以[將其上傳至 Power BI 服務](desktop-upload-desktop-files.md)並與其他 Power BI 使用者共用。
 
 ## <a name="next-steps"></a>後續步驟
 * [閱讀其他 Power BI Desktop 教學課程](http://go.microsoft.com/fwlink/?LinkID=521937)
 * [觀看 Power BI Desktop 影片](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [瀏覽 Power BI 論壇](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [閱讀 Power BI 部落格](http://go.microsoft.com/fwlink/?LinkID=519327)
-
-

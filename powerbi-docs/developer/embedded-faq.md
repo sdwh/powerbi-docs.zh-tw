@@ -1,27 +1,20 @@
 ---
 title: 關於 Power BI Embedded 的常見問題集
 description: 瀏覽 Power BI Embedded 相關的常見問題與回答清單。
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 24e4dbaf6ede92436ff05c8cb57756e3ab7e8526
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289732"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -58,7 +51,7 @@ Microsoft 的建議是，企業購買 Power BI Premium (企業級的自助雲端
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>我可以建立多少內嵌權杖？
 
-具有 PRO 授權的內嵌權杖適用於開發和開發測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數量有限。 您必須[購買容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)才可在生產環境中進行內嵌作業。 購買容量後，您可產生的內嵌權杖數量就不受限制。
+具有 PRO 授權的內嵌權杖適用於開發測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數量有限。 您必須[購買容量](#technical)才可在生產環境中進行內嵌作業。 購買容量後，您可產生的內嵌權杖數量就不受限制。 請移至[取得可用的功能](https://msdn.microsoft.com/library/mt846473.aspx) \(英文\) 來檢查指出目前內嵌使用情況百分比的使用情況值。
 
 ## <a name="technical"></a>技術
 
@@ -164,10 +157,6 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 因為 Power BI Embedded 是 Azure 的一部份，所以您可以使用[註冊 Azure 時收到的美金 $200 元點數](https://azure.microsoft.com/free/)使用服務。
 
-### <a name="is-there-a-limit-to-the-number-of-embed-tokens-a-power-bi-master-account-can-generate"></a>Power BI 主要帳戶可以產生的內嵌權杖數量是否受限制？ 
-
-是，它受到限制，因為這些內嵌權杖僅供開發測試使用。 對於任何生產環境內嵌案例，[必須購買容量](#technical)才可進行。 購買容量後，內嵌權杖產生的數量就不受限制。 移至[取得可用功能](https://msdn.microsoft.com/en-us/library/mt846473.aspx) \(英文\) 來檢查已經使用多少免費的內嵌權杖。
-
 ### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Power BI Embedded 是否可供主權雲端使用 (美國政府、德國、中國)？
 
 Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereign-clouds.md)使用。 中國雲端仍然**無法**使用。
@@ -176,9 +165,47 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 
 非營利及教育機構可以購買 Azure。 在 Azure 中，並無適用這幾種客戶的特殊定價。
 
+## <a name="power-bi-workspace-collection"></a>Power BI 工作區集合
+
+### <a name="what-is-power-bi-workspace-collection"></a>什麼是 Power BI 工作區集合？
+
+**Power BI 工作區集合** (**Power BI Embedded** 第 1 版) 是一個以 **Power BI 工作區集合** Azure 資源為基礎的解決方案。 此解決方案可讓您藉由使用「Power BI 工作區集合」解決方案底下的 Power BI 內容、專用 API 及工作區集合金鑰來向 Power BI 驗證應用程式，為客戶建立 **Power BI Embedded** 應用程式。
+
+### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>我是否可以從「Power BI 工作區集合」移轉至 Power BI Embedded？
+
+1. 您可以使用移轉工具，將「Power BI 工作區集合」內容複製到 Power BI - https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration。
+
+2. 從使用 Power BI 內容的 **Power BI Embedded** 應用程式 POC 開始著手。
+
+3. 做好進入生產環境的準備之後，購買 **Power BI Embedded** 專用容量，然後將您的 Power BI 內容 (工作區) 指派給該容量。
+
+>[!Note]
+您可以在以 **Power BI Embedded** 解決方案平行進行建置的同時，繼續使用「Power BI 工作區集合」。 準備就緒之後，您便可以將客戶移至新的 **Power BI Embedded** 解決方案，然後淘汰「Power BI 工作區集合」解決方案。
+
+如需詳細資訊，請參考[如何將 Power BI 工作區集合內容移轉至 Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)
+
+### <a name="is-power-bi-workspace-collection-on-a-path-to-be-deprecated"></a>「Power BI 工作區集合」是否即將被取代？
+
+是，但已經在使用「Power BI 工作區集合」解決方案的客戶可以繼續使用它，直到它被取代為止。 客戶也可以建立新的工作區集合，以及任何仍然使用「Power BI 工作區集合」解決方案的 **Power BI Embedded** 應用程式。
+
+不過，這也意謂著新功能不會新增到任何「Power BI 工作區集合」解決方案，而我們鼓勵客戶進行移轉至新 **Power BI Embedded** 解決方案的規劃。
+### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>何時會中止「Power BI 工作區集合」支援？
+
+已經在使用「Power BI 工作區集合」解決方案的客戶可以繼續使用它，直到 2018 年 6 月底，或直到其支援合約終止為止。
+
+### <a name="in-what-regions-can-pbi-workspace-collection-be-created"></a>可以在哪些區域建立「Power BI 工作區集合」？
+
+可用的區域包括：澳大利亞東南部、巴西南部、加拿大中部、美國東部 2、日本東部、美國中北部、北歐、美國中南部、東南亞、英國南部、西歐、印度西部及美國西部。
+
+### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>為何我應該從「Power BI 工作區集合」移轉至 Power BI Embedded？
+
+**Power BI Embedded** 解決方案引進了「Power BI 工作區集合」所沒有的新功能和處理能力。
+
+一些功能包括：
+* 與使用「Power BI 工作區集合」只支援 2 種資料來源相比，可支援所有 PBI 資料來源。 
+* 問與答、重新整理、書籤、儀表板與圖格內嵌、自訂功能表等新功能只有在 **Power BI Embedded** 解決方案中才有支援。
+* 容量計費模型。
+
 如需詳細資訊，請參閱[為您的內嵌應用程式進行疑難排解](embedded-troubleshoot.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-
-
-

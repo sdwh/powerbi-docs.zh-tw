@@ -1,28 +1,21 @@
 ---
 title: 取得 Power BI Desktop
 description: 下載及安裝 Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 08/15/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/24/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a03e859e769f880b0c627080a864b41e96fc138b
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: eee341314b309eda119dd282eafd18188f8fdfd0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34286627"
 ---
 # <a name="get-power-bi-desktop"></a>取得 Power BI Desktop
 **Power BI Desktop** 可讓您建立進階查詢、模型，以及將資料視覺化的報表。 透過 **Power BI Desktop**，您可以建立資料模型、建立報表，並發行到 Power BI 服務以分享您的工作。  **Power BI Desktop** 可免費下載。
@@ -82,7 +75,7 @@ ms.lasthandoff: 04/03/2018
 > 不支援將下載的 (MSI) 版本和 **Power BI Desktop** 的 **Microsoft Store** 版本安裝在同一部電腦上 (有時也稱為「並存」安裝)。 您應該手動解除安裝 **Power BI Desktop**，然後再從 **Microsoft Store** 下載它
 > 
 > [!NOTE]
-> **Power BI Desktop** 的 Power BI 報表伺服器版本與本文所討論的版本是不同的安裝。 如需 **Power BI Desktop** 之報表伺服器版本的資訊，請參閱[快速入門︰建立 Power BI 報表伺服器的 Power BI 報表](report-server/quickstart-create-powerbi-report.md)一文。
+> **Power BI Desktop** 的 Power BI 報表伺服器版本與本文所討論的版本是不同的安裝。 如需 **Power BI Desktop** 報表伺服器版本的資訊，請參閱[建立 Power BI 報表伺服器的 Power BI 報表](report-server/quickstart-create-powerbi-report.md)。
 > 
 > 
 
@@ -103,7 +96,7 @@ ms.lasthandoff: 04/03/2018
 * Internet Explorer 9 或更新版本
 * **記憶體 (RAM)：** 可用量至少為 1 GB，建議量為 1.5 GB 或以上。
 * **顯示：** 建議至少為 1440x900 或 1600x900 (16:9)。 不建議像是 1024x768 或 1280x800 等較低的解析度，原因是某些控制項 (例如關閉啟動畫面) 需以更高的解析度顯示。
-* **Windows 顯示設定：**如果您進行顯示設定，將文字、應用程式及其他項目的大小變更為超過 100%，可能會看不到某些為了繼續使用 **Power BI Desktop** 而必須關閉或回應的對話方塊。 如果您遇到這項問題，請前往 Windows 中的 [設定] > [系統] > [顯示] 檢查您的 [顯示設定]，並使用滑桿將顯示設定調回 100%。
+* **Windows 顯示設定：** 如果您進行顯示設定，將文字、應用程式及其他項目的大小變更為超過 100%，可能會看不到某些為了繼續使用 **Power BI Desktop** 而必須關閉或回應的對話方塊。 如果您遇到這項問題，請前往 Windows 中的 [設定] > [系統] > [顯示] 檢查您的 [顯示設定]，並使用滑桿將顯示設定調回 100%。
 * **CPU：** 建議為 1 GHz 或更快的 x86 或 x64 位元處理器。
 
 ## <a name="next-steps"></a>後續步驟
