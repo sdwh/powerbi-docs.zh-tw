@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813361"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>報表和視覺效果的最佳設計做法
 <!-- Shared newnav Include -->
@@ -734,7 +735,7 @@ Power BI 一開始提供許多視覺效果類型。  對這些項目，新增來
 
 如需詳細資訊：
 
-* [教學課程：Power BI 中的組合圖](power-bi-visualization-combo-chart.md)
+* [Power BI 中的組合圖](power-bi-visualization-combo-chart.md)
 * [The danger of dual-scaled Axes in visuals](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf)
 
 ### <a name="scatter-chart"></a>散佈圖
@@ -810,8 +811,8 @@ KPI 會顯示相同空間量中的值、狀態、目標、與目標的變異以�
 
 如需詳細資訊，請參閱：
 
-* [教學課程：Power BI 中的星形量測計圖表](power-bi-visualization-radial-gauge-charts.md)
-* [教學課程︰Power BI 中的 KPI](power-bi-visualization-kpi.md)
+* [Power BI 中的星形量測計圖表](power-bi-visualization-radial-gauge-charts.md)
+* [Power BI 中的 KPI](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>結論
 現在，您可以測試這些最佳作法。  請保持聯絡，並分享您自己的最佳作法。 不同意我們的建議，或發現充分的理由可「打破規則」嗎？  我們也十分希望聽到這類回應。  

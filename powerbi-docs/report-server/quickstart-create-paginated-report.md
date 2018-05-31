@@ -1,29 +1,22 @@
 ---
-title: "快速入門︰建立 Power BI 報表伺服器的編頁報表"
-description: "了解如何透過一些簡單步驟，建立 Power BI 報表伺服器的編頁報表。"
-services: powerbi
-documentationcenter: 
+title: 建立 Power BI 報表伺服器的編頁報表
+description: 了解如何透過一些簡單步驟，建立 Power BI 報表伺服器的編頁報表。
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 1e77a1ef92826010d6bc2fa28749a2ee17bbe723
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294908"
 ---
-# <a name="quickstart-create-a-paginated-report-for-power-bi-report-server"></a>快速入門︰建立 Power BI 報表伺服器的編頁報表
+# <a name="create-a-paginated-report-for-power-bi-report-server"></a>建立 Power BI 報表伺服器的編頁報表
 正如其名，編頁報表可以執行至許多頁面。 其配置使用固定的格式，且提供精確的自訂項目。 編頁報表為 .rdl 檔案。
 
 您可以在 Power BI 報表伺服器入口網站中儲存及管理編頁報表，就如同您在 SQL Server Reporting Services (SSRS) 入口網站一樣。 在 SQL Server Data Tools (SSDT) 的報表產生器或報表設計師中建立和編輯，然後將其發行至其中一個入口網站。 接著貴組織的報表讀者可在瀏覽器，或其行動裝置上的 Power BI 行動裝置應用程式中加以檢視。

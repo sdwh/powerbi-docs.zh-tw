@@ -1,27 +1,20 @@
 ---
 title: Power BI 網路研討會
 description: Power BI 網路研討會
-services: powerbi
-documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/26/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/09/2018
 ms.author: maikelson
-ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
-ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
+ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34299278"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -31,17 +24,13 @@ ms.lasthandoff: 04/27/2018
 
 進行註冊以收到 Power BI 專家傳來的資訊，並參加即時的問與答會議
 
-**[Power BI 採用架構網路研討會系列](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)** \(英文\)
-<br>由 Manu Kanwarpal 與 Paul Henwood 主持
-<br>*2018 年 3 月、4 月和 5 月，美國東部時間上午 9:00，美國東部時間下午 12:00*
+**藉由 Power BI 和 Visio 獲得正確的見解**
+<br>由 Shakun Grover 主持
+<br>*2018 年 5 月 22 日，上午 10:00 PST，下午 1:00 EST*
 
-為適用您組織的 Power BI 規劃有效的首度發行，並瀏覽有效的軟體即服務 (SaaS) 管理的細微差別。 此系列分為五個部分，可讓您的組織充分發揮 Power BI 的潛力。
+參與我們的這個網路研討會，以了解如何結合 Power BI 儀表板和 Microsoft Visio 圖表來建立強大的視覺見解。 Visio 和 Power BI 皆高度視覺化並自然互補。 Visio 可讓您建立說明圖表，例如互連式工作流程和真實世界版面配置。 Power BI 可使用圖表和地圖來協助您建置直覺式儀表板，以評估關鍵效能指標及追蹤目標。
 
-[註冊觀看 5 月 1 日 - 第 5 部分 - 首度發行：成功推出 Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) \(英文\)
-<br>[立即註冊觀看 - 第 4 部分 - 安全性：使用 Power BI 保護您的資料安全](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) \(英文\)
-<br>[立即註冊觀看 - 第 3 部分 - 服務管理：Power BI 服務管理見解](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) \(英文\)
-<br>[立即註冊觀看 - 第 2 部分 - 控管：管理您的 Power BI 使用量](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) \(英文\)
-<br>[立即註冊觀看 - 第 1 部分 - 採用：採用資料驅動的文化](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) \(英文\)
+[報名後即可於 5 月 22 日觀看](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **在 20 分鐘內深入了解 Power BI Embedded**
 <br>作者：Megan Asarrane 與 Colin Murphy
@@ -88,6 +77,10 @@ ms.lasthandoff: 04/27/2018
 **如何設計令人驚豔的 Power BI 報表**
 <br>由 Charlie Sterling 主持
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**不僅僅是試算表**
+<br>由 Gohul Shanmugalingam 主持
+<br>[報名並立即觀看](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
 
 **將報表從良好轉換為極佳！**
 <br>由 Reid Havens 主持
@@ -139,6 +132,14 @@ ms.lasthandoff: 04/27/2018
 <br>由 Nagasaikiran Kambhampati 與 Miguel Martinez 主持
 <br>[註冊觀看](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website) \(英文\)
 <br>[下載進階分析入門套件開始追蹤](https://aka.ms/pbiaawebinar)
+
+**[Power BI 採用架構網路研討會系列](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)** \(英文\)
+<br>由 Manu Kanwarpal 與 Paul Henwood 主持
+<br>[立即註冊觀看 - 第 1 部分 - 採用：採用資料驅動的文化](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) \(英文\)
+<br>[立即註冊觀看 - 第 2 部分 - 控管：管理您的 Power BI 使用量](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) \(英文\)
+<br>[立即註冊觀看 - 第 3 部分 - 服務管理：Power BI 服務管理見解](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) \(英文\)
+<br>[立即註冊觀看 - 第 4 部分 - 安全性：使用 Power BI 保護您的資料安全](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) \(英文\)
+<br>[立即註冊觀看 - 第 5 部分 - 首度發行：成功推出 Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) \(英文\)
 
 **Office 365 財務專業人員網路研討會系列**
 <br>主講人：Mark Traverso、Carlos Otero、Johnnie Thomas、Amanda Cofsky 與 Miguel Martinez

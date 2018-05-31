@@ -1,31 +1,24 @@
 ---
-title: Power BI 中的交叉分析篩選器 (教學課程)
-description: 教學課程：Power BI 中的交叉分析篩選器
-services: powerbi
-documentationcenter: ''
+title: Power BI 中的交叉分析篩選器
+description: Power BI 中的交叉分析篩選器
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/05/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 30f548e73dd9f3c4fb93f048dec0c46eee3845ca
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297346"
 ---
-# <a name="slicers-in-power-bi-tutorial"></a>Power BI 中的交叉分析篩選器 (教學課程)
+# <a name="slicers-in-power-bi"></a>Power BI 中的交叉分析篩選器
 您希望報告讀者能夠查看整體銷售計量，但也能夠醒目提示個別區經理和不同時間範圍的績效。 您可以建立個別的報告或比較圖表，或是使用交叉分析篩選器。 交叉分析篩選器是一種替代的篩選方式，可縮小報表內其他視覺效果中顯示的資料集部分。 
 
 本教學課程使用免費的[零售分析範例](sample-retail-analysis.md)，可逐步引導您建立清單和日期範圍交叉分析篩選器、設定其格式及使用此篩選器。 享受探索格式化及使用交叉分析篩選器的樂趣。 
@@ -177,10 +170,10 @@ Power BI 交叉分析篩選器具有下列限制：
 
 ### <a name="other-formatting-options"></a>其他格式化選項
 其他格式化選項預設關閉。 轉換為 [開啟] 時： 
-- **標題：**在交叉分析篩選器的上方新增並格式化標題 (除標頭外，且不受標頭影響)。 
-- **背景：**新增整體交叉分析篩選器的背景色彩，並設定其透明度。
-- **鎖定長寬：**如果調整大小，保留交叉分析篩選器的形狀。
-- **框線：**新增交叉分析篩選器的 1 像素框線，並設定其色彩。 (此交叉分析篩選器框線和 [General Outline] (一般外框) 設定不同，不受其影響。) 
+- **標題：** 在交叉分析篩選器的上方新增並格式化標題 (除標頭外，且不受標頭影響)。 
+- **背景：** 新增整體交叉分析篩選器的背景色彩，並設定其透明度。
+- **鎖定長寬：** 如果調整大小，保留交叉分析篩選器的形狀。
+- **框線：** 新增交叉分析篩選器的 1 像素框線，並設定其色彩。 (此交叉分析篩選器框線和 [General Outline] (一般外框) 設定不同，不受其影響。) 
 
 ## <a name="next-steps"></a>後續步驟
 [請試用 - 完全免費！](https://powerbi.com/)

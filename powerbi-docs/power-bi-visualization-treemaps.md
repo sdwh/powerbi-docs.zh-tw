@@ -1,16 +1,16 @@
 ---
-title: "Power BI 中的矩形式樹狀結構圖 (教學課程)"
-description: "教學課程：Power BI 中的矩形式樹狀結構圖"
+title: Power BI 中的矩形式樹狀結構圖
+description: Power BI 中的矩形式樹狀結構圖
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: IkJda4O7oGs
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a803256e5902ffc19e77c67a450d4895982b4b8b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c9ce6b7b25170e87ea3474519036e854b15e940
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813200"
 ---
-# <a name="treemaps-in-power-bi-tutorial"></a>Power BI 中的矩形式樹狀結構圖 (教學課程)
+# <a name="treemaps-in-power-bi"></a>Power BI 中的矩形式樹狀結構圖
 矩形式樹狀結構圖會將階層式資料顯示成一組巢狀矩形。  階層的每個層級會由包含其他矩形 (「分葉」) 的彩色矩形 (通常稱為「分支」) 代表。  每個矩形內的空間是根據測量的量化值來配置，並且矩形會依大小從左上角 (最大) 排列到右下 (最小)。
 
 ![](media/power-bi-visualization-treemaps/pbi-nancy_viz_treemap.png)
