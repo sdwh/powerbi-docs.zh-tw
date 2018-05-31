@@ -1,21 +1,29 @@
 ---
 title: 快速入門：連線至資料
 description: 在 Power BI Desktop 中連線至資料來源
+services: powerbi
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.devlang: NA
 ms.topic: quickstart
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 3f29bd899c62adbe2de1fdedd25b60cb104c71e0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b5b8a6abd16256abfb87eac63789fcae852e98c0
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34287823"
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813752"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>快速入門：在 Power BI Desktop 中連線至資料
 
