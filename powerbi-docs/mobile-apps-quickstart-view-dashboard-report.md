@@ -1,27 +1,20 @@
 ---
 title: 快速入門：在 Power BI 行動裝置應用程式中探索儀表板和報表
 description: 在此快速入門中，您將探索 Power BI 行動裝置應用程式中的範例儀表板和報表。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.component: ''
-ms.devlang: NA
+ms.component: powerbi-mobile
 ms.topic: quickstart
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 7d7d1cbe56f1f41d7fab02f0168c2794e5342abb
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 3ad44bfaa4fe9fc2eb81adbaad17f6e5034d8b14
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33946093"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295759"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>快速入門：在 Power BI 行動裝置應用程式中探索儀表板和報表
 在此快速入門中，您將探索 Android 手機上 Power BI 行動裝置應用程式中的範例儀表板和報表。 您也可以在其他行動裝置應用程式中按照步驟操作。 
@@ -138,7 +131,7 @@ Power BI 適用於執行 Android 5.0 作業系統或更新版本的 Android 裝�
 
 ## <a name="clean-up-resources"></a>清除資源
 
-完成此快速入門後，您可以根據需要刪除 [零售分析範例] 儀表板、報表和資料集。
+完成此快速入門後，您可以根據需求，刪除零售分析範例儀表板、報表和資料集。
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
 
@@ -152,7 +145,7 @@ Power BI 適用於執行 Android 5.0 作業系統或更新版本的 Android 裝�
 
 4. 選取 [報表] 索引標籤，然後針對零售分析報表執行相同的動作。
 
-5. 選擇 [資料集] 索引標籤，並對零售分析資料集執行相同的動作。
+5. 選擇 [資料集] 索引標籤，然後對零售分析資料集執行相同的動作。
 
 
 ## <a name="next-steps"></a>後續步驟

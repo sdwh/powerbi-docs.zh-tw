@@ -1,29 +1,20 @@
 ---
 title: 教學課程：探索 VM 中的 Power BI 報表伺服器
 description: 在本教學課程中，您會建立一部已經安裝「Power BI 報表伺服器」的虛擬機器並探索入口網站。
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.component: powerbi-report-server
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-report-server
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: a77dceac19368fc7997f79513b0b5f946a914dfc
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813936"
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34444995"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教學課程：探索 VM 中的 Power BI 報表伺服器入口網站
 在本教學課程中，您會建立一部已經安裝「Power BI 報表伺服器」的 Azure 虛擬機器，以便體驗如何檢視、編輯和管理範例 Power BI 及編頁報表與 KPI。
@@ -59,6 +50,8 @@ ms.locfileid: "33813936"
 
 6. 針對 [資源群組]，保留 [新建]，然後將其命名為 **reportserverresourcegroup**。
 
+    若您瀏覽過一次以上的教學課程，則在第一次之後，需要為資源群組提供不同的名稱。 您無法在同一個訂用帳戶中，使用兩次相同的資源群組名稱。 
+
 7. 保留其他預設值 > [確定]。
 
     ![為 VM 和資源群組命名](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create-resource-group.png)
@@ -91,7 +84,7 @@ ms.locfileid: "33813936"
 
 7. 下一個對話方塊會指出無法識別遠端電腦的身分識別。 請選取 [是]。
 
-   瞧 -- 您的新 VM 開啟了。
+   您看，新的 VM 開啟了。
 
 ## <a name="power-bi-report-server-on-the-vm"></a>VM 上的 Power BI 報表伺服器
 
@@ -165,6 +158,8 @@ ms.locfileid: "33813936"
      報表隨即在 Power BI Desktop 中開啟。 請注意頂端列中的名稱「Power BI Desktop (2018 年 3 月)」。 這是已針對「Power BI 報表伺服器」最佳化的版本。
 
     ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
+
+     請使用安裝在 VM 上的 Power BI Desktop 版本。 您不可跨網域來上傳報表。
 
 3. 在 [欄位] 窗格中，展開 [客戶] 資料表，然後將 [職業] 欄位拖曳至 [報表層級篩選]。
 
@@ -252,7 +247,9 @@ ms.locfileid: "33813936"
 
 ## <a name="next-steps"></a>後續步驟
 
-在本教學課程中，您已建立具有「Power BI 報表伺服器」的 VM。 您已嘗試入口網站的某些功能，並已在 Power BI 報表和編頁報表的個別編輯器中開啟這些報表。 若要深入了解如何為「Power BI 報表伺服器」建立報表，請繼續進行。
+在本教學課程中，您已建立具有「Power BI 報表伺服器」的 VM。 您已嘗試入口網站的某些功能，並已在 Power BI 報表和編頁報表的個別編輯器中開啟這些報表。 此 VM 已安裝了 SQL Server Analysis Services 資料來源，所以您可以嘗試使用這些相同的資料來源，建立您自己的 Power BI 以及分頁的報表。 
+
+若要深入了解如何為「Power BI 報表伺服器」建立報表，請繼續進行。
 
 > [!div class="nextstepaction"]
 > [建立 Power BI 報表伺服器的 Power BI 報表](./quickstart-create-powerbi-report.md)
