@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: e77c77acb7808923097eb3e2146bef816eda51ee
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a1cbcc6d265504bc93ef6447a6be381ca6399063
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721746"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>使用 Power BI 報表伺服器中的 REST API 進行開發
 Power BI 報表伺服器支援具象狀態傳輸 (REST) API。 REST API 是服務端點，會支援一組 HTTP 作業 (方法)，該作業提供報表伺服器內資源的建立、擷取、更新或刪除存取權。
 
 REST API 提供以程式設計方式存取 Power BI 報表伺服器目錄中的物件。 物件範例包括資料夾、報表、KPI、資料來源、資料集、重新整理計劃、訂用帳戶等等。 例如，您可以使用 REST API 來瀏覽資料夾階層、探索資料夾內容，或下載報表定義。 您也可以建立、更新和刪除物件。 使用物件的範例為上傳報表、執行重新整理計劃、刪除資料夾等等。
+
+[!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 ## <a name="components-of-a-rest-api-requestresponse"></a>REST API 要求/回應的元件
 REST API 要求/回應配對可以分成五個元件：

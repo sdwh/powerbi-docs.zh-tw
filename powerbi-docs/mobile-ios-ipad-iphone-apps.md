@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
 ms.openlocfilehash: b0785555e288084f97d06d05161ebef78d21731c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34292953"
 ---
 # <a name="explore-your-data-on-the-power-bi-mobile-app-for-ios-devices"></a>在 iOS 裝置的 Power BI 行動裝置應用程式中探索資料
 Microsoft Power BI for iOS 應用程式提供 iPad、iPhone、Apple Watch 以及 iPod Touch 的行動 BI 體驗。 這項應用程式提供即時的觸控式行動裝置，讓您存取重要的商務資訊，並可隨時隨地檢視組織的 Power BI 儀表板和報表以及 Reporting Services 行動報表和 KPI，並與其互動。 瀏覽儀表板中的資料，並使用電子郵件或文字訊息與同事共用。

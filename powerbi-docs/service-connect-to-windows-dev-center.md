@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250046"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>使用 Power BI 連接到 Windows 開發人員中心
 使用 Power BI 內容套件探索並監視 Power BI 中的 Windows 開發人員中心應用程式中分析資料。 資料會自動每天重新整理一次。
