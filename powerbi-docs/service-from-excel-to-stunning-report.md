@@ -11,10 +11,11 @@ ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
 ms.openlocfilehash: f24d4055bd5fcf5fdee058112c268a1a0e197012
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247164"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>即刻從 Excel 活頁簿到令人驚豔的報表
 您的經理在下班時想要看到您最近的銷售數字以及之前行銷活動效果的報表。 但最新的資料在各種協力廠商系統中，以及您膝上型電腦的檔案內。 在過去，需要好幾個小時的時間才能製作具有各種視覺效果與格式的報表， 所以您覺得有點焦慮。

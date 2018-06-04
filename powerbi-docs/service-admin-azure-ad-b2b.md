@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6e1665b6e9c9ff0a756d9ccdaf9e6feb4ed9eb39
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722216"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者
 
@@ -30,7 +31,7 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 
 ## <a name="who-can-you-invite"></a>您可以邀請哪些人？
 
-您可以邀請使用任何電子郵件地址的來賓使用者，包括 gmail.com、outlook.com 或 hotmail.com 等個人帳戶。在 Azure B2B 中，這些稱為「社交識別碼」。 如需詳細資訊，請參閱 [Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)。
+您可以邀請使用任何電子郵件地址的來賓使用者，包括 gmail.com、outlook.com 或 hotmail.com 等個人帳戶。 在 Azure B2B 中，這些稱為「社交識別碼」。 如需詳細資訊，請參閱 [Azure B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)。
 
 ## <a name="invite-guest-users"></a>邀請來賓使用者
 
@@ -100,7 +101,7 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-* 當您邀請使用 gmail.com、outlook.com 或 hotmail.com 等個人電子郵件帳戶的來賓使用者時，您可以觀看這段示範[內嵌影片](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience)了解使用者如何註冊。
+* 當您邀請使用 gmail.com、outlook.com 或 hotmail.com 等個人電子郵件帳戶的來賓使用者時，您可以觀看這段示範[內嵌影片](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-redemption-experience)了解使用者如何註冊。
 * 外部 B2B 來賓限制於僅限內容耗用。 外部 B2B 來賓可以檢視應用程式、儀表板和報表、匯出資料，並建立儀表板和報表的電子郵件訂用帳戶。 他們無法存取工作區或發行其專屬內容。
 * Power BI 行動應用程式目前無法提供這項功能。 在行動裝置上，您可以在瀏覽器中檢視使用 Azure AD B2B 所共用的 Power BI 內容。
 * Power BI SharePoint Online 報表網頁組件目前不提供這項功能。

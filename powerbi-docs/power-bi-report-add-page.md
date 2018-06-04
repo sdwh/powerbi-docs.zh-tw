@@ -11,10 +11,11 @@ ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 48980bf4ded44f9c383b38606747d14b5a5725c8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34237422"
 ---
 # <a name="add-a-page-to-a-power-bi-report-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中新增 Power BI 報告的頁面
 報表頁面不必擠得滿滿的，只要新增空白頁面即可。 

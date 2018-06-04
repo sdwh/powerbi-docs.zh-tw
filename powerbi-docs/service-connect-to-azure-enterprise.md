@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 7425e194bd6bda51442a128d146fb4061a77af81
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34243187"
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>使用 Power BI 連接到 Microsoft Azure 企業版
 使用 Power BI 內容套件探索並監控 Power BI 中的 Microsoft Azure 企業版資料。 資料會自動每天重新整理一次。

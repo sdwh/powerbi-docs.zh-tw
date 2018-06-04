@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244448"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>使用 Power BI 連接到 Insightly
 使用 Insightly 內容套件在 Power BI 中視覺化和共用 Insightly CRM 資料。 使用 Insightly API 金鑰連接到 Power BI，檢視及建立使用 CRM 資料的報表和儀表板。 透過 Power BI，您可以新方式分析資料、建立功能強大的圖形和圖表，並在地圖上顯示連絡人、潛在客戶和組織。

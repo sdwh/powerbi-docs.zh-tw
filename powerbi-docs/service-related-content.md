@@ -12,10 +12,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9aa0169f76515dd2f05a3e9debb8bc3d10cbdd07
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250138"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>檢視 Power BI 服務中的相關內容
 [相關內容] 窗格會顯示您的 Power BI 服務內容 (儀表板、報表及資料集) 如何互連。  這個窗格經過了改良，讓您可以從中執行重新整理、重新命名、產生深入資訊等常用工作。 選取相關報表或儀表板，其隨即在您的 Power BI 工作區中開啟。   

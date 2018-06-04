@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 11/20/2017
 ms.author: maghan
 ms.openlocfilehash: 86dd69cede6975021aff4b0ce3dada112db980ad
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34287777"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded 問與答
 Power BI Embedded 提供您一種將問與答併入應用程式的方式，讓您的使用者使用自然語言提問，並立即收到類似圖表或圖形視覺效果的表單回應。

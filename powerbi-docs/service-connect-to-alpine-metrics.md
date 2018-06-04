@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d9e70e0b69f0ce68826f566e6e5cdb0f4d8e113e
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242924"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>使用 Power BI 連接到 Alpine Metrics 銷售預測內容套件
 Alpine Metrics 為各種規模的銷售組織提供最先進的雲端及隨選「預測銷售程序最佳化」。 Power BI 的 Alpine Metrics 銷售預測內容套件包含可能及預測的銷售和風險等計量資訊，讓您深入探索企業的未來。 

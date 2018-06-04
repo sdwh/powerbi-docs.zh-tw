@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cf5383f034b47708aa6b75ca5ead3e79b8e270
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d8c3a33a3ae6166d33ea7a613917616613b84696
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721447"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI 的自訂視覺效果
 建立或編輯 Power BI 報表時，有各式各樣的視覺效果供您使用。 這些視覺效果會顯示在 [視覺效果] 窗格。 當您下載 Power BI Desktop 或開啟 Power BI 服務 (app.powerbi.com) 時，這組視覺效果已經「內建」。
@@ -53,10 +54,10 @@ Power BI 系統管理員可以將自訂視覺效果部署到組織中，讓報�
 
 ### <a name="certified-visuals"></a>認證的視覺效果
 
-Power BI 認證的視覺效果為已通過額外嚴格品質測試的 Marketplace 視覺效果，且支援額外的使用案例，例如[電子郵件訂閱](https://docs.microsoft.com/en-us/power-bi/service-report-subscribe)以及[匯出至 PowerPoint](https://docs.microsoft.com/en-us/power-bi/service-publish-to-powerpoint)。
-若要查看已認證的自訂視覺效果清單，或提交您自己的視覺效果，請參閱[已認證的自訂視覺效果](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-certified)。
+Power BI 認證的視覺效果為已通過額外嚴格品質測試的 Marketplace 視覺效果，且支援額外的使用案例，例如[電子郵件訂閱](https://docs.microsoft.com/power-bi/service-report-subscribe)以及[匯出至 PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint)。
+若要查看已認證的自訂視覺效果清單，或提交您自己的視覺效果，請參閱[已認證的自訂視覺效果](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified)。
 
-您是否為 Web 開發人員，而且有興趣將自己建立的視覺效果發佈到 AppSource 呢？ 請參閱[開始使用開發人員工具](https://docs.microsoft.com/en-us/power-bi/service-custom-visuals-getting-started-with-developer-tools)並了解如何[在 AppSource 上發佈視覺效果](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)。
+您是否為 Web 開發人員，而且有興趣將自己建立的視覺效果發佈到 AppSource 呢？ 請參閱[開始使用開發人員工具](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools)並了解如何[在 AppSource 上發佈視覺效果](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)。
 
 ### <a name="import-a-custom-visuals-from-a-file"></a>從檔案匯入自訂視覺效果
 

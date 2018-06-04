@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1d4b825cd7301af020f01de215e00968d21f972c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250000"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>從 Power BI 將報表匯出至 PowerPoint (預覽)
 有了 Power BI，您現在可以將報表發佈至 **Microsoft PowerPoint**，並根據 Power BI 報表輕鬆地建立投影片組。 當您**匯出至 PowerPoint** 時會發生下列狀況︰
@@ -83,7 +84,7 @@ ms.lasthandoff: 05/17/2018
 * 目前不支援匯出至 PowerPoint 時的**工作階段內互動**，例如反白顯示和篩選、向下鑽研等等。 匯出的 PowerPoint 會顯示原來儲存在報表中的視覺效果。
 * PowerPoint 中的頁面一律會以標準的 9:16 大小建立，而不論 Power BI 報表中的原始頁面大小或維度為何。
 * Power BI 租用戶網域外部使用者擁有的報表 (例如，組織外部某人所擁有並與您共用的報表) 無法發行至 PowerPoint。
-* 如果您與組織外部的某人 (也就是不在您 Power BI 租用戶中的使用者) 共用儀表板，該使用者會無法將與共用儀表板的相關報表匯出至 PowerPoint。 舉例來說，如果您是 aaron@contoso.com，您可以和 david@cohowinery.com 共用。但是 david@cohowinery.com 無發將相關報表匯出至 PowerPoint。
+* 如果您與組織外部的某人 (也就是不在您 Power BI 租用戶中的使用者) 共用儀表板，該使用者會無法將與共用儀表板的相關報表匯出至 PowerPoint。 舉例來說，如果您是 aaron@contoso.com，您可以和 david@cohowinery.com 共用。 但是 david@cohowinery.com 無發將相關報表匯出至 PowerPoint。
 * 如先前所述，每個報表頁面會匯出為 PowerPoint 檔中的單一影像。
 * Power BI 服務會使用您的 Power BI 語言設定作為 PowerPoint 的輸出語言。 若要查看或設定語言喜好設定，請選取齒輪圖示 ![](media/service-report-subscribe/power-bi-settings-icon.png) **> [設定] > [一般] > [語言]**。
 * 匯出的 PowerPoint 檔案，其封面投影片上的**下載於**時間，會設定為匯出當時您電腦的時區。
