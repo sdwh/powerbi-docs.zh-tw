@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
 ms.openlocfilehash: fd981b2f0c6e012444501a8a651092e11c3edf75
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286029"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>建立要搭配 Power BI 使用的 Azure Active Directory 租用戶
 了解如何使用 Power BI REST API 來建立新的 Azure Active Directory (Azure AD) 租用戶，以用於您的自訂應用程式。
@@ -44,7 +45,7 @@ ms.lasthandoff: 05/17/2018
     ![](media/create-an-azure-active-directory-tenant/organization-and-domain.png)
    
    > [!NOTE]
-   > 您的初始網域會成為 onmicrosoft.com 的一部分。稍後，您可以新增其他網域名稱。 您可以將多個網域指派至租用戶的目錄。
+   > 您的初始網域會成為 onmicrosoft.com 的一部分。 稍後，您可以新增其他網域名稱。 您可以將多個網域指派至租用戶的目錄。
    > 
    > 
 6. 目錄建立完成後，選取資訊方塊來管理您的新目錄。

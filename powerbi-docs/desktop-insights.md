@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286075"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>使用 Power BI Desktop (預覽) 中的深入解析
 您可以要求 **Power BI Desktop** 說明圖表中的增減情況，並取得快速、自動化、具洞察力的資料分析。 只要以滑鼠右鍵按一下資料點，然後選取 [分析] > [說明減少的情形] (如果之前的橫條圖較低的話，則為增加情形)，即會以便於使用的視窗形式將深入解析傳遞給您。

@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 21554c5addac0adad84783dad83b4861544a3425
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242205"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>使用 Power BI 連接到 AT Internet Bridge
 AT Internet 可協助您從資料擷取即時運算值，方法是使用 Analytics Suite 這套統一的數位分析平台。 Power BI 的 AT Internet Bridge 內容套件包含適用您網站的資料瀏覽、來源、當地語系化以及裝置。

@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: a090a74399f607caaf193e474d60b57a4355bc9a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291458"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>在 Power BI Desktop 中使用內嵌階層標籤
 **Power BI Desktop** 支援**內嵌階層標籤**，這是兩個階層式切入加強功能的其中一個。 目前處於開發階段的第二個功能，能夠使用巢狀的階層標籤 (敬請期待，我們會經常更新)。   

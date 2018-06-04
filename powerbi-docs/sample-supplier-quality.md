@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: eb21eede666653e53af4ab012a712091b49be7d2
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: 6de9c4cb792e08c609af977fac3ea3d09f737acf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722055"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的供應商品質分析範例：導覽
 
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/24/2018
 
 ## <a name="prerequisites"></a>先決條件
 
- 您必須先將範例下載為[內容套件](https://docs.microsoft.com/en-us/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample)、[.pbix 檔案](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)或 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529779)，才能使用範例。
+ 您必須先將範例下載為[內容套件](https://docs.microsoft.com/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample)、[.pbix 檔案](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)或 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529779)，才能使用範例。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 

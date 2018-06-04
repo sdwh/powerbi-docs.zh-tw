@@ -11,10 +11,10 @@ ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b7e08f586c0c1f0bf7409735683bc9c1cd6aa969
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34286857"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
@@ -39,7 +39,7 @@ ms.locfileid: "34286857"
 * 全部
 * 檔案
 * 資料庫
-* Azure 使用狀況
+* Power BI
 * Azure
 * 線上服務
 * 其他
