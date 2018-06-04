@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251613"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>使用 Power BI 連接到 Adobe Analytics
 透過 Power BI 連接到 Adobe Analytics 時，一開始會連接到 Adobe Analytics 行銷雲端帳戶。 您會看到應用程式與 Power BI 儀表板和一組 Power BI 報表，供您深入了解網站流量和使用者維度。 資料會自動每天重新整理一次。 您可以與儀表板和報表互動，但無法儲存變更。
