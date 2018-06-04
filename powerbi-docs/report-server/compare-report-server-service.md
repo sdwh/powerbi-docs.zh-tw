@@ -1,22 +1,21 @@
 ---
 title: 比較 Power BI 報表伺服器和 Power BI 服務
 description: 本文會比較 Power BI 報表伺服器和 Power BI 服務的功能。
-services: powerbi
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.component: powerbi-report-server
 ms.date: 05/07/2018
 ms.topic: overview
 ms.service: powerbi
+ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: d0a3e2870edc8b18cb982c33582c7578aa67f2c3
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: c47722fda28fc45289858f082a0838f583b53dbb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813890"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296771"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
 
@@ -33,7 +32,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 在瀏覽器中建立 Power BI 報表 | 否 | 是 |  
 | 需要閘道器 | 否 | 是 (針對內部部署資料來源) |  
 | 即時串流 | 否 | 是 | [Power BI 中的即時串流](../service-real-time-streaming.md)
-| Dashboards | 否 | 是 | [Power BI 服務中的儀表板](../service-dashboards.md) 
+| 儀表板 | 否 | 是 | [Power BI 服務中的儀表板](../service-dashboards.md) 
 | 使用應用程式發佈群組的報表 | 否 | 是 | [使用儀表板和報表建立並發佈應用程式](../service-create-distribute-apps.md) 
 | 內容套件 | 否 | 是 | [組織內容套件：簡介](../service-organizational-content-pack-introduction.md) 
 | 連線到服務 (例如 Salesforce) | 否 | 是 | 使用 Power BI 服務[連線到所用服務](../service-connect-to-services.md)

@@ -11,10 +11,10 @@ ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 8716e6b5b75c7cd3db1b8daecfaae240f0647a50
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34297254"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>報表和視覺效果的最佳設計做法
@@ -24,7 +24,7 @@ ms.locfileid: "34297254"
 ## <a name="introduction"></a>簡介
 本白皮書提供在 Power BI 中設計報表的最佳作法。 從規劃開始，它將討論您可以套用至報表和構成該報表之頁面與個別視覺效果的設計原則。  這些最佳作法有許多也適用於儀表板設計。
 
-我們希望這份白皮書將是您的起點、您可將學習到的資訊套用至自己的報表和視覺效果，而且您將繼續在 community.powerbi.com 上進行對話。BI 報表設計和視覺效果的使用現在是熱門話題，而且有許多思想領袖、部落客和網站可廣泛且深入地查看本主題 (我們在結尾列出一些)。   
+我們希望這份白皮書將是您的起點、您可將學習到的資訊套用至自己的報表和視覺效果，而且您將繼續在 community.powerbi.com 上進行對話。 BI 報表設計和視覺效果的使用現在是熱門話題，而且有許多思想領袖、部落客和網站可廣泛且深入地查看本主題 (我們在結尾列出一些)。   
 
 > [!NOTE]
 > 本白皮書中所提供的建議是您要在適用時機和地點時套用的指導方針。 針對我們在下方描述的每個原則，通常都會有正當的理由可「打破規則」。

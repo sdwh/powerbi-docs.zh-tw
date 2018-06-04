@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 8b9fcf1c6121c4aeecfdf948b77493f1f2a7f825
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293620"
 ---
 # <a name="power-bi-archived-workspace"></a>Power BI 封存工作區
 任何人都可以透過 Power BI 在幾分鐘內完成註冊並開始使用服務。  稍後，您組織的 IT 部門可能會選擇代替組織中的使用者接管 Power BI。  如果發生這種接管情況，您不僅會因為集中管理組織內的使用者和權限而受益，也可以使用針對組織內其他服務所用的相同使用者名稱和密碼進行登入，因而簡化登入。 

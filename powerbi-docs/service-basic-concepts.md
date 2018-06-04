@@ -12,10 +12,11 @@ ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 7793b79ad26fdb0b01f3dc2a01be02c47047ce9c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34253292"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI 服務的基本概念
 
@@ -112,7 +113,7 @@ Power BI 報表是一或多個頁面的視覺效果 (圖表和圖形，例如折
 * [Power BI 服務和 Power BI Desktop 中的報告](service-reports.md)
 * [Power BI 行動裝置應用程式中的報告](mobile-reports-in-the-mobile-apps.md)
 
-## <a name="dashboards"></a>Dashboards
+## <a name="dashboards"></a>儀表板
 「儀表板」是您在 **Power BI 服務**中所建立，或由同事在 **Power BI 服務**中建立並與您共用的東西。 其為含有零或多個磚與 Widget 的單一畫布。 從報告或從[問與答](power-bi-q-and-a.md)釘選的每個圖格會顯示從資料集建立並釘選到儀表板的單一[視覺效果](power-bi-report-visualizations.md)。 整個報告頁面也可以當作單一圖格釘選到儀表板。 有許多方法可將磚加入儀表板中；本概觀主題無法全部涵蓋。 若要深入了解，請參閱 [Power BI 的儀表板磚](service-dashboard-tiles.md). 
 
 為何要建立儀表板？  以下只是部分原因：

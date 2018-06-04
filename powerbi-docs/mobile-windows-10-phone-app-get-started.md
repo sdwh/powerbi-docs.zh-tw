@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 12/05/2017
 ms.author: maggies
 ms.openlocfilehash: 6cd1c8aec1bf31a8cae43074531014cbeef71bd5
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295115"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>開始使用 Power BI for Windows 10 行動裝置應用程式
 Power BI 的 Windows 10 行動裝置應用程式可將 Power BI 帶著走，以最新狀態、啟用觸控式行動裝置的方式存取您的商務資訊。 在 [Windows 開始畫面](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上，隨處檢視公司儀表板並與之互動。

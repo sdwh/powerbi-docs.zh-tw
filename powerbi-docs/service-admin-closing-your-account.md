@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: be0b1bf3dbfba0f2e1545eced38ec19650342a19
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296127"
 ---
 # <a name="closing-your-power-bi-account"></a>關閉 Power BI 帳戶
 如果您不想再使用 Power BI，您可以要求我們關閉 Power BI 帳戶。  關閉帳戶之後，您將無法再登入 Power BI。  此外，根據 Power BI 服務條款中的資料保留原則，您在 Power BI 中上傳或建立的任何客戶資料都將遭到刪除。

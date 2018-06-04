@@ -11,10 +11,11 @@ ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244553"
 ---
 # <a name="change-the-size-of-a-report-page"></a>變更報表頁面的大小
 在[前一篇文章及前一部影片](power-bi-report-display-settings.md)中，您學到兩種不同的方式來控制在 Power BI 報表中的頁面顯示：**檢視**和**頁面大小**。 頁面檢視和頁面大小都可在 Power BI 服務和 Power BI Desktop 使用，外觀和功能也幾乎相同，但在本教學課程中，我們會使用 Power BI 服務。

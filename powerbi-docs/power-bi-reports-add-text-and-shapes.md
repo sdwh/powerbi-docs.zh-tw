@@ -12,10 +12,11 @@ ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310283"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Power BI 報表中的靜態內容
 可以使用 Power BI 服務和 Power BI Desktop 將文字方塊和圖形新增至報表。 在這兩種情況下，您都必須要有報表的編輯權限。 如果報表已在 Power BI 服務中與您共用，則您將不具有編輯權限。 

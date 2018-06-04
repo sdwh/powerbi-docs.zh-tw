@@ -8,20 +8,20 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7b43e6e3c679474113cb0f1301f335c6bb8249ff
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 82015b3e0c497f58b0505804adc852ebfb7a0202
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584315"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>儀表板和報表的使用計量
 如果您建立儀表板和報表，使用計量可協助您了解其影響。 當您執行儀表板使用計量或報表使用計量時，您可以探索這些儀表板和報表在整個組織內的使用方式、使用內容、使用者及用途。  
 
-> [!NOTE]
-> 使用計量會追蹤內嵌在 SharePoint Online 的報表使用情況。 它們也會透過「使用者擁有認證」和「應用程式擁有認證」兩個工作流程來追蹤儀表板和報表的內嵌。 使用計量不會追蹤透過[發行至 Web](service-publish-to-web.md) 內嵌的報表使用情況。
+使用計量會追蹤內嵌在 SharePoint Online 的報表使用情況。 它們也會透過「使用者擁有認證」和「應用程式擁有認證」兩個工作流程來追蹤儀表板和報表的內嵌。 使用計量不會追蹤透過[發行至 Web](service-publish-to-web.md) 內嵌的報表使用情況。
 
 這些使用計量報表是唯讀的。 不過，您可以使用 [另存新檔] 來個人化使用計量報表。 這會建立全新的資料集，並將唯讀報表轉換成可供編輯的全功能 Power BI 報表。 個人化報表可以包含所選儀表板或報表的計量，此外藉由移除預設篩選，您現在可以存取所選工作區中所有儀表板的使用計量。
 

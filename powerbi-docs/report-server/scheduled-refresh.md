@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
 ms.openlocfilehash: fceeda7a135d097c3269c25e25fde0c8cd639767
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296886"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI 報表伺服器中 Power BI 報表排程的重新整理
 Power BI 報表的排程重新整理可讓報表的資料保持在最新狀態。

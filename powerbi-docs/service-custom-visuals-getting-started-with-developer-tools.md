@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
 ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296289"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>使用開發人員工具建立自訂視覺效果
 自訂視覺效果可讓您滿足使用者的需求，並契合應用程式的設計。 您可以使用開發人員工具來建立 Power BI 的自訂視覺效果。

@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 43ecdccbbe44721d4205ebc05d9d8406eed7e68b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298036"
 ---
 # <a name="histograms"></a>長條圖
 在 Power BI 中建立長條圖的方式有幾種。 我們先從最簡單的方式開始，再繼續往下進行。

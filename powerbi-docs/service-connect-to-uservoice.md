@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250818"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>使用 Power BI 連接到 UserVoice
 透過 Power BI 和 UserVoice 內容套件來追蹤和瀏覽 UserVoice 資料很容易。 Power BI 會擷取資料，包括票證、建議和滿意度評等，然後根據該資料建置現成的儀表板和報表。
