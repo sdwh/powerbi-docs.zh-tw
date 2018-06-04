@@ -11,10 +11,11 @@ ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: a6e683318c00a800f69334f90ce3a71d74489030
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290514"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>針對任何大小最佳化 Power BI 視覺效果
 根據預設，當您建立新的報表，視覺效果為「回應式」：不管是什麼樣的螢幕大小，都能以動態方式變更，顯示最多的資料與見解。 對於較舊的報表，您可以設定其視覺效果以動態方式調整大小。

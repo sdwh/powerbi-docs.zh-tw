@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 08/11/2017
 ms.author: maghan
 ms.openlocfilehash: 339390bba2e35101bdd42f7f51ab059473231575
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290882"
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>為 Power BI 應用程式驗證使用者及取得 Azure AD 存取權杖
 深入了解如何利用 REST API 在 Power BI 應用程式中驗證使用者及取得要使用的存取權杖。

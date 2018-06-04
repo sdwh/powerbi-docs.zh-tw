@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290307"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>步驟 3：在 Power BI 中建立資料集
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。

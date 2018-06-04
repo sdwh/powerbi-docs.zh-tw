@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
 ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34288306"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>將磚整合至應用程式中 (使用者擁有資料)
 了解如何在對組織進行內嵌時，使用 REST API 呼叫配合 Power BI JavaScript API 將磚整合或內嵌至 Web 應用程式。

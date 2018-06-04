@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: f283a8ed273dcb609e9d5160adbeb714e8935ab9
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251925"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>使用 Power BI 連接到 Zuora
 Zuora for Power BI 可讓您以視覺化方式顯示重要的營收、帳單與訂閱資料。 使用預設儀表板與報表來分析使用狀況趨勢、追蹤帳單與付款，以及監視週期性營收，或根據您自己的獨特儀表板與報告需求進行自訂。

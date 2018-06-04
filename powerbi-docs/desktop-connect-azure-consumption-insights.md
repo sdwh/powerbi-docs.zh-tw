@@ -11,10 +11,11 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 59723d4c8e241781b7f29773ea182cd5b075e0c2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34288191"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Azure 使用深入解析
 使用 **Azure 使用深入解析**連接器，您可以使用 **Power BI Desktop** 連線到 Azure，並取得關於貴組織的 Azure 服務使用量的深入資料和相關資訊。 您也可以建立量值、自訂資料行和視覺效果，報告及共用有關貴組織 Azure 使用量的資訊。 這一版的 **Azure 使用深入解析**連接器處於搶鮮版 (Beta)，並可能有所變更。
@@ -38,7 +39,7 @@ ms.lasthandoff: 05/17/2018
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
-  這個版本的連接器僅支援從 https://ea.azure.com 進行的企業註冊。中國目前不支援註冊。
+  這個版本的連接器僅支援從 https://ea.azure.com 進行的企業註冊。 中國目前不支援註冊。
 
 接下來，提供連接用的「存取金鑰」。
 
@@ -154,7 +155,7 @@ Azure 入口網站中的詳細資料資料行和名稱，在 API 和連接器中
 | Cost |cost |ExtendedCost |否 |
 | Cost Center |costCenter |Cost Center |否 |
 | 日期 |日期 |日期 |否 |
-| 天 | |天 |否 |
+| 日 | |日 |否 |
 | DepartmentName |departmentName |部門名稱 |否 |
 | DepartmentID |departmentId | |是 |
 | Instance ID | | |是 |
@@ -185,7 +186,7 @@ Azure 入口網站中的詳細資料資料行和名稱，在 API 和連接器中
 | 標記 |tags |標記 |否 |
 | TagsId | | |是 |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |否 |
-| 年 | |年 |否 |
+| 年份 | |年份 |否 |
 | SubscriptionId |subscriptionId |SubscriptionId |是 |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |否 |
 

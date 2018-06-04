@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: d7170ce02294c3eadbfa38f0a25a2ab58777720b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289318"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>在 Power BI 中使用 R 提供技術的自訂視覺效果
 在 **Power BI Desktop** 與 **Power BI 服務**中，您不必具備任何 R 的知識或編寫任何 R 指令碼，就能使用 R 提供技術的自訂視覺效果。 這讓您能夠充分運用 R 視覺效果的分析與視覺效果功能及 R 指令碼，而不必親自學習 R 或設計程式。
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/17/2018
 
 以下是從線上 **AppSource** 網站瀏覽並選取視覺效果的步驟：
 
-1. 瀏覽位在 [https://appsource.microsoft.com](https://appsource.microsoft.com/) 的 Power BI 視覺效果資源庫。選取「依產品縮小搜尋範圍」下的 [Power BI 應用程式]，然後選取 [查看全部] 連結。
+1. 瀏覽位在 [https://appsource.microsoft.com](https://appsource.microsoft.com/) 的 Power BI 視覺效果資源庫。 選取「依產品縮小搜尋範圍」下的 [Power BI 應用程式]，然後選取 [查看全部] 連結。
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2a.png)
 
