@@ -1,5 +1,5 @@
 ## <a name="sign-in-account"></a>登入帳戶
-使用者將會使用公司或學校帳戶登入。 這是您的組織帳戶。 如果您註冊 Office 365 供應項目，而且未提供實際的公司電子郵件，其看起來可能會類似 nancy@contoso.onmicrosoft.com。您在雲端服務中的帳戶會儲存在 Azure Active Directory (AAD) 租用戶中。 在大部分情況下，您的 AAD 帳戶 UPN 會與電子郵件地址相符。
+使用者將會使用公司或學校帳戶登入。 這是您的組織帳戶。 如果您註冊 Office 365 供應項目，而且未提供實際的公司電子郵件，其看起來可能會類似 nancy@contoso.onmicrosoft.com。 您在雲端服務中的帳戶會儲存在 Azure Active Directory (AAD) 租用戶中。 在大部分情況下，您的 AAD 帳戶 UPN 會與電子郵件地址相符。
 
 ## <a name="windows-service-account"></a>Windows 服務帳戶
 內部部署資料閘道已設定為使用 *NT SERVICE\PBIEgwService* 來表示 Windows 服務的登入認證。 根據預設，其具有「以服務方式登入」的權限。 這在您要安裝閘道的電腦內容中。

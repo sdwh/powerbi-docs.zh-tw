@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: fceeda7a135d097c3269c25e25fde0c8cd639767
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1e29898ed2c72b3a28bc2fd90dd430e45b5cde03
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296886"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799525"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI 報表伺服器中 Power BI 報表排程的重新整理
 Power BI 報表的排程重新整理可讓報表的資料保持在最新狀態。
@@ -60,9 +60,6 @@ Power BI 報表伺服器會為所有排程的作業維護事件佇列。 它會�
 如需如何監視 Analysis Services 執行個體的詳細資訊，請參閱[監視 Analysis Services 執行個體](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance)。
 
 如需 Analysis Services 內記憶體設定的詳細資訊，請參閱[記憶體屬性](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)。
-
-### <a name="authentication-and-kerberos"></a>驗證和 Kerberos
-如果您的資料來源設定為使用 Windows 認證，可能需要設定 Kerberos 限制委派，才能運作。 如需詳細資訊，請參閱[在報表伺服器上設定 Windows 驗證](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)。
 
 ## <a name="next-steps"></a>後續步驟
 在 Power BI 報表上設定[排程的重新整理](configure-scheduled-refresh.md)。
