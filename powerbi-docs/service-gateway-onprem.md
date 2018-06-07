@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 21ceec0ea522bd45a937096bcd778f2695c1edc3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722808"
 ---
 # <a name="on-premises-data-gateway"></a>內部部署資料閘道
 
@@ -93,6 +94,11 @@ ms.lasthandoff: 05/17/2018
 
 目前沒有單一位置可供租用戶系統管理員用來管理其他使用者已安裝並設定之所有閘道。  如果您是租用戶系統管理員，建議您要求組織中的使用者，將您以系統管理員身分新增至他們所安裝的每個閘道。 這可讓您透過 [閘道設定] 頁面或 [PowerShell 命令](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters)管理組織中的所有閘道。 
 
+## <a name="enabling-outbound-azure-connections"></a>允許連出 Azure 連線 
+內部部署的資料閘道仰賴 Azure 服務匯流排來獲得雲端連線能力，並對其相關 Azure 區域相應建立連出連線。 根據預設，這是您 Power BI 租用戶的位置。 請參閱[我的 Power BI 租用戶位於何處？](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+若防火牆封鎖了連出連線，您就必須設定防火牆，使其允許內部部署的資料閘道與其相關 Azure 區域之間的連出連線。 如需各 Azure 資料中心 IP 位址範圍的詳細資料，請參閱 [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/en-us/download/details.aspx?id=41653) (Microsoft Azure 資料中心 IP 範圍)。
+> [!NOTE]
+> IP 位址範圍可能隨著時間變更，因此請務必定期下載最新資訊。 
 
 ## <a name="troubleshooting"></a>疑難排解
 若您在安裝和設定閘道時遇到問題，請務必參閱[為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)。 若您認為您的防火牆發生問題，請參閱疑難排解文章中的[防火牆或 Proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) 一節。

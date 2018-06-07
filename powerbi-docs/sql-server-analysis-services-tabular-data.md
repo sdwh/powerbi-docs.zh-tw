@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 51f813d4d92ac94b43c0f2b7cd0fcad1f0673b5e
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722946"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI 中的 SQL Server Analysis Services 即時資料
 Power BI 有兩種方式可以連接到即時 SQL Server Analysis Services 伺服器。 您可以在 [取得資料] 中連接至 SQL Server Analysis Services 伺服器，或者連接到 [Power BI Desktop 檔案](service-desktop-files.md)或 [Excel 活頁簿](service-excel-workbook-files.md) (該活頁簿已連接至 Analysis Services 伺服器)。 作為最佳做法，Microsoft 強烈建議使用 Power BI Desktop，因為該工具組豐富，並且可以在本機維護 Power BI Desktop 檔案的備份複本。
@@ -44,9 +45,12 @@ Power BI 有兩種方式可以連接到即時 SQL Server Analysis Services 伺�
 ## <a name="dashboard-tiles"></a>儀表板圖格
 報表的視覺效果如果釘選到儀表板，釘選的磚會每 10 分鐘自動重新整理一次。 如果更新內部部署 Analysis Services 伺服器中的資料，磚會在 10 分鐘後自動更新。
 
+## <a name="common-issues"></a>常見問題
+
+* 無法載入模型結構描述的錯誤 - 此錯誤會在連線到 SSAS 的使用者無權存取 SSAS 資料庫、Cube 及模型時發生。
+
 ## <a name="next-steps"></a>後續步驟
 [內部部署資料閘道](service-gateway-onprem.md)  
 [管理 Analysis Services 資料來源](service-gateway-enterprise-manage-ssas.md)  
 [為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

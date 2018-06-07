@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: f739104bc9b67e51792e6e76da08b9e6dbb7cef3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 9b896c9db6c1368c5e435df21c28cd99b8dda15f
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293229"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721700"
 ---
 # <a name="manage-content-in-the-web-portal"></a>管理入口網站中的內容 
 Power BI 報表伺服器入口網站是可檢視、儲存和管理您的 Power BI、行動裝置、編頁報表及 KPI 的內部部署位置。
@@ -67,9 +67,7 @@ Power BI 報表伺服器會提供您儲存在入口網站之項目的詳細控�
 深入了解[在入口網站中使用訂閱](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)。
 
 ## <a name="next-steps"></a>後續步驟
-[使用者手冊](user-handbook-overview.md)  
-[編頁報表](quickstart-create-paginated-report.md)  
-[Power BI 報表](quickstart-create-powerbi-report.md)
+[什麼是 Power BI 報表伺服器？](get-started.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

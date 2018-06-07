@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 2061bb5afde8c19693eb565b298fabedebae89ac
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 368f2692933b37d833c864fb9fea6a22423bbb77
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2018
-ms.locfileid: "34310398"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481823"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 了解如何安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop。
@@ -103,9 +103,7 @@ Power BI 報表伺服器報表不支援 Power BI 行動裝置應用程式中的�
 現在您已安裝 Power BI Desktop，即可開始建立 Power BI 報表。
 
 [建立 Power BI 報表伺服器的 Power BI 報表](quickstart-create-powerbi-report.md)  
-[開始使用 Power BI Desktop](../desktop-getting-started.md)  
-引導式學習：[開始使用 Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
-[使用者手冊概觀，Power BI 報表伺服器](user-handbook-overview.md)
+[什麼是 Power BI 報表伺服器？](get-started.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

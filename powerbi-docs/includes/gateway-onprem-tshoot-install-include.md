@@ -24,3 +24,6 @@
 ### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>錯誤：無法將使用者加入群組。  (-2147463168   PBIEgwService   效能記錄使用者   )
 如果您嘗試在網域控制站上安裝閘道，就有可能會收到這個錯誤。 不支援在網域控制站上部署。 您必須在非網域控制站的電腦上部署閘道。
 
+### <a name="installation-fails"></a>安裝失敗
+若安裝電腦上的防毒軟體過期，您可能會遇到安裝失敗。 您可以更新防毒安裝，也可以只在閘道安裝期間停用防毒以待完成，然後重新啟用防毒。
+

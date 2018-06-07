@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 391edc8a2187f9a4af43b93f0713d40e41f6e943
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 07c393425d2a04376a4fcf81c2c35a0e115eeaee
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295414"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481943"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 了解 Power BI 報表伺服器的新功能。 其涵蓋主要功能範圍，並會隨著新項目發行而更新。
@@ -32,6 +32,12 @@ ms.locfileid: "34295414"
 * [Power BI 服務的新功能](../service-whats-new.md)
 * [Power BI Desktop 的新功能](../desktop-latest-update.md)
 * [Power BI 行動裝置 App 的新功能](../mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2018"></a>2018 年 5 月
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>針對報表伺服器遠端設定 Power BI iOS 行動應用程式
+
+身為 IT 系統管理員，您現在可以使用您組織的 MDM 工具來遠端設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取。 如需詳細資料，請參閱[從遠端設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取權](configure-powerbi-mobile-apps-remote.md)。
 
 ## <a name="march-2018-release"></a>2018 年 3 月版本
 
@@ -204,8 +210,8 @@ Power BI 報表伺服器現在支援新的 Power BI 資料表和矩陣視覺效�
 * 增強報表中使用註解的共同作業
 
 ## <a name="next-steps"></a>後續步驟
-[使用者手冊](user-handbook-overview.md)  
-[系統管理員手冊](admin-handbook-overview.md)  
+[什麼是 Power BI 報表伺服器？](get-started.md) 
+[管理員手冊](admin-handbook-overview.md)  
 [安裝 Power BI 報表伺服器](install-report-server.md)  
 [安裝報表產生器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [下載 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

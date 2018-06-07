@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 5bd38c7973a4820b98e6591a12a8950987759b93
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482168"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -21,6 +22,12 @@ ms.lasthandoff: 05/17/2018
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](desktop-latest-update.md)  
 * [Power BI 服務的新功能](service-whats-new.md)  
+
+## <a name="may-2018"></a>2018 年 5 月
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>針對報表伺服器遠端設定 Power BI iOS 行動應用程式
+
+您的 IT 系統管理員現在可以使用 MDM 工具來設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取權。 如需詳細資料，請參閱[從遠端設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取權](report-server/configure-powerbi-mobile-apps-remote.md)。
 
 ## <a name="april-2018"></a>2018 年 4 月
 
@@ -187,7 +194,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 #### <a name="ios-devices"></a>iOS 裝置
 **透過問與答預覽詢問有關資料的問題** 
 
-透過問與答，您可以用自己的用語詢問資料相關問題，而 Power BI 會提供答案。 問與答已在 Power BI 服務中，位於 http://powerbi.com。現在也[在 iPhone 或 iPad 上的行動裝置應用程式中提供](mobile-apps-ios-qna.md)。
+透過問與答，您可以用自己的用語詢問資料相關問題，而 Power BI 會提供答案。 問與答已在 Power BI 服務中，位於 http://powerbi.com。 現在也[在 iPhone 或 iPad 上的行動裝置應用程式中提供](mobile-apps-ios-qna.md)。
 
 **連線到多部 SSRS 伺服器** 
 

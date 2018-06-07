@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/09/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e36f8596141ab5d7ad82ffecb808b7d684334923
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 55d6259c3ae044d395bd0b077577856dd88ff43c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34720757"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支援的資料來源
 **Power BI Desktop** 和 **Power BI 服務**有許多資料來源供您連線和存取資料。 本文描述 Power BI 的哪些資料來源可支援稱為 **DirectQuery** 的連線方法。 如需 DirectQuery 的詳細資訊，請參閱 [ **Power BI 中的 DirectQuery**](desktop-directquery-about.md)。
@@ -41,6 +42,10 @@ ms.lasthandoff: 05/17/2018
 名稱後面有 **(Beta)** 或 **(預覽)** 的資料來源可能會變更，不支援用於實際執行環境。 將報告發佈至 **Power BI 服務** 之後可能也不支援這些資料來源，這表示開啟已發行的報告或瀏覽資料集可能會導致錯誤。
 
 **(Beta)** 和 **(預覽)** 資料來源唯一的差別是 **(預覽)** 來源必須先啟用成為預覽功能，才可供使用。 若要啟用 **(預覽)** 資料連接器，請在 **Power BI Desktop** 中移至 [檔案] > [選項及設定] > [設定]，然後選取 [預覽功能]。
+
+> [!NOTE]
+> 對 SQL Server 的 DirectQuery 查詢需要使用目前 Windows 驗證認證或資料庫驗證以建立存取。 不支援備用認證。
+>
 
 ## <a name="on-premises-gateway-requirements"></a>內部部署閘道需求
 下表指定將報告發佈至 **Power BI 服務**之後，是否需要**內部部署資料閘道**才能連線至指定的資料來源。

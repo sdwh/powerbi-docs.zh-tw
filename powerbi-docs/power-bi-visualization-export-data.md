@@ -8,14 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a3192910faf41bee925eb4938098bccb6434bb2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4d67499c571d736da3a8cebed5826c708911cc4d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584154"
 ---
 # <a name="export-data-from-visualizations"></a>從視覺效果匯出資料
 如果您想要查看用來建立視覺效果的資料，可以[在 Power BI 中顯示該資料](service-reports-show-data.md)或將資料匯出至 Excel 成為 .xlsx 或 .csv 檔案。   
@@ -31,7 +32,7 @@ ms.lasthandoff: 05/17/2018
 2. 選擇**匯出資料**圖示。
    
     ![](media/power-bi-visualization-export-data/pbi_export_dash.png)
-3. 資料會匯出到 .csv 檔案。 如果篩選了視覺效果，則也會篩選下載的資料。
+3. 資料會匯出到 .csv 檔案。 如果篩選了視覺效果，則也會篩選下載的資料。    
 4. 您的瀏覽器會提示您儲存檔案。  儲存之後，請在 Excel 中開啟 .csv 檔案。
    
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
@@ -84,6 +85,7 @@ ms.lasthandoff: 05/17/2018
 * Power BI 僅在使用基本彙總的視覺效果中支援匯出。 使用模型或報表量值的視覺效果無法進行匯出。
 * 目前不支援自訂視覺效果和 R 視覺效果。
 * 如果使用者在組織外部，並使用與他們共用的儀表板，即無法匯出資料。 
+* 在 Power BI 中，可以按兩下欄位和輸入新名稱來重新命名欄位 (資料行)。  這個新名稱稱為「別名」。 Power BI 報表可具有重複的欄位名稱，但 Excel 不允許重複。  因此，當資料匯出至 Excel 時，欄位別名會還原成原始的欄位 (資料行) 名稱。  
 * 如果 .csv 檔案中有 Unicode 字元，Excel 中的文字可能無法正常顯示。 不過，以 [記事本] 開啟則會正常顯示。 Unicode 的範例包括貨幣符號和外文。 您可以將 csv 匯入 Excel，而不是直接開啟 csv，以解決這個問題。 若要這樣做：
   
   1. 開啟 Excel

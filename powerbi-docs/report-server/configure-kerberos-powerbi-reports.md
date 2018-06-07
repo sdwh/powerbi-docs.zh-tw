@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: c4429c33f52954852f430e582064c813b11555b7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a9173ba6b4689a6cc71eba679f9bcc0c54de048c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481777"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>設定 Kerberos 使用 Power BI 報表
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -214,7 +215,7 @@ FQDN 和 NetBIOS SPN 將 SPN 放在電腦帳戶上看起來如下。
 雖然此設定在使用 Kerberos 的大多數情況下都可行，但您可根據環境使用不同的設定。 如果仍無法載入報表，請連絡您的網域系統管理員進一步調查，或連絡支援人員。
 
 ## <a name="next-steps"></a>後續步驟
-[系統管理員手冊](admin-handbook-overview.md)  
+[系統管理員概觀](admin-handbook-overview.md)  
 [安裝 Power BI 報表伺服器](install-report-server.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

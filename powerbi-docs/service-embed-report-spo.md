@@ -8,14 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/19/2017
+ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 757f59b59ea13478a943650f23ef98d9cc5b3e08
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34553557"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -142,7 +143,9 @@ ms.lasthandoff: 05/17/2018
 
 * 您若使用 Internet Explorer 10，可能會遇到問題。 您可以參閱 [Power BI](service-browser-support.md) 及 [Office 365](https://products.office.com/office-system-requirements#Browsers-section) 的瀏覽器支援。
 
-* [國家 (地區) 雲端](https://powerbi.microsoft.com/en-us/clouds/)不提供 Power BI Web 組件。 
+* [主權雲端](https://powerbi.microsoft.com/en-us/clouds/)不提供 Power BI Web 組件。
+
+* 此 Web 組件不支援傳統的 SharePoint 伺服器。
 
 ## <a name="next-steps"></a>後續步驟
 

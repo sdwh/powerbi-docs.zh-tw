@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 855ed26172fa0f157787ba4cfdc3e7e6ab4ff4ba
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7239351a7a9486aeeab53e4ab7fc5c3c3e877ff6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561440"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>在 Power BI 報表中進行篩選和醒目提示的相關事項
 ***篩選***會保留您最關切的資料，而將其他所有資料移除。  ***醒目提示***與篩選不同，它不會移除資料，而會將一部分可見資料醒目提示，未醒目提示的資料會保持可見但呈現暗灰色。
@@ -77,7 +78,7 @@ ms.lasthandoff: 05/17/2018
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
-當您結束報表時，則會儲存您的變更。 若要復原您的篩選，請從頂端功能表列選取 [重設為預設值]。
+當您結束報表時，則會儲存您的變更。 若要復原您的篩選並返回至預設篩選、切割、鑽研並依報表作者排序：請從頂端功能表列選取 [重設為預設]。
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 

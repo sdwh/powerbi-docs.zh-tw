@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: aa16cdb9391a406b2e093f551b86dda51ee1dcfa
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 980aa830e38e49613b54ad473ef23eb7eac78ed2
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722785"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium - 這是什麼？
 Power BI Premium 為您的組織或小組提供專門用來執行 Power BI 服務的資源，給您更可靠的效能和更大的資料磁碟區。 Premium 也可讓您廣泛發佈內容，不需要您為檢視者購買每個使用者授權。

@@ -7,24 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/18/2017
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 4277a8353fa6d9538ff050f0c08b9644d4a218c6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482237"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視內部部署報表伺服器報表和 KPI
+
+Power BI 行動裝置應用程式提供 Power BI 報表伺服器及 SQL Server 2016 Reporting Services (SSRS) 中，內部部署商務資訊的即時觸控式行動存取。
+
 適用於︰
 
 | ![iPhone](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![iPad](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![Android 手機](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![Android 平板電腦](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手機 |Android 平板電腦 |
 
-Power BI 行動裝置應用程式提供 Power BI 報表伺服器及 SQL Server 2016 Reporting Services (SSRS) 中，內部部署商務資訊的即時觸控式行動存取。 
 
- ![行動裝置應用程式中的報表伺服器首頁](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-pbi-report-server-home.png)
+![行動裝置應用程式中的報表伺服器首頁](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-pbi-report-server-home.png)
 
 ## <a name="first-things-first"></a>最重要的第一件事
 **行動裝置應用程式是您檢視 Power BI 內容的位置，不是建立內容的位置。**
@@ -43,7 +46,7 @@ Power BI 行動裝置應用程式提供 Power BI 報表伺服器及 SQL Server 2
    
    ![Reporting Services 範例](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
-## <a name="connect-to-an-on-premises-server"></a>連線到內部部署伺服器
+## <a name="connect-to-an-on-premises-report-server"></a>連線到內部部署報表伺服器
 您可在 Power BI 行動裝置應用程式中檢視內部部署 Power BI 報表、Reporting Services 行動報表和 KPI。 
 
 1. 在您的行動裝置上開啟 Power BI 應用程式。
@@ -77,6 +80,24 @@ Power BI 行動裝置應用程式提供 Power BI 報表伺服器及 SQL Server 2
 6. 左側的導覽列中現在會看到伺服器，本例中稱為「Power BI 報表伺服器」。
    
    ![左側瀏覽窗格中的報表伺服器](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
+
+## <a name="connect-to-an-on-premises-report-server-in-ios"></a>在 iOS 中連線到內部部署報表伺服器
+
+如果您正在檢視 Power BI iOS 行動應用程式，您的 IT 系統管理員可能已定義應用程式設定原則。 如果是這樣，連線到報表伺服器的體驗就會變得流暢，且在連線到報表伺服器時不必提供詳細資訊。 
+
+1. 您會看到一條訊息，確認您的行動裝置應用程式已設定報表伺服器。 點選 [登入]。
+
+    ![登入至報表伺服器](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-sign-in.png)
+
+2.  在 [連線到伺服器]頁面上，報表伺服器的詳細資料已填入。 點選 [連接]。
+
+    ![報表伺服器詳細資料已填入](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-remote-configure-connect-server.png)
+
+3. 鍵入密碼以進行驗證，然後點選 [登入]。 
+
+    ![已填入詳細資料的報表伺服器](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-address.png)
+
+現在您可以檢視 KPI 和儲存在報表伺服器上的 Power BI 報表，並與其互動。
 
 ## <a name="view-power-bi-reports-and-kpis-in-the-power-bi-app"></a>在 Power BI 應用程式中檢視 Power BI 報表與 KPI
 Power BI 報表、Reporting Services 行動報表和 KPI 皆顯示在 Reporting Services 入口網站的同一個資料夾中。 

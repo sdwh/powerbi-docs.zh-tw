@@ -8,15 +8,15 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b9c67b1c493d885b0a1b1a21e27c652afaaa513e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296978"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584108"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI 中的散佈圖與泡泡圖
 散佈圖一律會有兩個值座標軸，沿著水平軸顯示一組數字資料，沿著垂直軸顯示另一組數值。 此圖表顯示 x 與 y 數交集處的點，結合這些值可形成單一的資料點。 視資料之不同，這些資料點可能平均散布或不平均地散佈在水平軸。
@@ -81,7 +81,7 @@ ms.locfileid: "34296978"
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. 若要設定泡泡圖中顯示的資料點數目，請在 [視覺效果] 窗格的 [格式] 區段中，展開 [一般] 卡片，並調整 [資料量]。 您可以將資料量上限設為任何大小，上限 10,000 (預設為 3500)。
+3. 若要設定泡泡圖中顯示的資料點數目，請在 [視覺效果] 窗格的 [格式] 區段中，展開 [一般] 卡片，並調整 [資料量]。 您可以將資料量上限設為任何大小，上限 10,000。 當您設定更高的數字時，建議先進行測試以確保良好效能。 
 
     ![資料量](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 

@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e5e49d2f30cca4c0c731d29fe31d2cb6856066f2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721953"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>在報表伺服器中將註解新增至報表
 您可以在報表伺服器的入口網站中新增報告的註解，包括 Power BI 報告。 註解會與報告在一起，任何人只要有正確權限，都可以看到報告的註解。 如需詳細資料，請參閱下方的[權限](#permissions)章節。
@@ -44,7 +45,7 @@ ms.lasthandoff: 05/17/2018
 * 看到所有註解，張貼、編輯和刪除您自己的註解，以及刪除其他人的註解。
 
 ## <a name="next-steps"></a>後續步驟
-* [Power BI 報表伺服器使用者手冊](user-handbook-overview.md)  
+* [什麼是 Power BI 報表伺服器？](get-started.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

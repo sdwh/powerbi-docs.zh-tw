@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1bf5f83265c9d4fc11532b647207f8d273aab50c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721102"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>從 Power BI Desktop 連線到 Power BI 服務中的資料集
 您可在 Power BI 服務中建立連到共用資料集的即時連線，並從同一個資料集建立許多不同的報表。 這表示您可以在 Power BI Desktop 中建立完美的資料模型、將其發佈到 Power BI 服務，接著您和其他人就可以從同一個通用資料模型建立多個不同報表 (在個別 .pbix 檔案中)。 這項功能稱為 **Power BI 服務即時連線**。
@@ -35,6 +36,8 @@ Power BI 的熱門程度帶來一項挑戰，也就是報表、儀表板及其�
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>使用即時連線來連線到 Power BI 服務資料集
 在 Anna 建立她的報表 (並建立其依據的資料集) 之後，便將其發佈到 **Power BI 服務**，而報表隨即顯示在她的團隊在 Power BI 服務中的工作區。 現在，她的工作區中每個人都可以查看及檢視該報表。
+
+若要深入了解工作區，請參閱[應用程式工作區](service-create-distribute-apps.md#app-workspaces)。
 
 工作區的其他成員現在可以對 Anna 共用的資料模型建立即時連線 (使用 **Power BI 服務即時連線**功能)，以及從「她的原始資料集」建立自己的獨特報表。
 

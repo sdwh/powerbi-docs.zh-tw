@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/15/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721378"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>報表 [篩選] 窗格概觀
 這篇文章深入探討報表 [篩選] 窗格。 您會在 [Power BI 服務的 [編輯檢視] 和 [正在讀取檢視]](service-reading-view-and-editing-view.md)，以及 [Power BI Desktop 的 [報表檢視]](desktop-report-view.md) 中看見此窗格。
@@ -22,7 +23,7 @@ ms.lasthandoff: 05/17/2018
 有許多不同的方式可在 Power BI 中篩選資料，建議您先閱讀[關於篩選和反白顯示](power-bi-reports-filters-and-highlighting.md)。
 
 ## <a name="working-with-the-report-filters-pane"></a>使用報表篩選窗格
-在 Power BI Desktop 中，您可以在報表檢視中開啟報表。 在 Power BI 服務中，您可以在[編輯檢視或閱讀檢視](service-reading-view-and-editing-view.md)中開啟報表。 在 [編輯檢視] 和 Desktop 的 [報表檢視] 中，報表擁有者可以[將篩選新增至報表](power-bi-report-add-filter.md)，而這些篩選會與報表一起儲存。 在 [閱讀檢視] 中檢視報表的人員可以與篩選互動，但無法將篩選新增至報表。
+在 Power BI Desktop 中，您可以在報表檢視中開啟報表。 在 Power BI 服務中，您可以在[編輯檢視或閱讀檢視](service-reading-view-and-editing-view.md)中開啟報表。 在 [編輯檢視] 和 Desktop 的 [報表檢視] 中，報表擁有者可以[將篩選新增至報表](power-bi-report-add-filter.md)，而這些篩選會與報表一起儲存。 在 [閱讀檢視] 中檢視報表的人員可以與篩選互動及儲存變更，但無法在報表新增篩選。
 
 在 Power BI 服務中，報表會保留您在 [篩選] 窗格中所做的任何變更，而這些變更會傳送至行動版的報表。 若要將 [篩選] 窗格重設為建立者預設值，請從頂端功能表列選取 [重設為預設值]。     
 

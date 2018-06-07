@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722535"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>將報表從 Power BI 服務匯出至 Desktop (預覽)
 在 Power BI Desktop 中，您可以匯出 (也稱為「下載」) 報表至 Power BI 服務，方法是儲存報表，並選取 [發佈]。 您也可以另一個方向來匯出，並從 Power BI 服務下載報表到 Desktop。 在任一方向中，匯出的檔案副檔名為 *.pbix* 。
@@ -57,6 +58,7 @@ ms.lasthandoff: 05/19/2018
 * 此功能無法對原先是在 **Power BI 服務**中建立的報表運作，包括內容套件。
 * 開啟下載的檔案時，應一律使用最新版本的 **Power BI Desktop**。 下載的 *.pbix* 檔案無法在舊版 **Power BI Desktop** 中開啟。
 * 如果您的系統管理員已關閉匯出資料的功能，在 **Power BI 服務**中就不會看到此功能。
+* 使用累加式重新整理的資料集不能下載為 *.pbix* 檔案。
 
 ## <a name="next-steps"></a>後續步驟
 檢視 **Guy in a Cube** 關於此功能的一分鐘影片：

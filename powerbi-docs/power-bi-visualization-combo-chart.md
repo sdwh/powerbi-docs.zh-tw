@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9288c44194a7eabebfa9888b1bca0023a54950e8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6cc9b9cafe2b3efdb8e51e89c203e2cb123e909a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293574"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584269"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI 中的組合圖
 在 Power BI 中，組合圖是結合折線圖和直條圖的單一視覺效果。 將 2 種圖結合成一個，讓您可以更快速地比較資料。
@@ -105,6 +105,7 @@ ms.locfileid: "34293574"
 
 * [將組合圖加入為儀表板圖格](service-dashboard-tiles.md)。
 * [儲存報表](service-report-save.md)。
+* [使報表讓行動不便人士易於存取](desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>交叉反白顯示和交叉篩選
 

@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7006d35a76780313e4d57d0d489b5b25ed92b4d2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561693"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>將篩選新增至 Power BI 服務報表 (在 [編輯檢視] 中)
 > [!TIP]
@@ -28,7 +29,7 @@ ms.lasthandoff: 05/17/2018
 您可使用下列兩種模式與報表互動：[閱讀檢視](service-reading-view-and-editing-view.md) 和 [編輯檢視](service-interact-with-a-report-in-editing-view.md)。  而篩選功能會依據您使用的模式來提供。
 
 * 在 [編輯檢視] 中，您可以新增報表、頁面和視覺效果篩選。 當您儲存報表時，也會將篩選一起儲存。 在 [閱讀檢視] 中檢視報表的人員可以與您新增的篩選互動。
-* 在 [閱讀檢視] 中，您可以與報表中已存在的任何報表、鑽研、頁面和視覺效果篩選互動，但無法新增篩選。 即使您在行動裝置應用程式中檢視報表，您在 [篩選] 窗格中所做的變更也會與報表一起儲存。  
+* 在 [閱讀檢視] 中，您可以與報表中已存在的任何報表、鑽研、頁面和視覺效果篩選互動，但無法新增篩選。 不過，即使您在行動裝置應用程式中檢視報表，或是您離開報表並在稍後返回，您在 [篩選] 窗格中所做的變更也會與報表一起儲存。  
 
 > [!NOTE]
 > 本文將說明如何在報表的 [編輯檢視] 中建立篩選。  如需 [閱讀檢視] 中篩選的資訊，請參閱[在報表的閱讀檢視中與篩選互動](service-reading-view-and-editing-view.md)。
@@ -44,7 +45,11 @@ ms.lasthandoff: 05/17/2018
 - [鑽研篩選] 會套用至報表中的單一實體    
 - [報表篩選] 會套用至報表的所有頁面    
 
-    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+    ![[讀取] 檢視中的 [篩選] 窗格](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+
+因為篩選「可持續」，當您離開報表，Power BI 會保留篩選、交叉分析篩選器和您所做的其他資料檢視變更。 因此，當您返回報表時可以從先前離開的地方繼續。 如果您不想要篩選保存您的變更，請從頂端功能表列選取 [重設為預設]。
+
+![永續性篩選按鈕](media/power-bi-report-add-filter/power-bi-reset-to-default.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>將篩選加入特定視覺效果中 (也稱為視覺效果篩選)
 有 2 種方式可以執行這項作業︰ 
@@ -135,12 +140,13 @@ ms.lasthandoff: 05/17/2018
 1. 選取上一步箭頭以返回先前的報表分頁。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>為什麼您的視覺效果層級篩選與頁面層級篩選可能會傳回不同的結果
-當您加入視覺效果層級篩選時，Power BI 會篩選彙總結果。  預設彙總為加總，不過您也可以[變更彙總類型](service-aggregates.md).  
 
-當您加入頁面層級篩選時，Power BI 會篩選但不彙總。  這是因為一個頁面可能會有多個視覺效果，而且每個視覺效果可能會使用不同的彙總類型。  因此會將篩選套用至每個資料列。
+- 在某些情況下，您的視覺效果層級篩選與頁面層級篩選可能會傳回不同結果。  例如，當您新增視覺效果層級篩選時，Power BI 會篩選彙總結果。  預設彙總為加總，不過您也可以[變更彙總類型](service-aggregates.md).  
 
-如果您看不到 [欄位] 窗格，請確定您是處於報表[編輯檢視](service-interact-with-a-report-in-editing-view.md)。
+    當您新增頁面層級篩選時，Power BI 會篩選但不彙總。  這是因為一個頁面可能會有多個視覺效果，而且每個視覺效果可能會使用不同的彙總類型。  因此會將篩選套用至每個資料列。
+
+- 如果您看不到 [欄位] 窗格，請確定您是處於報表[編輯檢視](service-interact-with-a-report-in-editing-view.md)。    
+- 如果您已對篩選進行大量變更，並想要返回至報表作者預設設定，請從頂端功能表列選取 [重設為預設]。
 
 ## <a name="next-steps"></a>後續步驟
  [如何使用報表篩選](power-bi-how-to-report-filter.md)

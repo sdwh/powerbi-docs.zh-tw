@@ -228,12 +228,14 @@
                   href: service-connect-to-ziosk.md
                 - name: Zuora
                   href: service-connect-to-zuora.md
-            - name: Dashboards
+            - name: 儀表板
               items:
                 - name: Power BI 中的精選儀表板
                   href: service-dashboard-featured.md
                 - name: Power BI 整合通知中心
                   href: service-notification-center.md
+                - name: 儀表板佈景主題
+                  href: service-dashboard-themes.md
             - name: 報表
               items:
                 - name: 變更 Power BI 報表中的圖表排序方式
@@ -266,7 +268,7 @@
               href: service-create-distribute-apps.md
             - name: 設定排程的重新整理
               href: refresh-scheduled-refresh.md
-            - name: Dashboards
+            - name: 儀表板
               items:
                 - name: 從報表建立儀表板
                   href: service-dashboard-create.md
@@ -548,7 +550,7 @@
           href: power-bi-custom-visuals.md
         - name: Power BI 中組織的自訂視覺效果
           href: power-bi-custom-visuals-organization.md
-        - name: 第 1 部分，在 Power BI 報表中新增視覺效果
+        - name: 第 1 部分：在 Power BI 報表中新增視覺效果
           href: power-bi-report-add-visualizations-i.md
         - name: 第 2 部分，在 Power BI 報表中加入視覺效果
           href: power-bi-report-add-visualizations-ii.md
@@ -572,6 +574,8 @@
               href: desktop-import-excel-workbooks.md
             - name: 使用一般介面連線至資料
               href: desktop-connect-using-generic-interfaces.md
+            - name: 連線到 Adobe Analytics
+              href: desktop-connect-adobe-analytics.md
             - name: 連接到 Oracle 資料庫
               href: desktop-connect-oracle-database.md
             - name: 在 Power BI Desktop 中執行 R 指令碼
@@ -616,8 +620,6 @@
               href: desktop-directquery-sap-hana.md
             - name: Power BI Desktop 中的採用參考完整性設定
               href: desktop-assume-referential-integrity.md
-            - name: Oracle 與 Teradata 資料庫的 DirectQuery
-              href: desktop-directquery-for-oracle-teradata.md
             - name: 在 Power BI Desktop 中使用 SAP BW 連接器 (預覽)
               href: desktop-sap-bw-connector.md
             - name: 在 Power BI Desktop 中使用商務用 OneDrive
@@ -788,11 +790,13 @@
           href: desktop-send-smile-privacy-statement.md
         - name: Power BI 報表的協助工具
           href: desktop-accessibility.md
+        - name: 管理 Power BI Desktop 登入表單
+          href: desktop-admin-sign-in-form.md
 - name: Power BI 行動應用程式
   items:
     - name: 概觀
       items:
-        - name: 什麼是 Power BI 行動應用程式？
+        - name: 什麼是 Power BI 行動裝置應用程式？
           href: mobile-apps-for-mobile-devices.md
     - name: 快速入門
       items:

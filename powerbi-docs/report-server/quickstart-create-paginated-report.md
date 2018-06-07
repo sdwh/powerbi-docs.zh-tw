@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e996b1399ff4dde96d122e747cf1f07db3a44876
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34294908"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721815"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>建立 Power BI 報表伺服器的編頁報表
 正如其名，編頁報表可以執行至許多頁面。 其配置使用固定的格式，且提供精確的自訂項目。 編頁報表為 .rdl 檔案。
@@ -94,7 +94,7 @@ ms.locfileid: "34294908"
 您有許多絕佳的資源可用，讓您設計報表設計師和 SQL Server Data Tools 的報表產生器中的報表。 報表產生器教學課程是不錯的起點。
 
 * [報表產生器教學課程](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
-* [Power BI 報表伺服器使用者手冊](user-handbook-overview.md)  
+* [什麼是 Power BI 報表伺服器？](get-started.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

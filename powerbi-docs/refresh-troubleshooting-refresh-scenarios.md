@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 891e9d35be271f6479a832b234a69132736f09a5
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6e1b2960eee8f436f8dbce660e755a5d0b39a68e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721562"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>重新整理疑難排解案例
 您可以在這裡找到在 Power BI 服務內重新整理資料時可能面臨到的不同狀況的相關資訊。
@@ -56,6 +57,14 @@ Microsoft 正在調查解決方案，以允許資料載入程序重新整理權�
 
 ## <a name="scheduled-refresh-timeout"></a>排定的重新整理逾時
 匯入資料集的排定重新整理會於兩個小時後逾時。 針對 **Premium** 工作區中的資料集，此逾時增加至五個小時。 如果您遇到此限制，請考慮縮減資料集的大小或複雜度，或考慮將資料集分成較小的片段。
+
+## <a name="access-to-the-resource-is-forbidden"></a>禁止存取資源  
+此錯誤可能因為快取認證到期而發生。 請登入 Power BI 並前往 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true以清除網際網路瀏覽器快取。 這會強制更新認證。 
+    
+    
+## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>因密碼變更或認證過期導致資料重新整理失敗 
+資料重新整理可能會因為快取的認證過期而失敗。 請登入 Power BI 並前往 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true以清除網際網路瀏覽器快取。 這會強制更新認證。
+
 
 ## <a name="next-steps"></a>後續步驟
 [資料重新整理](refresh-data.md)  

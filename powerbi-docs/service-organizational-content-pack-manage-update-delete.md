@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4ede737287c830d70283e3a73b627c59c38d1564
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4371846e77412c67d7441a993dca80493ef92e34
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689864"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和刪除組織內容套件
 > [!NOTE]
@@ -71,7 +72,7 @@ ms.lasthandoff: 05/17/2018
 您可以內容套件建立者身分來[排程資料集的重新整理](refresh-data.md)。  當您建立並上傳內容套件時，重新整理排程會和資料集同時上傳。 如果您變更重新整理排程，就必須重新發佈內容套件 (請參閱前述)。
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>從 AppSource 刪除組織內容套件
-您只能從 AppSource 刪除自己建立的內容套件。 
+您只能從 AppSource 刪除自己建立的內容套件。 如果您已在應用程式工作區中建立了組織內容套件，並決定刪除該工作區，請務必先刪除內容套件。 如果您先刪除工作區而未先刪除內容套件，則將遺失對這些內容套件的所有存取權，並且必須連絡 Microsoft 支援服務以尋求協助。 
 
 > [!TIP]
 > 您可以[刪除未建立之內容套件的連線](service-organizational-content-pack-disconnect.md)。 這麼做並不會將內容套件自 AppSource 刪除。

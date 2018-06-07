@@ -8,14 +8,15 @@ featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d6bb6bbed1d5423acbcf53ac50717debdfea4eaa
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584062"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>從 Excel 將磚釘選到 Power BI 儀表板
 您要先連接活頁簿和 Power BI 服務 (app.powerbi.com)，才可以從 Excel 活頁簿釘選磚。 連接活頁簿其實就是將該活頁簿的連結唯讀版本帶入 Power BI 服務，讓您將範圍釘選到儀表板。 您甚至可以將整份工作表釘選到儀表板。  
@@ -65,7 +66,7 @@ ms.lasthandoff: 05/17/2018
     ![[已釘選到儀表板] 對話方塊](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. 選取 [移至儀表板]。 您可以在這裡[重新命名、調整大小、連結和移動](service-dashboard-edit-tile.md)釘選的視覺效果。 選取釘選的磚預設會在 Power BI 中開啟活頁簿。
 
-## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>釘選整個資料表或樞紐圖表至儀表板
+## <a name="pin-an-entire-table-or-pivottable-to-a-dashboard"></a>釘選整個資料表或樞紐分析表至儀表板
 遵循上述步驟，但不選取資料格範圍，而是選取整份資料表或樞紐分析表。
 
 若要釘選資料表，請選取整份資料表並確認包含標頭。  若要釘選樞紐分析表，請務必包含樞紐分析表每個可見的部分，包括篩選 (如有使用)。

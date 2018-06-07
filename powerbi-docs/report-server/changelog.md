@@ -7,14 +7,14 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/11/2017
+ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295668"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482122"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -145,8 +145,8 @@ ms.locfileid: "34295668"
 
 ## <a name="next-steps"></a>後續步驟
 
-[使用者手冊](user-handbook-overview.md)  
-[系統管理員手冊](admin-handbook-overview.md)  
+[什麼是 Power BI 報表伺服器？](get-started.md)
+[管理員概觀](admin-handbook-overview.md)  
 [安裝 Power BI 報表伺服器](install-report-server.md)  
 [安裝報表產生器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [下載 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

@@ -1,5 +1,5 @@
 ---
-title: 向下鑽研 Power BI 的視覺效果
+title: Power BI 視覺效果中的鑽研模式
 description: 本文說明如何向下鑽研 Microsoft Power BI 服務和 Power BI Desktop 的視覺效果。
 author: mihart
 manager: kfile
@@ -8,17 +8,19 @@ featuredvideoid: MNAaHw4PxzE
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d622e6b461668d1972a78f6844bd269fb6596061
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: f0ac0ca1bd03f06e2b7679ab4afc1b9193286f5b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584200"
 ---
-# <a name="drill-down-in-a-visualization-in-power-bi"></a>向下鑽研 Power BI 的視覺效果
-## <a name="drill-down-requires-a-hierarchy"></a>向下鑽研需要階層
+# <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI 視覺效果中的鑽研模式
+
+## <a name="drill-requires-a-hierarchy"></a>鑽研需要階層
 當視覺效果有階層時，您可以向下鑽研以顯示其他詳細資料。 例如，您可能必須有一個視覺效果，它會以運動、專業領域和活動所構成的階層，查看奧運獎牌計數。 根據預設，視覺效果會依運動 (體操、滑雪、水上運動等) 顯示獎牌計數。 但是因為它有階層，選取其中一個視覺項目 (例如橫條、線條或泡泡) 會顯示越來越詳細的圖片。 選取 [水上運動] 項目，查看游泳、跳水和水球的資料。  選取 [跳水] 項目，查看跳板、平台和同時跳水活動的詳細資料。
 
 您可以新增階層到您擁有的報表，但是不能新增到與您共用的報表。
@@ -35,64 +37,134 @@ ms.lasthandoff: 05/19/2018
 > [!NOTE]
 > 若要了解如何使用 Power BI Desktop 來建立階層，請觀賞影片 - [如何建立及新增階層](https://youtu.be/q8WDUAiTGeU)
 > 
-> 
 
-## <a name="two-methods-to-drill-down"></a>兩種向下鑽研的方法
-您有兩種不同的方法，可以向下切入 (及向上切入) 視覺效果。  本文將說明這兩種方法。 這兩種方法能達到相同的結果，因此您可以使用最喜愛的任何一種方法。
+## <a name="prerequisites"></a>先決條件
+
+1. 在 Power BI 服務或 Desktop 中，鑽研需要有階層的視覺效果。 
+   
+2. 若要跟著做，請[開啟零售分析範例](sample-datasets.md)並建立樹狀圖，依**國家/地區**、**城市**、**郵遞區號**和**名稱** (群組) 來查看**今年總單位數** (值)。  樹狀圖具有由國家/地區、城市、郵遞區號和城市名稱組成的階層。 每個國家/地區有一或多個城市，每個城市有一或多個郵遞區號等等。 根據預設，視覺效果只會顯示國家/地區資料，因為「國家/地區」最先出現在清單中。
+   
+   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
+
+2. 了解各種鑽研圖示如何一起運作可能會造成混淆，因此我們篩選樹狀圖以僅顯示 2 個較小的地區：**KY** 和 **TN**。 選取樹狀圖，在 [視覺效果層級篩選] 下展開 [國家/地區]，並選取 [KY] 和 [TN]。
+
+    ![KY 和 TN 的篩選](media/power-bi-visualization-drill-down/power-bi-filter.png)    
+
+   現在只有兩個地區會顯示於樹狀圖中。
+
+   ![雙鑽研圖示](media/power-bi-visualization-drill-down/power-bi-territories.png)
+
+## <a name="three-ways-to-access-the-drill-features"></a>有三種方式可存取鑽研功能
+您有可存取向下切入、向上切入，以及展開具有階層的視覺效果功能的多個選項。 本文示範如何使用以下第一個選項。 一旦您了解向下切入與展開的基本概念，這三種方法皆可完成相同的工作，請嘗試並挑選您最喜歡的一個。
+
+- 將滑鼠停留在視覺效果，以查看並使用圖示。  
+
+    ![鑽研路徑](media/power-bi-visualization-drill-down/power-bi-hover.png)
+
+- 以滑鼠右鍵按一下視覺效果以顯示及使用功能表。
+    
+    ![內容功能表](media/power-bi-visualization-drill-down/power-bi-drill-menu.png)
+
+- 從 Power BI 功能表列中選取 [探索] 按鈕。
+
+   ![](media/power-bi-visualization-drill-down/power-bi-explore.png)
+
+## <a name="drill-pathways"></a>鑽研路徑
+### <a name="drill-down"></a>向下切入
+有數種方式來向下切入至您的視覺效果。 「向下切入」會帶您前往階層中的下一個層級，因此如果您正在查看**國家/地區**層級，您可以向下切入至城市層級、郵遞區號層級和名稱層級。 路徑中的每個步驟都會顯示新的資訊。
+
+![鑽研路徑](media/power-bi-visualization-drill-down/power-bi-drill-path.png)
+
+### <a name="expand"></a>展開
+
+「展開」會將其他階層層級新增至目前的檢視。 因此，如果您正在查看**國家/地區**層級，您可以將城市、郵遞區號和名稱的詳細資料展開並新增至您的樹狀圖。 路徑中的每個步驟都會顯示相同的資訊，並在每一個層級新增新的資訊。
+
+![展開路徑](media/power-bi-visualization-drill-down/power-bi-expand-path.png)
+
+您也可以選擇要一次對一個欄位或是一次對所有欄位向下切入或展開。 
+
+## <a name="drill-down-all-fields-at-a-time"></a>一次向下切入所有欄位
+
+1. 在樹狀圖的最上層顯示 KY 與 TN 的資料。 透過選擇其中一個控點並向右拖曳來擴大您的樹狀圖。 
+
+    ![樹狀圖顯示 2 種狀態](media/power-bi-visualization-drill-down/power-bi-drill-down.png) .
+
+2. 若要「一次向下切入所有欄位」，請選取視覺效果左上角的雙箭號  ![雙向下切入圖示](media/power-bi-visualization-drill-down/power-bi-drill-icon3.png)。 您的樹狀圖現在會顯示肯塔基州和田納西州的城市資料。 
+
+    ![雙鑽研圖示](media/power-bi-visualization-drill-down/power-bi-drill-down1.png)
+   
+5. 再次向下切入至階層的郵遞區號層級。
+
+    ![雙鑽研圖示](media/power-bi-visualization-drill-down/power-bi-drill-down2.png)
+
+3. 若要回頭向上切入，請選取視覺效果 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) 左上角的向上箭號。
+
+
+## <a name="drill-down-one-field-at-a-time"></a>一次向下切入一個欄位
+這個方法會使用視覺效果本身右上方角落出現的向下切入圖示。 
+
+1. 選取向下切入圖示將其開啟 ![向下切入已開啟](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)。 現在您有向下切入「一次一個欄位」選項。 
+   
+   ![](media/power-bi-visualization-drill-down/power-bi-drill-icon-new.png)
+
+   如果您不開啟向下切入，則選取視覺效果項目 (例如橫條圖、泡泡圖或分葉) 將不會向下切入，而會交叉篩選報表頁面上的其他圖表。
+
+2. 針對 **TN** 選取「分葉」。 現在您的樹狀圖會顯示在田納西州中具有商店的所有城市。 
+
+    ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one1.png)
+
+2. 此時，您可以繼續向下切入田納西州或向下切入田納西州的某個特定城市，或者可以改為展開 (請參閱以下的**一次展開所有欄位**)。 繼續一次向下切入一個欄位。  選取 [Knoxville, TN]。 現在樹狀圖會顯示您在 Knoxville 之商店的郵遞區號。 
+
+   ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one2.png)
+
+    請注意當您向下鑽研並重新往回時，標題會變更。  
+
+## <a name="expand-all-and-expand-one-field-at-a-time"></a>一次全部展開欄位和一次展開一個欄位
+僅顯示郵遞區號的樹狀圖並不很有幫助。  所以讓我們在階層中向下展開一個層級。  
+
+1. 在樹狀圖使用中的情況下，選取「向下展開」圖示 ![向下展開圖示](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png)  。 樹狀圖現在會顯示階層中的 2 個層級：郵遞區號以及商店名稱。 
+
+    ![顯示郵遞區號以及商店名稱](media/power-bi-visualization-drill-down/power-bi-expand1.png)
+
+2. 若要看到田納西州所有 4 個階層層級的資料，請選取向上切入箭號直到您到達第二個層級，樹狀圖中的**依國家/地區和城市的今年總單位數**。 
+
+    ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one1.png)
+
+
+3. 請確定向下切入仍然開啟 ![向下切入已開啟](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)，然後選取「向下展開」圖示 ![向下展開圖示](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png)。 您的樹狀圖現在會顯示其他詳細資料；除了城市和州之外現在也會顯示郵遞區號。 
+
+    ![雙鑽研圖示](media/power-bi-visualization-drill-down/power-bi-expand-one3.png)
+
+4. 再次選取 [向下展開] 以在樹狀圖上顯示田納西州詳細資料的所有 4 個階層層級。 將滑鼠停留在分葉以查看更多詳細資料。
+
+   ![樹狀圖顯示黏納西州資料](media/power-bi-visualization-drill-down/power-bi-expand-all.png)
+
+## <a name="drilling-filters-other-visuals"></a>鑽研篩選其他視覺效果
+隨著您在 [鑽研] 模式中作業，您可以決定向下切入和展開如何影響頁面上的其他視覺效果。 
+
+根據預設，鑽研不會篩選報表中的其他視覺效果。 但是，可以在 Power BI Desktop 和 Power BI 服務中啟用此功能。 
+
+1. 在 Desktop 中，選取 [格式] 索引標籤，然後選取 [鑽研篩選其他視覺效果] 核取方塊。
+
+    ![Power BI Desktop 中的設定](media/power-bi-visualization-drill-down/power-bi-drill-filters-desktop.png)
+
+2. 現在當您向下切入 (或向上切入或展開) 具有階層的視覺效果，該動作會篩選頁面上的其他視覺效果。 
+
+    ![Desktop 中的設定](media/power-bi-visualization-drill-down/power-bi-drill-filters.png)
+
+    ![Desktop 中的設定](media/power-bi-visualization-drill-down/power-bi-drill-filters2.png)
 
 > [!NOTE]
-> 如果要跟著做，請在 Power BI 服務中[開啟零售分析範例](sample-datasets.md)並建立矩形式樹狀結構圖，依**國家/地區**、**城市**、**郵遞區號**和**名稱** (群組) 來查看**今年的總單位數** (值)。  
-> 
-> 
+> 若要在 Power BI 服務中啟用此功能，請從頂端功能表列選取 [視覺效果互動] > [鑽研篩選其他視覺效果]。
+>
+> ![Power BI 服務中的設定](media/power-bi-visualization-drill-down/power-bi-drill-filters-service.png)
 
-## <a name="method-one-for-drill-down"></a>向下切入的方法一
-這個方法會使用視覺效果本身上方角落出現的鑽研圖示。
 
-1. 在 Power BI 中，以[閱讀檢視或編輯檢視](service-reading-view-and-editing-view.md)開啟報表。 鑽研的視覺效果需要有階層。 
-   
-   階層會顯示在下列動畫中。  視覺效果具有由國家/地區、城市、郵遞區號和城市名稱組成的階層。 每個國家/地區有一或多個城市，每個城市有一或多個郵遞區號等等。 根據預設，視覺效果只會顯示國家/地區資料，因為「國家/地區」最先出現在清單中。
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. 若要啟用向下切入，請選取視覺效果右上角的箭號圖示。 深色圖示表示已啟用鑽研。 如果您不開啟鑽研，則選取視覺項目 (例如橫條圖和泡泡圖) 將會交叉篩選報表頁面上的其他圖表。    
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drill-icon.png)
-3. 若要**一次向下切入一個欄位**，請在視覺效果中選取其中一個項目。 在橫條圖中，這表示按一下其中一個橫條。 在矩形式樹狀結構圖中，這表示按一下其中一個**葉子**。 請注意當您向下鑽研並重新往回時，標題會變更。 在此動畫中，它會從「國家/地區的今年總單位數」變更到「國家/地區和城市的今年總單位數」、「國家/地區、城市和郵遞區號的今年總單位數」，最後到「國家/地區、城市、郵遞區號和名稱的今年總單位數」。 若要回頭向上切入，請選取視覺效果左上角的**向上切入**圖示![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png)，如下所示。
-   
-   ![](media/power-bi-visualization-drill-down/drill.gif)
-4. 若要***一次向下切入所有欄位***，請選取視覺效果左上角的雙箭號。
-   
-   ![](media/power-bi-visualization-drill-down/pbi_drillall.png)
-5. 若要回頭向上切入，請選取視覺效果左上角的向上箭號。
-   
-   ![](media/power-bi-visualization-drill-down/pbi_drillup2.png)
-
-## <a name="method-two-for-drill-down"></a>向下切入的方法二
-這個方法會使用上方 Power BI 功能表列的 [瀏覽] 下拉式清單。
-
-1. 在 Power BI 中，以[閱讀檢視或編輯檢視](service-reading-view-and-editing-view.md)開啟報表。 鑽研的視覺效果需要有階層。 
-   
-   階層會顯示在下圖中。  視覺效果具有由國家/地區、城市、郵遞區號和城市名稱組成的階層。 每個國家/地區有一或多個城市，每個城市有一或多個郵遞區號等等。 根據預設，視覺效果只會顯示國家/地區資料，因為「國家/地區」最先出現在清單中。
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. 若要啟用向下切入，請選取視覺效果，讓它成為使用中，然後從 Power BI 上方功能表列選取 [瀏覽] > [向下切入]。 視覺效果右上角的向下切入圖示會變更為黑色背景。 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)  
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-explore2.png)
-3. 啟用後，選取其中一個矩形式樹狀結構圖葉子，即可一次向下鑽研一個欄位。 在此範例中，已選取名為 **NC** 的國家/地區，依城市查看今年北卡羅來那州的總銷售單位數。
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drilldown-1.png)
-4. 若要一次向下鑽研所有欄位，請選取 [瀏覽] > [顯示下一個層級]。
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-show-next-level.png)
-5. 若要回頭向上鑽研，請選取 [瀏覽] > [向上鑽研]。
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drill-up2.png)
-
-6. 若要查看用來建立視覺效果的資料，請選取 [查看資料]。 資料會顯示在視覺效果下方的窗格中。 當您繼續鑽研視覺效果時，此窗格會保持開啟。 如需詳細資訊，請參閱[顯示用來建立視覺效果的資料](service-reports-show-data.md)。
 
 ## <a name="understanding-the-hierarchy-axis-and-hierarchy-group"></a>了解階層軸和階層群組
 您可以將階層軸和階層群組視為可用來增加及減少您想要檢視的資料之資料粒度的機制。 任何可組織成類別和子類別的資料都適合具有階層。 當然，這包括日期和時間。
 
-您可以在 Power BI 中建立具有階層的視覺效果，方法是選取一或多個要新增至 [軸] 區或 [群組] 區的資料欄位，並在 [值] 區中包含您要作為資料欄位查看的資料。 您可以透過視覺效果左上角和右上角是否出現切入模式圖示，來判斷資料是否為階層式。 
+您可以在 Power BI 中建立具有階層的視覺效果，方法是選取一或多個要新增至 [軸] 區或 [群組] 區的資料欄位，並在 [值] 區中包含您要作為資料欄位查看的資料。 您可以透過視覺效果左上角和右上角是否出現「切入模式」圖示，來判斷資料是否為階層式。 
 
 基本上，您可以將階層式資料簡單分為兩種類型：
 - 日期和時間資料 - 如果您有 DateTime 資料類型的資料欄位，則表示您已有階層式資料。 Power BI 會自動為其值可剖析成 [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx) 結構的任何資料欄位建立階層。 您只需要將一個 DateTime 欄位新增至 [軸] 或 [群組] 區。
@@ -118,7 +190,7 @@ Power BI 可讓您一次展開一個子集，或一次展開所有子集。 您�
 請注意，季度報表與年度報表的資料會相同，但在您向下切入至針對 [值] 所指定的詳細等級之後，您會看到單一報表變得更具體，而「所有月份」報表則有更多資料。
 
 
-|展開模式|年|季|月|天|
+|展開模式|年|季|月|日|
 | ---|:---:|:---:|:---:|---|
 |單一|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
 |全部|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|

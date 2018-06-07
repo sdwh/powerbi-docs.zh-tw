@@ -6,13 +6,14 @@ manager: kfile
 ms.reviewer: ''
 ms.Embedded: powerbi
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: bfee68658816d46e23a3b66f9b04b2069704a2b8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689775"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何將 Power BI 工作區集合內容遷移至 Power BI Embedded
 了解如何從 Power BI 工作區集合遷移至 Power BI Embedded，並利用內嵌在應用程式中的進階功能。
@@ -26,9 +27,14 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/en-us/b
 > [!IMPORTANT]
 > 雖然遷移與 Power BI Embedded 相依，但是使用**內嵌權杖**時未與應用程式使用者的 Power BI 相依。 他們不需要註冊 Power BI，即可檢視應用程式中的內嵌內容。 您可以使用 Embedded 的這個內嵌方法，來服務 Power BI 使用者。
 > 
-> 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
+
+在您開始移轉至新 Power BI Embedded 之前，您可以快速瀏覽逐步解說，會使用 [Onboarding experience tool](https://aka.ms/embedsetup) (入門訓練體驗工具) 來協助您設定新 Power BI Embedded 環境。
+
+選擇最適合您的方案：
+* **對客戶進行內嵌** - 若您對 [app owns data](https://aka.ms/embedsetup/AppOwnsData) (應用程式擁有資料) 方案有興趣。 [正在對客戶進行內嵌](embedding.md#embedding-for-your-customers)，可讓您將儀表板和報告內嵌至沒有 Power BI 帳戶的使用者。 
+* **對組織進行內嵌** - 若您對 [user owns data](https://aka.ms/embedsetup/UserOwnsData) (使用者擁有資料) 方案有興趣。 [正在對組織進行內嵌](embedding.md#embedding-for-your-organization) 可讓您擴充 Power BI 服務。
 
 ## <a name="prepare-for-the-migration"></a>準備移轉
 您需要執行許多準備事項才能從 Power BI 工作區集合遷移至 Power BI Embedded。 您必須要有租用戶，以及具有 Power BI Pro 授權的使用者。
@@ -63,10 +69,6 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/en-us/b
    
 > [!NOTE]
 > 此為貴組織中的一般使用者帳戶，將用於內嵌。
->
-
-> [!NOTE]
-> 如果 App-Only 權杖驗證是您的應用程式的需求，請按一下[這裡](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement)與我們連絡。
 >
 
 ## <a name="app-registration-and-permissions"></a>應用程式註冊和權限

@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37f4e06aee41b8741dd3a1a1a52e3237fbd893a3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 22eb44048d8a4f681d8d112ce3fdb5a841d0511e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293252"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584223"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>在 Power BI 報表和儀表板中使用資料表
 資料表是一個方格，其中以資料列和資料行的邏輯數列包含相關的資料。 它也可能包含標頭和總計資料列。 資料表適合處理您要在許多值裡尋找單一類別的量化比較。 例如，這個資料表會顯示**類別**的 5 個不同量值。
@@ -119,6 +119,9 @@ ms.locfileid: "34293252"
 有時候 Power BI 會截斷報表和儀表板的資料行標題。 若要顯示整個資料行名稱，請將滑鼠停駐在標題右邊的空間以顯示雙箭號，選取並拖曳。
 
 ![](media/power-bi-visualization-tables/resizetable.gif)
+
+## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
+* 套用資料行的格式設定時，您只能為每個資料行選擇一個對齊選項：自動、靠左、置中、靠右。 通常，一個資料行包含所有文字或所有數字，並不混用。 但在資料行同時包含數字和文字的情況下，[自動] 會將文字靠左對齊、將數字靠右對齊。 此行為支援從左到右閱讀的語言。   
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: e54ddf59221b472bbac4e8665e036529ba475d9c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 82b42f97a92a52203b80d31abef4aeee456d6d4e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482030"
 ---
 # <a name="upgrade-power-bi-report-server"></a>升級 Power BI 報表伺服器
 了解如何升級 Power BI 報表伺服器。
@@ -66,7 +67,7 @@ Power BI 報表伺服器會使用組態檔來儲存應用程式設定。 第一�
 報表伺服器升級之後，請確定任何 Power BI 報告作者都升級至針對符合伺服器的 Power BI 報表伺服器而最佳化的 Power BI Desktop 版本。
 
 ## <a name="next-steps"></a>後續步驟
-[系統管理員手冊](admin-handbook-overview.md)  
+[系統管理員概觀](admin-handbook-overview.md)  
 [安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)  
 [確認安裝 Reporting Services ](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 [設定報表伺服器服務帳戶](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  

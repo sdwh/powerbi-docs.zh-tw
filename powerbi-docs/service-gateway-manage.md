@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 53995f0ee723590ae4e419eb62de0d9230deb4b6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34298404"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722581"
 ---
 # <a name="manage-a-power-bi-gateway"></a>管理 Power BI 閘道
 
@@ -48,7 +48,7 @@ Power BI 支援許多的內部部署資料來源，而且各有自己的需求�
 
 5. 針對 SQL Server，您應選擇 **Windows** 或**基本** (SQL 驗證) 的**驗證方法**。  如果您選擇**基本**，請輸入資料來源的認證。
 
-6. 在 [進階設定] 下，選擇性地為您的資料來源 (不適用於 [DirectQuery](desktop-directquery-about.md)) 設定[隱私權等級]((https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540))。
+6. 在 [進階設定] 下，選擇性地為您的資料來源 (不適用於 [DirectQuery](desktop-directquery-about.md)) 設定[隱私權等級](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)。
 
     ![進階設定](media/service-gateway-manage/advanced-settings.png)
 

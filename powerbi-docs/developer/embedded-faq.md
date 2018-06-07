@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34289732"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721010"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -102,6 +102,9 @@ Power BI Embedded 會繼續使用 Azure AD 進行主使用者 (指定的 Power B
 應用程式使用者的驗證和授權會由 ISV 實作，ISV 可以為其應用程式實作自己的驗證。
 
 如果您已經有 Azure AD 租用戶，可以使用現有目錄，也可以建立新的 Azure AD 租用戶，以達成內嵌應用程式內容的安全性。
+
+若要取得 AAD 權杖，您可以使用其中一個 Azure Active Directory 驗證程式庫。 有適用於多種平台的用戶端程式庫。
+https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Power BI Embedded 和 Azure 服務有何不同？
 
@@ -205,6 +208,31 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 * 與使用「Power BI 工作區集合」只支援 2 種資料來源相比，可支援所有 PBI 資料來源。 
 * 問與答、重新整理、書籤、儀表板與圖格內嵌、自訂功能表等新功能只有在 **Power BI Embedded** 解決方案中才有支援。
 * 容量計費模型。
+
+## <a name="onboarding-experience-tool-for-embedding"></a>內嵌的上線體驗工具
+
+### <a name="what-is-the-onboarding-experience-tool"></a>什麼是上線體驗工具？
+
+[上線體驗工具](https://aka.ms/embedsetup)可讓您快速開始使用及下載應用程式範例，以開始使用 Power BI 進行內嵌。
+
+### <a name="which-solution-should-i-choose"></a>我可以選擇什麼解決方案？
+
+* [對客戶進行內嵌](embedding.md#embedding-for-your-customers)，可讓您將儀表板和報告內嵌至沒有 Power BI 帳戶的使用者。 執行[對客戶進行內嵌](https://aka.ms/embedsetup/AppOwnsData)解決方案。
+* [對組織進行內嵌](embedding.md#embedding-for-your-organization)可讓您擴充 Power BI 服務。 執行[對組織進行內嵌](https://aka.ms/embedsetup/UserOwnsData)解決方案。
+
+### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>我已經下載了應用程式範例，要選擇哪個解決方案？
+
+若您使用**對客戶進行內嵌**體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\App Owns Data*資料夾，然後執行 *PowerBIEmbedded_AppOwnsData.sln* 檔案。
+
+若您使用**對組織進行內嵌**體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 資料夾，然後執行 *pbi-saas-embed-report.sln* 檔案。
+
+### <a name="how-can-i-edit-my-registered-application"></a>如何編輯已註冊的應用程式？
+
+您可以在[此處](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)了解如何編輯已註冊 AAD 的應用程式。
+
+### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>如何編輯我的 Power BI 使用者設定檔或資料？
+
+您可以在[此處](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)了解如何編輯您的 Power BI 資料。
 
 如需詳細資訊，請參閱[為您的內嵌應用程式進行疑難排解](embedded-troubleshoot.md)
 

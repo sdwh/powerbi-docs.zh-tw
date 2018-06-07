@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 8a002105fcb9f5dc07197aac5722a57c7bba14b6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481892"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>使用 Office Online Server (OOS) 設定報表伺服器來裝載 Excel 活頁簿
 除了在 Web 入口網站中檢視 Power BI 報表，Power BI 報表伺服器可以使用 [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) 來裝載 Excel 活頁簿。 您的報表伺服器會成為發佈和檢視自助服務 Microsoft BI 內容的單一位置。
@@ -167,7 +168,7 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 * 您會有活頁簿的唯讀功能。
 
 ## <a name="next-steps"></a>後續步驟
-[系統管理員手冊](admin-handbook-overview.md)  
+[系統管理員概觀](admin-handbook-overview.md)  
 [安裝 Power BI 報表伺服器](install-report-server.md)  
 [安裝報表產生器](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [下載 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
