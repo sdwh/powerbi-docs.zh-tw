@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7d6ad3cea224de097d5ebc81d33dbffa52b33378
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34755131"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
 
@@ -91,7 +92,7 @@ ms.lasthandoff: 05/17/2018
 
 ## <a name="audit-logs"></a>稽核記錄
 
-管理入口網站的第三個索引標籤是 [稽核記錄]。 記錄位於 Office 365 安全規範中心內。 此區段可讓您快速存取 Office 365 內的該區域。 
+管理入口網站的第三個索引標籤是 [稽核記錄]。 記錄位於 Office 365 安全規範中心內。 此區段可讓您快速存取 Office 365 內的該區域。
 
 如需稽核記錄的詳細資訊，請參閱[稽核貴組織的 Power BI](service-admin-auditing.md)
 
@@ -209,7 +210,7 @@ ms.lasthandoff: 05/17/2018
 組織中的使用者可以使用 Cortana 提出關於資料的問題。
 
 > [!NOTE]
-> 這項設定適用於整個組織，而不限於特定群組。
+> 這項設定適用於整個組織，而無法限於特定群組。
 
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>在內部部署資料集使用 [在 Excel 中進行分析]
 組織中的使用者可以使用 Excel 來檢視內部部署 Power BI 資料集，並與其互動。 [深入了解](service-analyze-in-excel.md)
@@ -226,8 +227,6 @@ ms.lasthandoff: 05/17/2018
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>針對整個組織啟用自訂視覺效果
 組織中的使用者可以共用自訂視覺效果，並與其互動。 [深入了解](power-bi-custom-visuals.md)
 
-![自訂視覺效果設定](media/service-admin-portal/powerbi-admin-custom-visuals.png)
-
 > [!NOTE]
 > 這項設定適用於整個組織，而無法限於特定群組。
 
@@ -238,7 +237,7 @@ ms.lasthandoff: 05/17/2018
 組織中的使用者可以共用以 R 指令碼建立的視覺效果，並與其互動。 [深入了解](service-r-visuals.md)
 
 > [!NOTE]
-> 這項設定適用於整個組織，而不限於特定群組。
+> 這項設定適用於整個組織，而無法限於特定群組。
 
 ## <a name="audit-settings"></a>稽核設定
 
@@ -246,10 +245,10 @@ ms.lasthandoff: 05/17/2018
 
 組織中的使用者可以使用稽核來監視組織中其他使用者在 Power BI 中執行的動作。 [深入了解](service-admin-auditing.md)
 
-必須啟用這項設定，才能記錄稽核記錄項目。
+必須啟用這項設定，才能記錄稽核記錄項目。 啟用稽核到能夠檢視稽核資料之間，有最多 48 小時的延遲。 若您未立即看到資料，請稍候再查看稽核記錄。 取得檢視稽核記錄的權限，以及能夠存取記錄的延遲可能相近。
 
 > [!NOTE]
-> 這項設定適用於整個組織，而不限於特定群組。
+> 這項設定適用於整個組織，而無法限於特定群組。
 
 ## <a name="dashboard-settings"></a>儀表板設定
 
@@ -258,7 +257,7 @@ ms.lasthandoff: 05/17/2018
 組織中的使用者可以用指出儀表板安全性層級的分類來標記儀表板。 [深入了解](service-data-classification.md)
 
 > [!NOTE]
-> 這項設定適用於整個組織，而不限於特定群組。
+> 這項設定適用於整個組織，而無法限於特定群組。
 
 ## <a name="developer-settings"></a>開發人員設定
 

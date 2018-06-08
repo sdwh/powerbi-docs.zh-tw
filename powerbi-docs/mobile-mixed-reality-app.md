@@ -1,25 +1,25 @@
 ---
 title: Power BI for Mixed Reality 應用程式 (預覽)
-description: 您可以沉浸於虛擬世界或在您的環境內容中，透過 Power BI for Mixed Reality 應用程式來檢視您的儀表板和報表。
+description: 您可以透過 Power BI for Mixed Reality 應用程式 (預覽) 來檢視您的儀表板和報表，沉浸在虛擬世界或您的環境內容中。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 32ef06cfdefe4ff1554cfe5f449d69583569f158
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 15c59d25814a50ce09b5b52accd0f88d74871a34
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721424"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799318"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 應用程式 (預覽)
-您可以在沉浸於虛擬世界的同時，透過 Power BI for Mixed Reality 應用程式來檢視您的儀表板和報表，或將這些項目放在您環境內容中的特定位置。 
+您可以在沉浸於虛擬世界的同時，透過 Power BI for Mixed Reality 應用程式 (預覽) 來檢視您的儀表板和報表，或將這些項目放在您環境內容中的特定位置。 
 
-請從 Windows 市集下載 Power BI for Mixed Reality 應用程式的預覽版本，以檢視您的儀表板和報表。 並在虛擬世界中與這些項目互動，然後選取您要放置的項目。 
+從 Microsoft Store [下載 Power BI for Mixed Reality](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab)應用程式：在 Microsoft Store 中，該項目稱作「Power BI 行動版」。 您可在虛擬世界中與儀表板和報表互動，然後選取您要放置的項目。 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>兩個檢視：Windows 傳統和全像
 

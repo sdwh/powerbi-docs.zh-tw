@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/06/2018
+sktopms.date: 06/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e72e3bcca4254b957580775196d4919e88452773
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e8af4695ba54fee91820552802cf18d8a758e8b0
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253085"
+ms.locfileid: "34755039"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>關於 Power BI 的常見問題集
 * 如果您有其他問題，請[嘗試詢問 Power BI 社群](http://community.powerbi.com/)。
 * 仍有問題嗎？ 請前往 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
 
 ## <a name="what-is-microsoft-power-bi"></a>Microsoft Power BI 是什麼？
-[Power BI](https://powerbi.microsoft.com/) 是雲端式商務分析服務，可讓任何人都能夠以視覺化方式檢視和分析資料，且速度更快、更有效率也更易於了解。 透過易於使用的儀表板、互動式報表，還有吸引人的視覺效果將資料注入生命，可將使用者連接到各種資料。
+Power BI 是雲端式商務分析服務，讓任何人都能將資料視覺化並加以分析，速度更快、更有效率也更易於了解。 透過易於使用的儀表板、互動式報表，還有吸引人的視覺效果將資料注入生命，可將使用者連接到各種資料。 閱讀更多有關[什麼是 Power BI](power-bi-overview.md) 的內容。
 
 ## <a name="whats-the-difference-between-power-bi-and-power-bi-pro"></a>Power BI 與 Power BI Pro 之間的差異為何？
 Power BI 提供了各式各樣的功能，可協助您開始以全新的方式來瀏覽資料。 Power BI Pro 提供 Power BI 之所有相同的絕佳功能，並加上額外的功能，例如更多的儲存容量、將資料重新整理頻率排程為比每日一次更高、具有完整互動性的即時資料來源、群組等等。 深入了解 [Power BI Pro 和免費的 Power BI 之間的差異](https://powerbi.microsoft.com/pricing)。
@@ -33,36 +33,20 @@ Power BI Desktop 是免費產品。 Power BI Pro 則有 60 天免費試用版。
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>對 Power BI Premium 有疑問時該怎麼辦？
 有關 Power BI Premium 的問題，請參閱 [Power BI Premium 常見問題集](service-premium-faq.md)。
 
-## <a name="are-users-who-signed-up-after-may-3-2017-eligible-for-the-extended-pro-trial"></a>在 2017 年 5 月 3 日之後註冊的使用者符合 Pro 延長試用版的資格嗎？
-在 2017 年 5 月 3 日或之後註冊 Power BI (免費) 的使用者不符合 Pro 延長試用版的資格。 不過，他們符合標準 60 天 Pro 試用版的資格。
-
-## <a name="how-do-i-find-out-who-in-my-organization-is-eligible-for-the-extended-pro-trial"></a>如何找出組織中符合 Pro 延長試用版資格的人員？
-雖然沒有直接查明的方法，但您可以檢視 Power BI 的 Azure Active Directory 整合的應用程式報告，找出組織內活躍的使用者。 在資格期限內及具有免費授權的作用中使用者，將會收到快顯通知。 如需詳細資訊，請參閱[尋找已登入的 Power BI 使用者](service-admin-access-usage.md)。
-
-> [!NOTE]
-> Azure AD 報告不會指出使用者在 Power BI 內是免費或 Pro 使用者。 只會報告已登入 Power BI 的使用者及登入時間。 如果使用者列於此報告，不一定表示他們符合 Pro 延長試用版的資格。
-> 
-> 
+## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>如何得知我的組織中有誰擁有 Power BI 帳戶？
+您可以檢視 Power BI 的 Azure Active Directory 已整合應用程式報告，找出組織內的活躍使用者。 Azure AD 報告不會指出使用者在 Power BI 內是免費或 Pro 使用者。 只會報告已登入 Power BI 的使用者及登入時間。 如需詳細資訊，請參閱[尋找已登入的 Power BI 使用者](service-admin-access-usage.md)。
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop 是什麼？
-[Power BI Desktop](https://powerbi.microsoft.com/designer) 是免費桌面應用程式，可以直接在您自己的電腦上安裝。 藉由提供視覺效果互動極佳的進階資料探索、圖表、模型和報表建立，Power BI Desktop 與 Power BI 服務密切合作。 您可以將您的工作儲存至檔案，並將您的資料和報表直接發行至您的 Power BI 網站與其他人分享。
+Power BI Desktop 是免費的傳統型應用程式，您可直接在自己電腦上安裝。 藉由提供視覺效果互動極佳的進階資料探索、圖表、模型和報表建立，Power BI Desktop 與 Power BI 服務密切合作。 您可以將您的工作儲存至檔案，並將您的資料和報表直接發行至您的 Power BI 網站與其他人分享。 閱讀更多有關[什麼是 Power BI Desktop](desktop-what-is-desktop.md) 的內容。
 
 ## <a name="what-do-i-need-to-use-power-bi"></a>我需要哪些東西才能使用 Power BI？
-只要有網頁瀏覽器和工作電子郵件地址即可。
-
->[!NOTE]
->目前不支援結尾是 .gov 和 .mil 的工作電子郵件地址。
+只要有網頁瀏覽器和工作電子郵件地址即可。 您可以 .gov 和 .mil 電子郵件地址註冊。 如需詳細資訊，請參閱[在 Power BI 服務中註冊美國政府組織](service-govus-signup.md) 
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>為什麼必須使用我的公司電子郵件註冊？
 Power BI 不支援消費者電子郵件服務或電信提供者所提供的電子郵件地址。 深入了解 [Power BI 自助式註冊程序](service-self-service-signup-for-power-bi.md)。
 
-## <a name="which-work-email-addresses-are-supported"></a>哪些工作電子郵件地址受到支援？
-支援結尾是 **.edu** 和 **.org** 的工作電子郵件地址。
-
-結尾 **.gov** 和 **.mil** 目前尚不支援。
-
 ## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Power BI 也提供政府、學術和非營利定價嗎？
-是的，直接向 Microsoft 購買時會提供非營利定價。 您可以透過 [Microsoft Product Donation (Microsoft 產品捐贈)](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) 網站深入了解並註冊。 政府和學術機構定價是透過 MOSP/Direct、EA 和 Open 授權方案提供。 也提供聯合採購的政府價格。 Power BI 尚不適用於美國政府社群雲端 (GCC)。
+是的，直接向 Microsoft 購買時會提供非營利定價。 您可以透過 [Microsoft Product Donation (Microsoft 產品捐贈)](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) 網站深入了解並註冊。 政府和學術機構定價是透過 MOSP/Direct、EA 和 Open 授權方案提供。 也提供聯合採購的政府價格。 
 
 ## <a name="is-power-bi-available-on-premises"></a>Power BI 可以在內部部署使用嗎？
 Power BI [https://powerbi.com](https://powerbi.com) 不是私用的內部雲端服務。 不過，您有另外三個選項來檢視及使用內部部署資料。 

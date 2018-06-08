@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799410"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -80,25 +81,30 @@ Power BI 報表作者可以建立專為手機最佳化的報表版面配置。 �
    ![為視覺效果排序](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * 若要反轉排序次序，請再點選一次省略符號 (**...**)，然後再點選一次相同的欄位名稱。
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>在 iPad 或平板電腦上向下切入
-如果報表作者已將功能新增至視覺效果，您可以在 iPad 或平板電腦上向下切入視覺效果，以查看組成視覺效果的值。 您可以在 Power BI Desktop 或 Power BI 服務中[新增視覺效果的向下切入](power-bi-visualization-drill-down.md)。 
+## <a name="drill-down-and-up-in-a-visual"></a>向下和向上鑽研視覺效果
+如果報表作者已將功能新增至視覺效果，您可以向下切入視覺效果，以查看組成視覺效果的值。 您可以在 Power BI Desktop 或 Power BI 服務中[新增視覺效果的向下切入](power-bi-visualization-drill-down.md)。 
 
-> [!NOTE]
-> 目前向下切入不適用於 iPad 或平板電腦的地圖。
-> 
-> 
+* 點選視覺效果中的資料點即可顯示其工具提示。 若該項目具有向下切入，則工具提示的底部會出現可供您點選的箭號。 
+  
+  ![在視覺效果中向下切入](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-* 點選一個視覺效果。 如果上方角落出現向上和向下箭號 ![向上切入、向下切入圖示](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png)，您就可以向下切入。 若要向下切入一個值，請點選右上角的箭號，然後點選視覺效果中的值 &#151; 在本例中，請點選深藍色 FD-04 泡泡。
+* 若要回頭向上切入，請點選工具提示中的向上箭號。
   
-  ![在視覺效果中向下切入](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* 若要回頭向上切入，請點選左上角的向上箭號。
-  
-  ![向上切入](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![向上切入](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>回到我的工作區
-* 點選報表名稱旁的箭號 > 點選 [我的工作區]。
-  
-  ![返回上層](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+* 您也可以向下切入視覺效果中的所有資料點。 只要以焦點模式加以開啟並點選探索圖示，然後選擇顯示所有下一個層級，或是展開以顯示目前與下一個層級即可。
+
+   ![Power BI 向下切入所有項目](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>從一個頁面鑽研至另一個頁面
+
+透過鑽研，當您點選視覺效果的特定部分時，Power BI 會將您帶往報表中的其他頁面，篩選至您所點選的值。 報表作者可定義一或多個鑽研選項，每項都能將您帶往不同頁面。 在此情況下，您可以選擇想要鑽研的項目。 在下列範例中，當您點選量測計中的值時，可以選擇鑽研至**依業務區域篩選的支出**或**規劃**。
+
+![Power BI 行動版鑽研報表](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+當您進行鑽研時，返回按鈕可將您帶回先前的報表頁面。
+
+閱讀更多有關如何[在 Power BI Desktop 中新增鑽研](desktop-drillthrough.md)的內容。
 
 ## <a name="next-steps"></a>後續步驟
 * [檢視為您的手機最佳化的 Power BI 報表，並與其互動](mobile-apps-view-phone-report.md)

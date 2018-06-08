@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e688561b6b669aab68c4251fa5e25157dc219cd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722992"
+ms.locfileid: "34755062"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>為內部部署資料閘道進行疑難排解
 本文探討使用**內部部署資料閘道**時可能遇到的一些常見問題。
@@ -149,6 +149,9 @@ ms.locfileid: "34722992"
 **無法從 Power BI 服務查看 Analysis Services「取得資料」體驗中的資料閘道資料來源**
 
 請確定閘道設定內資料來源的 [使用者] 索引標籤中已列出您的帳戶。 若您沒有閘道存取權，請洽詢閘道管理員並請求驗證。 只有**使用者**清單中的帳戶才能查看 Analysis Services 清單所列出的資料來源。
+
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>錯誤: 您在此資料集中沒有任何為資料來源安裝或設定的閘道
+請確認您已將一或多個資料來源新增至閘道，如[新增資料來源](service-gateway-manage.md#add-a-data-source)中所述。 若閘道未在管理入口網站中的 [管理閘道] 下出現，請嘗試清除您的瀏覽器快取或登出服務，然後重新登入。
 
 ## <a name="datasets"></a>資料集
 ### <a name="error-there-is-not-enough-space-for-this-row"></a>錯誤：這個資料列沒有足夠空間。

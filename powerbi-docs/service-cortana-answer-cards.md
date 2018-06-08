@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d2f657423903b783c2e57822cabb577acd10a8bc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5d5544fba824443b1ba7b58c3e9d21f7769554d6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294678"
+ms.locfileid: "34755315"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>使用 Power BI 服務或 Power BI Desktop 建立 Cortana 的自訂回應頁面
 您可以使用 Power BI 的完整功能，建立稱為「Cortana 回應頁面」 (有時稱為*Cortana Answer Card*)、專為回答 Cortana 問題所設計的特殊報表頁面。
@@ -46,6 +46,12 @@ ms.locfileid: "34294678"
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)
 3. 建立您要在 Cortana 中顯示的一個或一組視覺效果，以回覆特定問題 (或問題集)。
+
+> [!NOTE]
+> Cortana 回應頁面目前不支援其中有靜態影像顯示的影像。 您可以將影像包含在以您資料內 URL 為基礎動態提取的資料表或矩陣視覺效果中。 
+> 
+> 
+
 4. 確定所有視覺效果都在頁面框線內。 (選擇性) 修改顯示設定、資料標籤、色彩和背景。  
    
     ![](media/service-cortana-answer-cards/pbi_cortana_modify-new.png)

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 04dc755eb7d575aa8438b4a5000ad40549c6220f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bcf012d94dedfd912479c3e51e0de388b177c294
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297070"
+ms.locfileid: "34755016"
 ---
 # <a name="using-auditing-within-your-organization"></a>在組織內使用稽核
 
 了解您可以如何使用 Power BI 的稽核來監視和調查所執行的動作。 您可以使用安全與合規性中心或使用 PowerShell。
 
-了解誰正在對 Power BI 租用戶的哪個項目採取什麼動作，可能對於幫助貴組織符合其需求，例如符合法規合規性與記錄管理等而言極為重要。
+了解誰正在對 Power BI 租用戶的哪個項目採取什麼動作，可能對於幫助貴組織符合其需求，例如符合法規合規性與記錄管理等而言極為重要。 您可以使用 Power BI 稽核，來稽核使用者執行的動作，例如 [檢視報表] 與 [檢視儀表板]。 您無法使用稽核來稽核權限。 
 
 您可以依日期範圍、使用者、儀表板、報表、資料集和活動類型來篩選稽核資料。 您也可以用 csv (逗號分隔值) 檔案下載活動以便離線分析。
 
@@ -29,18 +29,18 @@ ms.locfileid: "34297070"
 您必須符合這些需求才能存取稽核記錄：
 
 - 若要存取 Office 365 安全性與合規性中心的稽核區段，您必須具有 Exchange Online 授權 (隨附於 Office 365 Enterprise E3 和 E5 訂用帳戶)。
-- 您必須是全域管理員或擁有 Exchange 管理員角色，才能提供稽核記錄的存取權。 
 
-  Exchange 管理員角色是透過 Exchange 管理中心控制。 如需詳細資訊，請參閱 [Exchange Online 中的權限](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx)。
+- 您必須是全域管理員或擁有 Exchange 管理員角色，才能提供稽核記錄的存取權。 Exchange 管理員角色是透過 Exchange 管理中心控制。 如需詳細資訊，請參閱 [Exchange Online 中的權限](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx)。
 
 - 如果您有稽核記錄的存取權，但並不是全域管理員或 Power BI 服務管理員，您將無法存取 Power BI 管理入口網站。 在此情況下，您必須取得 Office 365 安全性與合規性中心的直接連結。
 
-> [!NOTE]
-> 若要檢視租用戶中的 Power BI 稽核記錄，您的租用戶中至少必須有一個 Exchange 信箱的授權。
+- 若要檢視租用戶中的 Power BI 稽核記錄，您的租用戶中至少必須有一個 Exchange 信箱的授權。
 
 ## <a name="accessing-your-audit-logs"></a>存取您的稽核記錄
 
-若要稽核您的 Power BI 記錄，您必須前往 Office 365 安全規範中心。
+若要稽核您的 Power BI 記錄，請前往 O365 安全性與合規性中心。
+
+啟用稽核到能夠檢視稽核資料之間，有最多 48 小時的延遲。 若您未立即看到資料，請稍候再查看稽核記錄。 取得檢視稽核記錄的權限，以及能夠存取記錄的延遲可能相近。
 
 1. 選擇右上角的**齒輪圖示**。
 
@@ -56,8 +56,7 @@ ms.locfileid: "34297070"
 
 或者，您可以瀏覽 [Office 365 | 安全與規範](https://protection.office.com/#/unifiedauditlog)。
 
-> [!NOTE]
-> 若要提供非系統管理員帳戶存取稽核記錄的權限，您必須在 Exchange Online 系統管理中心中指派權限。 比方說，您可將使用者指派至現有的角色群組，例如組織管理，或者使用稽核記錄角色建立新的角色群組。 如需詳細資訊，請參閱 [Exchange Online 中的權限](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx)。
+若要提供非系統管理員帳戶存取稽核記錄的權限，您必須在 Exchange Online 系統管理中心中指派權限。 比方說，您可將使用者指派至現有的角色群組，例如組織管理，或者使用稽核記錄角色建立新的角色群組。 如需詳細資訊，請參閱 [Exchange Online 中的權限](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx)。
 
 ## <a name="search-only-power-bi-activities"></a>僅搜尋 Power BI 活動
 

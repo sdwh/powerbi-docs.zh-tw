@@ -10,18 +10,18 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d569b68da7d13518f2d641817dfe1a68862698ac
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1da7591a490ae5bc6d132136691db05af7cffd81
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297875"
+ms.locfileid: "34754901"
 ---
 # <a name="what-are-power-bi-gateways"></a>什麼是 Power BI 閘道？
 
 Power BI 閘道是您在內部部署網路中安裝的軟體，它有助於存取該網路中的資料。 它就像接聽連線要求的閘道管理員，並且只有在使用者的要求符合特定準則時才會授與它們。 這可讓組織將資料庫及其他資料來源保留在其內部部署網路中，但可以在 Power BI 報表和儀表板中安全地使用內部部署資料。
 
-下圖顯示基本的檢視，其中閘道針對三個內部部署電腦處理來自雲端的要求。 我們將在稍後文章中對此詳細討論。
+閘道可以用於單一資料來源或多個資料來源。 下圖顯示基本的檢視，其中閘道針對三個內部部署電腦處理來自雲端的要求。 我們將在稍後文章中對此詳細討論。
 
 ![閘道概觀](media/service-gateway-getting-started/gateway-overview.png)
 
