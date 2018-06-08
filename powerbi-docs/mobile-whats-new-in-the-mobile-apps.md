@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482168"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799617"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -25,9 +25,26 @@ ms.locfileid: "34482168"
 
 ## <a name="may-2018"></a>2018 年 5 月
 
-### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>針對報表伺服器遠端設定 Power BI iOS 行動應用程式
+### <a name="mobile-drill-through-all-mobile-apps"></a>行動鑽研：所有行動裝置應用程式
+
+您可以從選取的資料點鑽研至行動裝置應用程式中的其他報表頁面，前提是報表作者必須已定義該動作。 
+
+### <a name="back-button-all-mobile-apps"></a>返回按鈕：所有行動裝置應用程式
+
+現在，當您透過撥動來瀏覽報表、在動作列上選擇報表頁面，或是使用鑽研時，返回按鈕可以讓您回到先前所檢視的頁面。 
+
+### <a name="dashboard-themes-all-mobile-apps"></a>儀表板佈景主題：所有行動裝置應用程式
+
+當報表作者在 Power BI 服務中自訂儀表板佈景主題時，行動裝置應用程式中的儀表板外觀與風格也會隨之改變。 不過，您將不會看到背景影像。
+
+### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS：從遠端設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取
 
 您的 IT 系統管理員現在可以使用 MDM 工具來設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取權。 如需詳細資料，請參閱[從遠端設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取權](report-server/configure-powerbi-mobile-apps-remote.md)。
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 應用程式 (預覽)
+
+Power BI for Mixed Reality 應用程式已經在 Microsoft 網上商店中推出。 您可以在沉浸於虛擬世界的同時，檢視您的儀表板和報表，或將這些項目放在您環境內容中的特定位置以進行檢視。 請觀看新的 [Power BI 應用於 Hololens 的簡介](https://www.youtube.com/watch?v=J_X_nOFUBss)影片以了解相關背景，或是閱讀有關新 [Power BI for Mixed Reality 應用程式](mobile-mixed-reality-app.md)的文章。
+
 
 ## <a name="april-2018"></a>2018 年 4 月
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 980aa830e38e49613b54ad473ef23eb7eac78ed2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722785"
+ms.locfileid: "34755085"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium - 這是什麼？
 Power BI Premium 為您的組織或小組提供專門用來執行 Power BI 服務的資源，給您更可靠的效能和更大的資料磁碟區。 Premium 也可讓您廣泛發佈內容，不需要您為檢視者購買每個使用者授權。
@@ -61,9 +61,8 @@ Power BI 中有兩種容量。 共用容量和 Power BI Premium 容量。 以下
 ### <a name="premium-capacity-nodes"></a>進階容量節點
 Power BI Premium 適用於有不同 v 核心容量的節點設定。 如需特定 SKU 供應項目和成本的詳細資訊，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing/)。 也提供[成本計算機](https://powerbi.microsoft.com/calculator/)。 如需內嵌的分析容量規劃的相關資訊，請參閱[規劃 Power BI 企業部署白皮書](https://aka.ms/pbienterprisedeploy)。
 
-* P 節點可用於內嵌部署或服務部署
-* EM 節點只能用於內嵌部署
-* EM1 和 EM2 
+* P 節點可用於內嵌部署或服務部署。
+* EM 節點只能用於內嵌部署。 EM 節點無法存取 Premium 功能，像是將應用程式分享給沒有 Power BI Pro 授權的使用者。
 
 >[!NOTE]
 >只有 Office 365 全域系統管理員的使用者才能正常運作此資料表中的連結 - 其他人會收到 404 錯誤。 

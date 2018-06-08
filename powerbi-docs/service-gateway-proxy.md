@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722650"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799548"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>設定內部部署資料閘道的 Proxy 設定
 您的工作環境可能需要執行 Proxy 以存取網際網路。 這可以防止內部部署資料閘道連線到服務。
@@ -50,7 +50,7 @@ Proxy 資訊是在 .NET 設定檔中所設定。 位置和檔案名稱將會隨�
         <defaultProxy useDefaultCredentials="true" />
     </system.net>
 
-預設設定適用於 Windows 驗證。 若您的 Proxy 使用另一種格式的驗證，您將必須變更設定。 若您不確定，應該連絡網路系統管理員。
+預設設定適用於 Windows 驗證。 若您的 Proxy 使用另一種格式的驗證，您將必須變更設定。 若您不確定，應該連絡網路系統管理員。 不建議使用基本 Proxy 驗證，且嘗試使用基本 Proxy 驗證可能會造成 Proxy 驗證錯誤，而導致未能正確設定閘道。 請使用較強的 Proxy 驗證機制來解決。
 
 除了使用預設認證之外，您也可以新增 <proxy> 元素，詳加定義 Proxy 伺服器設定。 舉例來說，您可以透過將 bypassonlocal 參數設為 false，指定內部部署的資料閘道應一律使用 Proxy，即使對本機資源亦然。 如果您想要在 Proxy 記錄檔中追蹤從內部部署的資料閘道產生的所有 https 要求，這會有助於疑難排解。 下列範例組態指定所有要求都必須通過 IP 位址為 192.168.1.10 的特定 Proxy。
 
@@ -93,6 +93,10 @@ Proxy 資訊是在 .NET 設定檔中所設定。 位置和檔案名稱將會隨�
 5. 使用您的修復金鑰還原閘道。
    
     如此一來，新的服務帳戶就能將資料來源的預存認證解密。
+    
+> [!NOTE]
+> 當您直接使用服務控制台來變更服務帳戶時，不會自動更新 ACL。 您必須確認新的服務帳戶可以存取安裝檔案和資料夾。 閘道安裝資料夾位於 C:\Program Files\On-premises data gateway 之下。 
+> 
 
 ## <a name="next-steps"></a>後續步驟
 [內部部署資料閘道 (個人模式)](service-gateway-personal-mode.md)

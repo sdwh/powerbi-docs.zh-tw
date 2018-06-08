@@ -10,21 +10,25 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722581"
+ms.locfileid: "34755154"
 ---
 # <a name="manage-a-power-bi-gateway"></a>管理 Power BI 閘道
 
-在[安裝 Power BI 資料閘道](service-gateway-install.md)後，您可以透過 Power BI 服務的 [管理閘道] 區域 (在本機電腦上的閘道應用程式中) 以及 PowerShell 指令碼來管理它。 本文著重在 Power BI 服務。 如果您剛剛安裝了一個閘道，建議您下一步[加入資料來源](#add-a-data-source)，然後[新增使用者](#add-users-to-a-data-source)，讓他們可以存取資料來源。
+[安裝 Power BI 資料閘道](service-gateway-install.md)之後，您便可以根據自己的需求來進行管理。 在本主題中，您將學會如何新增及移除資料來源和使用者、重新啟動閘道，以及移轉、還原、接管及移除閘道。 
+
+若要管理閘道，可以透過本機電腦上閘道應用程式中 Power BI 服務的 [管理閘道] 區域，或是使用 PowerShell 指令碼。 本文著重在 Power BI 服務。 
+
+如果您剛剛安裝了一個閘道，建議您下一步[加入資料來源](#add-a-data-source)，然後[新增使用者](#add-users-to-a-data-source)，讓他們可以存取資料來源。
 
 
 ## <a name="manage-data-sources"></a>管理資料來源
 
-Power BI 支援許多的內部部署資料來源，而且各有自己的需求。 在本範例中，我們將示範如何將 SQL Server 新增為資料來源，但其他資料來源的步驟類似。
+Power BI 支援許多的內部部署資料來源，而且各有自己的需求。 閘道可以用於單一資料來源或多個資料來源。 在本範例中，我們將示範如何將 SQL Server 新增為資料來源，但其他資料來源的步驟類似。
 
 
 ### <a name="add-a-data-source"></a>加入資料來源
@@ -113,6 +117,14 @@ Power BI 支援許多的內部部署資料來源，而且各有自己的需求�
 
 所有新的 [已排程重新整理] 要求和 DirectQuery 作業會自動路由到指定閘道叢集的主要執行個體。 如果主要閘道執行個體不在線上，就會將要求路由至叢集中的另一個閘道執行個體。
 
+
+## <a name="share-a-gateway"></a>共用閘道
+
+您無法共用閘道本身，但是可以為閘道新增系統管理員，以及新增使用者至閘道的資料來源。 
+
+當您安裝閘道之後，預設即成為該閘道的系統管理員。 如先前所示，您可以新增其他人成為系統管理員。 這些系統管理員可以新增資料來源、設定及移除閘道。
+
+您也可以指派使用者至每個閘道之下您所建立的資料來源。 使用者之後便能使用這些資料來源來重新整理 Power BI 報表。 但是，使用者無法變更任何資料來源或閘道設定。
 
 ## <a name="migrate-restore-or-take-over-a-gateway"></a>移轉、還原或取代閘道
 

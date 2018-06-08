@@ -94,10 +94,6 @@
                   href: service-focus-mode.md
                 - name: 列印儀表板、列印儀表板磚、列印報表頁面
                   href: service-print.md
-                - name: 訂閱報表或儀表板
-                  href: service-report-subscribe.md
-                - name: 以多種方式開啟報表
-                  href: service-report-open.md
                 - name: 重新命名 Power BI 中的內容
                   href: service-rename.md
                 - name: 以全螢幕模式 (電視模式) 顯示儀表板和報表
@@ -238,12 +234,16 @@
                   href: service-dashboard-themes.md
             - name: 報表
               items:
+                - name: 以多種方式開啟報表
+                  href: service-report-open.md
                 - name: 變更 Power BI 報表中的圖表排序方式
                   href: power-bi-report-change-sort.md
                 - name: 從視覺效果匯出資料
                   href: power-bi-visualization-export-data.md
                 - name: 如何使用報表篩選
                   href: power-bi-how-to-report-filter.md
+                - name: 訂閱報表或儀表板
+                  href: service-report-subscribe.md
             - name: 發佈
               items:
                 - name: Power BI Publisher for Excel
@@ -252,22 +252,6 @@
                   href: service-publish-to-powerpoint.md
         - name: 在 Power BI 中工作
           items:
-            - name: 即刻從 Excel 活頁簿到令人驚豔的報表
-              href: service-from-excel-to-stunning-report.md
-            - name: 使用問與答來建立視覺效果及建置報表
-              href: power-bi-tutorial-q-and-a.md
-            - name: 從 Excel 活頁簿檔案取得資料
-              href: service-excel-workbook-files.md
-            - name: 從資料集建立新的報表
-              href: service-report-create-new.md
-            - name: 在 Power BI 中與編輯檢視的報表互動
-              href: service-interact-with-a-report-in-editing-view.md
-            - name: 應該如何共同作業和共用儀表板和報表？
-              href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: 使用儀表板和報表建立並散發應用程式
-              href: service-create-distribute-apps.md
-            - name: 設定排程的重新整理
-              href: refresh-scheduled-refresh.md
             - name: 儀表板
               items:
                 - name: 從報表建立儀表板
@@ -304,6 +288,8 @@
                   href: service-data-classification.md
             - name: 詢問資料相關的問題
               items:
+                - name: 使用問與答來建立視覺效果及建置報表
+                  href: power-bi-tutorial-q-and-a.md
                 - name: 搭配 Power BI Gateway - Enterprise 資料使用問與答 (預覽)
                   href: service-q-and-a-direct-query.md
                 - name: 讓資料適用於 Power BI 的問與答
@@ -318,6 +304,10 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: 分享您的成果
               items:
+                - name: 應該如何共同作業和共用儀表板和報表？
+                  href: service-how-to-collaborate-distribute-dashboards-reports.md
+                - name: 使用儀表板和報表建立並散發應用程式
+                  href: service-create-distribute-apps.md
                 - name: 共用篩選過的報表
                   href: service-share-reports.md
                 - name: 從 Power BI 發佈至網路
@@ -354,6 +344,10 @@
                   href: power-bi-report-add-filter.md
                 - name: 將報表儲存在 Power BI
                   href: service-report-save.md
+                - name: 從資料集建立新的報表
+                  href: service-report-create-new.md
+                - name: 在 Power BI 中與編輯檢視的報表互動
+                  href: service-interact-with-a-report-in-editing-view.md
                 - name: 在 Excel 中分析
                   href: service-analyze-in-excel.md
                 - name: 變更報表中的視覺效果互動方式
@@ -382,6 +376,10 @@
                   href: power-bi-visualizations-arcgis.md
             - name: 檔案的資料
               items:
+                - name: 即刻從 Excel 活頁簿到令人驚豔的報表
+                  href: service-from-excel-to-stunning-report.md
+                - name: 從 Excel 活頁簿檔案取得資料
+                  href: service-excel-workbook-files.md
                 - name: 從 Power BI Desktop 檔案取得資料
                   href: service-desktop-files.md
                 - name: 從逗點分隔值 (.CSV) 檔案取得資料
@@ -406,6 +404,8 @@
                   href: service-azure-and-power-bi.md
             - name: 資料重新整理
               items:
+                - name: 設定排程的重新整理
+                  href: refresh-scheduled-refresh.md
                 - name: 重新整理建立自 Power BI Desktop 檔案的資料集 - 本機
                   href: refresh-desktop-file-local-drive.md
                 - name: 重新整理建立自 Power BI Desktop 檔案的資料集 - 雲端
@@ -796,7 +796,7 @@
   items:
     - name: 概觀
       items:
-        - name: 什麼是 Power BI 行動裝置應用程式？
+        - name: 什麼是行動裝置應用程式？
           href: mobile-apps-for-mobile-devices.md
     - name: 快速入門
       items:
@@ -808,20 +808,20 @@
           href: tutorial-mobile-apps-ios-qna.md
     - name: 概念
       items:
-        - name: Power BI 行動裝置應用程式的新功能
+        - name: 行動應用程式的新功能
           href: mobile-whats-new-in-the-mobile-apps.md
-        - name: 透過行動裝置應用程式取得實際的 Power BI 資料
+        - name: 使用行動裝置應用程式取得實際的資料
           href: mobile-apps-data-in-real-world-context.md
-        - name: 在 Power BI 行動裝置應用程式中離線檢視資料
+        - name: 在行動應用程式中離線檢視您的資料
           href: mobile-apps-offline-data.md
+        - name: Power BI for Mixed Reality 應用程式 (預覽)
+          href: mobile-mixed-reality-app.md
     - name: 如何
       items:
         - name: 所有行動裝置應用程式
           items:
             - name: 在行動應用程式中檢視內部部署報表
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-            - name: Power BI for Mixed Reality 應用程式 (預覽)
-              href: mobile-mixed-reality-app.md
             - name: 從 Power BI mobile apps 共用儀表板
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: 與行動裝置應用程式中的磚互動
@@ -850,7 +850,7 @@
               href: service-admin-mobile-intune.md
         - name: Android 裝置
           items:
-            - name: 開始使用適用於 Android App 的 Power BI
+            - name: 開始使用 Android 應用程式
               href: mobile-android-app-get-started.md
             - name: 修正「您的公司 SSL 憑證不受信任」
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
@@ -858,7 +858,7 @@
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
-            - name: 開始使用 Power BI for iOS 應用程式
+            - name: 開始使用 iOS 應用程式
               href: mobile-iphone-app-get-started.md
             - name: 開始使用 iPad 應用程式
               href: mobile-ipad-app-get-started.md
@@ -866,27 +866,27 @@
               href: mobile-apps-ios-qna.md
             - name: Power BI Apple Watch 應用程式
               href: mobile-apple-watch.md
-            - name: 在您的 iPhone 上從 Power BI 應用程式掃描條碼
+            - name: 從 iPhone 上的應用程式掃描條碼
               href: mobile-apps-scan-barcode-iphone.md
             - name: Power BI for iOS 應用程式
               href: mobile-ios-ipad-iphone-apps.md
         - name: iOS 與 Android
           items:
-            - name: 在行動裝置應用程式中標註及共用磚、報表或視覺效果
+            - name: 在行動裝置應用程式中標註及共用
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
         - name: 適用於 Windows 10 裝置的 Power BI 應用程式
           items:
-            - name: 開始使用 Power BI for Windows 10 行動裝置應用程式
+            - name: 開始使用 Windows 10 行動裝置應用程式
               href: mobile-windows-10-phone-app-get-started.md
             - name: 將儀表板釘選到開始畫面
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: 在 Power BI for Windows 10 行動裝置應用程式上檢視 Reporting Services 行動報表和 KPI
+            - name: 在 Windows 10 應用程式上檢視 Reporting Services 行動報表及 KPI
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: 在 Surface Hub 上檢視 Power BI
               href: mobile-windows-10-app-presentation-mode.md
     - name: 資源
       items:
-        - name: Power BI 行動裝置應用程式中支援的語言
+        - name: 行動應用程式支援的語言
           href: mobile-apps-supported-languages.md
 - name: 適用於開發人員的 Power BI
   items:
@@ -914,8 +914,6 @@
           items:
             - name: 使用開發人員工具建立自訂視覺效果
               href: service-custom-visuals-getting-started-with-developer-tools.md
-            - name: 檢閱自訂視覺效果的安全性與隱私權
-              href: service-custom-visuals-review-for-security-and-privacy.md
             - name: 讓自訂視覺效果獲得認證
               href: power-bi-custom-visuals-certified.md
             - name: 在 AppSource 上發佈自訂視覺效果
