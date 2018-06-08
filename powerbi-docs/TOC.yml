@@ -981,7 +981,7 @@
     - name: 參考
       items:
         - name: REST API
-          href: developer/rest-api-reference.md
+          href: 'https://docs.microsoft.com/rest/api/power-bi/'
         - name: 'Power BI C# Git 存放庫'
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: .NET SDK 下載
