@@ -1136,6 +1136,8 @@
           href: service-gateway-onprem-manage-oracle.md
         - name: 管理您的企業資料來源 - 匯入/已排程的重新整理
           href: service-gateway-enterprise-manage-scheduled-refresh.md
+        - name: 合併內部部署與雲端資料來源
+          href: service-gateway-mashup-on-premises-cloud.md
         - name: 使用 Kerberos 進行單一登入 (SSO)
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: 設定 Proxy 設定
