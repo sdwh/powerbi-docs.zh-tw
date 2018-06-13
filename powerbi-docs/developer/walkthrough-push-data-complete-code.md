@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: e5866b249d95cd3b05c7d769fe0cdbab984a978d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a41acec10e2801d046185d34c64e4d51b5e9dae0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289916"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813081"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>將資料推送至資料集的完整程式碼清單
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
@@ -228,7 +228,7 @@ ms.locfileid: "34289916"
 [在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)  
 [取得資料集，以便將資料列新增至 Power BI 資料表](walkthrough-push-data-get-datasets.md)  
 [將資料列新增至 Power BI 資料表](walkthrough-push-data-add-rows.md)  
-[Power BI REST API 參考](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/)  
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
 
 

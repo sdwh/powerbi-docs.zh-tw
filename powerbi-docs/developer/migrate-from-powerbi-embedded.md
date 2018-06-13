@@ -8,12 +8,12 @@ ms.Embedded: powerbi
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d9dfdf3f77629a58b324945815a8608fa45f509f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689775"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813495"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何將 Power BI 工作區集合內容遷移至 Power BI Embedded
 了解如何從 Power BI 工作區集合遷移至 Power BI Embedded，並利用內嵌在應用程式中的進階功能。
@@ -34,7 +34,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/en-us/b
 
 選擇最適合您的方案：
 * **對客戶進行內嵌** - 若您對 [app owns data](https://aka.ms/embedsetup/AppOwnsData) (應用程式擁有資料) 方案有興趣。 [正在對客戶進行內嵌](embedding.md#embedding-for-your-customers)，可讓您將儀表板和報告內嵌至沒有 Power BI 帳戶的使用者。 
-* **對組織進行內嵌** - 若您對 [user owns data](https://aka.ms/embedsetup/UserOwnsData) (使用者擁有資料) 方案有興趣。 [正在對組織進行內嵌](embedding.md#embedding-for-your-organization) 可讓您擴充 Power BI 服務。
+* **對組織進行內嵌** - 若您對 [user owns data](https://aka.ms/embedsetup/UserOwnsData) (使用者擁有資料) 方案有興趣。 [對組織進行內嵌](embedding.md#embedding-for-your-organization)可讓您擴充 Power BI 服務。
 
 ## <a name="prepare-for-the-migration"></a>準備移轉
 您需要執行許多準備事項才能從 Power BI 工作區集合遷移至 Power BI Embedded。 您必須要有租用戶，以及具有 Power BI Pro 授權的使用者。
@@ -159,7 +159,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/en-us/b
 
 ## <a name="rebuild-your-application"></a>重建應用程式
 1. 您需要修改應用程式，以使用 Power BI REST API 以及 powerbi.com 內的報表位置。
-2. 使用應用程式的 *master* 帳戶，以重建 AuthN/AuthZ 驗證。 您可以利用使用[內嵌權杖](https://msdn.microsoft.com/library/mt784614.aspx)來允許這位使用者代表其他使用者執行動作。
+2. 使用應用程式的 *master* 帳戶，以重建 AuthN/AuthZ 驗證。 您可以利用使用[內嵌權杖](https://docs.microsoft.com/rest/api/power-bi/embedtoken)來允許這位使用者代表其他使用者執行動作。
 3. 將報表從 powerbi.com 內嵌到應用程式。
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>將您的使用者對應至 Power BI 使用者

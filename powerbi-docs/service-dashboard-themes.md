@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/30/2018
+ms.date: 06/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1ea92be426312a738e03d78454a4c83a82b233c5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722512"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813794"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>在 Power BI 服務中使用儀表板佈景主題
 透過**儀表板主題**，您可以將某個色彩佈景主題套用到整個儀表板，例如公司色彩、季節性色彩，或是您可能想要套用的任何其他色彩佈景主題。 當您套用 [儀表板主題] 時，儀表板中的所有視覺效果都會使用您選擇的佈景主題色彩 (但有些例外，本文稍後會加以說明)。
 
 ![使用佈景主題的範例儀表板](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 
-變更儀表板上的報表視覺效果色彩，並不會影響報表中的視覺效果。 而且，當您從[已套用報表佈景主題](/desktop-report-themes.md)的報表釘選磚時，也可以選擇要保留目前的佈景主題，或使用儀表板的佈景主題。
+變更儀表板上的報表視覺效果色彩，並不會影響報表中的視覺效果。 而且，當您從[已套用報表佈景主題](desktop-report-themes.md)的報表釘選磚時，也可以選擇要保留目前的佈景主題，或使用儀表板的佈景主題。
 
 
 ## <a name="prerequisites"></a>先決條件

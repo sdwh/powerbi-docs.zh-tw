@@ -4,8 +4,6 @@
 ## <a name="common-issues"></a>常見問題
 以下是幾個常見問題，以及已協助許多網際網路存取受限環境中客戶的解決方案。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-t7RO6mHATI?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 ### <a name="authentication-to-proxy-server"></a>Proxy 伺服器的驗證
 您的 Proxy 可能會要求驗證網域使用者帳戶。 根據預設，閘道會使用 Windows 服務登入使用者的服務 SID。 將登入使用者變更為網域使用者可以解決這個問題。 如需詳細資訊，請參閱[將閘道服務帳戶變更為網域使用者](../service-gateway-proxy.md#changing-the-gateway-service-account-to-a-domain-user)。
 

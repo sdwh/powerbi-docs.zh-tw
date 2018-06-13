@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 39f40c4b8aaf53e81f15c1ad29d1d8425f017468
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250307"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>無法將 Power BI 加入 Office 365 合作夥伴訂閱
 Office 365 允許公司將 Office 365 與其所擁有的解決方案進行搭配整合並加以轉售 ，讓客戶只需透過一個連絡窗口，就能處理購買、帳單和支援等事宜。
@@ -58,10 +59,6 @@ Office 365 允許公司將 Office 365 與其所擁有的解決方案進行搭配
 
 * 合作夥伴若同意將 Power BI 加入商品組合，即可向其購買。
 * 您的合作夥伴可以將您的購買模式轉變成直接向 Microsoft 或其他提供 Power BI 的合作夥伴購買 Power BI。
-
-下列影片探討 Office 365 同步發行及如何購買 Power BI：
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C357phT94A8" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="next-steps"></a>後續步驟
 [使用 Windows PowerShell 管理 Azure AD](https://technet.microsoft.com/library/jj151815.aspx)  
