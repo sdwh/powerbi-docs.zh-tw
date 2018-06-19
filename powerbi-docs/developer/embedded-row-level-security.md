@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 218f4cd0aaaa5ffc8cab3a06b06af9544b02143d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301726"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>搭配 Power BI 內嵌內容使用資料列層級安全性
 資料列層級安全性 (RLS) 可用來限制使用者存取儀表板、圖格、報告和資料集內的資料。 多位不同的使用者可在看見不同的資料時使用這些相同的成品。 內嵌支援 RLS。
@@ -75,9 +76,9 @@ RLS 是在 Power BI Desktop 中撰寫。 我們可以在資料集和報表處於
 ## <a name="applying-user-and-role-to-an-embed-token"></a>將使用者和角色套用至內嵌權杖
 現在您已設定 Power BI Desktop 角色，您的應用程式需要一些調整才能利用這些角色。
 
-使用者會由您的應用程式驗證和授權，而內嵌權杖可用來授權該使用者存取特定 Power BI Embedded 報表。 Power BI Embedded 沒有關於您使用者身分識別的任何特定資訊。 您必須傳遞一些額外的內容作為身分識別形式內嵌權杖的一部分，RLS 才能運作。 這可以藉由 [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API 來完成。
+使用者會由您的應用程式驗證和授權，而內嵌權杖可用來授權該使用者存取特定 Power BI Embedded 報表。 Power BI Embedded 沒有關於您使用者身分識別的任何特定資訊。 您必須傳遞一些額外的內容作為身分識別形式內嵌權杖的一部分，RLS 才能運作。 這可以藉由 [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (內嵌權杖) API 來完成。
 
-[GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) API 接受表示相關資料集的身分識別清單。 您必須傳遞下列項目作為身分識別的一部分，RLS 才能運作。
+API 接受表示相關資料集的身分識別清單。 您必須傳遞下列項目作為身分識別的一部分，RLS 才能運作。
 
 * **使用者名稱 (必要項)**– 這是套用 RLS 規則時可用來協助識別使用者的字串。 只能列出單一使用者。
 * **角色 (必要項)** – 含有套用資料列層級安全性規則時要選取之角色的字串。 如果傳遞多個角色，則應該以字串陣列形式來傳遞。
@@ -177,7 +178,7 @@ CustomData 功能是下列成品之權杖產生功能的一部分：儀表板、
 * 使用內嵌權杖時，在 Power BI 服務中將使用者指派給角色不會影響 RLS。
 * 雖然 Power BI 服務不會將 RLS 設定套用至系統管理員或具有編輯權限的成員，但當您使用內嵌權杖提供身分識別時，則會將它套用至資料。
 * 內部部署伺服器支援 Analysis Services 即時連線。
-* Azure Analysis Services 即時連線支援依角色篩選，而非動態依使用者名稱篩選。
+* Azure Analysis Services 即時連線支援依角色篩選，而非動態依使用者名稱篩選。 可以使用 CustomData 進行動態篩選。
 * 如果基礎資料集不需要 RLS，GenerateToken 要求**不得**包含有效的身分識別。
 * 如果基礎資料集是雲端模型 (快取模型或 DirectQuery)，有效的身分識別必須包含至少一個角色，否則不會發生角色指派。
 * 身分識別清單可讓多個身分識別權杖用於儀表板內嵌。 對於所有其他成品，此清單包含單一身分識別。

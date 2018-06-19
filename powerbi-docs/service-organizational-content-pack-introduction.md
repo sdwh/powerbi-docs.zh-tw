@@ -7,18 +7,19 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/07/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f88ad90ddf0cd9315a3a3830a01b038d7300c1c9
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e07e28ca7fd4dbb38f931a3fbc2a97661294711c
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852340"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的組織內容套件簡介
 > [!NOTE]
-> 尚未聽過新的「應用程式」嗎？ 應用程式是在 Power BI 中將內容散發給大量對象的新方式。 建議使用應用程式，而非組織內容套件或唯讀工作區。 深入了解[應用程式](service-install-use-apps.md)。
+> 尚未聽過新的「應用程式」嗎？ 應用程式是在 Power BI 中將內容散發給大量對象的新方式。 我們計劃即將淘汰組織內容套件，因此建議您改用應用程式。 深入了解[應用程式](service-install-use-apps.md)。
 > 
 > 
 

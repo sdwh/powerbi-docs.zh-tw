@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 76d07c8384123a303c8801a45ecd05b9e6ed0321
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289456"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813104"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>將資料推送至 Power BI 資料集
 您可以使用 Power BI API 將資料推送至 Power BI 資料集。 例如，您會想要擴充現有商務工作流程，將關鍵資料推送至資料集。 在此情況下，您會想要將 Sales Marketing 資料集 (其中含 Product 資料表) 推送至資料集。
@@ -31,14 +31,14 @@ ms.locfileid: "34289456"
 下一節是有關資料推送的 Power BI API 作業的一般討論。
 
 ## <a name="power-bi-api-operations-to-push-data"></a>推送資料的 Power BI API 作業
-透過 Power BI REST API，您可以將資料來源推送至 Power BI。 當應用程式將資料列加入資料集時，儀表板上的磚會自動更新為更新的資料。 若要推送資料，您可使用[建立資料集](https://msdn.microsoft.com/library/mt203562.aspx)作業和[加入資料列](https://msdn.microsoft.com/library/mt203561.aspx)作業。 若要找出資料集，您可以使用[取得資料集](https://msdn.microsoft.com/library/mt203567.aspx)作業。 針對任何一項作業，您可以傳遞群組識別碼來和群組合作。 使用[取得群組](https://msdn.microsoft.com/library/mt243842.aspx)作業，以取得群組識別碼清單。
+透過 Power BI REST API，您可以將資料來源推送至 Power BI。 當應用程式將資料列加入資料集時，儀表板上的磚會自動更新為更新的資料。 若要推送資料，您可使用 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 作業和 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 作業。 若要找出資料集，您可以使用[取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)作業。 針對任何一項作業，您可以傳遞群組識別碼來和群組合作。 使用[取得群組](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)作業，以取得群組識別碼清單。
 
 以下是將資料推送至資料集的作業：
 
-* [建立資料集](https://msdn.microsoft.com/library/mt203562.aspx)
-* [取得資料集](https://msdn.microsoft.com/library/mt203567.aspx)
-* [新增資料列](https://msdn.microsoft.com/library/mt203561.aspx)
-* [取得群組](https://msdn.microsoft.com/library/mt243842.aspx)
+* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
+* [Post Rows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [取得群組](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
 您可以將 JavaScript 物件標記法 (JSON) 字串傳遞至 Power BI 服務，在 Power BI 中建立資料集。 若要深入了解 JSON，請參閱 [JSON 簡介](http://json.org/)。
 
@@ -113,10 +113,6 @@ ms.locfileid: "34289456"
 
 ## <a name="next-steps"></a>後續步驟
 [註冊 Power BI](create-an-azure-active-directory-tenant.md)  
-[建立資料集](https://msdn.microsoft.com/library/mt203562.aspx)  
-[取得資料集](https://msdn.microsoft.com/library/mt203567.aspx)  
-[新增資料列](https://msdn.microsoft.com/library/mt203561.aspx)  
-[取得群組](https://msdn.microsoft.com/library/mt243842.aspx)  
 [JSON 簡介](http://json.org/)  
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

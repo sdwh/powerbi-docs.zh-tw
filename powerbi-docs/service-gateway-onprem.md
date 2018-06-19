@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 06/05/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c91e257d79e9d16fa5a7a58b696d58aefaaaaf92
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722808"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812805"
 ---
 # <a name="on-premises-data-gateway"></a>內部部署資料閘道
 
@@ -47,7 +47,9 @@ ms.locfileid: "34722808"
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>下載並安裝內部部署資料閘道
-請於下載功能表下選取 [資料閘道]，以下載閘道。 下載[內部部署資料閘道](http://go.microsoft.com/fwlink/?LinkID=820925)。
+請於下載功能表下選取 [資料閘道]，以下載閘道。 下載[內部部署資料閘道](http://go.microsoft.com/fwlink/?LinkID=820925)。 
+
+請注意，更新內部部署資料閘道的方式是重新安裝閘道，如本節中所述。 在透過重新安裝更新閘道時，會保留現有的閘道設定。
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -56,9 +58,8 @@ ms.locfileid: "34722808"
 
 ## <a name="install-the-gateway-in-personal-mode"></a>以個人模式安裝閘道
 > [!NOTE]
-> 個人只適用於 Power BI。
-> 
-> 
+> 個人版本閘道只能搭配 Power BI。
+
 
 安裝個人閘道之後，您必須啟動 **Power BI Gateway─Personal 設定精靈**。
 

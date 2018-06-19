@@ -7,19 +7,19 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f1580aeeb25d5159eff7fcb4759bb426e5ff0bfd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 20352a729b43e15fd1cd67cb5d52c321c3d150d4
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251383"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852248"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>尋找並連線到組織內容套件
 > [!NOTE]
-> 尚未聽過新的「應用程式」嗎？ 應用程式是在 Power BI 中將內容散發給大量對象的新方式。 建議使用應用程式，而非組織內容套件或唯讀工作區。 深入了解[應用程式](service-install-use-apps.md)。
+> 尚未聽過新的「應用程式」嗎？ 應用程式是在 Power BI 中將內容散發給大量對象的新方式。 我們計劃即將淘汰組織內容套件，因此建議您改用應用程式。 深入了解[應用程式](service-install-use-apps.md)。
 > 
 > 
 

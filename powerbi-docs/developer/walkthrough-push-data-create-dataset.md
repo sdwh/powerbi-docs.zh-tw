@@ -9,23 +9,23 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c6cbdf9effa3264eadf19de97be864cc3f152e8b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290307"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812414"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>步驟 3：在 Power BI 中建立資料集
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
-在將資料推送至資料集的**步驟 2** [取得驗證存取權杖](walkthrough-push-data-get-token.md)中，您取得了向 **Azure AD** 驗證的權杖。 在此步驟中，您會使用權杖來呼叫[建立資料集](https://msdn.microsoft.com/library/mt203562.aspx)作業。
+在將資料推送至資料集的**步驟 2** [取得驗證存取權杖](walkthrough-push-data-get-token.md)中，您取得了向 **Azure AD** 驗證的權杖。 在此步驟中，您會使用權杖來呼叫 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 作業。
 
 若要呼叫 REST 資源，您可使用用以定位資源的 URL，以及將 JavaScript 物件標記法 (JSON) 字串 (其中描述資料集) 傳送到 Power BI 服務資源。 REST 資源會識別您想要使用的 Power BI 服務之部分。 若要將資料推送至資料集，則目標資源是**資料集**。 識別資料集的 URL 是 https://api.PowerBI.com/v1.0/myorg/datasets。 如果您要在群組中推送資料，則 URL 會是 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets。
 
 若要驗證 Power BI REST 作業，您可將在[取得驗證存取權杖](walkthrough-push-data-get-token.md)中取得的權杖加入要求標頭：
 
-當您呼叫[建立資料集](https://msdn.microsoft.com/library/mt203562.aspx)作業時，會建立新的資料集。 
+當您呼叫 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 作業時，會建立新的資料集。 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -228,10 +228,11 @@ ms.locfileid: "34290307"
 ## <a name="next-steps"></a>後續步驟
 [取得資料集，以便將資料列新增至 Power BI 資料表](walkthrough-push-data-get-datasets.md)  
 [取得驗證存取權杖](walkthrough-push-data-get-token.md)  
-[建立資料集](https://msdn.microsoft.com/library/mt203562.aspx)  
+[PostDataset](https://docs.microsoft.com/rest/api/power-bi/datasets_postdataset)  
+[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/datasets_postdatasetingroup)  
 [將資料推送至 Power BI 儀表板](walkthrough-push-data.md)  
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
-[Power BI REST API 參考](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e676ef85d982a59b7058bce9e6467e8482b7aa62
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7f712086ff667a5d4b1f21fb441c94bfae96693f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722683"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813633"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 **Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本專為美國政府客戶而設計，並且獨立且不同於商用版本的 **Power BI 服務**。
@@ -92,6 +92,11 @@ Azure 分散於多個雲端。 根據預設，會允許租用戶以開啟對雲�
 | 商用版本 URL | 美國政府版本 URL |
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+
+**問題：** 我的帳戶佈建在多個主權雲端中。 當使用 **Power BI Desktop** 時，如何選取要連線至哪一個雲端？
+
+**回答：** 從 2018 年 7 月版本的 **Power BI Desktop** 開始，您可以在登入 **Power BI Desktop** 時選擇您想要使用哪一個雲端。
+
 
 ## <a name="next-steps"></a>後續步驟
 您可以使用 Power BI 執行各種作業。 如需詳細資訊和學習，包括說明如何註冊服務的文章，請參閱下列資源︰

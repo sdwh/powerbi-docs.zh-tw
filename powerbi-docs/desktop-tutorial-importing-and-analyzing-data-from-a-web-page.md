@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 20bcc45fa95bcff6eb8a761dae58c67a875f55cd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32de597b594fe8b148a2b0471352e4784d596cec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34455988"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813173"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>教學課程：使用 Power BI Desktop 分析網頁資料
 
@@ -31,6 +31,8 @@ ms.locfileid: "34455988"
 您可以從 UEFA 歐洲足球聯賽維基百科頁面的成績表格取得 UEEA 得獎者資料，網址是 http://en.wikipedia.org/wiki/UEFA_European_Football_Championship。 
 
 ![維基百科成績資料表](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
+
+請注意，Web 連線只會使用基本驗證來建立。 需要驗證的網站可能無法正常使用 Web 連接器。
 
 匯入資料：
 

@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: dd7276eb436dfd9d842930f6a2c550a2a6b521f3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812943"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>將儀表板整合至組織的應用程式
 了解如何在對組織進行內嵌時，使用 REST API 呼叫配合 Power BI JavaScript API 將儀表板整合或內嵌至 Web 應用程式。
@@ -27,7 +28,7 @@ ms.lasthandoff: 05/17/2018
 > 
 > 
 
-若要將儀表板整合至 Web 應用程式，請使用 **Power BI** REST API 或 Power BI C# SDK，以及 Azure Active Directory (AD) 授權**存取權杖**，以取得儀表板。 然後，使用相同的存取權杖載入儀表板。 **Power BI** API 為特定 **Power BI** 資源提供程式設計存取。 如需詳細資訊，請參閱 [Overview of Power BI REST API](https://msdn.microsoft.com/library/dn877544.aspx) (Power API REST 概觀) 及 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
+若要將儀表板整合至 Web 應用程式，請使用 **Power BI** REST API 或 Power BI C# SDK，以及 Azure Active Directory (AD) 授權**存取權杖**，以取得儀表板。 然後，使用相同的存取權杖載入儀表板。 **Power BI** API 為特定 **Power BI** 資源提供程式設計存取。 如需詳細資訊，請參閱 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 及 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
 
 ## <a name="download-the-sample"></a>下載範例
 本文示範 GitHub 上的 [integrate-dashboard-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) 中所使用的程式碼。 若要依照本逐步解說進行，您可以下載範例。
@@ -43,12 +44,12 @@ ms.lasthandoff: 05/17/2018
 在您的應用程式中，您必須先從 Azure AD 取得**存取權杖**，才能對 Power BI REST API 進行呼叫。 如需詳細資訊，請參閱 [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (驗證使用者，並為 Power BI 應用程式取得 Azure AD 存取權杖)。
 
 ## <a name="step-3---get-a-dashboard"></a>步驟 3 - 取得儀表板
-若要取得 **Power BI** 儀表板，請使用 [取得儀表板](https://msdn.microsoft.com/library/mt465739.aspx) 作業以查看 **Power BI** 儀表板清單。 您可以從儀表板清單中取得儀表板識別碼。
+若要取得 **Power BI** 儀表板，請使用 [取得儀表板](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) 作業以查看 **Power BI** 儀表板清單。 您可以從儀表板清單中取得儀表板識別碼。
 
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>使用存取權杖取得儀表板
-有了您在[步驟 2](#step-2-get-an-access-token-from-azure-ad) 中擷取的**存取權杖**，即可呼叫[取得儀表板](https://msdn.microsoft.com/library/mt465739.aspx)作業。 [取得儀表板](https://msdn.microsoft.com/library/mt465739.aspx) 作業會傳回一份儀表板清單。 您可以從儀表板清單中取得單一儀表板。 以下是用於取得儀表板的完整 C# 方法。 
+有了您在[步驟 2](#step-2-get-an-access-token-from-azure-ad) 中擷取的**存取權杖**，即可呼叫[取得儀表板](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)作業。 [取得儀表板](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) 作業會傳回一份儀表板清單。 您可以從儀表板清單中取得單一儀表板。 以下是用於取得儀表板的完整 C# 方法。 
 
 若要進行 REST API 呼叫，您必須使用 *Bearer {access token}* 的格式包含 *Authorization* 標頭。
 
@@ -257,7 +258,7 @@ Tile Clicked
 ```
 
 ## <a name="working-with-groups-app-workspaces"></a>使用群組 (應用程式工作區)
-若要從群組 (應用程式工作區) 內嵌儀表板，建議您使用下列 REST API 呼叫在群組中取得所有可用儀表板的清單。 若要尋找此 REST API 呼叫的詳細資訊，請參閱[取得儀表板](https://msdn.microsoft.com/library/mt465739.aspx)。 您必須擁有群組中的權限，要求才能傳回結果。
+若要從群組 (應用程式工作區) 內嵌儀表板，建議您使用下列 REST API 呼叫在群組中取得所有可用儀表板的清單。 若要尋找此 REST API 呼叫的詳細資訊，請參閱[取得儀表板](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)。 您必須擁有群組中的權限，要求才能傳回結果。
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards

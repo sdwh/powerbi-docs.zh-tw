@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9b00120a0c4c22ba8f031663ab19d94d2c482d3b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b4e45d2ce20e42b4289ffcaaf7c487e4ae746ca0
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287685"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301749"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Impala 資料庫
 在 Power BI Desktop 中，您可以連接至 **Impala 資料庫**並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。

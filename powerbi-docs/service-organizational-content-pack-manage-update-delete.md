@@ -7,19 +7,19 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4371846e77412c67d7441a993dca80493ef92e34
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689864"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852294"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和刪除組織內容套件
 > [!NOTE]
-> 尚未聽過新的「應用程式」嗎？ 應用程式是在 Power BI 中將內容散發給大量對象的新方式。 建議使用應用程式，而非組織內容套件或唯讀工作區。 深入了解[應用程式](service-install-use-apps.md)。
+> 尚未聽過新的「應用程式」嗎？ 應用程式是在 Power BI 中將內容散發給大量對象的新方式。 我們計劃即將淘汰組織內容套件，因此建議您改用應用程式。 深入了解[應用程式](service-install-use-apps.md)。
 > 
 > 
 

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afed2bc87e7e358d9ba02a465c43d223f6e7cba3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288306"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813771"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>將磚整合至應用程式中 (使用者擁有資料)
 了解如何在對組織進行內嵌時，使用 REST API 呼叫配合 Power BI JavaScript API 將磚整合或內嵌至 Web 應用程式。
@@ -28,7 +28,7 @@ ms.locfileid: "34288306"
 > 
 > 
 
-若要將磚整合至 Web 應用程式，請使用 **Power BI** REST API 或 Power BI C# SDK，以及 Azure Active Directory (AD) 授權**存取權杖**，以取得磚。 然後，使用相同的存取權杖載入磚。 **Power BI** API 為特定 **Power BI** 資源提供程式設計存取。 如需詳細資訊，請參閱 [Overview of Power BI REST API](https://msdn.microsoft.com/library/dn877544.aspx) (Power API REST 概觀) 及 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
+若要將磚整合至 Web 應用程式，請使用 **Power BI** REST API 或 Power BI C# SDK，以及 Azure Active Directory (AD) 授權**存取權杖**，以取得磚。 然後，使用相同的存取權杖載入磚。 **Power BI** API 為特定 **Power BI** 資源提供程式設計存取。 如需詳細資訊，請參閱 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 及 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
 
 ## <a name="download-the-sample"></a>下載範例
 本文示範 GitHub 上的 [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) 中所使用的程式碼。 若要依照本逐步解說進行，您可以下載範例。
@@ -44,12 +44,12 @@ ms.locfileid: "34288306"
 在您的應用程式中，您必須先從 Azure AD 取得**存取權杖**，才能對 Power BI REST API 進行呼叫。 如需詳細資訊，請參閱 [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (驗證使用者，並為 Power BI 應用程式取得 Azure AD 存取權杖)。
 
 ## <a name="step-3---get-a-tile"></a>步驟 3 - 取得磚
-若要取得 **Power BI** 磚，請使用[取得磚](https://msdn.microsoft.com/library/mt465741.aspx)作業，以從提供的儀表板中取得 **Power BI** 磚的清單。 從磚的清單中，您可以取得磚識別碼及內嵌 URL。
+若要取得 **Power BI** 磚，請使用[取得磚](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles)作業，以從提供的儀表板中取得 **Power BI** 磚的清單。 從磚的清單中，您可以取得磚識別碼及內嵌 URL。
 
 您必須先擷取儀表板識別碼，才能取得磚。 如需如何擷取儀表板的資訊，請參閱[將儀表板整合到應用程式 (使用者擁有資料)](integrate-dashboard.md)。
 
 ### <a name="get-tiles-using-an-access-token"></a>使用存取權杖取得磚
-有了您在[步驟 2](#step-2-get-an-access-token-from-azure-ad) 中擷取的**存取權杖**，即可呼叫[取得磚](https://msdn.microsoft.com/library/mt465741.aspx)作業。 [取得磚](https://msdn.microsoft.com/library/mt465741.aspx)作業會傳回磚清單。 您可以從磚清單中取得單一磚。 以下是用於取得磚的完整 C# 方法。 
+有了您在[步驟 2](#step-2-get-an-access-token-from-azure-ad) 中擷取的**存取權杖**，即可呼叫[取得磚](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles)作業。 [取得磚](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles)作業會傳回磚清單。 您可以從磚清單中取得單一磚。 以下是用於取得磚的完整 C# 方法。 
 
 若要進行 REST API 呼叫，您必須使用 *Bearer {access token}* 的格式包含 *Authorization* 標頭。
 
@@ -216,7 +216,7 @@ function updateEmbedTile() {
 ![在 Web 應用程式中內嵌磚](media/integrate-tile/powerbi-embedded-tile.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>使用群組 (應用程式工作區)
-若要從群組 (應用程式工作區) 內嵌磚，建議您使用以下 REST API 呼叫取得群組儀表板中所有可用磚的清單。 若要尋找此 REST API 呼叫的詳細資訊，請參閱[取得磚](https://msdn.microsoft.com/library/mt465741.aspx)。 您必須擁有群組中的權限，要求才能傳回結果。
+若要從群組 (應用程式工作區) 內嵌磚，建議您使用以下 REST API 呼叫取得群組儀表板中所有可用磚的清單。 若要尋找此 REST API 呼叫的詳細資訊，請參閱[取得磚](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles)。 您必須擁有群組中的權限，要求才能傳回結果。
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards/{dashboard_id}/tiles

@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/12/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 6824436af46caaa78d5ae23d1e1047f27bd30bba
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813035"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>內嵌 Power BI 儀表板、報表和磚
 
@@ -21,9 +22,9 @@ ms.lasthandoff: 05/17/2018
 
 Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft-accelerates-modern-bi-adoption-with-power-bi-premium/)，這是一種新容量授權模型，可提高使用者如何存取、共用和散發內容的彈性。 此供應項目也會提供 Power BI 服務的額外延展性和效能。 此外也宣佈 Power BI Embedded，可讓您在 Microsoft Azure 中建立容量。 Power BI Embedded 著重於應用程式和客戶。 
 
-本文將探討如何內嵌組織和客戶的 Power BI 內容。 這兩個案例的步驟類似。 對客戶進行內嵌的特定步驟時，將會進行圖說文字。
+本文探討如何內嵌組織和客戶的 Power BI 內容。 這兩個案例的步驟類似。 對客戶進行內嵌的特定步驟時，會進行圖說文字。
 
-您需要使用應用程式執行幾個步驟，來達成這項作業。 我們將探討可讓您在應用程式內建立和使用已內嵌內容所需的步驟。
+您需要使用應用程式執行幾個步驟，來達成這項作業。 我們探討可讓您在應用程式內建立和使用已內嵌內容所需的步驟。
 
 > [!NOTE]
 > Power BI API 仍然將應用程式工作區稱為群組。 任何對群組的引述都表示您處理的是應用程式工作區。
@@ -34,10 +35,17 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 
 * [確認擁有 Azure Active Directory 租用戶](embedding-content.md#azureadtenant)
 * [建立 Power BI Pro 帳戶](embedding-content.md#proaccount)
-* [註冊 Azure Active Directory 應用程式和權限](embedding-content.md#appreg)
+
+您可以完成[上線體驗工具](https://aka.ms/embedsetup)以快速開始使用並下載應用程式範例。
+
+選擇最適合您的方案：
+* [對客戶進行內嵌](embedding.md#embedding-for-your-customers)，可讓您將儀表板和報告內嵌至沒有 Power BI 帳戶的使用者。 執行[對客戶進行內嵌](https://aka.ms/embedsetup/AppOwnsData)解決方案。
+* [對組織進行內嵌](embedding.md#embedding-for-your-organization)可讓您擴充 Power BI 服務。 執行[對組織進行內嵌](https://aka.ms/embedsetup/UserOwnsData)解決方案。
+
+不過，若您選擇手動設定環境，可以繼續進行下方步驟。 
 
 > [!NOTE]
-> 開發應用程式時，不需要 Power BI 容量。 應用程式開發人員必須擁有 Power BI Pro 授權。
+> 開發應用程式時，不需要專用的容量。 應用程式開發人員必須擁有 Power BI Pro 授權。
 
 ### <a name="azureadtenant"></a>Azure Active Directory 租用戶
 
@@ -61,13 +69,13 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 
 如果對客戶進行內嵌，建議不要使用您的組織/租用戶全域管理員使用者作為應用程式所使用的帳戶。 這會將應用程式帳戶在租用戶內的存取權最小化。 建議管理員使用者是基於內嵌而建立之所有應用程式工作區的管理員。
 
-#### <a name="accounts-for-analysts-that-will-create-content"></a>將建立內容之分析師的帳戶
+#### <a name="accounts-for-analysts-that-create-content"></a>建立內容之分析師的帳戶
 
 您可能有多位使用者建立 Power BI 的內容。 針對每位建立內容並將其部署至 Power BI 的分析師，您都需要有其 Power BI Pro 帳戶。
 
 #### <a name="an-application-master-user-account-for-embedding-for-your-customers"></a>用於對客戶進行內嵌的應用程式「主」使用者帳戶
 
-主帳戶是應用程式將在內嵌客戶內容時使用的帳戶。 此案例通常適用於 ISV 應用程式。 主帳戶其實是您組織內唯一需要的帳戶。 它也可以用作系統管理員和分析師帳戶，但不建議這麼做。 應用程式後端將會儲存此帳戶的認證，並使用它取得 Azure AD 授權權杖以與 Power BI API 搭配使用。 這個帳戶將用來產生應用程式用於客戶的內嵌權杖。
+主帳戶是應用程式在內嵌客戶內容時使用的帳戶。 此案例通常適用於 ISV 應用程式。 主帳戶是您組織內唯一需要的帳戶。 它也可以用作系統管理員和分析師帳戶，但不建議這麼做。 應用程式後端會儲存此帳戶的認證，並使用它取得 Azure AD 授權權杖以與 Power BI API 搭配使用。 這個帳戶會產生應用程式用於客戶的內嵌權杖。
 
 主帳戶只是具有用於應用程式之 Power BI Pro 授權的一般使用者。 該帳戶必須是正用於內嵌之應用程式工作區的管理員。
 
@@ -105,7 +113,7 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 
 * [將儀表板、磚或報表整合至應用程式](embed-sample-for-customers.md)
 
-對客戶進行內嵌時，需要有內嵌權杖。 若要深入了解，請參閱 [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx)。
+對客戶進行內嵌時，需要有內嵌權杖。 若要深入了解，請參閱 [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (內嵌權杖)。
 
 ## <a name="step-3-promote-your-solution-to-production"></a>步驟 3：將解決方案升階至生產環境
 
@@ -115,7 +123,7 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 
 如果您要對組織進行內嵌，則只需要讓人員知道如何到達您的應用程式。 
 
-若應用程式工作區 (群組) 提供容量，免費使用者就可以取用從該工作區內嵌的內容。 請將免費使用者列為應用程式工作區 (群組) 成員，以免收到 401 未授權錯誤。 下表列出 Office 365 中可用的 Power BI Premium SKU。
+若應用程式工作區 (群組) 提供專用容量，免費使用者就可以取用從該工作區內嵌的內容。 請將免費使用者列為應用程式工作區 (群組) 成員，以免收到 401 未授權錯誤。 下表列出 Office 365 中可用的 Power BI Premium SKU。
 
 | 節點容量 | 核心總數<br/>(後端 + 前端) | 後端核心 | 前端核心 | DirectQuery/即時連線限制 | 尖峰時間的頁面呈現上限 |
 | --- | --- | --- | --- | --- | --- |
@@ -127,6 +135,10 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 > [!NOTE]
 > 您必須是租用戶內的全域或帳務管理員，才能購買 Power BI Premium。 如需如何購買 Power BI Premium 的資訊，請參閱[如何購買 Power BI Premium](../service-admin-premium-purchase.md)。
 
+>[!Note]
+>[為您的組織設定內嵌式分析環境。](#step-1-setup-your-embedded-analytics-development-environment)
+>
+
 ### <a name="embedding-for-your-customers"></a>對客戶進行內嵌
 
 如果要為客戶進行內嵌作業，請執行下列作業。
@@ -135,7 +147,7 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 * 購買符合您需求的容量。 您可以使用下表來了解您可能需要的 Power BI Embedded 容量 SKU。 如需詳細資料，請參閱[內嵌的分析容量規劃白皮書](https://aka.ms/pbiewhitepaper)。 當您準備好購買時，可以在 [Microsoft Azure 入口網站](https://portal.azure.com)內進行。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
 
 > [!IMPORTANT]
-> 因為內嵌權杖只適用於開發測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數目有限。 [必須購買容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)才可進行生產環境內嵌案例。 購買容量後，內嵌權杖產生的數量就不受限制。 移至[取得可用功能](https://msdn.microsoft.com/en-us/library/mt846473.aspx) \(英文\) 來檢查已經使用多少免費的內嵌權杖。
+> 因為內嵌權杖只適用於開發人員測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數目有限。 [必須購買容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)才可進行生產環境內嵌案例。 購買專用容量後，內嵌權杖產生的數量就不受限制。 移至 [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) (可用功能) 來檢查已經使用多少免費的內嵌權杖。
 
 | 節點容量 | 核心總數<br/>(後端 + 前端) | 後端核心 | 前端核心 | DirectQuery/即時連線限制 | 尖峰時間的頁面呈現上限 |
 | --- | --- | --- | --- | --- | --- |
@@ -146,13 +158,15 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 | A5 |16 個 v 核心 |8 個核心，50GB RAM |8 個核心 |每秒 60 個 |2,401-4,800 |
 | A6 |32 個 v 核心 |16 個核心，100GB RAM |16 個核心 |每秒 120 個 |4,801-9600 |
 
-* 在 [進階] 下，編輯應用程式工作區，並將它指派給容量。
+* 在 [進階] 下，編輯應用程式工作區，並將它指派給專用容量。
 
     ![將應用程式工作區指派給容量](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * 將更新過的應用程式部署至生產環境，然後開始內嵌 Power BI 儀表板和報表。
 
-
+>[!Note]
+>[為您的客戶設定內嵌式分析環境。](#step-1-setup-your-embedded-analytics-development-environment) 
+>
 
 ## <a name="admin-settings"></a>管理員設定
 
@@ -171,4 +185,3 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 [Power BI Premium 技術白皮書](https://aka.ms/pbipremiumwhitepaper)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
-

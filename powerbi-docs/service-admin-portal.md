@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755131"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301818"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
 
@@ -218,10 +218,13 @@ ms.locfileid: "34755131"
 > [!NOTE]
 > 停用 [匯出資料] 會讓使用者無法使用 [在 Excel 中進行分析] 功能。
 
-### <a name="user-arcgis-maps-for-power-bi-preview"></a>使用 ArcGIS Maps for Power BI (預覽)
+### <a name="use-arcgis-maps-for-power-bi"></a>使用 ArcGIS Maps for Power BI
 
-組織中的使用者可以使用 Esri 提供的 ArcGIS Maps for Power BI (預覽) 視覺效果。 [深入了解](power-bi-visualization-arcgis.md)
+組織中的使用者可使用由 Esri 所提供的 ArcGIS Maps for Power BI 視覺效果。 [深入了解](power-bi-visualization-arcgis.md)
 
+### <a name="use-global-search-for-power-bi-preview"></a>為 Power BI 使用全域搜尋 (預覽)
+
+組織中的使用者可以使用依賴 Azure 搜尋的外部搜尋功能。 例如，使用者可以使用 Cortana，直接從 Power BI 儀表板和報表擷取關鍵資訊。 [深入了解](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>自訂視覺效果設定
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>針對整個組織啟用自訂視覺效果

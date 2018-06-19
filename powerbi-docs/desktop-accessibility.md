@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bd0565420382fc22af67b1363b41f6d8ed6e92ab
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6147f41ea99ad4a0416f6aa9c01288102f792771
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290744"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812920"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 報告中的協助工具
 **Power BI Desktop** 有功能可讓行動不便人士更輕鬆地使用 **Power BI Desktop** 報告並與之互動。 這些功能包括能夠利用鍵盤或螢幕助讀程式來使用報告、利用 Tab 鍵聚焦於頁面上的不同物件，以及在視覺效果中貼心地使用標記。
@@ -66,6 +66,23 @@ ms.locfileid: "34290744"
 * 確定您的報表在文字與任何背景色彩之間有足夠的對比。
 * 使用可輕鬆閱讀的文字大小和字型。 文字大小或字型若太小而難以閱讀，則為無用的協助工具。
 * 在所有視覺效果中包含標題、軸標籤和資料標籤。
+
+## <a name="high-contrast-support-for-reports"></a>報表的高對比支援
+
+當您在 Windows 中使用高對比模式時，您選取的那些設定以及調色盤也會在 **Power BI Desktop** 中套用至報表。 
+
+![高對比 Windows 設定](media/desktop-accessibility/accessibility_05.png)
+
+**Power BI Desktop** 會自動偵測 Windows 中所使用的高對比佈景主題，並將那些設定套用至您的報表。 那些高對比色彩在發佈至 Power BI 服務或其他位置時會跟著報表一起。
+
+![高對比 Windows 設定](media/desktop-accessibility/accessibility_05b.png)
+
+Power BI 服務也會嘗試偵測為 Windows 選取的高對比設定，但偵測的有效且精確程度取決於 Power BI 服務正在使用的瀏覽器。 如果您想要在 Power BI 服務中手動設定佈景主題，可選取 [檢視] > [高對比色彩]，然後選取您想要套用至報表的佈景主題。
+
+![在 Power BI 服務中設定高對比](media/desktop-accessibility/accessibility_06.png)
+
+在 **Power BI Desktop** 時，請注意，某些區域 (例如 [視覺效果] 和 [欄位] 欄位不會反映選取的高對比 Windows 色彩配置。
+
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 協助工具功能已知有一些問題和限制，如下列清單所述：

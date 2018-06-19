@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: a1d3a18fd2f325cd82cd682feb52205f17dacf93
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297001"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813587"
 ---
 # <a name="getting-a-custom-visual-certified"></a>讓自訂視覺效果*經認證*
 ## <a name="what-is-meant-by-certified"></a>*經認證*是什麼意思？
@@ -90,6 +90,7 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [甘特圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [影片](https://youtu.be/qJ7s_KrGiUU) |
 | [Ring Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) (MAQ Software 상기하여 Gantt 차트) | [影片](https://youtu.be/vJLV9JRCpI8) |
 | [Globe Data Bars](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) (全球資料橫條) | |
+| [Grid by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380825) (MAQ Software 格線) | [影片](https://youtu.be/VOPoDJgZfOY) |
 | [Hierarchy Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) (Akvelon 的階層圖) | [影片](https://youtu.be/0ZGzJaq_KT4) |
 | [Histogram Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) (長條圖) | |
 | [Histogram with points by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032) (MAQ Software 的長條點狀圖) | [影片](https://youtu.be/-ILF--wExrw) |

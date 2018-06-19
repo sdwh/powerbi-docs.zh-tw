@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 382d600a6e50d926fc61163ea1b0e4f1273fdcc9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287524"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812529"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步驟 5：將資料列加入 Power BI 資料表
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
-在＜將資料推送至資料集＞之**步驟 4** 的[取得資料集以將資料列加入 Power BI 資料表](walkthrough-push-data-get-datasets.md)中，您使用了[取得資料集](https://msdn.microsoft.com/library/mt203567.aspx)作業和 Newtonsoft.Json 來取得資料集識別碼。在此步驟中，您可以透過[加入資料列](https://msdn.microsoft.com/library/mt203561.aspx)作業來使用資料集識別碼，以將資料列加入 **Power BI** 資料集。 
+在＜將資料推送至資料集＞之**步驟 4** 的[取得資料集以將資料列加入 Power BI 資料表](walkthrough-push-data-get-datasets.md)中，您使用了[取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)作業和 Newtonsoft.Json 來取得資料集識別碼。在此步驟中，您可以透過 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 作業來使用資料集識別碼，以將資料列新增到 **Power BI** 資料集。 
 
-呼叫[新增資料列](https://msdn.microsoft.com/library/mt203561.aspx)作業，以將資料列新增到資料集。
+呼叫 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 作業，以將資料列新增到資料集。
 
 ![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -308,9 +308,8 @@ ms.locfileid: "34287524"
     }
 
 ## <a name="next-steps"></a>後續步驟
-[新增資料列](https://msdn.microsoft.com/library/mt203561.aspx)  
 [將資料推送至 Power BI 儀表板](walkthrough-push-data.md)  
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
-[Power BI REST API 參考](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

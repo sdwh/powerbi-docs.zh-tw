@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: eee341314b309eda119dd282eafd18188f8fdfd0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 52ef1f6526b83a54ba26fdffaf8150049c55880d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34286627"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813311"
 ---
 # <a name="get-power-bi-desktop"></a>取得 Power BI Desktop
 **Power BI Desktop** 可讓您建立進階查詢、模型，以及將資料視覺化的報表。 透過 **Power BI Desktop**，您可以建立資料模型、建立報表，並發行到 Power BI 服務以分享您的工作。  **Power BI Desktop** 可免費下載。
@@ -98,6 +98,14 @@ ms.locfileid: "34286627"
 * **顯示：** 建議至少為 1440x900 或 1600x900 (16:9)。 不建議像是 1024x768 或 1280x800 等較低的解析度，原因是某些控制項 (例如關閉啟動畫面) 需以更高的解析度顯示。
 * **Windows 顯示設定：** 如果您進行顯示設定，將文字、應用程式及其他項目的大小變更為超過 100%，可能會看不到某些為了繼續使用 **Power BI Desktop** 而必須關閉或回應的對話方塊。 如果您遇到這項問題，請前往 Windows 中的 [設定] > [系統] > [顯示] 檢查您的 [顯示設定]，並使用滑桿將顯示設定調回 100%。
 * **CPU：** 建議為 1 GHz 或更快的 x86 或 x64 位元處理器。
+
+## <a name="considerations-and-limitations"></a>考量與限制
+
+使用過期的 **Power BI Desktop** 版本時，有些使用者會遇到類似下列的錯誤： 
+
+    "We weren't able to restore the saved database to the model" 
+
+更新至目前版本的 Power BI Desktop 通常會解決此問題。
 
 ## <a name="next-steps"></a>後續步驟
 一旦安裝 **Power BI Desktop**，下列內容能幫助您快速啟動並執行：

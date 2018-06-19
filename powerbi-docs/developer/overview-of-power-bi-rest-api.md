@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/20/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 47dd0ab87b78e344de176ebe22a1e5dc9753b9b0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8a688f46a46dbb1015629c7785d96b62d4f8df26
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813222"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>開發人員可如何利用 Power BI API？
 Power BI 顯示互動式儀表板，可即時從不同的資料來源建立及更新。 您可以使用任何支援 REST 呼叫的程式設計語言，建立即時整合 Power BI 儀表板的應用程式。 您也可以將 Power BI 磚和報告整合到應用程式中。
@@ -26,7 +27,6 @@ Power BI 顯示互動式儀表板，可即時從不同的資料來源建立及�
 | --- | --- |
 | 為 Power BI 使用者和非 Power BI 使用者 (應用程式擁有資料) 內嵌儀表板、報告及磚 |[如何內嵌 Power BI 儀表板、報表和磚](embedding-content.md) |
 | 擴充現有商務工作流程，將關鍵資料推送至 Power BI 儀表板。 |[將資料推入儀表板中](walkthrough-push-data.md) |
-| 匯入 Power BI Desktop 檔案 |[匯入 PBIX 檔案](https://msdn.microsoft.com/library/mt243837.aspx) |
 | 向 Power BI 驗證。 |[向 Power BI 驗證](get-azuread-access-token.md) |
 | 建立自訂視覺效果。 |[使用開發人員工具建立自訂視覺效果](../service-custom-visuals-getting-started-with-developer-tools.md) |
 
@@ -51,12 +51,17 @@ Power BI 開發人員範例包含用來內嵌儀表板、報告和圖格的項�
 ## <a name="developer-tools"></a>開發人員工具
 以下是可用來協助您開發 Power BI 項目的工具。
 
-* [JavaScript 內嵌示範](https://microsoft.github.io/PowerBI-JavaScript/demo)
+您可以完成[上線體驗工具](https://aka.ms/embedsetup)以快速開始使用並下載關於如何內嵌 Power BI 內容的應用程式範例。
+
+選擇最適合您的方案：
+* [對客戶進行內嵌](embedding.md#embedding-for-your-customers)，可讓您將儀表板和報告內嵌至沒有 Power BI 帳戶的使用者。 執行[對客戶進行內嵌](https://aka.ms/embedsetup/AppOwnsData)解決方案。
+* [對組織進行內嵌](embedding.md#embedding-for-your-organization)可讓您擴充 Power BI 服務。 執行[對組織進行內嵌](https://aka.ms/embedsetup/UserOwnsData)解決方案。
+
+如需使用 JavaScript API 的完整範例，您可以使用[測試網工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 這是一個可測試不同類型 Power BI Embedded 範例的快速方式。 您也可以瀏覽 [PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) \(英文\) 頁面來取得有關 JavaScript API 的詳細資訊。
 
 ## <a name="next-steps"></a>後續步驟
 [將資料推送至資料集](walkthrough-push-data.md)  
 [開始使用自訂視覺效果開發人員工具](../service-custom-visuals-getting-started-with-developer-tools.md) 
-[Power BI REST API 參考](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
-

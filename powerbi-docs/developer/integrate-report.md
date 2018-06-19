@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/05/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d2fa65587fdbd85aabd429d531b79e9e614d2f49
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 032e0ed05d56d2d7f1e2b41cfd922999ff43ea94
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813357"
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>將報表整合至組織的應用程式
 了解如何在對組織進行內嵌時，使用 REST API 呼叫配合 Power BI JavaScript API 將報表整合或內嵌至 Web 應用程式。
@@ -27,10 +28,14 @@ ms.lasthandoff: 05/17/2018
 > 
 > 
 
-若要將報表整合至 Web 應用程式，請使用 **Power BI** REST API 或 Power BI C# SDK，以及 Azure Active Directory (AD) 授權**存取權杖**，以取得報表。 然後，使用相同的存取權杖載入報表。 **Power BI** API 為特定 **Power BI** 資源提供程式設計存取。 如需詳細資訊，請參閱 [Overview of Power BI REST API](https://msdn.microsoft.com/library/dn877544.aspx) (Power API REST 概觀) 及 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
+若要將報表整合至 Web 應用程式，請使用 **Power BI** REST API 或 Power BI C# SDK，以及 Azure Active Directory (AD) 授權**存取權杖**，以取得報表。 然後，使用相同的存取權杖載入報表。 **Power BI** API 為特定 **Power BI** 資源提供程式設計存取。 如需詳細資訊，請參閱 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 及 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
 
 ## <a name="download-the-sample"></a>下載範例
 本文示範 GitHub 上的 [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app) 中所使用的程式碼。 若要依照本逐步解說進行，您可以下載範例。
+
+您也可以完成[上線體驗工具](https://aka.ms/embedsetup/UserOwnsData)以快速開始使用並下載應用程式範例。
+
+不過，若您選擇手動設定環境，可以繼續進行下方步驟。
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>步驟 1 - 在 Azure AD 中註冊應用程式
 您必須在 Azure AD 中註冊應用程式，才能進行 REST API 呼叫。 如需詳細資訊，請參閱[註冊 Azure AD 應用程式以內嵌 Power BI 內容](register-app.md)。
@@ -43,10 +48,10 @@ ms.lasthandoff: 05/17/2018
 在您的應用程式中，您必須先從 Azure AD 取得**存取權杖**，才能對 Power BI REST API 進行呼叫。 如需詳細資訊，請參閱 [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (驗證使用者，並為 Power BI 應用程式取得 Azure AD 存取權杖)。
 
 ## <a name="step-3---get-a-report"></a>步驟 3 - 取得報表
-若要取得 **Power BI** 報表，請使用[取得報表](https://msdn.microsoft.com/library/mt634543.aspx)作業以查看 **Power BI** 報表清單。 您可以從報表的清單中取得報表識別碼。
+若要取得 **Power BI** 報表，請使用[取得報表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)作業以查看 **Power BI** 報表清單。 您可以從報表的清單中取得報表識別碼。
 
 ### <a name="get-reports-using-an-access-token"></a>使用存取權杖取得報表
-有了您在[步驟 2](#step-2-get-an-access-token-from-azure-ad) 中擷取的**存取權杖**，即可呼叫[取得報表](https://msdn.microsoft.com/library/mt634543.aspx)作業。 [取得報表](https://msdn.microsoft.com/library/mt634543.aspx)作業會傳回報表清單。 您可以從報表清單中取得單一報表。 以下是用於取得報表的完整 C# 方法。 
+有了您在[步驟 2](#step-2-get-an-access-token-from-azure-ad) 中擷取的**存取權杖**，即可呼叫[取得報表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)作業。 [取得報表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)作業會傳回報表清單。 您可以從報表清單中取得單一報表。 以下是用於取得報表的完整 C# 方法。 
 
 若要進行 REST API 呼叫，您必須使用 *Bearer {access token}* 的格式包含 *Authorization* 標頭。
 
@@ -213,7 +218,7 @@ function updateEmbedReport() {
 ![內嵌報表的範例](media/integrate-report/powerbi-embedded-report.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>使用群組 (應用程式工作區)
-若要從群組 (應用程式工作區) 內嵌報表，建議您使用以下 REST API 呼叫取得群組儀表板中所有可用報表的清單。 若要尋找此 REST API 呼叫的詳細資訊，請參閱[取得報表](https://msdn.microsoft.com/library/mt634543.aspx)。 您必須擁有群組中的權限，要求才能傳回結果。
+若要從群組 (應用程式工作區) 內嵌報表，建議您使用以下 REST API 呼叫取得群組儀表板中所有可用報表的清單。 若要尋找此 REST API 呼叫的詳細資訊，請參閱[取得報表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)。 您必須擁有群組中的權限，要求才能傳回結果。
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{group_id}/reports

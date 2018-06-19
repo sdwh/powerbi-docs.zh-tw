@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: b2403ab9ac8ff69ccffdbf631cd0d5a14b9bdf7e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 638b46d681a9a9e7ef7754a4e28d0e94812ef8de
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721263"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812345"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI REST API 參考
 Power BI 為雲端式服務，可讓您建置自訂的儀表板應用程式。 Power BI REST API 是以 REST 為基礎的 API，可讓您以程式設計方式存取 **儀表板** 資源，例如 Power BI 中的 **資料集**、 **資料表**及 **資料列** 。
@@ -28,7 +28,7 @@ Power BI REST API 包含下列作業：
 * 資料列作業：加入資料列和刪除資料列。
 * 群組作業：取得群組。
 
-如需深入了解 Power BI REST API，請參閱 [Overview of Power BI REST API (Power BI REST API 概觀)](https://msdn.microsoft.com/library/dn877544.aspx)。
+如需深入了解 Power BI REST API，請參閱 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

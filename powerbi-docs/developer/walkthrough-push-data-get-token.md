@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 640c6dac9a896cff55bddad46ceef8bce7ccae14
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 238d068e5083c8f46ac3299faddd4e0872f0654d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289364"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812621"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>步驟 2：取得驗證存取權杖
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
@@ -104,7 +104,7 @@ ms.locfileid: "34289364"
        #endregion
 ```
 
-取得驗證權杖之後，您可以呼叫任何 Power BI 作業。 下一個步驟將為您示範如何呼叫[建立資料集](https://msdn.microsoft.com/library/mt203562.aspx)作業，以建立將資料推送至儀表板的資料集。
+取得驗證權杖之後，您可以呼叫任何 Power BI 作業。 下一個步驟將為您示範如何呼叫 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 作業，以建立將資料推送至儀表板的資料集。
 
 下一個步驟將為您示範如何[在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)。
 
@@ -181,6 +181,6 @@ ms.locfileid: "34289364"
 [Azure AD Authentication Library for .NET NuGet 套件](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
 [將資料推送至 Power BI 資料集](walkthrough-push-data.md)  
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
-[Power BI REST API 參考](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

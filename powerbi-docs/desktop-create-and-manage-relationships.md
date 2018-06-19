@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 264071f314e4a05a3d0b283ab58d644dff4b44a1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813656"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中建立和管理關聯性
 當您匯入多個資料表時，您可能想要使用所有資料表中的資料來進行一些分析。 這些資料表之間必須有關聯性，才能正確地計算結果，並在報表中顯示正確資訊。 Power BI Desktop 可讓您輕鬆地建立這些關聯性。 事實上，在大多數情況下，您不必執行任何動作，[自動偵測] 功能會為您完成這項作業。 不過，在某些情況下，您可能必須自行建立關聯性，或可能需要對關聯性進行一些變更。 不論是哪種情況，請務必了解 Power BI Desktop 中的關聯性，以及如何建立和編輯關聯性。
@@ -35,6 +36,16 @@ ms.lasthandoff: 05/17/2018
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
 根據預設，Power BI Desktop 會自動為您的新關聯性設定基數 (方向)、交叉篩選方向和作用中屬性；不過，您可以視需要變更這些項目。 如需詳細資訊，請參閱本文後段的＜了解其他選項＞一節。
+
+請注意，如果針對關聯性所選取的資料表都沒有唯一值，您會看到錯誤指出「其中一個資料行必須具有唯一值」。 關聯性中的至少一個資料表「必須」具有不同且唯一的索引鍵值清單，這是對於所有關聯式資料庫技術而言常見的需求。 
+
+如果您遇到錯誤，有幾種方式可以修正這個問題：
+
+* 使用「移除重複的資料列」來建立具有唯一值的資料行。 這個方法的缺點是，移除重複的資料列時您會遺失資訊，而索引鍵 (資料列) 會重複通常都有好理由。
+* 將由相異索引鍵值清單所組成的中繼資料表新增至模型，然後模型會連結到關聯性中的兩個原始資料行。
+
+如需詳細資訊，請參閱詳細討論這點的[部落格文章](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/)。
+
 
 ## <a name="edit-a-relationship"></a>編輯關聯性
 1. 在 [常用]  索引標籤上，按一下 [管理關聯性] 。

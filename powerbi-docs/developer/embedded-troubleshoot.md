@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34720803"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813150"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -108,7 +108,7 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 
 若要驗證是哪一個原因，請嘗試下列方法。
 
-* 執行 [get dataset](https://msdn.microsoft.com/library/mt784653.aspx)。 屬性 IsEffectiveIdentityRequired 是否為 true？
+* 執行 [get dataset](https://docs.microsoft.com/rest/api/power-bi/datasets)。 屬性 IsEffectiveIdentityRequired 是否為 true？
 * 任何 EffectiveIdentity 都必須有 Username。
 * 若 IsEffectiveIdentityRolesRequired 為 true，就必須有 Role。
 * 任何 EffectiveIdentity 都必須有 DatasetId。

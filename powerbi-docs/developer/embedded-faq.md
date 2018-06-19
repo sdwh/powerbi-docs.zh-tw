@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3e1b3b59fff26242e662d90365a6b8acc98259e6
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: bcdb20d22790b74b54caca5d21325039d6e718bf
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34754924"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812736"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -51,7 +51,7 @@ Microsoft 的建議是，企業購買 Power BI Premium (企業級的自助雲端
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>我可以建立多少內嵌權杖？
 
-具有 PRO 授權的內嵌權杖適用於開發測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數量有限。 您必須[購買容量](#technical)才可在生產環境中進行內嵌作業。 購買容量後，您可產生的內嵌權杖數量就不受限制。 請移至[取得可用的功能](https://msdn.microsoft.com/library/mt846473.aspx) \(英文\) 來檢查指出目前內嵌使用情況百分比的使用情況值。
+具有 PRO 授權的內嵌權杖適用於開發測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數量有限。 您必須[購買容量](#technical)才可在生產環境中進行內嵌作業。 購買容量後，您可產生的內嵌權杖數量就不受限制。 請移至 [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) (可用功能) 來檢查指出目前內嵌使用情況百分比的使用情況值。
 
 ## <a name="technical"></a>技術
 
