@@ -63,7 +63,7 @@ ms.locfileid: "34250818"
 
 如果您在輸入 UserVoice URL 之後看到此錯誤。 請確定已滿足下列需求：
 
-* URL 完全遵循此模式 "https://fabrikam.uservoice.com"，然後將 "fabrikam" 以正確的 UserVoice URL 前置詞取代。
+* URL 完全遵循此模式 " https://fabrikam.uservoice.com "，然後將 "fabrikam" 以正確的 UserVoice URL 前置詞取代。
 * 請確定所有字母都是小寫。
 * 請確定 URL 是使用 'http**s**'。
 * 請確定在 URL 結尾沒有尾端斜線。
