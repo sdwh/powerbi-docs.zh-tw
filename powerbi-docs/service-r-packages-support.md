@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 39c6c11e4815df507431648b1d317f9a62a4b1c3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299186"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 服務中的 R 套件
 您可以使用功能強大的 [R 程式設計語言](https://www.r-project.org/)在 Power BI 服務中建立視覺效果。 Power BI 服務支援眾多 R 套件 (有更多套件一直受到支援)，有些套件則不具支援。
@@ -95,7 +96,7 @@ ms.lasthandoff: 05/17/2018
 | catnet |1.14.8 |https://cran.r-project.org/web/packages/catnet/index.html |
 | caTools |1.17.1 |https://cran.r-project.org/web/packages/caTools/index.html |
 | cclust |0.6-20 |https://cran.r-project.org/web/packages/cclust/index.html |
-| class |7.3-14 |https://cran.r-project.org/web/packages/class/index.html |
+| 類別 |7.3-14 |https://cran.r-project.org/web/packages/class/index.html |
 | clue |0.3-51 |https://cran.r-project.org/web/packages/clue/index.html |
 | cluster |2.0.3 |https://cran.r-project.org/web/packages/cluster/index.html |
 | coda |0.18-1 |https://cran.r-project.org/web/packages/coda/index.html |

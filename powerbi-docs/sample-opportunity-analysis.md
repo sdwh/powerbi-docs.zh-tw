@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: c90ca6fa46bd9f00786423cad6e8fdfcaf82e1f8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d3a18b2505739d28276fbe9fc269bbf774879fa6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481064"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的商機分析範例：導覽
 
@@ -37,7 +38,7 @@ ms.lasthandoff: 05/17/2018
 
 ## <a name="prerequisites"></a>先決條件
 
- 您必須先將範例下載為[內容套件](https://docs.microsoft.com/en-us/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)、[.pbix 檔案](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity Analysis Sample PBIX.pbix)或 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529782)，才能使用範例。
+ 您必須先將範例下載為[內容套件](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)、[.pbix 檔案](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity-Analysis-Sample-PBIX.pbix)或 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529782)，才能使用範例。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 

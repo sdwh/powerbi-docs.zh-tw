@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289893"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 有了 **Power BI Desktop**，當您連接到資料來源時，隨時可將資料的複本匯入 **Power BI Desktop**。 對於某些資料來源，可用的替代方式是：使用 **DirectQuery**直接連接到資料來源。

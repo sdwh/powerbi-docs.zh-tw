@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: tutorial
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 5c8afc963c67493c30821048736d914d3aec278e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8cb9e78898228aa7dad82db76d1d7da1a7151702
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297852"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561417"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>教學課程：向 iOS 應用程式中的問與答虛擬分析師詢問與資料相關的問題 - Power BI
 
@@ -132,5 +132,5 @@ ms.locfileid: "34297852"
 
 您已嘗試過 iOS 版 Power BI 行動裝置應用程式中的問與答虛擬助理。 深入了解 Power BI 服務的問與答。
 > [!div class="nextstepaction"]
-> [Power BI 服務中的問與答](/.power-bi-q-and-a.md)
+> [Power BI 服務中的問與答](power-bi-q-and-a.md)
 
