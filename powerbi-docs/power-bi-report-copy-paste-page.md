@@ -12,10 +12,11 @@ ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: c75fd53b7aaa941e8e94518950e9f3ebaaa40c35
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34237307"
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>在 Power BI 中複製報表頁面
 在 Power BI 服務或 Power BI Desktop 中複製報表頁面需要報表的編輯權限。 在 Power BI 服務中，這表示在[編輯檢視](service-reading-view-and-editing-view.md)中開啟報告。 

@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244241"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>使用 Power BI 連接到 Application Insights
 使用 Power BI 從 [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) 遙測建立功能強大的自訂儀表板。 想像以新方法運用應用程式遙測。 將來自多個應用程式或元件服務的度量合併到一個儀表板上。 第一版的 Power BI Application Insights 內容套件，包含常用的度量小工具，例如作用中使用者、頁面檢視、工作階段、瀏覽器和作業系統版本，以及地圖的使用者地理分佈。

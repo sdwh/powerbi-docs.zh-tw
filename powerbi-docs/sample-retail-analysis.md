@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: ff5da3623d572b8ecb3edc8c5eb40d866e6961d5
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3382562459c461d9864cfce7163fb0d049deb494
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481800"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的零售分析範例教學
 
@@ -24,7 +25,8 @@ ms.lasthandoff: 05/17/2018
 
 ## <a name="prerequisites"></a>先決條件
 
- 您必須先將範例下載為[內容套件](https://docs.microsoft.com/en-us/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service)、[.pbix 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)或 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529778)，才能使用範例。
+ 您必須先將範例下載為[內容套件](https://docs.microsoft.com/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service)、[.pbix 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix)或 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529778)，才能使用範例。
+
 
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 

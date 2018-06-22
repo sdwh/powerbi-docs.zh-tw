@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 4b05fcc005f821c4fee24071f28651b5df57709c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249336"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>使用 Power BI 連接到 ServiceNow 以取得事件報告
 ServiceNow 提供多樣產品與解決方案，包括商務、營運與 IT 管理，進而提升您的業務發展。 這個內容套件包括多個報表與深入解析，為您開放、最近解決與最近關閉的事件提供資訊。  

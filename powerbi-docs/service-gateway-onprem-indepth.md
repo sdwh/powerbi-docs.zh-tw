@@ -11,10 +11,11 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298565"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解內部部署資料閘道
 您組織中的使用者可以存取內部部署資料 (他們已經具有存取授權)，但在那些使用者能夠連線至您的內部部署資料來源之前，必須先安裝並設定內部部署資料閘道。 此閘道有助於讓雲端的使用者快速安全地以幕後通訊方式，在內部部署資料來源和雲端之間往返。
@@ -30,7 +31,7 @@ ms.lasthandoff: 05/17/2018
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="sign-in-account"></a>登入帳戶
-使用者將會使用公司或學校帳戶登入。 這是您的組織帳戶。 如果您註冊 Office 365 供應項目，而且未提供實際的公司電子郵件，其看起來可能會類似 nancy@contoso.onmicrosoft.com。您在雲端服務中的帳戶會儲存在 Azure Active Directory (AAD) 租用戶中。 在大部分情況下，您的 AAD 帳戶 UPN 會比對電子郵件地址。
+使用者將會使用公司或學校帳戶登入。 這是您的組織帳戶。 如果您註冊 Office 365 供應項目，而且未提供實際的公司電子郵件，其看起來可能會類似 nancy@contoso.onmicrosoft.com。 您在雲端服務中的帳戶會儲存在 Azure Active Directory (AAD) 租用戶中。 在大部分情況下，您的 AAD 帳戶 UPN 會比對電子郵件地址。
 
 ## <a name="authentication-to-on-premises-data-sources"></a>內部部署資料來源的驗證
 預存的認證將用來從 Analysis Services 以外的閘道連接至內部部署資料來源。 不論是哪位個別使用者，閘道都會使用預存的認證進行連接。

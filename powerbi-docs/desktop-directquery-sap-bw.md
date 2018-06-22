@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288559"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery 和 SAP Business Warehouse (BW)
 您可以使用 **DirectQuery** 直接連接到 **SAP Business Warehouse (BW)** 資料來源。 根據 SAP BW 的 OLAP/多維度本質，透過 SAP BW 的 DirectQuery 與透過關聯式來源 (例如 SQL Server) 的 DirectQuery 之間有許多重要差異。 這些差異摘要如下：

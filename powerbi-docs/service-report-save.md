@@ -11,10 +11,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 0e462fa6faf8d83bfcdb8658e2fcb852aeac5c3b
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34248899"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中儲存報告
 變更 Power BI 中的報表之後，您可以儲存、以新的名稱儲存，或只關閉但不儲存變更。 假設您開啟了報表、建立視覺效果，以及將它釘選至儀表板。 如果您現在關閉而不儲存變更，圖格仍會保留在儀表板上，但報表中不會儲存視覺效果。 當您按一下該儀表板上的圖格時，報告隨即開啟，但是報告中不存在視覺效果。

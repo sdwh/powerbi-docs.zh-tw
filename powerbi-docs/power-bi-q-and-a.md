@@ -11,10 +11,11 @@ ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295460"
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Power BI 服務和 Power BI Desktop 中的問與答
 ## <a name="what-is-qa"></a>問與答是什麼？

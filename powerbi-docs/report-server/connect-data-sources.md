@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
 ms.openlocfilehash: d4775ad8c9ef5bd039c09d7cfb8bb3b881405754
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310513"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Power BI 報表伺服器中的分頁報表資料來源
 Power BI 報表伺服器中的 Reporting Services 分頁報表所支援的資料來源，和 SQL Server Reporting Services 中支援的資料來源相同。 請參閱 [Reporting Services 支援的資料來源](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)清單。

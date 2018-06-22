@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34291895"
 ---
 # <a name="using-organization-custom-visuals-in-power-bi"></a>在 Power BI 中使用組織自訂視覺效果
 

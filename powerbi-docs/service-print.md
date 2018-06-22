@@ -12,10 +12,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: d5859c0b59717a4af432c5fb7b526fa62ff03f59
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242970"
 ---
 # <a name="printing-from-power-bi-service"></a>從 Power BI 服務列印
 從 Power BI 服務列印整個儀表板、儀表板磚、報表頁面或報表視覺效果。 一次只能列印一頁報表 -- 您無法一次列印整份報表。

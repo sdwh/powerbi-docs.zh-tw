@@ -12,10 +12,11 @@ ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310099"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>教學課程：使用 Power BI 連線至 GitHub 範例
 在本教學課程中，您使用 Power BI 連線接至 GitHub 服務中的實際資料，而且 Power BI 會自動建立儀表板和報表。 您連線至 Power BI 內容公用存放庫 (也稱為「存放庫」)，並查看資訊：有多少人參與 Power BI 公用內容？ 誰參與最多？ 哪個星期幾的參與最多？ 以及其他問題的答案。 

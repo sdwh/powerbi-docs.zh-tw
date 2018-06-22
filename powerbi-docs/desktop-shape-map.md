@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290951"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>在 Power BI Desktop (預覽) 中的圖形地圖
 在 Power BI Desktop 中，您可將不同的色彩套用至不同的區域，建立**圖形地圖**視覺效果，於地圖上顯示區域的相對比較。 相對於**地圖**視覺效果，**圖形地圖**無法精確顯示地圖上資料點的地理位置；相反地，其主要目的是以不同的著色方式，在地圖上顯示區域的相對比較。

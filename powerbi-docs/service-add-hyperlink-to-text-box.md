@@ -12,10 +12,11 @@ ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e8a03cdd666f84b788d3bd90b8ebf2a84fc12a9b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294057"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>將超連結加入報表中的文字方塊
 文字方塊可以加入報表、從報表釘選到儀表板，並直接加入儀表板。 可以將超連結加入文字方塊中，不論其所在的位置。  

@@ -11,10 +11,11 @@ ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247795"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>從現有的報表建立新的報表 (複製報表)
 或許您有已經連接至資料集的報表，而且有些想要重複使用或修改的視覺效果。  為什麼不乾脆複製該報表當作新報表的基礎呢？  若要這樣做：

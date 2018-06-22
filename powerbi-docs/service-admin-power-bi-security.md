@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34296219"
 ---
 # <a name="power-bi-security"></a>Power BI 安全性
 如需 Power BI 安全性的詳細說明，請[下載 Power BI 安全性技術白皮書](http://go.microsoft.com/fwlink/?LinkId=829185)：

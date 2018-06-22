@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: bc9a8637416bdea50e955c1aea73bbcfeed51bb6
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242993"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>使用 Power BI 連接到 comScore Digital Analytix
 使用 Power BI 內容套件以視覺化方式檢視和瀏覽 Power BI 中的 comScore Digital Analytix 資料。 資料會自動每天重新整理一次。

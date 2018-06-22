@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1f482cf9e3f0cf344a2808ca778839a50d851ac7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722193"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>尋找已登入的 Power BI 使用者
 如果您是租用戶系統管理員，而且想要查看誰已登入 Power BI，可以使用 Azure Active Directory 存取和使用情況報告來了解情形。
@@ -60,7 +61,7 @@ ms.lasthandoff: 05/17/2018
 您可以使用 PowerShell 匯出登入資料。 Azure AD 文件集內有一個[範例](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)。
 
 > [!NOTE]
-> 為了讓 PowerShell 範例運作，請務必遵循[存取 Azure AD 報告 API 的必要條件](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites)。
+> 為了讓 PowerShell 範例運作，請務必遵循[存取 Azure AD 報告 API 的必要條件](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-prerequisites)。
 > 
 > 
 

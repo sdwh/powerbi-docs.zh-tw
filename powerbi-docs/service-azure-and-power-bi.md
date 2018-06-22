@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
 ms.openlocfilehash: a656866b1c9cdc0d1eb83b67c0edf79c182d1a71
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244425"
 ---
 # <a name="azure-and-power-bi"></a>Azure 和 Power BI
 您可以使用 **Azure** 服務和 **Power BI**，將資料處理工作變成分析和報表，提供您洞察企業的即時資訊。 不論資料處理是雲端式或內部部署、簡單或複雜、單一來源或可大幅調整規模、資料倉儲或即時，Azure 與 Power BI 都具有內建連線和整合，可將您在商業智慧方面的努力化為現實。

@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 955f4347630a781174d399d6a1363683745a4b3e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293482"
 ---
 # <a name="governance-and-deployment-approaches"></a>管理和部署方法
 過去數十年來，各公司行號已漸漸意識到需要策略性地運用資料資產，才能從市場商機獲益。 無論是執行競爭性分析或了解操作模式，許多組織現在都了解他們可以從利用資料策略保持競爭優勢中獲益。  

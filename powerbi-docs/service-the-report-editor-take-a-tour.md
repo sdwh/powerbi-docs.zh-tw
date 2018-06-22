@@ -16,6 +16,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34299462"
 ---
 # <a name="the-report-editortake-a-tour"></a>報表編輯器...導覽
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中編輯報表

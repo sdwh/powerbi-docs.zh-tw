@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Administration
 ms.openlocfilehash: 3438fcb1fed71345454d1e518a3d87487b884f38
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295966"
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI 和 ExpressRoute
 透過 **Power BI** 和 **ExpressRoute**，您可以建立從組織到 Power BI (或使用 ISP 設備代管) 的私人網路連線，藉由略過網際網路，更妥善地保護您的 Power BI 機密資料和連線。

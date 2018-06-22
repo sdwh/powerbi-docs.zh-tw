@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 40be9e37204870cd304ef144ade8adf0bf692335
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: 770e200b0aa6916ac6d2de144902a04e9660e552
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482007"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI 的人力資源範例：導覽
 
@@ -31,7 +32,7 @@ ms.lasthandoff: 05/24/2018
 
 ## <a name="prerequisites"></a>先決條件
 
- 您必須先將範例下載為[內容套件](https://docs.microsoft.com/en-us/power-bi/sample-human-resources#get-the-content-pack-for-this-sample)、[pbix 檔案](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human-Resources-Sample-PBIX.pbix)或 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529780)，才能使用範例。
+ 您必須先將範例下載為[內容套件](https://docs.microsoft.com/power-bi/sample-human-resources#get-the-content-pack-for-this-sample)、[pbix 檔案](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human-Resources-Sample-PBIX.pbix)或 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529780)，才能使用範例。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 

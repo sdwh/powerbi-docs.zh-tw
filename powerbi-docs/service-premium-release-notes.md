@@ -11,10 +11,11 @@ ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298312"
 ---
 # <a name="power-bi-premium-release-notes"></a>Power BI Premium 版本資訊
 下列為 Power BI Premium 的版本資訊：專用容量為您的組織或小組提供更可靠的效能、更大的資料磁碟區、即使檢視者沒有每個的使用者授權也能夠散發內容。

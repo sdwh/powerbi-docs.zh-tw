@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34299439"
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop 的 Google Analytics 連接器
 > [!NOTE]

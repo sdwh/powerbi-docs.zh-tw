@@ -11,10 +11,10 @@ ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34298956"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>教學課程：連線到 SQL Server 中的內部部署資料
@@ -142,7 +142,7 @@ ms.locfileid: "34298956"
 
     ![輸入資料來源設定](media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    | 選項 | 價值 |
+    | 選項 | 值 |
     | ---    | ---   |
     | **資料來源名稱**       | test-sql-source      |
     | **資料來源類型**       | SQL Server      |
