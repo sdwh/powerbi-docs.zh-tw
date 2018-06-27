@@ -11,10 +11,10 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 59723d4c8e241781b7f29773ea182cd5b075e0c2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34288191"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Azure 使用深入解析
@@ -167,7 +167,7 @@ Azure 入口網站中的詳細資料資料行和名稱，在 API 和連接器中
 | Meter Region |meterRegion |Meter Region |否 |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |否 |
 | MeterId |meterId |Meter ID |否 |
-| 月 | |月 |否 |
+| 月份 | |月份 |否 |
 | 產品 |product |產品 |否 |
 | ProductId |productId | |是 |
 | 資源群組 |resourceGroup |資源群組 |否 |
@@ -186,7 +186,7 @@ Azure 入口網站中的詳細資料資料行和名稱，在 API 和連接器中
 | 標記 |tags |標記 |否 |
 | TagsId | | |是 |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |否 |
-| 年份 | |年份 |否 |
+| 年 | |年 |否 |
 | SubscriptionId |subscriptionId |SubscriptionId |是 |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |否 |
 

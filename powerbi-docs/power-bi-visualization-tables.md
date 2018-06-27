@@ -12,10 +12,10 @@ ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 22eb44048d8a4f681d8d112ce3fdb5a841d0511e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34584223"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>在 Power BI 報表和儀表板中使用資料表
@@ -80,7 +80,7 @@ ms.locfileid: "34584223"
   
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 
-### <a name="conditional-formatting"></a>條件式格式設定
+### <a name="conditional-formatting"></a>條件式格式化
 格式化的其中一種類型稱為 [條件式格式化設定]，並會套用至 Power BI 服務或 Desktop [視覺效果] 窗格之 [值] 集區中的欄位。 
 
 設定資料表格式化的條件時，您可以根據資料格值指定自訂資料格背景色彩和字型色彩，包括使用漸層色彩。 

@@ -11,10 +11,10 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34310053"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>取得 Power BI 問題說明的 10 個祕訣
@@ -50,8 +50,10 @@ Power BI 小組會在他們的定期 [Power BI 部落格文章](https://powerbi.
 
 您也可在網路上找到其他選項，例如︰
 
-* **edX.org** 提供免費課程 [Analyzing and Visualizing Data with Power BI](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4) (使用 Power BI 分析及視覺化資料)。
-* **Lynda.com** 提供各種課程，像是 [Power BI Pro Essential Training](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html) (Power BI 專業人員基本訓練)。
+* 
+  **edX.org** 提供免費課程 [Analyzing and Visualizing Data with Power BI](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4) (使用 Power BI 分析及視覺化資料)。
+* 
+  **Lynda.com** 提供各種課程，像是 [Power BI Pro Essential Training](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html) (Power BI 專業人員基本訓練)。
 * 尋找可實地操作的 **Dashboard in a Day** 訓練課程。
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7 在 Power BI 社群中發問或搜尋
