@@ -1,6 +1,6 @@
 ---
 title: Power BI Premium 常見問題集
-description: 瀏覽常見問題集清單並取得 Power BI Premium 方案相關問題的解答。
+description: 瀏覽常見問題集清單並取得 Power BI Premium 供應項目相關問題的解答。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -11,14 +11,14 @@ ms.date: 09/20/2017
 ms.author: mblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 25340ac8349e112b2424496274441feedebe7052
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34298841"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常見問題集
-瀏覽常見問題集清單並取得 Power BI Premium 方案相關問題的解答。
+瀏覽常見問題集清單並取得 Power BI Premium 供應項目相關問題的解答。
 
 * 如果您有其他問題，請[嘗試詢問 Power BI 社群](http://community.powerbi.com/)。
 * 仍有問題嗎？ 請前往 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
@@ -26,7 +26,7 @@ ms.locfileid: "34298841"
 
 ## <a name="power-bi-premium"></a>Power BI Premium
 **什麼是 Power BI Premium？**  
-Power BI Premium 是以容量為基礎的新方案，其功能包括：
+Power BI Premium 是以容量為基礎的新供應項目，其功能包括：
 
 * 彈性地將報表廣泛發佈到整個企業，而不需要個別授權每個接收的使用者。
 * 透過 Power BI 服務中的專用容量提升規模和效能。
@@ -109,7 +109,7 @@ Power BI 報表伺服器可以當作 Power BI Premium 的一部分使用，並�
 
 免費 Power BI 服務的使用者將擁有可存取所有資料來源、儲存空間限制增加，以及重新整理頻率和串流率提高等好處。 這些變更將會自 2017 年 6 月 1 日起生效；如需詳細資訊，請參閱 [Power BI 的自助式註冊](service-self-service-signup-for-power-bi.md)。 您仍然可以免費使用 Power BI Desktop。
 
-如需 Pro 延長試用版優惠的資訊，請參閱 [Pro 延長試用版啟用](service-extended-pro-trial.md)。
+如需 Pro 延長試用版供應項目的資訊，請參閱 [Pro 延長試用版啟用](service-extended-pro-trial.md)。
 
 ## <a name="power-bi-free"></a>Power BI 免費版
 **免費服務將新增哪些功能？**  
@@ -124,17 +124,17 @@ Power BI 報表伺服器可以當作 Power BI Premium 的一部分使用，並�
 **受影響的免費服務使用者將如何收到這些變更的通知？**  
 在 2017 年 6 月 1 日受到變更影響之免費服務的現用使用者將會收到來自 Microsoft 的電子郵件通訊，而且從 2017 年 5 月 3 日開始，會在登入 Power BI 服務時收到通知。
 
-過去一年來啟用免費服務的現有使用者可以免費延長 Power BI Pro 試用期 12 個月。 此優惠將提供 Power BI Pro 的完整功能，以確保使用者有足夠的時間來調整使用服務的方式。 如需 Pro 延長試用版優惠的資訊，請參閱 [Pro 延長試用版啟用](service-extended-pro-trial.md)。
+過去一年來啟用免費服務的現有使用者可以免費延長 Power BI Pro 試用期 12 個月。 此供應項目將提供 Power BI Pro 的完整功能，以確保使用者有足夠的時間來調整使用服務的方式。 如需 Pro 延長試用版供應項目的資訊，請參閱 [Pro 延長試用版啟用](service-extended-pro-trial.md)。
 
 **使用者屆時是否會失去其內容 (儀表板、報表) 的存取權？**  
 否。 他們不會失去已上傳至 Power BI 服務之任何內容的存取權。 自 2017 年 6 月 1 起，收件者將無法再存取與其他人共用的內容。 同樣地，他們屆時也可能無法再存取其他人與他們共用的內容。
 
-過去一年來啟用免費服務的現有使用者可以免費延長 Power BI Pro 試用期 12 個月。 此優惠將提供 Power BI Pro 的完整功能，以確保使用者有足夠的時間來調整使用服務的方式。 如需 Pro 延長試用版優惠的資訊，請參閱 [Pro 延長試用版啟用](service-extended-pro-trial.md)。
+過去一年來啟用免費服務的現有使用者可以免費延長 Power BI Pro 試用期 12 個月。 此供應項目將提供 Power BI Pro 的完整功能，以確保使用者有足夠的時間來調整使用服務的方式。 如需 Pro 延長試用版供應項目的資訊，請參閱 [Pro 延長試用版啟用](service-extended-pro-trial.md)。
 
 **使用者如何得知其是否符合 Power BI Pro 延長試用版的資格？**  
 請參閱 Pro 延長試用版[條款及條件](https://aka.ms/power-bi-trial)。
 
-如需 Pro 延長試用版優惠的資訊，請參閱 [Pro 延長試用版啟用](service-extended-pro-trial.md)。
+如需 Pro 延長試用版供應項目的資訊，請參閱 [Pro 延長試用版啟用](service-extended-pro-trial.md)。
 
 **如果使用者不符合 Power BI Pro 延長試用版的資格，該怎麼辦？**  
 在[這裡](https://app.powerbi.com/signupredirect?pbi_source=web)註冊標準 60 天 Power BI Pro 試用版。
@@ -167,7 +167,7 @@ Power BI Premium 是以容量為基礎的授權，而 Power BI Pro 是以使用�
 在 Power BI Premium 中，我們將結合 Power BI Embedded 與 Power BI 服務，以提供一個 API 介面、一組一致的功能，並可存取最新功能。 未來，我們將鼓勵有興趣在其應用程式中內嵌 Power BI 的使用者開始使用 Power BI Desktop，進而部署 Power BI Premium。
 
 **使用 Power BI Premium 在應用程式中內嵌分析有哪些優點？**  
-Power BI Premium 是以容量為基礎的方案，會在專用硬體上執行，並作為 Power BI 服務的一部分受到 Microsoft 的完整管理。 當您考慮應用程式開發週期時，Power BI Premium 提供許多新優點，例如彈性且可預測的成本、改善開發人員的內容管理，以及可在內嵌案例中完整使用 Power BI 功能。
+Power BI Premium 是以容量為基礎的供應項目，會在專用硬體上執行，並作為 Power BI 服務的一部分受到 Microsoft 的完整管理。 當您考慮應用程式開發週期時，Power BI Premium 提供許多新優點，例如彈性且可預測的成本、改善開發人員的內容管理，以及可在內嵌案例中完整使用 Power BI 功能。
 
 **我需要移轉在 Power BI Embedded 上建立的現有應用程式嗎？**  
 Power BI Embedded 將會依照下列排程繼續提供給現有的應用程式：

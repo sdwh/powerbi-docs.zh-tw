@@ -11,10 +11,10 @@ ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
 ms.openlocfilehash: c47722fda28fc45289858f082a0838f583b53dbb
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34296771"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
@@ -37,7 +37,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 內容套件 | 否 | 是 | [組織內容套件：簡介](../service-organizational-content-pack-introduction.md) 
 | 連線到服務 (例如 Salesforce) | 否 | 是 | 使用 Power BI 服務[連線到所用服務](../service-connect-to-services.md)
 | 問與答 | 否 | 是 | [Power BI 服務和 Power BI Desktop 中的問與答](../power-bi-q-and-a.md) 
-| 快速見解 | 否 | 是 | [使用 Power BI 自動產生資料的見解](../service-insights.md) 
+| 深入資訊摘要 | 否 | 是 | [使用 Power BI 自動產生資料的見解](../service-insights.md) 
 | 在 Excel 中分析 | 否 | 是 | [使用 Excel 分析](../service-analyze-in-excel.md) 
 | 編頁報表 | 是 | 否 | 編頁報表無法在 Power BI 服務中使用，但您可以[將編頁報表項目釘選至 Power BI 儀表板](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 | Power BI 行動應用程式 | 是 | 是 | [Power BI 行動裝置應用程式概觀](../mobile-apps-for-mobile-devices.md) 

@@ -3,10 +3,10 @@ title: Microsoft Power BI 引導式學習
 description: 透過這個循序漸進的系列課程開始您的學習之旅，從而了解 Microsoft Power BI 豐富而強大的功能。
 layout: LandingPage
 ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34310145"
 ---
 <div id="main" class="v2">
@@ -111,7 +111,7 @@ ms.locfileid: "34310145"
                                 <img src="media/pbi-modeling.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-模型 </h3>
+建立模型 </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
                                 <a class="barLink" href="modeling.yml?tutorial-step=1">資料模型簡介</a>

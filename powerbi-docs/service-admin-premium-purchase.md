@@ -11,10 +11,10 @@ ms.date: 10/17/2017
 ms.author: mblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 2789f2e3e8198ddc0363fb07488f5fe8f39441a6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34297369"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何購買 Power BI Premium
@@ -34,7 +34,7 @@ ms.locfileid: "34297369"
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>建立具有 Power BI Premium P1 的新租用戶
 如果您目前沒有租用戶並想建立一個，您可以同時購買 Power BI Premium。 下列連結將會引導您完成建立新租用戶的程序，以便搭配 Office 365 使用並可讓您購買 Power BI Premium。 建立租用戶之後，您必須為使用者購買 Power BI Pro 授權。 當您建立租用戶時，您會自動成為該租用戶的全域管理員。
 
-若要進行這項購買，請參閱 [Power BI Premium P1 優惠](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1)。
+若要進行這項購買，請參閱 [Power BI Premium P1 供應項目](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1)。
 
 ![](media/service-admin-premium-purchase/premium-purchase-with-tenant.png)
 
