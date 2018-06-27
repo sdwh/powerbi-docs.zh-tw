@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 08/21/2017
 ms.author: maghan
 ms.openlocfilehash: bbd0a616460d4fb948c2efe63cca0d3e3d90d70e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34689729"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 移轉工具
@@ -158,7 +158,7 @@ ms.locfileid: "34689729"
 
 ![](media/migrate-tool/migrate-tool-create-groups.png)
 
-若要建立應用程式工作區，您可以選取 [Create Selected Groups ](建立選取的群組) 或 **[Create All Missing Groups]** (建立所有遺漏的群組)。
+若要建立應用程式工作區，您可以選取 **[Create Selected Groups ]** (建立選取的群組) 或 **[Create All Missing Groups]** (建立所有遺漏的群組)。
 
 當您選取其中一個選項時，系統會提示您登入。 *您想要將認證用於您要在其上建立應用程式工作區的 Power BI 服務。*
 
