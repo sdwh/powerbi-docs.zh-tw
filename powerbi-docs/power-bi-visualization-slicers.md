@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 338b72ef39c5b9c9fe454c1063f26602e8ce2299
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721493"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964783"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的交叉分析篩選器
 您希望報告讀者能夠查看整體銷售計量，但也能夠醒目提示個別區經理和不同時間範圍的績效。 您可以建立個別的報告或比較圖表，或是使用交叉分析篩選器。 交叉分析篩選器是一種替代的篩選方式，可縮小報表內其他視覺效果中顯示的資料集部分。 
@@ -183,7 +183,7 @@ Power BI 交叉分析篩選器具有下列限制：
 - **框線：** 新增交叉分析篩選器的 1 像素框線，並設定其色彩。 (此交叉分析篩選器框線和 [General Outline] (一般外框) 設定不同，不受其影響。) 
 
 ## <a name="next-steps"></a>後續步驟
-[請試用 - 完全免費！](https://powerbi.com/)
+[註冊以免費試用](https://powerbi.microsoft.com/get-started/)
 
 您對如何改進 Power BI 有任何想法嗎？ [送出想法](https://ideas.powerbi.com/forums/265200-power-bi-ideas)。
 

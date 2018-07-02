@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584108"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964760"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Power BI 中的散佈圖與泡泡圖
 散佈圖一律會有兩個值座標軸，沿著水平軸顯示一組數字資料，沿著垂直軸顯示另一組數值。 此圖表顯示 x 與 y 數交集處的點，結合這些值可形成單一的資料點。 視資料之不同，這些資料點可能平均散布或不平均地散佈在水平軸。
@@ -116,9 +116,9 @@ ms.locfileid: "34584108"
 若要建立新的欄位，請[使用 Power BI Desktop 查詢編輯器新增索引資料行](desktop-add-custom-column.md)至資料集。  然後將本資料行加入您視覺效果的 [詳細資料] 區域。
 
 ## <a name="next-steps"></a>後續步驟
- [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[請試用 - 完全免費！](https://powerbi.com/)  
+[註冊以免費試用](https://powerbi.microsoft.com/get-started/)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

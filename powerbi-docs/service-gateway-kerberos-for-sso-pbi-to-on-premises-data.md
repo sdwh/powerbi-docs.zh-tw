@@ -10,21 +10,20 @@ ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: fc7885755da62c7b777bb0af7627626b1ce60aa0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 402a39ef9e52fe61d80940a5050997ba19930209
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34299071"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964829"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 以從 Power BI 單一登入 (SSO) 到內部部署資料來源
 您可以藉由使用 Kerberos 來設定內部部署資料閘道，以取得順暢的單一登入連線，讓 Power BI 報表和儀表板能夠從內部部署資料進行更新。 內部部署資料閘道可以使用 DirectQuery 加速單一登入 (SSO)，DirectQuery 是用來連線至內部部署資料來源。
 
-目前支援下列資料來源：SQL Server、SAP HANA 和 Teradata，全部都是以 [Kerberos 限制委派](https://technet.microsoft.com/library/jj553400.aspx)為基礎。
+目前支援下列資料來源，全都以 [Kerberos 限制委派](https://technet.microsoft.com/library/jj553400.aspx)為基礎：
 
 * SQL Server
 * SAP HANA
-* SAP BW
 * Teradata
 
 當使用者與 Power BI 服務中的 DirectQuery 報表互動時，每個交叉篩選、配量、排序和報表編輯作業可能會導致針對基礎內部部署資料來源即時執行查詢。  當單一登入針對資料來源設定時，查詢會在使用者用來與 Power BI 互動的身分識別下執行 (也就是，透過 Web 體驗或 Power BI 行動應用程式)。 因此，每個使用者會準確看到他們在基礎資料來源中擁有權限的資料 – 設定單一登入之後，不同使用者之間沒有共用的資料快取。

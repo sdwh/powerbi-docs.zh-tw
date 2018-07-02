@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 280b76bd7a950f9f66834b4707c1144485008a3c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: adb5d744a8eb99fce056a07ddb97b6cd7a82a8b4
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250577"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964852"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>對適用於 Power BI 的 Cortana 進行疑難排解
 本文是系列文的其中一篇。 如果還沒有這麼做，建議您閱讀下列三篇文章。
@@ -30,7 +30,7 @@ ms.locfileid: "34250577"
 如果您在讓 Cortana 與 Power BI 整合時仍遇到問題，就來對地方了。 請遵循下方步驟以診斷及修正問題。
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>為什麼 Cortana 從我的 Power BI 報表或儀表板找不到答案？
-1. 您有 Power BI 帳戶嗎？  如果沒有，[請免費註冊](service-self-service-signup-for-power-bi.md)。
+1. 您有 Power BI 帳戶嗎？  如果沒有，可[註冊以免費試用](https://powerbi.microsoft.com/get-started/)。
 2. Cortana 有在運作嗎？  您在工作列中有看到 Cortana 圖示嗎？
 
     ![](media/service-cortana-troubleshoot/power-bi-cortana-icon.png)

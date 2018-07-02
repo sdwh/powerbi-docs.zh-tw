@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 70dcc7beb4525c84f1d52c511fa6a9f2ba666f94
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e9c97bd754155de52d75df5211212c6c283928b3
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34249175"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964737"
 ---
 # <a name="connect-to-projectplace-by-planview-with-power-bi"></a>使用 Power BI 連接到 Projectplace by Planview
 使用 Projectplace by Planview 內容套件，您可以全新的方式，直接在 Power BI 中視覺化共同作業的專案資料。 使用 Projectplace 登入認證，以互動方式檢視關鍵專案統計資料，找出最活躍和產能最高的小組成員，及識別 Projectplace 帳戶中跨專案的高風險卡片和活動。 您也可以擴充立即可用的儀表板和報表，取得對您而言最重要的深入資訊。
@@ -55,7 +55,7 @@ ms.locfileid: "34249175"
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
 
 ## <a name="system-requirements"></a>系統需求
-若要將 Projectplace 資料匯入 Power BI，您必須是 Projectplace 的使用者。 這個程序假設您已使用 Power BI 帳戶登入 Microsoft Power BI 的首頁。 如果您還沒有 Power BI 帳戶，請在 Power BI 的首頁建立新的免費 Power BI 帳戶，然後按一下 [取得資料]。
+若要將 Projectplace 資料匯入 Power BI，您必須是 Projectplace 的使用者。 這個程序假設您已使用 Power BI 帳戶登入 Microsoft Power BI 的首頁。 若您沒有 Power BI 帳戶，請前往 [powerbi.com](https://powerbi.microsoft.com/get-started/)，然後在 [Power BI - 雲端共同作業與共用] 下選取 [免費試用]。 然後按一下 [取得資料]。
 
 ## <a name="next-steps"></a>後續步驟
 [開始使用 Power BI](service-get-started.md)
