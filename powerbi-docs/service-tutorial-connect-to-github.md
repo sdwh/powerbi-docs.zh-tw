@@ -44,7 +44,7 @@ ms.locfileid: "34310099"
 
 
 ## <a name="how-to-connect"></a>如何連接
-1. 登入 Power BI 服務 (http://powerbi.com)。 
+1. 登入 Power BI 服務 (http://powerbi.com) 。 
 2. 在左側瀏覽窗格中，選取 [應用程式]，然後選取 [取得應用程式]。
    
    ![Power BI Get 應用程式](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
