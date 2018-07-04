@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584062"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599586"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>從 Excel 將磚釘選到 Power BI 儀表板
 您要先連接活頁簿和 Power BI 服務 (app.powerbi.com)，才可以從 Excel 活頁簿釘選磚。 連接活頁簿其實就是將該活頁簿的連結唯讀版本帶入 Power BI 服務，讓您將範圍釘選到儀表板。 您甚至可以將整份工作表釘選到儀表板。  
@@ -60,7 +60,7 @@ ms.locfileid: "34584062"
    * 現有儀表板：從下拉式清單中選取儀表板的名稱。
    * 新儀表板：輸入新儀表板的名稱。
    
-    ![[釘選到儀表板] 對話方塊](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+     ![[釘選到儀表板] 對話方塊](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. 選取 [釘選] 。 您可利用靠近右上角所出現的成功訊息，知道該範圍已加入儀表板成為磚。 
    
     ![[已釘選到儀表板] 對話方塊](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
