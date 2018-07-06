@@ -2,12 +2,12 @@
 title: Microsoft Power BI 引導式學習
 description: 透過這個循序漸進的系列課程開始您的學習之旅，從而了解 Microsoft Power BI 豐富而強大的功能。
 layout: LandingPage
-ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2cd748b60da6781ff9ea710b5802f3d68c3bc6b8
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310145"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600668"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -48,8 +48,8 @@ ms.locfileid: "34310145"
                                 <span style="margin-left: 32px; align-self: center;">9m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=5">檢閱和後續步驟</a>
-                                <span style="margin-left: 32px; align-self: center;">5m</span>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=5">回顧與展望</a>
+                                <span style="margin-left: 32px; align-self: center;">5 分鐘</span>
                               </li>
                           </ul>
                       </div>
@@ -273,7 +273,7 @@ ms.locfileid: "34310145"
                               </li>
                               <li style="display: flex; justify-content: space-between;">
                                 <a class="barLink" href="exploringdata.yml?tutorial-step=5">建立自訂的問與答建議</a>
-                                <span style="margin-left: 32px; align-self: center;">4m</span>
+                                <span style="margin-left: 32px; align-self: center;">4 分鐘</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
                                 <a class="barLink" href="exploringdata.yml?tutorial-step=6">與您的組織共用儀表板</a>

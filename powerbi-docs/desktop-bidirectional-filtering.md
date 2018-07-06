@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a584d61e1f2f55c244b453e6c086f3222217ee9a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 43119a700b3b660a2734d1a8f974291a2817ce8e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288996"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37597990"
 ---
 # <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery 雙向交叉篩選
 
@@ -33,13 +33,11 @@ ms.locfileid: "34288996"
 
 * [交互篩選方向] 必須設為 [兩者]
 * [雙向套用安全性篩選] 也必須選取
-  
+
   ![](media/desktop-bidirectional-filtering/bidirectional-filtering_2.png)
 
 > [!NOTE]
-> 在建立 Power BI Desktop 中的交叉篩選 DAX 公式時，使用 UserPrincipalName (這通常和使用者登入名稱相同，例如 joe@contoso.com) 而不是 UserName。 因此，您可能需要建立將 *UserName* (或例如 EmployeeID) 對應至 *UserPrincipleName* 的相關資料表。
-> 
-> 
+> 在建立 Power BI Desktop 中的交叉篩選 DAX 公式時，使用 UserPrincipalName (這通常和使用者登入名稱相同，例如 joe@contoso.com) 而不是 UserName。 因此，您可能需要建立將 *UserName* (或例如 EmployeeID) 對應至 *UserPrincipalName* 的相關資料表。
 
 如需詳細資訊，以及雙向交叉篩選如何運作的範例，請參閱本文稍早所提到的[技術白皮書](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)。
 
