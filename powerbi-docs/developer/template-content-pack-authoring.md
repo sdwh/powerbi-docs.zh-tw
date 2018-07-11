@@ -1,27 +1,29 @@
 ---
 title: 在 Power BI 中撰寫範本內容套件
 description: 範本內容套件撰寫
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
-ms.author: maghan
-ms.openlocfilehash: f3f3343122857cbf06c0004d2a3e5e5247f07e48
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.author: maggies
+ms.openlocfilehash: 02c4725617960474cff7a9a1452861d1ab5d5b8d
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290867"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>在 Power BI 中撰寫範本內容套件
-撰寫範本內容套件會使用 Power BI Desktop 和 PowerBI.com。您的內容套件具有四個元素︰
+撰寫範本內容套件會使用 Power BI Desktop 和 PowerBI.com。 您的內容套件具有四個元素︰
 
 * 查詢可讓您[連接](../desktop-connect-to-data.md)和[轉換](../desktop-query-overview.md)資料，以及定義[參數](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)  
 * 資料模型可建立[關聯性](../desktop-create-and-manage-relationships.md)、[量值](../desktop-measures.md)和問與答改進功能  
 * 報表[頁面](../desktop-report-view.md)包含可讓您深入剖析資料的視覺效果和篩選器  
-* [儀表板](../service-dashboards.md)和[磚](../service-dashboard-create.md)可提供包含的深入剖析資訊概觀  
+* 
+  [儀表板](../service-dashboards.md)和[磚](../service-dashboard-create.md)可提供包含的深入剖析資訊概觀  
 
 您可能以現有 Power BI 功能的角度熟悉每項元素。 在建置內容套件時，您需要針對每個層面考慮其他事項，請參閱下列各節以取得詳細資訊。
 

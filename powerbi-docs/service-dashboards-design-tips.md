@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9c67aa0982733847cdca7d6079fa8887e6c1d1d2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247039"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944966"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>設計絕佳 Power BI 儀表板的秘訣
 現在您已經建立儀表板，及新增了某些圖格，請思考如何讓您的儀表板不只是好看，同時功能也更強。 一般而言，這代表將最重要的資訊設定為待命，讓它簡潔且整齊。
@@ -59,7 +59,7 @@ ms.locfileid: "34247039"
 ## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>為資料使用正確的視覺效果，並將其格式化以方便閱讀
 請不要只是為了不同而讓視覺效果不同。  視覺效果應該要能繪製圖片，且應該要很容易「閱讀」及解譯。  對某些資料和視覺效果而言，簡單的圖形視覺效果已經綽綽有餘。 但是其他資料可能需要更複雜的視覺效果 - 請務必使用標題和標籤，以及使用其他自訂項目，以協助讀者。  
 
-* [選擇適當的資料視覺效果](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx)。 請小心使用會扭曲實際情況的圖表，也就是立體圖表。 請記住，人腦很難解譯有圓弧的圖形。 圓形圖、環圈圖、量表圖和其他有圓弧的圖表類型可能很好看，但它們不是資料視覺效果的最佳做法。
+* [選擇適當的資料視覺效果](https://www.youtube.com/watch?v=-tdkUYrzrio)。 請小心使用會扭曲實際情況的圖表，也就是立體圖表。 請記住，人腦很難解譯有圓弧的圖形。 圓形圖、環圈圖、量表圖和其他有圓弧的圖表類型可能很好看，但它們不是資料視覺效果的最佳做法。
 * 軸的圖表刻度、圖表維度次序，以及在圖表內維度值所用的色彩務必保持一致。
 * 請務必小心地編碼量化資料。 顯示數字時，不要超過三或四個數字。 量值應在小數點、千位數、百萬等左邊顯示為一或兩個數字，亦即可以將量值顯示為 3.4 百萬，而不要顯示為 3,400,000。
 * 請勿混合精確度和時間的等級。 請確定時間框架可讓人充分了解。  不要讓上個月的圖表緊鄰從該年度指定月份篩選出的圖表。

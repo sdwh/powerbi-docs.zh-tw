@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 175852a05c4964e6a476abf50684d9ffc12c4468
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34309915"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599861"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>開始使用 Power BI Desktop
 歡迎使用 **Power BI Desktop 使用者入門指南**。 此 Power BI Desktop 簡短教學課程能讓您熟悉它的運作方式、示範它的功能，以及加速您建置穩固資料模型的能力 — 以及令人讚嘆的報表，增強您的商業智慧工作。 
@@ -313,7 +313,7 @@ Power BI Desktop 中的查詢編輯器能夠充分利用右鍵功能表，也會
 
 您可以在 **Power BI** 服務中變更報表，方法是從報表畫布上方選取 [編輯報表]  。
 
-若要儲存報表，請從服務選取 [檔案] **\> [另存新檔]**。 您可以在 **Power BI** 服務中，從您的報表建立各種有趣的視覺效果；您可以將報表釘選到 *儀表板* 。 若要了解 **Power BI** 服務中的儀表板**[，請參閱](service-dashboards-design-tips.md)設計絕佳儀表板的秘訣**.
+若要儲存報表，請從服務選取 [檔案] **\> [另存新檔]**。 您可以在 **Power BI** 服務中，從您的報表建立各種有趣的視覺效果；您可以將報表釘選到 *儀表板* 。 若要了解 **Power BI** 服務中的儀表板<strong>[，請參閱](service-dashboards-design-tips.md)設計絕佳儀表板的秘訣</strong>.
 
  ![](media/desktop-getting-started/gsg_share5.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1085c3715d9b4b75925cec1b94ec49b0f5792f7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c90d2ecf5c3722dfa3991d7001f7c5054e48e6a6
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813127"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135114"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Amazon Redshift
 在 **Power BI Desktop** 中，您可以連接至 **Amazon Redshift** 資料庫並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。
@@ -45,7 +45,7 @@ ms.locfileid: "34813127"
 ## <a name="next-steps"></a>後續步驟
 您可以使用 Power BI Desktop 連接至各式各樣的資料。 如需有關資料來源的詳細資訊，請參閱下列資源︰
 
-* [開始使用 Power BI Desktop](desktop-getting-started.md)
+* [Power BI Desktop 是什麼？](desktop-what-is-desktop.md)
 * [Power BI Desktop 中的資料來源](desktop-data-sources.md)
 * [使用 Power BI Desktop 合併資料並使其成形](desktop-shape-and-combine-data.md)
 * [在 Power BI Desktop 中連接至 Excel 活頁簿](desktop-connect-excel.md)   

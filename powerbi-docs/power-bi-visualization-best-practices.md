@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8716e6b5b75c7cd3db1b8daecfaae240f0647a50
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e9b37ba2b44a23fa0f198bce7a649c67335ac0ed
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297254"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945127"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>報表和視覺效果的最佳設計做法
 <!-- Shared newnav Include -->
@@ -787,8 +787,6 @@ Power BI 一開始提供許多視覺效果類型。  對這些項目，新增來
 他在比較「部分與整體之間」的關聯性時，確實解釋過一次圓形圖適用的位置。 但這是極少優於 100% 堆疊橫條圖的圖表。
 
 您可以在 [Darkhorse Analytics 網站](http://www.darkhorseanalytics.com/blog/salvaging-the-pie)上找到有關圓形圖的另一個有趣文章 (和動畫)。
-
-或閱讀相反的觀點：[Why Tufte is flat-out wrong about pie charts](http://speakingppt.com/2013/03/18/why-tufte-is-flat-out-wrong-about-pie-charts/)
 
 #### <a name="radial-gauges--kpis"></a>星形量測計和 KPI
 ![](media/power-bi-visualization-best-practices/power-bi-gauge.png)

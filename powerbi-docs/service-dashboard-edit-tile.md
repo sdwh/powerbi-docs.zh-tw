@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248334"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598970"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>編輯或移除儀表板磚
 
@@ -35,12 +35,12 @@ ms.locfileid: "34248334"
 * [將磚釘選至不同的儀表板](#different)
 * [刪除磚](#delete)
   
- > [!TIP]
- > 若要變更磚本身顯示的視覺效果，請刪除磚再新增新的[儀表板磚](service-dashboard-tiles.md)。
- > 
+  > [!TIP]
+  > 若要變更磚本身顯示的視覺效果，請刪除磚再新增新的[儀表板磚](service-dashboard-tiles.md)。
 
- ### <a name="prerequisites"></a>先決條件
- 1. 若要跟著做，請開啟 Power BI 服務 (不是 Power BI Desktop) 並[下載 IT 費用分析範例](sample-it-spend.md)。 出現「成功」訊息時，請選取 [移至儀表板]
+  
+## <a name="prerequisites"></a>先決條件
+若要跟著做，請開啟 Power BI 服務 (不是 Power BI Desktop) 並[下載 IT 費用分析範例](sample-it-spend.md)。 出現「成功」訊息時，請選取 [移至儀表板]
 
 - - -
 <a name="create"></a>

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: sample
-ms.date: 05/21/2018
+ms.date: 06/23/2018
 ms.author: amac
 LocalizationGroup: Samples
-ms.openlocfilehash: 8a586561ea91fc8a66d70099938818372456df98
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1fcc91020c8ec12572c090bad4f6c9b2a5963dcd
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34456025"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944920"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>下載 Power BI 的財務範例活頁簿
 需要一些可搭配 Power BI 服務試用的資料嗎？ 我們有簡單的範例財務資料 Excel 活頁簿可供您下載。  以下是下載方法：

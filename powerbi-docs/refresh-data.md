@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 779bfb3e69a76d0fe9e9a34d6576b2054de89cc1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: aa7fcc720861d1459183aaf7a82a2af8912eb5b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253611"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599740"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 若要做出正確決策，確保您能夠一直取得最新資料就相當重要。 您可能已經使用 Power BI 中的 [取得資料] 連接及上傳一些資料，也已經建立一些報表和儀表板。 現在，您想要確定您的資料都是最新且最優良的。
@@ -101,6 +101,7 @@ Power BI 內有四種主要的重新整理類型。 封裝重新整理、模型/
 將您的檔案保留在 OneDrive 或 SharePoint Online 上，並從 Power BI 加以連接，可提供大量彈性。 雖然有許多彈性，這卻也讓此類型最難以了解。 儲存在 OneDrive 或 SharePoint Online 中的檔案排程重新整理，和封裝重新整理不一樣。 如需深入了解，請參閱[重新整理的類型](#types-of-refresh)一節。
 
 ### <a name="power-bi-desktop-file"></a>Power BI Desktop 檔案
+
 | **資料來源** | **自動重新整理** | **使用者設定的手動或排程重新整理** | **需要閘道** |
 | --- | --- | --- | --- |
 | 會使用 \[取得資料] \(位於功能區) 連接到任何所列資料來源，以及從中查詢資料。 |否 |是 |否 (請參閱下文) |
@@ -117,6 +118,7 @@ Power BI 內有四種主要的重新整理類型。 封裝重新整理、模型/
 如需詳細資訊，請參閱[重新整理建立自 OneDrive 上 Power BI Desktop 檔案的資料集](refresh-desktop-file-onedrive.md)。
 
 ### <a name="excel-workbook"></a>Excel 活頁簿
+
 | **資料來源** | **自動重新整理** | **使用者設定的手動或排程重新整理** | **需要閘道** |
 | --- | --- | --- | --- |
 | 未載入 Excel 資料模型之工作表中的資料表。 |是，每小時 *(僅限 OneDrive/SharePoint Online)* |僅手動 *(僅限 OneDrive/SharePoint Online)* |否 |
@@ -131,6 +133,7 @@ Power BI 內有四種主要的重新整理類型。 封裝重新整理、模型/
 如需詳細資訊，請參閱[重新整理建立自 OneDrive 上 Excel 活頁簿的資料集](refresh-excel-file-onedrive.md)。
 
 ### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive 或 SharePoint Online 上的逗點分隔值 (.csv) 檔案
+
 | **資料來源** | **自動重新整理** | **使用者設定的手動或排程重新整理** | **需要閘道** |
 | --- | --- | --- | --- |
 | 簡單的逗號分隔值 |是，小時 |僅手動 |否 |
@@ -145,6 +148,7 @@ Power BI 中的內容套件有兩種類型：
 **組織的內容套件**：由您組織中的使用者建立與共用。 內容套件取用者無法設定重新整理排程或手動重新整理。 只有內容套件建立者可以為內容套件中的資料集設定重新整理。 重新整理設定會隨資料集繼承。
 
 ### <a name="content-packs-from-online-services"></a>來自線上服務的內容套件
+
 | **資料來源** | **自動重新整理** | **使用者設定的手動或排程重新整理** | **需要閘道** |
 | --- | --- | --- | --- |
 | 位於 [取得資料] &gt;> [服務] 的線上服務 |是 |是 |否 |
@@ -237,7 +241,7 @@ Power BI 中的內容套件有兩種類型：
 > 
 > 
 
-若要深入了解，請參閱 [Power BI 中的 Excel 資料](service-excel-workbook-files.md)、[Power BI Gateway - Personal](personal-gateway.md)、[內部部署資料閘道](service-gateway-onprem.md)、[重新整理建立自本機磁碟上 Excel 活頁簿的資料集](refresh-excel-file-local-drive.md)。
+若要深入了解，請參閱 [Power BI 中的 Excel 資料](service-excel-workbook-files.md)、[Power BI Gateway - Personal](service-gateway-personal-mode.md)、[內部部署資料閘道](service-gateway-onprem.md)、[重新整理建立自本機磁碟上 Excel 活頁簿的資料集](refresh-excel-file-local-drive.md)。
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>包含來自 OData 摘要之資訊的 Power BI Desktop 檔案
 在此情況下，您可在 Power BI Desktop 中使用 [取得資料] 連接及匯入來自 OData 摘要的人口普查資料。  您在 Power BI Desktop 中建立數個報表，然後將檔案命名為 WACensus，並儲存在電腦中的共用。 接著將檔案發佈到 Power BI 服務。
@@ -270,7 +274,7 @@ Power BI 中的內容套件有兩種類型：
 ## <a name="next-steps"></a>後續步驟
 [對重新整理問題進行疑難排解的工具](service-gateway-onprem-tshoot.md)  
 [對重新整理進行疑難排解的案例](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI Gateway - Personal](personal-gateway.md)  
+[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
 [內部部署資料閘道](service-gateway-onprem.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)

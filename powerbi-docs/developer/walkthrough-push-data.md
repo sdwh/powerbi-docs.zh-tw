@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813104"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598541"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>將資料推送至 Power BI 資料集
 您可以使用 Power BI API 將資料推送至 Power BI 資料集。 例如，您會想要擴充現有商務工作流程，將關鍵資料推送至資料集。 在此情況下，您會想要將 Sales Marketing 資料集 (其中含 Product 資料表) 推送至資料集。
@@ -98,6 +98,7 @@ ms.locfileid: "34813104"
 在 Power BI 資料表結構描述中，您可以使用下列資料類型。
 
 ## <a name="power-bi-table-data-types"></a>Power BI 資料表資料類型
+
 | **資料類型** | **限制** |
 | --- | --- |
 | Int64 |不允許 Int64.MaxValue 和 Int64.MinValue。 |

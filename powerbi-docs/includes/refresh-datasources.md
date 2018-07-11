@@ -1,4 +1,5 @@
 ### <a name="on-premises-data-gateway"></a>內部部署資料閘道
+
 | **資料來源** |
 | --- |
 | Analysis Services 表格式 |

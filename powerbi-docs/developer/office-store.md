@@ -9,15 +9,15 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301772"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092107"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>在 AppSource 上發佈自訂視覺效果
-了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及使用。 Office
+了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及使用。
 
 一旦建立了自訂的視覺效果後，您可能需要發佈至 AppSource 供其他人探索及使用。 您需要先做一些準備才能執行這項作業。 如需如何建立自訂視覺效果的詳細資訊，請參閱[使用開發人員工具建立自訂視覺效果](../service-custom-visuals-getting-started-with-developer-tools.md)。
 
@@ -36,7 +36,7 @@ ms.locfileid: "35301772"
 | 螢幕擷取畫面 |是 |您必須提供至少一張螢幕擷取畫面。 格式可以是 .png、.jpg、.jpeg 或 .gif。 它必須剛好為 1366px (寬度) x 768px (高度)。 檔案大小不能大於 1024 KB。 「為提高使用率，請新增文字泡泡以表達每張螢幕擷取畫面所顯示重要功能的價值定位。」 |
 | 支援下載連結 |是 |提供 URL 以支援使用您視覺效果發生問題的客戶。 URL 的格式應該包含 https:// 或 http://。 |
 | 隱私權文件連結 |是 |為使用您視覺效果的客戶提供隱私權原則連結。 連結的格式應該包含 https:// 或 http://。 |
-| 使用者授權合約 (EULA) |是 |您必須上傳 EULA 檔案。 您可以使用自己的 EULA 或 Power BI Office 市集自訂視覺效果的預設 EULA。 若要使用預設的 EULA，請將下列 URL 貼至賣方儀表板的「使用者授權合約」檔案上傳對話方塊中︰[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf) \(英文\)。 |
+| 使用者授權合約 (EULA) |是 |您必須上傳 EULA 檔案。 您可以使用自己的 EULA 或 Power BI Office 市集自訂視覺效果的預設 EULA。 若要使用預設的 EULA，請將下列 URL 貼至賣方儀表板的「使用者授權合約」檔案上傳對話方塊中︰[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) \(英文\)。 |
 | 影片連結 |否 |為提高使用者對您自訂視覺效果的興趣，建議您提供有關視覺效果的影片連結。 URL 的格式應該包含 https:// 或 http://。 |
 | GitHub 儲存機制 |否 |為讓其他開發人員對您的程式碼提供意見反應和建議改良，最好在 [GitHub](https://www.github.com) 儲存機制有視覺效果和範例資料來源的有效公用連結。 |
 
@@ -97,7 +97,7 @@ ms.locfileid: "35301772"
    * 影片連結
    * 使用者授權合約 (EULA)
      
-       您必須上傳 EULA 檔案。 您可以使用自己的 EULA 或 Power BI Office 市集自訂視覺效果的預設 EULA。 若要使用預設的 EULA，請將下列 URL 貼至賣方儀表板的「使用者授權合約」檔案上傳對話方塊中︰[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf) \(英文\)。
+       您必須上傳 EULA 檔案。 您可以使用自己的 EULA 或 Power BI Office 市集自訂視覺效果的預設 EULA。 若要使用預設的 EULA，請將下列 URL 貼至賣方儀表板的「使用者授權合約」檔案上傳對話方塊中︰[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) \(英文\)。
 8. 選取 [下一步] 前往 [詳細資料] 頁面。
 9. 選取 [語言] 並從清單中挑選語言。
    

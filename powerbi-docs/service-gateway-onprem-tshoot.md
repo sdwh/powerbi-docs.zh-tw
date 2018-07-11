@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755062"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926577"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>為內部部署資料閘道進行疑難排解
 本文探討使用**內部部署資料閘道**時可能遇到的一些常見問題。
@@ -31,10 +31,10 @@ ms.locfileid: "34755062"
 閘道以 Windows 服務的形式執行，因此您可以用多種方式加以啟動及停止。 例如，您可以在閘道執行的電腦上開啟提高權限的命令提示字元，然後執行下列其中一個命令：
 
 * 若要停止服務，請執行這個命令：
-  
+
     '''   net stop PBIEgwService   '''
 * 若要啟動服務，請執行這個命令：
-  
+
     '''   net start PBIEgwService   '''
 
 ### <a name="error-failed-to-create-gateway-please-try-again"></a>錯誤：無法建立閘道。 請再試一次。
@@ -70,7 +70,7 @@ ms.locfileid: "34755062"
 
 1. 將閘道解除安裝。
 2. 刪除下列資料夾。
-   
+
         c:\Program Files\On-premises data gateway
 3. 重新安裝該閘道。
 4. 選擇性地套用修復金鑰，以還原現有的閘道。
@@ -129,11 +129,11 @@ ms.locfileid: "34755062"
 
 1. 在 SQL Server Management Studio 中連接至 Analysis Services 電腦。 在進階連線屬性中，替有問題的使用者包括 EffectiveUserName，並查看這是否會重現錯誤。
 2. 您可以使用 dsacls Active Directory 工具，以驗證屬性是否列出。 此工具通常可以在網域控制站上找到。 您必須知道帳戶的可辨別網域名稱為何，並將其傳遞至工具。
-   
+
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
-   
+
     您會想要在結果中看到類似下列的項目。
-   
+
             Allow BUILTIN\Windows Authorization Access Group
                                           SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
                                           READ PROPERTY
@@ -184,15 +184,15 @@ ms.locfileid: "34755062"
 
 1. 在[閘道記錄檔](#logs)內尋找有效的使用者名稱。
 2. 傳遞值之後，驗證其正確性。 如果是您的使用者，您可以從命令提示字元使用下列命令，以查看應該為哪一個 UPN。 UPN 會看起來類似電子郵件地址。
-   
+
         whoami /upn
 
 您可以選擇性地查看 Power BI 從 Azure Active Directory 取得哪些項目。
 
-1. 瀏覽至 [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net)。
+1. 瀏覽至 [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer)。
 2. 選擇右上角的 [登入]。
 3. 執行下列查詢。 您會看到相當大的 JSON 回應。
-   
+
         https://graph.windows.net/me?api-version=1.5
 4. 尋找 **userPrincipalName**。
 
@@ -206,7 +206,7 @@ ms.locfileid: "34755062"
 1. 在 Power BI 服務的右上角，選取 [?] 。
 2. 選取 [關於 Power BI]。
 3. 您的資料區域會列在 [您的資料儲存位置] 中。
-   
+
     ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 如果您仍然無法取得任何進展，您可以嘗試使用 [fiddler](#fiddler) 或 netsh 之類的工具進行網路追蹤，雖然這些都是進階的收集方法，而且您可能需要其他協助來分析收集到的資料。 您可以連絡[支援](https://support.microsoft.com)以取得協助。
@@ -329,6 +329,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 <a name="activities"></a>
 
 ### <a name="activity-types"></a>活動類型
+
 | 活動類型 | 描述 |
 | --- | --- |
 | MGEQ |透過 ADO.NET 所執行的查詢。 其中包括 DirectQuery 資料來源。 |
@@ -342,9 +343,9 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 2. 搜尋[活動類型](#activities) 以尋找查詢。 MGEQ 即為其中一個範例。
 3. 請記下第二個 GUID，因為這是要求 ID。
 4. 繼續搜尋 MGEQ，直到您找到含有持續時間的 FireActivityCompletedSuccessfullyEvent 項目。 您可以驗證項目是否有相同的要求 ID。持續時間會以毫秒為單位。
-   
+
         DM.EnterpriseGateway Verbose: 0 : 2016-09-26T23:08:56.7940067Z DM.EnterpriseGateway    baf40f21-2eb4-4af1-9c59-0950ef11ec4a    5f99f566-106d-c8ac-c864-c0808c41a606    MGEQ    21f96cc4-7496-bfdd-748c-b4915cb4b70c    B8DFCF12 [DM.Pipeline.Common.TracingTelemetryService] Event: FireActivityCompletedSuccessfullyEvent (duration=5004)
-   
+
    > [!NOTE]
    > FireActivityCompletedSuccessfullyEvent 是詳細資料項目。 除非 TraceVerbosity 位於層級 5，否則將不會記錄此項目。
    > 
@@ -423,12 +424,12 @@ ImpersonationLevel 與 SPN 設定或本機原則設定有關。
 使用閘道進行排定的重新整理時，**重新整理記錄**可以協助您查看發生了哪些錯誤，以及在需要建立支援要求時提供有用的資料。 您可以同時檢視已排程及依需求的重新整理。 以下是取得 **重新整理記錄**的方式。
 
 1. 在 Power BI 瀏覽窗格中，於 [資料集]  中選取資料集 &gt; [開啟功能表]&gt; [排程重新整理] 。
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 2. 在 [設定...]  中&gt; [排程重新整理] ，選取 [重新整理記錄]。
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
-   
+
     ![](media/service-gateway-onprem-tshoot/refresh-history.png)
 
 如需針對重新整理案例進行疑難排解的其他資訊，請參閱[針對重新整理案例進行疑難排解](refresh-troubleshooting-refresh-scenarios.md)文章。

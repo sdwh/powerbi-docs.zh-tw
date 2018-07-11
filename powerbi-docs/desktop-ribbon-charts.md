@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3575a94ede595b4d83fef0cddcbb279ea7a533c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0e0f9e857816b44782831640a74801b515919bae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285523"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136747"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>在 Power BI 中使用功能區圖表
 您可以在 **Power BI** 中使用功能區圖表來視覺化資料，並快速地判斷哪個類別的資料具有最高的等級 (最大值)。 功能區圖表適合顯示等級變更，最高等級 (值) 一律顯示於每個時段的最上方。 從 2017 年 9 月版本開始，功能區圖表提供於 **Power BI Desktop** 中，並提供於 **Power BI 服務**的後續更新。
@@ -44,7 +44,7 @@ ms.locfileid: "34285523"
 ## <a name="next-steps"></a>後續步驟
 如需 **Power BI Desktop** 的詳細資訊，以及如何開始使用，請參閱下列文章。
 
-* [開始使用 Power BI Desktop](desktop-getting-started.md)
+* [Power BI Desktop 是什麼？](desktop-what-is-desktop.md)
 * [Power BI Desktop 的查詢概觀](desktop-query-overview.md)
 * [Power BI Desktop 中的資料來源](desktop-data-sources.md)
 * [連接至 Power BI Desktop 中的資料](desktop-connect-to-data.md)

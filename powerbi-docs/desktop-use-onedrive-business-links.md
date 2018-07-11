@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec5b46dcfebf614e70a0b8ebf858af7b34906eae
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8813294f359c6bd6e1bb01fa3cc2ec3f5eb3d280
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290698"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598249"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>在 Power BI Desktop 中使用商務用 OneDrive
 許多人都將 Excel 活頁簿儲存在可與 Power BI Desktop 完美搭配的商務用 OneDrive 磁碟機上。 有了 **Power BI Desktop**，您可以使用儲存在**商務用 OneDrive** 中的 **Excel** 檔案線上連結來建立報表和視覺效果。 您可以使用**商務用 OneDrive** 群組帳戶或您的個人**商務用 OneDrive** 帳戶。
@@ -26,7 +26,7 @@ ms.locfileid: "34290698"
 1. 使用瀏覽器瀏覽至您商務用 OneDrive 位置。 以滑鼠右鍵按一下要使用的檔案，並選取 [在 Excel 中開啟]。
    
    > [!NOTE]
-> 您的瀏覽器介面看起來可能不完全與下圖相同。 您可以透過許多方法針對在**商務用 OneDrive** 瀏覽器介面中的檔案選取 [在 Excel 中開啟]。 您可以使用可讓您在 Excel 中開啟檔案的任何選項。
+   > 您的瀏覽器介面看起來可能不完全與下圖相同。 您可以透過許多方法針對在**商務用 OneDrive** 瀏覽器介面中的檔案選取 [在 Excel 中開啟]。 您可以使用可讓您在 Excel 中開啟檔案的任何選項。
    > 
    > 
    

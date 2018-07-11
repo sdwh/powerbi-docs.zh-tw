@@ -1,4 +1,5 @@
 ## <a name="list-of-available-data-source-types"></a>可用的資料來源類型清單
+
 | **資料來源** | **即時/DirectQuery** | **使用者設定的手動或排程重新整理** |
 | --- | --- | --- | --- |
 | Analysis Services 表格式 |是 |是 |

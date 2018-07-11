@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 336ae9cd9ac2940b244df88aaf5a8fff7bd3a55e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2d2d983da6de5ec88574092289ed2958c7a98923
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241834"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600404"
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>使用 Power BI 連接到 Azure Mobile Engagement
 Power BI Azure Mobile Engagement 內容套件可讓您快速深入了解 App 資料。
@@ -42,7 +42,7 @@ Power BI Azure Mobile Engagement 內容套件可讓您快速深入了解 App 資
    
     ![](media/service-connect-to-azure-mobile/dashboard.png)
 
- **接下來呢？**
+## <a name="what-now"></a>接下來呢？
 
 * 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 859ab3fdfd06040d8bbf131ab91ea6c9f84deb40
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241939"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965197"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>管理 Power BI 和 Office 365 中的應用程式工作區
 [Power BI 或 Office 365 中應用程式工作區](service-install-use-apps.md)的建立者或管理員，有幾個管理 Power BI 中工作區的層面要管理。 您在 Office 365 中管理的其他層面。 
@@ -33,7 +33,7 @@ ms.locfileid: "34241939"
 * 查看群組電子郵件地址。
 * 刪除群組。
 
-您需要 [Power BI Pro](service-free-vs-pro.md) 授權，才能成為應用程式工作區的系統管理員或成員。 除非您的應用程式工作區在 Power BI Premium 容量中，否則，您的應用程式使用者也需要 Power BI Pro 授權。 然後，商務使用者就可以改用 Power BI 免費授權來存取您的應用程式。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium.md)。
+您需要 [Power BI Pro](service-free-vs-pro.md) 授權，才能成為應用程式工作區的系統管理員或成員。 除非您的應用程式工作區在 Power BI Premium 容量中，否則，您的應用程式使用者也需要 Power BI Pro 授權。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium.md)。
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>編輯 Power BI 中的應用程式工作區
 1. 在 Power BI 服務中，選取 [工作區] 旁邊的箭號 > 選取工作區名稱旁邊的省略符號 (**...**) > [編輯工作區]。 

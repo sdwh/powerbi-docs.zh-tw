@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 472be555bb4c46da41eb762c1eeae14ef991e742
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ed9ab95aace7ab1ff0774732241bdd4a7fffcb15
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290859"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600981"
 ---
 # <a name="using-directquery-in-power-bi"></a>使用 Power BI 中的 DirectQuery
 您可以在使用 **Power BI Desktop** 或 **Power BI 服務**時連接到各種不同的資料來源，而且可以利用不同的方法來進行這些資料連接。 您可以將資料「匯入」Power BI (這是取得資料的最常見方法)，也可以直接連接到原始來源存放庫中的資料 (也稱為 **DirectQuery**)。 本文將說明 **DirectQuery** 及其功能，包括下列主題：
@@ -152,7 +152,7 @@ Power BI 會連接到相當大量的各種資料來源，包括：
     
     因為這類量值可能會在有大量項目的情況下導致效能不佳。
 * **不支援計算資料表：** DirectQuery 模式不支援使用 DAX 運算式定義計算資料表的功能。
-* **關聯性篩選僅限於單一方向：** 使用 DirectQuery 時，您無法將關聯性的交互篩選方向設定為 [雙向]。 例如，您可以透過下列三個資料表，建立顯示每個 Customer[Gender] 以及其所購買之 Product[Category] 數目的視覺效果。 如需使用這類雙向篩選的說明，請參閱[這份詳細的技術白皮書](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional cross-filtering in Analysis Services 2016 and Power BI.docx) (此文件提供 SQL Server Analysis Services 內容的範例，但基本重點同樣適用於 Power BI)。
+* **關聯性篩選僅限於單一方向：** 使用 DirectQuery 時，您無法將關聯性的交互篩選方向設定為 [雙向]。 例如，您可以透過下列三個資料表，建立顯示每個 Customer[Gender] 以及其所購買之 Product[Category] 數目的視覺效果。 如需使用這類雙向篩選的說明，請參閱[這份詳細的技術白皮書](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (此文件提供 SQL Server Analysis Services 內容的範例，但基本重點同樣適用於 Power BI)。
   
   ![](media/desktop-directquery-about/directquery-about_01.png)
   

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 019aa1425d05fcfdc4415570acdc29e7a684dc25
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 88b8b4a50913cd45c5e4ff80a5d5e0ded2eb4cdb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290951"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600736"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>在 Power BI Desktop (預覽) 中的圖形地圖
 在 Power BI Desktop 中，您可將不同的色彩套用至不同的區域，建立**圖形地圖**視覺效果，於地圖上顯示區域的相對比較。 相對於**地圖**視覺效果，**圖形地圖**無法精確顯示地圖上資料點的地理位置；相反地，其主要目的是以不同的著色方式，在地圖上顯示區域的相對比較。
@@ -40,23 +40,23 @@ Power BI Desktop 會建立空的**圖形地圖**視覺效果設計畫布。
 執行下列步驟來建立**圖形地圖**：
 
 1. 在 [欄位] 窗格中，將具有區域名稱 (或縮寫) 的資料欄位拖曳到**位置**貯體，並將資料量值欄位拖曳到**色彩飽和度**貯體 (您還不會看到地圖)。
-   
+
    > [!NOTE]
-> 如需快速取得地圖資料以測試**圖形地圖**的資訊，請參閱以下主題為**取得地圖資料**的一節。
+   > 如需快速取得地圖資料以測試**圖形地圖**的資訊，請參閱以下主題為**取得地圖資料**的一節。
    > 
    > 
-   
+
    ![](media/desktop-shape-map/shape-map_3a.png)
 2. 在 [格式] 設定窗格中，展開 [圖形]，然後從 [標準地圖] 下拉式清單中選取，以顯示您的資料。 此時會出現轉譯，如下圖所示。
-   
+
    ![](media/desktop-shape-map/shape-map_3b.png)
-   
+
    > [!NOTE]
-> 本文章最後的**區域索引鍵**一節中為具有地圖區域索引鍵的資料表集合，您可以用來測試**圖形地圖**視覺效果。
+   > 本文章最後的**區域索引鍵**一節中為具有地圖區域索引鍵的資料表集合，您可以用來測試**圖形地圖**視覺效果。
    > 
    > 
 3. 然後，您可以從 [格式] 設定窗格中修改地圖投射和縮放設定，以及資料點的色彩。 您也可以修改縮放設定。 例如，您可以變更色彩、設定最大值和最小值，以此類推。
-   
+
    ![](media/desktop-shape-map/shape-map_3d.png)
 4. 您也可以將類別資料行加入**圖例**貯體中，並以類別為基礎來分類地圖區域。
 
@@ -114,6 +114,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 在此預覽版本中使用下列**區域索引鍵**，以測試**圖形地圖**。
 
 ### <a name="australia-states"></a>澳洲︰州
+
 | 識別碼 | abbr | iso | 名稱 | 郵遞區號 |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |西澳洲 |WA |
@@ -126,6 +127,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | au-act |ACT |AU-ACT |澳洲首都特區 |ACT |
 
 ### <a name="austria-states"></a>奧地利︰邦
+
 | 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |維也納 |WI |
@@ -139,6 +141,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | at-bu |AT-1 |Burgenland |布根蘭 |BU |
 
 ### <a name="brazil-states"></a>巴西︰州
+
 | 識別碼 |
 | --- |
 | 托坎廷斯 |
@@ -174,6 +177,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 訴訟區域 4 |
 
 ### <a name="canada-provinces"></a>加拿大︰省
+
 | 識別碼 | iso | 名稱 | 郵遞區號 |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |努納福特 |NU |
@@ -191,6 +195,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ca-ab |CA-AB |亞伯達 |AB |
 
 ### <a name="france-regions"></a>法國︰大區
+
 | 識別碼 | 名稱 | 名稱 - 繁體中文 |
 | --- | --- | --- |
 | Alsace |Alsace |阿爾薩斯 |
@@ -217,6 +222,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Aquitaine |Aquitaine |阿基坦 |
 
 ### <a name="germany-states"></a>德國︰邦
+
 | 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |柏林 |BE |
@@ -237,6 +243,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | de-bw |DE-BW |Baden-Württemberg |巴登─符登堡 |BW |
 
 ### <a name="ireland-counties"></a>愛爾蘭︰郡
+
 | 識別碼 |
 | --- |
 | 威克洛 |
@@ -267,6 +274,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 卡洛 |
 
 ### <a name="italy-regions"></a>義大利︰大區
+
 | 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |威尼托 |VN |
@@ -291,6 +299,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | it-ab |IT-65 |Abruzzo |阿布魯佐 |AB |
 
 ### <a name="mexico-states"></a>墨西哥︰州
+
 | 識別碼 | abreviatura | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |薩卡特卡斯 |ZA |
@@ -327,6 +336,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | mx-agu |Ags. |MX-AGU |Aguascalientes |阿瓜斯卡連特斯 |AG |
 
 ### <a name="netherlands-provinces"></a>荷蘭︰省
+
 | 識別碼 | iso | 名稱 | 名稱 - 繁體中文 |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |南荷蘭 |
@@ -343,6 +353,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | nl-dr |NL-DR |Drenthe |德倫特 |
 
 ### <a name="uk-countries"></a>英國：構成國
+
 | 識別碼 | iso | 名稱 |
 | --- | --- | --- |
 | gb-wls |GB-WLS |威爾斯 |
@@ -351,6 +362,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | gb-eng |GB-ENG |英格蘭 |
 
 ### <a name="usa-states"></a>美國︰州
+
 | 識別碼 | 名稱 | 郵遞區號 |
 | --- | --- | --- |
 | us-mi |密西根 |MI |

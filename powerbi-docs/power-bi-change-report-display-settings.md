@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e4ffc542a9564ba3893245ef637b3edd01c38640
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244553"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598747"
 ---
 # <a name="change-the-size-of-a-report-page"></a>變更報表頁面的大小
 在[前一篇文章及前一部影片](power-bi-report-display-settings.md)中，您學到兩種不同的方式來控制在 Power BI 報表中的頁面顯示：**檢視**和**頁面大小**。 頁面檢視和頁面大小都可在 Power BI 服務和 Power BI Desktop 使用，外觀和功能也幾乎相同，但在本教學課程中，我們會使用 Power BI 服務。
@@ -31,19 +31,19 @@ ms.locfileid: "34244553"
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_page.png)
 2. 請確定在畫布上未選取任何視覺效果。 選取 [檢視]  並檢閱顯示選項。
 
-    * 在 [閱讀] 檢視中您會看到這個項目。
+   * 在 [閱讀] 檢視中您會看到這個項目。
 
      ![](media/power-bi-change-report-display-settings/power-bi-page-view-menu-new.png)
-    * 在 [編輯] 檢視中您會看到這個項目。
+   * 在 [編輯] 檢視中您會看到這個項目。
 
-    ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
+     ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
 
-1. 讓我們使用 [實際大小] 設定來看看頁面外觀吧。
+3. 讓我們使用 [實際大小] 設定來看看頁面外觀吧。
 
    ![](media/power-bi-change-report-display-settings/power-bi-actal-size2.png)
 
    不太好，儀表板現在有雙重捲軸。
-2. 請切換至 [調整成視窗寬度] 。
+4. 請切換至 [調整成視窗寬度] 。
 
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_width.png)
 
