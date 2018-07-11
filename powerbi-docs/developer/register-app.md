@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599475"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924993"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>註冊 Azure AD 應用程式以內嵌 Power BI 內容
 了解如何在 Azure Active Directory (Azure AD) 內註冊應用程式，以用來內嵌 Power BI 內容。
@@ -23,7 +23,6 @@ ms.locfileid: "37599475"
 
 > [!IMPORTANT]
 > 註冊 Power BI 應用程式之前，您需要有 [Azure Active Directory 租用戶和組織使用者](create-an-azure-active-directory-tenant.md)。 如果您尚未以租用戶中的使用者來註冊 Power BI，則無法成功完成應用程式註冊。
-> 
 > 
 
 有兩種方式可以註冊您的應用程式。 第一種方法是使用 [Power BI 應用程式註冊工具](https://dev.powerbi.com/apps/)；或者，您也可以在 Azure 入口網站直接註冊。 由於 Power BI 應用程式註冊工具只需填寫幾個欄位，所以算是最簡簡單的途徑。 如果您要變更應用程式，請使用 Azure 入口網站。
@@ -45,7 +44,7 @@ ms.locfileid: "37599475"
    
     只有當您選擇 [伺服器端 Web 應用程式] 作為應用程式類型時，才可使用 [首頁 URL]。
    
-    若為「為客戶進行內嵌」 及 *integrate-dashboard-web-app* 範例，重新導向 URL 為 `http://localhost:13526/redirect`。 若為報表及磚範例，重新導向 URL 為 `http://localhost:13526/`。
+    若為 *「為客戶進行內嵌」* 及 *integrate-dashboard-web-app* 範例，**重新導向 URL** 為 `http://localhost:13526/Redirect`。 若為報表及磚範例，**重新導向 URL** 為 `http://localhost:13526/`。
 6. 為可存取的應用程式選擇 API。 如需 Power BI 存取權限的詳細資訊，請參閱 [Power BI Permissions (Power BI 權限)](power-bi-permissions.md)。
    
     ![](media/register-app/app-registration-apis.png)
@@ -83,7 +82,7 @@ ms.locfileid: "37599475"
 5. 遵循提示並建立新的應用程式。
    
    * 對於 Web 應用程式，請提供登入 URL，也就是應用程式的基底 URL，可供使用者登入，例如 `http://localhost:13526`。
-   * 若是原生應用程式，請提供 [重新導向 URI]，供 Azure AD 用來傳回權杖回應。 輸入您應用程式特定的值。例如 `http://myapplication/redirect`
+   * 若是原生應用程式，請提供 **[重新導向 URI]**，供 Azure AD 用來傳回權杖回應。 輸入您應用程式特定的值。例如 `http://myapplication/Redirect`
 
 如需如何在 Azure Active Directory 中註冊應用程式的詳細資訊，請參閱[整合應用程式與 Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 

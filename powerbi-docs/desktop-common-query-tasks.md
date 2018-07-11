@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137483"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877323"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常見查詢工作
 當使用 Power BI Desktop 的 [查詢編輯器]  視窗時，有很多常用的工作。 本文將示範這些常見工作，並提供其他資訊的連結。 
@@ -38,7 +38,7 @@ ms.locfileid: "37137483"
 連接至這兩個資料來源所需的步驟是常見查詢工作的開始位置。
 
 ## <a name="connect-to-data"></a>連接到資料
-若要連接至 Power BI Desktop 中的資料，請從功能區上的 [主資料夾]  索引標籤選取 [取得資料]  按鈕。 Power BI Desktop 會呈現一個功能表，其中具有最常見的資料來源。 如需 Power BI Desktop 可連接的資料來源完整清單，請選取功能表底部的 [其他...]  按鈕。 如需詳細資訊，請參閱 [Power BI Desktop 中的資料來源](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources).
+若要連接至 Power BI Desktop 中的資料，請從功能區上的 [主資料夾]  索引標籤選取 [取得資料]  按鈕。 Power BI Desktop 會呈現一個功能表，其中具有最常見的資料來源。 如需 Power BI Desktop 可連接的資料來源完整清單，請選取功能表底部的 [其他...]  按鈕。 如需詳細資訊，請參閱 [Power BI Desktop 中的資料來源](https://docs.microsoft.com/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -60,10 +60,10 @@ ms.locfileid: "37137483"
 
 其他資料連線也很類似。 如果需要驗證才能建立資料連線，Power BI Desktop 會提示您輸入適當的認證。
 
-如需連接至 Power BI Desktop 資料的逐步示範，請參閱[連接至 Power BI Desktop 中的資料](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data).
+如需連接至 Power BI Desktop 資料的逐步示範，請參閱[連接至 Power BI Desktop 中的資料](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>資料成形及合併
-您可以輕鬆地使用查詢編輯器塑造及合併資料。 本節包含一些範例，說明如何塑造資料。 如需塑造與合併資料的更完整示範，請參閱**[使用 Power BI Desktop 塑造及合併資料](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**。
+您可以輕鬆地使用查詢編輯器塑造及合併資料。 本節包含一些範例，說明如何塑造資料。 如需塑造與合併資料的更完整示範，請參閱**[使用 Power BI Desktop 塑造及合併資料](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**。
 
 在上一節中，我們連接到兩組資料 – Excel 活頁簿和 Web 資源。 一旦載入到查詢編輯器中，我們就會看到下列畫面，其中包含來自所選取網頁的查詢 (從 [查詢] 窗格內列出的可用查詢中取得，位於 [查詢編輯器] 視窗左邊)。
 
