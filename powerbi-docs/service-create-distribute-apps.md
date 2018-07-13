@@ -10,11 +10,11 @@ ms.date: 06/20/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 25aa03c12b36bf19c05fe01dc6c24a0e4a3a2416
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965289"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38937175"
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表建立並發佈應用程式
 

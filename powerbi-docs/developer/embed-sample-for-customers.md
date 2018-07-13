@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: d9e2f76c63ee9ebff01080686277a3fbb5af46f3
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: a8833cb6b41ea76d50814975ada6239690a0c196
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900069"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877410"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>教學課程：為您的客戶將 Power BI 報表、儀表板或圖格內嵌至應用程式
 使用 **Azure 中的 Power BI Embedded**，可利用**應用程式擁有的資料**，將報表、儀表板或磚內嵌至應用程式。 **應用程式擁有的資料**即是應用程式使用 Power BI 作為其內嵌的分析平台。 這通常是 **ISV 開發人員**的情況。 身為 **ISV 開發人員**，您可以建立會顯示應用程式 (完全整合且互動) 中報表、儀表板或圖格的 Power BI 內容，而應用程式的使用者完全不需要有 Power BI 授權；在這種方式下，甚至根本不會發現其為 Power BI。 本教學課程示範如何在為使用**應用程式擁有的資料**的客戶，使用 **Azure 中的 Power BI Embedded** 時，利用 **Power BI** .NET SDK 搭配 **Power BI** JavaScript API，將報表整合至應用程式。
@@ -54,7 +54,7 @@ ms.locfileid: "37900069"
     ![應用程式註冊搜尋](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![新增應用程式註冊](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
-4. 遵循提示並建立新的應用程式。 針對「應用程式擁有資料」，您必須使用 [原生]作為應用程式類型。 您還必須提供 [重新導向 URI]，供 **Azure AD** 用來傳回權杖回應。 輸入您應用程式特定的值 (例如：`http://localhost:13526/redirect`)。
+4. 遵循提示並建立新的應用程式。 針對「應用程式擁有資料」，您必須使用 [原生]作為應用程式類型。 您還必須提供 [重新導向 URI]，供 **Azure AD** 用來傳回權杖回應。 輸入您應用程式特定的值 (例如：`http://localhost:13526/Redirect`)。
 
     ![建立應用程式](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
 
