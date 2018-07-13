@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298956"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926505"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>教學課程：連線到 SQL Server 中的內部部署資料
 
@@ -128,7 +128,7 @@ ms.locfileid: "34298956"
 
 ## <a name="add-sql-server-as-a-gateway-data-source"></a>加入 SQL Server 作為閘道資料來源
 
-在 Power BI Desktop 中，您會直接連線到 SQL Server，但 Power BI 服務需要閘道作為橋接器。 現在，將您的 SQL Server 執行個體新增為先前文章中 (列在[必要條件](#prereqisites)下) 所建立閘道的資料來源。 
+在 Power BI Desktop 中，您會直接連線到 SQL Server，但 Power BI 服務需要閘道作為橋接器。 現在，將您的 SQL Server 執行個體新增為先前文章中 (列在[必要條件](#prerequisites)下) 所建立閘道的資料來源。 
 
 1. 在 Power BI 服務的右上角，選取齒輪圖示 ![設定齒輪圖示](media/service-gateway-sql-tutorial/icon-gear.png) > [管理閘道]。
 
@@ -142,15 +142,17 @@ ms.locfileid: "34298956"
 
     ![輸入資料來源設定](media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    | 選項 | 值 |
-    | ---    | ---   |
-    | **資料來源名稱**       | test-sql-source      |
-    | **資料來源類型**       | SQL Server      |
-    | **伺服器**       |  您的 SQL Server 執行個體名稱 (必須與您在 Power BI Desktop 中指定的名稱相同)    |
-    | **資料庫**       | TestGatewayDocs      |
-    | **驗證方法**       | Windows      |
-    | **使用者名稱**        |  您用來連線到 SQL Server 的帳戶，例如 michael@contoso.com     |
-    | **密碼**       |  用來連線到 SQL Server 之帳戶的密碼    |
+
+   |          選項           |                                               值                                                |
+   |---------------------------|----------------------------------------------------------------------------------------------------|
+   |   **資料來源名稱**    |                                          test-sql-source                                           |
+   |   **資料來源類型**    |                                             SQL Server                                             |
+   |        **伺服器**         | 您的 SQL Server 執行個體名稱 (必須與您在 Power BI Desktop 中指定的名稱相同) |
+   |       **資料庫**        |                                          TestGatewayDocs                                           |
+   | **驗證方法** |                                              Windows                                               |
+   |       **使用者名稱**        |             您用來連線到 SQL Server 的帳戶，例如 michael@contoso.com             |
+   |       **密碼**        |                   用來連線到 SQL Server 之帳戶的密碼                    |
+
 
 4. 選取 [加入] 。 當程序成功時，您會看到 [連線成功]。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297139"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599173"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理您的資料來源─Analysis Services
 安裝內部部署資料閘道之後，您必須新增可搭配閘道使用的資料來源。 本文將探討如何使用閘道和資料來源。 您可以針對已排程的重新整理或即時連線，使用 Analysis Services 資料來源。
@@ -52,7 +52,7 @@ ms.locfileid: "34297139"
 
 1. 選取右上角的齒輪圖示![](media/service-gateway-enterprise-manage-ssas/pbi_gearicon.png) > [管理閘道] 。
 2. [閘道] > [移除]
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>加入資料來源
@@ -119,15 +119,13 @@ ms.locfileid: "34297139"
 2. 請展開包含 Analysis Services 資料來源的閘道。 或者，若您尚未建立 Analysis Services 資料來源，可以暫時先這麼做。
 3. 請選取資料來源，然後選取 [使用者] 索引標籤。
 4. 請選取 [對應使用者名稱]。
-   
+
     ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_02.png)
 
 然後，您會看到加入規則及測試指定使用者的選項。
 
 > [!NOTE]
 > 您可能會不小心變更無意更動的使用者。 例如，如果您的**取代 (原始值)** 是 @contoso.com，而您的**使用 (新名稱)** 是 @contoso.local，之後 @contoso.local 將會取代所有登入包含 @contoso.com 的使用者。 此外，如果您的**代替 (原始名稱)** 為 dave@contoso.com，而您的**使用 (新名稱)** 為 dave@contoso.local，具有 v-dave@contoso.com登入的使用者會作為 v-dave@contoso.local 傳送。
-> 
-> 
 
 ### <a name="ad-lookup-mapping"></a>AD 查閱對應
 若要執行內部部署 AD 屬性查閱以將 AAD UPN 重新對應至 Active Directory 使用者，請遵循本節中的步驟。 若要開始，請檢閱這項作業的運作方式。
@@ -154,10 +152,10 @@ ms.locfileid: "34297139"
 1. 下載並安裝最新閘道
 2. 在閘道中，您需要使用網域帳戶 (而非本機服務帳戶；否則 AD 查閱將無法在執行階段正常運作) 來變更要執行的**內部部署資料閘道服務**。 您必須重新啟動閘道服務，變更才會生效。  前往您電腦上的閘道應用程式 (搜尋 “on-premises data gateway” 或「內部部署資料閘道」)。 若要這樣做，請移至 [服務設定] > [變更服務帳戶]。 除非您想要改為建立新的閘道，否則請確定您有此閘道的修復金鑰，因為您必須在相同的電腦上才能進行還原。 
 3. 以系統管理員身分巡覽至閘道的安裝資料夾 *C:\Program Files\On-premises data gateway*，確認您具有寫入權限，並編輯下列檔案：
-   
+
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. 根據「您的」 AD 使用者的 Active Directory 屬性設定，編輯下列兩個設定值。 下面所示的設定值只是範例，而您必須根據 Active Directory 設定來指定它們。 
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
 5. 重新啟動**內部部署資料閘道**服務，以讓設定變更生效。
 

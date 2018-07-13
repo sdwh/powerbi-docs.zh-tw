@@ -1,6 +1,6 @@
 ---
-title: 開始使用 Power BI 服務
-description: 開始使用 Power BI 服務
+title: 開始使用 Power BI 服務 (Power BI 線上)
+description: 開始使用 Power BI 線上 (app.powerbi.com)
 author: adamw
 manager: kfile
 ms.reviewer: ''
@@ -8,22 +8,37 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d66653ebe9232cb6da2f3c53b01e791ca9966db9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34310122"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598633"
 ---
-# <a name="get-started-with-power-bi-service-apppowerbicom"></a>開始使用 Power BI 服務 (app.powerbi.com)
-本教學課程可協助您開始使用 ***Power BI 服務***。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，強烈建議您先閱讀[什麼是 Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)。
+# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>教學課程：開始使用 Power BI 服務 (app.powerbi.com)
+本教學課程可協助您開始使用 ***Power BI 服務***。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，強烈建議您先閱讀[什麼是 Power BI](power-bi-overview.md)。
 
-![此圖顯示桌面、服務與行動裝置之間的關聯性](media/service-get-started/power-bi-components.png)
+![此圖顯示 Desktop、服務與行動裝置之間的關聯性](media/service-get-started/power-bi-components.png)
 
-Power BI 服務有免費版本和專業版本。 無論您使用哪個版本，如果您已有帳戶，請開啟瀏覽器並輸入 app.powerbi.com 以開啟 Power BI 服務。 如果您是新使用者，建議改從 www.powerbi.com 著手。 從這裡，您可以在登入服務前深入了解 Power BI。  當您準備好進行試用時，請選取您在右上角看到的 [免費註冊] 連結。 如果您的系統管理員已經為您啟用 Power BI，請勿使用 [免費註冊] 按鈕，但改為直接前往 app.powerbi.com。 
+在本教學課程中，您完成下列步驟：
+
+> [!div class="checklist"]
+> * 尋找 Power BI 服務的其他開始使用內容
+> * 登入 Power BI 線上帳戶，或在還沒有 Power BI 線上帳戶時註冊帳戶
+> * 開啟 Power BI 服務
+> * 取得一些資料，並在報表檢視中予以開啟
+> * 使用該資料建立視覺效果，並另存為報表
+> * 釘選來自報表的圖格來建立儀表板
+> * 使用問與答自然語言工具將另一個視覺效果新增至儀表板
+> * 刪除資料集、報表和儀表板來清除資源
+
+## <a name="sign-up-for-power-bi-service"></a>註冊 Power BI
+如果您尚未註冊 Power BI，請先[註冊免費 Power BI Pro 試用](https://app.powerbi.com/signupredirect?pbi_source=web)，再開始進行。
+
+如果您已有帳戶，請開啟瀏覽器，並鍵入 app.powerbi.com 以開啟 Power BI 服務。 
 
 ![免費登入或註冊](media/service-get-started/power-bi-sign-up.png)
 
@@ -36,10 +51,9 @@ Power BI 服務有免費版本和專業版本。 無論您使用哪個版本，�
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
-> 
-> 
 
-Microsoft Power BI 協助您掌握關切資訊的最新狀態。  使用 Power BI 服務，***儀表板***能助您掌握商務脈動。  儀表板顯示的***磚***，可讓您按一下以開啟「報表」來進一步探索。  連接到多個***資料集***，讓所有相關資料集中到一處。 您想要了解構成 Power BI 的建置組塊嗎？  請參閱 [Power BI - 基本概念](service-basic-concepts.md)。
+## <a name="what-is-power-bi-service"></a>什麼是 Power BI 服務？
+Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Power BI 協助您掌握關切資訊的最新狀態。  使用 Power BI 服務，***儀表板***能助您掌握商務脈動。  儀表板顯示的***磚***，可讓您按一下以開啟「報表」來進一步探索。  連接到多個***資料集***，讓所有相關資料集中到一處。 您想要了解構成 Power BI 的建置組塊嗎？  請參閱 [Power BI - 基本概念](service-basic-concepts.md)。
 
 如果 Excel 或 CSV 檔案中有重要的資料，您可以建立 Power BI 儀表板在任何位置掌握其動態，並與他人交流意見。  您訂閱了 Salesforce 之類的 SaaS 應用程式嗎？  預先連線到 Salesforce 以自動從該資料建立儀表板，或[查看您可以連線的所有其他 SaaS 應用程式](service-get-data.md)。 如果您是組織的一員，請查看是否曾為您發佈過任何的[應用程式](service-create-distribute-apps.md)。
 
@@ -48,7 +62,7 @@ Microsoft Power BI 協助您掌握關切資訊的最新狀態。  使用 Power B
 ## <a name="step-1-get-data"></a>步驟 1：取得資料
 本例從 CSV 檔案取得資料。 想遵循本教學課程嗎？ [下載此範例 CSV 檔案](http://go.microsoft.com/fwlink/?LinkID=521962).
 
-1. [登入 Power BI](http://www.powerbi.com/)。 沒有帳戶嗎？ 別擔心，您可以免費註冊。
+1. [登入 Power BI](http://www.powerbi.com/)。 沒有帳戶嗎？ 別擔心，您可以註冊免費試用。
 2. Power BI 會在您的瀏覽器中開啟。 選取左導覽列底部的 [取得資料] 。
    
    ![取得資料](media/service-get-started/getdata3.png)
@@ -94,21 +108,21 @@ Microsoft Power BI 協助您掌握關切資訊的最新狀態。  使用 Power B
    
    ![釘選圖示](media/service-get-started/pinnew.png)
 
-5. 因為這是一份新報告，系統會提示您先儲存該報告，才可將視覺效果釘選到儀表板。 為報告命名 (例如「銷售歷史數據」) 並選取 [儲存並繼續]。 
+4. 因為這是一份新報告，系統會提示您先儲存該報告，才可將視覺效果釘選到儀表板。 為報告命名 (例如「銷售歷史數據」) 並選取 [儲存並繼續]。 
    
    ![儲存報表對話方塊](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
-6. 讓我們將折線圖釘選到新的儀表板，並將它命名為「教學課程的財務範例」。 
+5. 讓我們將折線圖釘選到新的儀表板，並將它命名為「教學課程的財務範例」。 
    
    ![為報表命名](media/service-get-started/power-bi-pin.png)
    
- 1. 選取 [釘選] 。
+1. 選取 [釘選] 。
    
     靠近右上角的成功訊息讓您知道，視覺效果已當成磚加入儀表板。
    
     ![[已釘選到儀表板] 對話方塊](media/service-get-started/power-bi-pin-success.png)
 
-8. 選取 [移至儀表板] 將釘選的折線圖視為全新儀表板的圖格。 藉由新增更多視覺效果圖格，以及[重新命名、調整大小、連結和調整圖格位置](service-dashboard-edit-tile.md)，讓您的儀表板更完善。
+6. 選取 [移至儀表板] 將釘選的折線圖視為全新儀表板的圖格。 藉由新增更多視覺效果圖格，以及[重新命名、調整大小、連結和調整圖格位置](service-dashboard-edit-tile.md)，讓您的儀表板更完善。
    
    ![已釘選視覺效果的儀表板](media/service-get-started/power-bi-new-dashboard.png)
    
@@ -128,26 +142,21 @@ Microsoft Power BI 協助您掌握關切資訊的最新狀態。  使用 Power B
 
    ![已釘選圖表的儀表板](media/service-get-started/power-bi-final-dashboard.png)
 
+## <a name="clean-up-resources"></a>清除資源
+既然您已經完成本教學課程，就可以刪除資料集、報表和儀表板。 
+
+1. 在左側導覽列中，選取 [我的工作區]。
+2. 選取 [資料集] 索引標籤，並找到您針對本教學課程匯入的資料集。  
+3. 選取省略符號 (...) > [刪除]。
+
+    ![刪除資料集](media/service-get-started/power-bi-delete.jpg)
+
+    刪除資料集也會刪除報表和儀表板。 
+
+
 ## <a name="next-steps"></a>後續步驟
 準備試試其他的嗎？  以下是一些探索 Power BI 的絕佳方法。
 
-* [連接至另一個資料集](service-get-data.md).
-* 與同事[共用您的儀表板](service-share-dashboards.md)。
-* 閱讀[設計儀表板的秘訣](service-dashboards-design-tips.md).
-* 使用[行動裝置上的 Power BI 應用程式](mobile-apps-for-mobile-devices.md)檢視儀表板
-
-想要再等等？ 請從這些主題開始，它們會幫助您熟悉適應 Power BI。
-
-* [了解報表、資料集、儀表板和磚如何相互搭配](service-basic-concepts.md)
-* 請瀏覽我們的 [Power BI 導引式學習](guided-learning/index.md)網站，並參與一些 (很短的) 課程
-* 觀看一些 [Power BI 影片](videos.md)
-* [查看我們供您使用的範例](sample-datasets.md)
-
-### <a name="stay-in-touch-with-power-bi"></a>掌握 Power BI 的最新動態
-* 在 Twitter 上關注 [@MSPowerBI](https://twitter.com/mspowerbi)
-* 訂閱我們的 [YouTube 影片頻道](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
-* 點播觀賞 [Power BI 使用者入門網路研討會](webinars.md)
-* 不確定如何尋求協助？ 請參閱我們的 [10 個祕訣協助您取得說明](service-tips-for-finding-help.md)頁面
-
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+> [!div class="nextstepaction"]
+> [連線至使用的線上服務](./service-connect-to-services.md)
 

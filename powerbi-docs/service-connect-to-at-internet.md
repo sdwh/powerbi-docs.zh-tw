@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 21554c5addac0adad84783dad83b4861544a3425
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1baccb5fd674d5e0037f112fc8cbee450b6bcb8a
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242205"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136356"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>使用 Power BI 連接到 AT Internet Bridge
 AT Internet 可協助您從資料擷取即時運算值，方法是使用 Analytics Suite 這套統一的數位分析平台。 Power BI 的 AT Internet Bridge 內容套件包含適用您網站的資料瀏覽、來源、當地語系化以及裝置。
@@ -59,7 +59,7 @@ AT Internet 可協助您從資料擷取即時運算值，方法是使用 Analyti
     - Global Visits  
 
 ## <a name="next-steps"></a>後續步驟
-[開始使用 Power BI](service-get-started.md)
+[Power BI 是什麼？](power-bi-overview.md)
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

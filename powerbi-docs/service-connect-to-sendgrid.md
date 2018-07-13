@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a08d9d10725a5c135ef6732b8397a57833463f4c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a0ae99e2dfad889840cc29ca4fa9f0f29397bf04
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247818"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135367"
 ---
 # <a name="connect-to-sendgrid-with-power-bi"></a>使用 Power BI 連接到 SendGrid
 SendGrid 的 Power BI 內容套件可讓您從 SendGrid 帳戶中擷取深入資訊與統計資料。 您可以使用 SendGrid 內容套件，在儀表板中以視覺化方式呈現您的 SendGrid 統計資料。
@@ -56,7 +56,7 @@ SendGrid 儀表板提供下列度量資訊︰
 * 依裝置、用戶端、瀏覽器排列的電子郵件統計資料
 
 ## <a name="next-steps"></a>後續步驟
-[開始使用 Power BI](service-get-started.md)
+[Power BI 是什麼？](power-bi-overview.md)
 
 [取得資料](service-get-data.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d9e70e0b69f0ce68826f566e6e5cdb0f4d8e113e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 7456a030dd5047642c4de9c7a289fed96fe390f1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34242924"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135965"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>使用 Power BI 連接到 Alpine Metrics 銷售預測內容套件
 Alpine Metrics 為各種規模的銷售組織提供最先進的雲端及隨選「預測銷售程序最佳化」。 Power BI 的 Alpine Metrics 銷售預測內容套件包含可能及預測的銷售和風險等計量資訊，讓您深入探索企業的未來。 
@@ -66,7 +66,7 @@ Alpine Metrics 為各種規模的銷售組織提供最先進的雲端及隨選�
 需要有具備上述資料表權限的 Alpine Metrics 帳戶，才能具現化此內容套件。
 
 ## <a name="next-steps"></a>後續步驟
-[開始使用 Power BI](service-get-started.md)
+[Power BI 是什麼？](power-bi-overview.md)
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

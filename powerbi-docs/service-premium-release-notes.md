@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52c6293bacb2cae1d74a7a0459c61fe3c3bc201f
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34298312"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944345"
 ---
 # <a name="power-bi-premium-release-notes"></a>Power BI Premium 版本資訊
 下列為 Power BI Premium 的版本資訊：專用容量為您的組織或小組提供更可靠的效能、更大的資料磁碟區、即使檢視者沒有每個的使用者授權也能夠散發內容。
 
-* Power BI 免費授權的使用者現可透過 Power BI 服務的 Premium 工作區，檢視與其共用的儀表板。
+* 所有使用者現在都可以透過 Power BI 服務的 Premium 工作區來檢視與其共用的儀表板，而不論獲指派的授權為何。
 * 容量管理員現可自動取得容量的指派權限。
 * 動態資料列層級安全性 (RLS) 現可用於內嵌的使用案例。 如需詳細資訊，請參閱[內嵌分析的資料列層級安全性 (RLS)](developer/embedded-row-level-security.md)。
 * 尚不支援使用 powerbi.com 將 Power BI 應用程式散發給其他 AAD 租用戶中的使用者。 我們正在設法解決。

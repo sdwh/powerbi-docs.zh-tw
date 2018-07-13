@@ -3,18 +3,18 @@ title: 關於 Power BI Embedded 的常見問題集
 description: 瀏覽 Power BI Embedded 相關的常見問題與回答清單。
 author: markingmyname
 manager: kfile
+ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
-ms.openlocfilehash: bcdb20d22790b74b54caca5d21325039d6e718bf
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.date: 06/22/2018
+ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812736"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599942"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -76,7 +76,7 @@ Power BI Embedded 是一組可供開發人員用來在平台即服務供應項�
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |購買     |Azure 入口網站 |Office |Office |
-|使用案例 |* 在自己的應用程式內嵌內容 |* 在自己的應用程式內嵌內容<br>* 與 PowerBI.com 外的 Power BI 免費使用者共用內容，以及在其他 SaaS 應用程式中 (SharePoint、Teams) 內嵌 |* 在自己的應用程式內嵌內容<br>* 與 PowerBI.com 外的 Power BI 免費使用者共用內容，以及在其他 SaaS 應用程式中 (SharePoint、Teams) 內嵌<br>* 透過 PowerBI.com 與 Power BI 免費使用者共用內容  |
+|使用案例 |* 在自己的應用程式內嵌內容 |* 在自己的應用程式內嵌內容<br>* 與 PowerBI.com 外的 Power BI 免費使用者共用內容，以及在其他 SaaS 應用程式 (SharePoint、[Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)) 中內嵌 |* 在自己的應用程式內嵌內容<br>* 與 PowerBI.com 外的 Power BI 免費使用者共用內容，以及在其他 SaaS 應用程式中 (SharePoint、Teams) 內嵌<br>* 透過 PowerBI.com 與 Power BI 免費使用者共用內容  |
 |帳單 |每小時 |每月 |每月 |
 |承諾用量  |無承諾用量 |每年  |每月/每年 |
 |差異 |完整彈性 - 可以在 Azure 入口網站中，或透過 API 相應增加/減少、暫停/繼續資源  |可用於在 SharePoint Online 和 Microsoft Teams 內嵌內容 |在相同容量中結合應用程式內嵌及使用 Power BI 服務 |
@@ -95,6 +95,58 @@ Power BI Embedded 是一組可供開發人員用來在平台即服務供應項�
 
 雖然目前沒有自動調整，但所有 API 都能隨時調整。
 
+### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>為什麼建立/調整/繼續容量會讓容量進入暫止狀態？
+
+佈建容量 (調整/繼續/建立) 可能會失敗。 佈建呼叫的呼叫端應該使用「取得詳細資料 API」來檢查容量的 ProvisioningState：[Capacities - Get Details](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails) (容量 - 取得詳細資料)。
+
+### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>為什麼我只能在特定區域中建立 PBIE？
+
+您只能建立 PBI 租用戶區域的 PBIE 容量。
+
+### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>如何尋找我的 PBI 租用戶區域？
+
+您可以使用 PBI 入口網站了解您的 PBI 租用戶區域。
+
+https://app.powerbi.com/ > ? > 關於 Power BI
+
+![關於 Power BI](media/embedded-faq/about-01.png)
+![租用戶區域](media/embedded-faq/tenant-location-01.png)
+
+### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>通訊循序處理序 (CSP) 通道的支援項目為何？
+
+* 您可以針對具有訂用帳戶類型 CSP 的租用戶建立 PBIE
+* 夥伴帳戶可以登入客戶租用戶、購買客戶租用戶的 PBIE，並將客戶租用戶使用者指定為 Power BI 容量管理員
+
+### <a name="why-do-i-get-an-unsupported-account-message"></a>為什麼會收到不受支援帳戶的訊息？
+
+Power BI 需要您使用組織帳戶註冊。 不支援使用 MSA (Microsoft 帳戶) 嘗試註冊 Power BI。
+
+### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>我可以使用 API 來建立和管理 Azure 容量嗎？
+
+是，您可以使用 Powershell Cmdlet 和 ARM API 來建立和管理 PBIE 資源。
+
+* Rest API - https://docs.microsoft.com/rest/api/power-bi-embedded/
+* Powershell Cmdlet - https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
+
+### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解決方案中的 PBI Embedded 專用容量角色是什麼？
+
+若要[將您的解決方案升階到生產環境](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)，您需要 Power BI 內容 (您在應用程式中使用之要指派給專用容量的應用程式工作區)。
+
+### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>PBI Embedded 可用的 Azure 區域是什麼？
+
+[PAM](https://ecosystemmanager.azurewebsites.net/home) (EcoManager) - 請參閱產品可用性管理員
+
+可用區域 (16 - 與 Power BI 相同的區域)
+* 美國 (6) - 美國東部、美國東部 2、美國中北部、美國中南部、美國西部、美國西部 2
+* 歐洲 (2) - 北歐、西歐
+* 亞太地區 (2) - 東南亞、東亞
+* 巴西 (1) - 巴西南部
+* 日本 (1) - 日本東部
+* 澳大利亞 (1) - 澳大利亞東南部
+* 印度 (1) - 印度西部
+* 加拿大 (1) - 加拿大中部
+* 英國 (1) - 英國南部
+
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>Power BI Embedded 的驗證模型是什麼？
 
 Power BI Embedded 會繼續使用 Azure AD 進行主使用者 (指定的 Power BI Pro 授權使用者) 驗證，並在 Power BI 中驗證應用程式。
@@ -104,6 +156,17 @@ Power BI Embedded 會繼續使用 Azure AD 進行主使用者 (指定的 Power B
 如果您已經有 Azure AD 租用戶，可以使用現有目錄，也可以建立新的 Azure AD 租用戶，以達成內嵌應用程式內容的安全性。
 
 若要取得 AAD 權杖，可以使用其中一個 Azure Active Directory 驗證程式庫 - https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries。 有適用於多種平台的用戶端程式庫。
+
+### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>我的應用程式已使用 AAD 來驗證使用者。 在「使用者擁有資料」情節中，驗證到 Power BI 時，如何使用此身分識別？ 
+
+它是標準 OAuth 代理流程 (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) 應用程式需要設定成要求 PowerBI 服務的權限 (具有所需範圍)，而且在您擁有應用程式的使用者權杖之後，只需要使用使用者存取權杖來呼叫 ADAL API AcquireTokenAsync，並將 PowerBI 資源 URL 指定為資源識別碼，請參閱以下顯示如何執行這項作業的的程式碼片段：
+
+```csharp
+var context = new AD.AuthenticationContext(authorityUrl);
+var userAssertion = new AD.UserAssertion(userAccessToken);
+var clientAssertion = new AD.ClientAssertionCertificate(MyAppId, MyAppCertificate)
+var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAssertion, userAssertion);
+```
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Power BI Embedded 和 Azure 服務有何不同？
 
@@ -181,8 +244,8 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 
 3. 做好進入生產環境的準備之後，購買 **Power BI Embedded** 專用容量，然後將您的 Power BI 內容 (工作區) 指派給該容量。
 
->[!Note]
-您可以在以 **Power BI Embedded** 解決方案平行進行建置的同時，繼續使用「Power BI 工作區集合」。 準備就緒之後，您便可以將客戶移至新的 **Power BI Embedded** 解決方案，然後淘汰「Power BI 工作區集合」解決方案。
+> [!Note]
+> 您可以在以 **Power BI Embedded** 解決方案平行進行建置的同時，繼續使用「Power BI 工作區集合」。 準備就緒之後，您便可以將客戶移至新的 **Power BI Embedded** 解決方案，然後淘汰「Power BI 工作區集合」解決方案。
 
 如需詳細資訊，請參考[如何將 Power BI 工作區集合內容移轉至 Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)
 

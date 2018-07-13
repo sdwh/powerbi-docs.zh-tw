@@ -6,14 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2018
+ms.date: 06/20/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6efd54d868a5a1f2d8d657d352c7133d4036b0b6
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 25aa03c12b36bf19c05fe01dc6c24a0e4a3a2416
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965289"
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表建立並發佈應用程式
 
@@ -21,17 +22,15 @@ ms.lasthandoff: 05/17/2018
 
 ![Power BI 應用程式](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
-商務使用者通常需要多個 Power BI 儀表板和報表來執行業務。 應用程式會整合一切，因此他們不需要記住所有這些儀表板的名稱和位置。  
-
-透過 Power BI 應用程式 (目前在預覽階段)，您可以建立多組儀表板和報表，然後將這些應用程式發佈至整個組織、特定的人員或群組。 如果您是報告建立者或系統管理員，應用程式可讓您更輕鬆地管理許多儀表板的權限。
+商務使用者通常需要多個 Power BI 儀表板和報表來執行業務。 應用程式會整合一切，因此他們不需要記住所有這些儀表板的名稱和位置。 透過 Power BI 應用程式，您可以建立多組儀表板和報表，然後將這些應用程式發佈至整個組織、特定人員或群組。 如果您是報告建立者或系統管理員，應用程式可讓您更輕鬆地管理許多儀表板的權限。
 
 商務使用者可透過幾個不同的方式取得您的應用程式。 如果 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 否則，他們可以從 Microsoft AppSource 安裝您的應用程式，或者您可以將直接連結傳送給他們。 他們可以輕鬆地找到並傳回至您的內容，因為它就在一個地方。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 深入了解[商務使用者的應用程式體驗](service-install-use-apps.md)。
 
 ### <a name="licenses-for-apps"></a>應用程式的授權
-如果您是應用程式建立者，則您需要 Power BI Pro 授權。 您的應用程式使用者有兩個選項。
+如果您是應用程式建立者，則您需要 Power BI Pro 授權。 您的應用程式使用者有兩個可檢視應用程式的選項。
 
-* 選項 1：所有商務使用者都需要 **Power BI Pro** 授權，才能檢視您的應用程式。 
-* 選項 2：如果您的應用程式位於 Power BI Premium 容量中，則組織中的免費使用者可以檢視應用程式內容。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium.md)。
+* 選項 1：應用程式使用者已獲指派 **Power BI Pro** 授權。 
+* 選項 2：應用程式使用者未獲指派 **Power BI Pro** 授權，但應用程式位於 Power BI Premium 容量中。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium.md)。
 
 ### <a name="apps-and-organizational-content-packs"></a>應用程式和組織內容套件
 應用程式是組織內容套件的演進。 如果您已經有組織內容套件，則它們會繼續與應用程式並存運作。

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 06/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 82a4c9c58567f5ace943363b7bed59fa744e85a5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561739"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944092"
 ---
 # <a name="embedding-with-power-bi"></a>Power BI 的內嵌功能
 Power BI 提供 API 來將您的儀表板和報表內嵌至應用程式。 Power BI API 在內嵌內容時，會提供一組一致的功能以及最新 Power BI 功能的存取權 (例如儀表板、閘道和應用程式工作區)。
@@ -29,7 +29,7 @@ Power BI 提供 API 來將您的儀表板和報表內嵌至應用程式。 Power
 ## <a name="embedding-for-your-organization"></a>對組織進行內嵌
 對組織進行內嵌可讓您擴充 Power BI 服務。 當應用程式的使用者需要檢視其內容時，就需要登入 Power BI 服務。 貴組織中有人登入之後，他們只能在 Power BI 服務中存取他們自己的和已經與他們共用的儀表板和報告。 
 
-對組織進行內嵌的範例包括內部 Web 應用程式、SharePoint Online 網頁組件和 Microsoft Teams 整合。
+*對組織進行內嵌的範例包括內部 Web 應用程式、SharePoint Online 網頁組件和 [Microsoft Teams 整合 (您必須具有管理員權限)](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)。*
 
 若要對組織進行內嵌，請參閱下列文章：
 

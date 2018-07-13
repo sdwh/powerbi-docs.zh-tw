@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4641fc0c36ad7fb64cc5da08ee8eda180f4ccc31
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1f3bdb66d9737102c63ecace5359ba1b96265f6a
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240481"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137391"
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>使用 Power BI 連接到 Planview Enterprise
 使用 Planview Enterprise 內容套件，您可以全新的方式，直接在 Power BI 中視覺化資源和工作管理資料。 請使用 Planview Enterprise 登入認證以互動方式查看投資組合的費用、了解超出預算及預算不足的部分，以及清楚專案如何配合公司的策略優先順序。 您也可以擴充立即可用的儀表板和報表，取得對您而言最重要的深入資訊。
@@ -52,10 +52,10 @@ ms.locfileid: "34240481"
 ## <a name="system-requirements"></a>系統需求
 若要將 Planview Enterprise 資料匯入 Power BI，您必須是啟用 Reporting 入口網站檢視器功能之角色的 Planview Enterprise 使用者。 請參閱下列其他需求。
 
-這個程序假設您已使用 Power BI 帳戶登入 Microsoft Power BI 的首頁。 如果您還沒有 Power BI 帳戶，請在 Power BI 的首頁建立新的免費 Power BI 帳戶，然後按一下 [取得資料]。
+這個程序假設您已使用 Power BI 帳戶登入 Microsoft Power BI 的首頁。 若您沒有 Power BI 帳戶，請前往 [powerbi.com](https://powerbi.microsoft.com/get-started/)，然後在 [Power BI - 雲端共同作業與共用] 下選取 [免費試用]。 然後按一下 [取得資料]。
 
 ## <a name="next-steps"></a>後續步驟：
 
-[開始使用 Power BI](service-get-started.md)
+[Power BI 是什麼？](power-bi-overview.md)
 
 [取得 Power BI 的資料](service-get-data.md)

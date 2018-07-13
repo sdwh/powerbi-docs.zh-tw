@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722193"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926528"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>尋找已登入的 Power BI 使用者
 如果您是租用戶系統管理員，而且想要查看誰已登入 Power BI，可以使用 Azure Active Directory 存取和使用情況報告來了解情形。
@@ -25,9 +25,7 @@ ms.locfileid: "34722193"
 您可以在[新的](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)和[傳統](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) Azure Active Directory (Azure AD) 入口網站內存取活動報告。 雖然上面的影片以傳統入口網站為例，但本文將以新的入口網站為主。
 
 > [!NOTE]
-> 此活動報告包含 Power BI (免費) 和專業使用者，但不會依他們擁有的授權來加以識別。
-> 
-> 
+> 此活動報表不會識別每位使用者擁有的授權類型。
 
 ## <a name="requirements"></a>需求
 以下是檢視登入活動報告的需求。
@@ -70,7 +68,7 @@ ms.locfileid: "34722193"
 
 ## <a name="next-steps"></a>後續步驟
 [Azure Active Directory 入口網站 (新的入口網站) 中的登入活動報告](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[檢視您的存取和使用情況報告 (傳統入口網站)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports#view-or-download-a-report)  
+[檢視您的存取和使用情況報告 (傳統入口網站)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
 [登入範例 PowerShell 指令碼](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
 [Azure Active Directory 報告保留原則](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
 [在組織內使用稽核](service-admin-auditing.md)  

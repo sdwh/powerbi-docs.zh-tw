@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f283a8ed273dcb609e9d5160adbeb714e8935ab9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 57e1e8ce015db9b5f88f7b685c80092023540a6f
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251925"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599127"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>使用 Power BI 連接到 Zuora
 Zuora for Power BI 可讓您以視覺化方式顯示重要的營收、帳單與訂閱資料。 使用預設儀表板與報表來分析使用狀況趨勢、追蹤帳單與付款，以及監視週期性營收，或根據您自己的獨特儀表板與報告需求進行自訂。
@@ -32,7 +32,7 @@ Zuora for Power BI 可讓您以視覺化方式顯示重要的營收、帳單與�
 3. 選取 [Zuora] \> [取得]。
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. 指定您的 Zuora URL。 一般來說為 " https://www.zuora.com "，請參閱以下[尋找這些參數](#FindingParams)，以了解詳細資料。
+4. 指定您的 Zuora URL。 一般來說為 " <https://www.zuora.com> "，請參閱以下[尋找這些參數](#FindingParams)，以了解詳細資料。
 
    ![](media/service-connect-to-zuora/params.png)
 5. 在 [ **驗證方法**] 選取 [ **基本** ]，然後輸入使用者名稱及密碼，再選取 [ **登入**]。

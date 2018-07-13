@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3308abbb3fbc1ceadb78b83d13d69d014de1bff1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2c5fc1f8763b8360d7cd5a6f6605d6b4f3d5df3c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34238541"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135643"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>使用 Power BI 連接到 Ziosk Survey Analytics
 Power BI 的 Ziosk Survey Analytics 內容套件讓使用 Ziosk 資料表的餐廳，能夠存取由 Ziosk 問卷資料所提供的獨特深入資訊，包括依日期、地點、員工等的區隔。
@@ -71,7 +71,7 @@ Power BI 的 Ziosk Survey Analytics 內容套件讓使用 Ziosk 資料表的餐�
 需要有具備上述資料表權限的 Ziosk 帳戶，才能具現化此內容套件。
 
 ## <a name="next-steps"></a>後續步驟
-[開始使用 Power BI](service-get-started.md)
+[Power BI 是什麼？](power-bi-overview.md)
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

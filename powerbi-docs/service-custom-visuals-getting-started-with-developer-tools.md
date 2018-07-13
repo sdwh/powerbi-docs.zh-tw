@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296289"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600371"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>使用開發人員工具建立自訂視覺效果
 自訂視覺效果可讓您滿足使用者的需求，並契合應用程式的設計。 您可以使用開發人員工具來建立 Power BI 的自訂視覺效果。
@@ -32,14 +32,14 @@ ms.locfileid: "34296289"
 
 1. 下載並安裝 [NodeJS](https://nodejs.org)。 需具備 4.0 或更新版本，但建議使用 5.0 或更新版本。
 2. 安裝命令列工具。 在命令提示字元中，執行下列命令。
-   
+
         npm install -g powerbi-visuals-tools
 3. 您可以執行下列命令，不需任何參數，即可確認工具是否安裝。
-   
+
         pbiviz
-   
+
     您應該會看到下列說明的輸出。
-   
+
     <pre><code>
          +syyso+/
     oms/+osyhdhyso/
@@ -59,22 +59,22 @@ ms.locfileid: "34296289"
                /dmmh /mmmm/ /osyhhy/
                  //   dmmd
                        ++
-   
+
        PowerBI Custom Visual Tool
-   
+
     Usage: pbiviz [options] [command]
-   
+
     Commands:
-   
+
     new [name]        Create a new visual
     info              Display info about the current visual
     start             Start the current visual
     package           Package the current visual into a pbiviz file
     update [version]  Updates the api definitions and schemas in the current visual. Changes the version if specified
     help [cmd]        display help for [cmd]
-   
+
     Options:
-   
+
     -h, --help      output usage information
     -V, --version   output the version number
     --install-cert  Install localhost certificate
@@ -103,7 +103,7 @@ ms.locfileid: "34296289"
 若要安裝憑證，請執行下列命令。
 
     pbiviz --install-cert
-    
+
 > [!NOTE]
 > 您應該會看到一則訊息，指示使用新產生的複雜密碼來安裝 PFX 憑證。
 > 
@@ -112,20 +112,20 @@ ms.locfileid: "34296289"
 **Windows OS**
 
 1. 選取 [安裝憑證...]。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows.png)
 2. 依序選取 [目前使用者] 和 [下一步]。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows2.png)
 3. 依序選取 [Place all certificate in the following store] \(將所有憑證放在下列存放區) 和 [瀏覽]。
 4. 依序選取 [信任的根憑證授權] 和 [確定]。 選取 [下一步] 。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows3.png)
 5. 選取 [完成] 。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows4.png)
 6. 在安全性警告對話方塊中，選取 [是]。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows5.png)
 7. 關閉任何已開啟的瀏覽器。
 
@@ -137,13 +137,13 @@ ms.locfileid: "34296289"
 **OSX**
 
 1. 如果左上方的鎖為鎖定狀態，請選取該鎖以解除鎖定。 搜尋 *localhost* 並連按兩下憑證。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx.png)
 2. 選取 [永遠信任]，然後關閉視窗。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx2.png)
 3. 輸入您的使用者名稱和密碼。 選取 [更新設定]。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx3.png)
 4. 關閉任何已開啟的瀏覽器。
 
@@ -157,15 +157,15 @@ ms.locfileid: "34296289"
 
 1. 瀏覽並登入 [app.powerbi.com](https://app.powerbi.com)。
 2. 選取**齒輪圖示**，然後選取 [設定]。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings.png)
 3. 依序選取 [開發人員] 和 [啟用開發人員視覺效果以供測試]。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings-enable-developer-live-preview.png)
 4. 在 [視覺效果] 窗格中，選取 [開發人員視覺效果]。
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
-   
+
    > [!NOTE]
    > 您必須已從開發電腦的視覺效果資料夾執行 `pbiviz start`，才能進行此動作。 如需如何建立視覺效果的詳細資訊，請參閱本文的[建立新的視覺效果](#create-a-new-visual)。
    > 
@@ -196,11 +196,11 @@ pbiviz new My Visual name
 1. 開啟提示。
 2. 將目錄變更為您的視覺效果資料夾。 這是包含 `pbiviz.json` 檔案的資料夾。
 3. 執行下列命令：
-   
+
     ```
     pbiviz start
     ```
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-start-visual.png)
 
 如果您的位置錯誤，則會看到類似如下的錯誤：
@@ -249,7 +249,7 @@ pbiviz new My Visual name
 1. 開啟提示。
 2. 將目錄變更為您的視覺效果資料夾。 這是包含 `pbiviz.json` 檔案的資料夾。
 3. 執行下列命令：
-   
+
     ```
     pbiviz package
     ```
@@ -294,6 +294,7 @@ pbiviz update 1.2.0
 您的視覺效果專案是在執行 `pbiviz new` 命令時建立的資料夾。 
 
 ### <a name="file-structure"></a>檔案結構
+
 | 項目 | 描述 |
 | --- | --- |
 | assets/ |用來儲存視覺效果資產 (圖示、螢幕擷取畫面等)。 |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6cae9bdfbb89e8c3a11e8ee3fec45327296319b3
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9c41cca5ba4b66e118ea1122988080bbc1d45a8a
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288904"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37597437"
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online：透過 Power BI Desktop 連接到資料
 您可以透過 Power BI Desktop 連接到 Project Online 中的資料。
@@ -25,7 +25,7 @@ ms.locfileid: "34288904"
 
 ### <a name="step-2-connect-to-project-online-with-odata"></a>步驟 2：透過 OData 連接到 Project Online
 1. 開啟 **Power BI Desktop**。
-2. 在 [歡迎] 畫面上，選取 [取得資料]。
+2. 在 [歡迎使用] 畫面上，選取 [取得資料]。
 3. 選擇 [OData 摘要]，然後選取 [連接]。
 4. 在 [URL] 方塊中，輸入您的 OData 摘要位址，然後按一下 [確定]。
    

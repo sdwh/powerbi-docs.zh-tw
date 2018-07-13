@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 4680ab3709f1a2cbe56445e6719ea4de15396eb0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297645"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598606"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的磚
 適用於︰
@@ -40,7 +40,7 @@ ms.locfileid: "34297645"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *例如，此折線圖中選取的是**本年度銷售額**和**去年銷售額**在**八月份**的值。*  
+   <em>例如，此折線圖中選取的是 [本年度銷售額] 和 [去年銷售額] 在 [八月] 的值。*  
    
    在圓形圖中，點選圓形的配量可在圓形圖上方顯示配量的值。  
    
@@ -107,7 +107,7 @@ ms.locfileid: "34297645"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   *在此橫條圖中，[裝飾項目] 列的值會顯示在圖表上方。*
+   <em>在此橫條圖中，[裝飾項目] 列的值會顯示在圖表上方。*
    
    點選 [全螢幕] 圖示 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) 在全螢幕模式中開啟磚，此時不會有導覽和功能表列。
    
@@ -126,6 +126,6 @@ ms.locfileid: "34297645"
 4. 點選返回箭號或 [返回] 按鈕以關閉磚並返回儀表板。
 
 ## <a name="next-steps"></a>後續步驟
-* [開始使用 Power BI](service-get-started.md)
+* [Power BI 是什麼？](power-bi-overview.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

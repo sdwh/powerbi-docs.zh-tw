@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 11073e7df57d4717e27fa73c6a5e1e315a9a8dcc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 4e9e10f713be50707909c68b104f82cada6777b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241128"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599039"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>使用 Power BI 連接到 tyGraph
 使用 Power BI 內容套件以視覺化方式檢視和瀏覽 Power BI 中的 tyGraph 資料。 首先連接至 tyGraph 帳戶並載入儀表板、報表和資料集。 現成的內容包含如作用中參與量值 (MAE 分數) 與熱門參與者等深入資訊。 進一步自訂它以反白顯示您最關心的資訊。  資料會根據您設定的排程自動重新整理。
@@ -42,7 +42,7 @@ ms.locfileid: "34241128"
    
     **如果您不是 Yammer 驗證管理員**
    
-    tyGraph 內容套件需要由 Yammer 驗證管理員建立的 tyGraph 帳戶。 建立之後，補充的金鑰可以發給相同組織中的使用者。 如果您的驗證管理員尚未建立 tyGraph 帳戶，請與他們連絡，請他們建立。 如果已建立，您可以傳送電子郵件給 <mailto:support@unlimitedviz.com> 來要求金鑰。
+    tyGraph 內容套件需要由 Yammer 驗證管理員建立的 tyGraph 帳戶。 建立之後，補充的金鑰可以發給相同組織中的使用者。 如果您的驗證管理員尚未建立 tyGraph 帳戶，請與他們連絡，請他們建立。 如果已建立，您可以傳送電子郵件給 <support@unlimitedviz.com> 來要求金鑰。
    
     ![](media/service-connect-to-tygraph/creds.png)
 6. 在成功驗證之後，匯入程序會自動開始。 完成時，新的儀表板、報表和模型會出現在瀏覽窗格中。 選取儀表板以檢視匯入的資料。

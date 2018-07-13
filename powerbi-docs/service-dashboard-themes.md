@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813794"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944644"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>在 Power BI 服務中使用儀表板佈景主題
 透過**儀表板主題**，您可以將某個色彩佈景主題套用到整個儀表板，例如公司色彩、季節性色彩，或是您可能想要套用的任何其他色彩佈景主題。 當您套用 [儀表板主題] 時，儀表板中的所有視覺效果都會使用您選擇的佈景主題色彩 (但有些例外，本文稍後會加以說明)。
@@ -89,7 +89,6 @@ Power BI 儀表板的預設佈景主題是 [淺色]。 如果您想要自訂色�
 
     ![使用目的地佈景主題](media/service-dashboard-themes/power-bi-use-destination.png)
 
-* 目前，使用 REST API、在行動裝置上或透過外部使用者來檢視內嵌儀表板時，不支援儀表板佈景主題。    
 * 儀表板佈景主題無法套用到釘選的動態報表頁面、iframe 磚、SSRS 磚、活頁簿磚或影像。
 * 儀表板佈景主題可在行動裝置上檢視，但儀表板佈景主題的建立只能在 Power BI 服務中完成。 
 * 儀表板自訂佈景主題只能搭配從報表釘選的磚使用。 

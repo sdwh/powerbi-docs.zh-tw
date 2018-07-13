@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 05/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5e69ed0010c5a2ff496b761f54b4cf2561f9b4ca
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1f3c871d4ac47a110f2085ef1bdccb166fc00643
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297415"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944299"
 ---
 # <a name="what-is-power-bi-administration"></a>什麼是 Power BI 管理？
 
@@ -73,12 +73,12 @@ Power BI 服務系統管理員角色不會將指派授權的能力授與使用�
 
 | **工具** | **一般工作** |
 | --- | --- |
-| Power BI 管理入口網站 |<ul><li>封鎖使用者對 Power BI 的存取<br><li>取得及使用 Premium 容量<br><li>確保服務品質<br><li>管理商務資料的分類<br><li>協助執行內容發佈和共用原則<br><li>管理工作區<br><li>發行自訂視覺效果<br><li>驗證用來在其他應用程式中嵌入 Power BI 的程式碼<br><li>針對資料存取和其他問題進行疑難排解</ul>|
-| Office 365 系統管理中心 |<ul><li>管理使用者註冊<br><li>購買及指派 Pro 授權</ul>|
-| Office 365 安全性與合規性中心 |<ul><li>檢閱及管理事件的稽核</ul>|
-| Azure 入口網站中的 Azure Active Directory (AAD) |<ul><li>透過 AAD 設定對 Power BI 的條件式存取<br><li>佈建 Power BI Embedded 容量</ul>|
-| PowerShell Cmdlet |<ul><li>透過指令碼管理工作區和 Power BI 的其他層面</ul>|
-| 系統管理 API |<ul><li>建置自訂的系統管理工具，以協助 Power BI 系統管理員的工作。例如，Power BI Desktop 可以使用這些 API 來建立以系統管理相關資料為基礎的報表</ul>|
+| Power BI 管理入口網站 |<ul><li>取得及使用 Premium 容量</li><li>確保服務品質</li><li>管理商務資料的分類</li><li>協助執行內容發佈和共用原則</li><li>管理工作區<br><li>發行自訂視覺效果</li><li>驗證用來在其他應用程式中嵌入 Power BI 的程式碼</li><li>針對資料存取和其他問題進行疑難排解</li></ul>|
+| Office 365 系統管理中心 |<ul><li>管理使用者註冊</li><li>購買及指派 Pro 授權</li><li>封鎖使用者對 Power BI 的存取</li></ul>|
+| Office 365 安全性與合規性中心 |<ul><li>檢閱及管理事件的稽核</li></ul>|
+| Azure 入口網站中的 Azure Active Directory (AAD) |<ul><li>透過 AAD 設定對 Power BI 的條件式存取</li><li>佈建 Power BI Embedded 容量</li></ul>|
+| PowerShell Cmdlet |<ul><li>透過指令碼管理工作區和 Power BI 的其他層面</li></ul>|
+| 系統管理 API 和 SDK |<ul><li>建置自訂的系統管理工具，以協助 Power BI 系統管理員的工作。例如，Power BI Desktop 可以使用這些 API 來建立以系統管理相關資料為基礎的報表</li></ul>|
 
 ## <a name="next-steps"></a>後續步驟
 

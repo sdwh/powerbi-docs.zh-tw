@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a6b4795be959cfc1842a07f1ba0a74dd81109e89
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240422"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965588"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>在 Power BI 服務中與編輯檢視的報表互動
 報表可以在 Power BI 服務和 Power BI Desktop 中建立與編輯。 在 Power BI 服務中，您可以在**編輯檢視**中建立和編輯報表。 而在 Power BI Desktop 中，您可以在[**報表檢視**](desktop-report-view.md)中建立和編輯報表。 本文涵蓋 Power BI 服務中的編輯檢視。 
 
-Power BI 服務有兩種不同模式可與報表互動 -- [閱讀檢視](service-reading-view-and-editing-view.md) (適用於報表「取用者」) 和 [編輯檢視] (適用於報表擁有者和建立者)。  共用報表以及編輯其他人建立的報告需要 Power BI Pro 版授權。 如果您是 Power BI 免費版使用者，則仍然可以建立報表，但無法使用[共用](service-share-reports.md)功能。    
+Power BI 服務有兩種不同模式可與報表互動 -- [閱讀檢視](service-reading-view-and-editing-view.md) (適用於報表「取用者」) 和 [編輯檢視] (適用於報表擁有者和建立者)。  共用報表以及編輯其他人建立的報告需要 Power BI Pro 版授權。 如果您沒有 Pro 授權，則仍然可以建立報表，但無法[共用報表](service-share-reports.md)。    
 
 在報表編輯檢視中，提供您許多探索及設計報表的彈性。 提供所有[閱讀檢視](service-reading-view-and-editing-view.md)功能，以及其他功能。 [編輯檢視] 僅適用於建立報告的人員，或[以應用程式工作區的成員或管理員身分共同擁有報告](service-create-distribute-apps.md)的同事。
 
@@ -39,7 +39,7 @@ Power BI 服務有兩種不同模式可與報表互動 -- [閱讀檢視](service
 * 複製報告頁面
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-編輯其他人建立的報告以及與他人共用您的報表需要 Power BI Pro 版授權。  如果您是 Power BI 免費版使用者，則仍然可以建立報表，但無法使用[共用](service-share-reports.md)功能。
+編輯其他人建立的報告以及與他人共用您的報表需要 Power BI Pro 版授權。  如果您沒有 Pro 授權，則仍然可以建立報表，但無法[共用報表](service-share-reports.md)。
 
 
 ## <a name="next-steps"></a>後續步驟

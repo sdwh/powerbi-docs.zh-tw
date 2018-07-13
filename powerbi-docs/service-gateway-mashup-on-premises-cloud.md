@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/06/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3550a3fc0cfc51b61e1d7e51a50c2a36325f2388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 2547be7f7bdadb7f991db54230d4fd791941838d
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250580"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600056"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>合併或附加內部部署與雲端資料來源
 
@@ -38,17 +38,17 @@ ms.locfileid: "35250580"
 
 4. 在此閘道叢集下，新增在查詢中使用的任何[內部部署資料來源](service-gateway-enterprise-manage-scheduled-refresh.md#add-a-data-source)。 您不需要在這裡新增雲端資料來源。
 
-4. 將具有結合內部部署和雲端資料來源之查詢的 Power BI Desktop 檔案上傳至 Power BI 服務。
+5. 將具有結合內部部署和雲端資料來源之查詢的 Power BI Desktop 檔案上傳至 Power BI 服務。
 
-5. 在新資料集的 [資料集設定] 頁面：
+6. 在新資料集的 [資料集設定] 頁面：
 
-    - 對於內部部署來源，選取與此資料來源建立關聯的閘道。
+   - 對於內部部署來源，選取與此資料來源建立關聯的閘道。
 
-    - 在 [資料來源認證] 下，視需要編輯雲端資料來源認證。
+   - 在 [資料來源認證] 下，視需要編輯雲端資料來源認證。
 
-    ![資料集設定](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
+     ![資料集設定](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-6. 設定雲端認證之後，您現在可以使用 [立即重新整理] 選項重新整理資料集，或將它排程為定期重新整理。
+7. 設定雲端認證之後，您現在可以使用 [立即重新整理] 選項重新整理資料集，或將它排程為定期重新整理。
 
 
 ## <a name="next-steps"></a>後續步驟

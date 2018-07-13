@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/06/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: db32f7d0d3f7ca7b6943ca5347dc349c8c44be85
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301841"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137460"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
@@ -31,11 +31,19 @@ ms.locfileid: "35301841"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="april-2018"></a>2018 年 4 月
+## <a name="may-2018"></a>2018 年 5 月
+* Power BI 服務中的[佈景主題儀表板](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes)。
+* 使用 Premium 的[累加式重新整理](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh)。
+* 要求 [Power BI 應用程式](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)的存取工作流程。
+* 取得資料更新，讓使用者更輕鬆地找到 [Power BI 應用程式](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)。
+* Power BI 服務中開啟和關閉[永續性篩選](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)的設定。
+* 報表的 Azure B2B 邀請工作流程改善。
+
+## <a name="previous-months-2018"></a>前幾個月 (2018)
+### <a name="april-2018"></a>2018 年 4 月
 * [Power BI GDPR 白皮書](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * 預設會針對 Office 365 租用戶開啟 Power BI 服務[稽核記錄](https://docs.microsoft.com/power-bi/service-admin-auditing)。
 
-## <a name="previous-months-2018"></a>前幾個月 (2018)
 ### <a name="march-2018"></a>2018 年 3 月
 * Power BI 服務中的[永續性篩選](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) \(英文\)。
 * 藉由使用者的個人電子郵件帳戶來與使用者共用內容。 [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) 的延伸模組。
@@ -63,7 +71,7 @@ ms.locfileid: "35301841"
 * [發佈至網路](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings)的細微系統管理控制項。
 
 ## <a name="september-2017"></a>2017 年 9 月
-* 與具有「進階」的免費使用者共用儀表板。
+* 在 Premium 容量中，與沒有 Power BI Pro 授權的使用者共用儀表板。
 * 配置容量以符合您的 v 核心集區業務需求。
 * 按一下立即相應增加或相應減少容量。
 * [PubNub 區塊](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards)來輕鬆地將資料發送至 REST API
@@ -222,7 +230,7 @@ ms.locfileid: "35301841"
 
 ***使用 Excel 分析***
 
-* 所有使用者都可以[使用 Excel 分析](service-analyze-in-excel.md)︰在 Excel 中存取 Power BI 資料模型的能力已延伸到所有使用者，包括免費和 Pro 使用者。
+* 所有使用者都可以[使用 Excel 分析](service-analyze-in-excel.md)︰在 Excel 中存取 Power BI 資料模型的能力已延伸到所有使用者，而不論獲指派的授權為何。
 * 改進多使用者帳戶體驗︰如果您有多個 Power BI 使用者帳戶，現在可以更輕鬆地登入。
 
 如需所有詳細資訊，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)
@@ -567,9 +575,10 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 **2015 年 7 月 24 日**
 
-* 我們很高興宣布 Power BI 的「正式發行」(GA) 版本。 您可以繼續使用免費版本的 Power BI，或註冊 [Power BI Pro](service-self-service-signup-for-power-bi.md)。 在 GA 版本中，我們提供一些很棒的新功能：
+* 我們很高興宣布 Power BI 的「正式發行」(GA) 版本。 立即註冊 [Power BI Pro](service-self-service-signup-for-power-bi.md)。 在 GA 版本中，我們提供一些很棒的新功能：
 * 新的視覺效果和報表建立體驗：新的報表畫布上有更多的視覺效果選項，更能充分掌控標題、圖例、軸、色彩、背景等等的格式化。
-* [Power BI 群組](service-create-distribute-apps.md)：群組提供建置在 Office 365 群組上的強大共同作業體驗。
+* 
+  [Power BI 群組](service-create-distribute-apps.md)：群組提供建置在 Office 365 群組上的強大共同作業體驗。
 * [組織內容套件](service-organizational-content-pack-introduction.md)：Power BI 使得建立儀表板和報表非常簡單，而且使用者現在可以將此內容發佈到組織的內容資源庫。
 * [帶入整個 Excel 檔案](service-excel-workbook-files.md)：您可以將儲存在商務用 OneDrive 的任何 Excel 活頁簿帶入 Power BI，並檢視整個活頁簿，方式就和在 Excel Online 完全一樣。
 * [帶入 CSV 檔案](service-get-data-from-files.md)：就像 Excel 或 Power BI Desktop 檔案一樣，逗號分隔值 (CSV) 文字檔也可以是您的 Power BI 儀表板和報表的資料集。
@@ -579,7 +588,8 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 **2015 年 7 月 14 日**
 
 * Acumatica Cloud ERP 提供一套完全整合的商務管理應用程式，例如財務、配銷、CRM 和專案會計，並且採用強大且富彈性的平台。 使用 Power BI [Acumatica 內容套件](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx)，可讓您快速連接並立即取得商機資料的深入解析。 此內容包含現成可用的儀表板、一組報告，和策劃資料集，以瀏覽並提供詳細資料，例如依日期統計的成交商機總計。 您可以在[這裡](service-connect-to-acumatica.md)深入了解. 
-* [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) 現在提供管理完善的 Spark 服務。 這項功能允許反覆的機器學習和互動式資料分析等案例。 Power BI 可讓您直接連接到在 HDInsight 上的 Spark 中的資料，其中提供簡單且即時的瀏覽。 如需詳細資訊，請閱讀我們的[說明文件](spark-on-hdinsight-with-direct-connect.md)。
+* 
+  [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) 現在提供管理完善的 Spark 服務。 這項功能允許反覆的機器學習和互動式資料分析等案例。 Power BI 可讓您直接連接到在 HDInsight 上的 Spark 中的資料，其中提供簡單且即時的瀏覽。 如需詳細資訊，請閱讀我們的[說明文件](spark-on-hdinsight-with-direct-connect.md)。
 * [Office 365 導覽和應用程式啟動器整合](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher)。 只要按一下，您現在便可以導覽到所有 Office 365 應用程式。
 * [指定自訂 URL](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url)，以便使用者使用者按一下磚時導覽至該處。 您現在能夠完全控制使用者的去向：特定報表、另一個儀表板、SSRS 報表，或是外部網站。 
 * 您在 Power BI 耗用的[儲存體可見度與管理](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)
@@ -597,7 +607,8 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 * 將 Power BI Desktop 檔案上傳至 Power BI 服務之後，即可加以[更新](http://blogs.msdn.com/b/powerbi/archive/2015/06/22/announcing-refresh-support-for-power-bi-designer-files-in-the-power-bi-service.aspx) (排程更新與立即更新)。
 * 我們即將發行自 12 月以來，對 Power BI 的最大視覺化變更：較為簡潔且更簡單的[取得資料](http://blogs.msdn.com/b/powerbi/archive/2015/06/23/the-new-get-data-experience.aspx)體驗。  當您按一下 [取得資料] 時，您現在會看到單一畫面，其中有一組類別目錄可從中選擇。 這會讓您更容易找到您關心的內容。
-* [Azure SQL 資料倉儲](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx)提供了彈性規模與大量平行處理。 藉由今天宣佈的有限公開預覽，Power BI 可讓您直接連接到儲存在 Azure SQL 資料倉儲中的資料，其中提供簡單且動態的瀏覽。 建立資料倉儲的連接之後，會即時產生查詢，並在您瀏覽資料時傳回來源。 如此便不需要建立及上傳自訂資料模型，也可提供資料的互動式瀏覽。
+* 
+  [Azure SQL 資料倉儲](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx)提供了彈性規模與大量平行處理。 藉由今天宣佈的有限公開預覽，Power BI 可讓您直接連接到儲存在 Azure SQL 資料倉儲中的資料，其中提供簡單且動態的瀏覽。 建立資料倉儲的連接之後，會即時產生查詢，並在您瀏覽資料時傳回來源。 如此便不需要建立及上傳自訂資料模型，也可提供資料的互動式瀏覽。
 
 **2015 年 6 月 16 日**
 
@@ -661,7 +672,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 * 已改進使用 OneDrive 進行更新的可靠性。  已解決某些未從 OneDrive 更新活頁簿的情況。
 
 ## <a name="next-steps"></a>後續步驟
-[開始使用 Power BI](service-get-started.md)  
+[Power BI 是什麼？](power-bi-overview.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

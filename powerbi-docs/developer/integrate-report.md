@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 032e0ed05d56d2d7f1e2b41cfd922999ff43ea94
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 530dcffa998a80b88b1cb15ae1d22a14eba6c620
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813357"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944414"
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>將報表整合至組織的應用程式
 了解如何在對組織進行內嵌時，使用 REST API 呼叫配合 Power BI JavaScript API 將報表整合或內嵌至 Web 應用程式。
 
 ![內嵌報表的範例](media/integrate-report/powerbi-embedded-report.png)
 
-若要遵循此逐步解說進行整合，您需要一個 **Power BI** 帳戶。 如果您沒有帳戶，可以[註冊免費 Power BI 帳戶](../service-self-service-signup-for-power-bi.md)，或建立您自己的 [Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)用於測試用途。
+若要遵循此逐步解說進行整合，您需要一個 **Power BI** 帳戶。 如果您沒有帳戶，則可以[註冊免費 Power BI Pro 試用](../service-self-service-signup-for-power-bi.md)，或建立您自己的 [Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)用於測試用途。
 
 > [!NOTE]
 > 想要改用 embedtoken 內嵌客戶的報表嗎？ 請參閱[將客戶的儀表板、磚或報表整合至應用程式](embed-sample-for-customers.md)。

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: d41b0a84d512c5ef6cebf810a89fd74a838c672e
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301726"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864345"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>搭配 Power BI 內嵌內容使用資料列層級安全性
 資料列層級安全性 (RLS) 可用來限制使用者存取儀表板、圖格、報告和資料集內的資料。 多位不同的使用者可在看見不同的資料時使用這些相同的成品。 內嵌支援 RLS。
@@ -65,11 +65,11 @@ RLS 是在 Power BI Desktop 中撰寫。 我們可以在資料集和報表處於
 3. 在 [區域] 資料表中，輸入下列 DAX 運算式：**[區域經理] = USERNAME()**。
    
     ![RLS 規則的 DAX 陳述式](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. 若要確認規則正常運作，請在 [模型] 索引標籤上，選取[以角色身分檢視]，然後選取您剛建立的 [經理] 角色，以及 [其他使用者]。 輸入 **Andrew Ma** 作為使用者。
+4. 若要確認規則正常運作，請在 [模型] 索引標籤上選取 [以角色身分檢視]，然後選取您剛建立的 [經理] 角色，以及 [其他使用者]。 輸入 **AndrewMa** 作為使用者。
    
     ![[以角色身分檢視] 對話方塊](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
    
-    報表現在會顯示您以 **Andrew Ma** 登入的資料。
+    報表現在會顯示您以 **AndrewMa** 登入的資料。
 
 套用篩選，我們在此套用的篩選會進一步篩選 [區域]、[商店] 和 [銷售] 資料表中的所有記錄。 不過，由於 [銷售] 和 [時間]、[銷售] 和 [項目] 以及 [項目] 和 [時間] 資料表之間關聯性的篩選方向，因此不會進一步篩選。 若要深入了解雙向交叉篩選，請下載 [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (SQL Server Analysis Services 2016 和 Power BI Desktop 中的雙向交叉篩選) 技術白皮書。
 

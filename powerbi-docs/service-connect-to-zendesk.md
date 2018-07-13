@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 997dd8b598e67d590723c72fb35245c3b3486c8b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afcaae9499aa1c7e1461030cfa6b5d7b35a47188
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242438"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136011"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>使用 Power BI 連接到 Zendesk
 Zendesk 內容套件包含 Power BI 儀表板和一組 Power BI 報表，提供您有關於票證數量及代理程式效能的深入分析資料。 您可以使用提供的儀表板和報表，或是加以自訂，以反白顯示您特別有興趣的資訊。  資料會自動每天重新整理一次。 
@@ -84,6 +84,6 @@ Zendesk URL 與您用來登入 Zendesk 帳戶的 URL 相同。 如果不確定 Z
 如果您在連接時發生問題，請檢查 Zendesk URL，並確認使用的是 Zendesk 系統管理員帳戶。
 
 ## <a name="next-steps"></a>後續步驟
-* [開始使用 Power BI](service-get-started.md)
+* [Power BI 是什麼？](power-bi-overview.md)
 * [取得資料](service-get-data.md)
 

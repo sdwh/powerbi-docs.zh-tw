@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8b1e94ca0923c3e2ba509df266cec0f05596ab1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852179"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598590"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>建立及發佈 Power BI 組織內容套件 (教學課程)
 > [!NOTE]
@@ -43,24 +43,24 @@ ms.locfileid: "34852179"
    
    請記住，組織內容套件庫最後可能會含有上百個內容套件，發佈給組織或群組。 花點時間來提供內容套件有意義的名稱、新增合適的描述，以及選取適當的對象。  使用的描述必須讓內容套件可輕易透過搜尋尋找。
    
-   1.  選取 [特定群組]，輸入完整的個人電子郵件地址、[Office 365 群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)、通訊群組或安全性群組。 例如：
+   1. 選取 [特定群組]，輸入完整的個人電子郵件地址、[Office 365 群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)、通訊群組或安全性群組。 例如：
       
-         salesmgrs@contoso.com; sales@contoso.com
+        salesmgrs@contoso.com; sales@contoso.com
       
       在本教學課程中，請試著使用您自己或群組的電子郵件地址。
    
-   2.  將內容套件命名為**銷售商機**。
+   2. 將內容套件命名為**銷售商機**。
    
       > [!TIP]
       > 請考慮將儀表板名稱包含在內容套件名稱中。 如此一來，當您的同事連接到您的內容套件之後，就能更輕鬆地找到儀表板。
       > 
       > 
    
-   3.  建議：新增**描述**。 這有助於同事更輕鬆地找到所需的內容套件。 除了描述之外，還新增同事可能用來搜尋此內容套件的關鍵字。 另外加上連絡資訊，萬一您的同事有疑問或需要協助時可派上用場。
+   3. 建議：新增**描述**。 這有助於同事更輕鬆地找到所需的內容套件。 除了描述之外，還新增同事可能用來搜尋此內容套件的關鍵字。 另外加上連絡資訊，萬一您的同事有疑問或需要協助時可派上用場。
    
-   4.  **上傳映像或標誌**，讓群組成員更輕鬆地尋找內容套件 &#151; 掃描映像的速度會比尋找文字更快。 我們在下面的螢幕擷取畫面中使用商機計數 100% 直條圖磚的映像。
+   4. **上傳映像或標誌**，讓群組成員更輕鬆地尋找內容套件 &#151; 掃描映像的速度會比尋找文字更快。 我們在下面的螢幕擷取畫面中使用商機計數 100% 直條圖磚的映像。
    
-   5.  選取 [商機分析範例] 儀表板，將它加入內容套件。  Power BI 會自動加入相關聯的報表和資料集。 如果您要的話，您可以新增其他項目。
+   5. 選取 [商機分析範例] 儀表板，將它加入內容套件。  Power BI 會自動加入相關聯的報表和資料集。 如果您要的話，您可以新增其他項目。
    
       > [!NOTE]
       >  只會列出可以編輯的儀表板、報表、資料集和活頁簿。 因此，任何已與您共用的資源不會列在清單中。
@@ -71,7 +71,7 @@ ms.locfileid: "34852179"
    
    6. 如果您有 Excel 活頁簿，這些活頁簿會顯示在 [報表] 下方，並有 Excel 圖示。 您也可以將它們加入內容套件中。
    
-     ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
+      ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
    
       > [!NOTE]
       > 如果群組的成員無法檢視 Excel 活頁簿，您可能需要[在商務用 OneDrive 中與他們共用活頁簿](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)。

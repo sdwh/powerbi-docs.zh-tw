@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32bf2d3cedbeeb2430620855a2ac95bf349af9a2
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34444995"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092038"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教學課程：探索 VM 中的 Power BI 報表伺服器入口網站
 在本教學課程中，您會建立一部已經安裝「Power BI 報表伺服器」的 Azure 虛擬機器，以便體驗如何檢視、編輯和管理範例 Power BI 及編頁報表與 KPI。
@@ -100,7 +100,7 @@ ms.locfileid: "34444995"
 |![數字 4](media/tutorial-explore-report-server-web-portal/number-4.png) | 啟動已針對「Power BI 報表伺服器」最佳化的 Power BI Desktop (2018 年 3 月)  |
 |![數字 5](media/tutorial-explore-report-server-web-portal/number-5.png) | 在瀏覽器中開啟「Power BI 報表伺服器」入口網站   |
 
-按兩下 [報表伺服器入口網站] 圖示。 瀏覽器會開啟 http://localhost/reports/browse。 在入口網站中，您會看到各種依類型分組的檔案。 
+按兩下 [報表伺服器入口網站] 圖示。 瀏覽器會開啟 `http://localhost/reports/browse`。 在入口網站中，您會看到各種依類型分組的檔案。 
 
 ![Power BI 報表伺服器入口網站](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

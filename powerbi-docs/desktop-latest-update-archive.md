@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 53c4250949a696f4abbd0722cf89207f2c8d37c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 166d61c78f8e85a91dafa5de698d782b456834a7
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813840"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37601629"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -255,7 +255,7 @@ ms.locfileid: "34813840"
 * 討論到某功能時，**[影片]** 會在新的瀏覽器分頁中摘錄片段。
 * 某些功能有 **[文章]** 提供詳細資料。
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
--   最後，有些功能一目瞭然，因此不需要文章或影片。
+* 最後，有些功能一目瞭然，因此不需要文章或影片。
 
 您也可以從頭開始觀賞本月的**最新更新**影片 (位於本文中)，方法是按一下更新清單下方視訊影像的**播放**圖示。
 
@@ -1844,15 +1844,15 @@ ms.locfileid: "34813840"
     -   更好的多維度來源 (Analysis Services 和 SAP BusinessObjects) 預覽經驗
     -   顯示選取項目選項
     -   改進導覽器樹狀目錄中的搜尋功能
--   新的轉換
-    -   日期/時間資料行的年齡和減法運算
-    -   彙總資料行：停用新資料行前置詞的選項
--   欄位清單改進
-    -   展開/摺疊資料表
-    -   隱藏/取消隱藏欄位
-    -   最佳化的配置 (間距、邊界和字型)
--   報表頁面導覽 - 鍵盤支援
--   很多 Bug 修正
+- 新的轉換
+  -   日期/時間資料行的年齡和減法運算
+  -   彙總資料行：停用新資料行前置詞的選項
+- 欄位清單改進
+  -   展開/摺疊資料表
+  -   隱藏/取消隱藏欄位
+  -   最佳化的配置 (間距、邊界和字型)
+- 報表頁面導覽 - 鍵盤支援
+- 很多 Bug 修正
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/-bZFeS1S1wU" frameborder="0" allowfullscreen></iframe>
 

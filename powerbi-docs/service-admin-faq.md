@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4c8601e15a415e680028b2259a4c2b8e56dbd3b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297231"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926576"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
@@ -41,14 +41,13 @@ ms.locfileid: "34297231"
 * [如何移除已註冊使用者的 Power BI？](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [我如何知道有新的使用者加入我的租用戶？](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [我還應該準備什麼？](#are-there-any-additional-things-i-should-be-prepared-for)
-* [這是免費的嗎？這些授權要收費嗎？](#is-this-free-will-i-be-charged-for-these-licenses)
 * [我的 Power BI 租用戶位於何處？](#where-is-my-power-bi-tenant-located)
 * [什麼是 Power BI SLA (服務等級協定)？](#what-is-the-power-bi-sla)
 
 **Power BI 的安全性**
 
 * [Power BI 是否符合國家、地區和業界的特定法規要求？](#does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements)
-* [Power BI 安全性如何運作？](#how-does-security-work-in-power-bi?)
+* [Power BI 安全性如何運作？](#how-does-security-work-in-power-bi)
 
 ## <a name="sign-up-for-power-bi"></a>註冊 Power BI
 ### <a name="how-do-users-sign-up-for-power-bi"></a>使用者如何註冊 Power BI？
@@ -232,9 +231,6 @@ Power BI 提供的管理入口網站，可讓您檢視使用量統計資料、�
 
 您可以透過 Office 365 系統管理中心的標準程序，移除租用戶的使用者。 不過，如果使用者仍有貴組織的使用中電子郵件地址，除非您封鎖所有使用者加入，否則他們就可以重新加入。
 
-### <a name="is-this-free-will-i-be-charged-for-these-licenses"></a>這是免費的嗎？ 這些授權要收費嗎？
-**Power BI (免費)** 授權適用於 Power BI 免費版。 如對其他功能有興趣，請參閱 [Power BI Pro 版本](service-premium.md)。
-
 ### <a name="where-is-my-power-bi-tenant-located"></a>我的 Power BI 租用戶位於何處？
 若要了解如何尋找您的 Power BI 租用戶所在位置，也稱為資料區域，請參閱 [Where is my Power BI tenant located?](service-admin-where-is-my-tenant-located.md) (我的 Power BI 租用戶位於何處？)。
 
@@ -252,7 +248,6 @@ Power BI 是建置在 Office 365 的基礎之上，而 Office 365 則是建置�
 [Power BI 管理入口網站](service-admin-portal.md)  
 [了解 Power BI 系統管理員角色](service-admin-role.md)  
 [Power BI 的自助式註冊](service-self-service-signup-for-power-bi.md)  
-[組織的 Power BI (免費)](service-admin-service-free-in-your-organization.md)  
 [購買 Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [Power BI Premium - 這是什麼？](service-premium.md)  
 [如何購買 Power BI Premium](service-admin-premium-purchase.md)  

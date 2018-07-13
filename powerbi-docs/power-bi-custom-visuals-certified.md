@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813587"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600348"
 ---
 # <a name="getting-a-custom-visual-certified"></a>讓自訂視覺效果*經認證*
 ## <a name="what-is-meant-by-certified"></a>*經認證*是什麼意思？
@@ -39,7 +39,7 @@ ms.locfileid: "34813587"
 提交自訂視覺效果進行認證：
 
 1. 將電子郵件傳送至 Power BI 自訂視覺效果支援 (pbicvsupport@microsoft.com)。 於電子郵件中包括下列資訊︰    
-   
+
    * 標題︰視覺效果認證要求    
    * 連結至視覺效果原始程式碼裝載所在的 GitHub 存放庫    
    * 遵守需求 (如上所述)    
@@ -51,6 +51,7 @@ ms.locfileid: "34813587"
 Microsoft 可自行斟酌將視覺效果自認證清單中移除。  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>經認證的自訂視覺效果清單
+
 | AppSource 的連結 | 影片的連結 |
 | --- | --- |
 | [Aster Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) (Aster 繪圖) | |
@@ -100,6 +101,7 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [Infographic Designer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) (資訊圖設計工具) | |
 | [KPI Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) (Akvelon 的 KPI 圖) | |
 | [KPI Column by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996) (MAQ Software 的 KPI 資料行) | [影片](https://youtu.be/rU0xoOlIq1U) |
+| [KPI Grid by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380947) (MAQ Software 的 KPI 格線) | [影片](https://youtu.be/dM4PvZh71V0) |
 | [KPI 指標](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [KPI Ticker by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) (MAQ Software KPI 指示器) | [影片](https://youtu.be/cudG4gsZ2V8) |
 | [Linear Gauge by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) (MAQ Software 的線性量測計) | [影片](https://youtu.be/7_jFaM30dkc) |
@@ -126,7 +128,9 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [Text Filter](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) (文字篩選) | |
 | [Text Wrapper by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) (MAQ Software 的文字包裝函式) | |
 | [Thermometer by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380847) (MAQ Software 的溫度計) | [影片](https://youtu.be/SPX9mgrAdBc) |
+| [Time Brush Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380798) (時間筆刷交叉分析篩選器) | |
 | [Timeline Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) (時間軸交叉分析篩選器) | [影片](https://youtu.be/ozMtZ4_NZ10) |
+| [Timeline by CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381427) (CloudScope 的時間軸) | [影片](https://youtu.be/szNi9YgXFJc) |
 | [龍捲風圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [影片](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [Trading Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) (MAQ Software 的交易圖) | [影片](https://youtu.be/xhTR6y6J9Ko) |
 | [Ultimate Variance](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140) (終極變異數) | [影片](https://youtu.be/pDYF8iZxERs) |

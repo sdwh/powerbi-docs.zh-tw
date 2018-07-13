@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301818"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965496"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
 
@@ -99,6 +99,8 @@ ms.locfileid: "35301818"
 ## <a name="tenant-settings"></a>租用戶設定
 
 管理入口網站的第三個索引標籤是 [租用戶設定]。 [租用戶設定] 能讓您更充分掌控貴組織可用的功能。 如果您對敏感性資料有疑慮、我們的某些功能可能不適合您的組織，或您可能希望特定群組只能使用指定的功能。 有這種情況時，您可以在租用戶中關閉設定。
+
+例如，已啟用使用計量的個別使用者資料，而且會將內容建立者帳戶資訊併入計量報表中。 如果您不想要針對部分或所有使用者包括這項資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」。
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -235,7 +237,7 @@ ms.locfileid: "35301818"
 
 ## <a name="r-visuals-settings"></a>R 視覺效果設定
 
-### <a name="interact-with-an-dshare-r-visuals"></a>共用 R 視覺效果並與其互動
+### <a name="interact-with-and-share-r-visuals"></a>共用 R 視覺效果並與其互動
 
 組織中的使用者可以共用以 R 指令碼建立的視覺效果，並與其互動。 [深入了解](service-r-visuals.md)
 

@@ -7,15 +7,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c504280257a959ccd7a46e61b9d377c22b76c14d
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: 08a65e7d312b0f57ec2824431bd00456c06860be
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2018
-ms.locfileid: "34471885"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945196"
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>語言模型和語言結構描述 
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 如果您的資料能夠回答，就更厲害了，而 Power BI 的問與答就有這樣的能耐。 Power BI 問與答在您提出問題時，會盡力正確回答。 
@@ -340,7 +340,7 @@ Binding: {Table: Customers}
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 如果您對不符合語言結構描述格式的 .lsdl.yaml 檔案進行變更，您會看到類似這樣的驗證波浪線指出問題： 
 
-    ![yaml file showing errors](media/power-bi-q-and-a-linguistic-schema/power-bi-yaml-errors.png)
+![顯示錯誤的 YAML 檔案](media/power-bi-q-and-a-linguistic-schema/power-bi-yaml-errors.png)
 
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

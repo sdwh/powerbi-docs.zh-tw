@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 5dd171ccd7d8859286abeac2f87771b454421448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: cade8b126742610814f47587c950458796cca474
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292838"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136469"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中離線檢視資料
 適用於︰
@@ -55,7 +55,8 @@ Power BI 提供您何時移入和移出離線模式的清楚指標，以及無�
 * Power BI 可以快取最多 250 MB 的離線資料。
 * 某些類型的磚需要使用中的伺服器連線，因此無法離線使用，例如 Bing 地圖磚和一些自訂的磚。
 * Power BI 中的整個 Excel 活頁簿無法離線使用。
-* 如果您在連線時已檢視過 Reporting Services 行動報表和 KPI，即可離線查看。 它們不會在背景中重新整理， 而是在每次開啟時重新整理。 
+* 如果您在連線時已檢視過 Reporting Services 行動報表和 KPI，即可離線查看。 它們不會在背景中重新整理， 而是在每次開啟時重新整理。
+* 在 Power BI 行動裝置應用程式中，您看不到儲存至 Power BI 報表伺服器的 Power BI Desktop (.pbix) 檔案。 
 
 ## <a name="next-steps"></a>後續步驟
 您的意見反應可協助我們決定要在未來實作的項目，因此別忘了對您想在 Power BI 行動應用程式中看到的其他功能進行投票。 
@@ -63,5 +64,5 @@ Power BI 提供您何時移入和移出離線模式的清楚指標，以及無�
 * [行動裝置的 Power BI 應用程式](mobile-apps-for-mobile-devices.md)
 * 請在 Twitter 上關注 @MSPowerBI
 * 加入 [Power BI 社群](http://community.powerbi.com/)的交談
-* [開始使用 Power BI](service-get-started.md)
+* [Power BI 是什麼？](power-bi-overview.md)
 

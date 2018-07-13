@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 7bbf03c35284924c415a9ae1348528ed80c3f2fe
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b7435aa7cda68854409c4be7981a06a70d999f09
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295610"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136218"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>在 Windows 10 Power BI 行動裝置應用程式中檢視 Reporting Services (SSRS) 行動報表和 KPI
 Power BI for Windows 10 行動裝置應用程式提供 SQL Server 2016 Reporting Services 中重要內部部署商務資訊的即時觸控式行動存取。 
@@ -110,6 +110,6 @@ Reporting Services KPI 和行動報表皆顯示在 Reporting Services 入口網�
 
 ## <a name="next-steps"></a>後續步驟
 * [開始使用 Power BI for Windows 10 行動裝置 App](mobile-windows-10-phone-app-get-started.md)  
-* [開始使用 Power BI](service-get-started.md)  
+* [Power BI 是什麼？](power-bi-overview.md)  
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

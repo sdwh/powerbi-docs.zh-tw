@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d350593f3a5168d959711e1ca2bbbd8a86524187
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a69cccafa9651bbda44ea2154ebe68463c9da907
+ms.sourcegitcommit: 7e0335bd8c263b5f8ba4303b986ddc450d842297
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288053"
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "36330114"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用書籤來共用深入解析並建立故事 
 在 Power BI 中使用**書籤**可協助您擷取目前設定的報表頁面檢視 (包括視覺效果的篩選和狀態)，讓您稍後只要選取儲存的書籤，就可以返回該狀態。 
@@ -43,7 +43,7 @@ ms.locfileid: "34288053"
 當您建立書籤時，下列項目會與書籤一起儲存：
 
 * 目前頁面
-* 篩選條件
+* 篩選
 * 交叉分析篩選器
 * 排序次序
 * 鑽研位置
@@ -56,7 +56,7 @@ ms.locfileid: "34288053"
 
 ![新增書籤](media/desktop-bookmarks/bookmarks_04.png)
 
-**Power BI Desktop** 會建立書籤，並為其提供泛型名稱。 您可以藉由選取書籤名稱旁的省略符號，然後從出現的功能表中選取一個動作，輕鬆地「重新命名」、「刪除」或「更新」書籤。
+**Power BI Desktop** 會建立書籤，並為其提供泛型名稱。 您可以選取書籤名稱旁的省略符號，然後從出現的功能表中選取一個動作，輕鬆地「重新命名」、「刪除」或「更新」書籤。
 
 ![使用省略符號來選取書籤的子功能表](media/desktop-bookmarks/bookmarks_05.png)
 
@@ -104,7 +104,7 @@ ms.locfileid: "34288053"
 ## <a name="bookmarks-for-shapes-and-images"></a>圖案和影像的書籤
 您也可以將圖案和影像連結至書籤。 透過這項功能，當您按一下物件時，就會顯示與該物件建立關聯的書籤。 當使用按鈕時此功能特別有用，您可以閱讀有關[在 Power BI 中使用按鈕](desktop-buttons.md)的文章來深入了解。 
 
-若要將書籤指派至物件，請選取該物件，然後展開 [格式化圖案] 窗格中的 [動作] 區段，如以下影像所示。
+若要將書籤指派至物件，請選取該物件，然後展開 [格式化圖案] 窗格中的 [動作] 區段，如下圖所示。
 
 ![將書籤連結新增至物件](media/desktop-bookmarks/bookmarks_10.png)
 
@@ -120,7 +120,7 @@ ms.locfileid: "34288053"
 讓我們來比較**聚焦**模式與**焦點**模式，看看這兩種模式有何不同。
 
 1. 在**焦點**模式中，您可以選取**焦點模式**圖示，讓某個視覺效果填滿整個畫布。
-2. 使用**聚焦**，您可以讓頁面上所有其他視覺效果淡化成近乎透明，以原始大小來醒目提示某個視覺效果。 
+2. 使用 [聚焦]，您可以讓頁面上所有其他視覺效果淡化成近乎透明，以原始大小來醒目提示某個視覺效果。 
 
 ![比較焦點模式與聚焦模式](media/desktop-bookmarks/bookmarks_11.png)
 
@@ -128,7 +128,7 @@ ms.locfileid: "34288053"
 
 ![焦點模式](media/desktop-bookmarks/bookmarks_12.png)
 
-相反地，當您從視覺效果的省略符號功能表中選取**聚焦**時，頁面看起來如下所示：
+相反地，當您從視覺效果的省略符號功能表中選取 [聚焦] 時，頁面看起來如下所示：
 
 ![聚焦模式](media/desktop-bookmarks/bookmarks_13.png)
 

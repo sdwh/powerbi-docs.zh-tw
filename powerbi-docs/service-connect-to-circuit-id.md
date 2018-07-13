@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0cc0125f35dc90a03eeaeed0d5e69c0a5c3115ae
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 56be5b6a0618dea28ac286f5cbaa0c019d9037d2
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241151"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135988"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>使用 Power BI 連接到電路識別碼
 使用 Power BI 可以輕鬆地分析來自 Circuit ID 的通訊資料。 Power BI 會擷取您的資料，然後根據該資料建置預設的儀表板和相關報表。 在建立連接之後，您可以瀏覽資料並自訂儀表板以符合您的需求。 資料會自動每天重新整理。
@@ -47,7 +47,7 @@ ms.locfileid: "34241151"
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
 
 ## <a name="next-steps"></a>後續步驟
-[開始使用 Power BI](service-get-started.md)
+[Power BI 是什麼？](power-bi-overview.md)
 
 [取得 Power BI 的資料](service-get-data.md)
 

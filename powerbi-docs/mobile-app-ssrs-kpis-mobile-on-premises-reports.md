@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/13/2018
 ms.author: maggies
-ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32d73b4be55190b908353083b497581cb1b08c6e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482237"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599016"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視內部部署報表伺服器報表和 KPI
 
@@ -103,6 +103,9 @@ Power BI 行動裝置應用程式提供 Power BI 報表伺服器及 SQL Server 2
 Power BI 報表、Reporting Services 行動報表和 KPI 皆顯示在 Reporting Services 入口網站的同一個資料夾中。 
 
 * 點選 Power BI 報表 ![Power BI 報表圖示](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). 它會以橫向模式開啟，而且您可以在 Power BI 應用程式中與之互動。
+
+    > [!NOTE]
+  > 在 Power BI 報表伺服器上，目前未啟用 Power BI 報表中的向下切入和向上切入。
   
     ![Power BI 報表](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
 * 在 Power BI Desktop 中，報表擁有者可以為 Power BI 行動裝置應用程式[最佳化報表](desktop-create-phone-report.md)。 在您的行動電話上，最佳化的報表會有特殊圖示![最佳化的 Power BI 報表圖示](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png)和配置。
@@ -129,6 +132,6 @@ Power BI 報表、Reporting Services 行動報表和 KPI 皆顯示在 Reporting 
 3. 點選 [移除伺服器]。
 
 ## <a name="next-steps"></a>後續步驟
-* [開始使用 Power BI](service-get-started.md)  
+* [Power BI 是什麼？](power-bi-overview.md)  
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

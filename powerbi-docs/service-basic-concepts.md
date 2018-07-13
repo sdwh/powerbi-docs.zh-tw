@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7793b79ad26fdb0b01f3dc2a01be02c47047ce9c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0536dc6fd637db07c0e26a4ed7f0da1071b646eb
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253292"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137414"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI 服務的基本概念
 
@@ -231,7 +231,7 @@ Power BI 報表是一或多個頁面的視覺效果 (圖表和圖形，例如折
    ![](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>後續步驟
-[開始使用 Power BI](service-get-started.md)  
+[Power BI 是什麼？](power-bi-overview.md)  
 [瀏覽：瀏覽 Power BI 服務](service-the-new-power-bi-experience.md)
 [Power BI 影片](videos.md)  
 [報告編輯器.-.進行導覽](service-the-report-editor-take-a-tour.md)

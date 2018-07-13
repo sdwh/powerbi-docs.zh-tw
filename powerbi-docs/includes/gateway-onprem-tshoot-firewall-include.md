@@ -1,7 +1,7 @@
 ## <a name="firewall-or-proxy"></a>防火牆或 Proxy
 若要了解如何為您的閘道提供 Proxy 資訊，請參閱[進行 Power BI 閘道的 Proxy 設定](../service-gateway-proxy.md)。
 
-您可以從 PowerShell 提示字元執行 [Test-NetConnection](https://technet.microsoft.com/library/dn372891.aspx) 進行測試，以了解您的防火牆 (或 Proxy) 是否封鎖連線。 這將會測試 Azure 服務匯流排連線。 這只會測試網路連線，不會動用雲端伺服器服務或閘道。 其可協助判斷您的電腦是否可以連出網際網路。
+您可以從 PowerShell 提示字元執行 [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection) 進行測試，以了解您的防火牆 (或 Proxy) 是否封鎖連線。 這將會測試 Azure 服務匯流排連線。 這只會測試網路連線，不會動用雲端伺服器服務或閘道。 其可協助判斷您的電腦是否可以連出網際網路。
 
     Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 

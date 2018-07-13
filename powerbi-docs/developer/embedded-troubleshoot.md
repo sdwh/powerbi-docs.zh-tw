@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 07/03/2018
 ms.author: maghan
-ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813150"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926551"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -96,6 +96,44 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
 ```
 
+## <a name="authentication"></a>驗證
+
+### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>驗證因 AADSTS70002 或 AADSTS50053 而失敗
+
+**(AADSTS70002: 驗證認證時發生錯誤。AADSTS50053: 使用不正確的使用者識別碼或密碼，嘗試登入太多次)**
+
+如果您使用 Power BI Embedded 並利用 Azure AD Direct Authentication，而且您在登入時收到訊息，例如 ***error:unauthorized_client,error_description:AADSTS70002: 驗證認證時發生錯誤。AADSTS50053: 使用不正確的使用者識別碼或密碼，嘗試登入太多次***，原因是已從 2018/6/14 開始關閉直接驗證。
+
+建議您使用 [Azure AD 條件式存取](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/)支援來封鎖舊有驗證，或使用 [Azure AD Directory 傳遞驗證](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication)。
+
+不過，有方法可以使用 [Azure AD 原則](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)重新開啟此項目，而 Azure AD 原則的範圍限定為組織或[服務主體](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)。
+
+**_因應措施是建議僅根據個別應用程式且只有在必要時才啟用此選項。_**
+
+若要建立此原則，您需要是要在其中建立並指派原則之目錄的**全域管理員**。 下列範例指令碼示範如何建立原則，並將它指派給此應用程式的 SP：
+
+1. 安裝 [Azure AD Preview PowerShell 模組](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
+
+2. 逐行執行下列 PowerShell 命令 (因此，確定變數 $sp 沒有 1 個以上的應用程式)。
+
+```powershell
+Connect-AzureAD
+```
+
+```powershell
+$sp = Get-AzureADServicePrincipal -SearchString "Name_Of_Application"
+```
+
+```powershell
+$policy = New-AzureADPolicy -Definition @("{`"HomeRealmDiscoveryPolicy`":{`"AllowCloudPasswordValidation`":true}}") -DisplayName EnableDirectAuth -Type HomeRealmDiscoveryPolicy -IsOrganizationDefault $false
+```
+
+```powershell
+Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id 
+```
+
+指派原則之後，請先等候約 15 到 20 秒進行傳播，再測試。
+
 **提供有效的身分識別時無法產生權杖**
 
 若提供了有效的身分識別，GenerateToken 可能因為數種原因而失敗。
@@ -113,6 +151,30 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 * 若 IsEffectiveIdentityRolesRequired 為 true，就必須有 Role。
 * 任何 EffectiveIdentity 都必須有 DatasetId。
 * 若是 Analysis Services，主使用者必須為閘道管理員。
+
+### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: 授與需要管理員權限
+
+**_徵兆：_**</br>
+非管理使用者第一次嘗試登入應用程式並授與同意時，會取得下列錯誤：
+* ConsentTest 需要存取您組織中只有管理員才能授與之資源的權限。 請先要求管理員授與此應用程式的權限，您才能使用它。
+* AADSTS90094: 授與需要管理員權限。
+
+    ![同意測試](media/embedded-troubleshoot/consent-test-01.png)
+
+管理使用者可以成功登入並授與同意。
+
+**_根本原因：_**</br>
+已停用租用戶的使用者同意。
+
+**_可能有數個修正程式：_**
+
+*啟用整個租用戶的使用者同意 (所有使用者、所有應用程式)*
+1. 在 Azure 入口網站中，巡覽到 [Azure Active Directory] => [使用者和群組] => [使用者設定]
+2. 啟用 [使用者可同意應用程式代表自己存取公司資料] 設定，然後儲存變更
+
+    ![同意測試修正](media/embedded-troubleshoot/consent-test-02.png)
+
+*由管理員授與權限*：由管理員將權限授與應用程式 - 針對整個租用戶或特定使用者。
 
 ## <a name="data-sources"></a>資料來源
 
@@ -175,7 +237,7 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 
     AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
 
-這是因為為網頁伺服器應用程式指定的重新導向 URL 與範例的 URL 不同。 若您想註冊應用程式範例，請使用 *http://localhost:13526/* 作為重新導向 URL。
+這是因為為網頁伺服器應用程式指定的重新導向 URL 與範例的 URL 不同。 如果您想要註冊範例應用程式，則請使用 `http://localhost:13526/` 作為重新導向 URL。
 
 若您想編輯已註冊的應用程式，請了解如何編輯[已註冊 AAD 的應用程式](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)，讓應用程式可提供 Web API 的存取。
 

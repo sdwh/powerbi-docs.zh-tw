@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755085"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944552"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium - 這是什麼？
 Power BI Premium 為您的組織或小組提供專門用來執行 Power BI 服務的資源，給您更可靠的效能和更大的資料磁碟區。 Premium 也可讓您廣泛發佈內容，不需要您為檢視者購買每個使用者授權。
@@ -36,11 +36,11 @@ Power BI 中有兩種容量。 共用容量和 Power BI Premium 容量。 以下
 | **重新整理的頻率** |8/日 |不受限制 |
 | **使用專用的硬體隔離** |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用") |
 | **企業散發至*****所有使用者*** | | |
-| 應用程式 |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用")<sup>1</sup> |
+| 應用程式和共用 |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用")<sup>1</sup> |
 | 內嵌的 API 和控制項 |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用")<sup>2</sup> |
 | **在內部部署發佈 Power BI 報告** |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用") |
 
-*<sup>1</sup> 應用程式中的免費使用者使用方式包括在 Web 和行動裝置中檢視內容、使用問與答、深入資訊摘要、Cortana、匯出至 CSV、Excel 和 PowerPoint。其他未列出的活動需要 Pro 授權，例如在共用資料集上建立報告和 [在 Excel 中進行分析]。深入了解 [Power BI 免費和 Pro](service-free-vs-pro.md) 功能。*  
+*<sup>1</sup> 如需詳細資訊，請參閱[具有 Power BI Pro 和 Power BI Premium 的使用者功能](service-free-vs-pro.md)功能。*  
 *<sup>2</sup> Power BI Premium 的未來增強功能發佈 GA。*
 
 ### <a name="premium-capacity"></a>進階容量
@@ -51,7 +51,7 @@ Power BI 中有兩種容量。 共用容量和 Power BI Premium 容量。 以下
 * 排程重新整理：以前，使用者在排程重新整理匯入的模型時，受限於每天 8x。 Premium 工作區中的資料集已解除這項限制。 這不適用於 DirectQuery 的排程快取重新整理設定。 這些在 Premium 容量和共用容量之間仍然相同。
 * 使用專用的硬體隔離 – 基於共用容量的本質，儘管我們已採取預防措施，容量中其他工作負載的資源需求還是可能影響報告和儀表板的效能。 相反地，Premium 會隔離您的工作負載和不相關的工作負載，提供更一致又可靠的效能。
 
-如果應用程式有進階容量作為後盾 (也就是，從目前已指派至「進階」的應用程式工作區發佈)，則組織中的任何使用者都可以使用已發佈的應用程式，而不論已指派給他們的授權。 這表示即使是 Power BI 免費使用者，也可以使用已發佈的應用程式。
+如果應用程式有進階容量作為後盾 (也就是，從目前已指派至「進階」的應用程式工作區發佈)，則組織中的任何使用者都可以使用已發佈的應用程式，而不論已指派給他們的授權。
 
 ### <a name="shared-capacity"></a>共用容量
 根據預設，您的工作區會在共用容量中。 這包括您的個人「我的工作區」，還有應用程式工作區。 「共用」容量是您在 Power BI 中習慣於其他客戶共用的計算資源上執行工作負載的一種體驗。

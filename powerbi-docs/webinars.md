@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/13/2018
 ms.author: maikelson
-ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34299278"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137525"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -22,25 +22,9 @@ ms.locfileid: "34299278"
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
-進行註冊以收到 Power BI 專家傳來的資訊，並參加即時的問與答會議
+沒有已排定的網路研討會。 請稍後再回來查看近期的活動。
 
-**藉由 Power BI 和 Visio 獲得正確的見解**
-<br>由 Shakun Grover 主持
-<br>*2018 年 5 月 22 日，上午 10:00 PST，下午 1:00 EST*
-
-參與我們的這個網路研討會，以了解如何結合 Power BI 儀表板和 Microsoft Visio 圖表來建立強大的視覺見解。 Visio 和 Power BI 皆高度視覺化並自然互補。 Visio 可讓您建立說明圖表，例如互連式工作流程和真實世界版面配置。 Power BI 可使用圖表和地圖來協助您建置直覺式儀表板，以評估關鍵效能指標及追蹤目標。
-
-[報名後即可於 5 月 22 日觀看](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
-
-**在 20 分鐘內深入了解 Power BI Embedded**
-<br>作者：Megan Asarrane 與 Colin Murphy
-<br>*2018 年 5 月 23 日，上午 10:00 PST，下午 1:00 EST*
-
-此網路研討會旨在介紹 Power BI Embedded。 此網路研討會結束時，使用者應該能夠了解什麼是 Power BI Embedded，後續的步驟是開始使用產品，以及在何處可以取得說明/資源。
-
-[報名後即可於 5 月 23 日觀看](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
-
->[從 Power BI 社群參與即將舉行的網路研討會](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
+>[從 Power BI 社群參與即將舉行的網路研討會](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>精選的網路研討會
 
@@ -72,21 +56,33 @@ ms.locfileid: "34299278"
 
 在任何時候觀賞錄製下來的會議實況
 
-### <a name="getting-started"></a>使用者入門
+### <a name="getting-started"></a>開始使用
 
 **如何設計令人驚豔的 Power BI 報表**
 <br>由 Charlie Sterling 主持
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
+**在 20 分鐘內深入了解 Power BI Embedded**
+<br>作者：Megan Asarrane 與 Colin Murphy
+<br>[報名並立即觀看](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
+
 **不僅僅是試算表**
 <br>由 Gohul Shanmugalingam 主持
 <br>[報名並立即觀看](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
+
+**藉由 Power BI 和 Visio 獲得正確的見解**
+<br>由 Shakun Grover 主持
+<br>[報名並立即觀看](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **將報表從良好轉換為極佳！**
 <br>由 Reid Havens 主持
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>合作夥伴 ###
+
+**使用位置智慧提升 BI**
+<br>作者：Microsoft Esri and Enrique Plaza 的 Scott Ball
+<br>[報名並立即觀看](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
 **改善醫療保健業的獲利能力** (英文)
 <br>由來自 US Medical IT 的 Stephen Cracknell 與 Stuart Macanliss 主持
@@ -172,7 +168,7 @@ ms.locfileid: "34299278"
 
 - [Microsoft Data Insights Summit 2017 隨選會議實況](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
-- [開始使用 Power BI](service-get-started.md)
+- [Power BI 是什麼？](power-bi-overview.md)
 
 - 在 Twitter 上關注 [@MSPowerBI](https://twitter.com/mspowerbi)
 

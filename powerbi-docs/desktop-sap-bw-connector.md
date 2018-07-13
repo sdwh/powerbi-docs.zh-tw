@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d0cc0ce18a187280c48be0c84bf9adf680ea3ea4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
+ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813426"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37900046"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 連接器
 您可以透過 Power BI Desktop 存取 **SAP Business Warehouse (BW)** 資料。
 
 如需有關 SAP 客戶可如何從將 Power BI 連線到其現有的 SAP Business Warehouse (BW) 系統中受益的資訊，請參閱 [Power BI 與 SAP BW 白皮書](https://aka.ms/powerbiandsapbw)。
 
-從 2018 年 6 月版本的 **Power BI Desktop** 開始，您可以使用 SAP BW 連接器，它具有大幅提升效能與功能的實作。 此更新版本的 SAP BW 連接器由 Microsoft 開發，稱為**實作 2.0**。 您可以選取標準 **SAP BW 連接器**，或**實作 2.0 SAP 連接器**。 下列各節會依序描述每個版本的安裝。 從 Power BI Desktop 連線至 SAP BW 時，您可以選擇其中一個或另一個連接器。
+從 2018 年 6 月版本的 **Power BI Desktop** 開始，您可以使用 SAP BW 連接器，它具有大幅提升效能與功能的實作。 此更新版本的 SAP BW 連接器由 Microsoft 開發，稱為**實作 2.0**。 您可以選取第 1 版 (v1) 的 **SAP BW 連接器**或**實作 2.0 SAP 連接器**。 下列各節會依序描述每個版本的安裝。 從 Power BI Desktop 連線至 SAP BW 時，您可以選擇其中一個或另一個連接器。
 
 我們建議您盡可能使用**實作 2.0 SAP 連接器**。
 
-## <a name="installation-of-the-standard-sap-bw-connector"></a>標準 SAP BW 連接器的安裝
-我們建議盡可能使用實作 2.0 SAP 連接器 (請參閱下一節中的指示)。 本節描述標準 **SAP BW 連接器**的安裝，您可以採取下列安裝步驟來安裝：
+## <a name="installation-of-version-1-of-the-sap-bw-connector"></a>第 1 版的 SAP BW 連接器安裝
+我們建議盡可能使用實作 2.0 SAP 連接器 (請參閱下一節中的指示)。 本節描述第 1 版的 **SAP BW 連接器**安裝，您可以採取下列安裝步驟來安裝：
 
 1. 在本機電腦上安裝 **SAP NetWeaver** 程式庫。 您可以從 SAP 管理員，或是直接從 [SAP Software Download Center](https://support.sap.com/swdc) (SAP 軟體下載中心) 取得 **SAP Netweaver**。 由於 **SAP Software Download Center** (SAP 軟體下載中心) 經常變更其結構，因此未提供瀏覽該網站的更具體指引。 **SAP NetWeaver** 程式庫通常也包含在 SAP 用戶端工具的安裝中。
    
@@ -54,11 +54,11 @@ SAP 連接器的**實作 2.0** 需要使用 SAP .NET 連接器 3.0。 您可以�
 ![SAP 選用設定步驟](media/desktop-sap-bw-connector/sap_bw_2b.png)
 
 > [!NOTE]
-> 標準 SAP BW 實作需要 Netweaver DLL；如果您使用 SAP 連接器實作 2.0 且不使用標準版本，則不需要 Netweaver DLL。
+> 第一版的 SAP BW 實作需要 Netweaver DLL；如果您使用 SAP 連接器實作 2.0 且不使用第一版，則不需要 Netweaver DLL。
 
 
-## <a name="standard-sap-bw-connector-features"></a>標準 SAP BW 連接器功能
-Power BI Desktop 的標準 **SAP BW 連接器**可讓您從您的 **SAP Business Warehouse 伺服器** Cube 匯入資料，或使用 DirectQuery。 
+## <a name="version-1-sap-bw-connector-features"></a>第 1 版 SAP BW 連接器功能
+Power BI Desktop 中的第 1 版 **SAP BW 連接器**可讓您從您的 **SAP Business Warehouse 伺服器** Cube 匯入資料，或使用 DirectQuery。 
 
 若要深入了解 **SAP BW 連接器**以及它如何與 DirectQuery 搭配使用，請參閱 [DirectQuery 和 SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) 一文。
 
@@ -101,7 +101,7 @@ Power BI Desktop 的標準 **SAP BW 連接器**可讓您從您的 **SAP Business
 
     ![SAP 連線對話方塊](media/desktop-sap-bw-connector/sap_bw_7.png)
 
-3. 選取 [確定]，之後 [導覽器] 體驗會與前一節中描述的標準 SAP BW 連接器相同。 
+3. 選取 [確定]，之後 [導覽器] 體驗會與前一節中描述的第 1 版 SAP BW 連接器相同。 
 
 ### <a name="new-options-for-implementation-20"></a>實作 2.0 的新選項 
 
@@ -115,7 +115,7 @@ Power BI Desktop 的標準 **SAP BW 連接器**可讓您從您的 **SAP Business
 
     這個選項的預設值是 SapBusinessWarehouseExecutionMode.BasXmlGzip。
 
-    使用 *SapBusinessWarehouseExecutionMode.BasXmlGzip* 可能會改善在大型資料集或大型資料集遇到高度延遲時的效能。
+    使用 *SapBusinessWarehouseExecutionMode.BasXmlGzip* 可能會改善在大型資料集遇到高度延遲時的效能。
 
 2. **BatchSize** - 指定執行 MDX 陳述式時將一次擷取的資料列數目上限。 在擷取大型資料集時，少量資料列會轉譯成更多個伺服器呼叫。 大量的資料列或可提升效能，但可能會造成 SAP BW 伺服器上的記憶體問題。 預設值為 50000 個資料列。
 
@@ -163,7 +163,7 @@ Power BI Desktop 的標準 **SAP BW 連接器**可讓您從您的 **SAP Business
 
     ![查詢程式碼片段](media/desktop-sap-bw-connector/sap_bw_12.png)
 
-4. 我們已盡最大努力，讓 SAP BW 連接器的實作 2.0 與標準 SAP BW 連接器相容。 不過，由於使用的不同 SAP BW MDX 執行模式，可能會有一些差異。 若要解決任何不一致，請嘗試在執行模式之間切換。
+4. 我們已盡最大努力，讓 SAP BW 連接器的實作 2.0 與第 1 版的 SAP BW 連接器相容。 不過，由於使用的不同 SAP BW MDX 執行模式，可能會有一些差異。 若要解決任何不一致，請嘗試在執行模式之間切換。
 
 ## <a name="troubleshooting"></a>疑難排解
 本節提供針對與 **SAP BW** 連接器搭配使用之情況 (和解決方法) 的疑難排解。

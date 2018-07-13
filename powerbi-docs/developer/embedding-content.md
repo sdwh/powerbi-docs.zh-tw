@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813035"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945238"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>內嵌 Power BI 儀表板、報表和磚
 
@@ -35,6 +35,9 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 
 * [確認擁有 Azure Active Directory 租用戶](embedding-content.md#azureadtenant)
 * [建立 Power BI Pro 帳戶](embedding-content.md#proaccount)
+* [應用程式註冊和權限](embedding-content.md#appreg)
+* [建立應用程式工作區](embedding-content.md#appws)
+* [建立和上傳報表](embedding-content.md#createreports)
 
 您可以完成[上線體驗工具](https://aka.ms/embedsetup)以快速開始使用並下載應用程式範例。
 
@@ -67,7 +70,7 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 
 #### <a name="an-organizationtenant-admin-user"></a>組織/租用戶系統管理員使用者
 
-如果對客戶進行內嵌，建議不要使用您的組織/租用戶全域管理員使用者作為應用程式所使用的帳戶。 這會將應用程式帳戶在租用戶內的存取權最小化。 建議管理員使用者是基於內嵌而建立之所有應用程式工作區的管理員。
+如果對客戶進行內嵌，建議不要使用您的組織/租用戶全域管理員使用者作為應用程式所使用的帳戶。 這會將應用程式帳戶在租用戶內的存取權最小化。 需要管理使用者基於內嵌而建立之所有應用程式工作區的管理員。
 
 #### <a name="accounts-for-analysts-that-create-content"></a>建立內容之分析師的帳戶
 
@@ -83,7 +86,7 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 
 您必須在 Azure AD 中註冊應用程式，才能進行 REST API 呼叫。 如需詳細資訊，請參閱[註冊 Azure AD 應用程式以內嵌 Power BI 內容](register-app.md)。
 
-### <a name="create-app-workspaces"></a>建立應用程式工作區
+### <a name="appws"></a>建立應用程式工作區
 
 如果您要內嵌客戶的儀表板和報表，則必須將這些儀表板和報表放在應用程式工作區內。 上面所提及的「主」帳戶必須是應用程式工作區的管理員。
 
@@ -93,13 +96,17 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 > 非管理使用者最多只能建立 250 個應用程式工作區。 若要建立更多應用程式工作區，您需要使用租用戶系統管理員帳戶。
 >
 
-### <a name="create-and-upload-your-reports"></a>建立和上傳報表
+### <a name="createreports"></a>建立和上傳報表
 
 您可以使用 Power BI Desktop 建立報表和資料集，接著將這些報表發佈到應用程式工作區。 發佈報表的一般使用者必須有 Power BI Pro 授權，才能發佈至應用程式工作區。
 
 ## <a name="step-2-embed-your-content"></a>步驟 2︰內嵌內容
 
-在應用程式內，您必須向 Power BI 進行驗證。 如果您要內嵌客戶的內容，您會將「主」 帳戶的認證儲存在應用程式內。 如需詳細資訊，請參閱 [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (驗證使用者，並為 Power BI 應用程式取得 Azure AD 存取權杖)。
+在應用程式內，您必須向 Power BI 進行驗證。 如果您要內嵌客戶的內容，您會將「主」 帳戶的認證儲存在應用程式內。
+
+> [!NOTE]
+> 如需驗證使用者同時針對客戶內嵌的詳細資訊，請參閱[為 Power BI 應用程式驗證使用者及取得 Azure AD 存取權杖](get-azuread-access-token.md)。
+>
 
 驗證後，請在應用程式中使用 Power BI REST API 及 JavaScript API，將儀表板及報表內嵌至應用程式。 
 
@@ -123,7 +130,7 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 
 如果您要對組織進行內嵌，則只需要讓人員知道如何到達您的應用程式。 
 
-若應用程式工作區 (群組) 提供專用容量，免費使用者就可以取用從該工作區內嵌的內容。 請將免費使用者列為應用程式工作區 (群組) 成員，以免收到 401 未授權錯誤。 下表列出 Office 365 中可用的 Power BI Premium SKU。
+如果應用程式工作區 (群組) 提供專用容量，則所有使用者都可以使用從該工作區內嵌的內容，而不論獲指派的授權為何。 因此，您必須將任何沒有 Power BI Pro 授權的使用者明確地新增至應用程式工作區；否則，您會收到 401 未授權錯誤。 下表列出 Office 365 中可用的 Power BI Premium SKU。
 
 | 節點容量 | 核心總數<br/>(後端 + 前端) | 後端核心 | 前端核心 | DirectQuery/即時連線限制 | 尖峰時間的頁面呈現上限 |
 | --- | --- | --- | --- | --- | --- |

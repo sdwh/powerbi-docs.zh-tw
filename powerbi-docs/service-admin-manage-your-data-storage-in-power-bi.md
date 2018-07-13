@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7c0399072bfef35a1103a5db448da183f64f74c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245354"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944736"
 ---
 # <a name="manage-your-data-storage"></a>管理您的資料儲存空間
 了解如何管理您個人或應用程式工作區的資料儲存空間，以確保您可以繼續發行報表和資料集。
 
 使用者和應用程式工作區有自己的資料容量
 
-* 免費和 Pro 使用者最多可以有 10 GB 的資料儲存空間。
-* Pro 使用者可以建立應用程式工作區，每個工作區的資料儲存空間最多 10 GB。
+* 所有使用者最多可以有 10 GB 的資料儲存體。
+* 具有 Power BI Pro 授權的使用者可以建立應用程式工作區，而每個工作區的資料儲存體最多 10 GB。
 
 在租用戶層級，每位 Pro 使用者在租用戶中的所有 Pro 使用者和應用程式工作區之間的總使用量不能超過 10 GB。
 

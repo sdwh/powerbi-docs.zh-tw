@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: mihart
-ms.openlocfilehash: bf196ccf45e964f6fc1044723f7232eaf60230e7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fda707d3f36e6db2157d04887780bb957567a523
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471793"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136241"
 ---
 # <a name="power-bi-videos"></a>Power BI 影片
 Power BI 有 YouTube 頻道喔！ 您可以瀏覽[我們的頻道](https://www.youtube.com/user/mspowerbi/videos)；如果您剛開始使用 Power BI，[Analyze & Visualize Data with Power BI 播放清單](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)是很好的起點.
@@ -46,7 +46,7 @@ Power BI 有 YouTube 頻道喔！ 您可以瀏覽[我們的頻道](https://www.y
 * [Guy in a Cube 頻道](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w) - 有關 Power BI 功能的全新影片
 
 ## <a name="next-steps"></a>後續步驟
-[開始使用 Power BI](service-get-started.md)
+[Power BI 是什麼？](power-bi-overview.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

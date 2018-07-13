@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 75636885da6357a756508558841c99435aa5f442
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245574"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092176"
 ---
 # <a name="enable-qa-for-live-connections"></a>啟用即時連線的問與答
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>什麼是內部部署資料閘道？  什麼是即時連線？
@@ -56,6 +56,7 @@ Power BI 中的資料集可匯入 Power BI，或者您可以建立與資料集�
 
 * 一開始，此功能僅適用於 SQL Server 2016 Analysis Services 表格式資料來源。 此功能已最佳化，現在可使用表格式資料。 某些功能適用於多維度資料來源，但多維度尚未支援完整的問與答體驗。 內部部署資料閘道支援的其他資料來源將隨著時間推出。
 * 公開預覽一開始並未完整支援 SQL Server Analysis Services 中定義的資料列層級安全性。 在問與答中詢問問題時，輸入問題後的「自動完成」功能可顯示使用者無權存取的字串值。 不過，報表和圖表視覺效果會使用模型中定義的 RLS，因此不會公開任何基礎數值資料。 未來更新將會發行控制此行為的選項。
+* 不支援物件層級安全性 (OLS)。 問與答與物件層級安全性無關，而且可以向沒有存取權的使用者顯示資料表或資料行名稱。 您應該啟用 RLS，確保同時適當地保護資料值。 
 * 僅支援即時連線至內部部署資料閘道。 因此，這無法用於個人閘道器。
 
 ## <a name="next-steps"></a>後續步驟

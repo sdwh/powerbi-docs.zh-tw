@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245597"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599776"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>使用 Power BI 連接到 Project "Madeira"
 Power BI 和專案「Madeira」內容套件讓您輕鬆深入探索專案「Madeira」的資料。 Power BI 會擷取您的資料 (銷售和財務資料)，然後根據該資料建置現成的儀表板和報表。
@@ -33,7 +33,7 @@ Power BI 和專案「Madeira」內容套件讓您輕鬆深入探索專案「Made
     ![](media/service-connect-to-project-madeira/services.png)
 3. 選取 [專案「Madeira」]，然後選取 [取得]。  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. 出現提示時，輸入您的專案「Madeira」 URL。 URL 必須完全遵循下列模式：https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US')，且附上專案「Madeira」公司名稱。 請注意結尾沒有尾端斜線，且連線必須為 https。 請參閱[以下](#FindingParams)關於尋找此 URL 的詳細資訊。  
+4. 出現提示時，輸入您的專案「Madeira」 URL。 URL 必須完全遵循下列模式：<https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US>')，且附上專案 “Madeira” 公司名稱。 請注意結尾沒有尾端斜線，且連線必須為 https。 請參閱[以下](#FindingParams)關於尋找此 URL 的詳細資訊。  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. 出現提示時，請將驗證方法選取為 [基本]，輸入您的專案「Madeira」電子郵件地址作為使用者名稱，然後輸入專案「Madeira」帳戶的 Web 服務存取金鑰作為密碼。 如果您已經在瀏覽器中登入專案「Madeira」，可能就不會出現輸入認證的提示。 請參閱[以下](#FindingParams)關於產生此存取金鑰的詳細資料。  
@@ -93,10 +93,10 @@ Power BI 儀表板仰賴上列已發佈的 Web 服務，當您從目前的財務
 
 如果您在輸入專案「Madeira」URL 之後看到此錯誤，請確定 URL 滿足以下需求：  
 
-   - URL 會完全遵循此模式 https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company ('*CRONUS%20US*')  
-   - 刪除括弧中公司名稱後的所有文字  
-   - 請確定在 URL 結尾沒有尾端斜線。  
-   - 請確定 URL 使用的是安全連線，安全的 URL 會以 https 開頭。  
+- URL 會完全遵循此模式 https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company ('<em>CRONUS%20US</em>')  
+- 刪除括弧中公司名稱後的所有文字  
+- 請確定在 URL 結尾沒有尾端斜線。  
+- 請確定 URL 使用的是安全連線，安全的 URL 會以 https 開頭。  
 
 **「登入失敗」** 如果使用專案「Madeira」認證登入儀表板時收到「登入失敗」錯誤，可能是下列其中一個問題所導致：  
 
@@ -104,16 +104,16 @@ Power BI 儀表板仰賴上列已發佈的 Web 服務，當您從目前的財務
    - 您嘗試連線的專案「Madeira」執行個體不具備有效的 SSL 憑證。 在此情況下，您會看到更詳細的錯誤訊息 (「無法建立信任的 SSL 關係 」)。 請注意，自我簽署的憑證不受支援。  
 
 **「糟糕」** 如果通過 [驗證] 對話方塊之後看到「糟糕」錯誤對話方塊，通常是由於連接到內容套件資料時遇到了問題。 請確認 URL 遵循以上指定的模式︰  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')
 
 常見的錯誤是指定特定 Web 服務的完整 URL：  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')/powerbifinance
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')/powerbifinance
 
 或者，您可能忘記指定公司名稱︰   
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/
+    https://<em>mycronusus</em>.projectmadeira.com:7048/NAV/OData/
 
 ## <a name="next-steps"></a>後續步驟
-[開始使用 Power BI](service-get-started.md)
+[Power BI 是什麼？](power-bi-overview.md)
 
 [Power BI - 基本概念](service-basic-concepts.md)
 
