@@ -6,7 +6,7 @@
 
 Power BI Desktop 每個月都有更新，而且 \[Power BI Desktop What's New] \(Power BI Desktop 新增功能) 頁面會獲得所有更新、部落格連結和下載連結的相關資訊。
 
-Power BI Desktop 中有各式各樣的可用資料來源。 選取建立連接的來源。 依選項不同，系統會要求您找到電腦或網路上的來源，或提示您登入服務驗證要求。
+Power BI Desktop 中有各式各樣的可用資料來源。 選取建立連接的來源。 根據您的選取項目，系統會要求您在電腦或網路上尋找來源，或提示您登入服務以驗證要求。
 
 ![](media/1-2-connect-to-data-sources-in-power-bi-desktop/1-2_2.gif)
 

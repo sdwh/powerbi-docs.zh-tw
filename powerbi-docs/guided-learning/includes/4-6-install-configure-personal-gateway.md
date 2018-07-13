@@ -6,7 +6,7 @@
 >執行 Power BI Personal Gateway 的電腦「必須」開機並連線到網際網路，**Personal Gateway** 才能正常運作。
 > 
 
-若要設定您的 **Personal Gateway**，請先登入 Power BI 服務。 選取畫面右上角的**下載**圖示，然後從功能表選取 [資料閘道]。
+若要設定您的**個人閘道**，請先登入 Power BI 服務。 選取畫面右上角的**下載**圖示，然後從功能表選取 [資料閘道]。
 
 ![](media/4-6-install-configure-personal-gateway/4-6_1b.png)
 
