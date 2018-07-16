@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 08d5d5b8d44d1ebceab2bb41ddbb244afda64fb6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945035"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924784"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>管理 Power BI Premium 和 Power BI Embedded 內的容量
 了解如何管理提供內容專用資源的 Power BI Premium 和 Power BI Embedded 容量。
 
 ![Power BI 的容量設定畫面](media/service-admin-premium-manage/premium-capacity-management.png)
 
-容量是一群 Power BI Premium 和 Power BI Embedded 供應項目。
+容量是 Power BI Premium 和 Power BI Embedded 供應項目的中心。
 
 ## <a name="what-is-capacity"></a>什麼是容量？
 容量是專門保留供您使用的資源集。 擁有容量可讓您將儀表板、報表和資料集發佈給整個組織的使用者，不必購買其授權。 它也會保證容量中所裝載內容的可靠且一致效能。
@@ -32,6 +32,16 @@ ms.locfileid: "36945035"
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium.md)。
+
+### <a name="capacity-admins"></a>容量管理員
+> [!NOTE]
+> Power BI Embedded 容量的容量管理員是在 Microsoft Azure 入口網站內定義。
+
+當您被指派為容量的容量管理員時，您就可以全權掌控容量和其系統管理功能。 從 Power BI 管理入口網站，您可以新增更多容量管理員 (僅限 Power BI Premium)，或將容量指派權限授與使用者。 您可以將工作區大量指派給容量，並檢視容量的使用量計量。
+
+每個容量都有其自己的管理員。 定義某個容量的容量管理員，並不會提供他們對您組織內所有容量的存取權。 容量管理員預設無法存取所有的 Power BI 管理區域，例如使用計量、稽核記錄檔或租用戶設定。 容量管理員也沒有設定新容量或變更現有容量 SKU 的權限。 只有全域管理員或 Power BI 服務系統管理員可以存取這些項目。
+
+所有的 Office 365 全域管理員和 Power BI 管理員都會自動成為 Power BI Premium 容量和 Power BI Embedded 容量的容量管理員。
 
 ## <a name="purchase-capacity"></a>購買容量
 若要利用專用容量，您需要在 Office 365 系統管理中心內購買 Power BI Premium 訂閱，或在 Microsoft Azure 入口網站內建立 Power BI Embedded 資源。 如需詳細資訊，請參閱下列內容：
@@ -43,21 +53,9 @@ ms.locfileid: "36945035"
 
 > [!NOTE]
 > 訂閱結束後，您會擁有 30 天的完整存取權，但在 30 天過後，您的內容會還原至共用的容量。 一般共用授權不支援大於 1 GB 的模型。
->
 
-## <a name="capacity-admins"></a>容量管理員
-> [!NOTE]
-> Power BI Embedded 容量的容量管理員是在 Microsoft Azure 入口網站內定義。
->
->
 
-當您被指派為容量的容量管理員時，您就可以全權掌控容量和其系統管理功能。 從 Power BI 管理入口網站，您可以新增更多容量管理員 (僅限 Power BI Premium)，或將容量指派權限授與使用者。 您可以將工作區大量指派給容量，並檢視容量的使用量計量。
-
-每個容量都有其自己的管理員。 定義某個容量的容量管理員，並不會提供他們對您組織內所有容量的存取權。 容量管理員預設無法存取所有的 Power BI 管理區域，例如使用計量、稽核記錄檔或租用戶設定。 容量管理員也沒有設定新容量或變更現有容量 SKU 的權限。 只有全域管理員或 Power BI 服務系統管理員可以存取這些項目。
-
-所有的 Office 365 全域管理員和 Power BI 管理員都會自動成為 Power BI Premium 容量和 Power BI Embedded 容量的容量管理員。
-
-## <a name="managing-capacity"></a>管理容量
+## <a name="manage-capacity"></a>管理容量
 在 Office 365 中購買容量節點之後，您即需要設定新的容量。 這會透過 [Power BI 管理入口網站](service-admin-portal.md)完成。 在管理入口網站內，您會看到名為 [容量設定] 的區段。 這是您要在其中管理貴組織之 Power BI Premium 容量的位置。
 
 ![管理入口網站內的容量設定](media/service-admin-premium-manage/admin-portal-premium.png)
@@ -96,8 +94,6 @@ V 核心數目會反映已使用的數量以及可用來建立容量的數量。
 
 > [!NOTE]
 > Power BI Embedded 容量設定是在 Microsoft Azure 入口網站內管理。
->
->
 
 ### <a name="change-capacity-size-power-bi-premium"></a>變更容量大小 (Power BI Premium)
 Power BI 管理員和 Office 365 全域管理員可選取 [變更容量大小]，來變更 Power BI Premium 容量大小。 不是 Power BI 管理員或 Office 365 全域管理員的容量管理員沒有此選項。
@@ -128,35 +124,6 @@ P SKU 無法降級為 EM SKU。 您可以將滑鼠停留在提供說明的已停
 ![](media/service-admin-premium-manage/capacity-user-permissions.png)
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
-
-## <a name="usage-measurements-power-bi-premium"></a>使用量度量 (Power BI Premium)
-針對每個容量，您可以查看 CPU、「記憶體使用量」、「記憶體過度置換」和「直接查詢」的使用量度量。 建議您監視這些計量，確保您的使用者看到良好的容量效能：
-
-![過去七天的使用量](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> Power BI Embedded 容量使用量是在 Azure 入口網站中監視。
-
-| 計量 | 描述 |
-| --- | --- |
-| CPU |CPU 超過 80% 使用率的次數。 |
-| 記憶體過度置換 |代表後端核心的記憶體壓力。 具體而言，這個計量是因使用多個資料集的記憶體壓力而從記憶體收回資料集的次數。 |
-| 記憶體使用量 |平均記憶體使用量，以吉位元組 (GB) 表示。 |
-| DQ/s | 「直接查詢」和「即時連線」計數超過 80% 限制的次數。 <br> <br> * 我們限制每秒的 DirectQuery 和即時連線查詢總數。<br><br>* P1 的限制為 30/s、P2 為 60/s，而 P3 為 120/s。<br><br> *「直接查詢」和即時連線查詢計數會新增至上面的節流。 例如，如果您每秒有 15 個 DirectQuery 和 15 個即時連線，請按節流。<br/><br>* 這會平均套用至內部部署和雲端連線。 |
-
-計量會反映過去一週的使用率。  如果您想要看到更詳細的計量檢視，則可以按一下任何摘要磚。  這會將您帶往進階容量之每個計量的詳細圖表。  這些圖表在過去一週每小時都會彙總一次，並有助於找出您何時可能已有進階容量的特定效能相關事件。  
-
-![詳細使用量圖表 CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![詳細使用量圖表記憶體過度置換](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![詳細使用量圖表記憶體大小](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![詳細使用量圖表記憶體過度置換](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-您也可以將任何計量的基礎資料匯出至 csv 檔案。  這項匯出會依每三分鐘的間隔提供過去一週每天的詳細資訊。
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>將工作區指派給容量
 有幾種方法可以將工作區指派給容量。
@@ -193,6 +160,36 @@ P SKU 無法降級為 EM SKU。 您可以將滑鼠停留在提供說明的已停
 5. 選取 [儲存]。
 
 儲存之後，工作區和其所有內容都會移至進階容量，而不會干擾一般使用者的任何體驗。
+
+
+## <a name="monitor-capacity-usage"></a>監視容量使用方式
+針對每個容量，您可以查看 CPU、「記憶體使用量」、「記憶體過度置換」和「直接查詢」的使用量度量。 建議您監視這些計量，確保您的使用者看到良好的容量效能：
+
+![過去七天的使用量](media/service-admin-premium-manage/premium-dashboard-tiles.png)
+
+> [!NOTE]
+> Power BI Embedded 容量使用量是在 Azure 入口網站中監視。
+
+| 計量 | 描述 |
+| --- | --- |
+| CPU |CPU 超過 80% 使用率的次數。 |
+| 記憶體過度置換 |代表後端核心的記憶體壓力。 具體而言，這個計量是因使用多個資料集的記憶體壓力而從記憶體收回資料集的次數。 |
+| 記憶體使用量 |平均記憶體使用量，以吉位元組 (GB) 表示。 |
+| DQ/s | 「直接查詢」和「即時連線」計數超過 80% 限制的次數。 <br> <br> * 我們限制每秒的 DirectQuery 和即時連線查詢總數。<br><br>* P1 的限制為 30/s、P2 為 60/s，而 P3 為 120/s。<br><br> *「直接查詢」和即時連線查詢計數會新增至上面的節流。 例如，如果您每秒有 15 個 DirectQuery 和 15 個即時連線，請按節流。<br/><br>* 這會平均套用至內部部署和雲端連線。 |
+
+計量會反映過去一週的使用率。  如果您想要看到更詳細的計量檢視，則可以按一下任何摘要磚。  這會將您帶往進階容量之每個計量的詳細圖表。  這些圖表在過去一週每小時都會彙總一次，並有助於找出您何時可能已有進階容量的特定效能相關事件。  
+
+![詳細使用量圖表 CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
+
+![詳細使用量圖表記憶體過度置換](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
+
+
+![詳細使用量圖表記憶體大小](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
+
+
+![詳細使用量圖表記憶體過度置換](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
+
+您也可以將任何計量的基礎資料匯出至 csv 檔案。  這項匯出會依每三分鐘的間隔提供過去一週每天的詳細資訊。
 
 ## <a name="what-premium-looks-like-for-users"></a>Premium 對使用者而言是什麼
 在大部分的情況下，使用者甚至不需要知道它們位在進階容量中。 其儀表板和報表也能夠運作。 您會看到進階容量中工作區旁的菱形圖示，這是視覺效果提示。

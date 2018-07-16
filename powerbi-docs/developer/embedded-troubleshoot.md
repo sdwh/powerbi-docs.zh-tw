@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/09/2018
 ms.author: maghan
-ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926551"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877016"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -102,13 +102,11 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 
 **(AADSTS70002: 驗證認證時發生錯誤。AADSTS50053: 使用不正確的使用者識別碼或密碼，嘗試登入太多次)**
 
-如果您使用 Power BI Embedded 並利用 Azure AD Direct Authentication，而且您在登入時收到訊息，例如 ***error:unauthorized_client,error_description:AADSTS70002: 驗證認證時發生錯誤。AADSTS50053: 使用不正確的使用者識別碼或密碼，嘗試登入太多次***，原因是已從 2018/6/14 開始關閉直接驗證。
+如果您使用 Power BI Embedded 並利用 Azure AD Direct Authentication，而且您在登入時收到訊息，例如 ***error:unauthorized_client,error_description:AADSTS70002: 驗證認證時發生錯誤。AADSTS50053: 您使用了不正確的使用者識別碼或密碼嘗試登入太多次***，這是因為根據預設，直接驗證已從 2018/6/14 起關閉。
 
-建議您使用 [Azure AD 條件式存取](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/)支援來封鎖舊有驗證，或使用 [Azure AD Directory 傳遞驗證](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication)。
+您可以使用 [Azure AD 原則](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)重新加以開啟，而其範圍可以是組織或[服務主體](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)。
 
-不過，有方法可以使用 [Azure AD 原則](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)重新開啟此項目，而 Azure AD 原則的範圍限定為組織或[服務主體](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)。
-
-**_因應措施是建議僅根據個別應用程式且只有在必要時才啟用此選項。_**
+建議您只依應用程式，個別加以啟用。
 
 若要建立此原則，您需要是要在其中建立並指派原則之目錄的**全域管理員**。 下列範例指令碼示範如何建立原則，並將它指派給此應用程式的 SP：
 
