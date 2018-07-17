@@ -898,6 +898,8 @@
       items:
         - name: 內嵌客戶的內容
           href: developer/embed-sample-for-customers.md
+        - name: 內嵌組織的內容
+          href: developer/embed-sample-for-your-organization.md
     - name: 概念
       items:
         - name: 使用 Power BI REST API
@@ -934,12 +936,8 @@
               href: developer/embedding.md
             - name: 如何內嵌您的內容
               href: developer/embedding-content.md
-            - name: 將儀表板整合到應用程式中 (使用者擁有資料)
-              href: developer/integrate-dashboard.md
-            - name: 將 Power BI 磚整合至應用程式中 (使用者擁有資料)
-              href: developer/integrate-tile.md
-            - name: 將 Power BI 報表整合至應用程式中 (使用者擁有資料)
-              href: developer/integrate-report.md
+            - name: 如何從應用程式內嵌
+              href: developer/embed-from-apps.md
             - name: 為主權雲端將內容整合至您的應用程式中 (應用程式擁有資料)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: 將自訂配置內嵌到應用程式中
