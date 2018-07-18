@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 7fb13b86e3f384c0c923a96e07631498edf84ee4
+ms.sourcegitcommit: 0c870a006e525447497e678484874a2f137b9abd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924993"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39088877"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>註冊 Azure AD 應用程式以內嵌 Power BI 內容
 了解如何在 Azure Active Directory (Azure AD) 內註冊應用程式，以用來內嵌 Power BI 內容。
@@ -23,7 +23,6 @@ ms.locfileid: "38924993"
 
 > [!IMPORTANT]
 > 註冊 Power BI 應用程式之前，您需要有 [Azure Active Directory 租用戶和組織使用者](create-an-azure-active-directory-tenant.md)。 如果您尚未以租用戶中的使用者來註冊 Power BI，則無法成功完成應用程式註冊。
-> 
 
 有兩種方式可以註冊您的應用程式。 第一種方法是使用 [Power BI 應用程式註冊工具](https://dev.powerbi.com/apps/)；或者，您也可以在 Azure 入口網站直接註冊。 由於 Power BI 應用程式註冊工具只需填寫幾個欄位，所以算是最簡簡單的途徑。 如果您要變更應用程式，請使用 Azure 入口網站。
 
@@ -174,7 +173,6 @@ ms.locfileid: "38924993"
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
-
 5. 授與應用程式權限給 Azure Active Directory (AAD)
    
    **consentType** 的值可以提供 **AllPrincipals** 或 **Principal**。
