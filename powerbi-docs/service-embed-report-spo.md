@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34553557"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032040"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -84,7 +84,7 @@ ms.locfileid: "34553557"
 > [!IMPORTANT]
 > 請務必檢閱可以看到 Power BI 服務內報表的成員，並將存取權授與未列出的成員。
 
-有兩個方法可提供 Power BI 服務內報表的存取權。 如果您使用 Office 365 群組來建置 SharePoint Online 小組網站，則會將使用者列為 Power BI 服務內的應用程式工作區成員。 如此可確保使用者能夠檢視該群組的內容。 如需詳細資訊，請參閱[在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md)。
+有兩個方法可提供 Power BI 服務內報表的存取權。 如果您使用 Office 365 群組來建置 SharePoint Online 小組網站，則要將使用者列為 **Power BI 服務內的應用程式工作區**成員，及列出 **SharePoint 頁面**。 如此可確保使用者能夠檢視該群組的內容。 如需詳細資訊，請參閱[在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md)。
 
 或者您可以執行下列動作，以將您的報表存取權授與使用者。
 
@@ -129,7 +129,7 @@ ms.locfileid: "34553557"
 
 ## <a name="known-issues-and-limitations"></a>已知的問題及限制
 
-* **錯誤："An error occurred, please try logging out and back in and then revisiting this page.Correlation id: undefined, http response status: 400, server error code 10001, message: Missing refresh token"** (發生錯誤。請登出再登入，然後再次前往此頁面。相互關聯識別碼: 未定義。HTTP 回應的狀態: 400。伺服器錯誤碼 10001。訊息: 缺少重新整理權杖)
+* 錯誤: 「發生錯誤，請嘗試登出再登入，然後重新前往此頁面。 相互關聯識別碼: 未定義，HTTP 回應狀態: 400，伺服器錯誤碼 10001，訊息: 缺少重新整理權杖」
   
   收到此錯誤時，請嘗試執行下列其中一項動作。
   
@@ -154,5 +154,4 @@ ms.locfileid: "34553557"
 [Share a dashboard with colleagues and others](service-share-dashboards.md) (與同事和其他人共用儀表板)  
 [Power BI Premium - 這是什麼？](service-premium.md)  
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/) 
-
+有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)

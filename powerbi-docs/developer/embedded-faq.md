@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599942"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032063"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -76,7 +76,7 @@ Power BI Embedded 是一組可供開發人員用來在平台即服務供應項�
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |購買     |Azure 入口網站 |Office |Office |
-|使用案例 |* 在自己的應用程式內嵌內容 |* 在自己的應用程式內嵌內容<br>* 與 PowerBI.com 外的 Power BI 免費使用者共用內容，以及在其他 SaaS 應用程式 (SharePoint、[Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)) 中內嵌 |* 在自己的應用程式內嵌內容<br>* 與 PowerBI.com 外的 Power BI 免費使用者共用內容，以及在其他 SaaS 應用程式中 (SharePoint、Teams) 內嵌<br>* 透過 PowerBI.com 與 Power BI 免費使用者共用內容  |
+|使用案例 |* 在自己的應用程式內嵌內容 |* 在自己的應用程式內嵌內容<br>* 將內容內嵌在其他 SaaS 應用程式中 ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[團隊](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* 在自己的應用程式內嵌內容<br>* 將內容內嵌在其他 SaaS 應用程式中 ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* 透過 [Power BI 服務](https://powerbi.microsoft.com/en-us/)與 Power BI 使用者共用內容  |
 |帳單 |每小時 |每月 |每月 |
 |承諾用量  |無承諾用量 |每年  |每月/每年 |
 |差異 |完整彈性 - 可以在 Azure 入口網站中，或透過 API 相應增加/減少、暫停/繼續資源  |可用於在 SharePoint Online 和 Microsoft Teams 內嵌內容 |在相同容量中結合應用程式內嵌及使用 Power BI 服務 |
