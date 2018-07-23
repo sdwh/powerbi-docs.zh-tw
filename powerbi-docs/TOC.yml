@@ -322,6 +322,10 @@
                   href: service-collaborate-power-bi-workspace.md
                 - name: 管理 Power BI 和 Office 365 中的群組
                   href: service-manage-app-workspace-in-power-bi-and-office-365.md
+                - name: 共用連結至商務用 OneDrive 上 Excel 活頁簿的儀表板
+                  href: service-share-dashboard-that-links-to-excel-onedrive.md
+            - name: 內容套件
+              items:
                 - name: 管理、更新和刪除組織內容套件
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 組織內容套件︰複製、重新整理及存取
@@ -332,8 +336,16 @@
                   href: service-organizational-content-pack-create-and-publish.md
                 - name: 移除與組織內容套件的連接
                   href: service-organizational-content-pack-disconnect.md
-                - name: 共用連結至商務用 OneDrive 上 Excel 活頁簿的儀表板
-                  href: service-share-dashboard-that-links-to-excel-onedrive.md
+                - name: 憑證
+                  items:
+                    - name: 內容套件認證計劃
+                      href: service-content-pack-overview.md
+                    - name: 範本內容套件撰寫
+                      href: template-content-pack-authoring.md
+                    - name: 範本內容套件測試
+                      href: template-content-pack-testing.md
+                    - name: 範本內容套件體驗
+                      href: template-content-pack-experience.md
             - name: 報表
               items:
                 - name: 從現有的報表建立新的報表
@@ -890,58 +902,34 @@
           href: mobile-apps-supported-languages.md
 - name: 適用於開發人員的 Power BI
   items:
-    - name: 概觀
+    - name: 內嵌式分析
       items:
-        - name: 開發人員可如何利用 Power BI？
-          href: developer/what-can-you-do.md
-    - name: 教學課程
-      items:
-        - name: 內嵌客戶的內容
-          href: developer/embed-sample-for-customers.md
-        - name: 內嵌組織的內容
-          href: developer/embed-sample-for-your-organization.md
-    - name: 概念
-      items:
-        - name: 使用 Power BI REST API
-          items:
-            - name: Power BI API 可以做些什麼？
-              href: developer/overview-of-power-bi-rest-api.md
-            - name: Power BI REST API 限制
-              href: developer/api-rest-api-limitations.md
-            - name: 資料集屬性
-              href: developer/api-dataset-properties.md
-            - name: 資料模型版本設定
-              href: developer/api-data-model-versioning.md
-        - name: 使用開發人員工具建立自訂視覺效果
-          href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: Power BI 權限
-          href: developer/power-bi-permissions.md
-        - name: 資料列層級安全性 (RLS)
-          href: developer/embedded-row-level-security.md
-        - name: 常見問題集
-          href: developer/embedded-faq.md
-    - name: 如何
-      items:
-        - name: 建立自訂視覺效果
-          items:
-            - name: 使用開發人員工具建立自訂視覺效果
-              href: service-custom-visuals-getting-started-with-developer-tools.md
-            - name: 讓自訂視覺效果獲得認證
-              href: power-bi-custom-visuals-certified.md
-            - name: 在 AppSource 上發佈自訂視覺效果
-              href: developer/office-store.md
-        - name: 內嵌
+        - name: 概觀
           items:
             - name: Power BI 的內嵌功能
               href: developer/embedding.md
+        - name: 教學課程
+          items:
+            - name: 內嵌客戶的內容
+              href: developer/embed-sample-for-customers.md
+            - name: 內嵌組織的內容
+              href: developer/embed-sample-for-your-organization.md
+        - name: 概念
+          items:
+            - name: 資料列層級安全性 (RLS)
+              href: developer/embedded-row-level-security.md
+            - name: 常見問題集
+              href: developer/embedded-faq.md
+            - name: Power BI 權限
+              href: developer/power-bi-permissions.md
+        - name: 如何
+          items:
             - name: 如何內嵌您的內容
               href: developer/embedding-content.md
             - name: 如何從應用程式內嵌
               href: developer/embed-from-apps.md
             - name: 為主權雲端將內容整合至您的應用程式中 (應用程式擁有資料)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
-            - name: 將自訂配置內嵌到應用程式中
-              href: developer/embedded-custom-layout.md
             - name: 建立 Azure Active Directory 租用戶
               href: developer/create-an-azure-active-directory-tenant.md
             - name: 註冊應用程式
@@ -952,15 +940,103 @@
               href: developer/qanda.md
             - name: 如何移轉 Power BI Embedded
               href: developer/migrate-from-powerbi-embedded.md
-            - name: Power BI Embedded 移轉工具
-              href: developer/migrate-tool.md
-            - name: 移轉程式碼片段
-              href: developer/migrate-code-snippets.md
             - name: 為您的內嵌應用程式進行疑難排解
               href: developer/embedded-troubleshoot.md
-        - name: 推送資料
+        - name: 參考
           items:
-            - name: 將資料推送至儀表板
+            - name: .NET SDK 下載
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+            - name: 將自訂配置內嵌到應用程式中
+              href: developer/embedded-custom-layout.md
+            - name: 移轉程式碼片段
+              href: developer/migrate-code-snippets.md
+        - name: 資源
+          items:
+            - name: 開發人員中心
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 內嵌入門訓練體驗工具
+              href: 'https://aka.ms/embedsetup'
+            - name: JavaScript Playground 範例
+              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+            - name: Power BI JavaScript Wiki
+              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+            - name: JavaScript Git 存放庫
+              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
+            - name: 'Power BI C# Git 存放庫'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: 範例
+              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+            - name: Power BI Embedded 移轉工具
+              href: developer/migrate-tool.md
+            - name: Power BI 社群
+              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+            - name: 堆疊溢位
+              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+    - name: 開發自訂視覺效果
+      items:
+        - name: 概觀
+          items:
+            - name: 將自訂視覺效果新增至 Power BI
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/'
+        - name: 教學課程
+          items:
+            - name: 開發 Power BI 自訂視覺效果
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/step-by-step-lab/developing-a-power-bi-custom-visual/'
+        - name: 概念
+          items:
+            - name: 使用功能
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/capabilities/'
+            - name: 資料檢視對應
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/dataviewmappings/'
+            - name: 物件與屬性
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/objects-and-properties/'
+            - name: 進階編輯模式
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/advanced-edit-mode/'
+            - name: 移轉至已建立版本的 API 指南
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/migrating-to-versioned-api-guide/'
+        - name: 如何
+          items:
+            - name: 讓自訂視覺效果獲得認證
+              href: power-bi-custom-visuals-certified.md
+            - name: 在 AppSource 上發佈自訂視覺效果
+              href: developer/office-store.md
+        - name: 參考
+          items:
+            - name: API
+              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+        - name: 資源
+          items:
+            - name: 開發人員中心
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 使用開發人員工具建立自訂視覺效果
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: 範例
+              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+            - name: 自訂視覺效果 Git 存放庫
+              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+    - name: 自動化
+      items:
+        - name: 概觀
+          items:
+            - name: Power BI API 可以做些什麼？
+              href: developer/overview-of-power-bi-rest-api.md
+        - name: 教學課程
+          items: null
+        - name: 概念
+          items:
+            - name: 即時資料的自動保留原則
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
+            - name: 推送資料
+              items:
+                - name: Power BI REST API 限制
+                  href: developer/api-rest-api-limitations.md
+                - name: 資料集屬性
+                  href: developer/api-dataset-properties.md
+                - name: 資料模型版本設定
+                  href: developer/api-data-model-versioning.md
+        - name: 如何
+          items:
+            - name: 將資料推送至資料集
               href: developer/walkthrough-push-data.md
             - name: 使用 Azure AD 註冊應用程式
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
@@ -972,44 +1048,22 @@
               href: developer/walkthrough-push-data-get-datasets.md
             - name: 將資料列加入資料表
               href: developer/walkthrough-push-data-add-rows.md
+        - name: 參考
+          items:
+            - name: REST API
+              href: 'https://docs.microsoft.com/rest/api/power-bi'
+            - name: Power BI REST API 參考
+              href: developer/rest-api-reference.md
             - name: 完整程式碼清單
               href: developer/walkthrough-push-data-complete-code.md
-            - name: 即時資料的自動保留原則
-              href: developer/api-automatic-retention-policy-for-real-time-data.md
-        - name: 內容套件認證
+        - name: 資源
           items:
-            - name: 內容套件認證計劃
-              href: developer/service-content-pack-overview.md
-            - name: 範本內容套件撰寫
-              href: developer/template-content-pack-authoring.md
-            - name: 範本內容套件測試
-              href: developer/template-content-pack-testing.md
-            - name: 範本內容套件體驗
-              href: developer/template-content-pack-experience.md
-    - name: 參考
-      items:
-        - name: REST API
-          href: 'https://docs.microsoft.com/rest/api/power-bi/'
-        - name: 'Power BI C# Git 存放庫'
-          href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-        - name: .NET SDK 下載
-          href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-        - name: JavaScript Git 存放庫
-          href: 'https://go.microsoft.com/fwlink/?linkid=848276'
-        - name: 自訂視覺效果 Git 存放庫
-          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-    - name: 資源
-      items:
-        - name: 內嵌入門訓練體驗工具
-          href: 'https://aka.ms/embedsetup'
-        - name: JavaScript Playground 範例
-          href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: 範例
-          href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-        - name: Power BI 社群
-          href: 'https://go.microsoft.com/fwlink/?linkid=848280'
-        - name: 堆疊溢位
-          href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+            - name: 開發人員中心
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 'Power BI C# Git 存放庫'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: .NET SDK 下載
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI 報表伺服器
   items:
     - name: 概觀
