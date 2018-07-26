@@ -10,7 +10,7 @@
 
 請記住，每當您在 DAX 運算式中參考變數，Power BI 都必須根據您的定義重新計算其值。 基於這項理由，建議您避免在函數中重複使用變數。
 
-> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

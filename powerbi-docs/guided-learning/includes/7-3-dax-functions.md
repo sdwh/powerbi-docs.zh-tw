@@ -89,7 +89,7 @@ DAX 包括下列**日期**函數︰
 
 雖然這些函數用來計算和擷取日期值的資訊很實用，他們並不適用於使用日期資料表的時間智慧。
 
-> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

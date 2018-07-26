@@ -3,7 +3,7 @@
 **DAX** 代表**資料分析運算式**，且其是 Power BI 所使用的公式語言 (Power BI 也會在幕後加以使用)。 在 Microsoft 的其他供應項目中也可以找到 DAX，例如 Power Pivot 和 SSAS Tabular，但本引導式學習的主題集合聚焦在 DAX 在 Power BI 中的使用方式，以及您可以如何加以使用。
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX 和此引導式學習影片系列
-本**引導式學習**一節的目標是教導您 DAX 的基本知識和基本概念，包括如何看待 DAX、其運作方式，以及由知名 DAX 專家 [Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit) 所說明 (與透過眾多經驗所學習) 的最實用功能。
+本**引導式學習**一節的目標是教導您 DAX 的基本知識和基本概念，包括如何看待 DAX、其運作方式，以及由知名 DAX 專家 [Alberto Ferrari](http://www.sqlbi.com/learning-dax) 所說明 (與透過眾多經驗所學習) 的最實用功能。
 
 ![Alberto Ferrari 的相片](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 

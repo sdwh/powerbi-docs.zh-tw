@@ -15,7 +15,7 @@ DAX 具有**關聯式函數**，可讓您與已建立關聯性的資料表進行
 
 您可以使用關聯式函數建立包含多個資料表值的運算式。 不論關聯性的鏈結長度為何，DAX 皆會以此等函數傳回結果。
 
-> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

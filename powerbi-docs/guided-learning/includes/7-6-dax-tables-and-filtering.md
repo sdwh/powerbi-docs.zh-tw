@@ -34,7 +34,7 @@ DISTINCT 函數會針對目前內容中亦可見的資料行，傳回該資料�
 
 您也可以使用 DAX 函數建立整個計算資料表。 使用 DAX 建立的計算資料表都需要 **NAME** 和 **TABLE** 函數。 計算資料表可像任何其他資料表般使用，包括建立關聯性。
 
-> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 
