@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 016237c95d3494435931e143ff34dbe4a82abb55
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 9c94ec0b409bdb620c7ce9f313803cdf49c15b5a
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599649"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256093"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>在 Power BI 服務中建立 R 視覺效果
 Power BI 服務支援檢視使用 R 指令碼建立的視覺效果，並與其互動。 以 R 指令碼建立的視覺效果通常稱為「R 視覺效果」，可以使用 R 豐富的分析和視覺效果功能呈現進階的資料成形和分析，例如預測。
