@@ -105,13 +105,13 @@ Power BI 也支援主權 (私人) 雲端。 每個主權雲端都有它自己的
 ## <a name="step-1---register-an-app-in-azure-ad"></a>步驟 1 - 在 Azure AD 中註冊應用程式
 您必須使用 Azure AD 註冊應用程式，才能進行 REST API 呼叫。 如需詳細資訊，請參閱[註冊 Azure AD 應用程式以內嵌 Power BI 內容](register-app.md)。 由於有不同的主權雲端聯盟，因此有不同的 URL 可用來註冊您的應用程式。
 
-* 政府社群雲端 (GCC)：https://app.powerbigov.us/apps 
+* 政府社群雲端 (GCC)： https://app.powerbigov.us/apps 
 
-* 軍事承包商 (DoDCON)：https://app.high.powerbigov.us/apps 
+* 軍事承包商 (DoDCON)： https://app.high.powerbigov.us/apps 
 
-* 軍事 (DoD)：https://app.mil.powerbigov.us/apps
+* 軍事 (DoD)： https://app.mil.powerbigov.us/apps
 
-* 適用於德國雲端的 Power BI：https://app.powerbi.de/apps
+* 適用於德國雲端的 Power BI： https://app.powerbi.de/apps
 
 若您已經下載[對客戶進行內嵌範例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)，就能使用註冊後取得的**用戶端識別碼**來設定範例，以便向 Azure AD 驗證。 若要設定範例，請在 *web.config* 檔案中變更 **clientId**。
 
@@ -119,13 +119,13 @@ Power BI 也支援主權 (私人) 雲端。 每個主權雲端都有它自己的
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>步驟 2 - 從 Azure AD 取得存取權杖
 在您的應用程式中，您必須先從 Azure AD 取得**存取權杖**，才能對 Power BI REST API 進行呼叫。 如需詳細資訊，請參閱 [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (驗證使用者，並為 Power BI 應用程式取得 Azure AD 存取權杖)。 由於有不同的主權雲端聯盟，因此有不同的 URL 可用來取得您應用程式的存取權杖。
 
-* 政府社群雲端 (GCC)：https://login.microsoftonline.com
+* 政府社群雲端 (GCC)： https://login.microsoftonline.com
 
-* 軍事承包商 (DoDCON)：http://login.microsoftonline.us
+* 軍事承包商 (DoDCON)： http://login.microsoftonline.us
 
-* 軍事 (DoD)：https://login.microsoftonline.us
+* 軍事 (DoD)： https://login.microsoftonline.us
 
-* 適用於德國雲端的 Power BI：https://login.microsoftonline.de
+* 適用於德國雲端的 Power BI： https://login.microsoftonline.de
 
 您可以在 **Controllers\HomeController.cs** 的每個內容項目工作中看到相關範例。
 
