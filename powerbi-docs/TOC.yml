@@ -682,8 +682,10 @@
               href: desktop-qna-in-reports.md
             - name: Power BI Desktop 中的分析窗格
               href: desktop-analytics-pane.md
-            - name: 使用 Power BI Desktop 中的深入解析
+            - name: 使用深入解析說明增減
               href: desktop-insights.md
+            - name: 使用深入解析尋找圖表中不同的分布點
+              href: desktop-insights-find-where-different.md
             - name: Power BI 中的書籤
               href: desktop-bookmarks.md
             - name: 使用報表主題
