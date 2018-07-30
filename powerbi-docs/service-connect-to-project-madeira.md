@@ -33,7 +33,7 @@ Power BI 和專案「Madeira」內容套件讓您輕鬆深入探索專案「Made
     ![](media/service-connect-to-project-madeira/services.png)
 3. 選取 [專案「Madeira」]，然後選取 [取得]。  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. 出現提示時，輸入您的專案「Madeira」 URL。 URL 必須完全遵循下列模式：<https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US>')，且附上專案 “Madeira” 公司名稱。 請注意結尾沒有尾端斜線，且連線必須為 https。 請參閱[以下](#FindingParams)關於尋找此 URL 的詳細資訊。  
+4. 出現提示時，輸入您的專案「Madeira」 URL。 URL 必須完全遵循下列模式： <https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US>')， 且附上專案 “Madeira” 公司名稱。 請注意結尾沒有尾端斜線，且連線必須為 https。 請參閱[以下](#FindingParams)關於尋找此 URL 的詳細資訊。  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. 出現提示時，請將驗證方法選取為 [基本]，輸入您的專案「Madeira」電子郵件地址作為使用者名稱，然後輸入專案「Madeira」帳戶的 Web 服務存取金鑰作為密碼。 如果您已經在瀏覽器中登入專案「Madeira」，可能就不會出現輸入認證的提示。 請參閱[以下](#FindingParams)關於產生此存取金鑰的詳細資料。  
