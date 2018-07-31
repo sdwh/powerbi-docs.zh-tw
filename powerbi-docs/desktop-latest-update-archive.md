@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 166d61c78f8e85a91dafa5de698d782b456834a7
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: dcf63989a7d016b5795337f43c9524b05d2d54cd
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37601629"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210368"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -34,6 +34,53 @@ ms.locfileid: "37601629"
 
 下列章節說明 **Power BI Desktop** 前幾個月的更新。
 
+
+## <a name="june-2018-update-2595135101"></a>2018 年 6 月更新 (2.59.5135.101)
+
+陽光照耀在本月的更新，功能和改善已溫暖您的報表，讓您沉浸在它們提供的見解中。
+
+以下是 6 月 **Power BI Desktop** 新增的更新：
+
+### <a name="reporting"></a>報告
+
+* 報表的高對比支援  [[影片]](https://youtu.be/4VpGtWSrssE?t=13s)  [[文章]](desktop-accessibility.md#high-contrast-support-for-reports)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* 環圈圖半徑控制項  [[影片]](https://youtu.be/4VpGtWSrssE?t=6m1s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
+* 圓形圖和環圈圖的詳細資料標籤定位控制項  [[影片]](https://youtu.be/4VpGtWSrssE?t=7m19s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
+* 分別為組合圖中的每個量值格式化資料標籤  [[影片]](https://youtu.be/4VpGtWSrssE?t=9m29s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
+* 較長的手機報表  [[影片]](https://youtu.be/4VpGtWSrssE?t=11m26s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#phoneReports) 
+
+### <a name="custom-visuals"></a>自訂視覺效果
+
+* 兩個新的自訂視覺效果  [[影片]](https://youtu.be/4VpGtWSrssE?t=17m42s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
+
+### <a name="modeling"></a>建立模型
+* 資料檢視中的篩選和排序  [[影片]](https://youtu.be/4VpGtWSrssE?t=13m11s)  [[文章]](desktop-data-view.md#filtering-in-data-view)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
+* 改善的地區設定篩選   [[影片]](https://youtu.be/4VpGtWSrssE?t=15m35s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#locale) 
+
+### <a name="data-connectivity"></a>資料連線
+
+* SAP BusinessWarehouse 連接器改善 (新的驅動程式和提升的效能，以及改善的階層變數支援)  [[影片]](https://youtu.be/4VpGtWSrssE?t=21m6s) [[文章]](desktop-sap-bw-connector.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#sapBW) 
+* Spark 連接器現在支援 Windows 驗證  [[影片]](https://youtu.be/4VpGtWSrssE?t=24m31s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#spark) 
+* OData V4 連接器改善 [[影片]](https://youtu.be/4VpGtWSrssE?t=25m12s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
+* ODBC 連接器改善 (排名最前面的資料列摺疊支援、能夠依 DSN 目錄篩選瀏覽) [[影片]](https://youtu.be/4VpGtWSrssE?t=26m51s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#odbc) 
+
+### <a name="other"></a>其他
+
+* 主權雲端選擇器 [[影片]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+
+
+> [!NOTE]
+> 您也可以[查看 Power BI Desktop 的所有可用資料來源](desktop-data-sources.md)，我們的資料來源會持續增加，因此請經常回來查看。
+
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
+
+下列影片將描述並示範這些更新。 您也可以從部落格文章觀賞這段影片。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4VpGtWSrssE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> 您可能也會想要了解 [Power BI 服務的新功能](service-whats-new.md)，並請同時查閱 [Power BI 行動應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="may-2018-update-2585103281"></a>2018 年 5 月更新 (2.58.5103.281)
 

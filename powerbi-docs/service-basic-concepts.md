@@ -8,15 +8,15 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0536dc6fd637db07c0e26a4ed7f0da1071b646eb
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: a1719f8a6f9f4ad3989aa498c584b337cd9fdd00
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137414"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182740"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI 服務的基本概念
 
@@ -48,9 +48,9 @@ Power BI 服務 UI 的主要功能如下︰
 Power BI 的 4 個主要建置組塊是：***儀表板***、***報告***、***活頁簿***和***資料集***。 它們全都會組織成「工作區」。 在我們深入探討 4 個建置組塊之前，請務必先了解工作區，讓我們開始吧！ 
 
 ## <a name="workspaces"></a>工作區
-工作區是 Power BI 中儀表板、報告、活頁簿和資料集的容器。 有兩種類型的工作區︰[我的工作區] 和 [應用程式工作區]。 所以，何謂「應用程式」？ Power BI 應用程式是為了提供重要計量給組織而建立的一組儀表板和報告。 應用程式皆為互動式，但無法編輯 
+工作區是 Power BI 中儀表板、報告、活頁簿和資料集的容器。 有兩種類型的工作區︰我的工作區和應用程式工作區。 所以，何謂「應用程式」？ Power BI 應用程式是為了提供重要計量給組織而建立的一組儀表板和報告。 應用程式皆為互動式，但無法編輯。 
 
-- [我的工作區] 是可供任何 Power BI 客戶處理其內容的個人工作區。 只有您可以存取您的 [我的工作區]。 如果您想要共用任何您的內容，您有好幾個選擇：建立可將內容組合成「應用程式」的應用程式工作區並且讓您組織中的其他使用者使用，或建立應用程式工作區並且讓同事存取該工作區，您即可共用及共同作業。     
+- [我的工作區] 是可供任何 Power BI 客戶處理自己的內容的個人工作區。 只有您可以存取您的 [我的工作區]。 您可以從 [我的工作區] 共用儀表板和報表。 如果您想要在儀表板和報表上共同作業，或是建立應用程式，則應在應用程式工作區中工作。      
 -  [應用程式工作區] 用於共同作業並與同事共用內容。 它們也是您為組織建立、發佈及管理應用程式的地方。 將它們視為將構成 Power BI 應用程式之內容的暫存區域與容器。 您可以將同事新增至您的應用程式工作區，以及在儀表板、報告、活頁簿和資料集上共同作業。 所有應用程式工作區成員都需要 Power BI Pro 授權，但應用程式取用者 (可以存取應用程式的同事) 不一定需要 Pro 授權。  
 
 若要深入了解，請參閱目錄的 [分享您的成果] 區段 (從[如何共同作業及共用儀表板和報告](service-how-to-collaborate-distribute-dashboards-reports.md)開始)

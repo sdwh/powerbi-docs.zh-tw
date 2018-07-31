@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 8a688f46a46dbb1015629c7785d96b62d4f8df26
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: a9d178ccfdb47152fd2c13d445b9190ced6115e1
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813222"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39157310"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>開發人員可如何利用 Power BI API？
 Power BI 顯示互動式儀表板，可即時從不同的資料來源建立及更新。 您可以使用任何支援 REST 呼叫的程式設計語言，建立即時整合 Power BI 儀表板的應用程式。 您也可以將 Power BI 磚和報告整合到應用程式中。
@@ -58,6 +58,11 @@ Power BI 開發人員範例包含用來內嵌儀表板、報告和圖格的項�
 * [對組織進行內嵌](embedding.md#embedding-for-your-organization)可讓您擴充 Power BI 服務。 執行[對組織進行內嵌](https://aka.ms/embedsetup/UserOwnsData)解決方案。
 
 如需使用 JavaScript API 的完整範例，您可以使用[測試網工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 這是一個可測試不同類型 Power BI Embedded 範例的快速方式。 您也可以瀏覽 [PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) \(英文\) 頁面來取得有關 JavaScript API 的詳細資訊。
+
+## <a name="push-data-into-power-bi"></a>將資料推送至 Power BI
+您可以使用 Power BI API 以將資料推送至資料集。 這可讓您將資料列新增至資料集內的資料表。 新資料接著會反映在儀表板的磚中，以及報表的視覺效果內。
+
+![推送資料範例](media/what-can-you-do/powerbi-push-data.png)
 
 ## <a name="next-steps"></a>後續步驟
 [將資料推送至資料集](walkthrough-push-data.md)  

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 72a900b1661a77e5b31c1d68b5726d989b236f7b
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39031994"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210276"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 報告中的協助工具
 Power BI 具有可讓行動不便人士更輕鬆地使用 Power BI 報表並與之互動的功能。 這些功能包括能夠利用鍵盤或螢幕助讀程式來使用報告、利用 Tab 鍵聚焦於頁面上的不同物件，以及在視覺效果中貼心地使用標記。
@@ -47,8 +47,12 @@ Power BI 具有可讓行動不便人士更輕鬆地使用 Power BI 報表並與�
 
 > [!NOTE]
 > 透過此鍵盤快速鍵，[顯示資料] 功能才可存取螢幕助讀程式。 如果您透過視覺效果標頭中的選項開啟 [顯示資料]，該功能將無法存取螢幕助讀程式。
-> 
-> 
+
+從 **Power BI Desktop** 的 2018 年 7 月版本開始，交叉分析篩選器也有內建的協助工具功能。 當您選取交叉分析篩選器時，若要調整交叉分析篩選器的值，請使用 CTRL+向右鍵 (Ctrl 加上向右鍵)，在交叉分析篩選器內的各種控制項之間移動。 例如，當您最初按下 CTRL+向右鍵時，焦點會位於橡皮擦上，而按下空格鍵相當於按一下橡皮擦按鈕，會清除交叉分析篩選器上的所有值。 
+
+您可以按 TAB 鍵，在交叉分析篩選器中的控制項之間移動。 按 TAB 鍵，會從橡皮擦移至下拉式按鈕；另一個 TAB 鍵則會移到第一個交叉分析篩選器值 (如果有多個適用於交叉分析篩選器的值，例如一個範圍)。 
+
+![在 Power BI Desktop 中按下 CTRL+(向右鍵) 來調整交叉分析篩選器中的元素或值，按空格鍵來選取元素並調整其值](media/desktop-accessibility/accessibility_07.png)
 
 建立這些協助工具的目的，在於讓使用者藉由螢幕助讀程式和鍵盤瀏覽，完整取用 Power BI 報表。
 

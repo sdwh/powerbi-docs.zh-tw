@@ -7,15 +7,15 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 07/19/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34852294"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182786"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和刪除組織內容套件
 > [!NOTE]
@@ -52,7 +52,7 @@ ms.locfileid: "34852294"
 4. 在 [更新內容套件] 視窗進行所有必要的變更，然後選取 [更新]。 [成功] 訊息隨即出現。
    
    * 若是尚未自訂內容套件的群組成員，便會自動套用更新。
-   * 若群組成員已自訂此內容套件，就會收到有新版本的通知。  他們可以前往 AppSource 並取得已更新的內容套件，而不會遺失他們的個人化版本。  現在他們有 2 個版本：個人化版本和更新的內容套件。  在個人化的版本中，來自原始內容套件的所有圖格都會消失。  不過仍然會轉譯從其他報表釘選的圖格。    
+   * 若群組成員已自訂此內容套件，就會收到有新版本的通知。  他們可以前往 AppSource 並取得已更新的內容套件，而不會遺失他們的個人化版本。  現在他們有 2 個版本：個人化版本和更新的內容套件。  在個人化的版本中，來自原始內容套件的所有圖格都會消失。  不過仍然會轉譯從其他報表釘選的圖格。 不過，如果內容套件擁有者刪除內容套件所依據的資料集，則整份報表將會消失。  
 
 ## <a name="update-the-audience-expand-or-restrict-access"></a>更新對象：擴充或限制存取權
 另一種內容套件建立者可進行的修改，就是擴充及限制內容套件的存取權。  或許您已發佈內容套件至許多對象，且決定將存取權限制在較小的群組。  

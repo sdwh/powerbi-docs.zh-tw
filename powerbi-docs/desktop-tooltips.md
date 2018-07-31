@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34232100"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210322"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中根據報表頁面建立工具提示 (預覽)
 您可以建立視覺化的豐富**報表工具提示**，它們是您在 **Power BI Desktop** 中根據報表頁面所建立的，當您將滑鼠停留在視覺效果上時就會顯示。 透過建立作為工具提示的報表頁面，您的自訂工具提示可以包含視覺效果、影像和任何其他您在報表頁面中建立的項目集合。 
@@ -119,6 +119,7 @@ ms.locfileid: "34232100"
 ## <a name="limitations-and-considerations"></a>限制與考量
 在此預覽版的報表**工具提示**中，有幾點限制和考量要留意。
 
+* 從 **Power BI Desktop** 的 2018 年 7 月版本開始，工具提示支援資料表和矩陣視覺效果。 
 * 以行動裝置應用程式或在內嵌環境中檢視報表時 (包括發行至 Web)，不支援報表工具提示。 
 * 自訂視覺效果不支援報表工具提示。 
 * 叢集目前不支援作為欄位，無法顯示在報表工具提示中。 

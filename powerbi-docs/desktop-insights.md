@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/23/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 8f69eec2ce7273898698fb086f372daa2201eed8
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134677"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210253"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>使用 Power BI Desktop (預覽) 中的深入解析
-您可以要求 **Power BI Desktop** 說明圖表中的增減情況，並取得快速、自動化、具洞察力的資料分析。 只要以滑鼠右鍵按一下資料點，然後選取 [分析] > [說明減少的情形] (如果之前的橫條圖較低的話，則為增加情形)，即會以便於使用的視窗形式將深入解析傳遞給您。
+您可以要求 **Power BI Desktop** 說明圖表中的增減情況、查看圖表中的分佈因素，並取得快速、自動化、具洞察力的資料分析。 只要以滑鼠右鍵按一下資料點，然後選取 [分析] > [說明減少的情形] (如果之前的橫條圖較低的話，則為增加情形)，或者 [分析] > [找出此分佈的不同之處]，即會以易於使用的視窗形式將深入解析傳遞給您。
 
 ![](media/desktop-insights/insights_01.png)
 

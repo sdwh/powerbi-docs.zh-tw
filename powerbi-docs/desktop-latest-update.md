@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c1c32e216dfdf4417fda8ee8888f85e1d27a8cda
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 537b66c193e0995c51616e34f5463cb8e6c68253
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812437"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210299"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新的 Power BI Desktop 中有什麼新功能？
 
-## <a name="june-2018-update-2595135101"></a>2018 年 6 月更新 (2.59.5135.101)
+## <a name="july-2018-update-26051693201"></a>2018 年 7 月更新 (2.60.5169.3201)
 
-陽光照耀在本月的更新，功能和改善將會溫暖您的報表，讓您沉浸在它們提供的見解中。
+本月的大型更新本身就值得一場煙火秀，利用長期要求的資料與報表功能來讓您的視覺效果達到極致，並伴隨著生動有趣的深入解析展現出來。
 
 您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您使用哪種方式安裝 **Power BI Desktop**，每月的版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
@@ -36,44 +36,52 @@ ms.locfileid: "34812437"
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
+### <a name="modeling"></a>建立模型
+
+* 複合模型 (預覽) [[影片]](https://youtu.be/Mtig3rmIUe0?t=15s) [[文章]](desktop-composite-models.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* 多對多關聯性 (預覽) (與複合模型相關聯) [[影片]](https://youtu.be/Mtig3rmIUe0?t=4m53s) [[文章]](desktop-many-to-many-relationships.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* 儲存模式 (預覽) (與複合模型相關聯) [[影片]](https://youtu.be/Mtig3rmIUe0?t=15s) [[文章]](desktop-storage-mode.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+
 
 ### <a name="reporting"></a>報告
 
-* 報表的高對比支援  [[影片]](https://youtu.be/4VpGtWSrssE?t=13s)  [[文章]](desktop-accessibility.md#high-contrast-support-for-reports)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
-* 環圈圖半徑控制項  [[影片]](https://youtu.be/4VpGtWSrssE?t=6m1s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
-* 圓形圖和環圈圖的詳細資料標籤定位控制項  [[影片]](https://youtu.be/4VpGtWSrssE?t=7m19s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
-* 分別為組合圖中的每個量值格式化資料標籤  [[影片]](https://youtu.be/4VpGtWSrssE?t=9m29s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
-* 較長的手機報表  [[影片]](https://youtu.be/4VpGtWSrssE?t=11m26s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#phoneReports) 
+* 具有更大彈性且格式化的新視覺效果標題 [[影片]](https://youtu.be/Mtig3rmIUe0?t=8m26s) [[文章]](desktop-visual-elements-for-reports.md#using-improved-visual-headers-in-power-bi-reports) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visualHeader) 
+* 背景圖案格式化 [[影片]](https://youtu.be/Mtig3rmIUe0?t=14m19s) [[文章]](desktop-visual-elements-for-reports.md#using-wallpaper-in-power-bi-reports) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#wallpaper) 
+* 佈景主題更新 - 更多視覺效果和頁面控制項 (預覽) [[影片]](https://youtu.be/Mtig3rmIUe0?t=19m14s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#theme) 
+* 資料表和矩陣的工具提示 [[影片]](https://youtu.be/Mtig3rmIUe0?t=22m53s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tableTooltips) 
+* 關閉視覺效果的工具提示 [[影片]](https://youtu.be/Mtig3rmIUe0?t=22m53s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tooltips) 
+* 交叉分析篩選器的協助工具 [[影片]](https://youtu.be/Mtig3rmIUe0?t=27m29s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#slicerAccessibility) 
+* 格式化窗格的改善 [[影片]](https://youtu.be/Mtig3rmIUe0?t=30m18s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#formattingPane) 
+* 對於折線圖和組合圖的梯線圖支援 [[影片]](https://youtu.be/Mtig3rmIUe0?t=32m46s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#steppedLine) 
+* 針對個別數列關閉組合圖資料標籤 [[影片]](https://youtu.be/Mtig3rmIUe0?t=34m19s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels) 
+* 排序體驗的改善 [[影片]](https://youtu.be/Mtig3rmIUe0?t=35m44s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting) 
+
+### <a name="analytics"></a>分析
+
+* 分佈因素的深入解析 [[影片]](https://youtu.be/Mtig3rmIUe0?t=37m) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
 
 ### <a name="custom-visuals"></a>自訂視覺效果
 
-* 兩個新的自訂視覺效果  [[影片]](https://youtu.be/4VpGtWSrssE?t=17m42s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
-
-### <a name="modeling"></a>建立模型
-* 資料檢視中的篩選和排序  [[影片]](https://youtu.be/4VpGtWSrssE?t=13m11s)  [[文章]](desktop-data-view.md#filtering-in-data-view)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
-* 改善的地區設定篩選   [[影片]](https://youtu.be/4VpGtWSrssE?t=15m35s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#locale) 
+* Power BI 認證的類別 [[影片]](https://youtu.be/Mtig3rmIUe0?t=41m13s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
+* 停用特定組織的視覺效果 [[影片]](https://youtu.be/Mtig3rmIUe0?t=42m32s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
+* 四個新的自訂視覺效果 [[影片]](https://youtu.be/Mtig3rmIUe0?t=44m) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
 
 ### <a name="data-connectivity"></a>資料連線
 
-* SAP BusinessWarehouse 連接器改善 (新的驅動程式和提升的效能，以及改善的階層變數支援)  [[影片]](https://youtu.be/4VpGtWSrssE?t=21m6s) [[文章]](desktop-sap-bw-connector.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#sapBW) 
-* Spark 連接器現在支援 Windows 驗證  [[影片]](https://youtu.be/4VpGtWSrssE?t=24m31s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#spark) 
-* OData V4 連接器改善 [[影片]](https://youtu.be/4VpGtWSrssE?t=25m12s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
-* ODBC 連接器改善 (排名最前面的資料列摺疊支援、能夠依 DSN 目錄篩選瀏覽) [[影片]](https://youtu.be/4VpGtWSrssE?t=26m51s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#odbc) 
-
-### <a name="other"></a>其他
-
-* 主權雲端選擇器 [[影片]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+* IBM DB2 DirectQuery 連接器 (預覽) [[影片]](https://youtu.be/Mtig3rmIUe0?t=54m25s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#IBMDB2) 
+* 對 Web By Example 連接器的改善 [[影片]](https://youtu.be/Mtig3rmIUe0?t=54m53s) [[文章]](desktop-connect-to-web-by-example.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#WebByExample) 
+* SAP HANA - 變數輸入體驗中適用於變數的預設值 [[影片]](https://youtu.be/Mtig3rmIUe0?t=56m19s) [[文章]](desktop-sap-hana.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#SAPHANA) 
 
 
 > [!NOTE]
 > 您也可以[查看 Power BI Desktop 的所有可用資料來源](desktop-data-sources.md)，我們的資料來源會持續增加，因此請經常回來查看。
 
-需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
 
 
 下列影片將描述並示範這些更新。 您也可以從部落格文章觀賞這段影片。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4VpGtWSrssE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mtig3rmIUe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 > [!NOTE]

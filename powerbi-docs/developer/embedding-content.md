@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 6a19478e561edfb4398f9a128e284d3a7e43e9b6
+ms.sourcegitcommit: efe6747614ff66b5a86af9677632c1fb535448b2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924705"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39137936"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>內嵌 Power BI 儀表板、報表和磚
 
@@ -112,13 +112,11 @@ Microsoft [宣佈 Power BI Premium](https://powerbi.microsoft.com/blog/microsoft
 
 若要**對組織進行內嵌**，請參閱下列逐步解說：
 
-* [將儀表板整合到應用程式](integrate-dashboard.md)
-* [將磚整合到應用程式](integrate-tile.md)
-* [將報表整合到應用程式](integrate-report.md)
+* [將報表整合到應用程式](embed-sample-for-your-organization.md)
 
 若要**對客戶進行內嵌** (適用於 ISV)，請參閱下列文章：
 
-* [將儀表板、磚或報表整合至應用程式](embed-sample-for-customers.md)
+* [將報表整合至應用程式](embed-sample-for-customers.md)
 
 對客戶進行內嵌時，需要有內嵌權杖。 若要深入了解，請參閱 [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (內嵌權杖)。
 
