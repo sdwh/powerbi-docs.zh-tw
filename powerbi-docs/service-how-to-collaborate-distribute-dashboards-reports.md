@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5899274ba3cc8ce0a059978a9b83ae2a7fd08527
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249497"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280447"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>該如何在 Power BI 中進行共同作業和共用？
 
@@ -75,7 +75,7 @@ ms.locfileid: "34249497"
 
 深入了解從 iOS 和 Android 的行動應用程式[標註並共用磚、報表和視覺效果](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
 
-您也可以從 Windows 10 裝置的 Power BI 應用程式[共用磚的快照集](mobile-share-tile-windows-10-phone-app.md)。
+您也可以從 Windows 10 裝置的 Power BI 應用程式[共用磚的快照集](mobile-windows-10-phone-app-get-started.md)。
 
 ## <a name="publish-to-the-web"></a>發行至網站
 您可以將 Power BI 報表發行至整個網際網路，方法是在任何裝置上將互動式視覺效果內嵌到部落格文章、網站、社交媒體和其他線上通訊。 網際網路上的任何人都可以檢視您的報表，而且您無法控制誰可以查看您的發行內容。 他們不需要 Power BI 授權。 您只能在可編輯的報表中使用發行至網站。 如果報表是與您共用，或報表是在應用程式中，則您無法將報表發行至網站。 深入了解[發行至網站](service-publish-to-web.md).

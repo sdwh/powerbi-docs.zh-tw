@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/26/2018
 ms.author: maggies
 ms.custom: ''
-ms.openlocfilehash: 4a3b5aec179eb9436f1d8ed8a58bcf97906e1c1f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75f64de25799488d85b4f9938fa134d0d277f222
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294701"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280033"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>什麼是 Power BI 行動裝置應用程式？
 Power BI 為 iOS、Android 和 Windows 10 行動裝置提供了一組行動應用程式。 在行動裝置應用程式中，您可以與雲端和內部部署的資料連線及互動。 
@@ -42,6 +42,6 @@ Microsoft Intune 讓組織可以控制像是要求存取 PIN、控制應用程�
 深入了解[使用 Microsoft Intune 設定 Power BI for Android 和 iOS 行動裝置應用程式](service-admin-mobile-intune.md)。 
 
 ## <a name="next-steps"></a>後續步驟
-[在行動裝置應用程式中檢視儀表板](mobile-apps-find-content-mobile-devices.md)
+[在行動裝置應用程式中檢視儀表板](mobile-apps-quickstart-view-dashboard-report.md)
 
 

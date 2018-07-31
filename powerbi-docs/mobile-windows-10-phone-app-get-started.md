@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 2ee490107b802957b262d0a133d8e8b0e2a42754
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: d445264e22520efe81af94e1e4c4261d15eed04b
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135781"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280056"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>開始使用 Power BI for Windows 10 行動裝置應用程式
 Power BI 的 Windows 10 行動裝置應用程式可將 Power BI 帶著走，以最新狀態、啟用觸控式行動裝置的方式存取您的商務資訊。 在 [Windows 開始畫面](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上，隨處檢視公司儀表板並與之互動。
@@ -87,7 +87,7 @@ Power BI 的 Windows 10 行動裝置應用程式可將 Power BI 帶著走，以�
    ![相關搜尋結果](media/mobile-windows-10-phone-app-get-started/pbi_win10_search_m.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中尋找內容
-儀表板和報表儲存在 Power BI 行動裝置應用程式中的不同位置，視其來源而定。 請閱讀[在行動裝置應用程式中尋找內容](mobile-apps-find-content-mobile-devices.md)。 此外，您還可以一律搜尋您在 Power BI 行動裝置應用程式中的任何內容。 
+儀表板和報表儲存在 Power BI 行動裝置應用程式中的不同位置，視其來源而定。 請閱讀[在行動裝置應用程式中尋找內容](mobile-apps-quickstart-view-dashboard-report.md)。 此外，您還可以一律搜尋您在 Power BI 行動裝置應用程式中的任何內容。 
 
 ![Power BI 左方導覽](media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
@@ -111,7 +111,7 @@ Power BI 的 Windows 10 行動裝置應用程式可將 Power BI 帶著走，以�
 * 檢視[應用程式](service-install-use-apps.md)。
 * 檢視您的[儀表板](mobile-apps-view-dashboard.md)。
 * [將 Power BI 磚和儀表板釘選](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)為裝置的開始畫面動態磚。
-* [共用磚](mobile-share-tile-windows-10-phone-app.md)。
+* [共用磚](mobile-windows-10-phone-app-get-started.md)。
 * 共用[儀表板](mobile-share-dashboard-from-the-mobile-apps.md)。
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Reporting Services 行動報表和 KPI

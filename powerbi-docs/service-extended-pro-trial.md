@@ -103,8 +103,7 @@ Power BI Pro 不會有任何變更。 這些使用者不會受到影響，而且
 否。 系統管理員無法限制使用者啟用延長的 Pro 試用版或服務內建的 60 天 Power BI Pro 試用版。
 
 ## <a name="next-steps"></a>後續步驟
-
-  [Pro 延長試用版供應項目條款及條件](https://aka.ms/power-bi-trial)  
+[Pro 延長試用版供應項目條款及條件](https://aka.ms/power-bi-trial)  
 [個人使用者適用的 Power BI 服務合約](https://powerbi.microsoft.com/terms-of-service/)  
 [Power BI Premium 宣告](https://aka.ms/pbipremium-announcement)  
 [尋找已登入的 Power BI 使用者](service-admin-access-usage.md)

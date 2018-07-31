@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 58886dc1ae5490113d4d0ba9af00d16aefecbe71
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 33541b99d28bd95acb9cc923e0531cdbc2e25d63
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287018"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327123"
 ---
 # <a name="relationship-view-in-power-bi-desktop"></a>Power BI Desktop 中的關聯性檢視
 [關聯性檢視] 會顯示模型中所有的資料表、資料行及關聯性。 這在模型包含許多資料表，且其關聯十分複雜時十分實用。

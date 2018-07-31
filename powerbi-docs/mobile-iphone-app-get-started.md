@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 1700d5bb6a3c17b0a76e6cf04155050a01136e96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 9e5d878b676159db7990af983f53ce813ac44441
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136542"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280240"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>開始在 iOS 裝置上使用 Power BI 行動裝置應用程式
 iPhone、iPad 或 iPod Touch 的 Microsoft Power BI for iOS 應用程式傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 透過 [Apple Watch](mobile-apple-watch.md)，隨時掌握最即時的資料。  
@@ -73,11 +73,11 @@ iPhone、iPad 或 iPod Touch 的 Microsoft Power BI for iOS 應用程式傳遞 P
    ![Power BI 行動裝置應用程式中的 Reporting Services 範例](media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中尋找內容
-儀表板和報表儲存在 Power BI 行動裝置應用程式中的不同位置，視其來源而定。 請閱讀[在行動裝置應用程式中尋找內容](mobile-apps-find-content-mobile-devices.md)。 此外，您還可以一律搜尋您在 Power BI 行動裝置應用程式中的任何內容。 
+儀表板和報表儲存在 Power BI 行動裝置應用程式中的不同位置，視其來源而定。 請閱讀[在行動裝置應用程式中尋找內容](mobile-apps-quickstart-view-dashboard-report.md)。 此外，您還可以一律搜尋您在 Power BI 行動裝置應用程式中的任何內容。 
 
 ![左側瀏覽窗格](media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
-深入了解[在行動裝置應用程式中尋找內容](mobile-apps-find-content-mobile-devices.md)。
+深入了解[在行動裝置應用程式中尋找內容](mobile-apps-quickstart-view-dashboard-report.md)。
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>檢視您最愛的儀表板、KPI 和報表
 您可以在行動裝置應用程式的 [我的最愛] 頁面上檢視所有最愛的 Power BI 儀表板，以及 Power BI 報表伺服器和 Reporting Services KPI 與報表。 當您在 Power BI 行動裝置應用程式中將儀表板設為「我的最愛」時，就可以從所有裝置加以存取，包括瀏覽器中的 Power BI 服務。 

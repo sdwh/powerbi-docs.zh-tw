@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: c70a5c50a139423f6c5e69ed6ec9a416dfae8b4e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bb628f0cc6f723a195f3b90e6d20f4018d9f2709
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295253"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39279841"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中標註並共用磚、報表或視覺效果。
 適用於︰
@@ -31,7 +31,7 @@ ms.locfileid: "34295253"
 
 具有圖格、報告或視覺效果快照集的郵件也包括 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 上實際物件的連結。 如果您和您的收件者都具有 Power BI Pro 授權或內容位於[進階容量](service-premium.md)中，且您已經與收件者共用項目，收件者只需按一下連結就能直接前往磚、報表或視覺效果。 
 
-您也可以[從 Power BI for Windows 10 裝置的行動裝置應用程式共用圖格](mobile-share-tile-windows-10-phone-app.md)，但不能標註磚。
+您也可以[從 Power BI for Windows 10 裝置的行動裝置應用程式共用圖格](mobile-windows-10-phone-app-get-started.md)，但不能標註磚。
 
 ## <a name="open-a-tile-for-annotating"></a>開啟磚以便標註
 1. 點選磚，藉此在焦點模式中開啟。
