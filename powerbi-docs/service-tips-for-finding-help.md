@@ -50,10 +50,8 @@ Power BI 小組會在他們的定期 [Power BI 部落格文章](https://powerbi.
 
 您也可在網路上找到其他選項，例如︰
 
-* 
-  **edX.org** 提供免費課程 [Analyzing and Visualizing Data with Power BI](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4) (使用 Power BI 分析及視覺化資料)。
-* 
-  **Lynda.com** 提供各種課程，像是 [Power BI Pro Essential Training](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html) (Power BI 專業人員基本訓練)。
+* **edX.org** 提供免費課程 [Analyzing and Visualizing Data with Power BI](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4) (使用 Power BI 分析及視覺化資料)。
+* **Lynda.com** 提供各種課程，像是 [Power BI Pro Essential Training](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html) (Power BI 專業人員基本訓練)。
 * 尋找可實地操作的 **Dashboard in a Day** 訓練課程。
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7 在 Power BI 社群中發問或搜尋
