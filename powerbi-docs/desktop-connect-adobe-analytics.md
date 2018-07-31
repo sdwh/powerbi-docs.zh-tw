@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/04/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da688638170db8a296c680bc88c1030924078967
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: e6053ff1cf1ceedc056b0fb2083f3e9a1047a383
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134539"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39330136"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Adobe Analytics 
 在 **Power BI Desktop** 中，您可以連線至 **Adobe Analytics** 並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。 
