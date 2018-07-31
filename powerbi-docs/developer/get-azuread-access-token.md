@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/11/2017
 ms.author: maghan
-ms.openlocfilehash: 339390bba2e35101bdd42f7f51ab059473231575
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 51ad188479c11f5a0d16768eee8c533bdc71c59c
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290882"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359924"
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>為 Power BI 應用程式驗證使用者及取得 Azure AD 存取權杖
 深入了解如何利用 REST API 在 Power BI 應用程式中驗證使用者及取得要使用的存取權杖。
@@ -190,7 +190,6 @@ var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "B
 如需使用 **await** 的資訊，請參閱 [await (C# 參考)](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/await)
 
 ## <a name="next-steps"></a>後續步驟
-取得存取權杖後，即可呼叫 Power BI REST API 以內嵌內容。 如需如何內嵌內容的資訊，請參閱[如何內嵌 Power BI 儀表板、報表和磚](embedding-content.md#step-2-embed-your-content)。
+取得存取權杖後，即可呼叫 Power BI REST API 以內嵌內容。 如需如何內嵌內容的資訊，請參閱[如何內嵌 Power BI 儀表板、報表和磚](embed-sample-for-customers.md#embed-your-content-within-your-application)。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
-

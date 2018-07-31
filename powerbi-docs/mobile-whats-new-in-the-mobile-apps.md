@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: 7149fd43d4214ed756eff61a523805ec9f50e1ae
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182717"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280769"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -185,7 +185,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 
 **新的功能表：應用程式** - 應用程式是您組織建置的儀表板和報表集合，為進行更快速且更輕鬆的資料驅動決策提供關鍵計量。
 
-深入了解 [Power BI 內容的組織方式](mobile-apps-find-content-mobile-devices.md)。
+深入了解 [Power BI 內容的組織方式](mobile-apps-quickstart-view-dashboard-report.md)。
 
 #### <a name="ios-and-android-devices"></a>iOS 及 Android 裝置
 **Power BI 報表伺服器預覽**：建立並發行內部部署 Power BI 報表。 然後[在您的 iOS 或 Android 行動裝置上檢視這些報表並與其互動](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。 
@@ -241,7 +241,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 現在您最多可以同時有五部 SQL Server Reporting Services (SSRS) 伺服器的連線。
 
 #### <a name="android-tablets"></a>Android 平板電腦
-**Power BI for Android 平板電腦行動裝置應用程式**現已正式運作。 [開始在 Android 平板上使用 Power BI](mobile-android-tablet-app-get-started.md)。
+**Power BI for Android 平板電腦行動裝置應用程式**現已正式運作。 [開始在 Android 平板上使用 Power BI](mobile-android-app-get-started.md)。
 
 #### <a name="ios-and-android-devices"></a>iOS 及 Android 裝置
 **儀表板磚的新功能表**：瀏覽到基礎報表、展開磚或管理警示，全都能直接在儀表板磚上的功能表執行。 
@@ -304,7 +304,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 #### <a name="android-tablets"></a>Android 平板電腦
 **適用於 Android 平板電腦的 Power BI 行動裝置應用程式** - 是的，這裡有預覽。
 
-* [在您的 Android 平板電腦上體驗 Power BI](mobile-android-tablet-app-get-started.md)
+* [在您的 Android 平板電腦上體驗 Power BI](mobile-android-app-get-started.md)
 * [在 Android 平板電腦上探索 Reporting Services 行動報表和 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)
 
 #### <a name="android-devices"></a>Android 裝置
@@ -498,7 +498,7 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 
 **R 磚和 Web Widget** 在您行動裝置上的儀表板檢視這些新的磚類型。
 
-**Bing 儀表板**在 Power BI 服務中，您現在可以[使用 Bing 搜尋結果建立儀表板](service-connect-to-bing.md)，並在您的行動裝置上加以檢視。
+**Bing 儀表板**在 Power BI 服務中，您現在可以[使用 Bing 搜尋結果建立儀表板](service-connect-to-services.md)，並在您的行動裝置上加以檢視。
 
 **將報表頁面釘選為儀表板上的磚**：您現在可以將整個報表頁面釘選到 Power BI 服務中的儀表板。您可以您 iPhone 或 Android 手機的 Power BI 應用程式中檢視報表頁面。
 

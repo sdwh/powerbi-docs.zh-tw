@@ -5,7 +5,6 @@
 * 您只能在使用 Power BI Desktop 用戶端建立的資料集上定義 RLS。 如果您想要針對使用 Excel 建立的資料集啟用 RLS，則必須先將檔案轉換成 PBIX 檔案。 [深入了解](../desktop-import-excel-workbooks.md)
 * 只支援 ETL 和 DirectQuery 連線。 Analysis Services 即時連接是在內部部署模型中處理。
 * RLS 目前不支援問與答及 Cortana。 如果所有模型都已設定 RLS，您將不會看到儀表板的 [問與答] 輸入方塊。 這已在規劃中，但未建立時間軸。
-* 使用 RLS 的資料集目前不支援外部共用。
 * 對於任何給定的模型，可以指派給安全性角色的 Azure AD 主體 (也就是個別使用者或安全性群組) 的最大數目是 1,000。 若要將大量使用者指派給角色，請務必指派安全性群組，而不是個別使用者。
 
 ## <a name="known-issues"></a>已知問題

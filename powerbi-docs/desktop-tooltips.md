@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210322"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280746"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中根據報表頁面建立工具提示 (預覽)
 您可以建立視覺化的豐富**報表工具提示**，它們是您在 **Power BI Desktop** 中根據報表頁面所建立的，當您將滑鼠停留在視覺效果上時就會顯示。 透過建立作為工具提示的報表頁面，您的自訂工具提示可以包含視覺效果、影像和任何其他您在報表頁面中建立的項目集合。 
@@ -124,6 +124,7 @@ ms.locfileid: "39210322"
 * 自訂視覺效果不支援報表工具提示。 
 * 叢集目前不支援作為欄位，無法顯示在報表工具提示中。 
 * 選擇要在報表工具提示中顯示的欄位時，在比較使用欄位或類別時，當具有選取欄位的摘要符合時，包含該欄位的視覺效果只會顯示指定的工具提示。 
+
 
 
 ## <a name="next-steps"></a>後續步驟
