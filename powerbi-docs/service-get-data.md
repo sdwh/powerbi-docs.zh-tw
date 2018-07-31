@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 183d0fdcf164ca706dd1704ea1c503f59ca7d715
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fba2ea948190a59039766ffc2b5fab6189896ab8
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252316"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39328480"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服務的資料來源
 資料是 Power BI 的核心。 每當您瀏覽資料、建立圖表與儀表板、利用問與答提出問題時，您看到的所有視覺效果與答案其實都是從資料集取得其基礎資料。 但是，該資料集又來自何處？ 來自資料來源。
