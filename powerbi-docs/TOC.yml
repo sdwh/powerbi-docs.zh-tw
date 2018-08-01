@@ -362,7 +362,7 @@
                   href: service-report-create-new.md
                 - name: 在 Power BI 中與編輯檢視的報表互動
                   href: service-interact-with-a-report-in-editing-view.md
-                - name: 在 Excel 中分析
+                - name: 使用 EXCEL 分析
                   href: service-analyze-in-excel.md
                 - name: 變更報表中的視覺效果互動方式
                   href: service-reports-visual-interactions.md
@@ -918,14 +918,18 @@
       items:
         - name: 概觀
           items:
-            - name: Power BI 的內嵌功能
+            - name: Power BI 的內嵌是什麼
               href: developer/embedding.md
+            - name: Azure Power BI Embedded 是什麼
+              href: developer/azure-pbie-what-is-power-bi-embedded.md
         - name: 教學課程
           items:
             - name: 內嵌客戶的內容
               href: developer/embed-sample-for-customers.md
             - name: 內嵌組織的內容
               href: developer/embed-sample-for-your-organization.md
+            - name: 將內容整合到主權雲端上您的應用程式中
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: 概念
           items:
             - name: 資料列層級安全性 (RLS)
@@ -936,12 +940,8 @@
               href: developer/power-bi-permissions.md
         - name: 如何
           items:
-            - name: 如何內嵌您的內容
-              href: developer/embedding-content.md
             - name: 如何從應用程式內嵌
               href: developer/embed-from-apps.md
-            - name: 為主權雲端將內容整合至您的應用程式中 (應用程式擁有資料)
-              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: 建立 Azure Active Directory 租用戶
               href: developer/create-an-azure-active-directory-tenant.md
             - name: 註冊應用程式
@@ -950,18 +950,36 @@
               href: developer/get-azuread-access-token.md
             - name: 內嵌問與答
               href: developer/qanda.md
-            - name: 如何移轉 Power BI Embedded
-              href: developer/migrate-from-powerbi-embedded.md
             - name: 為您的內嵌應用程式進行疑難排解
               href: developer/embedded-troubleshoot.md
+            - name: 管理 Azure 中的功能
+              items:
+                - name: 在 Azure 中建立功能
+                  href: developer/azure-pbie-create-capacity.md
+                - name: 在 Azure 中調整功能
+                  href: developer/azure-pbie-scale-capacity.md
+                - name: 在 Azure 中暫停及啟動容量
+                  href: developer/azure-pbie-pause-start.md
+            - name: 從工作區集合移轉
+              items:
+                - name: 如何從 Power BI 工作區集合移轉
+                  href: developer/migrate-from-powerbi-embedded.md
+                - name: 移轉工具
+                  href: developer/migrate-tool.md
+                - name: 移轉程式碼片段
+                  href: developer/migrate-code-snippets.md
         - name: 參考
           items:
+            - name: API
+              items:
+                - name: Azure 資源管理 REST API
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: Power BI REST API
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
             - name: .NET SDK 下載
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
             - name: 將自訂配置內嵌到應用程式中
               href: developer/embedded-custom-layout.md
-            - name: 移轉程式碼片段
-              href: developer/migrate-code-snippets.md
         - name: 資源
           items:
             - name: 開發人員中心
@@ -978,8 +996,6 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: 範例
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-            - name: Power BI Embedded 移轉工具
-              href: developer/migrate-tool.md
             - name: Power BI 社群
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: 堆疊溢位
@@ -1064,8 +1080,6 @@
           items:
             - name: REST API
               href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Power BI REST API 參考
-              href: developer/rest-api-reference.md
             - name: 完整程式碼清單
               href: developer/walkthrough-push-data-complete-code.md
         - name: 資源
