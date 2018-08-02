@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
 ms.openlocfilehash: d41b0a84d512c5ef6cebf810a89fd74a838c672e
-ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/06/2018
+ms.lasthandoff: 08/02/2018
 ms.locfileid: "37864345"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>搭配 Power BI 內嵌內容使用資料列層級安全性
