@@ -1,21 +1,21 @@
 ---
 title: 使用 Power BI Desktop 中的儲存模式 (預覽)
-description: 使用儲存模式來控制是否要針對 Power BI Desktop 中的報表來將資料快取於記憶體中
+description: 使用儲存模式來控制是否要為 Power BI Desktop 中的報表，在記憶體內快取資料
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 15580cd43e4bb2d286310868a8e853daff04f280
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210673"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388793"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop 中的儲存模式 (預覽)
 
@@ -41,7 +41,7 @@ ms.locfileid: "39210673"
 
 * **複合模型**會在它們自己的文章 [Power BI Desktop 中的複合模型 (預覽)](desktop-composite-models.md) 中詳細說明。
 * **多對多關聯性**會在它們自己的文章 [Power BI Desktop 中的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md) 中加以說明。
-* **儲存模式**則會在本文中詳細說明。
+* **儲存模式**會在本文中詳細說明。
 
 ## <a name="enabling-the-storage-mode-preview-feature"></a>啟用儲存模式預覽功能
 
@@ -118,7 +118,7 @@ ms.locfileid: "39210673"
 | *Geography*             | 雙重                 | 
 
 
-假設 *Sales* 資料表具有大量資料，因此，進行上述儲存體模式屬性設定會導致下列行為。
+假設 *Sales* 資料表具有大量資料，進行上述儲存模式屬性設定就會導致下列行為。
 * 維度資料表 (*Date*、*Customer* 及 *Geography*) 會進行快取，因此，在擷取要顯示的交叉分析篩選器值時，初始報表載入時間應該很快。
 * 藉由不快取 *Sales* 資料表，會產生下列結果：
     * 資料重新整理時間可獲得改善，並降低記憶體耗用量

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1105de002f6461589d61c6f0077cceeedaada471
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210665"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388747"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop 中的多對多關聯性 (預覽)
 
@@ -33,7 +33,7 @@ ms.locfileid: "39210665"
 
 * **複合模型**會在 [Power BI Desktop 中的複合模型 (預覽)](desktop-composite-models.md) 一文中詳細說明。
 * 本文將說明**多對多關聯性**。
-* **儲存模式**會在它自己的文章 [Power BI Desktop (預覽) 中的儲存模式](desktop-storage-mode.md)中加以說明。
+* **儲存模式**會在本身的文章 [Power BI Desktop 中的儲存模式 (預覽)](desktop-storage-mode.md) 中說明。
 
 ## <a name="enabling-the-many-to-many-relationships-preview-feature"></a>正在啟用多對多關聯性預覽功能
 
@@ -50,7 +50,7 @@ ms.locfileid: "39210665"
 
 在有**多對多關聯性**可用之前，當定義 Power BI 中兩個資料表之間的關聯性時，涉及關聯性的資料行中至少要有一個資料行包含唯一的值。 不過在許多情況下，資料表中的資料行無一包含唯一的值。 
 
-例如，兩個資料表可能都有一個包含 *Country* 的資料行，但 *Country* 的值在任一資料表中都不是唯一的值。 若要聯結這類資料表，則必須設法避開限制，像是在模型中導入含有必要唯一值的額外資料表。 **多對多關聯性**功能可提供替代方法，使用含有 [多對多] 基數的關聯性，以直接聯結這類資料表。  
+例如，兩個資料表可能都有一個包含 *Country* 的資料行，但 *Country* 的值在任一資料表中不是唯一的。 若要聯結這類資料表，則必須設法避開限制，像是在模型中導入含有必要唯一值的額外資料表。 **多對多關聯性**功能可提供替代方法，使用含有 [多對多] 基數的關聯性，以直接聯結這類資料表。  
 
 ## <a name="using-many-to-many-relationships"></a>使用多對多關聯性
 
@@ -110,7 +110,7 @@ ms.locfileid: "39210665"
 
 請注意，假設此因應措施中使用來自 *CityData* 資料表的州，則只會列出該資料表中的 *State* (因此會排除 TX)。 此外，和**多對一**關聯性的情況不同，雖然總計資料列包含所有 *Sales* (包括 TX 的銷售量)，但詳細資料不包括涵蓋這類不相符資料列的空白資料列。 同樣地，也不會有空白資料列以涵蓋 *State* 值為 Null 的任何 *Sales*。
 
-如果也將 *City* 加入至視覺效果，雖然已知每個 *City* 的人口，但針對 *City* 顯示的 *Sales* 只是重複對應 *State* 的 *Sales* (針對與一些彙總量值無關的資料行進行分組時，通常就會如此)，如下圖所示。
+如果也將 *City* 新增到視覺效果，雖然已知每個 *City* 的人口，但依 *City* 顯示的 *Sales* 只會重複對應 *State* 的 *Sales* (在為與某個彙總量值無關的資料行分組時，通常就會如此)，如下圖所示。
 
 ![資料表視覺效果](media/desktop-many-to-many-relationships/many-to-many-relationships_10.png)
 
