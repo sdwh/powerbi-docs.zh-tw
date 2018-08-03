@@ -93,7 +93,7 @@ Power BI 儀表板仰賴上列已發佈的 Web 服務，當您從目前的財務
 
 如果您在輸入專案「Madeira」URL 之後看到此錯誤，請確定 URL 滿足以下需求：  
 
-- URL 會完全遵循此模式 https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company ('<em>CRONUS%20US</em>')  
+- URL 會完全遵循此模式 https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')  
 - 刪除括弧中公司名稱後的所有文字  
 - 請確定在 URL 結尾沒有尾端斜線。  
 - 請確定 URL 使用的是安全連線，安全的 URL 會以 https 開頭。  
