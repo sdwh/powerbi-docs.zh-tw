@@ -54,7 +54,7 @@ Power BI 的 Microsoft Dynamics Marketing 內容套件可讓您輕鬆存取並�
 
 ## <a name="system-requirements"></a>系統需求
 * 您必須針對 Dynamics Marketing 執行個體 (內容套件不適用於內部部署 CRM 版本) 指定有效的 OData URL。  
-* 系統管理員必須啟用站台設定中的 OData 端點。 瀏覽至 [組織資料服務] 區段的 [首頁] \> [設定] \> [站台設定]，即可找到 OData 端點的位址。  OData URL 的格式為： https:// [執行個體\_名稱].marketing.dynamics.com/analytics  
+* 系統管理員必須啟用站台設定中的 OData 端點。 瀏覽至 [組織資料服務] 區段的 [首頁] \> [設定] \> [站台設定]，即可找到 OData 端點的位址。  OData URL 的格式為： https://[執行個體\_名稱].marketing.dynamics.com/analytics  
 * 您用來存取 Microsoft Dynamics Marketing 的使用者帳戶/身分識別，必須與您註冊使用 Power BI 的使用者帳戶/身分識別相同。 登入 Microsoft Dynamics Marketing 時，系統會以您用於 Power BI 的相同身分識別，自動將您登入。 如果您想使用不同帳戶登入 Microsoft Dynamics Marketing，請註冊為使用其他帳戶的 Power BI 使用者。 我們希望於即將推出的版本中解決這個問題。   
 
 ## <a name="troubleshooting"></a>疑難排解
