@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2eb69896de8226fdf0033f980a8b4b5164c68c3d
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: ddfe0c7ad116a74fa6887491ee41e544096de0f9
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280148"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388839"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop 中的複合模型 (預覽)
 
@@ -33,7 +33,7 @@ ms.locfileid: "39280148"
 
 * 本文將詳細說明**複合模型**。
 * **多對多關聯性**會在它們自己的文章 [Power BI Desktop 中的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md) 中加以說明。
-* **儲存模式**會在它自己的文章 [Power BI Desktop (預覽) 中的儲存模式](desktop-storage-mode.md)中加以說明。
+* **儲存模式**會在本身的文章 [Power BI Desktop 中的儲存模式 (預覽)](desktop-storage-mode.md) 中說明。
 
 ## <a name="enabling-the-composite-models-preview-feature"></a>啟用複合模型預覽功能
 
