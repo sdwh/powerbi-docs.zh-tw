@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210276"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256024"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 報告中的協助工具
 Power BI 具有可讓行動不便人士更輕鬆地使用 Power BI 報表並與之互動的功能。 這些功能包括能夠利用鍵盤或螢幕助讀程式來使用報告、利用 Tab 鍵聚焦於頁面上的不同物件，以及在視覺效果中貼心地使用標記。
@@ -40,6 +40,8 @@ Power BI 具有可讓行動不便人士更輕鬆地使用 Power BI 報表並與�
 * 當焦點在載入的「報告頁面」時，請使用*Tab* 鍵將焦點移至頁面上的每個物件，包括所有文字方塊、影像、圖形和圖表。 螢幕助讀程式會讀取物件的類型、物件的標題 (如果有) 和物件的描述 (若報表作者提供)。 
 
 當您在視覺效果之間瀏覽時，如果您要進一步與其互動，可以按 **Alt+Shift+F10** 將焦點移至視覺效果標頭，內含各種選項，包括排序和匯出圖表後的資料，以及焦點模式。 
+
+![在 Power BI Desktop 中按 Alt+Shift+F10 將焦點移至視覺效果標頭](media/desktop-accessibility/accessibility_08.png)
 
 您可以按 **Alt+Shift+F11** 呈現 [顯示資料] 視窗的可存取版本。 這可讓您使用您在螢幕助讀程式中一般會用到的相同鍵盤快速鍵，探索在 HTML 資料表中用於視覺效果的資料。 
 

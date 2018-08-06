@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: cfc450216202f332f518955d28cb71df6aa0b800
-ms.sourcegitcommit: f2b106b5eb338a64f903e8ce6793bccb07f9440a
+ms.openlocfilehash: 544429528ed51dd2928eb82632f512ff3f7d5afd
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39105261"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359723"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 報表、儀表板或磚內嵌至應用程式
 本教學課程示範如何在為組織將 **Power BI** 內嵌至應用程式時，利用 **Power BI .NET SDK** 搭配 **Power BI JavaScript API**，將報表整合至應用程式。 使用 **Power BI**，可利用**使用者擁有資料**，將報表、儀表板或磚內嵌至應用程式。 **使用者擁有資料**可讓應用程式延伸 Power BI 服務。
@@ -413,7 +413,24 @@ function updateEmbedReport() {
 既然您已完成應用程式的開發，就可以為您的應用程式工作區配置專用容量。
 
 ### <a name="create-a-dedicated-capacity"></a>建立專用容量
-建立專用容量，您應用程式工作區中的內容即可享有專用資源。 若未指派專用容量給工作區，則視為共用容量。 您可以使用 [Power BI Premium ](../service-admin-premium-purchase.md) 建立專用容量。
+建立專用容量，您應用程式工作區中的內容即可享有專用資源。 您可以使用 [Power BI Premium ](../service-premium.md) 建立專用容量。
+
+下表列出 [Office 365](../service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU。
+
+| 節點容量 | V 核心總數<br/>(後端 + 前端) | 後端 V 核心 | 前端 V 核心 | DirectQuery/即時連線限制 | 尖峰時間的頁面呈現上限 |
+| --- | --- | --- | --- | --- | --- |
+| EM1 |1 個 v 核心 |.5 個 V 核心，10GB RAM |.5 個 V 核心 |每秒 3.75 個 |150-300 |
+| EM2 |2 個 v 核心 |1 個 V 核心，10GB RAM |1 個 v 核心 |每秒 7.5 個 |301-600 |
+| EM3 |4 個 v 核心 |2 個 V 核心，10GB RAM |2 個 v 核心 |每秒 15 個 |601-1,200 |
+| P1 |8 個 v 核心 |4 個 V 核心，25GB RAM |4 個 v 核心 |每秒 30 個 |1,201-2,400 |
+| P2 |16 個 v 核心 |8 個 V 核心，50GB RAM |8 個 v 核心 |每秒 60 個 |2,401-4,800 |
+| P3 |32 個 v 核心 |16 個 V 核心，100GB RAM |16 個 v 核心 |每秒 120 個 |4,801-9600 |
+| P4 |64 個 V 核心 |32 個 V 核心，200 GB RAM |32 個 v 核心 |每秒 240 個 |9601-19200
+| P5 |128 個 V 核心 |64 個 V 核心，400 GB RAM |64 個 V 核心 |每秒 480 個 |19201-38400
+
+在 **_EM SKU_** 中，**您可以**在嘗試使用 **_MS Office 應用程式_** 內嵌時使用免費的 Power BI 授權存取內容，但**無法**在使用 **_Powerbi.com_** 或使用 **_Power BI 行動版_** 時使用免費的 Power BI 授權存取內容。
+
+在 **_P SKU_** 中，**您可以**在嘗試使用 **_MS Office 應用程式_** 內嵌、使用 **_Powerbi.com_** 或**_使用 Power BI 行動版_** 時使用免費的 Power BI 授權存取內容。
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>將應用程式工作區指派至專用容量
 
@@ -431,13 +448,17 @@ function updateEmbedReport() {
 
     ![繫結至容量的應用程式工作區](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
+## <a name="admin-settings"></a>管理員設定
+
+全域管理員 (或 Power BI 服務管理員) 可以為租用戶開啟或關閉使用 REST API 的功能。 Power BI 管理員可以為整個組織或個別安全性群組進行此設定。 依據預設，會為整個組織啟用這個設定。 您可以透過 [Power BI 管理入口網站](../service-admin-portal.md)執行此作業。
+
 ## <a name="next-steps"></a>後續步驟
-在本教學課程中，您已了解如何使用 **Power BI 組織帳戶**將 Power BI 內容內嵌至應用程式。 您現在可以嘗試使用應用程式將 Power BI 內容內嵌至應用程式。  您也可以嘗試為協力廠商客戶內嵌 Power BI 內容。
+在本教學課程中，您已了解如何使用 **Power BI 組織帳戶**將 Power BI 內容內嵌至應用程式。 您現在可以嘗試使用應用程式將 Power BI 內容內嵌至應用程式。  您也可以嘗試為客戶內嵌 Power BI 內容。
 
 > [!div class="nextstepaction"]
 > [從應用程式內嵌](embed-from-apps.md)
 
 > [!div class="nextstepaction"]
->[為協力廠商客戶內嵌](embed-sample-for-customers.md)
+>[對客戶進行內嵌](embed-sample-for-customers.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)

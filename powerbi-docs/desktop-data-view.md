@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/04/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2caa22152580d3de8c6ede585c43dedf4e624f88
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fad7b8453b6d5d29a1f6c5d9d9ed49b0a8b8a66f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813725"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280332"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop 中的資料檢視
 [資料檢視] 可協助您檢查、瀏覽及了解 **Power BI Desktop** 模型中的資料。 它與您在 [查詢編輯器] 中檢視資料表、資料行和資料的方式不同。 在 [資料檢視] 中，您所看到的資料是載入模型「之後」  的樣子。
@@ -46,4 +46,5 @@ ms.locfileid: "34813725"
 
 您可以篩選個別值，或依據資料行中的資料使用進階篩選。 
 
-
+> [!NOTE]
+> 當 Power BI 模型在與您目前使用者介面不同的文化特性 (Culture) 中建立時 (例如以美式英文建立模型並以西班牙文檢視)，除了文字欄位以外，[資料檢視] 使用者介面中不會出現搜尋方塊。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 20352a729b43e15fd1cd67cb5d52c321c3d150d4
-ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
+ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "34852248"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280217"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>尋找並連線到組織內容套件
 > [!NOTE]
@@ -36,7 +36,7 @@ ms.locfileid: "34852248"
 3. 選取內容套件以顯示其他詳細資料。
 
 ## <a name="connect-to-an-organizational-content-pack"></a>連線到組織內容套件
-* 選取 [立即取得] 可連線至內容套件，將其新增到使用中的工作區。 新的儀表板、報表、Excel 活頁簿和資料集會以黃色星號開頭。
+* 選取 [立即取得] 可連線至內容套件，將其新增至使用中的工作區。 新的儀表板、報表、Excel 活頁簿和資料集會以黃色星號開頭。
 
 如果內容套件包含 Excel 活頁簿，則您可能會看到一則警告，指出您沒有檢視活頁簿的權限。 如果是這樣，您可要求內容套件擁有者[在商務用 OneDrive 中與您共用活頁簿](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
 

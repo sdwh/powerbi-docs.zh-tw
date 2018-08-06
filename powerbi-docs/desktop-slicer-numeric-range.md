@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1e380a6821db7207d14e719fa5e070af38196b97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 135e6ff76a0972bdedbff3eaf7ab1222f82a94ab
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286926"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39331159"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>在 Power BI Desktop 中使用數值範圍交叉分析篩選器
 透過 [數值範圍交叉分析篩選器]，您可以將各式各樣的篩選器套用至資料模型中的任何數值資料行。 您可以選擇篩選兩個數字**之間**、**小於或等於**某個數字，或是**大於或等於**某個數字。 這聽起來或許很簡單，但卻是篩選資料的強大方式。
@@ -53,7 +53,7 @@ ms.locfileid: "34286926"
 
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>使用數值範圍交叉分析篩選器貼齊至整數
 
-使用數值範圍交叉分析篩選器會貼齊至整數，除非其為小數範圍。 這樣可讓您的交叉分析篩選器完全對齊整數。 
+如果基礎欄位的資料類型為 [整數]，數值範圍交叉分析篩選器會貼齊至整數。 這樣可讓您的交叉分析篩選器完全對齊整數。 [十進位數字] 類型欄位可讓您輸入或選取數字的小數部分。 文字方塊中套用的格式會符合欄位上設定的格式，不過您可以鍵入或選取更精確的數字。
 
 
 ## <a name="limitations-and-considerations"></a>限制與考量
@@ -61,3 +61,4 @@ ms.locfileid: "34286926"
 
 * [數值範圍交叉分析篩選器] 目前會篩選資料中的每個基礎資料列，而不是任何彙總值。 例如，如果使用 [Sales Amount] 欄位，則會根據 [Sales Amount] 篩選每筆交易，而不是根據視覺效果之每個資料點的 [Sales Amount] 總和。
 * 目前無法搭配量值使用。
+* 您可以在數值交叉分析篩選器的文字方塊中鍵入任何數字，即使它超過基礎資料行中的值範圍也一樣。 如果您知道資料可能會在未來變更，這可讓您設定篩選。
