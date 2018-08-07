@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9366eff71e09b1f6c71c1f2519feb3d2392e3c58
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 452226f8d5b8e0ca05fc4d9e81355c7a4c10e923
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092636"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582630"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>使用 Power BI 連接到 Acumatica
 Power BI Acumatica 內容套件可讓您快速深入了解機會資料。 Power BI 會擷取您的資料 (包含機會、帳戶和客戶)，然後根據該資料建置預設的儀表板和相關報表。
@@ -37,7 +37,7 @@ Power BI Acumatica 內容套件可讓您快速深入了解機會資料。 Power 
    ![](media/service-connect-to-acumatica/acumatica.png)
 4. 輸入 Acumatica OData 端點。 OData 端點允許外部系統從 Acumatica 要求資料。 Acumatica OData 端點的格式如下，而且應該使用 HTTPS：
    
-     https://[sitedomain]/odata/[companyname]
+     `https://[sitedomain]/odata/[companyname]`
    
    僅當您有多個公司部署時，才需要公司名稱。 在 Acumatica 帳戶中尋找此參數的詳細資訊如下所示。
    
