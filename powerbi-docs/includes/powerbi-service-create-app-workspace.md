@@ -1,4 +1,4 @@
-1. 開始建立工作區。 選取 [工作區] > [建立應用程式工作區]。
+1. 開始建立工作區。 選取 [工作區] > [建立應用程式工作區]。 
    
      ![建立應用程式工作區](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    

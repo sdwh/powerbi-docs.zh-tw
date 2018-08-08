@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: fb05b6fd2378c8fe2b6dec35250df31d227b7760
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135436"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39615997"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>建立 Power BI 行動裝置應用程式中的特定位置連結
 您可以建立和使用統一資源識別項 (URI)，以連結至所有行動平台 (iOS、Android 裝置和 Windows 10) 上之 Power BI 行動裝置應用程式內的特定位置 (「深層連結」)。
@@ -36,7 +36,7 @@ URI 連結可以直接指向儀表板、磚和報表。
 
 若要尋找 36 個字元的儀表板物件識別碼，請巡覽至 Power BI 服務 (https://powerbi.com) 中的特定儀表板。 例如，查看此 URL 的強調顯示區段：
 
-https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**
+`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
 如果儀表板位於 [我的工作區] 以外的群組中，請在儀表板識別碼前面或後面加上 `&GroupObjectId=<36-character-group-id>`。 例如： 
 
@@ -51,7 +51,7 @@ mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60
 
 若要尋找 36 個字元的儀表板和磚物件識別碼，請巡覽至 Power BI 服務 (https://powerbi.com) 中的特定儀表板，然後以焦點模式開啟此磚。 例如，查看此 URL 的強調顯示區段：
 
-https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus
+`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
 
 此磚的 URI 會是：
 
