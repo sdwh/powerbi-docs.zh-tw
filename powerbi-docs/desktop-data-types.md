@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 14b5f3d4b571df8ae672ee9731ed97555c476abd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 7c970cd28a50dc15a7b721107b17ceade24c3bb2
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456014"
+ms.locfileid: "39475744"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的資料類型
 本文描述 Power BI Desktop 與資料分析運算式 (DAX) 支援的資料類型。 
@@ -45,6 +45,11 @@ Power BI Desktop 支援三種數字類型：
 **固定十進位數字** - 小數分隔符號的位置固定。 小數分隔符號右邊一律為 4 位數，並允許 19 位數的有效位數。  它可以表示的最大值為 922,337,203,685,477.5807 (正值或負值)。  [固定十進位數字] 類型在進位可能導致誤差的情況下會很有用。  當您處理其小數值很小的許多數字時，有時候累積起來會使得數字有些誤差。  由於在 [固定十進位數字] 類型中，超過小數分隔符號右邊 4 位數的值會遭到截斷，因此可協助您避免這類錯誤。   如果您熟悉 SQL Server，這種資料類型與 SQL Server 的 Decimal(19,4) 或 Power Pivot 中的 [貨幣資料] 類型相對應。 
 
 **整數** - 代表 64 位元 (8 位元組) 整數值。 由於它是一個整數，因此右邊沒有小數位數。 它允許 19 位數；介於 -9,223,372,036,854,775,808 (-2^63) 到 9,223,372,036,854,775,807 (2^63-1) 之間的正整數或負整數。  它可以代表各種數值資料類型的最大可能數字。  如同 [固定十進位數字] 類型，[整數] 類型在需要控制進位的情況下會很有用。 
+
+> [!NOTE]
+>  Power BI Desktop 資料模型支援 64 位元的整數值，但因為 JavaScript 的限制，圖表可以安全表現的最大數字為 9,007,199,254,740,991 (2 ^53-1)。 若您資料模型中使用高於此值的數字，可以在將其新增到圖表之前，先透過計算降低其大小 
+> 
+>
 
 ### <a name="datetime-types"></a>日期/時間類型
 Power BI Desktop 支援 [查詢檢視] 中的五種 [日期/時間] 資料類型，以及 [報表檢視] 和模型中的三種資料類型。   [日期/時間/時區] 和 [持續時間] 會在載入模型期間進行轉換。

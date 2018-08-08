@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 002c1c256a0d78601d112e4ee34326c0914f9ac1
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: d0449087715b1fac82276810397167d2a5de8f28
+ms.sourcegitcommit: 9c0f990ffb66256eb342af8528987bb108069af6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37599681"
+ms.lasthandoff: 08/03/2018
+ms.locfileid: "39501400"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>儀表板和報表的使用計量
 如果您建立儀表板和報表，使用計量可協助您了解其影響。 當您執行儀表板使用計量或報表使用計量時，您可以探索這些儀表板和報表在整個組織內的使用方式、使用內容、使用者及用途。  
@@ -149,6 +149,10 @@ ms.locfileid: "37599681"
 根據預設，已啟用使用計量的個別使用者資料，而且會將內容建立者帳戶資訊併入計量報表中。 如果您不想要針對部分或所有使用者包括這項資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」。
 
 停用其整個組織的使用計量時，系統管理員可以使用 [刪除所有現有的使用計量內容] 選項，刪除利用使用計量報表和資料集所建置的所有現有報表和儀表板磚。 此選項會移除組織中可能已使用它之所有使用者的使用計量資料之所有存取權。 請小心，因為刪除現有使用計量內容是無法復原的。
+
+## <a name="usage-metrics-in-national-clouds"></a>在國家/地區雲端中的使用計量
+
+Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供的安全性、隱私權、合規性及透明度等級與全球版本的 Power BI 相同，並結合了服務傳遞、資料存放、存取及控制等方面符合當地規定的獨特模型。 因此，這套專門針對當地法規而設計的獨特模型，其使用計量無法在國家地區雲端中使用。 如需詳細資訊，請參閱[國家/地區雲端](https://powerbi.microsoft.com/en-us/clouds/)。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 問︰我無法對儀表板或報表執行使用計量    

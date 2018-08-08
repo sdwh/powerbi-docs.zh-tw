@@ -2,19 +2,19 @@
 title: 將資料列加入資料表
 description: 推送資料的逐步解說 - 將資料列加入 Power BI 資料表
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.date: 08/01/2018
+ms.openlocfilehash: 7608d9098177805849ec61f0427ee5bc662d58c9
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812529"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475652"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步驟 5：將資料列加入 Power BI 資料表
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
@@ -307,9 +307,10 @@ ms.locfileid: "34812529"
         }
     }
 
+雖然我們在上列程式碼中指定了  **_//Get the first id_**，但正確的作法應是依名稱搜尋資料集。
+
 ## <a name="next-steps"></a>後續步驟
 [將資料推送至 Power BI 儀表板](walkthrough-push-data.md)  
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
 [Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

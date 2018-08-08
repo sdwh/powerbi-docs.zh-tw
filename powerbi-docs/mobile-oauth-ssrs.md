@@ -9,19 +9,19 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3777d082d8e0d166abadd2ab89035d6895421f24
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852202"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415338"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 連線至 Power BI 報表伺服器和 SSRS
 了解如何設定您的環境以使用 Power BI 行動裝置應用程式支援 OAuth 驗證，才能連線至 Power BI 報表伺服器和 SQL Server Reporting Services 2016 或更新版本。
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-您可以使用 OAuth 連線至 Power BI 報表伺服器和 Reporting Services，以顯示行動報表或 KPI。 Windows Server 2016 提供「Web 應用程式 Proxy (WAP)」角色的一些改善，以允許這種類型的驗證。 請注意，此設定不支援在 Power BI 行動應用程式中檢視 Power BI 報表。 不過，您可以在行動裝置上的瀏覽器中檢視它們。 若要在行動應用程式中檢視 Power BI 報表，您必須使用 Windows 驗證。
+您可以使用 OAuth 連線至 Power BI 報表伺服器和 Reporting Services，以顯示行動報表或 KPI。 Windows Server 2016 提供「Web 應用程式 Proxy (WAP)」角色的一些改善，以允許這種類型的驗證。 請注意，目前尚不支援在檢視 Power BI 報表伺服器上裝載的 Power BI 報表時，使用 WAP 進行驗證。
 
 ## <a name="requirements"></a>需求
 Web 應用程式 Proxy (WAP) 和 Active Directory Federation Services (ADFS) 伺服器需要 Windows Server 2016。 您不需要有 Windows 2016 功能等級網域。

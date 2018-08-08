@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/28/2018
+sktopms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 5f117bdeb4e37986884c6a1021db1f361bdcddd3
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145379"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582655"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>關於 Power BI 的常見問題集
 * 如果您有其他問題，請[嘗試詢問 Power BI 社群](http://community.powerbi.com/)。
@@ -47,8 +47,8 @@ Power BI Desktop 是免費的傳統型應用程式，您可直接在自己電腦
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>為什麼必須使用我的公司電子郵件註冊？
 Power BI 不支援消費者電子郵件服務或電信提供者所提供的電子郵件地址。 深入了解 [Power BI 自助式註冊程序](service-self-service-signup-for-power-bi.md)。
 
-## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Power BI 也提供政府、學術和非營利定價嗎？
-是的，直接向 Microsoft 購買時會提供非營利定價。 您可以透過 [Microsoft Product Donation (Microsoft 產品捐贈)](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) 網站深入了解並註冊。 政府和學術機構定價是透過 MOSP/Direct、EA 和 Open 授權方案提供。 也提供聯合採購的政府價格。 
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Power BI 有政府、學術及非營利單位適用的定價嗎？
+有。直接向 Microsoft 購買時，才會提供非營利單位適用的定價。 您可以前往 [Microsoft Nonprofits](https://www.microsoft.com/en-us/nonprofits/power-bi) 網站深入了解及註冊。 政府和學術機構定價是透過 MOSP/Direct、EA 和 Open 授權方案提供。 也提供聯合採購的政府價格。 
 
 ## <a name="is-power-bi-available-on-premises"></a>Power BI 可以在內部部署使用嗎？
 Power BI [https://powerbi.com](https://powerbi.com) 不是私用的內部雲端服務。 不過，您有另外三個選項來檢視及使用內部部署資料。 

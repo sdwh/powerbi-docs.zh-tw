@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8fd04b6c7fe83e7047d2eaecf4fb4b0e564f0e9f
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329630"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475721"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>使用 Power BI Desktop 中的自然語言查詢問與答
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 甚至在資料回答時更為強大，這是 **Power BI Desktop** 中的問與答可讓您執行的作業。
@@ -24,6 +24,11 @@ ms.locfileid: "39329630"
 
 > [!NOTE]
 > 只有在使用包含**已匯入**資料的模型時，才能使用「問與答」。 不支援即時連線至 SSAS 和 DirectQuery 模型。
+>
+>
+
+> [!NOTE]
+> 您若是使用 Windows 10 之前的 Windows 版本，必須安裝下列 C 執行階段更新，才能使用問與答。 您可以嘗試從 Windows Update 安裝重要更新，或是手動安裝 Microsoft 提供的必要元件 (KB2999226)。 https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
 >
 >
 
