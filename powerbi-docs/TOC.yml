@@ -112,8 +112,6 @@
                   href: service-install-use-apps.md
                 - name: 尋找並連線到組織內容套件
                   href: service-organizational-content-pack-find-and-open.md
-                - name: 共用儀表板和報表
-                  href: service-share-dashboards.md
                 - name: 開始使用 Power BI 問與答
                   href: power-bi-visualization-introduction-to-q-and-a.md
             - name: 連接至服務
@@ -306,9 +304,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: 分享您的成果
               items:
-                - name: 應該如何共同作業和共用儀表板和報表？
+                - name: 如何共同作業及共用？
                   href: service-how-to-collaborate-distribute-dashboards-reports.md
-                - name: 使用儀表板和報表建立並散發應用程式
+                - name: 共用儀表板和報表
+                  href: service-share-dashboards.md
+                - name: 建立應用程式工作區
+                  href: service-create-workspaces.md
+                - name: 建立新的工作區 (預覽)
+                  href: service-create-the-new-workspaces.md
+                - name: 發佈含有儀表板和報表的應用程式
                   href: service-create-distribute-apps.md
                 - name: 共用篩選過的報表
                   href: service-share-reports.md
@@ -1192,7 +1196,7 @@
       items:
         - name: 容量規劃白皮書
           href: report-server/capacity-planning.md
-- name: 閘道器
+- name: 閘道
   items:
     - name: 概觀
       items:
