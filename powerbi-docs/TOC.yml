@@ -682,6 +682,8 @@
           items:
             - name: 報表的視覺元素
               href: desktop-visual-elements-for-reports.md
+            - name: 匯出成 PDF 及列印報表
+              href: desktop-export-to-pdf.md
             - name: Power BI Desktop 中的問與答
               href: desktop-qna-in-reports.md
             - name: Power BI Desktop 中的分析窗格
@@ -1242,6 +1244,8 @@
           href: service-gateway-onprem-indepth.md
         - name: 內部部署資料閘道 (個人模式)
           href: service-gateway-personal-mode.md
+        - name: 自訂連接器
+          href: service-gateway-custom-connectors.md
         - name: 為內部部署資料閘道進行疑難排解
           href: service-gateway-onprem-tshoot.md
 - name: 系統管理
