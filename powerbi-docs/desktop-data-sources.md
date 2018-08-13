@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 203648affe06abe304d0e8a328b00189b42fa143
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39328388"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657866"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
@@ -93,7 +93,6 @@ ms.locfileid: "39328388"
 [Power BI] 類別提供下列資料連線：
 
 * Power BI 資料集
-* Power BI 資料集區 (搶鮮版 (Beta))
 
 下圖顯示 [Power BI] 的 [取得資料] 視窗。
 
@@ -168,7 +167,7 @@ ms.locfileid: "39328388"
 * Active Directory
 * Microsoft Exchange
 * Hadoop 檔案 (HDFS)
-* Spark (Beta)
+* Spark
 * R Script
 * ODBC
 * OLE DB
