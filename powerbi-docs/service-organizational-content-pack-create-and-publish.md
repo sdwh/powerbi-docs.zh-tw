@@ -3,33 +3,30 @@ title: 建立及發佈組織內容套件 - Power BI
 description: 在本教學課程中，您將建立組織內容套件、限制特定群組才能存取，並將該套件發佈至 Power BI 上的組織內容套件程式庫。
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598590"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624244"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>建立及發佈 Power BI 組織內容套件 (教學課程)
-> [!NOTE]
-> 尚未聽過新的「應用程式」嗎？ 應用程式是在 Power BI 中將內容散發給大量對象的新方式。 我們計劃即將淘汰組織內容套件，因此建議您改用應用程式。 深入了解[應用程式](service-install-use-apps.md)。
-> 
-> 
 
 在本教學課程中，您將建立組織內容套件、提供特定群組的存取權，並將該套件發行至 Power BI 上的組織內容套件庫。
 
 建立內容套件與共用儀表板或對群組中的儀表板共同作業不同。 閱讀[應該如何共同作業和共用儀表板和報表？](service-how-to-collaborate-distribute-dashboards-reports.md)，來為您的情況決定最佳選項。
 
+建立組織內容套件需要用到您和同事的 [Power BI Pro 帳戶](https://powerbi.microsoft.com/pricing)。 
+
 > [!NOTE]
-> 建立組織內容套件需要用到您和同事的 [Power BI Pro 帳戶](https://powerbi.microsoft.com/pricing)。
-> 
+> 您無法在新的工作區體驗預覽中建立或安裝組織內容套件。 如果您尚未開始，現在是將您的內容套件升級為應用程式的好時機。 深入了解[新的工作區體驗](service-create-the-new-workspaces.md)。
 > 
 
 假設您是 Contoso 發佈經理，而且您正在為新產品上市作準備。  您已建立儀表板與報表，想要與管理產品上市的其他員工共用。 您需要有方法將儀表板及報表作為解決方案封裝，供您的同事使用。 

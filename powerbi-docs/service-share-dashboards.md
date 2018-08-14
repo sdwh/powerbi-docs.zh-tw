@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e176f82e106c531410b8e9233b983c6e321bddf4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299048"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624383"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用您的 Power BI 儀表板和報表
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 還提供[數種其他方式可進行共同作業及散發您的儀表板和報表](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -91,6 +91,8 @@ ms.locfileid: "34299048"
 
 4. 在 [移除存取權] 對話方塊中，決定是否要一併移除報表和資料集等相關內容的存取權。 如果在移除項目時出現警告圖示 ![Power BI 警告圖示](media/service-share-dashboards/power-bi-warning-icon.png)，建議您先移除相關的內容，因為這些內容將無法正確顯示。
 
+    ![Power BI 共用警告對話方塊](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
+
 ## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>與組織外部人員共用儀表板或報表
 與組織外部人員共用時，他們會收到具有共用儀表板或報表連結的電子郵件，而且必須登入 Power BI 才能看到儀表板或報表。 如果沒有 Power BI Pro 授權，他們可以按一下連結來註冊以取得授權。
 
@@ -145,6 +147,8 @@ ms.locfileid: "34299048"
 ### <a name="i-cant-share-a-dashboard-or-report"></a>我無法共用儀表板或報表
 
 若要共用儀表板或報表，您必須具備再次共用基礎內容 (任何相關報表和資料集) 的權限。 如果您看到無法共用的訊息，可請報表作者提供再次共用這些報表和資料集的權限。
+
+![「無法共用」訊息](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
 
 
 ## <a name="next-steps"></a>後續步驟

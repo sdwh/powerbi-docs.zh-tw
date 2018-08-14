@@ -3,29 +3,30 @@ title: 使用 Power BI 中的儀表板和報表安裝並使用應用程式
 description: Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處。
 author: maggiesMSFT
 manager: kfile
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: de566aa22a7c48a27682a9c577f84eb6015ac8b7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 464906acd17248c5a752d7febc4ab7b907c7cc46
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34242727"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624360"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表安裝並使用應用程式
 Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處。 組織中的人員可使用關鍵的商務資訊來建立及發佈應用程式。 也許您已在使用 Google Analytics (分析) 和 Microsoft Dynamics CRM 這類[外部服務](service-connect-to-services.md)，而其中亦提供 Power BI 應用程式。 
 
 ![Power BI 的應用程式](media/service-install-use-apps/power-bi-apps-left-nav.png)
 
-在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 和行動裝置中，可輕鬆找到並安裝應用程式。 安裝完應用程式之後，因為所有儀表板都會集中在應用程式、瀏覽器或在行動裝置中，所以您不必記住許多不同儀表板的名稱。
+在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 和行動裝置中，可輕鬆找到並安裝應用程式。 安裝完應用程式之後，因為所有儀表板都會集中在一個應用程式、瀏覽器或在行動裝置中，所以您不必記住許多不同儀表板的名稱。
 
 透過應用程式，每當應用程式作者發行更新時，您就會自動看到變更。 作者也會控制資料重新整理的排程頻率，因此您無須擔心如何將其保持在最新狀態。 
 
-計劃撰寫應用程式嗎？ 如需詳細資訊，請參閱[在 Power BI 中建立和發佈應用程式](service-create-distribute-apps.md)。
+計劃撰寫應用程式嗎？ 如需詳細資訊，請參閱[與同事在 Power BI 中建立工作區](service-create-distribute-apps.md)。
 
 ## <a name="get-a-new-app"></a>取得新的應用程式
 您可以透過一些不同的方式取得應用程式。 應用程式作者可以在您的 Power BI 帳戶中自動安裝應用程式，或將應用程式的直接連結傳送給您，或者您可以在 AppSource 中搜尋應用程式，而在 AppSource 中，您可以看到所有可存取的應用程式。 在行動裝置上的 Power BI 中，您只可從直接連結進行安裝，而不可從 AppSource。 如果應用程式作者自動安裝應用程式，您就會在您的應用程式清單中看到它。
@@ -41,7 +42,7 @@ Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處
 
 **在您的 iOS 或 Android 行動裝置上** 
 
-當您在行動裝置上按一下電子郵件中的連結時，應用程式就會自動安裝並開啟應用程式內容清單。 
+當您在行動裝置上按一下電子郵件中的連結時，應用程式就會自動安裝，並開啟行動裝置應用程式中的應用程式內容清單。 
 
 ![行動裝置上的應用程式內容清單](media/service-install-use-apps/power-bi-app-index-it-spend-360.png)
 
@@ -57,11 +58,11 @@ Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處
 3. 選取 [Get it now]\(立即取得)，將它新增至 [應用程式] 頁面。 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>與應用程式中的儀表板和報表互動
-現在，您可以探索應用程式中儀表板和報表的資料。 您可以進行所有標準 Power BI 互動，例如篩選、反白顯示、排序和向下鑽研。 閱讀[與 Power BI 中的報表互動](service-reading-view-and-editing-view.md)。 
-
-您無法儲存您進行的變更，但可以隨時從報表中的資料表或其他視覺效果[將資料匯出至 Excel](power-bi-visualization-export-data.md)。
+現在，您可以探索應用程式中儀表板和報表的資料。 您可以進行所有標準 Power BI 互動，例如篩選、反白顯示、排序和向下鑽研。 您也可以從報表中的資料表或其他視覺效果[將資料匯出至 Excel](power-bi-visualization-export-data.md)。 閱讀[與 Power BI 中的報表互動](service-reading-view-and-editing-view.md)。 
 
 ![從 Power BI 視覺效果匯出資料](media/service-install-use-apps/power-bi-service-export-data-visual.png)
+
+
 
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI 中建立和發佈應用程式](service-create-distribute-apps.md)

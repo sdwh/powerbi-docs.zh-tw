@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 781e34eadfccb89954c0a8548589e1bf89830079
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: 1185b6195f0d802cec71143c1f27ce5cead584c6
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359746"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39616043"
 ---
-# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>教學課程：為您的客戶將 Power BI 報表、儀表板或圖格內嵌至應用程式
-使用 **Azure 中的 Power BI Embedded**，可利用**應用程式擁有的資料**，將報表、儀表板或磚內嵌至應用程式。 **應用程式擁有的資料**即是應用程式使用 Power BI 作為其內嵌的分析平台。 這通常是 **ISV 開發人員**的情況。 身為 **ISV 開發人員**，您可以建立會顯示應用程式 (完全整合且互動) 中報表、儀表板或圖格的 Power BI 內容，而應用程式的使用者完全不需要有 Power BI 授權；在這種方式下，甚至根本不會發現其為 Power BI。 本教學課程示範如何在為使用**應用程式擁有的資料**的客戶，使用 **Azure 中的 Power BI Embedded** 時，利用 **Power BI** .NET SDK 搭配 **Power BI** JavaScript API，將報表整合至應用程式。
+# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>教學課程：為您的客戶將 Power BI 報表、儀表板或磚內嵌至應用程式
+使用 **Azure 中的 Power BI Embedded**，可利用**應用程式擁有的資料**，將報表、儀表板或磚內嵌至應用程式。 **應用程式擁有的資料**即是應用程式使用 Power BI 作為其內嵌的分析平台。 使用**應用程式擁有資料**通常是 **ISV 開發人員**的情況。 身為 **ISV 開發人員**，您可以建立會顯示應用程式 (完全整合且互動) 中報表、儀表板或磚的 **Power BI** 內容，而應用程式的使用者完全不需要有 Power BI 授權。 本教學課程示範如何在為使用**應用程式擁有的資料**的客戶，使用 **Azure 中的 Power BI Embedded** 時，利用 **Power BI** .NET SDK 搭配 **Power BI** JavaScript API，將報表整合至應用程式。
 
 在本教學課程中，您會了解如何：
 >[!div class="checklist"]
@@ -25,14 +25,14 @@ ms.locfileid: "39359746"
 >* 將 Power BI 報表內嵌到應用程式中。
 
 ## <a name="prerequisites"></a>先決條件
-若要開始進行，您需要一個 **Power BI Pro** 帳戶，這會是您的**主帳戶**和 **Microsoft Azure** 訂用帳戶。
+若要開始進行，您需要一個 **Power BI Pro** 帳戶，此帳戶是您的**主帳戶**和 **Microsoft Azure** 訂用帳戶。
 
 * 如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/en-us/pricing/)，再開始進行。
 * 如果您沒有 Azure 訂用帳戶，請先建立[免費帳戶](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)，再開始進行。
 * 您必須設定自己的 [Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)。
 * 您必須安裝 [Visual Studio](https://www.visualstudio.com/) (2013 版或更新版本)。
 
-## <a name="setup-your-embedded-analytics-development-environment"></a>設定您的內嵌分析開發環境
+## <a name="set-up-your-embedded-analytics-development-environment"></a>設定您的內嵌分析開發環境
 
 在您開始將報表、儀表板或磚內嵌至您的應用程式之前，必須先確定已將環境設定成允許內嵌。 在安裝時，您必須執行下列作業。
 
@@ -49,7 +49,7 @@ ms.locfileid: "39359746"
  
     ![Azure 入口網站主畫面](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-3. 在左側導覽窗格中，選擇 [所有服務]，選取 [應用程式註冊]，然後選取 [新增應用程式註冊]。
+3. 在左側功能窗格中，選擇 [所有服務]，選取 [應用程式註冊]，然後選取 [新增應用程式註冊]。
    
     ![應用程式註冊搜尋](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![新增應用程式註冊](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
@@ -98,7 +98,7 @@ ms.locfileid: "39359746"
    
     ![在必要權限對話方塊內授與權限](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
-## <a name="setup-your-power-bi-environment"></a>設定您的 Power BI 環境
+## <a name="set-up-your-power-bi-environment"></a>設定您的 Power BI 環境
 
 ### <a name="create-an-app-workspace"></a>建立應用程式工作區
 
@@ -269,7 +269,9 @@ var embedConfig = new EmbedConfig()
 這會假設針對 **EmbedConfig** 及 **TileEmbedConfig** 建立類別。 您可以在 **Models\EmbedConfig.cs** 檔案和 **Models\TileEmbedConfig.cs** 檔案中找到關於上述作業的範例。
 
 ### <a name="load-an-item-using-javascript"></a>使用 JavaScript 載入項目
-您可以使用 JavaScript 將報表載入網頁上的 div 元素中。 
+您可以使用 JavaScript 將報表載入網頁上的 div 元素中。
+
+如需使用 JavaScript API 的完整範例，您可以使用[測試網工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 這是一個可測試不同類型 Power BI Embedded 範例的快速方式。 您也可以瀏覽 [PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 頁面，取得 JavaScript API 的詳細資訊。
 
 此範例使用 **EmbedConfig** 模型和 **TileEmbedConfig** 模型以及報表檢視。
 
@@ -316,25 +318,23 @@ var embedConfig = new EmbedConfig()
 </script>
 ```
 
-如需使用 JavaScript API 的完整範例，您可以使用[測試網工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 這是一個可測試不同類型 Power BI Embedded 範例的快速方式。 您也可瀏覽 [PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 頁面，取得有關 JavaScript API 的詳細資訊。
-
 ## <a name="move-to-production"></a>移至生產環境
 
 既然您已完成應用程式的開發，就可以為您的應用程式工作區配置專用容量。 需要專用容量才可移到生產環境。
 
 ### <a name="create-a-dedicated-capacity"></a>建立專用容量
-建立專用容量，您的客戶即可用到專用資源。 您可以在 [Microsoft Azure 入口網站](https://portal.azure.com)內購買專用容量。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
+建立專用容量，您的客戶即可用到專用資源。 您可以在 [Microsoft Azure 入口網站](https://portal.azure.com)內購買專用容量。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
 
 使用下表來判斷最符合您需求的 Power BI Embedded 容量。
 
 | 節點容量 | 核心總數<br/>(後端 + 前端) | 後端核心 | 前端核心 | DirectQuery/即時連線限制 | 尖峰時間的頁面呈現上限 |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 個 v 核心 |.5 個核心，3GB RAM |.5 個核心 | 每秒 5 個 |1-300 |
-| A2 |2 個 v 核心 |1 個核心，5GB RAM |1 個核心 | 每秒 10 個 |301-600 |
-| A3 |4 個 v 核心 |2 個核心，10GB RAM |2 個核心 | 每秒 15 個 |601-1,200 |
-| A4 |8 個 v 核心 |4 個核心，25GB RAM |4 個核心 |每秒 30 個 |1,201-2,400 |
-| A5 |16 個 v 核心 |8 個核心，50GB RAM |8 個核心 |每秒 60 個 |2,401-4,800 |
-| A6 |32 個 v 核心 |16 個核心，100GB RAM |16 個核心 |每秒 120 個 |4,801-9600 |
+| A1 |1 個虛擬核心 |.5 個核心，3GB RAM |.5 個核心 | 每秒 5 個 |1-300 |
+| A2 |2 個虛擬核心 |1 個核心，5GB RAM |1 個核心 | 每秒 10 個 |301-600 |
+| A3 |4 個虛擬核心 |2 個核心，10GB RAM |2 個核心 | 每秒 15 個 |601-1,200 |
+| A4 |8 個虛擬核心 |4 個核心，25GB RAM |4 個核心 |每秒 30 個 |1,201-2,400 |
+| A5 |16 個虛擬核心 |8 個核心，50GB RAM |8 個核心 |每秒 60 個 |2,401-4,800 |
+| A6 |32 個虛擬核心 |16 個核心，100GB RAM |16 個核心 |每秒 120 個 |4,801-9600 |
 
 **_在 A SKU 中，您無法使用免費的 Power BI 授權存取 Power BI 內容。_**
 

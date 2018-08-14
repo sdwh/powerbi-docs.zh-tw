@@ -3,29 +3,29 @@ title: 尋找並連線到組織內容套件 - Power BI
 description: 在 Power BI 上尋找和開啟組織內容套件
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 67072d690f09e922601c6b14ad1c150e2298040b
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280217"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624267"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>尋找並連線到組織內容套件
-> [!NOTE]
-> 尚未聽過新的「應用程式」嗎？ 應用程式是在 Power BI 中將內容散發給大量對象的新方式。 我們計劃即將淘汰組織內容套件，因此建議您改用應用程式。 深入了解[應用程式](service-install-use-apps.md)。
-> 
-> 
 
 當有人將組織內容套件發行到您的組織、通訊群組或安全性群組，或您所屬的 [Office 365 群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)時，該內容套件即會出現在 AppSource 中。  您可瀏覽或搜尋 AppSource，以尋找和開啟組織內容套件。
 
 建立內容套件與共用儀表板或對群組中的儀表板共同作業不同。 閱讀[應該如何共同作業和共用儀表板和報表？](service-how-to-collaborate-distribute-dashboards-reports.md)，來為您的情況決定最佳選項。
+
+> [!NOTE]
+> 您無法在新的工作區體驗預覽中建立或安裝組織內容套件。 如果您尚未開始，現在是將您的內容套件升級為應用程式的好時機。 深入了解[新的工作區體驗](service-create-the-new-workspaces.md)。
+> 
 
 ## <a name="find-an-organizational-content-pack"></a>尋找組織內容套件
 [Power BI Pro](https://powerbi.microsoft.com/pricing) 使用者都能前往 AppSource，其中顯示與整個組織、通訊群組或安全性群組以及使用者所屬 Office 365 群組共用的內容套件。  

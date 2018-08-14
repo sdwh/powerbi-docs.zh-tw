@@ -3,24 +3,25 @@ title: 在 Power BI 應用程式工作區中共同作業
 description: 了解如何使用 Office 365 服務，以在您應用程式工作區的 Power BI Desktop 檔案上共同作業，例如在商務用 OneDrive 上共用檔案、Exchange 中的交談、行事曆及工作等。
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245446"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39623922"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>在 Power BI 應用程式工作區中共同作業
-Power BI 應用程式工作區是與您的同事共同作業以利用儀表板、報表和資料集來建立「應用程式」的絕佳地方。 這就是設計工作區的目的 - 共同作業。 完成與同事共同作業來處理儀表板和報表之後，接著將它封裝成應用程式並進行散發。 深入了解[在 Power BI 中建立應用程式和應用程式工作區](service-create-distribute-apps.md)。 
+Power BI 應用程式工作區是與您的同事共同作業以利用儀表板、報表和資料集來建立「應用程式」的絕佳地方。 共同作業不會止於 Power BI 中的工作區。 Office 365 提供其他群組服務，例如共用商務用 OneDrive 上的檔案、Exchange 中的交談、共用行事曆和工作等等。 深入了解 [Office 365 的群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)。
 
-共同作業不會止於 Power BI 中的工作區。 Office 365 提供其他群組服務，例如共用商務用 OneDrive 上的檔案、Exchange 中的交談、共用行事曆和工作等等。 深入了解 [Office 365 的群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)。
+> [!NOTE]
+> 新的工作區體驗預覽會變更 Power BI 工作區與 Office 365 群組之間的關聯性。 每次建立其中一個新的工作區時，您都不會自動建立 Office 365 群組。 閱讀[建立新的工作區 (預覽)](service-create-the-new-workspaces.md)
 
 僅 [Power BI Pro](service-free-vs-pro.md) 提供應用程式工作區。
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032063"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415384"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -63,29 +63,32 @@ Power BI Embedded 是一組可供開發人員用來在平台即服務供應項�
 
 以下是各項差異的部份清單。
 
-|功能  |Power BI Embedded<br>(A SKU) |Power BI Premium 容量<br>(EM SKU)  | 
-|---------|---------|---------|
-|從 Power BI 應用程式工作區內嵌成品     |Azure 容量 |Office 365 容量 |
-|必須有 Power BI 授權才能取用報表 |否  |是 |
-|在 Embedded 應用程式中取用 Power BI 報表 |是  |是 |
-|在 SharePoint 中取用 Power BI 報表 |否 |是 |
-|在 Teams 中取用 Power BI 報表 |否 |是 |
+| 功能 | Power BI Embedded | Power BI Premium 容量 | Power BI Premium 容量 |
+|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
+|   | (A SKU) | (EM SKU) | (P SKU) |
+| 從 Power BI 應用程式工作區內嵌成品 | Azure 容量 | Office 365 容量 | Office 365 容量 |
+| 在 Embedded 應用程式中取用 Power BI 報表 | 是 | 是 | 是 |
+| 在 SharePoint 中取用 Power BI 報表 | 否 | 是 | 是 |
+| 在 Dynamics 中取用 Power BI 報表 | 否 | 是 | 是 |
+| 在 Teams 中取用 Power BI 報表 | 否 | 是 | 是 |
+| 使用 Powerbi.com 和 Power BI 行動版中的免費 Power BI 授權存取內容 | 否 | 否 | 是 |
+| 使用內嵌在 MS Office 應用程式中的免費 Power BI 授權存取內容 | 否 | 是 | 是 |
 
 ### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Power BI 現在提供三種 SKU 以供內嵌：A SKU、EM SKU 及 P SKU。 我該為案例購買哪一種？
 
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |購買     |Azure 入口網站 |Office |Office |
-|使用案例 |* 在自己的應用程式內嵌內容 |* 在自己的應用程式內嵌內容<br>* 將內容內嵌在其他 SaaS 應用程式中 ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[團隊](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* 在自己的應用程式內嵌內容<br>* 將內容內嵌在其他 SaaS 應用程式中 ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* 透過 [Power BI 服務](https://powerbi.microsoft.com/en-us/)與 Power BI 使用者共用內容  |
+|使用案例 |* 在自己的應用程式內嵌內容 |* 在自己的應用程式內嵌內容<br>* 將內容內嵌在其他 MS Office 應用程式中 ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* 在自己的應用程式內嵌內容<br>* 將內容內嵌在其他 MS Office 應用程式中 ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* 透過 [Power BI 服務](https://powerbi.microsoft.com/en-us/)與 Power BI 使用者共用內容  |
 |帳單 |每小時 |每月 |每月 |
 |承諾用量  |無承諾用量 |每年  |每月/每年 |
 |差異 |完整彈性 - 可以在 Azure 入口網站中，或透過 API 相應增加/減少、暫停/繼續資源  |可用於在 SharePoint Online 和 Microsoft Teams 內嵌內容 |在相同容量中結合應用程式內嵌及使用 Power BI 服務 |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>在 Azure 中建立 PBIE 容量的必要條件為何？
 
-- 您必須登入您組織的目錄 (不支援 MSA 帳戶)。
-- 您須有 Power BI 租用戶，也就是您目錄中至少須有一位使用者已註冊 Power BI。 
-- 您在組織目錄中須有 Azure 訂用帳戶。
+* 您必須登入您組織的目錄 (不支援 MSA 帳戶)。
+* 您須有 Power BI 租用戶，也就是您目錄中至少須有一位使用者已註冊 Power BI。 
+* 您在組織目錄中須有 Azure 訂用帳戶。
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>如何監視容量使用？
 
@@ -213,6 +216,8 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 任何需要在 Power BI 工作區新增報表的分析師、任何需要使用 REST API 的開發人員、任何需要管理 Power BI 租用戶及容量的租用戶系統管理員，都會需要 Power BI Pro 授權。
 
 由於 Power BI Embedded 允許使用 Power BI 入口網站來管理及驗證內嵌內容，因此必須有 Power BI Pro 授權才能在 PowerBI.com 中驗證應用程式，以取得正確存放庫中的報表存取。
+
+不過，若要在自己的應用程式內[建立/編輯內嵌報表](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View)，終端使用者不需要 Pro 授權，因為其根本不需要是 Power BI 使用者。
 
 ### <a name="can-i-get-started-for-free"></a>可以免費開始使用嗎？
 
