@@ -66,7 +66,7 @@ ms.locfileid: "34250046"
 ## <a name="finding-parameters"></a>尋找參數
 您可以移至 [應用程式管理] 下的應用程式識別頁面，找到應用程式的應用程式識別碼。
 
-應用程式識別碼位於 Windows 10 市集 URL 的結尾，https://www.microsoft.com/store/apps/ **{應用程式識別碼}**
+應用程式識別碼位於 Windows 10 市集 URL 的結尾， https://www.microsoft.com/store/apps/ **{應用程式識別碼}**
 
 ## <a name="next-steps"></a>後續步驟
 [開始使用 Power BI](service-get-started.md)
