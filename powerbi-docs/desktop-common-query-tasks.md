@@ -63,7 +63,7 @@ ms.locfileid: "39330205"
 如需連接至 Power BI Desktop 資料的逐步示範，請參閱[連接至 Power BI Desktop 中的資料](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>資料成形及合併
-您可以輕鬆地使用查詢編輯器塑造及合併資料。 本節包含一些範例，說明如何塑造資料。 如需塑造與合併資料的更完整示範，請參閱**[使用 Power BI Desktop 塑造及合併資料](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**。
+您可以輕鬆地使用查詢編輯器塑造及合併資料。 本節包含一些範例，說明如何塑造資料。 如需塑造與合併資料的更完整示範，請參閱 **[使用 Power BI Desktop 塑造及合併資料](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)** 。
 
 在上一節中，我們連接到兩組資料 – Excel 活頁簿和 Web 資源。 一旦載入到查詢編輯器中，我們就會看到下列畫面，其中包含來自所選取網頁的查詢 (從 [查詢] 窗格內列出的可用查詢中取得，位於 [查詢編輯器] 視窗左邊)。
 
