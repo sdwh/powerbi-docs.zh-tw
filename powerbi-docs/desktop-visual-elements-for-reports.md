@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: be4651d1658c80c84105a65bc48e4072ed203794
-ms.sourcegitcommit: 7bdb76bd80973c5e5174747b7e304705754fe647
+ms.openlocfilehash: a3e39e6326eb5b32cd72e2aefec74c07804b4639
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39217620"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657889"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>使用視覺效果元素來增強 Power BI 報表
 
@@ -59,6 +59,9 @@ ms.locfileid: "39217620"
 ![大於 50% 的透明度會產生虛線的框線](media/desktop-visual-elements-for-reports/visual-elements-for-reports_04.png)
 
 請務必注意，虛線的界限「僅」在編輯報表時出現，「不會」讓檢視已發佈報表的人員看見，例如在 **Power BI 服務**中檢視該報表時。
+
+> [!NOTE]
+> 如果您使用深色背景作為背景圖案，並將文字色彩設定為白色或很淺的色彩，請注意 [匯出至 PDF] 功能不會包含背景圖案，因此在匯出的 PDF 檔案中幾乎看不見使用白色字型的任何匯出。 如需 [匯出至 PDF] 的詳細資訊，請參閱[匯出至 PDF](desktop-export-to-pdf.md)。
 
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>在 Power BI 報表中使用改善的視覺效果標頭

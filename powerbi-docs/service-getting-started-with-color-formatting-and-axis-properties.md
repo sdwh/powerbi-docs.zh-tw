@@ -7,20 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 422f0ba97f5118ddc57e9102055a070deaf99b90
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 805487087de865c25f08a29243d672fafbc26ca2
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329607"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658029"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>開始使用色彩格式和軸屬性
 在 **Power BI** 中，您可以變更資料數列、資料點、甚至視覺效果背景的色彩。 您也可以變更 x 軸和 y 軸的顯示方式，讓您完全掌控儀表板和報表的顯示方式。
 
 若要開始，請從 [我的工作區]  窗格選取 [報表]  。 然後從上方的功能表區域選取 [編輯報表] 。  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
 
 當您編輯報表並選取了視覺效果時，[視覺效果] 窗格會隨即出現，讓您新增或變更視覺效果。 可用視覺效果的正下方有三個圖示：**欄位**圖示 (堆疊的橫條)、**格式**圖示 (滾筒筆刷) 和**分析**圖示 (放大鏡)。 在下圖中，選取了**欄位**圖示 (圖示下方黃色列所指出)。
@@ -28,6 +29,7 @@ ms.locfileid: "39329607"
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
 
 當您選取 [格式] 時，圖示下的區域會顯示目前所選視覺效果可用的色彩及軸自訂內容。  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_3a.png)
 
 您可以自訂每個視覺效果的許多項目：
@@ -47,14 +49,13 @@ ms.locfileid: "39329607"
 > [!NOTE]
 >  
 > 您看不到每個視覺效果類型的所有這些項目。 您選取的視覺效果會影響可用的自訂，例如，如果選取圓形圖就不會看到 X 軸，因為圓形圖沒有 X 軸。
-> 
-> 
 
 另請注意，如果未選取任何視覺效果，圖示的位置上就會出現 [篩選]，讓您將篩選套用至頁面上的所有視覺效果。
 
 讓我們看看一些範例：一個使用色彩，另一個變更軸屬性。 從這裡開始，您應該有準備一整天要自訂色彩、軸和標籤。
 
 ## <a name="working-with-colors"></a>使用色彩
+
 讓我們一步步完成自訂圖表色彩的必要步驟。
 
 1. 我從報表畫布中選擇了 [群組直條圖]  。
@@ -76,6 +77,7 @@ ms.locfileid: "39329607"
 對剛才的變更不興奮激動？ 請使用 **CTRL+Z** 復原，就像您以前習慣的。
 
 ## <a name="changing-axis-properties"></a>變更軸屬性
+
 修改 X 軸或 Y 軸通常很有用。 其方法與處理色彩類似，您可以選取要變更的軸左邊的向下箭號圖示來修改座標軸，如下圖所示。  
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
 
@@ -88,11 +90,15 @@ ms.locfileid: "39329607"
 > [!NOTE]
 >  
 > 當選取**格式**圖示時，Power BI Desktop 也會提供這些可用的色彩、軸和相關的自訂項目。
-> 
-> 
 
-## <a name="next-step"></a>下一個步驟
+## <a name="setting-color-from-text-values"></a>從文字值設定色彩
+
+從 2018 年 8 月的 **Power BI Desktop** 更新開始，您可以為指定的報表項目，依文字值或十六進位碼設定色彩。 如需詳細資訊，請參閱[設定資料表格式化的條件](desktop-conditional-table-formatting.md)。
+
+
+## <a name="next-steps"></a>後續步驟
 如需詳細資訊，請參閱下列文章：  
 
 * [在 Power BI 中色彩格式設定的秘訣和訣竅](service-tips-and-tricks-for-color-formatting.md)  
+* [設定資料表格式化的條件](desktop-conditional-table-formatting.md)
 

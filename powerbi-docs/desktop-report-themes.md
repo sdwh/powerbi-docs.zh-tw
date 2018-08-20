@@ -1,5 +1,5 @@
 ---
-title: 在 Power BI Desktop 中使用報表主題 (預覽)
+title: 在 Power BI Desktop 中使用報表主題
 description: 了解如何在 Power BI Desktop 中使用自訂調色盤，並將它套用至整個報表
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721171"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657935"
 ---
-# <a name="use-report-themes-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用報表主題 (預覽)
+# <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用報表主題
 透過**報表主題**，您可以將某個色彩主題套用至整個報表，例如公司色彩、季節性色彩，或是您可能想要套用的任何其他色彩主題。 當您套用 [報表主題] 時，報表中的所有視覺效果都會使用您選取之主題中的色彩 (但有些例外，本文稍後將進行說明)。
 
 ![](media/desktop-report-themes/report-themes_1.png)
@@ -26,10 +26,14 @@ ms.locfileid: "34721171"
 
 從 2017 年 9 月版本的 **Power BI Desktop** 開始，您可以使用 JSON 檔案定義更多報表佈景主題項目，並使用 JSON 檔案自訂 (及標準化) 幾乎所有已淘汰，您可以在 [格式] 窗格中手動調整這個 JSON 檔案。 2017 年 9 月版本 (和更新版本) 的目標是要啟用對於報表外觀與風格的完整控制，達到細微的層級。
 
-### <a name="enable-report-themes-in-preview"></a>啟用預覽中的報表主題
-從 **2017 年 3 月**發行的 **Power BI Desktop** 開始，您可以試用新的 [報表主題]。 若要啟用這項預覽功能，請選取 [檔案] > [選項及設定] > [選項] > [預覽功能]，然後選取 [自訂報表主題] 旁的核取方塊。 完成選取後，必須重新啟動 **Power BI Desktop**。
+### <a name="enable-report-themes"></a>啟用報表主題
+從 2018 年 8 月版的 **Power BI Desktop** 開始，報表主題便正式運作，不需要啟用。 
+
+如果您使用舊版 **Power BI Desktop**，則可以選取 [檔案] > [選項及設定] > [選項] > [預覽功能]，然後選取 [自訂報表主題] 旁的核取方塊，將它啟用為預覽功能。 完成選取後，必須重新啟動 **Power BI Desktop**。
 
 ![](media/desktop-report-themes/report-themes_2.png)
+
+一律建議升級為最新版本的 **Power BI Desktop**，您可以從[取得 Power BI Desktop](desktop-get-the-desktop.md) 中的連結取得。 
 
 ## <a name="how-report-themes-work"></a>報表主題的運作方式
 若要將報表主題套用至 Power BI Desktop 報表，請從 [首頁] 功能區選取 [交換主題] 按鈕，然後從下拉式清單選取 [匯入主題]。

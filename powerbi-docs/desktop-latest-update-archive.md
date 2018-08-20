@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: dcf63989a7d016b5795337f43c9524b05d2d54cd
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 8c2ee97fb39fe115da78bad7bc5787a152dfd793
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210368"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658142"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -34,10 +34,66 @@ ms.locfileid: "39210368"
 
 下列章節說明 **Power BI Desktop** 前幾個月的更新。
 
+## <a name="july-2018-update-26051693201"></a>2018 年 7 月更新 (2.60.5169.3201)
+
+7 月的大型更新本身就值得一場煙火秀，提供要求了一段時間的資料與報表功能，可讓您的視覺效果達到極致，同時伴隨著生動有趣的深入解析展現出來。
+
+7 月份的 **Power BI Desktop** 中新增下列更新：
+
+### <a name="modeling"></a>建立模型
+
+* 複合模型 (預覽) [[影片]](https://youtu.be/Mtig3rmIUe0?t=15s) [[文章]](desktop-composite-models.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* 多對多關聯性 (預覽) (與複合模型相關聯) [[影片]](https://youtu.be/Mtig3rmIUe0?t=4m53s) [[文章]](desktop-many-to-many-relationships.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* 儲存模式 (預覽) (與複合模型相關聯) [[影片]](https://youtu.be/Mtig3rmIUe0?t=15s) [[文章]](desktop-storage-mode.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+
+
+### <a name="reporting"></a>報告
+
+* 具有更大彈性且格式化的新視覺效果標題 [[影片]](https://youtu.be/Mtig3rmIUe0?t=8m26s) [[文章]](desktop-visual-elements-for-reports.md#using-improved-visual-headers-in-power-bi-reports) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visualHeader) 
+* 背景圖案格式化 [[影片]](https://youtu.be/Mtig3rmIUe0?t=14m19s) [[文章]](desktop-visual-elements-for-reports.md#using-wallpaper-in-power-bi-reports) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#wallpaper) 
+* 佈景主題更新 - 更多視覺效果和頁面控制項 (預覽) [[影片]](https://youtu.be/Mtig3rmIUe0?t=19m14s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#theme) 
+* 資料表和矩陣的工具提示 [[影片]](https://youtu.be/Mtig3rmIUe0?t=22m53s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tableTooltips) 
+* 關閉視覺效果的工具提示 [[影片]](https://youtu.be/Mtig3rmIUe0?t=22m53s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tooltips) 
+* 交叉分析篩選器的協助工具 [[影片]](https://youtu.be/Mtig3rmIUe0?t=27m29s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#slicerAccessibility) 
+* 格式化窗格的改善 [[影片]](https://youtu.be/Mtig3rmIUe0?t=30m18s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#formattingPane) 
+* 對於折線圖和組合圖的梯線圖支援 [[影片]](https://youtu.be/Mtig3rmIUe0?t=32m46s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#steppedLine) 
+* 針對個別數列關閉組合圖資料標籤 [[影片]](https://youtu.be/Mtig3rmIUe0?t=34m19s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels) 
+* 排序體驗的改善 [[影片]](https://youtu.be/Mtig3rmIUe0?t=35m44s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting) 
+
+### <a name="analytics"></a>分析
+
+* 分佈因素的深入解析 [[影片]](https://youtu.be/Mtig3rmIUe0?t=37m) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
+
+### <a name="custom-visuals"></a>自訂視覺效果
+
+* Power BI 認證的類別 [[影片]](https://youtu.be/Mtig3rmIUe0?t=41m13s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
+* 停用特定組織的視覺效果 [[影片]](https://youtu.be/Mtig3rmIUe0?t=42m32s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
+* 四個新的自訂視覺效果 [[影片]](https://youtu.be/Mtig3rmIUe0?t=44m) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
+
+### <a name="data-connectivity"></a>資料連線
+
+* IBM DB2 DirectQuery 連接器 (預覽) [[影片]](https://youtu.be/Mtig3rmIUe0?t=54m25s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#IBMDB2) 
+* 對 Web By Example 連接器的改善 [[影片]](https://youtu.be/Mtig3rmIUe0?t=54m53s) [[文章]](desktop-connect-to-web-by-example.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#WebByExample) 
+* SAP HANA - 變數輸入體驗中適用於變數的預設值 [[影片]](https://youtu.be/Mtig3rmIUe0?t=56m19s) [[文章]](desktop-sap-hana.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#SAPHANA) 
+
+
+> [!NOTE]
+> 您也可以[查看 Power BI Desktop 的所有可用資料來源](desktop-data-sources.md)，我們的資料來源會持續增加，因此請經常回來查看。
+
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
+
+
+下列影片將描述並示範這些更新。 您也可以從部落格文章觀賞這段影片。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mtig3rmIUe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> 您可能也會想要了解 [Power BI 服務的新功能](service-whats-new.md)，並請同時查閱 [Power BI 行動應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="june-2018-update-2595135101"></a>2018 年 6 月更新 (2.59.5135.101)
 
-陽光照耀在本月的更新，功能和改善已溫暖您的報表，讓您沉浸在它們提供的見解中。
+陽光照耀在六月份的更新，功能及改善讓您的報表更加生動，完全展示出所提供的見解。
 
 以下是 6 月 **Power BI Desktop** 新增的更新：
 

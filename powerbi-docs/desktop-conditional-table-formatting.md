@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 70aa61d6a02bea1b7058a68b20718008ace1b8c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34480880"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657797"
 ---
 # <a name="conditional-formatting-in-tables"></a>設定資料表格式化的條件 
 設定資料表格式化的條件時，您可以根據資料格值或根據其他值或欄位 (包括漸層色彩) 來指定自訂資料格色彩。 您也可以使用資料橫條來顯示資料格的值。 
@@ -24,7 +24,7 @@ ms.locfileid: "34480880"
 
 ![條件式格式設定功能表](media/desktop-conditional-table-formatting/table-formatting-0-popup-menu.png)
 
-下列章節逐一描述這三種條件式格式選項。 一或多個選項可以組合在一個資料表資料行中。
+下列各節將逐一描述這些條件式格式設定選項。 一或多個選項可以組合在一個資料表資料行中。
 
 > [!NOTE]
 > 套用至資料表時，條件式格式設定會覆寫套用至條件式設定資料格之格式的任何自訂資料表樣式。
@@ -47,7 +47,7 @@ ms.locfileid: "34480880"
 
 ![背景色階對話方塊](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-dialog.png)
 
-### <a name="color-by-rules"></a>色彩 (依規則)
+### <a name="color-by-rules"></a>依規則上色
 
 當您選取 [依規則上色] 時，您可以輸入一或多個值範圍，每個都具有一個設定色彩。  每個值範圍都以「如果值」條件、「和」值條件以及一個色彩開始。
 
@@ -95,3 +95,43 @@ ms.locfileid: "34480880"
 如果 [只顯示橫條] 選項已核取，則資料表資料格只會顯示橫條。
 
 ![範例只顯示資料橫條](media/desktop-conditional-table-formatting/table-formatting-3-default-table-bars.png)
+
+## <a name="color-formatting-by-field-value"></a>依欄位值指定格式色彩
+
+您可以使用指定色彩的量值或資料行，搭配文字值或十六進位碼，將該色彩套用至資料表或矩陣視覺效果之字型色彩的背景。 您也可以建立指定欄位的自訂邏輯，並讓該邏輯將所需的色彩套用至字型或背景。
+
+例如，在下表中，每個產品型號都有相關聯的色彩。 
+
+![ProductName 欄位和色彩名稱](media/desktop-conditional-table-formatting/conditional-table-formatting_01.png)
+
+若要根據其欄位值來格式化該資料格，請選取 [條件式格式設定] 對話方塊，方法是以滑鼠右鍵按一下該視覺效果的 [色彩] 資料行，然後在本例中從功能表選取 [背景色彩]。 
+
+![從功能表選取 [背景色彩]](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
+
+在顯示的對話方塊中，選取 [格式化依據] 下拉式清單區域中的 [欄位值]，如下列影像所示。
+
+![依欄位值格式化](media/desktop-conditional-table-formatting/conditional-table-formatting_03.png)
+
+您可以針對字型色彩重複該程序，而視覺效果中的結果會是 [色彩] 資料行中的單色，如下列畫面所示。
+
+![依欄位值格式化](media/desktop-conditional-table-formatting/conditional-table-formatting_04.png)
+
+您也可以建立以商務邏輯為基礎的 DAX 計算，來根據您偏好的條件輸出不同的十六進位碼。 這通常比在 [條件式格式設定] 對話方塊中建立多項規則更容易。 請考慮下列範例影像中的 *ColorKPI* 欄位。
+
+![DAX 計算](media/desktop-conditional-table-formatting/conditional-table-formatting_05.png)
+
+然後，您可以透過下列方式來設定 [背景色彩] 的欄位值。
+
+![根據 KPI 設定欄位色彩](media/desktop-conditional-table-formatting/conditional-table-formatting_06.png)
+
+然後，您可以取得類似下列矩陣的結果。
+
+![矩陣視覺效果及以 KPI 值為基準的色彩](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
+
+只要運用您的想像力和一點 DAX，您還可以建立更多版本。
+
+## <a name="next-steps"></a>後續步驟
+如需詳細資訊，請參閱下列文章：  
+
+* [在 Power BI 中色彩格式設定的秘訣和訣竅](service-tips-and-tricks-for-color-formatting.md)  
+

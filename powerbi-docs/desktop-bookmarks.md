@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b8c4066f3128899d2c3c8121d7c5d41768f89dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327813"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657958"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用書籤來共用深入解析並建立故事 
 在 Power BI 中使用**書籤**可協助您擷取目前設定的報表頁面檢視 (包括視覺效果的篩選和狀態)，讓您稍後只要選取儲存的書籤，就可以返回該狀態。 
@@ -113,6 +113,33 @@ ms.locfileid: "39327813"
 您可以使用物件連結書籤執行各式各樣有趣的作業。 只要按一下物件，就可以在報表頁面上建立視覺目錄，或提供不同方式 (例如視覺效果類型) 來檢視相同資訊。
 
 當您處於編輯模式時，您可以按住 Ctrl 鍵再按一下滑鼠來追蹤連結；當您不在編輯模式時，只要按一下物件即可追蹤連結。 
+
+## <a name="bookmark-groups"></a>書籤群組
+
+從 2018 年 8 月開始的 **Power BI Desktop** 版本，已可建立及使用書籤群組。 書籤群組即為一組書籤的集合，可用以指定何者可顯示及整理為群組。 
+
+若要建立書籤群組，請按住 CTRL 鍵並選取您希望納入群組中的書籤，然後按一下任一所選書籤旁的省略符號，並從出現的功能表中選取 [群組]。
+
+![建立書籤群組](media/desktop-bookmarks/bookmarks_15.png)
+
+**Power BI Desktop** 會自動將群組命名為*群組 1*。 但別擔心，只要在該名稱上按兩下，即可將其重新命名為任何您希望的名稱。
+
+![重新命名書籤群組](media/desktop-bookmarks/bookmarks_16.png)
+
+您可以對任何書籤群組，按一下書籤群組的名稱，而只展開或摺疊該組書籤，而不是書籤本身。 
+
+使用書籤的 [檢視] 功能時，會出現下列情況：
+
+* 當您從書籤選取 [檢視] 時，若所選書籤位於群組中，則只有*該群組中*的書籤才顯示在檢視工作階段中。 
+
+* 若所選書籤並非群組，或位於頂層 (例如書籤群組的名稱)，即會播放整個報表的所有書籤，包括任何所有群組中的書籤。 
+
+若要取消書籤的群組，只要選取群組中的任一書籤，按一下省略符號，然後從出現的功能表中選取 [取消群組]。 
+
+![取消書籤群組](media/desktop-bookmarks/bookmarks_17.png)
+
+請注意，為群組中的任一書籤選取 [取消群組] 時，會從群組移出所有書籤 (其會刪除該群組，但不會刪除書籤本身)。 所以，若要從群組移除單一個書籤，需要對該群組的任一成員進行**取消群組**，如此會刪除該群組關係，然後再選取您希望位於新群組中的成員 (按著 CTRL 鍵，並按一下每個書籤)，接著再次選取 [群組]。 
+
 
 ## <a name="using-spotlight"></a>使用聚焦
 隨書籤發行的另一項功能是**聚焦**。 使用**聚焦**，您可以提高特定圖表的注意力；例如，在 [檢視] 模式中呈現您的書籤。
