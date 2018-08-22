@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
-ms.author: v-mamcge
+ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582563"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256844"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 效能最佳做法 
 本文提供如何在 Power BI 中建置快速且可靠報表的指引。  
@@ -46,10 +46,10 @@ ms.locfileid: "39582563"
  
 ## <a name="directquery-and-live-connection-understand-underlying-data-source-performance"></a>DirectQuery 和即時連線：了解基礎資料來源效能 
 
-在 DirectQuery 或即時連線案例中，使用者瀏覽 Power BI 報表時，Power BI 會即時將查詢傳送至基礎資料來源。 傳回資料來源和查詢資料之後，接著會轉譯報表。 因此，在這些情況下，您的報表效能主要取決於基礎資料來源的效能。 
- 
-在這些情況下，務必了解您基礎資料來源的效能。 不同的資料來源會有不同的工具可了解查詢效能。 例如，SQL Server 和 Azure SQL 提供「查詢存放區」，以擷取查詢和其執行階段統計資料的歷程記錄。 
- 
+在 DirectQuery 或即時連線案例中，使用者瀏覽 Power BI 報表時，Power BI 會即時將查詢傳送至基礎資料來源。 傳回資料來源和查詢資料之後，接著會轉譯報表。 因此，在這些情況下，您的報表效能主要取決於基礎資料來源的效能。
+
+在這些情況下，務必了解您基礎資料來源的效能。 不同的資料來源會有不同的工具可了解查詢效能。 例如，SQL Server 和 Azure SQL 提供「查詢存放區」，以擷取查詢和其執行階段統計資料的歷程記錄。
+
 根據經驗，部署根據 DirectQuery 和即時連線所建置的 Power BI 報表時，請嘗試終端使用者將在 Power BI Desktop 中執行的作業。 如果 Power BI Desktop 中的報表載入速度緩慢，則幾乎確定在終端使用者的服務中載入速度也會緩慢。 
  
 ## <a name="directquery-best-practices"></a>DirectQuery 最佳做法 
