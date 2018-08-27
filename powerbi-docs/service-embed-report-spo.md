@@ -2,21 +2,21 @@
 title: 在 SharePoint Online 中嵌入報表網頁組件
 description: 你可以使用 SharePoint Online 的 Power BI 新報表網頁組件，輕鬆地在 SharePoint Online 的網頁中內嵌互動式 Power BI 報表。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.date: 08/16/2018
+ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032040"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257127"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -28,11 +28,12 @@ ms.locfileid: "39032040"
 
 為了讓**內嵌在 SharePoint Online 中**的報表運作，必須達成幾項需求。
 
+* 您需要 Power BI Pro 授權，或是具有 Power BI 授權的 [Power BI Premium 容量 (EM 或 P SKU)](service-premium.md#premium-capacity-nodes)。
 * SharePoint Online 的 Power BI Web 組件需要[新式網頁](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)。
 
 ## <a name="embed-your-report"></a>內嵌報表
 
-若要將報表嵌入 SharePoint Online，您必須先取得報表的 URL，然後在 SharePoint Online 中的新 Power BI 組件使用該 URL。
+若要將報表嵌入 SharePoint Online，您必須先取得報表的 URL，然後在 SharePoint Online 中的新 Power BI 網頁組件使用該 URL。
 
 ### <a name="get-a-url-to-your-report"></a>取得報表的 URL
 
@@ -69,7 +70,7 @@ ms.locfileid: "39032040"
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. 將報表 URL 傳送至屬性窗格。 這是您從上述步驟所複製的 URL。 報表將會自動載入。
+4. 將報表 URL 傳送至屬性窗格。 這是您從上述步驟所複製的 URL。 報表會自動載入。
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
@@ -107,10 +108,10 @@ ms.locfileid: "39032040"
 
 ## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
-如果您的 Power BI 環境需要您使用多重要素驗證進行登入，您可能會被要求使用安全性裝置進行登入，以驗證您的身分識別。 如果您沒有使用多重要素驗證登入 SharePoint.Online，但您的 Power BI 環境需要使用安全性裝置來驗證的帳戶時，就會發生此情形。
+如果您的 Power BI 環境需要您使用多重要素驗證進行登入，您可能會被要求使用安全性裝置進行登入，以驗證您的身分識別。 如果您沒有使用多重要素驗證登入 SharePoint.Online，但您的 Power BI 環境需要使用安全性裝置來驗證的帳戶，就會發生此情況。
 
 > [!NOTE]
-> Azure Active Directory 2.0 尚不支援多重要素驗證。 使用者會收到指出「錯誤」的訊息。 如果使用者使用他們的安全性裝置再次登入 SharePoint Online ，他們可能可以檢視報表。
+> Azure Active Directory 2.0 尚不支援多重要素驗證。 使用者會收到指出「錯誤」的訊息。 如果使用者使用其安全性裝置再次登入 SharePoint Online ，則可以檢視報表。
 
 ## <a name="reports-that-do-not-load"></a>不會載入的報表
 
@@ -137,7 +138,7 @@ ms.locfileid: "39032040"
 
   2. 若您的使用者帳戶需要多重要素驗證 (MFA)，請確定您是使用多重要素驗證裝置 (手機應用程式、智慧卡等等) 登入 SharePoint。
   
-  3. 不支援 Azure B2B 來賓使用者帳戶。 使用者看到的 Power BI 標誌會顯示已載入的部分，但並不會顯示報表。
+  3. 不支援 Azure B2B 來賓使用者帳戶。 使用者看到的 Power BI 標誌會顯示載入的部分，但不會顯示報表。
 
 * Power BI 與 SharePoint Online 支援的當地語系化語言不盡相同。 因此，您可能會在內嵌報表中看到未適當當地語系化的內容。
 

@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 07/25/2018
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c63357df043ff6a646562d398a07d8042dd5a0ee
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: bba674df9864697199a274698a1b17320b8ccd80
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256537"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40257183"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Power BI 中的連接器擴充性
 
 在 Power BI 中，客戶和開發人員可以擴充資料來源，以使用許多方式進行連接，例如使用現有的連接器和一般資料來源 (例如 ODBC、OData、Oledb、Web、CSV、XML、JSON)。 除了這些資料來源，開發人員還可以建立資料延伸模組 (稱為**自訂連接器**)，並認證連接器使其成為**認證的連接器**。
 
-在舊版的 Power BI 中，使用**自訂連接器**的功能是透過功能切換來啟用。 現在有一個功能表，可讓您安全地控制想要允許在系統上執行的自訂程式碼層級：所有自訂連接器，或僅限 [取得資料] 對話方塊中由 Microsoft 認證及散發的連接器。
+目前，使用**自訂連接器**的功能是透過功能切換來啟用。 在我們將此功能從搶鮮版 (Beta) 移至正式運作之前，我們已新增一個功能表，可讓您安全地控制想要允許在系統上執行的自訂程式碼層級：所有自訂連接器，或僅限 [取得資料] 對話方塊中由 Microsoft 認證及散發的連接器。
 
 ## <a name="custom-connectors"></a>自訂連接器
 
-**自訂連接器**可包含各種可能性，從對您商務不可或缺的小型 API，到 Microsoft 尚未實作的大型企業專屬服務。 大部分這類連接器都是由廠商自行散發，如果您需要特定資料連接器，請連絡廠商。
+**自訂連接器**可包含各種可能性，從對您商務不可或缺的小型 API，到 Microsoft 尚未發行連接器的大型企業專屬服務。 許多連接器都是由廠商自行散發，如果您需要特定資料連接器，請連絡廠商。
 
 若要使用**自訂連接器**，請將它們放在 *\[Documents]\\Power BI Desktop\\Custom Connectors* 資料夾，並調整安全性設定，如下一節所述。
 
@@ -54,4 +54,4 @@ ms.locfileid: "39256537"
 
 資料延伸模組的有限子集會視為 [已認證]，而且這類認證的連接器可透過　[取得資料] 對話方塊使用，但仍會由建立連接器的協力廠商開發人員負責維護和支援。 雖然 Microsoft 會散發這些連接器，但我們並不負責其效能或功能的持續性。
 
-如果您想要認證自訂連接器，請要求您的廠商連絡 Microsoft。
+如果您想要認證自訂連接器，請要求您的廠商連絡 dataconnectors@microsoft.com。

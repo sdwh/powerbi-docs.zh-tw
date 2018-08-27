@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482122"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257252"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -22,6 +22,18 @@ ms.locfileid: "34482122"
 
 如需新功能的詳細資訊，請參閱 [Power BI 報表伺服器的新增功能](whats-new.md)。 
 
+## <a name="august-2018"></a>2018 年 8 月
+- **Power BI 報表伺服器**
+    - 版本 1.3.6801.38816 (組建 15.0.2.540)，發行日期：2018 年 8 月 15 日
+        - 功能
+            - SAP HANA SSO Direct Query 對 Kerberos 的支援現在於 Power BI 報表中正式運作
+            - 此版本隨附自訂視覺效果 API - 1.13.0 版
+            - 自訂視覺效果將會回復為與目前伺服器 API 版本相容的舊版 (如果有的話)
+
+- **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
+    - 版本：2.61.5192.64 (2018 年 8 月)，發行日期：2018 年 8 月 15 日
+        - 包含與 Power BI 報表伺服器連接所需的變更 (2018 年 8 月)         
+        
 ## <a name="march-2018"></a>2018 年 3 月
 - **Power BI 報表伺服器**
     - *版本 1.2.6690.34729 (組建：15.0.2.402)，發行日期：2018 年 4 月 27 日*

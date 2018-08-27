@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3c1000eb48cfb53f5838f19f6c0ece4403e9d3ba
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244241"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40257125"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>使用 Power BI 連接到 Application Insights
 使用 Power BI 從 [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) 遙測建立功能強大的自訂儀表板。 想像以新方法運用應用程式遙測。 將來自多個應用程式或元件服務的度量合併到一個儀表板上。 第一版的 Power BI Application Insights 內容套件，包含常用的度量小工具，例如作用中使用者、頁面檢視、工作階段、瀏覽器和作業系統版本，以及地圖的使用者地理分佈。
@@ -23,7 +23,7 @@ ms.locfileid: "34244241"
 連接到 [Power BI 的 Application Insights 內容套件](https://app.powerbi.com/getdata/services/application-insights)。
 
 >[!NOTE]
->在 Azure Preview 入口網站中必須要有應用程式的 Application Insights 概觀刀鋒視窗存取權，才能進行連接。 下方有需求的詳細資料。
+>此整合方法現在已被**取代**。 若要深入了解將 Application Insights 連線到 Power BI 的慣用方法，請使用[匯出分析查詢功能](https://docs.microsoft.com/azure/application-insights/app-insights-export-power-bi#export-analytics-queries)。
 
 ## <a name="how-to-connect"></a>如何連接
 1. 選取左側瀏覽窗格底部的 [取得資料]  。

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/02/2018
+ms.date: 08/15/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965496"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256905"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
 
@@ -100,38 +100,39 @@ ms.locfileid: "36965496"
 
 管理入口網站的第三個索引標籤是 [租用戶設定]。 [租用戶設定] 能讓您更充分掌控貴組織可用的功能。 如果您對敏感性資料有疑慮、我們的某些功能可能不適合您的組織，或您可能希望特定群組只能使用指定的功能。 有這種情況時，您可以在租用戶中關閉設定。
 
-例如，已啟用使用計量的個別使用者資料，而且會將內容建立者帳戶資訊併入計量報表中。 如果您不想要針對部分或所有使用者包括這項資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」。
-
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
 > 設定可能需要 10 分鐘才會對租用戶中所有人生效。
 
-設定依據您提供的設定，可以有三個狀態。
+設定可以有三個狀態：
 
-### <a name="disabled-for-the-entire-organization"></a>禁止整個組織使用
+* **已為整個組織停用**：您可以停用功能，並將其設為此狀態，這樣使用者就無法使用。
 
-您可以停用功能，並將其設為此狀態，這樣使用者就無法使用。
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+* **已為整個組織啟用**：您可以允許整個組織使用某功能，讓所有使用者都有該功能的存取權。
 
-### <a name="enabled-for-the-entire-organization"></a>允許整個組織使用
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-您可以允許整個組織使用某功能，讓所有使用者都有該功能的存取權。
+* **已為組織子集合啟用**：您也可以允許一部分的組織使用某功能。 這可以用其他幾種方式實踐。 您可以允許整個組織使用，特定使用者群組除外。
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-### <a name="enabled-for-a-subset-of-the-organization"></a>允許組織的一部份使用
+    您也可以只允許特定使用者群組使用功能，同時禁止一群使用者使用該功能。 如此可確保特定使用者沒有功能的存取權，即使他們在允許的群組中亦然。
 
-您也可以允許一部份的組織使用某功能。 這可以用其他幾種方式實踐。 您可以允許整個組織使用，特定使用者群組除外。
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+下面幾節將提供不同類型的租用戶設定概觀。
 
-您也可以只允許特定使用者群組使用功能，同時禁止一群使用者使用該功能。 如此可確保特定使用者沒有功能的存取權，即使他們在允許的群組中亦然。
+## <a name="workspace-settings"></a>工作區設定
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+### <a name="create-workspaces-preview"></a>建立工作區 (預覽)
+組織中的使用者可以建立應用程式工作區來共同處理儀表板、報表及其他內容。
 
-## <a name="export-and-sharing-settings"></a>匯出及共用設定
+如需詳細資訊，請參閱[建立新的工作區](service-create-the-new-workspaces.md)。
+
+## <a name="export-and-sharing-settings"></a>匯出和共用設定
 
 ### <a name="share-content-to-external-users"></a>將內容共用給外部使用者
 
@@ -143,7 +144,7 @@ ms.locfileid: "36965496"
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>發行至 Web
+### <a name="publish-to-web"></a>發佈至 Web
 
 組織中的使用者可以將報表發行到網路。 [深入了解](service-publish-to-web.md)
 
@@ -244,7 +245,7 @@ ms.locfileid: "36965496"
 > [!NOTE]
 > 這項設定適用於整個組織，而無法限於特定群組。
 
-## <a name="audit-settings"></a>稽核設定
+## <a name="audit-and-usage-settings"></a>稽核與使用方式設定
 
 ### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>建立稽核記錄以進行內部活動稽核與合規性
 
@@ -254,6 +255,25 @@ ms.locfileid: "36965496"
 
 > [!NOTE]
 > 這項設定適用於整個組織，而無法限於特定群組。
+
+### <a name="usage-metrics-for-content-creators"></a>內容建立者的使用計量
+組織中的使用者可以看到自己所建立之儀表板與報表的使用計量。 [深入了解](service-usage-metrics.md)。
+
+您可以將該設定切換至 [已啟用]，然後指定可查看使用計量的人員 (整個組織或特定安全性群組)。
+
+> [!NOTE]
+> 請記住，租用戶設定變更可能需要一些時間才會生效。
+
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>內容建立者之使用計量中的個別使用者資料
+內容建立者的使用計量，會公開正在存取內容之使用者的顯示名稱與電子郵件地址。 [深入了解](service-usage-metrics.md)。
+
+您可以將該設定切換至 [已啟用]，然後指定可查看使用計量中之顯示名稱與電子郵件地址的人員 (整個組織或特定安全性群組)。
+
+根據預設，已啟用使用計量的個別使用者資料，而且會將內容建立者帳戶資訊併入計量報表中。 如果您不想要針對部分或所有使用者包括這項資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」。
+
+> [!NOTE]
+> 請記住，租用戶設定變更可能需要一些時間才會生效。
+
 
 ## <a name="dashboard-settings"></a>儀表板設定
 
@@ -270,9 +290,9 @@ ms.locfileid: "36965496"
 
 組織中的使用者可以在軟體即服務 (SaaS) 應用程式中內嵌 Power BI 儀表板和報告。 停用此設定會讓使用者無法使用 REST API 在其應用程式中內嵌 Power BI 內容。
 
-## <a name="premium-settings"></a>Premium 設定
+## <a name="capacity-settings"></a>容量設定
 
-[進階設定] 索引標籤可讓您管理組織已購買的任何 Power BI Premium 容量。 組織內的所有使用者都會看到 [進階設定] 索引標籤，但如果他們被指派為**容量管理員**或具有指派權限的使用者，則只會看到其中的內容。 如果使用者沒有任何權限，他們會看到下列訊息。
+[容量設定] 索引標籤可讓您管理組織已購買的任何 Power BI Premium 容量。 組織內的所有使用者都會看到 [進階設定] 索引標籤，但如果他們被指派為**容量管理員**或具有指派權限的使用者，則只會看到其中的內容。 如果使用者沒有任何權限，他們會看到下列訊息。
 
 ![](media/service-admin-portal/premium-settings-no-access.png "沒有進階設定的存取權")
 

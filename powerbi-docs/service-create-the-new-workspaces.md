@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/07/2018
+ms.date: 08/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 36343b4db0481ea61fbfac1c791aa84760ee2c77
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624595"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40257211"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>在 Power BI 中建立新的工作區 (預覽)
 
@@ -113,7 +113,7 @@ Power BI 正在引進新的工作區體驗作為預覽。 工作區仍然是與�
 
 - 新增具有較低權限的成員或其他人。
 - 發佈和更新應用程式。
-- 共用項目和共用應用程式。
+- 共用項目或共用應用程式。
 - 允許其他人再次共用項目。
 - 執行參與者可執行的所有項目。
 
@@ -129,7 +129,7 @@ Power BI 正在引進新的工作區體驗作為預覽。 工作區仍然是與�
 
 ## <a name="distribute-an-app"></a>散發應用程式
 
-當內容就緒時，您可以選擇想要發佈的儀表板和報表，然後將其發佈為「應用程式」。 您的同事可透過幾種不同的方式取得應用程式。 如果 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 否則，他們可以從 Microsoft AppSource 找到並安裝您的應用程式，或者您可以將直接連結傳送給他們。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 如需詳細資料，請參閱[在 Power BI　中發佈具有儀表板和報表的應用程式](service-create-distribute-apps.md)。
+當內容就緒時，您可以選擇想要發佈的儀表板和報表，然後將其發佈為「應用程式」。 您可以從每個工作區建立一個應用程式。 您的同事可透過幾種不同的方式取得應用程式。 如果 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 否則，他們可以從 Microsoft AppSource 找到並安裝您的應用程式，或者您可以將直接連結傳送給他們。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 如需詳細資料，請參閱[在 Power BI　中發佈具有儀表板和報表的應用程式](service-create-distribute-apps.md)。
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>將舊的應用程式工作區轉換成新的應用程式工作區
 
@@ -161,7 +161,7 @@ Power BI 正在引進新的工作區體驗作為預覽。 工作區仍然是與�
 某些功能在新應用程式工作區的運作方式，不同於目前的應用程式工作區。 根據我們從客戶收到的意見反應，這些差異是刻意設計的，可啟用更彈性方法，以便與工作區共同作業：
 
 - 成員可以或無法再次共用：取代為「參與者」角色
-- 唯讀的工作區：取代為即將推出的「檢視者」角色，允許唯讀存取工作區中的內容。
+- 唯讀的工作區：無需將工作區的唯讀存取權授與使用者，您可以將使用者指派給即將推出的「檢視者」角色，這會允許工作區中內容的類似唯讀存取權。
 
 ## <a name="known-issues"></a>已知問題
 

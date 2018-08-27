@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 402a39ef9e52fe61d80940a5050997ba19930209
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: bf5120b1c4d787dd13e21245b234207123221fc4
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964829"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40257337"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>使用 Kerberos 以從 Power BI 單一登入 (SSO) 到內部部署資料來源
 您可以藉由使用 Kerberos 來設定內部部署資料閘道，以取得順暢的單一登入連線，讓 Power BI 報表和儀表板能夠從內部部署資料進行更新。 內部部署資料閘道可以使用 DirectQuery 加速單一登入 (SSO)，DirectQuery 是用來連線至內部部署資料來源。
@@ -51,9 +51,7 @@ ms.locfileid: "36964829"
    - 只有當閘道服務帳戶是網域帳戶 (或服務 SID)，且已為資料庫設定 Kerberos 限制委派以接受來自閘道服務帳戶的 Kerberos 票證時，使用者模擬和資料庫連接才會成功。  
    
    > [!NOTE]
-   > 至於服務 SID，如果 AAD DirSync/Connect 已設定且使用者帳戶已同步處理，閘道服務不需要在執行階段執行本機 AD 查閱，而且您可以針對閘道服務使用本機服務 SID (不需要網域帳戶)。  本文件概述的 Kerberos 限制委派設定步驟都是相同的 (只是是根據服務 SID 來套用，而不是根據網域帳戶)。
-   > 
-   > 
+   > 至於服務 SID：如果 AAD DirSync/Connect 已設定且使用者帳戶已同步，閘道服務不需要在執行階段執行本機 AD 查閱，而且您可以針對閘道服務使用本機服務 SID (不需要網域帳戶)。 這篇文章中概述的 Kerberos 限制委派設定步驟與該設定都相同 (它們只會套用至 Active Directory 中的閘道電腦物件，而不會套用至網域帳戶)。
 
 
 > [!NOTE]

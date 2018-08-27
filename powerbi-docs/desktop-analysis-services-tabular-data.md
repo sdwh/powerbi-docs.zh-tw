@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f9c6d161149a4c862636a13ad88d3c43f2dbcd8a
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: cbec15b472e6cfad6134cc48970977132d61dd36
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329303"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256817"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 Analysis Services 表格式資料
 Power BI Desktop 提供兩種方法，讓您連接到 SQL Server Analysis Services 表格式模型並從中取得資料：使用即時連接進行瀏覽，或選取項目並匯入 Power BI Desktop。
@@ -24,7 +24,9 @@ Power BI Desktop 提供兩種方法，讓您連接到 SQL Server Analysis Servic
 
 **使用即時連接進行瀏覽** - 使用即時連接時，表格式模型或檢視方塊中的資料表、資料行和量值等項目，都會出現在 Power BI Desktop 的 [欄位] 清單中。 您可以使用 Power BI Desktop 的進階視覺效果和報表工具，以全新且高度互動的方式來瀏覽表格式模型。
 
-即時連接時，不會從表格式模型匯入任何資料到 Power BI Desktop。 每當您與某個視覺效果互動時，Power BI Desktop 會查詢表格式模型並計算您所看到的結果。 您所檢視的資料一律為最新資料。 請記住，表格式模型非常安全。 您對於所連接之表格式模型的權限會決定出現在 Power BI Desktop 中的項目。
+即時連接時，不會從表格式模型匯入任何資料到 Power BI Desktop。 每當您與某個視覺效果互動時，Power BI Desktop 會查詢表格式模型並計算您所看到的結果。 您一律會看到表格式模型中可用的最新資料，該資料可能來自上次處理時間，或來自表格式模型中可用的 Direct Query 資料表。 
+
+請記住，表格式模型非常安全。 您對於所連接之表格式模型的權限會決定出現在 Power BI Desktop 中的項目。
 
 當您在 Power BI Desktop 中建立動態報表時，您可以將其發佈到 Power BI 網站以與他人共用。 當您透過表格式模型的即時連線將 Power BI Desktop 檔案發佈到 Power BI 網站時，必須由系統管理員安裝及設定內部部署資料閘道。 若要深入了解，請參閱[內部部署資料閘道](service-gateway-onprem.md)。
 

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600371"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256996"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>使用開發人員工具建立自訂視覺效果
 自訂視覺效果可讓您滿足使用者的需求，並契合應用程式的設計。 您可以使用開發人員工具來建立 Power BI 的自訂視覺效果。
@@ -178,10 +178,10 @@ ms.locfileid: "37600371"
 您可以執行下列命令來建立新的視覺效果專案。
 
 ```
-pbiviz new My Visual name
+pbiviz new MyVisualName
 ```
 
-您可以將 *My Visual Name* 取代為想要提供給視覺效果的名稱。 之後，您也可以在產生的 `pbiviz.json` 檔案中，修改 `name` 和 `displayName` 欄位以進行變更。
+您可以將 *MyVisualName* 取代為想要提供給視覺效果的名稱。 之後，您也可以在產生的 `pbiviz.json` 檔案中，修改 `name` 和 `displayName` 欄位以進行變更。
 
 此命令會在命令執行所在目錄中建立新的資料夾， 並會產生視覺效果的基本入門範本。 當命令完成時，您可以開啟該目錄，並使用喜好的編輯器以開始使用新的視覺效果。
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eee7c4989c4856ab86cb4883f8004198da00e4fd
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799410"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40256822"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -84,7 +84,7 @@ Power BI 報表作者可以建立專為手機最佳化的報表版面配置。 �
 ## <a name="drill-down-and-up-in-a-visual"></a>向下和向上鑽研視覺效果
 如果報表作者已將功能新增至視覺效果，您可以向下切入視覺效果，以查看組成視覺效果的值。 您可以在 Power BI Desktop 或 Power BI 服務中[新增視覺效果的向下切入](power-bi-visualization-drill-down.md)。 
 
-* 點選視覺效果中的資料點即可顯示其工具提示。 若該項目具有向下切入，則工具提示的底部會出現可供您點選的箭號。 
+* 點選並按住視覺效果中的特定資料橫條或資料點即可顯示其工具提示。 若該項目具有向下切入，則工具提示的底部會出現可供您點選的箭號。 
   
   ![在視覺效果中向下切入](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 

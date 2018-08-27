@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 08/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 61421db59a6488394cad0b8a921590a90b020bff
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: d37ed22c0abba4e843d37fd6df465f9a755fbdc6
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280631"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40256842"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支援的資料來源
 **Power BI Desktop** 和 **Power BI 服務**有許多資料來源供您連線和存取資料。 本文描述 Power BI 的哪些資料來源可支援稱為 **DirectQuery** 的連線方法。 如需 DirectQuery 的詳細資訊，請參閱 [ **Power BI 中的 DirectQuery**](desktop-directquery-about.md)。
@@ -23,6 +23,7 @@ ms.locfileid: "39280631"
 下列資料來源在 Power BI 中支援 DirectQuery：
 
 * Amazon Redshift
+* Azure Databricks
 * Azure HDInsight Spark (Beta)
 * Azure SQL Database
 * Azure SQL 資料倉儲
@@ -39,7 +40,7 @@ ms.locfileid: "39280631"
 * Teradata 資料庫
 * Vertica (搶鮮版 (Beta))
 
-名稱後面有 **(Beta)** 或 **(預覽)** 的資料來源可能會變更，不支援用於實際執行環境。 將報告發佈至 **Power BI 服務** 之後可能也不支援這些資料來源，這表示開啟已發佈的報表或瀏覽資料集可能會導致錯誤。
+名稱後面有**搶鮮版 (Beta)** 或 **(預覽)** 的資料來源可能會變更，不支援用於生產環境。 將報告發佈至 **Power BI 服務** 之後可能也不支援這些資料來源，這表示開啟已發佈的報表或瀏覽資料集可能會導致錯誤。
 
 **(Beta)** 和 **(預覽)** 資料來源唯一的差別是 **(預覽)** 來源必須先啟用成為預覽功能，才可供使用。 若要啟用 **(預覽)** 資料連接器，請在 **Power BI Desktop** 中移至 [檔案] > [選項及設定] > [設定]，然後選取 [預覽功能]。
 
