@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 20bdd4731cd4aad3c6412d1959de3be088a3457a
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280125"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151944"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的磚
 適用於︰
@@ -28,10 +28,6 @@ ms.locfileid: "39280125"
 接著在 Power BI 行動裝置應用程式 中，以焦點模式開啟磚，並與之互動。 您可以開啟含有各類視覺效果的磚，包括以 Bing 和 R 為基礎的磚。
 
 ## <a name="tiles-in-the-ios-apps"></a>iOS 應用程式中的磚
-> [!NOTE]
-> 您可以[使用 iPhone 應用程式建立圖片磚](mobile-iphone-app-get-started.md)，並將其儲存至您的儀表板。
-> 
-> 
 
 1. 開啟 [iOS 行動裝置應用程式中的儀表板](mobile-apps-view-dashboard.md)。
 2. 點選圖格。 它會在焦點模式中開啟，更容易檢視及瀏覽圖格資料。 在焦點模式中，您可以︰
@@ -40,7 +36,7 @@ ms.locfileid: "39280125"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   <em>例如，此折線圖中選取的是 [本年度銷售額] 和 [去年銷售額] 在 [八月] 的值。*  
+   *例如，此折線圖中選取的是**本年度銷售額**和**去年銷售額**在**八月份**的值。*  
    
    在圓形圖中，點選圓形的配量可在圓形圖上方顯示配量的值。  
    
@@ -107,7 +103,7 @@ ms.locfileid: "39280125"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   <em>在此橫條圖中，[裝飾項目] 列的值會顯示在圖表上方。*
+   *在此橫條圖中，[裝飾項目] 列的值會顯示在圖表上方。*
    
    點選 [全螢幕] 圖示 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) 在全螢幕模式中開啟磚，此時不會有導覽和功能表列。
    
