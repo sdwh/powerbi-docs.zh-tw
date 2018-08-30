@@ -76,7 +76,7 @@ ms.locfileid: "34244448"
 ![](media/service-connect-to-insightly/findapi.png)
 
 ## <a name="troubleshooting"></a>疑難排解
-您的資料會透過 Insightly API 匯入，其中包含以 Insightly 訂閱方案層級為基礎的每日限制。 這些限制列於 API 文件的＜速率限制/節流要求＞一節：https://api.insight.ly/v2.2/Help#!/Overview/Introduction#ratelimit
+您的資料會透過 Insightly API 匯入，其中包含以 Insightly 訂閱方案層級為基礎的每日限制。 這些限制列於 API 文件的＜速率限制/節流要求＞一節： https://api.insight.ly/v2.2/Help#!/Overview/Introduction#ratelimit
 
 提供的報表會使用 Insightly 的預設欄位，可能不含自訂項目。 編輯報表以檢視所有可用欄位。
 

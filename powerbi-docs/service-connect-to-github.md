@@ -93,7 +93,7 @@ ms.locfileid: "37137276"
 如有必要，您可以確認您的 GitHub 認證。  
 
 1. 在另一個瀏覽器視窗中，移至 GitHub 網站並登入 GitHub。 在 GitHub 網站右上角，可以看到您已登入。    
-2. 在 GitHub 中瀏覽至您計劃要在 Power BI 中存取之儲存機制的 URL。 例如：https://github.com/dotnet/corefx。  
+2. 在 GitHub 中瀏覽至您計劃要在 Power BI 中存取之儲存機制的 URL。 例如： https://github.com/dotnet/corefx。  
 3. 回到 Power BI，嘗試連接至 GitHub。 在 [設定 GitHub] 對話方塊中，請使用相同儲存機制的儲存機制名稱和儲存機制擁有者名稱。  
 
 ## <a name="next-steps"></a>後續步驟
