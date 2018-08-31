@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: f56e05e51090f37fdb0bcd295ec877ee73b5dac0
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: dc29336754be008b541f146fff7c5f8609472cd0
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "40257934"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42702998"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>使用 Office Online Server (OOS) 設定報表伺服器來裝載 Excel 活頁簿
 
@@ -37,7 +37,7 @@ ms.locfileid: "40257934"
     ```
 
     **Windows Server 2016：**
-   
+
     ```
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
@@ -57,9 +57,9 @@ ms.locfileid: "40257934"
 1. 從 [Volume Licensing Service Center (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) 下載 Office Online Server。 下載位於 VLSC 入口網站的這些 Office 產品下方。 基於開發目的，您可以從 MSDN 訂閱者下載中下載 OOS。
 2. 執行 Setup.exe。
 3. 在 [閱讀 Microsoft 軟體授權條款] 頁面上，選取 [我接受這份合約]，然後選取 [繼續]。
-4. 在 [選擇檔案位置] 頁面上，選取您要安裝 Office Online Server 檔案的資料夾 (例如 *C:\Program Files\Microsoft Office Web Apps*)，然後選取 [立即安裝]。 如果您指定的資料夾不存在，則安裝程式會建立它。
+4. 在 [選擇檔案位置] 頁面上，選取您要安裝 Office Online Server 檔案的資料夾 (例如 C:\Program Files\Microsoft Office Web Apps*)，然後選取 [立即安裝]。 如果您指定的資料夾不存在，則安裝程式會建立它。
 
-    **_建議您在系統磁碟機上安裝 Office Online Server。_**
+    建議您在系統磁碟機上安裝 Office Online Server。
 
 5. 安裝程式完成安裝 Office Online Server 時，請選取 [關閉]。
 
