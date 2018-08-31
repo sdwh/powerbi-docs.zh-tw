@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
-ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
+ms.openlocfilehash: cde28e7c41a35c3bbc37d0da56313ad7f8698110
+ms.sourcegitcommit: 15b877343540bb7e21f1d5bbd3d6f64e66fa138c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "40257211"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42914511"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>在 Power BI 中建立新的工作區 (預覽)
 
@@ -29,12 +29,13 @@ Power BI 正在引進新的工作區體驗作為預覽。 工作區仍然是與�
 - 在 Power BI 中建立工作區，而不建立 Office 365 群組。
 - 使用更精細的工作區角色，在工作區中進行更有彈性的權限管理。
  
-當您建立其中一個新工作區時，不會建立基礎的相關聯 Office 365 群組。 所有工作區管理都是在 Power BI 中進行，而不是 Office 365。 您仍然可以將 Office 365 群組新增至工作區，繼續透過 Office 365 群組管理使用者對內容的存取權。 不過，您可以在 Power BI　內另外使用安全性群組、通訊群組清單，以及直接新增個人，讓您能夠彈性地管理工作區存取權
+當您建立其中一個新工作區時，不會建立基礎的相關聯 Office 365 群組。 所有工作區管理都是在 Power BI 中進行，而不是 Office 365。 您仍然可以將 Office 365 群組新增至工作區，繼續透過 Office 365 群組管理使用者對內容的存取權。 不過，您可以額外使用安全性群組、通訊群組清單，並直接在 Power BI 內新增個人，這樣提供一種彈性的方式讓您管理工作區存取。 因為工作區系統管理員現在在 Power BI 中，Power BI 系統管理員會決定組織中的誰可以建立工作區。 如需詳細資訊，請參閱 [Power BI 系統管理入口網站一文的工作區一節](service-admin-portal.md#workspace-settings)。 
 
 請在新的工作區中，將使用者群組或個人新增為成員、參與者或系統管理員。 使用者群組中的每個人都會取得您已定義的角色。 如果個人在多個使用者群組中，他們會取得角色所提供的最高層級權限。  如需不同角色的說明，請參閱本文稍後的[新工作區中的角色](#roles-in-the-new-workspaces)。
 
 新增至應用程式工作區的每個人都必須有 Power BI Pro 授權。 在工作區中，這些使用者皆可在儀表板和報表上共同作業，以準備發佈給更多對象，甚至整個組織。 如果您想要將內容散發給組織內的其他人，則可以將 Power BI Pro 授權指派給這些使用者，或將工作區置於 Power BI Premium 容量中。
-因為這是一項預覽功能，所以您應該要注意一些限制。 請參閱 <section link> 本文稍後以取得目前限制的說明。 我們使用新的工作區重新設計了一些功能。 請參閱本文稍後的＜章節連結＞，以取得可預期為永久性變更以及預覽的說明。
+
+我們使用新的工作區重新設計了一些功能。 請參閱本文稍後的[運作方式不同的應用程式工作區功能](#app-workspace-features-that-work-differently)，以取得可預期為永久性變更以及預覽的說明。 因為這是一項預覽功能，所以您應該要注意一些限制。 請參閱本文稍後的[已知問題](#known-issues)，以取得目前限制的說明。 
 
 ## <a name="roll-out-new-app-workspaces"></a>推出新的應用程式工作區
 
