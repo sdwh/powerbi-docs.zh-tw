@@ -2,30 +2,30 @@
 title: 關於 Power BI Embedded 的常見問題集
 description: 瀏覽 Power BI Embedded 相關的常見問題與回答清單。
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/22/2018
-ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.date: 08/21/2018
+ms.openlocfilehash: c1f9da598abee29a1d8eef0419fcb472f0a1467e
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39415384"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241514"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
 * 如果您有其他問題，請[嘗試詢問 Power BI 社群](http://community.powerbi.com/)。
-* 仍有問題嗎？ 請前往 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
+* 仍有問題嗎？ 瀏覽 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
 
 ## <a name="general"></a>一般
 
 ### <a name="what-is-power-bi-embedded"></a>什麼是 Power BI Embedded？
 
-Microsoft Power BI Embedded 可讓應用程式開發人員不必花費時間和金錢從頭開始建置自己的資料視覺效果及控制項，就能在應用程式中內嵌出色、完全互動式的報表、儀表板和磚。
+Microsoft Power BI Embedded (PBIE) 讓應用程式開發人員不必花費時間和金錢從頭開始建置自己的資料視覺效果及控制項，就能在應用程式中內嵌出色、完全互動式的報表。
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Power BI Embedded 的目標對象是誰？
 
@@ -70,7 +70,7 @@ Power BI Embedded 是一組可供開發人員用來在平台即服務供應項�
 | 在 Embedded 應用程式中取用 Power BI 報表 | 是 | 是 | 是 |
 | 在 SharePoint 中取用 Power BI 報表 | 否 | 是 | 是 |
 | 在 Dynamics 中取用 Power BI 報表 | 否 | 是 | 是 |
-| 在 Teams 中取用 Power BI 報表 | 否 | 是 | 是 |
+| 在 Teams 中取用 Power BI 報表 (行動裝置應用程式除外) | 否 | 是 | 是 |
 | 使用 Powerbi.com 和 Power BI 行動版中的免費 Power BI 授權存取內容 | 否 | 否 | 是 |
 | 使用內嵌在 MS Office 應用程式中的免費 Power BI 授權存取內容 | 否 | 是 | 是 |
 
@@ -78,13 +78,13 @@ Power BI Embedded 是一組可供開發人員用來在平台即服務供應項�
 
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
-|購買     |Azure 入口網站 |Office |Office |
-|使用案例 |* 在自己的應用程式內嵌內容 |* 在自己的應用程式內嵌內容<br>* 將內容內嵌在其他 MS Office 應用程式中 ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* 在自己的應用程式內嵌內容<br>* 將內容內嵌在其他 MS Office 應用程式中 ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)、[Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* 透過 [Power BI 服務](https://powerbi.microsoft.com/en-us/)與 Power BI 使用者共用內容  |
+|購買  |Azure 入口網站 |Office |Office |
+|使用案例 | 在您自己的應用程式中內嵌內容 | <li> 在您自己的應用程式中內嵌內容 <br><br></br> <li> 在 MS Office 應用程式中內嵌內容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (行動裝置應用程式除外)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 在您自己的應用程式中內嵌內容 <br><br></br> <li> 在 MS Office 應用程式中內嵌內容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (行動裝置應用程式除外)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> 透過 [Power BI 服務](https://powerbi.microsoft.com/en-us/)與 Power BI 使用者共用內容  |
 |帳單 |每小時 |每月 |每月 |
 |承諾用量  |無承諾用量 |每年  |每月/每年 |
-|差異 |完整彈性 - 可以在 Azure 入口網站中，或透過 API 相應增加/減少、暫停/繼續資源  |可用於在 SharePoint Online 和 Microsoft Teams 內嵌內容 |在相同容量中結合應用程式內嵌及使用 Power BI 服務 |
+|差異 |完整彈性 - 可以在 Azure 入口網站中，或透過 API 相應增加/減少、暫停/繼續資源  |可用於在 SharePoint Online 與 Microsoft Teams 中內嵌內容 (行動裝置應用程式除外) |在相同容量中結合應用程式內嵌及使用 Power BI 服務 |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>在 Azure 中建立 PBIE 容量的必要條件為何？
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>在 Azure 中建立 PBIE 容量的必要條件為何？ 
 
 * 您必須登入您組織的目錄 (不支援 MSA 帳戶)。
 * 您須有 Power BI 租用戶，也就是您目錄中至少須有一位使用者已註冊 Power BI。 
@@ -126,14 +126,14 @@ Power BI 需要您使用組織帳戶註冊。 不支援使用 MSA (Microsoft 帳
 
 ### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>我可以使用 API 來建立和管理 Azure 容量嗎？
 
-是，您可以使用 Powershell Cmdlet 和 ARM API 來建立和管理 PBIE 資源。
+是，您可以使用 Powershell Cmdlet 和 Azure Resource Manager (ARM) 來建立及管理 PBIE 資源。
 
 * Rest API - https://docs.microsoft.com/rest/api/power-bi-embedded/
 * Powershell Cmdlet - https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解決方案中的 PBI Embedded 專用容量角色是什麼？
 
-若要[將您的解決方案升階到生產環境](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)，您需要 Power BI 內容 (您在應用程式中使用之要指派給專用容量的應用程式工作區)。
+若要[將您的解決方案升階到生產環境](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)，您需要 Power BI 內容 (您在應用程式中使用且要指派給 Power BI Embedded (A SKU) 容量的應用程式工作區)。
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>PBI Embedded 可用的 Azure 區域是什麼？
 
@@ -162,7 +162,7 @@ Power BI Embedded 會繼續使用 Azure AD 進行主使用者 (指定的 Power B
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>我的應用程式已使用 AAD 來驗證使用者。 在「使用者擁有資料」情節中，驗證到 Power BI 時，如何使用此身分識別？ 
 
-它是標準 OAuth 代理流程 (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) 應用程式需要設定成要求 PowerBI 服務的權限 (具有所需範圍)，而且在您擁有應用程式的使用者權杖之後，只需要使用使用者存取權杖來呼叫 ADAL API AcquireTokenAsync，並將 PowerBI 資源 URL 指定為資源識別碼，請參閱以下顯示如何執行這項作業的的程式碼片段：
+它是標準 OAuth 代理流程 (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) 應用程式需要設定成要求 Power BI 服務的權限 (具有所需範圍)，而且在您擁有應用程式的使用者權杖之後，只需要使用使用者存取權杖來呼叫 ADAL API AcquireTokenAsync，並將 Power BI 資源 URL 指定為資源識別碼，請參閱以下顯示如何執行此作業的的程式碼片段：
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -239,7 +239,7 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 
 ### <a name="what-is-power-bi-workspace-collection"></a>什麼是 Power BI 工作區集合？
 
-**Power BI 工作區集合** (**Power BI Embedded** 第 1 版) 是一個以 **Power BI 工作區集合** Azure 資源為基礎的解決方案。 此解決方案可讓您藉由使用「Power BI 工作區集合」解決方案底下的 Power BI 內容、專用 API 及工作區集合金鑰來向 Power BI 驗證應用程式，為客戶建立 **Power BI Embedded** 應用程式。
+**Power BI 工作區集合** (**Power BI Embedded** 第 1 版) 是一個以 **Power BI 工作區集合** Azure 資源為基礎的解決方案。 此解決方案可讓您透過使用「Power BI 工作區集合」解決方案底下的 Power BI 內容、專用 API 與工作區集合金鑰來向 Power BI 驗證應用程式，為客戶建立 **Power BI Embedded** 應用程式。
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>我是否可以從「Power BI 工作區集合」移轉至 Power BI Embedded？
 
@@ -273,7 +273,7 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 
 一些功能包括：
 * 與使用「Power BI 工作區集合」只支援 2 種資料來源相比，可支援所有 PBI 資料來源。 
-* 問與答、重新整理、書籤、儀表板與圖格內嵌、自訂功能表等新功能只有在 **Power BI Embedded** 解決方案中才有支援。
+* 問與答、重新整理、書籤、內嵌儀表板與圖格以及自訂功能表等新功能只有在 **Power BI Embedded** 解決方案中才有支援。
 * 容量計費模型。
 
 ## <a name="onboarding-experience-tool-for-embedding"></a>內嵌的上線體驗工具

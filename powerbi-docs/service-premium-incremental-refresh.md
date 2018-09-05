@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/30/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b6a3c35abeff33e2fb1e0fecdc5c2a5c88e1530
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: fd62e90d4a4f348ee7b3a524f85725d517180068
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34298174"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300130"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium 中的累加式重新整理
 
@@ -43,6 +43,12 @@ ms.locfileid: "34298174"
 
 若要利用 Power BI 服務中的累加式重新整理，需要搭配使用 Power Query 日期/時間參數與保留且區分大小寫名稱 **RangeStart** 和 **RangeEnd** 來完成篩選。
 
+發佈之後，Power BI 服務會自動覆寫參數值。 不需要在服務中的資料集設定中進行設定。
+ 
+針對重新整理作業提交查詢時，務必將篩選推送到來源系統。 這表示資料來源應該支援查詢摺疊 (query folding) 功能。 每個資料來源都有不同的查詢摺疊層級，因此建議您確認篩選邏輯已包含在來源查詢中。 若未這樣做，每個查詢都會要求來自來源的所有資料，這違反累加式重新整理的目標。
+ 
+篩選將用於在 Power BI 服務中把資料分割成不同範圍。 它並非設計來支援更新這個已篩選的日期資料行。 更新將被解譯為插入及刪除 (非更新)。 若刪除發生在歷史範圍而非累加式範圍中，系統就不會揀選它。
+
 在 Power Query 編輯器中，選取 [管理參數] 定義具有預設值的參數。
 
 ![管理參數](media/service-premium-incremental-refresh/manage-parameters.png)
@@ -61,9 +67,6 @@ ms.locfileid: "34298174"
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
 從 Power Query 編輯器中，選取 [Close and Apply] \(關閉並套用\)。 您在 Power BI Desktop 中應該有資料集的子集。
-
-> [!NOTE]
-> 發佈之後，Power BI 服務會自動覆寫參數值。 不需要在資料集設定中進行設定。
 
 ### <a name="define-the-refresh-policy"></a>定義重新整理原則
 
@@ -102,9 +105,11 @@ Power BI 服務中的第一次重新整理可能需要較長的時間才能匯�
 
 **您可能只需要這些範圍的定義，在此情況下，您可以直接前往下面的發佈步驟。其他下拉式清單是針對進階功能。**
 
+### <a name="advanced-policy-options"></a>進階原則選項
+
 #### <a name="detect-data-changes"></a>偵測資料變更
 
-10 天的累加式重新整理當然會比 5 年的完整重新整理更具效率。 不過，我們甚至可以更具效率。 如果您選取 [偵測資料變更] 核取方塊，則可以選取用來找出並僅重新整理資料已變更之日期的日期/時間資料行。 這假設這類資料行存在於來源系統中，這通常用於稽核用途。 會評估此資料行在累加式範圍之每個週期的最大值。 如果自上次重新整理後尚未進行變更，則不需要重新整理週期。 在範例中，這可能會進一步將累加式重新整理天數從 10 天減少為可能為 2 天。
+10 天的累加式重新整理當然會比 5 年的完整重新整理更具效率。 不過，我們甚至可以更具效率。 如果您選取 [偵測資料變更] 核取方塊，則可以選取用來找出並僅重新整理資料已變更之日期的日期/時間資料行。 這假設這類資料行存在於來源系統中，這通常用於稽核用途。 **這不應該與使用 RangeStart/RangeEnd 參數來分割資料的資料行相同。** 會評估此資料行在累加式範圍之每個週期的最大值。 如果自上次重新整理後尚未進行變更，則不需要重新整理週期。 在範例中，這可能會進一步將累加式重新整理天數從 10 天減少為可能為 2 天。
 
 ![偵測變更](media/service-premium-incremental-refresh/detect-changes.png)
 

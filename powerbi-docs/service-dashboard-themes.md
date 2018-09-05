@@ -2,20 +2,20 @@
 title: 在 Power BI 服務中使用儀表板
 description: 了解如何在 Power BI 服務中使用自訂調色盤，並將其套用到整個儀表板
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 08/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 25bd28db7b31921d5f1a02ae72cee47207134f2a
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944644"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241468"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>在 Power BI 服務中使用儀表板佈景主題
 透過**儀表板主題**，您可以將某個色彩佈景主題套用到整個儀表板，例如公司色彩、季節性色彩，或是您可能想要套用的任何其他色彩佈景主題。 當您套用 [儀表板主題] 時，儀表板中的所有視覺效果都會使用您選擇的佈景主題色彩 (但有些例外，本文稍後會加以說明)。
@@ -46,7 +46,7 @@ Power BI 儀表板的預設佈景主題是 [淺色]。 如果您想要自訂色�
 
 ![從下拉式清單中選取 [自訂]](media/service-dashboard-themes/power-bi-theme-custom.png)
 
-使用自訂選項建立自己的儀表板佈景主題。 若要新增背景影像，建議您使用解析度至少有 1920x1080 的影像。  
+使用自訂選項建立自己的儀表板佈景主題。 若要新增背景影像，建議您使用解析度至少有 1920x1080 的影像。 若要使用影像做為背景，請將影像上傳到公開網站並複製 URL，然後將它貼到 [影像 URL] 欄位中。 
 
 ### <a name="using-json-themes"></a>使用 JSON 佈景主題
 另一個建立自訂佈景主題的方法是上傳 JSON 檔案，其中有您要用於儀表板的所有色彩設定。 在 Power BI Desktop 中，報表建立者會使用 JSON 檔案來[建立報表佈景主題](desktop-report-themes.md)。 同一批的 JSON 檔案可以為儀表板上傳，您也可以從 Power BI 社群的[佈景主題資源庫](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery)頁面找到並上傳 JSON 檔案 

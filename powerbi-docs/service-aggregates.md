@@ -2,20 +2,20 @@
 title: 視覺效果中的彙總 (加總、平均、最大值等)
 description: 在 Power BI 中變更圖表的彙總 (加總、平均、最大值等)
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/04/2018
+ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 39adfd04118362fa706f0840daa5c2520d899b5e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d48f99c8415b7b347a504525b0c6539d1e90f4dd
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247588"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241537"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Power BI 視覺效果中的彙總
 ## <a name="what-is-an-aggregate"></a>什麼是彙總？
@@ -26,15 +26,15 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 首先，讓我們查看資料「類型」，因為資料類型會決定如何彙總它，以及是否可以彙總。
 
 ## <a name="types-of-data"></a>資料類型
-大部分的資料集有多個資料類型。 在最基本的層級，資料會是數值或不是數值。 數值資料可以使用總和、平均值、計數、最小值、變異數，以及更多方式來彙總。 即使是文字資料，通常稱為「類別目錄」資料，也可以彙總。 如果您嘗試彙總類別欄位 (藉由將它放在僅限數值的值區，例如**值**或**工具提示**，Power BI 將計算每個類別的出現次數，或計算每個類別的相異出現次數。 特殊類型的資料，例如日期，有自己的一些彙總選項：最早、最新、第一個和最後一個。 
+大部分的資料集有多個資料類型。 在最基本的層級，資料會是數值或不是數值。 數值資料可以使用總和、平均值、計數、最小值、變異數，以及更多方式來彙總。 即使是文字資料，通常稱為「類別目錄」資料，也可以彙總。 如果您嘗試彙總類別欄位 (透過將它放在僅限數值的貯體，例如**值**或**工具提示**)，Power BI 將計算每個類別的出現次數，或計算每個類別的相異出現次數。 特殊類型的資料 (例如日期) 有自己的一些彙總選項：最早、最新、第一個和最後一個。 
 
 在下列範例中：
-- [銷售單位] 和 [製造價格] 是包含數值資料的資料行
+- [銷售單位] 與 [製造價格] 是包含數值資料的資料行
 -  [業別]、[國家/地區]、[產品]、[月份] 和 [月份名稱] 包含類別目錄資料
 
    ![](media/service-aggregates/power-bi-aggregate-chart.png)
 
-在 Power BI 中建立視覺效果時，會對某個類別欄位彙總數值欄位 (預設值是「總和」)。  例如，「依產品的銷售單位」、「依月份的銷售單位」和「依業別的製造價格」。 有些數值欄位稱為**量值**。 可以輕鬆地在 Power BI 報表編輯器中識別量值 -- 量值會在 [欄位] 清單中顯示 ∑ 符號。 如需詳細資訊，請參閱[報表編輯器導覽](service-the-report-editor-take-a-tour.md)。
+在 Power BI 中建立視覺效果時，會對某個類別欄位彙總數值欄位 (預設值是「總和」)。  例如，「依產品的銷售單位」、「依月份的銷售單位」和「依業別的製造價格」。 有些數值欄位稱為**量值**。 可以輕鬆地在 Power BI 報表編輯器中識別量值 -- 量值會在 [欄位] 清單中隨著 ∑ 符號顯示。 如需詳細資訊，請參閱[報表編輯器導覽](service-the-report-editor-take-a-tour.md)。
 
 ![](media/service-aggregates/power-bi-aggregate-fields.png)
 
@@ -45,7 +45,7 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 
 大多數情況下，問題的來源是資料集中的欄位定義方式。 欄位可能定義為文字，且其說明了它為何無法進行加總或平均。 不幸的是，[只有資料集擁有者可以變更欄位的分類方式](desktop-measures.md)。 因此如果您具有資料集的擁有者權限，不論是在 Desktop 或用來建立資料集的程式 (例如 Excel)，您便可以修正這個問題。 否則，您必須連絡資料集擁有者以取得協助。  
 
-為了協助您度過混淆，我們在本文結尾有專門的一節，稱為**考量與疑難排解**。  如果您在那裡找不到答案，請在 [Power BI 社群論壇](http://community.powerbi.com)提出您的問題，以便得到直接來自 Power BI 小組的快速回應。
+為了協助您度過混淆，我們在本文結尾有專門的一節，稱為＜考量與疑難排解＞。  如果您在那裡找不到答案，請在 [Power BI 社群論壇](http://community.powerbi.com)提出您的問題，以便得到直接來自 Power BI 小組的快速回應。
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>變更數值欄位的彙總方式
 假設您有加總不同產品銷售單位的圖表，但您比較想要平均值。 
@@ -78,7 +78,7 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 * **計數 (相異)。** 這會計算該欄位中不同值的數目。
 * **標準差。**
 * **變異數**。
-* **中位數**。  顯示中間值。 這是具有相同項目數以上或以下的值。  如果有 2 個中位數，Power BI 會取其平均值。
+* **中位數**。  顯示中間值。 這是具有相同項目數以上或以下的值。  如果有兩個中位數，Power BI 會取其平均值。
 
 例如，下列資料：
 
@@ -111,14 +111,14 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 1. 在此範例中，我們已將 [產品] 欄位拖入 [值]。 [值] 通常用於數值欄位。 Power BI 會辨識這是一個文字欄位、將彙總設為 [不摘要]，並呈現單一資料行的資料表。
    
    ![](media/service-aggregates/power-bi-aggregate-value.png)
-2. 如果將彙總從預設的 [不摘要] 變更為 [計數 (相異)] ，Power BI 就會計算不同產品的數目。 在本案例中有 4 個。
+2. 如果將彙總從預設的 [不摘要] 變更為 [計數 (相異)] ，Power BI 就會計算不同產品的數目。 在此案例中有 4 個。
    
    ![](media/service-aggregates/power-bi-aggregates-count.png)
-3. 如果將彙總變更為 [計數]，Power BI 就會計算總數。 在本案例中，[產品] 有 7 個項目。 
+3. 如果將彙總變更為 [計數]，Power BI 就會計算總數。 在此案例中，[產品] 有 7 個項目。 
    
    ![](media/service-aggregates/power-bi-aggregate-count2.png)
 
-4. 藉由將相同的欄位 (在本案例為 [產品]) 拖入 [值]，並維持預設彙總 [不摘要]，Power BI 會依產品細分計數。
+4. 透過將相同的欄位 (在此案例為 [產品]) 拖入 [值]，並維持預設彙總 [不摘要]，Power BI 會依產品細分計數。
 
    ![](media/service-aggregates/power-bi-aggregate-final.png)
 
@@ -139,6 +139,10 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 
 >[!NOTE]
 >此規則的例外狀況是散佈圖，「需要」彙總 X 軸和 Y 軸的值。
+
+問：為何我無法針對 SSAS 資料來源彙總文字欄位？
+
+答：與 SSAS MD 的即時連線不允許任何用戶端彙總。 這包括 first、last、avg、min、max 與 sum。
 
 問︰我有散佈圖，而且我希望我的欄位「不要」彙總。  要怎麼做？
 

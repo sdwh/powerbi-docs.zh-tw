@@ -2,20 +2,20 @@
 title: Power BI 服務中的儀表板磚
 description: Power BI 中儀表板磚的所有相關資訊。 這包括從 SQL Server Reporting Services (SSRS) 建立的磚。
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249060"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241583"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 的儀表板圖格
 儀表板和儀表板磚是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 雖然無法在 Power BI 行動裝置中建立或釘選儀表板磚，但可以進行[檢視及共用](mobile-tiles-in-the-mobile-apps.md)。 而且，在 Power BI 行動裝置中，您可以[使用 iPhone 應用程式將圖片新增至儀表板](mobile-iphone-app-get-started.md)。
@@ -67,9 +67,9 @@ ms.locfileid: "34249060"
    
    * [開啟用於建立此磚的工作表](service-reports.md) ![工作表圖示](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [以焦點模式檢視](service-focus-mode.md) ![焦點圖示](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+    * [以焦點模式檢視](service-focus-mode.md) ![焦點圖示](media/service-dashboard-tiles/fullscreen-icon.jpg)  
      * [匯出磚中所使用的資料](power-bi-visualization-export-data.md) ![匯出資料圖示](media/service-dashboard-tiles/export-icon.png)
-     * [編輯標題與副標題、新增超連結、顯示上次重新整理時間](service-dashboard-edit-tile.md) ![編輯圖示](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [編輯標題和副標題、加入超連](service-dashboard-edit-tile.md) ![編輯圖示](media/service-dashboard-tiles/pencil-icon.jpg)
      * [執行深入解析](service-insights.md) ![深入解析圖示](media/service-dashboard-tiles/power-bi-insights.png)
      * [將磚釘選到另一個儀表板 ](service-pin-tile-to-another-dashboard.md)
        ![釘選圖示](media/service-dashboard-tiles/pin-icon.jpg)

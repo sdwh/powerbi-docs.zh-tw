@@ -10,12 +10,12 @@ ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: 222a6368bc717880fee4f6ce6958455959b491bd
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360143"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300038"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 入口網站中建立 Power BI Embedded 容量
 
@@ -54,7 +54,7 @@ ms.locfileid: "39360143"
     |**訂用帳戶**|您要用來建立容量的訂用帳戶。|
     |**資源群組**|包含此新容量的資源群組。 從現有的資源群組中挑選，或建立另一個。 如需詳細資訊，請參閱 [Azure Resource Manager 概觀](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)。|
     |**Power BI 容量管理員**|Power BI 容量管理員可以在 Power BI 管理入口網站中檢視容量，並將指派權限授與其他使用者。 根據預設，容量管理員是您的帳戶。 容量管理員必須在您的 Power BI 租用戶中。|
-    |**位置**|Power BI 在您租用戶中裝載的位置。 這項設定會自動解析，而且無法選取其他位置。|
+    |**位置**|Power BI 在您租用戶中裝載的位置。 您的預設位置是您的主區域，但您可以使用 [多地理位置選項](embedded-multi-geo.md)來變更該位置。
     |**定價層**|選取符合您需求的 SKU (V 核心計數和記憶體大小)。  如需詳細資訊，請參閱 [Power BI Embedded 定價](https://azure.microsoft.com/pricing/details/power-bi-embedded/)|
 
 6. 選取 [建立]。
