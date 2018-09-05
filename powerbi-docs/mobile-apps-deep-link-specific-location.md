@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: e1df06c07f767936d861788c89205bce20cd5582
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39615997"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695125"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>建立 Power BI 行動裝置應用程式中的特定位置連結
 您可以建立和使用統一資源識別項 (URI)，以連結至所有行動平台 (iOS、Android 裝置和 Windows 10) 上之 Power BI 行動裝置應用程式內的特定位置 (「深層連結」)。
@@ -68,7 +68,7 @@ mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60
 
 若要尋找 36 個字元的報表物件識別碼，請巡覽至 Power BI 服務 (https://powerbi.com) 中的特定報表。 例如，查看此 URL 的強調顯示區段：
 
-https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
 
 ## <a name="open-to-a-specific-report-page"></a>開啟至特定報表頁面
 此 URI 會在 Power BI 行動裝置應用程式中，開啟特定報表頁面：
@@ -79,7 +79,7 @@ https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
 
 例如，查看此 URL 的強調顯示區段：
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**ReportSection11**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
 
 ## <a name="open-in-full-screen-mode"></a>以全螢幕模式開啟
 以粗體新增參數以在全螢幕模式中開啟特定的報表︰
@@ -95,7 +95,7 @@ mspbi://app/OpenReport?ReportObjectId=500217de-50f0-4af1-b345-b81027224033&openF
 
 例如，查看此 URL 的強調顯示區段： 
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**&context=SlackDeepLink**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
 
 ## <a name="next-steps"></a>後續步驟
 您的意見反應可協助我們決定要在未來實作的項目，因此別忘了對您想在 Power BI 行動應用程式中看到的其他功能進行投票。 
