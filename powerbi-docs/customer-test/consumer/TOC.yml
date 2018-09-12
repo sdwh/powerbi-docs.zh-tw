@@ -1,0 +1,197 @@
+items:
+- name: 適用於客戶的 Power BI
+  href: power-bi-consumer-overview.md
+- name: Web 上的 Power BI 服務
+  items:
+  - name: 概觀
+    items:
+    - name: Power BI 是什麼？
+      href: ../../service-basic-concepts.md
+  - name: 快速入門
+    items:
+    - name: 了解 Power BI
+      href: ../../service-the-new-power-bi-experience.md
+  - name: 概念
+    items:
+    - name: Power BI 服務的新功能
+      href: ../../service-whats-new.md
+    - name: 自助式註冊
+      href: ../../service-self-service-signup-for-power-bi.md
+    - name: 搜尋及排序內容
+      href: ../../service-navigation-search-filter-sort.md
+    - name: 相關內容
+      href: ../../service-related-content.md
+    - name: 最近的內容
+      href: ../../service-recent.md
+    - name: 加入宣告 Power BI 預覽功能
+      href: ../../service-preview-features.md
+    - name: Power BI 的儀表板
+      href: ../../service-dashboards.md
+    - name: Power BI 中的問與答
+      href: ../../power-bi-q-and-a.md
+    - name: Power BI 中的報表
+      href: ../../service-reports.md
+    - name: 適用於 Power BI 的 Cortana 簡介
+      href: ../../service-cortana-intro.md
+    - name: Power BI 的儀表板圖格
+      href: ../../service-dashboard-tiles.md
+    - name: 與我共用
+      href: ../../service-shared-with-me.md
+    - name: Power BI 的資料重新整理
+      href: ../../refresh-data.md
+    - name: 常見問題集
+      href: ../../service-frequently-asked-questions.md
+    - name: 美國政府適用的 Power BI
+      href: ../../service-govus-overview.md
+    - name: Power BI 免費版與 Pro 版的比較
+      href: ../../service-free-vs-pro.md
+    - name: 10 個祕訣協助您取得說明
+      href: ../../service-tips-for-finding-help.md
+    - name: 在 Power BI 報表中進行篩選和醒目提示的相關事項
+      href: ../../power-bi-reports-filters-and-highlighting.md
+  - name: 如何
+    items:
+    - name: 一般工作
+      items:
+      - name: Power BI 中我的最愛儀表板、報告與應用程式
+        href: ../../service-dashboard-favorite.md
+      - name: 以焦點模式顯示儀表板磚
+        href: ../../service-focus-mode.md
+      - name: 列印儀表板、列印儀表板磚、列印報表頁面
+        href: ../../service-print.md
+      - name: 重新命名 Power BI 中的內容
+        href: ../../service-rename.md
+      - name: 以全螢幕模式 (電視模式) 顯示儀表板和報表
+        href: ../../service-fullscreen-mode.md
+      - name: 移除 Power BI 中的內容
+        href: ../../service-delete.md
+      - name: 註冊您的美國政府組織
+        href: ../../service-govus-signup.md
+      - name: Power BI 服務中的資料警示
+        href: ../../service-set-data-alerts.md
+      - name: 透過 Power BI 中的問與答提出問題的秘訣和訣竅
+        href: ../../service-q-and-a-tips.md
+      - name: 使用儀表板和報表安裝並使用應用程式
+        href: ../../service-install-use-apps.md
+      - name: 尋找並連線到組織內容套件
+        href: ../../service-organizational-content-pack-find-and-open.md
+      - name: 開始使用 Power BI 問與答
+        href: ../../power-bi-visualization-introduction-to-q-and-a.md
+    - name: 儀表板
+      items:
+      - name: Power BI 中的精選儀表板
+        href: ../../service-dashboard-featured.md
+      - name: Power BI 整合通知中心
+        href: ../../service-notification-center.md
+      - name: 儀表板佈景主題
+        href: ../../service-dashboard-themes.md
+    - name: 報表
+      items:
+      - name: 以多種方式開啟報表
+        href: ../../service-report-open.md
+      - name: 變更 Power BI 報表中的圖表排序方式
+        href: ../../power-bi-report-change-sort.md
+      - name: 從視覺效果匯出資料
+        href: ../../power-bi-visualization-export-data.md
+      - name: 如何使用報表篩選
+        href: ../../power-bi-how-to-report-filter.md
+      - name: 訂閱報表或儀表板
+        href: ../../service-report-subscribe.md
+- name: Power BI 行動應用程式
+  items:
+  - name: 概觀
+    items:
+    - name: 什麼是行動裝置應用程式？
+      href: ../../mobile-apps-for-mobile-devices.md
+  - name: 快速入門
+    items:
+    - name: 探索儀表板和報表
+      href: ../../mobile-apps-quickstart-view-dashboard-report.md
+  - name: 教學課程
+    items:
+    - name: 在 iOS 行動裝置應用程式中詢問問題
+      href: ../../tutorial-mobile-apps-ios-qna.md
+  - name: 概念
+    items:
+    - name: 行動應用程式的新功能
+      href: ../../mobile-whats-new-in-the-mobile-apps.md
+    - name: 使用行動裝置應用程式取得實際的資料
+      href: ../../mobile-apps-data-in-real-world-context.md
+    - name: 在行動應用程式中離線檢視您的資料
+      href: ../../mobile-apps-offline-data.md
+    - name: Power BI for Mixed Reality 應用程式 (預覽)
+      href: ../../mobile-mixed-reality-app.md
+  - name: 如何
+    items:
+    - name: 所有行動裝置應用程式
+      items:
+      - name: 在行動應用程式中檢視內部部署報表
+        href: ../../mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      - name: 從 Power BI mobile apps 共用儀表板
+        href: ../../mobile-share-dashboard-from-the-mobile-apps.md
+      - name: 與行動裝置應用程式中的磚互動
+        href: ../../mobile-tiles-in-the-mobile-apps.md
+      - name: 行動應用程式中的我的最愛
+        href: ../../mobile-apps-favorites.md
+      - name: 在 Power BI 行動裝置應用程式中設定資料警示
+        href: ../../mobile-set-data-alerts-in-the-mobile-apps.md
+      - name: 取得 Power BI 行動裝置應用程式中的通知
+        href: ../../mobile-apps-notification-center.md
+      - name: 建立可前往特定位置的深層連結
+        href: ../../mobile-apps-deep-link-specific-location.md
+      - name: 在 Power BI 行動裝置應用程式依位置篩選報表
+        href: ../../mobile-apps-geographic-filtering.md
+      - name: 從手機掃描 Power BI QR 代碼
+        href: ../../mobile-apps-qr-code.md
+      - name: 行動 Power BI 的儀表板
+        href: ../../mobile-apps-view-dashboard.md
+      - name: 檢視為手機最佳化的報表
+        href: ../../mobile-apps-view-phone-report.md
+      - name: 行動應用程式中的報表
+        href: ../../mobile-reports-in-the-mobile-apps.md
+      - name: 使用 OAuth 連接至 Reporting Services
+        href: ../../mobile-oauth-ssrs.md
+      - name: 使用 Intune 設定行動應用程式
+        href: ../../service-admin-mobile-intune.md
+    - name: Android 裝置
+      items:
+      - name: 開始使用 Android 應用程式
+        href: ../../mobile-android-app-get-started.md
+      - name: 修正「您的公司 SSL 憑證不受信任」
+        href: ../../mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+      - name: 修正「需要更新 Android System Webview」
+        href: ../../mobile-android-error-update-android-system-webview.md
+    - name: iOS
+      items:
+      - name: 開始使用 iOS 應用程式
+        href: ../../mobile-iphone-app-get-started.md
+      - name: iOS 行動裝置應用程式的問與答虛擬分析師
+        href: ../../mobile-apps-ios-qna.md
+      - name: Power BI Apple Watch 應用程式
+        href: ../../mobile-apple-watch.md
+      - name: 從 iPhone 上的應用程式掃描條碼
+        href: ../../mobile-apps-scan-barcode-iphone.md
+    - name: iOS 與 Android
+      items:
+      - name: 在行動裝置應用程式中標註及共用
+        href: ../../mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+    - name: 適用於 Windows 10 裝置的 Power BI 應用程式
+      items:
+      - name: 開始使用 Windows 10 行動裝置應用程式
+        href: ../../mobile-windows-10-phone-app-get-started.md
+      - name: 將儀表板釘選到開始畫面
+        href: ../../mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+      - name: 在 Windows 10 應用程式上檢視 Reporting Services 行動報表及 KPI
+        href: ../../mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+      - name: 在 Surface Hub 上檢視 Power BI
+        href: ../../mobile-windows-10-app-presentation-mode.md
+  - name: 資源
+    items:
+    - name: 行動應用程式支援的語言
+      href: ../../mobile-apps-supported-languages.md
+ms.openlocfilehash: bf5934cb6de5ee7c1252fbd871c02589dd377d58
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343549"
