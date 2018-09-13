@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657866"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512056"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
@@ -53,6 +53,7 @@ ms.locfileid: "39657866"
 * XML
 * JSON
 * 資料夾
+* PDF (搶鮮版 (Beta))
 * SharePoint 資料夾
 
 下圖顯示 [檔案]  的 [取得資料] 視窗。
@@ -79,7 +80,8 @@ ms.locfileid: "39657866"
 * Impala
 * Google BigQuery
 * 雪花式
-* Exasol
+* Exasol (搶鮮版 (Beta))
+* Jethro (搶鮮版 (Beta))
 
 > [!NOTE]
 > 某些資料庫連接器的啟用方式為選取 **[檔案] > [選項和設定] > [選項]**，然後選取 [預覽功能] 並啟用該連接器。 如果您沒有看到上述連接器，但想要加以使用，請檢查您的 [預覽功能] 設定。 亦請注意，任何標示為 *Beta* 或「預覽」的資料來源，受到的支援和功能都有限制，不應該用在生產環境。
@@ -93,6 +95,7 @@ ms.locfileid: "39657866"
 [Power BI] 類別提供下列資料連線：
 
 * Power BI 資料集
+* Power BI 資料流程 (搶鮮版 (Beta))
 
 下圖顯示 [Power BI] 的 [取得資料] 視窗。
 
@@ -108,7 +111,7 @@ ms.locfileid: "39657866"
 * Azure Cosmos DB (搶鮮版 (Beta))
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
-* Azure HDInsight Spark (Beta)
+* Azure HDInsight Spark
 * HDInsight 互動式查詢搶鮮版 (Beta)
 * Azure KustoDB (搶鮮版 (Beta))
 
@@ -169,6 +172,7 @@ ms.locfileid: "39657866"
 * Hadoop 檔案 (HDFS)
 * Spark
 * R Script
+* Python 指令碼
 * ODBC
 * OLE DB
 * 空白查詢

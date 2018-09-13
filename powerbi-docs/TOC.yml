@@ -535,6 +535,8 @@ items:
     items:
     - name: 最新的 Power BI Desktop 中有什麼新功能？
       href: desktop-latest-update.md
+    - name: Power BI Desktop (預覽版) 中的彙總
+      href: desktop-aggregations.md
     - name: Power BI Desktop 中的複合模型 (預覽)
       href: desktop-composite-models.md
     - name: Power BI Desktop 中的多對多關聯性 (預覽)
@@ -601,6 +603,8 @@ items:
         href: desktop-import-excel-workbooks.md
       - name: 使用一般介面連線至資料
         href: desktop-connect-using-generic-interfaces.md
+      - name: 連線到 PDF 檔案
+        href: desktop-connect-pdf.md
       - name: 連線到 Adobe Analytics
         href: desktop-connect-adobe-analytics.md
       - name: 連接到 Oracle 資料庫
@@ -683,6 +687,8 @@ items:
       items:
       - name: 報表的視覺元素
         href: desktop-visual-elements-for-reports.md
+      - name: 建立報表頁面的工具提示
+        href: desktop-tooltips.md
       - name: 匯出成 PDF 及列印報表
         href: desktop-export-to-pdf.md
       - name: Power BI Desktop 中的問與答
@@ -1346,9 +1352,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Power BI for Office 365 已轉換為 Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: 55614628ef823534357fa7e1700e21417e821ca6
-ms.sourcegitcommit: 37bb070a71a658cba7ed421feef65015e8b515ae
+ms.openlocfilehash: 7058954c3269da6f3802454c439671989bdcb52e
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "43821723"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512194"
