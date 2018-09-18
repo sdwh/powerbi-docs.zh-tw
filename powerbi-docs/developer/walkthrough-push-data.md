@@ -2,26 +2,28 @@
 title: 將資料推送至資料集
 description: 將資料推送至 Power BI 資料集
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.author: maghan
-ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598541"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974176"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>將資料推送至 Power BI 資料集
+
 您可以使用 Power BI API 將資料推送至 Power BI 資料集。 例如，您會想要擴充現有商務工作流程，將關鍵資料推送至資料集。 在此情況下，您會想要將 Sales Marketing 資料集 (其中含 Product 資料表) 推送至資料集。
 
 開始將資料推送至資料集之前，您需要 Azure Active Directory (Azure AD) 和 [Power BI 帳戶](create-an-azure-active-directory-tenant.md)。
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>將資料推送至資料集的步驟
+
 * 步驟 1：[使用 Azure AD 註冊應用程式](walkthrough-push-data-register-app-with-azure-ad.md)
 * 步驟 2：[取得驗證存取權杖](walkthrough-push-data-get-token.md)
 * 步驟 3：[在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)
@@ -31,6 +33,7 @@ ms.locfileid: "37598541"
 下一節是有關資料推送的 Power BI API 作業的一般討論。
 
 ## <a name="power-bi-api-operations-to-push-data"></a>推送資料的 Power BI API 作業
+
 透過 Power BI REST API，您可以將資料來源推送至 Power BI。 當應用程式將資料列加入資料集時，儀表板上的磚會自動更新為更新的資料。 若要推送資料，您可使用 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 作業和 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 作業。 若要找出資料集，您可以使用[取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)作業。 針對任何一項作業，您可以傳遞群組識別碼來和群組合作。 使用[取得群組](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)作業，以取得群組識別碼清單。
 
 以下是將資料推送至資料集的作業：
@@ -108,13 +111,14 @@ ms.locfileid: "37598541"
 | 字串 |目前允許最多 12 萬 8 千個字元。 |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>深入了解如何將資料推送至 Power BI
+
 若要開始將資料推送至資料集，請參閱左側瀏覽窗格中的[步驟 1：使用 Azure AD 註冊應用程式](walkthrough-push-data-register-app-with-azure-ad.md)。
 
 [下一步 >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>後續步驟
+
 [註冊 Power BI](create-an-azure-active-directory-tenant.md)  
 [JSON 簡介](http://json.org/)  
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-
