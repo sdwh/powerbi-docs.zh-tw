@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 6f4e79746116d4a7add356a658ce12028b688dae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1d51a09094c6825570103ce3c0b51ebfe4b7d47f
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657912"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512079"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新的 Power BI Desktop 中有什麼新功能？
 
-## <a name="august-2018-update-2615192321"></a>2018 年 8 月更新 (2.61.5192.321)
+## <a name="september-2018-update-2625222582"></a>2018 年 9 月更新 (2.62.5222.582)
 
-我們的 8 月更新是絕無僅有的更新，緊接在 7 月重大發行之後快速推出。 希望這些更新對您而言就像是夏日海灘，輕踏一下就會發現這些更新再適當不過。 
+我們的 9 月更新如同置身於另人興奮的新教室，有很多東西要熟悉，還要根據以前的體驗建立新體驗，但卻比以前更成熟練達。 希望您覺得這些更新很有幫助，就像削尖的 2 號鉛筆。 
 
 您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您使用哪種方式安裝 **Power BI Desktop**，每月的版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
@@ -36,32 +36,31 @@ ms.locfileid: "39657912"
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
-### <a name="modeling"></a>建立模型
-
-* 量值的資料類別  [[影片]](https://youtu.be/dgv5HhHxxe8?t=15m27s)  [[文章]](desktop-measures.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dataCategory)
-* 統計 DAX 函數  [[影片]](https://youtu.be/dgv5HhHxxe8?t=18m56s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dax)
-
-
 ### <a name="reporting"></a>報告
 
-* 匯出至 PDF，並列印您的報表  [[影片]](https://youtu.be/dgv5HhHxxe8?t=12s)  [[文章]](desktop-export-to-pdf.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#print) 
-* 建立書籤群組 [[影片]](https://youtu.be/dgv5HhHxxe8?t=4m4s)  [[文章]](desktop-bookmarks.md#bookmark-groups)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#bookmarks) 
-* 主題正式推出 [[影片]](https://youtu.be/dgv5HhHxxe8?t=7m9s)   [[文章]](desktop-report-themes.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Theming) 
-* 交叉分析篩選器重新計算陳述式 [[影片]](https://youtu.be/dgv5HhHxxe8?t=22m53s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#slicer) 
+* 散佈圖的點圖版面配置支援 [[影片]](https://youtu.be/Rzw2WyI09kY?t=30s)  [[文章]](power-bi-visualization-scatter.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dotPlot) 
+* 複製資料表和矩陣視覺效果中的值和選項 [[影片]](https://youtu.be/Rzw2WyI09kY?t=2m33s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#copy) 
+* 內建報表佈景主題選項 [[影片]](https://youtu.be/Rzw2WyI09kY?t=6m2s)   [[文章]](desktop-report-themes.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* 報表頁面工具提示正式推出，新的卡片支援 [[影片]](https://youtu.be/Rzw2WyI09kY?t=8m10s)  [[文章]](desktop-tooltips.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* 針對分析和格式化窗格支援改善的協助工具 [[影片]](https://youtu.be/Rzw2WyI09kY?t=9m29s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#accessibility)
 
 ### <a name="analytics"></a>分析
 
-* 依值設定格式化的條件  [[影片]](https://youtu.be/dgv5HhHxxe8?t=7m54s)  [[文章]](desktop-conditional-table-formatting.md#color-formatting-by-field-value)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
-* Python 整合  [[影片]](https://youtu.be/dgv5HhHxxe8?t=11m14s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
-* 問與答改進  [[影片]](https://youtu.be/dgv5HhHxxe8?t=13m1s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
+* 彙總 (預覽) [[影片]](https://youtu.be/Rzw2WyI09kY?t=11m37s)  [[文章]](desktop-aggregations.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
 
 ### <a name="custom-visuals"></a>自訂視覺效果
 
-* 五個新的自訂視覺效果  [[影片]](https://youtu.be/dgv5HhHxxe8?t=19m48s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
+* 五個新的自訂視覺效果  [[影片]](https://youtu.be/Rzw2WyI09kY?t=23m8s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>資料連線
 
-* Spark 連接器正式推出  [[影片]](https://youtu.be/dgv5HhHxxe8?t=31m41s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#spark) 
+* PDF 檔案連接器 (預覽) [[影片]](https://youtu.be/Rzw2WyI09kY?t=29m26s)  [[文章]](desktop-connect-pdf.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* SAP BW 連接器 - 支援量值屬性 [[影片]](https://youtu.be/Rzw2WyI09kY?t=30m15s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#sapBW) 
+* 資料流程連接器 (搶鮮版 (Beta)) [[文章]](desktop-connect-dataflows.md)   [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dataflows) 
+
+### <a name="data-preparation"></a>資料準備
+* M Intellisense [[影片]](https://youtu.be/Rzw2WyI09kY?t=30m42s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* 從範例新增資料行 - 支援文字填補 [[影片]](https://youtu.be/Rzw2WyI09kY?t=32m27s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#addColumn) 
 
 
 > [!NOTE]
@@ -72,7 +71,7 @@ ms.locfileid: "39657912"
 
 下列影片將描述並示範這些更新。 您也可以從部落格文章觀賞這段影片。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dgv5HhHxxe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rzw2WyI09kY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
 > 您可能也會想要了解 [Power BI 服務的新功能](service-whats-new.md)，並請同時查閱 [Power BI 行動應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。

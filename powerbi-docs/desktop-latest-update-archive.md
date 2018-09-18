@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8c2ee97fb39fe115da78bad7bc5787a152dfd793
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 40eefccbce19c8d6f4441e30e037e6e421a8dd5c
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658142"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512240"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -34,11 +34,59 @@ ms.locfileid: "39658142"
 
 下列章節說明 **Power BI Desktop** 前幾個月的更新。
 
+## <a name="august-2018-update-2615192321"></a>2018 年 8 月更新 (2.61.5192.321)
+
+我們的 8 月更新是絕無僅有的更新，緊接在 7 月重大發行之後快速推出。 希望這些更新對您而言就像是夏日海灘，輕踏一下就會發現這些更新再適當不過。 
+
+以下是 8 月 **Power BI Desktop** 新增的更新：
+
+### <a name="modeling"></a>建立模型
+
+* 量值的資料類別  [[影片]](https://youtu.be/dgv5HhHxxe8?t=15m27s)  [[文章]](desktop-measures.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dataCategory)
+* 統計 DAX 函數  [[影片]](https://youtu.be/dgv5HhHxxe8?t=18m56s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dax)
+
+
+### <a name="reporting"></a>報告
+
+* 匯出至 PDF，並列印您的報表  [[影片]](https://youtu.be/dgv5HhHxxe8?t=12s)  [[文章]](desktop-export-to-pdf.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#print) 
+* 建立書籤群組 [[影片]](https://youtu.be/dgv5HhHxxe8?t=4m4s)  [[文章]](desktop-bookmarks.md#bookmark-groups)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#bookmarks) 
+* 主題正式推出 [[影片]](https://youtu.be/dgv5HhHxxe8?t=7m9s)   [[文章]](desktop-report-themes.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Theming) 
+* 交叉分析篩選器重新計算陳述式 [[影片]](https://youtu.be/dgv5HhHxxe8?t=22m53s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#slicer) 
+
+### <a name="analytics"></a>分析
+
+* 依值設定格式化的條件  [[影片]](https://youtu.be/dgv5HhHxxe8?t=7m54s)  [[文章]](desktop-conditional-table-formatting.md#color-formatting-by-field-value)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
+* Python 整合  [[影片]](https://youtu.be/dgv5HhHxxe8?t=11m14s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
+* 問與答改進  [[影片]](https://youtu.be/dgv5HhHxxe8?t=13m1s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
+
+### <a name="custom-visuals"></a>自訂視覺效果
+
+* 五個新的自訂視覺效果  [[影片]](https://youtu.be/dgv5HhHxxe8?t=19m48s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>資料連線
+
+* Spark 連接器正式推出  [[影片]](https://youtu.be/dgv5HhHxxe8?t=31m41s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#spark) 
+
+
+> [!NOTE]
+> 您也可以[查看 Power BI Desktop 的所有可用資料來源](desktop-data-sources.md)，我們的資料來源會持續增加，因此請經常回來查看。
+
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
+
+
+下列影片將描述並示範這些更新。 您也可以從部落格文章觀賞這段影片。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dgv5HhHxxe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+> [!NOTE]
+> 您可能也會想要了解 [Power BI 服務的新功能](service-whats-new.md)，並請同時查閱 [Power BI 行動應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。
+
+
 ## <a name="july-2018-update-26051693201"></a>2018 年 7 月更新 (2.60.5169.3201)
 
 7 月的大型更新本身就值得一場煙火秀，提供要求了一段時間的資料與報表功能，可讓您的視覺效果達到極致，同時伴隨著生動有趣的深入解析展現出來。
 
-7 月份的 **Power BI Desktop** 中新增下列更新：
+以下是 7 月 **Power BI Desktop** 新增的更新：
 
 ### <a name="modeling"></a>建立模型
 

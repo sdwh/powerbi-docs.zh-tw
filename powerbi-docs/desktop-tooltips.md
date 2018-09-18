@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280746"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512148"
 ---
-# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中根據報表頁面建立工具提示 (預覽)
+# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>在 Power BI Desktop 中根據報表頁面建立工具提示
 您可以建立視覺化的豐富**報表工具提示**，它們是您在 **Power BI Desktop** 中根據報表頁面所建立的，當您將滑鼠停留在視覺效果上時就會顯示。 透過建立作為工具提示的報表頁面，您的自訂工具提示可以包含視覺效果、影像和任何其他您在報表頁面中建立的項目集合。 
 
 ![Power BI Desktop 的報表工具提示](media/desktop-tooltips/desktop-tooltips_00a.png)
@@ -27,11 +27,15 @@ ms.locfileid: "39280746"
 您可以使用報表工具提示執行各式各樣有趣的作業。 讓我們看看如何建立工具提示，以及設定它們必須執行的作業。
 
 ### <a name="enable-the-tooltips-preview"></a>啟用工具提示預覽 
-因為報表工具提示目前為預覽，所以您要先啟用它們才可以建立報表工具提示。 若要啟用報表工具提示預覽功能，請選取 Power BI Desktop 的 [檔案] > [選項及設定] > [選項] > [預覽功能]，然後選取 [報表頁面工具提示] 旁的核取方塊。 
+從 2018 年 9 月版的 **Power BI Desktop** 開始，工具提示便正式推出，不需要啟用。 
+
+如果您使用舊版 **Power BI Desktop**，則可以在 Power BI Desktop 中選取 [檔案] > [選項及設定] > [選項] > [預覽功能] 將它啟用為預覽功能，然後選取 [報表頁面工具提示] 旁的核取方塊。 
 
 ![啟用報表工具提示的預覽功能](media/desktop-tooltips/desktop-tooltips_01.png)
 
 選取啟用報表工具提示預覽版後，您必須重新啟動 **Power BI Desktop**。
+
+一律建議升級為最新版本的 **Power BI Desktop**，您可以從[取得 Power BI Desktop](desktop-get-the-desktop.md) 中的連結取得。 
 
 ## <a name="create-a-report-tooltip-page"></a>建立報表工具提示頁面
 若要開始，請建立新的報表頁面，方法是按一下 **+** 按鈕，位在 **Power BI Desktop** 畫布底部的頁面索引標籤區域中。 此按鈕位於報表最後一頁的旁邊。 
@@ -117,8 +121,9 @@ ms.locfileid: "39280746"
 
 
 ## <a name="limitations-and-considerations"></a>限制與考量
-在此預覽版的報表**工具提示**中，有幾點限制和考量要留意。
+**工具提示**要留意幾點限制和考量。
 
+* 從 2018 年 9 月版的 **Power BI Desktop** 開始 (代表工具提示正式推出)，卡片視覺效果也支援工具提示。
 * 從 **Power BI Desktop** 的 2018 年 7 月版本開始，工具提示支援資料表和矩陣視覺效果。 
 * 以行動裝置應用程式或在內嵌環境中檢視報表時 (包括發行至 Web)，不支援報表工具提示。 
 * 自訂視覺效果不支援報表工具提示。 

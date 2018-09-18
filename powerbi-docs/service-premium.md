@@ -8,21 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2018
+ms.date: 09/11/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: f7024b3e4827201edb4137eb513333030e39059f
-ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
+ms.openlocfilehash: 87847575d4fff3d3530847246be5bc8f720b5141
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43250742"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512125"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium - 這是什麼？
 Power BI Premium 為您的組織或小組提供專門用來執行 Power BI 服務的資源。 它提供您更可靠的效能並啟用更大的資料磁碟區。 Premium 也可讓您廣泛發佈內容，不需要您為檢視者購買每個使用者授權。
 
-您可以將工作區指派至進階容量來利用 Power BI Premium。 「進階容量」是您的組織的專用資源。 未指派至進階容量的工作區會放在共用容量中。
-
-使用「共用容量」，您的工作負載可在其他客戶共用的計算資源上執行。 在共用容量中，為了確保所有使用者的體驗品質，個別使用者會受到較多限制。
+您可以將工作區指派至 *Premium 容量*來利用 Power BI Premium。 Premium 容量是您的組織專用資源。 未指派至 Premium 容量的工作區會放在「共用容量」中。 使用共用容量，您的工作負載可在其他客戶共用的計算資源上執行。 在共用容量中，為了確保所有使用者的體驗品質，個別使用者會受到較多限制。
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
@@ -42,18 +40,18 @@ Power BI 中有兩種容量。 共用容量和 Power BI Premium 容量。 以下
 | **在內部部署發佈 Power BI 報告** |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用") |
 
 *<sup>1</sup> 如需詳細資訊，請參閱[具有 Power BI Pro 和 Power BI Premium 的使用者功能](service-free-vs-pro.md)功能。*  
-*<sup>2</sup> Power BI Premium 的未來增強功能發佈 GA。*
+*<sup>2</sup> Power BI Premium 的未來增強功能。*
 
 ### <a name="premium-capacity"></a>進階容量
 
-若要開始使用 Power BI Premium 容量，您需要將工作區指派至容量。 如需有關如何將工作區指派至進階容量的詳細資訊，請參閱[管理 Power BI Premium](service-admin-premium-manage.md)。
+若要開始使用 Power BI Premium 容量，您需要將工作區指派至容量。 當 Premium 容量支援工作區時，您會：
 
-當工作區有進階容量作為後盾時，您就能享用 Power BI Premium 的好處。
+* **排程重新整理**：使用共用容量，匯入模型資料集的排程重新整理上限為每天 8 次。 Premium 工作區的資料集排程重新整理上限為每天 48 次。 已增加的排程重新整理不適用於 DirectQuery 的已排程快取重新整理設定，Premium 容量及共用容量之間仍然相同。
+* **使用專用的硬體隔離**：基於共用容量的本質，儘管我們已採取預防措施，容量中其他工作負載的資源需求還是可能影響報表和儀表板效能。 但是，Premium 會隔離您的工作負載和非相關工作負載，提供更一致又可靠的效能。
 
-* **排程重新整理**：使用共用容量，匯入模型的排程重新整理上限為每天 8 次。 針對 Premium 工作區中的資料集，重新整理次數增加至每天 48 次。 這不適用於 DirectQuery 的排程快取重新整理設定。 這些在 Premium 容量和共用容量之間仍然相同。
-* **使用專用的硬體隔離**：基於共用容量的本質，儘管我們已採取預防措施，容量中其他工作負載的資源需求還是可能影響報表和儀表板的效能。 相反地，Premium 會隔離您的工作負載和不相關的工作負載，提供更一致又可靠的效能。
+如果應用程式有 Premium 容量作為後盾 (也就是，從目前已指派至 Premium 的應用程式工作區發佈)，則組織中的任何使用者都可以使用已發佈應用程式，而不論已指派給他們的授權。
 
-如果應用程式有進階容量作為後盾 (也就是，從目前已指派至 Premium 的應用程式工作區發佈)，則組織中的任何使用者都可以使用已發佈的應用程式，而不論已指派給他們的授權。
+若要深入了解將工作區指派給 Premium 容量，請參閱[管理 Power BI Premium](service-admin-premium-manage.md)。
 
 ### <a name="shared-capacity"></a>共用容量
 
@@ -84,7 +82,7 @@ Power BI Premium 適用於有不同 v 核心容量的節點設定。 如需特�
 * 後端 V 核心承擔重任：查詢處理、快取管理、執行 R 伺服器、資料重新整理、自然語言處理、即時摘要，以及在伺服器端轉譯報表和影像。 為了配合後端 V 核心，也會保留一定數量的記憶體。 在處理大型資料模型，或大量的使用中資料集時，有足夠的記憶體就變得特別重要。
 
 ## <a name="power-bi-report-server"></a>Power BI 報表伺服器
-Power BI Premium 包含在內部部署執行 Power BI 報表伺服器的權限。 如需詳細資訊，請參閱[開始使用 Power BI 報表伺服器](report-server/get-started.md)。
+Power BI Premium 也包含能夠執行組織內部部署的 Power BI 報表伺服器。 若要深入了解，請參閱[開始使用 Power BI 報表伺服器](report-server/get-started.md)。
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI Premium 常見問題集](service-premium-faq.md)  
