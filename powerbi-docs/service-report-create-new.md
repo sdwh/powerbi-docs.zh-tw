@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 872045a52f2f13829d26de8dd288ac723dcd2788
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a27a7ec72b1e85b7e1dc6caa5773a14a089e378d
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599520"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726401"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>匯入資料集以在 Power BI 服務中建立新的報表
 您已閱讀 [Power BI 中的報表](service-reports.md)，現在想要建立自己的報表。 有許多不同的方式可建立報表，在本文中，我們一開始是使用 Power BI 服務從 Excel 資料集建立非常基本的報表。 了解建立報表的基本概念之後，底部的＜後續步驟＞會將您導向更進階的報表主題。  
@@ -53,7 +53,7 @@ ms.locfileid: "37599520"
 > 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>將星形量測計新增至報表
-既然已匯入我們的資料集，就讓我們開始回答一些問題。  我們的行銷長 (CMO) 想要知道我們距離本年度的銷售目標還有多遠。 量測計是[不錯的視覺效果選擇](power-bi-report-visualizations.md)，可顯示這種類型的資訊。
+既然已匯入我們的資料集，就讓我們開始回答一些問題。  我們的行銷長 (CMO) 想要知道我們距離本年度的銷售目標還有多遠。 量測計是[不錯的視覺效果選擇](visuals/power-bi-report-visualizations.md)，可顯示這種類型的資訊。
 
 1. 在 [欄位] 窗格中，選取 [銷售] > [This Year Sales]\(本年度銷售額) > [值]。
    

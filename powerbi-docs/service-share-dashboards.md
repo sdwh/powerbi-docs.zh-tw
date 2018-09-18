@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b34c16337158e784b0c41bd3e3fd93aca9504cd7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624383"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727298"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用您的 Power BI 儀表板和報表
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 還提供[數種其他方式可進行共同作業及散發您的儀表板和報表](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -27,7 +27,7 @@ ms.locfileid: "39624383"
 
 您可以從 Power BI 服務中大部分的位置共用儀表板和報表，包括您的 [我的最愛]、[最近]、[與我共用]\(如果擁有者允許的話)、[我的工作區] 或其他工作區。 當您與他人共用儀表板或報表時，他們可以檢視該儀表板或報表並與之互動，但無法編輯它們。 除非套用[資料列層級安全性 (RLS)](service-admin-rls.md)，否則他們將能看到和您在儀表板或報表中可看見的相同資料。 如果您允許的話，您與其共用儀表板或報表的同事，也可以與他們的同事共用。 組織外部人員也可以檢視儀表板或報表並與之互動，但不能共用。 
 
-您也可以[從任何 Power BI 行動裝置應用程式共用儀表板](mobile-share-dashboard-from-the-mobile-apps.md)。 您可以從 Power BI 服務和 Power BI 行動裝置應用程式共用儀表板，但無法從 Power BI Desktop 共用。
+您也可以[從任何 Power BI 行動裝置應用程式共用儀表板](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)。 您可以從 Power BI 服務和 Power BI 行動裝置應用程式共用儀表板，但無法從 Power BI Desktop 共用。
 
 ## <a name="video-share-a-dashboard"></a>影片：共用儀表板
 觀看 Amanda 與她公司內外的同事共用儀表板。 然後遵循影片下方的逐步指示親自試試看。

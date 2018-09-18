@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944966"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726035"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>設計絕佳 Power BI 儀表板的秘訣
 現在您已經建立儀表板，及新增了某些圖格，請思考如何讓您的儀表板不只是好看，同時功能也更強。 一般而言，這代表將最重要的資訊設定為待命，讓它簡潔且整齊。
@@ -23,7 +23,7 @@ ms.locfileid: "36944966"
 以下是一些秘訣。
 
 > [!TIP]
-> 報表的許多設計準則也適用於儀表板。  閱讀我們的技術白皮書︰[報表和視覺效果的最佳設計準則](power-bi-visualization-best-practices.md)。
+> 報表的許多設計準則也適用於儀表板。  閱讀我們的技術白皮書︰[報表和視覺效果的最佳設計準則](visuals/power-bi-visualization-best-practices.md)。
 >
 >
 
@@ -51,7 +51,7 @@ ms.locfileid: "36944966"
 
 但請務必提供內容。  
 
-了解[只用一個數字來建立磚](power-bi-visualization-card.md).
+了解[只用一個數字來建立磚](visuals/power-bi-visualization-card.md).
 
 ## <a name="put-the-most-important-information-in-the-upper-corner"></a>將最重要的資訊放在左上角
 大部分的人從上往下讀取，所以將最高層級的詳細資料放置在頂端，並且當您順著對象閱讀的方向移動時，會顯示更多的詳細資料 (由左到右、由右到左)。
@@ -68,7 +68,7 @@ ms.locfileid: "36944966"
 * 請注意[圖表如何排序](power-bi-report-change-sort.md)。  如果您想要強調最高或最低數字，請依量值排序。  如果您想要在許多其他類別目錄內，能夠快速尋找特定分類，請依軸排序。  
 * 圓形圖最適合具有少於八個類別目錄的量值。 因為您無法以並排方式比較值，所以在圓形圖中比較值，會比在橫條圖和直條圖中比較值更困難。 圓形圖適於檢視部分與整體的關聯性，而不是用於部分比較。 量表圖非常適合用來在目標內容中顯示目前狀態。
 
-如需更多特定視覺效果的指引，請參閱[ Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+如需更多特定視覺效果的指引，請參閱[ Power BI 中的視覺效果類型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ## <a name="learning-more-about-best-practice-dashboard-design"></a>深入了解儀表板設計最佳做法
 若要精通絕佳儀表板設計的藝術，請考量了解視覺認知的基本格式塔原則 (Gestalt Principle)，以及了解如何清楚說明內容中可付諸行動的資訊。 幸好到處有大量的資源可供使用，且在我們的部落格內俯拾皆是。 幾本我們最喜愛的書籍包括：

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 14890d93261c12e16756c8f65d9273d954f673dd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e474081a5f094bc04f6fc93b985b8d81efee1a0b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34256694"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728103"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI 支援的語言和國家 (地區)
 
@@ -191,7 +191,7 @@ Power BI 會根據您電腦上的語言喜好設定偵測您的語言。 存取�
 * 西班牙文 - español
 
 ## <a name="next-steps"></a>後續步驟
-* 您在使用其中一個 Power BI 行動裝置應用程式嗎？ 如需詳細資料，請參閱 [Power BI 行動裝置應用程式中支援的語言](mobile-apps-supported-languages.md)。
+* 您在使用其中一個 Power BI 行動裝置應用程式嗎？ 如需詳細資料，請參閱 [Power BI 行動裝置應用程式中支援的語言](consumer/mobile/mobile-apps-supported-languages.md)。
 * 有問題嗎？ 請嘗試詢問 [Power BI 社群](http://community.powerbi.com/)。
 * 仍有問題嗎？ 請前往 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
 

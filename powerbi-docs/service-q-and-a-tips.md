@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 94936092a86ee3ac46ed0516609b3beaf1589180
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 189134a82e183819f1d48be0b420c9f92a5e69b3
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257155"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725941"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 問與答中詢問問題的秘訣
 ## <a name="words-and-terminology-that-qa-recognizes"></a>問與答可辨識的字組與專有名詞
@@ -24,7 +24,7 @@ ms.locfileid: "40257155"
 下列清單使用現在式，但所有時態在大部分情況下皆可辨識。 例如，“is” 包括 are、was、were、will be、have、has、had、will have、has got、do、does、did。  而 “sort” 包括 sorted 和 sorting。  此外，PowerBI 可辨識並包含單字的單複數形態。 例如，Power BI 可辨識 “year” 和 “years”。
 
 > [!NOTE]
-> 現在 [iPad、iPhone 及 iPod Touch 裝置上的 iOS 版 Microsoft Power BI 應用程式](mobile-apps-ios-qna.md)也提供問與答。
+> 現在 [iPad、iPhone 及 iPod Touch 裝置上的 iOS 版 Microsoft Power BI 應用程式](consumer/mobile/mobile-apps-ios-qna.md)也提供問與答。
 > 
 > 
 

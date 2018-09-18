@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
-ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
+ms.openlocfilehash: 80995f77a4e11c2773e9b03a224d42ac8d492228
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42799037"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727551"
 ---
 # <a name="hyperlinks-in-tables"></a>資料表中的超連結
 本主題將教導您如何使用 Power BI Desktop 建立超連結。 建立之後，請接著使用 Desktop 或 Power BI 服務將那些超連結新增至您的報表資料表和矩陣中。 
@@ -87,7 +87,7 @@ ms.locfileid: "42799037"
 
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 報表的視覺效果](power-bi-report-visualizations.md)
+[Power BI 報表的視覺效果](visuals/power-bi-report-visualizations.md)
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

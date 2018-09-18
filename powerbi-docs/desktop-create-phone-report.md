@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 5f34207640fe0db02d38464ce8600a44b6ffab4c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280654"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726447"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>建立為 Power BI 手機應用程式最佳化的報表
 當您[在 Power BI Desktop 中建立報表](desktop-report-view.md)時，可以建立專用於手機的報表版本，以提升在手機上行動裝置應用程式中使用的體驗。 您可以重新安排視覺效果或調整其大小，也不必全部納入，藉由對手機改造報表獲得最佳體驗。 您還可以建立[回應式視覺效果](#optimize-a-visual-for-any-size)和[回應式交叉分析篩選器](#enhance-slicers-to-to-work-well-in-phone-reports)，以適當調整大小，供您在手機上檢視。 此外，如果您將篩選新增至報表，這些篩選會自動顯示在電話報表中。 您的報表讀者可以看到它們並使用它們來篩選報表。
@@ -56,7 +56,7 @@ ms.locfileid: "39280654"
 
 ![調整回應式視覺效果大小](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-您可以選擇是否要開啟各個視覺效果的回應能力。 請參閱[最佳化視覺效果](desktop-create-responsive-visuals.md)。
+您可以選擇是否要開啟各個視覺效果的回應能力。 請參閱[最佳化視覺效果](visuals/desktop-create-responsive-visuals.md)。
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>建立手機報表版面配置的注意事項
 * 若是多頁報表，您可以將所有頁面最佳化，也可以只對幾頁執行。 
@@ -101,11 +101,11 @@ ms.locfileid: "39280654"
 
 ![未經過最佳化的手機頁面](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
-報表讀者可以將手機側邊轉向，以橫向模式查看頁面。 深入了解[與為手機最佳化的報表互動](mobile-apps-view-phone-report.md)。
+報表讀者可以將手機側邊轉向，以橫向模式查看頁面。 深入了解[與為手機最佳化的報表互動](consumer/mobile/mobile-apps-view-phone-report.md)。
 
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI 中建立儀表板的手機檢視](service-create-dashboard-mobile-phone-view.md)
-* [檢視為手機最佳化的 Power BI 報表](mobile-apps-view-phone-report.md)
-* [建立適用於任何大小的回應式視覺效果](desktop-create-responsive-visuals.md)
+* [檢視為手機最佳化的 Power BI 報表](consumer/mobile/mobile-apps-view-phone-report.md)
+* [建立適用於任何大小的回應式視覺效果](visuals/desktop-create-responsive-visuals.md)
 * 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

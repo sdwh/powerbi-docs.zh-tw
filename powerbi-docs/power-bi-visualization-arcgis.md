@@ -2,28 +2,28 @@
 title: 在 Power BI 中建立由 ESRI 提供的 ArcGIS 地圖
 description: '在 Power BI 中建立由 ESRI 提供的 ArcGIS 地圖 '
 author: mihart
-manager: kvivek
+manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 127187367b2ae5680b50bc1e72de7214c522705e
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168058"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728241"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Power BI 服務及 Power BI Desktop 中由 Esri 提供的 ArcGIS 地圖
-此教學課程是從 ArcGIS 地圖建立者的觀點來撰寫。 一旦建立者與同事共用 ArcGIS 地圖，該同事雖然可以檢視地圖並與其互動，但無法儲存變更。 若要深入了解如何檢視 ArcGIS 地圖，請參閱[與 ArcGIS 地圖互動](power-bi-visualizations-arcgis.md)。
+此教學課程是從 ArcGIS 地圖建立者的觀點來撰寫。 一旦建立者與同事共用 ArcGIS 地圖，該同事雖然可以檢視地圖並與其互動，但無法儲存變更。 若要深入了解如何檢視 ArcGIS 地圖，請參閱[與 ArcGIS 地圖互動](visuals/power-bi-visualizations-arcgis.md)。
 
 ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到了全新境界。 從基礎地圖、位置類型、佈景主題、符號樣式及參考圖層中選擇，以建立具有豐富資訊的優異地圖視覺效果。 地圖上的官方資料圖層與空間分析結合之後，能讓人更深入了解視覺效果中的資料。
 
- 雖然您無法在行動裝置上建立 ArcGIS 地圖，但可以檢視地圖並與其互動。 請參閱[與 ArcGIS 地圖互動](power-bi-visualizations-arcgis.md)。
+ 雖然您無法在行動裝置上建立 ArcGIS 地圖，但可以檢視地圖並與其互動。 請參閱[與 ArcGIS 地圖互動](visuals/power-bi-visualizations-arcgis.md)。
 
 > [!TIP]
 > GIS 是 Geographic Information Science (地理資訊科學) 的縮寫。
@@ -329,7 +329,7 @@ ArcGIS Maps for Power BI 由 Esri (www.esri.com) 提供。 因此，您的 ArcGI
 
 **ArcGIS Maps for Power BI 是否支援 Esri 形狀檔？**
 
-ArcGIS Maps for Power BI 會自動偵測國家/地區、州/省和郵遞區號等標準界限。 如果您想提供自己的圖形，則可以使用 [Power BI Desktop (預覽) 中的圖形地圖](desktop-shape-map.md)。
+ArcGIS Maps for Power BI 會自動偵測國家/地區、州/省和郵遞區號等標準界限。 如果您想提供自己的圖形，則可以使用 [Power BI Desktop (預覽) 中的圖形地圖](visuals/desktop-shape-map.md)。
 
 **我可以離線檢視我的 ArcGIS 地圖嗎？**
 
@@ -340,7 +340,7 @@ ArcGIS Maps for Power BI 會自動偵測國家/地區、州/省和郵遞區號�
 目前還不行。 [請為這個提議進行投票](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases)，日後當我們開始處理這項功能時，即會傳送電子郵件通知您。  
 
 ## <a name="next-steps"></a>後續步驟
-[與已和您共用的 ArcGIS 地圖互動](power-bi-visualizations-arcgis.md)
+[與已和您共用的 ArcGIS 地圖互動](visuals/power-bi-visualizations-arcgis.md)
 
 [宣布 ArcGIS maps for Power BI 正式運作的部落格文章](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 736d4b53f82255e84e3bd54a2177ae17c264039b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251659"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726746"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 服務報告中的閱讀檢視和編輯檢視
 在 Power BI 服務 (而非 Power BI Desktop) 中，有兩種模式可與報告互動：閱讀檢視和編輯檢視。 [閱讀檢視] 適用於所有使用者，特別是針對資料「取用者」而設計，[編輯檢視] 則僅適用於報表「建立者」和擁有者。
@@ -59,13 +59,13 @@ ms.locfileid: "34251659"
 | [複製報表頁面](power-bi-report-copy-paste-page.md) | 否  | 是 |
 | [刪除報表頁面](service-delete.md) | 不可以 | 可以 |
 |**使用報表視覺效果**|
-| [將視覺效果新增至報表](power-bi-report-add-visualizations-i.md) | 否  | 是 |
+| [將視覺效果新增至報表](visuals/power-bi-report-add-visualizations-i.md) | 否  | 是 |
 | [在報表中新增文字方塊和圖形](power-bi-reports-add-text-and-shapes.md) | 否  | 是 |
 | [使用報表 [格式] 窗格](service-the-report-editor-take-a-tour.md) | 否 | 是 |
 | [設定視覺效果的互動方式](service-reports-visual-interactions.md) | 否  | 是 |
 | [顯示用來建立視覺效果的資料](service-reports-show-data.md) | 否  | 是 |
 | [設定鑽研](power-bi-visualization-drill-down.md) | 否  | 是 |
-| [變更所使用的視覺效果](power-bi-report-change-visualization-type.md) | 否 | 是|
+| [變更所使用的視覺效果](visuals/power-bi-report-change-visualization-type.md) | 否 | 是|
 | [刪除視覺效果、文字方塊或圖形](service-delete.md)| 否 | 是 |
 
 

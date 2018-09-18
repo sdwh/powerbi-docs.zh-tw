@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: abc53080456e27e58d8b9519c9d6543e66142780
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 1f6c899932390bc4f9818fdcbb499848ca88a8d5
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37926482"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558508"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>以個人身分註冊 Power BI
 了解如何註冊 Power BI，並開始利用它來滿足您的個人報告和視覺效果需求。
@@ -44,11 +44,11 @@ Power BI 會要求您使用公司或學校的電子郵件地址來註冊。 您�
 如果您嘗試以個人電子郵件地址登入，就會收到訊息，指出您必須使用工作或學校電子郵件地址。
 
 > [!NOTE]
-> 您可以使用 .gov 或 .mil 地址註冊 Power BI。 如需相關資訊，請參閱[在 Power BI 服務中註冊美國政府組織](https://docs.microsoft.com/en-us/power-bi/service-govus-signup)。
+> 您可以使用 .gov 或 .mil 地址註冊 Power BI。 如需相關資訊，請參閱[在 Power BI 服務中註冊美國政府組織](https://docs.microsoft.com/power-bi/service-govus-signup)。
 >
 
 > [!NOTE]
-> 登入之後，您可以[邀請來賓使用者](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)，使用任何電子郵件地址 (包括個人帳戶) 檢閱您的 Power BI 租用戶內容。
+> 登入之後，您可以[邀請來賓使用者](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)，使用任何電子郵件地址 (包括個人帳戶) 檢閱您的 Power BI 租用戶內容。
 >
 
 ## <a name="which-one-do-you-need"></a>您需要哪一項？
@@ -135,7 +135,7 @@ Power BI 會要求您使用公司或學校的電子郵件地址來註冊。 您�
 
 |                                                                                                                                                                                                                          **徵兆 / 錯誤訊息**                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                **原因和因應措施**                                                                                                                                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <strong>個人電子郵件地址 (例如 nancy@gmail.com)</strong> 您在註冊期間接收的訊息如下︰ <br /><br /> *您輸入的地址為個人電子郵件地址：請輸入您的公司電子郵件地址，讓我們可以安全地儲存貴公司的資料。* <br /><br /> 或 <br /><br /> *這似乎是個人電子郵件地址。請輸入您的公司地址，以便我們可以將您與公司內的其他人連接。而且別擔心。我們不會向任何人洩漏您的地址。* |                          Power BI 不支援消費者電子郵件服務或電信提供者所提供的電子郵件地址。 <br /><br /> 若要完成註冊，請嘗試再次使用公司或學校指派給您的電子郵件地址。 <br /><br /> 如果您仍然無法註冊，但是可以完成更進階的安裝程序，您可以[註冊新的 Office 365 試用訂閱和使用該電子郵件地址來註冊](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 <br /><br /> 邀請使用者帳戶成為 [Azure B2B 來賓](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)。                           |
+| <strong>個人電子郵件地址 (例如 nancy@gmail.com)</strong> 您在註冊期間接收的訊息如下︰ <br /><br /> *您輸入的地址為個人電子郵件地址：請輸入您的公司電子郵件地址，讓我們可以安全地儲存貴公司的資料。* <br /><br /> 或 <br /><br /> *這似乎是個人電子郵件地址。請輸入您的公司地址，以便我們可以將您與公司內的其他人連接。而且別擔心。我們不會向任何人洩漏您的地址。* |                          Power BI 不支援消費者電子郵件服務或電信提供者所提供的電子郵件地址。 <br /><br /> 若要完成註冊，請嘗試再次使用公司或學校指派給您的電子郵件地址。 <br /><br /> 如果您仍然無法註冊，但是可以完成更進階的安裝程序，您可以[註冊新的 Office 365 試用訂閱和使用該電子郵件地址來註冊](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 <br /><br /> 邀請使用者帳戶成為 [Azure B2B 來賓](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)。                           |
 |            **自助式註冊已停用** 您在註冊期間接收的訊息如下︰ <br /><br /> *我們無法完成您的註冊。您的 IT 部門已經關閉 Microsoft Power BI 註冊。請與他們連絡來完成註冊。* <br /><br /> 或 <br /><br /> *這似乎是個人電子郵件地址。請輸入您的公司地址，以便我們可以將您與公司內的其他人連接。而且別擔心。我們不會向任何人洩漏您的地址。*             |                             貴組織的 IT 系統管理員已停用 Power BI 的自助式註冊。 <br /><br /> 若要完成註冊，請連絡您的 IT 系統管理員，並要求他們遵循本頁面中的指示，以允許現有使用者註冊 Power BI，並允許新使用者加入現有的租用戶。 <br/><br/> 如果您透過合作夥伴註冊 Office 365，可能也會遇到這個問題。 [深入了解](service-admin-syndication-partner.md) <br /><br /> [組織的 Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
 |                                                                                          **電子郵件地址不是 Office 365 ID** 您在註冊期間接收的訊息如下︰ <br /><br /> *我們在 contoso.com 找不到您。您在公司或學校使用不同的 ID 嗎？<br /><br />請嘗試以該 ID 登入，如果沒有作用，請連絡您的 IT 部門。*                                                                                           | 貴組織用來登入 Office 365 和其他 Microsoft 服務的 ID 與您的電子郵件地址不同。  例如，您的電子郵件地址可能是 Nancy.Smith@contoso.com，但您的 ID 是 nancys@contoso.com。 <br /><br /> 若要完成註冊，請使用貴組織指派給您、用於登入 Office 365 或其他 Microsoft 服務的 ID。  如果您不知道這個 ID 是什麼，請連絡您的 IT 系統管理員。 <br /><br /> 如果您仍然無法註冊，但是可以完成更進階的安裝程序，您可以[註冊新的 Office 365 試用訂閱和使用該電子郵件地址來註冊](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 |
 

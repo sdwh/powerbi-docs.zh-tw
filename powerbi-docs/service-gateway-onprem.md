@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: c6c83c51779621b2b722ce0c21cbb00eecde1fb9
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658165"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558439"
 ---
 # <a name="on-premises-data-gateway"></a>內部部署資料閘道
 
@@ -89,7 +89,7 @@ ms.locfileid: "39658165"
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 
-* 目前不支援 [Azure 資訊保護](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
+* 目前不支援 [Azure 資訊保護](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
 ) \(機器翻譯\)
 * 目前不支援[線上存取](https://products.office.com/en-us/access)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 80e5b31f4fd8e59333848da26995388874d1746c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136954"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728034"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的報表
 ## <a name="what-is-a-power-bi-report"></a>什麼是 Power BI 報表？
@@ -27,7 +27,7 @@ Power BI「報表」是資料集的多面向檢視，以視覺效果顯示該資
 
 如果您不熟悉 Power BI，請參閱 [Power BI 基本概念](service-basic-concepts.md)以取得良好的基礎。
 
-報表是 Power BI 服務和 Power BI Desktop 的功能。 使用報表的體驗幾乎完全相同。 不過，針對行動裝置，您無法建立報表，但可以[檢視、共用和標註報表](mobile-reports-in-the-mobile-apps.md)。
+報表是 Power BI 服務和 Power BI Desktop 的功能。 使用報表的體驗幾乎完全相同。 不過，針對行動裝置，您無法建立報表，但可以[檢視、共用和標註報表](consumer/mobile/mobile-reports-in-the-mobile-apps.md)。
 
 ## <a name="advantages-of-reports"></a>報表的優點
 報表是以單一資料集為基礎。 報表中的視覺效果各代表重要的資訊。 而且視覺效果不是靜態的；在深入資料來探索深入資訊以及尋找解答時，您可以新增和移除資料、變更視覺效果類型，以及套用篩選和交叉分析篩選器。 與儀表板類似，但不止如此，報表還高度互動且高度可自訂，而且視覺效果更新會隨著基礎資料變更。

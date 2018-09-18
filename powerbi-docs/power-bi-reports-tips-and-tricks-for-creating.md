@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8305b9eab95e2b13f9104de6bcefe3f03a95d2f5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34254870"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726792"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>在 Power BI Desktop 和 Power BI 服務中建立報表的祕訣和訣竅
 為了充分利用您的資料，有時您需要一些額外的協助。 我們集結了一些秘訣與技巧，可供您在 Microsoft Power BI Desktop、Power BI 服務中，以及在啟用 Power Pivot 增益集與已安裝並啟用 Power Query 的 Microsoft Excel 2016 或 Microsoft Excel 2013 Pro-Plus 版本中，用來建立報表。
@@ -167,7 +167,7 @@ DAX 是 Power BI Desktop 的計算公式語言，  並已針對 BI 分析最佳�
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 服務和 Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportspower-bi-visualization-best-practicesmd"></a>閱讀白皮書︰[Power BI 報表的設計原則](power-bi-visualization-best-practices.md)
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>閱讀白皮書︰[Power BI 報表的設計原則](visuals/power-bi-visualization-best-practices.md)
 本白皮書將提供在 Power BI 中設計報表的最佳做法。 從規劃開始，它將討論您可以套用至報表和構成該報表之頁面與個別視覺效果的設計原則。 這些最佳作法有許多也適用於儀表板設計。
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>閱讀並/或觀賞「如何在 Power BI 中設計令人驚豔的報表 (和儀表板)」
@@ -209,7 +209,7 @@ DAX 是 Power BI Desktop 的計算公式語言，  並已針對 BI 分析最佳�
 * 請注意[圖表如何排序](power-bi-report-change-sort.md)。  如果您想要強調最高或最低數字，請依量值排序。  如果您想要在許多其他類別目錄內，能夠快速尋找特定分類，請依軸排序。  
 * 圓形圖最適合具有少於八個類別目錄的量值。 因為您無法以並排方式比較值，所以在圓形圖中比較值，會比在橫條圖和直條圖中比較值更困難。 圓形圖適於檢視部分與整體的關聯性，而不是用於部分比較。 量表圖非常適合用來在目標內容中顯示目前狀態。    
 
-如需更多特定視覺效果的指引，請參閱[ Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+如需更多特定視覺效果的指引，請參閱[ Power BI 中的視覺效果類型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ### <a name="learn-more-about-best-practice-dashboard-design"></a>深入了解儀表板設計的最佳做法
 幾本我們最喜愛的書籍包括：

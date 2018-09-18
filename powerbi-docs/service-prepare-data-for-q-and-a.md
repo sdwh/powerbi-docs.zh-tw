@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a6216169eb50ca535b73b07f5553c9b3d5e17470
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: efc806787f2a1d5cd110439c1c5505bb7e77e980
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240954"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727459"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>如何讓 Excel 資料適用於 Power BI 的問與答
 如果您是建立資料模型的人員，或要建立搭配 Power BI 使用的 Excel 活頁簿，請繼續閱讀...
@@ -27,7 +27,7 @@ ms.locfileid: "34240954"
 ### <a name="how-qa-works-with-excel"></a>問與答在 Excel 的運作方式
 問與答有一組可在您的資料中運作的功能，可了解核心自然語言。 它會搜尋 Excel 資料表、資料行和導出欄位名稱之內容相關的關鍵字。 它也有內建如何篩選、排序、彙總、群組和顯示資料的相關知識。 
 
-例如，在一個名為「銷售」的 Excel 資料表，其資料行為「產品」、「月」、「單位銷售」、「銷售毛額」和「利潤」，您可以詢問有關任何這些實體的問題。  您可以要求顯示銷售額、各月份的總計收益、依單位銷售排序產品等等。 深入了解[可提問的問題種類](power-bi-q-and-a.md)，以及[問與答查詢中可以指定的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)。
+例如，在一個名為「銷售」的 Excel 資料表，其資料行為「產品」、「月」、「單位銷售」、「銷售毛額」和「利潤」，您可以詢問有關任何這些實體的問題。  您可以要求顯示銷售額、各月份的總計收益、依單位銷售排序產品等等。 深入了解[可提問的問題種類](power-bi-q-and-a.md)，以及[問與答查詢中可以指定的視覺效果類型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
 
 ### <a name="prepare-an-excel-dataset-for-qa"></a>準備適用於問與答的 Excel 資料集
 問與答依賴資料表、資料行和導出欄位的名稱，藉此回應特定資料的問題，這表示您如何在活頁簿中命名實體會相當重要！

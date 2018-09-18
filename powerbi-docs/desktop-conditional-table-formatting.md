@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 324a9b7f8a3718c6da0efb7533751d88dd717bcf
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657797"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728080"
 ---
 # <a name="conditional-formatting-in-tables"></a>設定資料表格式化的條件 
 設定資料表格式化的條件時，您可以根據資料格值或根據其他值或欄位 (包括漸層色彩) 來指定自訂資料格色彩。 您也可以使用資料橫條來顯示資料格的值。 
@@ -133,5 +133,5 @@ ms.locfileid: "39657797"
 ## <a name="next-steps"></a>後續步驟
 如需詳細資訊，請參閱下列文章：  
 
-* [在 Power BI 中色彩格式設定的秘訣和訣竅](service-tips-and-tricks-for-color-formatting.md)  
+* [在 Power BI 中色彩格式設定的秘訣和訣竅](visuals/service-tips-and-tricks-for-color-formatting.md)  
 

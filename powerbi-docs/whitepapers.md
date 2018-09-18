@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e64850351c9bdc1877eed3a53323e7934e11fbe7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d6ab9619fd1419f94994b65fffef7ddcbfff3f3d
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445110"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727183"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 的技術白皮書
 
@@ -31,7 +31,7 @@ ms.locfileid: "34445110"
 | [Power BI 與 GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Power BI 將非常有助於您符合 GDPR 的規範。 本文件的目的是提供您一些 GDPR 的基本了解，並將其與 Power BI 相關聯。 盡管在這份文件中所述的特定情況下，GDPR 合規性是強制性的，但它絕不是「核取方塊」練習。 這也是加強您的整體資料保護和隱私權功能的一種方式。|
 | [使用 Azure Active Directory B2B 將 Power BI 內容散發給外部來賓使用者](https://aka.ms/powerbi-b2b-whitepaper)|本文概述如何使用 Azure Active Directory 企業對企業 (AAD B2B) 的整合，將內容散發給組織外部的使用者。|
 | [使用 Power BI 進行進階分析](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |描述 Power BI 的進階分析功能，包括預測性分析、自訂視覺效果、R 整合和資料分析運算式。 |
-| [報表和視覺效果的最佳設計做法](power-bi-visualization-best-practices.md) |提供在 Power BI 中設計報表的最佳做法。 |
+| [報表和視覺效果的最佳設計做法](visuals/power-bi-visualization-best-practices.md) |提供在 Power BI 中設計報表的最佳做法。 |
 | [雙向篩選](desktop-bidirectional-filtering.md) |說明 Power BI Desktop 中的雙向交叉篩選 (技術白皮書另涵蓋 SQL Server Analysis Services 2016，這兩者有相同的行為)。 |
 | [SQL Server 2016 Analysis Services 中的 DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |對於 SQL Server 2016，DirectQuery 已經過重新設計，讓速度和效能大幅提升，但現在要了解和實作也變得較複雜。 |
 | [Power BI 和 SAP BW](https://aka.ms/powerbiandsapbw)| 本文描述 SAP 客戶可如何從將 Power BI 連線到其現有的 SAP Business Warehouse (BW) 系統中受益。|

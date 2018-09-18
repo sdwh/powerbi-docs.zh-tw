@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600348"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726861"
 ---
 # <a name="getting-a-custom-visual-certified"></a>讓自訂視覺效果*經認證*
 ## <a name="what-is-meant-by-certified"></a>*經認證*是什麼意思？
@@ -142,7 +142,7 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 ## <a name="next-steps"></a>後續步驟
 [開始使用自訂視覺效果開發人員工具 (預覽)](service-custom-visuals-getting-started-with-developer-tools.md)      
 [YouTube 上的 Microsoft 自訂視覺效果播放清單](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Power BI 中的視覺效果](power-bi-report-visualizations.md)  
+[Power BI 中的視覺效果](visuals/power-bi-report-visualizations.md)  
 [Power BI 中的自訂視覺效果](power-bi-custom-visuals.md)  
 [在 Microsoft AppSource 上發佈自訂視覺效果](developer/office-store.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

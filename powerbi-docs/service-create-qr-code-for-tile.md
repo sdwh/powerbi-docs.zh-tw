@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b0bf5e54ad6486134eb641d276fc9233b001157
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: bb2cd0e26caaa7639020d51a0827390932e78b06
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249701"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726039"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>為 Power BI 的磚建立 QR 代碼以用於行動裝置應用程式
 Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要瀏覽或搜尋即可直接連接到相關的 BI 資訊。
 
 您可以為任何儀表板 (甚至是無法編輯的儀表板) 中的磚，在 Power BI 服務中建立 QR 代碼。 然後在機碼的位置放置 QR 代碼。 例如，您可將其貼在電子郵件中，或列印出後將它貼在特定位置。 
 
-已與其共用儀表板的同事，可以[直接從他們的行動裝置掃描該 QR 代碼以存取磚](mobile-apps-qr-code.md)。 他們可以使用位於 Power BI 應用程式中的 QR 代碼掃描器或其行動裝置所安裝的任何其他 QR 掃描器。
+已與其共用儀表板的同事，可以[直接從他們的行動裝置掃描該 QR 代碼以存取磚](consumer/mobile/mobile-apps-qr-code.md)。 他們可以使用位於 Power BI 應用程式中的 QR 代碼掃描器或其行動裝置所安裝的任何其他 QR 掃描器。
 
 
 ## <a name="create-a-qr-code-for-a-tile"></a>為磚建立 QR 代碼
@@ -52,8 +52,8 @@ Power BI 會將 QR 代碼產生為 JPG 檔案，可供列印。
 3. 剪下 QR 代碼，並將其黏到與磚相關之處。 
 
 ## <a name="next-steps"></a>後續步驟
-* 透過行動裝置應用程式[實際連接 Power BI 資料](mobile-apps-data-in-real-world-context.md)
-* [從行動裝置掃描 Power BI QR 代碼](mobile-apps-qr-code.md)
+* 透過行動裝置應用程式[實際連接 Power BI 資料](consumer/mobile/mobile-apps-data-in-real-world-context.md)
+* [從行動裝置掃描 Power BI QR 代碼](consumer/mobile/mobile-apps-qr-code.md)
 * [建立報表的 QR 代碼](service-create-qr-code-for-report.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
-ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
+ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43250765"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558462"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>管理 Power BI Premium 和 Power BI Embedded 內的容量
 了解如何管理提供內容專用資源的 Power BI Premium 和 Power BI Embedded 容量。
@@ -47,7 +47,7 @@ ms.locfileid: "43250765"
 若要利用專用容量，您需要在 Office 365 系統管理中心內購買 Power BI Premium 訂閱，或在 Microsoft Azure 入口網站內建立 Power BI Embedded 資源。 如需詳細資訊，請參閱下列內容：
 
 * **Power BI Premium：**[如何購買 Power BI Premium](service-admin-premium-purchase.md)
-* **Power BI Embedded：** [在 Azure 入口網站中建立 Power BI Embedded 容量](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
+* **Power BI Embedded：** [在 Azure 入口網站中建立 Power BI Embedded 容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 
 當您購買 Power BI Premium SKU 時，您的租用戶會收到供執行中容量使用的對應 V 核心數目。 例如，購買 Power BI Premium P3 SKU 可提供租用戶 32 個 V 核心。
 

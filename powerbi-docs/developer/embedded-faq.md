@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: c1f9da598abee29a1d8eef0419fcb472f0a1467e
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241514"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558556"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -79,7 +79,7 @@ Power BI Embedded 是一組可供開發人員用來在平台即服務供應項�
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |購買  |Azure 入口網站 |Office |Office |
-|使用案例 | 在您自己的應用程式中內嵌內容 | <li> 在您自己的應用程式中內嵌內容 <br><br></br> <li> 在 MS Office 應用程式中內嵌內容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (行動裝置應用程式除外)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 在您自己的應用程式中內嵌內容 <br><br></br> <li> 在 MS Office 應用程式中內嵌內容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (行動裝置應用程式除外)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> 透過 [Power BI 服務](https://powerbi.microsoft.com/en-us/)與 Power BI 使用者共用內容  |
+|使用案例 | 在您自己的應用程式中內嵌內容 | <li> 在您自己的應用程式中內嵌內容 <br><br></br> <li> 在 MS Office 應用程式中內嵌內容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (行動裝置應用程式除外)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 在您自己的應用程式中內嵌內容 <br><br></br> <li> 在 MS Office 應用程式中內嵌內容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (行動裝置應用程式除外)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> 透過 [Power BI 服務](https://powerbi.microsoft.com/en-us/)與 Power BI 使用者共用內容  |
 |帳單 |每小時 |每月 |每月 |
 |承諾用量  |無承諾用量 |每年  |每月/每年 |
 |差異 |完整彈性 - 可以在 Azure 入口網站中，或透過 API 相應增加/減少、暫停/繼續資源  |可用於在 SharePoint Online 與 Microsoft Teams 中內嵌內容 (行動裝置應用程式除外) |在相同容量中結合應用程式內嵌及使用 Power BI 服務 |
@@ -133,7 +133,7 @@ Power BI 需要您使用組織帳戶註冊。 不支援使用 MSA (Microsoft 帳
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解決方案中的 PBI Embedded 專用容量角色是什麼？
 
-若要[將您的解決方案升階到生產環境](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)，您需要 Power BI 內容 (您在應用程式中使用且要指派給 Power BI Embedded (A SKU) 容量的應用程式工作區)。
+若要[將您的解決方案升階到生產環境](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)，您需要 Power BI 內容 (您在應用程式中使用且要指派給 Power BI Embedded (A SKU) 容量的應用程式工作區)。
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>PBI Embedded 可用的 Azure 區域是什麼？
 
@@ -158,11 +158,11 @@ Power BI Embedded 會繼續使用 Azure AD 進行主使用者 (指定的 Power B
 
 如果您已經有 Azure AD 租用戶，可以使用現有目錄，也可以建立新的 Azure AD 租用戶，以達成內嵌應用程式內容的安全性。
 
-若要取得 AAD 權杖，可以使用其中一個 Azure Active Directory 驗證程式庫 - https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries。 有適用於多種平台的用戶端程式庫。
+若要取得 AAD 權杖，可以使用其中一個 Azure Active Directory 驗證程式庫 - https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries。 有適用於多種平台的用戶端程式庫。
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>我的應用程式已使用 AAD 來驗證使用者。 在「使用者擁有資料」情節中，驗證到 Power BI 時，如何使用此身分識別？ 
 
-它是標準 OAuth 代理流程 (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) 應用程式需要設定成要求 Power BI 服務的權限 (具有所需範圍)，而且在您擁有應用程式的使用者權杖之後，只需要使用使用者存取權杖來呼叫 ADAL API AcquireTokenAsync，並將 Power BI 資源 URL 指定為資源識別碼，請參閱以下顯示如何執行此作業的的程式碼片段：
+它是標準 OAuth 代理流程 (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) 應用程式需要設定成要求 Power BI 服務的權限 (具有所需範圍)，而且在您擁有應用程式的使用者權杖之後，只需要使用使用者存取權杖來呼叫 ADAL API AcquireTokenAsync，並將 Power BI 資源 URL 指定為資源識別碼，請參閱以下顯示如何執行此作業的的程式碼片段：
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -299,7 +299,7 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>如何編輯我的 Power BI 使用者設定檔或資料？
 
-您可以在[此處](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)了解如何編輯您的 Power BI 資料。
+您可以在[此處](https://docs.microsoft.com/power-bi/service-basic-concepts)了解如何編輯您的 Power BI 資料。
 
 如需詳細資訊，請參閱[為您的內嵌應用程式進行疑難排解](embedded-troubleshoot.md)
 

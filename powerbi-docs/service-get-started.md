@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 51c3fdbef345a0d6020abe35ba7c71aaa67882e4
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598633"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726838"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>教學課程：開始使用 Power BI 服務 (app.powerbi.com)
 本教學課程可協助您開始使用 ***Power BI 服務***。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，強烈建議您先閱讀[什麼是 Power BI](power-bi-overview.md)。
@@ -42,7 +42,7 @@ ms.locfileid: "37598633"
 
 ![免費登入或註冊](media/service-get-started/power-bi-sign-up.png)
 
-如果您需要 Power BI Desktop 的協助，請參閱[開始使用 Desktop](desktop-getting-started.md). 如果您想要尋求 Power BI Mobile 的協助，請參閱[行動裝置的 Power BI 應用程式](mobile-apps-for-mobile-devices.md)。
+如果您需要 Power BI Desktop 的協助，請參閱[開始使用 Desktop](desktop-getting-started.md). 如果您想要尋求 Power BI Mobile 的協助，請參閱[行動裝置的 Power BI 應用程式](consumer/mobile/mobile-apps-for-mobile-devices.md)。
 
 > [!TIP]
 > 偏好免費自修訓練課程？ [註冊在 EdX 上的資料分析與視覺化課程](http://aka.ms/edxpbi)。

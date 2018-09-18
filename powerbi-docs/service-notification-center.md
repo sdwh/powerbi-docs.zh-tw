@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ca8b7ded6427f912933618ebdeaeeecea41b8681
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8db686b842f01653e45e8d2d6313cb4ac39bcaeb
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249931"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727160"
 ---
 # <a name="power-bi-notifications"></a>Power BI 通知
 通知中心是按時間排列的 Power BI 體驗相關資訊摘要。 加以開啟即可看到下列訊息的循序摘要：已與您共用的新儀表板、您的群組空間變更、Power BI 事件和會議的資訊、您已設定的警示等等。 您可以[在 Power BI 服務中設定警示](service-set-data-alerts.md)，也可以在 Power BI 行動裝置應用程式中設定警示。
@@ -40,7 +40,7 @@ ms.locfileid: "34249931"
 ### <a name="next-steps"></a>後續步驟
 * [Power BI 服務中的資料警示](service-set-data-alerts.md)
 * [建立由 Power BI 資料警示觸發的 Microsoft Flow](service-flow-integration.md)
-* [在 iPhone App (Power BI for iOS) 中設定資料警示](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [在 Power BI for Windows 10 行動裝置 App 中設定資料警示](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [在 iPhone App (Power BI for iOS) 中設定資料警示](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [在 Power BI for Windows 10 行動裝置 App 中設定資料警示](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4d237a308e059ce712872860031f122de9d6795c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3d2e5dcbfb5163e20dc60470c240378278bbcf1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34238413"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727229"
 ---
 # <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>建立針對行動電話最佳化的 Power BI 儀表板檢視
 當您在手機上檢視 Power BI 行動裝置應用程式儀表板時，您會注意到儀表板磚的版面配置是並排排列而成，而且大小完全相同。 在 Power BI 服務中，您可以為擁有的任何 Power BI 儀表板建立專供手機使用的自訂檢視。
@@ -58,6 +58,6 @@ ms.locfileid: "34238413"
 
 ## <a name="next-steps"></a>後續步驟
 * [建立為 Power BI 手機應用程式最佳化的報表](desktop-create-phone-report.md)
-* [建立適用於任何大小的回應式視覺效果](desktop-create-responsive-visuals.md)
+* [建立適用於任何大小的回應式視覺效果](visuals/desktop-create-responsive-visuals.md)
 * 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

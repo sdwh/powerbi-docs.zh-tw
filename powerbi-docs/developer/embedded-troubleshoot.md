@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241560"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558560"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -105,13 +105,13 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 
 如果您使用 Power BI Embedded 並利用 Azure AD Direct Authentication，而且您在登入時收到訊息，例如 ***error:unauthorized_client, error_description:AADSTS70002: 驗證認證時發生錯誤。AADSTS50053: 您使用了不正確的使用者識別碼或密碼嘗試登入太多次***，這是因為根據預設，直接驗證已從 2018/6/14 起關閉。
 
-您可以使用 [Azure AD 原則](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)重新加以開啟，而其範圍可以是組織或[服務主體](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)。
+您可以使用 [Azure AD 原則](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)重新加以開啟，而其範圍可以是組織或[服務主體](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object)。
 
 建議您只依應用程式，個別加以啟用。
 
 若要建立此原則，您需要是要在其中建立並指派原則之目錄的**全域管理員**。 下列範例指令碼示範如何建立原則，並將它指派給此應用程式的 SP：
 
-1. 安裝 [Azure AD Preview PowerShell 模組](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
+1. 安裝 [Azure AD Preview PowerShell 模組](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
 
 2. 逐行執行下列 PowerShell 命令 (因此，確定變數 $sp 沒有 1 個以上的應用程式)。
 
@@ -274,7 +274,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 若您想編輯已註冊的應用程式，請了解如何編輯[已註冊 AAD 的應用程式](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)，讓應用程式可提供 Web API 的存取。
 
-若您想編輯 Power BI 使用者設定檔或資料，則請了解如何編輯 [Power BI 資料](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)。
+若您想編輯 Power BI 使用者設定檔或資料，則請了解如何編輯 [Power BI 資料](https://docs.microsoft.com/power-bi/service-basic-concepts)。
 
 如需詳細資訊，請參閱 [Power BI Embedded 常見問題集](embedded-faq.md)。
 

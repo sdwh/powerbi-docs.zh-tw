@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 585c1c854ed3e95cc176d34f442fec6416f23dcd
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623945"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726654"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>該如何在 Power BI 中進行共同作業和共用？
 
@@ -83,9 +83,9 @@ ms.locfileid: "39623945"
 
 您會共用磚、報表或視覺效果的快照集，而收件者會看到它與您送出郵件時完全相同的內容。 該郵件還包含儀表板或報告的連結。 如果收件者具有 Power BI Pro 授權，或內容位於[進階容量](service-premium.md)中，而且您已經與收件者共用物件，他們便可加以開啟。 您可以將磚的快照集傳送給任何人，而不只是同一電子郵件網域中的同事而已。
 
-深入了解從 iOS 和 Android 的行動應用程式[標註並共用磚、報表和視覺效果](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
+深入了解從 iOS 和 Android 的行動應用程式[標註並共用磚、報表和視覺效果](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
 
-您也可以從 Windows 10 裝置的 Power BI 應用程式[共用磚的快照集](mobile-windows-10-phone-app-get-started.md)。
+您也可以從 Windows 10 裝置的 Power BI 應用程式[共用磚的快照集](consumer/mobile/mobile-windows-10-phone-app-get-started.md)。
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>列印或儲存為 PDF 或其他靜態檔案
 您可以從 Power BI 服務列印整份儀表板、儀表板磚、報表頁面或視覺效果，或將其儲存為 PDF (或其他靜態檔案格式)。 一次只能列印一頁報表 - 您無法一次列印整份報表。 深入了解[列印或儲存為靜態檔案](service-print.md)。

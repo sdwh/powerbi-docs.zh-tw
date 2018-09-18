@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dbe98d69ce800ef57e6def59003dce56b7be56cd
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 57e1285537854454504b0d2952068e5d9dc4f378
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600912"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726700"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI 視覺效果中的鑽研模式
 
@@ -190,7 +190,7 @@ Power BI 可讓您一次展開一個子集，或一次展開所有子集。 您�
 請注意，季度報表與年度報表的資料會相同，但在您向下切入至針對 [值] 所指定的詳細等級之後，您會看到單一報表變得更具體，而「所有月份」報表則有更多資料。
 
 
-|展開模式|年|季|月|日|
+|展開模式|年度|季|月|日|
 | ---|:---:|:---:|:---:|---|
 |單一|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
 |全部|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
@@ -223,7 +223,7 @@ Power BI 可讓您一次展開一個子集，或一次展開所有子集。 您�
   ![](media/power-bi-visualization-drill-down/power-bi-change-data-type2.png)
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 報表的視覺效果](power-bi-report-visualizations.md)
+[Power BI 報表的視覺效果](visuals/power-bi-report-visualizations.md)
 
 [Power BI 報表](service-reports.md)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ef05531ee6080593d232e48a2118a9be7e8cbd19
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34299462"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726631"
 ---
 # <a name="the-report-editortake-a-tour"></a>報表編輯器...導覽
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中編輯報表
@@ -65,7 +65,7 @@ Power BI 報表編輯器是由 3 個區段所組成︰
 
 ![從圖例移除 StoreType](media/service-the-report-editor-take-a-tour/deletefield.png)
 
-如需詳細資訊，請參閱[在 Power BI 報表中加入視覺效果](power-bi-report-add-visualizations-i.md)
+如需詳細資訊，請參閱[在 Power BI 報表中加入視覺效果](visuals/power-bi-report-add-visualizations-i.md)
 
 ### <a name="format-your-visuals"></a>格式化視覺效果
 選取油漆滾筒圖示來顯示 [格式] 窗格。 可用的選項取決於選取的視覺效果類型。
@@ -74,9 +74,9 @@ Power BI 報表編輯器是由 3 個區段所組成︰
 
 格式化可能性幾乎無限。  若要深入了解，請自行探索，或瀏覽這些文章︰
 
-* [自訂視覺效果標題、背景和圖例](power-bi-visualization-customize-title-background-and-legend.md)
-* [彩色格式](service-getting-started-with-color-formatting-and-axis-properties.md)
-* [自訂 X 軸和 Y 軸屬性](power-bi-visualization-customize-x-axis-and-y-axis.md)
+* [自訂視覺效果標題、背景和圖例](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [彩色格式](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
+* [自訂 X 軸和 Y 軸屬性](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>將分析新增至視覺效果
 選取放大鏡圖示，以顯示 [分析] 窗格。 可用的選項取決於選取的視覺效果類型。
@@ -126,7 +126,7 @@ Power BI 報表編輯器是由 3 個區段所組成︰
 ## <a name="next-steps"></a>後續步驟：
 [建立報表](service-report-create-new.md)
 
-深入了解 [Power BI 服務](service-reports.md)、[Power BI Desktop](desktop-report-view.md) 和 [Power BI 行動版](mobile-apps-view-phone-report.md)中的報表。
+深入了解 [Power BI 服務](service-reports.md)、[Power BI Desktop](desktop-report-view.md) 和 [Power BI 行動版](consumer/mobile/mobile-apps-view-phone-report.md)中的報表。
 
 [Power BI - 基本概念](service-basic-concepts.md)
 

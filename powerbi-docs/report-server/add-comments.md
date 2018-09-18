@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ff51b2e41d921b7a88afc9b13bb4ecd98814d12e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721953"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727965"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>在報表伺服器中將註解新增至報表
 您可以在報表伺服器的入口網站中新增報告的註解，包括 Power BI 報告。 註解會與報告在一起，任何人只要有正確權限，都可以看到報告的註解。 如需詳細資料，請參閱下方的[權限](#permissions)章節。
@@ -33,7 +33,7 @@ ms.locfileid: "34721953"
     您的註解會連同先前的任何註解，一起顯示在入口網站的窗格中。 在 Power BI 行動裝置應用程式中，註解不會隨著報告一起出現。
    
    > [!TIP]
-   > 您知道嗎？ 您可以[在 Power BI 行動裝置應用程式中標註 Power BI 報告](../mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)，並與其他人共用已標註的報告。
+   > 您知道嗎？ 您可以[在 Power BI 行動裝置應用程式中標註 Power BI 報告](../consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)，並與其他人共用已標註的報告。
    > 
    > 
 

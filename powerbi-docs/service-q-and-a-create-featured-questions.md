@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f3a9e8aabbd45cb476866158165e2e37a3d8f652
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242379"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726309"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>建立 Power BI 問與答的精選問題
 如果您擁有自己的資料集，則可將自己的精選問題新增至該資料集。  接著，Power BI 問與答會向使用 (取用) 您資料集的同事顯示這些問題。  精選問題可讓您的同事有些概念，知道要針對資料集詢問哪類問題。 您可自行決定要新增什麼精選問題 -- 新增熱門問題、會顯示有趣結果的問題，或難以簡短說明的問題。
@@ -26,7 +26,7 @@ ms.locfileid: "34242379"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> 問與答精選問題可使用於 [iPad、iPhone 及 iPod Touch 裝置上適用於 iOS 的 Microsoft Power BI 應用程式](mobile-apps-ios-qna.md)和 Power BI Desktop 問與答預覽。 但建立問題僅適用於 Power BI 服務 (app.powerbi.com)。
+> 問與答精選問題可使用於 [iPad、iPhone 及 iPod Touch 裝置上適用於 iOS 的 Microsoft Power BI 應用程式](consumer/mobile/mobile-apps-ios-qna.md)和 Power BI Desktop 問與答預覽。 但建立問題僅適用於 Power BI 服務 (app.powerbi.com)。
 > 
 
 本文使用[零售分析銷售範例](sample-datasets.md)。

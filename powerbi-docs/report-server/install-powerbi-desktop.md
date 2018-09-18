@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 368f2692933b37d833c864fb9fea6a22423bbb77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481823"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726378"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 了解如何安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop。
@@ -78,7 +78,7 @@ Power BI 報表伺服器報表不支援：
 * Power BI Desktop 預覽功能
 
 ### <a name="in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中
-Power BI 報表伺服器報表支援 [Power BI 行動裝置應用程式](../mobile-apps-for-mobile-devices.md)中的所有基本功能，包括：
+Power BI 報表伺服器報表支援 [Power BI 行動裝置應用程式](../consumer/mobile/mobile-apps-for-mobile-devices.md)中的所有基本功能，包括：
 
 * [手機報表配置](../desktop-create-phone-report.md)：您可以將 Power BI 行動裝置應用程式的報表最佳化。 在您的行動電話上，最佳化的報表會有特殊圖示 ![手機報表配置圖示](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) 和配置。
   

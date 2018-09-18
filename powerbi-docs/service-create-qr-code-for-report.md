@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d99081a3d77ebfa7115d7546c59adc42eab308ca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 52c392123b6bc86b4a40d90a8479ed8fcd6dbc61
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237937"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726355"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>為 Power BI 的報表建立 QR 代碼以用於行動裝置應用程式
 Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要瀏覽或搜尋即可直接連接到相關的 BI 資訊。
 
 您可以為任何報表 (甚至是無法編輯的報表)，在 Power BI 服務中建立 QR 代碼。 然後將 QR 代碼放在索引鍵位置。 例如，您可將其貼在電子郵件中，或列印出後將它貼在特定位置。 
 
-已與其共用報表的同事，可以直接從[他們的行動裝置](mobile-apps-qr-code.md)掃描該 QR 代碼以存取報表。 他們可以使用位於 Power BI 應用程式中的 QR 代碼掃描器或其行動裝置所安裝的任何其他 QR 掃描器。 他們也可以[使用 Power BI for Mixed Reality 應用程式掃描報表 QR 代碼](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)。
+已與其共用報表的同事，可以直接從[他們的行動裝置](consumer/mobile/mobile-apps-qr-code.md)掃描該 QR 代碼以存取報表。 他們可以使用位於 Power BI 應用程式中的 QR 代碼掃描器或其行動裝置所安裝的任何其他 QR 掃描器。 他們也可以[使用 Power BI for Mixed Reality 應用程式掃描報表 QR 代碼](consumer/mobile/mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)。
 
 ## <a name="create-a-qr-code-for-a-report"></a>建立報表的 QR 代碼
 1. 開啟 Power BI 服務中的報表。
@@ -48,8 +48,8 @@ Power BI 會將 QR 代碼產生為 JPG 檔案，可供列印。
 2. 沿著邊緣剪下 QR 代碼，並將其黏到與報表相關之處。 
 
 ## <a name="next-steps"></a>後續步驟
-* 透過行動裝置應用程式[實際連接 Power BI 資料](mobile-apps-data-in-real-world-context.md)
-* [從行動裝置掃描 Power BI QR 代碼](mobile-apps-qr-code.md)
+* 透過行動裝置應用程式[實際連接 Power BI 資料](consumer/mobile/mobile-apps-data-in-real-world-context.md)
+* [從行動裝置掃描 Power BI QR 代碼](consumer/mobile/mobile-apps-qr-code.md)
 * [為磚建立 QR 代碼](service-create-qr-code-for-tile.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

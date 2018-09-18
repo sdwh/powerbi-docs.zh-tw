@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599222"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727925"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>教學課程：如何使用問與答來建立視覺效果及建置報表
-[問與答概觀](power-bi-q-and-a.md)簡介了 Power BI 問與答，並區分「取用者」(與他們共用了儀表板和報表) 和「建立者」(擁有基礎的報表和資料集)。 本教學課程的第一個部分，設計的對象主要是針對使用 Power BI 服務來取用儀表板的人。 第二個部分的設計則是針對使用 Power BI 服務或 Power BI Desktop 建立報表的人。 [問與答和 Power BI 行動版](mobile-apps-ios-qna.md)和[問與答與 Power BI Embedded](developer/qanda.md) 包含於個別的文章中。
+[問與答概觀](power-bi-q-and-a.md)簡介了 Power BI 問與答，並區分「取用者」(與他們共用了儀表板和報表) 和「建立者」(擁有基礎的報表和資料集)。 本教學課程的第一個部分，設計的對象主要是針對使用 Power BI 服務來取用儀表板的人。 第二個部分的設計則是針對使用 Power BI 服務或 Power BI Desktop 建立報表的人。 [問與答和 Power BI 行動版](consumer/mobile/mobile-apps-ios-qna.md)和[問與答與 Power BI Embedded](developer/qanda.md) 包含於個別的文章中。
 
 問與答易於互動，甚至充滿樂趣，而且，一個問題多半會帶來更多其他問題，原因在於視覺效果會顯示可探索的有趣路徑。 觀看 Amanda 示範使用問與答來建立視覺效果、深入探討這些視覺效果，以及將其釘選至儀表板。
 
@@ -44,7 +44,7 @@ ms.locfileid: "37599222"
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-list.png)
 
-3. 當您輸入問題時，問與答會挑選最佳的[視覺效果](power-bi-visualization-types-for-reports-and-q-and-a.md)來顯示您的答案；而當您修改這個問題時，視覺效果就會動態改變。
+3. 當您輸入問題時，問與答會挑選最佳的[視覺效果](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)來顯示您的答案；而當您修改這個問題時，視覺效果就會動態改變。
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-viz.png)
 
@@ -82,7 +82,7 @@ ms.locfileid: "37599222"
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-suggestions.png)
 
-4. 當您輸入問題時，問與答會挑選最佳的[視覺效果](power-bi-visualization-types-for-reports-and-q-and-a.md)來顯示您的答案；而當您修改這個問題時，視覺效果就會動態改變。
+4. 當您輸入問題時，問與答會挑選最佳的[視覺效果](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)來顯示您的答案；而當您修改這個問題時，視覺效果就會動態改變。
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-visual.png)
 

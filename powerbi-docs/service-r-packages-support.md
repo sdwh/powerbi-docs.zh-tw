@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2d8509c83ccce3d76926d926c64061ca78c100d
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: fc4d62134bccae1a1ac0fd10444dd47c84ecc945
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256162"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727022"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 服務中的 R 套件
 您可以使用功能強大的 [R 程式設計語言](https://www.r-project.org/)在 Power BI 服務中建立視覺效果。 Power BI 服務支援眾多 R 套件 (有更多套件一直受到支援)，有些套件則不具支援。
 
-下列章節提供按照字母順序的表格，指出 Power BI 支援與不支援哪些 R 套件。 如需 Power BI 中的 R 詳細資訊，請參閱 [R 視覺效果](service-r-visuals.md)文章。
+下列章節提供按照字母順序的表格，指出 Power BI 支援與不支援哪些 R 套件。 如需 Power BI 中的 R 詳細資訊，請參閱 [R 視覺效果](visuals/service-r-visuals.md)文章。
 
 ## <a name="request-support-for-a-new-r-package"></a>要求新 R 套件的支援
 下節 (標題為＜支援的套件＞) 可以找到 **Power BI 服務**支援的 R 套件。 如果您想要要求支援該清單中找不到的 R 套件，則可以將包含要求的電子郵件傳送至 [Power BI 意見反應小組中的 R](mailto:rinpbifb@microsoft.com)。
@@ -940,7 +940,7 @@ ms.locfileid: "39256162"
 ## <a name="next-steps"></a>後續步驟
 如需 Power BI 中 R 的詳細資訊，請查看下列文章：
 
-* [在 Power BI 服務中建立 R 視覺效果](service-r-visuals.md)
+* [在 Power BI 服務中建立 R 視覺效果](visuals/service-r-visuals.md)
 * [使用 R 建立 Power BI 視覺效果](desktop-r-visuals.md)
 * [在 Power BI Desktop 中執行 R 指令碼](desktop-r-scripts.md)
 * [在查詢編輯器中使用 R](desktop-r-in-query-editor.md)

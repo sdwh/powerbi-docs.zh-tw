@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: c407b967ce4a8c1ee31b9a750f2e281ff0a8caa7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092107"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558485"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>在 AppSource 上發佈自訂視覺效果
 了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及使用。
@@ -32,7 +32,7 @@ ms.locfileid: "37092107"
 | --- | --- | --- |
 | Pbiviz 套件包含所有必要的中繼資料 |是 |視覺效果名稱<br>顯示名稱<br>GUID<br>版本<br>描述<br>作者名稱和電子郵件 |
 | .pbix 報表檔案範例 |是 |為展示您的視覺效果，您應該協助使用者熟悉該視覺效果。 您應該強調視覺效果為使用者帶來的價值，並提供範例使用方式、格式化選項等等。您也可以在結尾新增「提示」頁面，提供一些像是提示與祕訣、要避免的事項等等。<br>.pbix 報表範例檔案必須離線工作，不能有任何外部連線 |
-| 圖示 |是 |您應該包含店面中會出現的自訂視覺效果標誌。 格式可以是 .png、.jpg、.jpeg 或 .gif。 它必須剛好 300px (寬度) x 300px (高度)。 **重要！** 提交圖示之前，請仔細檢閱[簡短指南](https://docs.microsoft.com/en-us/office/dev/store/craft-effective-appsource-store-images) \(英文\)。 |
+| 圖示 |是 |您應該包含店面中會出現的自訂視覺效果標誌。 格式可以是 .png、.jpg、.jpeg 或 .gif。 它必須剛好 300px (寬度) x 300px (高度)。 **重要！** 提交圖示之前，請仔細檢閱[簡短指南](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) \(英文\)。 |
 | 螢幕擷取畫面 |是 |您必須提供至少一張螢幕擷取畫面。 格式可以是 .png、.jpg、.jpeg 或 .gif。 它必須剛好為 1366px (寬度) x 768px (高度)。 檔案大小不能大於 1024 KB。 「為提高使用率，請新增文字泡泡以表達每張螢幕擷取畫面所顯示重要功能的價值定位。」 |
 | 支援下載連結 |是 |提供 URL 以支援使用您視覺效果發生問題的客戶。 URL 的格式應該包含 https:// 或 http:// 。 |
 | 隱私權文件連結 |是 |為使用您視覺效果的客戶提供隱私權原則連結。 連結的格式應該包含 https:// 或 http:// 。 |
@@ -130,7 +130,7 @@ ms.locfileid: "37092107"
 
 ## <a name="next-steps"></a>後續步驟
 [使用開發人員工具建立自訂視覺效果](../service-custom-visuals-getting-started-with-developer-tools.md)  
-[Power BI 中的視覺效果](../power-bi-report-visualizations.md)  
+[Power BI 中的視覺效果](../visuals/power-bi-report-visualizations.md)  
 [Power BI 中的自訂視覺效果](../power-bi-custom-visuals.md)  
 [讓自訂視覺效果「通過認證」](../power-bi-custom-visuals-certified.md)
 

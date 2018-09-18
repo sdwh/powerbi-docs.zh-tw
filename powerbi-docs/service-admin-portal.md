@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 592c3bf5fbd508d63236d16ca21164ee507df35b
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300107"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726907"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
 
@@ -78,7 +78,7 @@ ms.locfileid: "43300107"
 
 第二個區段顯示相同類型的資訊，但以群組為依據。 這可讓您查看貴組織中最活躍的群組，以及他們使用的資訊類型。
 
-利用此資訊，您就可以真正了解組織中人員如何使用 Power BI，而且能夠識別出貴組織中活躍的使用者和群組。
+利用這項資訊，您就可以真正了解組織中人員如何使用 Power BI，而且能夠識別出貴組織中活躍的使用者和群組。
 
 ## <a name="users"></a>使用者
 
@@ -127,7 +127,7 @@ ms.locfileid: "43300107"
 
 ## <a name="workspace-settings"></a>工作區設定
 
-### <a name="create-workspaces-preview"></a>建立工作區 (預覽版)
+### <a name="create-workspaces-preview"></a>建立工作區 (預覽)
 組織中的使用者可以建立應用程式工作區來共同處理儀表板、報表及其他內容。
 
 如需詳細資訊，請參閱[建立新的工作區](service-create-the-new-workspaces.md)。
@@ -200,7 +200,7 @@ ms.locfileid: "43300107"
 
    ![允許推送應用程式](media/service-create-distribute-apps/power-bi-apps-pushapps01.png)
 
-您可以將該設定切換至 [已啟用]，然後指定取得此功能的人員 (整個組織或特定安全性群組)。
+您可以將該設定切換至 [已啟用]，然後指定取得這項功能的人員 (整個組織或特定安全性群組)。
 
 > [!NOTE]
 > 請記住，租用戶設定變更可能需要一些時間才會生效。
@@ -214,7 +214,7 @@ ms.locfileid: "43300107"
 組織中的使用者可以使用 Cortana 提出關於資料的問題。
 
 > [!NOTE]
-> 此設定適用於整個組織，而無法限於特定群組。
+> 這項設定適用於整個組織，而無法限於特定群組。
 
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>在內部部署資料集使用 [在 Excel 中進行分析]
 
@@ -227,7 +227,7 @@ ms.locfileid: "43300107"
 
 組織中的使用者可使用由 Esri 所提供的 ArcGIS Maps for Power BI 視覺效果。 [深入了解](power-bi-visualization-arcgis.md)
 
-### <a name="use-global-search-for-power-bi-preview"></a>為 Power BI 使用全域搜尋 (預覽版)
+### <a name="use-global-search-for-power-bi-preview"></a>為 Power BI 使用全域搜尋 (預覽)
 
 組織中的使用者可以使用依賴 Azure 搜尋的外部搜尋功能。 例如，使用者可以使用 Cortana，直接從 Power BI 儀表板和報表擷取關鍵資訊。 [深入了解](service-cortana-intro.md)
 
@@ -238,16 +238,16 @@ ms.locfileid: "43300107"
 組織中的使用者可以共用自訂視覺效果，並與其互動。 [深入了解](power-bi-custom-visuals.md)
 
 > [!NOTE]
-> 此設定適用於整個組織，而無法限於特定群組。
+> 這項設定適用於整個組織，而無法限於特定群組。
 
 ## <a name="r-visuals-settings"></a>R 視覺效果設定
 
 ### <a name="interact-with-and-share-r-visuals"></a>共用 R 視覺效果並與其互動
 
-組織中的使用者可以共用以 R 指令碼建立的視覺效果，並與其互動。 [深入了解](service-r-visuals.md)
+組織中的使用者可以共用以 R 指令碼建立的視覺效果，並與其互動。 [深入了解](visuals/service-r-visuals.md)
 
 > [!NOTE]
-> 此設定適用於整個組織，而無法限於特定群組。
+> 這項設定適用於整個組織，而無法限於特定群組。
 
 ## <a name="audit-and-usage-settings"></a>稽核與使用方式設定
 
@@ -255,10 +255,10 @@ ms.locfileid: "43300107"
 
 組織中的使用者可以使用稽核來監視組織中其他使用者在 Power BI 中執行的動作。 [深入了解](service-admin-auditing.md)
 
-必須啟用此設定，才能記錄稽核記錄項目。 啟用稽核到能夠檢視稽核資料之間，有最多 48 小時的延遲。 若您未立即看到資料，請稍候再查看稽核記錄。 取得檢視稽核記錄的權限，以及能夠存取記錄的延遲可能相近。
+必須啟用這項設定，才能記錄稽核記錄項目。 啟用稽核到能夠檢視稽核資料之間，有最多 48 小時的延遲。 若您未立即看到資料，請稍候再查看稽核記錄。 取得檢視稽核記錄的權限，以及能夠存取記錄的延遲可能相近。
 
 > [!NOTE]
-> 此設定適用於整個組織，而無法限於特定群組。
+> 這項設定適用於整個組織，而無法限於特定群組。
 
 ### <a name="usage-metrics-for-content-creators"></a>內容建立者的使用計量
 組織中的使用者可以看到自己所建立之儀表板與報表的使用計量。 [深入了解](service-usage-metrics.md)。
@@ -273,7 +273,7 @@ ms.locfileid: "43300107"
 
 您可以將該設定切換至 [已啟用]，然後指定可查看使用計量中之顯示名稱與電子郵件地址的人員 (整個組織或特定安全性群組)。
 
-根據預設，已啟用使用計量的個別使用者資料，而且會將內容建立者帳戶資訊併入計量報表中。 如果您不想要針對部分或所有使用者包括此資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」。
+根據預設，已啟用使用計量的個別使用者資料，而且會將內容建立者帳戶資訊併入計量報表中。 如果您不想要針對部分或所有使用者包括這項資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」。
 
 > [!NOTE]
 > 請記住，租用戶設定變更可能需要一些時間才會生效。
@@ -286,7 +286,7 @@ ms.locfileid: "43300107"
 組織中的使用者可以用指出儀表板安全性層級的分類來標記儀表板。 [深入了解](service-data-classification.md)
 
 > [!NOTE]
-> 此設定適用於整個組織，而無法限於特定群組。
+> 這項設定適用於整個組織，而無法限於特定群組。
 
 ## <a name="developer-settings"></a>開發人員設定
 
