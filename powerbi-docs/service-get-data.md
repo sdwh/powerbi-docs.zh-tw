@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: fba2ea948190a59039766ffc2b5fab6189896ab8
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 4b61ff56ea1aec64a3e88db46836f948c4190d60
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328480"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547445"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服務的資料來源
 資料是 Power BI 的核心。 每當您瀏覽資料、建立圖表與儀表板、利用問與答提出問題時，您看到的所有視覺效果與答案其實都是從資料集取得其基礎資料。 但是，該資料集又來自何處？ 來自資料來源。
@@ -44,7 +44,7 @@ ms.locfileid: "39328480"
 
 內容套件包含您需要的所有現有資料與報表。 在 Power BI 中，有兩種內容套件類型：來自 Google Analytics (分析)、Marketo 或 Salesforce 等服務的內容套件，以及由您組織中其他使用者所建立及共用的內容套件。
 
-**服務** - 實際上有數十種服務提供 Power BI 內容套件，而且還不斷增加中。 大部分服務都要求您具有帳戶。 如需深入了解，請參閱[連接至服務](service-connect-to-services.md)。
+**服務** - 實際上有數十種服務提供 Power BI 內容套件，而且還不斷增加中。 大部分服務都要求您具有帳戶。 如需深入了解，請參閱[連接至服務](consumer/end-user-connect-to-services.md)。
 
 **組織** - 如果您與組織中的其他使用者具有 Power BI Pro 帳戶，則可以建立、共用及使用內容套件。 如需深入了解，請參閱[組織內容套件](service-organizational-content-pack-introduction.md)。
 
