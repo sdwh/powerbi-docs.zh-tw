@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 617809e072a492fb9887930e58bafd89ca8201e8
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310283"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544919"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Power BI 報表中的靜態內容
 可以使用 Power BI 服務和 Power BI Desktop 將文字方塊和圖形新增至報表。 在這兩種情況下，您都必須要有報表的編輯權限。 如果報表已在 Power BI 服務中與您共用，則您將不具有編輯權限。 
@@ -65,6 +65,6 @@ ms.locfileid: "34310283"
 ### <a name="next-steps"></a>後續步驟
 [將超連結新增至文字方塊](service-add-hyperlink-to-text-box.md)
 
-[Power BI - 基本概念](service-basic-concepts.md)
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

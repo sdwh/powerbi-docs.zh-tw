@@ -2,7 +2,7 @@
 title: Power BI 中的瀑布圖
 description: Power BI 中的瀑布圖
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: feb608455add8740d7894fa2cec3c54a8a26944e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729412"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565812"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布圖
 瀑布圖會顯示總額的增減變動。 它適用於了解起始值 (例如淨收益) 如何受到一系列正面和負面變更的影響。
@@ -74,13 +74,13 @@ ms.locfileid: "44729412"
 在瀑布圖中反白顯示資料行會交叉篩選報表頁面上的其他視覺效果，反之亦然。 不過，[總計] 資料行不會觸發反白顯示或回應交叉篩選。
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 中的報表](../service-reports.md)
+[Power BI 中的報表](../consumer/end-user-reports.md)
 
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Power BI 報表的視覺效果](power-bi-report-visualizations.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

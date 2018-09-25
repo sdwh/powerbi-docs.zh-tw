@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: v-thepet
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5758bb53fe4a8a3658d242c3bd72da0a78500579
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729492"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565076"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的交叉分析篩選器
 您希望報告讀者能夠查看整體銷售計量，但也能夠醒目提示個別區經理和不同時間範圍的績效。 您可以建立個別的報告或比較圖表，或是使用交叉分析篩選器。 交叉分析篩選器是一種替代的篩選方式，可縮小報表內其他視覺效果中顯示的資料集部分。 
@@ -98,7 +98,7 @@ Power BI 交叉分析篩選器具有下列限制：
 2. 選取 **Total Sales Variance by FiscalMonth and District Manager** \(依 FiscalMonth 和區經理的總銷售額差異\) 圖表上方的 [無] 圖示，讓交叉分析篩選器停止篩選它。 
 3. 選取 [月份] 交叉分析篩選器，然後再次選取 **Total Sales Variance by FiscalMonth and District Manager**\(依 FiscalMonth 和區經理的總銷售額差異\) 圖表上方的 [無] 圖示，讓此交叉分析篩選器停止篩選它。 現在，當您選取交叉分析篩選器中的名稱和日期範圍時，Total Sales Variance by FiscalMonth and District Manager \(依 FiscalMonth 和區經理的總銷售額差異\) 圖表會保持不變。 
 
-如需編輯互動的詳細資訊，請參閱 [Power BI 報表中的視覺互動](../service-reports-visual-interactions.md)。
+如需編輯互動的詳細資訊，請參閱 [Power BI 報表中的視覺互動](../consumer/end-user-interactions.md)。
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>將交叉分析篩選器同步至其他頁面上使用
 從 2018 年 2 月版的 Power BI 更新開始，您可以同步交叉分析篩選器並在報表的任何或所有頁面上使用它。 
@@ -193,5 +193,5 @@ Power BI 交叉分析篩選器具有下列限制：
 
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 

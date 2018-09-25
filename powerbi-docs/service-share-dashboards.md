@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b34c16337158e784b0c41bd3e3fd93aca9504cd7
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4d43ffb1f4e005830fd36da4e80cf4d0c7d86fed
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727298"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549929"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用您的 Power BI 儀表板和報表
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 還提供[數種其他方式可進行共同作業及散發您的儀表板和報表](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -110,7 +110,7 @@ ms.locfileid: "44727298"
 共用儀表板和報表時的重要事項︰
 
 * 一般來說，您和您的同事會在儀表板或報表中看到相同的資料。 因此，如果您具有可看到較多資料的權限，您的同事將能在您的儀表板或報表中看到您所有的資料。 不過，如果已將[資料列層級安全性 (RLS)](service-admin-rls.md) 套用至儀表板或報表的基礎資料集，則系統會依據每個人的認證來決定其可以存取的資料。
-* 共用您儀表板的每個人都可以看到此儀表板，並在[閱讀檢視](service-reading-view-and-editing-view.md)中與相關的報表互動。 他們無法建立報表，或在現有的報表中儲存變更。
+* 共用您儀表板的每個人都可以看到此儀表板，並在[閱讀檢視](consumer/end-user-reading-view.md)中與相關的報表互動。 他們無法建立報表，或在現有的報表中儲存變更。
 * 沒有人可以看到或下載資料集。
 * 每個人都可以手動[重新整理資料](refresh-data.md)。
 * 如果電子郵件使用 Office 365，您可以輸入與通訊群組相關聯的電子郵件地址來與通訊群組的成員共用。

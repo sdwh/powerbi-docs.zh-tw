@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: e60cc5341bba50d9fac82f032656f449cadaa255
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558462"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546528"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>管理 Power BI Premium 和 Power BI Embedded 內的容量
 了解如何管理提供內容專用資源的 Power BI Premium 和 Power BI Embedded 容量。
@@ -183,6 +183,6 @@ Power BI 提供用於監視容量使用狀況的應用程式。 如需詳細資�
 如需詳細資訊，請參閱[安裝 Power BI 報表伺服器](report-server/install-report-server.md)。
 
 ## <a name="next-steps"></a>後續步驟
-與使用者共用已發佈的應用程式。 如需詳細資訊，請參閱[在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md)。
+與使用者共用已發佈的應用程式。 如需詳細資訊，請參閱[在 Power BI 中建立和散發應用程式](consumer/end-user-create-apps.md)。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)

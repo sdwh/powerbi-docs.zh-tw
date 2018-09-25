@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240202"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550044"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>從報表將圖格釘選至 Power BI 儀表板
 ## <a name="pinning-tiles-from-a-report"></a>釘選報表的磚
-加入新[儀表板磚](service-dashboard-tiles.md)的一種方法是從 [Power BI 報表](service-reports.md)加入。 事實上，您也可以從報表中加入許多新的圖格。  當您按一下這些圖格時，可做為回到報表的連結。
+加入新[儀表板磚](consumer/end-user-tiles.md)的一種方法是從 [Power BI 報表](consumer/end-user-reports.md)加入。 事實上，您也可以從報表中加入許多新的圖格。  當您按一下這些圖格時，可做為回到報表的連結。
 
 而且整個報表頁面可以釘選至儀表板。  這也稱為釘選 *動態* 磚。  *動態* 因為您可以與儀表板上的磚互動，而且，不同於個別視覺效果磚，在報表中所做的變更會與儀表板同步。 在以下項目深入了解。
 
@@ -58,15 +58,15 @@ ms.locfileid: "34240202"
 如需詳細資訊，請參閱[釘選整份報表頁面](service-dashboard-pin-live-tile-from-report.md)
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 中的儀表板](service-dashboards.md)
+[Power BI 中的儀表板](consumer/end-user-dashboards.md)
 
-[Power BI 的儀表板磚](service-dashboard-tiles.md)
+[Power BI 的儀表板磚](consumer/end-user-tiles.md)
 
-[Power BI 中的報表](service-reports.md)
+[Power BI 中的報表](consumer/end-user-reports.md)
 
 [Power BI 的資料重新整理](refresh-data.md)
 
-[Power BI 基本概念](service-basic-concepts.md)
+[Power BI 基本概念](consumer/end-user-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

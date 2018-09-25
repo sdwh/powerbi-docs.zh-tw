@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a22bee33254e447f27f717b78a53fe3a5cc34fb2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242123"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545444"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 報表的頁面顯示設定
 我們了解保持報表版面配置像素完美的重要性。 有時候這會有點困難，因為您和您的同事使用外觀比例和大小不同的螢幕檢視這些報表。 
@@ -39,7 +39,7 @@ ms.locfileid: "34242123"
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-[閱讀檢視和編輯檢視](service-reading-view-and-editing-view.md)中都可使用 [頁面檢視] 設定。 在 [編輯檢視] 中，報告擁有者可以將頁面檢視設定指派給個別的報告頁面，而這些設定會隨報告一起儲存。 當同事在 [閱讀檢視] 中開啟該報告時，她看到的是以擁有者設定所顯示的報告頁面。  同事可以在 [閱讀檢視] 中，變更「某些」頁面檢視設定，但是在離開報告時不會儲存所做的變更。
+[閱讀檢視和編輯檢視](consumer/end-user-reading-view.md)中都可使用 [頁面檢視] 設定。 在 [編輯檢視] 中，報告擁有者可以將頁面檢視設定指派給個別的報告頁面，而這些設定會隨報告一起儲存。 當同事在 [閱讀檢視] 中開啟該報告時，她看到的是以擁有者設定所顯示的報告頁面。  同事可以在 [閱讀檢視] 中，變更「某些」頁面檢視設定，但是在離開報告時不會儲存所做的變更。
 
 ##    <a name="page-view-settings"></a>頁面檢視設定
 第一組 [頁面檢視] 設定可控制報告頁面相對於瀏覽器視窗的顯示。  選擇如下：
@@ -62,7 +62,7 @@ ms.locfileid: "34242123"
 ## <a name="page-size-settings"></a>[頁面大小] 設定
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-只有報告擁有者可以使用 [頁面大小] 設定。 在 Power BI 服務 (app.powerbi.com) 中，這表示能夠在[編輯檢視](service-reading-view-and-editing-view.md)中開啟報告。 這些設定可控制報告畫布的顯示比例和實際大小 (以像素為單位)。   
+只有報告擁有者可以使用 [頁面大小] 設定。 在 Power BI 服務 (app.powerbi.com) 中，這表示能夠在[編輯檢視](consumer/end-user-reading-view.md)中開啟報告。 這些設定可控制報告畫布的顯示比例和實際大小 (以像素為單位)。   
 
 * 4:3 比例
 * 16:9 比例 (預設值)
@@ -71,11 +71,11 @@ ms.locfileid: "34242123"
 * 自訂 (以像素為單位的高度和寬度)
 
 ## <a name="next-steps"></a>後續步驟
-[了解如何在您自己的 Power BI 報告中使用 [頁面檢視] 和 [頁面大小] 設定](power-bi-change-report-display-settings.md)。
+[了解如何在您自己的 Power BI 報告中使用 [頁面檢視] 和 [頁面大小] 設定](consumer/end-user-report-view.md)。
 
-深入了解 [Power BI 中的報表](service-reports.md)
+深入了解 [Power BI 中的報表](consumer/end-user-reports.md)
 
-[Power BI - 基本概念](service-basic-concepts.md)
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

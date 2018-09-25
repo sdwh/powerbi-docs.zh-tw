@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c3ca95f8a00bdf0eeb54351154d95f30ae77b558
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 0336a89c5dcb1414607721dfc5f84ef835acd615
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732272"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545049"
 ---
 # <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中複製並貼上視覺效果
-複製並貼上視覺效果時，需要有報告的編輯權限。 在 Power BI 服務中，這表示在[編輯檢視](../service-reading-view-and-editing-view.md)中開啟報告。
+複製並貼上視覺效果時，需要有報告的編輯權限。 在 Power BI 服務中，這表示在[編輯檢視](../consumer/end-user-reading-view.md)中開啟報告。
 
 1. 開啟至少有一個視覺效果的報告。  
 

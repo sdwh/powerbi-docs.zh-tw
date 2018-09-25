@@ -1,21 +1,21 @@
 ---
 title: 長條圖
 description: 長條圖
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48dc6b9066ae843f508a714da88acc8aa6560b51
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4a8d04f87959c5a746fc2ac490bb63afb98607cc
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729413"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565030"
 ---
 # <a name="histograms"></a>長條圖
 在 Power BI 中建立長條圖的方式有幾種。 我們先從最簡單的方式開始，再繼續往下進行。

@@ -1,21 +1,21 @@
 ---
 title: 開始使用色彩格式和軸屬性
 description: 開始使用色彩格式和軸屬性
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/06/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1f5940b42c06a80e9f9437a67a13d1d6b5031cbb
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: baa09e190bc33dfd99bcd80d8705ed6ec71d3a1d
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729447"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564869"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>開始使用色彩格式和軸屬性
 在 **Power BI** 中，您可以變更資料數列、資料點、甚至視覺效果背景的色彩。 您也可以變更 x 軸和 y 軸的顯示方式，讓您完全掌控儀表板和報表的顯示方式。

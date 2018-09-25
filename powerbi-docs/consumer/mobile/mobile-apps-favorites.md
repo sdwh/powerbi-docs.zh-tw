@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 586e95ba624bde1d18b5c431a1b9dcbb642b939c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a689a3b04ca3b48c0b924ae62a52315dc3535faf
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732055"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544920"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>在 Power BI 行動應用程式中建立及檢視我的最愛項目
 適用於︰
@@ -30,7 +30,7 @@ ms.locfileid: "44732055"
 ![Power BI 行動裝置應用程式中我的最愛項目](./media/mobile-apps-favorites/power-bi-android-favorites-reports.png)
 
 
-您也可以[在 Power BI 服務中將 Power BI 儀表板與應用程式設為我的最愛](../../service-dashboard-favorite.md)。 這些項目隨後會出現在行動應用程式的 [我的最愛] 頁面。
+您也可以[在 Power BI 服務中將 Power BI 儀表板與應用程式設為我的最愛](../end-user-favorite.md)。 這些項目隨後會出現在行動應用程式的 [我的最愛] 頁面。
 
 您可以在 Power BI 報表伺服器或 Reporting Services 入口網站中，將 KPI 和報表標示為 [我的最愛]，然後在方便的行動裝置資料夾中，檢視它們和 Power BI 的 [我的最愛] 儀表板。
 
@@ -76,6 +76,6 @@ ms.locfileid: "44732055"
 您可以在 Power BI 行動裝置應用程式中，檢視您最愛的 Power BI 報表伺服器和 Reporting Services 報表與 KPI，但無法將它們設成行動裝置應用程式的 [我的最愛]。 [在入口網站中將其標記為 [我的最愛]](../../report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites)。 
 
 ## <a name="next-steps"></a>後續步驟
-* [Power BI 服務中我的最愛儀表板](../../service-dashboard-favorite.md) 
+* [Power BI 服務中我的最愛儀表板](../end-user-favorite.md) 
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

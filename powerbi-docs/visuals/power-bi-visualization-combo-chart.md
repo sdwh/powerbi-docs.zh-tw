@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 732f27a8272c780d156912da904bab82de03f326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729474"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543995"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI 中的組合圖
 在 Power BI 中，組合圖是結合折線圖和直條圖的單一視覺效果。 將 2 種圖結合成一個，讓您可以更快速地比較資料。
@@ -103,13 +103,13 @@ ms.locfileid: "44729474"
 
 接下來，您可能會想要：
 
-* [將組合圖加入為儀表板圖格](../service-dashboard-tiles.md)。
+* [將組合圖加入為儀表板圖格](../consumer/end-user-tiles.md)。
 * [儲存報表](../service-report-save.md)。
 * [使報表讓行動不便人士易於存取](../desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>交叉反白顯示和交叉篩選
 
-在組合圖中反白顯示直條或折線，會交叉反白顯示和交叉篩選報表頁面上的其他視覺效果，反之亦然。 若要變更此預設行為，請使用[視覺效果互動](../service-reports-visual-interactions.md)。
+在組合圖中反白顯示直條或折線，會交叉反白顯示和交叉篩選報表頁面上的其他視覺效果，反之亦然。 若要變更此預設行為，請使用[視覺效果互動](../consumer/end-user-interactions.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
@@ -117,6 +117,6 @@ ms.locfileid: "44729474"
 
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

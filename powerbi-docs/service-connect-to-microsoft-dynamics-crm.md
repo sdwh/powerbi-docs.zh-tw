@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38937254"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547054"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>使用 Power BI 連接到 Microsoft Dynamics CRM
 Microsoft Dynamics CRM Online for Power BI可讓您輕鬆存取並分析資料。 Power BI 使用 OData 摘要建立描述性模型，包括所有必要的實體及量值，例如帳戶、活動、機會、產品、潛在客戶、使用者和其他資料。 安裝應用程式之後，即可在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 及 Power BI 行動應用程式中，檢視儀表板與報表。 
@@ -154,7 +154,7 @@ Power BI 只支援 Dynamics CRM 2016 端點。 連線不適用於舊版的 CRM O
 如果您看到錯誤「資料重新整理失敗，因為查詢超過 100000 筆記錄上限。」，請考慮直接從 Power BI Desktop 連線，或利用 CRM 方案範本。
 
 ## <a name="next-steps"></a>後續步驟
-* [Power BI 中的應用程式是什麼？](service-install-use-apps.md)
+* [Power BI 中的應用程式是什麼？](consumer/end-user-apps.md)
 * [取得 Power BI 中的資料](service-get-data.md)
 * 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

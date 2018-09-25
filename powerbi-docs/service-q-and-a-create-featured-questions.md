@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726309"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548227"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>建立 Power BI 問與答的精選問題
 如果您擁有自己的資料集，則可將自己的精選問題新增至該資料集。  接著，Power BI 問與答會向使用 (取用) 您資料集的同事顯示這些問題。  精選問題可讓您的同事有些概念，知道要針對資料集詢問哪類問題。 您可自行決定要新增什麼精選問題 -- 新增熱門問題、會顯示有趣結果的問題，或難以簡短說明的問題。
@@ -47,8 +47,8 @@ ms.locfileid: "44726309"
    ![地圖視覺效果](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>後續步驟
-[Power BI 中的問與答](power-bi-q-and-a.md)  
+[Power BI 中的問與答](consumer/end-user-q-and-a.md)  
 [教學課程：Power BI 問與答簡介](power-bi-visualization-introduction-to-q-and-a.md)  
-[Power BI - 基本概念](service-basic-concepts.md)  
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

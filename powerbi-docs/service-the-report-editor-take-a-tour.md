@@ -11,25 +11,25 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3c6ae5351908bd71888040c3bc900323837935c2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726631"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546065"
 ---
 # <a name="the-report-editortake-a-tour"></a>報表編輯器...導覽
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中編輯報表
 Power BI 服務中的報表編輯器與 Power BI Desktop 中的報表編輯器非常類似。 下列影片將說明 Power BI Desktop 中的報表編輯器，而本文則說明 Power BI 服務中的報表編輯器。 
 
 ## <a name="the-difference-between-report-creators-and-report-consumers"></a>報表「建立者」和報表「取用者」的差異
-建立和編輯報表的功能只限報表擁有者使用 (也稱為「建立者」)。 如果您「取用」與您共用的報表，則仍然只能在 Power BI 服務的[閱讀檢視](service-reading-view-and-editing-view.md)中開啟報表並與之互動，但不具有所有提供給報表建立者健全且完整的功能。  
+建立和編輯報表的功能只限報表擁有者使用 (也稱為「建立者」)。 如果您「取用」與您共用的報表，則仍然只能在 Power BI 服務的[閱讀檢視](consumer/end-user-reading-view.md)中開啟報表並與之互動，但不具有所有提供給報表建立者健全且完整的功能。  
 
-若要深入了解報表閱讀檢視，請參閱 [Power BI 服務中的閱讀檢視和編輯檢視](service-reading-view-and-editing-view.md)。 
+若要深入了解報表閱讀檢視，請參閱 [Power BI 服務中的閱讀檢視和編輯檢視](consumer/end-user-reading-view.md)。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-在 Power BI 服務中，「報表編輯器」只能在[編輯檢視](service-reading-view-and-editing-view.md)中使用。 若要以編輯檢視開啟報表，您必須是報表擁有者或建立者。
+在 Power BI 服務中，「報表編輯器」只能在[編輯檢視](consumer/end-user-reading-view.md)中使用。 若要以編輯檢視開啟報表，您必須是報表擁有者或建立者。
 
 Power BI 報表編輯器是由 3 個區段所組成︰  
 
@@ -126,9 +126,9 @@ Power BI 報表編輯器是由 3 個區段所組成︰
 ## <a name="next-steps"></a>後續步驟：
 [建立報表](service-report-create-new.md)
 
-深入了解 [Power BI 服務](service-reports.md)、[Power BI Desktop](desktop-report-view.md) 和 [Power BI 行動版](consumer/mobile/mobile-apps-view-phone-report.md)中的報表。
+深入了解 [Power BI 服務](consumer/end-user-reports.md)、[Power BI Desktop](desktop-report-view.md) 和 [Power BI 行動版](consumer/mobile/mobile-apps-view-phone-report.md)中的報表。
 
-[Power BI - 基本概念](service-basic-concepts.md)
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

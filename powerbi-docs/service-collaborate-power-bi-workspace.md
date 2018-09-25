@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623922"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543941"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>在 Power BI 應用程式工作區中共同作業
 Power BI 應用程式工作區是與您的同事共同作業以利用儀表板、報表和資料集來建立「應用程式」的絕佳地方。 共同作業不會止於 Power BI 中的工作區。 Office 365 提供其他群組服務，例如共用商務用 OneDrive 上的檔案、Exchange 中的交談、共用行事曆和工作等等。 深入了解 [Office 365 的群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)。
@@ -38,7 +38,7 @@ Power BI 應用程式工作區是與您的同事共同作業以利用儀表板�
    
     ![[報表] 索引標籤](media/service-collaborate-power-bi-workspace/power-bi-workspace-report.png)
    
-    從這裡開始，就像 Power BI 任何其他報表一樣。 您和應用程式工作區中的其他人可以[修改報表](service-reports.md)，並將磚儲存到您選擇的儀表板。
+    從這裡開始，就像 Power BI 任何其他報表一樣。 您和應用程式工作區中的其他人可以[修改報表](consumer/end-user-reports.md)，並將磚儲存到您選擇的儀表板。
 
 ## <a name="collaborate-in-office-365"></a>在 Office 365 中共同作業
 在 Office 365 中共同作業是從 Power BI 中的應用程式工作區開始。
@@ -77,7 +77,7 @@ Power BI 應用程式工作區是與您的同事共同作業以利用儀表板�
 如果您是應用程式工作區的擁有者或系統管理員，也可以新增或移除工作區成員。 深入了解[管理 Power BI 應用程式工作區](service-manage-app-workspace-in-power-bi-and-office-365.md)。
 
 ## <a name="next-steps"></a>後續步驟
-* [在 Power BI 中建立應用程式和應用程式工作區](service-create-distribute-apps.md)
+* [在 Power BI 中建立應用程式和應用程式工作區](consumer/end-user-create-apps.md)
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 * 想提出意見反應嗎？ 請前往 [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi)
 

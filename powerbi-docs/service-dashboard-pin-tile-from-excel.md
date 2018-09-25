@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3bb151de24a984406aa6fd40a70977f2e9eaf1be
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599586"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548043"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>從 Excel 將磚釘選到 Power BI 儀表板
 您要先連接活頁簿和 Power BI 服務 (app.powerbi.com)，才可以從 Excel 活頁簿釘選磚。 連接活頁簿其實就是將該活頁簿的連結唯讀版本帶入 Power BI 服務，讓您將範圍釘選到儀表板。 您甚至可以將整份工作表釘選到儀表板。  
@@ -49,7 +49,7 @@ ms.locfileid: "37599586"
     ![Power BI 中的 Excel Online](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>將資料格範圍釘選到儀表板
-新增[儀表板磚](service-dashboard-tiles.md)的一種方法是在 Power BI 中從 Excel 活頁簿新增。 範圍可以從儲存在商務用 OneDrive 的 Excel 活頁簿釘選，或是從其他群組共用的文件庫釘選。 該範圍可以包含資料、圖表、資料表、樞紐分析表、樞紐分析圖，以及其他 Excel 組件。
+新增[儀表板磚](consumer/end-user-tiles.md)的一種方法是在 Power BI 中從 Excel 活頁簿新增。 範圍可以從儲存在商務用 OneDrive 的 Excel 活頁簿釘選，或是從其他群組共用的文件庫釘選。 該範圍可以包含資料、圖表、資料表、樞紐分析表、樞紐分析圖，以及其他 Excel 組件。
 
 1. 反白顯示您要釘選到儀表板的資料格。
    

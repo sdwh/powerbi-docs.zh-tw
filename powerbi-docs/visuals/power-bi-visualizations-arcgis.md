@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 6a930342806eb32f22efe3d2974625c54c5377bf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a312a4311590d02d0fa8bd97726f9cf596cfe6a0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729459"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545766"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>在 Power BI 中與 ArcGIS 地圖互動
 本主題是從在 Power BI 服務、Power BI Desktop 或 Power BI Mobile 中「取用」ArcGIS 地圖的人員觀點來撰寫。 一旦建立者與您共用 ArcGIS 地圖，可利用許多方法與該地圖互動。  若要深入了解如何建立 ArcGIS 地圖，請參閱[由 Esri 提供的 ArcGIS 地圖教學課程](../power-bi-visualization-arcgis.md)。
@@ -55,9 +55,9 @@ ArcGIS Maps for Power BI 具有三個選取模式。 一次最多可以選取 25
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>與 ArcGIS 地圖互動
-您可以使用的功能取決於您是「建立者」(建立地圖的人) 或「取用者」(與您共用 ArcGIS 地圖的人)。 如果您以取用者身分與 ArcGIS 地圖互動 (也稱為[閱讀檢視](../service-reading-view-and-editing-view.md))，以下是您可以採取的動作。
+您可以使用的功能取決於您是「建立者」(建立地圖的人) 或「取用者」(與您共用 ArcGIS 地圖的人)。 如果您以取用者身分與 ArcGIS 地圖互動 (也稱為[閱讀檢視](../consumer/end-user-reading-view.md))，以下是您可以採取的動作。
 
-* 如同其他視覺效果類型，您可以[釘選到儀表板](../service-dashboard-pin-tile-from-report.md)、[檢視](../service-reports-show-data.md)及/或[匯出基礎資料](../power-bi-visualization-export-data.md)，然後在[焦點模式](../service-focus-mode.md)和[全螢幕](../service-fullscreen-mode.md)中查看地圖。    
+* 如同其他視覺效果類型，您可以[釘選到儀表板](../service-dashboard-pin-tile-from-report.md)、[檢視](../consumer/end-user-show-data.md)及/或[匯出基礎資料](../consumer/end-user-export-data.md)，然後在[焦點模式](../consumer/end-user-focus.md)和[全螢幕](../service-fullscreen-mode.md)中查看地圖。    
 * 展開 [篩選] 窗格以使用篩選探索地圖。 當您關閉報表時，不會儲存您所套用的篩選。    
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * 如果地圖有參考圖層，選取位置即可在工具提示中顯示詳細資料。 我們在這裡選取了亞當斯郡，並查看建立者新增至地圖之平均家庭收入參考圖層中的資料。

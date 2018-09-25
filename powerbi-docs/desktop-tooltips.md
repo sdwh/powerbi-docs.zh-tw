@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 69c0e6d253a1d8d8ecad9f562c0b992c01d4d577
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512148"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547103"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>在 Power BI Desktop 中根據報表頁面建立工具提示
 您可以建立視覺化的豐富**報表工具提示**，它們是您在 **Power BI Desktop** 中根據報表頁面所建立的，當您將滑鼠停留在視覺效果上時就會顯示。 透過建立作為工具提示的報表頁面，您的自訂工具提示可以包含視覺效果、影像和任何其他您在報表頁面中建立的項目集合。 
@@ -136,5 +136,5 @@ ms.locfileid: "44512148"
 如需類似功能或與報表工具提示互動的詳細資訊，請參閱下列文章：
 
 * [在 Power BI Desktop 中使用鑽研](desktop-drillthrough.md)
-* [以焦點模式顯示儀表板磚或報表視覺效果](service-focus-mode.md)
+* [以焦點模式顯示儀表板磚或報表視覺效果](consumer/end-user-focus.md)
 

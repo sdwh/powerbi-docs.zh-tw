@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726035"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544932"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>設計絕佳 Power BI 儀表板的秘訣
 現在您已經建立儀表板，及新增了某些圖格，請思考如何讓您的儀表板不只是好看，同時功能也更強。 一般而言，這代表將最重要的資訊設定為待命，讓它簡潔且整齊。
@@ -65,7 +65,7 @@ ms.locfileid: "44726035"
 * 請勿混合精確度和時間的等級。 請確定時間框架可讓人充分了解。  不要讓上個月的圖表緊鄰從該年度指定月份篩選出的圖表。
 * 在折線圖或橫條圖之類的圖表上，請勿在相同刻度混合大的和小的量值。  例如，一個量值可能數以百萬計，而其他量值以千為單位。  如果刻度太大，會很難看到以千為單位之量值的差異。  如果您需要混合，請選擇允許使用第二個軸的視覺效果。
 * 不要擾亂包含不必要資料標籤的圖表。 橫條圖中的值通常易於了解，而不需顯示實際數目。
-* 請注意[圖表如何排序](power-bi-report-change-sort.md)。  如果您想要強調最高或最低數字，請依量值排序。  如果您想要在許多其他類別目錄內，能夠快速尋找特定分類，請依軸排序。  
+* 請注意[圖表如何排序](consumer/end-user-change-sort.md)。  如果您想要強調最高或最低數字，請依量值排序。  如果您想要在許多其他類別目錄內，能夠快速尋找特定分類，請依軸排序。  
 * 圓形圖最適合具有少於八個類別目錄的量值。 因為您無法以並排方式比較值，所以在圓形圖中比較值，會比在橫條圖和直條圖中比較值更困難。 圓形圖適於檢視部分與整體的關聯性，而不是用於部分比較。 量表圖非常適合用來在目標內容中顯示目前狀態。
 
 如需更多特定視覺效果的指引，請參閱[ Power BI 中的視覺效果類型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
@@ -81,5 +81,5 @@ ms.locfileid: "44726035"
 
 ## <a name="next-steps"></a>後續步驟
 [從報表建立儀表板](service-dashboard-create.md)  
-[Power BI - 基本概念](service-basic-concepts.md)  
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

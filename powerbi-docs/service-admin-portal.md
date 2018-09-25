@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a9f394cdfefabf1392b0219079d95a35d38b1754
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726907"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546111"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
 
@@ -161,7 +161,7 @@ ms.locfileid: "44726907"
 
 ### <a name="export-data"></a>匯出資料
 
-組織中的使用者可以從磚或視覺效果匯出資料。 [深入了解](power-bi-visualization-export-data.md)
+組織中的使用者可以從磚或視覺效果匯出資料。 [深入了解](consumer/end-user-export-data.md)
 
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 
@@ -170,13 +170,13 @@ ms.locfileid: "44726907"
 
 ### <a name="export-reports-as-powerpoint-presentations"></a>將報表匯出為 PowerPoint 簡報
 
-組織中的使用者可以將 Power BI 報表匯出為 PowerPoint 檔案。 [深入了解](service-publish-to-powerpoint.md)
+組織中的使用者可以將 Power BI 報表匯出為 PowerPoint 檔案。 [深入了解](consumer/end-user-powerpoint.md)
 
 ![](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>列印儀表板和報表
 
-組織中的使用者可以列印儀表板和報表。 [深入了解](service-print.md)
+組織中的使用者可以列印儀表板和報表。 [深入了解](consumer/end-user-print.md)
 
 ![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
@@ -205,7 +205,7 @@ ms.locfileid: "44726907"
 > [!NOTE]
 > 請記住，租用戶設定變更可能需要一些時間才會生效。
 
-請前往這裡以深入了解[推送應用程式](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users)。
+請前往這裡以深入了解[推送應用程式](consumer/end-user-create-apps.md#how-to-install-an-app-automatically-for-end-users)。
 
 ## <a name="integration-settings"></a>整合設定
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 54cb45d1e9649fa761cfaf67aab708a2707e7516
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330481"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546734"
 ---
 # <a name="using-buttons-in-power-bi"></a>使用 Power BI 中的按鈕
 使用 Power BI Desktop 中的**按鈕**可讓您製作行為類似應用程式的報表與儀表板，進而打造出互動式環境，讓使用者能夠以滑鼠瀏覽及點選 Power BI 內容，並進行深入互動。 您可在 **Power BI Desktop** 中為報表新增按鈕，並將這些報表共用或發佈至 Power BI 服務來建立能為使用者提供行為類似應用程式的儀表板。
@@ -75,6 +75,6 @@ Power BI 中的按鈕有三種狀態：預設 (當滑鼠未在其上暫留，或
 如需類似功能或與按鈕互動的詳細資訊，請參閱下列文章：
 
 * [在 Power BI Desktop 中使用鑽研](desktop-drillthrough.md)
-* [以焦點模式顯示儀表板磚或報表視覺效果](service-focus-mode.md)
+* [以焦點模式顯示儀表板磚或報表視覺效果](consumer/end-user-focus.md)
 * [在 Power BI 中使用書籤來共用深入解析並建立故事](desktop-bookmarks.md)
 

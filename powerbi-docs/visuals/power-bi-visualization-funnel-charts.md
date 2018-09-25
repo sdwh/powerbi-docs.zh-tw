@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f070b6649d8d120a889961fffd6b9b923422293e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732407"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548457"
 ---
 # <a name="funnel-charts"></a>漏斗圖
 漏斗圖幫您將有循序連接階段的線性程序視覺化。 例如，銷售漏斗圖透過以下階段追蹤客戶：潛在客戶 \> 合格的潛在客戶 \> 期望 \> 合約 \> 結案。  漏斗圖的圖形一看就能表達出您追蹤中程序的健全狀況。
@@ -70,7 +70,7 @@ ms.locfileid: "44732407"
    * 至下一階段 (也稱為下滑率)，是前一階段的 % (在本案例中是提案階段/解決方案階段)
      
      ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [將漏斗圖加入為儀表板磚](../service-dashboard-tiles.md)。 
+5. [將漏斗圖加入為儀表板磚](../consumer/end-user-tiles.md)。 
 6. [儲存報表](../service-report-save.md)。
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
@@ -81,10 +81,10 @@ ms.locfileid: "44732407"
 1. 在漏斗圖中選取 [提案] 列。 這會交叉醒目提示頁面上的其他視覺效果。 使用 CTRL 進行多重選取。
    
    ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. 若要設定視覺效果互相交叉醒目提示及交叉篩選之方式的喜好設定，請參閱[在 Power BI 中與視覺效果互動](../service-reports-visual-interactions.md)
+2. 若要設定視覺效果互相交叉醒目提示及交叉篩選之方式的喜好設定，請參閱[在 Power BI 中與視覺效果互動](../consumer/end-user-interactions.md)
 
 ## <a name="create-a-funnel-chart-in-qa"></a>在問與答中建立漏斗圖
-開啟 [商機分析範例] 儀表板，或任何從 [商機分析範例] 資料集釘選了至少一個視覺效果的儀表板。  當您在問與答中輸入問題時，Power BI 從所有與所選的儀表板 (具有釘選圖格) 相關聯的資料集搜尋解答。 如需詳細資訊，請參閱 [Power BI - 基本概念](../service-basic-concepts.md)。
+開啟 [商機分析範例] 儀表板，或任何從 [商機分析範例] 資料集釘選了至少一個視覺效果的儀表板。  當您在問與答中輸入問題時，Power BI 從所有與所選的儀表板 (具有釘選圖格) 相關聯的資料集搜尋解答。 如需詳細資訊，請參閱 [Power BI - 基本概念](../consumer/end-user-basic-concepts.md)。
 
 1. 在 [商機分析範例] 儀表板上，開始在 [問與答] 問題方塊中輸入您的問題。
    
@@ -97,7 +97,7 @@ ms.locfileid: "44732407"
 
 [將視覺效果釘選至儀表板](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

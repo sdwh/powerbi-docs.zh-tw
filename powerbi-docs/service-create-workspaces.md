@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6ae44bb641768ec6518814a0d8699dc41d260e90
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b40933e085cf81528a28e9eedb4260351f657323
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624592"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548388"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>與同事在 Power BI 中建立工作區
 
@@ -67,7 +67,7 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 
 ## <a name="add-content-to-your-app-workspace"></a>將內容新增至應用程式工作區
 
-在您建立應用程式工作區之後，就可以於其中新增內容。 就像將內容新增至 [我的工作區] 一樣，差異在於工作區中的其他人可以查看並同時處理它。 有一個明顯的差異是當您完成時，您可以將內容發佈為應用程式。 當您在應用程式工作區的內容清單中檢視內容時，應用程式工作區的名稱會列出為擁有者。
+在您建立應用程式工作區之後，就可以於其中新增內容。 就像將內容新增至 [我的工作區] 一樣，差異在於工作區中的其他人可以查看並同時處理它。 有一個明顯的差異是當您完成時，您可以將內容發佈為應用程式。 當您在應用程式工作區的內容清單中檢視內容時，應用程式工作區的名稱就會列為擁有者。
 
 ### <a name="connect-to-third-party-services-in-app-workspaces"></a>連線到應用程式工作區中的協力廠商服務
 
@@ -77,7 +77,7 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 
 ## <a name="distribute-an-app"></a>散發應用程式
 
-當內容就緒時，您可以選擇想要發佈的儀表板和報表，然後將其發佈為「應用程式」。 您的同事可透過幾種不同的方式取得應用程式。 如果 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 否則，他們可以從 Microsoft AppSource 找到並安裝您的應用程式，或者您可以將直接連結傳送給他們。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 如需詳細資料，請參閱[在 Power BI　中發佈具有儀表板和報表的應用程式](service-create-distribute-apps.md)。
+當內容就緒時，您可以選擇想要發佈的儀表板和報表，然後將其發佈為「應用程式」。 您的同事可透過幾種不同的方式取得應用程式。 如果 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 否則，他們可以從 Microsoft AppSource 找到並安裝您的應用程式，或者您可以將直接連結傳送給他們。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 如需詳細資料，請參閱[在 Power BI　中發佈具有儀表板和報表的應用程式](consumer/end-user-create-apps.md)。
 
 ## <a name="power-bi-apps-faq"></a>Power BI 應用程式常見問題集
 
@@ -92,7 +92,7 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 請參閱[新的應用程式工作區與現有應用程式工作區有何不同？](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces)來比較目前和新的應用程式工作區。 
 
 ## <a name="next-steps"></a>後續步驟
-* [在 Power BI 中安裝和使用應用程式](service-install-use-apps.md)
-* [外部服務的 Power BI 應用程式](service-connect-to-services.md)
+* [在 Power BI 中安裝和使用應用程式](consumer/end-user-apps.md)
+* [外部服務的 Power BI 應用程式](consumer/end-user-connect-to-services.md)
 - [建立新的工作區 (預覽)](service-create-the-new-workspaces.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)

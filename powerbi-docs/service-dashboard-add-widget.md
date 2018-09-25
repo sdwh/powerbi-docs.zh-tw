@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 064de8e84edd50f3216c814ddd235452d573d0a0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 68195883f2aad0f3131ec14c508334ac41cd918b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247703"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545858"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>將影像、文字、視訊和其他項目新增至儀表板
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -149,7 +149,7 @@ ms.locfileid: "34247703"
 * 如果想要內嵌網站的某些內容，但網站未提供可供複製及貼上的內嵌程式碼，請簽出 embed.ly 以利產生內嵌程式碼。
 
 ## <a name="next-steps"></a>後續步驟
-[儀表板磚](service-dashboard-tiles.md)
+[儀表板磚](consumer/end-user-tiles.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
 

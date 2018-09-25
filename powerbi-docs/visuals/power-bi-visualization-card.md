@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8532fff7bc522a0ad0e59bd17580549bd9e68a23
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729437"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548319"
 ---
 # <a name="card-visualizations"></a>卡片視覺效果
 有時您在 Power BI 儀表板或報告中追蹤的最重要項目是一個單一數字，例如總銷售額、歷年的市佔率，或總商機。 這類型的視覺效果稱為「卡片」。 幾乎所有的原生 Power BI 視覺效果，都可以使用報告編輯器或 [問與答] 來建立卡片。
@@ -51,13 +51,13 @@ ms.locfileid: "44729437"
 ## <a name="create-a-card-from-the-qa-question-box"></a>從問與答問題方塊建立卡片
 [問與答] 問題方塊是製作卡片的最簡單方式。 從儀表板或報告可在 Power BI 服務 (app.powerbi.com) 中使用 [問與答] 問題方塊。 下列步驟說明如何從 Power BI 服務儀表板建立卡片。 如果您想要在 Power BI Desktop 中使用 [問與答] 建立卡片，請針對 Desktop 報告的 [問與答] 預覽[遵循這些指示](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA)。
 
-1. 建立[儀表板](../service-dashboards.md)和[取得資料](../service-get-data.md)。 此範例使用[商機分析範例](../sample-opportunity-analysis.md)。
+1. 建立[儀表板](../consumer/end-user-dashboards.md)和[取得資料](../service-get-data.md)。 此範例使用[商機分析範例](../sample-opportunity-analysis.md)。
 
 1. 在儀表板頂端的問題方塊中，開始輸入您想要知道的資料相關問題。 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**提示**：從 Power BI 服務報告的[編輯檢視](../service-reading-view-and-editing-view.md)中，選取頂端功能表列中的 [詢問問題]。 從 Power BI Desktop 報告，尋找報告中的某個開放空間，然後按兩下以開啟問題方塊。
+>**提示**：從 Power BI 服務報告的[編輯檢視](../consumer/end-user-reading-view.md)中，選取頂端功能表列中的 [詢問問題]。 從 Power BI Desktop 報告，尋找報告中的某個開放空間，然後按兩下以開啟問題方塊。
 
 3. 例如，在問題方塊中輸入「商機次數」。
 
@@ -105,10 +105,10 @@ ms.locfileid: "44729437"
     ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 的儀表板磚](../service-dashboard-tiles.md)
+[Power BI 的儀表板磚](../consumer/end-user-tiles.md)
 
-[Power BI 中的儀表板](../service-dashboards.md)
+[Power BI 中的儀表板](../consumer/end-user-dashboards.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

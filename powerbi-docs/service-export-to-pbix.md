@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2f7133bb376cc04e181eed2d90a45e3361190d0b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722535"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547010"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>將報表從 Power BI 服務匯出至 Desktop (預覽)
 在 Power BI Desktop 中，您可以匯出 (也稱為「下載」) 報表至 Power BI 服務，方法是儲存報表，並選取 [發佈]。 您也可以另一個方向來匯出，並從 Power BI 服務下載報表到 Desktop。 在任一方向中，匯出的檔案副檔名為 *.pbix* 。
@@ -27,7 +27,7 @@ ms.locfileid: "34722535"
 ## <a name="download-the-report-as-a-pbix"></a>將報表下載為 .pbix
 若要下載 .pbix 檔案，請遵循下列步驟：
 
-1. 在 [Power BI 服務] 中，以[編輯檢視](service-reading-view-and-editing-view.md)開啟您想要下載的報表。
+1. 在 [Power BI 服務] 中，以[編輯檢視](consumer/end-user-reading-view.md)開啟您想要下載的報表。
 2. 從功能表列中，選取 [檔案] > [下載報表]。
    
    > [!NOTE]
@@ -67,8 +67,8 @@ ms.locfileid: "34722535"
 
 此外，以下其他幾篇文章可以協助您了解如何使用 **Power BI 服務**：
 
-* [Power BI 中的報表](service-reports.md)
-* [Power BI - 基本概念](service-basic-concepts.md)
+* [Power BI 中的報表](consumer/end-user-reports.md)
+* [Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 
 一旦安裝 **Power BI Desktop**，下列內容能幫助您快速啟動並執行：
 

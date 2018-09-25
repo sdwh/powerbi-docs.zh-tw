@@ -1,21 +1,21 @@
 ---
 title: 在 Power BI 中使用功能區圖表
 description: 在 Power BI 服務和 Power BI Desktop 中建立和使用功能區圖表
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0d7dbf878c32ee29ea490e10f27f1bda49f20b08
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e7bd79b8d93bba4395922fb39faaf423109f7b02
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729443"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566111"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>在 Power BI 中使用功能區圖表
 您可以在 **Power BI** 中使用功能區圖表來視覺化資料，並快速地判斷哪個類別的資料具有最高的等級 (最大值)。 功能區圖表適合顯示等級變更，最高等級 (值) 一律顯示於每個時段的最上方。 從 2017 年 9 月版本開始，功能區圖表提供於 **Power BI Desktop** 中，並提供於 **Power BI 服務**的後續更新。

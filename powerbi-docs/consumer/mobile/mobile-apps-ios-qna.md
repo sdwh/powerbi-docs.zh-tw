@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 320ab8cef7ba2b36846550dcdb3171c7fb4b788a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729444"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548095"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 應用程式中的問與答虛擬分析師 - Power BI
 
@@ -137,11 +137,11 @@ ms.locfileid: "44729444"
 您可以提出更具針對性的問題，或強化資料集，以改善您與客戶針對資料集使用問與答虛擬分析師時所得的結果。
 
 ### <a name="how-to-ask-questions"></a>如何提出問題
-* 使用 Power BI 服務或 iOS 行動應用程式的問與答虛擬分析師時，請遵循[在問與答中詢問問題的祕訣](../../service-q-and-a-tips.md)。
+* 使用 Power BI 服務或 iOS 行動應用程式的問與答虛擬分析師時，請遵循[在問與答中詢問問題的祕訣](../end-user-q-and-a-tips.md)。
 
 ### <a name="how-to-enhance-the-dataset"></a>如何增強資料集
 * 增強 Power BI Desktop 或 Power BI 服務中的資料集，[讓資料適用於問與答以及問與答虛擬分析師](../../service-prepare-data-for-q-and-a.md)。
 
 ## <a name="next-steps"></a>後續步驟
-* [Power BI 服務中的問與答](../../power-bi-q-and-a.md)
+* [Power BI 服務中的問與答](../end-user-q-and-a.md)
 * 有問題嗎？ 請查看 [Power BI 社群的 mobile apps](https://go.microsoft.com/fwlink/?linkid=839277) 一節

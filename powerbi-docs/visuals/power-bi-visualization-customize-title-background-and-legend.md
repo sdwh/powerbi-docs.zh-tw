@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b486ad6bc4027aa2122ee72fc7fb89f0fd80c875
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a219ad94725f8d5423597bd65321f0024f95c1bb
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729441"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545996"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>自訂視覺效果標題、圖例及背景
 在本教學課程中，您將學到一些不同的方法，可以用來自訂視覺效果。   有許多選項可以自訂視覺效果，了解它們的最佳方式是探索 [格式化] 窗格 (選取滾筒刷圖示)。  為了讓您快速入門，本文向您示範如何自訂視覺效果標題、圖例和背景。  
@@ -120,6 +120,6 @@ ms.locfileid: "44729441"
 ## <a name="next-steps"></a>後續步驟
 [自訂 X 軸和 Y 軸](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [自訂色彩和軸屬性](service-getting-started-with-color-formatting-and-axis-properties.md)  
-[Power BI - 基本概念](../service-basic-concepts.md)  
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

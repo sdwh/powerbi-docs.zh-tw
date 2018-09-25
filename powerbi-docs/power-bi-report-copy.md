@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f0337b26989b3d42e86339c4afc087579c2c3529
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44725619"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548779"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>從現有的報表建立新的報表 (複製報表)
 或許您有已經連接至資料集的報表，而且有些想要重複使用或修改的視覺效果。  為什麼不乾脆複製該報表當作新報表的基礎呢？  若要這樣做：
 
-1. [開啟報表](service-report-open.md).
+1. [開啟報表](consumer/end-user-report-open.md).
 2. 從 [檔案]  功能表中選取 [另存新檔] 。
    
    ![](media/power-bi-report-copy/powerbi-save-as.png)
@@ -39,6 +39,6 @@ ms.locfileid: "44725619"
 ## <a name="next-steps"></a>後續步驟：
 [建立新的視覺效果](visuals/power-bi-report-add-visualizations-ii.md)
 
-[刪除不需要的視覺效果](service-delete.md)
+[刪除不需要的視覺效果](consumer/end-user-delete.md)
 
 [使用 Power BI Desktop 建立報表](desktop-report-view.md)

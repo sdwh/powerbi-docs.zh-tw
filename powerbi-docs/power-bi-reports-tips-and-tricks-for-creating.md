@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 0397921d239ec1d07312e69061890f8898e9687b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726792"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549952"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>在 Power BI Desktop 和 Power BI 服務中建立報表的祕訣和訣竅
 為了充分利用您的資料，有時您需要一些額外的協助。 我們集結了一些秘訣與技巧，可供您在 Microsoft Power BI Desktop、Power BI 服務中，以及在啟用 Power Pivot 增益集與已安裝並啟用 Power Query 的 Microsoft Excel 2016 或 Microsoft Excel 2013 Pro-Plus 版本中，用來建立報表。
@@ -206,7 +206,7 @@ DAX 是 Power BI Desktop 的計算公式語言，  並已針對 BI 分析最佳�
 * 避免混用精確度和時間的層級。 請確定時間框架可讓人充分了解。  不要讓上個月的圖表緊鄰從該年度指定月份篩選出的圖表。    
 * 此外，也請避免在同一個刻度尺上混合大量值和小量值，例如在折線圖或橫條圖上。  例如，一個量值可能數以百萬計，而其他量值以千為單位。  如果刻度太大，會很難看到以千為單位之量值的差異。  如果您需要混合，請選擇可使用第二個軸的視覺效果，例如組合圖。    
 * 避免使用不必要的資料標籤，而造成圖表雜亂無章。 橫條圖中的值 (***如果夠大***) 通常很容易理解，而不用顯示實際值。   
-* 請注意[圖表如何排序](power-bi-report-change-sort.md)。  如果您想要強調最高或最低數字，請依量值排序。  如果您想要在許多其他類別目錄內，能夠快速尋找特定分類，請依軸排序。  
+* 請注意[圖表如何排序](consumer/end-user-change-sort.md)。  如果您想要強調最高或最低數字，請依量值排序。  如果您想要在許多其他類別目錄內，能夠快速尋找特定分類，請依軸排序。  
 * 圓形圖最適合具有少於八個類別目錄的量值。 因為您無法以並排方式比較值，所以在圓形圖中比較值，會比在橫條圖和直條圖中比較值更困難。 圓形圖適於檢視部分與整體的關聯性，而不是用於部分比較。 量表圖非常適合用來在目標內容中顯示目前狀態。    
 
 如需更多特定視覺效果的指引，請參閱[ Power BI 中的視覺效果類型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
@@ -222,8 +222,8 @@ DAX 是 Power BI Desktop 的計算公式語言，  並已針對 BI 分析最佳�
 * *Advanced Presentations Design*，Andrew Abela 著   
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI - 基本概念](service-basic-concepts.md)
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 
-[Power BI 中的報表](service-reports.md)
+[Power BI 中的報表](consumer/end-user-reports.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

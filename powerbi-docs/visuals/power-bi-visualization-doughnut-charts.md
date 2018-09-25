@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d09f9d9d0de8608a39111f24e6f605c3fbce55fb
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3bf0aa516f50d363b53d2ed91b86d999e7855c30
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729435"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545008"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Power BI 中的環圈圖
 環圈圖類似於圓形圖之處，在於它會顯示部分與整體的關聯性。 唯一的差別在於，中央為空白，且保留空間給標籤或圖示。
@@ -43,13 +43,13 @@ ms.locfileid: "44729435"
 * 環圈圖最適合用來比較特定部分與整體，而不是在個別部分彼此之間比較。 
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 中的報表](../service-reports.md)
+[Power BI 中的報表](../consumer/end-user-reports.md)
 
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Power BI 報表的視覺效果](power-bi-report-visualizations.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

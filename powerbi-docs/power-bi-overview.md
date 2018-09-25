@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: c2e0dc401e5927e69ecb9b059042df646b238bd5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1d5f5b4458dca8fb9d45dfc938f16e5fa77f45db
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944391"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545375"
 ---
 # <a name="what-is-power-bi"></a>Power BI 是什麼？
 **Power BI** 是軟體服務、應用程式和連接器的集合，它們搭配使用來將不相關的資料來源轉換成相關、視覺上融入的互動式深入剖析。 不論您的資料是簡單的 Excel 試算表還是一組雲端和內部部署混合式資料倉儲，**Power BI** 都可讓您輕鬆地連接到資料來源、以視覺化方式檢視 (或探索) 重要資料，以及與任何人或您想要的任何人共用該資料。
@@ -57,5 +57,5 @@ Power BI 中的一般工作流程是從在 **Power BI Desktop** 中連線至資�
 「Power BI 報表伺服器」是一項解決方案，您會將其部署在防火牆後方，然後以各種不同方式 (不論是在網頁瀏覽器中、行動裝置上還是以電子郵件形式檢視) 將報表傳遞給正確的使用者。 而由於「Power BI 報表伺服器」與雲端 Power BI 相容，因此您可以在準備就緒後就移至雲端。
 
 ## <a name="next-steps"></a>後續步驟
-[登入、取得一些資料以及持續學習 Power BI 服務](service-the-new-power-bi-experience.md)   
+[登入、取得一些資料以及持續學習 Power BI 服務](consumer/end-user-experience.md)   
 [教學課程：開始使用 Power BI 服務](service-get-started.md)

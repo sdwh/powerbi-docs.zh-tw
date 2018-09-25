@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 507cc25d324f47f00434430461d78013baa7210f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475721"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546919"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>使用 Power BI Desktop 中的自然語言查詢問與答
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 甚至在資料回答時更為強大，這是 **Power BI Desktop** 中的問與答可讓您執行的作業。
@@ -198,5 +198,5 @@ Power BI 預設會積極地彙總數值資料行，因此「年度總銷售額�
 如需 Power BI Desktop 中功能的詳細資訊，請查看下列文章：
 
 * [在 Power BI Desktop 中使用鑽研](desktop-drillthrough.md)
-* [以焦點模式顯示儀表板磚或報表視覺效果](service-focus-mode.md)
+* [以焦點模式顯示儀表板磚或報表視覺效果](consumer/end-user-focus.md)
 

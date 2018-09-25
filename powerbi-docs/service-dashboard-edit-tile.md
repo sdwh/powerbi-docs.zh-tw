@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598970"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546088"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>編輯或移除儀表板磚
 
@@ -36,7 +36,7 @@ ms.locfileid: "37598970"
 * [刪除磚](#delete)
   
   > [!TIP]
-  > 若要變更磚本身顯示的視覺效果，請刪除磚再新增新的[儀表板磚](service-dashboard-tiles.md)。
+  > 若要變更磚本身顯示的視覺效果，請刪除磚再新增新的[儀表板磚](consumer/end-user-tiles.md)。
 
   
 ## <a name="prerequisites"></a>先決條件
@@ -142,11 +142,11 @@ ms.locfileid: "37598970"
 
 - - -
 ## <a name="next-steps"></a>後續步驟
-[Power BI 的儀表板磚](service-dashboard-tiles.md)
+[Power BI 的儀表板磚](consumer/end-user-tiles.md)
 
-[Power BI 中的儀表板](service-dashboards.md)
+[Power BI 中的儀表板](consumer/end-user-dashboards.md)
 
-[Power BI - 基本概念](service-basic-concepts.md)
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

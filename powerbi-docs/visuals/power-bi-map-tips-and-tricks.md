@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 487e53bae0fe872771b5ecbbe0458cd09dc48a4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732400"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548503"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 視覺效果的秘訣和訣竅
 Power BI 與 Bing 地圖服務整合以提供預設地圖座標 (這個程序稱為地理編碼)，以便您建立地圖。 這兩者使用演算法來識別正確位置，但有時會猜測最接近的位置。 如果 Power BI 無法自行建立地圖視覺效果，則會請求 Bing 地圖服務協助。 
@@ -89,7 +89,7 @@ Power BI 會使用 Bing 的[非結構化 URL 範本服務](https://msdn.microsof
 * 第二個選項， ![向下鑽研地圖](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) ，與 [向下切入] 類似，不同之處在於您並不需要在地圖上按一下。  它會展開階層中的下一個層級，並記住目前層級的內容。 例如：若您目前正在查看國家/地區，並選取此圖示，您將會移至階層中的下一個層級：州/省。 針對地理編碼，Power BI 會將每個州/省的資料及其對應的國家/地區資料傳送給 Bing 地圖服務，以協助其更準確的進行地理編碼。 在大多數的地圖中，您通常會使用這個選項或最右邊的 [向下切入] 選項，盡量將最多的資料傳送給 Bing，以取得準確的位置資訊。 
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 視覺效果中的向下切入](../power-bi-visualization-drill-down.md)
+[Power BI 視覺效果中的向下切入](../consumer/end-user-drill.md)
 
 [Power BI 視覺效果](power-bi-report-visualizations.md)
 

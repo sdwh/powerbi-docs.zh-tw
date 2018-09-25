@@ -10,16 +10,16 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 45bd00877aadba2a84ac533add18b82337fa8403
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726861"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546249"
 ---
 # <a name="getting-a-custom-visual-certified"></a>讓自訂視覺效果*經認證*
 ## <a name="what-is-meant-by-certified"></a>*經認證*是什麼意思？
-*經認證的自訂視覺效果*代表其符合一組程式碼需求，並已通過嚴格的安全性測試。  自訂視覺效果通過認證後，就可以[匯出至 PowerPoint](service-publish-to-powerpoint.md)，而且會顯示在使用者[訂閱報告頁面](service-report-subscribe.md)時所收到的電子郵件中。 當然，它也可以像[標準自訂視覺效果](power-bi-custom-visuals.md)一樣使用、新增至 Power BI 服務和 Power BI Desktop 報表，及在 Power BI 行動版和 Power BI Embedded 中檢視。
+*經認證的自訂視覺效果*代表其符合一組程式碼需求，並已通過嚴格的安全性測試。  自訂視覺效果通過認證後，就可以[匯出至 PowerPoint](consumer/end-user-powerpoint.md)，而且會顯示在使用者[訂閱報告頁面](consumer/end-user-subscribe.md)時所收到的電子郵件中。 當然，它也可以像[標準自訂視覺效果](power-bi-custom-visuals.md)一樣使用、新增至 Power BI 服務和 Power BI Desktop 報表，及在 Power BI 行動版和 Power BI Embedded 中檢視。
 
 您是否為 Web 開發人員，而且有興趣將自己建立的視覺效果發佈到 [Microsoft AppSource](https://appsource.microsoft.com) 呢？ 請參閱[開始使用開發人員工具](service-custom-visuals-getting-started-with-developer-tools.md)了解如何進行。
 

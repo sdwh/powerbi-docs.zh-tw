@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 51c3fdbef345a0d6020abe35ba7c71aaa67882e4
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c64a5e487725bdfedf03b496322a52e7664f5455
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726838"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545063"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>教學課程：開始使用 Power BI 服務 (app.powerbi.com)
 本教學課程可協助您開始使用 ***Power BI 服務***。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，強烈建議您先閱讀[什麼是 Power BI](power-bi-overview.md)。
@@ -53,9 +53,9 @@ ms.locfileid: "44726838"
 > 
 
 ## <a name="what-is-power-bi-service"></a>什麼是 Power BI 服務？
-Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Power BI 協助您掌握關切資訊的最新狀態。  使用 Power BI 服務，***儀表板***能助您掌握商務脈動。  儀表板顯示的***磚***，可讓您按一下以開啟「報表」來進一步探索。  連接到多個***資料集***，讓所有相關資料集中到一處。 您想要了解構成 Power BI 的建置組塊嗎？  請參閱 [Power BI - 基本概念](service-basic-concepts.md)。
+Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Power BI 協助您掌握關切資訊的最新狀態。  使用 Power BI 服務，***儀表板***能助您掌握商務脈動。  儀表板顯示的***磚***，可讓您按一下以開啟「報表」來進一步探索。  連接到多個***資料集***，讓所有相關資料集中到一處。 您想要了解構成 Power BI 的建置組塊嗎？  請參閱 [Power BI - 基本概念](consumer/end-user-basic-concepts.md)。
 
-如果 Excel 或 CSV 檔案中有重要的資料，您可以建立 Power BI 儀表板在任何位置掌握其動態，並與他人交流意見。  您訂閱了 Salesforce 之類的 SaaS 應用程式嗎？  預先連線到 Salesforce 以自動從該資料建立儀表板，或[查看您可以連線的所有其他 SaaS 應用程式](service-get-data.md)。 如果您是組織的一員，請查看是否曾為您發佈過任何的[應用程式](service-create-distribute-apps.md)。
+如果 Excel 或 CSV 檔案中有重要的資料，您可以建立 Power BI 儀表板在任何位置掌握其動態，並與他人交流意見。  您訂閱了 Salesforce 之類的 SaaS 應用程式嗎？  預先連線到 Salesforce 以自動從該資料建立儀表板，或[查看您可以連線的所有其他 SaaS 應用程式](service-get-data.md)。 如果您是組織的一員，請查看是否曾為您發佈過任何的[應用程式](consumer/end-user-create-apps.md)。
 
 閱讀[取得 Power BI 的資料](service-get-data.md)的所有其他方式.
 
@@ -87,7 +87,7 @@ Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Powe
 
     ![[閱讀檢視] 選項](media/service-get-started/power-bi-editing-view.png)
 
-    在 [編輯檢視] 中，您可以建立和修改報告，因為您是報告的「擁有者」；您是「建立者」。 當您與同事共用您的報告時，他們只能夠在 [閱讀檢視] 中與報告互動；他們是「取用者」。 深入了解[閱讀檢視和編輯檢視](service-reading-view-and-editing-view.md)。
+    在 [編輯檢視] 中，您可以建立和修改報告，因為您是報告的「擁有者」；您是「建立者」。 當您與同事共用您的報告時，他們只能夠在 [閱讀檢視] 中與報告互動；他們是「取用者」。 深入了解[閱讀檢視和編輯檢視](consumer/end-user-reading-view.md)。
     
     熟悉報表編輯器的一項好方法為[進行導覽](service-the-report-editor-take-a-tour.md)
    > 
@@ -158,5 +158,5 @@ Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Powe
 準備試試其他的嗎？  以下是一些探索 Power BI 的絕佳方法。
 
 > [!div class="nextstepaction"]
-> [連線至使用的線上服務](./service-connect-to-services.md)
+> [連線至使用的線上服務](consumer/end-user-connect-to-services.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: cd9762a5f9a46ab7d726a326c1b231f30c8e6271
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 91c08ab428852cc0fa8a721278e232400ed19bfa
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582492"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546479"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>哪種範例資料可搭配 Power BI 使用？
 您是否剛接觸 Power BI 並想要試用，但沒有任何資料；  或您可能有資料集，但因為 (還) 不了解 Power BI 的運作方式，而擔心可能會不小心損害資料集？
@@ -191,7 +191,7 @@ ObviEnce 是一家 ISV 和 Microsoft Business Intelligence 的智慧財產權 (I
 4. 選取 .pbix 檔案，以在 Power BI Desktop 中加以開啟。
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 基本概念](service-basic-concepts.md)
+[Power BI 基本概念](consumer/end-user-basic-concepts.md)
 
 [教學課程：連線到 Power BI 範例](sample-tutorial-connect-to-the-samples.md)
 

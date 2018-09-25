@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624336"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547560"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>管理 Power BI 和 Office 365 中的應用程式工作區
-[Power BI 或 Office 365 中應用程式工作區](service-install-use-apps.md)的建立者或管理員，有幾個管理 Power BI 中工作區的層面要管理。 您在 Office 365 中管理的其他層面。 
+[Power BI 或 Office 365 中應用程式工作區](consumer/end-user-apps.md)的建立者或管理員，有幾個管理 Power BI 中工作區的層面要管理。 您在 Office 365 中管理的其他層面。 
 
 > [!NOTE]
 > 新的工作區體驗預覽會變更 Power BI 工作區與 Office 365 群組之間的關聯性。 每次建立其中一個新的工作區時，您都不會自動建立 Office 365 群組。 閱讀[建立新的工作區 (預覽)](service-create-the-new-workspaces.md)
@@ -76,7 +76,7 @@ ms.locfileid: "39624336"
 3. 選取 [儲存]  或 [捨棄] 。
 
 ## <a name="next-steps"></a>後續步驟
-* [Power BI 中的應用程式是什麼？](service-install-use-apps.md)
-* [在 Power BI 中發佈具有儀表板和報表的應用程式](service-create-distribute-apps.md)
+* [Power BI 中的應用程式是什麼？](consumer/end-user-apps.md)
+* [在 Power BI 中發佈具有儀表板和報表的應用程式](consumer/end-user-create-apps.md)
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

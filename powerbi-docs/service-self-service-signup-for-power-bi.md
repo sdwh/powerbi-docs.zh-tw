@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 1f6c899932390bc4f9818fdcbb499848ca88a8d5
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558508"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549975"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>以個人身分註冊 Power BI
 了解如何註冊 Power BI，並開始利用它來滿足您的個人報告和視覺效果需求。
@@ -99,7 +99,7 @@ Power BI 會要求您使用公司或學校的電子郵件地址來註冊。 您�
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>服務內的 Power BI Pro 60 天試用
 當您已註冊免費帳戶之後，可以選擇免費試用 Pro 版 60 天。 在試用期間您將可存取所有的 Pro 功能。 Power BI Pro 有 Power BI 免費版本的所有功能，還有其他共用和共同作業功能。 如需詳細資訊，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing)。 若要嘗試 Power BI Pro 的 60 天免費試用版，請登入 Power BI，然後嘗試 Power BI Pro 的功能：
 
-* [建立應用程式工作區](service-create-distribute-apps.md)
+* [建立應用程式工作區](consumer/end-user-create-apps.md)
 * [共用儀表板](service-share-dashboards.md)
 
 當您嘗試任何一項功能時，系統會提示您開始使用免費試用版。 您也可以前往齒輪圖示，並選取 [管理個人儲存體]，選擇使用該功能。 然後選取右邊的 [免費試用專業版]。

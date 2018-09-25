@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e49b5ddab09c32662beb04ce70e5dc7606d92f59
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729472"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545937"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>自訂 X 軸和 Y 軸屬性
 本教學課程中，您將學到許多不同的方法，可以用來自訂視覺效果的 X 軸和 Y 軸。 並非所有視覺效果都擁有座標軸或可以自訂；例如，圓餅圖沒有軸。 且自訂選項將隨視覺效果而異，一篇文章無法涵蓋太多選項。 因此，我們將探討一些最常用的軸自訂項目，並使用Power BI 報表畫布中的視覺格式設定索引標籤以輕鬆解說。  
@@ -86,7 +86,7 @@ ms.locfileid: "44729472"
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../power-bi-report-change-sort.md#other)
+> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 > 1. 一月的 GM% 為 35%，尖峰在 4 月為 45%，於 7 月下降並再次於 8 月達到尖峰。 我們去年和今年會看到類似的銷售模式嗎？
 > 2. 將 [今年度銷售額 > 值] 和 [去年度銷售額] 新增至折線圖。 [去年 GM %] 的刻度 (沿著 0M% 格線的藍線) 遠小於 [銷售額] 的刻度，因此難以比較。 此外，Y 軸標籤百分比看起來很荒謬。      
 
@@ -137,6 +137,6 @@ ms.locfileid: "44729472"
 
 [自訂色彩和軸屬性](service-getting-started-with-color-formatting-and-axis-properties.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

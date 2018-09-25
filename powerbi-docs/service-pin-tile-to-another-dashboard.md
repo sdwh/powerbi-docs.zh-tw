@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ed882a339e1ee7d53302dc33a7cedb1a95709b8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 656f32dd28796ec58b7cfcf774248ee30de0085a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249106"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545891"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>將儀表板的圖格釘選到另一個儀表板
-加入新[儀表板磚](service-dashboard-tiles.md)的一種方法是從另一個儀表板複製過來。 每個圖格都是一個連結，按一下就會返回其建立位置，問與答或報表。 
+加入新[儀表板磚](consumer/end-user-tiles.md)的一種方法是從另一個儀表板複製過來。 每個圖格都是一個連結，按一下就會返回其建立位置，問與答或報表。 
 
 > [!NOTE]
 > 您不能釘選共用儀表板上的磚。
 
 ## <a name="pin-a-tile-to-another-dashboard"></a>將磚釘選到另一個儀表板
 1. [取得資料](service-get-data.md). 本範例使用 [IT 費用分析範例](sample-it-spend.md)。
-2. 開啟[儀表板](service-dashboards.md).
+2. 開啟[儀表板](consumer/end-user-dashboards.md).
 3. 將滑鼠停留在要釘選的圖格上，選取省略符號 (...)，然後選擇 [釘選圖示]。  
    
    ![省略符號功能表](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
@@ -42,7 +42,7 @@ ms.locfileid: "34249106"
 6. 選取 [移至儀表板] 以查看釘選的磚。 您可以在這裡[重新命名、調整大小、連結和移動](service-dashboard-edit-tile.md)釘選的視覺效果。
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 中的磚](service-dashboard-tiles.md)  
-[Power BI 中的儀表板](service-dashboards.md)  
+[Power BI 中的磚](consumer/end-user-tiles.md)  
+[Power BI 中的儀表板](consumer/end-user-dashboards.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

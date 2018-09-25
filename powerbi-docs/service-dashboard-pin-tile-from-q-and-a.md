@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e71412febc5b8d8a9ee4ff20174496de0c7d51f2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf5855acc5efe773f8f06e6de9f769f75794bdb
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251406"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548716"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>從問與答將磚釘選到儀表板
 ## <a name="how-to-pin-a-tile-from-qa"></a>如何從問與答釘選磚
 問與答是 Power BI 隨選報表工具。 需要尋找特定的深入剖析資訊嗎？ 提出與您的資料有關的問題，然後以視覺效果的形式接收回應。
 
-在此「如何」中，我們將使用 Power BI 服務 (app.powerbi.com) 開啟儀表板、使用自然語言建立視覺效果來詢問問題，以及將該視覺效果釘選到儀表板。 在 Power BI Desktop 中無法使用儀表板。 如需使用問與答與其他 Power BI 工具和內容的資訊，請參閱 [Power BI 問與答概觀](power-bi-q-and-a.md)。 
+在此「如何」中，我們將使用 Power BI 服務 (app.powerbi.com) 開啟儀表板、使用自然語言建立視覺效果來詢問問題，以及將該視覺效果釘選到儀表板。 在 Power BI Desktop 中無法使用儀表板。 如需使用問與答與其他 Power BI 工具和內容的資訊，請參閱 [Power BI 問與答概觀](consumer/end-user-q-and-a.md)。 
 
 如果要跟著做，請開啟[零售分析範例儀表板](sample-retail-analysis.md)。
 
 
-1. 開啟[儀表板](service-dashboards.md)，其中至少有一個從報表釘選的磚。 當您提問時，Power BI 會在具有釘選到該儀表板之磚的任何資料集中尋找解答。  若要深入了解，請參閱[取得資料](service-get-data.md)。
+1. 開啟[儀表板](consumer/end-user-dashboards.md)，其中至少有一個從報表釘選的磚。 當您提問時，Power BI 會在具有釘選到該儀表板之磚的任何資料集中尋找解答。  若要深入了解，請參閱[取得資料](service-get-data.md)。
 2. 在儀表板頂端的問題方塊中，開始輸入您想要知道的資料相關問題。  
    ![問與答的問題方塊](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. 例如，當您輸入「去年各月份和地區的銷售額」...   
@@ -62,6 +62,6 @@ ms.locfileid: "34251406"
 
 ## <a name="next-steps"></a>後續步驟
 [重新命名、調整大小、新增超連結和重新置放磚等等](service-dashboard-edit-tile.md)    
-[以焦點模式顯示儀表板磚](service-focus-mode.md)     
-[返回 Power BI 中的問與答](power-bi-q-and-a.md)  
+[以焦點模式顯示儀表板磚](consumer/end-user-focus.md)     
+[返回 Power BI 中的問與答](consumer/end-user-q-and-a.md)  
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

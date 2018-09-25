@@ -2,7 +2,7 @@
 title: Power BI 中的視覺效果類型
 description: Power BI 中的視覺效果類型
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 40106a9f219487a1fb52f353f3609f8f1d98bf4b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729452"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566033"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
 ## <a name="power-bi-visualizations"></a>Power BI 視覺效果
@@ -176,9 +176,9 @@ ms.locfileid: "44729452"
 [Power BI 報表中的視覺效果](power-bi-report-visualizations.md)    
 [來自 sqlbi.com 的正確視覺效果參考](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
 
-[Power BI 中的報表](../service-reports.md)
+[Power BI 中的報表](../consumer/end-user-reports.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

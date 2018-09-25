@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 44244bf746c1a11229d2041b4c2b43871fa7a199
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6955bc0c41e5a6a145d2101ab527d753f98d5c61
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944529"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550067"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的零售分析範例教學
 
@@ -165,5 +165,5 @@ ms.locfileid: "36944529"
 * [下載所有範例檔案的 zip 檔案](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [下載這個 Power BI 範例中的 Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [取得 Power BI 的資料](service-get-data.md)    
-* [Power BI - 基本概念](service-basic-concepts.md)    
+* [Power BI - 基本概念](consumer/end-user-basic-concepts.md)    
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

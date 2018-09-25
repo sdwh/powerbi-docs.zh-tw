@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 8b7c46ad1e9ea9c4c79a8f5a1b48c73ab3336306
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 7253a340ce0852039a08d0ed17c488fc8fdbfa69
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157309"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545914"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>在 Power BI 中撰寫範本內容套件
 撰寫範本內容套件會使用 Power BI Desktop 和 PowerBI.com。 您的內容套件具有四個元素︰
@@ -22,7 +22,7 @@ ms.locfileid: "39157309"
 * 查詢可讓您[連接](desktop-connect-to-data.md)和[轉換](desktop-query-overview.md)資料，以及定義[參數](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)  
 * 資料模型可建立[關聯性](desktop-create-and-manage-relationships.md)、[量值](desktop-measures.md)和問與答改進功能  
 * 報表[頁面](desktop-report-view.md)包含可讓您深入剖析資料的視覺效果和篩選器  
-* [儀表板](service-dashboards.md)和[磚](service-dashboard-create.md)可提供包含的深入剖析資訊概觀  
+* [儀表板](consumer/end-user-dashboards.md)和[磚](service-dashboard-create.md)可提供包含的深入剖析資訊概觀  
 
 您可能以現有 Power BI 功能的角度熟悉每項元素。 在建置內容套件時，您需要針對每個層面考慮其他事項，請參閱下列各節以取得詳細資訊。
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bb1ebf08c7ffb7a18cc0dd273c767c082f89f1aa
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d3afa24c68db5ffcaec1dddae09b0b9719bf2bb5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729425"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543535"
 ---
 # <a name="kpi-visuals"></a>KPI 視覺效果
 關鍵效能指標 (KPI) 是一種視覺提示，指出對於可測量目標已達成的進度。 如需 KPI 的詳細資訊，請參閱 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)
@@ -42,7 +42,7 @@ KPI 極適合：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. 在[編輯檢視](../service-reading-view-and-editing-view.md)中開啟報告，以及[新增頁面](../power-bi-report-add-page.md)。    
+1. 在[編輯檢視](../consumer/end-user-reading-view.md)中開啟報告，以及[新增頁面](../power-bi-report-add-page.md)。    
 2. 選取 [銷售額] > [本年度的總單位]。  這會是指標。
 3. 新增 [時間] > [月份]。  這會顯示趨勢。
 4. 重要：依照**月份**進行圖表排序。 將視覺效果轉換為 KPI 之後，即沒有選項可供排序。

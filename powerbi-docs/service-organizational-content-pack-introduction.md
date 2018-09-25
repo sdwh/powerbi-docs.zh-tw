@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624290"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547629"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的組織內容套件簡介
 > [!NOTE]
@@ -42,7 +42,7 @@ ms.locfileid: "39624290"
 
 * 若要檢視 AppSource，請選取 [取得資料] > [我的組織] > [取得]。
 
-深入了解[尋找及開啟組織內容套件](service-organizational-content-pack-find-and-open.md).
+深入了解[尋找及開啟組織內容套件](consumer/end-user-content-pack.md).
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>組織內容套件的生命週期
 任何 Power BI Pro 的使用者都可以建立、發行並存取組織內容套件。 只有內容套件建立者才能修改活頁簿和資料集、排定重新整理，以及刪除。
@@ -52,7 +52,7 @@ ms.locfileid: "39624290"
 1. 在 Power BI Pro 中，Nate 建立了一個內容套件，並將其發行至「行銷」通訊群組中。 因為重新整理設定和資料集要一起繼承，所以只有 Nate 可以變更。
    
    > [!NOTE]
-   > 如果 Nate 從他所在的 [Power BI 應用程式工作區](service-create-distribute-apps.md)中建立內容套件，即使他離開群組，Power BI 工作區中的其他人也可以接管擁有權。
+   > 如果 Nate 從他所在的 [Power BI 應用程式工作區](consumer/end-user-create-apps.md)中建立內容套件，即使他離開群組，Power BI 工作區中的其他人也可以接管擁有權。
    > 
    > 
 2. Nate 傳送郵件給通訊群組，告訴他們新內容套件的相關資訊。
@@ -76,7 +76,7 @@ ms.locfileid: "39624290"
 
 ## <a name="next-steps"></a>後續步驟
 * [建立和發佈組織內容套件](service-organizational-content-pack-create-and-publish.md)
-* [在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md) 
-* [Power BI - 基本概念](service-basic-concepts.md)
+* [在 Power BI 中建立和散發應用程式](consumer/end-user-create-apps.md) 
+* [Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

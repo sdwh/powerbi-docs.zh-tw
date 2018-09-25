@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: eed9b668cccf3bc8252d70f1dee94675063a8844
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fbf49a9ddbec5f087a28e51144c782e2f1739db0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247749"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546928"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>最佳化 Power BI 快速深入剖析的資料
 想要改善深入資訊摘要結果嗎？  如果您是資料集擁有者，請嘗試下列︰
@@ -26,7 +26,7 @@ ms.locfileid: "34247749"
 * 您是否收到錯誤訊息，指出您的資料不具統計顯著性？  陽春型模型、資料不多的模型或不具日期或數值資料行的模型，就有可能發生這種情況。 若要產生深入資訊，您的資料集至少必須有一個維度和一個量值。
 
 ### <a name="next-steps"></a>後續步驟
-[Power BI 深入資訊摘要](service-insights.md)
+[Power BI 深入資訊摘要](consumer/end-user-insights.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

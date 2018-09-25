@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c567921b765f03fbaa11f2b98724cea1a1ce1905
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 92506d4ce2f372a4535a0a178ef43791c6d94f83
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240977"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547951"
 ---
 # <a name="get-started-with-power-bi-qa"></a>開始使用 Power BI 問與答
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>使用 Power BI 問與答與零售分析範例
@@ -57,7 +57,7 @@ ms.locfileid: "34240977"
 4. 若要將圖表釘選至儀表板，請選取釘選圖示 ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png)。
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 中的問與答](power-bi-q-and-a.md)
+[Power BI 中的問與答](consumer/end-user-q-and-a.md)
 
 [讓資料適用於 Power BI 的問與答](service-prepare-data-for-q-and-a.md)
 

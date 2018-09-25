@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b9fff17d51756da4561823886ed80beeec830843
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310099"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548091"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>教學課程：使用 Power BI 連線至 GitHub 範例
 在本教學課程中，您使用 Power BI 連線接至 GitHub 服務中的實際資料，而且 Power BI 會自動建立儀表板和報表。 您連線至 Power BI 內容公用存放庫 (也稱為「存放庫」)，並查看資訊：有多少人參與 Power BI 公用內容？ 誰參與最多？ 哪個星期幾的參與最多？ 以及其他問題的答案。 
@@ -125,6 +125,6 @@ ms.locfileid: "34310099"
 在本教學課程中，您已連線至 GitHub 公用存放庫並取得 Power BI 已在儀表板和報表中格式化的資料。 您已經探索儀表板和報表來回答有關資料的一些問題。 您現在可以深入了解連線至其他服務，例如 Salesforce、Microsoft Dynamics 和 Google Analytics。 
  
 > [!div class="nextstepaction"]
-> [連線至使用的線上服務](./service-connect-to-services.md)
+> [連線至使用的線上服務](consumer/end-user-connect-to-services.md)
 
 

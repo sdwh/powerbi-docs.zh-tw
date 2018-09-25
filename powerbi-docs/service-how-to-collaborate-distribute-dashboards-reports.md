@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726654"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545743"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>該如何在 Power BI 中進行共同作業和共用？
 
@@ -57,7 +57,7 @@ ms.locfileid: "44726654"
 
 ![發佈應用程式圖示](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 中可輕鬆地找到及安裝應用程式。 您可以將應用程式的直接連結傳送給商務使用者，或者他們可以在 AppSource 中進行搜尋。 如果您的 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 深入了解如何[發佈您的應用程式](service-create-distribute-apps.md)。 
+在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 中可輕鬆地找到及安裝應用程式。 您可以將應用程式的直接連結傳送給商務使用者，或者他們可以在 AppSource 中進行搜尋。 如果您的 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 深入了解如何[發佈您的應用程式](consumer/end-user-create-apps.md)。 
 
 當他們安裝應用程式之後，就可以在瀏覽器或行動裝置中檢視此應用程式。
 
@@ -88,7 +88,7 @@ ms.locfileid: "44726654"
 您也可以從 Windows 10 裝置的 Power BI 應用程式[共用磚的快照集](consumer/mobile/mobile-windows-10-phone-app-get-started.md)。
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>列印或儲存為 PDF 或其他靜態檔案
-您可以從 Power BI 服務列印整份儀表板、儀表板磚、報表頁面或視覺效果，或將其儲存為 PDF (或其他靜態檔案格式)。 一次只能列印一頁報表 - 您無法一次列印整份報表。 深入了解[列印或儲存為靜態檔案](service-print.md)。
+您可以從 Power BI 服務列印整份儀表板、儀表板磚、報表頁面或視覺效果，或將其儲存為 PDF (或其他靜態檔案格式)。 一次只能列印一頁報表 - 您無法一次列印整份報表。 深入了解[列印或儲存為靜態檔案](consumer/end-user-print.md)。
 
 ## <a name="publish-to-the-web"></a>發行至網站
 
@@ -99,7 +99,7 @@ ms.locfileid: "44726654"
 
 ## <a name="next-steps"></a>後續步驟
 * [與同事和其他人共用儀表板](service-share-dashboards.md)
-* [在 Power BI 中建立和發佈應用程式](service-create-distribute-apps.md)
+* [在 Power BI 中建立和發佈應用程式](consumer/end-user-create-apps.md)
 * 有任何意見嗎？ 請移駕 [Power BI 社群網站](https://community.powerbi.com/)提供您的建議。
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
 

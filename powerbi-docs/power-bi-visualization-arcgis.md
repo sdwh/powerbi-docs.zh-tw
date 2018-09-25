@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728241"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548020"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Power BI 服務及 Power BI Desktop 中由 Esri 提供的 ArcGIS 地圖
 此教學課程是從 ArcGIS 地圖建立者的觀點來撰寫。 一旦建立者與同事共用 ArcGIS 地圖，該同事雖然可以檢視地圖並與其互動，但無法儲存變更。 若要深入了解如何檢視 ArcGIS 地圖，請參閱[與 ArcGIS 地圖互動](visuals/power-bi-visualizations-arcgis.md)。
@@ -61,7 +61,7 @@ ArcGIS 地圖目前可在 Power BI 服務、Power BI Desktop 及 Power BI Mobile
 2. 選取 [ArcGIS Maps for Power BI] 核取方塊。 完成選取後，您必須重新啟動 Power BI。
    
     ![](media/power-bi-visualization-arcgis/power-bi-use-arcgis-new.png)
-3. 在[編輯檢視](service-reading-view-and-editing-view.md)中開啟報表，再從 [視覺效果] 窗格中選取 ArcGIS Maps for Power BI 圖示。
+3. 在[編輯檢視](consumer/end-user-reading-view.md)中開啟報表，再從 [視覺效果] 窗格中選取 ArcGIS Maps for Power BI 圖示。
    
     ![](media/power-bi-visualization-arcgis/power-bi-viz-pane2.png)
 4. Power BI 會將空白的 ArcGIS 地圖範本新增至報表畫布中。

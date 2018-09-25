@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8b4a0605df348957c4adb0d8e02975f4cd752307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "36944598"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543772"
 ---
 # <a name="the-power-bi-samples"></a>Power BI 範例
 
@@ -79,7 +79,7 @@ ms.locfileid: "36944598"
     ![已醒目提示相符視覺效果的報表頁面](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > 如果磚是使用 [Power BI 問與答](power-bi-q-and-a.md)所建立，會改為開啟問與答頁面。 如果該磚是[釘選自 Excel](service-dashboard-pin-tile-from-excel.md)，則 Excel Online 將會在 Power BI 中開啟。
+   > 如果磚是使用 [Power BI 問與答](consumer/end-user-q-and-a.md)所建立，會改為開啟問與答頁面。 如果該磚是[釘選自 Excel](service-dashboard-pin-tile-from-excel.md)，則 Excel Online 將會在 Power BI 中開啟。
    > 
    > 
 1. 返回您的 [資料集] 索引標籤，您有多種選項可以探索資料集。  您無法加以開啟及查看所有資料行和資料列 (如同您在 Power BI Desktop 或 Excel 中)。  當有人與同事共用內容套件時，他們通常會想共用深入資訊，而不會把資料的直接存取權提供給同事。 但這不表示您無法探索資料集。  
@@ -89,7 +89,7 @@ ms.locfileid: "36944598"
    * 其中一個探索資料集的方式，是從頭建立您自己的視覺效果及報表。  選取圖表圖示 ![報表圖示](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) 以報表編輯模式開啟資料集。
      
        ![全新報表](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * 另一個探索資料集的方法是執行[深入資訊摘要](service-insights.md)。 選取省略符號 (...) 並選擇 [取得深入資訊]。 當深入資訊就緒時，請選取 [檢視深入資訊]。
+   * 另一個探索資料集的方法是執行[深入資訊摘要](consumer/end-user-insights.md)。 選取省略符號 (...) 並選擇 [取得深入資訊]。 當深入資訊就緒時，請選取 [檢視深入資訊]。
      
        ![見解報表](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -130,7 +130,7 @@ ms.locfileid: "36944598"
 
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 基本概念](service-basic-concepts.md)
+[Power BI 基本概念](consumer/end-user-basic-concepts.md)
 
 [Power BI 服務範例](sample-datasets.md)
 

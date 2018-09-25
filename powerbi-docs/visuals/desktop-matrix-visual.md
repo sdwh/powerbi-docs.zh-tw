@@ -1,21 +1,21 @@
 ---
 title: 在 Power BI Desktop 中使用矩陣視覺效果
 description: 了解矩陣視覺效果如何在 Power BI Desktop 中啟用分層式配置和細微的醒目提示
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 396028e1bcb58e94e545d848cf3cae3101091326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e08eeed7b4adf1a392d2661613dd190cce1fb52f
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732419"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565927"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>在 Power BI Desktop 中使用矩陣視覺效果
 透過 [矩陣] 視覺效果功能，您可以在 **Power BI Desktop** 報表中建立矩陣視覺效果 (有時也稱為「資料表」)，並與其他視覺效果交叉醒目提示矩陣內的元素。 此外，您可以選取資料列、資料行，甚至是個別資料格，然後交叉醒目提示。 最後，為了更妥善運用配置空間，矩陣視覺效果支援分層式配置。

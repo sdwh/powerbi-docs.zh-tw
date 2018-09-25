@@ -1,21 +1,21 @@
 ---
 title: 針對任何大小最佳化 Power BI 視覺效果
 description: 了解如何為 Power BI 手機應用程式將 Power BI Desktop 與 Power BI 服務中現有報表的視覺效果最佳化。
-author: maggiesMSFT
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/13/2018
-ms.author: maggies
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d85d4bd60c341ef588cf56b1345f28aa25b810de
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1c50bcf656f967502e8bb01f7ca5184996170bed
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732332"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566318"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>針對任何大小最佳化 Power BI 視覺效果
 根據預設，當您建立新的報表，視覺效果為「回應式」：不管是什麼樣的螢幕大小，都能以動態方式變更，顯示最多的資料與見解。 對於較舊的報表，您可以設定其視覺效果以動態方式調整大小。

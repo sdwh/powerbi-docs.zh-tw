@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0216b5659548af0b69cdb1b94df887eec0bd4e0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83826e812f9173db522c929ae80c31fc7134e5bd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732416"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549837"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI 中的區域分布圖 (分區著色圖)
 區域分布圖使用陰影、濃淡或圖樣，顯示值的比例如何隨著地理位置或地區而有所不同。  可使用範圍介於淺色 (較不常見/較低) 到深色 (較常見/較多) 的陰影，快速顯示這些相對差異。    
@@ -109,7 +109,7 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 如需地圖視覺效果的更多說明，請參閱[地圖視覺效果的祕訣和訣竅](power-bi-map-tips-and-tricks.md)。
 
 ## <a name="next-steps"></a>後續步驟
-[將區域分布圖新增為儀表板磚 (釘選視覺效果)](../service-dashboard-tiles.md)    
+[將區域分布圖新增為儀表板磚 (釘選視覺效果)](../consumer/end-user-tiles.md)    
  [將視覺效果新增至報表](power-bi-report-add-visualizations-i.md)  
  [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [變更所使用的視覺效果類型](power-bi-report-change-visualization-type.md)      

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 04a385d67a8cc462b21c16cf7daaa5aa675436d9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 72c51a6eae4acec5bfc0af7b471f98dfcb22da67
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729449"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549791"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的磚
 適用於︰
@@ -23,7 +23,7 @@ ms.locfileid: "44729449"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
 
-圖格是釘選到儀表板的即時資料快照集。 其值會隨著資料變更而變更。 **您可以[將磚新增到 Power BI 服務中的儀表板](../../service-dashboard-tiles.md)。** 
+圖格是釘選到儀表板的即時資料快照集。 其值會隨著資料變更而變更。 **您可以[將磚新增到 Power BI 服務中的儀表板](../end-user-tiles.md)。** 
 
 接著在 Power BI 行動裝置應用程式 中，以焦點模式開啟磚，並與之互動。 您可以開啟含有各類視覺效果的磚，包括以 Bing 和 R 為基礎的磚。
 

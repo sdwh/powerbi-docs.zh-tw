@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aa73da576a64a3245a3e8a9deab124dcefbc79f8
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 946746b1c868ca5310edd929434cc852400b5bc3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732320"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548066"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI 中的矩形式樹狀結構圖
 矩形式樹狀結構圖會將階層式資料顯示成一組巢狀矩形。  階層的每個層級會由包含其他矩形 (「分葉」) 的彩色矩形 (通常稱為「分支」) 代表。  每個矩形內的空間是根據測量的量化值來配置，並且矩形會依大小從左上角 (最大) 排列到右下 (最小)。
@@ -62,7 +62,7 @@ ms.locfileid: "44732320"
    > 
 5. 將游標暫留在 [鏈結]  區域，以顯示 [類別] 部分的工具提示。  舉例來說，將滑鼠停留在 [040-童裝]  矩形中的 [Lindseys]  ，會顯示童裝類別目錄 Lindsey 部分的工具提示。  
    ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
-6. [將矩形式樹狀結構圖以儀表板磚加入 (釘選視覺效果)](../service-dashboard-tiles.md)。 
+6. [將矩形式樹狀結構圖以儀表板磚加入 (釘選視覺效果)](../consumer/end-user-tiles.md)。 
 7. [儲存報表](../service-report-save.md)。
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
@@ -76,11 +76,11 @@ ms.locfileid: "44732320"
 2. 在 [依鏈結的去年銷售額] 圓形圖中，選取 [Fashion Direct] 配量，對矩形式樹狀結構圖進行交叉篩選。  
    ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
 
-3. 若要管理圖表互相交叉醒目提示及交叉篩選的方式，請參閱[在 Power BI 報表中與視覺效果互動](../service-reports-visual-interactions.md)
+3. 若要管理圖表互相交叉醒目提示及交叉篩選的方式，請參閱[在 Power BI 報表中與視覺效果互動](../consumer/end-user-interactions.md)
 
 ## <a name="next-steps"></a>後續步驟
 [將視覺效果釘選到儀表板](../service-dashboard-pin-tile-from-report.md)  
-[Power BI - 基本概念](../service-basic-concepts.md)  
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)  
 

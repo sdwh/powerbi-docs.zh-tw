@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 929af9c8ff3322fc792f2890b6914148725bf694
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ec2520ad72889ae3e8f4955ea93c4bf7727daa18
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729470"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544364"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中變更報告視覺效果的類型
-只有報告建立者和擁有者可以移動視覺效果及調整其大小。 在 Power BI 服務 (app.powerbi.com) 中，這表示在[編輯檢視](../service-reading-view-and-editing-view.md)中開啟報告。
+只有報告建立者和擁有者可以移動視覺效果及調整其大小。 在 Power BI 服務 (app.powerbi.com) 中，這表示在[編輯檢視](../consumer/end-user-reading-view.md)中開啟報告。
 
 ## <a name="open-the-report"></a>開啟報表
 在 Power BI 中，開啟至少有一個視覺效果的報告，或[建立新的視覺效果](power-bi-report-add-visualizations-i.md)。 

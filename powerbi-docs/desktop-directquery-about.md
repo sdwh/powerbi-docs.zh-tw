@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 81a8b5454e39088b8b406e600707d1d5073e14dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 1104c7f90f46252a74c4aa8e5ec573a159ef1c40
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330159"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550113"
 ---
 # <a name="using-directquery-in-power-bi"></a>使用 Power BI 中的 DirectQuery
 您可以在使用 **Power BI Desktop** 或 **Power BI 服務**時連接到各種不同的資料來源，而且可以利用不同的方法來進行這些資料連接。 您可以將資料「匯入」Power BI (這是取得資料的最常見方法)，也可以直接連接到原始來源存放庫中的資料 (也稱為 **DirectQuery**)。 本文將說明 **DirectQuery** 及其功能，包括下列主題：
@@ -277,7 +277,7 @@ DirectQuery 模型支援幾乎所有報告功能。 因此，只要基礎來源�
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  在 DirectQuery 中，這類交叉篩選和交叉醒目提示需要將查詢提交至底層來源，因此如果回應使用者的選取項目所需的時間過長，則應該關閉互動。 不過可以針對整份報告 (如上述的 [減少查詢] 選項)，或如[這篇文章](service-reports-visual-interactions.md)中所述視案例而定的方式來關閉互動。
+  在 DirectQuery 中，這類交叉篩選和交叉醒目提示需要將查詢提交至底層來源，因此如果回應使用者的選取項目所需的時間過長，則應該關閉互動。 不過可以針對整份報告 (如上述的 [減少查詢] 選項)，或如[這篇文章](consumer/end-user-interactions.md)中所述視案例而定的方式來關閉互動。
 
 除了上述建議清單之外，注意下列每項報告功能可能會導致效能問題：
 

@@ -2,7 +2,7 @@
 title: Power BI 中的星形量測計圖表
 description: Power BI 中的星形量測計圖表
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097c7111e630b4c0c80e71d812be73cc232ea6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729438"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565541"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的星形量測計圖表
 星形量測計圖表具有圓弧線段，並且會顯示針對某一目標/KPI 測量進度的單一值。  目標或目標值是由線條 (指針) 表示。 達到該目標的進度是由陰影表示。  代表該進度的值會以粗體顯示在弧線內。所有可能的值會從最小 (最左邊的值) 到最大 (最右邊的值) 平均分散在弧線上。
@@ -92,7 +92,7 @@ ms.locfileid: "44729438"
 
 ### <a name="step-5-save-your-report"></a>步驟 5：儲存報表。
 1. [儲存報表](../service-report-save.md)。
-2. [將量測計圖表加入為儀表板的磚](../service-dashboard-tiles.md)。 
+2. [將量測計圖表加入為儀表板的磚](../consumer/end-user-tiles.md)。 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>使用格式化選項來手動設定最小值、最大值與目標值
 1. 將 [銷售額的最大值]  從 [最大值]  部分移除。
@@ -117,7 +117,7 @@ ms.locfileid: "44729438"
 
 [將視覺效果釘選至儀表板](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI - 基本概念](../service-basic-concepts.md)
+[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 
