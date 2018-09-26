@@ -1,21 +1,21 @@
 ---
 title: 視覺效果中的彙總 (加總、平均、最大值等)
 description: 在 Power BI 中變更圖表的彙總 (加總、平均、最大值等)
-author: mihart
+author: mgblythe
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/29/2018
-ms.author: mihart
+ms.author: mblythe
 LocalizationGroup: Reports
-ms.openlocfilehash: d48f99c8415b7b347a504525b0c6539d1e90f4dd
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: a79fc16f183edb359c15da31ebd6f2747fa7859d
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241537"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187275"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Power BI 視覺效果中的彙總
 ## <a name="what-is-an-aggregate"></a>什麼是彙總？
@@ -26,7 +26,7 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 首先，讓我們查看資料「類型」，因為資料類型會決定如何彙總它，以及是否可以彙總。
 
 ## <a name="types-of-data"></a>資料類型
-大部分的資料集有多個資料類型。 在最基本的層級，資料會是數值或不是數值。 數值資料可以使用總和、平均值、計數、最小值、變異數，以及更多方式來彙總。 即使是文字資料，通常稱為「類別目錄」資料，也可以彙總。 如果您嘗試彙總類別欄位 (透過將它放在僅限數值的貯體，例如**值**或**工具提示**)，Power BI 將計算每個類別的出現次數，或計算每個類別的相異出現次數。 特殊類型的資料 (例如日期) 有自己的一些彙總選項：最早、最新、第一個和最後一個。 
+大部分的資料集有多個資料類型。 在最基本的層級，資料會是數值或不是數值。 數值資料可以使用總和、平均值、計數、最小值、變異數，以及更多方式來彙總。 即使是文字資料，通常稱為「類別目錄」資料，也可以彙總。 如果您嘗試彙總類別欄位 (透過將它放在僅限數值的貯體，例如**值**或**工具提示**)，Power BI 將計算每個類別的出現次數，或計算每個類別的相異出現次數。 特殊類型的資料，例如日期，有自己的一些彙總選項：最早、最新、第一個和最後一個。 
 
 在下列範例中：
 - [銷售單位] 與 [製造價格] 是包含數值資料的資料行
@@ -111,14 +111,14 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 1. 在此範例中，我們已將 [產品] 欄位拖入 [值]。 [值] 通常用於數值欄位。 Power BI 會辨識這是一個文字欄位、將彙總設為 [不摘要]，並呈現單一資料行的資料表。
    
    ![](media/service-aggregates/power-bi-aggregate-value.png)
-2. 如果將彙總從預設的 [不摘要] 變更為 [計數 (相異)] ，Power BI 就會計算不同產品的數目。 在此案例中有 4 個。
+2. 如果將彙總從預設的 [不摘要] 變更為 [計數 (相異)] ，Power BI 就會計算不同產品的數目。 在本案例中有 4 個。
    
    ![](media/service-aggregates/power-bi-aggregates-count.png)
-3. 如果將彙總變更為 [計數]，Power BI 就會計算總數。 在此案例中，[產品] 有 7 個項目。 
+3. 如果將彙總變更為 [計數]，Power BI 就會計算總數。 在本案例中，[產品] 有 7 個項目。 
    
    ![](media/service-aggregates/power-bi-aggregate-count2.png)
 
-4. 透過將相同的欄位 (在此案例為 [產品]) 拖入 [值]，並維持預設彙總 [不摘要]，Power BI 會依產品細分計數。
+4. 藉由將相同的欄位 (在本案例為 [產品]) 拖入 [值]，並維持預設彙總 [不摘要]，Power BI 會依產品細分計數。
 
    ![](media/service-aggregates/power-bi-aggregate-final.png)
 

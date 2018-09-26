@@ -1,21 +1,21 @@
 ---
 title: 開始使用 Power BI 問與答
 description: 開始使用與 Power BI 服務與零售分析範例搭配使用的問與答
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 01/16/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 92506d4ce2f372a4535a0a178ef43791c6d94f83
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6759145d2764a586526a69c8b577178144ba019e
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547951"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187000"
 ---
 # <a name="get-started-with-power-bi-qa"></a>開始使用 Power BI 問與答
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>使用 Power BI 問與答與零售分析範例

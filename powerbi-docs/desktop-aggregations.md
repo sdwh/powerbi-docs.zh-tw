@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dfb45be36516be9196fbdd4297209ce4bf15925c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512586"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974199"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop (預覽) 中的彙總
 
@@ -243,7 +243,7 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免聯結大型
 
 下表顯示在 **Sales Agg** 資料表的 [管理彙總] 對話方塊中設定的項目。 **Date** 為詳細資料資料表的 GroupBy 項目，其一定要為按 Date 屬性分組的查詢叫用彙總。 如同上一個範例，因為有關聯性，所以 CustomerKey 和 ProductSubcategoryKey 的 GroupBy 項目不會影響彙總叫用 (DISTINCTCOUNT 同樣不在此列)。
 
-![Sales Agg 彙總資料表](media/desktop-aggregations/aggregations-table_03.jpg)
+![Sales Agg 彙總資料表](media/desktop-aggregations/aggregations-table_04.jpg)
 
 > 注意：此模型需要 **Date** 資料表在 DirectQuery 模式中填寫 [管理彙總] 對話方塊，因為它是詳細資料資料表。 這是我們希望在正式發行時移除的預覽版限制。
 

@@ -10,30 +10,30 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c50bcf656f967502e8bb01f7ca5184996170bed
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 1260f2c69a4ab913f7451671ab7821ee250998c0
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566318"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187229"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>針對任何大小最佳化 Power BI 視覺效果
 根據預設，當您建立新的報表，視覺效果為「回應式」：不管是什麼樣的螢幕大小，都能以動態方式變更，顯示最多的資料與見解。 對於較舊的報表，您可以設定其視覺效果以動態方式調整大小。
 
 視覺效果的大小變更時，Power BI 會排定資料檢視的優先順序，例如自動移除邊框，並將圖例移至視覺效果頂部，如此一來即使視覺效果變小，也能充分表達資訊。 對於手機上 Power BI 行動應用程式中的視覺效果而言，回應能力特別實用。
 
-![調整回應式視覺效果大小](./media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
+![調整回應式視覺效果大小](media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
 
 任何使用 X 和 Y 軸的視覺效果及交叉分析篩選器都可回應式調整大小。
 
 ## <a name="turn-on-responsiveness-in-power-bi-desktop"></a>在 Power BI Desktop 中開啟回應能力
 1. 在 Power BI Desktop 舊版報表中的 [檢視] 索引標籤上，確定您是在 [桌面配置] 中。
    
-    ![電腦版面配置圖示](./media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
+    ![電腦版面配置圖示](media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
 2. 選取視覺效果，然後在 [視覺效果] 窗格中選取 [格式] 部分。
 3. 展開 [一般] > 將 [回應式] 切換為 [開啟]。
    
-    ![回應式開啟](././media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
+    ![回應式開啟](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
      現在，當您[建立已為手機最佳化的報表](../desktop-create-phone-report.md)並新增此視覺效果時，它就會適當調整大小。
 
@@ -44,7 +44,7 @@ ms.locfileid: "46566318"
 2. 選取視覺效果，然後在 [視覺效果] 窗格中選取 [格式] 部分。
 3. 展開 [一般] > 將 [回應式] 切換為 [開啟]。
    
-    ![回應式開啟](././media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
+    ![回應式開啟](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
      現在，當您[建立此報表的手機檢視](../desktop-create-phone-report.md)並新增此視覺效果時，它就會適當調整大小。
 
