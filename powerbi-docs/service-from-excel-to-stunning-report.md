@@ -2,20 +2,20 @@
 title: 即刻從 Excel 活頁簿到令人驚豔的報表
 description: 即刻從 Excel 活頁簿到令人驚豔的報表
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: f24d4055bd5fcf5fdee058112c268a1a0e197012
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3244a185c7b7e9caa689ab7b90c184c9bf5b4662
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247164"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044409"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>即刻從 Excel 活頁簿到令人驚豔的報表
 您的經理在下班時想要看到您最近的銷售數字以及之前行銷活動效果的報表。 但最新的資料在各種協力廠商系統中，以及您膝上型電腦的檔案內。 在過去，需要好幾個小時的時間才能製作具有各種視覺效果與格式的報表， 所以您覺得有點焦慮。
@@ -34,7 +34,7 @@ ms.locfileid: "34247164"
 ![格式化為資料表的資料](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-into-power-bi"></a>將 Excel 檔上傳到 Power BI
-Power BI 可連接至許多資料來源，包括您電腦上的 Excel 檔。 若要開始使用，請登入 Power BI。 若尚未註冊，[可以免費註冊](https://powerbi.com)。
+Power BI 可連接至許多資料來源，包括您電腦上的 Excel 檔。 若要開始使用，請登入 Power BI 服務。 若尚未註冊，[可以免費註冊](https://powerbi.com)。
 
 您想要建立新的儀表板。 開啟 [我的工作區]，然後選取 **+ 建立**圖示。
 

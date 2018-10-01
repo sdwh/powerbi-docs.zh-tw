@@ -2,21 +2,21 @@
 title: 在 Power BI 服務中設定資料警示
 description: 了解如何在 Microsoft Power BI 服務中設定儀表板，以在資料變更超出您所設定的限制時通知您。
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 153676c983ef81bcccf1ea6bf0adf95ef29a2765
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137522"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167920"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 服務中的資料警示
 設定警示，以在儀表板中的資料變更時超出您所設定的限制時通知您。 
@@ -42,18 +42,18 @@ ms.locfileid: "37137522"
 1. 啟動儀表板。 選取儀表板量測計、KPI 或卡片磚中的省略符號。
    
    ![[商店數總計] 磚](media/service-set-data-alerts/powerbi-card.png)
-2. 選取鈴鐺圖示 ![警示圖示](media/service-set-data-alerts/power-bi-bell-icon.png)，以為 [商店數總計] 新增一或多個警示。
+2. 選取鈴鐺圖示，![警示圖示](media/service-set-data-alerts/power-bi-bell-icon.png)或 [管理警示]，以為 [商店總數] 新增一或多個警示。
    
-1. 若要開始，請選取 [+ 新增警示規則]，確定已將滑桿設為 [開啟]，並為您的警示提供標題。 磚可幫助您輕鬆地辨識警示。
+1. 在 [管理警示] 窗格上選取 [+ 新增警示規則]。  確認滑桿設定為 [開啟]，並為警示提供標題。 磚可幫助您輕鬆地辨識警示。
    
    ![[管理警示] 視窗](media/service-set-data-alerts/powerbi-alert-title.png)
 4. 向下捲動並輸入警示的詳細資料。  在此範例中，我們要建立警示，在商店數總計超過 100 家時通知我們。 警示會出現在我們的通知中心內。 我們也同樣設定讓 Power BI 傳送電子郵件給我們。
    
    ![在 [管理警示] 視窗中設定 [臨界值]](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. 選取 [儲存]。
+5. 選取 [儲存並關閉]。
 
 ## <a name="receiving-alerts"></a>接收警示
-當正在追蹤的資料達到您所設定的其中一個臨界值時，會出現一些連鎖反應。 首先，Power BI 會檢查自傳送上個警示之後的經過時間，是否已超過 1 小時或 24 小時 (取決於您選取的選項)。 只要資料超過臨界值，您就會收到警示。
+當正在追蹤的資料達到您所設定的其中一個臨界值時，會出現一些連鎖反應。 首先，Power BI 會檢查自上次傳送警示起，是否已超過 1 小時或 24 小時 (取決於您選取的選項)。 只要資料超過臨界值，您就會收到警示。
 
 接下來，Power BI 會傳送警示到您的通知中心，並選擇性寄送電子郵件。 每個警示都包含資料的直接連結。 選取連結可以查看相關的磚，您可以在其中探索、共用以及深入了解。  
 
@@ -104,6 +104,4 @@ ms.locfileid: "37137522"
 ## <a name="next-steps"></a>後續步驟
 [建立包含資料警示的 Microsoft Flow](service-flow-integration.md)    
 [在行動裝置上設定資料警示](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[Power BI 是什麼？](power-bi-overview.md)    
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

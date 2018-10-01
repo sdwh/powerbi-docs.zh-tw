@@ -1,22 +1,22 @@
 ---
 title: 以全螢幕模式顯示儀表板、磚、報表頁面和視覺效果
-description: 以全螢幕模式 (也就是「電視模式」) 來顯示儀表板、儀表板磚、報表視覺效果和報表頁面。
+description: 在全螢幕模式 (即「電視模式」) 中顯示儀表板、儀表板磚、報表視覺效果和報表頁面。
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7b84b473f64b4ee2d37a3a39de9976f2cf147059
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244103"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044317"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Power BI 服務的全螢幕模式
 ## <a name="what-is-full-screen-mode"></a>什麼是全螢幕模式？
@@ -24,7 +24,7 @@ ms.locfileid: "34244103"
 
 顯示您的 Power BI 內容 (儀表板、報表頁面、磚和視覺效果) 而不受功能表和導覽按鈕的干擾。  您可隨時取得內容的完整檢視，而不含其他無關項目。 這有時稱為電視模式。 全螢幕模式中可用的功能會因內容而異。 
 
-如果您使用 Power BI 行動版，[Windows 10 行動裝置應用程式可使用全螢幕](mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop 沒有適用於報表或視覺效果的全螢幕模式，但對於[關聯性檢視](desktop-report-view.md)和[報表視覺效果的焦點模式](service-focus-mode.md)具有符合一頁大小。
+如果您使用 Power BI 行動版，[Windows 10 行動裝置應用程式可使用全螢幕](mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop 沒有提供給報表或視覺效果的全螢幕模式，但可為關聯性檢視及報表檢視提供[符合頁面大小](desktop-report-view.md)，以及可為[報表視覺效果提供焦點模式](service-focus-mode.md)。
 
  
 
@@ -44,7 +44,7 @@ ms.locfileid: "34244103"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="dashboards-and-report-pages-in-full-screen-mode"></a>全螢幕模式的儀表板和報表頁面
-1. 從儀表板或報表上方的 Power BI 功能表列，選取**全螢幕**圖示 ![全螢幕圖示](media/service-fullscreen-mode/power-bi-full-screen-icon.png)。 儀表板畫布或報表頁面隨即填滿整個畫面。 下方為儀表板範例。
+1. 從儀表板或報表上的 Power BI 服務功能表列選取**全螢幕**圖示![全螢幕圖示 ](media/service-fullscreen-mode/power-bi-full-screen-icon.png)。 儀表板畫布或報表頁面隨即填滿整個畫面。 下方為儀表板範例。
    
       ![儀表板會顯示為全螢幕](media/service-fullscreen-mode/power-bi-dash-full-screen.png)
 2. 全螢幕模式中有數個功能表選項。  若要顯示功能表，只要移動滑鼠或游標即可。 
