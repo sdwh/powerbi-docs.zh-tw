@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 83b9d87bf494c3b9e974ee9dfdfa97beb68a6579
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044317"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545789"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Power BI 服務的全螢幕模式
 ## <a name="what-is-full-screen-mode"></a>什麼是全螢幕模式？
@@ -24,7 +24,7 @@ ms.locfileid: "44044317"
 
 顯示您的 Power BI 內容 (儀表板、報表頁面、磚和視覺效果) 而不受功能表和導覽按鈕的干擾。  您可隨時取得內容的完整檢視，而不含其他無關項目。 這有時稱為電視模式。 全螢幕模式中可用的功能會因內容而異。 
 
-如果您使用 Power BI 行動版，[Windows 10 行動裝置應用程式可使用全螢幕](mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop 沒有提供給報表或視覺效果的全螢幕模式，但可為關聯性檢視及報表檢視提供[符合頁面大小](desktop-report-view.md)，以及可為[報表視覺效果提供焦點模式](service-focus-mode.md)。
+如果您使用 Power BI 行動版，[Windows 10 行動裝置應用程式可使用全螢幕](consumer/mobile/mobile-windows-10-app-presentation-mode.md)。 Power BI Desktop 沒有提供給報表或視覺效果的全螢幕模式，但可為關聯性檢視及報表檢視提供[符合頁面大小](desktop-report-view.md)，以及可為[報表視覺效果提供焦點模式](consumer/end-user-focus.md)。
 
  
 
@@ -35,7 +35,7 @@ ms.locfileid: "44044317"
 * 在小螢幕上檢視
 * 以鎖定模式檢閱 -- 您可以透過觸控螢幕或用滑鼠點選磚，而不需要開啟基礎報表或儀表板
 
-> **注意**：全螢幕模式與[焦點 (顯出) 模式](service-focus-mode.md)不同。
+> **注意**：全螢幕模式與[焦點 (顯出) 模式](consumer/end-user-focus.md)不同。
 > 
 > 
 
@@ -78,7 +78,7 @@ ms.locfileid: "44044317"
       ![](media/service-fullscreen-mode/exit-fullscreen-new.png)
 
 ## <a name="visualizations-and-dashboard-tiles-in-full-screen-mode"></a>全螢幕模式的視覺效果和儀表板磚
-1. 若要以全螢幕模式顯示儀表板磚和報表視覺效果，必須先使用已是[焦點模式](service-focus-mode.md)的磚或視覺效果。 
+1. 若要以全螢幕模式顯示儀表板磚和報表視覺效果，必須先使用已是[焦點模式](consumer/end-user-focus.md)的磚或視覺效果。 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
 2. 然後，選取該磚或 ![視覺效果的全螢幕](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  圖示。 磚或視覺效果就會顯示為沒有功能表或導覽列的全螢幕。
@@ -86,8 +86,8 @@ ms.locfileid: "44044317"
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 中的儀表板](service-dashboards.md)  
-[焦點模式](service-focus-mode.md)    
+[Power BI 中的儀表板](consumer/end-user-dashboards.md)  
+[焦點模式](consumer/end-user-focus.md)    
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 
