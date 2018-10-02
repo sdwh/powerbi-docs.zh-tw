@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e75cc0f7ca31257ea46af20b63c29d0d870ef7a0
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329676"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417364"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 若要做出正確決策，確保您能夠一直取得最新資料就相當重要。 您可能已經使用 Power BI 中的 [取得資料] 連接及上傳一些資料，也已經建立一些報表和儀表板。 現在，您想要確定您的資料都是最新且最優良的。
@@ -211,8 +211,6 @@ Power BI 中的內容套件有兩種類型：
 | **資料來源** | **自動** | **使用者設定的手動或排程重新整理** | **需要閘道** |
 | --- | --- | --- | --- |
 | 使用 Power BI REST API 或 Microsoft 串流分析開發的自訂應用程式 |是，即時串流 |否 |否 |
-
-如需深入了解，請參閱[在 Power BI 中建立即時儀表板](https://msdn.microsoft.com/library/mt267603.aspx)。
 
 ## <a name="configure-scheduled-refresh"></a>設定排程的重新整理
 若要了解如何設定排程的重新整理，請參閱[設定排程的重新整理](refresh-scheduled-refresh.md)。
