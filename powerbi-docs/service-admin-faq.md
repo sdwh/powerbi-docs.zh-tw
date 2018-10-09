@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 60ac0a944b1eb54ab998fbf25cb5fb79d6dddbe6
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37926576"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271892"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
@@ -120,7 +120,7 @@ ms.locfileid: "37926576"
     Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>我該如何不讓現有的使用者開始使用 Power BI？
-身為系統管理員，您可以採取幾個步驟不讓使用者註冊 Power BI。 如果您封鎖了這項功能，使用者就會註冊失敗，而且系統會指示他們連絡組織的系統管理員。如果您已停用自動授權發佈 (例如 Office 365 教育版、學生版和教職員版)，就不需要重複這個程序。 [深入了解](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
+身為系統管理員，您可以採取幾個步驟不讓使用者註冊 Power BI。 如果您封鎖了這項功能，使用者就會註冊失敗，而且系統會指示他們連絡組織的系統管理員。如果您已停用自動授權發佈 (例如 Office 365 教育版、學生版和教職員版)，就不需要重複這個程序。 [深入了解](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
 
 控制此項的 AAD 設定是 **AllowAdHocSubscriptions**。 大多數的租用戶必須將此設定為 true，表示已啟用此設定。 如果您透過合作夥伴取得 Power BI，根據預設，這可能設為 false，表示已停用。
 

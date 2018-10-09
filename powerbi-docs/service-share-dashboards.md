@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4d43ffb1f4e005830fd36da4e80cf4d0c7d86fed
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549929"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271755"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用您的 Power BI 儀表板和報表
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 還提供[數種其他方式可進行共同作業及散發您的儀表板和報表](service-how-to-collaborate-distribute-dashboards-reports.md)。
 
 ![[我的最愛儀表板] 清單中的共用圖示](media/service-share-dashboards/power-bi-share-dash-report-favorites.png)
 
-不論是與組織內部或外部共用內容，您都會需要 [Power BI Pro 授權](service-free-vs-pro.md)。 您的收件者也必須具有 Power BI Pro 授權，否則內容便必須位於 [Premium 容量](service-premium.md)中。 
+不論是與組織內部或外部共用內容，您都會需要 [Power BI Pro 授權](service-features-license-type.md)。 您的收件者也必須具有 Power BI Pro 授權，否則內容便必須位於 [Premium 容量](service-premium.md)中。 
 
 您可以從 Power BI 服務中大部分的位置共用儀表板和報表，包括您的 [我的最愛]、[最近]、[與我共用]\(如果擁有者允許的話)、[我的工作區] 或其他工作區。 當您與他人共用儀表板或報表時，他們可以檢視該儀表板或報表並與之互動，但無法編輯它們。 除非套用[資料列層級安全性 (RLS)](service-admin-rls.md)，否則他們將能看到和您在儀表板或報表中可看見的相同資料。 如果您允許的話，您與其共用儀表板或報表的同事，也可以與他們的同事共用。 組織外部人員也可以檢視儀表板或報表並與之互動，但不能共用。 
 

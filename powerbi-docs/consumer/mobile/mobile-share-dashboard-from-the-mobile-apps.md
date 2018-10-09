@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 40d3e311e9ff9276200a37cabf2d29b324f83f7b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729453"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271639"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>從 Power BI 行動裝置應用程式共用儀表板或報表
 適用於︰
@@ -23,7 +23,7 @@ ms.locfileid: "44729453"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
 
-只要有 [Power BI Pro 授權](../../service-free-vs-pro.md)，您就可以從 Power BI 行動裝置應用程式共用連結，以邀請其他人檢視您的儀表板和報表。 您可以與任何人共用，不論對方是否在組織內，有無公司郵件帳戶都可以。 他們也必須具有 Power BI Pro 授權，否則內容便必須位於 [Premium 容量](../../service-premium.md)中。
+只要有 [Power BI Pro 授權](../../service-features-license-type.md)，您就可以從 Power BI 行動裝置應用程式共用連結，以邀請其他人檢視您的儀表板和報表。 您可以與任何人共用，不論對方是否在組織內，有無公司郵件帳戶都可以。 他們也必須具有 Power BI Pro 授權，否則內容便必須位於 [Premium 容量](../../service-premium.md)中。
 
 從 Power BI for iOS 和 Android 行動裝置應用程式中，您也可以與任何人一起[標註並共用圖格、報告或視覺效果的快照集](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。 
 

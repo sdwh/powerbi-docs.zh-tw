@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/18/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 152ca52713cc548553d061d2457d13d1b5760ee4
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565835"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798923"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入門 - 瀏覽 Power BI 服務
 
@@ -38,7 +38,7 @@ ms.locfileid: "46565835"
 
     ![選取範例](./media/end-user-experience/power-bi-retail-sample.png)
 
-    Power BI 服務會匯入範例，並顯示儀表板。 儀表板是 Power BI 服務與 Power BI Desktop 的不同之處。 範例也包含報表和資料集，我們日後將會進行瀏覽。
+    Power BI 服務會匯入範例，並顯示儀表板。 「儀表板」是 Power BI 服務與 Power BI Desktop 的不同之處。 範例也包含報表和資料集，我們日後將會進行瀏覽。
 
     ![](media/end-user-experience/power-bi-dashboard.png)
 

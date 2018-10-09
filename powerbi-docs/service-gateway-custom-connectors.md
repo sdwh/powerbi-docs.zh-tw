@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c36034ad5e8175e08f1d16c2f5148c5dab0ebbd
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: 2536ea34cadae5f348e619d713420787db4c467a
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "42702894"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48799038"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>透過內部部署資料閘道使用自訂資料連接器
 
@@ -45,8 +45,6 @@ ms.locfileid: "42702894"
 
 * 請確定您所建立的資料夾可供背景閘道服務存取。 一般而言，無法存取您使用者的 Windows 資料夾或系統資料夾下的資料夾。 如果無法存取資料夾，閘道設定程式會顯示一則訊息 (這不適用於個人版的閘道)
 * 若要讓自訂連接器可以透過內部部署資料閘道運作，這些連接器需要實作自訂連接器程式碼中的 “TestConnection” 區段。 當透過 Power BI Desktop 使用自訂連接器時，則不需要此區段。 基於此原因，您可以有一個可透過 Desktop 運作但無法透過閘道運作的連接器。 請參閱[此文件](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support)以了解如何實作 TestConnection 區段。
-* 不支援使用 OAuth 驗證的自訂連接器。
-* 不支援使用 Direct Query 的自訂連接器。
 
 ## <a name="next-steps"></a>後續步驟
 
