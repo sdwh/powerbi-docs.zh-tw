@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 08/16/2018
-ms.openlocfilehash: 6960945d878269344e8993577a8eac239d8ca4a4
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549883"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908363"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -85,7 +85,7 @@ ms.locfileid: "46549883"
 > [!IMPORTANT]
 > 請務必檢閱可以看到 Power BI 服務內報表的成員，並將存取權授與未列出的成員。
 
-有兩個方法可提供 Power BI 服務內報表的存取權。 如果您使用 Office 365 群組來建置 SharePoint Online 小組網站，則要將使用者列為 **Power BI 服務內的應用程式工作區**成員，及列出 **SharePoint 頁面**。 如此可確保使用者能夠檢視該群組的內容。 如需詳細資訊，請參閱[在 Power BI 中建立和散發應用程式](consumer/end-user-create-apps.md)。
+有兩個方法可提供 Power BI 服務內報表的存取權。 如果您使用 Office 365 群組來建置 SharePoint Online 小組網站，則要將使用者列為 **Power BI 服務內的應用程式工作區**成員，及列出 **SharePoint 頁面**。 如此可確保使用者能夠檢視該群組的內容。 如需詳細資訊，請參閱[在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md)。
 
 或者您可以執行下列動作，以將您的報表存取權授與使用者。
 
@@ -151,7 +151,7 @@ ms.locfileid: "46549883"
 ## <a name="next-steps"></a>後續步驟
 
 [允許或防止終端使用者建立新式網站頁面](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[在 Power BI 中建立和散發應用程式](consumer/end-user-create-apps.md)  
+[在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md)  
 [Share a dashboard with colleagues and others](service-share-dashboards.md) (與同事和其他人共用儀表板)  
 [Power BI Premium - 這是什麼？](service-premium.md)  
 

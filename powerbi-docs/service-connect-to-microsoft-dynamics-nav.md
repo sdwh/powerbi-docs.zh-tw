@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a00913ea326f472993553910a79e3cc208356499
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546709"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908892"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>使用 Power BI 連接到 Microsoft Dynamics NAV
 您可以使用 Power BI，輕鬆獲得 Microsoft Dynamics NAV 資料的深入解析。 Power BI 會擷取您的資料 (銷售和財務)，然後根據該資料建置含有儀表板和報表的應用程式。 Power BI 需要有資料擷取來源資料表的權限，本例中為銷售和財務資料。 下方有需求的詳細資料。 安裝應用程式之後，即可在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 及 Power BI 行動應用程式中，檢視儀表板與報表。 
@@ -25,9 +25,9 @@ ms.locfileid: "46546709"
 ## <a name="how-to-connect"></a>如何連接
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. 選取 [Microsoft Dynamics NAV]，然後選取 [取得]。  
+3. 選取 [Microsoft Dynamics NAV]，然後選取 [取得]。  
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
-2. 出現提示時，輸入您的 Microsoft Dynamics NAV OData URL。 URL 應符合下列模式：
+4. 出現提示時，輸入您的 Microsoft Dynamics NAV OData URL。 URL 應符合下列模式：
    
     `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
@@ -37,12 +37,12 @@ ms.locfileid: "46546709"
      
      取得這個 URL 的簡單方法是在 Dynamics NAV 中，移至 Web 服務，尋找 powerbifinance Web 服務並複製 Odata URL，但省略 URL 字串中的 "/powerbifinance"。  
      ![](media/service-connect-to-microsoft-dynamics-nav/param.png)
-3. 選取 [基本]，並輸入您的 Microsoft Dynamics NAV 認證。
+5. 選取 [基本]，並輸入您的 Microsoft Dynamics NAV 認證。
    
     您需要 Microsoft Dynamics NAV 帳戶的系統管理員認證 (或至少需要銷售和財務資料權限)。  目前僅支援基本 (使用者名稱和密碼) 驗證。
    
     ![](media/service-connect-to-microsoft-dynamics-nav/creds.png)
-4. Power BI 會擷取您的 Microsoft Dynamics NAV 資料，並為您建立現成可用的儀表板和報表。   
+6. Power BI 會擷取您的 Microsoft Dynamics NAV 資料，並為您建立現成可用的儀表板和報表。   
    ![](media/service-connect-to-microsoft-dynamics-nav/dashboard.png)
 
 ## <a name="view-the-dashboard-and-reports"></a>檢視儀表板和報表
@@ -99,7 +99,7 @@ Power BI 會使用 Microsoft Dynamics NAV 的 Web 服務來擷取資料。 如�
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>後續步驟
-* [Power BI 中的應用程式是什麼？](consumer/end-user-apps.md)
+* [Power BI 中的應用程式是什麼？](service-create-distribute-apps.md)
 * [取得 Power BI 中的資料](service-get-data.md)
 * 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

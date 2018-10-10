@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 99d8faa7ba3e0e92f97e84bd52454ad44a472e71
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 00f4f63630efd36b55da5e15ce28f1733edaf84f
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547284"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908662"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>開始使用 Power BI for Windows 10 行動裝置應用程式
 Power BI 的 Windows 10 行動裝置應用程式可將 Power BI 帶著走，以最新狀態、啟用觸控式行動裝置的方式存取您的商務資訊。 在 [Windows 開始畫面](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上，隨處檢視公司儀表板並與之互動。
@@ -108,7 +108,7 @@ Power BI 的 Windows 10 行動裝置應用程式可將 Power BI 帶著走，以�
 您還可以在適用於 Windows 10 裝置的 Power BI 應用程式中，運用 Power BI 中的儀表板和報表，以及 Reporting Services 入口網站中的 Reporting Services 行動報表和 KPI 來執行其他作業。
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 儀表板和報表
-* 檢視[應用程式](../end-user-apps.md)。
+* 檢視[應用程式](../../service-create-distribute-apps.md)。
 * 檢視您的[儀表板](mobile-apps-view-dashboard.md)。
 * [將 Power BI 磚和儀表板釘選](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)為裝置的開始畫面動態磚。
 * [共用磚](mobile-windows-10-phone-app-get-started.md)。

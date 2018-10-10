@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271692"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908961"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>該如何在 Power BI 中進行共同作業和共用？
 
@@ -57,7 +57,7 @@ ms.locfileid: "48271692"
 
 ![發佈應用程式圖示](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 中可輕鬆地找到及安裝應用程式。 您可以將應用程式的直接連結傳送給商務使用者，或者他們可以在 AppSource 中進行搜尋。 如果您的 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 深入了解如何[發佈您的應用程式](consumer/end-user-create-apps.md)。 
+在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 中可輕鬆地找到及安裝應用程式。 您可以將應用程式的直接連結傳送給商務使用者，或者他們可以在 AppSource 中進行搜尋。 如果您的 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 深入了解如何[發佈您的應用程式](service-create-distribute-apps.md)。 
 
 當他們安裝應用程式之後，就可以在瀏覽器或行動裝置中檢視此應用程式。
 
@@ -99,7 +99,7 @@ ms.locfileid: "48271692"
 
 ## <a name="next-steps"></a>後續步驟
 * [與同事和其他人共用儀表板](service-share-dashboards.md)
-* [在 Power BI 中建立和發佈應用程式](consumer/end-user-create-apps.md)
+* [在 Power BI 中建立和發佈應用程式](service-create-distribute-apps.md)
 * 有任何意見嗎？ 請移駕 [Power BI 社群網站](https://community.powerbi.com/)提供您的建議。
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
 

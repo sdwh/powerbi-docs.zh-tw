@@ -8,22 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: 462e9b1d991690846c57a225552b271fca19499c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544387"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908639"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>從報表建立 Power BI 儀表板
-您已閱讀 [Power BI 的儀表板](consumer/end-user-dashboards.md)，現在想要建立自己的儀表板。 有許多不同的方式可以建立儀表板：從報表、從頭建立、從資料集、複製現有的儀表板等等。  
+您已閱讀 [Power BI 的儀表板](service-dashboards.md)，現在想要建立自己的儀表板。 有許多不同的方式可以建立儀表板：從報表、從頭建立、從資料集、複製現有的儀表板等等。  
 
 在首次接觸時，這可能會令人望而生畏，因此我們將透過釘選來自己建置報表的視覺效果，從建立快速且簡單的儀表板開始。 在您完成此快速入門之後，便能對儀表板和報表之間的關係、開啟報表編輯器中的 [編輯檢視]、釘選磚，以及在儀表板和報表之間進行瀏覽等內容，具備相當程度的了解。 接著，請使用左側的目錄，或是位於底部的＜後續步驟＞來移至更進階的主題。
 
 ## <a name="who-can-create-a-dashboard"></a>誰可以建立儀表板？
-建立儀表板為**建立者**功能，並需要報表的編輯權限。 報表的建立者，以及由建立者授予存取權限的同事皆會有編輯權限。 例如，如果 David 在 workspaceABC 中建立報表，並將您新增為該工作區的成員，您和 David 都會有編輯權限。 反過來說，如果報表是直接與您共用，或是搭配 [Power BI 應用程式](consumer/end-user-apps.md)與您共用 (在此情況下，您是在**取用**該報表)，您將無法將磚釘選到儀表板上。
+建立儀表板為**建立者**功能，並需要報表的編輯權限。 報表的建立者，以及由建立者授予存取權限的同事皆會有編輯權限。 例如，如果 David 在 workspaceABC 中建立報表，並將您新增為該工作區的成員，您和 David 都會有編輯權限。 反過來說，如果報表是直接與您共用，或是搭配 [Power BI 應用程式](service-create-distribute-apps.md)與您共用 (在此情況下，您是在**取用**該報表)，您將無法將磚釘選到儀表板上。
 
 > **注意**：儀表板是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 Power BI 行動裝置無法建立儀表板，但可以[檢視及共用](consumer/mobile/mobile-apps-view-dashboard.md)儀表板。
 >
@@ -65,7 +65,7 @@ ms.locfileid: "46544387"
 1. 停留在相同的工作區，然後選取 [報表] 索引標籤。新匯入的報表會顯示黃色星號。 選取報表名稱，以開啟它。
 
     ![報表索引標籤](media/service-dashboard-create/power-bi-reports.png)
-2. 報表隨即在[閱讀檢視](consumer/end-user-reading-view.md)中開啟。 請注意，它的底部有兩個索引標籤︰[折扣分析] 和 [支出概觀]。 每個索引標籤都代表報表的一個頁面。
+2. 報表隨即在 [閱讀檢視] 中開啟。 請注意，它的底部有兩個索引標籤︰[折扣分析] 和 [支出概觀]。 每個索引標籤都代表報表的一個頁面。
     選取 [編輯報表] 以在 [編輯檢視] 中開啟報表。
 
     ![[閱讀檢視] 中的報表](media/service-dashboard-create/power-bi-reading-view.png)
@@ -108,9 +108,9 @@ ms.locfileid: "46544387"
 
 ## <a name="next-steps"></a>後續步驟
 * [調整大小和移動磚](service-dashboard-edit-tile.md)
-* [儀表板磚的所有相關資訊](consumer/end-user-tiles.md)
-* [建立應用程式來共用儀表板](consumer/end-user-create-apps.md)
-* [Power BI - 基本概念](consumer/end-user-basic-concepts.md)
+* [儀表板磚的所有相關資訊](service-dashboard-tiles.md)
+* [建立應用程式來共用儀表板](service-install-use-apps.md)
+* [Power BI - 基本概念](service-basic-concepts.md)
 * [設計絕佳儀表板的秘訣](service-dashboards-design-tips.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 2b39d9ab5b8bae32dde6eda66f09f69a9718d569
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548480"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908523"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
 
@@ -33,7 +33,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 需要閘道器 | 否 | 是 (針對內部部署資料來源) |  
 | 即時串流 | 否 | 是 | [Power BI 中的即時串流](../service-real-time-streaming.md)
 | 儀表板 | 否 | 是 | [Power BI 服務中的儀表板](../consumer/end-user-dashboards.md) 
-| 使用應用程式發佈群組的報表 | 否 | 是 | [使用儀表板和報表建立並發佈應用程式](../consumer/end-user-create-apps.md) 
+| 使用應用程式發佈群組的報表 | 否 | 是 | [使用儀表板和報表建立並發佈應用程式](../service-create-distribute-apps.md) 
 | 內容套件 | 否 | 是 | [組織內容套件：簡介](../service-organizational-content-pack-introduction.md) 
 | 連線到服務 (例如 Salesforce) | 否 | 是 | 使用 Power BI 服務[連線到所用服務](../consumer/end-user-connect-to-services.md)
 | 問與答 | 否 | 是 | [Power BI 服務和 Power BI Desktop 中的問與答](../consumer/end-user-q-and-a.md) 

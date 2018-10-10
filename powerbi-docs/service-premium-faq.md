@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/20/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 85a5856d20781012f32d53c9468fdd6b77a0f685
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c67d46e716574dd1a1d73b9c93c29a3e99f030ba
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546594"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909076"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常見問題集
 瀏覽常見問題集清單並取得 Power BI Premium 供應項目相關問題的解答。
@@ -102,7 +102,7 @@ Power BI 報表伺服器可以當作 Power BI Premium 的一部分使用，並�
 **什麼是 Power BI 應用程式？**  
 我們正在將內容套件開發成 Power BI 應用程式，以改善使用者探索及瀏覽企業規模之深入資訊的方式。 今日，您可以使用 Power BI 應用程式，來簡化特定人員、群組或整個組織部署儀表板和報表的方式。 企業用戶可以輕鬆地安裝這些應用程式，而且巡覽起來很容易，其內容會集中到一個位置並自動更新。 
 
-如需應用程式的詳細資訊，請參閱 [Power BI 中的應用程式是什麼？](consumer/end-user-apps.md)。
+如需應用程式的詳細資訊，請參閱 [Power BI 中的應用程式是什麼？](service-create-distribute-apps.md)。
 
 **您要在 Power BI Premium 首度發行過程中對 Power BI Pro、Power BI 免費版、Power BI Desktop 等進行變更嗎？**  
 現在也將簡化 Power BI Pro 與免費服務之間的差異。 我們所收到的意見反應指出，雖然免費服務適合個人使用，而 Power BI Pro 會啟用共同作業，但兩者之間的功能差異對使用者造成不少困擾。 我們將在未來改善免費服務，使其具有與 Power BI Pro 相同的功能，但僅限 Power BI Pro 使用者可以使用共用和共同作業功能。

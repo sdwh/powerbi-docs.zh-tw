@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5268241c32112847c879407374b325dd63dd8aab
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564823"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908616"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的報表
 ## <a name="what-is-a-power-bi-report"></a>什麼是 Power BI 報表？
@@ -67,7 +67,7 @@ Power BI「報表」是資料集的多面向檢視，以視覺效果顯示該資
 * 請從 [Power BI 服務導覽](end-user-basic-concepts.md)開始，了解可在何處找到報表和報表工具。
 * 了解如何[開啟報表](end-user-report-open.md)以及[閱讀檢視](end-user-reading-view.md)中可用的所有互動。
 * 使用其中一個的[範例](../sample-tutorial-connect-to-the-samples.md)導覽來熟悉報表。  
-* 不再需要報表了嗎？ 您可以[移除它](end-user-delete.md)。
+<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
 * 若要查看報表正在使用的資料集，以及哪些儀表板具有從報表釘選的磚，請[檢視相關內容](end-user-related.md)。
 
 > [!TIP]
@@ -79,6 +79,4 @@ Power BI「報表」是資料集的多面向檢視，以視覺效果顯示該資
 [Power BI 是什麼？](../power-bi-overview.md) 
 
 [Power BI - 基本概念](end-user-basic-concepts.md)
-
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 
