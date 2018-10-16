@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48798923"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112145"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入門 - 瀏覽 Power BI 服務
 
@@ -125,7 +125,7 @@ ms.locfileid: "48798923"
 
 ![排序內容](./media/end-user-experience/power-bi-sort.png)
 
-若要深入了解，請參閱 [Power BI 導覽：搜尋、排序、篩選](end-user-search-filter-sort.md)。
+若要深入了解，請參閱 [Power BI 導覽：搜尋、排序、篩選](end-user-search-sort.md)。
 
 ## <a name="clean-up-resources"></a>清除資源
 完成此快速入門後，您可以根據需求，刪除零售分析範例儀表板、報表和資料集。
