@@ -2,8 +2,6 @@
 
 如今您已了解 Excel 和 Power BI 如何順暢地搭配運作，以及所有能在報表和儀表板中建立的視覺效果，您可能會想要與您的同事及朋友共用。 有了 Power BI，便可輕鬆地完成發佈與共用。
 
-本節說明將 Excel 活頁簿匯入 Power BI 有多麼容易，並示範 Power BI 與 Excel 絕佳的合作關係。
-
 ## <a name="share-and-collaborate-with-colleagues-in-power-bi"></a>在 Power BI 中與同事共用及共同作業
 *為您介紹 Power BI 工具，這些工具讓您能更輕鬆地共用和共同作業*
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2085f1ca852839c27c4943872e5f5ddb248e8638
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908892"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641382"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>使用 Power BI 連接到 Microsoft Dynamics NAV
 您可以使用 Power BI，輕鬆獲得 Microsoft Dynamics NAV 資料的深入解析。 Power BI 會擷取您的資料 (銷售和財務)，然後根據該資料建置含有儀表板和報表的應用程式。 Power BI 需要有資料擷取來源資料表的權限，本例中為銷售和財務資料。 下方有需求的詳細資料。 安裝應用程式之後，即可在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 及 Power BI 行動應用程式中，檢視儀表板與報表。 
@@ -29,7 +29,7 @@ ms.locfileid: "48908892"
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
 4. 出現提示時，輸入您的 Microsoft Dynamics NAV OData URL。 URL 應符合下列模式：
    
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
    * 以您的 NAV 伺服器名稱取代 "instance.navserver.com"
    * 以您的 NAV 伺服器執行個體名稱取代 "DynamicsNAV90\_Instance1"
@@ -72,7 +72,7 @@ Power BI 會使用 Microsoft Dynamics NAV 的 Web 服務來擷取資料。 如�
 
 * URL 要嚴格遵循這種模式：
   
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
   
   * 以您的 NAV 伺服器名稱取代 "instance.navserver.com"
   * 以您的 NAV 伺服器執行個體名稱取代 "DynamicsNAV90\_Instance1"
@@ -92,11 +92,11 @@ Power BI 會使用 Microsoft Dynamics NAV 的 Web 服務來擷取資料。 如�
 
 * 請確認 URL 遵循上文所指定的模式。 常見的錯誤是指定：
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
   
     不過，您必須在 NAV 公司名稱中包括 'Company('CRONUS%20International%20Ltd.')' 區段：
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>後續步驟
 * [Power BI 中的應用程式是什麼？](service-create-distribute-apps.md)

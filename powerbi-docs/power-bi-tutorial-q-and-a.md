@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/17/2018
+ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 69e1bfffab1dd30685036b3c5265f81040a5f7c3
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 6f595a2d6423b1e79e927ee2d229363632022d58
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187137"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396995"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>教學課程：如何使用問與答來建立視覺效果及建置報表
 [問與答概觀](consumer/end-user-q-and-a.md)簡介了 Power BI 問與答，並區分「取用者」(與他們共用了儀表板和報表) 和「建立者」(擁有基礎的報表和資料集)。 本教學課程的第一個部分，設計的對象主要是針對使用 Power BI 服務來取用儀表板的人。 第二個部分的設計則是針對使用 Power BI 服務或 Power BI Desktop 建立報表的人。 [問與答和 Power BI 行動版](consumer/mobile/mobile-apps-ios-qna.md)和[問與答與 Power BI Embedded](developer/qanda.md) 包含於個別的文章中。
@@ -98,7 +98,7 @@ ms.locfileid: "47187137"
 在使用問與答的時候，您不只可以要求要說明資料，也可以告訴 Power BI 要如何顯示答案。 只需在問題結尾加上「為<visualization type>」。  例如「依工廠顯示庫存量為地圖」和「顯示總庫存為卡片」。  請自己試試看吧。
 
 ##  <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-- 如果您已使用即時連線或閘道連線到資料集，必須[針對該資料集啟用](consumer/end-user-q-and-a-direct-query.md)問與答。
+- 如果您已使用即時連線或閘道連線到資料集，必須[針對該資料集啟用](service-q-and-a-direct-query.md)問與答。
 
 - 您已開啟報表且沒有看到問與答的選項。 如果您使用 Power BI 服務，請務必在編輯檢視中開啟報表。 如果您無法開啟編輯檢視，則表示您沒有該報表的編輯權限，且將無法使用該特定報表的問與答。
 
@@ -107,5 +107,5 @@ ms.locfileid: "47187137"
 [教學課程：使用問與答與零售分析範例](power-bi-visualization-introduction-to-q-and-a.md)   
 [在問與答中詢問問題的祕訣](consumer/end-user-q-and-a-tips.md)   
 [準備適用於問與答的活頁簿](service-prepare-data-for-q-and-a.md)  
-[準備適用於問與答的內部部署資料集](consumer/end-user-q-and-a-direct-query.md)
+[準備適用於問與答的內部部署資料集](service-q-and-a-direct-query.md)
 [將磚從問與答釘選到儀表板](service-dashboard-pin-tile-from-q-and-a.md)

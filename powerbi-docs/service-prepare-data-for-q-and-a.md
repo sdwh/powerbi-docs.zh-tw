@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f15bd3395ad9edc39589a0a5b1563cfcc00e2c3c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6cd667a81a743a0b074155e0e16a49178157bc6c
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547861"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396489"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>如何讓 Excel 資料適用於 Power BI 的問與答
 如果您是建立資料模型的人員，或要建立搭配 Power BI 使用的 Excel 活頁簿，請繼續閱讀...
@@ -45,7 +45,7 @@ ms.locfileid: "46547861"
 
 ## <a name="next-steps"></a>後續步驟
 回到 [Power BI 中的問與答](consumer/end-user-q-and-a.md)  
-[準備適用於問與答的內部部署資料集](consumer/end-user-q-and-a-direct-query.md)   
+[準備適用於問與答的內部部署資料集](service-q-and-a-direct-query.md)   
 [問與答快速入門](power-bi-visualization-introduction-to-q-and-a.md)  
 [取得 Power BI 的資料](service-get-data.md)  
 

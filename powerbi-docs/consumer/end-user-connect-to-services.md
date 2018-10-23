@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Connect to services
-ms.openlocfilehash: add6a02d10c2dfe0e0fd93b9d12f03a10d057241
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 8d8446f231d1de3527d5371a55542641c29cca83
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908202"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435273"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>使用 Power BI 連接到所用服務
 
@@ -60,7 +60,7 @@ ms.locfileid: "48908202"
 您有想要建置應用程式的服務嗎？ [送出您的提名](https://azure.microsoft.com/marketplace/programs/certified/apply/)，並選取 [發佈 Power BI 內容套件] 以開始使用。
 
 ## <a name="next-steps"></a>後續步驟
-* [Power BI 中的應用程式是什麼？](../service-install-use-apps.md)
+* [Power BI 中的應用程式是什麼？](end-user-apps.md)
 * [取得 Power BI 中的資料](../service-get-data.md)
 * 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

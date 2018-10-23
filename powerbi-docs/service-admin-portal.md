@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 334bffeabbf5342c21424fa5d9907eba7e71fd4e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2f10ead5d08efa12cae05aeb6f2e3d3068636f77
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909030"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396903"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
 
@@ -161,7 +161,7 @@ ms.locfileid: "48909030"
 
 ### <a name="export-data"></a>匯出資料
 
-組織中的使用者可以從磚或視覺效果匯出資料。 [深入了解](consumer/end-user-export-data.md)
+組織中的使用者可以從磚或視覺效果匯出資料。 [深入了解](visuals/power-bi-visualization-export-data.md)
 
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 
