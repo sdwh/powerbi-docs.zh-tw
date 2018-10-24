@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ad9a3e73a90ff69f5d56e1e5c1fc487c855df74d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566019"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417318"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>在 Power BI Desktop (預覽) 中的圖形地圖
-在 Power BI Desktop 中，您可將不同的色彩套用至不同的區域，建立**圖形地圖**視覺效果，於地圖上顯示區域的相對比較。 相對於**地圖**視覺效果，**圖形地圖**無法精確顯示地圖上資料點的地理位置；相反地，其主要目的是以不同的著色方式，在地圖上顯示區域的相對比較。
+建立**圖形地圖**視覺效果，使用色彩比較地圖上的區域。 不同於**地圖**視覺效果，**圖形地圖**無法在地圖上顯示資料點的確切地理位置。 相反地，其主要目的是要藉由不同的著色，在地圖上顯示區域的相對比較。
 
-**圖形地圖**視覺效果以 ESRI/TopoJSON 地圖為基礎，其具有使用您建立的自訂地圖的強大能力，例如地理位置、座位安排、樓面規劃等等。 此預覽版的**圖形地圖**無法使用自訂地圖。
+**圖形地圖**視覺效果以 ESRI/TopoJSON 地圖為基礎，其具有使用您可建立之自訂地圖的強大能力。 自訂地圖的範例包括：地理位置、座位安排、樓面規劃等等。 此預覽版的**圖形地圖**無法使用自訂地圖。
 
 ## <a name="creating-shape-maps"></a>建立圖形地圖
 您可以用此 Preview 版本隨附的地圖測試 [圖形地圖] 控制項，如果您自己的自訂地圖符合下一節**使用自訂地圖**中所述需求，也可加以使用。
@@ -115,7 +115,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="australia-states"></a>澳洲︰州
 
-| 識別碼 | abbr | iso | 名稱 | 郵遞區號 |
+| `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |西澳洲 |WA |
 | au-vic |Vic |AU-VIC |維多利亞 |VIC |
@@ -128,7 +128,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="austria-states"></a>奧地利︰邦
 
-| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |維也納 |WI |
 | at-vo |AT-8 |Vorarlberg |福拉爾貝格 |VO |
@@ -142,7 +142,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="brazil-states"></a>巴西︰州
 
-| 識別碼 |
+| `id` |
 | --- |
 | 托坎廷斯 |
 | 伯南布科 |
@@ -178,7 +178,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="canada-provinces"></a>加拿大︰省
 
-| 識別碼 | iso | 名稱 | 郵遞區號 |
+| `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |努納福特 |NU |
 | ca-nt |CA-NT |西北領地 |NT |
@@ -196,9 +196,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="france-regions"></a>法國︰大區
 
-| 識別碼 | 名稱 | 名稱 - 繁體中文 |
+| `id` | `name` | `name-en` |
 | --- | --- | --- |
-| Alsace |Alsace |阿爾薩斯 |
+| 阿爾薩斯 |Alsace |阿爾薩斯 |
 | Rhone-Alpes |Rhône-Alpes |隆河─阿爾卑斯 |
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |普羅旺斯─阿爾卑斯─蔚藍海岸 |
 | Poitou-Charentes |Poitou-Charentes |普瓦圖─夏朗德 |
@@ -223,7 +223,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="germany-states"></a>德國︰邦
 
-| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |柏林 |BE |
 | de-th |DE-TH |Thüringen |圖林根 |TH |
@@ -244,7 +244,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="ireland-counties"></a>愛爾蘭︰郡
 
-| 識別碼 |
+| `id` |
 | --- |
 | 威克洛 |
 | 韋克斯福德 |
@@ -275,7 +275,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="italy-regions"></a>義大利︰大區
 
-| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |威尼托 |VN |
 | it-vd |IT-23 |Valle d'Aosta |瓦萊達奧斯塔 |VD |
@@ -300,7 +300,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="mexico-states"></a>墨西哥︰州
 
-| 識別碼 | abreviatura | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |薩卡特卡斯 |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |猶加敦 |YU |
@@ -337,7 +337,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="netherlands-provinces"></a>荷蘭︰省
 
-| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 |
+| `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |南荷蘭 |
 | nl-ze |NL-ZE |Zeeland |澤蘭 |
@@ -354,7 +354,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="uk-countries"></a>英國：構成國
 
-| 識別碼 | iso | 名稱 |
+| `id` | `iso` | `name` |
 | --- | --- | --- |
 | gb-wls |GB-WLS |威爾斯 |
 | gb-sct |GB-SCT |蘇格蘭 |
@@ -363,7 +363,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="usa-states"></a>美國︰州
 
-| 識別碼 | 名稱 | 郵遞區號 |
+| `id` | `name` | `postal` |
 | --- | --- | --- |
 | us-mi |密西根 |MI |
 | us-ak |阿拉斯加 |AK |
@@ -415,5 +415,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-nd |北達科他 |ND |
 | us-me |緬因 |ME |
 | us-mt |蒙大拿 |MT |
-| us-wa |華盛頓 |WA |
+| us-wa |華盛頓 |華盛頓 |
 
+## <a name="next-steps"></a>後續步驟
+[Power BI 中的矩陣視覺效果](desktop-matrix-visual.md)
+
+[Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2d2d983da6de5ec88574092289ed2958c7a98923
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 370613fb4436eb71ae0b6af6c0b5166e8bb7b434
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600404"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546686"
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>使用 Power BI 連接到 Azure Mobile Engagement
 Power BI Azure Mobile Engagement 內容套件可讓您快速深入了解 App 資料。
@@ -44,9 +44,9 @@ Power BI Azure Mobile Engagement 內容套件可讓您快速深入了解 App 資
 
 ## <a name="what-now"></a>接下來呢？
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
-* [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
+* [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
 
 ## <a name="next-steps"></a>後續步驟

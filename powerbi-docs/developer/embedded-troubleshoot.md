@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 71cb40ef6f1346bd3d8486658b05427e66d1dbf3
+ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558560"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46474038"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -84,18 +84,18 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 
 應用程式的後端必須先重新整理權杖，再呼叫 GenerateToken。
 
-```
+    ```
     GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
     Host: wabi-us-north-central-redirect.analysis.windows.net
     ...
     Authorization: Bearer eyJ0eXAiOi...
     ...
- 
+
     HTTP/1.1 403 Forbidden
     ...
-     
+
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-```
+    ```
 
 ## <a name="authentication"></a>驗證
 
@@ -229,13 +229,13 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 | OpenConnectionError | 無法顯示視覺效果。 無法轉譯標題如下的報表視覺效果：<visual title> | N/A | 當與容量關聯的報表已在工作階段中開啟時，已暫停或刪除的容量 |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | 無法載入與此報表關聯的模型結構描述。 確定您可以連線到伺服器，然後再試一次。 | N/A | <li> 容量已暫停 <li> 容量已刪除 |
 
-## <a name="onboarding-experience-tool-for-embedding"></a>內嵌的上線體驗工具
+## <a name="embedding-setup-tool"></a>內嵌安裝工具
 
-您可以完成[上線體驗工具](https://aka.ms/embedsetup)以快速下載應用程式範例。 之後，您可以比較自己的應用程式與範例。
+您可以完成[內嵌安裝工具](https://aka.ms/embedsetup)以快速下載應用程式範例。 之後，您可以比較自己的應用程式與範例。
 
 ### <a name="prerequisites"></a>先決條件
 
-使用上線體驗工具之前，請驗證您具備所有適當的必要條件。 您需要 **Power BI Pro** 帳戶和 **Microsoft Azure** 訂用帳戶。
+使用內嵌安裝工具之前，請驗證您具備所有適當的必要條件。 您需要 **Power BI Pro** 帳戶和 **Microsoft Azure** 訂用帳戶。
 
 * 如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/en-us/pricing/)，再開始進行。
 * 如果您沒有 Azure 訂用帳戶，請先建立[免費帳戶](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)，再開始進行。
@@ -244,7 +244,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="common-issues"></a>常見問題
 
-當您試用上線體驗工具時，可能會遇到的幾個常見問題有：
+當您試用內嵌安裝工具時，可能會遇到下列的幾個常見問題：
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>使用對客戶進行內嵌的應用程式範例
 
@@ -262,6 +262,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 此錯誤之所以發生，是因為唯一未插入應用程式範例中的值，是您的使用者密碼。 請在解決方案中開啟 Web.config 檔案，並以您的使用者密碼填入 pbiPassword 欄位。
 
+若您收到錯誤 - AADSTS50079：使用者必須使用多重要素驗證。
+
+    Need to use an AAD account that does not have MFA enabled.
+
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>使用對組織進行內嵌的應用程式範例
 
 若您使用**對組織進行內嵌**體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 資料夾，然後執行 *pbi-saas-embed-report.sln* 檔案。
@@ -275,6 +279,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 若您想編輯已註冊的應用程式，請了解如何編輯[已註冊 AAD 的應用程式](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)，讓應用程式可提供 Web API 的存取。
 
 若您想編輯 Power BI 使用者設定檔或資料，則請了解如何編輯 [Power BI 資料](https://docs.microsoft.com/power-bi/service-basic-concepts)。
+
+若您收到錯誤 - AADSTS50079：使用者必須使用多重要素驗證。
+
+    Need to use an AAD account that does not have MFA enabled.
 
 如需詳細資訊，請參閱 [Power BI Embedded 常見問題集](embedded-faq.md)。
 

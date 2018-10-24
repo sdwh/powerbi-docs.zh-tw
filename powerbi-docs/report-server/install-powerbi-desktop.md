@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/24/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c65b945260357b0679f8fdb83c534aac53481126
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726378"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564777"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 了解如何安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop。
@@ -31,7 +31,7 @@ ms.locfileid: "44726378"
 
     ![從 Web 入口網站下載 Power BI Desktop](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    或者您可以直接移至 Microsoft 下載中心的 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (已針對 Power BI 報表伺服器最佳化 - 2018 年 3 月)。
+    或者您可以直接前往 Microsoft 下載中心的 [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (已針對 Power BI 報表伺服器最佳化 - 2018 年 8 月)。
 
 2. 在 [下載中心] 頁面上，選取 [下載]。
 
@@ -41,7 +41,8 @@ ms.locfileid: "44726378"
 
     - **PBIDesktopRS_x64.msi** (64 位元版本)。
 
-1. 下載安裝程式之後，執行 Power BI Desktop (2017 年 10 月) 安裝精靈。
+1. 下載安裝程式之後，執行 Power BI Desktop (2018 年 8 月) 安裝精靈。
+
 2. 在安裝結束時，請核取 [立即啟動 Power BI Desktop]。
    
     其會自動啟動，一切即就緒。
@@ -49,7 +50,7 @@ ms.locfileid: "44726378"
 ## <a name="verify-you-are-using-the-correct-version"></a>驗證您使用正確的版本
 您可透過，驗證使用正確的 Power BI Desktop。查看 Power BI Desktop 內的啟動螢幕或標題列。 標題列會指出版本的發行年份和月份。
 
-![針對 Power BI 報表伺服器最佳化的 Power BI Desktop 標題列](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+![針對 Power BI 報表伺服器最佳化的 Power BI Desktop 標題列](media/install-powerbi-desktop/power-bi-report-server-desktop-august-2018.png)
 
 Power BI 服務的 Power BI Desktop 版本不會在標題列中顯示年份和月份。
 
@@ -63,7 +64,7 @@ Power BI 服務的 Power BI Desktop 版本不會在標題列中顯示年份和�
 無論是從 Power BI 報表伺服器內編輯 Power BI 報表，還是從入口網站建立新的 Power BI 報表，都一律會開啟正確的 Power BI Destop 版本。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
-Power BI 報表伺服器和 Power BI 服務 (http://powerbi.com)) 中的報表行為幾乎完全相同，但部分功能不同。
+Power BI 報表伺服器、Power BI 服務 (http://app.powerbi.com)) 和 Power BI 行動裝置應用程式中的 Power BI 報表行為幾乎完全相同，但部分功能不同。
 
 ### <a name="in-a-browser"></a>在瀏覽器中
 Power BI 報表伺服器報表支援所有視覺效果，包括：
@@ -80,9 +81,9 @@ Power BI 報表伺服器報表不支援：
 ### <a name="in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中
 Power BI 報表伺服器報表支援 [Power BI 行動裝置應用程式](../consumer/mobile/mobile-apps-for-mobile-devices.md)中的所有基本功能，包括：
 
-* [手機報表配置](../desktop-create-phone-report.md)：您可以將 Power BI 行動裝置應用程式的報表最佳化。 在您的行動電話上，最佳化的報表會有特殊圖示 ![手機報表配置圖示](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) 和配置。
+* [手機報表配置](../desktop-create-phone-report.md)：您可以將 Power BI 行動裝置應用程式的報表最佳化。 在您的行動電話上，最佳化的報表會有特殊圖示 ![手機報表配置圖示](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) 和配置。
   
-    ![專為手機設計的報表](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+    ![專為手機設計的報表](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-report.png)
 
 Power BI 報表伺服器報表不支援 Power BI 行動裝置應用程式中的下列功能：
 

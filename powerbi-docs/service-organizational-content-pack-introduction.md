@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 3f8a5075290620d9d1ed1829008002ff71d25c82
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547629"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908151"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的組織內容套件簡介
 > [!NOTE]
@@ -33,7 +33,7 @@ ms.locfileid: "46547629"
 儀表板、報表、Excel 活頁簿均為唯讀，但您可以從複製及使用儀表板與報表入手，開始建立您自己的個人化版本內容套件。
 
 > [!NOTE]
-> 僅有當您和同事具有 [Power BI Pro](service-free-vs-pro.md) 時，才能使用組織內容套件。
+> 僅有當您和同事具有 [Power BI Pro 授權](service-features-license-type.md)時，才能使用組織內容套件。
 > 
 > 
 
@@ -52,7 +52,7 @@ ms.locfileid: "46547629"
 1. 在 Power BI Pro 中，Nate 建立了一個內容套件，並將其發行至「行銷」通訊群組中。 因為重新整理設定和資料集要一起繼承，所以只有 Nate 可以變更。
    
    > [!NOTE]
-   > 如果 Nate 從他所在的 [Power BI 應用程式工作區](consumer/end-user-create-apps.md)中建立內容套件，即使他離開群組，Power BI 工作區中的其他人也可以接管擁有權。
+   > 如果 Nate 從他所在的 [Power BI 應用程式工作區](service-create-distribute-apps.md)中建立內容套件，即使他離開群組，Power BI 工作區中的其他人也可以接管擁有權。
    > 
    > 
 2. Nate 傳送郵件給通訊群組，告訴他們新內容套件的相關資訊。
@@ -76,7 +76,7 @@ ms.locfileid: "46547629"
 
 ## <a name="next-steps"></a>後續步驟
 * [建立和發佈組織內容套件](service-organizational-content-pack-create-and-publish.md)
-* [在 Power BI 中建立和散發應用程式](consumer/end-user-create-apps.md) 
+* [在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md) 
 * [Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

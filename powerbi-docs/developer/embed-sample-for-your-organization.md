@@ -3,66 +3,70 @@ title: 為組織將 Power BI 內容內嵌至應用程式
 description: 了解如何使用 Power BI API，為組織將報表、儀表板或磚整合或內嵌至 Web 應用程式。
 author: markingmyname
 ms.author: maghan
-ms.date: 07/13/2018
+manager: kfile
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-manager: kfile
-ms.openlocfilehash: 544429528ed51dd2928eb82632f512ff3f7d5afd
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.date: 07/13/2018
+ms.openlocfilehash: 9df612d80d3f322a8391eeb43430942a03850470
+ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359723"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "48827448"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 報表、儀表板或磚內嵌至應用程式
-本教學課程示範如何在為組織將 **Power BI** 內嵌至應用程式時，利用 **Power BI .NET SDK** 搭配 **Power BI JavaScript API**，將報表整合至應用程式。 使用 **Power BI**，可利用**使用者擁有資料**，將報表、儀表板或磚內嵌至應用程式。 **使用者擁有資料**可讓應用程式延伸 Power BI 服務。
 
-![檢視應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+本教學課程會示範如何將報表整合至應用程式。 您可以使用 Power BI .NET SDK 搭配 Power BI JavaScript API，為您的組織將 Power BI 內嵌至應用程式。 在 Power BI 中，可利用**使用者擁有資料**，將報表、儀表板或磚內嵌至應用程式。 **使用者擁有資料**可讓應用程式延伸 Power BI 服務。
 
-在本教學課程中，您會了解如何：
+![Power BI 內嵌報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+
+在本教學課程中，您會學習下列工作：
 >[!div class="checklist"]
 >* 在 Azure 中註冊應用程式。
 >* 將 Power BI 報表內嵌到應用程式中。
 
 ## <a name="prerequisites"></a>先決條件
-若要開始使用進行，您需要 **Power BI Pro** 帳戶和 **Microsoft Azure** 訂用帳戶。
 
-* 如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/en-us/pricing/)，再開始進行。
+若要開始使用，您需要 Power BI Pro 帳戶及 Microsoft Azure 訂用帳戶：
+
+* 如果您尚未註冊 Power BI Pro，請先[註冊免費試用](https://powerbi.microsoft.com/en-us/pricing/)，再開始進行。
 * 如果您沒有 Azure 訂用帳戶，請先建立[免費帳戶](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)，再開始進行。
-* 您必須設定自己的 [Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)。
-* 您必須安裝 [Visual Studio](https://www.visualstudio.com/) (2013 版或更新版本)。
+* 設定您自己的 [Azure Active Directory (Azure AD) 租用戶](create-an-azure-active-directory-tenant.md)。
+* 安裝 [Visual Studio](https://www.visualstudio.com/)，版本 2013 或更新版本。
 
-## <a name="setup-your-embedded-analytics-development-environment"></a>設定您的內嵌分析開發環境
+## <a name="set-up-your-embedded-analytics-development-environment"></a>設定您的內嵌分析開發環境
 
-在您開始將報表、儀表板或磚內嵌至您的應用程式之前，必須先確定已將環境設定成允許內嵌。 在安裝時，您必須執行下列作業。
+在您開始將報表、儀表板或磚內嵌至您的應用程式之前，請確認已將環境設定成允許內嵌。 作為設定的一部分，請採取以下其中一個動作：
 
-您可以瀏覽[上線體驗工具](https://aka.ms/embedsetup/UserOwnsData)，快速開始使用及下載應用程式範例，協助您完成建立環境及內嵌報表的程序。
+- 您可以瀏覽[內嵌設定工具](https://aka.ms/embedsetup/UserOwnsData)來快速開始使用及下載範例應用程式，帶您逐步建立環境及內嵌報表。
 
-不過，若您選擇手動設定環境，可以繼續進行下方步驟。
-### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>在 Azure Active Directory (Azure AD) 中註冊應用程式
+- 若您選擇手動設定環境，請採取下列各節中的步驟。
 
-請向 Azure Active Directory 註冊您的應用程式，以允許該應用程式存取 Power BI REST API。 這可讓您為應用程式建立身分識別，並指定對 Power BI REST 資源的權限。
+### <a name="register-an-application-in-azure-active-directory"></a>在 Azure Active Directory 中註冊應用程式
+
+若要讓您的應用程式存取 Power BI REST API，請使用 Azure Active Directory 註冊它。 然後您便可以為應用程式建立身分識別，指定對 Power BI REST 資源的權限。
 
 1. 接受 [Microsoft Power BI API 條款](https://powerbi.microsoft.com/api-terms)。
 
-2. 登入[Azure 入口網站](https://portal.azure.com)。
+2. 登入 [Azure 入口網站](https://portal.azure.com)。
 
-    ![Azure 入口網站主畫面](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+    ![Azure 儀表板](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-3. 在左側導覽窗格中，選擇 [所有服務]，選取 [應用程式註冊]，然後選取 [新增應用程式註冊]。
+3. 在左側瀏覽窗格中，選擇 [所有服務]及 [應用程式註冊]。 然後選取 [新增應用程式註冊]。
 
     ![應用程式註冊搜尋](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)</br>
+
     ![新增應用程式註冊](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. 遵循提示並建立新的應用程式。 針對**使用者擁有資料**，您的應用程式類型必須使用 **Web 應用程式/API**。 您還必須提供 [登入 URL]，供 **Azure AD** 用來傳回權杖回應。 輸入您應用程式特定的值 (例 如 http://localhost:13526/).
+4. 遵循提示並建立新的應用程式。 針對**使用者擁有資料**，請針對 [應用程式類型] 使用 [Web 應用程式/API]。 您也必須提供 [登入 URL]，供 Azure AD 用來傳回權杖回應。 輸入您應用程式的特定值。 例如：`http://localhost:13526/`。
 
     ![建立應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>在 Azure Active Directory 內將權限套用至應用程式
 
-除了應用程式註冊頁面上所提供的權限之外，您還需要為應用程式啟用額外的權限。 您需要使用「全域系統管理員」帳戶登入，才可啟用權限。
+除了應用程式註冊頁面上所提供的內容之外，您必須為應用程式啟用權限。 使用全域系統管理員帳戶登入以啟用權限。
 
 ### <a name="use-the-azure-active-directory-portal"></a>使用 Azure Active Directory 入口網站
 
@@ -70,185 +74,190 @@ ms.locfileid: "39359723"
 
     ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-2. 選取 [設定]，然後在 [API 存取權] 底下，選取 [必要權限]。
+2. 選取 [設定] 。 然後在 [API 存取] 下方，選取 [必要權限]。
 
     ![必要權限](media/embed-sample-for-your-organization/embed-sample-for-your-organization-008.png)
 
-3. 選取 [Windows Azure Active Directory]，然後確定選取 [以登入使用者身分存取目錄]。 選取 [儲存]。
+3. 選取 [Microsoft Azure Active Directory]。 然後確認已選取 [以登入使用者身分存取目錄]。 選取 [儲存]。
 
-    ![Windows Azure AD 權限](media/embed-sample-for-your-organization/embed-sample-for-your-organization-011.png)
+    ![Microsoft Azure AD 權限](media/embed-sample-for-your-organization/embed-sample-for-your-organization-011.png)
 
 4. 選取 [加入] 。
 
     ![新增權限](media/embed-sample-for-your-organization/embed-sample-for-your-organization-012.png)
 
-5. 選取 [選取 API]。
+5. 選擇 [選取 API]。
 
     ![新增 API 存取權](media/embed-sample-for-your-organization/embed-sample-for-your-organization-013.png)
 
-6. 選取 [Power BI 服務]，然後選取 [選取]。
+6. 選取 [Power BI 服務]。 然後選擇 [選取]。
 
-    ![選取 PBI 服務](media/embed-sample-for-your-organization/embed-sample-for-your-organization-014.png)
+    ![選取 Power BI 服務](media/embed-sample-for-your-organization/embed-sample-for-your-organization-014.png)
 
-7. 選取 [委派的權限] 下方的所有權限。 您必須逐一選取它們，才能儲存選取項目。 完成時，請選取 [儲存]。
+7. 選取 [委派的權限] 下方的所有權限。 逐一選取它們，以儲存選取項目。 完成時，請選取 [儲存]。
 
     ![選取委派的權限](media/embed-sample-for-your-organization/embed-sample-for-your-organization-015.png)
 
-## <a name="setup-your-power-bi-environment"></a>設定您的 Power BI 環境
+## <a name="set-up-your-power-bi-environment"></a>設定您的 Power BI 環境
 
 ### <a name="create-an-app-workspace"></a>建立應用程式工作區
 
-如果您要為客戶內嵌報表、儀表板或圖格，就必須將您的內容放在應用程式工作區內。
+如果您要為客戶內嵌報表、儀表板或磚，就必須將您的內容放在應用程式工作區內：
 
-1. 開始建立工作區。 選取 [工作區] > [建立應用程式工作區]。 這是放置應用程式所需存取內容的位置。
+1. 開始建立工作區。 選取 [工作區] > [建立應用程式工作區]。 此工作區是放置應用程式所需存取內容的位置。
 
     ![建立工作區](media/embed-sample-for-your-organization/embed-sample-for-your-organization-020.png)
 
-2. 提供工作區的名稱。 如果對應的 [工作區識別碼] 無法使用，請編輯它，使其具有唯一識別碼。 這也需要成為應用程式的名稱。
+2. 提供工作區的名稱。 如果對應的 [工作區識別碼] 無法使用，請編輯它，使其具有唯一識別碼。 此名稱也必須是應用程式的名稱。
 
-    ![為工作區命名](media/embed-sample-for-your-organization/embed-sample-for-your-organization-021.png)
+    ![命名工作區](media/embed-sample-for-your-organization/embed-sample-for-your-organization-021.png)
 
-3. 您可以設定幾個選項。 如果您選擇 [公用]，則組織中的所有人都可以看到工作區中的內容。 相反地，[私用] 則表示只有工作區的成員才能看到其內容。
+3. 您可以設定幾個選項。 如果您選擇 [公用]，則組織中的所有人都可以看到工作區中的內容。 [私人] 表示只有工作區的成員才能看到其內容。
 
-    ![公用/私人](media/embed-sample-for-your-organization/embed-sample-for-your-organization-022.png)
+    ![選擇私人或公用](media/embed-sample-for-your-organization/embed-sample-for-your-organization-022.png)
 
-    建立群組之後，您無法變更公用/私人設定。
+    建立群組之後，您無法變更公用或私人設定。
 
-4. 您也可以選擇成員是否可以**編輯**還是具有**僅限檢視**存取權。
+4. 您也可以選擇成員是否可以編輯，或是具有僅限檢視存取權。
 
-    ![新增成員](media/embed-sample-for-your-organization/embed-sample-for-your-organization-023.png)
+    ![選擇成員存取權](media/embed-sample-for-your-organization/embed-sample-for-your-organization-023.png)
 
-5. 新增想要讓他們存取工作區之人員的電子郵件地址，然後選取 [新增]。 您無法新增群組別名，只能新增個人。
+5. 新增想要讓他們存取工作區的人員電子郵件地址，然後選取 [新增]。 您無法新增群組別名，只能新增個人。
 
 6. 決定每一個人是成員還是系統管理員。系統管理員可以編輯工作區本身，包括新增其他成員。 除非成員具有僅限檢視存取權，否則成員可以編輯工作區中的內容。 管理員和成員都可以發佈應用程式。
 
-    現在，您已可以檢視新的工作區。 Power BI 會建立並開啟工作區。 它會出現在您所屬工作區的清單中。 因為您是系統管理員，所以您可以選擇省略符號 (…) 返回，並透過新增成員或變更其權限來進行變更。
+    現在，您已可以檢視新的工作區。 Power BI 會建立並開啟工作區。 它會顯示在您所屬工作區的清單中。 因為您是系統管理員，所以您可以選擇省略符號 (…) 返回，並透過新增成員或變更其權限來進行變更。
 
-    ![建立工作區](media/embed-sample-for-your-organization/embed-sample-for-your-organization-025.png)
+    ![建立應用程式工作區](media/embed-sample-for-your-organization/embed-sample-for-your-organization-025.png)
 
 ### <a name="create-and-publish-your-reports"></a>建立並發佈報表
 
-您可以使用 Power BI Desktop 建立報表和資料集，接著將這些報表發佈到應用程式工作區。 發佈報表的一般使用者必須有 Power BI Pro 授權，才能發佈至應用程式工作區。
+您可以使用 Power BI Desktop 來建立您的報表和資料集。 然後您可以將那些報表發佈到應用程式工作區。 發佈報表的終端使用者必須有 Power BI Pro 授權，才能發佈至應用程式工作區。
 
 1. 從 GitHub 下載範例[部落格示範](https://github.com/Microsoft/powerbi-desktop-samples)。
 
-    ![報表範例](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026-1.png)
+    ![下載示範](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026-1.png)
 
-2. 在 **Power BI Desktop** 中開啟範例 PBIX 報表
+2. 在 Power BI Desktop 中開啟範例 .pbix 報表。
 
-   ![PBI Desktop 報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
+   ![範例 Power BI Desktop 報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
 
-3. 發佈至「應用程式工作區」
+3. 發佈至應用程式工作區。
 
-   ![PBI Desktop 報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
+   ![發佈 Power BI Desktop 報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
 
     現在，您可在線上 Power BI 服務中檢視該報表。
 
-   ![PBI Desktop 報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
+   ![檢視 Power BI Desktop 報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
 
-## <a name="embed-your-content-using-the-sample-application"></a>使用範例應用程式來內嵌內容
+## <a name="embed-your-content-by-using-the-sample-application"></a>使用範例應用程式來內嵌內容
 
-請遵循下列步驟，使用範例應用程式開始內嵌您的內容。
+若要使用範例應用程式內嵌您的內容，請遵循以下步驟：
 
-1. 從 GitHub 下載[使用者擁有資料範例](https://github.com/Microsoft/PowerBI-Developer-Samples)以開始使用。  範例應用程式有 3 種不同類型，分別為[報表](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app)、[儀表板](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app)和[磚](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app)。  本文說明的是**報表**應用程式，步驟討論如下。
+1. 若要開始使用，請從 GitHub 下載[使用者擁有資料範例](https://github.com/Microsoft/PowerBI-Developer-Samples)。 範例應用程式有三種不同類型，分別為[報表](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app)、[儀表板](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app)和[磚](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app)。 本文說明的是**報表**應用程式。
 
     ![使用者擁有資料應用程式範例](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. 開啟範例應用程式中的 Cloud.config 檔案。 您需要填入一些欄位，才能成功執行應用程式。 **ClientID** 和 **ClientSecret**。
+2. 開啟範例應用程式中的 **Cloud.config** 檔案。 您必須填入一些欄位，才能成功執行應用程式：**ClientID** 和 **ClientSecret**。
 
-    ![Cloud 組態檔](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
+    ![Cloud.config 檔案](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    使用從 **Azure** 取得的**應用程式識別碼**填寫 **ClientID** 資訊。 應用程式會使用 **ClientID** 來向您要求權限的使用者表明其身分。
+    使用從 Azure 取得的**應用程式識別碼**填入 **ClientID** 資訊。 應用程式會使用 **ClientID** 來向您要求權限的使用者表明其身分。
 
     若要取得 **ClientID**，請遵循下列步驟：
 
-    登入[Azure 入口網站](https://portal.azure.com)。
+    1. 登入 [Azure 入口網站](https://portal.azure.com)。
 
-    ![Azure 入口網站主畫面](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+        ![Azure 入口網站儀表板](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-    在左側導覽窗格中，選擇 [所有服務]，然後選取 [應用程式註冊]。
+    1. 在左側瀏覽窗格中，選擇 [所有服務]及 [應用程式註冊]。
 
-    ![應用程式註冊搜尋](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+        ![應用程式註冊搜尋](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    選取需要使用 **ClientID** 的應用程式。
+    1. 選取需要使用 **ClientID** 的應用程式。
 
-    ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+        ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    您應該會看到以 GUID 形式列出的「應用程式識別碼」。 請使用此**應用程式識別碼**作為應用程式的 **ClientID**。
+    1. 您應該會看到以 GUID 形式列出的**應用程式識別碼**。 請使用此**應用程式識別碼**作為應用程式的 **ClientID**。
 
-    ![用戶端識別碼](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+        ![用戶端識別碼](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    從 **Azure** 中 [應用程式註冊] 區段的 [金鑰] 區段，填寫 **ClientSecret** 資訊。
+    1. 從 **Azure** 中 [應用程式註冊] 區段的 [金鑰] 區段，填寫 **ClientSecret** 資訊。
 
-    若要取得 **ClientSecret**，請遵循下列步驟：
+    1. 若要取得 **ClientSecret**，請遵循下列步驟：
 
-    登入[Azure 入口網站](https://portal.azure.com)。
+        1. 登入 [Azure 入口網站](https://portal.azure.com)。
 
-    ![Azure 入口網站主畫面](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+            ![Azure 入口網站](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-    在左側導覽窗格中，選擇 [所有服務]，然後選取 [應用程式註冊]。
+        1. 在左側瀏覽窗格中，選擇 [所有服務]及 [應用程式註冊]。
 
-    ![應用程式註冊搜尋](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+            ![應用程式註冊搜尋](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    選取需要使用 **ClientSecret** 的應用程式。
+        1. 選取需要使用 **ClientSecret** 的應用程式。
 
-    ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+            ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    選取 [設定] 。
+        1. 選取 [設定] 。
 
-    ![設定](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+            ![選取 [設定]](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
 
-    選取 [金鑰]。
+        1. 選取 [金鑰]。
 
-    ![金鑰](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+            ![選取 [金鑰]](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    以名稱填寫 [描述]，然後選取 [持續時間]，再選取 [儲存] 以取得應用程式的 [值]。 當您在儲存**金鑰值** 後關閉 [金鑰] 刀鋒視窗，值欄位僅會顯示為 [隱藏]，且您此時無法擷取**金鑰值**。 如果您遺失**金鑰值**，就必須在 [Azure 入口網站] 中建立一個新的。
+    1. 在 [描述] 方塊中輸入名稱，並選取期間。 然後選取 [儲存] 來取得您應用程式的**值**。 當您在儲存金鑰值後關閉 [金鑰] 窗格時，[值] 欄位只會以隱藏方式顯示。 此時，您即無法擷取金鑰值。 如果您遺失金鑰值，就必須在 Azure 入口網站中建立一個新的。
 
-    ![金鑰](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+        ![金鑰值](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
-     在 **groupId** 資訊中，填入來自 Power BI 的「應用程式工作區 GUID」。
+    1. 針對 **groupId**，輸入來自 Power BI 的應用程式工作區 GUID。
 
-    ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+        ![輸入 groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-    在 **reportId** 資訊中，填入來自 Power BI 的「報表 GUID」。
+    1. 針對 **reportId**，輸入來自 Power BI 的報表 GUID。
 
-    ![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+        ![輸入 reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
-3. 執行應用程式！
+3. 執行應用程式：
 
-    首先，在 **Visual Studio** 中選取 [執行]。
+    1. 首先，在 **Visual Studio** 中選取 [執行]。
 
-    ![執行應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
+        ![執行應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-    然後選取 [取得報表]。
+    1. 然後選取 [取得報表]。
 
-    ![選取內容](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
+        ![選取內容](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
-    現在，您已可以在範例應用程式中檢視該報表。
+    1. 現在，您已可以在範例應用程式中檢視該報表。
 
-    ![檢視應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+        ![在應用程式中檢視報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>在應用程式中內嵌內容
-即使使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 可以完成內嵌您內容的步驟，還是可以使用 **.NET SDK** 來撰寫本文中所述的範例程式碼。
 
-若要將報表整合至 Web 應用程式，請使用 **Power BI REST API** 或 **Power BI C# SDK**，以及 Azure Active Directory (AD) 授權**存取權杖**，以取得報表。 然後，使用同一個**存取權杖**載入報表。 **Power BI Rest API** 可讓您以程式設計方式存取特定的 **Power BI** 資源。 如需詳細資訊，請參閱 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 及 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
+雖然使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 可以完成內嵌您內容的步驟，本文描述的範例程式碼仍是使用 .NET SDK 撰寫。
+
+若要將報表整合至 Web 應用程式，您需要使用 Power BI REST API 或 Power BI C# SDK。 您也可以使用 Azure Active Directory 授權存取權杖來取得報表。 然後，您可以使用相同的存取權杖來載入報表。 Power BI Rest API 可讓您以程式設計方式存取特定的 Power BI 資源。 如需詳細資訊，請參閱 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 及 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
 
 ### <a name="get-an-access-token-from-azure-ad"></a>從 Azure AD 取得存取權杖
-在您的應用程式中，您必須先從 Azure AD 取得**存取權杖**，才能呼叫 Power BI REST API。 如需詳細資訊，請參閱 [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (驗證使用者，並為 Power BI 應用程式取得 Azure AD 存取權杖)。
+
+在您的應用程式中，您必須從 Azure AD 取得存取權杖，才能呼叫 Power BI REST API。 如需詳細資訊，請參閱 [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (驗證使用者，並為 Power BI 應用程式取得 Azure AD 存取權杖)。
 
 ### <a name="get-a-report"></a>取得報表
-若要取得 **Power BI** 報表，請使用 [取得報表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) 作業來取得 **Power BI** 報表清單。 您可以從報表的清單中取得報表識別碼。
 
-### <a name="get-reports-using-an-access-token"></a>使用存取權杖取得報表
+若要取得 Power BI 報表，請使用[取得報表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)作業來取得 Power BI 報表清單。 您可以從報表清單中取得報表識別碼。
+
+### <a name="get-reports-by-using-an-access-token"></a>使用存取權杖取得報表
+
 [取得報表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)作業會傳回報表清單。 您可以從報表清單中取得單一報表。
 
 若要進行 REST API 呼叫，您必須使用 *Bearer {access token}* 的格式包含 *Authorization* 標頭。
 
 #### <a name="get-reports-with-the-rest-api"></a>利用 REST API 取得報表
 
-下列程式碼範例示範如何使用 **REST API** 擷取報表。
+下列程式碼範例示範如何使用 **REST API** 擷取報表：
 
-「[範例應用程式](#embed-your-content-using-the-sample-application)的 **_Default.aspx.cs_** 檔案內具有範例，可讓您取得要內嵌的內容項目 (報表、儀表板或磚)。」
+> [!NOTE]  
+> [範例應用程式](#embed-your-content-using-the-sample-application)的 **Default.aspx.cs** 檔案中具有範例，可讓您取得要內嵌的內容項目。 範例包括報表、儀表板或磚。
 
 ```csharp
 using Newtonsoft.Json;
@@ -302,8 +311,9 @@ public class PBIReport
 }
 ```
 
-#### <a name="get-reports-using-the-net-sdk"></a>利用 .NET SDK 取得報表
-您可以使用 .NET SDK 擷取報表清單，而不必直接呼叫 REST API。 下列程式碼範例示範如何列出報表。
+#### <a name="get-reports-by-using-the-net-sdk"></a>使用 .NET SDK 取得報表
+
+您可以使用 .NET SDK 擷取報表清單，而不必直接呼叫 REST API。 下列程式碼範例會示範如何列出報表：
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -324,12 +334,12 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 }
 ```
 
-### <a name="load-a-report-using-javascript"></a>使用 JavaScript 載入報表
-您可以使用 JavaScript 將報表載入網頁上的 div 元素中。
+### <a name="load-a-report-by-using-javascript"></a>使用 JavaScript 載入報表
 
-下列程式碼範例示範如何從指定工作區擷取報表。
+您可以使用 JavaScript 將報表載入網頁上的 div 元素中。 下列程式碼範例示範如何從指定工作區擷取報表：
 
-「[範例應用程式](#embed-your-content-using-the-sample-application)的 **_Default.aspx_** 檔案內具有範例，可讓您載入要內嵌的內容項目 (報表、儀表板或磚)。」
+> [!NOTE]  
+> [範例應用程式](#embed-your-content-using-the-sample-application)的 **Default.aspx** 檔案中具有範例，可讓您載入要內嵌的內容項目。 範例包括報表、儀表板或磚。
 
 ```javascript
 <!-- Embed Report-->
@@ -349,7 +359,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 </div>
 ```
 
-**Site.master**
+#### <a name="sitemaster"></a>Site.master
 
 ```javascript
 window.onload = function () {
@@ -410,50 +420,52 @@ function updateEmbedReport() {
 
 ## <a name="using-a-power-bi-premium-dedicated-capacity"></a>使用 Power BI Premium 專用容量
 
-既然您已完成應用程式的開發，就可以為您的應用程式工作區配置專用容量。
+現在您已完成應用程式的開發，就可以為您的應用程式工作區配置專用容量。
 
 ### <a name="create-a-dedicated-capacity"></a>建立專用容量
-建立專用容量，您應用程式工作區中的內容即可享有專用資源。 您可以使用 [Power BI Premium ](../service-premium.md) 建立專用容量。
 
-下表列出 [Office 365](../service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU。
+建立專用容量，您應用程式工作區中的內容即可享有專用資源。 您可以使用 [Power BI Premium](../service-premium.md) 建立專用容量。
 
-| 節點容量 | V 核心總數<br/>(後端 + 前端) | 後端 V 核心 | 前端 V 核心 | DirectQuery/即時連線限制 | 尖峰時間的頁面呈現上限 |
+下表列出 [Microsoft Office 365](../service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
+
+| 容量節點 | V 核心總數<br/>(後端 + 前端) | 後端 V 核心數 | 前端 V 核心數 | DirectQuery/即時連線限制 | 尖峰時間的頁面轉譯數上限 |
 | --- | --- | --- | --- | --- | --- |
-| EM1 |1 個 v 核心 |.5 個 V 核心，10GB RAM |.5 個 V 核心 |每秒 3.75 個 |150-300 |
-| EM2 |2 個 v 核心 |1 個 V 核心，10GB RAM |1 個 v 核心 |每秒 7.5 個 |301-600 |
-| EM3 |4 個 v 核心 |2 個 V 核心，10GB RAM |2 個 v 核心 |每秒 15 個 |601-1,200 |
-| P1 |8 個 v 核心 |4 個 V 核心，25GB RAM |4 個 v 核心 |每秒 30 個 |1,201-2,400 |
-| P2 |16 個 v 核心 |8 個 V 核心，50GB RAM |8 個 v 核心 |每秒 60 個 |2,401-4,800 |
-| P3 |32 個 v 核心 |16 個 V 核心，100GB RAM |16 個 v 核心 |每秒 120 個 |4,801-9600 |
-| P4 |64 個 V 核心 |32 個 V 核心，200 GB RAM |32 個 v 核心 |每秒 240 個 |9601-19200
-| P5 |128 個 V 核心 |64 個 V 核心，400 GB RAM |64 個 V 核心 |每秒 480 個 |19201-38400
+| EM1 |1 個 V 核心 |0.5 個 V 核心，10 GB RAM |0.5 個 V 核心 |每秒 3.75 個 |150-300 |
+| EM2 |2 個 V 核心 |1 個 V 核心，10 GB RAM |1 個 V 核心 |每秒 7.5 個 |301-600 |
+| EM3 |4 個 V 核心 |2 個 V 核心，10 GB RAM |2 個 V 核心 |每秒 15 個 |601-1,200 |
+| P1 |8 個 V 核心 |4 個 V 核心，25 GB RAM |4 個 V 核心 |每秒 30 個 |1,201-2,400 |
+| P2 |16 個 V 核心 |8 個 V 核心，50 GB RAM |8 個 V 核心 |每秒 60 個 |2,401-4,800 |
+| P3 |32 個 V 核心 |16 個 V 核心，100 GB RAM |16 個 V 核心 |每秒 120 個 |4,801-9,600 |
+| P4 |64 個 V 核心 |32 個 V 核心，200 GB RAM |32 個 V 核心 |每秒 240 個 |9,601-19,200 |
+| P5 |128 個 V 核心 |64 個 V 核心，400 GB RAM |64 個 V 核心 |每秒 480 個 |19,201-38,400 |
 
-在 **_EM SKU_** 中，**您可以**在嘗試使用 **_MS Office 應用程式_** 內嵌時使用免費的 Power BI 授權存取內容，但**無法**在使用 **_Powerbi.com_** 或使用 **_Power BI 行動版_** 時使用免費的 Power BI 授權存取內容。
-
-在 **_P SKU_** 中，**您可以**在嘗試使用 **_MS Office 應用程式_** 內嵌、使用 **_Powerbi.com_** 或**_使用 Power BI 行動版_** 時使用免費的 Power BI 授權存取內容。
+> [!NOTE]
+> - 當您嘗試使用 Microsoft Office 應用程式進行內嵌時，您可以搭配免費的 Power BI 授權，使用 EM SKU 來存取內容。 但是，您無法在使用 Powerbi.com 或 Power BI 行動版時，搭配免費的 Power BI 授權來存取內容。
+> - 當您嘗試透過利用 Powerbi.com 或 Power BI 行動版，使用 Microsoft Office 應用程式來進行內嵌時，您可以使用免費 Power BI 授權來存取內容。
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>將應用程式工作區指派至專用容量
 
-建立了專用容量之後，您可以將應用程式工作區指派到該專用容量。 若要完成此動作，請遵循下列步驟。
+建立專用容量之後，您可以將應用程式工作區指派到該專用容量。 若要完成此處理序，請遵循下列步驟：
 
-1. 在 **Power BI 服務**中，展開 工作區，然後選取用於內嵌內容之工作區的省略符號。 然後選取 [編輯工作區]。
+1. 在 Power BI 服務中，展開工作區，然後選取用於內嵌內容工作區的省略符號。 然後選取 [編輯工作區]。
 
     ![編輯工作區](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
 
-2. 展開 [進階]，接著啟用 [專用容量]，然後選取您所建立的專用容量」。 接著，選取 [儲存]。
+2. 展開 [進階]，然後啟用 [專用容量]。 選取您建立的專用容量。 接著，選取 [儲存]。
 
     ![指派專用容量](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. 在您選取 [儲存] 後，應該會在應用程式工作區名稱的旁邊看到一個**鑽石**。
+3. 在您選取 [儲存] 後，應該會在應用程式工作區名稱的旁邊看到一個鑽石。
 
     ![繫結至容量的應用程式工作區](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
 ## <a name="admin-settings"></a>管理員設定
 
-全域管理員 (或 Power BI 服務管理員) 可以為租用戶開啟或關閉使用 REST API 的功能。 Power BI 管理員可以為整個組織或個別安全性群組進行此設定。 依據預設，會為整個組織啟用這個設定。 您可以透過 [Power BI 管理入口網站](../service-admin-portal.md)執行此作業。
+全域管理員或 Power BI 服務系統管理員可以為租用戶開啟或關閉使用 REST API 的能力。 Power BI 系統管理員可以為整個組織或個別安全性群組進行此設定。 根據預設，會為整個組織啟用這個設定。 您可以在 [Power BI 系統管理入口網站](../service-admin-portal.md)進行這些變更。
 
 ## <a name="next-steps"></a>後續步驟
-在本教學課程中，您已了解如何使用 **Power BI 組織帳戶**將 Power BI 內容內嵌至應用程式。 您現在可以嘗試使用應用程式將 Power BI 內容內嵌至應用程式。  您也可以嘗試為客戶內嵌 Power BI 內容。
+
+在本教學課程中，您已了解如何使用 Power BI 組織帳戶將 Power BI 內容內嵌至應用程式。 您現在可以嘗試使用應用程式將 Power BI 內容內嵌至應用程式。 您也可以嘗試為客戶內嵌 Power BI 內容：
 
 > [!div class="nextstepaction"]
 > [從應用程式內嵌](embed-from-apps.md)
@@ -461,4 +473,4 @@ function updateEmbedReport() {
 > [!div class="nextstepaction"]
 >[對客戶進行內嵌](embed-sample-for-customers.md)
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+如果您有更多問題，請[嘗試詢問 Power BI 社群](http://community.powerbi.com/)。

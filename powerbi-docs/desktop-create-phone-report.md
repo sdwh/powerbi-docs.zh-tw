@@ -1,38 +1,39 @@
 ---
 title: 建立為 Power BI 手機應用程式最佳化的報表
-description: 了解如何為 Power BI 手機應用程式將 Power BI Desktop 中的報表頁面最佳化。
+description: 了解如何藉由建立專用於手機的報表版本，將 Power BI 手機應用程式的報表頁面最佳化。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 09/14/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f34207640fe0db02d38464ce8600a44b6ffab4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22f4d6bf3c715c390c9760593ba5afdc72ce3bf7
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726447"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973946"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>建立為 Power BI 手機應用程式最佳化的報表
-當您[在 Power BI Desktop 中建立報表](desktop-report-view.md)時，可以建立專用於手機的報表版本，以提升在手機上行動裝置應用程式中使用的體驗。 您可以重新安排視覺效果或調整其大小，也不必全部納入，藉由對手機改造報表獲得最佳體驗。 您還可以建立[回應式視覺效果](#optimize-a-visual-for-any-size)和[回應式交叉分析篩選器](#enhance-slicers-to-to-work-well-in-phone-reports)，以適當調整大小，供您在手機上檢視。 此外，如果您將篩選新增至報表，這些篩選會自動顯示在電話報表中。 您的報表讀者可以看到它們並使用它們來篩選報表。
+您可以建立專用於手機的報表版本，以提升在手機上使用行動裝置應用程式檢視報表的體驗。 在 Power BI Desktop 和 Power BI 服務中，您可以重新安排視覺效果或調整其大小，也不必全部納入，藉由調整手機的報表來獲得最佳體驗。 您還可以建立[回應式視覺效果](#optimize-a-visual-for-any-size)和[回應式交叉分析篩選器](#enhance-slicers-to-to-work-well-in-phone-reports)，以適當調整大小，供您在手機上檢視。 此外，如果您將篩選新增至報表，這些篩選會自動顯示在電話報表中。 您的報表讀者可以看到它們並使用它們來篩選報表。
 
 ![手機上的最佳化報表](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-## <a name="lay-out-a-report-page-for-the-phone-in-power-bi-desktop"></a>在 Power BI Desktop 中針對手機配置報表頁面
-當您[在 Power BI Desktop 中建立報表](desktop-report-view.md)後，即可針對手機加以最佳化。
+## <a name="lay-out-a-report-page-for-the-phone"></a>針對手機配置報表頁面
 
-1. 在 Power BI Desktop 中選取左側導覽列中的 [報表檢視]。
-   
-    ![報表檢視圖示](media/desktop-create-phone-report/desktop-create-phone-report-2.png)
-2. 在 [檢視] 索引標籤上，選取 [手機版面配置]。  
+當您建立報表後，即可針對手機進行最佳化。
+
+1. 在 Power BI Desktop [報表檢視] 的 [檢視] 索引標籤上選取 [手機配置]。  
    
     ![手機版面配置圖示](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
    
+    在 Power BI 服務中，選取 [編輯報表] > [行動裝置版面配置]。
+
     您會看到空白的手機畫布。 原始報表的所有視覺效果均列於右側 [視覺效果] 窗格中。
+
 3. 若要將視覺效果新增至手機版面配置，請將其從 [視覺效果] 窗格拖曳至手機畫布。
    
     手機報表使用方格版面配置。 當您將視覺效果拖曳至手機畫布時，它們會貼齊該方格。
@@ -40,12 +41,10 @@ ms.locfileid: "44726447"
     ![拖放視覺效果](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
     您可以將部分或所有主要報表頁面的視覺效果新增至手機報表頁面。 每個視覺效果只能各新增一次。
+
 4. 您可以在方格調整視覺效果的大小，方法如同儀表板及行動儀表板上的磚。
    
-   > [!NOTE]
-   > 手機報表方格會隨不同大小的手機縮放，因此您的報表在小螢幕及大螢幕手機上都很適合。
-   > 
-   > 
+   手機報表方格會隨不同大小的手機縮放，因此您的報表在小螢幕及大螢幕手機上都很適合。
    
    ![調整視覺效果大小](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 

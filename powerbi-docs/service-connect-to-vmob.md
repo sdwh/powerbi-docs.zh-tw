@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b1f2970ad73783acf3736856463915161056b801
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 01c7866a47d20b51055aa77bdd4792e2277c335f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237868"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549724"
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>使用 Power BI 連接到 VMob
 透過 Power BI 和 VMob 內容套件來追蹤和瀏覽 VMob 資料很容易。 Power BI 會擷取下列資料：過去 30 天任何時候的使用者統計資料、過去 30 天的零售 KPI，以及過去 30 天的行銷活動績效。
@@ -44,9 +44,9 @@ ms.locfileid: "34237868"
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
-* [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
+* [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
 
 ## <a name="next-steps"></a>後續步驟

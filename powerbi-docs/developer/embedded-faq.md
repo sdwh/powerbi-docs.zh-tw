@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/21/2018
-ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.date: 09/17/2018
+ms.openlocfilehash: b50f3d5a3b01e32dcbaf80db5e25bd046c5e27a2
+ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558556"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46506791"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -84,15 +84,19 @@ Power BI Embedded 是一組可供開發人員用來在平台即服務供應項�
 |承諾用量  |無承諾用量 |每年  |每月/每年 |
 |差異 |完整彈性 - 可以在 Azure 入口網站中，或透過 API 相應增加/減少、暫停/繼續資源  |可用於在 SharePoint Online 與 Microsoft Teams 中內嵌內容 (行動裝置應用程式除外) |在相同容量中結合應用程式內嵌及使用 Power BI 服務 |
 
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>在 Azure 中建立 PBIE 容量的必要條件為何？ 
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>在 Azure 中建立 PBIE 容量的必要條件為何？
 
 * 您必須登入您組織的目錄 (不支援 MSA 帳戶)。
 * 您須有 Power BI 租用戶，也就是您目錄中至少須有一位使用者已註冊 Power BI。 
 * 您在組織目錄中須有 Azure 訂用帳戶。
 
-### <a name="how-can-i-monitor-capacity-consumption"></a>如何監視容量使用？
+### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>如何監視 Power BI Embedded 容量耗用量？
 
-透過 Azure 監視的功能已在近期規劃之中。 Power BI Embedded 這個 Azure 資源會包括監視 KPI，其中顯示健康情況及使用量。
+* [使用 Power BI 管理入口網站](../service-admin-portal.md#power-bi-embedded-settings)。
+
+* 下載 Power BI 中的[計量應用程式](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity)。
+
+* 使用 [Azure 診斷記錄](azure-pbie-diag-logs.md)。
 
 ### <a name="will-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>我的容量規模會自動調整成應用程式的取用量嗎？
 
@@ -276,11 +280,11 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 * 問與答、重新整理、書籤、內嵌儀表板與圖格以及自訂功能表等新功能只有在 **Power BI Embedded** 解決方案中才有支援。
 * 容量計費模型。
 
-## <a name="onboarding-experience-tool-for-embedding"></a>內嵌的上線體驗工具
+## <a name="embedding-setup-tool-for-embedding"></a>用於內嵌的內嵌安裝工具
 
-### <a name="what-is-the-onboarding-experience-tool"></a>什麼是上線體驗工具？
+### <a name="what-is-the-embedding-setup-tool"></a>什麼是內嵌安裝工具？
 
-[上線體驗工具](https://aka.ms/embedsetup)可讓您快速開始使用及下載應用程式範例，以開始使用 Power BI 進行內嵌。
+[內嵌安裝工具](https://aka.ms/embedsetup)可讓您快速開始使用及下載應用程式範例，以開始使用 Power BI 進行內嵌。
 
 ### <a name="which-solution-should-i-choose"></a>我可以選擇什麼解決方案？
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544616"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908570"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>使用 Power BI 連接到 Adobe Analytics
 透過 Power BI 連接到 Adobe Analytics 時，一開始會連接到 Adobe Analytics 行銷雲端帳戶。 您會看到應用程式與 Power BI 儀表板和一組 Power BI 報表，供您深入了解網站流量和使用者維度。 資料會自動每天重新整理一次。 您可以與儀表板和報表互動，但無法儲存變更。
@@ -25,26 +25,26 @@ ms.locfileid: "46544616"
 ## <a name="how-to-connect"></a>如何連接
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. 選取 [Adobe Analytics] \> [取得]。
+3. 選取 [Adobe Analytics] \> [取得]。
    
    ![](media/service-connect-to-adobe-analytics/adobe.png)
-2. Power BI 會連線到特定 Adobe Analytics 公司和報表套件識別碼 (而非報表套件名稱)。 請參閱以下關於[尋找這些參數](#FindingParams)的詳細資訊。
+4. Power BI 會連線到特定 Adobe Analytics 公司和報表套件識別碼 (而非報表套件名稱)。 請參閱以下關於[尋找這些參數](#FindingParams)的詳細資訊。
    
    ![](media/service-connect-to-adobe-analytics/parameters.png)
-3. 針對 [驗證方法] 選取 [oAuth2] \> [登入]。 出現提示時，請輸入您的 Adobe Analytics 認證。 
+5. 針對 [驗證方法] 選取 [oAuth2] \> [登入]。 出現提示時，請輸入您的 Adobe Analytics 認證。 
    
     ![](media/service-connect-to-adobe-analytics/creds.png)
    
     ![](media/service-connect-to-adobe-analytics/adobe_signin.png)
-4. 按一下 [接受]  允許 Power BI 存取 Adobe Analytics 資料。
+6. 按一下 [接受]  允許 Power BI 存取 Adobe Analytics 資料。
    
    ![](media/service-connect-to-adobe-analytics/adobe_authorize.png)
-5. 核准之後，匯入程序會自動開始。 
+7. 核准之後，匯入程序會自動開始。 
 
 ## <a name="view-the-adobe-analytics-dashboard-and-reports"></a>檢視 Adobe Analytics 儀表板和報表
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![Adobe Analytics dashboard](media/service-connect-to-adobe-analytics/dashboard.png)
+   ![Adobe Analytics 儀表板](media/service-connect-to-adobe-analytics/dashboard.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -82,7 +82,7 @@ Power BI 使用 Adobe Analytics 報告 API 來定義並執行下列資料表的�
 
 **報表套件識別碼**
 
-建立報表套件時會建立套件識別碼。 您可以連絡您的系統管理員以確認識別碼值。 請注意這不是報表套件名稱。
+建立報表套件時會建立套件識別碼。 您可以連絡您的系統管理員以確認識別碼值。 這不是報表套件名稱。
 
 在 Adobe [文件](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html)：
 
@@ -91,10 +91,10 @@ Power BI 使用 Adobe Analytics 報告 API 來定義並執行下列資料表的�
 ## <a name="troubleshooting"></a>疑難排解
 如果您在提供認證之後看到錯誤，指出您沒有權限，請與您的系統管理員確認是否有權存取 Adobe Analytics API。 另請確認所提供的 Adobe 識別碼已連結到行銷雲端組織 (與 Adobe Analytics 公司相關聯)。
 
-如果您成功通過認證畫面之後遇到錯誤，有可能是因為報表佔用太多時間來完成所造成。 常見的錯誤格式為「無法從 Adobe 分析報表取得資料。內容包含 &quot;查閱者、頁面&quot;，持續時間約為 xx 秒」*。 請檢閱＜包含的內容＞章節，並與您的 Adobe 執行個體大小相比較。 不幸的是目前無法解決此逾時。 不過我們正在考慮進行更新，以為較大的執行個體提供更佳的支援，請為 Power BI 小組提供您的意見反應，網址為 https://ideas.powerbi.com
+如果您成功通過認證畫面之後遇到錯誤，有可能是因為報表佔用太多時間來完成所造成。 常見的錯誤格式為「無法從 Adobe 分析報表取得資料。內容包含 &quot;查閱者、頁面&quot;，持續時間約為 xx 秒」。 檢閱＜包含的內容＞一節，並與您的 Adobe 執行個體大小相比較。 不幸的是目前無法解決此逾時。 不過我們正在考慮進行更新，以為較大的執行個體提供更佳支援，請提供 Power BI 小組您的意見反應，網址為 https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>後續步驟
-* [Power BI 中的應用程式是什麼？](consumer/end-user-apps.md)
+* [Power BI 中的應用程式是什麼？](service-create-distribute-apps.md)
 * [取得 Power BI 中的資料](service-get-data.md)
 * 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

@@ -1,25 +1,25 @@
 ---
 title: Power BI 是什麼？
 description: Power BI 概觀，以及不同的組件如何一起搭配運作 - Power BI Desktop、Power BI 服務、Power BI 行動版、報表伺服器、Power BI Embedded。
-author: davidiseminger
-manager: kfile
+author: mihart
+manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 06/22/2018
-ms.author: davidi
+ms.date: 09/22/2018
+ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b61e60852175ced605ae920a6a31091625f781f
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 61264a2a127ea45f542543d40fd62a9de8c3620d
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186930"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798900"
 ---
 # <a name="what-is-power-bi"></a>Power BI 是什麼？
 **Power BI** 是軟體服務、應用程式和連接器的集合，它們搭配使用來將不相關的資料來源轉換成相關、視覺上融入的互動式深入剖析。 不論您的資料是簡單的 Excel 試算表還是一組雲端和內部部署混合式資料倉儲，**Power BI** 都可讓您輕鬆地連接到資料來源、以視覺化方式檢視 (或探索) 重要資料，以及與任何人或您想要的任何人共用該資料。
 
-![顯示 Power BI 輸入來源的圖表](media/power-bi-overview/power-bi-input.png)
+![顯示 Power BI 輸入來源的圖表](media/power-bi-overview/power-bi-input-new.png)
 
 **Power BI** 可以十分簡單和快速；能夠透過 Excel 試算表或本機資料庫建立快速深入剖析。 但是 **Power BI** 也是穩定和企業等級、準備好進行廣泛模型化和即時分析，以及可進行自訂開發。 因此，它可以是您的個人報表和視覺效果工具，也可以是群組專案、部門或整個公司的分析和決策引擎。
 
@@ -41,6 +41,12 @@ Power BI 的使用方式可能取決於您在專案或小組中的角色。 而�
 
 您可能會在服務的即時儀表板中檢視庫存和製造進度，也會使用 **Power BI Desktop** 來建立有關客戶參與統計資料之專屬小組的報表。 Power BI 的使用方式取決於 Power BI 的哪些功能或服務是最適合您解決方案的工具，但您可以使用 Power BI 的每個部分，這是它這麼具有彈性且吸引人的原因。
 
+若要探索與您角色相關的文件：
+- 適用於[***設計師***](desktop-what-is-desktop.md)的 Power BI
+- 適用於[***取用者***](consumer/end-user-consumer.md)的 Power BI
+- 適用於[***開發人員***](developer/what-can-you-do.md)的 Power BI
+- 適用於[***系統管理員***](service-admin-administering-power-bi-in-your-organization.md)的 Power BI
+
 ## <a name="the-flow-of-work-in-power-bi"></a>Power BI 中的工作流程
 Power BI 中的一般工作流程是從在 **Power BI Desktop** 中連線至資料來源並建置報表開始。 接著，會將該報表從 **Desktop** 發佈至 **Power BI 服務**並共用，讓**服務**和**行動版**中的使用者可以「取用」該報表 (檢視報表及與報表互動)。
 有時，您可能會想要賦予同事與您自己類似的權限 (「建立者」權限)，讓他們也能夠使用**服務**來編輯報表、建立儀表板及共用其工作。
@@ -57,5 +63,5 @@ Power BI 中的一般工作流程是從在 **Power BI Desktop** 中連線至資�
 「Power BI 報表伺服器」是一項解決方案，您會將其部署在防火牆後方，然後以各種不同方式 (不論是在網頁瀏覽器中、行動裝置上還是以電子郵件形式檢視) 將報表傳遞給正確的使用者。 而由於「Power BI 報表伺服器」與雲端 Power BI 相容，因此您可以在準備就緒後就移至雲端。
 
 ## <a name="next-steps"></a>後續步驟
-[登入、取得一些資料以及持續學習 Power BI 服務](consumer/end-user-experience.md)   
+[登入、取得一些資料以及持續學習 Power BI 服務](service-the-new-power-bi-experience.md)   
 [教學課程：開始使用 Power BI 服務](service-get-started.md)

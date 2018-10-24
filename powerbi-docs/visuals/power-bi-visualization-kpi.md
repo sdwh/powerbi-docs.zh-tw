@@ -1,25 +1,31 @@
 ---
 title: KPI 視覺效果
-description: 在 Power BI 服務和 Power BI Desktop 中建立 KPI
+description: 在 Power BI 中建立 KPI 視覺效果
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6EpqaO0
 ms.service: powerbi
 ms.component: powerbi-desktop
-ms.topic: conceptual
-ms.date: 03/21/2018
+ms.topic: tutorial
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d3afa24c68db5ffcaec1dddae09b0b9719bf2bb5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: aec8bc2d7faa8d3c4b9c7b4eb69ed9a930cfbcd1
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543535"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417226"
 ---
 # <a name="kpi-visuals"></a>KPI 視覺效果
 關鍵效能指標 (KPI) 是一種視覺提示，指出對於可測量目標已達成的進度。 如需 KPI 的詳細資訊，請參閱 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)
+
+如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
+
+## <a name="prerequisites"></a>先決條件
+* [Power BI Desktop - 免費！](https://powerbi.microsoft.com/en-us/get-started/)
+* [零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 ## <a name="when-to-use-a-kpi"></a>使用 KPI 的時機
 KPI 極適合：
@@ -27,33 +33,31 @@ KPI 極適合：
 * 測量進度 (超前或落後了那些項目？)
 * 測量離目標的距離 (超前或落後了多少？)   
 
-## <a name="kpi-visual-requirements"></a>KPI 視覺效果需求
-關鍵效能指標 (KPI) 根據特定量值，設計來協助您評估針對定義目標的目前值和指標狀態。 因此，KPI 視覺效果需要評估為值的「基底」量值和「目標」量值或值，以及臨界值或目標。
+## <a name="kpi-requirements"></a>KPI 需求
+關鍵效能指標 (KPI) 根據特定量值，設計來協助您評估針對定義目標的目前值和指標狀態。 因此，KPI 視覺效果需要評估為值的「基底」量值和「目標」量值或值，以及「臨界值」或「目標」。
 
-> [!NOTE]
-> 目前的 KPI 資料集必須包含 KPI 目標值。 若您的資料集未包含目標值，可透過將具有目標的 Excel 工作表新增至您的資料模型或 PBIX 檔案，以建立目標。
-> 
-> 
+目前的 KPI 資料集必須包含 KPI 目標值。 若您的資料集未包含目標值，可透過將具有目標的 Excel 工作表新增至您的資料模型或 PBIX 檔案，以建立目標。
+
 
 ## <a name="how-to-create-a-kpi"></a>如何建立 KPI
-如果要跟著做，請登入 Power BI 服務並選取 [取得資料] > [範例] > [零售分析範例]。 我們將建立 KPI，測量我們對業務目標已達成的進度。
+若要跟著做，請在 Power BI Desktop 中開啟[零售分析 .PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。 我們將建立 KPI，測量我們對業務目標已達成的進度。
 
 或觀看 Will 說明如何建立單一計量的視覺效果︰量測計、卡片及 KPI。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. 在[編輯檢視](../consumer/end-user-reading-view.md)中開啟報告，以及[新增頁面](../power-bi-report-add-page.md)。    
-2. 選取 [銷售額] > [本年度的總單位]。  這會是指標。
-3. 新增 [時間] > [月份]。  這會顯示趨勢。
-4. 重要：依照**月份**進行圖表排序。 將視覺效果轉換為 KPI 之後，即沒有選項可供排序。
+1. 在 [報表] 檢視中開啟報表並[選取黃色索引標籤來新增頁面](../power-bi-report-add-page.md)。    
+2. 從 [欄位] 窗格中選取 [銷售額] > [本年度的總單位]。  這會是指標。
+3. 新增 [時間] > [FiscalMonth]。  這會顯示趨勢。
+4. 重要：依照 **FiscalMonth** 進行圖表排序。 將視覺效果轉換為 KPI 之後，即沒有選項可供排序。
 
-    ![](media/power-bi-visualization-kpi/power-bi-sort-by-month.png)
+    ![](media/power-bi-visualization-kpi/power-bi-chart.png)
 5. 從 [視覺效果] 窗格中選取 KPI 圖示，將視覺效果轉換為 KPI。
    
-    ![](media/power-bi-visualization-kpi/power-bi-kpi-icon.png)
+    ![](media/power-bi-visualization-kpi/power-bi-kpi-template.png)
 6. 新增目標。 新增去年銷售為目標。 將 [去年度的總單位] 拖放至 [目標] 欄位。
    
-    ![](media/power-bi-visualization-kpi/power-bi-kpi.png)
+    ![](media/power-bi-visualization-kpi/power-bi-kpi-done.png)
 7. (選擇性) 選取畫刷圖示可開啟 [格式化] 窗格來格式化 KPI。
    
    * **指標**：控制指標的顯示單位和小數位數。
@@ -61,16 +65,14 @@ KPI 極適合：
    * **目標**：若設定為 [開啟]，視覺效果會顯示目標，並以百分比顯示離目標的距離。
    * **[色彩編碼] > [方向]** - 某些 KPI 的值較高可視為「更好」，而某些則是值較低可視為「更好」。 例如，盈餘和等待時間。 通常盈餘值較高代表「更好」，而等待時間更高通常代表「更糟」。 選取 [高更好]，以及選擇性變更色彩設定。
 
-1. 當您建立了想要的 KPI 後，請[將其釘選到儀表板](../service-dashboard-pin-tile-from-report.md).
 
-KPI 在行動裝置上也可供使用，讓您可隨時連線到貴企業的活動訊號。
+KPI 在 Power BI 服務和行動裝置上也可供使用，讓您可隨時連線到貴企業的活動訊號。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-* 若您的 KPI 看起來不像上述說明，可能是因為您需要依照月份排序。 因為 KPI 沒有排序選項，所以將視覺效果轉換為 KPI *之前*，必須先依照月份排序。
+* 若您的 KPI 看起來不像上述說明，可能是因為您需要依照會計月份排序。 因為 KPI 沒有排序選項，所以將視覺效果轉換為 KPI *之前*，必須先依照會計月份排序。
 
 ## <a name="next-steps"></a>後續步驟
 
-[Power BI 報表的視覺效果](power-bi-report-visualizations.md)
+[Power BI 中的基本地圖](power-bi-map-tips-and-tricks.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-
+[Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)

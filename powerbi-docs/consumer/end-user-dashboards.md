@@ -7,32 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ccfa947f83a5079cda3bfb173c0f83f6b811a9ff
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 7db5bf514b567cbcaf9dddc5d48006762237a622
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564731"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909122"
 ---
 # <a name="dashboards-in-power-bi-service"></a>Power BI 服務中的儀表板
 
 Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常稱為畫布。 因為受限於一張頁面，所以設計良好的儀表板只包含故事最重要的項目。
 
-![儀表板](./media/end-user-dashboards/power-bi-dashboard2.png)
+![儀表板](media/end-user-dashboards/power-bi-dashboard2.png)
 
 您在儀表板上看到的視覺效果稱為「磚」，從報表「釘選」在儀表板上。 如果您不熟悉 Power BI，請參閱 [Power BI 基本概念](end-user-basic-concepts.md)來打好基礎。
 
 > [!NOTE]
-> 儀表板是 Power BI 服務的功能，Power BI Desktop 不提供此功能。 行動裝置無法建立儀表板，但可以[檢視及共用](mobile/mobile-apps-view-dashboard.md)儀表板。
+> 儀表板是 Power BI 服務的功能，Power BI Desktop 不提供此功能。 行動裝置無法建立儀表板，但可以[檢視及共用](/mobile/mobile-apps-view-dashboard.md)儀表板。
 > 
 > 
 
 儀表板上的視覺效果來自報表，而每份報表都是以一個資料集為基礎。 事實上，您可以將儀表板想成是進入基礎報表和資料集的方法。 選取視覺效果會帶您前往建立效果的報表 (和資料集)。
 
-![顯示儀表板、報表、資料集之間關聯性的圖表](./media/end-user-dashboards/power-bi-diagram.png)
+![顯示儀表板、報表、資料集之間關聯性的圖表](media/end-user-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>儀表板的優點
 儀表板是很棒的方式，一眼就可以監視企業、尋找答案以及查看所有最重要的指標。 儀表板上的視覺效果可能來自一或多個基礎資料集，以及來自一或多份基礎報表。 儀表板將內部部署和雲端產生的資料結合在一起，提供不受資料位置限制的合併檢視。
@@ -40,7 +40,7 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 儀表板不只是張漂亮的圖片，其高度互動性和高度可自訂以及磚更新會隨著基礎資料變更。
 
 ## <a name="dashboards-versus-reports"></a>儀表板與報表
-[報表](end-user-reports.md)經常與儀表板相混淆，因為它們也是填滿視覺效果的畫布。 但兩者還是有一些主要差異。
+報表經常與儀表板相混淆，因為它們也是填滿視覺效果的畫布。 但兩者還是有一些主要差異。
 
 | **功能** | **儀表板** | **報表** |
 | --- | --- | --- |
@@ -65,28 +65,16 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 
 需要 Power BI Pro 才能共用儀表板和檢視共用的儀表板。
 
-### <a name="if-you-will-be-creating-and-sharing-dashboards"></a>如果您要建立並共用儀表板
-* 使用我們其中一個範例[從報表建立儀表板](../service-dashboard-create.md)。
-* 深入了解[儀表板磚](end-user-tiles.md)以及所有將它們釘選到儀表板的不同方式。
-* 建立[善用問與答自然語言查詢](../service-prepare-data-for-q-and-a.md)與[深入資訊摘要](../service-insights-optimize.md)的儀表板，以協助您的儀表板取用者。
-* 探索所有可以[與同事共用儀表板](../service-how-to-collaborate-distribute-dashboards-reports.md)的不同方式。
-
 ### <a name="if-you-will-be-receiving-and-consuming-dashboards"></a>如果您要接收並取用儀表板
 * 使用[範例儀表板](../sample-tutorial-connect-to-the-samples.md)其中一項教學課程來熟悉儀表板。
 * 深入了解[儀表板磚](end-user-tiles.md)以及選取一個磚時會發生什麼情況。
-* 不喜歡儀表板的外觀？  您可以[調整大小、移動和重新命名磚](../service-dashboard-edit-tile.md)。
-* 想要追蹤個別的儀表板磚，並在它達到某個閾值時收到電子郵件？ [建立磚警示](../service-set-data-alerts.md)。
-* 享受向儀表板提問的樂趣。 了解如何使用 [Power BI 問與答](../power-bi-tutorial-q-and-a.md)提出與您的資料相關的問題，然後接收視覺效果的回應。
+* 想要追蹤個別的儀表板磚，並在它達到某個閾值時收到電子郵件？ [建立磚警示](end-user-alerts.md)。
+* 享受向儀表板提問的樂趣。 了解如何使用 [Power BI 問與答](end-user-q-and-a.md)提出與您的資料相關的問題，然後接收視覺效果的回應。
 
 > [!TIP]
 > 如果這裡找不到您要的解答，請使用左邊的目錄。
-> 
 > 
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 是什麼？](../power-bi-overview.md)  
 [Power BI - 基本概念](end-user-basic-concepts.md)  
-[Power BI Premium - 這是什麼？](../service-premium.md)  
-
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
-

@@ -1,0 +1,189 @@
+items:
+- name: 適用於取用者的 Power BI
+  href: power-bi-consumer-landing.md
+- name: Power BI 服務
+  items:
+  - name: 概觀
+    items:
+    - name: 什麼是 Power BI 取用者？
+      href: end-user-consumer.md
+    - name: 適用於 Power BI 取用者的基本概念和術語
+      href: end-user-basic-concepts.md
+  - name: 快速入門
+    items:
+    - name: 了解 Power BI
+      href: end-user-experience.md
+  - name: 教學課程
+    items:
+    - name: 建立儀表板警示
+      href: end-user-alerts.md
+  - name: 如何
+    items:
+    - name: 儀表板
+      items:
+      - name: 儀表板
+        href: end-user-dashboards.md
+      - name: 精選儀表板
+        href: end-user-featured.md
+      - name: 儀表板圖格
+        href: end-user-tiles.md
+      - name: 新增註解或開始交談
+        href: end-user-comment.md
+    - name: 報表
+      items:
+      - name: 報表
+        href: end-user-reports.md
+      - name: 檢視報表
+        href: end-user-report-open.md
+      - name: 在報表中使用篩選
+        href: end-user-report-filter.md
+      - name: 了解報表視覺效果如何相互交叉篩選
+        href: end-user-interactions.md
+    - name: 視覺效果
+      items:
+      - name: 我可以使用視覺效果來做什麼？
+        href: end-user-visualizations.md
+      - name: 向下鑽研 Power BI 的視覺效果
+        href: end-user-drill.md
+      - name: 從視覺效果匯出資料
+        href: end-user-export-data.md
+    - name: 一般工作
+      items:
+      - name: 使用焦點模式和全螢幕模式，以不同方式放大內容
+        href: end-user-focus.md
+      - name: Power BI 中我的最愛儀表板、報告與應用程式
+        href: end-user-favorite.md
+      - name: 列印儀表板、列印儀表板磚、列印報表頁面
+        href: end-user-print.md
+      - name: 檢視相關內容
+        href: end-user-related.md
+      - name: 檢視最近的內容
+        href: end-user-recent.md
+      - name: 在與我共用容器中檢視內容
+        href: end-user-shared-with-me.md
+      - name: 訂閱報表或儀表板
+        href: end-user-subscribe.md
+      - name: 在 Power BI 中搜尋及排序內容
+        href: end-user-search-sort.md
+      - name: 檢視儀表板磚的自動見解
+        href: end-user-insights.md
+    - name: 取得資料
+      items:
+      - name: 安裝及使用應用程式
+        href: end-user-apps.md
+      - name: 連接至服務
+        href: end-user-connect-to-services.md
+      - name: 尋找及連線到組織內容套件
+        href: end-user-content-pack.md
+    - name: 詢問資料相關的問題
+      items:
+      - name: Power BI 中的問與答
+        href: end-user-q-and-a.md
+      - name: 透過 Power BI 中的問與答提出問題的秘訣和訣竅
+        href: end-user-q-and-a-tips.md
+  - name: 資源
+    items:
+    - name: 字彙和術語
+      href: end-user-glossary.md
+    - name: 支援的瀏覽器
+      href: end-user-browsers.md
+    - name: Power BI 支援的快速深入剖析類型
+      href: end-user-insight-types.md
+- name: Power BI 行動應用程式
+  items:
+  - name: 概觀
+    items:
+    - name: 什麼是行動裝置應用程式？
+      href: mobile/mobile-apps-for-mobile-devices.md
+  - name: 快速入門
+    items:
+    - name: 探索儀表板和報表
+      href: mobile/mobile-apps-quickstart-view-dashboard-report.md
+  - name: 教學課程
+    items:
+    - name: 在 iOS 行動裝置應用程式中詢問問題
+      href: mobile/tutorial-mobile-apps-ios-qna.md
+  - name: 概念
+    items:
+    - name: 行動應用程式的新功能
+      href: mobile/mobile-whats-new-in-the-mobile-apps.md
+    - name: 使用行動裝置應用程式取得實際的資料
+      href: mobile/mobile-apps-data-in-real-world-context.md
+    - name: 在行動應用程式中離線檢視您的資料
+      href: mobile/mobile-apps-offline-data.md
+    - name: Power BI for Mixed Reality 應用程式 (預覽)
+      href: mobile/mobile-mixed-reality-app.md
+  - name: 如何
+    items:
+    - name: 所有行動裝置應用程式
+      items:
+      - name: 從 Power BI mobile apps 共用儀表板
+        href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
+      - name: 與行動裝置應用程式中的磚互動
+        href: mobile/mobile-tiles-in-the-mobile-apps.md
+      - name: 行動應用程式中的我的最愛
+        href: mobile/mobile-apps-favorites.md
+      - name: 在 Power BI 行動裝置應用程式中設定資料警示
+        href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
+      - name: 取得 Power BI 行動裝置應用程式中的通知
+        href: mobile/mobile-apps-notification-center.md
+      - name: 建立可前往特定位置的深層連結
+        href: mobile/mobile-apps-deep-link-specific-location.md
+      - name: 在 Power BI 行動裝置應用程式依位置篩選報表
+        href: mobile/mobile-apps-geographic-filtering.md
+      - name: 行動 Power BI 的儀表板
+        href: mobile/mobile-apps-view-dashboard.md
+      - name: 行動應用程式中的報表
+        href: mobile/mobile-reports-in-the-mobile-apps.md
+      - name: 使用 OAuth 連接至 Reporting Services
+        href: mobile/mobile-oauth-ssrs.md
+    - name: Android 裝置
+      items:
+      - name: 開始使用 Android 應用程式
+        href: mobile/mobile-android-app-get-started.md
+      - name: 修正「您的公司 SSL 憑證不受信任」
+        href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+      - name: 修正「需要更新 Android System Webview」
+        href: mobile/mobile-android-error-update-android-system-webview.md
+    - name: iOS
+      items:
+      - name: 開始使用 iOS 應用程式
+        href: mobile/mobile-iphone-app-get-started.md
+      - name: iOS 行動裝置應用程式的問與答虛擬分析師
+        href: mobile/mobile-apps-ios-qna.md
+      - name: Power BI Apple Watch 應用程式
+        href: mobile/mobile-apple-watch.md
+      - name: 從 iPhone 上的應用程式掃描條碼
+        href: mobile/mobile-apps-scan-barcode-iphone.md
+    - name: iOS 與 Android
+      items:
+      - name: 在行動應用程式中檢視內部部署報表
+        href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      - name: 檢視為手機最佳化的報表
+        href: mobile/mobile-apps-view-phone-report.md
+      - name: 從手機掃描 Power BI QR 代碼
+        href: mobile/mobile-apps-qr-code.md
+      - name: 在行動裝置應用程式中標註及共用
+        href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+    - name: 適用於 Windows 10 裝置的 Power BI 應用程式
+      items:
+      - name: 開始使用 Windows 10 應用程式
+        href: mobile/mobile-windows-10-phone-app-get-started.md
+      - name: 將儀表板釘選到開始畫面
+        href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+      - name: 檢視 Reporting Services 行動報表和 KPI
+        href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+      - name: 在 Surface Hub 上檢視 Power BI
+        href: mobile/mobile-windows-10-app-presentation-mode.md
+      - name: 在 Windows 應用程式中進行單一登入
+        href: mobile/mobile-windows-10-app-single-sign-on-sso.md
+  - name: 資源
+    items:
+    - name: 行動應用程式支援的語言
+      href: mobile/mobile-apps-supported-languages.md
+ms.openlocfilehash: ff348d2798d49a0f4ee73a28d9c82395caf12d80
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112122"

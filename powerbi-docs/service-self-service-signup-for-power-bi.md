@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 411fd408998ba67c4a91ae01e166396530631678
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549975"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909053"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>以個人身分註冊 Power BI
 了解如何註冊 Power BI，並開始利用它來滿足您的個人報告和視覺效果需求。
@@ -24,7 +24,7 @@ ms.locfileid: "46549975"
 
 Power BI 可以是您的個人報告和視覺效果工具，也可以當作群組專案、部門或整個公司的分析和決策引擎。
 
-本文將引導您選擇如何註冊及開始使用 Power BI 服務。 如需 Power BI 免費版與 Pro 版之間差異的資訊，請參閱 [Power BI 免費版與 Pro 版的比較](service-free-vs-pro.md)。
+本文將引導您選擇如何註冊及開始使用 Power BI 服務。 若要深入了解 Power BI 授權類型之間的功能差異，請參閱[依授權類型排列的 Power BI 功能](service-features-license-type.md)。
 
 ## <a name="you-have-a-few-options"></a>您有一些選項。
 以個人身分來說，您有一些選項可註冊及開始使用 Power BI。 您可以選擇免費註冊，也可以購買 Power BI Pro 訂用帳戶。 如果您註冊免費帳戶，一旦服務生效，您可以參加 Power BI Pro 的免費 60 天試用版。
@@ -99,7 +99,7 @@ Power BI 會要求您使用公司或學校的電子郵件地址來註冊。 您�
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>服務內的 Power BI Pro 60 天試用
 當您已註冊免費帳戶之後，可以選擇免費試用 Pro 版 60 天。 在試用期間您將可存取所有的 Pro 功能。 Power BI Pro 有 Power BI 免費版本的所有功能，還有其他共用和共同作業功能。 如需詳細資訊，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing)。 若要嘗試 Power BI Pro 的 60 天免費試用版，請登入 Power BI，然後嘗試 Power BI Pro 的功能：
 
-* [建立應用程式工作區](consumer/end-user-create-apps.md)
+* [建立應用程式工作區](service-create-distribute-apps.md)
 * [共用儀表板](service-share-dashboards.md)
 
 當您嘗試任何一項功能時，系統會提示您開始使用免費試用版。 您也可以前往齒輪圖示，並選取 [管理個人儲存體]，選擇使用該功能。 然後選取右邊的 [免費試用專業版]。
@@ -139,8 +139,7 @@ Power BI 會要求您使用公司或學校的電子郵件地址來註冊。 您�
 |            **自助式註冊已停用** 您在註冊期間接收的訊息如下︰ <br /><br /> *我們無法完成您的註冊。您的 IT 部門已經關閉 Microsoft Power BI 註冊。請與他們連絡來完成註冊。* <br /><br /> 或 <br /><br /> *這似乎是個人電子郵件地址。請輸入您的公司地址，以便我們可以將您與公司內的其他人連接。而且別擔心。我們不會向任何人洩漏您的地址。*             |                             貴組織的 IT 系統管理員已停用 Power BI 的自助式註冊。 <br /><br /> 若要完成註冊，請連絡您的 IT 系統管理員，並要求他們遵循本頁面中的指示，以允許現有使用者註冊 Power BI，並允許新使用者加入現有的租用戶。 <br/><br/> 如果您透過合作夥伴註冊 Office 365，可能也會遇到這個問題。 [深入了解](service-admin-syndication-partner.md) <br /><br /> [組織的 Power BI](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
 |                                                                                          **電子郵件地址不是 Office 365 ID** 您在註冊期間接收的訊息如下︰ <br /><br /> *我們在 contoso.com 找不到您。您在公司或學校使用不同的 ID 嗎？<br /><br />請嘗試以該 ID 登入，如果沒有作用，請連絡您的 IT 部門。*                                                                                           | 貴組織用來登入 Office 365 和其他 Microsoft 服務的 ID 與您的電子郵件地址不同。  例如，您的電子郵件地址可能是 Nancy.Smith@contoso.com，但您的 ID 是 nancys@contoso.com。 <br /><br /> 若要完成註冊，請使用貴組織指派給您、用於登入 Office 365 或其他 Microsoft 服務的 ID。  如果您不知道這個 ID 是什麼，請連絡您的 IT 系統管理員。 <br /><br /> 如果您仍然無法註冊，但是可以完成更進階的安裝程序，您可以[註冊新的 Office 365 試用訂閱和使用該電子郵件地址來註冊](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 |
 
-## <a name="next-steps"></a>後續步驟
-[組織的 Power BI (免費)](service-admin-service-free-in-your-organization.md)  
+## <a name="next-steps"></a>後續步驟  
 [購買 Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [個人使用者適用的 Power BI 服務合約](https://powerbi.microsoft.com/terms-of-service/)  
 [何謂 Power BI Premium](service-premium.md)  

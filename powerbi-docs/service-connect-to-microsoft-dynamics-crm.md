@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547054"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908823"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>使用 Power BI 連接到 Microsoft Dynamics CRM
-Microsoft Dynamics CRM Online for Power BI可讓您輕鬆存取並分析資料。 Power BI 使用 OData 摘要建立描述性模型，包括所有必要的實體及量值，例如帳戶、活動、機會、產品、潛在客戶、使用者和其他資料。 安裝應用程式之後，即可在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 及 Power BI 行動應用程式中，檢視儀表板與報表。 
+Microsoft Dynamics CRM Online for Power BI可讓您輕鬆存取並分析資料。 Power BI 使用 OData 摘要建立描述性模型，包括所有必要的實體及量值，例如帳戶、活動、機會、產品、潛在客戶和使用者等等。 安裝應用程式之後，即可在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 及 Power BI 行動應用程式中，檢視儀表板與報表。 
 
 連線至 Dynamics CRM Online [銷售經理](https://msit.powerbi.com/groups/me/getdata/services/dynamics-crm-sales-manager)或[服務管理員](https://msit.powerbi.com/groups/me/getdata/services/dynamics-crm-customer-service)。 深入了解 [Dynamics CRM Online 與 Power BI 的整合](https://powerbi.microsoft.com/integrations/microsoft-dynamicscrm)。
 
@@ -26,17 +26,16 @@ Microsoft Dynamics CRM Online for Power BI可讓您輕鬆存取並分析資料�
 
 ## <a name="how-to-connect"></a>如何連接
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
-
-1. 選取 [Microsoft Dynamics CRM 銷售經理] 或 [Microsoft Dynamics CRM 服務經理]，並按一下 [連接]。
+3. 選取 [Microsoft Dynamics CRM 銷售經理] 或 [Microsoft Dynamics CRM 服務經理]，並按一下 [連接]。
    
    ![](media/service-connect-to-microsoft-dynamics-crm/connect.png)
-2. 提供與您帳戶相關聯的服務 URL。  這會位於表單 `https://company.crm.dynamics.com` 中，請參閱[下方](#FindingParams)的詳細資料。
+4. 提供與您帳戶相關聯的服務 URL。  這會位於表單 `https://company.crm.dynamics.com` 中，請參閱[下方](#FindingParams)的詳細資料。
    
    ![](media/service-connect-to-microsoft-dynamics-crm/params.png)
-3. 出現提示時，請提供您的認證 (如果您已經登入瀏覽器，此步驟可能會略過)。 針對 [驗證方法]，請輸入 **oAuth2** 並按一下 [登入] ：
+5. 出現提示時，請提供您的認證 (如果您已經登入瀏覽器，此步驟可能會略過)。 針對 [驗證方法]，請輸入 **oAuth2** 並按一下 [登入] ：
    
    ![](media/service-connect-to-microsoft-dynamics-crm/creds.png)
-4. 連接之後，您會看到針對銷售經理或服務經理所自訂的儀表板且已填入您的資料：
+6. 連接之後，您會看到針對銷售經理或服務經理所自訂的儀表板且已填入您的資料：
    
    ![](media/service-connect-to-microsoft-dynamics-crm/dashboard.png)
 
@@ -48,7 +47,7 @@ Microsoft Dynamics CRM Online for Power BI可讓您輕鬆存取並分析資料�
 ## <a name="whats-included"></a>包含的內容
 以下各節會詳細說明[銷售經理](#Sales)和[服務管理員](#Service)人物所包含的內容。
 
-請注意，根據指派給 Dynamics CRM Online 使用者的安全性角色，資料也受到限制。
+根據指派給 Dynamics CRM Online 使用者的安全性角色，資料會受到限制。
 
 儀表板和報表旨在提供聚焦於小組或群組近期資料的作業報告。 每項查詢都限制為最多從 Dynamics CRM Online 擷取 100K 筆記錄。 如因貴組織的資料量龐大而超過此限制，佈建會失敗，因為資料重新整理 Dynamics CRM online 會終止。 如果您的帳戶太大，請考慮透過 Power BI Desktop 連接，以建置自訂解決方案。
 
@@ -78,9 +77,9 @@ Microsoft Dynamics CRM Online for Power BI可讓您輕鬆存取並分析資料�
 
 | CRM 實體 | 套用的篩選 |
 | --- | --- |
-| Account |與過去 365 天內修改過相關商機的所有科目。 |
+| 帳戶 |過去 365 天內相關商機經修改的所有帳戶。 |
 | 活動 |過去 90 天內修改過的所有活動 <br> [modifiedon] > today - 90 days |
-| 業務單位 |未停用的所有業務單位 <br> [isdisabled] = false |
+| 業務單位 |未停用的所有營業單位 <br> [isdisabled] = false |
 | 潛在客戶 |過去 180 天內修改過的所有潛在客戶 <br> [modifiedon] > today - 180 days |
 | 商機 |過去 365 天內修改過的所有商機 <br> [modifiedon] > today - 365 days |
 | 商機產品 |過去 365 天內修改過的所有商機產品 <br> [modifiedon] > today - 365 days |
@@ -117,11 +116,11 @@ Microsoft Dynamics CRM Online for Power BI可讓您輕鬆存取並分析資料�
 | 活動 |過去 90 天內修改過的所有活動 <br> [modifiedon] > today - 90 days |
 | 案件 |過去 90 天內修改過的所有案件 <br> [modifiedon] > today - 90 days |
 | 結案活動 |過去 90 天內修改過的所有結案活動 <br> [modifiedon] > today - 90 days |
-| 連絡 |與過去 90 天內修改過的案件有關聯的所有連絡人。 |
+| 連絡 |過去 90 天內相關案例經修改的所有連絡人。 |
 | 知識文章 |所有最新版本的知識文章  <br> [islatestversion] = true |
-| 知識文章事件 |過去 90 天內修改過的所有知識文章事件 <br> [modifiedon] > today - 90 days |
+| 知識文章事件 |過去 90 天內經修改的所有知識文章事件 <br> [modifiedon] > today - 90 days |
 | 佇列 |所有使用中佇列  <br> [statecode] = 0 |
-| 佇列項目 |過去 365 天建立的所有案件相關佇列項目  <br> [createdon] > today - 365 days and <br> [objecttypecode] = 112 |
+| 佇列項目 |過去 365 天內建立的所有案例相關佇列項目  <br> [createdon] > today - 365 days and <br> [objecttypecode] = 112 |
 | 使用者 |所有使用中使用者 <br>  [isdisabled] = false |
 
 <a name="Requirements"></a>
@@ -154,7 +153,7 @@ Power BI 只支援 Dynamics CRM 2016 端點。 連線不適用於舊版的 CRM O
 如果您看到錯誤「資料重新整理失敗，因為查詢超過 100000 筆記錄上限。」，請考慮直接從 Power BI Desktop 連線，或利用 CRM 方案範本。
 
 ## <a name="next-steps"></a>後續步驟
-* [Power BI 中的應用程式是什麼？](consumer/end-user-apps.md)
+* [Power BI 中的應用程式是什麼？](service-create-distribute-apps.md)
 * [取得 Power BI 中的資料](service-get-data.md)
 * 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

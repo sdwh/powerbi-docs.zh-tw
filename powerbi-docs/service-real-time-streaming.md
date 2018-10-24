@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a3102ff26a4dbf58d8db0073f1af9cf2db5b6515
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329377"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417157"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的即時串流
 您可以使用 Power BI 即時串流，即時串流資料及更新儀表板。 您也可以建立可在 Power BI 中建立的任何視覺效果或儀表板，進而顯示及更新即時資料和視覺效果。 串流資料的裝置和來源可以是 Factory 感應器、社交媒體來源、服務使用計量，以及可從中收集或傳送即時資料的任何其他項目。
@@ -65,7 +65,7 @@ ms.locfileid: "39329377"
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> 請參閱[此 MSDN 文章](https://msdn.microsoft.com/library/dn950053.aspx)，以取得有關可以推入多少資料的**推送**限制詳細資訊。
+> 請參閱[本文](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations)，以取得可以推入多少資料的**推送**限制相關資訊。
 > 
 > 
 
@@ -83,14 +83,12 @@ ms.locfileid: "39329377"
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>使用 Power BI REST API 推送資料
 **Power BI REST API** 可用來建立及傳送資料到**推送**資料集和**串流**資料集。 當您使用 Power BI REST API 建立資料集時，<預設模式> 旗標會指定資料集是推送還是或串流。 如果未設定 <預設模式> 旗標，資料集預設為**推送**資料集。
 
-如果 <預設模式> 值設為 *pushStreaming*，則資料集同時為**推送***和***串流**資料集，其提供兩種資料集類型的優點。 REST API [**建立資料集**的文章](https://msdn.microsoft.com/library/mt203562.aspx)示範如何建立串流資料集，並動態顯示 <預設模式> 旗標。
+如果 <預設模式> 值設為 *pushStreaming*，則資料集同時為**推送***和***串流**資料集，其提供兩種資料集類型的優點。 
 
 > [!NOTE]
 > 使用資料集並將 <預設模式> 旗標設為 pushStreaming 時，如果要求超過**串流**資料集 15 KB 的大小限制，但小於**推送**資料集 16 MB 的大小限制，要求將會成功，而且會在推送資料集中更新資料。 不過，任何串流磚會暫時失敗。
-> 
-> 
 
-建立資料集之後，使用 REST API，以[**新增資料列** API](https://msdn.microsoft.com/library/mt203561.aspx)來推送資料，如[本文中所示範](https://msdn.microsoft.com/library/mt203561.aspx)。
+建立資料集之後，使用 REST API，以 [**PostRows** API](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 來推送資料。
 
 會使用 **Azure AD OAuth** 保護 REST API 的所有要求。
 
@@ -159,9 +157,9 @@ Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流
 
 ![](media/service-real-time-streaming/real-time-streaming_5.png)
 
-如果您想要讓 Power BI 儲存透過此資料流傳送的資料，請啟用 [歷程資料分析]，您將能夠對收集的資料流進行報告和分析。 您也可以[深入了解此 API](https://msdn.microsoft.com/library/dn877544.aspx)。
+如果您想要讓 Power BI 儲存透過此資料流傳送的資料，請啟用 [歷程資料分析]，您將能夠對收集的資料流進行報告和分析。 您也可以[深入了解此 API](https://docs.microsoft.com/rest/api/power-bi/)。
 
-成功建立資料流之後，系統會提供您 REST API URL 端點，您的應用程式可使用 *POST* 要求來呼叫此端點，以將您的資料發送到所建立之 Power BI **串流資料**的資料集。
+成功建立資料流之後，系統會提供您 REST API URL 端點，您的應用程式可使用 *POST* 要求來呼叫此端點，以將您的資料發送到所建立 Power BI **串流資料**資料集。
 
 進行 *POST* 要求時，您應該確定要求主體符合 Power BI 使用者介面所提供的範例 JSON。 例如，將您的 JSON 物件包裝在陣列中。
 
@@ -223,16 +221,16 @@ Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流
 不幸的是，目前無法使用此功能。
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>就上一個問題，如何對即時資料集執行任何模型？
-無法對串流資料集使用模型，因為資料不會永久儲存。 對於推送資料集，您可以使用更新資料集/資料表 REST API 來新增量值和關聯性。 您可以從[更新資料表結構描述文件](https://msdn.microsoft.com/library/mt203560.aspx)和[資料集屬性文件](https://msdn.microsoft.com/library/mt742155.aspx)取得詳細資訊。
+無法對串流資料集使用模型，因為資料不會永久儲存。 對於推送資料集，您可以使用更新資料集/資料表 REST API 來新增量值和關聯性。 
 
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>如何清除推送資料集上的所有值？ 串流資料集呢？
-在推送資料集上，您可以使用刪除資料列 REST API 呼叫。 另外，您也可以使用這個方便的工具，它是 REST API 的包裝函式。 目前沒有任何方法可清除串流資料集的資料，但資料會在一個小時之後自行清除。
+在推送資料集上，您可以使用刪除資料列 REST API 呼叫。 目前沒有任何方法可清除串流資料集的資料，但資料會在一個小時之後自行清除。
 
 #### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>設定對 Power BI 的 Azure 串流分析輸出，但我沒看到它出現在 Power BI – 出了什麼問題？
 以下是您可用來疑難排解問題的檢查清單︰
 
 1. 重新啟動 Azure 串流分析作業 (串流 GA 版本之前所建立的作業將需要重新啟動)
-2. 嘗試在 Azure 串流分析中重新授權 Power BI 連接
+2. 嘗試在 Azure 串流分析中重新授權 Power BI 連線
 3. 您在 Azure 串流分析輸出中指定哪一個工作區？ 在 Power BI 服務中，您簽入該 (相同) 工作區嗎？
 4. Azure 串流分析查詢是否明確輸出至 Power BI 輸出？ (使用 INTO 關鍵字)
 5. Azure 串流分析作業有資料流過它嗎？ 只有在傳輸資料時，才會建立資料集。
@@ -241,9 +239,6 @@ Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流
 ## <a name="next-steps"></a>後續步驟
 以下是一些可能有助於在 Power BI 中使用即時串流的連結︰
 
-* [Power BI REST API 與即時資料的概觀](https://msdn.microsoft.com/library/dn877544.aspx)
-* [Power BI REST API 限制](https://msdn.microsoft.com/library/dn950053.aspx)
-* [**建立資料集**的 REST API 文章](https://msdn.microsoft.com/library/mt203562.aspx)
-* [**新增資料列** Power BI REST API](https://msdn.microsoft.com/library/mt203561.aspx)
+* [Power BI REST API 與即時資料的概觀](https://docs.microsoft.com/rest/api/power-bi/)
 * [Azure 串流分析](https://azure.microsoft.com/services/stream-analytics/)
 

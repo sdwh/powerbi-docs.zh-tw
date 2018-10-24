@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: ce4aab1a477485a30a4166d86d166a4ac289108f
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388793"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974222"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop 中的儲存模式 (預覽)
 
@@ -171,12 +171,13 @@ ms.locfileid: "39388793"
 
 對於這個版本的**儲存模式**以及它與**複合模型**的相互關聯，有一些限制。
 
-下列多維度來源不能與**複合模型**搭配使用：
+下列 Live Connect (多維度) 來源不能與**複合模型**搭配使用：
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI 資料集
+* Azure Analysis Services
 
 使用 DirectQuery 連線到這些多維度來源時，將無法同時連線到其他 DirectQuery 來源，也無法結合匯入的資料。
 

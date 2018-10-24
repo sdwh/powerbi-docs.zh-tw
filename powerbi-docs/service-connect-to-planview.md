@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1f3bdb66d9737102c63ecace5359ba1b96265f6a
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: ad93a57e08f858c78e71d66792315d1836c2a075
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137391"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547652"
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>使用 Power BI 連接到 Planview Enterprise
 使用 Planview Enterprise 內容套件，您可以全新的方式，直接在 Power BI 中視覺化資源和工作管理資料。 請使用 Planview Enterprise 登入認證以互動方式查看投資組合的費用、了解超出預算及預算不足的部分，以及清楚專案如何配合公司的策略優先順序。 您也可以擴充立即可用的儀表板和報表，取得對您而言最重要的深入資訊。
@@ -44,9 +44,9 @@ ms.locfileid: "37137391"
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
-* [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
+* [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
 
 ## <a name="system-requirements"></a>系統需求

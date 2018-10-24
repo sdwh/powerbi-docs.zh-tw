@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: ca2f9e3393df2fd205474983ab9868aa9401ed9d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 474fe7eee6dbcb296a7eaec6057ecfa56cd3f144
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329193"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417111"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 的 DAX 基本概念
 本文適用對象為剛開始使用 Power BI Desktop 的使用者。 其目的在於以快速且容易了解的方式，為您介紹如何使用資料分析運算式 (DAX)，以便解決一些基本計算和資料分析問題。 我們將逐一探討一些概念性資訊、一系列您可以完成的工作，以及用來測試所學內容的幾項測驗。 完成本文之後，您便可充分了解 DAX 最重要的基本概念。
@@ -87,25 +87,23 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
     
 2. 在公式列中，輸入新量值名稱 **Previous Quarter Sales** 來取代 [量值]。
     
-3. 在等號後面輸入 **SUM**，後面接著左括弧。
-    
-   我們不會輸入資料行名稱直接加總，而是輸入另一個函數，來篩選  要加總的資料。
-    
-4. 在括弧之間輸入 **CALCULATE**，後面接著左括弧。
-    
+3. 在等號之後，鍵入前幾個字母 **CAL**，然後按兩下您想要使用的函式。 在此公式中，您想要 **CALCULATE** 函式。
+
    您將透過我們傳遞給 CALCULATE 函數的引數，使用 CALCULATE 函數來篩選要加總的金額。 這就是所謂的巢狀函數。 CALCULATE 函數至少有兩個引數。 第一個引數是要評估的運算式，第二個引數是篩選條件。
    
-5. 在 **CALCULATE** 函數的括弧 **()** 之間輸入 **Sales[SalesAmount]**。 這是 CALCULATE 函數的第一個運算式引數。
+4. 在 **CALCULATE** 函式的左括弧 **(** 之後，鍵入 **SUM**，後面接著另一個左括弧 **(**。 現在，我們需要傳遞引數給 SUM 函式。
+
+5. 開始輸入 **Sal**，然後選取 [Sales[SalesAmount]]，後面接著右括弧 **)**。 這是 CALCULATE 函數的第一個運算式引數。
     
-6. 鍵入逗號 (**,**) 以指定第一個篩選條件，然後鍵入 **PREVIOUSQUARTER**，後面接著左括弧。
+6. 鍵入逗號 (**,**) 後面接著一個空格，以指定第一個篩選條件，然後鍵入 **PREVIOUSQUARTER**。 這將是我們的篩選條件。
     
-   您將使用 PREVIOUSQUARTER 時間智慧函數，依上一季來篩選總和結果。
+   您將使用 PREVIOUSQUARTER 時間智慧函數，依上一季來篩選 SUM 結果。
     
-7. 在 PREVIOUSQUARTER 函式的括弧 **()** 之間鍵入 **Calendar[DateKey]**。
+7. 在 PREVIOUSQUARTER 函式的左括弧 **(** 之後，鍵入 **Calendar[DateKey]**。
     
-   PREVIOUSQUARTER 函數有一個引數，那就是包含連續日期範圍的資料行。
+   PREVIOUSQUARTER 函數有一個引數，那就是包含連續日期範圍的資料行。 在我們的案例中，這會是 Calendar 資料表中的 DateKey 資料行。
     
-8. 確定這兩個引數都已傳遞至 PREVIOUSQUARTER 函式，並以兩個左括弧 **))** 來結束 CALCULATE 函數。
+8. 確定這兩個引數都已傳遞至 PREVIOUSQUARTER 函式，並輸入兩個右括弧 **))** 來結束 CALCULATE 函式。
     
    您的公式現在看起來應該像這樣：
     

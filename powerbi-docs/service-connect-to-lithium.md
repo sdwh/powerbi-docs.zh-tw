@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cbd67a9c35726830fc862326d9a015b96952b83
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5fe70f2ba213305c5307bb202cacbb1245cf970f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37136287"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548549"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>使用 Power BI 連接到 Lithium
 Lithium 搭起世界最佳品牌與客戶之間的信任關係，協助大眾取得解答並分享使用經驗。 透過連接 Lithium 內容套件與 Power BI，您便可以測量線上社群的關鍵計量，進而協助提升銷售量、降低服務成本並提高忠誠度。 
@@ -49,9 +49,9 @@ Lithium 搭起世界最佳品牌與客戶之間的信任關係，協助大眾取
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
-* [選取圖格](service-dashboard-tiles.md)，開啟基礎報表。
+* [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
 
 ## <a name="system-requirements"></a>系統需求
@@ -60,5 +60,5 @@ Lithium 內容套件需要 Lithium community v15.9 或更新版本。 請與 Lit
 ## <a name="next-steps"></a>後續步驟
 [Power BI 是什麼？](power-bi-overview.md)
 
-[Power BI - 基本概念](service-basic-concepts.md)
+[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
 

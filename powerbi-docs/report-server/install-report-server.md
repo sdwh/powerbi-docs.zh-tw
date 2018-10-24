@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 3efd7da5ef320e08ab620da3c63a6d3ff327396a
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250376"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565904"
 ---
 # <a name="install-power-bi-report-server"></a>安裝 Power BI 報表伺服器
 
@@ -30,7 +30,7 @@ ms.locfileid: "35250376"
 ### <a name="power-bi-report-server-product-key"></a>Power BI 報表伺服器產品金鑰
 
 #### <a name="power-bi-premium"></a>Power BI Premium
-如果您已購買 Power BI Premium，則在 Power BI 報表伺服器管理入口網站的 [進階設定] 索引標籤內，您將可存取 Power BI 報表伺服器產品金鑰。 這只適用於全域系統管理員，或已獲指派 Power BI 服務系統管理員角色的使用者。
+如果您已購買 Power BI Premium，則在 Power BI 管理入口網站的 [進階設定] 索引標籤內，您可存取 Power BI 報表伺服器產品金鑰。 這只適用於全域系統管理員，或已獲指派 Power BI 服務系統管理員角色的使用者。
 
 ![](../media/service-admin-premium-manage/pbirs-product-key.png "[Premium 設定] 內的 Power BI 報表伺服器金鑰")
 

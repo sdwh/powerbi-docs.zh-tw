@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ddf08edf7494cd8b918a93d41b384b4e89376d95
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: d6793c41cea8da251fd700800e1f11ca88bb0be4
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543334"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416950"
 ---
 # <a name="basic-area-chart"></a>基本的區域圖
 基本區域圖 (也稱為多層次區域圖表) 的基礎為折線圖。 軸和行之間的區域填滿色彩，以表示數量。 
@@ -55,21 +55,29 @@ ms.locfileid: "46543334"
    c.  選取 [時間] \> [月] 以將它加入 [軸] 部分。   
    ![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
-   d.  若要依照月份顯示圖表，請選取省略符號 \(視覺效果的右上角)，並選擇 \[Sort by month] \(按月份排序)。
+   d.  若要依照月份顯示圖表，請選取省略符號 \(視覺效果的右上角)，並選擇 \[Sort by month] \(按月份排序)。 若要變更排序次序，請再次選取省略符號，並選取 [遞增排序] 或 [遞減排序]。
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
-如需使用 [篩選] 窗格的資訊，請參閱[將篩選新增至報表](../power-bi-report-add-filter.md)。
+如需使用 [篩選] 窗格的資訊，請參閱[將篩選加入報表](../power-bi-report-add-filter.md)。
 
-若要反白顯示圖表中的一個特定區域，請選取該區域或其上框線。  不同於其他視覺效果類型，如果在相同的頁面上有其他視覺效果，反白顯示基本區域圖並不會交叉篩選報表頁面上的其他視覺效果。 不過，對報表頁面上的其他視覺效果來說，區域圖是觸發交叉篩選的目標。 若要進一步了解，請參閱[報表中的視覺效果互動](../consumer/end-user-interactions.md)
+若要反白顯示圖表中的一個特定區域，請選取該區域或其上框線。  不同於其他視覺效果類型，如果在相同的頁面上有其他視覺效果，反白顯示基本區域圖並不會交叉篩選報表頁面上的其他視覺效果。 不過，對報表頁面上的其他視覺效果來說，區域圖是觸發交叉篩選的目標。 
+
+1. 請試著選取區域圖，並將它複製到另一個報表頁面 (CTRL + C 和 CTRL-V)。
+2. 選取其中一個陰影區域，然後選取另一個陰影區域。 您會發現對頁面上其他視覺效果沒有任何影響。
+
+    ![區域圖中已選取本年度銷售量](media/power-bi-visualization-basic-area-chart/power-bi-select-area.png)
+
+3. 現在選取頁面上其他視覺效果的其中一個，例如直條圖直條或折線圖上的一個月。 請注意對區域圖的影響 -- 它會篩選。  
+
+    ![已選取 Ft Oglethorpe 直條](media/power-bi-visualization-basic-area-chart/power-bi-filter.png) 
+
+若要進一步了解，請參閱[報表中的視覺效果互動](../service-reports-visual-interactions.md)
 
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解   
 * [使報表讓行動不便人士易於存取](../desktop-accessibility.md)
 * 基本區域圖不適用於比較值，原因是多層次區域會受阻擋。 Power BI 使用透明效果來表示重疊的區域。 不過，它只適用於兩個或三個不同的區域。 當您需要比較三個以上量值的趨勢時，請試著使用折線圖。 當您需要比較三個以上量值的數量時，請試著使用樹狀圖。
 
-## <a name="next-steps"></a>後續步驟
-[Power BI 中的報表](../consumer/end-user-reports.md)  
-[Power BI 報表的視覺效果](power-bi-report-visualizations.md)  
-[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)  
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+## <a name="next-step"></a>下一個步驟
+[Power BI 中的報表](power-bi-visualization-card.md)  
 

@@ -9,40 +9,40 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 2817ccb25fc9aa6d3e8150c776558366dcf0ccb6
-ms.sourcegitcommit: 0c870a006e525447497e678484874a2f137b9abd
+ms.openlocfilehash: 53803c77dec8eb35c10db7f19a82f58144f88414
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39088831"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47237977"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>從應用程式內嵌報表或儀表板
 
-在 **Power BI** 中，您可以建立應用程式，以將相關的**儀表板**和**報表**一起帶到同一處，然後發佈給組織中一大群人。 當所有使用者皆為 Power BI 使用者時，使用這些應用程式會彼此相關，所以您可以使用 Power BI 應用程式與這些使用者共用內容。 我們打算提供一些快速步驟，讓您了解如何將內容從發佈的 Power BI 應用程式內嵌至協力廠商應用程式。
+在 Power BI 中，您可以建立應用程式將相關的儀表板和報表全都帶到同一處。 然後，請將這些應用程式發佈到組織中的大型人員群組。 當您的所有使用者都是 Power BI 使用者時，這些應用程式的用途是相關的。 因此，您可以使用 Power BI 應用程式與他們共用內容。 本文提供一些快速步驟，讓您將內容從發佈的 Power BI 應用程式內嵌至協力廠商應用程式。
 
-## <a name="how-to-grab-report-embed-url-for-embedding"></a>如何擷取用於內嵌的報表內嵌 URL
+## <a name="grab-a-report-embedurl-for-embedding"></a>抓取用於內嵌的報表 embedURL
 
-1. 與自己共用或引導其他使用者進行此流程，以在使用者工作區 (「我的工作區」) 中將應用程式具現化。
+1. 在 [我的工作區] 使用者工作區中將應用程式具現化。 請與自己共用或引導另一位使用者完成此流程。
 
-2. 在 Power BI 服務中開啟所需報表。
+2. 在 Power BI 服務中開啟所需的報表。
 
-3. 前往 [檔案] -> [內嵌在 SharePoint Online 中]，並從該處擷取報表內嵌 URL (顯示於下面的快照中) 或呼叫 GetReports/GetReport REST API，並從回應擷取對應的報表 embedURL 欄位 (請注意，應用程式在使用者的工作區中具現化時，REST 呼叫的 URL 中不應有工作區識別碼)。
+3. 移至 [檔案] > [內嵌在 SharePoint Online 中]，並從該處抓取報表 embedURL。 它會顯示在下列快照集中。 或者，呼叫 GetReports/GetReport REST API，並從回應中擷取對應的報表 embedURL 欄位。 當應用程式在使用者的工作區中進行具現化時，REST 呼叫不應使用工作區識別碼作為 URL 的一部分。
 
-4. 以在步驟 3 中擷取的內嵌 URL 搭配 JS SDK 使用。
+4. 透過 JavaScript SDK 使用在步驟 3 中擷取的 embedURL。
 
     ![從應用程式內嵌](media/embed-from-apps/embed-from-app.png)
 
-## <a name="how-to-grab-dashboard-embed-url-for-embedding"></a>如何擷取用於內嵌的儀表板內嵌 URL
+## <a name="grab-a-dashboard-embedurl-for-embedding"></a>抓取用於內嵌的儀表板 embedURL
 
-1. 與自己共用或引導其他使用者進行此流程，以在使用者工作區 (「我的工作區」) 中將應用程式具現化。
+1. 在 [我的工作區] 使用者工作區中將應用程式具現化。 請與自己共用或引導另一位使用者完成此流程。
 
-2. 呼叫 GetDashboards REST API，並從回應擷取對應的儀表板 embedURL 欄位 (請注意，應用程式在使用者的工作區中具現化時，REST 呼叫的 URL 中不應有工作區識別碼)。
+2. 呼叫 GetDashboards REST API，並從回應中擷取對應的儀表板 embedURL 欄位。 當應用程式在使用者的工作區中進行具現化時，REST 呼叫不應使用工作區識別碼作為 URL 的一部分。
 
-3. 以在步驟 4 中擷取的內嵌 URL 搭配 JS SDK 使用。
+3. 透過 JavaScript SDK 使用在步驟 2 中擷取的 embedURL。
 
 ## <a name="next-steps"></a>後續步驟
 
-另外也檢閱如何從應用程式工作區為協力廠商客戶和組織內嵌。
+檢閱如何從應用程式工作區為協力廠商客戶和組織內嵌：
 
 > [!div class="nextstepaction"]
 >[為協力廠商客戶內嵌](embed-sample-for-customers.md)

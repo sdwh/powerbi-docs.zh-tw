@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 2e6eb9817071f3cbccd442014564e21463bf06f8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566033"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448929"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
 ## <a name="power-bi-visualizations"></a>Power BI 視覺效果
@@ -32,10 +32,10 @@ ms.locfileid: "46566033"
 >[!TIP]
 >基本區域圖以折線圖為基礎，會將軸與折線之間的區域填滿。
 
-如需詳細資訊，請參閱[教學課程：基本區域圖](power-bi-visualization-basic-area-chart.md).
+如需詳細資訊，請參閱[基本區域圖](power-bi-visualization-basic-area-chart.md)。
 
 ### <a name="bar-and-column-charts"></a>橫條圖和直條圖
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png) 
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
 
  ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
 
@@ -56,7 +56,7 @@ ms.locfileid: "46566033"
 >[!TIP]
 >組合圖結合了直條圖和折線圖。 選擇「折線圖加堆疊直條圖」  及「折線圖加群組直條圖」 。
 
-如需詳細資訊，請參閱[教學課程：Power BI 中的組合圖](power-bi-visualization-combo-chart.md).
+如需詳細資訊，請參閱 [Power BI 中的組合圖](power-bi-visualization-combo-chart.md)。
 
 ### <a name="doughnut-charts"></a>環圈圖
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
@@ -64,7 +64,7 @@ ms.locfileid: "46566033"
 >[!TIP]
 >環圈圖類似於圓形圖。  它們會顯示部分與整體的關聯性。
 
-如需詳細資訊，請參閱[教學課程：Power BI 中的環圈圖](power-bi-visualization-doughnut-charts.md).
+如需詳細資訊，請參閱 [Power BI 中的環圈圖](power-bi-visualization-doughnut-charts.md)。
 
 ### <a name="funnel-charts"></a>漏斗圖
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
@@ -72,7 +72,7 @@ ms.locfileid: "46566033"
 >[!TIP]
 >漏斗圖利於以視覺化方式展現具有階段和項目的程序，依序從一個階段過渡到下一個階段的流程。  當階段與階段間有循序流程時請使用漏斗圖，例如始於潛在客戶名單、止於採購履約的銷售程序。
 
-如需詳細資訊，請參閱[教學課程：Power BI 中的漏斗圖](power-bi-visualization-funnel-charts.md).
+如需詳細資訊，請參閱 [Power BI 中的漏斗圖](power-bi-visualization-funnel-charts.md)。
 
 ### <a name="gauge-charts"></a>量表圖
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
@@ -80,7 +80,7 @@ ms.locfileid: "46566033"
 >[!TIP]
 >顯示目標內容的目前狀態。
 
-如需詳細資訊，請參閱[教學課程：Power BI 中的量表圖](power-bi-visualization-radial-gauge-charts.md).
+如需詳細資訊，請參閱 [Power BI 中的量表圖](power-bi-visualization-radial-gauge-charts.md)。
 
 ### <a name="kpis"></a>KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
@@ -88,7 +88,7 @@ ms.locfileid: "46566033"
 >[!TIP]
 >顯示重要目標的進度。
 
-如需詳細資訊，請參閱[教學課程：Power BI 中的 KPI](power-bi-visualization-kpi.md)。
+如需詳細資訊，請參閱 [Power BI 中的 KPI](power-bi-visualization-kpi.md)。
 
 ### <a name="line-charts"></a>折線圖
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
@@ -107,7 +107,7 @@ ms.locfileid: "46566033"
 ### <a name="maps-arcgis-maps"></a>地圖：ArcGIS 地圖
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-如需詳細資訊，請參閱[教學課程：Power BI 的 ArcGIS 地圖](../power-bi-visualization-arcgis.md)。
+如需詳細資訊，請參閱 [Power BI 中的 ArcGIS 地圖](../power-bi-visualization-arcgis.md)。
 
 ### <a name="maps-filled-maps-choropleth"></a>地圖：區域分布圖 (分級著色圖)
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -115,10 +115,21 @@ ms.locfileid: "46566033"
 >[!TIP]
 >顏色愈深，值愈大。
 
-如需詳細資訊，請參閱[教學課程：Power BI 的區域分布圖](power-bi-visualization-filled-maps-choropleths.md).
+如需詳細資訊，請參閱 [Power BI 中的區域分布圖](power-bi-visualization-filled-maps-choropleths.md)。
+
+### <a name="maps-shape-maps"></a>地圖：圖形地圖
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+
+>[!TIP]
+>依色彩比較區域。
+
+如需詳細資訊，請參閱 [Power BI 中的圖形地圖](desktop-shape-map.md)。
+
 
 ### <a name="matrix"></a>矩陣圖
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+
+如需詳細資訊，請參閱 [Power BI 中的矩陣視覺效果](desktop-shape-map.md)。
 
 ### <a name="pie-charts"></a>圓形圖
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
@@ -129,12 +140,20 @@ ms.locfileid: "46566033"
 >[!TIP]
 >顯示 2 (散佈圖) 或 3 (泡泡圖) 量值之間的關聯性 -- 是否有關聯性，以及關聯性順序為何等等。
 
-如需詳細資訊，請參閱[教學課程：Power BI 中的散佈圖](power-bi-visualization-scatter.md).
+如需詳細資訊，請參閱 [Power BI 中的散佈圖](power-bi-visualization-scatter.md)。
+
+### <a name="scatter-high-density"></a>散佈圖高密度
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+
+>[!TIP]
+>視覺效果上有太多資料點可能會導致停滯，所以使用了複雜的取樣演算法來確保視覺效果的精確度。
+
+如需詳細資訊，請參閱 [Power BI 中的高密度散佈圖](desktop-high-density-scatter-charts.md)。
 
 ### <a name="slicers"></a>交叉分析篩選器
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
-如需詳細資訊，請參閱[教學課程：Power BI 中的交叉分析篩選器](power-bi-visualization-slicers.md).
+如需詳細資訊，請參閱 [Power BI 中的交叉分析篩選器](power-bi-visualization-slicers.md)。
 
 ### <a name="standalone-images"></a>獨立映像
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
@@ -149,10 +168,10 @@ ms.locfileid: "46566033"
 
 如需詳細資訊，請參閱[在 Power BI 中使用資料表](power-bi-visualization-tables.md)。
 
-### <a name="tree-maps"></a>樹狀圖
+### <a name="treemaps"></a>矩形式樹狀結構圖
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
-如需詳細資訊，請參閱[教學課程：Power BI 中的矩形式樹狀結構圖](power-bi-visualization-treemaps.md).
+如需詳細資訊，請參閱 [Power BI 中的矩形式樹狀結構圖](power-bi-visualization-treemaps.md)。
 
 >[!TIP]
 >彩色矩形圖，值以矩形大小表示。  它們可以是階層式，各矩形可以巢嵌在主要矩形內。
@@ -163,7 +182,7 @@ ms.locfileid: "46566033"
 >[!TIP]
 >瀑布圖會顯示總額的增減變動。
 
-如需詳細資訊，請參閱[教學課程：Power BI 中的瀑布圖](power-bi-visualization-waterfall-charts.md).
+如需詳細資訊，請參閱 [Power BI 中的瀑布圖](power-bi-visualization-waterfall-charts.md)。
 
 ## <a name="tell-qa-which-visualization-to-use"></a>告訴問與答要使用的視覺效果
 在 Power BI 問與答輸入自然語言查詢時，您可以在查詢中指定視覺效果的類型。  例如：
@@ -175,10 +194,3 @@ ms.locfileid: "46566033"
 ## <a name="next-steps"></a>後續步驟
 [Power BI 報表中的視覺效果](power-bi-report-visualizations.md)    
 [來自 sqlbi.com 的正確視覺效果參考](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
-
-[Power BI 中的報表](../consumer/end-user-reports.md)
-
-[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
-
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

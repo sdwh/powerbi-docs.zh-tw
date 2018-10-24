@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657958"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549906"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用書籤來共用深入解析並建立故事 
 在 Power BI 中使用**書籤**可協助您擷取目前設定的報表頁面檢視 (包括視覺效果的篩選和狀態)，讓您稍後只要選取儲存的書籤，就可以返回該狀態。 
@@ -132,7 +132,7 @@ ms.locfileid: "39657958"
 
 * 當您從書籤選取 [檢視] 時，若所選書籤位於群組中，則只有*該群組中*的書籤才顯示在檢視工作階段中。 
 
-* 若所選書籤並非群組，或位於頂層 (例如書籤群組的名稱)，即會播放整個報表的所有書籤，包括任何所有群組中的書籤。 
+* 若所選書籤並非群組，或位於頂層 (例如書籤群組的名稱)，即會播放整個報表的所有書籤，包括任何群組中的書籤。 
 
 若要取消書籤的群組，只要選取群組中的任一書籤，按一下省略符號，然後從出現的功能表中選取 [取消群組]。 
 
@@ -182,5 +182,5 @@ ms.locfileid: "39657958"
 如需類似功能或與書籤互動的詳細資訊，請參閱下列文章：
 
 * [在 Power BI Desktop 中使用鑽研](desktop-drillthrough.md)
-* [以焦點模式顯示儀表板磚或報表視覺效果](service-focus-mode.md)
+* [以焦點模式顯示儀表板磚或報表視覺效果](consumer/end-user-focus.md)
 

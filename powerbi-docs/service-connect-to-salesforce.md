@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136770"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548250"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>使用 Power BI 連接到 Salesforce
 您可以使用 Power BI 輕鬆地連接到您的 Salesforce.com 帳戶。 建立此連接時可擷取您的資料，並自動依據您的資料提供儀表板和相關報表。
@@ -56,13 +56,15 @@ ms.locfileid: "37136770"
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
-您可以變更此儀表板，以您想要的任何方式來顯示資料。 您可以透過問與答提問 - 或按一下圖格[開啟基礎報表](service-dashboard-tiles.md)，並在儀表板中[變更圖格](service-dashboard-edit-tile.md)。
+您可以變更此儀表板，以您想要的任何方式來顯示資料。 您可以透過問與答提問 - 或按一下圖格[開啟基礎報表](consumer/end-user-tiles.md)，並在儀表板中[變更圖格](service-dashboard-edit-tile.md)。
 
 **接下來呢？**
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](power-bi-q-and-a.md)
-* [變更儀表板中的圖格](service-dashboard-edit-tile.md)
+* 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
+* [變更儀表板中的圖格](service-dashboard-edit-tile.md) <<<<<<< HEAD
+* [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表 =======
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表
+>>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
 
 ## <a name="system-requirements-and-considerations"></a>系統需求和考量

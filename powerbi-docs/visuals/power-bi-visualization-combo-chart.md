@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543995"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448952"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI 中的組合圖
 在 Power BI 中，組合圖是結合折線圖和直條圖的單一視覺效果。 將 2 種圖結合成一個，讓您可以更快速地比較資料。
@@ -55,9 +55,9 @@ ms.locfileid: "46543995"
     c.  選取 [時間] \> [會計月份]，將其加入 [軸] 部分。
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. 選取視覺效果右上角的省略符號 (...)，然後選取 [Sort by FiscalMonth]\(依 FiscalMonth 排序)。 您可能要選取它兩次以遞增或遞減排序。
+5. 選取視覺效果右上角的省略符號 (...)，然後選取 [Sort by] > [FiscalMonth] \(排序依據\) > [FiscalMonth]。 若要變更排序次序，請再次選取省略符號，並選擇 [遞增排序] 或 [遞減排序]。
 
-6. 將直條圖轉換成組合圖。 選取直條圖後，從 [視覺效果] 窗格中，選取 [折線與群組直條圖]。
+6. 將直條圖轉換成組合圖。 有兩個可用的組合圖：[折線與堆疊直條圖] 和 [折線與群組直條圖]。 選取直條圖後，從 [視覺效果] 窗格中，選取 [折線與群組直條圖]。
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. 從 [欄位] 窗格中，將 [銷售額] \> [去年度銷售額] 拖曳到 [折線圖值] 值區。
@@ -71,7 +71,8 @@ ms.locfileid: "46543995"
 ## <a name="create-a-combo-chart-with-two-axes"></a>建立具有兩軸的組合圖
 在這項工作中，我們會比較毛利率與銷售額。
 
-1. 建立依**月份**追蹤**去年毛利率 %** 的新折線圖。  一月的 GM% 為 35%，尖峰在 4 月為 45%，於 7 月下降並再次於 8 月達到尖峰。 我們去年和今年會看到類似的銷售模式嗎？
+1. 建立依**月份**追蹤**去年毛利率 %** 的新折線圖。 選取省略符號，依 [月份] 和 [遞增] 排序。  
+一月的 GM% 為 35%，尖峰在 4 月為 45%，於 7 月下降並再次於 8 月達到尖峰。 我們去年和今年會看到類似的銷售模式嗎？
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
 2. 將 [今年度銷售額 > 值] 和 [去年度銷售額] 新增至折線圖。 [去年毛利率 %] 的刻度遠小於 [銷售額] 的刻度，因此難以比較。      
@@ -80,7 +81,7 @@ ms.locfileid: "46543995"
 3. 若要使視覺效果更容易閱讀及解譯，請將折線圖轉換成折線與堆疊直條圖。
 
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-4. 將 [去年毛利率 %] 從 [資料行值] 拖曳到 [行值]。 Power BI 會建立兩個軸，因此可用不同方式調整資料集；左邊的量值為銷售金額，而右邊的量值則為百分比。
+4. 將 [去年毛利率 %] 從 [資料行值] 拖曳到 [行值]。 Power BI 會建立兩個軸，因此可用不同方式調整資料集；左邊的量值為銷售金額，而右邊的量值則為百分比。 我們看到我們問題的答案；是的，我們確實看到類似的模式。
 
    ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
 
@@ -103,20 +104,16 @@ ms.locfileid: "46543995"
 
 接下來，您可能會想要：
 
-* [將組合圖加入為儀表板圖格](../consumer/end-user-tiles.md)。
+* [將組合圖加入為儀表板圖格](../service-dashboard-tiles.md)。
 * [儲存報表](../service-report-save.md)。
-* [使報表讓行動不便人士易於存取](../desktop-accessibility.md)
+* [使報表讓行動不便人士易於存取](../desktop-accessibility.md)。
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>交叉反白顯示和交叉篩選
 
-在組合圖中反白顯示直條或折線，會交叉反白顯示和交叉篩選報表頁面上的其他視覺效果，反之亦然。 若要變更此預設行為，請使用[視覺效果互動](../consumer/end-user-interactions.md)。
+在組合圖中反白顯示直條或折線，會交叉反白顯示和交叉篩選報表頁面上的其他視覺效果，反之亦然。 若要變更此預設行為，請使用[視覺效果互動](../service-reports-visual-interactions.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
-[Power BI 報表中的視覺效果概觀](power-bi-report-visualizations.md)
+[Power BI 中的環圈圖](power-bi-visualization-doughnut-charts.md)
 
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
-
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

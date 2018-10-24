@@ -8,22 +8,22 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 962f76666e4b139b24225daefd5af776f36b3d0d
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548457"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416909"
 ---
 # <a name="funnel-charts"></a>漏斗圖
 漏斗圖幫您將有循序連接階段的線性程序視覺化。 例如，銷售漏斗圖透過以下階段追蹤客戶：潛在客戶 \> 合格的潛在客戶 \> 期望 \> 合約 \> 結案。  漏斗圖的圖形一看就能表達出您追蹤中程序的健全狀況。
 
 漏斗圖的每個階段代表總數中所佔的百分比。 因此，在大部分情況下，漏斗圖形狀像漏斗 -- 第一階段最大，然後每個後續階段比前一階段小。  梨狀的漏斗圖也很實用，能識別出程序中的問題。  但通常第一階段，也就是「引入」階段佔最大部分。
 
-![](media/power-bi-visualization-funnel-charts/funnelplain.png)
+![藍色範例漏斗圖](media/power-bi-visualization-funnel-charts/funnelplain.png)
 
 ## <a name="when-to-use-a-funnel-chart"></a>使用漏斗圖的時機
 漏斗圖極適合：
@@ -57,11 +57,11 @@ ms.locfileid: "46548457"
 
 1. 從[空白報告頁面](../power-bi-report-add-page.md)開始，選取 [SalesStage] \> [銷售階段] 欄位。 如果您使用 Power BI 服務，請務必在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報告。
    
-    ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
+    ![選取 [銷售階段]](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [將圖表轉換](power-bi-report-change-visualization-type.md)成漏斗圖。 請注意，[銷售階段]  良好地位於 [群組]  井中。 
 3. 從 [欄位] 窗格，選取 [事實] \> [商機計數]。
    
-    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![建立漏斗圖](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. 暫留在列上會顯示豐富的資訊。
    
    * 階段名稱
@@ -69,8 +69,8 @@ ms.locfileid: "46548457"
    * 整體轉換率 (潛在客戶 %) 
    * 至下一階段 (也稱為下滑率)，是前一階段的 % (在本案例中是提案階段/解決方案階段)
      
-     ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [將漏斗圖加入為儀表板磚](../consumer/end-user-tiles.md)。 
+     ![提案列的詳細資料](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
+5. [將漏斗圖加入為儀表板磚](../service-dashboard-tiles.md)。 
 6. [儲存報表](../service-report-save.md)。
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
@@ -80,24 +80,20 @@ ms.locfileid: "46548457"
 
 1. 在漏斗圖中選取 [提案] 列。 這會交叉醒目提示頁面上的其他視覺效果。 使用 CTRL 進行多重選取。
    
-   ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. 若要設定視覺效果互相交叉醒目提示及交叉篩選之方式的喜好設定，請參閱[在 Power BI 中與視覺效果互動](../consumer/end-user-interactions.md)
+   ![顯示視覺效果互動的短片](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
+2. 若要設定視覺效果互相交叉醒目提示及交叉篩選之方式的喜好設定，請參閱[在 Power BI 中與視覺效果互動](../service-reports-visual-interactions.md)
 
-## <a name="create-a-funnel-chart-in-qa"></a>在問與答中建立漏斗圖
-開啟 [商機分析範例] 儀表板，或任何從 [商機分析範例] 資料集釘選了至少一個視覺效果的儀表板。  當您在問與答中輸入問題時，Power BI 從所有與所選的儀表板 (具有釘選圖格) 相關聯的資料集搜尋解答。 如需詳細資訊，請參閱 [Power BI - 基本概念](../consumer/end-user-basic-concepts.md)。
+## <a name="create-a-funnel-chart-using-qa"></a>使用問與答建立漏斗圖
+開啟 [商機分析範例] 儀表板，或任何從 [商機分析範例] 資料集釘選了至少一個視覺效果的儀表板。  當您在問與答中輸入問題時，Power BI 從所有與所選的儀表板 (具有釘選圖格) 相關聯的資料集搜尋解答。 如需詳細資訊，請參閱 [Power BI - 基本概念](../service-basic-concepts.md)。
 
 1. 在 [商機分析範例] 儀表板上，開始在 [問與答] 問題方塊中輸入您的問題。
    
-   ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
+   ![問題方塊和漏斗圖](media/power-bi-visualization-funnel-charts/power-bi-qna.png)
    
 2. 請務必加入「做為漏斗圖」讓 Power BI 知道您偏好哪一種視覺效果。
 
 ## <a name="next-steps"></a>後續步驟
+
+[Power BI 中的量測計](power-bi-visualization-radial-gauge-charts.md)
+
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[將視覺效果釘選至儀表板](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
-
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

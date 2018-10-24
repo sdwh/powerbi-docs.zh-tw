@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/27/2018
+ms.date: 09/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: d7f966834e2d6b44f3a887991bd0ebd6e38836f0
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 10f637e822817d6bd0fa1692a6d1b029be312d4f
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044340"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909168"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
 
 - [Power BI Desktop 的新功能](desktop-latest-update.md)  
-- [Power BI 行動裝置 App 的新功能](mobile-whats-new-in-the-mobile-apps.md)  
+- [Power BI 行動裝置 App 的新功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI 小組部落格](https://powerbi.microsoft.com/blog/)
 - Dynamics 365 的[商務應用程式 2018 年 春季版本資訊](http://aka.ms/businessappsreleasenotes)：商務應用程式的最新更新，以及在我們的平台上建置您自己的應用程式與擴充功能的新功能。 
 
@@ -31,37 +31,43 @@ ms.locfileid: "44044340"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="august-2018"></a>2018 年 8 月
-* Power BI [報表 URL 篩選](service-url-filters.md)改進。
+## <a name="september-2018"></a>2018 年 9 月
+* Power BI 服務中的[儀表板註解](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)功能。
 
 ## <a name="previous-months-2018"></a>前幾個月 (2018)
+### <a name="august-2018"></a>2018 年 8 月
+* Power BI Premium 的[容量監視應用程式](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)。
+* Power BI [報表 URL 篩選](service-url-filters.md)改進。
+
 ### <a name="july-2018"></a>2018 年 7 月
+* [永續性篩選](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)的自訂視覺效果支援。
 * 適用於 Power BI 系統管理員的 [API 和 PowerShell Cmdlet](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/)。
+* Power BI Premium 的[多地理位置支援](service-admin-premium-multi-geo.md)。
 
 ### <a name="june-2018"></a>2018 年 6 月
 * 使用篩選與交叉分析篩選器共用報表。
 * 全新且改進的使用者介面，可用於[閘道連線](https://powerbi.microsoft.com/blog/easier-set-up-of-datasets-in-power-bi/)及設定資料集。
 
 ### <a name="may-2018"></a>2018 年 5 月
-* Power BI 服務中的[佈景主題儀表板](https://docs.microsoft.com/power-bi/service-dashboard-themes)。
-* 使用 Premium 的[累加式重新整理](https://docs.microsoft.com/power-bi/service-premium-incremental-refresh)。
-* 要求 [Power BI 應用程式](https://docs.microsoft.com/power-bi/service-create-distribute-apps)的存取工作流程。
-* 取得資料更新，讓使用者更輕鬆地找到 [Power BI 應用程式](https://docs.microsoft.com/power-bi/service-create-distribute-apps)。
+* Power BI 服務中的[佈景主題儀表板](service-dashboard-themes.md)。
+* 使用 Premium 的[累加式重新整理](service-premium-incremental-refresh.md)。
+* 要求 [Power BI 應用程式](service-create-distribute-apps.md)的存取工作流程。
+* 取得資料更新，讓使用者更輕鬆地找到 [Power BI 應用程式](service-create-distribute-apps.md)。
 * Power BI 服務中開啟和關閉[永續性篩選](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)的設定。
 * 報表的 Azure B2B 邀請工作流程改善。
 
 ### <a name="april-2018"></a>2018 年 4 月
 * [Power BI 資料保護技術白皮書](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-* 預設會針對 Office 365 租用戶開啟 Power BI 服務[稽核記錄](https://docs.microsoft.com/power-bi/service-admin-auditing)。
+* 預設會針對 Office 365 租用戶開啟 Power BI 服務[稽核記錄](service-admin-auditing.md)。
 
 ### <a name="march-2018"></a>2018 年 3 月
 * Power BI 服務中的[永續性篩選](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) \(英文\)。
 * 藉由使用者的個人電子郵件帳戶來與使用者共用內容。 [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/) 的延伸模組。
 
 ### <a name="february-2018"></a>2018 年 2 月
-* 自動為終端使用者安裝 [Power BI 應用程式](https://docs.microsoft.com/power-bi/service-create-distribute-apps)。
+* 自動為終端使用者安裝 [Power BI 應用程式](service-create-distribute-apps.md)。
 * Power BI Premium 上的 P4 與 P5 容量
-* [組織自訂視覺效果](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-organization)的預覽。
+* [組織自訂視覺效果](power-bi-custom-visuals-organization.md)的預覽。
 
 ### <a name="january-2018"></a>2018 年 1 月
 *   共用 Power BI 報表並設為我的最愛。
@@ -73,7 +79,7 @@ ms.locfileid: "44044340"
 
 ## <a name="previous-months-2017"></a>前幾個月 (2017)
 ## <a name="october-and-november-2017"></a>2017 年 10 月和 11 月
-*   [Power BI 應用程式](https://docs.microsoft.com/power-bi/service-create-distribute-apps)的選擇性發行內容。
+*   [Power BI 應用程式](service-create-distribute-apps.md)的選擇性發行內容。
 *   [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) 的外部使用者發佈。
 * 使用 AI 技術應用程式的建議。
 * 儀表板磚上 UI 更新。
@@ -89,13 +95,13 @@ ms.locfileid: "44044340"
 
 ### <a name="august-2017"></a>2017 年 8 月
 * 使用[每位使用者使用計量](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/)來了解您的對象。
-* 開始使用線上服務的 [Power BI 服務](service-connect-to-services.md)應用程式。
+* 開始使用線上服務的 [Power BI 服務](consumer/end-user-connect-to-services.md)應用程式。
 * 使用內部部署資料閘道，透過匯入和 DirectQuery 連線模式，連線至 IBM Netezza。
 * [動態 RLS](developer/embedded-row-level-security.md) 現在支援 Power BI Embedded。
 * 進階[篩選 API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md)現在針對自訂視覺效果 API 1.7 版新增。
 
 ### <a name="july-2017"></a>2017 年 7 月
-* 支援儀表板上的[電子郵件訂閱](service-report-subscribe.md)。
+* 支援儀表板上的[電子郵件訂閱](consumer/end-user-subscribe.md)。
 * 檢查並診斷為何儀表板使用效能偵測器時載入時間不佳。
 * Snowflake 和 SAP BusinessWarehouse DirectQuery 現在支援內部部署資料閘道。
 * Power BI 服務中新的[管理資料重新整理的 API](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)。
@@ -206,12 +212,12 @@ ms.locfileid: "44044340"
 
 如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)
 
-* [Power BI 問與答支援 SQL Server 2016 Analysis Services 表格式模型](service-q-and-a-direct-query.md)︰我們很高興宣佈改善了 Power BI 問與答使用者體驗，以及開始提供 Power BI 問與答公開預覽版供連接資料來源的企業閘道使用，從支援 SQL Server 2016 Analysis Services 表格式模型開始。 如需所有詳細資料，[請參閱部落格文章](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)。
+* [Power BI 問與答支援 SQL Server 2016 Analysis Services 表格式模型](consumer/end-user-q-and-a-direct-query.md)︰我們很高興宣佈改善了 Power BI 問與答使用者體驗，以及開始提供 Power BI 問與答公開預覽版供連接資料來源的企業閘道使用，從支援 SQL Server 2016 Analysis Services 表格式模型開始。 如需所有詳細資料，[請參閱部落格文章](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)。
 * [Excel 報表的本機檔案支援](service-excel-workbook-files.md#local-excel-workbooks)︰您現在可以上傳本機磁碟機或其他儲存體服務的 Excel 檔案，並像在 Excel Online 中一樣，運用 Power BI 的新增功能使用該 Excel 報表。 如需所有詳細資料，[請參閱部落格文章](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)。
 
 **2016 年 4 月 28 日**
 
-* [儀表板磚的快速深入剖析](service-insights.md)︰在焦點模式中檢視磚時，按一下 \[Get Insights] \(取得深入剖析) 即可在數秒內自動搜尋磚及其相關資料，以了解關聯性、極端值、趨勢、季節性、趨勢的轉折點及主要因素。
+* [儀表板磚的快速深入剖析](consumer/end-user-insights.md)︰在焦點模式中檢視磚時，按一下 \[Get Insights] \(取得深入剖析) 即可在數秒內自動搜尋磚及其相關資料，以了解關聯性、極端值、趨勢、季節性、趨勢的轉折點及主要因素。
 
 如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)
 
@@ -437,7 +443,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 **2015 年 12 月 3 日**
 
-* 使用深入資訊摘要自動探索趨勢並發掘資料集中的模式：[影片](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)或[文章](service-insights.md)
+* 使用深入資訊摘要自動探索趨勢並發掘資料集中的模式：[影片](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)或[文章](consumer/end-user-insights.md)
 * [將 Power BI 中的 VMob 資料以圖形呈現](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Power BI 與 Cortana 整合](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [企業級 Power BI 閘道的預覽](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)

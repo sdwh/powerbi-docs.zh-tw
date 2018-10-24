@@ -1,22 +1,22 @@
 ---
 title: 使用 URL 新增 Power BI 報表參數
 description: 使用 URL 查詢字串參數篩選報表，甚至對多個欄位進行篩選。
-author: mihart
-ms.author: mihart
-manager: annebe
+author: maggiesMSFT
+ms.author: maggies
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 1124163b985f575df08a9ba4f065c6a6b1abf54c
-ms.sourcegitcommit: cca21f8089e71b595d3aca30c95f12e4bbf767cc
+ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
+ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "45626023"
+ms.lasthandoff: 10/03/2018
+ms.locfileid: "48232918"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -106,7 +106,7 @@ URL?filter=***資料表***/***欄位*** eq '***值***'
 |**gt**     | 大於        |不可以 | 是 | 可以  | product/price gt 20
 |**le**     |   小於或等於      | 不可以 | 是 | 可以  | product/price le 100
 |**lt**     |  小於       | 不可以 | 是 | 可以 |  product/price lt 20
-|**in****     |  含       | 不可以 | 不可以 |  可以 | Student/Age in (27, 29)
+|**in****     |  含       | 可以 | 是 |  可以 | Student/Age in (27, 29)
 
 
 \** 使用 **in** 時，**in** 右側的值可為以括弧括住的逗號分隔清單，或傳回集合的單一運算式。
@@ -131,14 +131,14 @@ Power BI 針對 **Date** 和 **DateTimeOffset** 資料類型支援 OData V3 和 
 
 ## <a name="special-characters-in-url-filters"></a>URL 篩選中的特殊字元
 
-特殊字元和空格需要一些額外的格式設定。 當您的查詢包含空格、破折號或其他非 ASCII 字元時，請在這些特殊字元前面加上「逸出程式碼」(**_x**) 和 4 位數 **Unicode**。 如果 Unicode 少於 4 個字元，您必須以零填補。 以下是一些範例。
+特殊字元和空格需要一些額外的格式設定。 當您的查詢包含空格、破折號或其他非 ASCII 字元時，請在這些特殊字元前面加上「逸出程式碼」，開頭為底頭，並加上一個 X (**_x**) 和 4 位數 **Unicode**，再接上另一個底線。 如果 Unicode 少於 4 個字元，您必須以零填補。 以下是一些範例。
 
 |識別碼  |Unicode  | 適用於 Power BI 的編碼  |
 |---------|---------|---------|
-|**資料表名稱**     | 空格：0x20        |  Table_x0020_Name       |
-|**Column**@**Number**     |   @：0x40     |  Column_x0040_Number       |
-|**[Column]**     |  [：0x005B，]：0x0050       |  _x0058_Column_x0050       |
-|**Column+Plus**     | +：0x2B        |  Column_x002B_Plus       |
+|**資料表名稱**     | 空格是 0x20        |  Table_x0020_Name       |
+|**Column**@**Number**     |   @ 是 0x40     |  Column_x0040_Number       |
+|**[Column]**     |  [ 是 0x0058] 是 0x0050       |  _x0058_Column_x0050       |
+|**Column+Plus**     | + 是 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![呈現特殊字元的資料表視覺效果](media/service-url-filters/power-bi-special-characters1.png)
 
@@ -159,7 +159,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>從篩選的報表釘選磚
 
-在您使用查詢字串參數篩選報表後，可以將視覺效果從該報表釘選到儀表板。  儀表板上的磚會顯示經過篩選的資料，而選取該儀表板磚會開啟用來建立該磚的報表。  不過，您使用 URL 進行的篩選不會儲存在報表，而選取儀表板磚時，報表會以未篩選的狀態開啟。  這表示儀表板磚中顯示的資料與報表視覺效果中顯示的資料不相符。
+在您使用查詢字串參數篩選報表後，可以將視覺效果從該報表釘選到儀表板。  儀表板上的圖格會顯示經篩選資料，而選取該儀表板圖格會開啟用來建立該圖格的報表。  不過，您使用 URL 進行的篩選不會儲存在報表，而選取儀表板磚時，報表會以未篩選的狀態開啟。  這表示儀表板圖格中顯示的資料與報表視覺效果中所顯示資料不相符。
 
 當您想要查看不同結果時，這會很實用；在儀表板上已篩選，在報表則未篩選。
 
@@ -171,6 +171,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 * 在 Power BI 報表伺服器，[傳遞報表參數](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)的方法可以是將其包含在報表 URL 中。 這些 URL 參數不會有前置詞，因為會直接傳遞到報表處理引擎。
 * 查詢字串篩選不會處理[發行至網路](service-publish-to-web.md)或 Power BI Embedded。   
 * 由於 JavaScript 限制，Long 資料類型為 (2^53-1)。
+* 報表 URL 篩選條件有 10 個運算式的限制 (以 AND 連接的 10 個篩選條件)。
 
 ## <a name="next-steps"></a>後續步驟
 

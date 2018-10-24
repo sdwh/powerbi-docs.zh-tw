@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e9b48b79b30250c442140929045132fe1c4b10e8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565812"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448906"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布圖
 瀑布圖會顯示總額的增減變動。 它適用於了解起始值 (例如淨收益) 如何受到一系列正面和負面變更的影響。
@@ -39,32 +39,32 @@ ms.locfileid: "46565812"
 
 1. 選取 [資料集] 索引標籤，並捲動至新的 [零售分析範例] 資料集。  選取**建立報表**圖示，在報表編輯檢視中開啟資料集。 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
-2. 從 [欄位] 窗格中，選取 [銷售額] \> [總銷售額差異]。 如果 [總銷售額差異]  並非位於 [Y 軸]  區域，請將它拖曳到該處。
-3. 將圖表轉換成 [瀑布圖] 。 
+    ![醒目提示的 [資料集] 索引標籤](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
+2. 從 [欄位] 窗格中，選取 [銷售額] \> [總銷售額差異]。 
+3. 將圖表轉換成 [瀑布圖] 。 如果 [總銷售額差異]  並非位於 [Y 軸]  區域，請將它拖曳到該處。
    
-    ![](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
+    ![視覺效果範本](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
 4. 選取 [時間] \> [會計月份] 將其加入 [類別] 部分。 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![瀑布圖](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 5. 依時間先後順序來排序瀑布圖。 在圖表右上角選取省略符號 (...)，然後選擇 [會計月份]。
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sort.png)
+    ![選擇 [排序依據] > [FiscalMonth]](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![新遞增排序的結果](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. 深入了解造成每個月變化的最大因素為何。 將 [存放區]  >  [地區] 拖曳至 [分解] 貯體。
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![顯示 [分解] 貯體中的 [存放區]](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 7. 根據預設，Power BI 會新增造成每個月增加或減少的前 5 個因素。 但是，我們只想了解前 2 個因素。  在 [格式化] 窗格中，選取 [分解]，然後將 [最大值] 設定為 2。
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![[格式化] > [分解]](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    
     快速檢閱會顯示俄亥俄州和賓夕法尼亞州地區是造成我們瀑布圖負向及正向移動的最大因素。 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
-8. 這是一個相當有趣的發現。 是因為俄亥俄州和賓夕法尼亞州這 2 個地區的銷售額遠高於其他地區的銷售額，才使得他們造成如此顯著的影響嗎？  我們可以確認這一點。 建立一個以地區查看銷售額的地圖。  
+    ![瀑布圖](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+8. 這是一個相當有趣的發現。 是因為俄亥俄州和賓夕法尼亞州這 2 個地區的銷售額遠高於其他地區的銷售額，才使得他們造成如此顯著的影響嗎？  我們可以確認這一點。 建立依地區劃分的今年銷售額與去年銷售額地圖。  
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
+    ![賓夕法尼亞州和俄亥俄州地圖特寫](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
    
     我們的地圖證實了我們的理論。  它顯示了這 2 個地區在去年 (泡泡大小) 和今年 (泡泡陰影) 都擁有最高的銷售額。
 
@@ -74,13 +74,7 @@ ms.locfileid: "46565812"
 在瀑布圖中反白顯示資料行會交叉篩選報表頁面上的其他視覺效果，反之亦然。 不過，[總計] 資料行不會觸發反白顯示或回應交叉篩選。
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 中的報表](../consumer/end-user-reports.md)
+
+[視覺效果互動](../service-reports-visual-interactions.md)
 
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI 報表的視覺效果](power-bi-report-visualizations.md)
-
-[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
-
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

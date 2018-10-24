@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 922352c0cdbacd57d3e6706d490b3cc7e65ab8f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732427"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909237"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -22,6 +22,25 @@ ms.locfileid: "44732427"
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
+
+## <a name="september-2018"></a>2018 年 9 月
+
+### <a name="phone-report-editing-in-the-browser-all-devices"></a>瀏覽器中的手機報表編輯功能 (所有裝置)
+
+現在您可以為已經在 Power BI 服務中發佈的報表建立手機報表配置，而非僅限 Power BI Desktop。 您可以在瀏覽器中於編輯模式下建立它。
+
+### <a name="dashboard-commenting-ios-and-android"></a>儀表板註解 (iOS 和 Android) 
+
+您可以將註解直接新增到儀表板和特定磚來討論您的資料，且所有檢視儀表板的人都可以看見您的註解。 您也可以透過 @mentioning 他們，將您組織中的其他人員拉進交談。 這些您 @mentioned 的人員會在他們的手機上收到附帶您訊息的推播通知。
+
+目前可在 iOS 和 Android 裝置上使用。 Windows 支援即將推出。
+
+請閱讀[關於儀表板註解的 Power BI 部落格文章](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)。
+
+### <a name="single-sign-on-windows"></a>單一登入 (Windows)
+
+單一登入 (SSO) 是適用於 Windows 的 Power BI 行動版最迫切要求功能之一。 現在您不僅可以使用主要組織帳戶登入已加入網域的 Windows 行動裝置版裝置，還可以順暢地登入 Power BI 服務。 深入了解 [SSO 和 Windows 行動裝置應用程式](mobile-windows-10-app-single-sign-on-sso.md)。
+
 
 ## <a name="july-2018"></a>2018 年 7 月
 
@@ -177,7 +196,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 
 ### <a name="june-2107"></a>2017 年 6 月
 #### <a name="all-devices"></a>所有裝置
-**將應用程式設為我的最愛**：您原本已可將儀表板設為我的最愛。 最近，[Power BI 新增了應用程式](../../service-install-use-apps.md)，而您現在也能將這些應用程式設為我的最愛。 
+**將應用程式設為我的最愛**：您原本已可將儀表板設為我的最愛。 最近，[Power BI 新增了應用程式](../../service-create-distribute-apps.md)，而您現在也能將這些應用程式設為我的最愛。 
 
 ### <a name="may-2017"></a>2017 年 5 月
 #### <a name="all-devices"></a>所有裝置
@@ -498,7 +517,7 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 
 **R 磚和 Web Widget** 在您行動裝置上的儀表板檢視這些新的磚類型。
 
-**Bing 儀表板**在 Power BI 服務中，您現在可以[使用 Bing 搜尋結果建立儀表板](../../service-connect-to-services.md)，並在您的行動裝置上加以檢視。
+**Bing 儀表板**在 Power BI 服務中，您現在可以[使用 Bing 搜尋結果建立儀表板](../end-user-connect-to-services.md)，並在您的行動裝置上加以檢視。
 
 **將報表頁面釘選為儀表板上的磚**：您現在可以將整個報表頁面釘選到 Power BI 服務中的儀表板。您可以您 iPhone 或 Android 手機的 Power BI 應用程式中檢視報表頁面。
 

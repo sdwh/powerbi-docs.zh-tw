@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 19a029564fecdc9a54a136d045e75bb9580193da
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543941"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908232"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>在 Power BI 應用程式工作區中共同作業
 Power BI 應用程式工作區是與您的同事共同作業以利用儀表板、報表和資料集來建立「應用程式」的絕佳地方。 共同作業不會止於 Power BI 中的工作區。 Office 365 提供其他群組服務，例如共用商務用 OneDrive 上的檔案、Exchange 中的交談、共用行事曆和工作等等。 深入了解 [Office 365 的群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)。
@@ -23,7 +23,7 @@ Power BI 應用程式工作區是與您的同事共同作業以利用儀表板�
 > [!NOTE]
 > 新的工作區體驗預覽會變更 Power BI 工作區與 Office 365 群組之間的關聯性。 每次建立其中一個新的工作區時，您都不會自動建立 Office 365 群組。 閱讀[建立新的工作區 (預覽)](service-create-the-new-workspaces.md)
 
-僅 [Power BI Pro](service-free-vs-pro.md) 提供應用程式工作區。
+具有 [Power BI Pro 授權](service-features-license-type.md)才能使用應用程式工作區。
 
 ## <a name="collaborate-on-power-bi-desktop-files-in-your-app-workspace"></a>在應用程式工作區中的 Power BI Desktop 檔案上共同作業
 建立 Power BI Desktop 檔案之後，如果您將其發佈到 Power BI 應用程式工作區，則工作區中的每個人都可以對它共同作業。
@@ -77,7 +77,7 @@ Power BI 應用程式工作區是與您的同事共同作業以利用儀表板�
 如果您是應用程式工作區的擁有者或系統管理員，也可以新增或移除工作區成員。 深入了解[管理 Power BI 應用程式工作區](service-manage-app-workspace-in-power-bi-and-office-365.md)。
 
 ## <a name="next-steps"></a>後續步驟
-* [在 Power BI 中建立應用程式和應用程式工作區](consumer/end-user-create-apps.md)
+* [在 Power BI 中建立應用程式和應用程式工作區](service-create-distribute-apps.md)
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 * 想提出意見反應嗎？ 請前往 [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi)
 

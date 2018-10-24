@@ -8,15 +8,15 @@ featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565541"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416858"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的星形量測計圖表
 星形量測計圖表具有圓弧線段，並且會顯示針對某一目標/KPI 測量進度的單一值。  目標或目標值是由線條 (指針) 表示。 達到該目標的進度是由陰影表示。  代表該進度的值會以粗體顯示在弧線內。所有可能的值會從最小 (最左邊的值) 到最大 (最右邊的值) 平均分散在弧線上。
@@ -92,7 +92,7 @@ ms.locfileid: "46565541"
 
 ### <a name="step-5-save-your-report"></a>步驟 5：儲存報表。
 1. [儲存報表](../service-report-save.md)。
-2. [將量測計圖表加入為儀表板的磚](../consumer/end-user-tiles.md)。 
+2. [將量測計圖表加入為儀表板的磚](../service-dashboard-pin-tile-from-report.md)。 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>使用格式化選項來手動設定最小值、最大值與目標值
 1. 將 [銷售額的最大值]  從 [最大值]  部分移除。
@@ -110,14 +110,8 @@ ms.locfileid: "46565541"
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. 可選擇繼續格式化量測計圖。
 
-## <a name="next-steps"></a>後續步驟
+## <a name="next-step"></a>下一個步驟
+
+[Power BI 中的量測計](power-bi-visualization-kpi.md)
+
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[將視覺效果新增至報表](power-bi-report-add-visualizations-i.md)
-
-[將視覺效果釘選至儀表板](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI - 基本概念](../consumer/end-user-basic-concepts.md)
-
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

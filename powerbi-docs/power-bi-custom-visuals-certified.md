@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/13/2018
+ms.date: 09/24/2018
 ms.author: mihart
-ms.openlocfilehash: 45bd00877aadba2a84ac533add18b82337fa8403
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 54c484153896430a7c5c886864459361cae97428
+ms.sourcegitcommit: fbc1fabcb5e3b285228c9aa192b9b421b2782922
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546249"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "47059062"
 ---
 # <a name="getting-a-custom-visual-certified"></a>讓自訂視覺效果*經認證*
 ## <a name="what-is-meant-by-certified"></a>*經認證*是什麼意思？
@@ -107,6 +107,7 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [Linear Gauge by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) (MAQ Software 的線性量測計) | [影片](https://youtu.be/7_jFaM30dkc) |
 | [LineDot Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766) (顯示資料點的折線圖) | |
 | [Mekko Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380785) (巧拼圖) | [影片](https://youtu.be/90FLCKpgicA) |
+| [Multi KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381763) (多個 KPI) | |
 | [Overview by CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381477) (CloudScope 的概觀) | |
 | [Play Axis (Dynamic Slicer)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) (播放軸 (動態交叉分析篩選器)) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [影片](https://youtu.be/IvfIP3E6-1Q) |

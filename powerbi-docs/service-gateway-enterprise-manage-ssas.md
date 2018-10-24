@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599173"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238092"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理您的資料來源─Analysis Services
 安裝內部部署資料閘道之後，您必須新增可搭配閘道使用的資料來源。 本文將探討如何使用閘道和資料來源。 您可以針對已排程的重新整理或即時連線，使用 Analysis Services 資料來源。
@@ -150,13 +150,38 @@ ms.locfileid: "37599173"
 如何設定您的閘道執行 AD 查閱：
 
 1. 下載並安裝最新閘道
+
 2. 在閘道中，您需要使用網域帳戶 (而非本機服務帳戶；否則 AD 查閱將無法在執行階段正常運作) 來變更要執行的**內部部署資料閘道服務**。 您必須重新啟動閘道服務，變更才會生效。  前往您電腦上的閘道應用程式 (搜尋 “on-premises data gateway” 或「內部部署資料閘道」)。 若要這樣做，請移至 [服務設定] > [變更服務帳戶]。 除非您想要改為建立新的閘道，否則請確定您有此閘道的修復金鑰，因為您必須在相同的電腦上才能進行還原。 
-3. 以系統管理員身分巡覽至閘道的安裝資料夾 *C:\Program Files\On-premises data gateway*，確認您具有寫入權限，並編輯下列檔案：
 
-       Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
-4. 根據「您的」 AD 使用者的 Active Directory 屬性設定，編輯下列兩個設定值。 下面所示的設定值只是範例，而您必須根據 Active Directory 設定來指定它們。 
+3. 以系統管理員身分巡覽至閘道的安裝資料夾 *C:\Program Files\On-premises data gateway*，確認您具有寫入權限，並編輯下列檔案： Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 
-   ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+4. 根據「您」 AD 使用者的 Active Directory 屬性設定，編輯下列兩個設定值。 下面所示的設定值只是範例，而您必須根據 Active Directory 設定來指定它們。 這些設定會區分大小寫，因此請確定它們符合 Active Directory 中的值。
+
+    ![Azure Active Directory 設定](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+
+    如果沒有為 ADServerPath 設定提供任何值，則閘道會使用預設的通用類別目錄。 您也可以為 ADServerPath 指定多個值。 每個值都必須以分號分隔，如下列範例所示。
+
+    ```xml
+    <setting name="ADServerPath" serializeAs="String">
+        <value> >GC://serverpath1; GC://serverpath2;GC://serverpath3</value>
+    </setting>
+    ```
+    閘道會從左到右剖析 ADServerPath 的值，直到找到相符項目為止。 如果找不到相符項目，則會使用原始的 UPN。 請確定執行閘道服務 (PBIEgwService) 的帳戶對您在 ADServerPath 中指定的所有 AD 伺服器具有查詢權限。
+
+    閘道支援兩種類型的 ADServerPath，如下列範例所示。
+
+    **WinNT**
+
+    ```xml
+    <value="WinNT://usa.domain.corp.contoso.com,computer"/>
+    ```
+
+    **GC**
+
+    ```xml
+    <value> GC://USA.domain.com </value>
+    ```
+
 5. 重新啟動**內部部署資料閘道**服務，以讓設定變更生效。
 
 ### <a name="working-with-mapping-rules"></a>使用對應規則

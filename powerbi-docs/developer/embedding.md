@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
 ms.date: 07/31/2018
-ms.openlocfilehash: 2889345c5e4a5e93602c51baa27bf2c7e28e138f
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616020"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973762"
 ---
 # <a name="embedding-with-power-bi"></a>Power BI 的內嵌功能
 
-Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 API 可供內嵌您的儀表板和報表。 這意謂著在內嵌內容時，您會有一組功能可供使用，並可存取最新的 Power BI 功能，例如儀表板、閘道及應用程式工作區。
+Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 API 可供內嵌您的儀表板和報表。 此功能意謂著在內嵌內容時，您會有一組功能可供使用，並可存取最新的 Power BI 功能，例如儀表板、閘道及應用程式工作區。
 
-您可以完成[上線體驗工具](https://aka.ms/embedsetup)以快速開始使用並下載應用程式範例。
+您可以完成[內嵌安裝工具](https://aka.ms/embedsetup)以快速開始使用並下載應用程式範例。
 
 選擇最適合您的方案：
 
@@ -49,7 +49,7 @@ Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 A
 
 針對 Power BI 使用者內嵌時，可透過 [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) 來使用自助功能，例如編輯、儲存等。
 
-您可以透過對組織進行內嵌的[入門訓練體驗工具](https://aka.ms/embedsetup/UserOwnsData) \(英文\) 來快速開始及下載範例應用程式，該應用程式會引導您整合組織的報表。
+您可以完成[內嵌安裝工具](https://aka.ms/embedsetup/UserOwnsData)來針對組織進行內嵌，以快速開始及下載應用程式範例，該應用程式範例會引導您整合組織的報表。
 
 ## <a name="embedding-for-your-customers"></a>對客戶進行內嵌
 
