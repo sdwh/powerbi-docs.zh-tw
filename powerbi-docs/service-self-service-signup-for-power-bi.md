@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 411fd408998ba67c4a91ae01e166396530631678
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: bfd3c1242ff5eb0d00078dbeb376dba8b0b6aa20
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909053"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641704"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>以個人身分註冊 Power BI
 了解如何註冊 Power BI，並開始利用它來滿足您的個人報告和視覺效果需求。
@@ -142,7 +142,7 @@ Power BI 會要求您使用公司或學校的電子郵件地址來註冊。 您�
 ## <a name="next-steps"></a>後續步驟  
 [購買 Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [個人使用者適用的 Power BI 服務合約](https://powerbi.microsoft.com/terms-of-service/)  
-[何謂 Power BI Premium](service-premium.md)  
+[什麼是 Power BI Premium？](service-premium.md)  
 [Power BI Premium 技術白皮書](https://aka.ms/pbipremiumwhitepaper)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)

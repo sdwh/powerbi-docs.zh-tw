@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ce37c13d313a44af5f082c0db2a72dbf4d53aca5
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: 8a95dae913c2069fa3768d66c55d2b1358640000
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48874694"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641911"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI 服務的基本概念
 
@@ -82,7 +82,7 @@ Power BI 的 4 個主要建置組塊是：***儀表板***、***報告***、***�
 您可以重新整理、重新命名、瀏覽及移除資料集。 使用資料集從頭開始建立報告，或執行[快速深入解析](service-insights.md)。  若要查看哪些報告和儀表板已經使用資料集，請選取 [檢視相關的]。 若要瀏覽資料集，請選取該資料集。 您實際上會在報表編輯器中開啟資料集，您可以在編輯器中開始挖掘資料並建立視覺效果。 因此，讓我們前進到下一個主題 - 報表。
 
 ### <a name="dig-deeper"></a>深入瞭解
-* [何謂 Power BI Premium](service-premium.md)
+* [什麼是 Power BI Premium？](service-premium.md)
 * [取得 Power BI 的資料](service-get-data.md)
 * [Power BI 的範例資料集](sample-datasets.md)
 

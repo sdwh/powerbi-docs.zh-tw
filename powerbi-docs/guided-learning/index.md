@@ -3,12 +3,15 @@ title: Microsoft Power BI 引導式學習
 description: 透過這個循序漸進的系列課程開始您的學習之旅，從而了解 Microsoft Power BI 豐富而強大的功能。
 layout: LandingPage
 ms.service: powerbi
-ms.openlocfilehash: 8e9c26e48f50eb5b95a23f98329dbaea578e01d3
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.author: davidiseminger
+ms.date: 10/01/2018
+ms.topic: hub-page
+ms.openlocfilehash: fc54476386ccd2e04c90bb3eb7f833107ca293f7
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799061"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473995"
 ---
 <div id="main" class="v2">
     <div class="container">
