@@ -1,7 +1,7 @@
 items:
 - name: 適用於取用者的 Power BI
   href: power-bi-consumer-landing.md
-- name: Power BI 服務
+- name: 適用於取用者的 Power BI 服務
   items:
   - name: 概觀
     items:
@@ -13,6 +13,8 @@ items:
     items:
     - name: 了解 Power BI
       href: end-user-experience.md
+    - name: Power BI 可以做什麼？
+      href: end-user-reading-view.md
   - name: 教學課程
     items:
     - name: 建立儀表板警示
@@ -23,6 +25,8 @@ items:
       items:
       - name: 儀表板
         href: end-user-dashboards.md
+      - name: 檢視儀表板
+        href: end-user-dashboard-open.md
       - name: 精選儀表板
         href: end-user-featured.md
       - name: 儀表板圖格
@@ -43,10 +47,10 @@ items:
       items:
       - name: 我可以使用視覺效果來做什麼？
         href: end-user-visualizations.md
+      - name: 顯示用於建立視覺效果的資料
+        href: end-user-show-data.md
       - name: 向下鑽研 Power BI 的視覺效果
         href: end-user-drill.md
-      - name: 從視覺效果匯出資料
-        href: end-user-export-data.md
     - name: 一般工作
       items:
       - name: 使用焦點模式和全螢幕模式，以不同方式放大內容
@@ -181,9 +185,9 @@ items:
     items:
     - name: 行動應用程式支援的語言
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: ff348d2798d49a0f4ee73a28d9c82395caf12d80
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 5a696c51a72320bc53a12a913c1785fb5ba742c8
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112122"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473881"

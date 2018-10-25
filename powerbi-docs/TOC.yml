@@ -194,9 +194,9 @@ items:
       items:
       - name: Power BI Desktop 中的資料分類
         href: desktop-data-categorization.md
-      - name: 在 Power BI Desktop 中為 Power BI 行動裝置應用程式標記條碼欄位
+      - name: 標記行動應用程式的條碼欄位
         href: desktop-mobile-barcodes.md
-      - name: 在 Power BI Desktop 中為 Power BI 行動裝置應用程式設定地理篩選
+      - name: 設定行動應用程式的地理篩選
         href: desktop-mobile-geofiltering.md
       - name: Power BI Desktop 中的導出資料行
         href: desktop-calculated-columns.md
@@ -204,6 +204,8 @@ items:
         href: desktop-calculated-tables.md
       - name: Power BI Desktop 中的量值
         href: desktop-measures.md
+      - name: 編輯問與答的語言結構描述
+        href: power-bi-q-and-a-linguistic-schema.md
       - name: 匯入和顯示 KPI (預覽)
         href: desktop-import-and-display-kpis.md
     - name: 建立報表
@@ -346,6 +348,8 @@ items:
     items:
     - name: Power BI Desktop 中的資料類型
       href: desktop-data-types.md
+    - name: Power BI Desktop 的公式編輯器快速鍵
+      href: desktop-formula-editor.md
     - name: Power BI Desktop 隱私權等級
       href: desktop-privacy-levels.md
     - name: Power BI 中的連接器擴充性
@@ -570,6 +574,8 @@ items:
         href: sql-server-analysis-services-tabular-data.md
       - name: Azure 和 Power BI
         href: service-azure-and-power-bi.md
+      - name: Power BI 與 Azure 輸出
+        href: service-azure-egress-power-bi.md
     - name: 資料重新整理
       items:
       - name: 設定排程的重新整理
@@ -630,19 +636,19 @@ items:
       items:
       - name: 從現有的報表建立新的報表
         href: power-bi-report-copy.md
-      - name: 在 Power BI 報表中加入頁面
+      - name: 新增報表頁面
         href: power-bi-report-add-page.md
-      - name: 將篩選加入 Power BI 報表
+      - name: 新增報表篩選
         href: power-bi-report-add-filter.md
       - name: 將報表儲存在 Power BI
         href: service-report-save.md
       - name: 從資料集建立新的報表
         href: service-report-create-new.md
-      - name: 在 Power BI 中與編輯檢視的報表互動
+      - name: 在編輯檢視中與報表互動
         href: service-interact-with-a-report-in-editing-view.md
       - name: 使用 EXCEL 分析
         href: service-analyze-in-excel.md
-      - name: 在 Power BI 服務中建立報表的秘訣和訣竅
+      - name: 建立報表的祕訣和訣竅
         href: power-bi-reports-tips-and-tricks-for-creating.md
       - name: '[分析] 窗格'
         href: service-analytics-pane.md
@@ -650,32 +656,32 @@ items:
         href: service-usage-metrics.md
       - name: 建立報表的 QR 代碼
         href: service-create-qr-code-for-report.md
-      - name: 重新排列 Power BI 報表中的頁面
+      - name: 重新排列報表的頁面
         href: service-report-reorder-pages.md
-      - name: 在 Power BI 中複製報表頁面
+      - name: 複製報表頁面
         href: power-bi-report-copy-paste-page.md
-      - name: 將報表從 Power BI 服務匯出至 Desktop (預覽)
+      - name: 從服務將報表匯出到 Power BI Desktop (預覽)
         href: service-export-to-pbix.md
-      - name: 使用 URL 中的查詢字串參數篩選報表
+      - name: 在 URL 中使用的參數篩選報表
         href: service-url-filters.md
-      - name: 在 Power BI 中建置快速且可靠報表的最佳做法
+      - name: 在 Power BI 中建置快速可靠之報表的最佳做法
         href: power-bi-reports-performance.md
-      - name: 在 Power BI 中與 ArcGIS 地圖互動
+      - name: 與 ArcGIS 地圖互動
         href: visuals/power-bi-visualizations-arcgis.md
     - name: 詢問資料相關的問題
       items:
       - name: 使用問與答來建立視覺效果及建置報表
         href: power-bi-tutorial-q-and-a.md
-      - name: 讓資料適用於 Power BI 的問與答
+      - name: 讓資料在問與答中完美運作
         href: service-prepare-data-for-q-and-a.md
       - name: 啟用適用於 Power BI 的 Cortana
         href: service-cortana-enable.md
-      - name: 建立 Power BI 問與答的精選問題
+      - name: 為問與答建立特色問題
         href: service-q-and-a-create-featured-questions.md
       - name: Power BI 中的視覺效果類型
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
-      - name: 使用 Power BI Desktop 中的語言結構描述
-        href: power-bi-q-and-a-linguistic-schema.md
+      - name: 透過即時連線使用問與答
+        href: service-q-and-a-direct-query.md
     - name: 分享您的成果
       items:
       - name: 如何共同作業及共用？
@@ -684,8 +690,6 @@ items:
         href: service-share-dashboards.md
       - name: 建立及共用應用程式
         href: service-create-distribute-apps.md
-      - name: 安裝及使用應用程式
-        href: service-install-use-apps.md
       - name: 建立應用程式工作區
         href: service-create-workspaces.md
       - name: 建立新的工作區 (預覽)
@@ -1094,8 +1098,14 @@ items:
       href: service-gateway-enterprise-manage-scheduled-refresh.md
     - name: 合併內部部署與雲端資料來源
       href: service-gateway-mashup-on-premises-cloud.md
-    - name: 使用 Kerberos 進行單一登入 (SSO)
-      href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
+    - name: 啟用單一登入 (SSO)
+      items:
+      - name: 單一登入 (SSO) - 概觀
+        href: service-gateway-sso-overview.md
+      - name: 單一登入 (SSO) - Kerberos
+        href: service-gateway-sso-kerberos.md
+      - name: 單一登入 (SSO) - SAML
+        href: service-gateway-sso-saml.md
     - name: 設定 Proxy 設定
       href: service-gateway-proxy.md
     - name: 內部部署資料閘道的高可用性叢集
@@ -1138,8 +1148,6 @@ items:
         href: service-admin-premium-multi-geo.md
       - name: Power BI Premium 常見問題集
         href: service-premium-faq.md
-      - name: Power BI Premium 版本資訊
-        href: service-premium-release-notes.md
     - name: Office 365 中的管理角色
       href: service-admin-role.md
     - name: 常見問題集 (FAQ)
@@ -1185,6 +1193,8 @@ items:
     - name: 適用於 PowerShell 的 Power BI Cmdlet
       href: https://docs.microsoft.com/en-us/powershell/power-bi/
       maintainContext: true
+    - name: 服務 URL 參考
+      href: power-bi-whitelist-urls.md
   - name: 資源
     items:
     - name: Power BI 管理與部署方法
@@ -1193,9 +1203,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Power BI for Office 365 已轉換為 Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: e91012d1336b54dee11fd3b342ac4a44fc45d979
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc509b1cd6717cc3ec38e0b8eb404dc9bb4885d3
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112237"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641980"
