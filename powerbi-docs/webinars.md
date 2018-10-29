@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 10/18/2018
 ms.author: maikelson
-ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137525"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473949"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -22,9 +22,7 @@ ms.locfileid: "37137525"
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
-沒有已排定的網路研討會。 請稍後再回來查看近期的活動。
-
->[從 Power BI 社群參與即將舉行的網路研討會](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
+>[來自 Power BI 社群，即將舉行的網路研討會](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>精選的網路研討會
 
@@ -34,21 +32,29 @@ ms.locfileid: "37137525"
 <br>由 Miguel Martinez 主持
 <br>[報名並立即觀看](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-**PowerBI.Tips 擁有者提供的 Power BI 訣竅、祕訣和工具**
-<br>由 Mike Carlo 與 Seth Bauer 主持
-<br>[立即觀看](https://www.youtube.com/watch?v=fnj1_e3HXow)
-
 **20 分鐘內了解如何瀏覽 Power BI 儀表板**
 <br>由 Miguel Martinez 主持
 <br>[報名並立即觀看](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**Microsoft 執行 Power BI – 輕鬆達成財務規劃與分析**
+<br>由 Cory Hrncirik 和 Miguel Martinez 主持
+<br>[報名並立即觀看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**將您的 Power BI 資料視覺化：核心圖表類型以及如何使用**
+<br>由 Miranda Li 主持
+<br>[報名並立即觀看](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
+**Power BI、Excel 和 Office 365：為您的企業資料進行最佳化**
+<br>由 Olaf Hubel 和 Miguel Martinez 主持
+<br>[報名並立即觀看](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
 **亮眼吸睛 – 讓視覺效果設計更臻完美的秘訣**
 <br>由 Miranda Li 主持
 <br>[報名並立即觀看](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**相得益彰：Excel 使用者透過使用 Power BI 所能獲得的 5 個好處**
-<br>由 Carlos Otero 和 Miguel Martinez 主持
-<br>[報名並立即觀看](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
+**PowerBI.Tips 擁有者提供的 Power BI 訣竅、祕訣和工具**
+<br>由 Mike Carlo 與 Seth Bauer 主持
+<br>[立即觀看](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 >[瀏覽我們的社群專家所主講的 Power BI 隨選網路研討會影片庫](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -61,6 +67,10 @@ ms.locfileid: "37137525"
 **如何設計令人驚豔的 Power BI 報表**
 <br>由 Charlie Sterling 主持
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**相得益彰：Excel 使用者透過使用 Power BI 所能獲得的 5 個好處**
+<br>由 Carlos Otero 和 Miguel Martinez 主持
+<br>[報名並立即觀看](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 **在 20 分鐘內深入了解 Power BI Embedded**
 <br>作者：Megan Asarrane 與 Colin Murphy

@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d23e168f6192629ce9dd945e29691dcf40ae1427
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 66956a38a4f2076a01cf224bbef3a20490915e9b
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565393"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473696"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Power BI 服務中的精選儀表板
 ## <a name="create-a-featured-dashboard"></a>建立精選儀表板
@@ -41,7 +41,7 @@ ms.locfileid: "46565393"
 
 
 1. 開啟您想要設為 [精選] 的儀表板。 
-2. 在上方瀏覽列中，您將會看到 [設為精選儀表板] 或只有精選圖示 ![精選圖示](./media/end-user-featured/power-bi-featured-icon.png)。 選取任一個。
+2. 在上方功能表列中，您將會看到 [設為精選儀表板] 或只有精選 ![精選圖示](./media/end-user-featured/power-bi-featured-icon.png) 圖示。 選取任一個。
    
     ![設為精選圖示](./media/end-user-featured/power-bi-set-as-featured.png)
 3. 確認您的選擇。

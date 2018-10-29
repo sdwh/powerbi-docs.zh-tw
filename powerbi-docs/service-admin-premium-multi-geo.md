@@ -1,25 +1,25 @@
 ---
 title: Power BI Premium 的多地理位置支援 (預覽版)
-description: 了解如何將內容部署到 Power BI 租用戶主區域以外區域內的資料中心。
-author: maggiesMSFT
-ms.author: maggies
+description: 了解如何將內容部署到 Power BI 租用戶主要區域以外區域內的資料中心。
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/31/2018
+ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 135217acbe6289edb73c39035f58df8babf32566
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300176"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641658"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Power BI Premium 的多地理位置支援 (預覽版)
 
-多地理位置是一項 Power BI Premium 功能，可協助跨國客戶滿足區域性、產業特有或組織的資料落地需求。 身為 Power BI Premium 客戶，您可以將內容部署到 Power BI 租用戶主區域以外區域內的資料中心。 一個地理位置可以包含多個區域。 例如，美國是一個地理位置，而美國中西部和美國中南部是美國境內的區域。 您可以選擇將內容部署到下列任何地理位置：
+多地理位置是一項 Power BI Premium 功能，可協助跨國客戶滿足區域性、產業特有或組織的資料落地需求。 身為 Power BI Premium 客戶，您可以將內容部署到 Power BI 租用戶主要區域以外區域內的資料中心。 一個地理位置可以包含多個區域。 例如，美國是一個地理位置，而美國中西部和美國中南部是美國境內的區域。 您可以選擇將內容部署到下列任何地理位置：
 
 - 美國
 - 加拿大
@@ -40,7 +40,7 @@ ms.locfileid: "43300176"
 針對新的容量，請從下拉式清單中選取預設區域以外的區域，以啟用多地理位置。  每個可用的容量都會顯示其目前所在的區域，例如**美國中西部**。
 
 ![容量大小：選取一個區域。 Power BI 多地理位置](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
-  
+
 建立容量之後，它會保留在該區域中，而所建立的任何工作區都會將其內容儲存於該區域中。 您可以透過工作區設定畫面上的下拉式清單，將工作區從某個區域遷移至另一個區域。
 
 ![編輯工作區：選擇可用的容量。 Power BI 多地理位置](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
@@ -59,7 +59,7 @@ ms.locfileid: "43300176"
 - 查詢快取
 - R 映像
 
-這些項目均保留於租用戶的主區域中：
+這些項目均保留於租用戶的主要區域中：
 
 - 推送資料集
 - Excel 活頁簿
@@ -85,18 +85,15 @@ ms.locfileid: "43300176"
 
 您可以採取下列兩種方法之一，將工作區移出多地理位置容量：
 
-- 刪除工作區所在位置目前的容量。  這會將工作區移回到主區域中的共用容量。
+- 刪除工作區所在位置目前的容量。  這會將工作區移回到主要區域中的共用容量。
 - 將個別工作區遷移回到位於主租用戶中的 Premium 容量。
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 
 - 初始資料轉送之前，請確認在區域之間開始進行的任何移動都會遵循所有公司與政府的合規性需求。
-
 - 儲存於遠端區域中的快取查詢會在該區域中保持待用狀態。 不過，傳輸過程中的其他資料可能會往返於多個地理位置之間。
-
 - 在多地理位置的環境中，將資料從某個區域移至另一個區域時，來源資料可能會在已移動資料的區域中最多保留 30 天。 在該段期間內，使用者無法存取該資料。 系統會在 30 天的期間內，將資料從這個區域中移除並加以銷毀。
-
-- 多地理位置通常不會產生較佳的效能。 載入報表與儀表板等動作，仍然會向主區域要求中繼資料。
+- 多地理位置通常不會產生較佳的效能。 載入報表與儀表板等動作，仍然會向主要區域要求中繼資料。
 
 ## <a name="next-steps"></a>後續步驟
 

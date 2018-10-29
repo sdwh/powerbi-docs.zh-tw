@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: bfc9b054f9a34757361bf4ab1803aa6904471167
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 41f48e886c376f6cc00a76313538e5a6b9ac1c3b
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380305"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641934"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -25,7 +25,7 @@ ms.locfileid: "43380305"
 ## <a name="august-2018"></a>2018 年 8 月
 - **Power BI 報表伺服器**
     - *版本 1.3.6816.37243 (組建 15.0.2.557)，發行日期：2018 年 8 月 30 日*
-        - 錯誤 (Bug) 修正
+        - Bug 修正
             - 已修正當在繫結重新導向未更新的情況下將伺服器從舊版 PBI Report Server 升級時，客戶會看到此訊息的問題：      
             *`
             Failed to load expression host assembly. Details: Could not load file or assembly 'Microsoft.ReportingServices.ProcessingObjectModel, Version=2018.7.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (rsErrorLoadingExprHostAssembly)
@@ -40,7 +40,7 @@ ms.locfileid: "43380305"
             - 自訂視覺效果將會回復為與目前伺服器 API 版本相容的舊版 (如果有的話)
 
 - **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
-    - 版本：2.61.5192.64 (2018 年 8 月)，發行日期：2018 年 8 月 15 日
+    - 版本：2.61.5192.641 (2018 年 8 月)，發行日期：2018 年 8 月 15 日
         - 包含與 Power BI 報表伺服器連接所需的變更 (2018 年 8 月)         
         
 ## <a name="march-2018"></a>2018 年 3 月

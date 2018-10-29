@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 770b2796eb8f29cadfe8371cb2baef12cec7c0e8
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0d07953fb4f9474f929c108df5b76acb61c7df7c
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909518"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435329"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>刪除 Power BI 服務中的絶大部分所有項目
 本文會教導您如何刪除 Power BI 服務中的儀表板、報告、活頁簿、資料集、應用程式、視覺效果和工作區。
@@ -129,7 +129,7 @@ ms.locfileid: "48909518"
 
    ![選取 [應用程式]](media/service-delete/power-bi-delete-app.png)
 
-   如果您不小心移除應用程式，則有數個選項可以進行復原。  您可以要求應用程式建立者重新傳送它、找到包含應用程式連結的原始電子郵件、檢查[通知中心](service-notification-center.md)以查看是否仍列出該應用程式的通知，或者檢查組織的 [AppSource](service-install-use-apps.md)。
+   如果您不小心移除應用程式，則有數個選項可以進行復原。  您可以要求應用程式建立者重新傳送該應用程式、找到包含應用程式連結的原始電子郵件、檢查[通知中心](service-notification-center.md)以查看是否仍列出該應用程式的通知，或者檢查[組織的 AppSource](consumer/end-user-apps.md)。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 本文涵蓋如何刪除 Power BI 服務的主要建置組塊。 但您在 Power BI 中還有其他可刪除的項目。  

@@ -1,6 +1,6 @@
 ---
 title: 為內部部署資料閘道進行疑難排解
-description: 本文提供您對內部部署資料閘道問題進行疑難排解的方法。 它提供已知問題可能的因應措施，以及可協助您的工具。
+description: 本文提供您對內部部署資料閘道問題進行疑難排解的方法。 其提供已知問題可能的因應措施，以及可協助您的工具。
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
-ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
+ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43151898"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49474018"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>為內部部署資料閘道進行疑難排解
 
@@ -33,13 +33,32 @@ ms.locfileid: "43151898"
 
 閘道以 Windows 服務的形式執行，因此您可以用幾種方式加以啟動及停止。 例如，您可以在閘道執行的電腦上開啟提高權限的命令提示字元，然後執行下列其中一個命令：
 
-* 若要停止服務，請執行此命令：
+* 若要停止服務，請執行這個命令：
 
     '''   net stop PBIEgwService   '''
 
-* 若要啟動服務，請執行此命令：
+* 若要啟動服務，請執行這個命令：
 
     '''   net start PBIEgwService   '''
+
+### <a name="log-file-configuration"></a>記錄檔設定
+
+閘道服務記錄檔分類為三個貯體：資訊、錯誤和網路。 此類別提供進一步的疑難排解體驗，可讓您根據錯誤或問題，專注於特定區域。 您可以從閘道器設定檔中看到下列程式碼片段中的三個類別：`GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log`。
+
+```xml
+  <system.diagnostics>
+    <trace autoflush="true" indentsize="4">
+      <listeners>
+        <remove name="Default" />
+        <add name="ApplicationFileTraceListener"
+             type="Microsoft.PowerBI.DataMovement.Pipeline.Common.Diagnostics.RotatableFilesManagerTraceListener, Microsoft.PowerBI.DataMovement.Pipeline.Common"
+             initializeData="%LOCALAPPDATA%\Microsoft\On-premises data gateway\,GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50" />
+      </listeners>
+    </trace>
+  </system.diagnostics>
+```
+
+此檔案的預設位置是：*\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config*。若要設定保留的記錄檔數目，請變更第一個數字 (在此範例中為 20)：`GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50`。
 
 ### <a name="error-failed-to-create-a-gateway-try-again"></a>錯誤：無法建立閘道。 請再試一次
 
@@ -300,7 +319,7 @@ ms.locfileid: "43151898"
 在 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 檔案中，將 `EmitQueryTraces` 值從 `False` 變更為 `True`。 根據預設，這個檔案位於 *C:\Program Files\On-premises data gateway* 。 啟用 `EmitQueryTraces` 時，就會開始記錄從閘道傳送到資料來源的查詢。
 
 > [!IMPORTANT]
-> 根據閘道的使用方式，啟用 EmitQueryTraces 可能會大幅增加記錄大小。 在您完成檢閱記錄後，可能需要將 EmitQueryTraces 設定為 False。 不建議長期啟用此設定。
+> 根據閘道的使用方式，啟用 EmitQueryTraces 可能會大幅增加記錄大小。 在您完成檢閱記錄後，可能需要將 EmitQueryTraces 設定為 False。 不建議長期啟用這項設定。
 
 ```
 <setting name="EmitQueryTraces" serializeAs="String">
@@ -344,7 +363,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
    ![其他記錄](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
-> 將 TracingVerbosity 啟用為 `5`，可能會根據閘道使用量而大幅增加記錄大小。 在您完成檢閱記錄後，需要將 TraceVerbosity 設定為 `4`。 不建議長期啟用此設定。
+> 將 TracingVerbosity 啟用為 `5`，可能會根據閘道使用量而大幅增加記錄大小。 在您完成檢閱記錄後，需要將 TraceVerbosity 設定為 `4`。 不建議長期啟用這項設定。
 
 ```
 <setting name="TracingVerbosity" serializeAs="String">

@@ -1,21 +1,21 @@
 ---
-title: Power BI 服務中的儀表板磚
-description: Power BI 中儀表板磚的所有相關資訊。 這包括從 SQL Server Reporting Services (SSRS) 建立的磚。
+title: 適用於取用者之 Power BI 服務中的儀表板圖格
+description: 適用於取用者之 Power BI 中儀表板圖格的所有相關資訊。 這包括從 SQL Server Reporting Services (SSRS) 建立的磚。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f0ff1d9a49e0566119df2c790ad618700c9a9ca3
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: f788da00d50ee7e22da82aa7e57560cfc516b0c7
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565444"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396457"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 的儀表板圖格
 儀表板和儀表板磚是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 雖然無法在 Power BI 行動裝置中建立或釘選儀表板磚，但可以進行[檢視及共用](mobile/mobile-tiles-in-the-mobile-apps.md)。 而且，在 Power BI 行動裝置中，您可以[使用 iPhone 應用程式將圖片新增至儀表板](mobile/mobile-iphone-app-get-started.md)。
@@ -23,58 +23,45 @@ ms.locfileid: "46565444"
 ## <a name="dashboard-tiles"></a>儀表板圖格
 ![Power BI 儀表板](./media/end-user-tiles/power-bi-dashboard.png)
 
-圖格是您釘選到儀表板的資料快照。 您可以從報表、資料集、儀表板、問與答方塊、Excel 和 SQL Server Reporting Services (SSRS) 及更多的地方建立圖格。  這個螢幕擷取畫面顯示許多釘選到儀表板的不同磚。
+圖格是您的資料快照，由*設計工具*釘選到儀表板。 您可以從報表、資料集、儀表板、問與答問題方塊、Excel 和 SQL Server Reporting Services (SSRS) 等來方建立圖格。  這個螢幕擷取畫面顯示許多釘選到儀表板的不同磚。
 
-除了釘選，您也可以使用[[新增磚]](../service-dashboard-add-widget.md) 直接在儀表板上建立獨立的磚。 獨立磚包括：文字方塊、影像、視訊、串流資料和 Web 內容。
+除了從報表中釘選的圖格，*設計工具*也可以使用 [新增圖格] 直接在儀表板上新增獨立圖格。 獨立磚包括：文字方塊、影像、視訊、串流資料和 Web 內容。
 
 您想要了解構成 Power BI 的建置組塊嗎？  請參閱 [Power BI - 基本概念](end-user-basic-concepts.md)。
 
-> [!NOTE]
-> 如果用來建立圖格的原始視覺效果有了變更，也不會改變圖格。  例如，如果您已從報表釘選折線圖，然後將折線圖變更為長條圖，則儀表板磚仍會顯示折線圖。 資料會重新整理，但視覺效果類型不會。
-> 
-> 
-
-## <a name="pin-a-tile-from"></a>釘選圖格，從...
-有很多不同的方式，可以將磚新增 (釘選) 至儀表板。 磚的釘選來源：
-
-* [Power BI 問與答](../service-dashboard-pin-tile-from-q-and-a.md)
-* [報表](../service-dashboard-pin-tile-from-report.md)
-* [其他儀表板](../service-pin-tile-to-another-dashboard.md)
-* [商務用 OneDrive 上的 Excel 活頁簿](../service-dashboard-pin-tile-from-excel.md)
-* [Power BI Publisher for Excel](../publisher-for-excel.md)
-* [深入資訊摘要](end-user-insights.md)
-* [SSRS](https://msdn.microsoft.com/library/mt604784.aspx)
-
-可以使用[新增磚](../service-dashboard-add-widget.md)，直接在儀表板上建立影像、文字方塊、視訊、串流資料和 Web 內容的獨立磚。
-
-  ![新增磚圖示](./media/end-user-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>與儀表板上的圖格互動
-### <a name="move-and-resize-a-tile"></a>移動和調整圖格大小
-抓取磚並[在儀表板上移動](../service-dashboard-edit-tile.md)。 將滑鼠暫留並選取控點 ![控點](./media/end-user-tiles/resize-handle.jpg) 以調整圖格大小。
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>將滑鼠暫留在圖格上以變更其外觀和行為
 1. 將滑鼠暫留在圖格上以顯示省略符號。
    
     ![磚省略符號](./media/end-user-tiles/ellipses_new.png)
-2. 選取省略符號開啟圖格的 [動作] 功能表。
+2. 選取省略符號開啟圖格的 [動作] 功能表。 根據視覺效果類型和用來建立圖格的方法，可用的選項會有所不同。 以下是您可能會看到的一些範例。
+
+    - 使用問與答建立的圖格
    
-    ![省略符號圖示](./media/end-user-tiles/power-bi-tile-menu.png)
+        ![省略符號圖示](./media/end-user-tiles/power-bi-menu1.png)
+
+    - 從活頁簿建立圖格
+   
+        ![省略符號圖示](./media/end-user-tiles/power-bi-menu2.png)
+
+    - 從報表建立圖格
+   
+        ![省略符號圖示](./media/end-user-tiles/power-bi-menu3.png)
    
     從這裡您可以：
    
    * [開啟用於建立此磚的報表](end-user-reports.md) ![報表圖示](./media/end-user-tiles/chart-icon.jpg)  
    
-   * [開啟用於建立此磚的工作表](end-user-reports.md) ![工作表圖示](./media/end-user-tiles/power-bi-open-worksheet.png)  
-     
-    * [以焦點模式檢視](end-user-focus.md) ![焦點圖示](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [匯出磚中所使用的資料](end-user-export-data.md) ![匯出資料圖示](./media/end-user-tiles/export-icon.png)
-     * [編輯標題和副標題、加入超連](../service-dashboard-edit-tile.md) ![編輯圖示](./media/end-user-tiles/pencil-icon.jpg)
+   * [開啟用於建立圖格的問與答問題](end-user-reports.md) ![問與答圖示](./media/end-user-tiles/qna-icon.png)  
+   
+
+   * [開啟用於建立此圖格的活頁簿](end-user-reports.md) ![工作表圖示](./media/end-user-tiles/power-bi-open-worksheet.png)  
+    * [以焦點模式檢視圖格](end-user-focus.md) ![焦點圖示](./media/end-user-tiles/fullscreen-icon.jpg)  
      * [執行深入解析](end-user-insights.md) ![深入解析圖示](./media/end-user-tiles/power-bi-insights.png)
-     * [將磚釘選到另一個儀表板 ](../service-pin-tile-to-another-dashboard.md)
-       ![釘選圖示](./media/end-user-tiles/pin-icon.jpg)
-     * [移除磚](../service-dashboard-edit-tile.md)
-     ![刪除圖示](./media/end-user-tiles/trash-icon.png)
+    * [新增註解並開始討論](end-user-comment.md) ![註解圖示](./media/end-user-tiles/comment-icons.png)
+
 3. 若要關閉動作功能表，選取畫布中的空白區域。
 
 ### <a name="select-click-a-tile"></a>選取 (按一下) 圖格
@@ -91,20 +78,9 @@ ms.locfileid: "46565444"
 * 至於使用 [新增磚] 直接在儀表板上建立的磚，如果您已設定自訂超連結，選取標題、子標題及/或磚即會開啟該 URL。  否則，選取針對影像、Web 程式碼或文字方塊直接在儀表板上建立的其中一個磚，預設不會執行任何動作。
 * 如果您無權使用 SSRS 內的報表，則選取從 SSRS 建立的磚時將會產生頁面，指出您沒有存取權 (rsAccessDenied)。
 * 如果您無權存取 SSRS 伺服器所在的網路，則選取從 SSRS 建立的磚時將會產生頁面，指出找不到伺服器 (HTTP 404)。 您的裝置需要報表伺服器的網路存取權，才能檢視報表。
-* 如果用來建立圖格的原始視覺效果有了變更，也不會改變圖格。  例如，您從報表釘選折線圖之後，將折線圖變更為長條圖，儀表板圖格會繼續顯示折線圖。 資料會重新整理，但視覺效果類型不會。
+* 如果用來建立圖格的原始視覺效果有了變更，也不會改變圖格。  例如，如果「設計工具」已從報表釘選折線圖，然後將折線圖變更為長條圖，則儀表板圖格仍會顯示折線圖。 資料會重新整理，但視覺效果類型不會。
 
 ## <a name="next-steps"></a>後續步驟
-[建立儀表板的卡片 (大數字圖格)](../visuals/power-bi-visualization-card.md)
-
-[Power BI 中的儀表板](end-user-dashboards.md)  
-
 [資料重新整理](../refresh-data.md)
 
 [Power BI - 基本概念](end-user-basic-concepts.md)
-
-[將磚匯出至 Power Point](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
-
-[將 Reporting Services 項目釘選至 Power BI 儀表板](https://msdn.microsoft.com/library/mt604784.aspx)
-
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

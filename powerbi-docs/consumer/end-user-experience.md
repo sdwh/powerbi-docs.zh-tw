@@ -8,19 +8,19 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/02/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112145"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473857"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入門 - 瀏覽 Power BI 服務
 
-您現在已知道 Power BI 基本概念，讓我們瀏覽 **Power BI 服務**。 如前所述，您小組中的某個人可能將所有時間都花在 **Power BI Desktop**、結合資料，以及為其他人建立報表。 但另一方面，您可能將所有時間都花在 Power BI 服務、檢視其他人所建立的內容並與之互動 (**使用**體驗)，或是取得資料並建立您自己的報表和儀表板 (**建立**體驗)。 在本快速入門中，您將會匯入範例資料，並使用該資料來了解如何使用 Power BI 服務。 
+您現在已知道 Power BI 基本概念，讓我們瀏覽 **Power BI 服務**。 如前所述，您小組中的某個人可能將所有時間都花在 **Power BI Desktop**、結合資料，以及為其他人建立報表。 但另一方面，您可能將所有時間都花在 Power BI 服務、檢視其他人所建立的內容並與其互動 (**取用**體驗)。 在本快速入門中，您將會匯入範例資料，並使用該資料來了解如何使用 Power BI 服務。 
  
 ## <a name="prerequisites"></a>先決條件
 
@@ -48,9 +48,11 @@ ms.locfileid: "49112145"
 
 
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>檢視內容 (儀表板、報表、活頁簿、資料集、工作區、應用程式)
-讓我們開始查看如何組織基本內容 (儀表板、報表、資料集、活頁簿)。 內容會顯示在工作區的內容內。 此時，您只有一個稱為 [我的工作區] 的工作區。 [我的工作區] 會儲存您所擁有的所有內容。 請將它視為您專屬內容的個人沙箱或工作區域。 您可以與同事共用 [我的工作區] 中的內容。 在 [我的工作區] 內，您的內容組織為 4 個索引標籤︰[儀表板]、[報表]、[活頁簿] 和 [資料集]。
+讓我們開始查看如何組織基本內容 (儀表板、報表、資料集、活頁簿)。 內容會顯示在工作區的內容內。 此時，您只有一個稱為 [我的工作區] 的工作區。 一般而言，取用者不需要使用任何其他工作區。 [我的工作區] 會儲存您所擁有的所有內容。 請將它視為您專屬內容的個人沙箱或工作區域。 [我的工作區] 是您剛剛下載並儲存零售分析範例的位置。 
 
-![[我的工作區] 畫面](./media/end-user-experience/power-bi-my-workspace2.png)
+在 [我的工作區] 內，您的內容組織為 4 個索引標籤︰[儀表板]、[報表]、[活頁簿] 和 [資料集]。
+
+![[我的工作區] 畫面](./media/end-user-experience/power-bi-my-workspace.png)
 
 從左側瀏覽窗格 (左側瀏覽窗格) 選取工作區，相關內容 (儀表板、報表、活頁簿、資料集) 的索引標籤便會填入右側的 Power BI 畫布。
 
@@ -58,7 +60,7 @@ ms.locfileid: "49112145"
 
 ![工作區的簡短影片](./media/end-user-experience/nav.gif)
 
-在這些索引標籤 (也稱為「內容檢視」) 內，您會看到內容的相關資訊，以及您可使用該內容採取的動作。  例如，您可以從 [儀表板] 索引標籤開啟儀表板、共用、刪除、搜尋、建立新內容、排序等等。
+在這些索引標籤 (也稱為「內容檢視」) 內，您會看到內容的相關資訊，以及您可使用該內容採取的動作。  例如，您可以從 [儀表板] 索引標籤開啟儀表板、搜尋、排序等。
 
 ![[儀表板] 索引標籤](./media/end-user-experience/power-bi-dashboard-tab.png)
 
@@ -83,7 +85,7 @@ ms.locfileid: "49112145"
    
     到目前為止，我們只有一個我的最愛。 我的最愛可以是儀表板、報表或應用程式。  
 
-1. 另一種方式是從 [儀表板] 或 [報表] 工作區索引標籤將儀表板或報表標示為我的最愛。開啟 [報表] 索引標籤，然後選取報表名稱左側的星星圖示。
+1. 另一種方式是從 [儀表板] 或 [報表] 內容檢視索引標籤將儀表板或報表標示為我的最愛。開啟 [報表] 索引標籤，然後選取報表名稱左側的星星圖示。
    
    ![標示為我的最愛](./media/end-user-experience/power-bi-report-favorite.png)
 
@@ -108,7 +110,7 @@ ms.locfileid: "49112145"
 
     從飛出視窗中，選取內容予以開啟。
 
-2. 有時，您不想要開啟最近內容，但想要檢視資訊，或採取其他動作，例如共用、執行 Insights，或匯出至 Excel。 在這些類似的情況下，從左側瀏覽窗格中選取 [最近項目] 或其圖示，以開啟 [最近項目] 窗格。 如果您有多個工作區，則這份清單會包含所有工作區中的內容。
+2. 有時，您不想要開啟最近內容，但想要檢視資訊或採取其他動作，例如檢視深入解析或匯出 Excel。 在這些類似的情況下，從左側瀏覽窗格中選取 [最近項目] 或其圖示，以開啟 [最近項目] 窗格。 如果您有多個工作區，則這份清單會包含所有工作區中的內容。
 
    ![[最近項目] 窗格](./media/end-user-experience/power-bi-recent.png)
 
@@ -119,13 +121,15 @@ ms.locfileid: "49112145"
 
 因為您只有一個範例，所以不需要搜尋和排序。  但當您擁有詳細的儀表板、報表、活頁簿和資料集清單時，會發現搜尋和排序十分有幫助。
 
-![搜尋儀表板](./media/end-user-experience/power-bi-search-sort.png)
+![搜尋報表](./media/end-user-experience/power-bi-search.png)
 
-您也可以依名稱或擁有者排序內容。  
+您也可以依名稱或擁有者排序內容。 請注意 [名稱] 右邊的向上箭號。 我們目前正在依名稱字母順序遞增排序 83 個項目。 若要變更排序順序為遞減，請選取 [名稱]。 向上箭號會變更為向下箭號。
 
-![排序內容](./media/end-user-experience/power-bi-sort.png)
+![排序內容](./media/end-user-experience/power-bi-sort-new.png)
 
-若要深入了解，請參閱 [Power BI 導覽：搜尋、排序、篩選](end-user-search-sort.md)。
+並非所有資料行都可以進行排序。 將滑鼠游標暫留在資料行標題，以探索哪些項目無法進行排序。
+
+若要深入了解，請參閱 [Power BI 導覽：搜尋和排序](end-user-search-sort.md)
 
 ## <a name="clean-up-resources"></a>清除資源
 完成此快速入門後，您可以根據需求，刪除零售分析範例儀表板、報表和資料集。
@@ -143,4 +147,4 @@ ms.locfileid: "49112145"
 ## <a name="next-steps"></a>後續步驟
 
 > [!div class="nextstepaction"]
-> [Power BI 服務中的閱讀檢視和編輯檢視](end-user-reading-view.md)
+> [Power BI 服務中的閱讀檢視](end-user-reading-view.md)

@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 08/16/2018
-ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.date: 10/01/2018
+ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908363"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641198"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -87,7 +87,7 @@ ms.locfileid: "48908363"
 
 有兩個方法可提供 Power BI 服務內報表的存取權。 如果您使用 Office 365 群組來建置 SharePoint Online 小組網站，則要將使用者列為 **Power BI 服務內的應用程式工作區**成員，及列出 **SharePoint 頁面**。 如此可確保使用者能夠檢視該群組的內容。 如需詳細資訊，請參閱[在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md)。
 
-或者您可以執行下列動作，以將您的報表存取權授與使用者。
+或者您可以遵循下列步驟，將您的報表存取權授與使用者。
 
 1. 將報表中的磚新增至儀表板。
 
@@ -108,7 +108,7 @@ ms.locfileid: "48908363"
 
 ## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
-如果您的 Power BI 環境需要您使用多重要素驗證進行登入，您可能會被要求使用安全性裝置進行登入，以驗證您的身分識別。 如果您沒有使用多重要素驗證登入 SharePoint.Online，但您的 Power BI 環境需要使用安全性裝置來驗證的帳戶，就會發生此情況。
+如果您的 Power BI 環境需要您使用多重要素驗證進行登入，您可能會受要求使用安全性裝置進行登入，以驗證您的身分識別。 如果您沒有使用多重要素驗證登入 SharePoint.Online，但您的 Power BI 環境需要使用安全性裝置來驗證的帳戶，就會發生此情況。
 
 > [!NOTE]
 > Azure Active Directory 2.0 尚不支援多重要素驗證。 使用者會收到指出「錯誤」的訊息。 如果使用者使用其安全性裝置再次登入 SharePoint Online ，則可以檢視報表。
@@ -126,7 +126,7 @@ ms.locfileid: "48908363"
 1. 您沒有存取此儀表板的權限。
 2. 報表已刪除。
 
-您應該連絡 SharePoint Online 頁面的擁有者，以協助您解決問題。
+請連絡 SharePoint Online 頁面的擁有者，以協助您解決問題。
 
 ## <a name="known-issues-and-limitations"></a>已知的問題及限制
 
@@ -148,11 +148,13 @@ ms.locfileid: "48908363"
 
 * 此 Web 組件不支援傳統的 SharePoint 伺服器。
 
+* [URL 篩選](service-url-filters.md)不受到 SPO Web 組件支援。
+
 ## <a name="next-steps"></a>後續步驟
 
 [允許或防止終端使用者建立新式網站頁面](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
 [在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md)  
 [Share a dashboard with colleagues and others](service-share-dashboards.md) (與同事和其他人共用儀表板)  
-[Power BI Premium - 這是什麼？](service-premium.md)  
+[什麼是 Power BI Premium？](service-premium.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
