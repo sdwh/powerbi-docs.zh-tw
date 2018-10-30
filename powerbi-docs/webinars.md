@@ -7,20 +7,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 10/23/2018
 ms.author: maikelson
-ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473949"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952226"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
 註冊參加我們即將舉行的即時網路研討會，或隨需觀賞我們錄製下來的會議實況。
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
+
+**Power BI：以正確方式完成分析**
+<br>由 Gohul Shanmugalingam 主持
+<br>*2018 年 11 月 8 日下午 1:00 - 下午 2:00 (美國東部標準時間)*
+
+呼叫所有分析與 Excel 愛好者：了解如何製作人們會想要使用的精美報告、分享易於了解的動人見解，以及安全地細分複雜資料以便輕鬆存取。
+
+我們將會分享新產品創新與我們對於現代化企業 BI 與自助 BI 的願景，讓您的組織能夠建置資料驅動文化。
+
+[報名以在 11 月 8 日觀看](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**使用 Power BI 強化您的資料塑模技巧**
+<br>由 Kasper de Jonge 主持
+<br>*2018 年 11 月 20 日上午 11:00 – 下午 12:00 (太平洋標準時間)*
+
+報名此網路研討會以提升您的 Power BI 塑模技巧。 了解 Power BI 記憶體內分析引擎、建立及管理資料關聯性的策略，以及如何使用資料分析運算式 (DAX) 篩選內容。 了解如何使用 Power BI 或 Azure Analysis Services 專精任何塑模技巧
+
+[報名以在 11 月 20 日觀看](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
 
 >[來自 Power BI 社群，即將舉行的網路研討會](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
