@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5b89b53cab0f7e4df07b15a05cd74c7d99b1392a
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 21a254cfc4543649cfe863830a56abe666480e63
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657981"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100859"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>內部部署資料閘道的高可用性叢集
 
@@ -90,6 +90,6 @@ PowerShell 指令碼可用於內部部署資料閘道安裝資料夾。 依預�
 -   [內部部署資料閘道 - 深入資訊](service-gateway-onprem-indepth.md)  
 -   [內部部署資料閘道 (個人模式)](service-gateway-personal-mode.md)
 -   [設定內部部署資料閘道的 Proxy 設定](service-gateway-proxy.md)  
--   [使用 Kerberos 以從 Power BI 單一登入 (SSO) 到內部部署資料來源](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
+-   [使用 Kerberos 以從 Power BI 單一登入 (SSO) 到內部部署資料來源](service-gateway-sso-kerberos.md)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

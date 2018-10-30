@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38921499"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101500"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解內部部署資料閘道
 您組織中的使用者可以存取內部部署資料 (他們已經具有存取授權)，但在那些使用者能夠連線至您的內部部署資料來源之前，必須先安裝並設定內部部署資料閘道。 此閘道有助於讓雲端的使用者快速安全地以幕後通訊方式，在內部部署資料來源和雲端之間往返。
@@ -52,7 +52,7 @@ Analysis Services 也可以提供根據此帳戶進行篩選。 可以根據角�
 在模型中實作角色和動態資料列層級安全性已超出本文的範圍。  若要深入了解，您可以前往 MSDN 上的[角色 (SSAS 表格式)](https://msdn.microsoft.com/library/hh213165.aspx) 和[安全性角色 (Analysis Services - 多維度資料)](https://msdn.microsoft.com/library/ms174840.aspx)。 此外，為了徹底了解表格式模型安全性，請下載並閱讀保護[表格式 BI 語意模型技術白皮書](https://msdn.microsoft.com/library/jj127437.aspx)。
 
 ## <a name="what-about-azure-active-directory"></a>Azure Active Directory 的情況為何？
-Microsoft 雲端服務會使用 [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/) 來負責驗證使用者。 Azure Active Directory 是包含使用者名稱和安全性群組的租用戶。 一般而言，使用者登入時使用的電子郵件地址與帳戶的 UPN 相同。
+Microsoft 雲端服務會使用 [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) 來負責驗證使用者。 Azure Active Directory 是包含使用者名稱和安全性群組的租用戶。 一般而言，使用者登入時使用的電子郵件地址與帳戶的 UPN 相同。
 
 我的本機 Active Directory 角色是什麼？
 
@@ -78,7 +78,7 @@ Power BI 可讓您對應 Analysis Services 資料來源的使用者名稱。 您
 1. 您可以手動將帳戶加入 Azure Active Directory。
    
    您可以在 Azure 網站或 Office 365 管理入口網站上建立帳戶，帳戶名稱必須符合本機 Active Directory 帳戶的 UPN。
-2. 您可以使用 [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) 工具，將本機帳戶同步處理至您的 Azure Active Directory 租用戶。
+2. 您可以使用 [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) 工具，將本機帳戶同步處理至您的 Azure Active Directory 租用戶。
    
    Azure AD Connect 工具提供了目錄同步處理和設定驗證的選項，包括密碼雜湊同步處理、傳遞驗證和同盟。 如果您不是租用戶管理員或本機網域系統管理員，您必須連絡您的 IT 管理員來進行這項設定。
 
@@ -90,7 +90,7 @@ Power BI 可讓您對應 Analysis Services 資料來源的使用者名稱。 您
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>這就是閘道器現在的運作方式
-閘道可作為雲端和內部部署伺服器之間的橋接器。 雲端和閘道之間的資料傳輸會透過 [Azure 服務匯流排](https://azure.microsoft.com/documentation/services/service-bus/)加以保護。 此服務匯流排會透過閘道上的輸出連線，建立雲端與內部部署伺服器之間的安全通道。  您不需要在內部部署防火牆上開啟任何輸入的連線。
+閘道可作為雲端和內部部署伺服器之間的橋接器。 雲端和閘道之間的資料傳輸會透過 [Azure 服務匯流排](/azure/service-bus-messaging/service-bus-messaging-overview)加以保護。 此服務匯流排會透過閘道上的輸出連線，建立雲端與內部部署伺服器之間的安全通道。  您不需要在內部部署防火牆上開啟任何輸入的連線。
 
 如果您有 Analysis Services 資料來源，則需要在與 Analysis Services 伺服器加入同一個樹系/網域的電腦上安裝閘道器。
 
@@ -116,8 +116,10 @@ Power BI 可讓您對應 Analysis Services 資料來源的使用者名稱。 您
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>後續步驟
+
 [為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)  
-[Azure 服務匯流排](https://azure.microsoft.com/documentation/services/service-bus/)  
-[Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
+[Azure 服務匯流排](/azure/service-bus-messaging/service-bus-messaging-overview/)  
+[Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis/)  
+
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

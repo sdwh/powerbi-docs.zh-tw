@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474018"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101638"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>為內部部署資料閘道進行疑難排解
 
@@ -446,7 +446,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 
 ## <a name="kerberos"></a>Kerberos
 
-如果未針對 [Kerberos 限制委派](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)正確設定基礎資料庫伺服器和內部部署資料閘道，請啟用閘道上的[詳細資訊記錄](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig)，並根據閘道記錄檔中的錯誤/追蹤進行調查以作為疑難排解的起點。
+如果未針對 [Kerberos 限制委派](service-gateway-sso-kerberos.md)正確設定基礎資料庫伺服器和內部部署資料閘道，請啟用閘道上的[詳細資訊記錄](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig)，並根據閘道記錄檔中的錯誤/追蹤進行調查以作為疑難排解的起點。
 
 ### <a name="impersonationlevel"></a>ImpersonationLevel
 

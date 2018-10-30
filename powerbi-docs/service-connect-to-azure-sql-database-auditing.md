@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f0c98d88ad9b87e57cf8f1cf7c36a58e30b684ea
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ce1769d343f5a5923b1a436a2cc0c97428f74152
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545352"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101127"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>適用於 Power BI 的 SQL Database 稽核內容套件
-Power BI 的 Azure [SQL Database 稽核](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/)內容套件可協助您了解資料庫活動，以及獲取可能指出業務疑慮或可疑安全性違規之差異及異常的深入資訊。 
+Power BI 的 Azure [SQL Database 稽核](/azure/sql-database/sql-database-auditing/)內容套件可協助您了解資料庫活動，以及獲取可能指出業務疑慮或可疑安全性違規之差異及異常的深入資訊。 
 
 連接到 Power BI 的 [SQL Database 稽核內容套件](https://app.powerbi.com/getdata/services/sql-db-auditing)。
 

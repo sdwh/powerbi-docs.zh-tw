@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2536ea34cadae5f348e619d713420787db4c467a
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 75e760c1ad808d05986de46cf2bc427bb078e3ce
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799038"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101270"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>透過內部部署資料閘道使用自訂資料連接器
 
@@ -56,6 +56,6 @@ ms.locfileid: "48799038"
 * [內部部署資料閘道 - 深入資訊](service-gateway-onprem-indepth.md)  
 * [內部部署資料閘道 (個人模式)](service-gateway-personal-mode.md)
 * [設定內部部署資料閘道的 Proxy 設定](service-gateway-proxy.md)  
-* [使用 Kerberos 以從 Power BI 單一登入 (SSO) 到內部部署資料來源](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
+* [使用 Kerberos 以從 Power BI 單一登入 (SSO) 到內部部署資料來源](service-gateway-sso-kerberos.md)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
