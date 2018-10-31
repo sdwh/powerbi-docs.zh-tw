@@ -1,5 +1,5 @@
 ---
-title: Power BI 儀表板是什麼？
+title: 對 Power BI 服務取用者來說，什麼是儀表板？
 description: 儀表板是 Power BI 服務的重要功能。
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7db5bf514b567cbcaf9dddc5d48006762237a622
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 840f302b1df31736d7fcd1c0766c34963a2f6738
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909122"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473900"
 ---
-# <a name="dashboards-in-power-bi-service"></a>Power BI 服務中的儀表板
+# <a name="dashboards-for-power-bi-service-consumers"></a>Power BI 服務取用者的儀表板
 
 Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常稱為畫布。 因為受限於一張頁面，所以設計良好的儀表板只包含故事最重要的項目。
 

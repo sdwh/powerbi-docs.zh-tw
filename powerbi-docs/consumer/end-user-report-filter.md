@@ -1,21 +1,21 @@
 ---
-title: 適用於取用者的 Power BI 篩選窗格概觀
-description: Power BI 服務中報表篩選窗格的概觀
+title: 新增報表篩選
+description: 如何在 Power BI 服務中，為取用者將篩選條件新增至報表
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c49e075bd7fbe2debb0b577a1ce2771491d5fac4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908271"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473799"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>報表 [篩選] 窗格概觀
 本文深入探討 Power BI 服務中的報表 [篩選] 窗格。
@@ -29,7 +29,7 @@ ms.locfileid: "48908271"
 
 ![在瀏覽器中開啟報表](media/end-user-report-filter/power-bi-expanded.png)
 
-[篩選] 窗格包含已由報表「設計師」新增到報表的篩選。 與您相同的「取用者」可以和篩選互動並儲存變更，但無法將新的篩選新增至報表。
+[篩選] 窗格包含已由報表「設計師」新增到報表的篩選。 與您相同的「取用者」可以和篩選互動並儲存變更，但無法將新的篩選新增至報表。 例如，在上面的螢幕擷取畫面中，設計師新增了兩個頁面層級篩選：「區段」與「年」。 您可以互動和變更這些篩選條件，但您無法新增第三個頁面層級篩選。
 
 在 Power BI 服務中，報表會保留您在 [篩選] 窗格中所做的任何變更，而這些變更會傳送至行動版的報表。 若要將 [篩選] 窗格重設為設計師預設值，請從頂端功能表列選取 [重設為預設值]。     
 
@@ -40,11 +40,15 @@ ms.locfileid: "48908271"
 
 ![篩選清單](media/end-user-report-filter/power-bi-filter-list.png)
 
-有些篩選旁邊有 **All** 字組，這表示所有值作為一個篩選。  例如，下方螢幕擷取畫面中的 [Chain(All)] 表示此報表頁面包含所有連鎖店的相關資料。  相反地，[FiscalYear is 2013 or 2014] 的報表層級篩選表示報表只包含會計年度 2013 年及 2014 年的資料。
+有些篩選旁邊有 **All** 字組，這表示所有值作為一個篩選。  例如，上方螢幕擷取畫面中的 [Chain(All)] 表示此報表頁面包含所有連鎖店的相關資料。  相反地，[FiscalYear is 2013 or 2014] 的報表層級篩選表示報表只包含會計年度 2013 年及 2014 年的資料。
 
 檢視此報表的任何人都可以使用這些篩選器互動。
 
-* 暫留然後選取篩選旁邊的箭號，即可檢視篩選的詳細資料。
+- 在頁面、視覺效果、報表和鑽研篩選條件中搜尋，尋找和選取您想要的值。 
+
+    ![在篩選條件中搜尋](media/end-user-report-filter/power-bi-filter-search.png)
+
+- 暫留然後選取篩選旁邊的箭號，即可檢視篩選的詳細資料。
   
    ![顯示已選取 Lindseys](media/end-user-report-filter/power-bi-expan-filter.png)
 * 變更篩選，例如將 [Lindseys] 變更為 [Fashions Direct]。
@@ -56,9 +60,11 @@ ms.locfileid: "48908271"
     
 * 選取篩選名稱旁邊的 **x** 即可刪除篩選。
   
+    ![已醒目提示 x](media/end-user-report-filter/power-bi-delete-filter.png)
+
   刪除篩選會將其從清單移除，但不會從報表刪除資料。  例如，如果您刪除 [FiscalYear is 2013 or 2014] 篩選，會計年度資料仍會留在報表中，但不會再篩選為僅顯示 2013 年及 2014 年；將顯示資料包含的所有會計年度。  不過，刪除篩選後即無法再加以修改，因為其已從清單移除。 清除篩選是較佳的選項，其方法是選取橡皮擦圖示 ![橡皮擦圖示](media/end-user-report-filter/power-bi-eraser-icon.png)。
   
-  ![已醒目提示 x](media/end-user-report-filter/power-bi-delete-filter.png)
+  
 
 
 
@@ -70,14 +76,14 @@ ms.locfileid: "48908271"
 ### <a name="list-mode"></a>清單模式
 勾選核取方塊可以選取或取消選取值。 [所有]  核取方塊可以用來開啟或關閉所有核取方塊的切換狀態。 核取方塊代表該欄位所有可用的值。  當您調整篩選之後，會更新重新計算陳述式以反映您的選擇。 
 
-![清單模式篩選](media/end-user-report-filter/pbi_restatement.png)
+![清單模式篩選](media/end-user-report-filter/power-bi-restatement-new.png)
 
-請注意現在的重新計算陳述式寫著 "is Amarilla or Carretera"
+請注意，現在的重新計算陳述式寫著 "is Mar, Apr or May"。
 
 ### <a name="advanced-mode"></a>進階模式
 選取 [進階篩選]  以切換到進階模式。 使用下拉式清單控制項和文字方塊，來識別要包含哪些欄位。 您可以選擇 [And] 和 [Or]，建立複雜的篩選運算式。 當您已設定想要的值之後，請選取 [套用篩選]  按鈕。  
 
-![進階模式](media/end-user-report-filter/aboutfilters.png)
+![進階模式](media/end-user-report-filter/power-bi-advanced.png)
 
 ## <a name="types-of-filters-numeric-field-filters"></a>篩選類型：數值欄位篩選
 ### <a name="list-mode"></a>清單模式
@@ -86,7 +92,7 @@ ms.locfileid: "48908271"
 ### <a name="advanced-mode"></a>進階模式
 如果值為無限或代表某種範圍，則選取欄位名稱之後會開啟進階篩選模式。 使用下拉式清單和文字方塊來指定您想要查看值的範圍。 
 
-![進階篩選](media/end-user-report-filter/pbi_dropdown-and-text.png)
+![進階篩選](media/end-user-report-filter/power-bi-dropdown-and-text.png)
 
 您可以選擇 [And] 和 [Or]，建立複雜的篩選運算式。 當您已設定想要的值之後，請選取 [套用篩選]  按鈕。
 

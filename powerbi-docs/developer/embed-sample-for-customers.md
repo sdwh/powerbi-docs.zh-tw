@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 06/20/2018
-ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: d3076090b06cdb60b72c475fd156cc274985ea32
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827425"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435480"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>教學課程：為您的客戶將 Power BI 報表、儀表板或磚內嵌至應用程式
 
@@ -36,7 +36,7 @@ ms.locfileid: "48827425"
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>設定您的內嵌分析開發環境
 
-在您開始將報表、儀表板或磚內嵌至您的應用程式之前，必須先確定已將環境設定成允許內嵌。 在安裝時，您必須執行下列作業。
+在您開始將報表、儀表板或磚內嵌至您的應用程式之前，必須先確定您的環境允許使用 Power BI 內嵌。
 
 您可以瀏覽[內嵌設定工具](https://aka.ms/embedsetup/AppOwnsData)來快速開始使用及下載範例應用程式，協助您逐步建立環境及內嵌報表。
 
@@ -44,7 +44,7 @@ ms.locfileid: "48827425"
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>在 Azure Active Directory (Azure AD) 中註冊應用程式
 
-請向 Azure Active Directory 註冊您的應用程式，以允許該應用程式存取 Power BI REST API。 這可讓您為應用程式建立身分識別，並指定對 Power BI REST 資源的權限。
+請向 Azure Active Directory 註冊您的應用程式，以允許該應用程式存取 Power BI REST API。 註冊您的應用程式可讓您為應用程式建立身分識別，並指定對 Power BI REST 資源的權限。
 
 1. 接受 [Microsoft Power BI API 條款](https://powerbi.microsoft.com/api-terms)。
 
@@ -52,7 +52,7 @@ ms.locfileid: "48827425"
 
     ![Azure 入口網站主畫面](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-3. 在左側功能窗格中，選擇 [所有服務]，選取 [應用程式註冊]，然後選取 [新增應用程式註冊]。
+3. 在左側功能窗格中，選取 [所有服務]，選取 [應用程式註冊]，然後選取 [新增應用程式註冊]。
 
     ![應用程式註冊搜尋](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![新增應用程式註冊](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
@@ -63,7 +63,7 @@ ms.locfileid: "48827425"
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>在 Azure Active Directory 內將權限套用至應用程式
 
-除了應用程式註冊頁面上所提供的權限之外，您還需要為應用程式啟用額外的權限。 您必須以用於內嵌的「主」帳戶登入，這必須是一個全域管理員帳戶。
+除了應用程式註冊頁面上所提供的權限之外，為應用程式啟用其他的權限。 使用您用來內嵌的「主」帳戶登入。 主帳戶必須為全域系統管理員帳戶。
 
 ### <a name="use-the-azure-active-directory-portal"></a>使用 Azure Active Directory 入口網站
 
@@ -91,7 +91,7 @@ ms.locfileid: "48827425"
 
     ![選取 PBI 服務](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
-7. 選取 [委派的權限] 下方的所有權限。 您必須逐一選取它們，才能儲存選取項目。 完成時，請選取 [儲存]。
+7. 選取 [委派的權限] 下方的所有權限。 完成時，請選取 [儲存]。
 
     ![選取委派的權限](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
@@ -107,11 +107,11 @@ ms.locfileid: "48827425"
 
 如果您要為客戶內嵌報表、儀表板或圖格，就必須將您的內容放在應用程式工作區內。 「主」帳戶必須是應用程式工作區的管理員。
 
-1. 開始建立工作區。 選取 [工作區] > [建立應用程式工作區]。 這是放置應用程式所需存取內容的位置。
+1. 開始建立工作區。 選取 [工作區] > [建立應用程式工作區]。 在 [建立應用程式工作區] 中，放置應用程式所需存取的內容。
 
     ![建立工作區](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
 
-2. 提供工作區的名稱。 如果對應的 [工作區識別碼] 無法使用，請編輯它，使其具有唯一識別碼。 這也需要成為應用程式的名稱。
+2. 提供工作區的名稱。 如果對應的 [工作區識別碼] 無法使用，請編輯它，使其具有唯一識別碼。
 
     ![為工作區命名](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
 
@@ -161,31 +161,31 @@ ms.locfileid: "48827425"
 
     ![「應用程式擁有資料」應用程式範例](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. 開啟範例應用程式中的 Web.config 檔案。 您需要填入 5 個欄位，才能成功執行應用程式。 **clientId**、**groupId**、**reportId**、**pbiUsername** 和 **pbiPassword**。
+2. 開啟範例應用程式中的 Web.config 檔案。 您需要填入五個欄位，才能成功執行應用程式。 **applicationId**、**workspaceId****reportId****pbiUsername**以及 **pbiPassword**。
 
     ![Web 組態檔](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    在 **clientId** 資訊中，填入來自 **Azure** 的「應用程式識別碼」。 應用程式會使用 **clientId** 來向您要求權限的使用者表明其身分。 若要取得 **clientId**，請遵循下列步驟：
+    使用從 **Azure** 取得的**應用程式識別碼**填入 **applicationId** 資訊。 應用程式會使用 **applicationId** 來向您要求權限的使用者表明其身分。 若要取得 **applicationId**，請遵循下列步驟：
 
     登入[Azure 入口網站](https://portal.azure.com)。
 
     ![Azure 入口網站主畫面](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-    在左邊的瀏覽窗格中，選擇 [所有服務]，然後選取 [應用程式註冊]。
+    在左側的功能窗格中，選取 [所有服務] 及 [應用程式註冊]。
 
     ![應用程式註冊搜尋](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    選取您想要取得其 **clientId** 的應用程式。
+    選取您想要取得其 **applicationId** 的應用程式。
 
     ![選擇應用程式](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    您應該會看到以 GUID 形式列出的「應用程式識別碼」。 請使用此「應用程式識別碼」作為應用程式的 **clientId**。
+    您應該會看到以 GUID 形式列出的「應用程式識別碼」。 請使用此**應用程式識別碼**作為應用程式的 **applicationId**。
 
-    ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    在 **groupId** 資訊中，填入來自 Power BI 的「應用程式工作區 GUID」。
+    在 **workspaceId** 資訊中，填入來自 Power BI 的**應用程式工作區 GUID**。
 
-    ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+    ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
     在 **reportId** 資訊中，填入來自 Power BI 的「報表 GUID」。
 
@@ -214,7 +214,7 @@ ms.locfileid: "48827425"
 
 在應用程式中為您的客戶內嵌項目，需要從 **Azure AD** 取得您主要帳戶的**存取權杖**。 需要先使用**應用程式擁有資料**，為您的 Power BI 應用程式取得 [Azure AD 存取權杖](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，才可呼叫 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
 
-為了使用**存取權杖**建立 Power BI 用戶端，您想要建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 互動。 你可以將 **AccessToken** 與 ***Microsoft.Rest.TokenCredentials*** 物件包裝在一起以完成這項作業。
+為了使用**存取權杖**建立 Power BI 用戶端，您可以建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 互動。 你可以將 **AccessToken** 與 ***Microsoft.Rest.TokenCredentials*** 物件包裝在一起以完成這項作業。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -242,8 +242,8 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
 
 // Get the first report in the group.
 Report report = reports.Value.FirstOrDefault();
@@ -263,7 +263,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -339,12 +339,12 @@ var embedConfig = new EmbedConfig()
 
 | 節點容量 | 核心總數<br/>(後端 + 前端) | 後端核心 | 前端核心 | DirectQuery/即時連線限制 | 尖峰時間的頁面呈現上限 |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 個虛擬核心 |.5 個核心，3GB RAM |.5 個核心 | 每秒 5 個 |1-300 |
-| A2 |2 個虛擬核心 |1 個核心，5GB RAM |1 個核心 | 每秒 10 個 |301-600 |
-| A3 |4 個虛擬核心 |2 個核心，10GB RAM |2 個核心 | 每秒 15 個 |601-1,200 |
-| A4 |8 個虛擬核心 |4 個核心，25GB RAM |4 個核心 |每秒 30 個 |1,201-2,400 |
-| A5 |16 個虛擬核心 |8 個核心，50GB RAM |8 個核心 |每秒 60 個 |2,401-4,800 |
-| A6 |32 個虛擬核心 |16 個核心，100GB RAM |16 個核心 |每秒 120 個 |4,801-9600 |
+| A1 |1 個虛擬核心 |0.5 個核心，3-GB 的 RAM |0.5 個核心 |每秒 0.5 |1-300 |
+| A2 |2 個虛擬核心 |1 個核心，5-GB 的 RAM |1 個核心 | 每秒 10 個 |301-600 |
+| A3 |4 個虛擬核心 |2 個核心，10-GB 的 RAM |2 個核心 | 每秒 15 個 |601-1,200 |
+| A4 |8 個虛擬核心 |4 個核心，25-GB 的 RAM |4 個核心 |每秒 30 個 |1,201-2,400 |
+| A5 |16 個虛擬核心 |8 個核心，50-GB 的 RAM |8 個核心 |每秒 60 個 |2,401-4,800 |
+| A6 |32 個虛擬核心 |16 個核心，100-GB 的 RAM |16 個核心 |每秒 120 個 |4,801-9600 |
 
 **_在 A SKU 中，您無法使用免費的 Power BI 授權存取 Power BI 內容。_**
 

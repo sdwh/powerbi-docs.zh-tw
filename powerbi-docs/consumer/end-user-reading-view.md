@@ -1,94 +1,199 @@
 ---
-title: Power BI 服務中的報告閱讀檢視和編輯檢視
-description: Power BI 服務報告的閱讀檢視和編輯檢視之間差異的高階概觀
+title: Power BI 服務中的 Power BI 取用者功能
+description: 在此快速入門中，**取用者**將了解如何使用 Power BI 服務。
+services: powerbi
+documentationcenter: ''
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
 ms.service: powerbi
-ms.component: powerbi-service
-ms.topic: conceptual
-ms.date: 10/02/2018
+ms.topic: quickstart
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 10/17/2018
 ms.author: mihart
-LocalizationGroup: Reports
-ms.openlocfilehash: f108ab3c924f6ff69bc6ee6aae5ed0539ce3f11d
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 1da43fb6bc0604cfa356f19aa212256612350c65
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908065"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396512"
 ---
-# <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Power BI 服務報告中的閱讀檢視和編輯檢視
-在 Power BI 服務 (而非 Power BI Desktop) 中，有兩種模式可與報告互動：閱讀檢視和編輯檢視。 [閱讀檢視] 適用於所有使用者，特別是針對資料「取用者」而設計，[編輯檢視] 則僅適用於報表「建立者」和擁有者。
+<!-- once the sample aps are live, change this so consumers can follow along -->
+# <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>快速入門：了解適用於***取用者***的 Power BI 功能
+在此快速入門中，您會了解如何與 Power BI 互動，探索資料驅動商務見解。 本文不適合用於深入了解，而是快速探索 Power BI **取用者**可用的許多動作。
 
-![報表建立者與報表取用者的作品](./media/end-user-reading-view/power-bi-creators-consumers.png)
+如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
 
-## <a name="report-reading-view"></a>報表閱讀檢視
+## <a name="prerequisites"></a>先決條件
+- Power BI 服務 (app.powerbi.com) <!-- app from AppSource -->
 
- [閱讀檢視] 是您瀏覽和與報表互動的方式，它很有趣且安全，可以操作及了解您的資料。 [閱讀檢視] 的設計對象包括報表「取用者」亦即從應用程式開啟報表的人，或[與他們共用](../service-share-dashboards.md)報表的人。 [閱讀檢視] 可確保特定報表的每一位取用者會看到相同的報表、相同的視覺效果，並選擇性地套用相同的篩選。  取用者可與報表互動、可變更現有的篩選 (這些變更會與報表一起儲存)，但無法新增篩選。
+## <a name="reading-view"></a>閱讀檢視
+閱讀檢視可讓報表取用者在 Power BI 服務中使用。 當同事與您共用報表時，閱讀檢視是您探索和與報表互動的方式。 
 
-> [!NOTE]
-> 在某些情況下，報表取用者可能會因為資料列層級安全性和資料權限而看到不同的資料。
+另一項 Power BI 服務報表模式為[編輯檢視](../service-interact-with-a-report-in-editing-view.md)，可供報表設計師使用。  
 
-## <a name="report-editing-view"></a>報表編輯檢視
+探索儀表板與報表最有效及最安全的方法，就是閱讀檢視。 當您切割與您共用的儀表板和報表時，基礎資料集仍會保留完整而不會受到任何變更。 
 
-編輯檢視僅適用於建立報表的人員，或[以應用程式工作區的成員或管理員身分共同擁有報表](../service-create-distribute-apps.md)的人員。
+在閱讀檢視中，您可以在頁面上執行像是交叉醒目提示和交叉篩選視覺效果等動作。  只要反白顯示或選取一個視覺效果中的值，就能立即看到其對其他視覺效果的影響。 使用 [篩選] 窗格可在報表頁面上加入及修改篩選，並變更在視覺效果中排序值的方式。 這些僅是 Power BI 中取用者功能的一小部分。  繼續閱讀以深入了解更多。
 
-編輯檢視的設計對象是報表「建立者」。 這是建立者匯入和連線到資料集、瀏覽資料，以及建置報表和儀表板的位置。 在 [編輯檢視] 中，「建立者」可以透過新增和移除欄位、變更視覺效果類型、建立新的視覺效果以及新增和刪除報表的視覺效果和頁面，更深入探討資料。 然後，他們可以與同事共用他們建立的報表。
+ 
+### <a name="view-an-app"></a>檢視應用程式
+Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處。
 
-## <a name="reading-view-versus-editing-view"></a>閱讀檢視與編輯檢視
-此圖表不會列出 Power BI 服務的所有報表功能！ 它只會列出無法在 [閱讀檢視] 和 [編輯檢視] **兩者**中都提供的報表工作。
+1. 選取 [應用程式] ![在左側功能窗格中的應用程式](./media/end-user-apps/power-bi-apps-bar.png) > [取得應用程式]。 
+   
+     ![取得應用程式圖示](./media/end-user-reading-view/power-bi-get-app.png)
+2. 在 AppSource 的 [我的組織] 下方，您可以進行搜尋以縮小結果範圍，並找到您在尋找的應用程式。
+   
+     ![在 AppSource 的 [我的組織] 下](./media/end-user-reading-view/power-bi-appsource.png)
+3. 選取 [立即取得]，將它新增至 [應用程式] 容器。 
 
+### <a name="view-a-dashboard"></a>檢視儀表板
+此應用程式會開啟儀表板。 Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常稱為畫布。 因為受限於一張頁面，所以設計良好的儀表板只包含故事最重要的項目。
 
-|工作  | 閱讀檢視  | 編輯檢視 |
-|-------------------------|-------|-------|
-|**完整報表**  |
-| [建立或編輯報表](../service-report-create-new.md) | 否  | 是 |
-| [共用報表](../service-share-reports.md)| 是 | 是，也可以管理權限，包括提供其他人「擁有者」權限。 |
-| [從 [篩選] 窗格建立持續性 (永久) 的視覺效果層級、鑽研、頁面層級和報表層級的篩選](../power-bi-report-add-filter.md) | 否  | 是 |
-| [使用報表 [篩選] 窗格](end-user-report-filter.md) | 是，可使用現有的篩選且變更可與報表一起儲存，但無法新增篩選。 | 是 |
-| [使用報表 [分析] 窗格](../service-analytics-pane.md) | 否 | 是 |
-| [報表**檢視**選項](../power-bi-report-display-settings.md) | 是，但有些例外狀況。 | 是，所有項目，包括格線、貼齊，以及鎖定。 |
-| [建立重新整理排程](../refresh-data.md) | 否  | 是 |
-| [訂閱報表](end-user-subscribe.md) | 是 | 否 |
-| [問與答 - 在報表中詢問問題](end-user-q-and-a.md) | 否  | 是 |
-| [檢視使用計量](../service-usage-metrics.md) | 是，在報表畫布上。 | 是，在報表清單中 (內容檢視) |
-| [檢視相關項目](end-user-related.md) | 是，在報表畫布上。 | 是，在報表清單中 (內容檢視) |
-| [儲存報表](../service-report-save.md) | 是，但只使用 [另存新檔]。 | 是 |
-| [刪除報表](../service-delete.md) | 否  | 是 |
-|**報表頁面** |
-| [新增或重新命名報表頁面](../power-bi-report-add-page.md)  | 否  | 是  |
-| [複製報表頁面](../power-bi-report-copy-paste-page.md) | 否  | 是 |
-| [刪除報表頁面](../service-delete.md) | 不可以 | 可以 |
-|**使用報表視覺效果**|
-| [將視覺效果新增至報表](../visuals/power-bi-report-add-visualizations-i.md) | 否  | 是 |
-| [在報表中新增文字方塊和圖形](../power-bi-reports-add-text-and-shapes.md) | 否  | 是 |
-| [使用報表 [格式] 窗格](../service-the-report-editor-take-a-tour.md) | 否 | 是 |
-| [設定視覺效果的互動方式](end-user-interactions.md) | 否  | 是 |
-| [顯示用來建立視覺效果的資料](end-user-show-data.md) | 否  | 是 |
-| [設定鑽研](end-user-drill.md) | 否  | 是 |
-| [變更所使用的視覺效果](../visuals/power-bi-report-change-visualization-type.md) | 否 | 是|
-| [刪除視覺效果、文字方塊或圖形](../service-delete.md)| 否 | 是 |
+![儀表板](media/end-user-reading-view/power-bi-dashboard.png)
+
+您在儀表板上看到的視覺效果稱為「磚」，從報表「釘選」在儀表板上。
+
+### <a name="subscribe-to-a-dashboard-or-report"></a>訂閱儀表板 (或報表)
+您無須開啟 Power BI 也能監視儀表板。  您可以改為訂閱，使 Power BI 根據您設定的排程透過電子郵件寄送該儀表板的快照集給您。 
+
+![選取訂閱圖示](./media/end-user-subscribe/power-bi-subscribe-orientation.png).
 
 
-## <a name="navigating-between-editing-view-and-reading-view"></a>在編輯檢視與閱讀檢視之間巡覽
-請記住，只有報表建立者和擁有者能夠在 [編輯檢視] 中開啟報表。
+1. 從頂端功能表列，選取 [訂閱] 或選取信封圖示![訂閱圖示](./media/end-user-subscribe/power-bi-icon-envelope.png)。
+   
+   ![訂閱圖示](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-1. 根據預設，報告通常會在 [閱讀檢視] 中開啟。 如果您看到 [編輯報告] 的選項，您可以表明您處於 [閱讀檢視] 中。 如果 [編輯報告] 呈現灰色，您就沒有在 [編輯檢視] 中開啟報告的權限。
+3. 使用黃色的滑桿開啟和關閉訂閱。  您可以選擇性地新增電子郵件訊息的詳細資料。 
 
-   ![編輯報表呈現灰色](./media/end-user-reading-view/power-bi-edit-report-grey.png)
+    在下方的螢幕擷取畫面中，您可以注意到當您在訂閱報表時，實際上是在訂閱報表「頁面」。  若要訂閱報表中的多個頁面，請選取 [新增另一個訂閱] 再選取其他頁面。 
+      
+   ![訂閱視窗](./media/end-user-subscribe/power-bi-emails.png)
+   
+    重新整理報表頁面不會重新整理資料集。 只有資料集擁有者可以手動重新整理資料集。 若要查看基礎資料集的名稱，請從頂端功能表列選取 [檢視相關項目]。
 
-2. 如果 [編輯報告] 未呈現灰色，加以選取即可在 [編輯檢視] 中開啟報告。
+### <a name="view-related-content"></a>檢視相關內容
+[相關內容] 窗格會顯示您的 Power BI 服務內容 (儀表板、報表及資料集) 如何互連。 該窗格不僅顯示相關內容，還能讓您對內容採取動作，並在相關內容之間輕鬆瀏覽。
 
-   ![編輯報表選項](./media/end-user-reading-view/power-bi-edit-report.png)
+從儀表板或報表中，從頂端功能表列選取 [檢視相關項目]。
 
-   報表目前處於 [編輯檢視] 中，使用的是您上次在 [閱讀檢視] 中使用的[顯示設定](../power-bi-report-display-settings.md)。
+![相關內容](./media/end-user-reading-view/power-bi-view-related-dashboard.png)
 
-2. 若要返回 [閱讀檢視]，請從上方導覽列中選取 [閱讀檢視]。
+### <a name="use-qa-to-ask-questions-using-natural-language"></a>利用問與答，使用自然語言詢問問題
+有時若要從您的資料獲得解答，最快的方法是使用自然語言詢問問題。 問與答問題方塊位於儀表板頂端。 例如：「依照銷售階段，將大型商機計數以漏斗圖顯示。」 
 
-    ![[閱讀檢視] 選項](./media/end-user-reading-view/power-bi-reading-view.png)
+![問與答](./media/end-user-reading-view/power-bi-qna.png)
+
+### <a name="favorite-a-dashboard"></a>將儀表板設為我的最愛
+當您將內容設為我的最愛時，將可從左側瀏覽列存取。 Power BI 中幾乎每一個區域都能看到左側瀏覽列。 我的最愛通常是儀表板、報表頁面，以及您最常前往的應用程式。
+
+1. 結束問與答以返回儀表板。    
+2. 從 Power BI 服務的右上角，選取 [我的最愛] 或星號圖示 ![星號圖示](./media/end-user-favorite/power-bi-favorite-icon.png)。
+   
+   ![[我的最愛] 圖示](./media/end-user-favorite/powerbi-dashboard-favorite.png)
 
 
+### <a name="open-and-view-a-report-and-report-pages"></a>開啟和檢視報表及報表頁面
+報表是一或多個頁面的視覺效果。 Power BI 的報表設計工具會建立報表並[直接與取用者共用](end-user-shared-with-me.md)，或作為[應用程式](end-user-apps.md)的一部分。 
+
+您可以從儀表板開啟報表。 大部分的儀表板磚都已從報表釘選。 選取磚時，便會開啟用來建立磚的報表。 
+
+1. 從儀表板選取磚。 在此範例中，我們已選取 [收入] 直條圖磚。
+
+    ![已選取磚的儀表板](./media/end-user-reading-view/power-bi-dashboard2.png)
+
+2.  隨即開啟相關聯的報表。 請注意，我們在 [收入概觀] 頁面上。 此報表頁面包含我們從儀表板選取的直條圖。
+
+    ![在 [閱讀檢視] 中開啟報表](./media/end-user-reading-view/power-bi-report-opens.png)
+
+### <a name="adjust-the-display-dimensions"></a>調整顯示尺寸
+報表可在許多不同的裝置上檢視，這些裝置的螢幕大小和外觀比例有所不同。  預設呈現方式可能不是您要在裝置上查看的方式。  
+
+1. 若要調整，請從頂端功能表列選取 [檢視]。
+
+    ![報告檢視功能表](media/end-user-reading-view/power-bi-fit.png)
+
+2.  選擇其中一個顯示選項。 在此範例中，我們已選擇 [符合一頁大小]。
+
+    ![報表檢視符合一頁大小](media/end-user-reading-view/power-bi-report-fit.png)    
+
+### <a name="use-the-report-filters-pane"></a>使用報表 [篩選條件] 窗格
+若報表作者將篩選條件新增至報表中的頁面，您便可以與它們互動，並儲存您對報表進行的變更。
+
+1. 選取右上角的**篩選條件**圖示。
+   
+   ![選取篩選條件圖示](media/end-user-reading-view/filters.png)  
+
+2. 選取要啟用的視覺效果。 您會看到所有已套用至您該視覺效果 (視覺層級篩選)、跨整個報表頁面 (頁面層級篩選)，以及跨整份報表 (報表層級篩選) 的所有篩選條件。
+   
+   ![報告篩選條件的類型](media/end-user-reading-view/power-bi-reading-filters.png)
+
+3. 將滑鼠停留在篩選，並選取向下箭號將其展開。
+   
+   ![展開篩選條件](media/end-user-reading-view/power-bi-expan-filter.png)
+
+4. 對篩選進行變更，並查看視覺效果如何受到影響。  
+   
+     
+     ![進階篩選](media/end-user-reading-view/power-bi-advanced-filter.png)
+
+### <a name="see-how-all-the-visuals-on-a-page-are-interconnected"></a>您會看到頁面上所有視覺效果互連的方式
+交叉醒目提示和交叉篩選頁面上的相關視覺效果。 單一報表頁面上的視覺效果皆彼此「連接」。  意思就是說，如果您在一種視覺效果中選取一個或多個值，將會根據您的選取項目，變更使用相同值的其它視覺效果。
+
+![交叉醒目提示](media/end-user-reading-view/pagefilter3b.gif)
+> 
+### <a name="display-details-on-a-visualization"></a>在視覺效果上顯示詳細資料
+將滑鼠停留在視覺項目以便查看詳細資料
+
+![游標暫留以查看詳細資料](media/end-user-reading-view/amarillachart.png)
+
+### <a name="sort-a-visualization"></a>排序視覺效果
+報表頁面上的視覺效果可進行排序，並儲存您套用的變更。 
+
+1. 暫留在視覺效果上，使其進入使用中狀態。    
+2. 選取省略符號 (...) 來開啟排序選項。
+
+    ![排序圖表](media/end-user-reading-view/sort.gif) 
+
+###  <a name="open-the-selection-pane"></a>開取 [選取] 窗格
+在報告頁面上的視覺效果之間輕鬆地瀏覽。 
+
+1. 選取 [檢視] > [選取] 窗格，來開啟 [選取] 窗格。 將 [選取] 窗格 設為 [開啟]。
+
+    ![開啟報表 [選取] 窗格](media/end-user-reading-view/power-bi-selection-pane2.png)
+
+2. 隨即會在您的報表畫布上開啟 [選取] 窗格。 從清單選取視覺效果，使其進入使用中狀態。
+
+    ![報告選取窗格](media/end-user-reading-view/power-bi-selection-pane-new.png)
+
+### <a name="zoom-in-on-individual-visuals"></a>放大個別視覺效果
+將滑鼠暫留在視覺效果上，並選取**焦點模式**圖示 ![](media/end-user-reading-view/pbi_popouticon.jpg)。 當您以焦點模式檢視視覺效果時，其會展開並填滿整個報表畫布，如下所示。
+
+![焦點模式](media/end-user-reading-view/powerbi-focus-mode.png)
+
+若要顯示該相同視覺效果，而不受功能表列、篩選窗格和其他 Chrome 的干擾，請從頂端功能表列，選取**全螢幕**圖示 ![](media/end-user-reading-view/power-bi-focus-icon.png)。
+
+![全螢幕模式](media/end-user-reading-view/power-bi-full-screen.png)
+
+### <a name="show-the-data-used-to-create-a-visualization"></a>顯示用來建立視覺效果的資料
+Power BI 視覺效果是使用基礎資料集中的資料所建構。 如果您對背景資料有興趣，Power BI 可讓您「顯示」用來建立視覺效果的資料。 當您選取 [顯示資料] 時，Power BI 會在視覺效果下方 (或旁邊) 顯示資料。
+
+1. 在 Power BI 服務中，開啟報表並選取視覺效果。  
+2. 若要顯示視覺效果背後的資料，請選取省略符號 (...) 並選擇 [顯示資料]。
+   
+   ![選取 [顯示資料]](./media/end-user-show-data/power-bi-show-data2.png)
+
+這向來只是**取用者**可使用 Power BI 服務來執行一些動作的快速概觀。  
+
+## <a name="clean-up-resources"></a>清除資源
+- 若您連線到應用程式，請從左側瀏覽列，選取 [應用程式] 來開啟應用程式內容清單。 在要刪除的應用程式上暫留，然後選取垃圾桶圖示。
+
+- 若您匯入或連線至 Power BI 範例報表，請從左側瀏覽列開啟 [我的工作區]。 使用頂端的索引標籤，找到儀表板、報表和資料集，然後為每個項目選取垃圾桶圖示。
 
 ## <a name="next-steps"></a>後續步驟
-在 [閱讀檢視] 中與報告互動的方式有很多種，切割與細分資料可以深入了解資訊並找到問題的解答。  下一個主題：[在 [閱讀檢視] 中與報表互動](../service-interact-with-a-report-in-editing-view.md)，會詳細描述這其中的一些功能。    
-回到 [Power BI 中的報表](end-user-reports.md)    
+
+

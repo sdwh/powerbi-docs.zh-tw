@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 88942d4bf304af7a43df3a0f4864b537182cc84c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: 62d6a274b7cfb784f4f61b0973bad22ea6194698
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48272338"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641290"
 ---
 # <a name="power-bi-free-vs-pro"></a>Power BI 免費版與 Pro 版的比較
 
@@ -44,7 +44,7 @@ Power BI 的每位使用者有可能使用免費版也有可能使用 Pro 版。
 
 ## <a name="next-steps"></a>後續步驟
 
-如需深入了解 Power BI Premium，請參閱 [Power BI Premium - 這是什麼？](service-premium.md)。
+如需深入了解 Power BI Premium，請參閱 [Power BI Premium 是什麼？](service-premium.md)。
 
 若要註冊以開始使用 Power BI，請參閱[以個人身分註冊 Power BI](service-self-service-signup-for-power-bi.md)。
 

@@ -6,15 +6,15 @@ manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 08/16/2018
+ms.date: 10/13/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 17bf013b9d33c0c4b3ab7e124c7ddda0c3986df3
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 15cdd66e6062c4199b2f736208192c452bcbd0af
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47418112"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396565"
 ---
 # <a name="power-bi-for-consumers"></a>適用於取用者的 Power BI
 您與 Power BI 互動的方式將取決於作業角色。 身為「終端使用者」或「取用者」，您會從同事收到儀表板、報表和應用程式。 您在 ***Power BI 服務***中工作，檢閱並與此內容互動，以制定商務決策。
@@ -26,4 +26,11 @@ ms.locfileid: "47418112"
 身為取用者，您將無法存取 Power BI 的完整功能 -- 沒關係，因為您的作業不是要建置儀表板和報表。 您的作業是要使用 Power BI 進行分析、監視、探索和決策制定。
 
 當您閱讀取用者的文章時，您將了解術語，您將導覽 Power BI 服務、了解如何巡覽至內容，然後了解如何與該內容互動。  讓我們開始吧！
+
+## <a name="next-steps"></a>後續步驟
+
+[適用於 Power BI 取用者的術語和概念](end-user-basic-concepts.md)
+
+<!-- [Get started guide for *consumers*] -->
+[開始使用 Power BI 服務](../service-get-started.md)
 

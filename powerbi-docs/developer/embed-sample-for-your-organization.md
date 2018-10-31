@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 07/13/2018
-ms.openlocfilehash: 9df612d80d3f322a8391eeb43430942a03850470
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827448"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396857"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 報表、儀表板或磚內嵌至應用程式
 
@@ -158,13 +158,13 @@ ms.locfileid: "48827448"
 
     ![使用者擁有資料應用程式範例](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. 開啟範例應用程式中的 **Cloud.config** 檔案。 您必須填入一些欄位，才能成功執行應用程式：**ClientID** 和 **ClientSecret**。
+2. 開啟範例應用程式中的 **Cloud.config** 檔案。 您必須填寫一些欄位，才能成功地執行應用程式：**ApplicationID** 及 **ApplicationSecret**。
 
     ![Cloud.config 檔案](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    使用從 Azure 取得的**應用程式識別碼**填入 **ClientID** 資訊。 應用程式會使用 **ClientID** 來向您要求權限的使用者表明其身分。
+    使用從 Azure 取得的**應用程式識別碼**，填入 **ApplicationID** 資訊。 應用程式會使用 **ApplicationID** 向您要求權限的使用者表明其身分。
 
-    若要取得 **ClientID**，請遵循下列步驟：
+    若要取得 **ApplicationID**，請遵循下列步驟：
 
     1. 登入 [Azure 入口網站](https://portal.azure.com)。
 
@@ -174,17 +174,17 @@ ms.locfileid: "48827448"
 
         ![應用程式註冊搜尋](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. 選取需要使用 **ClientID** 的應用程式。
+    1. 選取需要使用 **ApplicationID** 的應用程式。
 
         ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. 您應該會看到以 GUID 形式列出的**應用程式識別碼**。 請使用此**應用程式識別碼**作為應用程式的 **ClientID**。
+    1. 您應該會看到以 GUID 形式列出的**應用程式識別碼**。 請使用此**應用程式識別碼**作為應用程式的 **ApplicationID**。
 
-        ![用戶端識別碼](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+        ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. 從 **Azure** 中 [應用程式註冊] 區段的 [金鑰] 區段，填寫 **ClientSecret** 資訊。
+    1. 在 **Azure** 之 [應用程式註冊] 區段的 [金鑰] 區段中，填入 **ApplicationSecret** 資訊。
 
-    1. 若要取得 **ClientSecret**，請遵循下列步驟：
+    1. 若要取得 **ApplicationSecret**，請遵循下列步驟：
 
         1. 登入 [Azure 入口網站](https://portal.azure.com)。
 
@@ -194,7 +194,7 @@ ms.locfileid: "48827448"
 
             ![應用程式註冊搜尋](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. 選取需要使用 **ClientSecret** 的應用程式。
+        1. 選取需要使用 **ApplicationSecret** 的應用程式。
 
             ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
