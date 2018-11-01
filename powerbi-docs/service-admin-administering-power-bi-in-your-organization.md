@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: overview
-ms.date: 05/01/2018
+ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1f3c871d4ac47a110f2085ef1bdccb166fc00643
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fcc7563ef1c1196a7e00e107bb1dadd6b10075d3
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944299"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252460"
 ---
 # <a name="what-is-power-bi-administration"></a>什麼是 Power BI 管理？
 
@@ -30,7 +30,6 @@ Power BI 是針對自助商業智慧而設計，而系統管理員是 Power BI �
 - 增加採用並從 Power BI 部署獲得投資報酬
 
 該工作是負責提升商務使用者的生產力，並確保安全性和對法律與規定的合規性。 責任可能包括說明及支援，在許多情況下，還要協助商務使用者做正確的事。
-
 
 ## <a name="administrator-roles-related-to-power-bi"></a>與 Power BI 相關的系統管理員角色
 
@@ -50,7 +49,6 @@ Power BI 服務系統管理員可以存取 Power BI 管理入口網站，其中�
 
 Power BI 服務系統管理員角色不會將指派授權的能力授與使用者，或在 Office 365 中檢視稽核記錄的能力。 因此，僅是 Power BI 服務系統管理員角色的使用者，目前無法執行管理 Power BI 的工作。
 
-
 ## <a name="administrative-tasks"></a>管理工作
 
 系統管理員會執行許多工作，以支援其組織的 Power BI 租用戶，下表包含這些工作。
@@ -65,7 +63,6 @@ Power BI 服務系統管理員角色不會將指派授權的能力授與使用�
 | 管理 Power BI 資源 |<ul><li>管理工作區<br><li>發行自訂視覺效果<br><li>驗證用來在其他應用程式中嵌入 Power BI 的程式碼|
 | 為租用戶使用者提供說明和支援 |<ul><li>針對資料存取和其他問題進行疑難排解</ul>|
 | 其他工作 |<ul><li>部署 Power BI Desktop (例如：使用 System Center Configuration Manager)<br><li>使用 Intune 管理 Power BI 行動應用程式部署<br><li>管理資料隱私權和安全性，例如來源資料安全性</ul>|
-
 
 ## <a name="administrative-tools"></a>系統管理工具
 
@@ -82,11 +79,12 @@ Power BI 服務系統管理員角色不會將指派授權的能力授與使用�
 
 ## <a name="next-steps"></a>後續步驟
 
-我們希望本文能提供您對 Power BI 系統管理員工作，以及相關特定角色、工作與工具的快速深入剖析。 我們推薦以下兩個主題，讓您更深入了解。
+我們希望本文能提供您對 Power BI 系統管理員工作，以及相關特定角色、工作與工具的快速深入剖析。 我們推薦以下兩個文章主題，讓您更深入了解。
 
 [使用 Power BI 管理入口網站](service-admin-portal.md)
+
+[使用 PowerShell Cmdlet](/powershell/power-bi/overview?toc=%2Fen-us%2Fpower-bi%2FTOC.json&bc=%2Fen-us%2Fpower-bi%2Fbreadcrumb%2Ftoc.json&view=powerbi-ps)
 
 [Power BI 管理常見問題集](service-admin-faq.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
-

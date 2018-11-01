@@ -7,34 +7,35 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2f10ead5d08efa12cae05aeb6f2e3d3068636f77
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 02829adb386cc746715a34300a42aba616dc2d60
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396903"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252483"
 ---
 # <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
 
-管理入口網站可讓您管理貴組織的 Power BI 租用戶。 包含項目如使用計量、存取 Office 365 系統管理中心及設定等。
+系統管理入口網站可讓您管理您組織的 Power BI 租用戶。 入口網站包含如使用計量、存取 Office 365 系統管理中心與設定等項目。
 
-透過 Power BI 管理入口網站可管理貴公司的 Power BI 租用戶。 Office 365 的全域管理員或已指派 Power BI 服務系統管理員角色的所有使用者，都可以存取管理入口網站。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。
-
-所有使用者都可以在齒輪圖示下看到**系統管理入口網站**。 如果他們不是系統管理員，則只能看到 [Premium 設定] 區段，而且只能看到他們有權管理的容量。
+Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理員角色的所有使用者，都可以存取整個系統管理入口網站。 若您不屬於任何這些角色，您只會看到入口網站中的 [容量設定]。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。
 
 ## <a name="how-to-get-to-the-admin-portal"></a>如何取得管理入口網站
 
 您的帳戶必須在 Office 365或 Azure Active Directory 中標示為**全域管理員**，或已指派 Power BI 服務系統管理員角色，才能存取 Power BI 管理入口網站。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。 若要取得 Power BI 管理入口網站，請執行下列步驟。
 
 1. 選取 Power BI 服務右上角的設定齒輪。
-2. 選取 [管理入口網站]。
 
-![](media/service-admin-portal/powerbi-admin-settings.png)
+1. 選取 [系統管理入口網站]。
 
-入口網站中有六個索引標籤。 說明如下。
+    ![管理入口網站設定](media/service-admin-portal/powerbi-admin-settings.png)
+
+入口網站中有七個索引標籤。 此文章其餘部分提供有關這些索引標籤的資訊。
+
+![管理入口網站瀏覽](media/service-admin-portal/powerbi-admin-landing-page.png)
 
 * [使用計量](#usage-metrics)
 * [使用者](#users)
@@ -42,12 +43,11 @@ ms.locfileid: "49396903"
 * [租用戶設定](#tenant-settings)
 * [Premium 設定](#premium-settings)
 * [內嵌程式碼](#embed-codes)
-* [組織視覺效果](#Organization-visuals)
-
-![](media/service-admin-portal/powerbi-admin-landing-page.png)
+* [組織視覺效果](#organization-visuals)
 
 ## <a name="usage-metrics"></a>使用計量
-管理入口網站的第一個索引標籤是 [使用計量]。 使用計量報告可讓您監視貴組織內的 Power BI 使用量。 它也能讓您查看貴組織 Power BI 中最活躍的使用者和群組。
+
+[使用計量] 可讓您監視您組織的 Power BI 使用量。 它也能讓您查看貴組織 Power BI 中最活躍的使用者和群組。
 
 > [!NOTE]
 > 第一次存取儀表板，或經過長時間未檢視儀表板而再次瀏覽時，您可能會在載入儀表板時看到載入畫面。
@@ -58,79 +58,76 @@ ms.locfileid: "49396903"
 
 * 使用者工作區中所有儀表板、報表和資料集的相異計數
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
+    ![儀表板、報表、資料集的相異計數](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* 最常用儀表板，依有其存取權限的使用者數目排列。 例如，如果您有一個和 3 位使用者共用的儀表板，又把它加入另兩位使用者連接的內容套件中，其計數為 6 (1 + 3 + 2)。
+* 最常用儀表板，依有其存取權限的使用者數目排列。 例如，如果您有一個和 3 位使用者共用的儀表板，又把它加入另兩位使用者連接的內容套件中，其計數為 6 (1 + 3 + 2)
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
+    ![取用次數最高的儀表板](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
 * 使用者連接的最受歡迎內容。 這可以是使用者能夠透過 Get Data 程序接觸的任何項目，如 SaaS 內容套件、組織內容套件、檔案或資料庫。
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
+    ![取用次數最高的套件](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
 
 * 使用者排行榜檢視，名次根據他們擁有的儀表板數排列，包括自己建立和共用的儀表板。
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
+    ![經常存取的使用者 - 儀表板](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
 
 * 使用者排行榜檢視，名次排列依據為報表數。
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
+    ![經常存取的使用者 - 報表](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-第二個區段顯示相同類型的資訊，但以群組為依據。 這可讓您查看貴組織中最活躍的群組，以及他們使用的資訊類型。
+第二個區段顯示相同類型的資訊，但以群組為依據。 這可讓您查看貴組織中最活躍的群組，以及他們取用的內容類型。
 
-利用這項資訊，您就可以真正了解組織中人員如何使用 Power BI，而且能夠識別出貴組織中活躍的使用者和群組。
+利用此資訊，您可以真正了解組織中人員如何使用 Power BI，而且能夠識別出貴組織中活躍的使用者與群組。
 
 ## <a name="users"></a>使用者
 
-管理入口網站的第二個索引標籤是 [管理使用者]。 就 Power BI 而言，使用者管理是在 Office 365 系統管理中心內完成，所以這個區段可讓您快速到達管理 Office 365 使用者、系統管理員和群組的區域。
+您可以在 Office 365 系統管理中心管理 Power BI 使用者、群組與系統管理員。 [使用者] 索引標籤提供您租用戶系統管理中心的連結。
 
-![](media/service-admin-portal/powerbi-admin-manage-users.png)
-
-當您按一下 [前往 O365 系統管理中心] 時，就會直接移至 Office 365 系統管理中心的登入頁面以管理租用戶的使用者。
-
-![](media/service-admin-portal/powerbi-admin-o365-admin-center.png)
+![前往 O365 系統管理中心](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>稽核記錄
 
-管理入口網站的第三個索引標籤是 [稽核記錄]。 記錄位於 Office 365 安全規範中心內。 此區段可讓您快速存取 Office 365 內的該區域。
-
-如需稽核記錄的詳細資訊，請參閱[稽核貴組織的 Power BI](service-admin-auditing.md)
+您可以在 Office 365 安全性與合規性中心管理 Power BI 稽核記錄。 [稽核記錄] 索引標籤提供您租用戶安全性與合規性中心的連結。 [深入了解](service-admin-auditing.md)
 
 ## <a name="tenant-settings"></a>租用戶設定
 
-管理入口網站的第三個索引標籤是 [租用戶設定]。 [租用戶設定] 能讓您更充分掌控貴組織可用的功能。 如果您對敏感性資料有疑慮、我們的某些功能可能不適合您的組織，或您可能希望特定群組只能使用指定的功能。 有這種情況時，您可以在租用戶中關閉設定。
+[租用戶設定] 索引標籤可讓您更精細地控制為您的組織提供的功能。 如果您對敏感性資料有疑慮、我們的某些功能可能不適合您的組織，或您可能希望特定群組只能使用特定功能。
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
+下圖顯示 [租用戶設定] 索引標籤的前兩個區段。
+
+![租用戶設定](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
-> 設定可能需要 10 分鐘才會對租用戶中所有人生效。
+> 設定變更可能需要 10 分鐘才會對租用戶中所有人生效。
 
 設定可以有三個狀態：
 
-* **已為整個組織停用**：您可以停用功能，並將其設為此狀態，這樣使用者就無法使用。
+* **已為整個組織停用**：您組織中的所有人都無法使用此功能。
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+    ![已停用所有設定](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **已為整個組織啟用**：您可以允許整個組織使用某功能，讓所有使用者都有該功能的存取權。
+* **已為整個組織啟用**：您組織中的所有人都可以使用此功能。
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![已啟用所有設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **已為組織子集合啟用**：您也可以允許一部分的組織使用某功能。 這可以用其他幾種方式實踐。 您可以允許整個組織使用，特定使用者群組除外。
+* **已為組織子集合啟用**：您組織中特定使用者或群組子集合可以使用此功能。
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+    您可以為整個組織啟用功能，特定使用者群組除外。
 
-    您也可以只允許特定使用者群組使用功能，同時禁止一群使用者使用該功能。 如此可確保特定使用者沒有功能的存取權，即使他們在允許的群組中亦然。
+    ![已啟用子集合設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+    您也可以只針對特定使用者群組啟用功能，同時為另一個使用者群組停用該功能。 此用此方式可確保特定使用者沒有功能的存取權，即使他們位於允許的群組中亦然。
+
+    ![啟用例外設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 下面幾節將提供不同類型的租用戶設定概觀。
 
 ## <a name="workspace-settings"></a>工作區設定
 
 ### <a name="create-workspaces-preview"></a>建立工作區 (預覽)
-組織中的使用者可以建立應用程式工作區來共同處理儀表板、報表及其他內容。
 
-如需詳細資訊，請參閱[建立新的工作區](service-create-the-new-workspaces.md)。
+組織中的使用者可以建立應用程式工作區來共同處理儀表板、報表及其他內容。 [深入了解](service-create-the-new-workspaces.md)
 
 ## <a name="export-and-sharing-settings"></a>匯出和共用設定
 
@@ -138,19 +135,21 @@ ms.locfileid: "49396903"
 
 組織中的使用者可以和組織外的使用者共用儀表板。
 
-![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+![外部使用者設定](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
-以下是您與外部使用者共用時會出現的訊息。
+下圖顯示您與外部使用者共用時會出現的訊息。
 
-![](media/service-admin-portal/powerbi-admin-sharing-external.png)
+![與外部使用者共用](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
 ### <a name="publish-to-web"></a>發佈至 Web
 
 組織中的使用者可以將報表發行到網路。 [深入了解](service-publish-to-web.md)
 
-![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+下圖顯示當啟用 [發行到 Web] 設定時，報表的 [檔案] 功能表。
 
-使用者可以看到以發佈到 web 設定的內容為基礎之 UI 中的不同選項。
+![發行到 Web 設定](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+視 [發行到 Web] 設定而定，使用者會在 UI 中看到不同的選項。
 
 |功能 |允許整個組織使用 |不允許整個組織使用 |特定安全性群組   |
 |---------|---------|---------|---------|
@@ -163,7 +162,9 @@ ms.locfileid: "49396903"
 
 組織中的使用者可以從磚或視覺效果匯出資料。 [深入了解](visuals/power-bi-visualization-export-data.md)
 
-![](media/service-admin-portal/powerbi-admin-export-data.png)
+下圖顯示從圖格匯出資料的選項。
+
+![從圖格匯出資料](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
 > 停用 [匯出資料] 會讓使用者無法使用「在 Excel 中進行分析」功能，也無法使用 Power BI 服務即時連線。
@@ -172,7 +173,9 @@ ms.locfileid: "49396903"
 
 組織中的使用者可以將 Power BI 報表匯出為 PowerPoint 檔案。 [深入了解](consumer/end-user-powerpoint.md)
 
-![](media/service-admin-portal/powerbi-admin-powerpoint.png)
+下圖顯示當啟用 [將報表匯出為 PowerPoint 簡報] 設定時，報表的 [檔案]**File** 功能表。
+
+![將報表匯出為 PowerPoint 簡報](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>列印儀表板和報表
 

@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 10/30/2018
 ms.author: mihart
-ms.openlocfilehash: 54c484153896430a7c5c886864459361cae97428
-ms.sourcegitcommit: fbc1fabcb5e3b285228c9aa192b9b421b2782922
+ms.openlocfilehash: ba6c59d168deb5fb68f4b339f11fba795bae6452
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "47059062"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252391"
 ---
 # <a name="getting-a-custom-visual-certified"></a>讓自訂視覺效果*經認證*
 ## <a name="what-is-meant-by-certified"></a>*經認證*是什麼意思？
@@ -86,6 +86,7 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [Enlighten Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960) (Enlighten 交叉分析篩選器) | |
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) (Enlighten 隨機顯示堆疊圖) | |
 | [Enlighten Waffle Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) (Enlighten 方格比例圖) | |
+| [Filter by List (開發者：Devscope)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381413) | [影片](https://youtu.be/RetEWGwBu0I) |
 | [力導向圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) \(英文\) | [影片](https://youtu.be/YsTa7uyJ4sg) |
 | [Funnel with Source by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) (MAQ Software 的來源漏斗圖) | [影片](https://youtu.be/R_EcimsLI8U) |
 | [甘特圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [影片](https://youtu.be/qJ7s_KrGiUU) |
