@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 10/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
+ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974199"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49359715"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop (預覽) 中的彙總
 
@@ -191,9 +191,9 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免聯結大型
 
 ![Driver Activity Agg 資料表的 [管理彙總] 對話方塊](media/desktop-aggregations/aggregations_11.jpg)
 
-下表顯示 **Sales Agg** 資料表的彙總。
+下表顯示 **Driver Activity Agg** 資料表的彙總。
 
-![Sales Agg 彙總資料表](media/desktop-aggregations/aggregations-table_02.jpg)
+![Driver Activity Agg 彙總資料表](media/desktop-aggregations/aggregations-table_02.jpg)
 
 ### <a name="group-by-columns"></a>依資料行分組
 
@@ -229,9 +229,9 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免聯結大型
 
 ![[管理彙總] 對話方塊](media/desktop-aggregations/aggregations_14.jpg)
 
-下表顯示 **Sales Agg** 資料表的彙總。
+下表顯示 **Driver Activity Agg 2** 資料表的彙總。
 
-![Sales Agg 彙總資料表](media/desktop-aggregations/aggregations-table_03.jpg)
+![Driver Activity Agg 2 彙總資料表](media/desktop-aggregations/aggregations-table_03.jpg)
 
 ## <a name="aggregations-based-on-group-by-columns-combined-with-relationships"></a>結合關聯性之以分組方式資料行為基礎的彙總
 
