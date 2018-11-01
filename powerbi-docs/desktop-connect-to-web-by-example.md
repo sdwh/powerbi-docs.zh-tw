@@ -1,5 +1,5 @@
 ---
-title: 在 Power BI Desktop (預覽) 中，藉由範例從網頁擷取資料
+title: 藉由 Power BI Desktop 中的範例從網頁擷取資料
 description: 提供所要提取內容的範例，以便從網頁擷取資料
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290974"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336798"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>藉由提供範例來從網頁取得資料 (預覽)
+# <a name="get-data-from-a-web-page-by-providing-an-example"></a>藉由提供範例來從網頁取得資料
 
 從網頁取得資料讓使用者輕鬆就能從網頁擷取資料，並將該資料匯入 **Power BI Desktop**。 不過，網頁上的資料通常不容易擷取，因為它們不是在整齊的資料表中，所以從這樣的頁面中取得資料會是一項挑戰，即使該頁面是結構化且一致的。 
 
@@ -26,13 +26,6 @@ ms.locfileid: "34290974"
 ![藉由範例從 Web 取得資料](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 
 
-## <a name="enabling-the-preview-feature-get-data-from-web-by-example"></a>啟用「藉由範例從 Web 取得資料」預覽功能
-
-「藉由範例從 Web 取得資料」目前處於預覽狀態，且必須在 **Power BI Desktop** 中啟用。 若要啟用該功能，請選取 [檔案] > [選項及設定] > [選項] > [預覽功能]，然後選取 [新的 Web 體驗] 核取方塊。 您完成選取後必須重新啟動 Power BI Desktop。
-
-![啟用預覽功能](media/desktop-connect-to-web-by-example/web-by-example_02.png)
-
-一旦啟用預覽功能，您就可以開始使用它。 
 
 ## <a name="using-get-data-from-web-by-example"></a>使用「藉由範例從 Web 取得資料」
 

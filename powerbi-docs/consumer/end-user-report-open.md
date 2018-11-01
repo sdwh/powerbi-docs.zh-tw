@@ -1,84 +1,99 @@
 ---
-title: 在 Power BI 中，以 [閱讀檢視] 或 [編輯檢視] 開啟報表
-description: 以閱讀檢視或編輯檢視來開啟 Power BI 報表
+title: 檢視 Power BI 服務中的報表
+description: 在 [閱讀] 檢視中開啟 Power BI 報表。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 10/10/2018
 ms.author: mihart
-ms.openlocfilehash: fe1916b2b287dffd59bf4535cc07e13d10d01321
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565789"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112007"
 ---
-# <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>在 Power BI 服務 (app.powerbi.com) 中開啟報表
-報表提供於 Power BI 服務、Power BI Desktop、Power BI Mobile，甚至是 Power BI Embedded。 本文適用於在 ***Power BI 服務***中開啟報表。
+# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>在 Power BI 服務 (app.powerbi.com) 中檢視報表
+報表是一或多頁的視覺效果。 Power BI「報表設計者」會建立報表，並[直接與您共用](end-user-shared-with-me.md)或在[應用程式](end-user-apps.md)中共用。 
 
-在 Power BI 服務中，有兩種模式可與報表互動：[閱讀檢視和編輯檢視](end-user-reading-view.md)。 [閱讀檢視] 適用於所有的使用者，且特別是針對報表「取用者」而設計，[編輯檢視] 則僅適用於報表「建立者」和擁有者。 
+要開啟報表有很多種不同的方法，我們將示範其中兩種：從首頁開啟，以及從儀表板開啟。 
 
-## <a name="open-a-report-from-a-workspace-via-the-reports-content-view-list"></a>從工作區中開啟報表 (透過 [報表] 內容檢視清單)
+<!-- add art-->
 
-1. 從工作區開始，然後選取 [報表] 索引標籤以顯示該工作區中的所有報表。  
+
+## <a name="open-a-report-from-your-home-page"></a>從您的首頁開啟報表
+讓我們開啟與您直接共用的報表，然後開啟在應用程式中共用的報表。
+
+   ![首頁](./media/end-user-report-open/power-bi-home.png)
+
+### <a name="open-a-report-that-has-been-shared-with-you"></a>開啟已與您共用的報表
+Power BI「設計者」只要按一下頂端功能表列的 [共用] 按鈕，就可以直接與您共用報表。 以這種方式共用的內容會顯示在左側導覽列的 [與我共用] 容器中，以及首頁的 [與我共用] 區段中。
+
+1. 開啟 Power BI 服務 (app.powerbi.com)。
+
+2. 從左側瀏覽列中，選取 [首頁 (預覽)] 來開啟您的首頁。  
+
+   ![首頁](./media/end-user-report-open/power-bi-select-home.png)
    
-   ![工作區的 [報表] 索引標籤](./media/end-user-report-open/power-bi-open-report.png)
-2. 選取報表名稱，以 [閱讀檢視] 開啟報表。  
+3. 向下捲動，直到您看到 [與我共用] 為止。 尋找報表圖示 ![報表圖示](./media/end-user-report-open/power-bi-report-icon.png)。 在這個螢幕擷取畫面中，我們有兩份報表：*Financial* 和 *Northwind*。 
    
-    ![[閱讀檢視] 中的報表](./media/end-user-report-open/power-bi-reading-view.png)
-3. [在 [閱讀檢視] 中有許多可用功能](end-user-reading-view.md)。  這個範例報表有多個頁面，因此請選取報表畫布底部的每個索引標籤來開始探索。 
+   ![首頁的與我共用區段](./media/end-user-report-open/power-bi-shared.png)
+
+4. 只要選取其中一個報表卡片即可開啟報表。
+
+   ![報表頁面](./media/end-user-report-open/power-bi-report1.png)
+
+5. 請注意底部的索引標籤。 每個索引標籤各代表一個報表「頁面」。 我們目前開啟的是 [IT 支出趨勢] 頁面。 選取其他索引標籤即可開啟該報表頁面。 
+
+   ![報表頁面索引標籤](./media/end-user-report-open/power-bi-tabs.png)
+
+6. 現在我們只能看到報表頁面的一部分。 若要變更頁面的顯示 (縮放)，請選取 [檢視] > [符合一頁大小]。
+
+   ![變更縮放](./media/end-user-report-open/power-bi-fit.png)
+
+   ![符合一頁大小](./media/end-user-report-open/power-bi-report2.png)
+
+### <a name="open-a-report-that-is-part-of-an-app"></a>開啟應用程式中的報表
+如果您收到了來自同事或 AppSource 的應用程式，這些應用程式可從您首頁以及左側導覽列上的 [應用程式] 容器中開啟。 [應用程式](end-user-apps.md)是儀表板和報表的組合。
+
+1. 若要返回至您的首頁，請從左側導覽列中選取 [首頁 (預覽)]。
+
+7. 向下捲動，直到您看到**我的應用程式**為止。
+
+   ![首頁](./media/end-user-report-open/power-bi-my-apps.png)
+
+8. 選取其中一個應用程式加以開啟。 根據應用程式「設計者」所設定的選項，應用程式將會開啟儀表板或報表。 若選取應用程式：
+    - 會開啟報表，您已萬事俱備。
+    - 會開啟儀表板，請參閱下方的[從儀表板開啟報表](#Open-a-report-from-a-dashboard)。
+
+
 
 ## <a name="open-a-report-from-a-dashboard"></a>從儀表板開啟報表
-有許多其他方式可以開啟報表；例如，您可以在儀表板上啟動，然後選取已從報表建立的磚。  選取磚時會以閱讀檢視開啟報表。 如果要跟著做，[請開啟 [銷售與行銷範例] 儀表板](../sample-datasets.md)。
+您可以從儀表板開啟報表。 大部分的儀表板磚從報表「釘選」。 選取磚會開啟用來建立磚的報表。 
 
-1. 開啟儀表板，並選取磚。
-
-   如果您選取的磚是[使用問與答建立](../service-dashboard-pin-tile-from-q-and-a.md)，問與答畫面將會開啟。 如果您選取的磚是[使用儀表板 [新增磚] 小工具所建立](../service-dashboard-add-widget.md)，您就會開啟精靈來編輯該小工具。  
-
-2.  在此範例中，我們已選取 [總單位 YTD...] 直條圖磚。
+1. 從儀表板選取磚。 在此範例中，我們已選取 [總單位 YTD...] 直條圖磚。
 
     ![已選取磚的儀表板](./media/end-user-report-open/power-bi-dashboard.png)
 
-3.  相關報表會在 [閱讀檢視] 中開啟。 請注意，我們在「YTD 類別」頁面上。 此報表頁面包含我們從儀表板選取的直條圖。
+2.  相關的報表隨即開啟。 請注意，我們在「YTD 類別」頁面上。 此報表頁面包含我們從儀表板選取的直條圖。
 
-    ![在 [閱讀檢視] 中開啟報表](./media/end-user-report-open/power-bi-report.png)
+    ![在 [閱讀檢視] 中開啟報表](./media/end-user-report-open/power-bi-report-new.png)
 
-4. 留在 [閱讀檢視]，或選取 [編輯報表]，在 [編輯檢視] 中開啟報表。 請記住，只有具有該報表編輯權限的人可以在 [編輯檢視] 中開啟它。
+> [!NOTE]
+> 並非所有的磚都會帶您前往報表。 如果您選取的磚是[使用問與答建立](../service-dashboard-pin-tile-from-q-and-a.md)，問與答畫面將會開啟。 如果您選取的磚是[使用儀表板 [新增磚] Widget建立的](../service-dashboard-add-widget.md)，則會開啟 [編輯磚精靈]。  
 
-    ![報表編輯器顯示編輯報表圖示](./media/end-user-report-open/power-bi-edit-report.png)
-
-## <a name="create-a-brand-new-report-from-a-dataset"></a>從資料集建立全新的報表
-開啟報表的另一個方法是從資料集。 當您從資料集開始時，報表畫布會是空白的，所以方法建議用於想要根據他們擁有之資料集建立新報表的報表「建立者」。 如上面的範例，若要跟著做，請下載[銷售與行銷範例應用程式](../sample-datasets.md)。
-
-1. 在包含您想要作為報表基礎之資料集的工作區中開始。
-
-   ![左側瀏覽窗格顯示應用程式工作區](./media/end-user-report-open/power-bi-workspace.png)
-
-2. 選取 [資料集] 索引標籤，顯示該工作區中所有資料集的清單。 這稱為**資料集**內容檢視清單。
-   
-   ![資料集清單](./media/end-user-report-open/power-bi-dataset.png)
-
-1. 找出資料集並選取**建立報表**圖示，在編輯檢視中開啟資料集。 如果您沒有編輯資料集的權限，您將無法開啟它。 
-   
-    ![具有建立報表圖示的資料集](./media/end-user-report-open/power-bi-create-report.png)
-
-3. 資料集會在報表編輯器中開啟。 您會看到右邊顯示資料欄位，等著您開始瀏覽和建立視覺效果。 
-
-   ![報表畫布](./media/end-user-report-open/power-bi-blank-canvas.png)
 
 ##  <a name="still-more-ways-to-open-a-report"></a>仍然有更多方法來開啟報表
 當您更熟悉巡覽 Power BI 服務之後，便會找出最適合您的工作流程。 還有一些其他方法可存取報表：
-- 從左側功能窗格使用 [我的最愛]、[最近]、[應用程式] 和 [與我共用]。 
-- 使用[檢視相關項目](end-user-related.md)
-- 有人[與您共用](../service-share-reports.md)或您[設定警示](../service-set-data-alerts.md)時使用電子郵件。    
-- 從您的[通知中心](end-user-notification-center.md)    
+- 從左側功能窗格使用 [我的最愛]和 [最近]    
+- 使用[檢視相關項目](end-user-related.md)    
+- 在電子郵件中，當有人[與您共用](../service-share-reports.md)或您[設定警示](../service-set-data-alerts.md)時。    
+- 從您的 [通知中心]    (end-user-notification-center.md)    
 - 以及更多
 
 ## <a name="next-steps"></a>後續步驟
-深入了解 [Power BI 中的報表](end-user-reports.md)
-
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)  
+有[很多方式可用來與報表互動](end-user-reading-view.md)。  選取報表畫布底部的每個索引標籤，來開始探索。
 

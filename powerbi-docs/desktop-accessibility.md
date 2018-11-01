@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256024"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336867"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 報告中的協助工具
 Power BI 具有可讓行動不便人士更輕鬆地使用 Power BI 報表並與之互動的功能。 這些功能包括能夠利用鍵盤或螢幕助讀程式來使用報告、利用 Tab 鍵聚焦於頁面上的不同物件，以及在視覺效果中貼心地使用標記。
@@ -61,6 +61,8 @@ Power BI 具有可讓行動不便人士更輕鬆地使用 Power BI 報表並與�
 ## <a name="tips-for-creating-accessible-reports"></a>建立可存取之報告的秘訣
 下列秘訣可協助您建立更容易存取的 **Power BI Desktop**報告。
 
+### <a name="general-tips-for-accessible-reports"></a>可存取報表的一般提示
+
 * 對於**線條**、**區域**和**組合**視覺效果，以及**散佈圖**和**泡泡圖**，請開啟標記，並針對每個線條使用不同的「標記圖形」。
   
   * 若要開啟「標記」，請在 [視覺效果] 窗格中選取 [格式]，展開 [圖形] 區段，然後向下捲動找出 [標記] 開關，並切換到 [開啟]。
@@ -80,6 +82,13 @@ Power BI 具有可讓行動不便人士更輕鬆地使用 Power BI 報表並與�
 * 在所有視覺效果中包含標題、軸標籤和資料標籤。
 * 為所有報表頁面使用有意義的標題。
 * 請盡可能避免在報表中使用裝飾性圖形和影像，原因是其會包含在報表的定位順序中。 如果需要在報表中包含裝飾性物件，請更新物件的替代文字，讓螢幕助讀程式使用者知道該物件用於裝飾。
+
+### <a name="arranging-items-in-field-buckets"></a>排列 [欄位] 貯體中的項目
+從 2018 年 10 月版本的 **Power BI Desktop** 開始，[欄位] 區也可以使用鍵盤來瀏覽，並與螢幕助讀程式互動。 
+
+若要使用螢幕助讀程式改善建立報表的過程，操作功能表可讓您在 [欄位] 清單中向上或向下移動欄位區中的欄位，或者將欄位移到其他欄位區中，像是 [圖例] 或 [值] 或其他區。
+
+![[欄位] 區中的操作功能表可讓您將欄位向上、向下移動，或移到其他區域](media/desktop-accessibility/accessibility_09.png)
 
 ## <a name="high-contrast-support-for-reports"></a>報表的高對比支援
 

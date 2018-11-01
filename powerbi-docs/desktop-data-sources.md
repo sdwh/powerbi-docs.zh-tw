@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512056"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336890"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
@@ -75,13 +75,15 @@ ms.locfileid: "44512056"
 * Teradata 資料庫
 * SAP HANA 資料庫
 * SAP Business Warehouse 應用程式伺服器
-* SAP Business Warehouse 訊息伺服器搶鮮版 (Beta)
+* SAP Business Warehouse 訊息伺服器
 * Amazon Redshift
 * Impala
 * Google BigQuery
 * 雪花式
+* Dremio (搶鮮版 (Beta))
 * Exasol (搶鮮版 (Beta))
 * Jethro (搶鮮版 (Beta))
+* Kyligence Enterprise (搶鮮版 (Beta))
 
 > [!NOTE]
 > 某些資料庫連接器的啟用方式為選取 **[檔案] > [選項和設定] > [選項]**，然後選取 [預覽功能] 並啟用該連接器。 如果您沒有看到上述連接器，但想要加以使用，請檢查您的 [預覽功能] 設定。 亦請注意，任何標示為 *Beta* 或「預覽」的資料來源，受到的支援和功能都有限制，不應該用在生產環境。
@@ -112,7 +114,7 @@ ms.locfileid: "44512056"
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
-* HDInsight 互動式查詢搶鮮版 (Beta)
+* HDInsight 互動式查詢
 * Azure KustoDB (搶鮮版 (Beta))
 
 下圖顯示 [Azure]  的 [取得資料] 視窗。
@@ -124,10 +126,10 @@ ms.locfileid: "44512056"
 * SharePoint Online 清單
 * Microsoft Exchange Online
 * Dynamics 365 (線上)
-* Dynamics NAV 搶鮮版 (Beta)
+* Dynamics NAV
 * Microsoft Dynamics 365 Business Central
-* Common Data Service for Apps(搶鮮版 (Beta))
-* Common Data Service (搶鮮版 (Beta))
+* Dynamics 365 Business Central (內部部署)
+* Common Data Service for Apps (搶鮮版 (Beta))
 * Microsoft Azure Consumption Insights (搶鮮版 (Beta))
 * Visual Studio Team Services (Beta)
 * Salesforce 物件
@@ -163,7 +165,7 @@ ms.locfileid: "44512056"
 
 [其他]  類別提供下列資料連線：
 
-* Vertica (搶鮮版 (Beta))
+* Vertica
 * Web
 * SharePoint 清單
 * OData 摘要
@@ -175,6 +177,8 @@ ms.locfileid: "44512056"
 * Python 指令碼
 * ODBC
 * OLE DB
+* Denado
+* Paxata (搶鮮版 (Beta))
 * 空白查詢
 
 下圖顯示 [其他]  的 [取得資料] 視窗。

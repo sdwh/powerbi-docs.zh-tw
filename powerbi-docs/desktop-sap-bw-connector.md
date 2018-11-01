@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280194"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336913"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 連接器
 您可以透過 Power BI Desktop 存取 **SAP Business Warehouse (BW)** 資料。
 
 如需有關 SAP 客戶可如何從將 Power BI 連線到其現有的 SAP Business Warehouse (BW) 系統中受益的資訊，請參閱 [Power BI 與 SAP BW 白皮書](https://aka.ms/powerbiandsapbw)。 如需搭配 SAP BW 使用 DirectQuery 的詳細資訊，請參閱 [DirectQuery 和 SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) 一文。
 
-從 2018 年 6 月版本的 **Power BI Desktop** 開始，您可以使用 SAP BW 連接器，它具有大幅提升效能與功能的實作。 此更新版本的 SAP BW 連接器由 Microsoft 開發，稱為**實作 2.0**。 您可以選取第 1 版 (v1) 的 **SAP BW 連接器**或**實作 2.0 SAP 連接器**。 下列各節會依序描述每個版本的安裝。 從 Power BI Desktop 連線至 SAP BW 時，您可以選擇其中一個或另一個連接器。
+從 2018 年 6 月版本的 **Power BI Desktop** (通常與 2018 年 10 月的版本同時發行) 開始，您可以使用 SAP BW 連接器，來獲得大幅改善的效能與功能。 此更新版本的 SAP BW 連接器由 Microsoft 開發，稱為**實作 2.0**。 您可以選取第 1 版 (v1) 的 **SAP BW 連接器**或**實作 2.0 SAP 連接器**。 下列各節會依序描述每個版本的安裝。 從 Power BI Desktop 連線至 SAP BW 時，您可以選擇其中一個或另一個連接器。
 
 我們建議您盡可能使用**實作 2.0 SAP 連接器**。
 

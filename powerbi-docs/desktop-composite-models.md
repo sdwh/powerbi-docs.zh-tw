@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ddfe0c7ad116a74fa6887491ee41e544096de0f9
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388839"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336982"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop 中的複合模型 (預覽)
 
@@ -58,7 +58,7 @@ ms.locfileid: "39388839"
 例如，使用**複合模型**時，建立的模型就可以結合來自企業資料倉儲的銷售資料、部門 SQL Server 資料庫中的銷售目標相關資料，以及從試算表匯入的一些資料。 結合多個 DirectQuery 來源的資料或結合 DirectQuery 與所匯入資料的模型，就稱為*複合模型*。
 
 > [!NOTE]
-> 在複合模型處於預覽狀態時，無法將複合模型發行至 Power BI 服務。 
+> 從 2018 年 10 月版本的 **Power BI Desktop** 開始，您「可以」將複合模型發行至 Power BI 服務。 對於排程重新整理與儀表板磚重新整理，Power BI 服務中的複合模型行為就如同匯入模型。 
 
 您能如往常一般，建立資料表之間的關聯性 (即使這些資料表來自不同的來源)，但有下列限制：不論實際基數為何，跨來源的關聯性都必須定義為有**多對多**基數。 這類關聯性的行為之後會和正常的**多對多**關聯性一樣，如 [Power BI Desktop 中的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md) 中所述。 請注意，在複合模型內容中，所有匯入的資料表便有如單一來源，不論實際匯入的實際基礎資料來源為何。   
 
@@ -164,12 +164,13 @@ ms.locfileid: "39388839"
 
 這一版的**複合模型**有一些限制。
 
-下列多維度來源不能與**複合模型**搭配使用：
+下列 Live Connect (多維度) 來源不能與**複合模型**搭配使用：
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Power BI 資料集
+* Azure Analysis Services
 
 使用 DirectQuery 連線到這些多維度來源時，將無法同時連線到其他 DirectQuery 來源，也無法結合匯入的資料。
 
