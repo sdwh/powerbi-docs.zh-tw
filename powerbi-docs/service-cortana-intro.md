@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2018
+ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 95fa59d91a73101d7d04f3921a81236bfae7d0bb
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: ccc99c2f9810bcda80e1f02ce67e49390fd0308f
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187298"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003240"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>使用 Cortana for Power BI 快速找出並檢視您的 Power BI 資料
 在您的 Windows 10 裝置上使用 Cortana，以取得重要業務問題的即時解答。 Cortana 藉由與 Power BI 整合，可直接從 Power BI 儀表板和報表擷取關鍵資訊。 需要的只有 Windows 10 2015 年 11 月 (含) 以上的版本、Cortana、Power BI 以及至少一個資料集的存取權。
@@ -22,19 +22,19 @@ ms.locfileid: "47187298"
 ![Cortana 搜尋欄位](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>預覽 Windows 10 的新 Cortana 儀表板搜尋體驗
-一段時間之後，您現在已可以[使用 Cortana 擷取某些類型的報表頁面](service-cortana-answer-cards.md)。 現在我們已新增**新體驗** -- 也會擷取儀表板的能力。 請試用，並[傳送意見反應](mailto:pbicortanasg@microsoft.com)。 最後，「新體驗」將擴充成包含 Cortana 一併搜尋報表。  新體驗的其中一個重要優點在於您設定時不需要進行特殊處理 (不允許 Cortana 或設定 Windows 10)，它就會運作。
+一段時間之後，您現在已可以[使用 Cortana 擷取某些類型的報表頁面](service-cortana-answer-cards.md)。 現在我們已新增**新體驗** -- 也會擷取儀表板的能力。 請試用，並[傳送意見反應](mailto:pbicortanasg@microsoft.com)。 最後，「新體驗」將擴充成包含 Cortana 一併搜尋報表。  新體驗的其中一個重要優點在於您設定時不需要進行特殊處理 (不允許 Cortana 或設定 Windows 10)。 它會正常運作。
 
 > [!NOTE]
 > 如果它未運作，請參閱[疑難排解文章](service-cortana-troubleshoot.md)以取得協助。
 > 
 > 
 
-基礎技術使用 [Microsoft 的 Azure 搜尋服務]()。 這項搜尋服務提供額外的功能，例如智慧排名、錯誤修正和自動完成。
+底層技術是使用 [Microsoft Azure 搜尋服務](https://docs.microsoft.com/azure/search/)。 此搜尋服務提供額外的功能，例如智慧排名、錯誤修正和自動完成。
 
 這兩個 Cortana 體驗會同時存在。
 
 ## <a name="cortana-for-power-bi-documentation"></a>Cortana for Power BI 文件
-我們有 4 份文件引導您設定和使用 Cortana for Power BI。 這系列的文章會帶您逐步完成
+我們提供四份文件引導您設定及使用適用於 Power BI 的 Cortana。 這系列的文章會帶您逐步完成
 
 **文章 1** (本篇)：了解 Cortana 和 Power BI 如何搭配運作
 
@@ -54,25 +54,25 @@ ms.locfileid: "47187298"
 ### <a name="cortana-and-dashboards-the-new-experience"></a>Cortana 和儀表板 (新體驗)
 Cortana 可以在您擁有的儀表板以及已與您共用的儀表板中尋找答案。 使用標題、關鍵字、擁有者名稱、工作區名稱、應用程式名稱等項目，來詢問 Cortana 問題。
 
-您的問題必須至少有 2 個字組，Cortana 才能尋找答案。 因此，若您在具有單一字組名稱 (Marketing) 的儀表板或報表上進行搜尋，請在問題中新增 "show"、"Power BI" 或 "<owner name>" 字組，如同 "show Marketing" 及 "michele hart sample"。 
+您的問題必須至少有 2 個字，Cortana 才能尋找答案。 因此，若您在具有單字名稱 (Marketing) 的儀表板或報表上進行搜尋，請在問題中新增 "show"、"Power BI" 單字或擁有者名稱，如同 "show Marketing" 與 "michele hart sample"。 
 
-如果您儀表板的標題有多個字組，則只有在搜尋至少符合兩個字組時，或儀表板符合其中一個字組和擁有者名稱時，Cortana 才會傳回該儀表板。 針對名為 "Customer Profitability Sample" 的儀表板： 
+如果您儀表板的標題有多個字，則只有在搜尋至少符合兩個字時，或符合其中一個字和擁有者名稱時，Cortana 才會傳回該儀表板。 針對名為 "Customer Profitability Sample" 的儀表板： 
 
 * "show me customer"「不」會傳回 Power BI 儀表板結果。   
 * "utterances 例如 "show me customer profitability"、"customer p"、"customer s"、"profitability sample"、"michele hart sample"、"show customer profitability sample" 和 "show me customer p"「將」會傳回 Power BI 結果。
-* 新增 "powerbi" 字組會算作 2 個必要字組中的其中一個，因此 "powerbi sample"「會」傳回 Power BI 結果。 
+* 新增 "powerbi" 單字會算作 2 個必要單字中的其中一個，因此 "powerbi sample"「會」傳回 Power BI 結果。 
   
-    ![有至少 2 個字組的 Cortana 搜尋](media/service-cortana-intro/power-bi-cortana-2-words.png)
+    ![有至少 2 個字的 Cortana 搜尋](media/service-cortana-intro/power-bi-cortana-2-words.png)
 
 ### <a name="cortana-and-reports"></a>Cortana 和報表
  Cortana 可以在具有[專供 Cortana 顯示所設計的頁面](service-cortana-answer-cards.md)的報表中尋找答案。 只需要從其中一個特殊報表頁面中，使用標題或關鍵字詢問問題。  
 
-報表的基礎技術是使用 [Microsoft 的 Power BI 問與答](consumer/end-user-q-and-a.md)。
+報表的底層技術是使用 [Microsoft 的 Power BI 問與答](consumer/end-user-q-and-a.md)。
 
-當您在 Cortana 中詢問問題時，Power BI 會從專為 Cortana 設計的報表頁面進行回答。 Cortana 會直接從已在 Power BI 中建立的 Cortana「回應卡」，即時判斷可能的答案。  若要進一步探索答案，只要在 Power BI 中開啟結果即可。
+當您在 Cortana 中詢問問題時，Power BI 會從專為 Cortana 設計的報表頁面進行回答。 Cortana 會直接從已在 Power BI 中建立的 Cortana「回應卡」，即時判斷可能的答案。  若要進一步探索答案，請在 Power BI 中開啟結果。
 
 > [!NOTE]
-> 您必須[使用 Power BI 服務及設定 Windows 以與 Power BI 通訊來啟用這項功能](service-cortana-enable.md)，Cortana 才能在您的 Power BI 報表中尋找答案。  
+> 您必須[使用 Power BI 服務及設定 Windows 以與 Power BI 通訊來啟用此功能](service-cortana-enable.md)，Cortana 才能在您的 Power BI 報表中尋找答案。  
 > 
 > 
 

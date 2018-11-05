@@ -7,27 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 10/25/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0cf9c152c9481e223a143bed3985e883c92af192
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 96b2fb3cb1558f862c792b3bed77c9f0c2bc61a5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416812"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101362"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>在 Power BI Desktop 中使用矩陣視覺效果
-透過 [矩陣] 視覺效果功能，您可以在 **Power BI Desktop** 報表中建立矩陣視覺效果 (有時也稱為「資料表」)，並與其他視覺效果交叉醒目提示矩陣內的元素。 此外，您可以選取資料列、資料行，甚至是個別資料格，然後交叉醒目提示。 最後，為了更妥善運用配置空間，矩陣視覺效果支援分層式配置。
+透過 [矩陣] 視覺效果功能，您可以在 **Power BI Desktop** 與 **Power BI 服務**報表中建立矩陣視覺效果 (有時也稱為「資料表」)，並與其他視覺效果交叉醒目提示矩陣內的元素。 此外，您可以選取資料列、資料行，甚至是個別資料格，然後交叉醒目提示。 可以將個別資料格和多個資料格的選取項目，複製及貼上到其他應用程式。 最後，為了更妥善運用配置空間，矩陣視覺效果支援分層式配置。
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
 矩陣有許多相關的功能，我們將在本文的下列各節中逐一介紹。
 
-> [!NOTE]
-> 從 2017 年 7 月發行的 **Power BI Desktop** 開始，矩陣和資料表視覺效果會反映所套用**報表主題**中的樣式 (包括色彩)。 這些可能不是您預期的矩陣視覺效果色彩，而且您可以在「報表主題」設定中進行變更。 如需主題的詳細資訊，請參閱[**在 Power BI Desktop 中使用報表主題**](../desktop-report-themes.md)。
-> 
-> 
+## <a name="report-themes"></a>報表主題
+矩陣和資料表視覺效果會反映所套用**報表主題**中的樣式 (包括色彩)。 這些可能不是您預期的矩陣視覺效果色彩，而且您可以在「報表主題」設定中進行變更。 如需主題的詳細資訊，請參閱[**在 Power BI Desktop 中使用報表主題**](../desktop-report-themes.md)。
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>了解 Power BI 如何計算總和
 
@@ -134,6 +132,20 @@ ms.locfileid: "47416812"
 此外，交叉醒目提示也可以使用 Ctrl + 按一下滑鼠左鍵。 例如，在下圖中，已從 [矩陣] 視覺效果選取子類別集合。 注意視覺效果中未選取的項目如何呈現灰色，以及頁面上的其他視覺效果如何反映 [矩陣] 視覺效果中所做的選擇。
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
+
+## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>複製 Power BI 中的值，以用於其他應用程式
+
+您的矩陣或資料表可能包含您希望在其他應用程式中使用的內容，例如 Dynamics CRM、Excel，甚至其他 Power BI 報表。 在 Power BI 上按一下滑鼠右鍵，可以將單一資料格或資料格選取範圍複製到剪貼簿，並貼到另一個應用程式。
+
+![複製選項](media/desktop-matrix-visual/power-bi-cell-copy.png)
+
+* 若要複製單一資料格的值，請選取資料格、按一下滑鼠右鍵，然後選擇 [複製值]。 使用剪貼簿上未格式化的資料格的值，您現在可以將它貼至另一個應用程式。
+
+    ![複製選項](media/desktop-matrix-visual/power-bi-copy.png)
+
+* 若要複製多個資料格，請選取資料格範圍，或使用 CTRL 來選取一或多個資料格。 該複本將包含資料行和資料列標頭。
+
+    ![貼到 Excel](media/desktop-matrix-visual/power-bi-copy-selection.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>矩陣視覺效果的網底和字型色彩
 透過 [矩陣] 視覺效果，您可以將**條件式格式設定** (色彩和網底) 套用至矩陣內的資料格背景，也可以將條件式格式設定套用至文字和值本身。

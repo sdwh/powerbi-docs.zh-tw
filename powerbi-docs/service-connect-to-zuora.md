@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b83ef2b6f2cd07e9f6c9af849e0f64d0490fa1af
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546922"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003217"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>使用 Power BI 連接到 Zuora
 Zuora for Power BI 可讓您以視覺化方式顯示重要的營收、帳單與訂閱資料。 使用預設儀表板與報表來分析使用狀況趨勢、追蹤帳單與付款，以及監視週期性營收，或根據您自己的獨特儀表板與報告需求進行自訂。
@@ -32,13 +32,13 @@ Zuora for Power BI 可讓您以視覺化方式顯示重要的營收、帳單與�
 3. 選取 [Zuora] \> [取得]。
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. 指定您的 Zuora URL。 一般來說為 " <https://www.zuora.com> "，請參閱以下[尋找這些參數](#FindingParams)，以了解詳細資料。
+4. 指定您的 Zuora URL。 URL 一般是 "<https://www.zuora.com>"，請參閱以下[尋找這些參數](#FindingParams)，以了解詳細資料。
 
    ![](media/service-connect-to-zuora/params.png)
-5. 在 [ **驗證方法**] 選取 [ **基本** ]，然後輸入使用者名稱及密碼，再選取 [ **登入**]。
+5. 針對 驗證方法，請選取 基本，然後輸入使用者名稱與密碼，再選取 登入。
 
     ![](media/service-connect-to-zuora/creds.png)
-6. 一經核准，匯入程序會自動開始。 完成時，新的儀表板、報表和模型會出現在瀏覽窗格中。 選取儀表板以檢視匯入的資料。
+6. 一經核准，匯入程序會自動開始。 完成時，新的儀表板、報表與模型會出現在 [瀏覽] 窗格中。 選取儀表板以檢視匯入的資料。
 
      ![](media/service-connect-to-zuora/dashboard.png)
 
@@ -95,11 +95,10 @@ Zuora for Power BI 可讓您以視覺化方式顯示重要的營收、帳單與�
 提供您通常用來登入以存取 Zuora 資料的 URL。 有效的選項為：  
 
 * https://www.zuora.com  
-* https://www.apisandbox.zuora.com  
 * 對應至服務執行個體的 URL  
 
 ## <a name="troubleshooting"></a>疑難排解
-Zuora 內容套件會提取 Zuora 帳戶的許多不同層面。 如果您未使用某些功能，可能會看到對應的磚/報表空白。 如果載入時發生任何問題，請連絡 Power BI 支援人員。
+Zuora 內容套件會提取 Zuora 帳戶的許多不同層面。 如果您未使用某些功能，可能會看到對應的圖格/報表是空白的。 如果載入時發生任何問題，請連絡 Power BI 支援人員。
 
 ## <a name="next-steps"></a>後續步驟
 [開始使用 Power BI](service-get-started.md)

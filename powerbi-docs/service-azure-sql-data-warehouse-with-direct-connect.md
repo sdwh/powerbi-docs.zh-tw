@@ -10,24 +10,24 @@ ms.topic: conceptual
 ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 0f2c3649a2c6e0582fe7536473f7a6ee9067ee1d
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 347a56f75fa7ea9008539e3d75d094d0c22c69d1
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137437"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101293"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>具有 DirectQuery 的 Azure SQL 資料倉儲
-具有 DirectQuery 的 Azure SQL 資料倉儲可讓您根據 Azure SQL 資料倉儲中已有的資料和度量建立動態報表。 藉由 DirectQuery，當您瀏覽資料時，會即時將查詢傳回至您的 Azure SQL 資料倉儲。 這項功能搭配 SQL 資料倉儲的調整功能，可讓使用者依據數 TB 的資料，幾分鐘內就能建立動態報表。 此外，[在 Power BI 中開啟]  按鈕的引進可讓使用者將 Power BI 直接連接到其 SQL 資料倉儲，而不需要手動指定相關資訊。
+具有 DirectQuery 的 Azure SQL 資料倉儲可讓您根據 Azure SQL 資料倉儲中已有的資料和度量建立動態報表。 藉由 DirectQuery，當您瀏覽資料時，會即時將查詢傳回至您的 Azure SQL 資料倉儲。 即時查詢搭配 SQL 資料倉儲的調整功能，可讓使用者在幾分鐘內就能從數 TB 的資料建立動態報表。 此外，[在 Power BI 中開啟]  按鈕的引進可讓使用者將 Power BI 直接連接到其 SQL 資料倉儲，而不需要手動指定相關資訊。
 
 使用 SQL 資料倉儲連接器時：
 
 * 連接時，指定完整的伺服器名稱 (請參閱下列詳細資訊)
 * 請確定已將伺服器的防火牆規則設定為「允許存取 Azure 服務」。
 * 選取資料行或加入篩選等每一個動作，都會直接查詢資料倉儲
-* 圖格已設定為大約每隔 15 分鐘重新整理一次，而且不需要排程重新整理  當您連接時，這可以在 [進階] 設定中調整。
+* 圖格已設定為大約每隔 15 分鐘重新整理一次，而且不需要排程重新整理  當您連線時，可以在 [進階] 設定中調整 [重新整理]。
 * 問與答不能用於 DirectQuery 資料集
-* 不會自動選擇結構描述變更
+* 不會自動挑選結構描述變更
 
 隨著我們持續改善這些體驗，這些限制和備註可能會變更。 連接的步驟如下所述。
 
@@ -37,14 +37,14 @@ ms.locfileid: "37137437"
 > 我們已改善與 Azure SQL 資料倉儲的連線。  若要獲得連線至 Azure SQL 資料倉儲資料來源的最佳體驗，請使用 Power BI Desktop。  在您建置模型和報表之後，即可將它發佈至 Power BI 服務。  現在已取代 Power BI 服務中 Azure SQL 資料倉儲的直接連接器。
 >
 
-在您的 SQL 資料倉儲與 Power BI 之間移動的最簡單方式是在 Azure Preview 入口網站內使用 [在 Power BI 中開啟]  按鈕。 這個按鈕可讓您無接縫地開始在 Power BI 中建立新的儀表板。
+在您的 SQL 資料倉儲與 Power BI 之間移動的最簡單方式是在 Azure 入口網站內使用 [在 Power BI 中開啟] 按鈕。 這個按鈕可讓您無接縫地開始在 Power BI 中建立新的儀表板。
 
-1. 若要開始使用，請巡覽至您在 Azure Preview 入口網站中的 SQL 資料倉儲執行個體。 請注意，SQL 資料倉儲目前只會出現在 Azure Preview 入口網站上。
-2. 按一下 [在 Power BI 中開啟]  按鈕
+1. 若要開始使用，請巡覽至您在 Azure 入口網站中的 SQL 資料倉儲執行個體。 請注意，SQL 資料倉儲目前只會出現在 Azure Preview 入口網站上。
+2. 按一下 [在 Power BI 中開啟] 按鈕
    
     ![](media/service-azure-sql-data-warehouse-with-direct-connect/openinpowerbi.png)
 3. 如果我們無法直接將您登入，或者您沒有 Power BI 帳戶，則必須由您進行登入。
-4. 您會被導向至 SQL 資料倉儲連接頁面，其中已預先填入您的 SQL 資料倉儲中的資訊。 輸入您的認證並點選 [連接] 以建立連接。
+4. 您會被導向至 SQL 資料倉儲連線頁面，其中已預先填入您的 SQL 資料倉儲中的資訊。 輸入您的認證並點選 [連接] 以建立連接。
 
 ## <a name="connecting-through-power-bi"></a>透過 Power BI 連接
 SQL 資料倉儲也會列在 Power BI 的 [取得資料] 頁面上。 
@@ -78,7 +78,7 @@ SQL 資料倉儲也會列在 Power BI 的 [取得資料] 頁面上。
     ![](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 
 ## <a name="finding-parameter-values"></a>尋找參數值
-在 Azure Preview 入口網站中可以找到您完整的伺服器名稱和資料庫名稱。 請注意，SQL 資料倉儲目前只會出現在 Azure Preview 入口網站上。
+在 Azure 入口網站中可以找到您完整的伺服器名稱與資料庫名稱。 請注意，SQL 資料倉儲目前只會出現在 Azure Preview 入口網站上。
 
 ![](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
@@ -89,6 +89,6 @@ SQL 資料倉儲也會列在 Power BI 的 [取得資料] 頁面上。
 ## <a name="next-steps"></a>後續步驟
 [Power BI 是什麼？](power-bi-overview.md)  
 [取得 Power BI 的資料](service-get-data.md)  
-[Azure SQL 資料倉儲](https://azure.microsoft.com/documentation/services/sql-data-warehouse/)  
+[Azure SQL 資料倉儲](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

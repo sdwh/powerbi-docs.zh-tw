@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2623dd3280636583d5dd6d6e3f57518550032193
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909214"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003194"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>監視 Power BI Premium 及 Power BI Embedded 容量
 
@@ -61,13 +61,11 @@ ms.locfileid: "48909214"
 
 ### <a name="datasets-tab"></a>[資料集] 索引標籤
 
-[資料集] 索引標籤提供應用程式中的大量度量。 使用索引標籤頂端的四個按鈕巡覽至不同區域：**摘要**、**重新整理**、**查詢**和**資料集**。
+[資料集] 索引標籤提供應用程式中的大量度量。 使用索引標籤頂端的按鈕巡覽至不同區域：**摘要**、**重新整理**、**查詢持續時間**、**查詢等候**和**資料集**。
 
 ![[資料集] 索引標籤](media/service-admin-premium-monitor-capacity/datasets-tab.png)
 
 #### <a name="summary-area"></a>[摘要] 區域
-
-![[摘要] 按鈕](media/service-admin-premium-monitor-capacity/summary-button.png)
 
 [摘要] 區域會根據實體、系統資源和資料集工作負載，來顯示您容量的檢視。
 
@@ -80,19 +78,27 @@ ms.locfileid: "48909214"
 
 #### <a name="refreshes-area"></a>[重新整理] 區域
 
-![[重新整理] 按鈕](media/service-admin-premium-monitor-capacity/refreshes-button.png)
-
 [重新整理] 索引標籤列出過去七天內完成的重新整理次數、成功的度量次數、平均/最大重新整理等候時間與平均/最大重新整理期間 (由資料集分割)。 底部的兩個圖表顯示重新整理與記憶體耗用量 (GB) 和分割為一小時貯體之平均等候時間 (以當地時間回報) 的比較。 頂端的橫條圖列出完成資料集重新整理 (重新整理期間) 與平均重新整理等候時間的前五個資料集與平均時間總計。 多個高重新整理等候時間突增表示容量使用率很高。
 
-#### <a name="queries-area"></a>查詢區域
+#### <a name="query-durations-area"></a>[查詢持續時間] 區域
 
-![查詢按鈕](media/service-admin-premium-monitor-capacity/queries-button.png)
+[查詢持續時間] 區域會列出執行的查詢總數，以及平均/最大持續時間 (單位為毫秒)。 此資料是依過去七天內資料集、工作區與每小時貯體加以分割。 底部圖表會顯示查詢計數和平均持續時間 (單位為毫秒) 和記憶體耗用量 (單位為 GB)，分割成以當地時間回報的一小時貯體。
 
-[查詢] 區域會列出執行的查詢總數、即時查詢/直接查詢的查詢等待總計數、平均/最大期間、平均/最大等待時間 (由資料集分割，單位為毫秒)、過去七天內的工作區及每小時貯體。 底部圖表會顯示查詢計數、平均期間 (毫秒)，以及平均等待時間 (毫秒) 和記憶體耗用量，分割成以當地時間回報的每一小時貯體。 頂端的兩個圖表則會根據平均查詢期間和等待完成查詢時間，列出前五個資料集。 較長的查詢期間和較長的等待時間表示容量過度使用。 它也可能表示單一資料集正在造成問題，需要進一步的調查。
+右上方的圖表顯示查詢持續時間分佈的長條圖。 長條圖是依回報的查詢持續時間 (單位為毫秒) 分組為下列類別：<= 30 毫秒、30-100 毫秒、100-300 毫秒、300 毫秒 - 1 秒、1 秒 - 3 秒、3 秒 - 10 秒、10 秒 - 30 秒和 > 30 秒的時間間隔。
+
+右下的圖表則是根據完成查詢所花費的平均查詢持續時間，列出前五個資料集。
+
+較長的查詢期間和較長的等待時間表示容量過度使用。 它也可能表示單一資料集正在造成問題，需要進一步的調查。
+
+#### <a name="query-waits-area"></a>[查詢等候] 區域
+
+[查詢等候] 區域會列出執行的查詢總數、即時查詢/直接查詢的查詢等候總計數，以及回報的平均/最大等候時間 (單位為毫秒)。 此資料是依過去七天內資料集、工作區與每小時貯體加以分割。 底部圖表會顯示查詢等候計數和平均等候時間 (單位為毫秒) 和記憶體耗用量 (單位為 GB)，分割成以當地時間回報的一小時貯體。
+
+右上方的圖表顯示查詢等候時間分佈的長條圖。 長條圖是依回報的查詢持續時間 (單位為毫秒) 分組為下列類別：<= 50 毫秒、50-100 毫秒、100-200 毫秒、200-400毫秒、400 毫秒 - 1秒、1 秒 - 5 秒、和 > 5 秒的時間間隔。
+
+右下的圖表則是根據開始查詢所花費的平均等候時間，列出前五個資料集。
 
 #### <a name="datasets-area"></a>[資料集] 區域
-
-![[資料集] 按鈕](media/service-admin-premium-monitor-capacity/datasets-button.png)
 
 [資料集] 區域顯示過去一小時由於記憶體壓力而撤出的完整資料集。
 

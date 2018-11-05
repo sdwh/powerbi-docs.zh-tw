@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d2aae3abeca51cdcc142660190332f84adcfddfb
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: c94fd3ce58cefdb9e3cc7749b6486ab9bb0577cb
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448814"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101454"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 報表和儀表板中的資料表
 資料表是一個方格，其中以資料列和資料行的邏輯數列包含相關的資料。 它也可能包含標頭和總計資料列。 資料表適合處理您要在許多值裡尋找單一類別的量化比較。 例如，這個資料表會顯示**類別**的 5 個不同量值。
 
 ![](media/power-bi-visualization-tables/table.png)
+
+在報表中建立資料表，並在資料表中交叉醒目提示元素，並在相同的報表頁面上顯示其他視覺效果。  此外，您可以選取資料列、資料行，甚至是個別資料格，然後交叉醒目提示。 可以將個別資料格和多個資料格的選取項目，複製及貼上到其他應用程式。
 
 ## <a name="when-to-use-a-table"></a>使用資料表的時機
 資料表極適合：
@@ -108,9 +110,24 @@ ms.locfileid: "47448814"
 6. 若要從視覺效果移除設定格式化的條件，只要以滑鼠右鍵再按一次欄位，然後選取 [移除設定格式化的條件] 即可。
 
 > [!TIP]
-> 您也可以從格式化窗格 (滾筒刷圖示) 中存取條件式格式設定。 選取要格式化的值，然後將 [色階] 或 [資料橫條] 設定為 [開啟]，以套用預設的設定；或者，您也可以藉由選取 [進階控制項] 來自訂設定。
+> 您也可以從格式化窗格 (滾筒刷圖示) 中存取條件式格式設定。 選取要設定格式的值，然後將 [色階] 或 [資料橫條] 設定為 [開啟]，以套用預設的設定；或者，您也可以透過選取 [進階控制項] 來自訂設定。
 > 
-> 
+## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>複製 Power BI 資料表中的值，以用於其他應用程式
+
+您的資料表或矩陣可能包含您希望在其他應用程式中使用的內容，例如 Dynamics CRM、Excel，甚至其他 Power BI 報表。 在 Power BI 上按一下滑鼠右鍵，可以將單一資料格或資料格選取範圍複製到剪貼簿，並貼到另一個應用程式。
+
+
+* 若要複製單一資料格的值，請選取資料格、按一下滑鼠右鍵，然後選擇 [複製值]。 使用剪貼簿上未格式化的資料格的值，您現在可以將它貼至另一個應用程式。
+
+    ![複製選項](media/power-bi-visualization-tables/power-bi-copy-value.png)
+
+* 若要複製多個資料格，請選取資料格範圍，或使用 CTRL 來選取一或多個資料格。 該複本將包含資料行和資料列標頭。
+
+    ![複製選項](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+
+    該複本包含資料行和資料列標頭。
+
+    ![貼到 Excel](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>調整資料表的資料行寬度
 有時候 Power BI 會截斷報表和儀表板的資料行標題。 若要顯示整個資料行名稱，請將滑鼠停駐在標題右邊的空間以顯示雙箭號，選取並拖曳。

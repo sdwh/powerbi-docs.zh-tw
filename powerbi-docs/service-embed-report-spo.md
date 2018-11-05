@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/01/2018
-ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.date: 10/20/2018
+ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641198"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100764"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -42,41 +42,38 @@ ms.locfileid: "49641198"
 2. 選取 [檔案] 功能表項目。
 
 3. 選取 [內嵌於 SharePoint Online]。
-   
-    ![](media/service-embed-report-spo/powerbi-file-menu.png)
+
+    ![[檔案] 功能表](media/service-embed-report-spo/powerbi-file-menu.png)
 
 4. 從對話方塊複製 URL。
 
-    ![](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
-
-   > [!NOTE]
-   > 您也可以使用檢視報表時，顯示在網頁瀏覽器網址列中的 URL。 URL 會包含目前所檢視的報表頁面。 如果您想要使用不同的頁面，您必須從 URL 移除報表區段。
+    ![內嵌連結](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>將 Power BI 報表新增至 SharePoint Online 頁面
 
 1. 在 SharePoint Online 中開啟要使用的頁面，然後選取 [編輯]。
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
+    ![SP 編輯頁面](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
     或者藉由選取 SharePoint Online 內的 [+ 新增]，以建立新的新式網站頁面。
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
+    ![SP 新增頁面](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
 2. 選取 **+** 然後選取 [Power BI] Web 組件。
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
+    ![SP 新增網頁組件](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
-3. 選取 [新增報告] 。
+3. 選取 [新增報告]。
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
+    ![SP 新報表](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. 將報表 URL 傳送至屬性窗格。 這是您從上述步驟所複製的 URL。 報表會自動載入。
+4. 將報表 URL 傳送至屬性窗格。 此報表 URL 是您從上述步驟所複製的 URL。 報表會自動載入。
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
+    ![SP 新增網頁組件屬性](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
 5. 選取 [發佈]，讓 SharePoint Online 使用者能看見您所做的變更。
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
+    ![載入的 SP 報表](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
 ## <a name="granting-access-to-reports"></a>授與報表存取權
 
@@ -87,24 +84,12 @@ ms.locfileid: "49641198"
 
 有兩個方法可提供 Power BI 服務內報表的存取權。 如果您使用 Office 365 群組來建置 SharePoint Online 小組網站，則要將使用者列為 **Power BI 服務內的應用程式工作區**成員，及列出 **SharePoint 頁面**。 如此可確保使用者能夠檢視該群組的內容。 如需詳細資訊，請參閱[在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md)。
 
-或者您可以遵循下列步驟，將您的報表存取權授與使用者。
+或者，您可以透過在應用程式中內嵌報表來直接與使用者共用報表。 必須預先安裝該應用程式才能內嵌報表。 您可以使用 [自動安裝應用程式] 功能，設定要預先安裝的應用程式。
 
-1. 將報表中的磚新增至儀表板。
+   ![自動安裝應用程式](media/service-embed-report-spo/install-app-automatically.png)
 
-2. 與需要存取報表的使用者共用儀表板。 如需詳細資訊，請參閱 [Share a dashboard with colleagues and others](service-share-dashboards.md) (與同事和其他人共用儀表板)。
-
-## <a name="web-part-settings"></a>網頁組件設定
-
-以下是 SharePoint Online 的 Power BI 網頁組件之可調整設定的描述。
-
-![](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
-
-| 屬性 | 描述 |
-| --- | --- |
-| 頁面名稱 |設定網頁組件所顯示的預設頁面。 從下拉式清單中選取一個值。 如果沒有顯示任何頁面，可能是您的報表只有一個頁面，或您所貼上的 URL 包含頁面名稱。 從 URL 移除報表區段，以選取特定頁面。 |
-| 顯示 |調整報表如何被納入 SharePoint Online 頁面的選項。 |
-| 顯示功能窗格 |顯示或隱藏頁面功能窗格。 |
-| 顯示篩選窗格 |顯示或隱藏篩選窗格。 |
+> [!NOTE]
+> **使用者需要存取 SharePoint 頁面和報表，才能在 SharePoint 頁面上查看報表。**
 
 ## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
@@ -113,13 +98,26 @@ ms.locfileid: "49641198"
 > [!NOTE]
 > Azure Active Directory 2.0 尚不支援多重要素驗證。 使用者會收到指出「錯誤」的訊息。 如果使用者使用其安全性裝置再次登入 SharePoint Online ，則可以檢視報表。
 
+## <a name="web-part-settings"></a>網頁組件設定
+
+以下是 SharePoint Online 的 Power BI 網頁組件之可調整設定的描述。
+
+![SP 網頁組件屬性](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
+
+| 屬性 | 描述 |
+| --- | --- |
+| 頁面名稱 |設定網頁組件所顯示的預設頁面。 從下拉式清單中選取一個值。 如果沒有顯示任何頁面，可能是您的報表只有一個頁面，或您所貼上的 URL 包含頁面名稱。 從 URL 移除報表區段，以選取特定頁面。 |
+| 顯示 |調整報表如何被納入 SharePoint Online 頁面的選項。 |
+| 顯示功能窗格 |顯示或隱藏頁面功能窗格。 |
+| 顯示篩選窗格 |顯示或隱藏篩選窗格。 |
+
 ## <a name="reports-that-do-not-load"></a>不會載入的報表
 
 您的報表可能未在 Power BI Web 組件中載入，並可能顯示下列訊息。
 
 *此內容無法使用。*
 
-![](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
+![找不到報表的訊息](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
 
 有兩個常見的原因會導致此訊息的出現。
 
@@ -128,11 +126,15 @@ ms.locfileid: "49641198"
 
 請連絡 SharePoint Online 頁面的擁有者，以協助您解決問題。
 
+## <a name="licensing"></a>授權
+
+在 SharePoint 中檢視報表的使用者需要 **Power BI Pro 授權**，或者內容需要位於 **[Power BI Premium 容量 (EM 或 P SKU)](service-admin-premium-purchase.md)** 的工作空間中。
+
 ## <a name="known-issues-and-limitations"></a>已知的問題及限制
 
 * 錯誤: 「發生錯誤，請嘗試登出再登入，然後重新前往此頁面。 相互關聯識別碼: 未定義，HTTP 回應狀態: 400，伺服器錯誤碼 10001，訊息: 缺少重新整理權杖」
   
-  收到此錯誤時，請嘗試執行下列其中一項動作。
+  如果您收到這個錯誤，請嘗試下列其中一個疑難排解步驟。
   
   1. 登出再登入 SharePoint。 請務必關閉所有瀏覽器視窗，然後再重新登入。
 

@@ -2,32 +2,33 @@
 title: 使用開發人員工具建立自訂視覺效果
 description: 自訂視覺效果可讓您滿足使用者的需求，並契合應用程式的設計。 您可以使用開發人員工具來建立 Power BI 的自訂視覺效果。
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 11/30/2017
-ms.author: maghan
-ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a8aca5e3410d6352d64044cdc1d8575b2449912c
+ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726677"
+ms.lasthandoff: 10/26/2018
+ms.locfileid: "50153694"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>使用開發人員工具建立自訂視覺效果
+
 自訂視覺效果可讓您滿足使用者的需求，並契合應用程式的設計。 您可以使用開發人員工具來建立 Power BI 的自訂視覺效果。
 
 > [!NOTE]
 > 這份文件可讓您輕鬆上手。 如需深入的詳細資訊，請參閱 [Power BI 視覺效果 Git 存放庫](https://github.com/Microsoft/PowerBI-visuals)中的參考資訊。
-> 
-> 
 
 ## <a name="requirements"></a>需求
+
 * 需具備 NodeJS 4.0 以上的版本 (建議 5.0 或更新版本) [下載 NodeJS](https://nodejs.org)
 
 ## <a name="install-nodejs-and-the-power-bi-tools"></a>安裝 NodeJS 和 Power BI 工具
+
 若要建立自訂視覺效果，您必須安裝 NodeJS。 若要執行命令列工具，需具備 NodeJS。
 
 1. 下載並安裝 [NodeJS](https://nodejs.org)。 需具備 4.0 或更新版本，但建議使用 5.0 或更新版本。
@@ -83,12 +84,11 @@ ms.locfileid: "44726677"
 <a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>伺服器憑證安裝
+
 若要啟用視覺效果的即時預覽，需具備受信任的 HTTPS 伺服器。 在開始之前，您必須先安裝 SSL 憑證，才能將視覺效果資產載入網頁瀏覽器。 
 
 > [!NOTE]
 > 這是用於開發人員工作站的一次性安裝。
-> 
-> 
 
 若要建立憑證，請執行下列命令。
 
@@ -96,9 +96,6 @@ ms.locfileid: "44726677"
 
 > [!NOTE]
 > 您應該會看到一則訊息，指示憑證的位置路徑和新產生的複雜密碼。
-> 
-> 
-
 
 若要安裝憑證，請執行下列命令。
 
@@ -106,8 +103,6 @@ ms.locfileid: "44726677"
 
 > [!NOTE]
 > 您應該會看到一則訊息，指示使用新產生的複雜密碼來安裝 PFX 憑證。
-> 
-> 
 
 **Windows OS**
 
@@ -131,12 +126,10 @@ ms.locfileid: "44726677"
 
 > [!NOTE]
 > 如果系統無法辨識憑證，您可能需要重新啟動電腦。
-> 
-> 
 
 **OSX**
 
-1. 如果左上方的鎖為鎖定狀態，請選取該鎖以解除鎖定。 搜尋 *localhost* 並連按兩下憑證。
+1. 如果左上方的鎖為鎖定狀態，請選取該鎖以解除鎖定。 搜尋 *localhost* 並按兩下憑證。
 
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx.png)
 2. 選取 [永遠信任]，然後關閉視窗。
@@ -149,10 +142,9 @@ ms.locfileid: "44726677"
 
 > [!NOTE]
 > 如果系統無法辨識憑證，您可能需要重新啟動電腦。
-> 
-> 
 
-## <a name="enable-live-preview-of-developer-visual"></a>啟用開發人員視覺效果的即時預覽
+## <a name="enable-a-live-preview-of-the-developer-visual"></a>啟用開發人員視覺效果的即時預覽
+
 若要啟用自訂視覺效果的即時預覽，請遵循下列步驟。 這可讓您在編輯報表時，於 Power BI 服務中使用視覺效果。
 
 1. 瀏覽並登入 [app.powerbi.com](https://app.powerbi.com)。
@@ -168,16 +160,16 @@ ms.locfileid: "44726677"
 
    > [!NOTE]
    > 您必須已從開發電腦的視覺效果資料夾執行 `pbiviz start`，才能進行此動作。 如需如何建立視覺效果的詳細資訊，請參閱本文的[建立新的視覺效果](#create-a-new-visual)。
-   > 
-   > 
+
 5. 在報表畫布中選取視覺效果。 您可以使用繫結其他視覺效果的相同方式來繫結資料。
 
 現在，您可以著手開發自己的視覺效果。
 
 ## <a name="create-a-new-visual"></a>建立新的視覺效果
+
 您可以執行下列命令來建立新的視覺效果專案。
 
-```
+```powershell
 pbiviz new MyVisualName
 ```
 
@@ -186,18 +178,20 @@ pbiviz new MyVisualName
 此命令會在命令執行所在目錄中建立新的資料夾， 並會產生視覺效果的基本入門範本。 當命令完成時，您可以開啟該目錄，並使用喜好的編輯器以開始使用新的視覺效果。
 
 ## <a name="testing-your-visual-in-power-bi"></a>在 Power BI 中測試視覺效果
+
 您可以在 Power BI 服務的報表和儀表板中測試視覺效果。
 
 <a name="running-your-visual"></a>
 
 ### <a name="running-your-visual"></a>執行視覺效果
+
 您可以透過下列方式來執行視覺效果：
 
 1. 開啟提示。
 2. 將目錄變更為您的視覺效果資料夾。 這是包含 `pbiviz.json` 檔案的資料夾。
 3. 執行下列命令：
 
-    ```
+    ```powershell
     pbiviz start
     ```
 
@@ -205,7 +199,7 @@ pbiviz new MyVisualName
 
 如果您的位置錯誤，則會看到類似如下的錯誤：
 
-```
+```powershell
     error  LOAD ERROR Error: pbiviz.json not found. You must be in the root of a visual project to run this command.
         at e (C:\Users\[user]\AppData\Roaming\npm\node_modules\powerbi-visuals-tools\lib\VisualPackage.js:67:35)
         at Function.loadVisualPackage (C:\Users\[user]\AppData\Roaming\npm\node_modules\powerbi-visuals-tools\lib\VisualPackage.js:62:16)
@@ -220,14 +214,13 @@ pbiviz new MyVisualName
 ```
 
 ### <a name="viewing-your-visual-in-power-bi"></a>在 Power BI 中檢視視覺效果
+
 若要在報表中檢視視覺效果，請移至該報表，然後選取 [視覺效果] 窗格中的視覺效果。
 
 > [!NOTE]
 > 在進行此動作之前，您必須先執行 `pbiviz start` 命令 (如[執行視覺效果](#running-your-visual)一節所述)。
-> 
-> 
 
-![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
+![Power BI 開發人員視覺效果選取項目](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
 
 接著，即會顯示視覺效果的入門範本。
 
@@ -242,6 +235,7 @@ pbiviz new MyVisualName
 | 傳送意見反應 |如果您有可以改善體驗的建議，歡迎告訴我們！ (需要 GitHub 帳戶) |
 
 ## <a name="package-your-visual-for-use-in-power-bi-desktop-and-distribution"></a>封裝視覺效果以用於 Power BI Desktop 並進行發佈
+
 若要將視覺效果載入 [Power BI Desktop](https://powerbi.microsoft.com/desktop/)，或在 [Power BI 視覺化組件庫](https://visuals.powerbi.com)中與社群分享，您必須先產生 `pbiviz` 檔案。
 
 您可以透過下列方式來封裝視覺效果：
@@ -250,19 +244,21 @@ pbiviz new MyVisualName
 2. 將目錄變更為您的視覺效果資料夾。 這是包含 `pbiviz.json` 檔案的資料夾。
 3. 執行下列命令：
 
-    ```
+    ```powershell
     pbiviz package
     ```
 
 此命令會在視覺化專案的 `dist/` 目錄中建立 `pbiviz`。 它會覆寫已存在的 `pbiviz` 檔案 (若有的話)。
 
 ## <a name="updating-the-visuals-api-version"></a>更新視覺效果 API 版本
+
 當您使用 `pbiviz new` 建立視覺效果時，系統會將適當的 API 類型定義和 json 結構描述複本複製到您的視覺效果目錄。 您可以使用 `pbiviz update` 命令，視需要更新這些檔案。 如果我們發行過去 API 版本的修正程式，或您想要更新至最新的 API 版本，此功能就非常實用。
 
 ### <a name="updating-your-existing-api-version"></a>更新現有的 API 版本
+
 如果我們發行現有 API 的更新，您可以透過下列方式取得最新版本。
 
-```
+```powershell
 #Update your version of pbiviz
 npm install -g powerbi-visuals-tools
 
@@ -273,9 +269,10 @@ pbiviz update
 這會從 npm 下載最新的工具，包括已更新的類型定義與結構描述。 使用 `pbiviz update` 時，最新版本即會覆寫 *pbiviz.json* 檔案的 `apiVersion` 屬性。
 
 ### <a name="upgrading-to-a-different-api-version"></a>升級至不同的 API 版本
+
 您可以使用上述的相同步驟，更新至不同的 API 版本。 您可以明確指定您想要使用的 API 版本。
 
-```
+```powershell
 #Update your version of pbiviz
 npm install -g powerbi-visuals-tools
 
@@ -287,10 +284,9 @@ pbiviz update 1.2.0
 
 > [!WARNING]
 > 工具所使用的預設 API 版本一律為 API 的穩定版本。 比預設 API 版本更晚的任何版本皆為不穩定版本而且可能隨時變更。 不穩定版本可能會發生非預期的行為，並在 Power BI 服務與 Power BI Desktop 之間出現不一致的行為。 如需目前的穩定 API 版本，請參閱[變更記錄檔](https://github.com/Microsoft/PowerBI-visuals/blob/master/ChangeLog.md)。 如需發行前版本的詳細資訊，請參閱[藍圖](https://github.com/Microsoft/PowerBI-visuals/blob/master/Roadmap/README.md)。
-> 
-> 
 
 ## <a name="inside-the-visual-project"></a>在視覺效果專案內
+
 您的視覺效果專案是在執行 `pbiviz new` 命令時建立的資料夾。 
 
 ### <a name="file-structure"></a>檔案結構
@@ -308,6 +304,7 @@ pbiviz update 1.2.0
 | tsconfig.json |Typescript 編譯器設定。 深入了解 [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)。 |
 
 ### <a name="pbivizjson"></a>pbiviz.json
+
 這個檔案是視覺效果的主要設定檔， 其中包含您建置視覺效果所需的中繼資料以及檔案相關資訊。
 
 ```
@@ -336,6 +333,7 @@ pbiviz update 1.2.0
 ```
 
 ### <a name="visual-source-typescript"></a>視覺效果來源 (TypeScript)
+
 視覺效果程式碼應該以 TypeScript 來撰寫，其為 JavaScript 的超集合並支援更進階的功能且可優先存取 ES6/ES7 功能。
 
 所有 TypeScript 檔案應儲存在 `src/` 目錄，並新增至 `tsconfig.json` 中的 `files` 陣列。 這可讓 TypeScript 編譯器將其載入，並決定載入順序。
@@ -347,6 +345,7 @@ pbiviz update 1.2.0
 深入了解 [TypeScript](http://www.typescriptlang.org/)。
 
 ### <a name="visual-style-less"></a>視覺效果樣式 (Less)
+
 系統會使用階層式樣式表 (CSS) 來處理視覺效果樣式。 為了便於使用，我們會使用可支援部分進階功能 (例如巢狀結構、變數、mixin、條件、迴圈等等) 的 Less 預先編譯器。如果您不想使用上述任何功能，只需在 Less 檔案中撰寫一般 CSS 即可。
 
 您應將所有 Less 檔案儲存在 `style/` 目錄中。 系統會載入 `pbiviz.json` 檔案內之 `style` 欄位下方所指定的檔案。 若要載入任何其他檔案，則應該使用 `@import`。
@@ -354,12 +353,15 @@ pbiviz update 1.2.0
 深入了解 [Less](http://lesscss.org/)。
 
 ## <a name="debugging"></a>偵錯
+
 如需偵錯自訂視覺效果的祕訣，請參閱[偵錯指南](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md)。
 
 ## <a name="submit-your-visual-to-appsource"></a>將視覺效果提交至 AppSource
+
 您可以列出視覺效果供其他人使用，但要將它提交至 AppSource。 如需此程序的詳細資訊，請參閱[將自訂視覺效果發佈至 AppSource](developer/office-store.md)。
 
 ## <a name="troubleshooting"></a>疑難排解
+
 **找不到 pbiviz 命令 (或類似的錯誤)**
 
 如果您在終端機/命令列中執行 `pbiviz`，您應該會看到說明畫面。 如果未顯示，則表示安裝有誤。 請確定您至少已安裝 NodeJS 4.0 版。
@@ -376,8 +378,6 @@ pbiviz update 1.2.0
 
 > [!NOTE]
 > 偵錯視覺效果功能目前僅可在 Power BI 服務中使用；Power BI Desktop 或行動裝置應用程式皆尚未提供。 封裝的視覺效果仍可在每個地方運作。
-> 
-> 
 
 如需詳細資訊，請參閱[啟用開發人員視覺效果的即時預覽](#enable-live-preview-of-developer-visual)...
 
@@ -388,11 +388,11 @@ pbiviz update 1.2.0
 如需詳細資訊，請參閱[執行視覺效果](#running-your-visual)或[伺服器憑證安裝](#ssl-setup)。
 
 ## <a name="next-steps"></a>後續步驟
+
 [Power BI 中的視覺效果](visuals/power-bi-report-visualizations.md)  
 [Power BI 中的自訂視覺效果](power-bi-custom-visuals.md)  
 [將自訂視覺效果發佈至 Office 市集](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  
 [Less CSS](http://lesscss.org/)  
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
-
+有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/) 

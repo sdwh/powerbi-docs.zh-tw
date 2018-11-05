@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 2758ef661b70c53a37104c67c4012be79725990e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558439"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101477"
 ---
 # <a name="on-premises-data-gateway"></a>內部部署資料閘道
 
@@ -47,9 +47,9 @@ ms.locfileid: "45558439"
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>下載並安裝內部部署資料閘道
 
-請於下載功能表下選取 [資料閘道]，以下載閘道。 下載[內部部署資料閘道](http://go.microsoft.com/fwlink/?LinkID=820925)。 
+請於下載功能表下選取 [資料閘道]，以下載閘道。 下載[內部部署資料閘道](http://go.microsoft.com/fwlink/?LinkID=820925)。
 
-請注意，更新內部部署資料閘道的方式是重新安裝閘道，如本節中所述。 在透過重新安裝更新閘道時，會保留現有的閘道設定。
+請注意，更新內部部署資料閘道的方式是重新安裝閘道，如此節中所述。 只要安裝較新版本的閘道，就會保留您現有的設定。 如果您安裝相同的版本，則會將其視為完整重新安裝，並不會保留您的設定。
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 

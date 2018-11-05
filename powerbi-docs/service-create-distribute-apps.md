@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62950462f60fea6db44a9756eff8f99a6841d1d4
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: 3881e37fa5e97939265e9bb9362cee65a1030e67
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435434"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100810"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中發佈具有儀表板和報表的應用程式
 
@@ -63,7 +63,7 @@ ms.locfileid: "49435434"
    
      ![應用程式內容](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-5. 在 [存取] 上，決定誰可以存取應用程式：組織中的所有人、特定人員、Active Directory 安全性群組。 如果您有權限，您可以決定為收件者自動安裝應用程式。 您可以在 [Power BI 管理入口網站](#how-to-enable-pushing-apps)中啟用這項設定。 您可以了解[推送應用程式](#how-to-enable-pushing-apps)的其他考量。
+5. 在 [存取] 上，決定誰可以存取應用程式：組織中的所有人、特定人員、Active Directory 安全性群組。 如果您有權限，您可以決定為收件者自動安裝應用程式。 Power BI 系統管理員可以在 Power BI 管理入口網站中啟用此設定。 深入了解[自動安裝應用程式](#how-to-install-an-app-automatically-for-end-users)。
 
     ![應用程式存取](media/service-create-distribute-apps/power-bi-apps-access.png)
 
