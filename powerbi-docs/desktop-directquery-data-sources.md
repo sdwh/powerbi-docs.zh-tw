@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/10/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d37ed22c0abba4e843d37fd6df465f9a755fbdc6
-ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
+ms.openlocfilehash: fee4acf21e38ddeaf78ff785d76b41c774c7022d
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2018
-ms.locfileid: "40256842"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909540"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支援的資料來源
 **Power BI Desktop** 和 **Power BI 服務**有許多資料來源供您連線和存取資料。 本文描述 Power BI 的哪些資料來源可支援稱為 **DirectQuery** 的連線方法。 如需 DirectQuery 的詳細資訊，請參閱 [ **Power BI 中的 DirectQuery**](desktop-directquery-about.md)。
@@ -23,16 +23,16 @@ ms.locfileid: "40256842"
 下列資料來源在 Power BI 中支援 DirectQuery：
 
 * Amazon Redshift
-* Azure Databricks
 * Azure HDInsight Spark (Beta)
 * Azure SQL Database
 * Azure SQL 資料倉儲
 * Google BigQuery (搶鮮版 (Beta))
+* IBM DB2 資料庫
 * IBM Netezza (Beta)
 * Impala (2.x 版)
 * Oracle 資料庫 (第 12 版及更新版本)
 * SAP Business Warehouse 應用程式伺服器
-* SAP Business Warehouse 訊息伺服器搶鮮版 (Beta)
+* SAP Business Warehouse 訊息伺服器 (搶鮮版 (Beta))
 * SAP HANA
 * 雪花式
 * Spark (Beta) (0.9 版及更新版本)
@@ -61,7 +61,7 @@ ms.locfileid: "40256842"
 | Teradata 資料庫 |是 |
 | Amazon Redshift |否 |
 | Impala (2.x 版) |是 |
-| 雪花式 |是 |
+| Snowflake |是 |
 | Spark (Beta) 0.9 版及更新版本 |**Power BI 服務**中尚不支援 |
 | Azure HDInsight Spark (Beta) |否 |
 | IBM Netezza |是 |
