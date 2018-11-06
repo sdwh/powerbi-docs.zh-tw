@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336798"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952203"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>藉由提供範例來從網頁取得資料
 
@@ -51,6 +51,8 @@ ms.locfileid: "49336798"
 在此範例中，我們會擷取頁面上每個遊戲的 [名稱] 和 [價格]。 我們可以藉由為每個資料行指定幾個來自頁面的範例，如以下影像所示。 當輸入這些範例時，**Power Query** (從網頁擷取資料的基礎技術) 就能使用智慧資料擷取演算法，擷取符合範例項目模式的資料。
 
 ![範例資料](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+
+> 注意：值的建議只包含長度小於或等於 128 個字元的值。
 
 一旦我們已經滿意從網頁擷取的資料，請選取 [確定] 以移至 [查詢編輯器]，我們可以在其中套用更多轉換或塑造資料，例如將此資料與其的他資料來源結合。
 

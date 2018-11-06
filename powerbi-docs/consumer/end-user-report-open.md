@@ -1,23 +1,23 @@
 ---
-title: 檢視 Power BI 服務中的報表
-description: 在 [閱讀] 檢視中開啟 Power BI 報表。
+title: 在適用於取用者的 Power BI 服務中檢視報表。
+description: 本主題將說明 Power BI 取用者和終端使用者必須開啟並檢視 Power BI 報表。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 10/17/2018
 ms.author: mihart
-ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112007"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396926"
 ---
-# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>在 Power BI 服務 (app.powerbi.com) 中檢視報表
-報表是一或多頁的視覺效果。 Power BI「報表設計者」會建立報表，並[直接與您共用](end-user-shared-with-me.md)或在[應用程式](end-user-apps.md)中共用。 
+# <a name="view-a-report-in-power-bi-service-for-consumers"></a>在適用於「取用者」的 Power BI 服務中檢視報表
+報表是一或多頁的視覺效果。 Power BI 的報表設計工具會建立報表並[直接與取用者共用](end-user-shared-with-me.md)，或作為[應用程式](end-user-apps.md)的一部分。 
 
 要開啟報表有很多種不同的方法，我們將示範其中兩種：從首頁開啟，以及從儀表板開啟。 
 
@@ -42,7 +42,7 @@ Power BI「設計者」只要按一下頂端功能表列的 [共用] 按鈕，�
    
    ![首頁的與我共用區段](./media/end-user-report-open/power-bi-shared.png)
 
-4. 只要選取其中一個報表卡片即可開啟報表。
+4. 只要選取其中一個報表「卡片」即可開啟報表。
 
    ![報表頁面](./media/end-user-report-open/power-bi-report1.png)
 
@@ -65,10 +65,10 @@ Power BI「設計者」只要按一下頂端功能表列的 [共用] 按鈕，�
 
    ![首頁](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. 選取其中一個應用程式加以開啟。 根據應用程式「設計者」所設定的選項，應用程式將會開啟儀表板或報表。 若選取應用程式：
+8. 選取其中一個應用程式加以開啟。 根據應用程式「設計師」所設定的選項，應用程式將會開啟儀表板、報表或應用程式內容清單。 若選取應用程式：
     - 會開啟報表，您已萬事俱備。
     - 會開啟儀表板，請參閱下方的[從儀表板開啟報表](#Open-a-report-from-a-dashboard)。
-
+    - 開啟應用程式內容清單，在 [報表] 下，選取報表以便開啟。
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>從儀表板開啟報表
@@ -83,15 +83,15 @@ Power BI「設計者」只要按一下頂端功能表列的 [共用] 按鈕，�
     ![在 [閱讀檢視] 中開啟報表](./media/end-user-report-open/power-bi-report-new.png)
 
 > [!NOTE]
-> 並非所有的磚都會帶您前往報表。 如果您選取的磚是[使用問與答建立](../service-dashboard-pin-tile-from-q-and-a.md)，問與答畫面將會開啟。 如果您選取的磚是[使用儀表板 [新增磚] Widget建立的](../service-dashboard-add-widget.md)，則會開啟 [編輯磚精靈]。  
+> 並非所有的磚都會帶您前往報表。 如果您選取的磚是[使用問與答建立](end-user-q-and-a.md)，問與答畫面將會開啟。 如果您選取的磚是[使用儀表板 [新增磚] 小工具所建立](../service-dashboard-add-widget.md)，則可能會發生數件不同的事。  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>仍然有更多方法來開啟報表
 當您更熟悉巡覽 Power BI 服務之後，便會找出最適合您的工作流程。 還有一些其他方法可存取報表：
 - 從左側功能窗格使用 [我的最愛]和 [最近]    
 - 使用[檢視相關項目](end-user-related.md)    
-- 在電子郵件中，當有人[與您共用](../service-share-reports.md)或您[設定警示](../service-set-data-alerts.md)時。    
-- 從您的 [通知中心]    (end-user-notification-center.md)    
+- 在電子郵件中，當有人[與您共用](../service-share-reports.md)或您[設定警示](end-user-alerts.md)時。    
+- 從您的[通知中心](end-user-notification-center.md)    
 - 以及更多
 
 ## <a name="next-steps"></a>後續步驟

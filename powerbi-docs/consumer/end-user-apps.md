@@ -7,22 +7,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc68be50917b113371fc168d1b6e3defa2b5001e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112191"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473420"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表安裝並使用應用程式
-Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處。 組織中的人員可使用關鍵的商務資訊來建立及發佈應用程式。 也許您已在使用 Google Analytics (分析) 和 Microsoft Dynamics CRM 這類[外部服務](end-user-connect-to-services.md)，而其中亦提供 Power BI 應用程式。 
+Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處。 組織中的人員會使用關鍵的商務資訊來建立及發佈應用程式。 也許您已在使用 Google Analytics (分析) 和 Microsoft Dynamics CRM 這類[外部服務](end-user-connect-to-services.md)，而其中亦提供 Power BI 應用程式。 
 
-![Power BI 的應用程式](./media/end-user-apps/power-bi-apps-left-nav.png)
+![Power BI 的應用程式](./media/end-user-apps/power-bi-apps-navbar.png)
 
-在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 和行動裝置中，可輕鬆找到並安裝應用程式。 安裝完應用程式之後，因為所有儀表板都會集中在一個應用程式、瀏覽器或在行動裝置中，所以您不必記住許多不同儀表板的名稱。
+在 Power BI 服務 ([app.powerbi.com](https:app.powerbi.com)) 和行動裝置中可以輕鬆找到並安裝應用程式。 安裝完應用程式之後，因為所有儀表板都會集中在一個應用程式、瀏覽器或在行動裝置中，所以您不必記住許多不同儀表板的名稱。
 
 透過應用程式，每當應用程式作者發行更新時，您就會自動看到變更。 作者也會控制資料重新整理的排程頻率，因此您無須擔心如何將其保持在最新狀態。 
 
@@ -36,7 +36,7 @@ Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處
 
 選取電子郵件中的連結以在瀏覽器中開啟 Power BI 服務 ([https://powerbi.com](https://powerbi.com))。 確認您想要安裝應用程式，瀏覽器就會開啟應用程式登陸頁面。
 
-![Power BI 服務中的應用程式登陸頁面](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
+![Power BI 服務中的應用程式登陸頁面](./media/end-user-apps/power-bi-get-app.png)
 
 **在您的 iOS 或 Android 行動裝置上** 
 
@@ -56,12 +56,12 @@ Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處
 3. 選取 [Get it now]\(立即取得)，將它新增至 [應用程式] 頁面。 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>與應用程式中的儀表板和報表互動
-現在，您可以探索應用程式中儀表板和報表的資料。 您可以進行所有標準 Power BI 互動，例如篩選、反白顯示、排序和向下鑽研。 您也可以從報表中的資料表或其他視覺效果[將資料匯出至 Excel](end-user-export-data.md)。 閱讀[與 Power BI 中的報表互動](end-user-reading-view.md)。 
+現在，您可以探索應用程式中儀表板和報表的資料。 您可以進行所有標準 Power BI 互動，例如篩選、反白顯示、排序和向下鑽研。 閱讀[與 Power BI 中的報表互動](end-user-reading-view.md)。 
 
 ![從 Power BI 視覺效果匯出資料](./media/end-user-apps/power-bi-service-export-data-visual.png)
 
 
 
 ## <a name="next-steps"></a>後續步驟
-* [外部服務的 Power BI 應用程式](end-user-connect-to-services.md)
+[外部服務的 Power BI 應用程式](end-user-connect-to-services.md)
 

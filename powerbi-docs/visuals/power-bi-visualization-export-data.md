@@ -8,18 +8,18 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d042119a95cb60f930a0535e93b0a50ee9224da3
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112251"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396794"
 ---
 # <a name="export-data-from-visualizations"></a>從視覺效果匯出資料
-如果您想要查看用來建立視覺效果的資料，可以在 Power BI 中顯示該資料，或將資料匯出至 Excel 成為 .xlsx 或 .csv 檔案。   
+如果您想要查看用來建立視覺效果的資料，可以在 Power BI 中顯示該資料，或將資料匯出至 Excel 成為 .xlsx 或 .csv 檔案。 匯出資料的選項需要專業或進階授權，以及資料集和報表的編輯權限。 
 
 觀看 Will 從其報表的其中一個視覺效果中匯出資料、將資料儲存為 .xlsx 檔案，並在 Excel 中開啟它。 然後遵循影片下方的逐步指示親自試試看。
 
@@ -92,9 +92,12 @@ ms.locfileid: "49112251"
 
 ### <a name="set-the-export-options"></a>設定匯出選項
 Power BI 報表設計者會控制可供取用者使用的資料匯出選項類型。 這些選項包括：
-- 僅允許匯出摘要 (這是報表的預設值) 
-- 允許匯出摘要和基礎資料  
+- 僅允許匯出摘要資料 (這是新報表的預設值) 
+- 允許匯出摘要和基礎資料 (這是在 2018 年 10 月之前的預設值) 
 - 不允許匯出任何資料  
+
+    > [!IMPORTANT]
+    > 我們建議報表設計師重新瀏覽舊報表，並視需要手動重設匯出選項。
 
 1. 若要設定這些選項，請從 Power BI Desktop 中開始。
 

@@ -10,161 +10,179 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 47c99e40b1665b98c33d16b685e359c10277a560
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336982"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435388"
 ---
-# <a name="composite-models-in-power-bi-desktop-preview"></a>Power BI Desktop 中的複合模型 (預覽)
+# <a name="use-composite-models-in-power-bi-desktop-preview"></a>使用 Power BI Desktop 中的複合模型 (預覽)
 
-先前在 **Power BI Desktop** 中，當您在報表中使用 DirectQuery 時，該報表都不允許其他 DirectQuery 或「匯入」資料連線。 **複合模型**可以移除該限制，讓報表能以各種組合，完美地包含來自多個 DirectQuery 或匯入資料連線的資料連線。
+先前在 Power BI Desktop 中，當您在報表中使用 DirectQuery 時，該報表不允許任何其他&mdash;DirectQuery 或「匯入」&mdash;資料連線。 複合模型可以移除該限制。 報表能以各種組合，完美地包含來自多個 DirectQuery 或「匯入」資料連線的資料連線。
 
 ![Power BI Desktop 中的複合模型](media/desktop-composite-models/composite-models_01.png)
 
-**Power BI Desktop** 中的**複合模型**功能包含三種相關功能：
+Power BI Desktop 中的複合模型功能包含三種相關功能：
 
-* **複合模型**：讓報表能夠具有任意組合的多個資料連線，包括 DirectQuery 連線或匯入。
-* **多對多關聯性**：您可以透過**複合模型**，在資料表之間建立**多對多關聯性**、移除資料表中對於唯一值的需求，以及移除先前的因應措施，例如，只為建立關聯性而導入新的資料表。 
-* **儲存模式**：您現在可以指定需要查詢後端資料來源的視覺效果，並匯入不需要查詢後端資料來源的視覺效果 (即使是以 DirectQuery 為基礎的視覺效果也一樣)，以提升效能並減少後端負載。 以往，即使像是交叉分析篩選器之類的簡單視覺效果，也會起始要傳送到後端來源的查詢。 
+* **複合模型**：讓報表能夠具有任意組合的多個資料連線，包括 DirectQuery 連線或「匯入」。 本文會詳細描述複合模型。
 
-有關**複合模型**三個相關功能的集合，分別會在個別文章中加以說明：
+* **多對多關聯性**：使用複合模型，可以在資料表之間建立多對多關聯性。 此方法會移除資料表中唯一值的需求。 此方法也會移除先前的因應措施，像是只為建立關聯性而導入新的資料表。 如需詳細資訊，請參閱 [Power BI Desktop 的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md)。
 
-* 本文將詳細說明**複合模型**。
-* **多對多關聯性**會在它們自己的文章 [Power BI Desktop 中的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md) 中加以說明。
-* **儲存模式**會在本身的文章 [Power BI Desktop 中的儲存模式 (預覽)](desktop-storage-mode.md) 中說明。
+* **儲存模式**：您現在可以指定哪些視覺效果必須查詢後端資料來源。 不需要查詢的視覺效果，即便是使用 DirectQuery，也同樣會匯入。 此功能可提升效能，並減輕後端的負載。 先前即使是像交叉分析篩選器這類簡單的視覺效果，都會起始查詢，並將其傳送到後端來源。 如需詳細資訊，請參閱 [Power BI Desktop 的儲存模式 (預覽)](desktop-storage-mode.md)。
 
-## <a name="enabling-the-composite-models-preview-feature"></a>啟用複合模型預覽功能
+## <a name="enable-the-composite-models-preview-feature"></a>啟用複合模型預覽功能
 
-**複合模型**功能處於預覽狀態，且必須在 **Power BI Desktop** 中加以啟用。 若要啟用**複合模型**，請選取 [檔案] > [選項及設定] > [選項] > [預覽功能]，然後選取 [複合模型] 核取方塊。 
+複合模型功能處於預覽狀態，且必須在 Power BI Desktop 中加以啟用。 若要啟用複合模型，請選取 [檔案] > [選項與設定] > [選項] > [預覽功能]，然後選取 [複合模型] 核取方塊。 
 
-![正在啟用預覽功能](media/desktop-composite-models/composite-models_02.png)
+![[預覽功能] 窗格](media/desktop-composite-models/composite-models_02.png)
 
-您必須重新啟動 **Power BI Desktop**，功能才會啟用。
+若要啟用此功能，您必須重新啟動 Power BI Desktop。
 
-![需要重新啟動，才能使變更生效](media/desktop-composite-models/composite-models_03.png)
+![[功能需要重新啟動] 視窗](media/desktop-composite-models/composite-models_03.png)
 
 
-## <a name="using-composite-models"></a>使用複合模型
+## <a name="use-composite-models"></a>使用複合模型
 
-您可以藉由**複合模型**，在使用 **Power BI Desktop** 或 **Power BI 服務**時連線到各種不同的資料來源，而且可以利用不同的方法來進行這些資料連線。 您可以將資料匯入 Power BI (這是取得資料的最常見方法)，也可以使用 DirectQuery 直接連線到原始來源存放庫中的資料。 您可以在[使用 Power BI 中的 DirectQuery](desktop-directquery-about.md) 一文中深入了解 DirectQuery 的詳細資料。
+使用複合模型，在使用 Power BI Desktop 或 Power BI 服務時可以連線到各種資料來源。 您可以用幾種方式進行這些資料連線：
 
-當使用 DirectQuery 時，透過**複合模型**能建立可執行下列作業的 Power BI 模型 (例如，單一 .pbix Power BI Desktop 檔案)：
+* 將資料匯入至 Power BI，這是取得資料的最常見方式。
+* 透過使用 DirectQuery 直接連線到資料原始來源存放庫中的資料。 如需 DirectQuery 的詳細資訊，請參閱[使用 Power BI 的 DirectQuery](desktop-directquery-about.md)。
 
-* 結合來自一或多個 DirectQuery 來源的資料，和/或
-* 結合來自 DirectQuery 來源的資料與匯入資料
+當您使用 DirectQuery 時，透過「複合模型」能建立可執行下列任一或兩項作業的 Power BI 模型 (例如，單一 *.pbix* Power BI Desktop 檔案)：
 
-例如，使用**複合模型**時，建立的模型就可以結合來自企業資料倉儲的銷售資料、部門 SQL Server 資料庫中的銷售目標相關資料，以及從試算表匯入的一些資料。 結合多個 DirectQuery 來源的資料或結合 DirectQuery 與所匯入資料的模型，就稱為*複合模型*。
+* 結合來自一或多個 DirectQuery 來源的資料。
+* 結合來自 DirectQuery 來源的資料與「匯入」資料。
+
+例如，您可以藉由使用複合模型來建置結合下列資料類型的模型：
+
+* 來自企業資料倉儲的銷售資料。
+* 來自部門 SQL Server 資料庫的銷售目標資料。
+* 從試算表匯入的資料。 
+
+結合多個 DirectQuery 來源的資料或結合 DirectQuery 與「匯入」資料的模型，即稱為「複合模型」。
 
 > [!NOTE]
-> 從 2018 年 10 月版本的 **Power BI Desktop** 開始，您「可以」將複合模型發行至 Power BI 服務。 對於排程重新整理與儀表板磚重新整理，Power BI 服務中的複合模型行為就如同匯入模型。 
+> 從 2018 年 10 月版本的 Power BI Desktop 開始，您「可以」將複合模型發佈至 Power BI 服務。 針對排定的重新整理與儀表板磚重新整理，Power BI 服務中的複合模型行為就如同「匯入」模型。 
 
-您能如往常一般，建立資料表之間的關聯性 (即使這些資料表來自不同的來源)，但有下列限制：不論實際基數為何，跨來源的關聯性都必須定義為有**多對多**基數。 這類關聯性的行為之後會和正常的**多對多**關聯性一樣，如 [Power BI Desktop 中的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md) 中所述。 請注意，在複合模型內容中，所有匯入的資料表便有如單一來源，不論實際匯入的實際基礎資料來源為何。   
+您能如往常一般，建立資料表之間的關聯性 (即使這些資料表來自不同的來源)，但有下列限制：不論實際基數為何，跨來源的關聯性都必須定義為有「多對多」基數。 這類關聯性的行為之後會和正常的「多對多」關聯性一樣，如 [Power BI Desktop 中的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md) 中所述。 
 
-## <a name="example-of-using-composite-models"></a>使用複合模型範例
+> [!NOTE]
+> 在複合模型內容中，所有匯入的資料表便有如單一來源，不論匯入的實際基礎資料來源為何。   
 
-以**複合模型**的範例來說，假設報表使用 DirectQuery 連線到公司資料倉儲 (在 SQL Server 中)，該資料倉儲包含「依國家/地區顯示銷售額」、「季」及「腳踏車 (產品)」的資料，如下圖所示。
+## <a name="example-of-a-composite-model"></a>複合模型範例
+
+如需「複合模型」的範例，請考慮使用 DirectQuery 連線到 SQL Server 中公司資料倉儲的報表。 在此情況下，資料倉儲會包含「依國家/地區的銷售額」、「季」和「腳踏車 (產品)」資料，如下圖所示：
 
 ![複合模型的關聯性檢視](media/desktop-composite-models/composite-models_04.png)
 
-此時，您可以使用此來源中的欄位，以建置簡單的視覺效果。 例如，下列視覺效果會依 *ProductName* 顯示所選季度的總銷售量。 
+此時，您可以使用此來源中的欄位，以建置簡單的視覺效果。 例如，下圖會依 *ProductName* 顯示所選季度的總銷售額。 
 
 ![根據資料的視覺效果](media/desktop-composite-models/composite-models_05.png)
 
-但是，假設您對各項產品的「產品經理」擁有某些資訊，還有資料位於 Excel 試算表的行銷策略，那該怎麼做？ 您可能想要依「產品經理」來查看「銷售額」，但要將這項本機資料加入公司資料倉儲可能並不可行，或至少要花費數個月的時間。 雖然可能從資料倉儲匯入該銷售資料 (而不是使用 DirectQuery)，再與從試算表匯入的資料結合，但該方法並不合理，理由包括會結合基礎來源中強制執行的安全性規則、能夠查看最新資料的需求，以及資料的龐大規模等等，因此一開始就該使用 DirectQuery。 
+但是，如果您有資料在 Office Excel 試算表中，且是關於指派給每個產品的產品經理以及行銷優先順序，該怎麼辦？ 如果您想要依「產品經理」檢視「銷售額」，可能無法將此本機資料新增至公司的資料倉儲。 或者，在最佳的情況下可能需要幾個月的時間。 
 
-這就是**複合模型**派上用場的地方。 複合模型可讓您選擇使用 DirectQuery 連線到資料倉儲，然後也可對其他來源使用 GetData。 在這種情況下，我們會對公司資料倉儲建立 DirectQuery 連線，然後使用 GetData 並選擇 Excel、瀏覽至包含本機資料的試算表，並匯入包含 *ProductNames*、所指派 *SalesManager* 及 *Priority* 的工作表。  
+可能可以從資料倉儲匯入銷售資料，而不是使用 DirectQuery。 銷售資料便可以與您從試算表匯入的資料結合。 不過，該方法並不合理，因為會導致在一開始時使用 DirectQuery。 原因可能包括：
+
+* 在基礎來源實施的某個安全性規則組合。
+* 要能夠檢視最新資料的需求。
+* 純粹因為資料規模。 
+
+這就是複合模型派上用場的地方。 複合模型可讓您使用 DirectQuery 連線到資料倉儲，然後針對其他來源使用 GetData。 在此範例中，我們會先建立對公司資料倉儲的 DirectQuery 連線。 我們使用 GetData、選擇 Excel，然後巡覽至包含我們本機資料的試算表。 最後，我們匯入試算表，其中包含「產品名稱」、指派的「銷售經理」和「優先順序」。  
 
 ![[導覽器] 視窗](media/desktop-composite-models/composite-models_06.png)
 
-現在，我們可在 [欄位] 清單中看到原始「腳踏車」資料表 (來自 SQL Server) 與新的「產品經理」 資料表 (含有從 Excel 匯入的資料)。 
+在 [欄位] 清單中，您可以看到兩個資料表：來自 SQL Server 的原始 *Bike* 資料表，和新的 **ProductManagers** 資料表。 新資料表會包含從 Excel 匯入的資料。 
 
 ![資料表的欄位檢視](media/desktop-composite-models/composite-models_07.png)
 
-同樣地，在 **Power BI Desktop** 的 [關聯性檢視] 中，現在可看到稱為「產品經理」的額外資料表。 
+同樣地，在 Power BI Desktop 的 [關聯性] 檢視中，現在可看到稱為 **ProductManagers** 的其他資料表。 
 
 ![資料表的關聯性檢視](media/desktop-composite-models/composite-models_08.png)
 
-我們現在需要如往常一般，將這些資料表與模型中的其他資料表建立關聯，方法是在「腳踏車」資料表 (在 SQL Server 中) 與「產品經理」資料表 (匯入) 之間建立關聯性，例如在 *Bike[ProductName]* 與 *ProductManagers[ProductName]* 之間。 如本文稍早所述，跨來源的所有關聯性都必須要有**多對多**基數，因此也是選取的預設基數。 
+我們現在需要將這些資料表與模型中的其他資料表相關聯。 如往常，我們在來自 SQL Server 的 **Bike** 資料表，與匯入的 **ProductManagers** 資料表之間建立關聯性。 亦即，關聯性是在 *Bike[ProductName]* 與 *ProductManagers[ProductName]* 之間。 如前文所述，跨來源的所有關聯性必須有預設的「多對多」基數。 
 
-![建立關聯性對話方塊](media/desktop-composite-models/composite-models_09.png)
+![[建立關聯性] 視窗](media/desktop-composite-models/composite-models_09.png)
 
-建立此關聯性之後，就會如我們所預期，在 **Power BI Desktop** 的 [關聯性檢視] 中顯示該關聯性。
+現在我們已經建立此關聯性，它就會如我們所預期，顯示在 Power BI Desktop 的 [關聯性] 檢視中。
 
-![新的關聯性檢視](media/desktop-composite-models/composite-models_10.png)
+![新的 [關聯性] 檢視](media/desktop-composite-models/composite-models_10.png)
 
-建立這些資料表關聯性後，我們現在可使用 [欄位] 清單中的任何欄位來建立視覺效果，完美地混合多個來源的資料。 例如，下面的視覺效果顯示每個「產品經理」的「銷售額」總計。 
+我們現在可以使用 [欄位] 清單中的任何欄位來建立視覺效果。 這種方法可順暢地混合使用多個來源的資料。 例如，每個「產品經理」的 *SalesAmount* 總計會顯示在下圖中： 
 
-![顯示視覺效果與 [欄位] 窗格](media/desktop-composite-models/composite-models_11.png)
+![[欄位] 窗格](media/desktop-composite-models/composite-models_11.png)
 
-此範例顯示利用從他處匯入的一些額外資料來擴充「維度」資料表 (例如「產品」或「客戶」) 的常見情況，也可以讓資料表使用 DirectQuery 連線到不同來源。 為了擴充我們的範例，假設每個 *Country* 與 *Period* 的 *SalesTargets* 都儲存在個別的部門資料庫中。 您可以照常使用 **GetData** 連線到該資料，如下圖所示。 
+下列範例顯示常見的「維度」資料表案例&mdash;例如 *Product* 或 *Customer*&mdash;藉由一些從其他位置匯入的其他資料而延伸。 也可以讓資料表使用 DirectQuery 連線到各種來源。 為了繼續我們的範例，假設每個 *Country* 與 *Period* 的 *SalesTargets* 都儲存在個別部門資料庫中。 您可以照常使用 *GetData* 來連線到該資料，如下圖所示： 
 
-![導覽器對話方塊](media/desktop-composite-models/composite-models_12.png)
+![[導覽器] 視窗](media/desktop-composite-models/composite-models_12.png)
 
-接著，和我們稍早在此範例中所執行的動作類似，可在新的資料表與模型中的其他資料表之間建立關聯性，然後建立可結合兩方資料的視覺效果。 讓我們再次查看 [關聯性檢視]，我們已在此於擴充範例案例中建立了新的關聯性。
+如我們先前所執行，可在新的資料表與模型中其他資料表之間建立關聯性，然後建立可結合資料表資料的視覺效果。 讓我們再次查看 [關聯性] 檢視，我們已在此建立了新的關聯性：
 
-![含有許多資料表的關聯性檢視](media/desktop-composite-models/composite-models_13.png)
+![具有許多資料表的 [關聯性] 檢視](media/desktop-composite-models/composite-models_13.png)
 
-如下圖根據新資料與剛建立的關聯性所示，左下角的視覺效果顯示「銷售額」總計與「目標」，還有變異數計算顯示來自兩個不同 SQL Server 資料庫的「銷售額」與「目標」差異。 
+下圖是以新資料和我們所建立的關聯性為基礎。 左下角的視覺效果顯示「銷售額」總計與「目標」，而變異數計算則顯示差異。 「銷售額」和「目標」資料來自兩個不同的 SQL Server 資料庫。 
 
-![顯示更多資料的視覺效果](media/desktop-composite-models/composite-models_14.png)
+![顯示更多資料的影像](media/desktop-composite-models/composite-models_14.png)
 
-## <a name="setting-storage-mode"></a>設定儲存模式
+## <a name="set-the-storage-mode"></a>設定儲存模式
 
-**複合模型**中的每個資料表都有**儲存模式**，指出該資料表示以 DirectQuery 或匯入為根據。 **儲存模式**可在 [屬性] 窗格中檢視和修改。 若要前往該處，請在操作功能表的 [欄位] 清單上按一下滑鼠右鍵，選取 [屬性] 即可。 下圖顯示**儲存模式** (因為窗格寬度，導致在圖中縮短為 [儲存...])。
+複合模型中的每個資料表都有儲存模式，指出該資料表是以 DirectQuery 或「匯入」為基礎。 儲存模式可在 [屬性] 窗格中檢視和修改。 若要顯示儲存模式，請以滑鼠右鍵按一下 [欄位] 清單中的資料表，然後選取 [屬性]。 下圖顯示 **SalesTargets** 資料表的儲存模式。
 
 ![儲存模式設定](media/desktop-composite-models/composite-models_15.png)
 
-每個資料表的工具提示上也可看到**儲存模式**。
+每個資料表的工具提示上也可檢視儲存模式。
 
-![含有儲存模式的工具提示](media/desktop-composite-models/composite-models_16.png)
+![顯示儲存模式的工具提示](media/desktop-composite-models/composite-models_16.png)
 
-對於包含來自 DirectQuery 的一些資料表與一些匯入資料表的任何 **Power BI Desktop** 檔案 ( .pbix 檔案)，狀態列顯示的**儲存模式**為 [混合]。 您可以按一下狀態列中的該字詞，然後將所有資料表輕鬆地切換為匯入。
+針對包含來自 DirectQuery 的一些資料表與一些「匯入」資料表的任何 *Power BI Desktop* 檔案 (.pbix 檔案)，狀態列會顯示稱為 [混合] 的儲存模式。 您可以按一下狀態列中的該字詞，然後將所有資料表輕鬆地切換為「匯入」。
 
-**儲存模式**的詳細資料會在 [Power BI Desktop 中的儲存模式 (預覽)](desktop-storage-mode.md) 一文中完整說明。  
+如需儲存模式的詳細資訊，請參閱 [Power BI Desktop 中的儲存模式 (預覽)](desktop-storage-mode.md)。  
 
 ## <a name="calculated-tables"></a>計算資料表
 
-計算資料表可加入使用 DirectQuery 的模型中，而定義計算資料表的 DAX 可參考匯入的或 DirectQuery 資料表，或這兩者的組合。 
+您可以將導出資料表新增至使用 DirectQuery 的模型。 定義導出資料表的資料分析運算式 (DAX) 可以參考匯入或 DirectQuery 資料表，或兩者的組合。 
 
-計算資料表一律為匯入，而且會在重新整理資料表時，重新整理這些資料表中的資料。 同樣地，如果計算資料表參考 DirectQuery 資料表，則參考 DirectQuery 資料表的視覺效果一律會顯示基礎來源中最新的值，但參考計算資料表的視覺效果會顯示計算資料表上次重新整理時的值。
+導出資料表一律為匯入，而且會在您重新整理資料表時，重新整理其資料。 如果導出資料表參考 DirectQuery 資料表，則參考 DirectQuery 資料表的視覺效果一律會顯示基礎來源中的最新值。 或者，參考導出資料表的視覺效果，會顯示導出資料表最近一次重新整理時的值。
 
 ## <a name="security-implications"></a>安全性影響 
 
-複合模型對安全性會有一些影響。 傳送至某個資料來源的查詢，可能包含從其他不同來源所擷取的資料值。 如本文稍早所述的範例，依「產品經理」顯示「銷售額」的視覺效果會導致將 SQL 查詢傳送至**銷售**關聯式資料庫，而該 SQL 查詢可能包含「產品經理」與其相關聯「產品」的名稱。 
+複合模型對安全性會有一些影響。 傳送至某個資料來源的查詢，可能包含從其他來源擷取的資料值。 在先前範例中，依「產品經理」顯示「銷售額」的視覺效果，會傳送 SQL 查詢給 **Sales** 關聯式資料庫。 該 SQL 查詢可能包含「產品經理」的名稱及其相關聯「產品」。 
 
 ![顯示安全性影響的指令碼](media/desktop-composite-models/composite-models_17.png)
 
-因此，傳送至關聯式資料庫的查詢現在會包含試算表中儲存的資訊。 如果這是機密資訊，則應考慮這樣做的安全性影響。 您應該特別考慮下列影響：
+因此，傳送至關聯式資料庫的查詢現在會包含儲存在試算表中的資訊。 如果這是機密資訊，您應該考慮安全性影響。 特別是，請考慮下列幾點：
 
-* 任何可查看追蹤或稽核記錄的資料庫管理員，即使在原始來源中沒有該資料的權限 (在本案例中為 Excel 檔案的權限)，也都能查看這項資訊。
+* 可以檢視追蹤或稽核記錄檔的任何資料庫系統管理員，都可以檢視這項資訊，即使沒有資料原始來源的資料權限亦然。 在此範例中，系統管理員需要 Excel 檔案的權限。
 
-* 應要考慮每個來源的加密設定，避免將使用加密連線從某一來源擷取的資訊，之後不小心包含在使用未加密連線傳送至其他來源的查詢中。 
+* 應該考慮每個來源的加密設定。 您想要避免透過加密連線從其中一個來源擷取資訊，然後意外地將它包含在透過未加密連線傳送至另一個來源的查詢中。 
 
-採取建立複合模型的動作時，**Power BI Desktop** 會顯示一則警告訊息，確認您已經考慮過所有安全性影響。  
+為了允許確認您已經考慮過所有安全性影響，當您建立複合模型時，Power BI Desktop 會顯示一則警告訊息。  
 
-基於類似原因，當開啟從不受信任來源所傳送的 **Power BI Desktop** 檔案時，請務必格外小心。 如果該檔案包含複合模型，這表示從某一來源擷取的資訊 (利用開啟該檔案使用者的認證)，可能會成為查詢的一部分而傳送到其他資料來源 (惡意的 Power BI Desktop 檔案作者可能會看見)。 因此，當第一次開啟 Power BI Desktop 檔案時，如果當中包含多個來源，就會顯示警告。 此警告和開啟的檔案包含原生 SQL 查詢時所顯示的警告類似。  
+基於類似原因，當您開啟從不受信任來源傳送的 Power BI Desktop 檔案時，請小心。 如果檔案包含複合模型，則某人使用檔案開啟者的使用者認證來從某一個來源擷取的資訊會作為部分查詢傳送到另一個資料來源。 Power BI Desktop 檔案的惡意作者可能會檢視這項資訊。 因此，當您初次開啟包含多個來源的 Power BI Desktop 檔案時，Power BI Desktop 會顯示警告。 此警告和開啟包含原生 SQL 查詢的檔案時所顯示的警告類似。  
 
 ## <a name="performance-implications"></a>效能影響  
 
-當使用 DirectQuery 時，應該一律考量效能，主要是為了確保後端來源會有充足的資源，以便為使用者提供良好的體驗。 良好的體驗表示應可在 5 秒內重新整理視覺效果。 您也應該遵守[使用 Power BI 中的 DirectQuery](desktop-directquery-about.md) 一文中的效能建議。 使用複合模型會增加額外的效能考量，因為單一視覺效果可能導致將查詢傳送到多個來源，而經常將某個查詢的結果傳遞至第二個來源。 這種情況會導致下列可能的執行形式：
+使用 DirectQuery 時，您應該一律考量效能，主要是為了確保後端來源有充足的資源，以便為使用者提供良好的體驗。 良好的體驗表示視覺效果在五秒內重新整理。 您也應該遵循[使用 Power BI 中的 DirectQuery](desktop-directquery-about.md) 一文中的效能建議。 
 
-* **SQL 查詢包含大量常值**：例如，要求一組所選擇「產品經理」(來自從試算表匯入的相關資料表) 的「銷售額」總計 (來自 SQL 資料庫) 視覺效果時，必須先找到產品經理所管理的「產品」，然後再傳送 *WHERE* 子句中包含所有產品識別碼的 SQL 查詢。
+使用複合模型會增加額外的效能考量。 單一視覺效果可能會導致傳送查詢到多個來源，這通常會將某一個查詢的結果傳遞到第二個來源。 這種情況可能會導致下列執行形式：
 
-* **SQL 查詢會藉由較低的細微度層級來查詢，然後在本機彙總資料**：使用的範例和本清單中前一個項目符號相同，由於符合「產品經理」篩選條件的「產品」數目非常龐大，全部包含在 *WHERE* 子句中變得沒有效率或不可行。 相反地，有必要以較低的「產品」層級來查詢關聯式來源，然後在本機彙總結果。 如果「產品」的基數超過 1 百萬的上限，查詢就會失敗。
+* **包含大量常值的 SQL 查詢**：例如，針對一組選取的「產品經理」要求「銷售額」總計的視覺效果，必須先找出哪些「產品」是由那些產品經理管理。 此順序必須在視覺效果傳送以 *WHERE* 子句包含所有產品識別碼的 SQL 查詢之前進行。
 
-* **依值分組，每個群組一個的多個 SQL 查詢**：當彙總使用的 **DistinctCount** 是依據另一來源的某資料行來分組時，如果外部來源不支援有效傳遞定義群組的許多常值，就有必要依值分組，每個群組傳送一個 SQL 查詢。 例如，視覺效果要依「產品經理」(來自從試算表匯入的相關資料表) 要求 *CustomerAccountNumber* (來自 SQL Server 資料表) 的相異計數，就需要在傳送至 SQL Server 的查詢中傳遞來自「產品經理」資料表的詳細資料。 針對其他來源 (例如 Redshift)，這並不可行，而是改為每個「銷售經理」傳送一個 SQL 查詢 (最多以實際限制為限，超過就會查詢失敗)。 
+* **以較低粒度層級進行查詢的 SQL 查詢，然後資料在本機進行彙總**：當符合「產品經理」篩選準則的「產品」數目變大時，將所有產品包含在一個 *WHERE* 子句中可能會變得沒有效率或不可行。 相反地，您可以較低「產品」層級來查詢關聯式來源，然後在本機彙總結果。 如果「產品」基數超過 1 百萬的上限，查詢就會失敗。
 
-上述每一種情況對於效能各有其影響，確切的細節也會隨每個資料來源而異。 根據經驗，在聯結兩個來源的關聯性中，最好維持使用低資料行基數 (數千個)，那麼效能應不會受太大影響。 這個基數越高，就越需要考量對最終效能的影響。 
+* **依值分組，每個群組一個的多個 SQL 查詢**：當彙總使用 **DistinctCount** 且是依據另一來源的某資料行來分組時，如果外部來源不支援有效率地傳遞定義群組的許多常值，就有必要依值分組，每個群組傳送一個 SQL 查詢。 
 
-此外，使用**多對多**關聯性時，表示必須針對每個總計/小計層級，將個別查詢傳送至基礎來源，而不是在本機彙總詳細的值。 因此，一個包含總計的簡單資料表視覺效果會傳送兩個 SQL 查詢，而不是一個。 
+   例如，依「產品經理」(從試算表匯入) 要求 *CustomerAccountNumber* (來自 SQL Server 資料表) 相異計數的視覺效果，就需要在傳送至 SQL Server 的查詢中傳遞來自「產品經理」資料表的詳細資料。 針對其他來源 (例如 Redshift)，此動作不可行。 相反地，針對每個「銷售經理」會傳送一個 SQL 查詢&mdash;最多以實際限制為限，超過就會查詢失敗。 
+
+上述每一種情況對於效能各有其影響，確切的細節也會隨每個資料來源而異。 雖然在聯結兩個來源的關聯性中，會維持使用低資料行基數 (數千個)，但效能應不會受到影響。 當這個基數增加時，您應該更加注意對於結果效能的影響。 套用本指引是很好的經驗法則。 
+
+此外，使用「多對多」關聯性時，表示必須針對每個總計或小計層級，將個別查詢傳送至基礎來源，而不是在本機彙總詳細值。 一個包含總計的簡單資料表視覺效果會傳送兩個 SQL 查詢，而不是一個。 
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 
-這一版的**複合模型**有一些限制。
+這一版的複合模型有一些限制。
 
-下列 Live Connect (多維度) 來源不能與**複合模型**搭配使用：
+下列 Live Connect (多維度) 來源不能與複合模型搭配使用：
 
 * SAP HANA
 * SAP Business Warehouse
@@ -172,19 +190,15 @@ ms.locfileid: "49336982"
 * Power BI 資料集
 * Azure Analysis Services
 
-使用 DirectQuery 連線到這些多維度來源時，將無法同時連線到其他 DirectQuery 來源，也無法結合匯入的資料。
+當您使用 DirectQuery 連線到這些多維度來源時，將無法連線到其他 DirectQuery 來源，也無法與「匯入」資料結合。
 
-使用**複合模型**時，仍然受限於 DirectQuery 的現有使用限制。 這其中有許多限制現在會依個別資料表的**儲存模式**而異。 例如，已匯入資料表上的計算結果欄可以參考其他資料表，但 DirectQuery 資料表上的計算結果欄仍僅限於參考相同資料表上的資料行。 如果模型內有任何資料表為 DirectQuery，則其他限制會套用至整個模型。 例如，如果某個模型內的任何資料表具有 DirectQuery 的**儲存模式**，則該模型不提供 **QuickInsights** 和**問與答**功能。 
+使用複合模型時，仍然受限於 DirectQuery 的現有限制。 這其中有許多限制現在會依個別資料表的儲存模式而異。 例如，「匯入」資料表上的導出資料行可以參考其他資料表，但 DirectQuery 資料表上的導出資料行仍僅能參考相同資料表上的資料行。 如果模型內有任何資料表為 DirectQuery，則其他限制會套用至整個模型。 例如，當 QuickInsights 及問與答功能中有任何資料表為 DirectQuery 的儲存模式時，該模型便無法使用這兩項功能。 
 
 ## <a name="next-steps"></a>後續步驟
 
-下列文章會詳細說明複合模型與 DirectQuery。
-
-* [Power BI Desktop 中的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md)
+如需複合模型及 DirectQuery 的詳細資訊，請參閱下列文章：
+* [Power BI Desktop 的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md)
 * [Power BI Desktop 中的儲存模式 (預覽)](desktop-storage-mode.md)
-
-DirectQuery 文章：
-
-* [使用 Power BI 中的 DirectQuery](desktop-directquery-about.md)
+* [使用 Power BI 的 DirectQuery](desktop-directquery-about.md)
 * [Power BI 中 DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)
 

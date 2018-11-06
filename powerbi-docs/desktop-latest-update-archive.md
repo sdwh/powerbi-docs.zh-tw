@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: cda575c11be90c8e18a3a9f3b8325ccf674afffc
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: b068516b13b3aab134b20f95939c75a5b6e949b5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337074"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101684"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -341,7 +341,7 @@ ms.locfileid: "49337074"
 
 ### <a name="reporting"></a>報告
 
-* 報表頁面工具提示  [[影片]](https://youtu.be/kuI6MMzDh34?t=16s)  [[文章]]()  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* 報表頁面工具提示  [[影片]](https://youtu.be/kuI6MMzDh34?t=16s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
 * 現在正式推出書籤  [[影片]](https://youtu.be/kuI6MMzDh34?t=9m2s)  [[文章]](desktop-bookmarks.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
 * 顯示 [資料表] 和 [矩陣] 資料行的單位和精確度控制  [[影片]](https://youtu.be/kuI6MMzDh34?t=11m1s)  [[文章]](desktop-slicer-numeric-range.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
 * 關閉報表讀取模式的視覺效果標頭  [[影片]](https://youtu.be/kuI6MMzDh34?t=12m25s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 

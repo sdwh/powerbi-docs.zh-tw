@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: dc3c80b2043024a694c4852da200eb503b10c28a
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 7de1b47656ae06f522b4b86a124bf558a660ba4e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337028"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473397"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新的 Power BI Desktop 中有什麼新功能？
 
-## <a name="october-2018-update-2625222582"></a>2018 年 10 月更新 (2.62.5222.582)
+## <a name="october-2018-update-263327240262"></a>2018 年 10 月更新 (2.63.3272.40262)
 
 我們的 10 月更新好地嚇人、實用地可怕，而且比一整個南瓜籃的糖果還甜。 
 
@@ -60,7 +60,7 @@ ms.locfileid: "49337028"
 
 * Web by Example 連接器現已正式推出 [[影片]](https://youtu.be/MhrhIXNtelw)  [[文章]](desktop-connect-to-web-by-example.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23webByExample) 
 * SAP BW 連接器實作 v2 現已正式推出  [[影片]](https://youtu.be/MhrhIXNtelw?t=133)   [[文章]](desktop-sap-bw-connector.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBW) 
-* SAP BW 訊息伺服器連接器現已正式推出  [](https://youtu.be/MhrhIXNtelw?t=159)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBWmessageServer) 
+* SAP BW 訊息伺服器連接器現已正式推出  [影片](https://youtu.be/MhrhIXNtelw?t=159)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBWmessageServer) 
 * Vertica 連接器 現已正式推出   [[影片]](https://youtu.be/MhrhIXNtelw?t=175)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23vertica) 
 * Dynamics NAV 和 Dynamics 365 Buisness Central 連接器現已正式推出   [[影片]](https://youtu.be/MhrhIXNtelw?t=197)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamics) 
 * 新的 Dynamics 365 Business Central 內部部署連接器   [[影片]](https://youtu.be/MhrhIXNtelw?t=219)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamicsOnPrem) 
