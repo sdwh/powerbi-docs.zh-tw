@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/08/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d7e1bfff4d2c7cbd2f49837e37f360ae49ad058c
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: ba27b42d6449d38fef2659507f035144c67f23fd
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909510"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223206"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>教學課程：在 Power BI 服務中設定資料警示
 設定警示，以在儀表板中的資料變更時超出您所設定的限制時通知您。 

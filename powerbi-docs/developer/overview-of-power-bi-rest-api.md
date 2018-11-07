@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3b19740616e7b9a390a883fde2fd96320de7b94a
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: a1492a98825ad26b2dde359cf9cec96cc4623e04
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973578"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223160"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>開發人員可如何利用 Power BI API？
 
@@ -29,7 +29,7 @@ Power BI 顯示互動式儀表板，可即時從不同的資料來源建立及�
 | 為 Power BI 使用者和非 Power BI 使用者 (應用程式擁有資料) 內嵌儀表板、報告及圖格 |[如何內嵌 Power BI 儀表板、報表和圖格](embedding-content.md) |
 | 擴充現有商務工作流程，將關鍵資料推送至 Power BI 儀表板。 |[將資料推入儀表板中](walkthrough-push-data.md) |
 | 向 Power BI 驗證。 |[向 Power BI 驗證](get-azuread-access-token.md) |
-| 建立自訂視覺效果。 |[使用開發人員工具建立自訂視覺效果](../service-custom-visuals-getting-started-with-developer-tools.md) |
+| 建立自訂視覺效果。 |[Developing a Power BI custom visual](custom-visual-develop-tutorial.md) (開發 Power BI 自訂視覺效果) |
 
 > [!NOTE]
 > Power BI API 仍然將應用程式工作區稱為群組。 任何對群組的引述都表示您處理的是應用程式工作區。
@@ -72,7 +72,7 @@ Power BI 開發人員範例包含用來內嵌儀表板、報告和圖格的項�
 ## <a name="next-steps"></a>後續步驟
 
 [將資料推送至資料集](walkthrough-push-data.md)  
-[開始使用自訂視覺效果開發人員工具](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Developing a Power BI custom visual](custom-visual-develop-tutorial.md) (開發 Power BI 自訂視覺效果)  
 [Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
