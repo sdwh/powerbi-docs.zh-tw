@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/20/2018
-ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.date: 11/01/2018
+ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100764"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973319"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -63,7 +63,7 @@ ms.locfileid: "50100764"
 
     ![SP 新增網頁組件](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
-3. 選取 [新增報告]。
+3. 選取 [新增報告] 。
 
     ![SP 新報表](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
@@ -82,14 +82,34 @@ ms.locfileid: "50100764"
 > [!IMPORTANT]
 > 請務必檢閱可以看到 Power BI 服務內報表的成員，並將存取權授與未列出的成員。
 
-有兩個方法可提供 Power BI 服務內報表的存取權。 如果您使用 Office 365 群組來建置 SharePoint Online 小組網站，則要將使用者列為 **Power BI 服務內的應用程式工作區**成員，及列出 **SharePoint 頁面**。 如此可確保使用者能夠檢視該群組的內容。 如需詳細資訊，請參閱[在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md)。
+有兩個方法可提供 Power BI 服務內報表的存取權。 如果您使用 Office 365 群組來建置 SharePoint Online 小組網站，則要將使用者列為 **Power BI 服務內的應用程式工作區**成員，及列出 **SharePoint 頁面**。 如需詳細資訊，請參閱如何[管理應用程式工作區](service-manage-app-workspace-in-power-bi-and-office-365.md)。
 
-或者，您可以透過在應用程式中內嵌報表來直接與使用者共用報表。 必須預先安裝該應用程式才能內嵌報表。 您可以使用 [自動安裝應用程式] 功能，設定要預先安裝的應用程式。
+或者，您可以透過在應用程式中內嵌報表來直接與使用者共用報表。 若要在應用程式中內嵌報表，請按照幾個步驟操作。  
+
+1. 應用程式的作者是 Pro 使用者。
+
+2. 該作者在應用程式工作區中建立了報表。 若要與 **Power BI 免費使用者** 共用，您需要將該應用程式工作區設定為 **Premium 工作區**。
+
+3. 作者發行應用程式，然後安裝它。 作者需要確保應用程式會安裝成可存取報告 URL (用於在內嵌在 SharePoint Online 中)。
+
+4. 現在，所有使用者也都需要安裝應用程式。 不過，您可以使用 [自動安裝應用程式] 功能，將應用程式設定成替使用者預先安裝，您可以在 [Power BI 管理入口網站](service-admin-portal.md) 中啟用它。
 
    ![自動安裝應用程式](media/service-embed-report-spo/install-app-automatically.png)
 
-> [!NOTE]
-> **使用者需要存取 SharePoint 頁面和報表，才能在 SharePoint 頁面上查看報表。**
+5. 作者開啟應用程式，並移至報表。
+
+6. 作者從應用程式安裝的報表複製內嵌報表 URL。 請勿使用來自應用程式工作區的原始報表 URL。
+
+7. 在 SharePoint Online 中建立新的小組網站。
+
+8. 將從步驟 6 複製的 URL，新增到 Power BI 網頁組件。
+
+9. 新增要使用您建立的 Power BI 應用程式中 SharePoint Online 頁面上之資料的所有使用者和/或群組。
+
+    > [!NOTE]
+    > **使用者或群組需要存取 SharePoint Online 頁面，及 Power BI 應用程式中的報表，才能看到 SharePoint 頁面上的報表。**
+
+10. 現在使用者可以移至 SharePoint Online 中的小組網站，並在頁面上檢視報表。
 
 ## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 

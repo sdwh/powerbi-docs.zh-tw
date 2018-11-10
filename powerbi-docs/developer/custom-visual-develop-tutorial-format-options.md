@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: dcefa427290fd804a0b2c79dc357e5f5bfbe7296
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50159920"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223252"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>教學課程：將格式選項新增到 Power BI 自訂視覺效果
 
 在此教學課程中，我們將探討如何將通用屬性新增至視覺效果。
 
-在此教學課程中，您將了解如何：
+在本教學課程中，您會了解如何：
 > [!div class="checklist"]
 > * 新增視覺效果屬性。
 > * 封裝視覺效果。
@@ -254,6 +254,10 @@ ms.locfileid: "50159920"
 
 8. 將滑鼠游標暫留在 **Circle Card** 圖示上，然後注意顯示的工具提示。
 
+## <a name="debugging"></a>偵錯
+
+如需偵錯自訂視覺效果的祕訣，請參閱[偵錯指南](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/)。
+
 ## <a name="next-steps"></a>後續步驟
 
-如果您想要深入了解如何將新開發的自訂視覺效果發佈以供其他人使用，請參閱[在 AppSource 上發佈自訂視覺效果](office-store.md)。
+您可以透過將新開發的視覺效果提交至 **AppSource**，以將其列出供他人使用。 如需此程序的詳細資訊，請參閱[將自訂視覺效果發佈至 AppSource](office-store.md)。

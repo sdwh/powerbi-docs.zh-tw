@@ -48,7 +48,7 @@ ms.locfileid: "49641405"
 
     ![Office 365 應用程式選擇器](media/service-admin-premium-purchase/o365-app-picker.png)
 
-    或者，您可以瀏覽至 Office 365 系統管理中心。 您可以前往 https://portal.office.com，再選取 [系統管理]，如此就能進入系統管理中心。
+    或者，您可以瀏覽至 Office 365 系統管理中心。 您可以前往 [https://portal.office.com](https://portal.office.com)，再選取 [系統管理]，如此就能進入系統管理中心。
 
 1. 選取 [計費] > [購買服務]。
 

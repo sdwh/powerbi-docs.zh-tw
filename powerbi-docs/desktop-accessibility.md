@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336867"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223367"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 報告中的協助工具
 Power BI 具有可讓行動不便人士更輕鬆地使用 Power BI 報表並與之互動的功能。 這些功能包括能夠利用鍵盤或螢幕助讀程式來使用報告、利用 Tab 鍵聚焦於頁面上的不同物件，以及在視覺效果中貼心地使用標記。
@@ -34,6 +34,8 @@ Power BI 具有可讓行動不便人士更輕鬆地使用 Power BI 報表並與�
 
 透過協助工具增強功能，您可以利用鍵盤或螢幕助讀程式，並搭配下列技巧來使用 Power BI 報表：
 
+當您檢視報表時，通常應將掃描模式關閉。
+
 您可以使用 **Ctrl+F6**，在報告頁面索引標籤之間或給定報告頁面上的物件之間切換焦點。
 
 * 當焦點在「報告頁面索引標籤」時，可使用*Tab* 鍵或「方向」鍵將焦點從一個報告頁面移至下一個報告頁面。 不論目前是否已選取報告頁面的標題，螢幕助讀程式都會讀出標題。 若要載入焦點目前所在的報告頁面，請使用 *Enter* 鍵或「空格」鍵。
@@ -48,7 +50,7 @@ Power BI 具有可讓行動不便人士更輕鬆地使用 Power BI 報表並與�
 ![在 Power BI Desktop 中，按 Alt+Shift+F11，以顯示視覺效果可存取的 [See Data] \(查閱資料) 視窗](media/desktop-accessibility/accessibility_04.png)
 
 > [!NOTE]
-> 透過此鍵盤快速鍵，[顯示資料] 功能才可存取螢幕助讀程式。 如果您透過視覺效果標頭中的選項開啟 [顯示資料]，該功能將無法存取螢幕助讀程式。
+> 透過此鍵盤快速鍵，[顯示資料] 功能才可存取螢幕助讀程式。 如果您透過視覺效果標頭中的選項開啟 [顯示資料]，該功能將無法存取螢幕助讀程式。 當您使用 [顯示資料] 時，請開啟掃描模式，以利用螢幕助讀程式提供的所有快速鍵。
 
 從 **Power BI Desktop** 的 2018 年 7 月版本開始，交叉分析篩選器也有內建的協助工具功能。 當您選取交叉分析篩選器時，若要調整交叉分析篩選器的值，請使用 CTRL+向右鍵 (Ctrl 加上向右鍵)，在交叉分析篩選器內的各種控制項之間移動。 例如，當您最初按下 CTRL+向右鍵時，焦點會位於橡皮擦上，而按下空格鍵相當於按一下橡皮擦按鈕，會清除交叉分析篩選器上的所有值。 
 
@@ -112,6 +114,55 @@ Power BI 服務也會嘗試偵測為 Windows 選取的高對比設定，但偵�
 
 * 在 **Power BI Desktop** 中使用螢幕助讀程式時，如果您於 Power BI Desktop 中先開啟所選螢幕助讀程式，再開啟任何檔案，這樣體驗最佳。
 * 如果您使用朗讀程式，以 HTML 資料表的方式瀏覽 [顯示資料] 會有所限制。
+
+## <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
+### <a name="frequently-used-shortcuts"></a>常用的快速鍵
+| 若要這樣做           | 按                |
+| :------------------- | :------------------- |
+| 在區段之間移動焦點  | Ctrl + F6 |
+| 在區段中向前移動焦點 | Tab         |
+| 在區段中向後移動焦點 | Shift + Tab |
+
+### <a name="on-visual"></a>在視覺效果上
+| 若要這樣做           | 按                |
+| :------------------- | :------------------- |
+| 將焦點移到視覺效果功能表 | Alt + Shift + F10 |
+| 顯示資料 | Alt + Shift +F11  |
+
+### <a name="pane-navigation"></a>窗格導覽
+| 若要這樣做           | 按                |
+| :------------------- | :------------------- |
+| 開啟操作功能表 | <ul><li>Windows 鍵盤：Windows 操作功能表鍵 + F10。  Windows 操作功能表鍵在左 ALT 鍵與向左鍵之間</li><li>其他鍵盤：Shift + F10</li></ul> |
+
+### <a name="slicer"></a>交叉分析篩選器
+| 若要這樣做           | 按                |
+| :------------------- | :------------------- |
+| 與交叉分析篩選器互動 | Ctrl + 向右鍵 |
+
+### <a name="selection-pane"></a>選取窗格
+| 若要這樣做           | 按                |
+| :------------------- | :------------------- |
+| 啟用 [選取] 窗格 | F6 |
+| 將物件在圖層中向上移動 | Ctrl + Shift + F |
+| 將物件在圖層中向下移動 | Ctrl + Shift + B |
+| 隱藏/顯示 (切換) 物件 | Ctrl + Shift + S |
+
+### <a name="dax-editor"></a>DAX 編輯器
+| 若要這樣做           | 按                |
+| :------------------- | :------------------- |
+| 向上/向下移動行 | Alt + 向上鍵/向下鍵 |
+| 向上/向下複製行 | Shift + Alt + 向上鍵/向下鍵 |
+| 在下方插入行 | Ctrl + Enter |
+| 在上方插入行 | Ctrl + Shift + Enter |
+| 跳至對稱的括號 | Ctrl + Shift + \ |
+| 將行縮排/凸排 | Ctrl + ] / [ |
+| 插入資料指標 | Alt + 按一下 |
+| 選取目前的行 | Ctrl + I |
+| 選取目前選取範圍的所有項目 | Ctrl + Shift + L |
+| 選取出現目前字組的所有位置 | Ctrl + F2 |
+
+
+
 
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI Desktop 中使用報告佈景主題 (預覽)](desktop-report-themes.md)

@@ -60,7 +60,7 @@ Power BI 會要求您使用公司或學校的電子郵件地址來註冊。 您�
 註冊 Power BI 最快的方式，就是註冊 Power BI (免費) 帳戶。 不需為此帳戶支付費用，而且此帳戶可讓您使用本服務中提供的多種功能。
 
 > [!NOTE]
-> 如果收到我們已經認識您的訊息，請嘗試瀏覽至 https://app.powerbi.com 並登入。
+> 如果收到我們已經認識您的訊息，請嘗試瀏覽至 [https://app.powerbi.com](https://app.powerbi.com) 並登入。
 > 
 > 
 
@@ -80,7 +80,7 @@ Power BI 會要求您使用公司或學校的電子郵件地址來註冊。 您�
 
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
 6. 選取電子郵件中的連結，以驗證您的電子郵件地址， 將讓您回到註冊流程。 您可能需要提供一些關於您自己的額外資訊。
-7. 您將會被重新導向至 https://app.powerbi.com，然後您可以免費使用者身分開始使用 Power BI。
+7. 您將會被重新導向至 [https://app.powerbi.com](https://app.powerbi.com) ，然後您可以免費使用者身分開始使用 Power BI。
 
 ### <a name="what-this-looks-like-within-the-service"></a>此服務的外觀
 當您在服務內時，您可以確認您有免費帳戶，方法是前往**齒輪**圖示，然後選取 [管理個人儲存體]。

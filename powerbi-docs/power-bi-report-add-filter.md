@@ -1,64 +1,54 @@
 ---
-title: 將視覺效果、分頁、鑽研或報表篩選新增至報表
-description: 將頁面篩選、視覺效果篩選或報表篩選新增至 Power BI 中的報表
+title: 將篩選新增至 Power BI 中的視覺效果、頁面、鑽研或報表
+description: 將頁面篩選、視覺效果篩選、報表篩選或鑽研篩選新增至 Power BI 中的報表
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/26/2018
+ms.date: 09/28/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 3758415dc41a5f94419193240d4ce71aa4aca1d8
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: c70e29bf7dcd5a307cbcb4762595716595dfa523
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187206"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973273"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>將篩選新增至 Power BI 服務報表 (在 [編輯檢視] 中)
-> [!TIP]
-> 建議先閱讀[在 Power BI 報表中進行篩選和醒目提示的相關事項](power-bi-reports-filters-and-highlighting.md)。
 
-本文中的範例說明 Power BI 服務。 不過，這些步驟幾乎與 Power BI Desktop 完全相同。
-> 
-> 
+本文說明如何將頁面篩選、視覺效果篩選、報表篩選或鑽研篩選新增到 Power BI 中的報表。 本文中的範例是在 Power BI 服務中。 這些步驟幾乎與 Power BI Desktop 完全相同。
 
-## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>[讀取檢視] 與 [編輯檢視] 中的報表篩選之間的差異為何
-您可使用下列兩種模式與報表互動：[閱讀檢視](consumer/end-user-reading-view.md) 和 [編輯檢視](service-interact-with-a-report-in-editing-view.md)。  而篩選功能會依據您使用的模式來提供。
+## <a name="filters-in-editing-view-or-reading-view"></a>編輯檢視或閱讀檢視中的篩選
+您可以透過兩種不同檢視來與報表互動：閱讀檢視和編輯檢視。 篩選功能會依據您使用的檢視來提供。 如需詳細資料，請參閱[在 Power BI 報表中進行篩選和醒目提示的相關事項](power-bi-reports-filters-and-highlighting.md)。
 
-* 在 [編輯檢視] 中，您可以新增報表、頁面和視覺效果篩選。 當您儲存報表時，也會將篩選一起儲存。 在 [閱讀檢視] 中檢視報表的人員可以與您新增的篩選互動。
-* 在 [閱讀檢視] 中，您可以與報表中已存在的任何報表、鑽研、頁面和視覺效果篩選互動，但無法新增篩選。 不過，即使您在行動裝置應用程式中檢視報表，或是您離開報表並在稍後返回，您在 [篩選] 窗格中所做的變更也會與報表一起儲存。  
+本文將說明如何在報表的 [編輯檢視] 中建立篩選。  如需 [閱讀檢視] 中篩選的資訊，請參閱[在報表的閱讀檢視中與篩選互動](consumer/end-user-reading-view.md)。
 
-> [!NOTE]
-> 本文將說明如何在報表的 [編輯檢視] 中建立篩選。  如需 [閱讀檢視] 中篩選的資訊，請參閱[在報表的閱讀檢視中與篩選互動](consumer/end-user-reading-view.md)。
-
-
-## <a name="filters-available-in-the-power-bi-filters-pane"></a>Power BI [篩選] 窗格中可用的篩選
+## <a name="filter-types-in-the-filters-pane"></a>在 [篩選] 窗格中的篩選類型
 無論您使用 Desktop 或 Power BI 服務，[篩選] 窗格都會顯示於報表畫布右方。 若未看見 [篩選] 窗格，請選取右上角的 ">" 圖示展開窗格。
 
-有四種類型的篩選。
+篩選類型有四種：**頁面篩選**、**視覺效果篩選**、**鑽研篩選**和**報表篩選**。
 
-- [頁面篩選] 會套用至報表頁面上的所有視覺效果     
-- [視覺效果篩選] 會套用至報表頁面上的單一視覺效果    
-- [鑽研篩選] 會套用至報表中的單一實體    
-- [報表篩選] 會套用至報表的所有頁面    
+![[讀取] 檢視中的 [篩選] 窗格](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
 
-    ![[讀取] 檢視中的 [篩選] 窗格](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
-
-因為篩選「可持續」，當您離開報表，Power BI 會保留篩選、交叉分析篩選器和您所做的其他資料檢視變更。 因此，當您返回報表時可以從先前離開的地方繼續。 如果您不想要篩選保存您的變更，請從頂端功能表列選取 [重設為預設]。
+因為篩選「可持續」，當您離開報表，Power BI 會保留篩選、交叉分析篩選器和您所做的其他資料檢視變更。 因此，當您返回報表時可以從先前離開的地方繼續。 如果您不想要保存篩選的變更，請從頂端功能表列選取 [重設為預設]。
 
 ![永續性篩選按鈕](media/power-bi-report-add-filter/power-bi-reset-to-default.png)
 
-## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>將篩選加入特定視覺效果中 (也稱為視覺效果篩選)
-有 2 種方式可以執行這項作業︰ 
+## <a name="add-a-filter-to-a-visual"></a>將篩選新增到視覺效果
+您可以透過兩種不同方式，將篩選新增到特定視覺效果 (也稱為視覺效果篩選)。 
 
-* 篩選視覺效果已使用的欄位
+* 篩選某個視覺效果已使用的欄位。
 * 識別視覺效果尚未使用的欄位，並將該欄位直接新增至 [視覺效果層級篩選] 貯體。
 
-### <a name="by-filtering-the-fields-already-in-the-visualization"></a>篩選視覺效果中的現有欄位
-1. [在 [編輯檢視] 中開啟報表](consumer/end-user-reading-view.md).
+順帶一提，此程序使用零售分析範例，您可以視需要下載並跟著操作。 下載[零售分析範例](sample-retail-analysis.md)。
+
+### <a name="filter-the-fields-in-the-visual"></a>篩選視覺效果中的欄位
+
+
+1. [在 [編輯檢視] 中開啟報表](service-the-report-editor-take-a-tour.md)。
    
    ![](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. 開啟 [視覺效果和篩選] 窗格和 [欄位] 窗格 (如果尚未開啟的話)。
@@ -69,38 +59,49 @@ ms.locfileid: "47187206"
    ![](media/power-bi-report-add-filter/power-bi-default-visual-filter.png)
 4. 目前，我們將篩選新增至視覺效果中已使用的欄位。 
    
-   * 向下捲動至 [視覺效果層級篩選] 區域，然後選取箭號以展開您想要篩選的欄位。 在此範例中，我們將篩選 **StoreNumberName**
+    向下捲動至 [視覺效果層級篩選] 區域，然後選取箭號以展開您想要篩選的欄位。 在此範例中，我們將篩選 **StoreNumberName**。
      
-      ![](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
-   * 設定 [基本]、[進階] 或 [前 N 個] 篩選控制項 (請參閱[如何使用報表篩選](consumer/end-user-report-filter.md))。 在此範例中，我們將選取 [基本篩選]，並在數字 10、11、15 和 18 旁邊放上核取記號。
+    ![](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
+    
+    設定 [基本]、[進階] 或 [前 N 個] 篩選控制項。 在此範例中，我們將在基本篩選中搜尋 **cha**，並選取那五家商店。
      
-      ![](media/power-bi-report-add-filter/power-bi-basic-filters.png) 
-   * 視覺效果會依據新的篩選而變更。 如果您將報表與篩選一起儲存，則報表讀取者可以在 [閱讀檢視] 中透過選取或清除值的方式與篩選互動。
-     
-      ![](media/power-bi-report-add-filter/power-bi-filter-effect.png)
-5. 現在，讓我們將全新欄位以視覺效果層級篩選形式新增至視覺效果。
+    ![](media/power-bi-report-add-filter/power-bi-search-filter.png) 
    
-   * 從 [欄位] 窗格選取您要新增為新視覺效果層級篩選的欄位，並將它拖曳到 [視覺效果層級篩選] 區域。  在此範例中，我們會將 [區域經理] 拖曳至 [視覺效果層級篩選] 貯體，然後只選取 Andrew Ma。 
+    視覺效果會依據新的篩選而變更。 如果您將報表與篩選一起儲存，報表讀者一開始會看到視覺效果篩選，並且在 [閱讀檢視] 中透過選取或清除值的方式與篩選互動。
      
-      ![](media/power-bi-report-add-filter/power-bi-andrew.png)
-   * 請注意，[區域經理]「未」新增至視覺效果本身。 視覺效果仍然是由 [StoreNumberName] 作為 [軸] 且 [This Year Sales]\(本年度銷售額) 作為 [值] 所組成。  
-     
-      ![](media/power-bi-report-add-filter/power-bi-visualization.png)
-   * 而且，現在會篩選視覺效果本身，只顯示 Andrew 所指定商店的本年度銷售額。
-     
-     ![](media/power-bi-report-add-filter/power-bi-filtered-andrew.png)
+    ![](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
 
-## <a name="add-a-filter-to-an-entire-page-aka-page-view-filter"></a>將篩選加入整個頁面中 (也稱為網頁檢視篩選)
-1. [在 [編輯檢視] 中開啟報表](consumer/end-user-reading-view.md).
+### <a name="filter-with-a-field-thats-not-in-the-visual"></a>使用不在視覺效果中的欄位篩選
+
+現在，讓我們將新欄位以視覺效果層級篩選形式新增至視覺效果。
+   
+1. 從 [欄位] 窗格選取您要新增為新視覺效果層級篩選的欄位，並將它拖曳到 [視覺效果層級篩選] 區域。  在此範例中，我們會將 [區域經理] 拖曳至 [視覺效果層級篩選] 貯體，搜尋 **an**，然後選取那三個經理。 
+     
+    ![](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
+
+    請注意，[區域經理]「未」新增至視覺效果本身。 視覺效果仍然是由 [StoreNumberName] 作為 [軸] 且 [This Year Sales] \(本年度銷售額\) 作為 [值] 所組成。  
+     
+    ![](media/power-bi-report-add-filter/power-bi-visualization.png)
+
+    而且，現在會篩選視覺效果本身，只顯示那些經理所指定商店的本年度銷售額。
+     
+    ![](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
+
+    如果您將報表與此篩選一起儲存，則報表讀者可以在 [閱讀檢視] 中透過選取或清除值的方式與 [區域經理] 篩選互動。
+
+## <a name="add-a-filter-to-an-entire-page"></a>將篩選新增至整個頁面
+
+您也可以將篩選新增到整個頁面中 (也稱為頁面檢視篩選)
+1. [在 [編輯檢視] 中開啟報表](service-the-report-editor-take-a-tour.md)。
 2. 開啟 [視覺效果和篩選] 窗格和 [欄位] 窗格 (如果尚未開啟的話)。
-3. 從 [欄位] 窗格選取您要新增為新分頁層級篩選的欄位，並將它拖曳至 [分頁層級篩選] 區域。  
-4. 選取您想要篩選的值，然後設定 [基本] 或 [進階] 篩選控制項 (請參閱[如何使用報表篩選](consumer/end-user-report-filter.md))。
+3. 從 [欄位] 窗格選取您要新增為新頁面層級篩選的欄位，並將它拖曳至 [頁面層級篩選] 區域。  
+4. 選取您想要篩選的值，然後設定 [基本] 或 [進階] 篩選控制項。
    
    會重新繪製頁面上受此篩選影響的所有視覺效果，以反映變更。 
    
    ![](media/power-bi-report-add-filter/filterpage.gif)
 
-如果您將報表與篩選一起儲存，則報表讀取者可以在 [閱讀檢視] 中透過選取或清除值的方式與篩選互動。
+    如果您將報表與篩選一起儲存，則報表讀者可以在 [閱讀檢視] 中透過選取或清除值的方式與篩選互動。
 
 ## <a name="add-a-drillthrough-filter"></a>新增鑽研篩選
 使用 Power BI 服務和 Power BI Desktop 中的鑽研，您可以建立「目的地」報表分頁，著重於特定的實體 - 例如供應商、客戶或製造商。 現在，使用者可以從其他報表分頁以滑鼠右鍵按一下該實體的資料點，就會鑽研至焦點分頁。
@@ -130,12 +131,12 @@ ms.locfileid: "47187206"
     ![](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 
 ## <a name="add-a-filter-to-an-entire-report-aka-report-filter"></a>將篩選加入整份報表 (也稱為 [報表] 篩選)
-1. [在 [編輯檢視] 中開啟報表](consumer/end-user-reading-view.md).
+1. [在 [編輯檢視] 中開啟報表](service-the-report-editor-take-a-tour.md)。
 2. 開啟 [視覺效果和篩選] 窗格和 [欄位] 窗格 (如果尚未開啟的話)。
 3. 從 [欄位] 窗格選取您要新增為新報表層級篩選的欄位，並將它拖曳到 [報表層級篩選] 區域。  
-4. 選取您想要篩選的值 (請參閱[如何使用報表篩選](consumer/end-user-report-filter.md)).
+4. 選取要篩選的值。
 
-    使用中頁面上的視覺效果以及報表中所有頁面的視覺效果，都會依據新的篩選而變更。 如果您將報表與篩選一起儲存，則報表讀取者可以在 [閱讀檢視] 中透過選取或清除值的方式與篩選互動。
+    使用中頁面上的視覺效果以及報表中所有頁面的視覺效果，都會依據新的篩選而變更。 如果您將報表與篩選一起儲存，則報表讀者可以在 [閱讀檢視] 中透過選取或清除值的方式與篩選互動。
 
 1. 選取上一步箭頭以返回先前的報表分頁。
 
@@ -149,11 +150,11 @@ ms.locfileid: "47187206"
 - 如果您已對篩選進行大量變更，並想要返回至報表作者預設設定，請從頂端功能表列選取 [重設為預設]。
 
 ## <a name="next-steps"></a>後續步驟
- [如何使用報表篩選](consumer/end-user-report-filter.md)
+[報表 [篩選] 窗格概觀](consumer/end-user-report-filter.md)
 
-  [報表的篩選和醒目提示](power-bi-reports-filters-and-highlighting.md)
+[報表的篩選和醒目提示](power-bi-reports-filters-and-highlighting.md)
 
-[在 [閱讀檢視] 中與篩選條件及醒目提示互動](consumer/end-user-reading-view.md)
+[在 [閱讀檢視] 中與篩選互動和醒目提示](consumer/end-user-reading-view.md)
 
 [變更報表視覺效果相互交叉篩選及交叉醒目提示的方式](consumer/end-user-interactions.md)
 

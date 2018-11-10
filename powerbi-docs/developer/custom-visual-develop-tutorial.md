@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: 813d65844fee21a6c10d4c95bd15fb18cf4c75c2
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: ed3a7a7c9f649f5ce834594572e3ab87b91181f5
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50159924"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223413"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>教學課程：開發 Power BI 自訂視覺效果
 
@@ -28,7 +28,7 @@ ms.locfileid: "50159924"
 
   ![Power BI 自訂視覺效果範例輸出](media/custom-visual-develop-tutorial/circle-cards.png)
 
-在此教學課程中，您將了解如何：
+在本教學課程中，您會了解如何：
 > [!div class="checklist"]
 > * 建立 Power BI 自訂視覺效果。
 > * 使用 D3 視覺效果元素開發自訂視覺效果。
@@ -39,6 +39,7 @@ ms.locfileid: "50159924"
 
 * 如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/en-us/pricing/)，再開始進行。
 * 您需要安裝 [Visual Studio Code](https://www.visualstudio.com/)。
+* 您需要適用於 Windows 使用者的 [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6) 4 或更新版本，亦或是適用於 OSX 使用者的 [Terminal](https://macpaw.com/how-to/use-terminal-on-mac)。
 
 ## <a name="setting-up-the-developer-environment"></a>設定開發人員環境
 
@@ -69,6 +70,8 @@ ms.locfileid: "50159924"
     ```
 
 ### <a name="creating-and-installing-a-certificate"></a>建立及安裝憑證
+
+#### <a name="windows"></a>Windows
 
 1. 若要建立憑證，請輸入下列命令。
 
@@ -117,13 +120,32 @@ ms.locfileid: "50159924"
 > [!Important]
 > 請勿關閉 Windows PowerShell 工作階段。
 
+#### <a name="osx"></a>OSX
+
+1. 如果左上方的鎖為鎖定狀態，請選取該鎖以解除鎖定。 搜尋 *localhost* 並按兩下憑證。
+
+    ![在 OSX 上安裝 SSL 憑證 1](media/custom-visual-develop-tutorial/install-ssl-certificate-osx.png)
+
+2. 選取 [永遠信任]，然後關閉視窗。
+
+    ![在 OSX 上安裝 SSL 憑證 2](media/custom-visual-develop-tutorial/install-ssl-certificate-osx2.png)
+
+3. 輸入您的使用者名稱和密碼。 選取 [更新設定]。
+
+    ![在 OSX 上安裝 SSL 憑證 3](media/custom-visual-develop-tutorial/install-ssl-certificate-osx3.png)
+
+4. 關閉任何已開啟的瀏覽器。
+
+> [!NOTE]
+> 如果系統無法辨識憑證，您可能需要重新啟動電腦。
+
 ## <a name="creating-a-custom-visual"></a>建立自訂視覺效果
 
 您現在已經設定好環境，可以開始建立視覺效果了。
 
 您可以[下載](https://github.com/Microsoft/PowerBI-visuals-circlecard)此教學課程的完整原始程式碼。
 
-1. 在 Windows PowerShell 中，確認已安裝 Power BI 視覺效果工具套件。
+1. 請確認已安裝 Power BI 視覺效果工具套件。
 
     ```powershell
     pbiviz
@@ -555,6 +577,10 @@ ms.locfileid: "50159924"
 您現在已經設定資料角色，並將視覺效果繫結到資料檢視。
 
 在下一個教學課程中，您將了解如何將格式設定選項新增到自訂視覺效果。
+
+## <a name="debugging"></a>偵錯
+
+如需偵錯自訂視覺效果的祕訣，請參閱[偵錯指南](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/)。
 
 ## <a name="next-steps"></a>後續步驟
 

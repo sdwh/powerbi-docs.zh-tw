@@ -1,31 +1,31 @@
 ---
 title: 管理您的資料儲存空間
 description: 了解如何管理您個人或應用程式工作區的資料儲存空間，以確保您可以繼續發行報表和資料集。
-author: mgblythe
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
-ms.author: mblythe
+ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 864d50d8850a8ceed964f128cea71b0daf5d8322
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944736"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736864"
 ---
 # <a name="manage-your-data-storage"></a>管理您的資料儲存空間
 了解如何管理您個人或應用程式工作區的資料儲存空間，以確保您可以繼續發行報表和資料集。
 
 使用者和應用程式工作區有自己的資料容量
 
-* 所有使用者最多可以有 10 GB 的資料儲存體。
-* 具有 Power BI Pro 授權的使用者可以建立應用程式工作區，而每個工作區的資料儲存體最多 10 GB。
+* 所有使用者都有最多 10 GB 的資料儲存體。
+* 具有 Power BI Pro 授權的使用者可以建立應用程式工作區，而每個工作區都有最多 10 GB 的資料儲存體。
 
-在租用戶層級，每位 Pro 使用者在租用戶中的所有 Pro 使用者和應用程式工作區之間的總使用量不能超過 10 GB。
+在租用戶層級，每個 Pro 使用者在租用戶中的所有 Pro 使用者和應用程式工作區之間的總使用量不能超過 10 GB。
 
 請閱讀 [Power BI 定價模型](https://powerbi.microsoft.com/pricing)之其他功能的相關資訊。
 

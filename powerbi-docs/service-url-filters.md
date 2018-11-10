@@ -1,5 +1,5 @@
 ---
-title: 使用 URL 新增 Power BI 報表參數
+title: 使用 URL 中的查詢字串參數篩選報表
 description: 使用 URL 查詢字串參數篩選報表，甚至對多個欄位進行篩選。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,24 +9,24 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2018
+ms.date: 11/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 7a034e865b0e0b6ba55385f8873d039dba0662db
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396949"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973365"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
-當您在 Power BI 服務中開啟報表時，每頁報表各有其唯一的 URL。 若要篩選該報表頁面，您可以使用報表畫布上的 [篩選] 窗格。  或者您也可以將查詢字串參數新增至 URL，以預先篩選報表。 您可能有想要向同事展示的報表，並想要預先為他們篩選。 其中一個執行方式是從報表的預設 URL 著手、將篩選參數新增至 URL，然後用電子郵件將整個新的 URL 寄送給他們。
+當您在 Power BI 服務中開啟報表時，每頁報表各有其唯一的 URL。 若要篩選該報表頁面，您可以使用報表畫布上的 [篩選] 窗格。  或者您也可以將查詢字串參數新增至 URL，以預先篩選報表。 您可能有想要向同事展示的報表，並想要預先為他們篩選。 其中一個篩選方式是從報表的預設 URL 著手、將篩選參數新增至 URL，然後用電子郵件將整個新的 URL 寄送給他們。
 
 ![服務中的 Power BI 報表](media/service-url-filters/power-bi-report2.png)
 
 ## <a name="uses-for-query-string-parameters"></a>用於查詢字串參數
 
-假設您在 Power BI Desktop 中工作，並想要建立一個可連結至其他 Power BI 報表的報表，但只想要在其他報表中顯示部分資訊。 請先使用查詢字串參數來篩選報表並儲存 URL。 接下來，在 Desktop 中使用這些新的報表 URL 來建立資料表。  然後發佈並共用報表。
+假設您在 Power BI Desktop 中工作。 您想要建立一個可連結至其他 Power BI 報表的報表，但只想要在其他報表中顯示部分資訊。 請先使用查詢字串參數來篩選報表並儲存 URL。 接下來，在 Desktop 中使用這些新的報表 URL 來建立資料表。  然後發佈並共用報表。
 
 查詢字串參數的另一個用法是讓使用者建立進階 Power BI 解決方案。  使用 DAX，使用者可以建立報表，根據其客戶在目前報表中所做的選取範圍，動態產生篩選的報表 URL。 當客戶選取 URL 時，他們只會看到預期的資訊。 
 
@@ -85,7 +85,7 @@ URL?filter=***資料表***/***欄位*** eq '***值***'
 ?filter=Store/Territory eq 'NC'
 ```
 
-若要篩選其他欄位，請新增 **and**，然後以上述相同格式新增另一個欄位。 範例如下。
+若要篩選其他欄位，請新增 '**and**'，然後以上述相同格式新增另一個欄位。 範例如下。
 
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
@@ -95,18 +95,18 @@ URL?filter=***資料表***/***欄位*** eq '***值***'
 
 ## <a name="operators"></a>運算子
 
-除了 **and** 以外，Power BI 還支援許多運算子。 下表列出這些運算子及其支援的內容類型。
+除了 '**and**' 以外，Power BI 還支援許多運算子。 下表列出這些運算子及其支援的內容類型。
 
 |運算子  | 定義 | 字串  | 數字 | 日期 |  範例|
 |---------|---------|---------|---------|---------|---------|
-|**and**     | 和 |  可以      | 是 |  可以|  product/price le 200 and price gt 3.5 |
-|**eq**     | 等於 |  可以      | 是   |  可以       | Address/City eq 'Redmond' |
-|**ne**     | 不等於 |   可以      | 是  | 可以        |  Address/City ne 'London' |
-|**ge**     |  大於或等於       | 不可以 | 是 |可以 |  product/price ge 10
-|**gt**     | 大於        |不可以 | 是 | 可以  | product/price gt 20
-|**le**     |   小於或等於      | 不可以 | 是 | 可以  | product/price le 100
-|**lt**     |  小於       | 不可以 | 是 | 可以 |  product/price lt 20
-|**in****     |  含       | 可以 | 是 |  可以 | Student/Age in (27, 29)
+|**and**     | 且 |  是      | 是 |  是|  product/price le 200 and price gt 3.5 |
+|**eq**     | 等於 |  是      | 是   |  是       | Address/City eq 'Redmond' |
+|**ne**     | 不等於 |   是      | 是  | 是        |  Address/City ne 'London' |
+|**ge**     |  大於或等於       | 否 | 是 |是 |  product/price ge 10
+|**gt**     | 大於        |否 | 是 | 是  | product/price gt 20
+|**le**     |   小於或等於      | 否 | 是 | 是  | product/price le 100
+|**lt**     |  小於       | 否 | 是 | 是 |  product/price lt 20
+|**in****     |  含       | 是 | 是 |  是 | Student/Age in (27, 29)
 
 
 \** 使用 **in** 時，**in** 右側的值可為以括弧括住的逗號分隔清單，或傳回集合的單一運算式。
@@ -125,13 +125,13 @@ Power BI URL 篩選可包含下列格式的數字。
 
 ### <a name="date-data-types"></a>日期資料類型
 
-Power BI 針對 **Date** 和 **DateTimeOffset** 資料類型支援 OData V3 和 V4。  日期使用 EDM 格式來表示 (2019-02-12T00:00:00)。 這表示當您將日期指定為 YYYY-MM-DD 時，Power BI 會將它解譯為 YYYY-MM-DDT00:00:00。
+Power BI 針對 **Date** 和 **DateTimeOffset** 資料類型支援 OData V3 和 V4。  日期是使用 EDM 格式 (2019-02-12T00:00:00) 表示，因此當您以 YYYY-MM-DD 指定日期時，Power BI 會將它解譯為 YYYY-MM-DDT00:00:00。
 
 此差異為何很重要？ 假設您建立查詢字串參數 **Table/Date gt 2018-08-03**。  結果會包含 2018 年 8 月 3 日，還是從 2018 年 8 月 4 日開始？ 由於 Power BI 將您的查詢轉譯為 **Table/Date gt 2018-08-03T00:00:00**，因此您的結果會包含具有非零時間部分的任何日期，因為這些日期會大於 **2018-08-03T00:00:00**。
 
 ## <a name="special-characters-in-url-filters"></a>URL 篩選中的特殊字元
 
-特殊字元和空格需要一些額外的格式設定。 當您的查詢包含空格、破折號或其他非 ASCII 字元時，請在這些特殊字元前面加上「逸出程式碼」，開頭為底頭，並加上一個 X (**_x**) 和 4 位數 **Unicode**，再接上另一個底線。 如果 Unicode 少於 4 個字元，您必須以零填補。 以下是一些範例。
+特殊字元和空格需要一些額外的格式設定。 當您的查詢包含空格、破折號或其他非 ASCII 字元時，請在這些特殊字元前面加上「逸出代碼」，開頭為底線，並加上一個 X (**_x**) 和四位數 **Unicode**，再接上另一個底線。 如果 Unicode 少於四個字元，您必須以零填補。 以下是一些範例。
 
 |識別碼  |Unicode  | 適用於 Power BI 的編碼  |
 |---------|---------|---------|
@@ -159,9 +159,9 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>從篩選的報表釘選磚
 
-在您使用查詢字串參數篩選報表後，可以將視覺效果從該報表釘選到儀表板。  儀表板上的圖格會顯示經篩選資料，而選取該儀表板圖格會開啟用來建立該圖格的報表。  不過，您使用 URL 進行的篩選不會儲存在報表，而選取儀表板磚時，報表會以未篩選的狀態開啟。  這表示儀表板圖格中顯示的資料與報表視覺效果中所顯示資料不相符。
+在您使用查詢字串參數篩選報表後，可以將視覺效果從該報表釘選到儀表板。  儀表板上的圖格會顯示經篩選資料，而選取該儀表板圖格會開啟用來建立該圖格的報表。  不過，您使用 URL 進行的篩選不會與報表一起儲存。 當您選取儀表板圖格時，報表會以未經篩選的狀態開啟。  因此，儀表板圖格中顯示的資料與報表視覺效果中所顯示資料不相符。
 
-當您想要查看不同結果時，這會很實用；在儀表板上已篩選，在報表則未篩選。
+此差異在您想要查看不同結果時很實用；在儀表板上已篩選，在報表則未篩選。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
@@ -169,7 +169,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 * 使用 *in* 運算子時，*in* 右側的值必須是以括弧括住的逗號分隔清單。    
 * 在 Power BI 報表伺服器，[傳遞報表參數](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)的方法可以是將其包含在報表 URL 中。 這些 URL 參數不會有前置詞，因為會直接傳遞到報表處理引擎。
-* 查詢字串篩選不適用於[發佈到 Web](service-publish-to-web.md)。
+* 查詢字串篩選不適用於[發行至 Web](service-publish-to-web.md)。
 * [在 SharePoint Online 中內嵌報表 Web 組件](service-embed-report-spo.md)不支援 URL 篩選。
 * 由於 JavaScript 限制，Long 資料類型為 (2^53-1)。
 * 報表 URL 篩選條件有 10 個運算式的限制 (以 AND 連接的 10 個篩選條件)。

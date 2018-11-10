@@ -10,12 +10,12 @@ ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/29/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a2e43d205b9e4f3085652ac3603ee68f67b2b33c
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: 064d32944f52f6e391d4a7ec4df41ecbf09b7e3f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222144"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223068"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>關於 Power BI 自訂視覺效果的常見問題集
 
@@ -58,3 +58,7 @@ ms.locfileid: "50222144"
 **什麼是認證的自訂視覺效果？**
 
 認證的自訂視覺效果是 [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) 中的視覺效果，符合某些[指定](power-bi-custom-visuals-certified.md)程式碼需求並由 Power BI 小組進行測試。  執行的測試是設計用來檢查視覺效果不會存取外部服務或資源；但是，Microsoft 不是協力廠商自訂視覺效果的作者，我們建議客戶直接連絡作者以驗證這類視覺效果的功能。
+
+## <a name="next-steps"></a>後續步驟
+
+如需疑難排解的資訊，請前往 [Troubleshooting your Power BI custom visuals](power-bi-custom-visuals-troubleshoot.md) (針對您的 Power BI 自訂視覺效果進行疑難排解)。

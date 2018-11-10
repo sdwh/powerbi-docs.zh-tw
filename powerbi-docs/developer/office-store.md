@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: d46acd9c70e8deb7fb9ae6d241256e61b7f85b65
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.openlocfilehash: 4ac828baa4f6080ab50008aa4ffb570ff016246f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50153740"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223117"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>在 AppSource 上發佈自訂視覺效果
 
@@ -147,7 +147,7 @@ ms.locfileid: "50153740"
 
 ## <a name="next-steps"></a>後續步驟
 
-[使用開發人員工具建立自訂視覺效果](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Developing a Power BI custom visual](custom-visual-develop-tutorial.md) (開發 Power BI 自訂視覺效果)  
 [Power BI 中的視覺效果](../visuals/power-bi-report-visualizations.md)  
 [Power BI 中的自訂視覺效果](../power-bi-custom-visuals.md)  
 [讓自訂視覺效果「通過認證」](../power-bi-custom-visuals-certified.md)

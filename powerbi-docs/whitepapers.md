@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
-ms.openlocfilehash: 34f34fd0a83367e306f8d84b4f9ebdf3cf30af93
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 88bfd67ddf284ea6b518c5ebdd6386887513f393
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396765"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223045"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 的技術白皮書
 
@@ -36,7 +36,7 @@ ms.locfileid: "49396765"
 | [Power BI 和 SAP BW](https://aka.ms/powerbiandsapbw)| 本文描述 SAP 客戶可如何從將 Power BI 連線到其現有的 SAP Business Warehouse (BW) 系統中受益。| 2018 年 2 月 |
 | [Power BI 管理與部署方法](http://go.microsoft.com/fwlink/?LinkId=785915&clcid=0x409) | 提供 Power BI 生態系統內的控管概念、選項和建議。 | 2016 年 3 月 |
 | [Securing the Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (保護表格式 BI 語意模型) |此技術白皮書介紹表格式 BI 語意和 Power BI 的資訊安全模型。 您將了解如何建立角色、實作動態安全性、設定模擬設定、管理角色，以及選擇連線到適用於您網路安全性內容之模型的方法。 | 2016 年 4 月 |
-| [Power BI 與 GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| 此連結會帶您到服務信任入口網站上的白皮書清單，包括 Microsoft Power BI GDPR 白皮書。 | 2018 年 4 月 |
+| [Power BI 與 GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| 此連結會帶您前往服務信任入口網站上的技術白皮書清單，包括 Microsoft Power BI GDPR 技術白皮書。 | 2018 年 4 月 |
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-hybrid-note.md)]
 

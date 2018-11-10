@@ -1,5 +1,5 @@
 ---
-title: 從 Power BI 將報表匯出至 PowerPoint (預覽)
+title: 從 Power BI 將報表匯出至 PowerPoint
 description: 了解如何將 Power BI 報表匯出至 PowerPoint。
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 85a0a34f9c67d29fee7be6335f79e97b482548be
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 661d615ed33b12ae0557fd8feaa0bc47b3a6638f
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565329"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736933"
 ---
-# <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>從 Power BI 將報表匯出至 PowerPoint (預覽)
+# <a name="export-reports-from-power-bi-to-powerpoint"></a>從 Power BI 將報表匯出至 PowerPoint
 有了 Power BI，您現在可以將報表發佈至 **Microsoft PowerPoint**，並根據 Power BI 報表輕鬆地建立投影片組。 當您**匯出至 PowerPoint** 時會發生下列狀況︰
 
 * Power BI 報表中的每個頁面都會變成 PowerPoint 的個別投影片
@@ -77,9 +77,9 @@ ms.locfileid: "46565329"
 * 目前不支援 **R 視覺效果**。 任何這類的視覺效果都會作為空白影像匯出至 PowerPoint，並顯示一個錯誤訊息，指出目前並不支援該視覺效果。
 * 目前已支援**經認證**的**自訂視覺效果**。 如需認證自訂視覺效果，包括如何使自訂視覺效果獲得認證的詳細資訊，請參閱[認證自訂視覺效果](../power-bi-custom-visuals-certified.md)。 任何未經認證的自訂視覺效果目前都不支援，其將會作為空白影像匯出至 PowerPoint，並顯示一個錯誤訊息，指出目前並不支援該視覺效果。
 * 支援**認證的自訂視覺效果**。 認證的自訂視覺效果已獲核准可搭配 Power BI 使用，且符合特定的程式碼需求，並已通過嚴格的安全性測試。 您可以[深入了解**認證的自訂視覺效果**](../power-bi-custom-visuals-certified.md)。
-* 目前無法匯出超過 15 頁的報表。
+* 目前無法匯出超過 30 頁的報表。
 * 將報表匯出至 PowerPoint 的程序需時數分鐘，請耐心等候。 影響所需時間的因素，包括報表結構及 Power BI 服務目前的負載。
-* 如果 Power BI 服務不提供 [匯出至 PowerPoint (預覽)] 功能表項目，有可能是因為租用戶系統管理員停用了此功能。 如需詳細資訊，請連絡您的租用戶系統管理員。
+* 如果 Power BI 服務中沒有 [匯出至 PowerPoint] 功能表項目，可能是因為租用戶系統管理員停用了此功能。 如需詳細資訊，請連絡您的租用戶系統管理員。
 * 背景影像會按圖表的周框區域剪裁。 強烈建議您先移除背景影像，再匯出至 PowerPoint。
 * 目前不支援匯出至 PowerPoint 時的**工作階段內互動**，例如反白顯示和篩選、向下鑽研等等。 匯出的 PowerPoint 會顯示原來儲存在報表中的視覺效果。
 * PowerPoint 中的頁面一律會以標準的 9:16 大小建立，而不論 Power BI 報表中的原始頁面大小或維度為何。

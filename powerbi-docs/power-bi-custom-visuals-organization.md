@@ -10,12 +10,12 @@ ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/29/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6fc21a9b8558b554cae6e9096aaee0fbaabcdaf3
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: e34491ebc1cc7554e8c8c000da7528754b5a673b
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222074"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223091"
 ---
 # <a name="use-organizational-custom-visuals-in-power-bi"></a>在 Power BI 中使用組織自訂視覺效果
 
@@ -54,4 +54,12 @@ ms.locfileid: "50222074"
 
 * 來自 AppSource Marketplace 的 Visio 視覺效果、PowerApps 視覺效果、Map 方塊視覺效果和 GlobeMap 視覺效果，若透過組織存放庫部署，將不會轉譯。
 
-如需詳細資訊和問題的解答，請瀏覽[常見問題集](power-bi-custom-visuals-faq.md#organizational-custom-visuals)。
+## <a name="troubleshoot"></a>疑難排解
+
+如需疑難排解的資訊，請前往 [Troubleshooting your Power BI custom visuals](power-bi-custom-visuals-troubleshoot.md) (針對您的 Power BI 自訂視覺效果進行疑難排解)。
+
+## <a name="faq"></a>常見問題集
+
+如需詳細資訊和問題的解答，請前往 [Power BI 自訂視覺效果的常見問題集](power-bi-custom-visuals-faq.md#organizational-custom-visuals)。
+
+有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。

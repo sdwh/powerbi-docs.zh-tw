@@ -2,6 +2,7 @@
 title: 經認證的 Power BI 自訂視覺效果
 description: 提交自訂視覺效果進行認證的需求和程序。 以及已通過認證的自訂視覺效果清單。
 author: mihart
+ms.author: mihart
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,45 +10,46 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.author: mihart
-ms.openlocfilehash: ba6c59d168deb5fb68f4b339f11fba795bae6452
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: 72b09083c50a88e2d22e9aa22f54ff014dafa998
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252391"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223436"
 ---
 # <a name="getting-a-custom-visual-certified"></a>讓自訂視覺效果*經認證*
+
 ## <a name="what-is-meant-by-certified"></a>*經認證*是什麼意思？
+
 *經認證的自訂視覺效果*代表其符合一組程式碼需求，並已通過嚴格的安全性測試。  自訂視覺效果通過認證後，就可以[匯出至 PowerPoint](consumer/end-user-powerpoint.md)，而且會顯示在使用者[訂閱報告頁面](consumer/end-user-subscribe.md)時所收到的電子郵件中。 當然，它也可以像[標準自訂視覺效果](power-bi-custom-visuals.md)一樣使用、新增至 Power BI 服務和 Power BI Desktop 報表，及在 Power BI 行動版和 Power BI Embedded 中檢視。
 
-您是否為 Web 開發人員，而且有興趣將自己建立的視覺效果發佈到 [Microsoft AppSource](https://appsource.microsoft.com) 呢？ 請參閱[開始使用開發人員工具](service-custom-visuals-getting-started-with-developer-tools.md)了解如何進行。
-
+您是否為 Web 開發人員，而且有興趣將自己建立的視覺效果發佈到 [Microsoft AppSource](https://appsource.microsoft.com) 呢？ 若要了解做法，請參閱[開發 Power BI 自訂視覺效果](developer/custom-visual-develop-tutorial.md)。
 
 ## <a name="certification-requirements"></a>認證需求
-* 經過 Microsoft AppSource 核准    
-* 自訂視覺效果使用 Versioned API 1.2 或以上版本撰寫    
-* 程式碼存放庫可供檢閱 (例如，視覺效果程式碼可透過 GitHub 取得)    
-* 僅使用可公開檢閱的 OSS 元件    
-* 不會存取外部服務或資源    
+
+* 經過 Microsoft AppSource 核准
+* 自訂視覺效果使用 Versioned API 1.2 或以上版本撰寫
+* 程式碼存放庫可供檢閱 (例如，視覺效果程式碼可透過 GitHub 取得)
+* 僅使用可公開檢閱的 OSS 元件
+* 不會存取外部服務或資源
 
 > **提示**︰建議您搭配預設安全性規則集使用 EsLint，以便在提交程式碼前預先加以驗證。
-> 
-> 
 
 ## <a name="process-for-submitting-a-custom-visual-for-certification"></a>提交自訂視覺效果進行認證的程序
+
 提交自訂視覺效果進行認證：
 
 1. 將電子郵件傳送至 Power BI 自訂視覺效果支援 (pbicvsupport@microsoft.com)。 於電子郵件中包括下列資訊︰    
 
-   * 標題︰視覺效果認證要求    
-   * 連結至視覺效果原始程式碼裝載所在的 GitHub 存放庫    
-   * 遵守需求 (如上所述)    
-   * 通過程式碼與安全性檢閱    
+   * 標題︰視覺效果認證要求
+   * 連結至視覺效果原始程式碼裝載所在的 GitHub 存放庫
+   * 遵守需求 (如上所述)
+   * 通過程式碼與安全性檢閱
 
 2. Microsoft 的自訂視覺效果小組會在您的自訂視覺效果經認證並新增至經認證清單 (下方)，或是遭拒並檢附須修正問題的報告時通知您。 開發人員必須負責維護與 Microsoft 之間暢通的通訊，並在必要時更新其經認證的視覺效果。
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>移除 Power BI 經認證的自訂視覺效果
+
 Microsoft 可自行斟酌將視覺效果自認證清單中移除。  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>經認證的自訂視覺效果清單
@@ -142,10 +144,11 @@ Microsoft 可自行斟酌將視覺效果自認證清單中移除。
 | [Word 雲端](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752) | [影片](https://youtu.be/AblTenl9fqo) |
 
 ## <a name="next-steps"></a>後續步驟
-[開始使用自訂視覺效果開發人員工具 (預覽)](service-custom-visuals-getting-started-with-developer-tools.md)      
-[YouTube 上的 Microsoft 自訂視覺效果播放清單](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Power BI 中的視覺效果](visuals/power-bi-report-visualizations.md)  
-[Power BI 中的自訂視覺效果](power-bi-custom-visuals.md)  
-[在 Microsoft AppSource 上發佈自訂視覺效果](developer/office-store.md)  
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 
+* [Developing a Power BI custom visual](developer/custom-visual-develop-tutorial.md) (開發 Power BI 自訂視覺效果)
+* [YouTube 上的 Microsoft 自訂視覺效果播放清單](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
+* [Power BI 中的視覺效果](visuals/power-bi-report-visualizations.md)  
+* [Power BI 中的自訂視覺效果](power-bi-custom-visuals.md)  
+* [在 Microsoft AppSource 上發佈自訂視覺效果](developer/office-store.md)  
+
+有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

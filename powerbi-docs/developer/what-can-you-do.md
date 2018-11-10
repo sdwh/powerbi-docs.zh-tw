@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 ms.date: 09/17/2018
-ms.openlocfilehash: ac35e0c61576e561afd495e51d814bc38ab0a3f5
-ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
+ms.openlocfilehash: 5fb4583dccf7b6543881f1c9062227b9a3a68b05
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "46473969"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223116"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>開發人員可如何利用 Power BI？
 
@@ -44,7 +44,7 @@ Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 A
 
 ![CV 範例](media/what-can-you-do/powerbi-custom-visual-store.png)
 
-若要開始深入了解自訂視覺效果開發，請參閱[使用開發人員工具來建立自訂視覺效果](../service-custom-visuals-getting-started-with-developer-tools.md)。
+若要開始深入了解自訂視覺效果開發，請參閱[開發 Power BI 自訂視覺效果](custom-visual-develop-tutorial.md)。
 
 ## <a name="using-api-automation"></a>使用 API 自動化
 

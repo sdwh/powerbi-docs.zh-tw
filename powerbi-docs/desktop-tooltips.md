@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4264b10ac9ae42585ea8b814d0c15de7ea318752
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 8ec638eefa95ef70ab04606881bee421f82b7f11
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416789"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223301"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>在 Power BI Desktop 中根據報表頁面建立工具提示
 您可以建立視覺化的豐富**報表工具提示**，它們是您在 **Power BI Desktop** 中根據報表頁面所建立的，當您將滑鼠停留在視覺效果上時就會顯示。 透過建立作為工具提示的報表頁面，您的自訂工具提示可以包含視覺效果、影像和任何其他您在報表頁面中建立的項目集合。 
@@ -74,7 +74,7 @@ ms.locfileid: "47416789"
 
 ![新增欄位以決定工具提示出現的位置](media/desktop-tooltips/desktop-tooltips_08.png)
  
-您可以在**工具提示欄位**貯體中包含類別和數值欄位，包括量值。
+您可以在 [工具提示欄位] 貯體中，同時包含類別和數值欄位，包括量值。
 
 一旦完成，您建立的工具提示報表頁面，就會在使用任何您放入**工具提示欄位**貯體之欄位的報表中，取代預設的 Power BI 工具提示，用為視覺效果的工具提示。
 
