@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 636dbceae129d7a5288fa6dfc8a281d5257a087f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564984"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507661"
 ---
 # <a name="printing-from-power-bi-service"></a>從 Power BI 服務列印
 從 Power BI 服務列印整個儀表板、儀表板磚、報表頁面或報表視覺效果。 一次只能列印一頁報表 -- 您無法一次列印整份報表。
@@ -47,7 +47,7 @@ ms.locfileid: "46564984"
 1. 藉由選取省略符號並且選擇焦點圖示 ![焦點圖示](./media/end-user-print/power-bi-focus-icon.png)，[在焦點模式中開啟磚](end-user-focus.md)。
    
     ![省略符號功能表](./media/end-user-print/menu-options.png)
-2. 從上方導覽列中選取全螢幕圖示 ![全螢幕圖示](./media/end-user-print/power-bi-full-screen-icon.png)，以[全螢幕模式](../service-fullscreen-mode.md)開啟磚。
+2. 從上方導覽列中選取全螢幕圖示 ![全螢幕圖示](./media/end-user-print/power-bi-full-screen-icon.png)，以[全螢幕模式](end-user-focus.md)開啟磚。
 3. 將滑鼠停留在磚上方以顯示 [選項] 功能表。
    
     ![全螢幕選項功能表](./media/end-user-print/menu-options-new.png)

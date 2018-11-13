@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: d265e465825fb8def167207ed632f1702adcbc7f
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973624"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507925"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>在 Surface Hub 和 Windows 10 上以簡報模式檢視報表 - Power BI
 您可以在 Surface Hub 上以簡報模式顯示報表，以及在 Windows 10 裝置上以全螢幕模式顯示儀表板、報表和磚。 
@@ -27,7 +27,7 @@ ms.locfileid: "45973624"
 
 當您在 Surface Hub 以簡報模式上顯示報表時，可以用不同顏色的墨水在頁面上繪製，並在報表的頁面之間巡覽。
 
-您也可以在網站上，[從 Power BI 服務以全螢幕模式顯示儀表板和報表](../../service-fullscreen-mode.md)。
+您也可以在網站上，[從 Power BI 服務以全螢幕模式顯示儀表板和報表](../end-user-focus.md)。
 
 > [!NOTE]
 > 簡報模式不同於[磚的焦點模式](mobile-tiles-in-the-mobile-apps.md)。
@@ -74,6 +74,6 @@ Surface Hub 中預設會開啟簡報模式，但如果它已關閉，您可以�
 7. 若要結束全螢幕模式，請從頂端往下撥動，並點選兩個向內的箭號 ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png)。
 
 ## <a name="next-steps"></a>後續步驟
-* [從 Power BI 服務以全螢幕模式顯示儀表板和報表](../../service-fullscreen-mode.md)
+* [從 Power BI 服務以全螢幕模式顯示儀表板和報表](../end-user-focus.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

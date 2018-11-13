@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 2758ef661b70c53a37104c67c4012be79725990e
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101477"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297128"
 ---
 # <a name="on-premises-data-gateway"></a>內部部署資料閘道
 
@@ -118,7 +118,7 @@ ms.locfileid: "50101477"
 [管理您的資料來源 - Oracle](service-gateway-onprem-manage-oracle.md)  
 [管理您的資料來源 - 匯入/已排程的重新整理](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [內部部署資料閘道 - 深入資訊](service-gateway-onprem-indepth.md)  
-[內部部署資料閘道 (個人模式) - 新版本的個人閘道](service-gateway-personal-mode.md)
+[內部部署資料閘道 (個人模式) - 新版本的個人閘道](service-gateway-personal-mode.md)  
 [設定內部部署資料閘道的 Proxy 設定](service-gateway-proxy.md)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

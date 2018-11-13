@@ -8,15 +8,15 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 62a8ae907b01c8309aee101aa074e9bfb72b207d
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545937"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265901"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>自訂 X 軸和 Y 軸屬性
 本教學課程中，您將學到許多不同的方法，可以用來自訂視覺效果的 X 軸和 Y 軸。 並非所有視覺效果都擁有座標軸或可以自訂；例如，圓餅圖沒有軸。 且自訂選項將隨視覺效果而異，一篇文章無法涵蓋太多選項。 因此，我們將探討一些最常用的軸自訂項目，並使用Power BI 報表畫布中的視覺格式設定索引標籤以輕鬆解說。  
@@ -86,30 +86,33 @@ ms.locfileid: "46545937"
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
-> 1. 一月的 GM% 為 35%，尖峰在 4 月為 45%，於 7 月下降並再次於 8 月達到尖峰。 我們去年和今年會看到類似的銷售模式嗎？
-> 2. 將 [今年度銷售額 > 值] 和 [去年度銷售額] 新增至折線圖。 [去年 GM %] 的刻度 (沿著 0M% 格線的藍線) 遠小於 [銷售額] 的刻度，因此難以比較。 此外，Y 軸標籤百分比看起來很荒謬。      
+    > [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+    一月的 GM% 為 35%，尖峰在 4 月為 45%，於 7 月下降並再次於 8 月達到尖峰。 我們去年和今年會看到類似的銷售模式嗎？
+     
+3. 將 [今年度銷售額 > 值] 和 [去年度銷售額] 新增至折線圖。 [去年 GM %] 的刻度 (沿著 0M% 格線的藍線) 遠小於 [銷售額] 的刻度，因此難以比較。 此外，Y 軸標籤百分比看起來很荒謬。      
+
+    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+
 5. 若要使視覺效果更容易閱讀及解譯，請將折線圖轉換成折線與堆疊直條圖。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
 
 6. 將 [去年毛利率 %] 從 [資料行值] 拖曳到 [行值]。 我們現在有先前建立的堆疊直條圖加上折線圖。  (選擇性地利用先前學到的內容來格式化軸字型色彩和大小)。
    
-
    Power BI 會建立兩個軸，因此可用不同方式調整資料集；左邊的量值為金額，而右邊的量值則為百分比。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes-new.png)
 
 ### <a name="format-the-secondary-y-axis"></a>設定次要 Y 軸的格式
-1. 在 [視覺效果] 窗格中，選取滾筒刷圖示以顯示格式化選項。
-2. 選取向下箭號，展開 Y 軸選項。
-3. 捲動清單，直到您找到 [顯示次要] 的選項。 將 [顯示次要] 從 [關閉] 切換為 [開啟]。
+1. 在 [視覺效果] 窗格中，選取滾筒刷圖示以顯示格式化選項。    
+2. 選取向下箭號，展開 Y 軸選項。    
+3. 捲動清單，直到您找到 [顯示次要] 的選項。 將 [顯示次要] 從 [關閉] 切換為 [開啟]。    
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/combo3.png)
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes.png)
+
 4. (選擇性) 自訂兩個軸。 如果您切換欄軸或行軸的 [位置]，這兩個軸就會換邊。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axes-options.png)
@@ -120,7 +123,7 @@ ms.locfileid: "46545937"
 1. 將 **Y 軸 (欄)** 及 **Y 軸 (行)** 的 [標題] 切換為 [開啟]。
 2. 將 [樣式]  設定為 [僅顯示標題] 。
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)
+   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)    
 3. 組合圖現在顯示雙座標軸及其標題。
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo-chart.png)

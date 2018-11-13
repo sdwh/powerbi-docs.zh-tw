@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544932"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507845"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>設計絕佳 Power BI 儀表板的秘訣
 現在您已經建立儀表板，及新增了某些圖格，請思考如何讓您的儀表板不只是好看，同時功能也更強。 一般而言，這代表將最重要的資訊設定為待命，讓它簡潔且整齊。
@@ -43,7 +43,7 @@ ms.locfileid: "46544932"
 儀表板過於雜亂嗎？  移除必要資訊以外的所有內容，可以更加輕鬆地讀取和解譯。
 
 ## <a name="make-use-of-full-screen-mode"></a>使用全螢幕模式
-以[全螢幕](service-fullscreen-mode.md)顯示儀表板，不會分散注意力。
+以[全螢幕](consumer/end-user-focus.md)顯示儀表板，不會分散注意力。
 
 ## <a name="make-the-most-important-information-biggest"></a>將最重要的資訊大小調整為最大
 如果儀表板上的文字和視覺效果大小都一樣，您的讀者會很難專注於最重要的內容。 例如，卡片視覺效果是凸顯重要數字的好方法：  
