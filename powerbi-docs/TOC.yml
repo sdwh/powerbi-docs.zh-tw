@@ -54,9 +54,11 @@ items:
     items:
     - name: 最新的 Power BI Desktop 中有什麼新功能？
       href: desktop-latest-update.md
+    - name: Power BI Desktop 中的模型檢視 (預覽)
+      href: desktop-modeling-view.md
     - name: Power BI Desktop (預覽) 中的彙總
       href: desktop-aggregations.md
-    - name: Power BI Desktop 中的複合模型 (預覽)
+    - name: Power BI Desktop 中的複合模型
       href: desktop-composite-models.md
     - name: Power BI Desktop 中的多對多關聯性 (預覽)
       href: desktop-many-to-many-relationships.md
@@ -232,6 +234,8 @@ items:
         href: desktop-bookmarks.md
       - name: 使用報表主題
         href: desktop-report-themes.md
+      - name: 試用新的篩選功能
+        href: power-bi-report-filter-preview.md
       - name: 使用快速量值
         href: desktop-quick-measures.md
       - name: 使用 What if 參數
@@ -768,17 +772,17 @@ items:
       items:
       - name: 使用資料流程的自助資料準備 (預覽)
         href: service-dataflows-overview.md
-      - name: 建立及使用資料流程
+      - name: 建立及使用資料流程 (預覽)
         href: service-dataflows-create-use.md
-      - name: 使用 Power BI Premium 的計算實體
+      - name: 使用 Power BI Premium 的計算實體 (預覽)
         href: service-dataflows-computed-entities-premium.md
-      - name: 搭配內部部署資料來源使用資料流程
+      - name: 搭配內部部署資料來源使用資料流程 (預覽)
         href: service-dataflows-on-premises-gateways.md
       - name: 在資料流程之間連結實體 (預覽)
         href: service-dataflows-linked-entities.md
       - name: 搭配資料流程使用累加式重新整理 (預覽)
         href: service-dataflows-incremental-refresh.md
-      - name: 資料流程的開發人員資源
+      - name: 資料流程的開發人員資源 (預覽)
         href: service-dataflows-developer-resources.md
       - name: 在 Power BI Desktop 中連線到資料流程
         href: desktop-connect-dataflows.md
@@ -1044,7 +1048,7 @@ items:
         href: report-server/data-sources.md
       - name: 分頁報表資料來源
         href: report-server/connect-data-sources.md
-      - name: 訂閱
+      - name: 訂用帳戶
         href: https://go.microsoft.com/fwlink/?linkid=851310
       - name: 使用行動裝置應用程式
         href: https://go.microsoft.com/fwlink/?linkid=848711
@@ -1249,9 +1253,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 7c2025a2dd23ce58937cd9987bec8d28b8ffb04c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 89c0a22887d00b325abeddd193bbf71af97feb9f
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508052"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619648"

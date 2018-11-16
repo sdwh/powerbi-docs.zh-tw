@@ -1,25 +1,27 @@
 ---
-title: 將篩選新增至 Power BI 中的視覺效果、頁面、鑽研或報表
-description: 將頁面篩選、視覺效果篩選、報表篩選或鑽研篩選新增至 Power BI 中的報表
+title: 將篩選新增至 Power BI 報表
+description: 將頁面篩選、視覺效果篩選或報表篩選新增至 Power BI 中的報表
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 11/08/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c70e29bf7dcd5a307cbcb4762595716595dfa523
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: c50afced257df1878a0a695a37d9401d9eda01b7
+ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973273"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51611144"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>將篩選新增至 Power BI 服務報表 (在 [編輯檢視] 中)
 
 本文說明如何將頁面篩選、視覺效果篩選、報表篩選或鑽研篩選新增到 Power BI 中的報表。 本文中的範例是在 Power BI 服務中。 這些步驟幾乎與 Power BI Desktop 完全相同。
+
+**您知道嗎？** Power BI 已推出新的篩選體驗，目前正處於預覽狀態。 深入了解 [Power BI 報表中的新篩選體驗](power-bi-report-filter-preview.md)。
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>編輯檢視或閱讀檢視中的篩選
 您可以透過兩種不同檢視來與報表互動：閱讀檢視和編輯檢視。 篩選功能會依據您使用的檢視來提供。 如需詳細資料，請參閱[在 Power BI 報表中進行篩選和醒目提示的相關事項](power-bi-reports-filters-and-highlighting.md)。
@@ -57,7 +59,7 @@ ms.locfileid: "50973273"
 3. 選取要啟用的視覺效果。 視覺效果所使用的所有欄位都是位在 [視覺效果層級篩選] 標題下的 [欄位] 窗格中，也會列在 [篩選] 窗格中。
    
    ![](media/power-bi-report-add-filter/power-bi-default-visual-filter.png)
-4. 目前，我們將篩選新增至視覺效果中已使用的欄位。 
+4. 目前，我們會將篩選新增至已由視覺效果使用的欄位。 
    
     向下捲動至 [視覺效果層級篩選] 區域，然後選取箭號以展開您想要篩選的欄位。 在此範例中，我們將篩選 **StoreNumberName**。
      
@@ -79,7 +81,7 @@ ms.locfileid: "50973273"
      
     ![](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
-    請注意，[區域經理]「未」新增至視覺效果本身。 視覺效果仍然是由 [StoreNumberName] 作為 [軸] 且 [This Year Sales] \(本年度銷售額\) 作為 [值] 所組成。  
+    請注意，[區域經理]「未」新增至視覺效果本身。 視覺效果仍然是由 [StoreNumberName] 作為 [軸] 且 [This Year Sales]\(本年度銷售額) 作為 [值] 所組成。  
      
     ![](media/power-bi-report-add-filter/power-bi-visualization.png)
 
@@ -97,7 +99,7 @@ ms.locfileid: "50973273"
 3. 從 [欄位] 窗格選取您要新增為新頁面層級篩選的欄位，並將它拖曳至 [頁面層級篩選] 區域。  
 4. 選取您想要篩選的值，然後設定 [基本] 或 [進階] 篩選控制項。
    
-   會重新繪製頁面上受此篩選影響的所有視覺效果，以反映變更。 
+   系統會重新繪製頁面上受此篩選影響的所有視覺效果，以反映變更。 
    
    ![](media/power-bi-report-add-filter/filterpage.gif)
 
@@ -109,7 +111,7 @@ ms.locfileid: "50973273"
 ### <a name="create-a-drillthrough-filter"></a>建立鑽研篩選
 若要跟著做，請在 [編輯] 檢視中開啟客戶獲利率範例。 假設您想要一個著重於主管業務區域的分頁。   
 
-1. 將新分頁新增至報表，並將其命名為「小組主管」。 這是鑽研「目的地」分頁。
+1. 將新分頁新增至報表，並將其命名為「小組主管」。 這個分頁將會是鑽研「目的地」。
 2. 新增視覺效果，該視覺效果會追蹤小組主管業務區域的關鍵計量。    
 3. 將 [主管 > 主管姓名] 新增至鑽研篩選。    
    
@@ -144,7 +146,7 @@ ms.locfileid: "50973273"
 
 - 在某些情況下，您的視覺效果層級篩選與頁面層級篩選可能會傳回不同結果。  例如，當您新增視覺效果層級篩選時，Power BI 會篩選彙總結果。  預設彙總為加總，不過您也可以[變更彙總類型](service-aggregates.md).  
 
-    當您新增頁面層級篩選時，Power BI 會篩選但不彙總。  這是因為一個頁面可能會有多個視覺效果，而且每個視覺效果可能會使用不同的彙總類型。  因此會將篩選套用至每個資料列。
+    當您新增頁面層級篩選時，Power BI 會篩選但不彙總。  不彙總的原因是因為一個頁面可能會有多個視覺效果，而且每個視覺效果可能會使用不同的彙總類型。  因此會將篩選套用至每個資料列。
 
 - 如果您看不到 [欄位] 窗格，請確定您是處於報表[編輯檢視](service-interact-with-a-report-in-editing-view.md)。    
 - 如果您已對篩選進行大量變更，並想要返回至報表作者預設設定，請從頂端功能表列選取 [重設為預設]。

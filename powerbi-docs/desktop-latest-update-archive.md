@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b068516b13b3aab134b20f95939c75a5b6e949b5
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 3e8e8359742a422049751a348bce6a5d4015bd72
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101684"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619854"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -33,6 +33,64 @@ ms.locfileid: "50101684"
 您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 下列章節說明 **Power BI Desktop** 前幾個月的更新。
+
+## <a name="october-2018-update-263327240262"></a>2018 年 10 月更新 (2.63.3272.40262)
+
+我們的 10 月更新好地嚇人、實用地可怕，而且比一整個南瓜籃的糖果還甜。 
+
+以下是 **Power BI Desktop** 在 10 月新增的更新：
+
+### <a name="reporting"></a>報告
+
+* 在篩選卡片中搜尋  [[影片]](https://youtu.be/cT3L2VzgBRU?t=56)  [[文章]](power-bi-reports-filters-and-highlighting.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23search) 
+* 撰寫體驗的協助工具改善 [[影片]](https://youtu.be/cT3L2VzgBRU?t=118)  [[文章]](desktop-accessibility.md#arranging-items-in-field-buckets)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
+* ArcGIS Map 的效能改進[[影片]](https://youtu.be/cT3L2VzgBRU?t=333)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
+
+
+### <a name="modeling"></a>模型
+
+* DAX 編輯器的改善 [[影片]](https://youtu.be/GO1dhDJhSDY)  [[文章]](desktop-formula-editor.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23daxEditor) 
+
+### <a name="analytics"></a>分析
+
+* Power BI 服務 (預覽) 中的複合模型和彙總支援 [[影片]](https://youtu.be/8E6UokaDtc0)  [[文章 - 彙總]](desktop-aggregations.md) [[文章 - 複合模型]](desktop-composite-models.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23compositeModels) 
+* 非加法量值的說明增加情形 [[影片]](https://youtu.be/8E6UokaDtc0?t=107)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23Insights) 
+
+### <a name="custom-visuals"></a>自訂視覺效果
+
+* 五個新的自訂視覺效果  [[影片]](https://youtu.be/ZfJSSG17SEY)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23customVisuals) 
+
+### <a name="data-connectivity"></a>資料連線
+
+* Web by Example 連接器現已正式推出 [[影片]](https://youtu.be/MhrhIXNtelw)  [[文章]](desktop-connect-to-web-by-example.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23webByExample) 
+* SAP BW 連接器實作 v2 現已正式推出  [[影片]](https://youtu.be/MhrhIXNtelw?t=133)   [[文章]](desktop-sap-bw-connector.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBW) 
+* SAP BW 訊息伺服器連接器現已正式推出  [影片](https://youtu.be/MhrhIXNtelw?t=159)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBWmessageServer) 
+* Vertica 連接器 現已正式推出   [[影片]](https://youtu.be/MhrhIXNtelw?t=175)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23vertica) 
+* Dynamics NAV 和 Dynamics 365 Buisness Central 連接器現已正式推出   [[影片]](https://youtu.be/MhrhIXNtelw?t=197)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamics) 
+* 新的 Dynamics 365 Business Central 內部部署連接器   [[影片]](https://youtu.be/MhrhIXNtelw?t=219)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamicsOnPrem) 
+
+### <a name="data-preparation"></a>資料準備
+* Power Query 編輯器中的資料分析 (預覽) [[影片]](https://youtu.be/XNNvXCvlDlc)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dataProfiling) 
+* 合併查詢的模糊比對選項 (預覽) [[影片]](https://youtu.be/XNNvXCvlDlc?t=261)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23fuzzyMatching) 
+
+### <a name="other-areas"></a>其他區域
+* 控制報表的匯出資料選項 [[影片]](https://youtu.be/agjKCFQ1NBQ?t=16)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23exportControl) 
+* 傳輸層安全性設定 [[影片]](https://youtu.be/agjKCFQ1NBQ?t=208)  [[文章]](service-admin-power-bi-security.md#enforcing-tls-version-usage)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23tls) 
+
+
+> [!NOTE]
+> 您也可以[查看 Power BI Desktop 的所有可用資料來源](desktop-data-sources.md)，我們的資料來源會持續增加，因此請經常回來查看。
+
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
+
+
+下列影片頻道說明並展示了各項更新。 您也可以從部落格文章中觀賞影片。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cT3L2VzgBRU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> 您可能也會想要了解 [Power BI 服務的新功能](service-whats-new.md)，並請同時查閱 [Power BI 行動應用程式的新功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
 
 ## <a name="september-2018-update-2625222582"></a>2018 年 9 月更新 (2.62.5222.582)
@@ -87,7 +145,7 @@ ms.locfileid: "50101684"
 
 以下是 8 月 **Power BI Desktop** 新增的更新：
 
-### <a name="modeling"></a>建立模型
+### <a name="modeling"></a>模型
 
 * 量值的資料類別  [[影片]](https://youtu.be/dgv5HhHxxe8?t=15m27s)  [[文章]](desktop-measures.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dataCategory)
 * 統計 DAX 函數  [[影片]](https://youtu.be/dgv5HhHxxe8?t=18m56s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dax)
@@ -135,7 +193,7 @@ ms.locfileid: "50101684"
 
 以下是 7 月 **Power BI Desktop** 新增的更新：
 
-### <a name="modeling"></a>建立模型
+### <a name="modeling"></a>模型
 
 * 複合模型 (預覽) [[影片]](https://youtu.be/Mtig3rmIUe0?t=15s) [[文章]](desktop-composite-models.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
 * 多對多關聯性 (預覽) (與複合模型相關聯) [[影片]](https://youtu.be/Mtig3rmIUe0?t=4m53s) [[文章]](desktop-many-to-many-relationships.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
@@ -204,7 +262,7 @@ ms.locfileid: "50101684"
 
 * 兩個新的自訂視覺效果  [[影片]](https://youtu.be/4VpGtWSrssE?t=17m42s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
 
-### <a name="modeling"></a>建立模型
+### <a name="modeling"></a>模型
 * 資料檢視中的篩選和排序  [[影片]](https://youtu.be/4VpGtWSrssE?t=13m11s)  [[文章]](desktop-data-view.md#filtering-in-data-view)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
 * 改善的地區設定篩選   [[影片]](https://youtu.be/4VpGtWSrssE?t=15m35s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#locale) 
 

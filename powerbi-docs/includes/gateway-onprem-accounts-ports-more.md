@@ -61,14 +61,14 @@
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
-## <a name="support-for-tls-1112"></a>TLS 1.1/1.2 支援
+## <a name="support-for-tls-12"></a>對 TLS 1.2 的支援
 
-內部部署的資料閘道預設會使用傳輸層安全性 (TLS) 1.1 或 1.2 與 **Power BI 服務**通訊。 舊版內部部署資料閘道預設會使用 TLS 1.0。 在 2018 年 3 月 15 日，針對 TLS 1.0 的支援將會結束，包括使用 TLS 1.0 與 **Power BI 服務**互動的閘道功能。 您必須升級您的內部部署資料閘道，確保閘道持續運作。
+根據預設，內部部署的資料閘道會使用傳輸層安全性 (TLS) 1.2 來與 Power BI 服務通訊。 若要確保所有閘道流量使用 TLS 1.2，您可能必須在執行閘道服務的電腦上新增或修改下列登錄機碼：
 
-請務必注意，在 11 月 1 日之前，內部部署資料閘道仍然支援 TLS 1.0，並供閘道使用以當成後援機制。 若要確保所有閘道流量使用 TLS 1.1 或 1.2 (以及避免在閘道上使用 TLS 1.0)，您必須新增或修改執行閘道服務之電腦上的下列登錄機碼：
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > 新增或修改這些登錄機碼會將變更套用至所有 .NET 應用程式。 如需影響其他應用程式之 TLS 之登錄變更的資訊，請參閱 [Transport Layer Security (TLS) registry settings](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings) (傳輸層安全性 (TLS) 登錄設定)。

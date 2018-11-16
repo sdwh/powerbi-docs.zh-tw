@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a84d34bf82be99eb52fccfb6318142f7d47de1
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329906"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619601"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Azure 使用深入解析
 使用 **Azure 使用深入解析**連接器，您可以使用 **Power BI Desktop** 連線到 Azure，並取得關於貴組織的 Azure 服務使用量的深入資料和相關資訊。 您也可以建立量值、自訂資料行和視覺效果，報告及共用有關貴組織 Azure 使用量的資訊。 這一版的 **Azure 使用深入解析**連接器處於搶鮮版 (Beta)，並可能有所變更。
@@ -49,9 +49,20 @@ ms.locfileid: "39329906"
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-提供您的「存取金鑰」並選取 [連接] 之後，會出現 [導覽] 視窗，並顯示四個您可用的資料表：*Summary*、*Usage*、*PriceSheet* 和 *MarketPlace*。 您可以選取任何資料表旁邊的核取方塊，以便查看預覽。 您可以藉由核取名稱旁邊的方塊，選取一或多個資料表，然後選擇 [載入]。
+提供「存取金鑰」並選取 [連線] 之後，[導覽器] 視窗隨即出現，並顯示九個您可取得的資料表： 
+* **Budgets**：提供預算詳細資料，以檢視實際成本或現有預算目標的使用情況。 
+* **MarketPlace**：提供預算型 Azure Marketplace 費用。
+* **PriceSheets**：藉由註冊的計量提供適用的費率。
+* **RICharges**：提供過去 24 個月與您的保留執行個體相關聯的費用。
+* **RIRecommendations_Single**：根據您單一訂用帳戶上，過去 7、30 或 60 天的使用量趨勢所提供的保留執行個體購買建議。
+* **RIRecommendations_Shared**：根據您所有訂用帳戶上，過去 7、30 或 60 天的使用量趨勢所提供的保留執行個體購買建議。
+* **RIUsage**：提供您現有保留執行個體過去一個月的使用詳細資料。
+* **Summaries**：提供包含餘額、新購買、Azure Marketplace 服務費用、調整和超額費用的每月摘要。
+* **UsageDetails**：使用量的細目和註冊的估計費用。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
+您可以選取任何資料表旁邊的核取方塊，以便查看預覽。 您可以藉由核取名稱旁邊的方塊，選取一或多個資料表，然後選擇 [載入]。
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > *Summary* 和 *PriceSheet* 資料表只可供註冊層級 API 金鑰之用。 此外，這些資料表中的資料預設具有目前月份的 *Usage* 和 *PriceSheet* 資料。 *Summary* 和 *MarketPlace* 資料表不受限於目前月份。
@@ -152,7 +163,7 @@ Azure 入口網站中的詳細資料資料行和名稱，在 API 和連接器中
 | Consumed Quantity |consumedQuantity |Consumed Quantity |否 |
 | Consumed Service |consumedService |Consumed Service |否 |
 | ConsumedServiceId |consumedServiceId | |是 |
-| Cost |cost |ExtendedCost |否 |
+| 成本 |cost |ExtendedCost |否 |
 | Cost Center |costCenter |Cost Center |否 |
 | 日期 |日期 |日期 |否 |
 | 日 | |日 |否 |
@@ -183,10 +194,10 @@ Azure 入口網站中的詳細資料資料行和名稱，在 API 和連接器中
 | Store Service Identifier |storeServiceIdentifier |Store Service Identifier |否 |
 | StoreServiceIdentifierId | | |是 |
 | 訂用帳戶名稱 |subscriptionName |訂用帳戶名稱 |否 |
-| 標記 |tags |標記 |否 |
+| 標籤 |tags |標籤 |否 |
 | TagsId | | |是 |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |否 |
-| 年 | |年 |否 |
+| 年度 | |年度 |否 |
 | SubscriptionId |subscriptionId |SubscriptionId |是 |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |否 |
 

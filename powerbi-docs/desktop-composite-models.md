@@ -1,5 +1,5 @@
 ---
-title: 使用 Power BI Desktop 中的複合模型 (預覽)
+title: 在 Power BI Desktop 中使用複合模型
 description: 在 Power BI Desktop 中透過多個資料連線與多對多關聯性來建立資料模型
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 47c99e40b1665b98c33d16b685e359c10277a560
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: b7a8323557f769fa2a05d504de2540bc505e7a54
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435388"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619693"
 ---
-# <a name="use-composite-models-in-power-bi-desktop-preview"></a>使用 Power BI Desktop 中的複合模型 (預覽)
+# <a name="use-composite-models-in-power-bi-desktop"></a>在 Power BI Desktop 中使用複合模型
 
 先前在 Power BI Desktop 中，當您在報表中使用 DirectQuery 時，該報表不允許任何其他&mdash;DirectQuery 或「匯入」&mdash;資料連線。 複合模型可以移除該限制。 報表能以各種組合，完美地包含來自多個 DirectQuery 或「匯入」資料連線的資料連線。
 
@@ -30,16 +30,6 @@ Power BI Desktop 中的複合模型功能包含三種相關功能：
 * **多對多關聯性**：使用複合模型，可以在資料表之間建立多對多關聯性。 此方法會移除資料表中唯一值的需求。 此方法也會移除先前的因應措施，像是只為建立關聯性而導入新的資料表。 如需詳細資訊，請參閱 [Power BI Desktop 的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md)。
 
 * **儲存模式**：您現在可以指定哪些視覺效果必須查詢後端資料來源。 不需要查詢的視覺效果，即便是使用 DirectQuery，也同樣會匯入。 此功能可提升效能，並減輕後端的負載。 先前即使是像交叉分析篩選器這類簡單的視覺效果，都會起始查詢，並將其傳送到後端來源。 如需詳細資訊，請參閱 [Power BI Desktop 的儲存模式 (預覽)](desktop-storage-mode.md)。
-
-## <a name="enable-the-composite-models-preview-feature"></a>啟用複合模型預覽功能
-
-複合模型功能處於預覽狀態，且必須在 Power BI Desktop 中加以啟用。 若要啟用複合模型，請選取 [檔案] > [選項與設定] > [選項] > [預覽功能]，然後選取 [複合模型] 核取方塊。 
-
-![[預覽功能] 窗格](media/desktop-composite-models/composite-models_02.png)
-
-若要啟用此功能，您必須重新啟動 Power BI Desktop。
-
-![[功能需要重新啟動] 視窗](media/desktop-composite-models/composite-models_03.png)
 
 
 ## <a name="use-composite-models"></a>使用複合模型

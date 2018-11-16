@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336890"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619808"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
@@ -30,8 +30,6 @@ ms.locfileid: "49336890"
 
 > [!NOTE]
 > Power BI 小組會持續將可用的資料來源擴充到 **Power BI Desktop** 和 **Power BI 服務**。 因此，您經常會看到舊版工作進行中的資料來源標示為 *Beta* 或「預覽」。 任何標示為 *Beta* 或「預覽」的資料來源，受到的支援和功能都有限制，不應該用在生產環境。
-> 
-> 
 
 ## <a name="data-sources"></a>資料來源
 資料類型會組織成下列類別：
@@ -79,16 +77,15 @@ ms.locfileid: "49336890"
 * Amazon Redshift
 * Impala
 * Google BigQuery
-* 雪花式
+* Snowflake
+* BI 連接器
+* Exasol
 * Dremio (搶鮮版 (Beta))
-* Exasol (搶鮮版 (Beta))
 * Jethro (搶鮮版 (Beta))
 * Kyligence Enterprise (搶鮮版 (Beta))
 
 > [!NOTE]
 > 某些資料庫連接器的啟用方式為選取 **[檔案] > [選項和設定] > [選項]**，然後選取 [預覽功能] 並啟用該連接器。 如果您沒有看到上述連接器，但想要加以使用，請檢查您的 [預覽功能] 設定。 亦請注意，任何標示為 *Beta* 或「預覽」的資料來源，受到的支援和功能都有限制，不應該用在生產環境。
-> 
-> 
 
 下圖顯示 [資料庫]  的 [取得資料] 視窗。
 
@@ -111,11 +108,11 @@ ms.locfileid: "49336890"
 * Azure Blob 儲存體
 * Azure 表格儲存體
 * Azure Cosmos DB (搶鮮版 (Beta))
-* Azure Data Lake Store
+* Azure Data Lake Storage
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight 互動式查詢
-* Azure KustoDB (搶鮮版 (Beta))
+* Azure 資料總管 (Beta)
 
 下圖顯示 [Azure]  的 [取得資料] 視窗。
 
@@ -131,7 +128,8 @@ ms.locfileid: "49336890"
 * Dynamics 365 Business Central (內部部署)
 * Common Data Service for Apps (搶鮮版 (Beta))
 * Microsoft Azure Consumption Insights (搶鮮版 (Beta))
-* Visual Studio Team Services (Beta)
+* Azure DevOps (Beta)
+* Azure DevOps Server (Beta)
 * Salesforce 物件
 * Salesforce 報表
 * Google Analytics (分析)
@@ -187,8 +185,6 @@ ms.locfileid: "49336890"
 
 > [!NOTE]
 > 目前無法連線至使用 Azure Active Directory 保護的自訂資料來源。
-> 
-> 
 
 ## <a name="connecting-to-a-data-source"></a>連接到資料來源
 若要連接至資料來源，請從 [取得資料]  視窗選取資料來源，然後選取 [連接] 。 在下圖中，從 [其他]  資料連線類別選取了 [Web]  。

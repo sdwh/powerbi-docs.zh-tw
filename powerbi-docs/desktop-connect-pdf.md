@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fe13e5776648342aa4f7e86dce657e6ffcca11b9
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 2ecd4b8e6295431f520dea61454bbf868bfab254
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512578"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619651"
 ---
 # <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中連線到 PDF 檔案 (預覽)
 在 Power BI Desktop 中，您可以連線至 **PDF 檔案**並使用此檔案內附的資料，如同使用 Power BI Desktop 中的任何其他資料來源。
@@ -45,6 +45,10 @@ PDF 連接器在 **Power BI Desktop** 中為預覽階段，必須啟用。 若�
 ![連線至 PDF 檔案中的資料](media/desktop-connect-pdf/connect-pdf_04.png)
 
 選取在 PDF 檔案中所探索項目旁的核取方塊，在右窗格中顯示它們。 當您準備匯入時，請選取 [載入] 按鈕將資料帶入 **Power BI Desktop**。
+
+從 2018 年 11 月推出的 **Power BI Desktop** 版本開始，您可以將 [起始頁] 和 [結束頁] 指定為 PDF 連線的選擇性參數。 您也可以使用下列格式，以 M 公式語言指定這些參數：
+
+`Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
 
 
 ## <a name="next-steps"></a>後續步驟

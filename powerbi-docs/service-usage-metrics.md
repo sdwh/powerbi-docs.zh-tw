@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4c10a0ffdf11829d8faa15ea14be136922c86382
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 7b511a28f056df268216552f7d075a88c047f9f3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545013"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619831"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>儀表板和報表的使用計量
 
@@ -69,7 +69,7 @@ ms.locfileid: "46545013"
     > [!NOTE]
     > 如果您將使用計量報表中的磚釘選到儀表板，該儀表板即無法新增至應用程式或內容套件。
 
-## <a name="what-metrics-are-reported"></a>報告哪些計量？
+## <a name="which-metrics-are-reported"></a>報告哪些計量？
 
 | 計量 | 儀表板 | 報表 | 描述 |
 | --- | --- | --- | --- |
@@ -148,7 +148,7 @@ ms.locfileid: "46545013"
     ![選取齒輪圖示](media/service-usage-metrics/power-bi-admin-portal-new.png)
 2. 從管理入口網站中，選取 [租用戶設定] 並選擇 [內容創作者的使用計量]。
 
-    ![管理入口網站](media/service-usage-metrics/power-bi-usage-settings.png)
+    ![系統管理入口網站](media/service-usage-metrics/power-bi-usage-settings.png)
 3. 啟用 (或停用) 使用計量，然後選取 [套用]。
 
     ![已啟用使用計量](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
@@ -162,6 +162,15 @@ ms.locfileid: "46545013"
 Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供的安全性、隱私權、合規性及透明度等級與全球版本的 Power BI 相同，並結合了服務傳遞、資料存放、存取及控制等方面符合當地規定的獨特模型。 因此，這套專門針對當地法規而設計的獨特模型，其使用計量無法在國家地區雲端中使用。 如需詳細資訊，請參閱[國家/地區雲端](https://powerbi.microsoft.com/en-us/clouds/)。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
+
+請務必了解比較使用計量和稽核記錄時，可能產生的差異和其原因。 「稽核記錄」是使用來自 Power BI 服務的資料來收集，而「使用計量」是在用戶端上收集。 因為該差異，稽核記錄中的彙總計數可能和使用計量不一律相符，原因如下列：
+
+* 由於網路連線不一致、廣告封鎖程式或其他可能中斷從用戶端傳送事件的問題，使用計量有時候可能會將活動少算。
+* 如稍早在本文中所述，特定類型的檢視未包含在使用計量中。
+* 在用戶端重新整理但並不需要將要求傳送回 Power BI 服務的情況下，使用計量可能會將活動多算。
+
+
+除了使用計量與稽核記錄間的潛在差異之外，下列有關使用計量的問題和回答，可能對使用者和系統管理員有幫助：
 
 問︰我無法對儀表板或報表執行使用計量。答︰您只能看到您擁有或有編輯權限的使用計量內容。
 

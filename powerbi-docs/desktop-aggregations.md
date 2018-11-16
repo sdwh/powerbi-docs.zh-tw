@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: e88e60bc1745a08ea53c7336f6f1fb9e4cda1ec8
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359715"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619716"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop (預覽) 中的彙總
 
@@ -25,15 +25,15 @@ ms.locfileid: "49359715"
 
 下列清單提供使用**彙總**的優點：
 
-* **查詢大型資料集效能**：當使用者與 Power BI 報表中的視覺效果進行互動時，會將 DAX 查詢提交至資料集。 在彙總層級快取資料，使用一小部分詳細資料層級所需的資源來提升查詢速度。 以過去不可能做到的方式解除鎖定巨量資料。
+* **查詢巨量資料效能**：當使用者與 Power BI 報表中的視覺效果進行互動時，系統會將 DAX 查詢提交至資料集。 在彙總層級快取資料，使用一小部分詳細資料層級所需的資源來提升查詢速度。 使用其他方式則可能無法將巨量資料解除鎖定。
 * **資料重新整理最佳化** - 在彙總層級快取資料，以減少快取大小和重新整理次數。 加快提供使用者資料的時間。
 * **達到平衡的架構** - 允許 Power BI 記憶體內部快取處理彙總的查詢，這很有效率。 限制 DirectQuery 模式中傳送至資料來源的查詢，有利保持並行限制。 通過的查詢通常會經過篩選 (交易式層級的查詢)，資料倉儲和巨量資料系統一般能正常處理它們。
 
 ### <a name="table-level-storage"></a>資料表層級的儲存體
-資料表層級的儲存體通常搭配彙總功能使用。 如需詳細資訊，請參閱 [Power BI Desktop 的儲存模式 (預覽)](desktop-storage-mode.md)文。
+資料表層級的儲存體通常搭配彙總功能使用。 如需詳細資訊，請參閱 [Power BI Desktop 的儲存模式](desktop-storage-mode.md)一文。
 
 ### <a name="data-source-types"></a>資料來源類型
-彙總可搭配資料來源代表維度模型，例如資料倉儲和資料超市，以及 Hadoop 巨量資料來源。 本文描述每種資料來源類型在 Power BI 中的一般建模差異。
+彙總可搭配資料來源代表維度模型，例如資料倉儲、資料超市，以及 Hadoop 型巨量資料來源。 本文描述每種資料來源類型在 Power BI 中的一般建模差異。
 
 所有的 Power BI Import 和 (非多維度的) DirectQuery 來源都使用彙總。
 
@@ -57,7 +57,7 @@ ms.locfileid: "49359715"
 
 相反地，我們會建立 **Sales Agg** 資料表作為彙總資料表。 它的資料粒度比 **Sales** 更高，因此包含的資料列更少。 資料列數目應該等於 **SalesAmount** 的總和，這是 **CustomerKey**、**DateKey** 以及 **ProductSubcategoryKey** 的組合。 它沒有數十億，可能只有數百萬筆資料列，更容易管理。
 
-假設下列維度資料表最常用於高商業價值的查詢。 這些資料表可以使用「一對多」(或「多對一」) 關聯性來篩選 **Sales Agg**。 彙總不考慮其他關聯性類型，例如「多對多」或「多重來源」。
+假設下列維度資料表最常用於高商業價值的查詢。 這些資料表可以使用「一對多」(或「多對一」) 關聯性來篩選 **Sales Agg**。
 
 * 地理位置
 * 客戶
@@ -77,7 +77,7 @@ ms.locfileid: "49359715"
 
 ![設定儲存模式](media/desktop-aggregations/aggregations_04.jpg)
 
-當我們這麼做時，下列對話方塊會出現，讓我們知道相關的維度資料表會將儲存模式設為 **Dual**。 
+當我們這麼做時，下列對話方塊會出現，讓我們知道相關的維度資料表可以設定為儲存模式 **Dual**。 
 
 ![儲存模式對話方塊](media/desktop-aggregations/aggregations_05.jpg)
 
@@ -88,7 +88,23 @@ ms.locfileid: "49359715"
 
 如需 **Dual** 儲存模式的詳細資訊，請參閱[儲存模式](desktop-storage-mode.md)一文。
 
-> 注意︰**Sales Agg** 資料表為隱藏。 彙總資料表應對資料集取用者隱藏。 取用者和查詢參考的是詳細資料資料表，而不是彙總資料表；他們甚至不需要知道彙總資料表的存在。
+### <a name="strong-vs-weak-relationships"></a>強與弱關聯性
+根據關聯性叫用彙總需要強關聯性。
+
+強關聯性包含下列組合，其中兩個資料表都是來自「單一來源」。
+
+| 位於*多邊的資料表 | 位於單邊的資料表 |
+| ------------- |----------------------| 
+| 雙重          | 雙重                 | 
+| 匯入        | 匯入或雙重       | 
+| DirectQuery   | DirectQuery 或雙重  | 
+
+只有在兩個資料表都是匯入的情況下，才會將「跨來源」關聯性視為強。 多對多關聯性一律視為弱。
+
+對於不依靠關聯性的「跨來源」彙總叫用，請參閱下節有關以分組方式資料行為基礎的彙總。
+
+### <a name="aggregation-table-is-hidden"></a>彙總資料表為隱藏
+**Sales Agg** 資料表為隱藏。 彙總資料表應一律對資料集取用者隱藏。 取用者和查詢參考的是詳細資料資料表，而不是彙總資料表；他們甚至不需要知道彙總資料表的存在。
 
 ### <a name="manage-aggregations-dialog"></a>[管理彙總] 對話方塊
 接下來我們要定義彙總。 以滑鼠右鍵按一下資料表，選取 **Sales Agg** 資料表的 [管理彙總] 操作功能表。
@@ -155,7 +171,7 @@ ms.locfileid: "49359715"
 
 ![查詢範例](media/desktop-aggregations/aggregations-code_02.jpg)
 
-下列查詢不會叫用彙總。 儘管要求 **SalesAmount** 的加總，它仍會對 **Product** 資料表的資料行作業以執行分組，其資料粒度不可以叫用彙總。 如果您觀察模型中的關聯性，會發現產品子類別可以有多個**產品**資料列，而查詢無法判斷要彙總哪些產品。 在此情況下，查詢會還原為 DirectQuery，並將 SQL 查詢提交至資料來源。
+下列查詢不會叫用彙總。 儘管要求 **SalesAmount** 的加總，它仍會對 **Product** 資料表中的資料行作業以執行分組，其資料粒度不可以叫用彙總。 如果您觀察模型中的關聯性，會發現產品子類別可以有多個 **Product** 資料列，而查詢無法判斷要彙總哪些產品。 在此情況下，查詢會還原為 DirectQuery，並將 SQL 查詢提交至資料來源。
 
 ![查詢範例](media/desktop-aggregations/aggregations-code_03.jpg)
 
@@ -197,11 +213,11 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免聯結大型
 
 ### <a name="group-by-columns"></a>依資料行分組
 
-在此範例中，**GroupBy** 項目「不是選用的」，沒有它們就不會叫用彙總。 使用以關聯性為基礎的彙總是不同行為，本文前面提供的維度模型範例已說明此行為。
+在此範例中，**GroupBy** 項目**不是選用的**，沒有它們就不會叫用彙總。 使用以關聯性為基礎的彙總是不同行為，本文前面提供的維度模型範例已說明此行為。
 
 ### <a name="query-examples"></a>查詢範例
 
-下列查詢會叫用彙總，因為彙總資料表提供 **Activity Date** 資料行。 計數資料表資料列彙總是由 COUNTROWS 函式使用。
+下列查詢會叫用彙總，因為彙總資料表涵蓋 **Activity Date** 資料行。 計數資料表資料列彙總是由 COUNTROWS 函式使用。
 
 ![查詢範例](media/desktop-aggregations/aggregations-code_08.jpg)
 
@@ -253,7 +269,7 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免聯結大型
 
 ![查詢範例](media/desktop-aggregations/aggregations-code_09.jpg)
 
-下列查詢不會叫用彙總，因為彙總資料表不提供 CalendarDay。
+下列查詢不會叫用彙總，因為彙總資料表不涵蓋 CalendarDay。
 
 ![查詢範例](media/desktop-aggregations/aggregations-code_10.jpg)
 
@@ -263,7 +279,7 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免聯結大型
 
 ## <a name="caches-should-be-kept-in-sync"></a>快取應該保持同步
 
-如果記憶體內部快取與來源資料不同步，結合 DirectQuery 和 Import 及/或 Dual 儲存模式的**彙總**，可能會傳回不同的資料。 例如，查詢執行將不會藉由篩選 DirectQuery 結果以符合快取的值，嘗試掩飾資料問題。 這些功能已最佳化效能，而且只應以不危及您能力的方式使用來滿足商務需求。 您應該最了解自己的資料流程，請據此進行設計。 如有必要，可使用一些現有技術，在來源處理這類問題。
+如果記憶體內部快取與來源資料不同步，結合 DirectQuery 和 Import 及/或 Dual 儲存模式的**彙總**，可能會傳回不同的資料。 查詢執行不會嘗試掩飾資料問題，例如篩選 DirectQuery 結果以符合快取值。 這些功能已最佳化效能，而且只應以不危及您能力的方式使用來滿足商務需求。 您應該最了解自己的資料流程，請據此進行設計。 如有必要，可使用一些現有技術，在來源處理這類問題。
 
 ## <a name="next-steps"></a>後續步驟
 
@@ -277,4 +293,3 @@ DirectQuery 文章：
 
 * [使用 Power BI 中的 DirectQuery](desktop-directquery-about.md)
 * [Power BI 中 DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)
-

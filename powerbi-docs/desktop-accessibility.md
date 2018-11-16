@@ -7,25 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223367"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619624"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 報告中的協助工具
 Power BI 具有可讓行動不便人士更輕鬆地使用 Power BI 報表並與之互動的功能。 這些功能包括能夠利用鍵盤或螢幕助讀程式來使用報告、利用 Tab 鍵聚焦於頁面上的不同物件，以及在視覺效果中貼心地使用標記。
 
 ![在折線圖和區域圖中使用不同的標記來改善協助工具](media/desktop-accessibility/accessibility_01.png)
-
-> [!NOTE]
-> 2017 年 6 月 **Power BI Desktop** 和更新版本提供這些協助工具功能。 未來的版本也預計還有其他協助工具功能。
-> 
-> 
 
 ## <a name="consuming-a-power-bi-desktop-report-with-a-keyboard-or-screen-reader"></a>利用鍵盤或螢幕助讀程式來使用 Power BI Desktop 報告
 自 2017 年 9 月起的 **Power BI Desktop** 版本開始，您即可按 **?** 鍵，以顯示描述 **Power BI Desktop** 所提供之協助工具鍵盤快速鍵的視窗。
@@ -116,12 +111,26 @@ Power BI 服務也會嘗試偵測為 Windows 選取的高對比設定，但偵�
 * 如果您使用朗讀程式，以 HTML 資料表的方式瀏覽 [顯示資料] 會有所限制。
 
 ## <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
+鍵盤快速鍵能協助使用鍵盤在 Power BI 報表中四處移動。 下表描述在 Power BI 報表中提供使用的快速鍵。 除了在 Power BI Desktop 中使用這些鍵盤快速鍵之外，這些快速鍵也能在下列體驗中運作：
+
+* [問與答總管] 對話方塊
+* [使用者入門] 對話方塊
+* [檔案] 功能表與 [關於] 對話方塊
+* [警告] 列
+* [檔案還原] 對話方塊
+* [苦臉] 對話方塊
+
+由於我們致力於持續改善協助工具，因此上述清單中的體驗同時也支援螢幕助讀程式和高對比設定。
+
+
 ### <a name="frequently-used-shortcuts"></a>常用的快速鍵
 | 若要這樣做           | 按                |
 | :------------------- | :------------------- |
 | 在區段之間移動焦點  | Ctrl + F6 |
 | 在區段中向前移動焦點 | Tab         |
 | 在區段中向後移動焦點 | Shift + Tab |
+| 選取或取消選取某個物件 | Enter 或空格鍵 |
+| 多重選取物件 | Ctrl + 空格鍵 |
 
 ### <a name="on-visual"></a>在視覺效果上
 | 若要這樣做           | 按                |
