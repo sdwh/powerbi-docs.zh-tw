@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 263c1a576e939a87e970cc2c0200dfb6c1ccdc41
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298197"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273325"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>內部部署資料閘道 (個人模式)
 您可以使用內部部署資料來源，並使用閘道建立 Power BI 報表和儀表板。 **閘道**是一種軟體，可協助存取私用內部部署網路上所儲存的資料，然後可讓您使用 **Power BI 服務**這類線上服務中的資料。 **內部部署資料閘道 (個人模式)** 是最近發行的 Power BI 閘道更新，可讓個人在自己的電腦上安裝閘道，以及存取內部部署資料。
@@ -66,7 +66,7 @@ ms.locfileid: "34298197"
 
 如果您已更新與安裝舊版閘道相同的電腦上的個人閘道，則會自動更新您的認證，而且所有重新整理活動都會通過新的閘道。 如果已將舊版閘道安裝在不同的電腦上，則系統會要求您更新某些資料集上的認證。 在先前的影像中，視窗中顯示資料集清單；此清單會顯示可能需要更新過認證的資料集。 每個列出的資料集都是一個直接連結，您只要按一下，就可以輕鬆地更新您的認證。
 
-幾乎就是這樣了。 安裝新閘道之後，就不再需要電腦上所安裝的舊版本，因此應該將它解除安裝。 搜尋電腦上的 **Power BI Gateway - Personal**，並將它解除安裝，即可執行這項作業。
+幾乎就是這樣了。 安裝新閘道之後，就不再需要電腦上所安裝的舊版本，因此應該將它解除安裝。 搜尋電腦上的 **Power BI Gateway - Personal**，並將它解除安裝，即可執行此作業。
 
 ### <a name="determining-which-version-of-the-personal-gateway-you-have-installed"></a>判斷您已安裝的個人閘道版本
 若要判斷您目前已安裝的個人閘道版本，您可以執行下列作業：
@@ -132,7 +132,7 @@ ms.locfileid: "34298197"
   * **答**：如果您要使用目前閘道來重新整理報表，則重新整理將會停止。 設定新重新整理排程的唯一方法是安裝和設定新的閘道。
 * 我正在使用 R 指令碼。 這受到支援嗎？
   
-  * **答**：我們很快會新增 R 指令碼的支援。
+  * **答案**：個人模式支援 R 指令碼。
 * 我為什麼在 **Power BI 服務**中看不到更新閘道的訊息？
   
   * **答**：最可能的原因是您有一或多個包含目前仍不支援之資料來源的資料集。

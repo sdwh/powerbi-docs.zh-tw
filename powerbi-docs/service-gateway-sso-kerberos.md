@@ -1,5 +1,5 @@
 ---
-title: 針對從 Power BI 到內部部署資料來源的 (單一登入) SSO，在內部部署閘道上使用 Kerberos
+title: 將 Kerberos 用於內部部署資料來源的單一登入 (SSO)
 description: 使用 Kerberos 設定您的閘道，啟用從 Power BI 到內部部署資料來源的 SSO
 author: mgblythe
 ms.author: mblythe
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: b66799df83095ce2104196b076482cc232c9bfae
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101615"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508029"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的單一登入 (SSO) 使用 Kerberos
 
@@ -27,8 +27,10 @@ ms.locfileid: "50101615"
 
 * SQL Server
 * SAP HANA
+* SAP BW
 * Teradata
 * Spark
+* Impala
 
 我們也透過[安全性聲明標記語言 (SAML)](service-gateway-sso-saml.md) 支援 SAP HANA。
 
@@ -58,7 +60,7 @@ ms.locfileid: "50101615"
 
 ![服務帳戶](media/service-gateway-sso-kerberos/service-account.png)
 
-若要啟用 **Kerberos 限制委派**，閘道必須以網域帳戶執行，除非 Azure AD 已與本機 Active Directory 進行同步處理 (使用 Azure AD DirSync/Connect)。 如果您需要將帳戶切換為網域帳戶，請參閱本文稍後所述的[將閘道切換為網域帳戶](#switching-the-gateway-to-a-domain-account)。
+若要啟用 **Kerberos 限制委派**，閘道必須以網域帳戶執行，除非 Azure AD 已與本機 Active Directory 進行同步處理 (使用 Azure AD DirSync/Connect)。 如果您需要將帳戶切換為網域帳戶，請參閱此文章稍後所述的[將閘道切換為網域帳戶](#switching-the-gateway-to-a-domain-account)。
 
 > [!NOTE]
 > 如果 Azure AD DirSync/Connect 已設定且使用者帳戶已同步處理，則閘道服務不需要在執行階段執行本機 AD 查閱，而且您可以針對閘道服務使用本機服務 SID (不需要網域帳戶)。 這篇文章中概述的 Kerberos 限制委派設定步驟與該設定都相同 (它們只會套用至 Active Directory 中的閘道電腦物件，而不會套用至網域帳戶)。
@@ -85,7 +87,7 @@ ms.locfileid: "50101615"
 
 1. 以網域系統管理員身分啟動 **Active Directory 使用者和電腦**。
 
-2. 以滑鼠右鍵按一下網域，選取 [尋找]，然後鍵入閘道服務帳戶的帳戶名稱
+2. 以滑鼠右鍵按一下網域，選取 [尋找]，然後輸入閘道服務帳戶的帳戶名稱
 
 3. 在搜尋結果中，以滑鼠右鍵按一下閘道服務帳戶，然後選取 [屬性]。
 
@@ -101,11 +103,11 @@ ms.locfileid: "50101615"
 
 ### <a name="configure-delegation-settings-on-the-gateway-service-account"></a>在閘道服務帳戶上進行委派設定
 
-第二個設定需求是閘道服務帳戶上的委派設定。 您可以使用多個工具來執行這些步驟。 在本文中，我們將使用 **Active Directory 使用者和電腦**，這是 Microsoft Management Console (MMC) 嵌入式管理單元，可用來管理及發佈目錄中的資訊。 根據預設可用於網域控制站。 您也可以透過其他電腦上的 **Windows 功能**設定來啟用它。
+第二個設定需求是閘道服務帳戶上的委派設定。 您可以使用多個工具來執行這些步驟。 在此文章中，我們將使用 **Active Directory 使用者和電腦**，這是 Microsoft Management Console (MMC) 嵌入式管理單元，可用來管理及發佈目錄中的資訊。 根據預設可用於網域控制站。 您也可以透過其他電腦上的 **Windows 功能**設定來啟用它。
 
 我們必須使用通訊協定傳輸來設定 **Kerberos 限制委派**。 使用限制委派，您必須明確指出要委派哪些服務。 例如，只有您的 SQL Server 或 SAP HANA 伺服器會接受來自閘道服務帳戶的委派呼叫。
 
-本節假設您已經為基礎資料來源 (例如，SQL Server、SAP HANA、Teradata、Spark 等) 設定 SPN。 若要了解如何設定這些資料來源伺服器 SPN，請參閱個別資料庫伺服器的技術文件。 您也可以查看部落格文章，描述[*您的應用程式需要何種 SPN？*](https://blogs.msdn.microsoft.com/psssql/2010/06/23/my-kerberos-checklist/)
+此節假設您已經為基礎資料來源 (例如，SQL Server、SAP HANA、Teradata、Spark 等) 設定 SPN。 若要了解如何設定這些資料來源伺服器 SPN，請參閱個別資料庫伺服器的技術文件。 您也可以查看部落格文章，描述[*您的應用程式需要何種 SPN？*](https://blogs.msdn.microsoft.com/psssql/2010/06/23/my-kerberos-checklist/)
 
 在下列步驟中，我們假設具有兩個機器的內部部署環境：閘道電腦和執行 SQL Server 的資料庫伺服器。 基於此範例用途，我們也將假設下列設定和名稱：
 
@@ -158,7 +160,7 @@ ms.locfileid: "50101615"
 
 1. 從 [使用者權限指派] 底下的原則清單中，選取 [當成作業系統的一部分 (SeTcbPrivilege)]。 請確定閘道服務帳戶也包含在帳戶清單中。
 
-18. 重新啟動**內部部署資料閘道**服務處理程序。
+1. 重新啟動**內部部署資料閘道**服務處理程序。
 
 如果您使用 SAP HANA，我們建議您遵循這些額外的步驟，可稍微提升效能。
 
@@ -174,7 +176,7 @@ ms.locfileid: "50101615"
 
 ## <a name="running-a-power-bi-report"></a>執行 Power BI 報表
 
-完成本文稍早所述的所有設定步驟之後，您可以在 Power BI 中使用 [管理閘道]頁 面來設定資料來源。 然後在其 [進階設定] 下方啟用 SSO，並將報表和資料集繫結發佈到該資料來源。
+完成此文章稍早所述的所有設定步驟之後，您可以在 Power BI 中使用 [管理閘道]頁 面來設定資料來源。 然後在其 [進階設定] 下方啟用 SSO，並將報表和資料集繫結發佈到該資料來源。
 
 ![進階設定](media/service-gateway-sso-kerberos/advanced-settings.png)
 
@@ -182,7 +184,7 @@ ms.locfileid: "50101615"
 
 ## <a name="switching-the-gateway-to-a-domain-account"></a>將閘道切換到網域帳戶
 
-稍早在本文中，我們討論了使用**內部部署資料閘道**使用者介面，從本機服務帳戶切換閘道，以便以網域帳戶執行。 以下是完成此作業所需的步驟。
+稍早在此文章中，我們討論了使用**內部部署資料閘道**使用者介面，從本機服務帳戶切換閘道，以便以網域帳戶執行。 以下是完成此作業所需的步驟。
 
 1. 啟動**內部部署資料閘道**設定工具。
 
@@ -198,11 +200,13 @@ ms.locfileid: "50101615"
 
 ## <a name="configuring-sap-bw-for-sso"></a>針對 SSO 設定 SAP BW
 
-現在您已了解 Kerberos 如何與閘道搭配使用，您可以針對 SAP Business Warehouse (SAP BW) 設定 SSO。 下列步驟假設您已經[準備好進行 Kerberos 限制委派](#preparing-for-kerberos-constrained-delegation)，如本文稍早所述。
+現在您已了解 Kerberos 如何與閘道搭配使用，您可以針對 SAP Business Warehouse (SAP BW) 設定 SSO。 下列步驟假設您已經[準備好進行 Kerberos 限制委派](#preparing-for-kerberos-constrained-delegation)，如此文章稍早所述。
 
-### <a name="install-sap-bw-components"></a>安裝 SAP BW 元件
+本指南會嘗試儘可能提供廣泛資訊。 如果您已經完成這些步驟的其中一部分，可以略過它們：例如已為 BW 伺服器建立服務使用者，並將服務主體名稱與它對應，或已安裝 gsskrb5 程式庫。
 
-如果您尚未在您的用戶端電腦和 SAP BW 應用程式伺服器上設定 SAP gsskrb5 和 gx64krb5，請完成這一節。 如果您已經完成這項設定 (您已為 BW 伺服器建立服務使用者並將 SPN 對應至該伺服器)，您可以略過本節中的某些部分。
+### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>設定用戶端電腦和 BW 伺服器上的 gsskrb5
+
+用戶端和伺服器都必須使用 gsskrb5 才能透過閘道完成 SSO 連線。 目前不支援 Common Crypto Library (sapcrypto)。
 
 1. 從 [SAP Note 2115486](https://launchpad.support.sap.com/) 下載 gsskrb5/gx64krb5 (SAP 使用者所需)。 請確定您有至少 1.0.11.x 以上版本的 gsskrb5.dll 和 gx64krb5.dll。
 
@@ -212,25 +216,25 @@ ms.locfileid: "50101615"
 
 1. 在用戶端和伺服器電腦上，將 SNC\_LIB 和 SNC\_LIB\_64 環境變數分別設定為指向 gsskrb5.dll 和 gx64krb5.dll 的位置。
 
-### <a name="complete-the-gateway-configuration-for-sap-bw"></a>完成 for SAP BW 的閘道設定
+### <a name="create-a-bw-service-user-and-enable-snc-communication-using-gsskrb5-on-the-bw-server"></a>建立 BW 服務使用者並在 BW 伺服器上使用 gsskrb5 啟用 SNC 通訊
 
 除了您已完成的閘道設定，還有一些額外的 SAP BW 特定步驟。 文件中的[**在閘道服務帳戶上設定委派設定**](#configure-delegation-settings-on-the-gateway-service-account)區段，假設您已經為基礎資料來源設定 SPN。 針對 SAP BW 完成此設定：
 
-1. 在 Active Directory 網域控制站上，Active Directory 環境中的 BW 應用程式伺服器建立服務使用者 (一開始只是一般的 Active Directory 使用者)。 然後為其指派 SPN。
+1. 在 Active Directory 網域控制站伺服器上，為 Active Directory 環境中的 BW 應用程式伺服器建立服務使用者 (一開始只是一般的 Active Directory 使用者)。 然後為其指派 SPN。
 
-    指派的 SPN **必須**以 SAP/ 開頭。 SAP/ 之後要接什麼取決於您；選項之一是使用 BW 伺服器服務使用者的使用者名稱。 例如，如果您建立 BWServiceUser@\<網域\> 作為您的服務使用者，則您可使用 SPN SAP/BWServiceUser。 設定 SPN 對應的方法之一是 setspn 命令。 例如，若要在我們剛剛建立的 SPN 上設定服務使用者，您將從網域控制站電腦上的 cmd 視窗執行下列命令：`setspn -s SAP/ BWServiceUser DOMAIN\ BWServiceUser`。
+    SAP 建議以 SAP/ 作為 SPN 開頭，但它應該也可以使用其他前置詞，例如 HTTP/。 SAP/ 之後要接什麼取決於您；選項之一是使用 BW 伺服器服務使用者的使用者名稱。 例如，如果您建立 BWServiceUser@\<網域\> 作為您的服務使用者，則您可使用 SPN SAP/BWServiceUser。 設定 SPN 對應的方法之一是 setspn 命令。 例如，若要在我們剛剛建立的 SPN 上設定服務使用者，您將從網域控制站電腦上的 cmd 視窗執行下列命令：`setspn -s SAP/ BWServiceUser DOMAIN\ BWServiceUser`。 如需詳細資訊，請參閱 SAP BW 文件。
 
-1. 授與服務使用者 BW 應用程式伺服器執行個體的存取權：
+1. 授與服務使用者 BW 應用程式伺服器的存取權：
 
     1. 在 BW 伺服器電腦上，將使用者新增至 BW 伺服器的本機系統管理員群組：開啟電腦管理程式，然後按兩下伺服器的本機系統管理員群組。
 
         ![電腦管理](media/service-gateway-sso-kerberos/computer-management.png)
 
-    1. 按兩下本機系統管理員群組，然後選取 [新增] 將 BW Service 使用者新增至群組。 使用 [檢查名稱] 按鈕，以確保您已正確鍵入名稱。 選取 [確定] 。
+    1. 按兩下本機系統管理員群組，然後選取 [新增] 將 BW Service 使用者新增至群組。 使用 [檢查名稱] 按鈕，以確保您已正確輸入名稱。 選取 [確定] 。
 
 1. 將 BW 伺服器的服務使用者，設定為在 BW 伺服器電腦上啟動 BW Server 服務的使用者。
 
-    1. 開啟「執行」程式並鍵入 "Services.msc"。 尋找與 BW 應用程式伺服器執行個體對應的服務。 以滑鼠右鍵按一下該服務，然後選取 [屬性]。
+    1. 開啟「執行」程式並輸入 "Services.msc"。 尋找與 BW 應用程式伺服器執行個體對應的服務。 以滑鼠右鍵按一下該服務，然後選取 [屬性]。
 
         ![伺服器屬性](media/service-gateway-sso-kerberos/server-properties.png)
 
@@ -238,7 +242,7 @@ ms.locfileid: "50101615"
 
 1. 在 SAP GUI / 登入中，登入您的伺服器，並使用 RZ10 交易來設定下列設定檔參數：
 
-    1. 將 snc/identity/as 設定檔參數設定為 p:\<您剛剛建立的 BW 服務使用者\>，例如 p:BWServiceUser@MYDOMAIN.COM。 請注意位於服務使用者 UPN 之前的 p:。
+    1. 將 snc/identity/as 設定檔參數設定為 p:\<您剛剛建立的 BW 服務使用者\>，例如 p:BWServiceUser@MYDOMAIN.COM。 請記下服務使用者 UPN 前面的 p:；它不是 p:CN=，類似於使用 Common Crypto Lib 作為 SNC 程式庫時。
 
     1. 將 snc/gssapi\_lib 設定檔參數設定為 \<伺服器電腦上 gsskrb5.dll/gx64krb5.dll 的路徑 (您將使用的程式庫取決於作業系統位元)\>。 請務必將程式庫放在 BW 應用程式伺服器可以存取的位置。
 
@@ -257,9 +261,9 @@ ms.locfileid: "50101615"
 
     1. 將 snc/enable 設定為 1。
 
-1. 設定這些設定檔參數之後，請在伺服器電腦上開啟 SAP 管理主控台並重新啟動 BW 執行個體。 如果伺服器無法啟動，請再次檢查設定檔參數是否設定正確。 如需設定檔參數設定的詳細資訊，請參閱 [SAP documentation](https://help.sap.com/saphelp_nw70ehp1/helpdata/en/e6/56f466e99a11d1a5b00000e835363f/frameset.htm) (SAP 文件)。 如果遇到問題，您也可以參考本節稍後的疑難排解資訊。
+1. 設定這些設定檔參數之後，請在伺服器電腦上開啟 SAP 管理主控台並重新啟動 BW 執行個體。 如果伺服器無法啟動，請再次檢查設定檔參數是否設定正確。 如需設定檔參數設定的詳細資訊，請參閱 [SAP documentation](https://help.sap.com/saphelp_nw70ehp1/helpdata/en/e6/56f466e99a11d1a5b00000e835363f/frameset.htm) (SAP 文件)。 如果遇到問題，您也可以參考此節稍後的疑難排解資訊。
 
-### <a name="map-azure-ad-users-to-sap-bw-users"></a>將 Azure AD 使用者對應至 SAP BW 使用者
+### <a name="map-a-bw-user-to-an-active-directory-user"></a>將 BW 使用者對應至 Active Directory 使用者
 
 將 Active Directory 使用者對應至 SAP BW 應用程式伺服器使用者，並在 SAP GUI / 登入中測試 SSO 連線。
 
@@ -275,7 +279,7 @@ ms.locfileid: "50101615"
 
 1. 選取儲存圖示 (螢幕左上角附近的磁碟片)。
 
-### <a name="verify-sign-in-using-sso"></a>確認使用 SSO 登入
+### <a name="test-sign-in-using-sso"></a>測試使用 SSO 登入
 
 請確認您是否可以使用 SAP 登入/SAP GUI 透過 SSO 當作剛剛已啟用 SSO 存取權的 Active Directory 使用者來登入伺服器。
 
@@ -287,11 +291,11 @@ ms.locfileid: "50101615"
 
 1. 在下一頁填入適當的詳細資料，包括應用程式伺服器、執行個體數目以及系統識別碼，然後選取 [完成]。
 
-1. 以滑鼠右鍵按一下新連線，然後選取 [屬性]。 切換至 [網路] 索引標籤。在 [SNC 名稱] 視窗中輸入 p:\<BW 服務使用者的 UPN\>，例如 p:BWServiceUser@MYDOMAIN.COM。
+1. 以滑鼠右鍵按一下新連線，然後選取 [屬性]。 切換至 [網路] 索引標籤。在 [SNC 名稱] 視窗中輸入 p:\<BW 服務使用者的 UPN\>，例如 p:BWServiceUser@MYDOMAIN.COM，然後選取 [確定]。
 
     ![系統項目屬性](media/service-gateway-sso-kerberos/system-entry-properties.png)
 
-1. 選取 [確定] 。 現在，按兩下您剛才建立的連線，以嘗試與服務建立 SSO 連線。 如果連線成功，請繼續下一個步驟。 如果未成功，請檢閱此文件中先前的步驟，確定這些步驟已正確完成，或檢閱以下的疑難排解一節。 請注意，如果您在此內容中無法透過 SSO 連線至 BW 伺服器，則無法在閘道內容中使用 SSO 連線至 BW 伺服器。
+1. 按兩下您剛才建立的連線，以嘗試與 BW 伺服器建立 SSO 連線。 如果連線成功，請繼續下一個步驟。 如果未成功，請檢閱此文件中先前的步驟，確定這些步驟已正確完成，或檢閱以下的疑難排解一節。 請注意，如果您在此內容中無法透過 SSO 連線至 BW 伺服器，則無法在閘道內容中使用 SSO 連線至 BW 伺服器。
 
 ### <a name="troubleshoot-installation-and-connections"></a>針對安裝與連線進行疑難排解
 
@@ -309,15 +313,33 @@ ms.locfileid: "50101615"
 
 1. 「(SNC 錯誤) 無法找到指定的模組」：這通常是由於 gsskrb5.dll/gx64krb5.dll 需要提高權限 (系統管理員權限) 才能存取。
 
-### <a name="add-registry-entries"></a>新增登錄項目
+### <a name="add-registry-entries-to-the-gateway-machine"></a>新增登錄項目至閘道電腦
 
-將所需的登錄項目，新增至已安裝閘道的電腦登錄中。 然後設定所需的閘道設定參數。
+將所需的登錄項目，新增至已安裝閘道的電腦登錄中。
 
 1. 在命令視窗中執行下列命令：
 
     1. REG ADD HKLM\SOFTWARE\Wow6432Node\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
 
     1. REG ADD HKLM\SOFTWARE\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
+
+### <a name="set-configuration-parameters-on-the-gateway-machine"></a>在閘道電腦上設定組態參數
+
+有兩個選項可設定組態參數，取決於您是否已設定 Azure AD DirSync 讓使用者可以用 Azure Ad 使用者身分登入 Power BI 服務。
+
+如果您已設定 Azure AD DirSync，請遵循下列步驟。
+
+1. 開啟主要閘道組態檔，*Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll*。 根據預設，這個檔案儲存於 *C:\Program Files\On-premises data gateway*。
+
+1. 請確定 **FullDomainResolutionEnabled** 屬性設定為 True，**SapHanaSsoRemoveDomainEnabled** 設為 False。
+
+1. 儲存設定檔。
+
+1. 透過工作管理員的 [服務] 索引標籤重新啟動閘道服務 (以滑鼠右鍵按一下 [重新啟動])
+
+    ![重新啟動閘道](media/service-gateway-sso-kerberos/restart-gateway.png)
+
+如果您沒有設定 Azure AD DirSync，請遵循**您想要對應至 Azure AD 使用者的每個 Power BI 服務使用者**。 下列步驟會以手動方式將 Power BI 服務使用者連結到具備 BW 登入權限的 Active Directory 使用者。
 
 1. 開啟主要閘道設定檔，Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll。 根據預設，這個檔案儲存於 C:\Program Files\On-premises data gateway。
 
@@ -327,37 +349,41 @@ ms.locfileid: "50101615"
 
     ![重新啟動閘道](media/service-gateway-sso-kerberos/restart-gateway.png)
 
-### <a name="set-azure-ad-properties"></a>設定 Azure AD 屬性
+1. 將對應至 BW 使用者的 Active Directory 使用者 msDS-cloudExtensionAttribute1 屬性，設定為要為他啟用 Kerberos SSO 的 Power BI 服務使用者。 設定 cloudExtensionAttribute1 屬性的方法之一是透過 Active Directory 使用者和電腦 MMC 嵌入式管理單元 (請注意，也可以使用其他方法)。
 
-將對應至 BW 使用者的 Active Directory 使用者 msDS-cloudExtensionAttribute1 屬性 (在「將 Azure AD 使用者對應至 SAP BW 使用者」步驟中)，設定為要為其啟用 Kerberos SSO 的 Power BI 服務使用者。 設定 cloudExtensionAttribute1 屬性的方法之一是透過 Active Directory 使用者和電腦 MMC 嵌入式管理單元 (請注意，也可以使用其他方法)。
+    1. 以系統管理員使用者身分登入網域控制站電腦。
 
-1. 以系統管理員使用者身分登入網域控制站電腦。
+    1. 在嵌入式管理單元視窗中開啟 [使用者] 資料夾，然後按兩下對應至 BW 使用者的 Active Directory 使用者。
 
-1. 在嵌入式管理單元視窗中開啟 [使用者] 資料夾，然後按兩下對應至 BW 使用者的 Active Directory 使用者。
+    1. 選取 [屬性編輯器] 索引標籤。
 
-1. 選取 [屬性編輯器] 索引標籤。如果您沒有看到此索引標籤，則需要搜尋如何將其啟用的指引，或使用其他方法設定 msDS-cloudExtensionAttribute1 屬性。 選取其中一個屬性並按下 'm' 鍵，巡覽至以 'm' 開頭的 Active Directory 屬性。 找出 cloudExtensionAttribute1 屬性並對其按兩下。 將值設為您用來登入 Power BI 服務的使用者名稱。 選取 [確定] 。
+        如果您沒有看到此索引標籤，則需要搜尋如何將其啟用的指引，或使用其他方法設定 msDS-cloudExtensionAttribute1 屬性。 選取其中一個屬性並按下 'm' 鍵，巡覽至以 'm' 開頭的 Active Directory 屬性。 找出 cloudExtensionAttribute1 屬性並對其按兩下。 以 YourUser@YourDomain 格式，將值設為您用來登入 Power BI 服務的使用者名稱。
 
-    ![編輯屬性](media/service-gateway-sso-kerberos/edit-attribute.png)
+    1. 選取 [確定] 。
 
-1. 選取 [ **套用**]。 確認已在值欄位中設定正確的值。
+        ![編輯屬性](media/service-gateway-sso-kerberos/edit-attribute.png)
+
+    1. 選取 [ **套用**]。 確認已在值欄位中設定正確的值。
 
 ### <a name="add-a-new-bw-application-server-data-source-to-the-power-bi-service"></a>將新的 BW 應用程式伺服器資料來源新增至 Power BI 服務
 
-將 BW 資料來源新增至您的閘道：請遵循本文稍早關於[執行報表](#running-a-power-bi-report)的指示。
+將 BW 資料來源新增至您的閘道：請遵循此文章稍早關於[執行報表](#running-a-power-bi-report)的指示。
 
 1. 在資料來源設定視窗中，輸入應用程式伺服器的 [主機名稱]、[系統編號] 和 [用戶端識別碼]，如同您用來從 Power BI Desktop 登入 BW 伺服器的資訊。 針對 [驗證方法]，選取 [Windows]。
 
-1. 在 [SNC 合作夥伴名稱] 欄位中，輸入儲存在伺服器 snc/identity/ 中作為設定檔參數的值，*其中 SAP/ 新增於 p: 和身分識別的其餘部分之間。* 例如，如果伺服器的 snc 身分識別是 p:BWServiceUser@MYDOMAIN.COM，您應輸入 p:SAP/BWServiceUser@MYDOMAIN.COM。 在 SNC 合作夥伴名稱輸入方塊中。
+1. 在 [SNC 合作夥伴名稱] 欄位中，輸入 p: \<您對應至您 BW 服務使用者的 SPN\>。 例如，如果 SPN 為 SAP/BWServiceUser@MYDOMAIN.COM，您應該在 [SNC 合作夥伴名稱] 欄位中輸入 p:SAP/BWServiceUser@MYDOMAIN.COM。
 
 1. 針對 SNC 程式庫，選取 SNC\_LIB 或 SNC\_LIB\_64。
 
 1. **使用者名稱**和**密碼**應該是具有透過 SSO 登入 BW 伺服器權限之 Active Directory 使用者的使用者名稱和密碼 (已透過 SU01 交易對應至 BW 使用者的 Active Directory 使用者)。 只有在 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢] 「未」選取時，才會使用這些認證。
 
-1. 請檢查 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢] 方塊，然後選取 [套用]。 如果測試連線不成功，請確認已正確完成先前的安裝和設定步驟。
+1. 選取 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢] 方塊，然後選取 [套用]。 如果測試連線不成功，請確認已正確完成先前的安裝和設定步驟。
+
+    閘道會一律使用輸入認證方式建立與伺服器的測試連線，並執行匯入式報表的排程重新整理。 如果選取 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢]，閘道只會嘗試建立 SSO 連線，而且使用者會存取以直接查詢為基礎的報表或資料集。
 
 ### <a name="test-your-setup"></a>測試您的設定
 
-將 DirectQuery 報表從 Power BI Desktop 發佈到 Power BI 服務來測試您的設定。 請確定以您設定 msDS-cloudExtensionAttribute1 屬性的使用者身分登入 Power BI 服務。 如果設定成功完成，您應該能根據 Power BI Service 中已發佈的資料集建立報告，並透過報告中的視覺效果提取資料。
+將 DirectQuery 報表從 Power BI Desktop 發佈到 Power BI 服務來測試您的設定。 請確定您已經以 Azure AD 使用者，或已對應至 Azure AD 使用者 之 msDS-cloudExtensionAttribute1 屬性的使用者身分登入 Power BI 服務。 如果設定成功完成，您應該能根據 Power BI Service 中已發佈的資料集建立報告，並透過報告中的視覺效果提取資料。
 
 ### <a name="troubleshooting-gateway-connectivity-issues"></a>針對閘道連線問題進行疑難排解
 

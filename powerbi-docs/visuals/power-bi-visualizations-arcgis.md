@@ -4,19 +4,18 @@ description: 在閱讀檢視中使用 ArcGIS 地圖作為 Power BI 報表取用�
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-tags: power bi, service, desktop, mobile
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003263"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266016"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>在 Power BI 中與 ArcGIS 地圖互動
 此主題是從在 Power BI 服務、Power BI Desktop 或 Power BI Mobile 中「取用」ArcGIS 地圖的人員觀點來撰寫。 一旦建立者與您共用 ArcGIS 地圖，可利用許多方法與該地圖互動。  若要深入了解如何建立 ArcGIS 地圖，請參閱[由 Esri 提供的 ArcGIS 地圖教學課程](../power-bi-visualization-arcgis.md)。
@@ -24,7 +23,7 @@ ms.locfileid: "50003263"
 ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到了全新境界。 您可以使用基礎地圖、位置類型、佈景主題、符號樣式及參考圖層等選項，建立具有豐富資訊的絶佳地圖視覺效果。 地圖上的官方資料圖層 (例如人口普查資料) 與空間分析結合之後，能讓人更深入了解視覺效果中的資料。
 
 > [!TIP]
-> GIS 是 Geographic Information Science (地理資訊科學) 的縮寫。
+> GIS 是 Geographic Information System (地理資訊系統) 的縮寫。
 > 
 
 我們所使用的範例是[由 ESRI 提供的 ArcGIS 地圖教學課程](../power-bi-visualization-arcgis.md)中所建立的相同 ArcGIS 地圖。 它會依鄉/鎮/市/區查看去年銷售量，使用街道基礎地圖、泡泡符號來表示大小，並使用平均家庭收入的參考圖層。 此地圖包含 3 個圖釘及一個行車時間半徑範圍 (以紫色顯示)。
@@ -135,7 +134,7 @@ ArcGIS Maps for Power BI 由 Esri (www.esri.com) 提供。 因此，您的 ArcGI
 
 **使用 ArcGIS Maps for Power BI 會產生任何費用嗎？**
 
-所有 Power BI 使用者皆可免費使用 ArcGIS Map for Power BI。 它是一個由 **Esri** 所提供的元件，因此，您的使用方式受到 **Esri** 的條款及隱私權原則的規範 (如本文稍早所述)。 如果您有訂閱 ArcGIS **Plus**，則需要付費。
+所有 Power BI 使用者皆可免費使用 ArcGIS Map for Power BI。 它是一個由 **Esri** 所提供的元件，因此，您的使用方式受到 **Esri** 的條款及隱私權原則的規範 (如此文章稍早所述)。 如果您有訂閱 ArcGIS **Plus**，則需要付費。
 
 **我收到有關快取將滿的錯誤訊息**
 

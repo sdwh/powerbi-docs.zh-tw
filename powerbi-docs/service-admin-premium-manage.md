@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: a36b0524006144bfa9fbd24d9ff88b42a1acb3d4
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 39429d0f09431da3f860bf0454843c65ce07a524
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641635"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265993"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>管理 Power BI Premium 和 Power BI Embedded 內的容量
 
@@ -53,6 +53,44 @@ ms.locfileid: "49641635"
 在大部分的情況下，使用者不需要知道他們位在 Premium 容量中。 其儀表板和報表也能夠運作。 在 Premium 容量中工作區旁有一個菱形圖示，這是視覺效果提示。
 
 ![菱形表示 Premium 容量已備份工作區](media/service-admin-premium-manage/premium-workspace.png)
+
+## <a name="configure-workloads"></a>設定工作負載
+
+可以把 Power BI 中的工作負載想成是您可以向使用者公開的多個服務其中之一。 根據預設，適用於 **Power BI Premium** 和 **Power BI Embedded** 的容量只支援雲端中與執行中 Power BI 查詢相關聯的工作負載。
+
+我們現在針對兩個額外的工作負載提供預覽支援：**編頁報表**和**資料流程**。 您可以在 Power BI 管理入口網站，或透過 Power BI REST API 啟用這些工作負載。 也可以設定每個工作負載可使用的記憶體大小上限，因此可以控制不同的工作負載會如何彼此影響。
+
+### <a name="enable-workloads-in-the-power-bi-admin-portal"></a>在 Power BI 管理入口網站啟用工作負載
+
+若要啟用工作負載，請遵循下列步驟。
+
+1. 在 [容量設定] 底下，選取容量。
+
+1. 在 [更多選項] 底下，展開 [工作負載]。
+
+1. 啟用一或多個工作負載，並設定 [最大記憶體] 的值。
+
+    ![在管理入口網站設定工作負載](media/service-admin-premium-manage/admin-portal-workloads.png)
+
+1. 選取 [ **套用**]。
+
+### <a name="default-memory-settings"></a>預設記憶體設定
+
+下表根據可用的不同[容量節點](service-premium.md#premium-capacity-nodes)顯示記憶體的預設值和最小值。 記憶體會以動態方式配置給資料流程，但會以靜態方式配置給編頁報表。 如需詳細資訊，請參閱下一節，[編頁報表考量](#considerations-for-paginated-reports)。
+
+|                     | EM3                      | P1                       | P2                      | P3                       |
+|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
+| 編頁報表 | N/A | 20% 預設值；10% 最小值 | 20% 預設值；5% 最小值 | 20% 預設值；2.5% 最小值 |
+| 資料流程 | 15% 預設值；8% 最小值  | 15% 預設值；4% 最小值  | 15% 預設值；2% 最小值 | 15% 預設值；1% 最小值  |
+| | | | | |
+
+### <a name="considerations-for-paginated-reports"></a>編頁報表考量
+
+如果您使用編頁報表工作負載，請記住下列幾點。
+
+* **分頁報表中的記憶體配置**：編頁報表可讓您在轉譯報表 (例如依據內容動態變更文字色彩) 時執行自己的程式碼。 這表示我們透過在容量內包含的空間中執行編頁報表，以保護 Power BI Premium 容量。 無論工作負載是否在作用中，我們都會將您指定的最大記憶體指派給此空間。 如果您以相同容量使用 Power BI 報表或資料流程，請確定您沒有為編頁報表設定過大的記憶體，以避免對其他工作負載造成負面影響。
+
+* **編頁報表無法使用**：在罕見的情況下，編頁報表工作負載可能會變成無法使用。 此時，工作負載會在系統入口網站中顯示錯誤狀態，而且使用者會看到報表轉譯逾時。 若要緩解此問題，請停用工作負載，然後再次啟用它。
 
 ## <a name="monitor-capacity-usage"></a>監視容量使用方式
 

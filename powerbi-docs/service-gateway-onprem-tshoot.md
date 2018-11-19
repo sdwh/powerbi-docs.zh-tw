@@ -1,6 +1,6 @@
 ---
 title: 為內部部署資料閘道進行疑難排解
-description: 本文提供您對內部部署資料閘道問題進行疑難排解的方法。 其提供已知問題可能的因應措施，以及可協助您的工具。
+description: 此文章提供您對內部部署資料閘道問題進行疑難排解的方法。 其提供已知問題可能的因應措施，以及可協助您的工具。
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -10,16 +10,16 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
+ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101638"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51580532"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>為內部部署資料閘道進行疑難排解
 
-本文探討使用**內部部署資料閘道**時的一些常見問題。
+此文章探討使用**內部部署資料閘道**時的一些常見問題。
 
 <!-- Shared Community & support links Include -->
 [!INCLUDE [gateway-onprem-tshoot-support-links-include](./includes/gateway-onprem-tshoot-support-links-include.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "50101638"
 
 ### <a name="log-file-configuration"></a>記錄檔設定
 
-閘道服務記錄檔分類為三個貯體：資訊、錯誤和網路。 此類別提供進一步的疑難排解體驗，可讓您根據錯誤或問題，專注於特定區域。 您可以從閘道器設定檔中看到下列程式碼片段中的三個類別：`GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log`。
+閘道服務記錄檔分類為三個貯體：資訊、錯誤和網路。 此類別提供進一步的疑難排解體驗，可讓您根據錯誤或問題，專注於特定區域。 您可以從閘道設定檔中看到下列程式碼片段中的三個類別：`GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log`。
 
 ```xml
   <system.diagnostics>
@@ -103,17 +103,14 @@ ms.locfileid: "50101638"
 3. 重新安裝該閘道。
 4. 選擇性地套用修復金鑰，以還原現有的閘道。
 
-### <a name="support-for-tls-1112"></a>TLS 1.1/1.2 支援
+## <a name="support-for-tls-12"></a>對 TLS 1.2 的支援
 
-有了 2017 年 8 月更新和以上版本之後，內部部署資料閘道預設會使用傳輸層安全性 (TLS) 1.1 或 1.2，以與 **Power BI 服務**進行通訊。 舊版內部部署資料閘道預設會使用 TLS 1.0。 您必須將內部部署資料閘道安裝升級成 2017 年 8 月版本或更新版本，確保閘道持續運作。
+根據預設，內部部署的資料閘道會使用傳輸層安全性 (TLS) 1.2 來與 Power BI 服務通訊。 若要確保所有閘道流量使用 TLS 1.2，您可能必須在執行閘道服務的電腦上新增或修改下列登錄機碼：
 
->[!NOTE]
->對 TLS 1.0 的支援已於 2017 年 11 月 1 日終止。
-
-請務必注意，在 2017 年 11 月 1 日之前，內部部署資料閘道仍然支援 TLS 1.0，並供閘道用以當成後援機制。 若要確保所有閘道流量使用 TLS 1.1 或 1.2 (以及避免在閘道上使用 TLS 1.0)，您必須新增或修改執行閘道服務之電腦上的下列登錄機碼：
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > 新增或修改這些登錄機碼會將變更套用至所有 .NET 應用程式。 如需影響其他應用程式之 TLS 之登錄變更的資訊，請參閱 [Transport Layer Security (TLS) registry settings](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings) (傳輸層安全性 (TLS) 登錄設定)。
@@ -261,7 +258,7 @@ ms.locfileid: "50101638"
 
 ### <a name="performance-counters"></a>效能計數器
 
-您可使用數種效能計數器來量測閘道的活動。 這些計數器有助於您了解活動負載是否很大，而可能需要設定新的閘道器。 這些計數器並不會反映某個項目花多少時間。
+您可使用數種效能計數器來量測閘道的活動。 這些計數器有助於您了解活動負載是否很大，而可能需要設定新的閘道。 這些計數器並不會反映某個項目花多少時間。
 
 您可以透過 Windows 效能監視器工具存取這些計數器。
 
@@ -319,7 +316,7 @@ ms.locfileid: "50101638"
 在 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 檔案中，將 `EmitQueryTraces` 值從 `False` 變更為 `True`。 根據預設，這個檔案位於 *C:\Program Files\On-premises data gateway* 。 啟用 `EmitQueryTraces` 時，就會開始記錄從閘道傳送到資料來源的查詢。
 
 > [!IMPORTANT]
-> 根據閘道的使用方式，啟用 EmitQueryTraces 可能會大幅增加記錄大小。 在您完成檢閱記錄後，可能需要將 EmitQueryTraces 設定為 False。 不建議長期啟用這項設定。
+> 根據閘道的使用方式，啟用 EmitQueryTraces 可能會大幅增加記錄大小。 在您完成檢閱記錄後，可能需要將 EmitQueryTraces 設定為 False。 不建議長期啟用此設定。
 
 ```
 <setting name="EmitQueryTraces" serializeAs="String">
@@ -363,7 +360,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
    ![其他記錄](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
-> 將 TracingVerbosity 啟用為 `5`，可能會根據閘道使用量而大幅增加記錄大小。 在您完成檢閱記錄後，需要將 TraceVerbosity 設定為 `4`。 不建議長期啟用這項設定。
+> 將 TracingVerbosity 啟用為 `5`，可能會根據閘道使用量而大幅增加記錄大小。 在您完成檢閱記錄後，需要將 TraceVerbosity 設定為 `4`。 不建議長期啟用此設定。
 
 ```
 <setting name="TracingVerbosity" serializeAs="String">

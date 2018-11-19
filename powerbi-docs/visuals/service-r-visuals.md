@@ -1,5 +1,5 @@
 ---
-title: 在 Power BI 中使用 R 指令碼建立進階分析和視覺效果
+title: 使用 R 指令碼建立進階分析和視覺效果
 description: 在 Power BI 中使用 R 指令碼建立進階分析和進階視覺效果
 author: mihart
 manager: kvivek
@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3407458cfe6e395a5a209e136af1d4c9a7aa6a6
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 409a2ee486d0153e0dec2f715ff0e2ea19e236d7
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566341"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297105"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>在 Power BI 服務中建立 R 視覺效果
 Power BI 服務支援檢視使用 R 指令碼建立的視覺效果，並與其互動。 以 R 指令碼建立的視覺效果通常稱為「R 視覺效果」，可以使用 R 豐富的分析和視覺效果功能呈現進階的資料成形和分析，例如預測。
 
 > [!NOTE]
-> [R 程式設計語言](https://www.r-project.org/)是統計學家、資料科學家和商務分析師使用最廣泛的程式設計語言之一。 R 語言有一個開放原始碼社群，提供了逾 7000 種的附加元件封裝，以及廣為大眾使用的 [R 使用者群組](http://msdsug.microsoft.com/)。 部署在 Power BI 服務中的 R 版本是 *Revolution R Open 3.2.2* 。
+> [R 程式設計語言](https://www.r-project.org/)是統計學家、資料科學家和商務分析師使用最廣泛的程式設計語言之一。 R 語言有一個開放原始碼社群，提供了逾 7000 種的附加元件套件，以及廣為大眾使用的 R 使用者群組。 部署在 Power BI 服務中的 R 版本是 *Revolution R Open 3.2.2* 。
 > 
 > 
 
@@ -35,7 +35,7 @@ R 視覺效果建立在 [Power BI Desktop 報表](../desktop-get-the-desktop.md)
 
 一旦在 **Power BI Desktop** 中建立了報表，您就可以將包含一或多個 R 視覺效果的報表發行到 Power BI 服務。 R 視覺效果目前僅能在 **Power BI Desktop** 中建立，然後發行到 Power BI 服務。 如需有關建立 R 視覺效果的詳細資訊，請參閱 [使用 R 建立 Power BI 視覺效果 (Power BI Desktop)](../desktop-r-visuals.md)。
 
-請注意，服務並不支援所有的 R 封裝。 如需 Power BI 服務目前支援的封裝清單，請在本文結尾參閱支援的封裝。
+請注意，服務並不支援所有的 R 套件。 如需 Power BI 服務目前支援的套件清單，請在此文章結尾參閱支援的套件。
 
 您可以下載這份[範例 Power BI Desktop 檔案](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (.pbix 檔案)，其中包含數個 R 視覺效果，可供您查看運作方式及進行實驗。
 
@@ -59,7 +59,7 @@ Power BI 服務套用「沙箱」技術，保護使用者與服務免於安全�
 
 ![](media/service-r-visuals/r-visuals-service_4.png)
 
-下圖顯示另一例，當 R 指令碼因為 Azure 遺漏 R 封裝而無法正確執行時，會出現錯誤訊息。
+下圖顯示另一例，當 R 指令碼因為 Azure 遺漏 R 套件而無法正確執行時，會出現錯誤訊息。
 
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
@@ -75,7 +75,7 @@ Power BI 的免費使用者只能取用共用的磚。 如需詳細資訊，請�
 ## <a name="known-limitations"></a>已知的限制
 Power BI 服務的 R 視覺效果有某些限制︰
 
-* R 視覺效果支援限於下頁 <make this a link to the supported packages page per my excel> 提及的封裝。 目前不支援自訂封裝。
+* R 視覺效果支援限於下頁 <make this a link to the supported packages page per my excel> 提及的套件。 目前不支援自訂套件。
 * 資料大小限制 – R 視覺效果用於繪製的資料限制為 150,000 個資料列。 如果選取超過 150,000 個資料列，則只會使用前 150,000 個資料列，而且影像上會顯示訊息。
 * 計算時間限制 - 如果 R 視覺效果計算超過 60 秒，指令碼會逾時並導致錯誤。
 * R 視覺效果會在資料更新、篩選及反白顯示時進行重新整理。 不過，影像本身不會互動，也不支援工具提示。
@@ -112,7 +112,7 @@ R 套件是以定義完善的格式所合併的 R 函式、資料和已編譯程
 * 基於安全性和隱私權考量，我們目前不支援服務中透過全球資訊網提供用戶端-伺服器查詢的 R 套件 (例如 RgoogleMaps)。 會封鎖這類嘗試的網路功能。 如需支援與不支援的 R 套件清單，請參閱 [Power BI 服務中的 R 套件](../service-r-packages-support.md)。
 * 包含新 R 套件的核准程序具有樹狀結構的相依性；無法支援需要在服務中安裝的一些相依性。
 
-### <a name="supported-packages"></a>支援的封裝：
+### <a name="supported-packages"></a>支援的套件：
 如需支援的 R 套件長清單 (及不支援的套件短清單)，請參閱下列文章：
 
 * [Power BI 服務中的 R 套件](../service-r-packages-support.md)

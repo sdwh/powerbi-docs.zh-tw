@@ -1,25 +1,27 @@
 ---
 title: 比較 Power BI 報表伺服器和 Power BI 服務
-description: 本文會比較 Power BI 報表伺服器和 Power BI 服務的功能。
+description: 此文章會比較 Power BI 報表伺服器和 Power BI 服務的功能。
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 11/06/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: a693eef85f7eafe7cfac2a02cbccc346201a6f13
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908523"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507684"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
 
 Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要差異。 下表將會逐一說明。
+
+## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Power BI 報表伺服器和 Power BI 服務的功能
 
 | 功能 | Power BI 報表伺服器 | Power BI 服務 | 注意
 |---------|---------|---------|---------|
@@ -30,7 +32,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 發行週期 | 每 4 個月一次 | 每月一次 | 最新功能和修正首先會提供給 Power BI 服務。 在接下來的幾個版本中，大部分的核心功能都會提供給 Power BI 報表伺服器，而某些功能僅適用於 Power BI 服務。
 | 在 Power BI Desktop 中建立 Power BI 報表 | 是 | 是 |  
 | 在瀏覽器中建立 Power BI 報表 | 否 | 是 |  
-| 需要閘道器 | 否 | 是 (針對內部部署資料來源) |  
+| 需要閘道 | 否 | 是 (針對內部部署資料來源) |  
 | 即時串流 | 否 | 是 | [Power BI 中的即時串流](../service-real-time-streaming.md)
 | 儀表板 | 否 | 是 | [Power BI 服務中的儀表板](../consumer/end-user-dashboards.md) 
 | 使用應用程式發佈群組的報表 | 否 | 是 | [使用儀表板和報表建立並發佈應用程式](../service-create-distribute-apps.md) 
@@ -38,15 +40,15 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 連線到服務 (例如 Salesforce) | 否 | 是 | 使用 Power BI 服務[連線到所用服務](../consumer/end-user-connect-to-services.md)
 | 問與答 | 否 | 是 | [Power BI 服務和 Power BI Desktop 中的問與答](../consumer/end-user-q-and-a.md) 
 | 深入資訊摘要 | 否 | 是 | [使用 Power BI 自動產生資料的見解](../consumer/end-user-insights.md) 
-| 使用 EXCEL 分析 | 否 | 是 | [使用 Excel 分析](../service-analyze-in-excel.md) 
-| 編頁報表 | 是 | 否 | 編頁報表無法在 Power BI 服務中使用，但您可以[將編頁報表項目釘選至 Power BI 儀表板](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
+| 在 Excel 中分析 | 否 | 是 | [使用 Excel 分析](../service-analyze-in-excel.md) 
+| 編頁報表 | 是 | 是 | [Power BI 服務中可供使用的編頁報表](../paginated-reports-report-builder-power-bi.md)目前處於預覽狀態
 | Power BI 行動應用程式 | 是 | 是 | [Power BI 行動裝置應用程式概觀](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | ARC GIS 地圖 | 否 | 是 | [Power BI 服務及 Power BI Desktop 中由 Esri 提供的 ArcGIS 地圖](../power-bi-visualization-arcgis.md)
 | Power BI 報表的電子郵件訂用帳戶 | 否 | 是 | [訂閱 Power BI 服務中的報表或儀表板](../consumer/end-user-subscribe.md) 
 | 編頁報表的電子郵件訂用帳戶 | 是 | 否 | [Reporting Services 中的電子郵件傳遞](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
 | 資料警示 | 否 | 是 | Power BI 服務中的[資料警示](../service-set-data-alerts.md)
 | 資料列層級安全性 | 只能透過 DirectQuery 模式中的資料來源 | DirectQuery (資料來源) 與匯入模式中皆可使用 | Power BI 的[資料列層級安全性 (RLS)](../service-admin-rls.md) 
-| 全螢幕模式 | 否 | 是 | Power BI 服務的[全螢幕模式](../service-fullscreen-mode.md) 
+| 全螢幕模式 | 否 | 是 | Power BI 服務的[全螢幕模式](../consumer/end-user-focus.md) 
 | 進階的 Office 365 共同作業 | 否 | 是 | 與 Office 365 [在應用程式工作區中共同作業](../service-collaborate-power-bi-workspace.md) 
 | R 視覺效果 | 否 | 是 | 在 Power BI 服務中[建立 R 視覺效果](../visuals/service-r-visuals.md)  
 | 預覽功能 | 否 | 是 | [選擇加入 Power BI 服務預覽](../consumer/end-user-preview-features.md)功能 

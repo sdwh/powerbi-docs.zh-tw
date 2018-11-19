@@ -1,5 +1,5 @@
 ---
-title: 使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者
+title: 使用 Azure AD B2B 將內容散發給外部來賓使用者
 description: Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，以便能夠安全地將 Power BI 內容散發給組織外部的來賓使用者。
 author: mgblythe
 manager: kfile
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dded0f38ccc4c871bf402240aba25b11106bac09
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: dee5c14d2ee714872409352b5e42d646e561c271
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973204"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507753"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者
 
@@ -95,9 +95,9 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 
 * 外部 B2B 來賓限制於僅限內容耗用。 外部 B2B 來賓可以檢視應用程式、儀表板和報表、匯出資料，並建立儀表板和報表的電子郵件訂用帳戶。 他們無法存取工作區或發行其專屬內容。
 
-* Power BI 行動應用程式目前無法提供這項功能。 在行動裝置上，您可以在瀏覽器中檢視使用 Azure AD B2B 所共用的 Power BI 內容。
+* Power BI 行動應用程式目前無法提供此功能。 在行動裝置上，您可以在瀏覽器中檢視使用 Azure AD B2B 所共用的 Power BI 內容。
 
-* Power BI SharePoint Online 報表網頁組件目前不提供這項功能。
+* Power BI SharePoint Online 報表網頁組件目前不提供此功能。
 
 ## <a name="next-steps"></a>後續步驟
 

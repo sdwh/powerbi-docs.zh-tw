@@ -9,12 +9,12 @@ ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: 99c84aff932c7ce56a4aaa81d71e4583bce3e4c2
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 534c06c66d561a04dbffc04412095d6924c92781
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641729"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266062"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Microsoft Power BI Premium 容量資源管理及最佳化
 
@@ -26,6 +26,7 @@ ms.locfileid: "49641729"
 
 * 載入記憶體中的資料集
 * 資料集重新整理 (排程及隨選兩種)
+* 容量支援的工作負載
 * 報表查詢
 
 針對您容量中的發行資料集發出要求時，系統會從永續性儲存體載入該資料集 (也稱為影像載入)。 如果讓資料集在記憶體中保持載入狀態，當未來有對此資料集發出的查詢時，將有助於快速回應查詢。 除了讓資料集在記憶體中保持載入狀態所需的記憶體之外，報表查詢和資料集重新整理也會用到額外的記憶體。
@@ -42,7 +43,7 @@ Power BI Premium 可提供您「超量配置」容量的優點。 例如，您�
 
 將資料集載入到記憶體中是代價非常高昂的作業。 視資料集大小而定，持續時間可能從小型資料集的幾秒鐘，到大型資料集 (例如高達 10 GB) 的數十秒或甚至數分鐘。 Premium 容量會藉由將最近最少使用的資料集儘可能地保留在記憶體中，來嘗試將需要載入容量的次數降到最低。 當需要額外的記憶體時，將必須收回某些資料集，而系統將會嘗試選擇對使用者體驗影響最小的資料集。 當需要額外的記憶體時，將必須收回某些資料集，而系統將會嘗試選擇對使用者體驗影響最小的資料集。 例如，系統會避免收回最近數分鐘內頻繁使用的資料集。 這些資料集可能很快就會再次查詢。
 
-收回程序本身是一項快速作業。 如果資料集在收回時不是處於積極使用的狀態，使用者將無法判斷收回所帶來的影響程度。 不過，如果有太多資料集同時處於活躍狀態，而沒有足夠的記憶體全部予以容納，就可能進行大量收回。 太多使用中資料集可能導致「猛移」(thrashing) 的情況，也就是資料集會不斷地收回再重新載入，而使用者則可能感覺到回應時間明顯變長和效能明顯下降。
+收回程序本身是一個快速作業。 如果資料集在收回時不是處於積極使用的狀態，使用者將無法判斷收回所帶來的影響程度。 不過，如果有太多資料集同時處於活躍狀態，而沒有足夠的記憶體全部予以容納，就可能進行大量收回。 太多使用中資料集可能導致「猛移」(thrashing) 的情況，也就是資料集會不斷地收回再重新載入，而使用者則可能感覺到回應時間明顯變長和效能明顯下降。
 
 ### <a name="dataset-refresh-memory-requirement-competing-with-an-active-dataset-memory-requirement"></a>與作用中資料集記憶體需求競爭的資料集重新整理記憶體需求
 
@@ -51,6 +52,10 @@ Power BI Premium 可提供您「超量配置」容量的優點。 例如，您�
 如果即使進行收回也無法取得所需的記憶體，系統就會將重新整理作業排入重試佇列。 服務會進行重試，直到成功或新的重新整理動作開始為止。
 
 如果使用者對容量中的任何資料集發出互動式查詢，但因為重新整理正在進行中而沒有足夠的可用記憶體，該要求就會失敗而必須由使用者重試。
+
+### <a name="workloads"></a>工作負載
+
+根據預設，適用於 **Power BI Premium** 和 **Power BI Embedded** 的容量只支援雲端上與執行中 Power BI 查詢相關聯的工作負載。 我們現在針對兩個額外的工作負載提供預覽支援：**編頁報表**和**資料流程**。 如果啟用，這些工作負載可能就會影響您容量中的記憶體使用量。 如需詳細資訊，請參閱[設定工作負載](service-admin-premium-manage.md#configure-workloads)。
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>Premium 容量中的 CPU 資源管理
 

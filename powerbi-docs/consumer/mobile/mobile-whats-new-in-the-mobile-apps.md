@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909237"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297220"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -22,6 +22,26 @@ ms.locfileid: "48909237"
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
+
+## <a name="october-2018"></a>2018 年 10 月
+
+### <a name="paginated-report-preview-all-devices"></a>編頁報表預覽 (所有裝置)
+
+編頁報表目前可在 Power BI 服務上使用。 有權存取 Power BI 服務中編頁報表的使用者，也可以從其行動裝置應用程式存取這些報表。 
+
+請參閱[有關在行動裝置中使用編頁報表的 Power BI 部落格文章](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/) \(英文\)。
+
+### <a name="shared-credentials-ios"></a>共用認證 (iOS)
+
+從您的行動裝置應用程式登入 Power BI，從未如此簡單。 使用共用認證，我們透過使用裝置上的其他 Office 365 應用程式認證，在 Power BI 服務中對您進行驗證，來簡化登入程序。
+
+### <a name="in-app-urls-ios"></a>應用程式內的 URL (iOS) 
+
+指向其他 Power BI 成品之報表中的連結，現在會直接在應用程式內部開啟。 這可讓您建置自訂瀏覽流程，例如，從報表連結至儀表板。
+
+### <a name="ios12-and-watchos-5-support"></a>支援 iOS12 和 watchOS 5 
+
+我們已更新適用於 iOS 的 Power BI 應用程式，可搭配行動裝置上的新 OS 順暢地運作並進行監看。
 
 ## <a name="september-2018"></a>2018 年 9 月
 
@@ -41,10 +61,11 @@ ms.locfileid: "48909237"
 
 單一登入 (SSO) 是適用於 Windows 的 Power BI 行動版最迫切要求功能之一。 現在您不僅可以使用主要組織帳戶登入已加入網域的 Windows 行動裝置版裝置，還可以順暢地登入 Power BI 服務。 深入了解 [SSO 和 Windows 行動裝置應用程式](mobile-windows-10-app-single-sign-on-sso.md)。
 
+## <a name="previous-months"></a>前幾個月
 
-## <a name="july-2018"></a>2018 年 7 月
+### <a name="july-2018"></a>2018 年 7 月
 
-### <a name="ios-and-android-only"></a>僅限 iOS 與 Android
+#### <a name="ios-and-android-only"></a>僅限 iOS 與 Android
 
 **共用篩選**
 
@@ -55,127 +76,125 @@ ms.locfileid: "48909237"
 當您在行動裝置上以橫向模式檢視報表時，可以看見與 Power BI 在 Web 上看見的相同背景影像。
 
 
-## <a name="june-2018"></a>2018 年 6 月
+### <a name="june-2018"></a>2018 年 6 月
 
-### <a name="full-canvas-reports"></a>完整畫布報表
+#### <a name="full-canvas-reports"></a>完整畫布報表
 
 頂端和底部動作列現在會在載入您的報表不久後消失，讓您看到更多報表內容。
 
-### <a name="increased-phone-report-canvas-size"></a>增加的手機報表畫布大小
+#### <a name="increased-phone-report-canvas-size"></a>增加的手機報表畫布大小
 
 我們已增加手機報表畫布大小，以提供空間來放入比以前更多的視覺效果。
 
-## <a name="may-2018"></a>2018 年 5 月
+### <a name="may-2018"></a>2018 年 5 月
 
-### <a name="mobile-drill-through-all-mobile-apps"></a>行動鑽研：所有行動裝置應用程式
+#### <a name="mobile-drill-through-all-mobile-apps"></a>行動鑽研：所有行動裝置應用程式
 
 您可以從選取的資料點鑽研至行動裝置應用程式中的其他報表頁面，前提是報表作者必須已定義該動作。 
 
-### <a name="back-button-all-mobile-apps"></a>返回按鈕：所有行動裝置應用程式
+#### <a name="back-button-all-mobile-apps"></a>返回按鈕：所有行動裝置應用程式
 
 現在，當您透過撥動來瀏覽報表、在動作列上選擇報表頁面，或是使用鑽研時，返回按鈕可以讓您回到先前所檢視的頁面。 
 
-### <a name="dashboard-themes-all-mobile-apps"></a>儀表板佈景主題：所有行動裝置應用程式
+#### <a name="dashboard-themes-all-mobile-apps"></a>儀表板佈景主題：所有行動裝置應用程式
 
 當報表作者在 Power BI 服務中自訂儀表板佈景主題時，行動裝置應用程式中的儀表板外觀與風格也會隨之改變。 不過，您將不會看到背景影像。
 
-### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS：從遠端設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取
+#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS：從遠端設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取
 
 您的 IT 系統管理員現在可以使用 MDM 工具來設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取權。 如需詳細資料，請參閱[從遠端設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取權](../../report-server/configure-powerbi-mobile-apps-remote.md)。
 
-### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 應用程式 (預覽)
+#### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 應用程式 (預覽)
 
 Power BI for Mixed Reality 應用程式已經在 Microsoft 網上商店中推出。 您可以在沉浸於虛擬世界的同時，檢視您的儀表板和報表，或將這些項目放在您環境內容中的特定位置以進行檢視。 請觀看新的 [Power BI 應用於 Hololens 的簡介](https://www.youtube.com/watch?v=J_X_nOFUBss)影片以了解相關背景，或是閱讀有關新 [Power BI for Mixed Reality 應用程式](mobile-mixed-reality-app.md)的文章。
 
 
-## <a name="april-2018"></a>2018 年 4 月
+### <a name="april-2018"></a>2018 年 4 月
 
-### <a name="mobile-drill-down-and-drill-up"></a>行動向下切入與向上切入
+#### <a name="mobile-drill-down-and-drill-up"></a>行動向下切入與向上切入
 
-您現在可以向下切入和向上切入行動裝置上的報表視覺效果。 若要存取這項新功能，請點選並按住以在報表視覺效果中開啟 [工具提示] 功能表，然後點選 [切入] 按鈕深入探索您的資料。 深入了解 [drilling up and down in the mobile apps](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/) (向上和向下切入 Mobile Apps)。
+您現在可以向下切入和向上切入行動裝置上的報表視覺效果。 若要存取這個新功能，請點選並按住以在報表視覺效果中開啟 [工具提示] 功能表，然後點選 [切入] 按鈕深入探索您的資料。 深入了解 [drilling up and down in the mobile apps](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/) (向上和向下切入 Mobile Apps)。
 
-### <a name="persistent-filters"></a>常設篩選
+#### <a name="persistent-filters"></a>常設篩選
 
 我們最近已更新報表篩選和交叉分析篩選器，因此它們會從網路上的 Power BI 自動儲存到 Power BI 行動應用程式。 現在，篩選條件和您在行動裝置應用程式中設定的交叉分析篩選器會自動儲存至網路上的 Power BI 中。
 
 
-## <a name="march-2018"></a>2018 年 3 月
+### <a name="march-2018"></a>2018 年 3 月
 
-### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 應用程式 (預覽)
+#### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 應用程式 (預覽)
 
 在最近一次匯入資料到所在位置的行動中，我們建立了 Power BI for Mixed Reality 應用程式。 您可以在沉浸於虛擬世界的同時，檢視您的儀表板和報表，或將這些項目放在您環境內容中的特定位置以進行檢視。 深入了解新的 [Power BI for Mixed Reality 應用程式](mobile-mixed-reality-app.md)。
 
-### <a name="share-reports-and-dashboards-externally"></a>與外部共用報表及儀表板
+#### <a name="share-reports-and-dashboards-externally"></a>與外部共用報表及儀表板
 
 直接從應用程式與組織外的使用者共用儀表板及報表。 組織和社交帳戶都必須已啟用外部共用。 
 
-### <a name="persistent-filters"></a>永續性篩選
+#### <a name="persistent-filters"></a>永續性篩選
 
 當您在網頁上的 Power BI 中設定篩選器和交叉分析篩選器時，您的篩選選項也會儲存到行動裝置應用程式中，以便您從先前離開的地方繼續。
 
-### <a name="refresh-reports-on-the-ipad"></a>在 iPad 上重新整理報表
+#### <a name="refresh-reports-on-the-ipad"></a>在 iPad 上重新整理報表
 
 Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 
-## <a name="february-2018"></a>2018 年 2 月
+### <a name="february-2018"></a>2018 年 2 月
 
-### <a name="share-reports"></a>共用報表
+#### <a name="share-reports"></a>共用報表
 
 現在您可以直接從行動裝置應用程式共用報表。 深入了解[從行動裝置應用程式共用儀表板和報表](mobile-share-dashboard-from-the-mobile-apps.md)
 
-### <a name="improved-tooltips"></a>改善的工具提示
+#### <a name="improved-tooltips"></a>改善的工具提示
 
 當您點選並按住報表視覺效果以存取工具提示時，您現在可以拖曳手指橫過視覺效果，一路探索每個資料點的相關詳細資料。
 
-## <a name="january-2018"></a>2018 年 1 月
+### <a name="january-2018"></a>2018 年 1 月
 
-### <a name="report-favorites"></a>我的最愛報表
+#### <a name="report-favorites"></a>我的最愛報表
 
 將報表標記為我的最愛，即可讓它們顯示在 [我的最愛] 頁面上。 閱讀更多以了解 [Power BI 行動裝置應用程式中的我的最愛](mobile-apps-favorites.md)。
 
-### <a name="view-shared-reports"></a>檢視共用報表
+#### <a name="view-shared-reports"></a>檢視共用報表
 
 現在當有人與您共用報表時，它會與儀表板一起在 [與我共用] 頁面上列出。
 
-### <a name="improved-hyperlink-support"></a>改善的超連結支援
+#### <a name="improved-hyperlink-support"></a>改善的超連結支援
 
 您現在可以點選自訂視覺效果中的連結，以便在您的行動裝置瀏覽器中開啟它們。
 
-### <a name="intune-integration-android"></a>Intune 整合 (Android)
+#### <a name="intune-integration-android"></a>Intune 整合 (Android)
 
 支援使用 Intune 行動裝置管理的條件式存取。
 
-## <a name="december-2017"></a>2017 年 12 月
+### <a name="december-2017"></a>2017 年 12 月
 
-### <a name="improved-security-management"></a>改進的安全性管理 
+#### <a name="improved-security-management"></a>改進的安全性管理 
 
 我們在 Android 裝置上新增了條件式存取 (CA) 及 Microsoft Intune 行動裝置管理 (MDM) 的支援，以加強保護您組織中的資料。 iOS 上已可使用。
 
-### <a name="improved-permission-management"></a>改善的權限管理
+#### <a name="improved-permission-management"></a>改善的權限管理
 
 我們做了一些變更，讓您在管理資料集、儀表板及報表的使用者權限時能夠更加精確。
 
-### <a name="auto-installed-apps"></a>自動安裝的應用程式
+#### <a name="auto-installed-apps"></a>自動安裝的應用程式
 
 您完全不需要在 Power BI 中安裝某些應用程式。 在您組織中的 Power BI 應用程式建立者可以建立包含儀表板和報表集合的「應用程式」。 然後他們可以發行應用程式，並將它設定為自動安裝在 Power BI 服務和 Power BI 行動應用程式中。 當應用程式設定好為您安裝時，它會自動出現在您的 [應用程式] 功能表：
 
 ![Power BI 行動裝置應用程式中的應用程式](./media/mobile-whats-new-in-the-mobile-apps/power-bi-apps-mobile-apps.png)
 
-## <a name="november-2017"></a>2017 年 11 月
-### <a name="iphone-x-optimization"></a>iPhone X 最佳化
+### <a name="november-2017"></a>2017 年 11 月
+#### <a name="iphone-x-optimization"></a>iPhone X 最佳化
 
 我們已最佳化 iPhone X 的應用程式配置，因此您可以在每部裝置上時髦地瀏覽資料。
 
-## <a name="october-2017"></a>2017年 10 月
-### <a name="filters-for-phone-reports-in-android"></a>Android 中手機報表的篩選
+### <a name="october-2017"></a>2017年 10 月
+#### <a name="filters-for-phone-reports-in-android"></a>Android 中手機報表的篩選
 
 如果您在 Power BI Desktop 中建立了專為手機調整頁面的報表，而且該報表有篩選，您現在就可以在 Android 上手機報表中套用這些篩選。 閱讀更多 Android 上的 Power BI 報表篩選相關資訊。
 
-### <a name="show-data-in-reports"></a>在報表中顯示資料
+#### <a name="show-data-in-reports"></a>在報表中顯示資料
 
-您現在可以在報表中將視覺效果切換成資料表檢視，以查看資料背後的數字。 若要存取這項功能，請從報表上的視覺效果的 ... 功能表點選 [顯示資料]，或展開之視覺效果的 [動作] 功能表上的新增圖示。
-
-## <a name="previous-months"></a>前幾個月
+您現在可以在報表中將視覺效果切換成資料表檢視，以查看資料背後的數字。 若要存取這個功能，請從報表上的視覺效果的 ... 功能表點選 [顯示資料]，或展開之視覺效果的 [動作] 功能表上的新增圖示。
 
 ### <a name="september-2017"></a>2017 年 9 月
 #### <a name="filters-for-phone-reports-in-iphones"></a>iPhone 中手機報表的篩選
@@ -218,7 +237,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 **開發適合行動裝置的自訂視覺效果** - 如需在行動裝置上建立好看又好用之自訂視覺效果的祕訣，請參閱此[開發人員指南](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)。
 
 #### <a name="ios-devices"></a>iOS 裝置
-**與資料對話︰語音發問** - 現在您可以用說的而非鍵入來[透過問與答詢問資料的相關問題](mobile-apps-ios-qna.md)。 
+**與資料對話︰語音發問** - 現在您可以用說的而非輸入來[透過問與答詢問資料的相關問題](mobile-apps-ios-qna.md)。 
 
 ### <a name="march-2017"></a>2017 年 3 月
 請閱讀 [2017 年 3 月的行動裝置應用程式功能摘要](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-march-2017/)。

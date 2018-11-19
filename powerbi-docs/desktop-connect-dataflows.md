@@ -1,5 +1,5 @@
 ---
-title: 連線到 Power BI Desktop (預覽) 中 Power BI 資料流程所建立的資料
+title: 在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Power BI 資料流程所建立的資料
 description: 輕鬆連線並使用 Power BI Desktop 中的資料流程
 author: davidiseminger
 manager: kfile
@@ -7,58 +7,46 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f3964b96f8f282772f6d511c9c412e0caabd1d00
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: f87db1f715118f346e3b8069897e92fd157f881c
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512574"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265924"
 ---
-# <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-preview"></a>連線到 Power BI Desktop (預覽) 中 Power BI 資料流程所建立的資料
+# <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Power BI 資料流程所建立的資料
 在 **Power BI Desktop** 中，您可以連線至 **Power BI 資料流程**建立的資料，就像連線到 Power BI Desktop 中的任何其他資料來源一樣。
 
 ![連線到資料流程](media/desktop-connect-dataflows/connect-dataflows_01.png)
 
-**Power BI 資料流程 (預覽)** 連接器可讓您連線到 Power BI 服務資料流程所建立的實體。 由於資料流程處於預覽狀態，因此您必須採取幾個步驟，才能在您的系統上使用資料流程連接器。 
-
-
-## <a name="download-and-enable-the-power-bi-dataflows-connector-preview"></a>下載並啟用 Power BI 資料流程連接器 (預覽)
-
-您必須下載 **Power BI 資料流程**連接器的複本，然後將它複製到您電腦上的特定位置。 在即將推出的 Power BI Desktop 每月更新中，連接器會自動包含在資料連接器清單中，屆時就不需要這些步驟。
-
-您可在此位置下載 **Power BI 資料流程連接器**：[Power BI 資料流程連接器](https://visuals.azureedge.net/cds-analytics/PublicPreview/CDSA.mez)
-
-執行下列步驟在您的電腦上使用 **Power BI 資料流程**連接器 (預覽)：
-
-1. 下載 .MEZ 檔案的複本 (資料連接器檔案)。 私人預覽客戶會直接從 Microsoft 收到 MEZ 檔案的下載資訊。
-
-2. 將下載的資料連接器檔案放入您電腦的下列資料夾中：**文件 > Power BI Desktop > 自訂連接器資料夾**
-
-3. 在 Power BI Desktop 中選取 [檔案] > [選項及設定] > [選項]，然後從左側窗格選取 [預覽功能]。
-
-    ![啟用自訂連接器](media/desktop-connect-dataflows/connect-dataflows_02.png)
-
-4. 如未選取，請選取 [自訂資料連接器] 方塊。 
-
-5. 重新啟動 **Power BI Desktop** 以顯示連接器。
-
-## <a name="use-the-power-bi-dataflows-connector-preview"></a>使用 Power BI 資料流程連接器 (預覽)
-一旦重新啟動 **Power BI Desktop**，連接器就會顯示為可用的資料來源。 若要連線到資料集區，請選取 [取得資料] > [線上服務] > [Power BI 資料流程 (beta)]，如下圖所示：
-
-![連線到資料流程](media/desktop-connect-dataflows/connect-dataflows_01.png)
+**Power BI 資料流程 (搶鮮版 (Beta))** 連接器可讓您在 Power BI 服務中連線到資料流程所建立的實體。 
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-若要使用此預覽版本的 **Power BI 資料流程連接器**，您必須執行最新版的 **Power BI Desktop**。 您可以隨時[下載 Power BI Desktop](desktop-get-the-desktop.md) 將它安裝在您的電腦上，以確保您擁有最新的版本。  
+若要使用這個搶鮮版 (Beta) 的 **Power BI 資料流程連接器**，您必須執行最新版的 **Power BI Desktop**。 您可以隨時[下載 Power BI Desktop](desktop-get-the-desktop.md) 將它安裝在您的電腦上，以確保您擁有最新的版本。  
 
-注意：當 Power BI 資料流程連接器出現在 **Power BI Desktop** 即將推出的每月更新中時，您「必須」從您的 [文件] > [Power BI Desktop] > [自訂連接器] 資料夾中刪除此下載的 .MEZ 檔案，以避免衝突。 
+> [!NOTE]
+> 舊版的 Power BI 資料流程連接器會要求您下載 .MEZ 檔案，並將它放在資料夾中。 目前的 **Power BI Desktop** 版本隨附 Power BI 資料流程連接器，因此該檔案不再是必要檔案，而可能導致與隨附的連接器版本產生衝突。 如果您以手動方式該 .MEZ 檔案放到資料夾中，就「必須」從 [文件] > [Power BI Desktop] > [自訂連接器] 資料夾中刪除已下載的 .MEZ 檔案，以避免產生衝突。 
+
+## <a name="desktop-performance"></a>Desktop 效能
+**Power BI Desktop** 會在其安裝所在的電腦上本機執行。 資料流程的擷取效能取決於各種因素。 這些因素包括資料的大小、您電腦的 CPU 和 RAM、網路頻寬、與資料中心的距離，以及其他因素。
+
+您可以改善資料流程的資料擷取效能。 例如，如果針對 **Power BI Desktop** 擷取的資料大小太大而無法在您的電腦上進行管理，您可以在資料流程中使用連結和計算實體來彙總資料 (在資料流程內)，並且只擷取預先備妥的彙總資料。 使用該方式，就只會在資料流程中線上執行大型資料的處理，而不是在 **Power BI Desktop** 的執行中執行個體內本機執行。 該方法讓 Power BI Desktop 能夠擷取較少量的資料，並讓資料流程的體驗能夠持續迅速回應。
 
 
 ## <a name="next-steps"></a>後續步驟
-您可以使用 Power BI 資料連線以及您覺得有用的 **Power BI Desktop** 相關發行項，從事各式各樣有趣的事情：
+您可以使用 Power BI 資料流程來執行各式各樣有趣的作業。 如需詳細資訊，請檢閱下列來源：
+
+* [使用資料流程的自助資料準備](service-dataflows-overview.md)
+* [建立 Power BI 中的資料流程](service-dataflows-create-use.md)
+* [使用 Power BI Premium 上的計算實體 (預覽)](service-dataflows-computed-entities-premium.md)
+* [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
+* [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
+
+以下還提供了一些與 **Power BI Desktop** 相關的文章，您可能會覺得它們很實用：
 
 * [Power BI Desktop 中的資料來源](desktop-data-sources.md)
 * [使用 Power BI Desktop 合併資料並使其成形](desktop-shape-and-combine-data.md)

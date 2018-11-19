@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b4ecec3b2e53c2fea0fcbb7d78d1114da1a105ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da8fb3da7ea0e4f0457951bc421a5f207c3c6911
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299623"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273302"
 ---
 # <a name="on-premises-data-gateway-faq"></a>內部部署資料閘道常見問題集
 <!-- Shared FAQ shared Include -->
@@ -28,7 +28,7 @@ ms.locfileid: "34299623"
 **問題：** 可以使用閘道連接至多維度 (OLAP) 執行個體嗎？  
 **回答：** 可以！ 內部部署資料閘道同時支援對 Analysis Services 表格式和多維度模型的即時連線。
 
-**問題：** 如果我安裝閘道器的電腦與使用 Windows 驗證的內部部署伺服器位在不同網域，會怎麼樣？  
+**問題：** 如果我安裝閘道的電腦與使用 Windows 驗證的內部部署伺服器位在不同網域，會怎麼樣？  
 **回答：** 這種情況下沒有標準做法。 這完全取決於兩個網域之間的信任關係。 如果兩個不同網域都位於受信任的網域模型，則此閘道或許可以連接至 Analysis Services 伺服器，且可以解析有效使用者名稱。 若否，您可能會登入失敗。
 
 **問題：** 如何知道哪些有效使用者名稱已傳遞至我的內部部署 Analysis Services 伺服器？  
@@ -68,6 +68,9 @@ ms.locfileid: "34299623"
 
 **問題︰** 閘道可與 ExpressRoute 搭配使用嗎？  
 **回答：** 可以。 如需 ExpressRoute 和 Power BI 的詳細資訊，請參閱 [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)。
+
+**問題：** 我正在使用 R 指令碼。 這受到支援嗎？
+**答案**：只有個人模式才支援 R 指令碼。
 
 ## <a name="next-steps"></a>後續步驟
 [內部部署資料閘道](service-gateway-onprem.md)  
