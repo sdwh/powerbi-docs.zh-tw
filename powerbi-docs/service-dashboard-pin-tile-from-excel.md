@@ -1,7 +1,7 @@
 ---
 title: 如何從 Excel 將磚釘選到 Power BI 儀表板
 description: 從商務用 OneDrive 上的 Excel 將磚釘選到 Power BI 儀表板 釘選範圍、圖表、資料表
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3bb151de24a984406aa6fd40a70977f2e9eaf1be
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1ef0ecdfaea51a9ca50e0f105b51b8239ebc4fa1
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548043"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717531"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>從 Excel 將磚釘選到 Power BI 儀表板
 您要先連接活頁簿和 Power BI 服務 (app.powerbi.com)，才可以從 Excel 活頁簿釘選磚。 連接活頁簿其實就是將該活頁簿的連結唯讀版本帶入 Power BI 服務，讓您將範圍釘選到儀表板。 您甚至可以將整份工作表釘選到儀表板。  

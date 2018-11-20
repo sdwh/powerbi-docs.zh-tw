@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 11ad100bce2e13d5622676f43573dee411a93221
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 09ce2e2db94116d70824b276b9b67b9dbe163d11
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973296"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679309"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>組織中的 Power BI 授權
 
@@ -49,7 +49,7 @@ ms.locfileid: "50973296"
 
 * 若要註冊，您必須是 Office 365 中[**全域管理員**或**計費管理員**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)角色的成員。
 
-* 每個租用戶只限使用一個組織試用版。 這表示，如果有人已將 Power BI Pro 試用版套用至您的租用戶，您就無法再次套用。 如果您需要這方面的協助，請連絡 [Office 365 帳單支援](https://support.office.microsoft.com/en-us/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671&ui=en-US&rs=en-US&ad=US)。
+* 每個租用戶只限使用一個組織試用版。 這表示，如果有人已將 Power BI Pro 試用版套用至您的租用戶，您就無法再次套用。 如果您需要這方面的協助，請連絡 [Office 365 帳單支援](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671&ui=en-US&rs=en-US&ad=US)。
 
 1. 導覽到 [Office 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
@@ -75,7 +75,7 @@ ms.locfileid: "50973296"
 
 組織中的使用者可以使用兩種不同方式存取 Power BI 免費授權。 他們可以個別註冊 Power BI，或您可以在 Office 365 系統管理入口網站中為其指派 Power BI 授權。
 
-透過允許對 Power BI 感興趣的使用者免費註冊，允許個人註冊可減少組織系統管理員的負擔。
+藉由允許對 Power BI 感興趣的使用者免費註冊，允許個人註冊可減少組織系統管理員的負擔。
 
 不過，停用個人使用者註冊可讓您有更多控制權，而且很適合您需要稽核服務使用量的情況。
 
@@ -121,7 +121,7 @@ ms.locfileid: "50973296"
 
 1. 現在您可以[在 Office 365 中指派授權](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)。
 
-1. 如果您稍後決定您想要新增更多授權，您可以移回至 [新增訂閱]，然後對 Power BI (免費) 選取 [變更授權數量]。
+1. 如果您稍後決定您想要新增更多授權，您可以移回至 \[新增訂閱]，然後對 Power BI \(免費) 選取 \[Change license quantity] \(變更授權數量)。
 
     ![變更授權數量](media/service-admin-licensing-organization/change-license-quantity.png)
 

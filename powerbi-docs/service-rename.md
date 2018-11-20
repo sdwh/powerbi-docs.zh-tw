@@ -1,21 +1,21 @@
 ---
 title: 重新命名儀表板、報表、工作區、報表頁面、資料集
 description: 重新命名 Power BI 服務中的絶大部分項目。
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a3a78c27ab8d6e7c321af3f5ba4144e8b320e4a9
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: edcba2dafad831799f1e72fedd0130e282de6a24
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545720"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51716824"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>重新命名 Power BI 服務中的絶大部分項目
 本文會教導您如何重新命名 Power BI 服務中的儀表板、報表、報表頁面、活頁簿、資料集、應用程式和工作區。

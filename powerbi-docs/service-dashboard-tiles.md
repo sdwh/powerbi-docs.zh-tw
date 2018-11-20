@@ -1,21 +1,21 @@
 ---
 title: Power BI 服務中的儀表板磚
 description: Power BI 中儀表板磚的所有相關資訊。 這包括從 SQL Server Reporting Services (SSRS) 建立的磚。
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/3/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f63f99004f9cb532821d6623ab2bdd3f805beafd
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: 76b8eaff949ee56d57511eabea913363e6cdc3f6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48874690"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717393"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 的儀表板圖格
 儀表板和儀表板磚是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 雖然無法在 Power BI 行動裝置中建立或釘選儀表板磚，但可以進行[檢視及共用](mobile-tiles-in-the-mobile-apps.md)。 而且，在 Power BI 行動裝置中，您可以[使用 iPhone 應用程式將圖片新增至儀表板](mobile-iphone-app-get-started.md)。

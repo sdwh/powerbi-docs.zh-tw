@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: 9d7012006ca18cf43c530c4d79ed02e6ed73f33f
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952203"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679223"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>藉由提供範例來從網頁取得資料
 
@@ -35,9 +35,9 @@ ms.locfileid: "49952203"
 
 針對所要擷取資料的網頁，於該處輸入網頁的 URL。 在本文中我們會使用「Microsoft 市集」網頁，並顯示此連接器的運作方式。 
 
-如果您想要按照本文操作，可以使用我們在本文中使用的 [Microsoft 市集 URL](https://www.microsoft.com/en-us/store/top-paid/games/xbox?category=classics)：
+如果您想要按照本文操作，可以使用我們在本文中使用的 [Microsoft 市集 URL](https://www.microsoft.com/store/top-paid/games/xbox?category=classics)：
 
-    https://www.microsoft.com/en-us/store/top-paid/games/xbox?category=classics
+    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
 
 ![Web 對話方塊](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 

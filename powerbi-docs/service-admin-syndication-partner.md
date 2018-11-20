@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909310"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157394"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>無法將 Power BI 加入 Office 365 合作夥伴訂閱
 
@@ -23,7 +23,7 @@ Office 365 可讓公司將 Office 365 與其自有的解決方案進行搭配整
 
 如果您想在購買 Office 365 訂閱時一併取得 Power BI，我們建議您連絡您的合作夥伴來選購。 如果您的合作夥伴目前不提供 Power BI，您有可以購買 Power BI 的其他選項。
 
-# <a name="work-with-your-partner-to-purchase-power-bi"></a>與您的合作夥伴合作以購買 Power BI
+## <a name="work-with-your-partner-to-purchase-power-bi"></a>與您的合作夥伴合作以購買 Power BI
 
 如果想要購買 Power BI Pro 或 Power BI Premium 訂閱，請與合作夥伴討論您可購買的選項：
 
@@ -31,7 +31,7 @@ Office 365 可讓公司將 Office 365 與其自有的解決方案進行搭配整
 
 * 您的合作夥伴可以將您的購買模式轉變成直接向 Microsoft 或其他提供 Power BI 的合作夥伴購買 Power BI。
 
-# <a name="purchase-from-microsoft-or-another-channel"></a>從 Microsoft 或其他管道購買
+## <a name="purchase-from-microsoft-or-another-channel"></a>從 Microsoft 或其他管道購買
 
 根據與您合作夥伴關係，您或許可以直接向 Microsoft 或其他合作夥伴購買 Power BI。 您可以確認您是否能在 Office 365 管理入口網站中新增 Power BI 訂閱 (需要全域管理員或計費管理員角色成員資格)。
 
@@ -59,7 +59,7 @@ Office 365 可讓公司將 Office 365 與其自有的解決方案進行搭配整
 
 若要啟用特定訂閱，您可以連絡合作夥伴，請他們開啟。 如果您是租用戶系統管理員，而且知道如何使用 Azure Active Directory PowerShell 命令，您可以自行啟用特定訂閱。 [適用於 Graph 的 Azure Active Directory PowerShell](/powershell/azure/active-directory/install-adv2/)
 
-1. 使用 Office 365 認證登入 Azure Active Directory。 以下指令碼的第一行會提示您輸入認證。 第二行連線到 Azure Active Directory。
+1. 使用 Office 365 認證登入 Azure Active Directory。 以下指令碼的第一行會提示您輸入認證。 第二行連接到 Azure Active Directory。
 
     ```powershell
     $msolcred = get-credential

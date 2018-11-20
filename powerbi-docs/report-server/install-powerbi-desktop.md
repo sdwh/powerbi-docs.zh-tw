@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: c65b945260357b0679f8fdb83c534aac53481126
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 54f49bf28019ba41df7d68e1d5312ee975023859
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564777"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679056"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 了解如何安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop。
@@ -31,7 +31,7 @@ ms.locfileid: "46564777"
 
     ![從 Web 入口網站下載 Power BI Desktop](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    或者您可以直接前往 Microsoft 下載中心的 [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (已針對 Power BI 報表伺服器最佳化 - 2018 年 8 月)。
+    或者您可以直接前往 Microsoft 下載中心的 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (已針對 Power BI 報表伺服器最佳化 - 2018 年 8 月)。
 
 2. 在 [下載中心] 頁面上，選取 [下載]。
 

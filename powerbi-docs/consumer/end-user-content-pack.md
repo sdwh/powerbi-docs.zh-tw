@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e74c8db22a2a1c4ddb188ae13a8ca5df9f862f3
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 432e38ffdcb92ee1d2cf1d62f7f34863d748885b
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507707"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679102"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>尋找並連線到組織內容套件
 
@@ -38,7 +38,7 @@ ms.locfileid: "51507707"
 ## <a name="connect-to-an-organizational-content-pack"></a>連線到組織內容套件
 * 選取 [立即取得] 可連線至內容套件，將其新增至使用中的工作區。 新的儀表板、報表、Excel 活頁簿和資料集會以黃色星號開頭。
 
-如果內容套件包含 Excel 活頁簿，則您可能會看到一則警告，指出您沒有檢視活頁簿的權限。 如果是這樣，您可要求內容套件擁有者[在商務用 OneDrive 中與您共用活頁簿](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
+如果內容套件包含 Excel 活頁簿，則您可能會看到一則警告，指出您沒有檢視活頁簿的權限。 如果是這樣，您可要求內容套件擁有者[在商務用 OneDrive 中與您共用活頁簿](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
 
 內容套件已鎖定。 您可以[儲存自己的報表和儀表板複本](../service-organizational-content-pack-copy-refresh-access.md)。 
 

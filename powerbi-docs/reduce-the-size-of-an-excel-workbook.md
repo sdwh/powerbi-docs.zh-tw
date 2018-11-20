@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12ff54b1aa44edaead98b1fab6942acbd76216c7
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5d21dff56620e4b2eb05ed3bbf123ff1d1805075
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329423"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679332"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>減少 Excel 活頁簿的大小以在 Power BI 中檢視
 所有小於 1 GB 的 Excel 活頁簿都可上傳至 Power BI。 Excel 活頁簿可以包含兩個部分：資料模型和報表的其他部分 — 核心工作表內容。 如果報表符合下列大小限制，您就可以將它儲存到**商務用 OneDrive**，然後從 Power BI 連接到它並於 Excel Online 中檢視：
@@ -28,7 +28,7 @@ ms.locfileid: "39329423"
 
 * 映像。
 * 加上陰影的儲存格。 [移除儲存格陰影格式](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e)。
-* 彩色的工作表。 [移除工作表背景](https://support.office.com/en-US/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8)。
+* 彩色的工作表。 [移除工作表背景](https://support.office.com/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8)。
 * 文字方塊。
 * 美工圖案。
 
@@ -55,7 +55,7 @@ ms.locfileid: "39329423"
 * **從 [Excel 資料] 索引標籤**：不要核取 [匯入資料]  方塊中的 [資料表]  。
 
 ## <a name="workbook-size-optimizer"></a>活頁簿大小最佳化工具
-如果您的活頁簿包含資料模型，您就可以執行活頁簿大小最佳化工具，以減少您的活頁簿大小。 [下載活頁簿大小最佳化工具](https://www.microsoft.com/en-us/download/details.aspx?id=38793)。
+如果您的活頁簿包含資料模型，您就可以執行活頁簿大小最佳化工具，以減少您的活頁簿大小。 [下載活頁簿大小最佳化工具](https://www.microsoft.com/download/details.aspx?id=38793)。
 
 ## <a name="related-info"></a>相關資訊
 [建立記憶體效率高的資料模型](https://support.office.com/article/Create-a-memory-efficient-Data-Model-using-Excel-2013-and-the-Power-Pivot-add-in-951c73a9-21c4-46ab-9f5e-14a2833b6a70)

@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297128"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679010"
 ---
 # <a name="on-premises-data-gateway"></a>內部部署資料閘道
 
@@ -100,7 +100,7 @@ ms.locfileid: "51297128"
 ## <a name="enabling-outbound-azure-connections"></a>允許連出 Azure 連線
 
 內部部署的資料閘道仰賴 Azure 服務匯流排來獲得雲端連線能力，並對其相關 Azure 區域相應建立連出連線。 根據預設，這是您 Power BI 租用戶的位置。 請參閱[我的 Power BI 租用戶位於何處？](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
-若防火牆封鎖了連出連線，您就必須設定防火牆，使其允許內部部署的資料閘道與其相關 Azure 區域之間的連出連線。 如需各 Azure 資料中心 IP 位址範圍的詳細資料，請參閱 [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/en-us/download/details.aspx?id=41653) (Microsoft Azure 資料中心 IP 範圍)。
+若防火牆封鎖了連出連線，您就必須設定防火牆，使其允許內部部署的資料閘道與其相關 Azure 區域之間的連出連線。 如需各 Azure 資料中心 IP 位址範圍的詳細資料，請參閱 [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/download/details.aspx?id=41653) (Microsoft Azure 資料中心 IP 範圍)。
 > [!NOTE]
 > IP 位址範圍可能隨著時間變更，因此請務必定期下載最新資訊。 
 

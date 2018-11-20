@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: cd68b265fafa2d16defb5bce43be6cdf5c403f03
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: b99f346102ae8b5f31db8101e499fb6915d870de
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032086"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850399"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI 的資料列層級安全性 (RLS)
 Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資料存取。 篩選會限制資料列層級的資料存取，您可以在角色中定義篩選。 請注意，在 Power BI 服務中，工作區的成員具有工作區中資料集的存取權。 RLS 不會限制這項資料存取權。 
@@ -24,7 +24,7 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 
-根據預設，資料列層級安全性篩選使用單一方向的篩選條件，不論關聯性設定為單向或雙向。 您可以手動啟用雙向交叉篩選與資料列層級安全性，方法是選取關聯性，並核取 [雙向套用安全性篩選] 核取方塊。 實作[動態資料列層級安全性](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) (其中您根據使用者名稱或登入識別碼提供資料列層級安全性) 時，請核取此方塊。 
+根據預設，資料列層級安全性篩選使用單一方向的篩選條件，不論關聯性設定為單向或雙向。 您可以手動啟用雙向交叉篩選與資料列層級安全性，方法是選取關聯性，並核取 [雙向套用安全性篩選] 核取方塊。 實作[動態資料列層級安全性](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) (其中您根據使用者名稱或登入識別碼提供資料列層級安全性) 時，請核取此方塊。
 
 如需詳細資訊，請參閱[在 Power BI Desktop 中使用 DirectQuery 雙向交叉篩選](desktop-bidirectional-filtering.md)和[保護表格式 BI 語意模型](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)技術文件。
 

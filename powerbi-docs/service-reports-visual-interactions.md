@@ -1,7 +1,7 @@
 ---
 title: 變更報表中的視覺效果互動方式
 description: 說明如何設定 Microsoft Power BI 服務報表和 Power BI Desktop 報表中的視覺效果互動。
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: N_xYsCbyHPw
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 09/24/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c3671ae626496bf80ac4b212a755bb13f82ec66b
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: de18466b2ce98c0ba1e4b5e6e9ad2eb501f18a49
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47418116"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717193"
 ---
 # <a name="visualization-interactions-in-a-power-bi-report"></a>在 Power BI 報表中與視覺效果互動
 如果您有報表的編輯權限，可以使用 [視覺效果互動] 變更報表頁面上視覺效果相互影響的方式。 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: bec5bb108bc210f268db0392370e15d89c0352b7
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 33462cbdac69d13d64d396a1dd93a6e1922a9e2c
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39330205"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679339"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常見查詢工作
 當使用 Power BI Desktop 的 [查詢編輯器]  視窗時，有很多常用的工作。 本文將示範這些常見工作，並提供其他資訊的連結。 
@@ -146,7 +146,7 @@ ms.locfileid: "39330205"
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 
-Power BI Desktop 提供一組廣泛的公式類別。 如需詳細資訊和查詢編輯器的所有公式的完整參考，請瀏覽 [Power Query 公式類別](https://support.office.com/en-in/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819).
+Power BI Desktop 提供一組廣泛的公式類別。 如需詳細資訊和查詢編輯器的所有公式的完整參考，請瀏覽 [Power Query 公式類別](https://support.office.com/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819).
 
 查詢編輯器的公式類別如下所示：
 

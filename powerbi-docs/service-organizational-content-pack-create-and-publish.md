@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 4638842217127c1d80ec115e05f8db1a6d3eb36c
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908455"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679033"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>建立及發佈 Power BI 組織內容套件 (教學課程)
 
@@ -71,7 +71,7 @@ ms.locfileid: "48908455"
       ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
    
       > [!NOTE]
-      > 如果群組的成員無法檢視 Excel 活頁簿，您可能需要[在商務用 OneDrive 中與他們共用活頁簿](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)。
+      > 如果群組的成員無法檢視 Excel 活頁簿，您可能需要[在商務用 OneDrive 中與他們共用活頁簿](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)。
       > 
       > 
 4. 選取 [發佈]  將內容套件加入群組的組織內容套件庫。  
@@ -93,6 +93,6 @@ ms.locfileid: "48908455"
 * [組織內容套件簡介](service-organizational-content-pack-introduction.md)  
 * [管理、更新和刪除組織內容套件](service-organizational-content-pack-manage-update-delete.md)  
 * [在 Power BI 中建立群組](service-create-distribute-apps.md)  
-* [商務用 OneDrive 是什麼？](https://support.office.com/en-us/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
+* [商務用 OneDrive 是什麼？](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

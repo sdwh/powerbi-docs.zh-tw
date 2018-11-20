@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 433710918cb77ca9ee002673dbe6298f0d2184aa
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003286"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679447"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 的 DAX 基本概念
 本文適用對象為剛開始使用 Power BI Desktop 的使用者。 其目的在於以快速且容易了解的方式，為您介紹如何使用資料分析運算式 (DAX)，以便解決一些基本計算和資料分析問題。 我們將逐一探討一些概念性資訊、一系列您可以完成的工作，以及用來測試所學內容的幾項測驗。 完成本文之後，您便可充分了解 DAX 最重要的基本概念。
@@ -142,7 +142,7 @@ DAX 包含下列函數類別：[日期和時間](https://msdn.microsoft.com/libr
 * DAX 包含各種時間智慧函數。 這些函數可讓您定義或選取日期範圍，並以此為依據來執行動態計算。 例如，您可以比較不同平行區間的總和。
 * Excel 有一個非常受歡迎的函數 VLOOKUP。 不同於 Excel 的 VLOOKUP，DAX 函數不會以資料格或資料格範圍做為參考。 DAX 函數會以資料行或資料表做為參考。 請記得，在 Power BI Desktop 中，您會使用關聯式資料模型。 查閱另一個資料表中的值其實相當簡單，而且在大多數情況下，您完全不需要建立任何公式。
   
-  如您所見，DAX 函數可協助您建立非常強大的公式。 我們其實只接觸到函數的基本概念。 隨著您愈來愈熟練 DAX，您將會使用許多不同的函數來建立公式。 [DAX 函式參考](https://msdn.microsoft.com/en-us/query-bi/dax/data-analysis-expressions-dax-reference)是您進一步了解每個 DAX 函數的最佳地點之一。
+  如您所見，DAX 函數可協助您建立非常強大的公式。 我們其實只接觸到函數的基本概念。 隨著您愈來愈熟練 DAX，您將會使用許多不同的函數來建立公式。 [DAX 函式參考](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)是您進一步了解每個 DAX 函數的最佳地點之一。
 
 ### <a name="functions-quickquiz"></a>函數快速測驗
 1. 函數一律會參考的項目為何？

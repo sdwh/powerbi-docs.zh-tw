@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ec687e4751c6003fe558f2088825eae0bf4be11
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973388"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157072"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
@@ -38,7 +38,7 @@ ms.locfileid: "50973388"
 
 * [這會怎麼改變我目前管理組織中使用者身分識別的方式？](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [要如何管理 Power BI？](#how-do-we-manage-power-bi)
-* [管理 Microsoft 為使用者所建之租用戶的程序為何？](#what-is-the-process-to-manage-a-tenant-created-by-Microsoft-for-my-users)
+* [管理 Microsoft 為使用者所建之租用戶的程序為何？](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [如果有多個網域，我可以控制使用者新增的 Office 365 租用戶嗎？](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)
 * [如何移除已註冊使用者的 Power BI？](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [我如何知道有新的使用者加入我的租用戶？](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -71,7 +71,7 @@ ms.locfileid: "50973388"
     在此案例中，如果使用者在租用戶中已經有公司或學校帳戶 (例如，contoso.com)，但尚未有 Power BI，則 Microsoft 只會啟用該帳戶的方案，並自動通知使用者如何使用 Power BI 服務。
 
 * **案例 2**︰您的組織有現有的 Office 365 環境，但註冊 Power BI 的使用者沒有 Office 365 帳戶。
-    在此案例中，使用者有貴組織網域的電子郵件地址 (例如，contoso.com)，但還沒有 Office 365 帳戶。 在此情況下，使用者可以註冊 Power BI，且會自動獲得帳戶。 這可讓使用者存取 Power BI 服務。 例如，如果員工 Nancy 使用她的公司電子郵件地址 (例如 nancy@contoso.com) 註冊，Microsoft 就會自動將 Nancy 新增為 Contoso 的 Office 365 環境使用者，並為該帳戶啟用 Power BI。
+    在這個案例中，使用者有貴組織網域的電子郵件地址 (例如，contoso.com)，但還沒有 Office 365 帳戶。 在此情況下，使用者可以註冊 Power BI，且會自動獲得帳戶。 這可讓使用者存取 Power BI 服務。 例如，如果員工 Nancy 使用她的公司電子郵件地址 (例如 nancy@contoso.com) 註冊，Microsoft 就會自動將 Nancy 新增為 Contoso 的 Office 365 環境使用者，並為該帳戶啟用 Power BI。
 
 * **案例 3**︰您的組織沒有連線到您電子郵件網域的 Office 365 環境。
     貴組織不需要執行任何管理動作來利用 Power BI。 使用者會新增至僅限雲端的新使用者目錄中，而且您可以選擇是否接管成為租用戶系統管理員並管理使用者。
@@ -191,7 +191,7 @@ Power BI 提供的管理入口網站，可讓您檢視使用量統計資料、�
 
 如果使用者已註冊 Power BI，但您不希望他們繼續存取 Power BI，您可以移除該使用者的 Power BI 授權。
 
-1. 瀏覽到 [Office 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
+1. 導覽到 [Office 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
 1. 在左側的導覽列中，選取 [使用者] > [作用中使用者]。
 
@@ -209,7 +209,7 @@ Power BI 提供的管理入口網站，可讓您檢視使用量統計資料、�
 
 已加入這個程式租用戶的使用者會獲派唯一的授權，您可以在系統管理儀表板的 [作用中使用者] 窗格內篩選。 若要建立這個新檢視，請依照下列步驟執行。
 
-1. 瀏覽到 [Office 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
+1. 導覽到 [Office 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
 1. 在左側的導覽列中，選取 [使用者] > [作用中使用者]。
 
@@ -241,7 +241,7 @@ Power BI 提供的管理入口網站，可讓您檢視使用量統計資料、�
 
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI 是否符合國家、地區和業界的特定法規要求？
 
-若要深入了解 Power BI 相容性，請參閱 [Microsoft 信任中心](http://go.microsoft.com/fwlink/?LinkId=785324)。
+若要深入了解 Power BI 相容性，請參閱 [Microsoft 信任中心](https://www.microsoft.com/en-us/TrustCenter/CloudServices/business-application-platform/default.aspx)。
 
 ### <a name="how-does-security-work-in-power-bi"></a>Power BI 安全性如何運作？
 

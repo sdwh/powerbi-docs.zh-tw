@@ -1,21 +1,21 @@
 ---
 title: 設計絕佳 Power BI 儀表板的秘訣
 description: 設計絕佳 Power BI 儀表板的秘訣
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 44f034f13c03ddc2c71f62053632003c3b5e6954
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507845"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717830"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>設計絕佳 Power BI 儀表板的秘訣
 現在您已經建立儀表板，及新增了某些圖格，請思考如何讓您的儀表板不只是好看，同時功能也更強。 一般而言，這代表將最重要的資訊設定為待命，讓它簡潔且整齊。

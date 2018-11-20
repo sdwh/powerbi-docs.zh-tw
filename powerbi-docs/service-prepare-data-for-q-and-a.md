@@ -1,21 +1,21 @@
 ---
 title: 如何讓 Excel 資料適用於 Power BI 的問與答
 description: 如何讓資料適用於 Power BI 的問與答
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6cd667a81a743a0b074155e0e16a49178157bc6c
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 09a9dd194d278184c04e091e62aebc0b9fe248d1
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396489"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717302"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>如何讓 Excel 資料適用於 Power BI 的問與答
 如果您是建立資料模型的人員，或要建立搭配 Power BI 使用的 Excel 活頁簿，請繼續閱讀...
