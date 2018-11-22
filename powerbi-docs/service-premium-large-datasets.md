@@ -10,24 +10,32 @@ ms.topic: conceptual
 ms.date: 10/18/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
-ms.openlocfilehash: 416f022ee3c413c69650e6f1736cc94edcd58f13
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 0449d7953b5cefb4c76d89f05ec5b3fa70e9c0da
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641244"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679345"
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>大型資料集的 Power BI Premium 支援
 
-Power BI Premium 支援上傳大小最多為 10 GB 的 Power BI Desktop (.pbix) 檔案。 上傳之後，資料集可以重新整理，最多 12 GB 的大小。 若要使用大型資料集，請將它發行至指派給 Premium 容量的工作區。 本文描述處理大型資料集的考量和最佳做法。
+Power BI Premium 支援上傳大小最多為 10 GB 的 Power BI Desktop (.pbix) 檔案。 上傳之後，資料集可以重新整理，最多 12 GB 的大小。 若要使用大型資料集，請將它發行至指派給 Premium 容量的工作區。
+ 
+## <a name="best-practices"></a>最佳作法
 
-對於您的容量，**大型模型可能非常耗用資源**。 我們建議任何大於 1 GB 的模型至少要有 P1 SKU。 下表描述各種 .pbix 大小的建議 SKU：
+本節描述使用大型資料集的最佳做法。
+
+對於您的容量，**大型模型可能非常耗用資源**。 我們建議任何大於 1 GB 的模型至少要有 P1 SKU。 雖然 A SKU 最多可支援發佈大型模型到工作區 (最多到 A3)，但重新整理它們之後即無法支援。
+
+下表描述各種 .pbix 大小的建議 SKU：
 
    |SKU  |.pbix 大小   |
    |---------|---------|
    |P1    | < 3 GB        |
    |P2    | < 6 GB        |
-   |P3、P4、P5    | 最多 10 GB |
+   |P3、P4、P5    | 最多 10 GB   |
+
+Power BI Embedded A4 SKU 等同於 P1 SKU、A5 = P2 及 A6 = P3。 請注意，將大型模型發行到 A 和 EM SKU，可能會傳回錯誤，且為非專屬於共用容量中模型大小限制的錯誤。 A 和 EM SKU 中，大型模型的重新整理錯誤，很可能指向逾時。 我們正努力改善這些情況下的錯誤訊息。
 
 **.pbix 檔案以高度壓縮狀態呈現資料**。 載入至記憶體時，資料可能會展開多次，而且從該處，在資料重新整理期間，資料可能會再展開幾次。
 

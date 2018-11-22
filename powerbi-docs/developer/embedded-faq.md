@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 09/17/2018
-ms.openlocfilehash: 56b6c954aa49f8adf0aa479f143fb11b932c107e
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 8cdeed0c5575a8405ae5db6d1eaca522ab0597cb
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736956"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679424"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -119,10 +119,10 @@ https://app.powerbi.com/ > ? > 關於 Power BI
 ![關於 Power BI](media/embedded-faq/about-01.png)
 ![租用戶區域](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>通訊循序處理序 (CSP) 通道的支援項目為何？
+### <a name="what-is-supported-with-the-cloud-solution-provider-csp-channel"></a>雲端解決方案提供者 (CSP) 通道的支援項目？
 
 * 您可以針對具有訂用帳戶類型 CSP 的租用戶建立 PBIE
-* 夥伴帳戶可以登入客戶租用戶、購買客戶租用戶的 PBIE，並將客戶租用戶使用者指定為 Power BI 容量管理員
+* 夥伴帳戶可以登入客戶的租用戶，並為客戶租用戶購買 PBIE，以及指定客戶租用戶使用者為 Power BI 的容量管理員
 
 ### <a name="why-do-i-get-an-unsupported-account-message"></a>為什麼會收到不受支援帳戶的訊息？
 

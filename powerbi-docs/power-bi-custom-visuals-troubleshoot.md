@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: d6f3f654574e9cca081ae2f8191fd7b9fc017afd
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 3d9e8e46fdd84edbeb5b4ff5e8f7efe4a4291049
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223537"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679230"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>針對 Power BI 自訂視覺效果進行疑難排解
 
@@ -37,7 +37,7 @@ ms.locfileid: "51223537"
 
 **聯繫不到視覺效果伺服器**
 
-在終端機命令列中輸入 `pbiviz start` 命令，從視覺效果專案的根目錄執行視覺效果伺服器。 如果伺服器正在執行，很可能是您未正確安裝 SSL 憑證。
+在終端機命令列中輸入 `pbiviz start` 命令，從視覺效果專案的根目錄執行視覺效果伺服器。 如果伺服器未在執行中，很可能是您未正確安裝 SSL 憑證。
 
 ## <a name="next-steps"></a>後續步驟
 

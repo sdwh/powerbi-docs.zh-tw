@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/24/2018
+ms.date: 11/14/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: cdc406ddd9c086114ca118130bb4973737de3ed1
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909007"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717887"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>在 Power BI 中建立新的工作區 (預覽)
 
@@ -168,7 +168,7 @@ Power BI 正在引進新的工作區體驗作為預覽。 工作區仍然是與�
 
 以下是已知問題，且修正程式正在開發中：
 
-- 新增為電子郵件訂用帳戶收件者的免費使用者或使用者群組可能不會收到電子郵件，但他們應該收到電子郵件。 新的工作區體驗工作區是在 Premium 容量中，但建立訂用帳戶的使用者若其 [我的工作區] 不在 Premium 容量中時，就會發生此問題。 如果 [我的工作區] 是在 Premium 容量中，則免費使用者和使用者群組將會收到電子郵件。
+- 新增為電子郵件訂用帳戶收件者的免費使用者或使用者群組可能不會收到電子郵件，但他們應該收到電子郵件。 當其中一個新工作區位於 Premium 容量中，但建立訂用帳戶之使用者的「我的工作區」不在 Premium 容量中時，就會發生此問題。 如果 [我的工作區] 是在 Premium 容量中，則免費使用者和使用者群組將會收到電子郵件。
 - 工作區從 Premium 容量移到共用容量之後，在某些情況下，免費使用者和使用者群組將會繼續收到電子郵件，但他們不應該收到電子郵件。 建立訂用帳戶的使用者若其 [我的工作區] 是在 Premium 容量中時，就會發生此問題。
 
 ## <a name="next-steps"></a>後續步驟

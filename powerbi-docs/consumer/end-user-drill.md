@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4e1c2d309990c28ad0568dbd15dd7fe81634e95
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: b8d51bef94a046d7e59962b565d13ba623b5bcc4
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565697"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679472"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI 視覺效果中的鑽研模式
 
@@ -177,7 +177,7 @@ Power BI 可讓您一次展開一個子集，或一次展開所有子集。 您�
 ### <a name="hierarchical-data-and-time-data"></a>階層式資料和時間資料
 在此範例中，遵循[零售分析範例](../sample-datasets.md)，並建立堆疊直條圖視覺效果，依 [總銷售量] (值) 查看 [月份] (軸)。  
 
-即使 [軸] 資料欄位是 [月份]，它仍會在 [軸] 區中建立 [年份] 類別。 這是因為 Power BI 針對所讀取的所有值，都會提供完整的 DateTime 結構。 階層最上層顯示該年的資料。
+即使 [軸] 資料欄位是 [月份]，它仍會在 [軸] 區中建立 [年份] 類別。 這是因為 Power BI 針對所讀取的所有值，都會提供完整的 DateTime 結構。 階層最上層會顯示該年的資料。
 
 ![](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
 
@@ -211,7 +211,7 @@ Power BI 可讓您一次展開一個子集，或一次展開所有子集。 您�
 除了視覺效果，我們還會看到每份報表呈現資料中所反映的階層。 下表顯示向下切入單一國家/地區或所有國家/地區的報表中 [顯示資料] 的結果。 當您向下切入時，您會看到單一報表變得更具體，而「所有國家/地區」報表則有更多資料。
 
 
-| 展開模式|地區|鄉/鎮/市/區|郵遞區號|名稱|
+| 展開模式|國家/地區|鄉/鎮/市/區|郵遞區號|名稱|
 | ---|:---:|:---:|:---:|---|
 |單一|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
 |全部|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|

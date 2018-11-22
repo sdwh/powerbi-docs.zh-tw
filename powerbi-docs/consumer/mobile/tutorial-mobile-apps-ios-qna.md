@@ -1,5 +1,5 @@
 ---
-title: 教學課程：向 iOS 應用程式中的問與答虛擬分析師提問 - Power BI
+title: 教學課程：使用 iOS 應用程式中的問與答虛擬分析師提問
 description: 在此教學課程中，請嘗試用您自己的文字，在 iOS 裝置上向 Power BI 行動裝置應用程式的問與答虛擬分析師詢問這份範例資料的相關問題。
 author: maggiesMSFT
 manager: kfile
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: tutorial
-ms.date: 05/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
-ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fd0d06b186d84412ec36749270d261ddd01fb2f
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547107"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157141"
 ---
-# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>教學課程：向 iOS 應用程式中的問與答虛擬分析師詢問與資料相關的問題 - Power BI
+# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>教學課程：使用 Power BI iOS 應用程式中的問與答虛擬分析師，詢問有關您資料的問題
 
 如果您想要了解資料，最簡單的方法就是用自己的文字來詢問相關問題。 在此教學課程中，您可以使用 iPad、iPhone 和 iPod Touch 上的 Microsoft Power BI 行動裝置應用程式中的問與答虛擬分析師詢問問題，並查看有關範例資料的精選見解。 
 

@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 2ca75f191f27bd158b9fab67c7be6902154f8ac1
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641221"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717623"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium 是什麼？
 
@@ -46,7 +46,7 @@ Microsoft Power BI Premium 可為您的組織提供專門用來執行 Power BI �
 | --- | --- | --- |
 | **重新整理的頻率** |8/日 |48/日 |
 | **使用專用的硬體隔離** |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用") |
-| **企業散發至*****所有使用者*** | | |
+| 對_**所有使用者**_ 的**企業散發** | | |
 | 應用程式和共用 |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用")<sup>1</sup> |
 | 內嵌的 API 和控制項 |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用")<sup>2</sup> |
 | **在內部部署發佈 Power BI 報告** |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用") |
@@ -83,6 +83,39 @@ Power BI Premium 適用於有不同 v 核心容量的節點設定。 如需特�
 * 前端 V 核心負責 Web 服務、儀表板和報表文件管理、存取權限管理、排程、API、上傳和下載，大致上就是與使用者體驗有關的一切作業。
 
 * 後端 V 核心承擔重任：查詢處理、快取管理、執行 R 伺服器、資料重新整理、自然語言處理、即時摘要，以及在伺服器端轉譯報表和影像。 為了配合後端 V 核心，也會保留一定數量的記憶體。 在處理大型資料模型，或大量的使用中資料集時，有足夠的記憶體就變得特別重要。
+
+## <a name="workloads-in-premium-capacity"></a>Premium 容量中的工作負載
+
+可以把 Power BI 中的工作負載想成是您可以向使用者公開的多個服務其中之一。 根據預設，適用於 **Power BI Premium** 和 **Power BI Embedded** 的容量只支援雲端中與執行中 Power BI 查詢相關聯的工作負載。
+
+我們現在針對兩個額外的工作負載提供預覽支援：**編頁報表**和**資料流程**。 您可以在 Power BI 管理入口網站，或透過 Power BI REST API 啟用這些工作負載。 也可以設定每個工作負載可使用的記憶體大小上限，因此可以控制不同的工作負載會如何彼此影響。 如需詳細資訊，請參閱[設定工作負載](service-admin-premium-manage.md#configure-workloads)。
+
+### <a name="default-memory-settings"></a>預設記憶體設定
+
+下表根據提供的不同[容量節點](#premium-capacity-nodes)，顯示預設及最小記憶體值。 記憶體會以動態方式配置給資料流程，但會以靜態方式配置給編頁報表。 如需詳細資訊，請參閱下一節，[編頁報表考量](#considerations-for-paginated-reports)。
+
+#### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>軟體即服務 (SaaS) 案例的 Microsoft Office SKU
+
+|                     | EM3                      | P1                       | P2                      | P3                       |
+|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
+| 編頁報表 | N/A | 20% 預設值；10% 最小值 | 20% 預設值；5% 最小值 | 20% 預設值；2.5% 最小值 |
+| 資料流程 | 預設 20%；最小 8%  | 預設 20%；最小 4%  | 預設 20%；最小 2% | 預設 20%；最小 1%  |
+| | | | | |
+
+#### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>平台即服務 (PaaS) 案例的 Microsoft Azure SKU
+
+|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
+|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
+| 編頁報表 | N/A                      | N/A                      | N/A                     | 20% 預設值；10% 最小值 | 20% 預設值；5% 最小值 | 20% 預設值；2.5% 最小值 |
+| 資料流程         | 預設 27%；最小 27% | 預設 20%；最小 16% | 預設 20%；最小 8% | 預設 20%；最小 4%  | 預設 20%；最小 2% | 預設 20%；最小 1%   |
+
+### <a name="considerations-for-paginated-reports"></a>編頁報表考量
+
+如果您使用編頁報表工作負載，請記住下列幾點。
+
+* **分頁報表中的記憶體配置**：編頁報表可讓您在轉譯報表 (例如依據內容動態變更文字色彩) 時執行自己的程式碼。 這表示我們透過在容量內包含的空間中執行編頁報表，以保護 Power BI Premium 容量。 無論工作負載是否在作用中，我們都會將您指定的最大記憶體指派給此空間。 如果您以相同容量使用 Power BI 報表或資料流程，請確定您沒有為編頁報表設定過大的記憶體，以避免對其他工作負載造成負面影響。
+
+* **編頁報表無法使用**：在罕見的情況下，編頁報表工作負載可能會變成無法使用。 此時，工作負載會在系統入口網站中顯示錯誤狀態，而且使用者會看到報表轉譯逾時。 若要緩解此問題，請停用工作負載，然後再次啟用它。
 
 ## <a name="power-bi-report-server"></a>Power BI 報表伺服器
 

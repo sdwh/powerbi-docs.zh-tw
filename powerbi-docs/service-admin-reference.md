@@ -10,40 +10,39 @@ ms.topic: overview
 ms.date: 06/25/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: f4455fef5a2ed0e7ee23ff8ca3a0b626cd695838
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 1ed4298e4ed4cddcdf965bd427c654cab6adf1e6
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507983"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157003"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>用於管理 Power BI 的 PowerShell Cmdlet、REST API 和 .NET SDK
-Power BI 可讓系統管理員使用 PowerShell Cmdlet 撰寫一般工作的指令碼。 它也會公開 REST API 並提供 .NET SDK 來開發管理解決方案。 此主題顯示 Cmdlet 清單以及對應 SDK 方法和 REST API 端點。 如需詳細資訊，請參閱：
+Power BI 可讓系統管理員使用 PowerShell Cmdlet 撰寫一般工作的指令碼。 它也會公開 REST API 並提供 .NET SDK 來開發管理解決方案。 本主題顯示 Cmdlet 清單以及對應 SDK 方法和 REST API 端點。 如需詳細資訊，請參閱：
 
-  - PowerShell [下載](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/)和[文件](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps)
-  - REST API [文件](https://docs.microsoft.com/rest/api/power-bi/admin)
-  - .NET SDK [下載](https://www.nuget.org/packages/Microsoft.PowerBI.Api/) 
+- PowerShell [下載](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/)和[文件](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps)
+- REST API [文件](https://docs.microsoft.com/rest/api/power-bi/admin)
+- .NET SDK [下載](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
 
-
-| **Cmdlet 名稱** | **SDK 方法** | **REST API 端點** | **描述** |
-| --- | --- | --- | --- |
-| **Get-PowerBIDatasource** | Datasets\_GetDataSourcesAsAdmin | /v1.0/myorg/admin/datasets/{datasetkey}/datasources | 取得指定資料集的資料來源。 |
-| **Get-PowerBIDataset** | Datasets\_GetDatasetsAsAdmin | /v1.0/myorg/admin/datasets | 取得 Power BI 租用戶中的完整資料集清單。 |
-| **Get-PowerBIWorkspace** | Groups\_GetGroupsAsAdmin | /v1.0/myorg/admin/groups | 取得 Power BI 租用戶中的完整工作區清單。 |
-| **Add-PowerBIWorkspaceUser** | Groups\_AddUserAsAdmin | /v1.0/myorg/admin/groups/{groupId}/users | 將使用者新增為指定工作區的成員。 |
-| **Remove-PowerBIWorkspaceUser** | Groups\_DeleteUserAsAdmin | /v1.0/myorg/admin/groups/{groupId}/users/{user} | 從指定工作區的成員資格清單中移除使用者。 |
-| **Restore-PowerBIWorkspace** | Groups\_RestoreDeletedGroupAsAdmin | /v1.0/myorg/admin/groups/{groupId}/restore | 還原已刪除的工作區。 |
-| **Set-PowerBIWorkspace** | Groups\_UpdateGroupAsAdmin | /v1.0/myorg/admin/groups/{groupId} | 更新指定工作區的屬性。 |
-| **Get-PowerBIDataset -WorkspaceId** | Groups\_GetDatasetsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/datasets | 取得指定工作區內的資料集。 |
-| **Export-PowerBIReport** | Reports\_ExportReportAsAdmin | N/A | 將指定的報表匯出至本機檔案。 |
-| **Get-PowerBIReport** | Reports\_GetReportsAsAdmin | /v1.0/myorg/admin/reports | 取得 Power BI 租用戶中的完整報表清單。 |
-| **Get-PowerBIDashboard** | Dashboards\_GetDashboardsAsAdmin | /v1.0/myorg/admin/dashboards | 取得 Power BI 租用戶中的完整儀表板清單。 |
-| **Get-PowerBIDashboard -WorkspaceId** | Groups\_GetDashboardsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/dashboards | 取得指定工作區內的儀表板。 |
-| **Get-PowerBITile -DashboardId** | Dashboards\_GetTilesAsAdmin | /v1.0/myorg/admin/dashboards/{dashboard\_id}/tiles | 取得指定儀表板的圖格。 |
-| **Get-PowerBIReport -WorkspaceId** | Groups\_GetReportsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/reports | 取得指定工作區內的報表。 |
-| **Get-PowerBIImport** | Imports\_GetImportsAsAdmin | /v1.0/myorg/admin/imports | 取得 Power BI 租用戶中的完整匯入清單。 |
-| **Connect-PowerBIServiceAccount** | N/A | N/A | 登入 Power BI 並啟動工作階段。 |
-| **Disconnect-PowerBIServiceAccount** | N/A | N/A | 登出 Power BI 並關閉現有工作階段。 |
-| **Invoke-PowerBIRestMethod** | N/A | N/A | 將任意 REST API 呼叫傳送給 Power BI。 |
-| **Get-PowerBIAccessToken** | N/A | N/A | 取得工作階段中的 Power BI 存取權杖。 |
-| **Resolve-PowerBIError** | N/A | N/A | 取得 Cmdlet 呼叫失敗的詳細錯誤資訊。 |
+| **Cmdlet 名稱** | **別名** | **SDK 方法** | **REST API 端點** | **描述** |
+| --- | --- | --- | --- | --- |
+| **Get-PowerBIDatasource** | N/A | Datasets\_GetDataSourcesAsAdmin | /v1.0/myorg/admin/datasets/{datasetkey}/datasources | 取得指定資料集的資料來源。 |
+| **Get-PowerBIDataset** | N/A | Datasets\_GetDatasetsAsAdmin | /v1.0/myorg/admin/datasets | 取得 Power BI 租用戶中的完整資料集清單。 |
+| **Get-PowerBIWorkspace** | **Get-PowerBIGroup** | Groups\_GetGroupsAsAdmin | /v1.0/myorg/admin/groups | 取得 Power BI 租用戶中的完整工作區清單。 |
+| **Add-PowerBIWorkspaceUser** | **Add-PowerBIGroupUser** |Groups\_AddUserAsAdmin | /v1.0/myorg/admin/groups/{groupId}/users | 將使用者新增為指定工作區的成員。 |
+| **Remove-PowerBIWorkspaceUser** | **Remove-PowerBIGroupUser** | Groups\_DeleteUserAsAdmin | /v1.0/myorg/admin/groups/{groupId}/users/{user} | 從指定工作區的成員資格清單中移除使用者。 |
+| **Restore-PowerBIWorkspace** |**Restore-PowerBIGroup** | Groups\_RestoreDeletedGroupAsAdmin | /v1.0/myorg/admin/groups/{groupId}/restore | 還原已刪除的工作區。 |
+| **Set-PowerBIWorkspace** |**Set-PowerBIGroup** | Groups\_UpdateGroupAsAdmin | /v1.0/myorg/admin/groups/{groupId} | 更新指定工作區的屬性。 |
+| **Get-PowerBIDataset -WorkspaceId** | N/A | Groups\_GetDatasetsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/datasets | 取得指定工作區內的資料集。 |
+| **Export-PowerBIReport** | N/A | Reports\_ExportReportAsAdmin | N/A | 將指定的報表匯出至本機檔案。 |
+| **Get-PowerBIReport** | N/A | Reports\_GetReportsAsAdmin | /v1.0/myorg/admin/reports | 取得 Power BI 租用戶中的完整報表清單。 |
+| **Get-PowerBIDashboard** | N/A | Dashboards\_GetDashboardsAsAdmin | /v1.0/myorg/admin/dashboards | 取得 Power BI 租用戶中的完整儀表板清單。 |
+| **Get-PowerBIDashboard** | N/A | Groups\_GetDashboardsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/dashboards | 取得指定工作區內的儀表板。 |
+| **Get-PowerBITile** | **Get-PowerBIDashboardTile** | Dashboards\_GetTilesAsAdmin | /v1.0/myorg/admin/dashboards/{dashboard\_id}/tiles | 取得指定儀表板的圖格。 |
+| **Get-PowerBIReport** | N/A | Groups\_GetReportsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/reports | 取得指定工作區內的報表。 |
+| **Get-PowerBIImport** | N/A | Imports\_GetImportsAsAdmin | /v1.0/myorg/admin/imports | 取得 Power BI 租用戶中的完整匯入清單。 |
+| **Connect-PowerBIServiceAccount** | **Login-PowerBI** &  **Login-PowerBIServiceAccount** | N/A | N/A | 登入 Power BI 並啟動工作階段。 |
+| **Disconnect-PowerBIServiceAccount** | **Logout-PowerBI** & **Logout-PowerBIServiceAccount** | N/A | N/A | 登出 Power BI 並關閉現有工作階段。 |
+| **Invoke-PowerBIRestMethod**| N/A | N/A | N/A | 將任意 REST API 呼叫傳送給 Power BI。 |
+| **Get-PowerBIAccessToken**| N/A | N/A | N/A | 取得工作階段中的 Power BI 存取權杖。 |
+| **Resolve-PowerBIError**| N/A | N/A | N/A | 取得 Cmdlet 呼叫失敗的詳細錯誤資訊。 |

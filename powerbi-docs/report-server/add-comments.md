@@ -1,5 +1,5 @@
 ---
-title: 在報表伺服器中將註解新增至報表 - Power BI 報表伺服器
+title: 對 Power BI 報表伺服器中的報表新增註解
 description: 了解如何將註解新增至 Power BI 報表伺服器或 SQL Server Reporting Services 報表伺服器上的 Power BI 報告或編頁報告。
 author: maggiesMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: ff51b2e41d921b7a88afc9b13bb4ecd98814d12e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e0053660263f4cbed55050b9431b67228bf74c29
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727965"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157348"
 ---
-# <a name="add-comments-to-a-report-in-a-report-server"></a>在報表伺服器中將註解新增至報表
-您可以在報表伺服器的入口網站中新增報告的註解，包括 Power BI 報告。 註解會與報告在一起，任何人只要有正確權限，都可以看到報告的註解。 如需詳細資料，請參閱下方的[權限](#permissions)章節。
+# <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>在報表伺服器中將註解新增至報表 - Power BI 報表伺服器
+您可以在報表伺服器的入口網站中新增報告的註解，包括 Power BI 報告。 註解會與報告在一起，任何人只要有正確權限，都可以看到報告的註解。 如需詳細資料，請參閱下方的[權限](#permissions)一節。
 
 ## <a name="add-or-view-comments"></a>新增或檢視註解
 1. 開啟報表伺服器上的編頁報告或 Power BI 報告。

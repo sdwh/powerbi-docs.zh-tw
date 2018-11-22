@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 11/16/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973365"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850583"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -47,7 +47,7 @@ URL?filter=***資料表***/***欄位*** eq '***值***'
 
 * **字串**的前後必須加上單引號 - 'manager name'。
 * **數字**不需要特殊格式設定
-* **日期和時間**的前後必須加上單引號，並在前面加上 **DateTime** 一字。
+* **日期及時間**的前後必須加上單引號。 在 OData v3 中，前面必須再加上「日期時間」一詞，但在 OData v4 中則不需要。
 
 如果仍感到困惑，請繼續閱讀，我們會詳加解說。  
 
@@ -99,14 +99,14 @@ URL?filter=***資料表***/***欄位*** eq '***值***'
 
 |運算子  | 定義 | 字串  | 數字 | 日期 |  範例|
 |---------|---------|---------|---------|---------|---------|
-|**and**     | 且 |  是      | 是 |  是|  product/price le 200 and price gt 3.5 |
-|**eq**     | 等於 |  是      | 是   |  是       | Address/City eq 'Redmond' |
-|**ne**     | 不等於 |   是      | 是  | 是        |  Address/City ne 'London' |
-|**ge**     |  大於或等於       | 否 | 是 |是 |  product/price ge 10
-|**gt**     | 大於        |否 | 是 | 是  | product/price gt 20
-|**le**     |   小於或等於      | 否 | 是 | 是  | product/price le 100
-|**lt**     |  小於       | 否 | 是 | 是 |  product/price lt 20
-|**in****     |  含       | 是 | 是 |  是 | Student/Age in (27, 29)
+|**and**     | 和 |  可以      | 是 |  可以|  product/price le 200 and price gt 3.5 |
+|**eq**     | 等於 |  可以      | 是   |  可以       | Address/City eq 'Redmond' |
+|**ne**     | 不等於 |   可以      | 是  | 可以        |  Address/City ne 'London' |
+|**ge**     |  大於或等於       | 不可以 | 是 |可以 |  product/price ge 10
+|**gt**     | 大於        |不可以 | 是 | 可以  | product/price gt 20
+|**le**     |   小於或等於      | 不可以 | 是 | 可以  | product/price le 100
+|**lt**     |  小於       | 不可以 | 是 | 可以 |  product/price lt 20
+|**in****     |  含       | 可以 | 是 |  可以 | Student/Age in (27, 29)
 
 
 \** 使用 **in** 時，**in** 右側的值可為以括弧括住的逗號分隔清單，或傳回集合的單一運算式。
@@ -167,7 +167,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 使用查詢字串參數時，有幾件點事項要注意。
 
-* 使用 *in* 運算子時，*in* 右側的值必須是以括弧括住的逗號分隔清單。    
+* 使用 *in* 運算子時，*in* 右方的值必須是前後加上括弧的逗點分隔清單。    
 * 在 Power BI 報表伺服器，[傳遞報表參數](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)的方法可以是將其包含在報表 URL 中。 這些 URL 參數不會有前置詞，因為會直接傳遞到報表處理引擎。
 * 查詢字串篩選不適用於[發行至 Web](service-publish-to-web.md)。
 * [在 SharePoint Online 中內嵌報表 Web 組件](service-embed-report-spo.md)不支援 URL 篩選。

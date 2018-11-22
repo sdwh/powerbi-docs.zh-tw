@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5089be0cb8bd96573a0d1b3e25c742c1f559253b
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736841"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850376"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>使用新的 Office 365 試用版註冊 Power BI
 
@@ -27,7 +27,7 @@ ms.locfileid: "50736841"
 
 1. 完成該註冊程序之後，系統會提供您類似 you@yourcompany.onmicrosoft.com 的新登入名稱。 這將是您用於 Power BI 的登入名稱。
 
-1. [使用這個連結](https://portal.office.com/Start/Confirm?Sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235&ru=https%3A%2F%2Fapp.powerbi.com%3FredirectedFromSignup%3D1%26noSignUpCheck%3D1)註冊 Power BI。 如果出現提示，請使用您在上一步中為 Office 365 選取的名稱和密碼進行登入。
+1. [使用這個連結](https://app.powerbi.com/signupredirect?pbi_source=web)註冊 Power BI。 如果出現提示，請使用您在上一步中為 Office 365 選取的名稱和密碼進行登入。
 
 1. 這樣就大功告成了！ 完成後，系統會將您重新導向至 Power BI。 如果您有使用新帳戶登入的任何問題，請嘗試使用隱私權瀏覽器工作階段。
 

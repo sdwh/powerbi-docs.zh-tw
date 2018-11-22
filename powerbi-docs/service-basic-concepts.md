@@ -1,7 +1,7 @@
 ---
 title: Power BI 服務 - 基本概念
 description: Power BI 服務工作區、儀表板、報告、資料集和活頁簿。
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
@@ -9,20 +9,20 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 07/19/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a95dae913c2069fa3768d66c55d2b1358640000
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 9b02bdfd2c0025977dbb69eae44f4e976a527a30
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641911"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717761"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Power BI 服務的基本概念
 
 本文假設您已經[註冊 Power BI 服務](service-self-service-signup-for-power-bi.md)並已[新增一些資料](service-get-data.md)。
 
-當您開啟 Power BI 服務時會顯示「儀表板」。 「儀表板」是 Power BI 服務與 Power BI Desktop 的不同之處。
+當您開啟 Power BI 服務時，會顯示**_儀表板_**。 「儀表板」是 Power BI 服務與 Power BI Desktop 的不同之處。
 
 ![](media/service-basic-concepts/completenewest.png)
 
@@ -45,7 +45,7 @@ Power BI 服務 UI 的主要功能如下︰
 
 
 ## <a name="power-bi-concepts"></a>Power BI 概念
-Power BI 的 4 個主要建置組塊是：***儀表板***、***報告***、***活頁簿***和***資料集***。 它們全都會組織成「工作區」。 在我們深入探討 4 個建置組塊之前，請務必先了解工作區，讓我們開始吧！
+Power BI 有 4 個主要的建置組塊：**_儀表板_**、**_報表_**、**_活頁簿_** 及**_資料集_**。 而且其會全部整理到**_工作區_** 中。 在我們深入探討 4 個建置組塊之前，請務必先了解工作區，讓我們開始吧！
 
 ## <a name="workspaces"></a>工作區
 工作區是 Power BI 中儀表板、報告、活頁簿和資料集的容器。 有兩種類型的工作區︰我的工作區和應用程式工作區。 所以，何謂「應用程式」？ Power BI 應用程式是為了提供重要計量給組織而建立的一組儀表板和報告。 應用程式皆為互動式，但無法編輯。
@@ -77,7 +77,7 @@ Power BI 的 4 個主要建置組塊是：***儀表板***、***報告***、***�
 
 若要[連線到或匯入資料集](service-get-data.md)，請選取左導覽列底部的 [取得資料]，或選取右上角的 [建立 > 資料集]。 請遵循指示來連線到或匯入特定來源，並將資料集新增至作用中的工作區。 新的資料集會以黃色星號標示。 您在 Power BI 中執行的工作不會變更基礎資料集。
 
-如果您是[「應用程式工作區」的一員](service-collaborate-power-bi-workspace.md)，則由某個工作區成員新增的資料集可供其他工作區成員使用。
+如果您[屬於一個**_應用程式工作區_**](service-collaborate-power-bi-workspace.md)，則其他工作區成員可以使用由其中一位工作區成員所新增的資料集。
 
 您可以重新整理、重新命名、瀏覽及移除資料集。 使用資料集從頭開始建立報告，或執行[快速深入解析](service-insights.md)。  若要查看哪些報告和儀表板已經使用資料集，請選取 [檢視相關的]。 若要瀏覽資料集，請選取該資料集。 您實際上會在報表編輯器中開啟資料集，您可以在編輯器中開始挖掘資料並建立視覺效果。 因此，讓我們前進到下一個主題 - 報表。
 
@@ -87,9 +87,9 @@ Power BI 的 4 個主要建置組塊是：***儀表板***、***報告***、***�
 * [Power BI 的範例資料集](sample-datasets.md)
 
 ## <a name="reports"></a>報表
-Power BI 報表是一或多個頁面的視覺效果 (圖表和圖形，例如折線圖、圓形圖、樹狀圖和許多其他項目)。 視覺效果 (visualization) 也稱為「視覺效果」(visual)。 報表中的所有視覺效果都是來自單一資料集。 報告可以在 Power BI 從頭開始建立，也可以透過同事與您共用的儀表板匯入，或者可以在您從 Excel、Power BI Desktop、資料庫、SaaS 應用程式和[應用程式](service-get-data.md)連線到資料集時建立報告。  例如，當您連接到包含 Power View 工作表的 Excel 活頁簿時，Power BI 會根據這些工作表建立報表。 而當您連接至 SaaS 應用程式時，Power BI 則會匯入預先建立的報表。
+Power BI 報表是一或多個頁面的視覺效果 (圖表和圖形，例如折線圖、圓形圖、樹狀圖和許多其他項目)。 Virtualization 和 **_Visual_** 都是指視覺效果。 報表中的所有視覺效果都是來自單一資料集。 報告可以在 Power BI 從頭開始建立，也可以透過同事與您共用的儀表板匯入，或者可以在您從 Excel、Power BI Desktop、資料庫、SaaS 應用程式和[應用程式](service-get-data.md)連線到資料集時建立報告。  例如，當您連接到包含 Power View 工作表的 Excel 活頁簿時，Power BI 會根據這些工作表建立報表。 而當您連接至 SaaS 應用程式時，Power BI 則會匯入預先建立的報表。
 
-有 2 種模式可以檢視報表並與之互動：[閱讀檢視和編輯檢視](service-reading-view-and-editing-view.md)。  只有報表建立者、共同擁有者及授與權限者，才能存取該報表之***編輯檢視***的所有瀏覽、設計、建立及共用功能。 而與這些人員共用報表的其他人員則可以使用***閱讀檢視***瀏覽報表並與之互動.   
+有 2 種模式可以檢視報表並與之互動：[閱讀檢視和編輯檢視](service-reading-view-and-editing-view.md)。  只有建立報表的人、共同擁有者及經授與權限之人，可以使用該報表之**_編輯檢視_** 的探索、設計、建置及共用功能。 而其與之共用報表的人，可以使用**_閱讀檢視_** 來探索及與報表互動。   
 
 當您開啟工作區時，相關聯的報告會列在 [報告] 索引標籤之下。每個列出的報告只會根據一個基礎資料集，呈現一或多個頁面的視覺效果。 若要開啟報表，只要選取該報表即可。
 

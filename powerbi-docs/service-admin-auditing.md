@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/10/2018
+ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 294fb3a0142908ce0ab068e075ce39f950a0b124
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973342"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850468"
 ---
 # <a name="using-auditing-within-your-organization"></a>在組織內使用稽核
 
 了解誰正在對 Power BI 租用戶的哪個項目採取什麼動作，可能對於幫助貴組織符合其需求，例如符合法規合規性與記錄管理等而言極為重要。 使用 Power BI 稽核來稽核使用者執行的動作，例如 [檢視報表] 與 [檢視儀表板]。 您無法使用稽核來稽核權限。
 
-您可以在 Office 365 安全性與合規性中心使用稽核，或使用 PowerShell 來執行。 我們在此文章中針對兩種方式皆有說明。 您可以依日期範圍、使用者、儀表板、報表、資料集和活動類型來篩選稽核資料。 您也可以用 csv (逗點分隔值) 檔案下載活動以便離線分析。
+您可以在 Office 365 安全性與合規性中心使用稽核，或使用 PowerShell 來執行。 我們在此文章中針對兩種方式皆有說明。 您可以依日期範圍、使用者、儀表板、報表、資料集和活動類型來篩選稽核資料。 您也可以用 csv (逗號分隔值) 檔案下載活動以便離線分析。
 
 ## <a name="requirements"></a>需求
 
@@ -43,7 +43,7 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 1. 在 Power BI 中，選取右上角的**齒輪圖示**，然後選取 [管理入口網站]。
 
-   ![管理入口網站](media/service-admin-auditing/powerbi-admin.png)
+   ![系統管理入口網站](media/service-admin-auditing/powerbi-admin.png)
 
 1. 選取 [稽核記錄]。
 
@@ -51,7 +51,7 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
    ![前往 O365 系統管理中心](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
-若要提供非系統管理員帳戶存取稽核記錄的權限，您必須在 Exchange Online 系統管理中心中指派權限。 例如，您可以將使用者指派到現有的角色群組 (例如「組織管理」)，或者使用「稽核記錄」角色建立新的角色群組。 如需詳細資訊，請參閱 [Exchange Online 中的權限](/exchange/permissions-exo/permissions-exo/)。
+若要提供非系統管理員帳戶存取稽核記錄的權限，您必須在 Exchange Online 系統管理中心中指派權限。 比方說，您可將使用者指派至現有的角色群組，例如組織管理，或者使用稽核記錄角色建立新的角色群組。 如需詳細資訊，請參閱 [Exchange Online 中的權限](/exchange/permissions-exo/permissions-exo/)。
 
 ## <a name="search-only-power-bi-activities"></a>僅搜尋 Power BI 活動
 
@@ -89,7 +89,7 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 [結果] 區域是由搜尋所傳回之每個事件的下列資訊所組成。 選取 [結果] 下的欄標題以排序結果。
 
-| **欄** | **定義** |
+| **資料行** | **定義** |
 | --- | --- |
 | 日期 |發生事件時的日期和時間 (UTC 格式)。 |
 | IP 位址 |記錄活動時所用裝置的 IP 位址。 IP 位址會以 IPv4 或 IPv6 位址格式顯示。 |
@@ -112,7 +112,7 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 1. 選取 [匯出結果]。
 
-1. 選取 [儲存載入的結果] 或 [下載所有結果]。
+1. 選取 \[Save loaded results] \(儲存載入結果) 或 \[Download all results] \(下載所有結果)。
 
     ![匯出結果](media/service-admin-auditing/export-auditing-results.png)
 
@@ -139,83 +139,100 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 
 下列活動是由 Power BI 稽核。
 
-* AddDatasourceToGateway
-* AddGroupMembers
-* AnalyzedByExternalApplication
-* AnalyzeInExcel
-* AttachDataflowStorageAccount
-* BindToGateway
-* ChangeCapacityState
-* ChangeGatewayAdministrators
-* ChangeGatewayDatasourceUsers
-* CreateApp
-* CreateDashboard
-* CreateDataflow
-* CreateDataset
-* CreateEmailSubscription
-* CreateFolder
-* CreateGateway
-* CreateGroup
-* CreateOrgApp
-* CreateReport
-* DeleteComment
-* DeleteDashboard
-* DeleteDataflow
-* DeleteDataset
-* DeleteEmailSubscription
-* DeleteFolder
-* DeleteGateway
-* DeleteGroup
-* DeleteGroupMembers
-* DeleteOrgApp
-* DeleteReport
-* DownloadReport
-* EditDataset
-* EditReport
-* ExportDataflow
-* ExportReport
-* ExportTile
-* GenerateDataflowSasToken
-* GenerateEmbedToken
-* GetDatasources
-* 匯入
-* InstallApp
-* MigrateWorkspaceIntoCapacity
-* OptInForProTrial
-* PostComment
-* PrintDashboard
-* PrintReport
-* PublishToWebReport
-* RefreshDataset
-* RemoveDatasourceFromGateway
-* RemoveWorkspacesFromCapacity
-* RenameDashboard
-* SetAllConnections
-* SetScheduledRefresh
-* SetScheduledRefreshOnDataflow
-* ShareDashboard
-* ShareReport
-* TakeOverDataset
-* TakeOverDatasource
-* UnpublishApp
-* UpdateApp
-* UpdateCapacityAdmins
-* UpdateCapacityDisplayName
-* UpdateCapacityResourceGovernanceSettings
-* UpdateCapacityUsersAssignment
-* UpdatedAdminFeatureSwitch
-* UpdateDataflow
-* UpdateDatasetParameters
-* UpdateDatasourceCredentials
-* UpdateDatasources
-* UpdateEmailSubscription
-* UpdateFolder
-* UpdateFolderAccess
-* ViewDashboard
-* ViewDataflow
-* ViewReport
-* ViewTile
-* ViewUsageMetrics
+| 易記名稱                                     | 作業名稱                              | 注意                                  |
+|---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| 已將資料來源新增至 Power BI 閘道             | AddDatasourceToGateway                      |                                          |
+| 已新增 Power BI 資料夾存取權                      | AddFolderAccess                             | 目前未使用                       |
+| 已新增 Power BI 群組成員                      | AddGroupMembers                             |                                          |
+| 系統管理員已將資料流程儲存體帳戶連結至租用戶 | AdminAttachedDataflowStorageAccountToTenant | 目前未使用                       |
+| 已分析 Power BI 資料集                         | AnalyzedByExternalApplication               |                                          |
+| 已分析 Power BI 報表                          | AnalyzeInExcel                              |                                          |
+| 已將 Power BI 資料集繫結至閘道                | BindToGateway                               |                                          |
+| 已變更容量狀態                            | ChangeCapacityState                         |                                          |
+| 已變更容量使用者指派                  | UpdateCapacityUsersAssignment               |                                          |
+| 已變更 Power BI 資料集連線              | SetAllConnections                           |                                          |
+| 已變更 Power BI 閘道管理員                   | ChangeGatewayAdministrators                 |                                          |
+| 已變更 Power BI 閘道資料來源使用者        | ChangeGatewayDatasourceUsers                |                                          |
+| 已建立組織 Power BI 內容套件      | CreateOrgApp                                |                                          |
+| 已建立 Power BI 應用程式                              | CreateApp                                   |                                          |
+| 已建立 Power BI 儀表板                        | CreateDashboard                             |                                          |
+| 已建立 Power BI 資料流程                         | CreateDataflow                              |                                          |
+| 已建立 Power BI 資料集                          | CreateDataset                               |                                          |
+| 已建立 Power BI 電子郵件訂用帳戶               | CreateEmailSubscription                     |                                          |
+| 已建立 Power BI 資料夾                           | CreateFolder                                |                                          |
+| 已建立 Power BI 閘道                          | CreateGateway                               |                                          |
+| 已建立 Power BI 群組                            | CreateGroup                                 |                                          |
+| 已建立 Power BI 報表                           | CreateReport                                |                                          |
+| 已將資料流程移轉至外部儲存體帳戶     | DataflowMigratedToExternalStorageAccount    | 目前未使用                       |
+| 已新增資料流程權限                        | DataflowPermissionsAdded                    | 目前未使用                       |
+| 已移除資料流程權限                      | DataflowPermissionsRemoved                  | 目前未使用                       |
+| 已刪除組織 Power BI 內容套件      | DeleteOrgApp                                |                                          |
+| 已刪除 Power BI 註解                          | DeleteComment                               |                                          |
+| 已刪除 Power BI 儀表板                        | DeleteDashboard                             | 目前未使用                       |
+| 已刪除 Power BI 資料流程                         | DeleteDataflow                              | 目前未使用                       |
+| 已刪除 Power BI 資料集                          | DeleteDataset                               |                                          |
+| 已刪除 Power BI 電子郵件訂用帳戶               | DeleteEmailSubscription                     |                                          |
+| 已刪除 Power BI 資料夾                           | DeleteFolder                                |                                          |
+| 已刪除 Power BI 資料夾存取權                    | DeleteFolderAccess                          | 目前未使用                       |
+| 已刪除 Power BI 閘道                          | DeleteGateway                               |                                          |
+| 已刪除 Power BI 群組                            | DeleteGroup                                 |                                          |
+| 已刪除 Power BI 報表                           | DeleteReport                                |                                          |
+| 已探索到 Power BI 資料集資料來源          | GetDatasources                              |                                          |
+| 下載 Power BI 報表                        | DownloadReport                              |                                          |
+| 已編輯 Power BI 認證權限          | EditCertificationPermission                 | 目前未使用                       |
+| 已編輯 Power BI 儀表板                         | EditDashboard                               | 目前未使用                       |
+| 已編輯 Power BI 資料集                           | EditDataset                                 |                                          |
+| 已編輯 Power BI 資料集屬性                | EditDatasetProperties                       | 目前未使用                       |
+| 已編輯 Power BI 報表                            | EditReport                                  |                                          |
+| 已匯出 Power BI 資料流程                        | ExportDataflow                              |                                          |
+| 已匯出 Power BI 報表視覺效果資料              | ExportReport                                |                                          |
+| 已匯出 Power BI 磚資料                       | ExportTile                                  |                                          |
+| 無法新增資料流程權限                | FailedToAddDataflowPermissions              | 目前未使用                       |
+| 無法移除資料流程權限             | FailedToRemoveDataflowPermissions           | 目前未使用                       |
+| 已產生 Power BI 資料流程 SAS 權杖             | GenerateDataflowSasToken                    |                                          |
+| 已產生 Power BI 內嵌權杖                    | GenerateEmbedToken                          |                                          |
+| 已將檔案匯入 Power BI                         | 匯入                                      |                                          |
+| 已安裝 Power BI 應用程式                            | InstallApp                                  |                                          |
+| 已將工作區移轉至容量                  | MigrateWorkspaceIntoCapacity                |                                          |
+| 已張貼 Power BI 註解                           | PostComment                                 |                                          |
+| 已列印 Power BI 儀表板                        | PrintDashboard                              |                                          |
+| 已列印 Power BI 報表頁面                      | PrintReport                                 |                                          |
+| 已將 Power BI 報表發佈到 Web                  | PublishToWebReport                          |                                          |
+| 已從金鑰保存庫收到 Power BI 資料流程密碼  | ReceiveDataflowSecretFromKeyVault           | 目前未使用                       |
+| 已從 Power BI 閘道移除資料來源         | RemoveDatasourceFromGateway                 |                                          |
+| 已移除 Power BI 群組成員                    | DeleteGroupMembers                          |                                          |
+| 已從容量移除工作區                 | RemoveWorkspacesFromCapacity                |                                          |
+| 已重新命名 Power BI 儀表板                        | RenameDashboard                             |                                          |
+| 已要求 Power BI 資料流程重新整理               | RequestDataflowRefresh                      | 目前未使用                       |
+| 已要求 Power BI 資料集重新整理                | RefreshDataset                              |                                          |
+| 已擷取 Power BI 工作區                     | GetWorkspaces                               |                                          |
+| 對 Power BI 資料流程設定排定的重新整理        | SetScheduledRefreshOnDataflow               |                                          |
+| 對 Power BI 資料集設定排定的重新整理         | SetScheduledRefresh                         |                                          |
+| 已共用 Power BI 儀表板                         | ShareDashboard                              |                                          |
+| 已共用 Power BI 報表                            | ShareReport                                 |                                          |
+| 已啟動 Power BI 延長試用版                   | OptInForExtendedProTrial                    | 目前未使用                       |
+| 已開始 Power BI 試用版                            | OptInForProTrial                            |                                          |
+| 已接管 Power BI 資料來源                   | TakeOverDatasource                          |                                          |
+| 已接管 Power BI 資料集                        | TakeOverDataset                             |                                          |
+| 已解除發佈 Power BI 應用程式                          | UnpublishApp                                |                                          |
+| 更新容量資源管控設定      | UpdateCapacityResourceGovernanceSettings    | 目前不在 Office 365 管理入口網站中 |
+| 已更新容量管理                            | UpdateCapacityAdmins                        |                                          |
+| 已更新容量顯示名稱                     | UpdateCapacityDisplayName                   |                                          |
+| 已更新組織的 Power BI 設定          | UpdatedAdminFeatureSwitch                   |                                          |
+| 已更新 Power BI 應用程式                              | UpdateApp                                   |                                          |
+| 已更新 Power BI 資料流程                         | UpdateDataflow                              |                                          |
+| 已更新 Power BI 資料集資料來源             | UpdateDatasources                           |                                          |
+| 已更新 Power BI 資料集參數               | UpdateDatasetParameters                     |                                          |
+| 已更新 Power BI 電子郵件訂用帳戶               | UpdateEmailSubscription                     |                                          |
+| 已更新 Power BI 資料夾                           | UpdateFolder                                |                                          |
+| 已更新 Power BI 資料夾存取權                    | UpdateFolderAccess                          |                                          |
+| 已更新 Power BI 閘道資料來源認證  | UpdateDatasourceCredentials                 |                                          |
+| 已檢視 Power BI 儀表板                         | ViewDashboard                               |                                          |
+| 已檢視 Power BI 資料流程                          | ViewDataflow                                |                                          |
+| 已檢視 Power BI 報表                            | ViewReport                                  |                                          |
+| 已檢視 Power BI 磚                              | ViewTile                                    |                                          |
+| 已檢視 Power BI 使用計量                     | ViewUsageMetrics                            |                                          |
+|                                                   |                                             |                                          |
 
 ## <a name="next-steps"></a>後續步驟
 

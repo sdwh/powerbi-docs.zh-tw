@@ -1,5 +1,5 @@
 ---
-title: Power BI 服務中的分析窗格
+title: 為視覺效果建立動態參考線
 description: 為 Power BI 服務中的視覺效果建立動態參考線
 author: mihart
 manager: kfile
@@ -7,17 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2017
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 37f4663a176e81f2c235111092fcfa5576bfe08a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 04173d98185d7900848e93563b8e981bf3b200e6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244507"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717692"
 ---
-# <a name="analytics-pane-in-power-bi-service"></a>Power BI 服務中的分析窗格
+# <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>為 Power BI 服務中的視覺效果建立動態參考線
+
 有了 **Power BI 服務**的 [分析] 窗格，您就可以將動態「參考線」新增至視覺效果，為重要的趨勢或深入解析提供焦點。
 
 ![](media/service-analytics-pane/power-bi-analytics-pane.png)
@@ -27,7 +28,7 @@ ms.locfileid: "34244507"
 > 
 > 
 
-## <a name="using-the-analytics-pane"></a>使用 [分析] 窗格
+## <a name="use-the-analytics-pane"></a>使用 [分析] 窗格
 透過 [分析] 窗格，您可以建立下列類型的動態參考線 (並非所有線都是用於所有視覺效果類型)：
 
 * X 軸常數線

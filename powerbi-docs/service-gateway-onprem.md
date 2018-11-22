@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 8bdb249543d8d6b5b0cb7d75e3295adc751e5ab1
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679010"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268335"
 ---
 # <a name="on-premises-data-gateway"></a>內部部署資料閘道
 
@@ -90,8 +90,9 @@ ms.locfileid: "51679010"
 ## <a name="limitations-and-considerations"></a>限制與考量
 
 * 目前不支援 [Azure 資訊保護](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
-) \(機器翻譯\)
-* 目前不支援[線上存取](https://products.office.com/en-us/access)
+)。
+* 目前不支援 [Access Online](https://products.office.com/en-us/access)。
+* 僅在閘道於個人模式執行時，支援 R 指令碼。
 
 ## <a name="tenant-level-administration"></a>租用戶層級管理
 
