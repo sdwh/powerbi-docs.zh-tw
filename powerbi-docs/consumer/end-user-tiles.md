@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f788da00d50ee7e22da82aa7e57560cfc516b0c7
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 1e86403dbdb2972cc83b379efff8bbc17173a4e1
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396457"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331888"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 的儀表板圖格
-儀表板和儀表板磚是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 雖然無法在 Power BI 行動裝置中建立或釘選儀表板磚，但可以進行[檢視及共用](mobile/mobile-tiles-in-the-mobile-apps.md)。 而且，在 Power BI 行動裝置中，您可以[使用 iPhone 應用程式將圖片新增至儀表板](mobile/mobile-iphone-app-get-started.md)。
+儀表板和儀表板磚是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 雖然無法在 Power BI 行動裝置中建立或釘選儀表板磚，但可以進行[檢視及共用](mobile/mobile-tiles-in-the-mobile-apps.md)。 
 
 ## <a name="dashboard-tiles"></a>儀表板圖格
 ![Power BI 儀表板](./media/end-user-tiles/power-bi-dashboard.png)

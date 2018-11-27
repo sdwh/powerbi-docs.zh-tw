@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 ms.date: 10/17/2018
-ms.openlocfilehash: d3076090b06cdb60b72c475fd156cc274985ea32
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: 49ea393af6e98ab0f081d95f5be6451064347ed4
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435480"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52332003"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>教學課程：為您的客戶將 Power BI 報表、儀表板或磚內嵌至應用程式
 
@@ -243,7 +243,7 @@ using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
 // You need to provide the workspaceId where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
+ODataResponseListReport reports = await client.Reports.GetReportsInGroupAsync(workspaceId);
 
 // Get the first report in the group.
 Report report = reports.Value.FirstOrDefault();
