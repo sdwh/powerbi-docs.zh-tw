@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101569"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452744"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>動態資料列層級安全性與 Analysis Services 表格式模型
 本教學課程示範實作 **Analysis Services 表格式模型**內**資料列層級安全性**的所需步驟，並示範如何將其用於 Power BI 報表中。 本教學課程的步驟設計為讓您依照指示進行，並藉由完成樣本資料集學習所需的步驟。
@@ -50,7 +50,7 @@ ms.locfileid: "50101569"
    我們會在稍後的工作中將焦點轉回這些使用者身上。
 4. 接下來我們使用 **DimSalesTerritory** 資料表來完成*內部聯結*，該資料表顯示與使用者相關聯的區域詳細資料。 下列程式碼會執行 *內部聯結*，而隨後出現的圖片將展示在*內部聯結*成功完成之後，資料表出現的情形。
    
-       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. 請注意上圖顯示哪些使用者負責哪些銷售區域等資訊。 我們在**步驟 2** 建立了關聯性，因此會顯示該資料。 另請注意，使用者 **Jon Doe 隸屬於澳洲銷售區域**。 我們會在接下來的步驟和工作中，將焦點重新轉回 Jon Doe 身上。

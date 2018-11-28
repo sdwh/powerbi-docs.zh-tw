@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 33d8911ee819bbc1ac37976f077edabee368f5aa
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 1f60c24a244b05aca93b312921b943e261d4d266
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850560"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452675"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>最佳化 Power BI 快速深入剖析的資料
 想要改善深入資訊摘要結果嗎？  如果您是資料集擁有者，請嘗試下列︰
@@ -23,7 +23,7 @@ ms.locfileid: "51850560"
 * 隱藏或取消隱藏資料集中的資料行。 Power BI 深入資訊摘要不會搜尋隱藏的資料行。  因此，請隱藏重複或不必要的資料行，並取消隱藏相關資料行。
 * 使用混合的資料類型，例如名稱、時間、日期和數字。
 * 避免 (或隱藏) 具有重複資訊的資料行。  這會浪費搜尋有意義模式的寶貴時間。  例如，一個資料行具有州名的完整拼法，而另一個資料行具有州名的縮寫。
-* 您是否收到錯誤訊息，指出您的資料不具統計顯著性？  陽春型模型、資料不多的模型或不具日期或數值資料行的模型，就有可能發生這種情況。 若要產生深入資訊，您的資料集至少必須有一個維度和一個量值。
+* 您是否收到錯誤訊息，指出您的資料不具統計顯著性？  陽春型模型、資料不多的模型或不具日期或數值資料行的模型，就有可能發生這種情況。
 
 ### <a name="next-steps"></a>後續步驟
 [Power BI 深入資訊摘要](consumer/end-user-insights.md)

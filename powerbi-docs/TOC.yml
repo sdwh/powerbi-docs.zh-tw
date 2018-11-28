@@ -390,42 +390,54 @@ items:
     items:
     - name: Power BI 服務的新功能
       href: service-whats-new.md
-    - name: 基本概念
+    - name: 設計工具的基本概念
       href: service-basic-concepts.md
-    - name: 自助式註冊
-      href: service-self-service-signup-for-power-bi.md
-    - name: 適用於 Power BI 的 Cortana 簡介
-      href: service-cortana-intro.md
-    - name: Power BI 的資料重新整理
-      href: refresh-data.md
-    - name: 美國政府適用的 Power BI
-      href: service-govus-overview.md
-    - name: 依授權類型排列的功能
-      href: service-features-license-type.md
     - name: 10 個祕訣協助您取得說明
       href: service-tips-for-finding-help.md
-    - name: 在 Power BI 報表中進行篩選和醒目提示的相關事項
-      href: power-bi-reports-filters-and-highlighting.md
-    - name: 從檔案取得資料
-      href: service-get-data-from-files.md
-    - name: 報表編輯器...導覽
-      href: service-the-report-editor-take-a-tour.md
-    - name: Power BI 中的視覺效果
-      href: visuals/power-bi-report-visualizations.md
-    - name: Power BI 的資料來源
-      href: service-get-data.md
-    - name: 延長的 Pro 試用開跑
-      href: service-extended-pro-trial.md
-    - name: Microsoft Flow 和 Power BI
-      href: service-flow-integration.md
-    - name: 德國雲端客戶的 Power BI 常見問題集
-      href: service-govde-faq.md
-    - name: Power BI 開始使用協力廠商應用程式
-      href: service-power-bi-get-started-third-party-apps.md
-    - name: Power BI 中的彙總 (加總、平均、最大值等)
-      href: service-aggregates.md
-    - name: Power BI 報表的頁面顯示設定
-      href: power-bi-report-display-settings.md
+    - name: 授權
+      items:
+      - name: 自助式註冊
+        href: service-self-service-signup-for-power-bi.md
+      - name: 依授權類型排列的功能
+        href: service-features-license-type.md
+      - name: 延長的 Pro 試用開跑
+        href: service-extended-pro-trial.md
+      - name: 美國政府適用的 Power BI
+        href: service-govus-overview.md
+      - name: 德國雲端客戶的常見問題集
+        href: service-govde-faq.md
+    - name: 資料
+      items:
+      - name: Power BI 的資料來源
+        href: service-get-data.md
+      - name: 從檔案取得資料
+        href: service-get-data-from-files.md
+      - name: 彙總 (加總、平均、最大值等)
+        href: service-aggregates.md
+      - name: Power BI 的資料重新整理
+        href: refresh-data.md
+      - name: Azure 和 Power BI
+        href: service-azure-and-power-bi.md
+      - name: Power BI 與 Azure 輸出
+        href: service-azure-egress-power-bi.md
+    - name: 報表設計
+      items:
+      - name: 報表編輯器...導覽
+        href: service-the-report-editor-take-a-tour.md
+      - name: Power BI 中的視覺效果
+        href: visuals/power-bi-report-visualizations.md
+      - name: 報表中篩選及醒目提示的介紹
+        href: power-bi-reports-filters-and-highlighting.md
+      - name: Power BI 報表的頁面顯示設定
+        href: power-bi-report-display-settings.md
+      - name: 適用於 Power BI 的 Cortana 簡介
+        href: service-cortana-intro.md
+    - name: 其他
+      items:
+      - name: Microsoft Flow 和 Power BI
+        href: service-flow-integration.md
+      - name: 開始使用協力廠商應用程式
+        href: service-power-bi-get-started-third-party-apps.md
   - name: 如何
     items:
     - name: 一般工作
@@ -548,13 +560,13 @@ items:
         href: service-connect-to-zuora.md
     - name: 檔案的資料
       items:
-      - name: 即刻從 Excel 活頁簿到令人驚豔的報表
+      - name: 從 Excel 到精彩的報表
         href: service-from-excel-to-stunning-report.md
       - name: 從 Excel 活頁簿檔案取得資料
         href: service-excel-workbook-files.md
       - name: 從 Power BI Desktop 檔案取得資料
         href: service-desktop-files.md
-      - name: 資料集的參數設定
+      - name: 編輯參數
         href: service-parameters.md
       - name: 從逗點分隔值 (.CSV) 檔案取得資料
         href: service-comma-separated-value-files.md
@@ -562,7 +574,7 @@ items:
         href: service-real-time-streaming.md
       - name: 從 Excel 2016 發佈至 Power BI
         href: service-publish-from-excel.md
-      - name: 減少 Excel 活頁簿的大小以在 Power BI 中檢視
+      - name: 縮減 Excel 活頁簿大小
         href: reduce-the-size-of-an-excel-workbook.md
     - name: 資料庫的資料
       items:
@@ -574,10 +586,6 @@ items:
         href: spark-on-hdinsight-with-direct-connect.md
       - name: Power BI 中的 SQL Server Analysis Services 即時資料
         href: sql-server-analysis-services-tabular-data.md
-      - name: Azure 和 Power BI
-        href: service-azure-and-power-bi.md
-      - name: Power BI 與 Azure 輸出
-        href: service-azure-egress-power-bi.md
     - name: 資料重新整理
       items:
       - name: 設定排程的重新整理
@@ -590,7 +598,7 @@ items:
         href: refresh-excel-file-local-drive.md
       - name: 重新整理建立自 Excel 活頁簿的資料集 - 雲端
         href: refresh-excel-file-onedrive.md
-      - name: 重新整理建立自 OneDrive 上逗點分隔值 (.csv) 檔案的資料集
+      - name: 重新整理建立自 OneDrive 上 .csv 檔案的資料集
         href: refresh-csv-file-onedrive.md
       - name: 重新整理疑難排解案例
         href: refresh-troubleshooting-refresh-scenarios.md
@@ -604,25 +612,25 @@ items:
         href: service-dashboard-create.md
       - name: 建立儀表板複本
         href: service-dashboard-copy.md
-      - name: 從報表將圖格釘選至 Power BI 儀表板
+      - name: 從報表將圖格釘選到儀表板
         href: service-dashboard-pin-tile-from-report.md
-      - name: 將儀表板的圖格釘選到另一個儀表板
+      - name: 將磚從一個儀表板釘選至另一個儀表板
         href: service-pin-tile-to-another-dashboard.md
-      - name: 從 Excel 將磚釘選到 Power BI 儀表板
+      - name: 將磚從 Excel 釘選至儀表板
         href: service-dashboard-pin-tile-from-excel.md
-      - name: 從問與答的問題方塊將圖格釘選至 Power BI 儀表板
+      - name: 從問與答將磚釘選到儀表板
         href: service-dashboard-pin-tile-from-q-and-a.md
-      - name: 將整份報表頁面釘選至 Power BI 儀表板
+      - name: 將整份報表頁面釘選至儀表板
         href: service-dashboard-pin-live-tile-from-report.md
       - name: 儀表板的使用計量
         href: service-usage-metrics.md
-      - name: 在儀表板中加入影像、文字方塊、影片或 Web 程式碼
+      - name: 將影像、文字方塊、影片或程式碼新增至儀表板
         href: service-dashboard-add-widget.md
-      - name: 編輯磚：調整大小、移動、重新命名、釘選、刪除、新增超連結
+      - name: 編輯磚
         href: service-dashboard-edit-tile.md
       - name: 設計絕佳 Power BI 儀表板的秘訣
         href: service-dashboards-design-tips.md
-      - name: 最佳化 Power BI 快速深入剖析的資料
+      - name: 針對快速見解將資料最佳化
         href: service-insights-optimize.md
       - name: 建立儀表板的手機檢視
         href: service-create-dashboard-mobile-phone-view.md
@@ -672,7 +680,7 @@ items:
         href: visuals/power-bi-visualizations-arcgis.md
     - name: 詢問資料相關的問題
       items:
-      - name: 使用問與答來建立視覺效果及建置報表
+      - name: 使用問與答來建立視覺效果及報表
         href: power-bi-tutorial-q-and-a.md
       - name: 讓資料在問與答中完美運作
         href: service-prepare-data-for-q-and-a.md
@@ -708,7 +716,7 @@ items:
         href: service-collaborate-power-bi-workspace.md
       - name: 管理 Power BI 和 Office 365 中的群組
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
-      - name: 共用連結至商務用 OneDrive 上 Excel 活頁簿的儀表板
+      - name: 在 OneDrive 上共用連結至 Excel 活頁簿的儀表板
         href: service-share-dashboard-that-links-to-excel-onedrive.md
     - name: 內容套件
       items:
@@ -936,6 +944,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: 概念
       items:
+      - name: Power BI 視覺效果指南
+        href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: 使用功能
         href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/
       - name: 資料檢視對應
@@ -1255,9 +1265,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 6be9e4865dd91817bd4b73c2763d6f7d374e1013
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289281"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331842"

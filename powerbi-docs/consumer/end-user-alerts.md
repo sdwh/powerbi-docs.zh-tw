@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/08/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ba27b42d6449d38fef2659507f035144c67f23fd
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 7982c2b29d5d92a992a115c92cbc7f0d128cb9d6
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223206"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452583"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>教學課程：在 Power BI 服務中設定資料警示
 設定警示，以在儀表板中的資料變更時超出您所設定的限制時通知您。 
@@ -75,7 +75,7 @@ ms.locfileid: "51223206"
    ![Power BI 服務中的通知圖示](media/end-user-alerts/powerbi-alert-notifications.png)
 3. 若要查看警示詳細資料，請開啟您的通知中心。
    
-    ![讀取警示](media/end-user-alerts/powerbi-alert-notfication.png)
+    ![讀取警示](media/end-user-alerts/powerbi-alert-notification.png)
    
    > [!NOTE]
    > 警示只對重新整理的資料有作用。 當資料重新整理時，Power BI 會檢查該資料有無設定警示。 若資料已達警示臨界值，便會觸發警示。
