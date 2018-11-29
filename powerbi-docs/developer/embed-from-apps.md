@@ -3,18 +3,18 @@ title: 從應用程式內嵌報表或儀表板
 description: 了解如何從 Power BI 應用程式，而不是從應用程式工作區，整合或內嵌報表或儀表板。
 author: markingmyname
 ms.author: maghan
-ms.date: 07/13/2018
 ms.topic: how-to
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 53803c77dec8eb35c10db7f19a82f58144f88414
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.date: 11/27/2018
+ms.openlocfilehash: 8073696907ceff67664a0802a2b7775eea693e37
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47237977"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452514"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>從應用程式內嵌報表或儀表板
 
@@ -26,11 +26,11 @@ ms.locfileid: "47237977"
 
 2. 在 Power BI 服務中開啟所需的報表。
 
-3. 移至 [檔案] > [內嵌在 SharePoint Online 中]，並從該處抓取報表 embedURL。 它會顯示在下列快照集中。 或者，呼叫 GetReports/GetReport REST API，並從回應中擷取對應的報表 embedURL 欄位。 當應用程式在使用者的工作區中進行具現化時，REST 呼叫不應使用工作區識別碼作為 URL 的一部分。
-
-4. 透過 JavaScript SDK 使用在步驟 3 中擷取的 embedURL。
+3. 移至 [檔案] > [內嵌於 SharePoint Online 中]，並抓取報表 embedURL。 下面的螢幕擷取畫面中顯示 embedURL 範例。 或者，您可以呼叫 GetReports/GetReport REST API，並從回應中擷取對應的報表 embedURL 欄位。 當應用程式在使用者的工作區中進行具現化時，REST 呼叫不應使用工作區識別碼作為 URL 的一部分。
 
     ![從應用程式內嵌](media/embed-from-apps/embed-from-app.png)
+
+4. 透過 JavaScript SDK 使用在步驟 3 中擷取的 embedURL。
 
 ## <a name="grab-a-dashboard-embedurl-for-embedding"></a>抓取用於內嵌的儀表板 embedURL
 

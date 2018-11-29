@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336913"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452859"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 連接器
 您可以透過 Power BI Desktop 存取 **SAP Business Warehouse (BW)** 資料。
@@ -197,11 +197,28 @@ Power BI Desktop 中的第 1 版 **SAP BW 連接器**可讓您從您的 **SAP Bu
            </item>
    
    若要解決此問題，使用者必須要求他們的 SAP 管理員授與 Power BI 中使用的 SAPBW 使用者執行 *BAPI_USER_GET_DETAIL* 的權限。 也可以驗證使用者具有必要的 *DCPFM* 值，如這份疑難排解解決方案稍早所述。
+   
 2. **SAP BEx 的連線能力查詢**
    
    啟用特定屬性後，您可以在 Power BI Desktop 中執行 **BEx** 查詢，如下圖所示︰
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
+   
+3. [瀏覽器] 視窗不會顯示資料預覽，而是會提供「物件參考未設定至物件的執行個體」錯誤訊息。
+   
+   SAP 使用者需要特定 BAPI 函式模組的存取權，才能從 SAP BW 的 InfoProviders 取得中繼資料並擷取資料。 這些包括：
+   * BAPI_MDPROVIDER_GET_CATALOGS
+   * BAPI_MDPROVIDER_GET_CUBES
+   * BAPI_MDPROVIDER_GET_DIMENSIONS
+   * BAPI_MDPROVIDER_GET_HIERARCHYS
+   * BAPI_MDPROVIDER_GET_LEVELS
+   * BAPI_MDPROVIDER_GET_MEASURES
+   * BAPI_MDPROVIDER_GET_MEMBERS
+   * BAPI_MDPROVIDER_GET_VARIABLES
+   * BAPI_IOBJ_GETDETAIL
+
+   若要解決此問題，請確認使用者有各種 *MDPROVIDER* 模組與 *BAPI_IOBJ_GETDETAIL* 的存取權。 若要進一步針對此問題或類似問題進行疑難排解，請選取 Power BI Desktop [選項] 中 [診斷] 視窗上的 [啟用追蹤]。 嘗試在追蹤功能已啟用的情況下從 SAP BW 擷取資料，並檢查追蹤檔案以取得更多詳細資料。
+
 
 ## <a name="next-steps"></a>後續步驟
 如需 SAP 和 DirectQuery 的詳細資訊，請參閱下列資源：

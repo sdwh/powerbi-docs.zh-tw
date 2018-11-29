@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b7a8323557f769fa2a05d504de2540bc505e7a54
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: ffb82303584249641454c81f61e399d2b1d4f574
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619693"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452767"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>在 Power BI Desktop 中使用複合模型
 
@@ -142,13 +142,13 @@ Power BI Desktop 中的複合模型功能包含三種相關功能：
 
 因此，傳送至關聯式資料庫的查詢現在會包含儲存在試算表中的資訊。 如果這是機密資訊，您應該考慮安全性影響。 特別是，請考慮下列幾點：
 
-* 可以檢視追蹤或稽核記錄檔的任何資料庫系統管理員，都可以檢視這項資訊，即使沒有資料原始來源的資料權限亦然。 在此範例中，系統管理員需要 Excel 檔案的權限。
+* 可以檢視追蹤或稽核記錄檔的任何資料庫系統管理員，都可以檢視此資訊，即使沒有資料原始來源的資料權限亦然。 在此範例中，系統管理員需要 Excel 檔案的權限。
 
 * 應該考慮每個來源的加密設定。 您想要避免透過加密連線從其中一個來源擷取資訊，然後意外地將它包含在透過未加密連線傳送至另一個來源的查詢中。 
 
-為了允許確認您已經考慮過所有安全性影響，當您建立複合模型時，Power BI Desktop 會顯示一則警告訊息。  
+為了允許確認您已經考慮過所有安全性意涵，當您建立複合模型時，Power BI Desktop 會顯示一則警告訊息。  
 
-基於類似原因，當您開啟從不受信任來源傳送的 Power BI Desktop 檔案時，請小心。 如果檔案包含複合模型，則某人使用檔案開啟者的使用者認證來從某一個來源擷取的資訊會作為部分查詢傳送到另一個資料來源。 Power BI Desktop 檔案的惡意作者可能會檢視這項資訊。 因此，當您初次開啟包含多個來源的 Power BI Desktop 檔案時，Power BI Desktop 會顯示警告。 此警告和開啟包含原生 SQL 查詢的檔案時所顯示的警告類似。  
+基於類似原因，當您開啟從不受信任來源傳送的 Power BI Desktop 檔案時，請小心。 如果檔案包含複合模型，則某人使用檔案開啟者的使用者認證來從某一個來源擷取的資訊會作為部分查詢傳送到另一個資料來源。 Power BI Desktop 檔案的惡意作者可能會檢視此資訊。 因此，當您初次開啟包含多個來源的 Power BI Desktop 檔案時，Power BI Desktop 會顯示警告。 此警告和開啟包含原生 SQL 查詢的檔案時所顯示的警告類似。  
 
 ## <a name="performance-implications"></a>效能影響  
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9a22889da87af91f3b5ea996961ec9e9538fe31b
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909099"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452629"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>與同事在 Power BI 中建立工作區
 
@@ -23,7 +23,7 @@ ms.locfileid: "48909099"
 
 ![Power BI 應用程式](media/service-create-workspaces/power-bi-apps-left-nav.png)
 
-當您建立工作區時，即會建立基礎的相關聯 Office 365 群組。 所有工作區管理都是在 Office 365 中進行。 您可以將同事新增至這些工作區，作為成員或系統管理員。 在工作區中，您們全都可以共同處理儀表板、報告和文章，以準備發佈給更多對象。 新增至應用程式工作區的每個人都必須有 Power BI Pro 授權。 
+當您建立工作區時，即會建立基礎的相關聯 Office 365 群組。 所有工作區管理都是在 Office 365 中進行管理。 您可以將同事新增至這些工作區，作為成員或系統管理員。 在工作區中，您們全都可以共同處理儀表板、報告和文章，以準備發佈給更多對象。 新增至應用程式工作區的每個人都必須有 Power BI Pro 授權。 
 
 **您知道嗎？** Power BI 正在預覽新的工作區體驗。 請閱讀[建立新的工作區 (預覽)](service-create-the-new-workspaces.md) 來查看工作區未來如何變更。 
 

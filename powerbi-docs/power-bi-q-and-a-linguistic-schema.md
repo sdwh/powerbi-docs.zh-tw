@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ea11394c8b559b38f3c01fe339afac4ce3b0d863
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 09bf82d86301967fb46b8724822e183a21008b92
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717945"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452721"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>編輯問與答語言結構描述和新增片語 - Power BI Desktop 
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 如果您的資料能夠回答，就更厲害了，而 Power BI 的問與答就有這樣的能耐。 Power BI 問與答在您提出問題時，會盡力正確回答。 
@@ -25,7 +25,7 @@ ms.locfileid: "51717945"
 一切從您的企業資料開始。  資料模型愈完善，使用者獲得高品質的解答就愈容易。 改善模型的一種方法是新增語言結構描述，來定義和分類資料集中資料表和資料列名稱之間的術語和關聯性。 Power BI Desktop 可讓您管理語言結構描述。 
 
 ## <a name="what-is-a-linguistic-schema"></a>什麼是語言結構描述
-語言結構描述描述了問與答對於資料集內的物件，應該要理解的字詞和片語，包括與該資料集相關的詞性、同義字和片語。 當您匯入或連線到資料集時，Power BI 會根據資料集的結構建立語言結構描述。 當您向問與答提問時，這項功能就會尋找資料中的相符部份和關聯性，以找出問題的用意。 例如，尋找名詞、動詞、形容詞、片語和其他元素。 另外還會尋找關聯性，例如哪些資料行是動詞的受詞。 
+語言結構描述描述了問與答對於資料集內的物件，應該要理解的字詞和片語，包括與該資料集相關的詞性、同義字和片語。 當您匯入或連線到資料集時，Power BI 會根據資料集的結構建立語言結構描述。 當您向問與答提問時，此功能就會尋找資料中的相符部份和關聯性，以找出問題的用意。 例如，尋找名詞、動詞、形容詞、片語和其他元素。 另外還會尋找關聯性，例如哪些資料行是動詞的受詞。 
 
 您可能很熟悉詞性 (如果沒有，請參閱下文)，但對您而言，片語可能是一個新詞。  片語就是您談論 (或表達) 事物之間關聯性的方式。 例如，要描述客戶和產品之間的關聯性，您可以說「客戶購買產品」。 若要描述客戶和年齡之間的關聯性，您可以說「年齡表示客戶的年紀多大」。 或描述客戶與電話號碼之間的關聯性，您可以直接說「客戶有電話號碼」。
 

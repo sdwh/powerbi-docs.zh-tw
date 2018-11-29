@@ -9,12 +9,12 @@ ms.component: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 91cf4e2115b2eaae3178b2fb25e487e0501e3a6d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b057fd14083cdabff96d9821d1399da07b93556b
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266860"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452816"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教學課程：建立編頁報表並將它上傳至 Power BI 服務
 
@@ -121,7 +121,7 @@ ms.locfileid: "51266860"
  
      ![查詢結果](media/paginated-reports-quickstart-aw/power-bi-paginated-query-results.png)
 
-18. 選取 [下一步]。 
+18. 選取 [下一步] 。 
 
 19. 在 [選擇資料集] 頁面中，選擇您剛建立的資料集 > [下一步]。
 
@@ -329,5 +329,5 @@ ms.locfileid: "51266860"
 
 ## <a name="next-steps"></a>後續步驟
 
-[Power BI Premium 中的編頁報表是什麼？(預覽)](paginated-reports-report-builder-power-bi.md)
+[什麼是 Power BI Premium 中的編頁報表？(預覽)](paginated-reports-report-builder-power-bi.md)
 

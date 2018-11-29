@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952226"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452652"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -22,23 +22,13 @@ ms.locfileid: "49952226"
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
-**Power BI：以正確方式完成分析**
-<br>由 Gohul Shanmugalingam 主持
-<br>*2018 年 11 月 8 日下午 1:00 - 下午 2:00 (美國東部標準時間)*
+**可同時改進病人結果與獲利的經實證醫療保健解決方案**
+<br>由來自 US Medical IT 的 Stephen Cracknell 與 Stuart Macanliss 主持
+<br>*2018 年 11 月 28 日上午 11:00 – 下午 12:00 (太平洋標準時間)*
 
-呼叫所有分析與 Excel 愛好者：了解如何製作人們會想要使用的精美報告、分享易於了解的動人見解，以及安全地細分複雜資料以便輕鬆存取。
+醫療保健組織面臨了將大量資料轉換為病人見解並將那些見解轉換為行動的挑戰。 報名此網路研討會以了解如何設計有意義的醫療保健報表，以協助您的組織將資料轉換為有用的病人見解。 從美國 US Medical IT 創辦人兼執行長 Stephen Cracknell、Healthcare IT Stuart Macanliss 總裁與德州風濕病權威John P. Lavery 博士取得專業策略與建議。
 
-我們將會分享新產品創新與我們對於現代化企業 BI 與自助 BI 的願景，讓您的組織能夠建置資料驅動文化。
-
-[報名以在 11 月 8 日觀看](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**使用 Power BI 強化您的資料塑模技巧**
-<br>由 Kasper de Jonge 主持
-<br>*2018 年 11 月 20 日上午 11:00 – 下午 12:00 (太平洋標準時間)*
-
-報名此網路研討會以提升您的 Power BI 塑模技巧。 了解 Power BI 記憶體內分析引擎、建立及管理資料關聯性的策略，以及如何使用資料分析運算式 (DAX) 篩選內容。 了解如何使用 Power BI 或 Azure Analysis Services 專精任何塑模技巧
-
-[報名以在 11 月 20 日觀看](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+[報名以在 11 月 28 日觀看](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 >[來自 Power BI 社群，即將舉行的網路研討會](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
@@ -54,9 +44,17 @@ ms.locfileid: "49952226"
 <br>由 Miguel Martinez 主持
 <br>[報名並立即觀看](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
 
+**使用 Power BI 強化您的資料塑模技巧**
+<br>由 Kasper de Jonge 主持
+<br>[報名並立即觀看](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
 **Microsoft 執行 Power BI – 輕鬆達成財務規劃與分析**
 <br>由 Cory Hrncirik 和 Miguel Martinez 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Power BI：以正確方式完成分析**
+<br>由 Gohul Shanmugalingam 主持
+<br>[報名並立即觀看](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
 **將您的 Power BI 資料視覺化：核心圖表類型以及如何使用**
 <br>由 Miranda Li 主持
@@ -70,9 +68,9 @@ ms.locfileid: "49952226"
 <br>由 Miranda Li 主持
 <br>[報名並立即觀看](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**PowerBI.Tips 擁有者提供的 Power BI 訣竅、祕訣和工具**
-<br>由 Mike Carlo 與 Seth Bauer 主持
-<br>[立即觀看](https://www.youtube.com/watch?v=fnj1_e3HXow)
+**Microsoft Flow 與 PowerApps 的整體經濟影響**
+<br>主講：Jonathan Lipsitz 與 Enrique Plaza Garcia
+<br>[報名並立即觀看](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 >[瀏覽我們的社群專家所主講的 Power BI 隨選網路研討會影片庫](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -112,10 +110,6 @@ ms.locfileid: "49952226"
 <br>作者：Microsoft Esri and Enrique Plaza 的 Scott Ball
 <br>[報名並立即觀看](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
-**改善醫療保健業的獲利能力** (英文)
-<br>由來自 US Medical IT 的 Stephen Cracknell 與 Stuart Macanliss 主持
-<br>[報名並立即觀看](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
-
 **銷售與服務的應用智慧**
 <br>由來自 Avanade 的 Ed Bobrin 主持
 <br>[報名並立即觀看](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
@@ -129,6 +123,10 @@ ms.locfileid: "49952226"
 <br>[報名並立即觀看](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
 ### <a name="community"></a>社群 ###
+
+**PowerBI.Tips 擁有者提供的 Power BI 訣竅、祕訣和工具**
+<br>由 Mike Carlo 與 Seth Bauer 主持
+<br>[立即觀看](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 **使用資料和 Power BI 說故事**
 <br>由 Tristan Malherbe 主持

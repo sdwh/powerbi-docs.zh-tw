@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7fcf7411e7785f4403e08d1e3094a60bd93bcf57
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565053"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452491"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Power BI 服務中的常用儀表板、報告和應用程式
 當您將內容設為「我的最愛」時，將可從所有工作區予以存取。  我的最愛通常是您最常瀏覽的內容。
@@ -54,7 +54,7 @@ ms.locfileid: "46565053"
    ![將游標停留在應用程式上方](./media/end-user-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>使用「我的最愛」
-1. 若要您的最愛，請從任何工作區，選取 [我的最愛] 右邊的彈出式箭號。  您可以在這裡選取我的最愛並加以開啟。 只會列出五個我的最愛 (依字母順序)。 如果超過五個，請選取 [查看全部] 開啟 [我的最愛] 畫面 (請參閱下文的第 2 點)。 
+1. 若要存取您的我的最愛，請從任何工作區選取 [我的最愛] 右邊的彈出式箭號。  您可以在這裡選取我的最愛並加以開啟。 只會列出五個我的最愛 (依字母順序)。 如果超過五個，請選取 [查看全部] 開啟 [我的最愛] 畫面 (請參閱下文的第 2 點)。 
    
    ![[我的最愛] 飛出視窗](./media/end-user-favorite/power-bi-favorite-flyout-new.png)
 2. 若要查看您已新增為我的最愛的**所有**內容，請在左側功能窗格中選取 [我的最愛] 或我的最愛 ![星號圖示](./media/end-user-favorite/power-bi-favorites-icon.png)。  
