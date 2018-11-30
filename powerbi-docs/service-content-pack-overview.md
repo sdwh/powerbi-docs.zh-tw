@@ -7,24 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/20/2018
+ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: 4a5d124ffd213c54d628ff15e32ece18e56913eb
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157308"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289189"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 服務內容套件計劃概觀
 內容套件是一組全新內容，可讓使用者立即從來源取得深入剖析資訊。 內容套件通常著重於可提供角色、網域或工作流程深入剖析資訊的特定商務案例。
 
-ISV 可建置範本內容套件，讓客戶透過自己的帳戶連線並實例化。 身為網域專家，其可解除鎖定資料，讓商務使用者都可輕鬆使用。 內容套件可為您的客戶提供臨機操作監視和分析，而不需要大量投資報表基礎結構。
+ISV 可建置範本內容套件，讓客戶透過自己的帳戶連線並實例化。 身為網域專家，其可解除鎖定資料，讓商務使用者都能輕鬆使用。 內容套件可為您的客戶提供臨機操作監視和分析，而不需要大量投資報表基礎結構。
 
 這些 ISV 建置的範本內容套件可以提交給 Power BI 小組，在 Power BI 內容套件庫 (app.powerbi.com/getdata/services) 和 Microsoft AppSource (appsource.microsoft.com) 中提供公眾使用。 如需公用內容套件體驗的範例，請參閱[這裡](template-content-pack-experience.md)。
 
 ## <a name="overview"></a>概觀
-開發和送出範本內容套件的一般程序牽涉到多個步驟。
+開發和提交範本內容套件的一般程序牽涉到多個步驟。
 
  ![程序](media/service-content-pack-overview/developer-content-pack-overview.png)
 
@@ -41,14 +41,14 @@ ISV 可建置範本內容套件，讓客戶透過自己的帳戶連線並實例�
 
 * 您有商務使用者所使用的 SaaS 應用程式。
 * 您的 SaaS 應用程式具有可在 Power BI 中視覺化的使用者資料。
-* 您的 SaaS 應用程式具有可透過公用網際網路存取的 API。 理想情況下，此 API 是 REST 型的 API 或 OData 摘要。 Power BI 內容套件支援多種驗證類型，例如基本驗證、OAuth 2.0 和 API 金鑰。 
+* 您的 SaaS 應用程式具有可透過公用網際網路存取的 API。 理想情況下，此 API 是 REST 型 API 或 OData 摘要。 Power BI 內容套件支援多種驗證類型，例如基本驗證、OAuth 2.0 和 API 金鑰。 
 * 已核准您的 SaaS 應用程式發佈內容套件。 請提交要求給 pbiservicesapps@microsoft.com。 我們將會檢閱每份提交的相關性與預期使用量。 
 * 簽署的夥伴協議。 您會在[提交步驟](template-content-pack-testing.md#submission)執行此作業。
 
-如需技術需求的詳細資訊，請檢閱[撰寫](template-content-pack-authoring.md)一節。
+如需技術需求的詳細資料，請檢閱[撰寫](template-content-pack-authoring.md)一節。
 
 ## <a name="business-scenario"></a>商務案例
-內容套件可提供著重於特定商務案例的深入剖析資訊和指標。 了解您的對象及其受益於內容套件的內容，將有助於確定您的使用者可透過您提供的內容邁向成功。
+內容套件可提供著重於特定商務案例的深入剖析資訊和指標。 了解您的對象及其受益於內容套件的內容，有助於確保使用者可透過您提供的內容邁向成功。
 
 ### <a name="tips"></a>祕訣
 * 識別您的對象及其嘗試完成的工作  
@@ -77,8 +77,8 @@ Power BI 服務內容套件支援任何 REST API 或 OData 摘要。 Power BI �
 
 歡迎您使用電子郵件提出問題：[pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
-## <a name="support"></a>Support
-如需在開發期間的支援，請使用 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)。 我們會主動監視和管理該網站， 讓適當的小組可快速開始處理客戶事件。
+## <a name="support"></a>支援
+如需在開發期間的支援，請使用 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)。 讓適當的小組可快速開始處理客戶事件。
 
 ## <a name="next-step"></a>下一個步驟
 [撰寫](template-content-pack-authoring.md)

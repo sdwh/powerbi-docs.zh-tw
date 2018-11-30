@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: report-builder
 ms.topic: overview
-ms.date: 11/08/2018
+ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: 15ec21a0b86977173c16071980d7527f27db74ef
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 7a39d7b3bdbbd592afc6481c5936efc76569ad11
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297036"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289212"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>什麼是 Power BI Premium 中的編頁報表？ (預覽)
-編頁報表，SQL Server Reporting Services 中長期以來的標準報表格式，現在可在 Power BI 服務中使用。 編頁報表是設計用來列印或共用的報表。 它們被稱為「編頁」，因為它們被格式化為符合頁面，並在資料表中顯示所有資料，例如，即使資料表跨越多個頁面。 它們有時被稱為「完美像素」，因為您可以完全控制其報表頁面配置。 編頁報表是以 SQL Server Reporting Services 中的 RDL 報表技術為基礎。 報表產生器是用於撰寫編頁報表的獨立工具。 
+編頁報表，SQL Server Reporting Services 中長期以來的標準報表格式，現在可在 Power BI 服務中使用。 編頁報表是設計用來列印或共用的報表。 它們稱為「編頁」，因為已將它們格式化，使其可適當地符合頁面。 即使資料表跨越多個頁面，它們也會在資料表中顯示所有資料。 它們有時被稱為「完美像素」，因為您可以完全控制其報表頁面配置。 編頁報表是以 SQL Server Reporting Services 中的 RDL 報表技術為基礎。 報表產生器是用於撰寫編頁報表的獨立工具。 
 
-編頁報表可以有許多頁面。 下列範例中的報表有 563 頁，每頁都有準確的版面配置，每個發票一頁，重複頁首和頁尾。
+編頁報表可以有許多頁面。 例如，此報表有 563 頁。 每頁都有精確的版面配置，每個發票一頁並重複頁首和頁尾。
 
 ![Power BI 服務中的編頁報表](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
@@ -27,11 +27,11 @@ ms.locfileid: "51297036"
 
 ## <a name="create-reports-in-report-builder"></a>在報表產生器中建立報表
 
-編頁報表有自己的設計工具，也就是報表產生器。 如果已為 Power BI 報表伺服器或 SQL Server Reporting Services (SSRS) 建立編頁報表，則可以使用相同的工具和相同的版本。 實際上，您為 SSRS 2016 和 2017 或 Power BI 報表伺服器內部部署建立的編頁報表是與 Power BI 服務相容的。 Power BI 服務維持回溯相容性，因此您可以繼續向前進行報表，並且可以升級任何舊版的編頁報表。 並非所有的報表功能都可在發佈時使用；如需詳細資訊，請參閱此文章中的[限制和考量](#limitations-and-considerations)。
+編頁報表有自己的設計工具，也就是報表產生器。 它與您為 Power BI 報表伺服器或 SQL Server Reporting Services (SSRS) 建立編頁報表時所使用的工具和版本相同。 實際上，您為 SSRS 2016 和 2017 或 Power BI 報表伺服器內部部署建立的編頁報表是與 Power BI 服務相容的。 Power BI 服務維持回溯相容性，因此您可以繼續向前進行報表，並且可以升級任何舊版的編頁報表。 並非所有報表功能都能在啟動時使用。 如需詳細資料，請參閱本文中的[限制與考量](#limitations-and-considerations)。
      
 ## <a name="report-from-a-variety-of-data-sources"></a>來自各種資料來源的報表
 
-單一的編頁報表可以包含許多不同的資料來源。 與 Power BI 報表不同，它沒有基礎資料模型。 對於 Power BI 服務中編頁報表的初始版本，您可以在報表本身中建立內嵌的資料來源和資料集，而不是連接到共用的資料來源或在伺服器上的資料集。 您可以在本機電腦上的報表產生器中建立報表。 如果報表連接至內部部署資料，則在將報表上傳至 Power BI 服務之後，您需要建立閘道並重新導向資料連線。 以下是您可以連接到初始版本的數據源：
+單一的編頁報表可以包含許多不同的資料來源。 與 Power BI 報表不同，它沒有基礎資料模型。 針對 Power BI 服務中編頁報表的初始版本，您可以在報表本身中建立內嵌的資料來源和資料集。 目前，您無法使用共用資料來源或共用資料集。 您可以在本機電腦上的報表產生器中建立報表。 如果報表連接至內部部署資料，則在將報表上傳至 Power BI 服務之後，您需要建立閘道並重新導向資料連線。 以下是您可以連接到初始版本的數據源：
 
 - Azure SQL Database 和資料倉儲
 - 透過閘道的 SQL Server
@@ -60,7 +60,7 @@ ms.locfileid: "51297036"
 在設計編頁報表時，您實際上是在建立報表定義。 它不包含資料。 它會指定要取得資料的位置、要取得哪些資料，以及如何顯示資料。 當您執行報表時，報表處理器會採用您所指定的報表定義、擷取資料，並結合報表配置來產生報表。 您可以將報表定義上傳至 Power BI 服務 (http://app.powerbi.com) 中，也可以上載到 [我的工作區] 或是與同事共用的工作區。 如果報表資料來源位於內部部署，則在上傳報表之後，您可以將資料來源連線重新導向為通過閘道。 
 
 ## <a name="view-your-paginated-report"></a>檢視您的編頁報表
-您可以在瀏覽器中以及 Power BI 行動裝置應用程式中查看 Power BI 服務中的編頁報表。 在 Power BI 服務中，您可以將報表匯出為多種 Web 導向、頁面導向以及桌面應用程式格式，例如 HTML、MHTML、PDF、XML、CSV、TIFF、Word 和 Excel。 您也可以與其他人共用它。  
+您可以在瀏覽器中以及 Power BI 行動裝置應用程式中查看 Power BI 服務中的編頁報表。 從 Power BI 服務中，您可以將報表匯出為多種格式，例如 HTML、MHTML、PDF、XML、CSV、TIFF、Word 和 Excel。 您也可以與其他人共用它。  
   
 ## <a name="limitations-and-considerations"></a>限制與考量
 
@@ -77,8 +77,9 @@ ms.locfileid: "51297036"
  
 ## <a name="next-steps"></a>後續步驟
 
-- [安裝從 Microsoft 下載中心取得的報表產生器](http://go.microsoft.com/fwlink/?LinkID=734968)
-
+- [從 Microsoft 下載中心安裝報表產生器](http://go.microsoft.com/fwlink/?LinkID=734968)
 - [教學課程：建立編頁報表](paginated-reports-quickstart-aw.md)
+- [直接在編頁報表中輸入資料](paginated-reports-enter-data.md)
+
   
 

@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223252"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289166"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>教學課程：將格式選項新增到 Power BI 自訂視覺效果
 
-在此教學課程中，我們將探討如何將通用屬性新增至視覺效果。
+在本教學課程中，我們將探討如何將通用屬性新增至視覺效果。
 
 在本教學課程中，您會了解如何：
 > [!div class="checklist"]
@@ -32,7 +32,7 @@ ms.locfileid: "51223252"
 
     您應該會看到訊息顯示：「無法針對此視覺效果使用格式化選項」。
 
-    ![設定畫刷格式](media/custom-visual-develop-tutorial/format-paintbrush.png)
+    ![設定畫刷格式](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
 2. 在 **Visual Studio Code** 中，開啟 *capabilities.json* 檔案。
 
@@ -41,7 +41,7 @@ ms.locfileid: "51223252"
     ```json
     "objects": {},
     ```
-    ![加入 objects](media/custom-visual-develop-tutorial/add-objects.png)
+    ![加入 objects](media/custom-visual-develop-tutorial-format-options/add-objects.png)
 
 4. 儲存 **capabilities.json** 檔案。
 
@@ -50,13 +50,13 @@ ms.locfileid: "51223252"
     > [!Note]
     > 如果您沒有看到格式設定選項變更，請選取 [重新載入自訂視覺效果]。
 
-    ![檢視格式設定選項](media/custom-visual-develop-tutorial/view-formatting-options.png)
+    ![檢視格式設定選項](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
 6. 將 [標題] 選項設定為 [關閉]。 請注意，視覺效果不會再於左上角顯示量值名稱。
 
-    ![標題選項已關閉](media/custom-visual-develop-tutorial/tile-option-off.png)
+    ![標題選項已關閉](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
-    ![沒有名稱的圖格](media/custom-visual-develop-tutorial/no-name-tile.png)
+    ![沒有名稱的圖格](media/custom-visual-develop-tutorial-format-options/no-name-tile.png)
 
 ### <a name="adding-custom-formatting-options"></a>新增自訂格式選項
 
@@ -64,7 +64,7 @@ ms.locfileid: "51223252"
 
 1. 在 PowerShell 中，停止自訂視覺效果。
 
-2. 在 Visual Studio Code 中，於 **capabilities.json** 檔案內將下列 JSON 片段插入 **objects** 物件中。
+2. 在 Visual Studio Code 中，於 **capabilities.json** 檔案內將下列 JSON 片段插入標記為 **objects** 的物件中。
 
     ```json
     "circle": {
@@ -89,12 +89,12 @@ ms.locfileid: "51223252"
                  }
              }
          }
-     }
+     },
     ```
 
     此 JSON 片段描述一個名稱為 Circle 的群組，其由名為 circleColor 與 circleThickness 的兩個選項所組成。
 
-   ![圓形粗細程式碼](media/custom-visual-develop-tutorial/circle-thickness-code.png)
+   ![圓形粗細程式碼](media/custom-visual-develop-tutorial-format-options/circle-thickness-code.png)
 
 3. 儲存 **capabilities.json** 檔案。
 
@@ -112,7 +112,7 @@ ms.locfileid: "51223252"
     }
     ```
 
-    ![模組類別](media/custom-visual-develop-tutorial/module-classes.png)
+    ![模組類別](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
     此模組定義兩個類別。 **CircleSettings** 類別定義兩個屬性，其名稱與 **capabilities.json** 檔案中定義的物件名稱 (**circleColor** 與 **circleThickness**) 相符，另外還設定了預設值。 **VisualSettings** 類別繼承 **DataViewObjectParser** 類別，並新增名為 **circle** 的屬性，其與 *capabilities.json* 檔案中定義的物件相符，並且會傳回 **CircleSettings** 的執行個體。
 
@@ -127,7 +127,7 @@ ms.locfileid: "51223252"
     ```
     此屬性會儲存 **VisualSettings** 物件的參考，其描述視覺效果設定。
 
-    ![加入 Visual 類別](media/custom-visual-develop-tutorial/visual-class-add-on.png)
+    ![加入 Visual 類別](media/custom-visual-develop-tutorial-format-options/visual-class-add-on.png)
 
 9. 在 **Visual** 類別中，將下列方法加入到 **update** 方法之前。 此方法是用來填入格式設定選項。
 
@@ -140,7 +140,7 @@ ms.locfileid: "51223252"
     ```
     此方法是用來填入格式設定選項。
 
-    ![視覺效果設定物件](media/custom-visual-develop-tutorial/visual-settings-object.png)
+    ![視覺效果設定物件](media/custom-visual-develop-tutorial-format-options/visual-settings-object.png)
 
 10. 在 **update** 方法中，將下列程式碼加入到 **radius** 變數的宣告後面。
 
@@ -150,7 +150,7 @@ ms.locfileid: "51223252"
     ```
     此程式碼會擷取格式選項。 它會調整任何傳入 **circleThickness** 屬性的值，若為負數，它會將該值轉換為 0，若大於 10，則轉換為 10。
 
-    ![Radius 變數](media/custom-visual-develop-tutorial/radius.png)
+    ![Radius 變數](media/custom-visual-develop-tutorial-format-options/radius.png)
 
 11. 針對 **circle 元素**，將傳遞到 **fill 樣式**的值修改為下列運算式。
 
@@ -158,7 +158,7 @@ ms.locfileid: "51223252"
     this.visualSettings.circle.circleColor
     ```
 
-    ![填滿 circle 元素](media/custom-visual-develop-tutorial/circle-element-fill.png)
+    ![填滿 circle 元素](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
 12. 針對 **circle 元素**，將傳遞至 **stroke-width 樣式**的值修改為下列運算式。
 
@@ -166,7 +166,7 @@ ms.locfileid: "51223252"
     this.visualSettings.circle.circleThickness
     ```
 
-    ![Circle Stroke-width](media/custom-visual-develop-tutorial/circle-stroke-width.png)
+    ![Circle Stroke-width](media/custom-visual-develop-tutorial-format-options/circle-stroke-width.png)
 
 13. 儲存 visual.ts 檔案。
 
@@ -180,7 +180,7 @@ ms.locfileid: "51223252"
 
 16. 在 [視覺效果格式] 選項中，展開 [圓形]。
 
-    ![圓形格式](media/custom-visual-develop-tutorial/circle-format.png)
+    ![圓形格式](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
     修改 [Color] \(色彩\) 與 [Thickness] \(粗細\) 選項。
 
@@ -198,7 +198,7 @@ ms.locfileid: "51223252"
 
     在 [視覺效果] 窗格中，將滑鼠游標暫留在圖示上以顯示顯示名稱。
 
-    ![顯示名稱視覺效果](media/custom-visual-develop-tutorial/display-name-viz.png)
+    ![顯示名稱視覺效果](media/custom-visual-develop-tutorial-format-options/display-name-viz.png)
 
 4. 針對 **description** 屬性，輸入下列文字。
 
@@ -216,7 +216,7 @@ ms.locfileid: "51223252"
 
 10. 檢閱圖示。
 
-    ![視覺效果窗格影像](media/custom-visual-develop-tutorial/viz-pane-image.png)
+    ![視覺效果窗格影像](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
 11. 在 Visual Studio Code 中，確定已儲存所有檔案。
 
@@ -226,7 +226,7 @@ ms.locfileid: "51223252"
     pbiviz package
     ```
 
-    ![Dist 資料夾](media/custom-visual-develop-tutorial/dist-folder.png)
+    ![Dist 資料夾](media/custom-visual-develop-tutorial-format-options/dist-folder.png)
 
 現在，封裝會輸出到專案的 **dist** 資料夾。 封裝包含了將自訂視覺效果匯入 Power BI 服務或 Power BI Desktop 報表中所需的所有項目。 您現在已封裝自訂視覺效果，而且現在已隨時可用。
 
@@ -238,7 +238,7 @@ ms.locfileid: "51223252"
 
 2. 在 [視覺效果] 窗格中，選取省略符號，然後選取 [從檔案匯入]。
 
-    ![新增自訂效果到 Desktop](media/custom-visual-develop-tutorial/add-custom-viz-to-desktop.png)
+    ![新增自訂效果到 Desktop](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
 3. 在 [匯入] 視窗中，選取 [匯入]。
 
@@ -250,7 +250,7 @@ ms.locfileid: "51223252"
 
 7. 確認視覺效果已新增到 [視覺效果] 窗格。
 
-    ![在 PBI Desktop 視覺效果窗格中檢視](media/custom-visual-develop-tutorial/view-in-desktop-viz-pane.png)
+    ![在 PBI Desktop 視覺效果窗格中檢視](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
 8. 將滑鼠游標暫留在 **Circle Card** 圖示上，然後注意顯示的工具提示。
 

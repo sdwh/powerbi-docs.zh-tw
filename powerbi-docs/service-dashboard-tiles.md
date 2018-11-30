@@ -1,31 +1,31 @@
 ---
-title: Power BI 服務中的儀表板磚
-description: Power BI 中儀表板磚的所有相關資訊。 這包括從 SQL Server Reporting Services (SSRS) 建立的磚。
+title: Power BI 設計工具的儀表板磚簡介
+description: Power BI 中儀表板磚的所有相關資訊。 這包括從 SQL Server Reporting Services (SSRS) 報表建立的磚。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/3/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 76b8eaff949ee56d57511eabea913363e6cdc3f6
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: de99c04077a58f1c0c060561674fefa9041fa144
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717393"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331957"
 ---
-# <a name="dashboard-tiles-in-power-bi"></a>Power BI 的儀表板圖格
-儀表板和儀表板磚是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 雖然無法在 Power BI 行動裝置中建立或釘選儀表板磚，但可以進行[檢視及共用](mobile-tiles-in-the-mobile-apps.md)。 而且，在 Power BI 行動裝置中，您可以[使用 iPhone 應用程式將圖片新增至儀表板](mobile-iphone-app-get-started.md)。
+# <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 設計工具的儀表板磚簡介
 
-## <a name="dashboard-tiles"></a>儀表板圖格
+圖格是您釘選到儀表板的資料快照。 您可以從報表、資料集、儀表板、問與答方塊、Excel 和 SQL Server Reporting Services (SSRS) 報表等來建立磚。  這個螢幕擷取畫面顯示許多釘選到儀表板的不同磚。
+
 ![Power BI 儀表板](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-圖格是您釘選到儀表板的資料快照。 您可以從報表、資料集、儀表板、問與答方塊、Excel 和 SQL Server Reporting Services (SSRS) 及更多的地方建立圖格。  這個螢幕擷取畫面顯示許多釘選到儀表板的不同磚。
+儀表板和儀表板磚是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 您無法在行動裝置上建立儀表板，但可以在該處[檢視和共用](mobile-apps-view-dashboard.md)儀表板。
 
-除了釘選，您也可以使用[[新增磚]](service-dashboard-add-widget.md) 直接在儀表板上建立獨立的磚。 獨立磚包括：文字方塊、影像、視訊、串流資料和 Web 內容。
+除了釘選，您也可以使用[新增磚](service-dashboard-add-widget.md)直接在儀表板上建立獨立的磚。 獨立磚包括：文字方塊、影像、視訊、串流資料和 Web 內容。
 
 您想要了解構成 Power BI 的建置組塊嗎？  請參閱 [Power BI - 基本概念](service-basic-concepts.md)。
 
@@ -43,7 +43,7 @@ ms.locfileid: "51717393"
 * [商務用 OneDrive 上的 Excel 活頁簿](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher for Excel](publisher-for-excel.md)
 * [深入資訊摘要](service-insights.md)
-* [SSRS](https://msdn.microsoft.com/library/mt604784.aspx)
+* [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 可以使用[新增磚](service-dashboard-add-widget.md)，直接在儀表板上建立影像、文字方塊、視訊、串流資料和 Web 內容的獨立磚。
 
@@ -78,7 +78,7 @@ ms.locfileid: "51717393"
 3. 若要關閉動作功能表，選取畫布中的空白區域。
 
 ### <a name="select-click-a-tile"></a>選取 (按一下) 圖格
-當您選取磚時，接下來的情況取決於該磚的建立方式，以及其是否有[自訂連結](service-dashboard-edit-tile.md)。 如果有自訂連結，則選取圖格會帶您前往該連結。 否則，選取磚會帶您前往建立此磚所使用的報表、Excel Online 活頁簿、內部部署 SSRS 報表或問與答。
+當您選取磚時，接下來情況取決於您建立該磚的方式。 此外，如果有[自訂連結](service-dashboard-edit-tile.md)，則選取磚會帶您前往該連結。 否則，選取磚會帶您前往建立此磚所使用的報表、Excel Online 活頁簿、內部部署 Reporting Services 報表或問與答問題。
 
 > [!NOTE]
 > 使用 [新增磚] 直接在儀表板上建立的影片磚為例外。 選取影片磚 (以此方式建立) 會直接在儀表板上播放視訊。   
@@ -86,12 +86,13 @@ ms.locfileid: "51717393"
 > 
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
+
 * 如未儲存建立視覺效果所用的報表，則選取該圖格不會執行任何動作。
-* 如果圖格是在 Excel Online 活頁簿中建立的，而您連該活頁簿基本的讀取權限都沒有，選取圖格不會在 Excel Online 中開啟活頁簿。
-* 至於使用 [新增磚] 直接在儀表板上建立的磚，如果您已設定自訂超連結，選取標題、子標題及/或磚即會開啟該 URL。  否則，選取針對影像、Web 程式碼或文字方塊直接在儀表板上建立的其中一個磚，預設不會執行任何動作。
-* 如果您無權使用 SSRS 內的報表，則選取從 SSRS 建立的磚時將會產生頁面，指出您沒有存取權 (rsAccessDenied)。
-* 如果您無權存取 SSRS 伺服器所在的網路，則選取從 SSRS 建立的磚時將會產生頁面，指出找不到伺服器 (HTTP 404)。 您的裝置需要報表伺服器的網路存取權，才能檢視報表。
-* 如果用來建立圖格的原始視覺效果有了變更，也不會改變圖格。  例如，您從報表釘選折線圖之後，將折線圖變更為長條圖，儀表板圖格會繼續顯示折線圖。 資料會重新整理，但視覺效果類型不會。
+* 如果磚是從 Excel Online 的活頁簿建立，您至少需要該活頁簿的讀取權限。 否則，選取磚並不會在 Excel Online 中開啟活頁簿。
+* 假設您使用 [新增磚] 直接在儀表板上建立磚，並為其設定自訂超連結。 如果是這樣，當您選取標題、子標題或磚時，就會開啟該 URL。 否則，當您選取針對影像、Web 程式碼或文字方塊直接在儀表板上建立的磚時，預設不會有任何反應。
+* 如果您無權使用 Reporting Services 內的報表，則選取從 Reporting Services 報表建立的磚時會帶您前往一個頁面，指出您沒有存取權 (rsAccessDenied)。
+* 如果您無權存取 Reporting Services 伺服器所在的網路，則選取從 Reporting Services 建立的磚時會帶您前往一個頁面，指出找不到伺服器 (HTTP 404)。 您的裝置需要報表伺服器的網路存取權，才能檢視報表。
+* 如果用來建立圖格的原始視覺效果有了變更，也不會改變圖格。  例如，您從報表釘選折線圖之後，將折線圖變更為長條圖，儀表板磚會繼續顯示折線圖。 資料會重新整理，但視覺效果類型不會。
 
 ## <a name="next-steps"></a>後續步驟
 [建立儀表板的卡片 (大數字圖格)](power-bi-visualization-card.md)

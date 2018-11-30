@@ -1,54 +1,48 @@
 ---
-title: Power BI 服務中的儀表板
-description: 儀表板是 Power BI 服務的重要功能。
+title: Power BI 設計工具的儀表板簡介
+description: 儀表板是 Power BI 服務的重要功能。 它們是透過視覺效果來說故事的單一頁面，通常稱為畫布。
 author: maggieMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7f94d47452fb9d1ea24c950dba2988c6c80c053
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473720"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331934"
 ---
-# <a name="dashboards-in-the-power-bi-service"></a>Power BI 服務中的儀表板
+# <a name="intro-to-dashboards-for-power-bi-designers"></a>Power BI 設計工具的儀表板簡介
 
-Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常稱為畫布。 因為受限於一張頁面，所以設計良好的儀表板只包含故事最重要的項目。
+Power BI 「儀表板」是透過視覺效果來說故事的單一頁面，通常稱為畫布。 因為受限於一個頁面，所以設計良好的儀表板只包含該故事的重點。 讀者可以檢視相關報表來取得詳細資料。
 
 ![儀表板](media/service-dashboards/power-bi-dashboard2.png)
 
-儀表板是 Power BI 服務的功能，Power BI Desktop 不提供此功能。 行動裝置無法建立儀表板，但可以[檢視及共用](mobile-apps-view-dashboard.md)儀表板。
+儀表板是 Power BI 服務的功能。 它們在 Power BI Desktop 中無法使用。 您無法在行動裝置上建立儀表板，但可以在該處[檢視和共用](mobile-apps-view-dashboard.md)儀表板。
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>儀表板建立者和儀表板取用者
-視您的角色而定，您可能是建立儀表板供自己使用，或與同事共用儀表板的人。 您可在**適用於建立者的儀表板**中找到為您提供的資訊。 如果您是從其他人那收到儀表板的角色。 您想要了解如何熟悉及與儀表板互動。 這篇文章很適合您！
+## <a name="dashboard-basics"></a>儀表板的基本概念 
 
-
-### <a name="if-you-will-be-receiving-and-consuming-dashboards"></a>如果您要接收並取用儀表板
-
-您在儀表板上看到的視覺效果稱為「磚」，且會由儀表板「建立者」從報表「釘選」至儀表板。 如果您不熟悉 Power BI，請參閱 [Power BI 基本概念](service-basic-concepts.md)來打好基礎。
+您在儀表板上看到的視覺效果稱為「磚」。 您會從報表將磚「釘選」到儀表板。 如果您不熟悉 Power BI，請參閱 [Power BI 基本概念](service-basic-concepts.md)來打好基礎。
 
 > [!IMPORTANT]
-> [需要 Power BI Pro](service-free-vs-pro.md) 才能檢視共用儀表板。
+> 您需要 [Power BI Pro](service-free-vs-pro.md) 授權，才能建立儀表板。
 
-儀表板上的視覺效果來自報表，而每份報表都是以一個資料集為基礎。 事實上，您可以將儀表板想成是進入基礎報表和資料集的方法。 選取視覺效果會帶您前往建立效果的報表 (和資料集)。
+儀表板上的視覺效果來自報表，而每份報表都是以一個資料集為基礎。 您可以將儀表板想成是進入基礎報表和資料集的一種方法。 選取視覺效果會帶您前往效果所依據的報表 (和資料集)。
 
 ![顯示儀表板、報表、資料集之間關聯性的圖表](media/service-dashboards/power-bi-diagram.png)
 
-
-
 ## <a name="advantages-of-dashboards"></a>儀表板的優點
-儀表板是很棒的方式，一眼就可以監視企業、尋找答案以及查看所有最重要的指標。 儀表板上的視覺效果可能來自一或多個基礎資料集，以及來自一或多份基礎報表。 儀表板將內部部署和雲端產生的資料結合在一起，提供不受資料位置限制的合併檢視。
+儀表板是很棒的方式，一眼就可以監視企業，以及查看所有最重要的計量。 儀表板上的視覺效果可能來自一或多個基礎資料集，以及來自一或多份基礎報表。 儀表板將內部部署和雲端的資料結合在一起，提供不受資料位置限制的合併檢視。
 
-儀表板不只是張好看的圖，而是具有高度互動性，且磚會隨著基礎資料變更來更新。
+儀表板不只是好看的圖片。 其具有高度互動性，且磚會隨著基礎資料變更來更新。
 
 ## <a name="dashboards-versus-reports"></a>儀表板與報表
-[報表](service-reports.md)經常與儀表板相混淆，因為它們也是填滿視覺效果的畫布。 但對 Power BI 取用者來說仍有一些主要差異。
+[報表](service-reports.md)與儀表板看起來很相似，因為它們都是填滿視覺效果的畫布。 但兩者有一些主要差異。
 
 | **功能** | **儀表板** | **報表** |
 | --- | --- | --- |
@@ -66,6 +60,6 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 
 ## <a name="next-steps"></a>後續步驟
 * 使用[範例儀表板](sample-tutorial-connect-to-the-samples.md)其中一項教學課程來熟悉儀表板。
-* 深入了解[儀表板磚](service-dashboard-tiles.md)以及選取一個磚時會發生什麼情況。
+* 了解[儀表板磚](service-dashboard-tiles.md)。
 * 想要追蹤個別的儀表板磚，並在它達到某個閾值時收到電子郵件？ [建立磚警示](service-set-data-alerts.md)。
-* 享受向儀表板提問的樂趣。 了解如何使用 [Power BI 問與答](power-bi-tutorial-q-and-a.md)提出與您的資料相關的問題，然後接收視覺效果的回應。
+* 了解如何使用 [Power BI 問與答](power-bi-tutorial-q-and-a.md)提出與您的資料相關的問題，然後接收視覺效果的回應。

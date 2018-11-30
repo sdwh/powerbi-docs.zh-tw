@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 09ce2e2db94116d70824b276b9b67b9dbe163d11
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679309"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331980"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>組織中的 Power BI 授權
 
 在 Power BI 服務中，使用者已根據兩種授權類型來定義功能：
 
-* **每位使用者** - 免費授權和 Power BI Pro 授權。 免費授權可讓您存取 Power BI 服務的某些功能。 Pro 授權允許存取 Power BI 服務中的所有內容和功能，包括能與其他 Pro 使用者共用內容和共同作業。 只有 Pro 使用者能將內容發行到應用程式工作區、從應用程式工作區中取用內容、共用儀表板，以及訂閱儀表板和報表。 如需詳細資訊，請參閱[依授權類型排列的 Power BI 服務功能](service-features-license-type.md)。
+* **每位使用者** - Power BI Pro 授權和免費授權。 Power BI Pro 授權允許存取 Power BI 服務中的所有內容和功能，包括能與其他 Pro 使用者共用內容和共同作業。 只有 Pro 使用者能將內容發行到應用程式工作區、從應用程式工作區中取用內容、共用儀表板，以及訂閱儀表板和報表。 免費授權可讓您存取 Power BI 服務的某些功能。 如需詳細資訊，請參閱[依授權類型排列的 Power BI 服務功能](service-features-license-type.md)。
 
-* **容量為基礎** - Power BI Premium 授權。 Premium 提供專用容量，以傳遞更一致的效能，並在 Power BI 中支援更大的資料量。 對於個人使用者，Premium 也讓 Pro 使用者能廣泛散發內容，而且檢視內容的收件者並不需要 Pro 授權。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium.md)。
+* **容量為基礎** - Power BI Premium 授權。 Premium 提供專用容量，以傳遞更一致的效能，並在 Power BI 中支援更大的資料量。 針對個人使用者，Premium 也讓 Pro 使用者能廣泛散發內容，而且檢視內容的收件者並不需要 Pro 授權。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium.md)。
 
 本文著重於從系統管理員觀點的每位使用者授權。
 
@@ -73,17 +73,11 @@ ms.locfileid: "51679309"
 
 ## <a name="manage-power-bi-free-licenses"></a>管理 Power BI 免費授權
 
-組織中的使用者可以使用兩種不同方式存取 Power BI 免費授權。 他們可以個別註冊 Power BI，或您可以在 Office 365 系統管理入口網站中為其指派 Power BI 授權。
+組織中的使用者可以使用兩種不同方式存取 Power BI 免費授權：
 
-藉由允許對 Power BI 感興趣的使用者免費註冊，允許個人註冊可減少組織系統管理員的負擔。
+* 您可以在 Office 365 系統管理入口網站內，為他們指派 Power BI 授權。
 
-不過，停用個人使用者註冊可讓您有更多控制權，而且很適合您需要稽核服務使用量的情況。
-
-### <a name="power-bi-free-for-individuals"></a>Power BI 免費個人版
-
-在您組織中的個人預設可以註冊 Power BI 免費授權。 如需詳細資訊，請參閱[以個人身分註冊 Power BI](service-self-service-signup-for-power-bi.md)。
-
-若要封鎖個人註冊，請參閱本文稍後的[在 Azure Active Directory 中啟用或停用個人使用者註冊](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)。
+* 如果使用者[註冊 Power BI Pro 試用版](service-self-service-signup-for-power-bi.md)且試用版到期，則會取得免費授權。
 
 ### <a name="requesting-and-assigning-free-licenses"></a>要求及指派免費授權
 
