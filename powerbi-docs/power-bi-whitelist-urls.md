@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: e62d39f13e2b171456d667ec9683acd4ebdc5516
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 47fb90ba0f73bba2b210a9003b782a477dbf8214
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157118"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578719"
 ---
 # <a name="power-bi-urls"></a>Power BI URL
 
@@ -91,7 +91,7 @@ Power BI 需要特定端點能夠檢視及存取自訂的視覺效果。 您必�
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
 | 1 | **必要：** 從 Marketplace 介面或檔案匯入自訂視覺效果 | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
-| 2 | **選擇性︰** Bing 地圖服務 | bing.com </br> platform.bing.com </br> *.dynamic.tiles.virtualearth.net </br> *.virtualearth.net | TCP 443 |
+| 2 | **選擇性︰** Bing 地圖服務 | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
 | 3 | **選擇性︰** PowerApps | 請參閱 PowerApps 系統需求網站的[必要服務區段](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) | N/A |
 | 4 | **選擇性：** Visio | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)，以及 [SharePoint Online 和商務用 OneDrive](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/A |
 | | | |
@@ -103,7 +103,7 @@ Power BI 連結至其他相關網站。 這些網站包括文件、支援、新�
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
 | 1 | **選擇性：** 社群網站 | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
-| 2 | **選擇性：** 文件網站 | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.neting-district.clicktale.net | TCP 443 |
+| 2 | **選擇性：** 文件網站 | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
 | 3 | **選擇性：** 下載網站 (適用於 Power BI Desktop 等) | download.microsoft.com | TCP 443 |
 | 4 | **選擇性：** 外部重新導向 | aka.ms </br> go.microsoft.com | TCP 443 |
 | 5 | **選擇性：** 想法的意見反應網站| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |

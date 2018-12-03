@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9729791aa513db6daa4ccfd65f5279f198ef08de
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c74d69bcc12b5818bf2c279fc0e5a4329f033107
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327031"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669535"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>在 Power BI 中匯入和顯示 KPI
 透過 **Power BI Desktop**，您可以在資料表、矩陣和卡片中匯入和顯示 KPI。

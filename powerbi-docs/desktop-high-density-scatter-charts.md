@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7b9a9806cb733fb31983485d81cc03e1c9c0980c
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 0f2e978713491c9042fbbae986d7ef2c943d7baa
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329758"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670639"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 散佈圖中的高密度取樣
 從 **Power BI Desktop** 的 2017 年 9 月版和 **Power BI 服務**的更新開始，有新的取樣演算法可以改善散佈圖代表高密度資料的方式。

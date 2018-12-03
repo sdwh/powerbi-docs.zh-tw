@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6796de2b32061629e8f4fbcbc9b3311b5a95042d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 25fbcbeba8be2148269fa8eb6d2ac632eb8efb0f
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327284"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670041"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中執行 R 指令碼
 您可以直接在 **Power BI Desktop** 執行 R 指令碼，並將產生的資料集匯入 Power BI Desktop 資料模型。

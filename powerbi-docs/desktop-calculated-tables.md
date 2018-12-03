@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e35c842af47bac9dfd6667ecfa885a8df8a8785c
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: efb936a4fadbd45c3d9fce809963415bb27e321e
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328089"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578466"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>使用 Power BI Desktop 中的導出資料表
 透過導出資料表，您可以將新的資料表加入模型。 您會建立定義資料表值的資料分析運算式 (DAX) 公式，而不是從資料來源查詢值並將其載入新的資料表資料行。 在 Power BI Desktop 中，導出資料表是透過 [報表檢視] 或 [資料檢視] 中的 [新增資料表] 功能來建立。
@@ -65,7 +65,7 @@ Jeff 的新 [Western Region Employees] 資料表會出現在 [欄位] 清單中�
 您可以搭配 DAX 使用導出資料表，來解決許多分析問題。 我們在此僅快速介紹導出資料表。 當您開始使用導出資料表時，以下是可能對您很有幫助的一些較常見的 DAX 資料表函數：
 
 * DISTINCT
-* VALUES
+* 值
 * CROSSJOIN
 * UNION
 * NATURALINNERJOIN

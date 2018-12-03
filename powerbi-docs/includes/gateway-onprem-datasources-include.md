@@ -19,7 +19,8 @@
 | SAP BW |是 |是 |
 | SAP HANA |是 |是 |
 | SharePoint 清單 (內部部署) |否 |是 |
-| 雪花式 |是 |是 |
+| Snowflake |是 |是 |
+| Spark |是 |是 |
 | SQL Server |是 |是 |
 | Sybase |否 |是 |
 | Teradata |是 |是 |

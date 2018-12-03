@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452652"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670409"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -22,13 +22,7 @@ ms.locfileid: "52452652"
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
-**可同時改進病人結果與獲利的經實證醫療保健解決方案**
-<br>由來自 US Medical IT 的 Stephen Cracknell 與 Stuart Macanliss 主持
-<br>*2018 年 11 月 28 日上午 11:00 – 下午 12:00 (太平洋標準時間)*
-
-醫療保健組織面臨了將大量資料轉換為病人見解並將那些見解轉換為行動的挑戰。 報名此網路研討會以了解如何設計有意義的醫療保健報表，以協助您的組織將資料轉換為有用的病人見解。 從美國 US Medical IT 創辦人兼執行長 Stephen Cracknell、Healthcare IT Stuart Macanliss 總裁與德州風濕病權威John P. Lavery 博士取得專業策略與建議。
-
-[報名以在 11 月 28 日觀看](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
+沒有已排定的網路研討會。 請稍後再回來查看近期的活動。
 
 >[來自 Power BI 社群，即將舉行的網路研討會](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
@@ -105,6 +99,10 @@ ms.locfileid: "52452652"
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>合作夥伴 ###
+
+**可同時改進病人結果與獲利的經實證醫療保健解決方案**
+<br>由來自 US Medical IT 的 Stephen Cracknell 與 Stuart Macanliss 主持
+<br>[報名並立即觀看](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 **使用位置智慧提升 BI**
 <br>作者：Microsoft Esri and Enrique Plaza 的 Scott Ball

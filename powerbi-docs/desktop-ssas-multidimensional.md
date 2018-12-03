@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c9a8144ba9b8f465f4e607be60d075ea6ccb5fa
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 40da2a9a53cfb7a0e497f85f87bca6a133046720
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452790"
+ms.locfileid: "52578696"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>連接到 Power BI Desktop 中的 SSAS 多維度模型
 使用 Power BI Desktop，您可以存取 **SSAS 多維度模型**，通常稱為 **SSAS MD**。
@@ -36,7 +36,7 @@ Power BI 服務和支援 Power BI Desktop 皆支援即時連接模式中的 **SS
 | --- | --- |
 | Cube |模型 |
 | Cube 維度 |資料表 |
-| 維度屬性 (索引鍵)、名稱 |資料行 |
+| 維度屬性 (索引鍵)、名稱 |欄位 |
 | 量值群組 |資料表 |
 | 量值 |量值 |
 | 不含相關聯量值群組的量值 |在稱為「 *量值* 」的資料表內 |

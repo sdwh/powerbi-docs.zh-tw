@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1104c7f90f46252a74c4aa8e5ec573a159ef1c40
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 755864d4588122680f4005a02a9d1a1746e55b98
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46550113"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670923"
 ---
 # <a name="using-directquery-in-power-bi"></a>使用 Power BI 中的 DirectQuery
 您可以在使用 **Power BI Desktop** 或 **Power BI 服務**時連接到各種不同的資料來源，而且可以利用不同的方法來進行這些資料連接。 您可以將資料「匯入」Power BI (這是取得資料的最常見方法)，也可以直接連接到原始來源存放庫中的資料 (也稱為 **DirectQuery**)。 本文將說明 **DirectQuery** 及其功能，包括下列主題：

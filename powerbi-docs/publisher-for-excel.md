@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b3d2f19b27270bd5d824a859bc1a2d24545ed1c
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 2b8cc8f32ae85d4ba06860972c415b91ede223c5
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330182"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670708"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Power BI publisher for Excel
 有了 Microsoft **Power BI Publisher for Excel**，您就可以擷取 Excel 中最重要深入解析的快照集，像是樞紐分析表、樞紐分析圖和範圍，並將其釘選到 Power BI 中的儀表板。

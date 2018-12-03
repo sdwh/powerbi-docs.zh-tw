@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 017a1b9b326842c5bcc483f77e0be1fa884c0270
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34813656"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578190"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中建立和管理關聯性
 當您匯入多個資料表時，您可能想要使用所有資料表中的資料來進行一些分析。 這些資料表之間必須有關聯性，才能正確地計算結果，並在報表中顯示正確資訊。 Power BI Desktop 可讓您輕鬆地建立這些關聯性。 事實上，在大多數情況下，您不必執行任何動作，[自動偵測] 功能會為您完成這項作業。 不過，在某些情況下，您可能必須自行建立關聯性，或可能需要對關聯性進行一些變更。 不論是哪種情況，請務必了解 Power BI Desktop 中的關聯性，以及如何建立和編輯關聯性。
@@ -68,7 +68,7 @@ ms.locfileid: "34813656"
 
 如需何時變更交叉篩選方向的詳細資訊，請參閱本文後段的＜了解其他選項＞一節。
 
-## <a name="make-this-relationship-active"></a>將這個關聯性設為作用中
+## <a name="make-this-relationship-active"></a>將此關聯性設為作用中
 核取時，表示這個關聯性會做為作用中的預設關聯性。  如果兩個資料表之間有多個關聯性，作用中的關聯性可讓 Power BI Desktop 自動建立包含兩個資料表的視覺效果。
 
 如需何時將特定關聯性設為作用中的詳細資訊，請參閱本文後段的＜了解其他選項＞一節。

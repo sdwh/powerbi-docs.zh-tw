@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 20deb3f0b2f42bfcde66cb685fd6242f7b4a4be3
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: a0c98a8f65529575cb70fccec927c1ee00d9a089
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327008"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669420"
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop 的 Google Analytics 連接器
 > [!NOTE]
-> Power BI Desktop 中的 Google Analytics (分析) 內容套件和連接器仰賴 Google Analytics (分析) 核心報告 API。 因此，功能與可用性可能會隨著時間遷移而變化。
+> Power BI Desktop 中的 Google Analytics (分析) 內容套件和連接器仰賴 Google Analytics (分析) 核心報告 API。 因此，功能與可用性可能會隨著時間而變化。
 > 
 > 
 
