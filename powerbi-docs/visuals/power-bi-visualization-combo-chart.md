@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 5d2a33b8dc50a4a30bb79406462f1342953528d9
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448952"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830370"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI 中的組合圖
 在 Power BI 中，組合圖是結合折線圖和直條圖的單一視覺效果。 將 2 種圖結合成一個，讓您可以更快速地比較資料。
@@ -45,7 +45,7 @@ ms.locfileid: "47448952"
 
 1. 從 [零售分析範例] 儀表板，選取 [所有門市]  圖格，開啟 [零售分析範例] 報表。
 2. 選取 [編輯報表]  ，在編輯檢視中開啟報表。
-3. [加入新的報表頁面](../power-bi-report-add-page.md)。
+3. 加入新的報表頁面。
 4. 建立依月份顯示本年度銷售額和毛利的直條圖。
 
     a.  從 [欄位] 窗格中選取 [銷售額] \> [本年度銷售額] >  [值]。

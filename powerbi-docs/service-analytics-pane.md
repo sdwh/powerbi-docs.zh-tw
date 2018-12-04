@@ -2,7 +2,7 @@
 title: 為視覺效果建立動態參考線
 description: 為 Power BI 服務中的視覺效果建立動態參考線
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 04173d98185d7900848e93563b8e981bf3b200e6
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: f3653404bb89674ce838cc326daefbaeaab4c8b8
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717692"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830166"
 ---
 # <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>為 Power BI 服務中的視覺效果建立動態參考線
 

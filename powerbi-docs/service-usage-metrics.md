@@ -1,8 +1,8 @@
 ---
 title: 儀表板和報表的使用計量
 description: 如何檢視、儲存和使用 Power BI 儀表板和報表的使用計量。 透過內容創作者的使用計量來測量及放大您的影響力。
-author: mihart
-ms.author: mihart
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7b511a28f056df268216552f7d075a88c047f9f3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 53d39eaf7c615d2ed279e7c45330dacbdad7994a
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619831"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830324"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>儀表板和報表的使用計量
 

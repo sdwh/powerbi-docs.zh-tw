@@ -10,19 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 96b46e595ffd2373a2d59776cb8c2b4314727d89
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: a5762964b75d73d8dabceac58c47f616753b94cc
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718037"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830165"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>匯入資料集以在 Power BI 服務中建立新的報表
 您已閱讀 [Power BI 中的報表](consumer/end-user-reports.md)，現在想要建立自己的報表。 有許多不同的方式可建立報表，在本文中，我們一開始是使用 Power BI 服務從 Excel 資料集建立非常基本的報表。 了解建立報表的基本概念之後，底部的＜後續步驟＞會將您導向更進階的報表主題。  
 
-> **提示**︰若要透過複製現有報表來建立報表，請參閱[複製報表](power-bi-report-copy.md)。
-> 
-> ### <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>先決條件
 > - Power BI 服務 (若要使用 Power BI Desktop 建立報表，請參閱 [Desktop 的報表檢視](desktop-report-view.md))  
 > - 零售分析範例資料集
 
@@ -93,7 +91,7 @@ ms.locfileid: "51718037"
 繼續探索資料，並新增視覺效果。 當您找到特別有趣的深入解析時，請[將它們釘選到儀表板](service-dashboard-pin-tile-from-report.md)。
 
 ## <a name="next-steps"></a>後續步驟
-* [在報表中新增頁面](power-bi-report-add-page.md)  
+
 * 了解如何[將視覺效果釘選到儀表板](service-dashboard-pin-tile-from-report.md)   
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 
