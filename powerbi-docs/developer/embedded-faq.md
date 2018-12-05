@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 09/17/2018
-ms.openlocfilehash: 8cdeed0c5575a8405ae5db6d1eaca522ab0597cb
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.date: 11/27/2018
+ms.openlocfilehash: 71cbae5f282883ca26a5bf0b2ae7b5609b86eb58
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679424"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578788"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -35,19 +35,19 @@ Microsoft Power BI Embedded (PBIE) 讓應用程式開發人員不必花費時間
 
 Power BI Embedded 專門供 ISV 或開發人員使用，他們建置應用程式並想要在其中內嵌視覺效果，以協助客戶不必從頭建置分析解決方案就能做出決策。 Embedded 分析讓企業用戶能夠存取商務資料及執行查詢，以在應用程式內使用這份資料產生深入解析。
 
-Power BI 則是軟體即服務分析解決方案，為組織提供最重要商務資料的單一檢視。
+Power BI 是軟體即服務分析解決方案，為組織提供最重要商務資料的單一檢視。
 
 ### <a name="what-is-the-difference-between-power-bi-premium-and-power-bi-embedded"></a>Power BI Premium 與 Power BI Embedded 之間的差異為何？
 
 Power BI Premium 是專為企業打造的容量，其單一檢視集結了組織、夥伴、客戶及供應商，適合想要完整 BI 解決方案的企業使用。 Power BI Premium 可協助您的組織制定決策。 Power BI Premium 是 SaaS 產品，隨附的功能可讓使用者透過 Power BI 入口網站、行動裝置應用程式及內部開發的應用程式取用內容。
 
-Power BI Embedded 適用於建置應用程式並想在其中內嵌視覺效果的 ISV 或開發人員。 因為 Power BI Embedded 適用於應用程式開發人員，不論該應用程式的客戶是組織內部或外部的任何人員，都能取用儲存在 Power BI Embedded 容量中的內容，進而協助您的客戶制定決策。 Power BI Embedded 容量內容無法透過單鍵發行到 Web 或 SharePoint 來共用，而且不支援 SSRS 報表。
+Power BI Embedded 適用於建置應用程式並想在其中內嵌視覺效果的 ISV 或開發人員。 因為 Power BI Embedded 適用於應用程式開發人員，不論該應用程式的客戶是組織內部或外部的任何人員，都能取用儲存在 Power BI Embedded 容量中的內容，進而協助您的客戶制定決策。 Power BI Embedded 容量內容無法透過單鍵發佈到 Web 或 SharePoint 來共用，而且不支援 SSRS 報表。
 
 ### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Microsoft 對於客戶購買 Power BI Premium 與 Power BI Embedded 的時機有什麼建議？
 
 Microsoft 的建議是，企業購買 Power BI Premium (企業級的自助雲端 BI 解決方案)，ISV 則購買 Power BI Embedded (提供雲端技術的內嵌分析元件)。 不過，客戶要購買哪個產品並不會受到限制。
 
-在某些情況下，ISV (通常規模較大) 會想要使用 P SKU，不僅在組織內獲得預先封裝 Power BI 服務的額外優勢，也能在應用程式內嵌。 當然，如果有些企業只想建置企業營運應用程式並在其中內嵌分析，而不想使用預先封裝的 Power BI 服務，也可能決定使用 Azure 中的 A SKU。
+在某些情況下，ISV (通常規模較大) 會想要使用 P SKU，不僅在組織內獲得預先封裝 Power BI 服務的額外優勢，也能在應用程式內嵌。 某些企業可能會決定使用。 若他們只想建置企業營運應用程式並在其中內嵌分析，而不想使用預先封裝的 Power BI 服務，就可能使用 Azure 中的 A SKU。
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>我可以建立多少內嵌權杖？
 
@@ -80,7 +80,7 @@ Power BI Embedded 是一組可供開發人員用來在平台即服務供應項�
 |---------|---------|---------|---------|
 |購買  |Azure 入口網站 |Office |Office |
 |使用案例 | 在您自己的應用程式中內嵌內容 | <li> 在您自己的應用程式中內嵌內容 <br><br></br> <li> 在 MS Office 應用程式中內嵌內容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (行動裝置應用程式除外)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 在您自己的應用程式中內嵌內容 <br><br></br> <li> 在 MS Office 應用程式中內嵌內容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (行動裝置應用程式除外)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> 透過 [Power BI 服務](https://powerbi.microsoft.com/en-us/)與 Power BI 使用者共用內容  |
-|帳單 |每小時 |每月 |每月 |
+|帳務 |每小時 |每月 |每月 |
 |承諾用量  |無承諾用量 |每年  |每月/每年 |
 |差異 |完整彈性 - 可以在 Azure 入口網站中，或透過 API 相應增加/減少、暫停/繼續資源  |可用於在 SharePoint Online 與 Microsoft Teams 中內嵌內容 (行動裝置應用程式除外) |在相同容量中結合應用程式內嵌及使用 Power BI 服務 |
 
@@ -130,7 +130,7 @@ Power BI 需要您使用組織帳戶註冊。 不支援使用 MSA (Microsoft 帳
 
 ### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>我可以使用 API 來建立和管理 Azure 容量嗎？
 
-是，您可以使用 Powershell Cmdlet 和 Azure Resource Manager (ARM) 來建立及管理 PBIE 資源。
+是，您可以使用 Powershell Cmdlet 和 Azure Resource Manager API 來建立及管理 PBIE 資源。
 
 * Rest API - https://docs.microsoft.com/rest/api/power-bi-embedded/
 * Powershell Cmdlet - https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
@@ -144,6 +144,7 @@ Power BI 需要您使用組織帳戶註冊。 不支援使用 MSA (Microsoft 帳
 [PAM](https://ecosystemmanager.azurewebsites.net/home) (EcoManager) - 請參閱產品可用性管理員
 
 可用區域 (16 - 與 Power BI 相同的區域)
+
 * 美國 (6) - 美國東部、美國東部 2、美國中北部、美國中南部、美國西部、美國西部 2
 * 歐洲 (2) - 北歐、西歐
 * 亞太地區 (2) - 東南亞、東亞
@@ -164,7 +165,7 @@ Power BI Embedded 會繼續使用 Azure AD 進行主使用者 (指定的 Power B
 
 若要取得 AAD 權杖，可以使用其中一個 Azure Active Directory 驗證程式庫 - https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries。 有適用於多種平台的用戶端程式庫。
 
-### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>我的應用程式已使用 AAD 來驗證使用者。 在「使用者擁有資料」情節中，驗證到 Power BI 時，如何使用此身分識別？ 
+### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-an-user-owns-data-scenario"></a>我的應用程式已使用 AAD 來驗證使用者。 在「使用者擁有資料」的情況下，要如何在對 Power BI 驗證時使用此身分識別？
 
 它是標準 OAuth 代理流程 (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) 應用程式需要設定成要求 Power BI 服務的權限 (具有所需範圍)，而且在您擁有應用程式的使用者權杖之後，只需要使用使用者存取權杖來呼叫 ADAL API AcquireTokenAsync，並將 Power BI 資源 URL 指定為資源識別碼，請參閱以下顯示如何執行此作業的的程式碼片段：
 
@@ -193,6 +194,16 @@ ISV/開發人員必須先有 Power BI 帳戶，才能在 Azure 中購買 Power B
 
 從內容套件資料集建置的**儀表板**和**磚**「無法」內嵌，但是從內容套件資料集建置的**報表**「可以」內嵌。
 
+### <a name="what-is-the-difference-between-using-rls-vs-javascript-filters"></a>使用 RLS 和 JavaScript篩選的差別在哪裡？
+
+因為一種方法是關於控制特定使用者可看到的內容，而另一種則是關於將使用者的檢視最佳化，所以使用 RLS 和 JavaScript 篩選的時機常令人感到混淆。
+
+對於 RLS，ISV 開發人員可控制屬於建立模型和產生內嵌權杖的資料篩選。 終端使用者只會看到 ISV 允許使用者看到的內容。 在此案例，使用者可選擇查看少於篩選結果的內容，但無法略過 RLS 設定並查看超出所允許的內容。
+
+對於用戶端篩選 (JavaScript)，ISV 可能可決定終端使用者在初始檢視中看到的內容，但無法控制終端使用者可能會套用至檢視本身的變更。 即使資料篩選可以在後端發生，但因為其是由 JavaScript 用戶程式碼觸發，因此終端使用者可以將其變更，且並不安全。
+
+請參考 [RLS 對 JavaScript 篩選](embedded-row-level-security.md#using-rls-vs-javascript-filters) 以取得詳細資料。
+
 ## <a name="licensing"></a>授權
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>如何購買 Power BI Embedded？
@@ -205,15 +216,15 @@ Power BI Embedded 透過 Azure 提供。
 
 ### <a name="do-i-still-have-to-buy-power-bi-premium-to-get-access-to-power-bi-embedded"></a>我仍必須購買 Power BI Premium 才能存取 Power BI Embedded 嗎？
 
-不必，Power BI Embedded 即包含您將解決方案部署及散發到客戶時的必要容量 (以 Azure 為基礎)。
+否，Power BI Embedded 即包含您將解決方案部署及散發到客戶時的必要容量 (以 Azure 為基礎)。
 
-### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>Power BI Embedded 有什麼購買承諾？ 
+### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>Power BI Embedded 有什麼購買承諾？
 
 客戶可以小時為單位變更使用量。 Power BI Embedded 服務沒有每月或年度承諾用量。
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Power BI Embedded 的使用量會如何在帳單上顯示？
 
-Power BI Embedded 會依據部署的節點類型，以可預測的每小時費率開立帳單。 請注意，只要資源在使用中的狀態，即使您未使用，也會向您計費。 若要停止計費，您須主動暫停資源。
+Power BI Embedded 會依據部署的節點類型，以可預測的每小時費率開立帳單。 只要資源在使用中的狀態，即使您未使用，也會向您計費。 若要停止計費，您須主動暫停資源。
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>誰會需要 Power BI Pro 授權以使用 Power BI Embedded？為什麼？
 
@@ -221,7 +232,7 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 由於 Power BI Embedded 允許使用 Power BI 入口網站來管理及驗證內嵌內容，因此必須有 Power BI Pro 授權才能在 PowerBI.com 中驗證應用程式，以取得正確存放庫中的報表存取。
 
-不過，若要在自己的應用程式內[建立/編輯內嵌報表](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View)，終端使用者不需要 Pro 授權，因為其根本不需要是 Power BI 使用者。
+不過，若要在自己的應用程式內 [creating/editing embedded reports](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) (建立/編輯內嵌報表)，終端使用者不需要 Pro 授權，因為其根本不需要是 Power BI 使用者。
 
 ### <a name="can-i-get-started-for-free"></a>可以免費開始使用嗎？
 
@@ -229,7 +240,7 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 ### <a name="can-i-get-a-trial-experience-for-power-bi-embedded-in-azure"></a>可以取得 Azure 中的 Power BI Embedded 試用體驗嗎？
 
-因為 Power BI Embedded 是 Azure 的一部份，所以您可以使用[註冊 Azure 時收到的美金 $200 元點數](https://azure.microsoft.com/free/)使用服務。
+因為 Power BI Embedded 是 Azure 的一部份，所以您可以使用[註冊 Azure 時收到的美金 $200 元點數](https://azure.microsoft.com/free/)來使用服務。
 
 ### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Power BI Embedded 是否可供主權雲端使用 (美國政府、德國、中國)？
 
@@ -263,6 +274,7 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 是，但已經在使用「Power BI 工作區集合」解決方案的客戶可以繼續使用它，直到它被取代為止。 客戶也可以建立新的工作區集合，以及任何仍然使用「Power BI 工作區集合」解決方案的 **Power BI Embedded** 應用程式。
 
 不過，這也意謂著新功能不會新增到任何「Power BI 工作區集合」解決方案，而我們鼓勵客戶進行移轉至新 **Power BI Embedded** 解決方案的規劃。
+
 ### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>何時會中止「Power BI 工作區集合」支援？
 
 已經在使用「Power BI 工作區集合」解決方案的客戶可以繼續使用它，直到 2018 年 6 月底，或直到其支援合約終止為止。
@@ -276,11 +288,12 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 **Power BI Embedded** 解決方案引進了「Power BI 工作區集合」所沒有的新功能和處理能力。
 
 一些功能包括：
-* 與使用「Power BI 工作區集合」只支援 2 種資料來源相比，可支援所有 PBI 資料來源。 
+
+* 與使用 **Power BI 工作區集合**只支援兩種資料來源相比，可支援所有 PBI 資料來源。 
 * 問與答、重新整理、書籤、內嵌儀表板與圖格以及自訂功能表等新功能只有在 **Power BI Embedded** 解決方案中才有支援。
 * 容量計費模型。
 
-## <a name="embedding-setup-tool-for-embedding"></a>用於內嵌的內嵌安裝工具
+## <a name="embedding-setup-tool"></a>內嵌安裝工具
 
 ### <a name="what-is-the-embedding-setup-tool"></a>什麼是內嵌安裝工具？
 
@@ -293,9 +306,9 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 
 ### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>我已經下載了應用程式範例，要選擇哪個解決方案？
 
-若您使用**對客戶進行內嵌**體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\App Owns Data*資料夾，然後執行 *PowerBIEmbedded_AppOwnsData.sln* 檔案。
+若您使用**為客戶進行內嵌**體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\App Owns Data*資料夾，然後執行 *PowerBIEmbedded_AppOwnsData.sln* 檔案。
 
-若您使用**對組織進行內嵌**體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 資料夾，然後執行 *pbi-saas-embed-report.sln* 檔案。
+若您使用**為組織進行內嵌**體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 資料夾，然後執行 *pbi-saas-embed-report.sln* 檔案。
 
 ### <a name="how-can-i-edit-my-registered-application"></a>如何編輯已註冊的應用程式？
 

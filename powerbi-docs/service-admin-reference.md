@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 06/25/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ed4298e4ed4cddcdf965bd427c654cab6adf1e6
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 216451874fcc66b14286ea4ed3aeb1845483bfb7
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157003"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578351"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>用於管理 Power BI 的 PowerShell Cmdlet、REST API 和 .NET SDK
 Power BI 可讓系統管理員使用 PowerShell Cmdlet 撰寫一般工作的指令碼。 它也會公開 REST API 並提供 .NET SDK 來開發管理解決方案。 本主題顯示 Cmdlet 清單以及對應 SDK 方法和 REST API 端點。 如需詳細資訊，請參閱：
@@ -23,6 +23,8 @@ Power BI 可讓系統管理員使用 PowerShell Cmdlet 撰寫一般工作的指�
 - PowerShell [下載](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/)和[文件](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps)
 - REST API [文件](https://docs.microsoft.com/rest/api/power-bi/admin)
 - .NET SDK [下載](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
+
+> 下列 Cmdlet 須搭配 `-Scope Organization` 呼叫，才能用來對租用戶進行管理。
 
 | **Cmdlet 名稱** | **別名** | **SDK 方法** | **REST API 端點** | **描述** |
 | --- | --- | --- | --- | --- |
@@ -34,10 +36,9 @@ Power BI 可讓系統管理員使用 PowerShell Cmdlet 撰寫一般工作的指�
 | **Restore-PowerBIWorkspace** |**Restore-PowerBIGroup** | Groups\_RestoreDeletedGroupAsAdmin | /v1.0/myorg/admin/groups/{groupId}/restore | 還原已刪除的工作區。 |
 | **Set-PowerBIWorkspace** |**Set-PowerBIGroup** | Groups\_UpdateGroupAsAdmin | /v1.0/myorg/admin/groups/{groupId} | 更新指定工作區的屬性。 |
 | **Get-PowerBIDataset -WorkspaceId** | N/A | Groups\_GetDatasetsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/datasets | 取得指定工作區內的資料集。 |
-| **Export-PowerBIReport** | N/A | Reports\_ExportReportAsAdmin | N/A | 將指定的報表匯出至本機檔案。 |
 | **Get-PowerBIReport** | N/A | Reports\_GetReportsAsAdmin | /v1.0/myorg/admin/reports | 取得 Power BI 租用戶中的完整報表清單。 |
 | **Get-PowerBIDashboard** | N/A | Dashboards\_GetDashboardsAsAdmin | /v1.0/myorg/admin/dashboards | 取得 Power BI 租用戶中的完整儀表板清單。 |
-| **Get-PowerBIDashboard** | N/A | Groups\_GetDashboardsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/dashboards | 取得指定工作區內的儀表板。 |
+| **Get-PowerBIDashboard -WorkspaceId** | N/A | Groups\_GetDashboardsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/dashboards | 取得指定工作區內的儀表板。 |
 | **Get-PowerBITile** | **Get-PowerBIDashboardTile** | Dashboards\_GetTilesAsAdmin | /v1.0/myorg/admin/dashboards/{dashboard\_id}/tiles | 取得指定儀表板的圖格。 |
 | **Get-PowerBIReport** | N/A | Groups\_GetReportsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/reports | 取得指定工作區內的報表。 |
 | **Get-PowerBIImport** | N/A | Imports\_GetImportsAsAdmin | /v1.0/myorg/admin/imports | 取得 Power BI 租用戶中的完整匯入清單。 |
