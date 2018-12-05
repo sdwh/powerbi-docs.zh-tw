@@ -282,6 +282,8 @@ items:
         href: desktop-create-phone-report.md
       - name: 使用 [See Data] (查閱資料) 與 [See Records] (查閱記錄)
         href: desktop-see-data-see-records.md
+      - name: 建立報表的祕訣
+        href: desktop-tips-and-tricks-for-creating-reports.md
     - name: 視覺效果
       items:
       - name: 視覺效果最佳做法
@@ -312,7 +314,7 @@ items:
         href: power-bi-reports-add-text-and-shapes.md
       - name: 自訂 X 軸和 Y 軸屬性
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: Power BI 中的 ArcGIS
+      - name: Power BI 中的 ArcGIS 地圖
         href: power-bi-visualization-arcgis.md
       - name: 基本的區域圖
         href: visuals/power-bi-visualization-basic-area-chart.md
@@ -346,6 +348,8 @@ items:
         href: visuals/power-bi-visualization-treemaps.md
       - name: Power BI 中的瀑布圖
         href: visuals/power-bi-visualization-waterfall-charts.md
+      - name: 建立動態參考線
+        href: service-analytics-pane.md
     - name: 疑難排解
       items:
       - name: 解決 Power BI Desktop 和 Power Query 中匯入 Access 資料庫和 Excel 試算表的問題
@@ -382,10 +386,10 @@ items:
       href: power-bi-overview.md
   - name: 教學課程
     items:
-    - name: 連線到 GitHub 範例
-      href: service-tutorial-connect-to-github.md
     - name: 開始使用 Power BI
       href: service-get-started.md
+    - name: 連線到 GitHub 範例
+      href: service-tutorial-connect-to-github.md
   - name: 概念
     items:
     - name: Power BI 服務的新功能
@@ -644,40 +648,28 @@ items:
         href: service-dashboard-themes.md
     - name: 報表
       items:
-      - name: 從現有的報表建立新的報表
-        href: power-bi-report-copy.md
-      - name: 新增報表頁面
-        href: power-bi-report-add-page.md
+      - name: 從資料集建立新的報表
+        href: service-report-create-new.md
       - name: 新增報表篩選
         href: power-bi-report-add-filter.md
       - name: 將報表儲存在 Power BI
         href: service-report-save.md
-      - name: 從資料集建立新的報表
-        href: service-report-create-new.md
       - name: 在編輯檢視中與報表互動
         href: service-interact-with-a-report-in-editing-view.md
       - name: 在 Excel 中分析
         href: service-analyze-in-excel.md
       - name: 建立報表的祕訣和訣竅
         href: power-bi-reports-tips-and-tricks-for-creating.md
-      - name: '[分析] 窗格'
-        href: service-analytics-pane.md
       - name: 報表的使用計量
         href: service-usage-metrics.md
       - name: 建立報表的 QR 代碼
         href: service-create-qr-code-for-report.md
-      - name: 重新排列報表的頁面
-        href: service-report-reorder-pages.md
-      - name: 複製報表頁面
-        href: power-bi-report-copy-paste-page.md
       - name: 從服務將報表匯出到 Power BI Desktop (預覽)
         href: service-export-to-pbix.md
       - name: 在 URL 中使用的參數篩選報表
         href: service-url-filters.md
       - name: 在 Power BI 中建置快速可靠之報表的最佳做法
         href: power-bi-reports-performance.md
-      - name: 與 ArcGIS 地圖互動
-        href: visuals/power-bi-visualizations-arcgis.md
     - name: 詢問資料相關的問題
       items:
       - name: 使用問與答來建立視覺效果及報表
@@ -740,7 +732,7 @@ items:
           href: template-content-pack-testing.md
         - name: 範本內容套件體驗
           href: template-content-pack-experience.md
-    - name: 發佈
+    - name: 發行
       items:
       - name: Power BI Publisher for Excel
         href: publisher-for-excel.md
@@ -792,6 +784,30 @@ items:
         href: service-dataflows-developer-resources.md
       - name: 在 Power BI Desktop 中連線到資料流程
         href: desktop-connect-dataflows.md
+    - name: Power BI 中的編頁報表
+      items:
+      - name: 什麼是編頁報表？ (預覽)
+        href: paginated-reports-report-builder-power-bi.md
+      - name: 編頁報表常見問題集
+        href: paginated-reports-faq.md
+      - name: 建立編頁報表並上傳
+        href: paginated-reports-quickstart-aw.md
+      - name: 探索報表設計檢視
+        href: paginated-reports-report-design-view.md
+      - name: 直接在分頁報表中輸入資料
+        href: paginated-reports-enter-data.md
+      - name: 建立內嵌的資料來源
+        href: paginated-reports-embedded-data-source.md
+      - name: 建立內嵌的資料集
+        href: paginated-reports-create-embedded-dataset.md
+      - name: 建立參數
+        href: paginated-reports-parameters.md
+      - name: 發佈編頁報表
+        href: paginated-reports-save-to-power-bi-service.md
+      - name: 檢視編頁報表
+        href: paginated-reports-view-power-bi-service.md
+      - name: 與參數互動
+        href: paginated-reports-view-parameters.md
   - name: 資源
     items:
     - name: 影片
@@ -802,38 +818,6 @@ items:
       href: supported-languages-countries-regions.md
     - name: 白皮書
       href: whitepapers.md
-- name: Power BI 中的編頁報表
-  items:
-  - name: 概觀
-    items:
-    - name: 什麼是編頁報表？ (預覽)
-      href: paginated-reports-report-builder-power-bi.md
-  - name: 教學課程
-    items:
-    - name: 建立編頁報表並上傳
-      href: paginated-reports-quickstart-aw.md
-  - name: 概念
-    items:
-    - name: 探索報表設計檢視
-      href: paginated-reports-report-design-view.md
-    - name: 編頁報表常見問題集
-      href: paginated-reports-faq.md
-  - name: 如何
-    items:
-    - name: 直接在分頁報表中輸入資料
-      href: paginated-reports-enter-data.md
-    - name: 建立內嵌的資料來源
-      href: paginated-reports-embedded-data-source.md
-    - name: 建立內嵌的資料集
-      href: paginated-reports-create-embedded-dataset.md
-    - name: 建立參數
-      href: paginated-reports-parameters.md
-    - name: 發佈編頁報表
-      href: paginated-reports-save-to-power-bi-service.md
-    - name: 檢視編頁報表
-      href: paginated-reports-view-power-bi-service.md
-    - name: 與參數互動
-      href: paginated-reports-view-parameters.md
 - name: 適用於開發人員的 Power BI
   items:
   - name: 開發人員可如何使用 Power BI
@@ -1265,9 +1249,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331842"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830393"
