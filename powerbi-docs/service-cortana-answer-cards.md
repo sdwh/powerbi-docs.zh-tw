@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 327ba72c46aa5a6a2edea723bd5450cd5bbbcdb4
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187321"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829887"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>使用 Power BI 服務或 Power BI Desktop 建立 Cortana 的自訂回應頁面
 您可以使用 Power BI 的完整功能，建立稱為「Cortana 回應頁面」 (有時稱為*Cortana Answer Card*)、專為回答 Cortana 問題所設計的特殊報表頁面。
@@ -23,7 +23,7 @@ ms.locfileid: "47187321"
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
 > [!IMPORTANT]
-> 如果您試用 Cortana 和 Power BI 儀表板 Preview，則可以略過本文的其餘部分。 不需要進行設定，Cortana 就可以搜尋 Power BI 儀表板。
+> 如果您試用 Cortana 和 Power BI 儀表板 Preview，則可以略過此文章的其餘部分。 不需要進行設定，Cortana 就可以搜尋 Power BI 儀表板。
 > 
 > 
 
@@ -34,14 +34,14 @@ ms.locfileid: "47187321"
 
 **文章 2**：[針對搜尋 Power BI 報表：啟用 Cortana - Power BI - Windows 整合](service-cortana-enable.md)
 
-**文章 3**：本文章
+**文章 3**：此文章
 
 **文章 4**：[對問題進行疑難排解](service-cortana-troubleshoot.md)
 
 ## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>建立專為 Cortana 設計的 Cortana 回應頁面
 報表中的「Cortana 回應頁面」會特別為 Cortana 調整大小，讓 Cortana 可以在畫面中將其顯示為問題的答案。 建立 Cortana 的回應頁面：
 
-1. 建議從[空白報表頁面](power-bi-report-add-page.md)開始。
+1. 建議從空白報表頁面開始。
 2. 在 [視覺效果] 窗格中，選取油漆滾筒圖示，然後選擇 [頁面大小] > [類型] > [Cortana]。
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)

@@ -66,9 +66,9 @@ items:
       href: desktop-storage-mode.md
     - name: Power BI Desktop 中的雙向交叉篩選 (預覽)
       href: desktop-bidirectional-filtering.md
-    - name: Power BI 和 DirectQuery
+    - name: Power BI 與 DirectQuery
       href: desktop-directquery-about.md
-    - name: DirectQuery 支援的資料來源
+    - name: DirectQuery 所支援的資料來源
       href: desktop-directquery-data-sources.md
     - name: Power BI 資料來源必要條件
       href: desktop-data-source-prerequisites.md
@@ -174,15 +174,15 @@ items:
         href: desktop-use-directquery.md
       - name: Oracle 與 Teradata 資料庫的 DirectQuery
         href: desktop-directquery-for-oracle-teradata.md
-      - name: DirectQuery 和 SAP Business Warehouse (BW)
+      - name: DirectQuery 與 SAP Business Warehouse (BW)
         href: desktop-directquery-sap-bw.md
-      - name: DirectQuery 和 SAP HANA
+      - name: DirectQuery 與 SAP HANA
         href: desktop-directquery-sap-hana.md
-      - name: Power BI Desktop 中的採用參考完整性設定
+      - name: 在 Power BI Desktop 中採用參考完整性設定
         href: desktop-assume-referential-integrity.md
       - name: 在 Power BI Desktop 中使用 SAP BW 連接器 (預覽)
         href: desktop-sap-bw-connector.md
-      - name: 在 Power BI Desktop 中使用商務用 OneDrive
+      - name: 使用 Power BI Desktop 中的商務用 OneDrive 連結
         href: desktop-use-onedrive-business-links.md
       - name: 協力廠商服務：適用於 Power BI Desktop 的 Facebook 連接器
         href: service-facebook-connector.md
@@ -192,7 +192,7 @@ items:
         href: desktop-project-online-connect-to-data.md
     - name: 轉換與塑造資料
       items:
-      - name: 在 Power BI Desktop (預覽) 中使用圖形地圖
+      - name: 在 Power BI Desktop 中使用圖形地圖 (預覽)
         href: visuals/desktop-shape-map.md
       - name: 合併二進位檔
         href: desktop-combine-binaries.md
@@ -272,9 +272,9 @@ items:
         href: service-cortana-answer-cards.md
       - name: 資料列層級安全性
         href: desktop-rls.md
-      - name: 在 Power BI Desktop 中自訂工具提示
+      - name: Power BI Desktop 中的自訂工具提示
         href: desktop-custom-tooltips.md
-      - name: 在 Power BI Desktop 中設定資料表格式化的條件
+      - name: Power BI Desktop 中的條件式表格格式設定
         href: desktop-conditional-table-formatting.md
       - name: Power BI Desktop 中的依資料行排序
         href: desktop-sort-by-column.md
@@ -332,7 +332,7 @@ items:
         href: desktop-high-density-sampling.md
       - name: KPI 視覺效果
         href: visuals/power-bi-visualization-kpi.md
-      - name: 在 Power BI 中使用 R 指令碼建立進階分析和視覺效果
+      - name: 在 Power BI 中使用 R 指令碼建立進階分析與視覺效果
         href: visuals/service-r-visuals.md
       - name: Power BI 中的星形量測計圖表
         href: visuals/power-bi-visualization-radial-gauge-charts.md
@@ -370,7 +370,7 @@ items:
     items:
     - name: Power BI Desktop 影片
       href: desktop-videos.md
-    - name: Power BI Desktop 的先前每月更新
+    - name: Power BI Desktop 先前的每月更新
       href: desktop-latest-update-archive.md
     - name: Power BI Desktop 傳送笑臉隱私權聲明
       href: desktop-send-smile-privacy-statement.md
@@ -396,7 +396,7 @@ items:
       href: service-whats-new.md
     - name: 設計工具的基本概念
       href: service-basic-concepts.md
-    - name: 10 個祕訣協助您取得說明
+    - name: 取得說明的 10 個提示
       href: service-tips-for-finding-help.md
     - name: 授權
       items:
@@ -438,28 +438,16 @@ items:
         href: service-cortana-intro.md
     - name: 其他
       items:
-      - name: Microsoft Flow 和 Power BI
+      - name: Microsoft Flow 及 Power BI
         href: service-flow-integration.md
       - name: 開始使用協力廠商應用程式
         href: service-power-bi-get-started-third-party-apps.md
   - name: 如何
     items:
-    - name: 一般工作
-      items:
-      - name: 重新命名 Power BI 中的內容
-        href: service-rename.md
-      - name: Power BI 的快速深入剖析
-        href: service-insights.md
-      - name: 註冊您的美國政府組織
-        href: service-govus-signup.md
-      - name: Power BI 服務中的資料警示
-        href: service-set-data-alerts.md
-      - name: 開始使用 Power BI 問與答
-        href: power-bi-visualization-introduction-to-q-and-a.md
-      - name: 刪除 Power BI 中的大部分項目
-        href: service-delete.md
     - name: 連接至服務
       items:
+      - name: 連接至服務
+        href: service-connect-to-services.md
       - name: Acumatica
         href: service-connect-to-acumatica.md
       - name: Adobe Analytics
@@ -476,11 +464,11 @@ items:
         href: service-connect-to-azure-audit-logs.md
       - name: Azure Mobile Engagement
         href: service-connect-to-azure-mobile.md
-      - name: Microsoft Azure 使用量見解
+      - name: Microsoft Azure Consumption Insights
         href: service-connect-to-azure-consumption-insights.md
       - name: Azure 搜尋服務
         href: service-connect-to-azure-search.md
-      - name: Circuit ID
+      - name: 電路識別碼
         href: service-connect-to-circuit-id.md
       - name: ClickDimensions
         href: service-connect-to-clickdimensions.md
@@ -574,7 +562,7 @@ items:
         href: service-parameters.md
       - name: 從逗點分隔值 (.CSV) 檔案取得資料
         href: service-comma-separated-value-files.md
-      - name: Power BI 中的即時串流 (預覽)
+      - name: Power BI 中的即時串流
         href: service-real-time-streaming.md
       - name: 從 Excel 2016 發佈至 Power BI
         href: service-publish-from-excel.md
@@ -626,6 +614,8 @@ items:
         href: service-dashboard-pin-tile-from-q-and-a.md
       - name: 將整份報表頁面釘選至儀表板
         href: service-dashboard-pin-live-tile-from-report.md
+      - name: Power BI 服務中的資料警示
+        href: service-set-data-alerts.md
       - name: 儀表板的使用計量
         href: service-usage-metrics.md
       - name: 將影像、文字方塊、影片或程式碼新增至儀表板
@@ -634,9 +624,7 @@ items:
         href: service-dashboard-edit-tile.md
       - name: 設計絕佳 Power BI 儀表板的秘訣
         href: service-dashboards-design-tips.md
-      - name: 針對快速見解將資料最佳化
-        href: service-insights-optimize.md
-      - name: 建立儀表板的手機檢視
+      - name: 建立手機檢視的儀表板
         href: service-create-dashboard-mobile-phone-view.md
       - name: 為磚建立 QR 代碼
         href: service-create-qr-code-for-tile.md
@@ -648,7 +636,7 @@ items:
         href: service-dashboard-themes.md
     - name: 報表
       items:
-      - name: 從資料集建立新的報表
+      - name: 從資料集建立報表
         href: service-report-create-new.md
       - name: 新增報表篩選
         href: power-bi-report-add-filter.md
@@ -656,15 +644,15 @@ items:
         href: service-report-save.md
       - name: 在編輯檢視中與報表互動
         href: service-interact-with-a-report-in-editing-view.md
-      - name: 在 Excel 中分析
+      - name: 在 Excel 中進行分析
         href: service-analyze-in-excel.md
       - name: 建立報表的祕訣和訣竅
         href: power-bi-reports-tips-and-tricks-for-creating.md
       - name: 報表的使用計量
         href: service-usage-metrics.md
-      - name: 建立報表的 QR 代碼
+      - name: 為報表建立 QR 代碼
         href: service-create-qr-code-for-report.md
-      - name: 從服務將報表匯出到 Power BI Desktop (預覽)
+      - name: 將報表匯出到 Power BI Desktop (預覽)
         href: service-export-to-pbix.md
       - name: 在 URL 中使用的參數篩選報表
         href: service-url-filters.md
@@ -672,18 +660,24 @@ items:
         href: power-bi-reports-performance.md
     - name: 詢問資料相關的問題
       items:
+      - name: 開始使用 Power BI 問與答
+        href: power-bi-visualization-introduction-to-q-and-a.md
       - name: 使用問與答來建立視覺效果及報表
         href: power-bi-tutorial-q-and-a.md
       - name: 讓資料在問與答中完美運作
         href: service-prepare-data-for-q-and-a.md
-      - name: 啟用適用於 Power BI 的 Cortana
-        href: service-cortana-enable.md
       - name: 為問與答建立特色問題
         href: service-q-and-a-create-featured-questions.md
-      - name: Power BI 中的視覺效果類型
+      - name: 問與答中的視覺效果類型
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
       - name: 透過即時連線使用問與答
         href: service-q-and-a-direct-query.md
+      - name: 啟用適用於 Power BI 的 Cortana
+        href: service-cortana-enable.md
+      - name: Power BI 的快速深入剖析
+        href: service-insights.md
+      - name: 針對快速見解將資料最佳化
+        href: service-insights-optimize.md
     - name: 分享您的成果
       items:
       - name: 如何共同作業及共用？
@@ -710,31 +704,9 @@ items:
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
       - name: 在 OneDrive 上共用連結至 Excel 活頁簿的儀表板
         href: service-share-dashboard-that-links-to-excel-onedrive.md
-    - name: 內容套件
-      items:
-      - name: 管理、更新和刪除組織內容套件
-        href: service-organizational-content-pack-manage-update-delete.md
-      - name: 組織內容套件︰複製、重新整理及存取
-        href: service-organizational-content-pack-copy-refresh-access.md
-      - name: 組織內容套件：簡介
-        href: service-organizational-content-pack-introduction.md
-      - name: 建立和發佈組織內容套件
-        href: service-organizational-content-pack-create-and-publish.md
-      - name: 移除與組織內容套件的連接
-        href: service-organizational-content-pack-disconnect.md
-      - name: 憑證
-        items:
-        - name: 內容套件認證計劃
-          href: service-content-pack-overview.md
-        - name: 範本內容套件撰寫
-          href: template-content-pack-authoring.md
-        - name: 範本內容套件測試
-          href: template-content-pack-testing.md
-        - name: 範本內容套件體驗
-          href: template-content-pack-experience.md
     - name: 發行
       items:
-      - name: Power BI Publisher for Excel
+      - name: Power BI publisher for Excel
         href: publisher-for-excel.md
     - name: 疑難排解
       items:
@@ -760,7 +732,7 @@ items:
         href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
       - name: Azure SQL Database 排程重新整理疑難排解
         href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-      - name: 錯誤：在此 Excel 活頁簿中找不到任何資料。
+      - name: 錯誤：在此 Excel 活頁簿中找不到任何資料
         href: service-admin-troubleshoot-excel-workbook-data.md
       - name: 圖格錯誤的疑難排解
         href: refresh-troubleshooting-tile-errors.md
@@ -788,26 +760,56 @@ items:
       items:
       - name: 什麼是編頁報表？ (預覽)
         href: paginated-reports-report-builder-power-bi.md
-      - name: 編頁報表常見問題集
+      - name: 編頁報表常見問題集 (預覽)
         href: paginated-reports-faq.md
-      - name: 建立編頁報表並上傳
+      - name: 建立編頁報表並上傳 (預覽)
         href: paginated-reports-quickstart-aw.md
-      - name: 探索報表設計檢視
+      - name: 探索報表設計檢視 (預覽)
         href: paginated-reports-report-design-view.md
-      - name: 直接在分頁報表中輸入資料
+      - name: 直接在編頁報表中輸入資料 (預覽)
         href: paginated-reports-enter-data.md
-      - name: 建立內嵌的資料來源
+      - name: 建立內嵌的資料來源 (預覽)
         href: paginated-reports-embedded-data-source.md
-      - name: 建立內嵌的資料集
+      - name: 建立內嵌的資料集 (預覽)
         href: paginated-reports-create-embedded-dataset.md
-      - name: 建立參數
+      - name: 建立參數 (預覽)
         href: paginated-reports-parameters.md
-      - name: 發佈編頁報表
+      - name: 發佈編頁報表 (預覽)
         href: paginated-reports-save-to-power-bi-service.md
-      - name: 檢視編頁報表
+      - name: 檢視編頁報表 (預覽)
         href: paginated-reports-view-power-bi-service.md
-      - name: 與參數互動
+      - name: 與參數互動 (預覽)
         href: paginated-reports-view-parameters.md
+    - name: 其他工作
+      items:
+      - name: 重新命名 Power BI 中的內容
+        href: service-rename.md
+      - name: 註冊您的美國政府組織
+        href: service-govus-signup.md
+      - name: 刪除 Power BI 中的大部分項目
+        href: service-delete.md
+      - name: 內容套件
+        items:
+        - name: 管理、更新和刪除組織內容套件
+          href: service-organizational-content-pack-manage-update-delete.md
+        - name: 組織內容套件︰複製、重新整理及存取
+          href: service-organizational-content-pack-copy-refresh-access.md
+        - name: 組織內容套件：簡介
+          href: service-organizational-content-pack-introduction.md
+        - name: 建立和發佈組織內容套件
+          href: service-organizational-content-pack-create-and-publish.md
+        - name: 移除與組織內容套件的連接
+          href: service-organizational-content-pack-disconnect.md
+        - name: 憑證
+          items:
+          - name: 內容套件認證計劃
+            href: service-content-pack-overview.md
+          - name: 範本內容套件撰寫
+            href: template-content-pack-authoring.md
+          - name: 範本內容套件測試
+            href: template-content-pack-testing.md
+          - name: 範本內容套件體驗
+            href: template-content-pack-experience.md
   - name: 資源
     items:
     - name: 影片
@@ -1042,7 +1044,7 @@ items:
         href: report-server/data-sources.md
       - name: 分頁報表資料來源
         href: report-server/connect-data-sources.md
-      - name: 訂用帳戶
+      - name: 訂閱
         href: https://go.microsoft.com/fwlink/?linkid=851310
       - name: 使用行動裝置應用程式
         href: https://go.microsoft.com/fwlink/?linkid=848711
@@ -1090,7 +1092,7 @@ items:
         href: report-server/upgrade.md
       - name: 移轉報表伺服器
         href: report-server/migrate-report-server.md
-      - name: 設定 Kerberos 使用 Power BI 報表
+      - name: 設定 Kerberos 以使用 Power BI 報表
         href: report-server/configure-kerberos-powerbi-reports.md
       - name: 從遠端設定行動裝置應用程式存取
         href: report-server/configure-powerbi-mobile-apps-remote.md
@@ -1112,7 +1114,7 @@ items:
     items:
     - name: 容量規劃白皮書
       href: report-server/capacity-planning.md
-- name: 閘道
+- name: 閘道器
   items:
   - name: 概觀
     items:
@@ -1154,11 +1156,11 @@ items:
         href: service-gateway-sso-kerberos.md
       - name: 單一登入 (SSO) - SAML
         href: service-gateway-sso-saml.md
-    - name: 設定 Proxy 設定
+    - name: 進行 Proxy 設定
       href: service-gateway-proxy.md
     - name: 內部部署資料閘道的高可用性叢集
       href: service-gateway-high-availability-clusters.md
-    - name: 內部部署資料閘道
+    - name: 內部部署資料閘道器
       href: service-gateway-onprem.md
     - name: 內部部署資料閘道 - 深入資訊
       href: service-gateway-onprem-indepth.md
@@ -1228,7 +1230,7 @@ items:
       href: service-admin-power-bi-expressroute.md
     - name: 使用 Azure AD B2B
       href: service-admin-azure-ad-b2b.md
-    - name: 資料列層級安全性和 Power BI
+    - name: Power BI 的資料列層級安全性
       href: service-admin-rls.md
     - name: Power BI 封存工作區
       href: service-admin-power-bi-archived-workspace.md
@@ -1249,9 +1251,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 83446170e1ee29cdf2e2d2f1298a37c58e255f1b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830393"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900374"

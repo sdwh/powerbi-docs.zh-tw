@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a15975f456bab94fd04fa7501760c9874fabf952
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 01051ab47304713fe3cf0f9128f5cd99af58bffe
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44729424"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830209"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>第 2 部分：在 Power BI 報表中新增視覺效果
-在[第 1 部分](power-bi-report-add-visualizations-ii.md)，您選取了欄位名稱旁邊的核取方塊來建立基本的視覺效果。  在第 2 部分，您會學習如何使用拖放及充分利用 [欄位]  和 [視覺效果]  窗格來建立和修改視覺效果。
+在[第 1 部分](power-bi-report-add-visualizations-ii.md)，您選取了欄位名稱旁邊的核取方塊來建立基本的視覺效果。  在第 2 部分，您會學習如何使用拖放及充分利用 [欄位] 與 [視覺效果] 窗格來建立和修改視覺效果。
 
 ### <a name="prerequisites"></a>先決條件
 - [第 1 部分](power-bi-report-add-visualizations-ii.md)
@@ -26,13 +26,13 @@ ms.locfileid: "44729424"
 - [零售分析範例](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 ## <a name="create-a-new-visualization"></a>建立新的視覺效果
-本教學課程中，我們要深入探討零售分析資料集，並建立幾個重要的視覺效果。
+此教學課程中，我們要深入探討零售分析資料集，並建立幾個重要的視覺效果。
 
 ### <a name="open-a-report-and-add-a-new-blank-page"></a>開啟報表並加入新的空白頁面。
 1. 在 Power BI Desktop 中開啟零售分析範例 .PBIX 檔案。 
    ![](media/power-bi-report-add-visualizations-ii/power-bi-open-desktop.png)   
 
-2.  選取畫布底部的黃色加號圖示以[新增頁面](../power-bi-report-add-page.md)。
+2. 選取畫布底部的黃色加號圖示以新增頁面。
 
 ### <a name="add-a-visualization-that-looks-at-this-years-sales-compared-to-last-year"></a>加入視覺效果，查看本年度與去年度的比較銷售額。
 1. 從 [銷售] 資料表中選取 [本年度銷售額] >  [值] 和 [去年度銷售額]。 Power BI 建立了直條圖。  這個有點意思，而您想要更進一步探討。 每月的銷售額又會是如何呢？  

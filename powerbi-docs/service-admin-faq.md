@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157072"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830301"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
-本文可解決 Power BI 管理的常見問題。 如需 Power BI 管理的概觀，請參閱[什麼是 Power BI 管理？](service-admin-administering-power-bi-in-your-organization.md)。
+此文章可解決 Power BI 管理的常見問題。 如需 Power BI 管理的概觀，請參閱[什麼是 Power BI 管理？](service-admin-administering-power-bi-in-your-organization.md)。
 
-## <a name="whats-in-this-article"></a>本文內容
+## <a name="whats-in-this-article"></a>此文章內容
 
 ### <a name="sign-up-for-power-bi-section"></a>註冊 Power BI 小節
 
@@ -174,11 +174,15 @@ Power BI 提供的管理入口網站，可讓您檢視使用量統計資料、�
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>管理 Microsoft 為使用者所建之租用戶的程序為何？
 
-如果租用戶之前是由 Microsoft 所建立，您可以遵循下列步驟宣告並管理該租用戶︰
+當自助使用者註冊使用 Azure AD 的雲端服務時，系統會根據他們的電子郵件網域將他們新增到非受控 Azure AD 目錄。 您可以宣告及管理使用稱為「系統管理員接管」之程序建立的租用戶。 您執行的接管類型取決於是否存在與您的網域關聯的受控租用戶：
 
-1. 註冊 Power BI，使用符合您想要管理之租用戶網域的電子郵件地址網域，以加入租用戶。 例如，如果 Microsoft 建立了 contoso.com 租用戶，您可以使用結尾是 @contoso.com 的電子郵件地址來加入租用戶。
+* 使用「內部接管」為網域建立新的受控租用戶。
 
-1. 透過驗證網域擁有權可以宣告系統管理控制權︰只要位在租用戶中，即可透過驗證網域擁有權將自己升級成 *全域管理員* 角色。 若要這樣做，請遵循這些步驟，再按照 [Office 365 文件](/office365/admin/misc/become-the-admin)中的步驟操作。
+* 使用「外部接管」將網域移動到現有的受控租用戶。
+
+如需詳細資訊，請參閱[使用 Azure Active Directory 中的系統管理員身分接管非受控目錄](/azure/active-directory/users-groups-roles/domains-admin-takeover)。
+
+當您執行外部接管時，在接管之前建立的 Power BI 內容會放在 [Power BI 封存工作區](service-admin-power-bi-archived-workspace.md)中。 您必須手動將想要使用的任何內容移轉到新租用戶。
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>如果有多個網域，我可以控制使用者新增的 Office 365 租用戶嗎？
 

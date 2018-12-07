@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ab292964bb1b6b1f4218d41c46eb2c28c82a034c
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 5720e52b61332aeca82d0b23b776f590634e622f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416743"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829611"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Power BI 中的環圈圖
 環圈圖類似於圓形圖之處，在於它會顯示部分與整體的關聯性。 唯一的差別在於，中央為空白，且保留空間給標籤或圖示。
@@ -23,7 +23,7 @@ ms.locfileid: "47416743"
 ## <a name="create-a-doughnut-chart"></a>建立環圈圖
 這些指示會使用「零售分析範例」來建立環圈圖，依類別顯示今年度銷售量。 若要跟著做，請針對 Power BI 服務或 Power BI Desktop [下載範例](../sample-datasets.md)。
 
-1. 從[空白報表頁面](../power-bi-report-add-page.md)開始。 如果您使用 Power BI 服務，請務必在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報告。
+1. 從空白報表頁面開始。 如果您使用 Power BI 服務，請務必在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報告。
 
 2. 從 [欄位] 窗格中，選取 [銷售額] \> [去年度銷售額]。  
    

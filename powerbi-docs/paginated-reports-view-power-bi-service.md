@@ -1,5 +1,5 @@
 ---
-title: 檢視 Power BI 服務中的編頁報表 | Microsoft Docs
+title: 在 Power BI 服務中檢視編頁報表 (預覽)
 description: 在此教學課程中，您將了解如何檢視 Power BI 服務中的編頁報表。
 author: maggiesMSFT
 manager: kfile
@@ -9,18 +9,18 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: db067a2e81aa62febc952ce50ce4a3e82ef38b76
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 874fe08622dfcbd65463a016e87d1687b6938276
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266815"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900305"
 ---
-# <a name="view-a-paginated-report-in-the-power-bi-service"></a>檢視 Power BI 服務中的編頁報表
+# <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>在 Power BI 服務中檢視編頁報表 (預覽)
 
 在此文章中，您將了解如何對 Power BI 服務檢視編頁報表。 編頁報表是在報表產生器中建立並上傳至 Premium 容量中任何工作區的報表。 尋找工作區名稱旁邊的鑽石圖示 ![Power BI Premium 容量鑽石圖示](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) (在工作區名稱旁邊)。 
 
-編頁報表都有自己的圖示 ![編頁報表圖示](media/paginated-reports-view-power-bi-service/power-bi-paginated-report-icon.png)。
+編頁報表都有自己的圖示 ![編頁報表圖示](media/paginated-reports-view-power-bi-service/power-bi-paginated-report-icon.png).
 
 您也可以將編頁報表匯出為下列數種格式： 
 

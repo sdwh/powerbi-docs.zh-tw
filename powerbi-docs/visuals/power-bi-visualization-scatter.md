@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7739dda4647a82b3c9d4b58976db89038428625a
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 9b508964062146ff140bcb85b0b8b42e9bf4f68f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003171"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830117"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散佈圖、泡泡圖與點圖
 散佈圖一律會有兩個值座標軸，沿著水平軸顯示一組數字資料，沿著垂直軸顯示另一組數值。 此圖表顯示 x 與 y 數交集處的點，結合這些值可形成單一的資料點。 視資料之不同，這些資料點可能平均散布或不平均地散佈在水平軸。
@@ -57,7 +57,7 @@ ms.locfileid: "50003171"
 
 這些指示使用零售分析範例。 若要跟著做，請針對 Power BI 服務 (app.powerbi.com) 或 Power BI Desktop [下載範例](../sample-datasets.md)。   
 
-1. 在 [編輯] 檢視開啟報表，然後選取黃色加號圖示以建立[空白的報表頁面](../power-bi-report-add-page.md)。
+1. 在 [編輯] 檢視開啟報表，然後選取黃色加號圖示以建立空白的報表頁面。
  
 2. 從 [欄位] 窗格選取下列欄位：
    - [Sales] (銷售) > [Sales Per Sq Ft] (每平方英呎的銷售)

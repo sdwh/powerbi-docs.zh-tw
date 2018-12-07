@@ -1,5 +1,5 @@
 ---
-title: 教學課程：建立編頁報表並將它上傳至 Power BI 服務 | Microsoft Docs
+title: 教學課程：建立編頁報表並將它上傳至 Power BI 服務 (預覽)
 description: 在此教學課程中，您將會連線到範例 Azure SQL Database。 接著會使用報表產生器中的精靈來建立編頁報表。 隨後會在 Power BI 服務中，將編頁報表上傳至 Premium 容量中的工作區。
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: b057fd14083cdabff96d9821d1399da07b93556b
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452816"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900604"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教學課程：建立編頁報表並將它上傳至 Power BI 服務
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>教學課程：建立編頁報表並將它上傳至 Power BI 服務 (預覽)
 
 在此教學課程中，您將會連線到範例 Azure SQL Database。 接著會使用報表產生器中的精靈來建立編頁報表，其中包含要自動分成多頁的資料表。 隨後會在 Power BI 服務中，將編頁報表上傳至 Premium 容量中的工作區。 Power BI 服務中的編頁報表目前處於預覽狀態。
 

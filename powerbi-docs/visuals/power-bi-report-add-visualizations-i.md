@@ -11,25 +11,25 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f2edbd7b0b977b378d25634a0f9505101350d73b
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545260"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829795"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>第 1 部分：在 Power BI 報表中新增視覺效果
-本文提供在報表中使用 Power BI 服務或 Power BI Desktop 建立視覺效果的快速簡介。  如需更進一步的內容，請[參閱第二部分](power-bi-report-add-visualizations-ii.md)。 觀看 Amanda 示範數種不同方式，以在報表畫布上建立、編輯和格式化視覺效果。 接著，自己試著使用[銷售和行銷範例](../sample-datasets.md)來建立專屬報表。
+此文章提供在報表中使用 Power BI 服務或 Power BI Desktop 建立視覺效果的快速簡介。  如需更進一步的內容，請[參閱第二部分](power-bi-report-add-visualizations-ii.md)。 觀看 Amanda 示範數種不同方式，以在報表畫布上建立、編輯和格式化視覺效果。 接著，自己試著使用[銷售和行銷範例](../sample-datasets.md)來建立專屬報表。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
 
 ## <a name="open-a-report-and-add-a-new-page"></a>開啟報表並新增頁面
-1. [在 [編輯檢視] 中開啟報表](../consumer/end-user-reading-view.md)。 本教學課程使用[銷售與行銷範例](../sample-datasets.md)。
+1. [在 [編輯檢視] 中開啟報表](../consumer/end-user-reading-view.md)。 此教學課程使用[銷售與行銷範例](../sample-datasets.md)。
 2. 如果看不到 [欄位] 窗格，請選取箭號圖示開啟它。 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
-3. [在報表中新增空白頁面](../power-bi-report-add-page.md)。
+3. 在報表中新增空白頁面。
 
 ## <a name="add-visualizations-to-the-report"></a>將視覺效果新增至報表
 1. 從 [欄位]  窗格選取欄位來建立視覺效果。  

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: b15d285774f0b6735fbc5df0ca2d00a81b944012
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48874567"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829933"
 ---
 # <a name="card-visualizations"></a>卡片視覺效果
 有時您在 Power BI 儀表板或報告中追蹤的最重要項目是一個單一數字，例如總銷售額、歷年的市佔率，或總商機。 這類型的視覺效果稱為「卡片」。 幾乎所有的原生 Power BI 視覺效果，都可以使用報告編輯器或 [問與答] 來建立卡片。
@@ -25,7 +25,7 @@ ms.locfileid: "48874567"
 ## <a name="create-a-card-using-the-report-editor"></a>使用報告編輯器建立卡片
 這些指示使用零售分析範例。 若要跟著做，請針對 Power BI 服務 (app.powerbi.com) 或 Power BI Desktop [下載範例](../sample-datasets.md)。   
 
-1. 從[空白報告頁面](../power-bi-report-add-page.md)開始，選取 [商店] \> [開啟商店計數] 欄位。 如果您使用 Power BI 服務，您必須在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報告。
+1. 從空白報告頁面開始，選取 [商店] \> [開啟商店計數] 欄位。 如果您使用 Power BI 服務，您必須在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報告。
 
     Power BI 會以一個數字建立直條圖。
 

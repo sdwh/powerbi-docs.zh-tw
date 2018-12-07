@@ -1,8 +1,13 @@
-# powerbi-content-pr
-You've found the GitHub repository for the technical documentation that is published to the Power BI Documentation Center at [http://powerbi.microsoft.com/documentation](http://powerbi.microsoft.com/documentation).
+# <a name="microsoft-power-bi-documentation"></a>Microsoft Power BI 文件
 
-This repository also contains guidance to help you contribute to our technical documentation. For a list of the articles in the contributors' guide, see [the index](contributor-guide/contributor-guide-index.md).
+此文章是 **Power BI** 技術產品文件的 GitHub 存放庫。 此文件已發行到 [https://docs.microsoft.com/power-bi](https://docs.microsoft.com/power-bi)。
 
-## Code of conduct
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+## <a name="how-to-contribute"></a>如何做出貢獻
 
+感謝您選擇對 [Docs.microsoft.com](https://docs.microsoft.com/) 做出貢獻，這是 Microsoft 產品與服務的技術內容中心。
+
+若要了解如何對此存放庫中的內容做出貢獻，請從我們的[文件參與者指南](https://docs.microsoft.com/contribute)開始。 若您是 Microsoft 員工，請瀏覽此指南的[內部版本](https://aka.ms/docsguidescontribute)。
+
+## <a name="code-of-conduct"></a>行為準則
+
+此專案採用 [Microsoft 開放原始碼行為準則](https://opensource.microsoft.com/codeofconduct/)。 如需詳細資訊，請參閱[行為準則常見問題集](https://opensource.microsoft.com/codeofconduct/faq/) \(英文\) 或連絡 [opencode@microsoft.com](mailto:opencode@microsoft.com) 以提出任何其他問題或您的意見。

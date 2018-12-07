@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: fd352cd78225e647acf53c2af899e4d2fc662376
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 7830aa829dc05e29ec0b8dc23d7f35b58991b007
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289258"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830140"
 ---
 # <a name="certified-custom-visuals"></a>認證的自訂視覺效果
 
@@ -138,6 +138,7 @@ Microsoft 可自行斟酌將視覺效果自[認證清單](#list-of-custom-visual
 | [Ring Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) (MAQ Software 的環狀圖) | [影片](https://youtu.be/pDToHDFHnq8) |
 | [Rotating Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) (MAQ Software 的旋轉圖) | [影片](https://youtu.be/d5xBCMmb3hU) |
 | [Sankey Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380777) (Sankey 圖表) | [影片](https://youtu.be/WWP9wVUHGaA) |
+| [Akvelon 的散佈圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381703) | |
 | [捲軸](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
 | [Smart Filter by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) (依 OKViz 排列的智慧篩選) | [影片](https://youtu.be/gcJsDDRQq28) |
 | [Sparkline by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) (OKViz 走勢圖) | [影片](https://youtu.be/0m3Vnvso9tY) |

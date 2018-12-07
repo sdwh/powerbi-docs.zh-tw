@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: f6cb53eadb3c5ddf14b8f8b3b3882e0d7b509a3f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396794"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830094"
 ---
 # <a name="export-data-from-visualizations"></a>從視覺效果匯出資料
 如果您想要查看用來建立視覺效果的資料，可以在 Power BI 中顯示該資料，或將資料匯出至 Excel 成為 .xlsx 或 .csv 檔案。 匯出資料的選項需要專業或進階授權，以及資料集和報表的編輯權限。 
@@ -38,7 +38,7 @@ ms.locfileid: "49396794"
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
 
 ## <a name="from-a-visualization-in-a-report"></a>從報表中的視覺效果
-若要跟著做，請在[編輯檢視](../consumer/end-user-reading-view.md)中開啟[採購分析範例報表](../sample-procurement.md)。 [新增空白的報表頁面](../power-bi-report-add-page.md)。 然後遵循下列步驟來新增彙總及視覺效果層級篩選。
+若要跟著做，請在[編輯檢視](../consumer/end-user-reading-view.md)中開啟[採購分析範例報表](../sample-procurement.md)。 新增空白的報表頁面。 然後遵循下列步驟來新增彙總及視覺效果層級篩選。
 
 1. 建立新的直條圖。  從 [欄位] 窗格，選取 [位置] > [城市] 和 [發票] > [折扣百分比]。  您可能必須將**折扣百分比**移到 [值] 中。 
 

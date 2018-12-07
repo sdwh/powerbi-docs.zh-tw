@@ -1,5 +1,5 @@
 ---
-title: 使用 Power BI 服務建立編頁報表的參數 | Microsoft Docs
+title: 使用 Power BI 服務建立編頁報表的參數 (預覽)
 description: 您將在此文章中了解如何使用 Power BI 服務中立編頁報表的參數。
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 3a1d497f112e84aeb958b86658ee3ffae3e87c6d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d36f8e26282ae794976b0d679feb426ea04a981b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266816"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900282"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>使用 Power BI 服務建立編頁報表的參數
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>使用 Power BI 服務建立編頁報表的參數 (預覽)
 
 您將在此文章中了解如何使用 Power BI 服務中立編頁報表的參數。  報表參數提供一個方式讓您選擇報表資料及改變報表呈現方式。 您可以提供預設值和一份可用值清單，讓報表讀者可以變更選擇。  
 

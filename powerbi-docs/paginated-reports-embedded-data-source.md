@@ -1,5 +1,5 @@
 ---
-title: Power BI 服務中適用於編頁報表的內嵌資料來源 | Microsoft Docs
+title: Power BI 服務中適用於編頁報表的內嵌資料來源 (預覽)
 description: 在此文章中，您會了解如何在 Power BI 服務的編頁報表中建立及修改內嵌資料來源。
 author: maggiesMSFT
 manager: kfile
@@ -9,17 +9,17 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: f3e305f70bb21011bbb395d453721ef65011844c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 3c1340d9cae7e7002e8bbbdc3d6888e19b1ce7ff
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266903"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900190"
 ---
-# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料來源
+# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料來源 (預覽)
 在此文章中，您會了解如何在 Power BI 服務中建立及修改適用於編頁報表的內嵌資料來源。 您會在單一報表中定義內嵌資料來源，並將它僅用於該報表中。 目前，發行至 Power BI 服務的編頁報表需要內嵌的資料集和內嵌的資料來源，且可以連線到這些資料來源：
 
-- Azure SQL Database 和 資料倉儲
+- Azure SQL Database 和資料倉儲
 - SQL Server
 - SQL Server Analysis Services 
 
