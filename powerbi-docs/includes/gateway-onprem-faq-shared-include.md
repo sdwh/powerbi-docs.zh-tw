@@ -37,14 +37,14 @@
 **問題︰** 我的認證會儲存在哪裡？  
 **回答︰** 您輸入的資料來源認證會以加密狀態儲存在閘道雲端服務中。 認證會在內部部署閘道解密。
 
-**問題︰** 可以將閘道放在周邊網路 (也稱為 DMZ、非軍事區域及遮蔽式子網路) 嗎？  
+**問題︰** 可以將閘道放在周邊網路 (也稱為 DMZ 及遮蔽式子網路) 嗎？  
 **答︰** 此閘道必須能夠連接到資料來源。 若資料來源無法在您的周邊網路中存取，此閘道就無法與其連接。 例如，若您的 SQL Server 不在您的周邊網路中， 您就無法從周邊網路連線到您的 SQL Server。 若您將此閘道部署在您的周邊網路中，其就無法聯繫 SQL Server。
 
 **問題：** 可以強制閘道在 Azure 服務匯流排使用 HTTPS 流量，而不使用 TCP 嗎？  
 **回答：** 可以。 不過，這會大幅降低效能。 您會需要修改 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 檔案。 您會需要將值從 `AutoDetect` 變更為 `Https`。 根據預設，這個檔案位於 *C:\Program Files\On-premises data gateway* 。
 
-**問題︰** 我需要將 Azure DataCenter IP 清單加入白名單嗎？ 何處取得清單？  
-**回答︰** 如果您要封鎖輸出 IP 流量，您可能需要將 Azure DataCenter IP 清單加入白名單。 目前，閘道會使用 IP 位址及完整網域名稱來與 Azure 服務匯流排通訊。 Azure DataCenter IP 清單會每週更新一次。 您可以下載 [Microsoft Azure 資料中心的 IP 清單](https://www.microsoft.com/download/details.aspx?id=41653)。
+**問題︰** 我需要將 Azure DataCenter IP 清單加入允許清單嗎？ 何處取得清單？  
+**回答︰** 如果您要封鎖輸出 IP 流量，您可能需要將 Azure DataCenter IP 清單加入允許清單。 目前，閘道會使用 IP 位址及完整網域名稱來與 Azure 服務匯流排通訊。 Azure DataCenter IP 清單會每週更新一次。 您可以下載 [Microsoft Azure 資料中心的 IP 清單](https://www.microsoft.com/download/details.aspx?id=41653)。
 
 ```
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">

@@ -38,13 +38,13 @@ ms.locfileid: "52670968"
 
 當此錯誤發生時，最可能的原因是您網路上的 Proxy 驗證伺服器封鎖 **Power BI Desktop** 發出的 Web 要求。 
 
-如果您的網路使用 Proxy 驗證伺服器，您的系統管理員可以在 Proxy 驗證伺服器上將以下網域加入白名單，以修正此問題：
+如果您的網路使用 Proxy 驗證伺服器，您的系統管理員可以在 Proxy 驗證伺服器上將以下網域加入允許清單，以修正此問題：
 
 * app.powerbi.com
 * api.powerbi.com
 * *.analysis.windows.net 命名空間中的網域
 
-對於屬於政府機構雲端的客戶，可藉由在 Proxy 驗證伺服器上將以下網域加入白名單，以修正此問題：
+對於屬於政府機構雲端的客戶，可藉由在 Proxy 驗證伺服器上將以下網域加入允許清單，以修正此問題：
 
 * app.powerbigov.us
 * api.powerbigov.us

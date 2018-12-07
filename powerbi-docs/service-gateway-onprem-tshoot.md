@@ -415,7 +415,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 
 若您想獲得完全相同的結果，請以[連接埠](https://docs.microsoft.com/power-bi/service-gateway-onprem#ports)列出的內容替代 **ComputerName** 和**Port** 的值。
 
-防火牆也可能會封鎖 Azure 服務匯流排對 Azure 資料中心的連線。 如果是這樣，您可以將您區域內這些資料中心的 IP 位址加入白名單 (解除封鎖)。 您可以在[這裡](https://www.microsoft.com/download/details.aspx?id=41653)取得一份 Azure IP 位址清單。
+防火牆也可能會封鎖 Azure 服務匯流排對 Azure 資料中心的連線。 如果是這樣，您可以將您區域內這些資料中心的 IP 位址加入允許清單 (解除封鎖)。 您可以在[這裡](https://www.microsoft.com/download/details.aspx?id=41653)取得一份 Azure IP 位址清單。
 
 ### <a name="network-ports-test"></a>網路連接埠測試
 
