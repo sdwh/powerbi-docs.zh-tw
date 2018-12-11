@@ -4,18 +4,19 @@ description: 在 Power BI Desktop 中輕鬆地連接至 Excel 活頁簿並加以
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 36c01851138ae8b8e74acd60b39f5b358e20e392
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: cff8950526393fd2243dbe5a4a8dcc16fcc44821
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669052"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025232"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>在 Power BI Desktop 中連接至 Excel
 從 Power BI Desktop 連接至 Excel 活頁簿很容易，本文將逐步引導您執行這些步驟。
@@ -45,7 +46,7 @@ Power BI Desktop 會顯示 [導覽] 視窗中活頁簿其他資料元素上的�
 
 您現在可以在 Power BI Desktop 中使用從 Excel 活頁簿匯入的資料來建立視覺效果、報表，或與其他任何您可能想要連接或匯入的資料進行互動，例如其他 Excel 活頁簿、資料庫其他資料來源。
 
-### <a name="next-steps"></a>後續步驟
+## <a name="next-steps"></a>後續步驟
 您可以使用 Power BI Desktop 連接至各式各樣的資料。 如需有關資料來源的詳細資訊，請參閱下列資源︰
 
 * [Power BI Desktop 是什麼？](desktop-what-is-desktop.md)

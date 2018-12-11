@@ -7,18 +7,18 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9c9a99e2bfe0ae90607da4f27d77cb0a2a78a7c8
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: cba5f971e81a425de661e03ac66c5c6d5fe82049
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507638"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979367"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表安裝並使用應用程式
-Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處。 組織中的人員會使用關鍵的商務資訊來建立及發佈應用程式。 也許您已在使用 Google Analytics (分析) 和 Microsoft Dynamics CRM 這類[外部服務](end-user-connect-to-services.md)，而其中亦提供 Power BI 應用程式。 
+Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處。 組織中的人員會使用關鍵的商務資訊來建立及發佈應用程式。 也許您已在使用 Google Analytics (分析) 和 Microsoft Dynamics CRM 這類[外部服務](../service-connect-to-services.md)，而其中亦提供 Power BI 應用程式。 
 
 ![Power BI 的應用程式](./media/end-user-apps/power-bi-apps-navbar.png)
 
@@ -63,5 +63,5 @@ Power BI 的*應用程式*會將相關的儀表板和報表全都帶到同一處
 
 
 ## <a name="next-steps"></a>後續步驟
-[外部服務的 Power BI 應用程式](end-user-connect-to-services.md)
+[外部服務的 Power BI 應用程式](../service-connect-to-services.md)
 

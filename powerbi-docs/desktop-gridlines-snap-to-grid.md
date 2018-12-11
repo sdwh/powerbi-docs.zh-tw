@@ -4,18 +4,19 @@ description: 在 Power BI Desktop 報表中使用格線、貼齊格線、堆疊�
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a798cbb5012933bb01264aa3db9fa9e06b1f334a
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 37416ab15a638ccd8c8e7b1066ffc01f1ba6c944
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669305"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025857"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>在 Power BI Desktop 報表中使用格線與貼齊格線
 **Power BI Desktop** 報表畫布提供格線，以便您讓視覺效果在報表頁面上整齊對齊，並使用貼齊格線功能，讓報表中的視覺效果看起來清爽、整齊且間距相等。
@@ -24,24 +25,22 @@ ms.locfileid: "52669305"
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_0.png)
 
-### <a name="enabling-gridlines-and-snap-to-grid"></a>啟用格線和貼齊格線
+## <a name="enabling-gridlines-and-snap-to-grid"></a>啟用格線和貼齊格線
 若要啟用格線和貼齊格線，請選取 [檢視] 功能區，然後啟用 [顯示格線] 及 [將物件貼齊格線] 的核取方塊。 您可以選取一個選項或兩個都選；其個別運作。
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_1.png)
 
 > [!NOTE]
 > 如果 [顯示格線] 及 [將物件貼齊格線] 已停用，連接至任何資料來源即可加以啟用。
-> 
-> 
 
-### <a name="using-gridlines"></a>使用格線
+## <a name="using-gridlines"></a>使用格線
 格線是視覺輔助線，可協助您對齊視覺效果。 當您嘗試判斷兩個 (或更多) 視覺效果是否水平或垂直度對齊時，可以使用格線判斷視覺效果的框限是否對齊。
 
 使用 CTRL+按一下可一次選取多個視覺效果，這會顯示所有選取的視覺效果框線，並顯示視覺效果是否確實對齊。
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_2.png)
 
-#### <a name="using-gridlines-inside-visuals"></a>使用視覺效果內的格線
+### <a name="using-gridlines-inside-visuals"></a>使用視覺效果內的格線
 Power BI 的視覺效果內也有格線，可提供視覺效果輔助線，以進行資料點和值的比較。 自 2017 年 9 月起的 **Power BI Desktop** 版本開始，您即可使用 [X 軸] 或 [Y 軸] 卡片 (依據視覺效果類型而定，其位於 [視覺效果] 窗格的 [格式] 區段)，來管理視覺效果內的格線。 您可以管理視覺效果內的下列格線項目：
 
 * 開啟或關閉格線
@@ -53,14 +52,14 @@ Power BI 的視覺效果內也有格線，可提供視覺效果輔助線，以�
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_9.png)
 
-### <a name="using-snap-to-grid"></a>使用貼齊隔線
+## <a name="using-snap-to-grid"></a>使用貼齊隔線
 當您啟用 [將物件貼齊格線] 時，您在 **Power BI Desktop** 畫布上移動 (或調整大小) 的所有視覺效果都會自動對齊最近的格線軸，讓您更容易確保兩個以上的視覺效果對齊同一個水平或垂直位置或大小。
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_3.png)
 
 光是這樣就能使用**格線**和**貼齊格線**，確保報表中的視覺效果妥善對齊。
 
-### <a name="using-z-order-align-and-distribute"></a>使用堆疊順序、對齊和相等間距
+## <a name="using-z-order-align-and-distribute"></a>使用堆疊順序、對齊和相等間距
 您可以管理報表中視覺效果由前至後的順序，通常稱為項目目的「堆疊順序」。 此功能可讓您以任何想要的方式重疊視覺效果，然後調整每個視覺效果由前至後的順序。 您使用 [上移一層] 和 [下移一層] 按鈕設定視覺效果的順序，它們位在 [格式] 功能區的 [排列] 區段。 您一在頁面上選取一或多個視覺效果，[格式] 功能區就會出現。
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_4.png)
