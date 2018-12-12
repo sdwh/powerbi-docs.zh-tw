@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0ffcec94d015223df596aa6ac941f7400a89e747
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: daada8a7f69c600acf6fc45669ed6a42c2fdd831
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718060"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900650"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
@@ -95,7 +95,7 @@ ms.locfileid: "51718060"
 
 ### <a name="august-2017"></a>2017 年 8 月
 * 使用[每位使用者使用計量](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/)來了解您的對象。
-* 開始使用線上服務的 [Power BI 服務](consumer/end-user-connect-to-services.md)應用程式。
+* 開始使用線上服務的 [Power BI 服務](service-connect-to-services.md)應用程式。
 * 使用內部部署資料閘道，透過匯入和 DirectQuery 連線模式，連線至 IBM Netezza。
 * [動態 RLS](developer/embedded-row-level-security.md) 現在支援 Power BI Embedded。
 * 進階[篩選 API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md)現在針對自訂視覺效果 API 1.7 版新增。

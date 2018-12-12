@@ -10,20 +10,16 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: ce44e87144d9338fbd88f0bc7183daf1b5339b35
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331980"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900466"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>組織中的 Power BI 授權
 
-在 Power BI 服務中，使用者已根據兩種授權類型來定義功能：
-
-* **每位使用者** - Power BI Pro 授權和免費授權。 Power BI Pro 授權允許存取 Power BI 服務中的所有內容和功能，包括能與其他 Pro 使用者共用內容和共同作業。 只有 Pro 使用者能將內容發行到應用程式工作區、從應用程式工作區中取用內容、共用儀表板，以及訂閱儀表板和報表。 免費授權可讓您存取 Power BI 服務的某些功能。 如需詳細資訊，請參閱[依授權類型排列的 Power BI 服務功能](service-features-license-type.md)。
-
-* **容量為基礎** - Power BI Premium 授權。 Premium 提供專用容量，以傳遞更一致的效能，並在 Power BI 中支援更大的資料量。 針對個人使用者，Premium 也讓 Pro 使用者能廣泛散發內容，而且檢視內容的收件者並不需要 Pro 授權。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium.md)。
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
 本文著重於從系統管理員觀點的每位使用者授權。
 
@@ -59,7 +55,7 @@ ms.locfileid: "52331980"
 
 1. 在右邊，選取 [新增訂閱]。
 
-   ![新增訂閱](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-06.png)
+   ![新增訂用帳戶](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-06.png)
 
 1. 在 [其他方案] 下，將滑鼠停留在 Power BI Pro 的省略符號 (**. . .**)，然後選取 [開始免費試用]。
 
