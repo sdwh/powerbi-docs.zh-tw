@@ -32,21 +32,21 @@ items:
       href: sample-datasets.md
     - name: 使用範例內容套件
       href: sample-tutorial-connect-to-the-samples.md
-    - name: 客戶獲利率範例：導覽
+    - name: 客戶收益範例：觀看導覽
       href: sample-customer-profitability.md
-    - name: IT 費用分析範例：導覽
+    - name: IT 支出分析範例：觀看導覽
       href: sample-it-spend.md
-    - name: 人力資源範例：導覽。
+    - name: 人力資源範例：觀看導覽
       href: sample-human-resources.md
-    - name: 商機分析範例：導覽
+    - name: 商機分析範例：觀看導覽
       href: sample-opportunity-analysis.md
-    - name: 採購分析範例：導覽。
+    - name: 採購分析範例：觀看導覽
       href: sample-procurement.md
-    - name: 零售分析範例：導覽
+    - name: 零售分析範例：觀看導覽
       href: sample-retail-analysis.md
-    - name: 銷售與行銷範例：導覽
+    - name: 銷售與行銷範例：觀看導覽
       href: sample-sales-and-marketing.md
-    - name: 供應商品質分析範例：導覽
+    - name: 供應商品質分析範例：觀看導覽
       href: sample-supplier-quality.md
     - name: 下載財務範例活頁簿
       href: sample-financial-download.md
@@ -184,9 +184,9 @@ items:
         href: desktop-sap-bw-connector.md
       - name: 在 Power BI Desktop 中使用商務用 OneDrive
         href: desktop-use-onedrive-business-links.md
-      - name: 協力廠商服務：適用於 Power BI Desktop 的 Facebook 連接器
+      - name: 第三方服務：適用於 Power BI Desktop 的 Facebook 連接器
         href: service-facebook-connector.md
-      - name: 協力廠商服務：適用於 Power BI Desktop 的 Google Analytics 連接器
+      - name: 第三方服務：Power BI Desktop 的 Google Analytics 連接器
         href: service-google-analytics-connector.md
       - name: Project Online：透過 Power BI Desktop 連接到資料
         href: desktop-project-online-connect-to-data.md
@@ -734,7 +734,7 @@ items:
         href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
       - name: Azure SQL Database 排程重新整理疑難排解
         href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-      - name: 錯誤：在此 Excel 活頁簿中找不到任何資料。
+      - name: 錯誤：在您的 Excel 活頁簿中找不到任何資料
         href: service-admin-troubleshoot-excel-workbook-data.md
       - name: 圖格錯誤的疑難排解
         href: refresh-troubleshooting-tile-errors.md
@@ -758,6 +758,14 @@ items:
         href: service-dataflows-developer-resources.md
       - name: 在 Power BI Desktop 中連線到資料流程
         href: desktop-connect-dataflows.md
+      - name: Dataflows and Azure Data Lake 整合 (預覽)
+        href: service-dataflows-azure-data-lake-integration.md
+      - name: 連線到 Azure Data Lake Storage Gen2 儲存資料流程 (預覽)
+        href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+      - name: 設定工作區資料流程設定 (預覽)
+        href: service-dataflows-configure-workspace-storage-settings.md
+      - name: 新增 CDM 資料夾成為 Power BI 資料流程 (預覽)
+        href: service-dataflows-add-cdm-folder.md
     - name: Power BI 中的編頁報表
       items:
       - name: 什麼是編頁報表？ (預覽)
@@ -794,9 +802,9 @@ items:
         items:
         - name: 管理、更新和刪除組織內容套件
           href: service-organizational-content-pack-manage-update-delete.md
-        - name: 組織內容套件︰複製、重新整理及存取
+        - name: 整理有序的內容套件：複製、重新整理及取得存取權
           href: service-organizational-content-pack-copy-refresh-access.md
-        - name: 組織內容套件：簡介
+        - name: 整理有序的內容套件：簡介
           href: service-organizational-content-pack-introduction.md
         - name: 建立和發佈組織內容套件
           href: service-organizational-content-pack-create-and-publish.md
@@ -1253,9 +1261,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 066aa4a3b87375e29e14d1611e7e67ab58dfd482
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: e105b33d6b37099dd6bc2c657f2293f8561a6004
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979666"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53181005"
