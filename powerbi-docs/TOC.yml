@@ -262,21 +262,21 @@ items:
         href: desktop-inline-hierarchy-labels.md
       - name: 使用數字範圍交叉分析篩選器
         href: desktop-slicer-numeric-range.md
-      - name: 建立可以調整大小的回應式交叉分析篩選器
+      - name: 建立可以調整大小的交叉分析篩選器
         href: power-bi-slicer-filter-responsive.md
-      - name: 建立 Cortana 的自訂 Power BI 回應卡
+      - name: 建立 Cortana 的自訂回應卡
         href: service-cortana-answer-cards.md
       - name: 資料列層級安全性
         href: desktop-rls.md
-      - name: 在 Power BI Desktop 中自訂工具提示
+      - name: 自訂工具提示
         href: desktop-custom-tooltips.md
-      - name: 在 Power BI Desktop 中設定資料表格式化的條件
+      - name: 條件式表格格式設定
         href: desktop-conditional-table-formatting.md
       - name: Power BI Desktop 中的依資料行排序
         href: desktop-sort-by-column.md
-      - name: 建立為 Power BI 手機應用程式最佳化的報表
+      - name: 建立針對行動裝置應用程式最佳化的報表
         href: desktop-create-phone-report.md
-      - name: 使用 [See Data] (查閱資料) 與 [See Records] (查閱記錄)
+      - name: 使用 [查看資料] 與 [查看記錄]
         href: desktop-see-data-see-records.md
       - name: 建立報表的祕訣
         href: desktop-tips-and-tricks-for-creating-reports.md
@@ -284,23 +284,23 @@ items:
       items:
       - name: 視覺效果最佳做法
         href: visuals/power-bi-visualization-best-practices.md
-      - name: 變更 Power BI 報表的視覺效果類型
+      - name: 變更報告中的視覺效果類型
         href: visuals/power-bi-report-change-visualization-type.md
       - name: 取決於視覺效果類型的資料點限制
         href: visuals/power-bi-data-points.md
       - name: 開始使用色彩格式和軸屬性
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
-      - name: 在 Power BI 中色彩格式化的秘訣和訣竅
+      - name: 設定色彩格式的祕訣和訣竅
         href: visuals/service-tips-and-tricks-for-color-formatting.md
-      - name: 複製並貼上 Power BI 的視覺效果
+      - name: 複製並貼上視覺效果
         href: visuals/power-bi-visualization-copy-paste.md
       - name: 匯出用來建立視覺效果的資料
         href: visuals/power-bi-visualization-export-data.md
-      - name: 在 Power BI 報表中移動視覺效果、調整視覺效果大小，以及顯出視覺效果
+      - name: 在報表中移動視覺效果、調整視覺效果大小，以及顯出視覺效果
         href: visuals/power-bi-visualization-move-and-resize.md
       - name: 資料表中的超連結
         href: power-bi-hyperlinks-in-tables.md
-      - name: 將超連結加入 Power BI 圖表中的文字方塊
+      - name: 將超連結加入報表中的文字方塊
         href: service-add-hyperlink-to-text-box.md
       - name: 變更報表中的視覺效果互動方式
         href: service-reports-visual-interactions.md
@@ -598,7 +598,7 @@ items:
         href: refresh-troubleshooting-refresh-scenarios.md
     - name: 儀表板
       items:
-      - name: Power BI 儀表板
+      - name: 儀表板簡介
         href: service-dashboards.md
       - name: 儀表板圖格
         href: service-dashboard-tiles.md
@@ -692,6 +692,8 @@ items:
         href: service-create-workspaces.md
       - name: 建立新的工作區 (預覽)
         href: service-create-the-new-workspaces.md
+      - name: 管理工作區中的資料儲存體
+        href: service-admin-manage-your-data-storage-in-power-bi.md
       - name: 共用篩選過的報表
         href: service-share-reports.md
       - name: 從 Power BI 發佈至網路
@@ -1261,9 +1263,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e105b33d6b37099dd6bc2c657f2293f8561a6004
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 0189fe52981e1bc926ae8a836791e7111e4b530e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181005"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280942"
