@@ -2,17 +2,18 @@
 title: Power BI 取用者字彙
 description: Power BI 引進許多新詞彙和熟悉詞彙的新用法。 使用我們的字彙來熟悉 Power BI 術語。
 services: power-bi
+ms.custom: seodec18
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/12/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026331"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280780"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」及其連線方式的高階概觀。
@@ -42,7 +43,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **AppSource**：集中式線上存放庫，您可以在其中瀏覽、探索及下載儀表板、報表、資料集，以及應用程式。
 
-**ArcGIS Maps for Power BI**：ArcGIS 是一種由 ESRI 公司建立的地圖繪製及分析平台。 包含在 Power BI 視覺效果資源庫中的視覺效果名稱為 ArcGIS Maps for Power BI。
+**ArcGIS for Power BI**：ArcGIS 是一種由 ESRI 公司建立的對應及分析平台。 包含在 Power BI 視覺效果程式庫中的視覺效果名稱為 ArcGIS for PowerBI。
 
 **指派**：[Power BI Premium] 動詞，指將工作區移動到專用容量，或是從專用容量移出。 請不要針對將工作區移動到專用容量使用「升階」一詞，因為其具有專用容量優於共用容量的含意。  
 
