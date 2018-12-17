@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/12/2018
+ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d2d8bef9689fd2e9db99c0a521a5ee326845b1de
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611352"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026239"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI 報表中新的篩選條件體驗 (預覽)
 
-本文詳細說明新的篩選條件體驗：Power BI 中的篩選條件有新功能和新設計。 當您在 Power BI Desktop 或 Power BI 服務中設計報表時，您可以讓 [篩選] 窗格融入整個報表且與其行為一致。 在新的體驗中，舊的 [篩選] 窗格當作篩選條件編輯窗格，而報表使用者只會看到新的 [篩選窗格]。 
+本文詳細說明新的篩選體驗：Power BI 中的篩選條件有新功能和新設計。 當您在 Power BI Desktop 或 Power BI 服務中設計報表時，您可以讓 [篩選] 窗格融入整個報表且與其行為一致。 在新的體驗中，舊的 [篩選] 窗格當作篩選條件編輯窗格，而報表使用者只會看到新的 [篩選窗格]。 
  
 ![預設檢視 (沒有套用其他自訂)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
 
@@ -98,7 +98,7 @@ ms.locfileid: "51611352"
 
     ![選取格式圖示](media/power-bi-report-filter-preview/power-bi-filter-format.png)    
 
-1. 展開 [篩選窗格] 來設定背景、字型、圖示和左框線的色彩，以搭配報表頁面。
+1. 展開 [篩選窗格] 來設定背景、圖示和左框線的色彩，以搭配報表頁面。
 
     ![展開 [篩選窗格]](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
 

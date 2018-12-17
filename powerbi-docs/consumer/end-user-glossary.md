@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.author: mihart
-ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508006"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026331"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」及其連線方式的高階概觀。
@@ -23,7 +23,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **帳戶**：有不同類型的 Power BI 帳戶。  Power BI Pro 帳戶是付費的每月訂閱。  Power BI 免費帳戶可讓您檢視託管於 Power BI Premium 容量上的內容。  
 
-**管理入口網站**：Power BI 系統管理員管理組織中 Power BI 使用者、功能及設定的位置。 (注意：Office 365、Azure 和 PowerApps 使用系統管理中心。)
+**管理入口網站**：Power BI 系統管理員管理組織中 Power BI 使用者、功能及設定的位置。 (注意︰Office 365、Azure 和 PowerApps 使用系統管理中心。)
 
 **彙總值**：將多個資料列值群組在一起，根據準則作為輸入，形成更具重要意義或量值的單一值。
 
@@ -40,9 +40,9 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
  
 **應用程式工作區**：Power BI 中除「我的工作區」之外的所有工作區現在都是應用程式工作區。 內容可以與 Power BI 應用程式一同搭售。 儲存在 Premium 容量中的內容也可以和免費使用者共用。 個人工作區 (位於我的工作區下) 可託管於 Premium 容量。  
 
-**AppSource**
+**AppSource**：集中式線上存放庫，您可以在其中瀏覽、探索及下載儀表板、報表、資料集，以及應用程式。
 
-**ArcGIS for Power BI**：ArcGIS 是一種由 ESRI 公司建立的對應及分析平台。 包含在 Power BI 視覺效果程式庫中的視覺效果名稱為 ArcGIS for PowerBI。
+**ArcGIS Maps for Power BI**：ArcGIS 是一種由 ESRI 公司建立的地圖繪製及分析平台。 包含在 Power BI 視覺效果資源庫中的視覺效果名稱為 ArcGIS Maps for Power BI。
 
 **指派**：[Power BI Premium] 動詞，指將工作區移動到專用容量，或是從專用容量移出。 請不要針對將工作區移動到專用容量使用「升階」一詞，因為其具有專用容量優於共用容量的含意。  
 
@@ -69,7 +69,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **內容清單**：應用程式的內容索引。
 
-**內容套件**
+**內容套件**：預先封裝的資料集、報表和儀表板的集合。 現在是**應用程式**，了解[全新工作區體驗](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces) \(英文\)。 
 
 **內容檢視**
 
@@ -92,11 +92,11 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 **資料模型、Excel 資料模型**
 
 
-**資料集**與**資料來源**
+**資料集**與**資料來源**：**資料集**是建立視覺效果和報表時所用資料的集合。
 
 **專用容量**：[Power BI Premium] 在 Microsoft 雲端資料中心內專用硬體上執行的資料模型，可協助確保大規模的一致效能。 BI 解決方案會傳遞給整個組織，無論 Power BI 的授權為何。
 
-**桌面版 (Desktop)**：第一個執行個體：「Power BI Desktop」後續提及：「桌面版 (Desktop)」
+**桌面版**：第一個執行個體：Power BI Desktop 後續會提及：桌面
 
 
 **鑽石**：Power BI Premium。 圖示的圖形，表示該工作區為 Premium 容量工作區。
@@ -110,6 +110,8 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 **省略符號** ...
 
 **內嵌程式碼**：網際網路上的通用標準。 在 Power BI 中，客戶可以產生內嵌程式碼並複製它，以將內容 (例如報表視覺效果) 放置在網站或部落格上。
+
+**內嵌**：請參閱 Power BI Embedded。 
 
 **內嵌**：在 Power BI 開發人員供應項目中，使用 Power BI REST API 和 Power BI SDK 將分析與應用程式整合的過程。
 
@@ -133,7 +135,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 ## <a name="g"></a>G
 
-**閘道**或**內部部署的資料閘道**：連接到基礎資料來源的橋樑。 它可在 Power BI 服務和支援重新整理之內部部署資料來源間提供快速、安全的資料轉送。 通常由 IT 進行管理。 內部部署的資料閘道
+**閘道**或**內部部署的資料閘道**：連接到基礎資料來源的橋樑。 它可在 Power BI 服務和支援重新整理之內部部署資料來源間提供快速、安全的資料轉送。 通常由 IT 進行管理。 
 
 ## <a name="h"></a>H
 **高密度視覺效果**：資料點數量超過 Power BI 轉譯能力的視覺效果。 Power BI 會對資料進行取樣，顯示圖形和極端值。
@@ -160,7 +162,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 ## <a name="m"></a>M
 
-**量值**：使用 DAX 程式碼或快速量值撰寫在 Power BI Desktop 中的自訂計算。
+**行動應用程式**：可讓您在 iOS、Android 和 Windows 裝置上執行 Power BI 的應用程式。
 
 **模型**[Power BI Desktop] 讓您已連線的資料在 Power BI 中準備就緒以供使用。 這包括在多個資料來源中建立資料表間的關聯性、建立量值，以及指派度量。
 
@@ -180,6 +182,9 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 ## <a name="o"></a>O
 
 **商務用 OneDrive** 和 **OneDrive**：OneDrive 是個人帳戶，商務用 OneDrive 則適合公司帳戶。  
+
+**內部部署資料閘道**
+
 
 
 ## <a name="p"></a>P
@@ -202,7 +207,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **Power BI**、**Power BI 服務**、**Power BI Desktop**、**Power BI 行動版**、一些 Power BI 供應項目。 Power BI 是通用詞彙。 它通常用於在第一次提及完整的產品名稱後代指完整產品名稱，例如「Power BI 服務」和「Power BI 行動版」。
 
-**Power BI Desktop**：也稱為「桌面版 (Desktop)」。
+**Power BI Desktop**：也稱為「桌面版 (Desktop)」。 可以安裝在本機電腦上的免費 Power BI Windows 應用程式，可讓您連線和轉換資料，以及將資料視覺化。 適合報表設計師和系統管理員使用。 如需詳細資訊，請參閱[什麼是 Power BI](../power-bi-overview.md)。
 
 **Power BI Embedded**：由開發人員使用的產品，用於將 Power BI 儀表板和報表內嵌到其應用程式、網站和工具。
 
@@ -210,8 +215,9 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **Power BI Pro 授權**：一種每月使用者授權，可提供建置儀表板、在共用資料上共同作業、自動將資料保持在最新狀態、稽核和管理資料存取及使用方式，以及封裝內容以進行散發 (Power BI 應用程式) 的能力。
 
-**Power BI 報表伺服器**：新推出的 SSRS 品牌化供應項目，與 Power BI Premium 一同啟動，可允許組織建置分散式、混合式 BI 系統 (一種雲端與內部部署的混合)。
-以 SQL Server Reporting Services 為基礎，搭配其豐富的編頁報表功能，並透過提供使用 Power BI Desktop 撰寫的 Power BI 報表，以及在 Power BI 行動版應用程式中傳遞它們的能力，來提供行動報表。 傳統 SSRS 會繼續銷售。
+**Power BI 報表伺服器**：新推出的 SSRS 品牌化供應項目，與 Power BI Premium 一同啟動，可允許組織建置分散式、混合式 BI 系統 (一種雲端與內部部署的混合)。 內嵌式提供已當地語系化的方式以儲存及管理 Power BI 報表。
+
+**Power BI 服務**：線上 SaaS (軟體即服務) 服務。 如需詳細資訊，請參閱[什麼是 Power BI](../power-bi-overview.md)。
 
 **Power BI 服務連接器**：此連接器可讓 Power BI Desktop 使用者從 Desktop 連線到 Power BI 服務中的資料集。 他們可以建立模型一次，然後在許多報表和儀表板中重複使用它。
 

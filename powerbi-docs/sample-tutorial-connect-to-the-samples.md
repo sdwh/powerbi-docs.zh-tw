@@ -1,37 +1,36 @@
 ---
-title: 使用 Power BI 範例
-description: 使用 Power BI 範例
+title: 連線至 Power BI 服務中的範例
+description: 了解如何安裝及探索 Power BI 服務中的範例。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 10ba57b203c100dffafa6563e85fd06b7af2eecb
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: fc27054b79497658249b49d832a81223987b7be8
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718014"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180959"
 ---
-# <a name="the-power-bi-samples"></a>Power BI 範例
+#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>連線至 Power BI 服務中的範例
 
-建議您從 [Power BI 的範例資料集](sample-datasets.md)一文開始。 在該文章中，您會了解範例的所有資訊；範例要如何取得、儲存、使用，及各範例可提供的一些案例。 之後，當您掌握到一些基礎時，請返回本教學課程。   
+本教學課程將教導您如何： 
+- 匯入範例內容套件，將它新增至 Power BI 服務，然後開啟內容。 「內容套件」是一種範例類型，其中資料集會隨附在儀表板及報表中。 
+- 在 Power BI Desktop 中開啟範例.pbix 檔案。
 
-### <a name="prerequisites"></a>先決條件
+如果您想要先多了解一點背景，建議您從 [Power BI 的範例資料集](sample-datasets.md)一文開始著手。 在該文章中，您會了解範例的所有資訊；範例要如何取得、儲存、使用，及各範例可提供的一些案例。 之後，當您掌握到一些基礎時，請返回本教學課程。   
+
+## <a name="prerequisites"></a>先決條件
 這些範例適用於 Power BI 服務和 Power BI Desktop。 如果要跟著做，我們將會使用「零售分析」範例。
 
 本教學課程使用的「零售分析」內容套件範例，包含儀表板、報表和資料集。
 為了熟悉此特定內容套件和其案例，您可以：[瀏覽零售分析範例](sample-retail-analysis.md)。
-
-## <a name="about-this-tutorial"></a>關於本教學課程
-本教學課程將教導您如何 
-- 匯入範例內容套件，將它新增至 Power BI 服務，然後開啟該內容。 「內容套件」是一種範例類型，其中資料集會隨附在儀表板及報表中。 
--  在 Power BI Desktop 中開啟範例.pbix 檔案。
-
 
 ## <a name="samples-and-power-bi-service"></a>範例和 Power BI 服務
 

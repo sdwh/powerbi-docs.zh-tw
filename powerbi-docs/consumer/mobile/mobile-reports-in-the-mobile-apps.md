@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547238"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180982"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -105,6 +105,16 @@ Power BI 報表作者可以建立專為手機最佳化的報表版面配置。 �
 當您進行鑽研時，返回按鈕可將您帶回先前的報表頁面。
 
 閱讀更多有關如何[在 Power BI Desktop 中新增鑽研](../../desktop-drillthrough.md)的內容。
+
+## <a name="show-data-and-copy-values"></a>顯示資料並複製值
+
+只要在手機報表視覺效果右上角選取功能表選項省略符號 (**...**)，然後選取 [顯示資料]，可以看到視覺效果的基礎資料。
+
+![Power BI 行動裝置顯示資料功能表選項](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+
+長按所提供資料表中的資料格會彈出原生的選取和複製功能表，讓您能夠選擇從資料表 (或整個資料表) 複製資料。
+
+![Power BI 行動版鑽研報表](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
 
 ## <a name="next-steps"></a>後續步驟
 * [檢視為您的手機最佳化的 Power BI 報表，並與其互動](mobile-apps-view-phone-report.md)

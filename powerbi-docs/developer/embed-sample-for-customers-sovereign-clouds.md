@@ -1,23 +1,25 @@
 ---
-title: 將政府和主權雲端客戶的 Power BI 內容內嵌至應用程式
-description: 了解如何使用 Power BI API，將客戶的儀表板、磚或報表整合或內嵌至 Web 應用程式。
+title: 運用內嵌式分析為政府和主權雲端將 Power BI 內容內嵌至應用程式
+description: 了解如何使用內嵌式分析的 Power BI API，為客戶將報表、儀表板或圖格整合或內嵌至應用程式。 了解如何使用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具，將 Power BI 整合到應用程式中。
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 10/25/2018
-ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: aabf472e236f545fe51d4007dcd8fbdf36632931
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003148"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180614"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>教學課程：將主權雲端的 Power BI 儀表板、磚或報表內嵌至應用程式
 
-了解如何在整合客戶資料時，使用 Power BI .NET SDK 搭配 Power BI JavaScript API 將儀表板、圖格或報表內嵌至 Web 應用程式。
+了解如何在主權雲端的商務程序應用程式內內嵌分析內容。 您可以使用 Power BI .NET SDK 搭配 Power BI JavaScript API 將報表、儀表板或圖格內嵌至 Web 應用程式。
 
 Power BI 也支援主權 (私人) 雲端。
 
@@ -132,11 +134,11 @@ Power BI 也支援主權 (私人) 雲端。
 
 * 適用於中國雲端的 Power BI - https://app.powerbi.cn/apps
 
-若您已經下載[對客戶進行內嵌範例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)，就能使用註冊後取得的 **applicationId** 來設定範例，以便向 Azure AD 驗證。 若要設定範例，請變更 *web.config* 檔案中的 **applicationId**。
+若您已經下載[對客戶進行內嵌範例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)，就能使用取得的 **applicationId** 來設定範例，以向 Azure AD 驗證。 若要設定範例，請變更 *web.config* 檔案中的 **applicationId**。
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>步驟 2 - 從 Azure AD 取得存取權杖
 
-在您的應用程式中，您必須從 Azure AD 取得**存取權杖**，才能呼叫 Power BI REST API。 如需詳細資訊，請參閱[為 Power BI 應用程式驗證使用者及取得 Azure AD 存取權杖](get-azuread-access-token.md)。 由於有不同的主權雲端聯盟，因此有不同的 URL 可用來取得您應用程式的存取權杖。
+在您的應用程式中，您必須從 Azure AD 取得**存取權杖**，才能呼叫 Power BI REST API。 如需詳細資訊，請參閱 [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (驗證使用者，並為 Power BI 應用程式取得 Azure AD 存取權杖)。 由於有不同的主權雲端聯盟，因此有不同的 URL 可用來取得您應用程式的存取權杖。
 
 * 政府社群雲端 (GCC)： https://login.microsoftonline.com
 
@@ -431,7 +433,7 @@ var embedConfig = new TileEmbedConfig()
 
 * 如需適用於德國雲端的 Power BI 詳細資訊，請參閱[適用於德國雲端的 Power BI 常見問題集](https://docs.microsoft.com/power-bi/service-govde-faq)
 
-* [如何將 Power BI 工作區集合內容移轉到 Power BI](migrate-from-powerbi-embedded.md)
+* [如何將 Power BI 工作區集合內容遷移至 Power BI](migrate-from-powerbi-embedded.md)
 
 限制與考量
 

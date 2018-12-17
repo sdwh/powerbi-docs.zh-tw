@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7e39d0ee048f51066783b1cc9c98333e0352dcf
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 9e7f43780048a222b9d024b39d983968f45c59f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266856"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180568"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>在 Power BI 中建立及使用資料流程 (預覽)
 
@@ -143,6 +143,10 @@ Power BI 資料流程會使用 Power BI 的資料重新整理程序，維持資�
 
 當您選取實體，然後選取 [載入] 按鈕時，實體會出現在 **Power BI Desktop** 的 [欄位] 窗格中，並以類似於任何其他資料集**資料表**的運作方式運作。
 
+## <a name="using-dataflows-stored-in-azure-data-lake-storage-gen2"></a>使用儲存在 Azure Data Lake Storage Gen2 中的資料流程
+
+某些組織可能會想要使用自己的儲存體來建立及管理資料流程。 如果您能夠遵循需求並適當地管理權限，便可以將資料流程與 Azure Data Lake Storage Gen2 整合。 此方法的所有需求可以在[資料流程與 Azure Data Lake 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md) 這份概觀文件的一開始找到。
+
 
 ## <a name="troubleshooting-data-connections"></a>針對資料連接進行疑難排解
 
@@ -160,6 +164,7 @@ Power BI 資料流程會使用 Power BI 的資料重新整理程序，維持資�
 * [使用 Power BI Premium 上的計算實體 (預覽)](service-dataflows-computed-entities-premium.md)
 * [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
 * [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
+* [資料流程與 Azure Data Lake 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：
 * [Common Data Model - 概觀](https://docs.microsoft.com/powerapps/common-data-model/overview)

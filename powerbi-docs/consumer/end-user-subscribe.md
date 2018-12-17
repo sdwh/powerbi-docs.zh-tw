@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/04/2018
+ms.date: 12/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a44630f8c5ad7f521ad7f3e8794486cd1b758358
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: a410871263316b4aa811ca39116acf69331f7bc5
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336775"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979436"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>訂閱 Power BI 服務中的報表或儀表板 
 讓您最重要的儀表板和報表維持最新的狀態從沒這麼容易過。 訂閱對您來說最重要的報表頁面和儀表板，Power BI 就會以電子郵件寄送快照集到您的收件匣。 您要告訴 Power BI 需要收到電子郵件的頻率︰從一天一次到每週一次。 
@@ -82,7 +82,6 @@ ms.locfileid: "49336775"
 * 電子郵件訂閱目前不支援 R 支援的自訂視覺效果。  
 * 如果有任何儀表板圖格套用資料列層級安全性 (RLS)，則不會顯示這些圖格。
 * 電子郵件訂閱傳送時會使用報表的預設篩選器和交叉分析篩選器狀態。 在訂閱之後對預設值所做的所有變更，均不會顯示在電子郵件中。    
-* 在 Power BI Desktop 即時連線至服務功能所建立的報告頁面上，尚不支援電子郵件訂用帳戶。  
 * 尤其是儀表板訂閱，尚不支援某些類型的磚。  其中包括：資料流磚、影片磚、自訂 Web 內容磚。     
 * 由於電子郵件大小限制，儀表板或報表若含有非常大的影像，訂閱可能會失敗。    
 * 如果超過 2 個月未瀏覽某些儀表板和報表，Power BI 會自動暫停重新整理與這些儀表板和報表建立關聯的資料集。  不過，如果您新增儀表板或報表的訂閱，即使有段時間未瀏覽也不會暫停。    

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 12/07/2018
 ms.author: maggies
-ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: a4914bf0fb6945bc5ee45bdf6559ca75bbd7c2b5
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565904"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180936"
 ---
 # <a name="install-power-bi-report-server"></a>安裝 Power BI 報表伺服器
 
@@ -26,6 +26,10 @@ ms.locfileid: "46565904"
 
 ## <a name="before-you-begin"></a>開始之前
 安裝 Power BI 報表伺服器之前，建議您先檢閱[安裝 Power BI 報表伺服器的硬體和軟體需求](system-requirements.md)。
+
+ > [!IMPORTANT]
+ > 雖然您可以將 Power BI 報表伺服器安裝在有唯讀網域控制站 (RODC) 的環境中，但 Power BI 報表伺服器需要存取讀寫網域控制站才能正常運作。 如果 Power BI 報表伺服器只能存取 RODC，您在嘗試管理服務時可能會發生錯誤。
+
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI 報表伺服器產品金鑰
 

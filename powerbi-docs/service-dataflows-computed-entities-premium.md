@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8131722d0e035f28fcb88827b1a68c2da97959cb
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b63b8a601040751cda81e022d571d3a0ed6d501f
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266852"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180660"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>使用 Power BI Premium 上的計算實體 (預覽)
 
@@ -77,16 +77,21 @@ ms.locfileid: "51266852"
 
 請務必注意，如果您從 Power BI Premium 容量移除工作區，則相關聯的資料流程將不會再重新整理。 
 
+使用特別在組織的 Azure Data Lake Storage Gen2 帳戶中建立的資料流程時，連結實體和計算實體只會在實體位於相同儲存體帳戶中時才能正常運作。 如需詳細資訊，請參閱[連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體 (預覽)](service-dataflows-connect-azure-data-lake-storage-gen2.md)。
+
+此外，連結實體不適用從 CDM 資料夾建立的資料流程。 請參閱[新增 CDM 資料夾成為 Power BI 資料流程 (預覽)](service-dataflows-add-cdm-folder.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
 此文章說明了 Power BI 服務中可用的計算實體和資料流程。 以下是一些可能很實用的其他文章。
 
-
 * [使用資料流程的自助資料準備](service-dataflows-overview.md)
-* [建立 Power BI 中的資料流程](service-dataflows-create-use.md)
+* [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
 * [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
 * [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
+* [設定工作區資料流程設定 (預覽)](service-dataflows-configure-workspace-storage-settings.md)
+* [新增 CDM 資料夾成為 Power BI 資料流程 (預覽)](service-dataflows-add-cdm-folder.md)
+* [連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體 (預覽)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 如需 Power Query 和排程重新整理的詳細資訊，您可以閱讀下列文章：
 * [Power BI Desktop 中的查詢概觀](desktop-query-overview.md)

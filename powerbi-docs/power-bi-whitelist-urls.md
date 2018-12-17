@@ -1,5 +1,5 @@
 ---
-title: Power BI URL
+title: 要列入白名單的 Power BI URL
 description: 本文描述使用 Power BI 的客戶應該可連線的端點。
 author: mgblythe
 ms.author: mblythe
@@ -9,14 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: 47fb90ba0f73bba2b210a9003b782a477dbf8214
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.custom: seodec18
+ms.openlocfilehash: dcf51f26aac018acdd58e4244f21e41a1b6f1bc6
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578719"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026612"
 ---
-# <a name="power-bi-urls"></a>Power BI URL
+# <a name="power-bi-urls-for-whitelisting"></a>要列入白名單的 Power BI URL
 
 **Power BI 線上服務**也稱為 Power BI SaaS (軟體即服務) 應用程式，需要連線到網際網路。 使用 Power BI 線上服務的客戶，應可使用下列端點。
 
@@ -69,7 +70,7 @@ Power BI 需要仰賴 Office 365 驗證與身分識別區段中的必要端點�
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
 | 1 | **必要：** AppSource (Power BI 中的內部或外部應用程式) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
-| 2 | **選用：** 登入並取得內容套件的資料 | 取決於使用的內容套件 | 取決於使用的內容套件 |
+| 2 | **選擇性：** 登入並取得內容套件的資料 | 取決於使用的內容套件 | 取決於使用的內容套件 |
 | 3 | **選擇性：** 從「OneDrive 個人」匯入檔案 | 請參閱 [OneDrive 網站的必要 URL 與連接埠](https://docs.microsoft.com/onedrive/required-urls-and-ports) | N/A |
 | 4 | **選擇性：** 60 秒 Power BI 教學課程影片 | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | **選擇性：** PubNub 串流資料來源 | 請參閱 [PubNub 文件](https://support.pubnub.com/support/solutions/articles/14000043522) | N/A |
@@ -91,8 +92,8 @@ Power BI 需要特定端點能夠檢視及存取自訂的視覺效果。 您必�
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
 | 1 | **必要：** 從 Marketplace 介面或檔案匯入自訂視覺效果 | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
-| 2 | **選擇性︰** Bing 地圖服務 | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
-| 3 | **選擇性︰** PowerApps | 請參閱 PowerApps 系統需求網站的[必要服務區段](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) | N/A |
+| 2 | **選擇性：** Bing 地圖服務 | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
+| 3 | **選擇性：** PowerApps | 請參閱 PowerApps 系統需求網站的[必要服務區段](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) | N/A |
 | 4 | **選擇性：** Visio | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)，以及 [SharePoint Online 和商務用 OneDrive](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/A |
 | | | |
 
@@ -106,7 +107,7 @@ Power BI 連結至其他相關網站。 這些網站包括文件、支援、新�
 | 2 | **選擇性：** 文件網站 | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
 | 3 | **選擇性：** 下載網站 (適用於 Power BI Desktop 等) | download.microsoft.com | TCP 443 |
 | 4 | **選擇性：** 外部重新導向 | aka.ms </br> go.microsoft.com | TCP 443 |
-| 5 | **選擇性：** 想法的意見反應網站| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |
+| 5 | **選擇性：** Ideas 意見反應網站| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |
 | 6 | **選擇性：** Power BI 網站，包含登陸頁面、深入了解連結、支援網站、下載連結、合作夥伴展示工具等。 | powerbi.microsoft.com | TCP 443 |
 | 7 | **選擇性：** Power BI 開發人員中心 | dev.powerbi.com | TCP 443 |
 | 8 | **選擇性：** 支援網站 | support.powerbi.com </br> s3.amazonaws.com </br> *.olark.com </br> logx.optimizely.com </br> mscom.demdex.net </br> tags.tiqcdn.com | TCP 443 |

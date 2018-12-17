@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850468"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026814"
 ---
 # <a name="using-auditing-within-your-organization"></a>在組織內使用稽核
 
@@ -73,13 +74,13 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 如果選定的日期範圍超過 90 天，則會顯示錯誤。 如果您使用最大的 90 天日期範圍，請選取目前時間作為 [開始日期]。 否則，您會收到錯誤，指出開始日期早於結束日期。 如果您已在過去 90 天內開啟稽核，日期範圍開始日期不能在開啟稽核的日期之前。
 
-![](media/service-admin-auditing/search-audit-log-by-date.png)
+![依日期搜尋](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>依使用者搜尋稽核記錄
 
 您可以搜尋特定使用者所執行活動的稽核記錄項目。 若要這樣做，請在 [使用者] 欄位中輸入一或多個使用者名稱。 使用者名稱看起來像電子郵件地址；這是使用者用來登入 Power BI 的帳戶。 將此方塊保留空白，可傳回貴組織所有使用者 (和服務帳戶) 的項目。
 
-![依日期搜尋](media/service-admin-auditing/search-audit-log-by-user.png)
+![依使用者搜尋](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="view-search-results"></a>檢視搜尋結果
 

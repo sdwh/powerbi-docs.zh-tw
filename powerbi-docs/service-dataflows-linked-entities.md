@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b69b84c7c61227ef7a827722c86f54100bd2f3b7
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 258b526c08615a81f3cc940fc3b9f2fcda063a12
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266835"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180637"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>連結 Power BI 中資料流程之間的實體 (預覽)
 
@@ -32,6 +32,12 @@ ms.locfileid: "51266835"
 連結實體需要重新整理 [Power BI Premium](service-premium.md) 訂用帳戶。 您可以在裝載於 Power BI Premium 容量之工作區上的任何資料流程中使用連結實體。 來源資料流程沒有任何限制。
 
 連結實體只能在新的 Power BI 工作區中正常運作。 您可以深入了解[新 Power BI 工作區](service-create-the-new-workspaces.md)。 所有連結資料流程都必須位於新的工作區，才能正常運作。
+
+> [!NOTE]
+> 實體會根據它們是標準實體或計算實體而有所不同。 標準實體 (通常就是指實體) 會查詢外部資料來源，例如 SQL 資料庫。 計算實體需要在 Power BI 具備 Premium 容量，而且會在 Power BI 儲存體中已存在的資料上執行其轉換。 
+>
+>如果您的資料流程不是在 Premium 容量工作區中，仍然可以參考單一查詢，或結合兩個或更多查詢，只要轉換不是定義為在儲存體內轉換即可。 這類參考會被視為標準實體。 若要這樣做，請關閉所參考查詢的 [啟用載入] 選項，以防止資料被具體化，以及被內嵌到儲存體中。 您可以從該處參考那些**啟用載入 = false** 查詢，並只針對想要具體化的查詢結果將 [啟用載入] 設定為 [開啟]。
+
 
 ## <a name="how-to-link-entities-between-dataflows"></a>如何在資料流程之間連結實體
 

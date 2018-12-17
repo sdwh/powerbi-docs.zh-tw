@@ -9,13 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
+ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: cbfee8034639a65517f9adc57cc95dd1271e6044
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717623"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025434"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium 是什麼？
 
@@ -45,11 +46,11 @@ Microsoft Power BI Premium 可為您的組織提供專門用來執行 Power BI �
 |  | 共用容量 | Power BI Premium 容量 |
 | --- | --- | --- |
 | **重新整理的頻率** |8/日 |48/日 |
-| **使用專用的硬體隔離** |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用") |
+| **使用專用的硬體隔離** |![無法使用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png) |
 | 對_**所有使用者**_ 的**企業散發** | | |
-| 應用程式和共用 |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用")<sup>1</sup> |
-| 內嵌的 API 和控制項 |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用")<sup>2</sup> |
-| **在內部部署發佈 Power BI 報告** |![](media/service-premium/not-available.png "無法使用") |![](media/service-premium/available.png "可用") |
+| 應用程式和共用 |![無法使用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png) |
+| 內嵌的 API 和控制項 |![無法使用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png)<sup>2</sup> |
+| **在內部部署發佈 Power BI 報告** |![無法使用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png) |
 | | | |
 
 *<sup>1</sup> 如需詳細資訊，請參閱[依授權類型排列的功能](service-features-license-type.md)。*  
@@ -86,7 +87,7 @@ Power BI Premium 適用於有不同 v 核心容量的節點設定。 如需特�
 
 ## <a name="workloads-in-premium-capacity"></a>Premium 容量中的工作負載
 
-可以把 Power BI 中的工作負載想成是您可以向使用者公開的多個服務其中之一。 根據預設，適用於 **Power BI Premium** 和 **Power BI Embedded** 的容量只支援雲端中與執行中 Power BI 查詢相關聯的工作負載。
+可以把 Power BI 中的工作負載想成是您可以向使用者公開的多個服務其中之一。 根據預設，適用於 **Power BI Premium** 和 **Power BI Embedded** 的容量只支援雲端上與執行中 Power BI 查詢相關聯的工作負載。
 
 我們現在針對兩個額外的工作負載提供預覽支援：**編頁報表**和**資料流程**。 您可以在 Power BI 管理入口網站，或透過 Power BI REST API 啟用這些工作負載。 也可以設定每個工作負載可使用的記憶體大小上限，因此可以控制不同的工作負載會如何彼此影響。 如需詳細資訊，請參閱[設定工作負載](service-admin-premium-manage.md#configure-workloads)。
 
@@ -113,7 +114,7 @@ Power BI Premium 適用於有不同 v 核心容量的節點設定。 如需特�
 
 如果您使用編頁報表工作負載，請記住下列幾點。
 
-* **分頁報表中的記憶體配置**：編頁報表可讓您在轉譯報表 (例如依據內容動態變更文字色彩) 時執行自己的程式碼。 這表示我們透過在容量內包含的空間中執行編頁報表，以保護 Power BI Premium 容量。 無論工作負載是否在作用中，我們都會將您指定的最大記憶體指派給此空間。 如果您以相同容量使用 Power BI 報表或資料流程，請確定您沒有為編頁報表設定過大的記憶體，以避免對其他工作負載造成負面影響。
+* **編頁報表中的記憶體配置**：編頁報表可讓您在轉譯報表 (例如依據內容動態變更文字色彩) 時執行自己的程式碼。 這表示我們透過在容量內包含的空間中執行編頁報表，以保護 Power BI Premium 容量。 無論工作負載是否在作用中，我們都會將您指定的最大記憶體指派給此空間。 如果您以相同容量使用 Power BI 報表或資料流程，請確定您沒有為編頁報表設定過大的記憶體，以避免對其他工作負載造成負面影響。
 
 * **編頁報表無法使用**：在罕見的情況下，編頁報表工作負載可能會變成無法使用。 此時，工作負載會在系統入口網站中顯示錯誤狀態，而且使用者會看到報表轉譯逾時。 若要緩解此問題，請停用工作負載，然後再次啟用它。
 

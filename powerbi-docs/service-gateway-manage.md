@@ -1,5 +1,5 @@
 ---
-title: 管理 Power BI 閘道
+title: 管理 Power BI 內部部署閘道
 description: 了解如何管理閘道，以便您可以連線到 Power BI 中的內部部署資料。
 author: mgblythe
 manager: kfile
@@ -9,15 +9,16 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 21eaca02502ae67ba5ecddff8e1b8890e0a049af
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755154"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026377"
 ---
-# <a name="manage-a-power-bi-gateway"></a>管理 Power BI 閘道
+# <a name="manage-a-power-bi-on-premises-gateway"></a>管理 Power BI 內部部署閘道
 
 [安裝 Power BI 資料閘道](service-gateway-install.md)之後，您便可以根據自己的需求來進行管理。 在本主題中，您將學會如何新增及移除資料來源和使用者、重新啟動閘道，以及移轉、還原、接管及移除閘道。 
 

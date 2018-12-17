@@ -4,18 +4,19 @@ description: 連接至 Power BI Desktop 中的資料
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e0430455131b0669dfa744c7a1df6691bda4c782
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 0fc366ad5b42f84f8677be36d1f2093a4ac0fa23
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578144"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025549"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>連接至 Power BI Desktop 中的資料
 透過 Power BI Desktop，您可以輕鬆地連接到持續擴展的資料世界。 如果您沒有 Power BI Desktop，您可以[下載](http://go.microsoft.com/fwlink/?LinkID=521662)並加以安裝。
@@ -24,6 +25,7 @@ Power BI Desktop 中有「各式各樣」  的可用資料來源。 下圖顯示
 
 ![](media/desktop-connect-to-data/getdatavid_smallv2.gif)
 
+## <a name="example-of-connecting-to-data"></a>連線到資料的範例
 在本例中，我們將連接到 **Web** 資料來源。
 
 想像您即將退休 - 您想要住在有很多陽光、稅制合理且具備良好健康照護的地方。 或者… 也許您是資料分析師，您想要該資訊來協助您的客戶 – 像是協助您的雨衣製造客戶以 *經常* 下雨的地方為銷售目標.
@@ -64,7 +66,7 @@ Power BI Desktop 中有「各式各樣」  的可用資料來源。 下圖顯示
 
 當然，這是具有單一資料連接的簡單模型；大多數 Power BI Desktop 報表會連接到不同的資料來源、依您的需求成形並具有關聯性，以產生豐富的資料模型。 
 
-### <a name="next-steps"></a>後續步驟
+## <a name="next-steps"></a>後續步驟
 您可以使用 Power BI Desktop 執行各種作業。 如需有關其功能的詳細資訊，請參閱下列資源：
 
 * [Power BI Desktop 是什麼？](desktop-what-is-desktop.md)

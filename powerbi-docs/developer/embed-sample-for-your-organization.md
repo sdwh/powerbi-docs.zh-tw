@@ -1,31 +1,32 @@
 ---
-title: 為組織將 Power BI 內容內嵌至應用程式
-description: 了解如何使用 Power BI API，為組織將報表、儀表板或磚整合或內嵌至 Web 應用程式。
+title: 運用內嵌式分析為組織將 Power BI 內容內嵌至應用程式
+description: 了解如何使用內嵌式分析的 Power BI API，為組織將報表、儀表板或圖格整合或內嵌至應用程式。 了解如何使用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具，將 Power BI 整合到應用程式中。
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.topic: tutorial
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.custom: mvc
-ms.date: 10/17/2018
-ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.topic: tutorial
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396857"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180752"
 ---
-# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 報表、儀表板或磚內嵌至應用程式
+# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 報表、儀表板或圖格內嵌至應用程式
 
-本教學課程會示範如何將報表整合至應用程式。 您可以使用 Power BI .NET SDK 搭配 Power BI JavaScript API，為您的組織將 Power BI 內嵌至應用程式。 在 Power BI 中，可利用**使用者擁有資料**，將報表、儀表板或磚內嵌至應用程式。 **使用者擁有資料**可讓應用程式延伸 Power BI 服務。
+在 **Power BI** 中，可利用使用者擁有資料，將報表、儀表板或圖格內嵌至應用程式。 **使用者擁有資料**可讓應用程式延伸 Power BI 服務以使用內嵌式分析。 本教學課程會示範如何將報表整合至應用程式。 您可以使用 Power BI .NET SDK 搭配 Power BI JavaScript API，為組織將 Power BI 內嵌到應用程式中。
 
 ![Power BI 內嵌報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 在本教學課程中，您會學習下列工作：
->[!div class="checklist"]
->* 在 Azure 中註冊應用程式。
->* 將 Power BI 報表內嵌到應用程式中。
+> [!div class="checklist"]
+> * 在 Azure 中註冊應用程式。
+> * 將 Power BI 報表內嵌到應用程式中。
 
 ## <a name="prerequisites"></a>先決條件
 
@@ -40,9 +41,9 @@ ms.locfileid: "49396857"
 
 在您開始將報表、儀表板或磚內嵌至您的應用程式之前，請確認已將環境設定成允許內嵌。 作為設定的一部分，請採取以下其中一個動作：
 
-- 您可以瀏覽[內嵌設定工具](https://aka.ms/embedsetup/UserOwnsData)來快速開始使用及下載範例應用程式，帶您逐步建立環境及內嵌報表。
+* 您可以瀏覽[內嵌設定工具](https://aka.ms/embedsetup/UserOwnsData) \(英文\) 來快速開始使用及下載範例應用程式，帶您逐步建立環境及內嵌報表。
 
-- 若您選擇手動設定環境，請採取下列各節中的步驟。
+* 若您選擇手動設定環境，請採取下列各節中的步驟。
 
 ### <a name="register-an-application-in-azure-active-directory"></a>在 Azure Active Directory 中註冊應用程式
 
@@ -60,13 +61,13 @@ ms.locfileid: "49396857"
 
     ![新增應用程式註冊](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. 遵循提示並建立新的應用程式。 針對**使用者擁有資料**，請針對 [應用程式類型] 使用 [Web 應用程式/API]。 您也必須提供 [登入 URL]，供 Azure AD 用來傳回權杖回應。 輸入您應用程式的特定值。 例如：`http://localhost:13526/`。
+4. 遵循提示並建立新的應用程式。 針對**使用者擁有資料**，請針對 [應用程式類型] 使用 [Web 應用程式/API]。 提供 [登入 URL]，供 Azure AD 用來傳回權杖回應。 輸入您應用程式的特定值。 例如：`http://localhost:13526/`。
 
     ![建立應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>在 Azure Active Directory 內將權限套用至應用程式
 
-除了應用程式註冊頁面上所提供的內容之外，您必須為應用程式啟用權限。 使用全域系統管理員帳戶登入以啟用權限。
+除了應用程式註冊頁面上所提供的內容之外，也請為應用程式啟用權限。 使用全域系統管理員帳戶登入以啟用權限。
 
 ### <a name="use-the-azure-active-directory-portal"></a>使用 Azure Active Directory 入口網站
 
@@ -158,7 +159,7 @@ ms.locfileid: "49396857"
 
     ![使用者擁有資料應用程式範例](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. 開啟範例應用程式中的 **Cloud.config** 檔案。 您必須填寫一些欄位，才能成功地執行應用程式：**ApplicationID** 及 **ApplicationSecret**。
+2. 開啟範例應用程式中的 **Cloud.config** 檔案。 您必須填入一些欄位，才能成功執行應用程式：**ApplicationID** 和 **ApplicationSecret**。
 
     ![Cloud.config 檔案](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
@@ -168,69 +169,69 @@ ms.locfileid: "49396857"
 
     1. 登入 [Azure 入口網站](https://portal.azure.com)。
 
-        ![Azure 入口網站儀表板](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Azure 入口網站儀表板](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-    1. 在左側瀏覽窗格中，選擇 [所有服務]及 [應用程式註冊]。
+    2. 在左側瀏覽窗格中，選擇 [所有服務]及 [應用程式註冊]。
 
-        ![應用程式註冊搜尋](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![應用程式註冊搜尋](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. 選取需要使用 **ApplicationID** 的應用程式。
+    3. 選取需要使用 **ApplicationID** 的應用程式。
 
-        ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. 您應該會看到以 GUID 形式列出的**應用程式識別碼**。 請使用此**應用程式識別碼**作為應用程式的 **ApplicationID**。
+    4. 您應該會看到以 GUID 形式列出的**應用程式識別碼**。 請使用此**應用程式識別碼**作為應用程式的 **ApplicationID**。
 
         ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. 在 **Azure** 之 [應用程式註冊] 區段的 [金鑰] 區段中，填入 **ApplicationSecret** 資訊。
+    在 **Azure** 之 [應用程式註冊] 區段的 [金鑰] 區段中，填入 **ApplicationSecret** 資訊。
 
-    1. 若要取得 **ApplicationSecret**，請遵循下列步驟：
+    若要取得 **ApplicationSecret**，請遵循下列步驟：
 
-        1. 登入 [Azure 入口網站](https://portal.azure.com)。
+    1. 登入 [Azure 入口網站](https://portal.azure.com)。
 
-            ![Azure 入口網站](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Azure 入口網站](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-        1. 在左側瀏覽窗格中，選擇 [所有服務]及 [應用程式註冊]。
+    2. 在左側瀏覽窗格中，選擇 [所有服務]及 [應用程式註冊]。
 
-            ![應用程式註冊搜尋](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![應用程式註冊搜尋](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. 選取需要使用 **ApplicationSecret** 的應用程式。
+    3. 選取需要使用 **ApplicationSecret** 的應用程式。
 
-            ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-        1. 選取 [設定] 。
+    4. 選取 [設定] 。
 
-            ![選取 [設定]](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+       ![選取 [設定]](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
 
-        1. 選取 [金鑰]。
+    5. 選取 [金鑰]。
 
-            ![選取 [金鑰]](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+       ![選取 [金鑰]](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    1. 在 [描述] 方塊中輸入名稱，並選取期間。 然後選取 [儲存] 來取得您應用程式的**值**。 當您在儲存金鑰值後關閉 [金鑰] 窗格時，[值] 欄位只會以隱藏方式顯示。 此時，您即無法擷取金鑰值。 如果您遺失金鑰值，就必須在 Azure 入口網站中建立一個新的。
+    6. 在 [描述] 方塊中輸入名稱，並選取期間。 然後選取 [儲存] 來取得您應用程式的**值**。 當您在儲存金鑰值後關閉 [金鑰] 窗格時，[值] 欄位只會以隱藏方式顯示。 此時，您即無法擷取金鑰值。 如果您遺失金鑰值，就必須在 Azure 入口網站中建立一個新的。
 
-        ![金鑰值](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+          ![金鑰值](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
-    1. 針對 **groupId**，輸入來自 Power BI 的應用程式工作區 GUID。
+    7. 針對 **groupId**，輸入來自 Power BI 的應用程式工作區 GUID。
 
-        ![輸入 groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+       ![輸入 groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-    1. 針對 **reportId**，輸入來自 Power BI 的報表 GUID。
+    8. 針對 **reportId**，輸入來自 Power BI 的報表 GUID。
 
-        ![輸入 reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+       ![輸入 reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
 3. 執行應用程式：
 
-    1. 首先，在 **Visual Studio** 中選取 [執行]。
+    在 **Visual Studio** 中選取 [執行]。
 
-        ![執行應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
+    ![執行應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-    1. 然後選取 [取得報表]。
+    然後選取 [取得報表]。
 
-        ![選取內容](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
+    ![選取內容](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
-    1. 現在，您已可以在範例應用程式中檢視該報表。
+    現在，您已可以在範例應用程式中檢視該報表。
 
-        ![在應用程式中檢視報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+    ![在應用程式中檢視報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>在應用程式中內嵌內容
 

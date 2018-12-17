@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/29/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: a79fc16f183edb359c15da31ebd6f2747fa7859d
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: dfc3006c37d6055bac435fceb05febd596f0cd1a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187275"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026469"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Power BI 視覺效果中的彙總
 ## <a name="what-is-an-aggregate"></a>什麼是彙總？
@@ -32,11 +33,11 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 - [銷售單位] 與 [製造價格] 是包含數值資料的資料行
 -  [業別]、[國家/地區]、[產品]、[月份] 和 [月份名稱] 包含類別目錄資料
 
-   ![](media/service-aggregates/power-bi-aggregate-chart.png)
+   ![範例資料集](media/service-aggregates/power-bi-aggregate-chart.png)
 
 在 Power BI 中建立視覺效果時，會對某個類別欄位彙總數值欄位 (預設值是「總和」)。  例如，「依產品的銷售單位」、「依月份的銷售單位」和「依業別的製造價格」。 有些數值欄位稱為**量值**。 可以輕鬆地在 Power BI 報表編輯器中識別量值 -- 量值會在 [欄位] 清單中隨著 ∑ 符號顯示。 如需詳細資訊，請參閱[報表編輯器導覽](service-the-report-editor-take-a-tour.md)。
 
-![](media/service-aggregates/power-bi-aggregate-fields.png)
+![[欄位] 清單](media/service-aggregates/power-bi-aggregate-fields.png)
 
 
 
@@ -52,18 +53,18 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 
 1. 建立使用類別和量值的圖表。 在此範例中，我們會使用「依產品的銷售單位」。  根據預設，Power BI 會建立針對每個產品 (軸中的類別) 加總銷售單位 (值中的量值) 的圖表。
 
-   ![](media/service-aggregates/power-bi-aggregate-sum.png)
+   ![[加總] 彙總](media/service-aggregates/power-bi-aggregate-sum.png)
 
 2. 在 [視覺效果] 窗格中，以滑鼠右鍵按一下量值，然後選取您需要的彙總類型。 在此案例中，我們選取「平均值」。 如果您沒有看到您需要的彙總，請參閱底下的＜考量與疑難排解＞。  
    
-   ![](media/service-aggregates/power-bi-aggregate-average.png)
+   ![[平均] 彙總](media/service-aggregates/power-bi-aggregate-average.png)
    
    > [!NOTE]
    > 下拉式清單中可用的選項會因 1) 所選取的欄位，以及 2) 資料集擁有者分類欄位的方式而有所不同。
    > 
 3. 您的視覺效果現在使用依平均值彙總。
 
-   ![](media/service-aggregates/power-bi-aggregate-average2.png)
+   ![[售出單位數量的平均值]](media/service-aggregates/power-bi-aggregate-average2.png)
 
 ##    <a name="ways-to-aggregate-your-data"></a>彙總資料的方式
 
@@ -94,71 +95,71 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 
 會得到下列結果：
 
-* **不加總**：分別顯示每個值
+* **不摘要**：分別顯示每個值
 * **加總**：750
 * **平均**：125
 * **最大值**：150
 * **最小值**：100
-* **計數 (沒有空格)：** 6
-* **計數 (相異)：** 4
-* **標準差：** 20.4124145...
-* **變異數：** 416.666...
-* **中位數：** 125
+* **計數 (沒有空格)**：6
+* **計數 (相異)**：4
+* **標準差**：20.4124145...
+* **變異數**：416.666...
+* **中位數**：125
 
 ## <a name="create-an-aggregate-using-a-category-text-field"></a>建立使用類別 (文字) 欄位的彙總
 您也可以彙總非數值欄位。 例如，如果有產品名稱欄位，您可以將它新增為值，然後將它設定為 [計數]、[相異計數]、[第一個] 或 [最後一個]。 
 
 1. 在此範例中，我們已將 [產品] 欄位拖入 [值]。 [值] 通常用於數值欄位。 Power BI 會辨識這是一個文字欄位、將彙總設為 [不摘要]，並呈現單一資料行的資料表。
    
-   ![](media/service-aggregates/power-bi-aggregate-value.png)
+   ![[值] 中的 [產品] 欄位](media/service-aggregates/power-bi-aggregate-value.png)
 2. 如果將彙總從預設的 [不摘要] 變更為 [計數 (相異)] ，Power BI 就會計算不同產品的數目。 在本案例中有 4 個。
    
-   ![](media/service-aggregates/power-bi-aggregates-count.png)
+   ![產品的相異計數](media/service-aggregates/power-bi-aggregates-count.png)
 3. 如果將彙總變更為 [計數]，Power BI 就會計算總數。 在本案例中，[產品] 有 7 個項目。 
    
-   ![](media/service-aggregates/power-bi-aggregate-count2.png)
+   ![[產品計數]](media/service-aggregates/power-bi-aggregate-count2.png)
 
 4. 藉由將相同的欄位 (在本案例為 [產品]) 拖入 [值]，並維持預設彙總 [不摘要]，Power BI 會依產品細分計數。
 
-   ![](media/service-aggregates/power-bi-aggregate-final.png)
+   ![[產品] 和 [產品計數]](media/service-aggregates/power-bi-aggregate-final.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-問︰為什麼沒有**不摘要**選項？
+問：為什麼沒有 [不摘要] 選項？
 
-答：您所選取的欄位可能是導出量值或在 Excel 或 [Power BI Desktop](desktop-measures.md) 中建立的進階量值。 每個導出量值都有自己的硬式編碼公式。 您無法變更使用中的彙總。  例如，如果是總和，就只能是總和。 在 [欄位] 清單中，「導出量值」會以計算機符號顯示。
+答：您所選取的欄位可能是在 Excel 或 [Power BI Desktop](desktop-measures.md) 中建立的導出量值或進階量值。 每個導出量值都有自己的硬式編碼公式。 您無法變更使用中的彙總。  例如，如果是總和，就只能是總和。 在 [欄位] 清單中，「導出量值」會以計算機符號顯示。
 
-問︰我的欄位**是**數值，為何我只能選擇 [計數] 和 [相異計數]？
+問：我的欄位**是**數值，為何我只能選擇 [計數] 和 [相異計數]？
 
-答 1︰可能的原因為資料集擁有者不小心或故意「不」將該欄位分類為數字。 例如，如果資料集具有 [年] 欄位，資料集擁有者可能會將其分類為文字，因為比較可能會計算 [年] 欄位 (例如在 1974 年出生的人數)，而不是加總或取平均值。 如果您是擁有者，可以在 Power BI Desktop 中開啟資料集，並使用 [模型] 索引標籤來變更資料類型。  
+答 1：可能的原因為資料集擁有者不小心或刻意「不」將該欄位分類為數字。 例如，如果資料集具有 [年] 欄位，資料集擁有者可能會將其分類為文字，因為比較可能會計算 [年] 欄位 (例如在 1974 年出生的人數)，而不是加總或取平均值。 如果您是擁有者，可以在 Power BI Desktop 中開啟資料集，並使用 [模型] 索引標籤來變更資料類型。  
 
-答 2︰如果欄位有計算機圖示，這表示它是「導出量值」，而每個導出量值都有它自己的硬式編碼公式，只能由資料集擁有者變更。 正在使用的計算可能是簡單的彙總，例如平均或加總，但它也可能更複雜，例如「在父類別所佔比重的百分比」或「自年初起的計算加總」。 Power BI 並不會將結果加總或平均，但會改為針對每個資料點重新計算 (使用硬式編碼的公式)。
+答 2：如果欄位有計算機圖示，這表示它是「導出量值」，而每個導出量值都有自己的硬式編碼公式，只能由資料集擁有者變更。 正在使用的計算可能是簡單的彙總，例如平均或加總，但它也可能更複雜，例如「在父類別所佔比重的百分比」或「自年初起的計算加總」。 Power BI 並不會將結果加總或平均，但會改為針對每個資料點重新計算 (使用硬式編碼的公式)。
 
-答 3︰另一個可能的原因是，您將欄位放至只允許類別目錄值的「值區」。  在此情況下，您只能選擇計數與相異計數。
+答 3：另一個可能的原因是，您將欄位放到了只允許類別值的「值區」。  在此情況下，您只能選擇計數與相異計數。
 
-答 4︰第三個可能的原因是，您使用欄位作為座標軸。 例如，在橫條圖的軸上，Power BI 會針對每個相異值顯示一個橫條，它完全不會彙總欄位值。 
+答 4：第三個可能的原因是您使用該欄位作為座標軸。 例如，在橫條圖的軸上，Power BI 會針對每個相異值顯示一個橫條，它完全不會彙總欄位值。 
 
 >[!NOTE]
 >此規則的例外狀況是散佈圖，「需要」彙總 X 軸和 Y 軸的值。
 
-問：為何我無法針對 SSAS 資料來源彙總文字欄位？
+問：為何我無法針對 SSAS 資料來源對文字欄位進行彙總？
 
-答：與 SSAS MD 的即時連線不允許任何用戶端彙總。 這包括 first、last、avg、min、max 與 sum。
+答：對 SSAS MD 的即時連線不允許任何用戶端彙總。 這包括 first、last、avg、min、max 與 sum。
 
-問︰我有散佈圖，而且我希望我的欄位「不要」彙總。  要怎麼做？
+問：我有散佈圖，而且我希望我的欄位「不要」彙總。  要怎麼做？
 
-答︰將欄位新增至 [詳細資料] 值區，而不是 X 或 Y 軸的值區。
+答：將欄位新增至 [詳細資料] 值區，而不是 X 或 Y 軸的值區。
 
-問︰當我新增數值欄位至視覺效果時，它們大部分都預設為加總，但有些預設為平均或計數或其他彙總。  為什麼預設彙總不一律相同？
+問：當我新增數值欄位至視覺效果時，它們大部分都預設為加總，但有些會預設為平均或計數，而其他則會預設為彙總。  為什麼預設彙總不一律相同？
 
-答︰資料集擁有者可以選擇設定每個欄位的預設摘要。 如果您是資料集擁有者，請變更 Power BI Desktop [模型] 索引標籤中的預設摘要。
+答：資料集擁有者可以選擇設定每個欄位的預設摘要。 如果您是資料集擁有者，請變更 Power BI Desktop [模型] 索引標籤中的預設摘要。
 
-問︰我是資料集擁有者，我想確定欄位永遠不會進行彙總。
+問：我是資料集擁有者，我想確保欄位永遠不會進行彙總。
 
-答：在 Power BI Desktop 中，請在 [模型] 索引標籤上，將 [資料類型] 設為 [文字]。
+答：在 Power BI Desktop 中，請在 [模型] 索引標籤中，將 [資料類型] 設為 [文字]。
 
-問︰我在我的下拉式清單中看不見 [不摘要] 的選項。
+問：我在我的下拉式清單中看不見 [不摘要] 的選項。
 
-答︰請嘗試移除欄位，並將其新增回去。
+答：請嘗試移除欄位，並將其新增回去。
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

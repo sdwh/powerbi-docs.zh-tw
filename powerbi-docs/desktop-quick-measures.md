@@ -1,21 +1,22 @@
 ---
-title: 在 Power BI 中使用快速量值，輕鬆執行常用及功能強大的計算
+title: 使用快速量值以執行常用及功能強大的計算
 description: 快速量值提供現成的 DAX 公式，以快速執行常用的計算
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c3b8d11176992cb9e6ce114d2c0a7a310ca5d9fc
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 19fdadb6476dab9eda0fa5c76f17680cbd7b4cfe
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670961"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026400"
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>使用快速量值，輕鬆執行常用及功能強大的計算
 您可以使用**快速量值**，快速輕鬆執行常用及功能強大的計算。 **快速量值**會依據您在對話方塊中提供的輸入，在幕後執行一組 DAX 命令 (DAX 是現成的，所以您不必撰寫)，然後顯示結果，供您在報表中使用。 更棒的是，您可以查看快速量值所執行的 DAX，以啟發或拓展您的 DAX 知識。

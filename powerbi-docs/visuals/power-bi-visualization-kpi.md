@@ -8,15 +8,15 @@ featuredvideoid: xmja6EpqaO0
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 09/24/2018
+ms.date: 11/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0492390ae47c8d5aa0930a063370712c80d61de2
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c726ba8d50f077a640879f666fd441e27b19d3c7
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829634"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979324"
 ---
 # <a name="kpi-visuals"></a>KPI 視覺效果
 關鍵效能指標 (KPI) 是一種視覺提示，指出對於可測量目標已達成的進度。 如需 KPI 的詳細資訊，請參閱 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)
@@ -49,7 +49,7 @@ KPI 極適合：
 1. 在 [報表] 檢視中開啟報表並選取黃色索引標籤來新增頁面。    
 2. 從 [欄位] 窗格中選取 [銷售額] > [本年度的總單位]。  這會是指標。
 3. 新增 [時間] > [FiscalMonth]。  這會顯示趨勢。
-4. 重要：依照 **FiscalMonth** 進行圖表排序。 將視覺效果轉換為 KPI 之後，即沒有選項可供排序。
+4. 重要：請依據 **FiscalMonth** 進行圖表排序。 將視覺效果轉換為 KPI 之後，即沒有選項可供排序。
 
     ![](media/power-bi-visualization-kpi/power-bi-chart.png)
 5. 從 [視覺效果] 窗格中選取 KPI 圖示，將視覺效果轉換為 KPI。

@@ -1,22 +1,22 @@
 ---
 title: 教學課程 - Power BI 中的交叉分析篩選器
 description: Power BI 中的交叉分析篩選器
-author: mihart
+author: v-thepet
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 09/25/2018
-ms.author: v-thepet
+ms.date: 10/25/2018
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e42504c2c320e4f102cab5e2272e6123bf580cf5
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: e6b738060875685a7de8e07a55d28afaf071b32e
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448975"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979643"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的交叉分析篩選器
 您希望報告讀者能夠查看整體銷售計量，但也能夠醒目提示個別區經理和不同時間範圍的績效。 您可以建立個別的報告或比較圖表，或是使用交叉分析篩選器。 交叉分析篩選器是一種替代的篩選方式，可縮小報表內其他視覺效果中顯示的資料集部分。 
@@ -177,10 +177,10 @@ Power BI 交叉分析篩選器具有下列限制：
 
 ### <a name="other-formatting-options"></a>其他格式化選項
 其他格式化選項預設關閉。 轉換為 [開啟] 時： 
-- **標題：** 在交叉分析篩選器的上方新增並格式化標題 (除標頭外，且不受標頭影響)。 
-- **背景：** 新增整體交叉分析篩選器的背景色彩，並設定其透明度。
-- **鎖定長寬：** 如果調整大小，保留交叉分析篩選器的形狀。
-- **框線：** 新增交叉分析篩選器的 1 像素框線，並設定其色彩。 (此交叉分析篩選器框線和 [General Outline] (一般外框) 設定不同，不受其影響。) 
+- **標題：** 在交叉分析篩選器上方新增一個標頭以外且不受標頭影響的標題，並將其格式化。 
+- **背景：** 將背景色彩新增至整體交叉分析篩選器，並設定其透明度。
+- **鎖定長寬：** 調整交叉分析篩選器大小時，保留其形狀。
+- **框線：** 在交叉分析篩選器週圍新增 1 個像素的框線，並設定其色彩。 (此交叉分析篩選器框線和 [General Outline] (一般外框) 設定不同，不受其影響。) 
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)

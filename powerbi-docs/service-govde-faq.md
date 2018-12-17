@@ -1,26 +1,29 @@
 ---
-title: 德國政府客戶的 Power BI 常見問題集
+title: 德國政府客戶的常見問題集
 description: 適用於德國政府客戶，回答 Power BI 德國政府服務的常見問題
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4a602a8494261705d61c70679d9511993afe69af
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: dfc240e50f2fa88fc40b5f6f8d80b1106c388cd5
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670064"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026446"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>德國雲端客戶的 Power BI 常見問題集
 **Power BI 服務**為歐盟/歐洲自由貿易協定 (EU/EFTA) 客戶提供一個版本，通常稱為 Microsoft Cloud Deutschland (MCD)。 本文所討論的 **Power BI 服務**版本為 EU/EFTA 客戶專屬，獨立且不同於商用版本的 **Power BI 服務**，或提供給政府客戶的 Power BI 服務。
 
 ![](media/service-govde-faq/govde-faq_01.png)
+
+## <a name="questions-and-answers"></a>問題和回答
 
 下列問題與回答提供 Microsoft Cloud Deutschland (MCD) 中 Power BI Pro 服務的重要資訊，這是專為 EU/EFTA 客戶提供的 Power BI 服務雲端。
 
@@ -68,7 +71,7 @@ ms.locfileid: "52670064"
 | Azure 入口網站 (適用於 Embedded) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
 | 社群 |[https://community.powerbi.com/](https://community.powerbi.com/) |[https://community.powerbi.com/](https://community.powerbi.com/) |
 
-### <a name="next-steps"></a>後續步驟
+## <a name="next-steps"></a>後續步驟
 您可以使用 Power BI 執行各種作業。 如需詳細資訊和學習，包括說明如何註冊服務的文章，請參閱下列資源︰
 
 * [引導式學習 Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)

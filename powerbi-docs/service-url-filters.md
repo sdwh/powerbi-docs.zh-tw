@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 778be27e38c287de1adf7011c9e4b78048b2a4fa
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850583"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180798"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -145,7 +145,7 @@ Table_x0020_Name/Column_x002B_Plus eq 3 ![呈現特殊字元的資料表視覺�
 
 Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![呈現特殊字元的資料表視覺效果](media/service-url-filters/power-bi-special-characters2.png)
 
-### <a name="use-dax-to-filter-on-multiple-values"></a>使用 DAX 篩選多個值
+## <a name="use-dax-to-filter-on-multiple-values"></a>使用 DAX 篩選多個值
 
 篩選多個欄位的另一種方法是建立計算結果欄，將兩個欄位串連成單一值。 接著您就可以篩選該值。
 
@@ -155,7 +155,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 將報表發佈到 Power BI 服務，然後使用 URL 查詢字串篩選成只顯示 NC 的 Lindseys 門市資料。
 
-    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
+    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>從篩選的報表釘選磚
 

@@ -1,27 +1,26 @@
 ---
-title: 協力廠商服務：適用於 Power BI Desktop 的 Google Analytics 連接器
-description: 協力廠商服務：適用於 Power BI Desktop 的 Google Analytics 連接器
+title: 第三方服務：Google Analytics 連接器
+description: 第三方服務：Power BI Desktop 的 Google Analytics 連接器
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a0c98a8f65529575cb70fccec927c1ee00d9a089
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: b7451f156503d88baf4bdf3f3ae2cb99c04a94c1
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669420"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025595"
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop 的 Google Analytics 連接器
 > [!NOTE]
 > Power BI Desktop 中的 Google Analytics (分析) 內容套件和連接器仰賴 Google Analytics (分析) 核心報告 API。 因此，功能與可用性可能會隨著時間而變化。
-> 
-> 
 
 您可以使用 **Google Analytics (分析)** 連接器連接 Google Analytics 資料。 若要連接，請遵循下列步驟：
 

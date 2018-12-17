@@ -1,21 +1,22 @@
 ---
-title: 在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Azure 使用深入解析資料
+title: 連線到 Azure Consumption Insights 資料搶先版 (Beta)
 description: 輕鬆地連線到 Azure，並使用 Power BI Desktop 深入了解耗用量和使用
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619601"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026770"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Azure 使用深入解析
 使用 **Azure 使用深入解析**連接器，您可以使用 **Power BI Desktop** 連線到 Azure，並取得關於貴組織的 Azure 服務使用量的深入資料和相關資訊。 您也可以建立量值、自訂資料行和視覺效果，報告及共用有關貴組織 Azure 使用量的資訊。 這一版的 **Azure 使用深入解析**連接器處於搶鮮版 (Beta)，並可能有所變更。
@@ -50,8 +51,8 @@ ms.locfileid: "51619601"
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 提供「存取金鑰」並選取 [連線] 之後，[導覽器] 視窗隨即出現，並顯示九個您可取得的資料表： 
-* **Budgets**：提供預算詳細資料，以檢視實際成本或現有預算目標的使用情況。 
-* **MarketPlace**：提供預算型 Azure Marketplace 費用。
+* **預算**：提供預算詳細資料，以檢視實際成本或現有預算目標的使用情況。 
+* **Marketplace**：提供用量型 Azure Marketplace 費用。
 * **PriceSheets**：藉由註冊的計量提供適用的費率。
 * **RICharges**：提供過去 24 個月與您的保留執行個體相關聯的費用。
 * **RIRecommendations_Single**：根據您單一訂用帳戶上，過去 7、30 或 60 天的使用量趨勢所提供的保留執行個體購買建議。

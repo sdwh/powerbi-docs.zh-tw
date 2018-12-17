@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 360ffdd61525244bd75e57c8c9c9aad25131a13d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266831"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180821"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI (預覽) 中的自助資料準備
 
@@ -25,7 +25,7 @@ ms.locfileid: "51266831"
 
 Power BI 導入了**資料流程**，可協助組織整合來自不同來源的資料，並為模型化做好準備。 分析師可以使用熟悉的自助工具，輕鬆地建立資料流程。 資料流程可藉由定義資料來源連線、ETL 邏輯、重新整理排程，以及更多項目，以用來擷取、轉換、整合及擴充巨量資料。 此外，屬於資料流程一部分的新模型導向計算引擎可讓資料準備程序更容易管理、更具決定性，而且對資料分析師和報表建立者而言不再那麼麻煩。 類似於試算表針對所有受影響公式處理重新計算的方式，資料流程會代表您管理實體或資料元素的變更，甚至可針對基本資料重新整理，減緩過去繁瑣又費時的邏輯檢查。 使用資料流程，分析師和報表建立者現在只需按幾下，就能處理曾經需要資料科學家監看的工作 (以及要完成的時數或天數)。 
 
-資料會在 Azure Data Lake Storage Gen2 的 [**Common Data Service**](https://docs.microsoft.com/powerapps/common-data-model/overview) 中儲存為實體。 資料流程會使用 Power BI 服務，在應用程式工作區中建立及管理。  
+資料會在 Azure Data Lake Storage Gen2 中以 [**Common Data Model**](https://docs.microsoft.com/powerapps/common-data-model/overview) \(英文\) 的形式儲存為實體。 資料流程會使用 Power BI 服務，在應用程式工作區中建立及管理。  
 
 > [!NOTE]
 > 資料流程功能目前處於預覽狀態，而且可能會在公開上市之前有所變更及更新。
@@ -68,6 +68,7 @@ Power BI 可設定為將資料流程的資料儲存於貴組織的 Azure Data La
 
 Power BI 也可以連線到含有 Common Data Service 格式且已結構描述化之資料的資料夾，此資料夾會用來儲存貴組織的 Azure Data Lake Storage 帳戶。 這些資料夾可透過 Azure 資料服務之類的服務來建立。 藉由連線到這些資料夾，分析師就可以在 Power BI 中順暢地使用此資料。 
 
+如需 Azure Data Lake Storage Gen2 與資料流程之整合的詳細資訊，包括如何建立位於您組織 Azure Data Lake 內部的資料流程，請參閱[資料流程與 Azure Data Late 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)。
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Power BI Premium 上的資料流程功能
 
@@ -105,17 +106,15 @@ Power BI 也可以連線到含有 Common Data Service 格式且已結構描述�
 * 開始使用適用於開發人員的資料流程
 
 
-
-
-
 ## <a name="next-steps"></a>後續步驟
 
 此文章提供適用於 Power BI 中巨量資料的自助資料準備概觀，以及您可使用它的許多方式。 下列文章將更詳細討論資料流程的常見使用案例。 
 
 * [建立 Power BI 中的資料流程](service-dataflows-create-use.md)
-* [使用 Power BI Premium 上的計算實體 (預覽)](service-dataflows-computed-entities-premium.md)
+* [在 Power BI Premium 中使用計算實體 (預覽)](service-dataflows-computed-entities-premium.md)
 * [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
 * [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
+* [資料流程與 Azure Data Lake 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)
 
 如需 Power Query 和排程重新整理的詳細資訊，您可以閱讀下列文章：
 * [Power BI Desktop 中的查詢概觀](desktop-query-overview.md)

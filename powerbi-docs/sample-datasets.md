@@ -4,25 +4,26 @@ description: 適用於 Power BI 的範例內容套件、PBIX 檔案及 Excel 資
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: fa6c6094e4fdfefebd0c7bb1f9ec8fa87d41766b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: e46cfffc28bd77685e0a34b492e54234a76afa35
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717784"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180890"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>哪種範例資料可搭配 Power BI 使用？
 您是否剛接觸 Power BI 並想要試用，但沒有任何資料；  或您可能有資料集，但因為 (還) 不了解 Power BI 的運作方式，而擔心可能會不小心損害資料集？
 
 不必煩惱！ obviEnce ([www.obvience.com](http://www.obvience.com/)) 和 Microsoft 建立了範例供您使用，直到您更熟悉 Power BI 為止。  資料經匿名處理，並代表了不同產業：財務、HR、銷售等。 在您閱讀線上文件的同時，會發現教學課程與範例使用這些相同範例，這表示您將能夠跟著進行。      
 
-   ![](media/sample-datasets/power-bi-samples.png)
+   ![可用的範例](media/sample-datasets/power-bi-samples.png)
 
 這些範例均以數種格式提供：內容套件、個別 Excel 活頁簿及 .pbix 檔案。 如果您不了解這些是什麼，或如何開始使用，也不必擔心。 我們會在本文稍後詳加說明。 我們為各個範例建立了「導覽」，這種文章會說明範例背後的案例，並帶您瀏覽不同案例。 也許會有一個案例回答您經理的問題、另一個則會談討競爭力解析，或建立報表及儀表板以供共用、或說明業務轉換。   
 
@@ -48,42 +49,42 @@ ObviEnce 是一家 ISV 和 Microsoft Business Intelligence 的智慧財產權 (I
 ## <a name="available-samples"></a>可用的範例
 有八個範例供您使用。  每個各代表一種不同產業。
 
-### <a name="customer-profitability-sample--mediasample-datasetspower-bi-cp2png"></a>客戶獲利率範例![](media/sample-datasets/power-bi-cp2.png)
+### <a name="customer-profitability-sample--customer-profitability-samplemediasample-datasetspower-bi-cp2png"></a>客戶獲利率範例  ![客戶獲利率範例](media/sample-datasets/power-bi-cp2.png)
 [瀏覽客戶獲利率範例](sample-customer-profitability.md)
 
 這個產業範例會分析財務長對其主管、產品和客戶的關鍵計量。 您可以調查哪些因素會影響公司的獲利率。
 
-### <a name="human-resources-sample--mediasample-datasetspower-bi-hrpng"></a>人力資源範例  ![](media/sample-datasets/power-bi-hr.png)
+### <a name="human-resources-sample--human-resources-samplemediasample-datasetspower-bi-hrpng"></a>人力資源範例  ![人力資源範例](media/sample-datasets/power-bi-hr.png)
 [瀏覽 HR 範例](sample-human-resources.md)
 
 這個產業範例藉由分析新進員工、現有員工和離職員工，著眼於公司的招聘策略。  透過瀏覽資料，您可以找到自願離職的傾向與招聘策略的趨勢。
 
-### <a name="it-spend-analysis-sample-mediasample-datasetspower-bi-itpng"></a>IT 費用分析範例 ![](media/sample-datasets/power-bi-it.png)
+### <a name="it-spend-analysis-sample-it-spend-analysis-samplemediasample-datasetspower-bi-itpng"></a>IT 費用分析範例 ![IT 費用分析範例](media/sample-datasets/power-bi-it.png)
 [瀏覽 IT 支出分析範例](sample-it-spend.md)
 
 在這個產業範例中，我們分析公司 IT 部門的規劃成本與實際成本。 這項比較可幫助我們了解公司的年度計畫是否得當，並可針對大大偏離計畫的領域進行調查。 此範例中的公司，會經歷一年一度的計畫週期，然後按季產出新的「最新估計」(LE) 來協助分析 IT 支出於會計年度的變化。
 
-### <a name="opportunity-analysis-sample--mediasample-datasetspower-bi-oapng"></a>商機分析範例  ![](media/sample-datasets/power-bi-oa.png)
+### <a name="opportunity-analysis-sample--opportunity-analysis-samplemediasample-datasetspower-bi-oapng"></a>商機分析範例  ![商機分析範例](media/sample-datasets/power-bi-oa.png)
 [瀏覽商機分析範例](sample-opportunity-analysis.md)
 
 這個產業範例會探討軟體公司的銷售通路。 業務經理依地區、交易大小和通路追蹤商機和營收，藉此監控他們的直接與合作夥伴銷售通路。
 
-### <a name="procurement-analysis-sample--mediasample-datasetspower-bi-papng"></a>採購分析範例  ![](media/sample-datasets/power-bi-pa.png)
+### <a name="procurement-analysis-sample--procurement-analysis-samplemediasample-datasetspower-bi-papng"></a>採購分析範例  ![採購分析範例](media/sample-datasets/power-bi-pa.png)
 [瀏覽採購分析範例](sample-procurement.md)
 
 這個產業範例會分析財務長對其主管、產品和客戶的關鍵計量。 您可以調查哪些因素會影響公司的獲利率。
 
-### <a name="retail-analysis-sample--mediasample-datasetspower-bi-rspng"></a>零售分析範例  ![](media/sample-datasets/power-bi-rs.png)
+### <a name="retail-analysis-sample--retail-analysis-samplemediasample-datasetspower-bi-rspng"></a>零售分析範例  ![零售分析範例](media/sample-datasets/power-bi-rs.png)
 [瀏覽零售分析範例](sample-retail-analysis.md)
 
 這個產業範例會分析在多個門市和區域售出之品項的零售資料。 計量會比較今年與去年在以下領域的表現：銷售、單位、毛利率和變異數，以及新門市分析。
 
-### <a name="sales-and-marketing-sample--mediasample-datasetspower-bi-smpng"></a>銷售與行銷範例  ![](media/sample-datasets/power-bi-sm.png)
+### <a name="sales-and-marketing-sample--sales-and-marketing-samplemediasample-datasetspower-bi-smpng"></a>銷售與行銷範例  ![銷售與行銷範例](media/sample-datasets/power-bi-sm.png)
 [瀏覽銷售與行銷範例](sample-sales-and-marketing.md)
 
 這個產業範例會分析製造公司 VanArsdel Ltd。它可讓行銷長觀察產業與 VanArsdel 的市場占有率。  透過瀏覽範例，您可以找到這家公司的市場佔有率、生產量、銷售和情緒指數。
 
-### <a name="supplier-quality-sample--mediasample-datasetspower-bi-sqpng"></a>供應商品質範例  ![](media/sample-datasets/power-bi-sq.png)
+### <a name="supplier-quality-sample--supplier-quality-samplemediasample-datasetspower-bi-sqpng"></a>供應商品質範例  ![供應商品質範例](media/sample-datasets/power-bi-sq.png)
 [瀏覽供應商品質範例](sample-supplier-quality.md)
 
 這個產業範例著重在傳統供應鏈的其中一項挑戰：供應商品質的分析。 有兩個主要的計量會在此分析中發揮作用：缺失總數和缺失所造成的停工期總計。 這個範例有兩個主要目標：找出品質最佳與最差的供應商，以及找出哪家工廠表現最好，能找到缺點並加以移除，將停工期降到最低。
@@ -100,16 +101,16 @@ ObviEnce 是一家 ISV 和 Microsoft Business Intelligence 的智慧財產權 (I
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
 2. 在左下角選取 [取得資料]。
 
-    ![](media/sample-datasets/power-bi-get-data.png)
+    ![取得資料圖示](media/sample-datasets/power-bi-get-data.png)
 3. 在顯示的 [取得資料] 頁面上，選取 [範例]。
 
-   ![](media/sample-datasets/power-bi-samples-icon.png)
+   ![範例圖示](media/sample-datasets/power-bi-samples-icon.png)
 4. 選取其中一個範例以開啟該範例的描述。 接著選擇 [連線]。  
 
-   ![](media/sample-datasets/power-bi-connect.png)
+   ![選取某個範例 > 選取 [連線]](media/sample-datasets/power-bi-connect.png)
 5. Power BI 會匯入內容套件，並將新的儀表板、報表及資料集新增到您目前的工作區。 新的內容會以黃色星號標示。 使用範例讓 Power BI 進行測試回合。  
 
-   ![](media/sample-datasets/power-bi-asterisk.png)
+   ![新內容星號 *](media/sample-datasets/power-bi-asterisk.png)
 
 現在您有了資料，可以開始進行。  使用範例內容套件試試幾個教學課程，或直接開啟 Power BI 服務及探索。
 
@@ -128,10 +129,10 @@ ObviEnce 是一家 ISV 和 Microsoft Business Intelligence 的智慧財產權 (I
    * [銷售與行銷範例](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. 儲存下載的檔案。 檔案的儲存位置會有差異。
 
-   * ![](media/sample-datasets/power-bi-local-file2.png)  **本機** - 如果您將檔案從 Power BI 儲存到電腦上的本機磁碟或組織中的其他位置，可以將檔案匯入 Power BI 中。 您的檔案實際上會保留在本機磁碟，因此不是真的將整個檔案匯入 Power BI。 真正發生的情況是在 Power BI 網站中建立新的資料集，並將資料和資料模型 (在某些情況下) 載入資料集。 如果您的檔案有任何報表，這些報表會顯示在 Power BI 網站的 [報表] 下。
-   * ![](media/sample-datasets/power-bi-onedrive-file.png)**OneDrive - 商務** - 如果您有商務用 OneDrive，並使用與用來登入 Power BI 相同的帳戶進行登入，這樣做可以有效地讓 Excel、Power BI 中的工作或 .CSV 檔案，與 Power BI 中的資料集、報表和儀表板保持同步。 由於 Power BI 和 OneDrive 都在雲端，因此 Power BI 每隔約一小時就會連接到您在 OneDrive 上的檔案。 如果發現任何變更，便會自動更新 Power BI 中的資料集、報表和儀表板。
-   * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 個人** - 如果您將檔案儲存到自己的 OneDrive 帳戶，則可以利用與商務用 OneDrive 相同的許多優點。 最大的差異是當您第一次連接到檔案時 (使用 [取得資料] > [檔案] > [OneDrive - 個人])，需要使用 Microsoft 帳戶登入 OneDrive，這通常與用來登入 Power BI 的帳戶不同。 當您使用 Microsoft 帳戶登入 OneDrive 時，請務必選取 [讓我保持登入] 選項。 如此一來，Power BI 每隔約一小時就會連接到您的檔案，以確保您在 Power BI 中的資料集保持同步。
-   * ![](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint 小組網站** - 將 Power BI 檔案儲存到 SharePoint - 小組網站與儲存到商務用 OneDrive 大致相同。 最大的差異是從 Power BI 連接到檔案的方式。 您可以指定 URL 或連接到根資料夾。
+   * ![本機](media/sample-datasets/power-bi-local-file2.png)  **本機** - 如果您將檔案儲存到電腦上的本機磁碟或組織中的其他位置，您可以從 Power BI 將檔案匯入至 Power BI。 您的檔案實際上會保留在本機磁碟，因此不是真的將整個檔案匯入 Power BI。 真正發生的情況是在 Power BI 網站中建立新的資料集，並將資料和資料模型 (在某些情況下) 載入資料集。 如果您的檔案有任何報表，這些報表會顯示在 Power BI 網站的 [報表] 下。
+   * ![商務用 OneDrive](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 商務** - 如果您有商務用 OneDrive，並使用與用來登入 Power BI 相同的帳戶進行登入，這樣做可以有效地讓 Excel、Power BI 中的工作或 .CSV 檔案，與 Power BI 中的資料集、報表和儀表板保持同步。 由於 Power BI 和 OneDrive 都在雲端，因此 Power BI 每隔約一小時就會連接到您在 OneDrive 上的檔案。 如果發現任何變更，便會自動更新 Power BI 中的資料集、報表和儀表板。
+   * ![OneDrive 個人版](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 個人** - 如果您將檔案儲存到自己的 OneDrive 帳戶，則可以利用許多與使用商務用 OneDrive 相同的優點。 最大的差異是當您第一次連接到檔案時 (使用 [取得資料] > [檔案] > [OneDrive - 個人])，需要使用 Microsoft 帳戶登入 OneDrive，這通常與用來登入 Power BI 的帳戶不同。 當您使用 Microsoft 帳戶登入 OneDrive 時，請務必選取 [讓我保持登入] 選項。 如此一來，Power BI 每隔約一小時就會連接到您的檔案，以確保您在 Power BI 中的資料集保持同步。
+   * ![SharePoint 小組網站](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint 小組網站** - 將 Power BI 檔案儲存到 SharePoint - 小組網站與儲存到商務用 OneDrive 大致相同。 最大的差異是從 Power BI 連接到檔案的方式。 您可以指定 URL 或連接到根資料夾。
 3. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
 
    > [!TIP]
@@ -140,23 +141,23 @@ ObviEnce 是一家 ISV 和 Microsoft Business Intelligence 的智慧財產權 (I
    >
 4. 在左下角選取 [取得資料]。
 
-    ![](media/sample-datasets/power-bi-get-data.png)
+    ![取得資料圖示](media/sample-datasets/power-bi-get-data.png)
 5. 在顯示的 [取得資料] 頁面上，選取 [檔案] > [取得]。
 
-     ![](media/sample-datasets/power-bi-files.png)
+     ![檔案 > 取得](media/sample-datasets/power-bi-files.png)
 6. 瀏覽到您下載及儲存範例的位置。
 
-   ![](media/sample-datasets/power-bi-files3.png)
+   ![您儲存範例的位置](media/sample-datasets/power-bi-files3.png)
 7. 選取檔案，在這個案例中是儲存在商務用 OneDrive 的 **Procurement Analysis Sample.xlsx**，然後選擇 [連線]。
 
-   ![](media/sample-datasets/power-bi-connect2.png)
+   ![商務用 OneDrive > 連線](media/sample-datasets/power-bi-connect2.png)
 8. 選擇要匯入資料，還是要將活頁簿帶入 Power BI 以查看其在 Excel Online 中的實際呈現方式。
 
-    ![](media/sample-datasets/power-bi-import.png)
+    ![匯入或連線](media/sample-datasets/power-bi-import.png)
 9. 如果您選取 [匯入]，Power BI 會匯入範例活頁簿，並將其新增為新資料集，名為 **Procurement Analysis Sample**。  如果活頁簿有任何 Power View 工作表、資料表或範圍，或有資料模型，Power BI 也會建立報表 (名稱相同)。 如果您尚未開啟任何儀表板，Powrer BI 會建立新的儀表板。 (如果您在按一下 [取得資料] 時開啟了儀表板，將會在該儀表板上看到新的空白磚。  按一下該磚，您就會前往剛新增的資料集之報表)。 新的內容會依範例命名，並以黃色星號標示。
 10. 當 [您的資料集已就緒!] 畫面出現時，請選取 [檢視資料集] 或 [取得深入資訊摘要]，也可以直接使用 Power BI 左邊瀏覽列找出並開啟相關報表或儀表板。  
 
-     ![](media/sample-datasets/power-bi-ready.png)
+     ![檢視資料集](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(選擇性) 從 Excel 本身檢視 Excel 範例
 想了解 Excel 活頁簿中的資料如何轉換為 Power BI 資料集和報表嗎？ ***在 Excel 中***開啟 Excel 範例，瀏覽工作表就會得到一些答案。
@@ -187,7 +188,7 @@ ObviEnce 是一家 ISV 和 Microsoft Business Intelligence 的智慧財產權 (I
 
 1. 從 Power BI Desktop 中，選取 [檔案] > [開啟]，然後巡覽到您儲存範例 .pbix 的位置。
 
-   ![](media/sample-datasets/power-bi-desktop-open.png)
+   ![檔案 > 在 Power BI Desktop 中開啟](media/sample-datasets/power-bi-desktop-open.png)
 4. 選取 .pbix 檔案，以在 Power BI Desktop 中加以開啟。
 
 ## <a name="next-steps"></a>後續步驟

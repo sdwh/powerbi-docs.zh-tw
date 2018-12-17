@@ -1,29 +1,30 @@
 ---
-title: 將客戶的 Power BI 內容內嵌至應用程式
-description: 了解如何使用 Power BI API，為您的客戶將報表、儀表板或圖格整合或內嵌至 Web 應用程式。
+title: 運用內嵌式分析為客戶將 Power BI 內容內嵌至應用程式
+description: 了解如何使用內嵌式分析的 Power BI API，為客戶將報表、儀表板或磚整合或內嵌至應用程式。 了解如何使用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具，將 Power BI 整合到應用程式中。
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.custom: mvc
-ms.date: 10/17/2018
-ms.openlocfilehash: cb517d62e64e8ef17be07315112faac331b534d3
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: e396f46987ef14aac9361e8f7ef41e90b2d8383e
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452698"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180867"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>教學課程：為您的客戶將 Power BI 報表、儀表板或磚內嵌至應用程式
 
-使用 **Azure 中的 Power BI Embedded**，可利用**應用程式擁有的資料**，將報表、儀表板或磚內嵌至應用程式。 **應用程式擁有的資料**即是應用程式使用 Power BI 作為其內嵌的分析平台。 使用**應用程式擁有資料**通常是 **ISV 開發人員**的情況。 身為 **ISV 開發人員**，您可以建立會顯示應用程式 (完全整合且互動) 中報表、儀表板或磚的 **Power BI** 內容，而應用程式的使用者完全不需要有 Power BI 授權。 本教學課程示範如何在為使用**應用程式擁有的資料**的客戶，使用 **Azure 中的 Power BI Embedded** 時，利用 **Power BI** .NET SDK 搭配 **Power BI** JavaScript API，將報表整合至應用程式。
+使用 **Azure 中的 Power BI Embedded**，可利用應用程式擁有的資料，將報表、儀表板或磚內嵌至應用程式。 **應用程式擁有的資料**即是應用程式使用 Power BI 作為其內嵌的分析平台。 身為 **ISV 開發人員**，您可以建立會顯示應用程式 (完全整合且互動) 中報表、儀表板或磚的 Power BI 內容，而使用者完全不需要有 Power BI 授權。 本教學課程示範如何在使用 **Azure 中的 Power BI Embedded** 時，利用 Power BI .NET SDK 搭配 Power BI JavaScript API，為客戶將報表整合至應用程式。
 
 在本教學課程中，您會了解如何：
->[!div class="checklist"]
->* 在 Azure 中註冊應用程式。
->* 將 Power BI 報表內嵌到應用程式中。
+> [!div class="checklist"]
+> * 在 Azure 中註冊應用程式。
+> * 將 Power BI 報表內嵌到應用程式中。
 
 ## <a name="prerequisites"></a>先決條件
 
@@ -38,7 +39,7 @@ ms.locfileid: "52452698"
 
 在您開始將報表、儀表板或磚內嵌至您的應用程式之前，必須先確定您的環境允許使用 Power BI 內嵌。
 
-您可以瀏覽[內嵌設定工具](https://aka.ms/embedsetup/AppOwnsData)來快速開始使用及下載範例應用程式，協助您逐步建立環境及內嵌報表。
+您可以瀏覽[內嵌設定工具](https://aka.ms/embedsetup/AppOwnsData)，即可快速開始使用及下載範例應用程式，協助您逐步建立環境及內嵌報表。
 
 不過，若您選擇手動設定環境，可以繼續進行下方步驟。
 
@@ -63,7 +64,7 @@ ms.locfileid: "52452698"
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>在 Azure Active Directory 內將權限套用至應用程式
 
-除了應用程式註冊頁面上所提供的權限之外，為應用程式啟用其他的權限。 使用您用來內嵌的「主」帳戶登入。 主帳戶必須為全域系統管理員帳戶。
+為應用程式啟用其他的權限，包括應用程式註冊頁面上所提供的權限。 使用您用來內嵌的「主」帳戶登入。 主帳戶必須為全域系統管理員帳戶。
 
 ### <a name="use-the-azure-active-directory-portal"></a>使用 Azure Active Directory 入口網站
 
@@ -105,7 +106,7 @@ ms.locfileid: "52452698"
 
 ### <a name="create-an-app-workspace"></a>建立應用程式工作區
 
-如果您要為客戶內嵌報表、儀表板或圖格，就必須將您的內容放在應用程式工作區內。 「主」帳戶必須是應用程式工作區的管理員。
+如果您要為客戶內嵌報表、儀表板或磚，就必須將您的內容放在應用程式工作區內。 「主」帳戶必須是應用程式工作區的管理員。
 
 1. 開始建立工作區。 選取 [工作區] > [建立應用程式工作區]。 在 [建立應用程式工作區] 中，放置應用程式所需存取的內容。
 
@@ -115,7 +116,7 @@ ms.locfileid: "52452698"
 
     ![為工作區命名](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
 
-3. 您可以設定幾個選項。 如果您選擇 [公用]，則組織中的所有人都可以看到工作區中的內容。 相反地，[私用] 則表示只有工作區的成員才能看到其內容。
+3. 您可以設定幾個選項。 如果您選擇 [公用]，則組織中的所有人都可以看到工作區中的內容。 如果選擇 [私人]，表示只有工作區的成員才能看到其內容。
 
     ![公用/私人](media/embed-sample-for-customers/embed-sample-for-customers-022.png)
 
@@ -214,7 +215,7 @@ ms.locfileid: "52452698"
 
 在應用程式中為您的客戶內嵌項目，需要從 **Azure AD** 取得您主要帳戶的**存取權杖**。 需要先使用**應用程式擁有資料**，為您的 Power BI 應用程式取得 [Azure AD 存取權杖](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，才可呼叫 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
 
-為了使用**存取權杖**建立 Power BI 用戶端，您可以建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 互動。 你可以將 **AccessToken** 與 ***Microsoft.Rest.TokenCredentials*** 物件包裝在一起以完成此作業。
+為了使用**存取權杖**建立 Power BI 用戶端，您可以建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 互動。 你可以將 **AccessToken** 與 ***Microsoft.Rest.TokenCredentials*** 物件包裝在一起來建立 Power BI 用戶端物件。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -223,7 +224,7 @@ using Microsoft.PowerBI.Api.V2;
 
 var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 
-// Create a Power BI Client object. It is used to call Power BI APIs.
+// Create a Power BI Client object. it's used to call Power BI APIs.
 using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 {
     // Your code to embed items.
@@ -251,7 +252,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>建立內嵌權杖
 
-必須產生內嵌權杖，以供 JavaScript API 使用。 內嵌權杖專屬於您內嵌的項目。 因此，每次您內嵌 Power BI 內容時，都必須為其建立一個新的內嵌權杖。 如需更多詳細資訊，包括要使用的 **accessLevel**，請參閱 [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)。
+產生可從 JavaScript API 使用的內嵌權杖。 內嵌權杖專屬於您內嵌的項目。 因此，每次您內嵌 Power BI 內容時，都必須為其建立一個新的內嵌權杖。 如需更多詳細資訊，包括要使用的 **accessLevel**，請參閱 [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)。
 
 下列範例示範如何將報表的內嵌權杖新增至應用程式。
 
@@ -274,13 +275,13 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-這會假設針對 **EmbedConfig** 及 **TileEmbedConfig** 建立類別。 您可以在 **Models\EmbedConfig.cs** 檔案和 **Models\TileEmbedConfig.cs** 檔案中找到關於上述作業的範例。
+這會針對 **EmbedConfig** 及 **TileEmbedConfig** 建立類別。 您可以在 **Models\EmbedConfig.cs** 檔案和 **Models\TileEmbedConfig.cs** 檔案中找到範例。
 
 ### <a name="load-an-item-using-javascript"></a>使用 JavaScript 載入項目
 
 您可以使用 JavaScript 將報表載入網頁上的 div 元素中。
 
-如需使用 JavaScript API 的完整範例，您可以使用[測試網工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 這是一個可測試不同類型 Power BI Embedded 範例的快速方式。 您也可以瀏覽 [PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 頁面，取得 JavaScript API 的詳細資訊。
+如需使用 JavaScript API 的完整範例，您可以使用[測試網工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 遊樂場工具是一個可測試不同類型 Power BI Embedded 範例的快速方式。 您也可以瀏覽 [PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 頁面，取得 JavaScript API 的詳細資訊。
 
 此範例使用 **EmbedConfig** 模型和 **TileEmbedConfig** 模型以及報表檢視。
 
@@ -329,7 +330,7 @@ var embedConfig = new EmbedConfig()
 
 ## <a name="move-to-production"></a>移至生產環境
 
-既然您已完成應用程式的開發，就可以為您的應用程式工作區配置專用容量。 需要專用容量才可移到生產環境。
+現在您已完成應用程式的開發，就可以為您的應用程式工作區配置專用容量。 需要專用容量才可移到生產環境。
 
 ### <a name="create-a-dedicated-capacity"></a>建立專用容量
 
@@ -348,13 +349,13 @@ var embedConfig = new EmbedConfig()
 
 **_在 A SKU 中，您無法使用免費的 Power BI 授權存取 Power BI 內容。_**
 
-使用具有 PRO 授權的內嵌權杖適用於開發測試，因此 Power BI 主帳戶可產生的內嵌權杖數量有限。 您必須購買專用容量，才可在生產環境中進行內嵌作業。 若有專用容量，即不會限制您可產生的內嵌權杖數量。 請移至 [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) (可用功能) 來檢查指出目前內嵌使用情況百分比的使用情況值。 使用量以每個主帳戶為基礎。
+使用具有 PRO 授權的內嵌權杖適用於開發測試，因此 Power BI 主帳戶可產生的內嵌權杖數量有限。 需有專用容量，才可在生產環境中進行內嵌作業。 若有專用容量，即不會限制您可產生的內嵌權杖數量。 請移至 [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) (可用功能) 來檢查指出目前內嵌使用情況百分比的使用情況值。 使用量以每個主帳戶為基礎。
 
-如需詳細資料，請參閱[內嵌的分析容量規劃白皮書](https://aka.ms/pbiewhitepaper)。
+如需詳細資訊，請參閱[內嵌的分析容量規劃白皮書](https://aka.ms/pbiewhitepaper)。
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>將應用程式工作區指派至專用容量
 
-建立了專用容量之後，您可以將應用程式工作區指派到該專用容量。 若要完成此動作，請遵循下列步驟。
+建立了專用容量之後，您可以將應用程式工作區指派到該專用容量。 若要指派專用容量給工作區，請遵循下列步驟。
 
 1. 在 **Power BI 服務**中，展開 工作區，然後選取用於內嵌內容之工作區的省略符號。 然後選取 [編輯工作區]。
 

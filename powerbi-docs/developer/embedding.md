@@ -1,6 +1,6 @@
 ---
-title: Power BI 的內嵌功能
-description: Power BI 提供 API 來將您的儀表板和報表內嵌至應用程式。
+title: 搭配 Power BI 使用內嵌式分析
+description: Power BI 提供 API 讓您在應用程式中針對儀表板和報表使用內嵌式分析。 深入了解在 PaaS 和 SaaS 環境中使用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具搭配 Power BI 執行內嵌作業的相關資訊。
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -8,15 +8,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
-ms.date: 07/31/2018
-ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: a4c0a66fb70797cc8b42094c65b23c71944b67a2
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973762"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180315"
 ---
-# <a name="embedding-with-power-bi"></a>Power BI 的內嵌功能
+# <a name="embedded-analytics-with-power-bi"></a>搭配 Power BI 使用內嵌式分析
 
 Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 API 可供內嵌您的儀表板和報表。 此功能意謂著在內嵌內容時，您會有一組功能可供使用，並可存取最新的 Power BI 功能，例如儀表板、閘道及應用程式工作區。
 
@@ -39,11 +40,11 @@ Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 A
 
 ## <a name="embedding-for-your-organization"></a>對組織進行內嵌
 
-**對組織進行內嵌**可讓您擴充 Power BI 服務。 對組織進行內嵌需要應用程式的使用者在想要檢視其內容時，登入 Power BI 服務。 貴組織中有人登入之後，他們只能在 Power BI 服務中存取他們自己的和已經與他們共用的儀表板和報告。
+**對組織進行內嵌**可讓您擴充 Power BI 服務。 對組織進行內嵌需要應用程式的使用者在想要檢視其內容時，登入 Power BI 服務。 貴組織中有人登入之後，他們只能在 Power BI 服務中存取他們自己的和已經與他們共用的儀表板和報表。
 
 對組織進行內嵌的範例包括內部應用程式，例如 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams 整合 (您必須具有系統管理員權限)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) 和 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)。
 
-若要對組織進行內嵌，請參閱下列文章：
+若要為組織進行內嵌，請參閱下方內容：
 
 * [將報表整合到應用程式](embed-sample-for-your-organization.md)
 
@@ -61,7 +62,7 @@ Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 A
 
 Power BI Embedded 可為 ISV、其開發人員及客戶帶來好處。 例如，ISV 可以免費使用 Power BI Desktop 開始建立視覺效果。 ISV 可以藉由減少視覺效果分析開發工作並利用差異化的資料體驗在競爭對手中脫穎而出，加快應用程式上市的速度。 ISV 也可以選擇針對內嵌分析創造的價值收取較高的費用。
 
-使用 Power BI Embedded，您的客戶完全不需要了解 Power BI。 若要建立內嵌的應用程式，您只需要一個 Power BI Pro 帳戶。 Power BI Pro 帳戶將成為應用程式的主帳戶 (將此視為 Proxy 帳戶)。 Power BI Pro 帳戶也可讓您產生內嵌權杖，以提供存取 Power BI 服務內應用程式所擁有/管理的儀表板和報告。
+使用 Power BI Embedded，您的客戶完全不需要了解 Power BI。 若要建立內嵌的應用程式，您只需要一個 Power BI Pro 帳戶。 Power BI Pro 帳戶將成為應用程式的主帳戶 (將此主帳戶視為 Proxy 帳戶)。 Power BI Pro 帳戶也可讓您產生內嵌權杖，以提供存取 Power BI 服務內應用程式所擁有/管理的儀表板和報告。
 
 使用 Power BI Embedded 的開發人員可以花時間專注在建置其應用程式的核心競爭力，而不是將時間耗費在開發視覺效果和分析。 開發人員可以快速滿足客戶報表和儀表板的需求，並且能夠輕鬆地內嵌完整記載的 API 和 SDK。 透過在應用程式中啟用輕鬆巡覽資料探勘，ISV 可讓客戶在來自任何裝置的內容中進行資料驅動的快速決策。
 
@@ -70,7 +71,7 @@ Power BI Embedded 可為 ISV、其開發人員及客戶帶來好處。 例如，
 
 當您準備好進入生產環境時，必須將應用程式工作區指派給專用容量。 Microsoft Azure 中的 Power BI Embedded 提供與您應用程式搭配使用的[專用容量](azure-pbie-create-capacity.md)。
 
-如需有關如何內嵌的詳細資訊，請參閱[如何內嵌 Power BI 儀表板、報告和圖格](embed-sample-for-customers.md)。
+如需如何內嵌的詳細資訊，請參閱[如何內嵌 Power BI 儀表板、報表和圖格](embed-sample-for-customers.md)。
 
 ## <a name="next-steps"></a>後續步驟
 

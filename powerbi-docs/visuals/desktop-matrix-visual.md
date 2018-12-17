@@ -1,23 +1,23 @@
 ---
-title: 在 Power BI Desktop 中使用矩陣視覺效果
-description: 了解矩陣視覺效果如何在 Power BI Desktop 中啟用分層式配置和細微的醒目提示
+title: 在 Power BI 中使用矩陣視覺效果
+description: 了解矩陣視覺效果如何在 Power BI 中提供分層式配置和細微的醒目提示
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/25/2018
+ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 96b2fb3cb1558f862c792b3bed77c9f0c2bc61a5
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 123cb794a1ba307439a47bdb949e2c76297e7ba2
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101362"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979530"
 ---
-# <a name="use-the-matrix-visual-in-power-bi-desktop"></a>在 Power BI Desktop 中使用矩陣視覺效果
+# <a name="use-the-matrix-visual-in-power-bi"></a>在 Power BI 中使用矩陣視覺效果
 透過 [矩陣] 視覺效果功能，您可以在 **Power BI Desktop** 與 **Power BI 服務**報表中建立矩陣視覺效果 (有時也稱為「資料表」)，並與其他視覺效果交叉醒目提示矩陣內的元素。 此外，您可以選取資料列、資料行，甚至是個別資料格，然後交叉醒目提示。 可以將個別資料格和多個資料格的選取項目，複製及貼上到其他應用程式。 最後，為了更妥善運用配置空間，矩陣視覺效果支援分層式配置。
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
@@ -39,7 +39,25 @@ ms.locfileid: "50101362"
 
 查看總和與小計時，請記住這些值是來自基礎資料，而不是來自可見值。 
 
+<!-- use Nov blog post video
 
+## Expanding and collapsing row headers
+There are two ways you can expand row headers. The first is through the right-click menu. You’ll see options to expand the specific row header you clicked on, the entire level or everything down to the very last level of the hierarchy. You have similar options for collapsing row headers as well.
+
+![](media/desktop-matrix-visual/power-bi-expand1.png)
+
+You can also add +/- buttons to the row headers through the formatting pane under the row headers card. By default, the icons will match the formatting of the row header, but you can customize the icons’ color and size separately if you want. 
+Once the icons are turned on, they work similarly to the icons from PivotTables in Excel.
+
+![](media/desktop-matrix-visual/power-bi-expand2.png)
+
+The expansion state of the matrix will save with your report. It can be pinned to dashboards as well, but consumers will need to open up the report to change the state. Conditional formatting will only apply to the inner most visible level of the hierarchy. Note that this expand/collapse experience is not currently supported when connecting to AS servers older than 2016 or MD servers.
+
+![](media/desktop-matrix-visual/power-bi-expand3.png)
+
+Watch the following video to learn more about expand/collapse in the matrix:
+
+-->
 ## <a name="using-drill-down-with-the-matrix-visual"></a>使用矩陣視覺效果的向下切入
 透過 [矩陣] 視覺效果，您可以執行各式各樣有趣但之前未曾提供的向下切入活動。 這包括使用資料列、資料行，甚至是個別區段和資料格向下切入的功能。 讓我們來看看上述每項的運作方式。
 

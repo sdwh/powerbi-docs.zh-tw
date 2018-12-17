@@ -1,23 +1,23 @@
 ---
 title: 什麼是 Power BI Premium 中的編頁報表？ (預覽)
-description: 編頁報表是可以列印或共用的報表。 您可以完全控制報表的版面配置。 例如，即使資料表跨越多個頁面，它們也會在資料表中顯示所有資料。
+description: 編頁報表，SQL Server Reporting Services 中長期以來的標準報表格式，現在可在 Power BI 服務中使用。 這些報表可以被列印或共用。 您可以完全控制報表的版面配置。 例如，即使資料表跨越多個頁面，它們也會在資料表中顯示所有資料。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: report-builder
 ms.topic: overview
-ms.date: 11/20/2018
+ms.date: 12/05/2018
 ms.author: maggies
-ms.openlocfilehash: 7a39d7b3bdbbd592afc6481c5936efc76569ad11
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d79299f469062ec74c49ff4b7e9edda26c3409a3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289212"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026109"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>什麼是 Power BI Premium 中的編頁報表？ (預覽)
-編頁報表，SQL Server Reporting Services 中長期以來的標準報表格式，現在可在 Power BI 服務中使用。 編頁報表是設計用來列印或共用的報表。 它們稱為「編頁」，因為已將它們格式化，使其可適當地符合頁面。 即使資料表跨越多個頁面，它們也會在資料表中顯示所有資料。 它們有時被稱為「完美像素」，因為您可以完全控制其報表頁面配置。 編頁報表是以 SQL Server Reporting Services 中的 RDL 報表技術為基礎。 報表產生器是用於撰寫編頁報表的獨立工具。 
+編頁報表，SQL Server Reporting Services 中長期以來的標準報表格式，現在可在 Power BI 服務中使用。 這些報表可以被列印或共用。 它們稱為「編頁」，因為已將它們格式化，使其可適當地符合頁面。 即使資料表跨越多個頁面，它們也會在資料表中顯示所有資料。 它們有時被稱為「完美像素」，因為您可以完全控制其報表頁面配置。 編頁報表是以 SQL Server Reporting Services 中的 RDL 報表技術為基礎。 報表產生器是用於撰寫編頁報表的獨立工具。 
 
 編頁報表可以有許多頁面。 例如，此報表有 563 頁。 每頁都有精確的版面配置，每個發票一頁並重複頁首和頁尾。
 
@@ -43,11 +43,11 @@ ms.locfileid: "52289212"
 
 ### <a name="create-paginated-reports-with-matrix-chart-and-free-form-layouts"></a>使用矩陣、圖表和自由形式配置建立編頁報表
 
-針對以資料行為基礎的資料建立資料表報表，針對摘要資料建立矩陣報表 (例如交叉分析或樞紐分析表報表)，針對圖形化的資料建立圖表報表，針對其他任何內容 (例如發票) 創建自由格式的*清單*報表。 
+資料表報表適用於資料行型的資料。 矩陣報表 (如交叉分析或樞紐分析表報表) 很適合用於摘要資料。 圖表報表能以圖形化格式呈現資料，而自由形式的「清單」報表則可以呈現幾乎所有其他類型的資料 (例如發票)。 
   
 您可以從其中一個報表產生器精靈開始。 資料表、矩陣和圖表精靈將引導您建立內嵌的資料來源連線和內嵌的資料集。 然後拖放欄位以建立資料集查詢、選取配置和樣式，並自訂報表。  
   
-使用地圖精靈，可以建立根據地理或幾何背景顯示彙總資料的報表。 地圖資料可以是來自 Transact-SQL 查詢或美國環境系統研究所公司 (ESRI) 形狀檔的空間資料。 您還可以加入 Microsoft Bing 地圖底圖背景。  
+使用地圖精靈，可以建立根據地理或幾何背景顯示彙總資料的報表。 地圖資料可以是來自 Transact-SQL 查詢或美國環境系統研究所公司(ESRI) 形狀檔的空間資料。 您還可以加入 Microsoft Bing 地圖底圖背景。  
 
 ### <a name="add-more-to-your-report"></a>新增其他項目至您的報表
 
@@ -66,7 +66,7 @@ ms.locfileid: "52289212"
 
 以下是初始版本中不支援的一些其他功能：
 
-- 將報表頁面或視覺效果釘選到 Power BI 儀表板。
+- 將報表頁面或視覺效果釘選到 Power BI 儀表板。 您仍然可以從位於 Power BI 報表伺服器或 Reporting Services 報表伺服器上的內部部署編頁報表，將視覺效果釘選到 Power BI 儀表板。 請參閱[將 Reporting Services 項目釘選至 Power BI 儀表板](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)以取得更多資訊。
 - 互動式功能，例如文件引導模式及顯示/隱藏按鈕。
 - 子報表和鑽研報表。
 - 訂用帳戶。

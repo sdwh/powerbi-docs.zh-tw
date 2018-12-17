@@ -1,25 +1,26 @@
 ---
-title: 什麼是 Azure Power BI Embedded |Microsoft Docs
-description: Power BI Embedded 旨在簡化 ISV 和開發人員使用 Power BI 功能的方式，協助其快速地將令人讚嘆的視覺效果、報表和儀表板新增至他們的應用程式。
+title: 什麼是 Azure Power BI Embedded 與內嵌式分析 | Microsoft Docs
+description: Power BI Embedded 旨在作為一項內嵌式分析，以簡化 ISV 和開發人員使用 Power BI 功能的方式，協助其快速地將令人讚嘆的視覺效果、報表和儀表板新增至他們的應用程式。 了解如何使用 Power BI Embedded 來運用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具。
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.component: ''
 ms.devlang: csharp, javascript
 ms.topic: overview
-ms.reviewer: ''
-ms.date: 07/31/2018
-ms.openlocfilehash: b46508aeca35769fb27324fb20f502ac66cb55ab
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 70cb8f72e5749f7eed70d4476f3af87e272813f4
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360214"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180683"
 ---
-# <a name="what-is-power-bi-embedded-in-azure"></a>什麼是 Azure Power BI Embedded？ 
+# <a name="what-is-power-bi-embedded-in-azure"></a>什麼是 Azure Power BI Embedded？
 
-Power BI Embedded 旨在簡化 ISV 和開發人員使用 Power BI 功能的方式。 Power BI Embedded 可協助您快速地將令人讚嘆的視覺效果、報表和儀表板新增至您的應用程式，藉以簡化 Power BI 功能。 類似於 Microsoft Azure 上建置的應用程式使用如機器學習服務和 IoT 之類的服務。 透過在其應用程式中啟用輕鬆巡覽資料探勘，ISV 可讓其客戶在內容中進行快速、明智的決策。
+Power BI Embedded 旨在透過內嵌式分析簡化 ISV 和開發人員使用 Power BI 功能的方式。 Power BI Embedded 可協助您快速地將令人讚嘆的視覺效果、報表和儀表板新增至您的應用程式，藉以簡化 Power BI 功能。 類似於 Microsoft Azure 上建置的應用程式使用如機器學習服務和 IoT 之類的服務。 透過在其應用程式中啟用輕鬆巡覽資料探勘，ISV 可讓其客戶在內容中進行快速、明智的決策。
 
 > [!VIDEO https://www.youtube.com/embed/iEHfUuoZseo]
 
@@ -47,9 +48,9 @@ Power BI Embedded 可讓您專注於拿手項目：建置絕佳的應用程式�
 
 ## <a name="engage-with-the-power-bi-engineering-team"></a>洽詢 Power BI 工程小組
 
-* [Communities](https://community.powerbi.com/)：詢問 Power BI 問題
-* [Power BI Ideas](https://ideas.powerbi.com)：要求和投票功能
-* [Reddit](https://www.reddit.com/r/PowerBI/)：討論 Power BI
+* [社群](https://community.powerbi.com/) \(英文\)：詢問 Power BI 問題
+* [Power BI Ideas](https://ideas.powerbi.com) \(英文\)：要求及票選功能
+* [Reddit](https://www.reddit.com/r/PowerBI/) \(英文\)：討論 Power BI
 
 ## <a name="next-steps"></a>後續步驟
 
@@ -57,4 +58,4 @@ Power BI Embedded 可讓您專注於拿手項目：建置絕佳的應用程式�
 
 若要建立 Power BI Embedded 容量，請參閱[在 Azure 入口網站中建立 Power BI Embedded 容量](azure-pbie-create-capacity.md)
 
-若要開始內嵌 Power BI 內容，請參閱[如何內嵌 Power BI 儀表板、報表及磚](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/)。
+若要開始內嵌 Power BI 內容，請參閱[教學課程：為您的客戶將 Power BI 報表、儀表板或磚內嵌至應用程式](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/)。

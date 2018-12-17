@@ -1,30 +1,31 @@
 ---
-title: 使用 Power BI 自動產生資料的深入解析
+title: 使用 Power BI 自動產生資料見解
 description: 了解如何取得資料集和儀表板磚的深入解析。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/25/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b58b0b88ed0417f88784824a67ab294dda7343e
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 386f4fb24488df3856f8e731fcd6c95043c86d74
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850422"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180913"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>使用 Power BI 自動產生資料的深入解析
+# <a name="generate-data-insights-automatically-with-power-bi"></a>使用 Power BI 自動產生資料見解
 您有新資料集，但不太確定要從何處著手？  需要快速建置儀表板嗎？  想要尋找您可能錯失的深入解析嗎？
 
 您可以執行快速深入剖析，根據資料產生相關的互動式視覺效果。 您可以針對整個資料集 (快速深入剖析) 或特定的儀表板磚 (定義範圍的深入解析) 執行快速深入剖析。 您甚至可以針對深入資訊執行深入解析！
 
 > [!NOTE]
-> 見解不適用於 DirectQuery，而僅適用於上傳至 Power BI 的資料。
+> 見解不適用於 DirectQuery，它僅適用於上傳至 Power BI 的資料。
 > 
 
 深入解析功能的建置基礎是一組會持續完善的[進階分析演算法](service-insight-types.md)，該演算法是與 Microsoft Research 合作開發，且會持續使用，讓更多人能透過全新的直覺式方式在資料中尋找深入資訊。

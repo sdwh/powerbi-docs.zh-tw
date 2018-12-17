@@ -7,23 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1e86403dbdb2972cc83b379efff8bbc17173a4e1
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: b4ce5c811b2aa18803483ed9780c6b73a6b04bb1
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331888"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979229"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 的儀表板圖格
-儀表板和儀表板磚是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 雖然無法在 Power BI 行動裝置中建立或釘選儀表板磚，但可以進行[檢視及共用](mobile/mobile-tiles-in-the-mobile-apps.md)。 
+圖格是您的資料快照，由*設計工具*釘選到儀表板。 您可以從報表、資料集、儀表板、問與答問題方塊、Excel 和 SQL Server Reporting Services (SSRS) 等來方建立圖格。  這個螢幕擷取畫面顯示許多釘選到儀表板的不同磚。
 
-## <a name="dashboard-tiles"></a>儀表板圖格
 ![Power BI 儀表板](./media/end-user-tiles/power-bi-dashboard.png)
 
-圖格是您的資料快照，由*設計工具*釘選到儀表板。 您可以從報表、資料集、儀表板、問與答問題方塊、Excel 和 SQL Server Reporting Services (SSRS) 等來方建立圖格。  這個螢幕擷取畫面顯示許多釘選到儀表板的不同磚。
 
 除了從報表中釘選的圖格，*設計工具*也可以使用 [新增圖格] 直接在儀表板上新增獨立圖格。 獨立磚包括：文字方塊、影像、視訊、串流資料和 Web 內容。
 
@@ -32,7 +30,6 @@ ms.locfileid: "52331888"
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>與儀表板上的圖格互動
 
-### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>將滑鼠暫留在圖格上以變更其外觀和行為
 1. 將滑鼠暫留在圖格上以顯示省略符號。
    
     ![磚省略符號](./media/end-user-tiles/ellipses_new.png)
@@ -68,7 +65,7 @@ ms.locfileid: "52331888"
 當您選取磚時，接下來的情況取決於該磚的建立方式，以及其是否有[自訂連結](../service-dashboard-edit-tile.md)。 如果有自訂連結，則選取圖格會帶您前往該連結。 否則，選取磚會帶您前往建立此磚所使用的報表、Excel Online 活頁簿、內部部署 SSRS 報表或問與答。
 
 > [!NOTE]
-> 使用 [新增磚] 直接在儀表板上建立的影片磚為例外。 選取影片磚 (以此方式建立) 會直接在儀表板上播放視訊。   
+> 使用 [新增磚] 直接在儀表板上建立的影片圖格為例外。 選取影片磚 (以此方式建立) 會直接在儀表板上播放視訊。   
 > 
 > 
 

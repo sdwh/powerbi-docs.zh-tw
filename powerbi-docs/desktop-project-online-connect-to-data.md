@@ -4,26 +4,27 @@ description: Project Online：透過 Power BI Desktop 連接到資料
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3773f1cb13eb967c511245f57cf59c7159d68fba
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a0888c09a9d92123ba08c8cbc27ff8614b8c142a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669880"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025618"
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online：透過 Power BI Desktop 連接到資料
 您可以透過 Power BI Desktop 連接到 Project Online 中的資料。
 
-### <a name="step-1-download-power-bi-desktop"></a>步驟 1：下載 Power BI Desktop
+## <a name="step-1-download-power-bi-desktop"></a>步驟 1：下載 Power BI Desktop
 1. [下載 Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521662)，然後執行安裝程式，在電腦上安裝 **Power BI Desktop**。
 
-### <a name="step-2-connect-to-project-online-with-odata"></a>步驟 2：透過 OData 連接到 Project Online
+## <a name="step-2-connect-to-project-online-with-odata"></a>步驟 2：透過 OData 連接到 Project Online
 1. 開啟 **Power BI Desktop**。
 2. 在 [歡迎使用] 畫面上，選取 [取得資料]。
 3. 選擇 [OData 摘要]，然後選取 [連接]。

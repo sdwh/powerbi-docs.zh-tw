@@ -9,15 +9,16 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268358"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026699"
 ---
-# <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
+# <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
 系統管理入口網站可讓您管理您組織的 Power BI 租用戶。 入口網站包含如使用計量、存取 Office 365 系統管理中心與設定等項目。
 
@@ -105,11 +106,11 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 設定可以有三個狀態：
 
-* **已為整個組織停用**：您組織中的所有人都無法使用此功能。
+* **已為整個組織停用**：組織中沒有人可以使用這項功能。
 
     ![已停用所有設定](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **已為整個組織啟用**：您組織中的所有人都可以使用此功能。
+* **已為整個組織啟用**：組織中每個人都可以使用這項功能。
 
     ![已啟用所有設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
@@ -191,7 +192,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ![列印報告](media/service-admin-portal/powerbi-admin-print-report.png)
 
-## <a name="content-pack-and-app-settings"></a>內容套件和應用程式設定
+## <a name="content-pack-and-app-settings"></a>內容套件及應用程式設定
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>將內容套件及應用程式發佈到整個組織
 
@@ -207,7 +208,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ### <a name="push-apps-to-end-users"></a>將應用程式推送給終端使用者
 
-使用者可以直接與終端使用者共用應用程式，而不必從 AppSource 進行安裝。 [深入了解](service-create-distribute-apps.md)
+使用者無須從 AppSource 進行安裝，就能將應用程式直接提供給終端使用者共用。 [深入了解](service-create-distribute-apps.md)
 
 ## <a name="integration-settings"></a>整合設定
 
@@ -355,7 +356,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
     * [命名您的自訂視覺效果] (必要)：提供視覺效果一個簡短標題，以便 Power BI Desktop 使用者了解其用途
 
-    * [圖示] (必要)：在 Power BI Desktop UI 中顯示的圖示檔案。
+    * **圖示**：在 Power BI Desktop UI 中顯示的圖示檔案。
 
     * [描述]：視覺效果的簡短描述，以提供使用者更多相關內容與資訊
 

@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.author: mblythe
 ms.date: 01/02/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 466e91786dcb75f09db808306ba7d9d9f486718b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578420"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025112"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI 的資料列層級安全性 (RLS)
 
@@ -41,7 +42,7 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 1. 針對資料集選取**省略符號 (...)**。
 2. 選取 [安全性]。
    
-   ![](media/service-admin-rls/rls-security.png)
+   ![雙向套用安全性篩選](media/service-admin-rls/rls-security.png)
 
 這樣會帶您到 RLS 頁面上，以將成員加入您在 Power BI Desktop 中建立的角色。 只有資料集的擁有者會看到 [安全性] 可供使用。 如果資料集是在群組中，只有群組的系統管理員會看到安全性選項。 
 
@@ -53,17 +54,17 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 
 您可以輸入想要新增的使用者、安全性群組或通訊群組清單的電子郵件地址或名稱，將成員加入角色中。 這個成員必須是貴組織的成員。 您無法加入在 Power BI 中建立的群組。
 
-![](media/service-admin-rls/rls-add-member.png)
+![新增成員](media/service-admin-rls/rls-add-member.png)
 
 您也可以根據角色名稱或 [成員] 旁括弧內的數字，知道有多少成員屬於該角色。
 
-![](media/service-admin-rls/rls-member-count.png)
+![角色中的成員](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>移除成員
 
 您可以選取成員名稱旁的 X 來移除成員。 
 
-![](media/service-admin-rls/rls-remove-member.png)
+![移除成員](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>在 Power BI 服務中驗證角色
 
@@ -72,15 +73,15 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 1. 選取角色旁的**省略符號 (...)**。
 2. 選取 [以角色測試資料]。
 
-![](media/service-admin-rls/rls-test-role.png)
+![以角色測試](media/service-admin-rls/rls-test-role.png)
 
 就會看到這個角色可以使用的報表。 這個檢視未顯示儀表板。 在上方的藍色列中，您會看到套用的功能。
 
-![](media/service-admin-rls/rls-test-role2.png)
+![目前檢視身分為 <角色>](media/service-admin-rls/rls-test-role2.png)
 
 您可以選取 \[Now viewing as] \(現在檢視為) 來測試其他角色或角色組合。
 
-![](media/service-admin-rls/rls-test-role3.png)
+![測試其他角色](media/service-admin-rls/rls-test-role3.png)
 
 您可以選擇以特定人員身分檢視資料，或者選取可用的角色組合來驗證它們是否作用。 
 
@@ -95,7 +96,7 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 > [!WARNING]
 > 如果您已將應用程式工作區設定為讓成員具有編輯權限，則 RLS 角色不會套用至成員。 使用者可以查看所有的資料。
 
-![](media/service-admin-rls/rls-group-settings.png)
+![群組設定](media/service-admin-rls/rls-group-settings.png)
 
 [!INCLUDE [include-short-name](./includes/rls-limitations.md)]
 
