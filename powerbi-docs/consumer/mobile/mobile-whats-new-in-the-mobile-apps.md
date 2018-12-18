@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: f272d0e40de5c65de9134c3d184195889233496b
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979531"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280918"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -22,6 +22,36 @@ ms.locfileid: "52979531"
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
+
+## <a name="november-2018"></a>2018 年 11 月
+
+### <a name="modern-visual-header"></a>新式視覺效果標題 
+
+使用新的「新式視覺效果標題」的報表不會再配置空間給標題，所以空白空間會變少，而您視覺效果能使用的空間會變多。
+
+### <a name="enhance-presentation-mode-windows"></a>加強簡報模式 (Windows)
+
+適用於 Surface Hub 與 Windows 10 裝置的加強簡報模式。  透過改良的簡報與共同作業工具，以及無邊框的大螢幕最佳化檢視來享受加強的 Surface Hub 會議室體驗，讓您可以專注在您的資料上。 簡報模式也提供一些工具 (例如筆跡工具)，來協助您有效地簡報並共同討論您的資料。 您可以在[這裡](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/)深入了解簡報模式。
+
+### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>平板電腦中的直向報表版面配置 (iOS 與 Android)
+
+我們現在會使用手機報表配置 (若其存在) 在您的平板電腦上以直向模式方向顯示報表。 深入了解[如何在 Power BI Service 或 Desktop 中建立手機版面配置](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/)。
+
+### <a name="supporting-report-query-string"></a>支援報表查詢字串 
+
+開啟包括查詢字串的報表連結現在將會在行動裝置應用程式中開啟，而且會根據查詢字串中定義的條件預先填入。 深入了角[如何使用查詢字串建立報表 URL](https://docs.microsoft.com/en-us/power-bi/service-url-filters/)。  
+
+### <a name="shared-credentials-now-in-android"></a>共用認證 (現在位於 Android 中)
+
+從您的行動裝置應用程式登入 Power BI，從未如此簡單。 使用共用認證，我們透過使用裝置上的其他 Office 365 應用程式認證，在 Power BI 服務中對您進行驗證，來簡化登入程序。
+
+### <a name="in-app-urls-now-in-android"></a>應用程式內 URL (現在位於 Android 中) 
+
+指向其他 Power BI 成品之報表中的連結，現在會直接在應用程式內部開啟。 這可讓您建置自訂瀏覽流程，例如，從報表連結至儀表板。
+
+### <a name="show-data-and-copy-values"></a>顯示資料並複製值
+
+報表視覺效果動作功能表 (...) 現在提供選項以表格格式顯示底層資料。 在此表格中，您可以長按以從該表格選取並複製值 (假設沒有任何 Intune 原則限制複製)。
 
 ## <a name="october-2018"></a>2018 年 10 月
 

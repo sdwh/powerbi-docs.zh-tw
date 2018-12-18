@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: fb25ae7408ddb19d7e8bc9c91c0e1b0f65d2bf42
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026239"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280619"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI 報表中新的篩選條件體驗 (預覽)
 
@@ -34,11 +34,11 @@ ms.locfileid: "53026239"
 
 ## <a name="turn-on-the-new-filter-experience"></a>開啟新的篩選條件體驗 
 
-開啟 Power BI Desktop 中的新體驗。 然後您就可以在該位置或在 Power BI 服務 (https://app.powerbi.com)) 中修改篩選條件。 因為這個新篩選條件體驗處於預覽狀態，所以您必須先在 Power BI Desktop 中啟用它。 
+開啟 Power BI Desktop 中的新體驗。 然後您就可以在該位置或在 Power BI 服務 (https://app.powerbi.com)) 中修改篩選條件。 因為這個新篩選條件體驗處於預覽狀態，所以您必須先在 Power BI Desktop 中啟用它。 若您透過在 Power BI 服務中建立報表來開始，它不能有新篩選。
 
 ### <a name="turn-on-new-filters-for-all-new-reports"></a>為所有新報表開啟新篩選條件
 
-1. 選取 [檔案] > [選項及設定] > [選項] > [預覽功能]，然後選取 [新的篩選體驗] 核取方塊。 
+1. 在 Power BI Desktop 中，選取 [檔案] > [選項及設定] > [選項] > [預覽功能]，然後選取 [新的篩選體驗] 核取方塊。 
 2. 重新啟動 Power BI Desktop，以在所有新報表中看到新的篩選條件體驗。
 
 重新啟動 Power BI Desktop 之後，您建立的所有新報表預設都會啟用新體驗。  
@@ -47,7 +47,7 @@ ms.locfileid: "53026239"
 
 您也可以為現有報表開啟新篩選條件。
 
-1. 在現有報表中，選取 [檔案] > [選項及設定] > [選項]
+1. 在 Power BI Desktop 中的現有報表中，選取 [檔案] > [選項及設定] > [選項]
 2. 在 [報表設定] 底下，選取 [啟用更新的篩選窗格，並在此報表的視覺效果標題中顯示篩選]。
 
 ## <a name="build-the-new-filter-pane"></a>建立新的篩選條件窗格
