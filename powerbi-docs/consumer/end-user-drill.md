@@ -1,22 +1,23 @@
 ---
-title: Power BI 視覺效果中的鑽研模式
-description: 本文說明如何向下鑽研 Microsoft Power BI 服務和 Power BI Desktop 的視覺效果。
+title: 在視覺效果中向下切入及向上切入
+description: 此文件說明如何向下鑽研 Microsoft Power BI 服務和 Power BI Desktop 的視覺效果。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: MNAaHw4PxzE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/26/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b8d51bef94a046d7e59962b565d13ba623b5bcc4
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: b24a58556c35a3213f3360b70d604a0e9b51b074
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679472"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280946"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI 視覺效果中的鑽研模式
 
@@ -26,10 +27,10 @@ ms.locfileid: "51679472"
 您可以新增階層到您擁有的報表，但是不能新增到與您共用的報表。
 不確定哪些 Power BI 視覺效果包含階層？  將滑鼠停駐在視覺效果上，如果您在上方角落看到這些鑽研控制項，您的視覺效果即具有階層。
 
-![](./media/end-user-drill/power-bi-drill-icon4.png)  ![](./media/end-user-drill/power-bi-drill-icon2.png)  ![](./media/end-user-drill/power-bi-drill-icon3.png)
-![](./media/end-user-drill/power-bi-drill-icon5.png) ![](./media/end-user-drill/power-bi-drill-icon6.png)  
+![向下切入一個層級](./media/end-user-drill/power-bi-drill-icon4.png)  ![開啟和關閉向下切入](./media/end-user-drill/power-bi-drill-icon2.png)  ![同時向下切入所有欄位圖示](./media/end-user-drill/power-bi-drill-icon3.png)
+![向上切入](./media/end-user-drill/power-bi-drill-icon5.png) ![向下展開圖示](./media/end-user-drill/power-bi-drill-icon6.png)  
 
-日期是獨特的階層類型。 當您將日期欄位新增到視覺效果時，Power BI 會自動新增包含年、季、月和日的時間階層。 如需詳細資訊，請參閱[視覺效果階層和向下鑽研行為](../guided-learning/visualizations.yml?tutorial-step=18)或觀看以下影片。
+日期是獨特的階層類型。 當您將日期欄位新增到視覺效果時，Power BI 會自動新增包含年、季、月和日的時間階層。 如需詳細資訊，請參閱[視覺效果階層和向下切入行為](../guided-learning/visualizations.yml?tutorial-step=18)或觀看以下影片。
 
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/MNAaHw4PxzE?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -42,20 +43,20 @@ ms.locfileid: "51679472"
 
 1. 在 Power BI 服務或 Desktop 中，鑽研需要有階層的視覺效果。 
    
-2. 若要跟著做，請[開啟零售分析範例](../sample-datasets.md)並建立樹狀圖，依**國家/地區**、**城市**、**郵遞區號**和**名稱** (群組) 來查看**今年總單位數** (值)。  樹狀圖具有由國家/地區、城市、郵遞區號和城市名稱組成的階層。 每個國家/地區有一或多個城市，每個城市有一或多個郵遞區號等等。 根據預設，視覺效果只會顯示國家/地區資料，因為「國家/地區」最先出現在清單中。
+2. 若要跟著做，請[開啟零售分析範例](../sample-datasets.md)並建立樹狀圖，依**國家/地區**、**城市**、**郵遞區號**與**名稱** (群組) 來查看**今年總單位數** (值)。  樹狀圖具有由國家/地區、城市、郵遞區號與城市名稱組成的階層。 每個國家/地區有一或多個城市，每個城市有一或多個郵遞區號等等。 根據預設，視覺效果只會顯示國家/地區資料，因為「國家/地區」最先出現在清單中。
    
-   ![](media/end-user-drill/power-bi-hierarcy-list.png)
+   ![選取 [國家/地區]](media/end-user-drill/power-bi-hierarcy-list.png)
 
-2. 了解各種鑽研圖示如何一起運作可能會造成混淆，因此我們篩選樹狀圖以僅顯示 2 個較小的地區：**KY** 和 **TN**。 選取樹狀圖，在 [視覺效果層級篩選] 下展開 [國家/地區]，並選取 [KY] 和 [TN]。
+2. 了解各種鑽研圖示如何一起運作可能會造成混淆，因此我們篩選樹狀圖以僅顯示 2 個較小的國家/地區：**KY** 與 **TN**。 選取樹狀圖，在 [視覺效果層級篩選] 下展開 [國家/地區]，並選取 [KY] 與 [TN]。
 
-    ![KY 和 TN 的篩選](./media/end-user-drill/power-bi-filter.png)    
+    ![KY 與 TN 的篩選](./media/end-user-drill/power-bi-filter.png)    
 
-   現在只有兩個地區會顯示於樹狀圖中。
+   現在只有兩個地區顯示於樹狀圖中。
 
    ![雙鑽研圖示](./media/end-user-drill/power-bi-territories.png)
 
 ## <a name="three-ways-to-access-the-drill-features"></a>有三種方式可存取鑽研功能
-您有可存取向下切入、向上切入，以及展開具有階層的視覺效果功能的多個選項。 本文示範如何使用以下第一個選項。 一旦您了解向下切入與展開的基本概念，這三種方法皆可完成相同的工作，請嘗試並挑選您最喜歡的一個。
+您有可存取向下切入、向上切入，以及展開具有階層的視覺效果功能的多個選項。 此文章示範如何使用以下第一個選項。 一旦您了解向下切入與展開的基本概念，這三種方法皆可完成相同的工作，請嘗試並挑選您最喜歡的一個。
 
 - 將滑鼠停留在視覺效果，以查看並使用圖示。  
 
@@ -67,11 +68,11 @@ ms.locfileid: "51679472"
 
 - 從 Power BI 功能表列中選取 [探索] 按鈕。
 
-   ![](media/end-user-drill/power-bi-explore.png)
+   ![選取 [探索] 顯示鑽研圖示與選項](media/end-user-drill/power-bi-explore.png)
 
 ## <a name="drill-pathways"></a>鑽研路徑
 ### <a name="drill-down"></a>向下切入
-有數種方式來向下切入至您的視覺效果。 「向下切入」會帶您前往階層中的下一個層級，因此如果您正在查看**國家/地區**層級，您可以向下切入至城市層級、郵遞區號層級和名稱層級。 路徑中的每個步驟都會顯示新的資訊。
+有數種方式來向下切入至您的視覺效果。 「向下切入」會帶您前往階層中的下一個層級，因此如果您正在查看**國家/地區**層級，您可以向下切入至城市層級、郵遞區號層級與最後的名稱層級。 路徑中的每個步驟都會顯示新的資訊。
 
 ![鑽研路徑](./media/end-user-drill/power-bi-drill-path.png)
 
@@ -85,11 +86,11 @@ ms.locfileid: "51679472"
 
 ## <a name="drill-down-all-fields-at-a-time"></a>一次向下切入所有欄位
 
-1. 在樹狀圖的最上層顯示 KY 與 TN 的資料。 透過選擇其中一個控點並向右拖曳來擴大您的樹狀圖。 
+1. 從樹狀圖的最上層開始，該層顯示 KY 與 TN 的資料。 透過選擇其中一個控點並向右拖曳來擴大您的樹狀圖。 
 
-    ![樹狀圖顯示 2 種狀態](./media/end-user-drill/power-bi-drill-down.png) .
+    ![顯示兩個州的樹狀圖](./media/end-user-drill/power-bi-drill-down.png) .
 
-2. 若要「一次向下切入所有欄位」，請選取視覺效果左上角的雙箭號  ![雙向下切入圖示](./media/end-user-drill/power-bi-drill-icon3.png)。 您的樹狀圖現在會顯示肯塔基州和田納西州的城市資料。 
+2. 若要「一次向下切入所有欄位」，請選取視覺效果左上角的雙箭號 ![雙向下切入圖示](./media/end-user-drill/power-bi-drill-icon3.png)。 您的樹狀圖現在會顯示肯塔基州與田納西州的城市資料。 
 
     ![雙鑽研圖示](./media/end-user-drill/power-bi-drill-down1.png)
    
@@ -97,47 +98,47 @@ ms.locfileid: "51679472"
 
     ![雙鑽研圖示](./media/end-user-drill/power-bi-drill-down2.png)
 
-3. 若要回頭向上切入，請選取視覺效果 ![](./media/end-user-drill/power-bi-drill-icon5.png) 左上角的向上箭號。
+3. 若要回頭向上切入，請選取視覺效果左上角的向上箭號 ![向上切入一個層級圖示](./media/end-user-drill/power-bi-drill-icon5.png).
 
 
 ## <a name="drill-down-one-field-at-a-time"></a>一次向下切入一個欄位
-這個方法會使用視覺效果本身右上方角落出現的向下切入圖示。 
+這個方法會使用視覺效果本身右上角出現的向下切入圖示。 
 
-1. 選取向下切入圖示將其開啟 ![向下切入已開啟](./media/end-user-drill/power-bi-drill-icon2.png)。 現在您有向下切入「一次一個欄位」選項。 
+1. 選取向下切入圖示將它開啟 ![向下切入已開啟](./media/end-user-drill/power-bi-drill-icon2.png)。 現在您有向下切入「一次一個欄位」選項。 
    
-   ![](media/end-user-drill/power-bi-drill-icon-new.png)
+   ![箭頭指向向下切入開啟/關閉圖示](media/end-user-drill/power-bi-drill-icon-new.png)
 
-   如果您不開啟向下切入，則選取視覺效果項目 (例如橫條圖、泡泡圖或分葉) 將不會向下切入，而會交叉篩選報表頁面上的其他圖表。
+   如果您不開啟向下切入，則選取視覺效果元素 (例如橫條圖、泡泡圖或分葉) 將不會向下切入，而會交叉篩選報表頁面上的其他圖表。
 
-2. 針對 **TN** 選取「分葉」。 現在您的樹狀圖會顯示在田納西州中具有商店的所有城市。 
+2. 針對 **TN** 選取「分葉」。 現在您的樹狀圖會顯示在田納西州中有商店的所有城市。 
 
-    ![](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![僅顯示田納西州的資料之樹狀圖](media/end-user-drill/power-bi-drill-down-one1.png)
 
-2. 此時，您可以繼續向下切入田納西州或向下切入田納西州的某個特定城市，或者可以改為展開 (請參閱以下的**一次展開所有欄位**)。 繼續一次向下切入一個欄位。  選取 [Knoxville, TN]。 現在樹狀圖會顯示您在 Knoxville 之商店的郵遞區號。 
+2. 此時，您可以繼續向下切入田納西州或向下切入田納西州的某個特定城市，或者可以改為展開 (請參閱下面的**一次展開所有欄位**)。 繼續一次向下切入一個欄位。  選取 [Knoxville, TN]。 現在樹狀圖會顯示您在諾克斯維爾之商店的郵遞區號。 
 
-   ![](media/end-user-drill/power-bi-drill-down-one2.png)
+   ![顯示 37919 的樹狀圖](media/end-user-drill/power-bi-drill-down-one2.png)
 
-    請注意當您向下鑽研並重新往回時，標題會變更。  
+    請注意當您向下切入並重新往回時，標題會變更。  
 
 ## <a name="expand-all-and-expand-one-field-at-a-time"></a>一次全部展開欄位和一次展開一個欄位
-僅顯示郵遞區號的樹狀圖並不很有幫助。  所以讓我們在階層中向下展開一個層級。  
+只顯示郵遞區號的樹狀圖無法提供足夠的資訊。  所以讓我們在階層中向下展開一個層級。  
 
-1. 在樹狀圖使用中的情況下，選取「向下展開」圖示 ![向下展開圖示](./media/end-user-drill/power-bi-drill-icon6.png)  。 樹狀圖現在會顯示階層中的 2 個層級：郵遞區號以及商店名稱。 
+1. 在樹狀圖使用中的情況下，選取「向下展開」圖示 ![向下展開圖示](./media/end-user-drill/power-bi-drill-icon6.png)。 您的樹狀圖現在顯示兩個層級的階層：郵遞區號與商店名稱。 
 
-    ![顯示郵遞區號以及商店名稱](./media/end-user-drill/power-bi-expand1.png)
+    ![顯示郵遞區號與商店名稱](./media/end-user-drill/power-bi-expand1.png)
 
-2. 若要看到田納西州所有 4 個階層層級的資料，請選取向上切入箭號直到您到達第二個層級，樹狀圖中的**依國家/地區和城市的今年總單位數**。 
+2. 若要看到田納西州所有四個階層層級的資料，請選取向上切入箭號直到您到達第二個層級，樹狀圖中的**依國家/地區和城市的今年總單位數**。 
 
-    ![](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![顯示所有田納西州資料的樹狀圖](media/end-user-drill/power-bi-drill-down-one1.png)
 
 
-3. 請確定向下切入仍然開啟 ![向下切入已開啟](./media/end-user-drill/power-bi-drill-icon2.png)，然後選取「向下展開」圖示 ![向下展開圖示](./media/end-user-drill/power-bi-drill-icon6.png)。 您的樹狀圖現在會顯示其他詳細資料；除了城市和州之外現在也會顯示郵遞區號。 
+3. 請確定向下切入仍然開啟 ![向下切入已開啟](./media/end-user-drill/power-bi-drill-icon2.png)，然後選取「向下展開」圖示 ![向下展開圖示](./media/end-user-drill/power-bi-drill-icon6.png)。 您的樹狀圖現在會顯示其他詳細資料；除了城市與州之外現在也會顯示郵遞區號。 
 
     ![雙鑽研圖示](./media/end-user-drill/power-bi-expand-one3.png)
 
-4. 再次選取 [向下展開] 以在樹狀圖上顯示田納西州詳細資料的所有 4 個階層層級。 將滑鼠停留在分葉以查看更多詳細資料。
+4. 再次選取 [向下展開] 以在樹狀圖上顯示田納西州詳細資料的所有四個階層層級。 將滑鼠停留在分葉以查看更多詳細資料。
 
-   ![樹狀圖顯示黏納西州資料](./media/end-user-drill/power-bi-expand-all.png)
+   ![顯示田納西州資料的樹狀圖](./media/end-user-drill/power-bi-expand-all.png)
 
 ## <a name="drilling-filters-other-visuals"></a>鑽研篩選其他視覺效果
 隨著您在 [鑽研] 模式中作業，您可以決定向下切入和展開如何影響頁面上的其他視覺效果。 
@@ -179,11 +180,11 @@ Power BI 可讓您一次展開一個子集，或一次展開所有子集。 您�
 
 即使 [軸] 資料欄位是 [月份]，它仍會在 [軸] 區中建立 [年份] 類別。 這是因為 Power BI 針對所讀取的所有值，都會提供完整的 DateTime 結構。 階層最上層會顯示該年的資料。
 
-![](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
+![顯示依年份分組之資料的單一橫條](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
 
 開啟向下切入模式後，按一下圖表中的橫條即可下移一層階層。 您會看到三個橫條代表可用季度的資料。 然後從左上方圖示，選擇 [向下一個階層等級展開全部]。 再執行一次，抵達階層的最底層，以顯示每個月的結果。
 
-![](media/end-user-drill/power-bi-hierarchical-axis-datetime-2.png)
+![查看每個月份的橫條圖](media/end-user-drill/power-bi-hierarchical-axis-datetime-2.png)
 
 除了視覺效果，我們還會看到每份報表呈現資料中所反映的階層。 下表顯示從單一月份或所有月份向下切入的報表中 [顯示資料] 的結果。 
 
@@ -192,35 +193,35 @@ Power BI 可讓您一次展開一個子集，或一次展開所有子集。 您�
 
 |展開模式|年度|季|月|日|
 | ---|:---:|:---:|:---:|---|
-|單一|![](./media/end-user-drill/power-bi-hierarchical-year.png)|![](media/end-user-drill/power-bi-hierarchical-quarter.png)|![](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![](media/end-user-drill/power-bi-hierarchical-one-day.png)|
-|全部|![](./media/end-user-drill/power-bi-hierarchical-year.png)|![](media/end-user-drill/power-bi-hierarchical-quarter.png)|![](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![](media/end-user-drill/power-bi-hierarchical-all-day.png)|
+|單一|![單一年](./media/end-user-drill/power-bi-hierarchical-year.png)|![單一季](media/end-user-drill/power-bi-hierarchical-quarter.png)|![單一月](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![單日](media/end-user-drill/power-bi-hierarchical-one-day.png)|
+|全部|![所有年](./media/end-user-drill/power-bi-hierarchical-year.png)|![所有季](media/end-user-drill/power-bi-hierarchical-quarter.png)|![所有月](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![所有日](media/end-user-drill/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>階層式類別目錄資料
 來自集合與子集合的模型化資料是階層式資料。 一個很好的範例是位置資料。 假設資料來源中有一個資料表，其資料行包括國家/地區、州/省、城市和郵遞區號。 共用相同國家/地區、州/省和城市的資料是階層式資料。
 
-在此範例中，遵循[零售分析範例](../sample-datasets.md)進行。 建立堆疊直條圖視覺效果，依 [國家/地區]、[城市]、[郵遞區號] 和 [名稱] (群組) 查看 [今年總單位數] (值)。  
+在此範例中，遵循[零售分析範例](../sample-datasets.md)進行。 建立堆疊直條圖視覺效果，依**國家/地區**、**城市**、**郵遞區號**與**名稱** (群組) 來查看**今年總單位數** (值)。  
 
-![](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
+![依國家/地區顯示今年總單位數的橫條圖](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
 
 開啟向下切入模式後，從左上方圖示，選擇 [向下一個階層等級展開全部] 三次。
 您應該會抵達階層的最底層，以顯示國家/地區、城市和郵遞區號的結果。
 
-![](media/end-user-drill/power-bi-hierarchical-axis-category-2.png)
+![顯示階層的最低層級 (最詳細) 的橫條圖](media/end-user-drill/power-bi-hierarchical-axis-category-2.png)
 
 除了視覺效果，我們還會看到每份報表呈現資料中所反映的階層。 下表顯示向下切入單一國家/地區或所有國家/地區的報表中 [顯示資料] 的結果。 當您向下切入時，您會看到單一報表變得更具體，而「所有國家/地區」報表則有更多資料。
 
 
-| 展開模式|國家/地區|鄉/鎮/市/區|郵遞區號|名稱|
+| 展開模式|國家/地區|縣/市|郵遞區號|名稱|
 | ---|:---:|:---:|:---:|---|
-|單一|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|全部|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|單一|![單一國家/地區](./media/end-user-drill/power-bi-hierarchical-territory.png)|![單一縣/市](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![單一郵遞區號](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![單一名稱](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
+|全部|![所有國家/地區](./media/end-user-drill/power-bi-hierarchical-territory.png)|![所有縣/市](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![所有郵遞區號](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![所有名稱](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 * 如果將日期欄位新增至視覺效果不會建立階層，可能是因為「日期」欄位實際上不是儲存為日期。 如果您擁有資料集，請在 Power BI Desktop 的 [資料] 檢視中開啟它，選取包含日期的資料行，然後在 [模型] 索引標籤中將 [資料類型] 變更為 [日期] 或 [日期/時間]。 如果報表已與您共用，請連絡擁有者以要求變更。  
   
-  ![](media/end-user-drill/power-bi-change-data-type2.png)
+  ![選取資料檢視，在右上角看到 [資料類型]](media/end-user-drill/power-bi-change-data-type2.png)
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 報表的視覺效果](../visuals/power-bi-report-visualizations.md)

@@ -3,26 +3,27 @@ title: Power BI 服務中之我的最愛 (儀表板、報表、應用程式)
 description: 說明如何在 Power BI 服務中將儀表板、報表和應用程式設為我的最愛
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: cc94f352c550d7fba96f71f894e8d81ba5bc487a
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452491"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280166"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Power BI 服務中的常用儀表板、報告和應用程式
 當您將內容設為「我的最愛」時，將可從所有工作區予以存取。  我的最愛通常是您最常瀏覽的內容。
 
 > [!NOTE]
-> 本主題適用於 Power BI 服務，不適用於 Power BI Desktop。
+> 此主題適用於 Power BI 服務，不適用於 Power BI Desktop。
 > 
 > 
 
@@ -71,7 +72,7 @@ ms.locfileid: "52452491"
    ![[我的最愛] 畫面](./media/end-user-favorite/power-bi-unfavorites-screen.png)
 2. 選取內容旁的黃色星星即可移除最愛。
 
-> **注意**︰您也可以將儀表板、報表或應用程式本身移除最愛。 只要開啟並取消選取黃色圖示就可以了。   
+> **注意**：您也可以將儀表板、報表或應用程式本身移除最愛。 只要開啟並取消選取黃色圖示就可以了。   
 > 
 > 
 

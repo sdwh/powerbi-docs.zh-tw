@@ -1,21 +1,22 @@
 ---
-title: Power BI 服務與 Desktop 中的問與答概觀
+title: Power BI 服務中問與答的概觀
 description: Power BI 問與答自然語言查詢的文件概觀主題。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 361c71c979d65e5c71ada6889bc7312ef64da23e
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 3548041be39705c3013d09740040afc3e7f1c9e7
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396351"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279570"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI **取用者**問與答
 ## <a name="what-is-qa"></a>問與答是什麼？
@@ -46,7 +47,7 @@ ms.locfileid: "49396351"
 
 ![問與答畫面](media/end-user-q-and-a/power-bi-qna-screen.png) 
 
-* 如果視覺效果軸的標籤和值包含「銷售」、「客戶」、「月」與「商機」，您可以放心地詢問：哪位「客戶」的「商機」最大等問題，或顯示每月「銷售」的橫條圖。
+* 如果視覺效果的軸標籤和值包含「銷售」、「帳戶」、「月份」與「商機」，您就可以安心地提出問題，例如：「哪一個『帳戶』有最高的『商機』，或以橫條圖根據月份顯示『銷售』。」
 
 * 如果您在 Google Analytics 網站中擁有效能資料，您可以詢問問與答有關花在網頁的時間、特定網頁瀏覽次數和使用者參與率。 或者，如果您要查詢人口統計資料，您可能會想詢問各地區年齡和家庭收入的相關問題。
 
@@ -71,10 +72,10 @@ ms.locfileid: "49396351"
 ![儀表板的問與答設定](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 
-**解答 2**：有時儀表板「設計工具」或您的系統管理員會關閉問與答。 請與他們確認是否可以將其重新開啟。   
+**解答 2**：有時儀表板「設計者」或您的系統管理員會關閉問與答。 請與他們確認是否可以將其重新開啟。   
 
-**問題**：當我鍵入問題時無法取得我想看到的結果。    
-**解答**：請諮詢儀表板「設計工具」。 為了改善問與答的結果，設計工具可能會進行很多作業。 比方說，設計工具可能會重新命名資料集中的資料行，來使用較容易了解的詞彙 (例如以 `CustomerFirstName` 取代 `CustFN`)。 由於設計工具十分了解資料集，因此設計工具也可以提出有幫助的問題，並將其新增至問與答畫布中。
+**問題**：當我輸入問題時無法取得我想看到的結果。    
+**解答**：請諮詢儀表板「設計者」。 為了改善問與答的結果，設計工具可能會進行很多作業。 比方說，設計工具可能會重新命名資料集中的資料行，來使用較容易了解的詞彙 (例如以 `CustomerFirstName` 取代 `CustFN`)。 由於設計工具十分了解資料集，因此設計工具也可以提出有幫助的問題，並將其新增至問與答畫布中。
 
 ![精選問題概述](media/end-user-q-and-a/power-bi-featured-q.png)
 

@@ -1,22 +1,23 @@
 ---
-title: 顯示已與我共用的 Power BI 內容
+title: 顯示與我共用的報表與儀表板
 description: Power BI 中已與我共用的文件
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e06f0157476207bfe50abba01bd31d7605236a95
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: d1147f02e357984ce7dc7660898317b9071b3a86
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112168"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280688"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>顯示與我共用的報表與儀表板
 ## <a name="shared-with-me"></a>與我共用
@@ -43,7 +44,7 @@ ms.locfileid: "49112168"
   > 如需 EGRC 分類的資訊，請選取分類按鈕，或[瀏覽儀表板資料分類](../service-data-classification.md)。
   > 
   > 
-* 選取儀表板名稱來開啟儀表板，並進行探索。 開啟共用儀表板之後，即可使用問與答來提問有關基礎資料的問題，或選取磚，以在閱讀檢視中開啟報表並與之互動。
+* 選取儀表板名稱來開啟儀表板，並進行探索。 開啟共用儀表板之後，即可使用問與答來提問有關基礎資料的問題，或選取圖格，以在閱讀檢視中開啟報表並與之互動。
 
 ## <a name="filter-shared-dashboards-by-owner"></a>依擁有者篩選共用儀表板
 可以依內容擁有者進一步篩選 [與我共用] 畫面中的內容。 例如，如果我選取 [Amanda]，則只會看到 Amanda 已與我共用的儀表板。

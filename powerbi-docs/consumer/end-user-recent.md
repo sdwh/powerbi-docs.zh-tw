@@ -1,22 +1,23 @@
 ---
-title: 在 Power BI 中顯示最近瀏覽過的內容
+title: 在 Power BI 服務中顯示最近瀏覽過的內容
 description: Power BI 中最近的文件
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1479b8fc431428a1b44ccd06bb501071042ada6e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: f475957d10a745fc0ec89c8f73b18faff64508c6
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908478"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280389"
 ---
 # <a name="recent-content-in-power-bi-service"></a>Power BI 服務中的 [最近] 內容
 最近內容指的是您在 Power BI 服務中最後瀏覽的項目，最多 20 個。  這些包含：所有工作區中的儀表板、報表、應用程式和活頁簿。
@@ -32,7 +33,7 @@ ms.locfileid: "48908478"
 
 ![最近內容飛出視窗](./media/end-user-recent/power-bi-recent-flyout-new.png)
 
-如果您最近瀏覽過項目超過五個，請選取 [See all]\(查看全部) 以開啟 [最近] 畫面 (請參閱下面)。 您也可以從左側導覽中選取 [最近] 或最近![最近圖示](./media/end-user-recent/power-bi-recent-icon.png) 圖示。
+如果您最近瀏覽過項目超過五個，請選取 [See all] \(查看全部\) 以開啟 [最近] 畫面 (請參閱下面)。 您也可以從左側導覽中選取 [最近] 或最近![最近圖示](./media/end-user-recent/power-bi-recent-icon.png) 圖示。
 
 ![顯示所有最近內容](./media/end-user-recent/power-bi-recent-list.png)
 

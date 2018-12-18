@@ -1,21 +1,22 @@
 ---
-title: Power BI 中的報表
+title: 在 Power BI 中檢視報表
 description: Power BI 中的報表
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 31fe32bff8749b7b8136d980da9ea0e5bec3bc4f
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908616"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281039"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的報表
 ## <a name="what-is-a-power-bi-report"></a>什麼是 Power BI 報表？
@@ -40,7 +41,7 @@ Power BI「報表」是資料集的多面向檢視，以視覺效果顯示該資
 | 頁面 |一個頁面 |一或多個頁面 |
 | 資料來源 |每個儀表板一或多份報表以及一或多個資料集 |每份報表單一資料集 |
 | Power BI Desktop 可用 |否 |是，可在 Desktop 中建立及檢視報表 |
-| 釘選 |只能將目前儀表板中現有的視覺效果 (磚) 釘選到其他儀表板 |可將視覺效果 (以磚的形式) 釘選到任何儀表板。 可將整個報表頁面釘選到任何儀表板。 |
+| 釘選 |只能將目前儀表板中現有的視覺效果 (圖格) 釘選到其他儀表板 |可將視覺效果 (以圖格的形式) 釘選到任何儀表板。 可將整個報表頁面釘選到任何儀表板。 |
 | 訂閱 |無法訂閱儀表板 |可訂閱報表頁面 |
 | 篩選 |無法篩選或配量 |有多種不同方法可篩選、反白顯示及配量 |
 | 設定警示 |可以建立警示於達到特定條件時發送電子郵件 |否 |
@@ -49,7 +50,7 @@ Power BI「報表」是資料集的多面向檢視，以視覺效果顯示該資
 | 可變更視覺效果類型 |否。 事實上，如果報表擁有者變更報表中的視覺效果類型，儀表板上釘選的視覺效果不會更新。 |是 |
 | 可以看到基礎資料集的資料表和欄位 |否。 可以匯出資料，但看不到儀表板本身的資料表和欄位。 |是。 可以看到資料集資料表和欄位以及值。 |
 | 可以建立視覺效果 |僅限使用 [新增磚] 在儀表板新增小工具 |可以建立許多不同類型的視覺效果、新增自訂視覺效果、編輯視覺效果，以及更多的編輯權限。 |
-| 自訂 |可以使用視覺效果 (磚) 執行作業，如移動和排列、調整大小、新增連結、重新命名、刪除和全螢幕顯示。 但是，資料和視覺效果本身都是唯讀的。 |在 [閱讀檢視] 中您可以發佈、內嵌、篩選、匯出、下載為 .pbix、檢視相關內容、產生 QR 代碼、在 Excel 中進行分析等等。  在 [編輯檢視] 中，您可以執行目前述及的所有作業及其他更多。 |
+| 自訂 |可以使用視覺效果 (圖格) 執行作業，如移動和排列、調整大小、新增連結、重新命名、刪除和全螢幕顯示。 但是，資料和視覺效果本身都是唯讀的。 |在 [閱讀檢視] 中您可以發佈、內嵌、篩選、匯出、下載為 .pbix、檢視相關內容、產生 QR 代碼、在 Excel 中進行分析等等。  在 [編輯檢視] 中，您可以執行目前述及的所有作業及其他更多。 |
 
 ## <a name="report-creators-and-report-consumers"></a>報表「建立者」和報表「取用者」
 根據您的角色，您可能是建立報表供自己使用或與同事共用的人員。 您想要了解如何建立和共用報表。 或者，您可能是接收其他人之報表的人員。 您想要了解如何熟悉報表並與之互動。
@@ -68,7 +69,7 @@ Power BI「報表」是資料集的多面向檢視，以視覺效果顯示該資
 * 了解如何[開啟報表](end-user-report-open.md)以及[閱讀檢視](end-user-reading-view.md)中可用的所有互動。
 * 使用其中一個的[範例](../sample-tutorial-connect-to-the-samples.md)導覽來熟悉報表。  
 <!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
-* 若要查看報表正在使用的資料集，以及哪些儀表板具有從報表釘選的磚，請[檢視相關內容](end-user-related.md)。
+* 若要查看報表正在使用的資料集，以及哪些儀表板具有從報表釘選的圖格，請[檢視相關內容](end-user-related.md)。
 
 > [!TIP]
 > 如果這裡找不到您要的內容，請使用左側＜目錄＞來瀏覽所有「報表」主題。

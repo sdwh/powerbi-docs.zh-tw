@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 3b3eaa33879a1f0c6d51aecaa93cae6ce5c90d10
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473857"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280803"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入門 - 瀏覽 Power BI 服務
 
@@ -40,7 +41,7 @@ ms.locfileid: "49473857"
 
     Power BI 服務會匯入範例，並顯示儀表板。 「儀表板」是 Power BI 服務與 Power BI Desktop 的不同之處。 範例也包含報表和資料集，我們日後將會進行瀏覽。
 
-    ![](media/end-user-experience/power-bi-dashboard.png)
+    ![儀表板顯示](media/end-user-experience/power-bi-dashboard.png)
 
 觀看影片，讓 Amanda 帶領您瀏覽 Power BI 服務的導覽體驗。  然後遵循以下影片中的逐步指示自行探索。
 
@@ -50,7 +51,7 @@ ms.locfileid: "49473857"
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>檢視內容 (儀表板、報表、活頁簿、資料集、工作區、應用程式)
 讓我們開始查看如何組織基本內容 (儀表板、報表、資料集、活頁簿)。 內容會顯示在工作區的內容內。 此時，您只有一個稱為 [我的工作區] 的工作區。 一般而言，取用者不需要使用任何其他工作區。 [我的工作區] 會儲存您所擁有的所有內容。 請將它視為您專屬內容的個人沙箱或工作區域。 [我的工作區] 是您剛剛下載並儲存零售分析範例的位置。 
 
-在 [我的工作區] 內，您的內容組織為 4 個索引標籤︰[儀表板]、[報表]、[活頁簿] 和 [資料集]。
+在我的工作區中，您的內容分為 4 個索引標籤：[儀表板]、[報表]、[活頁簿] 與 [資料集]。
 
 ![[我的工作區] 畫面](./media/end-user-experience/power-bi-my-workspace.png)
 

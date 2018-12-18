@@ -4,21 +4,22 @@ description: 如何在 Power BI 服務中，為取用者將篩選條件新增至
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: ea219071b475bf5bb9123e1aa3bbaca412507a8e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473799"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280757"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>報表 [篩選] 窗格概觀
-本文深入探討 Power BI 服務中的報表 [篩選] 窗格。
+此文章深入探討 Power BI 服務中的報表 [篩選] 窗格。
 
 有許多不同的方式可在 Power BI 中篩選資料，建議您先閱讀[關於篩選和反白顯示](../power-bi-reports-filters-and-highlighting.md)。
 
@@ -29,7 +30,7 @@ ms.locfileid: "49473799"
 
 ![在瀏覽器中開啟報表](media/end-user-report-filter/power-bi-expanded.png)
 
-[篩選] 窗格包含已由報表「設計師」新增到報表的篩選。 與您相同的「取用者」可以和篩選互動並儲存變更，但無法將新的篩選新增至報表。 例如，在上面的螢幕擷取畫面中，設計師新增了兩個頁面層級篩選：「區段」與「年」。 您可以互動和變更這些篩選條件，但您無法新增第三個頁面層級篩選。
+[篩選] 窗格包含已由報表「設計師」新增到報表的篩選。 與您相同的「取用者」可以和篩選互動並儲存變更，但無法將新的篩選新增至報表。 例如，在上面的螢幕擷取畫面中，設計者新增了兩個頁面層級篩選：「區段」與「年」。 您可以互動和變更這些篩選條件，但您無法新增第三個頁面層級篩選。
 
 在 Power BI 服務中，報表會保留您在 [篩選] 窗格中所做的任何變更，而這些變更會傳送至行動版的報表。 若要將 [篩選] 窗格重設為設計師預設值，請從頂端功能表列選取 [重設為預設值]。     
 

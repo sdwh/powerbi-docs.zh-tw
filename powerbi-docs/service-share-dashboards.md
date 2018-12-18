@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: abddbf3e4ae0b51dbb46f949e6d4f287d084f873
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271755"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280966"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用您的 Power BI 儀表板和報表
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 還提供[數種其他方式可進行共同作業及散發您的儀表板和報表](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -25,7 +25,7 @@ ms.locfileid: "48271755"
 
 不論是與組織內部或外部共用內容，您都會需要 [Power BI Pro 授權](service-features-license-type.md)。 您的收件者也必須具有 Power BI Pro 授權，否則內容便必須位於 [Premium 容量](service-premium.md)中。 
 
-您可以從 Power BI 服務中大部分的位置共用儀表板和報表，包括您的 [我的最愛]、[最近]、[與我共用]\(如果擁有者允許的話)、[我的工作區] 或其他工作區。 當您與他人共用儀表板或報表時，他們可以檢視該儀表板或報表並與之互動，但無法編輯它們。 除非套用[資料列層級安全性 (RLS)](service-admin-rls.md)，否則他們將能看到和您在儀表板或報表中可看見的相同資料。 如果您允許的話，您與其共用儀表板或報表的同事，也可以與他們的同事共用。 組織外部人員也可以檢視儀表板或報表並與之互動，但不能共用。 
+您可以從 Power BI 服務中大部分的位置共用儀表板和報表，包括您的 [我的最愛]、[最近]、[與我共用] \(如果擁有者允許的話\)、[我的工作區] 或其他工作區。 當您與他人共用儀表板或報表時，他們可以檢視該儀表板或報表並與之互動，但無法編輯它們。 除非套用[資料列層級安全性 (RLS)](service-admin-rls.md)，否則他們將能看到和您在儀表板或報表中可看見的相同資料。 如果您允許的話，您與其共用儀表板或報表的同事，也可以與他們的同事共用。 組織外部人員也可以檢視儀表板或報表並與之互動，但不能共用。 
 
 您也可以[從任何 Power BI 行動裝置應用程式共用儀表板](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)。 您可以從 Power BI 服務和 Power BI 行動裝置應用程式共用儀表板，但無法從 Power BI Desktop 共用。
 
@@ -111,7 +111,7 @@ ms.locfileid: "48271755"
 
 * 一般來說，您和您的同事會在儀表板或報表中看到相同的資料。 因此，如果您具有可看到較多資料的權限，您的同事將能在您的儀表板或報表中看到您所有的資料。 不過，如果已將[資料列層級安全性 (RLS)](service-admin-rls.md) 套用至儀表板或報表的基礎資料集，則系統會依據每個人的認證來決定其可以存取的資料。
 * 共用您儀表板的每個人都可以看到此儀表板，並在[閱讀檢視](consumer/end-user-reading-view.md)中與相關的報表互動。 他們無法建立報表，或在現有的報表中儲存變更。
-* 沒有人可以看到或下載資料集。
+* 沒有人可以看到或下載資料集，但他們可以使用「使用 Excel 分析」功能直接存取資料集。 透過限制群組中每個人的能力，系統管理員可以限制人員使用「使用 Excel 分析」的能力。 不過，對於該群組中每個人的限制適用於該群組所屬的每個工作區。
 * 每個人都可以手動[重新整理資料](refresh-data.md)。
 * 如果電子郵件使用 Office 365，您可以輸入與通訊群組相關聯的電子郵件地址來與通訊群組的成員共用。
 * 電子郵件網域與您相同的同事，以及網域不同、但登錄在相同租用戶中的同事，可以與其他人共用儀表板。 例如，假設網域 contoso.com 和 contoso2.com 都登錄在相同的租用戶中。 如果您的電子郵件地址是 konrads@contoso.com，則 ravali@contoso.com 和 gustav@contoso2.com 只要經過您授權共用，就可以共用。

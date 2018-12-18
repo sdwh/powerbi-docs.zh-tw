@@ -1,21 +1,22 @@
 ---
-title: 檢視 Power BI 儀表板？
-description: 儀表板是 Power BI 服務的重要功能。
+title: 檢視 Power BI 儀表板
+description: 儀表板是 Power BI 服務的重要功能，了解如何開啟及檢視儀表板。
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/11/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53575f657c2d58f9d6b1908fb42bbb9267c3a3b8
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 2fa614683ecfebc0693829c834dcfa4f160d22b1
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396673"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279745"
 ---
 # <a name="view-a-dashboard"></a>檢視儀表板
 Power BI 取用者花費大量時間檢視儀表板。 儀表板的目的是從醒目提示基礎報表和資料集中的特定資訊。 而 Power BI 取用者使用該資訊來追蹤、監控、回答問題、測試等，以制定資料驅動的商務決策。
@@ -47,5 +48,5 @@ Power BI 取用者花費大量時間檢視儀表板。 儀表板的目的是從�
 
 
 ## <a name="next-steps"></a>後續步驟
-* 使用[範例儀表板](../sample-tutorial-connect-to-the-samples.md)其中一項教學課程來熟悉儀表板。
+* 使用[範例儀表板](../sample-tutorial-connect-to-the-samples.md)其中一個教學課程來熟悉儀表板。
 * 深入了解[儀表板磚](end-user-tiles.md)以及選取一個磚時會發生什麼情況。

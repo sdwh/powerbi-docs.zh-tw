@@ -6,48 +6,49 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
+ms.custom: seodec18
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 71e30fa6c53e7ed8ed4364dca668b2a689ef1f19
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 50858dcab91980e85e71fd82dec4189139eea2b4
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641733"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280527"
 ---
-# <a name="power-bi---basic-concepts-for-power-bi-service-consumers"></a>Power BI - Power BI 服務取用者的基本概念
+# <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI 服務「取用者」的基本概念
 
 ## <a name="power-bi-consumers-and-designers"></a>Power BI 取用者和設計工具
-本文假設您已閱讀 [Power BI 概觀](../power-bi-overview.md)，並將自已識別為 Power BI 的「取用者」。 取用者可從同事收到 Power BI 內容，例如儀表板和報表。 取用者會使用 Power BI 服務，也就是 Power BI 的網站版本。 
+此文章假設您已閱讀 [Power BI 概觀](../power-bi-overview.md)，並將自已識別為 Power BI 的「取用者」。 取用者可從同事收到 Power BI 內容，例如儀表板和報表。 取用者會使用 Power BI 服務，也就是 Power BI 的網站版本。 
 
-您一定會聽到 "Power BI Desktop" 或只是 "Desktop" 一詞，這是一種獨立工具，供建置儀表板和報表並與您共用的「設計工具」使用。 請務必了解還有其他的 Power BI 工具，但只要您是取用者，就只能使用 Power BI 服務。 此外，本文僅適用於 Power BI 服務。 
+您一定會聽到 "Power BI Desktop" 或只是 "Desktop" 一詞，這是一種獨立工具，供建置儀表板和報表並與您共用的「設計工具」使用。 請務必了解還有其他的 Power BI 工具，但只要您是取用者，就只能使用 Power BI 服務。 此外，此文章僅適用於 Power BI 服務。 
 
 ## <a name="terminology-and-concepts"></a>術語和概念
-本文不是 Power BI 的視覺導覽，也不是實際操作教學課程。 相反地，它是我們希望讓您熟悉 Power BI 術語和概念的概觀文章。 可告訴您專用術語的涵義和使用情況。 如需導覽 Power BI 服務及其巡覽，請前往[開始導覽](end-user-experience.md)。
+此文章不是 Power BI 的視覺導覽，也不是實際操作教學課程。 相反地，它是我們希望讓您熟悉 Power BI 術語和概念的概觀文章。 可告訴您專用術語的涵義和使用情況。 如需導覽 Power BI 服務及其巡覽，請前往[開始導覽](end-user-experience.md)。
 
 ## <a name="open-power-bi-service-for-the-first-time"></a>第一次開啟 Power BI 服務
 大部分的 Power BI 取用者可取得 Power BI 服務，因為 1) 其公司會購買授權，而且 2) 系統管理員會將這些授權指派給像您一樣的員工。 
 
 若要開始使用，只要開啟瀏覽器並鍵入 **app.powerbi.com** 即可。 當您第一次開啟 Power BI 服務時，會看到類似下面的內容。
 
-![](media/end-user-basic-concepts/power-bi-open.png)
+![Power BI 服務的 [歡迎使用] 畫面](media/end-user-basic-concepts/power-bi-open.png)
 
 當您使用 Power BI 時，您會將每次開啟網站時所看到的內容個人化。  例如，有些人想要將 Power BI 開啟至首頁，而有些則有想要先查看他們的最愛儀表板。 別擔心，我們將告訴您如何完成此操作。 
 - [首頁預覽](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
 - [設定內容作為**精選**](end-user-featured.md) 
 
-![](media/end-user-basic-concepts/power-bi-first.png)
+![會顯示 [首頁] 檢視和 [儀表板] 檢視](media/end-user-basic-concepts/power-bi-first.png)
 
 但是，在我們更進一步深入之前，讓我們來回顧一下並討論構成 Power BI 服務的建置組塊。
 
 ## <a name="power-bi-content"></a>Power BI 內容
 ### <a name="introduction-to-building-blocks"></a>建置組塊簡介
-Power BI 取用者的 5 個建置組塊如下：視覺效果、儀表板、報表、應用程式和資料集。 這些有時稱為「Power BI 內容」。 而「內容」存在於「工作區」中。 一般工作流程牽涉到所有這些建置組塊：Power BI 的「設計工具」(下圖中的黃色) 會收集「資料集」中的資料，將其帶入 Power BI 中進行分析、建立充滿「視覺效果」(醒目提示感興趣的事實和見解) 的「報表」，將報表中的視覺效果釘選到儀表板，並與像您一樣 (下圖中的黑色) 的「取用者」以「應用程式」或其他類型共用內容的形式共用報表和儀表板。 
+Power BI 取用者的 5 個建置組塊如下：視覺效果、儀表板、報表、應用程式和資料集。 這些有時稱為「Power BI 內容」。 而「內容」存在於「工作區」中。 一般工作流程牽涉到所有這些建置組塊：Power BI 的「設計者」(下圖中的黃色) 會收集「資料集」中的資料，將其帶入 Power BI 中進行分析、建立充滿「視覺效果」(醒目提示感興趣的事實和見解) 的「報表」，將報表中的視覺效果釘選到儀表板，並與像您一樣 (下圖中的黑色) 的「取用者」以「應用程式」或其他類型共用內容的形式共用報表與儀表板。 
 
-![](media/end-user-basic-concepts/power-bi-workflow.png)
+![流程圖 (基本)](media/end-user-basic-concepts/power-bi-workflow.png)
 
 最基本概念。 
 * ![視覺效果圖示](media/end-user-basic-concepts/visual.png) 「視覺效果」是 Power BI「設計工具」使用「報表」和「資料集」資料所建置的一種圖表。 「設計工具」通常會在 Power BI Desktop 中建置視覺效果。 
@@ -78,7 +79,7 @@ _______________________________________________________
 
 當設計工具與您共用應用程式時，您可以看到應用程式包含哪些資料集。 
 
-![](media/end-user-basic-concepts/power-bi-dataset-list.png)
+![已選取 [應用程式] 且箭頭指向畫布上的 [資料集] 區段](media/end-user-basic-concepts/power-bi-dataset-list.png)
 
 **一個** 資料集...
 
@@ -113,24 +114,24 @@ Power BI 報表是一或多個頁面的視覺效果、圖表及文字。 報表�
 
 **一個** 報表...
 
-* 可以與多個儀表板相關聯 (從該單一報表釘選的磚可出現在多個儀表板上)。
+* 可以與多個儀表板相關聯 (從該單一報表釘選的圖格可出現在多個儀表板上)。
 * 只使用一個資料集的資料建立而成。  
 * 可以是多個應用程式的一部分
   
-  ![](media/end-user-basic-concepts/drawing5.png)
+  ![針對報表繪製的關聯性](media/end-user-basic-concepts/drawing5.png)
 
 ________________________________________________
 
 ## <a name="dashboards"></a>儀表板
 儀表板表示基礎資料集其中一部分子集的自訂檢視。 「設計工具」會建置儀表板，並將其與「取用者」共用；單獨或作為應用程式的一部分。 儀表板是包含「圖格」、圖表和文字的單一畫布。 
 
-  ![](media/end-user-basic-concepts/power-bi-dashboard.png)
+  ![範例儀表板](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-圖格是視覺效果的呈現，例如，「設計工具」可將其從報表「釘選」到儀表板。  每個已釘選圖格會顯示從某個資料集建立並釘選到該儀表板的[視覺效果](end-user-visualizations.md)。 圖格也可以包含整份報表頁面，而且可以包含即時串流資料或影片。 「設計工具」有許多方法可將圖格新增至儀表板中；本概觀主題無法全部涵蓋。 若要深入了解，請參閱 [Power BI 的儀表板磚](end-user-tiles.md). 
+圖格是視覺效果的呈現，例如，「設計工具」可將其從報表「釘選」到儀表板。  每個已釘選圖格會顯示從某個資料集建立並釘選到該儀表板的[視覺效果](end-user-visualizations.md)。 圖格也可以包含整份報表頁面，而且可以包含即時串流資料或影片。 「設計工具」有許多方法可將圖格新增至儀表板中；本概觀主題無法全部涵蓋。 若要深入了解，請參閱 [Power BI 的儀表板圖格](end-user-tiles.md)。 
 
 從取用者的角度來看，無法編輯儀表板。 不過，您可以新增註解、檢視相關資料、將它設為我的最愛、訂閱等。 
 
-儀表板的一些用途為何？  以下只列出幾項：
+儀表板的一些用途為何？  以下只列出幾個：
 
 * 所有必要的資訊一目了然，以利做出決策
 * 監視最重要的業務相關資訊
@@ -144,20 +145,20 @@ ________________________________________________
 * 可顯示許多不同報表的視覺效果
 * 可以顯示從其他工具 (例如 Excel) 釘選的視覺效果
   
-  ![](media/end-user-basic-concepts/drawing1.png)
+  ![針對儀表板繪製的關聯性](media/end-user-basic-concepts/drawing1.png)
 
 ________________________________________________
 
 ## <a name="apps"></a>應用程式
 這些儀表板和報表的集合會將相關內容一起組織成單一套件。 Power BI 的「設計工具」可建置它們，並將其與個人、群組、整個組織或大眾共用。 身為取用者，您可以確信您和您的同事正在使用相同的資料；這是事實的單一受信任版本。 
 
-![](media/end-user-basic-concepts/power-bi-app.png)
+![在左瀏覽窗格中已選取 [應用程式]](media/end-user-basic-concepts/power-bi-app.png)
 
 在 Power BI 服務 (https://powerbi.com) 和行動裝置中，可輕鬆找到並安裝應用程式。 安裝完應用程式之後，因為所有儀表板都會集中在一個應用程式、瀏覽器或在行動裝置中，所以您不必記住許多不同儀表板的名稱。 
 
 此應用程式有三個相關的儀表板和三個相關的報表，這些項目會構成單一應用程式。
 
-![](media/end-user-basic-concepts/power-bi-app-list.png)
+![所選取之應用程式的相關內容](media/end-user-basic-concepts/power-bi-app-list.png)
 
 透過應用程式，每當應用程式作者發行更新時，您就會自動看到變更。 作者也會控制資料重新整理的排程頻率，因此您無須擔心如何將其保持在最新狀態。
 
@@ -165,7 +166,7 @@ ________________________________________________
 
 應用程式安裝之後，只需從您的應用程式清單中選取它，並選取要先開啟及瀏覽的儀表板或報表。   
 
-我希望本文可讓您了解針對取用者構成 Power BI 服務的建置組塊。 
+我希望此文章可讓您了解針對取用者構成 Power BI 服務的建置組塊。 
 
 ## <a name="next-steps"></a>後續步驟
 - 檢閱[字彙](end-user-glossary.md)並加入書籤    

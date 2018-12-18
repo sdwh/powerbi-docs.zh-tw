@@ -5,25 +5,25 @@ services: powerbi
 documentationcenter: ''
 author: mihart
 manager: kvivek
-backup: ''
+ms.custom: seodec18
 editor: ''
 tags: ''
 ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/17/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 1da43fb6bc0604cfa356f19aa212256612350c65
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396512"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280113"
 ---
 <!-- once the sample aps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>快速入門：了解適用於***取用者***的 Power BI 功能
-在此快速入門中，您會了解如何與 Power BI 互動，探索資料驅動商務見解。 本文不適合用於深入了解，而是快速探索 Power BI **取用者**可用的許多動作。
+在此快速入門中，您會了解如何與 Power BI 互動，探索資料驅動商務見解。 此文章不適合用於深入了解，而是快速探索 Power BI **取用者**可用的許多動作。
 
 如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
 
@@ -33,7 +33,7 @@ ms.locfileid: "49396512"
 ## <a name="reading-view"></a>閱讀檢視
 閱讀檢視可讓報表取用者在 Power BI 服務中使用。 當同事與您共用報表時，閱讀檢視是您探索和與報表互動的方式。 
 
-另一項 Power BI 服務報表模式為[編輯檢視](../service-interact-with-a-report-in-editing-view.md)，可供報表設計師使用。  
+另一個 Power BI 服務報表模式為[編輯檢視](../service-interact-with-a-report-in-editing-view.md)，可供報表設計師使用。  
 
 探索儀表板與報表最有效及最安全的方法，就是閱讀檢視。 當您切割與您共用的儀表板和報表時，基礎資料集仍會保留完整而不會受到任何變更。 
 
@@ -46,7 +46,7 @@ Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處�
 1. 選取 [應用程式] ![在左側功能窗格中的應用程式](./media/end-user-apps/power-bi-apps-bar.png) > [取得應用程式]。 
    
      ![取得應用程式圖示](./media/end-user-reading-view/power-bi-get-app.png)
-2. 在 AppSource 的 [我的組織] 下方，您可以進行搜尋以縮小結果範圍，並找到您在尋找的應用程式。
+2. 在 AppSource 的 [我的組織] 下方搜尋以縮小結果範圍，並找到您在尋找的應用程式。
    
      ![在 AppSource 的 [我的組織] 下](./media/end-user-reading-view/power-bi-appsource.png)
 3. 選取 [立即取得]，將它新增至 [應用程式] 容器。 
@@ -56,7 +56,7 @@ Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處�
 
 ![儀表板](media/end-user-reading-view/power-bi-dashboard.png)
 
-您在儀表板上看到的視覺效果稱為「磚」，從報表「釘選」在儀表板上。
+您在儀表板上看到的視覺效果稱為「圖格」，從報表「釘選」在儀表板上。
 
 ### <a name="subscribe-to-a-dashboard-or-report"></a>訂閱儀表板 (或報表)
 您無須開啟 Power BI 也能監視儀表板。  您可以改為訂閱，使 Power BI 根據您設定的排程透過電子郵件寄送該儀表板的快照集給您。 
@@ -68,7 +68,7 @@ Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處�
    
    ![訂閱圖示](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-3. 使用黃色的滑桿開啟和關閉訂閱。  您可以選擇性地新增電子郵件訊息的詳細資料。 
+3. 使用黃色的滑桿開啟和關閉訂閱。  您可以選擇新增電子郵件訊息的詳細資料。 
 
     在下方的螢幕擷取畫面中，您可以注意到當您在訂閱報表時，實際上是在訂閱報表「頁面」。  若要訂閱報表中的多個頁面，請選取 [新增另一個訂閱] 再選取其他頁面。 
       
@@ -100,13 +100,13 @@ Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處�
 ### <a name="open-and-view-a-report-and-report-pages"></a>開啟和檢視報表及報表頁面
 報表是一或多個頁面的視覺效果。 Power BI 的報表設計工具會建立報表並[直接與取用者共用](end-user-shared-with-me.md)，或作為[應用程式](end-user-apps.md)的一部分。 
 
-您可以從儀表板開啟報表。 大部分的儀表板磚都已從報表釘選。 選取磚時，便會開啟用來建立磚的報表。 
+您可以從儀表板開啟報表。 大部分的儀表板圖格從報表「釘選」。 選取圖格會開啟用來建立圖格的報表。 
 
-1. 從儀表板選取磚。 在此範例中，我們已選取 [收入] 直條圖磚。
+1. 從儀表板選取圖格。 在此範例中，我們已選取 [收入] 直條圖圖格。
 
-    ![已選取磚的儀表板](./media/end-user-reading-view/power-bi-dashboard2.png)
+    ![已選取圖格的儀表板](./media/end-user-reading-view/power-bi-dashboard2.png)
 
-2.  隨即開啟相關聯的報表。 請注意，我們在 [收入概觀] 頁面上。 此報表頁面包含我們從儀表板選取的直條圖。
+2.  相關的報表隨即開啟。 請注意，我們在 [收入概觀] 頁面上。 此報表頁面包含我們從儀表板選取的直條圖。
 
     ![在 [閱讀檢視] 中開啟報表](./media/end-user-reading-view/power-bi-report-opens.png)
 
@@ -175,7 +175,7 @@ Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處�
 
 ![焦點模式](media/end-user-reading-view/powerbi-focus-mode.png)
 
-若要顯示該相同視覺效果，而不受功能表列、篩選窗格和其他 Chrome 的干擾，請從頂端功能表列，選取**全螢幕**圖示 ![](media/end-user-reading-view/power-bi-focus-icon.png)。
+若要顯示該相同視覺效果，而不受功能表列、篩選窗格和其他組件區塊的干擾，請從頂端功能表列，選取**全螢幕**圖示 ![全螢幕圖示](media/end-user-reading-view/power-bi-focus-icon.png)。
 
 ![全螢幕模式](media/end-user-reading-view/power-bi-full-screen.png)
 

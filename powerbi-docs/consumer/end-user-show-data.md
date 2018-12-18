@@ -1,21 +1,22 @@
 ---
-title: 顯示用於建立 Power BI 視覺效果的資料
-description: 本文件說明 Power BI 取用者可以如何「看見」用於建立視覺效果的資料。
+title: 顯示用於建立視覺效果的資料
+description: 此文件件說明 Power BI 取用者可以如何「看見」用於建立視覺效果的資料。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58251ffa31dcac17f83c8b4ab3962b7df4b87f84
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 4a3acd0d95b400a15348b896f150b74f01f5ce03
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396374"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279377"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>顯示用於建立視覺效果的資料
 ## <a name="show-data"></a>顯示資料
@@ -31,7 +32,7 @@ Power BI 視覺效果是使用基礎資料集中的資料所建構。 如果您�
    
    ![視覺效果與資料垂直顯示](./media/end-user-show-data/power-bi-explore-show-data-new.png)
 
-4. 若要變更方向，請從視覺效果右上角選取垂直版面配置 ![](media/end-user-show-data/power-bi-vertical-icon-new.png)。
+4. 若要變更方向，請從視覺效果的右上角，選取垂直版面配置 ![版面配置圖示](media/end-user-show-data/power-bi-vertical-icon-new.png) 。
    
    ![視覺效果與資料水平顯示](./media/end-user-show-data/power-bi-explore-show-data2-new.png)
 
