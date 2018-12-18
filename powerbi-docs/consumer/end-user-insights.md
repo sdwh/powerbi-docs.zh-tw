@@ -1,24 +1,25 @@
 ---
-title: 使用 Power BI 自動產生資料的深入解析
-description: 了解如何取得資料集和儀表板磚的深入解析。
+title: 在儀表板圖格上執行及檢視見解
+description: 以 Power BI 使用者角色了解如何取得和儀表板圖格有關的見解。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f68e962eacf04005d83ec0def10cf8e0e24f6e10
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112030"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180522"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>使用 Power BI 自動產生資料的深入解析
+# <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>使用 Power BI 在儀表板圖格上檢視資料見解
 儀表板上的每個視覺效果磚都是資料探索的入口。 當您選取磚時，磚會開啟報表，您可以在其中篩選和排序報表後方的資料集，並深入挖掘。 當您執行見解時，Power BI 會為您探索資料。
 
 您可以執行快速深入剖析，根據資料產生相關的互動式視覺效果。 您可對特定的儀表板磚執行快速見解，甚至可以對見解執行見解！
@@ -40,7 +41,9 @@ ms.locfileid: "49112030"
 4. 一個深入剖析是否引起您的興趣？ 選取該資訊摘要卡片可挖掘更深入的資料。 選取的資訊摘要會顯示於左側，只以該單一資訊摘要中資料為依據的新資訊摘要卡片則沿著右側顯示。    
 
  ## <a name="interact-with-the-insight-cards"></a>與深入解析卡片互動
-   * 篩選視覺效果。  若要顯示篩選，請選取右上角的箭號來展開 [篩選] 窗格。
+在您開啟見解之後，請繼續探索。
+
+   * 篩選畫布上的視覺效果。  若要顯示篩選，請選取右上角的箭號來展開 [篩選] 窗格。
 
      ![展開 [篩選] 功能表的見解](./media/end-user-insights/power-bi-insights-on-insights.png)
    
