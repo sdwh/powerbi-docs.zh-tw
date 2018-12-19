@@ -96,7 +96,7 @@ Microsoft 可自行斟酌將視覺效果自[認證清單](#list-of-custom-visual
 | [Drilldown Cartogram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381045) (向下切入面積變量圖) | |
 | [Drilldown Choropleth](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381044) (向下切入面量圖) | |
 | [Drill-down column chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380857) (向下鑽研直條圖) | [影片](https://youtu.be/lBy2gQQ5YsQ) |
-| [Drill-down column chart for time based data](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881) (時間型資料向下切入直條圖) | [影片](https://youtu.be/T_mRou18vx0) |
+| [時間型資料向下切入直條圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881) | [影片](https://youtu.be/T_mRou18vx0) |
 | [Drill-down donut chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380858) (向下切入環圈圖) | [影片](https://youtu.be/AUVFrSHmPeo) |
 | [雙重 KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380774) | |
 | [MAQ 軟體的動態工具提示](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380983) | [影片](https://youtu.be/Z-tl97BpEr0) |
