@@ -114,7 +114,7 @@ Power BI Embedded 是一組可供開發人員用來在平台即服務供應項�
 
 您可以使用 PBI 入口網站了解您的 PBI 租用戶區域。
 
-https://app.powerbi.com/ > ? > 關於 Power BI
+[https://app.powerbi.com/](https://app.powerbi.com/) > ? > 關於 Power BI
 
 ![關於 Power BI](media/embedded-faq/about-01.png)
 ![租用戶區域](media/embedded-faq/tenant-location-01.png)
