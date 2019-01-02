@@ -6,7 +6,7 @@
 | Analysis Services 多維度 |是 |是 |
 | 檔案 |否 |是 |
 | 資料夾 |否 |是 |
-| IBM DB2 |否 |是 |
+| IBM DB2 |是 |是 |
 | IBM Informix 資料庫 |否 |是 |
 | IBM Netezza |是 |是 |
 | Impala |是 |是 |

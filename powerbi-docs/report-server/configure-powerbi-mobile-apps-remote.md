@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 11/15/2018
 ms.author: maggies
 ms.openlocfilehash: 740c012d83f9ca70f6e909b8cf62714f67c123d4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268312"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451367"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>從遠端設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取
 
@@ -33,12 +33,12 @@ ms.locfileid: "52268312"
 
 下表提供各組的詳細說明。
 
-|金鑰  |類型  |描述  |
+|索引鍵  |類型  |描述  |
 |---------|---------|---------|
 | com.microsoft.powerbi.mobile.ServerURL | 字串 | 報表伺服器 URL </br> 開頭應為 http/https |
 | com.microsoft.powerbi.mobile.ServerUsername | 字串 | [選擇性] </br> 用於與伺服器連線的使用者名稱。 </br> 若沒有此名稱，應用程式會提示使用者鍵入用於連線的使用者名稱。| 
 | com.microsoft.powerbi.mobile.ServerDisplayName | 字串 | [選擇性] </br> 預設值為「報表伺服器」 </br> 應用程式中用來代表伺服器的易記名稱 | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | 預設值為 True </br>當其設定為 "True" 時，會覆寫已在行動裝置中的所有報表伺服器定義。 將會刪除已設定的現有伺服器。 </br> Override 設為 True 也會讓使用者無法移除該組態。 </br> 設為 “False” 則會新增推送的值，保留任何現有設定。 </br> 如果在行動裝置應用程式中已設定了相同的伺服器 URL，應用程式就會脫離該設定的原狀。 應用程式不會要求使用者重新驗證相同的伺服器。 |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | 布林值 | 預設值為 True </br>當其設定為 "True" 時，會覆寫已在行動裝置中的所有報表伺服器定義。 將會刪除已設定的現有伺服器。 </br> Override 設為 True 也會讓使用者無法移除該組態。 </br> 設為 “False” 則會新增推送的值，保留任何現有設定。 </br> 如果在行動裝置應用程式中已設定了相同的伺服器 URL，應用程式就會脫離該設定的原狀。 應用程式不會要求使用者重新驗證相同的伺服器。 |
 
 以下是使用 Intune 設定設定原則的範例。
 

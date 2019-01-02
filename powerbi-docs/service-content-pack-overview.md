@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 11/20/2018
 ms.author: maggies
 ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289189"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451344"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Power BI 服務內容套件計劃概觀
 內容套件是一組全新內容，可讓使用者立即從來源取得深入剖析資訊。 內容套件通常著重於可提供角色、網域或工作流程深入剖析資訊的特定商務案例。

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/21/2018
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: cbfee8034639a65517f9adc57cc95dd1271e6044
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: ea26ba39a9ec06b79330719afd4fb3b3a572d912
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025434"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301796"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium 是什麼？
 
@@ -71,14 +71,14 @@ Power BI Premium 適用於有不同 v 核心容量的節點設定。 如需特�
 >[!NOTE]
 >只有對於角色為 Office 365 全域系統管理員的使用者，資料表中的連結才能正常運作。 其他人會收到 404 錯誤。
 
-| 節點容量 | V 核心總數<br/>(後端 + 前端) | 後端 V 核心 | 前端 V 核心 | DirectQuery/即時連線限制 | 尖峰時間的頁面呈現上限 | 可用性 |
+| 節點容量 | V 核心總數<br/>(後端 + 前端) | 後端 V 核心 | 前端 V 核心 | DirectQuery/即時連線限制 | 可用性 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [EM1 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 個 V 核心 |0.5 個 V 核心，2.5 GB RAM |0.5 個 V 核心 |每秒 3.75 個 |150-300 |可用 |
-| [EM2 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 個 v 核心 |1 個 V 核心，5 GB RAM |1 個 V 核心 |每秒 7.5 個 |301-600 |可用 |
-| [EM3 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 個 v 核心 |2 個 V 核心，10 GB RAM |2 個 v 核心 | |601-1,200 |可用 |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 個 v 核心 |4 個 V 核心，25 GB RAM |4 個 v 核心 |每秒 30 個 |1,201-2,400 |可用 (也提供[逐月](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)) |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 個 v 核心 |8 個 V 核心，50 GB RAM |8 個 v 核心 |每秒 60 個 |2,401-4,800 |可用 |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 個 v 核心 |16 個 V 核心，100 GB RAM |16 個 v 核心 |每秒 120 個 |4,801-9600 |可用 |
+| [EM1 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 個 V 核心 |0.5 個 V 核心，2.5 GB RAM |0.5 個 V 核心 |每秒 3.75 個 |可用 |
+| [EM2 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 個 v 核心 |1 個 V 核心，5 GB RAM |1 個 V 核心 |每秒 7.5 個 |可用 |
+| [EM3 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 個 v 核心 |2 個 V 核心，10 GB RAM |2 個 v 核心 | |可用 |
+| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 個 v 核心 |4 個 V 核心，25 GB RAM |4 個 v 核心 |每秒 30 個 |可用 (也提供[逐月](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)) |
+| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 個 v 核心 |8 個 V 核心，50 GB RAM |8 個 v 核心 |每秒 60 個 |可用 |
+| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 個 v 核心 |16 個 V 核心，100 GB RAM |16 個 v 核心 |每秒 120 個 |可用 |
 | | | | | | | |
 
 * 前端 V 核心負責 Web 服務、儀表板和報表文件管理、存取權限管理、排程、API、上傳和下載，大致上就是與使用者體驗有關的一切作業。
