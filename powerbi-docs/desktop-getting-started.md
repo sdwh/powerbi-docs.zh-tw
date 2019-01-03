@@ -148,7 +148,7 @@ Power BI Desktop 中的查詢編輯器能夠充分利用右鍵功能表，也會
 
 * *變更資料表名稱* – 「資料表 0」  不是有用的描述元，但變更它很簡單
 
-每個步驟於**[在 Power BI Desktop 中成形及合併資料](desktop-shape-and-combine-data.md)** 中都有示範。 歡迎參閱該頁面，或繼續閱讀這份文件，了解您接下來要做什麼。 下一節會在套用上述變更之後繼續。
+每個步驟於 **[在 Power BI Desktop 中成形及合併資料](desktop-shape-and-combine-data.md)** 中都有示範。 歡迎參閱該頁面，或繼續閱讀這份文件，了解您接下來要做什麼。 下一節會在套用上述變更之後繼續。
 
 ## <a name="combine-data"></a>合併資料
 有關各州的那份資料很有趣，而且適用於建立額外的分析工作和查詢。 但是有一個問題：大多數資料使用兩個字母的縮寫州名代碼，而不是該州的完整名稱。 我們需要某種方式來建立州名及其縮寫的關聯。
@@ -161,7 +161,7 @@ Power BI Desktop 中的查詢編輯器能夠充分利用右鍵功能表，也會
 
  ![](media/desktop-getting-started/designer_gsg_usstateabbreviationsnavigator.png)
 
-我們選取 [資料表 [編輯]]，因為其中包含我們要的資料，但仍需要進行相當多的成形，以便削減資料表的資料。 每個步驟於**[在 Power BI Desktop 中成形及合併資料](desktop-shape-and-combine-data.md)** 中也有示範。 總結那些步驟，以下是我們做的事：
+我們選取 [資料表 [編輯]]，因為其中包含我們要的資料，但仍需要進行相當多的成形，以便削減資料表的資料。 每個步驟於 **[在 Power BI Desktop 中成形及合併資料](desktop-shape-and-combine-data.md)** 中也有示範。 總結那些步驟，以下是我們做的事：
 
 我們選取 [編輯] ，然後：
 
