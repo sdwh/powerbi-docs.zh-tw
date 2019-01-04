@@ -108,7 +108,7 @@ items:
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: 自訂視覺化標題、背景和圖例
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
-    - name: 自訂視覺效果疑難排解
+    - name: 對自訂視覺效果進行疑難排解
       href: power-bi-custom-visuals-troubleshoot.md
     - name: 連接到資料
       items:
@@ -252,6 +252,8 @@ items:
         href: desktop-r-powered-custom-visuals.md
       - name: 使用格線與貼齊隔線
         href: desktop-gridlines-snap-to-grid.md
+      - name: Power BI 報表的頁面顯示設定
+        href: power-bi-report-display-settings.md
       - name: 從範例新增資料行
         href: desktop-add-column-from-example.md
       - name: 新增自訂資料行
@@ -282,12 +284,16 @@ items:
         href: desktop-tips-and-tricks-for-creating-reports.md
     - name: 視覺效果
       items:
+      - name: Power BI 中的視覺效果
+        href: visuals/power-bi-report-visualizations.md
       - name: 視覺效果最佳做法
         href: visuals/power-bi-visualization-best-practices.md
       - name: 變更報告中的視覺效果類型
         href: visuals/power-bi-report-change-visualization-type.md
       - name: 取決於視覺效果類型的資料點限制
         href: visuals/power-bi-data-points.md
+      - name: 顯示用來建立視覺效果的資料
+        href: visuals/service-reports-show-data.md
       - name: 開始使用色彩格式和軸屬性
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
       - name: 設定色彩格式的祕訣和訣竅
@@ -386,6 +392,8 @@ items:
     items:
     - name: Power BI 是什麼？
       href: power-bi-overview.md
+    - name: Power BI Desktop 與服務的比較
+      href: service-service-vs-desktop.md
   - name: 教學課程
     items:
     - name: 開始使用 Power BI
@@ -396,164 +404,56 @@ items:
     items:
     - name: Power BI 服務的新功能
       href: service-whats-new.md
-    - name: 設計工具的基本概念
-      href: service-basic-concepts.md
-    - name: 10 個祕訣協助您取得說明
-      href: service-tips-for-finding-help.md
+    - name: 基本概念
+      items:
+      - name: 設計工具的基本概念
+        href: service-basic-concepts.md
+      - name: Power BI 中的資料種類
+        href: service-get-data.md
+      - name: 報表編輯器導覽
+        href: service-the-report-editor-take-a-tour.md
+      - name: 安排您的工作
+        href: service-new-workspaces.md
+    - name: Power BI 中的工作流程
+      items:
+      - name: 共用成品的方式
+        href: service-how-to-collaborate-distribute-dashboards-reports.md
+      - name: 讓資料保持在最新狀態
+        href: refresh-data.md
+      - name: 監視使用方式
+        href: service-usage-metrics.md
     - name: 授權
       items:
       - name: 自助式註冊
         href: service-self-service-signup-for-power-bi.md
+      - name: 組織中的授權
+        href: service-admin-licensing-organization.md
       - name: 依授權類型排列的功能
         href: service-features-license-type.md
-      - name: 延長的 Pro 試用開跑
-        href: service-extended-pro-trial.md
-      - name: 美國政府適用的 Power BI
-        href: service-govus-overview.md
-      - name: 德國雲端客戶的常見問題集
-        href: service-govde-faq.md
-    - name: 資料
+    - name: 其他概念
       items:
-      - name: Power BI 的資料來源
-        href: service-get-data.md
-      - name: 從檔案取得資料
-        href: service-get-data-from-files.md
-      - name: 彙總 (加總、平均、最大值等)
-        href: service-aggregates.md
-      - name: Power BI 的資料重新整理
-        href: refresh-data.md
-      - name: Azure 和 Power BI
-        href: service-azure-and-power-bi.md
-      - name: Power BI 與 Azure 輸出
-        href: service-azure-egress-power-bi.md
-    - name: 報表設計
-      items:
-      - name: 報表編輯器...導覽
-        href: service-the-report-editor-take-a-tour.md
-      - name: Power BI 中的視覺效果
-        href: visuals/power-bi-report-visualizations.md
-      - name: 報表中篩選及醒目提示的介紹
-        href: power-bi-reports-filters-and-highlighting.md
-      - name: Power BI 報表的頁面顯示設定
-        href: power-bi-report-display-settings.md
-      - name: 適用於 Power BI 的 Cortana 簡介
-        href: service-cortana-intro.md
-    - name: 其他
-      items:
-      - name: Microsoft Flow 和 Power BI
-        href: service-flow-integration.md
-      - name: 開始使用協力廠商應用程式
-        href: service-power-bi-get-started-third-party-apps.md
+      - name: 10 個祕訣協助您取得說明
+        href: service-tips-for-finding-help.md
+      - name: 授權特殊案例
+        items:
+        - name: 延長的 Pro 試用開跑
+          href: service-extended-pro-trial.md
+        - name: 美國政府適用的 Power BI
+          href: service-govus-overview.md
+        - name: 德國雲端客戶的常見問題集
+          href: service-govde-faq.md
+      - name: 其他
+        items:
+        - name: Microsoft Flow 和 Power BI
+          href: service-flow-integration.md
+        - name: 開始使用協力廠商應用程式
+          href: service-power-bi-get-started-third-party-apps.md
   - name: 如何
     items:
-    - name: 連接至服務
+    - name: 從檔案取得資料
       items:
-      - name: 連接至服務
-        href: service-connect-to-services.md
-      - name: Acumatica
-        href: service-connect-to-acumatica.md
-      - name: Adobe Analytics
-        href: service-connect-to-adobe-analytics.md
-      - name: Alpine Metrics 銷售預測
-        href: service-connect-to-alpine-metrics.md
-      - name: appFigures
-        href: service-connect-to-appfigures.md
-      - name: Application Insights
-        href: service-connect-to-application-insights.md
-      - name: AT Internet Bridge
-        href: service-connect-to-at-internet.md
-      - name: Azure 稽核記錄
-        href: service-connect-to-azure-audit-logs.md
-      - name: Azure Mobile Engagement
-        href: service-connect-to-azure-mobile.md
-      - name: Microsoft Azure 使用量見解
-        href: service-connect-to-azure-consumption-insights.md
-      - name: Azure 搜尋服務
-        href: service-connect-to-azure-search.md
-      - name: Circuit ID
-        href: service-connect-to-circuit-id.md
-      - name: ClickDimensions
-        href: service-connect-to-clickdimensions.md
-      - name: comScore Digital Analytix
-        href: service-connect-to-connect-to.md
-      - name: GitHub
-        href: service-connect-to-github.md
-      - name: Google Analytics (分析)
-        href: service-connect-to-google-analytics.md
-      - name: Insightly
-        href: service-connect-to-insightly.md
-      - name: IntelliBoard
-        href: service-connect-to-intelliboard.md
-      - name: Lithium
-        href: service-connect-to-lithium.md
-      - name: MailChimp
-        href: service-connect-to-mailchimp.md
-      - name: Mandrill
-        href: service-connect-to-mandrill.md
-      - name: Marketo
-        href: service-connect-to-marketo.md
-      - name: Microsoft Azure 企業版
-        href: service-connect-to-azure-enterprise.md
-      - name: Microsoft Dynamics AX
-        href: service-connect-to-microsoft-dynamics-ax.md
-      - name: Microsoft Dynamics CRM
-        href: service-connect-to-microsoft-dynamics-crm.md
-      - name: Microsoft Dynamics NAV
-        href: service-connect-to-microsoft-dynamics-nav.md
-      - name: Office365Mon
-        href: service-connect-to-office365mon.md
-      - name: Planview Enterprise
-        href: service-connect-to-planview.md
-      - name: Prevedere
-        href: service-connect-to-prevedere.md
-      - name: Project Online
-        href: service-connect-to-project-online.md
-      - name: Projectplace
-        href: service-connect-to-projectplace.md
-      - name: QuickBooks Online
-        href: service-connect-to-quickbooks-online.md
-      - name: Salesforce
-        href: service-connect-to-salesforce.md
-      - name: SendGrid
-        href: service-connect-to-sendgrid.md
-      - name: ServiceNow 事件
-        href: service-connect-to-servicenow.md
-      - name: Smartsheet
-        href: service-connect-to-smartsheet.md
-      - name: SparkPost
-        href: service-connect-to-sparkpost.md
-      - name: SQL Database 稽核
-        href: service-connect-to-azure-sql-database-auditing.md
-      - name: SQL Sentry
-        href: service-connect-to-sql-sentry.md
-      - name: 帶狀線
-        href: service-connect-to-stripe.md
-      - name: SweetIQ
-        href: service-connect-to-sweetiq.md
-      - name: Troux
-        href: service-connect-to-troux.md
-      - name: Twilio
-        href: service-connect-to-twilio.md
-      - name: tyGraph
-        href: service-connect-to-tygraph.md
-      - name: UserVoice
-        href: service-connect-to-uservoice.md
-      - name: VMob
-        href: service-connect-to-vmob.md
-      - name: Webtrends
-        href: service-connect-to-webtrends.md
-      - name: Windows 開發人員中心
-        href: service-connect-to-windows-dev-center.md
-      - name: Xero
-        href: service-connect-to-xero.md
-      - name: Zendesk
-        href: service-connect-to-zendesk.md
-      - name: Ziosk
-        href: service-connect-to-ziosk.md
-      - name: Zuora
-        href: service-connect-to-zuora.md
-    - name: 檔案的資料
-      items:
+      - name: 從檔案取得資料
+        href: service-get-data-from-files.md
       - name: 從 Excel 到精彩的報表
         href: service-from-excel-to-stunning-report.md
       - name: 從 Excel 活頁簿檔案取得資料
@@ -566,12 +466,16 @@ items:
         href: service-comma-separated-value-files.md
       - name: Power BI 中的即時串流
         href: service-real-time-streaming.md
-      - name: 從 Excel 2016 發佈至 Power BI
+      - name: 從 Excel 發佈至 Power BI
         href: service-publish-from-excel.md
       - name: 縮減 Excel 活頁簿大小
         href: reduce-the-size-of-an-excel-workbook.md
-    - name: 資料庫的資料
+    - name: 從資料庫取得資料
       items:
+      - name: Azure 和 Power BI
+        href: service-azure-and-power-bi.md
+      - name: Power BI 與 Azure 輸出
+        href: service-azure-egress-power-bi.md
       - name: 具有 DirectQuery 的 Azure SQL 資料倉儲
         href: service-azure-sql-data-warehouse-with-direct-connect.md
       - name: 具有 DirectQuery 的 Azure SQL Database
@@ -580,7 +484,7 @@ items:
         href: spark-on-hdinsight-with-direct-connect.md
       - name: Power BI 中的 SQL Server Analysis Services 即時資料
         href: sql-server-analysis-services-tabular-data.md
-    - name: 資料重新整理
+    - name: 重新整理資料
       items:
       - name: 設定排程的重新整理
         href: refresh-scheduled-refresh.md
@@ -618,8 +522,6 @@ items:
         href: service-dashboard-pin-live-tile-from-report.md
       - name: Power BI 服務中的資料警示
         href: service-set-data-alerts.md
-      - name: 儀表板的使用計量
-        href: service-usage-metrics.md
       - name: 將影像、文字方塊、影片或程式碼新增至儀表板
         href: service-dashboard-add-widget.md
       - name: 編輯磚
@@ -640,6 +542,8 @@ items:
       items:
       - name: 從資料集建立報表
         href: service-report-create-new.md
+      - name: 報表中篩選及醒目提示的介紹
+        href: power-bi-reports-filters-and-highlighting.md
       - name: 新增報表篩選
         href: power-bi-report-add-filter.md
       - name: 將報表儲存在 Power BI
@@ -650,6 +554,8 @@ items:
         href: service-analyze-in-excel.md
       - name: 建立報表的祕訣和訣竅
         href: power-bi-reports-tips-and-tricks-for-creating.md
+      - name: 在服務中進行彙總
+        href: service-aggregates.md
       - name: 報表的使用計量
         href: service-usage-metrics.md
       - name: 建立報表的 QR 代碼
@@ -674,18 +580,16 @@ items:
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
       - name: 透過即時連線使用問與答
         href: service-q-and-a-direct-query.md
+      - name: 適用於 Power BI 的 Cortana 簡介
+        href: service-cortana-intro.md
       - name: 啟用適用於 Power BI 的 Cortana
         href: service-cortana-enable.md
       - name: Power BI 的快速深入剖析
         href: service-insights.md
       - name: 針對快速見解將資料最佳化
         href: service-insights-optimize.md
-    - name: 分享您的成果
+    - name: 在 Power BI 中共同作業
       items:
-      - name: 如何共同作業及共用？
-        href: service-how-to-collaborate-distribute-dashboards-reports.md
-      - name: 共用儀表板和報表
-        href: service-share-dashboards.md
       - name: 建立及共用應用程式
         href: service-create-distribute-apps.md
       - name: 建立應用程式工作區
@@ -694,22 +598,24 @@ items:
         href: service-create-the-new-workspaces.md
       - name: 管理工作區中的資料儲存體
         href: service-admin-manage-your-data-storage-in-power-bi.md
-      - name: 共用篩選過的報表
-        href: service-share-reports.md
-      - name: 從 Power BI 發佈至網路
-        href: service-publish-to-web.md
-      - name: 在 SharePoint Online 內嵌報表
-        href: service-embed-report-spo.md
       - name: 連線到群組 OneDrive 上的檔案
         href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
       - name: 在群組工作區共同作業
         href: service-collaborate-power-bi-workspace.md
       - name: 管理 Power BI 和 Office 365 中的群組
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
+    - name: 發佈及共用您的成品
+      items:
+      - name: 共用儀表板和報表
+        href: service-share-dashboards.md
+      - name: 共用篩選過的報表
+        href: service-share-reports.md
+      - name: 從 Power BI 發佈至網路
+        href: service-publish-to-web.md
+      - name: 在 SharePoint Online 內嵌報表
+        href: service-embed-report-spo.md
       - name: 在 OneDrive 上共用連結至 Excel 活頁簿的儀表板
         href: service-share-dashboard-that-links-to-excel-onedrive.md
-    - name: 發行
-      items:
       - name: Power BI Publisher for Excel
         href: publisher-for-excel.md
     - name: 疑難排解
@@ -750,6 +656,8 @@ items:
         href: service-dataflows-create-use.md
       - name: 使用 Power BI Premium 的計算實體 (預覽)
         href: service-dataflows-computed-entities-premium.md
+      - name: 透過資料流程連線到資料來源 (預覽)
+        href: service-dataflows-data-sources.md
       - name: 搭配內部部署資料來源使用資料流程 (預覽)
         href: service-dataflows-on-premises-gateways.md
       - name: 在資料流程之間連結實體 (預覽)
@@ -800,7 +708,113 @@ items:
         href: service-govus-signup.md
       - name: 刪除 Power BI 中的大部分項目
         href: service-delete.md
-      - name: 內容套件
+      - name: 連接至服務
+        items:
+        - name: 連接至服務
+          href: service-connect-to-services.md
+        - name: Acumatica
+          href: service-connect-to-acumatica.md
+        - name: Adobe Analytics
+          href: service-connect-to-adobe-analytics.md
+        - name: Alpine Metrics 銷售預測
+          href: service-connect-to-alpine-metrics.md
+        - name: appFigures
+          href: service-connect-to-appfigures.md
+        - name: Application Insights
+          href: service-connect-to-application-insights.md
+        - name: AT Internet Bridge
+          href: service-connect-to-at-internet.md
+        - name: Azure 稽核記錄
+          href: service-connect-to-azure-audit-logs.md
+        - name: Azure Mobile Engagement
+          href: service-connect-to-azure-mobile.md
+        - name: Microsoft Azure 使用量見解
+          href: service-connect-to-azure-consumption-insights.md
+        - name: Azure 搜尋服務
+          href: service-connect-to-azure-search.md
+        - name: Circuit ID
+          href: service-connect-to-circuit-id.md
+        - name: ClickDimensions
+          href: service-connect-to-clickdimensions.md
+        - name: comScore Digital Analytix
+          href: service-connect-to-connect-to.md
+        - name: GitHub
+          href: service-connect-to-github.md
+        - name: Google Analytics (分析)
+          href: service-connect-to-google-analytics.md
+        - name: Insightly
+          href: service-connect-to-insightly.md
+        - name: IntelliBoard
+          href: service-connect-to-intelliboard.md
+        - name: Lithium
+          href: service-connect-to-lithium.md
+        - name: MailChimp
+          href: service-connect-to-mailchimp.md
+        - name: Mandrill
+          href: service-connect-to-mandrill.md
+        - name: Marketo
+          href: service-connect-to-marketo.md
+        - name: Microsoft Azure 企業版
+          href: service-connect-to-azure-enterprise.md
+        - name: Microsoft Dynamics AX
+          href: service-connect-to-microsoft-dynamics-ax.md
+        - name: Microsoft Dynamics CRM
+          href: service-connect-to-microsoft-dynamics-crm.md
+        - name: Microsoft Dynamics NAV
+          href: service-connect-to-microsoft-dynamics-nav.md
+        - name: Office365Mon
+          href: service-connect-to-office365mon.md
+        - name: Planview Enterprise
+          href: service-connect-to-planview.md
+        - name: Prevedere
+          href: service-connect-to-prevedere.md
+        - name: Project Online
+          href: service-connect-to-project-online.md
+        - name: Projectplace
+          href: service-connect-to-projectplace.md
+        - name: QuickBooks Online
+          href: service-connect-to-quickbooks-online.md
+        - name: Salesforce
+          href: service-connect-to-salesforce.md
+        - name: SendGrid
+          href: service-connect-to-sendgrid.md
+        - name: ServiceNow 事件
+          href: service-connect-to-servicenow.md
+        - name: Smartsheet
+          href: service-connect-to-smartsheet.md
+        - name: SparkPost
+          href: service-connect-to-sparkpost.md
+        - name: SQL Database 稽核
+          href: service-connect-to-azure-sql-database-auditing.md
+        - name: SQL Sentry
+          href: service-connect-to-sql-sentry.md
+        - name: 帶狀線
+          href: service-connect-to-stripe.md
+        - name: SweetIQ
+          href: service-connect-to-sweetiq.md
+        - name: Troux
+          href: service-connect-to-troux.md
+        - name: Twilio
+          href: service-connect-to-twilio.md
+        - name: tyGraph
+          href: service-connect-to-tygraph.md
+        - name: UserVoice
+          href: service-connect-to-uservoice.md
+        - name: VMob
+          href: service-connect-to-vmob.md
+        - name: Webtrends
+          href: service-connect-to-webtrends.md
+        - name: Windows 開發人員中心
+          href: service-connect-to-windows-dev-center.md
+        - name: Xero
+          href: service-connect-to-xero.md
+        - name: Zendesk
+          href: service-connect-to-zendesk.md
+        - name: Ziosk
+          href: service-connect-to-ziosk.md
+        - name: Zuora
+          href: service-connect-to-zuora.md
+      - name: 組織的內容套件
         items:
         - name: 管理、更新和刪除組織內容套件
           href: service-organizational-content-pack-manage-update-delete.md
@@ -812,16 +826,16 @@ items:
           href: service-organizational-content-pack-create-and-publish.md
         - name: 移除與組織內容套件的連接
           href: service-organizational-content-pack-disconnect.md
-        - name: 憑證
-          items:
-          - name: 內容套件認證計劃
-            href: service-content-pack-overview.md
-          - name: 範本內容套件撰寫
-            href: template-content-pack-authoring.md
-          - name: 範本內容套件測試
-            href: template-content-pack-testing.md
-          - name: 範本內容套件體驗
-            href: template-content-pack-experience.md
+      - name: 內容套件認證
+        items:
+        - name: 內容套件認證計劃
+          href: service-content-pack-overview.md
+        - name: 範本內容套件撰寫
+          href: template-content-pack-authoring.md
+        - name: 範本內容套件測試
+          href: template-content-pack-testing.md
+        - name: 範本內容套件體驗
+          href: template-content-pack-experience.md
   - name: 資源
     items:
     - name: 影片
@@ -946,6 +960,8 @@ items:
       items:
       - name: Power BI 視覺效果指南
         href: developer/office-store-in-app-purchase-visual-guidelines.md
+      - name: 自訂視覺效果常見問題集
+        href: power-bi-custom-visuals-faq.md
       - name: 使用功能
         href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/
       - name: 資料檢視對應
@@ -962,6 +978,8 @@ items:
         href: power-bi-custom-visuals-certified.md
       - name: 在 AppSource 上發佈自訂視覺效果
         href: developer/office-store.md
+      - name: 對自訂視覺效果進行疑難排解
+        href: power-bi-custom-visuals-troubleshoot.md
     - name: 參考
       items:
       - name: API
@@ -1218,8 +1236,6 @@ items:
       href: service-admin-faq.md
   - name: 如何
     items:
-    - name: Power BI 管理入口網站
-      href: service-admin-portal.md
     - name: 授權及註冊
       items:
       - name: 為組織獲得授權
@@ -1265,9 +1281,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 8d672463e0f7ce1fb9f9a2fc938ae73cdd492a42
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.openlocfilehash: 8c0c1c309fc1225e3f5f8535bdb8578294c6ba3f
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329801"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983891"
