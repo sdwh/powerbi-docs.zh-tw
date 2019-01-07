@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: e09c08780011ffaac7d37468e6018b079c41c669
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619808"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329732"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
@@ -78,6 +78,7 @@ ms.locfileid: "51619808"
 * Impala
 * Google BigQuery
 * Snowflake
+* Essbase (搶鮮版 (Beta))
 * BI 連接器
 * Exasol
 * Dremio (搶鮮版 (Beta))
@@ -112,7 +113,7 @@ ms.locfileid: "51619808"
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight 互動式查詢
-* Azure 資料總管 (Beta)
+* Azure 資料總管 (搶鮮版 (Beta))
 
 下圖顯示 [Azure]  的 [取得資料] 視窗。
 
@@ -127,34 +128,34 @@ ms.locfileid: "51619808"
 * Microsoft Dynamics 365 Business Central
 * Dynamics 365 Business Central (內部部署)
 * Common Data Service for Apps (搶鮮版 (Beta))
-* Microsoft Azure Consumption Insights (搶鮮版 (Beta))
+* Microsoft Azure 使用量見解 (搶鮮版 (Beta))
 * Azure DevOps (Beta)
 * Azure DevOps Server (Beta)
 * Salesforce 物件
 * Salesforce 報表
 * Google Analytics (分析)
 * Adobe Analytics
-* appFigures (Beta)
+* appFigures (搶鮮版 (Beta))
 * comScore Digital Analytix (Beta)
-* Dynamics 365 for Customer Insights (Beta)
-* Data.World - 取得資料集搶鮮版 (Beta)
+* Dynamics 365 for Customer Insights (搶鮮版 (Beta))
+* Data.World - 取得資料集 (搶鮮版 (Beta))
 * Facebook
 * GitHub (Beta)
 * MailChimp (Beta)
 * Merketo (Beta)
 * Mixpanel (搶鮮版 (Beta))
-* Planview Enterprise One - PRM 搶鮮版 (Beta)
-* Planview Projectplace 搶鮮版 (Beta)
-* QuickBooks Online (Beta)
+* Planview Enterprise One - PRM (搶鮮版 (Beta))
+* Planview Projectplace (搶鮮版 (Beta))
+* QuickBooks Online (搶鮮版 (Beta))
 * Smartsheet
-* SparkPost (Beta)
+* SparkPost (搶鮮版 (Beta))
 * Stripe (搶鮮版 (Beta))
-* SweetIQ (Beta)
-* Planview Enterprise One - CMT 搶鮮版 (Beta)
-* Twilio (Beta)
+* SweetIQ (搶鮮版 (Beta))
+* Planview Enterprise One - CMT (搶鮮版 (Beta))
+* Twilio (搶鮮版 (Beta))
 * tyGraph (Beta)
 * Webtrends (Beta)
-* Zendesk (Beta)
+* Zendesk (搶鮮版 (Beta))
 * TeamDesk (搶鮮版 (Beta))
 
 下圖顯示 [線上服務] 的 [取得資料] 視窗。

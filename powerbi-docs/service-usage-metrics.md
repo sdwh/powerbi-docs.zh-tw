@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1c6c0a803e77ead6d43c23ac2b12b305d5960ef7
-ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
+ms.openlocfilehash: f7aad6b0e3dd38c795d886d1aba26a82a8529c01
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2018
-ms.locfileid: "53111534"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649363"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>儀表板和報表的使用計量
 
@@ -166,7 +166,7 @@ Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供的安
 請務必了解比較使用計量和稽核記錄時，可能產生的差異和其原因。 「稽核記錄」是使用來自 Power BI 服務的資料來收集，而「使用計量」是在用戶端上收集。 因為該差異，稽核記錄中的彙總計數可能和使用計量不一律相符，原因如下列：
 
 * 由於網路連線不一致、廣告封鎖程式或其他可能中斷從用戶端傳送事件的問題，使用計量有時候可能會將活動少算。
-* 如稍早在本文中所述，特定類型的檢視未包含在使用計量中。
+* 如本文稍早所述，特定類型的檢視未包含在使用計量中。
 * 在用戶端重新整理但並不需將要求傳送回 Power BI 服務的情況下，使用計量可能有時會高估活動數目。
 
 

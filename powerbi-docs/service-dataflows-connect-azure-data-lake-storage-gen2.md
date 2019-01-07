@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 58c9d41769179b84d9d7cdc79d02f66bc4c99953
-ms.sourcegitcommit: 76b07d55e85110a6ae8c49e08e80e4fa63826166
+ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2018
-ms.locfileid: "53200641"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649037"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體 (預覽)
 
@@ -76,7 +76,7 @@ ms.locfileid: "53200641"
 
 您必須先建立名為 *powerbi* 的檔案系統，才能將儲存體帳戶新增至 Power BI。 有許多方式可建立這樣的檔案系統，包括使用 Azure Databricks、HDInsight、AZCopy 或 Azure 儲存體總管。 本節示範一個使用 Azure 儲存體總管來建立檔案系統的簡單方式。
 
-此步驟需要您安裝 Azure 儲存體總管。 若要安裝適用於 Windows、Macintosh 或 Linux 的 Azure 儲存體總管，請參閱 [Azure 儲存體總管](https://azure.microsoft.com/features/storage-explorer/)。
+此步驟需要您安裝 Azure 儲存體總管 1.6.1 版或更新版本。 若要安裝適用於 Windows、Macintosh 或 Linux 的 Azure 儲存體總管，請參閱 [Azure 儲存體總管](https://azure.microsoft.com/features/storage-explorer/)。
 
 1. 順利安裝 Azure 儲存體總管之後，在第一次啟動時，系統會顯示 [Microsoft Azure 儲存體總管 - 連線] 視窗。 雖然儲存體總管提供數種連線至儲存體帳戶的方式，但目前針對我們所需的設定只有一種支援的方式。 
 
@@ -108,11 +108,11 @@ ms.locfileid: "53200641"
 
     ![AAD 企業應用程式](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 
-4. 在搜尋列中，輸入 *Power*，就會顯示 Power BI 和 Power Query 應用程式的「物件識別碼」集合。
+4. 在搜尋列中，輸入 *Power*，就會顯示 Power BI 和 Power Query 應用程式的「物件識別碼」集合。 在後續步驟中，您會需要這三個值。  
 
     ![搜尋 Power 應用程式](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. 從您的搜尋結果中選取並複製 Power BI 服務的「物件識別碼」。 請準備好在後續步驟中貼上該值。
+5. 從您的搜尋結果中，選取並複製 Power BI 服務和 Power BI Premium 的「物件識別碼」。 請準備好在後續步驟中貼上這些值。
 
 7. 接著，使用 [Azure 儲存體總管] 來瀏覽至您在上一節中建立的 *powerbi* 檔案系統。 請遵循[使用 Azure 儲存體總管來設定檔案和目錄層級權限](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) \(英文\) 一文之[管理存取權](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)一節中的指示。
 
@@ -120,7 +120,7 @@ ms.locfileid: "53200641"
 
    ![為兩者指派所有三個權限](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. 針對在步驟 5 中所收集的 Power Query 線上物件識別碼，指派您 *powerbi* 檔案系統的 [寫入]、[執行] [存取權] 和 [預設] ACL。
+9. 針對在步驟 4 中所收集的 Power Query 線上物件識別碼，將**寫入**、**執行**權限和預設 ACL 指派給您的 *powerbi* 檔案系統。
 
    ![接著指派 [寫入] 和 [執行]](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
@@ -208,7 +208,7 @@ Power BI Desktop 客戶無法存取儲存在 **Azure Data Lake Storage 帳戶** 
 * [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
 * [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
 
-如需有關 Azure 儲存體的詳細資訊，您可以閱讀這些文章：
+如需 Azure 儲存體的詳細資訊，您可以閱讀這些文章：
 * [Azure 儲存體安全性指南](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：

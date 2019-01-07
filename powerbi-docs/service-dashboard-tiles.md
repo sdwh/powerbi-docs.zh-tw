@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: db6ed98f246eebba55b87fe383ffcab95c22f6dc
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: c4601ea54d2e55e55f0b94f4bd4c69673bb00e53
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180844"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649118"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 設計工具的儀表板磚簡介
 
@@ -90,7 +90,7 @@ ms.locfileid: "53180844"
 
 * 如未儲存建立視覺效果所用的報表，則選取該圖格不會執行任何動作。
 * 如果磚是從 Excel Online 的活頁簿建立，您至少需要該活頁簿的讀取權限。 否則，選取磚並不會在 Excel Online 中開啟活頁簿。
-* 假設您使用 [新增磚] 直接在儀表板上建立磚，並為其設定自訂超連結。 如果是這樣，當您選取標題、子標題或磚時，就會開啟該 URL。 否則，當您選取針對影像、Web 程式碼或文字方塊直接在儀表板上建立的磚時，預設不會有任何反應。
+* 假設您使用 [新增磚] 直接在儀表板上建立磚，並為其設定自訂超連結。 如此一來，在您選取標題、子標題或磚時，就會開啟該 URL。 否則，當您選取針對影像、Web 程式碼或文字方塊直接在儀表板上建立的磚時，預設不會有任何反應。
 * 如果您無權使用 Reporting Services 內的報表，則選取從 Reporting Services 報表建立的磚時會帶您前往一個頁面，指出您沒有存取權 (rsAccessDenied)。
 * 如果您無權存取 Reporting Services 伺服器所在的網路，則選取從 Reporting Services 建立的磚時會帶您前往一個頁面，指出找不到伺服器 (HTTP 404)。 您的裝置需要報表伺服器的網路存取權，才能檢視報表。
 * 如果用來建立圖格的原始視覺效果有了變更，也不會改變圖格。  例如，您從報表釘選折線圖之後，將折線圖變更為長條圖，儀表板磚會繼續顯示折線圖。 資料會重新整理，但視覺效果類型不會。

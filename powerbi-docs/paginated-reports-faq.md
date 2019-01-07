@@ -9,12 +9,12 @@ ms.component: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0ddf95563c52af135ac7ae4fe71aeddcd2ce7313
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d3fdf9b568aa13ba5a8437c684835e0fce803d19
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266851"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649437"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Power BI 中的編頁報表：常見問題集 (預覽)
 
@@ -59,7 +59,7 @@ Office 365 稽核記錄會在下列事件下方，詳述此報表類型的使用
 
 ### <a name="can-i-monitor-this-workload-through-the-premium-capacity-monitoring-app"></a>我可以透過 Premium 容量監視應用程式來監視此工作負載嗎？
 
-目前還不行。 公開預覽中將提供監視作為現有報表中的新索引標籤，其中含有您針對 Power BI 資料集所擁有的相同相關詳細資料。
+您可以透過新索引標籤使用監視功能，其中含有您 Power BI 資料集擁有的相同相關詳細資料。
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>我需要 Pro 授權，才能建立並發佈報表嗎？
 
@@ -74,8 +74,8 @@ Office 365 稽核記錄會在下列事件下方，詳述此報表類型的使用
 適用於編頁報表之每個 Premium SKU 中的預設記憶體：
 
 - **P1/A4**：20% 預設值；10% 最小值
-- **P2/A5**：10% 預設值；5% 最小值
-- **P3/A6**：5% 預設值；2.5% 最小值
+- **P2/A5**：20% 預設值；5% 最小值
+- **P3/A6**：20% 預設值；2.5% 最小值
 
 ## <a name="general"></a>一般
 
@@ -113,15 +113,12 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 - 書籤
 - Bing 地圖圖層
 - 自訂字型
-- 隱藏的參數
-
-生產環境中還沒有切換與互動式排序，但預期很快就會提供。    
 
 如果您嘗試上傳的檔案具有 Power BI 服務中不支援的功能 (切換/排序以外的功能)，就會收到錯誤訊息。
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>您目前針對編頁報告支援哪些資料來源？
 
-我們使用內部部署閘道，來支援 Azure SQL Database 以及 SQL Server 和 SQL Server Analysis Services (SSAS) 表格式模型。 我們目前不支援 SSAS 多維度 (MDX) 模型。
+我們使用內部部署閘道，來支援 Azure SQL Database、SQL Server 以及 SQL Server Analysis Services (SSAS) 表格式 (DAX) 和多維度 (MDX) 模型。
 
 透過閘道存取 SSAS 時，已儲存認證的使用者需要在 SSAS 中提高權限，才能透過閘道運作。
 
@@ -135,7 +132,7 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>我可以透過閘道使用預存程序嗎？
 
-您可以透過閘道使用預存程序，但如果預存程序具有參數則不行。
+您可以透過閘道來使用預存程序，不過如果預存程序有參數，在某些情況下可能會遇到一些問題。
 
 ### <a name="what-export-formats-are-available-for-my-report-in-the-power-bi-service"></a>在 Power BI 服務中，哪些匯出格式可供我的報表使用？
 
@@ -143,15 +140,15 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="can-i-print-paginated-reports"></a>我可以列印編頁報表嗎？
 
-您目前可以匯出至 PDF 並列印檔案。 應該很快就能直接從編頁報表進行列印。 
+可以，編頁報表亦可使用列印功能，包括全新和改善的列印預覽體驗。 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>可以針對編頁報表提供電子郵件訂閱嗎？
 
-否，但後續即將推出電子郵件訂閱。
+不可以，不過後續將會推出電子郵件訂閱。
 
 ### <a name="what-features-from-ssrs-will-you-be-supporting-in-the-power-bi-service"></a>您將在 Power BI 服務中支援哪些來自 SSRS 的功能？
 
-我們的計劃是提供盡可能接近這兩個產品之間的同位。  有關 SSRS 與 Power BI 的特定項目，對於嘗試進行變更以符合現有 SSRS 模式而言可能不具任何意義，就像 Power BI 中的不同權限模型一樣，但我們將尋求客戶和合作夥伴的意見反應來進行那些類型的決策。
+我們的計劃是在大多數情況下提供功能同位，但為了符合現有 SSRS 模式而嘗試變更 SSRS 與 Power BI 的特定項目，可能不具任何意義。  舉例而言，Power BI 中的不同權限模型無法對應回 SSRS。  我們會尋求客戶和合作夥伴的意見反應來進行這類決策。
 
 ### <a name="can-i-run-custom-code-in-my-report"></a>我可以在報表中執行自訂程式碼嗎？
 
@@ -171,7 +168,7 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>我可以透過 Power BI 應用程式共用編頁報表的內容嗎？
 
-您目前可以透過入口網站中的共用動作，來與其他使用者共用個別的編頁報表。 我們尚未支援在應用程式中共用，但預期會儘速推出此功能。 我們也將在工具列上提供共用按鈕。
+您目前可以透過入口網站或工具列的共用動作，來與其他使用者共用個別的編頁報表。 我們尚未支援在應用程式中共用，但預期會儘速推出此功能。 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Power BI 中的其他報表特有功能 (例如，將報表磚釘選到儀表板) 將能搭配編頁報表來運作嗎？
 
@@ -179,15 +176,15 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="are-you-planning-to-create-a-new-authoring-tool-for-paginated-reports-in-the-power-bi-service--we-cant-do-everything-we-need-to-with-report-builder-today"></a>您是否計畫要在 Power BI 服務中，針對編頁報表建立新的製作工具？  我們目前無法使用報表產生器來完成所需的一切。
 
-我們此時仍在研究適用於最佳工具劇本的不同選項，但請放心，我們將支援 ALM 之類的功能、自訂延伸模組，以及其他可能只隨附於其中一個適用於 SSRS 之製作工具的功能。 
+我們仍在研究適合 Power BI 中編頁報表最佳工具編排的不同選項。 
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>是否規劃了移轉工具，讓 SSRS 客戶可將其現有的報表和資產移至 Power BI？
 
-是，但要到 Power BI 服務中的一組核心支援功能完成之後才會提供。
+我們會繼續評估選項，以透過自動化的方式，將內容移至 Power BI，但這會在正式運作時才提供。
 
 ### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>我是否能夠在單一製作工具中同時建立編頁報表和 Power BI 報表？
 
-我們目前並未規劃單一製作工具，但正在研究是否要以單一 BI 套件形式一併散發多個製作工具，還是提供個別下載/商標。
+未來有可能。  我們目前正在思考可以實現這個案例的方法，也在研究要以單一 BI 套件形式一併散發多個製作工具，還是提供個別下載/商標。
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI 服務中是否有適用於編頁報表的報表檢視器控制項？
 

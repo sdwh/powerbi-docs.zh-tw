@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3e8e8359742a422049751a348bce6a5d4015bd72
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 129649367efa3a2b23fbf3be181e14df158eba02
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619854"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329847"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -33,6 +33,57 @@ ms.locfileid: "51619854"
 您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 下列章節說明 **Power BI Desktop** 前幾個月的更新。
+
+## <a name="november-2018-update-2645285461"></a>2018 年 11 月更新 (2.64.5285.461)
+
+我們的 11 月更新包含許多新功能。 現在，您可以和熱愛資料與分析的同好一起坐下來，深入了解這場更新盛宴。 
+
+以下是 11 月 **Power BI Desktop** 新增的更新：
+
+### <a name="reporting"></a>報告
+
+* 展開和摺疊矩陣資料列標題  [[影片]](https://youtu.be/1xsXXoyTxfk?t=16)  [[文章]](power-bi-reports-filters-and-highlighting.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23expandCollapse) 
+* 在 Desktop 檔案之間複製和貼上 [[影片]](https://youtu.be/1xsXXoyTxfk?t=199)  [[文章]](desktop-report-view.md#copy-and-paste-between-reports)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23copyPaste)
+* 更新篩選體驗 (預覽) [[影片]](https://youtu.be/1xsXXoyTxfk?t=410)   [[文章]](power-bi-reports-filters-and-highlighting.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23filterPane)
+* 報告協助工具增強功能 [[影片]](https://youtu.be/1xsXXoyTxfk?t=1036)  [[文章]](desktop-accessibility.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23reportAccessibility)
+
+### <a name="analytics"></a>分析
+
+* 視覺效果上的色彩飽和度更新為使用條件式格式設定 [[影片]](https://youtu.be/1xsXXoyTxfk?t=1224)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23conditionalFormatting) 
+* 問與答總管中的後續問題 [[影片]](https://youtu.be/1xsXXoyTxfk?t=1429)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
+
+
+### <a name="modeling"></a>模型
+
+* 新的模型檢視 (預覽) [[影片]](https://youtu.be/1xsXXoyTxfk?t=1642)  [[文章]](desktop-modeling-view.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
+* 複合模型現已正式推出 [[影片]](https://youtu.be/1xsXXoyTxfk?t=1941)  [[文章]](desktop-composite-models.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
+* 模型協助工具增強功能 [[影片]](https://youtu.be/1xsXXoyTxfk?t=2023)  [[文章]](desktop-accessibility.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
+* 新的 DAX 函數 [[影片]](https://youtu.be/1xsXXoyTxfk?t=2066)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
+
+### <a name="custom-visuals"></a>自訂視覺效果
+
+* 五個新的自訂視覺效果  [[影片]](https://youtu.be/1xsXXoyTxfk?t=2108)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+
+### <a name="data-connectivity"></a>資料連線
+
+* Azure DevOps Server 連接器 [[影片]](https://youtu.be/1xsXXoyTxfk?t=2641)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
+* PDF 連接器支援「開始頁面」和「結束頁面」參數  [[影片]](https://youtu.be/1xsXXoyTxfk?t=2667)   [[文章]](desktop-connect-pdf.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23pdf) 
+* 改善 Microsoft Azure 使用量見解連接器  [[影片]](https://youtu.be/1xsXXoyTxfk?t=2704)  [[文章]](desktop-connect-azure-consumption-insights.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23consumptionInsights) 
+
+
+> [!NOTE]
+> 您也可以[查看 Power BI Desktop 的所有可用資料來源](desktop-data-sources.md)，我們的資料來源會持續增加，因此請經常回來查看。
+
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
+
+
+下列影片頻道說明並展示了各項更新。 您也可以從部落格文章中觀賞影片。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1xsXXoyTxfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> 您可能也會想要了解 [Power BI 服務的新功能](service-whats-new.md)，並請同時查閱 [Power BI 行動應用程式的新功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
+
 
 ## <a name="october-2018-update-263327240262"></a>2018 年 10 月更新 (2.63.3272.40262)
 
@@ -1050,7 +1101,7 @@ ms.locfileid: "51619854"
 
 ### <a name="analytics"></a>分析：
 
--   兩個新的快速計算︰資料列總數的百分比與資料行總計的百分比 [[視訊]](https://youtu.be/mn75-LOPxMA?t=7m46s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#quickCalcs)
+-   兩個新的快速計算：資料列總數的百分比與資料行總數的百分比 [[影片]](https://youtu.be/mn75-LOPxMA?t=7m46s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#quickCalcs)
 
 ### <a name="data-connectivity"></a>資料連接：
 
@@ -1584,7 +1635,7 @@ ms.locfileid: "51619854"
     -   新增結構描述資訊至 ODBC 來源的導覽階層
     -   能夠從 [導覽] 停用預覽
     -   技術名稱支援
--   可釐清衝突的資料行名稱 (不區分大小寫的比較) 的自動載入步驟
+-   載入：自動載入步驟，可釐清衝突的資料行名稱 (比較時不區分大小寫)
 -   您現在可以直接從 [查詢] 窗格重新命名查詢
 
 
@@ -1711,7 +1762,7 @@ ms.locfileid: "51619854"
 
 -   視覺效果的增強功能：
     - **資料表** 視覺效果中排序狀態的視覺提示。
-    - 新的視覺效果： **堆疊區域** 圖
+    - 新的視覺效果：**堆疊區域**圖
     - 在 **區域** 圖與 **折線** 圖停留時出現的智慧工具提示
     - 可建立 **笛卡兒** 視覺效果的參考列/地區
     - 經改善的 **圓形** 圖與 **散佈** 圖資料標籤
@@ -1912,8 +1963,8 @@ ms.locfileid: "51619854"
 - [偵測資料行類型] 選項可用以觸發隨選的類型偵測
 - 只要按一下 [重新整理所有預覽] 便可重新整理所有的查詢編輯器預覽
 - 效能改進效能改進
-    - 選擇 [資料行] 對話方塊：針對處理寬型資料表，可獲得更快速的使用者經驗
-    - 自動篩選與展開/彙總快顯：針對大量的值/欄位，可提供更快速的處理
+    - [選擇資料行] 對話方塊：針對處理寬型資料表，可獲得更快速的使用者經驗
+    - 自動篩選與展開/彙總快顯功能表：針對大量的值/欄位，可提供更快速的處理
 
 下列影片涵蓋更多這些功能的詳細資料。
 
@@ -1969,13 +2020,13 @@ ms.locfileid: "51619854"
 
 -   **新的資料連接器**：appFigures Quickbooks Online、Zendesk、Github、Twilio 和 SweetIQ。
 
--   **新的轉換**：從文字資料行擷取第一個/最後一個/字元範圍；在 [合併的查詢] 對話方塊中指定聯結類型的選項；在 [依分隔符號分割資料行] 對話方塊中自訂引號樣式的能力。
+-   **新的轉換**：從文字資料行擷取第一個/最後一個/字元範圍、在 [合併的查詢] 對話方塊中指定聯結類型的選項、在 [依分隔符號分割資料行] 對話方塊中自訂引號樣式的功能。
 
--   **報表撰寫改進**：新的視覺效果 (區域圖、瀑布、甜甜圈和矩陣)；新的視覺格式設定和自訂選項 (標籤、標題、背景、圖例、色彩等等)；在報表中插入文字方塊和圖片；在報表和報表資料表中支援超連結；復原/取消復原動作。
+-   **報表撰寫改進**：新的視覺效果 (區域圖、瀑布、甜甜圈和矩陣)、新的視覺格式設定和自訂選項 (標籤、標題、背景、圖例、色彩等等)、在報表中插入文字方塊和圖片、在報表和報表資料表中支援超連結、復原/取消復原動作。
 
 -   對 Analysis Services 表格式模型的**直接報表瀏覽**。
 
--   **資料模型化**：新的資料檢視與關聯性檢視。
+-   **資料模型化：** 新的資料檢視與關聯性檢視。
 
 -   直接從 Power BI Desktop 將報表發行至 PowerBI.com。
 
@@ -2001,7 +2052,7 @@ ms.locfileid: "51619854"
 
 -   依其他資料行排序
 
--   改良的 DAX 公式編輯器：函數說明和原型
+-   改良的 DAX 公式編輯器：函式說明和原型
 
 **取得資料與查詢**
 
@@ -2102,7 +2153,7 @@ ms.locfileid: "51619854"
     -   改進導覽器樹狀目錄中的搜尋功能
 - 新的轉換
   -   日期/時間資料行的年齡和減法運算
-  -   彙總資料行：停用新資料行前置詞的選項
+  -   彙總資料行：新資料行前置詞的停用選項
 - 欄位清單改進
   -   展開/摺疊資料表
   -   隱藏/取消隱藏欄位

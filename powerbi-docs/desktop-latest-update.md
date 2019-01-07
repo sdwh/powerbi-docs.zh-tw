@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3b2d751a174aa87a9c0c134d2579f15b084322a2
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 0883d3fdd9d57b04b839fb9062b12e8bfcc17c45
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619532"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329663"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新的 Power BI Desktop 中有什麼新功能？ 
 
-## <a name="november-2018-update-2645285461"></a>2018 年 11 月更新 (2.64.5285.461)
+## <a name="december-2018-update-2655313501"></a>2018 年 12 月更新 (2.65.5313.501)
 
-我們的 11 月更新包含許多新功能。 準備好洋芋片，和您熱愛資料與分析的親友一起坐下，深入了解這場盛大的更新。 
+我們 12 月的更新極可能讓您的感官獲得如糖梅仙子舞動般的享受，或至少這些吸引人的資料驅動視覺效果會如大家口中所說的那樣生動。 所以大家聚在一起，品嘗可口的飲品暖暖身子，然後打開我們 12 月的更新吧。 
 
 您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
@@ -38,44 +38,56 @@ ms.locfileid: "51619532"
 
 ### <a name="reporting"></a>報告
 
-* 展開和摺疊矩陣資料列標題  [[影片]](https://youtu.be/1xsXXoyTxfk?t=16)  [[文章]](power-bi-reports-filters-and-highlighting.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23expandCollapse) 
-* 在 Desktop 檔案之間複製和貼上 [[影片]](https://youtu.be/1xsXXoyTxfk?t=199)  [[文章]](desktop-report-view.md#copy-and-paste-between-reports)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23copyPaste)
-* 更新篩選體驗 (預覽) [[影片]](https://youtu.be/1xsXXoyTxfk?t=410)   [[文章]](power-bi-reports-filters-and-highlighting.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23filterPane)
-* 報告協助工具增強功能 [[影片]](https://youtu.be/1xsXXoyTxfk?t=1036)  [[文章]](desktop-accessibility.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23reportAccessibility)
+* 用以對齊頁面上物件的智慧型輔助線 [[影片]](https://youtu.be/AHNlkjRFdYI?t=11) [[文章]](power-bi-reports-filters-and-highlighting.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
+* ArcGIS Maps for Power BI 更新 [[影片]](https://youtu.be/AHNlkjRFdYI?t=84) [[文章]](power-bi-visualization-arcgis.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* 欄位清單協助工具支援 [[影片]](https://youtu.be/AHNlkjRFdYI?t=464) [[文章]](desktop-report-view.md#copy-and-paste-between-reports) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
+* 為頁面上的物件設定定位順序 [[影片]](https://youtu.be/AHNlkjRFdYI?t=643) [[文章]](power-bi-reports-filters-and-highlighting.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
+* 按鈕視覺效果的工具提示 [[影片]](https://youtu.be/AHNlkjRFdYI?t=884) [[文章]](desktop-accessibility.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)
+* 視覺互動效果的已更新圖示 [[影片]](https://youtu.be/AHNlkjRFdYI?t=974) [[文章]](desktop-accessibility.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#icons)
+
+
 
 ### <a name="analytics"></a>分析
 
-* 視覺效果上的色彩飽和度更新為使用條件式格式設定 [[影片]](https://youtu.be/1xsXXoyTxfk?t=1224)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23conditionalFormatting) 
-* 問與答總管中的後續問題 [[影片]](https://youtu.be/1xsXXoyTxfk?t=1429)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
+* 問與答的 Live Connect 支援 (預覽) [[影片]](https://youtu.be/AHNlkjRFdYI?t=1037) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#liveConnectQA) 
 
 
 ### <a name="modeling"></a>模型
 
-* 新的模型檢視 (預覽) [[影片]](https://youtu.be/1xsXXoyTxfk?t=1642)  [[文章]](desktop-modeling-view.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
-* 複合模型現已正式推出 [[影片]](https://youtu.be/1xsXXoyTxfk?t=1941)  [[文章]](desktop-composite-models.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
-* 模型協助工具增強功能 [[影片]](https://youtu.be/1xsXXoyTxfk?t=2023)  [[文章]](desktop-accessibility.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
-* 新的 DAX 函數 [[影片]](https://youtu.be/1xsXXoyTxfk?t=2066)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
+* DAX 資料編輯列更新 [[影片]](https://youtu.be/AHNlkjRFdYI?t=1132) [[文章]](desktop-modeling-view.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#daxFormulaBar) 
+* 資料檢視協助工具支援 [[影片]](https://youtu.be/AHNlkjRFdYI?t=1253) [[文章]](desktop-composite-models.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#dataView) 
+
 
 ### <a name="custom-visuals"></a>自訂視覺效果
 
-* 五個新的自訂視覺效果  [[影片]](https://youtu.be/1xsXXoyTxfk?t=2108)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+* 一個新的自訂視覺效果 [[影片]](https://youtu.be/AHNlkjRFdYI?t=1370) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>資料連線
 
-* Azure DevOps Server 連接器 [[影片]](https://youtu.be/1xsXXoyTxfk?t=2641)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
-* PDF 連接器支援「開始頁面」和「結束頁面」參數  [[影片]](https://youtu.be/1xsXXoyTxfk?t=2667)   [[文章]](desktop-connect-pdf.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23pdf) 
-* 改善 Microsoft Azure 使用量見解連接器  [[影片]](https://youtu.be/1xsXXoyTxfk?t=2704)  [[文章]](desktop-connect-azure-consumption-insights.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23consumptionInsights) 
+* AtScale 連接器 (搶鮮版 (Beta)) [[影片]](https://youtu.be/AHNlkjRFdYI?t=1449) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#atScale) 
+* Oracle Essbase 連接器 (搶鮮版 (Beta)) [[影片]](https://youtu.be/AHNlkjRFdYI?t=1449) [[文章]](desktop-connect-pdf.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#essbase) 
+
+
+### <a name="data-preparation"></a>資料準備
+
+* 模糊合併 - 支援前 N 個最符合的項目 [[影片]](https://youtu.be/AHNlkjRFdYI?t=1480) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fuzzyMerge) 
+
+
+### <a name="other"></a>其他
+* 所有窗格及報表尾的高對比支援 [[影片]](https://youtu.be/AHNlkjRFdYI?t=1631) [[文章]](desktop-connect-pdf.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#highContrast) 
+* 更新的鍵盤快速鍵對話方塊 [[影片]](https://youtu.be/AHNlkjRFdYI?t=1654) [[文章]](desktop-accessibility.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#keyboardShortcuts) 
+
 
 
 > [!NOTE]
 > 您也可以[查看 Power BI Desktop 的所有可用資料來源](desktop-data-sources.md)，我們的資料來源會持續增加，因此請經常回來查看。
 
-需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
 
 
 下列影片頻道說明並展示了各項更新。 您也可以從部落格文章中觀賞影片。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1xsXXoyTxfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AHNlkjRFdYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > 您可能也會想要了解 [Power BI 服務的新功能](service-whats-new.md)，並請同時查閱 [Power BI 行動應用程式的新功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。

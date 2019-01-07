@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 12/18/2018
 ms.locfileid: "52157394"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>無法將 Power BI 加入 Office 365 合作夥伴訂閱
@@ -53,7 +53,7 @@ Office 365 可讓公司將 Office 365 與其自有的解決方案進行搭配整
 
 ### <a name="enable-ad-hoc-subscriptions"></a>啟用特定訂閱
 
-根據預設，系統會停用個人註冊 (又稱為特定訂閱)。 在此情況下，當您嘗試註冊時，您會看到下列訊息：您的 IT 部門已關閉「Microsoft Power BI」的註冊功能。
+根據預設，系統會停用個人註冊 (又稱為特定訂閱)。 在此情況下，您會在嘗試註冊時看到下列訊息：「您的 IT 部門已經關閉 Microsoft Power BI 的註冊功能。」
 
 ![[很抱歉] 影像](media/service-admin-syndication-partner/sorry.png)
 

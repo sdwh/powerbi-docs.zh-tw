@@ -11,11 +11,11 @@ ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452859"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451436"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 連接器
 您可以透過 Power BI Desktop 存取 **SAP Business Warehouse (BW)** 資料。
@@ -66,7 +66,7 @@ Power BI Desktop 中的第 1 版 **SAP BW 連接器**可讓您從您的 **SAP Bu
 
 ![SAP 伺服器連線設定](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
-您也可以指定其他兩個**進階選項**︰語言代碼，以及對指定的伺服器執行自訂 MDX 陳述式。
+您也可以指定其他兩個 [進階選項]：語言代碼，以及對指定的伺服器執行自訂 MDX 陳述式。
 
 ![其他連線資訊](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
@@ -78,9 +78,9 @@ Power BI Desktop 中的第 1 版 **SAP BW 連接器**可讓您從您的 **SAP Bu
 
 [導覽] 視窗也提供一些 [顯示選項]，可讓您執行下列動作︰
 
-* **顯示「僅選取的項目」和「所有項目」 (預設檢視)︰** 此選項適用於驗證所選取的最後一組項目。 另一個檢視方法是在 [預覽] 區域中選取 [資料行名稱]。
-* **啟用資料預覽 (預設行為)**︰您也可以控制是否應該在此對話方塊中顯示資料預覽。 停用資料預覽可減少伺服器呼叫的數量，因為它不會再要求資料進行預覽。
-* **技術名稱**︰SAP BW 支援 Cube 內物件的「技術名稱」概念。 技術名稱可讓 Cube 擁有者公開 Cube 物件的「使用者易記」名稱，而不只是公開 Cube 中這些物件的「實體名稱」。
+* **顯示 [僅選取的項目] 和 [所有項目] (預設檢視)：** 此選項適用於驗證所選取的最終一組項目。 另一個檢視方法是在 [預覽] 區域中選取 [資料行名稱]。
+* **啟用資料預覽 (預設行為)：** 您也可以控制是否應該在此對話方塊中顯示資料預覽。 停用資料預覽可減少伺服器呼叫的數量，因為它不會再要求資料進行預覽。
+* **技術名稱：** SAP BW 支援 Cube 內物件的「技術名稱」概念。 技術名稱可讓 Cube 擁有者公開 Cube 物件的「使用者易記」名稱，而不只是公開 Cube 中這些物件的「實體名稱」。
 
 ![[導覽器] 視窗](media/desktop-sap-bw-connector/sap_bw_6.png)
 

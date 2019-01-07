@@ -1,31 +1,29 @@
 ---
 title: 在 Surface Hub 和 Windows 10 上檢視簡報模式 - Power BI
 description: 閱讀在 Surface Hub 上顯示 Power BI 報表，以及在 Windows 10 裝置上以全螢幕模式顯示 Power BI 儀表板、報表和磚。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.date: 12/10/2018
+ms.author: mshenhav
+ms.openlocfilehash: 49a1d8386159966171b46801d3bfe3685b2a6bb2
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507925"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301750"
 ---
-# <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>在 Surface Hub 和 Windows 10 上以簡報模式檢視報表 - Power BI
-您可以在 Surface Hub 上以簡報模式顯示報表，以及在 Windows 10 裝置上以全螢幕模式顯示儀表板、報表和磚。 
+# <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Surface Hub 和 Windows 10 裝置上，以簡報模式檢視報表和儀表板
+您可以在 Windows 10 裝置和 Surface Hub 中，使用簡報模式以全螢幕顯示報表和儀表板。 
 
 ![以全螢幕模式顯示的報表](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode.png)
 
-簡報及全螢幕模式可以用來在會議中、在辦公室的專用投影機上顯示 Power BI，或甚至只是充分利用小螢幕上的空間。 
+簡報模式可以用來在會議中、在辦公室的專用投影機上顯示 Power BI，或甚至只是充分利用小螢幕上的空間。 
 
-在 Power BI 行動裝置應用程式的全螢幕模式中，所有「組件區塊」，例如導覽和功能表列都會移除，只有報表中的頁面索引標籤和篩選窗格除外。
-
-當您在 Surface Hub 以簡報模式上顯示報表時，可以用不同顏色的墨水在頁面上繪製，並在報表的頁面之間巡覽。
+在適用於 Windows 10 的 Power BI 行動裝置應用程式中，簡報模式會移除所有「組件區塊」，例如導覽和功能表列，以讓您和小組成員可以專注於報表中的資料。 您可以使用工具列與其中的動作與資料進行互動，並在簡報模式中共同作業。
 
 您也可以在網站上，[從 Power BI 服務以全螢幕模式顯示儀表板和報表](../end-user-focus.md)。
 
@@ -34,44 +32,24 @@ ms.locfileid: "51507925"
 > 
 > 
 
-## <a name="display-dashboards-reports-and-tiles-in-full-screen-mode"></a>以全螢幕模式顯示儀表板、報表和磚
-1. 在 Power BI 行動裝置應用程式中，在儀表板、報表或磚上點選**全螢幕**圖示![全螢幕圖示](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png)進入全螢幕模式。
-2. 在簡報模式中，您可以篩選報表，或搜尋其他儀表板和報表。
-   
-    展開 [篩選] 窗格，來設定或移除篩選。
-   
-    ![[篩選] 窗格](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-filter.png)
-   
-     點選搜尋圖示 ![搜尋圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) 以尋找其他儀表板。
-   
-    ![搜尋結果](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-search.png)
-3. 若要結束全螢幕模式，請點選工具列上有兩個向內箭號的圖示 ![結束全螢幕模式](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) 或從頂端向下撥動，並點選兩個向內箭號 ![結束全螢幕模式](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
+## <a name="use-presentation-mode"></a>使用簡報模式
+在 Power BI 行動裝置應用程式中，點選**全螢幕**圖示，進入全螢幕模式。
+![全螢幕圖示](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) 應用程式組件區塊消失，工具列會出現在畫面底部或左右兩側 (取決於您的螢幕大小而定)。
 
-## <a name="turn-on-presentation-mode-for-surface-hub"></a>開啟 Surface Hub 的簡報模式
-Surface Hub 中預設會開啟簡報模式，但如果它已關閉，您可以重新開啟它。
+![全螢幕模式中的報表與側邊工具列](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode2.png)
 
-1. 點選設定圖示 ![設定圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-settings-icon.png) ，位置在左側導覽列的底部。
-2. 點選 [選項]，然後將 \[Enable Microsoft Surface Hub presentation mode] \(啟用 Microsoft Surface Hub 簡報模式) 滑到 [開啟]。
-   
-    ![開啟簡報模式](./media/mobile-windows-10-app-presentation-mode/power-bi-turn-on-presentation-mode.png)
+您可以從工具列中執行下列動作：
 
-## <a name="display-and-draw-on-reports-on-surface-hub"></a>在 Surface Hub 上顯示和繪製報表
-1. 在報表中，點選**全螢幕**圖示![全螢幕圖示](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png)進入 Surface Hub 簡報模式。
-   
-    您可以看到螢幕兩邊有可摺疊的動作列。 
-   
-   * 若要開啟它，請往內撥動或點選控點。
-   * 若要關閉它，請往外撥動或點選頂端的 X。
-2. 在支援手寫筆的裝置上，您可以立即開始撰寫。 
-3. 若要變更筆跡色彩，請點選左側或右側動作列中的畫筆。
-   
-    ![Surface Hub 筆跡](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-ink.png)
-4. 點選橡皮擦或復原箭頭，以移除部分或所有筆跡。
-5. 點選圓形箭號，以重新整理報表內容。
-6. 點選兩側的箭號以移至報表中的其他頁面。
-   
-    ![前往其他頁面的兩側箭號](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-arrows.png)
-7. 若要結束全螢幕模式，請從頂端往下撥動，並點選兩個向內的箭號 ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png)。
+1. 點選上一頁圖示 ![上一頁圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) 返回上一頁。 長按圖示時會顯示階層連結視窗，以讓您瀏覽至報表或儀表板所含的資料夾。
+2. 墨水圖示 ![墨水圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) 可讓您在使用 Surface 畫筆繪圖與在報表頁面上新增註解時，選擇色彩。 
+3. 使用頁面圖示 ![分頁圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) 取代您目前呈現的報表頁面。
+4. 點選搜尋圖示 ![搜尋圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) 尋找 Power BI 中的其他成品。
+5. 若要結束簡報模式，請點選兩個向內箭號的圖示 ![結束全螢幕模式](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) (位於工具列)。
+
+您可以卸除工具列，並將它拖曳到螢幕上任一處使用。 使用大型的螢幕時，若您希望專注於報表中的特定區域，且需要工具隨時在旁預備，此功能就很實用。 只要將手指放在工具列上，將其撥動到報表畫布中即可。
+
+![簡報模式中的報表和卸除的工具列](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar.png)
+
 
 ## <a name="next-steps"></a>後續步驟
 * [從 Power BI 服務以全螢幕模式顯示儀表板和報表](../end-user-focus.md)
