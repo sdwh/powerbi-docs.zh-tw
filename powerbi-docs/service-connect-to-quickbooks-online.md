@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 26caf128828ec67ce7a6f2af62560869e261ee8b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ec13f396ea1a322a79263320a169330f24a2e5f0
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543512"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008066"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>使用 Power BI 連接到 QuickBooks Online
 當您從 Power BI 連接到您的 QuickBooks Online 資料時，您會立即取得 Power BI 儀表板和 Power BI 報表，其針對您企業的現金流量、獲利率、客戶和其他項目提供深入資訊。 您可以使用原有的儀表板和報表，或是加以自訂，反白顯示您特別有興趣的資訊。 資料會自動每天重新整理一次。

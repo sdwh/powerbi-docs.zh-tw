@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2085f1ca852839c27c4943872e5f5ddb248e8638
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 6d8471833dac99aa3c54b40f5839e65edfaa03de
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641382"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008963"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>使用 Power BI 連接到 Microsoft Dynamics NAV
 您可以使用 Power BI，輕鬆獲得 Microsoft Dynamics NAV 資料的深入解析。 Power BI 會擷取您的資料 (銷售和財務)，然後根據該資料建置含有儀表板和報表的應用程式。 Power BI 需要有資料擷取來源資料表的權限，本例中為銷售和財務資料。 下方有需求的詳細資料。 安裝應用程式之後，即可在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 及 Power BI 行動應用程式中，檢視儀表板與報表。 

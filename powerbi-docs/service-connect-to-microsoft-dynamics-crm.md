@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 465e54c811691a7149dfff03d48bec797474ca66
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908823"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008802"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>使用 Power BI 連接到 Microsoft Dynamics CRM
 Microsoft Dynamics CRM Online for Power BI可讓您輕鬆存取並分析資料。 Power BI 使用 OData 摘要建立描述性模型，包括所有必要的實體及量值，例如帳戶、活動、機會、產品、潛在客戶和使用者等等。 安裝應用程式之後，即可在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 及 Power BI 行動應用程式中，檢視儀表板與報表。 
