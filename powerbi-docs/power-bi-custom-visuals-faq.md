@@ -8,14 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: c17f9b9841335420db67abb62c92603bf804f275
-ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
+ms.openlocfilehash: 66ab9dee3bd200cf3c81fc2add41af29726a91db
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "53553896"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54055872"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>關於 Power BI 自訂視覺效果的常見問題集
 
@@ -33,7 +34,7 @@ ms.locfileid: "53553896"
 
 ### <a name="is-there-a-way-to-disable-the-organizational-store"></a>有停用組織存放區的方法嗎？
 
-否，使用者一定會看到 Power BI Desktop 和服務中的 [我的組織] 索引標籤。 系統管理員可以從管理入口網站停用或刪除所有的組織自訂視覺效果，而組織的存放區是空的。
+否，使用者一定會看到 Power BI Desktop 和服務中的 [我的組織 ] 索引標籤。 系統管理員可以從管理入口網站停用或刪除所有的組織自訂視覺效果，而組織的存放區是空的。
   
 ### <a name="if-the-administrator-disables-custom-visuals-from-the-admin-portal-tenant-settings-do-users-still-have-access-to-the-organizational-custom-visuals"></a>如果系統管理員從管理入口網站 ([租用戶設定]) 停用自訂視覺效果，使用者是否仍可以存取組織自訂視覺效果？
 
