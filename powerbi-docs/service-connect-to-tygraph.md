@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3c508044e9f21c09d3115fd745320be9ad0161bc
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: bafab0768df53390d0d36730b66d1221d9012c14
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548434"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54007846"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>使用 Power BI 連接到 tyGraph
 使用 Power BI 內容套件以視覺化方式檢視和瀏覽 Power BI 中的 tyGraph 資料。 首先連接至 tyGraph 帳戶並載入儀表板、報表和資料集。 現成的內容包含如作用中參與量值 (MAE 分數) 與熱門參與者等深入資訊。 進一步自訂它以反白顯示您最關心的資訊。  資料會根據您設定的排程自動重新整理。

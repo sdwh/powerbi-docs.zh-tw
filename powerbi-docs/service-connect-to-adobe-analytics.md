@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 8ea62f894b01143997850f3c15f2a069b93d7c26
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908570"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008687"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>使用 Power BI 連接到 Adobe Analytics
 透過 Power BI 連接到 Adobe Analytics 時，一開始會連接到 Adobe Analytics 行銷雲端帳戶。 您會看到應用程式與 Power BI 儀表板和一組 Power BI 報表，供您深入了解網站流量和使用者維度。 資料會自動每天重新整理一次。 您可以與儀表板和報表互動，但無法儲存變更。
@@ -91,7 +91,7 @@ Power BI 使用 Adobe Analytics 報告 API 來定義並執行下列資料表的�
 ## <a name="troubleshooting"></a>疑難排解
 如果您在提供認證之後看到錯誤，指出您沒有權限，請與您的系統管理員確認是否有權存取 Adobe Analytics API。 另請確認所提供的 Adobe 識別碼已連結到行銷雲端組織 (與 Adobe Analytics 公司相關聯)。
 
-如果您成功通過認證畫面之後遇到錯誤，有可能是因為報表佔用太多時間來完成所造成。 常見的錯誤格式為「無法從 Adobe 分析報表取得資料。內容包含 &quot;查閱者、頁面&quot;，持續時間約為 xx 秒」。 檢閱＜包含的內容＞一節，並與您的 Adobe 執行個體大小相比較。 不幸的是目前無法解決此逾時。 不過我們正在考慮進行更新，以為較大的執行個體提供更佳支援，請提供 Power BI 小組您的意見反應，網址為 https://ideas.powerbi.com
+如果您成功通過認證畫面之後遇到錯誤，有可能是因為報表佔用太多時間來完成所造成。 常見的錯誤格式為「無法從 Adobe 分析報表取得資料。內容包含 &quot;查閱者、頁面&quot;，持續時間約為 xx 秒」*。 檢閱＜包含的內容＞一節，並與您的 Adobe 執行個體大小相比較。 不幸的是目前無法解決此逾時。 不過我們正在考慮進行更新，以為較大的執行個體提供更佳支援，請提供 Power BI 小組您的意見反應，網址為 https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>後續步驟
 * [Power BI 中的應用程式是什麼？](service-create-distribute-apps.md)
