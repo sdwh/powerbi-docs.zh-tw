@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 3ad4335cabac159aee38d54fbfff0f689009fd68
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973319"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136591"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -75,7 +75,7 @@ ms.locfileid: "50973319"
 
     ![載入的 SP 報表](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
-## <a name="granting-access-to-reports"></a>授與報表存取權
+## <a name="grant-access-to-reports"></a>授與報告存取權
 
 在 SharePoint Online 中內嵌報表，並不會自動授予使用者檢視報表的權限。 在 Power BI 服務中，具有檢視報表所需的權限。
 
@@ -152,7 +152,7 @@ ms.locfileid: "50973319"
 
 ## <a name="known-issues-and-limitations"></a>已知的問題及限制
 
-* 錯誤: 「發生錯誤，請嘗試登出再登入，然後重新前往此頁面。 相互關聯識別碼: 未定義，HTTP 回應狀態: 400，伺服器錯誤碼 10001，訊息: 缺少重新整理權杖」
+* 錯誤：「An error occurred, please try logging out and back in and then revisiting this page. (發生錯誤。請登出再登入，然後再次前往此頁面。) 相互關聯識別碼: 未定義，http 回應狀態:400，伺服器錯誤碼 10001，訊息:遺漏重新整理權杖」
   
   如果您收到這個錯誤，請嘗試下列其中一個疑難排解步驟。
   
@@ -174,9 +174,10 @@ ms.locfileid: "50973319"
 
 ## <a name="next-steps"></a>後續步驟
 
-[允許或防止終端使用者建立新式網站頁面](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md)  
-[Share a dashboard with colleagues and others](service-share-dashboards.md) (與同事和其他人共用儀表板)  
-[什麼是 Power BI Premium？](service-premium.md)  
+* [允許或防止終端使用者建立新式網站頁面](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
+* [在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md)  
+* [Share a dashboard with colleagues and others](service-share-dashboards.md) (與同事和其他人共用儀表板)  
+* [什麼是 Power BI Premium？](service-premium.md)
+* [在安全入口網站或網站中內嵌報告](service-embed-secure.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
