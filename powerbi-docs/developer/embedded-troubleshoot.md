@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 5ee6758093969a2db1d932a88f21c965380bab5c
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: db782cea1d47dc31abf2908b82a756404fda513d
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008434"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136522"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -219,6 +219,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ## <a name="content-rendering"></a>內容轉譯
 
+### <a name="performance"></a>效能
+
+[Power BI Embedded 效能](embedded-performance-best-practices.md)
+
 ### <a name="rendering-or-consumption-of-embedded-content-fails-or-times-out"></a>內嵌內容的轉譯或取用失敗或逾時
 
 請確認內嵌權杖未過期。 請務必檢查內嵌權杖到期日並予以重新整理。 如需詳細資訊，請參閱[使用 JavaScript SDK 重新整理權杖](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example)。
@@ -292,6 +296,8 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 若需要進一步的協助，請[連絡客戶支援](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded)，或[透過 Azure 入口網站建立支援票證](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)，並提供您遇到的錯誤訊息。
 
-## <a name="performance"></a>效能
+## <a name="next-steps"></a>後續步驟
 
-[Power BI Embedded 效能](embedded-performance-best-practices.md)
+如需詳細資訊，請參閱[常見問題集](embedded-faq.md)。
+
+有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

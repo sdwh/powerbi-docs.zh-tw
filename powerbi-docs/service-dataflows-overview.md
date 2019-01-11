@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180821"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072213"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI (預覽) 中的自助資料準備
 
@@ -79,7 +79,7 @@ Power BI 也可以連線到含有 Common Data Service 格式且已結構描述�
 
 |資料流程功能 | Power BI Pro |   Power BI Premium |
 |---------|---------|---------|
-|排定的重新整理| 每天 8 次|  48|
+|排程重新整理| 每天 8 次|  48|
 |儲存體總計| 10 GB/使用者  |100 TB/節點|
 |使用 Power Query 線上撰寫的資料流程|    +   |+|
 |Power BI 中的資料流程管理|   +|  +|
@@ -92,7 +92,7 @@ Power BI 也可以連線到含有 Common Data Service 格式且已結構描述�
 |資料流程連結實體| |        +|
 |已標準化的結構描述 / 適用於 Common Data Service 的內建支援|  +|  +|
 
-
+如需在 Premium 容量上啟用資料流程工作負載的詳細資訊，請參閱適用於 Power BI Premium 的[設定工作負載](service-admin-premium-manage.md#configure-workloads)一文。
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>適用於 Power BI 中巨量資料的自助資料準備摘要
 如此文章先前所述，在多個案例和範例中，**資料流程**可讓您從商務資料取得更好的控制且更快速進行深入解析。 使用 Common Data Service 所定義的標準資料模型 (結構描述)，資料流程可以匯入您的重要商務資料，且備妥資料以進行模型化，並在一段非常短的期間內建立 BI 深入解析...原本要花上數個月或更久的時間才能建立。 

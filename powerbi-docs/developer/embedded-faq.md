@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 106d971a06777f7d22d1fb3cd2ba3995b95a21d9
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008411"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136637"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -204,6 +204,10 @@ ISV/開發人員必須先有 Power BI 帳戶，才能在 Azure 中購買 Power B
 
 請參考 [RLS 對 JavaScript 篩選](embedded-row-level-security.md#using-rls-vs-javascript-filters) 以取得詳細資料。
 
+### <a name="what-are-the-best-practices-to-improve-performance"></a>提升效能的最佳做法為何？
+
+[Power BI Embedded 效能](embedded-performance-best-practices.md)
+
 ## <a name="licensing"></a>授權
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>如何購買 Power BI Embedded？
@@ -264,8 +268,8 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 
 3. 做好進入生產環境的準備之後，購買 **Power BI Embedded** 專用容量，然後將您的 Power BI 內容 (工作區) 指派給該容量。
 
-> [!Note]
-> 您可以在以 **Power BI Embedded** 解決方案平行進行建置的同時，繼續使用「Power BI 工作區集合」。 準備就緒之後，您便可以將客戶移至新的 **Power BI Embedded** 解決方案，然後淘汰「Power BI 工作區集合」解決方案。
+    > [!Note]
+    > 您可以在以 **Power BI Embedded** 解決方案平行進行建置的同時，繼續使用「Power BI 工作區集合」。 準備就緒之後，您便可以將客戶移至新的 **Power BI Embedded** 解決方案，然後淘汰「Power BI 工作區集合」解決方案。
 
 如需詳細資訊，請參考[如何將 Power BI 工作區集合內容移轉至 Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)
 
@@ -318,10 +322,6 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 
 您可以在[此處](https://docs.microsoft.com/power-bi/service-basic-concepts)了解如何編輯您的 Power BI 資料。
 
-如需詳細資訊，請參閱[為您的內嵌應用程式進行疑難排解](embedded-troubleshoot.md)
+如需詳細資訊，請參閱[為您的內嵌應用程式進行疑難排解](embedded-troubleshoot.md)。
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-
-### <a name="what-are-the-best-practices-to-improve-performance"></a>提升效能的最佳做法為何？
-
-[Power BI Embedded 效能](embedded-performance-best-practices.md)

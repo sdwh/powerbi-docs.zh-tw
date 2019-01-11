@@ -11,30 +11,32 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: d9cf6255cfa57790c13ee1fc9d3201860552863b
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026814"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072351"
 ---
 # <a name="using-auditing-within-your-organization"></a>在組織內使用稽核
 
 了解誰正在對 Power BI 租用戶的哪個項目採取什麼動作，可能對於幫助貴組織符合其需求，例如符合法規合規性與記錄管理等而言極為重要。 使用 Power BI 稽核來稽核使用者執行的動作，例如 [檢視報表] 與 [檢視儀表板]。 您無法使用稽核來稽核權限。
 
-您可以在 Office 365 安全性與合規性中心使用稽核，或使用 PowerShell 來執行。 我們在此文章中針對兩種方式皆有說明。 您可以依日期範圍、使用者、儀表板、報表、資料集和活動類型來篩選稽核資料。 您也可以用 csv (逗號分隔值) 檔案下載活動以便離線分析。
+您可以在 Office 365 安全性與合規性中心使用稽核，或使用 PowerShell 來執行。 稽核需仰賴 Exchange Online 的功能，其會自動佈建以支援 Power BI。
+
+您可以依日期範圍、使用者、儀表板、報表、資料集和活動類型來篩選稽核資料。 您也可以用 csv (逗號分隔值) 檔案下載活動以便離線分析。
 
 ## <a name="requirements"></a>需求
 
 您必須符合這些需求才能存取稽核記錄：
 
-- 若要存取 Office 365 安全性與合規性中心的稽核區段，您必須具有 Exchange Online 授權 (隨附於 Office 365 Enterprise E3 和 E5 訂用帳戶)。
+* 您必須是全域系統管理員或已被指派 Exchange Online 中的「稽核記錄」或「僅供檢視稽核記錄」角色，才能存取稽核記錄。 根據預設，這些角色會在 Exchange 系統管理中心的 [權限] 頁面上被指派給「法規遵循管理」和「組織管理」角色群組。
 
-- 您必須是全域管理員或擁有 Exchange 管理員角色，才能提供稽核記錄的存取權。 Exchange 管理員角色是透過 Exchange 管理中心控制。 如需詳細資訊，請參閱 [Exchange Online 中的權限](/exchange/permissions-exo/permissions-exo/)。
+    若要提供可存取稽核記錄的非系統管理員帳戶，您必須將使用者新增為上述其中一個角色群組的成員。 或者，您可以在 Exchange 系統管理中心建立自訂角色群組，將「稽核記錄」或「僅供檢視稽核記錄」角色指派到這個群組，然後將非系統管理員帳戶新增到新的角色群組。 如需詳細資訊，請參閱[在 Exchange Online 中管理角色群組](/Exchange/permissions-exo/role-groups)。
 
-- 如果您有稽核記錄的存取權，但並不是全域管理員或 Power BI 服務管理員，您將無法存取 Power BI 管理入口網站。 在此情況下，您必須取得 [Office 365 安全性與合規性中心](https://sip.protection.office.com/#/unifiedauditlog)的直接連結。
+    如果您無法從 Office 365 管理中心存取 Exchange 系統管理中心，請移至 https://outlook.office365.com/ecp 並使用您的認證登入。
 
-- 若要檢視租用戶中的 Power BI 稽核記錄，您的租用戶中至少必須有一個 Exchange 信箱的授權。
+* 如果您有稽核記錄的存取權，但並不是全域管理員或 Power BI 服務管理員，您將無法存取 Power BI 管理入口網站。 在此情況下，您必須使用 [Office 365 安全性與合規性中心](https://sip.protection.office.com/#/unifiedauditlog) \(英文\) 的直接連結。
 
 ## <a name="accessing-your-audit-logs"></a>存取您的稽核記錄
 
@@ -51,8 +53,6 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 1. 選取 [前往 O365 系統管理中心]。
 
    ![前往 O365 系統管理中心](media/service-admin-auditing/audit-log-o365-admin-center.png)
-
-若要提供非系統管理員帳戶存取稽核記錄的權限，您必須在 Exchange Online 系統管理中心中指派權限。 比方說，您可將使用者指派至現有的角色群組，例如組織管理，或者使用稽核記錄角色建立新的角色群組。 如需詳細資訊，請參閱 [Exchange Online 中的權限](/exchange/permissions-exo/permissions-exo/)。
 
 ## <a name="search-only-power-bi-activities"></a>僅搜尋 Power BI 活動
 
@@ -119,9 +119,7 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 ## <a name="use-powershell-to-search-audit-logs"></a>使用 PowerShell 來搜尋稽核記錄
 
-您也可以使用 PowerShell，依據您的登入存取稽核記錄。 下列範例顯示如何使用 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 命令來提取 Power BI 稽核記錄項目。
-
-若要使用 [New-PSSession](/powershell/module/microsoft.powershell.core/new-pssession/) 命令，您的帳戶需要獲指派 Exchange Online 授權，而且您需要存取租用戶的稽核記錄。 如需如何連線至 Exchange Online 的詳細資訊，請參閱[連線至 Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/)。
+您也可以使用 PowerShell，依據您的登入存取稽核記錄。 下列範例顯示如何連線至 Exchange Online PowerShell，並接著使用 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 命令來提取 Power BI 稽核記錄項目。 若要執行該指令碼，您必須被指派適當的權限，如[需求](#requirements)一節所述。
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -134,7 +132,7 @@ Import-PSSession $Session
 Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType PowerBI -ResultSize 1000 | Format-Table | More
 ```
 
-如需搭配稽核記錄使用 PowerShell 的另一個範例，請參閱[使用 Power BI 稽核記錄與 PowerShell 來指派 Power BI Pro 授權](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/) \(英文\)。
+如需如何連線至 Exchange Online 的詳細資訊，請參閱[連線至 Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/)。 如需搭配稽核記錄使用 PowerShell 的另一個範例，請參閱[使用 Power BI 稽核記錄與 PowerShell 來指派 Power BI Pro 授權](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/) \(英文\)。
 
 ## <a name="activities-audited-by-power-bi"></a>由 Power BI 稽核的活動
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6fff11d37b0f099effeafb6b88dbfa68af88f3d6
-ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
+ms.openlocfilehash: e83c853ac1c3fc7c7d4d5e79c9f6be965d880361
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53735561"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072282"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -329,7 +329,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ![Power BI 管理入口網站中的內嵌程式碼](media/service-admin-portal/embed-codes.png)
 
-## <a name="organization-visuals"></a>組織視覺效果
+## <a name="organizational-visuals"></a>組織視覺效果
 
 [組織視覺效果] 索引標籤可讓您部署及管理組織內的自訂視覺效果。 使用組織視覺效果時，您可以輕鬆地在您的組織中部署專屬視覺效果，供報表作者從 Power BI Desktop 探索並匯入到其報表。 [深入了解](power-bi-custom-visuals-organization.md)
 

@@ -11,24 +11,24 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/21/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fedfbd8da9b0582c84224ef846cd0ba1c14d0683
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 73350a579096e4126ea2f65654a7d1ed7a4980c1
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223229"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072259"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 報表的視覺效果
 
-視覺效果會顯示在資料中探索到的見解。 Power BI 報表可能需要有一個視覺效果的單一頁面，或是它可能會有充滿視覺效果的頁面。 在 Power BI 服務中，視覺效果可以[從報表釘選到儀表板](../service-dashboard-pin-tile-from-report.md)。 
+視覺效果會顯示在資料中探索到的見解。 Power BI 報表可能需要有一個視覺效果的單一頁面，或是它可能會有充滿視覺效果的頁面。 在 Power BI 服務中，視覺效果可以[從報表釘選到儀表板](../service-dashboard-pin-tile-from-report.md)。
 
 區分報表「建立者」和報表「取用者」很重要。如果您是建置或修改報表的人員，您就是建立者。  建立者具有報表及其基礎資料集的編輯權限。 在 Power BI Desktop 中，這表示您可以在資料檢視中開啟資料集，並在報表檢視建立視覺效果。 在 Power BI 服務中，這表示您可以用[編輯檢視](../consumer/end-user-reading-view.md)在報表編輯器中開啟資料集或報表。 如果報表或儀表板已[與您共用](../consumer/end-user-shared-with-me.md)，您就是報表**取用者**。 您可以檢視報表和其視覺效果並與其互動，但您將無法儲存變更。
 
-有許多不同的視覺效果類型可以直接從 Power BI 的 [視覺效果] 窗格使用。 
+有許多不同的視覺效果類型可以直接從 Power BI 的 [視覺效果] 窗格使用。
 
 ![](media/power-bi-report-visualizations/power-bi-templates.png)
 
-如需更多的選擇，請前往 [Microsoft AppSource 社群網站](https://appsource.microsoft.com)以尋找並下載 Microsoft 和社群所提供的[自訂視覺效果](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1)。    
+如需更多的選擇，請前往 [Microsoft AppSource 社群網站](https://appsource.microsoft.com)以尋找並[下載](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) \(英文\) Microsoft 和社群所提供的[自訂視覺效果](../developer/custom-visual-develop-tutorial.md)。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -41,7 +41,7 @@ ms.locfileid: "51223229"
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>上傳自訂視覺效果並在 Power BI 中使用
 
-新增您自行建立或在 [Microsoft AppSource 社群網站](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)找到的自訂視覺效果。 腦中充滿創造力嗎？ 深入探索我們的原始程式碼，並使用我們的[開發人員工具](../developer/custom-visual-develop-tutorial.md)來創造新的視覺效果類型，然後[將其與社群共用](../developer/office-store.md)
+新增您自行建立或在 [Microsoft AppSource 社群網站](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)找到的自訂視覺效果。 腦中充滿創造力嗎？ 深入探索我們的原始程式碼，並使用我們的[開發人員工具](../developer/custom-visual-develop-tutorial.md)來建立新的視覺效果類型，然後[將其與社群共用](../developer/office-store.md)。 若要深入了解開發自訂視覺效果，請參閱[開發 Power BI 自訂視覺效果](../developer/custom-visual-develop-tutorial.md)。
 
 ## <a name="change-the-visualization-type"></a>變更視覺效果類型
 
@@ -53,4 +53,5 @@ ms.locfileid: "51223229"
 
 ## <a name="next-steps"></a>後續步驟
 
-[Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [自訂視覺效果](../power-bi-custom-visuals.md)

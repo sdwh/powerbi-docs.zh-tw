@@ -8,13 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/26/2018
-ms.openlocfilehash: 9ef7890c6f80845a9e6d1bd02e35778ed866ff54
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 2b7a71baafd8ec2ef839aaca95529221c642357f
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52332073"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072167"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>需要另外購買的 Power BI 視覺效果指導方針
 
@@ -25,7 +26,7 @@ ms.locfileid: "52332073"
 
 ## <a name="whats-changing-in-the-submission-process"></a>提交程序將有何變更？
 
-開發人員會透過賣方儀表板將其 IAP 視覺效果上傳至 AppSource，如同上傳免費的視覺效果。 為了指出提交的視覺效果具有 IAP 功能，開發人員應該在賣方儀表板備註中註明：「需要在應用程式內購買的視覺效果」。 此外，開發人員需要提供授權金鑰或權杖，讓驗證小組可驗證 IAP 功能。 一旦視覺效果經過驗證及核准，則 IAP 視覺效果的 AppSource 清單會在定價選項下方指出「可能需要另外購買」。
+開發人員會透過賣方儀表板將其 IAP 視覺效果上傳至 AppSource，如同上傳免費的視覺效果。 為了指出提交的視覺效果具有 IAP 功能，開發人員應該在賣方儀表板備註中註明：「具有應用程式內購買的視覺效果」。 此外，開發人員需要提供授權金鑰或權杖，讓驗證小組可驗證 IAP 功能。 一旦視覺效果經過驗證及核准，則 IAP 視覺效果的 AppSource 清單會在定價選項下方指出「可能需要另外購買」。
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>什麼是具有 IAP 功能的 Power BI 視覺效果？
 
@@ -59,6 +60,10 @@ IAP 視覺效果是免費的視覺效果並提供免費功能，但您可能需�
 ### <a name="license-key-and-token"></a>授權金鑰和權杖
 
 為了使用者方便起見，請在格式窗格頂端新增授權金鑰或權杖相關欄位，讓使用者更容易找到這些項目。
+
+## <a name="faq"></a>常見問題集
+
+如需詳細資訊和問題的解答，請前往 [需要另外購買之視覺效果的常見問題集](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases)。
 
 ## <a name="next-steps"></a>後續步驟
 
