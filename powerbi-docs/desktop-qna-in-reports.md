@@ -25,7 +25,7 @@ ms.locfileid: "53026722"
 > [!NOTE]
 > 只有在使用包含**已匯入**資料的模型時，才能使用「問與答」。 不支援即時連線至 SSAS 和 DirectQuery 模型。
 >
-> 您若是使用 Windows 10 之前的 Windows 版本，必須安裝下列 C 執行階段更新，才能使用問與答。 您可以嘗試從 Windows Update 安裝重要更新，或是手動安裝 Microsoft 提供的必要元件 (KB2999226)。 https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
+> 您若是使用 Windows 10 之前的 Windows 版本，必須安裝下列 C 執行階段更新，才能使用問與答。 您可以嘗試從 Windows Update 安裝重要更新，或是手動安裝 Microsoft 提供的必要元件 (KB2999226)。 [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
 >
 >
 
