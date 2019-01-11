@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/27/2018
-ms.openlocfilehash: 71cbae5f282883ca26a5bf0b2ae7b5609b86eb58
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578788"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008411"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -321,3 +321,7 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 如需詳細資訊，請參閱[為您的內嵌應用程式進行疑難排解](embedded-troubleshoot.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+
+### <a name="what-are-the-best-practices-to-improve-performance"></a>提升效能的最佳做法為何？
+
+[Power BI Embedded 效能](embedded-performance-best-practices.md)

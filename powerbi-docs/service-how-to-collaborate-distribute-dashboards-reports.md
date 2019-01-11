@@ -1,5 +1,5 @@
 ---
-title: 該如何在 Power BI 中進行共同作業和共用？
+title: 共用成品的方式
 description: 在 Power BI 中，您可以多種方式來共同作業和共用儀表板、報表、磚和應用程式。 各有其優點。
 author: maggiesMSFT
 manager: kfile
@@ -7,23 +7,23 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: bc4f58920feaf5219d63761116ef9a742edd4eed
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908961"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983523"
 ---
-# <a name="how-should-i-collaborate-and-share-in-power-bi"></a>該如何在 Power BI 中進行共同作業和共用？
+# <a name="ways-to-share-your-work-in-power-bi"></a>在 Power BI 中共用成品的方式
 
-您已建立儀表板和報表。 或許您也透過它們與同事共同作業。 然後，您希望其他人可以存取它們。 散發它們的最佳方式為何？
+您已建立儀表板和報表。 或許您也已透過它們與同事共同作業。 現在，您希望其他人可以存取它們。 散發它們的最佳方式為何？
 
 在本文中，我們將比較 Power BI 內共同作業與共用的選項： 
 
-* 與同事共同作業，以在「應用程式工作區」中建立有意義的報表和儀表板。
+* 與同事共同作業，以在「工作區」中建立有意義的報表和儀表板。
 * 將這些儀表板和報告結合為「應用程式」，並將它們發佈給較大的群組或您的整個組織。
 * 從服務或 Power BI 行動裝置應用程式，與一些人員共用儀表板或報表。
 - 列印報表。
@@ -35,25 +35,25 @@ ms.locfileid: "48908961"
 
 *Power BI 服務中的應用程式*
 
-## <a name="collaborate-with-coworkers-in-an-app-workspace"></a>在應用程式工作區中與同事共同作業
+## <a name="collaborate-with-coworkers-in-a-workspace"></a>在工作區中與同事共同作業
 
-當小組共同合作時，其需要存取相同的文件，讓他們可以快速地進行共同作業。 Power BI 中的應用程式工作區提供讓小組聚集在一起的地方，以便針對他們的重要儀表板、報表、資料集和活頁簿共用其擁有權和管理。 有時候 Power BI 使用者會根據組織的結構組織其工作區，其他時間則是針對特定專案建立工作區。 還是有其他組織使用數個工作區，來儲存他們所使用之不同版本的報表或儀表板。 
+當小組共同合作時，其需要存取相同的文件，讓他們可以快速地進行共同作業。 Power BI 中的工作區提供讓小組聚集在一起的地方，以便針對他們的重要儀表板、報表、資料集和活頁簿共用其擁有權和管理。 有時候 Power BI 使用者會根據組織的結構組織其工作區，其他時間則是針對特定專案建立工作區。 還是有其他組織使用數個工作區，來儲存他們所使用之不同版本的報表或儀表板。 
 
-應用程式工作區提供的角色可決定您的同事具有哪些權限。 您可以使用這些角色來判斷可以管理整個工作區，或只是向其提供內容的人員。
+工作區提供可決定您同事具有哪些權限的角色。 您可以使用這些角色來判斷可以管理整個工作區，或只是向其提供內容的人員。
 
-![應用程式工作區](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![工作區](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
 
-有些使用者會自然地將內容放入 [我的工作區]，然後共用它。應用程式工作區在共同作業方面優於 [我的工作區]，因為它們提供內容的共同擁有權。 您和您的整個小組可以輕鬆地進行更新或授與其他人存取權。 [我的工作區] 最適合個人用於一次性或個人內容。
+有些使用者會自然地將內容放入 [我的工作區]，然後共用它。工作區比 [我的工作區] 更適合共同作業，原因是它們提供內容的共同擁有權。 您和您的整個小組可以輕鬆地進行更新或授與其他人存取權。 [我的工作區] 最適合個人用於一次性或個人內容。
 
-讓我們假設您有要與同事共用的已完成儀表板。 授與他們儀表板存取權的最佳方式為何？ 答案需視許多因素而定。 如果特定同事必須擁有儀表板並將它保持為最新狀態，或者需要存取應用程式工作區中的所有內容，最好是將它們新增至工作區中。 如果您的同事只需要查看該儀表板而不是工作區中的所有內容，您可以再次從一組替代項目中進行選擇。 如果儀表板是您必須散發給許多同事之更大內容集的一部分，則發佈應用程式可能是最佳選擇。 不過，如果同事只需要該儀表板，則共用儀表板可能是最佳前進途徑。 
+讓我們假設您有要與同事共用的已完成儀表板。 授與他們儀表板存取權的最佳方式為何？ 答案需視許多因素而定。 如果特定同事必須擁有儀表板並將它保持為最新狀態，或者需要存取工作區中的所有內容，建議將它們新增至工作區中。 如果您的同事只需要查看該儀表板而不是工作區中的所有內容，您可以再次從一組替代項目中進行選擇。 如果儀表板是您必須散發給許多同事之更大內容集的一部分，則發佈應用程式可能是最佳選擇。 不過，如果同事只需要該儀表板，則共用儀表板可能是最佳前進途徑。 
 
-深入了解[建立應用程式工作區](service-create-workspaces.md)。
+深入閱讀[建立工作區](service-create-workspaces.md)。
 
 **您知道嗎？** Power BI 正在預覽新的工作區體驗。 請閱讀[建立新的工作區 (預覽)](service-create-the-new-workspaces.md) 來查看工作區未來如何變更。 
 
 ## <a name="distribute-data-and-insights-by-creating-an-app"></a>建立應用程式來散發資料與見解
 
-假設您想要將自己的儀表板散發給廣大的群眾。 您和同事已建立「應用程式工作區」，且接著在應用程式工作區中建立並調整儀表板、報表和資料集。 現在，您可以選取您想要的儀表板和報表，並將其以應用程式的形式發佈給群組或整個組織。 
+假設您想要將自己的儀表板散發給廣大的群眾。 您和同事已建立「工作區」，接著在工作區中建立並調整了儀表板、報表和資料集。 現在，您可以選取您想要的儀表板和報表，並將其以應用程式的形式發佈給群組或整個組織。 
 
 ![發佈應用程式圖示](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
@@ -66,7 +66,7 @@ ms.locfileid: "48908961"
 您也可以將應用程式發佈給組織外部的使用者。 他們可以檢視應用程式內容並與其互動，但不能與其他人共用應用程式內容。
 
 ## <a name="share-dashboards-and-reports"></a>共用儀表板和報表
-假設您已在自己的 [我的工作區] 或在應用程式工作區中完成儀表板和報表，而且希望一些其他人可以存取此儀表板或報表。 其中一項存取方法是「共用」它。 
+假設您已在自己的 [我的工作區] 或在工作區中完成儀表板和報表，而且希望一些其他人可加以存取。 其中一項存取方法是「共用」它。 
 
 ![共用圖示](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 

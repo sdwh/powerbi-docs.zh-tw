@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/12/2018
-ms.openlocfilehash: 010a26076fe139401eb2dbbc363c712d67c637fb
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.date: 12/20/2018
+ms.openlocfilehash: 5ee6758093969a2db1d932a88f21c965380bab5c
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329709"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008434"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -291,3 +291,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 
 若需要進一步的協助，請[連絡客戶支援](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded)，或[透過 Azure 入口網站建立支援票證](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)，並提供您遇到的錯誤訊息。
+
+## <a name="performance"></a>效能
+
+[Power BI Embedded 效能](embedded-performance-best-practices.md)
