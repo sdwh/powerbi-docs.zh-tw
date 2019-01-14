@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: f272d0e40de5c65de9134c3d184195889233496b
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: ae0126c6242508a551e094d3e40a57e7e6868ab3
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280918"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983868"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -39,7 +39,7 @@ ms.locfileid: "53280918"
 
 ### <a name="supporting-report-query-string"></a>支援報表查詢字串 
 
-開啟包括查詢字串的報表連結現在將會在行動裝置應用程式中開啟，而且會根據查詢字串中定義的條件預先填入。 深入了角[如何使用查詢字串建立報表 URL](https://docs.microsoft.com/en-us/power-bi/service-url-filters/)。  
+開啟包括查詢字串的報表連結現在將會在行動裝置應用程式中開啟，且會根據查詢字串中定義的條件預先填入。 深入了角[如何使用查詢字串建立報表 URL](https://docs.microsoft.com/en-us/power-bi/service-url-filters/)。  
 
 ### <a name="shared-credentials-now-in-android"></a>共用認證 (現在位於 Android 中)
 

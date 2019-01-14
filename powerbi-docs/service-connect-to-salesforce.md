@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 02b98d807ccc84aa83826ae5e9eecdbdd1987a91
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548250"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008572"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>使用 Power BI 連接到 Salesforce
 您可以使用 Power BI 輕鬆地連接到您的 Salesforce.com 帳戶。 建立此連接時可擷取您的資料，並自動依據您的資料提供儀表板和相關報表。
@@ -80,7 +80,7 @@ ms.locfileid: "46548250"
 
 ### <a name="unable-to-connect-to-the-remote-server-message"></a>「無法連線到遠端伺服器」訊息
 
-若您在嘗試連線到 Salesforce 帳戶時收到「無法連線到遠端伺服器」的訊息，請參閱 Outsystems 論壇上的這個解決方案：[Salesforce Connector Log In Error Message: Unable to connect to the remote server](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&) (Salesforce 連接器登入錯誤訊息：無法連線到遠端伺服器)
+若您在嘗試連線到 Salesforce 帳戶時收到「無法連線到遠端伺服器」的訊息，請參閱 Outsystems 論壇上的這個解決方法：[Salesforce Connector Log In Error Message:Unable to connect to the remote server](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&) (Salesforce 連接器登入錯誤訊息：無法連線到遠端伺服器)
 
 
 ## <a name="next-steps"></a>後續步驟

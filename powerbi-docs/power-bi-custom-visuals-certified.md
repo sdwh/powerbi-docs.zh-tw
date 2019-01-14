@@ -9,13 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 7830aa829dc05e29ec0b8dc23d7f35b58991b007
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e839fabffc685ac0f97146cb7ee5218039df1c18
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830140"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056171"
 ---
 # <a name="certified-custom-visuals"></a>認證的自訂視覺效果
 
@@ -62,7 +63,7 @@ Microsoft 可自行斟酌將視覺效果自[認證清單](#list-of-custom-visual
 提交自訂視覺效果進行認證：
 
 1. 將電子郵件傳送至 Power BI 自訂視覺效果支援小組 (pbicvsupport@microsoft.com)。 於電子郵件中包括下列資訊︰
-    * 標題︰視覺效果認證要求
+    * 標題：視覺效果認證要求
     * 連結人類可讀取原始程式碼裝載所在的 GitHub 存放庫
     * [遵守需求](#certification-requirements)
     * 通過程式碼檢閱
@@ -73,6 +74,7 @@ Microsoft 可自行斟酌將視覺效果自[認證清單](#list-of-custom-visual
 
 | AppSource 的連結 | 影片的連結 |
 | --- | --- |
+| [3AG Systems - Column Chart With Relative Variance](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) (3AG Systems - 顯示相對變異數的直條圖) | |
 | [Aster Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) (Aster 繪圖) | |
 | [Beyondsoft Calendar](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) (Beyondsoft 行事曆) | |
 | [Bowtie Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) (MAQ Software 的蝴蝶結圖表) | [影片](https://youtu.be/So5xKMSpVJI) |

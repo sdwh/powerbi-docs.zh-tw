@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2018
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bba674df9864697199a274698a1b17320b8ccd80
-ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
+ms.openlocfilehash: eaf76f2ba762a603bf37385ea00cd714499db4b5
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40257183"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983408"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Power BI 中的連接器擴充性
 
@@ -42,7 +42,7 @@ ms.locfileid: "40257183"
 * (建議) 僅允許認證的延伸模組載入
 * (不建議) 允許任何延伸模組載入而不警告
 
-如果您計劃使用**自訂連接器**，或是您或協力廠商已開發並散發的連接器，您必須選取 [(不建議) 允許任何延伸模組載入而不警告]。 除非您計劃執行**自訂連接器**，否則不建議使用該安全性設定。
+如果您計劃使用**自訂連接器**，或是您或協力廠商已開發並散發的連接器，您必須選取 [(不建議) 允許任何延伸模組載入而不警告]。 除非您絕對信任您的自訂連接器，否則我們不建議使用該安全性設定，因為裡面的程式碼可以處理認證 (包括透過 HTTP 傳送它們)，並忽略隱私權等級。
 
 在 [(建議)] 安全性設定中，如果您的系統上有自訂連接器，則會顯示錯誤，指出連接器由於安全性而無法載入。
 

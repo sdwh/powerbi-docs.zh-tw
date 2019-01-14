@@ -1,24 +1,24 @@
 ---
-title: 視覺效果中的彙總 (加總、平均、最大值等)
-description: 在 Power BI 中變更圖表的彙總 (加總、平均、最大值等)
+title: 在 Power BI 服務中使用彙總 (加總、平均等等)
+description: 了解如何在 Power BI 服務中變更圖表的彙總 (加總、平均、最大值等)。
 author: mgblythe
-manager: kvivek
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 12/21/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: dfc3006c37d6055bac435fceb05febd596f0cd1a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7a88cc7f210c6119e57a5dcf30920a95e180b85f
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026469"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983707"
 ---
-# <a name="aggregates-in-power-bi-visualizations"></a>Power BI 視覺效果中的彙總
+# <a name="work-with-aggregates-sum-average-etc-in-the-power-bi-service"></a>在 Power BI 服務中使用彙總 (加總、平均等等)
 ## <a name="what-is-an-aggregate"></a>什麼是彙總？
 有時候您會想要以數學方式結合資料中的值。 數學運算可能是加總、平均、最大值、計數等等。當您結合資料中的值時，它稱為「彙總」。 數學運算的結果是「彙總值」。 
 
@@ -70,16 +70,16 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 
 彙總欄位可用的某些選項：
 
-* **不加總**。 選擇了此選項，該欄位中的每個值會分開處理且不加總。 如果有不應該加總的數值識別碼資料行，這很常用。
-* **加總**。 這會加總該欄位中的所有值。
+* **不加總**。 選擇了此選項，該欄位中的每個值會分開處理且不加總。 如果有不應該加總的數值識別碼資料行，請使用此選項。
+* **加總**。 加總該欄位中的所有值。
 * **平均**。 求出值的算術平均值。
 * **最小值**。 顯示最小的值。
 * **最大值**。 顯示最大的值。
-* **計數 (沒有空格)。** 這會計算該欄位中不是空白值的數目。
-* **計數 (相異)。** 這會計算該欄位中不同值的數目。
+* **計數 (沒有空格)。** 計算該欄位中不是空白值的數目。
+* **計數 (相異)。** 計算該欄位中不同值的數目。
 * **標準差。**
 * **變異數**。
-* **中位數**。  顯示中間值。 這是具有相同項目數以上或以下的值。  如果有兩個中位數，Power BI 會取其平均值。
+* **中位數**。  顯示中間值。 此值之上和之下具有相同的項目數。  如果有兩個中位數，Power BI 會取其平均值。
 
 例如，下列資料：
 
@@ -109,7 +109,7 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 ## <a name="create-an-aggregate-using-a-category-text-field"></a>建立使用類別 (文字) 欄位的彙總
 您也可以彙總非數值欄位。 例如，如果有產品名稱欄位，您可以將它新增為值，然後將它設定為 [計數]、[相異計數]、[第一個] 或 [最後一個]。 
 
-1. 在此範例中，我們已將 [產品] 欄位拖入 [值]。 [值] 通常用於數值欄位。 Power BI 會辨識這是一個文字欄位、將彙總設為 [不摘要]，並呈現單一資料行的資料表。
+1. 在此範例中，我們已將 [產品] 欄位拖入 [值]。 [值] 通常用於數值欄位。 Power BI 會辨識此欄位是一個文字欄位、將彙總設為 [不摘要]，並呈現單一資料行的資料表。
    
    ![[值] 中的 [產品] 欄位](media/service-aggregates/power-bi-aggregate-value.png)
 2. 如果將彙總從預設的 [不摘要] 變更為 [計數 (相異)] ，Power BI 就會計算不同產品的數目。 在本案例中有 4 個。
@@ -141,11 +141,11 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 >[!NOTE]
 >此規則的例外狀況是散佈圖，「需要」彙總 X 軸和 Y 軸的值。
 
-問：為何我無法針對 SSAS 資料來源對文字欄位進行彙總？
+問：為何我無法針對 SQL Server Analysis Services (SSAS) 資料來源對文字欄位進行彙總？
 
-答：對 SSAS MD 的即時連線不允許任何用戶端彙總。 這包括 first、last、avg、min、max 與 sum。
+答：SSAS 多維度模型的即時連線不允許任何用戶端彙總，包括 first、last、avg、min、max 和 sum。
 
-問：我有散佈圖，而且我希望我的欄位「不要」彙總。  要怎麼做？
+問：我有散佈圖，而且我希望我的欄位「不要」彙總。  怎麼做？
 
 答：將欄位新增至 [詳細資料] 值區，而不是 X 或 Y 軸的值區。
 

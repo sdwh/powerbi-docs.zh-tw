@@ -7,25 +7,25 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: 55f592101954ae5c0724fb5b48fb2571a1bdfc51
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "53451413"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983684"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>與同事在 Power BI 中建立工作區
 
-在 Power BI 中，您可以建立「工作區」，這是要與同事共同作業來建立並精簡儀表板和報表集合的地方。 然後，請將這些儀表板和報表集合組合成「應用程式」，將其散發給整個組織或是特定人員或群組。 
+在 Power BI 中，您可以建立「工作區」，這是要與同事共同作業來建立並精簡儀表板和報表集合的地方。 然後，請將集合組合成「應用程式」，將其散發給整個組織或是特定人員或群組。 
 
 ![Power BI 應用程式](media/service-create-workspaces/power-bi-apps-left-nav.png)
 
-當您建立工作區時，即會建立基礎的相關聯 Office 365 群組。 所有工作區管理都是在 Office 365 中進行管理。 您可以將同事新增至這些工作區，作為成員或系統管理員。 在工作區中，您們全都可以共同處理儀表板、報告和文章，以準備發佈給更多對象。 新增至應用程式工作區的每個人都必須有 Power BI Pro 授權。 
+當您建立工作區時，即會建立基礎的相關聯 Office 365 群組。 所有工作區管理都是在 Office 365 中進行管理。 您可以將同事新增至這些工作區，作為成員或系統管理員。 在工作區中，您們全都可以共同處理儀表板、報表和其他文章，以準備發佈給更多對象。 新增至應用程式工作區的每個人都必須有 Power BI Pro 授權。 
 
-**您知道嗎？** Power BI 正在預覽新的工作區體驗。 請閱讀[建立新的工作區 (預覽)](service-create-the-new-workspaces.md) 來查看工作區未來如何變更。 
+**您知道嗎？** Power BI 正在預覽新的工作區體驗。 如需新工作區的詳細資料，請參閱[在新的工作區中組織工作 (預覽)](service-new-workspaces.md)。 
 
 ## <a name="video-apps-and-app-workspaces"></a>影片：應用程式及應用程式工作區
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -84,12 +84,12 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>應用程式與組織內容套件的差異為何？
 應用程式是組織內容套件的演進。 如果您已經有組織內容套件，則它們會繼續與應用程式並存運作。 應用程式和內容套件有一些主要差異。 
 
-* 商務使用者在安裝內容組件之後失去其群組身分識別︰它只是與其他儀表板和報表穿插的儀表板和報表清單。 相反地，應用程式會維護其群組和身分識別，即使在安裝之後也是一樣。 這可讓商務使用者在經過一段時間之後仍可輕鬆地繼續進行導覽。
+* 商務使用者在安裝內容組件之後失去其群組身分識別︰它只是與其他儀表板和報表穿插的儀表板和報表清單。 相反地，應用程式會維護其群組和身分識別，即使在安裝之後也是一樣。 這種分組可讓商務使用者在經過一段時間之後仍可輕鬆地繼續進行導覽。
 * 您可以從任何工作區建立多個內容套件，但應用程式與其工作區具有 1:1 關聯性。 
 * 經過一段時間之後，我們計劃要淘汰組織內容套件，因此建議您從現在開始建立應用程式。  
 * 使用新的工作區體驗預覽，我們對淘汰組織內容套件邁出第一步。 您無法在預覽工作區中使用或建立它們。
 
-請參閱[新的應用程式工作區與現有應用程式工作區有何不同？](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces)來比較目前和新的應用程式工作區。 
+請參閱[新的應用程式工作區與現有應用程式工作區有何不同？](service-new-workspaces.md#how-are-the-new-workspaces-different-from-current-workspaces)來比較這兩者。 
 
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI 中安裝和使用應用程式](service-create-distribute-apps.md)

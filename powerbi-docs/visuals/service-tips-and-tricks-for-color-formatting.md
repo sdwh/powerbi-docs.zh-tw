@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 12/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04e00537db4ffbcb6c1a154cb69fb2c856bd7596
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565651"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983362"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>在 Power BI 中色彩格式化的秘訣和訣竅
 Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 本文詳細說明一系列秘訣，讓您的 Power BI 視覺效果更吸引人、更加有趣，且視您的需求自訂。
@@ -29,38 +29,35 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 * 使用發散色階
 * 如何在 Power BI 中復原
 
-若要進行任何變更，您必須編輯報表：從 [我的工作區]  窗格選取您的 [報表]  ，然後從頂端功能表區域選取 [編輯報表]  ，如下圖所示。
+若要進行任何變更，您必須編輯報表：從 [我的工作區]  窗格選取您的 [報表]  ，然後從頂端功能表區域選取 [編輯報表]  ，如下圖所示。 此範例使用**人力資源範例**。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_1.png)
+![醒目提示的 [編輯報表] 報表畫布](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
 當 [視覺效果]  窗格出現於 [報表]  畫布的右邊之後，您就已經準備好開始自訂了。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_2.png)
+![顯示格式化窗格的報表](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>變更單一資料點的色彩
-有時候您會想要醒目顯示一個特定的資料點。 可能是新產品上市的銷售數字，或推行新計畫之後提升的品質分數。 您可以使用 Power BI 來變更其色彩，進而醒目顯示特定資料點。
+有時候您會想要醒目顯示一個特定的資料點。 可能是新產品上市的銷售數字，或推行新計畫之後提升的品質分數。 使用 Power BI 以及大部分視覺效果類型，您可以變更特定資料點的色彩來加以醒目顯示。
 
-下列的視覺效果依據生活費用，將各州排序。 
+下列視覺效果會使用預設色彩，依員工來顯示銷售毛利率。 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_3.png)
+![區域圖](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
 
-現在假設您想要使用色彩，進而在該清單中，快速顯示華盛頓落在哪個等級。 以下是步驟：
+很難看到 Annelie 的區域，因此讓我們使用色彩來更加突顯它。 以下是步驟：
 
 展開 [資料色彩]  區段。 下列區段隨即出現。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_4.png)
+![[格式化] 下的資料色彩選取區域](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
 
-將 [全部顯示]  設定為 [開啟] 。 這會顯示視覺效果中每個資料項目的色彩。 當您將滑鼠停留在資料點時，會啟用捲動，讓您可以修改任何資料點。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_5.png)
+在此案例中，讓我們選取深而亮的色彩，且不同於 Valery 所使用的色彩。 依序選取 Annelie 色彩方塊中的向下箭號、[自訂色彩]，然後選擇亮藍色。
 
-在此情況下，我們可以變更 [華盛頓]  為綠色。 我們向下捲動至 [華盛頓]  ，選取其色彩方塊內的向下箭號，之後 [色彩選擇] 視窗隨即出現。
+![色彩選擇](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+選取之後，Annelie 的區域便很容易與其他員工區別。 
 
-選取之後，[華盛頓]  資料點是美觀的綠色，而且肯定會凸顯出來。
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_7.png)
+![區域圖，Annalie 的區域現在是亮藍色](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
 
 即使您變更了視覺效果類型，然後返回，Power BI 仍會記住您的選擇，並將 [華盛頓]  保持為綠色。
 

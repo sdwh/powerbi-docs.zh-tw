@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f997ee7574c5dd9dc6b4d28767d599a97bf297ed
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a2402872744b3029e37bf49eaaeae27a3ad95734
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669834"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983615"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>在 Power BI Desktop 中使用數值範圍交叉分析篩選器
 透過 [數值範圍交叉分析篩選器]，您可以將各式各樣的篩選器套用至資料模型中的任何數值資料行。 您可以選擇篩選兩個數字**之間**、**小於或等於**某個數字，或是**大於或等於**某個數字。 這聽起來或許很簡單，但卻是篩選資料的強大方式。
@@ -54,6 +54,14 @@ ms.locfileid: "52669834"
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>使用數值範圍交叉分析篩選器貼齊至整數
 
 如果基礎欄位的資料類型為 [整數]，數值範圍交叉分析篩選器會貼齊至整數。 這樣可讓您的交叉分析篩選器完全對齊整數。 [十進位數字] 類型欄位可讓您輸入或選取數字的小數部分。 文字方塊中套用的格式會符合欄位上設定的格式，不過您可以鍵入或選取更精確的數字。
+
+## <a name="display-formatting-with-the-date-range-slicer"></a>日期範圍交叉分析篩選器顯示的格式化
+
+當使用交叉分析篩選器來顯示或設定日期範圍時，日期的格式一律會使用 [簡短日期] 格式來顯示，並根據使用者的瀏覽器或作業系統地區設定。 不論基礎資料或模型的資料類型設定為何，皆是此顯示格式。 
+
+例如，您的基礎資料類型可能為完整日期格式 (例如 *dddd, MMMM d, yyyy*，這會在其他視覺效果或情況下，將日期格式化為 *Wednesday, March 14, 2001*)，但在日期範圍交叉分析篩選器中，該日期會在交叉分析篩選器中顯示為 *03/14/2001*。
+
+在交叉分析篩選器顯示 [簡短日期] 格式，可確保字串的長度會在交叉分析篩選器內保持一致且精簡。 
 
 
 ## <a name="limitations-and-considerations"></a>限制與考量

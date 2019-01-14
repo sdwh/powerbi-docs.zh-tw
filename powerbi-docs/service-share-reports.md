@@ -1,6 +1,6 @@
 ---
-title: 篩選並與同事共用 Power BI 報表
-description: 了解如何與組織中的同事共用已篩選的 Power BI 報表。
+title: 與同事共用已篩選的 Power BI 報表
+description: 了解如何篩選 Power BI 報表並與組織中的同事共用。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
@@ -8,25 +8,26 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 38a735a6cc258f3285787202b832ade9c6525994
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: d5e05775d310af37b2c96c6e9e255de25fe5effe
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51678964"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983431"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>與同事共用已篩選的 Power BI 報表
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 還提供[數種其他方式可進行共同作業及散發您的報表](service-how-to-collaborate-distribute-dashboards-reports.md)。
 
-若要共用，您和您的收件者必須具有 [Power BI Pro 授權](service-features-license-type.md)，或內容必須位於[進階容量](service-premium.md)中。 有任何建議嗎？ Power BI 小組向來重視您的意見反應，請前往 [Power BI 社群網站](https://community.powerbi.com/)。
+若要共用，您和您的收件者必須具有 [Power BI Pro 授權](service-features-license-type.md)，或內容必須位於[進階容量](service-premium.md)中。 
 
-您可以從 Power BI 服務中的許多位置，與位於相同電子郵件網域的同事共用報表：您的 [我的最愛]、[最近]、[與我共用] \(如果擁有者允許的話\)、[我的工作區] 或其他工作區。 當您與他人共用報表時，他們可以檢視此報表並與之互動，但是無法編輯此報表。 除非套用[資料列層級安全性 (RLS)](service-admin-rls.md)，否則他們會看到您在報表中看到的相同資料。 
+您可以從 Power BI 服務中的許多位置，與位於相同電子郵件網域的同事共用報表：您的 [我的最愛]、[最近]、[與我共用] \(如果擁有者允許的話\)、[我的工作區] 或其他工作區。 當您與同事共用報表時，其可以檢視此報表並與之互動，但是無法編輯此報表。 除非套用[資料列層級安全性 (RLS)](service-admin-rls.md)，否則他們會看到您在報表中看到的相同資料。 
+
+如果要共用報表的篩選版本呢？ 可能是只顯示特定城市或特定銷售人員或特定年份等資料的報表。 嘗試建立自訂 URL。 當收件者第一次開啟報表時，將會篩選報表。 收件者可以修改 URL，以移除篩選條件。
 
 ## <a name="filter-and-share-a-report"></a>篩選並共用報表
-如果要共用報表的篩選版本呢？ 可能是只顯示特定城市或特定銷售人員或特定年份等資料的報表。 您可以建立自訂 URL 來完成這項工作。
 
 1. 在 [[編輯檢視]](consumer/end-user-reading-view.md) 中開啟報告，套用篩選條件，然後儲存報告。
    
@@ -37,7 +38,7 @@ ms.locfileid: "51678964"
    
    ?filter=<資料表名稱>/<檔案名稱> eq <值>
    
-    欄位必須是**字串**類型，而且 <表格名稱> 或 <欄位名稱> 都不可以包含空格。
+    此欄位必須是**字串**類型。 *tablename* 或 *fieldname* 值不能包含空格。
    
    在本例中，資料表的名稱是 **Store**、欄位名稱是 **Territory**，要篩選的值是 **NC**：
    
