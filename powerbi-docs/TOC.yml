@@ -70,8 +70,10 @@ items:
       href: desktop-directquery-about.md
     - name: DirectQuery 支援的資料來源
       href: desktop-directquery-data-sources.md
-    - name: Power BI 資料來源必要條件
+    - name: Power BI 資料來源先決條件
       href: desktop-data-source-prerequisites.md
+    - name: Power BI 中多維度模型的預設成員
+      href: desktop-default-member-multidimensional-models.md
     - name: 自訂視覺效果常見問題集
       href: power-bi-custom-visuals-faq.md
   - name: 如何
@@ -104,6 +106,8 @@ items:
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: 自訂視覺化標題、背景和圖例
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
+    - name: 在 Power BI 中顯示沒有資料的項目
+      href: desktop-show-items-no-data.md
     - name: 連接到資料
       items:
       - name: Power BI Desktop 中的資料來源
@@ -736,7 +740,7 @@ items:
           href: service-connect-to-connect-to.md
         - name: GitHub
           href: service-connect-to-github.md
-        - name: Google Analytics (分析)
+        - name: Google Analytics
           href: service-connect-to-google-analytics.md
         - name: Insightly
           href: service-connect-to-insightly.md
@@ -864,8 +868,10 @@ items:
       items:
       - name: 效能最佳做法
         href: developer/embedded-performance-best-practices.md
-      - name: 資料列層級安全性 (RLS)
+      - name: 資料列層級安全性
         href: developer/embedded-row-level-security.md
+      - name: 管理多租用戶
+        href: developer/embed-multi-tenancy.md
       - name: 適用於 Power BI Embedded 的 Azure 診斷記錄
         href: developer/azure-pbie-diag-logs.md
       - name: 內嵌常見問題集
@@ -1287,9 +1293,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: cf29eebc31ef8a62b20b08606e97b4fd035b3fec
-ms.sourcegitcommit: c4455dcb6d9a091ac80f4a5135433b162fcaba58
+ms.openlocfilehash: a3abfd814e95ca00c433b66e7fe6aad665f8426f
+ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "54211359"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "54239282"
