@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: de16c10a03654802e4c65bfa92e60259e2f9510d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310444"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291738"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 報表伺服器中的 Power BI 報表資料來源
 Power BI 報表可以連接到數種資料來源。 根據使用資料的方式而定，可以使用不同的資料來源。 可以匯入資料，或者使用 DirectQuery 或與 SQL Server Analysis Services 的即時連線，直接查詢資料。
@@ -47,7 +47,7 @@ Power BI 報表可以連接到數種資料來源。 根據使用資料的方式�
 | Dynamics 365 (線上) |是 |否 |否 |
 | Facebook |是 |否 |否 |
 | 資料夾 |是 |是 |否 |
-| Google Analytics (分析) |是 |否 |否 |
+| Google Analytics |是 |否 |否 |
 | Hadoop 檔案 (HDFS) |是 |否 |否 |
 | IBM DB2 資料庫 |是 |是 |否 |
 | Impala |是 |否 |否 |
@@ -58,7 +58,7 @@ Power BI 報表可以連接到數種資料來源。 根據使用資料的方式�
 | OData 摘要 |是 |是 |否 |
 | ODBC |是 |是 |否 |
 | OLE DB |是 |是 |否 |
-| Oracle 資料庫 |是 |是 |是 |
+| Oracle Database |是 |是 |是 |
 | PostgreSQL 資料庫 |是 |是 |否 |
 | Power BI 服務 |否 |否 |否 |
 | R Script |是 |否 |否 |
@@ -69,44 +69,44 @@ Power BI 報表可以連接到數種資料來源。 根據使用資料的方式�
 | SharePoint 資料夾 (內部部署) |是 |是 |否 |
 | SharePoint 清單 (內部部署) |是 |是 |否 |
 | SharePoint Online 清單 |是 |否 |否 |
-| 雪花式 |是 |否 |否 |
+| Snowflake |是 |否 |否 |
 | Sybase 資料庫 |是 |是 |否 |
 | Teradata 資料庫 |是 |是 |是 |
 | Text/CSV |是 |是 |否 |
 | Web |是 |是 |否 |
 | XML |是 |是 |否 |
-| appFigures (Beta) |是 |否 |否 |
+| appFigures (搶鮮版 (Beta)) |是 |否 |否 |
 | Azure Analysis Services 資料庫 |是 |否 |是 |
 | Azure Cosmos DB (搶鮮版 (Beta)) |是 |否 |否 |
 | Azure HDInsight Spark (Beta) |是 |否 |否 |
 | Common Data Service (搶鮮版 (Beta)) |是 |否 |否 |
-| comScore Digital Analytix (Beta) |是 |否 |否 |
-| Dynamics 365 for Customer Insights (Beta) |是 |否 |否 |
+| comScore Digital Analytix (搶鮮版 (Beta)) |是 |否 |否 |
+| Dynamics 365 for Customer Insights (搶鮮版 (Beta)) |是 |否 |否 |
 | Dynamics 365 for Financials (搶鮮版 (Beta)) |是 |否 |否 |
 | GitHub (Beta) |是 |否 |否 |
 | Google BigQuery (搶鮮版 (Beta)) |是 |否 |否 |
 | IBM Informix 資料庫 (搶鮮版 (Beta)) |是 |否 |否 |
-| IBM Netezza (Beta) |是 |否 |否 |
+| IBM Netezza (搶鮮版 (Beta)) |是 |否 |否 |
 | Kusto (搶鮮版 (Beta)) |是 |否 |否 |
-| MailChimp (Beta) |是 |否 |否 |
-| Microsoft Azure Consumption Insights (搶鮮版 (Beta)) |是 |否 |否 |
+| MailChimp (搶鮮版 (Beta)) |是 |否 |否 |
+| Microsoft Azure 使用量見解 (搶鮮版 (Beta)) |是 |否 |否 |
 | Mixpanel (搶鮮版 (Beta)) |是 |否 |否 |
 | Planview Enterprise (Beta) |是 |否 |否 |
 | Projectplace (搶鮮版 (Beta)) |是 |否 |否 |
-| QuickBooks Online (Beta) |是 |否 |否 |
+| QuickBooks Online (搶鮮版 (Beta)) |是 |否 |否 |
 | Smartsheet |是 |否 |否 |
 | Spark (Beta) |是 |否 |否 |
-| SparkPost (Beta) |是 |否 |否 |
+| SparkPost (搶鮮版 (Beta)) |是 |否 |否 |
 | SQL Sentry (Beta) |是 |否 |否 |
 | Stripe (搶鮮版 (Beta)) |是 |否 |否 |
-| SweetIQ (Beta) |是 |否 |否 |
+| SweetIQ (搶鮮版 (Beta)) |是 |否 |否 |
 | Troux (Beta) |是 |否 |否 |
-| Twilio (Beta) |是 |否 |否 |
-| tyGraph (Beta) |是 |否 |否 |
+| Twilio (搶鮮版 (Beta)) |是 |否 |否 |
+| tyGraph (搶鮮版 (Beta)) |是 |否 |否 |
 | Vertica (搶鮮版 (Beta)) |是 |否 |否 |
-| Visual Studio Team Services (Beta) |是 |否 |否 |
-| Webtrends (Beta) |是 |否 |否 |
-| Zendesk (Beta) |是 |否 |否 |
+| Visual Studio Team Services (搶鮮版 (Beta)) |是 |否 |否 |
+| Webtrends (搶鮮版 (Beta)) |是 |否 |否 |
+| Zendesk (搶鮮版 (Beta)) |是 |否 |否 |
 
 > [!IMPORTANT]
 > 在資料來源設定的資料列層級安全性，應該適用於特定 DirectQuery (SQL Server、Azure SQL Database、Oracle 和 Teradata)，且即時連線假設 Kerberos 已在您的環境中適當設定。
@@ -134,7 +134,7 @@ Power BI 報表伺服器對模型重新整理不支援 OAuth 型驗證。 例如
 | Dynamics 365 (線上) |否 |否 |否 |否 |
 | Facebook |否 |否 |否 |否 |
 | 資料夾 |否 |否 |否 |是 |
-| Google Analytics (分析) |否 |否 |否 |否 |
+| Google Analytics |否 |否 |否 |否 |
 | Hadoop 檔案 (HDFS) |否 |否 |否 |否 |
 | IBM DB2 資料庫 |否 |否 |是 |是 |
 | Impala |否 |否 |否 |否 |
@@ -144,7 +144,7 @@ Power BI 報表伺服器對模型重新整理不支援 OAuth 型驗證。 例如
 | OData 摘要 |是 |是 |是 |是 |
 | ODBC |是 |否 |是 |是 |
 | OLE DB |是 |否 |是 |是 |
-| Oracle 資料庫 |否 |否 |是 |是 |
+| Oracle Database |否 |否 |是 |是 |
 | PostgreSQL 資料庫 |否 |否 |是 |否 |
 | Power BI 服務 |否 |否 |否 |否 |
 | R Script |否 |否 |否 |否 |
@@ -155,41 +155,41 @@ Power BI 報表伺服器對模型重新整理不支援 OAuth 型驗證。 例如
 | SharePoint 資料夾 (內部部署) |是 |否 |否 |是 |
 | SharePoint 清單 (內部部署) |是 |否 |否 |是 |
 | SharePoint Online 清單 |否 |否 |否 |否 |
-| 雪花式 |否 |否 |否 |否 |
+| Snowflake |否 |否 |否 |否 |
 | Sybase 資料庫 |否 |否 |是 |是 |
 | Teradata 資料庫 |否 |否 |是 |是 |
-| appFigures (Beta) |否 |否 |否 |否 |
+| appFigures (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | Azure Analysis Services 資料庫 (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | Azure Cosmos DB (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | Azure HDInsight Spark (Beta) |否 |否 |否 |否 |
 | Common Data Service (搶鮮版 (Beta)) |否 |否 |否 |否 |
-| comScore Digital Analytix (Beta) |否 |否 |否 |否 |
-| Dynamics 365 for Customer Insights (Beta) |否 |否 |否 |否 |
+| comScore Digital Analytix (搶鮮版 (Beta)) |否 |否 |否 |否 |
+| Dynamics 365 for Customer Insights (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | Dynamics 365 for Financials (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | GitHub (Beta) |否 |否 |否 |否 |
 | Google BigQuery (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | IBM Informix 資料庫 (搶鮮版 (Beta)) |否 |否 |否 |否 |
-| IBM Netezza (Beta) |否 |否 |否 |否 |
+| IBM Netezza (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | Kusto (搶鮮版 (Beta)) |否 |否 |否 |否 |
-| MailChimp (Beta) |否 |否 |否 |否 |
-| Microsoft Azure Consumption Insights (搶鮮版 (Beta)) |否 |否 |否 |否 |
+| MailChimp (搶鮮版 (Beta)) |否 |否 |否 |否 |
+| Microsoft Azure 使用量見解 (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | Mixpanel (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | Planview Enterprise (Beta) |否 |否 |否 |否 |
 | Projectplace (搶鮮版 (Beta)) |否 |否 |否 |否 |
-| QuickBooks Online (Beta) |否 |否 |否 |否 |
+| QuickBooks Online (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | Smartsheet |否 |否 |否 |否 |
 | Spark (Beta) |否 |否 |否 |否 |
-| SparkPost (Beta) |否 |否 |否 |否 |
+| SparkPost (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | SQL Sentry (Beta) |否 |否 |否 |否 |
 | Stripe (搶鮮版 (Beta)) |否 |否 |否 |否 |
-| SweetIQ (Beta) |否 |否 |否 |否 |
+| SweetIQ (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | Troux (Beta) |否 |否 |否 |否 |
-| Twilio (Beta) |否 |否 |否 |否 |
-| tyGraph (Beta) |否 |否 |否 |否 |
+| Twilio (搶鮮版 (Beta)) |否 |否 |否 |否 |
+| tyGraph (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | Vertica (搶鮮版 (Beta)) |否 |否 |否 |否 |
-| Visual Studio Team Services (Beta) |否 |否 |否 |否 |
-| Webtrends (Beta) |否 |否 |否 |否 |
-| Zendesk (Beta) |否 |否 |否 |否 |
+| Visual Studio Team Services (搶鮮版 (Beta)) |否 |否 |否 |否 |
+| Webtrends (搶鮮版 (Beta)) |否 |否 |否 |否 |
+| Zendesk (搶鮮版 (Beta)) |否 |否 |否 |否 |
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>DirectQuery 支援的驗證方法清單
 
@@ -201,7 +201,7 @@ Power BI 報表伺服器對 DirectQuery 不支援 OAuth 型驗證。
 | SQL Server Analysis Services |否 |否 |是 |是 |是 |
 | Azure SQL Database |否 |否 |是 |否 |否 |
 | Azure SQL 資料倉儲 |否 |否 |是 |否 |否 |
-| Oracle 資料庫 |否 |否 |是 |是 |是 |
+| Oracle Database |否 |否 |是 |是 |是 |
 | SAP Business Warehouse 伺服器 |否 |否 |是 |否 |是 |
 | SAP HANA 資料庫 |否 |否 |是 |是 |否 |
 | Teradata 資料庫 |否 |否 |是 |是 |是 |

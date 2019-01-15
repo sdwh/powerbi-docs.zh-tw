@@ -6,16 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/08/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 81f6d77543ec53ac790f5c5183da32bde80fd6b9
-ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
+ms.openlocfilehash: b816b504d3eed3aa91eb25c0bb3c6189d3075d1f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54136683"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285821"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全入口網站或網站中內嵌報告
 
@@ -140,4 +140,4 @@ report.src = newUrl;
 
 * [SharePoint Online 報告 Web 組件](service-embed-report-spo.md)
 
-* [發行至 Web](service-publish-to-web.md)
+* [發佈至 Web](service-publish-to-web.md)

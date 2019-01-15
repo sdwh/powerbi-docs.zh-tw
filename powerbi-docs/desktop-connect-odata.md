@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a0aa658aedb3599d7962e08289b306bf0f24028e
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: c3f42a4533ded3f141d615d6f06a1f892a84be08
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025204"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281106"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>在 Power BI Desktop 中連接至 OData 摘要
 在 Power BI Desktop 中，您可以連接至 **OData 摘要**並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。

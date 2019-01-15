@@ -1,23 +1,23 @@
 ---
 title: 焦點模式與全螢幕模式 - 如何放大以查看更多詳細資料
-description: 以焦點模式或全螢幕模式顯示 Power BI 儀表板、儀表板圖格、報表或報表視覺效果的文件
+description: 以焦點模式或全螢幕模式顯示 Power BI 儀表板、儀表板磚、報表或報表視覺效果的文件
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 13032e011446fad765961dacdb83fbb8bd5a2f6e
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 9a9056e85e956b7bee88da15e011ecd846c69a9b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53279952"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296048"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>顯示更詳細的內容：焦點模式與全螢幕模式
 
@@ -27,33 +27,33 @@ ms.locfileid: "53279952"
 
 |內容    | 焦點模式  |全螢幕模式  |
 |---------|---------|----------------------|
-|儀表板     |   不可能     | 是 |
-|報表頁面   | 不可能  | 是|
-|報表視覺效果 | 是    | 是 |
-|儀表板圖格 | 是    | 是 |
+|儀表板     |   不可能     | 可以 |
+|報表頁面   | 不可能  | 可以|
+|報表視覺效果 | 可以    | 可以 |
+|儀表板磚 | 可以    | 可以 |
 |Windows 10 Mobile | 不可能 | 是 |
 
 ## <a name="what-is-full-screen-mode"></a>什麼是全螢幕模式？
 ![儀表板的全螢幕模式使用前和使用後](media/end-user-focus/power-bi-full-screen-comparison.png)
 
-顯示您的 Power BI 服務內容 (儀表板、報表頁面、圖格與視覺效果) 而不受功能表和導覽列所干擾。  您可隨時取得內容的完整檢視，而不含其他無關項目。 這有時稱為電視模式。   
+顯示您的 Power BI 服務內容 (儀表板、報表頁面、磚和視覺效果) 而不受功能表和導覽列所干擾。  您可隨時取得內容的完整檢視，而不含其他無關項目。 這有時稱為電視模式。   
 
-若要開啟全螢幕模式，在焦點模式的儀表板、報表、圖格上方，或焦點模式的視覺效果上方，從 Power BI 服務功能表列選取 [全螢幕] 圖示 ![全螢幕圖示](media/end-user-focus/power-bi-full-screen-icon.png)。  您選取的內容隨即會填滿整個螢幕。
+若要開啟全螢幕模式，在焦點模式的儀表板、報表、磚上方，或焦點模式的視覺效果上方，從 Power BI 服務功能表列選取 [全螢幕] 圖示 ![全螢幕圖示](media/end-user-focus/power-bi-full-screen-icon.png)。  您選取的內容隨即會填滿整個螢幕。
 如果您使用 Power BI 行動版，[Windows 10 行動裝置應用程式可使用全螢幕](./mobile/mobile-windows-10-app-presentation-mode.md)。 
 
 全螢幕模式的部分用法如下：
 
-* 在會議或研討會中呈現您的儀表板、圖格、視覺效果或報表
+* 在會議或研討會中呈現您的儀表板、磚、視覺效果或報表
 * 在辦公室的專用大螢幕或投影機上顯示
 * 在小螢幕上檢視
-* 以鎖定模式檢閱 -- 您可以透過觸控螢幕或用滑鼠點選圖格，而不需要開啟基礎報表或儀表板
+* 以鎖定模式檢閱 -- 您可以透過觸控螢幕或用滑鼠點選磚，而不需要開啟基礎報表或儀表板
 
 ## <a name="what-is-focus-mode"></a>什麼是焦點模式？
-「焦點」模式可讓您展開 (彈出) 視覺效果或圖格，以查看更多詳細資料。  您的儀表板或報表可能有點擁擠，而您只想放大其中一個視覺效果。  此時非常適合使用焦點模式。  
+「焦點」模式可讓您展開 (彈出) 視覺效果或磚，以查看更多詳細資料。  您的儀表板或報表可能有點擁擠，而您只想放大其中一個視覺效果。  此時非常適合使用焦點模式。  
 
 ![儀表板的全螢幕模式使用前和使用後](media/end-user-focus/power-bi-focus-compare.png)
 
-使用焦點模式時，Power BI「取用者」可以與建立此視覺效果時所套用的任何篩選進行互動。  在 Power BI 服務中，您可以在儀表板圖格或報表視覺效果上使用焦點模式。
+使用焦點模式時，Power BI「取用者」可以與建立此視覺效果時所套用的任何篩選進行互動。  在 Power BI 服務中，您可以在儀表板磚或報表視覺效果上使用焦點模式。
 
 ## <a name="working-in-full-screen-mode"></a>以全螢幕模式運作
 若要以全螢幕模式開啟儀表板或報表頁面，請在上方導覽列中選取全螢幕圖示 ![視覺效果的全螢幕](media/end-user-focus/power-bi-full-screen-icon.png) 。 一旦您處於全螢幕模式之後，移動滑鼠或游標就能顯示操作功能表。 由於全螢幕可供各式各樣的內容使用，因此，操作功能表中的每個選項都稍有不同，但相當容易理解。  只需將滑鼠指標停留在定義的圖示上。
@@ -87,18 +87,18 @@ ms.locfileid: "53279952"
       ![結束全螢幕圖示](media/end-user-focus/exit-fullscreen-new.png)
 
 ## <a name="working-in-focus-mode"></a>以焦點模式運作
-開啟焦點模式的方式有兩種：一種方式適用於儀表板圖格，另一種方式則適用於報表視覺效果。
+開啟焦點模式的方式有兩種：一種方式適用於儀表板磚，另一種方式則適用於報表視覺效果。
 
 ### <a name="focus-mode-in-dashboards"></a>儀表板中的焦點模式
 1. 在 Power BI 服務中開啟儀表板。
 
-2. 將滑鼠指標停留在儀表板圖格或報表視覺效果上方、選取省略符號 (...)，然後選擇 [以焦點模式開啟]。
+2. 將滑鼠指標停留在儀表板磚或報表視覺效果上方、選取省略符號 (...)，然後選擇 [以焦點模式開啟]。
 
-    ![圖格的省略符號功能表](media/end-user-focus/power-bi-dashboard-focus-mode.png).
+    ![磚的省略符號功能表](media/end-user-focus/power-bi-dashboard-focus-mode.png).
 
-2. 這會開啟圖格，並填滿整個報表畫布。
+2. 這會開啟磚，並填滿整個報表畫布。
 
-   ![圖格會填滿報表畫布](media/end-user-focus/power-bi-tile-focus.png)
+   ![磚會填滿報表畫布](media/end-user-focus/power-bi-tile-focus.png)
 
 3. 展開 [篩選] 窗格，以查看套用到這個視覺效果的所有篩選。
 
@@ -118,7 +118,7 @@ ms.locfileid: "53279952"
 
 2. 將滑鼠指標停留在左下角的區域圖表上，然後選取 [焦點模式] 圖示 ![焦點模式圖示](media/end-user-focus/pbi_popout.jpg)。  
 
-   ![顯示在圖格上的焦點圖示](media/end-user-focus/power-bi-hover-focus.png)
+   ![顯示在磚上的焦點圖示](media/end-user-focus/power-bi-hover-focus.png)
 2. 此視覺效果會開啟並填滿整個畫布。
 
    ![焦點模式中的視覺效果](media/end-user-focus/power-bi-display-focus-newer2.png)

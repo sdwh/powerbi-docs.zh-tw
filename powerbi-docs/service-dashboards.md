@@ -5,17 +5,17 @@ author: maggieMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7a1187373304387ac511053d241e5cfb31f7fcd9
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 61d7bf9f9794545e963ca19c8f983d6d6cfefa54
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280573"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286879"
 ---
 # <a name="intro-to-dashboards-for-power-bi-designers"></a>Power BI 設計工具的儀表板簡介
 
@@ -59,7 +59,7 @@ Power BI 「儀表板」是透過視覺效果來說故事的單一頁面，通�
 
 
 ## <a name="next-steps"></a>後續步驟
-* 使用[範例儀表板](sample-tutorial-connect-to-the-samples.md)其中一個教學課程來熟悉儀表板。
+* 使用[範例儀表板](sample-tutorial-connect-to-the-samples.md)其中一項教學課程來熟悉儀表板。
 * 了解[儀表板磚](service-dashboard-tiles.md)。
 * 想要追蹤個別的儀表板磚，並在它達到某個閾值時收到電子郵件？ [建立磚警示](service-set-data-alerts.md)。
 * 了解如何使用 [Power BI 問與答](power-bi-tutorial-q-and-a.md)提出與您的資料相關的問題，然後接收視覺效果的回應。

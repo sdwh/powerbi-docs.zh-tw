@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5e330c54969b0dd866c4b80afd71a765976f658d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 3505bbf2a549ef3d211f12ec050759ef44835053
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669673"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296746"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>從 Excel 2016 發佈至 Power BI
 在 Excel 2016 中，您可以將 Excel 活頁簿發佈至 [Power BI](https://powerbi.microsoft.com) 網站，並在此根據活頁簿的資料建立互動性極高的報表和儀表板。 然後，您就可以與組織中的其他人分享深入解析。

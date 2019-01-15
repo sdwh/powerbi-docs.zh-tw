@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2ecd4b8e6295431f520dea61454bbf868bfab254
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: ff61c4d2cc8ec3570e7eee45b7e43ec81f8f7161
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619651"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275103"
 ---
 # <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中連線到 PDF 檔案 (預覽)
 在 Power BI Desktop 中，您可以連線至 **PDF 檔案**並使用此檔案內附的資料，如同使用 Power BI Desktop 中的任何其他資料來源。

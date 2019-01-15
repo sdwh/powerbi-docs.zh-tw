@@ -4,17 +4,17 @@ description: 了解 Power BI Premium 容量記憶體管理與最佳化。
 ms.date: 10/18/2018
 ms.topic: conceptual
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: 534c06c66d561a04dbffc04412095d6924c92781
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: efb0f1dfd340c0defcba8a67e0e46051d0d9be25
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266062"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293828"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Microsoft Power BI Premium 容量資源管理及最佳化
 
@@ -43,7 +43,7 @@ Power BI Premium 可提供您「超量配置」容量的優點。 例如，您�
 
 將資料集載入到記憶體中是代價非常高昂的作業。 視資料集大小而定，持續時間可能從小型資料集的幾秒鐘，到大型資料集 (例如高達 10 GB) 的數十秒或甚至數分鐘。 Premium 容量會藉由將最近最少使用的資料集儘可能地保留在記憶體中，來嘗試將需要載入容量的次數降到最低。 當需要額外的記憶體時，將必須收回某些資料集，而系統將會嘗試選擇對使用者體驗影響最小的資料集。 當需要額外的記憶體時，將必須收回某些資料集，而系統將會嘗試選擇對使用者體驗影響最小的資料集。 例如，系統會避免收回最近數分鐘內頻繁使用的資料集。 這些資料集可能很快就會再次查詢。
 
-收回程序本身是一個快速作業。 如果資料集在收回時不是處於積極使用的狀態，使用者將無法判斷收回所帶來的影響程度。 不過，如果有太多資料集同時處於活躍狀態，而沒有足夠的記憶體全部予以容納，就可能進行大量收回。 太多使用中資料集可能導致「猛移」(thrashing) 的情況，也就是資料集會不斷地收回再重新載入，而使用者則可能感覺到回應時間明顯變長和效能明顯下降。
+收回程序本身是一項快速作業。 如果資料集在收回時不是處於積極使用的狀態，使用者將無法判斷收回所帶來的影響程度。 不過，如果有太多資料集同時處於活躍狀態，而沒有足夠的記憶體全部予以容納，就可能進行大量收回。 太多使用中資料集可能導致「猛移」(thrashing) 的情況，也就是資料集會不斷地收回再重新載入，而使用者則可能感覺到回應時間明顯變長和效能明顯下降。
 
 ### <a name="dataset-refresh-memory-requirement-competing-with-an-active-dataset-memory-requirement"></a>與作用中資料集記憶體需求競爭的資料集重新整理記憶體需求
 

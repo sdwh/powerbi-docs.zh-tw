@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cc374da84e269abe18a52270c0d9fd15987cf666
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 6d818252d60c2e6e123e4dff0c64dd5e2408cad2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452606"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285729"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 服務中的資料警示
 設定警示，以在儀表板中的資料變更時超出您所設定的限制時通知您。 
@@ -73,7 +73,7 @@ ms.locfileid: "52452606"
    > 
 
 ## <a name="managing-alerts"></a>管理警示
-有許多方式可以管理您的通知，分別是從儀表板的圖格本身、從 Power BI 的 [設定] 功能表，以及在 [iPhone 的 Power BI 行動裝置應用程式](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)或 [Windows 10 的 Power BI 行動裝置應用程式](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)個別的圖格上。
+有許多方式可以管理您的警示：從儀表板的圖格本身、從 Power BI 的 [設定] 功能表、在 [iPhone 的 Power BI 行動裝置應用程式](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)或 [Windows 10 的 Power BI 行動裝置應用程式](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)個別的圖格上。
 
 ### <a name="from-the-tile-itself"></a>從磚本身
 1. 當您需要變更或移除磚的警示時，請選取鈴鐺圖示 ![警示圖示](media/service-set-data-alerts/power-bi-bell-icon.png)，以重新開啟 [管理警示] 視窗。 您為該磚設定的所有警示皆會顯示。

@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: e0053660263f4cbed55050b9431b67228bf74c29
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 14540dc9ecaf1c3baa513b6e8cd12323de973d3d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157348"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275363"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>在報表伺服器中將註解新增至報表 - Power BI 報表伺服器
 您可以在報表伺服器的入口網站中新增報告的註解，包括 Power BI 報告。 註解會與報告在一起，任何人只要有正確權限，都可以看到報告的註解。 如需詳細資料，請參閱下方的[權限](#permissions)一節。
@@ -28,7 +28,7 @@ ms.locfileid: "52157348"
     在 [註解] 窗格中，您可以看到任何現有的註解。
 3. 撰寫您的註解，然後選取 [張貼註解]。
    
-    ![張貼註解](media/add-comments/report-server-web-portal-comments-pane.png)
+    ![張貼回應](media/add-comments/report-server-web-portal-comments-pane.png)
    
     您的註解會連同先前的任何註解，一起顯示在入口網站的窗格中。 在 Power BI 行動裝置應用程式中，註解不會隨著報告一起出現。
    

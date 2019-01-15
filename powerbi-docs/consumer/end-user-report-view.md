@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 93e6c66c28c95d729ae0af0910f887f61f52694e
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 075751a95512a7d06e22eb104aacf056978a93ea
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280826"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275770"
 ---
 # <a name="change-the-size-of-a-report-page"></a>變更報表頁面的大小
 在[前一篇文章與前一部影片](../power-bi-report-display-settings.md)中，您學到兩種不同的方式來控制在 Power BI 報表中的頁面顯示：**檢視**與**頁面大小**。 頁面檢視和頁面大小都可在 Power BI 服務和 Power BI Desktop 使用，外觀和功能也幾乎相同，但在本教學課程中，我們會使用 Power BI 服務。
@@ -53,7 +53,7 @@ ms.locfileid: "53280826"
 ## <a name="change-the-default-view-for-a-report-page"></a>變更報表頁面的預設檢視
 如果您是報表「建立者」，則可以變更報表頁面的預設檢視。 當您與其他人共用您的報表時，將會使用您設定的檢視開啟報表頁面。 報表「取用者」將能夠變更檢視，但一旦離開報表便無法儲存變更。
 
-1. 在報表的 \[New stores] \(新商店\) 頁面中，切換回 [實際大小] 檢視。
+1. 在報表的 \[New stores] \(新商店) 頁面中，切換回 [實際大小] 檢視。
 
    ![已選取 [實際大小] 的 [檢視] 下拉式功能表](media/end-user-report-view/power-bi-actual-size.png)
 

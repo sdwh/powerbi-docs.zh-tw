@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: b520eb2758088feadff963f86ddf310ae7a7ed8b
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: cd88270c75b46267217147d8f02fc707eeef26ab
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388632"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290380"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 移轉工具
 此移轉工具可以用來將報表從 Power BI Embedded Azure 服務 (PaaS) 複製至 Power BI 服務 (SaaS)。
@@ -108,7 +108,7 @@ ms.locfileid: "39388632"
 ### <a name="target-structure"></a>目標結構
 您可以在**目標結構**中告訴工具項目的下載位置與其上傳方式。
 
-#### <a name="download-plan"></a>下載計劃
+#### <a name="download-plan"></a>下載方案
 會自動為您建立路徑。 您可以視需要變更此路徑。 若您變更路徑，則需要選取 [更新路徑]。
 
 > [!NOTE]
@@ -137,7 +137,7 @@ ms.locfileid: "39388632"
 > 
 > 
 
-## <a name="step-2-download"></a>步驟 2︰下載
+## <a name="step-2-download"></a>步驟 2：下載
 在 [下載] 索引標籤上，您會看到報表和相關聯中繼資料的清單。 您可以看到匯出狀態與先前匯出狀態。
 
 ![](media/migrate-tool/migrate-tool-download-tab.png)

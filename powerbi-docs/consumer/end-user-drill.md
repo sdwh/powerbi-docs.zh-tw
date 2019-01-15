@@ -1,23 +1,23 @@
 ---
 title: 在視覺效果中向下切入及向上切入
-description: 此文件說明如何向下鑽研 Microsoft Power BI 服務和 Power BI Desktop 的視覺效果。
+description: 本文說明如何向下鑽研 Microsoft Power BI 服務和 Power BI Desktop 的視覺效果。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: MNAaHw4PxzE
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b24a58556c35a3213f3360b70d604a0e9b51b074
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: d935b044e5cbe1a2c84ce5749c3a0b58c528bab0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280946"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282348"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI 視覺效果中的鑽研模式
 
@@ -49,14 +49,14 @@ ms.locfileid: "53280946"
 
 2. 了解各種鑽研圖示如何一起運作可能會造成混淆，因此我們篩選樹狀圖以僅顯示 2 個較小的國家/地區：**KY** 與 **TN**。 選取樹狀圖，在 [視覺效果層級篩選] 下展開 [國家/地區]，並選取 [KY] 與 [TN]。
 
-    ![KY 與 TN 的篩選](./media/end-user-drill/power-bi-filter.png)    
+    ![KY 和 TN 的篩選](./media/end-user-drill/power-bi-filter.png)    
 
    現在只有兩個地區顯示於樹狀圖中。
 
    ![雙鑽研圖示](./media/end-user-drill/power-bi-territories.png)
 
 ## <a name="three-ways-to-access-the-drill-features"></a>有三種方式可存取鑽研功能
-您有可存取向下切入、向上切入，以及展開具有階層的視覺效果功能的多個選項。 此文章示範如何使用以下第一個選項。 一旦您了解向下切入與展開的基本概念，這三種方法皆可完成相同的工作，請嘗試並挑選您最喜歡的一個。
+您有可存取向下切入、向上切入，以及展開具有階層的視覺效果功能的多個選項。 本文示範如何使用以下第一個選項。 一旦您了解向下切入與展開的基本概念，這三種方法皆可完成相同的工作，請嘗試並挑選您最喜歡的一個。
 
 - 將滑鼠停留在視覺效果，以查看並使用圖示。  
 

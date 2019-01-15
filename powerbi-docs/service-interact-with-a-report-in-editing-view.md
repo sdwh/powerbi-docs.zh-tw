@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e03f6b4542c4f5f6c1d1a84892030520651ac9a3
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 12ee21427f06f0bce373adffa7ef336de144a3a4
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908299"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290559"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>在 Power BI 服務中與編輯檢視的報表互動
 報表可以在 Power BI 服務和 Power BI Desktop 中建立與編輯。 在 Power BI 服務中，您可以在**編輯檢視**中建立和編輯報表。 而在 Power BI Desktop 中，您可以在[**報表檢視**](desktop-report-view.md)中建立和編輯報表。 本文涵蓋 Power BI 服務中的編輯檢視。 

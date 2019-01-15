@@ -1,20 +1,20 @@
 ---
 title: 開始使用 Power BI for iOS 行動裝置應用程式
 description: 了解 Microsoft Power BI for iOS 行動裝置應用程式如何將 Power BI 帶入您的口袋，讓您可以行動存取內部部署和雲端的商務資訊。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
-ms.author: maggies
-ms.openlocfilehash: a09fc4471f9af3a9406dcbcdd80d5bcc7a3632f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44732403"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281773"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>開始在 iOS 裝置上使用 Power BI 行動裝置應用程式
 iPhone、iPad 或 iPod Touch 的 Microsoft Power BI for iOS 應用程式傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 透過 [Apple Watch](mobile-apple-watch.md)，隨時掌握最即時的資料。  
@@ -90,7 +90,7 @@ iPhone、iPad 或 iPod Touch 的 Microsoft Power BI for iOS 應用程式傳遞 P
   
    ![我的最愛頁面](./media/mobile-iphone-app-get-started/power-bi-iphone-faves-report-server-number-callouts.png)
   
-  1. Power BI 服務中的儀表板
+  1. Power BI 服務上的儀表板
   2. Power BI 報表伺服器中的 KPI
   3. Power BI 報表伺服器中的 Power BI 報表
 

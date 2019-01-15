@@ -6,17 +6,17 @@ manager: kvivek
 ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2fa614683ecfebc0693829c834dcfa4f160d22b1
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: a4dff6ca2020a349c3f06e5c828e186b3e11bdb6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53279745"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288696"
 ---
 # <a name="view-a-dashboard"></a>檢視儀表板
 Power BI 取用者花費大量時間檢視儀表板。 儀表板的目的是從醒目提示基礎報表和資料集中的特定資訊。 而 Power BI 取用者使用該資訊來追蹤、監控、回答問題、測試等，以制定資料驅動的商務決策。
@@ -48,5 +48,5 @@ Power BI 取用者花費大量時間檢視儀表板。 儀表板的目的是從�
 
 
 ## <a name="next-steps"></a>後續步驟
-* 使用[範例儀表板](../sample-tutorial-connect-to-the-samples.md)其中一個教學課程來熟悉儀表板。
+* 使用[範例儀表板](../sample-tutorial-connect-to-the-samples.md)其中一項教學課程來熟悉儀表板。
 * 深入了解[儀表板磚](end-user-tiles.md)以及選取一個磚時會發生什麼情況。

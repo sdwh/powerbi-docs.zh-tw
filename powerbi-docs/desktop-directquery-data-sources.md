@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 098447f4d0c0b1dc9534c91e84827c4cefb8850c
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: ecb1ba1cf10395a7c193d16281eece80868a52e7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452537"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285545"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支援的資料來源
 **Power BI Desktop** 和 **Power BI 服務**有許多資料來源供您連線和存取資料。 本文描述 Power BI 的哪些資料來源可支援稱為 **DirectQuery** 的連線方法。 如需 DirectQuery 的詳細資訊，請參閱 [ **Power BI 中的 DirectQuery**](desktop-directquery-about.md)。
@@ -28,7 +28,7 @@ ms.locfileid: "52452537"
 * Azure SQL 資料倉儲
 * Google BigQuery (搶鮮版 (Beta))
 * IBM DB2 資料庫
-* IBM Netezza (Beta)
+* IBM Netezza (搶鮮版 (Beta))
 * Impala (2.x 版)
 * Oracle 資料庫 (第 12 版及更新版本)
 * SAP Business Warehouse 應用程式伺服器

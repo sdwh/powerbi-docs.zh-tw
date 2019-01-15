@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/09/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: cc2369f6e1e074231267ceb41c19585eccfdb6f9
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: e3b7731dec23c6fda49d31716d6e450231ab4bc5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280711"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276598"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>檢視 Power BI 服務中的相關內容
 [相關內容] 窗格會顯示您的 Power BI 服務內容 (儀表板、報表及資料集) 如何互連。 [相關內容] 窗格也是用來採取動作的啟動台。 您可以從這裡重新整理、重新命名、產生見解，及執行更多動作。 選取相關報表或儀表板，其隨即在您的 Power BI 工作區中開啟。   
@@ -27,7 +27,7 @@ ms.locfileid: "53280711"
 ![相關內容](./media/end-user-related/power-bi-view-related-dashboard-new.png)
 
 > [!NOTE]
-> 「相關內容」功能不適用於串流資料集。
+> [相關內容] 功能不適用於串流資料集。
 > 
 > 
 
@@ -49,13 +49,13 @@ ms.locfileid: "53280711"
 
 **方法 2**
 
-在儀表板開啟的情況下，從頂端功能表列選取   ![檢視相關項目圖示](./media/end-user-related/power-bi-view-related-new.png) (從頂端功能表列中)。
+在儀表板開啟的情況下，從頂端功能表列選取   ![檢視相關項目圖示](./media/end-user-related/power-bi-view-related-new.png) 。
 
 [相關內容] 窗格隨即開啟。 其中會顯示有視覺效果釘選到儀表板的所有報表，及其相關聯的資料集。 這個儀表板釘選了來自三個不同報表的視覺效果，而這些報表以三個不同資料集為基礎。
 
 ![[相關內容] 窗格](./media/end-user-related/power-bi-view-related-dashboard-new.png)
 
-您可以從這裡直接對相關內容採取動作。  例如，選取報表名稱以開啟它。  針對列出的報表，選取圖示即可[使用 Excecl 分析](../service-analyze-in-excel.md)、[重新命名](../service-rename.md)或[取得深入資訊](end-user-insights.md)。 針對資料集，選取圖示即可[建立新報表](../service-report-create-new.md)、[重新整理](../refresh-data.md)、重新命名、[在 Excel 中分析](../service-analyze-in-excel.md)、[取得深入資訊](end-user-insights.md)或開啟資料集的 [設定] 視窗。  
+您可以從這裡直接對相關內容採取動作。  例如選取報表名稱加以開啟。  若是列出的報表，選取圖示即可[使用 Excecl 分析](../service-analyze-in-excel.md)、[重新命名](../service-rename.md)或[取得深入資訊](end-user-insights.md)。 若是資料集，選取圖示即可[建立新報表](../service-report-create-new.md)、[重新整理](../refresh-data.md)、重新命名、[在 Excel 中分析](../service-analyze-in-excel.md)、[取得深入資訊](end-user-insights.md)或開啟資料集的 [設定] 視窗。  
 
 ## <a name="view-related-content-for-a-report"></a>檢視報表相關內容
 您至少必須有報表的「檢視」權限，才能開啟 [相關內容] 窗格。 在此範例中，我們使用的是[採購分析範例](../sample-procurement.md)。
@@ -72,11 +72,11 @@ ms.locfileid: "53280711"
 
 在[閱讀檢視](end-user-reading-view.md)中開啟報表，然後從頂端功能表列選取![檢視相關項目圖示](./media/end-user-related/power-bi-view-related-new.png)。
 
-[相關內容] 窗格隨即開啟。 其中顯示已建立關聯的資料集，以及至少從該報表釘選了一個圖格的所有儀表板。 這份報表有釘選到 2 個不同儀表板的視覺效果。
+[相關內容] 窗格隨即開啟。 其中顯示已建立關聯的資料集，以及至少從該報表釘選了一個磚的所有儀表板。 這份報表有釘選到 2 個不同儀表板的視覺效果。
 
 ![[相關內容] 窗格](./media/end-user-related/power-bi-view-related-report.png)
 
-您可以從這裡直接對相關內容採取動作。  例如選取儀表板名稱加以開啟。  針對清單中的儀表板，選取圖示即可[與他人共用儀表板](../service-share-dashboards.md)，或開啟儀表板的 [設定] 視窗。 針對資料集，選取圖示即可[建立新報表](../service-report-create-new.md)、[重新整理](../refresh-data.md)、重新命名、[在 Excel 中分析](../service-analyze-in-excel.md)、[取得深入資訊](end-user-insights.md)或開啟資料集的 [設定] 視窗。  
+您可以從這裡直接對相關內容採取動作。  例如選取儀表板名稱加以開啟。  針對清單中的儀表板，選取圖示即可[與他人共用儀表板](../service-share-dashboards.md)，或開啟儀表板的 [設定] 視窗。 若是資料集，選取圖示即可[建立新報表](../service-report-create-new.md)、[重新整理](../refresh-data.md)、重新命名、[在 Excel 中分析](../service-analyze-in-excel.md)、[取得深入資訊](end-user-insights.md)或開啟資料集的 [設定] 視窗。  
 
 ## <a name="view-related-content-for-a-dataset"></a>檢視資料集相關內容
 您至少必須有資料集的「檢視」權限，才能開啟 [相關內容] 窗格。 在此範例中，我們使用的是[採購分析範例](../sample-procurement.md)。
@@ -89,7 +89,7 @@ ms.locfileid: "53280711"
 
 ![[相關內容] 窗格會在 Power BI 內容檢視上開啟](media/end-user-related/power-bi-datasets.png)
 
-您可以從這裡直接對相關內容採取動作。 例如選取儀表板或報表名稱加以開啟。  針對清單中的儀表板，選取圖示即可[與他人共用儀表板](../service-share-dashboards.md)，或開啟儀表板的 [設定] 視窗。 針對報表，選取圖示即可[使用 Excecl 分析](../service-analyze-in-excel.md)、[重新命名](../service-rename.md)或[取得深入資訊](end-user-insights.md)。  
+您可以從這裡直接對相關內容採取動作。 例如選取儀表板或報表名稱加以開啟。  針對清單中的儀表板，選取圖示即可[與他人共用儀表板](../service-share-dashboards.md)，或開啟儀表板的 [設定] 視窗。 若是報表，選取圖示即可[使用 Excecl 分析](../service-analyze-in-excel.md)、[重新命名](../service-rename.md)或[取得深入資訊](end-user-insights.md)。  
 
 ## <a name="limitations-and-troubleshooting"></a>限制與疑難排解
 * 如果您沒有看到 [檢視相關項目]，請改為尋找圖示 ![檢視相關項目圖示](./media/end-user-related/power-bi-view-related-icon-new.png)。 選取圖示以開啟 [相關內容] 窗格。

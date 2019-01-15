@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5ac7f8a09b39065b4ea9cfd274c0341bf905826b
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 875f5cef31ea61fffff29404b03af5bbbfc9f0c6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280320"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287621"
 ---
 # <a name="visualizations-for-power-bi-consumers"></a>適用於 Power BI「取用者」的視覺效果
 
@@ -35,21 +35,21 @@ ms.locfileid: "53280320"
 
 |Column1  |在儀表板中  |在報表中  | 在問與答中
 |---------|---------|---------|--------|
-|[替自己新增視覺效果的註解，或與同事展開關於視覺效果的對話](end-user-comment.md)。     |  是       |   否      |  否  |
-|[開啟並探索在其中建立視覺效果的報表](end-user-tiles.md)。     |    是     |   na      |  na |
-|[開啟並探索問與答中的視覺效果 (若您使用了問與答來建立視覺效果)](end-user-q-and-a.md)     |   是      |   na      |  na  |
-|在視覺效果的資料內[要求 Power BI 替您尋找有趣的事物或趨勢](end-user-insights.md)。  這些稱為「自動見解」。     |    是     |   是      | 否   |
-|使用「焦點」模式[一次檢視一個視覺效果](end-user-focus.md)。     | 是        |   是      | 否  |
-|查詢上次視覺效果更新的時間。     |  是       |    是     | 否  |
-|使用「全螢幕」模式[一次檢視一個視覺效果，並去除邊界與導覽列](end-user-focus.md)。     |   是      |  是       | 否  |
-|[列印](end-user-print.md)。     |  是       |   是      | 否  |
-|透過新增和修改視覺效果篩選來深入挖掘視覺效果。     |    否     |   是      | 是  |
-|將滑鼠暫留於視覺效果以顯示其他詳細資料和工具提示。     |    是     |   是      | 是  |
-|交叉篩選和交叉醒目提示頁面上的其他視覺效果。     |   否      |   是      | na  |
-|[顯示用來建立視覺效果的資料](end-user-show-data.md)。     |  否       |   是      | 是  |
-| [變更視覺效果的排序方式](end-user-search-sort.md)。 | 否  | 是  | 否  |
-| 為視覺效果新增焦點。 | 否  | 是  |  否 |
-| 分析 (取決於視覺效果類別)。 | 否  | 是  | 否  |
+|[替自己新增視覺效果的註解，或與同事展開關於視覺效果的對話](end-user-comment.md)。     |  可以       |   不可以      |  不可以  |
+|[開啟並探索在其中建立視覺效果的報表](end-user-tiles.md)。     |    可以     |   na      |  na |
+|[開啟並探索問與答中的視覺效果 (若您使用了問與答來建立視覺效果)](end-user-q-and-a.md)     |   可以      |   na      |  na  |
+|在視覺效果的資料內[要求 Power BI 替您尋找有趣的事物或趨勢](end-user-insights.md)。  這些稱為「自動見解」。     |    可以     |   可以      | 不可以   |
+|使用「焦點」模式[一次檢視一個視覺效果](end-user-focus.md)。     | 可以        |   可以      | 不可以  |
+|查詢上次視覺效果更新的時間。     |  可以       |    可以     | 不可以  |
+|使用「全螢幕」模式[一次檢視一個視覺效果，並去除邊界與導覽列](end-user-focus.md)。     |   可以      |  可以       | 不可以  |
+|[列印](end-user-print.md)。     |  可以       |   可以      | 不可以  |
+|透過新增和修改視覺效果篩選來深入挖掘視覺效果。     |    不可以     |   是      | 可以  |
+|將滑鼠暫留於視覺效果以顯示其他詳細資料和工具提示。     |    可以     |   是      | 可以  |
+|交叉篩選和交叉醒目提示頁面上的其他視覺效果。     |   不可以      |   可以      | na  |
+|[顯示用來建立視覺效果的資料](end-user-show-data.md)。     |  不可以       |   是      | 可以  |
+| [變更視覺效果的排序方式](end-user-search-sort.md)。 | 不可以  | 可以  | 不可以  |
+| 為視覺效果新增焦點。 | 不可以  | 可以  |  不可以 |
+| 分析 (取決於視覺效果類別)。 | 不可以  | 可以  | 不可以  |
 
 ## <a name="next-steps"></a>後續步驟
 回到[取用者的基本概念](end-user-basic-concepts.md)    

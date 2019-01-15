@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 516f468702b9731347d3ceacf3ee77ab8ac7f5aa
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 96b6e1a8a92b19181463de404967625b37418582
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181207"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291939"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>設定工作區資料流程設定 (預覽)
 
@@ -41,7 +41,7 @@ ms.locfileid: "53181207"
 
 在 [建立應用程式工作區] 對話方塊中，可能會出現標題為 [預覽改進的工作區] 的黃色方塊。 在該區域中，選取 [立即試用]。
 
-![預覽改善的工作區](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
+![預覽改進的工作區](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
 在出現的對話方塊中，您可以給予新的工作區一個唯一的名稱。 請先不要選取 [儲存]，因為您還需要設定進階設定。
 
@@ -106,7 +106,7 @@ Power BI Pro、Premium 和 Embedded 工作區：
 
 **Power BI Desktop** 客戶無法存取儲存在 Azure Data Lake Storage Gen2 帳戶中的資料流程，除非他們是該資料流程的擁有者。 請考慮下列情況：
 
-1.  Anna 建立新的應用程式工作區，並加以設定以儲存組織 Data Lake 中的資料流程。
+1.  Anna 建立新的應用程式工作區，並將它設定成在組織的 Data Lake 中儲存資料流程。
 2.  Ben 是 Anna 所建立之工作區的成員，他想要使用 Power BI Desktop 和資料流程連接器，從 Anna 建立的資料流程取得資料。
 3.  Ben 會收到錯誤，因為他並未被新增為該資料流程在 Data Lake 中之 CDM 資料夾的授權使用者。
 

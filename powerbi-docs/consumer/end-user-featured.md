@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d5f984e4a2bf235450d1916bdf1a47dc163638e8
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: bdf8cc88148ffd5fe3730ae04f0cc0e37a3a7a08
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280067"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278323"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Power BI 服務中的精選儀表板
 ## <a name="create-a-featured-dashboard"></a>建立精選儀表板
@@ -30,7 +30,7 @@ ms.locfileid: "53280067"
 您也可以選取幾個儀表板，並將其設定為「我的最愛」。 請參閱[我的最愛儀表板](end-user-favorite.md)。
 
 > [!NOTE] 
->此主題適用於 Power BI 服務，不適用於 Power BI Desktop。
+>本主題適用於 Power BI 服務，不適用於 Power BI Desktop。
 
 如果您尚未設定精選儀表板，Power BI 將會開啟到您上次使用的儀表板。  
 

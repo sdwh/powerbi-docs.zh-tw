@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: f65b1b2cc07b2b1cfb50200b62feeb8248abfdf4
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 96f91eefeab038419ce64e31c7b4b5755d6adf2c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452813"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286580"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>註冊 Azure AD 應用程式以內嵌 Power BI 內容
 
@@ -107,7 +107,7 @@ ms.locfileid: "52452813"
 > [!IMPORTANT]
 > 本節只適用於**內嵌組織內容**的應用程式。
 
-除了應用程式註冊頁面中所提供的權限之外，您還需要啟用應用程式的額外權限。 您可以透過 Azure AD 入口網站或以程式設計方式來完成此作業。
+除了應用程式註冊頁面中所提供的權限之外，您還需要啟用應用程式的額外權限。 您可以透過 Azure AD 入口網站或以程式設計方式來完成這項作業。
 
 建議您登入用於內嵌的「主」帳戶，或全域系統管理員帳戶。
 
@@ -138,7 +138,7 @@ ms.locfileid: "52452813"
 
 ### <a name="applying-permissions-programmatically"></a>以程式設計方式套用權限
 
-1. 您必須取得租用戶內的現有服務主體 (使用者)。 如需如何執行該作業的資訊，請參閱 [Get servicePrincipal](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/serviceprincipal_get)。
+1. 您必須取得租用戶內的現有服務主體 (使用者)。 如需如何執行這項作業的資訊，請參閱 [Get servicePrincipal](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/serviceprincipal_get)。
 
     您可以呼叫沒有 {id} 的 *Get servicePrincipal* API，而且它將讓您取得租用戶內的所有服務主體。
 2. 使用應用程式用戶端識別碼作為 **appId** 屬性，以檢查服務主體。

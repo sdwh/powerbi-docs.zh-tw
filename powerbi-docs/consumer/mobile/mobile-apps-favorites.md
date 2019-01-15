@@ -1,20 +1,20 @@
 ---
 title: Power BI 行動裝置應用程式中我的最愛項目
 description: 了解如何在行動應用程式中建立及檢視我的最愛 Power BI 儀表板、報表和應用程式，以及「Power BI 報表伺服器」和 Reporting Services 報表與 KPI。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
-ms.author: maggies
-ms.openlocfilehash: a689a3b04ca3b48c0b924ae62a52315dc3535faf
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 433bfc6298632eb9b999a23fe4b54417add507a3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544920"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278669"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>在 Power BI 行動應用程式中建立及檢視我的最愛項目
 適用於︰

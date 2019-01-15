@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 17c608b017123b5ae7111ef6d97703cdbc30940d
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 8f45fbed0b2c4e5de62f8ef18ee9a552bf05486b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38937319"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293758"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>管理您的資料來源 - 匯入/已排程的重新整理
 安裝內部部署資料閘道之後，您必須新增可搭配閘道使用的資料來源。 本文將探討相對於 DirectQuery 或即時連線，如何使用可用於已排程之重新整理的閘道和資料來源。

@@ -5,20 +5,20 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 01051ab47304713fe3cf0f9128f5cd99af58bffe
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c42d96fea37a6309908dd357425c3d0504e18397
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830209"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288236"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>第 2 部分：在 Power BI 報表中新增視覺效果
-在[第 1 部分](power-bi-report-add-visualizations-ii.md)，您選取了欄位名稱旁邊的核取方塊來建立基本的視覺效果。  在第 2 部分，您會學習如何使用拖放及充分利用 [欄位] 與 [視覺效果] 窗格來建立和修改視覺效果。
+在[第 1 部分](power-bi-report-add-visualizations-ii.md)，您選取了欄位名稱旁邊的核取方塊來建立基本的視覺效果。  在第 2 部分，您會學習如何使用拖放及充分利用 [欄位]  和 [視覺效果]  窗格來建立和修改視覺效果。
 
 ### <a name="prerequisites"></a>先決條件
 - [第 1 部分](power-bi-report-add-visualizations-ii.md)
@@ -26,7 +26,7 @@ ms.locfileid: "52830209"
 - [零售分析範例](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 ## <a name="create-a-new-visualization"></a>建立新的視覺效果
-此教學課程中，我們要深入探討零售分析資料集，並建立幾個重要的視覺效果。
+本教學課程中，我們要深入探討零售分析資料集，並建立幾個重要的視覺效果。
 
 ### <a name="open-a-report-and-add-a-new-blank-page"></a>開啟報表並加入新的空白頁面。
 1. 在 Power BI Desktop 中開啟零售分析範例 .PBIX 檔案。 
