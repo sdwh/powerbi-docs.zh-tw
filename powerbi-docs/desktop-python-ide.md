@@ -5,17 +5,17 @@ author: otarb
 manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 634acc9e456462e2ca6d1a09bb6d97b87e75605b
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 3e7169e1aa54db93488f0c55e701188667f70305
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974981"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289248"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>與 Power BI 搭配使用外部 Python IDE
 透過 **Power BI Desktop**，您可以使用您的外部 Python IDE (整合式開發環境) 來建立並精簡 Python 指令碼，然後在 Power BI 中使用這些指令碼。
@@ -82,7 +82,7 @@ ms.locfileid: "45974981"
 * 不支援自動將您的指令碼從 Python IDE 匯出到 **Power BI Desktop**。
 
 ## <a name="next-steps"></a>後續步驟
-請看看下列有關 Power BI 中 Python 的其他資訊。
+請查看下列有關 Power BI 中 Python 的其他資訊。
 
 * [在 Power BI Desktop 中執行 Python 指令碼](desktop-python-scripts.md)
 * [使用 Python 建立 Power BI 視覺效果](desktop-python-visuals.md)

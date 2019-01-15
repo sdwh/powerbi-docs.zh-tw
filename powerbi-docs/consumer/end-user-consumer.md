@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.custom: seodec18
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: overview
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 392593c6bceed7555a82916b2a992200438dffab
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: cd78e281fd9e16857c2a36e7e4f1f253a919c4de
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280159"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291732"
 ---
 # <a name="power-bi-for-consumers"></a>適用於取用者的 Power BI
 您與 Power BI 互動的方式將取決於作業角色。 身為「終端使用者」或「取用者」，您會從同事收到儀表板、報表和應用程式。 您在 ***Power BI 服務***中工作，檢閱並與此內容互動，以制定商務決策。

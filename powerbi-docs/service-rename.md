@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: edcba2dafad831799f1e72fedd0130e282de6a24
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 905ef263084cf531e6b38fb4640286e4d78697ce
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51716824"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275610"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>重新命名 Power BI 服務中的絶大部分項目
 本文會教導您如何重新命名 Power BI 服務中的儀表板、報表、報表頁面、活頁簿、資料集、應用程式和工作區。

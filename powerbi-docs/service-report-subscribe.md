@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 43d15529353f17733923d2b2a73b336d7d4ee6e0
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: f813822b269a51e55947d73c5107675cbe428d96
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52981506"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293802"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>訂閱 Power BI 服務中的報表或儀表板
 讓您最重要的儀表板和報表維持最新的狀態從沒這麼容易過。 您可以為自己和同事訂閱對您來說最重要的報表頁面和儀表板，Power BI 會以電子郵件寄送快照集到您的收件匣。 您要告訴 Power BI 需要收到電子郵件的頻率︰從一天一次到每週一次。 

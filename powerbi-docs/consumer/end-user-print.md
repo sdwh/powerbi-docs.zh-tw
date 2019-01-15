@@ -1,26 +1,26 @@
 ---
 title: 從 Power BI 服務列印
-description: 從 Power BI 列印儀表板、圖格或報表頁面。
+description: 從 Power BI 列印儀表板、磚或報表頁面。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bb3ecb8a343d2ed3f3693dd136b11b7543cabc70
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 54af03d332dc9c848ecd83264b2e6aeeca35c9ed
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280719"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281083"
 ---
 # <a name="printing-from-power-bi-service"></a>從 Power BI 服務列印
-從 Power BI 服務列印整個儀表板、儀表板圖格、報表頁面或報表視覺效果。 一次只能列印一頁報表 -- 您無法一次列印整份報表。
+從 Power BI 服務列印整個儀表板、儀表板磚、報表頁面或報表視覺效果。 一次只能列印一頁報表 -- 您無法一次列印整份報表。
 
 > [!NOTE]
 > 列印僅適用於 Power BI 服務，不適用於 Power BI Desktop。
@@ -44,12 +44,12 @@ ms.locfileid: "53280719"
    
     ![[列印] 對話方塊](./media/end-user-print/pbi_print_dash_new2.png)
 
-## <a name="print-a-dashboard-tile"></a>列印儀表板圖格
-1. 透過選取省略符號並且選擇焦點圖示 ![焦點圖示](./media/end-user-print/power-bi-focus-icon.png)，[在焦點模式中開啟圖格](end-user-focus.md)。
+## <a name="print-a-dashboard-tile"></a>列印儀表板磚
+1. 藉由選取省略符號並且選擇焦點圖示 ![焦點圖示](./media/end-user-print/power-bi-focus-icon.png)，[在焦點模式中開啟磚](end-user-focus.md)。
    
     ![省略符號功能表](./media/end-user-print/menu-options.png)
-2. 從上方導覽列中選取全螢幕圖示 ![全螢幕圖示](./media/end-user-print/power-bi-full-screen-icon.png)，以[全螢幕模式](end-user-focus.md)開啟圖格。
-3. 將滑鼠停留在圖格上方以顯示 [選項] 功能表。
+2. 從上方導覽列中選取全螢幕圖示 ![全螢幕圖示](./media/end-user-print/power-bi-full-screen-icon.png)，以[全螢幕模式](end-user-focus.md)開啟磚。
+3. 將滑鼠停留在磚上方以顯示 [選項] 功能表。
    
     ![全螢幕選項功能表](./media/end-user-print/menu-options-new.png)
 4. 選取列印圖示 ![列印圖示](./media/end-user-print/print-icon.png)。     
@@ -74,7 +74,7 @@ ms.locfileid: "53280719"
    > 
 
 ## <a name="print-a-report-visual"></a>列印報表視覺效果
-1. [以焦點模式開啟視覺效果](end-user-focus.md)，方法是將滑鼠游標移至圖格上方，並選取右上角的焦點圖示![焦點圖示](./media/end-user-print/power-bi-focus-icon.png)。
+1. [以焦點模式開啟視覺效果](end-user-focus.md)，方法是將滑鼠游標移至磚上方，並選取右上角的焦點圖示![焦點圖示](./media/end-user-print/power-bi-focus-icon.png)。
 2. 依照上述*列印報表頁面*底下的步驟 2-3。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解

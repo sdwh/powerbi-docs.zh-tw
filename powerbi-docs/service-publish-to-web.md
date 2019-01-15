@@ -6,16 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/08/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: ab5f891b8769657f18861863562c0ab866044a18
-ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
+ms.openlocfilehash: 19a45a1cf61ae3286f66528d38d830b3649b1d00
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54136614"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280002"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -124,7 +124,7 @@ ms.locfileid: "54136614"
 
 ## <a name="custom-visuals"></a>自訂視覺效果
 
-[發行至 Web] 支援自訂視覺效果。 使用 [發佈至網路] 時，與您共用已發佈視覺效果的使用者不需要啟用自訂視覺效果，即可檢視報表。
+[ **發佈至網路**] 支援自訂視覺效果。 使用 [發佈至網路] 時，與您共用已發佈視覺效果的使用者不需要啟用自訂視覺效果，即可檢視報表。
 
 ## <a name="limitations"></a>限制
 
@@ -148,7 +148,7 @@ Power BI 系統管理員可以啟用或停用發佈到 web 功能。 他們也�
 
 |功能 |允許整個組織使用 |不允許整個組織使用 |特定安全性群組   |
 |---------|---------|---------|---------|
-|報告 [檔案] 功能表下的 [發行至 Web]。|針對全部啟用|並非所有人都可看到|只有經授權的使用者或群組才可看到。|
+|報告 [檔案] 功能表下的 [發佈至 web]。|針對全部啟用|並非所有人都可看到|只有經授權的使用者或群組才可看到。|
 |[設定] 下的 [管理內嵌程式碼]|針對全部啟用|針對全部啟用|針對全部啟用<br><br>[刪除]*  選項僅適用於經授權的使用者或群組。<br>針對全部啟用 [取得驗證碼]* 。|
 |系統管理員入口網站內的 [內嵌程式碼]|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態會顯示 [已停用]|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者未以租用戶設定作為基礎加以授權，狀態會顯示成 [侵害]。|
 |現有的已發佈報告|全部已啟用|全部已停用|報告會繼續針對全部項目呈現。|
