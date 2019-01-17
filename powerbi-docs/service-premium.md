@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/21/2018
+ms.date: 01/15/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1749fc932b3aa6cfb86de87bc9ecd71f78d92af5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6cc26f386a77ad8482d7f1af69fd0fdf2b7de5ac
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281957"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54324012"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium 是什麼？
 
-Microsoft Power BI Premium 可為您的組織提供專門用來執行 Power BI 服務的資源。 它提供您更可靠的效能並啟用更大的資料磁碟區。 Premium 也可讓您廣泛發佈內容，不需要您為內容取用者購買每個使用者 Pro 授權。 如需購買詳細資訊，請參閱[如何購買 Power BI Premium](service-admin-premium-purchase.md)。
+Microsoft Power BI Premium 可為您的組織提供專門用來執行 Power BI 服務的資源。 它提供您更可靠的效能並啟用更大的資料磁碟區。 Premium 也可讓您廣泛發佈內容，不需要您為內容取用者購買每個使用者 Pro 授權。 如需購買詳細資訊，請參閱[如何購買 Power BI Premium](service-admin-premium-purchase.md)。   
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -41,24 +41,21 @@ Microsoft Power BI Premium 可為您的組織提供專門用來執行 Power BI �
 
 在共用容量中，為了確保所有使用者的體驗品質，Power BI 對於個別使用者有較多限制。 根據預設，您的工作區是在共用容量，包括您個人的「我的工作區」和應用程式工作區。
 
-下表提供共用容量和 Premium 容量間差異的摘要。
+下表提供共用容量和 Premium 容量間差異的摘要：
 
 |  | 共用容量 | Power BI Premium 容量 |
 | --- | --- | --- |
 | **重新整理的頻率** |8/日 |48/日 |
-| **使用專用的硬體隔離** |![無法使用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png) |
-| 對_**所有使用者**_ 的**企業散發** | | |
-| 應用程式和共用 |![無法使用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png) |
-| 內嵌的 API 和控制項 |![無法使用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png)<sup>2</sup> |
-| **在內部部署發佈 Power BI 報告** |![無法使用](media/service-premium/not-available.png) |![可用](media/service-premium/available.png) |
+| 使用專用的硬體隔離 |![無法使用](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
+| 對所有使用者的企業散發 | | |
+| 應用程式和共用 |![無法使用](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
+| 內嵌的 API 和控制項 |![無法使用](media/service-premium/not-available.png) |![](media/service-premium/available.png)<sup>[1](#fnt1)</sup> |
+| 在內部部署發佈 Power BI 報表 |![無法使用](media/service-premium/not-available.png) |![](media/service-premium/available.png) |
 | | | |
 
-*<sup>1</sup> 如需詳細資訊，請參閱[依授權類型排列的功能](service-features-license-type.md)。*  
-*<sup>2</sup> Power BI Premium 的未來增強功能。*
+<a name="fnt1">1</a> Power BI Premium 未來的增強功能。
 
-若要深入了解將工作區指派給 Premium 容量，請參閱[管理 Power BI Premium](service-admin-premium-manage.md)。
 
-<a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>進階容量節點
 
@@ -68,22 +65,19 @@ Power BI Premium 適用於有不同 v 核心容量的節點設定。 如需特�
 
 * EM 節點只能用於內嵌部署。 EM 節點無法存取 Premium 功能，像是將應用程式分享給沒有 Power BI Pro 授權的使用者。
 
->[!NOTE]
->只有對於角色為 Office 365 全域系統管理員的使用者，資料表中的連結才能正常運作。 其他人會收到 404 錯誤。
-
-| 節點容量 | V 核心總數<br/>(後端 + 前端) | 後端 V 核心 | 前端 V 核心 | DirectQuery/即時連線限制 | 可用性 |
-| --- | --- | --- | --- | --- | --- | --- |
-| [EM1 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 個 V 核心 |0.5 個 V 核心，2.5 GB RAM |0.5 個 V 核心 |每秒 3.75 個 |可用 |
-| [EM2 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 個 v 核心 |1 個 V 核心，5 GB RAM |1 個 V 核心 |每秒 7.5 個 |可用 |
-| [EM3 (逐月)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 個 v 核心 |2 個 V 核心，10 GB RAM |2 個 v 核心 | |可用 |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 個 v 核心 |4 個 V 核心，25 GB RAM |4 個 v 核心 |每秒 30 個 |可用 (也提供[逐月](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)) |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 個 v 核心 |8 個 V 核心，50 GB RAM |8 個 v 核心 |每秒 60 個 |可用 |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 個 v 核心 |16 個 V 核心，100 GB RAM |16 個 v 核心 |每秒 120 個 |可用 |
+| 節點容量 | V 核心總數<br/>(後端+前端)  | 後端 V 核心 <sup>[1](#fn1)</sup> | 前端 V 核心 <sup>[2](#fn2)</sup> | DirectQuery/即時連線限制 | 最大並行重新整理 |  可用性
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| EM1 (逐月) |1 個 V 核心 |0.5 個 V 核心，2.5 GB RAM |0.5 個 V 核心 |每秒 3.75 個 |  1 | 可用 |
+| EM2 (逐月) |2 個 v 核心 |1 個 V 核心，5 GB RAM |1 個 V 核心 |每秒 7.5 個 |  2 | 可用 |
+| EM3 (逐月) |4 個 v 核心 |2 個 V 核心，10 GB RAM |2 個 v 核心 | | 3 |  可用 |
+| P1 |8 個 v 核心 |4 個 V 核心，25 GB RAM |4 個 v 核心 |每秒 30 個 | 6 | 可用 (也提供逐月) |
+| P2 |16 個 v 核心 |8 個 V 核心，50 GB RAM |8 個 v 核心 |每秒 60 個 | 12 | 可用 |
+| P3 |32 個 v 核心 |16 個 V 核心，100 GB RAM |16 個 v 核心 |每秒 120 個 | 24 | 可用 |
 | | | | | | | |
 
-* 前端 V 核心負責 Web 服務、儀表板和報表文件管理、存取權限管理、排程、API、上傳和下載，大致上就是與使用者體驗有關的一切作業。
+<a name="fn1">1</a>：前端 V 核心負責 Web 服務。 例如，儀表板和報告文件管理、存取權限管理、排程、API、上傳和下載，大致上就是與使用者經驗有關的一切作業。 
 
-* 後端 V 核心承擔重任：查詢處理、快取管理、執行 R 伺服器、資料重新整理、自然語言處理、即時摘要，以及在伺服器端轉譯報表和影像。 為了配合後端 V 核心，也會保留一定數量的記憶體。 在處理大型資料模型，或大量的使用中資料集時，有足夠的記憶體就變得特別重要。
+<a name="fn2">2</a>：後端 V 核心承擔重任：例如查詢處理、快取管理、執行 R 伺服器、資料重新整理、自然語言處理、即時摘要，以及在伺服器端轉譯報表和影像。 為了配合後端 V 核心，也會保留一定數量的記憶體。 在處理大型資料模型，或大量的使用中資料集時，有足夠的記憶體就變得特別重要。
 
 ## <a name="workloads-in-premium-capacity"></a>Premium 容量中的工作負載
 
@@ -112,11 +106,9 @@ Power BI Premium 適用於有不同 v 核心容量的節點設定。 如需特�
 
 ### <a name="considerations-for-paginated-reports"></a>編頁報表考量
 
-如果您使用編頁報表工作負載，請記住下列幾點。
+如果使用分頁報表工作負載，請記住編頁報表可讓您在轉譯報表 (例如依據內容動態變更文字色彩) 時執行自己的程式碼。 這表示我們透過在容量內包含的空間中執行編頁報表，以保護 Power BI Premium 容量。 無論工作負載是否在作用中，我們都會將您指定的最大記憶體指派給此空間。 如果您以相同容量使用 Power BI 報表或資料流程，請確定您沒有為編頁報表設定過大的記憶體，以避免對其他工作負載造成負面影響。
 
-* **編頁報表中的記憶體配置**：編頁報表可讓您在轉譯報表 (例如依據內容動態變更文字色彩) 時執行自己的程式碼。 這表示我們透過在容量內包含的空間中執行編頁報表，以保護 Power BI Premium 容量。 無論工作負載是否在作用中，我們都會將您指定的最大記憶體指派給此空間。 如果您以相同容量使用 Power BI 報表或資料流程，請確定您沒有為編頁報表設定過大的記憶體，以避免對其他工作負載造成負面影響。
-
-* **編頁報表無法使用**：在罕見的情況下，編頁報表工作負載可能會變成無法使用。 此時，工作負載會在系統入口網站中顯示錯誤狀態，而且使用者會看到報表轉譯逾時。 若要緩解此問題，請停用工作負載，然後再次啟用它。
+在罕見的情況下，編頁報表工作負載可能會變成無法使用。 此時，工作負載會在系統入口網站中顯示錯誤狀態，而且使用者會看到報表轉譯逾時。 若要緩解此問題，請停用工作負載，然後再次啟用它。
 
 ## <a name="power-bi-report-server"></a>Power BI 報表伺服器
 
@@ -127,8 +119,7 @@ Power BI Premium 也能夠在組織內部執行 Power BI 報表伺服器。 若�
 [Power BI Premium 常見問題集](service-premium-faq.md)
 [如何購買 Power BI Premium](service-admin-premium-purchase.md)
 [管理 Power BI Premium](service-admin-premium-manage.md)
-[Microsoft Power BI Premium 白皮書](https://aka.ms/pbipremiumwhitepaper)
-[規劃 Power BI Enterprise 部署白皮書](https://aka.ms/pbienterprisedeploy)
-[在您的組織中管理 Power BI](service-admin-administering-power-bi-in-your-organization.md)
+[Microsoft Power BI Premium 白皮書](https://aka.ms/pbipremiumwhitepaper) \(英文\)
+[規劃 Power BI Enterprise 部署白皮書](https://aka.ms/pbienterprisedeploy) \(英文\)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
