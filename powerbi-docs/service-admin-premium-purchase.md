@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/20/2018
+ms.date: 01/14/2019
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 2abca5019454067b6cdc04c3f52b6daeafb2fb85
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ebcf4a6467991bfc0d434302cd2c846ca4af1a5c
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285338"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54323989"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何購買 Power BI Premium
 
@@ -60,7 +60,7 @@ ms.locfileid: "54285338"
 
 1. 請依照下列步驟完成購買程序。
 
-您也可選取下列其中一個連結，引導您直接進入該 SKU 的購買頁面。 如需這些 SKU 的詳細資訊，請參閱 [什麼是 Power BI Premium？](service-premium.md#premiumskus)。
+您也可選取下列其中一個連結，引導您直接進入該 SKU 的購買頁面。 如需這些 SKU 的詳細資訊，請參閱 [什麼是 Power BI Premium？](service-premium.md#premium-capacity-nodes)。
 
 > [!IMPORTANT]
 > 如果您不具有 Office 365 全域管理員角色或計費管理員角色，選取以下連結時會產生錯誤。
