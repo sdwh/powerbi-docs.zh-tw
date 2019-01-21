@@ -1,23 +1,23 @@
 ---
-title: Power BI 的商機分析範例：導覽
-description: Power BI 的商機分析範例：導覽
+title: 適用於 Power BI 的商機分析範例：觀看導覽
+description: 適用於 Power BI 的商機分析範例：觀看導覽
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 12bc6039f7b6580782d3dfac181443caa6557447
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 7f7b9d09b3761a5a02bdf4f706c6470b7d8cf2b6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717485"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275503"
 ---
-# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的商機分析範例：導覽
+# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的商機分析範例：觀看導覽
 
 ## <a name="overview-of-the-opportunity-analysis-sample"></a>商機分析範例概觀
 [商機分析範例] 包含一個儀表板及相關聯的報表，以分析一家具有 2 個銷售通路 (「直接」和「合作夥伴」) 的軟體公司。 此儀表板由銷售經理所建立，以區域、交易量及通路來追蹤商機與營收。
@@ -121,7 +121,7 @@ ms.locfileid: "51717485"
 
 這是安全的作業環境。 您一律可以選擇不儲存變更。 但如果儲存了變更，您也可以隨時移至 [取得資料]  ，重新複製此範例。
 
-## <a name="next-steps-connect-to-your-data"></a>下一步：連接到您的資料
+## <a name="next-steps-connect-to-your-data"></a>後續步驟：連線到您的資料
 我們希望本教學已示範 Power BI 儀表板、問與答和報表如何讓您深入了解商機追蹤的資料。 現在輪到您了 — 連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 深入了解[開始使用 Power BI](service-get-started.md).
 
 [下載範例](sample-datasets.md)  

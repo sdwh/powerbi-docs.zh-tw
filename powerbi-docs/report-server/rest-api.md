@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: b7423a5b15f314050ee21b7eed5c3ea7ad960985
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250422"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291663"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>使用 Power BI 報表伺服器中的 REST API 進行開發
 
@@ -31,8 +31,8 @@ REST API 要求/回應配對可以分成五個元件：
 * **要求 URI**，它包含：`{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`。 雖然要求 URI 包含在要求訊息標頭中，我們在這裡會單獨呼叫，因為大部分語言或架構需要您從要求訊息單獨傳遞它。
   
   * URI 配置：指出用來傳送要求的通訊協定。 例如：`http` 或 `https`。
-  * URI 主機：指定網域名稱或伺服器的 IP 位址，在其中裝載 REST 服務端點，例如 `myserver.contoso.com`。
-  * 資源路徑：指定資源或資源集合，其中可能包含多個區段，服務會用來決定這些資源的選取。 例如：`CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` 可用來取得 CatalogItem 中指定的屬性。
+  * URI 主機：指定裝載 REST 服務端點之伺服器的網域名稱或 IP 位址，例如 `myserver.contoso.com`。
+  * 資源路徑：指定資源或資源集合，其中可能包含多個區段，服務會用它們決定這些資源的選取。 例如：`CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` 可用來取得 CatalogItem 中指定的屬性。
   * 查詢字串 (選用)：提供其他簡單參數，例如 API 版本或資源選取準則。
 * HTTP 要求訊息標頭欄位：
   

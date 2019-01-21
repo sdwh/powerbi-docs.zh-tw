@@ -1,23 +1,23 @@
 ---
-title: Power BI 的客戶獲利率範例：導覽
-description: Power BI 的客戶獲利率範例：導覽
+title: Power BI 的客戶獲利率範例：觀看導覽
+description: Power BI 的客戶獲利率範例：觀看導覽
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: a47a63311dd28f2f1f313bc0a5cfcd68cdb0401b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3dd4f5f0404737685757400202d3a92767e44189
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717968"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280812"
 ---
-# <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客戶獲利率範例：導覽
+# <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客戶獲利率範例：觀看導覽
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>瀏覽客戶獲利率範例概觀
 「客戶獲利率範例」內容套件包含製作行銷資料的公司儀表板、報表和資料集。 CFO 建立這個儀表板是為了查看轄下 5 個業務單位經理 (或主管)、產品、客戶和毛利 (GM) 的關鍵度量。 她一眼即可看出影響獲利率的因素。
@@ -165,7 +165,7 @@ ms.locfileid: "51717968"
 
 2.  從頂端的功能表列，選取 [詢問問題] 來開啟問與答問題方塊。
 
-    ![詢問資料相關問題](media/sample-customer-profitability/power-bi-ask-question.png)
+    ![詢問一個與資料相關的問題](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. 輸入 **Valery 依各項產業分列的總營收**。 請注意當您輸入問題時，視覺效果更新的方式。
 
@@ -195,7 +195,7 @@ ms.locfileid: "51717968"
 
 您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529781).
 
-## <a name="next-steps-connect-to-your-data"></a>下一步：連接到您的資料
+## <a name="next-steps-connect-to-your-data"></a>後續步驟：連線到您的資料
 我們希望本教學已示範 Power BI 儀表板、問與答和報表如何讓您深入了解客戶的資料。 現在換您登場 — 連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 深入了解[開始使用 Power BI](service-get-started.md).
 
 [返回 Power BI 中的範例](sample-datasets.md)  

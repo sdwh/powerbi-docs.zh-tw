@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 328c8ab2e236f0ddc0c5116c1f76d343999193ab
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 774a90b946be30d26217a450edff541136bdb863
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157371"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283843"
 ---
 # <a name="add-a-filter-to-a-report-in-editing-view"></a>在 [編輯檢視] 中，將篩選新增至報表
 
@@ -24,7 +24,7 @@ ms.locfileid: "52157371"
 **您知道嗎？** Power BI 已推出新的篩選體驗，目前正處於預覽狀態。 深入了解 [Power BI 報表中的新篩選體驗](power-bi-report-filter-preview.md)。
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>編輯檢視或閱讀檢視中的篩選
-您可以透過兩種不同檢視來與報表互動：閱讀檢視和編輯檢視。 篩選功能會依據您使用的檢視來提供。 如需詳細資料，請參閱[在 Power BI 報表中進行篩選和醒目提示的相關事項](power-bi-reports-filters-and-highlighting.md)。
+您可以在兩個不同檢視中與報表互動：[閱讀] 檢視和 [編輯] 檢視。 篩選功能會依據您使用的檢視來提供。 如需詳細資料，請參閱[在 Power BI 報表中進行篩選和醒目提示的相關事項](power-bi-reports-filters-and-highlighting.md)。
 
 本文將說明如何在報表的 [編輯檢視] 中建立篩選。  如需 [閱讀檢視] 中篩選的資訊，請參閱[在報表的閱讀檢視中與篩選互動](consumer/end-user-reading-view.md)。
 

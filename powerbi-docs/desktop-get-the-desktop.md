@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: be4ebfdfa7dca5ce212c2b5d242d87b0001b7750
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909586"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281911"
 ---
 # <a name="get-power-bi-desktop"></a>取得 Power BI Desktop
 **Power BI Desktop** 可讓您建立進階查詢、模型，以及將資料視覺化的報表。 透過 **Power BI Desktop**，您可以建立資料模型、建立報表，並發行到 Power BI 服務以分享您的工作。  **Power BI Desktop** 可免費下載。
@@ -96,7 +96,7 @@ ms.locfileid: "50909586"
 * Internet Explorer 9 或更新版本
 * **記憶體 (RAM)：** 可用量至少為 1 GB，建議量為 1.5 GB 或以上。
 * **顯示：** 建議至少為 1440x900 或 1600x900 (16:9)。 不建議像是 1024x768 或 1280x800 等較低的解析度，原因是某些控制項 (例如關閉啟動畫面) 需以更高的解析度顯示。
-* **Windows 顯示設定：** 如果您進行顯示設定，將文字、應用程式及其他項目的大小變更為超過 100%，可能會看不到某些為了繼續使用 **Power BI Desktop** 而必須關閉或回應的對話方塊。 如果您遇到這項問題，請前往 Windows 中的 [設定] > [系統] > [顯示] 檢查您的 [顯示設定]，並使用滑桿將顯示設定調回 100%。
+* **Windows 顯示設定：** 如果您的顯示設定已設定成會將文字、應用程式及其他項目的大小變更為超過 100%，則可能會看不到某些必須關閉或回應以繼續使用 **Power BI Desktop** 的對話方塊。 如果您遇到這項問題，請前往 Windows 中的 [設定] > [系統] > [顯示] 檢查您的 [顯示設定]，並使用滑桿將顯示設定調回 100%。
 * **CPU：** 建議為 1 GHz 或更快的 x86 或 x64 位元處理器。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
@@ -115,7 +115,7 @@ ms.locfileid: "50909586"
 建議更新至最新版的 Power BI Desktop，才能使用最新的功能、效能、穩定性和其他改進。 某些組織可能不希望使用者更新至每一個新版本。 您可以使用下列步驟，透過修改登錄來停用通知：
 
 1. 使用 [登錄編輯器]，瀏覽至 *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop*
-2. 在該處建立具有下列設定的新項目：*REG_DWORD : DisableUpdateNotification*
+2. 在那裡建立具有下列設定的新項目：*REG_DWORD :DisableUpdateNotification*
 3. 將新項目的值設為 **1**。
 
 您必須重新啟動電腦讓變更生效。
@@ -125,7 +125,7 @@ ms.locfileid: "50909586"
 在某些情況下 (包括特定的螢幕解析度設定)，某些使用者可能會看到 Power BI Desktop 轉譯的內容有大型黑色區域。 這通常是因為最新的作業系統更新影響項目轉譯方式而導致，並非 Power BI Desktop 呈現內容的直接結果。 無論如何，大型黑色區域並不像絕佳的視覺效果那麼吸引人，因此若要解決此問題，請採取下列步驟：
 
 1. 按 [開始] 鍵，在顯示的搜尋列中輸入字詞 *blurry*。
-2. 在顯示的對話方塊中，選取選項：[讓 Windows 修正模糊的應用程式]。
+2. 在出現的對話方塊中，選取選項：[讓 Windows 修正模糊的應用程式]。
 3. 重新啟動 Power BI Desktop。
 
 後續的 Windows 更新發行之後，可能會解決此問題。 

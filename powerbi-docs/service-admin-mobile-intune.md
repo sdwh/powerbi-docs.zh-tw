@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 428ea77de2151f4ec3417f62819b3d6481c17ae2
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 65c2de2d505866b3b00a88eaaa309d7c61a7625d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909678"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296217"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>使用 Microsoft Intune 設定行動裝置應用程式
 
@@ -42,11 +42,11 @@ Microsoft Intune 可以與行動裝置管理 (MDM) 同時存在 Office 365 中�
 
 1. 開啟 iTunes。
 
-1. 搜尋 *Power BI*。
+1. 搜尋 Power BI。
 
-1. 您應該會看到 [iPhone Apps] 與 [iPad Apps] 下列出 [Microsoft Power BI]。 您可以擇一使用，這兩者都會取得相同的 URL。
+1. 您應該會看到 [iPhone Apps]  和 [iPad Apps]  下列出 [Microsoft Power BI] 。 您可以擇一使用，這兩者都會取得相同的 URL。
 
-1. 選取 [取得] 下拉式清單，然後選取 [複製連結]。
+1. 選取 [取得]  下拉式清單，然後選取 [複製連結] 。
 
     ![iTunes 應用程式 URL](media/service-admin-mobile-intune/itunes-url.png)
 
@@ -66,25 +66,25 @@ Microsoft Intune 可以與行動裝置管理 (MDM) 同時存在 Office 365 中�
 
     ![Intune 入口網站](media/service-admin-mobile-intune/intune-policy.png)
 
-1. 選取 [新增]。
+1. 選取 [新增...] 。
 
-1. 在 [軟體] 下，您可以選取 Android 或 iOS 的行動應用程式管理。 您可以選取 [使用建議的設定建立原則] ** 快速開始進行，也可以建立自訂原則。
+1. 在 [軟體]  下，您可以選取 Android 或 iOS 的行動應用程式管理。 您可以選取 [使用建議的設定建立原則] 快速開始進行，也可以建立自訂原則。
 
 1. 編輯原則以設定您要套用至應用程式的限制。
 
 ## <a name="step-3-create-the-application"></a>步驟 3：建立應用程式
 
-應用程式是儲存到 Intune 進行部署的參考或套件。 我們將需要建立應用程式，並參考從 Google Play 或 iTunes 取得的應用程式 URL。
+應用程式是儲存到 Intune 進行部署的參考或封裝。 我們將需要建立應用程式，並參考從 Google Play 或 iTunes 取得的應用程式 URL。
 
 您可以先建立應用程式，或先建立原則。 新增應用程式和原則的順序並不重要。 只要執行部署步驟時，兩者都存在即可。
 
-1. 移至 Intune 入口網站，然後從從左功能表中選取 [應用程式] 。
+1. 移至 Intune 入口網站，然後從從左功能表中選取 [應用程式]  。
 
-1. 選取 [新增應用程式]。 這會啟動 [新增軟體] 應用程式。
+1. 選取 [新增應用程式] 。 這會啟動 [新增軟體]  應用程式。
 
 ### <a name="create-for-ios"></a>針對 iOS 建立
 
-1. 從下拉式清單中選取 [App Store 中所管理的 iOS 應用程式] 。
+1. 從下拉式清單中選取 [App Store 中所管理的 iOS 應用程式]  。
 
 1. 輸入從[步驟 1](#step-1-get-the-URL-for-the-application) 取得的應用程式 URL，然後選取 [下一步]。
 
@@ -92,17 +92,17 @@ Microsoft Intune 可以與行動裝置管理 (MDM) 同時存在 Office 365 中�
 
 1. 提供 [發行者]、[名稱] 和 [描述]。 您也可以提供一個**圖示**。 [類別] 是針對公司入口網站應用程式。 完成後，選取 [下一步]。
 
-1. 您可以決定要以 [任一] \(預設\)、[iPad] 或 [iPhone] 發行應用程式。 預設會顯示 [任一]  ，此選項適用於這兩種裝置類型。 iPhone 和 iPad 的 Power BI 應用程式 URL 相同。 選取 [下一步]。
+1. 您可以決定要以 [任一]  \(預設)、[iPad]  或 [iPhone] 發行應用程式。 預設會顯示 [任一]  ，此選項適用於這兩種裝置類型。 iPhone 和 iPad 的 Power BI 應用程式 URL 相同。 選取 [下一步] 。
 
-1. 選取 [上傳]。
+1. 選取 [上傳] 。
 
-1. 若沒有在清單中看到應用程式，請重新整理頁面：移至 [概觀]，然後返回 [應用程式]。
+1. 如果您在清單中沒有看到應用程式，請重新整理頁面：移至 [概觀] 然後返回 [應用程式]。
 
     ![[應用程式] 索引標籤](media/service-admin-mobile-intune/intune-add-software-ios2.png)
 
 ### <a name="create-for-android"></a>為 Android 建立
 
-1. 從下拉式清單中選取 [外部連結] 。
+1. 從下拉式清單中選取 [外部連結]  。
 
 1. 輸入從[步驟 1](#step-1-get-the-URL-for-the-application) 取得的應用程式 URL，然後選取 [下一步]。
 
@@ -112,7 +112,7 @@ Microsoft Intune 可以與行動裝置管理 (MDM) 同時存在 Office 365 中�
 
 1. 選取 [上傳] 。
 
-1. 若沒有在清單中看到應用程式，請重新整理頁面：移至 [概觀]，然後返回 [應用程式]。
+1. 如果您在清單中沒有看到應用程式，請重新整理頁面：移至 [概觀] 然後返回 [應用程式]。
 
     ![[應用程式] 索引標籤](media/service-admin-mobile-intune/intune-add-software-android2.png)
 
@@ -122,21 +122,21 @@ Microsoft Intune 可以與行動裝置管理 (MDM) 同時存在 Office 365 中�
 
 ### <a name="deploy-for-ios"></a>為 iOS 部署
 
-1. 在應用程式畫面上，選取您建立的應用程式。 然後選取 [管理部署] 連結。
+1. 在應用程式畫面上，選取您建立的應用程式。 然後選取 [管理部署...]  連結。
 
     ![管理部署](media/service-admin-mobile-intune/intune-deploy-ios1.png)
 
 1. 在 [選取群組]  畫面中，您可以選擇要部署此應用程式的目標群組。 選取 [下一步] 。
 
-1. 在 [部署動作]  畫面中，您可以選擇要部署此應用程式的方式。 選取 [可用安裝] 或 [必要安裝]，即可在公司入口網站中提供應用程式給使用者隨選安裝。 完成選取之後，選取 [下一步]。
+1. 在 [部署動作]  畫面中，您可以選擇要部署此應用程式的方式。 選取 [可用安裝] 或 [必要安裝] ，即可在公司入口網站中提供應用程式給使用者隨選安裝。 完成選取之後，選取 [下一步] 。
 
     ![部署動作](media/service-admin-mobile-intune/intune-deploy-ios2.png)
 
-1. 在 [行動應用程式管理] 畫面中，您可以選取在[步驟 2](#step-2-create-a-mobile-application-management-policy) 中建立的行動應用程式管理原則。 如果您建立的原則是唯一可用的 iOS 原則，預設為此原則。 選取 [下一步]。
+1. 在 [行動應用程式管理] 畫面中，您可以選取在[步驟 2](#step-2-create-a-mobile-application-management-policy) 中建立的行動應用程式管理原則。 如果您建立的原則是唯一可用的 iOS 原則，預設為此原則。 選取 [下一步] 。
 
     ![行動應用程式管理](media/service-admin-mobile-intune/intune-deploy-ios3.png)
 
-1. 在 [VPN 設定檔] 畫面中，如果您的組織有一個原則，則可以選取此原則。 預設為 [無] 。 選取 [下一步] 。
+1. 在 [VPN 設定檔]  畫面中，如果您的組織有一個原則，則可以選取此原則。 預設為 [無] 。 選取 [下一步] 。
 
 1. 在 [行動應用程式設定]  畫面中，如果已建立一個原則，則可以選取 [應用程式設定原則]  。 預設為 [無] 。 這不是必要項。 選取 [完成] 。
 
@@ -173,7 +173,7 @@ Microsoft Intune 可以與行動裝置管理 (MDM) 同時存在 Office 365 中�
 
     ![Power BI 應用程式](media/service-admin-mobile-intune/intune-companyportal2.png)
 
-1. 選取 [安裝]。
+1. 選取 [安裝] 。
 
     ![安裝應用程式](media/service-admin-mobile-intune/intune-companyportal3.png)
 

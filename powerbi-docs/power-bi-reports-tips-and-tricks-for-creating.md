@@ -5,17 +5,17 @@ author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 2093800f10484a24eb4db9f77f45468ae4b9b4c3
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829818"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290490"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>在 Power BI Desktop 和 Power BI 服務中建立報表的祕訣和訣竅
 為了充分利用您的資料，有時您需要一些額外的協助。 我們集結了一些秘訣與技巧，可供您在 Microsoft Power BI Desktop、Power BI 服務中，以及在啟用 Power Pivot 增益集與已安裝並啟用 Power Query 的 Microsoft Excel 2016 或 Microsoft Excel 2013 Pro-Plus 版本中，用來建立報表。
@@ -167,8 +167,8 @@ DAX 是 Power BI Desktop 的計算公式語言，  並已針對 BI 分析最佳�
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 服務和 Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>閱讀白皮書︰[Power BI 報表的設計原則](visuals/power-bi-visualization-best-practices.md)
-本白皮書將提供在 Power BI 中設計報表的最佳做法。 從規劃開始，它將討論您可以套用至報表和構成該報表之頁面與個別視覺效果的設計原則。 這些最佳作法有許多也適用於儀表板設計。
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>閱讀技術白皮書：[Power BI 報表的設計原則](visuals/power-bi-visualization-best-practices.md)
+本白皮書提供在 Power BI 中設計報表的最佳作法。 從規劃開始，它將討論您可以套用至報表和構成該報表之頁面與個別視覺效果的設計原則。 這些最佳作法有許多也適用於儀表板設計。
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>閱讀並/或觀賞「如何在 Power BI 中設計令人驚豔的報表 (和儀表板)」
 社群成員 Miguel Myers 是資料科學家暨圖形設計人員。

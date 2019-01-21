@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5f202597fa641bf68b8e49c461ed5c25ea987c3e
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 019ee7985c27c72ca41a09c8d13754316fd60232
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670915"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291640"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>開始使用 Power BI Desktop
 歡迎使用 **Power BI Desktop 使用者入門指南**。 此 Power BI Desktop 簡短教學課程能讓您熟悉它的運作方式、示範它的功能，以及加速您建置穩固資料模型的能力 — 以及令人讚嘆的報表，增強您的商業智慧工作。 
@@ -69,9 +69,9 @@ Power BI Desktop 會安裝為應用程式，並在您的桌面上執行。
 
 ![](media/desktop-getting-started/designer_gsg_blankreport.png)
 
-Power BI Desktop 中有三種檢視：[報表] 檢視、[資料] 檢視和 [關聯性] 檢視。 Power BI Desktop 也包含 [查詢編輯器]，這會在另一個視窗中開啟。 在 [查詢編輯器] 中，您可以建立查詢並轉換資料，然後將調整過的資料模型載入 Power BI Desktop，並建立報表。
+Power BI Desktop 中有三種檢視：[報表] 檢視、[資料] 檢視，以及 [關聯性] 檢視。 Power BI Desktop 也包含 [查詢編輯器]，這會在另一個視窗中開啟。 在 [查詢編輯器] 中，您可以建立查詢並轉換資料，然後將調整過的資料模型載入 Power BI Desktop，並建立報表。
 
-下列畫面顯示 Power BI Desktop 左邊的三個檢視圖示：從上到下分別為 **報表**、 **資料**和 **關聯性**。 目前顯示的檢視會以左側的黃色列表示。 在本案例中，目前正在顯示 [報表]  檢視。 您可以選取這三個圖示中的任一個來變更檢視。
+下列畫面顯示 Power BI Desktop 左邊的三個檢視圖示：從上到下分別為 [報表]、[資料] 和 [關聯性]。 目前顯示的檢視會以左側的黃色列表示。 在本案例中，目前正在顯示 [報表]  檢視。 您可以選取這三個圖示中的任一個來變更檢視。
 
 ![](media/desktop-getting-started/designer_gsg_viewtypes.png)
 

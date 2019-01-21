@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3ef719f85690297cd523a6fefb7f0ba5f77c9199
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 0ad902fc08592addb234517af99faedf1851503a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717600"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280899"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>管理 Power BI Premium 和 Power BI Embedded 內的容量
 
@@ -44,7 +44,7 @@ ms.locfileid: "51717600"
 
 * **Power BI Premium：**[如何購買 Power BI Premium](service-admin-premium-purchase.md)
 
-* **Power BI Embedded：** [在 Azure 入口網站中建立 Power BI Embedded 容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
+* **Power BI Embedded：**[在 Azure 入口網站中建立 Power BI Embedded 容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 
 當您購買 Power BI Premium 或 Embedded SKU 時，租用戶會收到供執行中容量使用的對應 V 核心數目。 例如，購買 Power BI Premium P3 SKU 可提供租用戶 32 個 V 核心。 如需 SKU 的詳細資訊，請參閱 [Premium 容量節點](service-premium.md#premium-capacity-nodes)。
 

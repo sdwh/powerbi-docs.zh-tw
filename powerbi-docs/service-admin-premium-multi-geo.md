@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/20/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 91e1880e1a879ee98d65d6ad91b26e534e807040
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 4b91ac08001118c6a0241cdd1caf32ebfd9098f2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268289"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291709"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Power BI Premium 的多地理位置支援 (預覽版)
 
@@ -43,7 +43,7 @@ ms.locfileid: "52268289"
 
 建立容量之後，它會保留在該區域中，而所建立的任何工作區都會將其內容儲存於該區域中。 您可以透過工作區設定畫面上的下拉式清單，將工作區從某個區域遷移至另一個區域。
 
-![編輯工作區：選擇可用的容量。 Power BI 多地理位置](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
+![編輯工作區：選擇可用容量。 Power BI 多地理位置](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
 
 您會看到此確認變更的訊息。
 

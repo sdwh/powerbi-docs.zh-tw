@@ -6,17 +6,17 @@ ms.author: maghan
 ms.date: 05/04/2018
 ms.topic: quickstart
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 802107ce9c12075ffc51461375ca3e9a313f2be1
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: a0224188a0205cf134f2b2ee123bf5a3ac7ef0d0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558416"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288489"
 ---
-# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>快速入門：在 SharePoint 伺服器中使用 iFrame 來內嵌 Power BI 報表伺服器報表
+# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>快速入門：在 SharePoint Server 中使用 iFrame 來內嵌 Power BI 報表伺服器報表
 
 在本快速入門中，您將了解如何在 SharePoint 頁面中使用 iFrame 來內嵌「Power BI 報表伺服器」報表。 如果您使用 SharePoint Online，則「Power BI 報表伺服器」必需可供公開存取。 在 SharePoint Online 中，與 Power BI 服務搭配運作的「Power BI 網頁組件」並無法與「Power BI 報表伺服器」搭配運作。 
 
@@ -101,7 +101,7 @@ ms.locfileid: "45558416"
 
 ## <a name="next-steps"></a>後續步驟
 
-[快速入門︰建立 Power BI 報表伺服器的 Power BI 報表](quickstart-create-powerbi-report.md)  
-[快速入門︰建立 Power BI 報表伺服器的編頁報告](quickstart-create-paginated-report.md)  
+[快速入門：建立 Power BI 報表伺服器的 Power BI 報表](quickstart-create-powerbi-report.md)  
+[快速入門：建立 Power BI 報表伺服器的編頁報表](quickstart-create-paginated-report.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/) 

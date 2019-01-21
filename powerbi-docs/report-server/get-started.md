@@ -7,15 +7,15 @@ ms.author: maggies
 ms.date: 11/20/2018
 ms.topic: overview
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: ee8086a149e752d68aa8d6801844676d038257e3
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 4db2f7ca5a84563e86b3a3033daae6d83bffcf5e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289143"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291963"
 ---
 # <a name="what-is-power-bi-report-server"></a>什麼是 Power BI 報表伺服器？
 
@@ -27,13 +27,13 @@ Power BI 報表伺服器是具有入口網站的內部部署報表伺服器，�
 「Power BI 報表伺服器」與 SQL Server Reporting Services 和 Power BI 線上服務都類似，但方式不同。 「Power BI 報表伺服器」與 Power BI 服務相似之處在於，兩者都裝載 Power BI 報表 (.PBIX) 和 Excel 檔案。 「Power BI 報表伺服器」與 Reporting Services 相似之處在於，兩者都位於內部部署環境且裝載編頁報表 (.RDL)。 Power BI 報表伺服器是 Reporting Services 的超集：所有可以在 Reporting Services 中執行的作業，您都能透過 Power BI 報表伺服器來執行，同時支援 Power BI 報表。 如需詳細資料，請參閱[比較 Power BI 報表伺服器與 Power BI 服務](compare-report-server-service.md)。
 
 ## <a name="licensing-power-bi-report-server"></a>授權 Power BI 報表伺服器
-您可以透過兩種不同的授權取得「Power BI 報表伺服器」：[Power BI Premium](../service-premium.md) 及含有「軟體保證」的 [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)。 使用 Power BI Premium 授權時，您可以建立混合了雲端和內部部署環境的混合式部署。  
+Power BI 報表伺服器可透過兩個不同的授權取得：[Power BI Premium](../service-premium.md) 和 [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) 含軟體保證。 使用 Power BI Premium 授權時，您可以建立混合了雲端和內部部署環境的混合式部署。  
 
 > [!NOTE]
 > 針對 Power BI Premium，只有 P SKU 中才會包含 Power BI 報表伺服器。 EM SKU 不包含報表伺服器。
 
 ## <a name="web-portal"></a>入口網站
-「Power BI 報表伺服器」的入口是一個可在任何新式瀏覽器中檢視的安全入口網站。 您可在該處存取所有報表和 KPI。 入口網站上的內容會採用傳統資料夾階層的組織方式。 在您的資料夾中，內容將依類型分組：Power BI 報表、行動報表、編頁報表、KPI 及 Excel 活頁簿。 共用資料集和共用資料來源位於其本身的資料夾中，可作為報表的建置組塊使用。 您可以標記我的最愛，以在單一資料夾中檢視它們， 並可直接在入口網站中建立 KPI。 
+「Power BI 報表伺服器」的入口是一個可在任何新式瀏覽器中檢視的安全入口網站。 您可在該處存取所有報表和 KPI。 入口網站上的內容會採用傳統資料夾階層的組織方式。 在您的資料夾中，內容是依類型分組：Power BI 報表、行動報表、分頁報表、KPI 和 Excel 活頁簿。 共用資料集和共用資料來源位於其本身的資料夾中，可作為報表的建置組塊使用。 您可以標記我的最愛，以在單一資料夾中檢視它們， 並可直接在入口網站中建立 KPI。 
 
 ![Power BI 報表伺服器入口網站](media/get-started/web-portal.png)
 

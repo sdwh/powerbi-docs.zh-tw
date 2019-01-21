@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 379f80e1e87181ffdacdaab01d87ff435f2a9501
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 8d32ad24fd41c33d0b1e1f37f11be39292e82742
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473766"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291065"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Power BI Desktop 中的多對多關聯性 (預覽)
 
@@ -27,7 +27,7 @@ Power BI Desktop 中的多對多關聯性功能是三個相關功能的其中之
 
 * **複合模型**：允許報表可有兩 (含) 個以上任意組合的資料連線，包括 DirectQuery 連線或匯入。 如需詳細資訊，請參閱 [Power BI Desktop 的複合模型 (預覽)](desktop-composite-models.md)。
 
-* **多對多關聯性**：使用複合模型，可以在資料表之間建立多對多關聯性。 此方法會移除資料表中唯一值的需求。 此方法也會移除先前的因應措施，像是只為建立關聯性而導入新的資料表。 本文中進一步說明此功能。
+* **多對多關聯性**：您可以使用「複合模型」在資料表之間建立「多對多關聯性」。 此方法會移除資料表中唯一值的需求。 此方法也會移除先前的因應措施，像是只為建立關聯性而導入新的資料表。 本文中進一步說明此功能。
 
 * **儲存模式**：您現在可以指定哪些視覺效果必須查詢後端資料來源。 不需要查詢的視覺效果，即便是使用 DirectQuery，也同樣會匯入。 此功能可提升效能，並減輕後端的負載。 以往，即使像是交叉分析篩選器這類的簡單視覺效果，也會起始傳送到後端來源的查詢。 如需詳細資訊，請參閱 [Power BI Desktop 的儲存模式 (預覽)](desktop-storage-mode.md)。
 

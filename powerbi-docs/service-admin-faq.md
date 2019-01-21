@@ -5,23 +5,23 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830301"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296815"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
-此文章可解決 Power BI 管理的常見問題。 如需 Power BI 管理的概觀，請參閱[什麼是 Power BI 管理？](service-admin-administering-power-bi-in-your-organization.md)。
+本文可解決 Power BI 管理的常見問題。 如需 Power BI 管理的概觀，請參閱[什麼是 Power BI 管理？](service-admin-administering-power-bi-in-your-organization.md)。
 
-## <a name="whats-in-this-article"></a>此文章內容
+## <a name="whats-in-this-article"></a>本文內容
 
 ### <a name="sign-up-for-power-bi-section"></a>註冊 Power BI 小節
 
@@ -156,13 +156,13 @@ Get-MsolCompanyInformation | fl allow*
 
 貴組織使用者有三種適用案例︰
 
-* **案例 1**：如果您的組織已有現有的 Office 365 環境，且組織中的所有使用者都已經有 Office 365 帳戶，則您管理身分識別的方式不會變更。
+* **案例 1**︰如果您的組織已有現有的 Office 365 環境，且組織中的所有使用者都已經有 Office 365 帳戶，則您管理身分識別的方式不會變更。
 
-* **案例 2**：如果您的組織已有現有的 Office 365 環境，但並非組織中所有使用者都有 Office 365 帳戶，則我們會在租用戶中建立使用者，然後根據使用者的公司或學校電子郵件地址指派授權。
+* **案例 2**︰如果您的組織已有現有的 Office 365 環境，但並非組織中所有使用者都有 Office 365 帳戶，則我們會在租用戶中建立使用者，然後根據使用者的公司或學校電子郵件地址指派授權。
 
     這表示，您在任何特定時間內管理的使用者數目，會隨組織中的使用者註冊服務而成長。
 
-* **案例 3**：如果您的組織沒有 Office 365 環境連線到您的電子郵件網域，則您管理身分識別的方式不會變更。
+* **案例 3**︰如果貴組織沒有 Office 365 環境連線到您的電子郵件網域，則您管理身分識別的方式不會變更。
 
     使用者會新增至僅限雲端的新使用者目錄中，而且您可以選擇是否接管成為租用戶系統管理員並管理使用者。
 
@@ -186,7 +186,7 @@ Power BI 提供的管理入口網站，可讓您檢視使用量統計資料、�
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>如果有多個網域，我可以控制使用者新增的 Office 365 租用戶嗎？
 
-如果您未執行任何動作，則會為每個使用者電子郵件網域與子網域都建立租用戶。 如果您想要所有使用者都在相同租用戶中 (無論其電子郵件地址網域為何)：事先建立目標租用戶或使用現有的租用戶，然後在該租用戶中，新增您想要合併的所有現有網域與子網域。 然後電子郵件地址的結尾是那些網域與子網域的所有使用者，都會在他們註冊時自動加入目標租用戶。
+如果您未執行任何動作，則會為每個使用者電子郵件網域與子網域都建立租用戶。 如果不論電子郵件地址擴充功能為何，希望所有使用者都在相同的租用戶中︰請預先建立目標租用戶，或使用現有的租用戶，新增您想要合併到該租用戶內的所有現有網域與子網域。 然後電子郵件地址的結尾是那些網域與子網域的所有使用者，都會在他們註冊時自動加入目標租用戶。
 
 > [!IMPORTANT]
 > 使用者一經建立，就不會自動在租用戶之間移動。 若要深入了解將網域新增至單一 Office 365 租用戶中，請參閱[將您的使用者與網域新增至 Office 365](/office365/admin/setup/add-domain/)。

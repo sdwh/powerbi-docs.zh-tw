@@ -6,15 +6,15 @@ manager: kfile
 ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: cf489f842d114dbf0ac1add561a93c2ce5499971
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4654534d9643b9c5cf5911249a0eda33b5cc32af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37780547"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277886"
 ---
 # <a name="dataset-properties"></a>資料集屬性
 
@@ -50,7 +50,7 @@ isHidden     | Boolean        | 若為 true，資料表會從用戶端工具隱�
 dataType     |  字串       |  支援的 [EDM 資料類型](https://msdn.microsoft.com/library/ee382832.aspx)與限制。 請參閱[資料類型](#DataTypeRestrictions)限制。      |  False       | True        
 formatString     | 字串        | 描述顯示值時應如何設定其格式的字串。 若要深入了解字串格式設定，請參閱 [FORMAT_STRING 內容](https://msdn.microsoft.com/library/ms146084.aspx)。      | False        | False        
 sortByColumn    | 字串        |   要用以排序目前資料行的相同資料表中，資料行的字串名稱。     | False        | False       
-dataCategory     | 字串        |  用於描述此資料行內資料之資料類別的字串值。 幾個常用的值有：Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
+dataCategory     | 字串        |  用於描述此資料行內資料之資料類別的字串值。 常見的值包括：Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
 isHidden    |  Boolean       |  指出資料行是否從檢視隱藏的屬性。 預設為 false。       | False        | False        
 summarizeBy     | 字串        |  資料行的預設彙總方法。 值包括：default、none、sum、min、max、count、average、distinctCount     |  False       | False
 
@@ -68,7 +68,7 @@ isHidden     | 字串        |  若為 true，資料表會從用戶端工具隱�
 名稱  |類型  |描述  |唯讀  |必要 
 ---------|---------|---------|---------|---------
 名稱     | 字串        | 使用者定義的關聯性名稱。 其也用作關聯性的識別碼。        | False       | True        
-crossFilteringBehavior     | 字串        |    關聯性的篩選方向：OneDirection (預設)、BothDirections、Automatic       | False        | False        
+crossFilteringBehavior     | 字串        |    篩選關聯性的方向：OneDirection (預設)、BothDirections、Automatic       | False        | False        
 fromTable     | 字串        | 外部索引鍵資料表的名稱。        | False        | True         
 fromColumn    | 字串        | 外部索引鍵資料行的名稱。        | False        | True         
 toTable    | 字串        | 主索引鍵資料表的名稱。        | False        | True         

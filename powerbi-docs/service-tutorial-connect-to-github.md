@@ -5,21 +5,21 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 88be0aa477b5e4b2df4f53c42dfb6fde3dda0184
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: bad76adc42fc9f70c1439c6da0cfe2d149bbbe43
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900489"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295600"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>教學課程：使用 Power BI 連線至 GitHub 範例
-在本教學課程中，您使用 Power BI 連線接至 GitHub 服務中的實際資料，而且 Power BI 會自動建立儀表板和報表。 您連線至 Power BI 內容公用存放庫 (也稱為「存放庫」)，並查看資訊：有多少人參與 Power BI 公用內容？ 誰參與最多？ 哪個星期幾的參與最多？ 以及其他問題的答案。 
+在本教學課程中，您使用 Power BI 連線接至 GitHub 服務中的實際資料，而且 Power BI 會自動建立儀表板和報表。 您連線到 Power BI 內容公用存放庫 (又稱 *repo*) 並看到下列資訊：有多少人參與 Power BI 的公用內容？ 誰參與最多？ 哪個星期幾的參與最多？ 以及其他問題的答案。 
 
 ![Power BI 中的 GitHub 報表](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 

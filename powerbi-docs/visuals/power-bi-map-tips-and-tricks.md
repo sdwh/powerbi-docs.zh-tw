@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 23e237428b86046cf75b02e2e98082da18d671cf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548503"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286673"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 視覺效果的秘訣和訣竅
 Power BI 與 Bing 地圖服務整合以提供預設地圖座標 (這個程序稱為地理編碼)，以便您建立地圖。 這兩者使用演算法來識別正確位置，但有時會猜測最接近的位置。 如果 Power BI 無法自行建立地圖視覺效果，則會請求 Bing 地圖服務協助。 
@@ -76,7 +76,7 @@ Power BI 會使用 Bing 的[非結構化 URL 範本服務](https://msdn.microsof
 ![緯度和經度](./media/power-bi-map-tips-and-tricks/pbi_latitude.png) 
 
 ## <a name="use-geo-hierarchies-so-you-can-drill-down-to-different-levels-of-location"></a>使用地理階層，讓您可以向下切入到不同「層級」的位置
-當您的資料集已有不同層級的位置資料時，您和您的同事可以使用 Power BI 來建立「地理階層」。 若要這樣做，請將多個欄位拖曳到 [位置] 貯體中。 利用此方式一起使用的欄位即成為地理階層。 在下列範例中，我們新增了地理欄位：[國家/地區]、[縣/市] 和 [鄉/鎮/市/區]。 在 Power BI 中，您和您的同事可以使用此地理階層向上切入和向下切入。
+當您的資料集已有不同層級的位置資料時，您和您的同事可以使用 Power BI 來建立「地理階層」。 若要這樣做，請將多個欄位拖曳到 [位置] 貯體中。 利用此方式一起使用的欄位即成為地理階層。 在下列範例中，我們新增了地理欄位：[國家/地區]、[州/省] 和 [縣/市]。 在 Power BI 中，您和您的同事可以使用此地理階層向上切入和向下切入。
 
   ![[位置] 欄位](./media/power-bi-map-tips-and-tricks/power-bi-hierarchy.png)
 

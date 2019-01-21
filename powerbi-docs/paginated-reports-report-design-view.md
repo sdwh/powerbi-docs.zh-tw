@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: dc811c5f6c6a7d5d428591eb7afd1665cda6dbb0
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900443"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283521"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>在報表設計檢視中瀏覽編頁報表 (預覽)
 
@@ -88,14 +88,14 @@ ms.locfileid: "52900443"
  根據屬性，您可以從下拉式清單中設定屬性值、輸入值，或選取 `<Expression>` 即可建立運算式。  
   
 ### <a name="changing-the-properties-pane-view"></a>變更 [屬性] 窗格檢視  
- 根據預設，[屬性] 窗格中顯示的屬性會組織成廣泛的類別，例如 [動作]、[框線]、[填滿]、[字型] 和 [一般]。 每個類別都有一組與其相關聯的屬性。 例如，[字型] 類別中列出了下列屬性：Color、FontFamily、FontSize、FontStyle、FontWeight、LineHeight 和 TextDecoration。 如果您願意，可以依字母順序排列窗格中列出的所有屬性。 這將移除類別並依字母順序列出所有屬性，而不論類別。  
+ 根據預設，[屬性] 窗格中顯示的屬性會組織成廣泛的類別，例如 [動作]、[框線]、[填滿]、[字型] 和 [一般]。 每個類別都有一組與其相關聯的屬性。 下列屬性列在 [字型] 類別中：Color、FontFamily、FontSize、FontStyle、FontWeight、LineHeight 和 TextDecoration。 如果您願意，可以依字母順序排列窗格中列出的所有屬性。 這將移除類別並依字母順序列出所有屬性，而不論類別。  
   
- [屬性] 窗格在窗格頂端有三個按鈕：[類別]、[按字母排列] 和 [屬性頁]。 選取 [類別] 和 [按字母排列] 按鈕，可在 [屬性] 窗格檢視之間切換。 選取 [屬性頁] 按鈕，以開啟所選的報表項目的 [屬性] 對話方塊。  
+ [屬性] 窗格的頂端有三個按鈕：[類別]、[依字母順序排序] 和 [屬性頁]。 選取 [類別] 和 [按字母排列] 按鈕，可在 [屬性] 窗格檢視之間切換。 選取 [屬性頁] 按鈕，以開啟所選的報表項目的 [屬性] 對話方塊。  
   
   
 ## <a name="5-grouping-pane"></a>5 個 [群組] 窗格
 
- [群組] 用來將您的報表資料組織到視覺階層以及計算總計中。 您可以在設計介面上以及 [群組] 窗格中檢視資料區域內的資料列和資料行群組。 [群組] 窗格有兩個窗格：[資料列群組] 和 [資料行群組]。 當您選取資料區域時，[群組] 窗格會將該資料區域內的所有群組顯示為階層式清單：子群組會在其父群組底下縮排顯示。  
+ [群組] 用來將您的報表資料組織到視覺階層以及計算總計中。 您可以在設計介面上以及 [群組] 窗格中檢視資料區域內的資料列和資料行群組。 [群組] 窗格有兩個窗格：[資料列群組] 和 [資料行群組]。 當您選取資料區時，[群組] 窗格會顯示該資料區內所有群組的階層清單：子群組會縮排出現在其父群組底下。  
   
  您可以透過從 [報表資料] 窗格中拖曳欄位，並將其拖放到設計介面上或 [群組] 窗格中來建立群組。 在 [群組] 窗格中，您可以加入父群組、鄰近群組和子群組，變更群組屬性，以及刪除群組。  
   

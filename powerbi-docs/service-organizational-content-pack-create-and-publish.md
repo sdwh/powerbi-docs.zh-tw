@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4638842217127c1d80ec115e05f8db1a6d3eb36c
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 3a434c418e8a385db921dd910f354bda04ad8edd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679033"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289317"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>建立及發佈 Power BI 組織內容套件 (教學課程)
 
@@ -53,7 +53,7 @@ ms.locfileid: "51679033"
       > 
       > 
    
-   3. 建議：新增**描述**。 這有助於同事更輕鬆地找到所需的內容套件。 除了描述之外，還新增同事可能用來搜尋此內容套件的關鍵字。 另外加上連絡資訊，萬一您的同事有疑問或需要協助時可派上用場。
+   3. 建議︰新增**描述**。 這有助於同事更輕鬆地找到所需的內容套件。 除了描述之外，還新增同事可能用來搜尋此內容套件的關鍵字。 另外加上連絡資訊，萬一您的同事有疑問或需要協助時可派上用場。
    
    4. **上傳映像或標誌**，讓群組成員更輕鬆地尋找內容套件 &#151; 掃描映像的速度會比尋找文字更快。 我們在下面的螢幕擷取畫面中使用商機計數 100% 直條圖磚的映像。
    

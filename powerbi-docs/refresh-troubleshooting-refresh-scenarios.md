@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 73d9d84552d49ca507fe4b6f9ec022bb7fb98866
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670846"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285108"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>重新整理疑難排解案例
 您可以在這裡找到在 Power BI 服務內重新整理資料時可能面臨到的不同狀況的相關資訊。
@@ -37,7 +37,7 @@ ms.locfileid: "52670846"
 ## <a name="gatewaynotreachable-when-setting-credentials"></a>設定認證時發生 GatewayNotReachable 問題
 嘗試設定資料來源的認證時，您可能會遇到 GatewayNotReachable 問題。 這可能是閘道器過期的結果。  請安裝最新的閘道器並再試一次。
 
-## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>處理錯誤：發生下列系統錯誤：類型不符
+## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>正在處理錯誤:發生下列系統錯誤:類型不符
 這可能是 Power BI Desktop 檔案或 Excel 活頁簿內的 M 指令碼問題。  也可能是因為 Power BI Desktop 版本過期所致。
 
 ## <a name="tile-refresh-errors"></a>圖格重新整理錯誤

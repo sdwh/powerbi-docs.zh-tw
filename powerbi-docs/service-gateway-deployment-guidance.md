@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e07575658ed25e3f4933a7840ef4bc970264b23
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296012"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279841"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>部署 Power BI 之資料閘道的指引
 
@@ -40,7 +40,7 @@ ms.locfileid: "34296012"
 **Power BI** 中有一個「報表」只允許「一個」閘道的條件約束；因此，即使報表是根據多個資料來源，所有這類資料來源還是必須經過單一閘道。 不過，如果儀表板根據「多個」報表，您可以針對每個參與的報表使用專用閘道，因而將閘道負載分散到多個參與該單一儀表板的報表。
 
 ### <a name="connection-type"></a>連線類型
-**Power BI** 提供兩種類型的連接：**DirectQuery** 和 **Import**。 並非所有資料來源都支援兩種連接類型，而且有許多原因可能會導致選擇其中一個，例如安全性需求、效能、資料限制和資料模型大小。 您可以深入了解[內部部署資料閘道](service-gateway-onprem.md)一文的＜可用資料來源類型清單＞一節中的連線類型和支援的資料來源。
+**Power BI** 提供兩種類型的連線：**DirectQuery** 和**匯入**。 並非所有資料來源都支援兩種連接類型，而且有許多原因可能會導致選擇其中一個，例如安全性需求、效能、資料限制和資料模型大小。 您可以深入了解[內部部署資料閘道](service-gateway-onprem.md)一文的＜可用資料來源類型清單＞一節中的連線類型和支援的資料來源。
 
 根據使用的連接類型，閘道使用量可能會不同。 例如，可能的話，您應該嘗試分隔 **DirectQuery** 資料來源與 [排程重新整理] 資料來源 (假設它們位於不同的報表中，而且可以予以分隔)。 在早上排程重新整理用於公司主要儀表板的大規模資料模型的同時，這樣做可避免閘道將數千個 DirectQuery 要求排入佇列中。 以下是每個所需要考量的事項：
 

@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e1748c478f9f58b568b901f3a243e64e4658f6a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829887"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54273045"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>使用 Power BI 服務或 Power BI Desktop 建立 Cortana 的自訂回應頁面
 您可以使用 Power BI 的完整功能，建立稱為「Cortana 回應頁面」 (有時稱為*Cortana Answer Card*)、專為回答 Cortana 問題所設計的特殊報表頁面。
@@ -23,7 +23,7 @@ ms.locfileid: "52829887"
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
 > [!IMPORTANT]
-> 如果您試用 Cortana 和 Power BI 儀表板 Preview，則可以略過此文章的其餘部分。 不需要進行設定，Cortana 就可以搜尋 Power BI 儀表板。
+> 如果您試用 Cortana 和 Power BI 儀表板 Preview，則可以略過本文的其餘部分。 不需要進行設定，Cortana 就可以搜尋 Power BI 儀表板。
 > 
 > 
 
@@ -32,7 +32,7 @@ ms.locfileid: "52829887"
 
 **文章 1**：[了解 Cortana 和 Power BI 如何搭配運作](service-cortana-intro.md)
 
-**文章 2**：[針對搜尋 Power BI 報表：啟用 Cortana - Power BI - Windows 整合](service-cortana-enable.md)
+**文章 2**：[搜尋 Power BI 報表：進行 Cortana - Power BI - Windows 整合](service-cortana-enable.md)
 
 **文章 3**：此文章
 

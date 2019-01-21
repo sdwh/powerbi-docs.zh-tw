@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6c47fb847ff5360031f4bfe2974db9c405a4ce5f
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 61de19e50437cf8cb5920d2a413821e325da2a1a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670731"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278070"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery 和 SAP Business Warehouse (BW)
 您可以使用 **DirectQuery** 直接連接到 **SAP Business Warehouse (BW)** 資料來源。 根據 SAP BW 的 OLAP/多維度本質，透過 SAP BW 的 DirectQuery 與透過關聯式來源 (例如 SQL Server) 的 DirectQuery 之間有許多重要差異。 這些差異摘要如下：
@@ -33,16 +33,16 @@ ms.locfileid: "52670731"
 在 Power BI 中使用 DirectQuery 連線到 SAP BW 時的其他主要模型限制如下：
 
 * **不支援計算結果欄：** 已停用建立計算結果欄的功能。 也就是說，建立計算結果欄的群組和叢集將無法使用。
-* **量值的其他限制：** 可用於量值的 DAX 運算式上還有其他限制，以反映 SAP BW 所提供的支援層級。
+* **量值的其他限制：** 在可於量值中使用的 DAX 運算式上有其他限制，用以反映 SAP BW 所提供的支援層級。
 * **不支援定義關聯性：** 無法在模型中定義外部 SAP 來源固有的關聯性及其他關聯性。
-* **沒有資料檢視：[資料檢視]** 通常會顯示資料表中的詳細等級資料。 根據 SAP BW 等 OLAP 來源的本質，無法透過 SAP BW 使用此檢視。
-* **資料行和量值詳細資料是固定的：** 欄位清單中所示的資料行和量值因基礎來源已固定，而且無法修改。 例如，您無法刪除資料行，也無法變更其資料類型 (不過可以重新命名)。
+* **沒有資料檢視：**[資料檢視] 通常會顯示資料表中的詳細等級資料。 根據 SAP BW 等 OLAP 來源的本質，無法透過 SAP BW 使用此檢視。
+* **資料行和量值的詳細資料是固定的：** 欄位清單中出現的資料行和量值清單由基礎來源決定，清單是固定的而且無法修改。 例如，您無法刪除資料行，也無法變更其資料類型 (不過可以重新命名)。
 * **DAX 中的其他限制：** 可用於量值定義的 DAX 上還有其他限制，以反映來源中的限制。 例如，您無法對資料表使用彙總函式。
 
 ## <a name="additional-visualization-restrictions"></a>其他視覺效果限制
 在 Power BI 中使用 DirectQuery 連接到 SAP BW 時的其他主要視覺效果限制如下：
 
-* **沒有資料行彙總：** 您無法變更視覺效果的資料行彙總；一律為「不摘要」
+* **沒有資料行彙總：** 您無法變更視覺效果上資料行的彙總，它一律為「不摘要」
 * **已停用量值篩選：** 已停用量值篩選，以反映 SAP BW 所提供的支援。
 * **複選及包含/排除：** 如果視覺效果上的資料點代表多個資料行的值，則會停用複選這些點的功能。 例如，假設有依國家/地區顯示銷售量的橫條圖並在圖例中含有類別，您無法選取 (USA, Bikes) 和 (France, Clothes) 點。 同樣地，您無法選取 (USA, Bikes) 點並將它從視覺效果中排除。 這兩項限制是為了反映 SAP BW 所提供的支援。
 

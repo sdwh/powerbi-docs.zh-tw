@@ -1,20 +1,20 @@
 ---
 title: 檢視為手機最佳化的 Power BI 報表
 description: 了解與報表頁面進行互動，該頁面已針對在 Power BI 手機應用程式中檢視進行最佳化。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
-ms.author: maggies
-ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 99f40837f4b2c188120c4ca0311be3e9ded5fe95
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547790"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276898"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>檢視為手機最佳化的 Power BI 報表
 
@@ -48,7 +48,7 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
     ![Power BI 電話報表進階篩選器](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
 ## <a name="cross-highlight-visuals"></a>跨醒目提示視覺效果
-手機報表的跨醒目提示視覺效果運作方式與在 Power BI 服務中，以及手機上橫向檢視的報表相同︰當您選取一個視覺效果的資料時，即會醒目提示該頁面上其他視覺效果中的相關資料。
+手機報告中交叉醒目提示的視覺效果與 Power BI 服務中的視覺效果相同，並且在橫向檢視的手機報告中也是如此：當您在一個視覺效果中選取資料時，它會反白顯示該頁面上其他視覺效果中的相關資料。
 
 深入了解 [Power BI 中進行篩選和醒目提示](../../power-bi-reports-filters-and-highlighting.md)的相關事項。
 

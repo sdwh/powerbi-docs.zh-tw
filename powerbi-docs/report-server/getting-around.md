@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 354ba336407f200d2c311f6bf0de91967cf3f5d1
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: e7a9b4da760f02672f51aa7ace0f3bb19c501834
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598131"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275011"
 ---
 # <a name="manage-content-in-the-web-portal"></a>管理入口網站中的內容 
 Power BI 報表伺服器入口網站是可檢視、儲存和管理您的 Power BI、行動裝置、編頁報表及 KPI 的內部部署位置。
@@ -23,8 +23,8 @@ Power BI 報表伺服器入口網站是可檢視、儲存和管理您的 Power B
 
 您可在任何新式瀏覽器中檢視入口網站。 在入口網站中，報表和 KPI 是以資料夾組織，您可將它們標示為 [我的最愛]。 您也可以在此儲存 Excel 活頁簿。 您可以從入口網站啟動建立報表所需要的工具︰
 
-* 以 Power BI Desktop 建立的 **Power BI 報表**：在入口網站及 Power BI 行動裝置應用程式中檢視它們。
-* 以報表產生器建立的**編頁報表**：具有現代化外觀、適合列印的最佳化固定配置文件。
+* 使用 Power BI Desktop 建立的 **Power BI 報表**：在入口網站和 Power BI 行動裝置應用程式中檢視報表。
+* 在 [報表產生器] 中建立的**編頁報表**：現代化外觀、固定版面配置且針對列印最佳化的文件。
 * 直接在入口網站中建立 **KPI**。
 
 您可以在入口網站中瀏覽報表伺服器資料夾或搜尋特定的報表。 您可以檢視報表、其一般屬性，以及報表記錄中擷取的舊報表複本。 依據您的權限，您也可以訂閱報表，傳遞至您的電子郵件收件匣或檔案系統的共用資料夾。
@@ -38,9 +38,9 @@ Power BI 報表伺服器入口網站是可檢視、儲存和管理您的 Power B
     請參閱此[支援的網頁瀏覽器和版本](browser-support.md)清單。
 2. 在網址列中鍵入入口網站 URL。
    
-    預設的 URL 是「http://[電腦名稱]/reports」。
+    預設的 URL 是「 http://[電腦名稱]/reports」。
    
-    報表伺服器可能設定使用特定的連接埠。 例如，「http://[電腦名稱]:80/reports」 或「http://[電腦名稱]:8080/reports」。
+    報表伺服器可能設定使用特定的連接埠。 例如，「 http://[電腦名稱]:80/reports」 或「 http://[電腦名稱]:8080/reports」。
    
     您會看到入口網站將項目分組為下列類別︰
    

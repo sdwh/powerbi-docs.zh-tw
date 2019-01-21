@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 323391268e930d3b7b2926590f3377b850b65624
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679447"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282578"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 的 DAX 基本概念
 本文適用對象為剛開始使用 Power BI Desktop 的使用者。 其目的在於以快速且容易了解的方式，為您介紹如何使用資料分析運算式 (DAX)，以便解決一些基本計算和資料分析問題。 我們將逐一探討一些概念性資訊、一系列您可以完成的工作，以及用來測試所學內容的幾項測驗。 完成本文之後，您便可充分了解 DAX 最重要的基本概念。
@@ -33,10 +33,10 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 
 **範例活頁簿**
 
-了解 DAX 的最佳方式是建立一些基本公式、用來處理一些實際資料，並親自查看結果。 此處的範例和工作使用適用於 Power BI Desktop Preview 的 Contoso Sales 範例檔案。 這是[教學課程：在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)一文中所使用的相同範例檔案。 這是要下載的[範例檔案](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)。
+了解 DAX 的最佳方式是建立一些基本公式、用來處理一些實際資料，並親自查看結果。 此處的範例和工作使用適用於 Power BI Desktop Preview 的 Contoso Sales 範例檔案。 此檔案是[教學課程：在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)一文中使用的相同範例檔案。 這是要下載的[範例檔案](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)。
 
 ## <a name="lets-begin"></a>現在就開始進行！
-我們將分成下列三個基本概念來介紹 DAX：「語法」 、「函數」 和「內容」 。 DAX 當然還有其他重要概念，不過了解這三個概念將為您的 DAX 技能奠定最佳基礎。
+我們將分成下列三個基本概念介紹 DAX：「語法」、「函式」和「內容」。 DAX 當然還有其他重要概念，不過了解這三個概念將為您的 DAX 技能奠定最佳基礎。
 
 ### <a name="syntax"></a>語法
 在您建立自己的公式之前，請先了解 DAX 公式語法。 語法包含組成公式的各種元素，簡單來說就是公式的撰寫方式。 舉例來說，以下是某個量值的簡單 DAX 公式。
@@ -65,7 +65,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 
 這個量值在加入報表後，會加總我們所包含的其他每個欄位的銷售額 (例如美國的行動電話)，以計算並傳回值。
 
-您可能會想：「這個量值的功能，不是與直接將 SalesAmount 欄位加入我的報表中一樣嗎？ 」 沒錯。 但建立自己的量值來加總 SalesAmount 欄位中的值有個好處：那就是可以將這個量值當做引數用於其他公式。 雖然現在可能有點難以理解，但隨著您愈來愈熟練於 DAX 公式，了解這點可讓您的公式和模型更有效率。 事實上，您稍後將會看到 Total Sales 量值如何顯示為其他公式中的引數。
+您可能會想：「這個量值的功能，不是與直接將 SalesAmount 欄位加入我的報表中一樣嗎？ 」 沒錯。 不過，我們有充分的理由建立自己的量值，以加總來自 SalesAmount 欄位的值：我們可以在其他函式中將它當作引數。 雖然現在可能有點難以理解，但隨著您愈來愈熟練於 DAX 公式，了解這點可讓您的公式和模型更有效率。 事實上，您稍後將會看到 Total Sales 量值如何顯示為其他公式中的引數。
 
 接著我們將探討這個公式的其他幾點。 我們將特別介紹 [SUM](https://msdn.microsoft.com/library/ee634387.aspx) 函數。 函數是預先撰寫的公式，以便簡化數值、日期、時間、文字等複雜的計算和操作。 稍後您將進一步了解函數。
 
@@ -85,7 +85,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
     
 1. 在 [報表] 檢視的 [欄位] 清單中，以滑鼠右鍵按一下 **Sales** 資料表，然後按一下 [新增量值]。
     
-2. 在公式列中，輸入新量值名稱 Previous Quarter Sales 來取代 [量值]。
+2. 在公式列中，輸入新量值名稱 **Previous Quarter Sales** 來取代 [量值]。
     
 3. 在等號之後，鍵入前幾個字母 **CAL**，然後按兩下您想要使用的函式。 在此公式中，您想要 **CALCULATE** 函式。
 
@@ -134,7 +134,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 ### <a name="functions"></a>函數
 函數是預先定義的公式，使用特定值和呼叫的引數，依特定順序或結構來執行計算。 引數可以是其他函數、另一個公式、運算式、資料行參考、數值、文字、TRUE 或 FALSE 等邏輯值，或常數。
 
-DAX 包含下列函數類別：[日期和時間](https://msdn.microsoft.com/library/ee634786.aspx)、[時間智慧](https://msdn.microsoft.com/library/ee634763.aspx)、[資訊](https://msdn.microsoft.com/library/ee634552.aspx)、[邏輯](https://msdn.microsoft.com/library/ee634365.aspx)、[數學](https://msdn.microsoft.com/library/ee634241.aspx)、[統計](https://msdn.microsoft.com/library/ee634822.aspx)、[文字](https://msdn.microsoft.com/library/ee634938.aspx)、[父子式](https://msdn.microsoft.com/library/mt150102.aspx)和[其他](https://msdn.microsoft.com/library/mt150101.aspx)函式。 如果您熟悉 Excel 公式中的函數，DAX 中的許多函數看起來會很類似；不過，DAX 函數在下列方面是獨一無二的：
+DAX 包含下列函數類別：[日期和時間](https://msdn.microsoft.com/library/ee634786.aspx) \(英文\)、[時間智慧](https://msdn.microsoft.com/library/ee634763.aspx) \(英文\)、[資訊](https://msdn.microsoft.com/library/ee634552.aspx) \(英文\)、[邏輯](https://msdn.microsoft.com/library/ee634365.aspx) \(英文\)、[數學](https://msdn.microsoft.com/library/ee634241.aspx) \(英文\)、[統計](https://msdn.microsoft.com/library/ee634822.aspx) \(英文\)、[文字](https://msdn.microsoft.com/library/ee634938.aspx) \(英文\)、[父子式](https://msdn.microsoft.com/library/mt150102.aspx) \(英文\) 和[其他](https://msdn.microsoft.com/library/mt150101.aspx) \(英文\) 函式。 如果您熟悉 Excel 公式中的函數，DAX 中的許多函數看起來會很類似；不過，DAX 函數在下列方面是獨一無二的：
 
 * DAX 函數一律會參考完整的資料行或資料表。 如果您只想使用某個資料表或資料行中的特定值，您可以將篩選條件加入公式。
 * 如果您需要逐列自訂計算，DAX 提供函數，讓您使用目前的資料列值或相關值做為一種引數，以執行因內容而異的計算。 稍後您將進一步了解內容。
@@ -160,7 +160,7 @@ DAX 包含下列函數類別：[日期和時間](https://msdn.microsoft.com/libr
 
 **篩選內容**
 
-篩選內容比資料列內容稍微難理解。 最簡單的做法是將篩選內容想成：計算中用來決定一個結果或值所套用的一或多個篩選條件。
+篩選內容比資料列內容稍微難理解。 您可以簡單地將篩選內容想成是：套用至計算中的一或多個篩選條件，可用來判斷結果或值。
 
 篩選內容並非原本就在資料列內容中，而是另外套用至資料列內容。 例如，若要進一步縮小要包含在計算中的值，您可以套用篩選內容，使該篩選內容不只指定資料列內容，也指定只使用該資料列內容中的特定值 (篩選條件)。
 
@@ -186,7 +186,7 @@ DAX 包含下列函數類別：[日期和時間](https://msdn.microsoft.com/libr
 
 **F.** 逗號 (**,**) 會隔開第一個運算式引數和篩選引數。
 
-**G.** 完整的參考資料行 **Channel[ChannelName]**。 這是我們的資料列內容。 這個資料行中的每一個資料列各指定一個通路：Store、Online 等。
+**G.** 完整的參考資料行 **Channel[ChannelName]**。 這是我們的資料列內容。 此資料行中的每個資料列都指定通道：Store、Online 等等。
 
 **H.** 以特定值 **Store** 作為篩選條件。 這是我們的篩選內容。
 

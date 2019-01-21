@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e474081a5f094bc04f6fc93b985b8d81efee1a0b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 98c637692b3c31e598a11c3039b60be3dec61348
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728103"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281175"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI 支援的語言和國家 (地區)
 
@@ -111,12 +111,12 @@ Power BI 會根據您電腦上的語言喜好設定偵測您的語言。 存取�
    新的語言位在此清單結尾處。 
 6. 請將新的語言拖放到此清單頂端，然後按一下 **Display Google Chrome in this language** (以這個語言顯示 Google Chrome)。
    
-   ![以這個語言顯示 Google Chrome](media/supported-languages-countries-regions/pbi_langs_eses.png)
+   ![將 Google Chrome 的介面文字設為這種語言](media/supported-languages-countries-regions/pbi_langs_eses.png)
    
    您可能需要關閉瀏覽器再重新開啟，才能看到變更。
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>選擇 Power BI Desktop 的語言或地區設定
-有兩種方式可以取得 Power BI Desktop：下載或從 Windows 市集安裝。
+您有兩種方式可取得 Power BI Desktop：您可以從 Windows 市集下載。
 
 * 當您[從 Windows 市集安裝 Power BI Desktop](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store) 時，它會安裝所有語言，並顯示與 Windows 預設語言對應的語言。
 * [下載 Power BI Desktop](#choose-a-language-when-you-download-power-bi-desktop) 時，則是在下載時選擇語言。 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ae2d40d5a53a7a84c0f6070a7be1011968d7ed7b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578489"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276966"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教學課程：使用 Power BI Desktop 的 Facebook 分析
 
@@ -187,7 +187,7 @@ ms.locfileid: "52578489"
 2. 在 Power Query 編輯器中，選取 **Number of comments** \(留言數目\) 資料行，並透過下列其中一種方式，將資料類型變更為**整數**： 
    - 選取 **Number of comments** \(留言數目\) 資料行標頭旁的 **1.2** 圖示，然後從下拉式清單中選取 [整數]，或者
    - 以滑鼠右鍵按一下資料行標頭，然後選取 [變更類型] > [整數]，或者
-   - 在 [首頁] 索引標籤的 [轉換] 群組或 [轉換] 索引標籤的 [任何資料行] 群組中選取 [資料類型：十進位數字]，然後選取 [整數]。
+   - 在 [首頁] 索引標籤的 [轉換] 群組，或 [轉換] 索引標籤的 [任何資料行] 群組中選取 [資料類型:十進位數字]，然後選取 [整數]。
    
    資料行標頭中的圖示會變更為 **123**，表示整數資料類型。
    

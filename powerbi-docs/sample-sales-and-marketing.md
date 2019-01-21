@@ -1,23 +1,23 @@
 ---
-title: Power BI 的銷售與行銷範例：導覽
-description: Power BI 的銷售與行銷範例：導覽
+title: 適用於 Power BI 的銷售與行銷範例：觀看導覽
+description: 適用於 Power BI 的銷售與行銷範例：觀看導覽
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 717db64d30a12d41dc293db11f6f942e4615a1db
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 58c5063796a575498ab1c402f0be6aa2492e9060
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717577"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289225"
 ---
-# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI 的銷售與行銷範例：導覽
+# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的銷售與行銷範例：觀看導覽
 
 ## <a name="overview-of-the-sales-and-marketing-sample"></a>銷售與行銷範例概觀
 **銷售與行銷範例** 包含一家名為 VanArsdel Ltd 的虛構製造公司的儀表板和報表。此儀表板由 VanArsdel 行銷長 (CMO) 所建立，可查看業界及其公司的市場佔有率、產品量、銷售額及人氣。
@@ -134,5 +134,5 @@ VanArsdel 有許多競爭對手但仍是該產業的市場領導者。 CMO 想�
 
 這是安全的作業環境。 您一律可以選擇不儲存變更。 但如果儲存了變更，您也可以隨時移至 [取得資料]  ，重新複製此範例。
 
-## <a name="next-steps-connect-to-your-data"></a>下一步：連接到您的資料
+## <a name="next-steps-connect-to-your-data"></a>後續步驟：連線到您的資料
 我們希望本教學已示範 Power BI 儀表板、問與答和報表如何讓您深入了解銷售與行銷的資料。 現在輪到您了 — 連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 深入了解[開始使用 Power BI](service-get-started.md).  

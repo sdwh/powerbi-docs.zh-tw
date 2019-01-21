@@ -4,17 +4,17 @@ description: 搭配使用 Cortana 和 Power BI 從您的資料中取得答案。
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ccc99c2f9810bcda80e1f02ce67e49390fd0308f
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: bcd07bb0cb53ea4818195e15c1492a27f424cf38
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003240"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292583"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>使用 Cortana for Power BI 快速找出並檢視您的 Power BI 資料
 在您的 Windows 10 裝置上使用 Cortana，以取得重要業務問題的即時解答。 Cortana 藉由與 Power BI 整合，可直接從 Power BI 儀表板和報表擷取關鍵資訊。 需要的只有 Windows 10 2015 年 11 月 (含) 以上的版本、Cortana、Power BI 以及至少一個資料集的存取權。
@@ -29,7 +29,7 @@ ms.locfileid: "50003240"
 > 
 > 
 
-底層技術是使用 [Microsoft Azure 搜尋服務](https://docs.microsoft.com/azure/search/)。 此搜尋服務提供額外的功能，例如智慧排名、錯誤修正和自動完成。
+底層技術是使用 [Microsoft Azure 搜尋服務](https://docs.microsoft.com/azure/search/)。 這項搜尋服務提供額外的功能，例如智慧排名、錯誤修正和自動完成。
 
 這兩個 Cortana 體驗會同時存在。
 
@@ -62,17 +62,17 @@ Cortana 可以在您擁有的儀表板以及已與您共用的儀表板中尋找
 * "utterances 例如 "show me customer profitability"、"customer p"、"customer s"、"profitability sample"、"michele hart sample"、"show customer profitability sample" 和 "show me customer p"「將」會傳回 Power BI 結果。
 * 新增 "powerbi" 單字會算作 2 個必要單字中的其中一個，因此 "powerbi sample"「會」傳回 Power BI 結果。 
   
-    ![有至少 2 個字的 Cortana 搜尋](media/service-cortana-intro/power-bi-cortana-2-words.png)
+    ![有至少 2 個字組的 Cortana 搜尋](media/service-cortana-intro/power-bi-cortana-2-words.png)
 
 ### <a name="cortana-and-reports"></a>Cortana 和報表
  Cortana 可以在具有[專供 Cortana 顯示所設計的頁面](service-cortana-answer-cards.md)的報表中尋找答案。 只需要從其中一個特殊報表頁面中，使用標題或關鍵字詢問問題。  
 
-報表的底層技術是使用 [Microsoft 的 Power BI 問與答](consumer/end-user-q-and-a.md)。
+報表的基礎技術是使用 [Microsoft 的 Power BI 問與答](consumer/end-user-q-and-a.md)。
 
 當您在 Cortana 中詢問問題時，Power BI 會從專為 Cortana 設計的報表頁面進行回答。 Cortana 會直接從已在 Power BI 中建立的 Cortana「回應卡」，即時判斷可能的答案。  若要進一步探索答案，請在 Power BI 中開啟結果。
 
 > [!NOTE]
-> 您必須[使用 Power BI 服務及設定 Windows 以與 Power BI 通訊來啟用此功能](service-cortana-enable.md)，Cortana 才能在您的 Power BI 報表中尋找答案。  
+> 您必須[使用 Power BI 服務及設定 Windows 以與 Power BI 通訊來啟用這項功能](service-cortana-enable.md)，Cortana 才能在您的 Power BI 報表中尋找答案。  
 > 
 > 
 

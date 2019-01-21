@@ -1,23 +1,23 @@
 ---
-title: 採購分析範例：導覽。
-description: Power BI 的採購分析範例：導覽
+title: 採購分析範例：觀看導覽
+description: 適用於 Power BI 的採購分析範例：觀看導覽
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3b0c6fcc72e5b2f95b06f1184341298d449bf57e
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717140"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287340"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的採購分析範例：導覽
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的採購分析範例：觀看導覽
 
 ## <a name="overview-of-the-procurement-analysis-sample"></a>採購分析範例概觀
 此產業儀表板範例以及基礎報表，會依類別及地點來分析一家製造公司對廠商的花費。 本範例會探討以下幾方面：
@@ -71,10 +71,10 @@ ms.locfileid: "51717140"
 
 請注意下列事項：
 
-* 在 [ **依月份和類別目錄的發票總計** ] 折線圖：[ **直接** ] 類別的支出相當一致，[ **物流** ] 的支出高峰為十二月，而 [ **其他** ] 支出在二月有所激增。
-* 在 [ **依國家/地區的發票總計** ] 地圖中：我們大部分的支出都是在美國。
-* 在 [依子類別目錄的發票總計] 直條圖中：[硬體] 和 [間接貨物與服務] 是最大的支出類別。
-* 在 [依層級的發票總計] 橫條圖中：我們大多數的業務都是與第 1 層 (前 10 大) 廠商合作完成。 這有助於更妥善管理廠商合作關係。
+* 在 [依月份和類別的發票總計] 折線圖中：[直接] 類別的支出相當一致，[物流] 的支出高峰為十二月，而 [其他] 支出在二月有所激增。
+* 在 [依國家/地區的發票總計] 地圖中：我們大部分的支出都是在美國。
+* 在 [依子類別的發票總計] 直條圖中：[硬體] 和 [間接貨物與服務] 是最大的支出類別。
+* 在 [依層的發票總計] 橫條圖中：我們大多數的業務都是與第 1 層 (前 10 大) 廠商一起完成。 這有助於更妥善管理廠商合作關係。
 
 ## <a name="spending-in-mexico"></a>墨西哥的支出
 讓我們來瀏覽墨西哥的支出部分。
@@ -139,5 +139,5 @@ ms.locfileid: "51717140"
 
 這是安全的作業環境。 您一律可以選擇不儲存變更。 如果儲存了變更，您也可以隨時移至 [ **取得資料** ]，重新複製此範例。
 
-## <a name="next-steps-connect-to-your-data"></a>下一步：連接到您的資料
+## <a name="next-steps-connect-to-your-data"></a>後續步驟：連線到您的資料
 我們希望本教學已示範 Power BI 儀表板和報表如何讓您深入了解採購的資料。 現在輪到您了 &#151; 連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 深入了解[開始使用 Power BI](service-get-started.md).

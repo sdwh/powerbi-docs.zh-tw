@@ -5,16 +5,16 @@ author: maikelson
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 24d023d726183119a3bd098c61db75cb68969c52
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670409"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283131"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -50,11 +50,11 @@ ms.locfileid: "52670409"
 <br>由 Gohul Shanmugalingam 主持
 <br>[報名並立即觀看](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
-**將您的 Power BI 資料視覺化：核心圖表類型以及如何使用**
+**將 Power BI 資料視覺化：核心圖表類型及其使用方式**
 <br>由 Miranda Li 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
 
-**Power BI、Excel 和 Office 365：為您的企業資料進行最佳化**
+**Power BI、Excel 及 Office 365：將企業資料最佳化**
 <br>由 Olaf Hubel 和 Miguel Martinez 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
@@ -112,7 +112,7 @@ ms.locfileid: "52670409"
 <br>由來自 Avanade 的 Ed Bobrin 主持
 <br>[報名並立即觀看](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
-**製造商：您所處的產業正在經歷數位轉型 - 利用分析功能維持領導地位以獲得最大利益**
+**製造商：您所處的產業正在經歷數位轉型 - 利用分析功能獲得最大利益以維持領導地位**
 <br>由來自 Blue Margin 的 Jon Thompson 與 Elgin Fastener Group 的 Jim Pastor 主持
 <br>[報名並立即觀看](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
@@ -142,7 +142,7 @@ ms.locfileid: "52670409"
 <br>由 Kasper de Jonge 主持
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**詢問合作夥伴：開發 Power BI 的自訂視覺效果**
+**詢問合作夥伴：開發適用於 Power BI 的自訂視覺效果**
 <br>由 Ted Pattison 主持
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
@@ -155,11 +155,11 @@ ms.locfileid: "52670409"
 
 **[Power BI 採用架構網路研討會系列](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)** \(英文\)
 <br>由 Manu Kanwarpal 與 Paul Henwood 主持
-<br>[立即註冊觀看 - 第 1 部分 - 採用：採用資料驅動的文化](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) \(英文\)
-<br>[立即註冊觀看 - 第 2 部分 - 控管：管理您的 Power BI 使用量](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) \(英文\)
-<br>[立即註冊觀看 - 第 3 部分 - 服務管理：Power BI 服務管理見解](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) \(英文\)
-<br>[立即註冊觀看 - 第 4 部分 - 安全性：使用 Power BI 保護您的資料安全](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) \(英文\)
-<br>[立即註冊觀看 - 第 5 部分 - 首度發行：成功推出 Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) \(英文\)
+<br>[報名並立即觀看 - 第 1 部分 - 採用：採用資料驅動的文化特性](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) \(英文\)
+<br>[報名並立即觀看 - 第 2 部分 - 控管：控管 Power BI 的使用方式](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) \(英文\)
+<br>[報名並立即觀看 - 第 3 部分 - 服務管理：Power BI 服務管理見解](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) \(英文\)
+<br>[報名並立即觀看 - 第 4 部分 - 安全性：使用 Power BI 確保資料的安全性](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) \(英文\)
+<br>[報名並立即觀看 - 第 5 部分 - 推出：成功推出 Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) \(英文\)
 
 **Office 365 財務專業人員網路研討會系列**
 <br>主講人：Mark Traverso、Carlos Otero、Johnnie Thomas、Amanda Cofsky 與 Miguel Martinez

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77802d2db59ddff94123991e209441b4c491f98b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e426d781f7a2e663687f443c423e1fc326624289
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548595"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296705"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>報表和視覺效果的最佳設計做法
 <!-- Shared newnav Include -->
@@ -65,7 +65,7 @@ ms.locfileid: "46548595"
 
 ![](media/power-bi-visualization-best-practices/power-bi-example1newa.png)
 
-**圖 1︰這個不美觀的報表頁面需要一番心力**
+**圖 1︰  這個不美觀的報表頁面需要一番心力**
 
 上述範例有許多我們將在下面討論的空間相關 (配置) 設計問題︰
 
@@ -95,19 +95,19 @@ ms.locfileid: "46548595"
 
 ![](media/power-bi-visualization-best-practices/power-bi-example2new.png)
 
-**圖 2︰使版面配置編輯改善的不美觀報表範例**
+**圖 2︰  使版面配置編輯改善不美觀的報表範例**
 
 Power BI 包含可協助您對齊視覺效果的工具。 在 Power BI Desktop 中，選取多個視覺效果之後，您可以使用 [視覺效果] 功能區索引標籤上的 [對齊或等距分佈]\ (Align and Distribute) 選項，以放入視覺效果的位置。
 
 ![](media/power-bi-visualization-best-practices/power-bi-visualization.png)
 
-**圖 3：在 Power BI Desktop 中對齊視覺效果**
+**圖 3：  在 Power BI Desktop 中對齊視覺效果**
 
 在 Power BI 線上和 Power BI Desktop 中，您也可以透過所有視覺效果之 [格式化] 窗格上的 [一般] 索引標籤，精確地控制視覺效果的大小和位置︰
 
 ![](media/power-bi-visualization-best-practices/power-bi-align-vizs.png)
 
-**圖 4︰設定視覺效果的確切位置**
+**圖 4︰  設定視覺效果的確切位置**
 
 在我們的範例報表頁面 (圖 2) 中，2 張卡片和大型框線會對齊 **X 位置**：200。
 
@@ -121,11 +121,11 @@ Power BI 包含可協助您對齊視覺效果的工具。 在 Power BI Desktop �
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-before.png)
 
-**圖 5a：4:3 頁面大小的報表**
+**圖 5a：  4:3 頁面大小的報表**
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-after.png)
 
-**圖 5b︰16:9 頁面大小比率的報表**
+**圖 5b︰  16:9 頁面大小比例的報表**
 
 您的報表將以 4:3、16:9 還是另一個比率進行檢視？ 在小螢幕還是大螢幕上？ 或者根據所有可能的螢幕外觀比例和大小？  設計時請記得這些。
 
@@ -133,7 +133,7 @@ Power BI 包含可協助您對齊視覺效果的工具。 在 Power BI Desktop �
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-size.png)
 
-**圖 6：增加頁面高度**
+**圖 6：  增加頁面高度**
 
 #### <a name="reduce-clutter"></a>降低雜亂
 雜亂的報表頁面很難一眼了解，甚至讓讀者不想嘗試。  請去除所有不必要的報表元素。 請不要新增對理解或瀏覽沒有幫助的裝飾用配件。 您的報表頁面必須盡可能清楚、快速且團結地傳達資訊。
@@ -146,7 +146,7 @@ Edward Tufte 在他的《The Visual Display of Quantitative Information》這本
 
 ![](media/power-bi-visualization-best-practices/power-bi-example3newer.png)
 
-**圖 7︰去除不美觀報表範例的雜亂部份**
+**圖 7︰  已去除雜亂的不美觀報表範例**
 
 ### <a name="tell-a-story-at-a-glance"></a>概略表達意涵
 整體測試應該是沒有先前知識的某個人可以在沒有人進行說明的情況下快速了解報表。 運用快速概覽，讀者應該能夠快速查看頁面的用途以及每個圖表/資料表的用途。   
@@ -160,13 +160,13 @@ Edward Tufte 在他的《The Visual Display of Quantitative Information》這本
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-boxes.png)
 
-**圖 8：新增文字方塊**
+**圖 8：  新增文字方塊**
 
 輸入空白方塊，然後使用底端的控制項來設定字體、大小、對齊和其他項目。 您可以使用控點來調整方塊大小。
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-edit.png)
 
-**圖 9：將文字方塊格式化**
+**圖 9：  將文字方塊格式化**
 
 但請不要濫用！ 報表上的文字太多會轉移視覺效果的注意力。 如果發現您的報表頁面需要大量文字才更容易了解，則請重新開始。  您是否可以選擇不同的視覺效果更適當地自行說明？ 您是否可以調整視覺效果的原生標題，使其更容易理解？   
 
@@ -178,23 +178,23 @@ Edward Tufte 在他的《The Visual Display of Quantitative Information》這本
 
 ![](media/power-bi-visualization-best-practices/shapes.png)
 
-**圖 10a：Power BI 服務中的圖形**
+**圖 10a：  Power BI 服務中的圖形**
 
 ![](media/power-bi-visualization-best-practices/power-bi-desktop-shapes2new.png)
 
-**圖 10b：Power BI Desktop 中的圖形**
+**圖 10b：  Power BI Desktop 中的圖形**
 
 我們範例頁面的外觀目前為何？  圖 11 顯示更乾淨但不雜亂的頁面，而且這個頁面使用一致的字體、字型和色彩。  我們在左上角的頁面標題會告訴我們頁面的用途。
 
 ![](media/power-bi-visualization-best-practices/power-bi-example4new.png)
 
-**圖 11︰已套用文字指導方針並新增標題的報表範例**
+**圖 11︰  已套用文字方針並新增標題的報表範例**
 
 在範例中，已在左上角新增報表頁面標題；這是讀者看到的第一個位置。 字型大小是 28 且字型為 Segoe Bold，有助於在頁面的其餘部分讓它更為醒目。  我們的文字樣式指南需要無背景、黑色標題、圖例和標籤，並盡可能全部套用至頁面上的所有視覺效果 (組合圖軸和標籤不可進行編輯)。  此外︰
 
-* 卡片︰[目錄標籤] 設定為 [關閉]、將 [標題] 設定為 [開啟]，並設定為 12 點黑色置中。
+* 卡片：[目錄標籤] 已設為 [關閉]、[標題] 已 [開啟] 並設為 12 點黑色置中。
 * 視覺效果標題︰如果已開啟，請設定為 12 點並靠左對齊。
-* 交叉分析篩選器：[標頭] 設定為 [關閉]、[標題] 設定為 [開啟]。 請將 [項目] > [文字] 保持為灰色和 10 點。
+* 交叉分析篩選器：[標頭] 已設為 [關閉]、[標題] 已 [開啟]。 請將 [項目] > [文字] 保持為灰色和 10 點。
 * 散佈圖和直條圖︰黑色字型用於 X 和 Y 軸以及 X 和 Y 軸標題 (使用時)。
 
 #### <a name="color"></a>色彩
@@ -271,11 +271,11 @@ Edward Tufte 在他的《The Visual Display of Quantitative Information》這本
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5a.png)
 
-**圖 20︰套用色彩最佳作法 (黑色背景) 的報表範例**
+**圖 20︰套用色彩最佳做法 (黑色背景) 的報表範例**
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5b.png)
 
-**圖 21︰套用色彩最佳作法 (白色背景) 的報表範例**
+**圖 21︰  套用色彩最佳做法 (白色背景) 的報表範例**
  
 
 ### <a name="aesthetics"></a>美學
@@ -319,13 +319,13 @@ TDI 部落客和 TechTarget 產業分析師 Wayne Eckerson 的見解也極為類
 
 ![](media/power-bi-visualization-best-practices/corp-success-distorted.png)
 
-**圖 22：失真圖**
+**圖 22：  失真圖**
 
 在此範例中，4 家公司似乎沒有很大的差異，而且 CorpB 比其他 3 家更為成功。  但請注意，X 軸不是從零開始，而且公司之間的差異可能落在錯誤範圍內。  以下是具有從零開始之 X 軸的相同資料。
 
 ![](media/power-bi-visualization-best-practices/corp-success.png)
 
-**圖 23：實際圖**
+**圖 23：  實際圖**
 
 讀者預期且通常假設 X 軸是從零開始。 如果您決定不從零開始，則作法最好不要扭曲結果，並考慮新增視覺效果提示或文字方塊來指出與基準的偏差。  
 
@@ -347,11 +347,11 @@ TDI 部落客和 TechTarget 產業分析師 Wayne Eckerson 的見解也極為類
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-before.png)
 
-**圖 24：之前**
+**圖 24：  之前**
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-after.png)
 
-**圖 25：之後**
+**圖 25：  之後**
 
 **開啟和關閉軸標題**
 
@@ -359,7 +359,7 @@ TDI 部落客和 TechTarget 產業分析師 Wayne Eckerson 的見解也極為類
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-titles.png)
 
-**圖 26：開啟和關閉軸標題**
+**圖 26：  開啟和關閉軸標題**
 
 **開啟和關閉軸標籤**
 
@@ -380,7 +380,7 @@ TDI 部落客和 TechTarget 產業分析師 Wayne Eckerson 的見解也極為類
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-off.png)
 
-**圖 28：移除視覺效果中的標題**
+**圖 28：  移除視覺效果中的標題**
 
 請考慮讀者如何檢視報表，並確認您的視覺效果和文字夠大且夠暗到足以讀取。 如果您的頁面上有比例較大的視覺效果，則讀者可能會假設它最為重要。 在不會讓報表看起來雜亂且令人困惑的視覺效果之間放置足夠的空間。  對齊視覺效果，有助於引導讀者的角度。
 
@@ -411,7 +411,7 @@ TDI 部落客和 TechTarget 產業分析師 Wayne Eckerson 的見解也極為類
 
 **圖 31：開啟 [格式化] 窗格**
 
-然後選取要調整的視覺效果元素，並確定它設定為 [開啟]。 視覺效果元素範例如下：[X 軸]、[Y 軸]、[標題]、[資料標籤] 和 [圖例]。 下面的範例會顯示 [標題] 元素。
+然後選取要調整的視覺效果元素，並確定它設定為 [開啟]。 視覺效果元素範例為：[X 軸]、[Y 軸]、[標題]、[資料標籤]，以及 [圖例]。 下面的範例會顯示 [標題] 元素。
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-formatting.png)
 
@@ -485,7 +485,7 @@ TDI 部落客和 TechTarget 產業分析師 Wayne Eckerson 的見解也極為類
 
 ![](media/power-bi-visualization-best-practices/power-bi-data-color.png)
 
-**圖 35：使用色彩來表達意涵**
+**圖 35：  使用色彩來表達意涵**
 
 您可以從 [格式化] 窗格中的 [資料色彩] 索引標籤來變更資料點色彩。 若要個別自訂每個資料點，請確定 [全部顯示] 設定為 [開啟]。
 
@@ -506,7 +506,7 @@ TDI 部落客和 TechTarget 產業分析師 Wayne Eckerson 的見解也極為類
 
 ![](media/power-bi-visualization-best-practices/power-bi-outliers.png)
 
-**圖 38︰ 使用 Desktop 來繪製極端值**
+**圖 38︰  使用 Desktop 來繪製極端值**
 
 在這裡，[極端值] 序列中的值只存在於平均 8 月溫度低於 60 時。 作法是使用下列公式來建立 DAX 計算結果欄︰
 
@@ -557,7 +557,7 @@ TDI 部落客和 TechTarget 產業分析師 Wayne Eckerson 的見解也極為類
 
 ![](media/power-bi-visualization-best-practices/power-bi-color.png)
 
-**圖 44：強調中央值變異的色彩**
+**圖 44：  強調中央值變異的色彩**
  
 
 ### <a name="principles-of-visual-design--applied-to-example-report-page"></a>視覺效果設計原則 – 已套用至範例報表頁面
@@ -567,7 +567,7 @@ TDI 部落客和 TechTarget 產業分析師 Wayne Eckerson 的見解也極為類
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5a.png)
 
-**圖 45︰我們範例報表 (之前)**
+**圖 45︰  我們範例報表 (之前)**
 
 之後
 
@@ -595,7 +595,7 @@ Power BI 一開始提供許多視覺效果類型。  對這些項目，新增來
 
 ![](media/power-bi-visualization-best-practices/power-bi-line-chart.png)
 
-**圖 47：折線圖**
+**圖 47：  折線圖**
 
 #### <a name="best-practices"></a>最佳作法
 * 使用者查看折線圖時，看到的第一個事項是曲線的形狀。  這表示您必須有 X 軸，才能讓曲線對這類時間或分佈類別有意義。  如果您將產品或地理位置這類類別欄位放在 X 軸上，則因為曲線的形狀未提供有意義的資訊，所以折線圖不怎麼有趣。
@@ -644,13 +644,13 @@ Power BI 一開始提供許多視覺效果類型。  對這些項目，新增來
   
   ![](media/power-bi-visualization-best-practices/power-bi-drill.png)
   
-  **圖 53：向下鑽研**
+  **圖 53：向下切入**
 
 如需橫條圖和直條圖的詳細資訊︰
 
 * [橫條圖 101](http://blog.newscred.com/article/data-visualization-101-bar-charts)
-* [Data Visualization Catalogue: Bar Chart](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
-* [Data Visualization Catalogue: Multi-set Bar Chart](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
+* [資料視覺效果目錄：橫條圖](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw) \(英文\)
+* [資料視覺效果目錄：多組橫條圖](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw) \(英文\)
 
 ### <a name="stacked-barcolumn-charts"></a>堆疊橫條圖/直條圖
 ![](media/power-bi-visualization-best-practices/power-bi-stacked.png)
@@ -682,13 +682,13 @@ Power BI 一開始提供許多視覺效果類型。  對這些項目，新增來
 
 如需堆疊圖表的詳細資訊：
 
-* [Data Visualization Catalogue: Stacked bar graphs](http://www.datavizcatalogue.com/methods/stacked_bar_graph.html#top)
+* [資料視覺效果目錄：堆疊橫條圖](http://www.datavizcatalogue.com/methods/stacked_bar_graph.html#top) \(英文\)
 * [When are 100% stacked bar graphs useful?](http://www.perceptualedge.com/blog/?p=2239)
 
 ### <a name="combo-barcolumn-charts"></a>組合橫條圖/直條圖
 ![](media/power-bi-visualization-best-practices/power-bi-combo.png)
 
-在 Power BI 中，您可以將直條圖和折線圖合併成一個組合圖。 選項為：[折線與堆疊直條圖] 和 [折線與群組直條圖]。 將兩個不同的視覺效果合併成一個視覺效果，以節省寶貴的畫布空間。
+在 Power BI 中，您可以將直條圖和折線圖合併成一個組合圖。 這些選項包括：[折線與堆疊直條圖] 和 [折線與群組直條圖]。 將兩個不同的視覺效果合併成一個視覺效果，以節省寶貴的畫布空間。
 
 下面的兩個螢幕擷取畫面會顯示之前和之後的樣子。  第一頁有兩個不同的視覺效果︰[直條圖] 顯示一段時間的擴展，[折線圖] 則顯示一段時間的 GDP。 這些圖表適合作為組合圖，原因是它們具有相同的 X 軸 (年) 和值 (2002 年到 2012 年)。  為什麼不合併它們，以在單一視覺效果上比較這 2 個趨勢？  合併這 2 種圖表可讓您更快速地比較資料。
 
@@ -772,12 +772,12 @@ Power BI 一開始提供許多視覺效果類型。  對這些項目，新增來
 
 ![](media/power-bi-visualization-best-practices/power-bi-treemap2.png)
 
-**圖 64：以樹狀圖顯示的地區和國家的 GDP**
+**圖 64：以樹狀圖表示依地區和國家顯示的 GDP**
 
 如需樹狀圖的詳細資訊，請放心地按一下下面的連結。
 
 * [Treemaps overview](http://www.perceptualedge.com/articles/b-eye/treemaps.pdf)
-* [Data Visualization Catalogue: Tree maps](http://www.datavizcatalogue.com/methods/treemap.html#.VYhylI3bL7Y)
+* [資料視覺效果目錄：樹狀圖](http://www.datavizcatalogue.com/methods/treemap.html#.VYhylI3bL7Y) \(英文\)
 
 ### <a name="other-charts"></a>其他圖表
 #### <a name="pie-or-donut-charts"></a>圓形圖或環圈圖
@@ -809,7 +809,7 @@ KPI 會顯示相同空間量中的值、狀態、目標、與目標的變異以�
 現在，您可以測試這些最佳作法。  請保持聯絡，並分享您自己的最佳作法。 不同意我們的建議，或發現充分的理由可「打破規則」嗎？  我們也十分希望聽到這類回應。  
 
 ### <a name="book-recommendations"></a>書籍建議
-現在有許多好書，可協助團隊溫習視覺效果設計技術。 Stephen Few 的《Information Dashboard Design》是必讀書籍。 他在另兩本書中進行更深入地探討：《Show Me the Numbers》和《Now You See It》。 極少人收到 Edward R. Tufte 的鼓舞 (他的《The Visual Display of Quantitative Information》這本書視為該領域的經典)。 Tufte 也寫過＜Visual Explanations＞、＜Envisioning Information＞和＜Beautiful Evidence＞。 Andy Kirk 的新書《Data Visualization: A Handbook for Data Driven Design》是另一個不錯的選項。 建議的一些其他作者是︰Lachlan James、William McKnight 和 Boris Evelson (Forrester)、Darkhorse Analytics。
+現在有許多好書，可協助團隊溫習視覺效果設計技術。 Stephen Few 的《Information Dashboard Design》是必讀書籍。 他在另兩本書中進行更深入地探討：《Show Me the Numbers》和《Now You See It》。 極少人收到 Edward R. Tufte 的鼓舞 (他的《The Visual Display of Quantitative Information》這本書視為該領域的經典)。 Tufte 也寫過＜Visual Explanations＞、＜Envisioning Information＞和＜Beautiful Evidence＞。 Andy Kirk 的新書《Data Visualization:A Handbook for Data Driven Design》也是另一個不錯的選擇。 其他一些建議的作者為：Lachlan James、William McKnight 和 Boris Evelson (Forrester)，Darkhorse Analytics。
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

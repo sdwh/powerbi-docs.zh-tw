@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 32bf2d3cedbeeb2430620855a2ac95bf349af9a2
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 4eb9f5dc7e45006d1b5697f35b79d0e9d11fa2df
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092038"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281382"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教學課程：探索 VM 中的 Power BI 報表伺服器入口網站
 在本教學課程中，您會建立一部已經安裝「Power BI 報表伺服器」的 Azure 虛擬機器，以便體驗如何檢視、編輯和管理範例 Power BI 及編頁報表與 KPI。
@@ -119,7 +119,7 @@ ms.locfileid: "37092038"
 
 1. 選取 [獲利率] KPI 右上角的省略符號 (**…**) > [加入我的最愛]。
    
-    ![加入我的最愛](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
+    ![新增至我的最愛](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
 2. 選取入口網站功能區上 [我的最愛]，在入口網站 [我的最愛] 頁面上與其他最愛項目一併查看。
    
     ![檢視我的最愛](media/tutorial-explore-report-server-web-portal/power-bi-report-server-favorites.png)
@@ -135,7 +135,7 @@ ms.locfileid: "37092038"
    
     ![切換檢視](media/tutorial-explore-report-server-web-portal/report-server-web-portal-list-view.png)
 
-2. 返回 [圖格] 檢視，選取 [清單] > [圖格]。
+2. 返回 [圖格] 檢視：選取 [清單] > [圖格]。
 
 ## <a name="power-bi-reports"></a>Power BI 報表
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: reference
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d3ccba3e68400a5a4c5fbf486aa8ef4b00c51729
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: b3815e6783b612ff52aeb015fdd3b3669b6a2a51
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578328"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282965"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop 隱私權等級
 在 **Power BI Desktop** 中，隱私權等級會指定某個資料來源與其他資料來源隔離程度的隔離等級。 雖然嚴格的隔離等級能夠阻擋資料來源交換資訊，卻可能會降低功能並影響效能。
@@ -68,7 +68,7 @@ a. 選取 [根據您每個來源的隱私權等級設定合併資料] 後，就�
 
 b. 選取 [忽略隱私權等級可能會改善效能] 後，就會忽略 [隱私權等級] 合併資料，這樣可能會將敏感或機密資料洩露給未經授權的使用者。 此設定可能會改善效能和功能。
 
-> **安全性注意事項：** 選取 [忽略隱私權等級可能會改善效能]  可能會改善效能，但是 Power BI Desktop 無法確保資料合併到 Power BI Desktop 檔案後的隱私權。
+> **安全性注意事項：** 選取 [忽略隱私權等級可能會改善效能] 可能會改善效能，但是 Power BI Desktop 無法確保資料合併到 Power BI Desktop 檔案後的隱私權。
 > 
 > 
 

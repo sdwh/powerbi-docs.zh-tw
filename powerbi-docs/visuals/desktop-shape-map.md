@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417318"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290881"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>在 Power BI Desktop (預覽) 中的圖形地圖
 建立**圖形地圖**視覺效果，使用色彩比較地圖上的區域。 不同於**地圖**視覺效果，**圖形地圖**無法在地圖上顯示資料點的確切地理位置。 相反地，其主要目的是要藉由不同的著色，在地圖上顯示區域的相對比較。
@@ -113,7 +113,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 ## <a name="region-keys"></a>區域索引鍵
 在此預覽版本中使用下列**區域索引鍵**，以測試**圖形地圖**。
 
-### <a name="australia-states"></a>澳洲︰州
+### <a name="australia-states"></a>澳洲：州
 
 | `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | au-nsw |NSW |AU-NSW |新南威爾斯 |NSW |
 | au-act |ACT |AU-ACT |澳洲首都特區 |ACT |
 
-### <a name="austria-states"></a>奧地利︰邦
+### <a name="austria-states"></a>奧地利：州
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -140,7 +140,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | at-ka |AT-2 |Kärnten |克恩頓 |KA |
 | at-bu |AT-1 |Burgenland |布根蘭 |BU |
 
-### <a name="brazil-states"></a>巴西︰州
+### <a name="brazil-states"></a>巴西：州
 
 | `id` |
 | --- |
@@ -176,7 +176,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 訴訟區域 3 |
 | 訴訟區域 4 |
 
-### <a name="canada-provinces"></a>加拿大︰省
+### <a name="canada-provinces"></a>加拿大：省
 
 | `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
@@ -194,7 +194,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ca-bc |CA-BC |不列顛哥倫比亞 |BC |
 | ca-ab |CA-AB |亞伯達 |AB |
 
-### <a name="france-regions"></a>法國︰大區
+### <a name="france-regions"></a>法國：區
 
 | `id` | `name` | `name-en` |
 | --- | --- | --- |
@@ -219,9 +219,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Bourgogne |Bourgogne |勃根地 |
 | Basse-Normandie |Basse-Normandie |下諾曼地 |
 | Auvergne |Auvergne |奧弗涅 |
-| Aquitaine |Aquitaine |阿基坦 |
+| Aquitaine |Aquitaine |Aquitaine |
 
-### <a name="germany-states"></a>德國︰邦
+### <a name="germany-states"></a>德國：州
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -242,7 +242,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | de-by |DE-BY |Bayern |巴伐利亞 |BY |
 | de-bw |DE-BW |Baden-Württemberg |巴登─符登堡 |BW |
 
-### <a name="ireland-counties"></a>愛爾蘭︰郡
+### <a name="ireland-counties"></a>愛爾蘭：郡
 
 | `id` |
 | --- |
@@ -273,7 +273,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 卡文 |
 | 卡洛 |
 
-### <a name="italy-regions"></a>義大利︰大區
+### <a name="italy-regions"></a>義大利：區
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -298,7 +298,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | it-pu |IT-75 |Apulia |普利亞 |PU |
 | it-ab |IT-65 |Abruzzo |阿布魯佐 |AB |
 
-### <a name="mexico-states"></a>墨西哥︰州
+### <a name="mexico-states"></a>墨西哥：州
 
 | `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
@@ -335,7 +335,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | mx-bcn |B.C. |MX-BCN |Baja California |下加利福尼亞 |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |阿瓜斯卡連特斯 |AG |
 
-### <a name="netherlands-provinces"></a>荷蘭︰省
+### <a name="netherlands-provinces"></a>荷蘭：省
 
 | `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
@@ -352,7 +352,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | nl-fl |NL-FL |Flevoland |夫利佛蘭 |
 | nl-dr |NL-DR |Drenthe |德倫特 |
 
-### <a name="uk-countries"></a>英國：構成國
+### <a name="uk-countries"></a>英國：國家/地區
 
 | `id` | `iso` | `name` |
 | --- | --- | --- |
@@ -361,7 +361,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | gb-nir |GB-NIR |北愛爾蘭 |
 | gb-eng |GB-ENG |英格蘭 |
 
-### <a name="usa-states"></a>美國︰州
+### <a name="usa-states"></a>美國：州
 
 | `id` | `name` | `postal` |
 | --- | --- | --- |

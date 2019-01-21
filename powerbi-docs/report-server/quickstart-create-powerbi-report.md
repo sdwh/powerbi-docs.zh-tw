@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 18fb96573052455034f8c257811daed6cb15529e
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: dd3da287d976b9fe84ab56b425a5f08fba31d224
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679218"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288351"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>建立 Power BI 報表伺服器的 Power BI 報表
 您可在 Power BI 報表伺服器入口網站儲存和管理內部部署 Power BI 報表，如同您可在 Power BI 服務 (https://powerbi.com)) 中將 Power BI 報表儲存於雲端一樣。 在 Power BI Desktop 中建立和編輯報表，並將其發行至入口網站。 接著您組織的報表讀者就可在瀏覽器，或在行動裝置上的 Power BI 行動裝置應用程式中加以檢視。
@@ -53,7 +53,7 @@ ms.locfileid: "51679218"
    
     ![Power BI Desktop 開始畫面](media/quickstart-create-powerbi-report/report-server-powerbi-desktop-start.png)
 
-## <a name="step-2-select-a-data-source"></a>步驟 2︰選取資料來源
+## <a name="step-2-select-a-data-source"></a>步驟 2：選取資料來源
 您可以連線到各式各樣的資料來源。 閱讀更多[連接至資料來源](connect-data-sources.md)。
 
 1. 在歡迎畫面上，選取 [取得資料]。
@@ -69,8 +69,8 @@ ms.locfileid: "51679218"
    
     ![報表伺服器選取項目](media/quickstart-create-powerbi-report/report-server-select-server.png)
 
-## <a name="step-3-design-your-report"></a>步驟 3︰設計報表
-以下是有趣的部分︰您可以建立視覺效果來說明您的資料。
+## <a name="step-3-design-your-report"></a>步驟 3：設計報表
+以下是有趣部分：您可以建立呈現您資料的視覺效果。
 
 比方說，您可以依據年收入建立客戶和群組值的漏斗圖。
 
@@ -82,7 +82,7 @@ ms.locfileid: "51679218"
 
 閱讀更多有關[設計 Power BI 報表](../desktop-report-view.md)的內容。
 
-## <a name="step-4-save-your-report-to-the-report-server"></a>步驟 4︰將報表儲存至報表伺服器
+## <a name="step-4-save-your-report-to-the-report-server"></a>步驟 4：將報表儲存至報表伺服器
 當您的報表就緒時，就將其儲存到您在步驟 2 中選擇的 Power BI 報表伺服器。
 
 1. 在 [檔案] 功能表上，選取 [另存新檔] > [Power BI 報表伺服器]。
@@ -97,7 +97,7 @@ ms.locfileid: "51679218"
 有許多絕佳的資源可用來在 Power BI Desktop 中建立報表。 此連結是不錯的起點。
 
 * [開始使用 Power BI Desktop](../desktop-getting-started.md)
-* 引導式學習︰[開始使用 Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
+* 引導式學習：[開始使用 Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
 
 ### <a name="power-bi-report-server"></a>Power BI 報表伺服器
 * [安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)  

@@ -1,4 +1,12 @@
-我們會在本文探討一些 **Power BI Desktop** 的進階資料匯入和清理技術。 只要在 [查詢編輯器] 中塑造資料並帶入 **Power BI Desktop**，您就有幾種不同的查看方式。 Power BI Desktop 中有三種檢視：[報表] 檢視、[資料] 檢視和 [關聯性] 檢視。 選取畫布左上角的各個檢視圖示，即可看到每一個檢視。 下圖選取的是 [報表] 檢視。 圖示旁邊的黃色列表示作用中的檢視。
+---
+ms.openlocfilehash: 9eff90168ea221a269a8b5ded712645cca01cd9f
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54083959"
+---
+我們會在本文探討一些 **Power BI Desktop** 的進階資料匯入和清理技術。 只要在 [查詢編輯器] 中塑造資料並帶入 **Power BI Desktop**，您就有幾種不同的查看方式。 Power BI Desktop 中有三種檢視：[報表] 檢視、[資料] 檢視，以及 [關聯性] 檢視。 選取畫布左上角的各個檢視圖示，即可看到每一個檢視。 下圖選取的是 [報表] 檢視。 圖示旁邊的黃色列表示作用中的檢視。
 
 ![](media/1-4-advanced-data-sources-and-transformation/1-4_1.png)
 
@@ -6,7 +14,7 @@
 
 Power BI Desktop 可以在模型化程序期間，隨時將來自多個來源的資料合併到單一報表。 若要將其他來源加入現有的報表中，請選取 [首頁] 功能區的 [編輯查詢]，然後選取 [查詢編輯器] 的 [新來源]。
 
-**Power BI Desktop** 可以使用許多不同的可能資料來源，包括資料夾。 您可以連接到資料夾，一次匯入多個檔案的資料，例如一系列的 Excel CSV 檔案。 所選資料夾中包含的檔案在 [查詢編輯器] 中顯示為二進位內容，按一下 [內容] 資料行頂端的雙箭頭圖示可載入其值。
+**Power BI Desktop** 可以使用許多不同的可能資料來源，包括資料夾。 透過連線到資料夾，您可以一次匯入多個檔案的資料，例如一系列 Excel 檔案或 CSV 檔案。 所選資料夾中包含的檔案在 [查詢編輯器] 中顯示為二進位內容，按一下 [內容] 資料行頂端的雙箭頭圖示可載入其值。
 
 ![](media/1-4-advanced-data-sources-and-transformation/1-4_2.png)
 

@@ -4,17 +4,17 @@ description: 了解您在應用程式中內嵌 Power BI 內容時必須採取的
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/28/2018
-ms.openlocfilehash: 901c087c486598019e905598ee83382664842cc8
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578765"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284165"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>搭配 Power BI 內嵌內容使用資料列層級安全性
 
@@ -54,7 +54,7 @@ RLS 是在 Power BI Desktop 中撰寫。 我們可以在資料集和報表處於
   
     ![[區域] 資料表中的資料列](media/embedded-row-level-security/powerbi-embedded-district-table.png)
 
-根據此結構描述，若我們將篩選套用至 [區域] 資料表中的 [區域經理] 資料行，且該篩選符合檢視報表的使用者時，就會進一步篩選 [商店] 和 [銷售] 資料表，進而僅顯示該區域經理的資料。
+根據此結構描述，若我們將篩選套用至 [區域] 資料表中的 [區域經理] 資料行，且該篩選符合檢視報表的使用者時，就會進一步篩選 [商店] 和 [銷售] 資料表，進而顯示該區域經理的資料。
 
 其做法如下：
 
@@ -141,7 +141,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 ### <a name="using-the-customdata-feature"></a>使用 CustomData 功能
 
-CustomData 功能僅適用於位於 **Azure Analysis Services** 中的模型，而且僅適用於 **Connect live** (即時連線) 模式。 不同於使用者和角色，您無法在 .pbix 檔案中設定 Customdata 功能。 使用 Customdata 功能產生權杖時，您必須具有使用者名稱。
+CustomData 功能僅適用於位於 **Azure Analysis Services** 中的模型，而且僅適用於 **Connect live** (即時連線) 模式。 不同於使用者和角色，您無法在 .pbix 檔案中設定自訂資料功能。 使用自訂資料功能產生權杖時，您必須具有使用者名稱。
 
 將 **Azure Analysis Services** 作為資料來源使用，並檢視應用程式中的 Power BI 資料時，CustomData 功能可讓您新增資料列篩選 (檢視應用程式中連線至 Azure Analysis Services 的 Power BI 資料)。
 
@@ -213,18 +213,18 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
     ![PBI 報表範例](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
-7. 利用 Power BI API 在您的應用程式中使用 CustomData 功能。  使用 Customdata 功能產生權杖時，您必須具有使用者名稱。 使用者名稱必須與主要使用者的 UPN 相等。 主要使用者必須為您所建立角色的成員。 若未指定任何角色，則會將主要使用者為成員的所有角色用於 RLS 評估。
+7. 利用 Power BI API 在您的應用程式中使用 CustomData 功能。  使用自訂資料功能產生權杖時，您必須具有使用者名稱。 使用者名稱必須與主要使用者的 UPN 相等。 主要使用者必須為您所建立角色的成員。 若未指定任何角色，則會將主要使用者為成員的所有角色用於 RLS 評估。
 
     > [!Note]
     > 當您準備將應用程式部署至生產環境時，終端使用者不應看到主要使用者帳戶欄位或選項。
 
     檢視用於新增 CustomData 功能的[程式碼](#customdata-sdk-additions)。
 
-8. 您現在可先在應用程式內檢視報表，再套用 Customdata 值來查看您報表包含的所有資料。
+8. 您現在可先在應用程式內檢視報表，再套用自訂資料值來查看您報表包含的所有資料。
 
     ![套用自訂資料之前](media/embedded-row-level-security/customdata-before.png)
 
-    接著套用 Customdata 值，來查看報表如何顯示一組不同的資料。
+    接著套用自訂資料值，來查看報表如何顯示一組不同的資料。
     ![套用 CustomData 之後](media/embedded-row-level-security/customdata-after.png)
 
 ## <a name="using-rls-vs-javascript-filters"></a>使用 RLS 與JavaScript 篩選
@@ -239,6 +239,75 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 [JavaScript 篩選](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters) 可用來讓使用者取用資料的已縮減、已限定範圍或已篩選檢視。 然而，使用者仍擁有模型結構描述資料表、資料行和計量的存取權，且可能可以存取該處的任何資料。 不可透過用戶端篩選 API 限制資料的存取權，僅能使用 RLS 執行此動作。
 
+## <a name="token-based-identity-with-azure-sql-database-preview"></a>Azure SQL Database 的權杖型身分識別 (預覽)
+
+**權杖型身分識別**允許您使用 **Azure SQL Database** 的 **Azure Active Directory (AAD)** 存取權杖為內嵌權杖指定有效的身分識別。
+
+在 **Azure SQL Database** 中保存其資料的客戶現在可以享受新功能，以便在與 **Power BI Embedded** 整合時管理使用者及其對 Azure SQL 中資料的存取。
+
+當您產生內嵌權杖時，可以在 Azure SQL 中指定使用者有效的身分識別。 您可以透過將 AAD 存取權杖傳遞至伺服器來指定使用者有效的身分識別。 存取權杖用於從 Azure SQL 中僅針對該特定工作階段提取該使用者的相關資料。
+
+它可以用來管理 Azure SQL 中每個使用者的檢視，或作為多租用戶資料庫中的特定客戶登入 Azure SQL。 它也可以用來在 Azure SQL 中對該工作階段套用資料列層級安全性，並僅擷取該工作階段的相關資料，而不需要管理 Power BI 中的 RLS。
+
+此類有效身分識別問題直接適用於 Azure SQL Server 上的 RLS 規則。 當從 Azure SQL Server 查詢資料時，Power BI Embedded 會使用所提供的存取權杖。 由於 USER_NAME() SQL 函數，可以存取使用者的 UPN (為其提供存取權杖)。
+
+權杖型身分識別僅適用於專用容量上的 DirectQuery 模型 - 連線到 Azure SQL Database，該資料庫設定為允許 AAD 驗證 ([深入了解 Azure SQL Database 的 AAD 驗證](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins))。 必須將資料集的資料來源設定為使用使用者的 OAuth2 認證，才能使用權杖型身分識別。
+
+   ![設定 Azure SQL Server](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
+
+### <a name="token-based-identity-sdk-additions"></a>權杖型身分識別 SDK 新增項目
+
+權杖產生案例中的有效身分識別中已新增身分識別 Blob 屬性。
+
+```JSON
+[JsonProperty(PropertyName = "identityBlob")]
+public IdentityBlob IdentityBlob { get; set; }
+```
+
+IdentityBlob 類型是一個包含值字串屬性的簡單 JSON 結構
+
+```JSON
+[JsonProperty(PropertyName = "value")]
+public string value { get; set; }
+```
+
+您可以使用下列呼叫，透過身分識別 Blob 來建立 EffectiveIdentity：
+
+```C#
+public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null, IdentityBlob identityBlob = null);
+```
+
+可以使用下列呼叫建立身分識別 Blob。
+
+```C#
+public IdentityBlob(string value);
+```
+
+### <a name="token-based-identity-rest-api-usage"></a>權杖型身分識別 REST API 使用方式
+
+若您呼叫 [REST API](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetoken#definitions)，您可在各個身分識別中新增身分識別 Blob。
+
+```JSON
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "datasets": ["fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc"],
+        “identityBlob”: {
+            “value”: “eyJ0eXAiOiJKV1QiLCJh….”
+         }
+        }
+    ]
+}
+```
+
+身分識別 Blob 中提供的值應該是 Azure SQL Server 的有效存取權杖 (資源 URL 為 (<https://database.windows.net/>)。
+
+   > [!Note]
+   > 若要能夠為 Azure SQL 建立存取權杖，應用程式必須具備**存取 Azure SQL DB 和資料倉儲**委派權限到 Azure 入口網站中 AAD 應用程式註冊設定上的 **Azure SQL Database** API。
+
+   ![應用程式註冊](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
+
 ## <a name="considerations-and-limitations"></a>考量與限制
 
 * 使用內嵌權杖時，在 Power BI 服務中將使用者指派給角色並不影響 RLS。
@@ -248,5 +317,11 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 * 如果基礎資料集不需要 RLS，GenerateToken 要求**不得**包含有效的身分識別。
 * 如果基礎資料集是雲端模型 (快取模型或 DirectQuery)，有效的身分識別必須包含至少一個角色，否則不會發生角色指派。
 * 身分識別清單可讓多個身分識別權杖用於儀表板內嵌。 對於所有其他成品，此清單包含單一身分識別。
+
+### <a name="token-based-identity-limitations-preview"></a>權杖型身分識別限制 (預覽)
+
+* 這項功能會限制僅使用 Power BI Premium。
+* 此功能不適用於內部部署 SQL Server。
+* 此功能不適用於多重異地複寫。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

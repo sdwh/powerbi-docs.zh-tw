@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 09bf82d86301967fb46b8724822e183a21008b92
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 760335b0a08156b3c5b594ffc27be4cb0ad12342
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452721"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289915"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>編輯問與答語言結構描述和新增片語 - Power BI Desktop 
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 如果您的資料能夠回答，就更厲害了，而 Power BI 的問與答就有這樣的能耐。 Power BI 問與答在您提出問題時，會盡力正確回答。 
@@ -25,7 +25,7 @@ ms.locfileid: "52452721"
 一切從您的企業資料開始。  資料模型愈完善，使用者獲得高品質的解答就愈容易。 改善模型的一種方法是新增語言結構描述，來定義和分類資料集中資料表和資料列名稱之間的術語和關聯性。 Power BI Desktop 可讓您管理語言結構描述。 
 
 ## <a name="what-is-a-linguistic-schema"></a>什麼是語言結構描述
-語言結構描述描述了問與答對於資料集內的物件，應該要理解的字詞和片語，包括與該資料集相關的詞性、同義字和片語。 當您匯入或連線到資料集時，Power BI 會根據資料集的結構建立語言結構描述。 當您向問與答提問時，此功能就會尋找資料中的相符部份和關聯性，以找出問題的用意。 例如，尋找名詞、動詞、形容詞、片語和其他元素。 另外還會尋找關聯性，例如哪些資料行是動詞的受詞。 
+語言結構描述描述了問與答對於資料集內的物件，應該要理解的字詞和片語，包括與該資料集相關的詞性、同義字和片語。 當您匯入或連線到資料集時，Power BI 會根據資料集的結構建立語言結構描述。 當您向問與答提問時，這項功能就會尋找資料中的相符部份和關聯性，以找出問題的用意。 例如，尋找名詞、動詞、形容詞、片語和其他元素。 另外還會尋找關聯性，例如哪些資料行是動詞的受詞。 
 
 您可能很熟悉詞性 (如果沒有，請參閱下文)，但對您而言，片語可能是一個新詞。  片語就是您談論 (或表達) 事物之間關聯性的方式。 例如，要描述客戶和產品之間的關聯性，您可以說「客戶購買產品」。 若要描述客戶和年齡之間的關聯性，您可以說「年齡表示客戶的年紀多大」。 或描述客戶與電話號碼之間的關聯性，您可以直接說「客戶有電話號碼」。
 
@@ -49,7 +49,7 @@ ms.locfileid: "52452721"
 建議使用 Visual Studio Code 來編輯語言結構描述 YAML 檔案。 Visual Studio Code 包含對 YAML 檔案現成可用的支援，而且可擴充以專門驗證 Power BI 語言結構描述格式。
 1. 安裝 [Visual Studio Code](https://code.visualstudio.com/)。    
 
-2. 選取您稍早儲存的範例語言結構描述：[YAML 檔案](https://go.microsoft.com/fwlink/?linkid=871858) (SummerOlympics.lsdl.yaml)。    
+2. 選取您稍早前儲存的範例語言結構描述：[YAML 檔案](https://go.microsoft.com/fwlink/?linkid=871858) (SummerOlympics.lsdl.yaml)。    
 4. 選取 [Visual Studio Code] 並勾選 [一律使用此應用程式開啟 .yaml 檔案]。
 
     ![您要如何開啟這個檔案](media/power-bi-q-and-a-linguistic-schema/power-bi-visual-code.png)
@@ -78,7 +78,7 @@ ms.locfileid: "52452721"
 
 
 ## <a name="edit-a-linguistic-schema"></a>編輯語言結構描述
-當您第一次從 Power BI Desktop 匯出語言結構描述時，檔案中大部分或所有內容將會由問與答引擎自動產生。 這些產生的實體、字詞 (同義字)、關聯性和片語，會標上 [狀態：已產生] 標籤，而且包含在檔案中的主要用途為提供資訊，但對於您自己的變更而言，是個有助益的起點。 
+當您第一次從 Power BI Desktop 匯出語言結構描述時，檔案中大部分或所有內容將會由問與答引擎自動產生。 這些產生的實體、文字 (同義字)、關聯性和用詞會指定為「狀態：已刪除」標籤，且主要是以告知性目的包含在檔案中，但會是您自有變更的有用起始點。 
 
 > [!NOTE]
 > 本教學課程中包含的範例 YAML 檔案不包含「狀態：已產生」或「狀態：已刪除」標籤，因為該檔案是專門為本教學課程而準備的。 若要查看這些標籤，請在 [關聯性檢視] 中打開未編輯的 .pbix 文件並匯出語言結構描述。
@@ -86,7 +86,7 @@ ms.locfileid: "52452721"
 ![YAML 顯示「狀態：已產生」](media/power-bi-q-and-a-linguistic-schema/power-bi-generated-state.png)
 
 
-當您將語言結構描述檔案匯回 Power BI Desktop 時，標記為 [狀態：已產生] 的任何內容都會忽略 (並在之後重新產生)，因此如果您想變更某些產生的內容，請務必刪除相對應的 [狀態：已產生] 標籤。 同樣地，如果您想刪除某些產生的內容，則需要將「狀態：已產生」標籤變更為「狀態：已刪除」，這樣在匯入語言結構描述檔案時才不會重新產生。
+當您語言結構描述檔案匯入回 Power BI Desktop 中時，任何標示為「狀態：已產生」的項目都會被忽略 (並在稍後重新產生)，因此如果您想變更某些已產生的內容，請務必也移除相對應的「狀態：已產生」標籤。 同樣地，如果您想要移除某些已產生內容，則您需要將「狀態：已產生」標籤變更為「狀態：已刪除」，這樣它才不會在您匯入語言結構描述檔案時重新產生。
 
 1. 在 Power BI Desktop 中的關聯性檢視中打開資料集。 
 2. 選取 [模型] 索引標籤，然後選擇 [匯出語言結構描述]。

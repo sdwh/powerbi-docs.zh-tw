@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 447257ba715b473c233b1d13c6319ff4958f33fa
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 4a30d01040daffa394ff884c38dda3dd66fa5809
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717163"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285798"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>將整份報表頁面釘選到 Power BI 儀表板上，做為動態磚
 另一種新增[儀表板磚](consumer/end-user-tiles.md)的方式是釘選整份報表頁面。 這是可以一次輕鬆地釘選多個視覺效果的方法。  此外，當您釘選整個頁面時，磚即為 *動態* ；您可以直接在儀表板上與之互動。 且您對報表編輯器中任何視覺效果所做的變更 (如加入篩選或變更圖表中所使用的欄位) 也會反映在儀表板磚中。  
@@ -38,7 +38,7 @@ ms.locfileid: "51717163"
 2. 未選取任何視覺效果時，請從功能表列中選取 [動態釘選] 頁面。
    
    ![[動態釘選] 頁面圖示](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. 將磚釘選至現有的儀表板或新的儀表板上。 請注意醒目提示的文字： *「[動態釘選] 頁面可在重新整理頁面時，讓報告的變更出現在儀表板磚中。」*
+3. 將磚釘選至現有的儀表板或新的儀表板上。 請注意反白顯示的文字：[[動態釘選] 頁面可讓報表的變更在頁面重新整理時，顯示在儀表板磚上。]
    
    * 現有儀表板：從下拉式清單中選取儀表板的名稱。 已與您共用的儀表板，不會出現在下拉式清單中。
    * 新儀表板：輸入新儀表板的名稱。

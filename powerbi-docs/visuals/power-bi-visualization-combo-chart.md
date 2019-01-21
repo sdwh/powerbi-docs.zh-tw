@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d2a33b8dc50a4a30bb79406462f1342953528d9
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 896c415028b99db8662e93b5d709b76520996fef
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830370"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275747"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI 中的組合圖
 在 Power BI 中，組合圖是結合折線圖和直條圖的單一視覺效果。 將 2 種圖結合成一個，讓您可以更快速地比較資料。
@@ -57,7 +57,7 @@ ms.locfileid: "52830370"
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. 選取視覺效果右上角的省略符號 (...)，然後選取 [Sort by] > [FiscalMonth] \(排序依據\) > [FiscalMonth]。 若要變更排序次序，請再次選取省略符號，並選擇 [遞增排序] 或 [遞減排序]。
 
-6. 將直條圖轉換成組合圖。 有兩個可用的組合圖：[折線與堆疊直條圖] 和 [折線與群組直條圖]。 選取直條圖後，從 [視覺效果] 窗格中，選取 [折線與群組直條圖]。
+6. 將直條圖轉換成組合圖。 有兩個組合圖可用：[折線與堆疊直條圖] 和 [折線與群組直條圖]。 選取直條圖後，從 [視覺效果] 窗格中，選取 [折線與群組直條圖]。
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. 從 [欄位] 窗格中，將 [銷售額] \> [去年度銷售額] 拖曳到 [折線圖值] 值區。

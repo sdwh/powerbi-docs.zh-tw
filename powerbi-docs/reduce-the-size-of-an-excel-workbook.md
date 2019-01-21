@@ -5,26 +5,26 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e0151931d0ad9f610c24dd9aedf8f06d79e167c3
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 111e38fd37bcdfa2a72986bb08a37d89345bbe69
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670094"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282256"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>減少 Excel 活頁簿的大小以在 Power BI 中檢視
 所有小於 1 GB 的 Excel 活頁簿都可上傳至 Power BI。 Excel 活頁簿可以包含兩個部分：資料模型和報表的其他部分 — 核心工作表內容。 如果報表符合下列大小限制，您就可以將它儲存到**商務用 OneDrive**，然後從 Power BI 連接到它並於 Excel Online 中檢視：
 
 * 整份活頁簿的上限是 1 GB。
-* 核心工作表內容的上限是 10 MB。
+* 核心工作表內容的上限是 30 MB。
 
-## <a name="what-makes-core-worksheet-contents-larger-than-10-mb"></a>核心工作表內容大於 10 MB 的原因
-以下是使得核心工作表內容大於 10 MB 的項目：
+## <a name="what-makes-core-worksheet-contents-larger-than-30-mb"></a>核心工作表內容大於 30 MB 的原因
+以下是使得核心工作表內容大於 30 MB 的項目：
 
 * 映像。
 * 加上陰影的儲存格。 [移除儲存格陰影格式](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e)。
@@ -44,14 +44,14 @@ ms.locfileid: "52670094"
 詳細資訊請參閱 [SharePoint Online 的 Excel 活頁簿檔案大小限制](https://support.office.com/article/File-size-limits-for-workbooks-in-SharePoint-Online-9e5bc6f8-018f-415a-b890-5452687b325e)。
 
 ## <a name="remove-data-from-worksheets"></a>移除工作表的資料
-如果從 [Power Query] 索引標籤或 [Excel 資料] 索引標籤將資料匯入 Excel，此活頁簿在 Excel 資料表和資料模型中可能會有相同的資料。 Excel 工作表中的大型資料表可能會使得核心工作表內容超過 10 MB。 在 Excel 中移除資料表並在資料模型中保存資料，可大幅減少報表的核心工作表內容。 
+如果從 [Power Query] 索引標籤或 [Excel 資料] 索引標籤將資料匯入 Excel，此活頁簿在 Excel 資料表和資料模型中可能會有相同的資料。 Excel 工作表中的大型資料表可能會使得核心工作表內容超過 30 MB。 在 Excel 中移除資料表並在資料模型中保存資料，可大幅減少報表的核心工作表內容。 
 
 將資料匯入 Excel 時，請依照下列提示作業：
 
-* **在 [Power Query] 中**：清除 [載入到工作表]  方塊。
+* **在 Power Query 中**：取消選取 [載入至工作表] 方塊。
   
   資料會只匯入資料模型，Excel 工作表中沒有任何資料。
-* 如果先前在 [匯入精靈] 中核取了 [資料表]，**從 [Excel 資料] 索引標籤**：請移至 **現有連線** \> 按一下該連線 \> **只建立連線**。 刪除於初始匯入期間建立的原始資料表。
+* **從 [Excel 資料] 索引標籤**，如果您先前在匯入精靈中選取了 [資料表]：移至 [現有連線]\>按一下連線 \> [只建立連線]。 刪除於初始匯入期間建立的原始資料表。
 * **從 [Excel 資料] 索引標籤**：不要核取 [匯入資料]  方塊中的 [資料表]  。
 
 ## <a name="workbook-size-optimizer"></a>活頁簿大小最佳化工具

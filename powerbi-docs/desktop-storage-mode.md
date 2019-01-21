@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619486"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279174"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop 的儲存模式 (預覽)
 
@@ -29,9 +29,9 @@ ms.locfileid: "51619486"
 
 * **大型資料集**：未快取的資料表不會因為快取的用途而耗用記憶體。 針對太大或太過昂貴而無法完全快取到記憶體的大型資料集，您可以啟用互動式分析。 您可以選擇值得與不值得快取的資料表。
 
-* **最佳化資料重新整理**：未快取的資料表無須重新整理。 您可以只快取符合您服務等級協定及商務需求的資料，從而減少重新整理的時間。
+* **資料重新整理最佳化**：沒有快取的資料表不需要重新整理。 您可以只快取符合您服務等級協定及商務需求的資料，從而減少重新整理的時間。
 
-* **近乎即時的需求**：具有近乎即時需求的資料表，或可受惠於不快取，因為快取會造成資料延遲。
+* **近乎即時的需求**：有近乎即時需求的資料表可能適合不快取，這樣能減少資料延遲。
 
 * **回寫**：回寫允許商務使用者變更資料格的值來探索假設狀況。 自訂應用程式可以將變更套用到資料來源。 未快取的資料表可以立即顯示變更，達到即時分析的效果。
 
@@ -39,7 +39,7 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 
 * **複合模型**：允許報表可有兩 (含) 個以上任意組合的資料連線，包括 DirectQuery 連線或匯入。 如需詳細資訊，請參閱 [Power BI Desktop 的複合模型 (預覽)](desktop-composite-models.md)。
 
-* **多對多關聯性**：使用複合模型，可以在資料表之間建立多對多關聯性。 多對多關聯性會移除資料表中值必須唯一的要求。 此外也會移除先前的因應措施，像是只為了建立關聯性而導入新的資料表。 如需詳細資訊，請參閱 [Power BI Desktop 的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md)。
+* **多對多關聯性**：您可以使用「複合模型」在資料表之間建立「多對多關聯性」。 多對多關聯性會移除資料表中值必須唯一的要求。 此外也會移除先前的因應措施，像是只為了建立關聯性而導入新的資料表。 如需詳細資訊，請參閱 [Power BI Desktop 的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md)。
 
 * **儲存模式**：您現在可以指定哪些視覺效果必須查詢後端資料來源。 不需要查詢的視覺效果，即便是使用 DirectQuery，也同樣會匯入。 此功能可提升效能，並減輕後端的負載。 先前即使是像交叉分析篩選器這類簡單的視覺效果，都會起始查詢，並將其傳送到後端來源。 儲存模式將在本文後段進一步說明。
 

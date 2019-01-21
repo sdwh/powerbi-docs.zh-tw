@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d4b0ad34d200e3d94c60c7e3a3f524a3f3ed09cf
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4cdd4cf3f8a21b2e97b936ed4e6d4efe2df9a0e8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549998"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290582"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop 中的量值
 
@@ -66,7 +66,7 @@ Jan 接著將她的新 Projected Sales 量值拖曳到圖表中。
 您可以建立將量值顯示為 Web URL 的資料表，並且能夠按一下根據您的選取範圍所建立的 URL。 當您想要使用 [URL 篩選參數](service-url-filters.md)連結至其他 Power BI 報表時，這會特別有用。
 
 ## <a name="learn-more"></a>深入了解
-我們在此只為您快速介紹量值，還有許多其他資訊可協助您了解如何建立自己的量值。 請務必參閱[教學課程：在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)，您可以從中下載範例檔案，並取得有關如何建立更多量值的逐步解說課程。  
+我們在此只為您快速介紹量值，還有許多其他資訊可協助您了解如何建立自己的量值。 務必參閱[教學課程：在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)，您可以從中下載範例檔案，並取得有關如何建立更多量值的逐步解說課程。  
 
 若要更深入了解 DAX，請務必查看 [Power BI Desktop 的 DAX 基礎概念](desktop-quickstart-learn-dax-basics.md)。 [Data Analysis Expression 參考](https://msdn.microsoft.com/library/gg413422.aspx)提供有關每個函數、語法、運算子和命名慣例的詳細文章。 DAX 在 Excel 的 Power Pivot 和 SQL Server Analysis Services 中已行之有年，因此還有其他許多實用的資源可供使用。 請務必查看 [DAX 資源中心 Wiki](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)，其中具影響力的 BI 社群成員將與您分享 DAX 的知識。
 

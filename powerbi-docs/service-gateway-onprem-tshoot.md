@@ -1,25 +1,25 @@
 ---
 title: 為內部部署資料閘道進行疑難排解
-description: 此文章提供您對內部部署資料閘道問題進行疑難排解的方法。 其提供已知問題可能的因應措施，以及可協助您的工具。
+description: 本文提供您對內部部署資料閘道問題進行疑難排解的方法。 其提供已知問題可能的因應措施，以及可協助您的工具。
 author: mgblythe
 ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
-ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
+ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51580532"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296562"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>為內部部署資料閘道進行疑難排解
 
-此文章探討使用**內部部署資料閘道**時的一些常見問題。
+本文探討使用**內部部署資料閘道**時的一些常見問題。
 
 <!-- Shared Community & support links Include -->
 [!INCLUDE [gateway-onprem-tshoot-support-links-include](./includes/gateway-onprem-tshoot-support-links-include.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "51580532"
 
 ### <a name="log-file-configuration"></a>記錄檔設定
 
-閘道服務記錄檔分類為三個貯體：資訊、錯誤和網路。 此類別提供進一步的疑難排解體驗，可讓您根據錯誤或問題，專注於特定區域。 您可以從閘道設定檔中看到下列程式碼片段中的三個類別：`GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log`。
+閘道服務記錄檔分類為三個貯體：資訊、錯誤和網路。 此類別提供進一步的疑難排解體驗，可讓您根據錯誤或問題，專注於特定區域。 您可以從閘道器設定檔中看到下列程式碼片段中的三個類別：`GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log`。
 
 ```xml
   <system.diagnostics>
@@ -60,7 +60,7 @@ ms.locfileid: "51580532"
 
 此檔案的預設位置是：*\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config*。若要設定保留的記錄檔數目，請變更第一個數字 (在此範例中為 20)：`GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50`。
 
-### <a name="error-failed-to-create-a-gateway-try-again"></a>錯誤：無法建立閘道。 請再試一次
+### <a name="error-failed-to-create-a-gateway-try-again"></a>錯誤：無法建立閘道。 再試一次
 
 所有詳細資料都可以使用，但呼叫 Power BI 服務會傳回錯誤。 系統會顯示錯誤和活動識別碼。 這個錯誤發生的原因有好幾個。 您可以如下所述收集並檢閱記錄檔，以取得詳細資訊。
 
@@ -78,7 +78,7 @@ ms.locfileid: "51580532"
 
 登入屬於內部部署資料閘道設定一部分的 Power BI 時，您可能會收到指令碼錯誤。 安裝下列安全性更新可解決問題。 這可以透過 Windows Update 安裝。
 
-[MS16-051：Internet Explorer 的安全性更新︰2016 年 5 月 10 日 (KB 3154070)](https://support.microsoft.com/kb/3154070)
+[MS16-051:Internet Explorer 的安全性更新：2016 年 5 月 10 日 (KB 3154070)](https://support.microsoft.com/kb/3154070)
 
 ### <a name="gateway-configuration-failed-with-a-null-reference-exception"></a>閘道設定失敗，發生 null 參考例外狀況
 
@@ -117,7 +117,7 @@ ms.locfileid: "51580532"
 
 ## <a name="data-sources"></a>資料來源
 
-### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>錯誤：無法連接。 詳細資訊：「連接認證無效」
+### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>錯誤：無法連線。 詳細資料：[連接認證無效]
 
 在 [顯示詳細資料] 中，會顯示從資料來源收到的錯誤訊息。 若是 SQL Server，您會看到類似如下的訊息。
 
@@ -125,7 +125,7 @@ ms.locfileid: "51580532"
 
 請確認您擁有正確的使用者名稱和密碼。 另請確認這些認證可成功連接到資料來源。 請確定使用的帳戶符合 **驗證方法**。
 
-### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>錯誤：無法連接。 詳細資訊：「無法連接到資料庫」
+### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>錯誤：無法連線。 詳細資料：「無法連線到資料庫」
 
 我們可以連接到伺服器，但無法連接到提供的資料庫。 請確認資料庫的名稱，以及使用者認證具有存取該資料庫的適當權限。
 
@@ -133,7 +133,7 @@ ms.locfileid: "51580532"
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
-### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>錯誤：無法連接。 詳細資訊：「資料閘道發生不明錯誤」
+### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>錯誤：無法連線。 詳細資料：「資料閘道發生不明錯誤」
 
 這個錯誤可能有數個不同的發生原因。 請務必驗證您可以從裝載閘道的電腦連接到資料來源。 這可能是由於無法存取伺服器所致。
 
@@ -141,7 +141,7 @@ ms.locfileid: "51580532"
 
 您也可以查看 [事件記錄檔] > [應用程式及服務記錄檔] > [內部部署資料閘道服務]，以取得詳細資訊。
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>錯誤：嘗試連接 <server> 時發生錯誤。 詳細資訊：「已連線到資料閘道，但該閘道無法存取內部部署資料來源。」
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>錯誤：[嘗試連接到 <server> 時發生錯誤]。 詳細資料：[已連線到資料閘道，但該閘道無法存取內部部署資料來源。]
 
 我們無法連接到指定的資料來源。 請務必驗證為該資料來源提供的資訊。
 
@@ -182,7 +182,7 @@ ms.locfileid: "51580532"
 
 請確定閘道設定內資料來源的 [使用者] 索引標籤中已列出您的帳戶。 若您沒有閘道存取權，請洽詢閘道管理員並請求驗證。 只有**使用者**清單中的帳戶才能查看 Analysis Services 清單所列出的資料來源。
 
-### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>錯誤: 您在此資料集中沒有任何為資料來源安裝或設定的閘道
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>錯誤：您尚未為此資料集中的資料資源安裝或設定任何閘道
 
 請確認您已將一或多個資料來源新增至閘道，如[新增資料來源](service-gateway-manage.md#add-a-data-source)中所述。 若閘道未在管理入口網站中的 [管理閘道] 下出現，請嘗試清除您的瀏覽器快取或登出服務，然後重新登入。
 
@@ -192,7 +192,7 @@ ms.locfileid: "51580532"
 
 如果您有大小超過 4 MB 的單一資料列，就會發生這個情況。 您必須從資料來源判斷那是什麼資料列，並嘗試加以篩選或縮減該資料列的大小。
 
-### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>錯誤︰提供的伺服器名稱不符合 SQL Server SSL 憑證上的伺服器名稱
+### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>錯誤：提供的伺服器名稱與 SQL Server SSL 憑證上的伺服器名稱不符
 
 當憑證 CN 代表伺服器的完整網域名稱 (FQDN)，但您只提供伺服器的 NetBIOS 名稱時，就會發生這個情況。 這會導致憑證不相符。 若要解決此問題，您必須讓閘道資料來源及 PBIX 檔案內的伺服器名稱使用伺服器的 FQDN。
 
@@ -217,7 +217,7 @@ ms.locfileid: "51580532"
 1. 資料來源資訊與基礎資料集中的項目不符合。 伺服器和資料庫名稱必須與為內部部署資料閘道定義的資料來源，或是您在 Power BI Desktop 內提供的名稱相符。 如果您在 Power BI Desktop 中使用 IP 位址，則內部部署資料閘道的資料來源也必須使用 IP 位址。
 2. 組織內任何閘道上都沒有可用的資料來源。 您可以在全新或現有的內部部署資料閘道上設定資料來源。
 
-### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>錯誤︰資料來源存取錯誤。 請連絡閘道管理員
+### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>錯誤：資料來源存取錯誤。 請連絡閘道管理員
 
 如果這份報表使用即時 Analysis Services 連線，您可能會遇到將值傳遞至 EffectiveUserName 的問題，該值不是無效，就是在 Analysis Services 電腦上沒有權限。 一般而言，驗證問題是因為傳入的 EffectiveUserName 的值不符合本機使用者主體名稱 (UPN)。
 
@@ -258,7 +258,7 @@ ms.locfileid: "51580532"
 
 ### <a name="performance-counters"></a>效能計數器
 
-您可使用數種效能計數器來量測閘道的活動。 這些計數器有助於您了解活動負載是否很大，而可能需要設定新的閘道。 這些計數器並不會反映某個項目花多少時間。
+您可使用數種效能計數器來量測閘道的活動。 這些計數器有助於您了解活動負載是否很大，而可能需要設定新的閘道器。 這些計數器並不會反映某個項目花多少時間。
 
 您可以透過 Windows 效能監視器工具存取這些計數器。
 
@@ -307,7 +307,7 @@ ms.locfileid: "51580532"
 
 ## <a name="reviewing-slow-performing-queries"></a>檢閱執行緩慢的查詢
 
-您可能會發現透過閘道的回應很慢。 這可能發生在 DirectQuery 查詢，或重新整理匯入的資料集時。 您可以啟用輸出查詢及其時間的額外記錄，以協助您了解哪些項目的執行速度緩慢。 當您發現執行很久的查詢時，可能需要在資料來源進行其他修改，以調整查詢效能。 例如，調整 SQL Server 查詢的索引。
+您可能會發現透過閘道的回應很慢。 這可能發生在 DirectQuery 查詢，或重新整理匯入的資料集時。 您可以啟用其他記錄，來輸出查詢及其時間，協助您了解哪些項目的執行速度緩慢。 當您發現執行很久的查詢時，可能需要在資料來源進行其他修改，以調整查詢效能。 例如，調整 SQL Server 查詢的索引。
 
 您必須修改下列兩個組態檔來判斷查詢的持續時間。
 
@@ -316,7 +316,7 @@ ms.locfileid: "51580532"
 在 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 檔案中，將 `EmitQueryTraces` 值從 `False` 變更為 `True`。 根據預設，這個檔案位於 *C:\Program Files\On-premises data gateway* 。 啟用 `EmitQueryTraces` 時，就會開始記錄從閘道傳送到資料來源的查詢。
 
 > [!IMPORTANT]
-> 根據閘道的使用方式，啟用 EmitQueryTraces 可能會大幅增加記錄大小。 在您完成檢閱記錄後，可能需要將 EmitQueryTraces 設定為 False。 不建議長期啟用此設定。
+> 根據閘道的使用方式，啟用 EmitQueryTraces 可能會大幅增加記錄大小。 在您完成檢閱記錄後，可能需要將 EmitQueryTraces 設定為 False。 不建議長期啟用這項設定。
 
 ```
 <setting name="EmitQueryTraces" serializeAs="String">
@@ -360,7 +360,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
    ![其他記錄](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
-> 將 TracingVerbosity 啟用為 `5`，可能會根據閘道使用量而大幅增加記錄大小。 在您完成檢閱記錄後，需要將 TraceVerbosity 設定為 `4`。 不建議長期啟用此設定。
+> 將 TracingVerbosity 啟用為 `5`，可能會根據閘道使用量而大幅增加記錄大小。 在您完成檢閱記錄後，需要將 TraceVerbosity 設定為 `4`。 不建議長期啟用這項設定。
 
 ```
 <setting name="TracingVerbosity" serializeAs="String">
@@ -459,7 +459,7 @@ ImpersonationLevel 與 SPN 設定或本機原則設定有關。
 1. 針對內部部署閘道設定 SPN
 2. 在 Active Directory (AD) 中設定限制委派
 
-### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException：無法針對使用者的使用者識別碼建立 Windows 身分識別
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException：無法建立使用者使用者識別碼的 Windows 身分識別
 
 如果您不能代表其他使用者進行模擬，就會發生 FailedToImpersonateUserException。 如果您嘗試模擬的帳戶來自閘道服務網域所在網域以外的其他網域 (這是限制)，也會發生此問題。
 
@@ -500,7 +500,7 @@ ImpersonationLevel 與 SPN 設定或本機原則設定有關。
         <value>AADEmail</value>
 ```
 
-### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] 通訊連結失敗;-10709 連線失敗 (RTE:[-1] Kerberos 錯誤。 主要: "其他失敗 [851968]"，次要: "安全性套件沒有可供使用的認證
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] 通訊連結失敗;-10709 連線失敗 (RTE:[-1] Kerberos 錯誤。 主要：[其他失敗 [851968]]，次要：[安全性封裝沒有可供使用的認證]
 
 如果未在 AD 中正確設定您的委派，您會收到 -10709 連線失敗錯誤訊息。
 

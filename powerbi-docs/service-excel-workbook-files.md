@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 85f7dd131806cd808c28c23cb70230a0c719e0a1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670179"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285614"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>從 Excel 活頁簿檔案取得資料
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -119,7 +119,7 @@ Power BI 支援下列資料類型：整數、十進位數字、貨幣、日期�
 ## <a name="troubleshooting"></a>疑難排解
 活頁簿檔案太大？ 請參閱[減少 Excel 活頁簿的大小以在 Power BI 中檢視](reduce-the-size-of-an-excel-workbook.md)。
 
-目前，當您選擇 [匯入] 時，Power BI 只會匯入具名資料表或資料模型中的資料。 因此，如果活頁簿未包含任何具名資料表、Power View 工作表或 Excel 資料模型，您可能會看到此錯誤：**「在此 Excel 活頁簿中找不到任何資料」**。 [這篇文章](service-admin-troubleshoot-excel-workbook-data.md)說明如何修正您的活頁簿並重新匯入。
+目前，當您選擇 [匯入] 時，Power BI 只會匯入具名資料表或資料模型中的資料。 因此，如果活頁簿中沒有具名資料表、Power View 工作表或 Excel 資料模型，您就會看到錯誤：[在此 Excel 活頁簿中找不到任何資料]。 [這篇文章](service-admin-troubleshoot-excel-workbook-data.md)說明如何修正您的活頁簿並重新匯入。
 
 ## <a name="next-steps"></a>後續步驟
 **瀏覽您的資料** - 將檔案中的資料和報表匯入 Power BI 後，您就可以開始瀏覽。 只要以滑鼠右鍵按一下新的資料集，然後按一下 [瀏覽]。 如果您在步驟 4 中，選擇連接到 OneDrive 上的活頁簿檔案，您的活頁簿會顯示在 [報表] 中。 當您按一下活頁簿時，活頁簿會在 Power BI 中開啟，就像是在 Excel Online 中一樣。

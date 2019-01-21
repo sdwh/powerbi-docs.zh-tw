@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 0990f6ddaf458d5723cd04fedf0b34f497de16cb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974176"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278485"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>將資料推送至 Power BI 資料集
 
@@ -27,8 +27,8 @@ ms.locfileid: "45974176"
 * 步驟 1：[使用 Azure AD 註冊應用程式](walkthrough-push-data-register-app-with-azure-ad.md)
 * 步驟 2：[取得驗證存取權杖](walkthrough-push-data-get-token.md)
 * 步驟 3：[在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)
-* 步驟 4：[取得資料集，以便將資料列加入 Power BI 資料表](walkthrough-push-data-get-datasets.md)
-* 步驟 5： [將資料列加入 Power BI 資料表](walkthrough-push-data-add-rows.md)
+* 步驟 4：[取得資料集，以便將資料列新增至 Power BI 資料表](walkthrough-push-data-get-datasets.md)
+* 步驟 5：[將資料列新增至 Power BI 資料表](walkthrough-push-data-add-rows.md)
 
 下一節是有關資料推送的 Power BI API 作業的一般討論。
 
@@ -59,7 +59,7 @@ ms.locfileid: "45974176"
         ]
     }
 
-因此，對於我們的 Sales Marketing 資料集範例，您會傳遞 JSON 字串，如以下範例。 在此範例中， **SalesMarketing** 是資料集的名稱，而 **Product** 是資料表的名稱。 定義資料表之後，您會定義資料表的結構描述。 對於 **SalesMarketing** 資料集，資料表結構描述具有下列資料行：ProductID、Manufacturer、Category、Segment、Product 和 IsCompete。
+因此，對於我們的 Sales Marketing 資料集範例，您會傳遞 JSON 字串，如以下範例。 在此範例中， **SalesMarketing** 是資料集的名稱，而 **Product** 是資料表的名稱。 定義資料表之後，您會定義資料表的結構描述。 針對 **SalesMarketing** 資料集，資料表結構描述具有這些資料行：產品識別碼、製造商、類別、區段，產品和 IsCompete。
 
 **範例資料集物件 JSON**
 
@@ -112,7 +112,7 @@ ms.locfileid: "45974176"
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>深入了解如何將資料推送至 Power BI
 
-若要開始將資料推送至資料集，請參閱左側瀏覽窗格中的[步驟 1：使用 Azure AD 註冊應用程式](walkthrough-push-data-register-app-with-azure-ad.md)。
+若要開始將資料推送至資料集，請參閱左側導覽窗格中的[步驟 1：使用 Azure AD 註冊應用程式](walkthrough-push-data-register-app-with-azure-ad.md)。
 
 [下一步 >](walkthrough-push-data-register-app-with-azure-ad.md)
 

@@ -6,22 +6,22 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f52231d5df04367a1fe58e8575cd364899ff8eae
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 67a090b64a8243ed2a77d66ae633f8a64e494c89
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396719"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289064"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 報表的頁面顯示設定
 我們了解保持報表版面配置像素完美的重要性。 有時候這會有點困難，因為您和您的同事使用外觀比例和大小不同的螢幕檢視這些報表。 
 
-預設顯示檢視為 [調整成一頁]，而預設顯示大小為 **16:9**。 如果您想要鎖定不同的外觀比例，或想要用不同方式以符合報表，有兩種工具可幫助您：[頁面檢視] 設定和 [頁面大小] 設定。
+預設顯示檢視為 [調整成一頁]，而預設顯示大小為 **16:9**。 如果您想要鎖定為不同的外觀比例，或想要以不同的方式調整報表，有兩個工具可協助您：[整頁模式] 設定和 [頁面大小] 設定。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
 

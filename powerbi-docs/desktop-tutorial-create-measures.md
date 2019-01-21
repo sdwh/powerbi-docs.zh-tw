@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 85c16822a51bc3c4a59bbfaa363f742f77552b72
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ba9cc81c966ebadb2aaff8c339b8a151aef7b6fd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578627"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287557"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中建立您自己的量值
 您可以在 Power BI Desktop 中使用量值來建立一些最強大的資料分析方案。 當您與報表互動時，量值會在您的資料上執行計算，藉此提供協助。 本教學課程將引導您了解量值，並在 Power BI Desktop 中建立自己的基本量值。
@@ -23,7 +23,7 @@ ms.locfileid: "52578627"
 ### <a name="prerequisites"></a>先決條件
 - 本教學課程適用於已經熟悉使用 Power BI Desktop，用來建立更進階模型的 Power BI 使用者。 您應該已經很熟悉使用 [取得資料] 和 [查詢編輯器] 匯入資料、使用多個相關資料表，以及將欄位加入報表畫布。 如果您剛開始使用 Power BI Desktop，請務必參閱[開始使用 Power BI Desktop](desktop-getting-started.md)。
   
-- 下載[適用於 Power BI Desktop 的 Contoso 銷售範例](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)檔案，其中包含虛構公司 Contoso, Inc. 的線上銷售資料。此資料是從資料庫匯入的，所以您將無法連線到資料來源或在查詢編輯器中加以檢視。 在您自己的電腦上將此檔案解壓縮，然後在 Power BI Desktop 中開啟它。
+- 下載[適用於 Power BI Desktop 的 Contoso 銷售範例](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)檔案，其中包含虛構公司 Contoso, Inc. 的線上銷售資料。此資料是從資料庫匯入，因此您無法連線到該資料來源或在 [查詢編輯器] 中檢視它。 在您自己的電腦上將此檔案解壓縮，然後在 Power BI Desktop 中開啟它。
 
 ## <a name="understand-measures"></a>了解量值
 
@@ -128,7 +128,7 @@ DAX 公式使用許多與 Excel 公式相同的函數、運算子和語法。 �
 
 ![依國家/地區顯示的銷售額和淨銷售額](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
 
-此圖表現在使用兩個量值：已自動加總的 SalesAmount，以及您所建立的 Net Sales 量值。 每個量值都會在另一個欄位 (RegionCountryName) 的內容中加以計算。
+圖表現在會使用兩個量值：已自動加總的 SalesAmount，和您建立的 Net Sales 量值。 每個量值都會在另一個欄位 (RegionCountryName) 的內容中加以計算。
     
 ### <a name="use-your-measure-with-a-slicer"></a>搭配交叉分析篩選器使用量值
 

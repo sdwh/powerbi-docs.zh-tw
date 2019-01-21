@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a27e192c5ccc1fb3a7af9bafbc9c4fd14ccabf4c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: a48ad26b9da5d5dba9fa04ab74301da7e1265d0b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900098"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292022"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 **Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本專為美國政府客戶而設計，並且獨立且不同於商用版本的 **Power BI 服務**。
@@ -73,29 +73,29 @@ Azure 分散於多個雲端。 根據預設，會允許租用戶以開啟對雲�
 ## <a name="frequently-asked-questions-faq-for-the-us-government-version-of-the-power-bi-service"></a>美國政府版本的 Power BI 服務常見問題集 (FAQ)
 下列問題 (及回答) 可協助您快速取得所需的服務相關資訊。
 
-**問︰** 如何移轉我的商用 **Power BI** 資料到美國政府的 **Power BI 服務**？
+**問：** 如何移轉我的商用 **Power BI** 資料到適用於美國政府的 **Power BI 服務**？
 
-**答︰** 您的系統管理員必須在不同的美國政府特定訂閱中建立 **Power BI** 的新執行個體。 然後，您就可以在適用於美國政府的 **Power BI 服務**中複寫您的商用資料、移除您的商用授權，並將現有的網域與新的美國政府特定服務相關聯。
+**答：** 您的系統管理員必須在不同的、美國政府特定的訂用帳戶中建立 **Power BI** 的新執行個體。 然後，您就可以在適用於美國政府的 **Power BI 服務**中複寫您的商用資料、移除您的商用授權，並將現有的網域與新的美國政府特定服務相關聯。
 
-**問︰** 為什麼我無法連線到特定的內容套件？
+**問：** 為什麼我無法連線到特定的內容套件？
 
-**答︰** 您需要先確定您的訂閱已啟用，才能連線到該內容套件。
+**答：** 您需要先確定您的訂用帳戶已啟用，才能連線到該內容套件。
 
-**問︰** 我要興趣為我的美國政府組織取得 **Power BI**。 如何開始使用？
+**問：** 我有興趣為我的美國政府組織取得 **Power BI**。 如何開始使用？
 
-**答︰** 註冊 (通常稱為「上架」) 可能會根據您現有的授權和訂閱而不同。 如需詳細資訊，請參閱[註冊適用於美國政府的 Power BI](service-govus-signup.md) 一文。
+**答：** 註冊 (通常稱為「上架」) 可能會根據您現有的授權和訂用帳戶而不同。 如需詳細資訊，請參閱[註冊適用於美國政府的 Power BI](service-govus-signup.md) 一文。
 
-**問︰** 連接到美國政府 **Power BI** 的 URL，與商用 **Power BI** URL 不同嗎？
+**問：** 連線到適用於美國政府之 **Power BI** 的 URL，與商用 **Power BI** URL 是否不同？
 
-**答︰** 是的，URL 會不同。 下表顯示每個 URL：
+**答：** 是，它們的 URL 並不相同。 下表顯示每個 URL：
 
 | 商用版本 URL | 美國政府版本 URL |
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
 
-**問題：** 我的帳戶佈建在多個主權雲端中。 當使用 **Power BI Desktop** 時，如何選取要連線至哪一個雲端？
+**問：** 我的帳戶已佈建在多個主權雲端中。 當使用 **Power BI Desktop** 時，如何選取要連線至哪一個雲端？
 
-**回答：** 從 2018 年 7 月版本的 **Power BI Desktop** 開始，您可以在登入 **Power BI Desktop** 時選擇您想要使用哪一個雲端。
+**答：** 從 2018 年 7 月版本的 **Power BI Desktop** 開始，您可以在登入 **Power BI Desktop** 時選擇您想要使用哪一個雲端。
 
 
 ## <a name="next-steps"></a>後續步驟

@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/28/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e364d2ceac3d1a30b0742ceac2bd56e2bc66d9ba
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: ace392570dbabc65d128941fc735231622f2c008
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973227"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285315"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>在 Power BI 報表中進行篩選和醒目提示的相關事項
  本文介紹如何在 Power BI 服務中進行篩選和醒目提示。 其體驗幾乎與 Power BI Desktop 完全相同。 ***篩選***會保留您最關切的資料，而將其他所有資料移除。 「醒目提示」與篩選不同。 它不會移除資料，而是將一部分可見資料醒目提示，未醒目提示的資料會保持可見但呈現暗灰色。
@@ -48,7 +48,7 @@ ms.locfileid: "50973227"
 如果篩選旁邊有 **All** 這個字詞，表示欄位中的所有值都包含在篩選中。  例如，下方螢幕擷取畫面中的 **Chain(All)** 表示此報表頁面包含所有連鎖店的相關資料。  相反地，[FiscalYear is 2013 or 2014] 的報表層級篩選表示報表只包含 2013 年及 2014 年會計年度的資料。
 
 ## <a name="filters-in-reading-or-editing-view"></a>[閱讀檢視] 或 [編輯檢視] 中的篩選
-您可使用下列兩種模式與報表互動：[閱讀檢視](consumer/end-user-reading-view.md)和編輯檢視。 系統會依據您使用的模式提供篩選功能。
+有兩種模式可與報表互動：[[閱讀] 檢視](consumer/end-user-reading-view.md)和 [編輯] 檢視。 系統會依據您使用的模式提供篩選功能。
 
 * 在 [編輯檢視] 中，您可以新增報表、頁面、鑽研和視覺效果篩選。 當您儲存報表時，篩選會與報表一起儲存，即使您在行動裝置應用程式中開啟它亦然。 在 [閱讀檢視] 中檢視報表的人員可以與您新增的篩選互動，但無法新增篩選。
 * 在 [閱讀檢視] 中，您可以與報表中已存在的任何篩選互動，並儲存您做的選擇。 您無法新增新的篩選。

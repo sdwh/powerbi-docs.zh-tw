@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
 ms.author: maghan
-ms.openlocfilehash: 36f9665f0e42ee62e5a1a4a7584a2492bea276b0
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37597904"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288926"
 ---
 # <a name="custom-layouts"></a>自訂配置
 
@@ -65,7 +65,7 @@ enum DisplayOption {
 ```
 
 - `pageSize`：使用頁面大小來控制畫布區域大小 (也就是報告白色區域)。
-- `displayOptions`：可能的值為：FitToWidth、FitToPage 或 ActualSize。 這可控制如何縮放畫布以符合 iframe。
+- `displayOptions`：可能的值為：可能的值為：FitToWidth、FitToPage 或 ActualSize。 這可控制如何縮放畫布以符合 iframe。
 - `pagesLayout`：控制每個視覺效果的配置。 如需詳細資料，請參閱 PagesLayout。
 
 ## <a name="pages-layout"></a>頁面配置

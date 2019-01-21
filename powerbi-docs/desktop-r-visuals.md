@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0a739e963039e61aa66e398d27fa82982eb26bb0
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: c1a4ba0a89f84cb0fce205373f1d0f00cc1479ac
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670501"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278561"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 建立 Power BI 視覺效果
 有了 **Power BI Desktop**，您可以使用 **R** 將資料視覺化。
@@ -107,7 +107,7 @@ ms.locfileid: "52670501"
 
     ![](media/desktop-r-visuals/r-visuals-9.png)
 
-    > **R 指令碼的安全性︰** R 視覺效果是從 R 指令碼建立，其中的程式碼可能具有安全性或隱私權風險。 初次嘗試檢視 R 視覺效果或與其互動時，使用者會看到安全性警告訊息。 請在信任作者與來源，或已檢閱並了解 R 指令碼之後，才啟用 R 視覺效果。
+    > **R 指令碼安全性：** R 視覺效果是從 R 指令碼建立，可能包含具有安全性或隱私權風險的程式碼。 初次嘗試檢視 R 視覺效果或與其互動時，使用者會看到安全性警告訊息。 請在信任作者與來源，或已檢閱並了解 R 指令碼之後，才啟用 R 視覺效果。
     > 
     > 
 

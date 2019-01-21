@@ -5,24 +5,24 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3f8a5075290620d9d1ed1829008002ff71d25c82
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 3fa76b19e187f7a27dc8b9268dad4d9b5ab8f101
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908151"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286373"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的組織內容套件簡介
 > [!NOTE]
 > 您無法在新的工作區體驗預覽中建立組織內容套件或加以安裝。 如果您尚未開始，現在是將您的內容套件升級為應用程式的好時機。 深入了解[新的工作區體驗](service-create-the-new-workspaces.md)。
 > 
 
-您有透過電子郵件向小組定期發佈報表嗎？ 您可以改成封裝的儀表板、報表、Excel 活頁簿與資料集，然後將其發行到您的小組作為組織內容套件。 因為建立的內容套件全部都在 AppSource 內，所以您的小組很容易就可以找到。 因為它們是 Power BI 的一部分，所以能使用 Power BI 的所有功能，包括互動式資料瀏覽、新的視覺效果、問與答、與其他資料來源整合、資料重新整理等等。
+您有透過電子郵件向小組定期發佈報表嗎？ 改為嘗試：封裝您的儀表板、報表、Excel 活頁簿與資料集，然後將其發行到您的小組作為「組織內容套件」。 因為建立的內容套件全部都在 AppSource 內，所以您的小組很容易就可以找到。 因為它們是 Power BI 的一部分，所以能使用 Power BI 的所有功能，包括互動式資料瀏覽、新的視覺效果、問與答、與其他資料來源整合、資料重新整理等等。
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 

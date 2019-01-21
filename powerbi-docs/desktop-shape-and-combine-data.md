@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e23182b1e607498c5187882740b556455657ba1d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f39f5ae569c757072a55647becb5697c881abbe2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670890"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285661"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中將資料成形及合併
 
@@ -81,7 +81,7 @@ ms.locfileid: "52670890"
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-請注意，_New Rank_ 值尚未變更；這是因為步驟順序的關係。 由於查詢編輯器會循序記錄步驟，但每個步驟彼此獨立，因此您可以在序列中上下移動每個 **套用的步驟** 。 只要以滑鼠右鍵按一下任何步驟，查詢編輯器便會提供功能表讓您執行下列動作：\[重新命名] 、\[刪除] 、\[刪除到結尾]   \(移除目前的步驟和所有後續步驟)、\[上移] 或 \[下移] 。 繼續進行，並將最後一個步驟「已移除資料行」向上移動到「已新增自訂」步驟的正上方。
+請注意，_New Rank_ 值尚未變更；這是因為步驟順序的關係。 由於查詢編輯器會循序記錄步驟，但每個步驟彼此獨立，因此您可以在序列中上下移動每個 **套用的步驟** 。 只要以滑鼠右鍵按一下任何步驟，[查詢編輯器] 就會提供一個功能表，讓您執行下列動作：[重新命名]、[刪除]、[刪除到結尾] \(移除目前的步驟和所有後續步驟\)、[上移] 或 [下移]。 繼續進行，並將最後一個步驟「已移除資料行」向上移動到「已新增自訂」步驟的正上方。
 
 ![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
 
@@ -179,7 +179,7 @@ ms.locfileid: "52670890"
 
 ![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* 移除一些不必要的資料行：我們只需要將州對應到其官方的兩個字母縮寫，因此可以移除下列資料行：**Column1**、**Column3**、**Column4**，然後從 **Column6** 到 **Column11**。 先選取 **Column1**，然後按住 **CTRL** 鍵並選取其他要移除的資料行 (這可讓您選取多個非連續的資料行)。 從功能區上的 [常用] 索引標籤，選取 **[移除資料行] \> [移除資料行]**.
+* 移除一些不必要的資料行，我們只需要將州對應到正式的雙字母縮寫，就可以移除下列資料行：**Column1**、**Column3**、**Column4**，以及 **Column6** 到 **Column11**。 先選取 **Column1**，然後按住 **CTRL** 鍵並選取其他要移除的資料行 (這可讓您選取多個非連續的資料行)。 從功能區上的 [常用] 索引標籤，選取 **[移除資料行] \> [移除資料行]**.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
 

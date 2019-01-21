@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 097f0ae9da29d193fd7a337c9a164ab8c67dc4d9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417364"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277656"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 若要做出正確決策，確保您能夠一直取得最新資料就相當重要。 您可能已經使用 Power BI 中的 [取得資料] 連接及上傳一些資料，也已經建立一些報表和儀表板。 現在，您想要確定您的資料都是最新且最優良的。
@@ -221,7 +221,7 @@ Power BI 中的內容套件有兩種類型：
 ### <a name="excel-workbook-with-tables-of-data"></a>具有資料表的 Excel 活頁簿
 您的 Excel 活頁簿有多個資料表，但皆未載入 Excel 資料模型中。 您使用 [取得資料] 從本機磁碟將活頁簿檔案上傳到 Power BI 並建立儀表板。 但是，您對本機磁碟上活頁簿的多個資料表進行了些許變更，並且想要以新資料更新 Power BI 中的儀表板。
 
-不幸的是，在此案例中，重新整理不受支援。 為了重新整理儀表板的資料集，您必須重新上傳活頁簿。 不過，這裡有個很棒的解決方案：將您的活頁簿檔案放到 OneDrive 或 SharePoint Online！
+不幸的是，在此案例中，重新整理不受支援。 為了重新整理儀表板的資料集，您必須重新上傳活頁簿。 不過，還有很棒的解決方案：將您的活頁簿檔案放到 OneDrive 或 SharePoint Online！
 
 當您連接到 OneDrive 或 SharePoint Online 上的檔案時，報表和儀表板會依據資料在檔案中的原樣加以顯示。 在此情況下即為您的 Excel 活頁簿。 Power BI 會每小時自動檢查檔案是否更新。 如果您對活頁簿 (存放於 OneDrive 或 SharePoint Online) 進行變更，這些變更會在一小時內反映於您的儀表板和報表中。 您完全不需要設定重新整理。 然而，如果您需要立即在 Power BI 中查看更新，可以使用 [立即重新整理] 手動重新整理資料集。
 

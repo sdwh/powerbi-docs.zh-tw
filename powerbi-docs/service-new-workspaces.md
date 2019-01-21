@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8856a8641b38b7a8256b199acccd54e030bdce40
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: dd4ee055501974345c819f7604ff30174cd4c5ba
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984318"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278983"
 ---
 # <a name="organize-work-in-the-new-workspaces-preview-in-power-bi"></a>在 Power BI 的新工作區 (預覽) 中組織工作
 
@@ -43,7 +43,7 @@ ms.locfileid: "53984318"
 
 ## <a name="roles-in-the-new-workspaces"></a>新工作區中的角色
 
-請在新的工作區中，將使用者群組或個人新增為成員、參與者或系統管理員。 使用者群組中的每個人都會取得您已定義的角色。 如果個人在多個使用者群組中，他們會取得角色所提供的最高層級權限。  如需不同角色的說明，請參閱本文稍後的[新工作區中的角色](#roles-in-the-new-workspaces)。
+請在新的工作區中，將使用者群組或個人新增為成員、參與者或系統管理員。 使用者群組中的每個人都會取得您已定義的角色。 如果個人在多個使用者群組中，他們會取得角色所提供的最高層級權限。
 
 新增至工作區的每個人都必須有 Power BI Pro 授權。 在工作區中，這些使用者皆可在儀表板和報表上共同作業，以準備發佈給更多對象，甚至整個組織。 如果您想要將內容散發給組織內的其他人，則可以將 Power BI Pro 授權指派給這些使用者，或將工作區置於 Power BI Premium 容量中。
 
@@ -83,9 +83,7 @@ ms.locfileid: "53984318"
 
 當新的工作區正式推出 (GA) 時，可以選擇自動移轉舊的工作區。 在 GA 後的某個時間點，您必須將其移轉。
 
-## <a name="power-bi-apps-faq"></a>Power BI 應用程式常見問題集
-
-### <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>新工作區與目前工作區有何不同？
+## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>新工作區與目前工作區有何不同？
 
 我們使用新的工作區重新設計了一些功能。 以下是預覽中可預期為永久性的變更。 
 
@@ -94,6 +92,13 @@ ms.locfileid: "53984318"
 - 您可以從目前的工作區建立組織內容套件。 但無法從新的工作區建立組織內容套件。
 - 您可以從目前的工作區取用組織內容套件。 但無法從新的工作區取用組織內容套件。
 - 在預覽期間，新的工作區尚未啟用某些功能。 如需詳細資料，請參閱下一節：[規劃的新工作區功能](service-new-workspaces.md#planned-new-workspace-preview-features)。
+
+## <a name="limitations-and-considerations"></a>限制與考量
+
+要注意的限制：
+
+- 工作區可包含最多 1,000 個資料集，或每個資料集 1,000 個報表。 
+- 有 Power BI Pro 授權的人員可以是最大 250 工作區的成員。
 
 ## <a name="planned-new-workspace-preview-features"></a>規劃的新工作區預覽功能
 

@@ -4,17 +4,17 @@ description: Power BI 概觀，以及不同的組件如何一起搭配運作 - P
 author: davidiseminger
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: overview
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 357af2f995fc927e7b55283c762e5f4b52376444
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: bc712b892cd35259bc036f41b6e3e16a5388ffad
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619578"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293048"
 ---
 # <a name="what-is-power-bi"></a>Power BI 是什麼？
 **Power BI** 是軟體服務、應用程式和連接器的集合，它們搭配使用來將不相關的資料來源轉換成相關、視覺上融入的互動式深入剖析。 不論您的資料是簡單的 Excel 試算表還是一組雲端和內部部署混合式資料倉儲，**Power BI** 都可讓您輕鬆地連接到資料來源、以視覺化方式檢視 (或探索) 重要資料，以及與任何人或您想要的任何人共用該資料。

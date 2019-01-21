@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4b503b7282377b112aebe237cc9a8d132502f0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5e737978b7c39abd331f51fbb12e24656d54e838
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298335"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275908"
 ---
 # <a name="manage-your-data-source---oracle"></a>管理您的資料來源 - Oracle
 安裝內部部署資料閘道之後，您必須新增可搭配閘道使用的資料來源。 本文將探討如何使用閘道和資料來源。 您可以針對已排程的重新整理或 DirectQuery，使用 Oracle 資料來源。
@@ -39,7 +39,7 @@ ms.locfileid: "34298335"
 
 * [適用於 Windows x64 的 64 位元 ODAC 12.2c Release 1 (12.2.0.1.0)](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
-安裝後，您必須使用您資料庫的適當資訊設定 tnsnames.ora 檔案。 Power BI Desktop 和閘道將會移開 tnsnames.ora 檔案中定義的 net_service_name。 若未設定，您將無法連接。 tnsnames.ora 的預設路徑如下：`[Oracle Home Directory]\Network\Admin\tnsnames.ora`。 如需如何設定 tnsnames.ora 檔案的詳細資訊，請參閱 [Oracle︰本機命名參數 (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm)。
+安裝後，您必須使用您資料庫的適當資訊設定 tnsnames.ora 檔案。 Power BI Desktop 和閘道將會移開 tnsnames.ora 檔案中定義的 net_service_name。 若未設定，您將無法連接。 tnsnames.ora 的預設路徑如下：`[Oracle Home Directory]\Network\Admin\tnsnames.ora`。 如需如何設定 tnsnames.ora 檔案的詳細資訊，請參閱 [Oracle:本機命名參數 (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm) \(英文\)。
 
 ### <a name="example-tnsnamesora-file-entry"></a>範例 tnsnames.ora 檔案項目
 tnsname.ora 中的項目基本格式如下所示。
@@ -157,11 +157,11 @@ CONTOSO =
 ## <a name="troubleshooting"></a>疑難排解
 當命名語法不正確或未正確設定時，可能會遇到來自 Oracle 的多種錯誤。
 
-* ORA-12154: TNS: 無法解析指定的連接識別碼  
-* ORA-12514: TNS 接聽程式目前不了解連接描述元中要求的服務  
-* ORA-12541: TNS: 沒有任何接聽程式  
-* ORA-12170: 發生連接逾時  
-* ORA-12504: TNS 接聽程式未得到 SERVICE_NAME CONNECT_DATA  
+* ORA-12154:TNS: 無法解析指定的連接識別碼  
+* ORA-12514:TNS 接聽程式目前不了解連接描述元中要求的服務  
+* ORA-12541:TNS: 沒有任何接聽程式  
+* ORA-12170:TNS: 發生連接逾時  
+* ORA-12504:TNS 接聽程式在 CONNECT_DATA 中未得到 SERVICE_NAME  
 
 若未安裝或未正確設定 Oracle 用戶端，可能會發生這些錯誤。 若已安裝，建議您驗證 tnsnames.ora 檔案已正確設定，並使用適當的 net_service_name。 您也必須確定使用 Power BI Desktop 的電腦與執行閘道的電腦所使用的 net_service_name 相同。 如需詳細資訊，請參閱[安裝 Oracle 用戶端](#installing-the-oracle-client)。
 

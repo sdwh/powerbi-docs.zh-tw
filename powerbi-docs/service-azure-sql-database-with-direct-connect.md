@@ -5,17 +5,17 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a1ae30097e0af90d5da8acd0d41b11f513756f88
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 3bee2d5a4bbb470ed85d2ec0ae501d3dcc875e7f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135896"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286281"
 ---
 # <a name="azure-sql-database-with-directquery"></a>具有 DirectQuery 的 Azure SQL Database
 了解如何直接連線至 Azure SQL Database 及建立使用即時資料的報表。 您可以將您的資料保留在來源，而不是在 Power BI 中。
@@ -51,6 +51,10 @@ ms.locfileid: "37135896"
 若已啟用 SSO 選項，且您的使用者存取在資料來源上建立的報告，Power BI 會在對 Azure SQL 資料庫的查詢中傳送其已驗證的 Azure AD 認證。 這可讓 Power BI 遵從在資料來源層級所設定的安全性設定。
 
 SSO 選項會在使用此資料來源的所有資料集中生效。 它不會影響用於匯入案例的驗證方法。
+
+> [!Note]
+> 不支援 Azure Multi-Factor Authentication (MFA)。 想搭配 Azure SQL DirectQuery 使用 SSO 的使用者，必須自 MFA 中免除。
+>
 
 ## <a name="finding-parameter-values"></a>尋找參數值
 在 Azure 入口網站中可以找到您完整的伺服器名稱和資料庫名稱。

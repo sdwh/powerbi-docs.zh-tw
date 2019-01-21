@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: 83961f3ad469a4a7a76ceb6e1e4dba846a6edb04
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072213"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287617"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI (預覽) 中的自助資料準備
 
@@ -92,7 +92,7 @@ Power BI 也可以連線到含有 Common Data Service 格式且已結構描述�
 |資料流程連結實體| |        +|
 |已標準化的結構描述 / 適用於 Common Data Service 的內建支援|  +|  +|
 
-如需在 Premium 容量上啟用資料流程工作負載的詳細資訊，請參閱適用於 Power BI Premium 的[設定工作負載](service-admin-premium-manage.md#configure-workloads)一文。
+如需在 Premium 容量上啟用資料流程工作負載的詳細資訊，請參閱適用於 Power BI Premium 的[設定工作負載](service-admin-premium-manage.md#configure-workloads)一文。 資料流程工作負載目前無法在多地理位置容量中取得。
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>適用於 Power BI 中巨量資料的自助資料準備摘要
 如此文章先前所述，在多個案例和範例中，**資料流程**可讓您從商務資料取得更好的控制且更快速進行深入解析。 使用 Common Data Service 所定義的標準資料模型 (結構描述)，資料流程可以匯入您的重要商務資料，且備妥資料以進行模型化，並在一段非常短的期間內建立 BI 深入解析...原本要花上數個月或更久的時間才能建立。 

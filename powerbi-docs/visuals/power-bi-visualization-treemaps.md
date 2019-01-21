@@ -6,24 +6,24 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92e86817231e959db50af3c32fe8eba761c79a61
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: dd7360761cc78aed9b01eb99165de9f0b4b91ffe
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448860"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274758"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI 中的矩形式樹狀結構圖
 矩形式樹狀結構圖會將階層式資料顯示成一組巢狀矩形。  階層的每個層級會由包含其他矩形 (「分葉」) 的彩色矩形 (通常稱為「分支」) 代表。  每個矩形內的空間配置是根據測量中的值。 矩形會依大小從左上角 (最大) 排列到右下角 (最小)。
 
 ![](media/power-bi-visualization-treemaps/pbi-nancy_viz_treemap.png)
 
-例如，如果我要分析我的銷售額，則最上層的矩形 (也稱為「分支」) 可能是服裝類別目錄：[都市]、[鄉村]、[青少年] 和 [混合]。  我的類別目錄矩形會分成較小矩形，也稱為「分葉」，代表該類別目錄內的衣服製造商。 這些較小的矩形會根據銷售數目，調整大小和陰影。  
+例如，如果我要分析我的銷售額，則最上層的矩形 (也稱為「分支」) 可能會是服裝類別目錄：[都市]、[鄉村]、[青少年] 和 [混合]。  我的類別目錄矩形會分成較小矩形，也稱為「分葉」，代表該類別目錄內的衣服製造商。 這些較小的矩形會根據銷售數目，調整大小和陰影。  
 
 在上述的 [都市] 分支，售出了許多 `Maximus` 服裝、較少的 `Natura` 和 `Fama`，以及少量的 `Leo`。  因此，我的矩形式樹狀結構圖 [都市] 分支會有：
 * 在左上角有 `Maximus` 的最大矩形

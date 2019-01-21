@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/01/2018
-ms.openlocfilehash: 7608d9098177805849ec61f0427ee5bc662d58c9
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 0337e35a67a852e1bb82209e095df4945c5de84a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475652"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275287"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步驟 5：將資料列加入 Power BI 資料表
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
@@ -33,7 +33,7 @@ ms.locfileid: "39475652"
 > 
 > 
 
-1. 在＜步驟 2：推送資料的逐步解說＞所建立之主控台應用程式專案的[取得驗證存取權杖](walkthrough-push-data-get-token.md)中，加入下列程式碼。
+1. 在步驟 2：推送資料逐步解說建立的主控台應用程式專案中，[取得驗證存取權杖](walkthrough-push-data-get-token.md)，新增下列程式碼。
 2. 執行主控台應用程式，然後登入您的 Power BI 帳戶。 您應該會在主控台視窗中看到 **加入的資料列** 。 您也可以登入至 Power BI 以查看新增至資料集的資料列。
 
 **將資料推送至資料集的範例**

@@ -6,15 +6,15 @@ ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: a365cab0420fdf373d62f5b1774a4d86985adfe3
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101247"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292445"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
@@ -127,7 +127,7 @@ SAP HANA SSO Direct Query 對 Kerberos 的支援現在於 Power BI 報表中正�
 - [依據不同欄位的條件式格式設定](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingField)
 - [依據值的條件式格式設定](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingValue)
 
-### <a name="modeling"></a>建立模型
+### <a name="modeling"></a>模型
 
 - [資料檢視中的篩選和排序](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#filterAndSort)
 - [改善的地區設定篩選](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#locale)
@@ -167,7 +167,7 @@ SAP HANA SSO Direct Query 對 Kerberos 的支援現在於 Power BI 報表中正�
 
 標記書籤是指建立書籤，透過您報表中的資料來述說故事。
 
-- [書籤的交叉醒目提示](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting)：書籤會在您建立書籤時，維護並顯示報表頁面的交叉醒目提示狀態。
+- [書籤的交叉醒目提示](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting)：書籤會維持並顯示報表書頁面在您建立書籤時的交叉醒目提示狀態。
 - [更多書籤彈性](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility)：書籤會反映您在報表中設定的屬性，而且只會影響您選擇的視覺效果。
 
 #### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[跨多個圖表複選資料點](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
@@ -216,7 +216,7 @@ SAP HANA SSO Direct Query 對 Kerberos 的支援現在於 Power BI 報表中正�
 - [鑽研篩選其他視覺效果](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 - [多列卡片之多維度 AS 模型的資料格層級格式](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
 
-### <a name="performance"></a>Performance
+### <a name="performance"></a>效能
 
 - [篩選效能提升](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
 - [DirectQuery 效能改善](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
@@ -270,9 +270,9 @@ Power BI 報表伺服器中的 Power BI 報表可以連線到各種資料來源�
 * EnablePowerBIReportEmbeddedModels：True/False
 * EnablePowerBIReportExportData：True/False
 * MaxFileSizeMb：預設值現在為 1000
-* ModelCleanupCycleMinutes：檢查以從記憶體收回模型的頻率
-* ModelExpirationMinutes：根據上一次的使用，模型到期和收回之前還有多少時間
-* ScheduleRefreshTimeoutMinutes：模型的資料重新整理需要多少時間。 預設為兩小時。  沒有硬性上限。
+* ModelCleanupCycleMinutes：檢查並從記憶體收回模型的頻率
+* ModelExpirationMinutes：模型到期並收回的時間長度 (根據最後一次使用)
+* ScheduleRefreshTimeoutMinutes：模型的資料重新整理可以花多長的時間。 預設為兩小時。  沒有硬性上限。
 
 **設定檔 rsreportserver.config**
 

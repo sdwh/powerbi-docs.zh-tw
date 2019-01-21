@@ -1,20 +1,20 @@
 ---
 title: 從 Power BI 行動裝置應用程式共用儀表板或報表
 description: 從 Power BI 行動裝置應用程式共用連結，以邀請其他人檢視您的儀表板和報表。 了解方法。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
-ms.author: maggies
-ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.author: mshenhav
+ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271639"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283659"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>從 Power BI 行動裝置應用程式共用儀表板或報表
 適用於︰
@@ -94,7 +94,7 @@ ms.locfileid: "48271639"
     如果您是儀表板的擁有者，您會看到與您共用此儀表板或報表的同事清單及這些標註：
 
     -   **可檢視**：可以檢視但不能共用。
-    -   **可檢視和再次共用**：可以檢視，也可與其他同事共用。
+    -   **可檢視與再次共用**：可以檢視，也可與其他同事共用。
 
 1. 請輸入電子郵件地址及隨儀表板邀請一起發送的訊息。 否則 Power BI 會傳送預設的訊息。
 2. 若要允許再次共用，請保持選取 [允許收件者共用此儀表板]  。
@@ -128,7 +128,7 @@ ms.locfileid: "48271639"
    
    **可檢視**：可以檢視但不能共用。
    
-   **可檢視和再次共用**：可以檢視，也可與其他同事共用。
+   **可檢視與再次共用**：可以檢視，也可與其他同事共用。
 2. 鍵入電子郵件地址及隨邀請一起發送的訊息。 否則 Power BI 會傳送預設的訊息。
    
    ![[邀請] 對話方塊](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-windows-10-share-dashboard.png)

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 196d2ef3eb0d8ed8b7f008eef1b247d9e7f1cd18
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417157"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296477"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的即時串流
 您可以使用 Power BI 即時串流，即時串流資料及更新儀表板。 您也可以建立可在 Power BI 中建立的任何視覺效果或儀表板，進而顯示及更新即時資料和視覺效果。 串流資料的裝置和來源可以是 Factory 感應器、社交媒體來源、服務使用計量，以及可從中收集或傳送即時資料的任何其他項目。
@@ -44,7 +44,7 @@ ms.locfileid: "47417157"
 * 視覺效果釘選到儀表板之後，您可以使用**問與答**，以自然語言提問推送資料集問題。 進行**問與答**查詢之後，您可以將結果產生的視覺效果釘選回儀表板，該儀表板「也會」即時更新。
 
 ### <a name="streaming-dataset"></a>串流資料集
-使用**串流資料集**，資料也會推送到 Power BI 服務，但有重要的差異︰Power BI 只會將資料儲存到暫存的快取，其很快就會到期。 暫存快取只用來顯示具有短暫歷史感的視覺效果，例如具有一小時時間期間的折線圖。
+使用**串流資料集**時，資料也會被發送到 Power BI 服務，不過有一個重要的差異：Power BI 只會將資料儲存到暫時快取，且該快取很快就會到期。 暫存快取只用來顯示具有短暫歷史感的視覺效果，例如具有一小時時間期間的折線圖。
 
 使用**串流資料集**時，「沒有」基礎資料庫，因此您「無法」使用從資料流流入的資料來建置報表視覺效果。 因此，您不能使用報表功能，例如篩選、自訂視覺效果和其他報表函式。
 

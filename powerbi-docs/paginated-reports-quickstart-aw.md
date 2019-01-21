@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 05805ea7b30f0ab0bd14265caecbb04a4e975300
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900604"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296420"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>教學課程：建立編頁報表並將它上傳至 Power BI 服務 (預覽)
 
@@ -80,7 +80,7 @@ ms.locfileid: "52900604"
 
 1. 在 [概觀] 索引標籤上，複製 [伺服器名稱] 方塊中的值。
 
-2. **在報表產生器中：**：在 [連接屬性] 對話方塊中的 [伺服器名稱] 下方，貼上您複製的伺服器名稱。 
+2. **在報表產生器中**：在 [連接屬性] 對話方塊中的 [伺服器名稱] 下方，貼上您複製的伺服器名稱。 
 
 1. 針對 [登入伺服器]，確定已選取 [使用 SQL Server 驗證]，然後針對範例資料庫輸入您在 Azure 中建立的使用者名稱和密碼。
 

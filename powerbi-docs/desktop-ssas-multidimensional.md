@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 40da2a9a53cfb7a0e497f85f87bca6a133046720
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 8668e477a2778bfdeec8260a31ca63af9d4124a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578696"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287684"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>連接到 Power BI Desktop 中的 SSAS 多維度模型
 使用 Power BI Desktop，您可以存取 **SSAS 多維度模型**，通常稱為 **SSAS MD**。
@@ -36,7 +36,7 @@ Power BI 服務和支援 Power BI Desktop 皆支援即時連接模式中的 **SS
 | --- | --- |
 | Cube |模型 |
 | Cube 維度 |資料表 |
-| 維度屬性 (索引鍵)、名稱 |欄位 |
+| 維度屬性 (索引鍵)、名稱 |資料行 |
 | 量值群組 |資料表 |
 | 量值 |量值 |
 | 不含相關聯量值群組的量值 |在稱為「 *量值* 」的資料表內 |
@@ -103,4 +103,4 @@ Power BI 服務和支援 Power BI Desktop 皆支援即時連接模式中的 **SS
 ## <a name="troubleshooting"></a>疑難排解 
 下列清單描述了連線至 SQL Server Analysis Services (SSAS) 時的所有已知問題。 
 
-* **錯誤: 無法載入模型結構描述** - 此錯誤通常會在沒有資料庫/Cube 存取權的使用者，於連線至 Analysis Services 時發生。
+* **錯誤：無法載入模型結構描述** - 此錯誤通常會在沒有資料庫/Cube 存取權的使用者，於連線至 Analysis Services 時發生。

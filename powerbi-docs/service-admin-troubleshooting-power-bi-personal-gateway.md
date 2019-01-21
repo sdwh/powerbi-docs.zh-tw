@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 642bd39cb9348bae2a1f30dbc9ee026e11ff7401
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145402"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284510"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Power BI Gateway - Personal 疑難排解
 以下探討使用 Power BI Gateway - Personal 時可能遇到的一些常見問題。
@@ -51,7 +51,7 @@ ms.locfileid: "37145402"
 
 **解決方案：** 在 Power BI 中，移至資料集的重新整理設定。 在 [管理資料來源] 中，針對發生錯誤的任何資料來源，按一下 [編輯認證]，然後再次登入此資料來源。
 
-**錯誤：針對此資料集提供的認證不正確。請更新重新整理過程中或在 [資料來源設定] 對話方塊中的認證以繼續。**
+**錯誤：為此資料集提供的認證不正確。請更新重新整理過程中或在 [資料來源設定] 對話方塊中的認證以繼續。**
 
 **解決方案**：如果您收到認證訊息，可能表示：
 
@@ -60,7 +60,7 @@ ms.locfileid: "37145402"
   
   這是已知問題，並且正在進行調查。 若要解決此問題，請針對雲端來源和內部部署來源使用不同的查詢，再使用合併或附加查詢加以結合。
 
-**錯誤：資料來源不受支援。**
+**錯誤：不支援的資料來源。**
 
 **解決方案：** 如果您在 [排程重新整理] 設定中看見不支援的資料來源訊息，這可能表示： 
 
@@ -71,7 +71,7 @@ ms.locfileid: "37145402"
 
 **解決方案**：這個錯誤是由於隱私權等級限制及所使用的資料來源類型所致。
 
-**錯誤：資料來源錯誤：無法將值 "\[Table\]" 轉換成類型 Table。**
+**錯誤：資料來源錯誤:無法將值 "\[Table\]" 轉換成類型 Table。**
 
 **解決方案**：這個錯誤是由於隱私權等級限制及所使用的資料來源類型所致。
 

@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 01af6707cf53f1a5be3f1e7446e967b2306e993b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717915"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287063"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>將影像、文字、視訊和其他項目新增至儀表板
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -28,7 +28,7 @@ ms.locfileid: "51717915"
 1. 從頂端功能表列選取 [新增磚]。 根據空間限制，您可能只會看到加號 ![加號](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png)。
    
     ![新增磚圖示](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
-2. 選取要新增的磚類型：**影像**、**文字方塊**、**影片**、**Web 內容**或**自訂串流資料**。
+2. 選取要加入的磚類型：[影像]、[文字方塊]、[影片]、[Web 內容] 或 [自訂串流資料]。
    
     ![新增磚視窗](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "51717915"
 ## <a name="add-a-text-box-or-dashboard-heading"></a>新增文字方塊或儀表板標題
 1. 選取 [文字方塊] > [下一步]。
    
-   > **注意**︰若要加入儀表板標題，請在文字方塊中輸入您的標題並增加字型。
+   > **注意**：若要加入儀表板標題，請在文字方塊中輸入您的標題並增加字型。
    > 
 2. 設定文字方塊的格式︰
    

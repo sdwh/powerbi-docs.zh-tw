@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 2cb8e7b6c2744f80891c5424f620b9812eee1acb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37137161"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285361"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>取得 Power BI 問題說明的 10 個祕訣
 您在使用 Power BI 時曾感到挫折嗎？或您曾在需要 Power BI 問題的解答時，因為無法即時如願而難以繼續嗎？ 
@@ -30,7 +30,7 @@ ms.locfileid: "37137161"
 Power BI 小組持續更新及改進 Power BI 文件與訓練。 您可以許多很好的內容，包括網路研討會錄影、白皮書、引導式學習，以及所有最新功能的部部落格貼文連結。
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3 閱讀 Power BI 部落格中的最新消息
-Power BI 小組會在他們的定期 [Power BI 部落格文章](https://powerbi.microsoft.com/blog/)中解說所有新功能。 您可以從中了解各項新功能，從 Power BI Desktop 到 Power BI 行動裝置應用程式的均涵蓋在內。 建議您養成每週花幾分鐘瀏覽這些部落格的習慣，時常回來看看有什麼新功能。 您永遠不會知道您什麼時候會用到您在數月前看到的資訊。
+Power BI 小組會在他們的定期 [Power BI 部落格文章](https://powerbi.microsoft.com/blog/)中解說所有新功能。 您可以從中了解各項新功能，從 Power BI Desktop 到 Power BI 行動裝置應用程式的均涵蓋在內。 請養成經常返回以查看新功能的習慣：每週都花上幾分鐘來迅速閱讀部落格。 您永遠不會知道您什麼時候會用到您在數月前看到的資訊。
 
 ## <a name="4-try-twitter"></a>4 嘗試 Twitter
 許多 Power BI 客戶及專家都在 Twitter 上。 在推文中提問。 新增主題標籤 #powerbi 和 #powerbihelp 讓知道的人可看到您的推文。

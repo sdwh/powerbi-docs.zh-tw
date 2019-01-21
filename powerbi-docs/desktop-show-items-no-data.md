@@ -5,21 +5,21 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f4c9fec65f9c006095470a8983f889d44f3ce460
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072880"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279979"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>在 Power BI 中顯示沒有資料的項目
 
-Power BI 可讓您將來自各式來源的各種資料視覺化。 建立視覺效果時，Power BI 只會顯示相關的資料以適當管理該資料的呈現及顯示方式。 Power BI 會根據視覺效果的設定及基礎資料模型，來判斷哪些資料具有關聯性。 本文說明 Power BI 在判斷相關資料時的行為，並提供範例以說明判斷的方式。
+Power BI 可讓您將來自各式來源的各種資料視覺化。 建立視覺效果時，Power BI 只會顯示相關的資料，以適當地管理該資料的呈現及顯示方式。 Power BI 會根據視覺效果的設定及基礎資料模型，來判斷哪些資料具有關聯性。 本文說明 Power BI 在判斷相關資料時的行為，並提供範例以說明判斷的方式。
 
 ![如何啟用「顯示沒有資料的項目」功能](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
@@ -65,7 +65,7 @@ Power BI 可讓您將來自各式來源的各種資料視覺化。 建立視覺�
 
 **4.來自不同且不相關之資料表的群組**
 
-我們的範例模型中沒有這個組合，但如果有來自不同且不相關資料表的群組，Power BI 將無法關聯這兩個資料行，且結果將會是每個資料行之所有值的交叉聯結。 在該情況下，Power BI 會發出 *unconstrained join* 類型的錯誤，因為計算此類交叉聯結將會在資料庫中耗用大量資源，且無法為使用者提供許多資訊。 
+範例模型沒有此組合，但如果有群組是來自不同且不相關的資料表，Power BI 就無法關聯兩個資料行。 結果會是每個資料行的值交叉聯結。 在該情況下，Power BI 會發出 *unconstrained join* 類型的錯誤，因為計算此類交叉聯結將會在資料庫中耗用大量資源，且無法為使用者提供許多資訊。 
 
 ![針對未受限制的聯結所顯示的錯誤](media/desktop-show-items-no-data/show-items-no-data_01.png)
 
@@ -76,7 +76,7 @@ Power BI 可讓您將來自各式來源的各種資料視覺化。 建立視覺�
 
 **顯示沒有資料的項目**功能便可讓您這麼做，並包含沒有量值資料 (空白量值) 的資料列和資料行。
 
-若要啟用**顯示沒有資料的項目**功能，請選取視覺效果，然後在 [欄位] 中以滑鼠右鍵按一下欄位，並從顯示的功能表中選取 [顯示沒有資料的項目]，如下圖所示。
+若要啟用**顯示沒有資料的項目**功能，請選取視覺效果，然後在 [欄位] 中以滑鼠右鍵按一下欄位，並從顯示的功能表中選取 [顯示沒有資料的項目]，如下圖所示：
 
 ![如何啟用「顯示沒有資料的項目」功能](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
@@ -193,6 +193,6 @@ Power BI 可讓您將來自各式來源的各種資料視覺化。 建立視覺�
 
 ## <a name="next-steps"></a>後續步驟
 
-本文已說明如何在 Power BI 中啟用**顯示沒有資料的項目**功能。 您可能也會對下列文章感興趣。 
+本文已說明如何在 Power BI 中啟用**顯示沒有資料的項目**功能。 您可能也會對下列文章感興趣： 
 
-* [Power BI Desktop 中的資料來源](desktop-data-sources.md)
+* [Power BI 中多維度模型的預設成員](desktop-default-member-multidimensional-models.md)

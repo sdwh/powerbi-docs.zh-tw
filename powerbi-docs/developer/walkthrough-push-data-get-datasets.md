@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 44fbf1e651c36c95694e397c64050977f3ee730a
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: f6396747dc21ddc94ab1abda6939e8e423c649e7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092544"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296173"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步驟 4：取得資料集，以便將資料列加入 Power BI 資料表
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
@@ -30,7 +30,7 @@ ms.locfileid: "37092544"
 > 
 > 
 
-1. 在＜步驟 2：推送資料的逐步解說＞所建立主控台應用程式專案的[取得驗證存取權杖](walkthrough-push-data-get-token.md)中，安裝 Newtonsoft.Json NuGet 套件。 安裝套件的方法如下：
+1. 在步驟 2：推送資料逐步解說建立的主控台應用程式專案中，[取得驗證存取權杖](walkthrough-push-data-get-token.md)，安裝 Newtonsoft.Json NuGet 套件。 安裝套件的方法如下：
    
      a. 在 Visual Studio 2015 中，選擇 **工具**  > **NuGet 套件管理員**  >  **套件管理器主控台**。
    

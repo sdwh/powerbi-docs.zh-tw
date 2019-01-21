@@ -1,20 +1,20 @@
 ---
 title: iOS 應用程式中的問與答虛擬分析師 - Power BI
 description: 請嘗試用您自己的文字，在 iOS 裝置上向 Power BI 行動裝置應用程式的問與答虛擬分析師詢問這份範例資料的相關問題。
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
-ms.author: maggies
-ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548095"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278692"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 應用程式中的問與答虛擬分析師 - Power BI
 
@@ -100,7 +100,7 @@ ms.locfileid: "46548095"
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. 點選左上角的箭號，可返回問與答虛擬分析師聊天視窗。
 8. 點選文字方塊右邊的 X 以刪除文字，然後重新開始。
-9. 嘗試新的提問︰從關鍵字點選 [top]\(頂端)，然後點選 [sale by avg $/unit ly]\(依單位平均銷售金額排序) > [傳送] ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+9. 嘗試新的提問︰從關鍵字點選 [頂端]，然後點選 [依單位平均銷售金額排序] > [傳送] ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
 10. 從關鍵字選擇 [by]\(由)，從頂端的建議清單點選 [時間] > [傳送] ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 71ed70344281dec3353b73c8698594d62ef32eae
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983362"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285591"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>在 Power BI 中色彩格式化的秘訣和訣竅
 Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 本文詳細說明一系列秘訣，讓您的 Power BI 視覺效果更吸引人、更加有趣，且視您的需求自訂。
@@ -29,41 +29,38 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 * 使用發散色階
 * 如何在 Power BI 中復原
 
-若要進行任何變更，您必須編輯報表：從 [我的工作區]  窗格選取您的 [報表]  ，然後從頂端功能表區域選取 [編輯報表]  ，如下圖所示。 此範例使用**人力資源範例**。
+若要進行任何變更，您必須正在編輯報表。 開啟報表並從上方功能表區域選取 [編輯報表]，如下圖所示。
 
-![醒目提示的 [編輯報表] 報表畫布](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
-當 [視覺效果]  窗格出現於 [報表]  畫布的右邊之後，您就已經準備好開始自訂了。
+當 [視覺效果]  窗格出現於 [報表]  畫布的右邊之後，您就已經準備好開始自訂了。 如果窗格沒有顯示，請選取右上角的箭號來開啟它。
 
-![顯示格式化窗格的報表](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>變更單一資料點的色彩
-有時候您會想要醒目顯示一個特定的資料點。 可能是新產品上市的銷售數字，或推行新計畫之後提升的品質分數。 使用 Power BI 以及大部分視覺效果類型，您可以變更特定資料點的色彩來加以醒目顯示。
+有時候您會想要醒目顯示一個特定的資料點。 可能是新產品上市的銷售數字，或推行新計畫之後提升的品質分數。 您可以使用 Power BI 來變更其色彩，進而醒目顯示特定資料點。
 
-下列視覺效果會使用預設色彩，依員工來顯示銷售毛利率。 
+下列視覺效果會依產品區段來排列單位銷售的次序。 
 
-![區域圖](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-grey.png)
 
-很難看到 Annelie 的區域，因此讓我們使用色彩來更加突顯它。 以下是步驟：
+假設您想要使用色彩來凸顯 [Convenience] \(方便\) 區段，以強調這個全新區段的良好表現。 以下是步驟：
 
-展開 [資料色彩]  區段。 下列區段隨即出現。
+展開 [資料色彩] 區段並開啟 [全部顯示] 的滑桿。 這會顯示視覺效果中每個資料項目的色彩。 當您將滑鼠停留在資料點時，會啟用捲動，讓您可以修改任何資料點。
 
-![[格式化] 下的資料色彩選取區域](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
+將 [Convenience] \(方便\) 設為橘色。 
 
-在此案例中，讓我們選取深而亮的色彩，且不同於 Valery 所使用的色彩。 依序選取 Annelie 色彩方塊中的向下箭號、[自訂色彩]，然後選擇亮藍色。
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-orange.png)
 
-![色彩選擇](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+選取之後，[Convenience] \(方便\) 資料點便成為美觀的橘色，而且肯定會凸顯出來。
 
-選取之後，Annelie 的區域便很容易與其他員工區別。 
+即使您變更了視覺效果類型，然後返回，Power BI 仍會記住您的選擇，並將 [Convenience] \(方便\) 保持為橘色。
 
-![區域圖，Annalie 的區域現在是亮藍色](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
+您可以針對視覺效果中的單一、數個或所有資料元素變更資料點的色彩。 也許您想要讓視覺效果模擬您公司的色彩。 
 
-即使您變更了視覺效果類型，然後返回，Power BI 仍會記住您的選擇，並將 [華盛頓]  保持為綠色。
-
-您也可以變更多個資料項目的資料點色彩。 在下圖中，[亞歷桑那]  為紅色，而 [華盛頓]  仍然是綠色。
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_8.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-corporate.png)
 
 有各式各樣可以用色彩變出的花樣。 在下一節，我們要來看看漸層。
 
@@ -73,16 +70,27 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 下列章節將說明不同的方式，用來依據數值設定色彩。
 
 ## <a name="base-the-color-of-data-points-on-a-value"></a>根據值設定資料點的色彩
-若要根據值變更色彩，請將您想要設定色彩的欄位拖曳到 [欄位] 窗格的 [色彩飽和度] 區域中。 在下圖中，[稅前收益] 已拖曳到 [色彩飽和度]。 如您所見，雖然 **Velo** 具有更高的**銷售毛額** (其資料行較高)，但 **Amarilla** 具有較高的**稅前收益** (其資料行的色彩飽和度更高)。
+若要根據值變更色彩，請將您想要作為色彩依據的欄位拖曳到 [欄位] 窗格的 [色彩飽和度] 區域中。 在下圖中，[%Market Share SPLY YTD] \(市場佔有率百分比 SPLY YTD\) 已被拖曳到 [色彩飽和度]。 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_9.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-color-saturation.png)
+
+然後在 [格式化] 窗格上，於 [資料色彩] 底下，決定 [%Market Share SPLY YTD] \(市場佔有率百分比 SPLY YTD\) 的值會如何變更直條圖的色彩和陰影。 在此範例中，較低的 [%Market Share] (市場佔有率百分比) 將會呈現淺藍色，而較高的值則會呈現深藍色。
+
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
+
+因此我們可以看到，雖然我們針對 [Productivity] \(生產力\) 和 [Extreme] \(極端\) 皆售出更多單位 (其直條較高)，[Moderation] \(仲裁\) 仍具有較大的 [%Market Share SPLY YTD] \(市場佔有率百分比 SPLY YTD\) (其直條色彩更加飽和)。
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-saturation.png)
 
 ## <a name="customize-the-colors-used-in-the-color-scale"></a>自訂色階中所使用的色彩
-您也可以自訂用於色階的色彩。 展開 [資料色彩]  ，並查看用來視覺化資料所使用的色彩漸層。 根據預設，資料中的最小值會對應至最不飽和的色彩，而最大值則對應至最飽和的色彩。
+您也可以自訂用於色階的色彩。 根據預設，資料中的最小值會對應至最不飽和的色彩，而最大值則對應至最飽和的色彩。 在上圖中，我們使用藍色漸層。 
 
-色彩範圍會顯示在漸層列，其中顯示的範圍介於 **最小值** 和 **最大值** 的色彩值之間， **最小值** 的色彩在左側，而 **最大值** 的色彩在右側。
+展開 [資料色彩]  ，並查看用來視覺化資料所使用的色彩漸層。 色彩範圍會顯示在漸層列，其中顯示的範圍介於 **最小值** 和 **最大值** 的色彩值之間， **最小值** 的色彩在左側，而 **最大值** 的色彩在右側。
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_10.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
 
 若要變更色階來使用不同範圍的色彩，請選取 [最小值] 或 [最大值] 旁邊的 [色彩] 下拉式清單，然後選取色彩。 下圖顯示「最大值」色彩變更為黑色，且漸層列顯示介於「最小值」與「最大值」之間的新色彩頻譜。
 

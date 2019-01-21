@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
-ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
+ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51027452"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277426"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用報表主題
 透過**報表主題**，您可以將某個色彩主題套用至整個報表，例如公司色彩、季節性色彩，或其他色彩主題。 當您套用**報表主題**時，報表中的所有視覺效果都會使用您選取之主題中的色彩。 有少數例外狀況，此文章稍後將進行說明。
@@ -87,7 +87,7 @@ ms.locfileid: "51027452"
 
 * **dataColors**：可用於 Power BI Desktop 視覺效果資料的十六進位碼色彩代碼清單。 此清單可隨您喜好包含任意數量的色彩。
 
-* **background**、**foreground** 和 **tableAccent**：應套用於各種類型視覺效果的色彩。 
+* **background**、**foreground** 和 **tableAccent**：應在各種類型視覺效果中套用的色彩。 
   - **foreground** 會套用至文字方塊的文字、KPI 目標文字、多列卡片文字、卡值文字、量測計圖說文字、垂直交叉分析篩選器項目文字，以及**資料表**和**矩陣**總計與值的文字。 
   - **background** 會套用至按鈕填滿，以及組合圖標籤背景。 這些色彩的使用方式，取決於所套用的特定視覺效果。 
   - **資料表**和**矩陣**視覺效果預設會套用這些樣式。
@@ -133,7 +133,7 @@ ms.locfileid: "51027452"
 
 或許您也想要透過使用 [主題色彩] 區段來手動設定資料點色彩。 當您套用新的報表主題時，色彩將「不會」更新。 若您想要還原為您的預設色彩，以便在套用新的報表主題時更新這些色彩，可以在 [佈景主題色彩] 調色盤中選取 [還原為預設值]。
 
-![還原為預設](media/desktop-report-themes/report-themes_9.png)
+![還原為預設值](media/desktop-report-themes/report-themes_9.png)
 
 此外，許多 [自訂視覺效果] 將不會套用至報表主題。
 
@@ -180,7 +180,7 @@ ms.locfileid: "51027452"
 
 * **name**：主題名稱，這是唯一必要的欄位。
 * **dataColors**：可用於 Power BI Desktop 視覺效果資料的十六進位碼色彩代碼清單。 此清單可隨您喜好包含任意數量的色彩。
-* **background**、**foreground** 和 **tableAccent**：應套用於各種類型視覺效果的色彩。 **前景**適用於文字方塊的文字、KPI 目標文字、多列卡片文字、卡值文字、量測計圖說文字、垂直交叉分析篩選器項目文字，以及**資料表**和**矩陣**總計與值的文字。 **background** 會套用至按鈕填滿，以及組合圖標籤背景。 這些色彩的使用方式，取決於所套用的特定視覺效果。 「資料表」和「矩陣」視覺效果預設會套用這些樣式。
+* **background**、**foreground** 和 **tableAccent**：應在各種類型視覺效果中套用的色彩。 **前景**適用於文字方塊的文字、KPI 目標文字、多列卡片文字、卡值文字、量測計圖說文字、垂直交叉分析篩選器項目文字，以及**資料表**和**矩陣**總計與值的文字。 **background** 會套用至按鈕填滿，以及組合圖標籤背景。 這些色彩的使用方式，取決於所套用的特定視覺效果。 「資料表」和「矩陣」視覺效果預設會套用這些樣式。
 
 若要建立延伸格式 JSON 檔案，並且可更詳細而細微地控制格式設定，您還需要新增 **visualStyles** 區段到 JSON 檔案中。 您要把格式特性巢狀放置在 **visualStyles** 區段。 **visualStyles** 區段看起來類似下列格式：
 
@@ -248,57 +248,57 @@ ms.locfileid: "51027452"
 
 | **cardName** |
 | --- |
-| axis: 量測計軸 |
-| breakdown: 分解 |
-| bubbles: 泡泡 |
-| calloutValue: 圖說文字值 |
-| card: 卡片 |
-| cardTitle: 卡片標題 |
-| categoryAxis: X 軸 |
-| categoryLabels: 類別標籤 |
-| columnFormatting: 欄位格式設定 |
-| columnHeaders: 資料行標頭 |
-| dataLabels: 資料標籤 |
-| fill: 填滿 |
-| fillPoint: 填滿點 |
-| forecast: 預測 |
-| general: 一般 |
-| goals: 目標 |
-| grid: 格線 |
-| header: 標頭 |
-| imageScaling: 調整 |
-| indicator: 指標 |
-| items: 項目 |
-| labels: 資料標籤 |
-| legend: 圖例 |
-| lineStyles: 圖形 |
-| mapControls: 地圖控制項 |
-| mapStyles: 地圖類型 |
-| numericInputStyle: 數值輸入 |
-| percentBarLabel： 轉換速率標籤 |
-| plotArea: 繪圖區 |
-| plotAreaShading: 對稱性陰影 |
-| ratioLine: 比率列 |
-| referenceLine: 常數列 |
-| ribbonChart: 功能區 |
-| rotation: 旋轉 |
-| rowHeaders: 標頭資料列 |
-| selection: 選取控制項 |
-| sentimentColors: 人氣色彩 |
-| shape: 圖形 |
-| slider: 滑桿 |
-| status: 色彩編碼 |
-| subTotals: 小計 |
-| target: 目標 |
-| total: 總計 |
-| trend: 趨勢線 |
-| trendline: 趨勢軸 |
-| valueAxis: Y 軸 |
-| values: 值 |
-| wordWrap: 自動換行 |
-| xAxisReferenceLine: X 軸常數列 |
-| y1AxisReferenceLine: 常數列 |
-| zoom: 縮放 |
+| axis：量測計軸 |
+| breakdown：分解 |
+| bubbles：泡泡 |
+| calloutValue：圖說文字值 |
+| card：卡片 |
+| cardTitle：卡片磚 |
+| categoryAxis：X 軸 |
+| categoryLabels：類別標籤 |
+| columnFormatting：欄位格式 |
+| columnHeaders：資料行標題 |
+| dataLabels：資料標籤 |
+| fill：填滿 |
+| fillPoint：填滿點 |
+| forecast：趨勢預測 |
+| general：一般 |
+| goals：目標 |
+| grid：格線 |
+| header：標頭 |
+| imageScaling：縮放 |
+| indicator：指標 |
+| items：項目 |
+| labels：資料標籤 |
+| legend：圖例 |
+| lineStyles：圖形 |
+| mapControls：地圖控制項 |
+| mapStyles：地圖樣式 |
+| numericInputStyle：數值輸入 |
+| percentBarLabel：轉換速率標籤 |
+| plotArea：繪圖區 |
+| plotAreaShading：對稱網底 |
+| ratioLine：比率行 |
+| referenceLine：常數線 |
+| ribbonChart：功能區 |
+| rotation：旋轉 |
+| rowHeaders：資料列標題 |
+| selection：選取控制項 |
+| sentimentColors：人氣色彩 |
+| shape：圖形 |
+| slider：滑桿 |
+| status：色彩編碼 |
+| subTotals：小計 |
+| target：目標 |
+| total：總計 |
+| trend：趨勢線 |
+| trendline：趨勢軸 |
+| valueAxis：Y 軸 |
+| values：值 |
+| wordWrap：自動換行 |
+| xAxisReferenceLine：X 軸常數線 |
+| y1AxisReferenceLine：常數線 |
+| zoom：縮放 |
 
 ### <a name="properties-within-each-card"></a>每張卡片中的屬性
 下列區段定義每張卡片中的屬性：

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maghan
-ms.openlocfilehash: c8904f3025a0a60557b1d3efb54ea6bc18c20da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 763b79b50266678a78dc956372f504f30836c4fc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507898"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292951"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>安裝 Power BI 報表伺服器的硬體和軟體需求
 此文章將列出安裝並執行 Power BI 報表伺服器的最低硬體和軟體需求。
@@ -23,10 +23,10 @@ ms.locfileid: "51507898"
 
 | 元件 | 需求 |
 | --- | --- |
-| .NET Framework |4.6<br><br>您可以從 [Windows 的 Microsoft .NET Framework 4.6 (Web 安裝程式)](http://support.microsoft.com/kb/3045560) 手動安裝 .NET Framework。<br/><br/> 如需 .NET Framework 4.6 的詳細資訊、建議和指導方針，請參閱[開發人員的 .NET Framework 部署指南](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)。<br/><br/>Windows 8.1 和 Windows Server 2012 R2 需要有 [KB2919355](http://support.microsoft.com/kb/2919355) 才能安裝 .NET Framework 4.6。 |
+| .NET Framework |4.6<br><br>您可以從 [Windows 的 Microsoft .NET Framework 4.6 (Web 安裝程式)](http://support.microsoft.com/kb/3045560) 手動安裝 .NET Framework。<br/><br/> 如需 .NET Framework 4.6 的詳細資訊、建議和指導，請參閱[開發人員的 .NET Framework 部署指南](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)。<br/><br/>Windows 8.1 和 Windows Server 2012 R2 需要有 [KB2919355](http://support.microsoft.com/kb/2919355) 才能安裝 .NET Framework 4.6。 |
 | 硬碟 |Power BI 報表伺服器至少需要 1 GB 的可用硬碟空間。<br><br>裝載報表伺服器資料庫的資料庫伺服器則需要額外的空間。 |
-| 記憶體 |**最小值：** 1 GB<br/><br/> **建議值︰** 至少 4 GB |
-| 處理器速度 |**最小值︰** x64 處理器︰1.4 GHz<br/><br/> **建議值：** 2.0 GHz 或更快 |
+| 記憶體 |**最低：** 1 GB<br/><br/> **建議︰** 至少 4 GB |
+| 處理器速度 |**最低︰** x64 處理器︰1.4 GHz<br/><br/> **建議︰** 2.0 GHz 或更快 |
 | 處理器類型 |x64 處理器︰AMD Opteron、AMD Athlon 64、具有 Intel EM64T 支援的 Intel Xeon、具有 EM64T 支援的 Intel Pentium IV |
 | 作業系統 |Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
 

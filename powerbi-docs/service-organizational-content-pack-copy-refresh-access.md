@@ -1,23 +1,23 @@
 ---
-title: 組織內容套件：存取與複製
+title: 整理有序的內容套件：存取及複製
 description: 閱讀以了解如何建立 Power BI 中組織內容套件的複本，以及對存取權疑難排解
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 37cfca811b7e60bde832396e67b246933d4e0a8e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: f42e9f69c3cdab945c0f000a0cc2ae4654d9ec9b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908409"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296102"
 ---
-# <a name="organizational-content-packs-copy-refresh-and-get-access"></a>組織內容套件︰複製、重新整理及存取
+# <a name="organizational-content-packs-copy-refresh-and-get-access"></a>整理有序的內容套件：複製、重新整理及取得存取權
 
 發行組織內容套件時，所有收件者都能看到相同的儀表板、報表、Excel 活頁簿、資料集和資料 (除非它是 SQL Server Analysis Services (SSAS) 資料來源)。  [只有內容套件建立者可以編輯和重新發佈](service-organizational-content-pack-manage-update-delete.md)內容套件。  不過，所有收件者都可以儲存隨原始內容套件存留的複本。
 
@@ -41,7 +41,7 @@ ms.locfileid: "48908409"
 這種情形可能由幾種原因所造成：
 
 * **成員資格變更**：內容套件會發佈至電子郵件通訊群組、安全性群組和[以 Office 365 為基礎的 Power BI 群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)。  如果群組已將您移除，您就不再有內容套件的存取權。
-* **散發變更**：內容套件建立者可變更散發。 例如，內容套件最初發佈至整個組織，但建立者重新將它發佈給較少的對象，而您可能不再隸屬此對象。
+* **通訊群組變更**：內容套件建立者變更通訊群組。 例如，內容套件最初發佈至整個組織，但建立者重新將它發佈給較少的對象，而您可能不再隸屬此對象。
 * **安全性設定變更**：如果儀表板和報表連接至內部部署 SSAS 資料來源，且變更了安全性設定，您對該伺服器的權限可能會遭撤銷。
 
 ## <a name="how-are-organizational-content-packs-refreshed"></a>組織內容套件如何重新整理？
