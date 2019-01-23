@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32a052ca009c613b262d5277a0fd85b186c8e148
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406745"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488906"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
@@ -197,7 +197,7 @@ ms.locfileid: "54406745"
 ***資料列層級安全性 (RLS)***
 
 * Azure Active Directory (AAD) 群組支援：使用者現在可以將 AAD 群組 (安全性群組和通訊群組清單) 指派給角色。 這樣更容易同時將數個角色指派給大型的使用者群組。
-* [根據現有 RLS 資料來測試您的 RLS 角色與報表](service-admin-rls.md#validating-the-role-within-power-bi-desktop)：我們已在 RLS 預覽新增功能，可讓您以特定角色測試您的資料集。 如此可確保角色依您的預期運作，再讓其他使用者使用您的儀表板。
+* [根據現有 RLS 資料來測試您的 RLS 角色與報表](service-admin-rls.md#validate-the-roles-within-power-bi-desktop)：我們已在 RLS 預覽新增功能，可讓您以特定角色測試您的資料集。 如此可確保角色依您的預期運作，再讓其他使用者使用您的儀表板。
 * 以直接查詢為基礎，將定義和 RLS 套用到雲端模型：您現在可以為直接查詢資料來源建立及套用 RLS 規則。
 
 ***儀表板***
