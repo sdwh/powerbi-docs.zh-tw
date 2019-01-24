@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 4b8cd79eca1711b424d772737b27400f9291cef0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4d121a469257c79e37212ab0e357bb9ee8be68ec
+ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279197"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54420778"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>快速入門：連接至 Power BI Desktop 中的資料
 
@@ -39,13 +39,13 @@ ms.locfileid: "54279197"
 
 ## <a name="connect-to-data"></a>連接到資料
 
-有了 **Power BI Desktop**，您可以連線到各種不同資料類型。 您可以連線到基本資料來源，例如 Microsoft Excel 檔案，且可以連線到包含各式各樣資料的線上服務，例如 Salesforce、Microsoft Dynamics、Azure Blob 儲存體等等。 
+有了 **Power BI Desktop**，您可以連線到各種不同資料類型。 您可以連線到基本資料來源，例如 Microsoft Excel 檔案，且可以連線到包含各式各樣資料的線上服務，例如 Salesforce、Microsoft Dynamics、Azure Blob 儲存體等等。
 
 若要連線到資料，請選取 [常用] 功能區的 [取得資料]。
 
 ![取得資料](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
-[取得資料] 視窗隨即出現，其中有各種不同的資料來源供您選擇來讓 **Power BI Desktop** 連線。 在本快速入門中，我們使用您在本文開頭*先決條件*一節的描述中所下載的 Excel 活頁簿。 
+[取得資料] 視窗隨即出現，其中有各種不同的資料來源供您選擇來讓 **Power BI Desktop** 連線。 在本快速入門中，我們使用您在本文開頭*先決條件*一節的描述中所下載的 Excel 活頁簿。
 
 ![取得資料](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
 
@@ -69,10 +69,8 @@ ms.locfileid: "54279197"
 
 這樣就大功告成了！ 您已在 **Power BI Desktop** 中連線資料及載入該資料，現在就可以查看那些資料表中所有可用的欄位。
 
-
 ## <a name="next-steps"></a>後續步驟
+
 一旦您已連線資料之後，就可利用 **Power BI Desktop** 來執行各種事項，例如建立視覺效果和報表。 請參閱下列可引導您進行的資源：
 
 * [Power BI Desktop 使用者入門指南](desktop-getting-started.md)
-
-

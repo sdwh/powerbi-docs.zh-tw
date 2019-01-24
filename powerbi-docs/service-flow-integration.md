@@ -1,7 +1,7 @@
 ---
 title: Power BI 與 Microsoft Flow 整合
 description: 了解如何建立由 Power BI 資料警示觸發的流程。
-author: mihart
+author: mgblythe
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 2d73710b9fc41a8cb6a3d8287dc939323d71f7dd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f39912f5813f67ed65afde10a0e157385e98b7b7
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289800"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406607"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 和 Power BI
 
@@ -60,7 +60,7 @@ ms.locfileid: "54289800"
    
    ![[傳送電子郵件] 畫面](media/service-flow-integration/power-bi-flow-email.png)
 
-3. 流程會建立標題及訊息，您可以保留或修改它們。 您在建立 Power BI 警示時所設定的所有值都可供您使用，您只需將游標置於灰色的醒目提示區域並選取即可。 
+3. 流程會建立標題及訊息，您可以保留或修改它們。 您在建立 Power BI 警示時設定的所有值都可供您使用，您只需將游標置於灰色的醒目提示區域並選取即可。 
 
    ![[傳送電子郵件] 畫面](media/service-flow-integration/power-bi-flow-email-default.png)
 

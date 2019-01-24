@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: f9e33e78a5cd1141a09eaf226f41a3f52aaebab7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/17/2018
+ms.openlocfilehash: cd32b644205629ce62579f5a720d486f93073dea
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284050"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394725"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -47,7 +47,7 @@ Power BI Embedded 適用於建置應用程式並想在其中內嵌視覺效果�
 
 Microsoft 的建議是，企業購買 Power BI Premium (企業級的自助雲端 BI 解決方案)，ISV 則購買 Power BI Embedded (提供雲端技術的內嵌分析元件)。 不過，客戶要購買哪個產品並不會受到限制。
 
-在某些情況下，ISV (通常規模較大) 會想要使用 P SKU，不僅在組織內獲得預先封裝 Power BI 服務的額外優勢，也能在應用程式內嵌。 某些企業可能會決定使用。 若他們只想建置企業營運應用程式並在其中內嵌分析，而不想使用預先封裝的 Power BI 服務，就可能使用 Azure 中的 A SKU。
+在某些情況下，ISV (通常規模較大) 會想要使用 P SKU，不僅在組織內獲得預先封裝 Power BI 服務的額外優勢，也能在應用程式內嵌。 有些企業只想建置企業營運應用程式並在其中內嵌分析，而不想使用預先封裝的 Power BI 服務，也可能決定使用 Azure 中的 A SKU。
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>我可以建立多少內嵌權杖？
 
@@ -59,7 +59,7 @@ Microsoft 的建議是，企業購買 Power BI Premium (企業級的自助雲端
 
 PowerBI.com 是企業解決方案，在軟體即服務供應項目中提供社群共同作業、電子郵件訂閱等多項功能
 
-Power BI Embedded 是一組可供開發人員用來在平台即服務供應項目中建立內嵌分析解決方案的 API。 若是 Embedded 分析案例，PowerBI.com 應該用來協助 ISV 和開發人員管理他們的內嵌分析解決方案內容與租用戶層級的設定。
+Power BI Embedded 是一組可供開發人員用來在平台即服務供應項目中建立內嵌分析解決方案的 API。 若是 Embedded 分析案例，PowerBI.com 可協助 ISV 和開發人員管理他們的內嵌分析解決方案內容與租用戶層級設定。
 
 以下是各項差異的部份清單。
 
@@ -106,9 +106,9 @@ Power BI Embedded 是一組可供開發人員用來在平台即服務供應項�
 
 佈建容量 (調整/繼續/建立) 可能會失敗。 佈建呼叫的呼叫端應該使用「取得詳細資料 API」來檢查容量的 ProvisioningState：[Capacities - Get Details](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails) (容量 - 取得詳細資料)。
 
-### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>為什麼我只能在特定區域中建立 PBIE？
+### <a name="can-i-only-create-power-bi-embedded-capacities-in-a-specific-region"></a>是否只能在特定區域中建立 Power BI Embedded 容量？
 
-您只能建立 PBI 租用戶區域的 PBIE 容量。
+利用[多地理位置 (預覽)](embedded-multi-geo.md) 功能，您可以在不同於 Power BI 主租用戶位置的區域中購買 [Power BI Embedded 容量](azure-pbie-create-capacity.md)
 
 ### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>如何尋找我的 PBI 租用戶區域？
 
@@ -216,7 +216,7 @@ Power BI Embedded 透過 Azure 提供。
 
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>如果我已經購買 Power BI Premium，而現在想要 Azure 中 Power BI Embedded 的某些優勢，會發生什麼情況？
 
-客戶會繼續為任何現有的 Power BI Premium 購買項目付費，直到目前合約期限結束為止，接著，如有必要，可在該時間點切換 Power BI Premium 購買項目。
+客戶會繼續為任何現有的 Power BI Premium 購買項目付費，直到目前合約期限結束為止；接著，如有必要，可在該時間點切換 Power BI Premium 購買項目。
 
 ### <a name="do-i-still-have-to-buy-power-bi-premium-to-get-access-to-power-bi-embedded"></a>我仍必須購買 Power BI Premium 才能存取 Power BI Embedded 嗎？
 
@@ -232,11 +232,11 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>誰會需要 Power BI Pro 授權以使用 Power BI Embedded？為什麼？
 
-任何需要在 Power BI 工作區新增報表的分析師、任何需要使用 REST API 的開發人員、任何需要管理 Power BI 租用戶及容量的租用戶系統管理員，都會需要 Power BI Pro 授權。
+任何需要將報表新增至 Power BI 工作區的分析師都必須有 Power BI 授權。 任何需要使用 REST API 的開發人員都需要有 Power BI Pro 授權。 任何需要管理 Power BI 租用戶和容量的租用戶系統管理員都必須有 Power BI Pro 授權。
 
 由於 Power BI Embedded 允許使用 Power BI 入口網站來管理及驗證內嵌內容，因此必須有 Power BI Pro 授權才能在 PowerBI.com 中驗證應用程式，以取得正確存放庫中的報表存取。
 
-不過，若要在自己的應用程式內 [creating/editing embedded reports](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) (建立/編輯內嵌報表)，終端使用者不需要 Pro 授權，因為其根本不需要是 Power BI 使用者。
+不過，若要在自己的應用程式內 [creating/editing embedded reports](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) (建立/編輯內嵌報表)，終端使用者不需要 Pro 授權，因為該使用者根本不需要是 Power BI 使用者。
 
 ### <a name="can-i-get-started-for-free"></a>可以免費開始使用嗎？
 
@@ -279,7 +279,7 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 
 不過，這也意謂著新功能不會新增到任何「Power BI 工作區集合」解決方案，而我們鼓勵客戶進行移轉至新 **Power BI Embedded** 解決方案的規劃。
 
-### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>何時會中止「Power BI 工作區集合」支援？
+### <a name="when-is-power-bi-workspace-collection-support-discontinued"></a>何時會中止「Power BI 工作區集合」支援？
 
 已經在使用「Power BI 工作區集合」解決方案的客戶可以繼續使用它，直到 2018 年 6 月底，或直到其支援合約終止為止。
 

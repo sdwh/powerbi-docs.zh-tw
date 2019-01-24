@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 4db2f7ca5a84563e86b3a3033daae6d83bffcf5e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 23b78ba20666d1a1d942c7a5bd59991205991bc1
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291963"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394815"
 ---
 # <a name="what-is-power-bi-report-server"></a>什麼是 Power BI 報表伺服器？
 
@@ -51,7 +51,7 @@ Power BI 報表是資料模型的多面向檢視，具有代表來自該資料�
 請安裝[已針對 Power BI 報表伺服器最佳化的 Power BI Desktop](quickstart-create-powerbi-report.md)。
 
 ## <a name="paginated-reports"></a>編頁報表
-編頁報表 (.RDL) 是含有視覺效果的文件型報表，其中資料表會以水平和垂直方式展開來顯示其所有資料，並視需要一頁接著一頁延伸下去。 它們非常適用於已針對列印進行最佳化的固定配置、完美像素文件，例如 PDF 和 Word 檔案。 
+編頁報表 (.RDL) 是含有視覺效果的文件型報表，其中資料表會以水平和垂直方式展開來顯示其所有資料，並視需要一頁接著一頁延伸下去。 它們非常適用於已針對列印進行最佳化的固定配置、像素完美文件，例如 PDF 和 Word 檔案。 
 
 ![「Power BI 報表伺服器」中的編頁報表](media/get-started/paginated-reports.png)
 

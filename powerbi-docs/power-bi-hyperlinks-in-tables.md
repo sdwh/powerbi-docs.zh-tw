@@ -1,22 +1,22 @@
 ---
 title: 將超連結新增至資料表
 description: 使用 Power BI Desktop 建立超連結。 然後使用 Desktop 或 Power BI 服務將這些超連結新增至您的報表資料表和矩陣中。
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
-ms.author: mihart
+ms.date: 01/16/2019
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 637253e3cffebcba7df0a3bc3ce44e943b909364
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 972abb3781cbaaff8a9617b70988c21f7389d4f9
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279887"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406653"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>將超連結新增至資料表
 本主題將教導您如何使用 Power BI Desktop 建立超連結。 然後使用 Desktop 或 Power BI 服務將這些超連結新增至您的報表資料表和矩陣中。 
@@ -25,7 +25,6 @@ ms.locfileid: "54279887"
 
 > [!NOTE]
 > [儀表板上的磚](service-dashboard-edit-tile.md)中的超連結和[儀表板上的文字方塊](service-dashboard-add-widget.md)可以使用 Power BI 服務即時建立。 [報表中的文字方塊](service-add-hyperlink-to-text-box.md)中的超連結可以使用 Power BI 服務和 Power BI Desktop 即時建立。
-> 
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>若要使用 Power BI Desktop 在資料表或矩陣中建立超連結
@@ -52,7 +51,7 @@ ms.locfileid: "54279887"
    
    * 選取要使用的圖表。
    * 選取油漆滾筒圖示 ![油漆滾筒圖示](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) 以開啟 [格式化] 索引標籤。
-   * 展開 [值]、找到 **URL 圖示**並將它**開啟**。
+   * 展開 [值]，找到 **URL 圖示**並將其**開啟**。
 6. (選擇性) [將報表從 Desktop 發佈到 Power BI 服務](guided-learning/publishingandsharing.yml?tutorial-step=2)，然後在 Power BI 服務中開啟報表。 超連結在該處也可以運作。
 
 ### <a name="for-data-connected-with-directquery"></a>使用 DirectQuery 連接資料

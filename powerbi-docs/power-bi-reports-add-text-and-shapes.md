@@ -1,24 +1,24 @@
 ---
 title: Power BI 報表中的文字方塊和圖形
 description: 使用 Microsoft Power BI 服務在報表中新增及建立文字方塊和圖形的文件。
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/22/2018
-ms.author: mihart
+ms.date: 01/16/2019
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 937e15f5cd56f7c720afa945598f9fc1641468f7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: cf5cecc8df5c1e6c3057cab6eb41e40e934b1510
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295527"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406538"
 ---
-# <a name="static-content-in-power-bi-reports"></a>Power BI 報表中的靜態內容
+# <a name="text-boxes-and-shapes-power-bi-reports"></a>Power BI 報表的文字方塊和圖形
 可以使用 Power BI 服務和 Power BI Desktop 將文字方塊和圖形新增至報表。 在這兩種情況下，您都必須要有報表的編輯權限。 如果報表已在 Power BI 服務中與您共用，則您將不具有編輯權限。 
 
 看看 Will 如何使用 Power BI Desktop 來[將靜態影像新增至報表](guided-learning/visualizations.yml?tutorial-step=11)，並依照影片下方的步驟，使用 Power BI 服務來嘗試完成同樣的動作。

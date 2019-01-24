@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: Conceptual
-ms.date: 12/06/2018
+ms.date: 01/17/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 28dcba5a44da4d0acd8f1b6d0a1bfce655eb46bd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e648257ecd657b07d02fbff69a3424159b636059
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280094"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394674"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>變更 Power BI 報表中的圖表排序方式
 在 Power BI 報告中，您可以依圖表類別名稱的字母順序排序大部分的視覺效果，或依每個類別的數值排序。 例如，這張圖表是依照類別**商店名稱**排序。
@@ -33,17 +33,17 @@ ms.locfileid: "54280094"
    **注意**：並非所有的視覺效果都可以排序。  例如，下列視覺效果無法排序：樹狀圖、地圖、區域分布圖、散佈圖、量測計圖、卡片、多列卡片、瀑布圖。
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>儲存您對排序次序的變更
-Power BI 報表保留篩選、交叉分析篩選器、排序和您進行的的其他資料檢視變更。 因此如果您離開報表並稍後再回來時，會儲存您的變更。  如果您想要將所做的變更還原至報表建立者的設定，請從頂端功能表列選取 [重設為預設值]。 
+Power BI 報表保留篩選、交叉分析篩選器、排序和您進行的的其他資料檢視變更。 因此如果您離開報表並稍後再回來時，會儲存您的變更。  如果您想要將所做的變更還原至報表設計師的設定，請從頂端功能表列選取 [重設為預設值]。 
 
 ![永續性排序](media/end-user-change-sort/power-bi-reset-to-default.png)
 
-但是，如果 [重設為預設值] 按鈕呈現灰色，則表示報表建立者已停用儲存 (保留) 變更的功能。
+但是，如果 [重設為預設值] 按鈕呈現灰色，則表示報表設計師已停用儲存 (保留) 變更的功能。
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>使用其他準則排序
 有時候，您會想要使用不同的欄位或其他準則來排序您的視覺效果。  例如，您可能想要依月份 (而不是字母順序) 排序，或您可以想要依整個數值而不是數字排序 (例如 0、 1、 9、 20，而不是 0、 1、 20、 9)。  
 
-在某些情況下，您可以依想要的方式排序視覺效果 (例如，依月份)。  但是，否則原因可能是報表後面的資料集需要一些變化。 要求報表建立者更新資料集。
+在某些情況下，您可以依想要的方式排序視覺效果 (例如，依月份)。  但是，否則原因可能是報表後面的資料集需要一些變化。 要求報表設計師更新資料集。
 
 ## <a name="next-steps"></a>後續步驟
 深入了解 [Power BI 報表中的視覺效果](end-user-visualizations.md)。

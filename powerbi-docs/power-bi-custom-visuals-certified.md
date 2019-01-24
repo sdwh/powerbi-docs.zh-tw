@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: bfe3421b2c2328ee65cb8f34b43b34de8fe98723
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 03b18d4d603b09d34dd3f99decc841c3bae934f4
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280209"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394849"
 ---
 # <a name="certified-custom-visuals"></a>認證的自訂視覺效果
 
@@ -74,6 +74,10 @@ Microsoft 可自行斟酌將視覺效果自[認證清單](#list-of-custom-visual
 | AppSource 的連結 | 影片的連結 |
 | --- | --- |
 | [3AG Systems - Column Chart With Relative Variance](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) (3AG Systems - 顯示相對變異數的直條圖) | |
+| [Advanced Donut Visual](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381941) (進階環圈圖視覺效果) | |
+| [Advanced Network Visualization](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381942) (進階網路圖視覺效果) | |
+| [Advanced TimeSeries Visual](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381943) (進階時間序列圖視覺效果) | |
+| [Advanced Combo Visual](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381944) (進階組合圖視覺效果) | |
 | [Aster Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) (Aster 繪圖) | |
 | [Beyondsoft Calendar](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) (Beyondsoft 行事曆) | |
 | [Bowtie Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) (MAQ Software 的蝴蝶結圖表) | [影片](https://youtu.be/So5xKMSpVJI) |
