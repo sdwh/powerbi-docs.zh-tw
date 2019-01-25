@@ -1,20 +1,21 @@
-## <a name="validating-the-role-within-power-bi-desktop"></a>在 Power BI Desktop 中驗證角色
-建立角色之後，您就可以在 Power BI Desktop 中測試角色的結果。 若要這樣做，請選取 [以角色身分檢視]。
+## <a name="validate-the-roles-within-power-bi-desktop"></a>在 Power BI Desktop 中驗證角色
+在建立角色之後，於 Power BI Desktop 中測試角色的結果。
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
+1. 選取 [以角色身分檢視] ****。 
 
-[View as roles]\ (以角色身分檢視\) 對話方塊可讓您變更正在查看的特定使用者或角色的檢視。 您可以看到自己建立的角色。
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
+    在 [以角色身分檢視] 中，您會看到您已建立的角色。
 
-選取已建立的角色，然後選取 [確定] 將該角色套用到您正在檢視的內容。 報表只會呈現與該角色相關的資料。
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
 
-您也可以選取 [其他使用者] 並提供指定的使用者。 因為 Power BI 服務會使用使用者主體名稱 (UPN)，所以建議提供該名稱。 選取 [確定]，報表就會顯示該使用者可以看到的內容。 
+3. 選取您建立的角色 > [確定] ****  來套用該角色。 報表會呈現該角色的相關資料。 
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
+4. 您也可以選取 [其他使用者] 並提供指定的使用者。 建議提供使用者主體名稱 (UPN)，原因是 Power BI 服務和 Power BI 報表伺服器都會用到。
 
-> [!NOTE]
-> 如果您使用以 DAX 運算式為基礎的動態安全性，則在 Power BI Desktop 中，這只會顯示不同的結果。
-> 
-> 
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
+
+1. 選取 [確定] **** ，報表就會呈現該使用者可以看到的內容。 
+
+如果您使用以 DAX 運算式為基礎的動態安全性，則在 Power BI Desktop 中，[其他使用者] 只會顯示不同的結果。 
 

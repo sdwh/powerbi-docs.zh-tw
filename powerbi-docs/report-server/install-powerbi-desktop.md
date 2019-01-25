@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 01/14/2019
 ms.author: maggies
-ms.openlocfilehash: 943e81c8c49a4a0707ed41b593093fc27a85a01e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1f7da83629b932d2e14fbc57682e0f7f7988739a
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295873"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488814"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 了解如何安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop。
@@ -31,7 +31,7 @@ ms.locfileid: "54295873"
 
     ![從 Web 入口網站下載 Power BI Desktop](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    或者您可以直接前往 Microsoft 下載中心的 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (已針對 Power BI 報表伺服器最佳化 - 2018 年 8 月)。
+    也可直接前往 Microsoft 下載中心的 [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (已針對 Power BI 報表伺服器最佳化 - 2019 年 1 月)。
 
 2. 在 [下載中心] 頁面上，選取 [下載]。
 
@@ -41,14 +41,14 @@ ms.locfileid: "54295873"
 
     - **PBIDesktopRS_x64.msi** (64 位元版本)。
 
-1. 下載安裝程式之後，執行 Power BI Desktop (2018 年 8 月) 安裝精靈。
+1. 下載安裝程式之後，請執行 Power BI Desktop (2019 年 1 月) 安裝精靈。
 
 2. 在安裝結束時，請核取 [立即啟動 Power BI Desktop]。
    
     其會自動啟動，一切即就緒。
 
 ## <a name="verify-you-are-using-the-correct-version"></a>驗證您使用正確的版本
-您可透過，驗證使用正確的 Power BI Desktop。查看 Power BI Desktop 內的啟動螢幕或標題列。 標題列會指出版本的發行年份和月份。
+您可透過，驗證使用正確的 Power BI Desktop。查看 Power BI Desktop 內的啟動螢幕或標題列。 標題列會指出該版本的發行年份和月份。
 
 ![針對 Power BI 報表伺服器最佳化的 Power BI Desktop 標題列](media/install-powerbi-desktop/power-bi-report-server-desktop-august-2018.png)
 

@@ -8,31 +8,47 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/16/2018
-ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/22/2019
+ms.openlocfilehash: 2a65baf94abcb79dac7bb9419ad67124f2b65bb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292445"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488929"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
 了解 Power BI 報表伺服器的新功能。 本文涵蓋主要功能範圍，並會隨著新項目發行而更新。
 
-若要下載 Power BI 報表伺服器，以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop，請移至[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)。
-
-此外，也請查看下列來源來掌握「Power BI 報表伺服器」新功能的最新動態。
-
-* [Microsoft Power BI 部落格](https://powerbi.microsoft.com/blog/)
-* [SQL Server Reporting Services 小組部落格](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* [Guy in a Cube YouTube 頻道](https://aka.ms/guyinacube)
+若要下載最新版 Power BI 報表伺服器以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop，請前往[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)。
 
 如需相關的 Power BI「新功能」資訊，請參閱︰
 
 * [Power BI 服務的新功能](../service-whats-new.md)
 * [Power BI Desktop 的新功能](../desktop-latest-update.md)
 * [Power BI 行動裝置 App 的新功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="january-2019"></a>2019 年 1 月
+
+Power BI 報表中支援下列功能：
+
+[**資料列層級安全性**](row-level-security-report-server.md)：在 Power BI 報表伺服器中設定資料列層級安全性 (RLS) 可以限制指定使用者的資料存取權。 篩選會限制資料列層級的資料存取，您可以在角色中定義篩選。
+
+[**展開及摺疊矩陣資料列標頭**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse)：我們新增了展開及摺疊個別資料列標頭的能力，這是詢問度最高的視覺效果功能。
+
+[**在 .pbix 檔案之間複製並貼上**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste)：您可以在 .pbix 檔案之間複製視覺效果，您可從視覺效果的操作功能表，也可使用標準 CTRL+C 鍵盤快速鍵來複製，然後使用 CTRL+V 鍵，貼入另一份報表。
+
+[**智慧對齊輔助線**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides)：當您在報表頁面上移動物件時，會看到智慧對齊輔助線 (如同您在 PowerPoint 中看到的一樣)，可協助您對齊頁面上的所有物件。 當您在頁面上拖曳物件或調整其大小時，都會看到智慧輔助線。 當您將某物件移近另一個物件時，它會貼齊該物件。
+
+**協助工具功能**：要列出的協助工具功能非常多，例如[欄位清單窗格協助工具支援](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 欄位清單窗格完全可供存取。 您只需要使用鍵盤和螢幕助讀程式即可瀏覽窗格，並可使用操作功能表將欄位新增到報表頁面。
+
+### <a name="administrator-settings"></a>系統管理員設定
+
+系統管理員可以在伺服器陣列的 SSMS 進階屬性中設定下列屬性：
+
+**AllowedResourceExtensionsForUpload**：設定可上傳到報表伺服器之資源的延伸模組。 內建檔案類型 (像是 &ast;.rdl 和 &ast;.pbix) 的延伸模組不需要包含在內。 預設為「&ast;、&ast;.xml、&ast;.xsd、&ast;.xsl、&ast;.png、&ast;.gif、&ast;.jpg、&ast;.tif、&ast;.jpeg、&ast;.tiff、&ast;.bmp、&ast;.pdf、&ast;.svg、&ast;.rtf、&ast;.txt、&ast;.doc、&ast;.docx、&ast;.pps、&ast;.ppt、&ast;.pptx」。 
+
+**SupportedHyperlinkSchemes**：設定允許對可轉譯超連結動作定義的 URI 配置逗點分隔清單，或設定 "&ast;" 啟用所有超連結配置。 例如，設定 “http,https” 會允許 “https://wwwcontoso.com” 的超連結， 但是會移除 “mailto:bill@contoso.com” 或 “javascript:window.open(‘www.contoso.com’, ‘_blank’)” 的超連結。 預設為 "&ast;"。
 
 ## <a name="august-2018"></a>2018 年 8 月
 
@@ -325,10 +341,10 @@ Power BI 報表伺服器現在支援新的 Power BI 資料表和矩陣視覺效�
 
 ## <a name="next-steps"></a>後續步驟
 
-[什麼是 Power BI 報表伺服器？](get-started.md) 
-[管理員手冊](admin-handbook-overview.md)  
-[安裝 Power BI 報表伺服器](install-report-server.md)  
-[下載報表產生器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下載 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+請查看下列來源掌握 Power BI 報表伺服器新功能的最新消息。
+
+* [Microsoft Power BI 部落格](https://powerbi.microsoft.com/blog/)
+* [SQL Server Reporting Services 小組部落格](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [Guy in a Cube YouTube 頻道](https://aka.ms/guyinacube)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

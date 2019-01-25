@@ -9,18 +9,41 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292010"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488860"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
 此變更記錄適用於 Power BI 報表伺服器，並列出新的項目，以及每個發行組建的 Bug 修正。
 
 如需新功能的詳細資訊，請參閱 [Power BI 報表伺服器的新增功能](whats-new.md)。 
+
+## <a name="january-2019"></a>2019 年 1 月
+- **Power BI 報表伺服器**            
+    - 版本 1.4.6960.38798 (組建 15.0.1102.222)，發行日期：2019 年 1 月 22 日
+        - 功能
+            - Power BI 報表 
+                - 支援資料列層級安全性
+                - 展開及摺疊矩陣資料列標頭
+                - 在 .pbix 檔案之間複製並貼上
+                - 智慧對齊輔助線
+                - 支援 SAP BW 2.0 連接器
+            - 系統管理員
+                - 限制可以上傳到報表伺服器之資源延伸模組的能力
+                - 限制所支援超連結配置的能力
+        - Bug 修正
+            - HTML 插入弱點
+            - 匯出成 PDF 時未顯示歐元符號
+            - 當 Power BI 報表中有多項資料來源時，儲存一個密碼會使未變更的密碼失效
+            - Power BI 行動裝置應用程式在閒置後發生視覺效果顯示問題
+
+- **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
+    - *版本：2.65.5313.1421 (2019 年 1 月)，發行日期：2019 年 1 月 22 日*
+        - 包含與 Power BI 報表伺服器連線所需的變更 (2019 年 1 月)  
 
 ## <a name="august-2018"></a>2018 年 8 月
 - **Power BI 報表伺服器**
@@ -82,7 +105,7 @@ ms.locfileid: "54292010"
             - 其他穩定性和可用性修正
 
 - **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
-    - 版本：2.56.5023.1043 (2018 年 3 月)，發行日期：2018 年 3 月 19 日
+    - 版本:2.56.5023.1043 (2018 年 3 月)，發行日期：2018 年 3 月 19 日
         - 包含與 Power BI 報表伺服器連接所需的變更 (2018 年 3 月)
 
 ## <a name="october-2017"></a>2017年 10 月
