@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 01/21/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e741076bf345f093e249b398995a72a683ae84d6
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 0b423310e88917c910d44f15247bbaec49732f2c
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394806"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838316"
 ---
 # <a name="apps-in-power-bi"></a>Power BI 的應用程式
 ## <a name="what-is-a-power-bi-app"></a>什麼是 Power BI 應用程式？
@@ -26,12 +26,14 @@ ms.locfileid: "54394806"
 
 ![Power BI 的應用程式](./media/end-user-apps/power-bi-apps-nav.png)
 
+> [!NOTE]
+> 使用應用程式功能需要有 Power BI Pro 授權。 <!-- add link to how to figure out your license -->
+
 ## <a name="app-designers-and-app-consumers"></a>應用程式「設計師」和應用程式「取用者」
 視您的角色而定，您可能是建立應用程式供自己使用，或與同事共用的人 (設計師)。 或者，您可能是接收並下載其他人所建立應用程式的人 (取用者)。 本文適用於應用程式「取用者」。
 
 ## <a name="advantages-of-apps"></a>應用程式的優點
 在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 中和您的行動裝置上，可輕鬆找到並安裝應用程式。 安裝完應用程式之後，因為所有儀表板都會集中在一個應用程式、瀏覽器或在行動裝置中，所以您不必記住許多不同儀表板的名稱。
-
 
 透過應用程式，每當應用程式作者發行更新時，您就會自動看到變更。 作者也會控制資料重新整理的排程頻率，因此您無須擔心如何將其保持在最新狀態。 
 

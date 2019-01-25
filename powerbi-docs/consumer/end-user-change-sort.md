@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: Conceptual
-ms.date: 01/17/2019
+ms.date: 01/19/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e648257ecd657b07d02fbff69a3424159b636059
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 4fd49c3279c47139a0e15fbcc4729f39b0a59b78
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394674"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838270"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>變更 Power BI 報表中的圖表排序方式
 在 Power BI 報告中，您可以依圖表類別名稱的字母順序排序大部分的視覺效果，或依每個類別的數值排序。 例如，這張圖表是依照類別**商店名稱**排序。
@@ -30,7 +30,8 @@ ms.locfileid: "54394674"
 
    ![顯示選取排序方式並選取遞增或遞減的影片](media/end-user-change-sort/sort.gif)
 
-   **注意**：並非所有的視覺效果都可以排序。  例如，下列視覺效果無法排序：樹狀圖、地圖、區域分布圖、散佈圖、量測計圖、卡片、多列卡片、瀑布圖。
+> [!NOTE]
+> 並非所有的視覺效果都可以排序。 例如，下列視覺效果無法排序：樹狀圖、地圖、區域分布圖、散佈圖、量測計圖、卡片、多列卡片、瀑布圖。
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>儲存您對排序次序的變更
 Power BI 報表保留篩選、交叉分析篩選器、排序和您進行的的其他資料檢視變更。 因此如果您離開報表並稍後再回來時，會儲存您的變更。  如果您想要將所做的變更還原至報表設計師的設定，請從頂端功能表列選取 [重設為預設值]。 

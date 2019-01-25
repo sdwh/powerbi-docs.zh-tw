@@ -1,22 +1,23 @@
 ---
 title: 什麼是 Power BI「取用者」？
-description: Power BI 概觀，以及不同的組件如何一起搭配運作 - Power BI Desktop、Power BI 服務、Power BI 行動版、報表伺服器、Power BI Embedded。
+description: Power BI 取用者 (即商務使用者，也稱為終端使用者) 概觀。
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 12/06/2018
+ms.date: 01/22/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: cd78e281fd9e16857c2a36e7e4f1f253a919c4de
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 38c2161fe0d1bb02975caa405b8047799991d8c2
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291732"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838339"
 ---
+<!-- fold this topic into existing topics -->
 # <a name="power-bi-for-consumers"></a>適用於取用者的 Power BI
 您與 Power BI 互動的方式將取決於作業角色。 身為「終端使用者」或「取用者」，您會從同事收到儀表板、報表和應用程式。 您在 ***Power BI 服務***中工作，檢閱並與此內容互動，以制定商務決策。
 
