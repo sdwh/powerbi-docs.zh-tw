@@ -23,7 +23,7 @@ ms.locfileid: "54324035"
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
 
-## <a name="december-2018"></a>2018 年 12 月
+## <a name="december-2018"></a>2018 年 12 月21
 
 ### <a name="filter-is-now-available-for-landscape-reports"></a>橫向報表現在可使用篩選 
 
@@ -308,7 +308,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 #### <a name="ios-devices"></a>iOS 裝置
 **透過問與答預覽詢問有關資料的問題** 
 
-透過問與答，您可以用自己的用語詢問資料相關問題，而 Power BI 會提供答案。 問與答已在 Power BI 服務中，位於 http://powerbi.com。 現在也[在 iPhone 或 iPad 上的行動裝置應用程式中提供](mobile-apps-ios-qna.md)。
+透過問與答，您可以用自己的用語詢問資料相關問題，而 Power BI 會提供答案。 問與答已在 Power BI 服務中，位於 [http://powerbi.com](http://powerbi.com) 。 現在也[在 iPhone 或 iPad 上的行動裝置應用程式中提供](mobile-apps-ios-qna.md)。
 
 **連線到多部 SSRS 伺服器** 
 

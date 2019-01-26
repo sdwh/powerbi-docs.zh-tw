@@ -183,7 +183,7 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
 
 ![Power BI 儀表板畫布](media/service-basic-concepts/canvas.png)
 
-如需詳細資訊，請參閱 [儀表板][](#dashboards)\(請見上方)。
+如需詳細資訊，請參閱 [[儀表板]](#dashboards)\(請見上方)。
 
 ### <a name="3-qa-question-box"></a>3.**問與答的問題方塊**
 瀏覽資料的方式之一為提問，讓 Power BI 問與答以視覺效果的形式為您解答。 [問與答] 可以用來將內容新增至儀表板或報告。
