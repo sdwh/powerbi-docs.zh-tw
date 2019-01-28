@@ -162,7 +162,7 @@ ms.locfileid: "54296631"
 
     ![「應用程式擁有資料」應用程式範例](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. 開啟範例應用程式中的 Web.config 檔案。 您需要填入五個欄位，才能成功執行應用程式。 **applicationId**、**workspaceId****reportId****pbiUsername**以及 **pbiPassword**。
+2. 開啟範例應用程式中的 Web.config 檔案。 您需要填入五個欄位，才能成功執行應用程式。 **applicationId**、**workspaceId** **reportId** **pbiUsername**以及 **pbiPassword**。
 
     ![Web 組態檔](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
