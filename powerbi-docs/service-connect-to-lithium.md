@@ -35,7 +35,7 @@ Lithium 搭起世界最佳品牌與客戶之間的信任關係，協助大眾取
 3. 選取 [Lithium] \> [取得]。
    
    ![](media/service-connect-to-lithium/lithiumconnect.png)
-4. 提供 Lithium 社群的 URL。 其格式為 *https://community.yoursite.com*。
+4. 提供 Lithium 社群的 URL。 其格式為 *https://community.yoursite.com* 。
    
    ![](media/service-connect-to-lithium/params.png)
 5. 出現提示時，輸入您的 Lithium 認證。 選取 **oAuth 2** 作為驗證機制，然後按一下 [登入]  ，並遵循 Lithium 驗證流程。

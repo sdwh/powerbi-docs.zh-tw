@@ -125,7 +125,7 @@ ms.locfileid: "54285039"
 然後，您會看到加入規則及測試指定使用者的選項。
 
 > [!NOTE]
-> 您可能會不小心變更無意更動的使用者。 例如，如果您的**取代 (原始值)** 是 @contoso.com，而您的**使用 (新名稱)** 是 @contoso.local，之後 @contoso.local 將會取代所有登入包含 @contoso.com 的使用者。 此外，如果您的**代替 (原始名稱)** 為 dave@contoso.com，而您的**使用 (新名稱)** 為 dave@contoso.local，具有 v-dave@contoso.com登入的使用者會作為 v-dave@contoso.local 傳送。
+> 您可能會不小心變更無意更動的使用者。 例如，如果您的**取代 (原始值)** 是 @contoso.com，而您的**使用 (新名稱)** 是 @contoso.local，之後 @contoso.local 將會取代所有登入包含 @contoso.com 的使用者。 此外，如果您的 **代替 (原始名稱)** 為 dave@contoso.com，而您的 **使用 (新名稱)** 為 dave@contoso.local，具有 v-dave@contoso.com登入的使用者會作為 v-dave@contoso.local 傳送。
 
 ### <a name="ad-lookup-mapping"></a>AD 查閱對應
 若要執行內部部署 AD 屬性查閱以將 AAD UPN 重新對應至 Active Directory 使用者，請遵循本節中的步驟。 若要開始，請檢閱這項作業的運作方式。
