@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 4bc704eb5aeb2bf6da18a43a6d4502b5541ce249
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287891"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899242"
 ---
 # <a name="on-premises-data-gateway"></a>內部部署資料閘道
 
@@ -96,7 +96,9 @@ ms.locfileid: "54287891"
 
 ## <a name="tenant-level-administration"></a>租用戶層級管理
 
-目前沒有單一位置可供租用戶系統管理員用來管理其他使用者已安裝並設定之所有閘道。  如果您是租用戶系統管理員，建議您要求組織中的使用者，將您以系統管理員身分新增至他們所安裝的每個閘道。 這可讓您透過 [閘道設定] 頁面或 [PowerShell 命令](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters)管理組織中的所有閘道。 
+作為租用戶系統管理員，您可以看到在租用戶內安裝的所有內部部署資料閘道並加以管理。 這項功能目前處於公開預覽階段。 如需詳細資訊，請參閱 [Power Platform 系統管理中心文件](/power-platform/admin/onpremises-data-gateway-management)。
+
+或者，如果您是租用戶系統管理員，建議您要求組織中的使用者將您以管理員身分新增至他們所安裝的每個閘道。 這可讓您透過 [閘道設定] 頁面或 [PowerShell 命令](service-gateway-high-availability-clusters.md#powershell-support-for-gateway-clusters)管理組織中的所有閘道。 
 
 ## <a name="enabling-outbound-azure-connections"></a>允許連出 Azure 連線
 
