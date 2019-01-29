@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 777e300a7870606cef5fa28f25a8da08136c7182
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: b48feeaacc5ec0beff3b9b250f22b1aa605de9f7
+ms.sourcegitcommit: 6c75e38660b1ab4c1af355c85709859ffde09e25
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54395202"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55068043"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表安裝並使用應用程式
 您現在已[基本了解應用程式](end-user-apps.md)，接下來讓我們了解如何開啟並與應用程式互動。 

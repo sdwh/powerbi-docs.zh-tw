@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/18/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 487a67f48913ee774904377956eee85ccbae49fc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 29e6fe1bfb5a85d2a5ea42db406d4a127a65ec25
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296677"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147442"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 服務中的設計工具基本概念
 
@@ -56,7 +56,7 @@ Power BI 有 4 個主要的建置組塊： **_儀表板_** 、 **_報表_** 、 
 現在，進入 Power BI 建置組塊。 儀表板或報表不能沒有資料 (確實可以有空白儀表板與空白報表，但如果當中沒有資料並沒有幫助)，因此讓我們先從 **資料集**開始。
 
 ## <a name="datasets"></a>資料集
-「資料集」是您要在其中「匯入」或「連線」的資料集合。 Power BI 可讓您連接和匯入各式各樣的資料集，並將所有資料整合到一個位置。  
+「資料集」是您要在其中「匯入」或「連接」之資料的集合。 Power BI 可讓您連接和匯入各式各樣的資料集，並將所有資料整合到一個位置。  
 
 資料集與「工作區」相關聯，而單一資料集可以是許多工作區的一部分。 當您開啟工作區時，相關聯的資料集會列在 [資料集] 索引標籤之下。每個列出的資料集代表單一來源的資料，例如 OneDrive 上的 Excel 活頁簿、內部部署的 SSAS 表格式資料集，或 Salesforce 資料集。 其支援許多不同的資料來源，同時我們會不停加入新的資料來源。 [查看可搭配 Power BI 使用的資料集類型清單](service-get-data.md).
 
@@ -223,7 +223,6 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
 
 ## <a name="next-steps"></a>後續步驟
 - [Power BI 是什麼？](power-bi-overview.md)  
-- [導覽：瀏覽 Power BI 服務](service-the-new-power-bi-experience.md)
 - [Power BI 影片](videos.md)  
 - [報告編輯器.-.進行導覽](service-the-report-editor-take-a-tour.md)
 
