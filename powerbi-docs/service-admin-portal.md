@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: d26de4b093af31ab4d8730193a501dc0d6eac2c3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2f7d43649079f63fe18bfb4316557c2b5322f204
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285851"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234454"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -130,7 +130,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ### <a name="create-workspaces-preview"></a>建立工作區 (預覽)
 
-組織中的使用者可以建立應用程式工作區來共同處理儀表板、報表及其他內容。 [深入了解](service-create-the-new-workspaces.md)
+組織中的使用者可以建立應用程式工作區，以在儀表板、報表及其他內容共同作業。 [深入了解](service-create-the-new-workspaces.md)
 
 ## <a name="export-and-sharing-settings"></a>匯出及共用設定
 
@@ -144,7 +144,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ![與外部使用者共用](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>發行至 Web
+### <a name="publish-to-web"></a>發佈至 Web
 
 組織中的使用者可以將報表發行到網路。 [深入了解](service-publish-to-web.md)
 
@@ -228,7 +228,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>使用 ArcGIS Maps for Power BI
 
-組織中的使用者可使用由 Esri 所提供的 ArcGIS Maps for Power BI 視覺效果。 [深入了解](power-bi-visualization-arcgis.md)
+組織中的使用者可使用由 Esri 所提供的 ArcGIS Maps for Power BI 視覺效果。 [深入了解](visuals/power-bi-visualization-arcgis.md)
 
 ### <a name="use-global-search-for-power-bi-preview"></a>為 Power BI 使用全域搜尋 (預覽)
 

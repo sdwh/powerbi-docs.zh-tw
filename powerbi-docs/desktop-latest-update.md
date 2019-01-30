@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 13c2742325e0cf2714d759eb1fd21ce6bcfd0187
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 03a0e3cbd2a82c0d6741694c4389a8dcf4d207d9
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291203"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234247"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新的 Power BI Desktop 中有什麼新功能？ 
 
@@ -39,7 +39,7 @@ ms.locfileid: "54291203"
 ### <a name="reporting"></a>報告
 
 * 用以對齊頁面上物件的智慧型輔助線 [[影片]](https://youtu.be/AHNlkjRFdYI?t=11) [[文章]](power-bi-reports-filters-and-highlighting.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
-* ArcGIS Maps for Power BI 更新 [[影片]](https://youtu.be/AHNlkjRFdYI?t=84) [[文章]](power-bi-visualization-arcgis.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* ArcGIS Maps for Power BI 更新 [[影片]](https://youtu.be/AHNlkjRFdYI?t=84) [[文章]](visuals/power-bi-visualization-arcgis.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
 * 欄位清單協助工具支援 [[影片]](https://youtu.be/AHNlkjRFdYI?t=464) [[文章]](desktop-report-view.md#copy-and-paste-between-reports) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
 * 為頁面上的物件設定定位順序 [[影片]](https://youtu.be/AHNlkjRFdYI?t=643) [[文章]](power-bi-reports-filters-and-highlighting.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
 * 按鈕視覺效果的工具提示 [[影片]](https://youtu.be/AHNlkjRFdYI?t=884) [[文章]](desktop-accessibility.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)
