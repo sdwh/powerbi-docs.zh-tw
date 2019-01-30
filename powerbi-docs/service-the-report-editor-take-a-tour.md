@@ -8,21 +8,21 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 70eb50c493c6828ca03b1161138e1a4f4b1fae8e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284401"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147396"
 ---
-# <a name="tour-of-the-report-editor-in-power-bi"></a>Power BI 中的報表編輯器導覽
+# <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的報表編輯器導覽
 
 Power BI 服務中的「報表編輯器」與 Power BI Desktop 中的報表編輯器類似。 下列影片將說明 Power BI Desktop 中的報表編輯器，而本文則說明 Power BI 服務中的報表編輯器。 
 
-身為報表建立者，您會建立並編輯儀表板和報表。 然後將它們散發給您的報表取用者。 報表取用者可以在 Power BI 服務的 [閱讀] 檢視中與儀表板互動，但不能加以編輯。 深入了解 [Power BI 服務 [閱讀] 檢視和 [編輯] 檢視](consumer/end-user-reading-view.md)之間的差異 
+身為報表建立者，您會建立並編輯儀表板和報表。 然後將它們散發給您的報表取用者。 報表取用者可以在 Power BI 服務的 [閱讀] 檢視中與儀表板互動，但不能加以編輯。 另請參閱 [Power BI 服務為報表取用者提供了哪些功能](consumer/end-user-reading-view.md) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -45,7 +45,7 @@ Power BI 報表編輯器有三個區段︰
 
 |  |  |
 | --- | --- |
-| ![報表編輯器窗格](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>[視覺效果] 窗格上方會指出使用中的視覺效果類型，在此範例中是群組直條圖。<br><br></li> <li>[視覺效果] 窗格下方 (必須向下捲動) 會顯示視覺效果正在使用的欄位。 這個圖表使用 FiscalMonth、DistrictManager 和總銷售額變異數。 <br><br></li><li>[篩選] 窗格 (必須向下捲動) 會顯示任何已套用的篩選條件。 <br><br></li><li>[欄位] 窗格會列出可用的資料表，如果您展開資料表的名稱時，還能看到構成該資料表的欄位。 黃色字型可讓您了解該資料表至少有一個欄位用在視覺效果中。<br><br></li><li>![油漆滾筒圖示](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) 若要顯示格式化窗格，請針對選取的視覺效果，選取油漆滾筒圖示。<br><br></li><li>![放大鏡圖示](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) 若要顯示 [分析] 窗格，請選取放大鏡圖示。</ul> |
+| ![報表編輯器窗格](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>[視覺效果] 窗格上方會指出使用中的視覺效果類型，在此範例中是群組直條圖。<br><br></li> <li>[視覺效果] 窗格下方 (必須向下捲動) 會顯示視覺效果正在使用的欄位。 這個圖表使用 FiscalMonth、DistrictManager 和總銷售額變異數。 <br><br></li><li>[篩選] 窗格 (必須向下捲動) 會顯示任何已套用的篩選條件。 <br><br></li><li>[欄位] 窗格會列出可用的資料表，如果您展開資料表的名稱時，還能看到構成該資料表的欄位。 黃色字型可讓您了解該資料表至少有一個欄位用在視覺效果中。<br><br></li><li>![油漆滾筒圖示](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) 若要顯示格式化窗格，請針對選取的視覺效果，選取油漆滾筒圖示。<br><br></li><li>![放大鏡圖示](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) 選取放大鏡圖示，即可顯示 [分析] 窗格。</ul> |
 
 ## <a name="the-visualizations-pane"></a>[視覺效果] 窗格
 ![[視覺效果] 窗格頂端](media/service-the-report-editor-take-a-tour/selectviz.png)
@@ -85,7 +85,7 @@ Power BI 報表編輯器有三個區段︰
 ## <a name="the-filters-pane"></a>[篩選] 窗格
 使用 [篩選] 窗格在頁面、報表、鑽研和視覺效果層級來檢視、設定和修改報表的持續篩選。 是的，您可以選取視覺效果項目或使用如交叉分析篩選器之類的工具，在報表頁面和視覺效果上執行隨選篩選，但使用 [篩選] 窗格會將篩選的狀態與報表一起儲存。 
 
-[篩選] 窗格還有另一項強大的功能：***使用某個欄位進行篩選，而該欄位並未用於報表的任一視覺效果中***。 讓我詳細說明。 當您建立報表頁面時，Power BI 會自動將您用於視覺效果中的所有欄位新增到 [篩選] 窗格的 [視覺效果層級] 篩選區域。  但是，如果您要使用目前並未用於視覺效果中的欄位來設定視覺效果、頁面、鑽研或報表篩選，只需將該欄位拖曳至其中一個篩選值區即可。   
+[篩選] 窗格還有另一項強大的功能 - 使用欄位進行篩選，而該欄位並未用於報表的任一視覺效果中。 讓我詳細說明。 當您建立報表頁面時，Power BI 會自動將您用於視覺效果中的所有欄位新增到 [篩選] 窗格的 [視覺效果層級] 篩選區域。  但是，如果您要使用目前並未用於視覺效果中的欄位來設定視覺效果、頁面、鑽研或報表篩選，只需將該欄位拖曳至其中一個篩選值區即可。   
 
 ![[篩選] 窗格](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -109,7 +109,7 @@ Power BI 報表編輯器有三個區段︰
 每個導出欄位都有自己的硬式編碼公式。 您無法變更計算，例如，如果是總和，就只能加總。 如需詳細資訊，請參閱[了解量值](desktop-measures.md)。
 
 ![唯一欄位圖示](media/service-the-report-editor-take-a-tour/icon.png) **唯一欄位**  
-具有這個圖示的欄位都是從 Excel 匯入並設定為顯示所有值，即使有重複項目亦然。 例如，您的資料裡可能有兩筆姓名為 'John Smith' 的記錄，但每一筆都視為唯一，不會將其加總。  
+具有這個圖示的欄位都是從 Excel 匯入並設定為顯示所有值，即使有重複項目亦然。 例如，您的資料裡可能有兩筆名為 'John Smith' 之人員的記錄，但每一筆都視為唯一，而不會將其加總。  
 
 **![地理圖示](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) 地理欄位**  
 位置欄位可用於建立地圖視覺效果。 
@@ -121,7 +121,7 @@ Power BI 報表編輯器有三個區段︰
 上方導覽列提供許多動作，且不斷加入新的動作。 如需特定動作的相關資訊，請使用 Power BI 文件目錄或 [搜尋] 方塊。
 
 ## <a name="3-the-report-canvas"></a>3.報表畫布
-報表畫布就是顯示您工作的位置。 當您使用 [欄位]、[篩選] 和 [視覺效果] 窗格來建立視覺效果時，它們就會建置並顯示在報表畫布上。 畫布底部的每個索引標籤都代表報表中的頁面。 選取索引標籤，以開啟該頁面。 
+報表畫布就是顯示您工作的位置。 當您使用 [欄位]、[篩選] 和 [視覺效果] 窗格來建立視覺效果時，它們就會建置並顯示在報表畫布上。 畫布底部的每個索引標籤在報表中各代表一個頁面。 選取索引標籤，以開啟該頁面。 
 
 ## <a name="next-steps"></a>後續步驟
 [建立報表](service-report-create-new.md)

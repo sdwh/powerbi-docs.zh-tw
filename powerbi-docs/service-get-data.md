@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a45ddbef861ad29f5823edee213b12af068d48eb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26c7c1b428f513fe2b79a3377085004506412604
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277219"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899288"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服務的資料來源
 資料是 Power BI 的核心。 每當您瀏覽資料、建立圖表與儀表板、利用問與答提出問題時，您看到的所有視覺效果與答案其實都是從資料集取得其基礎資料。 但是，該資料集又來自何處？ 來自資料來源。
@@ -29,7 +29,7 @@ ms.locfileid: "54277219"
 ## <a name="files"></a>檔案
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** (.xlsx、xlxm) - Excel 的獨特之處在於活頁簿不但可以有您自行輸入工作表的資料，您也可以使用 Power Query (Excel 2016 的 [取得和轉換]) 或 Power Pivot，從外部資料來源查詢及載入資料。 您可以匯入工作表中的資料表中的資料 (資料「必須」在資料表中)，或匯入已載入到資料模型的資料。 如需深入了解，請參閱[從 Excel 取得資料](service-get-data-from-files.md)。
+**Excel** (.xlsx、.xlxm) - Excel 的獨特之處在於活頁簿不但可以有您自行輸入工作表的資料，您也可以使用 Power Query (Excel 2016 的 [取得和轉換]) 或 Power Pivot，從外部資料來源查詢及載入資料。 您可以匯入工作表中的資料表中的資料 (資料「必須」在資料表中)，或匯入已載入到資料模型的資料。 如需深入了解，請參閱[從 Excel 取得資料](service-get-data-from-files.md)。
 
 **Power BI Desktop** (.pbix) - 您可以使用 Power BI Desktop，從外部資料來源查詢及載入資料、以量值與關聯性擴充您的資料模型，以及建立報表。 您可以將 Power BI Desktop 檔案匯入 Power BI 網站。 Power BI Desktop 最適合充分了解其資料來源、資料查詢與轉換以及資料模型化概念的更進階使用者。 如需深入了解，請參閱[連接至 Power BI Desktop 中的資料](desktop-connect-to-data.md)。
 

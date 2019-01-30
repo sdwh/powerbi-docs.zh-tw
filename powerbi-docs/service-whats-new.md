@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: ed519f920fc872c8f13d5a10d59ce0f2f531f2fc
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488906"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147557"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
 
+- Microsoft 商務應用程式集團推出的 [What's new in business intelligence October ‘18](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) (商業智慧最新功能 ‘18 年 10 月) 版本資訊：我們商務應用程式的最新更新。
 - [Power BI Desktop 的新功能](desktop-latest-update.md)  
 - [Power BI 行動裝置 App 的新功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI 小組部落格](https://powerbi.microsoft.com/blog/)
-- 來自 Dynamics 365 的 [Business Applications 2018 年春季版本資訊](http://aka.ms/businessappsreleasenotes)：我們商務應用程式的最新更新，新功能可讓您在我們的平台上建置自己的應用程式與延伸模組。 
 
-您也可以觀賞 YouTube 頻道，以取得「最新功能」和其他功能的相關資訊。
+您也可以觀看 YouTube 頻道，了解「最新功能」和其他功能的相關資訊。
 
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)

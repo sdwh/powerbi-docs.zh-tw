@@ -1,6 +1,6 @@
 ---
-title: 開始使用 Power BI 服務 (Power BI 線上)
-description: 開始使用 Power BI 線上 (app.powerbi.com)
+title: 開始使用 Power BI 服務
+description: 開始使用 Power BI 線上服務 (app.powerbi.com)
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,25 +8,25 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291967"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147488"
 ---
-# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>教學課程：開始使用 Power BI 服務 (app.powerbi.com)
-本教學課程可協助您開始使用 ***Power BI 服務***。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，強烈建議您先閱讀[什麼是 Power BI](power-bi-overview.md)。
+# <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>教學課程：開始使用 Power BI 服務 (app.powerbi.com)
+本教學課程可協助您開始使用 Power BI 服務。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，強烈建議您先參閱[什麼是 Power BI](power-bi-overview.md)。
 
-![此圖顯示 Desktop、服務與行動裝置之間的關聯性](media/service-get-started/power-bi-components.png)
+![此圖顯示 Power BI Desktop、服務與行動裝置之間的關聯性](media/service-get-started/power-bi-components.png)
 
 在本教學課程中，您完成下列步驟：
 
 > [!div class="checklist"]
-> * 尋找 Power BI 服務的其他開始使用內容
+> * 尋找 Power BI 服務的其他入門內容
 > * 登入 Power BI 線上帳戶，或在還沒有 Power BI 線上帳戶時註冊帳戶
 > * 開啟 Power BI 服務
 > * 取得一些資料，並在報表檢視中予以開啟
@@ -35,25 +35,25 @@ ms.locfileid: "54291967"
 > * 使用問與答自然語言工具將另一個視覺效果新增至儀表板
 > * 刪除資料集、報表和儀表板來清除資源
 
-## <a name="sign-up-for-power-bi-service"></a>註冊 Power BI
+## <a name="sign-up-for-the-power-bi-service"></a>註冊 Power BI 服務
 如果您尚未註冊 Power BI，請先[註冊免費 Power BI Pro 試用](https://app.powerbi.com/signupredirect?pbi_source=web)，再開始進行。
 
-如果您已有帳戶，請開啟瀏覽器，並鍵入 app.powerbi.com 以開啟 Power BI 服務。 
+如果您已經擁有帳戶，請開啟瀏覽器，並鍵入 app.powerbi.com 以開啟 Power BI 服務。 
 
 ![免費登入或註冊](media/service-get-started/power-bi-sign-up.png)
 
-如果您需要 Power BI Desktop 的協助，請參閱[開始使用 Desktop](desktop-getting-started.md). 如果您想要尋求 Power BI Mobile 的協助，請參閱[行動裝置的 Power BI 應用程式](consumer/mobile/mobile-apps-for-mobile-devices.md)。
+如果您要尋找 Power BI Desktop 的協助，請參閱[開始使用 Power BI Desktop](desktop-getting-started.md)。 如果您想要尋求 Power BI Mobile 的協助，請參閱[行動裝置的 Power BI 應用程式](consumer/mobile/mobile-apps-for-mobile-devices.md)。
 
 > [!TIP]
 > 偏好免費自修訓練課程？ [註冊在 EdX 上的資料分析與視覺化課程](http://aka.ms/edxpbi)。
 
-請瀏覽我們在 [YouTube 上的播放清單](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)。 從「Power BI 服務簡介」影片開始是很好的選擇：
+請瀏覽我們在 [YouTube 上的播放清單](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)。 「Power BI 服務簡介」是不錯的入門影片：
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-## <a name="what-is-power-bi-service"></a>什麼是 Power BI 服務？
-Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Power BI 協助您掌握關切資訊的最新狀態。  使用 Power BI 服務，***儀表板***能助您掌握商務脈動。  儀表板顯示的***磚***，可讓您按一下以開啟「報表」來進一步探索。  連接到多個***資料集***，讓所有相關資料集中到一處。 您想要了解構成 Power BI 的建置組塊嗎？  請參閱 [Power BI - 基本概念](consumer/end-user-basic-concepts.md)。
+## <a name="what-is-the-power-bi-service"></a>什麼是 Power BI 服務？
+Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Power BI 可協助您掌握最新的重要資訊。  使用 Power BI 服務，「儀表板」能助您掌握商務脈動。  儀表板顯示的***磚***，可讓您按一下以開啟「報表」來進一步探索。  連接到多個***資料集***，讓所有相關資料集中到一處。 您想要了解構成 Power BI 的建置組塊嗎？  請參閱 [Power BI - 基本概念](consumer/end-user-basic-concepts.md)。
 
 如果 Excel 或 CSV 檔案中有重要的資料，您可以建立 Power BI 儀表板在任何位置掌握其動態，並與他人交流意見。  您訂閱了 Salesforce 之類的 SaaS 應用程式嗎？  預先連線到 Salesforce 以自動從該資料建立儀表板，或[查看您可以連線的所有其他 SaaS 應用程式](service-get-data.md)。 如果您是組織的一員，請查看是否曾為您發佈過任何的[應用程式](service-create-distribute-apps.md)。
 
@@ -72,7 +72,7 @@ Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Powe
 4. 瀏覽至電腦上的檔案，然後選擇 [開啟]。 如果您在商務用 OneDrive 中儲存它，請選取該選項。 如果您在本機儲存它，請選取 [本機檔案]。 
    
    ![[取得資料] > [檔案] 畫面](media/service-get-started/gs2.png)
-5. 在本教學課程中，我們將選取 [匯入] 以將 Excel 檔案新增為資料集，接著使用該資料集來建立報表和儀表板。 如果您選取 [上傳]，整個 Excel 活頁簿會上傳至 Power BI，在其中，您可以在 Excel Online 中進行開啟和編輯。
+5. 在本教學課程中，我們會選取 [匯入] 以將 Excel 檔案新增為資料集，接著使用該資料集建立報表和儀表板。 如果您選取 [上傳]，整個 Excel 活頁簿會上傳至 Power BI，在其中，您可以在 Excel Online 中進行開啟和編輯。
    
    ![選擇 [匯入]](media/service-get-started/power-bi-import.png)
 6. 您的資料集就緒時，請選取 [檢視資料集] 以在報表編輯器中進行開啟。 
@@ -87,7 +87,7 @@ Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Powe
 
     ![[閱讀檢視] 選項](media/service-get-started/power-bi-editing-view.png)
 
-    在 [編輯檢視] 中，您可以建立和修改報告，因為您是報告的「擁有者」；您是「建立者」。 當您與同事共用您的報告時，他們只能夠在 [閱讀檢視] 中與報告互動；他們是「取用者」。 深入了解[閱讀檢視和編輯檢視](consumer/end-user-reading-view.md)。
+    因為您是報表的「擁有者」、「建立者」，所以在 [編輯檢視] 中，您可以建立和修改報表。 當您與同事共用您的報告時，他們只能夠在 [閱讀檢視] 中與報告互動；他們是「取用者」。 深入了解[閱讀檢視和編輯檢視](consumer/end-user-reading-view.md)。
     
     熟悉報表編輯器的一項好方法為[進行導覽](service-the-report-editor-take-a-tour.md)
    > 
@@ -104,11 +104,11 @@ Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Powe
    
    ![已選取圖示的報表編輯器](media/service-get-started/gettingstart5new.png)
 
-3. 這看起來很有趣，讓我們將它「釘選」到儀表板。 將滑鼠停留在視覺效果上，並選取 [釘選] 圖示。  釘選這個視覺效果時，它會儲存在儀表板上並保持最新狀態，讓您一眼就能追蹤最新的值。
+3. 這張圖表看起來很有趣，讓我們將它「釘選」到儀表板。 將滑鼠停留在視覺效果上，並選取 [釘選] 圖示。  釘選這個視覺效果時，它會儲存在儀表板上並保持最新狀態，讓您一眼就能追蹤最新的值。
    
    ![釘選圖示](media/service-get-started/pinnew.png)
 
-4. 因為這是一份新報告，系統會提示您先儲存該報告，才可將視覺效果釘選到儀表板。 為報告命名 (例如「銷售歷史數據」) 並選取 [儲存並繼續]。 
+4. 因為這是一份新報表，系統會提示您先儲存該報表，才可將視覺效果釘選到儀表板。 為報表命名 (例如「銷售歷史數據」) 並選取 [儲存並繼續]。 
    
    ![儲存報表對話方塊](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
@@ -118,7 +118,7 @@ Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Powe
    
 1. 選取 [釘選] 。
    
-    靠近右上角的成功訊息讓您知道，視覺效果已當成磚加入儀表板。
+    靠近右上角的成功訊息可讓您知道，視覺效果已新增至儀表板，成為儀表板上的磚。
    
     ![[已釘選到儀表板] 對話方塊](media/service-get-started/power-bi-pin-success.png)
 
