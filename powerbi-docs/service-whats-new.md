@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: ed519f920fc872c8f13d5a10d59ce0f2f531f2fc
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: d811ff6c68155d354df1785ae722829e1187543c
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147557"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431077"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
@@ -40,7 +40,7 @@ ms.locfileid: "55147557"
 * Power BI [報表 URL 篩選](service-url-filters.md)改進。
 
 ### <a name="july-2018"></a>2018 年 7 月
-* [永續性篩選](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)的自訂視覺效果支援。
+* [永續性篩選](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)的自訂視覺效果支援。
 * 適用於 Power BI 系統管理員的 [API 和 PowerShell Cmdlet](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/)。
 * Power BI Premium 的[多地理位置支援](service-admin-premium-multi-geo.md)。
 

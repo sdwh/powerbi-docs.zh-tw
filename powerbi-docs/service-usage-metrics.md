@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6d4148eef42f01035fde5601e3dd88b3572c8320
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292468"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430287"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>監視 Power BI 儀表板和報表的使用計量
 
@@ -159,7 +159,7 @@ ms.locfileid: "54292468"
 
 ## <a name="usage-metrics-in-national-clouds"></a>在國家/地區雲端中的使用計量
 
-Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供的安全性、隱私權、合規性及透明度等級與全球版本的 Power BI 相同，並結合了服務傳遞、資料存放、存取及控制等方面符合當地規定的獨特模型。 因此，這套專門針對當地法規而設計的獨特模型，其使用計量無法在國家地區雲端中使用。 如需詳細資訊，請參閱[國家/地區雲端](https://powerbi.microsoft.com/en-us/clouds/)。
+Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供的安全性、隱私權、合規性及透明度等級與全球版本的 Power BI 相同，並結合了服務傳遞、資料存放、存取及控制等方面符合當地規定的獨特模型。 因此，這套專門針對當地法規而設計的獨特模型，其使用計量無法在國家地區雲端中使用。 如需詳細資訊，請參閱[國家/地區雲端](https://powerbi.microsoft.com/clouds/)。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 96f91eefeab038419ce64e31c7b4b5755d6adf2c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c05dddbddc2dd19fed1bfbec25bcd9e378df543f
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286580"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430145"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>註冊 Azure AD 應用程式以內嵌 Power BI 內容
 
@@ -138,7 +138,7 @@ ms.locfileid: "54286580"
 
 ### <a name="applying-permissions-programmatically"></a>以程式設計方式套用權限
 
-1. 您必須取得租用戶內的現有服務主體 (使用者)。 如需如何執行這項作業的資訊，請參閱 [Get servicePrincipal](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/serviceprincipal_get)。
+1. 您必須取得租用戶內的現有服務主體 (使用者)。 如需如何執行這項作業的資訊，請參閱 [Get servicePrincipal](https://developer.microsoft.com/graph/docs/api-reference/beta/api/serviceprincipal_get)。
 
     您可以呼叫沒有 {id} 的 *Get servicePrincipal* API，而且它將讓您取得租用戶內的所有服務主體。
 2. 使用應用程式用戶端識別碼作為 **appId** 屬性，以檢查服務主體。

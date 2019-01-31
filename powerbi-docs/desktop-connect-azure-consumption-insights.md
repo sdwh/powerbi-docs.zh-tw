@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f6c7df80f580c40cb1c0653b237894bb5911bde0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7280d7c601e59b15ffad6ececfed8b111ab796cb
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282532"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430962"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Azure 使用深入解析
 使用 **Azure 使用深入解析**連接器，您可以使用 **Power BI Desktop** 連線到 Azure，並取得關於貴組織的 Azure 服務使用量的深入資料和相關資訊。 您也可以建立量值、自訂資料行和視覺效果，報告及共用有關貴組織 Azure 使用量的資訊。 這一版的 **Azure 使用深入解析**連接器處於搶鮮版 (Beta)，並可能有所變更。
@@ -70,7 +70,7 @@ ms.locfileid: "54282532"
 > 
 > 
 
-當您選取 [載入] 時，資料會載入到 **Power BI Desktop**。  連接器將會根據資料表的預設時間期間來載入資料。  若需要自訂時間期間，[您可以設定自訂查詢](https://docs.microsoft.com/en-us/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights)。
+當您選取 [載入] 時，資料會載入到 **Power BI Desktop**。  連接器將會根據資料表的預設時間期間來載入資料。  若需要自訂時間期間，[您可以設定自訂查詢](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights)。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 

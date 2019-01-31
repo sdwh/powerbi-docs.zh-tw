@@ -9,18 +9,18 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 2d43fe5e0248d3876f70878bbbe8a1c9b6387df7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278898"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430893"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>在 Apple Watch 的 Power BI 行動裝置應用程式中探索資料
 透過 Power BI Apple Watch 應用程式，您可以直接從手錶檢視 Power BI 儀表板的 KPI 與卡片磚。 KPI 和卡片磚最適合在小型螢幕上提供活動訊號量值。 您可以從 iPhone 或 Watch 本身重新整理儀表板。
 
 ## <a name="install-the-apple-watch-app"></a>安裝 Apple Watch 應用程式
-Power BI for iOS 應用程式與 Power BI Apple Watch 應用程式是套件組合，因此當您透過 Apple App Store [將 Power BI 應用程式下載到 iPhone](http://go.microsoft.com/fwlink/?LinkId=522062 "下載 iPhone 應用程式") 時，也會自動下載 Power BI Apple Watch 應用程式。 Apple 指南中有說明如何[安裝 Apple Watch 應用程式](https://support.apple.com/en-us/HT204784)。
+Power BI for iOS 應用程式與 Power BI Apple Watch 應用程式是套件組合，因此當您透過 Apple App Store [將 Power BI 應用程式下載到 iPhone](http://go.microsoft.com/fwlink/?LinkId=522062 "下載 iPhone 應用程式") 時，也會自動下載 Power BI Apple Watch 應用程式。 Apple 指南中有說明如何[安裝 Apple Watch 應用程式](https://support.apple.com/HT204784)。
 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>在 Apple Watch 中使用 Power BI 應用程式
 您可從手錶的 Springboard 取得 Power BI Apple Watch 應用程式，或直接按一下錶面的 Power BI Widget (若有設定的話)。
@@ -69,7 +69,7 @@ Power BI 會顯示標記，代表儀表板已與手錶同步。
 Power BI Apple Watch Widget 會緊隨資料更新時間而更新，讓您需要的資訊總是保持最新狀態。
 
 ### <a name="add-a-power-bi-widget-to-your-watch-face"></a>將 Power BI Widget 新增至錶面
-請參閱 Apple 指南的 [Customize your Apple Watch face](https://support.apple.com/en-us/HT205536) (自定 Apple Watch 錶面)。
+請參閱 Apple 指南的 [Customize your Apple Watch face](https://support.apple.com/HT205536) (自定 Apple Watch 錶面)。
 
 ### <a name="change-the-text-on-the-widget"></a>變更 Widget 的文字
 由於 Apple Watch 錶面上的空間較小，Power BI Apple Watch 應用程式可讓您變更 Widget 的標題，將其調整為適合的大小。

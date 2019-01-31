@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 474001a183540edb65d8e2b2ed4c0d6c55dc28d9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 440874b96b4bf01023c86e3ef053e8c77e9ef289
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283475"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430089"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>使用 Power BI Desktop 中的自然語言查詢問與答
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 甚至在資料回答時更為強大，這是 **Power BI Desktop** 中的問與答可讓您執行的作業。
@@ -25,7 +25,7 @@ ms.locfileid: "54283475"
 > [!NOTE]
 > 只有在使用包含**已匯入**資料的模型時，才能使用「問與答」。 不支援即時連線至 SSAS 和 DirectQuery 模型。
 >
-> 您若是使用 Windows 10 之前的 Windows 版本，必須安裝下列 C 執行階段更新，才能使用問與答。 您可以嘗試從 Windows Update 安裝重要更新，或是手動安裝 Microsoft 提供的必要元件 (KB2999226)。 [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
+> 您若是使用 Windows 10 之前的 Windows 版本，必須安裝下列 C 執行階段更新，才能使用問與答。 您可以嘗試從 Windows Update 安裝重要更新，或是手動安裝 Microsoft 提供的必要元件 (KB2999226)。 [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
 >
 >
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52f679ee143e1009068c7de1ed9ce13e82e957dc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295366"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430433"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>依視覺效果類型區分的資料點限制和策略
 
@@ -40,7 +40,7 @@ ms.locfileid: "54295366"
 ## <a name="statistics"></a>統計
 某些模型可以提供有關某些資料行之值數目的統計資料。 當有這類資訊存在時，如果視覺效果並未明確覆寫策略的值計數，我們就會運用該資訊在多個階層之間提供更好的平衡。
 
-如需詳細資訊，請參閱 [Analysis Services 的新功能](https://docs.microsoft.com/en-us/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017) \(機器翻譯\)
+如需詳細資訊，請參閱 [Analysis Services 的新功能](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017) \(機器翻譯\)
 
 ## <a name="dynamic-limits"></a>動態限制
 除了上述策略之外，具有兩個群組資料行階層 (軸和圖例，或類別和數列) 的視覺效果還會使用一個額外的策略，稱為「動態限制」。  動態限制的設計目的是要提供更好的資料點平衡。 
@@ -128,7 +128,7 @@ ms.locfileid: "54295366"
 - 值：使用一次顯示 200 個資料列的視窗進行虛擬化
 
 ### <a name="scatter-chart-high-density"></a>散佈圖 (高密度)
-請參閱[高密度散佈圖](https://docs.microsoft.com/en-us/power-bi/visuals/desktop-high-density-scatter-charts)
+請參閱[高密度散佈圖](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
 
 ### <a name="pie"></a>圓形圖
 - 點數上限：3,500

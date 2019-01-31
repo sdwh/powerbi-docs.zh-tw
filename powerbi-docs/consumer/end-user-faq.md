@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 001fab5caae7663a70b0f4d4272a1f9abbb1765e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394767"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429904"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>關於 Power BI 的常見問題集
 * 如果您有其他問題，請[嘗試詢問 Power BI 社群](http://community.powerbi.com/)。
@@ -50,7 +50,7 @@ Power BI Desktop 是免費的應用程式，使用者可直接在自己的電腦
 Power BI 不支援消費者電子郵件服務或電信提供者所提供的電子郵件地址。 深入了解 [Power BI 自助式註冊程序](../service-self-service-signup-for-power-bi.md)。
 
 ## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Power BI 有政府、學術及非營利單位適用的定價嗎？
-有。直接向 Microsoft 購買時，才會提供非營利單位適用的定價。 您可以前往 [Microsoft Nonprofits](https://www.microsoft.com/en-us/nonprofits/power-bi) 網站深入了解及註冊。 政府和學術機構定價是透過 MOSP/Direct、EA 和 Open 授權方案提供。 也提供聯合採購的政府價格。 
+有。直接向 Microsoft 購買時，才會提供非營利單位適用的定價。 您可以前往 [Microsoft Nonprofits](https://www.microsoft.com/nonprofits/power-bi) 網站深入了解及註冊。 政府和學術機構定價是透過 MOSP/Direct、EA 和 Open 授權方案提供。 也提供聯合採購的政府價格。 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI 支援行動裝置嗎？
 是。 Power BI 備有 Android 手機與平板裝置、iOS 裝置及 Windows 10 裝置的原生應用程式。 從個別的市集下載其中一種 [Power BI 行動應用程式](https://powerbi.microsoft.com/mobile)：  

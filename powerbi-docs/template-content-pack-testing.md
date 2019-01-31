@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 2ceb8440cd64b05966caaadc9346771dd28cba82
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8a5382a5e435f916599b05310f89d9b1f0327023
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281221"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430663"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>測試 Power BI 的範本內容套件
 在送出內容套件以供發行之前，您可以透過多種方式測試該內容套件。  
@@ -68,7 +68,7 @@ ms.locfileid: "54281221"
 <a name="submission"></a>
 
 ## <a name="submission"></a>送出
-透過 [Microsoft AppSource](https://appsource.microsoft.com/en-us/partners/list-an-app) 的提交程序會讓您在 PowerBI.com 的服務內容套件庫發行您的範本內容套件，以及在 [Microsoft AppSource](http://appsource.microsoft.com) 中列示您的內容套件。
+透過 [Microsoft AppSource](https://appsource.microsoft.com/partners/list-an-app) 的提交程序會讓您在 PowerBI.com 的服務內容套件庫發行您的範本內容套件，以及在 [Microsoft AppSource](http://appsource.microsoft.com) 中列示您的內容套件。
 
 ### <a name="before-submission"></a>送出前
 * 針對內容套件中的每個成品檢閱撰寫秘訣
@@ -77,7 +77,7 @@ ms.locfileid: "54281221"
 * 確定內容套件可妥善回應問與答，我們建議您在資料模型中至少測試 30 個不同的問題。 (如果您已開發自己自訂的[資料連接器](https://aka.ms/DataConnectors)，請略過此步驟。)
 
 ### <a name="submission"></a>送出
-作好提交準備後，請前往 AppSource 的[應用程式提交頁面](https://appsource.microsoft.com/en-us/partners/list-an-app)並提交您的資訊。 請務必從可用的產品清單中選取 Power BI
+作好提交準備後，請前往 AppSource 的[應用程式提交頁面](https://appsource.microsoft.com/partners/list-an-app)並提交您的資訊。 請務必從可用的產品清單中選取 Power BI
 
 Power BI 小組會檢閱您提交的內容，並與您連絡以確定所有成品都符合提交需求。 除了正在完成的項目以外，我們也會驗證提供的儀表板和報表品質，並確保其符合應用程式中所述的商務案例。
 

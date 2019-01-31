@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: 906ecdf8934899f2c16bacc07a271b4549d3c048
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a9d90737ed8a62f3791f0741bac1c9ff2b05cbb6
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292814"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431192"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -166,7 +166,7 @@ ms.locfileid: "54292814"
 
 * 您若使用 Internet Explorer 10，可能會遇到問題。 您可以參閱 [Power BI](consumer/end-user-browsers.md) 及 [Office 365](https://products.office.com/office-system-requirements#Browsers-section) 的瀏覽器支援。
 
-* [主權雲端](https://powerbi.microsoft.com/en-us/clouds/)不提供 Power BI Web 組件。
+* [主權雲端](https://powerbi.microsoft.com/clouds/)不提供 Power BI Web 組件。
 
 * 此 Web 組件不支援傳統的 SharePoint 伺服器。
 

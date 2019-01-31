@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b98d807ccc84aa83826ae5e9eecdbdd1987a91
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: ca035762f16d2e8e6c7ffb59220a2457daf10545
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008572"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430801"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>使用 Power BI 連接到 Salesforce
 您可以使用 Power BI 輕鬆地連接到您的 Salesforce.com 帳戶。 建立此連接時可擷取您的資料，並自動依據您的資料提供儀表板和相關報表。
@@ -61,10 +61,8 @@ ms.locfileid: "54008572"
 **接下來呢？**
 
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
-* [變更儀表板中的圖格](service-dashboard-edit-tile.md) <<<<<<< HEAD
-* [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表 =======
+* [變更儀表板中的圖格](service-dashboard-edit-tile.md)
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表
->>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
 * 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
 
 ## <a name="system-requirements-and-considerations"></a>系統需求和考量

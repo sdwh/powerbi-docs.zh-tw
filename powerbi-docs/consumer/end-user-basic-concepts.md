@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 660f76b5bf04f742d435df928e068e434ca70531
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281980"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430594"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI 服務「取用者」的基本概念
 
@@ -37,7 +37,7 @@ ms.locfileid: "54281980"
 ![Power BI 服務的 [歡迎使用] 畫面](media/end-user-basic-concepts/power-bi-open.png)
 
 當您使用 Power BI 時，您會將每次開啟網站時所看到的內容個人化。  例如，有些人想要將 Power BI 開啟至首頁，而有些則有想要先查看他們的最愛儀表板。 別擔心，我們將告訴您如何完成此操作。 
-- [首頁預覽](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
+- [首頁預覽](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)    
 - [設定內容作為**精選**](end-user-featured.md) 
 
 ![會顯示 [首頁] 檢視和 [儀表板] 檢視](media/end-user-basic-concepts/power-bi-first.png)

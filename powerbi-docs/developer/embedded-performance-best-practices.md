@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-embedded
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 025d843158795e7c36a5a278f2022349a9b72ca6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 50fbb175640e38431db62df34276417f1080e42a
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277150"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430342"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 效能最佳做法
 
@@ -26,7 +26,7 @@ Powerbi.embed() 方法可接收用來內嵌報表、儀表板或磚的幾個參�
 
 ### <a name="embed-url"></a>內嵌 URL
 
-請避免自行產生內嵌 URL。 反之，請務必透過呼叫[取得報表](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Freports%2Fgetreportsingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256168308&sdata=22lkqRM2w1MQfrM8dooedaPqqIU8PufTq9TT4VDzRo0%3D&reserved=0)、[取得儀表板](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Fdashboards%2Fgetdashboardsingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256168308&sdata=nfWRgbSoXVF42Rg%2Ba9491u19uksXp%2FAyz%2Fa%2Ba7%2FCtdA%3D&reserved=0)，或[取得磚](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Fdashboards%2Fgettilesingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256178318&sdata=LgZ27TynNpqQJDrb3aHWGQXIS%2FzichAO9De5M2uhF1Q%3D&reserved=0) API 來取得內嵌 URL。 我們已將名稱為 **_config_** 的新參數新增至 URL，可用來提升效能。
+請避免自行產生內嵌 URL。 反之，請務必透過呼叫[取得報表](/rest/api/power-bi/reports/getreportsingroup)、[取得儀表板](/rest/api/power-bi/dashboards/getdashboardsingroup)，或[取得磚](/rest/api/power-bi/dashboards/gettilesingroup) API 來取得內嵌 URL。 我們已將名稱為 **_config_** 的新參數新增至 URL，可用來提升效能。
 
 ### <a name="permissions"></a>權限
 
@@ -58,7 +58,7 @@ Powerbi.preload() 可下載 javascript、css 檔案和其他成品，以便稍�
 
 保持工具和 SDK 套件的最新狀態。
 
-* 請一律使用最新版本的 [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/)。
+* 請一律使用最新版本的 [Power BI Desktop](https://powerbi.microsoft.com/desktop/)。
 
 * 安裝最新版本的 [Power BI 用戶端 SDK](https://github.com/Microsoft/PowerBI-JavaScript)。 我們持續發行更多增強功能，因此請務必隨時掌握最新狀態。
 

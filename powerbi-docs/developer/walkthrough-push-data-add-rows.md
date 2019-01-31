@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/01/2018
-ms.openlocfilehash: 0337e35a67a852e1bb82209e095df4945c5de84a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 798bfbb5d1ebf127e7b958e02166dea5f1af81ef
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275287"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430480"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步驟 5：將資料列加入 Power BI 資料表
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
@@ -157,7 +157,7 @@ ms.locfileid: "54275287"
                 string resourceUri = "https://analysis.windows.net/powerbi/api";
 
                 //OAuth2 authority Uri
-                string authorityUri = "https://login.windows.net/common/oauth2/authorize";
+                string authorityUri = "https://login.microsoftonline.net/common/";
 
                 //Get access token:
                 // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

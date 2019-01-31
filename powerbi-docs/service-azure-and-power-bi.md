@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/26/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 8717e4938ef558eb4bb8c0614990b651d2b59c28
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 142096ca30422549227ddc1dc2d07e129e22e9af
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277702"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430870"
 ---
 # <a name="azure-and-power-bi"></a>Azure 和 Power BI
 
@@ -55,7 +55,7 @@ Power BI 具有各種可用的 Azure 連接，而且您可以使用這些服務�
 
 ## <a name="context-insights-with-power-bi-embedded-analytics"></a>Power BI Embedded 分析的內容相關見解
 
-在應用程式、網站、入口網站等處內嵌令人驚豔的互動式資料視覺效果，以善用您的商務資料。 使用 [Power BI Embedded 作為 Azure 中的資源](https://azure.microsoft.com/services/power-bi-embedded/)，您就能輕鬆內嵌互動式報表與儀表板，讓使用者在各裝置之間享有一致且極為逼真的體驗。  搭配內嵌分析使用的 Power BI 可協助您完成從 [資料] -> [知識] -> [深入解析] -> [動作] 的過程。  此外，您也可以在[組織的內部應用程式與入口網站](https://powerbi.microsoft.com/en-us/developers/embedded-analytics/organization/)內嵌分析，以延伸 Power BI 與 Azure 的價值。
+在應用程式、網站、入口網站等處內嵌令人驚豔的互動式資料視覺效果，以善用您的商務資料。 使用 [Power BI Embedded 作為 Azure 中的資源](https://azure.microsoft.com/services/power-bi-embedded/)，您就能輕鬆內嵌互動式報表與儀表板，讓使用者在各裝置之間享有一致且極為逼真的體驗。  搭配內嵌分析使用的 Power BI 可協助您完成從 [資料] -> [知識] -> [深入解析] -> [動作] 的過程。  此外，您也可以在[組織的內部應用程式與入口網站](https://powerbi.microsoft.com/developers/embedded-analytics/organization/)內嵌分析，以延伸 Power BI 與 Azure 的價值。
 
 在 [Power BI 開發人員入口網站](http://dev.powerbi.com)中有許多 Power BI API 的相關資訊。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e37f6f18b182851c3fc2afc2f67de0023bd46382
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7f7681529f9f1ab8883f6b38889e67b8ad5bb81e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276690"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430046"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服務中註冊美國政府組織
 **Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本專為美國政府客戶而設計，並且獨立且不同於商用版本的 **Power BI 服務**。
@@ -41,7 +41,7 @@ ms.locfileid: "54276690"
 > 應該由入口網站的系統管理員執行這些步驟。
 >
 
-1. 前往 [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government)。
+1. 前往 [https://products.office.com/government/office-365-web-services-for-government](https://products.office.com/government/office-365-web-services-for-government)。
 
 >[!NOTE]
 >如果您目前不想註冊 Government Cloud，請連絡您的業務代表。

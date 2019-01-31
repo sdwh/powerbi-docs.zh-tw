@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: 03b18d4d603b09d34dd3f99decc841c3bae934f4
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: ab8da0a7b1fb42158a399b5443bf737718e6a81f
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394849"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430410"
 ---
 # <a name="certified-custom-visuals"></a>認證的自訂視覺效果
 
@@ -73,98 +73,98 @@ Microsoft 可自行斟酌將視覺效果自[認證清單](#list-of-custom-visual
 
 | AppSource 的連結 | 影片的連結 |
 | --- | --- |
-| [3AG Systems - Column Chart With Relative Variance](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) (3AG Systems - 顯示相對變異數的直條圖) | |
-| [Advanced Donut Visual](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381941) (進階環圈圖視覺效果) | |
-| [Advanced Network Visualization](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381942) (進階網路圖視覺效果) | |
-| [Advanced TimeSeries Visual](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381943) (進階時間序列圖視覺效果) | |
-| [Advanced Combo Visual](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381944) (進階組合圖視覺效果) | |
-| [Aster Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) (Aster 繪圖) | |
-| [Beyondsoft Calendar](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) (Beyondsoft 行事曆) | |
-| [Bowtie Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) (MAQ Software 的蝴蝶結圖表) | [影片](https://youtu.be/So5xKMSpVJI) |
-| [Box and Whisker chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380831) (盒鬚圖) | |
-| [Box and Whisker chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381351) (MAQ Software 的盒鬚圖) | [影片](https://youtu.be/JoHaFLfhXdo) |
-| [Brick Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380836) (MAQ Software 的磚塊圖) | [影片](https://youtu.be/hA3DOsvn2xY) |
-| [Bubble Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381340) (Akvelon 的泡泡圖) | |
-| [重點式圖表](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380755) | [影片](https://youtu.be/AOlsFYkfkcw) |
-| [Bullet Chart by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380953) (依 OKViz 排列的重點式圖表) | [影片](https://youtu.be/mtvUNl9bMjA) |
-| [Calendar by Tallan](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381146) (Tallan 行事曆) | |
-| [Candlestick by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380952) (OKViz K 線圖) | [影片](https://youtu.be/nT_18gyRxPo) |
-| [依 OKViz 排列並隨附狀態的卡片](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380967) | |
-| [Chiclet Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380756) (Chiclet 交叉分析篩選器) | |
-| [Chord](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380761) (和弦圖) | [影片](https://youtu.be/AQvd2FhRyCI) |
-| [Circular Gauge by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380837) (MAQ Software 的圓形量測計) | [影片](https://youtu.be/9NHXALkBXuY) |
-| [Cluster Map](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380806) (叢集對應) | |
-| [Linear gauge by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380874) (MAQ Software 的圓柱量測計) | [影片](https://youtu.be/DgdoWi7Gcxo) |
-| [Dial Gauge](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381184) (標度盤量測計) | |
-| [Dot Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760) (點圖) | |
-| [Dot Plot by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380949) (OKViz 點圖) | [影片](https://youtu.be/By16pX9KT40) |
-| [Drilldown Cartogram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381045) (向下切入面積變量圖) | |
-| [Drilldown Choropleth](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381044) (向下切入面量圖) | |
-| [Drill-down column chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380857) (向下鑽研直條圖) | [影片](https://youtu.be/lBy2gQQ5YsQ) |
-| [時間型資料向下切入直條圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881) | [影片](https://youtu.be/T_mRou18vx0) |
-| [Drill-down donut chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380858) (向下切入環圈圖) | [影片](https://youtu.be/AUVFrSHmPeo) |
-| [雙重 KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380774) | |
-| [MAQ 軟體的動態工具提示](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380983) | [影片](https://youtu.be/Z-tl97BpEr0) |
-| [Enhanced Scatter](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) (增強的散佈圖) | [影片](https://youtu.be/xCfM0cjM4do) |
-| [Enlighten Aquarium](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381112) (Enlighten 水族箱) | |
-| [Enlighten Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960) (Enlighten 交叉分析篩選器) | |
-| [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) (Enlighten 隨機顯示堆疊圖) | |
-| [Enlighten Waffle Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) (Enlighten 方格比例圖) | |
-| [Filter by List (開發者：Devscope)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381413) | [影片](https://youtu.be/RetEWGwBu0I) |
-| [力導向圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) \(英文\) | [影片](https://youtu.be/YsTa7uyJ4sg) |
-| [Funnel with Source by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) (MAQ Software 的來源漏斗圖) | [影片](https://youtu.be/R_EcimsLI8U) |
-| [甘特圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [影片](https://youtu.be/qJ7s_KrGiUU) |
-| [Ring Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) (MAQ Software 상기하여 Gantt 차트) | [影片](https://youtu.be/vJLV9JRCpI8) |
-| [Globe Data Bars](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) (全球資料橫條) | |
-| [Grid by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380825) (MAQ Software 格線) | [影片](https://youtu.be/VOPoDJgZfOY) |
-| [Hierarchy Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) (Akvelon 的階層圖) | [影片](https://youtu.be/0ZGzJaq_KT4) |
-| [Histogram Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) (長條圖) | |
-| [Histogram with points by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032) (MAQ Software 的長條點狀圖) | [影片](https://youtu.be/-ILF--wExrw) |
-| [Horizontal Funnel by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380846) (MAQ Software 的水平漏斗圖) | [影片](https://youtu.be/SudZei68PPo) |
-| [Image by CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381297) (CloudScope 的影像) | |
-| [Image Grid](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) (影像方格) | |
-| [Infographic Designer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) (資訊圖設計工具) | |
-| [KPI Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) (Akvelon 的 KPI 圖) | |
-| [KPI Column by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996) (MAQ Software 的 KPI 資料行) | [影片](https://youtu.be/rU0xoOlIq1U) |
-| [KPI Grid by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380947) (MAQ Software 的 KPI 格線) | [影片](https://youtu.be/dM4PvZh71V0) |
-| [KPI 指標](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
-| [KPI Ticker by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) (MAQ Software KPI 指示器) | [影片](https://youtu.be/cudG4gsZ2V8) |
-| [Linear Gauge by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) (MAQ Software 的線性量測計) | [影片](https://youtu.be/7_jFaM30dkc) |
-| [LineDot Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766) (顯示資料點的折線圖) | |
-| [Mekko Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380785) (巧拼圖) | [影片](https://youtu.be/90FLCKpgicA) |
-| [Multi KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381763) (多個 KPI) | |
-| [Overview by CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381477) (CloudScope 的概觀) | |
-| [Play Axis (Dynamic Slicer)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) (播放軸 (動態交叉分析篩選器)) | |
-| [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [影片](https://youtu.be/IvfIP3E6-1Q) |
-| [Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) (Power KPI 矩陣) | [影片](https://youtu.be/1enze8pcGzY) |
-| [Pulse Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381006) (Pulse 圖表) | [影片](https://youtu.be/DQWdcQtjDVw) |
-| [Quadrant Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) (MAQ Software 的象限圖) | [影片](https://youtu.be/ppBnyhqWNC0) |
-| [Radar Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) (雷達圖) | |
-| [Ring Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) (MAQ Software 的環狀圖) | [影片](https://youtu.be/pDToHDFHnq8) |
-| [Rotating Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) (MAQ Software 的旋轉圖) | [影片](https://youtu.be/d5xBCMmb3hU) |
-| [Sankey Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380777) (Sankey 圖表) | [影片](https://youtu.be/WWP9wVUHGaA) |
-| [Akvelon 的散佈圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381703) | |
-| [捲軸](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
-| [Smart Filter by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) (依 OKViz 排列的智慧篩選) | [影片](https://youtu.be/gcJsDDRQq28) |
-| [Sparkline by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) (OKViz 走勢圖) | [影片](https://youtu.be/0m3Vnvso9tY) |
-| [Stream Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772) (流線圖) | |
-| [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) (放射環狀圖) | |
-| [Synoptic Panel by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380873) \(英文\) | |
-| [Table Heatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) (資料表熱度圖) | |
-| [轉速計](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [影片](https://youtu.be/C3OXdETbS9o) |
-| [Text Filter](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) (文字篩選) | |
-| [Text Wrapper by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) (MAQ Software 的文字包裝函式) | |
-| [Thermometer by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380847) (MAQ Software 的溫度計) | [影片](https://youtu.be/SPX9mgrAdBc) |
-| [Time Brush Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380798) (時間筆刷交叉分析篩選器) | |
-| [Timeline Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) (時間軸交叉分析篩選器) | [影片](https://youtu.be/ozMtZ4_NZ10) |
-| [Timeline by CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381427) (CloudScope 的時間軸) | [影片](https://youtu.be/szNi9YgXFJc) |
-| [龍捲風圖](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [影片](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
-| [Trading Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) (MAQ Software 的交易圖) | [影片](https://youtu.be/xhTR6y6J9Ko) |
-| [Ultimate Variance](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140) (終極變異數) | [影片](https://youtu.be/pDYF8iZxERs) |
-| [Ultimate Waterfall](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380956) (終極瀑布圖) | [影片](https://youtu.be/0BZsVCQdEkc) |
-| [User List by CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381426) (CloudScope 的使用者清單) | |
-| [Waffle Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381049) (方格圖表) | [影片](https://youtu.be/1vRqYUsm3Vk) |
-| [Word 雲端](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752) | [影片](https://youtu.be/AblTenl9fqo) |
+| [3AG Systems - Column Chart With Relative Variance](https://appsource.microsoft.com/product/power-bi-visuals/WA104381803) (3AG Systems - 顯示相對變異數的直條圖) | |
+| [Advanced Donut Visual](https://appsource.microsoft.com/product/power-bi-visuals/WA104381941) (進階環圈圖視覺效果) | |
+| [Advanced Network Visualization](https://appsource.microsoft.com/product/power-bi-visuals/WA104381942) (進階網路圖視覺效果) | |
+| [Advanced TimeSeries Visual](https://appsource.microsoft.com/product/power-bi-visuals/WA104381943) (進階時間序列圖視覺效果) | |
+| [Advanced Combo Visual](https://appsource.microsoft.com/product/power-bi-visuals/WA104381944) (進階組合圖視覺效果) | |
+| [Aster Plot](https://appsource.microsoft.com/product/power-bi-visuals/WA104380759) (Aster 繪圖) | |
+| [Beyondsoft Calendar](https://appsource.microsoft.com/product/power-bi-visuals/WA104381096) (Beyondsoft 行事曆) | |
+| [Bowtie Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380838) (MAQ Software 的蝴蝶結圖表) | [影片](https://youtu.be/So5xKMSpVJI) |
+| [Box and Whisker chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380831) (盒鬚圖) | |
+| [Box and Whisker chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381351) (MAQ Software 的盒鬚圖) | [影片](https://youtu.be/JoHaFLfhXdo) |
+| [Brick Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380836) (MAQ Software 的磚塊圖) | [影片](https://youtu.be/hA3DOsvn2xY) |
+| [Bubble Chart by Akvelon](https://appsource.microsoft.com/product/power-bi-visuals/WA104381340) (Akvelon 的泡泡圖) | |
+| [重點式圖表](https://appsource.microsoft.com/product/power-bi-visuals/WA104380755) | [影片](https://youtu.be/AOlsFYkfkcw) |
+| [Bullet Chart by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380953) (依 OKViz 排列的重點式圖表) | [影片](https://youtu.be/mtvUNl9bMjA) |
+| [Calendar by Tallan](https://appsource.microsoft.com/product/power-bi-visuals/WA104381146) (Tallan 行事曆) | |
+| [Candlestick by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380952) (OKViz K 線圖) | [影片](https://youtu.be/nT_18gyRxPo) |
+| [依 OKViz 排列並隨附狀態的卡片](https://appsource.microsoft.com/product/power-bi-visuals/WA104380967) | |
+| [Chiclet Slicer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380756) (Chiclet 交叉分析篩選器) | |
+| [Chord](https://appsource.microsoft.com/product/power-bi-visuals/WA104380761) (和弦圖) | [影片](https://youtu.be/AQvd2FhRyCI) |
+| [Circular Gauge by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380837) (MAQ Software 的圓形量測計) | [影片](https://youtu.be/9NHXALkBXuY) |
+| [Cluster Map](https://appsource.microsoft.com/product/power-bi-visuals/WA104380806) (叢集對應) | |
+| [Linear gauge by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380874) (MAQ Software 的圓柱量測計) | [影片](https://youtu.be/DgdoWi7Gcxo) |
+| [Dial Gauge](https://appsource.microsoft.com/product/power-bi-visuals/WA104381184) (標度盤量測計) | |
+| [Dot Plot](https://appsource.microsoft.com/product/power-bi-visuals/WA104380760) (點圖) | |
+| [Dot Plot by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380949) (OKViz 點圖) | [影片](https://youtu.be/By16pX9KT40) |
+| [Drilldown Cartogram](https://appsource.microsoft.com/product/power-bi-visuals/WA104381045) (向下切入面積變量圖) | |
+| [Drilldown Choropleth](https://appsource.microsoft.com/product/power-bi-visuals/WA104381044) (向下切入面量圖) | |
+| [Drill-down column chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380857) (向下鑽研直條圖) | [影片](https://youtu.be/lBy2gQQ5YsQ) |
+| [時間型資料向下切入直條圖](https://appsource.microsoft.com/product/power-bi-visuals/WA104380881) | [影片](https://youtu.be/T_mRou18vx0) |
+| [Drill-down donut chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380858) (向下切入環圈圖) | [影片](https://youtu.be/AUVFrSHmPeo) |
+| [雙重 KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104380774) | |
+| [MAQ 軟體的動態工具提示](https://appsource.microsoft.com/product/power-bi-visuals/WA104380983) | [影片](https://youtu.be/Z-tl97BpEr0) |
+| [Enhanced Scatter](https://appsource.microsoft.com/product/power-bi-visuals/WA104380762) (增強的散佈圖) | [影片](https://youtu.be/xCfM0cjM4do) |
+| [Enlighten Aquarium](https://appsource.microsoft.com/product/power-bi-visuals/WA104381112) (Enlighten 水族箱) | |
+| [Enlighten Slicer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380960) (Enlighten 交叉分析篩選器) | |
+| [Enlighten Stack Shuffle](https://appsource.microsoft.com/product/power-bi-visuals/WA104380849) (Enlighten 隨機顯示堆疊圖) | |
+| [Enlighten Waffle Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380850) (Enlighten 方格比例圖) | |
+| [Filter by List (開發者：Devscope)](https://appsource.microsoft.com/product/power-bi-visuals/WA104381413) | [影片](https://youtu.be/RetEWGwBu0I) |
+| [力導向圖](https://appsource.microsoft.com/product/power-bi-visuals/WA104380764) \(英文\) | [影片](https://youtu.be/YsTa7uyJ4sg) |
+| [Funnel with Source by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381334) (MAQ Software 的來源漏斗圖) | [影片](https://youtu.be/R_EcimsLI8U) |
+| [甘特圖](https://appsource.microsoft.com/product/power-bi-visuals/WA104380765) | [影片](https://youtu.be/qJ7s_KrGiUU) |
+| [Ring Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381364) (MAQ Software 상기하여 Gantt 차트) | [影片](https://youtu.be/vJLV9JRCpI8) |
+| [Globe Data Bars](https://appsource.microsoft.com/product/power-bi-visuals/WA104381344) (全球資料橫條) | |
+| [Grid by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380825) (MAQ Software 格線) | [影片](https://youtu.be/VOPoDJgZfOY) |
+| [Hierarchy Chart by Akvelon](https://appsource.microsoft.com/product/power-bi-visuals/WA104381333) (Akvelon 的階層圖) | [影片](https://youtu.be/0ZGzJaq_KT4) |
+| [Histogram Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380776) (長條圖) | |
+| [Histogram with points by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381032) (MAQ Software 的長條點狀圖) | [影片](https://youtu.be/-ILF--wExrw) |
+| [Horizontal Funnel by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380846) (MAQ Software 的水平漏斗圖) | [影片](https://youtu.be/SudZei68PPo) |
+| [Image by CloudScope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381297) (CloudScope 的影像) | |
+| [Image Grid](https://appsource.microsoft.com/product/power-bi-visuals/WA104381355) (影像方格) | |
+| [Infographic Designer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380898) (資訊圖設計工具) | |
+| [KPI Chart by Akvelon](https://appsource.microsoft.com/product/power-bi-visuals/WA104381432) (Akvelon 的 KPI 圖) | |
+| [KPI Column by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380996) (MAQ Software 的 KPI 資料行) | [影片](https://youtu.be/rU0xoOlIq1U) |
+| [KPI Grid by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380947) (MAQ Software 的 KPI 格線) | [影片](https://youtu.be/dM4PvZh71V0) |
+| [KPI 指標](https://appsource.microsoft.com/product/power-bi-visuals/WA104380832) | |
+| [KPI Ticker by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380946) (MAQ Software KPI 指示器) | [影片](https://youtu.be/cudG4gsZ2V8) |
+| [Linear Gauge by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380821) (MAQ Software 的線性量測計) | [影片](https://youtu.be/7_jFaM30dkc) |
+| [LineDot Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380766) (顯示資料點的折線圖) | |
+| [Mekko Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380785) (巧拼圖) | [影片](https://youtu.be/90FLCKpgicA) |
+| [Multi KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381763) (多個 KPI) | |
+| [Overview by CloudScope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381477) (CloudScope 的概觀) | |
+| [Play Axis (Dynamic Slicer)](https://appsource.microsoft.com/product/power-bi-visuals/WA104380981) (播放軸 (動態交叉分析篩選器)) | |
+| [Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083) | [影片](https://youtu.be/IvfIP3E6-1Q) |
+| [Power KPI Matrix](https://appsource.microsoft.com/product/power-bi-visuals/WA104381299) (Power KPI 矩陣) | [影片](https://youtu.be/1enze8pcGzY) |
+| [Pulse Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104381006) (Pulse 圖表) | [影片](https://youtu.be/DQWdcQtjDVw) |
+| [Quadrant Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381011) (MAQ Software 的象限圖) | [影片](https://youtu.be/ppBnyhqWNC0) |
+| [Radar Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380771) (雷達圖) | |
+| [Ring Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380824) (MAQ Software 的環狀圖) | [影片](https://youtu.be/pDToHDFHnq8) |
+| [Rotating Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381007) (MAQ Software 的旋轉圖) | [影片](https://youtu.be/d5xBCMmb3hU) |
+| [Sankey Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380777) (Sankey 圖表) | [影片](https://youtu.be/WWP9wVUHGaA) |
+| [Akvelon 的散佈圖](https://appsource.microsoft.com/product/power-bi-visuals/WA104381703) | |
+| [捲軸](https://appsource.microsoft.com/product/power-bi-visuals/WA104381018) | |
+| [Smart Filter by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380859) (依 OKViz 排列的智慧篩選) | [影片](https://youtu.be/gcJsDDRQq28) |
+| [Sparkline by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910) (OKViz 走勢圖) | [影片](https://youtu.be/0m3Vnvso9tY) |
+| [Stream Graph](https://appsource.microsoft.com/product/power-bi-visuals/WA104380772) (流線圖) | |
+| [Sunburst](https://appsource.microsoft.com/product/power-bi-visuals/WA104380767) (放射環狀圖) | |
+| [Synoptic Panel by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380873) \(英文\) | |
+| [Table Heatmap](https://appsource.microsoft.com/product/power-bi-visuals/WA104380818) (資料表熱度圖) | |
+| [轉速計](https://appsource.microsoft.com/product/power-bi-visuals/WA104380937) | [影片](https://youtu.be/C3OXdETbS9o) |
+| [Text Filter](https://appsource.microsoft.com/product/power-bi-visuals/WA104381309) (文字篩選) | |
+| [Text Wrapper by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380826) (MAQ Software 的文字包裝函式) | |
+| [Thermometer by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380847) (MAQ Software 的溫度計) | [影片](https://youtu.be/SPX9mgrAdBc) |
+| [Time Brush Slicer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380798) (時間筆刷交叉分析篩選器) | |
+| [Timeline Slicer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380786) (時間軸交叉分析篩選器) | [影片](https://youtu.be/ozMtZ4_NZ10) |
+| [Timeline by CloudScope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381427) (CloudScope 的時間軸) | [影片](https://youtu.be/szNi9YgXFJc) |
+| [龍捲風圖](https://appsource.microsoft.com/product/power-bi-visuals/WA104380768) | [影片](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
+| [Trading Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380823) (MAQ Software 的交易圖) | [影片](https://youtu.be/xhTR6y6J9Ko) |
+| [Ultimate Variance](https://appsource.microsoft.com/product/power-bi-visuals/WA104381140) (終極變異數) | [影片](https://youtu.be/pDYF8iZxERs) |
+| [Ultimate Waterfall](https://appsource.microsoft.com/product/power-bi-visuals/WA104380956) (終極瀑布圖) | [影片](https://youtu.be/0BZsVCQdEkc) |
+| [User List by CloudScope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381426) (CloudScope 的使用者清單) | |
+| [Waffle Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049) (方格圖表) | [影片](https://youtu.be/1vRqYUsm3Vk) |
+| [Word 雲端](https://appsource.microsoft.com/product/power-bi-visuals/WA104380752) | [影片](https://youtu.be/AblTenl9fqo) |
 
 ## <a name="next-steps"></a>後續步驟
 

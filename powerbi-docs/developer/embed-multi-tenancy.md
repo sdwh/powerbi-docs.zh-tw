@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: d09312ecf462e557ef33851d9d2b1f91ec936dae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7bb805877cf2e7453148d667f863cbbc8b01ee52
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289202"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430709"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 內嵌式分析管理多租用戶
 
@@ -29,7 +29,7 @@ ms.locfileid: "54289202"
 
 ## <a name="concepts-and-terminology"></a>概念和術語
 
-**[AAD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)** - Azure Active Directory。
+**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)** - Azure Active Directory。
 
 **AAD 應用程式** - AAD 中的應用程式識別。 需要 AAD 應用程式才可驗證。
 
@@ -105,7 +105,7 @@ Power BI Embedded 支援多地理位置部署 (預覽功能)。 [Multi-Geo](embe
 
 ### <a name="cost"></a>成本
 
-[Power BI Embedded](https://azure.microsoft.com/en-us/services/power-bi-embedded/) 具有以資源為基礎的購買模型，像是 **Power BI Premium**。 您購買一或多個具有固定運算能力和記憶體的容量。 使用 **Power BI Embedded** 時，此容量是主要成本項目。 使用容量的使用者數目沒有限制。 唯一的限制是容量的效能。 每個*主要*使用者或需要存取 Power BI 入口網站的特定使用者都需要 [Power BI Pro 授權](../service-admin-licensing-organization.md)。
+[Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/) 具有以資源為基礎的購買模型，像是 **Power BI Premium**。 您購買一或多個具有固定運算能力和記憶體的容量。 使用 **Power BI Embedded** 時，此容量是主要成本項目。 使用容量的使用者數目沒有限制。 唯一的限制是容量的效能。 每個*主要*使用者或需要存取 Power BI 入口網站的特定使用者都需要 [Power BI Pro 授權](../service-admin-licensing-organization.md)。
 
 我們建議您透過模擬實際環境和使用方式來測試和測量容量的預期負載，並對容量進行負載測試。 您可以使用 Azure 容量或[進階容量計量應用程式](../service-admin-premium-monitor-capacity.md)中提供的各種計量來測量負載和效能。
 
@@ -132,17 +132,17 @@ SaaS 應用程式有兩種方法，讓使用者能夠編輯和建立報告，或
 
 如果 SaaS 應用程式存放區為每個租用戶保留個別的資料庫，那麼自然的選擇是在 Power BI 中使用單一租用戶的資料集，並為每個指向相符資料庫的資料集使用連接字串。
 
-如果 SaaS 應用程式存放區為所有租用戶使用多租用戶資料庫，則可以輕鬆地依工作區區隔租用戶。 您可以使用僅擷取相關租用戶資料的參數化資料庫查詢，設定 Power BI 資料集的資料庫連線。 您可以使用 [Power BI Desktop](../desktop-query-overview.md) 或使用查詢時具有[參數](https://docs.microsoft.com/en-us/rest/api/power-bi/datasets/updateparametersingroup)的 [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) 來更新連接。
+如果 SaaS 應用程式存放區為所有租用戶使用多租用戶資料庫，則可以輕鬆地依工作區區隔租用戶。 您可以使用僅擷取相關租用戶資料的參數化資料庫查詢，設定 Power BI 資料集的資料庫連線。 您可以使用 [Power BI Desktop](../desktop-query-overview.md) 或使用查詢時具有[參數](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)的 [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) 來更新連接。
 
 ### <a name="data-isolation"></a>資料隔離
 
-此租用模型中的資料在工作區層級區隔。 工作區和租用戶之間的簡單對應可防止一個租用戶的使用者看到來自另一個租用戶的內容。 使用單一*主要*使用者要求您可以存取所有不同的工作區。 針對使用者要顯示那些資料的設定是在[產生內嵌權杖](https://docs.microsoft.com/en-us/rest/api/power-bi/embedtoken)期間所定義 (使用者無法查看或變更的僅限後端程序)。
+此租用模型中的資料在工作區層級區隔。 工作區和租用戶之間的簡單對應可防止一個租用戶的使用者看到來自另一個租用戶的內容。 使用單一*主要*使用者要求您可以存取所有不同的工作區。 針對使用者要顯示那些資料的設定是在[產生內嵌權杖](https://docs.microsoft.com/rest/api/power-bi/embedtoken)期間所定義 (使用者無法查看或變更的僅限後端程序)。
 
 若要新增額外的隔離，應用程式開發人員可以為每個工作區定義*主要*使用者或應用程式，而不是可以存取多個工作區的單一*主要*使用者或應用程式。 如此一來，您可以確保任何人為錯誤或認證洩漏不會導致公開多個客戶的資料。
 
 ### <a name="scalability"></a>延展性
 
-此模型的一個優點是將資料分成每個租用戶的多個資料集，克服了[單一資料集的大小限制](https://docs.microsoft.com/en-us/power-bi/service-premium-large-datasets) (目前容量為 10 GB)。 當容量過載時，[它可以收回未使用的資料集](../service-premium-understand-how-it-works.md)以釋放使用中資料集的記憶體。 單一的大型資料集無法執行這項工作。 如果需要，還可以使用多個資料集將租用戶分成多個 Power BI 容量。 [深入了解容量如何運作](../service-admin-premium-manage.md)。
+此模型的一個優點是將資料分成每個租用戶的多個資料集，克服了[單一資料集的大小限制](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (目前容量為 10 GB)。 當容量過載時，[它可以收回未使用的資料集](../service-premium-understand-how-it-works.md)以釋放使用中資料集的記憶體。 單一的大型資料集無法執行這項工作。 如果需要，還可以使用多個資料集將租用戶分成多個 Power BI 容量。 [深入了解容量如何運作](../service-admin-premium-manage.md)。
 
 儘管有這些優點，其中必須考慮 SaaS 應用程式未來可以達到的規模。 例如，人員可能會達到可以管理之成品數目的限制。 如需詳細資料，請參閱本文稍後的[部署限制](#summary-comparison-of-the-different-approaches)。 使用的 SKU 容量限制了資料集需要適應的記憶體大小、[可以同時執行多少次重新整理](../service-premium-understand-how-it-works.md)，以及資料重新整理的最高頻率。 建議您在管理數百或數千個資料集時進行測試。 也建議您考慮平均值和尖峰使用量，以及使用大型資料集或不同使用模式的任何特定租用戶，其管理方式不同於其他租用戶。
 

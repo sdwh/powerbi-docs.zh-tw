@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 11/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d48384be3c581eb25cde7019882ad2f44995ca99
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3d197da63be256825efc44c9e97988648d049efa
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279956"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430732"
 ---
 # <a name="kpi-visuals"></a>KPI 視覺效果
 關鍵效能指標 (KPI) 是一種視覺提示，指出對於可測量目標已達成的進度。 如需 KPI 的詳細資訊，請參閱 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)
@@ -24,7 +24,7 @@ ms.locfileid: "54279956"
 如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
 
 ## <a name="prerequisites"></a>先決條件
-* [Power BI Desktop - 免費！](https://powerbi.microsoft.com/en-us/get-started/)
+* [Power BI Desktop - 免費！](https://powerbi.microsoft.com/get-started/)
 * [零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 ## <a name="when-to-use-a-kpi"></a>使用 KPI 的時機

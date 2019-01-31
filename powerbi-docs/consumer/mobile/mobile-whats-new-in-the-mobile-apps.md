@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: b7301d46279d9b975a07b07506c023e19437631b
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54324035"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431238"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -23,7 +23,7 @@ ms.locfileid: "54324035"
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
 
-## <a name="december-2018"></a>2018 年 12 月21
+## <a name="december-2018"></a>2018 年 12 月
 
 ### <a name="filter-is-now-available-for-landscape-reports"></a>橫向報表現在可使用篩選 
 
@@ -37,15 +37,15 @@ ms.locfileid: "54324035"
 
 ### <a name="enhance-presentation-mode-windows"></a>加強簡報模式 (Windows)
 
-適用於 Surface Hub 與 Windows 10 裝置的加強簡報模式。  透過改良的簡報與共同作業工具，以及無邊框的大螢幕最佳化檢視來享受加強的 Surface Hub 會議室體驗，讓您可以專注在您的資料上。 簡報模式也提供一些工具 (例如筆跡工具)，來協助您有效地簡報並共同討論您的資料。 您可以在[這裡](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/)深入了解簡報模式。
+適用於 Surface Hub 與 Windows 10 裝置的加強簡報模式。  透過改良的簡報與共同作業工具，以及無邊框的大螢幕最佳化檢視來享受加強的 Surface Hub 會議室體驗，讓您可以專注在您的資料上。 簡報模式也提供一些工具 (例如筆跡工具)，來協助您有效地簡報並共同討論您的資料。 您可以在[這裡](https://powerbi.microsoft.com/blog/presentation-mode-in-power-bi-windows-app/)深入了解簡報模式。
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>平板電腦中的直向報表版面配置 (iOS 與 Android)
 
-我們現在會使用手機報表配置 (若其存在) 在您的平板電腦上以直向模式方向顯示報表。 深入了解[如何在 Power BI Service 或 Desktop 中建立手機版面配置](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/)。
+我們現在會使用手機報表配置 (若其存在) 在您的平板電腦上以直向模式方向顯示報表。 深入了解[如何在 Power BI Service 或 Desktop 中建立手機版面配置](https://docs.microsoft.com/power-bi/desktop-create-phone-report/)。
 
 ### <a name="supporting-report-query-string"></a>支援報表查詢字串 
 
-開啟包括查詢字串的報表連結現在將會在行動裝置應用程式中開啟，且會根據查詢字串中定義的條件預先填入。 深入了角[如何使用查詢字串建立報表 URL](https://docs.microsoft.com/en-us/power-bi/service-url-filters/)。  
+開啟包括查詢字串的報表連結現在將會在行動裝置應用程式中開啟，且會根據查詢字串中定義的條件預先填入。 深入了角[如何使用查詢字串建立報表 URL](https://docs.microsoft.com/power-bi/service-url-filters/)。  
 
 ### <a name="shared-credentials-now-in-android"></a>共用認證 (現在位於 Android 中)
 
@@ -65,7 +65,7 @@ ms.locfileid: "54324035"
 
 編頁報表目前可在 Power BI 服務上使用。 有權存取 Power BI 服務中編頁報表的使用者，也可以從其行動裝置應用程式存取這些報表。 
 
-請參閱[有關在行動裝置中使用編頁報表的 Power BI 部落格文章](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/) \(英文\)。
+請參閱[有關在行動裝置中使用編頁報表的 Power BI 部落格文章](https://powerbi.microsoft.com/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/) \(英文\)。
 
 ### <a name="shared-credentials-ios"></a>共用認證 (iOS)
 

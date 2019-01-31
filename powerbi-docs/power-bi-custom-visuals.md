@@ -10,16 +10,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cac436c97515f6b6f7b6cfc110469615e7afc4c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1ebb9633451ab8e2f1b8cbf8ada743ce6c42692e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289253"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431123"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI 的自訂視覺效果
 
-建立或編輯 Power BI 報表時，有各式各樣的視覺效果供您使用。 這些視覺效果會顯示在 [視覺效果] 窗格。 當您下載 [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) 或開啟 [Power BI 服務](https://app.powerbi.com)時，這組視覺效果已經「內建」。
+建立或編輯 Power BI 報表時，有各式各樣的視覺效果供您使用。 這些視覺效果會顯示在 [視覺效果] 窗格。 當您下載 [Power BI Desktop](https://powerbi.microsoft.com/desktop/) 或開啟 [Power BI 服務](https://app.powerbi.com)時，這組視覺效果已經「內建」。
 
 ![視覺效果](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
@@ -48,16 +48,16 @@ Power BI 系統管理員可以將自訂視覺效果部署到組織中，讓報�
 
 ## <a name="marketplace-visuals"></a>Marketplace 視覺效果
 
-社群成員與 Microsoft 貢獻出自訂視覺效果以供公眾使用，並將自訂視覺效果發佈至 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) Marketplace。 您可以下載這些視覺效果並將其新增至 Power BI 報表。 所有這些自訂視覺效果的功能與品質，都已通過 Microsoft 的測試與核准。
+社群成員與 Microsoft 貢獻出自訂視覺效果以供公眾使用，並將自訂視覺效果發佈至 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) Marketplace。 您可以下載這些視覺效果並將其新增至 Power BI 報表。 所有這些自訂視覺效果的功能與品質，都已通過 Microsoft 的測試與核准。
 
-什麼是 [AppSource](developer/office-store.md)？ 簡單來說，這是為 Microsoft 軟體尋找應用程式、增益集和延伸模組的地方。 [AppSource](https://appsource.microsoft.com/en-us/) 為上百萬名 Office 365、Azure、Dynamics 365、Cortana 及 Power BI 等產品的使用者提供了尋找解決方案的管道，讓使用者能夠以更有效率、更切實且更得心應手的方式搞定工作。
+什麼是 [AppSource](developer/office-store.md)？ 簡單來說，這是為 Microsoft 軟體尋找應用程式、增益集和延伸模組的地方。 [AppSource](https://appsource.microsoft.com/) 為上百萬名 Office 365、Azure、Dynamics 365、Cortana 及 Power BI 等產品的使用者提供了尋找解決方案的管道，讓使用者能夠以更有效率、更切實且更得心應手的方式搞定工作。
 
 ### <a name="certified-visuals"></a>認證的視覺效果
 
 Power BI 認證的視覺效果為已通過額外嚴格品質測試的 Marketplace 視覺效果，且支援額外的使用案例，例如[電子郵件訂閱](https://docs.microsoft.com/power-bi/service-report-subscribe)以及[匯出至 PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint)。
 若要查看已認證的自訂視覺效果清單，或提交您自己的視覺效果，請參閱[已認證的自訂視覺效果](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified)。
 
-您是否為 Web 開發人員，而且有興趣將自己建立的視覺效果發佈到 AppSource 呢？ 請參閱[開發 Power BI 自訂視覺效果](developer/custom-visual-develop-tutorial.md)，並了解如何[將自訂視覺效果發佈至 AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)。
+您是否為 Web 開發人員，而且有興趣將自己建立的視覺效果發佈到 AppSource 呢？ 請參閱[開發 Power BI 自訂視覺效果](developer/custom-visual-develop-tutorial.md)，並了解如何[將自訂視覺效果發佈至 AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)。
 
 ### <a name="import-a-custom-visual-from-a-file"></a>從檔案匯入自訂視覺效果
 
@@ -135,7 +135,7 @@ Power BI 認證的視覺效果為已通過額外嚴格品質測試的 Marketplac
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. 前往[應用程式結果頁面](https://appsource.microsoft.com/en-us/marketplace/apps)，您可在其中檢視各種類別的熱門應用程式，包括 *Power BI 應用程式*。 但我們要尋找的是自訂視覺效果，因此請從左方的瀏覽清單選取 [Power BI 視覺效果] 以縮小結果範圍。
+2. 前往[應用程式結果頁面](https://appsource.microsoft.com/marketplace/apps)，您可在其中檢視各種類別的熱門應用程式，包括 *Power BI 應用程式*。 但我們要尋找的是自訂視覺效果，因此請從左方的瀏覽清單選取 [Power BI 視覺效果] 以縮小結果範圍。
 
     ![AppSource 視覺效果](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 

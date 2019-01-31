@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 76027ff6e75071fde178ae05a8656c1596d36598
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 627a94097d4235f39414c1165ac8cbbc806508a3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291686"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430043"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>如何讓 Excel 資料適用於 Power BI 的問與答
 如果您是建立資料模型的人員，或要建立搭配 Power BI 使用的 Excel 活頁簿，請繼續閱讀...
@@ -34,7 +34,7 @@ ms.locfileid: "54291686"
 
 以下是在您的活頁簿中善加利用問與答的一些秘訣。
 
-* 請確定您的資料位於 Excel 資料表中。 以下是[如何建立 Excel 資料表](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-e81aa349-b006-4f8a-9806-5af9df0ac664?ui=en-US&rs=en-US&ad=US)的說明.
+* 請確定您的資料位於 Excel 資料表中。 以下是[如何建立 Excel 資料表](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-e81aa349-b006-4f8a-9806-5af9df0ac664)的說明.
 * 請確定您的資料表、資料行和導出欄位的名稱在自然的談話中合理。
   
   例如，如果您有包含銷售資料的資料表時，請將資料表命名為「銷售額」。 「年」、「產品」、「銷售代表」和「金額」等資料行名稱可適用於問與答。
