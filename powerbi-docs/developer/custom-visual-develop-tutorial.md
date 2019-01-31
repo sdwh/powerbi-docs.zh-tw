@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 6590e442fc5f183213681dc7d10a7d91e87ac35b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a9827ccead960c789bb9c7b4c39dd15d86886207
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282371"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430916"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>教學課程：開發 Power BI 自訂視覺效果
 
@@ -37,7 +37,7 @@ ms.locfileid: "54282371"
 
 ## <a name="prerequisites"></a>先決條件
 
-* 如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/en-us/pricing/)，再開始進行。
+* 如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
 * 您需要安裝 [Visual Studio Code](https://www.visualstudio.com/)。
 * 您需要適用於 Windows 使用者的 [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6) 4 或更新版本，亦或是適用於 OSX 使用者的 [Terminal](https://macpaw.com/how-to/use-terminal-on-mac)。
 
