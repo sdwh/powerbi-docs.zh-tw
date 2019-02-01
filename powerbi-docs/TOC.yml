@@ -608,6 +608,8 @@ items:
         href: service-share-dashboards.md
       - name: 共用篩選過的報表
         href: service-share-reports.md
+      - name: 訂閱自己及其他人
+        href: service-report-subscribe.md
       - name: 在 SharePoint Online 內嵌報表
         href: service-embed-report-spo.md
       - name: 在安全入口網站或網站中內嵌報告
@@ -1248,6 +1250,8 @@ items:
       href: service-admin-role.md
     - name: 常見問題集 (FAQ)
       href: service-admin-faq.md
+    - name: 高可用性及容錯移轉常見問題集
+      href: service-admin-failover.md
   - name: 如何
     items:
     - name: 授權及註冊
@@ -1295,9 +1299,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 070efc5b3775b8d675e7f053094f108edabd3115
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 5b2dc80f12aba21c7d5a1f0da71f8eb31d242c5b
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234477"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431100"
