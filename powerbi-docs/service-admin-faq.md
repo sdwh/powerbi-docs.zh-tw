@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296815"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430272"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
@@ -45,6 +45,7 @@ ms.locfileid: "54296815"
 * [我還應該準備什麼？](#are-there-any-additional-things-i-should-be-prepared-for)
 * [我的 Power BI 租用戶位於何處？](#where-is-my-power-bi-tenant-located)
 * [什麼是 Power BI SLA (服務等級協定)？](#what-is-the-power-bi-sla)
+* [Power BI 如何處理高可用性和容錯移轉？](#how-does-power-bi-handle-high-availability-and-failover)
 
 ### <a name="security-in-power-bi-section"></a>Power BI 中的安全性小節
 
@@ -241,11 +242,15 @@ Power BI 提供的管理入口網站，可讓您檢視使用量統計資料、�
 
 如需 Power BI SLA (服務等級協定) 的相關資訊，請參閱 Microsoft Licensing 網站＜授權＞一節中的[授權條款與文件](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) \(英文\) 文章。
 
+### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Power BI 如何處理高可用性和容錯移轉？
+
+如需高可用性和容錯移轉的資訊，請參閱 [Power BI 高可用性、容錯移轉和災害復原常見問題集](service-admin-failover.md)。
+
 ## <a name="security-in-power-bi"></a>Power BI 的安全性
 
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI 是否符合國家、地區和業界的特定法規要求？
 
-若要深入了解 Power BI 相容性，請參閱 [Microsoft 信任中心](https://www.microsoft.com/en-us/TrustCenter/CloudServices/business-application-platform/default.aspx)。
+若要深入了解 Power BI 相容性，請參閱 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/default.aspx)。
 
 ### <a name="how-does-security-work-in-power-bi"></a>Power BI 安全性如何運作？
 

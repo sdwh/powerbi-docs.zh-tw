@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 4fff6b19b9a17b626d11545a8d4baa8464ffc324
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294015"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431215"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -99,6 +99,14 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 
 ## <a name="authentication"></a>驗證
 
+### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>驗證因 AADSTS90002 而失敗：找不到租用戶的 'authorize'
+
+ 如果您在登入時收到如下訊息：***error: invalid_request, error_description:AADSTS90002：找不到租用戶的 'authorize'***，這是因為 ADAL 4.x 不支援 "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" 作為授權單位 URL。
+ 
+若要解決此問題，您應該從授權單位 URL 的結尾修剪 "oauth2/authorize/"；如需參考，請參閱 [Power BI 開發人員範例](https://github.com/Microsoft/PowerBI-Developer-Samples)。
+
+ 請從 ADAL 4.x 版本資訊中查閱 [Better Authority validation](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation) (更好的授權單位驗證)。
+ 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>驗證因 AADSTS70002 或 AADSTS50053 而失敗
 
 **_(AADSTS70002：驗證認證時發生錯誤。AADSTS50053：使用不正確的使用者識別碼或密碼，嘗試登入太多次)_**
@@ -243,7 +251,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 使用內嵌安裝工具之前，請驗證您具備所有適當的必要條件。 您需要 **Power BI Pro** 帳戶和 **Microsoft Azure** 訂用帳戶。
 
-* 如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/en-us/pricing/)，再開始進行。
+* 如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
 * 如果您沒有 Azure 訂用帳戶，請先建立[免費帳戶](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)，再開始進行。
 * 您必須設定自己的 [Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)。
 * 您必須安裝 [Visual Studio](https://www.visualstudio.com/) (2013 版或更新版本)。
@@ -294,7 +302,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 
-若需要進一步的協助，請[連絡客戶支援](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded)，或[透過 Azure 入口網站建立支援票證](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)，並提供您遇到的錯誤訊息。
+若需要進一步的協助，請[連絡客戶支援](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded)，或[透過 Azure 入口網站建立支援票證](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)，並提供您遇到的錯誤訊息。
 
 ## <a name="next-steps"></a>後續步驟
 

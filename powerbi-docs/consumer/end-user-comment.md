@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 01/18/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 085860fb9d8e9e01bf0694896a561f34a5627b53
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 7d76d874712f328344b60fc8b146f69e1aca55db
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394666"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234523"
 ---
 # <a name="add-comments-to-a-dashboard"></a>在儀表板中新增註解
 新增個人註解，或是和您的同事開始儀表板相關交談。 **註解**功能只是「取用者」可與其他人共同作業的其中一種方法。 
@@ -73,7 +73,7 @@ ms.locfileid: "54394666"
 5. 按一下 [關閉] 返回儀表板或報表。
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>使用 @ 符號吸引同事注意
-不論您是建立儀表板註解或是在特定視覺效果上加上註解，請使用 "@" 符號來吸引同事注意。  當您鍵入 "@" 符號時，Power BI 會開啟下拉式清單，您可以在其中搜尋並選取組織中的個人。 任何前面加上 "@" 符號的已驗證名稱都會以藍色字型顯示。 
+不論您是建立儀表板註解或是在特定視覺效果上加上註解，請使用 "\@" 符號來吸引同事注意。  當您鍵入 "\@" 符號時，Power BI 會開啟下拉式清單，您可以在其中搜尋並選取組織中的個人。 任何前面加上 "\@" 符號的已驗證名稱都會以藍色字型顯示。 
 
 以下是我和視覺效果「設計師」進行的交談。 他使用 @ 符號，確保我看到註解。 我知道這個註解是寫給我看的。 當我在 Power BI 中開啟這個應用程式儀表板時，從標頭選取 [註解]。 [註解] 窗格會顯示我們的交談。
 

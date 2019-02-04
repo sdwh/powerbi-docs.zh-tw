@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 36a3026ebbdf1290d7f809f5c1ccaac7f5fbd7d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b4977bd043cec08c86fbd3c8893e8f1e185dc1fc
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292391"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430548"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中離線檢視資料
 適用於︰
@@ -57,6 +57,7 @@ Power BI 提供您何時移入和移出離線模式的清楚指標，以及無�
 * Power BI 中的整個 Excel 活頁簿無法離線使用。
 * 如果您在連線時已檢視過 Reporting Services 行動報表和 KPI，即可離線查看。 它們不會在背景中重新整理， 而是在每次開啟時重新整理。
 * 在 Power BI 行動裝置應用程式中，您看不到儲存至 Power BI 報表伺服器的 Power BI Desktop (.pbix) 檔案。 
+* 網路離線時，沒有可用的編頁報表 (RDL)。
 
 ## <a name="next-steps"></a>後續步驟
 您的意見反應可協助我們決定要在未來實作的項目，因此別忘了對您想在 Power BI 行動應用程式中看到的其他功能進行投票。 

@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 74d261098ee8385721a0b72d808a6ecb1b89be7c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2a6fe04f3e905a1e2ce02bceed123b6f117e62c8
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283797"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234431"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -106,10 +106,10 @@ URL?filter=***資料表***/***欄位*** eq '***值***'
 |**gt**     | 大於        |不可以 | 是 | 可以  | product/price gt 20
 |**le**     |   小於或等於      | 不可以 | 是 | 可以  | product/price le 100
 |**lt**     |  小於       | 不可以 | 是 | 可以 |  product/price lt 20
-|**in****     |  含       | 可以 | 是 |  可以 | Student/Age in (27, 29)
+|**in\*\***     |  含       | 可以 | 是 |  可以 | Student/Age in (27, 29)
 
 
-\** 使用 **in** 時，**in** 右側的值可為以括弧括住的逗號分隔清單，或傳回集合的單一運算式。
+\*\* 使用 **in** 時，**in** 右側的值可為以括弧括住的逗號分隔清單，或傳回集合的單一運算式。
 
 ### <a name="numeric-data-types"></a>數值資料類型
 

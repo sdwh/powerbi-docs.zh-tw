@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/03/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee0063d5266c663079a9801777ee2c900957c52f
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296792"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234293"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
 ## <a name="power-bi-visualizations"></a>Power BI 視覺效果
@@ -82,6 +82,11 @@ ms.locfileid: "54296792"
 
 如需詳細資訊，請參閱 [Power BI 中的量表圖](power-bi-visualization-radial-gauge-charts.md)。
 
+<!-- ### Key influencers chart
+![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+
+A key influencer chart displays the major contributors to a selected result or value. -->
+
 ### <a name="kpis"></a>KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
@@ -107,7 +112,7 @@ ms.locfileid: "54296792"
 ### <a name="maps-arcgis-maps"></a>地圖：ArcGIS 地圖
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-如需詳細資訊，請參閱 [Power BI 中的 ArcGIS 地圖](../power-bi-visualization-arcgis.md)。
+如需詳細資訊，請參閱 [Power BI 中的 ArcGIS 地圖](power-bi-visualization-arcgis.md)。
 
 ### <a name="maps-filled-maps-choropleth"></a>地圖：區域分布圖 (分級著色圖)
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -133,6 +138,13 @@ ms.locfileid: "54296792"
 
 ### <a name="pie-charts"></a>圓形圖
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+
+圓形圖會顯示部分與整體的關聯性。 
+
+### <a name="ribbon-chart"></a>功能區圖表
+![功能區圖表](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
+
+功能區圖表會顯示哪些資料類別目錄具有最高的等級 (最大值)。 功能區圖表適合顯示等級變更，最高等級 (值) 一律顯示於每個時段的最上方。
 
 ### <a name="scatter-and-bubble-charts"></a>散佈圖和泡泡圖
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)

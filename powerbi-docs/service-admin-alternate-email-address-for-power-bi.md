@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 5998f4b63a168c3056a5464844d008bd657ef7c9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a37daca38c13cff08be13da619735214002646a3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294239"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430525"
 ---
 # <a name="using-an-alternate-email-address"></a>使用備用電子郵件地址
 
@@ -64,7 +64,7 @@ Power BI 會根據下列順序選取要使用的電子郵件：
 
 1. 如果 Azure AD 使用者物件中存在 mail 屬性，則 Power BI 會在電子郵件地址中使用該 mail 屬性。
 
-1. 如果 UPN 電子郵件「不是」**\*.onmicrosoft.com** 網域電子郵件地址 ("\@" 符號後面的資訊)，則 Power BI 會在電子郵件地址中使用該 mail 屬性。
+1. 如果 UPN 電子郵件「不是」**\*.onmicrosoft.com** 網域電子郵件地址 ("\@" 符號後面的資訊)，則 Power BI 會在電子郵件地址中使用該郵件屬性。
 
 1. 如果 Azure AD 使用者物件中存在*其他電子郵件地址*陣列屬性，則會使用該清單中的第一個電子郵件 (因為這個屬性中會有一份電子郵件清單)。
 
