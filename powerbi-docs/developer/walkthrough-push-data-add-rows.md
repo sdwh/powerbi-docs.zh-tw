@@ -4,19 +4,20 @@ description: 推送資料的逐步解說 - 將資料列加入 Power BI 資料表
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/01/2018
-ms.openlocfilehash: 798bfbb5d1ebf127e7b958e02166dea5f1af81ef
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 52ee2dec11029f7c529362fdb44e2291846449c1
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430480"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761976"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步驟 5：將資料列加入 Power BI 資料表
+
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
 在＜將資料推送至資料集＞之**步驟 4** 的[取得資料集以將資料列加入 Power BI 資料表](walkthrough-push-data-get-datasets.md)中，您使用了[取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)作業和 Newtonsoft.Json 來取得資料集識別碼。在此步驟中，您可以透過 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 作業來使用資料集識別碼，以將資料列新增到 **Power BI** 資料集。 
@@ -28,10 +29,9 @@ ms.locfileid: "55430480"
 以下是使用 Power BI API 將資料列加入資料集的方法。
 
 ## <a name="add-rows-to-a-power-bi-table"></a>將資料列加入 Power BI 資料表
+
 > [!NOTE]
 > 開始使用之前，請確定您已經執行過先前[將資料推送至資料集](walkthrough-push-data.md)逐步解說中的先前步驟。
-> 
-> 
 
 1. 在步驟 2：推送資料逐步解說建立的主控台應用程式專案中，[取得驗證存取權杖](walkthrough-push-data-get-token.md)，新增下列程式碼。
 2. 執行主控台應用程式，然後登入您的 Power BI 帳戶。 您應該會在主控台視窗中看到 **加入的資料列** 。 您也可以登入至 Power BI 以查看新增至資料集的資料列。
@@ -57,7 +57,8 @@ ms.locfileid: "55430480"
   
        //Add rows to a Power BI table
        AddRows(datasetId, "Product");
-   }     
+   }
+
   ```
 * 加入 AddRows() 方法：
 

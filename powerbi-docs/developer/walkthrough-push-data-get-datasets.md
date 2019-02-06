@@ -2,21 +2,22 @@
 title: 取得要加入資料列的資料集
 description: 推送資料的逐步解說 - 取得資料集，以便將資料列加入 Power BI 資料表
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: cd7f1eabc104da7e310abbfbce2929f047f0e5d8
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: fbde44136f403e3aff0c32d8d4acef4d1970830a
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430824"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762482"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步驟 4：取得資料集，以便將資料列加入 Power BI 資料表
+
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
 在＜將資料推送至資料集＞的**步驟 3** [在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)中，您呼叫了[建立資料集](https://docs.microsoft.com/rest/api/power-bi/datasets)作業，以在 Power BI 中建立資料集。 在此步驟中，您會使用[取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)作業和 Newtonsoft.Json 來取得資料集識別碼。您使用步驟 4 中的資料集識別碼將資料列加入資料集。 
@@ -26,14 +27,13 @@ ms.locfileid: "55430824"
 以下是取得資料集的方式。
 
 ## <a name="get-a-power-bi-dataset"></a>取得 Power BI 資料集
+
 > **注意**：開始使用之前，請確定您已經執行過先前[將資料推送至資料集](walkthrough-push-data.md)逐步解說中的先前步驟。
-> 
-> 
 
 1. 在步驟 2：推送資料逐步解說建立的主控台應用程式專案中，[取得驗證存取權杖](walkthrough-push-data-get-token.md)，安裝 Newtonsoft.Json NuGet 套件。 安裝套件的方法如下：
-   
+
      a. 在 Visual Studio 2015 中，選擇 **工具**  > **NuGet 套件管理員**  >  **套件管理器主控台**。
-   
+
      b. 在 [套件管理器主控台] 中，輸入 Install-Package Newtonsoft.Json。
 2. 安裝套件之後，將 **using Newtonsoft.Json;** 加入 Program.cs。
 3. 在 Program.cs 中，加入下列程式碼以取得 **資料集識別碼**。
@@ -110,6 +110,7 @@ ms.locfileid: "55430824"
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>完整程式碼清單
+
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -265,6 +266,7 @@ ms.locfileid: "55430824"
 [下一步 >](walkthrough-push-data-add-rows.md)
 
 ## <a name="next-steps"></a>後續步驟
+
 [將資料列新增至 Power BI 資料表](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
 [取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
@@ -273,4 +275,3 @@ ms.locfileid: "55430824"
 [Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

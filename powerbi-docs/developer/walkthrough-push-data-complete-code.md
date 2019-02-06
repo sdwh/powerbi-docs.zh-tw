@@ -2,26 +2,28 @@
 title: 完整程式碼清單
 description: 推送資料的逐步解說 - 完整程式碼清單
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 96620449e8be8dbbfa13a00484fff29f2370fe19
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 95aadefab6a98413a22dd9386bfb4fc06cb482cb
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429928"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762229"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>將資料推送至資料集的完整程式碼清單
+
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
 執行**將資料推送至資料集**中的步驟 2 到 5 之後，完整的程式碼應該如下所示。
 
 ## <a name="push-data-to-dataset-code"></a>將資料推送到資料集程式碼
+
       using System;
       using Microsoft.IdentityModel.Clients.ActiveDirectory;
       using System.Net;
@@ -219,8 +221,8 @@ ms.locfileid: "55429928"
           }
       }
 
-
 ## <a name="next-steps"></a>後續步驟
+
 [將資料推送至 Power BI 資料集](walkthrough-push-data.md)  
 [逐步解說 - 將資料推送至 Power BI 資料集](walkthrough-push-data.md)  
 [使用 Azure AD 註冊應用程式](walkthrough-push-data-register-app-with-azure-ad.md)  
@@ -231,6 +233,4 @@ ms.locfileid: "55429928"
 [Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/)  
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
 
-
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

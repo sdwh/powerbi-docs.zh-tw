@@ -2,19 +2,19 @@
 title: Power BI API 可以做些什麼
 description: Power BI API 可以做些什麼
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: maghan
-ms.openlocfilehash: 84e43f67c78949139ec856ef8ac770555fc6bd96
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d8cad602b178dd55184e00e2a318c374433b1a46
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282693"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762321"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>開發人員可如何利用 Power BI API？
 

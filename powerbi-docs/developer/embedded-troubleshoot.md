@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: b8f78821ccd6f32f9b943b55a45de20b720f3f3c
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431215"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762091"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -106,7 +106,7 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 若要解決此問題，您應該從授權單位 URL 的結尾修剪 "oauth2/authorize/"；如需參考，請參閱 [Power BI 開發人員範例](https://github.com/Microsoft/PowerBI-Developer-Samples)。
 
  請從 ADAL 4.x 版本資訊中查閱 [Better Authority validation](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation) (更好的授權單位驗證)。
- 
+
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>驗證因 AADSTS70002 或 AADSTS50053 而失敗
 
 **_(AADSTS70002：驗證認證時發生錯誤。AADSTS50053：使用不正確的使用者識別碼或密碼，嘗試登入太多次)_**
@@ -203,12 +203,12 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------|
 | TokenExpired | 存取權杖到期，使用新的存取權杖重新提交 | 403 | 到期的權杖  |
 | PowerBIEntityNotFound | 取得報表失敗 | 404 | <li> 錯誤的報表識別碼 <li> 報表不存在  |
-| 參數無效 | 未指定 powerbiToken 參數 | N/A | <li> 未提供任何存取權杖 <li> 未提供任何報表識別碼 |
+| 參數無效 | 未指定 powerbiToken 參數 | 無 | <li> 未提供任何存取權杖 <li> 未提供任何報表識別碼 |
 | LoadReportFailed | 無法初始化 - 無法解析叢集 | 403 | * 錯誤的存取權杖 * 內嵌類型與權杖類型不符 |
 | PowerBINotAuthorizedException | 取得報表失敗 | 401 | <li> 錯誤的群組識別碼 <li> 未經授權的群組 |
-| TokenExpired | 存取權杖到期，使用新的存取權杖重新提交。 無法轉譯下述標題的報表視覺效果：<visual title> | N/A | 查詢資料已到期權杖 |
-| OpenConnectionError | 無法顯示視覺效果。 無法轉譯下述標題的報表視覺效果：<visual title> | N/A | 當與容量關聯的報表已在工作階段中開啟時，已暫停或刪除的容量 |
-| ExplorationContainer_FailedToLoadModel_DefaultDetails | 無法載入與此報表關聯的模型結構描述。 確定您可以連線到伺服器，然後再試一次。 | N/A | <li> 容量已暫停 <li> 容量已刪除 |
+| TokenExpired | 存取權杖到期，使用新的存取權杖重新提交。 無法轉譯下述標題的報表視覺效果：<visual title> | 無 | 查詢資料已到期權杖 |
+| OpenConnectionError | 無法顯示視覺效果。 無法轉譯下述標題的報表視覺效果：<visual title> | 無 | 當與容量關聯的報表已在工作階段中開啟時，已暫停或刪除的容量 |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | 無法載入與此報表關聯的模型結構描述。 確定您可以連線到伺服器，然後再試一次。 | 無 | <li> 容量已暫停 <li> 容量已刪除 |
 
 ### <a name="typical-errors-when-embedding-for-non-power-bi-users-using-an-embed-token"></a>針對非 Power BI 使用者內嵌的典型錯誤 (使用內嵌權杖)
 
@@ -218,12 +218,12 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 | LoadReportFailed | 取得報表失敗 | 404 | <li> 錯誤的報表識別碼 <li> 報表不存在  |
 | LoadReportFailed | 取得報表失敗 | 403 | 報表識別碼與權杖不相符 |
 | LoadReportFailed | 取得報表失敗 | 500 | 報表提供的識別碼不是 GUID |
-| 參數無效 | 未指定 powerbiToken 參數 | N/A | <li> 未提供任何存取權杖 <li> 未提供任何報表識別碼 |
+| 參數無效 | 未指定 powerbiToken 參數 | 無 | <li> 未提供任何存取權杖 <li> 未提供任何報表識別碼 |
 | LoadReportFailed | 無法初始化 - 無法解析叢集 | 403 | 錯誤的權杖類型，錯誤的權杖 |
 | PowerBINotAuthorizedException | 取得報表失敗 | 401 | 錯誤/未經授權的群組識別碼 |
-| TokenExpired | 存取權杖到期，使用新的存取權杖重新提交。 無法轉譯下述標題的報表視覺效果：<visual title> | N/A | 查詢資料已到期權杖 |
-| OpenConnectionError | 無法顯示視覺效果。 無法轉譯下述標題的報表視覺效果：<visual title> | N/A | 當與容量關聯的報表已在工作階段中開啟時，已暫停或刪除的容量 |
-| ExplorationContainer_FailedToLoadModel_DefaultDetails | 無法載入與此報表關聯的模型結構描述。 確定您可以連線到伺服器，然後再試一次。 | N/A | <li> 容量已暫停 <li> 容量已刪除 |
+| TokenExpired | 存取權杖到期，使用新的存取權杖重新提交。 無法轉譯下述標題的報表視覺效果：<visual title> | 無 | 查詢資料已到期權杖 |
+| OpenConnectionError | 無法顯示視覺效果。 無法轉譯下述標題的報表視覺效果：<visual title> | 無 | 當與容量關聯的報表已在工作階段中開啟時，已暫停或刪除的容量 |
+| ExplorationContainer_FailedToLoadModel_DefaultDetails | 無法載入與此報表關聯的模型結構描述。 確定您可以連線到伺服器，然後再試一次。 | 無 | <li> 容量已暫停 <li> 容量已刪除 |
 
 ## <a name="content-rendering"></a>內容轉譯
 

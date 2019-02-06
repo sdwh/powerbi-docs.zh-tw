@@ -2,21 +2,22 @@
 title: 從 Power BI Embedded 移轉內容的程式碼片段
 description: 以下是內容移轉所需之基本作業的一些程式碼片段
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/30/2018
-ms.author: maghan
-ms.openlocfilehash: ddb0e95e20a22fd6e7e832c415462504d2ef3652
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: f53549e0a046195c353362368e2e3682df152af9
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429965"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762505"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>從 Power BI 工作區集合遷移內容的程式碼片段
+
 以下是內容移轉所需之基本作業的一些程式碼片段。 針對特定報告類型的相關流程，請參閱[如何將 Power BI 工作區集合內容遷移至 Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration)。
 
 有**移轉工具**可用來協助您將 Power BI Embedded (PaaS) 的內容複製到 Power BI 服務 (SaaS)。 尤其是當您有許多內容時。 如需詳細資訊，請參閱 [Power BI Embedded 移轉工具](migrate-tool.md)。
@@ -25,7 +26,7 @@ ms.locfileid: "55429965"
 
 請確定您使用下列命名空間來執行下列程式碼片段。
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.PowerBI.Api.V1;
 using Microsoft.PowerBI.Api.V1.Models;
@@ -46,8 +47,8 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-
 ## <a name="export-report-from-paas-workspace"></a>從 PaaS 工作區匯出報告
+
 ```
     // Create a token credentials with "AppKey" type
     var credentials = new TokenCredentials(<myAppKey==>, "AppKey");
@@ -72,6 +73,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="import-report-to-saas-workspace"></a>將報告匯入 PaaS 工作區
+
 ```
     AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <myClientId>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
@@ -85,6 +87,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="extract-directquery-connection-string-from-paas-report"></a>從 PaaS 報告擷取 DirectQuery 連接字串
+
 這是為了在移轉至 SaaS 之後更新 PBIX。
 
 ```
@@ -105,6 +108,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="update-directquery-connection-string-is-saas-workspace"></a>更新 DirectQuery 連接字串是 SaaS 工作區
+
 ```
     public class ConnectionString
     {
@@ -123,6 +127,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="set-directquery-credentials-in-saas-workspace"></a>在 SaaS 工作區中設定 DirectQuery 認證
+
 在此程式碼片段中，為了簡單起見，我們使用未加密的認證，但也支援傳送加密的認證。
 
 ```
@@ -159,6 +164,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="push-dataset--report"></a>發送資料集和報告
+
 您必須為已建立的資料集重建報告。
 
 在此片段中，我們假設可發送的資料集已在 SaaS 環境內的應用程式工作區。 如需發送 API 的相關資訊，請參閱[將資料發送至 Power BI 資料集](walkthrough-push-data.md)。
@@ -223,6 +229,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="next-steps"></a>後續步驟
+
 [Power BI Embedded 移轉工具](migrate-tool.md)  
 [內嵌在 Power BI 之中](embedding.md)  
 [如何將 Power BI Embedded 工作區集合內容移轉至 Power BI](migrate-from-powerbi-embedded.md)  
@@ -234,4 +241,3 @@ using System.Threading.Tasks;
 [Power BI Premium 技術白皮書](https://aka.ms/pbipremiumwhitepaper)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
-
