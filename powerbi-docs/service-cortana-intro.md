@@ -1,20 +1,20 @@
 ---
-title: 使用 Cortana 快速找出並檢視您的報表和儀表板
+title: 使用 Cortana 快速找出並檢視報表和儀表板
 description: 搭配使用 Cortana 和 Power BI 從您的資料中取得答案。 目前使用報表和儀表板。
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 01/30/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bcd07bb0cb53ea4818195e15c1492a27f424cf38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26bd41c8fa2d1300a0f9e106c7899777ac5950f7
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292583"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482721"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>使用 Cortana for Power BI 快速找出並檢視您的 Power BI 資料
 在您的 Windows 10 裝置上使用 Cortana，以取得重要業務問題的即時解答。 Cortana 藉由與 Power BI 整合，可直接從 Power BI 儀表板和報表擷取關鍵資訊。 需要的只有 Windows 10 2015 年 11 月 (含) 以上的版本、Cortana、Power BI 以及至少一個資料集的存取權。
@@ -22,7 +22,7 @@ ms.locfileid: "54292583"
 ![Cortana 搜尋欄位](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>預覽 Windows 10 的新 Cortana 儀表板搜尋體驗
-一段時間之後，您現在已可以[使用 Cortana 擷取某些類型的報表頁面](service-cortana-answer-cards.md)。 現在我們已新增**新體驗** -- 也會擷取儀表板的能力。 請試用，並[傳送意見反應](mailto:pbicortanasg@microsoft.com)。 最後，「新體驗」將擴充成包含 Cortana 一併搜尋報表。  新體驗的其中一個重要優點在於您設定時不需要進行特殊處理 (不允許 Cortana 或設定 Windows 10)。 它會正常運作。
+一段時間之後，您現在已可以[使用 Cortana 擷取某些類型的報表頁面](service-cortana-answer-cards.md)。 現在我們已新增**新體驗** -- 也會擷取儀表板的能力。 請試用，並[向 Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi) 傳送意見反應。 最後，「新體驗」將擴充成包含 Cortana 一併搜尋報表。  新體驗的其中一個重要優點在於您設定時不需要進行特殊處理 (不允許 Cortana 或設定 Windows 10)。 它會正常運作。
 
 > [!NOTE]
 > 如果它未運作，請參閱[疑難排解文章](service-cortana-troubleshoot.md)以取得協助。
@@ -127,7 +127,8 @@ Cortana 可以在您擁有的儀表板以及已與您共用的儀表板中尋找
 * Cortana for Power BI 目前僅提供英文版。
 * 只有在 Windows 行動裝置上才能使用 Cortana for Power BI。
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
+想提出意見反應嗎？ 將意見反應傳送給 [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi)。
 
 ## <a name="next-steps"></a>後續步驟
 [啟用報表的 Cortana - Power BI - Windows 整合](service-cortana-enable.md)

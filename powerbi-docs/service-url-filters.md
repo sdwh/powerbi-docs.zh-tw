@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/31/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 2a6fe04f3e905a1e2ce02bceed123b6f117e62c8
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
+ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234431"
+ms.lasthandoff: 02/02/2019
+ms.locfileid: "55648689"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -40,6 +40,14 @@ URL?filter=***資料表***/***欄位*** eq '***值***'
 
 * **資料表**和**欄位**名稱區分大小寫，**值**則無。
 * 從報表檢視中隱藏的欄位仍可篩選。
+
+### <a name="reports-in-apps"></a>應用程式中的報表
+
+如果要將 URL 篩選器新增至應用程式的報表中，則格式會略有不同。 應用程式中報表的連結具有新增至 URL 的查詢參數 (ctid)。 查詢參數需要以 & 符號分隔。 因此，您需要使用「&filter=」(在 ctid 參數之後) 來附加查詢，而不是使用「?filter=」。 
+
+如下列範例中：
+
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*Table*/*Field* eq '*value*'
 
 ### <a name="field-types"></a>欄位類型
 
@@ -118,10 +126,10 @@ Power BI URL 篩選可包含下列格式的數字。
 |數字類型  |範例  |
 |---------|---------|
 |**integer**     |   5      |
-|**long**     |   5L 或 5l      |
+|**long**     |   5 L 或 5 l      |
 |**double**     |   5.5 或 55e-1 或 0.55e+1 或 5D 或 5d 或 0.5e1D 或 0.5e1d 或 5.5D 或 5.5d 或 55e-1D 或 55e-1d     |
-|**decimal**     |   5M 或 5m 或 5.5M 或 5.5m      |
-|**float**     | 5F 或 5f 或 0.5e1F 或 0.5e-1d        |
+|**decimal**     |   5 M 或 5 m 或 5.5 M 或 5.5 m      |
+|**float**     | 5 F 或 5 f 或 0.5e1 F 或 0.5e-1 d        |
 
 ### <a name="date-data-types"></a>日期資料類型
 

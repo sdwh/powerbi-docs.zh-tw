@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: 034fc149dcd76102ae83864fe65d53c55b57c96a
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488860"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482744"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -24,6 +24,17 @@ ms.locfileid: "54488860"
 
 ## <a name="january-2019"></a>2019 年 1 月
 - **Power BI 報表伺服器**            
+    - *版本 1.4.6969.7395 (組建 15.0.1102.235)，發行日期：2019 年 1 月 30 日*
+        - Bug 修正
+            - Power BI 報表
+                - 使用直接查詢時修正了基本認證的問題
+                - 修正套用資料列層級安全性篩選器的雙向關係
+                - 修正在向外延展環境中模型重新整理後的過時資料
+                - 修正 Firefox 63+上的資料表/矩陣雙垂直捲軸
+                - 修正 Internet Explorer 中的 +/- 圖示大小
+            - 編頁報表
+                - 修正更新報表共用資料來源使用情況的問題
+
     - 版本 1.4.6960.38798 (組建 15.0.1102.222)，發行日期：2019 年 1 月 22 日
         - 功能
             - Power BI 報表 
@@ -35,6 +46,10 @@ ms.locfileid: "54488860"
             - 系統管理員
                 - 限制可以上傳到報表伺服器之資源延伸模組的能力
                 - 限制所支援超連結配置的能力
+            - 可程式性
+                - 新的 Web API：PowerBIReports({Id})/DataModelRoles (GET)
+                - 新的 Web API：PowerBIReports({Id})/DataModelRoleAssignments (GET & PUT)
+                - 如需詳細資訊，請參閱[Power BI 報表伺服器 REST API](https://app.swaggerhub.com/apis/microsoft-rs/PBIRS/2.0)
         - Bug 修正
             - HTML 插入弱點
             - 匯出成 PDF 時未顯示歐元符號
@@ -42,6 +57,10 @@ ms.locfileid: "54488860"
             - Power BI 行動裝置應用程式在閒置後發生視覺效果顯示問題
 
 - **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
+    - *版本：2.65.5313.1562 (2019 年 1 月)，發行日期：2019 年 1 月 30 日*
+        - 解除安裝 Power BI 報表伺服器之後保留的快顯和已釘選圖示
+        - 修正將 Power BI 報表伺服器釘選至開始功能表時，黑色圖示上顯示黑色文字的問題
+
     - *版本：2.65.5313.1421 (2019 年 1 月)，發行日期：2019 年 1 月 22 日*
         - 包含與 Power BI 報表伺服器連線所需的變更 (2019 年 1 月)  
 
