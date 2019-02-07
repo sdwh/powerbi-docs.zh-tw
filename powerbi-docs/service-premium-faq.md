@@ -1,21 +1,21 @@
 ---
 title: Power BI Premium 常見問題集
 description: 瀏覽常見問題集清單並取得 Power BI Premium 供應項目相關問題的解答。
-author: mgblythe
+author: minewiskan
+ms.author: owend
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/15/2018
-ms.author: mblythe
+ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: c854f57dc418f7ac5bbd291f04b011b99a74b41b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fbb303a85895c08d0dc04630a12076a279e2586f
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292721"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794935"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常見問題集
 
