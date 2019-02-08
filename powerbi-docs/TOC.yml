@@ -870,6 +870,8 @@ items:
       items:
       - name: 效能最佳做法
         href: developer/embedded-performance-best-practices.md
+      - name: 服務主體
+        href: developer/embed-service-principal.md
       - name: 資料列層級安全性
         href: developer/embedded-row-level-security.md
       - name: 管理多租用戶
@@ -888,7 +890,7 @@ items:
         href: developer/create-an-azure-active-directory-tenant.md
       - name: 註冊應用程式
         href: developer/register-app.md
-      - name: 向 Power BI 服務驗證
+      - name: 取得 Azure AD 存取權杖
         href: developer/get-azuread-access-token.md
       - name: 內嵌問與答
         href: developer/qanda.md
@@ -1036,6 +1038,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: 將資料列加入資料表
         href: developer/walkthrough-push-data-add-rows.md
+      - name: 加密認證
+        href: developer/encrypt-credentials.md
     - name: 參考
       items:
       - name: REST API
@@ -1234,9 +1238,9 @@ items:
         href: service-admin-premium-purchase.md
       - name: 管理 Power BI Premium
         href: service-admin-premium-manage.md
-      - name: 使用應用程式監視 Premium 容量
+      - name: 使用應用程式監視容量
         href: service-admin-premium-monitor-capacity.md
-      - name: 於管理入口網站中監視 Premium 容量
+      - name: 在管理入口網站中監視容量
         href: service-admin-premium-monitor-portal.md
       - name: 重新啟動 Premium 容量
         href: service-admin-premium-restart.md
@@ -1301,9 +1305,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e5f1b5c6ac45f6f37b61692fe4bd7f5cc086aec5
-ms.sourcegitcommit: 01d08ddf9a437489f75501efda6b3b0d8cbd7864
+ms.openlocfilehash: 27de32e6dda7f6eba069eaee56582a449dca858c
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55760387"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794489"
