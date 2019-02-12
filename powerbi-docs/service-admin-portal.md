@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8cda803939ee9ae2f864496300fce25890770dac
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
+ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430365"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55888225"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -287,16 +287,6 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 ### <a name="embed-content-in-apps"></a>在應用程式中內嵌內容
 
 組織中的使用者可以在軟體即服務 (SaaS) 應用程式中內嵌 Power BI 儀表板和報告。 停用此設定會讓使用者無法使用 REST API 在其應用程式中內嵌 Power BI 內容。 [深入了解](developer/embedding.md)
-
-## <a name="workspaces-and-import-settings"></a>工作區與匯入設定
-
-### <a name="author-content-in-workspaces"></a>工作區中的作者內容
-
-組織中的使用者可存取工作區以連線到資料與作者內容。 [深入了解](service-create-the-new-workspaces.md)
-
-### <a name="import-data-into-power-bi"></a>將資料匯入到 Power BI
-
-組織中的使用者可將資料匯入到服務，例如從 Power BI Desktop 發行報表、上傳 Power BI 報表檔案，以及直接從服務連線到資料。 [深入了解](desktop-upload-desktop-files.md)
 
 ## <a name="dataflow-settings-preview"></a>資料流程設定 (預覽)
 
