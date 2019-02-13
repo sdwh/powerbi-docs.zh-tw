@@ -1,6 +1,6 @@
 ---
 title: 報表編輯器導覽
-description: Power BI 服務中的報表編輯器與 Power BI Desktop 中的報表編輯器類似。
+description: Power BI 服務中的「報表編輯器」與 Power BI Desktop 中的報表編輯器類似。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,21 +8,23 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/25/2019
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147396"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971686"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的報表編輯器導覽
 
-Power BI 服務中的「報表編輯器」與 Power BI Desktop 中的報表編輯器類似。 下列影片將說明 Power BI Desktop 中的報表編輯器，而本文則說明 Power BI 服務中的報表編輯器。 
+Power BI 服務中的「報表編輯器」與 Power BI Desktop 中的報表編輯器類似。 通常您一開始會先在 Power BI Desktop 中建立報表。 然後將它們發佈至 Power BI 服務，然後可以在服務中繼續修改。 Power BI 服務也是您依據報表建立儀表板的位置。
 
-身為報表建立者，您會建立並編輯儀表板和報表。 然後將它們散發給您的報表取用者。 報表取用者可以在 Power BI 服務的 [閱讀] 檢視中與儀表板互動，但不能加以編輯。 另請參閱 [Power BI 服務為報表取用者提供了哪些功能](consumer/end-user-reading-view.md) 
+建立儀表板和報表之後，就可以將它們散發給您的報表取用者。 視您共用儀表板和報表的方式不同，您的終端使用者可能可以在 Power BI 服務的 [閱讀] 檢視中與它們互動，但不能編輯它們。 深入了解 [Power BI 服務為報表取用者提供了哪些功能](consumer/end-user-reading-view.md)。 
+
+這段影片中顯示 Power BI Desktop 中的報表編輯器。 此文章說明 Power BI Desktop 中的報表編輯器。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -79,7 +81,7 @@ Power BI 報表編輯器有三個區段︰
 選取放大鏡圖示，以顯示 [分析] 窗格。 可用的選項取決於選取的視覺效果類型。
 
 ![報表編輯器中的 [分析] 窗格](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
-有了 Power BI 服務的 [分析] 窗格，您就可以將動態參考線新增至視覺效果，為重要的趨勢或深入資訊提供焦點。 如需深入了解，請參閱 [Power BI 服務中的分析窗格](service-analytics-pane.md)或 [Power BI Desktop 中的分析窗格](desktop-analytics-pane.md)。
+使用 Power BI 服務中的 [分析] 窗格，您可以將動態參考線新增至視覺效果，為重要的趨勢或深入資訊提供焦點。 若要深入了解，請參閱 [Power BI 服務中的分析窗格](service-analytics-pane.md)或 [Power BI Desktop 中的分析窗格](desktop-analytics-pane.md)。
 
 - - -
 ## <a name="the-filters-pane"></a>[篩選] 窗格
@@ -90,6 +92,12 @@ Power BI 報表編輯器有三個區段︰
 ![[篩選] 窗格](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 如需詳細資訊，請參閱[在報表中加入篩選](power-bi-report-add-filter.md).
+
+我們已推出新的篩選體驗，目前為預覽狀態。 您可以在新的篩選中設定它們的格式，讓它們看起來就像報表一樣。 也可以鎖定篩選或向報表取用者隱藏篩選。 
+
+![新的篩選體驗](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
+
+深入了解[新篩選體驗](power-bi-report-filter-preview.md)。
 
 - - -
 ## <a name="the-fields-pane"></a>[欄位] 窗格
