@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 2a65baf94abcb79dac7bb9419ad67124f2b65bb8
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: 27f08b9922508866f190fc41848cb77031a91c6b
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488929"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216784"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
@@ -292,7 +292,7 @@ Power BI 報表伺服器中的 Power BI 報表可以連線到各種資料來源�
 
 **設定檔 rsreportserver.config**
 
-```
+```xml
 <Configuration>
   <Service>
     <PollingInterval>10</PollingInterval>

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ab71c717bd20c3c66c3c0f12ce5ca5dabe7c47ca
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bbb24552002711f3ce43654f7a0b5f307dda2a06
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286902"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215657"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>在 Power BI Desktop 中合併檔案 (二進位檔)
 將多個具有相同結構描述的檔案合併成單一邏輯資料表，是一種將資料匯入 **Power BI Desktop** 中的強大方法。 這個便利又熱門的方法在 **Power BI Desktop** 的 2016 年 11 月版本 (及後續版本) 中獲得了便利性及擴充能力的提升，如本文所述。

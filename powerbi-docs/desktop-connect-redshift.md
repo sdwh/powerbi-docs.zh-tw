@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5ee49a32542a032433c6eb53ca96cbe81d3df630
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8fb5e6da29d167c93441bbc802ecc5c79b0b5551
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291571"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216234"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Amazon Redshift
 在 **Power BI Desktop** 中，您可以連接至 **Amazon Redshift** 資料庫並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。

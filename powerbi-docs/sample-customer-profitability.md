@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3dd4f5f0404737685757400202d3a92767e44189
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9fb22a50d68e414e8d75fc004629eaa2633b066c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280812"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216485"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客戶獲利率範例：觀看導覽
 
@@ -165,7 +165,7 @@ ms.locfileid: "54280812"
 
 2.  從頂端的功能表列，選取 [詢問問題] 來開啟問與答問題方塊。
 
-    ![詢問一個與資料相關的問題](media/sample-customer-profitability/power-bi-ask-question.png)
+    ![詢問與資料相關的問題](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. 輸入 **Valery 依各項產業分列的總營收**。 請注意當您輸入問題時，視覺效果更新的方式。
 

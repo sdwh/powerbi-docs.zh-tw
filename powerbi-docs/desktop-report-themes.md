@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277426"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215727"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用報表主題
 透過**報表主題**，您可以將某個色彩主題套用至整個報表，例如公司色彩、季節性色彩，或其他色彩主題。 當您套用**報表主題**時，報表中的所有視覺效果都會使用您選取之主題中的色彩。 有少數例外狀況，此文章稍後將進行說明。
@@ -101,6 +101,7 @@ ms.locfileid: "54277426"
 
 以下是 *St Patrick's Day.json* 檔案的文字，您可以用來建立自己的 JSON 檔案：
 
+```json
     {
         "name": "St Patricks Day",
         "dataColors": ["#568410", "#3A6108", "#70A322", "#915203", "#D79A12", "#bb7711", "#114400", "#aacc66"],
@@ -108,6 +109,7 @@ ms.locfileid: "54277426"
         "foreground": "#3A6108",
         "tableAccent": "#568410"
     }
+```
 
 您可以從該處輸入代表所選色彩的自訂色彩十六進位碼。
 
@@ -133,7 +135,7 @@ ms.locfileid: "54277426"
 
 或許您也想要透過使用 [主題色彩] 區段來手動設定資料點色彩。 當您套用新的報表主題時，色彩將「不會」更新。 若您想要還原為您的預設色彩，以便在套用新的報表主題時更新這些色彩，可以在 [佈景主題色彩] 調色盤中選取 [還原為預設值]。
 
-![還原為預設值](media/desktop-report-themes/report-themes_9.png)
+![還原為預設](media/desktop-report-themes/report-themes_9.png)
 
 此外，許多 [自訂視覺效果] 將不會套用至報表主題。
 
@@ -158,6 +160,7 @@ ms.locfileid: "54277426"
 
 您不需要下載，我們已提供情人節 JSON 檔案的程式碼：
 
+```json
     {
         "name": "Valentine's Day",
         "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
@@ -165,6 +168,7 @@ ms.locfileid: "54277426"
         "foreground": "#ee7799",
         "tableAccent": "#990011"
     }
+```
 
 [報表主題] 可將您的 Power BI Desktop 報表設定為反映您、您的組織，甚至是當季或假日的色彩。 
 
@@ -280,7 +284,7 @@ ms.locfileid: "54277426"
 | plotAreaShading：對稱網底 |
 | ratioLine：比率行 |
 | referenceLine：常數線 |
-| ribbonChart：功能區 |
+| ribbonChart：緞帶 |
 | rotation：旋轉 |
 | rowHeaders：資料列標題 |
 | selection：選取控制項 |
@@ -303,7 +307,8 @@ ms.locfileid: "54277426"
 ### <a name="properties-within-each-card"></a>每張卡片中的屬性
 下列區段定義每張卡片中的屬性：
 
-    "general":
+```json
+      "general":
         "responsive": {
           "type": [
             "bool"
@@ -371,7 +376,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "categoryAxis": {
+      "categoryAxis": {
         "show": {
           "type": [
             "bool"
@@ -557,7 +562,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "valueAxis": {
+      "valueAxis": {
         "show": {
           "type": [
             "bool"
@@ -865,7 +870,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "dataPoint": {
+      "dataPoint": {
         "defaultColor": {
           "type": [
             "fill"
@@ -901,7 +906,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "labels": {
+      "labels": {
         "show": {
           "type": [
             "bool"
@@ -1019,7 +1024,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "lineStyles": {
+      "lineStyles": {
         "strokeWidth": {
           "type": [
             "numeric"
@@ -1094,7 +1099,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "plotArea": {
+      "plotArea": {
         "transparency": {
           "type": [
             "numeric"
@@ -1107,7 +1112,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "trend": {
+      "trend": {
         "show": {
           "type": [
             "bool"
@@ -1297,7 +1302,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "referenceLine": {
+      "referenceLine": {
         "show": {
           "type": [
             "bool"
@@ -1433,7 +1438,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "line": {
+      "line": {
         "lineColor": {
           "type": [
             "fill"
@@ -1470,7 +1475,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "fill": {
+      "fill": {
         "show": {
           "type": [
             "bool"
@@ -1499,7 +1504,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "rotation": {
+      "rotation": {
         "angle": {
           "type": [
             "numeric"
@@ -1509,7 +1514,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "categoryLabels": {
+      "categoryLabels": {
         "show": {
           "type": [
             "bool"
@@ -1546,7 +1551,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "wordWrap": {
+      "wordWrap": {
         "show": {
           "type": [
             "bool"
@@ -1556,7 +1561,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "dataLabels": {
+      "dataLabels": {
         "color": {
           "type": [
             "fill"
@@ -1585,7 +1590,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "cardTitle": {
+      "cardTitle": {
         "color": {
           "type": [
             "fill"
@@ -1614,7 +1619,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "card": {
+      "card": {
         "outline": {
           "type": [
             "enumeration"
@@ -1695,7 +1700,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "percentBarLabel": {
+      "percentBarLabel": {
         "show": {
           "type": [
             "bool"
@@ -1732,7 +1737,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "axis": {
+      "axis": {
         "min": {
           "type": [
             "numeric"
@@ -1758,7 +1763,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "target": {
+      "target": {
         "show": {
           "type": [
             "bool"
@@ -1817,7 +1822,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "calloutValue": {
+      "calloutValue": {
         "show": {
           "type": [
             "bool"
@@ -1860,7 +1865,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "forecast": {
+      "forecast": {
         "show": {
           "type": [
             "bool"
@@ -1927,7 +1932,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "bubbles": {
+      "bubbles": {
         "bubbleSize": {
           "type": [
             "formatting"
@@ -1937,7 +1942,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "mapControls": {
+      "mapControls": {
         "autoZoom": {
           "type": [
             "bool"
@@ -1962,7 +1967,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "mapStyles": {
+      "mapStyles": {
         "mapTheme": {
           "type": [
             "enumeration"
@@ -1972,7 +1977,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "shape": {
+      "shape": {
         "map": {
           "type": [
             "geoJson"
@@ -1990,7 +1995,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "zoom": {
+      "zoom": {
         "autoZoom": {
           "type": [
             "bool"
@@ -2025,7 +2030,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "xAxisReferenceLine": {
+      "xAxisReferenceLine": {
         "show": {
           "type": [
             "bool"
@@ -2150,7 +2155,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "fillPoint": {
+      "fillPoint": {
         "show": {
           "type": [
             "bool"
@@ -2160,7 +2165,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "colorByCategory": {
+      "colorByCategory": {
         "show": {
           "type": [
             "bool"
@@ -2170,7 +2175,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "plotAreaShading": {
+      "plotAreaShading": {
         "show": {
           "type": [
             "bool"
@@ -2213,7 +2218,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "ratioLine": {
+      "ratioLine": {
         "show": {
           "type": [
             "bool"
@@ -2253,7 +2258,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "grid": {
+      "grid": {
         "outlineColor": {
           "type": [
             "fill"
@@ -2373,7 +2378,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "columnHeaders": {
+      "columnHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2448,7 +2453,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "values": {
+      "values": {
         "outline": {
           "type": [
             "enumeration"
@@ -2567,7 +2572,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "total": {
+      "total": {
         "outline": {
           "type": [
             "enumeration"
@@ -2631,7 +2636,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "columnFormatting": {
+      "columnFormatting": {
         "fontColor": {
           "type": [
             "fill"
@@ -2687,7 +2692,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "rowHeaders": {
+      "rowHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2776,7 +2781,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "subTotals": {
+      "subTotals": {
         "outline": {
           "type": [
             "enumeration"
@@ -2848,7 +2853,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "selection": {
+      "selection": {
         "selectAllCheckboxEnabled": {
           "type": [
             "bool"
@@ -2866,7 +2871,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "header": {
+      "header": {
         "show": {
           "type": [
             "bool"
@@ -2919,7 +2924,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "items": {
+      "items": {
         "fontColor": {
           "type": [
             "fill"
@@ -2964,7 +2969,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "numericInputStyle": {
+      "numericInputStyle": {
         "fontColor": {
           "type": [
             "fill"
@@ -3001,7 +3006,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "slider": {
+      "slider": {
         "show": {
           "type": [
             "bool"
@@ -3019,7 +3024,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "dateRange": {
+      "dateRange": {
         "includeToday": {
           "type": [
             "bool"
@@ -3029,7 +3034,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "sentimentColors": {
+      "sentimentColors": {
         "increaseFill": {
           "type": [
             "fill"
@@ -3063,7 +3068,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "breakdown": {
+      "breakdown": {
         "maxBreakdowns": {
           "type": [
             "integer"
@@ -3076,7 +3081,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "indicator": {
+      "indicator": {
         "indicatorDisplayUnits": {
           "type": [
             "formatting"
@@ -3108,7 +3113,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "trendline": {
+      "trendline": {
         "show": {
           "type": [
             "bool"
@@ -3118,7 +3123,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "goals": {
+      "goals": {
         "showGoal": {
           "type": [
             "bool"
@@ -3136,7 +3141,7 @@ ms.locfileid: "54277426"
           ]
         }
       },
-    "status": {
+      "status": {
         "direction": {
           "type": [
             "enumeration"
@@ -3170,13 +3175,14 @@ ms.locfileid: "54277426"
           ]
         }
       }
-
+```
 
 
 
 ### <a name="enumerations-in-the-json-file"></a>JSON 檔案中的列舉
 下列區段定義您可以用於 JSON 檔案中的列舉。
 
+```json
     {
         "legend": {
             "position": [
@@ -4205,3 +4211,4 @@ ms.locfileid: "54277426"
          ]
        }
     }
+```

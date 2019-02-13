@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c680ebea23c479202b8b49ed0376f2416a9cffa3
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: a0a590f6029d273944f3e1fa9e537eec3e38bf97
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430617"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216424"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>在 Power BI Desktop 中使用泛型介面連接到資料
 您可以使用內建資料連接器，在 **Power BI Desktop** 中連接到多種不同的資料來源，連接器會顯示在 [取得資料] 視窗中，從 **Access 資料庫**到 **Zendesk** 資源皆涵蓋在內。 您也可以使用 **Power BI Desktop** 內建的泛型介面 (例如 **ODBC** 或 **REST API**) 連線到「其他」各式各樣的資料來源，進一步擴充您的連線選項。

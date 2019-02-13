@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 703ccbc0c1c541fe161f409480701788d0cd12af
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: cdf8613159aa729d7d5b9c9096364e19c48a494e
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280234"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215105"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 Analysis Services 表格式資料
 使用 Power BI Desktop 時，有兩種方式可以連線到 SQL Server Analysis Services 表格式模型並從中取得資料：「使用即時連線進行瀏覽」或「選取項目並匯入 Power BI Desktop」。
@@ -64,7 +64,7 @@ ms.locfileid: "54280234"
 
 **問：** 如果我建立即時連線，是否可以連線到同一個 Power BI Desktop 檔案中的另一個資料來源？
 
-**答：** 否。 您無法瀏覽即時資料並連接到同一個檔案中的另一種資料來源類型。 如果您已經匯入資料或連接到 Power BI Desktop 檔案中的不同資料來源，則必須建立新檔案以進行即時瀏覽。
+**答：** 否。  您無法瀏覽即時資料並連接到同一個檔案中的另一種資料來源類型。 如果您已經匯入資料或連接到 Power BI Desktop 檔案中的不同資料來源，則必須建立新檔案以進行即時瀏覽。
 
 **問：** 如果我建立即時連線，是否可以在 Power BI Desktop 中編輯模型或查詢？
 

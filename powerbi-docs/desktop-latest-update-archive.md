@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b82f739d8e5dd5497ab2a41e44097fda12345bd3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1672df71d1b555a3ffcbc9f72bab5053d33c6bc3
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278208"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216876"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -2062,7 +2062,7 @@ ms.locfileid: "54278208"
 
 -   新的文字資料行篩選 - 「開頭不是」  和「結尾不是」 
 
--   增強的隱私權等級對話方塊。
+-   增強的私密性等級對話方塊
 
 看看下列影片以取得詳細資訊：
 

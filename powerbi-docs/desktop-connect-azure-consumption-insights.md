@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7280d7c601e59b15ffad6ececfed8b111ab796cb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 1302ede9c28cc42b3605e55705f07620f2974990
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430962"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216048"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Azure 使用深入解析
 使用 **Azure 使用深入解析**連接器，您可以使用 **Power BI Desktop** 連線到 Azure，並取得關於貴組織的 Azure 服務使用量的深入資料和相關資訊。 您也可以建立量值、自訂資料行和視覺效果，報告及共用有關貴組織 Azure 使用量的資訊。 這一版的 **Azure 使用深入解析**連接器處於搶鮮版 (Beta)，並可能有所變更。

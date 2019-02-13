@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 51eb5c2947dc6d621e6c2ef6d3e2361a4542a0f1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee7b69bbf8857f12cabb6f7147f8e1d779b2a17e
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276921"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215059"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>內部部署資料閘道的高可用性叢集
 
@@ -59,13 +59,13 @@ PowerShell 指令碼可用於內部部署資料閘道安裝資料夾。 依預�
 1. 以系統管理員身分開啟 PowerShell 命令視窗
 2. 然後執行下列一次性 PowerShell 命令 (這樣會假設您永遠不會在目前電腦上執行 PowerShell 命令)：
 
-    ```
+    ```powershell
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
     ```
 
 3. 接下來，在 PowerShell 視窗中瀏覽至內部部署資料閘道安裝資料夾，並使用下列命令匯入必要模組：
 
-    ```
+    ```powershell
     Import-Module .\OnPremisesDataGatewayHAMgmt.psm1
     ```
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 157808d7378b40cb097c2cb667eb9d237654e66d
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: bb87bc95e9d0bbde4d9239d172d341cbebb716cc
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234408"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216830"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>使用 Office Online Server (OOS) 設定報表伺服器來裝載 Excel 活頁簿
 
@@ -32,13 +32,13 @@ ms.locfileid: "55234408"
 
     **Windows Server 2012 R2：**
 
-    ```
+    ```powershell
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,InkandHandwritingServices,NET-Framework-Features,NET-Framework-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
 
     **Windows Server 2016：**
 
-    ```
+    ```powershell
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
 
@@ -80,7 +80,7 @@ Office Online Server Language Pack 可讓使用者以多國語言檢視網頁 Of
 
 使用 New-OfficeWebAppsFarm 命令，來建立包含單一伺服器的新 Office Online Server 伺服器陣列，如下列範例所示。
 
-```
+```powershell
 New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "https://wacweb01.contoso.com" -CertificateName "OfficeWebApps Certificate"
 ```
 
@@ -94,7 +94,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 使用 New-OfficeWebAppsFarm 命令，來建立包含單一伺服器的新 Office Online Server 伺服器陣列，如下列範例所示。
 
-```
+```powershell
 New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 ```
 
@@ -113,11 +113,11 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 如果 Office Online Server 如預期運作，您應該會在網頁瀏覽器中看到 Web Application Open Platform Interface Protocol (WOPI) 探索 XML 檔案。 該檔案的前幾行應該類似下列範例：
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?> 
-- <wopi-discovery>
-- <net-zone name="internal-http">
-- <app name="Excel" favIconUrl="<InternalUrl>/x/_layouts/images/FavIcon_Excel.ico" checkLicense="true">
+<wopi-discovery>
+<net-zone name="internal-http">
+<app name="Excel" favIconUrl="<InternalUrl>/x/_layouts/images/FavIcon_Excel.ico" checkLicense="true">
 <action name="view" ext="ods" default="true" urlsrc="<InternalUrl>/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
 <action name="view" ext="xls" default="true" urlsrc="<InternalUrl>/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
 <action name="view" ext="xlsb" default="true" urlsrc="<InternalUrl>/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
@@ -128,7 +128,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 Power BI 報表伺服器中所有檔案的檔案大小上限為 100 MB。 若要保持同步，您需要在 OOS 中手動設定此項目。
 
-```
+```powershell
 Set-OfficeWebAppsFarm -ExcelWorkbookSizeMax 100
 ```
 
@@ -140,7 +140,7 @@ Set-OfficeWebAppsFarm -ExcelWorkbookSizeMax 100
 
 在 OOS 伺服器上，執行下列 PowerShell 命令。
 
-```
+```powershell
 Set-OfficeWebAppsFarm -ExcelUseEffectiveUserName:$true
 Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 Set-OfficeWebAppsFarm -ExcelWarnOnDataRefresh:$false
@@ -152,13 +152,13 @@ Set-OfficeWebAppsFarm -ExcelWarnOnDataRefresh:$false
 
 為了讓 OOS 使用 Power Pivot 模式執行個體，請執行下列命令。
 
-```
+```powershell
 New-OfficeWebAppsExcelBIServer -ServerId <server_name>\POWERPIVOT
 ```
 
 如果您尚未允許外部資料，請從上述的 Analysis Services 步驟中執行下列命令。
 
-```
+```powershell
 Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 ```
 

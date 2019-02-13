@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: afc4df99b90d6c6d7016f34983ca3691fb500325
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296562"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223912"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>為內部部署資料閘道進行疑難排解
 
@@ -35,11 +35,15 @@ ms.locfileid: "54296562"
 
 * 若要停止服務，請執行這個命令：
 
-    '''   net stop PBIEgwService   '''
+    ```
+    net stop PBIEgwService
+    ```
 
 * 若要啟動服務，請執行這個命令：
 
-    '''   net start PBIEgwService   '''
+    ```
+    net start PBIEgwService
+    ```
 
 ### <a name="log-file-configuration"></a>記錄檔設定
 
@@ -318,7 +322,7 @@ ms.locfileid: "54296562"
 > [!IMPORTANT]
 > 根據閘道的使用方式，啟用 EmitQueryTraces 可能會大幅增加記錄大小。 在您完成檢閱記錄後，可能需要將 EmitQueryTraces 設定為 False。 不建議長期啟用這項設定。
 
-```
+```xml
 <setting name="EmitQueryTraces" serializeAs="String">
     <value>True</value>
 </setting>
@@ -362,7 +366,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 > [!IMPORTANT]
 > 將 TracingVerbosity 啟用為 `5`，可能會根據閘道使用量而大幅增加記錄大小。 在您完成檢閱記錄後，需要將 TraceVerbosity 設定為 `4`。 不建議長期啟用這項設定。
 
-```
+```xml
 <setting name="TracingVerbosity" serializeAs="String">
     <value>5</value>
 </setting>
@@ -486,7 +490,7 @@ ImpersonationLevel 與 SPN 設定或本機原則設定有關。
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
-```
+```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">
         <value>sAMAccount</value>
       </setting>
