@@ -4,18 +4,17 @@ description: 了解如何將內容部署到 Power BI Embedded 主區域以外區
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/31/2018
-LocalizationGroup: Embedded
-ms.openlocfilehash: ab1b0f7ea7dbee13f39fbf47505a00e2ed6d41ea
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280416"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762413"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Power BI Embedded 的多地理位置支援 (預覽版)
 
@@ -56,7 +55,9 @@ ms.locfileid: "54280416"
 若要將您的 Power BI 內容移到不同的區域，請依照下列步驟執行：
 
 1. 在不同的區域中[建立新容量](azure-pbie-create-capacity.md)。
+
 2. 將所有工作區從現有容量指派到新容量。
+
 3. 刪除或暫停舊容量。
 
 請注意，若您決定刪除容量而不重新指派其內容，該容量中的所有內容都會移到共用容量，亦即您的主區域。
@@ -66,7 +67,9 @@ ms.locfileid: "54280416"
 為支援搭配多地理位置透過 API 來管理容量，我們對現有 API 進行了一些變更：
 
 1. **[取得容量](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)** - API 會傳回使用者可存取的容量清單。 回應現在包含稱為 ‘region’ 的額外屬性，此屬性指定容量的位置。
-2. **[指派到容量](https://docs.microsoft.com/rest/api/power-bi/capacities)** - API　允許將給定的工作區指派到容量。 此作業不允許您將工作區指派給您主區域以外的容量或在不同的區域之間移動工作區。 若要執行此作業，使用者仍需要工作區的系統管理權限，以及目標容量上的系統管理或指派權限。
+
+2. **[指派到容量](https://docs.microsoft.com/rest/api/power-bi/capacities)** - API　允許將給定的工作區指派到容量。 此作業不允許您將工作區指派給您主區域以外的容量或在不同的區域之間移動工作區。 若要執行此作業，使用者或[服務主體](embed-service-principal.md)仍需要工作區的系統管理權限，以及目標容量上的系統管理或指派權限。
+
 3. **[Azure Resource Manager API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** - 所有 Azure Resource Manager API 作業 (包括「建立」與「刪除」) 都支援多地理位置。
 
 ## <a name="limitations-and-considerations"></a>限制與考量

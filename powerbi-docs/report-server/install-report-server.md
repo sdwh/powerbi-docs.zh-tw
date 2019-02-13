@@ -2,19 +2,19 @@
 title: 安裝 Power BI 報表伺服器
 description: 了解如何安裝 Power BI 報表伺服器。
 author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 12/07/2018
-ms.author: maggies
-ms.openlocfilehash: 78d4db9d5a6b4752005bd43b31b2ca0dbaa0c1da
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bf204fe3ee9dcff83a6e2c964196a85daf547d74
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292376"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762574"
 ---
 # <a name="install-power-bi-report-server"></a>安裝 Power BI 報表伺服器
 
@@ -25,58 +25,62 @@ ms.locfileid: "54292376"
 若要下載 Power BI 報表伺服器，請前往[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)，然後選取 [下載免費試用]。 
 
 ## <a name="before-you-begin"></a>開始之前
+
 安裝 Power BI 報表伺服器之前，建議您先檢閱[安裝 Power BI 報表伺服器的硬體和軟體需求](system-requirements.md)。
 
  > [!IMPORTANT]
  > 雖然您可以將 Power BI 報表伺服器安裝在有唯讀網域控制站 (RODC) 的環境中，但 Power BI 報表伺服器需要存取讀寫網域控制站才能正常運作。 如果 Power BI 報表伺服器只能存取 RODC，您在嘗試管理服務時可能會發生錯誤。
 
-
 ### <a name="power-bi-report-server-product-key"></a>Power BI 報表伺服器產品金鑰
 
 #### <a name="power-bi-premium"></a>Power BI Premium
+
 如果您已購買 Power BI Premium，則在 Power BI 管理入口網站的 [進階設定] 索引標籤內，您可存取 Power BI 報表伺服器產品金鑰。 這只適用於全域系統管理員，或已獲指派 Power BI 服務系統管理員角色的使用者。
 
-![](../media/service-admin-premium-manage/pbirs-product-key.png "[Premium 設定] 內的 Power BI 報表伺服器金鑰")
+![Premium 設定](../media/service-admin-premium-manage/pbirs-product-key.png "Premium 設定內的 Power BI 報表伺服器金鑰")
 
 選取 [Power BI 報表伺服器金鑰] 會顯示一個包含產品金鑰的對話方塊。 您可以複製金鑰，並在安裝時使用。
 
-![](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Power BI 報表伺服器產品金鑰")
+![產品金鑰](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Power BI 報表伺服器產品金鑰")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise 軟體保證 (SA)
+
 如果您有 SQL Server Enterprise SA 合約，您可以從[大量授權服務中心](https://www.microsoft.com/Licensing/servicecenter/)取得您的產品金鑰。
 
 ## <a name="install-your-report-server"></a>安裝報表伺服器
+
 安裝 Power BI 報表伺服器不難。 安裝檔案只要幾個步驟。
 
 安裝時不需要使用 SQL Server 資料庫引擎伺服器。 但在安裝之後需要一部來設定 Reporting Services。
 
 1. 找到 PowerBIReportServer.exe 的位置並啟動安裝程式。
+
 2. 選取 [安裝 Power BI 報表伺服器]。
-   
+
     ![安裝 Power BI 報表伺服器](media/install-report-server/pbireportserver-install.png)
 3. 選擇要安裝的版本，然後選取 [下一步]。
-   
+
     ![選擇版本](media/install-report-server/pbireportserver-choose-edition.png)
-   
+
     您可以從下拉式清單中選擇 Evaluation 或 Developer 版本。
-   
-    ![](media/install-report-server/pbireportserver-choose-edition2.png)
-   
+
+    ![版本 2](media/install-report-server/pbireportserver-choose-edition2.png)
+
     否則，您可以輸入從 Power BI 服務或大量授權服務中心取得的伺服器產品金鑰。 如需如何取得產品金鑰的詳細資訊，請參閱[開始之前](#before-you-begin)一節。
 4. 閱讀並接受授權條款和條件，然後選取 [下一步]。
-   
+
     ![授權條款](media/install-report-server/pbireportserver-eula.png)
 5. 您需要有資料庫引擎才能儲存報表伺服器資料庫。 選取 [下一步] 只安裝報表伺服器。
-   
+
     ![只安裝檔案](media/install-report-server/pbireportserver-install-files-only.png)
 6. 指定報表伺服器的安裝位置。 選取 [安裝] 繼續作業。
-   
+
     ![指定安裝路徑](media/install-report-server/pbireportserver-install-file-path.png)
-   
+
     預設路徑是 C:\Program Files\Microsoft Power BI Report Server。
 
-1. 安裝成功後，請選取 [設定報表伺服器] 啟動 Reporting Services 設定管理員。
-   
+7. 安裝成功後，請選取 [設定報表伺服器] 啟動 Reporting Services 設定管理員。
+
     ![設定報表伺服器](media/install-report-server/pbireportserver-configure.png)
 
 ## <a name="configuring-your-report-server"></a>設定報表伺服器
@@ -86,6 +90,7 @@ ms.locfileid: "54292376"
 您需要[建立報表伺服器資料庫](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)來完成 Reporting services 的初始設定。 需要 SQL Server 資料庫伺服器才能完成此步驟。
 
 ### <a name="creating-a-database-on-a-different-server"></a>在其他伺服器上建立資料庫
+
 如果您要在另一部電腦的資料庫伺服器上建立報表伺服器資料庫，您需要將報表伺服器的服務帳戶變更為資料庫伺服器上可辨識的認證。 
 
 報表伺服器預設使用虛擬服務帳戶。 如果您嘗試在其他伺服器上建立資料庫，可能會在套用連接權限的步驟中收到下列錯誤。
@@ -99,6 +104,7 @@ ms.locfileid: "54292376"
 如需詳細資訊，請參閱[設定報表伺服器服務帳戶](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)。
 
 ## <a name="windows-service"></a>Windows 服務
+
 Windows 服務會建立為安裝的一部分。 它會顯示為 **Power BI 報表伺服器**。 服務名稱是 **PowerBIReportServer**。
 
 ![報表伺服器 Windows 服務](media/install-report-server/pbireportserver-windows-service.png)
@@ -106,6 +112,7 @@ Windows 服務會建立為安裝的一部分。 它會顯示為 **Power BI 報�
 ![報表伺服器 Windows 服務屬性](media/install-report-server/pbireportserver-windows-service2.png)
 
 ## <a name="default-url-reservations"></a>預設的 URL 保留項目
+
 URL 保留項目是由前置詞、主機名稱、連接埠及虛擬目錄所組成︰
 
 | 組件 | 描述 |
@@ -121,16 +128,19 @@ URL 保留項目是由前置詞、主機名稱、連接埠及虛擬目錄所組�
 * `http://+:80/reports` 可以存取入口網站。
 
 ## <a name="firewall"></a>防火牆
+
 如果要從遠端電腦存取報表伺服器，您會想要確定已設定所有防火牆規則，如果有防火牆存在的話。
 
 您需要開啟已為 Web 服務 URL 和入口網站 URL 設定的 TCP 連接埠。 根據預設，這些都設定在 TCP 連接埠 80。
 
 ## <a name="additional-configuration"></a>額外設定
+
 * 若要設定與 Power BI 服務整合，以便將報表項目釘選至 Power BI 儀表板，請參閱[與 Power BI 服務整合](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager)。
 * 若要設定電子郵件以處理訂用帳戶，請參閱[電子郵件設定](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager)和[在報表伺服器中傳遞電子郵件](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)。
 * 若要設定入口網站可在報表電腦上存取，以便檢視和管理報表，請參閱[設定防火牆以存取報表伺服器](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access)和[設定報表伺服器進行遠端管理](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration)。
 
 ## <a name="next-steps"></a>後續步驟
+
 [系統管理員概觀](admin-handbook-overview.md)  
 [如何找到您的報表伺服器產品金鑰](find-product-key.md)  
 [安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)  
@@ -144,4 +154,3 @@ URL 保留項目是由前置詞、主機名稱、連接埠及虛擬目錄所組�
 [Power BI 報表伺服器的瀏覽器支援](browser-support.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

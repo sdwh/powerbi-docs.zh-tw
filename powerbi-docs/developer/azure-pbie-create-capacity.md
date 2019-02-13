@@ -2,24 +2,24 @@
 title: 在 Azure 入口網站中建立 Power BI Embedded 容量 | Microsoft Docs
 description: 本文逐步解說如何在 Microsoft Azure 中建立 Power BI Embedded 容量。
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.service: power-bi-embedded
 ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
-ms.reviewer: ''
-ms.date: 07/31/2018
-ms.openlocfilehash: caab7ce649687ec22d171e112382aa13d7652fb9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.reviewer: zakharb
+ms.date: 02/05/2019
+ms.openlocfilehash: 1d829dc31bc6e2419d4f2c187b40d6945f963f69
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288535"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762551"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 入口網站中建立 Power BI Embedded 容量
 
-本文逐步解說如何在 Microsoft Azure 中建立 Power BI Embedded 容量。 Power BI Embedded 可協助您快速將令人讚嘆的視覺效果、報表和儀表板新增至您的應用程式，藉以簡化 Power BI 功能。
+本文逐步解說如何在 Microsoft Azure 中建立 [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) 容量。 Power BI Embedded 可協助您快速地將令人讚嘆的視覺效果、報表和儀表板新增至您的應用程式，藉以簡化 Power BI 功能。
 
 如果您沒有 Azure 訂用帳戶，請先建立[免費帳戶](https://azure.microsoft.com/free/)，再開始進行。
 
@@ -38,13 +38,11 @@ ms.locfileid: "54288535"
 
 1. 登入[Azure 入口網站](https://portal.azure.com/)。
 
-2. 選取 [建立資源] > [資料 + 分析]。
+2. 在搜尋方塊中，搜尋 *Power BI Embedded*。
 
-3. 在搜尋方塊中，搜尋 *Power BI Embedded*。
+3. 在 Power BI Embedded 中，選取 [建立]。
 
-4. 在 Power BI Embedded 中，選取 [建立]。
-
-5. 填入必要資訊，然後選取 [建立]。
+4. 填入必要資訊，然後選取 [建立]。
 
     ![要填入以建立新容量的欄位](media/azure-pbie-create-capacity/azure-portal-create-power-bi-embedded.png)
 
@@ -57,9 +55,7 @@ ms.locfileid: "54288535"
     |**位置**|Power BI 在您租用戶中裝載的位置。 您的預設位置是您的主區域，但您可以使用 [多地理位置選項](embedded-multi-geo.md)來變更該位置。
     |**定價層**|選取符合您需求的 SKU (V 核心計數和記憶體大小)。  如需詳細資訊，請參閱 [Power BI Embedded 定價](https://azure.microsoft.com/pricing/details/power-bi-embedded/)|
 
-6. 選取 [建立]。
-
-建立作業通常需要不到一分鐘的時間；通常只要幾秒鐘。 如果選取 [釘選到儀表板]，您可以巡覽至儀表板來查看新容量。 或者，您可以巡覽至 [所有服務] > [Power BI Embedded] 查看容量是否就緒。
+您可以瀏覽至 [所有服務] > [Power BI Embedded] 查看容量是否就緒。 或者，您可以從通知區段中或從刀鋒視窗內選取 [釘選到儀表板]，瀏覽至儀表板以查看新容量。
 
 ![顯示 Power BI Embedded 容量的 Azure 入口網站儀表板](media/azure-pbie-create-capacity/azure-portal-dashboard.png)
 

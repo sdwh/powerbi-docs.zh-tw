@@ -8,15 +8,15 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: f50305eed647bfc94bc5c19ee1a298cb9ac9c782
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284165"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762689"
 ---
-# <a name="use-row-level-security-with-power-bi-embedded-content"></a>搭配 Power BI 內嵌內容使用資料列層級安全性
+# <a name="row-level-security-with-power-bi-embedded"></a>搭配 Power BI Embedded 的資料列層級安全性
 
 **資料列層級安全性 (RLS)** 可用來限制使用者存取儀表板、磚、報表和資料集內的資料。 不同的使用者可在看見不同的資料時使用這些相同的成品。 內嵌支援 RLS。
 
@@ -247,7 +247,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 當您產生內嵌權杖時，可以在 Azure SQL 中指定使用者有效的身分識別。 您可以透過將 AAD 存取權杖傳遞至伺服器來指定使用者有效的身分識別。 存取權杖用於從 Azure SQL 中僅針對該特定工作階段提取該使用者的相關資料。
 
-它可以用來管理 Azure SQL 中每個使用者的檢視，或作為多租用戶資料庫中的特定客戶登入 Azure SQL。 它也可以用來在 Azure SQL 中對該工作階段套用資料列層級安全性，並僅擷取該工作階段的相關資料，而不需要管理 Power BI 中的 RLS。
+它可以用來管理 Azure SQL 中每個使用者的檢視，或作為多租用戶資料庫中的特定客戶登入 Azure SQL。 它也可以在 Azure SQL 中對該工作階段套用資料列層級安全性，並僅擷取該工作階段的相關資料，而不需要管理 Power BI 中的 RLS。
 
 此類有效身分識別問題直接適用於 Azure SQL Server 上的 RLS 規則。 當從 Azure SQL Server 查詢資料時，Power BI Embedded 會使用所提供的存取權杖。 由於 USER_NAME() SQL 函數，可以存取使用者的 UPN (為其提供存取權杖)。
 
@@ -307,6 +307,18 @@ public IdentityBlob(string value);
    > 若要能夠為 Azure SQL 建立存取權杖，應用程式必須具備**存取 Azure SQL DB 和資料倉儲**委派權限到 Azure 入口網站中 AAD 應用程式註冊設定上的 **Azure SQL Database** API。
 
    ![應用程式註冊](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
+
+## <a name="on-premises-data-gateway-with-service-principal-preview"></a>搭配服務主體的內部部署資料閘道 (預覽)
+
+使用 SQL Server Analysis Services (SSAS) 內部部署即時連線資料來源來設定資料列層級安全性 (RLS) 的客戶，可以享有新的[服務主體](embed-service-principal.md)功能，以在與 **Power BI Embedded** 整合時，管理使用者和其對 SSAS 中資料的存取。
+
+使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)，可讓您使用[服務主體物件](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)，為內嵌權杖的 SSAS 內部部署即時連線指定有效的身分識別。
+
+直到目前為止，若要能夠為 SSAS 內部部署即時連線指定有效的身分識別，產生內嵌權杖的主使用者必須是閘道管理員。現在，不需要使用者是閘道管理員，閘道管理員即可將該資料來源的專用權限授與使用者，讓使用者可在產生內嵌權杖時，覆寫有效的身分識別。 這項新功能可讓您使用服務主體，為即時 SSAS 連線進行內嵌。
+
+若要啟用此案例，閘道管理員可以使用[新增資料來源使用者 REST API](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser)，將 Power BI Embedded 的 *ReadOverrideEffectiveIdentity* 權限授與服務主體。
+
+您無法使用系統管理入口網站設定此權限。 此權限只能使用 API 來設定。 在系統管理入口網站中，會指出具有這類權限的使用者和 SPN。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 

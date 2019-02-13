@@ -2,32 +2,32 @@
 title: 使用 Azure AD 註冊應用程式
 description: 逐步解說 ─ 將資料推送至資料集 ─ 使用 Azure AD 註冊應用程式
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: db3184f7bc3c181b685c22d0bcad27206b4a0f8f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: a3154a7b74d196f3c0aa2969e7c25bf56000a662
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296355"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762022"
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>步驟 1：使用 Azure AD 註冊應用程式
+
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
 將資料推送至 Power BI 資料集的第一個步驟，是在 Azure AD 中註冊您的應用程式。 您必須先執行此作業，以便取得 **用戶端識別碼** ，在 Azure AD 中識別您的應用程式。 若無 **用戶端識別碼**，Azure AD 便無法驗證您的應用程式。
 
 > **注意**：註冊 Power BI 的 Web 應用程式之前，您必須先[註冊 Power BI](create-an-azure-active-directory-tenant.md)。
-> 
-> 
 
 以下是在 Azure AD 中註冊應用程式的步驟。
 
 ## <a name="register-an-app-in-azure-ad"></a>在 Azure AD 中註冊應用程式
+
 1. 請前往 dev.powerbi.com/apps。
 2. 按一下 [使用現有的帳戶登入] ，然後登入 Power BI 帳戶。
 3. 輸入 **應用程式名稱** ，例如「推送資料應用程式範例」。
@@ -38,13 +38,14 @@ ms.locfileid: "54296355"
 
 以下是 **為 Power BI 註冊應用程式** 頁面的外觀：
 
-![](media/walkthrough-push-data-register-app-with-azure-ad/powerbi-developer-sample-register-app.png)
+![註冊應用程式](media/walkthrough-push-data-register-app-with-azure-ad/powerbi-developer-sample-register-app.png)
 
 下一步將為您示範如何[取得驗證存取權杖](walkthrough-push-data-get-token.md)。
 
 [下一步 >](walkthrough-push-data-get-token.md)
 
 ## <a name="next-steps"></a>後續步驟
+
 [註冊 Power BI](create-an-azure-active-directory-tenant.md)  
 [取得驗證存取權杖](walkthrough-push-data-get-token.md)  
 [逐步解說：將資料推送至資料集](walkthrough-push-data.md)  
@@ -52,4 +53,3 @@ ms.locfileid: "54296355"
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
-

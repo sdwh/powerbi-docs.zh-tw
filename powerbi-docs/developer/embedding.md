@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: b333ed96fe14ed7bbc91869e507a8e76504b6a5f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: ca159fb8cea26f4c707aabc99d9fa2c308a32e1a
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288121"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762436"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>搭配 Power BI 使用內嵌式分析
 
@@ -32,7 +32,7 @@ Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 A
 
 ## <a name="using-apis"></a>使用 API
 
-內嵌 Power BI 內容時有兩個主要案例。  內嵌貴組織中有 Power BI 授權的使用者，以及內嵌使用者和客戶而不要求他們有 Power BI 授權。 這兩個案例都允許使用 Power BI REST API。
+內嵌 Power BI 內容時有兩個主要案例。 內嵌貴組織中有 Power BI 授權的使用者，以及內嵌使用者和客戶而不要求他們有 Power BI 授權。 這兩個案例都允許使用 Power BI REST API。
 
 針對沒有 Power BI 授權的客戶和使用者，將儀表板和報告內嵌至您的自訂應用程式，並使用相同的 API 來服務組織或客戶。 您的客戶會看到應用程式所管理的資料。 此外，針對組織中的 Power BI 使用者，他們將可另外選擇要直接在 Power BI 中，還是在內嵌應用程式內容中檢視「他們的資料」。 您可以針對內嵌需求而完整利用 JavaScript 和 REST API。
 
@@ -40,7 +40,7 @@ Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 A
 
 ## <a name="embedding-for-your-organization"></a>對組織進行內嵌
 
-**對組織進行內嵌**可讓您擴充 Power BI 服務。 對組織進行內嵌需要應用程式的使用者在想要檢視其內容時，登入 Power BI 服務。 貴組織中有人登入之後，他們只能在 Power BI 服務中存取他們自己的和已經與他們共用的儀表板和報表。
+**對組織進行內嵌**可讓您擴充 Power BI 服務。 對組織進行內嵌需要應用程式的使用者在想要檢視內容時，登入 Power BI 服務。 貴組織中有人登入之後，他們只能在 Power BI 服務中存取他們自己的和某人已經與他們共用的儀表板和報表。
 
 對組織進行內嵌的範例包括內部應用程式，例如 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams 整合 (您必須具有系統管理員權限)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) 和 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)。
 
@@ -50,7 +50,7 @@ Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 A
 
 針對 Power BI 使用者內嵌時，可透過 [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) 來使用自助功能，例如編輯、儲存等。
 
-您可以完成[內嵌安裝工具](https://aka.ms/embedsetup/UserOwnsData)來針對組織進行內嵌，以快速開始及下載應用程式範例，該應用程式範例會引導您整合組織的報表。
+您可以完成[內嵌安裝工具](https://aka.ms/embedsetup/UserOwnsData)來針對組織進行內嵌，以開始及下載應用程式範例，該應用程式範例會引導您整合組織的報表。
 
 ## <a name="embedding-for-your-customers"></a>對客戶進行內嵌
 
@@ -62,7 +62,11 @@ Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 A
 
 Power BI Embedded 可為 ISV、其開發人員及客戶帶來好處。 例如，ISV 可以免費使用 Power BI Desktop 開始建立視覺效果。 ISV 可以藉由減少視覺效果分析開發工作並利用差異化的資料體驗在競爭對手中脫穎而出，加快應用程式上市的速度。 ISV 也可以選擇針對內嵌分析創造的價值收取較高的費用。
 
-使用 Power BI Embedded，您的客戶完全不需要了解 Power BI。 若要建立內嵌的應用程式，您只需要一個 Power BI Pro 帳戶。 Power BI Pro 帳戶將成為應用程式的主帳戶 (將此主帳戶視為 Proxy 帳戶)。 Power BI Pro 帳戶也可讓您產生內嵌權杖，以提供存取 Power BI 服務內應用程式所擁有/管理的儀表板和報告。
+使用 Power BI Embedded，您的客戶完全不需要了解 Power BI。 您可以使用兩種不同的方法來建立內嵌應用程式。 其中一個選項為使用 Power BI Pro 帳戶。 另一個選項為使用服務主體。 
+
+Power BI Pro 帳戶將成為應用程式的主帳戶 (將此主帳戶視為 Proxy 帳戶)。 Power BI Pro 帳戶可讓您產生內嵌權杖，以提供存取 Power BI 服務內應用程式所擁有和管理的儀表板和報告。
+
+[服務主體](embed-service-principal.md)可以使用「僅限應用程式」權杖，將 Power BI 內容內嵌至應用程式。 服務主體可讓您產生內嵌權杖，以提供存取 Power BI 服務內應用程式所擁有和管理的儀表板和報告。
 
 使用 Power BI Embedded 的開發人員可以花時間專注在建置其應用程式的核心競爭力，而不是將時間耗費在開發視覺效果和分析。 開發人員可以快速滿足客戶報表和儀表板的需求，並且能夠輕鬆地內嵌完整記載的 API 和 SDK。 透過在應用程式中啟用輕鬆巡覽資料探勘，ISV 可讓客戶在來自任何裝置的內容中進行資料驅動的快速決策。
 
@@ -71,7 +75,7 @@ Power BI Embedded 可為 ISV、其開發人員及客戶帶來好處。 例如，
 
 當您準備好進入生產環境時，必須將應用程式工作區指派給專用容量。 Microsoft Azure 中的 Power BI Embedded 提供與您應用程式搭配使用的[專用容量](azure-pbie-create-capacity.md)。
 
-如需如何內嵌的詳細資訊，請參閱[如何內嵌 Power BI 儀表板、報表和圖格](embed-sample-for-customers.md)。
+如需如何內嵌的詳細資訊，請參閱[如何內嵌 Power BI 內容](embed-sample-for-customers.md)。
 
 ## <a name="next-steps"></a>後續步驟
 

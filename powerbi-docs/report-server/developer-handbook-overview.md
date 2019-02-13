@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: df77d4b9642a6df511af8af054e3e983c0120f77
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b1357d2e10214cdf578bff4d2aa7fca8fc19033
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291610"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794710"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>開發人員手冊概觀, Power BI 報表伺服器
 歡迎使用 Power BI 報表伺服器的開發人員手冊，您可於此內部部署位置中儲存和管理您的 Power BI 報表、行動報表及編頁報表。
@@ -24,13 +24,13 @@ ms.locfileid: "54291610"
 本手冊會反白顯示您作為開發人員所具有的選項，以使用 Power BI 報表伺服器。
 
 ## <a name="embedding"></a>內嵌
-對於 Power BI 報表伺服器中的任何報表，您可透過將查詢字串參數 `?rs:Embed=true` 新增至 URL，在 iFrame 內進行內嵌。 這適用於 Power BI 報表及其他報表類型。
+對於 Power BI 報表伺服器中的任何報表，您可透過將查詢字串參數 `?rs:Embed=true` 新增至 URL，在 iFrame 內進行內嵌。 此技術適用於 Power BI 報表及其他報表類型。
 
 ### <a name="report-viewer-control"></a>報表檢視器控制項
-對於編頁報表，您可以利用報表檢視器控制項。 這可讓您將控制項置於 .NET 視窗或 Web 應用程式。 如需詳細資訊，請參閱[開始使用報表檢視器控制項](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)。
+對於編頁報表，您可以利用報表檢視器控制項。 有了它，您就可以將控制項置於 .NET 視窗或 Web 應用程式內。 如需詳細資訊，請參閱[開始使用報表檢視器控制項](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)。
 
 ## <a name="apis"></a>API
-您有數個 API 選項可選，能與 Power BI 報表伺服器互動。 包括下列項目。
+您有數個 API 選項可選，能與 Power BI 報表伺服器互動。 此技術包括下列各項。
 
 * [REST API](rest-api.md)
 * [URL 存取](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)

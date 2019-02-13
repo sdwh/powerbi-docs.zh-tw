@@ -8,17 +8,17 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 01/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: f7e83c2d0cd2f1c3344bf61f9f90ca43f09f7189
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234339"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794306"
 ---
-# <a name="visualizations-for-power-bi-consumers"></a>適用於 Power BI「取用者」的視覺效果
+# <a name="interact-with-visualizations-in-reports-dashboards-and-apps"></a>在報表、儀表板和應用程式中與視覺效果互動
 
 就基礎而言，「視覺效果 (visualization)」(或 *visual*)，是 Power BI「設計者」使用「報表」和「資料集」中的資料所建立的一種圖表。 
 
@@ -27,13 +27,14 @@ ms.locfileid: "55234339"
 
 ## <a name="what-can-i-do-with-visualizations"></a>視覺效果有哪些功能？
 
-視覺效果由報表和儀表板「設計者」建立，並與「取用者」共用。 取用者有許多選項可用來與視覺效果互動，以發掘見解並做出資料驅動的商務決策。 這些選項全都列在下方，並有逐步指示的連結。
+視覺效果由報表和儀表板「設計者」建立，並與「取用者」共用。 取用者有許多選項可用來與視覺效果互動，以發掘見解並做出資料驅動的商務決策。 這些選項全都列在資料表下方，並有逐步指示的連結。
 
-但是首先，讓我們談談問與答。 問與答是 Power BI 的自然語言搜尋工具。 您可以使用自然語言來鍵入問題，而問與答會以視覺效果形式來回答問題。 取用者可以透過問與答來建立自己的視覺效果。 然而，您使用問與答所建立的視覺效果無法儲存。 但是，如果您想要從資料中知道特定資訊，而設計者未在報表或儀表板中包含該資訊，問與答便是絕佳的選項。 若要深入了解問與答，請參閱[取用者的問與答](end-user-q-and-a.md)。
+> [!IMPORTANT]
+> 但是首先，讓我們談談問與答。 問與答是 Power BI 的自然語言搜尋工具。 您可以使用自然語言來鍵入問題，而問與答會以視覺效果形式來回答問題。 取用者可以透過問與答來建立自己的視覺效果。 然而，您使用問與答所建立的視覺效果無法儲存。 但是，如果您想要從資料中知道特定資訊，而設計者未在報表或儀表板中包含該資訊，問與答便是絕佳的選項。 若要深入了解問與答，請參閱[取用者的問與答](end-user-q-and-a.md)。
 
 
 
-|Column1  |在儀表板中  |在報表中  | 在問與答中
+|工作  |在儀表板中  |在報表中  | 在問與答中
 |---------|---------|---------|--------|
 |[替自己新增視覺效果的註解，或與同事展開關於視覺效果的對話](end-user-comment.md)。     |  可以       |   不可以      |  不可以  |
 |[開啟並探索在其中建立視覺效果的報表](end-user-tiles.md)。     |    可以     |   na      |  na |

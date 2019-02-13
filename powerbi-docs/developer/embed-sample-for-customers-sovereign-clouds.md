@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 790c06dd84d7db3a382ef547c8fcc16237273951
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 69ce8088903cbdddef504dbf5e9b2ecc2a8ab9d4
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431146"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762666"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>教學課程：將主權雲端的 Power BI 儀表板、磚或報表內嵌至應用程式
+# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-sovereign-clouds"></a>教學課程：將 Power BI 內容內嵌到主權雲端上您的應用程式中
 
 了解如何在主權雲端的商務程序應用程式內內嵌分析內容。 您可以使用 Power BI .NET SDK 搭配 Power BI JavaScript API 將報表、儀表板或圖格內嵌至 Web 應用程式。
 
@@ -37,7 +37,7 @@ Power BI 也支援主權 (私人) 雲端。
 
 ![內嵌的儀表板](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-若要開始使用此逐步解說，您需要一個 **Power BI** 帳戶。 如果您尚未設定任何帳戶，則可根據主權雲端類型，註冊一個[美國政府 Power BI 帳戶](../service-govus-signup.md)、一個[適用於德國雲端的 Power BI 帳戶](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)或一個[適用於中國雲端的 Power BI 帳戶](http://www.21vbluecloud.com/powerbi/)。
+若要開始使用此逐步解說，您需要一個 **Power BI** 帳戶。 如果您沒有設定帳戶，則可以根據政府或國家/地區的類型，選擇正確的主權雲端。 您可以註冊一個[美國政府 Power BI 帳戶](../service-govus-signup.md)、一個[適用於德國雲端的 Power BI 帳戶](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)或一個[適用於中國雲端的 Power BI 帳戶](http://www.21vbluecloud.com/powerbi/)。
 
 > [!NOTE]
 > 想要改為內嵌組織的內容嗎？ 請參閱[將儀表板整合到應用程式中](integrate-dashboard.md)。
@@ -206,7 +206,7 @@ ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(w
 Dashboard dashboard = dashboards.Value.FirstOrDefault();
 ```
 
-#### <a name="tiles"></a>圖格
+#### <a name="tiles"></a>磚
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -276,7 +276,7 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-#### <a name="tiles"></a>圖格
+#### <a name="tiles"></a>磚
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -435,7 +435,7 @@ var embedConfig = new TileEmbedConfig()
 
 * [如何將 Power BI 工作區集合內容遷移至 Power BI](migrate-from-powerbi-embedded.md)
 
-限制與考量
+考量與限制
 
 * GCC 帳戶目前僅支援 P 和 EM 容量
 

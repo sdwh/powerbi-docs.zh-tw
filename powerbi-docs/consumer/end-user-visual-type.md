@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 174886acf1d827497b48d660bb89e2b4057b09b9
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234565"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794860"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
 您會在報表、儀表板、應用程式及問與答中發現視覺效果。 其中一些視覺效果類型會隨 Power BI 一同封裝，而某些則是「自訂視覺效果」。 自訂視覺效果是在 Power BI 外部建立，且其建立方式允許*報表設計師*將它們新增至 Power BI 報表、儀表板和應用程式。 
@@ -26,7 +26,7 @@ ms.locfileid: "55234565"
 > 若要了解自訂視覺效果，請在 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 的＜**Power BI 視覺效果**＞一節中搜尋這些自訂視覺效果。 針對每個視覺效果，您可找到描述、建立者資訊，以及螢幕擷取畫面或影片。 
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI 提供的視覺效果清單
-所有這些視覺效果都能在 Power BI 應用程式、儀表板、報表中找到，並[於問與答中指定](#gna)。
+所有這些視覺效果都能在 Power BI 應用程式、儀表板、報表中找到，並[於問與答中指定](#qna)。 若要了解如何與視覺效果互動，請參閱[在報表、儀表板和應用程式中與視覺效果互動](end-user-visualizations.md)
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>區域圖：基本 (分層) 與堆疊
 ![區域圖](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
@@ -232,5 +232,5 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 ![問與答工作階段](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 報表中的視覺效果](end-user-visualizations.md)    
+[在報表、儀表板和應用程式中與視覺效果互動](end-user-visualizations.md)    
 [來自 sqlbi.com 的正確視覺效果參考](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
