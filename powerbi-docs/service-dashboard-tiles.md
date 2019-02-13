@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4c6016119bfa41f1b6c91fff7f814474f0f806b2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c8b5728c951bc1a25e71da8885997814c5485cd4
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294395"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215979"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 設計工具的儀表板磚簡介
 
@@ -82,7 +82,7 @@ ms.locfileid: "54294395"
 當您選取磚時，接下來情況取決於您建立該磚的方式。 此外，如果有[自訂連結](service-dashboard-edit-tile.md)，則選取磚會帶您前往該連結。 否則，選取磚會帶您前往建立此磚所使用的報表、Excel Online 活頁簿、內部部署 Reporting Services 報表或問與答問題。
 
 > [!NOTE]
-> 使用 [新增磚] 直接在儀表板上建立的影片磚為例外。 選取影片磚 (以此方式建立) 會直接在儀表板上播放視訊。   
+> 使用 [新增磚] 直接在儀表板上建立的影片圖格為例外。 選取影片磚 (以此方式建立) 會直接在儀表板上播放視訊。   
 > 
 > 
 
