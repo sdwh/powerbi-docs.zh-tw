@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: a0b1722a54f1e5ea5bf01d8e5bb5fb4753351a60
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763046"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971663"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>搭配 Power BI 的服務主體 (預覽)
 
@@ -108,15 +108,12 @@ ms.locfileid: "55763046"
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-    > [!Note]
-    > AAD 安全性群組只能由 AAD 全域管理員建立。
-
 3. 身為 Power BI 管理員，您必須在 Power BI 管理入口網站的 [開發人員設定] 中啟用服務主體。 將您在 Azure AD 中建立的安全性群組新增至 [開發人員設定] 中的 [特定安全性群組] 區段。
 
    > [!Important]
    > 服務主體會從其安全性群組繼承所有 Power BI 租用戶設定的使用權限。 若要限制使用權限，請建立服務主體專屬的安全性群組，並將它新增至相關已啟用 Power BI 設定的 [特定安全性群組除外] 清單。
 
-    ![管理入口網站](media/embed-service-principal/admin-portal.png)
+    ![系統管理入口網站](media/embed-service-principal/admin-portal.png)
 
 4. 設定您的 [Power BI 環境](embed-sample-for-customers.md#set-up-your-power-bi-environment)。
 
@@ -173,6 +170,7 @@ ms.locfileid: "55763046"
 * 需有 Power BI 管理員權限，才能在 Power BI 管理入口網站的開發人員設定中啟用服務主體。
 * 您無法使用服務主體安裝或管理內部部署資料閘道。
 * [為組織內嵌](embed-sample-for-your-organization.md)應用程式無法使用服務主體。
+* 不支援[資料流程](../service-dataflows-overview.md)管理。
 
 ## <a name="next-steps"></a>後續步驟
 
