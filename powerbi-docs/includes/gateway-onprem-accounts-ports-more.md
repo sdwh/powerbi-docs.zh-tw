@@ -43,7 +43,7 @@
 
 您可以強制閘道使用 HTTPS 與 Azure 服務匯流排進行通訊，而不使用 TCP。 使用 HTTPS 可能會對效能產生影響。 若要這樣做，請修改 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 檔案，方法是將值從 `AutoDetect` 變更為 `Https`，如本段後面接著的程式碼片段所示。 該檔案 (依預設) 位於 C:\Program Files\On-premises data gateway。
 
-```
+```xml
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
     <value>Https</value>
 </setting>
