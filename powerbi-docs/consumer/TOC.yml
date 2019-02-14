@@ -83,8 +83,10 @@ items:
         href: end-user-insights.md
     - name: 取得資料
       items:
-      - name: 安裝及使用應用程式
+      - name: Power BI 的應用程式
         href: end-user-apps.md
+      - name: 安裝及使用應用程式
+        href: end-user-app-view.md
       - name: 連接至服務
         href: end-user-connect-to-services.md
     - name: 詢問資料相關的問題
@@ -193,9 +195,9 @@ items:
     items:
     - name: 行動應用程式支援的語言
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: f0e5454a60f1434b1098484e7ef3cc74d3ce3be5
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: e32baf6ff64b485b1be29dea76bcbe864d2cdc59
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086555"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248968"
