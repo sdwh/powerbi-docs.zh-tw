@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
-ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
+ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55888225"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086463"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -236,12 +236,17 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ## <a name="custom-visuals-settings"></a>自訂視覺效果設定
 
-### <a name="enable-custom-visuals-for-the-entire-organization"></a>針對整個組織啟用自訂視覺效果
+### <a name="add-and-use-custom-visuals"></a>新增並使用自訂視覺效果
 
 組織中的使用者可以共用自訂視覺效果，並與其互動。 [深入了解](power-bi-custom-visuals.md)
 
 > [!NOTE]
-> 這項設定適用於整個組織，而無法限於特定群組。
+> 這項設定可以套用於整個組織，也可以限於特定群組。
+
+### <a name="allow-only-certified-visuals"></a>僅允許認證的視覺效果
+
+組織中已獲得新增和使用自訂視覺效果權限的使用者 (由「新增和使用自訂視覺效果」設定表示)，將只能使用[受認證的自訂視覺效果](https://go.microsoft.com/fwlink/?linkid=2002010) (未經認證的視覺效果將遭封鎖，並在使用時顯示錯誤訊息)。 
+
 
 ## <a name="r-visuals-settings"></a>R 視覺效果設定
 

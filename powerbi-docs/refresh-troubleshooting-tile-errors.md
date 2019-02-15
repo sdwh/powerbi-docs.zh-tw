@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bc53bdf6c0fd013d446c6d74cf2a422a84302f6a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bfb6178908a9d6a4bcfe81f8d3d9771ac5b12b9d
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289777"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086624"
 ---
 # <a name="troubleshooting-tile-errors"></a>圖格錯誤的疑難排解
 以下是您在使用圖格時可能發生的常見錯誤和說明。
@@ -30,11 +30,16 @@ ms.locfileid: "54289777"
 **Power BI 載入模型時發生未預期的錯誤。請再試一次。**
 或**無法擷取資料模型。請連絡儀表板擁有者，確定資料來源與模型存在且可供存取。**
 
-我們無法存取您的資料，因為無法連線到資料來源。 如果資料來源已移除、重新命名、移動、離線或變更權限，就會發生此狀況。 請檢查來源是否仍處於我們所指向的位置，且您仍有存取權限。 如果這部分沒有問題，可能是來源速度較慢。 請等到來源上的負載較小時再試。 如果是內部部署來源，資料來源擁有者應可提供更詳細的資訊。
+我們無法存取您的資料，因為無法連線到資料來源。 如果資料來源已移除、重新命名、移動、離線或變更權限，就會發生此問題。 請檢查來源是否仍處於我們所指向的位置，且您仍有存取權限。 如果這部分沒有問題，可能是來源速度較慢。 請等到來源上的負載較小時再試。 如果是內部部署來源，資料來源擁有者應可提供更詳細的資訊。
 
 **您不具權限，無法檢視此磚也無法開啟活頁簿。**
 
 請連絡儀表板擁有者，確定您帳戶的資料來源與模型存在且可供存取。
+
+**自訂視覺效果已由系統管理員停用。**
+
+您的 Power BI 系統管理員已為貴組織或安全性群組停用自訂視覺效果。 您將無法使用 [Microsoft marketplace](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) 的自訂視覺效果，或從檔案匯入私人視覺效果。 您僅可以使用預先封裝的視覺效果集。
+
 
 **資料圖形必須包含至少一個群組或輸出資料的計算。請連絡儀表板擁有者。**
 
@@ -42,7 +47,7 @@ ms.locfileid: "54289777"
 
 **無法顯示資料，因為 Power BI 無法判斷兩個或多個欄位之間的關聯性。**
 
-您嘗試使用不相關資料表中的兩個或多個欄位。 您必須從視覺效果中移除不相關的欄位，然後再建立資料表之間的關聯性。 這麼做以後，您即可重新將欄位加入視覺效果中。 您可以在 Power BI Desktop 或 Power Pivot for Excel 中完成這項作業。 [深入了解](desktop-create-and-manage-relationships.md)
+您嘗試使用不相關資料表中的兩個或多個欄位。 您必須從視覺效果中移除不相關的欄位，然後再建立資料表之間的關聯性。 進行變更後，您即可重新將欄位新增至視覺效果。 您可以在 Power BI Desktop 或 Power Pivot for Excel 中完成這項作業。 [深入了解](desktop-create-and-manage-relationships.md)
 
 **主座標軸與副座標軸中的群組重疊。主座標軸中的群組不能具有與副座標軸中之群組相同的索引鍵。**
 

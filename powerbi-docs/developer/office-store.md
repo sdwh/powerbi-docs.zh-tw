@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: 850d4c01248a16029b3874548b61c2f9170560bb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bedf9092e48b0e28c14ec510f1f3b4431e81ea27
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281497"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086394"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>在 AppSource 上發佈自訂視覺效果
 
@@ -30,7 +30,7 @@ ms.locfileid: "54281497"
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>準備提交您的自訂視覺效果
 
-完成自訂視覺效果的編碼及測試並封裝到 pbiviz 檔案後，您應該也準備好下列項目以備提交。
+當您完成編碼、[測試自訂視覺效果](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)並封裝到 pbiviz 檔案後，您應該也備妥下列項目以便提交。
 
 | 項目 | 必要 | 描述 |
 | --- | --- | --- |
