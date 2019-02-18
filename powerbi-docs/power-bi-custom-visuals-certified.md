@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: ab8da0a7b1fb42158a399b5443bf737718e6a81f
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 812ac76266f8ef3299fa72b575c9ff68d2e75a79
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430410"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216347"
 ---
 # <a name="certified-custom-visuals"></a>認證的自訂視覺效果
 
@@ -45,7 +45,7 @@ Microsoft 可自行斟酌將視覺效果自[認證清單](#list-of-custom-visual
 
 * 經過 Microsoft AppSource 核准。 您的自訂視覺效果應該位於我們的 [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) 中。
 * 自訂視覺效果是以版本化 API 1.2 或更高版本撰寫。
-* 程式碼存放庫可供 Power BI 小組檢閱 (例如，我們可透過 GitHub 取得人類可讀取格式的原始程式碼 (Javascript 或 TypeScript))。
+* 程式碼存放庫可供 Power BI 小組檢閱 (例如，我們可透過 GitHub 取得人類可讀取格式的原始程式碼 (JavaScript 或 TypeScript))。
 
     >[!Note]
     > 您不需要在 Github 中公開共用您的程式碼。

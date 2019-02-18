@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c6395785c3d3e386aa2ac735439a265f5fe3fb02
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286994"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223298"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>自訂 X 軸和 Y 軸屬性
 本教學課程中，您將學到許多不同的方法，可以用來自訂視覺效果的 X 軸和 Y 軸。 並非所有視覺效果都擁有座標軸或可以自訂；例如，圓餅圖沒有軸。 且自訂選項將隨視覺效果而異，一篇文章無法涵蓋太多選項。 因此，我們將探討一些最常用的軸自訂項目，並使用Power BI 報表畫布中的視覺格式設定索引標籤以輕鬆解說。  
@@ -136,7 +136,7 @@ ms.locfileid: "54286994"
 ## <a name="next-steps"></a>後續步驟
 深入了解 [Power BI 報表中的視覺效果](power-bi-report-visualizations.md)
 
-[自訂](power-bi-visualization-customize-title-background-and-legend.md)[標題、背景和圖例](power-bi-visualization-customize-title-background-and-legend.md)
+[自訂標題、背景和圖例](power-bi-visualization-customize-title-background-and-legend.md)
 
 [自訂色彩和軸屬性](service-getting-started-with-color-formatting-and-axis-properties.md)
 

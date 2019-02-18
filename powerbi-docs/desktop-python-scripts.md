@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5eab760a3bfbb590a1a6242984aa1be88064409f
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: fcfbf4fb7be34739364fba176b28ea42934d5562
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54323943"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216025"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中執行 Python 指令碼
 您可以直接在 **Power BI Desktop** 中執行 Python 指令碼，並將產生的資料集匯入 Power BI Desktop 資料模型。
@@ -24,7 +24,7 @@ ms.locfileid: "54323943"
 若要在 Po木wer BI Desktop 中執行 Python 指令碼，您需要在本機電腦上安裝 **Python**。 您可以從許多位置免費下載並安裝 **Python**，包括[官方 Python 下載頁面](https://www.python.org/)以及 [Anaconda](https://anaconda.org/anaconda/python/)。 Power BI Desktop 目前版本的 Python 指令碼支援在安裝路徑中使用 Unicode 字元和空格 (空白字元)。
 
 ### <a name="install-required-python-packages"></a>安裝必要的 Python 套件
-Power BI Python 整合要求您必須安裝兩個 Python 套件 (Pandas 與 Matplotlib)。  使用 pip 命令列工具安裝下列兩個套件。
+Power BI Python 整合要求您必須安裝兩個 Python 套件 (Pandas 與 Matplotlib)。  使用 pip 命令列工具安裝下列兩個套件，
 
 ```
 pip install pandas

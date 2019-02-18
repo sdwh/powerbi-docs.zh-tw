@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d48df3287813229e673bbc523281cdb2218ec384
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8cc1201c506e98ae33b68ef0cf802dae20b6f493
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277265"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216508"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體 (預覽)
 
@@ -63,7 +63,7 @@ ms.locfileid: "54277265"
 
 ### <a name="grant-the-power-bi-service-a-reader-role"></a>將讀者角色授與 Power BI 服務
 
-接著，您必須將您所建立之儲存體帳戶中的讀者角色授與 Power BI 服務。 這是內建的角色，因此步驟相當簡單。 
+接著，您必須將您所建立之儲存體帳戶中的讀者角色授與 Power BI 服務。 這是內建的角色，因此步驟相當直接。 
 
 請依照[將角色指派給安全性主體](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-role-to-a-security-principal)一文中的步驟進行。
 

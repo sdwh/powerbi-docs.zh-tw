@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f527fa17ab242f6835ca99a3ff3ef3e2525a001f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4b859611df09d5c374ae7483a1ef406b432389ba
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277127"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223712"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>解決 Power BI Desktop 無法啟動的問題
 在 **Power BI Desktop** 中，因為 Power BI 內部部署閘道在本機電腦的具名管道上設置了系統管理原則限制，所以會封鎖安裝並執行舊版 **Power BI 內部部署資料閘道**的使用者，讓他們無法啟動 Power BI Desktop。 
@@ -32,7 +32,7 @@ ms.locfileid: "54277127"
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>解決方法 3：以系統管理員權限執行 Power BI Desktop
 或者，您可以系統管理員的身分成功啟動 Power BI Desktop，這樣也可以成功啟動 Power BI Desktop。 但仍建議您如前文所述，安裝最新版的 Power BI 內部部署資料閘道。
 
-請務必注意，Power BI Desktop 經過程式設計成多處理序架構，且這些處理序中有數個使用 Windows 具名管道來通訊。 可能會有其他處理序影響那些具名管道。 這種影響最常見的原因是安全性，包括的情況如防毒軟體或防火牆可能會封鎖管道或將流量重新導向至特定連接埠。 以系統管理員權限啟動 Power BI Desktop 可以解決該問題。 如果無法以系統管理員權限啟動，請連絡您的系統管理員以判斷是哪些已套用的安全性規則讓具名管道無法正常通訊，並且將 Power BI Desktop 和其個別的子處理序加入允許清單。
+請務必注意，Power BI Desktop 經過程式設計成多處理序架構，且這些處理序中有數個使用 Windows 具名管道來通訊。 可能會有其他處理序影響那些具名管道。 這種影響最常見的原因是安全性，包括的情況如防毒軟體或防火牆可能會封鎖管道或將流量重新導向至特定連接埠。 以系統管理員權限啟動 Power BI Desktop 可以解決該問題。 如果無法以系統管理員權限啟動，請連絡系統管理員以判斷是哪些已套用的安全性規則讓具名管道無法正常通訊，且將 Power BI Desktop 和其個別的子處理序加入允許清單。
 
 ## <a name="resolve-issues-when-connecting-to-sql-server"></a>解決連線至 SQL Server 時的問題
 如果連線至 SQL Server 資料庫時，您會遇到類似下列的錯誤訊息，您通常可以系統管理員身分啟動 **Power BI Desktop**，然後建立 SQL Server 連線來解決問題：

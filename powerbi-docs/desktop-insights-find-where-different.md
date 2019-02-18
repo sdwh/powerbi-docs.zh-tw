@@ -1,6 +1,6 @@
 ---
 title: 使用見解來找出分佈的不同之處 (預覽)
-description: 在 Power BI Desktop 中輕鬆獲得見解來找出圖表中顯示之分佈的不同之處
+description: 在 Power BI Desktop 中輕鬆獲得見解，找出圖表中所顯示分佈的不同之處
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 416313f9271950c2f12a554107ab74933c5c31b7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 82844a1e928d30db12ba5659edcee7b07eaaf7b3
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277748"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215337"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>使用 Power BI Desktop 中的見解來找出分佈的不同之處 (預覽)
 
@@ -38,7 +38,7 @@ ms.locfileid: "54277748"
 > 
 
 ## <a name="using-insights"></a>使用深入解析
-若要使用見解找出圖表中顯示之分佈的不同之處，只要以滑鼠右鍵按一下資料點 (或整個視覺效果)，然後選取 [分析] > [找出此分佈的不同之處]。
+若要使用見解找出圖表中所顯示分佈的不同之處，只要以滑鼠右鍵按一下任何資料點 (或整個視覺效果)，然後選取 [分析] > [找出此分佈的不同之處]。
 
 ![按一下滑鼠右鍵以取得見解](media/desktop-insights-find-where-different/find-where-different_03.png)
 
@@ -131,7 +131,7 @@ ms.locfileid: "54277748"
 * 量值篩選
 * 非數字量值
 * 使用「顯示值為」
-* 篩選的量值 - 篩選的量值是套用了特定篩選的視覺效果層級計算 (例如「法國總銷售額」)，並用於見解功能所建立的其中一些視覺效果
+* 篩選的量值 - 所篩選量值為已套用特定篩選的視覺效果層級計算 (例如「法國總銷售額」)，並用於見解功能所建立的其中一些視覺效果
 
 此外，深入解析目前不支援下列模型類型和資料來源：
 

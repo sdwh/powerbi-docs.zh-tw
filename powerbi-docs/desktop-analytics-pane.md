@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5c6acfb069e026e96dd9944e8001002548b83f8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fdb41a7d833ca14dd53b1043c08c244a704004da
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275494"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215381"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 [分析] 窗格
 有了 **Power BI Desktop** 的 [分析] 窗格，您就可以將動態「參考線」新增至視覺效果，為重要的趨勢或深入解析提供焦點。 [分析] 窗格位於 Power BI Desktop 的 [視覺效果] 區域中。
@@ -59,7 +59,7 @@ ms.locfileid: "54275494"
 4. 如果您希望資料標籤出現，請將 [資料標籤] 滑桿移為開啟。 當您這樣做時，即取得資料標籤的其他所有選項，如下圖所示。
    
    ![](media/desktop-analytics-pane/analytics-pane_5.png)
-5. 請注意顯示在 [分析] 窗格中，[平均值線] 項目旁的數字。 這告訴您視覺效果上目前有多少條動態線及其類型。 如果我們針對「生活花費」新增 [最大值線]，您就會看到 [分析] 窗格顯示我們也對這個視覺效果套用了 [最大值線] 動態參考線。
+5. 請注意顯示在 [分析] 窗格中，[平均值線] 項目旁的數字。 這告訴您視覺效果上目前有多少動態線及其類型。 如果我們針對「生活花費」新增 [最大值線]，您就會看到 [分析] 窗格顯示我們也對這個視覺效果套用了 [最大值線] 動態參考線。
    
    ![](media/desktop-analytics-pane/analytics-pane_6.png)
 

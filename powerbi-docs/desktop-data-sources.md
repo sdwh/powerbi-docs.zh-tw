@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f5fc52df86faa69683fa1e76f8893fb1d1a09ab9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281152"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225906"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
@@ -77,11 +77,14 @@ ms.locfileid: "54281152"
 * Amazon Redshift
 * Impala
 * Google BigQuery
+* Vertica
 * Snowflake
 * Essbase (搶鮮版 (Beta))
-* BI 連接器
+* Dremio
 * Exasol
-* Dremio (搶鮮版 (Beta))
+* MarkLogic 搶鮮版 (Beta)
+* AtScale cube 搶鮮版 (Beta)
+* BI 連接器
 * Jethro (搶鮮版 (Beta))
 * Kyligence Enterprise (搶鮮版 (Beta))
 
@@ -136,8 +139,6 @@ ms.locfileid: "54281152"
 * Google Analytics
 * Adobe Analytics
 * appFigures (搶鮮版 (Beta))
-* comScore Digital Analytix (Beta)
-* Dynamics 365 for Customer Insights (搶鮮版 (Beta))
 * Data.World - 取得資料集 (搶鮮版 (Beta))
 * Facebook
 * GitHub (Beta)
@@ -157,6 +158,8 @@ ms.locfileid: "54281152"
 * Webtrends (Beta)
 * Zendesk (搶鮮版 (Beta))
 * TeamDesk (搶鮮版 (Beta))
+* Emigo 資料來源 搶鮮版 (Beta)
+* Microsoft Graph 安全性 搶鮮版 (Beta)
 
 下圖顯示 [線上服務] 的 [取得資料] 視窗。
 
@@ -164,7 +167,6 @@ ms.locfileid: "54281152"
 
 [其他]  類別提供下列資料連線：
 
-* Vertica
 * Web
 * SharePoint 清單
 * OData 摘要
@@ -176,8 +178,12 @@ ms.locfileid: "54281152"
 * Python 指令碼
 * ODBC
 * OLE DB
+* Workforce Dimensions 搶鮮版 (Beta)
 * Denado
 * Paxata (搶鮮版 (Beta))
+* SurveyMonkey 搶鮮版 (Beta)
+* QubolePresto 搶鮮版 (Beta)
+* Quick Base 搶鮮版 (Beta)
 * 空白查詢
 
 下圖顯示 [其他]  的 [取得資料] 視窗。
@@ -190,7 +196,7 @@ ms.locfileid: "54281152"
 ## <a name="connecting-to-a-data-source"></a>連接到資料來源
 若要連接至資料來源，請從 [取得資料]  視窗選取資料來源，然後選取 [連接] 。 在下圖中，從 [其他]  資料連線類別選取了 [Web]  。
 
-![連線到 Web](media/desktop-data-sources/data-sources_08a.png)
+![連線到 Web](media/desktop-data-sources/data-sources_08.png)
 
 隨即會顯示資料連線類型特有的連線視窗。 如果需要認證，將提示您提供它們。 下圖顯示輸入 URL 以連接到 Web 資料來源。
 

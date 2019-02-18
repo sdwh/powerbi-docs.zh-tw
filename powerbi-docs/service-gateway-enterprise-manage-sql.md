@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5bd1ee87d540fc4d4c212313483c78d168d7e104
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6771e2da33448fe3aa54a0184a220437ffb54fce
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277611"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215848"
 ---
 # <a name="manage-your-data-source---sql-server"></a>管理您的資料來源 - SQL Server
 安裝內部部署資料閘道之後，您就能新增可搭配閘道使用的資料來源。 本文將探討如何使用閘道和資料來源。 您可以針對已排程的重新整理或 SQL Server，使用 SAP HANA 資料來源。
@@ -29,7 +29,7 @@ ms.locfileid: "54277611"
 若要新增閘道，只要[下載](https://go.microsoft.com/fwlink/?LinkId=698861)閘道並在您環境中的伺服器即可。 安裝閘道之後，它會顯示在 [管理閘道] 底下的閘道清單中。
 
 > [!NOTE]
-> 您必須是至少一個閘道的管理員，才會顯示 [管理閘道]。 當您加入成為閘道管理員，或是您自行安裝和設定閘道時，就會發生這種情況。
+> 您必須是至少一個閘道的管理員，才會顯示 [管理閘道]。 當您新增為閘道管理員，或是您自行安裝和設定閘道時，就會發生這種情況。
 > 
 > 
 

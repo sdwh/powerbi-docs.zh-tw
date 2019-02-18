@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4ad7ce28c512f69e144af98098ab9f13a15b6023
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008618"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223781"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>使用 Power BI 連接到 Marketo
 適用於 Marketo 的 Power BI 內容套件，可讓您深入了解您的 Marketo 帳戶有關潛在客戶和其活動的資料。建立此連接時可擷取您的資料，並自動依據該資料提供儀表板和相關報表。
@@ -59,7 +59,7 @@ ms.locfileid: "54008618"
 | 資料表名稱 | 描述 |
 | --- | --- |
 | EmailActivities |傳送給潛在客戶/連絡人的電子郵件相關資料，其中包含裝置、類別、退回計數和百分比、點擊計數和百分比、已開啟的計數和百分比，以及程式名稱的資料。 Power BI 中所示之電子郵件活動是絕對的電子郵件傳遞能力報表，不會套用任何其他邏輯到此資料。 因此，您可能會看到 Marketo 用戶端和 Power BI 之間有一些不同的結果。 |
-| ProgramActivites |狀態有所變更的程式資料。 這包含詳細資料，例如：原因、成功、程式擷取計數和百分比，以及程式成功計數和百分比。 |
+| ProgramActivities |狀態有所變更的程式資料。 這包含詳細資料，例如：原因、成功、程式擷取計數和百分比，以及程式成功計數和百分比。 |
 | WebPageActivities |使用者造訪網頁的資料，包括搜尋代理程式、使用者代理程式、網頁和小時。 |
 | Datetable |介於今天和過去一年間的日期。  可讓您依日期分析 Marketo 資料。 |
 | Leads |潛在客戶資訊，例如公司、營收大小、員工數目、國家/地區、產業、潛在客戶分數和潛在客戶狀態。 會根據電子郵件、程式及網頁活動資料中的目前狀態擷取潛在客戶。 |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 763b331fd0a5ff47263ea54d17f6cb17516de79d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1c503492da52592730b82857725b388ca440f2bd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296769"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215574"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>資料流程與 Azure Data Lake 整合 (預覽)
 
@@ -65,7 +65,7 @@ Power BI 會使用 Azure Data Lake Storage Gen2 所提供的 *Active Directory O
 
 與資料取用者 (例如需要讀取資料的使用者或服務) 共用 CDM 資料夾的程序，已透過使用 Active Directory OAuth 持有人權杖和 POSIX ACL 簡化。 這樣做讓系統管理員能夠監視哪些人存取過 CDM 資料夾。 唯一需要進行的動作是，將對 CDM 資料夾的存取權授與您所選擇的 Active Directory 物件 (例如使用者群組或服務)。 對於資料產生者以外的任何身分識別，我們建議全部都只授與 CDM 資料夾的唯讀權限。 這樣做可以保護產生者所產生資料的完整性。
 
-若要將 CDM 資料夾新增至 Power BI，新增 CDM 資料夾的使用者應該具備 CDM 資料夾本身和其中任何檔案或資料夾的*讀取* 存取 ACL。 此外，還要有 CDM 資料夾本身和其中任何資料夾的*執行* 存取 ACL。 如需詳細資訊，建議您檢閱[檔案和目錄的存取控制清單](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) \(英文\) 與[使用 Azure Data Lake Storage Gen2 的最佳做法](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices) \(英文\) 文章。
+若要將 CDM 資料夾新增至 Power BI，新增 CDM 資料夾的使用者應該具備 CDM 資料夾本身和其中任何檔案或資料夾的*讀取* 存取 ACL。 此外，還要有 CDM 資料夾本身和其中任何資料夾的*執行* 存取 ACL。 如需詳細資訊，建議您檢閱[檔案和目錄的存取控制清單](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories)與[使用 Azure Data Lake Storage Gen2 的最佳做法](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices) () 文章。
 
 
 ### <a name="alternative-forms-of-authorization"></a>授權替代形式

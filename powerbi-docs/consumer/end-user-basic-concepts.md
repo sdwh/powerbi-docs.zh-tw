@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: c363d71b9d8796f1bd05ac01e12e9424a499a439
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430594"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216186"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI 服務「取用者」的基本概念
 
@@ -61,7 +61,7 @@ Power BI 取用者的 5 個建置組塊如下：視覺效果、儀表板、報�
 
     如需詳細資訊，請參閱 [Power BI 取用者的儀表板](end-user-dashboards.md)
 
-* ![報表圖示](media/end-user-basic-concepts/report.png) 「報表」是一或多個頁面的互動式視覺效果、文字和圖表，共同組成單一個報表。 報表是以單一資料集為基礎。 報表頁面通常會組織到感興趣中央區域的各個地址，或回答單一問題。
+* ![報表圖示](media/end-user-basic-concepts/report.png) 「報表」是一或多個頁面的互動式視覺效果、文字和圖表，共同組成單一個報表。 報表是以單一資料集為基礎。 報表頁面通常會組織成為每個處理一項感興趣的中央區域，或回答單一問題。
 
     如需詳細資訊，請參閱 [Power BI 取用者的報表](end-user-reports.md)
 

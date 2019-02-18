@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c6f3e3cf3947abf9ead15fa6b91445c8aadd6420
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: aec463a4ce72f89f0cbbcf1bd42737605657a43c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008342"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215750"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>使用 Power BI 連接到 Acumatica
 Power BI Acumatica 內容套件可讓您快速深入了解機會資料。 Power BI 會擷取您的資料 (包含機會、帳戶和客戶)，然後根據該資料建置預設的儀表板和相關報表。
@@ -45,7 +45,7 @@ Power BI Acumatica 內容套件可讓您快速深入了解機會資料。 Power 
 5. 在驗證方法選取 [基本] 。 從您的 Acumatica 帳戶輸入使用者名稱和密碼，然後按一下 [登入] 。
    
     ![](media/service-connect-to-acumatica/creds2.png)
-6. Power BI 匯入資料之後，您會在左側瀏覽窗格中看到新的儀表板、報表和資料集。 新的項目會以黃色星號 \* 標示，只要選取過就會消失，而選擇儀表板會顯示類似下面的配置：
+6. Power BI 匯入資料之後，您會在左側瀏覽窗格中看到新的儀表板、報表和資料集。 新的項目會以黃色星號 \* 標示，只要經選取就會消失，而選擇儀表板會顯示類似下面的配置：
    
     ![](media/service-connect-to-acumatica/dashboard.png)
 

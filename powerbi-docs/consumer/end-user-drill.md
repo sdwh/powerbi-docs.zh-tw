@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d935b044e5cbe1a2c84ce5749c3a0b58c528bab0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282348"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216577"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI 視覺效果中的鑽研模式
 
@@ -112,7 +112,7 @@ ms.locfileid: "54282348"
 
 2. 針對 **TN** 選取「分葉」。 現在您的樹狀圖會顯示在田納西州中有商店的所有城市。 
 
-    ![僅顯示田納西州的資料之樹狀圖](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![僅顯示田納西州資料的樹狀圖](media/end-user-drill/power-bi-drill-down-one1.png)
 
 2. 此時，您可以繼續向下切入田納西州或向下切入田納西州的某個特定城市，或者可以改為展開 (請參閱下面的**一次展開所有欄位**)。 繼續一次向下切入一個欄位。  選取 [Knoxville, TN]。 現在樹狀圖會顯示您在諾克斯維爾之商店的郵遞區號。 
 
@@ -212,7 +212,7 @@ Power BI 可讓您一次展開一個子集，或一次展開所有子集。 您�
 除了視覺效果，我們還會看到每份報表呈現資料中所反映的階層。 下表顯示向下切入單一國家/地區或所有國家/地區的報表中 [顯示資料] 的結果。 當您向下切入時，您會看到單一報表變得更具體，而「所有國家/地區」報表則有更多資料。
 
 
-| 展開模式|國家/地區|縣/市|郵遞區號|名稱|
+| 展開模式|國家/地區|城市|郵遞區號|名稱|
 | ---|:---:|:---:|:---:|---|
 |單一|![單一國家/地區](./media/end-user-drill/power-bi-hierarchical-territory.png)|![單一縣/市](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![單一郵遞區號](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![單一名稱](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
 |全部|![所有國家/地區](./media/end-user-drill/power-bi-hierarchical-territory.png)|![所有縣/市](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![所有郵遞區號](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![所有名稱](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|

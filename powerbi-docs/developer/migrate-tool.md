@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 41ab7f06da3038e48e2d1188edc8b91edeee8d4f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762344"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216370"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 移轉工具
 
@@ -207,7 +207,7 @@ ms.locfileid: "55762344"
 
 在上述範例中，其中一個複製的報表失敗，並指出已有同名的報表。 如果我們查看移轉計劃 XML，則會看到下列情況。
 
-```
+```xml
 <ReportMigrationData>
     <PaaSWorkspaceCollectionName>SampleWorkspaceCollection</PaaSWorkspaceCollectionName>
     <PaaSWorkspaceId>4c04147b-d8fc-478b-8dcb-bcf687149823</PaaSWorkspaceId>
@@ -229,7 +229,7 @@ ms.locfileid: "55762344"
 
 針對失敗的項目，我們可以變更 SaaSTargetReportName 的名稱。
 
-```
+```xml
 <SaaSTargetReportName>cloned2</SaaSTargetReportName>
 ```
 
@@ -245,7 +245,7 @@ ms.locfileid: "55762344"
 
 您可以上傳 Power BI Desktop 檔案的本機版本。 您需要關閉工具，並編輯 XML，然後將本機 PBIX 的完整路徑放到 **PbixPath** 屬性中。
 
-```
+```xml
 <PbixPath>[Full Path to PBIX file]</PbixPath>
 ```
 
@@ -255,9 +255,9 @@ ms.locfileid: "55762344"
 
 ### <a name="directquery-reports"></a>DirectQuery 報表
 
-您需要更新 DirectQuery 報表的連接字串。 這可以在 *powerbi.com* 內完成，也可以透過程式設計方式從 Power BI Embedded (Paas) 查詢連接字串。 如需範例，請參閱[從 PaaS 報表擷取 DirectQuery 連接字串](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report)。
+您需要更新 DirectQuery 報表的連接字串。 這可以在 *powerbi.com* 內完成，也可以透過程式設計方式從 Power BI Embedded (PaaS) 查詢連接字串。 如需範例，請參閱[從 PaaS 報表擷取 DirectQuery 連接字串](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report)。
 
-您接著可以更新 Power BI 服務 (Saas) 內資料集的連接字串，並設定資料來源的認證。 您可以查看下列範例，以了解做法。
+您接著可以更新 Power BI 服務 (SaaS) 內資料集的連接字串，並設定資料來源的認證。 您可以查看下列範例，以了解做法。
 
 * [更新 DirectQuery 連接字串是 SaaS 工作區](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace)
 * [在 SaaS 工作區中設定 DirectQuery 認證](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace)

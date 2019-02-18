@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bad76adc42fc9f70c1439c6da0cfe2d149bbbe43
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8f44356f79b8a77ef06fe464671dbbaaaa4187e9
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295600"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215565"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>教學課程：使用 Power BI 連線至 GitHub 範例
 在本教學課程中，您使用 Power BI 連線接至 GitHub 服務中的實際資料，而且 Power BI 會自動建立儀表板和報表。 您連線到 Power BI 內容公用存放庫 (又稱 *repo*) 並看到下列資訊：有多少人參與 Power BI 的公用內容？ 誰參與最多？ 哪個星期幾的參與最多？ 以及其他問題的答案。 
@@ -69,7 +69,7 @@ ms.locfileid: "54295600"
  
    ![Power BI GitHub 磚](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tile.png) 
 
-8. 選取全域導覽圖示來最小化左側瀏覽，讓您有更多空間。
+8. 選取全域導覽圖示來最小化左側導覽，讓您有更多空間。
 
     ![全域導覽圖示](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 

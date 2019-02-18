@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 842d29978fa6a4a714b42b1665112661e0704357
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ce99539e1804746970eae20dc9396f0f0536afea
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293733"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223689"
 ---
 # <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>為 Power BI 服務中的視覺效果建立動態參考線
 
@@ -50,11 +50,11 @@ ms.locfileid: "54293733"
 
 3. 若要建立一條新線，請選取 [+ 新增] 並決定將用來建立該線條的量值。  [量值] 下拉式清單會自動從所選的視覺效果填入可用的資料。 讓我們使用 [開啟商店計數]。
 
-5. 您可以對您的線條使用各種選項，例如色彩、透明度、樣式及位置 (相對於視覺效果的資料元素)。 如果您想要為此線條加上標籤，請提供其標題，然後將 [資料標籤] 滑桿移至 [開啟]。  在這個案例中，我們會將這條線的標題設為「平均開啟商店數」，然後自訂其他幾個選項，如下所示。
+5. 您可以對您的線條使用各種選項，例如色彩、透明度、樣式及位置 (相對於視覺效果的資料項目)。 如果您想要為此線條加上標籤，請提供其標題，然後將 [資料標籤] 滑桿移至 [開啟]。  在這個案例中，我們會將這條線的標題設為「平均開啟商店數」，然後自訂其他幾個選項，如下所示。
    
    ![自訂平均值線分析](media/service-analytics-pane/power-bi-average-line2.png)
 
-1. 請注意顯示在 [分析] 窗格中，[平均值線] 項目旁的數字。 這告訴您視覺效果上目前有多少條動態線及其類型。 如果我們新增 [常數線] 作為商店計數目標 9，您就會看到 [分析] 窗格顯示我們也對這個視覺效果套用了 [常數線] 參考線。
+1. 請注意顯示在 [分析] 窗格中，[平均值線] 項目旁的數字。 這告訴您視覺效果上目前有多少動態線及其類型。 如果我們新增 [常數線] 作為商店計數目標 9，您就會看到 [分析] 窗格顯示我們也對這個視覺效果套用了 [常數線] 參考線。
    
    ![](media/service-analytics-pane/power-bi-reference-lines.png)
    

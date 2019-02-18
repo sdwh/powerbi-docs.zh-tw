@@ -1,7 +1,7 @@
 ---
 title: 在 Power BI 中建立報表的祕訣和訣竅
 description: 了解在 Power BI 服務和 Power BI Desktop 中建立報表的最佳做法
-author: davidi
+author: davidiseminger
 manager: kfile
 ms.reviewer: willthom
 ms.custom: seodec18
@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
-ms.openlocfilehash: bd1889605773b1d9eed888550676b8bbc9933b2f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fa3d24de1f54be127f3f9b23ca33677987464150
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295987"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223850"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 中建立報表的秘訣和訣竅
 為了充分利用您的資料，有時您需要一些額外的協助。 我們集結了一些秘訣與技巧，可供您在 Microsoft Power BI Desktop 中，*以及*在啟用 Power Pivot 增益集與安裝並啟用 Power Query 的 Microsoft Excel 2016 或 Microsoft Excel 2013 Pro-Plus 版本中，用來建立報表。 
@@ -143,7 +143,7 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 4. 在 **CustomerNames** 查詢中，選取功能區的 [附加]  選項，然後選取 **Temp**查詢。
 5. 在 **CustomerNames** 查詢中，選取 [移除重複項目] 。
 
-現在您會有一個維度資料表，可用來與 CustomerIndicents 和 WorkItems 建立關聯，其中包含這兩者的所有值。  
+現在您會有一個維度資料表，可用來與 CustomerIncidents 和 WorkItems 建立關聯，其中包含這兩者的所有值。  
 
 ## <a name="patterns-to-jump-start-your-use-of-the-query-editor"></a>用以開始使用查詢編輯器的模式
 查詢編輯器的功能很強大，它可以操作資料使其成形，並加以整理，以供視覺化檢視或建立模型使用。 請注意以下幾個模式。

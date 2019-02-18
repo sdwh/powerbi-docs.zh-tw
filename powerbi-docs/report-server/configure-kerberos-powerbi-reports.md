@@ -9,19 +9,19 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: b9fcd2dbd664ac4f119c3f00c3d1a173b9251bd3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5342f509fdd0705b2752aab3315a4968d610b681
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296174"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223758"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>設定 Kerberos 使用 Power BI 報表
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 了解如何設定報表伺服器進行資料來源的 Kerberos 驗證，這些是用在分散式環境 Power BI 報表內的資料來源。
 
-Power BI 報表伺服器能夠裝載 Power BI 報表。 報表伺服器支援許多資料來源。 雖然這篇文章特別著重於 SQL Server Analysis Services，您可以使用概念並套用到其他資料來源，例如 SQL Server。
+Power BI 報表伺服器能夠裝載 Power BI 報表。 報表伺服器支援許多資料來源。 雖然本文特別著重於 SQL Server Analysis Services，您可以使用概念並套用到其他資料來源，例如 SQL Server。
 
 您可以在單一電腦上安裝 Power BI 報表伺服器、SQL Server 和 Analysis Services，一切運作應如常，不需要額外的設定。 這非常適合測試環境。 如果將這些服務安裝在不同的機器上，也就是所謂的分散式環境，可能會發生錯誤。 在此環境中，您需要使用 Kerberos 驗證。 實作此作業有必要的設定。 
 
@@ -63,7 +63,7 @@ Power BI 報表伺服器能夠裝載 Power BI 報表。 報表伺服器支援許
 
 我們想要確定 RSWindowsNegotiate 是列在驗證類型清單中的第一個。 它看起來應該如下所示。
 
-```
+```xml
 <AuthenticationTypes>
     <RSWindowsNegotiate/>
     <RSWindowsNTLM/>

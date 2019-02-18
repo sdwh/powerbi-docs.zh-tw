@@ -5,51 +5,45 @@ author: christianwade
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/19/2018
+ms.date: 01/24/2019
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 92bd4043e4cfa37bd8f712491ccbc2990dc0b6a9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: caa350274b7af62078098d9ef7730046f6e14627
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794376"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225975"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium 中的累加式重新整理
 
 累加式重新整理可啟用 Power BI Premium 服務中的極大型資料集，且具有下列優勢：
 
-- **重新整理更為快速。** 只需要重新整理已變更的資料。 例如，只重新整理 10 年資料集的過去 5 天。
+- **重新整理會變快** - 只需要重新整理已變更的資料。 例如，只重新整理 10 年資料集的過去 5 天。
 
-- **重新整理更為可靠。** 例如，不需要維護長時間執行的連線，即可變更來源系統。
+- **重新整理更可靠** - 不需要再維護長時間執行的連線，即可變更來源系統。
 
-- **減少資源耗用量。** 要重新整理的資料較少可減少記憶體和其他資源的整體耗用。
+- **減少資源耗用量** - 要重新整理的資料較少可減少記憶體和其他資源的整體耗用。
 
-## <a name="how-to-use-incremental-refresh"></a>如何使用累加式重新整理
+## <a name="configure-incremental-refresh"></a>設定累加式重新整理
 
-累加式重新整理原則定義於 Power BI Desktop，並在發佈至 Power BI 服務之後套用。
+累加式重新整理原則定義於 Power BI Desktop，並在發佈至 Power BI 服務時套用。
 
-透過在預覽功能中啟用累加式重新整理開始。
+若要開始，請在**預覽功能**中啟用累加式重新整理。
 
 ![選項 - 預覽功能](media/service-premium-incremental-refresh/preview-features.png)
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>在 Power BI Desktop 中篩選大型資料集
 
-可能有數十億個資料列的大型資料集不一定可以放入 Power BI Desktop 中，因為它一般受限於使用者桌上型電腦上可用的資源。 因此，這類資料集通常是在匯入時進行篩選，以放入 Power BI Desktop 中。 這會持續為是否使用累加式重新整理的情況。
+可能有數十億個資料列的大型資料集不一定可以放入 Power BI Desktop 模型中，因為 PBIX 檔案受限於桌上型電腦上可用的記憶體資源。 這類資料集通常是在匯入時進行篩選。 不論是否使用累加式重新整理，這種類型的篩選都適用。 針對累加式重新整理，您會使用 Power Query 日期/時間參數進行篩選。
 
 #### <a name="rangestart-and-rangeend-parameters"></a>RangeStart 和 RangeEnd 參數
 
-若要使用 Power BI 服務中的累加式重新整理，需要搭配使用 Power Query 日期/時間參數與保留的區分大小寫名稱 **RangeStart** 和 **RangeEnd** 來完成篩選。
+針對累加式重新整理，資料集會使用 Power Query 日期/時間參數與保留的區分大小寫名稱 **RangeStart** 和 **RangeEnd** 來進行篩選。 這些參數用來篩選匯入至 Power BI Desktop 的資料，也用來在發佈至 Power BI 服務之後以動態方式將資料分割成範圍。 服務會取代參數值以篩選每個分割區。 發佈之後，Power BI 服務會自動覆寫參數值。 不需要在服務中的資料集設定中進行設定。 發佈之後，Power BI 服務會自動覆寫參數值。 
 
-發佈之後，Power BI 服務會自動覆寫參數值。 不需要在服務中的資料集設定中進行設定。
-
-針對重新整理作業提交查詢時，務必將篩選推送到來源系統。 向下推送篩選表示資料來源應該支援「查詢摺疊」功能。 大部分支援 SQL 查詢的資料來源都支援查詢摺疊， 但一般檔案、Blob、Web 和 OData 摘要等資料來源通常不支援。 每個資料來源都有不同的查詢摺疊層級支援，因此建議您確認篩選邏輯已包含在來源查詢中。 如果資料來源後端不支援篩選，則其無法向下推送。 在此情況下，交互式引擎可在本機補償並套用篩選，這可能需要從資料來源擷取完整的資料集。 這會導致累加式重新整理非常緩慢，而且在使用時，該程序可能會用盡 Power BI 服務或內部部署資料閘道中的資源。
-
-篩選將用於在 Power BI 服務中把資料分割成不同範圍。 它並非設計來支援更新已篩選的日期資料行。 更新將被解譯為插入及刪除 (非更新)。 若刪除發生在歷史範圍而非累加式範圍中，系統就不會揀選它。 這可能會因為分割區索引鍵衝突而導致資料重新整理失敗。
-
-在 Power Query 編輯器中，選取 [管理參數] 定義具有預設值的參數。
+若要使用預設值定義參數，請在 [Power Query 編輯器] 中，選取 [管理參數]。
 
 ![管理參數](media/service-premium-incremental-refresh/manage-parameters.png)
 
@@ -62,11 +56,23 @@ ms.locfileid: "55794376"
 ![篩選資料列](media/service-premium-incremental-refresh/filter-rows.png)
 
 > [!TIP]
-> 參數的資料類型必須是日期/時間時，可以將它們轉換成符合資料來源的要求。 例如，下列 Power Query 函式會轉換日期/時間值，以類似 *yyyymmdd* 格式的整數 Surrogate 索引鍵，而此格式常見於資料倉儲。 篩選步驟可以呼叫函式。
+> 參數的資料類型必須是日期/時間時，可以將它們轉換成符合資料來源的需求。 例如，下列 Power Query 函式會轉換日期/時間值，以類似 *yyyymmdd* 格式的整數 Surrogate 索引鍵，而此格式常見於資料倉儲。 篩選步驟可以呼叫函式。
 >
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
 從 Power Query 編輯器中，選取 [Close and Apply] \(關閉並套用\)。 您在 Power BI Desktop 中應該有資料集的子集。
+
+#### <a name="filter-date-column-updates"></a>篩選日期資料行更新
+
+日期資料行的篩選條件用於在 Power BI 服務中動態地將資料分割至不同範圍。 累加式重新整理設計目的並不是為了支援在來源系統中更新篩選日期資料行的案例。 更新會被解譯為插入及刪除，而不是實際的更新。 若刪除發生在歷史範圍而非累加式範圍中，系統就不會揀選它。 這可能會因為分割區索引鍵衝突而導致資料重新整理失敗。
+
+#### <a name="query-folding"></a>查詢摺疊
+
+針對重新整理作業提交查詢時，務必將分割區篩選推送到來源系統。 向下推送篩選條件表示資料來源應該支援查詢摺疊功能。 大部分支援 SQL 查詢的資料來源都支援查詢摺疊， 但一般檔案、Blob、Web 和 OData 摘要等資料來源通常不支援。 如果資料來源後端不支援篩選條件，則其無法向下推送。 在此情況下，交互式引擎可在本機補償並套用篩選，這可能需要從資料來源擷取完整的資料集。 這會導致累加式重新整理非常緩慢，而且在使用時，該程序可能會用盡 Power BI 服務或內部部署資料閘道中的資源。
+
+每個資料來源都有不同的查詢摺疊層級支援，因此建議執行驗證，以確認篩選條件邏輯已包含在來源查詢中。 為了簡化起見，Power BI Desktop 會嘗試為您執行這項驗證。 如果無法驗證，則定義累加式重新整理原則時會在累加式重新整理對話方塊中顯示警告。 SQL 基礎資料來源，例如 SQL、Oracle 和 Teradata 可能會依賴這項警告。 其他資料來源可能必須追蹤查詢才能驗證。 如果 Power BI Desktop 無法確認，則會顯示下列警告。
+
+ ![查詢摺疊](media/service-premium-incremental-refresh/query-folding.png)
 
 ### <a name="define-the-refresh-policy"></a>定義重新整理原則
 
@@ -85,13 +91,13 @@ ms.locfileid: "55794376"
 
 標頭文字說明下列資訊：
 
-- Premium 容量上的工作區才支援累加式重新整理。 重新整理原則定義於 Power BI Desktop 中；服務中的重新整理作業會套用它們。
+- 只有 Premium 容量上的工作區才支援累加式重新整理。 重新整理原則定義於 Power BI Desktop 中，且由服務中的重新整理作業套用。
 
-- 如果您可以從 Power BI 服務下載包含累加式重新整理原則的 PBIX 檔案，則不會在 Power BI Desktop 中開啟該檔案。 您很快就根本無法下載它。 雖然這可能會在未來受到支援，但請記住這些資料集可能會成長到很大，因此不適合在典型桌上型電腦下載並開啟它們。
+- 如果您可以從 Power BI 服務下載包含累加式重新整理原則的 PBIX 檔案，則無法在 Power BI Desktop 中開啟該檔案。 雖然這可能會在未來受到支援，但請記住這些資料集可能會成長到很大，因此不適合在典型桌上型電腦下載並開啟它們。
 
 #### <a name="refresh-ranges"></a>重新整理範圍
 
-下列範例會定義重新整理原則，用來儲存 5 個完整日曆年度的資料再加上目前年度到目前日期的資料，並以累加方式重新整理 10 天的資料。 第一次重新整理作業將會載入歷程記錄資料。 後續的重新整理是累加式，並且 (如果排程為每日執行) 會執行下列作業。
+下列範例會定義重新整理原則，用來儲存 5 個完整日曆年度的資料再加上目前年度到目前日期的資料，並以累加方式重新整理 10 天的資料。 第一次重新整理作業會載入歷程記錄資料。 後續的重新整理是累加式，且 (如果排程為每日執行) 會執行下列作業：
 
 - 新增一天的資料。
 
@@ -103,13 +109,14 @@ Power BI 服務中的第一次重新整理可能需要較長的時間才能匯�
 
 ![重新整理範圍](media/service-premium-incremental-refresh/refresh-ranges.png)
 
-**您可能只需要這些範圍的定義，在此情況下，您可以直接前往下面的發佈步驟。其他下拉式清單是針對進階功能。**
+> [!NOTE]
+> 您可能只需要這些範圍的定義，在此情況下，您可以直接前往下面的發佈步驟。 其他下拉式清單是針對進階功能。
 
 ### <a name="advanced-policy-options"></a>進階原則選項
 
 #### <a name="detect-data-changes"></a>偵測資料變更
 
-10 天的累加式重新整理當然會比 5 年的完整重新整理更具效率。 不過，我們甚至可以更具效率。 如果您選取 [偵測資料變更] 核取方塊，則可以選取用來找出並僅重新整理資料已變更之日期的日期/時間資料行。 這假設這類資料行存在於來源系統中，這通常用於稽核用途。 **這不應該與使用 RangeStart/RangeEnd 參數來分割資料的資料行相同。** 會評估此資料行在累加式範圍之每個週期的最大值。 如果自上次重新整理後尚未進行變更，則不需要重新整理週期。 在範例中，這可能會進一步將累加式重新整理天數從 10 天減少為可能為 2 天。
+10 天的累加式重新整理會比 5 年的完整重新整理更具效率。 不過，還可以更好。 如果您選取 [偵測資料變更] 核取方塊，則可以選取用來找出並僅重新整理資料已變更之日期的日期/時間資料行。 這假設這類資料行存在於來源系統中，這通常用於稽核用途。 **這不應該與使用 RangeStart/RangeEnd 參數來分割資料的資料行相同。** 會評估此資料行在累加式範圍之每個週期的最大值。 如果自上次重新整理後尚未進行變更，則不需要重新整理週期。 在範例中，這可能會進一步將累加式重新整理天數從 10 天減少為大約 2 天。
 
 ![偵測變更](media/service-premium-incremental-refresh/detect-changes.png)
 
