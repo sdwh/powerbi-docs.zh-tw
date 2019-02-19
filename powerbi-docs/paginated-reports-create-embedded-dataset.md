@@ -1,22 +1,23 @@
 ---
 title: 建立適用於 Power BI 編頁報表的內嵌資料集 (預覽)
 description: 在此文章中，您會了解如何根據內嵌的資料來源，在 Power BI 服務中建立適用於編頁報表的內嵌資料集。
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
-ms.author: maggies
-ms.openlocfilehash: 1689d7382c0f3bf7406a4a44ffeab53e6bc59197
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c625f394fd35c0b1c6b7ccf0fc617f5653533ea1
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281060"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324545"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料集 (預覽)
+
 在此文章中，您會了解如何根據內嵌的資料來源，在 Power BI 服務中建立適用於編頁報表的內嵌資料集。 內嵌的資料集均包含於單一編頁報表中，以便在該報表中使用。 目前，發佈至 Power BI 服務的編頁報表需要內嵌的資料集和內嵌的資料來源。 您可以在建立報表時，於報表產生器中建立內嵌的資料來源和資料集。 
 
 您需要先建立資料來源，然後才能建立資料集。 若要深入了解，請參閱 Power BI 服務中[適用於編頁報表的內嵌資料來源](paginated-reports-embedded-data-source.md)。

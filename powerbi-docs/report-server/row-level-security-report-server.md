@@ -1,20 +1,20 @@
 ---
 title: Power BI 報表伺服器中的資料列層級安全性 (RLS)
 description: 了解如何使用 Power BI 報表伺服器中的資料列層級安全性 (RLS)
-author: maggiesMSFT
-ms.author: maggies
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 2130a0b76c2ff3c333e78f05277bc10028e697df
-ms.sourcegitcommit: 6c75e38660b1ab4c1af355c85709859ffde09e25
+ms.openlocfilehash: 8fe48becd106a91c0a57d145eab4b546985e2ba6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55068066"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324936"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI 報表伺服器中的資料列層級安全性 (RLS)
 
@@ -106,7 +106,7 @@ ms.locfileid: "55068066"
 
 ### <a name="can-i-use-rls-to-limit-the-columns-or-measures-accessible-by-my-users"></a>我可以使用 RLS 來限制使用者能夠存取的資料行或量值嗎？ 
 
-否。 如果使用者具有特定資料列的存取權，就可以查看該資料列的所有資料行。 
+否。  如果使用者具有特定資料列的存取權，就可以查看該資料列的所有資料行。 
 
 ### <a name="does-rls-let-me-hide-detailed-data-but-give-access-to-data-summarized-in-visuals"></a>RLS 是否可讓我隱藏詳細資料，但允許存取以視覺效果摘要的資料？ 
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d768956f26256bd06516981b2bae0ab17ef3ca90
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296309"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249037"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>對適用於 Power BI 的 Cortana 進行疑難排解
 本文是系列文的其中一篇。 如果還沒有這麼做，建議您閱讀下列三篇文章。
@@ -79,7 +79,7 @@ ms.locfileid: "54296309"
 
    ![回應卡](media/service-cortana-troubleshoot/power-bi-answer-card-new.png)
 
-   </br>
+   <br>
 
    ![Power BI 中的回應卡索引標籤](media/service-cortana-troubleshoot/power-bi-answer-card2.png)
 4. 有時候，您初次在 [Utterance] 欄位中鍵入內容時，不會有任何反應。 請把這當作在啟動系統；您正在讓疑難排解工具知道該啟動了。 剪下並貼上，或重新鍵入 [Utterance] 欄位中。 在本例中，回應卡的名稱為 **Cortana stores**。 在工具中貼上或鍵入 **Cortana stores**，會產生單一結果，顯示在 [Interpretations] (解譯) 欄位中。 按一下以查看 Cortana 視窗中所顯示的回應卡，在此情況下，為 **Cortana stores**。

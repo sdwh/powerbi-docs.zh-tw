@@ -1,20 +1,20 @@
 ---
 title: 在報表設計檢視中瀏覽編頁報表 (預覽)
 description: 報表產生器中的報表設計檢視，是用於建立可以在 Power BI 服務中發佈之編頁報表的設計空間。
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.author: maggies
-ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2ee381cae5bd0c0ed1e6a8cab1cd33361a05814f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283521"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324800"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>在報表設計檢視中瀏覽編頁報表 (預覽)
 
@@ -22,12 +22,12 @@ ms.locfileid: "54283521"
 
 ![報表產生器報表設計檢視](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
-1.  [[報表資料] 窗格](#report-data-pane) 
-2.  [[報表設計] 介面](#report-design-surface)  
-3.  [[參數] 窗格](#parameters-pane) 
-4.  [[屬性] 窗格](#properties-pane) 
-5.  [[群組] 窗格](#grouping-pane) 
-6.  [目前報表狀態列](#current-report-status-bar)  
+1. [[報表資料] 窗格](#report-data-pane) 
+2. [[報表設計] 介面](#report-design-surface)  
+3. [[參數] 窗格](#parameters-pane) 
+4. [[屬性] 窗格](#properties-pane) 
+5. [[群組] 窗格](#grouping-pane) 
+6. [目前報表狀態列](#current-report-status-bar)  
   
 ## <a name="1-report-data-pane"></a>1 個 [報表資料] 窗格  
  在 [報表資料] 窗格中，您可以在設計報表配置之前，定義報表所需的報表資料和報表資源。 例如，您可以將資料來源、資料集、導出欄位、報表參數和影像新增至 [報表資料] 窗格。  

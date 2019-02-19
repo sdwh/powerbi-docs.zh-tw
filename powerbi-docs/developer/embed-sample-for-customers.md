@@ -1,6 +1,6 @@
 ---
 title: 運用內嵌式分析為客戶將 Power BI 內容內嵌至應用程式
-description: 了解如何使用內嵌式分析的 Power BI API，為客戶將報表、儀表板或圖格整合或內嵌至應用程式。 了解如何使用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具，將 Power BI 整合到應用程式中。
+description: 了解如何使用內嵌式分析的 Power BI API，為客戶將報表、儀表板或磚整合或內嵌至應用程式。 了解如何使用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具，將 Power BI 整合到應用程式中。
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: eb1147875accff47b80dcdaf8a4051b57e627625
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: adeb3f09e52d039937ba3cf54afb72f8ed1287f3
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762620"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249152"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教學課程：將客戶的 Power BI 內容內嵌至應用程式
 
@@ -97,7 +97,7 @@ ms.locfileid: "55762620"
 
     <center>
 
-    | **MasterUser** </br> (Power BI Pro 授權) | **ServicePrincipal** </br> (僅限應用程式權杖)|
+    | **MasterUser** <br> (Power BI Pro 授權) | **ServicePrincipal** <br> (僅限應用程式權杖)|
     |---------------|-------------------|
     | [applicationId](#application-id) | [applicationId](#application-id) |
     | [workspaceId](#workspace-id) | [workspaceId](#workspace-id) |
@@ -139,11 +139,11 @@ ms.locfileid: "55762620"
 
 在 **workspaceId** 資訊中，填入來自 Power BI 的應用程式工作區 (群組) GUID。 您可以在登入 Power BI 服務時從 URL，或使用 Powershell 取得這項資訊。
 
-URL </br>
+URL <br>
 
 ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-Powershell </br>
+Powershell <br>
 
 ```powershell
 Get-PowerBIworkspace -name "App Owns Embed Test"
@@ -157,11 +157,11 @@ Get-PowerBIworkspace -name "App Owns Embed Test"
 
 在 **reportId** 資訊中，填入來自 Power BI 的報表 GUID。 您可以在登入 Power BI 服務時從 URL，或使用 Powershell 取得這項資訊。
 
-URL</br>
+URL<br>
 
 ![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
-Powershell </br>
+Powershell <br>
 
 ```powershell
 Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
