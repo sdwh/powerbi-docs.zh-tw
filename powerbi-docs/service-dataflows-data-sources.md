@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cef34e7be0767ce16b84b066663318b66bcbd2d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280536"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324913"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>連線到 Power BI 資料流程的資料來源 (預覽)
 
@@ -76,6 +76,7 @@ ms.locfileid: "54280536"
 * SQL Server 資料庫
 * Sybase 資料庫
 * Teradata 資料庫
+* Vertica
 
 [Power BI] 類別包含資料流程的下列可用資料連線：
 
@@ -91,6 +92,7 @@ ms.locfileid: "54280536"
 
 [線上服務] 包含資料流程的下列可用資料連線：
 
+* Amazon Redshift
 * Common Data Service for Apps
 * Microsoft Exchange Online
 * Salesforce 物件
@@ -154,12 +156,8 @@ ms.locfileid: "54280536"
 
 下列清單會顯示您目前可以藉由複製 M 查詢並貼入空白查詢中的連接器：
 
-* Amazon Redshift
 * SAP Business Warehouse 
-* SAP HANA
-* Analysis Services
 * Azure Analysis Services
-* Google Analytics
 * Adobe Analytics
 * ODBC
 * OLE DB
@@ -170,7 +168,6 @@ ms.locfileid: "54280536"
 * Azure HDInsight (HDFS)
 * Hadoop 檔案 HDFS
 * Informix (Beta)
-* Vertica
 
 這就是連線到 Power BI 資料流程中資料來源的全部資訊！
 

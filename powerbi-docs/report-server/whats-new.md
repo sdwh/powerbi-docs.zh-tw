@@ -1,20 +1,20 @@
 ---
 title: Power BI 報表伺服器的新功能
 description: 了解 Power BI 報表伺服器的新功能。 其涵蓋主要功能範圍，並會隨著新項目發行而更新。
-author: maggiesMSFT
-ms.author: maggies
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 27f08b9922508866f190fc41848cb77031a91c6b
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: ad3025b9649529566972f75e9c447bb7558132b8
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216784"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325189"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 

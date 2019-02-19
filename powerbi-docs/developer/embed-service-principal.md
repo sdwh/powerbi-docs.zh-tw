@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
-ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
+ms.openlocfilehash: c5915f4f2792496a1521a868180d4ffc2dca3557
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "55971663"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248899"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>搭配 Power BI 的服務主體 (預覽)
 
@@ -53,7 +53,7 @@ ms.locfileid: "55971663"
 
 使用服務主體和標準主帳戶 (Power BI Pro 授權) 進行驗證之間有差異。 下表反白顯示一些顯著的差異。
 
-| 函數 | 主使用者帳戶 </br> (Power BI Pro 授權) | 服務主體 </br> (僅限應用程式權杖) |
+| 函數 | 主使用者帳戶 <br> (Power BI Pro 授權) | 服務主體 <br> (僅限應用程式權杖) |
 |------------------------------------------------------|---------------------|-------------------|
 | 可以登入 Power BI 服務  | 是 | 否 |
 | 已在 Power BI 系統管理入口網站啟用 | 否 | 是 |
@@ -113,7 +113,7 @@ ms.locfileid: "55971663"
    > [!Important]
    > 服務主體會從其安全性群組繼承所有 Power BI 租用戶設定的使用權限。 若要限制使用權限，請建立服務主體專屬的安全性群組，並將它新增至相關已啟用 Power BI 設定的 [特定安全性群組除外] 清單。
 
-    ![系統管理入口網站](media/embed-service-principal/admin-portal.png)
+    ![管理入口網站](media/embed-service-principal/admin-portal.png)
 
 4. 設定您的 [Power BI 環境](embed-sample-for-customers.md#set-up-your-power-bi-environment)。
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: 39a62950260789b50be034c2f55808e6991764db
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293997"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249060"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>要列入允許清單的 Power BI URL
 
@@ -69,10 +69,10 @@ Power BI 需要仰賴 Office 365 驗證與身分識別區段中的必要端點�
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
-| 1 | **必要：** AppSource (Power BI 中的內部或外部應用程式) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
+| 1 | **必要：** AppSource (Power BI 中的內部或外部應用程式) | appsource.microsoft.com <br> *.s-microsoft.com  | TCP 443 |
 | 2 | **選擇性：** 登入並取得內容套件的資料 | 取決於使用的內容套件 | 取決於使用的內容套件 |
 | 3 | **選擇性：** 從「OneDrive 個人」匯入檔案 | 請參閱 [OneDrive 網站的必要 URL 與連接埠](https://docs.microsoft.com/onedrive/required-urls-and-ports) | N/A |
-| 4 | **選擇性：** 60 秒 Power BI 教學課程影片 | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
+| 4 | **選擇性：** 60 秒 Power BI 教學課程影片 | *.doubleclick.net <br> *.ggpht.com <br> *.google.com <br> *.googlevideo.com <br> *.youtube.com <br> *.ytimg.com <br> fonts.gstatic.com | TCP 443 |
 | 5 | **選擇性：** PubNub 串流資料來源 | 請參閱 [PubNub 文件](https://support.pubnub.com/support/solutions/articles/14000043522) | N/A |
 | | | |
 
@@ -91,8 +91,8 @@ Power BI 需要特定端點能夠檢視及存取自訂的視覺效果。 您必�
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
-| 1 | **必要：** 從 Marketplace 介面或檔案匯入自訂視覺效果 | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
-| 2 | **選擇性：** Bing 地圖服務 | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
+| 1 | **必要：** 從 Marketplace 介面或檔案匯入自訂視覺效果 | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
+| 2 | **選擇性：** Bing 地圖服務 | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **選擇性：** PowerApps | 請參閱 PowerApps 系統需求網站的[必要服務區段](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) | N/A |
 | 4 | **選擇性：** Visio | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)，以及 [SharePoint Online 和商務用 OneDrive](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/A |
 | | | |
@@ -103,12 +103,12 @@ Power BI 連結至其他相關網站。 這些網站包括文件、支援、新�
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
-| 1 | **選擇性：** 社群網站 | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
-| 2 | **選擇性：** 文件網站 | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
+| 1 | **選擇性：** 社群網站 | community.powerbi.com <br> oxcrx34285.i.lithium.com | TCP 443 |
+| 2 | **選擇性：** 文件網站 | docs.microsoft.com <br> img-prod-cms-rt-microsoft-com.akamaized.net <br> statics-uhf-eas.akamaized.net <br> cdnssl.clicktale.net <br> ing-district.clicktale.net | TCP 443 |
 | 3 | **選擇性：** 下載網站 (適用於 Power BI Desktop 等) | download.microsoft.com | TCP 443 |
-| 4 | **選擇性：** 外部重新導向 | aka.ms </br> go.microsoft.com | TCP 443 |
-| 5 | **選擇性：** Ideas 意見反應網站| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |
+| 4 | **選擇性：** 外部重新導向 | aka.ms <br> go.microsoft.com | TCP 443 |
+| 5 | **選擇性：** Ideas 意見反應網站| ideas.powerbi.com <br> powerbi.uservoice.com | TCP 443 |
 | 6 | **選擇性：** Power BI 網站，包含登陸頁面、深入了解連結、支援網站、下載連結、合作夥伴展示工具等。 | powerbi.microsoft.com | TCP 443 |
 | 7 | **選擇性：** Power BI 開發人員中心 | dev.powerbi.com | TCP 443 |
-| 8 | **選擇性：** 支援網站 | support.powerbi.com </br> s3.amazonaws.com </br> *.olark.com </br> logx.optimizely.com </br> mscom.demdex.net </br> tags.tiqcdn.com | TCP 443 |
+| 8 | **選擇性：** 支援網站 | support.powerbi.com <br> s3.amazonaws.com <br> *.olark.com <br> logx.optimizely.com <br> mscom.demdex.net <br> tags.tiqcdn.com | TCP 443 |
 | | | |

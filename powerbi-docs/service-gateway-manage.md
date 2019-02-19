@@ -11,18 +11,18 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: ff9f75b216ba64dfdb0b8244bb99016d0edd4ede
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276989"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324821"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>管理 Power BI 內部部署閘道
 
-[安裝 Power BI 資料閘道](service-gateway-install.md)之後，您便可以根據自己的需求來進行管理。 在本主題中，您將學會如何新增及移除資料來源和使用者、重新啟動閘道，以及移轉、還原、接管及移除閘道。 
+[安裝 Power BI 資料閘道](service-gateway-install.md)之後，您便可以根據自己的需求來進行管理。 在本主題中，您將學會如何新增及移除資料來源和使用者、重新啟動閘道，以及移轉、還原、接管及移除閘道。
 
-若要管理閘道，可以透過本機電腦上閘道應用程式中 Power BI 服務的 [管理閘道] 區域，或是使用 PowerShell 指令碼。 本文著重在 Power BI 服務。 
+若要管理閘道，可以透過本機電腦上閘道應用程式中 Power BI 服務的 [管理閘道] 區域，或是使用 PowerShell 指令碼。 本文著重在 Power BI 服務。
 
 如果您剛剛安裝了一個閘道，建議您下一步[加入資料來源](#add-a-data-source)，然後[新增使用者](#add-users-to-a-data-source)，讓他們可以存取資料來源。
 
