@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a7c9c72dfbb75958be3119db61fa3aa03ac89171
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 09539bfd26685ffdd9866810b566699e5cdb4a41
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430939"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408107"
 ---
 # <a name="subscribe-yourself-and-others-to-a-report-or-dashboard-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表或儀表板
 
@@ -60,12 +60,10 @@ ms.locfileid: "55430939"
 7. 選取 [儲存並關閉]。 針對您所選取的頻率和時間，這些訂用帳戶會收到儀表板或報表頁面的電子郵件和快照集。 總之，您可以針對每個報表或儀表板建立最多 24 個訂用帳戶，而且可以為每個訂用帳戶提供唯一的收件者、時間和頻率。  所有設定為 [在資料重新整理後] 的儀表板或報表訂用帳戶，仍然只會在第一次排程重新整理之後傳送一封電子郵件。   
       
    > [!TIP]
-   > 想要立即看到電子郵件嗎？ 您可以重新整理與儀表板或報表相關的資料集，來觸發電子郵件。 如果您沒有資料集的編輯權限，請要求有這些權限的人為您進行重新整理。 若要查看相關資料集，請選取**檢視相關項目**圖示 ![檢視相關項目圖示](media/service-report-subscribe/power-bi-view-related.png) 以開啟 [相關內容]，然後選取重新整理圖示 ![重新整理圖示](media/service-report-subscribe/power-bi-refresh.png)。 
+   > 想要立即/隨時從訂用帳戶傳送電子郵件嗎？ 請以訂用帳戶針對您想傳送的儀表板或報表選取 [立即執行]。 您會看到通知顯示電子郵件正在傳送至屬於該特定訂用帳戶的所有人。  您隨時都可以這麼做。 這不會計入您每天每報表或儀表板的 24 個排程訂用帳戶執行限制。 請注意，這不會觸發基礎資料集的資料重新整理。 
    > 
    > 
    
-   ![相關資料集](media/service-report-subscribe/power-bi-view-related-screen.png)
-
 ## <a name="email-languages"></a>電子郵件語言
 
 電子郵件和快照集會使用 Power BI 設定中設定的語言 (請參閱 [Power BI 支援的語言與國家/地區](supported-languages-countries-regions.md))。 如果未定義任何語言，Power BI 會使用您目前瀏覽器中地區設定的語言。 若要查看或設定語言喜好設定，請選取齒輪圖示 ![齒輪圖示](media/service-report-subscribe/power-bi-settings-icon.png) > [設定] > [一般] > [語言]。 
@@ -84,6 +82,7 @@ ms.locfileid: "55430939"
 如果 Pro 授權過期、擁有者刪除儀表板或報表，或用來建立訂用帳戶的使用者帳戶遭到刪除，則訂用帳戶將會終止。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
+* 傳送給使用者的訂閱電子郵件中，釘選磚超過 25 個，或是有 4 個以上釘選即時報表頁面的儀表板可能不會完整呈現。  對磚超過這些數目的儀表板訂閱並不會受到封鎖，但如果您遇到問題，則系統會認定不支援這些訂閱，而您應該據此修改至支援的範圍內。
 * 針對儀表板電子郵件訂用帳戶，如果有任何磚套用資料列層級安全性 (RLS)，則不會顯示這些磚。  針對報表電子郵件訂用帳戶，如果資料集使用 RLS，則您無法建立訂用帳戶。
 * 報表頁面訂閱會繫結至報表頁面的名稱。 如果您訂閱報表頁面，然後將它重新命名，您必須重新建立訂用帳戶。
 * 您的組織可能會在 Azure Active Directory 進行某些設定，而這可能會限制在 Power BI 中使用電子郵件訂閱的功能。  這些限制包括但不限於存取資源時的多重要素驗證或 IP 範圍限制。

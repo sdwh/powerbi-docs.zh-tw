@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 509eebfdf2d96a2cc77d5c9413c664a10309ab9c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216406"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325032"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用書籤來共用深入解析並建立故事 
 在 Power BI 中使用**書籤**可協助您擷取目前設定的報表頁面檢視 (包括視覺效果的篩選和狀態)，讓您稍後只要選取儲存的書籤，就可以返回該狀態。 
@@ -61,7 +61,7 @@ ms.locfileid: "56216406"
 
 一旦有了書籤，只要在 [書籤] 窗格中按一下書籤，就可以將它顯示。 
 
-您也可以選取是否每個書籤都會套用 [資料] 屬性 (如篩選條件和交叉分析篩選器)、[顯示] 屬性 (例如焦點和其可見性，以及新增書籤時所呈現可見頁面的頁面變更)。 當您使用書籤在視覺效果類型之間切換時這些功能很有用，在這種情況下您可能會想要關閉資料屬性，這樣一來當使用者變更視覺效果類型時才不會重設篩選條件。 
+您也可以選取是否每個書籤都會套用 [資料] 屬性 (如篩選條件和交叉分析篩選器)、[顯示] 屬性 (例如焦點和其可見性，以及新增書籤時所呈現可見頁面的頁面變更)。 當您使用書籤在報表檢視或視覺效果選取項目之間切換時這些功能很有用，在這種情況下建議您關閉資料屬性，讓篩選不會在選取書籤來切換檢視時重設。 
 
 若要進行該變更，請選取書籤名稱旁的省略符號 (如上一個影像所示)，然後選取或取消選取 [資料]、[顯示] 和其他控制項旁的核取記號。 
 

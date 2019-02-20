@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0418016fd7a194ff2e37e979219b97e94520f9ae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282095"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408130"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>關於 Power BI 自訂視覺效果的常見問題集
 
@@ -98,6 +98,9 @@ IAP 自訂視覺效果是免費、可下載的自訂視覺效果，使用者不�
 如果您的自訂視覺效果中有標誌，請確認它符合標誌方針 (色彩、位置、大小和動作觸發)。
 
 您也可以在方針中找到最佳做法的注意事項。  
+> [!Note]
+> 所有免費視覺效果應保有等同先前提供的免費功能。 您可以在舊的免費功能之上新增選用進階付費功能。 我們建議將附有進階功能的 IAP 視覺效果作為新視覺效果提交，而不更新舊的免費項目。
+
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>IAP 自訂視覺效果可以獲得認證嗎？
 

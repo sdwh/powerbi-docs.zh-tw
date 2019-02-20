@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8dd9af8b44e74aafb97e3265b9ee1c32a05edc64
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9e1ed67302b3fc4d7bf990040259e9e4615794a5
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281543"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298906"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>從 Power BI 將報表匯出至 PowerPoint
 有了 Power BI，您就可以將報表發佈至 **Microsoft PowerPoint**，並根據 Power BI 報表輕鬆地建立投影片組。 當您**匯出至 PowerPoint** 時會發生下列狀況︰
@@ -35,6 +35,10 @@ ms.locfileid: "54281543"
 當畫布上顯示您要匯出至 PowerPoint 的報表時，請從 Power BI 服務的功能表列選取 [檔案] > [匯出至 PowerPoint] 。
 
 ![在 [我的工作區] 已選取且 [檔案] 下拉式清單已選取之情況下的左上角瀏覽列特寫](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
+   
+會出現快顯，其中有選項可供您選取 [目前檢視] 或 [預設檢視]。  [目前檢視] 會以目前狀態匯出報表，其中包括您對交叉分析篩選器和篩選值進行的有效變更。  大多數使用者會選取此選項。  選取 [預設檢視] 則會以原始狀態 (如同作者共用當下的狀態) 匯出報表，而不會反映您對該原始狀態進行的任何變更。
+    
+另外還會出現核取方塊供您選取是否要匯出報表的隱藏索引標籤。  如果您只要可在瀏覽器中看見的報表索引標籤，只要選取此方塊即可。  如果您希望取得屬於報表的所有隱藏索引標籤，可以不要選取此方塊。  如果選取方塊呈現灰色，即代表報表中沒有任何隱藏索引標籤。  在您選取完成後，請按一下 [匯出] 按鈕繼續。
 
 您會在 Power BI 服務瀏覽器視窗的右上角，看到報表正匯出至 PowerPoint 的通知橫幅。 這可能需要幾分鐘的時間，而您可以在報表匯出時繼續使用 Power BI 工作。
 
@@ -74,7 +78,6 @@ ms.locfileid: "54281543"
 ## <a name="limitations"></a>限制
 使用 [匯出至 PowerPoint] 功能時，需牢記幾項考量與限制。
 
-* 匯出至 PowerPoint 時，尚未支援工作階段內互動，例如反白顯示和篩選、向下切入等等。 匯出的 PowerPoint 會顯示原來儲存在報表中的視覺效果。 如果您已套用篩選和交叉分析篩選器，並想要在匯出時保留，請儲存報表，然後進行匯出。
 * 目前不支援 **R 視覺效果**。 任何這類的視覺效果都會作為空白影像匯出至 PowerPoint，並顯示一個錯誤訊息，指出目前並不支援該視覺效果。
 * 目前已支援**經認證**的**自訂視覺效果**。 如需認證自訂視覺效果，包括如何使自訂視覺效果獲得認證的詳細資訊，請參閱[認證自訂視覺效果](../power-bi-custom-visuals-certified.md)。 任何未經認證的自訂視覺效果目前都不支援，其將會作為空白影像匯出至 PowerPoint，並顯示一個錯誤訊息，指出目前並不支援該視覺效果。
 * 目前無法匯出超過 30 頁的報表。

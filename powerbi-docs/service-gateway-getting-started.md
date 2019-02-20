@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0a2c1cb446a0a975a574f5d3f2684ddf80f4f273
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9c88a09eccd887007df8d2539be861b964c31b5f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274712"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324476"
 ---
 # <a name="what-are-power-bi-gateways"></a>什麼是 Power BI 閘道？
 
@@ -53,7 +53,7 @@ Power BI 分別針對不同的案例提供兩個閘道：
 查詢和資料流程：
 
 1. 查詢是由雲端服務使用內部部署資料來源的加密認證建立。 它會傳送到佇列，以便閘道處理。
-2. 閘道的雲端服務會分析該查詢，並將要求推送至 Azure 服務匯流排。
+2. 閘道的雲端服務會分析該查詢，並將要求推送至 Azure 服務匯流排。 因為 Power BI 會為您管理服務匯流排，所以不需要任何額外成本或設定步驟。
 3. 內部部署資料閘道會輪詢 Azure 服務匯流排，得知是否有擱置的要求。
 4. 閘道收到查詢，將認證解密，並使用該認證連線到資料來源。
 5. 閘道將查詢傳送到資料來源以用於執行。

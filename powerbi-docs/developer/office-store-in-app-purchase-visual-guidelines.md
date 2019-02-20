@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429996"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408061"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>需要另外購買的 Power BI 視覺效果指導方針
 
@@ -22,6 +22,10 @@ ms.locfileid: "55429996"
 
 > [!Note]
 > 視覺效果不得存取外部服務或資源，才能通過驗證。
+
+> [!Note]
+> 所有免費視覺效果應保有等同先前提供的免費功能。 您可以在舊的免費功能之上新增選用進階付費功能。 我們建議將附有進階功能的 IAP 視覺效果作為新視覺效果提交，而不更新舊的免費項目。
+
 
 ## <a name="whats-changing-in-the-submission-process"></a>提交程序將有何變更？
 

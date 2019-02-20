@@ -8,15 +8,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/04/2019
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c18257f1f4e4e3f325c8d4d895e3b6abf88e900c
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 1aaa57006b9a5aac2b077d3326ed6a39e6a4206d
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794980"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298860"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>從 Power BI 將報表匯出至 PDF
 有了 Power BI，您就可以將報表發佈至 PDF 格式，並根據 Power BI 報表輕鬆地建立文件。 當您**匯出至 PDF** 時，Power BI 報表中的每個頁面都會變成 PDF 文件中的個別頁面。
@@ -28,6 +28,10 @@ ms.locfileid: "55794980"
 
     ![從功能表列選取 [檔案]，將箭頭指向 [匯出至 PDF]](media/end-user-pdf/power-bi-export-pdf.png)
 
+    會出現快顯，其中有選項可供您選取 [目前檢視] 或 [預設檢視]。  [目前檢視] 會以目前狀態匯出報表，其中包括您對交叉分析篩選器和篩選值進行的有效變更。  大多數使用者會選取此選項。  選取 [預設檢視] 則會以原始狀態 (如同作者共用當下的狀態) 匯出報表，而不會反映您對該原始狀態進行的任何變更。
+    
+    另外還會出現核取方塊供您選取是否要匯出報表的隱藏索引標籤。  如果您只要可在瀏覽器中看見的報表索引標籤，只要選取此方塊即可。  如果您希望取得屬於報表的所有隱藏索引標籤，可以不要選取此方塊。  如果選取方塊呈現灰色，即代表報表中沒有任何隱藏索引標籤。  在您選取完成後，請按一下 [匯出] 按鈕繼續。
+    
     進度列會顯示在右上角。 匯出可能需要幾分鐘的時間，而您可以在報表匯出時繼續使用 Power BI 工作。
 
     ![匯出進度訊息](media/end-user-pdf/power-bi-export-message.png)
@@ -43,8 +47,6 @@ ms.locfileid: "55794980"
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 使用 [匯出至 PDF] 功能時，需牢記幾項考量與限制。
-
-- 匯出至 PDF 時，尚未支援工作階段內互動，例如反白顯示和篩選、向下切入等等。 匯出的 PDF 會顯示原來儲存在報表中的視覺效果。 如果您已套用篩選和交叉分析篩選器，並想要在匯出時保留它們，請儲存報表，然後進行匯出。
 
 * 目前不支援 **R 視覺效果**。 在 PDF 中，這些視覺效果會是空白，並顯示錯誤訊息。  
 

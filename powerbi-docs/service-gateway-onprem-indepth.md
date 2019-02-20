@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4f9de49619a26e17fbdf2b0df47bc56ba23f4d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279312"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325006"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解內部部署資料閘道
 您組織中的使用者可以存取內部部署資料 (他們已經具有存取授權)，但在那些使用者能夠連線至您的內部部署資料來源之前，必須先安裝並設定內部部署資料閘道。 此閘道有助於讓雲端的使用者快速安全地以幕後通訊方式，在內部部署資料來源和雲端之間往返。
@@ -90,7 +90,7 @@ Power BI 可讓您對應 Analysis Services 資料來源的使用者名稱。 您
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>這就是閘道器現在的運作方式
-閘道可作為雲端和內部部署伺服器之間的橋接器。 雲端和閘道之間的資料傳輸會透過 [Azure 服務匯流排](/azure/service-bus-messaging/service-bus-messaging-overview)加以保護。 此服務匯流排會透過閘道上的輸出連線，建立雲端與內部部署伺服器之間的安全通道。  您不需要在內部部署防火牆上開啟任何輸入的連線。
+閘道可作為雲端和內部部署伺服器之間的橋接器。 雲端和閘道之間的資料傳輸會透過 [Azure 服務匯流排](/azure/service-bus-messaging/service-bus-messaging-overview)加以保護。 此服務匯流排會透過閘道上的輸出連線，建立雲端與內部部署伺服器之間的安全通道。  您不需要在內部部署防火牆上開啟任何輸入的連線。 因為 Power BI 會為您管理服務匯流排，所以不需要任何額外成本或設定步驟。
 
 如果您有 Analysis Services 資料來源，則需要在與 Analysis Services 伺服器加入同一個樹系/網域的電腦上安裝閘道器。
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/10/2019
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 68d350035732d8335079bf76a859919d696e2721
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 5e1bd67ba14ed35a97d91e5ed76f7a3bd8de56ea
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223666"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324801"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI (預覽) 中的自助資料準備
 
@@ -52,6 +52,9 @@ Power BI 導入了**資料流程**，可協助組織整合來自不同來源的�
 ## <a name="how-to-use-dataflows"></a>如何使用資料流程
 
 上一節說明了少數幾個可使用資料流程，在 Power BI 中快速建立功能強大之分析的方式。 在此節中，您將了解在組織中使用資料流程建立深入解析的速度有多快、快速檢視 BI 專業人員如何建立自己的資料流程，以及自訂其組織的深入解析。
+
+> [!NOTE]
+> 您必須有付費 Power BI 帳戶才能使用資料流程，例如 Power BI Pro 或 Power PI Premium 帳戶，但您不需要為使用資料流程額外付費。 
 
 ### <a name="extend-the-common-data-model-for-your-business-needs"></a>基於您的商務需求擴充 Common Data Service
 對於想要擴充 Common Data Service 的組織而言，資料流程讓商業智慧專業人員能夠自訂標準實體，或建立新的實體。 這個用來自訂資料模型的自助方法接著可與資料流程搭配使用，以建置為組織量身訂做的應用程式和 Power BI 儀表板。

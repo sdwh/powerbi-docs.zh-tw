@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086463"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408176"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -172,11 +172,11 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 > [!NOTE]
 > 停用 [匯出資料] 會讓使用者無法使用「在 Excel 中進行分析」功能，也無法使用 Power BI 服務即時連線。
 
-### <a name="export-reports-as-powerpoint-presentations"></a>將報表匯出為 PowerPoint 簡報
+### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>將報表匯出成 PowerPoint 簡報或 PDF 文件
 
-組織中的使用者可以將 Power BI 報表匯出為 PowerPoint 檔案。 [深入了解](consumer/end-user-powerpoint.md)
+組織中的使用者可將 Power BI 報表匯出成 PowerPoint 檔案或 PDF 文件。 [深入了解](consumer/end-user-powerpoint.md)
 
-下圖顯示當啟用 [將報表匯出為 PowerPoint 簡報] 設定時，報表的 [檔案]**File** 功能表。
+下圖顯示當啟用 [Export reports as PowerPoint presentations or PDF documents] \(將報表匯出為 PowerPoint 簡報或 PDF 文件\) 設定時，報表的 [檔案] 功能表。
 
 ![將報表匯出為 PowerPoint 簡報](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
@@ -202,9 +202,9 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ![將內容套件發佈到組織](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-organizational-content-packs-and-apps"></a>建立範本組織內容套件及應用程式
+### <a name="create-template-apps"></a>建立範本應用程式
 
-組織中的使用者可以建立範本內容套件，其中使用在 Power BI Desktop 中建置的資料集。 [深入了解](template-content-pack-authoring.md)
+組織中的使用者可以建立範本應用程式，其中使用在 Power BI Desktop 中建置的資料集。 深入了解[範本應用程式](template-content-pack-authoring.md)
 
 ### <a name="push-apps-to-end-users"></a>將應用程式推送給終端使用者
 
@@ -301,6 +301,18 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 > [!NOTE]
 > 這項設定適用於整個組織，而無法限於特定群組。
+
+## <a name="template-apps-settings-preview"></a>範本應用程式設定 (預覽)
+
+兩個設定了控制範本應用程式。 
+
+![Power BI 系統管理員入口網站範本應用程式設定](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
+
+第一個設定 [建立範本應用程式] 控制您組織中有誰可建立範本應用程式。 範本應用程式建立者隨後可透過 AppSource 或其他散發方法，將這些應用程式散發至組織外部的用戶端。
+
+![Power BI 系統管理員入口網站，建立範本應用程式設定](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+
+第二個設定 [安裝範本應用程式] 可讓您控制組織中有誰可以從 AppSource 或另一個來源下載並安裝範本應用程式
 
 ## <a name="capacity-settings"></a>容量設定
 

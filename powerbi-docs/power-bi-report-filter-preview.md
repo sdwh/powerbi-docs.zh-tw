@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 02/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: b130ccbe6b3fe6fa09b9a4c4efe388f79350c500
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482698"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298814"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Power BI 報表中新的篩選條件體驗 (預覽)
 
 本文詳細說明新的篩選體驗：Power BI 中的篩選條件有新功能和新設計。 當您在 Power BI Desktop 或 Power BI 服務中設計報表時，您可以讓 [篩選] 窗格融入整個報表且與其行為一致。 在新的體驗中，舊的 [篩選] 窗格當作篩選條件編輯窗格，而報表使用者只會看到新的 [篩選窗格]。 
  
 ![預設檢視 (沒有套用其他自訂)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
+
+> [!NOTE]
+> 新的篩選體驗處於預覽階段。 新的組建可能覆寫您已設定的格式。
 
 身為報表設計師，您可以使用新的篩選條件執行以下動作：
 
@@ -83,6 +86,7 @@ ms.locfileid: "55482698"
 - 背景透明度
 - [篩選窗格] 框線開啟或關閉
 - [篩選窗格] 框線色彩
+- 篩選窗格標題與標題字型、色彩及文字大小
 
 視這些元素是否已套用 (設定為某個值) 或可取得 (已清除)，您也可以針對篩選條件卡片設定其格式： 
 
@@ -90,6 +94,8 @@ ms.locfileid: "55482698"
 - 背景透明度
 - 框線：開啟或關閉
 - 框線色彩
+- 字型、色彩及文字大小
+- 輸入方塊色彩
 
 ### <a name="set-the-format-for-the-filters-pane-and-cards"></a>設定 [篩選] 窗格和卡片的格式
 
@@ -100,11 +106,11 @@ ms.locfileid: "55482698"
 
 1. 展開 [篩選窗格] 來設定背景、圖示和左框線的色彩，以搭配報表頁面。
 
-    ![展開 [篩選窗格]](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
+    ![展開 [篩選窗格]](media/power-bi-report-filter-preview/power-bi-filter-format-pane-font.png)
 
 1. 展開 [篩選卡片] 來設定 [可用] 與 [已套用] 色彩和框線。 如果您讓可用和已套用卡片使用不同的色彩，已套用哪些篩選條件就很清楚。 
   
-    ![展開篩選卡片](media/power-bi-report-filter-preview/power-bi-filter-format-card.png)
+    ![展開篩選卡片](media/power-bi-report-filter-preview/power-bi-filter-format-card-font.png)
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>在 [閱讀] 模式中檢視視覺效果的篩選條件
 
