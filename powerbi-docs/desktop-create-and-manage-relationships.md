@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f8b9f775b43f2c1b26b7ef56c5bb0985fc3f7ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d4f1936f02edf4ece60b4761d4e541801384a5d2
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292018"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249336"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中建立和管理關聯性
 當您匯入多個資料表時，您可能想要使用所有資料表中的資料來進行一些分析。 這些資料表之間必須有關聯性，才能正確地計算結果，並在報表中顯示正確資訊。 Power BI Desktop 可讓您輕鬆地建立這些關聯性。 事實上，在大多數情況下，您不必執行任何動作，[自動偵測] 功能會為您完成這項作業。 不過，在某些情況下，您可能必須自行建立關聯性，或可能需要對關聯性進行一些變更。 不論是哪種情況，請務必了解 Power BI Desktop 中的關聯性，以及如何建立和編輯關聯性。
@@ -58,6 +58,8 @@ ms.locfileid: "54292018"
 **多對一 (\*:1)**- 這是最常見的預設類型。 這表示一個資料表中的資料行可以有特定值的多個執行個體，而其他相關資料表 (通常稱為查閱資料表) 只能有特定值的一個執行個體。
 
 **一對一 (1:1)** - 這表示一個資料表中的資料行只能有特定值的一個執行個體，而其他相關資料表只能有特定值的一個執行個體。
+
+**多對多關聯性**：您可以使用複合模型在資料表之間建立多對多關聯性。 此方法會移除資料表中唯一值的需求。 此方法也會移除先前的因應措施，像是只為建立關聯性而導入新的資料表。 如需詳細資訊，請參閱[多對多基數關聯性](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)。 
 
 如需何時變更基數的詳細資訊，請參閱本文後段的＜了解其他選項＞一節。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c6222c4b10307985ad039c3b391c8648614979
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18872e65154f70e882c4f6f60c04420b17038d32
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280048"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249106"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 報告中的協助工具
 Power BI 具有可讓行動不便人士更輕鬆地使用 Power BI 報表並與之互動的功能。 這些功能包括能夠利用鍵盤或螢幕助讀程式來使用報告、利用 Tab 鍵聚焦於頁面上的不同物件，以及在視覺效果中貼心地使用標記。
@@ -141,6 +141,11 @@ Power BI 服務也會嘗試偵測為 Windows 選取的高對比設定，但偵�
 ### <a name="pane-navigation"></a>窗格導覽
 | 若要這樣做           | 按                |
 | :------------------- | :------------------- |
+| 複選 | Ctrl + 空格鍵 |
+| 摺疊單一資料表 | 向左鍵 |
+| 展開單一資料表 | 向右鍵 |
+| 摺疊所有資料表 | ALT + SHIFT + 1 |
+| 展開所有資料表 | ALT + SHIFT + 9 |
 | 開啟操作功能表 | <ul><li>Windows 鍵盤：Windows 內容索引鍵 + F10。  Windows 操作功能表鍵在左 ALT 鍵與向左鍵之間</li><li>其他鍵盤：Shift + F10</li></ul> |
 
 ### <a name="slicer"></a>交叉分析篩選器

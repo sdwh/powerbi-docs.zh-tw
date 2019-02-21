@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: b48feeaacc5ec0beff3b9b250f22b1aa605de9f7
-ms.sourcegitcommit: 6c75e38660b1ab4c1af355c85709859ffde09e25
+ms.openlocfilehash: f4e6f0204ed9832a3ed3c3ed8347a44300f606df
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55068043"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249382"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表安裝並使用應用程式
 您現在已[基本了解應用程式](end-user-apps.md)，接下來讓我們了解如何開啟並與應用程式互動。 
@@ -25,7 +25,7 @@ ms.locfileid: "55068043"
 
 在行動裝置上的 Power BI 中，您只能從直接連結安裝應用程式，而不能從 AppSource 安裝。 如果應用程式作者自動安裝應用程式，您就會在您的應用程式清單中看到它。
 
-### <a name="install-an-app-from-a-direct-link"></a>透過直接連結安裝應用程式
+## <a name="install-an-app-from-a-direct-link"></a>透過直接連結安裝應用程式
 自行安裝新應用程式的最簡單方式，是以電子郵件向應用程式作者取得直接連結。  
 
 **在您的電腦上** 
@@ -40,8 +40,8 @@ ms.locfileid: "55068043"
 
 ![行動裝置上的應用程式內容清單](./media/end-user-app-view/power-bi-app-index-it-spend-360.png)
 
-### <a name="get-the-app-from-microsoft-appsource"></a>從 Microsoft AppSource 取得應用程式
-您也可以從 Microsoft AppSource 尋找並安裝應用程式。 只有可存取的應用程式 (亦即，應用程式作者已將權限授與您或指定的所有人) 才會顯示。
+## <a name="get-the-app-from-microsoft-appsource"></a>從 Microsoft AppSource 取得應用程式
+您也可以從 Microsoft AppSource 尋找並安裝應用程式。 只有可存取的應用程式 (亦即，應用程式作者已將權限授與您或所有人) 才會顯示。
 
 1. 選取 [應用程式] ![在左側功能窗格中的應用程式](./media/end-user-apps/power-bi-apps-bar.png) > [取得應用程式]。 
    

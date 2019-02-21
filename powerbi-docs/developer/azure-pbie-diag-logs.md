@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: bdb9e2dcf5e8e22aaaa3bf35035b746777a387b9
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40126445"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249129"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure 中 Power BI Embedded 的診斷記錄
 
@@ -30,7 +30,7 @@ ms.locfileid: "40126445"
 
 ### <a name="azure-portal"></a>Azure 入口網站
 
-1. 在 [Azure 入口網站][](https://portal.azure.com) > [Power BI Embedded] 資源中，選取左側瀏覽列中的 [診斷記錄檔]，然後選取 [開啟診斷]。
+1. 在 [Azure 入口網站](https://portal.azure.com) > [Power BI Embedded] 資源中，選取左側瀏覽列中的 [診斷記錄檔]，然後選取 [開啟診斷]。
 
     ![在 Azure 入口網站中開啟 Power BI Embedded 的診斷記錄](media/azure-pbie-diag-logs/azure-pbie-diag-logs-01.png)
 
@@ -114,13 +114,13 @@ ms.locfileid: "40126445"
 |    稽核登出    |    記錄自開始追蹤以來的所有從引擎中斷連線事件。    |
 |    錯誤    |    記錄自開始追蹤以來的所有引擎錯誤事件。    |
 
-</br>
-</br>
+<br>
+<br>
 
 | 屬性名稱 | Vertipaq 查詢結束範例 | 屬性描述 |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass | XM_SEQUERY_END | 「事件類別」是用來將事件分類。 |
-| EventSubclass | 0 | 「事件子類別」提供有關每個事件類別的額外資訊。 (例如，0: VertiPaq 掃描) |
+| EventSubclass | 0 | 「事件子類別」提供有關每個事件類別的額外資訊。 (例如 0:VertiPaq Scan) |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | 根活動識別碼。 |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | 事件開始的時間 (當可用時)。 |
 | StartTime | 2018-04-06T18:30:11.9137358Z | 事件開始的時間 (當可用時)。 |
