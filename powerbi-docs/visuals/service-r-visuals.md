@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48e1ddbc498e234c43bf755d3a23a2e10e4cc856
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290195"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426600"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>在 Power BI 服務中建立 R 視覺效果
 Power BI 服務支援檢視使用 R 指令碼建立的視覺效果，並與其互動。 以 R 指令碼建立的視覺效果通常稱為「R 視覺效果」，可以使用 R 豐富的分析和視覺效果功能呈現進階的資料成形和分析，例如預測。
@@ -33,7 +33,7 @@ R 視覺效果建立在 [Power BI Desktop 報表](../desktop-get-the-desktop.md)
 
 ![](media/service-r-visuals/r-visuals-service_2a.png)
 
-一旦在 **Power BI Desktop** 中建立了報表，您就可以將包含一或多個 R 視覺效果的報表發行到 Power BI 服務。 R 視覺效果目前僅能在 **Power BI Desktop** 中建立，然後發行到 Power BI 服務。 如需有關建立 R 視覺效果的詳細資訊，請參閱 [使用 R 建立 Power BI 視覺效果 (Power BI Desktop)](../desktop-r-visuals.md)。
+一旦在 **Power BI Desktop** 中建立了報表，您就可以將包含一或多個 R 視覺效果的報表發行到 Power BI 服務。 R 視覺效果目前僅能在 **Power BI Desktop** 中建立，然後發佈到 Power BI 服務。 如需有關建立 R 視覺效果的詳細資訊，請參閱 [使用 R 建立 Power BI 視覺效果 (Power BI Desktop)](../desktop-r-visuals.md)。
 
 請注意，服務並不支援所有的 R 封裝。 如需 Power BI 服務目前支援的封裝清單，請在本文結尾參閱支援的封裝。
 
@@ -66,11 +66,19 @@ Power BI 服務套用「沙箱」技術，保護使用者與服務免於安全�
 ## <a name="licensing"></a>授權
 R 視覺效果需要 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 授權才能呈現在報表、重新整理、篩選和交叉篩選中。 如需 Power BI Pro 授權的詳細資訊，以及和免費授權有何差異，請參閱[何謂 Power BI Pro 內容？](../service-premium.md)
 
-Power BI 的免費使用者只能取用共用的磚。 如需詳細資訊，請參閱[購買 Power BI Pro](../service-admin-purchasing-power-bi-pro.md)。
+Power BI 的免費使用者只能取用在 Premium 工作區中與他們共用的磚。 如需詳細資訊，請參閱[購買 Power BI Pro](../service-admin-purchasing-power-bi-pro.md)。
 
 下表依授權說明 R 視覺效果的功能。
 
-![](media/service-r-visuals/r-visuals-service_6a.png)
+
+|  |在 Power BI Desktop 中撰寫 R 視覺效果  | 使用 R 視覺效果建立 PBI 服務報表 |在報表中檢視 R 視覺效果  | 在儀表板檢視 R 磚 |
+|---------|---------|---------|---------|--------|
+|**來賓** (Power BI Embedded)     |  無關|  無關       | 不支援  | 無關 |
+|**非受控租用戶** (未驗證網域) | 支援 | 不支援 |  不支援 |支援 (B2B 案例) |
+|具有免費授權的**受控租用戶**    |  支援       |  不支援       |    僅在 Premium 容量中支援    | 支援 |
+具有 Pro 授權的**受控租用戶**     |   支援      | 支援      | 支援    |支援|
+
+
 
 ## <a name="known-limitations"></a>已知的限制
 Power BI 服務的 R 視覺效果有某些限制︰

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794860"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426761"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
 您會在報表、儀表板、應用程式及問與答中發現視覺效果。 其中一些視覺效果類型會隨 Power BI 一同封裝，而某些則是「自訂視覺效果」。 自訂視覺效果是在 Power BI 外部建立，且其建立方式允許*報表設計師*將它們新增至 Power BI 報表、儀表板和應用程式。 
@@ -98,10 +98,12 @@ ms.locfileid: "55794860"
 - 顯示單一量值的健全狀況
 - 顯示可快速掃描和了解的資訊
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+ ### <a name="key-influencers-chart"></a>關鍵影響因素圖表
+![關鍵影響因素](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
 
-A key influencer chart displays the major contributors to a selected result or value.  -->
+關鍵影響因素圖表顯示出所選結果或值的主要成因。
+
+關鍵影響因素是協助您了解影響關鍵計量之因素的最佳選擇。 例如，什麼原因讓客戶簽下第二張訂單**，或者為什麼去年六月的銷售額如此亮眼**。 
 
 ### <a name="kpis"></a>KPI
 ![KPI](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7446cb9db0f4ebbb20e316365263fa6f09de71bb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55448213"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426554"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 的高可用性、容錯移轉和災害復原常見問題集
 
@@ -29,7 +29,7 @@ Power BI 是完全受控的軟體即服務 (SaaS)。  Microsoft 設計和操作�
 
 Power BI 會維護 Azure 資料中心 (也稱為區域) 內每個元件的多個執行個體，以確保商務持續性。 如果發生中斷或導致 Power BI 在某區域中無法存取或無法運作的問題，Power BI 就會使其在該區域中的所有元件失效轉移到備份執行個體。 容錯移轉可在新區域 (通常是在相同的地理位置，如 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)所註明) 中，還原 Power BI 服務執行個體的可用性和可操作性。
 
-容錯移轉 Power BI 服務執行個體僅支援「讀取作業」，這表示容錯移轉期間不支援下列作業：重新整理、報表發佈作業、儀表板或報表的修改，以及其他需要變更 Power BI 中繼資料 (例如，在報表中插入註解) 的作業。  顯示儀表板和報表等讀取作業 (並非根據對內部部署資料來源進行的 Direct Query 或 Live Connect) 會繼續正常運作。
+容錯移轉 Power BI 服務執行個體僅支援「讀取作業」，這表示容錯移轉期間不支援下列作業：重新整理、報表發佈作業、儀表板或報表的修改，以及其他需要變更 Power BI 中繼資料 (例如，在報表中插入註解) 的作業。  顯示儀表板和報表等讀取作業 (並非根據對內部部署資料來源進行的 DirectQuery 或 Live Connect) 會繼續正常運作。
 
 ## <a name="how-are-backup-instances-kept-in-sync-with-my-data"></a>備份執行個體如何與我的資料保持同步？
 
@@ -69,4 +69,4 @@ Power BI 支援頁面 ([https://powerbi.microsoft.com/en-us/support/](https://po
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>閘道是否會在容錯移轉模式下運作？
 
-否。 來自內部部署資料來源 (根據 Direct Query 和 Live Connect 的任何報表與儀表板) 的所需資料，在容錯移轉期間都無法運作。 然而閘道器設定不會變更：當 Power BI 執行個體返回其原始狀態時，閘道就會回復為其正常功能。
+否。  來自內部部署資料來源 (根據 Direct Query 和 Live Connect 的任何報表與儀表板) 的所需資料，在容錯移轉期間都無法運作。 然而閘道器設定不會變更：當 Power BI 執行個體返回其原始狀態時，閘道就會回復為其正常功能。

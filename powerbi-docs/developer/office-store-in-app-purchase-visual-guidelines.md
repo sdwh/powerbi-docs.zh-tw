@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 4cbd17a08a8cb7c7253f60f29a19341598c9800f
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408061"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426531"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>需要另外購買的 Power BI 視覺效果指導方針
 
@@ -33,7 +33,10 @@ ms.locfileid: "56408061"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>什麼是具有 IAP 功能的 Power BI 視覺效果？
 
-IAP 視覺效果是免費的視覺效果並提供免費功能，但您可能需要額外付費取得其他功能來操作這些視覺效果。 開發人員必須在視覺效果的描述中，通知使用者有哪些需要另外購買才能運作的功能。 目前，Microsoft 不提供原生應用程式開發介面 (API) 以支援在應用程式內購買和增益集。對於這些購買項目，開發人員可以使用任何第三方付款系統。 請參閱我們的市集[原則](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)。
+IAP 視覺效果是免費的視覺效果，而且提供免費功能，但也有需要額外費用才能使用的其他進階功能。 開發人員必須在視覺效果的描述中，通知使用者有哪些需要另外購買才能運作的功能。 目前，Microsoft 不提供原生應用程式開發介面 (API) 以支援在應用程式內購買和增益集。對於這些購買項目，開發人員可以使用任何第三方付款系統。 請參閱我們的市集[原則](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)。
+
+> [!NOTE]
+> 免費功能中無法使用浮水印。 開發人員可在沒有有效授權就使用進階付費功能時，顯示快顯視窗或浮水印。  
 
 ## <a name="logo-guidelines"></a>標誌指導方針
 

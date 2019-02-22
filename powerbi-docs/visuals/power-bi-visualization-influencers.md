@@ -3,19 +3,19 @@ title: 關鍵影響因素視覺效果教學課程
 description: 教學課程 - 在 Power BI 中建立關鍵影響因素視覺效果
 author: mihart
 manager: kvivek
-ms.reviewer: justyna
+ms.reviewer: juluczni
 ms.service: powerbi
 ms.component: powerbi-visuals
 ms.topic: tutorial
-ms.date: 02/10/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325143"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426784"
 ---
 # <a name="key-influencers-visualization"></a>關鍵影響因素視覺效果
 關鍵影響因素視覺效果可協助您了解影響您感興趣之計量的因素。 可分析您的資料、為重要因素排名並將其顯示為關鍵影響因素。 舉例來說，您希望了解影響員工流動率 (變換) 的因素。 其中一項因素可能是雇用合約長度，另一項可能是員工年齡。 
@@ -46,7 +46,7 @@ ms.locfileid: "56325143"
 
 6. ***右側窗格*** - 右側窗格包含一個視覺效果。 在此案例中，直條圖會顯示左側窗格中所選**關鍵影響因素**、**主題**的所有值。 左側窗格中的特定值 (**可用性**) 為綠色，而**主題**的所有其他值皆為黑色。
 
-7. ***平均線*** - 會計算**主題**所有其他可能值的平均值 (除了**可用性**以外)。 因此，計算會套用至所有黑色的值。 會告訴我們有多少百分比的其他**主題**給了我們較低評等。 換句話說，客戶給予評等時，該客戶也會描述原因或評等的**主題**。 某些主題為可用性、速度、安全性等等。根據左側窗格中的視覺效果，**主題**為**可用性**是低評等的第二高關鍵影響因素。 如果我們將所有其他主題以及其對**低**評等的比重進行平均，我們得到的結果會是紅色。 
+7. ***平均線*** - 會計算**主題**所有其他可能值的平均值 (除了**可用性**以外)。 因此，計算會套用至所有黑色的值。 會告訴我們有多少百分比的其他**主題**給了我們較低評等。 換句話說，客戶給予評等時，該客戶也會描述原因或評等的**主題**。 某些主題為可用性、速度、安全性等等。根據左側窗格中的視覺效果，**主題**為**可用性**是低評等的第二高關鍵影響因素。 如果我們將所有其他主題以及其對**低**評等的比重進行平均，我們得到的結果會是紅色。 對於提供的其他所有佈景主題，其中只有 11.35% 高於 [可用性]。 
 
 8. ***核取方塊*** - 只顯示屬於影響因素的值。
 
@@ -217,7 +217,7 @@ ms.locfileid: "56325143"
 
 ![已解決的錯誤](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
 
-**我看到一項警告，指出量值未包含在我的分析中。為什麼會這樣？** [2052261] 
+**我看到一項警告，指出量值未包含在我的分析中。為什麼會這樣？** 
 
 ![錯誤 - 未包含量值](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
 

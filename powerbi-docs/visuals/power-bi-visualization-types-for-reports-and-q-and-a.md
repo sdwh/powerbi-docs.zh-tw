@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ee0063d5266c663079a9801777ee2c900957c52f
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: e77f4d6fe1963b3f229ef7f477fb86b7c5c26713
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234293"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426669"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
 ## <a name="power-bi-visualizations"></a>Power BI 視覺效果
@@ -82,10 +82,12 @@ ms.locfileid: "55234293"
 
 如需詳細資訊，請參閱 [Power BI 中的量表圖](power-bi-visualization-radial-gauge-charts.md)。
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+### <a name="key-influencers-chart"></a>關鍵影響因素圖表
+![關鍵影響因素](/visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers.png)
 
-A key influencer chart displays the major contributors to a selected result or value. -->
+關鍵影響因素圖表顯示出所選結果或值的主要成因。
+
+如需詳細資訊，請參閱 [Power BI 中的關鍵影響因數圖表](power-bi-visualization-influencers.md)
 
 ### <a name="kpis"></a>KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
@@ -144,7 +146,7 @@ A key influencer chart displays the major contributors to a selected result or v
 ### <a name="ribbon-chart"></a>功能區圖表
 ![功能區圖表](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
 
-功能區圖表會顯示哪些資料類別目錄具有最高的等級 (最大值)。 功能區圖表適合顯示等級變更，最高等級 (值) 一律顯示於每個時段的最上方。
+功能區圖表會顯示哪些資料類別具有最高的等級 (最大值)。 功能區圖表適合顯示等級變更，最高等級 (值) 一律顯示於每個時段的最上方。
 
 ### <a name="scatter-and-bubble-charts"></a>散佈圖和泡泡圖
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)

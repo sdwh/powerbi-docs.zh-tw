@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8cc1201c506e98ae33b68ef0cf802dae20b6f493
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216508"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426715"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體 (預覽)
 
@@ -70,6 +70,8 @@ ms.locfileid: "56216508"
 在 [新增角色指派] 視窗中，選取 [讀者] 角色以指派給 Power BI 服務。 然後使用搜尋來尋找 **Power BI 服務**。 下圖顯示已指派給 Power BI 服務的 [讀者] 角色。
 
 ![已指派 [讀者] 角色給 Power BI 服務](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
+
+注意：請等待至少 30 分鐘讓權限從入口網站傳送到 Power BI。 當您在入口網站中變更權限時，均應先等候 30 分鐘，待 Power BI 中也反映變更後再重試。 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>為 Power BI 建立檔案系統

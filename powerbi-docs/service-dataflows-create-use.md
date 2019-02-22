@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb550bb2a009c5f227541db41a9bc45fc708d1e1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279036"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426623"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>在 Power BI 中建立及使用資料流程 (預覽)
 
@@ -155,6 +155,10 @@ Power BI 資料流程會使用 Power BI 的資料重新整理程序，維持資�
 * **Salesforce 連接器** - 搭配資料流程使用 Salesforce 的試用帳戶可能會導致連線失敗且不會提供任何資訊。 若要解決此問題，請使用生產環境的 Salesforce 帳戶或開發人員帳戶進行測試。
 
 * **SharePoint 連接器** - 請確定您提供的 SharePoint 網站根位址沒有任何子資料夾或文件。 例如，使用如下所示的連結： https://microsoft.sharepoint.com/teams/ObjectModel/ 
+
+* **JSON 檔案連接器** - 目前您僅能使用基本驗證連線到 JSON 檔案。  目前**不**支援透過提供 URL (例如 https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg..) 中的認證來連線到 JSON 檔案。  
+
+* **Azure SQL 資料倉儲** - 資料流程目前不支援對 Azure SQL 資料倉儲使用 Azure Active Directory (AAD) 驗證。 對此案例使用基本驗證。
 
 ## <a name="next-steps"></a>後續步驟
 
