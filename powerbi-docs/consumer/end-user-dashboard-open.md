@@ -6,17 +6,17 @@ manager: kvivek
 ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a4dff6ca2020a349c3f06e5c828e186b3e11bdb6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 62172546e38069253ccc01626dc2101b7e2e4799
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288696"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56663061"
 ---
 # <a name="view-a-dashboard"></a>檢視儀表板
 Power BI 取用者花費大量時間檢視儀表板。 儀表板的目的是從醒目提示基礎報表和資料集中的特定資訊。 而 Power BI 取用者使用該資訊來追蹤、監控、回答問題、測試等，以制定資料驅動的商務決策。

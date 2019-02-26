@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 004396150f0301dadee32bd08ac64ce5ae36fb17
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c094aa3f89e7b4f978f7b20f046eb42a897dabd6
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296585"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661385"
 ---
 # <a name="view-a-report-in-power-bi-service-for-consumers"></a>在適用於「取用者」的 Power BI 服務中檢視報表
 報表是一或多頁的視覺效果。 Power BI 的報表設計工具會建立報表並[直接與取用者共用](end-user-shared-with-me.md)，或作為[應用程式](end-user-apps.md)的一部分。 

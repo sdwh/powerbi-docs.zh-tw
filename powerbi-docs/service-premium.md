@@ -11,18 +11,16 @@ ms.topic: conceptual
 ms.date: 01/15/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b1a99279087f2d6557da9a70c1e02aae649dc9b4
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: a048f589b19acd1a7c38a5b81cf781d1e76b7b5b
+ms.sourcegitcommit: 187d20180d9bae5a2ec53748cede9e7301e0343e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794540"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "56725332"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium 是什麼？
 
-Microsoft Power BI Premium 可為您的組織提供專門用來執行 Power BI 服務的資源。 它提供您更可靠的效能並啟用更大的資料磁碟區。 Premium 也可讓您廣泛發佈內容，不需要您為內容取用者購買每個使用者 Pro 授權。 如需購買詳細資訊，請參閱[如何購買 Power BI Premium](service-admin-premium-purchase.md)。   
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+Microsoft Power BI Premium 可為您的組織提供專門用來執行 Power BI 服務的資源。 它提供您更可靠的效能並啟用更大的資料磁碟區。 Premium 也可讓您廣泛發佈內容，不需要您為內容取用者購買每個使用者 Pro 授權。  
 
 ## <a name="premium-capacity-and-shared-capacity"></a>Premium 容量和共用容量
 
