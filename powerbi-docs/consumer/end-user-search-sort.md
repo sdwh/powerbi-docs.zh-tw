@@ -4,22 +4,22 @@ description: 在 Power BI 工作區中搜尋和排序內容的文件
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
+ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ef8d7c61d35f15517db4fdbbea347a525a130f31
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2f8c2468b56db190f9e794ed2d81ce86449a970d
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288213"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661874"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>瀏覽：搜尋、尋找和排序 Power BI 服務中的內容
-有許多方法可以瀏覽 Power BI 服務中的內容。 工作區中的內容會依類型加以組織：儀表板、報告、活頁簿和資料集。  而內容也會依使用情況加以組織：我的最愛、最近、應用程式、與我共用及精選。 為了讓導覽可在一處完成，首頁會將內容整理在同一個頁面上。 這些通往您的內容的不同路徑，可讓您在 Power BI 服務中快速找出您所需的內容。  
+有許多方法可以瀏覽 Power BI 服務中的內容。 您工作區中的內容會依類型加以組織：儀表板、報告、活頁簿和資料集。  而內容也會依使用情況加以組織：我的最愛、最近、應用程式、與我共用及精選。 為了讓導覽可在一處完成，首頁會將內容整理在同一個頁面上。 這些通往您的內容的不同路徑，可讓您在 Power BI 服務中快速找出您所需的內容。  
 
 ## <a name="navigation-within-workspaces"></a>在工作區內瀏覽
 

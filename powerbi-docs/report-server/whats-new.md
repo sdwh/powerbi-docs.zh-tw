@@ -1,6 +1,6 @@
 ---
 title: Power BI 報表伺服器的新功能
-description: 了解 Power BI 報表伺服器的新功能。 其涵蓋主要功能範圍，並會隨著新項目發行而更新。
+description: 了解 Power BI 報表伺服器的新功能。 這涵蓋主要功能範圍，並會隨著新項目發行而更新。
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: ad3025b9649529566972f75e9c447bb7558132b8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325189"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662449"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
@@ -41,6 +41,10 @@ Power BI 報表中支援下列功能：
 [**智慧對齊輔助線**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides)：當您在報表頁面上移動物件時，會看到智慧對齊輔助線 (如同您在 PowerPoint 中看到的一樣)，可協助您對齊頁面上的所有物件。 當您在頁面上拖曳物件或調整其大小時，都會看到智慧輔助線。 當您將某物件移近另一個物件時，它會貼齊該物件。
 
 **協助工具功能**：要列出的協助工具功能非常多，例如[欄位清單窗格協助工具支援](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 欄位清單窗格完全可供存取。 您只需要使用鍵盤和螢幕助讀程式即可瀏覽窗格，並可使用操作功能表將欄位新增到報表頁面。
+
+#### <a name="custom-visuals"></a>自訂視覺效果
+
+- 此版本隨附的 API 版本為 2.3。
 
 ### <a name="administrator-settings"></a>系統管理員設定
 

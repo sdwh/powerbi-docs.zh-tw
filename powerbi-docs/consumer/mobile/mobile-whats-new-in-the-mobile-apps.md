@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431238"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826713"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -22,6 +22,16 @@ ms.locfileid: "55431238"
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
+
+## <a name="january---february-2019"></a>2019 年一月 - 二月
+ 
+### <a name="visio-visuals"></a>Visio 視覺效果
+
+在 Visio 視覺效果中啟用單一登入 (SSO)，以便當在應用程式中檢視具有 Visual 視覺效果的報告時不需要執行額外的登入步驟。 
+
+### <a name="dashboard-commenting-is-coming-to-power-bi-mobile-windows-app"></a>即將在 Power BI 行動版 Windows 應用程式中新增儀表板註解
+
+您可以將註解直接新增到儀表板和特定磚來討論您的資料，且所有檢視儀表板的人都可以看見您的註解。 
 
 ## <a name="december-2018"></a>2018 年 12 月
 
