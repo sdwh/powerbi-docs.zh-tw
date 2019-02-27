@@ -194,7 +194,7 @@ SaaS 應用程式有兩種方法，讓使用者能夠編輯和建立報告，或
 
 ### <a name="scalability"></a>延展性
 
-使用資料列層級安全性為基礎的隔離，資料需要符合資料集的大小限制，目前為 10 GB。 隨著[累加式重新整理](../service-premium-incremental-refresh.md)的引進以及即將發行的 Power BI 資料集的 XMLA 端點，預期資料集大小限制將會大幅增加。 但是，資料仍然需要符合容量的記憶體，並有足夠的剩餘記憶體來執行資料重新整理。 大規模部署需要大容量，以避免使用者因記憶體超過目前的容量限制而發生問題。 處理擴展的替代方式包括使用**[彙總](../desktop-aggregations.md)** 或直接使用 DirectQuery 或即時連線連接到資料來源，而不是快取 Power BI 容量中的所有資料。
+使用資料列層級安全性為基礎的隔離，資料需要符合資料集的大小限制，目前為 10 GB。 隨著[累加式重新整理](../service-premium-incremental-refresh.md)的引進以及即將發行的 Power BI 資料集的 XMLA 端點，預期資料集大小限制將會大幅增加。 但是，資料仍然需要符合容量的記憶體，並有足夠的剩餘記憶體來執行資料重新整理。 大規模部署需要大容量，以避免使用者因記憶體超過目前的容量限制而發生問題。 處理擴展的替代方式包括使用 **[彙總](../desktop-aggregations.md)** 或直接使用 DirectQuery 或即時連線連接到資料來源，而不是快取 Power BI 容量中的所有資料。
 
 ### <a name="automation--operational-complexity"></a>自動化與操作複雜度
 
