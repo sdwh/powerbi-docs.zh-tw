@@ -216,7 +216,7 @@ ISV/開發人員必須先有 Power BI 帳戶，才能在 Azure 中購買 Power B
 
 **[應用程式識別碼](embed-sample-for-customers.md#application-id)** 用來在傳遞應用程式識別碼進行驗證時建立存取權杖。
 
-若要參考作業的服務主體或進行變更，請使用**[服務主體物件識別碼](embed-service-principal.md#how-to-get-the-service-principal-object-id)** — 例如，以管理員身分將服務主體套用至工作區。
+若要參考作業的服務主體或進行變更，請使用 **[服務主體物件識別碼](embed-service-principal.md#how-to-get-the-service-principal-object-id)** — 例如，以管理員身分將服務主體套用至工作區。
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>可以使用服務主體管理內部部署資料閘道嗎？
 
