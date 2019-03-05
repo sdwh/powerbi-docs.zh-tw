@@ -1,6 +1,7 @@
 ---
 title: Power BI 報表伺服器的變更記錄
 description: 此變更記錄適用於 Power BI 報表伺服器，並列出新的項目，以及每個發行組建的 Bug 修正。
+ms.author: jtarquino
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -8,13 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.author: jtarquino
-ms.openlocfilehash: 346e1a3d096ba5e8ea8d16b49d49e02c0c65e54a
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9589c2cf5277995459a9f43f573b6e19c4c8f748
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224034"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327956"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -23,6 +23,7 @@ ms.locfileid: "56224034"
 如需新功能的詳細資訊，請參閱 [Power BI 報表伺服器的新增功能](whats-new.md)。 
 
 ## <a name="january-2019"></a>2019 年 1 月
+
 - **Power BI 報表伺服器**            
     - *版本 1.4.6969.7395 (組建 15.0.1102.235)，發行日期：2019 年 1 月 30 日*
         - Bug 修正
@@ -35,7 +36,7 @@ ms.locfileid: "56224034"
             - 編頁報表
                 - 修正更新報表共用資料來源使用情況的問題
 
-    - 版本 1.4.6960.38798 (組建 15.0.1102.222)，發行日期：2019 年 1 月 22 日
+    - 版本 1.4.6960.38798 (組建 15.0.1102.222)，發行日期：2019 年 1 月 22 日*
         - 功能
             - Power BI 報表 
                 - 支援資料列層級安全性
@@ -65,6 +66,7 @@ ms.locfileid: "56224034"
         - 包含與 Power BI 報表伺服器連線所需的變更 (2019 年 1 月)  
 
 ## <a name="august-2018"></a>2018 年 8 月
+
 - **Power BI 報表伺服器**
     - *版本 1.3.6816.37243 (組建 15.0.2.557)，發行日期：2018 年 8 月 30 日*
         - Bug 修正
@@ -86,6 +88,7 @@ ms.locfileid: "56224034"
         - 包含與 Power BI 報表伺服器連接所需的變更 (2018 年 8 月)         
         
 ## <a name="march-2018"></a>2018 年 3 月
+
 - **Power BI 報表伺服器**
     - *版本 1.2.6690.34729 (組建：15.0.2.402)，發行日期：2018 年 4 月 27 日*
         - Bug 修正
