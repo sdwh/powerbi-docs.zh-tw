@@ -9,12 +9,12 @@ ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 manager: kfile
-ms.openlocfilehash: e31f67d978471f4dcc6472860fc5f8315212e563
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: d7cebbd569d16192f4acfa1c96394130731efa17
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794883"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014568"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Microsoft Power BI Premium 容量資源管理及最佳化
 
@@ -55,7 +55,7 @@ Power BI Premium 可提供您「超量配置」容量的優點。 例如，您�
 
 ### <a name="workloads"></a>工作負載
 
-根據預設，適用於 **Power BI Premium** 和 **Power BI Embedded** 的容量只支援雲端上與執行中 Power BI 查詢相關聯的工作負載。 我們現在針對兩個額外的工作負載提供預覽支援：**編頁報表**和**資料流程**。 如果啟用，這些工作負載可能就會影響您容量中的記憶體使用量。 如需詳細資訊，請參閱[設定工作負載](service-admin-premium-manage.md#configure-workloads)。
+根據預設，適用於 **Power BI Premium** 和 **Power BI Embedded** 的容量只支援雲端上與執行中 Power BI 查詢相關聯的工作負載。 我們現在針對兩個額外的工作負載提供預覽支援：**編頁報表**和**資料流程**。 如果啟用，這些工作負載可能就會影響您容量中的記憶體使用量。 
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>Premium 容量中的 CPU 資源管理
 
@@ -116,6 +116,3 @@ CPU 資源的主要取用者有兩個：
 
 某些情況下，在您的電腦上開啟模型的 Power BI Desktop (.pbix) 檔案並檢查記憶體和 CPU 耗用情況，可提供問題的許多相關資訊。 這對非常大型的模型來說並無助益，但針對一些較小型的模型，請嘗試從您的電腦開啟、重新整理及查詢模型。 當您開啟模型時，請檢查模型大小、記憶體及所耗用的 CPU。 請嘗試重新整理並進行查詢。 請使用工作管理員來檢查本機檔案的 CUP 及記憶體耗用量。 有時，您電腦上的這些計量本身便可透露出較低的 Premium 容量 (例如 P1/ P2) 可能不適合您的解決方案。
 
-## <a name="next-steps"></a>後續步驟
-
-[管理 Power BI Premium 及 Power BI Embedded 內的容量](service-admin-premium-manage.md)

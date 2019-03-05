@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408176"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014637"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -297,7 +297,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ### <a name="create-and-use-dataflows-preview"></a>建立及使用資料流程 (預覽)
 
-組織內的使用者可建立及使用資料流程。 如需資料流程的概觀，請參閱 [Power BI 的自助資料準備 (預覽)](service-dataflows-overview.md)。 若要啟用 Premium 容量中的資料流程，請參閱[設定工作負載](service-admin-premium-manage.md#configure-workloads)。
+組織內的使用者可建立及使用資料流程。 如需資料流程的概觀，請參閱 [Power BI 的自助資料準備 (預覽)](service-dataflows-overview.md)。 若要啟用 Premium 容量中的資料流程，請參閱[設定工作負載](service-admin-premium-workloads.md)。
 
 > [!NOTE]
 > 這項設定適用於整個組織，而無法限於特定群組。
@@ -321,8 +321,6 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 [Power BI Premium] 索引標籤可讓您管理已為您的組織購買的任何 Power BI Premium 容量 (EM 或 P SKU)。 組織內的所有使用者都可以看到 [Power BI Premium] 索引標籤，但如果他們被指派為*容量系統管理員*或具有指派權限的使用者，則只會看到其中的內容。 如果使用者沒有任何權限，系統會顯示下列訊息。
 
 ![沒有 Premium 設定的存取權](media/service-admin-portal/premium-settings-no-access.png)
-
-如需有關如何管理 Premium 設定的詳細資訊，請參閱[管理 Power BI Premium](service-admin-premium-manage.md)。
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
@@ -410,6 +408,5 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 [管理貴組織中的 Power BI](service-admin-administering-power-bi-in-your-organization.md)  [了解 Power BI 系統管理角色](service-admin-role.md)  
 [稽核貴組織的 Power BI](service-admin-auditing.md)  
-[管理 Power BI Premium](service-admin-premium-manage.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
