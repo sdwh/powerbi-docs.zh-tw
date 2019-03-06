@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f5896505d724c0704e22c95df132ee3318b23009
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224011"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892244"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>使用 Power BI Desktop 中的見解來說明視覺效果中顯示的增減情況 (預覽)
 
 在視覺效果中，您經常會看到值大幅增加，然後急遽下降，並想知道造成此波動的原因。 使用 **Power BI Desktop** 中的**見解**，只要按幾下就能了解原因。
 
-例如，假設下列視覺效果依「年」和「國家/地區」顯示「銷售額」。 銷售額在 2014 年大幅減少，並在「第 1 季」與「第 2 季」之間急遽下降。 在此情況下，您可以探索資料來協助說明發生的變更。 
+例如，假設下列視覺效果依「年」和「季」顯示「銷售額」。 銷售額在 2014 年大幅減少，並在「第 1 季」與「第 2 季」之間急遽下降。 在此情況下，您可以探索資料來協助說明發生的變更。 
 
 ![顯示增減情況的視覺效果](media/desktop-insights/insights_01a.png)
 

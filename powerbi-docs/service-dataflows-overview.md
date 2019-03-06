@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5e1bd67ba14ed35a97d91e5ed76f7a3bd8de56ea
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: d388812985ce30b5692a385fc44e3cf7fc49161f
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324801"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892336"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI (預覽) 中的自助資料準備
 
@@ -69,7 +69,7 @@ Azure Data Lake Storage Gen2 隨附於每個付費的 Power BI 訂用帳戶 (每
 
 Power BI 可設定為將資料流程的資料儲存於貴組織的 Azure Data Lake Storage Gen2 帳戶。 將 Power BI 連線到您的 Azure 訂用帳戶時，資料開發人員和資料科學家就能利用功能強大的 Azure 產品，例如 Azure Machine Learning、Azure Databricks、Azure Data Factory 和更多產品。
 
-Power BI 也可以連線到含有 Common Data Service 格式且已結構描述化之資料的資料夾，此資料夾會用來儲存貴組織的 Azure Data Lake Storage 帳戶。 這些資料夾可透過 Azure 資料服務之類的服務來建立。 藉由連線到這些資料夾，分析師就可以在 Power BI 中順暢地使用此資料。 
+Power BI 也可以連線到含有 Common Data Service 格式且已結構描述化之資料的資料夾，此資料夾會用來儲存您組織中的 Azure Data Lake Storage 帳戶。 這些資料夾可透過 Azure 資料服務之類的服務來建立。 藉由連線到這些資料夾，分析師就可以在 Power BI 中順暢地使用此資料。 
 
 如需 Azure Data Lake Storage Gen2 與資料流程之整合的詳細資訊，包括如何建立位於您組織 Azure Data Lake 內部的資料流程，請參閱[資料流程與 Azure Data Late 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)。
 

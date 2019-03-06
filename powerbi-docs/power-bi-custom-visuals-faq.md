@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408130"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892313"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>關於 Power BI 自訂視覺效果的常見問題集
 
@@ -57,8 +57,44 @@ ms.locfileid: "56408130"
 
 ### <a name="what-are-certified-custom-visuals"></a>什麼是經認證的自訂視覺效果？
 
-認證的自訂視覺效果是 [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) 中的視覺效果，符合某些[指定](power-bi-custom-visuals-certified.md)程式碼需求並由 Power BI 小組進行測試。  我們執行測試的目的是檢查不需存取外部服務或資源的視覺效果。 不過，Microsoft 並非協力廠商自訂視覺效果的作者。 因此，我們建議客戶直接連絡作者以確認這類視覺效果的功能。
+認證的自訂視覺效果是[市集](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)中的視覺效果，符合某些[指定](power-bi-custom-visuals-certified.md)程式碼需求並由 Power BI 小組進行測試。  執行的測試設計為檢查不會存取外部服務或資源的視覺效果。 不過，Microsoft「不是」協力廠商自訂視覺效果的作者，我們建議客戶直接連絡作者以驗證這類視覺效果的功能。
 
+### <a name="what-tests-are-done-during-the-certification-process"></a>認證流程期間會完成哪些測試？
+
+認證流程測試包括但不限於：程式碼檢閱、靜態程式碼分析、資料外洩、資料模糊測試、滲透測試、存取 XSS 測試、惡意資料插入、輸入驗證和功能測試。
+ 
+### <a name="do-you-certify-visuals-every-submission"></a>每次提交都會認證視覺效果嗎？
+
+是。 每當經認證的視覺效果有新版本提交至市集時，視覺效果的版本更新都會經過相同的認證檢查。
+
+開發人員請注意：如果您要提交經認證視覺效果的版本更新，並不需要另外傳送[初次認證要求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified#process-for-submitting-a-custom-visual-for-certification)電子郵件。 版本更新的認證會自動進行，只要有任何違規導致拒絕，系統都會傳送電子郵件說明有哪些地方需要修正。 
+
+### <a name="is-it-possible-that-a-certified-visual-stops-being-certified-with-a-new-update"></a>經認證的視覺效果可能會在新的更新後失去認證嗎？
+
+不會，並不會發生這樣的事。 新的更新不會使經認證的視覺效果失去認證。 該更新會受到拒絕。
+ 
+### <a name="do-i-need-to-share-my-code-in-public-repository-if-i-am-submitting-to-the-certification-process"></a>如果我要向認證流程進行提交，那麼是否需要在公用存放庫共用我的程式碼？
+
+不用，您不必公開共用自己的程式碼。 但您必須授與我們檢查視覺效果程式碼的讀取權限。 例如： GitHub 中的私人存放庫。
+ 
+### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>我必須在[市集](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)中[發行](https://docs.microsoft.com/power-bi/developer/office-store)視覺效果才能加以認證嗎？
+
+是。 您必須先將視覺效果發行至市集，這是認證的必要需求。
+自訂視覺效果必須在我們的伺服器內，我們才能加以認證。 我們無法認證私人視覺效果。
+ 
+### <a name="how-long-does-it-take-to-certify-my-visual"></a>認證我的視覺效果需要多少時間？
+
+如果是更新版本，最多需要 2 週的時間。 如果是新的提交項目 (首次認證)，最多需要 3 週的時間。 
+
+### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>你們能保證認證流程不會發生資料外洩嗎？
+
+執行的測試設計為檢查不會存取外部服務或資源的視覺效果。 不過，Microsoft「不是」協力廠商自訂視覺效果的作者，我們建議客戶直接連絡作者以驗證這類視覺效果的功能。
+ 
+### <a name="are-uncertified-custom-visuals-safe-to-use"></a>使用未經認證的自訂視覺效果是否安全？
+
+未經認證的自訂視覺效果不一定不安全。
+有些視覺效果未經過認證，因為它們不符合一或多個[認證需求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)。 例如，連接到地圖視覺效果或使用商業程式庫的視覺效果等外部服務。
+ 
 ## <a name="visuals-with-additional-purchases"></a>需要另外購買的視覺效果
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>什麼是需要另外購買的視覺效果？
@@ -100,7 +136,6 @@ IAP 自訂視覺效果是免費、可下載的自訂視覺效果，使用者不�
 您也可以在方針中找到最佳做法的注意事項。  
 > [!Note]
 > 所有免費視覺效果應保有等同先前提供的免費功能。 您可以在舊的免費功能之上新增選用進階付費功能。 我們建議將附有進階功能的 IAP 視覺效果作為新視覺效果提交，而不更新舊的免費項目。
-
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>IAP 自訂視覺效果可以獲得認證嗎？
 

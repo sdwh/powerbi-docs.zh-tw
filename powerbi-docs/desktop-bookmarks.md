@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325032"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892405"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用書籤來共用深入解析並建立故事 
 在 Power BI 中使用**書籤**可協助您擷取目前設定的報表頁面檢視 (包括視覺效果的篩選和狀態)，讓您稍後只要選取儲存的書籤，就可以返回該狀態。 
@@ -25,6 +25,9 @@ ms.locfileid: "56325032"
 ![Power BI 中的書籤](media/desktop-bookmarks/bookmarks_01.png)
 
 書籤有許多用途。 您可以使用書籤來持續追蹤自己建立報表的進度 (新增、刪除和重新命名書籤都很容易)，也可以建立書籤來建置依序逐步執行書籤之類似 PowerPoint 的簡報，以便透過報表述說故事。 此外，根據您認為書籤最適合使用的方式，可能還有其他用途。
+
+> [!TIP]
+> 如需在 Power BI 服務中使用個人書籤的資訊，請參閱個人書籤功能的[部落格公告](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/)。 
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>啟用書籤預覽 (2018 年 3 月之前的版本)
 從 Power BI Desktop 的 2018 年 3 月版本開始，正式推出書籤。 
