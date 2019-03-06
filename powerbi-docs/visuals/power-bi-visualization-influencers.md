@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
-ms.component: powerbi-visuals
+ms.component: powerbi-service
 ms.topic: tutorial
 ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 1f55a12e306af8a28e297e9feab2f2c0ae0cd60b
+ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426784"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57461664"
 ---
 # <a name="key-influencers-visualization"></a>關鍵影響因素視覺效果
 關鍵影響因素視覺效果可協助您了解影響您感興趣之計量的因素。 可分析您的資料、為重要因素排名並將其顯示為關鍵影響因素。 舉例來說，您希望了解影響員工流動率 (變換) 的因素。 其中一項因素可能是雇用合約長度，另一項可能是員工年齡。 
