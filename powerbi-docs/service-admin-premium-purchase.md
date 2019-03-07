@@ -8,18 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 02/28/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892382"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014131"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何購買 Power BI Premium
 
-本文描述如何為您的組織購買 Power BI Premium 容量 (P1-P3)。 您可以在 Office 365 系統管理中心購買 Power BI Premium 容量，並可在 Power BI 管理入口網站中[管理您的容量](service-admin-premium-manage.md)。 如需目前的定價和規劃資訊，請參閱 [Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 計算機](https://powerbi.microsoft.com/calculator/)。
+> [!NOTE]
+> 本文正在進行更新，以說明新功能、提供更多詳細資料並改善可讀性。 
+
+本文描述如何為您的組織購買 Power BI Premium 容量 (P1-P3)。 您可以在 Office 365 系統管理中心購買 Power BI Premium 容量，並可在 Power BI 管理入口網站中管理您的容量。 如需目前的定價和規劃資訊，請參閱 [Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 計算機](https://powerbi.microsoft.com/calculator/)。
 
 即使您的組織使用 Power BI Premium，內容的作者仍然需要 Power BI Pro 授權。 請確定您為貴組織購買至少一個 Power BI Pro 授權。
 

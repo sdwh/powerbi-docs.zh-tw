@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 03/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d388812985ce30b5692a385fc44e3cf7fc49161f
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: 4c32f27a04b055eb67015d9c8308866b972c06a7
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892336"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226081"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Power BI (預覽) 中的自助資料準備
 
@@ -75,9 +75,7 @@ Power BI 也可以連線到含有 Common Data Service 格式且已結構描述�
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Power BI Premium 上的資料流程功能
 
-對於要在 Power BI Premium 的訂用帳戶上操作的資料流程功能和工作負載，必須針對該 Premium 容量開啟資料流程工作負載。 您可以在[什麼是 Power BI Premium](service-premium.md) 一文中深入了解 Power BI Premium。 
-
-下表將說明在使用 Power BI Pro 帳戶時的資料流程功能及其容量，以及如何與使用 Power BI Premium 進行比較。
+對於要在 Power BI Premium 的訂用帳戶上操作的資料流程功能和工作負載，必須針對該 Premium 容量開啟資料流程工作負載。 下表將說明在使用 Power BI Pro 帳戶時的資料流程功能及其容量，以及如何與使用 Power BI Premium 進行比較。
 
 
 |資料流程功能 | Power BI Pro |   Power BI Premium |
@@ -95,7 +93,7 @@ Power BI 也可以連線到含有 Common Data Service 格式且已結構描述�
 |資料流程連結實體| |        +|
 |已標準化的結構描述 / 適用於 Common Data Service 的內建支援|  +|  +|
 
-如需在 Premium 容量上啟用資料流程工作負載的詳細資訊，請參閱適用於 Power BI Premium 的[設定工作負載](service-admin-premium-manage.md#configure-workloads)一文。 資料流程工作負載目前無法在多地理位置容量中取得。
+如需在 Premium 容量上啟用資料流程工作負載的詳細資訊，請參閱 [Configure workloads in a Premium capacity](service-admin-premium-workloads.md) (在 Premium 容量中設定工作負載) 一文。 資料流程工作負載目前無法在多地理位置容量中取得。
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>適用於 Power BI 中巨量資料的自助資料準備摘要
 如此文章先前所述，在多個案例和範例中，**資料流程**可讓您從商務資料取得更好的控制且更快速進行深入解析。 使用 Common Data Service 所定義的標準資料模型 (結構描述)，資料流程可以匯入您的重要商務資料，且備妥資料以進行模型化，並在一段非常短的期間內建立 BI 深入解析...原本要花上數個月或更久的時間才能建立。 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: c33ec747af514611df0ef00832acb785f04c40f1
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892313"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014154"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>關於 Power BI 自訂視覺效果的常見問題集
 
@@ -99,7 +99,7 @@ ms.locfileid: "56892313"
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>什麼是需要另外購買的視覺效果？
 
-需要另外購買的視覺效果類似於 Marketplace 中的應用程式內購買 (IAP) 增益集，而這些增益集均具有 **「可能需要另外購買」** 的價格標籤。
+需要另外購買的視覺效果類似於 Marketplace 中的應用程式內購買 (IAP) 增益集，而這些增益集均具有**可能需要另外購買**的價格標籤。
 
 IAP 自訂視覺效果是免費、可下載的自訂視覺效果，使用者不需付費即可從 Marketplace 下載這些自訂視覺效果。 IAP 視覺效果可讓您選擇在應用程式內購買進階功能。  
 
