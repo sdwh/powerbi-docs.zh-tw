@@ -8,18 +8,18 @@ featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 02/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23e237428b86046cf75b02e2e98082da18d671cf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286673"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014453"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 視覺效果的秘訣和訣竅
-Power BI 與 Bing 地圖服務整合以提供預設地圖座標 (這個程序稱為地理編碼)，以便您建立地圖。 這兩者使用演算法來識別正確位置，但有時會猜測最接近的位置。 如果 Power BI 無法自行建立地圖視覺效果，則會請求 Bing 地圖服務協助。 
+Power BI 與 Bing 地圖服務整合以提供預設地圖座標 (這個程序稱為地理編碼)，以便您建立地圖。 這兩者使用演算法來識別正確位置，但有時會猜測最接近的位置。 如果 Power BI 嘗試但無法自行建立地圖視覺效果，則會請求 Bing 地圖服務的協助。 
 
 您或您的系統管理員可能需要更新防火牆，以允許存取 Bing 用以進行地理編碼的 URL。  這些 URL 是：
 * https://dev.virtualearth.net/REST/V1/Locations
@@ -31,7 +31,7 @@ Power BI 與 Bing 地圖服務整合以提供預設地圖座標 (這個程序稱
 ## <a name="what-is-sent-to-bing-maps"></a>傳送至 Bing 地圖服務的項目
 Power BI 服務和 Power BI Desktop 會將 Bing 建立地圖視覺效果所需的地理資料傳送至 Bing。 這可能包括 [位置]、[緯度] 和 [經度] 貯體中的資料，以及 [報告層級]、[頁面層級] 或 [視覺效果層級] 的任何篩選貯體中的地理欄位。 傳送的確切資料依地圖類型而異。 若要深入了解，請參閱 [Bing 地圖服務隱私權](https://go.microsoft.com/fwlink/?LinkID=248686)。
 
-* 以地圖來說 (泡泡地圖)，如果提供緯度和經度，則不會將資料傳送至 Bing。 否則，[位置] (及 [篩選]) 貯體中的任何資料會傳送至 Bing。     
+* 以地圖來說 (泡泡地圖)，如果提供緯度和經度，則不會將資料傳送至 Bing。 否則，[位置] (及 [篩選]) 貯體中的任何資料都會傳送至 Bing。     
 * 區域分布圖需要 [位置] 貯體中的欄位，即使提供緯度和經度亦然。 [位置]、[緯度] 或 [經度] 貯體中的資料都會傳送至 Bing。
   
     在下列範例中，[廠商] 欄位用於地理編碼，因此會將所有廠商資料傳送至 Bing。 [大小] 和 [色彩飽和度] 貯體中的資料不會傳送至 Bing。

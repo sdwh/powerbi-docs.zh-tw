@@ -8,19 +8,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/15/2019
+ms.date: 02/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: a048f589b19acd1a7c38a5b81cf781d1e76b7b5b
-ms.sourcegitcommit: 187d20180d9bae5a2ec53748cede9e7301e0343e
+ms.openlocfilehash: cb9280f47f1f2d28ce6fabda2dbc173fbdc837ac
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "56725332"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226127"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium 是什麼？
 
-Microsoft Power BI Premium 可為您的組織提供專門用來執行 Power BI 服務的資源。 它提供您更可靠的效能並啟用更大的資料磁碟區。 Premium 也可讓您廣泛發佈內容，不需要您為內容取用者購買每個使用者 Pro 授權。  
+> [!NOTE]
+> 本文目前正在更新以描述新功能、提供更多詳細資料並改善可讀性。 如需最新資訊，請參閱[部署和管理 Power BI Premium 容量](whitepaper-powerbi-premium-deployment.md)。
+
+Power BI Premium 可為組織提供專門用來執行 Power BI 服務的資源。 它提供您更可靠的效能並啟用更大的資料磁碟區。 Premium 也可讓您廣泛發佈內容，不需要您為內容取用者購買每個使用者 Pro 授權。  
 
 ## <a name="premium-capacity-and-shared-capacity"></a>Premium 容量和共用容量
 
@@ -79,9 +82,7 @@ Power BI Premium 適用於有不同 v 核心容量的節點設定。 如需特�
 
 ## <a name="workloads-in-premium-capacity"></a>Premium 容量中的工作負載
 
-可以把 Power BI 中的工作負載想成是您可以向使用者公開的多個服務其中之一。 根據預設，適用於 **Power BI Premium** 和 **Power BI Embedded** 的容量只支援雲端上與執行中 Power BI 查詢相關聯的工作負載。
-
-我們現在針對兩個額外的工作負載提供預覽支援：**編頁報表**和**資料流程**。 您可以在 Power BI 管理入口網站，或透過 Power BI REST API 啟用這些工作負載。 也可以設定每個工作負載可使用的記憶體大小上限，因此可以控制不同的工作負載會如何彼此影響。 如需詳細資訊，請參閱[設定工作負載](service-admin-premium-manage.md#configure-workloads)。
+根據預設，適用於 **Power BI Premium** 和 **Power BI Embedded** 的容量只支援雲端上與執行中 Power BI 查詢相關聯的工作負載。 Premium 也支援 **AI**、**資料流程**、**編頁報表**的其他工作負載。 您可以在 Power BI 管理入口網站，或透過 Power BI REST API 啟用這些工作負載。 也可以設定每個工作負載可使用的記憶體大小上限，因此可以控制不同的工作負載會如何彼此影響。 若要進一步了解，請參閱[設定工作負載](service-admin-premium-workloads.md)。
 
 ### <a name="default-memory-settings"></a>預設記憶體設定
 
@@ -114,10 +115,10 @@ Power BI Premium 也能夠在組織內部執行 Power BI 報表伺服器。 若�
 
 ## <a name="next-steps"></a>後續步驟
 
-[Power BI Premium 常見問題集](service-premium-faq.md)
-[如何購買 Power BI Premium](service-admin-premium-purchase.md)
-[管理 Power BI Premium](service-admin-premium-manage.md)
-[Microsoft Power BI Premium 白皮書](https://aka.ms/pbipremiumwhitepaper) \(英文\)
-[規劃 Power BI Enterprise 部署白皮書](https://aka.ms/pbienterprisedeploy) \(英文\)
+[部署及管理 Power BI Premium 容量](whitepaper-powerbi-premium-deployment.md)   
+[如何購買 Power BI Premium](service-admin-premium-purchase.md)   
+[Power BI Premium 常見問題集](service-premium-faq.md)   
+
+
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

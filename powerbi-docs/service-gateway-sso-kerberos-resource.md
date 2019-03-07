@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f13074c2123808e7b26d40f9c5a7e20cbf0da6e4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291779"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226104"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的單一登入 (SSO) 使用以資源為基礎的 Kerberos
 
@@ -39,7 +39,7 @@ ms.locfileid: "54291779"
 
 ![網域帳戶](media/service-gateway-sso-kerberos-resource/domain-account.png)
 
-若要啟用 **Kerberos 限制委派，閘道必須以網域帳戶執行，除非 Azure AD 已與本機 Active Directory 進行同步處理 (使用 Azure AD DirSync/Connect)。 如果您需要將帳戶切換為網域帳戶，請參閱本文稍後所述的[將閘道切換為網域帳戶](service-gateway-sso-kerberos.md#switching-the-gateway-to-a-domain-account)。
+若要啟用 **Kerberos 限制委派，閘道必須以網域帳戶執行，除非 Azure AD 已與本機 Active Directory 進行同步處理 (使用 Azure AD DirSync/Connect)。 如果您需要將帳戶切換為網域帳戶，請參閱[將閘道切換為網域帳戶](service-gateway-sso-kerberos.md)。
 
 若已設定 Azure AD DirSync / Connect，且已同步使用者帳戶，閘道服務並不需要在執行階段執行本機 AD 查閱。 您可以針對閘道服務使用本機服務 SID (而不需要網域帳戶)。 這篇文章中概述的 Kerberos 限制委派設定步驟與該設定都相同 (它們只會套用至 Active Directory 中的閘道電腦物件，而不會套用至網域帳戶)。
 

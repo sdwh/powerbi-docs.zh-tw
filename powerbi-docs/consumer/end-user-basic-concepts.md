@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 994645f2ca52c992b8d61590bc02d9f9f63891ce
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: db9f6218d0657946f04b7589a15be99270cf7030
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662242"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196451"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Power BI 服務「取用者」的基本概念
 
@@ -88,6 +88,10 @@ _______________________________________________________
 * 可在許多不同的儀表板中顯示該單一資料集的視覺效果
   
   ![資料集 M:1 關聯性](media/end-user-basic-concepts/drawing2.png)
+
+此外，來自其他工作空間的資料集，可以用來在您的工作區中建立內容 (報表、儀表板)。 這些資料集使用參考的資料集圖示來顯示： 
+
+![含有連結圖示的資料庫](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
 請前進到下一個建置組塊 -- 視覺效果。
 __________________________________________________________

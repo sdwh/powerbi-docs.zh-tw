@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: 812ac76266f8ef3299fa72b575c9ff68d2e75a79
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: a3dbd1229360b641d343c6142b45446f36963803
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216347"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014269"
 ---
 # <a name="certified-custom-visuals"></a>認證的自訂視覺效果
 
@@ -165,6 +165,10 @@ Microsoft 可自行斟酌將視覺效果自[認證清單](#list-of-custom-visual
 | [User List by CloudScope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381426) (CloudScope 的使用者清單) | |
 | [Waffle Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049) (方格圖表) | [影片](https://youtu.be/1vRqYUsm3Vk) |
 | [Word 雲端](https://appsource.microsoft.com/product/power-bi-visuals/WA104380752) | [影片](https://youtu.be/AblTenl9fqo) |
+
+## <a name="faq"></a>常見問題集
+
+如需視覺效果的詳細資訊，請參閱[認證視覺效果的常見問題集](power-bi-custom-visuals-faq.md#certified-custom-visuals)。
 
 ## <a name="next-steps"></a>後續步驟
 

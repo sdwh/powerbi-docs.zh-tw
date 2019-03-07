@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42e9f69c3cdab945c0f000a0cc2ae4654d9ec9b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296102"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196428"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>整理有序的內容套件：複製、重新整理及取得存取權
 
@@ -36,6 +36,12 @@ ms.locfileid: "54296102"
 2. 選取 [儲存]。  
 
 您現在已經有可以變更的複本。 沒有其他人會看到您所做的變更。
+
+> [!NOTE]
+> 以前，每次當您安裝內容套件或建立複本時，新的資料集就會出現在工作區內容清單中。 最近更新簡化了使用新參考資料集圖示只顯示一個項目的體驗：
+>
+> ![含有連結圖示的資料庫](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
+> 
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>請幫我！  我不再能夠存取內容套件了
 這種情形可能由幾種原因所造成：

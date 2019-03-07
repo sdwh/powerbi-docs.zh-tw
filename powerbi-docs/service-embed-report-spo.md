@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: a9d90737ed8a62f3791f0741bac1c9ff2b05cbb6
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: b24bde73c4f0e5f30c8baad7910fe9d9d924c3dc
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431192"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226150"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -67,7 +67,7 @@ ms.locfileid: "55431192"
 
     ![SP 新報表](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. 將報表 URL 傳送至屬性窗格。 此報表 URL 是您從上述步驟所複製的 URL。 報表會自動載入。
+4. 將報表 URL 貼到屬性窗格。 此報表 URL 是您從上述步驟所複製的 URL。 報表會自動載入。
 
     ![SP 新增網頁組件屬性](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
