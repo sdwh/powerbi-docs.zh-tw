@@ -1,5 +1,5 @@
 ---
-title: 使用 Power BI Desktop 的儲存模式 (預覽)
+title: 使用 Power BI Desktop 中的儲存模式
 description: 使用儲存模式控制是否要在 Power BI Desktop 中，將報表資料快取到記憶體內
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 02/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279174"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555862"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>Power BI Desktop 的儲存模式 (預覽)
+# <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop 中的儲存模式
 
 在 Microsoft Power BI Desktop 中，您可以指定資料表的儲存模式。 儲存模式可讓您控制 Power BI Desktop 是否要將報表資料快取到記憶體內。 
 
@@ -37,9 +37,9 @@ ms.locfileid: "54279174"
 
 Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 
-* **複合模型**：允許報表可有兩 (含) 個以上任意組合的資料連線，包括 DirectQuery 連線或匯入。 如需詳細資訊，請參閱 [Power BI Desktop 的複合模型 (預覽)](desktop-composite-models.md)。
+* **複合模型**：允許報表可有兩 (含) 個以上任意組合的資料連線，包括 DirectQuery 連線或匯入。 如需詳細資訊，請參閱 [Power BI Desktop 的複合模型](desktop-composite-models.md)。
 
-* **多對多關聯性**：您可以使用「複合模型」在資料表之間建立「多對多關聯性」。 多對多關聯性會移除資料表中值必須唯一的要求。 此外也會移除先前的因應措施，像是只為了建立關聯性而導入新的資料表。 如需詳細資訊，請參閱 [Power BI Desktop 的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md)。
+* **多對多關聯性**：您可以使用「複合模型」在資料表之間建立「多對多關聯性」。 多對多關聯性會移除資料表中值必須唯一的要求。 此外也會移除先前的因應措施，像是只為了建立關聯性而導入新的資料表。 如需詳細資訊，請參閱 [Power BI Desktop 中的多對多關聯性](desktop-many-to-many-relationships.md)。
 
 * **儲存模式**：您現在可以指定哪些視覺效果必須查詢後端資料來源。 不需要查詢的視覺效果，即便是使用 DirectQuery，也同樣會匯入。 此功能可提升效能，並減輕後端的負載。 先前即使是像交叉分析篩選器這類簡單的視覺效果，都會起始查詢，並將其傳送到後端來源。 儲存模式將在本文後段進一步說明。
 
@@ -127,13 +127,13 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 ![適用於儲存體模式診斷的指令碼](media/desktop-storage-mode/storage-mode_08.png)
 
 > [!NOTE]
-> 在合併快取及非快取的資料表時，此行為與 [Power BI Desktop 中的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md) 不同。
+> 在合併快取及非快取的資料表時，此行為與 [Power BI Desktop 中的多對多關聯性](desktop-many-to-many-relationships.md)不同。
 
 ## <a name="caches-should-be-kept-in-sync"></a>快取應該保持同步
 
 上節所示的查詢顯示，**雙重**資料表不一定每一次都會命中快取。 如此一來，當快取過期時，就可傳回不同的值。 例如，查詢執行將不會藉由篩選 DirectQuery 結果以符合快取的值，嘗試掩飾資料問題。 您應該最了解自己的資料流程，並應據此進行設計。 如有必要，可使用一些現有技術，在來源處理這類案例。
 
-*雙重*儲存模式是一種效能最佳化。 只有在不影響達成商務需求的前提之下，才使用此模式。 如需替代行為，請考慮使用 [Power BI Desktop 的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md) 一文所述的技術。
+*雙重*儲存模式是一種效能最佳化。 只有在不影響達成商務需求的前提之下，才使用此模式。 如需替代行為，請考慮使用 [Power BI Desktop 中的多對多關聯性](desktop-many-to-many-relationships.md)文章中說明的技術。
 
 ## <a name="data-view"></a>資料檢視
 若資料集中至少有一個資料表已將其儲存模式設定為**匯入**或**雙重**，就會顯示 [資料檢視] 索引標籤。
@@ -162,7 +162,7 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 ## <a name="next-steps"></a>後續步驟
 
 如需複合模型及 DirectQuery 的詳細資訊，請參閱下列文章：
-* [Power BI Desktop 的複合模型 (預覽)](desktop-composite-models.md)
-* [Power BI Desktop 的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md)
+* [Power BI Desktop 中的複合模型](desktop-composite-models.md)
+* [Power BI Desktop 中的多對多關聯性](desktop-many-to-many-relationships.md)
 * [使用 Power BI 的 DirectQuery](desktop-directquery-about.md)
 * [Power BI 中 DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)

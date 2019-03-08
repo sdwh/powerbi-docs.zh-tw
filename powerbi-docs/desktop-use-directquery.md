@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5aaa50aff2302742d6845c9cb16b0fc36ea2677
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bf41700b367b7c3c2302eeec9c03b93fa294ed3f
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276764"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555673"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 有了 **Power BI Desktop**，當您連接到資料來源時，隨時可將資料的複本匯入 **Power BI Desktop**。 對於某些資料來源，可用的替代方式是：使用 **DirectQuery**直接連接到資料來源。
@@ -41,26 +41,26 @@ ms.locfileid: "54276764"
 ## <a name="benefits-of-using-directquery"></a>使用 DirectQuery 的優點
 使用 **DirectQuery** 有一些好處：
 
-* **DirectQuery** 可讓您透過非常大型的資料集建立視覺效果，原本在此狀況使用預先彙總先行匯入所有資料並不可行。
+* **DirectQuery** 可讓您透過非常大型的資料集建立視覺效果，原本在此狀況使用預先彙總先行匯入所有資料並不可行
 * 基礎資料變更可能需要重新整理資料，而針對某些報表，顯示目前的資料可能需要大量資料傳輸，造成重新匯入資料不太可行。 相較之下， **DirectQuery** 報表一律會使用目前的資料
 * 1 GB 的資料集限制「不」適用於 **DirectQuery**
 
 ## <a name="limitations-of-directquery"></a>DirectQuery 的限制
 目前使用 **DirectQuery**會有一些限制：
 
-* 所有資料表都必須來自單一資料庫
+* 除非使用[複合模型](desktop-composite-models.md)，否則所有資料表都必須都來自單一資料庫
 * 如果 [查詢編輯器] 查詢過於複雜，將會發生錯誤。 若要修正錯誤，您必須在 [查詢編輯器] 中刪除有問題的步驟，或「匯入」資料，而不要使用 **DirectQuery**。 多維度來源，例如 SAP Business Warehouse，不存在 [查詢編輯器]
 * 關聯性篩選僅限於單一方向，而非雙向 (雖然您可以透過預覽功能啟用 **DirectQuery** 的雙向交叉篩選)。 多維度來源，例如 SAP Business Warehouse，不存在模型中定義的關聯性。
 * **DirectQuery** 中不提供時間智慧功能。 例如，**DirectQuery** 模式不支援日期資料行 (年、季、月、日等) 的特殊處理。
 * 根據預設，量值中允許的 DAX 運算式會有所限制，詳細資訊請參閱後續段落 (在此項目符號清單後)
-* 使用 **DirectQuery** 傳回資料時，限制為 1 百萬個資料列。 這不會影響用來建立使用 **DirectQuery**傳回的資料集彙總或計算，只會影響傳回的資料列。 比方說，您可以使用在資料來源執行的查詢彙總 10 萬個資料列，並使用 **DirectQuery**準確地將該彙總的結果傳回 Power BI，只要傳回 Power BI 的資料小於 1 百萬個資料列即可。 如果從 **DirectQuery**傳回的資料列超過 1 百萬個，Power BI 便會傳回錯誤。
+* 使用 **DirectQuery** 傳回資料時，有一百萬個資料列的限制。 這項限制不會影響使用 **DirectQuery** 傳回時，用來建立資料集的彙總或計算，只會影響傳回的資料列。 比方說，您可以使用在資料來源執行的查詢彙總 10 萬個資料列，並使用 **DirectQuery**準確地將該彙總的結果傳回 Power BI，只要傳回 Power BI 的資料小於 1 百萬個資料列即可。 如果從 **DirectQuery**傳回的資料列超過 1 百萬個，Power BI 便會傳回錯誤。
 
 為確保傳送至基礎資料來源的查詢皆具有足夠的效能，系統根據預設會對量值有所限制。 進階使用者可以選擇略過此限制，方法是依序選取 [檔案] > [選項及設定] > [選項]、[DirectQuery]及 [允許在 DirectQuery 模式中量值不受限制] 選項。 選取該選項後，即可使用任何適用於量值的 DAX 運算式。 不過使用者也必須了解，在匯入資料時效能很好的某些運算式，在 DirectQuery 模式中可能會導致後端來源的查詢速度緩慢。
 
 ## <a name="important-considerations-when-using-directquery"></a>使用 DirectQuery 時的重要考量
 使用 **DirectQuery** 時，應考慮下列三點：
 
-* **效能和負載** - 所有 **DirectQuery** 要求都會傳送到來源資料庫，因此重新整理視覺效果所需的時間，取決於該後端來源回應一或多個查詢結果所花費的時間。 針對視覺效果使用 **DirectQuery** 的建議回應時間 (正在傳回要求的資料) 為 5 秒 (含) 以下，建議的結果回應時間上限為 30 秒。 超過此時間會讓取用報表的使用者體驗低落至無法接受的程度。 此外，將報表發行至 Power BI 服務之後，超過幾分鐘的任何查詢都會逾時，而且使用者會收到錯誤。
+* **效能和負載** - 所有 **DirectQuery** 要求都會傳送到來源資料庫，因此重新整理視覺效果所需的時間，取決於該後端來源回應一或多個查詢結果所花費的時間。 針對視覺效果使用 **DirectQuery** 的建議回應時間 (正在傳回要求的資料) 為 5 秒 (含) 以下，建議的結果回應時間上限為 30 秒。 超過此時間會讓取用報表的使用者體驗低落至無法接受的程度。 此外，將報表發佈到 Power BI 服務之後，超過數分鐘的任何查詢都會逾時，而且使用者會收到錯誤。
   
   您也必須考慮來源資料庫上的負載，這會視取用已發行報表的 Power BI 使用者數目而定。 使用「資料列層級安全性」(RLS) 也可能會造成顯著的影響；由多位使用者共用的非 RLS 儀表板磚會對資料庫產生單一查詢，但在儀表板磚使用 RLS 通常表示需要「每位使用者」查詢一次才能重新整理磚，因而大幅增加來源資料庫上的負載並可能影響效能。
   

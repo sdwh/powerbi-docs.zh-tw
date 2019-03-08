@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7b835231356ad14ab434b86a2d1f99aa7212358d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 2f64973650edd951a9a780090426afba3e8471f5
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215619"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555577"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>從 Power BI Desktop 將報表匯出為 PDF
-在 **Power BI Desktop** 中，可將報表匯出為 PDF 檔案，因此可輕鬆地利用該 PDF 分享或列印報表。
+在 **Power BI Desktop** 或 Power BI 服務中，可將報表匯出為 PDF 檔案，因此可輕鬆地利用該 PDF 分享或列印報表。
 
-![匯出至 PDF](media/desktop-export-to-pdf/export-to-pdf_01.png)
+![匯出為 PDF](media/desktop-export-to-pdf/export-to-pdf_01.png)
 
 將您的報表從 **Power BI Desktop** 匯出為 PDF 的程序，您如此即可列印 PDF 或與其他人分享該 PDF 文件，用法相當直接。 只要從 Power BI Deskop 選取 [檔案]> [匯出至 PDF] 即可。
 
@@ -35,7 +35,6 @@ ms.locfileid: "56215619"
 ## <a name="considerations-and-limitations"></a>考量與限制
 使用**匯出至 PDF** 功能時，請注意幾項考量：
 
-* **匯出至 PDF** 功能僅適用於 **Power BI Desktop**，**Power BI 服務**中目前無法使用。
 * 此功能會匯出自訂的視覺效果，但並*不會*匯出任何對報表套用的背景圖案。
 
 因為背景圖案不會匯出至 PDF，所以請特別注意使用深色背景圖案的報表。 若您報表中的文字為淡色或是白色，以凸顯於深色的背景圖案上，即會因為背景圖案並不會與報表的其他部分一起匯出，而在匯出至 PDF 的程序中，發生不易閱讀或無法閱讀的情況。 
