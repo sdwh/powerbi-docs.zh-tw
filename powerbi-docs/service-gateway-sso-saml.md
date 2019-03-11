@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: f6a17a3e4033d5a97c5ae7744fef955aeed16eeb
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.openlocfilehash: c1ca797efa2e40bf74384a1e9f2362acd26c6f8f
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327726"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555655"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的單一登入 (SSO)，使用安全性聲明標記語言 (SAML)
 
@@ -38,6 +38,8 @@ ms.locfileid: "57327726"
     ```
 
 1. 在 SAP HANA Studio 中，請以滑鼠右鍵按一下您的 SAP HANA 伺服器，然後巡覽至 [安全性] > [開啟安全性主控台] > [SAML 識別提供者] > [OpenSSL 密碼編譯程式庫]。
+
+    也可使用 SAP 加密編譯程式庫 (也稱為 CommonCryptoLib 或 sapcrypto)，來取代 OpenSSL 完成這些設定步驟。 請參閱官方 SAP 文件以取得詳細資訊。
 
 1. 選取 [匯入]，巡覽至 samltest.crt 並將其匯入。
 
@@ -121,6 +123,37 @@ ms.locfileid: "57327726"
 現在您可以使用 Power BI 中的 [管理閘道] 頁面來設定資料來源，並在其下方的 [進階設定] 啟用 SSO。 然後您可以發佈繫結至該資料來源的報表和資料集。
 
 ![進階設定](media/service-gateway-sso-saml/advanced-settings.png)
+
+## <a name="troubleshooting"></a>疑難排解
+
+設定 SSO 後，您可能會在 Power BI 入口網站中看到以下錯誤：「提供的認證無法用於 SapHana 來源。」 此錯誤表示 SAP Hana 拒絕了該 SAML 認證。
+
+驗證追蹤會提供詳細資訊，以針對 SAP Hana 上的認證問題進行疑難排解。 請遵循以下步驟來為您的 SAP Hana 伺服器設定追蹤。
+
+1. 在 SAP Hana 伺服器上，透過執行下列查詢來開啟驗證追蹤。
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') set ('trace', 'authentication') = 'debug' with reconfigure 
+    ```
+
+1. 重現您遇到的問題。
+
+1. 在 HANA Studio 中，開啟管理主控台，接著前往 [診斷檔案] 索引標籤。
+
+1. 開啟最近的 indexserver 追蹤，然後搜尋 SAMLAuthenticator.cpp。
+
+    您應該就會看到指出根本原因的詳細錯誤訊息，如以下範例所示。
+
+    ```
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815797 d Authentication   SAMLAuthenticator.cpp(00091) : Element '{urn:oasis:names:tc:SAML:2.0:assertion}Assertion', attribute 'ID': '123123123123123' is not a valid value of the atomic type 'xs:ID'.
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815914 i Authentication   SAMLAuthenticator.cpp(00403) : No valid SAML Assertion or SAML Protocol detected
+    ```
+
+1. 完成疑難排解後，透過執行下列查詢來關閉驗證追蹤。
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') UNSET ('trace', 'authentication');
+    ```
 
 ## <a name="next-steps"></a>後續步驟
 
