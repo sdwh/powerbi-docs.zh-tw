@@ -60,7 +60,7 @@ ms.locfileid: "56249152"
 
 ### <a name="create-an-app-workspace"></a>建立應用程式工作區
 
-如果您要為客戶內嵌報表、儀表板或磚，就必須將您的內容放在應用程式工作區內。 有不同類型的工作區可供您設定：[傳統工作區](../service-create-workspaces.md)或[新工作區](../service-create-the-new-workspaces.md)。 如果您是使用*主要*帳戶，則您使用哪種類型的工作區都無所謂。 不過，如果您使用*[服務主體](embed-service-principal.md)* 登入您的應用程式，則需要使用新的工作區。 在任一案例中，*主要*帳戶或*服務主體*都必須是您應用程式隨附的應用程式工作區管理員。
+如果您要為客戶內嵌報表、儀表板或磚，就必須將您的內容放在應用程式工作區內。 有不同類型的工作區可供您設定：[傳統工作區](../service-create-workspaces.md)或[新工作區](../service-create-the-new-workspaces.md)。 如果您是使用*主要*帳戶，則您使用哪種類型的工作區都無所謂。 不過，如果您使用 *[服務主體](embed-service-principal.md)* 登入您的應用程式，則需要使用新的工作區。 在任一案例中，*主要*帳戶或*服務主體*都必須是您應用程式隨附的應用程式工作區管理員。
 
 ### <a name="create-and-publish-your-reports"></a>建立並發佈報表
 
