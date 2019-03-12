@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
-ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
+ms.openlocfilehash: f22cac734d98e98cd17a915c09d6705e2cad121a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57196428"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580051"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>整理有序的內容套件：複製、重新整理及取得存取權
 
@@ -25,13 +25,13 @@ ms.locfileid: "57196428"
 
 > [!NOTE]
 > 您無法在新的工作區體驗預覽中建立或安裝組織內容套件。 如果您尚未開始，現在是將您的內容套件升級為應用程式的好時機。 深入了解[新的工作區體驗](service-create-the-new-workspaces.md)。
-> 
+>
 
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>建立組織內容套件的複本
 建立專屬的內容套件複本，其他人都無法看到。
 
 1. 選取內容套件儀表板旁的省略符號 (...) > [製作複本]。
-   
+
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. 選取 [儲存]。  
 
@@ -41,7 +41,7 @@ ms.locfileid: "57196428"
 > 以前，每次當您安裝內容套件或建立複本時，新的資料集就會出現在工作區內容清單中。 最近更新簡化了使用新參考資料集圖示只顯示一個項目的體驗：
 >
 > ![含有連結圖示的資料庫](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
-> 
+>
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>請幫我！  我不再能夠存取內容套件了
 這種情形可能由幾種原因所造成：
@@ -51,7 +51,7 @@ ms.locfileid: "57196428"
 * **安全性設定變更**：如果儀表板和報表連接至內部部署 SSAS 資料來源，且變更了安全性設定，您對該伺服器的權限可能會遭撤銷。
 
 ## <a name="how-are-organizational-content-packs-refreshed"></a>組織內容套件如何重新整理？
-建立內容套件時，會繼承重新整理設定與資料集。  建立內容套件的複本時，新版本會保留原始資料集與其重新整理排程的連結。 
+建立內容套件時，會繼承重新整理設定與資料集。  建立內容套件的複本時，新版本會保留原始資料集與其重新整理排程的連結。
 
 請參閱[管理、更新和刪除組織內容套件](service-organizational-content-pack-manage-update-delete.md).
 
@@ -59,4 +59,3 @@ ms.locfileid: "57196428"
 * [組織內容套件簡介](service-organizational-content-pack-introduction.md)
 * [在 Power BI 中建立群組](service-create-distribute-apps.md)
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

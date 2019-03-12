@@ -1,21 +1,21 @@
 ---
 title: 經認證的 Power BI 自訂視覺效果
 description: 提交自訂視覺效果進行認證的需求和程序。 以及已通過認證的自訂視覺效果清單。
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: a3dbd1229360b641d343c6142b45446f36963803
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 21dc75af7bb15aec6d510b9faca8d56e92e5117c
+ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014269"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "57695211"
 ---
 # <a name="certified-custom-visuals"></a>認證的自訂視覺效果
 
