@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d2f8d15c53271b4919d04644407577eec2cea238
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56246747"
+---
 ## <a name="general"></a>一般
 **問：** 實際的 Windows 服務稱為什麼？  
 **答：** 閘道在服務中稱為內部部署資料閘道服務
@@ -37,7 +45,7 @@
 **問：** 我的認證會儲存在哪裡？  
 **答：** 您輸入的資料來源認證會以加密狀態儲存在閘道雲端服務中。 認證會在內部部署閘道解密。
 
-**問：** 可以將閘道放在周邊網路 (也稱為非軍事區域 (DMZ) 及遮蔽式子網路) 嗎？  
+**問：** 可以將閘道放在周邊網路 (也稱為周邊網路 (DMZ) 及遮蔽式子網路) 嗎？  
 **答：** 此閘道必須能夠連接到資料來源。 若資料來源無法在您的周邊網路中存取，此閘道就無法與其連接。 例如，若您的 SQL Server 不在您的周邊網路中， 您就無法從周邊網路連線到您的 SQL Server。 若您將此閘道部署在您的周邊網路中，其就無法聯繫 SQL Server。
 
 **問：** 可以強制閘道在 Azure 服務匯流排使用 HTTPS 流量，而不使用 TCP 嗎？  
