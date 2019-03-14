@@ -1,30 +1,34 @@
 ---
-title: 可能需要另外購買 - Power BI 視覺效果指導方針
+title: Power BI 視覺效果方針
 description: 了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及透過購買來使用。
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.openlocfilehash: 92d4320026164e523297cbe48ee87ce33d9ab2f7
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.date: 03/10/2019
+ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826575"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757292"
 ---
-# <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>需要另外購買的 Power BI 視覺效果指導方針
+# <a name="guidelines-for-power-bi-visuals"></a>Power BI 視覺效果指南
 
-到目前為止，Marketplace (AppSource) 只接受免費的 Power BI 視覺效果。 此原則已變更，因此您也可以提交具有「可能需要個別購買」價格標籤的視覺效果到 AppSource。 
+## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>需要另外購買的 Power BI 視覺效果指導方針
+
+到目前為止，Marketplace (AppSource) 只接受免費的 Power BI 視覺效果。 此原則已變更 (2018 年 12 月)，因此您也可以提交具有「可能需要另外購買」價格標籤的視覺效果到 AppSource。 
 
 「可能需要個別購買」視覺效果類似於 Office 市集中的在應用程式內購買 (IAP) 增益集。 開發人員也可以在經過 AppSource 小組核准，確定符合認證需求之後，再提交這些經認證的視覺效果。 如需有關需求的詳細資訊，請參閱[經認證的自訂視覺效果](../power-bi-custom-visuals-certified.md)。
 
 > [!NOTE]
-> * 視覺效果不得存取外部服務或資源，才能通過驗證。
-> * 所有免費視覺效果都應該保留等同先前提供的免費功能。 您可以在現有的免費功能之上新增選用進階付費功能。 我們建議將具有進階功能的 IAP 視覺效果作為新視覺效果提交，而不更新現有的免費項目。
+> 視覺效果不得存取外部服務或資源，才能通過驗證。
+
+>[!IMPORTANT]  
+> 若您將視覺效果從免費更新為「可能需要另外購買」，使用者仍一定會收到如更新前的同等級免費功能。 您可以在現有的免費功能之上新增選用進階付費功能。 我們建議將具有進階功能的 IAP 視覺效果作為新視覺效果提交，而不更新現有的免費項目。
 
 
 ## <a name="what-changed-in-the-submission-process"></a>提交程序有何變更？
@@ -33,19 +37,19 @@ ms.locfileid: "56826575"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>什麼是具有 IAP 功能的 Power BI 視覺效果？
 
-IAP 視覺效果是提供免費功能的免費視覺效果。 它也有一些進階功能，但這些功能可能必須另外付費才能使用。 在視覺效果的描述中，開發人員必須通知使用者需要另行購買才能使用的功能。 目前，Microsoft 不提供原生 API 以支援購買應用程式與增益集。
+IAP 視覺效果是提供**免費功能**的**免費**視覺效果。 它也有一些進階功能，但這些功能可能必須另外付費才能使用。 在視覺效果的描述中，開發人員必須通知使用者需要另行購買才能使用的功能。 目前，Microsoft 不提供原生 API 以支援購買應用程式與增益集。
 
 對於這些購買項目，開發人員可以使用任何第三方付款系統。 如需詳細資訊，請參閱[我們的市集原則](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) \(英文\)。
 
 > [!NOTE]
-> 免費功能中無法使用浮水印。 開發人員可在沒有有效授權就使用進階付費功能時顯示快顯視窗或浮水印。  
+> 無法在免費功能或免費視覺效果上使用浮水印。 僅可在不具有效授權情況下使用的付費功能上使用浮水印。 若在不具有效授權的情況下使用付費功能，建議您顯示具有全部授權相關資訊的快顯視窗。  
 
 ## <a name="logo-guidelines"></a>標誌指導方針
 
 本節描述在視覺效果中新增標誌和標誌類型的規格。
 
-> [!NOTE]
-> 只有在編輯模式中，才會允許標誌。 在檢視模式中，無法顯示標誌。
+> [!IMPORTANT]
+> 標誌**僅可在編輯模式**中使用。 標誌**無法**在檢視模式中顯示。
 
 ![定義](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
 

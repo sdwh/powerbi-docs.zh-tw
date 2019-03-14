@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014637"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757338"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -192,6 +192,13 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ![列印報告](media/service-admin-portal/powerbi-admin-print-report.png)
 
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>允許外部來賓使用者編輯和管理組織中的內容
+Azure B2B 來賓使用者可編輯及管理組織中的內容。 [深入了解](service-admin-azure-ad-b2b.md)
+
+以下影像顯示可讓外部來賓使用者編輯及管理組織中內容的選項。
+
+![允許外部來賓使用者編輯和管理組織中的內容](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
 ## <a name="content-pack-and-app-settings"></a>內容套件及應用程式設定
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>將內容套件及應用程式發佈到整個組織
@@ -243,10 +250,45 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 > [!NOTE]
 > 這項設定可以套用於整個組織，也可以限於特定群組。
 
+
+Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組織的部署電腦無法使用自訂視覺效果。
+
+<table>
+<tr><th>屬性</th><th>值</th>
+</tr>
+<td>索引鍵</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableCustomVisuals</td>
+</tr>
+</table>
+
+值為 1 (十進位) 會使 Power BI 中的自訂視覺效果可用 (此為預設)。
+
+值為 0 (十進位) 會使 Power BI 中的自訂視覺效果無法使用。
+
 ### <a name="allow-only-certified-visuals"></a>僅允許認證的視覺效果
 
 組織中已獲得新增和使用自訂視覺效果權限的使用者 (由「新增和使用自訂視覺效果」設定表示)，將只能使用[受認證的自訂視覺效果](https://go.microsoft.com/fwlink/?linkid=2002010) (未經認證的視覺效果將遭封鎖，並在使用時顯示錯誤訊息)。 
 
+
+Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組織的部署電腦無法使用未經認證的自訂視覺效果。
+
+<table>
+<tr><th>屬性</th><th>值</th>
+</tr>
+<td>索引鍵</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableUncertifiedVisuals</td>
+</tr>
+</table>
+
+值為 1 (十進位) 會使 Power BI 中未經認證的自訂視覺效果可用 (此為預設)。
+
+值為 0 (十進位) 會使 Power BI 中未經認證的自訂視覺效果無法使用 (此選項僅會使[經認證的自訂視覺效果可用](https://go.microsoft.com/fwlink/?linkid=2002010))。
 
 ## <a name="r-visuals-settings"></a>R 視覺效果設定
 

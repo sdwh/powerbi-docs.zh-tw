@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d7f30dd43fe875380939520f3dc54fcbbe2f4c9c
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555963"
+---
 **DAX** 及 Excel 公式語言之間的一個重大差異，是 DAX 可讓您在運算式之間傳遞 *整個資料表* ，而不是限制在單一值。 其中一個功能強大的作用是 DAX 可讓您在其運算式中篩選資料表，然後使用已篩選的一組值。
 
 ![](media/7-6-dax-tables-and-filtering/dax-tables-filtering_1.png)
@@ -13,7 +21,7 @@ DAX 擁有一組豐富的**資料表**函數，包括下列︰
 * DISTINCT
 * RELATEDTABLE
 
-這些函數傳回完整資料表，而不是值。 通常您會將**資料表**函數的結果用在更高的運算式中進行進一步分析，而非將傳回的資料表當作終值。 請特別注意，當您使用資料表函數時，結果會繼承其資料行之間的關聯性。
+這些函式會傳回完整資料表，而不是值。 通常您會將**資料表**函數的結果用在更高的運算式中進行進一步分析，而非將傳回的資料表當作終值。 請特別注意，當您使用資料表函數時，結果會繼承其資料行之間的關聯性。
 
 只要每一個函數都使用資料表並傳回資料表，您便可以在運算式中混合資料表函數。 例如，以下列 DAX 運算式為例︰
 

@@ -7,20 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 03/11/2019
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 83273d42ed27523c618cf229c0c3a0bec7b82cb6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e067ac55d606372c05da1e0ebff76e4d05f35e9c
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292818"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757499"
 ---
 # <a name="power-bi-security"></a>Power BI 安全性
-如需 Power BI 安全性的詳細說明，請[下載 Power BI 安全性技術白皮書](http://go.microsoft.com/fwlink/?LinkId=829185)：
-
-[![](media/service-admin-power-bi-security/pbi_security_01.png)](http://go.microsoft.com/fwlink/?LinkId=829185)
+如需 Power BI 安全性的詳細說明，請[閱讀 Power BI 安全性技術白皮書](whitepaper-powerbi-security.md)。
 
 Power BI 服務是建置在 Microsoft 的雲端運算基礎結構和平台 **Azure**之上。 Power BI 服務架構的基礎包含兩個叢集：Web 前端 (**WFE**) 叢集和**後端** 叢集。 WFE 叢集會管理 Power BI 服務的初始連線和驗證；驗證後，便會由後端來處理所有後續使用者互動。 Power BI 分別使用 Azure Active Directory (AAD) 來儲存及管理使用者身分識別，以及使用 Azure BLOB 和 Azure SQL Database 來管理資料和中繼資料的儲存。
 

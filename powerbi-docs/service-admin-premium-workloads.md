@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 03/11/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5b9bec67fef672d219b11bf3b3750959e72410b6
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 0baab138ee98d2ec96bc9f47e6e727525a57ed3e
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226058"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757238"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>設定 Premium 容量中的工作負載
 
@@ -23,7 +23,7 @@ ms.locfileid: "57226058"
 
 ## <a name="configure-workloads"></a>設定工作負載
 
-您可以啟用和設定[資料流程](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)和[編頁報表](paginated-reports-save-to-power-bi-service.md)的其他工作負載。 這些工作負載之預設記憶體值是根據您 SKU 的可用容量節點。 最大記憶體設定不是累計的。 最高至指定最大值的記憶體以動態方式配置給資料流程，但是以靜態方式配置給編頁報表。 
+您可以啟用及設定 AI、[資料流程](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)和[編頁報表](paginated-reports-save-to-power-bi-service.md)的其他工作負載。 這些工作負載之預設記憶體值是根據您 SKU 的可用容量節點。 最大記憶體設定不是累計的。 上限為指定最大值的記憶體，會以動態方式配置給 AI 及資料流程，但是以靜態方式配置給編頁報表。 
 
 ### <a name="to-configure-workloads-in-the-power-bi-admin-portal"></a>在 Power BI 管理入口網站設定工作負載
 
