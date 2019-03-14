@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a4f10253619393ffd9807b1e33730a4dd37a47ff
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277380"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580235"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用您的 Power BI 儀表板和報表
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 還提供[數種其他方式可進行共同作業及散發您的儀表板和報表](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -98,13 +98,15 @@ ms.locfileid: "54277380"
 
 登入後，他們將不會在平常的 Power BI 入口網站中，而是在其瀏覽器視窗中看到沒有左瀏覽窗格的共用儀表板或報表。 他們必須將連結設為書籤，日後才能存取這個儀表板或報表。
 
-他們無法編輯這個儀表板或報表中的任何內容。 他們可以在報表中與圖表互動，並變更篩選條件或交叉分析篩選器，但無法儲存變更。
+他們無法編輯這個儀表板或報表中的任何內容。 他們可以在報表中與圖表互動，並變更篩選條件或交叉分析篩選器，但無法儲存變更。 
 
 只有您的直接收件者才能看到共用儀表板或報表。 例如，如果您傳送電子郵件給 Vicki@contoso.com，只有 Vicki 看得到儀表板。 其他人就算有連結也看不到這個儀表板，而 Vicki 必須使用相同的電子郵件地址才能存取該儀表板。 如果她使用任何其他電子郵件地址登入，亦無法存取儀表板。
 
 如果內部部署的 Analysis Services 表格式模型實作角色或資料列層級安全性，則組織外部人員就完全看不到任何資料。
 
 如果您從 Power BI 行動裝置應用程式傳送連結給組織外部的人員，當這些人按一下連結時，會在瀏覽器中開啟儀表板，而不是在 Power BI 行動裝置應用程式中開啟。
+
+如果來賓使用者是透過[允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#export-and-sharing-settings)來啟用，即不適用預設的僅限使用體驗。 [深入了解](service-admin-azure-ad-b2b.md)
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 共用儀表板和報表時的重要事項︰

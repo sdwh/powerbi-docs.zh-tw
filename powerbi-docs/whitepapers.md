@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/09/2019
+ms.date: 03/07/2019
 ms.author: maggies
-ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5af870bfd3cb6f9c925dd3d6268d0a1cb54df09b
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295784"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580005"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 的技術白皮書
 
@@ -28,8 +28,8 @@ ms.locfileid: "54295784"
 | [使用 Power BI Premium 規劃內嵌分析的容量](https://aka.ms/pbiewhitepaper) |本文提供指引讓應用程式開發人員/ISV 決定最適合其業務的容量。 | 2017年 10 月 |
 | [規劃 Power BI 企業部署](https://go.microsoft.com/fwlink/?linkid=2057861) |此技術白皮書概述運作良好且安全的組織 Power BI 部署應有考量。 | 2018 年 7 月 |
 | [Power BI 報表伺服器的容量規劃指引](report-server/capacity-planning.md) |本文旨在提供 Power BI 報表伺服器容量規劃的相關指引，文中並共用對報表伺服器的各種工作負載所執行的多項負載測試結果。 | 2018 年 3 月 |
-| [安全性](service-admin-power-bi-security.md) |提供 Power BI 安全性的詳細說明。 | 2018 年 7 月 |
-| [使用 Azure Active Directory B2B 將 Power BI 內容散發給外部來賓使用者](https://aka.ms/powerbi-b2b-whitepaper)|此白皮書概述如何使用 Azure Active Directory 企業對企業 (AAD B2B) 的整合，將內容散發給組織外部的使用者。| 2018 年 3 月 |
+| [安全性](service-admin-power-bi-security.md) |提供 Power BI 安全性的詳細說明。 | 2019 年 3 月 |
+| [使用 Azure Active Directory B2B 將 Power BI 內容散發給外部來賓使用者](whitepaper-azure-b2b-power-bi.md)|此白皮書概述如何使用 Azure Active Directory 企業對企業 (AAD B2B) 的整合，將內容散發給組織外部的使用者。| 2018 年 3 月 |
 | [使用 Power BI 進行進階分析](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |描述 Power BI 的進階分析功能，包括預測性分析、自訂視覺效果、R 整合和資料分析運算式。 | 2017 年 2 月 |
 | [報表和視覺效果的最佳設計做法](visuals/power-bi-visualization-best-practices.md) |提供在 Power BI 中設計報表的最佳做法。 | 2018 年 6 月 |
 | [雙向篩選](desktop-bidirectional-filtering.md) |說明 Power BI Desktop 中的雙向交叉篩選 (技術白皮書另涵蓋 SQL Server Analysis Services 2016，這兩者有相同的行為)。 | 2018 年 7 月 |

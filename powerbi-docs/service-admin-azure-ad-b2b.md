@@ -10,20 +10,24 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7e76f03a3795976aebd1480dc77a579c9245ed9e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0eba54212ff9349ed75d9d9fb18878b39d5cd29a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282049"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580189"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者
 
-Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，讓 Power BI 內容能以安全散發的方式提供給組織外的來賓使用者，同時維持對內部資料的控制能力。
+Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，讓 Power BI 內容能以安全散發的方式提供給組織外的來賓使用者，同時維持對內部資料的控制能力。  
+
+此外，您可以允許外部來賓使用者編輯和管理組織中的內容。
 
 ## <a name="enable-access"></a>啟用存取
 
-在邀請來賓使用者之前，請先確定已經在 Power BI 管理入口網站中啟用[匯出及共用設定](service-admin-portal.md#export-and-sharing-settings)功能。
+在邀請來賓使用者之前，請先確認已在 Power BI 管理入口網站中啟用[與外部使用者共用內容](service-admin-portal.md#export-and-sharing-settings)的功能。
+
+此外，[允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#export-and-sharing-settings)功能可讓您選取哪些來賓使用者可以在工作區中查看與建立內容，包括瀏覽您組織的 Power BI。
 
 ## <a name="who-can-you-invite"></a>您可以邀請哪些人？
 
@@ -71,7 +75,9 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 
 ## <a name="licensing"></a>授權
 
-來賓使用者必須有適當的授權才能檢視共用的應用程式。 有三種選項可以符合此條件：使用 Power BI Premium、指派 Power BI Pro 授權，或使用來賓的 Power BI Pro 授權。
+來賓使用者必須有適當授權才能檢視共用的內容。 有三種選項可以符合此條件：使用 Power BI Premium、指派 Power BI Pro 授權，或使用來賓的 Power BI Pro 授權。
+
+使用[允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#export-and-sharing-settings)功能時，來賓使用者必須具備 Power BI Pro 授權才能提供工作區的內容，或與其他人共用內容。
 
 ### <a name="use-power-bi-premium"></a>使用 Power BI Premium
 
@@ -91,13 +97,41 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 
 ![來賓使用者帶來自己的授權](media/service-admin-azure-ad-b2b/license-approach3.png)
 
+## <a name="guest-users-who-can-edit-and-manage-content"></a>可以編輯和管理內容的來賓使用者 
+
+使用[允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#export-and-sharing-settings)時，所指定來賓使用者可獲得您組織的 Power BI 存取權，並查看他們有權查看的任何內容。 他們可以存取首頁、瀏覽工作區、安裝存取清單上的應用程式，並提供工作區的內容。 針對使用新工作區體驗的工作區，他們可以建立工作區管理員，或是成為工作區管理員。 ＜考量與限制＞一節列出套用的部分限制。
+
+若要協助這些使用者登入 Power BI，請將租用戶 URL 提供給他們。 若要尋找租用戶 URL，請遵循下列步驟。
+
+1. 在 Power BI 服務的頂端功能表中，選取說明 (**?**)，然後選取 [關於 About Power BI]。
+
+2. 尋找 [租用戶 URL] 旁邊的值。 這是您可以與來賓使用者共用的租用戶 URL。
+
+![來賓使用者租用戶 URL](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
+
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-* 外部 B2B 來賓限制於僅限內容耗用。 外部 B2B 來賓可以檢視應用程式、儀表板和報表、匯出資料，並建立儀表板和報表的電子郵件訂用帳戶。 他們無法存取工作區或發行其專屬內容。
+* 根據預設，外部 B2B 來賓限制為僅能使用內容。 外部 B2B 來賓可以檢視應用程式、儀表板和報表、匯出資料，並建立儀表板和報表的電子郵件訂用帳戶。 他們無法存取工作區或發行其專屬內容。 不過，如果來賓使用者是透過[允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#export-and-sharing-settings)租用戶設定來獲得允許，即不適用這些限制。
 
-* Power BI 行動應用程式目前無法提供這項功能。 在行動裝置上，您可以在瀏覽器中檢視使用 Azure AD B2B 所共用的 Power BI 內容。
+* 如果來賓使用者是透過[允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#export-and-sharing-settings)租用戶設定來啟用，則無法使用某些體驗。 若要更新或發佈報表，他們需要使用 Power BI 服務 Web UI，包括 [取得資料] 以上傳 Power BI Desktop 檔案。  不支援下列體驗：
+    * 從 Power BI Desktop 直接發佈至 Power BI 服務
+    * 來賓使用者無法使用 Power BI Desktop 連接到 Power BI 服務中的服務資料集
+    * 繫結至 Office 365 群組的典型工作區：來賓使用者無法建立這些工作區的管理員，或成為這些工作區的管理員。 他們可以是成員。
+    * 工作區的存取清單不支援傳送臨時邀請
+    * Power BI Publisher for Excel 不支援來賓使用者
+    * 來賓使用者無法安裝 Power BI Gateway，並將它連接到您的組織
+    * 來賓使用者無法安裝應用程式並發佈到整個組織
+    * 來賓使用者無法使用、建立、更新或安裝組織內容套件
+    * 來賓使用者無法使用 [使用 Excel 分析]
+    * 來賓使用者不可為註解中的 @mentioned
+    * 來賓使用者不能使用訂用帳戶
+    * 如果來賓使用者要使用這項功能，則應具備工作或學校帳戶。 由於有登入限制，因此使用個人帳戶的來賓使用者會受限更多。
 
 * Power BI SharePoint Online 報表網頁組件目前不提供這項功能。
+
+* Active Directory 設定可能會限制外部來賓使用者得以在整體組織內完成哪些作業，而這些設定也適用於您的 Power BI 環境。 下列文件會討論這些設定：
+    * [管理外部共同作業設定](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations#control-who-can-invite)
+    * [允許或封鎖對特定組織 B2B 使用者的邀請](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)  
 
 ## <a name="next-steps"></a>後續步驟
 

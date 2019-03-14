@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cd6ea6fd52f929e2cd254214cf0e8c96e858f6c2
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555928"
+---
 Power BI 可讓您建立多個資料表之間的關聯性，包括資料來源完全不同的資料表之間的關聯性。 您可以在 Power BI Desktop 的 [關聯性] 檢視中，查看任何資料模型的關聯性。
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_1.png)
@@ -7,7 +15,7 @@ DAX 具有**關聯式函數**，可讓您與已建立關聯性的資料表進行
 
 您可以傳回資料行的值，或您可以使用 DAX 函數傳回具有關聯性的所有資料列。
 
-例如，**TABLE** 函數會遵循關聯性，並傳回資料行的值，而 **RELATEDTABLE** 會遵循關聯性，並傳回經過篩選只包含關聯資料列的整個資料表。
+例如，**RELATED** 函式會遵循關聯性並傳回資料行的值，而 **RELATEDTABLE** 會遵循關聯性，並傳回經篩選只包含相關資料列的整個資料表。
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_2.png)
 

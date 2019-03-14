@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e71844110eb3452cbcb3b224bbca9db57475367e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 08536d412796b1516b689ed728af0126330edf93
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282164"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580122"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>我的 Power BI 租用戶位於何處？
 
@@ -29,7 +29,7 @@ ms.locfileid: "54282164"
 
 1. 在 Power BI 服務的頂端功能表中，選取說明 (**?**)，然後選取 [關於 About Power BI]。
 
-1. 查看 [您的資料儲存位置] 旁邊的值。 這是您租用戶的所在區域。
+1. 查看 [您的資料儲存位置] 旁邊的值。 這是您租用戶的所在區域。 這也是存放資料所在的區域，除非工作區使用不同區域中的專用容量。
 
     ![資料區域](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
 

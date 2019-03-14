@@ -1,5 +1,5 @@
 ---
-title: Power BI Embedded 的多地理位置支援 (預覽版)
+title: Power BI Embedded 的多地理位置支援
 description: 了解如何將內容部署到 Power BI Embedded 主區域以外區域內的資料中心。
 author: markingmyname
 ms.author: maghan
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: d139f96b6aec2db23b2eabc54c3fa326e4762766
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762413"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57572017"
 ---
-# <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Power BI Embedded 的多地理位置支援 (預覽版)
+# <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded 的多地理位置支援
 
-**Power BI Embedded 的多地理位置支援 (預覽版)** 表示使用 Power BI Embedded 來建置應用程式以將分析功能內嵌到其應用程式的 ISV 與組織現在可以在全球的不同區域部署其資料。
+針對使用 Power BI Embedded 建置應用程式，並將分析功能內嵌到其應用程式的 ISV 與組織，**Power BI Embedded 的多地理位置支援**意謂著他們現在可以在全球的不同區域部署其資料。
 
 現在使用 **Power BI Embedded** 的客戶可以使用**多地理位置**選項設定 **A 容量** (以 [Power BI Premium 使用多地理位置來支援的相同功能與限制](../service-admin-premium-Multi-Geo.md)為基礎)。
 
