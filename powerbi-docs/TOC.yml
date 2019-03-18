@@ -398,6 +398,10 @@ items:
       href: service-get-started.md
     - name: 連線到 GitHub 範例
       href: service-tutorial-connect-to-github.md
+    - name: 在 Power BI 中使用認知服務
+      href: service-tutorial-use-cognitive-services.md
+    - name: 與 Power BI 的機器學習服務整合
+      href: service-tutorial-invoke-machine-learning-model.md
   - name: 概念
     items:
     - name: Power BI 服務的新功能
@@ -644,8 +648,12 @@ items:
         href: service-dataflows-connect-azure-data-lake-storage-gen2.md
       - name: 設定工作區資料流程設定 (預覽)
         href: service-dataflows-configure-workspace-storage-settings.md
-      - name: 新增 CDM 資料夾成為 Power BI 資料流程 (預覽)
+      - name: 將 CDM 資料夾作為資料流程新增到 Power BI (預覽)
         href: service-dataflows-add-cdm-folder.md
+      - name: 在 Power BI 中整合機器學習服務
+        href: service-machine-learning-integration.md
+      - name: 在 Power BI 中使用認知服務
+        href: service-cognitive-services.md
     - name: Power BI 中的編頁報表
       items:
       - name: 什麼是編頁報表？ (預覽)
@@ -722,7 +730,7 @@ items:
         href: service-delete.md
       - name: 連接至服務
         items:
-        - name: 連接至服務
+        - name: Acumatica
           href: service-connect-to-services.md
         - name: Acumatica
           href: service-connect-to-acumatica.md
@@ -1317,9 +1325,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 45e6ec57f6fd9a0b02c6139b1bb6e3249edcbadc
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: ad67a7951e15d579cdea824a3eee69fe2ac0ff11
+ms.sourcegitcommit: cd7a027b532b1bb2dbbcae9e92426c80f80810d3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757430"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57964908"
