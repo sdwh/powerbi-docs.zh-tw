@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: d1d1f3c34483737e49129176c833be8384ade999
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324707"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174537"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>將編頁報表發佈至 Power BI 服務 (預覽)
 
 在此文章中，您將了解如何從本機電腦上傳編頁報表，以將該報表發佈至 Power BI 服務。 只要工作區位於 Premium 容量，您就可以將編頁報表上傳到 [我的工作區] 或任何其他工作區。 尋找工作區名稱旁邊的鑽石圖示 ![Power BI Premium 容量鑽石圖示](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) (在工作區名稱旁邊)。 
 
-如果您的報表資料來源位於內部部署，則需在上傳報表之後[建立閘道](#create-a-gateway-to-an-on-premises-data-source)。
+如果您的報表資料來源位於內部部署，則需在上傳報表之後[建立閘道](#create-a-gateway)。
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>將工作區新增至 Premium 容量
 

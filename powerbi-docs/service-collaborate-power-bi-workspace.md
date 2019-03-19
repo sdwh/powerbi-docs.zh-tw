@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 145ef2da33e0d596f03f75c76aaa99e90f58c4c2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288512"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174560"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>在 Power BI 應用程式工作區中共同作業
 Power BI 應用程式工作區是與您的同事共同作業以利用儀表板、報表和資料集來建立「應用程式」的絕佳地方。 共同作業不會止於 Power BI 中的工作區。 Office 365 提供其他群組服務，例如共用商務用 OneDrive 上的檔案、Exchange 中的交談、共用行事曆和工作等等。 深入了解 [Office 365 的群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)。
@@ -49,7 +49,7 @@ Power BI 應用程式工作區是與您的同事共同作業以利用儀表板�
 2. 從這個功能表中，您有幾個方法可以和您的群組共同作業︰ 
    
    * [在 Office 365 中建立群組交談](service-collaborate-power-bi-workspace.md#have-a-group-conversation-in-office-365)。
-   * 在應用程式的群組工作區行事曆上[排程事件](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-group-workspace-calendar)。
+   * 在應用程式的群組工作區行事曆上[排程事件](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-apps-group-workspace-calendar)。
    
    第一次移至您在 Office 365 中的應用程式群組工作區時，可能需要一些時間。 需要 15 到 30 分鐘，然後請重新整理瀏覽器。
 

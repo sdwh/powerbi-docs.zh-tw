@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 98c637692b3c31e598a11c3039b60be3dec61348
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a593a918c59452c922f6061189ad6c2885478aad
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281175"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174859"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI 支援的語言和國家 (地區)
 
@@ -120,7 +120,7 @@ Power BI 會根據您電腦上的語言喜好設定偵測您的語言。 存取�
 
 * 當您[從 Windows 市集安裝 Power BI Desktop](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store) 時，它會安裝所有語言，並顯示與 Windows 預設語言對應的語言。
 * [下載 Power BI Desktop](#choose-a-language-when-you-download-power-bi-desktop) 時，則是在下載時選擇語言。 
-* 您也可以針對特定報表，[在匯入資料時選擇要使用的地區設定](#choose-the-locale-to-be-used-when-importing-data-into-power-bi-desktop)。 
+* 您也可以針對特定報表，[在匯入資料時選擇要使用的地區設定](#choose-the-locale-for-importing-data-into-power-bi-desktop)。
 
 ### <a name="choose-a-language-for-power-bi-desktop-installed-from-the-windows-store"></a>選擇從 Windows 市集安裝的 Power BI desktop 語言
 1. 從 Windows 市集[安裝 Power BI Desktop](http://aka.ms/pbidesktopstore)。

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 760f469ff3b146671292efd70a3c6854aec98b5a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275310"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174583"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>建立為 Power BI 行動應用程式最佳化的報表
-您可以提升在手機、平板電腦上的行動應用程式中檢視您報表的體驗。 專為手機與平板電腦建立直向版面配置報表。 在 Power BI Desktop 與 Power BI 服務中，您會透過重新排列視覺效果並調整其大小，來將報表調整為直向配置以獲得最佳體驗。 您不需要將它們全部都包含。 您還可以建立[回應式視覺效果](#optimize-a-visual-for-any-size)和[回應式交叉分析篩選器](#enhance-slicers-to-to-work-well-in-phone-reports)，以適當調整大小，供您在手機上檢視。 此外，如果您將篩選新增至報表，這些篩選會自動顯示在最佳化報表中。 您的報表讀者可以看到它們並使用它們來篩選報表。
+您可以提升在手機、平板電腦上的行動應用程式中檢視您報表的體驗。 專為手機與平板電腦建立直向版面配置報表。 在 Power BI Desktop 與 Power BI 服務中，您會透過重新排列視覺效果並調整其大小，來將報表調整為直向配置以獲得最佳體驗。 您不需要將它們全部都包含。 您還可以建立[回應式視覺效果](#optimize-a-visual-for-any-size)和[回應式交叉分析篩選器](#enhance-slicers-to-work-well-in-phone-reports)，以適當調整大小，供您在手機上檢視。 此外，如果您將篩選新增至報表，這些篩選會自動顯示在最佳化報表中。 您的報表讀者可以看到它們並使用它們來篩選報表。
 
 ![手機上的最佳化報表](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
