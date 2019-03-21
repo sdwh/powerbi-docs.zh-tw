@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d17a5875569f29da41d62ca61efcbdae3b9242e9
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757315"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980350"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>關於 Power BI 自訂視覺效果的常見問題集
 
@@ -23,7 +23,7 @@ ms.locfileid: "57757315"
 
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>系統管理員如何管理組織自訂視覺效果？
 
-在管理入口網站中的 [組織自訂視覺效果] 索引標籤底下，系統管理員可以查看並[管理企業中的所有組織自訂視覺效果](https://docs.microsoft.com/power-bi/service-admin-portal#organization-visuals)：新增、停用、啟用及刪除。
+在系統管理入口網站中的 [組織自訂視覺效果] 索引標籤底下，系統管理員可以查看並[管理企業中的所有組織自訂視覺效果](service-admin-portal.md#organizational-visuals)：新增、停用、啟用及刪除。
 無需再透過電子郵件或共用資料夾來共用這些視覺效果！ 將組織的自訂視覺效果部署到組織存放庫之後，組織中的使用者就可以輕鬆地尋找這些視覺效果，並直接從 Power BI Desktop 或服務將它們匯入報表中。 您可以在 [我的組織] 索引標籤下的內建存放區 (在 Desktop 與服務中) 找到組織自訂視覺效果。一旦系統管理員上傳新的組織自訂視覺效果版本後，組織中的每個人都會獲得相同的更新版本。 報表作者不需要刪除報表中的視覺效果即可獲取這些視覺效果的新版本，因為使用這些視覺效果的所有報表都會自動更新！ 更新機制類似於 Marketplace 視覺效果。
 
 ### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>如果系統管理員將自訂視覺效果從公用 Marketplace 上傳到組織存放區，那麼一旦供應商在公用 Marketplace 中更新視覺效果，它是否會自動更新？

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a8a7aa8ed33e5c1baa7319ea65a67b6338c41ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277794"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220946"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>使用 Power BI Premium 上的計算實體 (預覽)
 
@@ -79,7 +79,9 @@ ms.locfileid: "54277794"
 
 使用特別在組織的 Azure Data Lake Storage Gen2 帳戶中建立的資料流程時，連結實體和計算實體只會在實體位於相同儲存體帳戶中時才能正常運作。 如需詳細資訊，請參閱[連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體 (預覽)](service-dataflows-connect-azure-data-lake-storage-gen2.md)。
 
-此外，連結實體不適用從 CDM 資料夾建立的資料流程。 請參閱[新增 CDM 資料夾成為 Power BI 資料流程 (預覽)](service-dataflows-add-cdm-folder.md)。
+連結的實體不適用從 Common Data Model (CDM) 資料夾建立的資料流程。 如需詳細資訊，請參閱[將 CDM 資料夾新增為 Power BI 的資料流程 (預覽)](service-dataflows-add-cdm-folder.md)。
+
+最佳做法是，在對內部部署與雲端資料連結而成的資料進行運算時，建立新實體以執行這類運算。 相較於使用現有的實體進行運算，例如也會查詢來自兩種來源的資料及執行 Lake 內轉換的實體，這種做法能提供更佳的體驗。
 
 ## <a name="next-steps"></a>後續步驟
 

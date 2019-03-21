@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7264ef7b1057f64d6eb51ccc77cbec2a74be6d0e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2122ce9bd6eb850a51a06188ca1c10faf78f4bb1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283981"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964655"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>設定內部部署資料閘道的 Proxy 設定
 您的工作環境可能需要執行 Proxy 以存取網際網路。 這可以防止內部部署資料閘道連線到服務。
@@ -46,24 +46,41 @@ Proxy 資訊是在 .NET 設定檔中所設定。 位置和檔案名稱將會隨�
 ## <a name="configuring-proxy-settings"></a>設定 Proxy 設定
 預設的 Proxy 設定如下所示。
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true" />
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true" />
+</system.net>
+```
+
 
 預設設定適用於 Windows 驗證。 若您的 Proxy 使用另一種格式的驗證，您將必須變更設定。 若您不確定，應該連絡網路系統管理員。 不建議使用基本 Proxy 驗證，且嘗試使用基本 Proxy 驗證可能會造成 Proxy 驗證錯誤，而導致未能正確設定閘道。 請使用較強的 Proxy 驗證機制來解決。
 
 除了使用預設認證之外，您也可以新增 <proxy> 元素，詳加定義 Proxy 伺服器設定。 舉例來說，您可以透過將 bypassonlocal 參數設為 false，指定內部部署的資料閘道應一律使用 Proxy，即使對本機資源亦然。 如果您想要在 Proxy 記錄檔中追蹤從內部部署的資料閘道產生的所有 https 要求，這會有助於疑難排解。 下列範例組態指定所有要求都必須通過 IP 位址為 192.168.1.10 的特定 Proxy。
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true">
-            <proxy  
-                autoDetect="false"  
-                proxyaddress="http://192.168.1.10:3128"  
-                bypassonlocal="false"  
-                usesystemdefault="true"
-            />  
-        </defaultProxy>
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true">
+        <proxy  
+            autoDetect="false"  
+            proxyaddress="http://192.168.1.10:3128"  
+            bypassonlocal="false"  
+            usesystemdefault="true"
+        />  
+    </defaultProxy>
+</system.net>
+```
+
+此外，若要讓閘道透過 Proxy 連線到雲端資料來源，請更新下列檔案：*C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe*。 在此檔案中，展開 `<configurations>` 區段以包含下列內容，並使用您的 Proxy 資訊更新 `proxyaddress` 屬性。 下列範例將會使用 IP 位址 192.168.1.10，透過特定的 Proxy，路由傳送所有雲端要求。
+
+```
+<configuration>
+<system.net>
+    <defaultProxy useDefaultCredentials="true" enabled="true">
+    <proxy proxyaddress=""http://192.168.1.10:3128" bypassonlocal="true" />
+    </defaultProxy>
+</system.net>
+</configuration>
+```
 
 若要深入了解.NET 設定檔的 Proxy 項目設定，請參閱 [defaultProxy 項目 (網路設定)](https://msdn.microsoft.com/library/kd3cf2ex.aspx)。
 

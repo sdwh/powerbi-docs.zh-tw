@@ -10,20 +10,20 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3e8a4f443a6784020467ef1cf3a918ef5410b209
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757407"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174951"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教學課程：將客戶的 Power BI 內容內嵌至應用程式
 
-使用 **Azure 中的 Power BI Embedded**，可利用應用程式擁有的資料，將報表、儀表板或磚內嵌至應用程式。 **應用程式擁有的資料**即是應用程式使用 Power BI 作為其內嵌的分析平台。 身為 **ISV 開發人員**，您可以建立會顯示應用程式 (完全整合且互動) 中報表、儀表板或磚的 Power BI 內容，而使用者完全不需要有 Power BI 授權。 本教學課程示範如何使用 **Azure 中的 Power BI Embedded**，利用 Power BI .NET SDK 搭配 Power BI JavaScript API，為客戶將報表整合至應用程式。
+使用 **Azure 中的 Power BI Embedded**，可利用應用程式擁有的資料，將報表、儀表板或磚內嵌至應用程式。 **應用程式擁有的資料**即是應用程式使用 Power BI 作為其內嵌的分析平台。 身為 **ISV 開發人員**，您可以建立會顯示應用程式 (完全整合且互動) 中報表、儀表板或磚的 Power BI 內容，而使用者完全不需要有 Power BI 授權。 此教學課程示範如何使用 **Azure 中的 Power BI Embedded**，利用 Power BI .NET SDK 搭配 Power BI JavaScript API，為客戶將報表整合至應用程式。
 
 ![Power BI 內嵌報表](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
-在本教學課程中，您會了解如何：
+在此教學課程中，您會了解如何：
 > [!div class="checklist"]
 > * 在 Azure 中註冊應用程式。
 > * 將 Power BI 報表內嵌到應用程式中。
@@ -139,7 +139,7 @@ ms.locfileid: "57757407"
 
 這兩個 AuthenticationType (主帳戶和[服務主體](embed-service-principal.md)) 都需要此屬性。
 
-在 **workspaceId** 資訊中，填入來自 Power BI 的應用程式工作區 (群組) GUID。 您可以在登入 Power BI 服務時從 URL，或使用 Powershell 取得這項資訊。
+在 **workspaceId** 資訊中，填入來自 Power BI 的應用程式工作區 (群組) GUID。 您可以在登入 Power BI 服務時從 URL，或使用 Powershell 取得此資訊。
 
 URL <br>
 
@@ -157,7 +157,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test"
 
 這兩個 AuthenticationType (主帳戶和[服務主體](embed-service-principal.md)) 都需要此屬性。
 
-在 **reportId** 資訊中，填入來自 Power BI 的報表 GUID。 您可以在登入 Power BI 服務時從 URL，或使用 Powershell 取得這項資訊。
+在 **reportId** 資訊中，填入來自 Power BI 的報表 GUID。 您可以在登入 Power BI 服務時從 URL，或使用 Powershell 取得此資訊。
 
 URL<br>
 
@@ -214,7 +214,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 僅[服務主體](embed-service-principal.md) AuthenticationType 需要此屬性。
 
-在 **tenant** 資訊中，填入您的 azure 租用戶識別碼。 您可以在登入 Power BI 服務時從 [Azure AD 入口網站](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id#use-the-azure-ad-portal)，或使用 Powershell 取得這項資訊。
+在 **tenant** 資訊中，填入您的 azure 租用戶識別碼。 您可以在登入 Power BI 服務時從 [Azure AD 系統管理中心](/onedrive/find-your-office-365-tenant-id)，或使用 Powershell 取得此資訊。
 
 ### <a name="run-the-application"></a>執行應用程式
 
@@ -232,7 +232,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 ## <a name="embed-content-within-your-application"></a>在應用程式中內嵌內容
 
-即使使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 可以完成內嵌您內容的步驟，本文描述的範例程式碼仍是使用 **.NET SDK** 撰寫。
+即使使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 可以完成內嵌您內容的步驟，此文章描述的範例程式碼仍是使用 **.NET SDK** 撰寫。
 
 在應用程式中為您的客戶內嵌項目，需要從 **Azure AD** 取得您主帳戶或[服務主體](embed-service-principal.md)的**存取權杖**。 您需要先為您的 Power BI 應用程式取得 [Azure AD 存取權杖](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，才可呼叫 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
 
@@ -304,7 +304,7 @@ var embedConfig = new EmbedConfig()
 
 此範例使用 **EmbedConfig** 模型和 **TileEmbedConfig** 模型以及報表檢視。
 
-*新增報表、儀表板或圖格檢視的範例，位於[範例應用程式](#embed-your-content-within-a-sample-application)的 Views\Home\EmbedReport.cshtml、Views\Home\EmbedDashboard.cshtml 或 Views\Home\Embedtile.cshtml 檔案內。*
+*新增報表、儀表板或圖格檢視的範例，位於[範例應用程式](#embed-content-using-the-sample-application)的 Views\Home\EmbedReport.cshtml、Views\Home\EmbedDashboard.cshtml 或 Views\Home\Embedtile.cshtml 檔案內。*
 
 ```javascript
 <script src="~/scripts/powerbi.js"></script>
@@ -397,7 +397,7 @@ var embedConfig = new EmbedConfig()
 
 ## <a name="next-steps"></a>後續步驟
 
-在本教學課程中，您已了解如何為客戶將 Power BI 內容內嵌至應用程式。 您也可以嘗試為組織內嵌 Power BI 內容。
+在此教學課程中，您已了解如何為客戶將 Power BI 內容內嵌至應用程式。 您也可以嘗試為組織內嵌 Power BI 內容。
 
 > [!div class="nextstepaction"]
 >[為組織內嵌](embed-sample-for-your-organization.md)

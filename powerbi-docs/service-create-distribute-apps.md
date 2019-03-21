@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 051609c59e155cb6d5c2a982483a7e6d2d91a665
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293998"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964678"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>在 Power BI 中發佈具有儀表板和報表的應用程式
 
@@ -121,6 +121,11 @@ ms.locfileid: "54293998"
 
 ## <a name="unpublish-an-app"></a>解除發佈應用程式
 應用程式工作區的任何成員都可以解除發佈應用程式。
+
+>[!NOTE]
+>當您解除發佈應用程式時，應用程式使用者會失去其自訂項目。 也就是說，任何個人書籤、評論或與應用程式中與內容相關聯的訂用帳戶都會遺失。 只有在您需要移除應用程式時，才解除發佈該應用程式。
+> 
+> 
 
 * 在應用程式工作區中，選取右上角的省略符號 (**...**) > [Unpublish app]\(解除發佈應用程式)。
   

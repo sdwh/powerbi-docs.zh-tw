@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: d592cca246b7d8bf348a9cdd889b6d8ba0e248c1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757338"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980373"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -42,9 +42,9 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 * [使用者](#users)
 * [稽核記錄](#audit-logs)
 * [租用戶設定](#tenant-settings)
-* [Premium 設定](#premium-settings)
+* [容量設定](#capacity-settings)
 * [內嵌程式碼](#embed-codes)
-* [組織視覺效果](#organization-visuals)
+* [組織視覺效果](#organizational-visuals)
 
 ## <a name="usage-metrics"></a>使用計量
 
@@ -106,11 +106,11 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 設定可以有三個狀態：
 
-* **已為整個組織停用**：組織中沒有人可以使用這項功能。
+* **已為整個組織停用**：組織中沒有人可以使用此功能。
 
     ![已停用所有設定](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **已為整個組織啟用**：組織中每個人都可以使用這項功能。
+* **已為整個組織啟用**：組織中每個人都可以使用此功能。
 
     ![已啟用所有設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
@@ -158,7 +158,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 |---------|---------|---------|---------|
 |報告 [檔案] 功能表下的 [發佈至 web]。|針對全部啟用|並非所有人都可看到|只有經授權的使用者或群組才可看到。|
 |[設定] 下的 [管理內嵌程式碼]|針對全部啟用|針對全部啟用|針對全部啟用<br><br>[刪除]*  選項僅適用於經授權的使用者或群組。<br>針對全部啟用 [取得驗證碼]* 。|
-|系統管理員入口網站內的 [內嵌程式碼]|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態顯示「已停用」|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者不是依租用戶設定獲得授權，狀態會顯示成「侵害」。|
+|系統管理員入口網站內的 [內嵌程式碼]|狀態會反映下列其中一個：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態顯示「已停用」|狀態會反映下列其中一個：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者不是依租用戶設定獲得授權，狀態會顯示成「侵害」。|
 |現有的已發佈報告|全部已啟用|全部已停用|報告會繼續針對全部項目呈現。|
 
 ### <a name="export-data"></a>匯出資料
@@ -224,7 +224,7 @@ Azure B2B 來賓使用者可編輯及管理組織中的內容。 [深入了解](
 組織中的使用者可以使用 Cortana 提出關於資料的問題。 [深入了解](service-cortana-enable.md)
 
 > [!NOTE]
-> 這項設定適用於整個組織，而無法限於特定群組。
+> 此設定適用於整個組織，而無法限於特定群組。
 
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>在內部部署資料集使用 [在 Excel 中進行分析]
 
@@ -248,7 +248,7 @@ Azure B2B 來賓使用者可編輯及管理組織中的內容。 [深入了解](
 組織中的使用者可以共用自訂視覺效果，並與其互動。 [深入了解](power-bi-custom-visuals.md)
 
 > [!NOTE]
-> 這項設定可以套用於整個組織，也可以限於特定群組。
+> 此設定可以套用於整個組織，也可以限於特定群組。
 
 
 Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組織的部署電腦無法使用自訂視覺效果。
@@ -297,7 +297,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 組織中的使用者可以共用以 R 指令碼建立的視覺效果，並與其互動。 [深入了解](visuals/service-r-visuals.md)
 
 > [!NOTE]
-> 這項設定適用於整個組織，而無法限於特定群組。
+> 此設定適用於整個組織，而無法限於特定群組。
 
 ## <a name="audit-and-usage-settings"></a>稽核與使用方式設定
 
@@ -308,7 +308,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 必須啟用此設定，才能記錄稽核記錄項目。 啟用稽核到能夠檢視稽核資料之間，有最多 48 小時的延遲。 若您未立即看到資料，請稍候再查看稽核記錄。 取得檢視稽核記錄的權限，以及能夠存取記錄的延遲可能相近。
 
 > [!NOTE]
-> 這項設定適用於整個組織，而無法限於特定群組。
+> 此設定適用於整個組織，而無法限於特定群組。
 
 ### <a name="usage-metrics-for-content-creators"></a>內容建立者的使用計量
 
@@ -318,7 +318,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 內容建立者的使用計量，會公開正在存取內容之使用者的顯示名稱與電子郵件地址。 [深入了解](service-usage-metrics.md)
 
-根據預設，已啟用使用計量的個別使用者資料，而且會將內容建立者帳戶資訊併入計量報表中。 如果您不想要針對部分或所有使用者包括這項資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」。
+根據預設，已啟用使用計量的個別使用者資料，而且會將內容建立者帳戶資訊併入計量報表中。 如果您不想要針對部分或所有使用者包括此資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」。
 
 ## <a name="dashboard-settings"></a>儀表板設定
 
@@ -327,7 +327,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 組織中的使用者可以用指出儀表板安全性層級的分類來標記儀表板。 [深入了解](service-data-classification.md)
 
 > [!NOTE]
-> 這項設定適用於整個組織，而無法限於特定群組。
+> 此設定適用於整個組織，而無法限於特定群組。
 
 ## <a name="developer-settings"></a>開發人員設定
 
@@ -342,7 +342,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 組織內的使用者可建立及使用資料流程。 如需資料流程的概觀，請參閱 [Power BI 的自助資料準備 (預覽)](service-dataflows-overview.md)。 若要啟用 Premium 容量中的資料流程，請參閱[設定工作負載](service-admin-premium-workloads.md)。
 
 > [!NOTE]
-> 這項設定適用於整個組織，而無法限於特定群組。
+> 此設定適用於整個組織，而無法限於特定群組。
 
 ## <a name="template-apps-settings-preview"></a>範本應用程式設定 (預覽)
 

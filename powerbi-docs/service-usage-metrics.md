@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430287"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174928"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>監視 Power BI 儀表板和報表的使用計量
 
@@ -47,7 +47,7 @@ ms.locfileid: "55430287"
 
 使用計量報表不會出現在 [最近]、[工作區]、[我的最愛] 或其他內容清單中。 這些報表無法新增至應用程式。 如果您將使用計量報表中的磚釘選到儀表板，該儀表板即無法新增至應用程式或內容套件。
 
-若要挖掘更深入的報表資料，或根據資料集建立您自己的報表，請使用 [另存新檔] (請參閱[將使用計量報表儲存為全功能的 Power BI 報表](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize)))。
+若要挖掘更深入的報表資料，或根據資料集建立您自己的報表，請使用 [另存新檔] (請參閱[將使用計量報表儲存為全功能的 Power BI 報表](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize))。
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>開啟儀表板或報表的使用計量報表
 
@@ -148,12 +148,12 @@ ms.locfileid: "55430287"
     ![選取齒輪圖示](media/service-usage-metrics/power-bi-admin-portal-new.png)
 2. 從管理入口網站中，選取 [租用戶設定] 並選擇 [內容創作者的使用計量]。
 
-    ![系統管理入口網站](media/service-usage-metrics/power-bi-usage-settings.png)
+    ![管理入口網站](media/service-usage-metrics/power-bi-usage-settings.png)
 3. 啟用 (或停用) 使用計量，然後選取 [套用]。
 
     ![已啟用使用計量](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
-根據預設，已啟用使用計量的個別使用者資料，而且會將內容建立者帳戶資訊併入計量報表中。 如果您不想要針對部分或所有使用者包括這項資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」。
+根據預設，已啟用使用計量的個別使用者資料，而且會將內容建立者帳戶資訊併入計量報表中。 如果您不想要針對部分或所有使用者包括此資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」。
 
 停用其整個組織的使用計量時，系統管理員可以使用 [刪除所有現有的使用計量內容] 選項，刪除利用使用計量報表和資料集所建置的所有現有報表和儀表板磚。 此選項會移除組織中可能已使用它之所有使用者的使用計量資料之所有存取權。 請小心，因為刪除現有使用計量內容是無法復原的。
 
@@ -166,7 +166,7 @@ Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供的安
 請務必了解比較使用計量和稽核記錄時，可能產生的差異和其原因。 「稽核記錄」是使用來自 Power BI 服務的資料來收集，而「使用計量」是在用戶端上收集。 因為該差異，稽核記錄中的彙總計數可能和使用計量不一律相符，原因如下列：
 
 * 由於網路連線不一致、廣告封鎖程式或其他可能中斷從用戶端傳送事件的問題，使用計量有時候可能會將活動少算。
-* 如本文稍早所述，特定類型的檢視未包含在使用計量中。
+* 如此文章稍早所述，特定類型的檢視未包含在使用計量中。
 * 在用戶端重新整理但並不需將要求傳送回 Power BI 服務的情況下，使用計量可能有時會高估活動數目。
 
 ## <a name="frequently-asked-questions"></a>常見問題集

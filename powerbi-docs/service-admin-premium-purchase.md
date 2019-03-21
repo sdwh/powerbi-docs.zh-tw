@@ -8,21 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014131"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964839"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何購買 Power BI Premium
 
 > [!NOTE]
-> 本文正在進行更新，以說明新功能、提供更多詳細資料並改善可讀性。 
+> 文章正在進行更新，以說明新功能、提供更多詳細資料並改善可讀性。 
 
-本文描述如何為您的組織購買 Power BI Premium 容量 (P1-P3)。 您可以在 Office 365 系統管理中心購買 Power BI Premium 容量，並可在 Power BI 管理入口網站中管理您的容量。 如需目前的定價和規劃資訊，請參閱 [Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 計算機](https://powerbi.microsoft.com/calculator/)。
+文章描述如何為您的組織購買 Power BI Premium 容量 (P1-P3)。 您可以在 Office 365 系統管理中心購買 Power BI Premium 容量，並可在 Power BI 管理入口網站中管理您的容量。 如需目前的定價和規劃資訊，請參閱 [Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 計算機](https://powerbi.microsoft.com/calculator/)。
 
 即使您的組織使用 Power BI Premium，內容的作者仍然需要 Power BI Pro 授權。 請確定您為貴組織購買至少一個 Power BI Pro 授權。
 
@@ -95,13 +95,15 @@ ms.locfileid: "57014131"
 
 1. 請完成閱讀此資訊，如果您想要繼續，請選取 [取消訂用帳戶]。
 
+### <a name="when-canceling-or-your-license-expires"></a>取消或授權到期時
+
+當您取消 Premium 訂閱，或您的容量授權到期時，自取消或授權到期的日期起，可以繼續存取進階容量 30 天。 30 天後，您將不再能夠存取您的進階容量或其中的工作區。
+
 ## <a name="next-steps"></a>後續步驟
 
-[Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)
-[Power BI Premium 計算機](https://powerbi.microsoft.com/calculator/)
-[什麼是 Power BI Premium？](service-premium.md)
-[Power BI Premium 問與答](service-premium-faq.md)
-[Microsoft Power BI Premium 白皮書](https://aka.ms/pbipremiumwhitepaper)
-[規劃 Power BI Enterprise 部署白皮書](https://aka.ms/pbienterprisedeploy)
+[Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)   
+[Power BI Premium 計算機](https://powerbi.microsoft.com/calculator/)   
+[Power BI Premium 常見問題集](service-premium-faq.md)   
+[規劃 Power BI 企業部署白皮書](https://aka.ms/pbienterprisedeploy)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)

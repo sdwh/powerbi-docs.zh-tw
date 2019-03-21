@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: fb2b169650360a7dc6a4afaee1c43abb733255c9
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 9fbd47dcefb2daf8d86c6932b5c70617b8bf7ac9
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430985"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964701"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -22,13 +22,19 @@ ms.locfileid: "55430985"
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
-沒有已排定的網路研討會。 請稍後再回來查看近期的活動。
+**實現消費品製造商和零售商雙贏的局面**
+<br>由 Liz McCreesh 主持
+<br>[立即報名](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 >[來自 Power BI 社群，即將舉行的網路研討會](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>精選的網路研討會
 
 開始使用這些熱門的隨選網路研討會
+
+**Power BI 以及現代化和企業 BI 的未來**
+<br>由 Arun Ulag 和 Amir Netz 主持
+<br>[報名並立即觀看](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
 
 **開始使用 Power BI**
 <br>由 Miguel Martinez 主持
@@ -46,13 +52,9 @@ ms.locfileid: "55430985"
 <br>由 Cory Hrncirik 和 Miguel Martinez 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
-**Power BI：以正確方式完成分析**
-<br>由 Gohul Shanmugalingam 主持
-<br>[報名並立即觀看](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**將 Power BI 資料視覺化：核心圖表類型及其使用方式**
-<br>由 Miranda Li 主持
-<br>[報名並立即觀看](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+**使用 Power BI JavaScript API 強化您的應用程式**
+<br>由 Nimrod Shalit 主持
+<br>[報名並立即觀看](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
 **Power BI、Excel 及 Office 365：將企業資料最佳化**
 <br>由 Olaf Hubel 和 Miguel Martinez 主持
@@ -62,10 +64,6 @@ ms.locfileid: "55430985"
 <br>由 Miranda Li 主持
 <br>[報名並立即觀看](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**Microsoft Flow 與 PowerApps 的整體經濟影響**
-<br>主講：Jonathan Lipsitz 與 Enrique Plaza Garcia
-<br>[報名並立即觀看](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
-
 >[瀏覽我們的社群專家所主講的 Power BI 隨選網路研討會影片庫](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
 ## <a name="on-demand-webinars"></a>隨選網路研討會
@@ -74,9 +72,25 @@ ms.locfileid: "55430985"
 
 ### <a name="getting-started"></a>開始使用
 
+**透過 Power BI、PowerApps 和 Microsoft Flow 將日常商務程序自動化**
+<br>由 Wim Coorevits 和 Enrique Plaza Garcia 主持
+<br>[報名並立即觀看](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
+
+**Power BI：以正確方式完成分析**
+<br>由 Gohul Shanmugalingam 主持
+<br>[報名並立即觀看](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**將 Power BI 資料視覺化：核心圖表類型及其使用方式**
+<br>由 Miranda Li 主持
+<br>[報名並立即觀看](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
 **如何設計令人驚豔的 Power BI 報表**
 <br>由 Charlie Sterling 主持
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Microsoft Flow 與 PowerApps 的整體經濟影響**
+<br>主講：Jonathan Lipsitz 與 Enrique Plaza Garcia
+<br>[報名並立即觀看](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 **相得益彰：Excel 使用者透過使用 Power BI 所能獲得的 5 個好處**
 <br>由 Carlos Otero 和 Miguel Martinez 主持
@@ -100,6 +114,10 @@ ms.locfileid: "55430985"
 
 ### <a name="partners"></a>合作夥伴 ###
 
+**透過 Power BI 將客戶資料轉換成零售成功**
+<br>由 Hitachi Solutions 的 Angad Soni 主持
+<br>[報名並立即觀看](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
+
 **可同時改進病人結果與獲利的經實證醫療保健解決方案**
 <br>由來自 US Medical IT 的 Stephen Cracknell 與 Stuart Macanliss 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
@@ -111,6 +129,10 @@ ms.locfileid: "55430985"
 **銷售與服務的應用智慧**
 <br>由來自 Avanade 的 Ed Bobrin 主持
 <br>[報名並立即觀看](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
+
+**成功趨勢策展人的 5 個習慣 - Rohit Bhargava**
+<br>由 Non-Obvious 的 Rohit Bhargava 主持
+<br>[報名並立即觀看](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **製造商：您所處的產業正在經歷數位轉型 - 利用分析功能獲得最大利益以維持領導地位**
 <br>由來自 Blue Margin 的 Jon Thompson 與 Elgin Fastener Group 的 Jim Pastor 主持

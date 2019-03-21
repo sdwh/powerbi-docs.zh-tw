@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430272"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980419"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
-本文可解決 Power BI 管理的常見問題。 如需 Power BI 管理的概觀，請參閱[什麼是 Power BI 管理？](service-admin-administering-power-bi-in-your-organization.md)。
+此文章可解決 Power BI 管理的常見問題。 如需 Power BI 管理的概觀，請參閱[什麼是 Power BI 管理？](service-admin-administering-power-bi-in-your-organization.md)。
 
 ## <a name="whats-in-this-article"></a>本文內容
 
@@ -84,7 +84,7 @@ ms.locfileid: "55430272"
 
 身為系統管理員，您可以採取幾個步驟不讓使用者加入現有的 Office 365 租用戶。 如果您封鎖存取，使用者嘗試註冊會失敗，而且他們會被導向至連絡組織系統管理員的畫面。如果您已停用自動授權發佈 (例如透過學生用、教職員用 Office 365 教育版)，就不需要重複此程序。
 
-您可以使用下列 PowerShell 指令碼來防止新使用者加入受控租用戶。 [深入了解 PowerShell](#basic-powershell-information)
+您可以使用下列 PowerShell 指令碼來防止新使用者加入受控租用戶。 ([深入了解 PowerShell][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -98,7 +98,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 
 ### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>我該如何允許使用者加入現有的 Office 365 租用戶？
 
-使用下列 PowerShell 指令碼讓新使用者加入受控租用戶。 [深入了解 PowerShell](#basic-powershell-information)
+使用下列 PowerShell 指令碼讓新使用者加入受控租用戶。 ([深入了解 PowerShell][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -109,7 +109,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 ### <a name="how-do-i-verify-if-i-have-the-block-on-in-the-tenant"></a>我該如何確認租用戶是否開啟了封鎖？
 
-使用下列 PowerShell 指令碼來確認設定。 *AllowEmailVerifiedUsers* 應為 false。 [深入了解 PowerShell](#basic-powershell-information)
+使用下列 PowerShell 指令碼來確認設定。 *AllowEmailVerifiedUsers* 應為 false。 ([深入了解 PowerShell][1])。
 
 ```powershell
 $msolcred = get-credential
@@ -122,7 +122,7 @@ Get-MsolCompanyInformation | fl allow*
 
 控制此項的 Azure AD 設定是 **AllowAdHocSubscriptions**。 大部分的租用戶都將此設定為 true，表示已啟用此設定。 如果您是透過合作夥伴取得 Power BI，這可能設定為 false，表示已停用此設定。
 
-您可以使用下列 PowerShell 指令碼來停用特定訂閱。 [深入了解 PowerShell](#basic-powershell-information)
+您可以使用下列 PowerShell 指令碼來停用特定訂閱。 ([深入了解 PowerShell][1])。
 
 1. 使用 Office 365 認證登入 Azure Active Directory。 下列 PowerShell 指令碼的第一行會提示您輸入您的認證。 第二行連接到 Azure Active Directory。
 
@@ -270,3 +270,5 @@ Power BI 是建置在 Office 365 的基礎之上，而 Office 365 則是建置�
 [Office 365 群組管理](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+
+[1]: https://docs.microsoft.com/powershell/scripting/overview

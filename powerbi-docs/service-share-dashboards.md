@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 61aedc6c6bce52b172a92b938f9a2f278c841d6f
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580235"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964747"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用您的 Power BI 儀表板和報表
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 還提供[數種其他方式可進行共同作業及散發您的儀表板和報表](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -38,12 +38,18 @@ ms.locfileid: "57580235"
 
 1. 在儀表板或報表清單中，或是在開放的儀表板或報表中，選取 [共用] ![共用圖示](media/service-share-dashboards/power-bi-share-icon.png)。
 
-1. 在頂端的方塊中，輸入個人、通訊群組或安全性群組的完整電子郵件地址。 您無法共用動態通訊清單。 
+2. 在頂端的方塊中，輸入個人、通訊群組或安全性群組的完整電子郵件地址。 您無法共用動態通訊清單。 
    
    您可以與其位址在您組織外的人員共用，但是您會看到一則警告。
    
    ![外部共用的相關警告](media/service-share-dashboards/power-bi-share-dialog-warning.png) 
  
+   >[!NOTE]
+   >輸入方塊最多支援 100 個使用者或群組。 如果您需要與大量的使用者共用，您可以共用許多次，或與使用者群組共用。
+   > 
+   > 
+
+
 3. 您可以視需要新增訊息。 這是選擇性的。
 4. 若要讓同事將您的內容與他人共用，請選取 [允許收件者共用您的儀表板/報表]。
    
@@ -119,6 +125,7 @@ ms.locfileid: "57580235"
 * 電子郵件網域與您相同的同事，以及網域不同、但登錄在相同租用戶中的同事，可以與其他人共用儀表板。 例如，假設網域 contoso.com 和 contoso2.com 都登錄在相同的租用戶中。 如果您的電子郵件地址是 konrads@contoso.com，則 ravali@contoso.com 和 gustav@contoso2.com 只要經過您授權共用，就可以共用。
 * 如果您的同事已能存取特定的儀表板或報表，您只需要在儀表板或報表中複製 URL，就能將它作為該儀表板或報表的直接連結傳送給該同事。 例如：`https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * 同樣地，如果您的同事已能存取特定的儀表板，您可以[傳送基礎報表的直接連結](service-share-reports.md)。 
+* 在單一的共用動作中，您最多可以與 100 個使用者或群組共用。 不過，您可以讓超過 500 個使用者存取某個項目。 若要這樣做，您可以個別指定使用者來共用許多次，或與包含所有使用者的使用者群組共用。
 
 ## <a name="troubleshoot-sharing"></a>針對共用問題進行疑難排解
 

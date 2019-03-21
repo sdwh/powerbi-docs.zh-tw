@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d467839582abb3c66c8bf5a57d1f3c5f7b83d354
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
+ms.openlocfilehash: ed61d865756748ccd4e60f54de4a4b1b9adcef8d
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695027"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980327"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Power BI 的自訂視覺效果
 
@@ -159,17 +159,17 @@ Power BI 認證的視覺效果為已通過額外嚴格品質測試的 Marketplac
 
 6. 儲存 '.pbiviz' 檔案並開啟 Power BI。
 
-7. 將 '.pbiviz' 檔案匯入您的報表 (請參閱上述[從檔案匯入自訂視覺效果](#import-a-custom-visuals-from-a-file)一節)
+7. 將 '.pbiviz' 檔案匯入至您的報表。 (請參閱上面的[從檔案匯入自訂視覺效果](#import-a-custom-visual-from-a-file)一節。)
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-* 自訂視覺效果在匯入後會加入特定的報表。 如果想在另一份報表中使用這個視覺效果，也必須將它匯入該報表。 使用 [另存新檔]  選項儲存具有自訂視覺效果的報表時，自訂視覺效果的複本就會與新報表一起儲存。
+* 自訂視覺效果在匯入後會加入特定的報表。 如果想在另一份報表中使用這個視覺效果，也必須將它匯入該報表。 使用 [另存新檔] 選項儲存具有自訂視覺效果的報表時，自訂視覺效果的複本就會與新報表一起儲存。
 
 * 如果您沒有看到 [視覺效果] 窗格，這表示您沒有該報表的編輯權限。  您只能在您可編輯的報表中新增自訂視覺效果，而在與您共用的報表中則不能。
 
 ## <a name="troubleshoot"></a>疑難排解
 
-如需疑難排解的資訊，請前往 [Troubleshooting your Power BI custom visuals](power-bi-custom-visuals-troubleshoot.md) (針對您的 Power BI 自訂視覺效果進行疑難排解)。
+如需疑難排解的資訊，請前往 [針對 Power BI 自訂視覺效果進行疑難排解](power-bi-custom-visuals-troubleshoot.md)。
 
 ## <a name="faq"></a>常見問題集
 

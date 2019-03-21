@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: da5394c0d1e63619229542b914ae7fd4deed7447
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223735"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174882"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -33,7 +33,7 @@ ms.locfileid: "56223735"
 
 ### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Power BI Embedded 和 Power BI 服務有何不同？
 
-Power BI Embedded 專門供 ISV 或開發人員使用，他們建置應用程式並想要在其中內嵌視覺效果，以協助客戶不必從頭建置分析解決方案就能做出決策。 [Embedded 分析](embedding.md)讓企業用戶能夠存取商務資料及執行查詢，以在應用程式內使用這份資料產生深入解析。
+Power BI Embedded 專門供 ISV 或開發人員使用，他們建置應用程式並想要在其中內嵌視覺效果，以協助客戶不必從頭建置分析解決方案就能做出決策。 [Embedded 分析](embedding.md)讓企業用戶能夠存取商務資料及執行查詢，以在應用程式內使用這份資料產生見解。
 
 Power BI 是軟體即服務分析解決方案，為組織提供最重要商務資料的單一檢視。
 
@@ -137,7 +137,7 @@ Power BI 需要您使用組織帳戶註冊。 不支援使用 MSA (Microsoft 帳
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解決方案中的 PBI Embedded 專用容量角色是什麼？
 
-若要[將您的解決方案升階到生產環境](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production)，您需要 Power BI 內容 (您在應用程式中使用且要指派給 Power BI Embedded (A SKU) 容量的應用程式工作區)。
+若要[將您的解決方案升階到生產環境](embed-sample-for-customers.md#move-to-production)，您需要 Power BI 內容 (您在應用程式中使用且要指派給 Power BI Embedded (A SKU) 容量的應用程式工作區)。
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>PBI Embedded 可用的 Azure 區域是什麼？
 
@@ -167,7 +167,7 @@ Power BI Embedded 會繼續使用 Azure AD 進行主使用者 (指定的 Power B
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>我的應用程式已使用 AAD 來驗證使用者。 在「使用者擁有資料」情節中，驗證到 Power BI 時，如何使用此身分識別？
 
-它是標準 OAuth 代理流程 (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api) 應用程式需要設定成要求 Power BI 服務的權限 (具有所需範圍)，而且在您擁有應用程式的使用者權杖之後，只需要使用使用者存取權杖來呼叫 ADAL API AcquireTokenAsync，並將 Power BI 資源 URL 指定為資源識別碼，請參閱以下顯示如何執行此作業的的程式碼片段：
+它是標準 OAuth 代表流程 (<https://docs.microsoft.com/azure/active-directory/develop/web-api>)。 應用程式必須設定為要求 Power BI 服務 (具有必要範圍) 的權限。 一旦您有您應用程式的使用者權杖，只需要使用使用者存取權杖呼叫 ADAL API AcquireTokenAsync 並指定 Power BI 資源 URL 做為資源識別碼。 請參閱下面顯示如何完成此動作的程式碼片段：
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -210,7 +210,7 @@ ISV/開發人員必須先有 Power BI 帳戶，才能在 Azure 中購買 Power B
 
 服務主體會從其安全性群組繼承所有 Power BI 租用戶設定的使用權限。 若要限制使用權限，請建立服務主體專屬的安全性群組，並將它新增至相關已啟用 Power BI 設定的 [特定安全性群組除外] 清單。
 
-以「管理員」身分將服務主體新增至新的新工作區時，此情況很重要。 您可以透過 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 或使用 Power BI 服務管理這項工作。
+以「管理員」身分將服務主體新增至新的新工作區時，此情況很重要。 您可以透過 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 或使用 Power BI 服務管理此工作。
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>何時使用應用程式識別碼與服務主體物件識別碼？
 
@@ -344,7 +344,7 @@ Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereig
 
 ### <a name="how-can-i-edit-my-registered-application"></a>如何編輯已註冊的應用程式？
 
-您可以在[此處](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)了解如何編輯已註冊 AAD 的應用程式。
+若要了解如何編輯 Azure AD 註冊的應用程式，請參閱[快速入門：更新 Azure Active Directory 中註冊應用程式](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)。
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>如何編輯我的 Power BI 使用者設定檔或資料？
 

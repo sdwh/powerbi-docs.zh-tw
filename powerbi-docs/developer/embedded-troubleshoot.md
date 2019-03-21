@@ -1,6 +1,6 @@
 ---
 title: 為您的內嵌應用程式進行疑難排解
-description: 本文探討您在從 Power BI 內嵌內容時，可能會遇到的幾個常見問題。
+description: 此文章探討您在從 Power BI 內嵌內容時，可能會遇到的幾個常見問題。
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223827"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174813"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -290,7 +290,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 此錯誤是由於為網頁伺服器應用程式指定的重新導向 URL 與範例的 URL 不同所致。 如果您想要註冊範例應用程式，則請使用 `http://localhost:13526/` 作為重新導向 URL。
 
-若您想編輯已註冊的應用程式，請了解如何編輯[已註冊 AAD 的應用程式](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application)，讓應用程式可提供 Web API 的存取權。
+若您想編輯已註冊的應用程式，請了解如何[更新 Azure AD 註冊 的應用程式](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)，讓應用程式可提供 Web API 的存取權。
 
 若您想編輯 Power BI 使用者設定檔或資料，則請了解如何編輯 [Power BI 資料](https://docs.microsoft.com/power-bi/service-basic-concepts)。
 

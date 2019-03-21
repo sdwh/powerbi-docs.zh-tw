@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 24701392b6cfa3400ed96be8a496791d250204d5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291157"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980396"
 ---
 # <a name="using-auditing-within-your-organization"></a>在組織內使用稽核
 
@@ -46,7 +46,7 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 1. 在 Power BI 中，選取右上角的**齒輪圖示**，然後選取 [管理入口網站]。
 
-   ![系統管理入口網站](media/service-admin-auditing/powerbi-admin.png)
+   ![管理入口網站](media/service-admin-auditing/powerbi-admin.png)
 
 1. 選取 [稽核記錄]。
 
@@ -56,7 +56,7 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 ## <a name="search-only-power-bi-activities"></a>僅搜尋 Power BI 活動
 
-您可以依照下列步驟將結果限制在僅 Power BI 活動。 如需活動清單，請參閱此文章稍後的[已由 Power BI 稽核的活動清單](#list-of-activities-audited-by-power-bi)。
+您可以依照下列步驟將結果限制在僅 Power BI 活動。 如需活動清單，請參閱文章稍後的[已由 Power BI 稽核的活動](#activities-audited-by-power-bi)清單。
 
 1. 在 [稽核記錄搜尋] 頁面上，從 [搜尋] 下選取 [活動] 下拉式清單。
 
