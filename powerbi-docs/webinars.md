@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 9fbd47dcefb2daf8d86c6932b5c70617b8bf7ac9
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 3a5a84bdb22996fc3b773a861a85e82985cd036c
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964701"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220969"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -39,6 +39,10 @@ ms.locfileid: "57964701"
 **開始使用 Power BI**
 <br>由 Miguel Martinez 主持
 <br>[報名並立即觀看](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
+
+**開始使用 Power BI 行動版應用程式**
+<br>由 Maya Shenhav 主持
+<br>[報名並立即觀看](https://info.microsoft.com/ww-Landing-Getting-Started-with-the-Power-BI-Mobile-App-Video.html?LCID=EN-US)
 
 **20 分鐘內了解如何瀏覽 Power BI 儀表板**
 <br>由 Miguel Martinez 主持
