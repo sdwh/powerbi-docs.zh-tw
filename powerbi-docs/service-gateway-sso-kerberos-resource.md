@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226104"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383352"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的單一登入 (SSO) 使用以資源為基礎的 Kerberos
 
@@ -23,7 +23,7 @@ ms.locfileid: "57226104"
 
 ## <a name="preparing-for-resource-based-kerberos-constrained-delegation"></a>準備以資源為基礎的 Kerberos 限制委派
 
-必須設定數個項目，Kerberos 限制委派才能正常運作，包括服務帳戶上的「服務主體名稱」(SPN) 和委派設定。
+必須設定數個項目，Kerberos 限制委派才能正常運作，包括服務帳戶上的「服務主體名稱」(SPN) 和委派設定。 
 
 ### <a name="prerequisite-1-operating-system-requirements"></a>必要條件 1：作業系統需求
 
@@ -105,8 +105,8 @@ ms.locfileid: "57226104"
 1. 開啟命令提示字元，並在 **PBIEgwTestBack-end** 網域的網域控制站中執行下列命令，以更新後端服務帳戶的 msDS-AllowedToActOnBehalfOfOtherIdentity 屬性：
 
     ```powershell
-    $c=get-adgroupResourceDelGroup
-    set-aduser **SQLService** -principalsAllowedToDelegateToAccount$c
+    $c = Get-ADGroup ResourceDelGroup
+    Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
 1. 您可以在 **Active Directory 使用者及電腦**中，確認更新已反映在後端服務帳戶屬性的 [屬性編輯器] 索引標籤中。

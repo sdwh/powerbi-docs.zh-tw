@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 03/10/2019
-ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58175457"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430292"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 視覺效果指南
 
@@ -29,7 +29,6 @@ ms.locfileid: "58175457"
 
 >[!IMPORTANT]  
 > 若您將視覺效果從免費更新為「可能需要另外購買」，使用者仍一定會收到如更新前的同等級免費功能。 您可以在現有的免費功能之上新增選用進階付費功能。 我們建議將具有進階功能的 IAP 視覺效果作為新視覺效果提交，而不更新現有的免費項目。
-
 
 ## <a name="what-changed-in-the-submission-process"></a>提交程序有何變更？
 
@@ -51,17 +50,17 @@ IAP 視覺效果是提供**免費功能**的**免費**視覺效果。 它也有�
 > [!IMPORTANT]
 > 標誌**僅可在編輯模式**中使用。 標誌**無法**在檢視模式中顯示。
 
-![定義](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
+![定義](media/guidelines-powerbi-visuals/definitions.png)
 
-![需注意事項](media/office-store-in-app-purchase-visual-guidelines/things-to-keep-in-mind.png)
+![需注意事項](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
 
-![應避免事項](media/office-store-in-app-purchase-visual-guidelines/things-to-avoid.png)
+![應避免事項](media/guidelines-powerbi-visuals/things-to-avoid.png)
 
-![大小及格式](media/office-store-in-app-purchase-visual-guidelines/size-and-format.png)
+![大小及格式](media/guidelines-powerbi-visuals/size-and-format.png)
 
-![邊界及大小](media/office-store-in-app-purchase-visual-guidelines/margins-and-sizes.png)
+![邊界及大小](media/guidelines-powerbi-visuals/margins-and-sizes.png)
 
-![編輯模式](media/office-store-in-app-purchase-visual-guidelines/logos-in-edit-mode.png)
+![編輯模式](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>最佳作法
 
