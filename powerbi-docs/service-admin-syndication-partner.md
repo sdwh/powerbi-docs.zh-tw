@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: f1244535259de2a5b5726d295a64229a0f92f02b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 635a64c08056e82539d33904d4cce60d4cfc00cd
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296412"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382930"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>無法將 Power BI 加入 Office 365 合作夥伴訂閱
 
@@ -33,9 +33,9 @@ Office 365 可讓公司將 Office 365 與其自有的解決方案進行搭配整
 
 ## <a name="purchase-from-microsoft-or-another-channel"></a>從 Microsoft 或其他管道購買
 
-根據與您合作夥伴關係，您或許可以直接向 Microsoft 或其他合作夥伴購買 Power BI。 您可以確認您是否能在 Office 365 管理入口網站中新增 Power BI 訂閱 (需要全域管理員或計費管理員角色成員資格)。
+根據與您合作夥伴關係，您或許可以直接向 Microsoft 或其他合作夥伴購買 Power BI。 您可以確認您是否能在 Microsoft 365 系統管理中心中新增 Power BI 訂閱 (需要全域管理員或計費管理員腳色成員資格)。
 
-1. 移至 [Office 365 管理入口網站](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
+1. 移至 [MIcrosoft 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
 1. 在左側功能表中，開啟 [計費]：
 
