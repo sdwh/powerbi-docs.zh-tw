@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: fbb303a85895c08d0dc04630a12076a279e2586f
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794935"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383329"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常見問題集
 
@@ -66,7 +66,7 @@ Power BI Premium 是根據虛擬核心數目來購買。 您可以參閱 [Power 
 Power BI Premium 會依每年承諾用量按月付款。
 
 **如何購買 Power BI Premium？**  
-您也可以從 Office 365 系統管理中心使用 Power BI Premium。 如需詳細資訊，請參閱[如何購買 Power BI Premium](service-admin-premium-purchase.md)。 您也可以連絡 Microsoft 代表以取得詳細資訊。
+您也可以從 Microsoft 365 系統管理中心使用 Power BI Premium。 如需詳細資訊，請參閱[如何購買 Power BI Premium](service-admin-premium-purchase.md)。 您也可以連絡 Microsoft 代表以取得詳細資訊。
 
 **如何得知我需要購買多少 Power BI Premium 容量？**  
 您可以使用此[成本計算機](https://powerbi.microsoft.com/calculator/)來估計可能需要多少 Power BI Premium 容量。

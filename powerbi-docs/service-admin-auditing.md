@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 27776b251734d025e4dcde9f525f321008647455
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980396"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383477"
 ---
 # <a name="using-auditing-within-your-organization"></a>在組織內使用稽核
 
@@ -34,7 +34,7 @@ ms.locfileid: "57980396"
 
     若要提供可存取稽核記錄的非系統管理員帳戶，您必須將使用者新增為上述其中一個角色群組的成員。 或者，您可以在 Exchange 系統管理中心建立自訂角色群組，將「稽核記錄」或「僅供檢視稽核記錄」角色指派到這個群組，然後將非系統管理員帳戶新增到新的角色群組。 如需詳細資訊，請參閱[在 Exchange Online 中管理角色群組](/Exchange/permissions-exo/role-groups)。
 
-    如果您無法從 Office 365 管理中心存取 Exchange 系統管理中心，請移至 https://outlook.office365.com/ecp 並使用您的認證登入。
+    如果您無法從 Microsoft 365 系統管理中心存取 Exchange 系統管理中心，請前往 https://outlook.office365.com/ecp 並使用您的認證登入。
 
 * 如果您有稽核記錄的存取權，但並不是全域管理員或 Power BI 服務管理員，您將無法存取 Power BI 管理入口網站。 在此情況下，您必須使用 [Office 365 安全性與合規性中心](https://sip.protection.office.com/#/unifiedauditlog) \(英文\) 的直接連結。
 
@@ -50,9 +50,9 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 1. 選取 [稽核記錄]。
 
-1. 選取 [前往 O365 系統管理中心]。
+1. 選取 [Go to Microsoft 365 admin center] \(移至 MIcrosoft 365 系統管理中心\)。
 
-   ![前往 O365 系統管理中心](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![前往 MIcrosoft 365 系統管理中心](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>僅搜尋 Power BI 活動
 
@@ -214,7 +214,7 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 | 已接管 Power BI 資料來源                   | TakeOverDatasource                          |                                          |
 | 已接管 Power BI 資料集                        | TakeOverDataset                             |                                          |
 | 已解除發佈 Power BI 應用程式                          | UnpublishApp                                |                                          |
-| 更新容量資源管控設定      | UpdateCapacityResourceGovernanceSettings    | 目前不在 Office 365 管理入口網站中 |
+| 更新容量資源管控設定      | UpdateCapacityResourceGovernanceSettings    | 目前不在 Microsoft 365 系統管理中心內 |
 | 已更新容量管理                            | UpdateCapacityAdmins                        |                                          |
 | 已更新容量顯示名稱                     | UpdateCapacityDisplayName                   |                                          |
 | 已更新組織的 Power BI 設定          | UpdatedAdminFeatureSwitch                   |                                          |

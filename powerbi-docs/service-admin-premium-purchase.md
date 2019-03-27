@@ -10,19 +10,19 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 25e36334390ad88d7856124c67e275db5c7fcd1c
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964839"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383000"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何購買 Power BI Premium
 
 > [!NOTE]
-> 文章正在進行更新，以說明新功能、提供更多詳細資料並改善可讀性。 
+> 本文正在進行更新，以說明新功能、提供更多詳細資料並改善可讀性。 
 
-文章描述如何為您的組織購買 Power BI Premium 容量 (P1-P3)。 您可以在 Office 365 系統管理中心購買 Power BI Premium 容量，並可在 Power BI 管理入口網站中管理您的容量。 如需目前的定價和規劃資訊，請參閱 [Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 計算機](https://powerbi.microsoft.com/calculator/)。
+本文描述如何為您的組織購買 Power BI Premium 容量 (P1-P3)。 您可以在 Microsoft 365 系統管理中心購買 Power BI Premium 容量，並可在 Power BI 管理入口網站中管理您的容量。 如需目前的定價和規劃資訊，請參閱 [Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)和 [Power BI Premium 計算機](https://powerbi.microsoft.com/calculator/)。
 
 即使您的組織使用 Power BI Premium，內容的作者仍然需要 Power BI Pro 授權。 請確定您為貴組織購買至少一個 Power BI Pro 授權。
 
@@ -42,7 +42,7 @@ ms.locfileid: "57964839"
 
     ![Office 365 應用程式選擇器](media/service-admin-premium-purchase/o365-app-picker.png)
 
-    或者，您可以瀏覽至 Office 365 系統管理中心。 您可以前往 [https://portal.office.com](https://portal.office.com)，再選取 [系統管理]，如此就能進入系統管理中心。
+    或者，您可以瀏覽至 Microsoft 365 系統管理中心。 您可以前往 [https://portal.office.com](https://portal.office.com)，再選取 [系統管理]，如此就能進入系統管理中心。
 
 1. 選取 [計費] > [購買服務]。
 
@@ -62,7 +62,7 @@ ms.locfileid: "57964839"
 
 現在您有了容量，您可以依照需求的增長來新增更多容量。 在您的組織內，您可以使用 Premium 容量 SKU 的任意組合 (P1 至 P3)。 不同的 SKU 可提供不同資源容量。
 
-1. 在 Office 365 系統管理中心中，選取 [計費] > [購買服務]。
+1. 在 Microsoft 365 系統管理中心內，選取 [帳單] > [購買服務]。
 
 1. 在 [其他方案] 下，尋找您要購買更多的 Power BI Premium 項目。
 
@@ -81,9 +81,9 @@ ms.locfileid: "57964839"
 
 ## <a name="cancel-your-subscription"></a>取消您的訂用帳戶
 
-您可以從 Office 365 系統管理中心取消訂用帳戶。 若要取消您的 Premium 訂閱，請執行下列動作。
+您可以從 Microsoft 365 系統管理中心取消訂用帳戶。 若要取消您的 Premium 訂閱，請執行下列動作。
 
-1. 瀏覽至 Office 365 系統管理中心。
+1. 瀏覽至 MIcrosoft 365 系統管理中心。
 
 1. 選取 [計費] > [訂用帳戶]。
 

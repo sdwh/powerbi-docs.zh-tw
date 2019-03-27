@@ -880,8 +880,8 @@ items:
         href: developer/embed-sample-for-customers.md
       - name: 內嵌組織的內容
         href: developer/embed-sample-for-your-organization.md
-      - name: 內嵌主權雲端的內容
-        href: developer/embed-sample-for-customers-sovereign-clouds.md
+      - name: 為國家/地區雲端內嵌內容
+        href: developer/embed-sample-for-customers-national-clouds.md
     - name: 概念
       items:
       - name: 效能最佳做法
@@ -983,7 +983,7 @@ items:
       - name: Power BI 中組織的自訂視覺效果
         href: power-bi-custom-visuals-organization.md
       - name: Power BI 視覺效果指南
-        href: developer/office-store-in-app-purchase-visual-guidelines.md
+        href: developer/guidelines-powerbi-visuals.md
       - name: 自訂視覺效果常見問題集
         href: power-bi-custom-visuals-faq.md
       - name: 使用功能
@@ -1325,9 +1325,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: ad67a7951e15d579cdea824a3eee69fe2ac0ff11
-ms.sourcegitcommit: cd7a027b532b1bb2dbbcae9e92426c80f80810d3
+ms.openlocfilehash: 4bef8b089403856b84eafc59a00b31ad5f0c00c2
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "57964908"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430407"

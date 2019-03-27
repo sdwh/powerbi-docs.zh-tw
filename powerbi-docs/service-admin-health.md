@@ -1,6 +1,6 @@
 ---
 title: 在 Office 365 中追蹤 Power BI 服務健康狀態
-description: 了解如何在 Office 365 系統管理中心中檢視目前和歷史服務健康狀態。
+description: 了解如何在 Microsoft 365 系統管理中心中檢視目前和歷史服務健全狀況。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: afb579c3163fac5da8b3a14f2f2b974d64213098
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4ab0fe4e3398a37da34af02282a847f316f3f727
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296404"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383145"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>在 Office 365 中追蹤 Power BI 服務健康狀態
 
-Office 365 系統管理中心提供 Power BI 系統管理員重要的工具，包括有關服務健康狀態的目前和歷史資訊。 若要存取此資訊，您必須是下列角色之一：Power BI 服務管理員或 Office 365 全域管理員。 如需角色的詳細資訊，請參閱[與 Power BI 相關的系統管理員角色](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)。
+Microsoft 365 系統管理中心提供 Power BI 管理員重要的工具，包括有關服務健全狀況的目前和歷史資訊。 若要存取此資訊，您必須是下列角色之一：Power BI 服務管理員或 Office 365 全域管理員。 如需角色的詳細資訊，請參閱[與 Power BI 相關的系統管理員角色](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)。
 
-1. 登入 [Office 365 系統管理中心](https://portal.office.com/adminportal)。
+1. 登入 [MIcrosoft 365 系統管理中心](https://portal.office.com/adminportal)。
 
 1. 選取 [服務健康狀態] 磚。
 

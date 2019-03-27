@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 54bdc0cb3490cf2149f2fda51939c201cd51518f
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980419"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383431"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
-此文章可解決 Power BI 管理的常見問題。 如需 Power BI 管理的概觀，請參閱[什麼是 Power BI 管理？](service-admin-administering-power-bi-in-your-organization.md)。
+本文可解決 Power BI 管理的常見問題。 如需 Power BI 管理的概觀，請參閱[什麼是 Power BI 管理？](service-admin-administering-power-bi-in-your-organization.md)。
 
 ## <a name="whats-in-this-article"></a>本文內容
 
@@ -60,7 +60,7 @@ ms.locfileid: "57980419"
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>使用者如何註冊 Power BI？
 
-身為系統管理員，若您要註冊 Power BI，可以透過 [Power BI 網站](https://powerbi.microsoft.com)或 Office 365 系統管理中心上的[購買服務](https://admin.microsoft.com/AdminPortal/Home#/catalog)頁面。 當系統管理員註冊 Power BI 時，他們可以將使用者授權指派給應該有存取權的使用者。
+身為管理員，您可以透過 [Power BI 網站](https://powerbi.microsoft.com)或 Microsoft 365 系統管理中心上的[購買服務](https://admin.microsoft.com/AdminPortal/Home#/catalog)頁面來註冊 Power BI。 當系統管理員註冊 Power BI 時，他們可以將使用者授權指派給應該有存取權的使用者。
 
 貴組織中的個人使用者也可以透過 [Power BI 網站](https://powerbi.microsoft.com)註冊 Power BI。 當貴組織有使用者註冊 Power BI 時，Power BI 授權就會自動指派給該使用者。 如需詳細資訊，請參閱[以個人身分註冊 Power BI](service-self-service-signup-for-power-bi.md) 與[組織中的 Power BI 授權](service-admin-licensing-organization.md)。
 
@@ -169,7 +169,7 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-do-we-manage-power-bi"></a>要如何管理 Power BI？
 
-Power BI 提供的管理入口網站，可讓您檢視使用量統計資料、連結到 Office 365 系統管理中心來管理使用者與群組，以及控制租用戶的各種設定。
+Power BI 提供的管理入口網站可讓您檢視使用量統計資料、提供用來管理使用者與群組之 Microsoft 365 系統管理中心的連結，以及用來控制租用戶各種設定的能力。
 
 若要存取 Power BI 管理入口網站，您的帳戶必須在 Office 365 或 Azure Active Directory 中標示為**全域管理員**，或已獲派 Power BI 服務系統管理員角色。 如需詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)與 [Power BI 系統管理入口網站](service-admin-portal.md)。
 
@@ -196,7 +196,7 @@ Power BI 提供的管理入口網站，可讓您檢視使用量統計資料、�
 
 如果使用者已註冊 Power BI，但您不希望他們繼續存取 Power BI，您可以移除該使用者的 Power BI 授權。
 
-1. 導覽到 [Office 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
+1. 巡覽至 [MIcrosoft 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
 1. 在左側的導覽列中，選取 [使用者] > [作用中使用者]。
 
@@ -214,7 +214,7 @@ Power BI 提供的管理入口網站，可讓您檢視使用量統計資料、�
 
 已加入這個程式租用戶的使用者會獲派唯一的授權，您可以在系統管理儀表板的 [作用中使用者] 窗格內篩選。 若要建立這個新檢視，請依照下列步驟執行。
 
-1. 導覽到 [Office 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
+1. 巡覽至 [MIcrosoft 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
 1. 在左側的導覽列中，選取 [使用者] > [作用中使用者]。
 
@@ -232,7 +232,7 @@ Power BI 提供的管理入口網站，可讓您檢視使用量統計資料、�
 
 您可能會遇到密碼重設要求增加的情況。 如需這個程序的詳細資訊，請參閱[在 Office 365 重設使用者密碼](/office365/admin/add-users/reset-passwords)。
 
-您可以透過 Office 365 系統管理中心的標準程序，移除租用戶的使用者。 不過，如果使用者仍有您組織的有效電子郵件地址，除非您封鎖所有使用者加入，否則他們可以重新加入。
+您可以透過 Microsoft 365 系統管理中心的標準程序來移除租用戶使用者。 不過，如果使用者仍有您組織的有效電子郵件地址，除非您封鎖所有使用者加入，否則他們可以重新加入。
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>我的 Power BI 租用戶位於何處？
 

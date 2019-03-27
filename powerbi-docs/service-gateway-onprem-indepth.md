@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: fa7d10403ca6bd8dc94729b7b4fd631475a3671e
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325006"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383408"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解內部部署資料閘道
 您組織中的使用者可以存取內部部署資料 (他們已經具有存取授權)，但在那些使用者能夠連線至您的內部部署資料來源之前，必須先安裝並設定內部部署資料閘道。 此閘道有助於讓雲端的使用者快速安全地以幕後通訊方式，在內部部署資料來源和雲端之間往返。
@@ -77,7 +77,7 @@ Power BI 可讓您對應 Analysis Services 資料來源的使用者名稱。 您
 
 1. 您可以手動將帳戶加入 Azure Active Directory。
    
-   您可以在 Azure 網站或 Office 365 管理入口網站上建立帳戶，帳戶名稱必須符合本機 Active Directory 帳戶的 UPN。
+   您可以在 Azure 入口網站或 Microsoft 365 系統管理中心建立帳戶，帳戶名稱必須符合本機 Active Directory 帳戶的 UPN。
 2. 您可以使用 [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) 工具，將本機帳戶同步處理至您的 Azure Active Directory 租用戶。
    
    Azure AD Connect 工具提供了目錄同步處理和設定驗證的選項，包括密碼雜湊同步處理、傳遞驗證和同盟。 如果您不是租用戶管理員或本機網域系統管理員，您必須連絡您的 IT 管理員來進行這項設定。

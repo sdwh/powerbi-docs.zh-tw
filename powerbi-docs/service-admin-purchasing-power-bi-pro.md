@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 76288ca77f184b27b5839377190a1708c69567af
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 15cd5e021969a050937b9d67eb7695f4fcde07c0
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430686"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383077"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>購買及指派 Power BI Pro 授權
 
@@ -33,7 +33,7 @@ Power BI Pro 是個別的授權，允許存取 Power BI 服務中的所有內容
 
 請遵循以下步驟來購買 Power BI Pro 授權：
 
-1. 開啟 [Office 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)。
+1. 開啟 [MIcrosoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
 2. 在左邊的瀏覽窗格中，選取 [帳單] > [訂閱]。
 
@@ -71,7 +71,7 @@ Power BI Pro 是個別的授權，允許存取 Power BI 服務中的所有內容
 
 按照以下步驟操作，將 Power BI Pro 授權指派給個別使用者帳戶：
 
-1. 開啟 [Office 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)。
+1. 開啟 [MIcrosoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
 2. 在左側瀏覽窗格中，展開 [使用者]，然後選取 [作用中使用者]。
 

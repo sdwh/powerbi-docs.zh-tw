@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 03/13/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 48ea3d5e60c6f6a079be1d7040266817fdf5b97b
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 536e433540d371838b027e06f857609024e213f3
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964977"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430476"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
-此文章說明 **Power BI Desktop** 的先前更新。 如需最新月份的版本，請參閱 [**Power BI Desktop** 最新更新](desktop-latest-update.md)。
+本文說明 **Power BI Desktop** 的先前更新。 如需最新月份的版本，請參閱 [**Power BI Desktop** 最新更新](desktop-latest-update.md)。
 
-您一律可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[此文章](desktop-get-the-desktop.md)。 
+您一律可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
 旁邊的連結分別更新下列項目：
 
@@ -30,7 +30,7 @@ ms.locfileid: "57964977"
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新] 視訊 (位於此文章中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 下列章節說明 **Power BI Desktop** 前幾個月的更新。
 
@@ -39,7 +39,7 @@ ms.locfileid: "57964977"
 我們的 2 月更新會讓客戶欣喜並愛上我們所有的新資料連接器、功能和分析增強功能。 就像一盒巧克力中，我們永遠不知道裡面會有哪些口味... 但這個 2 月更新中包含的所有變更都當讓您感覺甜蜜且十足美味。 
 
 
-您可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[此文章](desktop-get-the-desktop.md)。 
+您可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
 
 旁邊的連結分別更新下列項目：
@@ -49,7 +49,7 @@ ms.locfileid: "57964977"
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新] 視訊 (位於此文章中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
@@ -119,9 +119,9 @@ ms.locfileid: "57964977"
 
 ## <a name="december-2018-update-2655313501"></a>2018 年 12 月更新 (2.65.5313.501)
 
-我們 12 月的更新讓客戶感官獲得如糖梅仙子舞動般的享受，或至少創造出這些吸引人的資料驅動視覺效果，如大家所述的那樣生動。 
+我們 12 月的更新讓客戶感官獲得如糖梅仙子舞動般享受，或至少創造出如所述之這些吸引人的資料驅動視覺效果。 
 
-您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[此文章](desktop-get-the-desktop.md)。 
+您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
 旁邊的連結分別更新下列項目：
 
@@ -130,7 +130,7 @@ ms.locfileid: "57964977"
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新] 視訊 (位於此文章中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
@@ -471,7 +471,7 @@ ms.locfileid: "57964977"
 
 ## <a name="july-2018-update-26051693201"></a>2018 年 7 月更新 (2.60.5169.3201)
 
-7 月的大型更新本身就值得一場煙火秀，提供要求了一段時間的資料與報表功能，可讓您的視覺效果達到極致，同時伴隨著生動有趣的見解展現出來。
+7 月的大型更新本身就值得一場煙火秀，提供要求了一段時間的資料與報表功能，可讓您的視覺效果達到極致，同時伴隨著生動有趣的深入解析展現出來。
 
 以下是 7 月 **Power BI Desktop** 新增的更新：
 
@@ -497,7 +497,7 @@ ms.locfileid: "57964977"
 
 ### <a name="analytics"></a>分析
 
-* 分佈因素的見解 [[影片]](https://youtu.be/Mtig3rmIUe0?t=37m) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
+* 分佈因素的深入解析 [[影片]](https://youtu.be/Mtig3rmIUe0?t=37m) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
 
 ### <a name="custom-visuals"></a>自訂視覺效果
 
@@ -558,7 +558,7 @@ ms.locfileid: "57964977"
 
 ### <a name="other"></a>其他
 
-* 主權雲端選擇器 [[影片]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+* 國家/地區雲端選取器 [[影片]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
 
 > [!NOTE]
@@ -733,7 +733,7 @@ ms.locfileid: "57964977"
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞本月的**最新更新**影片 (位於此文章中)，方法是按一下更新清單下方視訊影像的**播放**圖示。
+您也可以從頭開始觀賞本月的**最新更新**影片 (位於本文中)，方法是按一下更新清單下方視訊影像的**播放**圖示。
 
 以下是 2018 年 2 月 **Power BI Desktop** 新增的更新：
 
@@ -796,7 +796,7 @@ ms.locfileid: "57964977"
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞本月的**最新更新**影片 (位於此文章中)，方法是按一下更新清單下方視訊影像的**播放**圖示。
+您也可以從頭開始觀賞本月的**最新更新**影片 (位於本文中)，方法是按一下更新清單下方視訊影像的**播放**圖示。
 
 以下是 1 月 **Power BI Desktop** 新增的更新：
 
@@ -846,7 +846,7 @@ ms.locfileid: "57964977"
 -   每月更新的 **[部落格]** 文章中則說明大多數功能。
 -   最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新] 視訊 (位於此文章中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是 12 月 **Power BI Desktop** 新增的更新：
 
@@ -901,7 +901,7 @@ ms.locfileid: "57964977"
 -   每月更新的 **[部落格]** 文章中則說明大多數功能。
 -   最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新] 視訊 (位於此文章中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是 11 月 **Power BI Desktop** 新增的更新：
 
@@ -960,7 +960,7 @@ ms.locfileid: "57964977"
 -   每月更新的 **[部落格]** 文章中則說明大多數功能。
 -   最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新] 視訊 (位於此文章中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
@@ -1012,7 +1012,7 @@ ms.locfileid: "57964977"
 
 -   鑽研至其他報表頁面 [[影片]](https://youtu.be/moTQJlnClJw?t=19s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#drillthrough) [[文章]](desktop-drillthrough.md)
 -   功能區圖表  [[影片]](https://youtu.be/moTQJlnClJw?t=8m57s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[文章]](visuals/desktop-ribbon-charts.md)
--   [說明增加的情形]/[說明減少的情形] 的見解  [[影片]](https://youtu.be/moTQJlnClJw?t=13m37s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#insights) [[文章]](desktop-insights.md)
+-   [說明增加的情形]/[說明減少的情形] 的深入解析  [[影片]](https://youtu.be/moTQJlnClJw?t=13m37s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#insights) [[文章]](desktop-insights.md)
 -   佈景主題預覽更新 - 圖表樣式控制項 [[影片]](https://youtu.be/moTQJlnClJw?t=19m25s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#theming) [[文章]](desktop-report-themes.md)
 -   協助工具改善  [[影片]](https://youtu.be/moTQJlnClJw?t=27m25s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#accessibility) [[文章]](desktop-accessibility.md)
     -   存取 [查閱資料]  [[影片]](https://youtu.be/moTQJlnClJw?t=29m40s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#accessibleData) [[文章]](desktop-accessibility.md)
@@ -1577,7 +1577,7 @@ ms.locfileid: "57964977"
 -   每月更新的 **[部落格]** 文章中則說明大多數功能。
 -   最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新] 視訊 (位於此文章中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 Power BI Desktop 新增的更新：
 
@@ -2202,7 +2202,7 @@ ms.locfileid: "57964977"
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/Jm44dLXdarQ" frameborder="0" allowfullscreen></iframe>
 
-如需此更新的詳細資訊，請[查看部落格通知](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/44-new-features-in-the-power-bi-desktop-september-update.aspx)，內含每個更新的詳細資訊。
+如需這項更新的詳細資訊，請[查看部落格通知](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/44-new-features-in-the-power-bi-desktop-september-update.aspx)，內含每個更新的詳細資訊。
 
 ## <a name="august-2015-update-2264128403"></a>2015 年 8 月更新 (2.26.4128.403)
 
@@ -2225,7 +2225,7 @@ ms.locfileid: "57964977"
 
 -   可調整大小的導覽器對話方塊
 
--   在導覽器多重選取項目的能力 (CTRL + 按一下、SHIFT + 按一下，等等)
+-   導覽器中的多重選取項目能力 (CTRL + 按一下、SHIFT + 按一下等)
 
 **查詢編輯器改進：**
 
@@ -2250,7 +2250,7 @@ ms.locfileid: "57964977"
 
 此更新已加入下列功能：
 
--   **新的資料連接器**：appFigures Quickbooks Online、Zendesk、Github、Twilio 和 SweetIQ。
+-   **新的資料連接器**：appFigures、Quickbooks Online、Zendesk、GitHub、Twilio 和 SweetIQ。
 
 -   **新的轉換**：從文字資料行擷取第一個/最後一個/字元範圍、在 [合併的查詢] 對話方塊中指定聯結類型的選項、在 [依分隔符號分割資料行] 對話方塊中自訂引號樣式的功能。
 

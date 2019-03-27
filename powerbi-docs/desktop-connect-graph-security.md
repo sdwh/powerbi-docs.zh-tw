@@ -1,6 +1,6 @@
 ---
-title: 連線至 Power BI Desktop 的 Microsoft Graph 安全性
-description: 輕鬆連線至 Power BI Desktop 的 Microsoft Graph 安全性 API
+title: 在 Power BI Desktop 中連線至 Microsoft Graph 安全性 API
+description: 在 Power BI Desktop 中輕鬆連線至 Microsoft Graph 安全性 API
 author: preetikr
 manager: kfile
 ms.reviewer: ''
@@ -11,87 +11,89 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2187a24820ef8ea3db9fdd1b7a881dc9cfb6393f
-ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
+ms.openlocfilehash: 9c265a5d8ad1a08396e0bb4fb553a87a134472fd
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56298883"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306450"
 ---
-# <a name="connect-to-microsoft-graph-security-in-power-bi-desktop"></a>連線至 Power BI Desktop 的 Microsoft Graph 安全性
+# <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Microsoft Graph 安全性 API
 
-您可以使用 Power BI Desktop 來連線至使用 Microsoft Graph 安全性 Power BI 連接器的 Microsoft Graph 安全性 API。 這可以讓您建置儀表板和報表，深入了解與安全性相關的[警示](https://docs.microsoft.com/graph/api/resources/alert?view=graph-rest-1.0)和[安全分數](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta)。 [Microsoft Graph 安全性 API](https://aka.ms/graphsecuritydocs) 會與 Microsoft 和生態系統合作夥伴的[多個安全性解決方案](https://aka.ms/graphsecurityalerts)連線，以便輕鬆與警示建立關聯、提供豐富內容資訊的存取權並簡化自動化。 這可讓組織能夠快速深入了解並在其安全性產品間採取行動，同時降低建置與維護多項整合的成本和複雜度。
+使用 Power BI Desktop 的 Microsoft Graph 安全性連接器連線至 [Microsoft Graph 安全性 API](https://aka.ms/graphsecuritydocs)。 然後建置儀表板和報表，以取得與安全性相關之[警示](https://docs.microsoft.com/graph/api/resources/alert?view=graph-rest-1.0)和[安全分數](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta)的見解。
 
-## <a name="prerequisites-to-connect-with-the-microsoft-graph-security-connector"></a>與 Microsoft Graph 安全性連接器連線的必要條件
+Microsoft Graph 安全性 API 連線 Microsoft [多個安全性解決方案](https://aka.ms/graphsecurityalerts)及其生態系統合作夥伴，以便更容易建立警示的相互關聯。 這項組合能讓您存取豐富的內容資訊並簡化自動化。 它能讓組織快速深入了解，因應多種安全性產品問題，同時降低成本和複雜度。
 
-* 若要使用 Microsoft Graph 安全性連接器，您必須擁有「明確指定的」 Azure Active Directory (AD) 租用戶系統管理員同意，這是 [Microsoft Graph 安全性驗證需求](https://aka.ms/graphsecurityauth)的一部分。 此同意需要 Microsoft Graph 安全性 Power BI 連接器的應用程式識別碼和名稱，您可以在 [Azure 入口網站](https://portal.azure.com)中找到：
+## <a name="prerequisites-to-use-the-microsoft-graph-security-connector"></a>使用 Microsoft Graph 安全性連接器的必要條件
 
-   | 屬性 | 值 |
-   |----------|-------|
-   | **應用程式名稱** | `MicrosoftGraphSecurityPowerBIConnector` |
-   | **應用程式識別碼** | `cab163b7-247d-4cb9-be32-39b6056d4189` |
-   |||
+若要使用 Microsoft Graph 安全性連接器，您必須「明確」取得 Azure Active Directory (Azure AD) 租用戶管理員的同意。 請參閱 [Microsoft Graph 安全性驗證需求](https://aka.ms/graphsecurityauth)。
+同意需要有連接器的應用程式識別碼和名稱，此處已引用，也可於 [Azure 入口網站](https://portal.azure.com)取得：
 
-   若要授與連接器同意，您的 Azure AD 租用戶系統管理員可以採用下列任一步驟：
+| 屬性 | 值 |
+|----------|-------|
+| **應用程式名稱** | `MicrosoftGraphSecurityPowerBIConnector` |
+| **應用程式識別碼** | `cab163b7-247d-4cb9-be32-39b6056d4189` |
+|||
 
-   * [授與 Azure AD 應用程式的租用戶系統管理員同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)。
+若要授與連接器同意，Azure AD 租用戶管理員可以採用下列兩種方法的其中之一：
 
-   * 邏輯應用程式第一次執行時，您的應用程式可以透過[應用程式同意體驗](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)，向 Azure AD 租用戶系統管理員要求同意。
+* [授與 Azure AD 應用程式同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
+
+* 透過[應用程式同意體驗](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)回應邏輯應用程式在第一次執行期間所提交的要求
    
-* 用於登入來與 Microsoft Graph 安全性 Power BI 連接器連線的使用者帳戶，必須是 Azure AD 中安全性讀取者的受限系統管理員角色成員 (可以是安全性讀取者或安全性系統管理員)。 請遵循[將 Azure AD 角色指派給使用者](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users)一節中的步驟。 
+登入 Microsoft Graph 安全性連接器的使用者帳戶，必須是 Azure AD 安全性讀取者受限管理員角色的成員，可以是「安全性讀取者」或「安全性系統管理員」。 請參閱 [Assign Azure AD roles to users](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users) (將 Azure AD 角色指派給使用者)。
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>使用 Microsoft Graph 安全性連接器
 
-請遵循下列步驟使用 **Microsoft Graph 安全性**連接器：
+請遵循下列步驟使用連接器：
 
-1. 在 Power BI Desktop 的 [常用] 功能區上， 選取 [取得資料]-> [更多...]。
-2. 在左側的類別中選取 [線上服務]，
-3. 按一下 [Microsoft Graph 安全性搶鮮版 (Beta)]。
+1. 從 Power BI Desktop 的 [常用] 功能區選取 [取得資料] > [更多]。
+2. 在視窗左側的類別清單中選取 [線上服務]。
+3. 選取 [Microsoft Graph 安全性搶鮮版 (Beta)]。
 
-    ![取得資料](media/desktop-connect-graph-security/GetData.PNG)
+    ![[取得資料] 對話方塊](media/desktop-connect-graph-security/GetData.PNG)
     
-4. 在顯示的 [Microsoft Graph 安全性] 視窗中選取 Microsoft Graph API 版本以進行查詢。 選項為 v1.0 和搶鮮版 (Beta)。
+4. 在 [Microsoft Graph 安全性] 視窗中選取要查詢的 Microsoft Graph API 版本：**v1.0** 或**搶鮮版 (Beta)**。
 
-    ![選取版本](media/desktop-connect-graph-security/selectVersion.PNG)
+    ![選取版本對話方塊](media/desktop-connect-graph-security/selectVersion.PNG)
     
-5. 出現提示時，登入您的 Azure Active Directory 帳戶。 此帳戶必須擁有在必要條件一節中所述的**安全性讀取者**角色。
+5. 出現提示時，登入您的 Azure Active Directory 帳戶。 此帳戶必須擁有「安全性讀取者」或「安全性系統管理員」角色，如前一節所述。
 
-    ![登入](media/desktop-connect-graph-security/SignIn.PNG)
+    ![登入](media/desktop-connect-graph-security/SignIn.PNG) 
     
-6. 如果您是租用戶系統管理員，**且**尚未同意必要條件中的 Microsoft Graph 安全性 Power BI 連接器 (應用程式)，您會看到下列對話方塊。 請務必選取「代表貴組織同意」。
+6. 如果您是租用戶管理員，「且」尚未同意 Microsoft Graph 安全性 Power BI 連接器 (應用程式)，您會看到下列對話方塊。 選取 [代表貴組織同意]。
 
-    ![系統管理員同意](media/desktop-connect-graph-security/AdminConsent.PNG)
+    ![管理員同意對話方塊](media/desktop-connect-graph-security/AdminConsent.PNG)
     
-7. 登入後，您就會看到下列視窗指出您已通過驗證。 選取 [連接]。
+7. 登入後就會看到下列對話方塊，指出您已通過驗證。 選取 [連接]。
 
-    ![已登入](media/desktop-connect-graph-security/SignedIn.PNG)
+    ![[您目前已登入] 對話方塊](media/desktop-connect-graph-security/SignedIn.PNG)
     
-8. 一旦您成功連線，[導覽] 視窗隨即出現 (如下所示)，並會針對您在先前步驟中選取的版本，在 [Microsoft Graph 安全性 API](https://aka.ms/graphsecuritydocs) 中顯示警示等可用實體。 在 **Power BI Desktop** 中選取一或多個實體來匯入並使用。 按一下 [載入] 以取得步驟 10 中所述的結果檢視。
+8. 連線之後，[導覽器] 視窗會顯示警示、安全分數，以及可供您在步驟 4 中選取之 [Microsoft Graph 安全性 API](https://aka.ms/graphsecuritydocs) 版本使用的其他實體。 在 Power BI Desktop 中選取要匯入並使用的一或多個實體。 然後，選取 [載入] 取得步驟 9 後顯示的結果檢視。
 
-   ![瀏覽資料表](media/desktop-connect-graph-security/NavTable.PNG)
+    ![導覽器對話方塊](media/desktop-connect-graph-security/NavTable.PNG)
     
-9. 如果您希望對 Microsoft Graph 安全性 API 進行進階查詢，請選取 [指定自訂 Microsoft Graph 安全性 URL 以篩選結果] 函式。 這可讓您使用存取 API 所需的權限對 Microsoft Graph 安全性 API 進行 [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) 查詢。
+9. 如果您希望對 Microsoft Graph 安全性 API 進行進階查詢，請選取 [Specify custom Microsoft Graph Security URL to filter results] \(指定自訂 Microsoft Graph 安全性 URL 以篩選結果\)。 以必要權限使用此函式對 Microsoft Graph 安全性 API 發出 [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) 查詢。
 
-   > [!NOTE]
-   > 用於下列範例 serviceUri 的是 `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'`。 請參閱[支援 Graph 的 ODATA 查詢參數](https://docs.microsoft.com/graph/query-parameters)來建置查詢，以進行篩選、排序或擷取最近的大部分結果。
+   下列範例使用 `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` *serviceUri*。 若要了解如何建置查詢以篩選、排序或擷取最新的結果，請參閱 [OData 系統查詢選項](https://docs.microsoft.com/graph/query-parameters)。
 
-   ![OData 摘要](media/desktop-connect-graph-security/ODataFeed.PNG)
+   ![OdataFeed 範例](media/desktop-connect-graph-security/ODataFeed.PNG)
     
-   選取 [叫用] 時，OData.Feed 函式會呼叫會開啟查詢編輯器的 API，以便您篩選並精簡要使用的資料集，接著將精簡的資料集載入 Power BI Desktop。
+   當您選取 [叫用] 時，**OData.Feed** 函式會呼叫 API，其會開啟查詢編輯器。 您可以篩選並精簡您想要使用的資料集。 然後，將資料載入 Power BI Desktop。
 
-10. 下圖顯示您查詢 Microsoft Graph 安全性實體的結果視窗。
+以下是查詢後的 Microsoft Graph 安全性實體結果視窗：
 
-   ![結果](media/desktop-connect-graph-security/Result.PNG)
+   ![結果視窗範例](media/desktop-connect-graph-security/Result.PNG)
     
 
-您現在可以在 Power BI Desktop 中使用從 Microsoft Graph 安全性連接器匯入的資料來建立視覺效果、報表，或與其他任何您可能想要連接或匯入的資料進行互動，例如其他 Excel 活頁簿、資料庫或任何其他資料來源。
+現在您已準備好在 Power BI Desktop 中使用從 Microsoft Graph 安全性連接器匯入的資料。 您可以建立圖表或報表。 或者，您可與從 Excel 活頁簿、資料庫或其他資料來源匯入的其他資料互動。
 
 ## <a name="next-steps"></a>後續步驟
-* 在 [Microsoft Graph 安全性 GitHub Power BI 範例存放庫](https://aka.ms/graphsecuritypowerbiconnectorsamples)上使用此連接器來查看 Power BI 範例和範本。
+* 在 [Microsoft Graph 安全性 GitHub Power BI 範例](https://aka.ms/graphsecuritypowerbiconnectorsamples)中查看使用此連接器的 Power BI 範例和範本。
 
-* 在 [Microsoft Graph 安全性 Power BI 連接器部落格文章](https://aka.ms/graphsecuritypowerbiconnectorblogpost)查看部分使用者案例和其他資訊。
+* 如需使用者案例和其他資訊，請參閱此 [Microsoft Graph 安全性 Power BI 連接器部落格文章](https://aka.ms/graphsecuritypowerbiconnectorblogpost)。
 
-* 您可以使用 Power BI Desktop 連接至各式各樣的資料。 如需有關資料來源的詳細資訊，請參閱下列資源︰
+* 您可以使用 Power BI Desktop 連線至各類資料。 如需詳細資訊，請檢閱下列來源：
 
     * [Power BI Desktop 是什麼？](desktop-what-is-desktop.md)
     * [Power BI Desktop 中的資料來源](desktop-data-sources.md)

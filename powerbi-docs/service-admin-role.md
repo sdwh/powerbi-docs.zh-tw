@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e4cd85e0e5b4f10ead772875434bce3bd0973505
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2de78497698af3ee00ce77ef9c389169ef460546
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287547"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382797"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>了解 Power BI 服務管理員角色
 
@@ -25,23 +25,23 @@ ms.locfileid: "54287547"
 
 Power BI 服務管理員角色可以指派給需要存取 Power BI 管理入口網站，但不會同時授與那些使用者完整的 Office 365 系統管理存取權。
 
-Office 365 使用者管理管理員，可在 Office 365 管理中心 (或使用 PowerShell 指令碼) 中，將使用者指派為 Power BI 服務管理員角色。 使用者獲派角色之後，就能存取 [Power BI 管理入口網站](service-admin-portal.md)。 在那裡，他們能存取整個租用戶的使用計量，並可控制整個租用戶使用 Power BI 功能的方式。
+Office 365 使用者管理管理員，可在 Microsoft 365 系統管理中心中或使用 PowerShell 指令碼，將使用者指派為 Power BI 服務管理員角色。 使用者獲派角色之後，就能存取 [Power BI 管理入口網站](service-admin-portal.md)。 在那裡，他們能存取整個租用戶的使用計量，並可控制整個租用戶使用 Power BI 功能的方式。
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 
 Power BI 服務管理員角色不提供下列功能：
 
-* 在 Office 365 系統管理中心修改使用者和授權的能力、
+* 能夠在 Microsoft 365 系統管理中心內修改使用者和授權，
 
 * 稽核記錄的存取權。 如需詳細資訊，請參閱[在組織內使用稽核](service-admin-auditing.md)。
 
 ## <a name="assign-users-to-the-admin-role-in-office-365"></a>在 Office 365 中將使用者指派為系統管理員角色
 
-若要在 Office 365 管理中心中將使用者指派為 Power BI 管理員角色，請按照下列步驟操作。
+若要在 Microsoft 365 系統管理中心內將使用者指派為 Power BI 管理員角色，請遵偱下列步驟。
 
-1. 在 Office 365 管理中心中，選取 [使用者] > [作用中使用者]。
+1. 在 Microsoft 365 系統管理中心內，選取 [使用者] > [作用中使用者]。
 
-    ![Office 365 系統管理中心](media/service-admin-role/powerbi-admin-users.png)
+    ![MIcrosoft 365 系統管理中心](media/service-admin-role/powerbi-admin-users.png)
 
 1. 選取您想要指派角色的使用者。
 

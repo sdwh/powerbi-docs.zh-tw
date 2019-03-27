@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: abc45f3c32ee5db81f71295268db85bfce23aafd
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174882"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430430"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -33,7 +33,7 @@ ms.locfileid: "58174882"
 
 ### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Power BI Embedded 和 Power BI 服務有何不同？
 
-Power BI Embedded 專門供 ISV 或開發人員使用，他們建置應用程式並想要在其中內嵌視覺效果，以協助客戶不必從頭建置分析解決方案就能做出決策。 [Embedded 分析](embedding.md)讓企業用戶能夠存取商務資料及執行查詢，以在應用程式內使用這份資料產生見解。
+Power BI Embedded 專門供 ISV 或開發人員使用，他們建置應用程式並想要在其中內嵌視覺效果，以協助客戶不必從頭建置分析解決方案就能做出決策。 [Embedded 分析](embedding.md)讓企業用戶能夠存取商務資料及執行查詢，以在應用程式內使用這份資料產生深入解析。
 
 Power BI 是軟體即服務分析解決方案，為組織提供最重要商務資料的單一檢視。
 
@@ -210,7 +210,7 @@ ISV/開發人員必須先有 Power BI 帳戶，才能在 Azure 中購買 Power B
 
 服務主體會從其安全性群組繼承所有 Power BI 租用戶設定的使用權限。 若要限制使用權限，請建立服務主體專屬的安全性群組，並將它新增至相關已啟用 Power BI 設定的 [特定安全性群組除外] 清單。
 
-以「管理員」身分將服務主體新增至新的新工作區時，此情況很重要。 您可以透過 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 或使用 Power BI 服務管理此工作。
+以「管理員」身分將服務主體新增至新的新工作區時，此情況很重要。 您可以透過 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 或使用 Power BI 服務管理這項工作。
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>何時使用應用程式識別碼與服務主體物件識別碼？
 
@@ -274,9 +274,9 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 因為 Power BI Embedded 是 Azure 的一部份，所以您可以使用[註冊 Azure 時收到的美金 $200 元點數](https://azure.microsoft.com/free/)來使用服務。
 
-### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>Power BI Embedded 是否可供主權雲端使用 (美國政府、德國、中國)？
+### <a name="is-power-bi-embedded-available-for-national-clouds-us-government-germany-china"></a>國家/地區雲端 (美國政府、德國、中國) 是否提供 Power BI Embedded？
 
-Power BI Embedded 可供某些[主權雲端](embed-sample-for-customers-sovereign-clouds.md)使用。 中國雲端仍然**無法**使用。
+[國家/地區雲端](embed-sample-for-customers-national-clouds.md)也提供 Power BI Embedded。
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>Power BI Embedded 是否可用於非營利及教育用途？
 

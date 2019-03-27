@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 35efd62e6f00edd9ce6b58774dd73925a721dec5
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: c268bd370f32d2089b3b80c7cf4317df33e67280
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661920"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306473"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>從 Power BI 將報表匯出至 PDF
 有了 Power BI，您就可以將報表發佈至 PDF 格式，並根據 Power BI 報表輕鬆地建立文件。 當您**匯出至 PDF** 時，Power BI 報表中的每個頁面都會變成 PDF 文件中的個別頁面。
@@ -64,7 +64,7 @@ ms.locfileid: "56661920"
 
 * 如果您與組織外部的某人 (也就是不在您 Power BI 租用戶中的使用者) 共用儀表板，該使用者會無法將與共用儀表板的相關報表匯出至 PDF。 舉例來說，如果您是 aaron@contoso.com，您可以和 cassie@cohowinery.com 共用。 但是 cassie@cohowinery.com 無法將相關報表匯出至 PDF。
 
-* 當匯出為具有包含背景影像之報告的 PDF 時，若您為 [頁面背景] 使用 [自動調整] 選項，您可能會在匯出結果中看到扭曲的影像。  為獲得最佳結果，建議您使用 [標準] 或 [填滿] 選項來避免匯出的文件發生問題。
+* 將包含背景影像的報表匯出成 PDF 時，如果使用 [頁面背景] 中的 [標準] 或 [填滿] 選項，您可能會在匯出中看到扭曲的影像。  為得到最佳結果，建議您使用 [最適大小] 選項以免匯出的文件發生問題。
 
 * Power BI 服務會使用您的 Power BI 語言設定作為 PDF 的輸出語言。 若要查看或設定語言喜好設定，請選取齒輪圖示 > [設定] > [一般] > [語言]。
 

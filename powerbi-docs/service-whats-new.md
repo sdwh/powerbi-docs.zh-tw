@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216853"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383707"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
@@ -346,7 +346,7 @@ ms.locfileid: "56216853"
 
 ***管理入口網站***
 
-* 使用 O365 系統管理中心連結輕鬆管理使用者
+* 使用 Microsoft 365 系統管理中心連結輕鬆管理使用者
 * 停用發行至 Web 功能
 * 防止使用者對整個組織發行內容套件
 * 停用與外部使用者共用內容的功能
@@ -508,7 +508,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 * 當地語系化的 Power BI 文件新網站
 * 改進報表載入時間
 * 更新組織的內容套件，僅變更報表
-* Office 365 管理入口網站中的 Power BI 健全狀態
+* Microsoft 365 系統管理中心的 Power BI 健全狀況
 * 資料表、矩陣和卡片中的 KPI 和影像
 
 如需所有詳細資料，請瀏覽 [Power BI 部落格](http://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx)

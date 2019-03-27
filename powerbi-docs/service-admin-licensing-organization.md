@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 65889d1082cee75ed56edc67ece9c99b5f344a6e
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430213"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383230"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>組織中的 Power BI 授權
 
@@ -35,7 +35,7 @@ ms.locfileid: "55430213"
 
 在您組織中的個人可以註冊 Power BI Pro 試用。 如需詳細資訊，請參閱[以個人身分註冊 Power BI](service-self-service-signup-for-power-bi.md)。
 
-利用產品中 Power BI Pro 試用版的使用者，不會在 Office 365 管理入口網站顯示為 Power BI Pro 試用版使用者 (他們會顯示為 Power BI 免費版使用者)。 不過在 Power BI [管理儲存體] 頁面中會顯示為 Power BI Pro 試用版使用者。
+利用產品中 Power BI Pro 試用版的使用者，不會在 Microsoft 365 系統管理中心顯示為 Power BI Pro 試用版使用者 (他們會顯示為 Power BI 免費版使用者)。 不過在 Power BI [管理儲存體] 頁面中會顯示為 Power BI Pro 試用版使用者。
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>Power BI Pro 組織試用版
 
@@ -47,7 +47,7 @@ ms.locfileid: "55430213"
 
 * 每個租用戶只限使用一個組織試用版。 這表示，如果有人已將 Power BI Pro 試用版套用至您的租用戶，您就無法再次套用。 如果您需要這方面的協助，請連絡 [Office 365 帳單支援](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671)。
 
-1. 導覽到 [Office 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)。
+1. 巡覽至 [MIcrosoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
 1. 在左邊的功能窗格中，依序選取 [帳單]、[訂閱]。
 
@@ -71,7 +71,7 @@ ms.locfileid: "55430213"
 
 組織中的使用者可以使用兩種不同方式存取 Power BI 免費授權：
 
-* 您可以在 Office 365 系統管理入口網站內，為他們指派 Power BI 授權。
+* 您可以在 Microsoft 365 系統管理中心內，為他們指派 Power BI 授權。
 
 * 如果使用者[註冊 Power BI Pro 試用版](service-self-service-signup-for-power-bi.md)且試用版到期，則會取得免費授權。
 
@@ -81,7 +81,7 @@ ms.locfileid: "55430213"
 
 在首次有人以個人身分註冊 Power BI 之後，便可使用此區塊的授權。 在此過程中，這個授權區塊會附加到您的組織，並將授權指派給註冊的使用者。
 
-1. 在 Office 365 系統管理中心 [帳單] > [授權] 底下，檢查是否為**無限制**。
+1. 在 Microsoft 365 系統管理中心的 [帳單] > [授權] 底下，檢查是否為**無限制**。
 
     ![無限制的免費授權區塊](media/service-admin-licensing-organization/unlimited-licenses.png)
 
@@ -93,7 +93,7 @@ ms.locfileid: "55430213"
 
 如果無法使用無限制的 Power BI (免費) 授權區塊，而且您不想要進行個人註冊，請遵循此程序。
 
-1. 導覽到 [Office 365 系統管理中心](https://portal.office.com/admin/default.aspx)。
+1. 巡覽至 [MIcrosoft 365 系統管理中心](https://portal.office.com/admin/default.aspx)。
 
 1. 在左邊的瀏覽窗格中，選取 [帳單] > [訂閱]。
 

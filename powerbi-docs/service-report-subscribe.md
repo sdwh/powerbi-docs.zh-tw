@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 09539bfd26685ffdd9866810b566699e5cdb4a41
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 639fbd58236debc2c71a87a9e9cfd551ad4b433d
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408107"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306519"
 ---
 # <a name="subscribe-yourself-and-others-to-a-report-or-dashboard-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表或儀表板
 
@@ -83,6 +83,7 @@ ms.locfileid: "56408107"
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 * 傳送給使用者的訂閱電子郵件中，釘選磚超過 25 個，或是有 4 個以上釘選即時報表頁面的儀表板可能不會完整呈現。  對磚超過這些數目的儀表板訂閱並不會受到封鎖，但如果您遇到問題，則系統會認定不支援這些訂閱，而您應該據此修改至支援的範圍內。
+* 設定電子郵件訂用帳戶時，請記住，訂用帳戶工作之啟動時間和電子郵件傳送的確切時間，兩者之間會發生延遲。  為將作業啟動時間和後續電子郵件傳送時間之間的延遲降到最低，建議將排程資料重新整理時間和電子郵件訂用帳戶排程執行時間設定在不同的時間。
 * 針對儀表板電子郵件訂用帳戶，如果有任何磚套用資料列層級安全性 (RLS)，則不會顯示這些磚。  針對報表電子郵件訂用帳戶，如果資料集使用 RLS，則您無法建立訂用帳戶。
 * 報表頁面訂閱會繫結至報表頁面的名稱。 如果您訂閱報表頁面，然後將它重新命名，您必須重新建立訂用帳戶。
 * 您的組織可能會在 Azure Active Directory 進行某些設定，而這可能會限制在 Power BI 中使用電子郵件訂閱的功能。  這些限制包括但不限於存取資源時的多重要素驗證或 IP 範圍限制。
@@ -94,7 +95,6 @@ ms.locfileid: "56408107"
 * 電子郵件訂閱傳送時會使用報表的預設篩選器和交叉分析篩選器狀態。 在訂閱之後對預設值所做的所有變更，均不會顯示在電子郵件中。    
 * 特別是針對儀表板訂閱，尚不支援某些磚類型。  其中包括：資料流磚、影片磚、自訂 Web 內容磚。     
 * 若您與租用戶外部的同事共用儀表板，您無法一併替該位同事建立訂閱。 因此，如果您是 aaron@xyz.com，則可與 anyone@ABC.com 共用，但尚無法為 anyone@ABC.com 訂閱，而他們也無法訂閱共用的內容。      
-* 由於電子郵件大小限制，儀表板或報表若含有非常大的影像，訂閱可能會失敗。    
 * 如果超過兩個月未瀏覽某些儀表板和報表，Power BI 會自動暫停重新整理與這些儀表板和報表建立關聯的資料集。  不過，如果您新增儀表板或報表的訂閱，即使有段時間未瀏覽也不會暫停。    
 * 若您未收到訂閱電子郵件，請確認您的使用者主體名稱 (UPN) 能夠接收電子郵件。 [Power BI 小組正致力於放寬這項需求](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163)，請隨時留意。 
 * 若您的儀表板或報表處於 Premium 容量中，您可以使用群組電子郵件別名進行訂閱，而不必為各同事的電子郵件一一訂閱。 別名會以目前使用中的目錄為準。 
