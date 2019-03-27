@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d00e6f2a972e6e41d4d9badc51e30a13a6dc98cc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 214a8a3ce0fd647cecd9855b48589cef02bf01c8
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430098"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383306"
 ---
 # <a name="what-is-power-bi-administration"></a>什麼是 Power BI 管理？
 
@@ -71,7 +71,7 @@ Power BI 服務系統管理員角色不會將指派授權的能力授與使用�
 | **工具** | **一般工作** |
 | --- | --- |
 | Power BI 管理入口網站 |<ul><li>取得及使用 Premium 容量</li><li>確保服務品質</li><li>管理商務資料的分類</li><li>協助執行內容發佈和共用原則</li><li>管理工作區<br><li>發行自訂視覺效果</li><li>驗證用來在其他應用程式中嵌入 Power BI 的程式碼</li><li>針對資料存取和其他問題進行疑難排解</li></ul>|
-| Office 365 系統管理中心 |<ul><li>管理使用者註冊</li><li>購買及指派 Pro 授權</li><li>封鎖使用者對 Power BI 的存取</li></ul>|
+| MIcrosoft 365 系統管理中心 |<ul><li>管理使用者註冊</li><li>購買及指派 Pro 授權</li><li>封鎖使用者對 Power BI 的存取</li></ul>|
 | Office 365 安全性與合規性中心 |<ul><li>檢閱及管理事件的稽核</li></ul>|
 | Azure 入口網站中的 Azure Active Directory (AAD) |<ul><li>透過 AAD 設定對 Power BI 的條件式存取</li><li>佈建 Power BI Embedded 容量</li></ul>|
 | PowerShell Cmdlet |<ul><li>透過指令碼管理工作區和 Power BI 的其他層面</li></ul>|
