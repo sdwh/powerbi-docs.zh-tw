@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226196"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489560"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI 報表伺服器中的資料列層級安全性 (RLS)
 
@@ -28,11 +28,11 @@ ms.locfileid: "57226196"
 
 根據預設，不論關聯性設定為單向或雙向，資料列層級安全性篩選都會使用單向篩選。 您可以手動啟用資料列層級安全性的雙向交叉篩選。
 
-- 選取關聯性，並選取 [套用雙向安全性篩選] ****  核取方塊。 
+- 選取關聯性，並選取 [雙向套用安全性篩選] 核取方塊。 
 
     ![套用安全性篩選](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-請在根據使用者名稱或登入識別碼實作 [動態資料列層級安全性](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)時，選取此方塊。 
+請在根據使用者名稱或登入識別碼實作[動態資料列層級安全性](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)時，選取此方塊。 
 
 如需詳細資訊，請參閱[在 Power BI Desktop 中使用 DirectQuery 雙向交叉篩選](../desktop-bidirectional-filtering.md)和[保護表格式 BI 語意模型](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)技術白皮書。
 
@@ -85,7 +85,7 @@ ms.locfileid: "57226196"
 
 具有使用 username() DAX 函式之報表的使用者現在將會發現有新行為，當以整合式安全性使用 DirectQuery 時，使用者主體名稱 (UPN) 會傳回 EXCEPT。  因為該案例中不採用 RLS，所以該案例中的行為不會變更。
 
-您只能在使用 Power BI Desktop 建立的資料集上定義 RLS。 如果您想要針對以 Excel 建立的資料集啟用 RLS，必須先將檔案轉換成 Power BI Desktop (PBIX) 檔案。 深入了解[轉換 Excel 檔案](../desktop-import-excel-workbooks.md)。
+您只能在使用 Power BI Desktop 建立的資料集上定義 RLS。 如果您想要針對以 Excel 建立的資料集啟用 RLS，必須先將檔案轉換成 Power BI Desktop (PBIX) 檔案。 深入了解[轉換 Excel 檔案](../desktop-import-excel-workbooks.md)。
 
 僅支援使用所儲存認證的擷取、轉換、載入 (ETL) 及 DirectQuery 連線。 使用整合式驗證對 Analysis Services 和 DirectQuery 連線的即時連線會在基礎資料來源中處理。 
 

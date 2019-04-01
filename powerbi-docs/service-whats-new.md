@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: b65acda3ceb8d375cb34393828b74e191b2e5504
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383707"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489583"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
@@ -32,12 +32,21 @@ ms.locfileid: "58383707"
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 
-## <a name="february-2019"></a>2019 年 2 月
-* [容量監視應用程式](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)中的工作負載和作用中資料集大小計量。
-* 匯出至 PDF 和視需要電子郵件訂閱 (service-report-subscribe.md)。
-* 管理入口網站中的大量作業。
+## <a name="march-2019"></a>2019 年 3 月
+* Power BI Premium 多地理位置的公開推出。
+* 編輯和管理 Azure B2B 的 Power BI 內容支援。
 
 ## <a name="previous-months-2019"></a>前幾個月 (2019)
+### <a name="february-2019"></a>2019 年 2 月
+* [容量監視應用程式](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)中的工作負載和作用中資料集大小計量。
+* 針對 Power BI 報表匯出為 PDF。
+* [隨選電子郵件訂用帳戶](service-report-subscribe.md)。
+* 管理入口網站中的大量作業。
+* PPT 和 PDF 的已篩選匯出。
+* 管理入口網站中的[說明及支援設定](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/) \(英文\)。
+* [資料流程](service-dataflows-overview.md)的資料歷程體驗。
+* 管理入口網站中的認證自訂視覺效果設定。
+
 ### <a name="january-2019"></a>2019 年 1 月
 * 在內部入口網站或網站中[內嵌安全的 Power BI 報表](service-embed-secure.md)。
 * 以新連接器更新[資料流程](service-dataflows-overview.md)編輯器，以及支援原生 SQL 查詢和 Power Query Online 轉換。

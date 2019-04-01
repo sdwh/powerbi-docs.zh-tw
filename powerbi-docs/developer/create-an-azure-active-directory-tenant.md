@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
-ms.openlocfilehash: eb5befbfc5e96867f0f4cf27eafd62829fb488f4
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: ec03ba86fdbf57a9898b127aae9b76990837b5ba
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762137"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473836"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>建立要搭配 Power BI 使用的 Azure Active Directory 租用戶
 
@@ -24,11 +24,11 @@ ms.locfileid: "55762137"
 
 取得 Azure AD 租用戶之後，您就可以定義應用程式並指派權限，讓您的應用程式可以使用 Power BI REST API。
 
-您的組織可能已經有 Azure AD 租用戶，可供您用於應用程式。 您可以利用該租用戶來滿足應用程式需求，也可以特別為您的應用程式建立新的租用戶。 本文探討如何建立新的租用戶。
+您的組織可能已經有 Azure AD 租用戶，可供您用於應用程式。 您可以利用該租用戶來滿足應用程式需求，也可以特別為您的應用程式建立新的租用戶。 此文章探討如何建立新的租用戶。
 
 ## <a name="create-an-azure-active-directory-tenant"></a>建立 Azure Active Directory 租用戶
 
-若要將 Power BI 整合至自訂應用程式，您需要在 Azure AD 內定義應用程式。 若要這樣做，您在 Azure AD 內需要一個目錄。 這就是您的租用戶。 如果貴組織因未使用 Power BI 或 Office 365 而尚無租用戶，[您就必須建立租用戶](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)。 如果不希望您的應用程式和組織的租用戶混在一起，您可能也需要建立租用戶。 這樣可以保持隔離。
+若要將 Power BI 整合至自訂應用程式，您需要在 Azure AD 內定義應用程式。 若要這樣做，您在 Azure AD 內需要一個目錄。 這就是您的租用戶。 如果貴組織因未使用 Power BI 或 Office 365 而尚無租用戶，[您將必須建立租用戶](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)。 如果不希望您的應用程式和組織的租用戶混在一起，您可能也需要建立租用戶。 這樣可以保持隔離。
 
 或者，您可能只是為了測試而建立租用戶。
 

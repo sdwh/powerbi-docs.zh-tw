@@ -11,18 +11,19 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 385a2cb41c0fa58ec3df4ea675a6f43a5b868935
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014292"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473790"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>從 Power BI 將報表匯出至 PowerPoint
 有了 Power BI，您就可以將報表發佈至 **Microsoft PowerPoint**，並根據 Power BI 報表輕鬆地建立投影片組。 當您**匯出至 PowerPoint** 時會發生下列狀況︰
 
 * Power BI 報表中的每個頁面都會變成 PowerPoint 的個別投影片
-* Power BI 報表中的每個頁面都會匯出成 PowerPoint 中的單一高解析度影像 <!-- * The filters and slicers settings that you added to the report are preserved. -->
+* Power BI 報表中的每個頁面都會匯出成 PowerPoint 中的單一高解析度影像
+<!-- * The filters and slicers settings that you added to the report are preserved. -->
 * PowerPoint 中會建立連結至 Power BI 報表的連結 
 
 將 **Power BI 報表**匯出到 **PowerPoint** 的程序非常簡單快速。 只要遵循下一節中列出的步驟即可。
@@ -91,6 +92,7 @@ ms.locfileid: "57014292"
 * 如先前所述，每個報表頁面會匯出為 PowerPoint 檔中的單一影像。
 * Power BI 服務會使用您的 Power BI 語言設定作為 PowerPoint 的輸出語言。 若要查看或設定語言喜好設定，請選取齒輪圖示![齒輪圖示](media/end-user-powerpoint/power-bi-settings-icon.png) > [設定] > [一般] > [語言]。
 * 匯出的 PowerPoint 檔案，其封面投影片上的**下載於**時間，會設定為匯出當時您電腦的時區。
+* 針對匯出選擇 [目前的值] 時，目前不適用 URL 篩選。
 
 ## <a name="next-steps"></a>後續步驟
 [列印報表](end-user-print.md)
