@@ -402,6 +402,8 @@ items:
       href: service-tutorial-use-cognitive-services.md
     - name: 與 Power BI 的機器學習服務整合
       href: service-tutorial-invoke-machine-learning-model.md
+    - name: 使用 Power BI 建置機器學習模型 (預覽)
+      href: service-tutorial-build-machine-learning-model.md
   - name: 概念
     items:
     - name: Power BI 服務的新功能
@@ -656,6 +658,8 @@ items:
         href: service-machine-learning-integration.md
       - name: 在 Power BI 中使用認知服務
         href: service-cognitive-services.md
+      - name: Power BI 中的自動化機器學習 (預覽)
+        href: service-machine-learning-automated.md
     - name: Power BI 中的編頁報表
       items:
       - name: 什麼是編頁報表？ (預覽)
@@ -1327,9 +1331,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 3259c3fe3bc8756355dd75324a84dd0322bfef3a
-ms.sourcegitcommit: c98fe18c52cd06a52b12aa9aa09d58e8a406542a
+ms.openlocfilehash: 1de602579c97a56c7db5b0b92a8b6bc9f1134ec6
+ms.sourcegitcommit: 6070b5726629dde6dee262f77e9957496405d501
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "58563658"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "58639360"
