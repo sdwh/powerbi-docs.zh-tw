@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
-ms.date: 09/17/2018
-ms.openlocfilehash: a32bdceb317f2d6a2f5945dc3911f683a306605e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 03/15/2019
+ms.openlocfilehash: 63ee9ed96ed699d116b8d81b0cd612f76994a68d
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282463"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872677"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>開發人員可如何利用 Power BI？
 
@@ -58,9 +58,9 @@ Power BI 顯示互動式儀表板，可即時從不同的資料來源建立及�
 
 ## <a name="next-steps"></a>後續步驟
 
-[內嵌在 Power BI 之中](embedding.md)  
+[Power BI 的內嵌功能](embedding.md)  
 
-[Developing a Power BI custom visual](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/) (開發 Power BI 自訂視覺效果)
+[開發 Power BI 自訂視覺效果](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
 
 [開發人員可如何利用 Power BI API？](overview-of-power-bi-rest-api.md)
 
