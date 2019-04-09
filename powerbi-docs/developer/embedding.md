@@ -8,14 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
+helpviewer_keywords:
+- embedded analytics
+- embedding
+- Power BI embedding
+- app owns data
+- user owns data
+- Power BI APIs
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: ca159fb8cea26f4c707aabc99d9fa2c308a32e1a
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 0a4b43bd02697472a0bbdf16171ba655fc014dbc
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762436"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872700"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>搭配 Power BI 使用內嵌式分析
 
@@ -42,7 +49,7 @@ Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 A
 
 **對組織進行內嵌**可讓您擴充 Power BI 服務。 對組織進行內嵌需要應用程式的使用者在想要檢視內容時，登入 Power BI 服務。 貴組織中有人登入之後，他們只能在 Power BI 服務中存取他們自己的和某人已經與他們共用的儀表板和報表。
 
-對組織進行內嵌的範例包括內部應用程式，例如 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams 整合 (您必須具有系統管理員權限)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) 和 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)。
+*對組織進行內嵌的範例包括內部應用程式，例如 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams 整合 (您必須具有系統管理員權限)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) 和 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)。*
 
 若要為組織進行內嵌，請參閱下方內容：
 
@@ -82,12 +89,12 @@ Power BI Pro 帳戶將成為應用程式的主帳戶 (將此主帳戶視為 Prox
 現在，您可以嘗試將 Power BI 內容內嵌至應用程式，或嘗試對您的客戶內嵌 Power BI 內容。
 
 > [!div class="nextstepaction"]
-> [為組織內嵌](embed-sample-for-your-organization.md)
+> [為您的組織內嵌](embed-sample-for-your-organization.md)
 
 > [!div class="nextstepaction"]
 > [什麼是 Power BI Embedded？](azure-pbie-what-is-power-bi-embedded.md)
 
 > [!div class="nextstepaction"]
->[對客戶進行內嵌](embed-sample-for-customers.md)
+>[為您的客戶內嵌](embed-sample-for-customers.md)
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [請嘗試詢問 Power BI 社群](http://community.powerbi.com/)

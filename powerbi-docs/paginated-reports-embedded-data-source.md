@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 7f919234f7635c76ce50d0bfffa393498f141da8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 340b4d26b8beed4dfda5f7af4dc949088f3857ae
+ms.sourcegitcommit: d2805894fd372c35e11d519f724de2be98407fda
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324384"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59070014"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料來源 (預覽)
 
@@ -22,7 +22,8 @@ ms.locfileid: "56324384"
 
 - Azure SQL Database 和資料倉儲
 - SQL Server
-- SQL Server Analysis Services 
+- SQL Server Analysis Services
+- Azure Analysis Services
 
 編頁報表會透過閘道連線至內部部署資料來源。 您會在將報表發行至 Power BI 服務之後設定閘道。 深入了解 [Power BI 閘道](service-gateway-getting-started.md)。 
 
@@ -61,4 +62,4 @@ ms.locfileid: "56324384"
 ## <a name="next-steps"></a>後續步驟
 
 - [在 Power BI 服務中建立適用於編頁報表的內嵌資料集](paginated-reports-create-embedded-dataset.md)
-- [Power BI Premium 中的編頁報表是什麼？(預覽)](paginated-reports-report-builder-power-bi.md)
+- [什麼是 Power BI Premium 中的編頁報表？ (預覽)](paginated-reports-report-builder-power-bi.md)

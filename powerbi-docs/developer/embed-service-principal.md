@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 02/05/2019
-ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.date: 03/29/2019
+ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014407"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872539"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>搭配 Power BI 的服務主體 (預覽)
 
@@ -111,13 +111,15 @@ ms.locfileid: "57014407"
 3. 身為 Power BI 管理員，您必須在 Power BI 管理入口網站的 [開發人員設定] 中啟用服務主體。 將您在 Azure AD 中建立的安全性群組新增至 [開發人員設定] 中的 [特定安全性群組] 區段。
 
    > [!Important]
-   > 服務主體會從其安全性群組繼承所有 Power BI 租用戶設定的使用權限。 若要限制使用權限，請建立服務主體專屬的安全性群組，並將它新增至相關已啟用 Power BI 設定的 [特定安全性群組除外] 清單。
+   > 服務主體可以存取為整個組織啟用的任何租用戶設定，或為具有服務主體作為群組一部分的安全性群組而啟用。 若要限制對特定租用戶設定的服務主體存取權，請僅允許對特定安全性群組的存取權，或為服務主體建立專用安全性群組並將其排除。
 
     ![管理入口網站](media/embed-service-principal/admin-portal.png)
 
 4. 設定您的 [Power BI 環境](embed-sample-for-customers.md#set-up-your-power-bi-environment)。
 
 5. 以「管理員」身分將服務主體新增至您建立的新工作區。 您可以透過 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 或使用 Power BI 服務管理這項工作。
+
+    ![將服務主體新增至工作區](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. 現在選擇在範例應用程式或您自己的應用程式中內嵌內容。
 
@@ -171,6 +173,7 @@ ms.locfileid: "57014407"
 * 您無法使用服務主體安裝或管理內部部署資料閘道。
 * [為組織內嵌](embed-sample-for-your-organization.md)應用程式無法使用服務主體。
 * 不支援[資料流程](../service-dataflows-overview.md)管理。
+* 服務主體不支援系統管理 API。
 
 ## <a name="next-steps"></a>後續步驟
 

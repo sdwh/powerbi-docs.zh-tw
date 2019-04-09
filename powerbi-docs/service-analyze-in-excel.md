@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 20faef99f710ebbc3eacebe15b5101726b895688
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: da6ec79a821e7aa9659843d0461ca6ac0b11706d
+ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279266"
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "58914159"
 ---
-# <a name="analyze-in-excel"></a>使用 Excel 分析
-有時候您可能會想要使用 Excel 來檢視和與您有 Power BI 的資料集互動。 有了 [使用 EXCEL 分析]，您可以做到，並以存在於 Power BI 中的資料集為基礎來存取 Excel 的樞紐分析表、 圖表和交叉分析篩選器的功能。
+# <a name="analyze-in-excel"></a>在 Excel 中分析
+有時候您可能會想要使用 Excel 來檢視您在 Power BI 中的資料集，並與其互動。 有了 [使用 EXCEL 分析]，您可以做到，並以存在於 Power BI 中的資料集為基礎來存取 Excel 的樞紐分析表、 圖表和交叉分析篩選器的功能。
 
 ## <a name="requirements"></a>需求
 使用 [使用 EXCEL 分析] 有幾項要求：
@@ -27,7 +27,8 @@ ms.locfileid: "54279266"
 * Microsoft Excel 2010 SP1 和更新版本支援 [使用 EXCEL 分析]。
 * Excel 樞紐分析表不支援數值欄位的拖放功能彙總。 您在 Power BI 中的資料集 *必須有預先定義的量值* 。
 * 某些組織可能會有防止安裝 [使用 EXCEL 分析] 必要更新的群組原則規則。 如果您無法安裝更新，請洽詢您的系統管理員。
-* [在 Excel 中進行分析] 需要 Pro 授權。 若要深入了解授權類型之間的功能差異，請參閱[依授權類型排列的 Power BI 功能](service-features-license-type.md)。 
+* **使用 Excel 分析**需要資料集位於 Power BI Premium 中，或使用者具有 Power BI Pro 授權。 若要深入了解授權類型之間的功能差異，請參閱[依授權類型排列的 Power BI 功能](service-features-license-type.md)。 
+* 如果使用者具有讀取基礎資料集的權限，則可以透過「使用 Excel 分析」連線至資料集。  使用者可以透過下列數種方式來執行此操作，例如成為包含資料集之工作空間的成員、具有與其共用的報表或儀表板 (該報表或儀表板使用資料集)、或擁有包含資料集之應用程式的使用權限。
 
 ## <a name="how-does-it-work"></a>運作方式
 當您從省略符號功能表 (...) 相關聯的資料集或報表中的 **Power BI** 選取 [使用 EXCEL 分析]，Power BI 會建立 .ODC 檔案，並從瀏覽器下載到您的電腦。
@@ -100,4 +101,4 @@ ms.locfileid: "54279266"
 由於使用者必須重新整理資料集，但 Excel Online 不支援對外部連接重新整理，因此建議這些使用者在自己的電腦上用桌面版 Excel 來開啟活頁簿。
 
 ## <a name="troubleshooting"></a>疑難排解
-有時候使用 [使用 EXCEL 分析] 可能會取得非預期的結果，或功能無法如您預期般運作。 [此頁面可提供使用 [使用 EXCEL 分析] 時的常見問題解決方案](desktop-troubleshooting-analyze-in-excel.md)
+有時候使用 [使用 EXCEL 分析] 可能會取得非預期的結果，或功能無法如您預期般運作。 [此頁面可提供使用「使用 Excel 分析」時的常見問題解決方案](desktop-troubleshooting-analyze-in-excel.md)
