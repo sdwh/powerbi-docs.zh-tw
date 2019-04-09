@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826713"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872723"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -22,6 +22,16 @@ ms.locfileid: "56826713"
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
+
+## <a name="march-2019"></a>2019 年 3 月
+
+### <a name="supporting-external-guest-users-in-power-bi-apps-ios-android"></a>支援 Power BI 應用程式 (iOS、Android) 中的外部來賓使用者
+
+您可以直接從應用程式存取其他組織與您共用的 Power BI 內容 (也就是 B2B)。 在[這裡](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-now-support-azure-ad-b2b-guest-users/)閱讀 Power BI 行動應用程式 B2B 的詳細資訊。
+
+### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>使用投影片增強 Windows 簡報模式 (Windows)
+
+利用[投影片](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)可讓您使用辦公室中的公用顯示器以全螢幕模式執行 Power BI 報表，會在報表頁面之間自動轉換。  
 
 ## <a name="january---february-2019"></a>2019 年一月 - 二月
  
@@ -368,17 +378,17 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 
 如果您掃描無權存取之儀表板的 QR 代碼，現在可以從行動裝置應用程式提交存取要求。
 
-**影像磚上的自訂 URL**
+**影像圖格上的自訂 URL**
 
 如果影像磚有儀表板擁有者所定義的自訂 URL，則當您點選磚時，會直接移至該 URL 而不需要在焦點模式下開啟磚。 
 
 #### <a name="iphone"></a>iPhone
-**Apple Watch 改進**
+**Apple Watch 改善**
 
 您現在可以直接從 Watch 應用程式重新整理 Apple Watch 資料。 按壓 Apple Watch 儀表板索引頁面以重新整理資料。 (Power BI 行動裝置應用程式必須在 iPhone 上背景執行，才能成功)。
 
 #### <a name="android"></a>Android
-**影像磚上的自訂 URL**
+**影像圖格上的自訂 URL**
 
 如果影像磚有儀表板擁有者所定義的自訂 URL，則當您點選磚時，會直接移至該 URL 而不需要在焦點模式下開啟磚。 此外，包含預先定義之自訂 URL 的儀表板磚，現在可以在應用程式內將讀者重新導向到報表。
 
