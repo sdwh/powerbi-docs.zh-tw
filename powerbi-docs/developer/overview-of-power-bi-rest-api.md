@@ -8,43 +8,45 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.openlocfilehash: 764718ab86e040509790dd4debbbef25b6079a14
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
+ms.date: 03/25/2019
+ms.openlocfilehash: 443aa370ebb4122d0f979f60726ba953ce13195d
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473767"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872562"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>開發人員可如何利用 Power BI API？
 
-使用 Power BI REST API，您就可以建立內嵌 Power BI 報表的應用程式。 您也可以將 Power BI 圖格和儀表板整合到應用程式中。
+使用 Power BI REST API，您就可以建立與 Power BI 報表、儀表板和圖格整合的應用程式。
 
 使用 Power BI REST API，就可以在 Power BI 物件 (例如報表、資料集和工作區) 上執行管理工作。
 
 以下是一些您可以使用 Power BI API 進行的操作。
 
-| **若要這樣做** | **請前往這裡** |
-| --- | --- |
-| 內嵌適用於 Power BI 使用者和非 Power BI 使用者的報表、儀表板和圖格。 |[如何內嵌 Power BI 儀表板、報表和圖格](embedding-content.md) |
-| 在 Power BI 物件上執行管理工作。 |[Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/) |
+| **深入了解** | **參考這項資訊** |
+|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| 內嵌適用於 Power BI 使用者和非 Power BI 使用者的報表、儀表板和圖格。 | [如何內嵌 Power BI 儀表板、報表和圖格 ](embedding-content.md) |
+| 在 Power BI 物件上執行管理工作。 | [Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/) |
+| 擴充現有商務工作流程，將關鍵資料推送至 Power BI 儀表板。 | [將資料推送至儀表板 ](walkthrough-push-data.md) |
+| 向 Power BI 驗證。 | [向 Power BI 驗證 ](get-azuread-access-token.md) |
 
 > [!NOTE]
 > Power BI API 仍然將應用程式工作區稱為群組。 任何對群組的引述都表示您處理的是應用程式工作區。
 
-## <a name="developer-tools"></a>開發人員工具
+## <a name="api-developer-tools"></a>API 開發人員工具
 
-以下是可用來協助您開發 Power BI 項目的工具。
+| 工具 | 描述 |  |  |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
+| [遊樂場工具](https://microsoft.github.io/PowerBI-JavaScript/demo) | 體驗使用 Power BI JavaScript API 的完整範例。 此工具也是一個可測試不同類型 Power BI Embedded 範例的快速方式。 |  |  |
+| [Power BI JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | 取得 Power BI JavaScript API 的詳細資訊。 |  |  |
+| [Postman](https://www.getpostman.com/) | 執行要求、測試、偵錯、監視、執行自動化測試等。 |
 
-您可以完成[內嵌安裝工具](https://aka.ms/embedsetup)以快速開始使用並下載關於如何內嵌 Power BI 內容的應用程式範例。
+## <a name="push-data-into-power-bi"></a>將資料推送至 Power BI
 
-選擇最適合您的方案：
+您可以使用 Power BI API 以[將資料推送至資料集](walkthrough-push-data.md)。 此功能可讓您將資料列新增至資料集內的資料表。 新資料接著會反映在儀表板的圖格中，以及報表的視覺效果內。
 
-* [對客戶進行內嵌](embedding.md#embedding-for-your-customers)，可讓您將儀表板和報告內嵌至沒有 Power BI 帳戶的使用者。 執行[對客戶進行內嵌](https://aka.ms/embedsetup/AppOwnsData)解決方案。
-
-* [對組織進行內嵌](embedding.md#embedding-for-your-organization)可讓您擴充 Power BI 服務。 執行[對組織進行內嵌](https://aka.ms/embedsetup/UserOwnsData)解決方案。
-
-如需使用 JavaScript API 的完整範例，您可以使用[測試網工具](https://microsoft.github.io/PowerBI-JavaScript/demo)。 此工具是一個可測試不同類型 Power BI Embedded 範例的快速方式。 您也可以瀏覽 [PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) \(英文\) 頁面，以取得有關 JavaScript API 的詳細資訊。
+![推送資料範例](media/what-can-you-do/powerbi-push-data.png)
 
 ## <a name="github-repositories"></a>GitHub 存放庫
 
@@ -52,4 +54,11 @@ ms.locfileid: "58473767"
 * [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
 * [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+## <a name="next-steps"></a>後續步驟
+
+* [將資料推送至資料集](walkthrough-push-data.md)
+* [開發 Power BI 自訂視覺效果](custom-visual-develop-tutorial.md)
+* [Power BI REST API 參考](rest-api-reference.md)
+* [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
+
+有其他問題嗎？ [請嘗試詢問 Power BI 社群](http://community.powerbi.com/)
