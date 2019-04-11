@@ -61,6 +61,8 @@ items:
         href: ../power-bi-visualizations-arcgis.md
     - name: 一般工作
       items:
+      - name: 將資料匯出至 Excel
+        href: end-user-export.md
       - name: 查詢內容的擁有者及上次重新整理的日期
         href: end-user-fresh.md
       - name: 使用焦點模式和全螢幕模式，以不同方式放大內容
@@ -137,6 +139,8 @@ items:
         href: mobile/mobile-tiles-in-the-mobile-apps.md
       - name: 行動應用程式中的我的最愛
         href: mobile/mobile-apps-favorites.md
+      - name: 設定在行動裝置應用程式中的報告互動 (僅限手機)
+        href: mobile/mobile-app-single-tap.md
       - name: 在 Power BI 行動裝置應用程式中設定資料警示
         href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
       - name: 取得 Power BI 行動裝置應用程式中的通知
@@ -175,6 +179,8 @@ items:
         href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
       - name: 檢視為手機最佳化的報表
         href: mobile/mobile-apps-view-phone-report.md
+      - name: 存取來自外部組織的內容
+        href: mobile/mobile-apps-b2b.md
       - name: 從手機掃描 Power BI QR 代碼
         href: mobile/mobile-apps-qr-code.md
       - name: 在行動裝置應用程式中標註及共用
@@ -195,9 +201,9 @@ items:
     items:
     - name: 行動應用程式支援的語言
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: e32baf6ff64b485b1be29dea76bcbe864d2cdc59
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 6f9f080de3711a6a1a28f49da0298a67932d87e5
+ms.sourcegitcommit: c0add3d749f7e714e23824a742e105e694e4c129
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248968"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59430274"
