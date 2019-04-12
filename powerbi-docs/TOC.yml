@@ -240,6 +240,8 @@ items:
         href: desktop-what-if.md
       - name: 使用鑽研
         href: desktop-drillthrough.md
+      - name: 使用跨報表鑽研
+        href: desktop-cross-report-drill-through.md
       - name: 使用相對日期交叉分析篩選器與篩選
         href: visuals/desktop-slicer-filter-date-range.md
       - name: 使用分組與收納
@@ -278,6 +280,8 @@ items:
         href: power-bi-hyperlinks-in-tables.md
       - name: 條件式表格格式設定
         href: desktop-conditional-table-formatting.md
+      - name: 以條件運算式為基礎的標題格式設定
+        href: desktop-conditional-format-visual-titles.md
       - name: Power BI Desktop 中的依資料行排序
         href: desktop-sort-by-column.md
       - name: 建立針對行動裝置應用程式最佳化的報表
@@ -1331,9 +1335,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI 安全性
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
-ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
+ms.openlocfilehash: 5943c0bb07142be76241c2d4ed415920c99bc382
+ms.sourcegitcommit: 42892c281c7b1682a02efb3613fc1a75530c4830
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2019
-ms.locfileid: "59053430"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59479280"
