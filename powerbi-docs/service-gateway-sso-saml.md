@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: 3c9fd8877347ad0eebf7db059cc791583c89f353
+ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306496"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "65533712"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的單一登入 (SSO)，使用安全性聲明標記語言 (SAML)
 
@@ -75,7 +75,7 @@ openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_
 
     ![設定 SAML](media/service-gateway-sso-saml/configure-saml.png)
 
-1. 選取您在步驟 2 中建立的識別提供者。 針對 [外部身分識別]，輸入 Power BI 使用者的 UPN，然後選取 [新增]。
+1. 選取您在步驟 2 中建立的識別提供者。 針對**外部身分識別**，輸入 Power BI 使用者的 UPN （通常是電子郵件地址的使用者登入 Power BI），然後選取**新增**。 請注意，是否您已設定您的閘道使用 ADUserNameReplacementProperty 組態選項，您應該輸入的值將取代 Power BI 使用者的原始 UPN。 例如，如果您將設定 SAMAccountName ADUserNameReplacementProperty 您應輸入使用者的 SAMAccountName。
 
     ![選取識別提供者](media/service-gateway-sso-saml/select-identity-provider.png)
 
@@ -179,7 +179,7 @@ openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_
 
 如需**內部部署資料閘道**和 **DirectQuery** 的詳細資訊，請參閱下列資源：
 
-* [內部部署資料閘道](service-gateway-onprem.md)
+* [On-premises data gateway (內部部署資料閘道)](service-gateway-onprem.md)
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)
 * [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)
