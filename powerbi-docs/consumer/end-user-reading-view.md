@@ -12,28 +12,29 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2018
+ms.date: 05/13/2019
 ms.author: mihart
-ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: babdcebcdbc45ce3f7f737785ca4becab50cb3be
+ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280113"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65608276"
 ---
-<!-- once the sample aps are live, change this so consumers can follow along -->
+<!-- once the sample apps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>快速入門：了解適用於***取用者***的 Power BI 功能
-在此快速入門中，您會了解如何與 Power BI 互動，探索資料驅動商務見解。 此文章不適合用於深入了解，而是快速探索 Power BI **取用者**可用的許多動作。
+在此快速入門中，您會了解如何與 Power BI 互動，探索資料驅動商務見解。 本文不適合用於深入了解，而是快速探索 Power BI **取用者**可用的許多動作。
 
 如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
 
 ## <a name="prerequisites"></a>先決條件
-- Power BI 服務 (app.powerbi.com) <!-- app from AppSource -->
+- Power BI 服務 (app.powerbi.com)
+<!-- app from AppSource -->
 
 ## <a name="reading-view"></a>閱讀檢視
 閱讀檢視可讓報表取用者在 Power BI 服務中使用。 當同事與您共用報表時，閱讀檢視是您探索和與報表互動的方式。 
 
-另一個 Power BI 服務報表模式為[編輯檢視](../service-interact-with-a-report-in-editing-view.md)，可供報表設計師使用。  
+另一項 Power BI 服務報表模式為[編輯檢視](../service-interact-with-a-report-in-editing-view.md)，可供報表設計師使用。  
 
 探索儀表板與報表最有效及最安全的方法，就是閱讀檢視。 當您切割與您共用的儀表板和報表時，基礎資料集仍會保留完整而不會受到任何變更。 
 
@@ -56,7 +57,7 @@ Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處�
 
 ![儀表板](media/end-user-reading-view/power-bi-dashboard.png)
 
-您在儀表板上看到的視覺效果稱為「圖格」，從報表「釘選」在儀表板上。
+您在儀表板上看到的視覺效果稱為「磚」，從報表「釘選」在儀表板上。
 
 ### <a name="subscribe-to-a-dashboard-or-report"></a>訂閱儀表板 (或報表)
 您無須開啟 Power BI 也能監視儀表板。  您可以改為訂閱，使 Power BI 根據您設定的排程透過電子郵件寄送該儀表板的快照集給您。 
@@ -100,11 +101,11 @@ Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處�
 ### <a name="open-and-view-a-report-and-report-pages"></a>開啟和檢視報表及報表頁面
 報表是一或多個頁面的視覺效果。 Power BI 的報表設計工具會建立報表並[直接與取用者共用](end-user-shared-with-me.md)，或作為[應用程式](end-user-apps.md)的一部分。 
 
-您可以從儀表板開啟報表。 大部分的儀表板圖格從報表「釘選」。 選取圖格會開啟用來建立圖格的報表。 
+您可以從儀表板開啟報表。 大部分的儀表板磚從報表「釘選」。 選取磚會開啟用來建立磚的報表。 
 
-1. 從儀表板選取圖格。 在此範例中，我們已選取 [收入] 直條圖圖格。
+1. 從儀表板選取磚。 在此範例中，我們已選取 [收入] 直條圖磚。
 
-    ![已選取圖格的儀表板](./media/end-user-reading-view/power-bi-dashboard2.png)
+    ![已選取磚的儀表板](./media/end-user-reading-view/power-bi-dashboard2.png)
 
 2.  相關的報表隨即開啟。 請注意，我們在 [收入概觀] 頁面上。 此報表頁面包含我們從儀表板選取的直條圖。
 
@@ -185,7 +186,7 @@ Power BI 視覺效果是使用基礎資料集中的資料所建構。 如果您�
 1. 在 Power BI 服務中，開啟報表並選取視覺效果。  
 2. 若要顯示視覺效果背後的資料，請選取省略符號 (...) 並選擇 [顯示資料]。
    
-   ![選取 [顯示資料]](./media/end-user-show-data/power-bi-show-data2.png)
+   ![選取 [顯示資料]](./media/end-user-show-data/power-bi-explore-show-data.png)
 
 這向來只是**取用者**可使用 Power BI 服務來執行一些動作的快速概觀。  
 

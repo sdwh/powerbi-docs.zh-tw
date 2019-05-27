@@ -2,20 +2,20 @@
 title: 比較 Power BI 報表伺服器和 Power BI 服務
 description: 本文會比較 Power BI 報表伺服器和 Power BI 服務的功能。
 keywords: ''
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 02/06/2019
-ms.openlocfilehash: ba10e13062e4071e5afcc5d395836c96ed1401fd
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.date: 05/22/2019
+ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
+ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327910"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66187675"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
 
@@ -38,7 +38,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 使用應用程式發佈群組的報表 | 否 | 是 | [使用儀表板和報表建立並發佈應用程式](../service-create-distribute-apps.md) |
 | 內容套件 | 否 | 是 | [組織內容套件：簡介](../service-organizational-content-pack-introduction.md) |
 | 連線到服務 (例如 Salesforce) | 是 | 是 | 在 Power BI 服務中，使用內容套件[連線至您所使用的服務](../service-connect-to-services.md)。 在 Power BI 報表伺服器中，請使用經認證的連接器來連線至服務。 如需詳細資料，請參閱 [Power BI 報表伺服器中的 Power BI 報表資料來源](data-sources.md)。 |
-| 問與答 | 否 | 是 | [Power BI 服務和 Power BI Desktop 中的問與答](../consumer/end-user-q-and-a.md) 
+| 問與答 | 否 | 是 | [Power BI 服務和 Power BI Desktop 中的問與答](../power-bi-tutorial-q-and-a.md) 
 | 深入資訊摘要 | 否 | 是 | [使用 Power BI 自動產生資料的見解](../consumer/end-user-insights.md) |
 | 在 Excel 中分析 | 否 | 是 | [使用 Excel 分析](../service-analyze-in-excel.md) 
 | 編頁報表 | 是 | 是 | Premium 容量的預覽版中，[可於 Power BI 服務內使用編頁的報表](../paginated-reports-report-builder-power-bi.md) |
