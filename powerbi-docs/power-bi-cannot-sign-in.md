@@ -1,8 +1,8 @@
 ---
 title: 無法連絡 Power BI 支援人員
 description: 在使用者無法登入時，要建立 Power BI 案例的因應措施
-author: markingmyname
-ms.author: maghan
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: 1605293474a7cbfefb448d74127639153e29325c
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 830d75aaddd60ce0b678d6abdbeca7cd79a3ab28
+ms.sourcegitcommit: 2df541facab8a1621953e91dbbee18c7d4e9a3c3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964609"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "64769839"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>對 Power BI 的登入問題進行疑難排解
 

@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2019
+ms.date: 05/11/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b97d2b44e6751f9185b02afc61ca89296fbbd5cf
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: 1b47e51ece196d6667363d91f43589c398828ff9
+ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661621"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65608296"
 ---
 # <a name="supported-browsers-for-power-bi"></a>支援 Power BI 的瀏覽器
 Power BI 可在這些瀏覽器中執行：
@@ -30,7 +30,6 @@ Power BI 可在這些瀏覽器中執行：
 所有適用的平台都支援這些瀏覽器。
 
 ### <a name="next-steps"></a>後續步驟
-* [Power BI 是什麼？](../power-bi-overview.md)
 * 請嘗試詢問 [Power BI 社群](http://community.powerbi.com/)
 * 仍有問題嗎？ 請前往 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)
 
