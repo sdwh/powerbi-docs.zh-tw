@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 63924dd4769b4ce452d2d8de4252228bb6d37d37
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
+ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275540"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65625065"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>連線至 Power BI 服務中的範例
 
@@ -78,7 +78,7 @@ ms.locfileid: "54275540"
     ![已醒目提示相符視覺效果的報表頁面](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > 如果磚是使用 [Power BI 問與答](consumer/end-user-q-and-a.md)所建立，會改為開啟問與答頁面。 如果該磚是[釘選自 Excel](service-dashboard-pin-tile-from-excel.md)，則 Excel Online 將會在 Power BI 中開啟。
+   > 如果磚是使用 [Power BI 問與答](power-bi-tutorial-q-and-a.md)所建立，會改為開啟問與答頁面。 如果該磚是[釘選自 Excel](service-dashboard-pin-tile-from-excel.md)，則 Excel Online 將會在 Power BI 中開啟。
    > 
    > 
 1. 返回您的 [資料集] 索引標籤，您有多種選項可以探索資料集。  您無法加以開啟及查看所有資料行和資料列 (如同您在 Power BI Desktop 或 Excel 中)。  當有人與同事共用內容套件時，他們通常會想共用深入資訊，而不會把資料的直接存取權提供給同事。 但這不表示您無法探索資料集。  
@@ -129,11 +129,9 @@ ms.locfileid: "54275540"
 
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 基本概念](consumer/end-user-basic-concepts.md)
 
-[Power BI 服務範例](sample-datasets.md)
-
-[Power BI 的資料來源](service-get-data.md)
+- [Power BI 基本概念](consumer/end-user-basic-concepts.md)
+- [Power BI 服務範例](sample-datasets.md)
+- [Power BI 的資料來源](service-get-data.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
-

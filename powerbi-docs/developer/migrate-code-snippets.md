@@ -1,20 +1,20 @@
 ---
 title: 從 Power BI Embedded 移轉內容的程式碼片段
 description: 以下是內容移轉所需之基本作業的一些程式碼片段
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: c3357b89ef02d29c0518b12780339d8612c75387
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61269211"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>從 Power BI 工作區集合遷移內容的程式碼片段
 
@@ -234,7 +234,7 @@ using System.Threading.Tasks;
 [內嵌在 Power BI 之中](embedding.md)  
 [如何將 Power BI Embedded 工作區集合內容移轉至 Power BI](migrate-from-powerbi-embedded.md)  
 [如何內嵌 Power BI 儀表板、報告和圖格](embedding-content.md)  
-[何謂 Power BI Premium](../service-premium.md)  
+[何謂 Power BI Premium](../service-premium-what-is.md)  
 [JavaScript API Git 存放庫](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 存放庫](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 內嵌示範](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

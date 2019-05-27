@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
+ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
+ms.sourcegitcommit: c9080e77ab705f1814a352c0dda6b10910a5018e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225952"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65941451"
 ---
 # <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Power BI Desktop 中的多對多基數關聯性
 
@@ -25,7 +25,7 @@ ms.locfileid: "56225952"
 
 Power BI Desktop 之「多對多基數關聯性」功能是三個相關功能的其中之一：
 
-* **複合模型**：允許報表可有兩 (含) 個以上任意組合的資料連線，包括 DirectQuery 連線或匯入。 如需詳細資訊，請參閱 [Power BI Desktop 的複合模型 (預覽)](desktop-composite-models.md)。
+* **複合模型**：允許報表可有兩 (含) 個以上任意組合的資料連線，包括 DirectQuery 連線或匯入。 如需詳細資訊，請參閱 [Power BI Desktop 的複合模型](desktop-composite-models.md)。
 
 * **多對多基數關聯性**：您可以使用「複合模型」在資料表之間建立「多對多基數關聯性」。 此方法會移除資料表中唯一值的需求。 此方法也會移除先前的因應措施，像是只為建立關聯性而導入新的資料表。 本文中進一步說明此功能。
 
@@ -157,7 +157,7 @@ Power BI Desktop 之「多對多基數關聯性」功能是三個相關功能的
 ## <a name="next-steps"></a>後續步驟
 
 如需複合模型及 DirectQuery 的詳細資訊，請參閱下列文章：
-* [Power BI Desktop 的複合模型 (預覽)](desktop-composite-models.md)
+* [Power BI Desktop 中的複合模型](desktop-composite-models.md)
 * [Power BI Desktop 中的儲存模式 (預覽)](desktop-storage-mode.md)
 * [在 Power BI Desktop 中使用 DirectQuery](desktop-directquery-about.md)
 * [Power BI 中 DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)

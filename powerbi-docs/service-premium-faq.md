@@ -1,8 +1,8 @@
 ---
 title: Power BI Premium 常見問題集
 description: 瀏覽常見問題集清單並取得 Power BI Premium 供應項目相關問題的解答。
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
+ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383329"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65565369"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常見問題集
 
-本文可解決關於 Power BI Premium 的常見問題。 如需概觀，請參閱[什麼是 Power BI Premium？](service-premium.md)。
+本文可解決關於 Power BI Premium 的常見問題。 如需概觀，請參閱[什麼是 Power BI Premium？](service-premium-what-is.md)。
 
 * 如果您有其他問題，請[嘗試詢問 Power BI 社群](http://community.powerbi.com/)。
 * 仍有問題嗎？ 請前往 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
@@ -84,7 +84,7 @@ Power BI 報表伺服器是內部部署伺服器，允許在組織的整個防�
 
 **後續步驟**
 
-[什麼是 Power BI Premium？](service-premium.md)
+[什麼是 Power BI Premium？](service-premium-what-is.md)
 [Power BI Premium 版本資訊](service-premium-release-notes.md)
 [Microsoft Power BI Premium 白皮書](https://aka.ms/pbipremiumwhitepaper)
 [規劃 Power BI Enterprise 部署白皮書](https://aka.ms/pbienterprisedeploy)

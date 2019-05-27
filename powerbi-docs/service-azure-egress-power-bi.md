@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 528d31a72d2c78b0a00f853d2df82f3a4eb04eae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 720ef2f059c3c87be84c3d8db98e89400c161ad0
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295321"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514393"
 ---
 # <a name="power-bi-and-azure-egress"></a>Power BI 與 Azure 輸出
 
@@ -33,7 +33,7 @@ ms.locfileid: "54295321"
 
 如需 Power BI Premium 或多地理位置的詳細資訊，請查看下列資源：
 
-* [Microsoft Power BI Premium 是什麼？](service-premium.md)
+* [Microsoft Power BI Premium 是什麼？](service-premium-what-is.md)
 * [如何購買 Power BI Premium](service-admin-premium-purchase.md)
 * [Power BI Premium 的多地理位置支援 (預覽)](service-admin-premium-multi-geo.md)
 * [我的 Power BI 租用戶位於何處？](service-admin-where-is-my-tenant-located.md)

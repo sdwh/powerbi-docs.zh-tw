@@ -1,20 +1,20 @@
 ---
 title: 以程式設計的方式為 Power BI 設定認證
 description: 如何針對自動化以程式設計的方式為 Power BI 設定認證
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/25/2019
-ms.openlocfilehash: 2b4e2f5a4e95b412459dd8fe8d497966e541b389
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: f93119a621330d673fd2cf6035e0416646bd5e6a
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61380160"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>以程式設計的方式為 Power BI 設定認證
 
@@ -54,7 +54,7 @@ ms.locfileid: "56892600"
 
 ### <a name="expired-on-premises-data-source-credentials-flow"></a>到期的內部部署資料來源認證流程
 
-1. [遵循前述的步驟 1 和 2](#configure-credential-flow-for-data-sources)。
+1. [遵循前述的步驟 1 和 2](#configure-a-credential-flow-for-data-sources)。
 
 2. 呼叫 [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways)來擷取閘道公開金鑰。
 

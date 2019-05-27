@@ -1,7 +1,7 @@
 ---
 title: 直接在報表產生器的編頁報表中輸入資料 (預覽)
 description: 在本文中，您會了解如何將資料直接輸入報表產生器中的編頁報表。
-author: markingmyname
+author: maggiesMSFT
 ms.author: maggies
 manager: kfile
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
-ms.openlocfilehash: 27f8434b336c2d1281fb087d4e9acf83958f7329
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61424319"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>直接在報表產生器的編頁報表中輸入資料 (預覽) - Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "56324982"
 ## <a name="prerequisites"></a>先決條件
 
 - 若要在編頁報表中直接輸入資料，請[從 Microsoft 下載中心](https://www.microsoft.com/download/details.aspx?id=53613)安裝新版的報表產生器。 
-- 若要將編頁報表儲存至 Power BI 服務，您需要 [Power BI Pro 帳戶](service-self-service-signup-for-power-bi.md)以及 [Power BI Premium 容量](service-premium.md)中工作區的寫入權限。
+- 若要將編頁報表儲存至 Power BI 服務，您需要 [Power BI Pro 帳戶](service-self-service-signup-for-power-bi.md)以及 [Power BI Premium 容量](service-premium-what-is.md)中工作區的寫入權限。
 - 若要將編頁報表儲存至報表伺服器，您需要[編輯 RsReportServer.config 檔案](#upload-the-paginated-report-to-a-report-server)的權限。
 
 ## <a name="get-started"></a>開始使用

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e3092c320008df760ef72408c93f601dde26cdef
+ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279841"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66051149"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>部署 Power BI 之資料閘道的指引
 
@@ -42,7 +42,7 @@ ms.locfileid: "54279841"
 ### <a name="connection-type"></a>連線類型
 **Power BI** 提供兩種類型的連線：**DirectQuery** 和**匯入**。 並非所有資料來源都支援兩種連接類型，而且有許多原因可能會導致選擇其中一個，例如安全性需求、效能、資料限制和資料模型大小。 您可以深入了解[內部部署資料閘道](service-gateway-onprem.md)一文的＜可用資料來源類型清單＞一節中的連線類型和支援的資料來源。
 
-根據使用的連接類型，閘道使用量可能會不同。 例如，可能的話，您應該嘗試分隔 **DirectQuery** 資料來源與 [排程重新整理] 資料來源 (假設它們位於不同的報表中，而且可以予以分隔)。 在早上排程重新整理用於公司主要儀表板的大規模資料模型的同時，這樣做可避免閘道將數千個 DirectQuery 要求排入佇列中。 以下是每個所需要考量的事項：
+根據使用的連接類型時，閘道使用量可能會不同。 例如，可能的話，您應該嘗試分隔 **DirectQuery** 資料來源與 [排程重新整理] 資料來源 (假設它們位於不同的報表中，而且可以予以分隔)。 如此一來可避免閘道將數千**DirectQuery**要求排入佇列，在同一時間為早上輸入排程的重新整理用於公司主要儀表板的大型資料模型。 以下是每個所需要考量的事項：
 
 * **排程重新整理**：根據查詢大小以及每天發生的重新整理次數，您可以選擇保持建議的最低硬體需求，或升級為更高效能的電腦。 如果未摺疊指定的查詢，就會在閘道電腦上進行轉換；因此，閘道電腦受惠於具有更多可用的 RAM。
 * **DirectQuery**：每次任何使用者開啟報表或查看資料時，都會傳送查詢。 因此，如果您預期有 1,000 位以上的使用者同時存取資料，則您會想要確定電腦具有穩固且支援硬體的元件。 更多的 CPU 核心將會導致 **DirectQuery** 連接具有更佳的輸送量。

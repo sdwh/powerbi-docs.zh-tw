@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/07/2019
+ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 8a86d17252bea3dbdb6ad30de35667cfbd844c8b
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: e75810d18b39619d249c3acd9a9140b3d19d5f35
+ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430384"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66051454"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
@@ -46,7 +46,7 @@ Power BI 服務受 [Microsoft Online Services 條款](http://www.microsoftvolume
 
 ![WFE 和後端](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI 使用 Azure Active Directory (**AAD**) 來驗證與管理帳戶。 Power BI 也會使用 **Azure 流量管理員 (ATM)**，將使用者流量導向至由用戶端嘗試連線之 DNS 記錄所決定的最近資料中心，以便進行驗證程序及下載靜態內容和檔案。 Power BI 使用 **Azure 內容傳遞網路 (CDN)**，以根據地區設定有效率地散發必要的靜態內容和檔案給使用者。
+Power BI 使用 Azure Active Directory (**AAD**) 來驗證與管理帳戶。 Power BI 也會使用 **Azure 流量管理員 (ATM)**，將使用者流量導向至由用戶端嘗試連線之 DNS 記錄所決定的最近資料中心，以便進行驗證程序及下載靜態內容和檔案。 Power BI 用來有效率地散發必要的靜態內容和檔案給使用者，但這會經由自訂視覺效果的地理位置最接近的 WFE **Azure 內容傳遞網路 (CDN)**。
 
 ### <a name="the-wfe-cluster"></a>WFE 叢集
 
@@ -231,7 +231,7 @@ DirectQuery 和其他查詢之間的差異決定 Power BI 服務處理待用資�
 
     b. ETL – 在 Azure Blob 儲存體中加密，但目前 Power BI 服務之 Azure Blob 儲存體中的所有資料都使用 [Azure 儲存體服務加密 (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption)，也稱為伺服器端加密。 多地理位置也使用 SSE。
 
-    c. 推送資料 v1 – 在 Azure Blob 儲存體中儲存加密，但目前 Power BI 服務之 Azure Blob 儲存體中的所有資料都使用 [Azure 儲存體服務加密 (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption)，也稱為伺服器端加密。 多地理位置也使用 SSE。
+    c. 推送資料 v1 – 在 Azure Blob 儲存體中儲存加密，但目前 Power BI 服務之 Azure Blob 儲存體中的所有資料都使用 [Azure 儲存體服務加密 (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption)，也稱為伺服器端加密。 多地理位置也使用 SSE。 推播資料 v1 中已停止從 2016年開始。 
 
     d. 推送資料 v2 – 在 Azure SQL 儲存加密。
 
@@ -248,22 +248,24 @@ Power BI 以下列方式提供資料完整性監視：
 1. 中繼資料 (報表定義)
 
    a. 報表可以是 Office 365 的 Excel 報表或 Power BI 報表。 下列適用於以報表類型為基礎的中繼資料：
+        
+    &ensp; &ensp; a. Excel 報表中繼資料會儲存在 SQL Azure 中加密。 中繼資料也會儲存在 Office 365 中。
 
-       a. Excel Report metadata is stored encrypted in SQL Azure. Metadata is also stored in Office 365.
-
-       b. Power BI reports are stored encrypted in Azure SQL database.
+    &ensp; &ensp; b. Power BI 報表會儲存在 Azure SQL 資料庫中加密。
 
 2. 靜態資料
 
    靜態資料包括背景映像和自訂視覺效果等成品。
 
-    a. 使用 Office 365 Excel 建立的報表，不儲存任何內容。
+    &ensp; &ensp; a. 使用 Office 365 Excel 建立的報表，不儲存任何內容。
 
-    b. Power BI 報表的靜態資料會在 Azure Blob 儲存體中儲存加密。
+    &ensp; &ensp; b. Power BI 報表的靜態資料會在 Azure Blob 儲存體中儲存加密。
 
-3. 快取 a. 使用 Office 365 Excel 建立的報表，不快取任何內容。
+3. 快取
 
-    b. Power BI 報表中顯示的視覺效果資料會在 Azure SQL Database 中快取加密。
+    &ensp; &ensp; a. 使用 Office 365 Excel 建立的報表，不快取任何內容。
+
+    &ensp; &ensp; b. Power BI 報表中顯示的視覺效果資料會在 Azure SQL Database 中快取加密。
  
 
 4. 發佈到 Power BI 的原始 Power BI Desktop (.pbix) 或 Excel (.xlsx) 檔案
@@ -280,7 +282,7 @@ Power BI 以下列方式提供資料完整性監視：
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>暫時存放在靜態裝置上的資料
 
-下列描述暫時存放在靜態裝置上的資料。
+靜態裝置是裝置有持續發生，而不需要常數電源的記憶體。 下列描述暫時存放在靜態裝置上的資料。 
 
 #### <a name="datasets"></a>資料集
 
@@ -293,6 +295,9 @@ Power BI 以下列方式提供資料完整性監視：
     a. 內部部署 Analysis Services – 不存放任何內容
 
     b. DirectQuery – 視模型是否直接在服務中建立，其會存放在連接字串中，加密格式為儲存在同一位置純文字的加密金鑰 (以及加密的資訊)；或者，如果模型從 Power BI Desktop 匯入，則認證不會存放在靜態裝置中。
+
+    > [!NOTE]
+    > 從 2017年開始中已停止的服務端模型建立的功能。
 
     c. 推送的資料 – 無 (不適用)
 
@@ -311,7 +316,7 @@ Power BI 以下列方式提供資料完整性監視：
 
 ## <a name="user-authentication-to-data-sources"></a>資料來源的使用者驗證
 
-針對每個資料來源，使用者以其登入為基礎建立連線，並使用這些認證存取資料。 然後，使用者可以根據基礎資料建立查詢、儀表板和報表。
+與每個資料來源，使用者會建立其登入的連線，並存取這些認證的資料。 然後，使用者可以根據基礎資料建立查詢、儀表板和報表。
 
 當使用者共用查詢、儀表板、報表或任何視覺效果時，能否存取該資料和這些視覺效果，取決於基礎資料來源是否支援角色層級安全性 (RLS)。
 
@@ -452,6 +457,12 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 * 是。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。 如需詳細資訊以及 Power BI 外租用戶流量的詳細描述，請參閱 [**Power BI 和 ExpressRoute**](service-admin-power-bi-expressroute.md)。
 
+**針對範本應用程式，不會 Microsoft 執行任何安全性或隱私權範本應用程式發佈至資源庫的項目之前評估嗎？**
+* 否。  應用程式發行者負責時的客戶有責任檢閱並判斷是否要信任該範本的應用程式發行者的內容。 
+
+**有傳送資訊的客戶網路外部的範本應用程式嗎？**
+* 是。 是檢閱發行者的隱私權原則，並判斷是否要將應用程式範本安裝租用戶的客戶的責任。 此外，「 發行者 」 端會負責通知的應用程式的行為與功能。
+
 **資料主權呢？我們能在位於特定地理位置的資料中心佈建租用戶，來確保資料不會離開國家/地區邊界嗎？**
 
 * 特定地理位置中的某些客戶可在國家/地區雲端中建立租用戶，其中的資料儲存和處理會和所有其他資料中心分開。 因為有獨立的資料信任者代表 Microsoft 負責運作國家/地區雲端 Power BI 服務，所以國家/地區雲端的安全性類型稍有不同。
@@ -481,7 +492,7 @@ Power BI 中的資料儲存和資料處理，會根據是否使用 DirectQuery �
 - [Power BI Gateway](service-gateway-manage.md)
 - [Power BI REST API - Overview](https://msdn.microsoft.com/library/dn877544.aspx) (Power BI REST API - 概觀)
 - [Power BI API reference](https://msdn.microsoft.com/library/mt147898.aspx) (Power BI API 參考)
-- [內部部署資料閘道](service-gateway-manage.md)
+- [On-premises data gateway (內部部署資料閘道)](service-gateway-manage.md)
 - [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI 國家/地區雲端](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
