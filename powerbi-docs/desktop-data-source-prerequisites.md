@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4f4da9bac29e79627dc527e057dde5cd10bd8af6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5a95607c2328115df7b4485756f40340a8cb7b0f
+ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281589"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65454387"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI 資料來源的必要條件
 針對每個資料提供者，Power BI 會在物件上支援特定的提供者版本。 如需 Power BI 可用資料來源的詳細資訊，請參閱[資料來源](desktop-data-sources.md)。 下表說明這些需求。

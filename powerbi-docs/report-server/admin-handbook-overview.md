@@ -1,27 +1,25 @@
 ---
 title: 系統管理員概觀：Power BI 報表伺服器
 description: 本文是 Power BI 報表伺服器的系統管理員概觀，這個內部部署位置可用於儲存及管理您的 Power BI 報表、行動報表及分頁報表。
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/24/2018
-ms.author: maghan
-ms.openlocfilehash: 745db7ea9c1a702389f2afae4408024ddb54b734
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 05/22/2019
+ms.author: maggies
+ms.openlocfilehash: c670c78b03a1cd3fd6ce1ad3aeaa0003ce794eec
+ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288075"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66187373"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>系統管理員概觀：Power BI 報表伺服器
 本文是 Power BI 報表伺服器的系統管理員概觀，這個內部部署位置可用於儲存及管理您的 Power BI 報表、行動報表及分頁報表。 此文章將介紹規劃、部署及管理「Power BI 報表伺服器」的概念，並提供詳細資訊連結。
 
 ![](media/admin-handbook-overview/admin-handbook.png)
-
-
 
 ## <a name="installing-and-migration"></a>安裝和移轉
 您必須安裝 Power BI 報表伺服器，才可開始使用。 我們有文章說明如何處理這樣的工作。
