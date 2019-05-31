@@ -8,21 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 05/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 2b5e65ff8e9f603dad0e0537ba52e7da799bf177
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 6c9d59bbc2c6bf81242166bef4cd7584f52fb633
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383546"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65941605"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
-系統管理入口網站可讓您管理您組織的 Power BI 租用戶。 入口網站包含項目如使用計量、存取 Microsoft 365 系統管理中心及設定等。
+系統管理入口網站可讓您管理您組織的 Power BI 租用戶  。 入口網站包含項目如使用計量、存取 Microsoft 365 系統管理中心及設定等。
 
-Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理員角色的所有使用者，都可以存取整個系統管理入口網站。 若您不屬於任何這些角色，您只會看到入口網站中的 [容量設定]。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。
+Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理員角色的所有使用者，都可以存取整個系統管理入口網站。 若您不屬於任何這些角色，您只會看到入口網站中的 [容量設定]  。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。
 
 ## <a name="how-to-get-to-the-admin-portal"></a>如何取得管理入口網站
 
@@ -30,11 +30,11 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 1. 選取 Power BI 服務右上角的設定齒輪。
 
-1. 選取 [系統管理入口網站]。
+1. 選取 [系統管理入口網站]  。
 
     ![管理入口網站設定](media/service-admin-portal/powerbi-admin-settings.png)
 
-入口網站中有七個索引標籤。 此文章其餘部分提供有關這些索引標籤的資訊。
+在入口網站中有九個索引標籤。 此文章其餘部分提供有關這些索引標籤的資訊。
 
 ![管理入口網站瀏覽](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -44,11 +44,13 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 * [租用戶設定](#tenant-settings)
 * [容量設定](#capacity-settings)
 * [內嵌程式碼](#embed-codes)
-* [組織視覺效果](#organizational-visuals)
+* [組織視覺效果](#organization-visuals)
+* [資料流程儲存體 （預覽）](#dataflowStorage)
+* [工作區](#workspaces)
 
 ## <a name="usage-metrics"></a>使用計量
 
-[使用計量] 可讓您監視您組織的 Power BI 使用量。 它也能讓您查看貴組織 Power BI 中最活躍的使用者和群組。
+[使用計量]  可讓您監視您組織的 Power BI 使用量。 它也能讓您查看貴組織 Power BI 中最活躍的使用者和群組。
 
 > [!NOTE]
 > 第一次存取儀表板，或經過長時間未檢視儀表板而再次瀏覽時，您可能會在載入儀表板時看到載入畫面。
@@ -83,21 +85,21 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ## <a name="users"></a>使用者
 
-您可以在 Microsoft 365 系統管理中心管理 Power BI 使用者、群組與管理員。 [使用者] 索引標籤提供您租用戶系統管理中心的連結。
+您可以在 Microsoft 365 系統管理中心管理 Power BI 使用者、群組與管理員。 [使用者]  索引標籤提供您租用戶系統管理中心的連結。
 
 ![前往 MIcrosoft 365 系統管理中心](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>稽核記錄
 
-您可以在 Office 365 安全性與合規性中心管理 Power BI 稽核記錄。 [稽核記錄] 索引標籤提供您租用戶安全性與合規性中心的連結。 [深入了解](service-admin-auditing.md)
+您可以在 Office 365 安全性與合規性中心管理 Power BI 稽核記錄。 [稽核記錄]  索引標籤提供您租用戶安全性與合規性中心的連結。 [深入了解](service-admin-auditing.md)
 
 若要使用稽核記錄，請確定已啟用[**建立內部活動稽核以及合規性的稽核記錄**](#create-audit-logs-for-internal-activity-auditing-and-compliance)設定。
 
 ## <a name="tenant-settings"></a>租用戶設定
 
-[租用戶設定] 索引標籤可讓您更精細地控制為您的組織提供的功能。 如果您對敏感性資料有疑慮、我們的某些功能可能不適合您的組織，或您可能希望特定群組只能使用特定功能。
+[租用戶設定]  索引標籤可讓您更精細地控制為您的組織提供的功能。 如果您對敏感性資料有疑慮、我們的某些功能可能不適合您的組織，或您可能希望特定群組只能使用特定功能。
 
-下圖顯示 [租用戶設定] 索引標籤的前兩個區段。
+下圖顯示 [租用戶設定]  索引標籤的前兩個區段。
 
 ![租用戶設定](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -126,15 +128,27 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 下面幾節將提供不同類型的租用戶設定概觀。
 
+## <a name="help-and-support-settings"></a>說明及支援的設定
+
+### <a name="publish-get-help-information"></a>發行 [取得說明] 資訊
+
+組織中的使用者可以移至內部的說明和支援 Power BI 的 [說明] 功能表中的資源。 具體來說，這些參數會變更行為的深入了解、 社群、 並取得說明 功能表項目。
+
+它也可指定要將使用者導向至授權要求的自訂解決方案的 URL。 此參數可自訂，而不需要 Power BI Pro 授權的使用者可以找到在 Power BI Pro 的對話方塊中的更新，以及管理個人儲存體頁面中的 [升級帳戶] 按鈕的目標 URL。
+
 ## <a name="workspace-settings"></a>工作區設定
 
-### <a name="create-workspaces-preview"></a>建立工作區 (預覽)
+### <a name="create-workspaces"></a>建立工作區
 
-組織中的使用者可以建立應用程式工作區，以在儀表板、報表及其他內容共同作業。 [深入了解](service-create-the-new-workspaces.md)
+系統管理員會使用**建立工作區**設定，來表示組織中的哪些使用者可以建立儀表板、 報表和其他共同作業的應用程式工作區內容。 深入了解[應用程式工作區](service-create-the-new-workspaces.md)。
+
+管理入口網站會有關於您的租用戶中的工作區設定的另一個區段。 在該區段中，您可以排序和篩選的工作區清單，並顯示每個工作區的詳細資料。 請參閱[工作區](#workspaces)如需詳細資訊。
+
+在管理入口網站中，您也控制哪些使用者可以散發給組織的應用程式的權限。 請參閱[將內容套件及應用程式發佈到整個組織](#publish-content-packs-and-apps-to-the-entire-organization)中進一步了解這篇文章。
 
 ## <a name="export-and-sharing-settings"></a>匯出及共用設定
 
-### <a name="share-content-to-external-users"></a>將內容共用給外部使用者
+### <a name="share-content-with-external-users"></a>與外部使用者共用內容
 
 組織中的使用者可以和組織外的使用者共用儀表板。 [深入了解](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
 
@@ -142,23 +156,23 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 下圖顯示您與外部使用者共用時會出現的訊息。
 
-![與外部使用者共用](media/service-admin-portal/powerbi-admin-sharing-external.png)
+![與外部使用者共用](media/service-admin-portal/powerbi-admin-sharing-external.png)  
 
 ### <a name="publish-to-web"></a>發佈至 Web
 
 組織中的使用者可以將報表發行到網路。 [深入了解](service-publish-to-web.md)
 
-下圖顯示當啟用 [發行到 Web] 設定時，報表的 [檔案] 功能表。
+下圖顯示當啟用 [發行到 Web]  設定時，報表的 [檔案]  功能表。
 
 ![發行到 Web 設定](media/service-admin-portal/powerbi-admin-publish-to-web.png)
 
-視 [發行到 Web] 設定而定，使用者會在 UI 中看到不同的選項。
+視 [發行到 Web]  設定而定，使用者會在 UI 中看到不同的選項。
 
-|功能 |允許整個組織使用 |不允許整個組織使用 |特定安全性群組   |
+|特徵 |允許整個組織使用 |不允許整個組織使用 |特定安全性群組   |
 |---------|---------|---------|---------|
-|報告 [檔案] 功能表下的 [發佈至 web]。|針對全部啟用|並非所有人都可看到|只有經授權的使用者或群組才可看到。|
-|[設定] 下的 [管理內嵌程式碼]|針對全部啟用|針對全部啟用|針對全部啟用<br><br>[刪除]*  選項僅適用於經授權的使用者或群組。<br>針對全部啟用 [取得驗證碼]* 。|
-|系統管理員入口網站內的 [內嵌程式碼]|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態顯示「已停用」|狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者不是依租用戶設定獲得授權，狀態會顯示成「侵害」。|
+|報告 [檔案]  功能表下的 [發佈至 web]  。|針對全部啟用|並非所有人都可看到|只有經授權的使用者或群組才可看到。|
+|[設定]  下的 [管理內嵌程式碼] |針對全部啟用|針對全部啟用|針對全部啟用<br><br>[刪除]*   選項僅適用於經授權的使用者或群組。<br>針對全部啟用 [取得驗證碼]*   。|
+|系統管理員入口網站內的 [內嵌程式碼] |狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態顯示「已停用」 |狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者不是依租用戶設定獲得授權，狀態會顯示成「侵害」  。|
 |現有的已發佈報告|全部已啟用|全部已停用|報告會繼續針對全部項目呈現。|
 
 ### <a name="export-data"></a>匯出資料
@@ -170,13 +184,13 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 ![從圖格匯出資料](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
-> 停用 [匯出資料] 會讓使用者無法使用「在 Excel 中進行分析」功能，也無法使用 Power BI 服務即時連線。
+> 停用 [匯出資料]  會讓使用者無法使用「在 Excel 中進行分析」  功能，也無法使用 Power BI 服務即時連線。
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>將報表匯出成 PowerPoint 簡報或 PDF 文件
 
 組織中的使用者可將 Power BI 報表匯出成 PowerPoint 檔案或 PDF 文件。 [深入了解](consumer/end-user-powerpoint.md)
 
-下圖顯示當啟用 [Export reports as PowerPoint presentations or PDF documents] \(將報表匯出為 PowerPoint 簡報或 PDF 文件\) 設定時，報表的 [檔案] 功能表。
+下圖顯示當啟用 [Export reports as PowerPoint presentations or PDF documents]  \(將報表匯出為 PowerPoint 簡報或 PDF 文件\) 設定時，報表的 [檔案]  功能表。
 
 ![將報表匯出為 PowerPoint 簡報](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
@@ -188,7 +202,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ![列印儀表板](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
-下圖顯示當啟用 [列印儀表板與報表] 設定時，報表的 [檔案] 功能表。
+下圖顯示當啟用 [列印儀表板與報表]  設定時，報表的 [檔案]  功能表。
 
 ![列印報告](media/service-admin-portal/powerbi-admin-print-report.png)
 
@@ -203,19 +217,19 @@ Azure B2B 來賓使用者可編輯及管理組織中的內容。 [深入了解](
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>將內容套件及應用程式發佈到整個組織
 
-組織中的使用者可將內容套件與應用程式發佈到整個組織，而非只是發佈到特定群組。 [深入了解](service-organizational-content-pack-manage-update-delete.md)
+系統管理員會使用此設定可決定哪些使用者可以將發佈內容套件及應用程式到整個組織，而不是僅針對特定的群組。 深入了解[發佈應用程式](service-create-distribute-apps.md)。
 
-下圖顯示建立內容套件時的 [我的整個組織] 選項。
+下圖顯示建立內容套件時的 [我的整個組織]  選項。
 
 ![將內容套件發佈到組織](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-apps"></a>建立範本應用程式
+### <a name="create-template-apps-and-organizational-content-packs"></a>建立範本的應用程式和組織內容套件
 
-組織中的使用者可以建立範本應用程式，其中使用在 Power BI Desktop 中建置的資料集。 深入了解[範本應用程式](template-content-pack-authoring.md)
+組織中的使用者可以建立範本的應用程式和使用 Power BI Desktop 中的一個資料來源為基礎的資料集的組織內容套件。 深入了解[範本的應用程式](template-content-pack-authoring.md)。
 
 ### <a name="push-apps-to-end-users"></a>將應用程式推送給終端使用者
 
-使用者無須從 AppSource 進行安裝，就能將應用程式直接提供給終端使用者共用。 [深入了解](service-create-distribute-apps.md)
+報表建立者可以共用直接與使用者應用程式而不需要安裝從[AppSource](https://appsource.microsoft.com)。 深入了解[會自動為使用者安裝應用程式](service-create-distribute-apps.md#automatically-install-apps-for-end-users)。
 
 ## <a name="integration-settings"></a>整合設定
 
@@ -231,7 +245,7 @@ Azure B2B 來賓使用者可編輯及管理組織中的內容。 [深入了解](
 組織中的使用者可以使用 Excel 來檢視內部部署 Power BI 資料集，並與其互動。 [深入了解](service-analyze-in-excel.md)
 
 > [!NOTE]
-> 停用 [匯出資料] 也會讓使用者無法使用「在 Excel 中進行分析」功能。
+> 停用 [匯出資料]  也會讓使用者無法使用「在 Excel 中進行分析」  功能。
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>使用 ArcGIS Maps for Power BI
 
@@ -318,7 +332,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 內容建立者的使用計量，會公開正在存取內容之使用者的顯示名稱與電子郵件地址。 [深入了解](service-usage-metrics.md)
 
-根據預設，已啟用使用計量的個別使用者資料，而且會將內容建立者帳戶資訊併入計量報表中。 如果您不想要針對部分或所有使用者包括這項資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」。
+根據預設，已啟用使用計量的個別使用者資料，而且會將內容建立者帳戶資訊併入計量報表中。 如果您不想要針對部分或所有使用者包括這項資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」  。
 
 ## <a name="dashboard-settings"></a>儀表板設定
 
@@ -335,11 +349,18 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 組織中的使用者可以在軟體即服務 (SaaS) 應用程式中內嵌 Power BI 儀表板和報告。 停用此設定會讓使用者無法使用 REST API 在其應用程式中內嵌 Power BI 內容。 [深入了解](developer/embedding.md)
 
-## <a name="dataflow-settings-preview"></a>資料流程設定 (預覽)
+### <a name="allow-service-principals-to-use-power-bi-apis"></a>允許服務主體使用 Power BI API
 
-### <a name="create-and-use-dataflows-preview"></a>建立及使用資料流程 (預覽)
+在 Azure Active Directory (Azure AD) 中註冊的 web 應用程式會使用指派的服務主體，來存取 Power BI Api，而不需要登入的使用者。 若要允許應用程式以使用服務主體驗證其服務主體必須包含在允許的安全性群組。 [深入了解](developer/embed-service-principal.md)
 
-組織內的使用者可建立及使用資料流程。 如需資料流程的概觀，請參閱 [Power BI 的自助資料準備 (預覽)](service-dataflows-overview.md)。 若要啟用 Premium 容量中的資料流程，請參閱[設定工作負載](service-admin-premium-workloads.md)。
+> [!NOTE]
+> 服務主體會從其安全性群組繼承所有 Power BI 租用戶設定的使用權限。 若要限制使用權限，請建立服務主體專屬的安全性群組，並將它新增至相關已啟用 Power BI 設定的 [特定安全性群組除外] 清單。
+
+## <a name="dataflow-settings"></a>資料流程設定
+
+### <a name="create-and-use-dataflows"></a>建立及使用資料流程
+
+組織內的使用者可建立及使用資料流程。 如需資料流程的概觀，請參閱 <<c0> [ 在 Power BI 中的自助資料準備](service-dataflows-overview.md)。 若要啟用 Premium 容量中的資料流程，請參閱[設定工作負載](service-admin-premium-workloads.md)。
 
 > [!NOTE]
 > 這項設定適用於整個組織，而無法限於特定群組。
@@ -350,23 +371,30 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 ![Power BI 系統管理員入口網站範本應用程式設定](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
 
-第一個設定 [建立範本應用程式] 控制您組織中有誰可建立範本應用程式。 範本應用程式建立者隨後可透過 AppSource 或其他散發方法，將這些應用程式散發至組織外部的用戶端。
+### <a name="create-template-apps-preview"></a>建立範本應用程式 (預覽)
+
+組織中的使用者可以建立範本的應用程式。 範本應用程式建立者可以再將它們散發給藉由組織外部的用戶端[AppSource](https://appsource.microsoft.com)或其他發佈方法。
 
 ![Power BI 系統管理員入口網站，建立範本應用程式設定](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
-第二個設定 [安裝範本應用程式] 可讓您控制組織中有誰可以從 AppSource 或另一個來源下載並安裝範本應用程式
+### <a name="install-template-apps-preview"></a>安裝範本的應用程式 （預覽）
+
+組織中的使用者可以下載並安裝範本的應用程式[AppSource](https://appsource.microsoft.com)或另一個來源。
+
+> [!NOTE]
+> 此設定會決定哪些使用者可以安裝在他們的 Power BI 帳戶的範本應用程式。
 
 ## <a name="capacity-settings"></a>容量設定
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
-[Power BI Premium] 索引標籤可讓您管理已為您的組織購買的任何 Power BI Premium 容量 (EM 或 P SKU)。 組織內的所有使用者都可以看到 [Power BI Premium] 索引標籤，但如果他們被指派為*容量系統管理員*或具有指派權限的使用者，則只會看到其中的內容。 如果使用者沒有任何權限，系統會顯示下列訊息。
+[Power BI Premium]  索引標籤可讓您管理已為您的組織購買的任何 Power BI Premium 容量 (EM 或 P SKU)。 組織內的所有使用者都可以看到 [Power BI Premium]  索引標籤，但如果他們被指派為*容量系統管理員*或具有指派權限的使用者，則只會看到其中的內容。 如果使用者沒有任何權限，系統會顯示下列訊息。
 
 ![沒有 Premium 設定的存取權](media/service-admin-portal/premium-settings-no-access.png)
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-[Power BI Embedded] 索引標籤可讓您檢視您已為您的客戶購買的 Power BI Embedded (A SKU) 容量。 因為您只能從 Azure 購買 A SKU，您可以從 **Azure 入口網站**[管理 Azure 中的內嵌容量](developer/azure-pbie-create-capacity.md)。
+[Power BI Embedded]  索引標籤可讓您檢視您已為您的客戶購買的 Power BI Embedded (A SKU) 容量。 因為您只可以從 Azure 購買 A Sku 您[管理 Azure 中的內嵌的容量](developer/azure-pbie-create-capacity.md)從**Azure 入口網站**。
 
 如需有關如何管理 Power BI Embedded (A SKU) 設定的詳細資訊，請參閱[什麼是 Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md)。
 
@@ -376,9 +404,9 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 ![Power BI 管理入口網站中的內嵌程式碼](media/service-admin-portal/embed-codes.png)
 
-## <a name="organizational-visuals"></a>組織視覺效果
+## <a name="organizational-visuals">組織視覺效果</a>
 
-[組織視覺效果] 索引標籤可讓您部署及管理組織內的自訂視覺效果。 使用組織視覺效果時，您可以輕鬆地在您的組織中部署專屬視覺效果，供報表作者從 Power BI Desktop 探索並匯入到其報表。 [深入了解](power-bi-custom-visuals-organization.md)
+[組織視覺效果]  索引標籤可讓您部署及管理組織內的自訂視覺效果。 使用組織視覺效果時，您可以輕鬆地在您的組織中部署專屬視覺效果，供報表作者從 Power BI Desktop 探索並匯入到其報表。 [深入了解](power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > 自訂視覺效果可能包含具有安全性或隱私權風險的程式碼；在您將自訂視覺效果部署到組織存放庫之前，請確定您信任自訂視覺效果的作者與來源。
@@ -391,23 +419,23 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 若要將新的自訂視覺效果新增到清單中，請依照下列步驟執行。 
 
-1. 在右窗格中，選取 [新增自訂視覺效果]。
+1. 在右窗格中，選取 [新增自訂視覺效果]  。
 
     ![自訂視覺效果表單](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
 
-1. 填寫 [新增自訂視覺效果] 表單：
+1. 填寫 [新增自訂視覺效果]  表單：
 
-    * [選擇 .pbiviz 檔案] (必要)：選取要上傳的自訂視覺效果。 僅支援版本化 API 自訂視覺效果 (請參閱此處以了解其意義)。
+    * [選擇 .pbiviz 檔案]  (必要)：選取要上傳的自訂視覺效果。 僅支援版本化 API 自訂視覺效果 (請參閱此處以了解其意義)。
 
     上傳自訂視覺效果之前，您應該先檢閱該視覺效果的安全性和隱私權，確定它符合組織的標準。
 
-    * [命名您的自訂視覺效果] (必要)：提供視覺效果一個簡短標題，以便 Power BI Desktop 使用者了解其用途
+    * [命名您的自訂視覺效果]  (必要)：提供視覺效果一個簡短標題，以便 Power BI Desktop 使用者了解其用途
 
     * **圖示**：在 Power BI Desktop UI 中顯示的圖示檔案。
 
-    * [描述]：視覺效果的簡短描述，以提供使用者更多相關內容與資訊
+    * [描述]  ：視覺效果的簡短描述，以提供使用者更多相關內容與資訊
 
-1. 選取 [新增] 以起始上傳要求。 如果成功，您可以在清單中看到新項目。 如果失敗，您會收到一則適當的錯誤訊息
+1. 選取 [新增]  以起始上傳要求。 如果成功，您可以在清單中看到新項目。 如果失敗，您會收到一則適當的錯誤訊息
 
 ### <a name="delete-a-custom-visual-from-the-list"></a>從清單刪除自訂視覺效果
 
@@ -418,7 +446,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 ### <a name="disable-a-custom-visual-in-the-list"></a>刪除清單中的自訂視覺效果
 
-若要從組織市集停用視覺效果，請選取齒輪圖示。 在 [存取] 區段中，停用自訂視覺效果。
+若要從組織市集停用視覺效果，請選取齒輪圖示。 在 [存取]  區段中，停用自訂視覺效果。
 
 停用視覺效果之後，視覺效果將不會在現有報表中轉譯，而且它會顯示下面的錯誤訊息。
 
@@ -436,19 +464,21 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 如需詳細資訊，請前往[組織自訂視覺效果的常見問題集](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)
 
-## <a name="dataflow-storage-preview"></a>資料流程儲存體 (預覽)
+## <a name="dataflowStorage">資料流程儲存體 （預覽）</a>
 
 根據預設，搭配 Power BI 使用的資料儲存在 Power BI 提供的內部儲存體中。 透過整合資料流程與 Azure Data Lake Storage Gen2 (ADLS Gen2)，您可以在組織的 Azure Data Lake Storage Gen2 帳戶中儲存資料流程。 如需詳細資訊，請參閱[資料流程及 Azure Data Lake 整合 (預覽)](service-dataflows-azure-data-lake-integration.md)。
 
-## <a name="workspaces-preview"></a>工作區 (預覽)
+## <a name="workspaces"></a>工作區
 
-作為系統管理員，您可以檢視存在於租用戶中的工作區。 您可以排序和篩選工作區的清單，及顯示各工作區的詳細資料。 請注意，資料表資料行對應到工作區 [Power BI 管理 Rest API](/rest/api/power-bi/admin) 傳回的屬性。 個人工作區的類型為 **PersonalGroup**，舊版工作區的類型為 **Group**，新式工作區的類型為 **Workspace**。 如需詳細資訊，請參閱[在 Power BI 中建立新的工作區 (預覽)](service-create-the-new-workspaces.md)。
+作為系統管理員，您可以檢視存在於租用戶中的工作區。 您可以排序和篩選工作區的清單，及顯示各工作區的詳細資料。 資料表資料行對應至所傳回的屬性[Power BI 系統管理員 Rest API](/rest/api/power-bi/admin)工作區。 個人工作區屬於類型**PersonalGroup**，傳統的工作區都屬於型別**群組**，而且新的工作區體驗工作區的型別**工作區**。 如需詳細資訊，請參閱 < [Power BI 中建立新的工作區](service-create-the-new-workspaces.md)。
 
 ![工作區清單](media/service-admin-portal/workspaces-list.png)
 
+
 ## <a name="next-steps"></a>後續步驟
 
-[管理貴組織中的 Power BI](service-admin-administering-power-bi-in-your-organization.md)  [了解 Power BI 系統管理角色](service-admin-role.md)  
+[管理貴組織中的 Power BI](service-admin-administering-power-bi-in-your-organization.md)  
+[了解 Power BI 系統管理員角色](service-admin-role.md)  
 [稽核貴組織的 Power BI](service-admin-auditing.md)  
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

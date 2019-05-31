@@ -7,34 +7,42 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 05/14/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4ab0fe4e3398a37da34af02282a847f316f3f727
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 37108c88b3a4f1efe2d324d2b182276252072d78
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383145"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710456"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>在 Office 365 中追蹤 Power BI 服務健康狀態
 
-Microsoft 365 系統管理中心提供 Power BI 管理員重要的工具，包括有關服務健全狀況的目前和歷史資訊。 若要存取此資訊，您必須是下列角色之一：Power BI 服務管理員或 Office 365 全域管理員。 如需角色的詳細資訊，請參閱[與 Power BI 相關的系統管理員角色](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)。
+Microsoft 365 系統管理中心會提供重要的工具，適用於 Power BI 系統管理員。 這些工具包括服務健康情況的目前和歷程記錄資訊。 若要存取服務健全狀況資訊，您必須是下列角色之一：
+
+* Power BI 服務管理員
+
+* Office 365 全域管理員
+
+如需角色的詳細資訊，請參閱[系統管理員角色與 Power BI 相關](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)。
 
 1. 登入 [MIcrosoft 365 系統管理中心](https://portal.office.com/adminportal)。
 
-1. 選取 [服務健康狀態] 磚。
+1. 從左側的導覽列中，選取**全部顯示** > **健全狀況** > **服務健全狀況**。 服務健康情況頁面隨即出現：
 
-    ![[服務健康狀態] 磚](media/service-admin-health/service-health-tile.png)
+    ![Microsoft 365 系統管理中心，以叫出健全狀況] 和 [服務健全狀況選項的螢幕擷取畫面。](media/service-admin-health/service-health-tile.png)
 
-1. 在目前的清單中選取 [N 個建議] 或 [N 個事件]，然後檢閱結果。 在下圖中，您可以看到三個有效的建議的其中之一。
+1. 從**所有服務**清單中，選取**諮詢**或是**事件**檢閱結果。 在以下的螢幕擷取畫面，您會看到三個作用中的摘要報告的其中一個。
 
-    ![有效的建議](media/service-admin-health/active-advisories.png)
+    ![具有三個的摘要報告，Power BI 和顯示詳細資料 選項的 服務健全狀況 頁面的螢幕擷取畫面叫出。](media/service-admin-health/active-advisories.png)
 
-1. 若要查看詳細資訊，請選取項目的 [顯示詳細資料]。 在下圖中，您可以看到其他詳細資料，包括最近的狀態更新。
+1. 若要查看詳細資訊，請選取項目的 [顯示詳細資料]  。 在以下的螢幕擷取畫面，您會看到其他詳細資料，包括最新狀態更新。
 
-    ![建議的詳細資料](media/service-admin-health/advisory-details.png)
+    ![諮詢螢幕擷取畫面的詳細資料。](media/service-admin-health/advisory-details.png)
 
     向下捲動以查看更多資訊，然後當您完成時即可關閉窗格。
 
-1. 若要查看所有服務的歷史資訊，請在主要清單右上角選取 [檢視歷程記錄]。 然後選取 [最近 7 天] 或 [最近 30 天]。 若要返回目前的服務健康狀態，請選取 [檢視目前狀態]。
+1. 若要查看歷程記錄資訊的右上角中的所有服務跨**服務健全狀況**頁面上，選取**檢視歷程記錄**。 然後選取 [最近 7 天]  或 [最近 30 天]  。 
+
+1. 若要返回目前的服務健康狀態，請選取 [檢視目前狀態]  。

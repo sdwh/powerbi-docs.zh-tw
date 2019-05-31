@@ -12,16 +12,16 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 1f50fa577cace62adadd0dfc29216445c6c8f269
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454363"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>直接將資料輸入 Power BI Desktop
 使用 Power BI Desktop，您可以直接輸入資料，並在您的報表和視覺效果中使用該資料。 例如，您可以複製部分的活頁簿或網頁，然後將其貼到 Power BI Desktop。
 
-若要直接輸入資料，請從 [主資料夾] 功能區選取 [輸入資料]。
+若要直接輸入資料，請從 [主資料夾]  功能區選取 [輸入資料]  。
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.png)
 
@@ -29,9 +29,9 @@ Power BI Desktop 可能會嘗試小幅轉換資料 (如果適當的話)，就像
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_2.png)
 
-如果您想要修改輸入的資料 (或貼上)，您可以選取 [編輯] 按鈕，以帶出 [查詢編輯器]，這可以在將資料帶入 Power BI Desktop 之前於其中修改及轉換資料。 您也可以選取 [載入] 按鈕，在資料顯示時將其匯入。
+如果您想要修改輸入的資料 (或貼上)，您可以選取 [編輯] 按鈕，以帶出 [查詢編輯器]  ，這可以在將資料帶入 Power BI Desktop 之前於其中修改及轉換資料。 您也可以選取 [載入]  按鈕，在資料顯示時將其匯入。
 
-當您選取 [載入] 時，Power BI Desktop 會使用您的資料建立新資料表，並可在 [欄位] 窗格中使用。 下圖中，Power BI Desktop 顯示了我的新資料表 (預設名稱為 *Table1*) 以及在新建立資料表中的兩個欄位。
+當您選取 [載入]  時，Power BI Desktop 會使用您的資料建立新資料表，並可在 [欄位]  窗格中使用。 下圖中，Power BI Desktop 顯示了我的新資料表 (預設名稱為 *Table1*) 以及在新建立資料表中的兩個欄位。
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_3.png)
 

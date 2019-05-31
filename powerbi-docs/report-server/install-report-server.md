@@ -1,30 +1,32 @@
 ---
 title: 安裝 Power BI 報表伺服器
 description: 了解如何安裝 Power BI 報表伺服器。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/07/2018
-ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014430"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187740"
 ---
 # <a name="install-power-bi-report-server"></a>安裝 Power BI 報表伺服器
 
 了解如何安裝 Power BI 報表伺服器。
 
- **下載**![下載](media/install-report-server/download.png "下載")
+## <a name="download-power-bi-report-server"></a>下載 Power BI 報表伺服器
 
-若要下載 Power BI 報表伺服器，請前往[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)，然後選取 [下載免費試用]。 
+[下載 Power BI 報表伺服器](https://www.microsoft.com/download/details.aspx?id=56722)從 Microsoft 下載中心取得。
 
-## <a name="before-you-begin"></a>開始之前
+也是免費的試用版。 在 [內部部署 Power BI 報表伺服器報表](https://powerbi.microsoft.com/report-server/)頁面上，選取**下載免費試用版**。
+
+## <a name="before-you-install"></a>安裝之前
 
 安裝 Power BI 報表伺服器之前，建議您先檢閱[安裝 Power BI 報表伺服器的硬體和軟體需求](system-requirements.md)。
 
@@ -33,13 +35,20 @@ ms.locfileid: "57014430"
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI 報表伺服器產品金鑰
 
+您可以從兩個不同的來源來取得 Power BI 報表伺服器的產品金鑰：
+
+- Power BI Premium
+- SQL Server Enterprise 軟體保證 (SA)
+
+如需詳細資訊，以讀取上。
+
 #### <a name="power-bi-premium"></a>Power BI Premium
 
-如果您已購買 Power BI Premium，則在 Power BI 管理入口網站的 [進階設定] 索引標籤內，您可存取 Power BI 報表伺服器產品金鑰。 這只適用於全域系統管理員，或已獲指派 Power BI 服務系統管理員角色的使用者。
+如果您已購買 Power BI Premium，則在 Power BI 管理入口網站的 [進階設定]  索引標籤內，您可存取 Power BI 報表伺服器產品金鑰。 這只適用於全域系統管理員，或已獲指派 Power BI 服務系統管理員角色的使用者。
 
 ![Premium 設定](../report-server/media/install-report-server/pbirs-product-key.png "Premium 設定內的 Power BI 報表伺服器金鑰")
 
-選取 [Power BI 報表伺服器金鑰] 會顯示一個包含產品金鑰的對話方塊。 您可以複製金鑰，並在安裝時使用。
+選取 [Power BI 報表伺服器金鑰]  會顯示一個包含產品金鑰的對話方塊。 您可以複製金鑰，並在安裝時使用。
 
 ![產品金鑰](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Power BI 報表伺服器產品金鑰")
 
@@ -55,10 +64,10 @@ ms.locfileid: "57014430"
 
 1. 找到 PowerBIReportServer.exe 的位置並啟動安裝程式。
 
-2. 選取 [安裝 Power BI 報表伺服器]。
+2. 選取 [安裝 Power BI 報表伺服器]  。
 
     ![安裝 Power BI 報表伺服器](media/install-report-server/pbireportserver-install.png)
-3. 選擇要安裝的版本，然後選取 [下一步]。
+3. 選擇要安裝的版本，然後選取 [下一步]  。
 
     ![選擇版本](media/install-report-server/pbireportserver-choose-edition.png)
 
@@ -66,26 +75,26 @@ ms.locfileid: "57014430"
 
     ![版本 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    否則，您可以輸入從 Power BI 服務或大量授權服務中心取得的伺服器產品金鑰。 如需如何取得產品金鑰的詳細資訊，請參閱[開始之前](#before-you-begin)一節。
-4. 閱讀並接受授權條款和條件，然後選取 [下一步]。
+    否則，請輸入您從 Power BI 服務或大量授權服務中心取得的產品金鑰。 如需如何取得您的產品金鑰的詳細資訊，請參閱[在安裝之前](#before-you-install)上一節。
+4. 閱讀並同意授權條款及條件，然後選取**下一步**。
 
     ![授權條款](media/install-report-server/pbireportserver-eula.png)
-5. 您需要有資料庫引擎才能儲存報表伺服器資料庫。 選取 [下一步] 只安裝報表伺服器。
+5. 您需要有資料庫引擎才能儲存報表伺服器資料庫。 選取 [下一步]  只安裝報表伺服器。
 
     ![只安裝檔案](media/install-report-server/pbireportserver-install-files-only.png)
-6. 指定報表伺服器的安裝位置。 選取 [安裝] 繼續作業。
+6. 指定報表伺服器的安裝位置。 選取 [安裝]  繼續作業。
 
     ![指定安裝路徑](media/install-report-server/pbireportserver-install-file-path.png)
 
     預設路徑是 C:\Program Files\Microsoft Power BI Report Server。
 
-7. 安裝成功後，請選取 [設定報表伺服器] 啟動 Reporting Services 設定管理員。
+7. 安裝成功後，請選取 [設定報表伺服器]  啟動 Reporting Services 設定管理員。
 
     ![設定報表伺服器](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuring-your-report-server"></a>設定報表伺服器
+## <a name="configure-your-report-server"></a>設定報表伺服器
 
-選取安裝程式中的 [設定報表伺服器] 後，您會看到 Reporting Services 設定管理員。 如需詳細資訊，請參閱 [Reporting Services 設定管理員](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)。
+選取安裝程式中的 [設定報表伺服器]  後，您會看到 Reporting Services 設定管理員。 如需詳細資訊，請參閱 [Reporting Services 設定管理員](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)。
 
 您需要[建立報表伺服器資料庫](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)來完成 Reporting services 的初始設定。 需要 SQL Server 資料庫伺服器才能完成此步驟。
 

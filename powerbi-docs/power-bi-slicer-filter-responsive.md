@@ -11,11 +11,11 @@ ms.date: 05/04/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: fed4119946cb762fb4d9aee3b5300be225a6e379
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288098"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61419751"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>在 Power BI 中建立可以調整大小的回應式交叉分析篩選器
 
@@ -27,15 +27,15 @@ ms.locfileid: "54288098"
 
 若要建立動態交叉分析篩選器，第一個步驟是先建立基本的交叉分析篩選器。 
 
-1. 在 [視覺效果] 窗格中，選取**交叉分析篩選器**圖示 ![交叉分析篩選器圖示](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png)。
-2. 將您想要篩選的欄位拖曳至 [欄位]。
+1. 在 [視覺效果]  窗格中，選取**交叉分析篩選器**圖示 ![交叉分析篩選器圖示](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png)。
+2. 將您想要篩選的欄位拖曳至 [欄位]  。
 
     ![將欄位新增至交叉分析篩選器](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
 
 ## <a name="convert-to-a-horizontal-slicer"></a>轉換成水平交叉分析篩選器
 
-1. 選取交叉分析篩選器，然後在 [視覺效果] 窗格中選取 [格式] 索引標籤。
-2. 展開 [一般] 區段，然後針對 [方向] 選取 [水平]。
+1. 選取交叉分析篩選器，然後在 [視覺效果]  窗格中選取 [格式]  索引標籤。
+2. 展開 [一般]  區段，然後針對 [方向]  選取 [水平]  。
 
     ![將交叉分析篩選器設為水平](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-2-horizontal.png) 
 
@@ -47,7 +47,7 @@ ms.locfileid: "54288098"
 
 這個步驟很容易。 
 
-1. 在 [格式] 索引標籤上，[一般] 區段正下方的 [方向] 中，將 [Responsive] (回應式) 滑動至 [開啟]。  
+1. 在 [格式]  索引標籤上，[一般]  區段正下方的 [方向]  中，將 [Responsive] (回應式)  滑動至 [開啟]  。  
 
     ![交叉分析篩選器現在已是回應式](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-4-responsive-on.png)
 
@@ -59,7 +59,7 @@ ms.locfileid: "54288098"
 
 在 Power BI Desktop 中，您可以為每一頁報表建立手機配置。 如果頁面有手機配置，即會在手機中顯示為直向檢視。 否則，您就必須以橫向檢視來檢視該頁面。 
 
-1. 在 [檢視] 功能表上，選取 [手機配置]。
+1. 在 [檢視]  功能表上，選取 [手機配置]  。
 
      ![手機配置圖示，[檢視] 功能表](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-6-phone-layout-button.png)
     
@@ -71,7 +71,7 @@ ms.locfileid: "54288098"
 
 ## <a name="make-a-time-or-range-slicer-responsive"></a>將時間/範圍交叉分析篩選器設為回應式
 
-您可以遵循相同的步驟，將時間或範圍交叉分析篩選器設為回應式。 將 [回應式] 設為 [開啟] 之後，請注意下列事項：
+您可以遵循相同的步驟，將時間或範圍交叉分析篩選器設為回應式。 將 [回應式]  設為 [開啟]  之後，請注意下列事項：
 
 - 視覺效果會依據畫布允許的大小，將輸入方塊的順序最佳化。 
 - 系統即會依據畫布允許的大小，最佳化資料元素的顯示，讓交叉分析篩選器盡可能地適用。 

@@ -1,27 +1,27 @@
 ---
 title: 建立資料集
 description: 逐步解說 - 將資料推送至資料集 - 在 Power BI 中建立資料集
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f0815f3712992b26a69ac60aba6eecae8b60fde4
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 4bc24df67dd7d2b8ac0ae987ad2e50cff082c73f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216163"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710383"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>步驟 3：在 Power BI 中建立資料集
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
 在將資料推送至資料集的**步驟 2** [取得驗證存取權杖](walkthrough-push-data-get-token.md)中，您取得了向 **Azure AD** 驗證的權杖。 在此步驟中，您會使用權杖來呼叫 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 作業。
 
-若要呼叫 REST 資源，您可使用用以定位資源的 URL，以及將 JavaScript 物件標記法 (JSON) 字串 (其中描述資料集) 傳送到 Power BI 服務資源。 REST 資源會識別您想要使用的 Power BI 服務之部分。 若要將資料推送至資料集，則目標資源是**資料集**。 識別資料集的 URL 是 https://api.PowerBI.com/v1.0/myorg/datasets。 如果您要在群組中推送資料，則 URL 會是 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets。
+若要呼叫 REST 資源，您可使用用以定位資源的 URL，以及將 JavaScript 物件標記法 (JSON) 字串 (其中描述資料集) 傳送到 Power BI 服務資源。 REST 資源會識別您想要使用的 Power BI 服務之部分。 若要將資料推送至資料集，則目標資源是**資料集**。 識別資料集的 URL 是 https://api.PowerBI.com/v1.0/myorg/datasets。 如果您要推送資料群組中的，url 是 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets。
 
 若要驗證 Power BI REST 作業，您可將在[取得驗證存取權杖](walkthrough-push-data-get-token.md)中取得的權杖加入要求標頭：
 
@@ -155,7 +155,7 @@ namespace walkthrough_push_data
             string resourceUri = "https://analysis.windows.net/powerbi/api";
 
             //OAuth2 authority Uri
-            string authorityUri = "https://login.microsoftonline.net/common/";
+            string authorityUri = "https://login.microsoftonline.com/common/";
 
             //Get access token:
             // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

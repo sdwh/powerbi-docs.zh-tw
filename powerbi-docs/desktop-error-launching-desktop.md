@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 19dc98b4f402176b2ae511236015ea25d7e4178b
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454414"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>解決 Power BI Desktop 無法啟動的問題
@@ -46,5 +46,5 @@ ms.locfileid: "65454414"
 
 如果啟動 **Power BI Desktop** 時發生的問題與內部部署資料閘道無關，或上述解決方法無法解決問題，您可以將支援事件提交給 [Power BI 支援](https://support.powerbi.com) (https://support.powerbi.com), 以協助找出並解決問題。
 
-如果未來遇到 **Power BI Desktop** 的其他問題 (我們希望沒有或非常少)，開啟追蹤並收集記錄檔將有助於更佳隔離並找出問題。 若要開啟追蹤，請選取 [檔案] > [選項及設定] > [選項]，選取 [診斷]，然後核取 [診斷選項] 下的 [啟用追蹤]。 我們了解 **Power BI Desktop** 必須在執行中才能設定此選項，因此更有助於解決未來與啟動 **Power BI Desktop** 相關聯的問題。
+如果未來遇到 **Power BI Desktop** 的其他問題 (我們希望沒有或非常少)，開啟追蹤並收集記錄檔將有助於更佳隔離並找出問題。 若要開啟追蹤，請選取 [檔案] > [選項及設定] > [選項]  ，選取 [診斷]  ，然後核取 [診斷選項]  下的 [啟用追蹤]  。 我們了解 **Power BI Desktop** 必須在執行中才能設定此選項，因此更有助於解決未來與啟動 **Power BI Desktop** 相關聯的問題。
 

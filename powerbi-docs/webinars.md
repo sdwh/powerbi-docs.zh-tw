@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 3a5a84bdb22996fc3b773a861a85e82985cd036c
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: b0a6b3027e548becf56cc5f0d7036e35c9316cd4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220969"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187701"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -22,9 +22,7 @@ ms.locfileid: "58220969"
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
-**實現消費品製造商和零售商雙贏的局面**
-<br>由 Liz McCreesh 主持
-<br>[立即報名](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
+沒有已排定的網路研討會。 請稍後再回來查看近期的活動。
 
 >[來自 Power BI 社群，即將舉行的網路研討會](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -80,6 +78,10 @@ ms.locfileid: "58220969"
 <br>由 Wim Coorevits 和 Enrique Plaza Garcia 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
+**管理 Power BI Embedded 的最佳作法分析多租用戶部署**
+<br>由 Nimrod Shalit 主持
+<br>[報名並立即觀看](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
+
 **Power BI：以正確方式完成分析**
 <br>由 Gohul Shanmugalingam 主持
 <br>[報名並立即觀看](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
@@ -117,6 +119,10 @@ ms.locfileid: "58220969"
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>合作夥伴 ###
+
+**實現消費品製造商和零售商雙贏的局面**
+<br>藉由從 Thorogood Liz McCreesh
+<br>[報名並立即觀看](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 **透過 Power BI 將客戶資料轉換成零售成功**
 <br>由 Hitachi Solutions 的 Angad Soni 主持

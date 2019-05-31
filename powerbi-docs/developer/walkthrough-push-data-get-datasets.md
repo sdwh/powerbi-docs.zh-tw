@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: c0a70339e8336f3e7b93b40ad8a99dcb87715812
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710234"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步驟 4：取得資料集，以便將資料列加入 Power BI 資料表
@@ -34,7 +34,7 @@ ms.locfileid: "65710234"
 
      a. 在 Visual Studio 2015 中，選擇 **工具**  > **NuGet 套件管理員**  >  **套件管理器主控台**。
 
-     b. 在 [套件管理器主控台] 中，輸入 Install-Package Newtonsoft.Json。
+     b. 在 [套件管理器主控台]  中，輸入 Install-Package Newtonsoft.Json。
 2. 安裝套件之後，將 **using Newtonsoft.Json;** 加入 Program.cs。
 3. 在 Program.cs 中，加入下列程式碼以取得 **資料集識別碼**。
 4. 執行主控台應用程式，然後登入您的 Power BI 帳戶。 您應該會看到 **Dataset ID:** 後面接著 [主控台視窗] 中的識別碼。

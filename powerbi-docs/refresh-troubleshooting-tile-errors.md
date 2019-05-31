@@ -1,22 +1,22 @@
 ---
 title: 圖格錯誤的疑難排解
 description: 圖格在 Power BI 中嘗試進行重新整理時可能遇到的常見錯誤
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bfb6178908a9d6a4bcfe81f8d3d9771ac5b12b9d
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.openlocfilehash: c1df7e6293db703922f37c3f28546bb296d1a46a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086624"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051004"
 ---
 # <a name="troubleshooting-tile-errors"></a>圖格錯誤的疑難排解
 以下是您在使用圖格時可能發生的常見錯誤和說明。
@@ -64,6 +64,17 @@ ms.locfileid: "56086624"
 **無法擷取此視覺效果的資料。請再試一次。**
 
 這通常是暫時性的問題。 如果您稍後再試，卻仍看到此訊息，請連絡支援人員。
+
+**磚仍會顯示啟用單一登入 (SSO) 之後的未篩選的資料。**
+
+如果基礎資料集設定為使用 透過內部部署資料閘道的 DirectQuery 模式或 Analysis Services 即時連線，會發生這項目。 在此情況下，圖格會繼續以啟用資料來源的 SSO，直到下一步 磚的更新已到期之後顯示未篩選的資料。 在下一步 磚重新整理，Power BI 會使用 SSO 設定，而圖格會顯示根據使用者身分識別篩選的資料。 
+
+如果您想要立即查看篩選過的資料，您可以強制執行磚重新整理中的儀表板右上角選取省略符號 （...），並選取**重新整理儀表板磚**。
+
+為資料集擁有者，您也可以變更磚重新整理頻率，並將它設定為 15 分鐘的時間來加速磚重新整理。 選取 Power BI 服務右上角的齒輪圖示，然後選取**設定**。 在 [**設定**頁面上，選取**資料集**] 索引標籤。依序展開**排程快取重新整理**並變更**重新整理頻率**。 請確定您的組態之後重設原始的重新整理頻率 Power BI 會執行下一步 磚重新整理。
+
+> [!NOTE]
+> **排程快取重新整理**節僅適用於 DirectQuery/LiveConnection 模式中的資料集。 匯入模式中的資料集不需要個別的磚重新整理，因為圖格會自動重新整理在下次排程的資料重新整理。
 
 ## <a name="contact-support"></a>連絡支援人員
 如果您仍遇到問題，請[連絡支援人員](https://support.powerbi.com)以進一步調查。

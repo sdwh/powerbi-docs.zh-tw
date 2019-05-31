@@ -6,23 +6,21 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/20/2017
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ff99fc731b5388acd4dbb7c98fe13b227e7d5789
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216749"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375141"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>允許 Cortana 存取 Power BI 報表 (和其基礎資料集)
 您已經讀過 [Cortana 及 Power BI 簡介](service-cortana-intro.md) (如果沒有，您可能要先讀過後再回來)。 而現在，您會想要親自試試。  您在 Cortana 中詢問自然語言問題，並從儲存在 Power BI 報表中的資料尋找答案之前，有幾項要求。 具體來說，您必須執行下列作業。
 
-> [!NOTE]
-> 如果您試用 Cortana 和 Power BI 儀表板 Preview，則可以略過本文的其餘部分。 不需要進行設定，Cortana 就可以搜尋 Power BI 儀表板。
-> 
-> 
+> [!IMPORTANT]
+> Cortana 整合已被取代，在 Power BI 中。 從 6 月 11 日，Cortana 將不再適用於任何儀表板和報表。
 
 在 Power BI 服務中
 
@@ -44,10 +42,10 @@ ms.locfileid: "56216749"
 2. 與此報表建立關聯的資料集是 **Contoso Sales**。
    
     ![Contoso Sales 資料集](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. 在資料集名稱的右邊，選取省略符號 (...) > [設定]。  
+3. 在資料集名稱的右邊，選取省略符號 (...) > [設定]  。  
    
     ![選擇 [設定]](media/service-cortana-enable/power-bi-settings-cortana.png)
-4. 選取 \[Q&A and Cortana] \(問與答及 Cortana) > [允許 Cortana 存取此資料集] > [套用]。
+4. 選取 \[Q&A and Cortana] \(問與答及 Cortana)   > [允許 Cortana 存取此資料集]   > [套用]  。
    
    ![Cortana 存取資料集](media/service-cortana-enable/power-bi-cortana-enable-new.png)
    
@@ -63,19 +61,19 @@ ms.locfileid: "56216749"
 ## <a name="add-your-power-bi-credentials-to-windows"></a>將您的 Power BI 認證新增到 Windows
 您必須執行 Windows 10 的 1511 版或更新版本。
 
-1. 判斷您正在執行的 Windows 10 版本。 開啟 [設定]。
+1. 判斷您正在執行的 Windows 10 版本。 開啟 [設定]  。
     ![開啟 Windows 設定](media/service-cortana-enable/power-bi-cortana-windows.png)
 
-    然後選取 [系統] > [關於]。 在畫面底部，您會看到 [Windows 規格] > [版本]
+    然後選取 [系統] > [關於]  。 在畫面底部，您會看到 [Windows 規格] > [版本] 
 
    * 如果您擁有 Windows 10 的 1511 版 (Windows 10 的 2015 年 11 月更新) 到 1607 版，請新增您的公司或學校帳戶和 Microsoft 帳戶 (完成下方步驟 2 和 3)。
    * 如果您擁有 Windows 10 1607 版 (Windows 10 的 2016 年 7 月更新) 或更新版本，請新增您的公司或學校帳戶 (僅需完成下方步驟 2)。
 1. 為 Cortana 新增工作或學校帳戶。
    
-   * 開啟 [設定] > [帳戶]。
+   * 開啟 [設定]   > [帳戶]  。
      
        ![設定 - 帳戶](media/service-cortana-enable/power-bi-windows-accounts.png)
-   * 捲動至底部，然後選取 [新增工作或學校帳戶]。 或者，從 [帳戶] 頁面選取 [存取公司或學校] > [連線]。
+   * 捲動至底部，然後選取 [新增工作或學校帳戶]  。 或者，從 [帳戶]  頁面選取 [存取公司或學校] > [連線]  。
      
      ![新增公司帳戶](media/service-cortana-enable/power-bi-add-work-account2.png)
 
