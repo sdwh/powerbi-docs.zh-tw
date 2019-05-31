@@ -9,29 +9,29 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/10/2019
-ms.openlocfilehash: a9f8c6248f9754192009e12bab34d3f1427269c2
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.date: 05/9/2019
+ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174790"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454551"
 ---
 # <a name="certified-custom-visuals"></a>認證的自訂視覺效果
 
-## <a name="what-are-certified-custom-visuals"></a>什麼是**經認證的**自訂視覺效果？
+## <a name="what-are-certified-custom-visuals"></a>什麼是**經認證的  **自訂視覺效果？
 
 經認證的自訂視覺效果是 **Marketplace** 中的視覺效果，符合某些經 **Microsoft Power BI 小組**測試並核准的**指定程式碼**需求。 自訂視覺效果一旦經過認證，它會提供更多的功能。 例如，您可以[匯出至 PowerPoint](consumer/end-user-powerpoint.md)，也可以在使用者[訂閱報表頁面](consumer/end-user-subscribe.md)時收到的電子郵件中顯示視覺效果。
 
 系統會使用**經認證的自訂視覺效果**，例如[標準自訂視覺效果](power-bi-custom-visuals.md)。 經認證的自訂視覺效果可以新增至 **Power BI 服務** (**Power BI Desktop 報表**)，並使用 **Power BI 行動版**和 **Power BI Embedded** 進行檢視。
 
-所執行的測試設計為檢查不會存取外部服務或資源的視覺效果。 **Microsoft** 「不是」協力廠商自訂視覺效果的作者，我們建議客戶直接連絡作者以驗證這類視覺效果的功能。
+所執行的測試設計為檢查不會存取外部服務或資源的視覺效果。 **Microsoft** 「不是」  協力廠商自訂視覺效果的作者，我們建議客戶直接連絡作者以驗證這類視覺效果的功能。
 
 認證程序是一種選擇性程序，開發人員負責決定是否要讓其在 Marketplace 中的視覺效果經過認證。  
 
 **未經認證的自訂視覺效果**不一定表示不安全的視覺效果。 有些視覺效果未經過認證，因為它們不符合一或多個[認證需求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)。 例如，連接到地圖視覺效果或使用商業程式庫的視覺效果等外部服務。
 
-您是否為 Web 開發人員，而且有興趣建立自己的視覺效果並將其新增至  **[Microsoft AppSource](https://appsource.microsoft.com)**？ 若要了解做法，請參閱 **[開發 Power BI 自訂視覺效果](developer/custom-visual-develop-tutorial.md)**。
+您是否為 Web 開發人員，而且有興趣建立自己的視覺效果並將其新增至  **[Microsoft AppSource](https://appsource.microsoft.com)** ？ 若要了解做法，請參閱 **[開發 Power BI 自訂視覺效果](developer/custom-visual-develop-tutorial.md)** 。
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>移除 Power BI 經認證的自訂視覺效果
 
@@ -44,11 +44,34 @@ Microsoft 可自行斟酌將視覺效果自[認證清單](#list-of-custom-visual
 若要讓您的自訂視覺效果[經過認證](#certified-custom-visuals)，請確定您的自訂視覺效果符合下列內容：  
 
 * 經過 Microsoft AppSource 核准。 您的自訂視覺效果應該位於我們的 [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) 中。
-* 自訂視覺效果是以版本化 API 1.2 或更高版本撰寫。
-* 程式碼存放庫可供 Power BI 小組檢閱 (例如，我們可透過 GitHub 取得人類可讀取格式的原始程式碼 (JavaScript 或 TypeScript))。
+* 建立版本撰寫的自訂視覺效果**API v2.5**或更高版本。
+* （適用於執行個體，人類可讀取的格式 （JavaScript 或 TypeScript） 的原始碼是可傳送給 microsoft，透過 GitHub 取得），程式碼存放庫都可供 Power BI 小組的檢閱。
 
     >[!Note]
     > 您不需要在 Github 中公開共用您的程式碼。
+* 程式碼存放庫的需求：
+   * 必須包含最少需要一組檔案：
+      * .gitignore
+      * capabilities.json
+      * pbiviz.json
+      * package.json
+      * package-lock.json
+      * tsconfig.json
+   * 不能包含 node_modules 資料夾 （檔案中加入 node_modules.gitingore）
+   * **npm 安裝**命令必須未傳回任何錯誤。
+   * **npm 稽核**命令必須傳回具有高，或中等層級的任何警告。
+   * **pbiviz 套件**命令必須未傳回任何錯誤。
+   * 必須包含[TSlint microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib)而不覆寫的設定，而且此命令必須傳回 lint 的任何錯誤。
+   * 編譯的封裝的自訂視覺效果必須符合已提交的封裝 （這兩個檔案的 md5 雜湊應該相等）。
+* 來源的程式碼的需求：
+   * 必須支援的視覺效果[轉譯事件 API](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/)。
+   * 請確定沒有任意/動態程式碼執行 (不正確： eval （)，若要使用的 settimeout()、 requestAnimationFrame()、 setinterval （使用者輸入的某些函式）、 執行使用者輸入/資料不安全)。
+   * 請確定已安全地操作 DOM (不正確： innerHTML，D3.html （< 某個使用者/資料輸入 >），用於清理使用者輸入/資料之前將它加入至 dom。
+   * 請確定沒有任何 javascript 錯誤/例外狀況，在瀏覽器主控台中的任何輸入資料。 使用者可能會與不同範圍的非預期的資料，使用您的視覺效果，讓視覺效果必須不會失敗。 您可以使用[這個範例報表](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)做為測試資料集。
+
+* 如果變更 capabilities.json 中的任何屬性，請確定，它們不會中斷現有的使用者報告。
+
+* 請確定視覺效果遵守[Power BI 視覺效果的指導方針](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases)。 **不允許任何浮水印**。
 
 * 僅使用可公開檢閱的 OSS 元件 (公用的 JS 程式庫或 TypeScript。 原始程式碼可供檢閱，而且沒有已知弱點)。 我們無法使用商業元件來驗證自訂視覺效果。
 
