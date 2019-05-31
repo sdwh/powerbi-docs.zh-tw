@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: a12f2821108c5becaf054680e4395295f0979f0b
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008480"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61171076"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>使用 Power BI 連接到 UserVoice
 透過 Power BI 和 UserVoice 內容套件來追蹤和瀏覽 UserVoice 資料很容易。 Power BI 會擷取資料，包括票證、建議和滿意度評等，然後根據該資料建置現成的儀表板和報表。
@@ -29,10 +29,10 @@ ms.locfileid: "54008480"
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-uservoice/pbi_getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-uservoice/pbi_getservices.png) 
-3. 選取 [UserVoice]，然後選取 [取得]。
+3. 選取 [UserVoice]  ，然後選取 [取得]  。
    
    ![](media/service-connect-to-uservoice/uservoice.png)
 4. 出現提示時，輸入您的 UserVoice URL。 URL 必須完全遵循下列模式 `https://fabrikam.uservoice.com` 並將 "fabrikam" 取代成您的產品或服務名稱。
@@ -56,7 +56,7 @@ ms.locfileid: "54008480"
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="troubleshooting"></a>疑難排解
 **「參數驗證失敗。請確定所有參數都有效。」**

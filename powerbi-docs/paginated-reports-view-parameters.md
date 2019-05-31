@@ -1,26 +1,26 @@
 ---
 title: 在 Power BI 服務中檢視編頁報表的參數 (預覽)
 description: 您將在此文章中了解如何使用 Power BI 服務與編頁報表的參數互動。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 268070c7eaf3675e034f5d609adc45045e0b3aab
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: ea186b5fa3bbbe7968c386604066f91b90ec5821
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324407"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61422192"
 ---
 # <a name="view-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>在 Power BI 服務中檢視編頁報表的參數 (預覽)
 
 您將在此文章中了解如何使用 Power BI 服務與編頁報表的參數互動。  報表參數提供篩選報表資料的方式。 參數會提供一份可用值清單，您可以選擇一或多個值。 有時參數有預設值，有時候必須先選擇一個值，才會看到報表。  
 
-當您檢視具有參數的報表時，報表檢視器工具列會顯示每個參數，讓您以互動方式指定值。 下圖顯示報表的參數區域，其中包含 [購買群組]、[位置]、[開始日期]，以及 [到期日期] 的參數。  
+當您檢視具有參數的報表時，報表檢視器工具列會顯示每個參數，讓您以互動方式指定值。 下圖顯示報表的參數區域，其中包含 [購買群組]  、[位置]  、[開始日期]  ，以及 [到期日期]  的參數。  
 
 ## <a name="parameters-pane-in-the-power-bi-service"></a>Power BI 服務中的參數窗格
 
@@ -32,7 +32,7 @@ ms.locfileid: "56324407"
   
 3.  **位置參數** 位置參數已設定為允許您選取一個、多個，或所有的值。 
   
-4.  **檢視報表**  輸入或變更參數值之後，請按一下 [檢視報表] 以執行報表。 
+4.  **檢視報表**  輸入或變更參數值之後，請按一下 [檢視報表]  以執行報表。 
 
 5. **預設值** 如果所有參數都有預設值，報表會在第一次檢視時自動執行。 這份報表中的某些參數沒有預設值，所以您必須在選取值之後才能看到報表。  
 

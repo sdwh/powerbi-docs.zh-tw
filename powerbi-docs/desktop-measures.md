@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 4395884dfbc7ef5ebfb0df34e416d69ee553ebd3
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514149"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop 中的量值
@@ -25,7 +25,7 @@ ms.locfileid: "65514149"
 
 ## <a name="understanding-measures"></a>了解量值
 
-在 **Power BI Desktop** 中，您可以在 [報表檢視] 或 [資料檢視] 中建立及使用量值。 您自行建立的量值會出現在 [欄位] 清單中，並以計算機圖示表示。 您可以為量值指定任何名稱，並將其加入新的或現有的視覺效果，就像是其他任何欄位一樣。
+在 **Power BI Desktop** 中，您可以在 [報表檢視]  或 [資料檢視]  中建立及使用量值。 您自行建立的量值會出現在 [欄位] 清單中，並以計算機圖示表示。 您可以為量值指定任何名稱，並將其加入新的或現有的視覺效果，就像是其他任何欄位一樣。
 
 ![](media/desktop-measures/measuresinpbid_measinfieldlist.png)
 

@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 03/11/2019
 LocalizationGroup: Administration
 ms.openlocfilehash: b70d23d7f4f5dfab9273319ad890a21c9b74ead2
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430361"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187341"
 ---
 # <a name="power-bi-security"></a>Power BI 安全性
 
@@ -46,9 +46,9 @@ Power BI 使用兩個主要的儲存機制來儲存及管理資料：使用者�
 
 ## <a name="user-authentication"></a>使用者驗證
 
-Power BI 使用 Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) 來驗證登入 Power BI 服務的使用者，而 Azure Active Directory 則會在每次使用者嘗試存取需要驗證的資源時使用 Power BI 登入認證。 如果使用者以用來建立 Power BI 帳戶的電子郵件地址登入 Power BI 服務，Power BI 會使用該登入電子郵件作為「有效的使用者名稱」，並在每次使用者嘗試連線到資料時，將該名稱傳遞給資源。 「有效的使用者名稱」接著會對應到「使用者主體名稱」([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx))，並依據所套用的驗證，解析為相關聯的 Windows 網域帳戶。
+Power BI 使用 Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) 來驗證登入 Power BI 服務的使用者，而 Azure Active Directory 則會在每次使用者嘗試存取需要驗證的資源時使用 Power BI 登入認證。 如果使用者以用來建立 Power BI 帳戶的電子郵件地址登入 Power BI 服務，Power BI 會使用該登入電子郵件作為「有效的使用者名稱」  ，並在每次使用者嘗試連線到資料時，將該名稱傳遞給資源。 「有效的使用者名稱」  接著會對應到「使用者主體名稱」  ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx))，並依據所套用的驗證，解析為相關聯的 Windows 網域帳戶。
 
-針對使用公司電子郵件 (例如 <em>david@contoso.com</em>) 登入 Power BI 的組織，「有效的使用者名稱」與 UPN 的對應相當直接。 針對未使用公司電子郵件(例如 <em>david@contoso.onmicrosoft.com</em>) 登入 Power BI 的組織，AAD 與內部部署認證之間的對應需要[目錄同步作業](https://technet.microsoft.com/library/jj573653.aspx)才能正常運作。
+針對使用公司電子郵件 (例如 <em>david@contoso.com</em>) 登入 Power BI 的組織，「有效的使用者名稱」  與 UPN 的對應相當直接。 針對未使用公司電子郵件(例如 <em>david@contoso.onmicrosoft.com</em>) 登入 Power BI 的組織，AAD 與內部部署認證之間的對應需要[目錄同步作業](https://technet.microsoft.com/library/jj573653.aspx)才能正常運作。
 
 Power BI 的平台安全性還包括多租用戶環境安全性、網路安全性，以及增加其他以 AAD 為基礎之安全性措施的能力。
 

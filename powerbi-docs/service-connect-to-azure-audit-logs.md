@@ -11,11 +11,11 @@ ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 85872b43e984a1cf9c08500bb03f6ed50baef31e
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008503"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61178833"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>使用 Power BI 連接到 Azure 稽核記錄
 您可以使用 Azure 稽核記錄內容套件，來分析及視覺化儲存在稽核記錄中的資訊。 Power BI 會擷取您的資料、建置現成的儀表板，然根據該資料建立報表。
@@ -26,16 +26,16 @@ ms.locfileid: "54008503"
 1. 選取左側瀏覽窗格底部的 [取得資料]  。  
    
     ![](media/service-connect-to-azure-audit-logs/getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。  
+2. 在 [服務]  方塊中，選取 [取得]  。  
    
     ![](media/service-connect-to-azure-audit-logs/services.png) 
-3. 選取 [Azure 稽核記錄檔] > [取得]。  
+3. 選取 [Azure 稽核記錄檔]   > [取得]  。  
    
    ![](media/service-connect-to-azure-audit-logs/azureauditlogs.png)
 4. 出現提示時，輸入您的 **Azure 訂用帳戶識別碼**。請參閱下面有關尋找[訂閱識別碼](#FindingParams)的詳細資訊。   
    
     ![](media/service-connect-to-azure-audit-logs/parameters.png)
-5. 針對 [驗證方法] 選取 [oAuth2] \> [登入]。
+5. 針對 [驗證方法]  選取 [oAuth2]  \> [登入]  。
    
     ![](media/service-connect-to-azure-audit-logs/creds.png)
 6. 輸入您的帳戶認證以完成登入程序。
@@ -50,7 +50,7 @@ ms.locfileid: "54008503"
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="system-requirements"></a>系統需求
 Azure 稽核記錄檔內容套件需要能存取 Azure 入口網站中的稽核記錄檔。 更多詳細資料在[這裡](/azure/azure-resource-manager/resource-group-audit/)。

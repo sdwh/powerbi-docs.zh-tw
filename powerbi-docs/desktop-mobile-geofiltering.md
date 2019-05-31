@@ -10,11 +10,11 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: b8887ba39d3c6d3123d3308eddba2994fbfe6485
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286948"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61295984"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>在 Power BI Desktop 中為行動裝置應用程式設定地理篩選
 在 Power BI Desktop 中，您可以為資料行[分類地理資料](desktop-data-categorization.md)，使 Power BI Desktop 知道如何處理報表中視覺效果的值。 作為額外的權益，當您或您的同事在 Power BI Mobile Apps 中檢視該報表時，Power BI 會自動提供符合您所在地的地理篩選。 
@@ -31,7 +31,7 @@ ms.locfileid: "54286948"
 2. 選取具有地理資料的資料行，例如 City 資料行。
    
     ![City 資料行](media/desktop-mobile-geofiltering/power-bi-desktop-geo-column.png)
-3. 在 [模型] 索引標籤中，選取 [資料類別]，然後選取正確的類別，在此範例中為 **City**。
+3. 在 [模型]  索引標籤中，選取 [資料類別]  ，然後選取正確的類別，在此範例中為 **City**。
    
     ![資料類別方塊](media/desktop-mobile-geofiltering/power-bi-desktop-geo-category.png)
 4. 繼續為模型中的任何其他欄位設定地理資料類別。 

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513115"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>從 Excel 活頁簿檔案取得資料
@@ -51,9 +51,9 @@ Power BI 支援下列資料類型：整數、十進位數字、貨幣、日期�
 <iframe width="500" height="281" src="https://www.youtube.com/embed/l2wy4XgQIu0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="where-your-workbook-file-is-saved-makes-a-difference"></a>活頁簿檔案的儲存位置會形成差異
-**本機** - 如果您將活頁簿檔案儲存到電腦上的本機磁碟或組織中的其他位置，您可以從 Power BI 將檔案載入 Power BI。 您的檔案實際上會保留在本機磁碟，因此不是真的將整個檔案匯入 Power BI。 真正發生的情況是在 Power BI 中建立新的資料集，並將資料和資料模型 (如果有) 從活頁簿載入資料集。 如果您的活頁簿有任何 Power View 工作表，這些工作表會顯示在 Power BI 網站的 [報表] 下。 Excel 2016 還提供 [發佈] 功能 (在 [檔案] 功能表下)。 使用 [發佈] 實際上就是使用 Power BI 的 [取得資料] > [檔案] > [本機檔案]，但如果您定期變更活頁簿，這樣做通常會更容易在 Power BI 更新您的資料集。
+**本機** - 如果您將活頁簿檔案儲存到電腦上的本機磁碟或組織中的其他位置，您可以從 Power BI 將檔案載入 Power BI。 您的檔案實際上會保留在本機磁碟，因此不是真的將整個檔案匯入 Power BI。 真正發生的情況是在 Power BI 中建立新的資料集，並將資料和資料模型 (如果有) 從活頁簿載入資料集。 如果您的活頁簿有任何 Power View 工作表，這些工作表會顯示在 Power BI 網站的 [報表] 下。 Excel 2016 還提供 [發佈]  功能 (在 [檔案]  功能表下)。 使用 [發佈]  實際上就是使用 Power BI 的 [取得資料] > [檔案] > [本機檔案]  ，但如果您定期變更活頁簿，這樣做通常會更容易在 Power BI 更新您的資料集。
 
-**OneDrive - 商務** - 如果您有商務用 OneDrive，並使用與用來登入 Power BI 相同的帳戶進行登入，這樣做可以有效地讓 Excel 中的工作，與 Power BI 中的資料集、報表和儀表板保持同步。由於 Power BI 和 OneDrive 都在雲端，因此 Power BI 每隔約一小時就會「連接」到您在 OneDrive 上的活頁簿檔案。 如果發現任何變更，便會自動更新 Power BI 中的資料集、報表和儀表板。 就像是將活頁簿儲存到本機磁碟，您也可以使用 [發佈] 立即更新 Power BI 中的資料集和報表；如果未這麼做，Power BI 通常會在一小時內自動同步處理。
+**OneDrive - 商務** - 如果您有商務用 OneDrive，並使用與用來登入 Power BI 相同的帳戶進行登入，這樣做可以有效地讓 Excel 中的工作，與 Power BI 中的資料集、報表和儀表板保持同步。由於 Power BI 和 OneDrive 都在雲端，因此 Power BI 每隔約一小時就會「連接」  到您在 OneDrive 上的活頁簿檔案。 如果發現任何變更，便會自動更新 Power BI 中的資料集、報表和儀表板。 就像是將活頁簿儲存到本機磁碟，您也可以使用 [發佈] 立即更新 Power BI 中的資料集和報表；如果未這麼做，Power BI 通常會在一小時內自動同步處理。
 
 **OneDrive - 個人** - 如果您將活頁簿檔案儲存到自己的 OneDrive 帳戶，則可以利用許多與使用商務用 OneDrive 相同的優點。 最大的差異是當您第一次連接到檔案時 (使用 [取得資料] > [檔案] > [OneDrive - 個人])，需要使用 Microsoft 帳戶登入 OneDrive，這通常與用來登入 Power BI 的帳戶不同。 當您使用 Microsoft 帳戶登入 OneDrive 時，請務必選取 [讓我保持登入] 選項。 如此一來，Power BI 每隔約一小時就會連接到您的活頁簿檔案，以確保您在 Power BI 中的資料集和報表保持同步。
 
@@ -65,7 +65,7 @@ Power BI 支援下列資料類型：整數、十進位數字、貨幣、日期�
 ![](media/service-excel-workbook-files/excel_import_connect.png)
 
 ### <a name="import-excel-data-into-power-bi"></a>將 Excel 資料匯入 Power BI
-當您選擇 [匯入] 時，資料表及/或資料模型中任何支援的資料都會匯入 Power BI 中的新資料集。 如果您有任何 Power View 工作表，則會在 Power BI 中重新建立為報表。
+當您選擇 [匯入]  時，資料表及/或資料模型中任何支援的資料都會匯入 Power BI 中的新資料集。 如果您有任何 Power View 工作表，則會在 Power BI 中重新建立為報表。
 
 您可以繼續編輯活頁簿。 當您儲存變更後，這些變更通常會在一小時內與 Power BI 中的資料集同步處理。 如果您需要立即同步處理，您可以直接再按一次 [發佈] 立即匯出變更。 您在報表和儀表板中的任何視覺效果也會更新。
 
@@ -74,7 +74,7 @@ Power BI 支援下列資料類型：整數、十進位數字、貨幣、日期�
 在 Excel 2016 中，您也可以使用 [發佈] > [匯出]。 其功能幾乎相同。 如需深入了解，請參閱[從 Excel 2016 發佈至 Power BI](service-publish-from-excel.md)。
 
 ### <a name="connect-manage-and-view-excel-in-power-bi"></a>在 Power BI 中連接、管理及檢視 Excel
-當您選擇 [連接] 時，您的活頁簿會顯示在 Power BI 中，就像是在 Excel Online 中一樣。 但不同於 Excel Online，您有一些很棒的功能，可協助您將工作表中的項目釘選到儀表板。
+當您選擇 [連接]  時，您的活頁簿會顯示在 Power BI 中，就像是在 Excel Online 中一樣。 但不同於 Excel Online，您有一些很棒的功能，可協助您將工作表中的項目釘選到儀表板。
 
 您無法在 Power BI 中編輯活頁簿。 但如果您需要進行一些變更，您可以按一下 [編輯]，然後選擇在 Excel Online 中編輯活頁簿，或在電腦上以 Excel 開啟活頁簿。 您所做的任何變更都會儲存到 OneDrive 上的活頁簿。
 
@@ -85,19 +85,19 @@ Power BI 支援下列資料類型：整數、十進位數字、貨幣、日期�
 在 Excel 2016 中，您也可以使用 [發佈] > [上傳]。 其功能幾乎相同。 如需深入了解，請參閱[從 Excel 2016 發佈至 Power BI](service-publish-from-excel.md)。
 
 ## <a name="import-or-connect-to-an-excel-workbook-from-power-bi"></a>從 Power BI 匯入或連接到 Excel 活頁簿
-1. 在 Power BI 的功能窗格中，按一下 [取得資料]。
+1. 在 Power BI 的功能窗格中，按一下 [取得資料]  。
    
    ![](media/service-excel-workbook-files/excel_get_data_button.png)
-2. 在 [檔案] 中，按一下 [取得]。
+2. 在 [檔案] 中，按一下 [取得]  。
    
    ![](media/service-excel-workbook-files/excel_files_get.png)
 3. 尋找您的檔案。
    
    ![](media/service-excel-workbook-files/excel_find_your_file.png)
-4. 如果您的活頁簿檔案位於 OneDrive 或 SharePoint - 小組網站上，請選擇 [匯入] 或 [連接]。
+4. 如果您的活頁簿檔案位於 OneDrive 或 SharePoint - 小組網站上，請選擇 [匯入]  或 [連接]  。
 
 ## <a name="local-excel-workbooks"></a>本機 Excel 活頁簿
-您也可以使用本機 Excel 檔案並將其上傳到 Power BI。 只要從上一個功能表選取 [本機檔案]，然後導覽至您儲存 Excel 活頁簿的位置即可。
+您也可以使用本機 Excel 檔案並將其上傳到 Power BI。 只要從上一個功能表選取 [本機檔案]  ，然後導覽至您儲存 Excel 活頁簿的位置即可。
 
 ![](media/service-excel-workbook-files/excel_import_6.png)
 
@@ -109,17 +109,17 @@ Power BI 支援下列資料類型：整數、十進位數字、貨幣、日期�
 
 ![](media/service-excel-workbook-files/excel_import_8.png)
 
-活頁簿準備就緒之後，即可在 Power BI 的 [報表] 區段中找到此活頁簿。
+活頁簿準備就緒之後，即可在 Power BI 的 [報表]  區段中找到此活頁簿。
 
 ![](media/service-excel-workbook-files/excel_import_9.png)
 
 ## <a name="publish-from-excel-2016-to-your-power-bi-site"></a>從 Excel 2016 發佈至您的 Power BI 網站
-使用 Excel 2016 的 [發佈至 Power BI] 功能，實際上就是使用 Power BI 的 [取得資料] 匯入或連接到您的檔案。 此處不會詳細說明，不過您可以參閱[從 Excel 2016 發佈至 Power BI](service-publish-from-excel.md) 以深入了解。
+使用 Excel 2016 的 [發佈至 Power BI]  功能，實際上就是使用 Power BI 的 [取得資料]  匯入或連接到您的檔案。 此處不會詳細說明，不過您可以參閱[從 Excel 2016 發佈至 Power BI](service-publish-from-excel.md) 以深入了解。
 
 ## <a name="troubleshooting"></a>疑難排解
 活頁簿檔案太大？ 請參閱[減少 Excel 活頁簿的大小以在 Power BI 中檢視](reduce-the-size-of-an-excel-workbook.md)。
 
-目前，當您選擇 [匯入] 時，Power BI 只會匯入具名資料表或資料模型中的資料。 因此，如果活頁簿中沒有具名資料表、Power View 工作表或 Excel 資料模型，您就會看到錯誤：[在此 Excel 活頁簿中找不到任何資料]。 [這篇文章](service-admin-troubleshoot-excel-workbook-data.md)說明如何修正您的活頁簿並重新匯入。
+目前，當您選擇 [匯入] 時，Power BI 只會匯入具名資料表或資料模型中的資料。 因此，如果活頁簿中沒有具名資料表、Power View 工作表或 Excel 資料模型，您就會看到錯誤：[在此 Excel 活頁簿中找不到任何資料]  。 [這篇文章](service-admin-troubleshoot-excel-workbook-data.md)說明如何修正您的活頁簿並重新匯入。
 
 ## <a name="next-steps"></a>後續步驟
 **瀏覽您的資料** - 將檔案中的資料和報表匯入 Power BI 後，您就可以開始瀏覽。 只要以滑鼠右鍵按一下新的資料集，然後按一下 [瀏覽]。 如果您在步驟 4 中，選擇連接到 OneDrive 上的活頁簿檔案，您的活頁簿會顯示在 [報表] 中。 當您按一下活頁簿時，活頁簿會在 Power BI 中開啟，就像是在 Excel Online 中一樣。

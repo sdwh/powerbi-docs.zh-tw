@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 969dc53f97156724d6c2b6b7dd6036b3fe8310aa
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514438"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 建立 Power BI 視覺效果
@@ -24,14 +24,14 @@ ms.locfileid: "65514438"
 **Power BI Desktop** 不會包含、部署或安裝 **R** 引擎。 若要在 **Power BI Desktop** 執行 R 指令碼，您必須在本機電腦上另外安裝 **R**。 您可以從許多位置免費下載並安裝 **R**，包括 [Revolution Open 下載頁面](https://mran.revolutionanalytics.com/download/)以及 [CRAN 儲存機制](https://cran.r-project.org/bin/windows/base/)。 **Power BI Desktop** 目前版本的 R 指令碼支援安裝路徑中的 Unicode 字元和空格 (空白字元)。
 
 ## <a name="enable-r-visuals"></a>啟用 R 視覺效果
-若要啟用 R 視覺效果，請選取 [檔案] > [選項及設定] > [選項]，然後在隨即顯示的 [選項] 頁面中，確認已在 [選項] 視窗的 [R 指令碼] 區段中指定本機 R 安裝，如下圖所示。 在下圖中，R 的本機安裝路徑為 **C:\Program Files\R\R-3.2.0**，而在文字方塊中會明確提供該路徑。 請確認顯示的路徑正確的反映您希望 **Power BI Desktop** 使用的本機 R 安裝。
+若要啟用 R 視覺效果，請選取 [檔案] > [選項及設定] > [選項]  ，然後在隨即顯示的 [選項]  頁面中，確認已在 [選項]  視窗的 [R 指令碼]  區段中指定本機 R 安裝，如下圖所示。 在下圖中，R 的本機安裝路徑為 **C:\Program Files\R\R-3.2.0**，而在文字方塊中會明確提供該路徑。 請確認顯示的路徑正確的反映您希望 **Power BI Desktop** 使用的本機 R 安裝。
    
    ![](media/desktop-r-visuals/r-visuals-2.png)
 
 指定 R 安裝後，您就可以開始建立 R 視覺效果。
 
 ## <a name="create-r-visuals-in-power-bi-desktop"></a>在 Power BI Desktop 中建立 R 視覺效果
-1. 在 [視覺效果] 窗格中選取 **R 視覺效果**圖示 (如下圖所示) 以加入 R 視覺效果。
+1. 在 [視覺效果]  窗格中選取 **R 視覺效果**圖示 (如下圖所示) 以加入 R 視覺效果。
    
    ![](media/desktop-r-visuals/r-visuals-3.png)
 
@@ -43,12 +43,12 @@ ms.locfileid: "65514438"
    
    ![](media/desktop-r-visuals/r-visuals-4.png)
 
-2. 接下來，將您想要在 R 指令碼中使用的欄位新增到 [欄位] 的 [值] 區段中，就如同任何其他 **Power BI Desktop** 視覺效果一般。 
+2. 接下來，將您想要在 R 指令碼中使用的欄位新增到 [欄位]  的 [值]  區段中，就如同任何其他 **Power BI Desktop** 視覺效果一般。 
     
-    只有加入到 [欄位] 的欄位才可提供您的 R 指令碼使用。 您在 **Power BI Desktop R 指令碼編輯器**中使用 R 指令碼時，也可以新增欄位，或從 [欄位] 移除不需要的欄位。 **Power BI Desktop** 會自動偵測您已新增或移除哪些欄位。
+    只有加入到 [欄位]  的欄位才可提供您的 R 指令碼使用。 您在 **Power BI Desktop R 指令碼編輯器**中使用 R 指令碼時，也可以新增欄位，或從 [欄位]  移除不需要的欄位。 **Power BI Desktop** 會自動偵測您已新增或移除哪些欄位。
    
    > [!NOTE]
-   > R 視覺效果的預設彙總類型為「不摘要」。
+   > R 視覺效果的預設彙總類型為「不摘要」  。
    > 
    > 
    
@@ -72,13 +72,13 @@ ms.locfileid: "65514438"
    
    產生的資料框架稱為**資料集**，且您可以根據所選資料行的各自名稱來加以存取。 例如，在 R 指令碼中撰寫 *dataset$gear* 即可存取 gear 欄位。 針對使用空格或特殊字元的欄位，使用單引號加以括住。
 
-4. 由於資料框架會根據您選取的欄位自動產生，因此您可以撰寫 R 指令碼，進而繪製到 R 預設裝置。 指令碼完成後，請從 \[R 指令碼編輯器]  標題列選取 \[執行]  \(\[執行] 位於標題列右側)。
+4. 由於資料框架會根據您選取的欄位自動產生，因此您可以撰寫 R 指令碼，進而繪製到 R 預設裝置。 指令碼完成後，請從 \[R 指令碼編輯器]  標題列選取 \[執行]  \(\[執行]  位於標題列右側)。
    
-    選取 [執行] 後，**Power BI Desktop** 會識別繪製內容並將其呈現在畫布上。 由於此程序會在本機的 R 安裝上執行，因此請確定已安裝必要的套件。
+    選取 [執行]  後，**Power BI Desktop** 會識別繪製內容並將其呈現在畫布上。 由於此程序會在本機的 R 安裝上執行，因此請確定已安裝必要的套件。
    
    當下列任一種狀況發生時，**Power BI Desktop** 會重新繪製視覺效果：
    
-   * 當您從 [R 指令碼編輯器] 標題列選取 [執行] 時
+   * 當您從 [R 指令碼編輯器]  標題列選取 [執行]  時
    * 每當因資料重新整理、篩選或反白顯示而發生資料變更時
 
      下圖顯示相互關聯繪製程式碼的範例，它繪製不同類型汽車屬性之間的關聯性。
@@ -120,7 +120,7 @@ ms.locfileid: "65514438"
 * R 視覺效果會在資料更新、篩選及反白顯示時進行重新整理。 不過，影像本身不是互動式，且不得為交叉篩選的來源。
 * R 視覺效果會回應反白顯示的其他視覺效果，但您不能點選 R 視覺效果中的項目，無法交叉篩選其他項目。
 * 只有繪製到 R 預設顯示裝置的繪圖才會在畫布上正確顯示。 避免明確地使用不同的 R 顯示裝置。
-* 在此版本中，32 位元版本的 Power BI Desktop 不會自動識別 RRO 安裝，因此您必須在 [選項及設定] > [選項] > [R 指令碼] 手動提供 R 安裝目錄的路徑。
+* 在此版本中，32 位元版本的 Power BI Desktop 不會自動識別 RRO 安裝，因此您必須在 [選項及設定] > [選項] > [R 指令碼]  手動提供 R 安裝目錄的路徑。
 
 ## <a name="next-steps"></a>後續步驟
 請看看下列有關 Power BI 中 R 的其他資訊。

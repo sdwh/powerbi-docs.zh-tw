@@ -1,20 +1,20 @@
 ---
 title: Power BI Embedded 的多地理位置支援
 description: 了解如何將內容部署到 Power BI Embedded 主區域以外區域內的資料中心。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: d139f96b6aec2db23b2eabc54c3fa326e4762766
-ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
-ms.translationtype: HT
+ms.openlocfilehash: 57f01a458bad36c73a01adb1bc62bfd5a055a337
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57572017"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61344889"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded 的多地理位置支援
 
@@ -24,7 +24,7 @@ ms.locfileid: "57572017"
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>使用多地理位置建立新的 Power BI Embedded 容量資源
 
-在 [建立資源] 畫面上，您必須選擇您容量的位置。 到目前為止，它只限制於您 Power BI 租用戶的位置，因此只有單一位置可用。 使用多地理位置時，您可以選擇不同的區域來部署您的容量。
+在 [建立資源]  畫面上，您必須選擇您容量的位置。 到目前為止，它只限制於您 Power BI 租用戶的位置，因此只有單一位置可用。 使用多地理位置時，您可以選擇不同的區域來部署您的容量。
 
 ![Power BI Embedded 多地理位置設定](media/embedded-multi-geo/pbie-multi-geo-setup.png)
 
@@ -70,7 +70,7 @@ ms.locfileid: "57572017"
 
 2. **[指派到容量](https://docs.microsoft.com/rest/api/power-bi/capacities)** - API　允許將給定的工作區指派到容量。 此作業不允許您將工作區指派給您主區域以外的容量或在不同的區域之間移動工作區。 若要執行此作業，使用者或[服務主體](embed-service-principal.md)仍需要工作區的系統管理權限，以及目標容量上的系統管理或指派權限。
 
-3. **[Azure Resource Manager API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** - 所有 Azure Resource Manager API 作業 (包括「建立」與「刪除」) 都支援多地理位置。
+3. **[Azure Resource Manager API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** - 所有 Azure Resource Manager API 作業 (包括「建立」  與「刪除」  ) 都支援多地理位置。
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 

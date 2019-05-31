@@ -3,19 +3,19 @@ title: Power BI Premium 中的累加式重新整理
 description: 了解如何啟用 Power BI Premium 服務中的極大型資料集。
 author: christianwade
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 05/10/2019
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: caa350274b7af62078098d9ef7730046f6e14627
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
-ms.translationtype: HT
+ms.openlocfilehash: b338044433d1d87f07ab38d64c15974a1cfaa173
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225975"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65536134"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium 中的累加式重新整理
 
@@ -43,15 +43,15 @@ ms.locfileid: "56225975"
 
 針對累加式重新整理，資料集會使用 Power Query 日期/時間參數與保留的區分大小寫名稱 **RangeStart** 和 **RangeEnd** 來進行篩選。 這些參數用來篩選匯入至 Power BI Desktop 的資料，也用來在發佈至 Power BI 服務之後以動態方式將資料分割成範圍。 服務會取代參數值以篩選每個分割區。 發佈之後，Power BI 服務會自動覆寫參數值。 不需要在服務中的資料集設定中進行設定。 發佈之後，Power BI 服務會自動覆寫參數值。 
 
-若要使用預設值定義參數，請在 [Power Query 編輯器] 中，選取 [管理參數]。
+若要使用預設值定義參數，請在 [Power Query 編輯器] 中，選取 [管理參數]  。
 
 ![管理參數](media/service-premium-incremental-refresh/manage-parameters.png)
 
-定義參數時，您可以選取資料行的 [自訂篩選] 功能表選項，來套用篩選。
+定義參數時，您可以選取資料行的 [自訂篩選]  功能表選項，來套用篩選。
 
 ![自訂篩選](media/service-premium-incremental-refresh/custom-filter.png)
 
-確定已篩選資料列，其中，資料行值「晚於或等於」 **RangeStart** 並「早於」 **RangeEnd**。
+確定已篩選資料列，其中，資料行值「晚於或等於」  **RangeStart** 並「早於」  **RangeEnd**。
 
 ![篩選資料列](media/service-premium-incremental-refresh/filter-rows.png)
 
@@ -60,7 +60,7 @@ ms.locfileid: "56225975"
 >
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
-從 Power Query 編輯器中，選取 [Close and Apply] \(關閉並套用\)。 您在 Power BI Desktop 中應該有資料集的子集。
+從 Power Query 編輯器中，選取 [Close and Apply] \(關閉並套用\)  。 您在 Power BI Desktop 中應該有資料集的子集。
 
 #### <a name="filter-date-column-updates"></a>篩選日期資料行更新
 
@@ -116,7 +116,7 @@ Power BI 服務中的第一次重新整理可能需要較長的時間才能匯�
 
 #### <a name="detect-data-changes"></a>偵測資料變更
 
-10 天的累加式重新整理會比 5 年的完整重新整理更具效率。 不過，還可以更好。 如果您選取 [偵測資料變更] 核取方塊，則可以選取用來找出並僅重新整理資料已變更之日期的日期/時間資料行。 這假設這類資料行存在於來源系統中，這通常用於稽核用途。 **這不應該與使用 RangeStart/RangeEnd 參數來分割資料的資料行相同。** 會評估此資料行在累加式範圍之每個週期的最大值。 如果自上次重新整理後尚未進行變更，則不需要重新整理週期。 在範例中，這可能會進一步將累加式重新整理天數從 10 天減少為大約 2 天。
+10 天的累加式重新整理會比 5 年的完整重新整理更具效率。 不過，還可以更好。 如果您選取 [偵測資料變更]  核取方塊，則可以選取用來找出並僅重新整理資料已變更之日期的日期/時間資料行。 這假設這類資料行存在於來源系統中，這通常用於稽核用途。 **這不應該與使用 RangeStart/RangeEnd 參數來分割資料的資料行相同。** 會評估此資料行在累加式範圍之每個週期的最大值。 如果自上次重新整理後尚未進行變更，則不需要重新整理週期。 在範例中，這可能會進一步將累加式重新整理天數從 10 天減少為大約 2 天。
 
 ![偵測變更](media/service-premium-incremental-refresh/detect-changes.png)
 
@@ -160,3 +160,7 @@ let
 in
     #"Filtered Rows"
 ```
+
+## <a name="limitations"></a>限制
+
+目前，對於[複合模型](desktop-composite-models.md)、 累加式重新整理支援 SQL、 Oracle 和 Teradata 資料來源只。

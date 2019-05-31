@@ -12,11 +12,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 59ffa05d34b86ba2a4673e3d9db39e15f030fb17
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293089"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136616"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>在 Power BI 服務中建立儀表板的複本
 ![儀表板](media/service-dashboard-copy/power-bi-dashboard.png)
@@ -25,13 +25,13 @@ ms.locfileid: "54293089"
 
 儀表板是使用 Power BI 服務來建立 (和複製)，並且可以在 Power BI 行動版和 Power BI Embedded 中檢視。  在 Power BI Desktop 中無法使用儀表板。 
 
-若要建立儀表板的複本，您必須是儀表板「建立者」。 已與您共用為應用程式的儀表板不能重複。
+若要建立儀表板的複本，您必須是儀表板「建立者」  。 已與您共用為應用程式的儀表板不能重複。
 
 1. 開啟儀表板。
-2. 在右上角選取省略符號 (...)，然後選擇 [複製儀表板]。
+2. 在右上角選取省略符號 (...)，然後選擇 [複製儀表板]  。
    
    ![省略符號功能表](media/service-dashboard-copy/power-bi-dulicate.png)
-3. 提供儀表板的名稱，並選取 [複製]。 
+3. 提供儀表板的名稱，並選取 [複製]  。 
    
    ![[複製儀表板] 對話方塊](media/service-dashboard-copy/power-bi-name.png)
 4. 新的儀表板會儲存在與原始儀表板相同的工作區中。 
@@ -40,10 +40,10 @@ ms.locfileid: "54293089"
 
 5.    開啟新的儀表板，並視需要加以編輯。 以下是接下來您可能想要進行的一些事：    
     a. [移動、重新命名、調整大小或甚至刪除磚](service-dashboard-edit-tile.md)。  
-    b. 選取磚省略符號 (...) 然後選擇 [編輯詳細資料]，以編輯磚詳細資料和超連結。  
+    b. 選取磚省略符號 (...) 然後選擇 [編輯詳細資料]  ，以編輯磚詳細資料和超連結。  
     c. [從儀表板功能表列新增磚](service-dashboard-add-widget.md) (**新增磚**)  
     d. [從問與答](service-dashboard-pin-tile-from-q-and-a.md)或[從報表](service-dashboard-pin-tile-from-report.md)釘選新的磚。  
-    e. 重新命名儀表板、開啟或關閉問與答，並從儀表板的 [設定] 窗格設定磚流程。  (選取儀表板省略符號 (...) 下拉式清單，並選擇 [設定])  
+    e. 重新命名儀表板、開啟或關閉問與答，並從儀表板的 [設定] 窗格設定磚流程。  (選取儀表板省略符號 (...) 下拉式清單，並選擇 [設定]  )  
     f. 直接與同事共用儀表板，或作為 Power BI 應用程式的一部分。 
 
 

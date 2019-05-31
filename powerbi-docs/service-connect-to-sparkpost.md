@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 48cdff67e613093c3ac473b0a505a6f0d57f4f2d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008089"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61171101"
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>使用 Power BI 連接到 SparkPost
 Power BI 的 SparkPost 內容套件可讓您將 SparkPost 帳戶的寶貴資料集，擷取放入令人發想的儀表板。 您可以使用 SparkPost 內容套件視覺化整體的電子郵件統計資料，包括網域、活動和 ISP 參與。
@@ -26,10 +26,10 @@ Power BI 的 SparkPost 內容套件可讓您將 SparkPost 帳戶的寶貴資料�
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-sparkpost/getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-sparkpost/services.png)
-3. 選取 **SparkPost** 內容套件並按一下 [取得] 。 
+3. 選取 **SparkPost** 內容套件並按一下 [取得]  。 
    
    ![](media/service-connect-to-sparkpost/sparkpost.png)
 4. 出現提示時，請提供 SparkPost API 金鑰並選取 [登入]。 請參閱以下關於[尋找這些參數](#FindingParams)的詳細資訊。
@@ -44,7 +44,7 @@ Power BI 的 SparkPost 內容套件可讓您將 SparkPost 帳戶的寶貴資料�
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="whats-included"></a>包含的內容
 Power BI 的 SparkPost 內容套件包含獨特的點擊、接受的速度、退回速度、延遲的速度、拒絕速度等資訊。

@@ -1,20 +1,20 @@
 ---
 title: Power BI Embedded 問與答
 description: Power BI Embedded 提供您一種將問與答併入應用程式的方式，讓您的使用者使用自然語言提問。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
-ms.openlocfilehash: 03a348a2b1078a731df37157b254df069ca79fa9
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
-ms.translationtype: HT
+ms.openlocfilehash: afe53e7b24328612bd7858abe263e4365f1c891d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757361"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61268712"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded 問與答
 

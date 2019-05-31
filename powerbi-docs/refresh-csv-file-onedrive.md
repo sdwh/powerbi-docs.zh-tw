@@ -1,22 +1,22 @@
 ---
 title: 重新整理建立自 OneDrive 上 .csv 檔案的資料集
 description: 重新整理建立自 OneDrive 上逗點分隔值 (.csv) 檔案的資料集
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 42d7726a93d525612cbc5f1eed6e07b7d8b7d552
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 80182ae0898ab5c88acb85ce24a55fe615cf2a0b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295926"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61415614"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>重新整理建立自 OneDrive 或 SharePoint Online 上 .CSV 檔案的資料集
 ## <a name="what-are-the-advantages"></a>有哪些優點？
@@ -41,7 +41,7 @@ ms.locfileid: "54295926"
 如果您變更無法與 Power BI 中資料集同步處理之 OneDrive 上的 .csv 檔案 (因為您的 Microsoft 帳戶認證可能已更改)，您將必須連接到該檔案，並從您的個人 OneDrive 將它再匯入一次。
 
 ## <a name="when-things-go-wrong"></a>發生錯誤時
-如果放在 OneDrive 上的 .csv 檔案中的資料已變更，而在 Power BI 無法中反映這些變更，則很有可能是因為 Power BI 無法連接到您的 OneDrive。 請嘗試連接到該檔案再匯入一次。 如果系統提示您登入，請確定您已選取 [讓我保持登入] 。
+如果放在 OneDrive 上的 .csv 檔案中的資料已變更，而在 Power BI 無法中反映這些變更，則很有可能是因為 Power BI 無法連接到您的 OneDrive。 請嘗試連接到該檔案再匯入一次。 如果系統提示您登入，請確定您已選取 [讓我保持登入]  。
 
 ## <a name="next-steps"></a>後續步驟
 [對重新整理問題進行疑難排解的工具](service-gateway-onprem-tshoot.md)

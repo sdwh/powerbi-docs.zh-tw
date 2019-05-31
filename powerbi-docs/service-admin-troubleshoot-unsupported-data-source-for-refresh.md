@@ -3,7 +3,7 @@ title: 不支援重新整理的資料來源疑難排解
 description: 不支援重新整理的資料來源疑難排解
 author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
@@ -11,12 +11,12 @@ ms.date: 12/06/2017
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 340c3fe2dc18fadb6be0ac47556547e6131833bc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bd0ea66b8caf32e3244ed4e5eef648100fc5169e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280393"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61188023"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>不支援重新整理的資料來源疑難排解
 當您嘗試設定資料集的排程重新整理時，可能會看到錯誤。
@@ -32,7 +32,7 @@ ms.locfileid: "54280393"
    ![Desktop 報表窗格](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
 2. 從功能區列選取 [編輯查詢]  。  
    ![編輯查詢](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
-3. 選取 [進階編輯器] 。  
+3. 選取 [進階編輯器]  。  
    ![進階編輯器](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. 記下所列的來源提供者。  在本例中，提供者為 ActiveDirectory。  
    ![資料來源提供者](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
@@ -41,7 +41,7 @@ ms.locfileid: "54280393"
 ## <a name="next-steps"></a>後續步驟
 [資料重新整理](refresh-data.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[內部部署資料閘道](service-gateway-onprem.md)  
+[On-premises data gateway (內部部署資料閘道)](service-gateway-onprem.md)  
 [為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)  
 [對 Power BI Gateway - Personal 進行疑難排解](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

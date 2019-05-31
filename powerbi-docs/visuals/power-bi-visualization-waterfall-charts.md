@@ -12,11 +12,11 @@ ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 3835bedc1b4ab2df87abf4704ef338ff7f4abc5d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215036"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61392947"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布圖
 瀑布圖會顯示總額的增減變動。 它適用於了解起始值 (例如淨收益) 如何受到一系列正面和負面變更的影響。
@@ -35,27 +35,27 @@ ms.locfileid: "56215036"
 * 以視覺化方式顯示您的每月收入與支出，以及帳戶的日常餘額 
 
 ## <a name="create-a-waterfall-chart"></a>建立瀑布圖
-我們將會建立一個顯示了每月銷售額差異 (估計銷售額與實際銷售額) 的瀑布圖。 如果要跟著做，請登入 Power BI 並選取 [取得資料] \> [範例] \> [零售分析範例]。 
+我們將會建立一個顯示了每月銷售額差異 (估計銷售額與實際銷售額) 的瀑布圖。 如果要跟著做，請登入 Power BI 並選取 [取得資料] \> [範例] \> [零售分析範例]  。 
 
-1. 選取 [資料集] 索引標籤，並捲動至新的 [零售分析範例] 資料集。  選取**建立報表**圖示，在報表編輯檢視中開啟資料集。 
+1. 選取 [資料集]  索引標籤，並捲動至新的 [零售分析範例] 資料集。  選取**建立報表**圖示，在報表編輯檢視中開啟資料集。 
    
     ![醒目提示的 [資料集] 索引標籤](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
-2. 從 [欄位] 窗格中，選取 [銷售額] \> [總銷售額差異]。 
-3. 將圖表轉換成 [瀑布圖] 。 如果 [總銷售額差異]  並非位於 [Y 軸]  區域，請將它拖曳到該處。
+2. 從 [欄位]  窗格中，選取 [銷售額] \> [總銷售額差異]  。 
+3. 將圖表轉換成 [瀑布圖]  。 如果 [總銷售額差異]  並非位於 [Y 軸]  區域，請將它拖曳到該處。
    
     ![視覺效果範本](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
-4. 選取 [時間] \> [會計月份] 將其加入 [類別] 部分。 
+4. 選取 [時間]  \> [會計月份]  將其加入 [類別]  部分。 
    
     ![瀑布圖](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
-5. 依時間先後順序來排序瀑布圖。 在圖表右上角選取省略符號 (...)，然後選擇 [會計月份]。
+5. 依時間先後順序來排序瀑布圖。 在圖表右上角選取省略符號 (...)，然後選擇 [會計月份]  。
    
     ![選擇 [排序依據] > [FiscalMonth]](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
     ![新遞增排序的結果](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
-6. 深入了解造成每個月變化的最大因素為何。 將 [存放區]  >  [地區] 拖曳至 [分解] 貯體。
+6. 深入了解造成每個月變化的最大因素為何。 將 [存放區]   >  [地區]  拖曳至 [分解]  貯體。
    
     ![顯示 [分解] 貯體中的 [存放區]](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
-7. 根據預設，Power BI 會新增造成每個月增加或減少的前 5 個因素。 但是，我們只想了解前 2 個因素。  在 [格式化] 窗格中，選取 [分解]，然後將 [最大值] 設定為 2。
+7. 根據預設，Power BI 會新增造成每個月增加或減少的前 5 個因素。 但是，我們只想了解前 2 個因素。  在 [格式化] 窗格中，選取 [分解]  ，然後將 [最大值]  設定為 2。
    
     ![[格式化] > [分解]](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    

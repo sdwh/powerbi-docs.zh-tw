@@ -11,16 +11,16 @@ ms.date: 05/20/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 7f7b9d09b3761a5a02bdf4f706c6470b7d8cf2b6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275503"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61231236"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的商機分析範例：觀看導覽
 
 ## <a name="overview-of-the-opportunity-analysis-sample"></a>商機分析範例概觀
-[商機分析範例] 包含一個儀表板及相關聯的報表，以分析一家具有 2 個銷售通路 (「直接」和「合作夥伴」) 的軟體公司。 此儀表板由銷售經理所建立，以區域、交易量及通路來追蹤商機與營收。
+[商機分析範例]  包含一個儀表板及相關聯的報表，以分析一家具有 2 個銷售通路 (「直接」  和「合作夥伴」  ) 的軟體公司。 此儀表板由銷售經理所建立，以區域、交易量及通路來追蹤商機與營收。
 
 銷售經理依賴兩項營收量值：
 
@@ -43,13 +43,13 @@ ms.locfileid: "54275503"
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
-2. 在左下角選取 [取得資料]。
+2. 在左下角選取 [取得資料]  。
    
     ![](media/sample-datasets/power-bi-get-data.png)
-3. 在顯示的 [取得資料] 頁面上，選取 [範例]。
+3. 在顯示的 [取得資料] 頁面上，選取 [範例]  。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 選取 [商機分析範例]，然後選擇 [連線]。  
+4. 選取 [商機分析範例]  ，然後選擇 [連線]  。  
   
    ![取得資料](media/sample-opportunity-analysis/opportunity-connect.png)
    
@@ -64,7 +64,7 @@ ms.locfileid: "54275503"
  * [商機分析範例](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
-您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529782)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。
+您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529782)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]  。
 
 
 ## <a name="what-is-our-dashboard-telling-us"></a>儀表板告訴我們什麼？

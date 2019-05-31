@@ -1,20 +1,20 @@
 ---
 title: 開發人員可如何利用 Power BI？
 description: Power BI 提供各種開發人員選項。 範圍包括內嵌、自訂視覺效果和串流資料集。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 63ee9ed96ed699d116b8d81b0cd612f76994a68d
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: d2e3ba69cde609638e54eaa1206714f0fb420d18
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872677"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61262629"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>開發人員可如何利用 Power BI？
 
@@ -58,9 +58,9 @@ Power BI 顯示互動式儀表板，可即時從不同的資料來源建立及�
 
 ## <a name="next-steps"></a>後續步驟
 
-[Power BI 的內嵌功能](embedding.md)  
+[內嵌在 Power BI 之中](embedding.md)  
 
-[開發 Power BI 自訂視覺效果](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
+[Developing a Power BI custom visual](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/) (開發 Power BI 自訂視覺效果)
 
 [開發人員可如何利用 Power BI API？](overview-of-power-bi-rest-api.md)
 

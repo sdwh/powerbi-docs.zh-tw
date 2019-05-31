@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 8d80d0a2d976661f2b62476be7742b755d11f1c9
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216531"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513699"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教學課程：使用 Power BI Desktop 的 Facebook 分析
 
@@ -23,11 +23,11 @@ ms.locfileid: "56216531"
 
 ## <a name="connect-to-a-facebook-page"></a>連線至 Facebook 頁面
 
-本教學課程使用來自 [Microsoft Power BI Facebook 頁面](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*) 的資料。 除了個人的 Facebook 帳戶之外，您不需要任何特殊認證就能連線此頁面並從中匯出資料。
+本教學課程使用來自 [Microsoft Power BI Facebook 頁面](https://www.facebook.com/microsoftbi) ( *https://www.facebook.com/microsoftbi* ) 的資料。 除了個人的 Facebook 帳戶之外，您不需要任何特殊認證就能連線此頁面並從中匯出資料。
 
-1. 開啟 Power BI Desktop，接著在 [開始使用] 對話方塊中選取 [取得資料]，或在 [首頁] 功能區索引標籤中選取 [取得資料]，然後選取 [更多]。
+1. 開啟 Power BI Desktop，接著在 [開始使用]  對話方塊中選取 [取得資料]  ，或在 [首頁]  功能區索引標籤中選取 [取得資料]  ，然後選取 [更多]  。
    
-2. 在 [取得資料] 對話方塊中，從 [線上服務] 群組選取 [Facebook]，然後選取 [連接]。
+2. 在 [取得資料]  對話方塊中，從 [線上服務]  群組選取 [Facebook]  ，然後選取 [連接]  。
    
    ![取得資料](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
@@ -35,9 +35,9 @@ ms.locfileid: "56216531"
    
    ![第三方服務警告](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
    
-3. 選取 [繼續]。 [Facebook] 對話方塊隨即出現。
+3. 選取 [繼續]  。 [Facebook]  對話方塊隨即出現。
    
-4. 在 [使用者名稱] 文字方塊中輸入或貼上頁面名稱 **microsoftbi**、從 [連接] 下拉式清單中選取 [貼文]，然後選取 [確定]。
+4. 在 [使用者名稱]  文字方塊中輸入或貼上頁面名稱 **microsoftbi**、從 [連接]  下拉式清單中選取 [貼文]  ，然後選取 [確定]  。
    
    ![連線](media/desktop-tutorial-facebook-analytics/2.png)
    
@@ -57,7 +57,7 @@ ms.locfileid: "56216531"
 
 首先，分隔 **created_time** 資料行中的日期和時間值，使其更容易閱讀。 
 
-1. 在 Facebook 資料預覽中，選取 [編輯]。 
+1. 在 Facebook 資料預覽中，選取 [編輯]  。 
    
    ![資料預覽編輯](media/desktop-tutorial-facebook-analytics/t_fb_1-editpreview.png)
    
@@ -65,17 +65,17 @@ ms.locfileid: "56216531"
    
    ![Power Query 編輯器](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
    
-2. 選取 **created_time** 資料行。 請注意，它目前是文字資料類型，在資料行標頭中會以 **ABC** 圖示來表示。 以滑鼠右鍵按一下標頭，然後在下拉式清單中選取 [分割資料行] > [依分隔符號]，或在功能區 [首頁] 索引標籤的 [轉換] 下方選取 [分割資料行] > [依分隔符號]。  
+2. 選取 **created_time** 資料行。 請注意，它目前是文字資料類型，在資料行標頭中會以 **ABC** 圖示來表示。 以滑鼠右鍵按一下標頭，然後在下拉式清單中選取 [分割資料行] > [依分隔符號]  ，或在功能區 [首頁] 索引標籤的 [轉換]  下方選取 [分割資料行] > [依分隔符號]  。  
    
    ![依分隔符號分割資料行](media/desktop-tutorial-facebook-analytics/delimiter1.png)
    
-3. 在 [依分隔符號分割資料行] 對話方塊中，從下拉式清單中選取 [自訂]、於輸入欄位中輸入 **T** (作為 created_time 值時間部分開頭的字元)，然後選取 [確定]。 
+3. 在 [依分隔符號分割資料行]  對話方塊中，從下拉式清單中選取 [自訂]  、於輸入欄位中輸入 **T** (作為 created_time 值時間部分開頭的字元)，然後選取 [確定]  。 
    
    ![[依分隔符號分割資料行] 對話方塊](media/desktop-tutorial-facebook-analytics/delimiter2.png)
    
    該資料行會分割成兩個資料行，各自包含 **T** 分隔符號前後的字串，並分別命名為 **created_time.1** 和 **created_time.2**。 請注意，Power BI 已自動偵測到並將第一個資料行的資料類型變更為 **Date**，以及將第二個資料行變更為 **Time**，而且已將日期和時間值格式化，使其更容易閱讀。
    
-4. 按兩下各個資料行標頭，或選取每個資料行，然後選取功能區中 [轉換] 索引標籤之 [任何資料行] 群組中的 [重新命名]，接著分別輸入新的資料行標頭 **created_date** 和 **created_time**，藉以將資料行重新命名。
+4. 按兩下各個資料行標頭，或選取每個資料行，然後選取功能區中 [轉換]  索引標籤之 [任何資料行]  群組中的 [重新命名]  ，接著分別輸入新的資料行標頭 **created_date** 和 **created_time**，藉以將資料行重新命名。
    
    ![新的日期和時間資料行](media/desktop-tutorial-facebook-analytics/delimiter3.png)
    
@@ -83,14 +83,14 @@ ms.locfileid: "56216531"
 
 日期和時間資料現在會以您想要的方式呈現，您可以展開巢狀資料行即可公開留言資料。 
 
-1. 選取 **object_link** 資料行，然後選取 ![展開圖示](media/desktop-tutorial-facebook-analytics/14.png) 圖示，以開啟 [展開/彙總] 對話方塊。 選取 [connections] \(連接\)，然後選取 [確定]。 
+1. 選取 **object_link** 資料行，然後選取 ![展開圖示](media/desktop-tutorial-facebook-analytics/14.png) 圖示，以開啟 [展開/彙總]  對話方塊。 選取 [connections]  \(連接\)，然後選取 [確定]  。 
    
    ![展開 object_link](media/desktop-tutorial-facebook-analytics/expand1.png)
    
    資料行標題會變更為 **object_link.connections**。
-2. 再次選取 **object_link.connections** 資料行上方的 ![展開圖示](media/desktop-tutorial-facebook-analytics/14.png) 圖示、選取 [comments] \(留言\)，然後選取 [確定]。 資料行標題會變更為 **object_link.connections.comments**。
+2. 再次選取 **object_link.connections** 資料行上方的 ![展開圖示](media/desktop-tutorial-facebook-analytics/14.png) 圖示、選取 [comments]  \(留言\)，然後選取 [確定]  。 資料行標題會變更為 **object_link.connections.comments**。
    
-3. 選取 **object_link.connections.comments** 資料行上方的 ![展開圖示](media/desktop-tutorial-facebook-analytics/14.png) 圖示，但這次在對話方塊中選取 [彙總] 而不是 [展開]。 選取 [# id 的計數]，然後選取 [確定]。 
+3. 選取 **object_link.connections.comments** 資料行上方的 ![展開圖示](media/desktop-tutorial-facebook-analytics/14.png) 圖示，但這次在對話方塊中選取 [彙總]  而不是 [展開]。 選取 [# id 的計數]  ，然後選取 [確定]  。 
    
    ![彙總留言](media/desktop-tutorial-facebook-analytics/expand2.png)
    
@@ -98,24 +98,24 @@ ms.locfileid: "56216531"
    
 4. 將 **object_link.connections.comments.id 的計數**資料行重新命名為 **Number of comments** \(留言數目\)。
    
-5. 選取 **Number of comments** \(留言數目\) 標頭旁的向下箭號，然後選取 [遞減排序] 以查看已排序的貼文 (從最多留言數目到最少留言數目)。 
+5. 選取 **Number of comments** \(留言數目\) 標頭旁的向下箭號，然後選取 [遞減排序]  以查看已排序的貼文 (從最多留言數目到最少留言數目)。 
    
    ![每個訊息的留言](media/desktop-tutorial-facebook-analytics/data-fixed.png)
    
 ### <a name="review-query-steps"></a>檢閱查詢步驟
 
-當您在 **Power Query編輯器**中使資料成形並轉換時，每個步驟都會記錄於 [Power Query 編輯器] 視窗右側 [查詢設定] 窗格的 [套用的步驟] 區域中。 您可以反向逐步執行「套用的步驟」，以確實查看您做了哪些變更，並視需要編輯、刪除或重新排列它們 (雖然這可能會有風險，因為變更前面的步驟可能中斷接下來的步驟)。 
+當您在 **Power Query編輯器**中使資料成形並轉換時，每個步驟都會記錄於 [Power Query 編輯器] 視窗右側 [查詢設定]  窗格的 [套用的步驟]  區域中。 您可以反向逐步執行「套用的步驟」，以確實查看您做了哪些變更，並視需要編輯、刪除或重新排列它們 (雖然這可能會有風險，因為變更前面的步驟可能中斷接下來的步驟)。 
 
 套用資料轉換之後，套用的步驟看起來應該如下：
    
    ![套用的步驟](media/desktop-tutorial-facebook-analytics/applied-steps.png)
    
    >[!TIP]
-   >套用的步驟本質上是以 **Power Query 語言** (亦稱為 **M** 語言) 所撰寫的公式。 若要查看和編輯公式，請選取功能區 [首頁] 索引標籤之 [查詢] 群組中的 [進階編輯器]。 
+   >套用的步驟本質上是以 **Power Query 語言** (亦稱為 **M** 語言) 所撰寫的公式。 若要查看和編輯公式，請選取功能區 [首頁] 索引標籤之 [查詢]  群組中的 [進階編輯器]  。 
 
 ### <a name="import-the-transformed-data"></a>匯入轉換的資料
 
-當您處理完資料之後，請在功能區的 [首頁] 索引標籤中選取 [關閉並套用] > [關閉並套用]，以將資料匯入至 Power BI Desktop。 
+當您處理完資料之後，請在功能區的 [首頁] 索引標籤中選取 [關閉並套用]   > [關閉並套用]  ，以將資料匯入至 Power BI Desktop。 
    
    ![關閉並套用](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
    
@@ -129,11 +129,11 @@ ms.locfileid: "56216531"
    
 ## <a name="use-the-data-in-report-visualizations"></a>在報表視覺效果中使用資料 
 
-現在您已從 Facebook 頁面載入資料，便可以使用視覺效果，快速且輕鬆地深入解析您的資料。 建立視覺效果很簡單；只要選取一個欄位，或將它從 [欄位] 清單拖曳至報表畫布即可。
+現在您已從 Facebook 頁面載入資料，便可以使用視覺效果，快速且輕鬆地深入解析您的資料。 建立視覺效果很簡單；只要選取一個欄位，或將它從 [欄位]  清單拖曳至報表畫布即可。
 
 ### <a name="create-a-bar-chart"></a>建立橫條圖
 
-1. 在 Power BI Desktop 報表檢視中，從欄位清單選取 [message] \(訊息\)，或將它拖曳至畫布。 畫布上會出現一個顯示所有貼文訊息的資料表。 
+1. 在 Power BI Desktop 報表檢視中，從欄位清單選取 [message]  \(訊息\)，或將它拖曳至畫布。 畫布上會出現一個顯示所有貼文訊息的資料表。 
    
    ![新增查詢](media/desktop-tutorial-facebook-analytics/table-viz.png)
    
@@ -143,11 +143,11 @@ ms.locfileid: "56216531"
    
    ![橫條圖](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. 選取視覺效果右上角的省略符號 (...)，然後選取 [排序依據 Number of comments]，以便依遞減的留言數目排序資料表。 
+4. 選取視覺效果右上角的省略符號 (...)，然後選取 [排序依據 Number of comments]  ，以便依遞減的留言數目排序資料表。 
    
    ![依留言數目排序](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
-5. 請注意，大部分留言都會與**空白**訊息相關聯 (這些貼文可能是報導、連結、影片或其他非文字內容)。 若要篩選出空白列，請選取 [視覺效果] 窗格底部 [篩選] 下方的 [message (全部)]、選取 [全選]，然後選取 [空白] 以將之取消選取。 [篩選] 項目會變更為 [message 不是 (空白)]，而空白列會從圖表視覺效果中消失。 
+5. 請注意，大部分留言都會與**空白**訊息相關聯 (這些貼文可能是報導、連結、影片或其他非文字內容)。 若要篩選出空白列，請選取 [視覺效果] 窗格底部 [篩選]  下方的 [message (全部)]  、選取 [全選]  ，然後選取 [空白]  以將之取消選取。 [篩選] 項目會變更為 [message 不是 (空白)]  ，而空白列會從圖表視覺效果中消失。 
    
    ![篩選出空白](media/desktop-tutorial-facebook-analytics/barchart3.png)
    
@@ -159,8 +159,8 @@ ms.locfileid: "56216531"
    
 2. 選取圖表之際，選取 [視覺效果] 窗格中的**格式圖示** (滾筒刷)。
    
-3. 選取 **Y 軸**旁的向下箭號，然後將 [最大容量] 旁的滑桿拖曳到最右邊 (50%)。 
-4. 同時將 [文字大小] 降至 **10** 以容納更多文字。
+3. 選取 **Y 軸**旁的向下箭號，然後將 [最大容量]  旁的滑桿拖曳到最右邊 (50%)。 
+4. 同時將 [文字大小]  降至 **10** 以容納更多文字。
    
    ![格式變更](media/desktop-tutorial-facebook-analytics/barchart4.png)
    
@@ -180,20 +180,20 @@ ms.locfileid: "56216531"
 
 看起來好多了，但資料標籤全都有 **.0** 小數位數，這可能會造成失焦與誤解，因為 **Number of posts** \(貼文數目\) 必須是整數。 您需要將 **Number of posts** \(貼文數目\) 資料行的資料類型變更為整數。
 
-1. 若要編輯資料類型，以滑鼠右鍵按一下 [欄位] 清單中的 **Query1**，或將滑鼠停留在它的上方，並選取**更多選項**省略符號 (...)，然後選取 [編輯查詢]。 您也可以從功能區 [首頁] 索引標籤的 [外部資料] 區域中選取 [編輯查詢]，然後從下拉式清單中選取 [編輯查詢]。 Power BI Desktop 的 **Power Query 編輯器** 會在另一個視窗中開啟。
+1. 若要編輯資料類型，以滑鼠右鍵按一下 [欄位] 清單中的 **Query1**，或將滑鼠停留在它的上方，並選取**更多選項**省略符號 (...)，然後選取 [編輯查詢]  。 您也可以從功能區 [首頁] 索引標籤的 [外部資料]  區域中選取 [編輯查詢]  ，然後從下拉式清單中選取 [編輯查詢]  。 Power BI Desktop 的 **Power Query 編輯器** 會在另一個視窗中開啟。
    
    ![從 [欄位] 清單編輯查詢](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![從功能區編輯查詢](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    
 2. 在 Power Query 編輯器中，選取 **Number of comments** \(留言數目\) 資料行，並透過下列其中一種方式，將資料類型變更為**整數**： 
-   - 選取 **Number of comments** \(留言數目\) 資料行標頭旁的 **1.2** 圖示，然後從下拉式清單中選取 [整數]，或者
-   - 以滑鼠右鍵按一下資料行標頭，然後選取 [變更類型] > [整數]，或者
-   - 在 [首頁] 索引標籤的 [轉換] 群組，或 [轉換] 索引標籤的 [任何資料行] 群組中選取 [資料類型:十進位數字]，然後選取 [整數]。
+   - 選取 **Number of comments** \(留言數目\) 資料行標頭旁的 **1.2** 圖示，然後從下拉式清單中選取 [整數]  ，或者
+   - 以滑鼠右鍵按一下資料行標頭，然後選取 [變更類型] > [整數]  ，或者
+   - 選取**資料型別：十進位數字**中**轉換**群組的 [首頁] 索引標籤中，或有**任何資料行**群組**轉換**索引標籤，然後選取**整個數字**。
    
    資料行標頭中的圖示會變更為 **123**，表示整數資料類型。
    
    ![變更資料類型](media/desktop-tutorial-facebook-analytics/change-datatype.png)
    
-3. 選取 [關閉並套用] (或僅 [套用]) 以套用變更，同時讓 Power Query 編輯器視窗保持開啟。 一旦載入變更之後，圖表上的資料標籤就會變成整數。 
+3. 選取 [關閉並套用]  (或僅 [套用]  ) 以套用變更，同時讓 Power Query 編輯器視窗保持開啟。 一旦載入變更之後，圖表上的資料標籤就會變成整數。 
    
    ![具有整數的圖表](media/desktop-tutorial-facebook-analytics/vis-3.png)
    
@@ -218,9 +218,9 @@ ms.locfileid: "56216531"
 您決定要為圖表提供更清楚且更吸引人的標題。 
 
 1. 選取圖表之際，選取**格式**圖示，然後選取下拉式箭號以展開**標題**。
-2. 將 [標題文字] 變更為 **Comments per post** \(每篇貼文的留言\)。 
-3. 選取 [字型色彩] 旁的下拉式箭號，然後選取綠色以搭配視覺效果的綠色列。
-4. 將 [文字大小] 增加到 **10**，並將 [字型家族] 變更為 **Segoe (Bold)**。
+2. 將 [標題文字]  變更為 **Comments per post** \(每篇貼文的留言\)。 
+3. 選取 [字型色彩]  旁的下拉式箭號，然後選取綠色以搭配視覺效果的綠色列。
+4. 將 [文字大小]  增加到 **10**，並將 [字型家族]  變更為 **Segoe (Bold)** 。
 
 ![將圖表標題格式化](media/desktop-tutorial-facebook-analytics/formatting1.png)
 

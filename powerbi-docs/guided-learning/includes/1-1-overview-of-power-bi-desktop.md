@@ -1,4 +1,12 @@
-歡迎來到 Power BI **引導式學習**課程的第二節＜取得資料＞。 本節探討許多 Power BI 以資料為中心的功能和工具，焦點放在 Power BI Desktop。 這些工具很多也適用於 Power BI 服務，所以本節的內容有雙重功用。
+---
+ms.openlocfilehash: fa891e06c83a21ac8fea299f068e3b95ad019062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264463"
+---
+歡迎來到 Power BI **引導式學習**課程的第二節＜取得資料＞  。 本節探討許多 Power BI 以資料為中心的功能和工具，焦點放在 Power BI Desktop。 這些工具很多也適用於 Power BI 服務，所以本節的內容有雙重功用。
 
 當您取得資料時，有時候格式非如所想或未經 *清理* 。 所以在本節中，您要學習如何取得資料、如何清理資料 (有時稱為 *清除* 或 *轉換* 資料)，以及學習一些進階技巧，讓您更容易取得資料。
 

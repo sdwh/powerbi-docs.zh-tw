@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: mshenhav
 ms.openlocfilehash: 9e487f4305b663028714cbe45ab76abaaa4a6db9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290927"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61135664"
 ---
 # <a name="fixing-communication-failures-in-ios-mobile-apps---power-bi"></a>修正 iOS 行動裝置應用程式中的「通訊失敗」- Power BI
 

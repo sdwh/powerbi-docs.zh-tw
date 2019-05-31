@@ -11,11 +11,11 @@ ms.date: 03/14/2018
 ms.author: willthom
 LocalizationGroup: Learn more
 ms.openlocfilehash: 9051ec4ea5bb9f60637e389bd77defb5590604c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281267"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61289663"
 ---
 # <a name="power-bi-desktop-privacy"></a>Power BI Desktop 隱私權
 
@@ -23,7 +23,7 @@ ms.locfileid: "54281267"
  
 我們從 **Power BI Desktop** 使用者收集到的資訊可能包含作業系統、Power BI Desktop 資訊和 Internet Explorer 版本的相關資料。 
  
-如果您不想選擇此資料收集，您可以移至 [檔案] > [選項及設定] > [選項]**>**，然後在 [使用量資料] 索引標籤上取消核取 [傳送使用量資料] 核取方塊，如下圖所示。
+如果您不想選擇此資料收集，您可以移至 [檔案] > [選項及設定] > [選項] **>** ，然後在 [使用量資料]  索引標籤上取消核取 [傳送使用量資料]  核取方塊，如下圖所示。
 
 ![傳送使用量資料的選項設定](media/desktop-privacy/privacy_01.png)
 
@@ -31,6 +31,6 @@ ms.locfileid: "54281267"
 
 如果您遇到損毀或其他問題，您可以選擇傳送錯誤報告和其他資訊，以協助我們在未來版本中修正問題。 我們也會收集您正在使用之 **Power BI Desktop** 檔案狀態的相關資訊，例如文件地區設定、啟用的預覽功能和儲存模式。 這可能包含來自您模型的螢幕擷取畫面、錯誤訊息和公式。連 這些項目可能包含錯誤發生時所使用的檔案內容，因此您應該在傳送前檢閱這些內容。 提醒您，您可以在傳送前，選擇要傳送至 Microsoft 的資訊。  
  
-如果您不想要傳送此資訊，您可以在錯誤發生時按一下 [關閉]，或如上所述選擇不傳送使用量資料。 
+如果您不想要傳送此資訊，您可以在錯誤發生時按一下 [關閉]  ，或如上所述選擇不傳送使用量資料。 
 
 ![損毀對話方塊](media/desktop-privacy/privacy_02.png)

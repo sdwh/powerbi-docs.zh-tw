@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239479"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>使用 Power BI Desktop 中的導出資料表
@@ -41,7 +41,7 @@ Contoso 專案經理 Jeff 有一個內含西北部員工資訊的資料表，以
 
 將這兩個資料表放到一個導出資料表相當容易。 Jeff 可以在 [報表檢視] 或 [資料檢視] 中建立導出資料表，不過在 [資料檢視] 中執行這項作業比較容易，因為他可以立即看到新的導出資料表。
 
-Jeff 在 [資料檢視] 的 [模型化]  索引標籤上，按一下 [新增資料表] 。 公式列會隨即出現。
+Jeff 在 [資料檢視]  的 [模型化]  索引標籤上，按一下 [新增資料表]  。 公式列會隨即出現。
 
  ![](media/desktop-calculated-tables/calctables_formulabarempty.png)
 

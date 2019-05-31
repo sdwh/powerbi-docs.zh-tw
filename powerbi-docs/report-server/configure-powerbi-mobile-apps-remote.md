@@ -1,20 +1,20 @@
 ---
 title: 從遠端設定 iOS 行動裝置應用程式對報表伺服器的存取權
 description: 了解如何為報表伺服器從遠端設定 iOS 行動裝置應用程式。
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.author: maghan
-ms.openlocfilehash: c50f9c482ba689fe81ee22b2b52564dec3cbf1d6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 27b3aad6f1a96c069f56ed68823b71b38115a98a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324361"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770645"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>從遠端設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取
 
@@ -48,15 +48,15 @@ ms.locfileid: "56324361"
 
  假設您對通訊群組清單發佈了應用程式設定原則。 則當通訊群組清單上的使用者與裝置，啟動 iOS 行動裝置應用程式時，會有如下的體驗。 
 
-1. 他們會看到訊息顯示行動裝置應用程式已設有報表伺服器，然後點選 [登入]。
+1. 他們會看到訊息顯示行動裝置應用程式已設有報表伺服器，然後點選 [登入]  。
 
     ![登入報表伺服器](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-sign-in.png)
 
-2.  在 [連線到伺服器] 頁面上，報表伺服器的詳細資料已填入。 他們會點選 [連線]。
+2.  在 [連線到伺服器]  頁面上，報表伺服器的詳細資料已填入。 他們會點選 [連線]  。
 
     ![報表伺服器詳細資料已填入](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configure-connect-server.png)
 
-3. 他們會鍵入密碼以進行驗證，然後點選 [登入]。 
+3. 他們會鍵入密碼以進行驗證，然後點選 [登入]  。 
 
     ![報表伺服器詳細資料已填入](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
 

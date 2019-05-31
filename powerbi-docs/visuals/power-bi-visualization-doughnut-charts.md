@@ -11,11 +11,11 @@ ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 4c69113d245d47a4d2702f16f6cea21a6cbd3b0b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295786"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136031"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Power BI 中的環圈圖
 環圈圖類似於圓形圖之處，在於它會顯示部分與整體的關聯性。 唯一的差別在於，中央為空白，且保留空間給標籤或圖示。
@@ -25,13 +25,13 @@ ms.locfileid: "54295786"
 
 1. 從空白報表頁面開始。 如果您使用 Power BI 服務，請務必在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報告。
 
-2. 從 [欄位] 窗格中，選取 [銷售額] \> [去年度銷售額]。  
+2. 從 [欄位] 窗格中，選取 [銷售額]  \> [去年度銷售額]  。  
    
-3. 從 [視覺效果] 窗格中，選取環圈圖的圖示 ![環圈圖圖示](media/power-bi-visualization-doughnut-charts/power-bi-icon.png)，以將橫條圖轉換成環圈圖。 如果 [值] 區域中沒有 [去年度銷售額]，請將其拖曳到該區域。
+3. 從 [視覺效果] 窗格中，選取環圈圖的圖示 ![環圈圖圖示](media/power-bi-visualization-doughnut-charts/power-bi-icon.png)，以將橫條圖轉換成環圈圖。 如果 [值]  區域中沒有 [去年度銷售額]  ，請將其拖曳到該區域。
      
    ![已選取環圈圖的 [視覺效果] 窗格](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 
-4. 選取 [項目] \> [類別]，將其加入 [圖例] 區域。 
+4. 選取 [項目]  \> [類別]  ，將其加入 [圖例]  區域。 
      
     ![[欄位] 窗格旁邊的環圈圖](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
 

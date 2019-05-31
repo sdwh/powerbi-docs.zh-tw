@@ -12,11 +12,11 @@ ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: c8b5728c951bc1a25e71da8885997814c5485cd4
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215979"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138711"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 設計工具的儀表板磚簡介
 
@@ -43,7 +43,7 @@ ms.locfileid: "56215979"
 * [其他儀表板](service-pin-tile-to-another-dashboard.md)
 * [商務用 OneDrive 上的 Excel 活頁簿](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher for Excel](publisher-for-excel.md)
-* [深入資訊摘要](service-insights.md)
+* [Quick Insights (深入資訊摘要)](service-insights.md)
 * [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 可以使用[新增磚](service-dashboard-add-widget.md)，直接在儀表板上建立影像、文字方塊、視訊、串流資料和 Web 內容的獨立磚。
@@ -82,7 +82,7 @@ ms.locfileid: "56215979"
 當您選取磚時，接下來情況取決於您建立該磚的方式。 此外，如果有[自訂連結](service-dashboard-edit-tile.md)，則選取磚會帶您前往該連結。 否則，選取磚會帶您前往建立此磚所使用的報表、Excel Online 活頁簿、內部部署 Reporting Services 報表或問與答問題。
 
 > [!NOTE]
-> 使用 [新增磚] 直接在儀表板上建立的影片圖格為例外。 選取影片磚 (以此方式建立) 會直接在儀表板上播放視訊。   
+> 使用 [新增磚]  直接在儀表板上建立的影片圖格為例外。 選取影片磚 (以此方式建立) 會直接在儀表板上播放視訊。   
 > 
 > 
 
@@ -90,7 +90,7 @@ ms.locfileid: "56215979"
 
 * 如未儲存建立視覺效果所用的報表，則選取該圖格不會執行任何動作。
 * 如果磚是從 Excel Online 的活頁簿建立，您至少需要該活頁簿的讀取權限。 否則，選取磚並不會在 Excel Online 中開啟活頁簿。
-* 假設您使用 [新增磚] 直接在儀表板上建立磚，並為其設定自訂超連結。 如此一來，在您選取標題、子標題或磚時，就會開啟該 URL。 否則，當您選取針對影像、Web 程式碼或文字方塊直接在儀表板上建立的磚時，預設不會有任何反應。
+* 假設您使用 [新增磚]  直接在儀表板上建立磚，並為其設定自訂超連結。 如此一來，在您選取標題、子標題或磚時，就會開啟該 URL。 否則，當您選取針對影像、Web 程式碼或文字方塊直接在儀表板上建立的磚時，預設不會有任何反應。
 * 如果您無權使用 Reporting Services 內的報表，則選取從 Reporting Services 報表建立的磚時會帶您前往一個頁面，指出您沒有存取權 (rsAccessDenied)。
 * 如果您無權存取 Reporting Services 伺服器所在的網路，則選取從 Reporting Services 建立的磚時會帶您前往一個頁面，指出找不到伺服器 (HTTP 404)。 您的裝置需要報表伺服器的網路存取權，才能檢視報表。
 * 如果用來建立圖格的原始視覺效果有了變更，也不會改變圖格。  例如，您從報表釘選折線圖之後，將折線圖變更為長條圖，儀表板磚會繼續顯示折線圖。 資料會重新整理，但視覺效果類型不會。

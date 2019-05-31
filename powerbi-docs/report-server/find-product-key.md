@@ -1,20 +1,20 @@
 ---
 title: 如何找到您的報表伺服器產品金鑰
 description: 了解如何找到您的 Power BI 報表伺服器產品金鑰，以在生產環境中安裝您的伺服器。
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
-ms.author: maghan
-ms.openlocfilehash: 5d94a53295962c32e577e7e4feb36649069d8523
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 42057ba7cea04f432a39d649c9a4eecc34a0883d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282417"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769623"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>如何找到您的報表伺服器產品金鑰
 了解如何找到您的 Power BI 報表伺服器產品金鑰，以在生產環境中安裝您的伺服器。
@@ -26,11 +26,11 @@ ms.locfileid: "54282417"
 根據您的購買內容，產品金鑰會在下列兩個位置的其中一個。
 
 ## <a name="purchased-power-bi-premium"></a>已購買 Power BI Premium
-如已購買 Power BI Premium，則可在 Power BI 管理入口網站的 [容量設定] 索引標籤內，存取 Power BI 報表伺服器產品金鑰。 這只適用於全域系統管理員，或已獲指派 Power BI 服務系統管理員角色的使用者。
+如已購買 Power BI Premium，則可在 Power BI 管理入口網站的 [容量設定]  索引標籤內，存取 Power BI 報表伺服器產品金鑰。 這只適用於全域系統管理員，或已獲指派 Power BI 服務系統管理員角色的使用者。
 
 ![[Premium 設定] 內的 Power BI 報表伺服器金鑰](media/find-product-key/pbirs-product-key.png)
 
-選取 [Power BI 報表伺服器金鑰] 會顯示一個包含產品金鑰的對話方塊。 您可以複製金鑰，並在安裝時使用。
+選取 [Power BI 報表伺服器金鑰]  會顯示一個包含產品金鑰的對話方塊。 您可以複製金鑰，並在安裝時使用。
 
 ![Power BI 報表伺服器產品金鑰](media/find-product-key/pbirs-product-key-dialog.png)
 

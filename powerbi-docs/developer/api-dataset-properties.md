@@ -1,20 +1,20 @@
 ---
 title: Power BI 資料集屬性
 description: 了解 Power BI 資料集 API 的屬性
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: d272914fc41c8bd4abc78ae36a46de9e53817c81
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248922"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61386285"
 ---
 # <a name="dataset-properties"></a>資料集屬性
 
@@ -31,7 +31,7 @@ ms.locfileid: "56248922"
 名稱     | 字串        | 使用者定義的資料集名稱。        | False        | True        
 資料表     | Table[]        | 資料表集合。        |  False       | False        
 關聯性     | Relationship[]        | 資料表之間的關聯性集合。        | False        |  False  
-defaultMode     | 字串        | 用 "Push"、"Streaming" 和 "PushStreaming" 值，決定要對資料集執行推送、串流或兩者。         | False        |  False
+defaultMode     | 字串        | 決定是否將資料集執行推送、 串流，或兩者的值 「 推送 」 和 「 串流 」。         | False        |  False
 
 ## <a name="table"></a>資料表
 

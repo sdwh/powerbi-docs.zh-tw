@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: bafab0768df53390d0d36730b66d1221d9012c14
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007846"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61169114"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>使用 Power BI 連接到 tyGraph
 使用 Power BI 內容套件以視覺化方式檢視和瀏覽 Power BI 中的 tyGraph 資料。 首先連接至 tyGraph 帳戶並載入儀表板、報表和資料集。 現成的內容包含如作用中參與量值 (MAE 分數) 與熱門參與者等深入資訊。 進一步自訂它以反白顯示您最關心的資訊。  資料會根據您設定的排程自動重新整理。
@@ -26,10 +26,10 @@ ms.locfileid: "54007846"
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-tygraph/getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-tygraph/services.png)
-3. 選取 [tyGraph] \> [取得]。
+3. 選取 [tyGraph]  \> [取得]  。
    
    ![](media/service-connect-to-tygraph/tygraph.png)
 4. 指定您想要連接到的群組和時間範圍，否則指定「全部」 (All) 帶入所有資料。 請注意預期的日期格式 (YYYY/MM/DD)。 請參閱以下關於[尋找參數](#FindingParams)的詳細資訊。
@@ -54,7 +54,7 @@ ms.locfileid: "54007846"
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 <a name="FindingParams"></a>
 

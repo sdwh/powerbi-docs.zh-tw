@@ -11,11 +11,11 @@ ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 02d81a4ebb92ec199887109c7f2d9afcb6449eda
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276115"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61393165"
 ---
 # <a name="basic-area-chart"></a>基本的區域圖
 基本區域圖 (也稱為多層次區域圖表) 的基礎為折線圖。 軸和行之間的區域填滿色彩，以表示數量。 
@@ -34,7 +34,7 @@ ms.locfileid: "54276115"
  - Power BI 服務
  - 零售分析範例
 
-若要跟著做，請登入 Power BI 並選取 [取得資料] \> [範例] \> [零售分析範例]，然後選擇 [移至儀表板]。 
+若要跟著做，請登入 Power BI 並選取 [取得資料] \> [範例] \> [零售分析範例]  ，然後選擇 [移至儀表板]  。 
 
 ## <a name="create-a-basic-area-chart"></a>建立基本區域圖
  
@@ -44,7 +44,7 @@ ms.locfileid: "54276115"
 3. 選取報表底部的黃色加號圖示 (+)，以新增報表頁面。
 4. 建立依月份顯示本年度和去年度銷售額的區域圖。
    
-   a. 從 [欄位] 窗格中選取 [銷售] \> [去年銷售]，以及 [今年銷售] > [值]。
+   a. 從 [欄位] 窗格中選取 [銷售] \> [去年銷售]  ，以及 [今年銷售] > [值]  。
 
    ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
@@ -52,10 +52,10 @@ ms.locfileid: "54276115"
 
    ![](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  選取 [時間] \> [月] 以將它加入 [軸] 部分。   
+   c.  選取 [時間] \> [月]  以將它加入 [軸]  部分。   
    ![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
-   d.  若要依照月份顯示圖表，請選取省略符號 \(視覺效果的右上角)，並選擇 \[Sort by month] \(按月份排序)。 若要變更排序次序，請再次選取省略符號，並選取 [遞增排序] 或 [遞減排序]。
+   d.  若要依照月份顯示圖表，請選取省略符號 \(視覺效果的右上角)，並選擇 \[Sort by month] \(按月份排序)  。 若要變更排序次序，請再次選取省略符號，並選取 [遞增排序]  或 [遞減排序]  。
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
 如需使用 [篩選] 窗格的資訊，請參閱[將篩選加入報表](../power-bi-report-add-filter.md)。

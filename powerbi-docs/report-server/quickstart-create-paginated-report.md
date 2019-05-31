@@ -1,20 +1,20 @@
 ---
 title: 建立 Power BI 報表伺服器的編頁報表
 description: 了解如何透過一些簡單步驟，建立 Power BI 報表伺服器的編頁報表。
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.author: maghan
-ms.openlocfilehash: 135bd3c127135961016b78eb0156d49ec1c1967d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324660"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770496"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>建立 Power BI 報表伺服器的編頁報表
 正如其名，編頁報表可以執行至許多頁面。 其配置使用固定的格式，且提供精確的自訂項目。 編頁報表為 .rdl 檔案。
@@ -28,12 +28,12 @@ ms.locfileid: "56324660"
 ## <a name="step-1-install-and-start-report-builder"></a>步驟 1：安裝並啟動報表產生器
 您可能已安裝報表產生器，可建立 SSRS 伺服器的報表。 您可以使用相同版本或報表產生器來建立 Power BI 報表伺服器的報表。 如果您尚未安裝，此程序很簡單。
 
-1. 在 Power BI 報表伺服器入口網站中，選取 [新增] >  [編頁報表]。
+1. 在 Power BI 報表伺服器入口網站中，選取 [新增]   >  [編頁報表]  。
    
     ![[新增編頁報表] 功能表](media/quickstart-create-paginated-report/reportserver-new-paginated-report-menu.png)
    
     如果您尚未安裝報表產生器，其現在會引導您完成安裝程序。
-2. 安裝完畢後，報表產生器會開啟到 [新報表或資料集] 畫面。
+2. 安裝完畢後，報表產生器會開啟到 [新報表或資料集]  畫面。
    
     ![[新報表或資料集] 畫面](media/quickstart-create-paginated-report/reportserver-paginated-new-report-screen.png)
 3. 選取您想要建立之報表類型的精靈︰
@@ -51,9 +51,9 @@ ms.locfileid: "56324660"
 
 編頁報表可連接至各種資料來源，包括 Microsoft SQL Server 和 Microsoft Azure SQL Database，以及 Oracle 和 Hyperion 等等。 了解[編頁報表支援的資料來源](connect-data-sources.md)。
 
-在 [圖表精靈] 的第一頁 [選擇資料集] 中，您可以建立資料集，或選擇伺服器上的共用資料集。 「資料集」會從外部資料來源的查詢傳回報表資料。
+在 [圖表精靈] 的第一頁 [選擇資料集]  中，您可以建立資料集，或選擇伺服器上的共用資料集。 「資料集」  會從外部資料來源的查詢傳回報表資料。
 
-1. 選取 [瀏覽] > 選取伺服器上的共用資料集 > [開啟] > [下一步]。
+1. 選取 [瀏覽]  > 選取伺服器上的共用資料集 > [開啟]   > [下一步]  。
    
     ![圖表精靈：選擇資料集](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
@@ -61,20 +61,20 @@ ms.locfileid: "56324660"
 2. 選擇圖表類型，在此情況下為橫條圖。
    
     ![圖表精靈：圖表類型](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
-3. 將欄位拖放至 [類別]**、**[系列] 及 [值] 方塊來加以排列。
+3. 將欄位拖放至 [類別] **、** [系列]  及 [值]  方塊來加以排列。
    
     ![圖表精靈：排列欄位](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
-4. 選取 [下一步] >  [完成]。
+4. 選取 [下一步]   >  [完成]  。
 
 ## <a name="step-3-design-your-report"></a>步驟 3：設計報表
 現在您已在 [報表設計] 檢視中。 請注意，資料為預留位置資料，而不是您的資料。
 
 ![[報表設計] 檢視](media/quickstart-create-paginated-report/reportserver-paginated-preview-report.png)
 
-* 若要檢視您的資料，請選取 [執行]。
+* 若要檢視您的資料，請選取 [執行]  。
   
      ![執行報表](media/quickstart-create-paginated-report/reportserver-paginated-run-report.png)
-* 若要返回 [設計] 檢視，請選取 [設計]。
+* 若要返回 [設計] 檢視，請選取 [設計]  。
 
 您可以修改剛剛建立的圖表，變更其配置、值、圖例等近乎所有項目。
 
@@ -85,7 +85,7 @@ ms.locfileid: "56324660"
 ## <a name="step-4-save-your-report-to-the-report-server"></a>步驟 4：將報表儲存至報表伺服器
 當您的報表就緒時，將其儲存到 Power BI 報表伺服器。
 
-1. 在 [檔案] 功能表上，選取 [另存新檔]，並將其儲存到報表伺服器。 
+1. 在 [檔案]  功能表上，選取 [另存新檔]  ，並將其儲存到報表伺服器。 
 2. 現在您可以在瀏覽器中加以檢視。
    
     ![瀏覽器中的編頁報表](media/quickstart-create-paginated-report/reportserver-paginated-report.png)

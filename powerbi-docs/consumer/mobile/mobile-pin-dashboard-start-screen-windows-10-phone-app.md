@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: b0a59e6a3d930bc8a0fa69507cae8e958c6175da
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288558"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61063098"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>從 Power BI 行動裝置應用程式將 Power BI 儀表板釘選到 Windows 10 的開始畫面
-您可以從適用於 Windows 10 的 Power BI 行動裝置應用程式，將 Power BI 儀表板釘選到 Windows 的 [開始] 畫面。 它們會變成「動態磚」。 當您在 [開始] 畫面點選磚時，儀表板便會在適用於 Windows 10 的 Power BI 行動裝置應用程式中開啟。
+您可以從適用於 Windows 10 的 Power BI 行動裝置應用程式，將 Power BI 儀表板釘選到 Windows 的 [開始] 畫面。 它們會變成「動態磚」  。 當您在 [開始] 畫面點選磚時，儀表板便會在適用於 Windows 10 的 Power BI 行動裝置應用程式中開啟。
 
 ![Windows 動態磚](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-screen.png)
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-live-tile"></a>將儀表板釘選到開始畫面成為動態磚
 1. 開啟儀表板。
-2. 點選 [釘選到開始]![釘選到開始圖示](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png)。
+2. 點選 [釘選到開始]  ![釘選到開始圖示](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png)。
    
    ![Windows 10 行動裝置應用程式頂端列](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start.png)
    

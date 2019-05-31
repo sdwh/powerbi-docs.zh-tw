@@ -12,16 +12,16 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 5eb5cb9bab8b98c19b8c234f5fc7c20af5a2f2b6
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513931"
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>從 Power BI Desktop 連接至網頁
 您可以連接至網頁並將其資料匯入 Power BI Desktop，以在您的視覺效果和資料模型中使用。
 
-在 Power BI Desktop 中，從 [主資料夾]  功能區選取 [取得資料] > [Web]。
+在 Power BI Desktop 中，從 [主資料夾]  功能區選取 [取得資料] > [Web]  。
 
 ![](media/desktop-connect-to-web/connect-to-web_1.png)
 
@@ -29,13 +29,13 @@ ms.locfileid: "65513931"
 
 ![](media/desktop-connect-to-web/connect-to-web_2.png)
 
-您輸入 (或貼上) URL 之後，選取 [確定]。 Power BI Desktop 會連接至該網頁上，然後在 [導覽] 視窗中顯示網頁的可用資料。 當您選取其中一個可用的資料元素，例如整個網頁的資料表，[導覽] 視窗會在視窗的右側顯示該資料的預覽。
+您輸入 (或貼上) URL 之後，選取 [確定]  。 Power BI Desktop 會連接至該網頁上，然後在 [導覽]  視窗中顯示網頁的可用資料。 當您選取其中一個可用的資料元素，例如整個網頁的資料表，[導覽]  視窗會在視窗的右側顯示該資料的預覽。
 
 ![](media/desktop-connect-to-web/connect-to-web_3.png)
 
-您可以選擇 [編輯] 按鈕，其會啟動 [查詢編輯器]，供您在匯入 Power BI Desktop 之前在網頁上修改或轉換資料。 或著您可以選取 [載入] 按鈕，然後匯入您在左窗格中選取的所有資料元素。
+您可以選擇 [編輯]  按鈕，其會啟動 [查詢編輯器]  ，供您在匯入 Power BI Desktop 之前在網頁上修改或轉換資料。 或著您可以選取 [載入]  按鈕，然後匯入您在左窗格中選取的所有資料元素。
 
-當我們選取 [載入] 時，Power BI Desktop 會匯入選取的項目，並使其能夠在 [欄位] 窗格中使用，其會出現在 Power BI Desktop 中 [報表] 檢視的右側。
+當我們選取 [載入]  時，Power BI Desktop 會匯入選取的項目，並使其能夠在 [欄位]  窗格中使用，其會出現在 Power BI Desktop 中 [報表] 檢視的右側。
 
 ![](media/desktop-connect-to-web/connect-to-web_4.png)
 

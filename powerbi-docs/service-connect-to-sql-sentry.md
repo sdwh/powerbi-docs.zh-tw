@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1fc8decc70ade009a7c4236686cfe9cf72adb54d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008917"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61161352"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>使用 Power BI 連接到 SQL Sentry
 使用 Power BI 可輕鬆分析由 SQL Sentry 所收集的效能資料。 Power BI 會擷取您的資料，然後根據該資料建置預設的儀表板和相關報表。
@@ -29,10 +29,10 @@ ms.locfileid: "54008917"
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-sql-sentry/pbi_getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-sql-sentry/pbi_getservices.png) 
-3. 選取 [SQL Sentry] **\> [取得]**。
+3. 選取 [SQL Sentry] **\> [取得]** 。
    
    ![](media/service-connect-to-sql-sentry/sqlsentry.png)
 4. 提供您要在 Power BI 中監視之資料庫的 **資料庫識別碼** 。 如需更多資訊，請參閱下文的[尋找這個](#FindingParams)。
@@ -61,7 +61,7 @@ ms.locfileid: "54008917"
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="whats-included"></a>包含的內容
 Power BI 中的 SQL Sentry 提供下列資料：

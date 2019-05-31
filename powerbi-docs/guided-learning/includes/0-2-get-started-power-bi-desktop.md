@@ -1,9 +1,17 @@
+---
+ms.openlocfilehash: 4c1a7bce8eb24534974fe6a06a8bada4ba9fb708
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264469"
+---
 本主題中，我們深入查看 Power BI 的前兩個部分如何彼此搭配運作︰
 
 * 在 **Power BI Desktop** 中建立報表
 * 在 **Power BI 服務**中發行報表
 
-我們將從 Power BI Desktop 開始，然後選取 [取得資料]。 即會出現資料來源的集合，讓您可以選擇資料來源。 下列影像顯示如何選取網頁作為來源，而在上方的影片中，將選取 **Excel** 活頁簿。
+我們將從 Power BI Desktop 開始，然後選取 [取得資料]  。 即會出現資料來源的集合，讓您可以選擇資料來源。 下列影像顯示如何選取網頁作為來源，而在上方的影片中，將選取 **Excel** 活頁簿。
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_1.png)
 
@@ -33,7 +41,7 @@
 
 看看它...Power BI Desktop 會自動建立地圖式視覺效果，因為可辨識 State 欄位包含地理位置資料。
 
-現在讓我們快一點，使用一些視覺效果建立報表之後，我們已經準備好將這份報表發行至 Power BI 服務。 在 Power BI Desktop 的 [常用] 功能區上，選取 [發行]。
+現在讓我們快一點，使用一些視覺效果建立報表之後，我們已經準備好將這份報表發行至 Power BI 服務。 在 Power BI Desktop 的 [常用]  功能區上，選取 [發行]  。
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_6.png)
 
@@ -41,11 +49,11 @@
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_7.png)
 
-當您已登入且發行程序已完成時，會看到下列對話方塊。 您可以選取連結 (在 [成功!] 下方) 以移至 Power BI 服務，您可以在其中看到您剛發行的報表。
+當您已登入且發行程序已完成時，會看到下列對話方塊。 您可以選取連結 (在 [成功!]  下方) 以移至 Power BI 服務，您可以在其中看到您剛發行的報表。
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_8.png)
 
-當您登入 Power BI 時，會在服務中看到您剛發行的 Power BI Desktop 檔案。 在下列影像中，Power BI Desktop 中所建立的報表會顯示在 [報表] 區段中。
+當您登入 Power BI 時，會在服務中看到您剛發行的 Power BI Desktop 檔案。 在下列影像中，Power BI Desktop 中所建立的報表會顯示在 [報表]  區段中。
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_9.png)
 

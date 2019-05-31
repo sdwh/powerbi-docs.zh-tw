@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: aa0827c0be31d65db7bff2c6e2476e5db59b2895
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286396"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977867"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的磚
 適用於︰
@@ -56,7 +56,7 @@ ms.locfileid: "54286396"
    
     在 Power BI 應用程式中開啟連結後，您可以複製該連結，並改以瀏覽器視窗開啟連結。
 7. [開啟報表](mobile-reports-in-the-mobile-apps.md) ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)，其為磚的基礎。
-8. 若要離開磚焦點模式，請點選磚名稱，然後點選儀表板名稱或 [我的工作區]。
+8. 若要離開磚焦點模式，請點選磚名稱，然後點選儀表板名稱或 [我的工作區]  。
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
 
@@ -71,7 +71,7 @@ ms.locfileid: "54286396"
    * 點選圖表以移動折線圖、橫條圖、直線圖或泡泡圖中的列，檢視視覺效果中之特定點的值。  
    * 點選共用快照集圖示 ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) 與他人[標註和共用磚](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
    * 點選開啟報表圖示 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) 在行動裝置應用程式中[檢視報表](mobile-reports-in-the-mobile-apps.md)。
-3. 有時候，儀表板的建立者已新增磚的連結。 因此，當您點選垂直省略符號 (**...**) 時會看到 [開啟連結] ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)：
+3. 有時候，儀表板的建立者已新增磚的連結。 因此，當您點選垂直省略符號 ( **...** ) 時會看到 [開啟連結]  ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)：
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
@@ -90,7 +90,7 @@ ms.locfileid: "54286396"
    
     [共用磚的快照集](mobile-windows-10-phone-app-get-started.md)。
    
-    點選 [開啟報表] ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) 以[檢視基礎報表](mobile-reports-in-the-mobile-apps.md)。
+    點選 [開啟報表]  ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) 以[檢視基礎報表](mobile-reports-in-the-mobile-apps.md)。
    
     如果報表包含連結的話，請[開啟連結](../../service-dashboard-edit-tile.md#hyperlink)。 開啟連結即可前往 Power BI 儀表板或外部 URL。
 3. 點選 [展開磚]  ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png)。 它會在焦點模式中開啟，更容易檢視及瀏覽圖格資料。 在此模式中您可以：
@@ -103,9 +103,9 @@ ms.locfileid: "54286396"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   *在此橫條圖中，[裝飾項目] 列的值會顯示在圖表上方。*
+   *在此橫條圖中，[裝飾項目]  列的值會顯示在圖表上方。*
    
-   點選 [全螢幕] 圖示 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) 在全螢幕模式中開啟磚，此時不會有導覽和功能表列。
+   點選 [全螢幕]  圖示 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) 在全螢幕模式中開啟磚，此時不會有導覽和功能表列。
    
    > [!NOTE]
    > 您也可以在 Power BI for Windows 10 行動裝置應用程式中，[以全螢幕模式檢視儀表板和報表](mobile-windows-10-app-presentation-mode.md)。

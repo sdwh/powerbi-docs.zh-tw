@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 03/26/2019
 ms.author: mblythe
 ms.openlocfilehash: d33abaeff1f7996859e203a3b28ae99ba8d9bf2e
-ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58489491"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61402316"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro 和 Power BI Premium 支援選項
 
@@ -29,7 +29,7 @@ ms.locfileid: "58489491"
 | **Microsoft 頂級支援**：企業級的支援方法，包含客戶管理、到場支援選項和主動式服務 (例如訓練和資料模型效能最佳化)。 | X | X | X | 不一定，取決於供應項目和案例嚴重性。\* | 技術客戶經理 <br>或<br> [Microsoft 365 系統管理中心](https://portal.office.com/adminportal) |
 | | | | | | |
 
-\* 只有在「嚴重性 A 案例」才適用一小時 SLA，其必須在現有產品報告中證明停止運作造成立即、直接的業務影響。
+\* 只有在「嚴重性 A 案例」  才適用一小時 SLA，其必須在現有產品報告中證明停止運作造成立即、直接的業務影響。
 
 ## <a name="power-bi-benefits-for-microsoft-premier-support"></a>Microsoft 頂級支援的 Power BI 權益
 

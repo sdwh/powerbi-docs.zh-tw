@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 285c22347f049e6b99cb97fa19efc6363d9b57cb
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008641"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61163609"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>使用 Power BI 連接到 ServiceNow 以取得事件報告
 ServiceNow 提供多樣產品與解決方案，包括商務、營運與 IT 管理，進而提升您的業務發展。 這個內容套件包括多個報表與深入解析，為您開放、最近解決與最近關閉的事件提供資訊。  
@@ -26,10 +26,10 @@ ServiceNow 提供多樣產品與解決方案，包括商務、營運與 IT 管�
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-servicenow/pbi_getdata.png) 
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-servicenow/pbi_getservices.png) 
-3. 選取 [ServiceNow 事件] \> [取得]。
+3. 選取 [ServiceNow 事件]  \> [取得]  。
    
    ![](media/service-connect-to-servicenow/connect.png)
 4. 提供 ServiceNow 執行個體的 URL 以及要帶入的天數/記錄範圍。 請注意，只要達到一項限制，即停止匯入。
@@ -47,7 +47,7 @@ ServiceNow 提供多樣產品與解決方案，包括商務、營運與 IT 管�
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="system-requirements"></a>系統需求
 若要連線，您需要：  

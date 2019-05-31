@@ -1,20 +1,20 @@
 ---
 title: 為您的內嵌應用程式進行疑難排解
-description: 此文章探討您在從 Power BI 內嵌內容時，可能會遇到的幾個常見問題。
-author: markingmyname
-ms.author: maghan
+description: 本文探討您在從 Power BI 內嵌內容時，可能會遇到的幾個常見問題。
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174813"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770484"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -64,7 +64,7 @@ Azure 入口網站內的錯誤訊息或 Power BI 應用程式註冊頁面提到�
 
 ### <a name="power-bi-service-doesnt-appear-in-the-azure-portal-when-registering-a-new-app"></a>註冊新應用程式時，Power BI 服務未在 Azure 入口網站中顯示
 
-至少須有一個使用者註冊 Power BI。 如果 API 清單中未列出 [Power BI 服務]，代表尚無使用者註冊 Power BI。
+至少須有一個使用者註冊 Power BI。 如果 API 清單中未列出 [Power BI 服務]  ，代表尚無使用者註冊 Power BI。
 
 ## <a name="rest-api"></a>REST API
 
@@ -109,7 +109,7 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>驗證因 AADSTS70002 或 AADSTS50053 而失敗
 
-**_(AADSTS70002：驗證認證時發生錯誤。AADSTS50053：使用不正確的使用者識別碼或密碼，嘗試登入太多次)_**
+** _(AADSTS70002：驗證認證時發生錯誤。AADSTS50053：使用不正確的使用者識別碼或密碼，嘗試登入太多次)_ **
 
 如果您使用 Power BI Embedded 與 Azure AD 直接驗證，且在登入時收到如下訊息 ***error:unauthorized_client, error_description:AADSTS70002：驗證認證時發生錯誤。AADSTS50053：您嘗試使用不正確的使用者識別碼或密碼登入太多次***，這是因為從 2018 年 6 月 14 日起直接驗證已預設為停用。
 
@@ -161,7 +161,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094：需要管理員權限才能授與
 
-**_徵兆：_**<br>
+**_徵兆：_ **<br>
 非系統管理員使用者第一次嘗試登入應用程式並授與同意時，會收到下列其中一個錯誤：
 
 * ConsentTest 需要存取您組織中只有管理員才能授與之資源的權限。 請先要求系統管理員授與此應用程式的權限，您才能使用這個應用程式。
@@ -171,10 +171,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 管理使用者可以成功登入並授與同意。
 
-**_根本原因：_**<br>
+**_根本原因：_ **<br>
 已停用租用戶的使用者同意。
 
-**_可能有數個修正程式：_**
+**_可能有數個修正程式：_ **
 
 *啟用整個租用戶的使用者同意 (所有使用者、所有應用程式)*
 
@@ -183,7 +183,11 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
     ![同意測試修正](media/embedded-troubleshoot/consent-test-02.png)
 
-由系統管理員針對整個租用戶或特定使用者，將權限授與應用程式。
+由系統管理員針對整個租用戶或特定使用者，將權限授與  應用程式。
+
+### <a name="cs1061-error"></a>錯誤 CS1061
+
+下載[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)如果您遇到 「 'AuthenticationContext' 未包含定義 'AcquireToken' 並沒有可存取 'AcquireToken' 接受類型的第一個引數 'AuthenticationContext' 找不到 (是否遺漏 using 指示詞或組件參考？) 」 錯誤。
 
 ## <a name="data-sources"></a>資料來源
 
@@ -264,7 +268,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 若您使用**為客戶進行內嵌**體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\App Owns Data*資料夾，然後執行 *PowerBIEmbedded_AppOwnsData.sln* 檔案。
 
-當您選取 [授與權限] 時 (授與權限步驟)，收到下列錯誤：
+當您選取 [授與權限]  時 (授與權限步驟)，收到下列錯誤：
 
     AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
 

@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 8d95ab3675fdced31641a8abbffa31ed0a6643c1
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008296"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61179223"
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>使用 Power BI 連接到 Azure Mobile Engagement
 Power BI Azure Mobile Engagement 內容套件可讓您快速深入了解 App 資料。
@@ -26,10 +26,10 @@ Power BI Azure Mobile Engagement 內容套件可讓您快速深入了解 App 資
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
     ![](media/service-connect-to-azure-mobile/getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
     ![](media/service-connect-to-azure-mobile/services.png)
-3. 選取 [Azure Mobile Engagement] \> [取得]。
+3. 選取 [Azure Mobile Engagement]  \> [取得]  。
    
     ![](media/service-connect-to-azure-mobile/azme.png) 
 4. 指定您的 App 集合物件和 App 名稱。 可以在 Azure Mobile Engagement 帳戶中找到此資訊。
@@ -47,7 +47,7 @@ Power BI Azure Mobile Engagement 內容套件可讓您快速深入了解 App 資
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="next-steps"></a>後續步驟
 [開始使用 Power BI](service-get-started.md)

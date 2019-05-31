@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/22/2019
+ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1dc085d822463ecf394d6257741d4af82d72b8c0
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661576"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608347"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Power BI 服務取用者的儀表板
 
@@ -24,7 +24,7 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 
 ![儀表板](media/end-user-dashboards/power-bi-dashboard2.png)
 
-您在儀表板上看到的視覺效果稱為「磚」，由報表設計工具「釘選」在儀表板上。 選取磚會帶您前往建立視覺效果的報表頁面。 如果您不熟悉 Power BI，請參閱 [Power BI 基本概念](end-user-basic-concepts.md)來打好基礎。
+呼叫您在儀表板看到的視覺效果*圖格*而且*釘選*依報表的儀表板*設計工具*。 在大部分情況下，選取磚帶您前往報表頁面建立視覺效果的位置。 如果您不熟悉 Power BI，請參閱 [Power BI 基本概念](end-user-basic-concepts.md)來打好基礎。
 
 > [!NOTE]
 > 儀表板可以[在行動裝置上檢視及共用](mobile/mobile-apps-view-dashboard.md)。
@@ -39,7 +39,7 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 ## <a name="advantages-of-dashboards"></a>儀表板的優點
 儀表板是很棒的方式，一眼就可以監視企業、尋找答案以及查看所有最重要的指標。 儀表板上的視覺效果可能來自一或多個基礎資料集，以及來自一或多份基礎報表。 儀表板可將內部部署和雲端的資料結合在一起，提供不受資料位置限制的合併檢視。
 
-儀表板不只是張漂亮的圖片，其高度互動性和高度可自訂以及磚更新會隨著基礎資料變更。
+儀表板不只是好看的圖片。它是互動式以及磚更新會隨著基礎資料變更。
 
 ## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>適用於 Power BI ***取用者***的儀表板與報告
 報表經常與儀表板相混淆，因為它們也是填滿視覺效果的畫布。 但從 Power BI *取用者*的觀點來看，仍有一些主要差異。
@@ -48,11 +48,9 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 | --- | --- | --- |
 | 頁面 |一個頁面 |一或多個頁面 |
 | 資料來源 |每個儀表板一或多份報表以及一或多個資料集 |每份報表單一資料集 |
-| 訂閱 |可以訂閱儀表板電子郵件 |可以訂閱報表頁面電子郵件 |
 | 篩選 |無法篩選或配量 |有多種不同方法可篩選、反白顯示及配量 |
 | 設定警示 |可以建立警示於達到特定條件時發送電子郵件 |否 |
 | 精選 |可將一個儀表板設定為「精選」儀表板 |無法建立精選報表 |
-| 自然語言查詢 |可從儀表板使用 |無法從報表使用 |
 | 可以看到基礎資料集的資料表和欄位 |否。 可以匯出資料，但看不到儀表板本身的資料表和欄位。 |是。 可以看到資料集資料表和欄位以及值。 |
 
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec221939d6eb96567469a3221f914509a6789839
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 37efc295a3c79286458a862c255d987b0afde6d3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280071"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514071"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>藉由提供範例來從網頁取得資料
 
@@ -29,7 +29,7 @@ ms.locfileid: "54280071"
 
 ## <a name="using-get-data-from-web-by-example"></a>使用「藉由範例從 Web 取得資料」
 
-若要使用「藉由範例從 Web 取得資料」，請從 [常用] 功能區功能表選取 [取得資料]。 在出現的視窗中，從左側窗格的類別中選取 [其他]，然後選取 [Web]。
+若要使用「藉由範例從 Web 取得資料」  ，請從 [常用]  功能區功能表選取 [取得資料]  。 在出現的視窗中，從左側窗格的類別中選取 [其他]  ，然後選取 [Web]  。
 
 ![從 [取得資料] 選取 [Web]](media/desktop-connect-to-web-by-example/web-by-example_03.png)
 
@@ -41,20 +41,20 @@ ms.locfileid: "54280071"
 
 ![Web 對話方塊](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
-當您選取 [確定] 時，就會出現 [導覽器] 對話方塊，其中會顯示所有自動偵測到的網頁資料表。 以下影像中所顯示的情況，未找到任何表格，但頁面底部有一個稱為 [使用範例擷取資料表] 的按鈕，可讓您提供範例。
+當您選取 [確定]  時，就會出現 [導覽器]  對話方塊，其中會顯示所有自動偵測到的網頁資料表。 以下影像中所顯示的情況，未找到任何表格，但頁面底部有一個稱為 [使用範例擷取資料表]  的按鈕，可讓您提供範例。
 
 
 ![[導覽器] 視窗](media/desktop-connect-to-web-by-example/web-by-example_05.png)
 
-選取 [使用範例擷取資料表] 會出現互動式視窗，您可以在其中預覽網頁的內容，以及輸入所要擷取資料的範例值。 
+選取 [使用範例擷取資料表]  會出現互動式視窗，您可以在其中預覽網頁的內容，以及輸入所要擷取資料的範例值。 
 
-在此範例中，我們會擷取頁面上每個遊戲的 [名稱] 和 [價格]。 我們可以藉由為每個資料行指定幾個來自頁面的範例，如以下影像所示。 當輸入這些範例時，**Power Query** (從網頁擷取資料的基礎技術) 就能使用智慧資料擷取演算法，擷取符合範例項目模式的資料。
+在此範例中，我們會擷取頁面上每個遊戲的 [名稱]  和 [價格]  。 我們可以藉由為每個資料行指定幾個來自頁面的範例，如以下影像所示。 當輸入這些範例時，**Power Query** (從網頁擷取資料的基礎技術) 就能使用智慧資料擷取演算法，擷取符合範例項目模式的資料。
 
 ![範例資料](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
 > 注意：值的建議只包含長度小於或等於 128 個字元的值。
 
-一旦我們已經滿意從網頁擷取的資料，請選取 [確定] 以移至 [查詢編輯器]，我們可以在其中套用更多轉換或塑造資料，例如將此資料與其的他資料來源結合。
+一旦我們已經滿意從網頁擷取的資料，請選取 [確定]  以移至 [查詢編輯器]  ，我們可以在其中套用更多轉換或塑造資料，例如將此資料與其的他資料來源結合。
 
 ![範例資料](media/desktop-connect-to-web-by-example/web-by-example_07.png)
 
@@ -64,7 +64,7 @@ ms.locfileid: "54280071"
 ## <a name="next-steps"></a>後續步驟
 您可以使用 **Power BI Desktop** 連線至各式各樣的資料。 如需有關資料來源的詳細資訊，請參閱下列資源︰
 
-* [藉由範例新增資料行](desktop-add-column-from-example.md)
+* [依範例新增資料行](desktop-add-column-from-example.md)
 * [連線至網頁](desktop-connect-to-web.md)
 * [Power BI Desktop 中的資料來源](desktop-data-sources.md)
 * [使用 Power BI Desktop 合併資料並使其成形](desktop-shape-and-combine-data.md)

@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287340"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61233560"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的採購分析範例：觀看導覽
 
@@ -37,13 +37,13 @@ ms.locfileid: "54287340"
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
-2. 在左下角選取 [取得資料]。
+2. 在左下角選取 [取得資料]  。
    
     ![](media/sample-datasets/power-bi-get-data.png)
-3. 在顯示的 [取得資料] 頁面上，選取 [範例]。
+3. 在顯示的 [取得資料] 頁面上，選取 [範例]  。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 選取 [採購分析範例]，然後選擇 [連線]。  
+4. 選取 [採購分析範例]  ，然後選擇 [連線]  。  
   
    ![取得資料](media/sample-procurement/procurement1a.png)
    
@@ -58,23 +58,23 @@ ms.locfileid: "54287340"
  * [採購分析範例](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
-您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529784)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。
+您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529784)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]  。
 
 
 ## <a name="spending-trends"></a>支出趨勢
 我們先來看依類別和地點區分的支出趨勢。  
 
-1. 從工作區中，開啟 [儀表板] 索引標籤，然後選取 [採購分析] 儀表板。
-2. 選取儀表板圖格 [依國家/地區的發票總計] 。 它會開啟 [採購分析範例] 報表的 [支出概觀] 頁面。
+1. 從工作區中，開啟 [儀表板]  索引標籤，然後選取 [採購分析] 儀表板。
+2. 選取儀表板圖格 [依國家/地區的發票總計]  。 它會開啟 [採購分析範例] 報表的 [支出概觀] 頁面。
 
     ![](media/sample-procurement/procurement2.png)
 
 請注意下列事項：
 
-* 在 [依月份和類別的發票總計] 折線圖中：[直接] 類別的支出相當一致，[物流] 的支出高峰為十二月，而 [其他] 支出在二月有所激增。
-* 在 [依國家/地區的發票總計] 地圖中：我們大部分的支出都是在美國。
-* 在 [依子類別的發票總計] 直條圖中：[硬體] 和 [間接貨物與服務] 是最大的支出類別。
-* 在 [依層的發票總計] 橫條圖中：我們大多數的業務都是與第 1 層 (前 10 大) 廠商一起完成。 這有助於更妥善管理廠商合作關係。
+* 在 [依月份和類別的發票總計]  折線圖中：[直接]  類別的支出相當一致，[物流]  的支出高峰為十二月，而 [其他]  支出在二月有所激增。
+* 在 [依國家/地區的發票總計]  地圖中：我們大部分的支出都是在美國。
+* 在 [依子類別的發票總計]  直條圖中：[硬體]  和 [間接貨物與服務]  是最大的支出類別。
+* 在 [依層的發票總計] 橫條圖中：我們大多數是業務的使用我們的第 1 層 （前 10 大） 廠商。 這有助於更妥善管理廠商合作關係。
 
 ## <a name="spending-in-mexico"></a>墨西哥的支出
 讓我們來瀏覽墨西哥的支出部分。
@@ -95,12 +95,12 @@ ms.locfileid: "54287340"
       ![](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. 選取圖表左上角的向上箭號，以重新向上鑽研。
 4. 再選取一次箭號，即可關閉向下鑽研。  
-5. 選取上方導覽列的 [Power BI]，返回儀表板。
+5. 選取上方導覽列的 [Power BI]  ，返回儀表板。
 
 ## <a name="evaluate-different-cities"></a>評估不同的城市
 我們可以使用反白顯示來評估不同的城市。
 
-1. 選取儀表板圖格 [依月份的發票總計與折扣百分比] 。 報表會開啟 [折扣分析] 頁面。
+1. 選取儀表板圖格 [依月份的發票總計與折扣百分比]  。 報表會開啟 [折扣分析] 頁面。
 2. 在 [ **依城市的發票總計** ] 矩形式樹狀結構圖中，選取不同城市，查看城市的比較結果。 幾乎所有邁阿密的發票都是來自第 1 層供應商。
 
    ![](media/sample-procurement/pbi_procsample_miamitreemap2.png)

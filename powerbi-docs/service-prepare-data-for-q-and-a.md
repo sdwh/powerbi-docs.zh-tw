@@ -1,5 +1,5 @@
 ---
-title: 如何讓 Excel 資料適用於 Power BI 的問與答
+title: 適用於問與答 Power BI 中的 Excel 資料
 description: 如何讓資料適用於 Power BI 的問與答
 author: maggiesMSFT
 manager: kfile
@@ -7,29 +7,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 627a94097d4235f39414c1165ac8cbbc806508a3
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: 7ed8eb8e205c05582d2cfd93030ab056be77912a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430043"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65624974"
 ---
-# <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>如何讓 Excel 資料適用於 Power BI 的問與答
+# <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>適用於問與答 Power BI 中的 Excel 資料
 如果您是建立資料模型的人員，或要建立搭配 Power BI 使用的 Excel 活頁簿，請繼續閱讀...
 
 在 Power BI 中，問與答可搜尋結構化的資料，並為您的問題選擇適當的視覺效果，就是這一點讓它成為大家愛用的工具。   
 
 問與答可以處理任何已上傳的 Excel 檔案 (有資料表、範圍或包含 PowerPivot 模型)，但是最佳化和資料清除執行愈多次，問與答的效能就愈穩固。  如果您計劃根據您的資料集來共用報表和儀表板，您會希望同事能輕鬆地詢問問題並取得優質的答案。
 
-### <a name="how-qa-works-with-excel"></a>問與答在 Excel 的運作方式
+## <a name="how-qa-works-with-excel"></a>問與答在 Excel 的運作方式
 問與答有一組可在您的資料中運作的功能，可了解核心自然語言。 它會搜尋 Excel 資料表、資料行和導出欄位名稱之內容相關的關鍵字。 它也有內建如何篩選、排序、彙總、群組和顯示資料的相關知識。 
 
-例如，在一個名為「銷售」的 Excel 資料表，其資料行為「產品」、「月」、「單位銷售」、「銷售毛額」和「利潤」，您可以詢問有關任何這些實體的問題。  您可以要求顯示銷售額、各月份的總計收益、依單位銷售排序產品等等。 深入了解[可提問的問題種類](consumer/end-user-q-and-a.md)，以及[問與答查詢中可以指定的視覺效果類型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
+例如，在一個名為「銷售」的 Excel 資料表，其資料行為「產品」、「月」、「單位銷售」、「銷售毛額」和「利潤」，您可以詢問有關任何這些實體的問題。  您可以要求顯示銷售額、各月份的總計收益、依單位銷售排序產品等等。 深入了解[儀表板和報表中使用問與答](power-bi-tutorial-q-and-a.md)，並[問與答查詢中可以指定視覺效果類型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
 
-### <a name="prepare-an-excel-dataset-for-qa"></a>準備適用於問與答的 Excel 資料集
+## <a name="prepare-an-excel-dataset-for-qa"></a>準備適用於問與答的 Excel 資料集
 問與答依賴資料表、資料行和導出欄位的名稱，藉此回應特定資料的問題，這表示您如何在活頁簿中命名實體會相當重要！
 
 以下是在您的活頁簿中善加利用問與答的一些秘訣。
@@ -44,10 +44,11 @@ ms.locfileid: "55430043"
 * 在 Power BI Desktop 中開啟資料集並建立新的資料行、建立導出量值、串連欄位以建立唯一的值、依類型分類資料 (例如日期、字串、地理位置、影像、URL)，以及其他更多。
 
 ## <a name="next-steps"></a>後續步驟
-回到 [Power BI 中的問與答](consumer/end-user-q-and-a.md)  
-[準備適用於問與答的內部部署資料集](service-q-and-a-direct-query.md)   
-[問與答快速入門](power-bi-visualization-introduction-to-q-and-a.md)  
-[取得 Power BI 的資料](service-get-data.md)  
+
+- [問與答的取用者](consumer/end-user-q-and-a.md)  
+- [在儀表板和報表中使用問與答](power-bi-tutorial-q-and-a.md)
+- [準備內部部署資料集問與答](service-q-and-a-direct-query.md)   
+- [取得 Power BI 的資料](service-get-data.md)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: 53d0deaf68c2c0fde4f5243394914a44b9c59feb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274919"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61341127"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>修正「需要更新 Android System Webview」
 登入 Microsoft Power BI Android 行動裝置應用程式時，您可能會收到需要更新 Android System Webview 的訊息。 

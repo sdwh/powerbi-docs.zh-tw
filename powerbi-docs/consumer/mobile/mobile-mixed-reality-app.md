@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: mshenhav
 ms.openlocfilehash: 443615a64bee1f4723450c6c8cc3c49feb81989c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275126"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61373950"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 應用程式 (預覽)
 您可以在沉浸於虛擬世界的同時，透過 Power BI for Mixed Reality 應用程式 (預覽) 來檢視您的儀表板和報表，或將這些項目放在您環境內容中的特定位置。 

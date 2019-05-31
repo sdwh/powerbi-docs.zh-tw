@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 11/28/2018
+ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e8f659f0eb7b016f18e17ed88bc0ff1d5f928766
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 00ff6a901ef4056e15ccc0087f0783826b1a64b2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216462"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61308977"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的資料類型
 本文描述 Power BI Desktop 與資料分析運算式 (DAX) 支援的資料類型。 
@@ -35,7 +35,7 @@ ms.locfileid: "56216462"
 
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
-[查詢編輯器] 中的 [資料類型] 下拉式清單有兩個資料類型目前未在 [資料檢視] 或 [報表檢視] 檢視中呈現：[日期/時間/時區] 和 [持續時間]。 當您將具有這些資料類型的資料行載入模型，再於 [資料檢視] 或 [報表檢視] 中進行檢視時，具有 [日期/時間/時區] 資料類型的資料行會轉換成 [日期/時間]，而具有 [持續時間] 資料類型的資料行則會轉換成 [十進位數字]。
+[查詢編輯器] 中的 [資料類型] 下拉式清單有兩個資料類型目前未在 [資料檢視] 或 [報表檢視] 檢視中呈現：[日期/時間/時區]  和 [持續時間]  。 當您將具有這些資料類型的資料行載入模型，再於 [資料檢視] 或 [報表檢視] 中進行檢視時，具有 [日期/時間/時區] 資料類型的資料行會轉換成 [日期/時間]，而具有 [持續時間] 資料類型的資料行則會轉換成 [十進位數字]。
 
 ### <a name="number-types"></a>數字類型
 Power BI Desktop 支援三種數字類型：

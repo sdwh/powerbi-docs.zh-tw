@@ -1,4 +1,12 @@
-在本課程中，我們先建立群組。 群組會定義一組使用者，其可存取特定儀表板、報表和資料。
+---
+ms.openlocfilehash: e3d62b182f9b142f912a608bee693b7356b1a68d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61254662"
+---
+在本課程中，我們先建立群組  。 群組  會定義一組使用者，其可存取特定儀表板、報表和資料。
 
 Power BI 中的群組以 Office 365 中的群組為依據，如果您已經使用 Office 365 群組管理群組的電子郵件、行事曆及文件，則您會發現 Power BI 提供相同的功能，且不只如此。 當您在 Power BI 中建立群組時，您實際上是建立了 Office 365 群組。
 
@@ -8,7 +16,7 @@ Power BI 中的群組以 Office 365 中的群組為依據，如果您已經使�
 
 ![在 Power BI 中共用及共同作業](./media/6-1-create-groups/pbi_learn06_01myworkspace.png)
 
-若我展開 [我的工作區]，便可以選取 [建立群組]。
+若我展開 [我的工作區]，便可以選取 [建立群組]  。
 
 ![在 Power BI 中共用及共同作業](./media/6-1-create-groups/pbi_learn06_01expandmywkspace.png)
 
@@ -18,7 +26,7 @@ Power BI 中的群組以 Office 365 中的群組為依據，如果您已經使�
 
 我可以透過決定是否讓組織中的任何人查看群組內容，或僅限群組成員查看，進而設定隱私權等級。
 
-我在這裡輸入電子郵件地址、安全性群組及通訊群組清單。 我選取 [新增] 讓其成為群組成員，然後儲存群組。
+我在這裡輸入電子郵件地址、安全性群組及通訊群組清單。 我選取 [新增]  讓其成為群組成員，然後儲存群組。
 
 ![在 Power BI 中共用及共同作業](./media/6-1-create-groups/pbi_learn06_01savegroup.png)
 

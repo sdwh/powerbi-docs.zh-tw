@@ -11,11 +11,11 @@ ms.date: 06/26/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 4b36c02abe0ca0bbd2d117559855a69edff370db
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216646"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61233713"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的人力資源範例：觀看導覽
 
@@ -37,13 +37,13 @@ ms.locfileid: "56216646"
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
-2. 在左下角選取 [取得資料]。
+2. 在左下角選取 [取得資料]  。
    
     ![](media/sample-datasets/power-bi-get-data.png)
-3. 在顯示的 [取得資料] 頁面上，選取 [範例]。
+3. 在顯示的 [取得資料] 頁面上，選取 [範例]  。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 選取 [人力資源範例]，然後選擇 [連線]。  
+4. 選取 [人力資源範例]  ，然後選擇 [連線]  。  
    
    ![取得資料](media/sample-human-resources/pbi_hr_sample_connect.png)
 5. Power BI 會匯入內容套件，並將新的儀表板、報表及資料集新增到您目前的工作區。 新的內容會以黃色星號標示。 
@@ -57,13 +57,13 @@ ms.locfileid: "56216646"
  * [人力資源範例 PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
-您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529780)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。
+您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529780)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]  。
 
 ## <a name="new-hires"></a>新進員工
 首先，我們來探索新進員工。
 
-1. 在您的工作區中，選取 [儀表板] 索引標籤，然後開啟 [人力資源] 儀表板。
-2. 在儀表板上，選取 [依月份的新進員工、去年相同期間的新進員工、在職員工 YoY % 變更] 磚。  
+1. 在您的工作區中，選取 [儀表板]  索引標籤，然後開啟 [人力資源] 儀表板。
+2. 在儀表板上，選取 [依月份的新進員工、去年相同期間的新進員工、在職員工 YoY % 變更]   磚。  
    ![](media/sample-human-resources/hr2.png)  
 
    人力資源範例報表會開啟 [ **新進員工** ] 頁面。  
@@ -104,9 +104,9 @@ ms.locfileid: "56216646"
 將圓形圖變更為顯示離職員工資料而不是在職員工。
 
 1. 選取 [ **依年齡群組的在職員工** ] 圓形圖。
-2. 在 [欄位] 中選取 [員工] 旁邊的箭頭，展開 [員工] 資料表。 清除 [在職員工] 旁的核取方塊，移除該欄位。
+2. 在 [欄位]  中選取 [員工]  旁邊的箭頭，展開 [員工] 資料表。 清除 [在職員工]  旁的核取方塊，移除該欄位。
 3. 選取 [員工] 資料表中 [ **離職員工** ] 旁的核取方塊，將它加入欄位區中的 [ **值** ] 方塊。
-4. 返回報表畫布，選取 [依離職原因的離職人員] 橫條圖中的 [自願] 列。 這會在圖表中以其他視覺效果反白顯示自願離職的員工。
+4. 返回報表畫布，選取 [依離職原因的離職人員]  橫條圖中的 [自願]  列。 這會在圖表中以其他視覺效果反白顯示自願離職的員工。
 5. 按一下 [依年齡群組的離職員工] 圓形圖的 50 + 配量。
 
    查看右下角的 [離職原因] 折線圖。 此圖會篩選顯示自願離職的部分。  
@@ -122,7 +122,7 @@ ms.locfileid: "56216646"
 1. 選取 [ **依年齡群組的不當員工 %** ] 儀表板圖格。 報表會開啟到第 3 頁的 [不當員工]。
 
    ![](media/sample-human-resources/hr7.png)  
-2. 選取左側 [地區] 交叉分析篩選器的 [西北] 核取方塊，並在 [依性別的不當員工] 環圈圖中選擇 [男性] 的配量。  查看 [不當員工] 頁面上的其他圖表。 不當員工中的男性比女性多，且群組 A 中有很多不當員工。
+2. 選取左側 [地區] 交叉分析篩選器的 [西北]  核取方塊，並在 [依性別的不當員工] 環圈圖中選擇 [男性]  的配量。  查看 [不當員工] 頁面上的其他圖表。 不當員工中的男性比女性多，且群組 A 中有很多不當員工。
    ![](media/sample-human-resources/pbi_hr_sample_badhirespage.png)  
 3. 查看 [ **依性別的不當員工** ] 環圈圖，並點選 [ **地區** ] 交叉分析篩選器，可發現東部是女性不當員工多於男性不當員工的唯一地區。  
 4. 從上方導覽列選取儀表板名稱，以返回儀表板。

@@ -7,101 +7,110 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: ccb3b390b0654c7dc850cf66a7f0c9a7ec02f910
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278392"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64906516"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>建立 Power BI 行動裝置應用程式中的特定位置連結
-您可以建立和使用統一資源識別項 (URI)，以連結至所有行動平台 (iOS、Android 裝置和 Windows 10) 上之 Power BI 行動裝置應用程式內的特定位置 (「深層連結」)。
+您可以使用連結直接存取 Power BI 中的特定項目：報表、 儀表板和磚。
 
-URI 連結可以直接指向儀表板、磚和報表。
+有兩個主要案例使用 Power BI Mobile 中的連結： 
 
-深層連結的目的地決定 URI 的格式。 請遵循下列步驟來建立不同位置的深層連結。 
-
-## <a name="open-the-power-bi-mobile-app"></a>開啟 Power BI 行動裝置應用程式
-在任何裝置上，使用此 URI 開啟 Power BI 行動裝置應用程式：
-
-    mspbi://app/
+* 若要開啟 從 Power BI**應用程式外**，並在特定內容 （報表/儀表板/應用程式） 上的土地。 這通常是整合案例中，當您想要從其他應用程式中開啟 Power BI 行動裝置。 
+* 若要**瀏覽**在 Power BI。 這是通常在您想要在 Power BI 中建立自訂的瀏覽。
 
 
-## <a name="open-to-a-specific-dashboard"></a>開啟至特定儀表板
-此 URI 會將 Power BI 行動裝置應用程式開啟至特定儀表板：
+## <a name="use-links-from-outside-of-power-bi"></a>使用 Power BI 外部的連結
+當您使用來自 Power BI 應用程式外的連結時，您想要確定它會開啟應用程式，而且如果應用程式未安裝在裝置上，則提供使用者安裝它。 為了支援完全的我們已經建立的特殊連結格式。 此連結格式，可確保裝置使用應用程式來開啟該連結，，和應用程式未安裝在裝置上，如果網域控制站會提供使用者移至市集，取得它。
 
-    mspbi://app/OpenDashboard?DashboardObjectId=<36-character-dashboard-id>
+連結應以下列開頭  
+```html
+https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
+```
 
-若要尋找 36 個字元的儀表板物件識別碼，請巡覽至 Power BI 服務 (https://powerbi.com) 中的特定儀表板。 例如，查看此 URL 的強調顯示區段：
+> [!IMPORTANT]
+> 如果您的內容裝載在特殊的資料中心內，例如政府、 中國等。連結的開頭應正確的 Power BI 位址，例如`app.powerbigov.us`或`app.powerbi.cn`。   
+>
 
-`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
-如果儀表板位於 [我的工作區] 以外的群組中，請在儀表板識別碼前面或後面加上 `&GroupObjectId=<36-character-group-id>`。 例如： 
+**查詢參數**是：
+* **動作**（必要） = OpenApp / OpenDashboard / OpenTile / openreport 巨集
+* **appId** = 如果您想要開啟報表或儀表板屬於的應用程式 
+* **groupObjectId** = 如果您想要開啟報表或儀表板屬於的工作區 （但不是我的工作區）
+* **dashboardObjectId** = 儀表板物件識別碼 （如果動作是 OpenDashboard 或 OpenTile）
+* **reportObjectId** = 報表物件識別碼 （如果動作是 openreport 巨集）
+* **tileObjectId** = 磚物件識別碼 （如果動作是 OpenTile）
+* **reportPage** = 如果您想要開啟特定報表區段 （如果動作是 openreport 巨集）
+* **ctid** = 項目組織識別碼 （與 B2B 案例相關。 這可省略的項目屬於使用者的組織）。
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+**範例：**
 
-請注意兩者之間的 & 符號。
+* 開啟應用程式連結 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenApp&appId=appidguid&ctid=organizationid
+  ```
 
-## <a name="open-to-a-specific-tile-in-focus"></a>以焦點模式開啟至特定磚
-此 URI 會在 Power BI 行動裝置應用程式中，以焦點模式開啟特定磚：
+* 開啟儀表板屬於應用程式 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenDashboard&appId=**appidguid**&dashboardObjectId=**dashboardidguid**&ctid=**organizationid**
+  ```
 
-    mspbi://app/OpenTile?DashboardObjectId=<36-character-dashboard-id>&TileObjectId=<36-character-tile-id>
+* 開啟工作區 部分中的報表
+  ```html
+  https://app.powerbi.com/Redirect?Action=OpenReport&reportObjectId=**reportidguid**&groupObjectId=**groupidguid**&reportPage=**ReportSectionName**
+  ```
 
-若要尋找 36 個字元的儀表板和磚物件識別碼，請巡覽至 Power BI 服務 (https://powerbi.com) 中的特定儀表板，然後以焦點模式開啟此磚。 例如，查看此 URL 的強調顯示區段：
+### <a name="how-to-get-the-right-link-format"></a>如何取得正確的連結格式
 
-`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
+#### <a name="links-of-apps-and-items-in-app"></a>連結的應用程式和應用程式中的項目
 
-此磚的 URI 會是：
+針對**應用程式和報表和儀表板應用程式的一部分**，最簡單的方式，取得該連結會移至應用程式工作區，然後選擇 [更新應用程式]。 這會開啟 「 發行應用程式 」 的經驗，並在 [存取] 索引標籤中，您會發現**連結**一節。 展開區段，您會看到應用程式的清單，和其所有內容的都連結，可用來直接存取。
 
-    mspbi://app/OpenTile?DashboardObjectId=3784f99f-b460-4d5e-b86c-b6d8f7ec54b7&TileObjectId=565f9740-5131-4648-87f2-f79c4cf9c5f5
+![Power BI 的發佈的應用程式連結 ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
-請注意兩者之間的 & 符號。
+#### <a name="links-of-items-not-in-app"></a>項目不在應用程式中的連結 
 
-如果儀表板位於 [我的工作區] 以外的群組中，請加入 `&GroupObjectId=<36-character-group-id>`
+為報表和儀表板，不是應用程式的一部分，您需要擷取項目 URL 中的識別碼。
 
-## <a name="open-to-a-specific-report"></a>開啟至特定報表
-此 URI 會在 Power BI 行動裝置應用程式中，開啟特定報表：
+例如，若要尋找 36 個字元**儀表板**物件識別碼，請瀏覽至 Power BI 服務中的特定儀表板 
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>
+```html
+https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
+```
 
-若要尋找 36 個字元的報表物件識別碼，請巡覽至 Power BI 服務 (https://powerbi.com) 中的特定報表。 例如，查看此 URL 的強調顯示區段：
+若要尋找 36 個字元**報表**物件識別碼，請瀏覽至 Power BI 服務中的特定報表。
+這是報表的從 「 我的工作區 」 範例
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
+```
+上述 URL 也包含特定報表頁面 **"ReportSection3"** 。
 
-如果報表位於 [我的工作區] 以外的群組中，請在報表識別碼前面或後面新增 `&GroupObjectId=<36-character-group-id>`。 例如： 
+這是報表的從工作區 （不我的工作區） 範例
 
-mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+```html
+https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes here**/ReportSection1?ctid=**organizationid comes here**
+```
 
-請注意兩者之間的 & 符號。
+## <a name="use-links-inside-power-bi"></a>使用 Power BI 內的連結
 
-## <a name="open-to-a-specific-report-page"></a>開啟至特定報表頁面
-此 URI 會在 Power BI 行動裝置應用程式中，開啟特定報表頁面：
+在 Power BI 內的連結運作完全相同 Power BI 服務的行動應用程式中。
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>&reportPage=ReportSection<number>
+如果您想要將連結加入到報表中指向另一個 Power BI 項目，您就可以從瀏覽器網址列，只複製的項目 URL。 深入了解[如何將超連結加入至報表中的文字方塊](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)。
 
-此報表頁面稱為 "ReportSection"，後面接著一個數字。 同樣地，在 Power BI 服務 (https://powerbi.com) 中開啟報表，然後巡覽至特定報表頁面。 
+## <a name="use-report-url-with-filter"></a>含篩選器使用報表 URL
+與相同，Power BI 服務，Power BI 行動裝置應用程式也支援包含篩選查詢參數的報表 URL。 您可以在 Power BI 行動應用程式中開啟報表，並篩選特定的狀態。 比方說，此 URL 會開啟 Sales 報表，而篩選依領域
 
-例如，查看此 URL 的強調顯示區段：
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
+```
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
-
-## <a name="open-in-full-screen-mode"></a>以全螢幕模式開啟
-以粗體新增參數以在全螢幕模式中開啟特定的報表︰
-
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>**&openFullScreen=true**
-
-例如： 
-
-mspbi://app/OpenReport?ReportObjectId=500217de-50f0-4af1-b345-b81027224033&openFullScreen=true
-
-## <a name="add-context-optional"></a>新增內容 (選擇性)
-您也可以在字串中新增內容。 然後，如果您需要與我們連絡，我們可以使用該內容在您的應用程式中篩選出我們的資料。 將 `&context=<app-name>` 新增至連結
-
-例如，查看此 URL 的強調顯示區段： 
-
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
+閱讀更多資訊[如何建立查詢參數來篩選報表](https://docs.microsoft.com/power-bi/service-url-filters)。
 
 ## <a name="next-steps"></a>後續步驟
 您的意見反應可協助我們決定要在未來實作的項目，因此別忘了對您想在 Power BI 行動應用程式中看到的其他功能進行投票。 

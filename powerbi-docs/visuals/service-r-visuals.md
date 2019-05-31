@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 587cc5b5d81ca57e809a3973c700c71a214dc045
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426600"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61389244"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>在 Power BI 服務中建立 R 視覺效果
-Power BI 服務支援檢視使用 R 指令碼建立的視覺效果，並與其互動。 以 R 指令碼建立的視覺效果通常稱為「R 視覺效果」，可以使用 R 豐富的分析和視覺效果功能呈現進階的資料成形和分析，例如預測。
+Power BI 服務支援檢視使用 R 指令碼建立的視覺效果，並與其互動。 以 R 指令碼建立的視覺效果通常稱為「R 視覺效果」  ，可以使用 R 豐富的分析和視覺效果功能呈現進階的資料成形和分析，例如預測。
 
 > [!NOTE]
 > [R 程式設計語言](https://www.r-project.org/)是統計學家、資料科學家和商務分析師使用最廣泛的程式設計語言之一。 R 語言有一個開放原始碼社群，提供了逾 7000 種的附加元件套件，以及廣為大眾使用的 R 使用者群組。 部署在 Power BI 服務中的 R 版本是 *Revolution R Open 3.2.2* 。
@@ -50,12 +50,12 @@ R 視覺效果是從 R 指令碼建立，可能包含具有安全性或隱私權
 
 這些風險主要存在於指令碼作者在自己的電腦上執行指令碼時的撰寫階段。
 
-Power BI 服務套用「沙箱」技術，保護使用者與服務免於安全性風險。
+Power BI 服務套用「沙箱」  技術，保護使用者與服務免於安全性風險。
 
-這種「沙箱」方法會對 Power BI 服務中執行的 R 指令碼施加某些限制，諸如存取網際網路，或存取建立 R 視覺效果時非必要的其他資源。
+這種「沙箱」  方法會對 Power BI 服務中執行的 R 指令碼施加某些限制，諸如存取網際網路，或存取建立 R 視覺效果時非必要的其他資源。
 
 ## <a name="r-scripts-error-experience"></a>R 指令碼錯誤體驗
-當 R 指令碼發生錯誤時，R 視覺效果不會進行繪製，而且會顯示錯誤訊息。 如需錯誤的詳細資料，請從畫布的 R 視覺效果錯誤中選取 [查看詳細資料]，如下圖所示。
+當 R 指令碼發生錯誤時，R 視覺效果不會進行繪製，而且會顯示錯誤訊息。 如需錯誤的詳細資料，請從畫布的 R 視覺效果錯誤中選取 [查看詳細資料]  ，如下圖所示。
 
 ![](media/service-r-visuals/r-visuals-service_4.png)
 
@@ -64,7 +64,7 @@ Power BI 服務套用「沙箱」技術，保護使用者與服務免於安全�
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
 ## <a name="licensing"></a>授權
-R 視覺效果需要 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 授權才能呈現在報表、重新整理、篩選和交叉篩選中。 如需 Power BI Pro 授權的詳細資訊，以及和免費授權有何差異，請參閱[何謂 Power BI Pro 內容？](../service-premium.md)
+R 視覺效果需要 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 授權才能呈現在報表、重新整理、篩選和交叉篩選中。 如需 Power BI Pro 授權的詳細資訊，以及和免費授權有何差異，請參閱[何謂 Power BI Pro 內容？](../service-premium-what-is.md)
 
 Power BI 的免費使用者只能取用在 Premium 工作區中與他們共用的磚。 如需詳細資訊，請參閱[購買 Power BI Pro](../service-admin-purchasing-power-bi-pro.md)。
 
@@ -88,8 +88,8 @@ Power BI 服務的 R 視覺效果有某些限制︰
 * 計算時間限制 - 如果 R 視覺效果計算超過 60 秒，指令碼會逾時並導致錯誤。
 * R 視覺效果會在資料更新、篩選及反白顯示時進行重新整理。 不過，影像本身不會互動，也不支援工具提示。
 * R 視覺效果會回應反白顯示的其他視覺效果，但您不能點選 R 視覺效果中的項目，無法交叉篩選其他項目。
-* 「時間」資料類型目前不支援 R 視覺效果。 請改用日期/時間。
-* 使用 [發行至 Web] 時不會顯示 R 視覺效果。
+* 「時間」  資料類型目前不支援 R 視覺效果。 請改用日期/時間。
+* 使用 [發行至 Web]  時不會顯示 R 視覺效果。
 * 儀表板和報表列印目前不會列印 R 視覺效果
 * Analysis Services 的 DirectQuery 模式目前不支援 R 視覺效果
 * 中文、日文和韓文字型需要執行下列所有額外步驟，才能在 Power BI 服務中正常運作︰

@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 2e9da4bc46a741af42a214d4e70fd46bfaa4a541
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007770"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61151955"
 ---
 # <a name="connect-to-sendgrid-with-power-bi"></a>使用 Power BI 連接到 SendGrid
 SendGrid 的 Power BI 內容套件可讓您從 SendGrid 帳戶中擷取深入資訊與統計資料。 您可以使用 SendGrid 內容套件，在儀表板中以視覺化方式呈現您的 SendGrid 統計資料。
@@ -26,13 +26,13 @@ SendGrid 的 Power BI 內容套件可讓您從 SendGrid 帳戶中擷取深入資
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-sendgrid/pbi_getdata.png) 
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-sendgrid/pbi_getservices.png) 
-3. 選取 **SendGrid** 內容套件並按一下 [取得]。
+3. 選取 **SendGrid** 內容套件並按一下 [取得]  。
    
    ![](media/service-connect-to-sendgrid/sendgrid.png) 
-4. 出現提示時，請提供您的 SendGrid 使用者名稱和密碼。 選取 [登入] 。
+4. 出現提示時，請提供您的 SendGrid 使用者名稱和密碼。 選取 [登入]  。
    
    ![](media/service-connect-to-sendgrid/pbi_sendgridsignin.png)
 5. Power BI 匯入資料之後，您會在左側瀏覽窗格中看到新的儀表板、報表和資料集，其中已填入您過去 90 天內的電子郵件統計資料。 新的項目會以黃色星號標示\*。
@@ -44,7 +44,7 @@ SendGrid 的 Power BI 內容套件可讓您從 SendGrid 帳戶中擷取深入資
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="whats-included"></a>包含的內容
 SendGrid 儀表板提供下列度量資訊︰

@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
 ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430893"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61338847"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>在 Apple Watch 的 Power BI 行動裝置應用程式中探索資料
 透過 Power BI Apple Watch 應用程式，您可以直接從手錶檢視 Power BI 儀表板的 KPI 與卡片磚。 KPI 和卡片磚最適合在小型螢幕上提供活動訊號量值。 您可以從 iPhone 或 Watch 本身重新整理儀表板。
@@ -39,7 +39,7 @@ Power BI Apple Watch 應用程式由兩個部分組成。
 ## <a name="refresh-a-dashboard-from-your-apple-watch"></a>從 Apple Watch 重新整理儀表板
 您可以直接從手錶重新整理同步處理的儀表板。
 
-* 位於 Watch 應用程式的儀表板檢視時，請深按畫面，然後選取 [重新整理]。
+* 位於 Watch 應用程式的儀表板檢視時，請深按畫面，然後選取 [重新整理]  。
 
 Watch 應用程式現在會使用 Power BI 服務中的資料同步處理您的儀表板。
 
@@ -52,7 +52,7 @@ Watch 應用程式現在會使用 Power BI 服務中的資料同步處理您的�
 您也可以從 iPhone 重新整理 Apple Watch 上的儀表板。
 
 1. 在 iPhone 的 Power BI 中，開啟您想要與 Apple Watch 同步的儀表板。 
-2. 選取省略符號 (...) > [與 Watch 同步]。
+2. 選取省略符號 (...) > [與 Watch 同步]  。
 
 Power BI 會顯示標記，代表儀表板已與手錶同步。
 

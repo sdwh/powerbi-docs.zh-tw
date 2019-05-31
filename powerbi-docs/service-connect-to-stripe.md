@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6a194a4d56f4a940ad892ccd2f9097dd782f49d3
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008526"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61167679"
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>使用 Power BI 連接到帶狀線
 您可以在 Power BI 中，使用 Power BI 內容套件來視覺化及瀏覽 Stripe 資料。 Power BI 的 Stripe 內容套件會提取有關您的客戶、費用、事件和發票的資料。 這些資料包括過去 30 天的最近一萬個事件和五千筆費用。 此內容會依您控制的排程每天自動重新整理一次。 
@@ -26,10 +26,10 @@ ms.locfileid: "54008526"
 1. 選取左瀏覽窗格底部的 [取得資料]。  
    
     ![](media/service-connect-to-stripe/getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。  
+2. 在 [服務]  方塊中，選取 [取得]  。  
    
     ![](media/service-connect-to-stripe/services.png)  
-3. 選取 [Stripe] &gt; [取得]。  
+3. 選取 [Stripe]  &gt; [取得]  。  
    
     ![](media/service-connect-to-stripe/stripe.png)  
 4. 提供要連接的 Stripe [API 金鑰](https://dashboard.stripe.com/account/apikeys)。  
@@ -44,7 +44,7 @@ ms.locfileid: "54008526"
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 是什麼？](power-bi-overview.md)

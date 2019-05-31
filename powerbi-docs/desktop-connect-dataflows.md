@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 967f513502fd85ef28f867bdc5bba199ce51ccbc
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513910"
 ---
 # <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Power BI 資料流程所建立的資料
@@ -29,7 +29,7 @@ ms.locfileid: "65513910"
 若要使用這個搶鮮版 (Beta) 的 **Power BI 資料流程連接器**，您必須執行最新版的 **Power BI Desktop**。 您可以隨時[下載 Power BI Desktop](desktop-get-the-desktop.md) 將它安裝在您的電腦上，以確保您擁有最新的版本。  
 
 > [!NOTE]
-> 舊版的 Power BI 資料流程連接器會要求您下載 .MEZ 檔案，並將它放在資料夾中。 目前的 **Power BI Desktop** 版本隨附 Power BI 資料流程連接器，因此該檔案不再是必要檔案，而可能導致與隨附的連接器版本產生衝突。 如果您以手動方式該 .MEZ 檔案放到資料夾中，就「必須」從 [文件] > [Power BI Desktop] > [自訂連接器] 資料夾中刪除已下載的 .MEZ 檔案，以避免產生衝突。 
+> 舊版的 Power BI 資料流程連接器會要求您下載 .MEZ 檔案，並將它放在資料夾中。 目前的 **Power BI Desktop** 版本隨附 Power BI 資料流程連接器，因此該檔案不再是必要檔案，而可能導致與隨附的連接器版本產生衝突。 如果您以手動方式該 .MEZ 檔案放到資料夾中，就「必須」  從 [文件] > [Power BI Desktop] > [自訂連接器]  資料夾中刪除已下載的 .MEZ 檔案，以避免產生衝突。 
 
 ## <a name="desktop-performance"></a>Desktop 效能
 **Power BI Desktop** 會在其安裝所在的電腦上本機執行。 資料流程的擷取效能取決於各種因素。 這些因素包括資料的大小、您電腦的 CPU 和 RAM、網路頻寬、與資料中心的距離，以及其他因素。

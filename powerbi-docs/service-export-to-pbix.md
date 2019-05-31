@@ -11,14 +11,14 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 5c42b633b3c8746d2e26656eb5310b1f74cb2500
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282003"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61159726"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>將報表從 Power BI 服務匯出至 Desktop (預覽)
-在 Power BI Desktop 中，您可以匯出 (也稱為「下載」) 報表至 Power BI 服務，方法是儲存報表，並選取 [發佈]。 您也可以另一個方向來匯出，並從 Power BI 服務下載報表到 Desktop。 在任一方向中，匯出的檔案副檔名為 *.pbix* 。
+在 Power BI Desktop 中，您可以匯出 (也稱為「下載」  ) 報表至 Power BI 服務，方法是儲存報表，並選取 [發佈]  。 您也可以另一個方向來匯出，並從 Power BI 服務下載報表到 Desktop。 在任一方向中，匯出的檔案副檔名為 *.pbix* 。
 
 有幾項需要注意的限制和考量，將在本文稍後討論。
 
@@ -27,11 +27,11 @@ ms.locfileid: "54282003"
 ## <a name="download-the-report-as-a-pbix"></a>將報表下載為 .pbix
 若要下載 .pbix 檔案，請遵循下列步驟：
 
-1. 在 [Power BI 服務] 中，以[編輯檢視](consumer/end-user-reading-view.md)開啟您想要下載的報表。
-2. 從功能表列中，選取 [檔案] > [下載報表]。
+1. 在 [Power BI 服務]  中，以[編輯檢視](consumer/end-user-reading-view.md)開啟您想要下載的報表。
+2. 從功能表列中，選取 [檔案] > [下載報表]  。
    
    > [!NOTE]
-   > 報表必須是在 2016 年 11 月 23 日後[使用 Power BI Desktop 建立](guided-learning/publishingandsharing.yml?tutorial-step=2)，並在那之後進行更新，才能順利下載。 如果沒有，Power BI 服務中的「下載報表」功能表選項會是灰色。
+   > 報表必須是在 2016 年 11 月 23 日後[使用 Power BI Desktop 建立](guided-learning/publishingandsharing.yml?tutorial-step=2)，並在那之後進行更新，才能順利下載。 如果沒有，Power BI 服務中的「下載報表」  功能表選項會是灰色。
    > 
    > 
 3. 建立 .pbix 檔案時，狀態橫幅會顯示進度。 當檔案已準備就緒時，系統會要求您開啟或儲存 .pbix 檔案。 檔案名稱與報表標題相符。
@@ -39,7 +39,7 @@ ms.locfileid: "54282003"
     ![開啟、儲存或取消](media/service-export-to-pbix/power-bi-save-pbix.png)
    
     您現在有使用 Power BI 服務 (app.powerbi.com) 或 Power BI Desktop 開啟 .pbix 檔案的選項。     
-4. 若要立即在 Desktop 中開啟報表，請選取 [開啟]。 若要將檔案儲存至特定位置，請選取 [儲存] > [另存新檔]。 如果您還沒有這麼做，請[安裝 Power BI Desktop](desktop-get-the-desktop.md)。
+4. 若要立即在 Desktop 中開啟報表，請選取 [開啟]  。 若要將檔案儲存至特定位置，請選取 [儲存] > [另存新檔]  。 如果您還沒有這麼做，請[安裝 Power BI Desktop](desktop-get-the-desktop.md)。
    
     當您在 Desktop 中開啟報表時，警告訊息可讓您了解 Power BI 服務報表的某些功能可能無法用於 Desktop。
    

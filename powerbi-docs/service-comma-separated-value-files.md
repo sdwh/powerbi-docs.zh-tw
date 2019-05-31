@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 1a150c2cb4eb819b78b2b08a492087eb98bf6363
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513313"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>從逗點分隔值 (.CSV) 檔案取得資料
@@ -28,9 +28,9 @@ ms.locfileid: "65513313"
 >許多組織會每天輸出內含更新資料的 .CSV。 若要確保您在 Power BI 中的資料集與更新的檔案保持同步，請務必以相同名稱將檔案儲存到 OneDrive。
 
 ## <a name="where-your-file-is-saved-makes-a-difference"></a>檔案的儲存位置會形成差異
-**本機** - 如果您將 .CSV 檔案儲存到電腦上的本機磁碟或組織中的其他位置，您可以從 Power BI 將檔案「匯入」Power BI。 您的檔案實際上會保留在本機磁碟，因此不是真的將整個檔案匯入 Power BI。 真正發生的情況是在 Power BI 中建立新的資料集，並將資料從 .CSV 檔案載入資料集。
+**本機** - 如果您將 .CSV 檔案儲存到電腦上的本機磁碟或組織中的其他位置，您可以從 Power BI 將檔案「匯入」  Power BI。 您的檔案實際上會保留在本機磁碟，因此不是真的將整個檔案匯入 Power BI。 真正發生的情況是在 Power BI 中建立新的資料集，並將資料從 .CSV 檔案載入資料集。
 
-**OneDrive - 商務** - 如果您有商務用 OneDrive，並使用與用來登入 Power BI 相同的帳戶進行登入，這樣做可以有效地讓 .CSV 檔案，與 Power BI 中的資料集、報表和儀表板保持同步。由於 Power BI 和 OneDrive 都在雲端，因此 Power BI 每隔約一小時就會「連接」到您在 OneDrive 上的檔案。 如果發現任何變更，便會自動更新 Power BI 中的資料集、報表和儀表板。
+**OneDrive - 商務** - 如果您有商務用 OneDrive，並使用與用來登入 Power BI 相同的帳戶進行登入，這樣做可以有效地讓 .CSV 檔案，與 Power BI 中的資料集、報表和儀表板保持同步。由於 Power BI 和 OneDrive 都在雲端，因此 Power BI 每隔約一小時就會「連接」  到您在 OneDrive 上的檔案。 如果發現任何變更，便會自動更新 Power BI 中的資料集、報表和儀表板。
 
 **OneDrive - 個人** - 如果您將檔案儲存到自己的 OneDrive 帳戶，則可以利用許多與使用商務用 OneDrive 相同的優點。 最大的差異是當您第一次連接到檔案時 (使用 [取得資料] > [檔案] > [OneDrive - 個人])，需要使用 Microsoft 帳戶登入 OneDrive，這通常與用來登入 Power BI 的帳戶不同。 當您使用 Microsoft 帳戶登入 OneDrive 時，請務必選取 [讓我保持登入] 選項。 如此一來，Power BI 每隔約一小時就會連接到您的檔案，以確保您在 Power BI 中的資料集保持同步。
 
@@ -40,10 +40,10 @@ ms.locfileid: "65513313"
 >[!IMPORTANT]
 >您可以匯入 Power BI 的檔案大小上限為 1 GB。
 
-1. 在 Power BI 的導覽器窗格中，按一下 [取得資料]。
+1. 在 Power BI 的導覽器窗格中，按一下 [取得資料]  。
    
    ![](media/service-comma-separated-value-files/csv_get_data_button.png)
-2. 在 [檔案] 中，按一下 [取得]。
+2. 在 [檔案]  中，按一下 [取得]  。
    
    ![](media/service-comma-separated-value-files/csv_files_get.png)
 3. 尋找您的檔案。
@@ -51,7 +51,7 @@ ms.locfileid: "65513313"
    ![](media/service-comma-separated-value-files/csv_find_your_file.png)
 
 ## <a name="next-steps"></a>後續步驟
-**瀏覽您的資料** - 將檔案中的資料匯入 Power BI 後，您就可以開始瀏覽。 只要以滑鼠右鍵按一下新的資料集，然後按一下 [瀏覽]。
+**瀏覽您的資料** - 將檔案中的資料匯入 Power BI 後，您就可以開始瀏覽。 只要以滑鼠右鍵按一下新的資料集，然後按一下 [瀏覽]  。
 
 **排程重新整理** - 如果將您的檔案儲存到本機磁碟，就能夠設定排定的重新整理，讓 Power BI 中的資料集和報表保持最新狀態。 如需深入了解，請參閱 [Power BI 的資料重新整理](refresh-data.md)。 如果將您的檔案儲存到 OneDrive，Power BI 每隔約一小時就會自動與其同步處理。
 

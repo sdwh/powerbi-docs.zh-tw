@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 0a71a0e0fe7af3c074c94ab26083839ff114f815
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216094"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61232630"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的 IT 支出分析範例：觀看導覽
 
@@ -33,13 +33,13 @@ IT 支出分析[內容套件](service-organizational-content-pack-introduction.m
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
-2. 在左下角選取 [取得資料]。
+2. 在左下角選取 [取得資料]  。
    
     ![](media/sample-datasets/power-bi-get-data.png)
-3. 在顯示的 [取得資料] 頁面上，選取 [範例]。
+3. 在顯示的 [取得資料] 頁面上，選取 [範例]  。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 選取 [IT 費用分析範例]，然後選擇 [連線]。  
+4. 選取 [IT 費用分析範例]  ，然後選擇 [連線]  。  
   
    ![取得資料](media/sample-it-spend/it-connect.png)
    
@@ -54,7 +54,7 @@ IT 支出分析[內容套件](service-organizational-content-pack-introduction.m
  * [IT 費用分析範例](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
-您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529783)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。
+您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529783)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]  。
 
 
 ## <a name="the-it-spend-analysis-sample-dashboard"></a>IT 支出分析範例的儀表板
@@ -75,7 +75,7 @@ IT 支出分析[內容套件](service-organizational-content-pack-introduction.m
     所以我們已將範圍縮小至美國，接下來呢？ 讓我們來探討美國的哪一類商品造成差異。
 
 ## <a name="ask-questions-of-the-data"></a>針對資料提問
-1. 選取導覽列頂端的 [IT 費用分析範例]，返回儀表板。
+1. 選取導覽列頂端的 [IT 費用分析範例]  ，返回儀表板。
 2. 在問題方塊中輸入「顯示 IT 領域、浮動計畫 % 和最新第 3 季估計差異 % 長條圖」。
 
    ![](media/sample-it-spend/it4.png)
@@ -96,7 +96,7 @@ IT 支出分析[內容套件](service-organizational-content-pack-introduction.m
 3. 按一下交叉分析篩選器中每個成本項目群組的名稱，找出有很大差異的成本項目。
 4. 在選取 [其他]  的情況下，按一下 [IT 領域] 中的 [基礎結構]  ，並按一下 [IT 子領域] 交叉分析篩選器中的子領域，找出具有最大差異的子領域。  
 
-   我們會看到 [網路] 中有很大的差異。
+   我們會看到 [網路]  中有很大的差異。
 
    顯然公司決定提供員工電話服務做為福利，不過這項措施未經規劃。
 

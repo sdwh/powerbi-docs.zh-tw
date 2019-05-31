@@ -1,4 +1,12 @@
-歡迎使用 Power BI **引導式學習**課程的＜模型＞一節。 本節說明如何使用 Power BI Desktop 準備隨時可用的連接資料。 通常，您會連接至多個資料來源以建立報表，而且您需要所有的資料一起運作。 模型是您的解決之道。
+---
+ms.openlocfilehash: a98c06ac1e164328a9a88081e2b4b734b4d62ef1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61253663"
+---
+歡迎使用 Power BI **引導式學習**課程的＜模型＞  一節。 本節說明如何使用 Power BI Desktop 準備隨時可用的連接資料。 通常，您會連接至多個資料來源以建立報表，而且您需要所有的資料一起運作。 模型是您的解決之道。
 
 若要建立不同資料來源之間的邏輯連接，您要建立**關聯性**。 資料來源之間的關聯性讓 Power BI 知道這些資料表彼此如何相關聯，讓您建立有趣的視覺效果和報表。 本節會說明*關聯性* (雖然只以資料為中心)，甚至會示範如何在沒有關聯性時建立關聯性。
 

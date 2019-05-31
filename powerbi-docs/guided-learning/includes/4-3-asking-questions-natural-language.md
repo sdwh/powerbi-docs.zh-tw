@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2a0ec80120e30d8d652eb2bd28461b9f88f7610a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263183"
+---
 Power BI 隨附功能強大的語言辨識引擎，可讓您使用交談式片語及問句來提問。 因此，Power BI 除了有建置報表和視覺效果的功能，您還可透過詢問簡單的問題來建立圖表和圖形。
 
 若要提出資料相關問題，請開啟 Power BI 的儀表板，畫面頂端會顯示輸入方塊，您可在其中詢問顯示資料的相關問題。 這項功能有時稱為 *問題與解答* ，但通常就直接稱為 **問與答** 。
@@ -12,7 +20,7 @@ Power BI 隨附功能強大的語言辨識引擎，可讓您使用交談式片�
 
 ![](media/4-3-asking-questions-natural-language/4-3_3.png)
 
-在過程中，您可以隨時編輯由自然語言問題或片語建立的視覺效果。 只要使用畫面右側的 [視覺效果] 與 [欄位] 窗格即可。 如同 Power BI 中的任何其他視覺效果一樣，您可以修改配置、調整篩選，並變更欄位輸入。
+在過程中，您可以隨時編輯由自然語言問題或片語建立的視覺效果。 只要使用畫面右側的 [視覺效果]  與 [欄位]  窗格即可。 如同 Power BI 中的任何其他視覺效果一樣，您可以修改配置、調整篩選，並變更欄位輸入。
 
 ![](media/4-3-asking-questions-natural-language/4-3_4.png)
 

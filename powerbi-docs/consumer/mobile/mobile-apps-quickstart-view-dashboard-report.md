@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
-ms.date: 11/16/2018
+ms.date: 04/18/2019
 ms.author: mshenhav
-ms.openlocfilehash: 9bb6dec4cdb689d2a21812b1dab8ebeb49090542
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 173142d9aaf2b445504028e1f7987abe21806c37
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279105"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60975739"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>快速入門：在 Power BI 行動裝置應用程式中探索儀表板和報表
 在此快速入門中，您將探索 Android 手機上 Power BI 行動裝置應用程式中的範例儀表板和報表。 您也可以在其他行動裝置應用程式中按照步驟操作。 
@@ -37,7 +37,7 @@ ms.locfileid: "54279105"
 ### <a name="install-the-power-bi-for-android-app"></a>安裝 Power BI for Android 應用程式
 從 Google Play [下載 Power BI for Android 應用程式](http://go.microsoft.com/fwlink/?LinkID=544867)。
 
-Power BI 適用於執行 Android 5.0 作業系統或更新版本的 Android 裝置。 若要檢查您的裝置，請前往 [設定] > [關於裝置] > [Android 版本]。
+Power BI 適用於執行 Android 5.0 作業系統或更新版本的 Android 裝置。 若要檢查您的裝置，請前往 [設定]   > [關於裝置]   > [Android 版本]  。
 
 ### <a name="download-the-retail-analysis-sample"></a>下載「零售分析」範例
 快速入門的第一個步驟是下載 Power BI 服務中的零售分析範例。
@@ -48,11 +48,11 @@ Power BI 適用於執行 Android 5.0 作業系統或更新版本的 Android 裝�
 
     ![全域導覽圖示](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-global-nav-icon.png)
 
-2. 在左瀏覽窗格中，選取 [工作區] > [我的工作區]。
+2. 在左瀏覽窗格中，選取 [工作區]   > [我的工作區]  。
 
     ![我的工作區](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-my-workspace.png)
 
-3. 在左下角選取 [取得資料]。
+3. 在左下角選取 [取得資料]  。
    
     ![取得資料](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-get-data.png)
 
@@ -60,11 +60,11 @@ Power BI 適用於執行 Android 5.0 作業系統或更新版本的 Android 裝�
    
    ![範例圖示](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-samples-icon.png)
 
-4. 選取 [零售分析範例]。
+4. 選取 [零售分析範例]  。
  
     ![零售分析範例](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
  
-8. 選取 [連接]。  
+8. 選取 [連接]  。  
   
    ![[零售分析範例] > [連線]。](./media/mobile-apps-quickstart-view-dashboard-report/retail16.png)
    
@@ -79,7 +79,7 @@ Power BI 適用於執行 Android 5.0 作業系統或更新版本的 Android 裝�
 
 1.  點選左上角的 ![全域導覽按鈕](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-global-nav-button.png).
 
-2.  點選 [工作區] > [我的工作區]
+2.  點選 [工作區]   > [我的工作區] 
 
     ![我的工作區](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-workspaces.png)
 
@@ -121,7 +121,7 @@ Power BI 適用於執行 Android 5.0 作業系統或更新版本的 Android 裝�
  
     ![標註頁面](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-annotate.png)
 
-12. 點選右上角的 [共用]。
+12. 點選右上角的 [共用]  。
 
 1. 請填寫他們的電子郵件地址，並視您的需要加入訊息。  
 
@@ -135,17 +135,17 @@ Power BI 適用於執行 Android 5.0 作業系統或更新版本的 Android 裝�
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
 
-2. 在左瀏覽窗格中，選取 [工作區] > [我的工作區]。
+2. 在左瀏覽窗格中，選取 [工作區]   > [我的工作區]  。
 
     是否注意到表示它是我的最愛項目的黃色星號？
 
-3. 在 [儀表板] 索引標籤上，選取 [零售分析] 儀表板旁邊的垃圾桶**刪除**圖示。
+3. 在 [儀表板]  索引標籤上，選取 [零售分析] 儀表板旁邊的垃圾桶**刪除**圖示。
 
     ![選取刪除圖示](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-delete-retail.png)
 
-4. 選取 [報表] 索引標籤，然後針對零售分析報表執行相同的動作。
+4. 選取 [報表]  索引標籤，然後針對零售分析報表執行相同的動作。
 
-5. 選擇 [資料集] 索引標籤，然後對零售分析資料集執行相同的動作。
+5. 選擇 [資料集]  索引標籤，然後對零售分析資料集執行相同的動作。
 
 
 ## <a name="next-steps"></a>後續步驟

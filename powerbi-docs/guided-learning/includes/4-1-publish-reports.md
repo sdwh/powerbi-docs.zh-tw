@@ -1,6 +1,14 @@
+---
+ms.openlocfilehash: d39f9a6a974e194c38c2f4e9bf69314ff6d0cec2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61254688"
+---
 您可以快速又輕鬆地將報表發佈至 Power BI 服務。
 
-在 **Power BI Desktop** 中製作完成報表之後，只要選取 Power BI Desktop 中 [常用] 索引標籤的 [發佈] 按鈕，即會開始程序。
+在 **Power BI Desktop** 中製作完成報表之後，只要選取 Power BI Desktop 中 [常用]  索引標籤的 [發佈]  按鈕，即會開始程序。
 
 ![](media/4-1-publish-reports/4-1_1.png)
 

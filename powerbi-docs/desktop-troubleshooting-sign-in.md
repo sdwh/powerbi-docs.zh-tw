@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: f81517bf4d7857b5c86b4fd8d801e989abb0399b
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514483"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>對 Power BI Desktop 的登入進行疑難排解
@@ -22,12 +22,12 @@ ms.locfileid: "65514483"
 
 若要判斷造成您登入問題的原因，首先請連絡您的系統管理員並提供診斷資訊，以便他們判斷問題的原因。 藉由追蹤與您登入問題相關聯的問題，系統管理員可以判斷適用於您的錯誤是以下哪一個。 
 
-讓我們依序看看每個問題。 在本文結尾會討論如何在 Power BI Desktop 中擷取「追蹤」，這有助於追蹤疑難排解的問題。
+讓我們依序看看每個問題。 在本文結尾會討論如何在 Power BI Desktop 中擷取「追蹤」  ，這有助於追蹤疑難排解的問題。
 
 
 ## <a name="proxy-authentication-required-error"></a>需要 Proxy 驗證錯誤
 
-以下畫面顯示「需要 Proxy 驗證」錯誤的範例。
+以下畫面顯示「需要 Proxy 驗證」  錯誤的範例。
 
 ![Proxy 驗證錯誤的登入錯誤](media/desktop-troubleshooting-sign-in/desktop-tshoot-sign-in_01.png)
 
@@ -65,13 +65,13 @@ ms.locfileid: "65514483"
 
 若要在 **Power BI Desktop** 中收集追蹤，請遵循這些步驟：
 
-1. 在 [Power BI Desktop] 中的以下位置啟用追蹤，移至 [檔案] > [選項及設定] > [選項]，然後在左窗格中的選項中選取 [診斷]。 在顯示的窗格中，選取 [啟用追蹤] 旁邊的方塊，如以下影像所示。 您可能需要重新啟動 [Power BI Desktop]。
+1. 在 [Power BI Desktop]  中的以下位置啟用追蹤，移至 [檔案] > [選項及設定] > [選項]  ，然後在左窗格中的選項中選取 [診斷]  。 在顯示的窗格中，選取 [啟用追蹤]  旁邊的方塊，如以下影像所示。 您可能需要重新啟動 [Power BI Desktop]  。
    
    ![在 Power BI Desktop 中啟用追蹤](media/desktop-troubleshooting-sign-in/desktop-tshoot-sign-in_02.png)
 
 2. 然後按照重現錯誤的步驟操作。 當錯誤發生時，**Power BI Desktop** 會將事件新增到追蹤記錄 (保留在本機電腦上)。
 
-3. 瀏覽到本機電腦上的 [Traces] 資料夾。 您可以藉由在您啟用追蹤的 [診斷] 中，選取顯示為 [開啟損毀傾印/追蹤資料夾] 的連結來尋找該資料夾，如上一個影像所示。 通常可以在本機電腦的以下位置找到：
+3. 瀏覽到本機電腦上的 [Traces] 資料夾。 您可以藉由在您啟用追蹤的 [診斷]  中，選取顯示為 [開啟損毀傾印/追蹤資料夾]  的連結來尋找該資料夾，如上一個影像所示。 通常可以在本機電腦的以下位置找到：
 
     `C:\Users/<user name>/AppData/Local/Microsoft/Power BI Desktop/Traces`
 

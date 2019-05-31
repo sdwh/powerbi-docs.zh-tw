@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: e2412fe72d62549277001b64121ecf9db2ea5502
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239570"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>在 Power BI Desktop 中新增自訂資料行
@@ -25,23 +25,23 @@ ms.locfileid: "65239570"
 建立自訂資料行是您在**查詢編輯器**中建立的另一個**套用的步驟**，表示其可以隨時變更、稍早或稍後移動及修改。
 
 ## <a name="use-query-editor-to-add-a-new-custom-column"></a>使用查詢編輯器新增自訂資料行
-若要建立新的自訂資料行，請啟動**查詢編輯器**。 您也可以從 **Power BI Desktop** 的 [常用] 功能區選取 [編輯查詢] 以完成這個動作。
+若要建立新的自訂資料行，請啟動**查詢編輯器**。 您也可以從 **Power BI Desktop** 的 [常用]  功能區選取 [編輯查詢]  以完成這個動作。
 
 ![](media/desktop-add-custom-column/add-column-from-example_02.png)
 
-在**查詢編輯器**已啟動，而您也載入一些資料後，就可以依序選取功能區的 [新增資料行] 索引標籤和 [自訂資料行]，以新增自訂資料行。
+在**查詢編輯器**已啟動，而您也載入一些資料後，就可以依序選取功能區的 [新增資料行]  索引標籤和 [自訂資料行]  ，以新增自訂資料行。
 
 ![](media/desktop-add-custom-column/add-custom-column_02.png)
 
-[新增自訂資料行] 隨即顯示，這會在下一節中討論。
+[新增自訂資料行]  隨即顯示，這會在下一節中討論。
 
 ## <a name="the-add-custom-column-window"></a>[新增自訂資料行] 視窗
-在 [新增自訂資料行] 視窗中，您會在右方窗格中看到可用欄位的清單，您的自訂資料行名稱位於頂端 (只要在文字方塊中鍵入新名稱，即可為其重新命名)，以及您依據從右側插入的欄位、新增運算子或建立公式而建立 (或撰寫) 的 [**M** 公式](https://msdn.microsoft.com/library/mt779182.aspx)，新的自訂資料行會依此定義。 
+在 [新增自訂資料行]  視窗中，您會在右方窗格中看到可用欄位的清單，您的自訂資料行名稱位於頂端 (只要在文字方塊中鍵入新名稱，即可為其重新命名)，以及您依據從右側插入的欄位、新增運算子或建立公式而建立 (或撰寫) 的 [**M** 公式](https://msdn.microsoft.com/library/mt779182.aspx)，新的自訂資料行會依此定義。 
 
 ![](media/desktop-add-custom-column/add-custom-column_03.png)
 
 ## <a name="create-formulas-for-your-custom-column"></a>為您的自訂資料行建立公式
-您可以從右側 [可用的資料行:] 清單中選取欄位，然後選取 [<< 插入] 將其新增到自訂資料行公式。 只要按兩下清單中的資料行，也可以加以新增。
+您可以從右側 [可用的資料行:]  清單中選取欄位，然後選取 [<< 插入]  將其新增到自訂資料行公式。 只要按兩下清單中的資料行，也可以加以新增。
 
 在您鍵入公式及建立資料行的同時，會在視窗底部看到指標，即時 (在您鍵入時) 讓您知道是否偵測到任何語法錯誤。 如果一切正常，您會看到綠色勾號。
 
@@ -51,14 +51,14 @@ ms.locfileid: "65239570"
 
 ![](media/desktop-add-custom-column/add-custom-column_05.png)
 
-當您選取 [確定] 時，自訂資料行即新增到模型，而 [已新增自訂] 步驟會新增到查詢的 [套用的步驟]。
+當您選取 [確定]  時，自訂資料行即新增到模型，而 [已新增自訂]  步驟會新增到查詢的 [套用的步驟]  。
 
 ![](media/desktop-add-custom-column/add-custom-column_06.png)
 
-如果您在 [套用的步驟] 窗格中按兩下 [已新增自訂] 步驟，[新增自訂資料行] 最會再次顯示，並已載入您建立的自訂資料行公式，準備好讓您在必要時修改。
+如果您在 [套用的步驟]  窗格中按兩下 [已新增自訂]  步驟，[新增自訂資料行]  最會再次顯示，並已載入您建立的自訂資料行公式，準備好讓您在必要時修改。
 
 ## <a name="using-the-advanced-editor-for-custom-columns"></a>在自訂資料行使用進階編輯器
-您也可以使用**進階編輯器**建立自訂資料行 (也可以修改任何查詢步驟)。 在**查詢編輯器**中選取 [檢視] 索引標籤，然後選取 [進階編輯器] 以顯示**進階編輯器**。
+您也可以使用**進階編輯器**建立自訂資料行 (也可以修改任何查詢步驟)。 在**查詢編輯器**中選取 [檢視]  索引標籤，然後選取 [進階編輯器]  以顯示**進階編輯器**。
 
 ![](media/desktop-add-custom-column/add-custom-column_07.png)
 

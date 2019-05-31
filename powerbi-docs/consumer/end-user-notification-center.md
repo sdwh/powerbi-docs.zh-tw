@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 34bb77c84d1813e32421b87e957e24a946f282f7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661981"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61066178"
 ---
 # <a name="view-power-bi-notifications"></a>檢視 Power BI 通知
 通知中心是按時間排列的 Power BI 體驗相關資訊摘要。 加以開啟即可看到下列訊息的循序摘要：已與您共用的新儀表板、您的群組空間變更、Power BI 事件和會議的資訊、您已設定的警示等等。 您可以[在 Power BI 服務中設定警示](../service-set-data-alerts.md)，也可以在 Power BI 行動裝置應用程式中設定警示。

@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 81498dff9c70deaf8135faf244db96509b1cf18d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008825"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61163856"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>使用 Power BI 連接到 Windows 開發人員中心
 使用 Power BI 內容套件探索並監視 Power BI 中的 Windows 開發人員中心應用程式中分析資料。 資料會自動每天重新整理一次。
@@ -26,16 +26,16 @@ ms.locfileid: "54008825"
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-windows-dev-center/getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-windows-dev-center/services.png)
-3. 選取 [Windows 開發人員中心] \> [取得]。
+3. 選取 [Windows 開發人員中心]  \> [取得]  。
    
    ![](media/service-connect-to-windows-dev-center/windowsdev.png)
 4. 輸入您所擁有之應用程式的應用程式識別碼，然後按一下 [下一步]。 請參閱以下關於[尋找這些參數](#FindingParams)的詳細資訊。
    
    ![](media/service-connect-to-windows-dev-center/params.png)
-5. 針對 [驗證方法] 選取 [oAuth2] \> [登入]。 出現提示時，請輸入與 Windows 開發人員中心帳戶相關聯的 Azure Active Directory 認證 (如需詳細資訊，請參閱[系統需求](#Requirements))。
+5. 針對 [驗證方法]  選取 [oAuth2]  \> [登入]  。 出現提示時，請輸入與 Windows 開發人員中心帳戶相關聯的 Azure Active Directory 認證 (如需詳細資訊，請參閱[系統需求](#Requirements))。
    
     ![](media/service-connect-to-windows-dev-center/creds.png)
    
@@ -51,7 +51,7 @@ ms.locfileid: "54008825"
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="whats-included"></a>包含的內容
 開發人員中心 Power BI 內容套件包含您的應用程式和 IAP 營收、評等、評論和應用程式健全狀況的分析資料。 資料限制於過去 3 個月內， 且為移動的視窗，以便重新整理資料集時，將會更新包含的日期。

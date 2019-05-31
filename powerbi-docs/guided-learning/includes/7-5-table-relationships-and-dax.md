@@ -1,12 +1,12 @@
 ---
 ms.openlocfilehash: cd6ea6fd52f929e2cd254214cf0e8c96e858f6c2
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555928"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273238"
 ---
-Power BI 可讓您建立多個資料表之間的關聯性，包括資料來源完全不同的資料表之間的關聯性。 您可以在 Power BI Desktop 的 [關聯性] 檢視中，查看任何資料模型的關聯性。
+Power BI 可讓您建立多個資料表之間的關聯性，包括資料來源完全不同的資料表之間的關聯性。 您可以在 Power BI Desktop 的 [關聯性]  檢視中，查看任何資料模型的關聯性。
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_1.png)
 

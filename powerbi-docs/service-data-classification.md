@@ -11,11 +11,11 @@ ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276092"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61139330"
 ---
 # <a name="dashboard-data-classification"></a>儀表板資料分類
 每個儀表板各不相同，而且隨著您所連接的資料來源不同，您可能會發現您和與您一起共用儀表板的同事，必須依據資料敏感性的不同，而採取不同的預防措施。 有一些儀表板應禁止與公司外部的人員共用或禁止列印，有一些則可任意共用。 透過儀表板資料分類，您就能提醒共用您儀表板的使用者，注意其應遵守的安全性層級。 您可以使用您公司 IT 部門所定義的分類來標記儀表板，讓檢視內容的每個人對於該資料的敏感性都能有相同的認知。
@@ -47,23 +47,23 @@ ms.locfileid: "54276092"
 
 若要變更分類類型，請執行下列作業。
 
-1. 選取儀表板名稱旁的**省略符號**，然後選取 [設定]，以前往儀表板設定。
+1. 選取儀表板名稱旁的**省略符號**，然後選取 [設定]  ，以前往儀表板設定。
    
     ![](media/service-data-classification/dashboard_settings.png)
 2. 您可以在儀表板設定下，查看儀表板目前的分類，並使用下拉式清單變更分類類型。
    
     ![](media/service-data-classification/classification_setting_dropdown.png)
-3. 完成時，請選取 [套用]。
+3. 完成時，請選取 [套用]  。
 
 套用變更之後，所有與您共用儀表板的人員都會在下次重新載入儀表板時看到這項更新。
 
 ## <a name="working-with-data-classification-tags-as-an-admin"></a>以系統管理員身分處理資料分類標記
 資料分類由全域系統管理員為組織設定。 若要開啟資料分類，請執行下列作業。
 
-1. 選取設定齒輪，然後選取 [管理入口網站]。
+1. 選取設定齒輪，然後選取 [管理入口網站]  。
    
     ![](media/service-data-classification/admin_portal_in_settings.png)
-2. 將 [租用戶設定] 索引標籤內的 [儀表板及報表的資料分類] 切換成 [開啟]。
+2. 將 [租用戶設定]  索引標籤內的 [儀表板及報表的資料分類]  切換成 [開啟]  。
    
     ![](media/service-data-classification/data_classification_switch_location.png)
 
@@ -71,11 +71,11 @@ ms.locfileid: "54276092"
 
 ![](media/service-data-classification/blank_classification_form.png)
 
-每個分類在儀表板上都有其**名稱**與**簡稱**。 您可以選取 [顯示標記]，指定是否要在儀表板上顯示標記的簡稱。 若決定不在儀表板上顯示分類類型，儀表板擁有者仍能透過查看儀表板設定來檢視類型。 此外還可選擇是否要新增 **URL**，將組織的分類方針與使用需求的詳細資訊加入其中。  
+每個分類在儀表板上都有其**名稱**與**簡稱**。 您可以選取 [顯示標記]  ，指定是否要在儀表板上顯示標記的簡稱。 若決定不在儀表板上顯示分類類型，儀表板擁有者仍能透過查看儀表板設定來檢視類型。 此外還可選擇是否要新增 **URL**，將組織的分類方針與使用需求的詳細資訊加入其中。  
 
 最後，您必須決定預設的分類類型。  
 
-當您將您的分類類型填入表單之後，請選取 [套用] 儲存變更。
+當您將您的分類類型填入表單之後，請選取 [套用]  儲存變更。
 
 ![](media/service-data-classification/filled_in_classification_form.png)
 

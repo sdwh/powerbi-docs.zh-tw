@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: 4efb4e2c02671671d42d9f66c1f9f57ee028c9a1
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: e7afdddc6d87b9494fa9264bdd253a3f93de6192
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174667"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61383065"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>教學課程：開發 Power BI 自訂視覺效果
 
@@ -79,7 +79,7 @@ ms.locfileid: "58174667"
     pbiviz --create-cert
     ```
 
-  它會傳回產生「複雜密碼」的結果。 在此案例中，「複雜密碼」是 **_15105661266553327_**。
+  它會傳回產生「複雜密碼」  的結果。 在此案例中，「複雜密碼」  是 **_15105661266553327_** 。
 
   ![透過 PowerShell 建立的憑證](media/custom-visual-develop-tutorial/cert-create.png)
 
@@ -89,31 +89,31 @@ ms.locfileid: "58174667"
     pbiviz --install-cert
     ```
 
-3. 在 [憑證匯入精靈] 中，確認存放區位置已 設定為 [目前使用者]。 接著，選取 [下一步]。
+3. 在 [憑證匯入精靈] 中，確認存放區位置已 設定為 [目前使用者]。 接著，選取 [下一步]  。
 
       ![憑證安裝](media/custom-visual-develop-tutorial/install-cert-PowerShell.png)
 
-4. 在 [要匯入的檔案] 步驟中，選取 [下一步]。
+4. 在 [要匯入的檔案]  步驟中，選取 [下一步]  。
 
-5. 在 [私密金鑰保護] 步驟中，在 [密碼] 方塊中，貼上您從建立憑證步驟收到的複雜密碼。同樣地，在此案例中，它是 **_15105661266553327_**。
+5. 在 [私密金鑰保護]  步驟中，在 [密碼] 方塊中，貼上您從建立憑證步驟收到的複雜密碼。同樣地，在此案例中，它是 **_15105661266553327_** 。
 
       ![複製複雜密碼](media/custom-visual-develop-tutorial/cert-install-wizard-show-passphrase.png)
 
-6. 在 [憑證存放區] 步驟中，選取 [將所有憑證放入以下的存放區] 選項。 接著，選取 [瀏覽]。
+6. 在 [憑證存放區]  步驟中，選取 [將所有憑證放入以下的存放區]  選項。 接著，選取 [瀏覽]  。
 
       ![所有憑證都在下列存放區中](media/custom-visual-develop-tutorial/all-certs-in-the-following-store.png)
 
-7. 在 [選取憑證存放區] 視窗中，選取 [受信任的根憑證授權單位]，然後選取 [確定]。 接著，在 [憑證存放區] 畫面上，選取 [下一步]。
+7. 在 [選取憑證存放區]  視窗中，選取 [受信任的根憑證授權單位]  ，然後選取 [確定]  。 接著，在 [憑證存放區]  畫面上，選取 [下一步]  。
 
       ![受信任的根憑證](media/custom-visual-develop-tutorial/trusted-root-cert.png)
 
-8. 若要完成匯入，請選取 [完成]。
+8. 若要完成匯入，請選取 [完成]  。
 
-9. 如果您收到安全性警告，請選取 [是]。
+9. 如果您收到安全性警告，請選取 [是]  。
 
     ![安全性警告](media/custom-visual-develop-tutorial/cert-security-warning.png)
 
-10. 當系統通知匯入成功時，請選取 [確定]。
+10. 當系統通知匯入成功時，請選取 [確定]  。
 
     ![憑證匯入成功](media/custom-visual-develop-tutorial/cert-import-successful.png)
 
@@ -126,11 +126,11 @@ ms.locfileid: "58174667"
 
     ![在 OSX 上安裝 SSL 憑證 1](media/custom-visual-develop-tutorial/install-ssl-certificate-osx.png)
 
-2. 選取 [永遠信任]，然後關閉視窗。
+2. 選取 [永遠信任]  ，然後關閉視窗。
 
     ![在 OSX 上安裝 SSL 憑證 2](media/custom-visual-develop-tutorial/install-ssl-certificate-osx2.png)
 
-3. 輸入您的使用者名稱和密碼。 選取 [更新設定]。
+3. 輸入您的使用者名稱和密碼。 選取 [更新設定]  。
 
     ![在 OSX 上安裝 SSL 憑證 3](media/custom-visual-develop-tutorial/install-ssl-certificate-osx3.png)
 
@@ -228,11 +228,11 @@ ms.locfileid: "58174667"
 
 在此節中，我們將會上傳 Power BI Desktop 報表，然後編輯要顯示自訂視覺效果的報表，以測試 CircleCard 自訂視覺效果。
 
-1. 登入 [PowerBI.com](https://powerbi.microsoft.com/) > 移至**齒輪圖示** > 然後選取 [設定]。
+1. 登入 [PowerBI.com](https://powerbi.microsoft.com/) > 移至**齒輪圖示** > 然後選取 [設定]  。
 
       ![Power BI 設定](media/custom-visual-develop-tutorial/power-bi-settings.png)
 
-2. 選取 [開發人員]，然後選取 [啟用開發人員視覺效果以供測試] 核取方塊。
+2. 選取 [開發人員]  ，然後選取 [啟用開發人員視覺效果以供測試]  核取方塊。
 
     ![[開發人員] 頁面設定](media/custom-visual-develop-tutorial/developer-page-settings.png)
 
@@ -244,17 +244,17 @@ ms.locfileid: "58174667"
 
     ![取得資料](media/custom-visual-develop-tutorial/get-data.png) ![本機檔案](media/custom-visual-develop-tutorial/local-file.png)
 
-    現在要檢視報表，從左側導覽窗格中的 [報表] 區段中選取 [US_Sales_Analysis]。
+    現在要檢視報表，從左側導覽窗格中的 [報表]  區段中選取 [US_Sales_Analysis]  。
 
     ![自訂視覺效果 Desktop 範例](media/custom-visual-develop-tutorial/custom-visual-sample.png)
 
 4. 現在，您需要在 Power BI 服務中編輯報表。
 
-    移至 [編輯報表]。
+    移至 [編輯報表]  。
 
     ![編輯報表](media/custom-visual-develop-tutorial/edit-report.png)
 
-5. 從 [視覺效果] 窗格選取 [開發人員視覺效果]。
+5. 從 [視覺效果]  窗格選取 [開發人員視覺效果]  。
 
     ![開發人員視覺效果](media/custom-visual-develop-tutorial/developer-visual.png)
 
@@ -313,17 +313,17 @@ ms.locfileid: "58174667"
     code .
     ```
 
-4. 在 [檔案總管] 窗格中，展開 [node_modules] 資料夾，以確認已經安裝 **D3 程式庫**。
+4. 在 [檔案總管]  窗格中，展開 [node_modules]  資料夾，以確認已經安裝 **D3 程式庫**。
 
     ![Visual Studio Code 中的 D3 程式庫](media/custom-visual-develop-tutorial/d3-library.png)
 
-5. 在 [檔案總管] 窗格中展開 [node_modules] > [@types] > d3，並注意 TypeScript 檔案 (**index.d.ts**)。
+5. 在 [檔案總管]  窗格中展開 [node_modules] > [@types] > d3，並注意 TypeScript 檔案 (**index.d.ts**)。
 
     ![Index.d.ts 檔案](media/custom-visual-develop-tutorial/index-d-ts.png)
 
-6. 選取 [pbiviz.json] 檔案。
+6. 選取 [pbiviz.json]  檔案。
 
-7. 若要註冊 **D3 程式庫**，請將下列檔案參考輸入到 externalJS 陣列中。 請務必在現有檔案參考與新檔案參考之間加入「逗號」。
+7. 若要註冊 **D3 程式庫**，請將下列檔案參考輸入到 externalJS 陣列中。 請務必在現有檔案參考與新檔案參考之間加入「逗號」  。
 
     ```javascript
     "node_modules/d3/d3.min.js"
@@ -336,7 +336,7 @@ ms.locfileid: "58174667"
 
 現在我們可以探索如何開發自訂視覺效果，以顯示圓形與範例文字。
 
-1. 在 [檔案總管] 窗格中，展開 [src] 資料夾，然後選取 [visual.ts]。
+1. 在 [檔案總管]  窗格中，展開 [src]  資料夾，然後選取 [visual.ts]  。
 
     > [!Note]
     > 請注意在 **visual.ts** 檔案頂端的註解。 使用 Power BI 自訂視覺效果的權限是根據 MIT 授權的規定免費授與的。 根據該合約所規定，您必須將註解保留在檔案頂端。
@@ -396,7 +396,7 @@ ms.locfileid: "58174667"
 
     此程式碼會在視覺效果中新增 SVG 群組，然後新增三個圖形：一個圓形與兩個文字元素。
 
-    若要設定文件中程式碼的格式，請在 **Visual Studio Code 文件**中以滑鼠右鍵選取任一處，然後選取 [格式化文件]。
+    若要設定文件中程式碼的格式，請在 **Visual Studio Code 文件**中以滑鼠右鍵選取任一處，然後選取 [格式化文件]  。
 
       ![格式化文件](media/custom-visual-develop-tutorial/format-document.png)
 
@@ -443,11 +443,11 @@ ms.locfileid: "58174667"
      .style("font-size", fontSizeLabel + "px");
     ```
 
-    此程式碼會設定視覺效果的寬與高，然後將視覺效果元素的的屬性與樣式初始化。
+    此程式碼會設定視覺效果的寬與高，然後將視覺效果元素的的屬性與樣式初始化。 
 
 6. 儲存 **visual.ts** 檔案。
 
-7. 選取 [capabilities.json] 檔案。
+7. 選取 [capabilities.json]  檔案。
 
     在第 14 行，移除整個物件元素 (第 14-60 行)。
 
@@ -462,13 +462,13 @@ ms.locfileid: "58174667"
 ### <a name="toggle-auto-reload"></a>切換自動重新載入
 
 1. 瀏覽回到 Power BI 報表。
-2. 在開發人員視覺效果上方浮動的工具列中，選取 [切換自動重新載入]。
+2. 在開發人員視覺效果上方浮動的工具列中，選取 [切換自動重新載入]  。
 
     ![切換自動重新載入](media/custom-visual-develop-tutorial/toggle-auto-reload.png)
 
     此選項可確保您每次儲存專案變更時，視覺效果都會自動重新載入。
 
-3. 從 [欄位] 窗格中，將 [Quantity] \(數量\) 欄位拖曳到開發人員視覺效果中。
+3. 從 [欄位]  窗格中，將 [Quantity]  \(數量\) 欄位拖曳到開發人員視覺效果中。
 
 4. 確認視覺效果看起來像下面這樣。
 
@@ -523,7 +523,7 @@ ms.locfileid: "58174667"
 
 5. 儲存 **capabilities.json** 檔案。
 
-6. 在 Power BI 中，請注意視覺效果現在可以使用 [Measure] \(量值\) 來設定。
+6. 在 Power BI 中，請注意視覺效果現在可以使用 [Measure]  \(量值\) 來設定。
 
     ![數量量值](media/custom-visual-develop-tutorial/quantity_measure.png)
 
@@ -532,25 +532,25 @@ ms.locfileid: "58174667"
 
 ### <a name="exploring-the-dataview"></a>探索資料檢視
 
-1. 在視覺效果上方浮動的工具列中，選取 [顯示資料檢視]。
+1. 在視覺效果上方浮動的工具列中，選取 [顯示資料檢視]  。
 
     ![顯示資料檢視](media/custom-visual-develop-tutorial/show-dataview-toolbar.png)
 
-2. 向下展開到 [single]，然後注意該值。
+2. 向下展開到 [single]  ，然後注意該值。
 
     ![向下展開到值](media/custom-visual-develop-tutorial/value-display-in-visual.png)
 
-3. 向下展開到 [metadata] 中，然後到 [columns] 陣列中，並請特別注意 [format] 與 [displayName] 值。
+3. 向下展開到 [metadata]  中，然後到 [columns]  陣列中，並請特別注意 [format]  與 [displayName]  值。
 
     ![Displayname 值](media/custom-visual-develop-tutorial/displayname-and-format-metadata.png)
 
-4. 若要切換回到視覺效果，在視覺效果上方浮動的工具列中，選取 [顯示資料檢視]。
+4. 若要切換回到視覺效果，在視覺效果上方浮動的工具列中，選取 [顯示資料檢視]  。
 
     ![切換回](media/custom-visual-develop-tutorial/show-dataview-toolbar-revert.png)
 
 ### <a name="configuring-data-binding"></a>設定資料繫結
 
-1. 在 [Visual Studio Code] 中，於 **visual.ts** 檔案內，將下列陳述式新增為 update 方法的第一個陳述式。
+1. 在 [Visual Studio Code]  中，於 **visual.ts** 檔案內，將下列陳述式新增為 update 方法的第一個陳述式。
 
     ```typescript
     let dataView: DataView = options.dataViews[0];
@@ -559,14 +559,14 @@ ms.locfileid: "58174667"
 
     為了方便存取，陳述式將 *dataView* 指派給變數，然後宣告該變數參考 *dataView* 物件。
 
-2. 在 **update** 方法中，將 .text("Value") 取代成下列項目。
+2. 在 **更新**方法，取代 **.text("Value")** 取代下列項目。
 
     ```typescript
     .text(dataView.single.value as string)
     ```
     ![取代 textValue](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. 在 **update** 方法中，將 **.text("Label")** 取代成下列項目。
+3. 在 **更新**方法，取代 **.text("Label")** 取代下列項目。
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)
@@ -575,7 +575,7 @@ ms.locfileid: "58174667"
 
 4. 儲存 **visual.ts** 檔案。
 
-5. 在 [Power BI] 中，檢閱視覺效果，它現在會顯示值與顯示名稱。
+5. 在 [Power BI]  中，檢閱視覺效果，它現在會顯示值與顯示名稱。
 
 您現在已經設定資料角色，並將視覺效果繫結到資料檢視。
 

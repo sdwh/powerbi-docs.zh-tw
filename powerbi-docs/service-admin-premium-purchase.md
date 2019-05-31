@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65565296"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何購買 Power BI Premium
@@ -38,23 +38,23 @@ ms.locfileid: "65565296"
 
 若要購買 Premium 容量，請遵循下列步驟。
 
-1. 從 Power BI 服務內選取 Office 365 應用程式選擇器，然後選取 [系統管理員]。
+1. 從 Power BI 服務內選取 Office 365 應用程式選擇器，然後選取 [系統管理員]  。
 
     ![Office 365 應用程式選擇器](media/service-admin-premium-purchase/o365-app-picker.png)
 
-    或者，您可以瀏覽至 Microsoft 365 系統管理中心。 您可以前往 [https://portal.office.com](https://portal.office.com)，再選取 [系統管理]，如此就能進入系統管理中心。
+    或者，您可以瀏覽至 Microsoft 365 系統管理中心。 您可以前往 [https://portal.office.com](https://portal.office.com)，再選取 [系統管理]  ，如此就能進入系統管理中心。
 
-1. 選取 [計費] > [購買服務]。
+1. 選取 [計費]   > [購買服務]  。
 
-1. 在 [其他方案] 下，尋找 Power BI Premium 供應項目。 如此會列出 P1 到 P3、EM3 以及 P1 (逐月)。
+1. 在 [其他方案]  下，尋找 Power BI Premium 供應項目。 如此會列出 P1 到 P3、EM3 以及 P1 (逐月)。
 
-1. 將滑鼠停留在省略符號 (**. . .**)，然後選取 [立即購買]。
+1. 將滑鼠停留在省略符號 ( **. . .** )，然後選取 [立即購買]  。
 
     ![立即購買](media/service-admin-premium-purchase/premium-purchase.png)
 
 1. 請依照下列步驟完成購買程序。
 
-完成購買之後，[購買服務] 頁面會顯示項目已購買且在使用中。
+完成購買之後，[購買服務]  頁面會顯示項目已購買且在使用中。
 
 ![已購買 Power BI Premium](media/service-admin-premium-purchase/premium-purchased.png)
 
@@ -62,20 +62,20 @@ ms.locfileid: "65565296"
 
 現在您有了容量，您可以依照需求的增長來新增更多容量。 在您的組織內，您可以使用 Premium 容量 SKU 的任意組合 (P1 至 P3)。 不同的 SKU 可提供不同資源容量。
 
-1. 在 Microsoft 365 系統管理中心內，選取 [帳單] > [購買服務]。
+1. 在 Microsoft 365 系統管理中心內，選取 [帳單]   > [購買服務]  。
 
-1. 在 [其他方案] 下，尋找您要購買更多的 Power BI Premium 項目。
+1. 在 [其他方案]  下，尋找您要購買更多的 Power BI Premium 項目。
 
-1. 將滑鼠停留在**省略符號 (...)**，然後選取 [變更授權數量]。
+1. 將滑鼠停留在**省略符號 (...)** ，然後選取 [變更授權數量]  。
 
     ![變更授權數量](media/service-admin-premium-purchase/premium-purchase-more.png)
 
-1. 針對此項目，變更為您想要的執行個體數目。 完成時選取 [送出]。
+1. 針對此項目，變更為您想要的執行個體數目。 完成時選取 [送出]  。
 
    > [!IMPORTANT]
-   > 選取 [送出] 會對信用卡收取費用。
+   > 選取 [送出]  會對信用卡收取費用。
 
-[購買服務] 頁面將會指出您擁有的執行個體數目。 在 Power BI 管理入口網站的 [容量設定] 下，可用的 V 核心反映新購買的容量。
+[購買服務]  頁面將會指出您擁有的執行個體數目。 在 Power BI 管理入口網站的 [容量設定]  下，可用的 V 核心反映新購買的容量。
 
 ![Power BI Premium 容量可用的 V 核心](media/service-admin-premium-purchase/premium-capacities.png)
 
@@ -85,15 +85,15 @@ ms.locfileid: "65565296"
 
 1. 瀏覽至 MIcrosoft 365 系統管理中心。
 
-1. 選取 [計費] > [訂用帳戶]。
+1. 選取 [計費]   > [訂用帳戶]  。
 
 1. 從清單中選取您的 Power BI Premium 訂用帳戶。
 
-1. 選取 [More actions] \(其他動作\) > [Cancel subscription] \(取消訂閱\)。
+1. 選取 [More actions] \(其他動作\)   > [Cancel subscription] \(取消訂閱\)  。
 
-1. [取消訂用帳戶] 頁面會指出您是否對[提早取消費用](https://support.office.com/article/early-termination-fees-6487d4de-401a-466f-8bc3-c0beb5cc40d3)負有責任。 此頁面也會讓您知道何時將會刪除訂用帳戶的資料。
+1. [取消訂用帳戶]  頁面會指出您是否對[提早取消費用](https://support.office.com/article/early-termination-fees-6487d4de-401a-466f-8bc3-c0beb5cc40d3)負有責任。 此頁面也會讓您知道何時將會刪除訂用帳戶的資料。
 
-1. 請完成閱讀此資訊，如果您想要繼續，請選取 [取消訂用帳戶]。
+1. 請完成閱讀此資訊，如果您想要繼續，請選取 [取消訂用帳戶]  。
 
 ### <a name="when-canceling-or-your-license-expires"></a>取消或授權到期時
 

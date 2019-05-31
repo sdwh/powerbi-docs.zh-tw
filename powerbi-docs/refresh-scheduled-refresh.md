@@ -1,21 +1,21 @@
 ---
 title: 設定排程的重新整理
 description: 這包含選取閘道並設定排定的重新整理步驟。
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7eb09f92be6c49756513b095afbdb9f451753d30
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9df65c4f6872f2141d0047bb8779f490cec9d6c7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289410"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61413764"
 ---
 # <a name="configuring-scheduled-refresh"></a>設定排定的重新整理
 
@@ -24,21 +24,21 @@ ms.locfileid: "54289410"
 > 
 > 
 
-如果您的資料集支援透過 [立即重新整理] 和 [排程重新整理] 進行重新整理的排程，有幾項重要的需求與設定可讓您順利重新整理。 這些項目分別為 [閘道連接]、[資料來源認證] 和 [排程重新整理]。 讓我們分別探討。
+如果您的資料集支援透過 [立即重新整理] 和 [排程重新整理] 進行重新整理的排程，有幾項重要的需求與設定可讓您順利重新整理。 這些項目分別為 [閘道連接]  、[資料來源認證]  和 [排程重新整理]  。 讓我們分別探討。
 
 此處說明 [Power BI Gateway - Personal](service-gateway-personal-mode.md) 及 [Power BI Gateway - Enterprise](service-gateway-onprem.md) 皆能使用的選項。
 
 若要前往排程重新整理畫面，您可以執行下列動作：
 
-1. 選取 [資料集] 底下所列資料集旁的**省略符號 (...)**。
-2. 選取 [排程重新整理]。
+1. 選取 [資料集]  底下所列資料集旁的**省略符號 (...)** 。
+2. 選取 [排程重新整理]  。
    
     ![](media/refresh-scheduled-refresh/dataset-menu.png)
 
 ## <a name="gateway-connection"></a>閘道連接
 根據線上可使用的個人或企業閘道，您可在此處看到不同選項。
 
-如果沒有可用的閘道，您會看到 [閘道設定] 為停用。 您也會看到一則訊息說明如何安裝個人閘道。
+如果沒有可用的閘道，您會看到 [閘道設定]  為停用。 您也會看到一則訊息說明如何安裝個人閘道。
 
 ![](media/refresh-scheduled-refresh/gateway-not-configured.png)
 
@@ -69,14 +69,14 @@ ms.locfileid: "54289410"
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> 連線到內部部署 SharePoint 以進行資料重新整理時，Power BI 僅支援「匿名」、「基本」及 Windows (NTLM/Kerberos) 驗證機制。 Power BI 不支援使用 *ADFS* 或任何「表單型驗證」機制進行內部部署 SharePoint 資料來源重新整理。
+> 連線到內部部署 SharePoint 以進行資料重新整理時，Power BI 僅支援「匿名」  、「基本」  及 Windows (NTLM/Kerberos)  驗證機制。 Power BI 不支援使用 *ADFS* 或任何「表單型驗證」  機制進行內部部署 SharePoint 資料來源重新整理。
 > 
 > 
 
 ## <a name="schedule-refresh"></a>排程重新整理
 [排定的重新整理] 區段可讓您定義資料集重新整理的頻率和時段。 有些資料來源不需要具備閘道即可進行設定， 但有些項目就需要閘道。
 
-您必須將 [維持資料的最新狀態] 滑桿設為 [是]，才能進行設定。
+您必須將 [維持資料的最新狀態]  滑桿設為 [是]  ，才能進行設定。
 
 > [!NOTE]
 > Power BI 服務的目標是在您排定的重新整理時間 **15 分鐘**內初始化資料重新整理。
@@ -86,7 +86,7 @@ ms.locfileid: "54289410"
 ![](media/refresh-scheduled-refresh/scheduled-refresh.png)
 
 > [!NOTE]
-> 閒置兩個月之後，就會暫停資料集重新整理排程。 當沒有使用者瀏覽以資料集建置的任何儀表板或報表時，資料集會視為非使用中。 屆時，資料集擁有者會傳送電子郵件，指出暫停已排程的重新整理，而該資料集的重新整理排程會顯示為 [停用]。 若要繼續已排程的重新整理，只需重新瀏覽以該資料集建置的任何儀表板或報表即可。
+> 閒置兩個月之後，就會暫停資料集重新整理排程。 當沒有使用者瀏覽以資料集建置的任何儀表板或報表時，資料集會視為非使用中。 屆時，資料集擁有者會傳送電子郵件，指出暫停已排程的重新整理，而該資料集的重新整理排程會顯示為 [停用]  。 若要繼續已排程的重新整理，只需重新瀏覽以該資料集建置的任何儀表板或報表即可。
 > 
 > 
 
@@ -124,7 +124,7 @@ ms.locfileid: "54289410"
 ## <a name="next-steps"></a>後續步驟
 [Power BI 的資料重新整理](refresh-data.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[內部部署資料閘道](service-gateway-onprem.md)  
+[On-premises data gateway (內部部署資料閘道)](service-gateway-onprem.md)  
 [為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)  
 [對 Power BI Gateway - Personal 進行疑難排解](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

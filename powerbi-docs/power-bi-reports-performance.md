@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 LocalizationGroup: Reports
 ms.openlocfilehash: f603a733c6c604a89b0b9608904acdf13b66b713
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287776"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61417629"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 效能最佳做法
 
@@ -124,11 +124,11 @@ ms.locfileid: "54287776"
    尋找 msmdsrv.exe 所使用的連接埠，並寫下它，以供稍後使用。 在此情況下，您會使用連接埠 55786。
 3. **將 SQL Server Profiler 連線至 Power BI Desktop**
 
-   - 從 [開始] 功能表中，啟動 SQL Server Profiler
-   - [檔案] > [新增追蹤]
+   - 從 [開始]  功能表中，啟動 SQL Server Profiler
+   - [檔案]   > [新增追蹤] 
    - 伺服器類型：Analysis Services
    - 伺服器名稱：localhost:[在上面找到的連接埠號碼]
-   - 在下一個畫面中，選取 [執行]
+   - 在下一個畫面中，選取 [執行] 
    - 現在 SQL Profiler 為即時，並且主動分析 Power BI Desktop 所傳送的查詢。 
    - 執行查詢時，您可以看到其各自的持續時間和 CPU 時間；使用此資訊，您可以判斷哪些查詢是瓶頸。  
 
@@ -146,7 +146,7 @@ ms.locfileid: "54287776"
 
 ## <a name="network-latency"></a>網路延遲
 
-網路延遲可能會因要求到達 Power BI 服務所需時間增加以及傳遞回應所需時間增加而影響報表效能。 Power BI 中的租用戶會獲指派特定區域。 您可以巡覽至 powerbi.com，並依序選取右上方的 [?] 和 [關於 Power BI]，以檢視租用戶的「主要」區域。 租用戶中的使用者存取 Power BI 服務時，其要求一律會路由傳送至此區域。 舉例來說，當要求到達 Power BI 服務之後，服務可能會將其他要求傳送至基礎資料來源或閘道，而這些要求也受限於網路延遲。
+網路延遲可能會因要求到達 Power BI 服務所需時間增加以及傳遞回應所需時間增加而影響報表效能。 Power BI 中的租用戶會獲指派特定區域。 您可以巡覽至 powerbi.com，並依序選取右上方的 [?] 和 [關於 Power BI]  ，以檢視租用戶的「主要」區域。 租用戶中的使用者存取 Power BI 服務時，其要求一律會路由傳送至此區域。 舉例來說，當要求到達 Power BI 服務之後，服務可能會將其他要求傳送至基礎資料來源或閘道，而這些要求也受限於網路延遲。
 
 [Azure Speed Test](http://azurespeedtest.azurewebsites.net/) 這類工具可以指出用戶端與 Azure 區域之間的網路延遲。 一般而言，若要將網路延遲的影響降到最低，請盡量將資料來源、閘道和 Power BI 叢集保留在最接近的位置。 如果網路延遲是問題，您可以嘗試放置閘道和資料來源，使其更接近 Power BI 叢集，而方法是將它們放置在虛擬機器上。
 

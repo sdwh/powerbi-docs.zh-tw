@@ -1,20 +1,20 @@
 ---
 title: 使用 OAuth 連線至 Power BI 報表伺服器和 SSRS
 description: 了解如何設定您的環境以使用 Power BI 行動裝置應用程式支援 OAuth 驗證，才能連線至 SQL Server Reporting Services 2016 或更新版本。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: 6e0b1c5d4a067925e4898cf23968cc14fd3f8fd6
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383615"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770363"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 連線至 Power BI 報表伺服器和 SSRS
 
@@ -25,7 +25,7 @@ ms.locfileid: "58383615"
 您可以使用 OAuth 連線至 Power BI 報表伺服器和 Reporting Services，以顯示行動報表或 KPI。 Windows Server 2016 提供「Web 應用程式 Proxy (WAP)」角色的一些改善，以允許這種類型的驗證。
 
    > [!NOTE]
-   > 目前尚不支援在檢視裝載於 Power BI 報表伺服器的 Power BI 報表時，使用 WAP 進行驗證。
+   > 檢視 Power BI 報表伺服器中裝載的 Power BI 報表使用 WAP 來驗證目前只支援 iOS 應用程式。 Android 應用程式未正式支援這一次。
 
 ## <a name="requirements"></a>需求
 
@@ -85,19 +85,19 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 您需要確定具�
 
 您可以使用下列步驟來建立應用程式群組。
 
-1. 在 [AD FS 管理] 應用程式內，以滑鼠右鍵按一下 [應用程式群組]，然後選取 [新增應用程式群組…]。
+1. 在 [AD FS 管理] 應用程式內，以滑鼠右鍵按一下 [應用程式群組]  ，然後選取 [新增應用程式群組…]  。
 
    ![ADFS 新增應用程式](media/mobile-oauth-ssrs/adfs-add-application-group.png)
 
-2. 在 [新增應用程式群組精靈] 內，提供應用程式群組的**名稱**，然後選取 [存取 Web API 的原生應用程式]。
+2. 在 [新增應用程式群組精靈] 內，提供應用程式群組的**名稱**，然後選取 [存取 Web API 的原生應用程式]  。
 
    ![ADFS 應用程式群組精靈 01](media/mobile-oauth-ssrs/adfs-application-group-wizard1.png)
 
-3. 選取 [下一步] 。
+3. 選取 [下一步]  。
 
 4. 提供所新增應用程式的**名稱**。 
 
-5. 自動產生**用戶端識別碼**時，請針對 iOS 和 Android 輸入 484d54fc-b481-4eee-9505-0258a1913020。
+5. 自動產生**用戶端識別碼**時，請針對 iOS 和 Android 輸入 484d54fc-b481-4eee-9505-0258a1913020。 
 
 6. 您會想要新增下列**重新導向 URL**：
 
@@ -111,29 +111,29 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 您需要確定具�
    urn:ietf:wg:oauth:2.0:oob
 
    ![ADFS 應用程式群組精靈 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
-7. 選取 [下一步] 。
+7. 選取 [下一步]  。
 
 8. 提供報表伺服器的 URL。 這是將叫用您 Web 應用程式 Proxy 的外部 URL。 它的格式應該如下。
 
    > [!NOTE]
    > 此 URL 區分大小寫！
 
-   *https://<url to report server>/reports*
+   *https://< 報表伺服器 url > /*
 
    ![ADFS 應用程式群組精靈 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
-9. 選取 [下一步] 。
+9. 選取 [下一步]  。
 
-10. 選擇符合組織需求的 [存取控制原則]。
+10. 選擇符合組織需求的 [存取控制原則]  。
 
     ![ADFS 應用程式群組精靈 04](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
-11. 選取 [下一步] 。
+11. 選取 [下一步]  。
 
-12. 選取 [下一步] 。
+12. 選取 [下一步]  。
 
-13. 選取 [下一步] 。
+13. 選取 [下一步]  。
 
-14. 選取 [關閉]。
+14. 選取 [關閉]  。
 
 完成時，您應該會看到應用程式群組的內容，如下所示。
 
@@ -151,47 +151,47 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 您需要確定具�
 
 若要設定限制委派，您將想要執行下列作業。
 
-1. 在已安裝 Active Directory 工具的電腦上，啟動 [Active Directory 使用者和電腦]。
+1. 在已安裝 Active Directory 工具的電腦上，啟動 [Active Directory 使用者和電腦]  。
 
 2. 尋找 WAP 伺服器的電腦帳戶。 這預設會是在電腦容器中。
 
-3. 以滑鼠右鍵按一下 WAP 伺服器，並移至 [內容]。
+3. 以滑鼠右鍵按一下 WAP 伺服器，並移至 [內容]  。
 
-4. 選取 [委派] 索引標籤。
+4. 選取 [委派]  索引標籤。
 
-5. 選取 [信任這台電腦，但只委派指定的服務]，然後選取 [使用任何驗證通訊協定]。
+5. 選取 [信任這台電腦，但只委派指定的服務]  ，然後選取 [使用任何驗證通訊協定]  。
 
    ![限制的 WAP](media/mobile-oauth-ssrs/wap-contrained-delegation1.png)
 
    這會設定此 WAP 伺服器電腦帳戶的限制委派。 接著，我們需要指定允許委派此電腦的服務。
 
-6. 選取 [新增...]\ (位於 [服務] 方塊下)。
+6. 選取 [新增...]\  (位於 [服務] 方塊下)。
 
    ![限制的 WAP 02](media/mobile-oauth-ssrs/wap-contrained-delegation2.png)
 
-7. 選取 [使用者或電腦...]。
+7. 選取 [使用者或電腦...]  。
 
 8. 輸入您要用於 Reporting Services 的服務帳戶。 這是您在 Reporting Services 設定內新增 SPN 的帳戶。
 
-9. 選取 Reporting Services 的 SPN，然後選取 [確定]。
+9. 選取 Reporting Services 的 SPN，然後選取 [確定]  。
 
    > [!NOTE]
    > 您只能看到 NetBIOS SPN。 它實際會選取 NetBIOS 和 FQDN SPN (如果兩者都存在)。
 
    ![限制的 WAP 03](media/mobile-oauth-ssrs/wap-contrained-delegation3.png)
 
-10. 核取 [展開] 核取方塊時，結果應該與下列類似。
+10. 核取 [展開]  核取方塊時，結果應該與下列類似。
 
     ![限制的 WAP 04](media/mobile-oauth-ssrs/wap-contrained-delegation4.png)
 
-11. 選取 [確定] 。
+11. 選取 [確定]  。
 
 ### <a name="add-wap-application"></a>新增 WAP 應用程式
 
 在 Report Access 管理主控台內發行應用程式時，我們想要透過 PowerShell 建立應用程式。 以下是新增應用程式的命令。
 
 ```powershell
-Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/reports/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/reports/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
+Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
 | 參數 | 註解 |
@@ -225,11 +225,11 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
 
-選取 [連接] 時，系統會將您導向至 ADFS 登入頁面。 請輸入您網域的有效認證。
+選取 [連接]  時，系統會將您導向至 ADFS 登入頁面。 請輸入您網域的有效認證。
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
-選取 [登入] 後，將會看到來自 Reporting Services 伺服器的項目。
+選取 [登入]  後，將會看到來自 Reporting Services 伺服器的項目。
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 

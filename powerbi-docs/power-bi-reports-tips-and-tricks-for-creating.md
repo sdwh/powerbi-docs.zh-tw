@@ -11,14 +11,14 @@ ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
 ms.openlocfilehash: d88a455b5448b92d86719251bfada6bd807a4c91
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223804"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60973490"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>在 Power BI Desktop 和 Power BI 服務中建立報表的祕訣和訣竅
-為了充分利用您的資料，有時您需要一些額外的協助。 我們集結了一些秘訣與技巧，可供您在 Microsoft Power BI Desktop、Power BI 服務中，以及在啟用 Power Pivot 增益集與已安裝並啟用 Power Query 的 Microsoft Excel 2016 或 Microsoft Excel 2013 Pro-Plus 版本中，用來建立報表。
+為了充分利用您的資料，有時您需要一些額外的協助。 我們集結了一些秘訣與技巧，可供您在 Microsoft Power BI Desktop、Power BI 服務中，以及  在啟用 Power Pivot 增益集與已安裝並啟用 Power Query 的 Microsoft Excel 2016 或 Microsoft Excel 2013 Pro-Plus 版本中，用來建立報表。
 
 ## <a name="power-bi-desktop"></a>Power BI Desktop
 
@@ -141,9 +141,9 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 
 1. 同時複製這兩個查詢，將第一個查詢命名為 **Temp** ，第二個查詢命名為 **CustomerNames**。
 2. 在每個查詢中，移除所有其他資料行只留下  CustomerName 資料行。
-3. 在每個查詢中，使用 [移除重複項目]  。
+3. 在每個查詢中，使用 [移除重複項目]   。
 4. 在 **CustomerNames** 查詢中，選取功能區的 [附加]  選項，然後選取 **Temp**查詢。
-5. 在 **CustomerNames** 查詢中，選取 [移除重複項目] 。
+5. 在 **CustomerNames** 查詢中，選取 [移除重複項目]  。
 
 現在您會有一個維度資料表，可用來與 CustomerIncidents 和 WorkItems 建立關聯，其中包含這兩者的所有值。  
 
@@ -165,7 +165,7 @@ DAX 是 Power BI Desktop 的計算公式語言，  並已針對 BI 分析最佳�
 
 [DAX 資源中心](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 
-## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 服務和 Power BI Desktop
+## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 服務和  Power BI Desktop
 
 ### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>閱讀技術白皮書：[Power BI 報表的設計原則](visuals/power-bi-visualization-best-practices.md)
 本白皮書提供在 Power BI 中設計報表的最佳作法。 從規劃開始，它將討論您可以套用至報表和構成該報表之頁面與個別視覺效果的設計原則。 這些最佳作法有許多也適用於儀表板設計。

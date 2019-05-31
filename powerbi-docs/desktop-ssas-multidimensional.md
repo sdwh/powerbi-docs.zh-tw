@@ -11,16 +11,16 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 7a25a9cc220dcb9f4620b7fb77e6bac264a47256
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514755"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>連接到 Power BI Desktop 中的 SSAS 多維度模型
 使用 Power BI Desktop，您可以存取 **SSAS 多維度模型**，通常稱為 **SSAS MD**。
 
-若要連接到 **SSAS MD** 資料庫，請選取 [取得資料] &gt; [資料庫] &gt; [SQL Server Analysis Services 資料庫]，如下圖所示：
+若要連接到 **SSAS MD** 資料庫，請選取 [取得資料] &gt; [資料庫] &gt; [SQL Server Analysis Services 資料庫]  ，如下圖所示：
 
 ![](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
 
@@ -48,10 +48,10 @@ Power BI 服務和支援 Power BI Desktop 皆支援即時連接模式中的 **SS
 ### <a name="measures-measure-groups-and-kpis"></a>量值、量值群組和 KPI
 多維度 Cube 中的量值群組會在 Power BI 中作為資料表公開，位於 [欄位]  窗格中，旁邊含 ∑ 符號。 沒有相關聯量值群組的導出量值，會群組於表格式中繼資料中稱作「量值」  的特殊資料表下。
 
-在多維度模型中，您可以在 Cube 中定義一組量值或 KPI，使其位於「顯示資料夾」 內，有助於簡化複雜的模型。 Power BI 會辨識在表格式中繼資料中的顯示資料夾，並在顯示資料夾中顯示量值和 KPI。 多維度資料庫中的 KPI 支援「值」、「目標」、「狀態圖形」和「趨勢圖形」。
+在多維度模型中，您可以在 Cube 中定義一組量值或 KPI，使其位於「顯示資料夾」  內，有助於簡化複雜的模型。 Power BI 會辨識在表格式中繼資料中的顯示資料夾，並在顯示資料夾中顯示量值和 KPI。 多維度資料庫中的 KPI 支援「值」  、「目標」  、「狀態圖形」  和「趨勢圖形」  。
 
 ### <a name="dimension-attribute-type"></a>維度屬性類型
-多維度模型也支援與特定維度屬性類型相關聯的維度屬性。 例如，[地理位置] 維度中的「城市」、「省/市」、「國家/地區」和「郵遞區號」 維度屬性，都有與其建立關聯的適當地理位置類型，會公開在表格式中繼資料中。 Power BI 會辨識中繼資料，讓您可以建立地圖視覺效果。 您可根據 Power BI 中 [欄位]  窗格中項目旁邊的地圖  圖示來辨識這些關聯。
+多維度模型也支援與特定維度屬性類型相關聯的維度屬性。 例如，[地理位置]  維度中的「城市」  、「省/市」  、「國家/地區」  和「郵遞區號」  維度屬性，都有與其建立關聯的適當地理位置類型，會公開在表格式中繼資料中。 Power BI 會辨識中繼資料，讓您可以建立地圖視覺效果。 您可根據 Power BI 中 [欄位]  窗格中項目旁邊的地圖  圖示來辨識這些關聯。
 
 當您提供包含影像 URL (統一資源定位器) 的欄位時，Power BI 也可以呈現影像。 您可以在 SQL Server Data Tools 中指定這些欄位為 *ImageURL* 類型 (或之後在 Power BI 中指定)，而且其類型資訊將在表格式中繼資料中提供給 Power BI。 之後 Power BI 可以從 URL 擷取這些影像，並以視覺方式顯示。
 
@@ -59,12 +59,12 @@ Power BI 服務和支援 Power BI Desktop 皆支援即時連接模式中的 **SS
 多維度模型支援父子式階層，可在表格式中繼資料中顯示為「階層」  。 父子式階層的每個層級會公開為表格式中繼資料中的隱藏資料行。 父子式維度的索引鍵屬性不會公開在表格式中繼資料中。
 
 ### <a name="dimension-calculated-members"></a>維度的導出成員
-多維度模型支援建立各種「導出成員」 類型。 兩種最常見的導出成員類型如下所示：
+多維度模型支援建立各種「導出成員」  類型。 兩種最常見的導出成員類型如下所示：
 
 * 屬性階層與 *所有* 不屬於同層級上的導出成員
 * 使用者階層的導出成員
 
-多維度模型會公開「屬性階層上的導出成員」作為資料行的值。 公開這類型的導出成員時，有幾個其他選項和條件約束：
+多維度模型會公開「屬性階層上的導出成員」  作為資料行的值。 公開這類型的導出成員時，有幾個其他選項和條件約束：
 
 * 維度屬性可有選用的 *UnknownMember*
 * 包含導出成員的屬性不能為維度的索引鍵屬性，除非它是該維度唯一的屬性
@@ -73,7 +73,7 @@ Power BI 服務和支援 Power BI Desktop 皆支援即時連接模式中的 **SS
 使用者階層的導出成員不會公開於 Power BI 中。 相反地，如果導出成員不符合上述項目符號清單中所述的條件約束，您將能夠連接到包含使用者階層之導出成員的 Cube，但是無法看到導出成員。
 
 ### <a name="security"></a>安全性
-多維度模型透過「角色」 支援維度和資料格層級的安全性。 當您使用 Power BI 連接到 Cube 時，會驗證和評估您是否有適當權限。 當使用者套用「維度安全性」  時，Power BI 中的使用者無法看到個別的維度成員。 不過，當使用者有已定義的「資料格安全性」  權限時，且其中某些資料格受到限制，則該使用者無法使用 Power BI 連接到 Cube。
+多維度模型透過「角色」  支援維度和資料格層級的安全性。 當您使用 Power BI 連接到 Cube 時，會驗證和評估您是否有適當權限。 當使用者套用「維度安全性」  時，Power BI 中的使用者無法看到個別的維度成員。 不過，當使用者有已定義的「資料格安全性」  權限時，且其中某些資料格受到限制，則該使用者無法使用 Power BI 連接到 Cube。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 使用 **SSAS MD**會有某些限制：

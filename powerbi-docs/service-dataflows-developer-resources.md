@@ -1,5 +1,5 @@
 ---
-title: 適用於 Power BI 資料流程的開發人員資源 (預覽)
+title: Power BI 資料流程的開發人員資源
 description: 尋找適用於開發和 Power BI 資料流程的資源
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 20bd8cd06e2a183d284752dc378a8aa1440c3aef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9a4caed97881e176d075527c90ae8d5eff213676
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274681"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136750"
 ---
-# <a name="developer-resources-for-power-bi-dataflows-preview"></a>適用於 Power BI 資料流程的開發人員資源 (預覽)
+# <a name="developer-resources-for-power-bi-dataflows"></a>Power BI 資料流程的開發人員資源
 
 藉由建立或連線到 Power BI 服務中的實體，並在 Power BI Desktop 中連線到它們，即會有許多不需程式碼就能使用資料流程的方法。 許多組織都想要具備自行開發解決方案的彈性。 此文章提供 Power BI REST API 和其他開發人員資源的相關資訊。
 
@@ -37,9 +37,9 @@ ms.locfileid: "54274681"
 此文章提供了適用於資料流程之開發人員資源的相關資訊。 如需資料流程的詳細資訊，下列文章可能很實用：
 
 * [使用資料流程的自助資料準備](service-dataflows-overview.md)
-* [建立 Power BI 中的資料流程](service-dataflows-create-use.md)
-* [在 Power BI Premium 中使用計算實體 (預覽)](service-dataflows-computed-entities-premium.md)
-* [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
+* [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
+* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
+* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
 
 如需 CDM 開發和教學課程資源的相關資訊，請參閱下列各項：
 * [Common Data Service - 概觀](https://docs.microsoft.com/powerapps/common-data-model/overview)

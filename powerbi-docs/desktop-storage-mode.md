@@ -11,15 +11,15 @@ ms.date: 02/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555862"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61363405"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop 中的儲存模式
 
-在 Microsoft Power BI Desktop 中，您可以指定資料表的儲存模式。 儲存模式可讓您控制 Power BI Desktop 是否要將報表資料快取到記憶體內。 
+在 Microsoft Power BI Desktop 中，您可以指定資料表的儲存模式  。 儲存模式  可讓您控制 Power BI Desktop 是否要將報表資料快取到記憶體內。 
 
 ![Power BI Desktop 中的儲存模式](media/desktop-storage-mode/storage-mode_01.png)
 
@@ -39,29 +39,29 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 
 * **複合模型**：允許報表可有兩 (含) 個以上任意組合的資料連線，包括 DirectQuery 連線或匯入。 如需詳細資訊，請參閱 [Power BI Desktop 的複合模型](desktop-composite-models.md)。
 
-* **多對多關聯性**：您可以使用「複合模型」在資料表之間建立「多對多關聯性」。 多對多關聯性會移除資料表中值必須唯一的要求。 此外也會移除先前的因應措施，像是只為了建立關聯性而導入新的資料表。 如需詳細資訊，請參閱 [Power BI Desktop 中的多對多關聯性](desktop-many-to-many-relationships.md)。
+* **多對多關聯性**：您可以使用「複合模型」  在資料表之間建立「多對多關聯性」  。 多對多關聯性  會移除資料表中值必須唯一的要求。 此外也會移除先前的因應措施，像是只為了建立關聯性而導入新的資料表。 如需詳細資訊，請參閱 [Power BI Desktop 中的多對多關聯性](desktop-many-to-many-relationships.md)。
 
 * **儲存模式**：您現在可以指定哪些視覺效果必須查詢後端資料來源。 不需要查詢的視覺效果，即便是使用 DirectQuery，也同樣會匯入。 此功能可提升效能，並減輕後端的負載。 先前即使是像交叉分析篩選器這類簡單的視覺效果，都會起始查詢，並將其傳送到後端來源。 儲存模式將在本文後段進一步說明。
 
 ## <a name="use-the-storage-mode-property"></a>使用儲存模式屬性
 
-您可以對模型中的每一個資料表，設定儲存模式屬性。 若要設定儲存模式，請在 [欄位] 窗格中，在您要對其設定屬性的資料表上按一下右鍵，然後選取 [屬性]。
+您可以對模型中的每一個資料表，設定儲存模式屬性。 若要設定儲存模式，請在 [欄位]  窗格中，在您要對其設定屬性的資料表上按一下右鍵，然後選取 [屬性]  。
 
 ![特色選單中的 [屬性] 命令](media/desktop-storage-mode/storage-mode_02.png)
 
-目前的屬性會顯示在資料表之 [欄位屬性] 窗格中的 [儲存模式] 下拉式清單內。 您可以在該處檢視或修改目前的儲存模式。
+目前的屬性會顯示在資料表之 [欄位屬性]  窗格中的 [儲存模式]  下拉式清單內。 您可以在該處檢視或修改目前的儲存模式。
 
 ![設定資料表的儲存模式](media/desktop-storage-mode/storage-mode_03.png)
 
 儲存模式共有三個值：
 
-* **匯入**：當值設定為 [匯入] 時，將會快取匯入的資料表。 將查詢提交給會從匯入資料表傳回資料的 Power BI 資料集，只會傳回快取的資料。
+* **匯入**：當值設定為 [匯入]  時，將會快取匯入的資料表。 將查詢提交給會從匯入資料表傳回資料的 Power BI 資料集，只會傳回快取的資料。
 
 * **DirectQuery**：若是設定此設定，將不會快取 DirectQuery 資料表。 將查詢提交給會從 DirectQuery資料表傳回資料的 Power BI 資料集 (例如資料分析運算式 (DAX))，只能藉由對資料來源執行即時查詢來達成此目的。 提交給資料來源的查詢，會使用適用於該資料來源的查詢語言，例如 SQL。
 
 * **雙重**：雙重資料表可以快取或不快取兩種形式運作，視提交給 Power BI 資料集的查詢內容而定。 在某些情況下，您可以從快取的資料完成查詢。 在其他的情況下，則可以對資料來源執行即時查詢來完成查詢。
 
-將資料表變更為**匯入**的作業無法復原。 此屬性無法再變更回 DirectQuery 或「雙重」。
+將資料表變更為**匯入**的作業無法復原  。 此屬性無法再變更回 DirectQuery 或「雙重」。
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>[DirectQuery] 和 [雙重] 資料表的限制
 
@@ -76,9 +76,9 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 
 ![儲存模式的警告視窗](media/desktop-storage-mode/storage-mode_05.png)
 
-維度資料表 (*Customer*、*Geography* 和 *Date*) 可以設定為 [雙重]，以減少資料集中弱關聯性的數目並改善效能。 弱關聯性通常會涉及至少一個 [DirectQuery] 資料表，其中無法將聯結邏輯推送至來源系統。 [雙重] 資料表可作為 [DirectQuery] 或 [匯入] 運作，因此可協助避免此情況。
+維度資料表 (*Customer*、*Geography* 和 *Date*) 可以設定為 [雙重]  ，以減少資料集中弱關聯性的數目並改善效能。 弱關聯性通常會涉及至少一個 [DirectQuery] 資料表，其中無法將聯結邏輯推送至來源系統。 [雙重]  資料表可作為 [DirectQuery] 或 [匯入] 運作，因此可協助避免此情況。
 
-傳播邏輯是設計來協助包含許多資料表的模型。 假設您的模型具有 50 個資料表，而且只需要快取特定事實 (交易式) 的資料表。 Power BI Desktop 的邏輯會計算出必須設定為 [雙重] 之維度資料表的最小組合，因此您無須執行此作業。
+傳播邏輯是設計來協助包含許多資料表的模型。 假設您的模型具有 50 個資料表，而且只需要快取特定事實 (交易式) 的資料表。 Power BI Desktop 的邏輯會計算出必須設定為 [雙重]  之維度資料表的最小組合，因此您無須執行此作業。
 
 傳播邏輯只會周遊至 **1 對多**關聯性的 1 邊。
 
@@ -110,7 +110,7 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 * 查詢處理\Vertipaq SE 查詢開始
 * 查詢處理\DirectQuery 開始
 
-針對每個「查詢開始」事件，請檢查其他具有相同 *ActivityID* 的事件。 例如，若無任何 *DirectQuery 開始*事件，但有 Vertipaq SE 查詢開始事件，代表已從快取回應查詢。
+針對每個「查詢開始」  事件，請檢查其他具有相同 *ActivityID* 的事件。 例如，若無任何 *DirectQuery 開始*事件，但有 Vertipaq SE 查詢開始  事件，代表已從快取回應查詢。
 
 參考**雙重**模式資料表的查詢，會盡可能地從快取傳回資料，否則會還原為 DirectQuery。
 
@@ -118,7 +118,7 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 
 ![適用於儲存體模式診斷的指令碼](media/desktop-storage-mode/storage-mode_06.png)
 
-下列查詢只會參考 *Sales* 資料表的資料行，此資料表處於 **DirectQuery** 模式。 因此，它應該「不會」命中快取。
+下列查詢只會參考 *Sales* 資料表的資料行，此資料表處於 **DirectQuery** 模式。 因此，它應該「不會」  命中快取。
 
 ![適用於儲存體模式診斷的指令碼](media/desktop-storage-mode/storage-mode_07.png)
 
@@ -136,11 +136,11 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 *雙重*儲存模式是一種效能最佳化。 只有在不影響達成商務需求的前提之下，才使用此模式。 如需替代行為，請考慮使用 [Power BI Desktop 中的多對多關聯性](desktop-many-to-many-relationships.md)文章中說明的技術。
 
 ## <a name="data-view"></a>資料檢視
-若資料集中至少有一個資料表已將其儲存模式設定為**匯入**或**雙重**，就會顯示 [資料檢視] 索引標籤。
+若資料集中至少有一個資料表已將其儲存模式設定為**匯入**或**雙重**，就會顯示 [資料檢視]  索引標籤。
 
 ![Power BI Desktop 中的資料檢視](media/desktop-storage-mode/storage-mode_09.png)
 
-在 [資料檢視] 中選取時，**雙重**及**匯入**資料表會顯示快取的資料。 DirectQuery 資料表不會顯示資料，並會顯示一則訊息，表示無法顯示 DirectQuery 資料表。
+在 [資料檢視]  中選取時，**雙重**及**匯入**資料表會顯示快取的資料。 DirectQuery 資料表不會顯示資料，並會顯示一則訊息，表示無法顯示 DirectQuery 資料表。
 
 
 ## <a name="limitations-and-considerations"></a>限制與考量

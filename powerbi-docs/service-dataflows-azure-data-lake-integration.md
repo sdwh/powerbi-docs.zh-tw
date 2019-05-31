@@ -7,24 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1c503492da52592730b82857725b388ca440f2bd
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 7532b0b381e43c6e413d27fa141c22e58dfba84e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215574"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61150442"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>資料流程與 Azure Data Lake 整合 (預覽)
 
 根據預設，搭配 Power BI 使用的資料儲存在 Power BI 提供的內部儲存體中。 透過整合資料流程與 Azure Data Lake Storage Gen2 (ADLS Gen2)，您可以在組織的 Azure Data Lake Storage Gen2 帳戶中儲存資料流程。 
 
 ![Azure 儲存體中的資料流程](media/service-dataflows-azure-data-lake-integration/dataflows-azure-integration_01.jpg)
-
-> [!NOTE]
-> 資料流程功能目前處於預覽狀態，而且可能會在公開上市之前有所變更及更新。
 
 ## <a name="how-cdm-folders-relate-to-dataflows"></a>CDM 資料夾與資料流程的關係
 
@@ -36,7 +33,7 @@ ms.locfileid: "56215574"
 
 **Model.json**
 * **Model.json** 中繼資料描述檔案包含和實體記錄與屬性有關的語意資訊，以及基礎資料檔案的連結。 Model.json 檔案的存在會指示 CDM 中繼資料格式的合規性，而且可能包含標準實體，而該實體中則具有應用程式可使用的其他豐富且立即可用的語意中繼資料。
-* Power BI 也會儲存每個資料來源資訊，以及.Power BI 服務中資料流程編輯器體驗所產生的「查詢和轉換」。 資料來源的密碼不會儲存在模型檔案中。
+* Power BI 也會儲存每個資料來源資訊，以及.Power BI 服務中資料流程編輯器體驗所產生的「查詢和轉換」  。 資料來源的密碼不會儲存在模型檔案中。
 
 **資料檔案**
 * 資料檔案包含在CDM 資料夾中，其結構和格式已妥善定義 (子資料夾是選擇性的，如本文稍後所述)，並且會在 model.json 檔案中參考這些資料檔案。 目前，資料檔案必須是 .csv 格式，但後續更新可能支援其他格式。 
@@ -49,9 +46,9 @@ ms.locfileid: "56215574"
 
 ## <a name="power-bi-organizes-cdm-folders-in-the-data-lake"></a>Power BI 會組織 Data Lake 中的 CDM 資料夾
 
-有了 Power BI 資料流程並和 ADLS Gen2 整合之後，Power BI 就可以在 Data Lake 中產生資料。 身為資料產生者，Power BI 必須為包含 model.json 檔案和其相關聯資料檔案的每個資料流程建立 CDM 資料夾。 Power BI 會在 Data Lake 中使用「檔案系統」將其資料與其他資料產生者產生的資料分開儲存。 若要深入了解 Azure Data Lake Storage Gen2 檔案系統和階層命名空間，請參閱[描述它們的文章](https://docs.microsoft.com/azure/storage/data-lake-storage/namespace) \(英文\)。
+有了 Power BI 資料流程並和 ADLS Gen2 整合之後，Power BI 就可以在 Data Lake 中產生資料。 身為資料產生者，Power BI 必須為包含 model.json 檔案和其相關聯資料檔案的每個資料流程建立 CDM 資料夾。 Power BI 會在 Data Lake 中使用「檔案系統」  將其資料與其他資料產生者產生的資料分開儲存。 若要深入了解 Azure Data Lake Storage Gen2 檔案系統和階層命名空間，請參閱[描述它們的文章](https://docs.microsoft.com/azure/storage/data-lake-storage/namespace) \(英文\)。
 
-Power BI 會使用子資料夾避免混淆，並提供已改進的資料組織方式以在「Power BI 服務」中呈現。 資料夾命名和結構代表工作區 (資料夾) 與資料流程 (CDM 資料夾)。 下圖顯示 Power BI 和其他資料產生者共用之 Data Lake 的可能結構。 每個服務 (在此案例中為 Dynamics 365、Dynamics for Finance and Operation，以及 Power BI) 會建立並維護它們自己的檔案系統。 系統會根據每個服務中的體驗，建立子資料夾以在檔案系統中更妥善地組織 CDM 資料夾。 
+Power BI 會使用子資料夾避免混淆，並提供已改進的資料組織方式以在「Power BI 服務」  中呈現。 資料夾命名和結構代表工作區 (資料夾) 與資料流程 (CDM 資料夾)。 下圖顯示 Power BI 和其他資料產生者共用之 Data Lake 的可能結構。 每個服務 (在此案例中為 Dynamics 365、Dynamics for Finance and Operation，以及 Power BI) 會建立並維護它們自己的檔案系統。 系統會根據每個服務中的體驗，建立子資料夾以在檔案系統中更妥善地組織 CDM 資料夾。 
 
 ![來自 Azure 儲存體中各種服務的資料流程](media/service-dataflows-azure-data-lake-integration/dataflows-azure-integration_02.jpg)
 
@@ -70,7 +67,7 @@ Power BI 會使用 Azure Data Lake Storage Gen2 所提供的 *Active Directory O
 
 ### <a name="alternative-forms-of-authorization"></a>授權替代形式
 
-Power BI 外部的人員或服務也可以利用授權替代形式，這些替代方式允許金鑰持有者存取帳戶中的「所有」資源、有 Lake 中所有資源的完整存取權，且無法將其存取範圍限制為檔案系統或 CDM 資料夾。 那些替代方式或許是授與存取權的簡易方式，但它們會限制共用 Data Lake 中特定資源的功能，而且不會向使用者提供可稽核哪些人存取儲存體的功能。 [Azure Data Lake Storage Gen2 中的存取控制](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control
+Power BI 外部的人員或服務也可以利用授權替代形式，這些替代方式允許金鑰持有者存取帳戶中的「所有」  資源、有 Lake 中所有資源的完整存取權，且無法將其存取範圍限制為檔案系統或 CDM 資料夾。 那些替代方式或許是授與存取權的簡易方式，但它們會限制共用 Data Lake 中特定資源的功能，而且不會向使用者提供可稽核哪些人存取儲存體的功能。 [Azure Data Lake Storage Gen2 中的存取控制](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control
 ) \(英文\) 文章中提供了可用授權配置的完整詳細資料。
 
 
@@ -87,9 +84,9 @@ Power BI 外部的人員或服務也可以利用授權替代形式，這些替�
 如需有關資料流程的整體資訊，請參閱這些文章：
 
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [在 Power BI Premium 中使用計算實體 (預覽)](service-dataflows-computed-entities-premium.md)
-* [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
-* [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
+* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
+* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 
 如需 Azure 儲存體的詳細資訊，您可以閱讀這些文章：
 * [Azure 儲存體安全性指南](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

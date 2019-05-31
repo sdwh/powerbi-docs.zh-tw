@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: 31c1cd7a8455232fdaa3bb3d391fb93e87ad5062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430315"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61404147"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>教學課程：在 Power BI 中叫用 Machine Learning Studio 模型 (預覽)
 
@@ -44,15 +44,15 @@ ms.locfileid: "58430315"
 
 下列步驟假設您是發佈模型的 Azure 訂用帳戶和資源群組的共同系統管理員。
 
-登入 [Azure 入口網站](https://portal.azure.com)，然後瀏覽至 [訂用帳戶] 頁面，您可以使用左導覽功能表中的 [所有服務] 清單找到該頁面。
+登入 [Azure 入口網站](https://portal.azure.com)，然後瀏覽至 [訂用帳戶]  頁面，您可以使用左導覽功能表中的 [所有服務]  清單找到該頁面。
 
 ![Azure 入口網站](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
-選取您用於發行模型的 Azure 訂用帳戶，然後選取 [存取控制 (IAM)]。 接著，依序選取 [新增角色指派] 和 [讀者] 角色，然後選取 Power BI 使用者。 完成時，請選取 [儲存]。 下圖顯示這些選取項目。
+選取您用於發行模型的 Azure 訂用帳戶，然後選取 [存取控制 (IAM)]  。 接著，依序選取 [新增角色指派]  和 [讀者]  角色，然後選取 Power BI 使用者。 完成時，請選取 [儲存]  。 下圖顯示這些選取項目。
 
 ![Azure 入口網站存取控制](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_02.png)
 
-接著，重複上述步驟，以針對部署 Azure ML 模型所在的特定 Machine Learning Web 服務，將 [參與者] 角色存取權授與 Power BI 使用者。
+接著，重複上述步驟，以針對部署 Azure ML 模型所在的特定 Machine Learning Web 服務，將 [參與者]  角色存取權授與 Power BI 使用者。
 
 ## <a name="create-a-dataflow"></a>建立資料流程
 
@@ -68,33 +68,33 @@ ms.locfileid: "58430315"
 
 若要在資料流程中建立實體，登入 Power BI 服務，並瀏覽至您已啟用 AI 預覽版的專用容量上的工作區。
 
-如果您還沒有工作區，可以在左側功能表中選取 [工作區] 來建立一個工作區，然後在下方的面板中選取 [建立應用程式工作區]。  如此會開啟一個面板來輸入工作區詳細資料。 輸入工作區名稱，然後選取 [儲存]。
+如果您還沒有工作區，可以在左側功能表中選取 [工作區]  來建立一個工作區，然後在下方的面板中選取 [建立應用程式工作區]  。  如此會開啟一個面板來輸入工作區詳細資料。 輸入工作區名稱，然後選取 [儲存]  。
 
 ![建立工作區](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_03.png)
 
-建立工作區之後，您可以選取 [歡迎] 畫面右下方的 [略過]。
+建立工作區之後，您可以選取 [歡迎] 畫面右下方的 [略過]  。
 
 ![跳過](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_04.png)
 
-選取 [資料流程 (預覽)] 索引標籤，再選取工作區右上方的 [建立] 按鈕，在右邊的，然後選取 [資料流程]。
+選取 [資料流程 (預覽)]  索引標籤，再選取工作區右上方的 [建立]  按鈕，在右邊的，然後選取 [資料流程]  。
 
 ![資料流程 (預覽)](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_05.png)
 
-選取 [新增實體]，如此會在瀏覽器中啟動 **Power Query 編輯器**。
+選取 [新增實體]  ，如此會在瀏覽器中啟動 **Power Query 編輯器**。
 
 ![新增實體](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_06.png)
 
-選取 [文字/CSV 檔案] 作為資料來源。
+選取 [文字/CSV 檔案]  作為資料來源。
 
 ![選擇資料來源](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_07.png)
 
-在下一個畫面中，系統會提示您連接到資料來源。 貼上您用來建立 Azure ML 模型的資料連結。 如果您使用_汽車定價_資料，可以將下列連結貼入 [檔案路徑或 URL] 方塊，然後按 [下一步]。
+在下一個畫面中，系統會提示您連接到資料來源。 貼上您用來建立 Azure ML 模型的資料連結。 如果您使用_汽車定價_資料，可以將下列連結貼入 [檔案路徑或 URL]  方塊，然後按 [下一步]  。
 
-`https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
+`https://raw.githubusercontent.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/master/Module7/Automobile%20price%20data%20_Raw_.csv`
 
 ![連線至資料來源](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
-Power Query 編輯器會從 CSV 檔案中顯示資料的預覽。 從命令功能區選取 [轉換資料表]，然後選取 [使用第一個資料列作為標頭]。  這會將 [已升階標頭] 查詢步驟新增到右側的 [套用的步驟] 窗格。 您也可以使用右側的窗格，將查詢重新命名為更容易記得的名稱，例如 _Automobile Pricing_。
+Power Query 編輯器會從 CSV 檔案中顯示資料的預覽。 從命令功能區選取 [轉換資料表]  ，然後選取 [使用第一個資料列作為標頭]  。  這會將 [已升階標頭]  查詢步驟新增到右側的 [套用的步驟]  窗格。 您也可以使用右側的窗格，將查詢重新命名為更容易記得的名稱，例如 _Automobile Pricing_。
 
 ![Azure 入口網站](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
@@ -109,19 +109,19 @@ Power Query 編輯器會從 CSV 檔案中顯示資料的預覽。 從命令功�
 
 ![變更資料行](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_11.png)
 
-選取 [完成] 以關閉 Power Query 編輯器。 這將會顯示含有我們所加入的_汽車定價_資料的實體清單。 選取右上角的 [儲存]、為資料流程提供名稱，然後選取 [儲存]。
+選取 [完成]  以關閉 Power Query 編輯器。 這將會顯示含有我們所加入的_汽車定價_資料的實體清單。 選取右上角的 [儲存]  、為資料流程提供名稱，然後選取 [儲存]  。
 
 ![儲存資料流程](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_12.png)
 
 ### <a name="refresh-the-dataflow"></a>重新整理資料流程
 
-儲存資料流程就會顯示已儲存資料流程的通知。 選取 [立即重新整理]，將資料從來源擷取至資料流程中。
+儲存資料流程就會顯示已儲存資料流程的通知。 選取 [立即重新整理]  ，將資料從來源擷取至資料流程中。
 
 ![重新整理資料流程](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_13.png)
 
-選取右上角的 [關閉]，然後等待資料流程重新整理完成。
+選取右上角的 [關閉]  ，然後等待資料流程重新整理完成。
 
-您也可以使用 [動作] 命令，重新整理資料流程。 資料流程會在重新整理完成時顯示時間戳記。
+您也可以使用 [動作]  命令，重新整理資料流程。 資料流程會在重新整理完成時顯示時間戳記。
 
 ![手動重新整理](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_14.png)
 
@@ -131,11 +131,11 @@ Power Query 編輯器會從 CSV 檔案中顯示資料的預覽。 從命令功�
 
 ![編輯實體](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_15.png)
 
-選取 [編輯] 圖示可為資料流程中的實體開啟 Power Query 編輯器。
+選取 [編輯]  圖示可為資料流程中的實體開啟 Power Query 編輯器。
 
 ![編輯](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_16.png)
 
-選取功能區中的 [AI 見解] 按鈕，然後從左側瀏覽功能表選取 [Azure Machine Learning 模型] 資料夾。
+選取功能區中的 [AI 見解]  按鈕，然後從左側瀏覽功能表選取 [Azure Machine Learning 模型]  資料夾。
 
 您已獲授與存取權的 Azure ML 模型會列為首碼為 *AzureML* 的 Power Query 函式。  當您按一下對應至 _AutomobilePricePrediction_ 模型的函式時，此模型的 Web 服務參數會列為函式參數。
 
@@ -155,9 +155,9 @@ Power Query 編輯器會從 CSV 檔案中顯示資料的預覽。 從命令功�
 
 ![定型模型](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_17.png)
 
-選取 [叫用] 來檢視 Azure ML 模型的輸出作為實體資料表中新資料行的預覽。 您也將看到模型叫用作為查詢套用的步驟。
+選取 [叫用]  來檢視 Azure ML 模型的輸出作為實體資料表中新資料行的預覽。 您也將看到模型叫用作為查詢套用的步驟。
 
-模型的輸出會顯示為輸出資料行中的記錄。 您可以展開資料行，在不同的資料行中產生個別的輸出參數。 在我們的案例中，我們只對其中包含汽車預測價格的_評分標籤_感興趣。  因此，我們取消選取其餘部分，然後選取 [確定]。
+模型的輸出會顯示為輸出資料行中的記錄。 您可以展開資料行，在不同的資料行中產生個別的輸出參數。 在我們的案例中，我們只對其中包含汽車預測價格的_評分標籤_感興趣。  因此，我們取消選取其餘部分，然後選取 [確定]  。
 
 ![模型輸出](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_18.png)
 

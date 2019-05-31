@@ -1,21 +1,21 @@
 ---
 title: 運用內嵌式分析為組織將 Power BI 內容內嵌至應用程式
 description: 了解如何使用 Power BI API 將報表、儀表板或磚整合或內嵌至應用程式，為您的組織提供內嵌式分析。 了解如何使用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具，將 Power BI 整合到應用程式中。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 03/12/2019
-ms.openlocfilehash: 34d7ec423f3d4cb0f7487c78eff68c580ff0489e
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757453"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61354883"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 內容內嵌至應用程式
 
@@ -114,45 +114,39 @@ ms.locfileid: "57757453"
 
 1. 登入[Azure 入口網站](https://portal.azure.com)。
 
-2. 在左側的功能窗格中，選取 [所有服務] 及 [應用程式註冊]。
-
-    ![應用程式註冊搜尋](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+2. 在左側的功能窗格中，選取 [所有服務]  及 [應用程式註冊]  。
 
 3. 選取需要 **applicationId** 的應用程式。
 
-    ![選擇應用程式](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
+    ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此**應用程式識別碼**作為應用程式的 **applicationId**。
+4. 有一個以 GUID 形式列出的「應用程式識別碼」  。 請使用此**應用程式識別碼**作為應用程式的 **applicationId**。
 
-    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
 ### <a name="application-secret"></a>應用程式祕密
 
-在 **Azure** 之 [應用程式註冊] 區段的 [金鑰] 區段中，填入 **ApplicationSecret** 資訊。  使用[服務主體](embed-service-principal.md)時，此屬性即會運作。
+僅[服務主體](embed-service-principal.md) AuthenticationType 需要此屬性。
+
+在 **Azure** 之 [應用程式註冊]  區段的 [金鑰]  區段中，填入 **ApplicationSecret** 資訊。  使用[服務主體](embed-service-principal.md)時，此屬性即會運作。
 
 若要取得 **ApplicationSecret**，請遵循下列步驟：
 
 1. 登入 [Azure 入口網站](https://portal.azure.com)。
 
-2. 在左側瀏覽窗格中，選取 [所有服務]，然後選取 [應用程式註冊]。
-
-    ![應用程式註冊搜尋](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+2. 在左側瀏覽窗格中，選取 [所有服務]  ，然後選取 [應用程式註冊]  。
 
 3. 選取需要使用 **ApplicationSecret** 的應用程式。
 
-    ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. 選取 [設定] 。
+4. 選取 **憑證和祕密**下方**管理**。
 
-    ![選取 [設定]](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+5. 選取 **新的用戶端祕密**。
 
-5. 選取 [金鑰]。
+6. 在 [描述]  方塊中輸入名稱，並選取期間。 然後選取 [儲存]  來取得您應用程式的**值**。 當您在儲存金鑰值後關閉 [金鑰]  窗格時，[值] 欄位只會以隱藏方式顯示。 此時，您即無法擷取金鑰值。 如果您遺失金鑰值，就必須在 Azure 入口網站中建立一個新的。
 
-    ![選取 [金鑰]](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
-
-6. 在 [描述] 方塊中輸入名稱，並選取期間。 然後選取 [儲存] 來取得您應用程式的**值**。 當您在儲存金鑰值後關閉 [金鑰] 窗格時，[值] 欄位只會以隱藏方式顯示。 此時，您即無法擷取金鑰值。 如果您遺失金鑰值，就必須在 Azure 入口網站中建立一個新的。
-
-    ![金鑰值](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![金鑰值](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
 
 ### <a name="workspace-id"></a>工作區識別碼
 
@@ -190,17 +184,17 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 利用使您可在組織租用戶中內嵌，或以來賓使用者身分內嵌的 URL，填滿 **AADAuthorityUrl** 資訊。
 
-若要以您的組織租用戶內嵌，請使用 URL - *https://login.microsoftonline.com/common/oauth2/authorize*。
+若要以您的組織租用戶內嵌，請使用 URL - *https://login.microsoftonline.com/common/oauth2/authorize* 。
 
 若要以來賓內嵌，請使用 URL - *https://login.microsoftonline.com/report-owner-tenant-id* - 您可在其中新增報表擁有者的租用戶識別碼，以取代 *report-owner-tenant-id*。
 
 ### <a name="run-the-application"></a>執行應用程式
 
-1. 在 **Visual Studio** 中選取 [執行]。
+1. 在 **Visual Studio** 中選取 [執行]  。
 
     ![執行應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-2. 接著，選取 [內嵌報表]。 視您選擇要進行測試之內容的不同 (報表、儀表板或磚)，接著在應用程式中選取該選項。
+2. 接著，選取 [內嵌報表]  。 視您選擇要進行測試之內容的不同 (報表、儀表板或磚)，接著在應用程式中選取該選項。
 
     ![選取內容](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
@@ -400,7 +394,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>建立專用容量
 
-建立專用容量，您應用程式工作區中的內容即可享有專用資源。 您可以使用 [Power BI Premium](../service-premium.md) 建立專用容量。
+建立專用容量，您應用程式工作區中的內容即可享有專用資源。 您可以使用 [Power BI Premium](../service-premium-what-is.md) 建立專用容量。
 
 下表列出 [Microsoft Office 365](../service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
 
@@ -423,15 +417,15 @@ function updateEmbedReport() {
 
 建立專用容量之後，您可以將應用程式工作區指派到該專用容量。 若要完成此處理序，請遵循下列步驟：
 
-1. 在 Power BI 服務中，展開工作區，然後選取用於內嵌內容工作區的省略符號。 然後選取 [編輯工作區]。
+1. 在 Power BI 服務中，展開工作區，然後選取用於內嵌內容工作區的省略符號。 然後選取 [編輯工作區]  。
 
     ![編輯工作區](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
 
-2. 展開 [進階]，然後啟用 [專用容量]。 選取您建立的專用容量。 接著，選取 [儲存]。
+2. 展開 [進階]  ，然後啟用 [專用容量]  。 選取您建立的專用容量。 接著，選取 [儲存]  。
 
     ![指派專用容量](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. 在您選取 [儲存] 後，應該會在應用程式工作區名稱的旁邊看到一個鑽石。
+3. 在您選取 [儲存]  後，應該會在應用程式工作區名稱的旁邊看到一個鑽石。
 
     ![繫結至容量的應用程式工作區](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 

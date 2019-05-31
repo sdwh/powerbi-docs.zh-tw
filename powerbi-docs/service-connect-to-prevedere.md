@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: e15333af4e2fb8508f76517b193ca4351c2782c7
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007905"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61149565"
 ---
 # <a name="connect-to-prevedere-with-power-bi"></a>使用 Power BI 連接到 Prevedere
 獲取專有和重要的財務資訊，自信積極地開展業務。
@@ -29,16 +29,16 @@ ms.locfileid: "54007905"
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-prevedere/getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-prevedere/services.png)
-3. 選取 [Prevedere] 和 [取得]。
+3. 選取 [Prevedere]  和 [取得]  。
    
    ![](media/service-connect-to-prevedere/connect.png)
-4. 在 [驗證方法] 選取 [金鑰]，並輸入 Prevedere API 金鑰。
+4. 在 [驗證方法]  選取 [金鑰]  ，並輸入 Prevedere API 金鑰。
    
     ![](media/service-connect-to-prevedere/creds.png)
-5. 選取 [登入] 開始匯入程序。 完成時，新的儀表板、報表和模型會出現在瀏覽窗格中。 選取儀表板以檢視匯入的資料。
+5. 選取 [登入]  開始匯入程序。 完成時，新的儀表板、報表和模型會出現在瀏覽窗格中。 選取儀表板以檢視匯入的資料。
    
      ![](media/service-connect-to-prevedere/dashboard.png)
 
@@ -47,7 +47,7 @@ ms.locfileid: "54007905"
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="whats-included"></a>包含的內容
 此內容套件會從零售預測、預測模型、領先指標及其他，取得詳細資料。

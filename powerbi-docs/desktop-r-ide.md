@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: ef64c802e2f231ce2632f4ed0a442a2a7bac3328
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514698"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>搭配使用外部 R IDE 與 Power BI
@@ -36,35 +36,35 @@ ms.locfileid: "65514698"
 * 您也可以安裝不同的 R IDE，並讓 **Power BI Desktop** 啟動該 **R IDE**，方法是進行下列其中一項︰
   
   * 您可建立 **.R** 檔與您想要 **Power BI Desktop** 啟動的外部 IDE 之間的關聯。
-  * 您可以指定 **Power BI Desktop** 應該啟動的.exe，方法是從 [選項] 對話方塊的 [R 指令碼選項] 區段選取 [其他]。 您可前往 [檔案] > [選項和設定] > [選項]，即可看見 [選項] 對話方塊。
+  * 您可以指定 **Power BI Desktop** 應該啟動的.exe，方法是從 [選項]  對話方塊的 [R 指令碼選項]  區段選取 [其他]  。 您可前往 [檔案] > [選項和設定] > [選項]  ，即可看見 [選項]  對話方塊。
     
     ![](media/desktop-r-ide/r-ide_1b.png)
 
-如果您已安裝多個的 R IDE，您可以指定要啟動哪一項，方法是從 [選項] 對話方塊的 [偵測到的 R IDE] 下拉式清單中加以選取。
+如果您已安裝多個的 R IDE，您可以指定要啟動哪一項，方法是從 [選項]  對話方塊的 [偵測到的 R IDE]  下拉式清單中加以選取。
 
 根據預設，**Power BI Desktop** 將會啟動 **R Studio** 作為外部 R IDE (如果它安裝在本機電腦上)；如果未安裝 **R Studio**，而您具有 **Visual Studio 2015** 與 **R Tools for Visual Studio**，則會改為啟動該項。 如果上述所有 R IDE 皆未安裝，就會啟動與 **.R** 檔案相關聯的應用程式。
 
-如果沒有 **.R** 檔案關聯存在，可以在 [選項] 對話方塊的 [瀏覽至您慣用的 R IDE] 區段中指定自訂 IDE 的路徑。 您也可以啟動不同的 R IDE，方法是選取 **Power BI Desktop** 中**啟動 R IDE** 箭號圖示旁邊的**設定**齒輪圖示。
+如果沒有 **.R** 檔案關聯存在，可以在 [選項]  對話方塊的 [瀏覽至您慣用的 R IDE]  區段中指定自訂 IDE 的路徑。 您也可以啟動不同的 R IDE，方法是選取 **Power BI Desktop** 中**啟動 R IDE** 箭號圖示旁邊的**設定**齒輪圖示。
 
 ## <a name="launch-an-r-ide-from-power-bi-desktop"></a>從 Power BI Desktop 啟動 R IDE
 請執行下列步驟，以從 **Power BI Desktop** 啟動 R IDE：
 
 1. 將資料載入 **Power BI Desktop**。
-2. 從 [欄位] 窗格中選取幾個您想要使用的欄位。 如果您尚未啟用指令碼視覺效果，系統會提示您執行這項操作。
+2. 從 [欄位]  窗格中選取幾個您想要使用的欄位。 如果您尚未啟用指令碼視覺效果，系統會提示您執行這項操作。
    
    ![](media/desktop-r-ide/r-ide_3.png)
-3. 啟用指令碼視覺效果後，您可以從 [視覺效果] 窗格中選取 R 視覺效果，這會建立準備好顯示指令碼結果的空白 R 視覺效果。 [R 指令碼編輯器] 窗格也會出現。
+3. 啟用指令碼視覺效果後，您可以從 [視覺效果]  窗格中選取 R 視覺效果，這會建立準備好顯示指令碼結果的空白 R 視覺效果。 [R 指令碼編輯器]  窗格也會出現。
    
    ![](media/desktop-r-ide/r-ide_4.png)
-4. 現在您可以選取要在 R 指令碼中使用的欄位。 當您選取欄位時，[R 指令碼編輯器] 欄位會自動根據您選取的欄位建立指令碼。 您可以直接在 [R 指令碼編輯器] 窗格中建立 (或貼上) R 指令碼，也可以將其保留空白。
+4. 現在您可以選取要在 R 指令碼中使用的欄位。 當您選取欄位時，[R 指令碼編輯器]  欄位會自動根據您選取的欄位建立指令碼。 您可以直接在 [R 指令碼編輯器]  窗格中建立 (或貼上) R 指令碼，也可以將其保留空白。
    
    ![](media/desktop-r-ide/r-ide_5.png)
    
    > [!NOTE]
-   > R 視覺效果的預設彙總類型為「不摘要」。
+   > R 視覺效果的預設彙總類型為「不摘要」  。
    > 
    > 
-5. 您現在可以直接從 **Power BI Desktop** 啟動 R IDE。 選取 [R 指令碼編輯器] 標題列右邊的 [啟動 R IDE] 按鈕，如下所示。
+5. 您現在可以直接從 **Power BI Desktop** 啟動 R IDE。 選取 [R 指令碼編輯器]  標題列右邊的 [啟動 R IDE]  按鈕，如下所示。
    
    ![](media/desktop-r-ide/r-ide_6.png)
 6. Power BI Desktop 會啟動您指定的 R IDE，如下圖所示 (在此圖中，**RStudio** 是預設的 R IDE )。
@@ -75,7 +75,7 @@ ms.locfileid: "65514698"
    > **Power BI Desktop** 新增會指令碼的前三行，以便在您執行指令碼之後從 **Power BI Desktop** 匯入您的資料。
    > 
    > 
-7. 您在 **Power BI Desktop** **R 指令碼編輯器窗格**中建立的任何指令碼，會從 R IDE 的第 4 行開始出現。 此時，您可以在 R IDE 中建立 R 指令碼。 在 R IDE 中完成 R 指令碼之後，您需要將其複製並貼回 **Power BI Desktop** 的 [R 指令碼編輯器] 窗格中，**Power BI Desktop** 自動產生的前三行指令碼「除外」。 請勿將指令碼前三行複製回 **Power BI Desktop**，這幾行只用於將資料從 **Power BI Desktop** 匯入 R IDE 中。
+7. 您在 **Power BI Desktop** **R 指令碼編輯器窗格**中建立的任何指令碼，會從 R IDE 的第 4 行開始出現。 此時，您可以在 R IDE 中建立 R 指令碼。 在 R IDE 中完成 R 指令碼之後，您需要將其複製並貼回 **Power BI Desktop** 的 [R 指令碼編輯器]  窗格中，**Power BI Desktop** 自動產生的前三行指令碼「除外」  。 請勿將指令碼前三行複製回 **Power BI Desktop**，這幾行只用於將資料從 **Power BI Desktop** 匯入 R IDE 中。
 
 ### <a name="known-limitations"></a>已知的限制
 從 Power BI Desktop 直接啟動 R IDE 有一些限制︰

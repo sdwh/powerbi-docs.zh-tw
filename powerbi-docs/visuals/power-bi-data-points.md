@@ -11,18 +11,18 @@ ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430433"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61276395"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>依視覺效果類型區分的資料點限制和策略
 
 在 Power BI 中呈現視覺效果時，視覺化作業必須既快速又精確。 這需要針對每個視覺效果類型設定底層的演算法。 Power BI 中的視覺效果必須有足夠的彈性來處理不同大小的資料集。 有些資料集只有少數幾個資料點，而其他資料集則會有數 PB 的資料點。 本文說明 Power BI 用來呈現視覺效果的策略。
 
 ## <a name="data-reduction-strategies"></a>資料縮減策略
-每個視覺效果皆採用一或多個「資料縮減策略」，以處理所要分析且體積可能相當龐大的資料。 就算是簡單的資料表也會採用策略，以避免將整個資料集載入至用戶端。  所要使用的縮減策略會因視覺效果類型而異。 每個視覺效果都會在產生要傳送給伺服器之資料要求的過程中，從支援的「資料縮減策略」中選取策略。 
+每個視覺效果皆採用一或多個「資料縮減策略」  ，以處理所要分析且體積可能相當龐大的資料。 就算是簡單的資料表也會採用策略，以避免將整個資料集載入至用戶端。  所要使用的縮減策略會因視覺效果類型而異。 每個視覺效果都會在產生要傳送給伺服器之資料要求的過程中，從支援的「資料縮減策略」  中選取策略。 
 
 每個視覺效果皆會控制那些策略上的參數，以影響整體的資料數量。   
 
@@ -43,7 +43,7 @@ ms.locfileid: "55430433"
 如需詳細資訊，請參閱 [Analysis Services 的新功能](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017) \(機器翻譯\)
 
 ## <a name="dynamic-limits"></a>動態限制
-除了上述策略之外，具有兩個群組資料行階層 (軸和圖例，或類別和數列) 的視覺效果還會使用一個額外的策略，稱為「動態限制」。  動態限制的設計目的是要提供更好的資料點平衡。 
+除了上述策略之外，具有兩個群組資料行階層 (軸和圖例，或類別和數列) 的視覺效果還會使用一個額外的策略，稱為「動態限制」  。  動態限制的設計目的是要提供更好的資料點平衡。 
 
 與靜態限制相比，動態限制能為稀疏資料提供更好的點選擇。 例如，您可以將視覺效果設定成選取 100 個類別和 10 個數列，總計 1000 個點。 但實際資料具有 50 個類別和 20 個數列。  在查詢執行階段，動態限制會選取所有 20 個數列，以填滿所要求的 1000 個點。
 

@@ -12,11 +12,11 @@ ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c0c1ea450a4b386644fd1c83e9831e993c2b8e5a
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965248"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61403663"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>教學課程：在 Power BI 中使用認知服務
 
@@ -24,7 +24,7 @@ Power BI 會提供存取權，可存取一組來自 Azure 認知服務的功能�
 
 [適用於資料流程的自助資料準備](https://powerbi.microsoft.com/blog/introducing-power-bi-data-prep-wtih-dataflows/) \(英文\) 中支援認知服務。 使用下面用於文字分析和影像標記的逐步說明範例來開始學習。
 
-在此教學課程中，您會了解如何：
+在本教學課程中，您會了解如何：
 
 > [!div class="checklist"]
 > * 將資料匯入到資料流程中
@@ -45,25 +45,25 @@ Power BI 會提供存取權，可存取一組來自 Azure 認知服務的功能�
 
 ### <a name="step-1-apply-sentiment-scoring-in-power-bi-service"></a>步驟 1：在 Power BI 服務中盜用情感評分
 
-若要開始，請瀏覽至具備 Premium 容量的 Power BI 工作區，並使用畫面右上角的 [建立] 按鈕建立新的資料流程。
+若要開始，請瀏覽至具備 Premium 容量的 Power BI 工作區，並使用畫面右上角的 [建立]  按鈕建立新的資料流程。
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_01.png)
 
-[資料流程] 對話方塊會顯示用於建立新資料流程的選項，請選取 [新增實體]。 接下來，從資料來源功能表選擇 [文字/CSV]。
+[資料流程] 對話方塊會顯示用於建立新資料流程的選項，請選取 [新增實體]  。 接下來，從資料來源功能表選擇 [文字/CSV]  。
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_02.png)
 
-將此 URL 貼到 [URL] 欄位︰[https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv)，然後按一下 [下一步]。
+將此 URL 貼到 [URL] 欄位︰[https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv)，然後按一下 [下一步]  。
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
-在上方功能區中，選取 [轉換資料表]，然後選擇 [使用第一個資料列作為標頭]。 資料現在已經就緒，可用於進行文字分析，而且我們可以在客戶註解資料行中使用情感評分和關鍵片語擷取。
+在上方功能區中，選取 [轉換資料表]  ，然後選擇 [使用第一個資料列作為標頭]  。 資料現在已經就緒，可用於進行文字分析，而且我們可以在客戶註解資料行中使用情感評分和關鍵片語擷取。
 
-在 Power Query 編輯器中，選取 [AI 見解]
+在 Power Query 編輯器中，選取 [AI 見解] 
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_04.png)
 
-展開 [認知服務] 資料夾並選取想要使用的功能。 此範例會針對註解資料行進行情感評分，但是您可以依照相同步驟試用語言偵測和關鍵片語擷取功能。
+展開 [認知服務]  資料夾並選取想要使用的功能。 此範例會針對註解資料行進行情感評分，但是您可以依照相同步驟試用語言偵測和關鍵片語擷取功能。
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_05.png)
 
@@ -71,13 +71,13 @@ Power BI 會提供存取權，可存取一組來自 Azure 認知服務的功能�
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_06.png)
 
-現在請選取 [叫用] 以執行功能。 就會將一個包含每一資料行情感分數的新資料行新增至資料表。 您可以回到 [AI 見解]，以相同方式擷取評論文字的關鍵片語。
+現在請選取 [叫用]  以執行功能。 就會將一個包含每一資料行情感分數的新資料行新增至資料表。 您可以回到 [AI 見解]  ，以相同方式擷取評論文字的關鍵片語。
 
-完成轉換之後，請將查詢名稱變更為「客戶評論」並選取 [完成]。
+完成轉換之後，請將查詢名稱變更為「客戶評論」並選取 [完成]  。
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_07.png)
 
-接下來，請 [儲存] 資料流程並將它命名為 Fabrikam。 選取儲存資料流程後顯示的 [立即重新整理] 按鈕。
+接下來，請 [儲存]  資料流程並將它命名為 Fabrikam。 選取儲存資料流程後顯示的 [立即重新整理]  按鈕。
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_08.png)
 
@@ -85,9 +85,9 @@ Power BI 會提供存取權，可存取一組來自 Azure 認知服務的功能�
 
 ### <a name="step-2-connect-from-power-bi-desktop"></a>步驟 2：從 Power BI Desktop 連線
 
-開啟 Power BI Desktop。 在 [常用] 功能區中，選取 [取得資料]。
+開啟 Power BI Desktop。 在 [常用] 功能區中，選取 [取得資料]  。
 
-在 Power BI 區段中瀏覽至 [Power BI 資料流程 (Beta)]，然後選取 [連線]。
+在 Power BI 區段中瀏覽至 [Power BI 資料流程 (Beta)]  ，然後選取 [連線]  。
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
 
@@ -95,7 +95,7 @@ Power BI 會提供存取權，可存取一組來自 Azure 認知服務的功能�
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_10.png)
 
-選取您剛才建立的資料流程。 瀏覽至 [客戶評論] 資料表，然後按一下 [載入]。
+選取您剛才建立的資料流程。 瀏覽至 [客戶評論] 資料表，然後按一下 [載入]  。
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_11.png)
 
@@ -103,15 +103,15 @@ Power BI 會提供存取權，可存取一組來自 Azure 認知服務的功能�
 
 ## <a name="image-tagging"></a>影像標記
 
-瀏覽至具備 Premium 容量 的 Power BI 工作區。 使用畫面右上角的 [建立] 按鈕建立新資料流程。
+瀏覽至具備 Premium 容量 的 Power BI 工作區。 使用畫面右上角的 [建立]  按鈕建立新資料流程。
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_12.png)
 
-選取 [新增實體]。
+選取 [新增實體]  。
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_13.png)
 
-系統要求您選擇資料來源之後，請選取 [空白查詢]。
+系統要求您選擇資料來源之後，請選取 [空白查詢]  。
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_14.png)
 
@@ -129,7 +129,7 @@ in
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_15.png)
 
-當系統提示您輸入認證時，請選取 [匿名]。
+當系統提示您輸入認證時，請選取 [匿名]  。
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_16.png)
 
@@ -139,7 +139,7 @@ in
 
 系統會提示您為每個個別網頁輸入認證。
 
-在查詢編輯器中選取 [AI 見解]。
+在查詢編輯器中選取 [AI 見解]  。
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_18.png)
 
@@ -147,7 +147,7 @@ in
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
-選取「標記影像」函式，在資料行欄位中輸入 _[Binary]_，並在文化特性資訊欄位中輸入 _en_。 
+選取「標記影像」函式，在資料行欄位中輸入 _[Binary]_ ，並在文化特性資訊欄位中輸入 _en_。 
 
 > [!NOTE]
 > 您目前無法使用下拉式清單挑選資料行，我們會盡快在個人預覽版發佈期間解決這個問題。
@@ -165,11 +165,11 @@ in
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_22.png)
 
-選取 [完成] 並儲存資料流程。 在您重新整理第一個資料流程之後，就可以使用資料流程連接器從 Power BI Desktop 連接到該資料流程。 (請參閱此文件第 5 頁的步驟)。
+選取 [完成]  並儲存資料流程。 在您重新整理第一個資料流程之後，就可以使用資料流程連接器從 Power BI Desktop 連接到該資料流程。 (請參閱此文件第 5 頁的步驟)。
 
 ## <a name="clean-up-resources"></a>清除資源
 
-當不再需要某個查詢時時，請在 Power Query 編輯器中滑鼠右鍵按一下查詢名稱，然後選取 [刪除] 以刪除查詢。
+當不再需要某個查詢時時，請在 Power Query 編輯器中滑鼠右鍵按一下查詢名稱，然後選取 [刪除]  以刪除查詢。
 
 ## <a name="next-steps"></a>後續步驟
 

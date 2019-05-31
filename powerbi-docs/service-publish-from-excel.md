@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: bb9ff3ae6b08111156616a84ee795131c708f42c
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514804"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>從 Excel 2016 發佈至 Power BI
@@ -29,7 +29,7 @@ ms.locfileid: "65514804"
 * 發佈到 Power BI 需要啟用新式驗證 (預設值)。 如果停用，[檔案] 功能表就無法使用 [發佈] 選項。
 
 ## <a name="to-publish-your-excel-workbook"></a>發佈 Excel 活頁簿
-在 Excel 中，選取 [檔案] > [發佈]。
+在 Excel 中，選取 [檔案]   > [發佈]  。
 
 ### <a name="local-file-publishing"></a>本機檔案發佈
 從 2017 年 2 月更新開始，Excel 2016 支援發佈本機 Excel 檔案。 您不需要將這些檔案儲存至商務用 OneDrive 或 SharePoint Online。
@@ -39,7 +39,7 @@ ms.locfileid: "65514804"
 > 
 > 
 
-當您選取 [發佈] 時，您將能夠選取想要發佈的目標工作區。 這可以是您有權存取的個人或群組工作區。
+當您選取 [發佈]  時，您將能夠選取想要發佈的目標工作區。 這可以是您有權存取的個人或群組工作區。
 
 ![](media/service-publish-from-excel/pbi_choose_workspace.png)
 
@@ -54,14 +54,14 @@ ms.locfileid: "65514804"
 
 ![](media/service-publish-from-excel/pbi_savetoonedrive2.png)
 
-您的活頁簿儲存到 OneDrive 後，當您選取 [發佈] 時，就會有兩個選項可將活頁簿放入 Power BI。
+您的活頁簿儲存到 OneDrive 後，當您選取 [發佈]  時，就會有兩個選項可將活頁簿放入 Power BI。
 
 ![](media/service-publish-from-excel/pbi_uploadexport2.png)
 
 #### <a name="upload-your-workbook-to-power-bi"></a>將活頁簿上傳至 Power BI
 當您選擇此選項時，您的活頁簿會顯示在 Power BI 中，就像是在 Excel Online 中一樣。 但不同於 Excel Online，您有一些很棒的功能，可協助您將工作表中的項目釘選到儀表板。
 
-您無法編輯在 Power BI 中開啟的活頁簿，但如果您需要進行一些變更，您可以選取 [編輯]，然後選擇在 Excel Online 中編輯活頁簿，或在電腦上以 Excel 開啟活頁簿。 您所做的任何變更都會儲存到 OneDrive 上的活頁簿。
+您無法編輯在 Power BI 中開啟的活頁簿，但如果您需要進行一些變更，您可以選取 [編輯]  ，然後選擇在 Excel Online 中編輯活頁簿，或在電腦上以 Excel 開啟活頁簿。 您所做的任何變更都會儲存到 OneDrive 上的活頁簿。
 
 上傳時，不會在 Power BI 中建立任何資料集。 您的活頁簿會顯示在工作區功能窗格的 [報表] 中。 上傳至 Power BI 的活頁簿會有特殊的 Excel 圖示，將其識別為已上傳的 Excel 活頁簿。
 

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8af5b1cf243d599ab68e9c2db1a3c6003f82c29f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273243"
+---
 歡迎使用專為您介紹 **DAX** 而設計的 Power BI **引導式學習**一節。
 
 **DAX** 代表**資料分析運算式**，且其是 Power BI 所使用的公式語言 (Power BI 也會在幕後加以使用)。 在 Microsoft 的其他供應項目中也可以找到 DAX，例如 Power Pivot 和 SSAS Tabular，但本引導式學習的主題集合聚焦在 DAX 在 Power BI 中的使用方式，以及您可以如何加以使用。
@@ -16,11 +24,11 @@ DAX 是 *功能語言* ，這表示完整執行的程式碼包含在函數中。
 
 在 DAX 中，函數可以包含其他巢狀函數、條件陳述式以及值的參考。 DAX 中的執行始於最內層的函數或參數，並向外運作。 在 Power BI 中，DAX 公式會以單一行撰寫，因此正確地將函數格式化對可讀性而言相當重要。
 
-DAX 設計用於資料表，因此僅有兩個主要資料類型：**Numeric** 及 **Other**。 **Numeric** 可包含 *整數* 、 *小數* ，以及 *貨幣* 。 **Other** 可包含 *字串* 和 *二進位物件* 。 這表示，如果您將 DAX 函數建置為使用一種類型的數字，您得以確保其能夠用於任何其他 Numeric 資料。
+DAX 設計用於資料表，因此有兩個主要的資料類型：**數值**並**其他**。 **Numeric** 可包含 *整數* 、 *小數* ，以及 *貨幣* 。 **Other** 可包含 *字串* 和 *二進位物件* 。 這表示，如果您將 DAX 函數建置為使用一種類型的數字，您得以確保其能夠用於任何其他 Numeric 資料。
 
 DAX 會使用運算子多載，這表示您可以在計算中混合資料類型，而結果將會依據輸入中所使用的的資料類型變更。 轉換會自動執行。 雖然這表示您不必知道您在 Power BI 中所使用的資料行資料類型，但這也表示轉換有時可能會以非預期的方式發生。 最佳做法是了解您所使用的資料，以確保運算子的表現符合預期。
 
-在 Power BI 中，尤有一項資料類型您可能會經常使用︰**DateTime**。 **DateTime** 會以浮點值的方式儲存，包含整數與小數部分。 DateTime 可用於精確地計算任何 1900 年 3 月 1 日之後的時間週期。
+您可能會經常使用與許多 Power BI 中的特定還有一種資料類型：**DateTime**。 **DateTime** 會以浮點值的方式儲存，包含整數與小數部分。 DateTime 可用於精確地計算任何 1900 年 3 月 1 日之後的時間週期。
 
 > 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
 > 

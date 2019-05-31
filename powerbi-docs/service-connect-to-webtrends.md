@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1166808dc827448f94bb84cc37bf4000df178c1d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008664"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137675"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>使用 Power BI 連接到 Webtrends
 Power BI 的 Webtrends 內容套件包含各種現成度量，例如網頁的總檢視，和依流量來源的查閱次數。 在 Power BI 中視覺化您的 Webtrends 資料時，首先請連接至 Webtrends 帳戶。 您可以使用提供的儀表板和報表，或是加以自訂，以反白顯示您特別有興趣的資訊。  資料會自動每天重新整理一次。
@@ -26,10 +26,10 @@ Power BI 的 Webtrends 內容套件包含各種現成度量，例如網頁的總
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-webtrends/getdata3.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-webtrends/services.png)
-3. 選取 [Webtrends] \> [取得]。
+3. 選取 [Webtrends]  \> [取得]  。
    
    ![](media/service-connect-to-webtrends/webtrends.png)
 4. 內容套件會連接到特定的 Webtrends 設定檔識別碼。 請參閱以下關於[尋找此參數](#FindingParams)的詳細資訊。
@@ -47,7 +47,7 @@ Power BI 的 Webtrends 內容套件包含各種現成度量，例如網頁的總
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="whats-included"></a>包含的內容
 <a name="Included"></a>

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 9a7afafaa14ed890e10e77507aafb637755cd87f
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
-ms.translationtype: HT
+ms.openlocfilehash: 6c09392566805f2857c50784f16c0e3f9d4b5697
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965244"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61232343"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Power BI 與 Azure Machine Learning 的整合 (預覽)
 
@@ -43,7 +43,7 @@ ms.locfileid: "57965244"
 
 1. 登入 [Azure 入口網站](https://portal.azure.com)。
 
-2. 移至 [訂用帳戶] 頁面。 您可以透過 Azure 入口網站左側瀏覽功能表中的 [所有服務] 清單找到 [訂用帳戶] 頁面。
+2. 移至 [訂用帳戶]  頁面。 您可以透過 Azure 入口網站左側瀏覽功能表中的 [所有服務]  清單找到 [訂用帳戶]  頁面。
 
     ![Azure 訂用帳戶頁面](media/service-machine-learning-integration/machine-learning-integration_01.png)
 
@@ -51,17 +51,17 @@ ms.locfileid: "57965244"
 
     ![選取您的訂用帳戶](media/service-machine-learning-integration/machine-learning-integration_02.png)
 
-4. 選取 [存取控制 (IAM)]，然後選取 [新增] 按鈕。
+4. 選取 [存取控制 (IAM)]  ，然後選取 [新增]  按鈕。
 
     ![存取控制 AIM](media/service-machine-learning-integration/machine-learning-integration_03.png)
 
-5. 選取 [讀者] 做為 [角色]。 選取您希望為其授與對 Azure ML 模型之存取權的 Power BI 使用者。
+5. 選取 [讀者]  做為 [角色]。 選取您希望為其授與對 Azure ML 模型之存取權的 Power BI 使用者。
 
     ![選取 [讀者] 做為 [角色]](media/service-machine-learning-integration/machine-learning-integration_04.png)
 
-6. 選取 [儲存]。
+6. 選取 [儲存]  。
 
-7. 重複步驟三到六以將**讀者**存取權授與特定 Machine Learning Studio Web 服務或裝載模型之 Machine Learning 服務工作區的使用者。
+7. 重複步驟三到六以將**讀者**存取權授與特定 Machine Learning Studio Web 服務或  裝載模型之 Machine Learning 服務工作區的使用者。
 
 
 ## <a name="schema-discovery-for-machine-learning-service-models"></a>針對 Machine Learning Service 模型的結構描述探索
@@ -72,27 +72,27 @@ ms.locfileid: "57965244"
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>在 Power BI 中叫用 Azure ML 模型
 
-您可以直接從您資料流程中的 Power Query 編輯器叫用任何您已獲授與存取權的 Azure ML 模型。 若要存取 Azure ML 模型，請針對您要從您的 Azure ML 模型豐富見解的實體選取 [編輯] 按鈕，如下列影像所示。
+您可以直接從您資料流程中的 Power Query 編輯器叫用任何您已獲授與存取權的 Azure ML 模型。 若要存取 Azure ML 模型，請針對您要從您的 Azure ML 模型豐富見解的實體選取 [編輯]  按鈕，如下列影像所示。
 
 ![Power BI 服務 - 編輯實體](media/service-machine-learning-integration/machine-learning-integration_05.png)
 
-選取 [編輯] 按鈕以針對您資料流程中的實體開啟 Power Query 編輯器。
+選取 [編輯]  按鈕以針對您資料流程中的實體開啟 Power Query 編輯器。
 
 ![Power Query 編輯器](media/service-machine-learning-integration/machine-learning-integration_06.png)
 
-選取功能區中的 [AI 見解] 按鈕，然後從左側瀏覽功能表選取 [Azure Machine Learning 模型] 資料夾。 您擁有存取權的所有 Azure ML 模型會在這裡列為 Power Query 函式。 此外，Azure ML 模型的輸入參數會自動對應為對應之 Power Query 函式的參數。
+選取功能區中的 [AI 見解]  按鈕，然後從左側瀏覽功能表選取 [Azure Machine Learning 模型]  資料夾。 您擁有存取權的所有 Azure ML 模型會在這裡列為 Power Query 函式。 此外，Azure ML 模型的輸入參數會自動對應為對應之 Power Query 函式的參數。
 
 若要叫用 Azure ML 模型，您可以從下拉式清單中指定任何所選實體的資料行作為輸入。 您也可以將資料行圖示切換至 [輸入] 對話方塊的左側，以指定要當作輸入使用的常數值。
 
 ![選取資料行](media/service-machine-learning-integration/machine-learning-integration_07.png)
 
-選取 [叫用] 來檢視 Azure ML 模型的輸出作為實體資料表中新資料行的預覽。 您也將看到模型叫用作為查詢套用的步驟。
+選取 [叫用]  來檢視 Azure ML 模型的輸出作為實體資料表中新資料行的預覽。 您也將看到模型叫用作為查詢套用的步驟。
 
 ![選取叫用](media/service-machine-learning-integration/machine-learning-integration_08.png)
 
-若模型傳回多個輸出參數，它們會分組為輸出資料行中的記錄。 您可以展開資料行，在不同的資料行中產生個別的輸出參數。
+如果模型傳回多個輸出參數，它們會群組在一起以記錄形式的輸出資料行。 您可以展開資料行，在不同的資料行中產生個別的輸出參數。
 
-![expand the column](media/service-machine-learning-integration/machine-learning-integration_09.png)
+![展開 資料行](media/service-machine-learning-integration/machine-learning-integration_09.png)
 
 一旦您儲存資料流程之後，當您針對實體資料表中任何新的或更新的資料列重新整理資料流程時，將會自動叫用模型。
 
@@ -106,9 +106,9 @@ ms.locfileid: "57965244"
 
 如需資料流程的詳細資訊，您可以閱讀這些文章：
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [在 Power BI Premium 中使用計算實體 (預覽)](service-dataflows-computed-entities-premium.md)
-* [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
-* [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
+* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
+* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 * [資料流程與 Azure Data Lake 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)
 
 

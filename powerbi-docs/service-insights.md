@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9e1c4a3942c75f41dc105e424685d32badbf3866
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276414"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61237983"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>使用 Power BI 自動產生資料見解
 您有新資料集，但不太確定要從何處著手？  需要快速建置儀表板嗎？  想要尋找您可能錯失的深入解析嗎？
@@ -38,7 +38,7 @@ ms.locfileid: "54276414"
 
 現在換您試試看。 使用[供應商品質分析範例](sample-supplier-quality.md)探索深入解析。
 
-1. 從 [資料集] 索引標籤中，選取省略符號 (...)，然後選擇 [取得深入資訊]。
+1. 從 [資料集]  索引標籤中，選取省略符號 (...)，然後選擇 [取得深入資訊]  。
    
     ![[資料集] 索引標籤](media/service-insights/power-bi-ellipses.png)
    
@@ -46,7 +46,7 @@ ms.locfileid: "54276414"
 2. Power BI 使用[各種演算法](service-insight-types.md)來搜尋資料集中的趨勢。
    
     ![[正在搜尋深入資訊] 對話方塊](media/service-insights/pbi_autoinsightssearching.png)
-3. 您的深入剖析資訊會在幾秒內準備就緒。  選取 [檢視深入資訊] 以顯示視覺效果。
+3. 您的深入剖析資訊會在幾秒內準備就緒。  選取 [檢視深入資訊]  以顯示視覺效果。
    
     ![成功訊息](media/service-insights/pbi_autoinsightsuccess.png)
    
@@ -62,32 +62,32 @@ ms.locfileid: "54276414"
   ![釘選圖示](media/service-insights/pbi_hover.png)
 
 1. 將滑鼠暫留在卡片上，然後選取釘選圖示，已將視覺效果新增至儀表板。
-2. 將游標停留在卡片上方，選取省略符號 (...)，然後選擇 [檢視深入資訊]。 隨即會以全螢幕開啟深入解析。
+2. 將游標停留在卡片上方，選取省略符號 (...)，然後選擇 [檢視深入資訊]  。 隨即會以全螢幕開啟深入解析。
    
     ![全螢幕深入解析](media/service-insights/power-bi-insight-focus.png)
 3. 在焦點模式中，您可以︰
    
    * 篩選視覺效果。  若要顯示篩選，請選取右上角的箭號來展開 [篩選] 窗格。
         ![展開 [篩選] 功能表的深入解析](media/service-insights/power-bi-insights-filter-new.png)
-   * 選取釘選 ![釘選圖示](media/service-insights/power-bi-pin-icon.png) 圖示或 [釘選視覺效果]，以將深入資訊卡片釘選到儀表板。
-   * 對深入解析卡片本身執行深入解析。 一般來說，這就是「定義範圍的深入解析」。 在右上角，選取燈泡圖示 ![取得深入資訊圖示](media/service-insights/power-bi-bulb-icon.png) 或 [取得深入資訊]。
+   * 選取釘選 ![釘選圖示](media/service-insights/power-bi-pin-icon.png) 圖示或 [釘選視覺效果]  ，以將深入資訊卡片釘選到儀表板。
+   * 對深入解析卡片本身執行深入解析。 一般來說，這就是「定義範圍的深入解析」  。 在右上角，選取燈泡圖示 ![取得深入資訊圖示](media/service-insights/power-bi-bulb-icon.png) 或 [取得深入資訊]  。
      
        ![顯示取得深入資訊圖示的功能表列](media/service-insights/pbi-autoinsights-tile.png)
      
      深入解析會顯示於左側，而只以該單一深入解析資料為依據的新卡片則沿著右側顯示。
      
        ![深入解析的深入資訊](media/service-insights/power-bi-insights-on-insights-new.png)
-4. 若要返回原始的深入解析畫布，請選取左上角的 [結束焦點模式]。
+4. 若要返回原始的深入解析畫布，請選取左上角的 [結束焦點模式]  。
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>對儀表板磚執行深入解析
-不要搜尋針對整個資料集的深入剖析，而是縮小搜尋範圍到用來建立單一儀表板磚的資料。 一般來說，這也是「定義範圍的深入解析」。
+不要搜尋針對整個資料集的深入剖析，而是縮小搜尋範圍到用來建立單一儀表板磚的資料。 一般來說，這也是「定義範圍的深入解析」  。
 
 1. 開啟儀表板。
-2. 將游標停留在磚上方， 選取省略符號 (...) 並選擇 [檢視深入資訊]。 隨即在[焦點模式](service-focus-mode.md)中開啟磚，而深入解析卡片會沿著右側顯示。    
+2. 將游標停留在磚上方， 選取省略符號 (...) 並選擇 [檢視深入資訊]  。 隨即在[焦點模式](service-focus-mode.md)中開啟磚，而深入解析卡片會沿著右側顯示。    
    
     ![焦點模式](media/service-insights/pbi-insights-tile.png)    
 4. 一個深入剖析是否引起您的興趣？ 選取該資訊摘要卡片可挖掘更深入的資料。 選取的資訊摘要會顯示於左側，只以該單一資訊摘要中資料為依據的新資訊摘要卡片則沿著右側顯示。    
-6. 持續探索您的資料；當發現有趣的深入解析時，您可以選取右上角的 [釘選視覺效果]，將其釘選在儀表板上。
+6. 持續探索您的資料；當發現有趣的深入解析時，您可以選取右上角的 [釘選視覺效果]  ，將其釘選在儀表板上。
 
 ## <a name="next-steps"></a>後續步驟
 如果您擁有資料集，請[針對深入資訊摘要將它最佳化](service-insights-optimize.md)。

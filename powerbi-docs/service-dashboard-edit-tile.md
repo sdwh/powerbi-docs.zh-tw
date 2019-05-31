@@ -12,16 +12,16 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: ab0cbc7b4c882f08d20fdd00516fafcce96cb773
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282210"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61144246"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>編輯或移除儀表板磚
 
-## <a name="dashboard-owners-versus-dashboard-consumers"></a>儀表板「擁有者」與儀表板「取用者」
-當您建立或擁有儀表板時，您會有許多選擇可用來變更該儀表板上的磚的外觀和預設行為。 請使用下列設定和策略，設計同事的儀表板「取用」體驗。  選取磚會開啟基礎報表、自訂 URL 還是不同的儀表板？ 也許您會[新增磚以顯示視訊或串流資料](service-dashboard-add-widget.md)？ 您甚至可能會想要[建立具有互動式交叉分析篩選器的磚](service-dashboard-pin-live-tile-from-report.md)。 身為「建立者」，您有許多選項。 
+## <a name="dashboard-owners-versus-dashboard-consumers"></a>儀表板「擁有者」  與儀表板「取用者」 
+當您建立或擁有儀表板時，您會有許多選擇可用來變更該儀表板上的磚的外觀和預設行為。 請使用下列設定和策略，設計同事的儀表板「取用」  體驗。  選取磚會開啟基礎報表、自訂 URL 還是不同的儀表板？ 也許您會[新增磚以顯示視訊或串流資料](service-dashboard-add-widget.md)？ 您甚至可能會想要[建立具有互動式交叉分析篩選器的磚](service-dashboard-pin-live-tile-from-report.md)。 身為「建立者」  ，您有許多選項。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
 
@@ -40,7 +40,7 @@ ms.locfileid: "54282210"
 
   
 ## <a name="prerequisites"></a>先決條件
-若要跟著做，請開啟 Power BI 服務 (不是 Power BI Desktop) 並[下載 IT 費用分析範例](sample-it-spend.md)。 出現「成功」訊息時，請選取 [移至儀表板]
+若要跟著做，請開啟 Power BI 服務 (不是 Power BI Desktop) 並[下載 IT 費用分析範例](sample-it-spend.md)。 出現「成功」訊息時，請選取 [移至儀表板] 
 
 - - -
 <a name="create"></a>
@@ -50,13 +50,13 @@ ms.locfileid: "54282210"
 
     ![[金額] 磚](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
 
-2. 從頂端功能表列選取 [編輯報表]，在 [編輯檢視] 中開啟報表。
+2. 從頂端功能表列選取 [編輯報表]  ，在 [編輯檢視] 中開啟報表。
 
 3. 選取報表底部的加號 (+)，以新增報表頁面。
 
     ![加號圖示](media/service-dashboard-edit-tile/power-bi-add-page.png)
 
-4. 從 [欄位] 窗格中，選取 [事實] > [金額] 和 [業務區域] > [業務區域]。
+4. 從 [欄位] 窗格中，選取 [事實] > [金額]  和 [業務區域] > [業務區域]  。
  
 5. 從 [視覺效果] 窗格中，選取環圈圖圖示，將視覺效果轉換為環圈圖。
 
@@ -66,7 +66,7 @@ ms.locfileid: "54282210"
 
    ![將游標停留在磚上方](media/service-dashboard-edit-tile/power-bi-pin.png)
 
-6. 出現「成功」訊息時，請選取 [移至儀表板]。 系統將提示您儲存變更。 選取 [儲存]。
+6. 出現「成功」訊息時，請選取 [移至儀表板]  。 系統將提示您儲存變更。 選取 [儲存]  。
 
 - - -
 <a name="move"></a>
@@ -93,16 +93,16 @@ ms.locfileid: "54282210"
 
    ![省略符號選項功能表](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
-3. 選取 [編輯詳細資料] 以開啟 [磚詳細資料] 視窗。 
+3. 選取 [編輯詳細資料]  以開啟 [磚詳細資料] 視窗。 
 
-    變更磚的標題和預設行為。  例如，您可能會決定當「取用者」選取磚，而不是開啟用來建立該磚的報表時，會改為顯示新的儀表板。  
+    變更磚的標題和預設行為。  例如，您可能會決定當「取用者」  選取磚，而不是開啟用來建立該磚的報表時，會改為顯示新的儀表板。  
    
 
 
 <a name="rename"></a>
 
 ### <a name="rename-the-tile"></a>重新命名圖格
-在 [磚詳細資料] 視窗的頂端，將 [標題] 變更為 [花費金額]。
+在 [磚詳細資料] 視窗的頂端，將 [標題]  變更為 [花費金額]  。
 
 ![[磚詳細資料] 視窗](media/service-dashboard-edit-tile/power-bi-tile-title.png)
 
@@ -112,9 +112,9 @@ ms.locfileid: "54282210"
 ### <a name="change-the-default-hyperlink"></a>變更預設的超連結
 根據預設，選取磚通常會回到建立磚的報表或問與答 (如果磚是在問與答中建立的)。 若要連結至某網頁、其他儀表板或報表 (在相同的工作區中)、SSRS 報表或其他線上內容，請新增自訂連結。
 
-1. 在 [功能] 標題下，選取 [設定自訂連結]。
+1. 在 [功能] 標題下，選取 [設定自訂連結]  。
 
-2. 選取 [ink to a dashboard or report in the current workspace] (連結至目前工作區中的儀表板或報表)，然後從下拉式清單中選取。  在此範例中，我已選取 [人力資源] 範例儀表板。 如果您的工作區中還沒有此範例，您可以新增它，再回到此步驟，或是選取不同的儀表板。 
+2. 選取 [ink to a dashboard or report in the current workspace] (連結至目前工作區中的儀表板或報表)  ，然後從下拉式清單中選取。  在此範例中，我已選取 [人力資源] 範例儀表板。 如果您的工作區中還沒有此範例，您可以新增它，再回到此步驟，或是選取不同的儀表板。 
 
     ![[功能] 對話方塊](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
@@ -127,16 +127,16 @@ ms.locfileid: "54282210"
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>將圖格釘選至不同的儀表板
-1. 從省略符號下拉式功能表中，選取 [釘選磚] ![釘選圖示](media/service-dashboard-edit-tile/pinnooutline.png)。
+1. 從省略符號下拉式功能表中，選取 [釘選磚]  ![釘選圖示](media/service-dashboard-edit-tile/pinnooutline.png)。
 2. 決定要將此磚的複本釘選至現有的儀表板還是新的儀表板上。 
    
    ![[釘選到儀表板] 對話方塊](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
-3. 選取 [釘選] 。
+3. 選取 [釘選]  。
 
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>刪除圖格
-1. 若要永久從儀表板移除磚，請從省略符號下拉式功能表選取 [刪除磚] ![刪除圖示](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png)。 
+1. 若要永久從儀表板移除磚，請從省略符號下拉式功能表選取 [刪除磚]  ![刪除圖示](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png)。 
 
 2. 刪除磚不會刪除基礎視覺效果。 選取 [金額] 磚，開啟基礎報表。 開啟報表的最後一頁，查看原始視覺效果未從報表刪除。 
 

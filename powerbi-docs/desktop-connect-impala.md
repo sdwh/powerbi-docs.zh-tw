@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 0befceba2651ad4f8f414d3669c5830c07ece06d
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514196"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Impala 資料庫
@@ -23,13 +23,13 @@ ms.locfileid: "65514196"
 ## <a name="connect-to-an-impala-database"></a>連接到 Impala 資料庫
 若要連線到 **Impala**資料庫，請執行下列步驟： 
 
-1. 從 Power BI Desktop 的 [常用] 功能區選取 [取得資料]。 
+1. 從 Power BI Desktop 的 [常用]  功能區選取 [取得資料]  。 
 
-2. 從左側的類別中選取 [資料庫]。 然後您會看到 [Impala]。
+2. 從左側的類別中選取 [資料庫]  。 然後您會看到 [Impala]  。
 
     ![取得資料](media/desktop-connect-impala/connect_impala_2.png)
 
-3. 在顯示的 [Impala] 視窗中，將您的 Impala 伺服器名稱鍵入或貼上到方塊中。 然後選取 [確定]。 您可以將資料直接 [匯入] 到 Power BI，或使用 **DirectQuery**。 深入了解[如何使用 DirectQuery](desktop-use-directquery.md)。
+3. 在顯示的 [Impala]  視窗中，將您的 Impala 伺服器名稱鍵入或貼上到方塊中。 然後選取 [確定]  。 您可以將資料直接 [匯入]  到 Power BI，或使用 **DirectQuery**。 深入了解[如何使用 DirectQuery](desktop-use-directquery.md)。
 
     ![Impala 視窗](media/desktop-connect-impala/connect_impala_3a.png)
 
@@ -41,7 +41,7 @@ ms.locfileid: "65514196"
     > 一旦您放入特定 **Impala** 伺服器的使用者名稱和密碼，Power BI Desktop 便會在後續連線嘗試中使用那些相同的認證。 您可以前往 **[檔案] > [選像和設定] > [資料來源設定]** 修改認證。
 
 
-5. 連線之後，[瀏覽] 視窗隨即出現並顯示伺服器上可用的資料。 從此資料選擇元素，將它們匯入到 **Power BI Desktop** 中並在其中使用。
+5. 連線之後，[瀏覽]  視窗隨即出現並顯示伺服器上可用的資料。 從此資料選擇元素，將它們匯入到 **Power BI Desktop** 中並在其中使用。
 
     ![[導覽器] 視窗](media/desktop-connect-impala/connect_impala_5.png)
 

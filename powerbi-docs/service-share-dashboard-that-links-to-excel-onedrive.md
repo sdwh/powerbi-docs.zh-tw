@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 9a99344438108d2f092220dfa1c66895355aeda0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282601"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61402944"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>在 OneDrive 中共用連結到 Excel 檔案的 Power BI 儀表板
 在 Power BI 中，您可以[連接到商務用 OneDrive 的 Excel 活頁簿](service-excel-workbook-files.md)，並從該活頁簿將磚釘選至儀表板。 當您共用儀表板，或建立包含該儀表板的內容組件時：
@@ -29,9 +29,9 @@ ms.locfileid: "54282601"
   ![共用儀表板對話方塊](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_share_workbk.png)
 
 1. 輸入您同事的電子郵件地址。
-2. 若要讓您的同事能檢視 Power BI 的 Excel 活頁簿，請選取 [前往商務用 OneDrive 設定活頁簿權限] 。
+2. 若要讓您的同事能檢視 Power BI 的 Excel 活頁簿，請選取 [前往商務用 OneDrive 設定活頁簿權限]  。
 3. 在 OneDrive 上，視需要[修改權限](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07)。
-4. 選取 [共用] 。
+4. 選取 [共用]  。
 
 >[!NOTE]
 >您的同事無法從該活頁簿釘選其他磚，也無法從 Power BI 變更該 Excel 活頁簿。
@@ -45,9 +45,9 @@ ms.locfileid: "54282601"
 2. 選取儀表板及 (或) 連結至商務用 OneDrive 的 Excel 活頁簿之報表。
    
     ![內容套件中的 Excel 活頁簿](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
-3. 選取 [前往商務用 OneDrive 設定活頁簿權限] 。
+3. 選取 [前往商務用 OneDrive 設定活頁簿權限]  。
 4. 在 OneDrive 上，視需要[修改權限](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07)。
-5. 選取 [發行] 。
+5. 選取 [發行]  。
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>從 Power BI 工作區共用儀表板
 從 Power BI 工作區共用儀表板，類似於從自己的工作區共用儀表板，不同之處在於這些檔案位於 Office 365 工作區網站中，而不是您的私人商務用 OneDrive。 與工作區以外的人共用儀表板前，請修改 Excel 活頁簿的權限。

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 5c2b254f20bd1eba97840a464a1b554cc4fe1238
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273185"
+---
 使用**變數**是 DAX 運算式中功能極為強大的一部分。
 
 ![](media/7-4-dax-expressions/dax-variables_1.png)

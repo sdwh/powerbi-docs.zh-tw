@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: mshenhav
 ms.openlocfilehash: fdbdebacc2ae41cdfa8296eb6b0c06e52f149cac
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290950"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61336836"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Power BI 行動版 Windows 應用程式的單一登入
 
@@ -30,7 +30,7 @@ ms.locfileid: "54290950"
 
 如果您已經使用 Power BI for Windows 行動裝置應用程式，在升級至新版的應用程式時，您也可以使用 SSO。 登出應用程式並關閉它，然後重新開啟該應用程式。 當應用程式重新開啟時，它會自動嘗試使用您目前的 Windows 認證，針對 Power BI 服務進行驗證。 
 
-如果您不想要使用目前的 Windows 使用中工作階段認證來登入 Power BI，只需移至 [設定] 並登出，然後使用不同的認證登入。 
+如果您不想要使用目前的 Windows 使用中工作階段認證來登入 Power BI，只需移至 [設定]  並登出，然後使用不同的認證登入。 
  
 ## <a name="next-steps"></a>後續步驟
 

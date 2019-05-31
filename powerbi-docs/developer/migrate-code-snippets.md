@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
-ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "61269211"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>從 Power BI 工作區集合遷移內容的程式碼片段

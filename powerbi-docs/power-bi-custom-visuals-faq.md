@@ -11,11 +11,11 @@ ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
 ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980350"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977194"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>關於 Power BI 自訂視覺效果的常見問題集
 
@@ -24,7 +24,7 @@ ms.locfileid: "57980350"
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>系統管理員如何管理組織自訂視覺效果？
 
 在系統管理入口網站中的 [組織自訂視覺效果] 索引標籤底下，系統管理員可以查看並[管理企業中的所有組織自訂視覺效果](service-admin-portal.md#organizational-visuals)：新增、停用、啟用及刪除。
-無需再透過電子郵件或共用資料夾來共用這些視覺效果！ 將組織的自訂視覺效果部署到組織存放庫之後，組織中的使用者就可以輕鬆地尋找這些視覺效果，並直接從 Power BI Desktop 或服務將它們匯入報表中。 您可以在 [我的組織] 索引標籤下的內建存放區 (在 Desktop 與服務中) 找到組織自訂視覺效果。一旦系統管理員上傳新的組織自訂視覺效果版本後，組織中的每個人都會獲得相同的更新版本。 報表作者不需要刪除報表中的視覺效果即可獲取這些視覺效果的新版本，因為使用這些視覺效果的所有報表都會自動更新！ 更新機制類似於 Marketplace 視覺效果。
+無需再透過電子郵件或共用資料夾來共用這些視覺效果！ 將組織的自訂視覺效果部署到組織存放庫之後，組織中的使用者就可以輕鬆地尋找這些視覺效果，並直接從 Power BI Desktop 或服務將它們匯入報表中。 您可以在 [我的組織]  索引標籤下的內建存放區 (在 Desktop 與服務中) 找到組織自訂視覺效果。一旦系統管理員上傳新的組織自訂視覺效果版本後，組織中的每個人都會獲得相同的更新版本。 報表作者不需要刪除報表中的視覺效果即可獲取這些視覺效果的新版本，因為使用這些視覺效果的所有報表都會自動更新！ 更新機制類似於 Marketplace 視覺效果。
 
 ### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>如果系統管理員將自訂視覺效果從公用 Marketplace 上傳到組織存放區，那麼一旦供應商在公用 Marketplace 中更新視覺效果，它是否會自動更新？
 
@@ -123,7 +123,7 @@ IAP 自訂視覺效果是免費、可下載的自訂視覺效果，使用者不�
 
 將 IAP 自訂視覺效果提交至 Marketplace 的程序與免費視覺效果的程序相同。 提交程序會透過賣方儀表板進行。  提交程序的唯一變更是，開發人員應該在賣方儀表板的開發人員備註中註明： 「需要在應用程式內購買的視覺效果」。 如果需要驗證付費/進階功能，您也必須提供授權金鑰/權杖。  
 
-賣方儀表板中除了「免費應用程式內購買」外，不會有任何新選項，因此您必須將您的 IAP 視覺效果提交為「免費」視覺效果。
+賣方儀表板中除了「免費應用程式內購買」  外，不會有任何新選項，因此您必須將您的 IAP 視覺效果提交為「免費」  視覺效果。
 
 此外，您可以在存放區中提供完整描述，說明哪些功能免費，而哪些功能需要另外購買才能運作，讓使用者有所預期。  
 
@@ -149,7 +149,7 @@ IAP 自訂視覺效果是免費、可下載的自訂視覺效果，使用者不�
 
 ### <a name="how-to-get-support"></a>如何取得支援？
 
-如果您有任何問題或意見，歡迎連絡自訂視覺效果支援小組： *pbicvsupport@microsoft.com* 。  
+如果您有任何問題或意見，歡迎連絡自訂視覺效果支援小組： *pbicvsupport@microsoft.com*  。  
 
 ## <a name="next-steps"></a>後續步驟
 

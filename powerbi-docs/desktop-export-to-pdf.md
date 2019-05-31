@@ -11,24 +11,24 @@ ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2f64973650edd951a9a780090426afba3e8471f5
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555577"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61303110"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>從 Power BI Desktop 將報表匯出為 PDF
 在 **Power BI Desktop** 或 Power BI 服務中，可將報表匯出為 PDF 檔案，因此可輕鬆地利用該 PDF 分享或列印報表。
 
 ![匯出為 PDF](media/desktop-export-to-pdf/export-to-pdf_01.png)
 
-將您的報表從 **Power BI Desktop** 匯出為 PDF 的程序，您如此即可列印 PDF 或與其他人分享該 PDF 文件，用法相當直接。 只要從 Power BI Deskop 選取 [檔案]> [匯出至 PDF] 即可。
+將您的報表從 **Power BI Desktop** 匯出為 PDF 的程序，您如此即可列印 PDF 或與其他人分享該 PDF 文件，用法相當直接。 只要從 Power BI Deskop 選取 [檔案]> [匯出至 PDF]  即可。
 
 **匯出至 PDF** 程序會匯出報表中所有*可見*的頁面，且每個報表頁面在 PDF 中會匯出為單一頁面。 目前看不到的報表頁面 (例如任何工具提示或隱藏的頁面)，並不會匯出至 PDF 檔案。 
 
 ![匯出至 PDF 正在處理中](media/desktop-export-to-pdf/export-to-pdf_02.png)
 
-當您選取 檔案 > 匯出至 PDF 時，會起始匯出作業，同時會隨即出現對話方塊，顯示匯出程序正在進行中。 匯出程序完成之前，該對話方塊會一直停留在螢幕上。 匯出過程中，會停用所有與該匯出報表的互動。 要與該報表進行互動的唯一方法，就是等到匯出程序完成，或是取消該匯出。 
+當您選取 檔案 > 匯出至 PDF  時，會起始匯出作業，同時會隨即出現對話方塊，顯示匯出程序正在進行中。 匯出程序完成之前，該對話方塊會一直停留在螢幕上。 匯出過程中，會停用所有與該匯出報表的互動。 要與該報表進行互動的唯一方法，就是等到匯出程序完成，或是取消該匯出。 
 
 匯出完成時，會將 PDF 載入電腦上預設的 PDF 檢視器。 
 

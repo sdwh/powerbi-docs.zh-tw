@@ -11,11 +11,11 @@ ms.date: 01/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 49ac1f917a5f3095c1dbc13c644061859389fe74
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482675"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61174678"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>使用 Power BI 連接到 comScore Digital Analytix
 使用 Power BI 內容套件以視覺化方式檢視和瀏覽 Power BI 中的 comScore Digital Analytix 資料。 資料會自動每天重新整理一次。
@@ -29,10 +29,10 @@ ms.locfileid: "55482675"
 1. 選取左瀏覽窗格底部的 [取得資料]。
    
    ![](media/service-connect-to-connect-to/getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-connect-to/services.png)
-3. 選取 [comScore Digital Analytix] \> [取得]。
+3. 選取 [comScore Digital Analytix]  \> [取得]  。
    
    ![](media/service-connect-to-connect-to/comscore.png)
 4. 輸入資料中心、comScore 用戶端識別碼和您想要連接的站台。 如需如何尋找這些值的詳細資訊，請參閱以下的[尋找 comScore 參數](#FindingParams)。
@@ -48,7 +48,7 @@ ms.locfileid: "55482675"
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 <a name="Requirements"></a>
 

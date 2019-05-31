@@ -11,11 +11,11 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 111e38fd37bcdfa2a72986bb08a37d89345bbe69
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282256"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60972604"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>減少 Excel 活頁簿的大小以在 Power BI 中檢視
 所有小於 1 GB 的 Excel 活頁簿都可上傳至 Power BI。 Excel 活頁簿可以包含兩個部分：資料模型和報表的其他部分 — 核心工作表內容。 如果報表符合下列大小限制，您就可以將它儲存到**商務用 OneDrive**，然後從 Power BI 連接到它並於 Excel Online 中檢視：
@@ -48,10 +48,10 @@ ms.locfileid: "54282256"
 
 將資料匯入 Excel 時，請依照下列提示作業：
 
-* **在 Power Query 中**：取消選取 [載入至工作表] 方塊。
+* **在 Power Query 中**：取消選取 [載入至工作表]  方塊。
   
   資料會只匯入資料模型，Excel 工作表中沒有任何資料。
-* **從 [Excel 資料] 索引標籤**，如果您先前在匯入精靈中選取了 [資料表]：移至 [現有連線]\>按一下連線 \> [只建立連線]。 刪除於初始匯入期間建立的原始資料表。
+* **從 [Excel 資料] 索引標籤**，如果您先前在匯入精靈中選取了 [資料表]  ：移至 [現有連線]  \>按一下連線 \> [只建立連線]  。 刪除於初始匯入期間建立的原始資料表。
 * **從 [Excel 資料] 索引標籤**：不要核取 [匯入資料]  方塊中的 [資料表]  。
 
 ## <a name="workbook-size-optimizer"></a>活頁簿大小最佳化工具

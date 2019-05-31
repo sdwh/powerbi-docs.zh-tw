@@ -1,6 +1,14 @@
-歡迎使用 Power BI「導引式學習」課程的＜Power BI 與 Excel＞一節。
+---
+ms.openlocfilehash: 0e29076a33a17b6097fd3fbf1db411f97ff45818
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271228"
+---
+歡迎使用 Power BI「導引式學習」  課程的＜Power BI 與 Excel＞  一節。
 
-您很有可能先前已使用過 Excel。 或許您曾使用 Excel 建立報表、檢視報表，或建置圓形圖及其他視覺效果。 又或者您曾使用 Power Pivot 或 Power Query 建置更具技術性的解決方案。 若是如此，Power BI 是您的絕佳選擇，且您依然能以習慣的方式使用活頁簿。
+您很有可能先前已使用過 Excel  。 或許您曾使用 Excel 建立報表、檢視報表，或建置圓形圖及其他視覺效果。 又或者您曾使用 Power Pivot  或 Power Query  建置更具技術性的解決方案。 若是如此，Power BI 是您的絕佳選擇，且您依然能以習慣的方式使用活頁簿。
 
 本節說明將 Excel 活頁簿匯入 Power BI 有多麼容易，並示範 Power BI 與 Excel 絕佳的合作關係。
 

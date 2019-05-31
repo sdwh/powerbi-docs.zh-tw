@@ -1,20 +1,20 @@
 ---
 title: 針對 Power BI 報表伺服器中排程的重新整理進行疑難排解
 description: 本文會討論可用來針對 Power BI 報表伺服器中排程的重新整理之問題進行疑難排解的資源。
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: e829d0cf174cc81148287ce1b25449246300606c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: f4638250cb2ae245dc9ce222e43c7a87de6e395d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216692"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61200281"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>針對 Power BI 報表伺服器中排程的重新整理進行疑難排解
 本文會討論可用來針對 Power BI 報表伺服器中排程的重新整理之問題進行疑難排解的資源。
@@ -158,9 +158,9 @@ Power BI 報表伺服器的預設位置，Analysis Services 則是後續位置�
 `C:\Program Files\Microsoft Power BI Report Server\PBIRS\ASEngine`
 
 ### <a name="configuring-analysis-services-settings-msmdsrvini"></a>設定 Analysis Services 設定 (msmdsrv.ini)
-在 `<install directory>\PBIRS\ASEngine` 目錄中，您會發現 msmdsrv.ini 檔案，可以用來控制 Analysis Services 的不同設定。 當您開啟這個檔案時，您會立即了解此檔案沒有您對於 msmdsrv.ini 檔案預期的所有設定。 
+在 `<install directory>\PBIRS\ASEngine` 目錄中，您會發現 msmdsrv.ini  檔案，可以用來控制 Analysis Services 的不同設定。 當您開啟這個檔案時，您會立即了解此檔案沒有您對於 msmdsrv.ini 檔案預期的所有設定。 
 
-這是因為 Power BI 報表伺服器所執行的實際 Analysis Services 處理程序是在 `<install directory>\PBIRS\ASEngine\workspaces` 中啟動。 在該資料夾中，您會看到您習慣的完整 msmdsrv.ini 檔案。 請勿修改工作區資料夾中的檔案，因為每當 Analysis Services 處理程序啟動時，它都會重寫。 如果您想要控制設定，請藉由修改 `<install directory>\PBIRS\ASEngine` 目錄中的 msmdsrv.ini 來完成這個操作。
+這是因為 Power BI 報表伺服器所執行的實際 Analysis Services 處理程序是在 `<install directory>\PBIRS\ASEngine\workspaces` 中啟動。 在該資料夾中，您會看到您習慣的完整 msmdsrv.ini  檔案。 請勿修改工作區資料夾中的檔案，因為每當 Analysis Services 處理程序啟動時，它都會重寫。 如果您想要控制設定，請藉由修改 `<install directory>\PBIRS\ASEngine` 目錄中的 msmdsrv.ini 來完成這個操作。
 
 每當 Analysis Services 處理程序啟動時，就會重設下列設定。 您對這些項目進行的任何變更將會被忽略。
 
@@ -184,9 +184,9 @@ SQL Profiler 追蹤可以在本機 Analysis Services 處理程序上針對診斷
 SQL Server Profiler 追蹤隨附於 [SQL Server Management Studio (SSMS) 下載](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)。
 
 1. 以系統管理員身分啟動 **SQL Server Profiler**。
-2. 選取 [新增追蹤] 按鈕。
-3. 在 [連接至伺服器] 對話方塊中，選取 [Analysis Services]，然後輸入 **localhost:5132** 作為伺服器名稱。
-4. 在 [追蹤屬性] 對話方塊中，選取您想要擷取的事件，然後選取 [執行]。
+2. 選取 [新增追蹤]  按鈕。
+3. 在 [連接至伺服器]  對話方塊中，選取 [Analysis Services]  ，然後輸入 **localhost:5132** 作為伺服器名稱。
+4. 在 [追蹤屬性]  對話方塊中，選取您想要擷取的事件，然後選取 [執行]  。
 
 ## <a name="lock-pages-in-memory-windows-privilege"></a>鎖定記憶體中的分頁 Windows 權限
 如果您發現您無法轉譯 Power BI 報表，將**鎖定記憶體中的分頁**權限指派給執行 Power BI 報表伺服器的服務帳戶，可能有幫助。 如需有關如何設定**鎖定記憶體中的分頁**的詳細資訊，請參閱[指派給 Analysis Services 服務帳戶的 Windows 權限](https://docs.microsoft.com/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)。

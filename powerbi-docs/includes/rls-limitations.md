@@ -5,11 +5,11 @@ ms.topic: include
 ms.date: 02/15/2019
 ms.author: mblythe
 ms.openlocfilehash: 44ef0aa9d436f3a8a02f9a6b831847d5c996558a
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56334033"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61193694"
 ---
 ## <a name="limitations"></a>限制
 
@@ -33,4 +33,4 @@ ms.locfileid: "56334033"
 
 1. Anna 收到錯誤。
 
-**因應措施：** 從 Power BI 服務重新發佈 Power BI Desktop 檔案，直到此問題解決為止。 您可以選取 [取得資料] > [檔案] 以執行此動作。
+**因應措施：** 從 Power BI 服務重新發佈 Power BI Desktop 檔案，直到此問題解決為止。 您可以選取 [取得資料]   > [檔案]  以執行此動作。

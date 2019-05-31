@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: af227d2bcbbba2a27804ec74f14003f54aa89dde
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514682"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 連接器
@@ -32,7 +32,7 @@ ms.locfileid: "65514682"
 1. 在本機電腦上安裝 **SAP NetWeaver** 程式庫。 您可以從 SAP 管理員，或是直接從 [SAP Software Download Center](https://support.sap.com/swdc) (SAP 軟體下載中心) 取得 **SAP Netweaver**。 由於 **SAP Software Download Center** (SAP 軟體下載中心) 經常變更其結構，因此未提供瀏覽該網站的更具體指引。 **SAP NetWeaver** 程式庫通常也包含在 SAP 用戶端工具的安裝中。
    
    您可以搜尋 *SAP Note #1025361* 以取得最新版本的下載位置。 請確認 **SAP NetWeaver** 程式庫 (32 位元或 64 位元) 的架構符合您的 **Power BI Desktop** 安裝，然後依據 SAP Note 安裝 **SAP NetWeaver RFC SDK** 內含的所有檔案。
-2. [取得資料] 對話方塊在 [資料庫] 類別中包含 **SAP Business Warehouse 應用程式伺服器**和 **SAP Business Warehouse 訊息伺服器**項目。
+2. [取得資料]  對話方塊在 [資料庫]  類別中包含 **SAP Business Warehouse 應用程式伺服器**和 **SAP Business Warehouse 訊息伺服器**項目。
    
    ![SAP 的取得資料選項](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
@@ -44,12 +44,12 @@ SAP 連接器的**實作 2.0** 需要使用 SAP .NET 連接器 3.0。 您可以�
 
 下載存取需要有效的 S 使用者。 我們建議客戶與 SAP 基礎小組連絡，以取得 SAP .NET 連接器 3.0。 
 
-連接器有 32 位元和 64 位元的版本，使用者「必須」選擇符合他們 Power BI Desktop 安裝的版本。 在撰寫本文時，網站列出兩個版本 (適用於 .NET 4.0 Framework)：
+連接器有 32 位元和 64 位元的版本，使用者「必須」  選擇符合他們 Power BI Desktop 安裝的版本。 在撰寫本文時，網站列出兩個版本 (適用於 .NET 4.0 Framework)：
 
 * 適用於 Windows 32 位元 (x86) 的 SAP Connector for Microsoft .NET 3.0.20.0，ZIP 檔 (6.896 KB)，2018 年 1 月 16 日
 * 適用於 Windows 64 位元 (x64) 的 SAP Connector for Microsoft .NET 3.0.20.0，ZIP 檔 (7.180 KB)，2018 年 1 月 16 日
 
-在安裝時的 [選用設定步驟] 視窗中，請確定您選取 [安裝組件至 GAC] 選項，如下圖所示。
+在安裝時的 [選用設定步驟]  視窗中，請確定您選取 [安裝組件至 GAC]  選項，如下圖所示。
 
 ![SAP 選用設定步驟](media/desktop-sap-bw-connector/sap_bw_2b.png)
 
@@ -62,32 +62,32 @@ Power BI Desktop 中的第 1 版 **SAP BW 連接器**可讓您從您的 **SAP Bu
 
 若要深入了解 **SAP BW 連接器**以及它如何與 DirectQuery 搭配使用，請參閱 [DirectQuery 和 SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) 一文。
 
-連線時，您必須指定「伺服器」、「系統名稱」與「用戶端識別碼」以建立連線。
+連線時，您必須指定「伺服器」  、「系統名稱」  與「用戶端識別碼」  以建立連線。
 
 ![SAP 伺服器連線設定](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
-您也可以指定其他兩個 [進階選項]：語言代碼，以及對指定的伺服器執行自訂 MDX 陳述式。
+您也可以指定其他兩個 [進階選項]  ：語言代碼，以及對指定的伺服器執行自訂 MDX 陳述式。
 
 ![其他連線資訊](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
-如果未指定 MDX 陳述式，您會看到 [導覽] 視窗，其中顯示伺服器中可用的 Cube 清單，以及從可用 Cube 向下鑽研並選取項目 (包括維度和量值) 的選項。 Power BI 會公開 [BW Open Analysis Interface OLAP BAPI](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm) 所公開的查詢和 Cube。
+如果未指定 MDX 陳述式，您會看到 [導覽]  視窗，其中顯示伺服器中可用的 Cube 清單，以及從可用 Cube 向下鑽研並選取項目 (包括維度和量值) 的選項。 Power BI 會公開 [BW Open Analysis Interface OLAP BAPI](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm) 所公開的查詢和 Cube。
 
 當您從伺服器選取一個或多個項目時，會根據選取範圍建立輸出資料表的預覽。
 
 ![SAP 資料表預覽](media/desktop-sap-bw-connector/sap_bw_5.png)
 
-[導覽] 視窗也提供一些 [顯示選項]，可讓您執行下列動作︰
+[導覽]  視窗也提供一些 [顯示選項]  ，可讓您執行下列動作︰
 
-* **顯示 [僅選取的項目] 和 [所有項目] (預設檢視)：** 此選項適用於驗證所選取的最終一組項目。 另一個檢視方法是在 [預覽] 區域中選取 [資料行名稱]。
+* **顯示 [僅選取的項目]  和 [所有項目]  (預設檢視)：** 此選項適用於驗證所選取的最終一組項目。 另一個檢視方法是在 [預覽]  區域中選取 [資料行名稱]  。
 * **啟用資料預覽 (預設行為)：** 您也可以控制是否應該在此對話方塊中顯示資料預覽。 停用資料預覽可減少伺服器呼叫的數量，因為它不會再要求資料進行預覽。
-* **技術名稱：** SAP BW 支援 Cube 內物件的「技術名稱」概念。 技術名稱可讓 Cube 擁有者公開 Cube 物件的「使用者易記」名稱，而不只是公開 Cube 中這些物件的「實體名稱」。
+* **技術名稱：** SAP BW 支援 Cube 內物件的「技術名稱」  概念。 技術名稱可讓 Cube 擁有者公開 Cube 物件的「使用者易記」  名稱，而不只是公開 Cube 中這些物件的「實體名稱」  。
 
 ![[導覽器] 視窗](media/desktop-sap-bw-connector/sap_bw_6.png)
 
-在 [導覽] 中選取所有必要物件後，您可以選取 [導覽] 視窗底部的下列其中一個按鈕來決定後續動作︰
+在 [導覽]  中選取所有必要物件後，您可以選取 [導覽]  視窗底部的下列其中一個按鈕來決定後續動作︰
 
-* 選取 [載入] 會觸發將輸出資料表的整組資料列載入 Power BI Desktop 資料模型，然後帶您前往 [報表] 檢視，您可以在此使用 [資料] 或 [關聯性] 檢視開始對資料進行視覺化或進一步修改。
-* 選取 [編輯] 會顯示 [查詢編輯器]，您可以在此執行其他資料轉換和篩選步驟，再將整組資料列帶入 Power BI Desktop 資料模型。
+* 選取 [載入]  會觸發將輸出資料表的整組資料列載入 Power BI Desktop 資料模型，然後帶您前往 [報表]  檢視，您可以在此使用 [資料]  或 [關聯性]  檢視開始對資料進行視覺化或進一步修改。
+* 選取 [編輯]  會顯示 [查詢編輯器]  ，您可以在此執行其他資料轉換和篩選步驟，再將整組資料列帶入 Power BI Desktop 資料模型。
 
 除了從 **SAP BW** Cube 匯入資料之外，請記住，您也可以從 Power BI Desktop 中的其他廣泛資料來源匯入資料，然後再合併成一個報表。 如此一來，便可根據 **SAP BW** 資料進行各種有趣的報告和分析案例。
 
@@ -95,13 +95,13 @@ Power BI Desktop 中的第 1 版 **SAP BW 連接器**可讓您從您的 **SAP Bu
 
 您必須建立新連線，才能使用 SAP BW 連接器的實作 2.0。 請採取下列步驟建立新連線。
 
-1. 從 [取得資料] 視窗中，選取 [SAP Business Warehouse 應用程式伺服器] 或 [SAP Business Warehouse 訊息伺服器]。
+1. 從 [取得資料]  視窗中，選取 [SAP Business Warehouse 應用程式伺服器]  或 [SAP Business Warehouse 訊息伺服器]  。
 
-2. 您會看到新連線對話方塊，然後便可以選取實作。 選取 [實作 2.0]，如下圖所示，會啟用 [執行模式]、[批次大小] 及 [啟用特性結構] 選項。
+2. 您會看到新連線對話方塊，然後便可以選取實作。 選取 [實作 2.0]  ，如下圖所示，會啟用 [執行模式]、[批次大小] 及 [啟用特性結構] 選項。
 
     ![SAP 連線對話方塊](media/desktop-sap-bw-connector/sap_bw_7.png)
 
-3. 選取 [確定]，之後 [導覽器] 體驗會與前一節中描述的第 1 版 SAP BW 連接器相同。 
+3. 選取 [確定]  ，之後 [導覽器]  體驗會與前一節中描述的第 1 版 SAP BW 連接器相同。 
 
 ### <a name="new-options-for-implementation-20"></a>實作 2.0 的新選項 
 
@@ -141,11 +141,11 @@ Power BI Desktop 中的第 1 版 **SAP BW 連接器**可讓您從您的 **SAP Bu
 
 變更現有的報表以使用**實作 2.0**僅能在匯入模式中進行，而且需要下列手動步驟。
 
-1. 開啟現有的報表、選取功能區中的 [編輯查詢]，然後選取您想要更新的 SAP Business Warehouse 查詢。
+1. 開啟現有的報表、選取功能區中的 [編輯查詢]  ，然後選取您想要更新的 SAP Business Warehouse 查詢。
 
-2. 以滑鼠右鍵按一下查詢並選取 [進階編輯器]。
+2. 以滑鼠右鍵按一下查詢並選取 [進階編輯器]  。
 
-3. 在 [進階編輯器] 中，變更 SapBusinessWarehouse.Cubes 呼叫，如下所示： 
+3. 在 [進階編輯器]  中，變更 SapBusinessWarehouse.Cubes 呼叫，如下所示： 
 
     a. 判斷查詢是否已經包含選項記錄，例如在下列範例中顯示的內容：
 
@@ -170,7 +170,7 @@ Power BI Desktop 中的第 1 版 **SAP BW 連接器**可讓您從您的 **SAP Bu
 
 1. 來自 **SAP BW** 的數值資料會傳回小數點，而非逗號。 例如，1,000,000 傳回會變成 1.000.000。
    
-   **SAP BW** 會傳回使用 *,* (逗號) 或 *.* (點號) 作為小數分隔符號的十進位資料。 為了指定 **SAP BW** 使用哪一種作為小數分隔符號，**Power BI Desktop** 所使用的驅動程式會對 *BAPI_USER_GET_DETAIL* 進行呼叫。 這個呼叫會傳回稱為 **DEFAULTS** 的結構，其中稱為 *DCPFM* 的欄位儲存了「十進位格式表示法」。 它會採用下列三個值之一：
+   **SAP BW** 會傳回使用 *,* (逗號) 或 *.* (點號) 作為小數分隔符號的十進位資料。 為了指定 **SAP BW** 使用哪一種作為小數分隔符號，**Power BI Desktop** 所使用的驅動程式會對 *BAPI_USER_GET_DETAIL* 進行呼叫。 這個呼叫會傳回稱為 **DEFAULTS** 的結構，其中稱為 *DCPFM* 的欄位儲存了「十進位格式表示法」  。 它會採用下列三個值之一：
    
        ‘ ‘ (space) = Decimal point is comma: N.NNN,NN
        'X' = Decimal point is period: N,NNN.NN
@@ -204,7 +204,7 @@ Power BI Desktop 中的第 1 版 **SAP BW 連接器**可讓您從您的 **SAP Bu
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
    
-3. [瀏覽器] 視窗不會顯示資料預覽，而是會提供「物件參考未設定至物件的執行個體」錯誤訊息。
+3. [瀏覽器]  視窗不會顯示資料預覽，而是會提供「物件參考未設定至物件的執行個體」  錯誤訊息。
    
    SAP 使用者需要特定 BAPI 函式模組的存取權，才能從 SAP BW 的 InfoProviders 取得中繼資料並擷取資料。 這些包括：
    * BAPI_MDPROVIDER_GET_CATALOGS
@@ -217,7 +217,7 @@ Power BI Desktop 中的第 1 版 **SAP BW 連接器**可讓您從您的 **SAP Bu
    * BAPI_MDPROVIDER_GET_VARIABLES
    * BAPI_IOBJ_GETDETAIL
 
-   若要解決此問題，請確認使用者有各種 *MDPROVIDER* 模組與 *BAPI_IOBJ_GETDETAIL* 的存取權。 若要進一步針對此問題或類似問題進行疑難排解，請選取 Power BI Desktop [選項] 中 [診斷] 視窗上的 [啟用追蹤]。 嘗試在追蹤功能已啟用的情況下從 SAP BW 擷取資料，並檢查追蹤檔案以取得更多詳細資料。
+   若要解決此問題，請確認使用者有各種 *MDPROVIDER* 模組與 *BAPI_IOBJ_GETDETAIL* 的存取權。 若要進一步針對此問題或類似問題進行疑難排解，請選取 Power BI Desktop [選項]  中 [診斷]  視窗上的 [啟用追蹤]  。 嘗試在追蹤功能已啟用的情況下從 SAP BW 擷取資料，並檢查追蹤檔案以取得更多詳細資料。
 
 ## <a name="sap-bw-connection-support"></a>SAP BW 連線支援
 
@@ -236,7 +236,7 @@ Power BI Desktop 中的第 1 版 **SAP BW 連接器**可讓您從您的 **SAP Bu
 |Power BI Gateway     |匯入      | 與 Power BI Desktop 相同 |         |   |   |
 |Power BI Gateway     |DirectQuery | 使用者/密碼        | 應用程式伺服器 | N/A  | 是  |
 |Power BI Gateway     |DirectQuery | Windows 透過模擬 (固定使用者，無 SSO) | 應用程式伺服器 | sapcrypto + gsskrb5/gx64krb5  | 是  |
-|Power BI Gateway     |DirectQuery | 透過 Kerberos 使用 SSO 進行 DirectQuery 查詢選項 | 應用程式伺服器 | 只能搭配 gsskrb5/gx64krb5   | 是  |
+|Power BI Gateway     |DirectQuery | 透過 Kerberos 使用 SSO 進行 DirectQuery 查詢選項 | 應用程式伺服器 | 只能搭配  gsskrb5/gx64krb5   | 是  |
 |Power BI Gateway     |DirectQuery | 使用者/密碼        | 訊息伺服器 | N/A  | 是  |
 |Power BI Gateway     |DirectQuery | Windows 透過模擬 (固定使用者，無 SSO) | 訊息伺服器 | sapcrypto + gsskrb5/gx64krb5  | 是  |
 |Power BI Gateway     |DirectQuery | 透過 Kerberos 使用 SSO 進行 DirectQuery 查詢選項 | 訊息伺服器 | sapcrypto + gsskrb5/gx64krb5  | 否  |

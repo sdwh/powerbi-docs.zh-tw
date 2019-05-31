@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239584"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop (預覽) 中的彙總
@@ -39,7 +39,7 @@ ms.locfileid: "65239584"
 
 ## <a name="enabling-the-aggregations-preview-feature"></a>啟用彙總預覽功能
 
-**彙總**功能處於預覽狀態，且必須在 **Power BI Desktop** 中加以啟用。 若要啟用**彙總**，請選取 [檔案] > [選項及設定] > [選項] > [預覽功能]，然後選取 [複合模型] 和 [管理彙總] 核取方塊。 
+**彙總**功能處於預覽狀態，且必須在 **Power BI Desktop** 中加以啟用。 若要啟用**彙總**，請選取 [檔案] > [選項及設定] > [選項] > [預覽功能]  ，然後選取 [複合模型]  和 [管理彙總]  核取方塊。 
 
 ![正在啟用預覽功能](media/desktop-aggregations/aggregations_01.jpg)
 
@@ -57,7 +57,7 @@ ms.locfileid: "65239584"
 
 相反地，我們會建立 **Sales Agg** 資料表作為彙總資料表。 它的資料粒度比 **Sales** 更高，因此包含的資料列更少。 資料列數目應該等於 **SalesAmount** 的總和，這是 **CustomerKey**、**DateKey** 以及 **ProductSubcategoryKey** 的組合。 它沒有數十億，可能只有數百萬筆資料列，更容易管理。
 
-假設下列維度資料表最常用於高商業價值的查詢。 這些資料表可以使用「一對多」(或「多對一」) 關聯性來篩選 **Sales Agg**。
+假設下列維度資料表最常用於高商業價值的查詢。 這些資料表可以使用「一對多」  (或「多對一」  ) 關聯性來篩選 **Sales Agg**。
 
 * 地理位置
 * 客戶
@@ -91,27 +91,27 @@ ms.locfileid: "65239584"
 ### <a name="strong-vs-weak-relationships"></a>強與弱關聯性
 根據關聯性叫用彙總需要強關聯性。
 
-強關聯性包含下列組合，其中兩個資料表都是來自「單一來源」。
+強關聯性包含下列組合，其中兩個資料表都是來自「單一來源」  。
 
-| 位於*多邊的資料表 | 位於單邊的資料表 |
+| 位於*多邊的資料表 | 位於單  邊的資料表 |
 | ------------- |----------------------| 
 | 雙重          | 雙重                 | 
 | 匯入        | 匯入或雙重       | 
 | DirectQuery   | DirectQuery 或雙重  | 
 
-只有在兩個資料表都是匯入的情況下，才會將「跨來源」關聯性視為強。 多對多關聯性一律視為弱。
+只有在兩個資料表都是匯入的情況下，才會將「跨來源」  關聯性視為強。 多對多關聯性一律視為弱。
 
-對於不依靠關聯性的「跨來源」彙總叫用，請參閱下節有關以分組方式資料行為基礎的彙總。
+對於不依靠關聯性的「跨來源」  彙總叫用，請參閱下節有關以分組方式資料行為基礎的彙總。
 
 ### <a name="aggregation-table-is-hidden"></a>彙總資料表為隱藏
 **Sales Agg** 資料表為隱藏。 彙總資料表應一律對資料集取用者隱藏。 取用者和查詢參考的是詳細資料資料表，而不是彙總資料表；他們甚至不需要知道彙總資料表的存在。
 
 ### <a name="manage-aggregations-dialog"></a>[管理彙總] 對話方塊
-接下來我們要定義彙總。 以滑鼠右鍵按一下資料表，選取 **Sales Agg** 資料表的 [管理彙總] 操作功能表。
+接下來我們要定義彙總。 以滑鼠右鍵按一下資料表，選取 **Sales Agg** 資料表的 [管理彙總]  操作功能表。
 
 ![[管理彙總] 功能表選取項目](media/desktop-aggregations/aggregations_06.jpg)
 
-[管理彙總] 對話方塊隨即出現。 **Sales Agg** 資料表的每個資料行都會顯示一筆資料列，我們可以在此指定彙總行為。 提交至 Power BI 資料集的查詢 (資料集名為 **Sales**)，會在內部重新導向至 **Sales Agg** 資料表。 資料集的取用者甚至不需要知道 **Sales Agg** 資料表的存在。
+[管理彙總]  對話方塊隨即出現。 **Sales Agg** 資料表的每個資料行都會顯示一筆資料列，我們可以在此指定彙總行為。 提交至 Power BI 資料集的查詢 (資料集名為 **Sales**)，會在內部重新導向至 **Sales Agg** 資料表。 資料集的取用者甚至不需要知道 **Sales Agg** 資料表的存在。
 
 ![[管理彙總] 對話方塊](media/desktop-aggregations/aggregations_07.jpg)
 
@@ -203,7 +203,7 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免聯結大型
 
 ![Driver Activity Agg 資料表](media/desktop-aggregations/aggregations_10.jpg)
 
-接下來，我們要在 [管理彙總] 對話方塊中定義彙總對應。 **Driver Activity Agg** 資料表的每個資料行都會顯示一筆資料列，我們可以在此指定彙總行為。
+接下來，我們要在 [管理彙總]  對話方塊中定義彙總對應。 **Driver Activity Agg** 資料表的每個資料行都會顯示一筆資料列，我們可以在此指定彙總行為。
 
 ![Driver Activity Agg 資料表的 [管理彙總] 對話方塊](media/desktop-aggregations/aggregations_11.jpg)
 
@@ -239,7 +239,7 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免聯結大型
 
 ![解除鎖定大型資料集之小磁碟使用量模型的資料表](media/desktop-aggregations/aggregations_13.jpg)
 
-**Driver Activity Agg2** 的 [管理彙總] 對話方塊顯示的 [優先順序] 欄位為 10，這比 **Driver Activity Agg** 高，這表示使用彙總的查詢會先考慮它。 資料粒度不在 **Driver Activity Agg2** 回答範圍內的子查詢會改考慮 **Driver Activity Agg**。 兩份彙總資料表皆無法回答的詳細資料查詢，會被導向至 **Driver Activity**。
+**Driver Activity Agg2** 的 [管理彙總]  對話方塊顯示的 [優先順序]  欄位為 10，這比 **Driver Activity Agg** 高，這表示使用彙總的查詢會先考慮它。 資料粒度不在 **Driver Activity Agg2** 回答範圍內的子查詢會改考慮 **Driver Activity Agg**。 兩份彙總資料表皆無法回答的詳細資料查詢，會被導向至 **Driver Activity**。
 
 **Detail Table** 資料行中指定的資料表是 **Driver Activity**，不是 **Driver Activity Agg**，因為不允許鏈結彙總 (請參閱本文前面的[驗證](#validations))。
 
@@ -257,7 +257,7 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免聯結大型
 
 ![結合彙總技術](media/desktop-aggregations/aggregations_15.jpg)
 
-下表顯示在 **Sales Agg** 資料表的 [管理彙總] 對話方塊中設定的項目。 **Date** 為詳細資料資料表的 GroupBy 項目，其一定要為按 Date 屬性分組的查詢叫用彙總。 如同上一個範例，因為有關聯性，所以 CustomerKey 和 ProductSubcategoryKey 的 GroupBy 項目不會影響彙總叫用 (DISTINCTCOUNT 同樣不在此列)。
+下表顯示在 **Sales Agg** 資料表的 [管理彙總]  對話方塊中設定的項目。 **Date** 為詳細資料資料表的 GroupBy 項目，其一定要為按 Date 屬性分組的查詢叫用彙總。 如同上一個範例，因為有關聯性，所以 CustomerKey 和 ProductSubcategoryKey 的 GroupBy 項目不會影響彙總叫用 (DISTINCTCOUNT 同樣不在此列)。
 
 ![Sales Agg 彙總資料表](media/desktop-aggregations/aggregations-table_04.jpg)
 

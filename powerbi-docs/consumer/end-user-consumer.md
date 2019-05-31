@@ -11,15 +11,15 @@ ms.date: 01/22/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: a4bdf9cdf56f9e7297973e1d1ce27ceb7c6447a7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56663038"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61048082"
 ---
 <!-- fold this topic into existing topics -->
 # <a name="power-bi-for-consumers"></a>適用於取用者的 Power BI
-您與 Power BI 互動的方式將取決於作業角色。 身為「終端使用者」或「取用者」，您會從同事收到儀表板、報表和應用程式。 您在 ***Power BI 服務***中工作，檢閱並與此內容互動，以制定商務決策。
+您與 Power BI 互動的方式將取決於作業角色。 身為「終端使用者」  或「取用者」  ，您會從同事收到儀表板、報表和應用程式。 您在 ***Power BI 服務***中工作，檢閱並與此內容互動，以制定商務決策。
 
 ![Power BI 儀表板](media/end-user-consumer/power-bi-service.png)
 
@@ -31,7 +31,7 @@ ms.locfileid: "56663038"
 
 ## <a name="next-steps"></a>後續步驟
 
-[適用於 Power BI 取用者的術語和概念](end-user-basic-concepts.md)
+[適用於 Power BI 取用者  的術語和概念](end-user-basic-concepts.md)
 
 <!-- [Get started guide for *consumers*] -->
 [開始使用 Power BI 服務](../service-get-started.md)

@@ -11,11 +11,11 @@ ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: ca035762f16d2e8e6c7ffb59220a2457daf10545
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430801"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61171905"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>使用 Power BI 連接到 Salesforce
 您可以使用 Power BI 輕鬆地連接到您的 Salesforce.com 帳戶。 建立此連接時可擷取您的資料，並自動依據您的資料提供儀表板和相關報表。
@@ -26,13 +26,13 @@ ms.locfileid: "55430801"
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-salesforce/pbi_getdata.png) 
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-salesforce/pbi_getservices.png) 
-3. 按一下 [Salesforce]，然後選取 [取得]。  
+3. 按一下 [Salesforce]  ，然後選取 [取得]  。  
    
    ![](media/service-connect-to-salesforce/salesforce.png)
-4. 選取 [登入] 起始登入流程。
+4. 選取 [登入]  起始登入流程。
    
     ![](media/service-connect-to-salesforce/dialog.png)
 5. 出現提示時，請輸入您的 Salesforce 認證。 按一下 [允許]  讓 Power BI 存取您基本的 Salesforce 資訊和資料。
@@ -63,7 +63,7 @@ ms.locfileid: "55430801"
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)
 * [選取圖格](service-dashboard-tiles.md)，開啟基礎報表
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="system-requirements-and-considerations"></a>系統需求和考量
 - 與已啟用 API 存取的 Salesforce 生產帳戶連接

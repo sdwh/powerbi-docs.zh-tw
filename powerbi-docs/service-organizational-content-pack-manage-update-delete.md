@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: cbca162348092d9d03bef03199c63113ec487165
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274528"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61226206"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和刪除組織內容套件
 > [!NOTE]
@@ -39,7 +39,7 @@ ms.locfileid: "54274528"
 ## <a name="republish-with-new-content"></a>以新的內容重新發佈
 當您進行變更並將變更儲存至您併入內容套件的儀表板時，Power BI 會提醒您將其更新，以便其他人可以看到這些變更。 例如，如果您釘選了新的磚，或只是變更了儀表板的名稱。
 
-1. 選取訊息中的 [檢視內容套件]。
+1. 選取訊息中的 [檢視內容套件]  。
    
    ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
 2. 或者選取右上角的齒輪圖示 ![](media/service-organizational-content-pack-manage-update-delete/cog.png)，然後選取 **檢視內容套件**.
@@ -47,8 +47,8 @@ ms.locfileid: "54274528"
    ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
    
    請注意警告圖示 ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png)。  這可讓您知道，您以某種方式修改了內容套件，且它不再與您發佈的內容套件相符合。
-3. 選取 [編輯] 。  
-4. 在 [更新內容套件] 視窗進行所有必要的變更，然後選取 [更新]。 [成功] 訊息隨即出現。
+3. 選取 [編輯]  。  
+4. 在 [更新內容套件]  視窗進行所有必要的變更，然後選取 [更新]  。 [成功]  訊息隨即出現。
    
    * 若是尚未自訂內容套件的群組成員，便會自動套用更新。
    * 若群組成員已自訂此內容套件，就會收到有新版本的通知。  他們可以前往 AppSource 並取得已更新的內容套件，而不會遺失他們的個人化版本。  現在他們有 2 個版本：個人化版本和更新的內容套件。  在個人化的版本中，來自原始內容套件的所有圖格都會消失。  不過仍然會轉譯從其他報表釘選的圖格。 不過，如果內容套件擁有者刪除內容套件所依據的資料集，則整份報表將會消失。  
@@ -57,8 +57,8 @@ ms.locfileid: "54274528"
 另一種內容套件建立者可進行的修改，就是擴充及限制內容套件的存取權。  或許您已發佈內容套件至許多對象，且決定將存取權限制在較小的群組。  
 
 1. 選取齒輪圖示 ![](media/service-organizational-content-pack-manage-update-delete/cog.png)，然後選擇 **檢視內容套件**.
-2. 選取 [編輯] 。 
-3. 在 [更新內容套件] 視窗進行所有必要的變更，然後選取 [更新]。 例如，刪除在 [特定群組] 欄位中的原始通訊群組，並取代為不同的通訊群組 (具有較少的成員)。
+2. 選取 [編輯]  。 
+3. 在 [更新內容套件]  視窗進行所有必要的變更，然後選取 [更新]  。 例如，刪除在 [特定群組]  欄位中的原始通訊群組，並取代為不同的通訊群組 (具有較少的成員)。
    
    成功訊息隨即出現。
    
@@ -78,8 +78,8 @@ ms.locfileid: "54274528"
 > 
 > 
 
-1. 若要從 AppSource 中刪除內容套件，請前往您建立該內容套件的應用程式工作區，選取齒輪圖示 ![](media/service-organizational-content-pack-manage-update-delete/cog.png) 並選擇 [檢視內容套件]。
-2. 選取 [刪除] \> [刪除]。 
+1. 若要從 AppSource 中刪除內容套件，請前往您建立該內容套件的應用程式工作區，選取齒輪圖示 ![](media/service-organizational-content-pack-manage-update-delete/cog.png) 並選擇 [檢視內容套件]  。
+2. 選取 [刪除] \> [刪除]  。 
    
    * 如果群組成員尚未自訂內容套件，將會自動移除與該內容套件相關聯的儀表板和報表。 再也無法取得這些儀表板和報表，該內容套件不會出現於 [瀏覽] 窗格中。
    * 已自訂了內容套件的群組成員，下次開啟自訂儀表板時，所有來自原始內容套件的磚都會消失。  不過仍然會轉譯從其他報表釘選的圖格。 再也無法取得原始內容套件報表和資料集，該內容套件不會出現於 [瀏覽] 窗格中。   

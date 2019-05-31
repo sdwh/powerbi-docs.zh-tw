@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3c5b33b4b056a5d2dfeeffd4c72ea878cf7d79c0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6d03097eb886813b934c75b61ddb056b55bde7b8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280278"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61160918"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>將 CDM 資料夾作為資料流程新增到 Power BI (預覽)
 
@@ -25,22 +25,19 @@ ms.locfileid: "54280278"
 
 從 CDM 資料夾建立資料流程有幾項需求，如下列清單所述：
 
-* 從 CDM 資料夾建立資料流程的功能，「僅」於[新的工作區體驗](service-create-the-new-workspaces.md)中提供。 
+* 從 CDM 資料夾建立資料流程的功能，「僅」  於[新的工作區體驗](service-create-the-new-workspaces.md)中提供。 
 * 若要將 CDM 資料夾新增到 Power BI，新增資料夾的使用者必須具有 [CDM 資料夾及其檔案的授權](https://go.microsoft.com/fwlink/?linkid=2029121) \(英文\)。
 * 您必須具有 CDM 資料夾中所有檔案和資料夾的讀取和執行權限，才能將它們新增到 Power BI。
 
 下列各節將說明如何從 CDM 資料夾建立資料流程。
 
-> [!NOTE]
-> 資料流程功能目前處於預覽狀態，而且可能會在公開上市之前有所變更及更新。
-
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>從 CDM 資料夾建立資料流程
 
-若要開始從 CDM 資料夾建立資料流程，請啟動 **Power BI 服務**，並從左側瀏覽窗格選取 [應用程式工作區]。 您也可以建立新的工作區，在其中建立新的資料流程。
+若要開始從 CDM 資料夾建立資料流程，請啟動 **Power BI 服務**，並從左側瀏覽窗格選取 [應用程式工作區]  。 您也可以建立新的工作區，在其中建立新的資料流程。
 
 ![在 Power BI 服務中建立資料流程](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
-在出現的畫面中，選取 [建立並附加]，如下圖所示。
+在出現的畫面中，選取 [建立並附加]  ，如下圖所示。
 
 ![[建立並附加] 新資料流程](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_03.jpg)
 
@@ -48,9 +45,9 @@ ms.locfileid: "54280278"
 
 ![來自 CDM 資料夾的資料流程](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_01.jpg)
 
-在您提供資訊之後，請選取 [建立並附加] 來建立資料流程。
+在您提供資訊之後，請選取 [建立並附加]  來建立資料流程。
 
-來自 CDM 資料夾的資料流程，在 Power BI 中顯示時會以「外部」圖示加以標記。 在下一節中，我們會說明標準資料流程與從 CDM 資料夾建立的資料流程之間有何差異。
+來自 CDM 資料夾的資料流程，在 Power BI 中顯示時會以「外部」  圖示加以標記。 在下一節中，我們會說明標準資料流程與從 CDM 資料夾建立的資料流程之間有何差異。
 
 一旦正確設定權限，您就可如本文先前所述在 **Power BI Desktop** 中連線到資料流程。
 
@@ -71,7 +68,7 @@ Power BI Desktop：
 
 另外還有一些額外個考量，如下列清單所述：
 
-* 從 CDM 資料夾建立資料流程的功能，「僅」於[新的工作區體驗](service-create-the-new-workspaces.md)中提供
+* 從 CDM 資料夾建立資料流程的功能，「僅」  於[新的工作區體驗](service-create-the-new-workspaces.md)中提供
 * 連結實體不適用於從 CDM 資料夾建立的資料流程
 
 
@@ -99,9 +96,9 @@ Power BI Desktop：
 如需有關資料流程的整體資訊，請參閱這些文章：
 
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [在 Power BI Premium 中使用計算實體 (預覽)](service-dataflows-computed-entities-premium.md)
-* [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
-* [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
+* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
+* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 
 如需 Azure 儲存體的詳細資訊，您可以閱讀這些文章：
 * [Azure 儲存體安全性指南](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

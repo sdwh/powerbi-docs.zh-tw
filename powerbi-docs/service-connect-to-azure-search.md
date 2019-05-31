@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c6794fd08255dc3d63381549e7ee068631d49697
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008940"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61179912"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>使用 Power BI 連接到 Azure 搜尋服務
 Azure 搜尋服務流量分析可讓您監視及了解 Azure 搜尋服務的流量。 Power BI 的 Azure 搜尋服務內容套件提供了搜尋資料的詳細深入解析，包括過去 30 天內的搜尋、索引、服務統計資料和延遲。 更多詳細資料請參閱 [Azure 部落格文章](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/)。
@@ -26,10 +26,10 @@ Azure 搜尋服務流量分析可讓您監視及了解 Azure 搜尋服務的流�
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-azure-search/pbi_getdata.png) 
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-azure-search/pbi_getservices.png) 
-3. 選取 [Azure 搜尋服務] \> [取得]。
+3. 選取 [Azure 搜尋服務]  \> [取得]  。
    
    ![](media/service-connect-to-azure-search/azuresearch.png)
 4. 提供已儲存 Azure 搜尋服務分析的資料表儲存體帳戶名稱。
@@ -47,7 +47,7 @@ Azure 搜尋服務流量分析可讓您監視及了解 Azure 搜尋服務的流�
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="system-requirements"></a>系統需求
 Azure 搜尋服務內容套件需要帳戶啟用 Azure 搜尋服務流量分析。

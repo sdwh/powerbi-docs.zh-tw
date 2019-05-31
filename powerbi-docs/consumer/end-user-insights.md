@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661552"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61049073"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>使用 Power BI 在儀表板圖格上檢視資料見解
 儀表板上的每個視覺效果磚都是資料探索的入口。 當您選取磚時，磚會開啟報表，您可以在其中篩選和排序報表後方的資料集，並深入挖掘。 當您執行見解時，Power BI 會為您探索資料。
@@ -30,7 +30,7 @@ ms.locfileid: "56661552"
 當您對儀表板磚執行見解時，Power BI 只會搜尋用來建立這一個儀表板磚的資料。 
 
 1. [開啟儀表板](end-user-dashboards.md)。
-2. 將游標停留在磚上方， 選取省略符號 (...)，然後選擇 [檢視見解]。 
+2. 將游標停留在磚上方， 選取省略符號 (...)，然後選擇 [檢視見解]  。 
 
     ![省略符號功能表](./media/end-user-insights/power-bi-hover.png)
 
@@ -47,7 +47,7 @@ ms.locfileid: "56661552"
 
      ![展開 [篩選] 功能表的見解](./media/end-user-insights/power-bi-insights-on-insights.png)
    
-   * 對見解卡片本身執行見解。 這通常是指**相關的見解**。 在右上角，選取燈泡圖示 ![取得見解圖示](./media/end-user-insights/power-bi-bulb-icon.png) 或 [取得見解]。
+   * 對見解卡片本身執行見解。 這通常是指**相關的見解**。 在右上角，選取燈泡圖示 ![取得見解圖示](./media/end-user-insights/power-bi-bulb-icon.png) 或 [取得見解]  。
      
      ![顯示取得深入資訊圖示的功能表列](./media/end-user-insights/power-bi-autoinsights-tile.png)
      
@@ -55,11 +55,11 @@ ms.locfileid: "56661552"
      
      ![深入解析的深入資訊](./media/end-user-insights/power-bi-insights-on-insights-new.png)
 
-若要返回原始的見解畫布，請選取左上角的 [結束焦點模式]。
+若要返回原始的見解畫布，請選取左上角的 [結束焦點模式]  。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 - **檢視見解**不適用於 DirectQuery，而僅適用於上傳至 Power BI 的資料。
-- **檢視見解**並不適用於所有類型的儀表板磚。 例如，它不適用於自訂視覺效果。<!--[custom visuals](end-user-custom-visuals.md)-->
+- **檢視見解**並不適用於所有類型的儀表板磚。 比方說，它不適用於自訂視覺效果。<!--[custom visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>後續步驟

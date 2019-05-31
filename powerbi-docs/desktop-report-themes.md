@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215727"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60989142"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用報表主題
 透過**報表主題**，您可以將某個色彩主題套用至整個報表，例如公司色彩、季節性色彩，或其他色彩主題。 當您套用**報表主題**時，報表中的所有視覺效果都會使用您選取之主題中的色彩。 有少數例外狀況，此文章稍後將進行說明。
@@ -24,21 +24,7 @@ ms.locfileid: "56215727"
 
 當您套用**報表主題**時，您需要使用基本架構的 JSON 檔案。 接著，將此 JSON 檔案匯入 Power BI Desktop，並將它套用到您的報表。 JSON 檔案結構及匯入程序既快速又容易 (只需按幾個按鈕)。
 
-從 2017 年 9 月版的 **Power BI Desktop** 開始，您可以使用 JSON 檔案來定義更多報表主題項目。 您也可以將幾乎所有的項目進行自訂和標準化。 若要自訂，您要使用可在 [格式設定] 窗格中手動調整的 JSON 檔案。 2017 年 9 月版本 (和更新版本) 的目標是提供對於報表外觀與風格的完整控制，達到細微的層級。
-
-### <a name="enable-report-themes"></a>啟用報表主題
-從 2018 年 8 月版的 **Power BI Desktop** 開始，報表主題已正式推出，不需要啟用。 
-
-如果您使用舊版的 **Power BI Desktop**，可採取下列步驟將它以預覽功能方式啟用： 
-
-1. 選取 [檔案] > [選項及設定] > [選項] > [預覽功能]。 
-2. 接下來，選取 [自訂報表主題] 旁的核取方塊。 
-
-完成選取後，必須重新啟動 **Power BI Desktop**。
-
-![自訂報表主題](media/desktop-report-themes/report-themes_2.png)
-
-強烈建議您升級到最新版的 **Power BI Desktop**，您可以從[取得 Power BI Desktop](desktop-get-the-desktop.md) 中的連結取得。 
+您也可以將幾乎所有的項目進行自訂和標準化。 若要自訂，您要使用可在 [格式設定]  窗格中手動調整的 JSON 檔案。 目標是要讓您完整控制報表外觀與風格，細微的層級的方式。
 
 ## <a name="how-report-themes-work"></a>報表主題的運作方式
 若要在 Power BI Desktop 報表中套用報表主題，請從可用的內建報表主題中選取，或匯入自訂的主題。
@@ -54,7 +40,7 @@ ms.locfileid: "56215727"
 | 日落    | ![#B6B0FF](https://placehold.it/20/B6B0FF/000000?text=+) ![#3049AD](https://placehold.it/20/3049AD/000000?text=+) ![#FF994E](https://placehold.it/20/FF994E/000000?text=+) ![#C83D95](https://placehold.it/20/C83D95/000000?text=+) ![#FFBBED](https://placehold.it/20/FFBBED/000000?text=+) ![#42F9F9](https://placehold.it/20/42F9F9/000000?text=+) ![#00B2D9](https://placehold.it/20/00B2D9/000000?text=+) ![#FFD86C](https://placehold.it/20/FFD86C/000000?text=+)|
 | 暮光  | ![#F17925](https://placehold.it/20/F17925/000000?text=+) ![#004753](https://placehold.it/20/004753/000000?text=+) ![#CCAA14](https://placehold.it/20/CCAA14/000000?text=+) ![#4B4C4E](https://placehold.it/20/4B4C4E/000000?text=+) ![#D82C20](https://placehold.it/20/D82C20/000000?text=+) ![#A3D0D4](https://placehold.it/20/A3D0D4/000000?text=+) ![#536F18](https://placehold.it/20/536F18/000000?text=+) ![#46ABB0](https://placehold.it/20/46ABB0/000000?text=+)|
 
-若要從可用的內建報表佈景主題中選取，請從 [首頁] 功能區選取 [切換佈景主題] 按鈕，然後從下拉式功能表選取其中一個包含的佈景主題。
+若要從可用的內建報表佈景主題中選取，請從 [首頁]  功能區選取 [切換佈景主題]  按鈕，然後從下拉式功能表選取其中一個包含的佈景主題。
 
 ![選取報表主題](media/desktop-report-themes/report-themes_2a.png)
 
@@ -62,7 +48,7 @@ ms.locfileid: "56215727"
 
 ### <a name="importing-report-themes"></a>匯入報表佈景主題
 
-若要匯入自訂的報表主題，請從 [常用] 功能區選取 [切換主題] 按鈕。 然後，從下拉式功能表選取 [匯入主題]。
+若要匯入自訂的報表主題，請從 [常用]  功能區選取 [切換主題]  按鈕。 然後，從下拉式功能表選取 [匯入主題]  。
 
 ![匯入主題](media/desktop-report-themes/report-themes_3.png)
 
@@ -94,8 +80,8 @@ ms.locfileid: "56215727"
 
 若要將樣式套用至**表格**或**矩陣**視覺效果，請採取下列步驟： 
 1. 選取視覺效果。 
-2. 然後，在 [視覺效果] 窗格中，選取 [格式] 部分。
-3. 展開 [矩陣樣式]，然後從 [樣式] 下拉式清單中選取樣式。
+2. 然後，在 [視覺效果]  窗格中，選取 [格式]  部分。
+3. 展開 [矩陣樣式]  ，然後從 [樣式]  下拉式清單中選取樣式。
 
 ![樣式下拉式清單](media/desktop-report-themes/report-themes_7.png)
 
@@ -113,7 +99,7 @@ ms.locfileid: "56215727"
 
 您可以從該處輸入代表所選色彩的自訂色彩十六進位碼。
 
-從 2017 年 9 月版的 **Power BI Desktop** 開始，JSON 檔案可以更詳盡。 在 JSON 檔案中，您只會定義想調整的格式設定，而任何「未」在 JSON 檔案中指定的一切都會還原為 Power BI 預設設定。
+在 JSON 檔案中，您只會定義想調整的格式設定，而任何「未」  在 JSON 檔案中指定的一切都會還原為 Power BI 預設設定。
 
 建立 JSON 檔案的優點有很多。 例如，您可以指定所有圖表使用字型大小 12，或特定視覺效果使用特定字型家族。 或者，您可以關閉特定圖表類型的資料標籤。
 
@@ -124,23 +110,23 @@ ms.locfileid: "56215727"
 ## <a name="how-report-theme-colors-stick-to-your-reports"></a>如何讓報表主題色彩與報表保持一致
 當您將報表發佈至 **Power BI 服務**時，會保留其報表主題色彩。
 
-[格式] 面板的 [資料色彩] 區段會反映您的報表主題。 例如，在我們從**聖派翠克節**主題中套用數種綠色和棕色色彩之後，選取視覺效果。 然後，我們移至 [格式] > [資料色彩]，並查看下列資訊：
+[格式]  面板的 [資料色彩]  區段會反映您的報表主題。 例如，在我們從**聖派翠克節**主題中套用數種綠色和棕色色彩之後，選取視覺效果。 然後，我們移至 [格式] > [資料色彩]  ，並查看下列資訊：
 
 ![視覺效果](media/desktop-report-themes/report-themes_8.png)
 
-看到所有綠色嗎？ 這是因為這些色彩是已匯入並套用之 [報表主題] 的一部分。
+看到所有綠色嗎？ 這是因為這些色彩是已匯入並套用之 [報表主題]  的一部分。
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>報表主題色彩與報表不一致的情況
-假設您套用自訂色彩集 (或個別色彩) 到視覺效果中的特定資料點。 當您套用報表主題時，將「不會」覆寫自訂的資料點色彩。
+假設您套用自訂色彩集 (或個別色彩) 到視覺效果中的特定資料點。 當您套用報表主題時，將「不會」  覆寫自訂的資料點色彩。
 
-或許您也想要透過使用 [主題色彩] 區段來手動設定資料點色彩。 當您套用新的報表主題時，色彩將「不會」更新。 若您想要還原為您的預設色彩，以便在套用新的報表主題時更新這些色彩，可以在 [佈景主題色彩] 調色盤中選取 [還原為預設值]。
+或許您也想要透過使用 [主題色彩] 區段來手動設定資料點色彩。 當您套用新的報表主題時，色彩將「不會」  更新。 若您想要還原為您的預設色彩，以便在套用新的報表主題時更新這些色彩，可以在 [佈景主題色彩]  調色盤中選取 [還原為預設值]  。
 
 ![還原為預設](media/desktop-report-themes/report-themes_9.png)
 
-此外，許多 [自訂視覺效果] 將不會套用至報表主題。
+此外，許多 [自訂視覺效果]  將不會套用至報表主題。
 
 ## <a name="report-theme-files-you-can-use-right-now"></a>您可以立即使用的報表主題檔案
-要開始使用 [報表主題] 嗎？ 以下是一些現成的報表主題 JSON 檔案，您可以下載並匯入您的 **Power BI Desktop** 報表。 我們也包含本文章中套用至報表之報表主題的影像。
+要開始使用 [報表主題]  嗎？ 以下是一些現成的報表主題 JSON 檔案，您可以下載並匯入您的 **Power BI Desktop** 報表。 我們也包含本文章中套用至報表之報表主題的影像。
 
 * 宣佈初次發行**報表主題**之[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)中所使用的[主題](https://go.microsoft.com/fwlink/?linkid=843924)，稱為 [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924)。
 
@@ -154,7 +140,7 @@ ms.locfileid: "56215727"
 
   ![The Apothecary.json 主題](media/desktop-report-themes/report-themes_12.png)
 
-* 最後，以下是情人節主題。
+* 最後，以下是情人節  主題。
 
   ![情人節主題](media/desktop-report-themes/report-themes_13.png)
 
@@ -170,7 +156,7 @@ ms.locfileid: "56215727"
     }
 ```
 
-[報表主題] 可將您的 Power BI Desktop 報表設定為反映您、您的組織，甚至是當季或假日的色彩。 
+[報表主題]  可將您的 Power BI Desktop 報表設定為反映您、您的組織，甚至是當季或假日的色彩。 
 
 以下是您可以用來當作起點的更多報表主題：
 
@@ -184,7 +170,7 @@ ms.locfileid: "56215727"
 
 * **name**：主題名稱，這是唯一必要的欄位。
 * **dataColors**：可用於 Power BI Desktop 視覺效果資料的十六進位碼色彩代碼清單。 此清單可隨您喜好包含任意數量的色彩。
-* **background**、**foreground** 和 **tableAccent**：應在各種類型視覺效果中套用的色彩。 **前景**適用於文字方塊的文字、KPI 目標文字、多列卡片文字、卡值文字、量測計圖說文字、垂直交叉分析篩選器項目文字，以及**資料表**和**矩陣**總計與值的文字。 **background** 會套用至按鈕填滿，以及組合圖標籤背景。 這些色彩的使用方式，取決於所套用的特定視覺效果。 「資料表」和「矩陣」視覺效果預設會套用這些樣式。
+* **background**、**foreground** 和 **tableAccent**：應在各種類型視覺效果中套用的色彩。 **前景**適用於文字方塊的文字、KPI 目標文字、多列卡片文字、卡值文字、量測計圖說文字、垂直交叉分析篩選器項目文字，以及**資料表**和**矩陣**總計與值的文字。 **background** 會套用至按鈕填滿，以及組合圖標籤背景。 這些色彩的使用方式，取決於所套用的特定視覺效果。 「資料表」  和「矩陣」  視覺效果預設會套用這些樣式。
 
 若要建立延伸格式 JSON 檔案，並且可更詳細而細微地控制格式設定，您還需要新增 **visualStyles** 區段到 JSON 檔案中。 您要把格式特性巢狀放置在 **visualStyles** 區段。 **visualStyles** 區段看起來類似下列格式：
 
@@ -230,7 +216,7 @@ ms.locfileid: "56215727"
 | 量測計 |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
-| image |
+| 映像 |
 | KPI |
 | lineChart |
 | lineClusteredColumnComboChart |

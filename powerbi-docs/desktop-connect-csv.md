@@ -12,32 +12,32 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f1e02197f36da66a64fac95209fe8fabaa67b6c0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514166"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>在 Power BI Desktop 中連接至 CSV 檔案
 從 Power BI Desktop 連接至以逗號分隔的值 (*CSV*) 檔案與連接至 Excel 活頁簿十分相似。 兩者都很簡單，而本文章會引導您了解如何連接至任何您具有存取權的 CSV 檔案。
 
-首先，在 Power BI Desktop 中，從 [主資料夾] 功能區選取 [取得資料] > [CSV]。
+首先，在 Power BI Desktop 中，從 [主資料夾]  功能區選取 [取得資料] > [CSV]  。
 
 ![](media/desktop-connect-csv/connect-to-csv_1.png)
 
-從出現的 [開啟] 對話方塊中選取您的 CSV 檔。
+從出現的 [開啟]  對話方塊中選取您的 CSV 檔。
 
 ![](media/desktop-connect-csv/connect-to-csv_2.png)
 
-當您選取 [開啟] 時，Power BI Desktop 會存取檔案並判斷特定的檔案屬性，例如檔案來源、分隔符號類型，以及應該使用多少資料列來偵測檔案中的資料類型。
+當您選取 [開啟]  時，Power BI Desktop 會存取檔案並判斷特定的檔案屬性，例如檔案來源、分隔符號類型，以及應該使用多少資料列來偵測檔案中的資料類型。
 
-這些檔案屬性和選項會顯示在 [CSV 匯入] 對話方塊視窗頂端的下拉式清單選取項目中，如下所示。 藉由從任何下拉式清單選取器中選擇另一個選項，您可以手動變更任何偵測到的設定。
+這些檔案屬性和選項會顯示在 [CSV 匯入]  對話方塊視窗頂端的下拉式清單選取項目中，如下所示。 藉由從任何下拉式清單選取器中選擇另一個選項，您可以手動變更任何偵測到的設定。
 
 ![](media/desktop-connect-csv/connect-to-csv_3.png)
 
-當您滿意所做的選擇時，您可以選取 [載入] 將檔案匯入 Power BI Desktop，或者您可以選取 [編輯] 開啟 [查詢編輯器]，並且在匯入之前進一步修改或轉換資料。
+當您滿意所做的選擇時，您可以選取 [載入]  將檔案匯入 Power BI Desktop，或者您可以選取 [編輯]  開啟 [查詢編輯器]  ，並且在匯入之前進一步修改或轉換資料。
 
-一旦您將資料載入 Power BI Desktop，您會看到 [欄位] 窗格中的資料表和其資料行 (其會顯示為 Power BI Desktop 中的欄位)，就位於 Power BI Desktop 中 [報告檢視] 的右側。
+一旦您將資料載入 Power BI Desktop，您會看到 [欄位]  窗格中的資料表和其資料行 (其會顯示為 Power BI Desktop 中的欄位)，就位於 Power BI Desktop 中 [報告檢視] 的右側。
 
 ![](media/desktop-connect-csv/connect-to-csv_4.png)
 

@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 58c5063796a575498ab1c402f0be6aa2492e9060
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289225"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61233881"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的銷售與行銷範例：觀看導覽
 
@@ -35,13 +35,13 @@ VanArsdel 有許多競爭對手但仍是該產業的市場領導者。 CMO 想�
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
-2. 在左下角選取 [取得資料]。
+2. 在左下角選取 [取得資料]  。
    
     ![](media/sample-datasets/power-bi-get-data.png)
-3. 在顯示的 [取得資料] 頁面上，選取 [範例]。
+3. 在顯示的 [取得資料] 頁面上，選取 [範例]  。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 選取 [銷售與行銷範例]，然後選擇 [連線]。  
+4. 選取 [銷售與行銷範例]  ，然後選擇 [連線]  。  
   
    ![銷售與行銷範例](media/sample-sales-and-marketing/sales9.png)
    
@@ -56,7 +56,7 @@ VanArsdel 有許多競爭對手但仍是該產業的市場領導者。 CMO 想�
  * [銷售與行銷範例](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
-您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529785)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。
+您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529785)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]  。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>儀表板告訴我們什麼？
 讓我們開始瀏覽儀表板並查看 CMO 已釘選的圖格。 我們可以看到我們的市場佔有率、銷售和人氣的相關資訊。 接著，我們可以看到這些資料是依區域、時間和競爭對手細分。
@@ -66,7 +66,7 @@ VanArsdel 有許多競爭對手但仍是該產業的市場領導者。 CMO 想�
 * 我們最大的競爭對手是 Aliqui (如中間直條圖圖格中所示)。
 * 我們大多數的業務都在東部和中部地區。
 * 底部折線圖顯示我們在 6 月份的下滑不是季節性情況 – 因為沒有任何競爭對手顯示相同的趨勢。
-* 其中兩個 [單位總量] 圖格會依市場區隔和地區/製造商顯示銷售單位數量。 我們產業最大的市場區隔是 [產能]  和 [便利性] 。
+* 其中兩個 [單位總量] 圖格會依市場區隔和地區/製造商顯示銷售單位數量。 我們產業最大的市場區隔是 [產能]  和 [便利性]  。
 
 ### <a name="use-qa-to-dig-a-little-deeper"></a>使用問與答更深入鑽研
 #### <a name="which-segments-drive-our-sales-does-it-match-the-industry-trend"></a>哪些市場區隔可帶動銷售？ 它符合產業趨勢嗎？
@@ -100,7 +100,7 @@ VanArsdel 有許多競爭對手但仍是該產業的市場領導者。 CMO 想�
    a.  展開右側的 [篩選] 窗格。  
    b.  按一下以選取視覺效果。  
    c.  在視覺效果層級篩選下方，已將**市場區隔**篩選為只包含**便利性**和**合適性**.  
-   d.  選取 [市場區隔] 以展開該區段，然後查看 [產能] 並新增該市場區隔，以修改篩選。  
+   d.  選取 [市場區隔] 以展開該區段，然後查看 [產能]  並新增該市場區隔，以修改篩選。  
 3. 在 [VanArsdel 月份單位總量] 中，選取圖例中黑色的 [是] 以依 VanArsdel 交叉篩選頁面。 請注意，我們並未在 [產能] 市場區隔中參與競爭。
 4. 再次選取黑色的 [是] 以移除篩選。
 5. 檢視折線圖。 它會顯示我們的每月市場佔有率和循環 12 個月的市場佔有率。 循環 12 個月的資料可緩和每個月的波動並顯示長期趨勢。 選取 [便利性] 和 [合適性] 橫條圖，以查看每個市場區隔的市場佔有率波動情況。 [合適性] 市場區段顯示的市場佔有率波動比 [便利性] 市場區隔更大。

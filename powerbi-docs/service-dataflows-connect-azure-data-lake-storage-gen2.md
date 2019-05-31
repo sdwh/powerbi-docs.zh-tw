@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/10/2019
+ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 875f30a6e051561f20a7ca54bc48343dd7248e79
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 79bba3b65d508716bc451c1c4876a8674242fcc2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174744"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138301"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體 (預覽)
 
-您可以設定 Power BI 工作區以將資料流程儲存在您組織的 Azure Data Lake Storage Gen2 帳戶中。 此文章描述達到此目的所需的一般步驟，並會在過程中提供指導方針和最佳做法。 設定工作區以將資料流程定義和資料檔案儲存在 Data Lake 中能帶來一些優點，其中幾個優點如下：
+您可以設定 Power BI 工作區以將資料流程儲存在您組織的 Azure Data Lake Storage Gen2 帳戶中。 本文會描述達到此目的所需的一般步驟，並會在過程中提供指引和最佳做法。 設定工作區以將資料流程定義和資料檔案儲存在 Data Lake 中能帶來一些優點，其中幾個優點如下：
 
 * Azure Data Lake Storage Gen2 能為資料提供極具彈性的儲存體設施
-* 您 IT 部門的開發人員可以利用資料流程資料和定義檔案來運用 Azure 資料和人工智慧 (AI) 服務，如[來自 Azure 資料服務的 GitHub 範例](https://aka.ms/cdmadstutorial) \(英文\) 中所示範
-* 可讓您組織內的開發人員使用適用於資料流程和 Azure 的開發人員資源，將資料流程資料整合至內部應用程式和企業營運解決方案中
+* 資料流程的資料和定義檔案可以利用您的 IT 部門開發人員運用 Azure 的資料及人工智慧 (AI) 服務中所示[從 Azure 資料服務的 GitHub 範例](https://aka.ms/cdmadstutorial)
+* 可讓您組織中的開發人員將資料流程資料整合到內部應用程式和業務的解決方案，適用於資料流程和 Azure 中使用開發人員資源
 
 若要將 Azure Data Lake Storage Gen2 用於資料流程，您需要下列項目：
 
@@ -31,11 +31,13 @@ ms.locfileid: "58174744"
 * **全域系統管理員帳戶**：這是連線及設定 Power BI 以將資料流程定義和資料儲存在您 Azure Data Lake Storage Gen2 帳戶中所需的帳戶
 * **Azure 訂用帳戶**：您必須要有 Azure 訂用帳戶，才能使用 Azure Data Lake Storage Gen2
 * **資源群組**：使用您已擁有的資源群組，或建立新的資源群組
-* **已啟用 Data Lake Storage Gen2 (預覽) 功能的 Azure 儲存體帳戶**：若要連線至 Azure Data Lake Storage Gen2，您必須註冊其公開預覽
+* **Azure 儲存體帳戶已啟用的 Data Lake 儲存體 Gen2 功能** 
 
 > [!TIP]
 > 如果您沒有 Azure 訂用帳戶，請先建立[免費帳戶](https://azure.microsoft.com/free/)，再開始進行。
 
+> [!WARNING]
+> 設定資料流程儲存位置之後，便不能再變更它。 請參閱[考量與限制](#considerations-and-limitations)附近的其他重要的元素，請考慮本文結尾的區段。
 
 ## <a name="prepare-your-azure-data-lake-storage-gen2-for-power-bi"></a>針對 Power BI 準備您的 Azure Data Lake Storage Gen2
 
@@ -43,23 +45,20 @@ ms.locfileid: "58174744"
 
 1. 儲存體帳戶必須建立在與您 Power BI 租用戶相同的 AAD 租用戶中。
 2. 儲存體帳戶必須建立在與您 Power BI 租用戶相同的區域中。 若要判斷 Power BI 租用戶的所在位置，請參閱[我的 Power BI 租用戶位於何處](service-admin-where-is-my-tenant-located.md)。
-3. 儲存體帳戶必須啟用「階層命名空間」功能。
-4. 必須將儲存體帳戶的「讀者」角色授與 Power BI 服務。
+3. 儲存體帳戶必須啟用「階層命名空間」  功能。
+4. 必須將儲存體帳戶的「讀者」  角色授與 Power BI 服務。
 5. 必須建立名為 **powerbi** 的檔案系統。
 6. 必須授權讓 Power BI 服務存取您建立的 **powerbi** 檔案系統。
 
 下列各節將詳細逐步解說設定 Azure Data Lake Storage Gen2 帳戶所需的步驟。
 
-> [!NOTE]
-> 資料流程功能目前處於預覽狀態，而且可能會在公開上市之前有所變更及更新。
-
 ### <a name="create-the-storage-account"></a>建立儲存體帳戶
 
 請依照[建立 Azure Data Lake Storage Gen2 儲存體帳戶](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account) \(英文\) 一文中的步驟進行操作。
 
-1. 確定所選取的位置與您的 Power BI 租用戶相同，並將儲存體設定為 [StorageV2 (一般用途 v2)]
+1. 確定所選取的位置與您的 Power BI 租用戶相同，並將儲存體設定為 [StorageV2 (一般用途 v2)] 
 2. 確定啟用階層命名空間功能
-3. 建議將複寫設定設為 [讀取權限異地備援儲存體 (RA-GRS)]
+3. 建議將複寫設定設為 [讀取權限異地備援儲存體 (RA-GRS)] 
 
 ### <a name="grant-the-power-bi-service-a-reader-role"></a>將讀者角色授與 Power BI 服務
 
@@ -67,11 +66,13 @@ ms.locfileid: "58174744"
 
 請依照[指派內建的 RBAC 角色](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)中的步驟進行。
 
-在 [新增角色指派] 視窗中，選取 [讀者] 角色以指派給 Power BI 服務。 然後使用搜尋來尋找 **Power BI 服務**。 下圖顯示已指派給 Power BI 服務的 [讀者] 角色。
+在 [新增角色指派]  視窗中，選取 [讀者]  角色以指派給 Power BI 服務。 然後使用搜尋來尋找 **Power BI 服務**。 下圖顯示已指派給 Power BI 服務的 [讀者]  角色。
 
 ![已指派 [讀者] 角色給 Power BI 服務](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
 
-注意：請等待至少 30 分鐘讓權限從入口網站傳送到 Power BI。 當您在入口網站中變更權限時，均應先等候 30 分鐘，待 Power BI 中也反映變更後再重試。 
+
+> [!NOTE]
+> 允許在至少 30 分鐘的時間的權限傳播到 Power BI，從入口網站。 每當您變更權限，在入口網站中，允許 30 分鐘的時間才會反映在 Power BI 中的這些權限。 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>為 Power BI 建立檔案系統
@@ -100,13 +101,13 @@ ms.locfileid: "58174744"
 
 ### <a name="grant-power-bi-permissions-to-the-file-system"></a>將檔案系統權限授與 Power BI
 
-若要授與檔案系統的權限，您需套用能授與 Power BI 服務存取權的「存取控制清單 (ACL)」設定。 此作法的第一步是取得您租用戶中的 Power BI 服務識別。 您可以在 Azure 入口網站的 [企業應用程式] 區段中，檢視您的 Azure Active Directory (AAD) 應用程式。
+若要授與檔案系統的權限，您需套用能授與 Power BI 服務存取權的「存取控制清單 (ACL)」設定。 此作法的第一步是取得您租用戶中的 Power BI 服務識別。 您可以在 Azure 入口網站的 [企業應用程式]  區段中，檢視您的 Azure Active Directory (AAD) 應用程式。
 
 若要尋找您的租用戶應用程式，請遵循下列步驟：
 
-1. 在 [Azure 入口網站](https://portal.azure.com/)中，從左側導覽面板中選取 [Azure Active Directory]。
-2. 在 [Azure Active Directory] 刀鋒視窗中，選取 [企業應用程式]。
-3. 從 [應用程式類型] 下拉式功能表中，選取 [所有應用程式]，然後選取 [套用]。 隨即會顯示您租用戶應用程式的範例，類似下圖。
+1. 在 [Azure 入口網站](https://portal.azure.com/)中，從左側導覽面板中選取 [Azure Active Directory]  。
+2. 在 [Azure Active Directory]  刀鋒視窗中，選取 [企業應用程式]  。
+3. 從 [應用程式類型]  下拉式功能表中，選取 [所有應用程式]  ，然後選取 [套用]  。 隨即會顯示您租用戶應用程式的範例，類似下圖。
 
     ![AAD 企業應用程式](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 
@@ -114,11 +115,11 @@ ms.locfileid: "58174744"
 
     ![搜尋 Power 應用程式](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. 從您的搜尋結果中，選取並複製 Power BI 服務和 Power BI Premium 的「物件識別碼」。 請準備好在後續步驟中貼上這些值。
+5. 選取並複製您的搜尋結果中的兩個物件識別碼，Power BI 服務和 Power Query 線上。 請準備好在後續步驟中貼上這些值。
 
-7. 接著，使用 [Azure 儲存體總管] 來瀏覽至您在上一節中建立的 *powerbi* 檔案系統。 請遵循[使用 Azure 儲存體總管來設定檔案和目錄層級權限](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) \(英文\) 一文之[管理存取權](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)一節中的指示。
+7. 接著，使用 [Azure 儲存體總管]  來瀏覽至您在上一節中建立的 *powerbi* 檔案系統。 請遵循[使用 Azure 儲存體總管來設定檔案和目錄層級權限](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) \(英文\) 一文之[管理存取權](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)一節中的指示。
 
-8. 針對在步驟 5 中所收集兩個 Power BI 物件識別碼，個別為它們指派您 *powerbi* 檔案系統的 [讀取]、[寫入]、[執行] [存取權] 和 [預設] ACL。
+8. 針對在步驟 5 中所收集兩個 Power BI 物件識別碼，個別為它們指派您 *powerbi* 檔案系統的 [讀取]  、[寫入]  、[執行]  [存取權] 和 [預設] ACL。
 
    ![為兩者指派所有三個權限](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
@@ -126,28 +127,28 @@ ms.locfileid: "58174744"
 
    ![接著指派 [寫入] 和 [執行]](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
-10. 此外，針對 [其他]，也指派 [執行] [存取權] 及 [預設] ACL。
+10. 此外，針對 [其他]  ，也指派 [執行]  [存取權] 及 [預設] ACL。
 
     ![最後針對其他項目指派 [執行] 權限](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 
 ## <a name="connect-your-azure-data-lake-storage-gen2-to-power-bi"></a>將 Azure Data Lake Storage Gen2 連線至 Power BI
 
-在 Azure 入口網站中設定好 Azure Data Lake Storage Gen2 帳戶之後，您需在 **Power BI 管理入口網站**中將它連線至 Power BI。 您還需在 Power BI 管理入口網站的 [資料流程儲存體 (預覽)] 設定區段中管理 Power BI 資料流程。 如需有關啟動和基本使用方面的指導方針，請參閱[如何取得管理入口網站](service-admin-portal.md)，以了解詳細資訊。
+一旦您已設定您的 Azure Data Lake 儲存體 Gen2 帳戶在 Azure 入口網站中，您將它連接到 Power BI **Power BI 管理入口網站**。 您也可以管理 Power BI 中的資料流程儲存體**資料流程儲存體**的 Power BI 管理入口網站的 [設定] 區段。 如需有關啟動和基本使用方面的指引，請參閱[如何取得管理入口網站](service-admin-portal.md)，以了解詳細資訊。
 
 您可以透過下列步驟連線您的 **Azure Data Lake Storage Gen2** 帳戶：
 
-1. 瀏覽至 **Power BI 管理入口網站**的 [資料流程設定 (預覽)] 索引標籤
+1. 瀏覽至**資料流程設定**索引標籤**Power BI 管理入口網站**
 
-    ![Power BI 管理入口網站](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_08.jpg) 
+    ![Power BI 管理入口網站](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-08b.png) 
 
-2. 選取 [連線您的 Azure Data Lake Storage Gen2 Preview] 按鈕。 下列視窗隨即出現。
+2. 選取 [**連接您的 Azure Data Lake 儲存體 Gen2** ] 按鈕。 下列視窗隨即出現。
 
     ![Azure Data Lake Storage Gen2](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_09.jpg) 
 
-3. 提供「儲存體帳戶」的 [訂用帳戶識別碼]。
-4. 提供儲存體帳戶建立所在的 [資源群組名稱]。
-5. 提供 [儲存體帳戶名稱]。
-6. 選取 [連接]。
+3. 提供「儲存體帳戶」的 [訂用帳戶識別碼]  。
+4. 提供儲存體帳戶建立所在的 [資源群組名稱]  。
+5. 提供 [儲存體帳戶名稱]  。
+6. 選取 [連接]  。
 
 成功完成那些步驟之後，您的 Azure Data Lake Storage Gen2 帳戶便會連線到 Power BI。 
 
@@ -161,7 +162,7 @@ ms.locfileid: "58174744"
 
 資料流程定義和資料檔案預設會儲存在 Power BI 所提供的儲存體中。 若要存取您自己儲存體帳戶中的資料流程檔案，工作區系統管理員必須先設定工作區，以允許將資料流程指派及儲存在新的儲存體帳戶中。 您必須先在 **Power BI 管理入口網站**中將儲存體指派權限授與工作區系統管理員，該系統管理員才能設定資料流程儲存體設定。
 
-若要授與儲存體指派權限，請前往 **Power BI 管理入口網站**中的 [資料流程設定 (預覽)] 索引標籤。 您必須將 [允許工作區系統管理員將工作區指派給此儲存體帳戶] 的選項按鈕設定為 [允許]。 啟用該滑桿之後，請選取 [套用] 按鈕以讓變更生效。 
+若要授與儲存體指派權限，請前往**資料流程設定**索引標籤中**Power BI 管理入口網站**。 您必須將 [允許工作區系統管理員將工作區指派給此儲存體帳戶]  的選項按鈕設定為 [允許]  。 啟用該滑桿之後，請選取 [套用]  按鈕以讓變更生效。 
 
 ![允許系統管理員指派工作區](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_10.jpg) 
 
@@ -183,7 +184,7 @@ Power BI Desktop 客戶無法存取儲存在 **Azure Data Lake Storage 帳戶** 
 
 1. Anna 建立了新的應用程式工作區，並加以設定以儲存組織 Data Lake 中的資料流程。 
 2. Ben 是 Anna 所建立之工作區的成員，他想要利用 Power BI Desktop 和資料流程連接器，從 Anna 建立的資料流程取得資料。
-3. Ben 會收到類似下圖的錯誤，因為他並未獲得授權以存取該資料流程在 Lake 中的 CDM 資料夾
+3. Ben 會收到類似的錯誤，因為他未授權在 lake 中的資料流程 CDM 資料夾。
 
 常見的問題和回答如下：
 
@@ -198,7 +199,7 @@ Power BI Desktop 客戶無法存取儲存在 **Azure Data Lake Storage 帳戶** 
 
 ## <a name="next-steps"></a>後續步驟
 
-此文章已提供有關如何連線 Azure Data Lake Gen2 以作為資料流程儲存體的指導方針。 如需其他資訊，請參閱下列文章：
+本文已提供有關如何連線 Azure Data Lake Gen2 以作為資料流程儲存體的指引。 如需其他資訊，請參閱下列文章：
 
 如需有關資料流程、CDM 和 Azure Data Lake Storage Gen2 的詳細資訊，請參閱下列文章：
 
@@ -209,9 +210,9 @@ Power BI Desktop 客戶無法存取儲存在 **Azure Data Lake Storage 帳戶** 
 如需有關資料流程的整體資訊，請參閱這些文章：
 
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [在 Power BI Premium 中使用計算實體 (預覽)](service-dataflows-computed-entities-premium.md)
-* [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
-* [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
+* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
+* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 
 如需 Azure 儲存體的詳細資訊，您可以閱讀這些文章：
 * [Azure 儲存體安全性指南](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a593a918c59452c922f6061189ad6c2885478aad
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 02fbe26fc4d0c8be0439ca656151ef7712d201b6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174859"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61398940"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI 支援的語言和國家 (地區)
 
-本文提供 Power BI 服務、Power BI Desktop 和 Power BI 文件的支援語言和國家/地區清單。
+本文列出支援的語言和國家/地區的 Power BI 服務、 Power BI Desktop 和 Power BI 文件。
 
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>可使用 Power BI 的國家與地區
 如需可使用 Power BI 的國家與地區清單，請參閱[國際供應清單](https://products.office.com/business/international-availability)。 
@@ -73,17 +73,17 @@ ms.locfileid: "58174859"
 * 越南文 - Tiếng Việt
 
 ### <a name="whats-translated"></a>翻譯的項目
-功能表、按鈕、訊息和體驗的其他項目會翻譯成您的語言，讓您能更容易瀏覽並與 Power BI 互動。
+功能表、 按鈕、 訊息和其他項目到您的語言的經驗，會將轉譯 power BI。
 
 某些功能目前僅提供英文版本：
 
-* Power BI 在您連接到 Microsoft Dynamics CRM、Google Analytics、Salesforce 等服務時，所為您建立的儀表板和報表。 (您仍然可以用自己的語言建立儀表板和報表。)
+* 儀表板和報表，Power BI 會建立，當您連接到 Microsoft Dynamics CRM、 Google Analytics 和 Salesforce 等服務。 在您自己的語言中，您仍然可以建立您自己的儀表板和報表。
 * 使用問答集瀏覽您的資料。
 
 我們正致力於將額外功能帶入其他語言，敬請期待。 
 
 ### <a name="choose-your-language-in-the-power-bi-service"></a>選擇 Power BI 服務的語言
-1. 在 Power BI 服務中，選取**設定**圖示![設定圖示](media/supported-languages-countries-regions/pbi_settings_icon.png) > [設定]。
+1. 在 Power BI 服務中，選取**設定**圖示![設定圖示](media/supported-languages-countries-regions/pbi_settings_icon.png) > [設定]  。
 2. 在 **一般** 索引標籤 > **語言**。
 3. 選取您的語言 > **套用**。
 
@@ -91,18 +91,18 @@ ms.locfileid: "58174859"
 Power BI 會根據您電腦上的語言喜好設定偵測您的語言。 存取及變更這些喜好設定的方式可能會根據您的作業系統和瀏覽器而有所不同。 以下是從 Internet Explorer 和 Google Chrome 存取這些喜好設定的方式。
 
 #### <a name="internet-explorer-version-11"></a>Internet Explorer (11 版)
-1. 按一下瀏覽器視窗右上角的 [工具] 按鈕：
+1. 按一下瀏覽器視窗右上角的 [工具]  按鈕：
    
    ![Internet Explorer [工具] 按鈕](media/supported-languages-countries-regions/languages1.png)
-2. 按一下 [網際網路選項] 。
+2. 按一下 [網際網路選項]  。
 3. 在 [網際網路選項] 對話方塊，[一般] 索引標籤的 [外觀] 下，按一下 [語言]  按鈕。
 
 #### <a name="google-chrome-version-42"></a>Google Chrome (42 版)
 1. 按一下瀏覽器視窗右上角的 [功能表] 按鈕：
    
    ![Chrome 功能表按鈕](media/supported-languages-countries-regions/languages2.png)
-2. 按一下 [設定] 。
-3. 按一下 [顯示進階設定] 。
+2. 按一下 [設定]  。
+3. 按一下 [顯示進階設定]  。
 4. 在 [語言] 下按一下 [語言和輸入設定]  按鈕。
 5. 按一下 **新增**，選取語言，然後按一下 **確定**。
    
@@ -125,10 +125,10 @@ Power BI 會根據您電腦上的語言喜好設定偵測您的語言。 存取�
 ### <a name="choose-a-language-for-power-bi-desktop-installed-from-the-windows-store"></a>選擇從 Windows 市集安裝的 Power BI desktop 語言
 1. 從 Windows 市集[安裝 Power BI Desktop](http://aka.ms/pbidesktopstore)。
 2. 若要變更語言，請在您的電腦上搜尋 **Windows 設定**。 
-3. 選取 [時間與語言]。
+3. 選取 [時間與語言]  。
    
      ![Windows [設定] 對話方塊](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
-4. 選取 [地區與語言]、選取語言，然後選取 [設為預設值]。
+4. 選取 [地區與語言]  、選取語言，然後選取 [設為預設值]  。
    
      ![Windows [語言設定] 對話方塊](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
    
@@ -142,14 +142,14 @@ Power BI 會根據您電腦上的語言喜好設定偵測您的語言。 存取�
 若要變更 Power BI Desktop 的語言，請回到下載頁面，下載其他的語言版本。
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>選擇用於將資料匯入 Power BI Desktop 的地區設定
-無論是下載 Power BI Desktop 或從 Windows 市集安裝，您都可以針對特定報表選擇所用版本地區設定以外的其他地區設定。 這會變更從資料來源匯入資料時解譯資料的方式，例如 "3/4/2017" 是解譯為 4 月 3 日還是 3 月 4 日。 
+無論是下載 Power BI Desktop 或從 Windows 市集安裝，您都可以針對特定報表選擇所用版本地區設定以外的其他地區設定。 地區設定變更資料的方式解譯匯入從您的資料來源，例如是否"3/4/2017"會解譯為 3 年 4 月或年 3 月 4。 
 
-1. 在 Power BI Desktop 中，移至 [檔案] > [選項及設定] > [選項]。
-2. 在 [目前檔案] 底下，選取 [地區設定]。
-3. 在 [匯入的地區設定] 方塊中，選取其他地區設定。 
+1. 在 Power BI Desktop 中，移至 [檔案]   > [選項及設定]   > [選項]  。
+2. 在 [目前檔案]  底下，選取 [地區設定]  。
+3. 在 [匯入的地區設定]  方塊中，選取其他地區設定。 
    
    ![Power BI Desktop [選項] 對話方塊](media/supported-languages-countries-regions/power-bi_supptdlangs-locale.png)
-4. 選取 [確定] 。
+4. 選取 [確定]  。
 
 ### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>在 Power BI Desktop 中選擇模型語言
 
@@ -165,9 +165,9 @@ Power BI 會根據您電腦上的語言喜好設定偵測您的語言。 存取�
 
 以下說明如何設定模型語言。
 
-1. 在 Power BI Desktop 中，移至 [檔案] > [選項及設定] > [選項]。
-2. 在 [全球] 底下，選取 [地區設定]。
-3. 在 [模型語言] 方塊中，選取不同的語言。 
+1. 在 Power BI Desktop 中，移至 [檔案]   > [選項及設定]   > [選項]  。
+2. 在 [全球]  底下，選取 [地區設定]  。
+3. 在 [模型語言]  方塊中，選取不同的語言。 
 
     ![在 Power BI Desktop 中設定模型語言](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
@@ -193,5 +193,5 @@ Power BI 會根據您電腦上的語言喜好設定偵測您的語言。 存取�
 ## <a name="next-steps"></a>後續步驟
 * 您在使用其中一個 Power BI 行動裝置應用程式嗎？ 如需詳細資料，請參閱 [Power BI 行動裝置應用程式中支援的語言](consumer/mobile/mobile-apps-supported-languages.md)。
 * 有問題嗎？ 請嘗試詢問 [Power BI 社群](http://community.powerbi.com/)。
-* 仍有問題嗎？ 請前往 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
+* 仍有問題嗎？ 瀏覽 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
 

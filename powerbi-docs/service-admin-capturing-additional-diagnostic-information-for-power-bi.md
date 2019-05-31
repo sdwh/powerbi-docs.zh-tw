@@ -1,47 +1,63 @@
 ---
 title: 擷取其他診斷資訊
-description: 擷取其他診斷資訊
+description: 這些指示提供兩個可能的選項，以從 Power BI Web 用戶端手動收集其他診斷資訊。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 04/25/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b38e1e73b9829b4b86237f826b4245a6b95cfa36
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 710fb4cdcf9efb051434966d47c2eaced17ac9ba
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292928"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65100151"
 ---
-# <a name="capturing-additional-diagnostic-information"></a>擷取其他診斷資訊
-## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>擷取 Power BI 的其他診斷資訊
-這些指示提供兩個可能的選項，以從 Power BI Web 用戶端手動收集其他診斷資訊。  您只須遵循其中一個選項。
+# <a name="capture-additional-diagnostic-information-for-power-bi"></a>擷取 Power BI 的其他診斷資訊
 
-## <a name="network-capture---edge--internet-explorer"></a>網路擷取 - Edge 和 Internet Explorer
-1. 使用 Edge 或 Internet Explorer 瀏覽至 [Power BI](https://app.powerbi.com)。
-2. 按 F12 開啟 Edge 開發人員工具。
-3. 這會顯示 [開發人員工具] 視窗： 
-   
-   ![開發人員工具](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
-4. 切換至 [網路] 索引標籤。其中列出已經擷取的流量。 
-   
-   ![Edge 網路索引標籤](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
-5. 您可以在視窗中瀏覽，並重現可能遇到的任何問題。 按 F12 可在工作階段期間隨時隱藏和顯示 [開發人員工具] 視窗。
-6. 若要停止擷取，您可以在開發人員工具區域選取 [網路] 索引標籤上的紅色方塊。
-   
-   ![停止擷取](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
-7. 選取磁碟片圖示 [匯出為 HAR]
-   
-   ![匯出檔案](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
-8. 提供檔案名稱並儲存 HAR 檔案。
-   
-    HAR 檔案會包含瀏覽器視窗與 Power BI 之間網路要求的所有資訊。  這包括每個要求的活動識別碼、每個要求的精確時間戳記，以及傳回給用戶端的任何錯誤資訊。  這項追蹤也會包含用來填入畫面上所示視覺效果的資料。
-9. 您可以提供 HAR 檔案以支援檢閱。
+本文章提供有關手動從 Power BI web 用戶端收集其他診斷資訊的指示。
+
+1. 瀏覽至[Power BI](https://app.powerbi.com)與 Microsoft Edge 或 Internet Explorer。
+
+1. 按下**F12**開啟 Microsoft Edge 開發人員工具。
+
+   ![螢幕擷取畫面的 Microsoft Edge 開發人員工具項目 索引標籤。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
+
+1. 切換至 [網路]  索引標籤。其中列出已經擷取的流量。
+
+   ![螢幕擷取畫面的 Microsoft Edge 開發人員工具網路 索引標籤。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
+
+    您可以：
+
+    * 瀏覽 視窗中，並重現可能遇到任何問題。
+
+    * 隱藏和顯示開發人員工具 視窗中工作階段期間，隨時按 F12。
+
+1. 若要停止分析工作階段，您可以在選取紅色方形**網路**] 索引標籤的 [開發人員工具區域。
+
+   ![螢幕擷取畫面的 Microsoft Edge 開發人員工具網路 索引標籤的呼叫，從 停止 按鈕。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
+
+1. 選取磁碟片圖示，將資料匯出為 HTTP 封存 (HAR) 檔案。
+
+   ![螢幕擷取畫面的 Microsoft Edge 開發人員工具網路 索引標籤包含的磁碟片圖示的圖說文字。](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
+
+1. 提供檔案名稱並儲存 HAR 檔案。
+
+    HAR 檔案會包含瀏覽器視窗與包括 Power BI 之間網路要求的所有資訊：
+
+    * 每個要求活動識別碼。
+
+    * 針對每個要求的精確時間戳記。
+
+    * 任何錯誤訊息傳回至用戶端。
+
+    這項追蹤也會包含用來填入畫面上所示視覺效果的資料。
+
+1. 您可以提供 HAR 檔案以支援檢閱。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
-

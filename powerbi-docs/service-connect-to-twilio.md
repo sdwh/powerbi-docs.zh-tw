@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 4537f2845d89361cf06bc93a6a9c435275d9464d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008135"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61170940"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>使用 Power BI 連接到 Twilio
 Power BI 的 Microsoft Twilio 內容套件可讓您提取 Power BI 資料，並建立現成的 [Twilio 儀表板](https://powerbi.microsoft.com/integrations/twilio)和報表，顯示資料的深入解析。 您也可以針對 Power BI 所建立的資料集，建立您自訂的報表和儀表板。 資料會每天重新整理一次，讓您隨時查看最新的資料。
@@ -26,13 +26,13 @@ Power BI 的 Microsoft Twilio 內容套件可讓您提取 Power BI 資料，並�
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-twilio/pbi_getdata.png) 
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-twilio/pbi_getservices.png) 
-3. 選取 [Twilio] \> [取得]。
+3. 選取 [Twilio]  \> [取得]  。
    
    ![](media/service-connect-to-twilio/twilio.png)
-4. 針對 **[驗證方法]**，選取 [oAuth2]  **[登入]**\>。 出現提示時，請提供您的 Twilio 認證並授權 Power BI 應用程式存取您的資料。
+4. 針對 **[驗證方法]** ，選取 [oAuth2]  **[登入]** \>。 出現提示時，請提供您的 Twilio 認證並授權 Power BI 應用程式存取您的資料。
    
    ![](media/service-connect-to-twilio/pbi_twilio_login.png)
 5. 這樣會開始從您的 Twilio 帳戶匯入資料，接著將出現儀表板且已填入您過去 30 天內的通話和訊息使用量。 
@@ -44,7 +44,7 @@ Power BI 的 Microsoft Twilio 內容套件可讓您提取 Power BI 資料，並�
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="whats-included"></a>包含的內容
 過去 30 天內所有通話和訊息交易詳細資料。 您可以針對此資料執行各式各樣的分析與彙總。

@@ -11,11 +11,11 @@ ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: a113cf75ae238b19cdc54b03ffc049bdcdfb8368
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281796"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61150323"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>設計絕佳 Power BI 儀表板的秘訣
 現在您已經建立儀表板，及新增了某些圖格，請思考如何讓您的儀表板不只是好看，同時功能也更強。 一般而言，這代表將最重要的資訊設定為待命，讓它簡潔且整齊。

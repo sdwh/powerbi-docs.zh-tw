@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 86432033359b24dbae81f9ff5ec1bceb3ea1a2e6
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514836"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 服務中的 R 套件
@@ -24,7 +24,7 @@ ms.locfileid: "65514836"
 下列章節提供按照字母順序的表格，指出 Power BI 支援與不支援哪些 R 套件。 如需 Power BI 中的 R 詳細資訊，請參閱 [R 視覺效果](visuals/service-r-visuals.md)文章。
 
 ## <a name="request-support-for-a-new-r-package"></a>要求新 R 套件的支援
-下節 (標題為＜支援的套件＞) 可以找到 **Power BI 服務**支援的 R 套件。 如果您想要要求支援該清單中找不到的 R 套件，則可以將包含要求的電子郵件傳送至 [Power BI 意見反應小組中的 R](mailto:rinpbifb@microsoft.com)。
+下節 (標題為＜支援的套件＞  ) 可以找到 **Power BI 服務**支援的 R 套件。 如果您想要要求支援該清單中找不到的 R 套件，則可以將包含要求的電子郵件傳送至 [Power BI 意見反應小組中的 R](mailto:rinpbifb@microsoft.com)。
 
 ## <a name="requirements-and-limitations-of-r-packages"></a>R 套件的需求和限制
 有少數 R 套件的需求和限制：

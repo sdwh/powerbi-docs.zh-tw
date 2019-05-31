@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52876f05eba098466b3f0b8cebc614d10a3cd277
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220900"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136414"
 ---
-# <a name="link-entities-between-dataflows-in-power-bi-preview"></a>連結 Power BI 中資料流程之間的實體 (預覽)
+# <a name="link-entities-between-dataflows-in-power-bi"></a>連結 Power BI 中資料流程之間的實體
 
 使用 Power BI 中的資料流程，您就會有單一組織性資料儲存體來源，商務分析師只要一次準備及管理好他們的資料，就可以在組織內的不同分析應用程式之間重複使用。 
 
@@ -29,29 +29,29 @@ ms.locfileid: "58220900"
 
 ## <a name="linked-entity-availability"></a>連結實體可用性
 
-連結實體需要重新整理 [Power BI Premium](service-premium.md) 訂用帳戶。 您可以在裝載於 Power BI Premium 容量之工作區上的任何資料流程中使用連結實體。 來源資料流程沒有任何限制。
+連結實體需要重新整理 [Power BI Premium](service-premium-what-is.md) 訂用帳戶。 您可以在裝載於 Power BI Premium 容量之工作區上的任何資料流程中使用連結實體。 來源資料流程沒有任何限制。
 
 連結實體只能在新的 Power BI 工作區中正常運作。 您可以深入了解[新 Power BI 工作區](service-create-the-new-workspaces.md)。 所有連結資料流程都必須位於新的工作區，才能正常運作。
 
 > [!NOTE]
 > 實體會根據它們是標準實體或計算實體而有所不同。 標準實體 (通常就是指實體) 會查詢外部資料來源，例如 SQL 資料庫。 計算實體需要在 Power BI 具備 Premium 容量，而且會在 Power BI 儲存體中已存在的資料上執行其轉換。 
 >
->如果您的資料流程不是在 Premium 容量工作區中，仍然可以參考單一查詢，或結合兩個或更多查詢，只要轉換不是定義為在儲存體內轉換即可。 這類參考會被視為標準實體。 若要這樣做，請關閉所參考查詢的 [啟用載入] 選項，以防止資料被具體化，以及被內嵌到儲存體中。 您可以從該處參考那些**啟用載入 = false** 查詢，並只針對想要具體化的查詢結果將 [啟用載入] 設定為 [開啟]。
+>如果您的資料流程不是在 Premium 容量工作區中，仍然可以參考單一查詢，或結合兩個或更多查詢，只要轉換不是定義為在儲存體內轉換即可。 這類參考會被視為標準實體。 若要這樣做，請關閉所參考查詢的 [啟用載入]  選項，以防止資料被具體化，以及被內嵌到儲存體中。 您可以從該處參考那些**啟用載入 = false** 查詢，並只針對想要具體化的查詢結果將 [啟用載入]  設定為 [開啟]  。
 
 
 ## <a name="how-to-link-entities-between-dataflows"></a>如何在資料流程之間連結實體
 
-有幾個方式可以連結 Power BI 中資料流程之間的實體。 您可以從資料流程製作工具選取 [新增已連結實體]，如下圖所示。 
+有幾個方式可以連結 Power BI 中資料流程之間的實體。 您可以從資料流程製作工具選取 [新增已連結實體]  ，如下圖所示。 
 
 ![Power BI 中的連結實體](media/service-dataflows-linked-entities/linked-entities_00.png)
 
-您也可以從 Power BI 服務中的 [新增實體] 功能表項目選取 [新增已連結實體]。
+您也可以從 Power BI 服務中的 [新增實體]  功能表項目選取 [新增已連結實體]  。
 
 ![Power BI 中的連結實體](media/service-dataflows-linked-entities/linked-entities_01.png)
 
 若要連結實體，必須使用您的 Power BI 認證登入。
 
-此時會開啟 [Navigator] 視窗，讓您選擇一組可以連接的實體。 顯示的實體是您在您的 Power BI 租用戶中跨所有工作區擁有權限的實體。 
+此時會開啟 [Navigator]  視窗，讓您選擇一組可以連接的實體。 顯示的實體是您在您的 Power BI 租用戶中跨所有工作區擁有權限的實體。 
 
 一旦選取您的連結實體，它們會出現在製作工具中您資料流程的實體清單中，並且會有可識別它們是連結實體的特殊圖示。
 
@@ -88,11 +88,11 @@ ms.locfileid: "58220900"
 
 在您建立或使用資料流程時，下列文章可能會很有用。 
 
-* [Power BI 中的自助資料準備 (預覽)](service-dataflows-overview.md)
+* [在 Power BI 中的自助資料準備](service-dataflows-overview.md)
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [在 Power BI Premium 中使用計算實體 (預覽)](service-dataflows-computed-entities-premium.md)
-* [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
-* [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
+* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
+* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 
 如需 Power Query 和排程重新整理的詳細資訊，您可以閱讀下列文章：
 * [Power BI Desktop 中的查詢概觀](desktop-query-overview.md)

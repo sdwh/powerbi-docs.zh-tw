@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 00212258a145bf7d161d650a4b1cfa9f054a4508
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007813"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61161849"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>使用 Power BI 連接到 Mandrill
 Power BI 內容套件會從 Mandrill 帳戶提取資料，並產生儀表板、一組報表與資料集，可讓您瀏覽資料。 請使用 Mandrill 分析，快速深入了解您的電子報或行銷活動。 資料會設定為每天重新整理，確保您所監視的資料為最新狀態。
@@ -26,13 +26,13 @@ Power BI 內容套件會從 Mandrill 帳戶提取資料，並產生儀表板、�
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
     ![](media/service-connect-to-mandrill/getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
     ![](media/service-connect-to-mandrill/services.png)
-3. 選取 [Mandrill] > [取得]。
+3. 選取 [Mandrill]   > [取得]  。
    
     ![](media/service-connect-to-mandrill/mandrill.png)
-4. 在 [驗證方法] 選取 [金鑰]  ，並提供您的 API 金鑰。 您可以在 Mandrill 儀表板的 [設定]  索引標籤上找到金鑰。 選取 [登入]  ，開始匯入程序，可能需要幾分鐘的時間，視您帳戶的資料量而定。
+4. 在 [驗證方法]  選取 [金鑰]  ，並提供您的 API 金鑰。 您可以在 Mandrill 儀表板的 [設定]  索引標籤上找到金鑰。 選取 [登入]  ，開始匯入程序，可能需要幾分鐘的時間，視您帳戶的資料量而定。
    
     ![](media/service-connect-to-mandrill/auth.png)
 5. Power BI 匯入資料之後，您會在左側瀏覽窗格中看到新的儀表板、報表和資料集。 這是 Power BI 建立的預設儀表板，可顯示您的資料。
@@ -44,7 +44,7 @@ Power BI 內容套件會從 Mandrill 帳戶提取資料，並產生儀表板、�
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 是什麼？](power-bi-overview.md)

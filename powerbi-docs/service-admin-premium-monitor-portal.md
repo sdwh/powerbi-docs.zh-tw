@@ -1,51 +1,123 @@
 ---
 title: 使用系統管理入口網站來監視 Power BI Premium 容量
 description: 您可以使用 Power BI 系統管理入口網站來監視您的 Premium 容量。
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 04/10/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 59097c07719e4bb8db188e8a86db377076aea7a9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
-ms.translationtype: HT
+ms.openlocfilehash: 36b03a67e7c02702a70b6486880cc8eabf93e823
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794109"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564903"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>在系統管理入口網站中監視容量
 
-本文說明如何在系統管理入口網站中使用容量設定區域，來取得容量效能的快速檢視。  若要取得有關容量的最深入計量，最好使用 [Power BI Premium 容量計量](service-admin-premium-monitor-capacity.md)應用程式。
+**健全狀況**索引標籤中**容量設定**在管理入口網站中的區域會提供您容量且已啟用的工作負載的相關摘要計量。  
 
-## <a name="capacity-metrics"></a>容量計量
+![在入口網站中的容量健全狀況 索引標籤](media/service-admin-premium-monitor-portal/admin-portal-health.png)
 
-系統管理入口網站的 [容量設定] 區域提供四個量測計，這些量測計指出過去七天內您的容量所產生的負載與使用的資源量。 這四個圖格每小時更新一次，而且會指出過去七天內對應的計量超過 80% 的時數。 此計量指出可能的使用者體驗降級。
+如果您需要更完整的度量資訊，請使用[Power BI Premium 容量計量](service-admin-premium-monitor-capacity.md)應用程式。 應用程式提供向下鑽研及篩選，並最詳細的度量接近容量效能影響的各個層面。 若要進一步了解，請參閱[使用應用程式的監視 Premium 容量](service-admin-premium-monitor-capacity.md)。
 
-![7 天內的使用狀況](media/service-admin-premium-monitor-capacity/usage-in-days.png)
+## <a name="system-metrics"></a>系統計量
+
+在 **健全狀況**索引標籤，在最高的層級，CPU 使用率和記憶體使用量提供最重要的計量容量的快速檢視。 這些度量會累計，包括所有已啟用工作負載的容量。
 
 | **計量** | **描述** |
 | --- | --- |
-| CPU |CPU 超過 80% 使用率的次數。 |
-| 記憶體過度置換 |代表後端核心的記憶體壓力。 具體而言，這個計量是因使用多個資料集的記憶體壓力而從記憶體收回資料集的次數。 |
-| 記憶體使用量 |平均記憶體使用量，以吉位元組 (GB) 表示。 |
-| DQ/s | 「直接查詢」和「即時連線」計數超過 80% 限制的次數。 <br>  限制每秒的 DirectQuery 和即時連線查詢總數。 P1 的限制為 30/s、P2 為 60/s，而 P3 為 120/s。  「直接查詢」和即時連線查詢計數會新增至上面的節流。 例如，如果您每秒有 15 個 DirectQuery 和 15 個即時連線，您就達到節流標準。<br> 這會平均套用至內部部署和雲端連線。 |
-|  |  |
+| CPU 使用率 | 平均 CPU 使用率、 可用總 cpu 百分比。 |
+| 記憶體使用量 | 平均記憶體使用量 (gb)。|
 
-計量會反映過去一週的使用率。  如果您想要看到更詳細的計量檢視，則可以按一下任何摘要磚。  這會將您帶往進階容量之每個計量的詳細圖表。 下圖顯示 CPU 計量的詳細資料。
+## <a name="workload-metrics"></a>工作負載度量
 
-![詳細使用量圖表 CPU](media/service-admin-premium-monitor-capacity/premium-usage-detailed-chart-cpu.png)
+每個工作負載的容量已啟用。 會顯示 CPU 使用率和記憶體使用量。
 
-這些圖表在過去一週每小時都會彙總一次，並有助於找出您何時可能已有進階容量的特定效能相關事件。
+| **計量** | **描述** |
+| --- | --- |
+| CPU 使用率 | 平均 CPU 使用率、 可用總 cpu 百分比。 |
+| 記憶體使用量 | 平均記憶體使用量 (gb)。|
 
-您也可以將任何計量的基礎資料匯出至 csv 檔案。  這項匯出會依每三分鐘的間隔提供過去一週每天的詳細資訊。
+### <a name="detailed-workload-metrics"></a>詳細的工作負載度量
+
+每個工作負載會有其他度量。 顯示的度量資訊的類型取決於工作負載。 若要查看工作負載的詳細的計量，按一下展開 （下） 箭號。
+
+![展開 工作負載的健全狀況](media/service-admin-premium-monitor-portal/admin-portal-health-expand.png)
+
+#### <a name="dataflows"></a>資料流程
+
+##### <a name="dataflow-operations"></a>資料流程作業
+
+| **計量** | **描述** |
+| --- | --- |
+| 總計數 | 每個資料流程的重新整理次數總計。 |
+| 成功計數 | 重新整理每個資料流程中成功的總計。|
+| 平均持續時間 （分鐘） | 重新整理資料流程的平均持續時間 (以分鐘為單位) |
+| 持續時間上限 （分鐘） | 重新整理資料流程的最長持續時間 (以分鐘為單位)。 |
+| 平均等候時間 （分鐘） | 已排程的時間與開始重新整理資料流程之間的平均延隔時間 (以分鐘為單位)。 |
+| 最長等候時間 （分鐘） | 資料流程的等候時間上限 (以分鐘為單位)。  |
+
+#### <a name="datasets"></a>資料集
+
+##### <a name="refresh"></a>重新整理
+
+| **計量** | **描述** |
+| --- | --- |
+| 總計數 | 每個資料集的重新整理次數總計。 |
+| 成功計數 | 每個資料集，重新整理成功的總計。 |
+| 失敗計數 | 每個資料集的重新整理失敗的總數。 |
+| 成功率  | 成功重新整理除以總的重新整理，以測量的數目。 可靠性。 |
+| 平均持續時間 （分鐘） | 重新整理資料集的平均持續時間 (以分鐘為單位)。  |
+| 持續時間上限 （分鐘） | 重新整理資料集的最長持續時間 (以分鐘為單位)。 |
+| 平均等候時間 （分鐘） | 已排程的時間與開始重新整理資料集之間的平均延隔時間 (以分鐘為單位)。 |
+| 最長等候時間 （分鐘） | 資料集的等候時間上限 (以分鐘為單位)。 |
+
+##### <a name="query"></a>查詢
+
+| **計量** | **描述** |
+| --- | --- |
+| 總計數 | 針對資料集執行的查詢總數。 |
+| 平均持續期間 (毫秒) |資料集的平均查詢持續時間 (以毫秒為單位)|
+| 持續時間上限 (毫秒) |資料集中執行查詢的最長持續時間 (以毫秒為單位)。 |
+| 平均等候時間 (毫秒) |資料集的平均查詢等候時間 (以毫秒為單位)。 |
+| 最長等候時間 （毫秒） |資料集中等候查詢的最長持續時間 (以毫秒為單位)。 |
+
+##### <a name="eviction"></a>收回
+
+| **計量** | **描述** |
+| --- | --- |
+| 模型計數 | 這個容量的資料集區收回總數。 當容量面臨記憶體壓力時，節點就會從記憶體「收回」一或多個資料集。 非使用中的資料集 (沒有任何正在執行的查詢/重新整理作業) 會優先收回。 然後，依據「最近最少使用的」(LRU) 量值來決定收回的順序。 |
+
+#### <a name="paginated-reports"></a>編頁報表
+
+##### <a name="report-execution"></a>報表執行
+
+| **計量** | **描述** |
+| --- | --- |
+| 執行計數  | 在執行報表的次數，而且檢視的使用者。|
+
+##### <a name="report-usage"></a>報表使用情況
+
+| **計量** | **描述** |
+| --- | --- |
+| 成功計數 | 使用者檢視報表的次數。 |
+| 失敗計數 |使用者檢視報表的次數。|
+| 資料列計數 |報告中資料的資料列數。 |
+| 資料擷取持續時間 （毫秒） |擷取報表資料所需的平均時間量 (以毫秒為單位)。 持續時間很長，可能表示查詢速度緩慢或其他資料來源的問題。  |
+| 處理持續時間 （毫秒） |處理報告資料所需的平均時間量 (以毫秒為單位)。 |
+| 轉譯持續時間 （毫秒） |在瀏覽器中轉譯報告所需的平均時間量 (以毫秒為單位)。 |
+
+> [!NOTE]
+> 詳細的度量**AI**工作負載尚無法使用。
 
 ## <a name="next-steps"></a>後續步驟
 
 現在您已了解如何監視 Power BI Premium 容量，請繼續學習如何最佳化容量。
 
 > [!div class="nextstepaction"]
-> [Power BI Premium 容量資源管理與最佳化](service-premium-understand-how-it-works.md)
+> [最佳化 Power BI Premium 容量](service-premium-capacity-optimize.md)

@@ -1,20 +1,20 @@
 ---
 title: Power BI 中的編頁報表：常見問題集 (預覽)
 description: 此文章將回答有關編頁報表的常見問題集。 這些報表均為已高度格式化且具完美像素的輸出，並已基於列印或產生 PDF 用途進行最佳化。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: d248bbf8374b64c947fa872f6294ae0d1195ede9
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: cedf72585d7aa4f2ece39739dc0bdba33ca66e21
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324730"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987777"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Power BI 中的編頁報表：常見問題集 (預覽)
 
@@ -63,7 +63,7 @@ Office 365 稽核記錄會在下列事件下方，詳述此報表類型的使用
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>我需要 Pro 授權，才能建立並發佈報表嗎？
 
-是。 如果沒有 Pro 授權，您就無法將報表上傳至工作區。 您可能會在沒有 Pro 授權的情況中下載並嘗試使用報表產生器，但無法發佈您所建立的編頁報表。 
+是。 如果沒有 Pro 授權，您就無法將報表上傳至工作區。 我們建議您下載並使用 Power BI 報表產生器，即使沒有 Pro 授權，但您無法發佈您建立沒有它的編頁的報表。 
 
 ### <a name="what-if-i-have-a-paginated-report-in-a-workspace-and-the-paginated-report-workload-is-turned-off"></a>如果我在工作區中具有編頁報表，而編頁報表工作負載已關閉，該怎麼辦？
 
@@ -85,13 +85,13 @@ Office 365 稽核記錄會在下列事件下方，詳述此報表類型的使用
 
 Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不同的銷售人員針對其特定區域/產業/客戶，在同一份報表中為資料進行配量，並查看數字如何變化，而此報表最好透過 Power BI 報表來提供。
 
-### <a name="the-documentation-says-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>此文件指出報表產生器是優先選用的製作工具。 我可以在適用於 Power BI 的 SQL Server Data Tools 中建立編頁報表嗎？
+### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>說明文件指出 Power BI 報表產生器是慣用的撰寫工具。 我可以在適用於 Power BI 的 SQL Server Data Tools 中建立編頁報表嗎？
 
 是，但 Power BI 服務僅允許您一次上傳單一項目，因此，尚不支援製作者搭配 SQL Server Data Tools (SSDT) 使用的許多案例。 請參閱稍後可在此常見問題集中取得的完整[不支援功能清單](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)。  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>您支援哪些版本的報表產生器？
 
-使用最新版的 SQL Server 2016 報表產生器，來製作報表並發佈至 Power BI 服務。 安裝[從 Microsoft 下載中心取得的報表產生器](https://www.microsoft.com/download/details.aspx?id=53613)。
+我們最近發行 Power BI 報表產生器，為主要的撰寫工具，在 Power BI 服務中的編頁報表。 安裝[Power BI 報表產生器，從 Microsoft 下載中心取得](https://go.microsoft.com/fwlink/?linkid=2086513)。
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>如何將已儲存於 SQL Server Reporting Services 中的現有報表移至 Power BI？
 
@@ -99,7 +99,7 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="can-i-open-reports-and-publish-directly-to-the-service"></a>我可以開啟報表並直接發佈至服務嗎？
 
-目前不行。 我們將新增以下支援：開啟報表，並在某個時間點從報表產生器將其直接發佈至服務，就像使用 Power BI Desktop 一樣。
+目前不行。 我們將新增開啟報表，和它們直接發行至服務從 Power BI 報表產生器之前 GA，您可以使用 Power BI Desktop 的支援。
 
 ### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>在 Power BI 中，目前尚未支援 SSRS 中的哪些編頁報表功能？
 
@@ -118,17 +118,27 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>您目前針對編頁報告支援哪些資料來源？
 
-我們使用內部部署閘道，來支援 Azure SQL Database、SQL Server 以及 SQL Server Analysis Services (SSAS) 表格式 (DAX) 和多維度 (MDX) 模型。
+我們支援下列資料來源- 
+
+- Power BI Premium 的資料集
+- Azure Analysis Services （透過單一登入 (SSO)）
+- Azure SQL Database
+- SQL Server*
+- SQL Server Analysis Services (SSAS) 表格式 (DAX) 和多維度 (MDX) 模型 * 
+- Oracle* 
+- Teradata * 
+
+* 需要內部部署閘道。
 
 透過閘道存取 SSAS 時，已儲存認證的使用者需要在 SSAS 中提高權限，才能透過閘道運作。
 
 ### <a name="what-authentication-methods-do-you-support"></a>您支援哪些驗證方法？
 
-您目前必須在入口網站或閘道中，將使用者名稱和密碼與資料來源一起儲存。  預覽中後續將推出其他驗證方法，以支援資料列層級安全性之類的項目。
+我們會支援 Azure Analysis Services 和 Power BI Premium 的資料來源的 SSO。  對於所有其他資料來源，您目前需要儲存在入口網站或閘道的使用者名稱和密碼，與資料來源。  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>我可以使用 Power BI 資料集作為編頁報表的資料來源嗎？
 
-還不行，但會儘速規劃此支援。
+是，我們現在支援 Power BI Premium 的資料集做為您的編頁報表的資料來源。
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>我可以透過閘道使用預存程序嗎？
 
@@ -140,7 +150,7 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="can-i-print-paginated-reports"></a>我可以列印編頁報表嗎？
 
-可以，編頁報表亦可使用列印功能，包括全新和改善的列印預覽體驗。 
+列印功能是供編頁報表，包括全新和改進的列印預覽體驗。 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>可以針對編頁報表提供電子郵件訂閱嗎？
 
@@ -168,15 +178,11 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>我可以透過 Power BI 應用程式共用編頁報表的內容嗎？
 
-您目前可以透過入口網站或工具列的共用動作，來與其他使用者共用個別的編頁報表。 我們尚未支援在應用程式中共用，但預期會儘速推出此功能。 
+是，編頁的報表支援從 v1 與 v2 的工作區的應用程式一起部署。 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Power BI 中的其他報表特有功能 (例如，將報表磚釘選到儀表板) 將能搭配編頁報表來運作嗎？
 
 我們計畫要讓報表盡可能地支援服務中相同的主要案例。  在理想的情況下，雖然用來製作它們的工具不同，但從取用者觀點來看，它只是他們在入口網站之清單中的另一份報表。 他們不在意建立它的方式，他們可以完成所需的作業。  此功能同位有個很好的範例就是計劃性的註解支援。 儘管功能本身針對每個報表類型的運作方式可能稍有不同，但您還是能夠針對這兩者使用註解。
-
-### <a name="are-you-planning-to-create-a-new-authoring-tool-for-paginated-reports-in-the-power-bi-service--we-cant-do-everything-we-need-to-with-report-builder-today"></a>您是否計畫要在 Power BI 服務中，針對編頁報表建立新的製作工具？  我們目前無法使用報表產生器來完成所需的一切。
-
-我們仍在研究適合 Power BI 中編頁報表最佳工具編排的不同選項。 
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>是否規劃了移轉工具，讓 SSRS 客戶可將其現有的報表和資產移至 Power BI？
 
@@ -196,5 +202,5 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ## <a name="next-steps"></a>後續步驟
 
-- [從 Microsoft 下載中心安裝報表產生器](https://www.microsoft.com/download/details.aspx?id=53613)
+- [從 Microsoft 下載中心安裝 Power BI 報表產生器](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [教學課程：建立編頁報表](paginated-reports-quickstart-aw.md)

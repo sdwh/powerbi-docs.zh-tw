@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: b7f2dbd4fa58e86598c0258c432d31cf2f775ecf
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260140"
+---
 讓我們快速檢閱第一節涵蓋的內容。
 
 **Power BI** 是軟體服務、應用程式和連接器的集合，它們合作將您的資料轉換成互動式的深入資訊。 您可以使用單一基本來源的資料，如 Excel 活頁簿，或從多個資料庫和雲端來源提取資料，建立複雜的資料集和報表。 Power BI 可以如您所需的簡單明瞭，也可以立即滿足企業的複雜全域商務需求。
@@ -24,7 +32,7 @@ In **Power BI Desktop**, we connected to a basic Excel file, created visualizati
 我們也使用稱之為**問與答**的自然語言查詢，為問題尋求解答，並讓 Power BI 根據這些問題建立視覺效果。 最後，我們要為資料設定**重新整理排程**，以便回到 Power BI 服務時擁有全新的資料。
 
 ## <a name="next-steps"></a>後續步驟
-**恭喜您！** 您已完成 Power BI **引導式學習**課程的第一節。 您現在擁有堅實的知識基礎，可以前往下一節 ＜擷取資料＞，這是 Power BI 工作邏輯流程的下一個步驟。
+**恭喜您！** 您已完成 Power BI **引導式學習**課程的第一節。 您現在擁有堅實的知識基礎，可以前往下一節 ＜擷取資料＞  ，這是 Power BI 工作邏輯流程的下一個步驟。
 
 這個以前提過，但值得再說一次︰本課程讓您遵循一般的 Power BI 工作流程來建立您的知識︰
 

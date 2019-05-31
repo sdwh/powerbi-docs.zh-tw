@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9a0e87eca537fc8c22dffaad6a725dc949b2b121
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 02beb69148c347847f346c170651ef31ddd1e786
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275563"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987827"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>從 Power BI Desktop 連線到 Power BI 服務中的資料集
 您可在 Power BI 服務中建立連到共用資料集的即時連線，並從同一個資料集建立許多不同的報表。 這表示您可以在 Power BI Desktop 中建立完美的資料模型、將其發佈到 Power BI 服務，接著您和其他人就可以從同一個通用資料模型建立多個不同報表 (在個別 .pbix 檔案中)。 這項功能稱為 **Power BI 服務即時連線**。
@@ -32,14 +32,14 @@ Power BI 的熱門程度帶來一項挑戰，也就是報表、儀表板及其�
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
-每個人都喜愛她的報表和資料集，但這就是問題所在。團隊裡每個人都嘗試建立「自己的」資料集版本，然後與團隊共用自己的報表。 於是團隊在 **Power BI 服務**中的工作區，一下子就有了大量報表 (來自不同資料集)。 哪一個是最新的？ 資料集內容完全相同，或只是幾乎相同？ 差別在哪裡？ 有了 **Power BI 服務即時連線**功能，這一切問題都能迎刃而解。 在下一節，我們會知道其他人可以如何在他們自己的報表使用 Anna 發佈的資料集，以及讓所有人都能使用同一個穩固、通過檢驗、已發佈的資料集來打造自己的獨特報表。
+每個人都喜愛她的報表和資料集，但這就是問題所在。團隊裡每個人都嘗試建立「自己的」  資料集版本，然後與團隊共用自己的報表。 於是團隊在 **Power BI 服務**中的工作區，一下子就有了大量報表 (來自不同資料集)。 哪一個是最新的？ 資料集內容完全相同，或只是幾乎相同？ 差別在哪裡？ 有了 **Power BI 服務即時連線**功能，這一切問題都能迎刃而解。 在下一節，我們會知道其他人可以如何在他們自己的報表使用 Anna 發佈的資料集，以及讓所有人都能使用同一個穩固、通過檢驗、已發佈的資料集來打造自己的獨特報表。
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>使用即時連線來連線到 Power BI 服務資料集
 在 Anna 建立她的報表 (並建立其依據的資料集) 之後，便將其發佈到 **Power BI 服務**，而報表隨即顯示在她的團隊在 Power BI 服務中的工作區。 現在，她的工作區中每個人都可以查看及檢視該報表。
 
 若要深入了解工作區，請參閱[應用程式工作區](service-create-workspaces.md)。
 
-工作區的其他成員現在可以對 Anna 共用的資料模型建立即時連線 (使用 **Power BI 服務即時連線**功能)，以及從「她的原始資料集」建立自己的獨特報表。
+工作區的其他成員現在可以對 Anna 共用的資料模型建立即時連線 (使用 **Power BI 服務即時連線**功能)，以及從「她的原始資料集」  建立自己的獨特報表。
 
 在下圖中，您可以看到 Anna 如何建立一份 **Power BI Desktop** 報表，然後將報表 (包括其資料模型) 發佈到 **Power BI 服務**。 接著，工作區中的其他人就可以使用 **Power BI 服務即時連線**來連線到她的資料模型，並依據她的資料集建立自己的獨特報表。
 
@@ -54,7 +54,7 @@ Power BI 的熱門程度帶來一項挑戰，也就是報表、儀表板及其�
 現在我們已經知道 **Power BI 服務即時連線**有多好用，以及如何將這個方法當作報表生命週期管理的最佳做法使用，接著為您逐步解說步驟，從 Anna 的優質報表 (和資料集) 前進到她 Power BI 工作區中的團隊成員可以使用的資料集。
 
 ### <a name="publish-a-power-bi-report-and-dataset"></a>發佈 Power BI 報表和資料集
-使用 **Power BI 服務即時連線**管理報表生命週期的第一步，是擁有團隊成員想要使用的報表 (和資料集)。 因此，Anna 必須先從 **Power BI Desktop** **發佈**她的報表。 她從 Power BI Desktop 的 [常用] 功能區選取 [發佈] 以完成這個動作。
+使用 **Power BI 服務即時連線**管理報表生命週期的第一步，是擁有團隊成員想要使用的報表 (和資料集)。 因此，Anna 必須先從 **Power BI Desktop** **發佈**她的報表。 她從 Power BI Desktop 的 [常用]  功能區選取 [發佈]  以完成這個動作。
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
@@ -77,9 +77,8 @@ Power BI 的熱門程度帶來一項挑戰，也就是報表、儀表板及其�
 接下來，我們來看看其他擁有報表 (和資料集) 發佈目標工作區存取權的團隊成員可以如何連線到資料集，及建立他們自己的報表。
 
 ### <a name="establish-a-power-bi-service-live-connection-to-the-published-dataset"></a>對發佈的資料集建立 Power BI 服務即時連線
-若要對發佈的報表建立連線，並建立自己以發佈的資料集為基礎的報表，請從 **Power BI Desktop**中 [常用] 功能區選取 [取得資料]，然後選取 [Power BI 服務]。 您也可以從 [取得資料] > [線上服務] > [Power BI 服務] 加以選取。
+若要連接到已發行的報表，並建立您自己的報表已發行的資料集為基礎，選取**取得資料**從**Home**功能區**Power BI Desktop**選取**Power BI**從左的窗格中，然後選取**Power BI 資料集**。
 
-![](media/desktop-report-lifecycle-datasets/report-lifecycle_08.png)
 
 如果您尚未登入 Power BI，系統會提示您登入。 登入後，您會看到一個視窗顯示您身為其中成員的工作區，您可以選取哪個工作區包含要對其建立 **Power BI 服務即時連線**的資料集。
 
@@ -92,7 +91,7 @@ Power BI 的熱門程度帶來一項挑戰，也就是報表、儀表板及其�
 * 您可以搜尋共用資料集，但搜尋結果限為展開的項目，而不包括任何未展開的工作區。
 * 您可以展開多個工作區，以擴展搜尋範圍。
 
-當您選取視窗中的 [載入] 時，隨即對選取的資料集建立即時連線，這表示您看到的資料 (欄位及其值) 會即時載入 **Power BI Desktop** 中。
+當您選取視窗中的 [載入]  時，隨即對選取的資料集建立即時連線，這表示您看到的資料 (欄位及其值) 會即時載入 **Power BI Desktop** 中。
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_10.png)
 
@@ -115,7 +114,7 @@ Power BI 的熱門程度帶來一項挑戰，也就是報表、儀表板及其�
 * 工作區成員無法取代原先共用的報表。 嘗試這樣做會導致產生警告，提示您為檔案重新命名再發佈。
 * 如果您刪除 **Power BI 服務**中的共用資料集，其他 **Power BI Desktop** (.pbix 檔案) 就無法再正常運作或顯示其視覺效果。
 * 若是內容套件，您必須先建立內容套件的複本，再將其當作將 .pbix 報表和資料集共用到 **Power BI 服務**的基礎。
-* 若是來自「我的組織」的內容套件，在複製後，您就無法取代服務上建立的報表及 (或) 透過即時連線時複製內容套件而建立的報表。 嘗試這樣做會導致產生警告，提示您為檔案重新命名再發佈。 在此情況下，您只能取代已發行的即時連線報表。
+* 若是來自「我的組織」  的內容套件，在複製後，您就無法取代服務上建立的報表及 (或) 透過即時連線時複製內容套件而建立的報表。 嘗試這樣做會導致產生警告，提示您為檔案重新命名再發佈。 在此情況下，您只能取代已發行的即時連線報表。
 * 當您依據使用 **Power BI 服務**即時連線的資料集建立報表時，只能將該報表發佈到包含所用資料集的相同 Power BI 服務工作區。
 * 刪除 **Power BI 服務**中的共用資料集，意味著您無法再從 **Power BI Desktop**存取該資料集。
 

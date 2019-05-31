@@ -11,11 +11,11 @@ ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 61d7bf9f9794545e963ca19c8f983d6d6cfefa54
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286879"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61150373"
 ---
 # <a name="intro-to-dashboards-for-power-bi-designers"></a>Power BI 設計工具的儀表板簡介
 
@@ -27,7 +27,7 @@ Power BI 「儀表板」是透過視覺效果來說故事的單一頁面，通�
 
 ## <a name="dashboard-basics"></a>儀表板的基本概念 
 
-您在儀表板上看到的視覺效果稱為「磚」。 您會從報表將磚「釘選」到儀表板。 如果您不熟悉 Power BI，請參閱 [Power BI 基本概念](service-basic-concepts.md)來打好基礎。
+您在儀表板上看到的視覺效果稱為「磚」  。 您會從報表將磚「釘選」  到儀表板。 如果您不熟悉 Power BI，請參閱 [Power BI 基本概念](service-basic-concepts.md)來打好基礎。
 
 > [!IMPORTANT]
 > 您需要 [Power BI Pro](service-free-vs-pro.md) 授權，才能建立儀表板。
@@ -52,7 +52,7 @@ Power BI 「儀表板」是透過視覺效果來說故事的單一頁面，通�
 | 訂閱 |可訂閱儀表板 |可訂閱報表頁面 |
 | 篩選 |無法篩選或配量 |有多種不同方法可篩選、反白顯示及配量 |
 | 精選 |可將一個儀表板設定為「精選」儀表板 |無法建立精選報表 |
-| 我的最愛 | 可將儀表版設為「我的最愛」 | 可將報表設為「我的最愛」
+| 我的最愛 | 可將儀表版設為「我的最愛」  | 可將報表設為「我的最愛」 
 | 設定警示 |在特定情況下可用於儀表板磚 |無法從報表使用 |
 | 自然語言查詢 (問與答) |可在儀表板中取得 | 可在報表中取得 |
 | 可以看到基礎資料集的資料表和欄位 |否。 可以匯出資料，但看不到儀表板本身的資料表和欄位。 |是。 可以看到資料集資料表和欄位以及值。 |

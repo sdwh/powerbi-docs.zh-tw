@@ -1,21 +1,21 @@
 ---
 title: 重新整理建立自 Power BI Desktop 檔案的資料集 - 本機
 description: 重新整理建立自本機磁碟上 Power BI Desktop 檔案的資料集
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e97b6bc651b17fb7eaff43b205a9219896314695
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f1b84881503eda78eff0d5c99d552ceb83c19237
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285016"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61415694"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>重新整理建立自本機磁碟上 Power BI Desktop 檔案的資料集
 ## <a name="whats-supported"></a>支援的項目有哪些？
@@ -37,7 +37,7 @@ ms.locfileid: "54285016"
 
 ![](media/refresh-desktop-file-local-drive/pbix-refresh.png)
 
-當您從本機磁碟機匯入 Power BI Desktop 檔案時，模型的資料和其他相關資訊都會載入 Power BI 服務的資料集內。 在 Power BI 服務 (而非 Power BI Desktop) 中，因為 Power BI 服務中的報表是以該資料集為基礎，所以您會想要重新整理該資料集的資料。 因為資料來源位於外部，所以您可以使用 [立即重新整理] 手動重新整理資料集，或您可以使用 [排程重新整理] 設定重新整理排程。
+當您從本機磁碟機匯入 Power BI Desktop 檔案時，模型的資料和其他相關資訊都會載入 Power BI 服務的資料集內。 在 Power BI 服務 (而非 Power BI Desktop) 中，因為 Power BI 服務中的報表是以該資料集為基礎，所以您會想要重新整理該資料集的資料。 因為資料來源位於外部，所以您可以使用 [立即重新整理]  手動重新整理資料集，或您可以使用 [排程重新整理]  設定重新整理排程。
 
 當您重新整理資料集時，Power BI 不會連接到本機磁碟機上的檔案來查詢更新資料。 它會使用在資料集的資訊，直接連接到資料來源，以查詢更新資料，然後載入資料集。
 

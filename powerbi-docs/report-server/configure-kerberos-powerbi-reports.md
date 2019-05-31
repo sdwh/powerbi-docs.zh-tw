@@ -1,20 +1,20 @@
 ---
 title: 設定 Kerberos 使用 Power BI 報表
 description: 了解如何設定報表伺服器進行資料來源的 Kerberos 驗證，這些是用在分散式環境 Power BI 報表內的資料來源。
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 5342f509fdd0705b2752aab3315a4968d610b681
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 63bf5653ddf17097a44113324011951734f6d13c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223758"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770713"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>設定 Kerberos 使用 Power BI 報表
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -187,24 +187,24 @@ FQDN 和 NetBIOS SPN 將 SPN 放在電腦帳戶上看起來如下。
 
 我們會想要使用通訊協定傳輸來設定限制委派。 使用限制委派，您需要明確讓我們委派的目標服務。 我們將要把 Analysis Services 服務 SPN 和 SQL Browser SPN 新增至 Power BI 報表伺服器可以委派的清單中。
 
-1. 以滑鼠右鍵按一下報表伺服器服務帳戶，然後選取 [內容]。
-2. 選取 [委派] 索引標籤。
-3. 選取 [信任這台電腦，但只委派指定的服務]。
-4. 選取 [使用任何驗證通訊協定]。
-5. 在 [這個帳戶可以呈送委派認證的服務:] 下，選取 [新增]。
-6. 在新的對話方塊中，選取 [使用者或電腦]。
-7. 輸入 Analysis Services 服務的服務帳戶，然後選取 [確定]。
+1. 以滑鼠右鍵按一下報表伺服器服務帳戶，然後選取 [內容]  。
+2. 選取 [委派]  索引標籤。
+3. 選取 [信任這台電腦，但只委派指定的服務]  。
+4. 選取 [使用任何驗證通訊協定]  。
+5. 在 [這個帳戶可以呈送委派認證的服務:]  下，選取 [新增]  。
+6. 在新的對話方塊中，選取 [使用者或電腦]  。
+7. 輸入 Analysis Services 服務的服務帳戶，然後選取 [確定]  。
 8. 選取您建立的 SPN。 它的開頭為 `MSOLAPSvc.3`。 如果您新增了 FQDN 與 NetBIOS SPN，它就會兩個都選取。 您可能只會看到一個。
-9. 選取 [確定] 。  您現在應該會在清單中看到 SPN。
-10. 或者，您可以選取 [展開] 來顯示清單中的 FQDN 和 NetBIOS SPN。
-11. 再次選取 [新增]。 現在我們要新增 SQL Browser SPN。
-12. 在新的對話方塊中，選取 [使用者或電腦]。
-13. 輸入 SQL Browser 服務所在電腦的電腦名稱，並選取 [確定]。
+9. 選取 [確定]  。  您現在應該會在清單中看到 SPN。
+10. 或者，您可以選取 [展開]  來顯示清單中的 FQDN 和 NetBIOS SPN。
+11. 再次選取 [新增]  。 現在我們要新增 SQL Browser SPN。
+12. 在新的對話方塊中，選取 [使用者或電腦]  。
+13. 輸入 SQL Browser 服務所在電腦的電腦名稱，並選取 [確定]  。
 14. 選取您建立的 SPN。 它的開頭為 `MSOLAPDisco.3`。 如果您新增了 FQDN 與 NetBIOS SPN，它就會兩個都選取。 您可能只會看到一個。
-15. 選取 [確定]。 如果選取 [展開]，對話方塊應該如下。
+15. 選取 [確定]  。 如果選取 [展開]  ，對話方塊應該如下。
     
     ![](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
-16. 選取 [確定]。
+16. 選取 [確定]  。
 17. 重新啟動 Power BI 報表伺服器。
 
 ## <a name="running-a-power-bi-report"></a>執行 Power BI 報表

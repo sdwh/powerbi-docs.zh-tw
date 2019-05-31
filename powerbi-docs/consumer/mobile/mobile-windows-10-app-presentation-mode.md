@@ -9,17 +9,17 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
-ms.openlocfilehash: e96095cd63a9f2bd01b17f16392319167ef3354c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274827"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61338092"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Surface Hub 和 Windows 10 裝置上，以簡報模式檢視報表和儀表板
 您可以在 Windows 10 裝置和 Surface Hub 中，使用簡報模式以全螢幕顯示報表和儀表板。 
 
-![以全螢幕模式顯示的報表](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode.png)
+![以全螢幕模式顯示的報表](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
 簡報模式可以用來在會議中、在辦公室的專用投影機上顯示 Power BI，或甚至只是充分利用小螢幕上的空間。 
 
@@ -36,19 +36,20 @@ ms.locfileid: "54274827"
 在 Power BI 行動裝置應用程式中，點選**全螢幕**圖示，進入全螢幕模式。
 ![全螢幕圖示](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) 應用程式組件區塊消失，工具列會出現在畫面底部或左右兩側 (取決於您的螢幕大小而定)。
 
-![全螢幕模式中的報表與側邊工具列](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode2.png)
+![全螢幕模式中的報表與側邊工具列](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
 您可以從工具列中執行下列動作：
 
 1. 點選上一頁圖示 ![上一頁圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) 返回上一頁。 長按圖示時會顯示階層連結視窗，以讓您瀏覽至報表或儀表板所含的資料夾。
 2. 墨水圖示 ![墨水圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) 可讓您在使用 Surface 畫筆繪圖與在報表頁面上新增註解時，選擇色彩。 
 3. 使用頁面圖示 ![分頁圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) 取代您目前呈現的報表頁面。
-4. 點選搜尋圖示 ![搜尋圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) 尋找 Power BI 中的其他成品。
-5. 若要結束簡報模式，請點選兩個向內箭號的圖示 ![結束全螢幕模式](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) (位於工具列)。
+4. 播放圖示  ![播放圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) 會隱藏 [動作] 列，並啟動投影片，應用程式就會自動在報表頁之間輪替。 
+5. 點選搜尋圖示 ![搜尋圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) 尋找 Power BI 中的其他成品。
+6. 若要結束簡報模式，請點選兩個向內箭號的圖示 ![結束全螢幕模式](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) (位於工具列)。
 
 您可以卸除工具列，並將它拖曳到螢幕上任一處使用。 使用大型的螢幕時，若您希望專注於報表中的特定區域，且需要工具隨時在旁預備，此功能就很實用。 只要將手指放在工具列上，將其撥動到報表畫布中即可。
 
-![簡報模式中的報表和卸除的工具列](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar.png)
+![簡報模式中的報表和卸除的工具列](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar-2.png)
 
 
 ## <a name="next-steps"></a>後續步驟

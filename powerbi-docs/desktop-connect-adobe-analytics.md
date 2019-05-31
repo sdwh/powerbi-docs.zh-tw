@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: aa1c75a30d82a818ec82730c1939d1427b751dfc
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239406"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Adobe Analytics 
@@ -23,15 +23,15 @@ ms.locfileid: "65239406"
 ![從 Adobe Analytics 取得資料](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
 
 ## <a name="connect-to-adobe-analytics-data"></a>連線到 Adobe Analytics 資料
-若要連線至 **Adobe Analytics** 資料，請從 Power BI Desktop 的 [首頁] 功能區選取 [取得資料]。 從左邊的類別選取 [線上服務]，您就會看到 **Adobe Analytics 連接器**。
+若要連線至 **Adobe Analytics** 資料，請從 Power BI Desktop 的 [首頁]  功能區選取 [取得資料]  。 從左邊的類別選取 [線上服務]  ，您就會看到 **Adobe Analytics 連接器**。
 
 ![從 Adobe Analytics 取得資料](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
 
-在出現的 [Adobe Analytics] 視窗中，選取 [登入] 按鈕，然後提供您的認證來登入您的 Adobe Analytics 帳戶。 Adobe 的登入視窗隨即出現，如下圖所示。
+在出現的 [Adobe Analytics]  視窗中，選取 [登入]  按鈕，然後提供您的認證來登入您的 Adobe Analytics 帳戶。 Adobe 的登入視窗隨即出現，如下圖所示。
 
 ![登入 Adobe Analytics](media/desktop-connect-adobe-analytics/connect-adobe-analytics_03.png)
 
-收到提示時，請放入您的使用者名稱和密碼。 一旦建立連線，您就可以在 Power BI 的 [導覽器] 對話方塊中預覽並選取多個維度和量值，建立單一的表格式輸出。 您也可以為所選項目提供所需的任何必要輸入參數。 
+收到提示時，請放入您的使用者名稱和密碼。 一旦建立連線，您就可以在 Power BI 的 [導覽器]  對話方塊中預覽並選取多個維度和量值，建立單一的表格式輸出。 您也可以為所選項目提供所需的任何必要輸入參數。 
 
 ![使用導覽器選取資料](media/desktop-connect-adobe-analytics/connect-adobe-analytics_04.png)
 

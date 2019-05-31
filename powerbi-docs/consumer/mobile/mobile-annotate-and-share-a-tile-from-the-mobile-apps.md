@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: b3f0232fdf377ba75a31f5057f1e094bf9fac39d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d48f7c42ac88f5a3b659bf4aff2ece65a2010e5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54273585"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61342781"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中標註並共用磚、報表或視覺效果。
 適用於︰
@@ -27,9 +27,9 @@ ms.locfileid: "54273585"
 
 ![包含註解的報表](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-iphone-annotate.png)
 
-包含註解的報表
+包含註解的報表 
 
-具有圖格、報告或視覺效果快照集的郵件也包括 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 上實際物件的連結。 如果您和您的收件者都具有 Power BI Pro 授權或內容位於[進階容量](../../service-premium.md)中，且您已經與收件者共用項目，收件者只需按一下連結就能直接前往磚、報表或視覺效果。 
+具有圖格、報告或視覺效果快照集的郵件也包括 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 上實際物件的連結。 如果您和您的收件者都具有 Power BI Pro 授權或內容位於[進階容量](../../service-premium-what-is.md)中，且您已經與收件者共用項目，收件者只需按一下連結就能直接前往磚、報表或視覺效果。 
 
 您也可以[從 Power BI for Windows 10 裝置的行動裝置應用程式共用圖格](mobile-windows-10-phone-app-get-started.md)，但不能標註磚。
 
@@ -62,15 +62,15 @@ ms.locfileid: "54273585"
    *Android 裝置中的註解列*
    
    * 若要繪製不同色彩和粗細的線條，請點選波浪狀線條圖示、選擇寬度和色彩，然後繪製。  
-   * 若要輸入註解，請點選 [AA]、選擇文字大小和色彩，然後輸入。  
+   * 若要輸入註解，請點選 [AA]  、選擇文字大小和色彩，然後輸入。  
    * 若要在磚上貼上戳記 (例如表情符號)，請點選笑臉、選擇色彩，並點選想要的位置。   
-2. 在標註之後，請點選右上角的 [共用]。
+2. 在標註之後，請點選右上角的 [共用]  。
 3. 開啟郵件應用程式，輸入收件者的名稱，以及視需要修改訊息。  
    
    ![電子郵件中已註解的報表](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-iphone-annotate-send.png)
    
    郵件包含影像，以及特定圖格、報告或視覺效果的連結。 
-4. 點選 [傳送] 。
+4. 點選 [傳送]  。
 
 ## <a name="next-steps"></a>後續步驟
 * [從 Power BI 行動裝置應用程式共用儀表板](mobile-share-dashboard-from-the-mobile-apps.md)

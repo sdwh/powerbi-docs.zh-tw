@@ -11,19 +11,19 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 01b0cdf70c985169d474a130ed4ad846ad708963
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284740"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61308806"
 ---
 # <a name="default-member-in-multidimensional-models-in-power-bi"></a>Power BI 中多維度模型的預設成員
 
-您可以在 Power BI 中連線到多維度模型，然後建立能將模型內的各種資料視覺化的報表。 搭配多維度模型運作時，Power BI 會根據定義為「預設成員」的資料行，套用規則以決定其處理資料的方式。 
+您可以在 Power BI 中連線到多維度模型，然後建立能將模型內的各種資料視覺化的報表。 搭配多維度模型運作時，Power BI 會根據定義為「預設成員」  的資料行，套用規則以決定其處理資料的方式。 
 
 搭配多維度模型運作時，Power BI 會根據使用包含 **DefaultMember** 之資料行的位置，處理來自模型的資料。 *DefaultMember* 屬性會針對多維度模型中的特定資料行以 CSDL (概念結構定義語言) 設定。 若要深入了解預設成員，請參閱其[屬性內容文章](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017) \(機器翻譯\)。 執行 DAX 查詢時，系統會自動套用在模型中指定的預設成員。
 
-本文會描述根據「預設成員」位置的不同，Power BI 在搭配多維度模型運作時於各種情況下的行為。 
+本文會描述根據「預設成員」  位置的不同，Power BI 在搭配多維度模型運作時於各種情況下的行為。 
 
 ## <a name="working-with-filter-cards"></a>搭配篩選卡片運作
 
@@ -31,26 +31,26 @@ ms.locfileid: "54284740"
 
 如果移除預設成員，取消選取該值將會從套用篩選卡片的所有視覺效果中清除它，且所顯示的值不會反映預設成員。
 
-例如，假設我們有一個將預設成員設定為 [USD] \(美元\) 的 [Currency] \(貨幣\) 資料行：
+例如，假設我們有一個將預設成員設定為 [USD]  \(美元\) 的 [Currency]  \(貨幣\) 資料行：
 
-* 在此範例中，如果我們有一個顯示 [Total Sales] \(總銷售額\) 的卡片，該值將會套用預設成員，且我們會看到對應至美元的銷售額。
-* 如果我們將 [Currency] \(貨幣\) 拖曳到篩選卡片窗格，我們會看到 [USD] \(美元\) 作為所選取的預設值。 [Total Sales] \(總銷售額\) 的值會保持不變，因為已套用預設成員。
-* 不過，如果我們從篩選卡片取消選取 [USD] \(美元\) 值，將會清除 [Currency] \(貨幣\) 的預設成員，且現在 [Total Sales] \(總銷售額\) 將會反映所有貨幣。
-* 因此，當我們在篩選卡片中選取另一個值 (假設我們選取 [EURO] \(歐元\)) 時，在搭配預設成員的情況下，[Total Sales] \(總銷售額\) 便會反映 *Currency IN {USD, EURO}* 篩選。
+* 在此範例中，如果我們有一個顯示 [Total Sales]  \(總銷售額\) 的卡片，該值將會套用預設成員，且我們會看到對應至美元的銷售額。
+* 如果我們將 [Currency]  \(貨幣\) 拖曳到篩選卡片窗格，我們會看到 [USD]  \(美元\) 作為所選取的預設值。 [Total Sales]  \(總銷售額\) 的值會保持不變，因為已套用預設成員。
+* 不過，如果我們從篩選卡片取消選取 [USD]  \(美元\) 值，將會清除 [Currency]  \(貨幣\) 的預設成員，且現在 [Total Sales]  \(總銷售額\) 將會反映所有貨幣。
+* 因此，當我們在篩選卡片中選取另一個值 (假設我們選取 [EURO]  \(歐元\)) 時，在搭配預設成員的情況下，[Total Sales]  \(總銷售額\) 便會反映 *Currency IN {USD, EURO}* 篩選。
 
 ## <a name="grouping-behavior"></a>群組行為
 
-在 Power BI 中，每當您針對具有「預設成員」之資料行上的視覺效果進行群組時，Power BI 會清除該資料行的「預設成員」及其屬性關聯性路徑。 這能確保視覺效果顯示所有的值，而非只顯示預設值。
+在 Power BI 中，每當您針對具有「預設成員」  之資料行上的視覺效果進行群組時，Power BI 會清除該資料行的「預設成員」  及其屬性關聯性路徑。 這能確保視覺效果顯示所有的值，而非只顯示預設值。
 
 ## <a name="attribute-relationship-paths-arps"></a>屬性關聯性路徑 (ARP)
 
-屬性關聯性路徑 (ARP) 能提供具有強大功能的「預設成員」，但也會帶來一定程度的複雜度。 遇到 ARP 時，Power BI 會遵循 ARP 的路徑以清除其他資料行的額外預設成員，以提供一致且精準的視覺效果資料處理。
+屬性關聯性路徑 (ARP) 能提供具有強大功能的「預設成員」  ，但也會帶來一定程度的複雜度。 遇到 ARP 時，Power BI 會遵循 ARP 的路徑以清除其他資料行的額外預設成員，以提供一致且精準的視覺效果資料處理。
 
 讓我們透過範例來釐清該行為。 假設有下列 ARP 設定：
 
 ![多維度模型中的 ARP](media/desktop-default-member-multidimensional-models/default-members_01.png)
 
-假設已針對這些資料行設定下列「預設成員」：
+假設已針對這些資料行設定下列「預設成員」  ：
 
 * City (縣/市) > Seattle (西雅圖)
 * State (州/省) > WA (華盛頓)
@@ -59,11 +59,11 @@ ms.locfileid: "54284740"
 
 現在讓我們看看在 Power BI 中使用每個資料行時會發生什麼事。 當視覺效果在下列資料行上進行群組時，會產生下列結果：
 
-* **City** \(縣/市\)：Power BI 會透過清除 [City] \(縣/市\)、[State] \(州/省\)、[Country] \(國家/地區\) 的所有**預設成員**，但保留 [Population] \(人口\) 的**預設成員**來顯示所有縣/市；Power BI 會清除 [City] \(縣/市\) 的整個 ARP。
+* **City** \(縣/市\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\)、[Country]  \(國家/地區\) 的所有**預設成員**，但保留 [Population]  \(人口\) 的**預設成員**來顯示所有縣/市；Power BI 會清除 [City]  \(縣/市\) 的整個 ARP。
     > [!NOTE]
-    > [Population] \(人口\) 並沒有位於 [City] \(縣/市\) 的 ARP 路徑中，它單純只與 [State] \(州/省\) 相關，因此 Power BI 不會清除它。
-* **State** \(州/省\)：Power BI 會透過清除 [City] \(縣/市\)、[State] \(州/省\)、[Country] \(國家/地區\) 和 [Population] \(人口\) 的所有**預設成員**，來顯示所有「州/省」。
-* **Country** \(國家/地區\)：Power BI 會透過清除 [City] \(縣/市\)、[State] \(州/省\) 和 [Country] \(國家/地區\) 的所有**預設成員**，但保留 [Population] \(人口\) 的**預設成員**來顯示所有縣/市。
+    > [Population]  \(人口\) 並沒有位於 [City]  \(縣/市\) 的 ARP 路徑中，它單純只與 [State]  \(州/省\) 相關，因此 Power BI 不會清除它。
+* **State** \(州/省\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\)、[Country]  \(國家/地區\) 和 [Population]  \(人口\) 的所有**預設成員**，來顯示所有「州/省」  。
+* **Country** \(國家/地區\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\) 和 [Country]  \(國家/地區\) 的所有**預設成員**，但保留 [Population]  \(人口\) 的**預設成員**來顯示所有縣/市。
 * **City and State** \(縣/市和州/省\)：Power BI 會清除所有資料行的所有**預設成員**。
 
 針對顯示於視覺效果中的群組，系統會清除它們的整個 ARP 路徑。 
@@ -92,7 +92,7 @@ Power BI 在這些情況下的運作方式會遵循下列規則。
 * Power BI 在該資料行上進行群組
 * Power BI 在與該資料行相關聯的資料行 (可位於 ARP 中的任何位置，上或下) 上進行群組
 * Power BI 在位於 ARP 中的資料行 (上或下) 上進行群組
-* 資料行具有擁有 [全部] 狀態的篩選卡片
+* 資料行具有擁有 [全部]  狀態的篩選卡片
 * 資料行具有已選取任何值的篩選卡片 (Power BI 會針對該資料行接收到篩選)
 
 在下列情況下，Power BI 不會清除特定資料行的**預設成員**：

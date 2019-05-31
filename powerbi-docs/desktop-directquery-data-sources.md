@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 04/10/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84e40e9fbce07716a2250a58bfcbd396a40d2842
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
-ms.translationtype: HT
+ms.openlocfilehash: 3bb7de9685a1e0fc9fa423328ad9e1e5faa53603
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826552"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61305447"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支援的資料來源
 
@@ -24,26 +24,29 @@ ms.locfileid: "56826552"
 下列資料來源在 Power BI 中支援 DirectQuery：
 
 * Amazon Redshift
-* Azure HDInsight Spark (Beta)
+* AtScale (Beta)
+* Azure HDInsight Spark
 * Azure SQL Database
 * Azure SQL 資料倉儲
-* Google BigQuery (搶鮮版 (Beta))
+* Google BigQuery
+* HDInsight 互動式查詢
 * IBM DB2 資料庫
-* IBM Netezza (搶鮮版 (Beta))
+* IBM Netezza
 * Impala (2.x 版)
 * Oracle 資料庫 (第 12 版及更新版本)
+* Oracle Essbase
 * SAP Business Warehouse 應用程式伺服器
-* SAP Business Warehouse 訊息伺服器 (搶鮮版 (Beta))
+* SAP Business Warehouse 訊息伺服器
 * SAP HANA
-* 雪花式
-* Spark (Beta) (0.9 版及更新版本)
+* Snowflake
+* Spark (0.9 版及更新版本)
 * SQL Server
 * Teradata 資料庫
-* Vertica (搶鮮版 (Beta))
+* Vertica
 
 名稱後面有**搶鮮版 (Beta)** 或 **(預覽)** 的資料來源可能會變更，不支援用於生產環境。 將報告發佈至 **Power BI 服務** 之後可能也不支援這些資料來源，這表示開啟已發佈的報表或瀏覽資料集可能會導致錯誤。
 
-**(Beta)** 和 **(預覽)** 資料來源唯一的差別是 **(預覽)** 來源必須先啟用成為預覽功能，才可供使用。 若要啟用 **(預覽)** 資料連接器，請在 **Power BI Desktop** 中移至 [檔案] > [選項及設定] > [設定]，然後選取 [預覽功能]。
+**(Beta)** 和 **(預覽)** 資料來源唯一的差別是 **(預覽)** 來源必須先啟用成為預覽功能，才可供使用。 若要啟用 **(預覽)** 資料連接器，請在 **Power BI Desktop** 中移至 [檔案] > [選項及設定] > [設定]  ，然後選取 [預覽功能]  。
 
 > [!NOTE]
 > 對 SQL Server 的 DirectQuery 查詢需要使用目前 Windows 驗證認證或資料庫驗證以建立存取。 不支援備用認證。

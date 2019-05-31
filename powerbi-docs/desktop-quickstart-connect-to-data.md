@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 253ecbad775a2f4aa7dd1974c534fdcaa222676c
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514440"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>快速入門：連接至 Power BI Desktop 中的資料
@@ -41,29 +41,29 @@ ms.locfileid: "65514440"
 
 有了 **Power BI Desktop**，您可以連線到各種不同資料類型。 您可以連線到基本資料來源，例如 Microsoft Excel 檔案，且可以連線到包含各式各樣資料的線上服務，例如 Salesforce、Microsoft Dynamics、Azure Blob 儲存體等等。
 
-若要連線到資料，請選取 [常用] 功能區的 [取得資料]。
+若要連線到資料，請選取 [常用]  功能區的 [取得資料]  。
 
 ![取得資料](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
-[取得資料] 視窗隨即出現，其中有各種不同的資料來源供您選擇來讓 **Power BI Desktop** 連線。 在本快速入門中，我們使用您在本文開頭*先決條件*一節的描述中所下載的 Excel 活頁簿。
+[取得資料]  視窗隨即出現，其中有各種不同的資料來源供您選擇來讓 **Power BI Desktop** 連線。 在本快速入門中，我們使用您在本文開頭*先決條件*一節的描述中所下載的 Excel 活頁簿。
 
 ![取得資料](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
 
-因為這是 Excel 檔案，所以我們從 [取得資料] 視窗中選取 [Excel]，然後選取 [連線] 按鈕。
+因為這是 Excel 檔案，所以我們從 [取得資料]  視窗中選取 [Excel]  ，然後選取 [連線]  按鈕。
 
-接著會出現提示，要求我們提供所要連線 Excel 檔案的位置。 下載的檔案名為 *Financial Sample* (財務範例)，因此我們選取該檔案，然後選取 [開啟]。
+接著會出現提示，要求我們提供所要連線 Excel 檔案的位置。 下載的檔案名為 *Financial Sample* (財務範例)，因此我們選取該檔案，然後選取 [開啟]  。
 
 ![取得資料](media/desktop-quickstart-connect-to-data/qs-connect-data_04.png)
 
-接著，**Power BI Desktop** 會載入活頁簿並讀取其內容，然後使用 [導覽器] 視窗顯示檔案中可供使用的資料，您在當中可以選擇要將哪些資料載入 Power BI Desktop。 您可以將每個資料表旁的核取方塊標記，來選取要匯入的資料表。 在本案例中，我們將匯入這兩個可用的資料表。
+接著，**Power BI Desktop** 會載入活頁簿並讀取其內容，然後使用 [導覽器]  視窗顯示檔案中可供使用的資料，您在當中可以選擇要將哪些資料載入 Power BI Desktop。 您可以將每個資料表旁的核取方塊標記，來選取要匯入的資料表。 在本案例中，我們將匯入這兩個可用的資料表。
 
 ![取得資料](media/desktop-quickstart-connect-to-data/qs-connect-data_05.png)
 
-一旦完成選取之後，選取 [載入] 以將資料匯入至 Power BI Desktop。
+一旦完成選取之後，選取 [載入]  以將資料匯入至 Power BI Desktop。
 
 ## <a name="view-data-in-the-fields-pane"></a>在 [欄位] 窗格中檢視資料
 
-一旦您載入資料之後，[欄位] 窗格便會顯示資料。 您可以選取資料表名稱旁的三角形，來展開每個資料表。 在下列影像中，[financials (財務)] 資料表已展開，顯示其每個欄位。 
+一旦您載入資料之後，[欄位]  窗格便會顯示資料。 您可以選取資料表名稱旁的三角形，來展開每個資料表。 在下列影像中，[financials (財務)]  資料表已展開，顯示其每個欄位。 
 
 ![取得資料](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
 

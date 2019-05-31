@@ -12,31 +12,31 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215692"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61143227"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>將影像、文字、視訊和其他項目新增至儀表板
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
 
 
 ## <a name="add-tile"></a>新增磚
-[新增磚] 控制項可讓您直接將影像、文字方塊、影像、串流資料或 Web 程式碼加入儀表板。
+[新增磚]  控制項可讓您直接將影像、文字方塊、影像、串流資料或 Web 程式碼加入儀表板。
 
-1. 從頂端功能表列選取 [新增磚]。 根據空間限制，您可能只會看到加號 ![加號](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png)。
+1. 從頂端功能表列選取 [新增磚]  。 根據空間限制，您可能只會看到加號 ![加號](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png)。
    
     ![新增磚圖示](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
-2. 選取要加入的磚類型：[影像]、[文字方塊]、[影片]、[Web 內容] 或 [自訂串流資料]。
+2. 選取要加入的磚類型：[影像]  、[文字方塊]  、[影片]  、[Web 內容]  或 [自訂串流資料]  。
    
     ![新增磚視窗](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
 ## <a name="add-an-image"></a>加入影像
 假設您希望儀表板上有公司的標誌或其他影像。 您將需要線上儲存映像檔，並連結到它。 請確定不需要特殊認證以便存取映像檔。 例如，OneDrive 和 SharePoint 需要驗證，因此儲存在那裡的映像無法如此新增至儀表板。  
 
-1. 選取 [影像] > [下一步]。
-2. 將影像資訊新增至 [新增影像圖格] 視窗。
+1. 選取 [影像]   > [下一步]  。
+2. 將影像資訊新增至 [新增影像圖格]  視窗。
    
     ![[新增影像磚] 視窗](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
@@ -48,7 +48,7 @@ ms.locfileid: "56215692"
      ![儀表板上的影像](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
 
 ## <a name="add-a-text-box-or-dashboard-heading"></a>新增文字方塊或儀表板標題
-1. 選取 [文字方塊] > [下一步]。
+1. 選取 [文字方塊] > [下一步]  。
    
    > **注意**：若要加入儀表板標題，請在文字方塊中輸入您的標題並增加字型。
    > 
@@ -56,7 +56,7 @@ ms.locfileid: "56215692"
    
    * 若要在文字方塊上方顯示標題，請選取 [ **顯示標題和副標題** ]，並輸入標題和/或副標題。
    * 輸入並格式化文字方塊的內容。  
-   * 或者設定標題的自訂連結。 自訂連結可以是外部網站或您的工作區中的儀表板或報告。 不過在此範例中，我們已在文字方塊內新增超連結，因此會將 [設定自訂連結] 保持未核取狀態。
+   * 或者設定標題的自訂連結。 自訂連結可以是外部網站或您的工作區中的儀表板或報告。 不過在此範例中，我們已在文字方塊內新增超連結，因此會將 [設定自訂連結]  保持未核取狀態。
 
      ![[新增文字方塊磚] 視窗](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
@@ -67,8 +67,8 @@ ms.locfileid: "56215692"
 ## <a name="add-a-video"></a>加入影片
 將 YouTube 或 Vimeo 影片加入儀表板後，該影片就會直接在儀表板上播放。
 
-1. 選取 [影片] > [下一步]。
-2. 將影片資訊新增至 [新增影片圖格] 窗格。
+1. 選取 [影片] > [下一步]  。
+2. 將影片資訊新增至 [新增影片圖格]  窗格。
    
     ![[新增影片磚] 視窗](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
@@ -87,8 +87,8 @@ ms.locfileid: "56215692"
 ## <a name="add-web-content"></a>加入 Web 內容
 貼上或輸入任何 HTML 內容。  Power BI 會把它當成圖格加入您的儀表板。 以手動方式輸入內嵌程式碼，或從 Twitter、YouTube、embed.ly 等站台複製/貼上。
 
-1. 選取 [Web 內容] > [下一步]。
-2. 將資訊加入 [加入 Web 內容磚] 窗格。
+1. 選取 [Web 內容] > [下一步]  。
+2. 將資訊加入 [加入 Web 內容磚]  窗格。
    
     ![[新增 Web 內容磚] 視窗](media/service-dashboard-add-widget/power-bi-add-web-content.png)
    
@@ -119,7 +119,7 @@ ms.locfileid: "56215692"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
-* 此程式碼會內嵌推文，並以個別連結的方式在儀表板上保留 **AFK** 播客、**@GuyInACube Twitter 頁面**、**關注**、**#analytics**、**回覆**、**轉推**和**喜歡**的連結。  選取圖格本身會帶您前往 Twitter 的播客。
+* 此程式碼會內嵌推文，並以個別連結的方式在儀表板上保留 **AFK** 播客、 **@GuyInACube Twitter 頁面**、**關注**、 **#analytics**、**回覆**、**轉推**和**喜歡**的連結。  選取圖格本身會帶您前往 Twitter 的播客。
   
   ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">

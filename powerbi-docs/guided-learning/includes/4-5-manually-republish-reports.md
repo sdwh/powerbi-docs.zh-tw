@@ -1,4 +1,12 @@
-您可以更新已從 Power BI 發佈至 Desktop Power BI 服務的報表和資料集。 若要執行這項操作，請選取功能區中 [常用] 索引標籤的 [發佈]。
+---
+ms.openlocfilehash: 68645069b22163ca7ae2a64310e43f1a801434f5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61254646"
+---
+您可以更新已從 Power BI 發佈至 Desktop Power BI 服務的報表和資料集。 若要執行這項操作，請選取功能區中 [常用]  索引標籤的 [發佈]  。
 
 ![](media/4-5-manually-republish-reports/4-5_0.png)
 
@@ -6,7 +14,7 @@
 
 ![](media/4-5-manually-republish-reports/4-5_1.png)
 
-若您選取 [取代]，系統會將 Power BI 服務中的資料集和報表覆寫為 Power BI Desktop 的最新版本資料集和報表檔案。
+若您選取 [取代]  ，系統會將 Power BI 服務中的資料集和報表覆寫為 Power BI Desktop 的最新版本資料集和報表檔案。
 
 如同 Power BI Desktop 的任何其他**發佈**事件一樣，系統會顯示一個對話方塊，說明發佈事件已成功，並會提供 Power BI 服務中的報表連結。
 

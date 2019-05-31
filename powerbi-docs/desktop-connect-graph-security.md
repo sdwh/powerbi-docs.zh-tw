@@ -12,11 +12,11 @@ ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 9c265a5d8ad1a08396e0bb4fb553a87a134472fd
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306450"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61317829"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Microsoft Graph 安全性 API
 
@@ -26,7 +26,7 @@ Microsoft Graph 安全性 API 連線 Microsoft [多個安全性解決方案](htt
 
 ## <a name="prerequisites-to-use-the-microsoft-graph-security-connector"></a>使用 Microsoft Graph 安全性連接器的必要條件
 
-若要使用 Microsoft Graph 安全性連接器，您必須「明確」取得 Azure Active Directory (Azure AD) 租用戶管理員的同意。 請參閱 [Microsoft Graph 安全性驗證需求](https://aka.ms/graphsecurityauth)。
+若要使用 Microsoft Graph 安全性連接器，您必須「明確」  取得 Azure Active Directory (Azure AD) 租用戶管理員的同意。 請參閱 [Microsoft Graph 安全性驗證需求](https://aka.ms/graphsecurityauth)。
 同意需要有連接器的應用程式識別碼和名稱，此處已引用，也可於 [Azure 入口網站](https://portal.azure.com)取得：
 
 | 屬性 | 值 |
@@ -41,45 +41,45 @@ Microsoft Graph 安全性 API 連線 Microsoft [多個安全性解決方案](htt
 
 * 透過[應用程式同意體驗](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)回應邏輯應用程式在第一次執行期間所提交的要求
    
-登入 Microsoft Graph 安全性連接器的使用者帳戶，必須是 Azure AD 安全性讀取者受限管理員角色的成員，可以是「安全性讀取者」或「安全性系統管理員」。 請參閱 [Assign Azure AD roles to users](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users) (將 Azure AD 角色指派給使用者)。
+登入 Microsoft Graph 安全性連接器的使用者帳戶，必須是 Azure AD 安全性讀取者受限管理員角色的成員，可以是「安全性讀取者」  或「安全性系統管理員」  。 請參閱 [Assign Azure AD roles to users](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users) (將 Azure AD 角色指派給使用者)。
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>使用 Microsoft Graph 安全性連接器
 
 請遵循下列步驟使用連接器：
 
-1. 從 Power BI Desktop 的 [常用] 功能區選取 [取得資料] > [更多]。
-2. 在視窗左側的類別清單中選取 [線上服務]。
-3. 選取 [Microsoft Graph 安全性搶鮮版 (Beta)]。
+1. 從 Power BI Desktop 的 [常用]  功能區選取 [取得資料]   > [更多]  。
+2. 在視窗左側的類別清單中選取 [線上服務]  。
+3. 選取 [Microsoft Graph 安全性搶鮮版 (Beta)]  。
 
     ![[取得資料] 對話方塊](media/desktop-connect-graph-security/GetData.PNG)
     
-4. 在 [Microsoft Graph 安全性] 視窗中選取要查詢的 Microsoft Graph API 版本：**v1.0** 或**搶鮮版 (Beta)**。
+4. 在 [Microsoft Graph 安全性]  視窗中選取要查詢的 Microsoft Graph API 版本：**v1.0** 或**搶鮮版 (Beta)** 。
 
     ![選取版本對話方塊](media/desktop-connect-graph-security/selectVersion.PNG)
     
-5. 出現提示時，登入您的 Azure Active Directory 帳戶。 此帳戶必須擁有「安全性讀取者」或「安全性系統管理員」角色，如前一節所述。
+5. 出現提示時，登入您的 Azure Active Directory 帳戶。 此帳戶必須擁有「安全性讀取者」  或「安全性系統管理員」  角色，如前一節所述。
 
     ![登入](media/desktop-connect-graph-security/SignIn.PNG) 
     
-6. 如果您是租用戶管理員，「且」尚未同意 Microsoft Graph 安全性 Power BI 連接器 (應用程式)，您會看到下列對話方塊。 選取 [代表貴組織同意]。
+6. 如果您是租用戶管理員，「且」  尚未同意 Microsoft Graph 安全性 Power BI 連接器 (應用程式)，您會看到下列對話方塊。 選取 [代表貴組織同意]  。
 
     ![管理員同意對話方塊](media/desktop-connect-graph-security/AdminConsent.PNG)
     
-7. 登入後就會看到下列對話方塊，指出您已通過驗證。 選取 [連接]。
+7. 登入後就會看到下列對話方塊，指出您已通過驗證。 選取 [連接]  。
 
     ![[您目前已登入] 對話方塊](media/desktop-connect-graph-security/SignedIn.PNG)
     
-8. 連線之後，[導覽器] 視窗會顯示警示、安全分數，以及可供您在步驟 4 中選取之 [Microsoft Graph 安全性 API](https://aka.ms/graphsecuritydocs) 版本使用的其他實體。 在 Power BI Desktop 中選取要匯入並使用的一或多個實體。 然後，選取 [載入] 取得步驟 9 後顯示的結果檢視。
+8. 連線之後，[導覽器]  視窗會顯示警示、安全分數，以及可供您在步驟 4 中選取之 [Microsoft Graph 安全性 API](https://aka.ms/graphsecuritydocs) 版本使用的其他實體。 在 Power BI Desktop 中選取要匯入並使用的一或多個實體。 然後，選取 [載入]  取得步驟 9 後顯示的結果檢視。
 
     ![導覽器對話方塊](media/desktop-connect-graph-security/NavTable.PNG)
     
-9. 如果您希望對 Microsoft Graph 安全性 API 進行進階查詢，請選取 [Specify custom Microsoft Graph Security URL to filter results] \(指定自訂 Microsoft Graph 安全性 URL 以篩選結果\)。 以必要權限使用此函式對 Microsoft Graph 安全性 API 發出 [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) 查詢。
+9. 如果您希望對 Microsoft Graph 安全性 API 進行進階查詢，請選取 [Specify custom Microsoft Graph Security URL to filter results] \(指定自訂 Microsoft Graph 安全性 URL 以篩選結果\)  。 以必要權限使用此函式對 Microsoft Graph 安全性 API 發出 [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) 查詢。
 
    下列範例使用 `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` *serviceUri*。 若要了解如何建置查詢以篩選、排序或擷取最新的結果，請參閱 [OData 系統查詢選項](https://docs.microsoft.com/graph/query-parameters)。
 
    ![OdataFeed 範例](media/desktop-connect-graph-security/ODataFeed.PNG)
     
-   當您選取 [叫用] 時，**OData.Feed** 函式會呼叫 API，其會開啟查詢編輯器。 您可以篩選並精簡您想要使用的資料集。 然後，將資料載入 Power BI Desktop。
+   當您選取 [叫用]  時，**OData.Feed** 函式會呼叫 API，其會開啟查詢編輯器。 您可以篩選並精簡您想要使用的資料集。 然後，將資料載入 Power BI Desktop。
 
 以下是查詢後的 Microsoft Graph 安全性實體結果視窗：
 

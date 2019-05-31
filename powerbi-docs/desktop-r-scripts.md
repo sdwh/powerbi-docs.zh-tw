@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 188669525a210afc516cc9740d5d7e7c5682ea93
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514722"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中執行 R 指令碼
@@ -41,19 +41,19 @@ ms.locfileid: "65514722"
 * 在 R 指令碼中設定工作目錄時，您「必須」  定義工作目錄的完整路徑，而非相對路徑
 
 ### <a name="run-your-r-script-and-import-data"></a>執行 R 指令碼並匯入資料
-1. 在 Power BI Desktop 中，R 指令碼資料連接器可在 [取得資料] 中找到。 若要執行 R 指令碼，請選取 [取得資料] &gt; [其他...]，然後選取 [其他] &gt; [R 指令碼]，如下圖所示：
+1. 在 Power BI Desktop 中，R 指令碼資料連接器可在 [取得資料]  中找到。 若要執行 R 指令碼，請選取 [取得資料] &gt; [其他...]  ，然後選取 [其他] &gt; [R 指令碼]  ，如下圖所示：
    
    ![](media/desktop-r-scripts/r-scripts-1.png)
-2. 如果您的本機電腦上安裝 R，就會選取已安裝最新的版本做為 R 引擎。 只要將您的指令碼複製到指令碼視窗，然後選取 [確定] 。
+2. 如果您的本機電腦上安裝 R，就會選取已安裝最新的版本做為 R 引擎。 只要將您的指令碼複製到指令碼視窗，然後選取 [確定]  。
    
    ![](media/desktop-r-scripts/r-scripts-2.png)
 3. 如果 R 未安裝、無法識別，或者如果在本機電腦上有多個安裝，請展開 [R 安裝設定]  以顯示安裝選項，或選取您想要用來執行 R 指令碼的安裝是哪一個。
    
    ![](media/desktop-r-scripts/r-scripts-3.png)
    
-   如果 R 已安裝但無法識別，則您可以在展開 [R 安裝設定] 提供的文字方塊中明確輸入其位置。 在上圖中，已在文字方塊中明確輸入路徑 *C:\Program Files\R\R-3.2.0* 。
+   如果 R 已安裝但無法識別，則您可以在展開 [R 安裝設定]  提供的文字方塊中明確輸入其位置。 在上圖中，已在文字方塊中明確輸入路徑 *C:\Program Files\R\R-3.2.0* 。
    
-   R 安裝設定集中位於 [選項] 對話方塊的 R 指令碼區段。 若要指定 R 安裝設定，請選取 [檔案] > [選項和設定]，然後選取 [選項] > [R 指令碼]。 如果有多個 R 安裝程式，則會顯示下拉式功能表，讓您選取要使用的安裝程式。
+   R 安裝設定集中位於 [選項] 對話方塊的 R 指令碼區段。 若要指定 R 安裝設定，請選取 [檔案] > [選項和設定]  ，然後選取 [選項] > [R 指令碼]  。 如果有多個 R 安裝程式，則會顯示下拉式功能表，讓您選取要使用的安裝程式。
    
    ![](media/desktop-r-scripts/r-scripts-4.png)
 4. 選取 [確定]  來執行 R 指令碼。 當指令碼順利執行時，您可以選擇要加入 Power BI 模型之產生的資料框架。

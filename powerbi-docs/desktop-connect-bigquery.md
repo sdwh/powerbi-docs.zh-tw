@@ -11,21 +11,21 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: e47dd26c6a8433777f0c4d3ef15cce41225cf03a
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514656"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>在 Power BI Desktop 中連線到 Google BigQuery 資料庫
 在 Power BI Desktop 中，您可以連線到 Google **BigQuery** 資料庫並使用基礎資料，如同 Power BI Desktop 中的任何其他資料來源。
 
 ## <a name="connect-to-google-bigquery"></a>連線到 Google BigQuery
-若要連線到 Google **BigQuery** 資料庫，請從 Power BI Desktop 的 [首頁] 功能區選取 [取得資料]。 從左側類別中選取 [資料庫]，然後您會看到 **Google BigQuery**。
+若要連線到 Google **BigQuery** 資料庫，請從 Power BI Desktop 的 [首頁]  功能區選取 [取得資料]  。 從左側類別中選取 [資料庫]  ，然後您會看到 **Google BigQuery**。
 
 ![Google BigQuery 的 [取得資料] 對話方塊](media/desktop-connect-bigquery/connect_bigquery_01.png)
 
-在出現的 [Google BigQuery] 視窗中，登入您的 Google BigQuery 帳戶，然後選取 [連線]。
+在出現的 [Google BigQuery]  視窗中，登入您的 Google BigQuery 帳戶，然後選取 [連線]  。
 
 ![登入 Google BigQuery](media/desktop-connect-bigquery/connect_bigquery_02.png)
 
@@ -33,7 +33,7 @@ ms.locfileid: "65514656"
 
 ![已登入 Google](media/desktop-connect-bigquery/connect_bigquery_02b.png)
 
-成功連接後，[導覽器] 視窗隨即出現，並顯示伺服器上可用的資料，您可以從中選取一或多個要匯入 **Power BI Desktop** 並在其中使用的項目。
+成功連接後，[導覽器]  視窗隨即出現，並顯示伺服器上可用的資料，您可以從中選取一或多個要匯入 **Power BI Desktop** 並在其中使用的項目。
 
 ![來自 Google BigQuery 的資料](media/desktop-connect-bigquery/connect_bigquery_03.png)
 

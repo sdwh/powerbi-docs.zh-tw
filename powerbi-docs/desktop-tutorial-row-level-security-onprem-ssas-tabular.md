@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 57a285b075b17b2229ec4267a476cdd4b86ea7ad
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513599"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>動態資料列層級安全性與 Analysis Services 表格式模型
@@ -32,7 +32,7 @@ ms.locfileid: "65513599"
 * 根據報表建立新的儀表板，最後，
 * 與同事共用儀表板
 
-若要遵循本教學課程中的步驟，您需要 **AdventureworksDW2012** 資料庫，您可以從**[存放庫](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)** 下載。
+若要遵循本教學課程中的步驟，您需要 **AdventureworksDW2012** 資料庫，您可以從 **[存放庫](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)** 下載。
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>工作 1︰建立使用者安全性資料表，並定義資料關聯性
 有許多已發行的文章說明如何定義資料列層級動態的安全性與 **SQL Server Analysis Services (SSAS) 表格式** 模型。 我們的範例遵循 [Implement Dynamic Security by Using Row Filters](https://msdn.microsoft.com/library/hh479759.aspx) (使用資料列篩選來實作動態安全性) 一文。 下列步驟將引導您完成在本教學課程中的第一項工作：
@@ -40,10 +40,10 @@ ms.locfileid: "65513599"
 1. 我們的範例使用 **AdventureworksDW2012** 關聯式資料庫。 在該資料庫中，建立 **DimUserSecurity** 資料表，如下圖所示。 此範例中，我們使用 SQL Server Management Studio (SSMS) 來建立資料表。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable.png)
-2. 建立資料表並儲存之後，我們必須建立 **DimUserSecurity** 資料表的 **SalesTerritoryID** 資料行與 **DimSalesTerritory** 資料表的 **SalesTerritoryKey** 資料行之間的關聯性，如下圖所示。 這可以從 **SSMS** 完成，方法是在 **DimUserSecurity** 資料表上按一下滑鼠右鍵，然後選取 [設計]。 然後從功能表選取 [資料表設計工具] -> [關聯性...]。
+2. 建立資料表並儲存之後，我們必須建立 **DimUserSecurity** 資料表的 **SalesTerritoryID** 資料行與 **DimSalesTerritory** 資料表的 **SalesTerritoryKey** 資料行之間的關聯性，如下圖所示。 這可以從 **SSMS** 完成，方法是在 **DimUserSecurity** 資料表上按一下滑鼠右鍵，然後選取 [設計]  。 然後從功能表選取 [資料表設計工具] -> [關聯性...]  。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
-3. 儲存資料表，然後藉由再次以滑鼠右鍵按一下 **DimUserSecurity** 資料表，然後選取 [Edit Top 200 Rows] \(編輯前 200 個資料列\)，將幾個使用者資訊資料列新增到資料表中。 新增這些使用者之後，**DimUserSecurity** 資料表的資料列就會如同下圖所示︰
+3. 儲存資料表，然後藉由再次以滑鼠右鍵按一下 **DimUserSecurity** 資料表，然後選取 [Edit Top 200 Rows] \(編輯前 200 個資料列\)  ，將幾個使用者資訊資料列新增到資料表中。 新增這些使用者之後，**DimUserSecurity** 資料表的資料列就會如同下圖所示︰
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
    
@@ -60,17 +60,17 @@ ms.locfileid: "65513599"
 2. 將所有必要的資料表匯入模型中，如下所示。
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
-3. 在您匯入所需的資料表之後，您必須使用**讀取**權限定義名為 **SalesTerritoryUsers** 的角色。 這可藉由按一下 [SQL Server 資料工具] 中的 [模型] 功能表，然後按一下 [角色]。 在 [角色管理員] 對話方塊中，按一下 [新增]。
-4. 在 [角色管理員] 的 [成員] 索引標籤下，新增 **工作 1 - 步驟 3** 中 **DimUserSecurity** 資料表所定義的使用者。
+3. 在您匯入所需的資料表之後，您必須使用**讀取**權限定義名為 **SalesTerritoryUsers** 的角色。 這可藉由按一下 [SQL Server 資料工具] 中的 [模型]  功能表，然後按一下 [角色]  。 在 [角色管理員]  對話方塊中，按一下 [新增]  。
+4. 在 [角色管理員]  的 [成員]  索引標籤下，新增 **工作 1 - 步驟 3** 中 **DimUserSecurity** 資料表所定義的使用者。
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager.png)
-5. 接下來，為 **DimSalesTerritory** 和 **DimUserSecurity** 資料表加入適當的函數，如 [資料列篩選] 索引標籤下所示。
+5. 接下來，為 **DimSalesTerritory** 和 **DimUserSecurity** 資料表加入適當的函數，如 [資料列篩選]  索引標籤下所示。
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager_complete.png)
-6. 在此步驟中，我們使用 **LOOKUPVALUE** 函數傳回資料行的值，其中 Windows 使用者名稱與 **USERNAME** 函數所傳回的使用者名稱相同。 之後就可以限制查詢，其中 **LOOKUPVALUE** 傳回的值符合相同或相關資料表中的值。 在 [DAX 篩選]資料行中，輸入下列公式︰
+6. 在此步驟中，我們使用 **LOOKUPVALUE** 函數傳回資料行的值，其中 Windows 使用者名稱與 **USERNAME** 函數所傳回的使用者名稱相同。 之後就可以限制查詢，其中 **LOOKUPVALUE** 傳回的值符合相同或相關資料表中的值。 在 [DAX 篩選]  資料行中，輸入下列公式︰
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
-    在此公式中，**LOOKUPVALUE** 函數會傳回 **DimUserSecurity [SalesTerritoryID]** 資料行的所有值，其中 **DimUserSecurity [UserName]** 等同於目前登入的 Windows 使用者名稱，而 **DimUserSecurity [SalesTerritoryID]** 等同 **DimSalesTerritory [SalesTerritoryKey]**。
+    在此公式中，**LOOKUPVALUE** 函數會傳回 **DimUserSecurity [SalesTerritoryID]** 資料行的所有值，其中 **DimUserSecurity [UserName]** 等同於目前登入的 Windows 使用者名稱，而 **DimUserSecurity [SalesTerritoryID]** 等同 **DimSalesTerritory [SalesTerritoryKey]** 。
    
     > [!IMPORTANT]
     > 請注意，使用資料列層級安全性時不支援 DAX 函式 [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax)。
@@ -85,32 +85,32 @@ ms.locfileid: "65513599"
 
 ## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>工作 3︰在您的內部部署資料閘道中新增資料來源
 1. 部署表格式模型以供使用之後，您需要在 Power BI 入口網站中將資料來源連線新增到內部部署 Analysis Services 表格式伺服器中。
-2. 若要允許 **Power BI 服務**存取您內部部署的分析服務，必須在環境中安裝及設定**[內部部署資料閘道](service-gateway-onprem.md)**。
+2. 若要允許 **Power BI 服務**存取您內部部署的分析服務，必須在環境中安裝及設定 **[內部部署資料閘道](service-gateway-onprem.md)** 。
 3. 當正確設定閘道之後，必須為 **Analysis Services** 表格式執行個體建立資料來源連接。 本文將說明如何[在 Power BI 入口網站中新增資料來源](service-gateway-enterprise-manage-ssas.md)。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
 4. 完成上一個步驟之後，即完成了閘道設定，可與內部部署的 **Analysis Services** 資料來源互動。
 
 ## <a name="task-4-creating-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>工作 4︰使用 Power BI Desktop 建立以 Analysis Services 表格式模型為基礎的報表
-1. 啟動 [Power BI Desktop]，然後選取 [取得資料] > [資料庫]。
-2. 從資料來源的清單中，選取 **SQL Server Analysis Services 資料庫**，然後選取 [連線]。
+1. 啟動 [Power BI Desktop]  ，然後選取 [取得資料] > [資料庫]  。
+2. 從資料來源的清單中，選取 **SQL Server Analysis Services 資料庫**，然後選取 [連線]  。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
-3. 填寫您的 **Analysis Services** 表格式執行個體詳細資料，然後選取 [即時連線]。 選取 [確定] 。 使用 **Power BI**，動態安全性僅適用於**即時連線**。
+3. 填寫您的 **Analysis Services** 表格式執行個體詳細資料，然後選取 [即時連線]  。 選取 [確定]  。 使用 **Power BI**，動態安全性僅適用於**即時連線**。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
-4. 您會看到部署的模型在 **Analysis Services** 執行個體中。 選取個別的模型，然後選取 [確定]。
+4. 您會看到部署的模型在 **Analysis Services** 執行個體中。 選取個別的模型，然後選取 [確定]  。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
-5. **Power BI Desktop** 現在會在 [欄位] 窗格中畫布右方顯示所有可用的欄位。
-6. 在右方 [欄位] 窗格上，選取 [FactInternetSales] 資料表的 [SalesAmount] 量值和 [SalesTerritory] 資料表的 [SalesTerritoryRegion] 維度。
+5. **Power BI Desktop** 現在會在 [欄位]  窗格中畫布右方顯示所有可用的欄位。
+6. 在右方 [欄位]  窗格上，選取 [FactInternetSales]  資料表的 [SalesAmount]  量值和 [SalesTerritory]  資料表的 [SalesTerritoryRegion]  維度。
 7. 我們會將這份報表保持簡潔，所以現在我們不會新增任何其他的欄位。 為了讓資料以更能表達意義的方式呈現，我們會將視覺效果變更為**環圈圖**。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
-8. 在報表準備就緒之後，您可以直接將其發行至 Power BI 入口網站。 在 **Power BI Desktop** 的 [主資料夾] 功能區上，選取 [發行]。
+8. 在報表準備就緒之後，您可以直接將其發行至 Power BI 入口網站。 在 **Power BI Desktop** 的 [主資料夾]  功能區上，選取 [發行]  。
 
 ## <a name="task-5-creating-and-sharing-a-dashboard"></a>工作 5︰建立及共用儀表板
-1. 您已經建立報表並在 **Power BI Desktop** 中按下了 [發行]，因此報表將會發行至 **Power BI** 服務。 既然現在其已存在服務之中，我們就可以使用在先前步驟中建立的範例來示範我們模型的安全性案例。
+1. 您已經建立報表並在 **Power BI Desktop** 中按下了 [發行]  ，因此報表將會發行至 **Power BI** 服務。 既然現在其已存在服務之中，我們就可以使用在先前步驟中建立的範例來示範我們模型的安全性案例。
    
    在他的角色中，**銷售經理 - Sumit** 可以在所有不同的銷售區域查看資料。 因此他建立了此報告 (在上一個工作步驟中建立的報表)，並將其發行至 Power BI 服務。
    

@@ -1,18 +1,18 @@
 ---
 title: 如何將 Power BI 工作區集合內容遷移至 Power BI
 description: 了解如何從 Power BI 工作區集合遷移至 Power BI Embedded，並利用內嵌在應用程式中的進階功能。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 23907633ec92a172a9cdd392ad62b43d367260b3
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223597"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61270427"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何將 Power BI 工作區集合內容遷移至 Power BI Embedded
 
@@ -131,7 +131,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 3. 儲存 PBIX。
 4. 對 SaaS 工作區呼叫匯入 PBIX。
 5. 呼叫 POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections 更新連接字串
-6. 呼叫 GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources 取得 GW 識別碼和資料來源識別碼
+6. 藉由呼叫取得 GW 和資料來源識別碼-取得 https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. 呼叫 PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} 更新使用者的認證
 
 #### <a name="old-dataset--reports"></a>舊資料集和報表
@@ -145,7 +145,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 
 #### <a name="push-dataset--report"></a>推送資料集和報表
 
-下載 PBIX 不支援「推送 API」資料集。 無法將「推送 API」資料集資料從 PaaS 移植至 SaaS。
+下載 PBIX 不支援「推送 API」  資料集。 無法將「推送 API」資料集資料從 PaaS 移植至 SaaS。
 
 **流程**
 
@@ -200,7 +200,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 [Power BI 工作區集合遷移工具](migrate-tool.md)  
 [從 Power BI 工作區集合遷移內容的程式碼片段](migrate-code-snippets.md)  
 [如何內嵌 Power BI 儀表板、報告和圖格](embedding-content.md)  
-[何謂 Power BI Premium](../service-premium.md)  
+[何謂 Power BI Premium](../service-premium-what-is.md)  
 [JavaScript API Git 存放庫](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 存放庫](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 內嵌示範](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

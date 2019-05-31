@@ -11,14 +11,14 @@ ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662012"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61059715"
 ---
 # <a name="your-content-is-up-to-date"></a>您的內容是最新狀態
-作為「消費者」，您可以與「設計師」建立並與您共用的內容互動。 您可能會希望知道該內容是否為最新，或只想要知道該內容上次重新整理的時間。 了解您正在使用最新的內容，可讓您保持信心。  
+作為「消費者」  ，您可以與「設計師」  建立並與您共用的內容互動。 您可能會希望知道該內容是否為最新，或只想要知道該內容上次重新整理的時間。 了解您正在使用最新的內容，可讓您保持信心。  
  
 ![Power BI 儀表板](media/end-user-consumer/power-bi-service.png)
 
@@ -33,7 +33,7 @@ ms.locfileid: "56662012"
 
 應用程式畫面會顯示設計師名稱和建立應用程式的日期。  
 
-1. 從左側瀏覽窗格中選取 [應用程式]。
+1. 從左側瀏覽窗格中選取 [應用程式]  。
 
     ![左側瀏覽窗格](media/end-user-fresh/power-bi-nav-apps.png)
 
@@ -45,7 +45,7 @@ ms.locfileid: "56662012"
 
 
 ### <a name="shared-with-me"></a>與我共用
-[與我共用] 畫面會顯示內容擁有者名稱和與您共用內容的日期。
+[與我共用]  畫面會顯示內容擁有者名稱和與您共用內容的日期。
 
 ![與我共用畫面會顯示已變更的日期和擁有者](media/end-user-fresh/power-bi-shared-new.png) 
 
@@ -56,7 +56,7 @@ ms.locfileid: "56662012"
 ### <a name="dashboard-tiles"></a>儀表板圖格
 針對儀表板圖格，在 [焦點] 模式中檢視圖格以查看上次重新整理的時間戳記。
 
-1. 在儀表板圖格上選取省略符號 (...)，然後選擇 [以焦點模式開啟]。
+1. 在儀表板圖格上選取省略符號 (...)，然後選擇 [以焦點模式開啟]  。
 
     ![選取省略符號後顯示的功能表](media/end-user-fresh/power-bi-focus.png)
 
@@ -65,11 +65,11 @@ ms.locfileid: "56662012"
     ![加寬後的瀏覽器會顯示上次重新整理日期](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="from-dashboards-and-reports"></a>從儀表板和報表
-查詢上次重新整理日期的另一個方法是使用 [檢視相關項目]。  [檢視相關項目] 位於 Power BI 上方功能表列。
+查詢上次重新整理日期的另一個方法是使用 [檢視相關項目]  。  [檢視相關項目]  位於 Power BI 上方功能表列。
 
 ![從功能表選取 [檢視相關項目]](media/end-user-fresh/power-bi-view-related.png)
 
-[相關內容] 窗格會顯示儀表板或報表基礎資料集的上次重新整理資訊。
+[相關內容]  窗格會顯示儀表板或報表基礎資料集的上次重新整理資訊。
 
 ![Power BI 儀表板](media/end-user-fresh/power-bi-last-refresh.png)
 

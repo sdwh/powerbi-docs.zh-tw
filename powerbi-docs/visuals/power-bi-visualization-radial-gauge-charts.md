@@ -12,11 +12,11 @@ ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 079494a47452ca0ca043032f78fa35c7d1755d11
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282555"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61067786"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的星形量測計圖表
 星形量測計圖表具有圓弧線段，並且會顯示針對某一目標/KPI 測量進度的單一值。  目標或目標值是由線條 (指針) 表示。 達到該目標的進度是由陰影表示。  代表該進度的值會以粗體顯示在弧線內。所有可能的值會從最小 (最左邊的值) 到最大 (最右邊的值) 平均分散在弧線上。
@@ -47,17 +47,17 @@ ms.locfileid: "54282555"
 ### <a name="step-1-open-the-financial-sample-excel-file"></a>步驟 1：開啟財務範例 Excel 檔案
 1. 如果尚未這麼做，請[下載範例財務 Excel 檔案](../sample-financial-download.md)。 請記住您儲存的位置。
 
-2. 選取 [取得資料] \> [檔案] 並瀏覽至您儲存檔案的位置，在 [Power BI 服務] 中開啟檔案。 選取 [匯入]。 財務範例隨即加入工作區成為資料集。
+2. 選取 [取得資料] \> [檔案]  並瀏覽至您儲存檔案的位置，在 [Power BI 服務] 中開啟檔案。 選取 [匯入]  。 財務範例隨即加入工作區成為資料集。
 
-3. 從 [資料集] 內容清單，選取 [財務範例]，在瀏覽模式中加以開啟。
+3. 從 [資料集]  內容清單，選取 [財務範例]  ，在瀏覽模式中加以開啟。
 
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>步驟 2：建立追蹤總銷售額的量測計
-1. 在 [欄位]  窗格中，選取 [總銷售額] 。
+1. 在 [欄位]  窗格中，選取 [總銷售額]  。
    
    ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
-2. 將彙總變更為 [平均] 。
+2. 將彙總變更為 [平均]  。
    
    ![](media/power-bi-visualization-radial-gauge-charts/changetoaverage_new.png)
 3. 選取量測計圖示 ![](media/power-bi-visualization-radial-gauge-charts/gaugeicon_new.png) 將直條圖轉換成量測計。
@@ -68,8 +68,8 @@ ms.locfileid: "54282555"
 
 ### <a name="step-3-set-a-target-value"></a>步驟 3：設定目標值
 1. 將 [COGS]  拖曳至 [目標值]  井。
-2. 將彙總變更為 [平均] 。
-   Power BI 會加入指針來代表我們的目標值：**$145.48K**。 請注意到我們已經超過目標。
+2. 將彙總變更為 [平均]  。
+   Power BI 會加入指針來代表我們的目標值： **$145.48K**。 請注意到我們已經超過目標。
    
    ![](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress_new.png)
    
@@ -82,7 +82,7 @@ ms.locfileid: "54282555"
 在步驟 2 中，Power BI 會使用 [值] 欄位來自動設定最小值 (開始) 與最大值 (結束)。  但如果您想自行設定最大值該怎麼做？  假設您不想使用目前值的兩倍做為最大的可能值，而要將它設定為資料集裡最高的總銷售額數字？ 
 
 1. 將 [總銷售額]  從 [欄位]  清單拖曳到 [最大值]  。
-2. 將彙總變更為 [最大值] 。
+2. 將彙總變更為 [最大值]  。
    
    ![](media/power-bi-visualization-radial-gauge-charts/setmaximum_new.png)
    
@@ -99,13 +99,13 @@ ms.locfileid: "54282555"
 2. 選取油漆滾筒圖示，開啟格式化窗格。
    
    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-roller.png)
-3. 展開 [量測計軸]  並輸入 [最小]  與 [最大] 的值。
+3. 展開 [量測計軸]  並輸入 [最小]  與 [最大]  的值。
    
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-axis.png)
 4. 移除 **COGS**旁的核取記號，以移除目前的目標值。
    
     ![](media/power-bi-visualization-radial-gauge-charts/pbi_remove_target.png)
-5. 當 [量測計軸]  下出現 [目標] 欄位時，請輸入值。
+5. 當 [量測計軸]  下出現 [目標]  欄位時，請輸入值。
    
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. 可選擇繼續格式化量測計圖。

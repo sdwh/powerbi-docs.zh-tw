@@ -11,11 +11,11 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 635a64c08056e82539d33904d4cce60d4cfc00cd
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58382930"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187915"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>無法將 Power BI 加入 Office 365 合作夥伴訂閱
 
@@ -37,13 +37,13 @@ Office 365 可讓公司將 Office 365 與其自有的解決方案進行搭配整
 
 1. 移至 [MIcrosoft 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
-1. 在左側功能表中，開啟 [計費]：
+1. 在左側功能表中，開啟 [計費]  ：
 
-    * 如果您看到 [訂閱]，您可以直接向 Microsoft 取得服務，您也可以連絡提供 Power BI 的其他合作夥伴。
+    * 如果您看到 [訂閱]  ，您可以直接向 Microsoft 取得服務，您也可以連絡提供 Power BI 的其他合作夥伴。
 
         ![[計費] - 顯示 [訂閱]](media/service-admin-syndication-partner/billingsub.png)
 
-    * 如果您沒有看到 [訂閱]，則您無法直接向 Microsoft 或其他合作夥伴購買。
+    * 如果您沒有看到 [訂閱]  ，則您無法直接向 Microsoft 或其他合作夥伴購買。
 
 如果您的合作夥伴不提供 Power BI，且您無法直接向 Microsoft 或其他合作夥伴購買，請考慮註冊免費試用版。
 
@@ -53,7 +53,7 @@ Office 365 可讓公司將 Office 365 與其自有的解決方案進行搭配整
 
 ### <a name="enable-ad-hoc-subscriptions"></a>啟用特定訂閱
 
-根據預設，系統會停用個人註冊 (又稱為特定訂閱)。 在此情況下，您會在嘗試註冊時看到下列訊息：「您的 IT 部門已經關閉 Microsoft Power BI 的註冊功能。」
+根據預設，系統會停用個人註冊 (又稱為特定訂閱)。 在此情況下，您會在嘗試註冊時看到下列訊息：「您的 IT 部門已經關閉 Microsoft Power BI 的註冊功能。」 
 
 ![[很抱歉] 影像](media/service-admin-syndication-partner/sorry.png)
 

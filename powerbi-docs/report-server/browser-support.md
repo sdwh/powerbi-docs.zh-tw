@@ -1,20 +1,20 @@
 ---
 title: Power BI 報表伺服器的瀏覽器支援
 description: 了解管理及檢視 Power BI 報表伺服器和報表檢視器控制項所支援的瀏覽器版本。
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
-ms.author: maghan
-ms.openlocfilehash: 84f159e38f8fee239e8fca3280d852e456fb61a6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 5a2ca653a06efbde161899602536b05c8f6ab666
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274896"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769764"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI 報表伺服器的瀏覽器支援
 了解管理及檢視 Power BI 報表伺服器和報表檢視器控制項所支援的瀏覽器版本。

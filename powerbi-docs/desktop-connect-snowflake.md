@@ -11,26 +11,26 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c02eda44ec81fe31972055548996ae357bc4c4b9
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513833"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>在 Power BI Desktop 中連接到 Snowflake
 在 Power BI Desktop 中，您可以連接至 **Snowflake** 運算倉儲並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。 
 
 > [!NOTE]
-> 您還「必須」使用符合 **Power BI Desktop** 安裝的 32 位元或 64 位元架構，在使用 **Snowflake** 連接器的電腦上安裝 **Snowflake ODBC 驅動程式**。 只要遵循下列連結並[下載適當的 Snowflake ODBC 驅動程式](http://go.microsoft.com/fwlink/?LinkID=823762)即可。
+> 您還「必須」  使用符合 **Power BI Desktop** 安裝的 32 位元或 64 位元架構，在使用 **Snowflake** 連接器的電腦上安裝 **Snowflake ODBC 驅動程式**。 只要遵循下列連結並[下載適當的 Snowflake ODBC 驅動程式](http://go.microsoft.com/fwlink/?LinkID=823762)即可。
 > 
 > 
 
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>連接至 Snowflake 運算倉儲
-若要連接到 **Snowflake** 運算倉儲，請從 Power BI Desktop 的 [首頁] 功能區選取 [取得資料]。 從左側類別中選取 [資料庫]，然後您會看到 **Snowflake**。
+若要連接到 **Snowflake** 運算倉儲，請從 Power BI Desktop 的 [首頁]  功能區選取 [取得資料]  。 從左側類別中選取 [資料庫]  ，然後您會看到 **Snowflake**。
 
 ![](media/desktop-connect-snowflake/connect_snowflake_2b.png)
 
-在顯示的 [Snowflake] 視窗中，將您的 Snowflake 伺服器名稱鍵入或貼上方塊中，然後選取 [確定]。 請注意，您可以選擇直接將資料 [匯入] Power BI 中，也可以使用 [DirectQuery]。 您可以深入了解[如何使用 DirectQuery](desktop-use-directquery.md)。
+在顯示的 [Snowflake]  視窗中，將您的 Snowflake 伺服器名稱鍵入或貼上方塊中，然後選取 [確定]  。 請注意，您可以選擇直接將資料 [匯入]  Power BI 中，也可以使用 [DirectQuery]  。 您可以深入了解[如何使用 DirectQuery](desktop-use-directquery.md)。
 
 ![](media/desktop-connect-snowflake/connect_snowflake_3.png)
 
@@ -43,7 +43,7 @@ ms.locfileid: "65513833"
 > 
 > 
 
-成功連接後，[導覽器] 視窗隨即出現，並顯示伺服器上可用的資料，您可以從中選取一或多個要匯入 **Power BI Desktop** 並在其中使用的項目。
+成功連接後，[導覽器]  視窗隨即出現，並顯示伺服器上可用的資料，您可以從中選取一或多個要匯入 **Power BI Desktop** 並在其中使用的項目。
 
 ![](media/desktop-connect-snowflake/connect_snowflake_5.png)
 

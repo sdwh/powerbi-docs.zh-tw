@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: ccd8569650bd4f3da1a05c0999ad510029e5ab49
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220946"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137815"
 ---
-# <a name="using-computed-entities-on-power-bi-premium-preview"></a>使用 Power BI Premium 上的計算實體 (預覽)
+# <a name="using-computed-entities-on-power-bi-premium"></a>使用 Power BI Premium 上的計算實體
 
 您可以在搭配 Power BI Premium 訂用帳戶使用**資料流程**時，執行**儲存體內部計算**。 這讓您能夠在現有的資料流程上執行計算，並傳回可讓您專注於報表建立與分析的結果。 
 
@@ -32,21 +32,17 @@ ms.locfileid: "58220946"
 
 下列各節將說明如何在資料流程資料上建立計算實體。
 
-> [!NOTE]
-> 資料流程功能目前處於預覽狀態，而且可能會在公開上市之前有所變更及更新。
-
-
 ## <a name="how-to-create-computed-entities"></a>如何建立計算實體 
 
 一旦您具有含實體清單的資料流程之後，就可在那些實體上執行計算。
 
-在 Power BI 服務的資料流程製作工具中，選取 [編輯實體]，然後以滑鼠右鍵按一下您想要用來作為計算實體基礎且要在其上執行計算的實體。 在操作功能表中，選擇 [參考]。
+在 Power BI 服務的資料流程製作工具中，選取 [編輯實體]  ，然後以滑鼠右鍵按一下您想要用來作為計算實體基礎且要在其上執行計算的實體。 在操作功能表中，選擇 [參考]  。
 
-如果是有資格作為計算實體的實體，就必須勾選 [啟用負載] 選項，如下圖所示。 以滑鼠右鍵按一下實體，以顯示此操作功能表。
+如果是有資格作為計算實體的實體，就必須勾選 [啟用負載]  選項，如下圖所示。 以滑鼠右鍵按一下實體，以顯示此操作功能表。
 
 ![在滑鼠右鍵操作功能表中勾選 [啟用負載]](media/service-dataflows-computed-entities-premium/computed-entities-premium_01.png)
 
-藉由選取 [啟用負載]，您會建立新實體，而其來源為參考實體。 此圖示會變更，並顯示**計算**圖示，如下圖所示。
+藉由選取 [啟用負載]  ，您會建立新實體，而其來源為參考實體。 此圖示會變更，並顯示**計算**圖示，如下圖所示。
 
 ![Power BI Premium 中的計算實體](media/service-dataflows-computed-entities-premium/computed-entities-premium_00.png)
 
@@ -89,8 +85,8 @@ ms.locfileid: "58220946"
 
 * [使用資料流程的自助資料準備](service-dataflows-overview.md)
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
-* [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
+* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 * [設定工作區資料流程設定 (預覽)](service-dataflows-configure-workspace-storage-settings.md)
 * [新增 CDM 資料夾成為 Power BI 資料流程 (預覽)](service-dataflows-add-cdm-folder.md)
 * [連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體 (預覽)](service-dataflows-connect-azure-data-lake-storage-gen2.md)

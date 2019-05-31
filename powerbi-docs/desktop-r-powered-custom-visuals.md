@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
 ms.openlocfilehash: d79164ea5b66fe003f913742436a817d76d798e0
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695119"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61278486"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>在 Power BI 中使用 R 提供技術的自訂視覺效果
 
@@ -35,27 +35,27 @@ ms.locfileid: "57695119"
 
 以下是從線上 **AppSource** 網站瀏覽並選取視覺效果的步驟：
 
-1. 瀏覽位在 [https://appsource.microsoft.com](https://appsource.microsoft.com/) 的 Power BI 視覺效果資源庫。 選取「依產品縮小搜尋範圍」下的 [Power BI 應用程式]，然後選取 [查看全部] 連結。
+1. 瀏覽位在 [https://appsource.microsoft.com](https://appsource.microsoft.com/) 的 Power BI 視覺效果資源庫。 選取「依產品縮小搜尋範圍」  下的 [Power BI 應用程式]  ，然後選取 [查看全部]  連結。
 
    ![R 視覺效果 2a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2a.png)
 
-2. 在 [Power BI 視覺效果](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1)資源庫頁面上，選取左窗格增益集清單中的 [Power BI 視覺效果]。
+2. 在 [Power BI 視覺效果](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1)資源庫頁面上，選取左窗格增益集清單中的 [Power BI 視覺效果]  。
 
    ![R 視覺效果 2b](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2b.png)
 
-3. 從資源庫選取您想要使用的**視覺效果**，就會前往視覺效果的說明頁面。 選取 [立即取得] 按鈕即可下載。
+3. 從資源庫選取您想要使用的**視覺效果**，就會前往視覺效果的說明頁面。 選取 [立即取得]  按鈕即可下載。
 
    > [!NOTE]
     > 若要在 **Power BI Desktop** 中撰寫，您必須將 R 安裝在本機電腦上。 但當使用者想要在 **Power BI 服務**中檢視 R 提供技術的視覺效果時，則不需要將 R 安裝在本機。
 
    ![R 視覺效果 3a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
 
-   您無須先安裝 R 才能在 **Power BI 服務**中使用 R 提供技術的自訂視覺效果，但是如果您要在 **Power BI Desktop** 中使用 R 提供技術的自訂視覺效果，則「必須」於本機上安裝 R。 您可以從下列位置下載 R：
+   您無須先安裝 R 才能在 **Power BI 服務**中使用 R 提供技術的自訂視覺效果，但是如果您要在 **Power BI Desktop** 中使用 R 提供技術的自訂視覺效果，則「必須」  於本機上安裝 R。 您可以從下列位置下載 R：
 
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
-4. 下載視覺效果之後 (如同從瀏覽器下載任何檔案)，移至 [Power BI Desktop] 並按一下 [視覺效果] 窗格中的省略符號 (...)，然後選取 [從檔案匯入]。
+4. 下載視覺效果之後 (如同從瀏覽器下載任何檔案)，移至 [Power BI Desktop]  並按一下 [視覺效果]  窗格中的省略符號 (...)，然後選取 [從檔案匯入]  。
 
    ![R 視覺效果 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. 您會在匯入自訂視覺效果時收到警告，如下圖所示：
@@ -64,14 +64,14 @@ ms.locfileid: "57695119"
 6. 瀏覽至儲存視覺效檔案的位置，然後選取該檔案。 **Power BI Desktop** 自訂視覺效果的副檔名為 .pbiviz。
 
    ![R 視覺效果 6](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_6.png)
-7. 當您返回 Power BI Desktop 時，即可在 [視覺效果] 窗格中使用新的視覺效果類型。
+7. 當您返回 Power BI Desktop 時，即可在 [視覺效果]  窗格中使用新的視覺效果類型。
 
    ![R 視覺效果 7](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_7.png)
 8. 當您匯入新的視覺效果 (或開啟包含 R 所提供之自訂視覺效果的報表) 時，**Power BI Desktop** 會安裝所需的 R 套件。
 
    ![R 視覺效果 8](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_8.png)
 
-9. 您可以從該位置將資料新增至視覺效果，方式如同其他任何 **Power BI Desktop** 視覺效果。 完成時，您會在畫布上看到完成的視覺效果。 在下列視覺效果中，R 提供技術的 [預測] 視覺效果搭配使用聯合國 (UN) 生育率投影 (左側視覺效果)。
+9. 您可以從該位置將資料新增至視覺效果，方式如同其他任何 **Power BI Desktop** 視覺效果。 完成時，您會在畫布上看到完成的視覺效果。 在下列視覺效果中，R 提供技術的 [預測]  視覺效果搭配使用聯合國 (UN) 生育率投影 (左側視覺效果)。
 
     ![R 視覺效果 10](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_10.png)
 
@@ -81,11 +81,11 @@ ms.locfileid: "57695119"
 
 ### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>從 **Power BI Desktop** 中取得自訂視覺效果
 
-1. 您也可以從 **Power BI Desktop** 中取得自訂視覺效果。 在 [Power BI Desktop] 中，於 [視覺效果] 窗格內按一下省略符號 (...)，然後選取 [從市集匯入]。
+1. 您也可以從 **Power BI Desktop** 中取得自訂視覺效果。 在 [Power BI Desktop]  中，於 [視覺效果]  窗格內按一下省略符號 (...)，然後選取 [從市集匯入]  。
 
    ![R 視覺效果 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 
-2. 當您這樣做時，[Power BI 視覺效果] 對話方塊隨即顯示，您可以在其中捲動檢視可用的自訂視覺效果，並選取想要的自訂視覺效果。 您可以依名稱搜尋、選取類別，或直接捲動檢視可用的視覺效果。 當您準備就緒後，選取 [新增] 即可將自訂視覺效果新增至 **Power BI Desktop**。
+2. 當您這樣做時，[Power BI 視覺效果]  對話方塊隨即顯示，您可以在其中捲動檢視可用的自訂視覺效果，並選取想要的自訂視覺效果。 您可以依名稱搜尋、選取類別，或直接捲動檢視可用的視覺效果。 當您準備就緒後，選取 [新增]  即可將自訂視覺效果新增至 **Power BI Desktop**。
 
    ![R 視覺效果 12](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
 
@@ -122,7 +122,7 @@ Power BI 小組會在連絡您之前主動解決這些問題，下一版 Power B
 
      ![R 視覺效果 11](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_11.png)
     > [!NOTE]
-    > 您可以保留原始 R 安裝，只將 Power BI Desktop 與您安裝的目前版本建立關聯。 移至 [檔案] -> [選項及設定] -> [選項] > [R 指令碼]。
+    > 您可以保留原始 R 安裝，只將 Power BI Desktop 與您安裝的目前版本建立關聯。 移至 [檔案] -> [選項及設定] -> [選項] > [R 指令碼]  。
 
 3. 使用任何 R 主控台手動安裝 R 套件。 此作法的步驟如下：
 
@@ -144,7 +144,7 @@ Power BI 小組會在連絡您之前主動解決這些問題，下一版 Power B
 
    a. 使用 **R Studio** 並依照上面 3.b. 中所述的步驟執行 (從 R 主控台執行指令碼行)。
 
-   b. 如果上述步驟沒有作用，請在 **R Studio** 中變更 [工具] > [全域選項] > [套件]，並啟用 [Use Internet Explorer library/proxy for HTTP] \(針對 HTTP 使用 Internet Explorer 程式庫/Proxy) 核取方塊，然後重複執行 上述步驟中的步驟 3.b。
+   b. 如果上述步驟沒有作用，請在 **R Studio** 中變更 [工具] > [全域選項] > [套件]  ，並啟用 [Use Internet Explorer library/proxy for HTTP] \(針對 HTTP 使用 Internet Explorer 程式庫/Proxy)  核取方塊，然後重複執行 上述步驟中的步驟 3.b。
 
 ## <a name="next-steps"></a>後續步驟
 

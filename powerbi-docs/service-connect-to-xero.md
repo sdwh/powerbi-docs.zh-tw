@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d09936f2cce1d7835efdb82929d9e8eed2291163
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223344"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61156223"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>使用 Power BI 連接到 Xero
 Xero 是簡單易用的線上會計軟體，專為小型企業所設計。 您可以運用 Xero 的財務功能加上此 Power BI 內容套件，建立一份高吸睛力的報表。 您的預設儀表板包括許多小型企業計量，例如現金狀況、收入項下開支、利損趨勢、應收帳款天數及投資報酬率。
@@ -26,16 +26,16 @@ Xero 是簡單易用的線上會計軟體，專為小型企業所設計。 您�
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-xero/getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-xero/services.png)
-3. 選取 [Xero] \> [取得]。
+3. 選取 [Xero]  \> [取得]  。
    
    ![](media/service-connect-to-xero/connect.png)
 4. 請為與 Xero 帳戶建立關聯的組織輸入暱稱。 任何暱稱都可以，這主要是為了協助具有多個 Xero 組織的使用者不致混淆。 請參閱[下列](#FindingParams)的詳細資訊。
    
    ![](media/service-connect-to-xero/params.png)
-5. 選取 [OAuth] 作為**驗證方法**，當出現提示時，登入您的 Xero 帳戶，然後選取要連接的組織。 登入完成後，選取 [登入] 啟動載入程序。
+5. 選取 [OAuth]  作為**驗證方法**，當出現提示時，登入您的 Xero 帳戶，然後選取要連接的組織。 登入完成後，選取 [登入]  啟動載入程序。
    
     ![](media/service-connect-to-xero/creds.png)
    
@@ -49,7 +49,7 @@ Xero 是簡單易用的線上會計軟體，專為小型企業所設計。 您�
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="whats-included"></a>包含的內容
 內容套件儀表板包含磚和涵蓋各種不同領域的計量，使用對應的報表深入了解︰  

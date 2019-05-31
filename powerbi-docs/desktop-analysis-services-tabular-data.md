@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 996a65bd001626fd184ac98ee76dc61c22922707
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239977"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 Analysis Services 表格式資料
@@ -33,10 +33,10 @@ ms.locfileid: "65239977"
 **選取項目並匯入 Power BI Desktop** - 當您使用這個選項進行連接時，您可以選取表格式模型或檢視方塊中的資料表、資料行和量值等項目，再將其載入 Power BI Desktop 模型。 您可以使用 Power BI Desktop 的進階 [查詢編輯器]，進一步成形為您想要的樣子。 您可以使用 Power BI Desktop 的模型化功能，進一步建立資料模型。 Power BI Desktop 與表格式模型之間不需要維持即時連接。 您可以接著離線瀏覽 Power BI Desktop 模型，或發佈到 Power BI 網站。
 
 ## <a name="to-connect-to-a-tabular-model"></a>連接到表格式模型
-1. 在 Power BI Desktop 的 [常用]  索引標籤上，按一下 [取得資料] 。
+1. 在 Power BI Desktop 的 [常用]  索引標籤上，按一下 [取得資料]  。
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata.png)
-2. 按一下 [SQL Server Analysis Services 資料庫] ，然後按一下 [連接] 。
+2. 按一下 [SQL Server Analysis Services 資料庫]  ，然後按一下 [連接]  。
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as.png)
 3. 輸入伺服器名稱並選取連接模式。 
@@ -64,7 +64,7 @@ ms.locfileid: "65239977"
 
 **問：** 如果我建立即時連線，是否可以連線到同一個 Power BI Desktop 檔案中的另一個資料來源？
 
-**答：** 否。  您無法瀏覽即時資料並連接到同一個檔案中的另一種資料來源類型。 如果您已經匯入資料或連接到 Power BI Desktop 檔案中的不同資料來源，則必須建立新檔案以進行即時瀏覽。
+**答：** 否。 您無法瀏覽即時資料並連接到同一個檔案中的另一種資料來源類型。 如果您已經匯入資料或連接到 Power BI Desktop 檔案中的不同資料來源，則必須建立新檔案以進行即時瀏覽。
 
 **問：** 如果我建立即時連線，是否可以在 Power BI Desktop 中編輯模型或查詢？
 
@@ -81,7 +81,7 @@ ms.locfileid: "65239977"
 ## <a name="to-change-the-server-name-after-initial-connection"></a>在初始連接之後變更伺服器名稱
 建立具有即時連接瀏覽的 Power BI Desktop 檔案之後，可能會有些情況需要您將連接切換至其他伺服器。 例如，如果您在連接到開發伺服器時，以及在發佈到 Power BI 服務之前建立 Power BI Desktop 檔案，您會想要將連接切換至實際執行伺服器。
 
-1. 從功能區選取 [編輯查詢]。
+1. 從功能區選取 [編輯查詢]  。
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_chname_editquery.png)
 2. 輸入新的伺服器名稱。

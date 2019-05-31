@@ -11,11 +11,11 @@ ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291456"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61238132"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的零售分析範例：觀看導覽
 
@@ -31,13 +31,13 @@ ms.locfileid: "54291456"
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
-2. 在左下角選取 [取得資料]。
+2. 在左下角選取 [取得資料]  。
    
     ![](media/sample-datasets/power-bi-get-data.png)
-3. 在顯示的 [取得資料] 頁面上，選取 [範例]。
+3. 在顯示的 [取得資料] 頁面上，選取 [範例]  。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 選取 [零售分析範例]，然後選擇 [連線]。  
+4. 選取 [零售分析範例]  ，然後選擇 [連線]  。  
   
    ![零售分析範例](media/sample-retail-analysis/retail16.png)
    
@@ -52,7 +52,7 @@ ms.locfileid: "54291456"
  * [零售分析範例](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
-您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529778)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。
+您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529778)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]  。
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>進入儀表板，然後開啟報表
 1. 在儀表板中選取 [所有門市] 磚：
@@ -60,7 +60,7 @@ ms.locfileid: "54291456"
    ![](media/sample-retail-analysis/retail-analysis-7.png)  
 
    這會帶您前往報表中的 [銷售門市概觀] 頁面。 您會看到我們總共有 104 個門市，其中 10 個為新門市。 我們有兩種連鎖店：Fashions Direct 和 Lindseys。 Fashions Direct 的門市通常比較大。
-2. 在圓形圖中選取 [Fashions Direct]。
+2. 在圓形圖中選取 [Fashions Direct]  。
 
    ![](media/sample-retail-analysis/retail3.png)  
 
@@ -107,12 +107,12 @@ ms.locfileid: "54291456"
    ![](media/sample-retail-analysis/pbi_sample_retanlsalesvarcol.png)
 
    現在來看看是否可以縮小範圍，找出問題所在。
-2. 選取泡泡圖，然後選擇 [020-Mens] 。
+2. 選取泡泡圖，然後選擇 [020-Mens]  。
 
    ![](media/sample-retail-analysis/retail11.png)  
 
    您會觀察到，男性類別在 4 月並沒有像整體生意那樣受到嚴重影響，但 1 月和 7 月仍是有問題的月份。
-3. 現在選取 [010-Womens] 泡泡。
+3. 現在選取 [010-Womens]  泡泡。
 
    ![](media/sample-retail-analysis/retail12.png)
 

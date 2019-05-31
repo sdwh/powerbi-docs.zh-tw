@@ -1,22 +1,22 @@
 ---
 title: 重新整理來自 OneDrive 或 SharePoint Online 的資料集
 description: 重新整理建立自 OneDrive 或 SharePoint Online 上 Power BI Desktop 檔案的資料集
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 112/06/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 4a1ffa112420fd061655747c0d86760626705145
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 4120240b0f4de530bc62587f91bfe1fd4ff7d3df
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285407"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60973483"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>重新整理 OneDrive 或 SharePoint Online 上儲存的資料集
 將檔案從 OneDrive 或 SharePoint Online 匯入至 Power BI 服務，是確定您在 **Power BI Desktop**中所做的工作與 Power BI 服務保持同步的好方法。
@@ -28,7 +28,7 @@ ms.locfileid: "54285407"
 
 ![](media/refresh-desktop-file-onedrive/pbix-refresh.png)
 
-當您從 OneDrive 或 SharePoint Online 匯入 Power BI Desktop 檔案時，模型的其他相關資訊會載入 Power BI 中的資料集內。 在 Power BI 服務 (而非 Power BI Desktop) 中，因為 Power BI 服務中的報表是以該資料集為基礎，所以您會想要重新整理該資料集的資料。 因為資料來源位於外部，所以您可以使用 [立即重新整理] 手動重新整理資料集，或您可以使用 [排程重新整理] 設定重新整理排程。
+當您從 OneDrive 或 SharePoint Online 匯入 Power BI Desktop 檔案時，模型的其他相關資訊會載入 Power BI 中的資料集內。 在 Power BI 服務 (而非 Power BI Desktop) 中，因為 Power BI 服務中的報表是以該資料集為基礎，所以您會想要重新整理該資料集的資料。 因為資料來源位於外部，所以您可以使用 [立即重新整理]  手動重新整理資料集，或您可以使用 [排程重新整理]  設定重新整理排程。
 
 當您重新整理資料集時，Power BI 不會連接到 OneDrive 或 SharePoint Online 上的檔案來查詢更新資料。 它會使用在資料集的資訊，直接連接到資料來源，以查詢更新資料，然後載入資料集。 此資料集內重新整理的資料不會同步回到 OneDrive 或 SharePoint Online 上的檔案。
 

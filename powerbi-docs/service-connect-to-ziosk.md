@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d22f67f52d0abe0621e244874def845c7d25c15b
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008773"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137978"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>使用 Power BI 連接到 Ziosk Survey Analytics
 Power BI 的 Ziosk Survey Analytics 內容套件讓使用 Ziosk 資料表的餐廳，能夠存取由 Ziosk 問卷資料所提供的獨特深入資訊，包括依日期、地點、員工等的區隔。
@@ -26,13 +26,13 @@ Power BI 的 Ziosk Survey Analytics 內容套件讓使用 Ziosk 資料表的餐�
 1. 選取左側瀏覽窗格底部的 [取得資料]  。  
    
     ![](media/service-connect-to-ziosk/getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。  
+2. 在 [服務]  方塊中，選取 [取得]  。  
    
     ![](media/service-connect-to-ziosk/services.png)
-3. 選取 [Ziosk Survey Analytics]，然後選取 [取得]。  
+3. 選取 [Ziosk Survey Analytics]  ，然後選取 [取得]  。  
    
     ![](media/service-connect-to-ziosk/ziosk.png)
-4. 選取 [OAuth 2]，然後 [登入]。 出現提示時，提供您的 Ziosk 認證。
+4. 選取 [OAuth 2]  ，然後 [登入]  。 出現提示時，提供您的 Ziosk 認證。
    
     ![](media/service-connect-to-ziosk/creds.png)
    
@@ -46,7 +46,7 @@ Power BI 的 Ziosk Survey Analytics 內容套件讓使用 Ziosk 資料表的餐�
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="whats-included"></a>包含的內容
 此內容套件包含下列資料表中的資料：  

@@ -12,17 +12,17 @@ ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 9461609b7ecaa674d3ef4d01482752a78071dbe2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295734"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187799"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Office 365 專用客戶 - 已知問題
 Power BI 現在支援 Office 365 專用客戶。  如果您是 O365 專用客戶，您可以從該租用戶的帳戶登入並使用 Power BI。 目前已知有兩個問題。
 
 ## <a name="groups"></a>群組
-選取 [群組] 操作功能表中的 [成員]  或 [行事曆]  時，會改為將您重新導向至郵件應用程式。  [檔案] 和 [交談] 則如預期作般運作。
+選取 [群組] 操作功能表中的 [成員]  或 [行事曆]  時，會改為將您重新導向至郵件應用程式。  [檔案]  和 [交談]  則如預期作般運作。
 
 ![來自 Power BI 的群組](media/service-admin-office-365-dedicated-known-issues/group-menu.png)
 

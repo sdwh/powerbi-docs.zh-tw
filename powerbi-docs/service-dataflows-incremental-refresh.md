@@ -1,23 +1,23 @@
 ---
 title: 搭配 Power BI 資料流程使用累加式重新整理
 description: 了解如何設定資料流程的累加式重新整理
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
-ms.author: davidi
+ms.date: 04/02/2019
+ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 224fc07fccc2b12b0a28c016f427a4d5f4613290
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293692"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136496"
 ---
-# <a name="using-incremental-refresh-with-power-bi-dataflows-preview"></a>搭配 Power BI 資料流程使用累加式重新整理 (預覽)
+# <a name="using-incremental-refresh-with-power-bi-dataflows"></a>搭配 Power BI 資料流程使用累加式重新整理
 
 您可以使用資料流程將大量資料匯入 Power BI，以建立吸引人的報表和分析。 但在某些情況下，在每次重新整理來源資料時更新整個來源複本是不切實際的。 理想的替代方法是**累加式重新整理**，它可以為資料流程提供以下優點：
 
@@ -27,23 +27,23 @@ ms.locfileid: "54293692"
 
 ![資料流程的累加式重新整理](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_03.png)
 
-使用 Power BI 資料流程的累加式重新整理，需要執行 [Premium 容量](service-premium.md) 中資料流程所在的工作區，且資料流程中內嵌的資料來源必須有累加式重新整理可篩選的 *datetime* 欄位。 
+使用 Power BI 資料流程的累加式重新整理，需要執行 [Premium 容量](service-premium-what-is.md) 中資料流程所在的工作區，且資料流程中內嵌的資料來源必須有累加式重新整理可篩選的 *datetime* 欄位。 
 
 ## <a name="configuring-incremental-refresh-for-dataflows"></a>設定資料流程的累加式重新整理
 
 資料流程可以包含許多實體。 累加式重新整理是在實體層級設定的，允許一個資料流程同時保存完整重新整理的實體和以累加方式重新整理的實體。
 
-若要設定累加式重新整理實體，請像設定任何其他實體一樣，從設定實體開始。 若要深入了解資料流程設定，請參閱 [Power BI 中的自助資料準備 (預覽)](service-dataflows-overview.md)。
+若要設定累加式重新整理實體，請像設定任何其他實體一樣，從設定實體開始。 若要深入了解設定的資料流程，請參閱[在 Power BI 中的自助資料準備](service-dataflows-overview.md)。
 
-建立並儲存資料流程之後，請在實體檢視中選取 [累加式重新整理] 圖示，如下圖所示：
+建立並儲存資料流程之後，請在實體檢視中選取 [累加式重新整理]  圖示，如下圖所示：
 
 ![資料流程的累加式重新整理圖示](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_01.png)
 
-當您按一下圖示時，會顯示 [累加式重新整理設定] 視窗。 當您將累加式重新整理切換至 [開啟] 位置時，就可以設定累加式重新整理。
+當您按一下圖示時，會顯示 [累加式重新整理設定]  視窗。 當您將累加式重新整理切換至 [開啟]  位置時，就可以設定累加式重新整理。
 
 ![資料流程的累加式重新整理](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_03.png)
 
-以下清單說明 [累加式重新整理設定] 視窗中的設定。 
+以下清單說明 [累加式重新整理設定]  視窗中的設定。 
 
 1. **累加式重新整理開啟/關閉切換** – 此滑桿可切換以開啟/關閉實體的累加式重新整理原則
 2. **篩選欄位下拉式清單** – 可選取應在哪個實體上篩選累加項目的查詢欄位。 此欄位僅包含 *datetime* 欄位。 如果實體未包含 *datetime* 欄位，就無法使用累加式重新整理。
@@ -57,7 +57,7 @@ ms.locfileid: "54293692"
 
     第一次資料流程重新整理可能需要一段時間以匯入五年來的所有資料，但後續的重新整理應該只需要初始重新整理時間中的一小段時間即可完成。
 
-4. **偵測資料變更** - 10 天的累加式重新整理比完整重新整理 5 年資料更有效率，但我們甚至可以進一步提高效率。 如果您選取 [偵測資料變更] 核取方塊，就可以選取一個日期/時間資料行，以識別並僅重新整理資料已變更的日期。 這假設這類資料行存在於來源系統中，這通常用於稽核用途。 會評估此資料行在累加式範圍之每個週期的最大值。 如果該資料自上次重新整理後尚未進行變更，則不需要重新整理週期。 在範例中，這可能會進一步將累加式重新整理天數從 10 天減少為可能為 2 天。
+4. **偵測資料變更** - 10 天的累加式重新整理比完整重新整理 5 年資料更有效率，但我們甚至可以進一步提高效率。 如果您選取 [偵測資料變更]  核取方塊，就可以選取一個日期/時間資料行，以識別並僅重新整理資料已變更的日期。 這假設這類資料行存在於來源系統中，這通常用於稽核用途。 會評估此資料行在累加式範圍之每個週期的最大值。 如果該資料自上次重新整理後尚未進行變更，則不需要重新整理週期。 在範例中，這可能會進一步將累加式重新整理天數從 10 天減少為可能為 2 天。
 
 > [!TIP]
 > 目前設計需要持續保存要偵測資料變更的資料行，並將它快取到記憶體中。 建議您考慮使用下列其中一種技術，減少基數和記憶體耗用量：
@@ -75,7 +75,7 @@ ms.locfileid: "54293692"
 
 ## <a name="the-incremental-refresh-query"></a>累加式重新整理查詢
 
-設定累加式重新整理之後，資料流程會自動修改您的查詢以包含日期篩選。 您可以使用 [進階 Power Query 編輯器] 編輯自動產生的查詢，以微調或自訂重新整理。 在下一節中閱讀更多有關累加式重新整理和其運作方式的資訊。
+設定累加式重新整理之後，資料流程會自動修改您的查詢以包含日期篩選。 您可以使用 [進階 Power Query 編輯器]  編輯自動產生的查詢，以微調或自訂重新整理。 在下一節中閱讀更多有關累加式重新整理和其運作方式的資訊。
 
 ## <a name="incremental-refresh-and-linked-versus-computed-entities"></a>累加式重新整理和連結與計算實體
 
@@ -156,8 +156,8 @@ ms.locfileid: "54293692"
 
 * [使用資料流程的自助資料準備](service-dataflows-overview.md)
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
-* [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
+* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 
 如需 Power Query 和排程重新整理的詳細資訊，您可以閱讀下列文章：
 * [Power BI Desktop 中的查詢概觀](desktop-query-overview.md)

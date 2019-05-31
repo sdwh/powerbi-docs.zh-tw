@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513859"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中建立您自己的量值
@@ -33,7 +33,7 @@ ms.locfileid: "65513859"
 
 出現在 [欄位] 中具有標準差圖示 ![標準差圖示](media/desktop-tutorial-create-measures/meastut_sigma.png) 的任何欄位均為數值，其值可加以彙總。 Power BI Desktop 會偵測到一個數值資料類型並自動建立和計算量值來彙總資料，而不會顯示一個含有所有兩百萬筆 SalesAmount 值的資料表。 總和是數值資料類型的預設彙總，但您可以輕鬆地套用不同的彙總，例如平均或計數。 了解彙總是了解量值的基礎，因為每個量值都會執行某種類型的彙總。 
 
-若要將圖表彙總變更為平均，在 [視覺效果] 窗格的 [值] 區域中，按一下 **SalesAmount** 旁的向下箭號，然後選取 [平均]。 視覺效果會變更為 SalesAmount 欄位中所有銷售值的平均。
+若要將圖表彙總變更為平均，在 [視覺效果] 窗格的 [值]  區域中，按一下 **SalesAmount** 旁的向下箭號，然後選取 [平均]  。 視覺效果會變更為 SalesAmount 欄位中所有銷售值的平均。
 
 ![SalesAmount 平均圖表](media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png)
 
@@ -43,7 +43,7 @@ ms.locfileid: "65513859"
 
 ![依國家/地區顯示的 SaleAmount](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
 
-當量值的結果因為與您的報表互動而變更時，就會影響到量值的「內容」。 每次您與報表視覺效果互動時，就會變更量值計算並顯示其結果的內容。
+當量值的結果因為與您的報表互動而變更時，就會影響到量值的「內容」  。 每次您與報表視覺效果互動時，就會變更量值計算並顯示其結果的內容。
 
 ## <a name="create-and-use-your-own-measures"></a>建立和使用自己的量值
 
@@ -51,25 +51,25 @@ ms.locfileid: "65513859"
 
 DAX 公式使用許多與 Excel 公式相同的函數、運算子和語法。 不過，當您與報表互動時，DAX 函數主要用來處理關聯式資料，以及執行更加動態的計算。 有超過 200 種 DAX 函數可執行各種計算，從像是總和與平均的簡單彙總，到更複雜的統計和篩選函數皆有。 有許多資源可以協助您深入了解 DAX。 當您完成本教學課程之後，請務必參閱 [Power BI Desktop 的 DAX 基本概念](desktop-quickstart-learn-dax-basics.md)。
 
-當您建立自己的量值時，就會將它新增至所選取資料表的 [欄位] 清單中，並稱為「模型」量值。 模型量值的部分優點是，您可以使用任何想要的名稱來為其命名，使其更容易識別；您可以使用它們作為其他 DAX 運算式中的引數；而且您可以讓它們非常快速地執行複雜的計算。
+當您建立自己的量值時，就會將它新增至所選取資料表的 [欄位] 清單中，並稱為「模型」  量值。 模型量值的部分優點是，您可以使用任何想要的名稱來為其命名，使其更容易識別；您可以使用它們作為其他 DAX 運算式中的引數；而且您可以讓它們非常快速地執行複雜的計算。
 
 >[!TIP]
->從 Power BI Desktop 的 2018 年 2 月版本開始，許多常用計算都可用來作為**快速量值**，其會根據您在對話方塊中的輸入來撰寫 DAX 公式。 這些快速且功能強大的計算也很適合用於學習 DAX 或植入您自己的自訂量值。 若要建立或探索快速量值，在資料表的 [更多選項] 清單中，或功能區 [常用] 索引標籤中的 [計算] 下方，選取 [新增快速量值]。 如需建立及使用快速量值的詳細資訊，請參閱[使用快速量值](desktop-quick-measures.md)。
+>從 Power BI Desktop 的 2018 年 2 月版本開始，許多常用計算都可用來作為**快速量值**，其會根據您在對話方塊中的輸入來撰寫 DAX 公式。 這些快速且功能強大的計算也很適合用於學習 DAX 或植入您自己的自訂量值。 若要建立或探索快速量值，在資料表的 [更多選項]  清單中，或功能區 [常用] 索引標籤中的 [計算]  下方，選取 [新增快速量值]  。 如需建立及使用快速量值的詳細資訊，請參閱[使用快速量值](desktop-quick-measures.md)。
 
 ### <a name="create-a-measure"></a>建立量值
 
 您想要藉由從總銷售金額中減去折扣和退貨來分析淨銷售額。 針對任何存在於您視覺效果中的內容，您需要會從 SalesAmount 總和減去 DiscountAmount 和 ReturnAmount 總和的量值。 [欄位] 清單中沒有任何適用於淨銷售額的欄位，但是您可以使用建置組塊來建立自己的量值，以計算淨銷售額。 
 
-1.  以滑鼠右鍵按一下 [欄位] 中的 **Sales** 資料表，或將滑鼠停留在該資料表並選取**更多選項**省略符號 (...)，然後選取 [新增量值]。 這樣會將您的新量值儲存於 Sales 資料表中，在那裡將會比較容易找到。
+1.  以滑鼠右鍵按一下 [欄位] 中的 **Sales** 資料表，或將滑鼠停留在該資料表並選取**更多選項**省略符號 (...)，然後選取 [新增量值]  。 這樣會將您的新量值儲存於 Sales 資料表中，在那裡將會比較容易找到。
     
     ![新增量值](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     
-    您也可以在 Power BI Desktop 功能區 [常用] 索引標籤上的 [計算] 群組中選取 [新增量值]，藉以建立新的量值。
+    您也可以在 Power BI Desktop 功能區 [常用] 索引標籤上的 [計算] 群組中選取 [新增量值]  ，藉以建立新的量值。
     
     ![從功能區新增量值](media/desktop-tutorial-create-measures/meastut_netsales_newmeasureribbon.png)
     
     >[!TIP]
-    >當您從功能區建立量值時，可在任何資料表中建立它，但是如果您在打算使用它的地方建立它，將會更容易找到它。 在此案例中，先選取 Sales 資料表以使其呈現作用中狀態，然後選取 [新增量值]。 
+    >當您從功能區建立量值時，可在任何資料表中建立它，但是如果您在打算使用它的地方建立它，將會更容易找到它。 在此案例中，先選取 Sales 資料表以使其呈現作用中狀態，然後選取 [新增量值]  。 
     
     公式列會出現在報表畫布上方，您可以在其中將量值重新命名，並輸入 DAX 公式。
     
@@ -85,11 +85,11 @@ DAX 公式使用許多與 Excel 公式相同的函數、運算子和語法。 �
     
     ![選擇資料行](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
     
-    運算式一律會出現在左右括弧之間。 您的運算式將包含要傳遞至 SUM 函數的單一引數：SalesAmount 資料行。 開始輸入 "SalesAmount"，直到清單中只剩一個值為止：Sales(SalesAmount)。 前面加上資料表名稱的資料行名稱會稱為資料行的「完整格式名稱」。 完整格式的資料行名稱可讓您的公式更容易閱讀。 
+    運算式一律會出現在左右括弧之間。 您的運算式將包含要傳遞至 SUM 函數的單一引數：SalesAmount 資料行。 開始輸入 "SalesAmount"，直到清單中只剩一個值為止：Sales(SalesAmount)。 前面加上資料表名稱的資料行名稱會稱為資料行的「完整格式名稱」  。 完整格式的資料行名稱可讓您的公式更容易閱讀。 
     
     ![選取 SalesAmount](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
-4. 選取 [Sales [SalesAmount]]，然後鍵入右括弧。
+4. 選取 [Sales [SalesAmount]]  ，然後鍵入右括弧。
     
     > [!TIP]
     > 語法錯誤通常因遺失或錯置右括弧所導致。
@@ -97,7 +97,7 @@ DAX 公式使用許多與 Excel 公式相同的函數、運算子和語法。 �
     
     
 5.  減去其他兩個資料行：
-    1. 在第一個運算式的右括弧之後，依序輸入一個空格、一個減號運算子 (**-**) 及另一個空格。 
+    1. 在第一個運算式的右括弧之後，依序輸入一個空格、一個減號運算子 ( **-** ) 及另一個空格。 
     2. 輸入另一個 SUM 函數，並開始輸入 "DiscountAmount"，直到您可以選擇 **Sales[DiscountAmount]** 資料行作為引數為止。 加上右括號。 
     3. 依序輸入一個空格、另一個減號運算子、空格、另一個含有 **Sales[ReturnAmount]** 作為引數的 SUM 函數及右括號。
     
@@ -134,7 +134,7 @@ DAX 公式使用許多與 Excel 公式相同的函數、運算子和語法。 �
 
 您可以加入交叉分析篩選器，依日曆年度進一步篩選淨銷售額與銷售額。
     
-1.  按一下圖表旁邊的空白區域，然後在 [視覺效果] 中選取 [資料表] 視覺效果。 這會在報表畫布上建立空白的資料表視覺效果。
+1.  按一下圖表旁邊的空白區域，然後在 [視覺效果]  中選取 [資料表]  視覺效果。 這會在報表畫布上建立空白的資料表視覺效果。
     
     ![](media/desktop-tutorial-create-measures/meastut_netsales_blanktable.png)
     
@@ -142,7 +142,7 @@ DAX 公式使用許多與 Excel 公式相同的函數、運算子和語法。 �
     
     ![Year 彙總](media/desktop-tutorial-create-measures/meastut_netsales_yearaggtable.png)
     
-3.  在 [視覺效果] 窗格的 [值] 中，選取 **Year** 旁的向下箭號，然後選取 [不摘要]。 資料表現在會列出個別年度。
+3.  在 [視覺效果] 窗格的 [值]  中，選取 **Year** 旁的向下箭號，然後選取 [不摘要]  。 資料表現在會列出個別年度。
     
     ![不摘要](media/desktop-tutorial-create-measures/meastut_netsales_year_donotsummarize.png)
     
@@ -164,11 +164,11 @@ DAX 公式使用許多與 Excel 公式相同的函數、運算子和語法。 �
     
     ![使用 Net Sales 的公式](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
     
-    只要輸入左括號 (**[**)，您也能參考量值。 建議清單將只會顯示要加入至您公式的量值。
+    只要輸入左括號 ( **[** )，您也能參考量值。 建議清單將只會顯示要加入至您公式的量值。
     
     ![括號只會顯示量值](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
     
-3.  依序輸入一個空格、除法運算子 (**/**)、另一個空格、SUM 函數，然後輸入 **Quantity**。 建議清單會顯示名稱中具有 Quantity 的所有資料行。 選取 **Sales[SalesQuantity]**、輸入右括號，然後按 ENTER 鍵或選取核取記號來驗證您的公式。 公式看起來應該像這樣：
+3.  依序輸入一個空格、除法運算子 ( **/** )、另一個空格、SUM 函數，然後輸入 **Quantity**。 建議清單會顯示名稱中具有 Quantity 的所有資料行。 選取 **Sales[SalesQuantity]** 、輸入右括號，然後按 ENTER 鍵或選取核取記號來驗證您的公式。 公式看起來應該像這樣：
     
     `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
     

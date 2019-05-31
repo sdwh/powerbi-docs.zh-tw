@@ -12,10 +12,10 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 67246168b5387f49e7bda22e470f5a908a4bff9b
-ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65608236"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>變更 Power BI 報表中的圖表排序方式
@@ -25,8 +25,8 @@ ms.locfileid: "65608236"
 
 可以輕鬆地將排序從類別 (商店名稱) 變更為值 (每平方英尺銷售額)。
 
-1. 選取省略符號 (...) 並選擇 [排序依據] > [每平方英尺銷售額]。
-2. 如有必要，請再次選取省略符號，然後選擇 [遞減排序]。
+1. 選取省略符號 (...) 並選擇 [排序依據] > [每平方英尺銷售額]  。
+2. 如有必要，請再次選取省略符號，然後選擇 [遞減排序]  。
 
    ![顯示選取排序方式並選取遞增或遞減的影片](media/end-user-change-sort/sort.gif)
 
@@ -34,11 +34,11 @@ ms.locfileid: "65608236"
 > 並非所有的視覺效果都可以排序。 例如，下列視覺效果無法排序：樹狀圖、地圖、區域分布圖、散佈圖、量測計圖、卡片、多列卡片、瀑布圖。
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>儲存您對排序次序的變更
-Power BI 報表保留篩選、交叉分析篩選器、排序和您進行的的其他資料檢視變更。 因此如果您離開報表並稍後再回來時，會儲存您的變更。  如果您想要將所做的變更還原至報表設計師的設定，請從頂端功能表列選取 [重設為預設值]。 
+Power BI 報表保留篩選、交叉分析篩選器、排序和您進行的的其他資料檢視變更。 因此如果您離開報表並稍後再回來時，會儲存您的變更。  如果您想要將所做的變更還原至報表設計師的設定，請從頂端功能表列選取 [重設為預設值]  。 
 
 ![永續性排序](media/end-user-change-sort/power-bi-reset-to-default.png)
 
-但是，如果 [重設為預設值] 按鈕呈現灰色，則表示報表設計師已停用儲存 (保留) 變更的功能。
+但是，如果 [重設為預設值]  按鈕呈現灰色，則表示報表設計師已停用儲存 (保留) 變更的功能。
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>使用其他準則排序

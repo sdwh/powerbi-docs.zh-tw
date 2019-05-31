@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 465e54c811691a7149dfff03d48bec797474ca66
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008802"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61190016"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>使用 Power BI 連接到 Microsoft Dynamics CRM
 Microsoft Dynamics CRM Online for Power BI可讓您輕鬆存取並分析資料。 Power BI 使用 OData 摘要建立描述性模型，包括所有必要的實體及量值，例如帳戶、活動、機會、產品、潛在客戶和使用者等等。 安裝應用程式之後，即可在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 及 Power BI 行動應用程式中，檢視儀表板與報表。 
@@ -26,13 +26,13 @@ Microsoft Dynamics CRM Online for Power BI可讓您輕鬆存取並分析資料�
 
 ## <a name="how-to-connect"></a>如何連接
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
-3. 選取 [Microsoft Dynamics CRM 銷售經理] 或 [Microsoft Dynamics CRM 服務經理]，並按一下 [連接]。
+3. 選取 [Microsoft Dynamics CRM 銷售經理]  或 [Microsoft Dynamics CRM 服務經理]  ，並按一下 [連接]  。
    
    ![](media/service-connect-to-microsoft-dynamics-crm/connect.png)
 4. 提供與您帳戶相關聯的服務 URL。  這會位於表單 `https://company.crm.dynamics.com` 中，請參閱[下方](#FindingParams)的詳細資料。
    
    ![](media/service-connect-to-microsoft-dynamics-crm/params.png)
-5. 出現提示時，請提供您的認證 (如果您已經登入瀏覽器，此步驟可能會略過)。 針對 [驗證方法]，請輸入 **oAuth2** 並按一下 [登入] ：
+5. 出現提示時，請提供您的認證 (如果您已經登入瀏覽器，此步驟可能會略過)。 針對 [驗證方法]，請輸入 **oAuth2** 並按一下 [登入]  ：
    
    ![](media/service-connect-to-microsoft-dynamics-crm/creds.png)
 6. 連接之後，您會看到針對銷售經理或服務經理所自訂的儀表板且已填入您的資料：

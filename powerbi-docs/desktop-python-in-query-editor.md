@@ -11,11 +11,11 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56217037"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61286488"
 ---
 # <a name="using-python-in-query-editor"></a>在查詢編輯器中使用 Python
 您可以在 Power BI Desktop **查詢編輯器**中使用 **Python**，這是統計學家、資料科學家和資料分析師廣泛使用的程式設計語言。 將 Python 整合到**資料編輯器**中，可讓您使用 Python 執行資料清理，以及在資料集執行進階資料成形與分析，包括補足遺漏的資料、預測及叢集等。 **Python** 是功能強大的語言，可用於**查詢編輯器**以準備您的資料模型及建立報表。
@@ -26,19 +26,19 @@ ms.locfileid: "56217037"
 ## <a name="using-python-in-query-editor"></a>在查詢編輯器中使用 Python
 為了示範如何在**查詢編輯器**中使用 **Python**，我們會使用來自股市資料集的範例，您可以[從這裡下載](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)該 .CSV 檔案並遵循指示。 本範例的步驟如下所示：
 
-1. 首先，將您的資料載入 **Power BI Desktop**。 在此範例中，載入 *EuStockMarkets_NA.csv* 檔案，然後從 **Power BI Desktop** 的 [首頁] 功能區選取 [取得資料] > [CSV]。
+1. 首先，將您的資料載入 **Power BI Desktop**。 在此範例中，載入 *EuStockMarkets_NA.csv* 檔案，然後從 **Power BI Desktop** 的 [首頁]  功能區選取 [取得資料] > [CSV]  。
    
    ![](media/desktop-python-in-query-editor/python-in-query-editor-1.png)
-2. 選取檔案後選取 [開啟]，CSV 隨即顯示在 [CSV 檔案] 對話方塊中。
+2. 選取檔案後選取 [開啟]  ，CSV 隨即顯示在 [CSV 檔案]  對話方塊中。
    
    ![](media/desktop-python-in-query-editor/python-in-query-editor-2.png)
-3. 資料載入後，會出現在 Power BI Desktop 的 [欄位] 窗格中。
+3. 資料載入後，會出現在 Power BI Desktop 的 [欄位]  窗格中。
    
    ![](media/desktop-python-in-query-editor/python-in-query-editor-3.png)
-4. 您也可以從 **Power BI Desktop**的 [首頁] 索引標籤選取 [編輯查詢]，以開啟**查詢編輯器**。
+4. 您也可以從 **Power BI Desktop**的 [首頁]  索引標籤選取 [編輯查詢]  ，以開啟**查詢編輯器**。
    
    ![](media/desktop-python-in-query-editor/python-in-query-editor-4.png)
-5. 在 [轉換] 索引標籤中選取 [執行 Python 指令碼]，[執行 Python 指令碼] 編輯器隨即出現 (於下個步驟示範)。 請注意，第 15 和 20 列遺失了資料，您在下圖中無法看到的其他列亦然。 下方步驟示範 Python 可以 (將會) 如何為您補足這些資料列。
+5. 在 [轉換]  索引標籤中選取 [執行 Python 指令碼]  ，[執行 Python 指令碼]  編輯器隨即出現 (於下個步驟示範)。 請注意，第 15 和 20 列遺失了資料，您在下圖中無法看到的其他列亦然。 下方步驟示範 Python 可以 (將會) 如何為您補足這些資料列。
    
    ![](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
 6. 本範例會輸入下列指令碼：
@@ -54,17 +54,17 @@ ms.locfileid: "56217037"
    > 
    > 
    
-   放入 [執行 Python 指令碼] 對話方塊時，程式碼看起來會像這樣：
+   放入 [執行 Python 指令碼]  對話方塊時，程式碼看起來會像這樣：
    
    ![](media/desktop-python-in-query-editor/python-in-query-editor-5b.png)
-7. 選取 [確定] 之後，**查詢編輯器**會顯示有關資料隱私權的警告。
+7. 選取 [確定]  之後，**查詢編輯器**會顯示有關資料隱私權的警告。
    
    ![](media/desktop-python-in-query-editor/python-in-query-editor-6.png)
-8. 為使 Python 指令碼在 Power BI 服務中正常運作，所有資料來源都必須設為「公用」。 如需隱私權設定及其含意的詳細資訊，請參閱[隱私權等級](desktop-privacy-levels.md)。
+8. 為使 Python 指令碼在 Power BI 服務中正常運作，所有資料來源都必須設為「公用」  。 如需隱私權設定及其含意的詳細資訊，請參閱[隱私權等級](desktop-privacy-levels.md)。
    
    ![](media/desktop-python-in-query-editor/python-in-query-editor-7.png)
    
-   請注意 [欄位] 窗格中稱為 *completedValues* 的新資料行。 請注意，這裡有多個遺失的資料項目，像是第 15 和 18 列。 請參閱下一節，查看 Python 如何處理該狀況。
+   請注意 [欄位]  窗格中稱為 *completedValues* 的新資料行。 請注意，這裡有多個遺失的資料項目，像是第 15 和 18 列。 請參閱下一節，查看 Python 如何處理該狀況。
    
 
 在 Python 指令碼只有五行的情況下，**查詢編輯器**會透過預測模型填入遺失的值。
@@ -87,14 +87,14 @@ ms.locfileid: "56217037"
 ## <a name="limitations"></a>限制
 建立於**查詢編輯器**並含有 Python 指令碼的查詢有幾項限制：
 
-* 所有 Python 資料來源設定都必須設為「公用」，建立於**查詢編輯器**的查詢中其他所有步驟也都必須為公用。 若要取得資料來源設定，請在 **Power BI Desktop** 中選取 **[檔案] > [選像和設定] > [資料來源設定]**。
+* 所有 Python 資料來源設定都必須設為「公用」  ，建立於**查詢編輯器**的查詢中其他所有步驟也都必須為公用。 若要取得資料來源設定，請在 **Power BI Desktop** 中選取 **[檔案] > [選像和設定] > [資料來源設定]** 。
   
   ![](media/desktop-python-in-query-editor/python-in-query-editor-9.png)
   
-  從 [資料來源設定] 對話方塊選取資料來源，然後選取 [編輯權限...]，並確認 [隱私權等級] 已設為「公開」。
+  從 [資料來源設定]  對話方塊選取資料來源，然後選取 [編輯權限...]  ，並確認 [隱私權等級]  已設為「公開」  。
   
   ![](media/desktop-python-in-query-editor/python-in-query-editor-10.png)    
-* 若要啟用 Python 視覺效果或資料集的排程重新整理，您必須啟用 [排程重新整理]，並在裝載活頁簿與 Python 安裝的電腦上安裝 **Personal Gateway**。 如需這兩者的詳細資訊，請參閱本文前一節，其中提供了深入了解各項的連結。
+* 若要啟用 Python 視覺效果或資料集的排程重新整理，您必須啟用 [排程重新整理]  ，並在裝載活頁簿與 Python 安裝的電腦上安裝 **Personal Gateway**。 如需這兩者的詳細資訊，請參閱本文前一節，其中提供了深入了解各項的連結。
 * 目前不支援巢狀資料表 (包含多個資料表的資料表) 
 
 Python 和自訂查詢有各種用途，您可以用想要的呈現方式探索資料並使其成形。

@@ -1,4 +1,12 @@
-歡迎使用 Power BI **引導式學習**課程的＜視覺效果＞一節。 準備開始進行好玩有趣且具啟發性的導覽，學習 Power BI 目前所提供的許多視覺效果。 而且不止這些，還有更多視覺效果將不斷推出！
+---
+ms.openlocfilehash: 74be4112071aba3f629d6b44d322cf2caa522f18
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396432"
+---
+歡迎使用 Power BI **引導式學習**課程的＜視覺效果＞  一節。 準備開始進行好玩有趣且具啟發性的導覽，學習 Power BI 目前所提供的許多視覺效果。 而且不止這些，還有更多視覺效果將不斷推出！
 
 ![](media/3-1-intro-visualizations/3-1_1.png)
 

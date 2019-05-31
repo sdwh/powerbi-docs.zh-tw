@@ -9,11 +9,11 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: mshenhav
 ms.openlocfilehash: 828dcb4aeb8b7c5e69292685470f112a2d85cb71
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274643"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61348652"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中依地理位置篩選報表
 適用於︰
@@ -31,7 +31,7 @@ ms.locfileid: "54274643"
 
 ## <a name="filter-your-report-by-your-geographic-location"></a>依地理位置篩選您的報表
 1. 在行動裝置的 Power BI 行動裝置應用程式中，開啟報表。
-2. 如果報表具有地理資料，您會看到訊息要求您允許 Power BI 存取您的位置。 按一下 [允許]，然後再次點選 [允許]。
+2. 如果報表具有地理資料，您會看到訊息要求您允許 Power BI 存取您的位置。 按一下 [允許]  ，然後再次點選 [允許]  。
 3. 點選圖釘 ![圖釘圖示](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-icon.png). 根據報表中的資料，您可以篩選城市、縣/市或國家/地區。 篩選器只會列出符合您目前位置的選項。
    
     ![圖釘篩選](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-map-set-filter.png)

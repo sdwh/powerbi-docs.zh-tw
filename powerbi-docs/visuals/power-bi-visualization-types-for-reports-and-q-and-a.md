@@ -11,11 +11,11 @@ ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 202fa85fa930de45f4f6838202733d8d1098256d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662334"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61388739"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
 ## <a name="power-bi-visualizations"></a>Power BI 視覺效果
@@ -54,7 +54,7 @@ ms.locfileid: "56662334"
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
->組合圖結合了直條圖和折線圖。 選擇「折線圖加堆疊直條圖」  及「折線圖加群組直條圖」 。
+>組合圖結合了直條圖和折線圖。 選擇「折線圖加堆疊直條圖」  及「折線圖加群組直條圖」  。
 
 如需詳細資訊，請參閱 [Power BI 中的組合圖](power-bi-visualization-combo-chart.md)。
 

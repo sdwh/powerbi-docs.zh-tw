@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
 ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278692"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977040"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 應用程式中的問與答虛擬分析師 - Power BI
 
@@ -49,9 +49,9 @@ ms.locfileid: "54278692"
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
 
-2. 在左瀏覽窗格中，依序選取 [工作區]、[我的工作區]。
+2. 在左瀏覽窗格中，依序選取 [工作區]  、[我的工作區]  。
 
-3. 在左下角選取 [取得資料]。
+3. 在左下角選取 [取得資料]  。
    
     ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
 
@@ -59,11 +59,11 @@ ms.locfileid: "54278692"
    
    ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
 
-4. 選取 [零售分析範例]。
+4. 選取 [零售分析範例]  。
  
     ![零售分析範例](./media/mobile-apps-ios-qna/power-bi-rs.png)
  
-8. 選取 [連接]。  
+8. 選取 [連接]  。  
   
    ![零售分析範例](./media/mobile-apps-ios-qna/retail16.png)
    
@@ -73,25 +73,25 @@ ms.locfileid: "54278692"
 
 **取得商機分析範例**
 
-- 執行與零售分析範例相同的步驟，但在步驟 4 中選取 [商機分析範例]。
+- 執行與零售分析範例相同的步驟，但在步驟 4 中選取 [商機分析範例]  。
 
     ![零售分析範例](./media/mobile-apps-ios-qna/power-bi-oa.png)
   
 好的，您已準備好在 iOS 裝置上檢視範例。
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>請嘗試在您的 iPhone 或 iPad 上詢問問題
-1. 在您的 iPhone 或 iPad 上，點選全域導覽按鈕 ![全域導覽按鈕](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > [工作區] > [我的工作區]，並開啟 [零售分析範例] 儀表板。
+1. 在您的 iPhone 或 iPad 上，點選全域導覽按鈕 ![全域導覽按鈕](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > [工作區]   > [我的工作區]  ，並開啟 [零售分析範例] 儀表板。
 
 2. 在頁面底部 (若是 iPad 則為頁面頂端) 的 [動作] 功能表中，點選問與答虛擬分析師圖示![問與答虛擬分析師圖示](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png)。
      問與答虛擬分析師提供了一些開始使用的建議。
-3. 鍵入 **show**，從建議清單中點選 [sales] > [傳送] ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+3. 鍵入 **show**，從建議清單中點選 [sales]  > [傳送]  ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![顯示銷售額](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. 從關鍵字中點選 [by]\(由)，然後從建議清單上點選 [項目] > [傳送] ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+4. 從關鍵字中點選 [by]\(由)  ，然後從建議清單上點選 [項目]  > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![依項目的銷售額](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. 依序從關鍵字點選 [as]\(為)、資料行圖表圖示![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png)，然後點選 [傳送] ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
-6. 按住產出的圖表，然後點選 [展開]。
+5. 依序從關鍵字點選 [as]\(為)  、資料行圖表圖示![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png)，然後點選 [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+6. 按住產出的圖表，然後點選 [展開]  。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
 
@@ -100,13 +100,13 @@ ms.locfileid: "54278692"
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. 點選左上角的箭號，可返回問與答虛擬分析師聊天視窗。
 8. 點選文字方塊右邊的 X 以刪除文字，然後重新開始。
-9. 嘗試新的提問︰從關鍵字點選 [頂端]，然後點選 [依單位平均銷售金額排序] > [傳送] ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+9. 嘗試新的提問︰從關鍵字點選 [頂端]  ，然後點選 [依單位平均銷售金額排序]   > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. 從關鍵字選擇 [by]\(由)，從頂端的建議清單點選 [時間] > [傳送] ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+10. 從關鍵字選擇 [by]\(由)  ，從頂端的建議清單點選 [時間]  > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
      ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. 鍵入 [as]\(為)，然後從建議清單選取折線圖圖示![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) > [傳送] ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+11. 鍵入 [as]\(為)  ，然後從建議清單選取折線圖圖示![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 

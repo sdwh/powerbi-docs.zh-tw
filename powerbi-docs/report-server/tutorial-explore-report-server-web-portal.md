@@ -1,20 +1,20 @@
 ---
 title: 教學課程：探索 VM 中的 Power BI 報表伺服器
 description: 在本教學課程中，您會建立一部已經安裝「Power BI 報表伺服器」的虛擬機器並探索入口網站。
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
-ms.date: 05/18/2018
-ms.author: maghan
-ms.openlocfilehash: 098aa1cd2c031a200e3ce246890a467a6e15149d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.date: 05/06/2019
+ms.author: maggies
+ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325074"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65240064"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教學課程：探索 VM 中的 Power BI 報表伺服器入口網站
 在本教學課程中，您會建立一部已經安裝「Power BI 報表伺服器」的 Azure 虛擬機器，以便體驗如何檢視、編輯和管理範例 Power BI 及編頁報表與 KPI。
@@ -37,52 +37,60 @@ ms.locfileid: "56325074"
 
 幸運的是，Power BI 小組已建立一個已經安裝「Power BI 報表伺服器」的 VM。
 
-1. 在 Azure Marketplace 中，開啟 [Power BI 報表伺服器](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview)。  
+1. 在 Azure Marketplace 中，選取 Power BI 報表伺服器。 此連結會直接開啟它：[Power BI 報表伺服器](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview)。  
 
-2. 選取 [立即取得]。
-3. 若要同意接受提供者的使用規定和隱私權原則，請選取 [繼續]。
+2. 選取 [立即取得]  。
+3. 若要同意接受提供者的使用規定和隱私權原則，請選取 [繼續]  。
 
-    ![建立 Power BI 報表伺服器 VM](media/tutorial-explore-report-server-web-portal/power-bi-report-server-virtual-machine-create.png)
+4. 選取 [建立]  。
 
-4. **步驟 1 基本**，針對 [VM 名稱]，將其命名為 **reportservervm**。
+    ![建立 Power BI 報表伺服器 VM](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
+
+5. 在 **步驟 1 的基本概念**，如**VM 名稱**，呼叫它**reportservervm**。
+
+    Power BI 報表伺服器的 VM 名稱不能包含連字號。
 
 5. 建立使用者名稱和密碼。
 
-6. 針對 [資源群組]，保留 [新建]，然後將其命名為 **reportserverresourcegroup**。
+6. 針對**資源群組**，選取**建立新**，並呼叫它**reportserverresourcegroup** > **確定**。
 
     若您瀏覽過一次以上的教學課程，則在第一次之後，需要為資源群組提供不同的名稱。 您無法在同一個訂用帳戶中，使用兩次相同的資源群組名稱。 
 
-7. 保留其他預設值 > [確定]。
-
     ![為 VM 和資源群組命名](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create-resource-group.png)
 
-8. **步驟 2 設定**，保留預設值 > [確定]。
+7. 保留其他預設值 > [確定]  。
 
-9. **步驟 3 摘要** > [確定]。
+8. 在 **步驟 2 設定**，保留預設值 >**確定**。
+ 
+    **SQL 儲存體帳戶**並**診斷儲存體帳戶**值也必須是唯一。 如果您一次瀏覽本教學課程，您需要指定不同的名稱。
 
-10. **步驟 4**，檢閱使用規定和隱私權原則 > [建立]。
+9. 在 **步驟 3 摘要**，檢閱您的選擇 >**確定**。
 
-    **提交 Power BI 報表伺服器 的部署**程序需要數分鐘的時間。
+10. 在 **步驟 4 購買**，檢閱使用者和隱私權原則規定 >**建立**。
+
+    **提交的 Power BI 報表伺服器部署**程序可能需要幾分鐘的時間。
 
 ## <a name="connect-to-your-virtual-machine"></a>連線至虛擬機器
 
-1. 在 Azure 左側瀏覽窗格中，選取 [虛擬機器]。 
+1. 在 Azure 左側瀏覽窗格中，選取 [虛擬機器]  。 
 
-2. 在 [依名稱篩選] 方塊中，輸入 "report"。 
+2. 在 [依名稱篩選]  方塊中，輸入 "report"。 
 
 3. 選取名為 **REPORTSERVERVM**的 VM。
 
     ![檢視虛擬機器](media/tutorial-explore-report-server-web-portal/power-bi-report-server-view-virtual-machine.png)
 
-4. 在 REPORTSERVERVM 虛擬機器底下，選取 [連接]。
+4. 在 REPORTSERVERVM 虛擬機器底下，選取 [連接]  。
 
     ![連線至虛擬機器](media/tutorial-explore-report-server-web-portal/power-bi-report-server-connect-to-virtual-machine.png)
 
-5. 在 [遠端桌面連線] 對話方塊中，選取 [連接]。
+5. 在 **連線至虛擬機器**窗格中，保留預設值，然後選取**下載 RDP 檔案**。
 
-6. 輸入您為 VM 建立的名稱和密碼 > [確定]。
+1. 在 **遠端桌面連線**對話方塊中，選取**Connect**。
 
-7. 下一個對話方塊會指出無法識別遠端電腦的身分識別。 請選取 [是]。
+6. 輸入您為 VM 建立的名稱和密碼 > [確定]  。
+
+7. 下一個對話方塊中顯示**找不到遠端電腦的身分識別**。 請選取 [是]  。
 
    您看，新的 VM 開啟了。
 
@@ -90,17 +98,17 @@ ms.locfileid: "56325074"
 
 當 VM 開啟時，您會在桌面上看到下列項目。
 
-![「Power BI 報表伺服器」虛擬機器啟動](media/tutorial-explore-report-server-web-portal/power-bi-report-server-start-vm-numbered.png)
+![「Power BI 報表伺服器」虛擬機器啟動](media/tutorial-explore-report-server-web-portal/power-bi-report-server-vm-5-numbers.png)
 
 |數字  |意義  |
 |---------|---------|
-|![數字 1](media/tutorial-explore-report-server-web-portal/number-1.png) | 啟動 SQL Server Data Tools 來建立編頁 (.RDL) 報表 |
-|![數字 2](media/tutorial-explore-report-server-web-portal/number-2.png) | 範例 Power BI (.PBIX) 報表  |
-|![數字 3](media/tutorial-explore-report-server-web-portal/number-3.png) | 連結至「Power BI 報表伺服器」文件   |
-|![數字 4](media/tutorial-explore-report-server-web-portal/number-4.png) | 啟動已針對「Power BI 報表伺服器」最佳化的 Power BI Desktop (2018 年 3 月)  |
-|![數字 5](media/tutorial-explore-report-server-web-portal/number-5.png) | 在瀏覽器中開啟「Power BI 報表伺服器」入口網站   |
+|![數字 1](media/tutorial-explore-report-server-web-portal/number-1.png) | 範例 Power BI (.PBIX) 報表 |
+|![數字 2](media/tutorial-explore-report-server-web-portal/number-2.png) | 連結至「Power BI 報表伺服器」文件 |
+|![數字 3](media/tutorial-explore-report-server-web-portal/number-3.png) | 啟動 Power BI Desktop 適用於 Power BI 報表伺服器 (第 2019 年 1 月) |
+|![數字 4](media/tutorial-explore-report-server-web-portal/number-4.png) | 在瀏覽器中開啟「Power BI 報表伺服器」入口網站 |
+|![數字 5](media/tutorial-explore-report-server-web-portal/number-5.png) | 啟動 SQL Server Data Tools 來建立編頁 (.RDL) 報表 |
 
-按兩下 [報表伺服器入口網站] 圖示。 瀏覽器會開啟 `http://localhost/reports/browse`。 在入口網站中，您會看到各種依類型分組的檔案。 
+按兩下 [報表伺服器入口網站]  圖示。 瀏覽器會開啟 `http://localhost/reports/browse`。 在入口網站中，您會看到各種依類型分組的檔案。 
 
 ![Power BI 報表伺服器入口網站](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 
@@ -117,25 +125,25 @@ ms.locfileid: "56325074"
 ## <a name="tag-your-favorites"></a>標記我的最愛
 您可以將想要的報表和 KPI 標記為 [我的最愛]。 這樣會更容易尋找，因為在入口網站和 Power BI 行動應用程式，它們全都蒐集在單一 [我的最愛] 資料夾中。 
 
-1. 選取 [獲利率] KPI 右上角的省略符號 (**…**) > [加入我的最愛]。
+1. 選取 [獲利率]  KPI 右上角的省略符號 ( **…** ) > [加入我的最愛]  。
    
     ![新增至我的最愛](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
-2. 選取入口網站功能區上 [我的最愛]，在入口網站 [我的最愛] 頁面上與其他最愛項目一併查看。
+2. 選取入口網站功能區上 [我的最愛]  ，在入口網站 [我的最愛] 頁面上與其他最愛項目一併查看。
    
     ![檢視我的最愛](media/tutorial-explore-report-server-web-portal/power-bi-report-server-favorites.png)
 
-3. 選取 [瀏覽] 以返回入口網站。
+3. 選取 [瀏覽]  以返回入口網站。
    
 ## <a name="view-items-in-list-view"></a>以清單檢視來檢視項目
 根據預設，入口網站以 [磚] 檢視來顯示內容。
 
 您可以切換到 [清單] 檢視，方便您一次移動或刪除多個項目。 
 
-1. 選取 [磚] > [清單]。
+1. 選取 [磚]   > [清單]  。
    
     ![切換檢視](media/tutorial-explore-report-server-web-portal/report-server-web-portal-list-view.png)
 
-2. 返回 [圖格] 檢視：選取 [清單] > [圖格]。
+2. 返回 [圖格] 檢視：選取 [清單]   > [圖格]  。
 
 ## <a name="power-bi-reports"></a>Power BI 報表
 
@@ -143,7 +151,7 @@ ms.locfileid: "56325074"
 
 ### <a name="view-power-bi-reports"></a>檢視 Power BI 報表
 
-1. 在入口網站中的 [Power BI 報表] 底下，選取 [範例客戶概觀報表]。 報表隨即在瀏覽器中開啟。
+1. 在入口網站中的 [Power BI 報表]  底下，選取 [範例客戶概觀報表]  。 報表隨即在瀏覽器中開啟。
 
 1. 選取樹狀圖中的 [美國] 區塊，以查看它如何在其他視覺效果中醒目標示相關的值。
 
@@ -151,15 +159,13 @@ ms.locfileid: "56325074"
 
 ### <a name="edit-in-power-bi-desktop"></a>在 Power BI Desktop 中編輯
 
-1. 選取 [在 Power BI Desktop 中編輯]。
+1. 選取 [在 Power BI Desktop 中編輯]  。
 
-1. 選取 [允許] 以允許此網站在您的電腦上開啟程式。 
+1. 選取 [允許]  以允許此網站在您的電腦上開啟程式。 
 
-     報表隨即在 Power BI Desktop 中開啟。 請注意頂端列中的名稱「Power BI Desktop (2018 年 3 月)」。 這是已針對「Power BI 報表伺服器」最佳化的版本。
+     報表隨即在 Power BI Desktop 中開啟。 請注意頂端列中，「 Power BI Desktop (第 2019 年 1 月) 」 中的名稱。 這是已針對「Power BI 報表伺服器」最佳化的版本。
 
-    ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
-
-     請使用安裝在 VM 上的 Power BI Desktop 版本。 您不可跨網域來上傳報表。
+    請使用安裝在 VM 上的 Power BI Desktop 版本。 您不可跨網域來上傳報表。
 
 3. 在 [欄位] 窗格中，展開 [客戶] 資料表，然後將 [職業] 欄位拖曳至 [報表層級篩選]。
 
@@ -167,15 +173,15 @@ ms.locfileid: "56325074"
 
 1. 請儲存報表。
 
-1. 返回瀏覽器中的報表，然後選取 [重新整理] 圖示。
+1. 返回瀏覽器中的報表，然後選取 [重新整理]  圖示。
 
     ![瀏覽器 [重新整理] 圖示](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-refresh.png)
 
-8. 展開右邊的 [篩選] 窗格以查看您新增的 [職業] 篩選。 選取 [專業]。
+8. 展開右邊的 [篩選]  窗格以查看您新增的 [職業]  篩選。 選取 [專業]  。
 
     ![篩選後的 Power BI 報表](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-filtered.png)
 
-3. 選取 [瀏覽] 以返回入口網站。
+3. 選取 [瀏覽]  以返回入口網站。
 
 ## <a name="paginated-rdl-reports"></a>編頁 (RDL) 報表
 
@@ -183,45 +189,45 @@ ms.locfileid: "56325074"
 
 ### <a name="manage-a-paginated-report"></a>管理編頁報表
 
-1. 在入口網站中的 [編頁報表] 底下，選取 [銷售訂單] 旁邊的省略符號 (...) > [管理]。
+1. 在入口網站中的 [編頁報表]  底下，選取 [銷售訂單]  旁邊的省略符號 (...) > [管理]  。
 
-1. 選取 [參數]，將 [SalesOrderNumber] 的預設值變更為 **SO50689** > [套用]。
+1. 選取 [參數]  ，將 [SalesOrderNumber]  的預設值變更為 **SO50689** > [套用]  。
 
    ![設定報表參數](media/tutorial-explore-report-server-web-portal/power-bi-report-server-set-parameters.png)
 
-3. 選取 [瀏覽] 以返回入口網站。
+3. 選取 [瀏覽]  以返回入口網站。
 
 ### <a name="view-a-paginated-report"></a>檢視編頁報表
 
-1. 在入口網站中，選取 [銷售訂單]。
+1. 在入口網站中，選取 [銷售訂單]  。
  
-3.  您會看到它開啟至您所設定的[訂單] 參數 **SO50689**。 
+3.  您會看到它開啟至您所設定的[訂單]  參數 **SO50689**。 
 
     ![編頁報表參數](media/tutorial-explore-report-server-web-portal/power-bi-report-server-paginated.png)
 
     您可以在這裡變更該參數及其他參數，而無須變更預設值。
 
-1. 選取 [訂單 SO48339] > [檢視報表]。
+1. 選取 [訂單 SO48339]    > [檢視報表]  。
 
 4. 您會看到這是 2 頁中的第 1 頁。 請選取向右箭號來查看第 2 頁。 資料表會在該頁面繼續。
 
     ![編頁報表第 2 之 2 頁](media/tutorial-explore-report-server-web-portal/power-bi-report-server-paginated-2-of-2.png)
 
-5. 選取 [瀏覽] 以返回入口網站。
+5. 選取 [瀏覽]  以返回入口網站。
 
 ### <a name="edit-a-paginated-report"></a>編輯編頁報表
 
 您可以在「報表產生器」中編輯編頁報表，並且可以直接從瀏覽器中啟動「報表產生器」。
 
-1. 在入口網站中，選取 [銷售訂單] 旁邊的省略符號 (...) > [在報表產生器中編輯]。
+1. 在入口網站中，選取 [銷售訂單]  旁邊的省略符號 (...) > [在報表產生器中編輯]  。
 
-1. 選取 [允許] 以允許此網站在您的電腦上開啟程式。
+1. 選取 [允許]  以允許此網站在您的電腦上開啟程式。
 
 1. [銷售訂單] 報表隨即在「報表產生器」的 [設計檢視] 中開啟。
 
     ![設計檢視、編頁報表](media/tutorial-explore-report-server-web-portal/power-bi-report-server-paginated-design-view.png)
 
-1. 選取 [執行] 以預覽報表。
+1. 選取 [執行]  以預覽報表。
 
     ![預覽編頁報表](media/tutorial-explore-report-server-web-portal/power-bi-report-server-paginated-preview.png)
 
@@ -231,19 +237,19 @@ ms.locfileid: "56325074"
 
 您可以在「Power BI 報表伺服器」的 Excel Online 中檢視 Excel 活頁簿並與其互動。 
 
-1. 選取 Excel 活頁簿 [Office Liquidation Sale.xlsx]。 系統可能會要求您輸入認證。 選取 [取消]。 
+1. 選取 Excel 活頁簿 [Office Liquidation Sale.xlsx]  。 系統可能會要求您輸入認證。 選取 [取消]  。 
     報表隨即在入口網站中開啟。
-1. 選取交叉分析篩選器中的 [設備]。
+1. 選取交叉分析篩選器中的 [設備]  。
 
     ![入口網站中的 Excel Online](media/tutorial-explore-report-server-web-portal/power-bi-report-server-excel-online.png)
 
-1. 選取 [瀏覽] 以返回入口網站。
+1. 選取 [瀏覽]  以返回入口網站。
 
 ## <a name="clean-up-resources"></a>清除資源
 
 既然您已完成本教學課程，現在即可刪除資源群組、虛擬機器及所有相關資源。 
 
-- 若要這樣做，請選取 VM 的資源群組，然後選取 [刪除]。
+- 若要這樣做，請選取 VM 的資源群組，然後選取 [刪除]  。
 
 ## <a name="next-steps"></a>後續步驟
 

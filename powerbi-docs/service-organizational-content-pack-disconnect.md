@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: d4c9e6a925a783d810bc4d097ec18806c3d33d99
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291548"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61226539"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>移除與 Power BI 組織內容套件的連接
 
@@ -27,7 +27,7 @@ ms.locfileid: "54291548"
 
 若要移除內容套件，請移除其資料集。  
 
-* 在左方瀏覽窗格中，選取資料集右方的省略符號，然後選取 [移除]**\> [是]**。  
+* 在左方瀏覽窗格中，選取資料集右方的省略符號，然後選取 [移除] **\> [是]** 。  
   
   ![移除內容套件](media/service-organizational-content-pack-disconnect/power-bi-remove-organizational-content-pack-dataset.png)
 

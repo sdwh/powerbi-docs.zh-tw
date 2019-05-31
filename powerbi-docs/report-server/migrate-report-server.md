@@ -1,20 +1,20 @@
 ---
 title: 移轉報表伺服器安裝
 description: 了解如何將現有的 SQL Server Reporting Services 執行個體移轉到 Power BI 報表伺服器執行個體。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/17/2019
-ms.openlocfilehash: 6c2ea78d4be7cd830c9f9e79da6575366b8de9a3
-ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
-ms.translationtype: HT
+ms.openlocfilehash: 01c87d425b1ada76e322af411188a4a2717562d0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/22/2019
-ms.locfileid: "54420755"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770176"
 ---
 # <a name="migrate-a-report-server-installation"></a>移轉報表伺服器安裝
 
@@ -86,7 +86,7 @@ rs.exe
 * 備份資料庫、應用程式及設定檔
 * 備份加密金鑰
 * 複製裝載您報表的報表伺服器資料庫
-* 安裝 Power BI 報表伺服器。 您「無法」在與移轉來源相同的伺服器上安裝 Power BI 報表伺服器。 如需有關安裝 Power BI 報表伺服器的詳細資訊，請參閱[安裝 Power BI 報表伺服器](install-report-server.md)。
+* 安裝 Power BI 報表伺服器。 您「無法」  在與移轉來源相同的伺服器上安裝 Power BI 報表伺服器。 如需有關安裝 Power BI 報表伺服器的詳細資訊，請參閱[安裝 Power BI 報表伺服器](install-report-server.md)。
 
 > [!NOTE]
 > Power BI 報表伺服器的執行個體名稱會是 *PBIRS*。

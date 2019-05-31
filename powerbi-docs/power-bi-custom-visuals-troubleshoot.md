@@ -10,11 +10,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.openlocfilehash: cbda8cca80c32056f06788e53540d7f2d6ed972d
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695004"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61421764"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>針對 Power BI 自訂視覺效果進行疑難排解
 
@@ -26,7 +26,7 @@ ms.locfileid: "57695004"
 
 **在 [視覺效果] 索引標籤中找不到偵錯視覺效果**
 
-[視覺效果] 索引標籤中的偵錯視覺效果功能，看起來像個提示圖示。
+[視覺效果]  索引標籤中的偵錯視覺效果功能，看起來像個提示圖示。
 
 ![視覺效果選取項目](media/power-bi-custom-visuals-troubleshoot/powerbi-developer-visual-selection.png)
 
@@ -39,7 +39,7 @@ ms.locfileid: "57695004"
 
 在終端機命令列中輸入 `pbiviz start` 命令，從視覺效果專案的根目錄執行視覺效果伺服器。 如果伺服器未在執行中，很可能是您未正確安裝 SSL 憑證。
 
-如果您有任何問題或意見，歡迎連絡自訂視覺效果支援小組： *pbicvsupport@microsoft.com* 。
+如果您有任何問題或意見，歡迎連絡自訂視覺效果支援小組： *pbicvsupport@microsoft.com*  。
 
 ## <a name="next-steps"></a>後續步驟
 

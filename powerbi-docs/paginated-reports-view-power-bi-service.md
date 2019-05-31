@@ -1,20 +1,20 @@
 ---
 title: 在 Power BI 服務中檢視編頁報表 (預覽)
 description: 在此教學課程中，您將了解如何檢視 Power BI 服務中的編頁報表。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 99ed2510703aaa442be2ce2ee4b4c7ed7f31e681
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 8a87cb292da1a1fb3f4fc3e14d569ad8c97c60b6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324683"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769667"
 ---
 # <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>在 Power BI 服務中檢視編頁報表 (預覽)
 
@@ -38,7 +38,7 @@ ms.locfileid: "56324683"
 
     ![Power BI 服務中的編頁報表](media/paginated-reports-view-power-bi-service/power-bi-paginated-report-in-service.png)
 
-2. 如果報表含有參數 (就像這一個所做的)，您可能就不會第一次開啟此報表時看見它。 選取參數，然後選取 [檢視報表]。 
+2. 如果報表含有參數 (就像這一個所做的)，您可能就不會第一次開啟此報表時看見它。 選取參數，然後選取 [檢視報表]  。 
 
      ![選取要檢視報表的參數](media/paginated-reports-view-power-bi-service/power-bi-paginated-select-parameters.png)
 
@@ -48,7 +48,7 @@ ms.locfileid: "56324683"
     
    ![逐頁檢視報表](media/paginated-reports-view-power-bi-service/power-bi-paginated-page-thru-report.png)
 
-4. 選取 [匯出]，以尋找要用以匯出編頁報表的格式。
+4. 選取 [匯出]  ，以尋找要用以匯出編頁報表的格式。
 
     ![選取匯出格式](media/paginated-reports-view-power-bi-service/power-bi-paginated-export.png)
 

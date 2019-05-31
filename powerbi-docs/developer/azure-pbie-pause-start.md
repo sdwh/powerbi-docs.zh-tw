@@ -2,20 +2,20 @@
 title: 在 Azure 入口網站中暫停和啟動您的 Power BI Embedded 容量 | Microsoft Docs
 description: 本文逐步解說如何在 Microsoft Azure 中暫停和啟動 Power BI Embedded 容量。
 services: power-bi-embedded
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 09/28/2017
-ms.openlocfilehash: 9f939c0eae4f7ea1f24eec473549dc00191f1b67
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
-ms.translationtype: HT
+ms.openlocfilehash: 8a02654f264fb83f501679e4e205e08017f083f6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360147"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61386970"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 入口網站中暫停和啟動您的 Power BI Embedded 容量
 
@@ -32,7 +32,7 @@ ms.locfileid: "39360147"
 
 1. 登入[Azure 入口網站](https://portal.azure.com/)。
 
-2. 選取 [所有服務] > [Power BI Embedded] 查看您的容量。
+2. 選取 [所有服務]   > [Power BI Embedded]  查看您的容量。
 
     ![Azure 入口網站中的所有服務](media/azure-pbie-pause-start/azure-portal-more-services.png)
 
@@ -40,11 +40,11 @@ ms.locfileid: "39360147"
 
     ![Azure 入口網站中的 Power BI Embedded 容量清單](media/azure-pbie-pause-start/azure-portal-capacity-list.png)
 
-4. 在容量詳細資料中選取 [暫停]。
+4. 在容量詳細資料中選取 [暫停]  。
 
     ![暫停您的容量](media/azure-pbie-pause-start/azure-portal-pause-capacity.png)
 
-5. 選取 [是] 確認您要暫停容量。
+5. 選取 [是]  確認您要暫停容量。
 
     ![確認暫停](media/azure-pbie-pause-start/azure-portal-confirm-pause.png)
 
@@ -54,7 +54,7 @@ ms.locfileid: "39360147"
 
 1. 登入[Azure 入口網站](https://portal.azure.com/)。
 
-2. 選取 [所有服務] > [Power BI Embedded] 查看您的容量。
+2. 選取 [所有服務]   > [Power BI Embedded]  查看您的容量。
 
     ![Azure 入口網站中的所有服務](media/azure-pbie-pause-start/azure-portal-more-services.png)
 
@@ -62,11 +62,11 @@ ms.locfileid: "39360147"
 
     ![Azure 入口網站中的 Power BI Embedded 容量清單](media/azure-pbie-pause-start/azure-portal-capacity-list.png)
 
-4. 在容量詳細資料中選取 [啟動]。
+4. 在容量詳細資料中選取 [啟動]  。
 
     ![啟動您的容量](media/azure-pbie-pause-start/azure-portal-start-capacity.png)
 
-5. 選取 [是] 確認您要啟動容量。
+5. 選取 [是]  確認您要啟動容量。
 
     ![確認啟動](media/azure-pbie-pause-start/azure-portal-confirm-start.png)
 

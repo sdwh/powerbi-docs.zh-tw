@@ -1,21 +1,21 @@
 ---
 title: 設定工作區資料流程設定
-description: 在 Power BI 中設定應用程式工作區，來將其資料流程定義和資料檔儲存在 Azure Data Lake Storage Gen2 中
+description: 若要將其資料流程的定義和資料檔案儲存在 Azure Data Lake 儲存體 Gen2 的 Power BI 中設定應用程式工作區
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8c17a7b4ad455077d383eaff9b35a5d1004fce11
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223620"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61168443"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>設定工作區資料流程設定 (預覽)
 
@@ -35,51 +35,48 @@ ms.locfileid: "56223620"
 
 ## <a name="create-a-new-workspace-configure-its-dataflow-storage"></a>建立新的工作區，設定其資料流程儲存體
 
-若要在 Power BI 服務中建立新的應用程式工作區，請選取 [工作區] > [建立應用程式工作區]。
+若要在 Power BI 服務中建立新的應用程式工作區，請選取 [工作區] > [建立應用程式工作區]  。
 
 ![新增工作區](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_01.jpg)
 
-在 [建立應用程式工作區] 對話方塊中，可能會出現標題為 [預覽改進的工作區] 的黃色方塊。 在該區域中，選取 [立即試用]。
+在 [建立應用程式工作區] 對話方塊中，可能會出現標題為 [預覽改進的工作區]  的黃色方塊。 在該區域中，選取 [立即試用]  。
 
 ![預覽改進的工作區](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
-在出現的對話方塊中，您可以給予新的工作區一個唯一的名稱。 請先不要選取 [儲存]，因為您還需要設定進階設定。
+在出現的對話方塊中，您可以給予新的工作區一個唯一的名稱。 請先不要選取 [儲存]  ，因為您還需要設定進階設定。
 
 ![命名您的新工作區](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
 
-接下來，請展開 [建立應用程式工作區] 對話方塊的 [進階] 區域，您將可以在那裡開啟 [資料流程儲存體 (預覽)] 設定。
+接下來，請展開 [建立應用程式工作區]  對話方塊的 [進階]  區域，您將可以在那裡開啟 [資料流程儲存體 (預覽)]  設定。
 
 ![適用於新工作區的 [進階] 設定](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
-選取 [儲存] 以建立新的工作區。 在此工作區中所建立的所有新資料流程，都會將其定義檔案 (其 Model.json 檔案) 和資料儲存在您組織的 Azure Data Lake Storage Gen2 帳戶中。 
-
-> [!NOTE]
-> 資料流程功能目前處於預覽狀態，而且可能會在公開上市之前有所變更及更新。
+選取 [儲存]  以建立新的工作區。 在此工作區中所建立的所有新資料流程，都會將其定義檔案 (其 Model.json 檔案) 和資料儲存在您組織的 Azure Data Lake Storage Gen2 帳戶中。 
 
 ## <a name="update-dataflow-storage-for-an-existing-workspace"></a>更新現有工作區的資料流程儲存體
 
 除了建立新的工作區之外，您可以更新現有的工作區，以將定義檔案和資料儲存在您組織的 Azure Data Lake Storage Gen2 帳戶中。 請記得資料流程儲存體設定只能在工作區尚未包含資料流程的情況下變更。
 
-若要編輯應用程式工作區，請選取省略符號 **(...)**，然後選取 [編輯工作區]。 
+若要編輯應用程式工作區，請選取省略符號 **(...)** ，然後選取 [編輯工作區]  。 
 
 ![編輯工作區](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
-在隨即顯示的 [編輯工作區] 視窗中，展開 [進階]，然後將 [資料流程儲存體 (預覽)] 設定為 [開啟]。 
+在隨即顯示的 [編輯工作區]  視窗中，展開 [進階]  ，然後將 [資料流程儲存體 (預覽)]  設定為 [開啟]  。 
 
 ![將 [資料流程儲存體] 設定為 [開啟]](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_06.jpg)
 
-然後選取 [儲存]，現在在此工作區中所建立的所有新資料流程，都會將其定義檔案和資料儲存在您組織的 Azure Data Lake Storage Gen2 帳戶中。
+然後選取 [儲存]  ，現在在此工作區中所建立的所有新資料流程，都會將其定義檔案和資料儲存在您組織的 Azure Data Lake Storage Gen2 帳戶中。
 
 
 ## <a name="get-the-uri-of-stored-dataflow-files"></a>取得已儲存資料流程檔案的 URI
 
-當您在指派至您組織 Azure Data Lake 帳戶的工作區中建立資料流程之後，您便可以直接存取其定義和資料檔案。 它們的位置可在 [資料流程設定] 頁面中取得。 若要前往那裡，請遵循下列步驟：
+當您在指派至您組織 Azure Data Lake 帳戶的工作區中建立資料流程之後，您便可以直接存取其定義和資料檔案。 它們的位置可在 [資料流程設定]  頁面中取得。 若要前往那裡，請遵循下列步驟：
 
-選取在工作區中列於 [資料流程] 底下之資料流程旁邊的省略符號 **(...)**。 在顯示的功能表中，選取 [設定]。
+選取在工作區中列於 [資料流程]  底下之資料流程旁邊的省略符號 **(...)** 。 在顯示的功能表中，選取 [設定]  。
 
 ![取得資料流程檔案的 URI](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_07.jpg)
 
-在顯示的資訊中，資料流程的 CDM 資料夾位置會出現在 [資料流程儲存位置] 底下，如下圖所示。
+在顯示的資訊中，資料流程的 CDM 資料夾位置會出現在 [資料流程儲存位置]  底下，如下圖所示。
 
 ![資料流程檔案的位置](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 

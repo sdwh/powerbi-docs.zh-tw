@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: d7f30dd43fe875380939520f3dc54fcbbe2f4c9c
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555963"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273244"
 ---
 **DAX** 及 Excel 公式語言之間的一個重大差異，是 DAX 可讓您在運算式之間傳遞 *整個資料表* ，而不是限制在單一值。 其中一個功能強大的作用是 DAX 可讓您在其運算式中篩選資料表，然後使用已篩選的一組值。
 

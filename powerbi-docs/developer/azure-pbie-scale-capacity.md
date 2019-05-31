@@ -2,20 +2,20 @@
 title: 調整您的 Power BI Embedded 容量規模 | Microsoft Docs
 description: 本文逐步解說如何在 Microsoft Azure 中調整 Power BI Embedded 容量規模。
 services: power-bi-embedded
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 01/31/2019
-ms.openlocfilehash: 862e2dceb261e9f89480f50320bd0e1ce6a27931
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: b9a632fa39d320d14d1282cee5e59022a8ab0303
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762275"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61388393"
 ---
 # <a name="scale-your-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 入口網站中調整您的 Power BI Embedded 容量規模
 
@@ -30,7 +30,7 @@ ms.locfileid: "55762275"
 
 1. 登入[Azure 入口網站](https://portal.azure.com/)。
 
-2. 選取 [所有服務] > [Power BI Embedded] 查看您的容量。
+2. 選取 [所有服務]   > [Power BI Embedded]  查看您的容量。
 
     ![Azure 入口網站中的所有服務](media/azure-pbie-scale-capacity/azure-portal-more-services.png)
 
@@ -38,7 +38,7 @@ ms.locfileid: "55762275"
 
     ![Azure 入口網站中的 Power BI Embedded 容量清單](media/azure-pbie-scale-capacity/azure-portal-capacity-list.png)
 
-4. 在您容量中的 [調整規模] 下，選取 [定價層]。
+4. 在您容量中的 [調整規模]  下，選取 [定價層]  。
 
     ![[調整規模] 下的 [定價層]](media/azure-pbie-scale-capacity/azure-portal-scale-pricing-tier.png)
 
@@ -46,7 +46,7 @@ ms.locfileid: "55762275"
 
     ![目前的定價層以藍色顯示](media/azure-pbie-scale-capacity/azure-portal-current-tier.png)
 
-5. 若要相應增加或減少，請選取要移至的新定價層。 選取新的定價層會在選取四周加上藍色虛線外框。 選取 [選取] 調整為新的定價層。
+5. 若要相應增加或減少，請選取要移至的新定價層。 選取新的定價層會在選取四周加上藍色虛線外框。 選取 [選取]  調整為新的定價層。
 
     ![選取新的定價層](media/azure-pbie-scale-capacity/azure-portal-select-new-tier.png)
 

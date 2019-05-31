@@ -1,89 +1,98 @@
 ---
 title: 使用 Power BI 連接到 Zendesk
 description: Zendesk for Power BI
-author: SarinaJoan
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: maggiesMSFT
+ms.reviewer: sarinas
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 04/26/2019
+ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 72b934357ec4208fa07266143b08af861659e465
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.openlocfilehash: 1edc4179b000191dfeff87387417009bc28e0ee5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008319"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578776"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>使用 Power BI 連接到 Zendesk
-Zendesk 內容套件包含 Power BI 儀表板和一組 Power BI 報表，提供您有關於票證數量及代理程式效能的深入分析資料。 您可以使用提供的儀表板和報表，或是加以自訂，以反白顯示您特別有興趣的資訊。  資料會自動每天重新整理一次。 
+
+這篇文章會引導您提取您的資料，從您的 Zendesk 帳戶具有 Power BI 範本應用程式。 Zendesk 應用程式提供 Power BI 儀表板和一組 Power BI 報表，讓您深入了解您的票證數量及代理程式的效能。 資料會自動每天重新整理一次。 
+
+您已安裝的範本應用程式之後，您可以自訂儀表板和報表以突顯您最重視的資訊。 然後您可以將它散發為應用程式給同事您組織中。
 
 連接到 [Zendesk 內容套件](https://app.powerbi.com/getdata/services/zendesk)或深入了解 Power BI 與 [Zendesk 的整合](https://powerbi.microsoft.com/integrations/zendesk)。
 
+您已安裝的範本應用程式之後，您可以變更儀表板和報表。 然後您可以將它散發為應用程式給同事您組織中。
+
 >[!NOTE]
->需要有 Zendesk 管理帳戶才能連接。 下方有[需求](#Requirements)的詳細資訊。
+>您需要有 Zendesk 管理帳戶，來連接。 下方有[需求](#system-requirements)的詳細資訊。
 
 ## <a name="how-to-connect"></a>如何連接
-1. 選取左側瀏覽窗格底部的 [取得資料]  。
+
+[!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
+
+3. 選取  **Zendesk** \> **立即取得**。
+4. 在 **安裝此 Power BI 應用程式嗎？** 選取**安裝**。
+4. 在 **應用程式**窗格中，選取**Zendesk**圖格。
+
+    ![Power BI 的 Zendesk 應用程式圖格](media/service-connect-to-zendesk/power-bi-zendesk-tile.png)
+
+6. 在 **開始使用新的應用程式**，選取**將資料連接**。
+
+    ![開始使用您的新應用程式](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
+
+4. 提供與您帳戶相關聯的 URL。 URL 的形式 **https://company.zendesk.com** 。 請參閱以下關於[尋找這些參數](#finding-parameters)的詳細資料。
    
-   ![](media/service-connect-to-zendesk/pbi_getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
-   
-   ![](media/service-connect-to-zendesk/pbi_getservices.png) 
-3. 選取 [Zendesk] \> [連接] 。
-   
-   ![](media/service-connect-to-zendesk/zendesk.png)
-4. 提供與您帳戶相關聯的 URL。 其格式為 **https://company.zendesk.com** ，請參閱下方的[尋找這些參數](#FindingParams)，以了解詳細資料。
-   
-   ![](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
-5. 出現提示時，請輸入您的 Zendesk 認證。  選取 [oAuth 2]  做為驗證機制，然後按一下 [登入] 。 請遵循 Zendesk 驗證流程。 (如果您已經在瀏覽器中登入 Zendesk，可能就不會出現輸入認證的提示。)
+   ![連線至 Zendesk](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
+
+5. 出現提示時，請輸入您的 Zendesk 認證。  選取 [oAuth 2]  做為驗證機制，然後按一下 [登入]  。 請遵循 Zendesk 驗證流程。 （如果您已登入 Zendesk 瀏覽器中，您可能不會提示輸入認證。）
    
    > [!NOTE]
    > 此內容套件需要您連接到 Zendesk 系統管理員帳戶。 
    > 
-   > 
    
-   ![](media/service-connect-to-zendesk/pbi_zendesksignin.png)
+   ![使用 oAuth2 登入](media/service-connect-to-zendesk/pbi_zendesksignin.png)
 6. 按一下 [允許]  以允許 Power BI 存取您的 Zendesk 資料。
    
-   ![](media/service-connect-to-zendesk/zendesk2.jpg)
-7. 按一下 [連接]  開始匯入程序。 Power BI 匯入資料之後，您會在左側瀏覽窗格中看到新的儀表板、報表和資料集。 新的項目會以黃色星號標示\*。
+   ![按一下 允許](media/service-connect-to-zendesk/zendesk2.jpg)
+7. 按一下 [連接]  開始匯入程序。 
+8. Power BI 匯入資料之後，您會看到內容清單中您的 Zendesk 應用程式： 新的儀表板、 報表和資料集。
+9. 選取儀表板，開始探索程序。
+
+    ![Zendesk 儀表板](media/service-connect-to-zendesk/power-bi-zendesk-dashboard.png)
    
-   ![](media/service-connect-to-zendesk/pbi_zendeskdash.png)
+## <a name="modify-and-distribute-your-app"></a>修改並散發應用程式
 
-**接下來呢？**
+您已安裝 Zendesk 範本應用程式。 也就是說，您也建立了 Zendesk 應用程式工作區。 在工作區中，您可以變更報表和儀表板，並再將它做為散發*應用程式*給組織中的同事。 
 
-* 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
-* [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
-* [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+1. 若要檢視新的 Zendesk 工作區中的所有內容，在左側的導覽列中，選取**工作區** > **Zendesk**。 
 
-## <a name="whats-included"></a>包含的內容
-Power BI 內容套件包含下列資料：  
+    ![在左側的導覽窗格中的 Zendesk 工作區](media/service-connect-to-zendesk/power-bi-zendesk-workspace-left-nav.png)
 
-* 使用者 (使用者和代理程式)  
-* 組織  
-* 群組  
-* 票證  
+    此檢視位於工作區的內容清單。 在右上角中，您會看到**更新應用程式**。 當您準備好應用程式散發給您的同事時，這是您將開始的地方。 
 
-也會包含一組已計算的量值，例如平均等候時間及過去 7 天解決的票證數目。 完整的清單包含在內容套件中。
+    ![Zendesk 內容清單](media/service-connect-to-zendesk/power-bi-zendesk-content-list.png)
 
-<a name="Requirements"></a>
+2. 選取 **報表**並**資料集**若要查看工作區中的其他項目。
+
+    了解[將應用程式散發](service-create-distribute-apps.md)向您的同事。
 
 ## <a name="system-requirements"></a>系統需求
-需要有 Zendesk 系統管理員帳戶才能存取 Zendesk 內容套件。 如果是有興趣檢視 Zendesk 資料的代理程式或使用者，請在 [Power BI Desktop](desktop-connect-to-data.md) 中新增建議並檢閱 Zendesk 連接器。
-
-<a name="FindingParams"></a>
+需要有 Zendesk 系統管理員帳戶才能存取 Zendesk 內容套件。 如果您是代理程式或終端使用者和有興趣檢視 Zendesk 資料，新增建議並檢閱 Zendesk 連接器中的[Power BI Desktop](desktop-connect-to-data.md)。
 
 ## <a name="finding-parameters"></a>尋找參數
 Zendesk URL 與您用來登入 Zendesk 帳戶的 URL 相同。 如果不確定 Zendesk URL，可以使用 Zendesk [登入說明](https://www.zendesk.com/login/)。
 
 ## <a name="troubleshooting"></a>疑難排解
-如果您在連接時發生問題，請檢查 Zendesk URL，並確認使用的是 Zendesk 系統管理員帳戶。
+如果您遇到連線問題，請檢查 Zendesk URL，並確認您使用的是 Zendesk 系統管理員帳戶。
 
 ## <a name="next-steps"></a>後續步驟
-* [Power BI 是什麼？](power-bi-overview.md)
-* [取得資料](service-get-data.md)
+
+* [在 Power BI 中建立新的工作區](service-create-the-new-workspaces.md)
+* [在 Power BI 中安裝和使用應用程式](consumer/end-user-apps.md)
+* [連接到外部服務的 Power BI 應用程式](service-connect-to-services.md)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

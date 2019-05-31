@@ -12,11 +12,11 @@ ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6484046f6c69f47e01e14b56c38c4c9a5871b28b
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406584"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61199433"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>將超連結加入報表中的文字方塊
 您可以將文字方塊新增至報表、從報表將其釘選到儀表板，以及直接將其新增至儀表板。 不論文字方塊位於何處，您都可以隨時在其中新增超連結。  
@@ -34,7 +34,7 @@ ms.locfileid: "54406584"
    
    ![選取文字方塊中的文字](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-new.png)
 3. 選取超連結圖示 ![超連結圖示](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png).
-4. 在超連結欄位中，輸入或貼上的 URL 並選取 [完成] 。
+4. 在超連結欄位中，輸入或貼上的 URL 並選取 [完成]  。
    
    ![在超連結欄位中鍵入或貼上 URL](media/service-add-hyperlink-to-text-box/power-bi-add-link.png)
 5. 測試連結。  
@@ -50,7 +50,7 @@ ms.locfileid: "54406584"
 1. 在文字方塊中，選取超連結以將它反白顯示。
    
      ![移除超連結](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-remove.png)
-2. 選擇 [移除]。 
+2. 選擇 [移除]  。 
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 報表中的文字方塊](power-bi-reports-add-text-and-shapes.md)

@@ -1,20 +1,20 @@
 ---
 title: 將編頁報表發佈至 Power BI 服務 (預覽)
 description: 在此教學課程中，您將了解如何從本機電腦上傳編頁報表，以將該報表發佈至 Power BI 服務。
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174537"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61423924"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>將編頁報表發佈至 Power BI 服務 (預覽)
 
@@ -26,11 +26,11 @@ ms.locfileid: "58174537"
 
 如果工作區的名稱旁邊沒有鑽石圖示 ![Power BI Premium 容量鑽石圖示](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ，則您需要將該工作區新增至 Premium 容量。 
 
-1. 選取 [工作區]、選取工作區名稱旁邊的省略符號 **...**，然後選取 [編輯工作區]。
+1. 選取 [工作區]  、選取工作區名稱旁邊的省略符號 **...** ，然後選取 [編輯工作區]  。
 
     ![選取 [編輯工作區]](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 
-1. 在 [編輯工作區] 對話方塊中，展開 [進階]，然後將 [專用容量] 滑動至 [開啟]。
+1. 在 [編輯工作區]  對話方塊中，展開 [進階]  ，然後將 [專用容量]  滑動至 [開啟]  。
 
     ![選取 [專用容量]](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace-dialog.png)
 
@@ -43,23 +43,23 @@ ms.locfileid: "58174537"
 
 1. 在瀏覽器中開啟 Power BI 服務，然後瀏覽至您想要在其中發佈報表的 Premium 工作區。 請注意工作區名稱旁邊的鑽石圖示 ![Power BI Premium 容量鑽石圖示](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) 。 
 
-1. 選取 [取得資料]。
+1. 選取 [取得資料]  。
 
     ![Power BI 中的 [取得資料]](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-get-data.png)
 
-1. 在 [檔案]  方塊中選取 [取得] 。
+1. 在 [檔案]  方塊中選取 [取得]  。
 
     ![Power BI 中的 [取得檔案]](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-files-get.png)
 
-1. 選取 [本機檔案] > 瀏覽至編頁報表 > [開啟]。
+1. 選取 [本機檔案]  > 瀏覽至編頁報表 > [開啟]  。
 
     ![選取 [本機檔案]](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-local-file.png)
 
-1. 選取 [繼續] > [編輯認證]。
+1. 選取 [繼續]   > [編輯認證]  。
 
     ![選取 [編輯認證]](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-edit-credentials.png)
 
-1. 設定您的認證 > [登入]。
+1. 設定您的認證 > [登入]  。
 
     ![編輯認證](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
@@ -75,7 +75,7 @@ ms.locfileid: "58174537"
 
 就像任何其他 Power BI 報表，如果報表資料來源位於內部部署，則您需要建立或連線至閘道，才能存取資料。
 
-1. 在報表名稱旁邊，選取 [管理]。
+1. 在報表名稱旁邊，選取 [管理]  。
 
    ![管理編頁報表](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 

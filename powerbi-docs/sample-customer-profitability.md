@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 9fb22a50d68e414e8d75fc004629eaa2633b066c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216485"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61242345"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客戶獲利率範例：觀看導覽
 
@@ -32,13 +32,13 @@ ms.locfileid: "56216485"
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
-2. 在左下角選取 [取得資料]。
+2. 在左下角選取 [取得資料]  。
 
     ![取得資料](media/sample-datasets/power-bi-get-data.png)
-3. 在顯示的 [取得資料] 頁面上，選取 [範例]。
+3. 在顯示的 [取得資料] 頁面上，選取 [範例]  。
 
    ![範例圖示](media/sample-datasets/power-bi-samples-icon.png)
-4. 選取 [客戶獲利率範例]，然後選擇 [連線]。  
+4. 選取 [客戶獲利率範例]  ，然後選擇 [連線]  。  
 
    ![取得資料](media/sample-customer-profitability/get-supplier-sample.png)
 5. Power BI 會匯入內容套件，並將新的儀表板、報表及資料集新增到您目前的工作區。 新的內容會以黃色星號標示。 使用範例讓 Power BI 進行測試回合。  
@@ -52,12 +52,12 @@ ms.locfileid: "56216485"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要深入了解此範例的資料來源，我們也有以 [(Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529781) 的格式提供它。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。
+如果您想要深入了解此範例的資料來源，我們也有以 [(Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529781) 的格式提供它。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]  。
 
 
 ## <a name="what-is-our-dashboard-telling-us"></a>儀表板告訴我們什麼？
 
-在 [我的工作區] 下，尋找客戶獲利率範例的儀表板：
+在 [我的工作區]  下，尋找客戶獲利率範例的儀表板：
 
 ![客戶獲利率範例的儀表板](media/sample-customer-profitability/power-bi-dash.png)
 
@@ -97,14 +97,14 @@ ms.locfileid: "56216485"
 1. 選取從 Excel 釘選的其中一個磚。 Excel Online 會在 Power BI 服務內開啟。
 2. 注意到該活頁簿的資料分散於 3 個索引標籤中。 開啟 [Revenue] \(營收\)。
 3. 我們來看看 Carlos 還未達到其目標的原因。  
-    a. 使用 [Executive] \(主管\) 滑桿，選取 [Carlos Grilo]。   
+    a. 使用 [Executive] \(主管\) 滑桿，選取 [Carlos Grilo]  。   
     b. 從第一個樞紐分析表可看出 Carlos 銷售最多的產品 Primus，其營收與去年相比下降了 152%。 且 [YoY] \(逐年\) 圖表顯示他在大多數月份中的預算都低於標準。  
 
     ![樞紐分析表](media/sample-customer-profitability/power-bi-pivotchart.png)
 
     ![Carlos 的結果](media/sample-customer-profitability/power-bi-carlos.png)
 
-4. 繼續探索，如果發現感興趣的項目，選取右上角的 [釘選] ![釘選圖示](media/sample-customer-profitability/power-bi-excel-pin.png) 將它[釘選到儀表板](service-dashboard-pin-tile-from-excel.md)。
+4. 繼續探索，如果發現感興趣的項目，選取右上角的 [釘選]  ![釘選圖示](media/sample-customer-profitability/power-bi-excel-pin.png) 將它[釘選到儀表板](service-dashboard-pin-tile-from-excel.md)。
 
 5. 使用瀏覽器的上一頁箭頭來返回儀表板。
 
@@ -128,12 +128,12 @@ ms.locfileid: "56216485"
 
 * 如需快速查看 KPI，請查看 Andrew 的**營收狀態**：他的狀態為綠色。 他的業績很好。
 * 「按月對預算的營收差異 %」區域圖顯示，除了二月份下跌，Andrew 整年的表現都很不錯。 他負責的區域在東部，手上有 49 位客戶和 5 項產品 (共 7 項)。 他的 GM% 不是最高或最低。
-* 「總稅收和按月對預算的營收差異 %」顯示平穩甚至有獲利。但是當您按一下區域樹狀結構圖 [中部] 的方塊篩選資料時，您會發現 Andrew 只有三月份在印第安納州有營收。 這是故意為之，還是有什麼需要一探究竟嗎？
+* 「總稅收和按月對預算的營收差異 %」顯示平穩甚至有獲利。但是當您按一下區域樹狀結構圖 [中部]  的方塊篩選資料時，您會發現 Andrew 只有三月份在印第安納州有營收。 這是故意為之，還是有什麼需要一探究竟嗎？
 
 現在來看看 Valery。 在交叉分析篩選器中，選取 Valery 的名字來篩選報表頁面，只顯示與她有關的資料。  
 ![Vaery Ushalov 的配量主管](media/sample-customer-profitability/customer3.png)
 
-* 請注意 [總稅收狀態] 的紅色 KPI。 這肯定需要進一步探查。
+* 請注意 [總稅收狀態]  的紅色 KPI。 這肯定需要進一步探查。
 * 她的營收差異也十分令人擔憂，她連自己的邊際收益都達不到。
 * Valery 手上只有 9 位客戶、負責 2 項產品，而且幾乎只和北部的客戶打交道。 這個特點能夠說明其度量的巨幅波動。
 * 在樹狀結構圖中選取 [北部]  方塊，顯示 Valery 在北部的毛利與她整體的毛利一致。
@@ -161,9 +161,9 @@ ms.locfileid: "56216485"
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>利用問與答問來提問以深入探索資料
 我們的分析有助於判斷哪些產業讓 Valery 產生最多收益。 讓我們使用問與答。
 
-1. 選取 [編輯報表] 以在 [編輯檢視] 中開啟該報表。 只有在您「擁有」該報表的情況下，才能使用 [編輯檢視]\(有時稱為**建立者**模式)。 反之，如果此報表是與您共用的，您將無法在 [編輯檢視] 中開啟它。
+1. 選取 [編輯報表]  以在 [編輯檢視] 中開啟該報表。 只有在您「擁有」該報表的情況下，才能使用 [編輯檢視]\(有時稱為**建立者**模式)。 反之，如果此報表是與您共用的，您將無法在 [編輯檢視] 中開啟它。
 
-2.  從頂端的功能表列，選取 [詢問問題] 來開啟問與答問題方塊。
+2.  從頂端的功能表列，選取 [詢問問題]  來開啟問與答問題方塊。
 
     ![詢問與資料相關的問題](media/sample-customer-profitability/power-bi-ask-question.png)
 
@@ -180,11 +180,11 @@ ms.locfileid: "56216485"
 2. 在不選取報表頁面上任何視覺效果的情況下，展開右側的篩選窗格 (如果未展開)。 [篩選] 窗格應該只會顯示頁面層級篩選。  
 
    ![頁面層級篩選](media/sample-customer-profitability/power-bi-filters.png)
-3. 找到 [產業] 的篩選，然後選取箭號來展開清單。 讓我們新增 [配銷] 產業的頁面篩選。 首先，清除 [全選] 核取方塊，以清除所有選取項目。 然後僅選取 [配銷]。  
+3. 找到 [產業]  的篩選，然後選取箭號來展開清單。 讓我們新增 [配銷] 產業的頁面篩選。 首先，清除 [全選]  核取方塊，以清除所有選取項目。 然後僅選取 [配銷]  。  
 
    ![[配銷] 的篩選條件](media/sample-customer-profitability/customer7.png)
 4. 「每月毛利和主管姓名」區域圖告訴我們，只有 Valery 和 Tina 在此產業有客戶，而且 Valery 只有在六月到十一月這段時間才需要處理這項產業的業務。   
-5. 在「每月毛利和主管」區域圖圖例中，依序選取 [Tina] 和 [Valery]。 請注意，和 Valery 相比，Tina 的「產品總收益」部分真的很小。
+5. 在「每月毛利和主管」區域圖圖例中，依序選取 [Tina]  和 [Valery]  。 請注意，和 Valery 相比，Tina 的「產品總收益」部分真的很小。
 6. 若要查看實際的營收，請使用問與答要求**依主管及案例顯示配銷的總營收**。  
 
      ![在問題方塊中輸入問題以查看橫條圖](media/sample-customer-profitability/power-bi-qna2.png)

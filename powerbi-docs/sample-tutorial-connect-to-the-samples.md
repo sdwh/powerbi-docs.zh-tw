@@ -12,16 +12,16 @@ ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
-ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/15/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65625065"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>連線至 Power BI 服務中的範例
 
 本教學課程將教導您如何： 
-- 匯入範例內容套件，將它新增至 Power BI 服務，然後開啟內容。 「內容套件」是一種範例類型，其中資料集會隨附在儀表板及報表中。 
+- 匯入範例內容套件，將它新增至 Power BI 服務，然後開啟內容。 「內容套件」  是一種範例類型，其中資料集會隨附在儀表板及報表中。 
 - 在 Power BI Desktop 中開啟範例.pbix 檔案。
 
 如果您想要先多了解一點背景，建議您從 [Power BI 的範例資料集](sample-datasets.md)一文開始著手。 在該文章中，您會了解範例的所有資訊；範例要如何取得、儲存、使用，及各範例可提供的一些案例。 之後，當您掌握到一些基礎時，請返回本教學課程。   
@@ -29,33 +29,33 @@ ms.locfileid: "65625065"
 ## <a name="prerequisites"></a>先決條件
 這些範例適用於 Power BI 服務和 Power BI Desktop。 如果要跟著做，我們將會使用「零售分析」範例。
 
-本教學課程使用的「零售分析」內容套件範例，包含儀表板、報表和資料集。
+本教學課程使用的「零售分析」  內容套件範例，包含儀表板、報表和資料集。
 為了熟悉此特定內容套件和其案例，您可以：[瀏覽零售分析範例](sample-retail-analysis.md)。
 
 ## <a name="samples-and-power-bi-service"></a>範例和 Power BI 服務
 
 1. 開啟並登入 Power BI 服務 (app.powerbi.com)。
-2. 選取左側瀏覽窗格底部的 [取得資料]  。 如果您看不到 [取得資料]，請選取 ![漢堡圖示](media/sample-tutorial-connect-to-the-samples/expand-nav.png) 展開瀏覽窗格。
+2. 選取左側瀏覽窗格底部的 [取得資料]  。 如果您看不到 [取得資料]  ，請選取 ![漢堡圖示](media/sample-tutorial-connect-to-the-samples/expand-nav.png) 展開瀏覽窗格。
    
    ![取得資料圖示](media/sample-tutorial-connect-to-the-samples/pbi_getdata.png)
-5. 選取 [範例]。  
+5. 選取 [範例]  。  
    
    ![[範例] 按鈕](media/sample-tutorial-connect-to-the-samples/pbi_samplesdownload.png)
-6. 選取 [零售分析範例]，然後選擇 [連線]。   
+6. 選取 [零售分析範例]  ，然後選擇 [連線]  。   
    
    ![黃色連線按鈕](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
 
 ## <a name="what-exactly-was-imported"></a>確切來說，會匯入什麼項目？
-透過簡單的內容套件，當您選取 [連線] 時，Power BI 實際帶入的是該內容套件的複本，並將其儲存在雲端。 因為內容套件的建立者納入了資料集、報表及儀表板，所以當您按一下 [連線] 時，這就是您會得到的項目。 
+透過簡單的內容套件，當您選取 [連線]  時，Power BI 實際帶入的是該內容套件的複本，並將其儲存在雲端。 因為內容套件的建立者納入了資料集、報表及儀表板，所以當您按一下 [連線]  時，這就是您會得到的項目。 
 
-1. Power BI 會建立新的儀表板，並將其列在您的 [儀表板] 索引標籤中。會有黃色星號讓您知道這是新的。
+1. Power BI 會建立新的儀表板，並將其列在您的 [儀表板]  索引標籤中。會有黃色星號讓您知道這是新的。
    
    ![成功訊息](media/sample-tutorial-connect-to-the-samples/power-bi-new-dashboard.png)
-2. 開啟 [報表] 索引標籤。您會在這裡看到名為「零售分析範例」的報表。
+2. 開啟 [報表]  索引標籤。您會在這裡看到名為「零售分析範例」  的報表。
    
    ![[零售分析範例] 周圍的紅色方塊和黃色星星](media/sample-tutorial-connect-to-the-samples/power-bi-new-report.png)
    
-   接著查看 [資料集] 索引標籤。其中也會有新的資料集。
+   接著查看 [資料集]  索引標籤。其中也會有新的資料集。
    
    ![[零售分析範例] 周圍的紅色方塊](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
 
@@ -67,7 +67,7 @@ ms.locfileid: "65625065"
 > 
 > 
 
-1. 瀏覽回您的 [儀表板] 索引標籤，然後選取 [零售分析範例] 儀表板加以開啟。    
+1. 瀏覽回您的 [儀表板]  索引標籤，然後選取 [零售分析範例]  儀表板加以開啟。    
    
    ![已選取儀表板索引標籤](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards.png)
 2. 儀表板隨即開啟。  其中有多種視覺效果磚。
@@ -81,14 +81,14 @@ ms.locfileid: "65625065"
    > 如果磚是使用 [Power BI 問與答](power-bi-tutorial-q-and-a.md)所建立，會改為開啟問與答頁面。 如果該磚是[釘選自 Excel](service-dashboard-pin-tile-from-excel.md)，則 Excel Online 將會在 Power BI 中開啟。
    > 
    > 
-1. 返回您的 [資料集] 索引標籤，您有多種選項可以探索資料集。  您無法加以開啟及查看所有資料行和資料列 (如同您在 Power BI Desktop 或 Excel 中)。  當有人與同事共用內容套件時，他們通常會想共用深入資訊，而不會把資料的直接存取權提供給同事。 但這不表示您無法探索資料集。  
+1. 返回您的 [資料集]  索引標籤，您有多種選項可以探索資料集。  您無法加以開啟及查看所有資料行和資料列 (如同您在 Power BI Desktop 或 Excel 中)。  當有人與同事共用內容套件時，他們通常會想共用深入資訊，而不會把資料的直接存取權提供給同事。 但這不表示您無法探索資料集。  
    
    ![[資料集] 索引標籤](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon2.png)
    
    * 其中一個探索資料集的方式，是從頭建立您自己的視覺效果及報表。  選取圖表圖示 ![報表圖示](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) 以報表編輯模式開啟資料集。
      
        ![全新報表](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * 另一個探索資料集的方法是執行[深入資訊摘要](consumer/end-user-insights.md)。 選取省略符號 (...) 並選擇 [取得深入資訊]。 當深入資訊就緒時，請選取 [檢視深入資訊]。
+   * 另一個探索資料集的方法是執行[深入資訊摘要](consumer/end-user-insights.md)。 選取省略符號 (...) 並選擇 [取得深入資訊]  。 當深入資訊就緒時，請選取 [檢視深入資訊]  。
      
        ![見解報表](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 

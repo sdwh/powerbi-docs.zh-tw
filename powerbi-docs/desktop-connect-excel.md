@@ -12,33 +12,33 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fb282ed4b2851bfbdf520d18b29d03af88e6eb03
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513673"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>在 Power BI Desktop 中連接至 Excel
 從 Power BI Desktop 連接至 Excel 活頁簿很容易，本文將逐步引導您執行這些步驟。
 
-在 Power BI Desktop 中，從 [主資料夾]  功能區選取 [取得資料] > [Excel]。
+在 Power BI Desktop 中，從 [主資料夾]  功能區選取 [取得資料] > [Excel]  。
 
 ![](media/desktop-connect-excel/connect_to_excel_1.png)
 
-從出現的 [開啟] 對話方塊中選取您的活頁簿。
+從出現的 [開啟]  對話方塊中選取您的活頁簿。
 ![](media/desktop-connect-excel/connect_to_excel_2.png)
 
-Power BI Desktop 會顯示 [導覽] 視窗中活頁簿其他資料元素上的資料表。 當您在左窗格中選取資料表時，資料的預覽會出現在右窗格中。
+Power BI Desktop 會顯示 [導覽]  視窗中活頁簿其他資料元素上的資料表。 當您在左窗格中選取資料表時，資料的預覽會出現在右窗格中。
 
 ![](media/desktop-connect-excel/connect_to_excel_3.png)
 
-您可以選取 [載入] 按鈕以匯入資料，或著如果您想要在將其送回 Power BI Desktop 之前使用 [查詢編輯器] 編輯資料，請選取 [編輯] 按鈕。
+您可以選取 [載入] 按鈕以匯入資料，或著如果您想要在將其送回 Power BI Desktop 之前使用 [查詢編輯器]  編輯資料，請選取 [編輯]  按鈕。
 
-當您載入資料時，Power BI Desktop 會顯示 [載入] 視窗，並顯示與載入資料相關聯的活動。  
+當您載入資料時，Power BI Desktop 會顯示 [載入]  視窗，並顯示與載入資料相關聯的活動。  
 
 ![](media/desktop-connect-excel/connect_to_excel_4.png)
 
-完成時，Power BI Desktop 會顯示 [欄位] 窗格中從 Excel 活頁簿匯入的資料表和欄位，就在桌面的右側。
+完成時，Power BI Desktop 會顯示 [欄位]  窗格中從 Excel 活頁簿匯入的資料表和欄位，就在桌面的右側。
 
 ![](media/desktop-connect-excel/connect_to_excel_5.png)
 

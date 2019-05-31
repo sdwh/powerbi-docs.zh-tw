@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
 ms.openlocfilehash: 433bfc6298632eb9b999a23fe4b54417add507a3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278669"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61339242"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>在 Power BI 行動應用程式中建立及檢視我的最愛項目
 適用於︰
@@ -35,7 +35,7 @@ ms.locfileid: "54278669"
 您可以在 Power BI 報表伺服器或 Reporting Services 入口網站中，將 KPI 和報表標示為 [我的最愛]，然後在方便的行動裝置資料夾中，檢視它們和 Power BI 的 [我的最愛] 儀表板。
 
 ## <a name="view-your-power-bi-favorites"></a>檢視您的 Power BI 我的最愛項目
-* 點選頂端瀏覽功能表 ![瀏覽功能表圖示](./media/mobile-apps-favorites/power-bi-iphone-global-nav-button.png)，然後點選 [我的最愛]。
+* 點選頂端瀏覽功能表 ![瀏覽功能表圖示](./media/mobile-apps-favorites/power-bi-iphone-global-nav-button.png)，然後點選 [我的最愛]  。
   
   ![瀏覽中的我的最愛](./media/mobile-apps-favorites/power-bi-ipad-faves-pbi-report-server.png)
   
@@ -44,7 +44,7 @@ ms.locfileid: "54278669"
   ![我的最愛頁面](./media/mobile-apps-favorites/power-bi-ipad-favorites.png)
 
 ## <a name="make-an-app-a-favorite"></a>將應用程式設為我的最愛
-1. 在行動應用程式的應用程式清單中，點選應用程式旁邊的省略符號 (...) > [我的最愛]。
+1. 在行動應用程式的應用程式清單中，點選應用程式旁邊的省略符號 (...) > [我的最愛]  。
    
     ![應用程式的我的最愛功能表](./media/mobile-apps-favorites/power-bi-android-favorite-app-ellipsis.png)
    
@@ -65,7 +65,7 @@ ms.locfileid: "54278669"
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>在 Android 行動應用程式中將儀表板或報表設為我的最愛
 您可以從儀表板或報表清單，或是從儀表板或報表本身，將儀表板或報表設為我的最愛。
 
-* 在行動應用程式的儀表板或報表清單中，點選名稱旁邊的垂直省略符號 (...)，然後點選 [我的最愛]。 您會在名稱旁看到黃色星號 ![[我的最愛] 圖示](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)。
+* 在行動應用程式的儀表板或報表清單中，點選名稱旁邊的垂直省略符號 (...)，然後點選 [我的最愛]  。 您會在名稱旁看到黃色星號 ![[我的最愛] 圖示](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)。
   
     ![Android 的 [我的最愛] 功能表](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 * 在儀表板或報表上，點選功能區中的空心星號 ![[不是我的最愛] 圖示](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 星號會變成暗灰色 ![[我的最愛] 圖示](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).

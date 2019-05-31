@@ -12,11 +12,11 @@ ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289616"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61067592"
 ---
 # <a name="funnel-charts"></a>漏斗圖
 漏斗圖幫您將有循序連接階段的線性程序視覺化。 例如，會分階段追蹤客戶的銷售漏斗圖：潛在客戶 (Lead) \> 合格的潛在客戶 (Lead) \> 潛在客戶 (Prospect) \> 合約 \> 關閉。  漏斗圖的圖形一看就能表達出您追蹤中程序的健全狀況。
@@ -55,11 +55,11 @@ ms.locfileid: "54289616"
 
 這些指示會使用商機分析範例。 若要跟著做，請針對 Power BI 服務 (app.powerbi.com) 或 Power BI Desktop [下載範例](../sample-datasets.md)。   
 
-1. 從空白報告頁面開始，選取 [SalesStage] \> [銷售階段] 欄位。 如果您使用 Power BI 服務，請務必在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報告。
+1. 從空白報告頁面開始，選取 [SalesStage]  \> [銷售階段]  欄位。 如果您使用 Power BI 服務，請務必在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報告。
    
     ![選取 [銷售階段]](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [將圖表轉換](power-bi-report-change-visualization-type.md)成漏斗圖。 請注意，[銷售階段]  良好地位於 [群組]  井中。 
-3. 從 [欄位] 窗格，選取 [事實] \> [商機計數]。
+3. 從 [欄位]  窗格，選取 [事實]  \> [商機計數]  。
    
     ![建立漏斗圖](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. 暫留在列上會顯示豐富的資訊。
@@ -78,7 +78,7 @@ ms.locfileid: "54289616"
 
 在漏斗圖中反白顯示列，會篩選報表頁面上的其他視覺效果，反之亦然。 如果要跟著做，請將其他一些視覺效果加入包含漏斗圖的報表頁面中。
 
-1. 在漏斗圖中選取 [提案] 列。 這會交叉醒目提示頁面上的其他視覺效果。 使用 CTRL 進行多重選取。
+1. 在漏斗圖中選取 [提案]  列。 這會交叉醒目提示頁面上的其他視覺效果。 使用 CTRL 進行多重選取。
    
    ![顯示視覺效果互動的短片](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
 2. 若要設定視覺效果互相交叉醒目提示及交叉篩選之方式的喜好設定，請參閱[在 Power BI 中與視覺效果互動](../service-reports-visual-interactions.md)

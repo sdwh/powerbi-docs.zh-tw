@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 5b6bbf7a203d8e87d129b6336be4f4531ae34107
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454495"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop 中的資料分類
@@ -33,7 +33,7 @@ Power BI Desktop 應該將 GeoCode 資料行中的代碼視為國家/地區或�
 **指定資料類別**
 
 1. 在 [報表檢視] 或 [資料檢視] 的 [欄位]  清單中，選取您要依不同分類排序的欄位。
-2. 在功能區的 [模型化] 索引標籤中，按一下 [資料類別] 下拉式清單。  這會顯示您可以為資料行選擇的所有可能資料類別清單。  如果某些選項不適用於資料行的目前資料類型，則可能會停用這些選項。  例如，如果資料行是二進位資料類型，Power BI Desktop 將無法讓您選擇地理資料類別。 
+2. 在功能區的 [模型化]  索引標籤中，按一下 [資料類別]  下拉式清單。  這會顯示您可以為資料行選擇的所有可能資料類別清單。  如果某些選項不適用於資料行的目前資料類型，則可能會停用這些選項。  例如，如果資料行是二進位資料類型，Power BI Desktop 將無法讓您選擇地理資料類別。 
 
 ![](media/desktop-data-categorization/datacategorization.gif)
 

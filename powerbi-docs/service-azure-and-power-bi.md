@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 9d48054e4b41c097d51522ad7596b750bd067e6d
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513347"
 ---
 # <a name="azure-and-power-bi"></a>Azure 和 Power BI
@@ -35,7 +35,7 @@ Power BI 具有各種可用的 Azure 連接，而且您可以使用這些服務�
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>轉換、塑造和合併雲端資料
 
-您是否有多個複雜資料和各種來源？ 沒問題。 使用 **Power BI Desktop** 和 Azure 服務時，只要點選 [取得資料] 對話方塊就能連接。 在相同的查詢內，您可以連接到 **Azure SQL Database**、**Azure HDInsight** 資料來源和 **Azure Blob 儲存體** (或 **Azure 資料表儲存體**)，然後在其中只選取您需要的每個子集，並從該處精簡。
+您是否有多個複雜資料和各種來源？ 沒問題。 使用 **Power BI Desktop** 和 Azure 服務時，只要點選 [取得資料]  對話方塊就能連接。 在相同的查詢內，您可以連接到 **Azure SQL Database**、**Azure HDInsight** 資料來源和 **Azure Blob 儲存體** (或 **Azure 資料表儲存體**)，然後在其中只選取您需要的每個子集，並從該處精簡。
 
 您也可以為不同的觀眾建立不同的報表，方法是使用相同的資料連接，甚至是相同的查詢。 只要建置新的報表頁面、為每個觀眾調整視覺效果，然後就能看它如何使企業掌握狀況。
 

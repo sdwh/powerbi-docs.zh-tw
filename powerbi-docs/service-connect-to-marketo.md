@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223781"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61172720"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>使用 Power BI 連接到 Marketo
 適用於 Marketo 的 Power BI 內容套件，可讓您深入了解您的 Marketo 帳戶有關潛在客戶和其活動的資料。建立此連接時可擷取您的資料，並自動依據該資料提供儀表板和相關報表。
@@ -26,10 +26,10 @@ ms.locfileid: "56223781"
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-marketo/pbi_getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-marketo/pbi_getservices.png) 
-3. 選取 [Marketo] \>[取得]。
+3. 選取 [Marketo]  \>[取得]  。
    
    ![](media/service-connect-to-marketo/marketo.png)
 4. 輸入 Marketo 或您 Marketo 系統管理員提供給您的 Marketo REST 端點，然後選取 [下一步]。
@@ -41,7 +41,7 @@ ms.locfileid: "56223781"
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    
-   這可讓「Power BI 的 Marketo」內容套件存取 [Marketo 分析](https://powerbi.microsoft.com/integrations/marketo)資料，並可讓您分析 Power BI 中的資料。 資料會每天重新整理一次。
+   這可讓「Power BI 的 Marketo」  內容套件存取 [Marketo 分析](https://powerbi.microsoft.com/integrations/marketo)資料，並可讓您分析 Power BI 中的資料。 資料會每天重新整理一次。
 6. 一旦連接到 Marketo 帳戶，會載入儀表板與您的所有資料：
    
    ![](media/service-connect-to-marketo/pbi_marketodash.png)
@@ -51,7 +51,7 @@ ms.locfileid: "56223781"
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="whats-included"></a>包含的內容
 下列資料可在 Power BI 從 Marketo 活動取得，其中的活動發生時間介於今天與一年前之間：

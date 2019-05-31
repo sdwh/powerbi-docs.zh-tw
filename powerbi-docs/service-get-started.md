@@ -12,11 +12,11 @@ ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147488"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61237992"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>教學課程：開始使用 Power BI 服務 (app.powerbi.com)
 本教學課程可協助您開始使用 Power BI 服務。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，強烈建議您先參閱[什麼是 Power BI](power-bi-overview.md)。
@@ -63,19 +63,19 @@ Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Powe
 本例從 CSV 檔案取得資料。 想遵循本教學課程嗎？ [下載此範例 CSV 檔案](http://go.microsoft.com/fwlink/?LinkID=521962).
 
 1. [登入 Power BI](http://www.powerbi.com/)。 沒有帳戶嗎？ 別擔心，您可以註冊免費試用。
-2. Power BI 會在您的瀏覽器中開啟。 選取左導覽列底部的 [取得資料] 。
+2. Power BI 會在您的瀏覽器中開啟。 選取左導覽列底部的 [取得資料]  。
    
    ![取得資料](media/service-get-started/getdata3.png)
-3. 選取 [檔案] 。 
+3. 選取 [檔案]  。 
    
    ![取得檔案](media/service-get-started/gs1.png)
-4. 瀏覽至電腦上的檔案，然後選擇 [開啟]。 如果您在商務用 OneDrive 中儲存它，請選取該選項。 如果您在本機儲存它，請選取 [本機檔案]。 
+4. 瀏覽至電腦上的檔案，然後選擇 [開啟]  。 如果您在商務用 OneDrive 中儲存它，請選取該選項。 如果您在本機儲存它，請選取 [本機檔案]  。 
    
    ![[取得資料] > [檔案] 畫面](media/service-get-started/gs2.png)
-5. 在本教學課程中，我們會選取 [匯入] 以將 Excel 檔案新增為資料集，接著使用該資料集建立報表和儀表板。 如果您選取 [上傳]，整個 Excel 活頁簿會上傳至 Power BI，在其中，您可以在 Excel Online 中進行開啟和編輯。
+5. 在本教學課程中，我們會選取 [匯入]  以將 Excel 檔案新增為資料集，接著使用該資料集建立報表和儀表板。 如果您選取 [上傳]  ，整個 Excel 活頁簿會上傳至 Power BI，在其中，您可以在 Excel Online 中進行開啟和編輯。
    
    ![選擇 [匯入]](media/service-get-started/power-bi-import.png)
-6. 您的資料集就緒時，請選取 [檢視資料集] 以在報表編輯器中進行開啟。 
+6. 您的資料集就緒時，請選取 [檢視資料集]  以在報表編輯器中進行開啟。 
 
     ![[您的資料集已就緒] 對話方塊](media/service-get-started/power-bi-gs.png)
 
@@ -83,11 +83,11 @@ Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Powe
 
     ![空白報表畫布](media/service-get-started/power-bi-report-editor.png)
 
-6. 看看頂端功能表列，並請注意，有 [閱讀檢視] 的選項。 由於您有 [閱讀檢視] 的選項，這表示您目前處於**編輯檢視**中。 
+6. 看看頂端功能表列，並請注意，有 [閱讀檢視]  的選項。 由於您有 [閱讀檢視] 的選項，這表示您目前處於**編輯檢視**中。 
 
     ![[閱讀檢視] 選項](media/service-get-started/power-bi-editing-view.png)
 
-    因為您是報表的「擁有者」、「建立者」，所以在 [編輯檢視] 中，您可以建立和修改報表。 當您與同事共用您的報告時，他們只能夠在 [閱讀檢視] 中與報告互動；他們是「取用者」。 深入了解[閱讀檢視和編輯檢視](consumer/end-user-reading-view.md)。
+    因為您是報表的「擁有者」  、「建立者」  ，所以在 [編輯檢視] 中，您可以建立和修改報表。 當您與同事共用您的報告時，他們只能夠在 [閱讀檢視] 中與報告互動；他們是「取用者」  。 深入了解[閱讀檢視和編輯檢視](consumer/end-user-reading-view.md)。
     
     熟悉報表編輯器的一項好方法為[進行導覽](service-the-report-editor-take-a-tour.md)
    > 
@@ -96,19 +96,19 @@ Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Powe
 ## <a name="step-2-start-exploring-your-dataset"></a>步驟 2：開始探索資料集
 現在您已連線到資料，請開始進行探索。  當您發現感興趣的物件時，您可以建立儀表板來監視該物件，以及查看其變更情況。 讓我們來看看它的運作方式。
     
-1. 在報告編輯器中，我們會使用頁面右側的 [欄位] 窗格來建立視覺效果。  選取 [總銷售額] 旁的核取方塊，然後按一下 [日期]。
+1. 在報告編輯器中，我們會使用頁面右側的 [欄位]  窗格來建立視覺效果。  選取 [總銷售額]  旁的核取方塊，然後按一下 [日期]  。
    
    ![[欄位] 清單](media/service-get-started/fields.png)
 
-2. Power BI 會分析資料並建立視覺效果。  如果先選取 [日期]  就會看到資料表。  如果先選取 [總銷售額]  就會看到圖表。 切換不同的資料顯示方式。 讓我們以折線圖形式查看此資料。 從 [視覺效果] 窗格中選取折線圖圖示 (也稱為範本)。
+2. Power BI 會分析資料並建立視覺效果。  如果先選取 [日期]  就會看到資料表。  如果先選取 [總銷售額]  就會看到圖表。 切換不同的資料顯示方式。 讓我們以折線圖形式查看此資料。 從 [視覺效果]  窗格中選取折線圖圖示 (也稱為範本)。
    
    ![已選取圖示的報表編輯器](media/service-get-started/gettingstart5new.png)
 
-3. 這張圖表看起來很有趣，讓我們將它「釘選」到儀表板。 將滑鼠停留在視覺效果上，並選取 [釘選] 圖示。  釘選這個視覺效果時，它會儲存在儀表板上並保持最新狀態，讓您一眼就能追蹤最新的值。
+3. 這張圖表看起來很有趣，讓我們將它「釘選」  到儀表板。 將滑鼠停留在視覺效果上，並選取 [釘選]  圖示。  釘選這個視覺效果時，它會儲存在儀表板上並保持最新狀態，讓您一眼就能追蹤最新的值。
    
    ![釘選圖示](media/service-get-started/pinnew.png)
 
-4. 因為這是一份新報表，系統會提示您先儲存該報表，才可將視覺效果釘選到儀表板。 為報表命名 (例如「銷售歷史數據」) 並選取 [儲存並繼續]。 
+4. 因為這是一份新報表，系統會提示您先儲存該報表，才可將視覺效果釘選到儀表板。 為報表命名 (例如「銷售歷史數據」  ) 並選取 [儲存並繼續]  。 
    
    ![儲存報表對話方塊](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
@@ -116,17 +116,17 @@ Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Powe
    
    ![為報表命名](media/service-get-started/power-bi-pin.png)
    
-1. 選取 [釘選] 。
+1. 選取 [釘選]  。
    
     靠近右上角的成功訊息可讓您知道，視覺效果已新增至儀表板，成為儀表板上的磚。
    
     ![[已釘選到儀表板] 對話方塊](media/service-get-started/power-bi-pin-success.png)
 
-6. 選取 [移至儀表板] 將釘選的折線圖視為全新儀表板的圖格。 藉由新增更多視覺效果圖格，以及[重新命名、調整大小、連結和調整圖格位置](service-dashboard-edit-tile.md)，讓您的儀表板更完善。
+6. 選取 [移至儀表板]  將釘選的折線圖視為全新儀表板的圖格。 藉由新增更多視覺效果圖格，以及[重新命名、調整大小、連結和調整圖格位置](service-dashboard-edit-tile.md)，讓您的儀表板更完善。
    
    ![已釘選視覺效果的儀表板](media/service-get-started/power-bi-new-dashboard.png)
    
-   選取儀表板上新的磚，即可隨時返回報表。 Power BI 會讓您回到 [閱讀檢視] 中的報告編輯器。 若要切換回 [編輯檢視]，請選取頂端功能表列中的 [編輯報告]。 一旦在 [編輯檢視] 中，請繼續瀏覽及釘選圖格。 
+   選取儀表板上新的磚，即可隨時返回報表。 Power BI 會讓您回到 [閱讀檢視] 中的報告編輯器。 若要切換回 [編輯檢視]，請選取頂端功能表列中的 [編輯報告]  。 一旦在 [編輯檢視] 中，請繼續瀏覽及釘選圖格。 
 
 ## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>步驟 3：使用 [問與答] 繼續探索 (自然語言查詢)
 1. 如要快速瀏覽資料，請試著在問與答方塊中提問。 [問與答] 問題方塊位於儀表板頂端 (**詢問一個與資料相關的問題**) 以及報告的頂端功能表列中 (**詢問問題**)。 例如，試試看輸入「營收最高的部門」。
@@ -145,9 +145,9 @@ Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Powe
 ## <a name="clean-up-resources"></a>清除資源
 既然您已經完成本教學課程，就可以刪除資料集、報表和儀表板。 
 
-1. 在左側導覽列中，選取 [我的工作區]。
-2. 選取 [資料集] 索引標籤，並找到您針對本教學課程匯入的資料集。  
-3. 選取省略符號 (...) > [刪除]。
+1. 在左側導覽列中，選取 [我的工作區]  。
+2. 選取 [資料集]  索引標籤，並找到您針對本教學課程匯入的資料集。  
+3. 選取省略符號 (...) > [刪除]  。
 
     ![刪除資料集](media/service-get-started/power-bi-delete.jpg)
 

@@ -11,11 +11,11 @@ ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 605cd2f135ff6d8626586abbd503bcb44687931d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008595"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61156892"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>使用 Power BI 連接到 Zuora
 Zuora for Power BI 可讓您以視覺化方式顯示重要的營收、帳單與訂閱資料。 使用預設儀表板與報表來分析使用狀況趨勢、追蹤帳單與付款，以及監視週期性營收，或根據您自己的獨特儀表板與報告需求進行自訂。
@@ -26,10 +26,10 @@ Zuora for Power BI 可讓您以視覺化方式顯示重要的營收、帳單與�
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
 
    ![](media/service-connect-to-zuora/getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
 
    ![](media/service-connect-to-zuora/services.png)
-3. 選取 [Zuora] \> [取得]。
+3. 選取 [Zuora]  \> [取得]  。
 
    ![](media/service-connect-to-zuora/zuora.png)
 4. 指定您的 Zuora URL。 URL 一般是 "<https://www.zuora.com>"，請參閱以下[尋找這些參數](#FindingParams)，以了解詳細資料。
@@ -47,7 +47,7 @@ Zuora for Power BI 可讓您以視覺化方式顯示重要的營收、帳單與�
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="whats-included"></a>包含的內容
 此內容套件使用 Zuora AQUA API 來提取下列資料表︰

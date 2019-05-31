@@ -1,20 +1,20 @@
 ---
 title: Power BI 報表伺服器中的資料列層級安全性 (RLS)
 description: 了解如何使用 Power BI 報表伺服器中的資料列層級安全性 (RLS)
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
-ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
-ms.translationtype: HT
+ms.openlocfilehash: b4a5d11697cff2cae8d137916636907967a7c276
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58489560"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769817"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI 報表伺服器中的資料列層級安全性 (RLS)
 
@@ -28,7 +28,7 @@ ms.locfileid: "58489560"
 
 根據預設，不論關聯性設定為單向或雙向，資料列層級安全性篩選都會使用單向篩選。 您可以手動啟用資料列層級安全性的雙向交叉篩選。
 
-- 選取關聯性，並選取 [雙向套用安全性篩選] 核取方塊。 
+- 選取關聯性，並選取 [雙向套用安全性篩選]  核取方塊。 
 
     ![套用安全性篩選](media/row-level-security-report-server/rls-apply-security-filter.png)
 
@@ -46,15 +46,15 @@ ms.locfileid: "58489560"
  如果報表沒有所需角色，您必須在 Power BI Desktop 中將其開啟，新增或修改角色，然後將其儲存回 Power BI 報表伺服器。 
 
 1. 請在 Power BI Desktop 中，將報表儲存到 Power BI 報表伺服器。 您必須使用針對 Power BI 報表伺服器最佳化的 Power BI Desktop 版本。
-2. 在 Power BI 報表服務中，選取報表旁邊的省略符號 (**…**)。 
+2. 在 Power BI 報表服務中，選取報表旁邊的省略符號 ( **…** )。 
 
-3. 選取 [管理] > [資料列層級安全性]。 
+3. 選取 [管理]   > [資料列層級安全性]  。 
 
      ![管理資料列層級安全性](media/row-level-security-report-server/power-bi-report-server-rls-dialog.png)
 
-    在 [資料列層級安全性] 頁面上，將成員新增到您在 Power BI Desktop 中建立的角色。
+    在 [資料列層級安全性]  頁面上，將成員新增到您在 Power BI Desktop 中建立的角色。
 
-5. 若要新增成員，請選取 [新增成員]。
+5. 若要新增成員，請選取 [新增成員]  。
 
 1. 以使用者名稱格式 (網域\使用者) 在文字方塊中輸入使用者或群組，並選取您要指派給他們的角色。 這個成員必須在您組織中。   
 
@@ -62,9 +62,9 @@ ms.locfileid: "58489560"
 
     您也可以在這裡輸入使用者主體名稱，視您設定 Active Directory 的方式而定。 在此情況下，報表伺服器會在清單中顯示相對應的使用者名稱。
 
-1. 按一下 [確定] 以套用。   
+1. 按一下 [確定]  以套用。   
 
-8. 若要移除成員，請選取其名稱旁邊的方塊，並選取 [刪除]。  您可以同時刪除多名成員。 
+8. 若要移除成員，請選取其名稱旁邊的方塊，並選取 [刪除]  。  您可以同時刪除多名成員。 
 
     ![刪除成員](media/row-level-security-report-server/power-bi-report-server-delete-members.png)
 
@@ -106,7 +106,7 @@ ms.locfileid: "58489560"
 
 ### <a name="can-i-use-rls-to-limit-the-columns-or-measures-accessible-by-my-users"></a>我可以使用 RLS 來限制使用者能夠存取的資料行或量值嗎？ 
 
-否。  如果使用者具有特定資料列的存取權，就可以查看該資料列的所有資料行。 
+否。 如果使用者具有特定資料列的存取權，就可以查看該資料列的所有資料行。 
 
 ### <a name="does-rls-let-me-hide-detailed-data-but-give-access-to-data-summarized-in-visuals"></a>RLS 是否可讓我隱藏詳細資料，但允許存取以視覺效果摘要的資料？ 
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: f2921ac581416d519e224f10de53a24db442b969
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
-ms.translationtype: HT
+ms.openlocfilehash: 63de805b357fd5b4d15aeea2231dc952ec9e7077
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965251"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181920"
 ---
 # <a name="cognitive-services-in-power-bi-preview"></a>Power BI 中的認知服務 (預覽)
 
@@ -35,7 +35,7 @@ ms.locfileid: "57965251"
 
 ![編輯資料流程](media/service-cognitive-services/cognitive-services_02.png)
 
-選取 Power Query 編輯器上方功能區中的 [AI 見解] 按鈕。
+選取 Power Query 編輯器上方功能區中的 [AI 見解]  按鈕。
 
 ![Power Query 編輯器中的 AI 見解](media/service-cognitive-services/cognitive-services_03.png)
 
@@ -43,7 +43,7 @@ ms.locfileid: "57965251"
 
 ![選取函式](media/service-cognitive-services/cognitive-services_04.png)
 
-**Cultureinfo** 是選擇性的輸入，可指定文字的語言。 此欄位應為 ISO 代碼。 您可以使用資料行作為 Cultureinfo 的輸入，或靜態欄位。 在此範例中，整個資料行的語言指定為英文 (en)。 如果您將此欄位留空，Power BI 會先自動偵測語言，然後再套用函式。 接著，選取 [叫用]。
+**Cultureinfo** 是選擇性的輸入，可指定文字的語言。 此欄位應為 ISO 代碼。 您可以使用資料行作為 Cultureinfo 的輸入，或靜態欄位。 在此範例中，整個資料行的語言指定為英文 (en)。 如果您將此欄位留空，Power BI 會先自動偵測語言，然後再套用函式。 接著，選取 [叫用]  。
 
 ![選取叫用](media/service-cognitive-services/cognitive-services_05.png)
 
@@ -69,7 +69,7 @@ ms.locfileid: "57965251"
 
 ### <a name="extract-key-phrases"></a>**擷取關鍵片語**
 
-**關鍵片語擷取**函式會評估非結構化的文字，並針對每個文字欄位，傳回關鍵片語的清單。 此函式需要文字欄位作為輸入，並接受選擇性的輸入作為 **Cultureinfo**  (請參閱此文章稍早的**開始使用**一節)。
+**關鍵片語擷取**函式會評估非結構化的文字，並針對每個文字欄位，傳回關鍵片語的清單。 此函式需要文字欄位作為輸入，並接受選擇性的輸入作為 **Cultureinfo** (請參閱此文章稍早的**開始使用**一節)。
 
 關鍵片語擷取在您為其提供更大的文字區塊來處理時，其效果最佳。 這與情感分析相反，後者在較小的文字區塊效果更佳。 若要從這兩項作業獲得最佳結果，請考慮據此重新建構輸入。
 
@@ -102,7 +102,7 @@ ms.locfileid: "57965251"
 
 如需有關資料流程的詳細資訊，您可以閱讀下列文章：
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [在 Power BI Premium 中使用計算實體 (預覽)](service-dataflows-computed-entities-premium.md)
-* [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
-* [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
+* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
+* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 * [資料流程與 Azure Data Lake 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)

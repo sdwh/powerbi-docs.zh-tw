@@ -11,11 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: d9b171052bd095afc918a312ecbadba89a2471cd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283567"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187155"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>針對 Power BI 和 Azure 使用相同的帳戶
 如果您同時是 Power BI 和 Azure 的使用者，您可能想要針對這兩項服務使用相同的登入，如此一來您便不需要輸入兩次密碼。
@@ -29,7 +29,7 @@ Power BI 使用與您的公司或學校電子郵件地址相關聯的組織帳�
 您可以加入組織帳戶做為 Azure 中的共同管理員。  其做法如下：
 
 1. 登入 [Azure 管理入口網站](http://manage.windowsazure.com/)。 如果您是多個 Azure 目錄中的使用者，請按一下 [訂用帳戶]  ，然後透過篩選方式只檢視您想要編輯的目錄和訂用帳戶。
-2. 在瀏覽窗格中，依序按一下 [設定] 、[管理員] 及 [加入] 。
+2. 在瀏覽窗格中，依序按一下 [設定]  、[管理員]  及 [加入]  。
 3. 輸入與您的組織帳戶相關聯的電子郵件地址。
 4. 選取您要使用組織帳戶存取的訂用帳戶，然後按一下核取記號。
 

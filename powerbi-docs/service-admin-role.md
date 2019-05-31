@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2de78497698af3ee00ce77ef9c389169ef460546
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: aad02103903837afbb7bbce48ab9607b5dbf62c3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58382797"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65099628"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>了解 Power BI 服務管理員角色
 
@@ -39,31 +39,36 @@ Power BI 服務管理員角色不提供下列功能：
 
 若要在 Microsoft 365 系統管理中心內將使用者指派為 Power BI 管理員角色，請遵偱下列步驟。
 
-1. 在 Microsoft 365 系統管理中心內，選取 [使用者] > [作用中使用者]。
+1. 在  [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)，選取**使用者** > **作用中使用者**。
 
     ![MIcrosoft 365 系統管理中心](media/service-admin-role/powerbi-admin-users.png)
 
 1. 選取您想要指派角色的使用者。
 
-1. 在 [角色] 底下，選取 [編輯]。
+1. 在 [角色]  底下，選取 [編輯]  。
 
     ![編輯角色](media/service-admin-role/powerbi-admin-edit-roles.png)
 
-1. 選取 [自訂的系統管理員] > [Power BI 服務管理員]。
+1. 選取 [自訂的系統管理員]   > [Power BI 服務管理員]  。
 
     ![Power BI 服務系統管理員](media/service-admin-role/powerbi-admin-role.png)
 
-1. 選取 [儲存]，然後 [關閉]。
+1. 選取 [儲存]  ，然後 [關閉]  。
 
-您應該會看到該使用者的角色列出 [Power BI service administrator]\(Power BI 服務管理員)。
+您應該會看到該使用者的角色列出 [Power BI service administrator]\(Power BI 服務管理員)  。
 
 ![角色](media/service-admin-role/powerbi-admin-role-set.png)
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>使用 PowerShell 將使用者指派為系統管理員角色
 
-您也可以使用 PowerShell 來為使用者指派角色。 使用者是在 Azure Active Directory (Azure AD) 中管理。 如果您還沒有 Azure AD PowerShell 模組，[請下載並安裝最新版](https://www.powershellgallery.com/packages/AzureAD/)。
+您也可以使用 PowerShell 來為使用者指派角色。 Azure Active Directory (Azure AD) 中管理的使用者。 如果您還沒有 Azure AD PowerShell 模組，[請下載並安裝最新版](https://www.powershellgallery.com/packages/AzureAD/)。
 
-1. 首先，取得 **Power BI 服務管理員** 角色的 **ObjectId**。 您可以執行 [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) 以取得 **ObjectId**
+1. 首先，連接到 Azure AD:
+   ```
+   PS C:\Windows\system32> Connect-AzureAD
+   ```
+
+1. 第二，取得**ObjectId** for **Power BI 服務管理員**角色。 您可以執行 [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) 以取得 **ObjectId**
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole
@@ -85,7 +90,7 @@ Power BI 服務管理員角色不提供下列功能：
 1. 接下來，取得使用者的 **ObjectId**。 您可以藉由執行 [Get-AzureADUser](/powershell/module/azuread/get-azureaduser) 來查明。
 
     ```
-    PS C:\Windows\system32> Get-AzureADUser -SearchString 'tim@contoso.com'
+    PS C:\Windows\system32> Get-AzureADUser -ObjectId 'tim@contoso.com'
 
     ObjectId                             DisplayName UserPrincipalName      UserType
     --------                             ----------- -----------------      --------

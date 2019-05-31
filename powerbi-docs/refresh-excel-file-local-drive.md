@@ -1,21 +1,21 @@
 ---
 title: 重新整理建立自 Excel 活頁簿的資料集 - 本機
 description: 重新整理建立自本機磁碟上 Excel 活頁簿的資料集
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 10b6935b66685762bab5c4d06dd6d83f9cdb8959
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: a71631c0ac8e45c7e268eb11a0539fa8305dfcd7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275678"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61414701"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>重新整理建立自本機磁碟上 Excel 活頁簿的資料集
 ## <a name="whats-supported"></a>支援的項目有哪些？
@@ -47,13 +47,13 @@ ms.locfileid: "54275678"
 > 
 > 
 
-在 [導覽] 中，按一下 [載入至...]。  
+在 [導覽]  中，按一下 [載入至...]  。  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
-或者，如果您在 [導覽] 中按一下 [編輯]  ，您就會開啟 [查詢編輯器]。 其中您可以按一下 [關閉並載入至...]。  
+或者，如果您在 [導覽] 中按一下 [編輯]  ，您就會開啟 [查詢編輯器]。 其中您可以按一下 [關閉並載入至...]  。  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
-接著請確定在 [載入至] 中已選取 [將此資料加入資料模型] 。  
+接著請確定在 [載入至]  中已選取 [將此資料加入資料模型]  。  
     ![](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>如果在 Power Pivot 中使用 [取得外部資料]？
@@ -67,7 +67,7 @@ ms.locfileid: "54275678"
 ## <a name="when-things-go-wrong"></a>發生錯誤時
 如果發生錯誤，問題通常起因於 Power BI 無法登入資料來源，或資料集連接至內部部署資料來源時，閘道器離線。 請確認 Power BI 可以登入資料來源。 如果您用以登入資料來源的密碼已變更，或 Power BI 從資料來源登出，請務必嘗試在 [資料來源認證] 中再次登入您的資料來源。
 
-請務必核取 [傳送重新整理失敗通知電子郵件給我] 。 您會想要立刻知道排定的重新整理是否失敗。
+請務必核取 [傳送重新整理失敗通知電子郵件給我]  。 您會想要立刻知道排定的重新整理是否失敗。
 
 >[!IMPORTANT]
 >不支援重新整理連接至 Power Pivot 並從中查詢的 OData 摘要。 當使用 OData 摘要作為資料來源時，請使用 Power Query。

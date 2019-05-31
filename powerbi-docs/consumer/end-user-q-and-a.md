@@ -1,5 +1,5 @@
 ---
-title: Power BI 服務中問與答的概觀
+title: Power BI 取用者為 q&a
 description: Power BI 問與答自然語言查詢的文件概觀主題。
 author: mihart
 manager: kvivek
@@ -8,19 +8,20 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/01/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: e6f95eedbd84ad5f512bbc1a1255cee7130a60d7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 35ff71d5956c1c48c304324c121f79addf04cb56
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661966"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65625125"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI **取用者**問與答
 ## <a name="what-is-qa"></a>問與答是什麼？
-有時若要從您的資料獲得解答，最快的方法是使用自然語言詢問問題。 例如，「去年總銷售額是多少」。  
+有時若要從您的資料獲得解答，最快的方法是使用自然語言詢問問題。 例如，「去年總銷售額是多少」。
+
 使用問與答來探索資料，可使用直覺式的自然語言功能，並以圖表和圖形形式接收回應。 問與答不同於搜尋引擎 -- 問與答只會提供有關 Power BI 中資料的結果。
 
 **Power BI 問與答**只可回答以英文詢問之自然語言查詢。 您可以透過 Power BI 系統管理員啟用西班牙文預覽。
@@ -35,7 +36,7 @@ ms.locfileid: "56661966"
 這種體驗真正充滿互動...而且快速！ 採用記憶體內部儲存體的回應幾乎可瞬間完成。
 
 ## <a name="where-can-i-use-qa"></a>我可以在哪裡使用問與答？
-您可以在 Power BI 服務中的儀表板上找到問與答，位於 Power BI 行動版儀表板底部，以及 Power BI Embedded 視覺效果的上方。 除非設計工具已授與您編輯權限，否則您將能夠使用問與答來探索資料，但無法儲存以問與答建立的任何視覺效果。
+您會發現問與答在儀表板和報表在 Power BI 服務中，並在 Power BI 的儀表板底部行動。 除非設計工具已授與您編輯權限，否則您將能夠使用問與答來探索資料，但無法儲存以問與答建立的任何視覺效果。
 
 ![問題方塊](media/end-user-q-and-a/powerbi-qna.png)
 
@@ -47,7 +48,7 @@ ms.locfileid: "56661966"
 
 ![問與答畫面](media/end-user-q-and-a/power-bi-qna-screen.png) 
 
-* 如果視覺效果的軸標籤和值包含「銷售」、「帳戶」、「月份」與「商機」，您就可以安心地提出問題，例如：「哪一個『帳戶』有最高的『商機』，或以橫條圖根據月份顯示『銷售』。」
+* 如果視覺效果的軸標籤和值包含「銷售」、「帳戶」、「月份」與「商機」，您就可以安心地提出問題，例如：「哪一個『帳戶』  有最高的『商機』  ，或以橫條圖根據月份顯示『銷售』  。」
 
 * 如果您在 Google Analytics 網站中擁有效能資料，您可以詢問問與答有關花在網頁的時間、特定網頁瀏覽次數和使用者參與率。 或者，如果您要查詢人口統計資料，您可能會想詢問各地區年齡和家庭收入的相關問題。
 
@@ -68,14 +69,14 @@ ms.locfileid: "56661966"
 **解答 1**：如果您找不到問題方塊，請先檢查您的設定。 請選取 Power BI 工具列右上角的齒輪圖示。   
 ![齒輪圖示](media/end-user-q-and-a/power-bi-settings.png)
 
-然後選擇 [設定] > [儀表板]。 請確定已勾選 [在此儀表板上顯示問與答搜尋方塊]。
+然後選擇 [設定]   > [儀表板]  。 請確定已勾選 [在此儀表板上顯示問與答搜尋方塊]  。    
 ![儀表板的問與答設定](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 
-**解答 2**：有時儀表板「設計者」或您的系統管理員會關閉問與答。 請與他們確認是否可以將其重新開啟。   
+**解答 2**：有時儀表板「設計者」  或您的系統管理員會關閉問與答。 請與他們確認是否可以將其重新開啟。   
 
 **問題**：當我輸入問題時無法取得我想看到的結果。    
-**解答**：請諮詢儀表板「設計者」。 為了改善問與答的結果，設計工具可能會進行很多作業。 比方說，設計工具可能會重新命名資料集中的資料行，來使用較容易了解的詞彙 (例如以 `CustomerFirstName` 取代 `CustFN`)。 由於設計工具十分了解資料集，因此設計工具也可以提出有幫助的問題，並將其新增至問與答畫布中。
+**解答**：請諮詢儀表板「設計者」  。 為了改善問與答的結果，設計工具可能會進行很多作業。 比方說，設計工具可能會重新命名資料集中的資料行，來使用較容易了解的詞彙 (例如以 `CustomerFirstName` 取代 `CustFN`)。 由於設計工具十分了解資料集，因此設計工具也可以提出有幫助的問題，並將其新增至問與答畫布中。
 
 ![精選問題概述](media/end-user-q-and-a/power-bi-featured-q.png)
 

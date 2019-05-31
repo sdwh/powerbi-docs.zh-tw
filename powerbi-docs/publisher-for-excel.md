@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 152b8f3bffa25a66d08af4806f9c7f1fe9bc90f7
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514345"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Power BI publisher for Excel
@@ -38,28 +38,28 @@ ms.locfileid: "65514345"
 
 ![](media/publisher-for-excel/pbi_excel_publisher_ribbon.png)
 
-預設會啟用 **Power BI Publisher for Excel** 增益集，但如果您因為某些原因而沒有在 Excel 中看到 Power BI 功能區索引標籤，就必須加以啟用。 按一下 [檔案] >  > [選項] >  > [增益集] >  > [COM 增益集]。選取 [Microsoft Power BI Publisher for Excel]。
+預設會啟用 **Power BI Publisher for Excel** 增益集，但如果您因為某些原因而沒有在 Excel 中看到 Power BI 功能區索引標籤，就必須加以啟用。 按一下 [檔案]   >  > [選項]   >  > [增益集]  >  > [COM 增益集]  。選取 [Microsoft Power BI Publisher for Excel]  。
 
 ## <a name="pin-a-range-to-a-dashboard"></a>釘選一個範圍到儀表板
 您可以從工作表選取任何範圍的資料格，然後將該範圍的快照集釘選到 Power BI 現有或新增的儀表板上。 您也可以將相同的快照集釘選到多個儀表板上。
 
 開始前，請先確定您已登入 Power BI。
 
-1. 從 Excel 的 [Power BI] 功能區索引標籤中選取 [設定檔]。 如已登入 Power BI，您會看到一個對話方塊，顯示您目前已登入的帳戶。 如果這是您想要使用的帳戶，很好，請前往下一組步驟釘選您的範圍。 如果您想要使用不同的 Power BI 帳戶，請選取 [登出]。 如果尚未登入，請前往下一個步驟 (步驟 2)。
+1. 從 Excel 的 [Power BI]  功能區索引標籤中選取 [設定檔]  。 如已登入 Power BI，您會看到一個對話方塊，顯示您目前已登入的帳戶。 如果這是您想要使用的帳戶，很好，請前往下一組步驟釘選您的範圍。 如果您想要使用不同的 Power BI 帳戶，請選取 [登出]  。 如果尚未登入，請前往下一個步驟 (步驟 2)。
    
    ![](media/publisher-for-excel/pbi_excel_publish_connect-to-data_0.png)
-2. 如果尚未登入，請選取 [登入] 連結：從 Excel 的 [Power BI] 功能區索引標籤中選取 [設定檔]，在 [連線到 Power BI] 對話方塊中輸入您想要使用的 Power BI 帳戶電子郵件地址，然後選取 [登入]。
+2. 如果尚未登入，請選取 [登入]  連結：從 Excel 的 [Power BI]  功能區索引標籤中選取 [設定檔]  ，在 [連線到 Power BI]  對話方塊中輸入您想要使用的 Power BI 帳戶電子郵件地址，然後選取 [登入]  。
    
    ![](media/publisher-for-excel/pbi_excel_publish_connect-to-data_1a.png)
 
 登入後，請依照下列步驟將範圍釘選到儀表板：
 
-1. 在 Excel 中，選取 [Power BI] 功能區索引標籤，即可看到 [釘選] 功能區按鈕。
+1. 在 Excel 中，選取 [Power BI]  功能區索引標籤，即可看到 [釘選]  功能區按鈕。
 2. 從 Excel 活頁簿中選取範圍。
-3. 按一下 [Power BI] 功能區的 [釘選] 按鈕，顯示 [釘選至儀表板] 對話方塊。 如果您尚未登入 Power BI，系統會提示您登入。 在 [工作區] 下拉式清單中選取一個工作區。 如果您想要釘選到自己的儀表板，請確認已選取 [我的工作區]。 如果您想要釘選到群組工作區中的儀表板，請從下拉式清單中選取該群組。
-4. 選擇要釘選至「現有的儀表板」或建立「新的儀表板」。
-5. 按一下 [確定] 將您的選擇釘選到儀表板。
-6. 在 [釘選到儀表板] 中，選取工作區中的現有儀表板或建立新的儀表板，然後按一下 [確定] 按鈕。
+3. 按一下 [Power BI]  功能區的 [釘選]  按鈕，顯示 [釘選至儀表板]  對話方塊。 如果您尚未登入 Power BI，系統會提示您登入。 在 [工作區]  下拉式清單中選取一個工作區。 如果您想要釘選到自己的儀表板，請確認已選取 [我的工作區]  。 如果您想要釘選到群組工作區中的儀表板，請從下拉式清單中選取該群組。
+4. 選擇要釘選至「現有的儀表板」  或建立「新的儀表板」  。
+5. 按一下 [確定]  將您的選擇釘選到儀表板。
+6. 在 [釘選到儀表板]  中，選取工作區中的現有儀表板或建立新的儀表板，然後按一下 [確定]  按鈕。
    
    ![](media/publisher-for-excel/xl-publish.gif)
 
@@ -73,9 +73,9 @@ ms.locfileid: "65514345"
 
 ![](media/publisher-for-excel/pbi_excel_publisher_pin_manager2.png)
 
-若要更新儀表板中的磚，請在 [釘選管理員] 中選取一或多個項目，然後選取 [更新]。
+若要更新儀表板中的磚，請在 [釘選管理員]  中選取一或多個項目，然後選取 [更新]  。
 
-若要移除 Excel 中已釘選項目和儀表板中已建立關聯的磚之間的對應，請按一下 [移除]。 當您選取 [移除] 時，並「不會」從 Excel 中的工作表移除項目，也不會刪除儀表板中已建立關聯的磚。 您移除的是這兩者之間的釘選 (或稱「對應」)。 **釘選管理員**不會再顯示移除的項目。 如果您再次釘選該項目，則會以新磚的形式出現。
+若要移除 Excel 中已釘選項目和儀表板中已建立關聯的磚之間的對應，請按一下 [移除]  。 當您選取 [移除]  時，並「不會」  從 Excel 中的工作表移除項目，也不會刪除儀表板中已建立關聯的磚。 您移除的是這兩者之間的釘選 (或稱「對應」  )。 **釘選管理員**不會再顯示移除的項目。 如果您再次釘選該項目，則會以新磚的形式出現。
 
 若要從儀表板移除已釘選的項目 (磚)，您將必須在 Power BI 中執行此動作。 在您要刪除的磚中，選取**開啟功能表**圖示 ![](media/publisher-for-excel/pbi_excel_publisher_tile_openmenu.png)，然後選取**刪除磚**圖示 ![](media/publisher-for-excel/pbi_excel_publisher_tile_trashcan.png)。
 
@@ -93,13 +93,13 @@ ms.locfileid: "65514345"
 若要使用 **Power BI Publisher for Excel** 連接至 Power BI 資料，請遵循下列簡易步驟︰
 
 1. 確定已登入 Power BI。 本文前面已提供登入步驟 (或使用不同的帳戶登入)。
-2. 以您要使用的帳戶登入 Power BI 後，請從 Excel 的 [Power BI] 功能區索引標籤中選取 [連接至資料]。
+2. 以您要使用的帳戶登入 Power BI 後，請從 Excel 的 [Power BI]  功能區索引標籤中選取 [連接至資料]  。
    
    ![](media/publisher-for-excel/pbi_excel_publish_connect-to-data_1.png)
-3. Excel 使用 HTTPS 連線連接至 Power BI，並顯示 [連線到 Power BI 中的資料] 對話方塊，您可以在此選取要選取資料的工作區 (1，如下圖)；要連線的「資料類型」，**報表**或**資料集** (2)；以及可供您選取要連接至哪個可用報表或資料集的下拉式清單 (3)。
+3. Excel 使用 HTTPS 連線連接至 Power BI，並顯示 [連線到 Power BI 中的資料]  對話方塊，您可以在此選取要選取資料的工作區  (1，如下圖)；要連線的「資料類型」  ，**報表**或**資料集** (2)；以及可供您選取要連接至哪個可用報表或資料集  的下拉式清單 (3)。
    
    ![](media/publisher-for-excel/pbi_excel_publish_connect-to-data_2.png)
-4. 當您決定好，並從 [連線到 Power BI 中的資料] 對話方塊中選取 [連接] 時，Excel 會準備樞紐分析表並顯示 [樞紐分析表欄位] 窗格，在此您可以從連接的 Power BI 資料中選取欄位，並建立可協助分析資料的資料表或圖表。
+4. 當您決定好，並從 [連線到 Power BI 中的資料]  對話方塊中選取 [連接]  時，Excel 會準備樞紐分析表並顯示 [樞紐分析表欄位]  窗格，在此您可以從連接的 Power BI 資料中選取欄位，並建立可協助分析資料的資料表或圖表。
    
    ![](media/publisher-for-excel/pbi_excel_publish_connect-to-data_3.png)
 
@@ -109,8 +109,8 @@ ms.locfileid: "65514345"
 
 使用本版的 **Power BI Publisher for Excel** 需要考慮到幾件事：
 
-* **共用資料**：[連接至資料] 不提供已與您共用，但未直接顯示在 Power BI 中的資料。
-* **SSAS 內部部署**：如果您選取的資料集源自內部部署 SQL Server Analysis Services (SSAS)，而 Power BI 中的資料集使用 DirectQuery 存取資料，**Power BI Publisher for Excel** 會透過內部部署網路連線連接至該資料，而「不」經由 Power BI 連接至該資料。 如此，嘗試連線到這類資料集的所有使用者，都必須連接至內部部署網路，使用資料儲存所在 Analysis Services 執行個體採用的驗證方法驗證後，才能存取該資料。
+* **共用資料**：[連接至資料]  不提供已與您共用，但未直接顯示在 Power BI 中的資料。
+* **SSAS 內部部署**：如果您選取的資料集源自內部部署 SQL Server Analysis Services (SSAS)，而 Power BI 中的資料集使用 DirectQuery 存取資料，**Power BI Publisher for Excel** 會透過內部部署網路連線連接至該資料，而「不」  經由 Power BI 連接至該資料。 如此，嘗試連線到這類資料集的所有使用者，都必須連接至內部部署網路，使用資料儲存所在 Analysis Services 執行個體採用的驗證方法驗證後，才能存取該資料。
 * **必要驅動程式** - **Power BI Publisher for Excel** 會自動安裝所有必要的驅動程式，使這項功能運作。 適用於 Analysis Services 的 Excel OLE DB 驅動程式也在這些自動安裝的驅動程式中，如果使用者 (或為任何其他原因) 移除該驅動程式，就無法連接至 Power BI 資料。
 * **資料集必須具有量值** - 資料集必須定義模型量值，Excel 才會將這些量值視為樞紐分析表中的值，進而正確地分析這些資料。 深入了解[量值](desktop-measures.md)。
 * **群組支援** - 無法與指定的群組外部的人員共用資料集，而且也無法加以連接。

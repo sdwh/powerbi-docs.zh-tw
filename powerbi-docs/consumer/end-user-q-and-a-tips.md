@@ -12,11 +12,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 97beaa749855d29f0ac559776a99f4be851489fb
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662250"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61048126"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 問與答中詢問問題的秘訣
 ## <a name="words-and-terminology-that-qa-recognizes"></a>問與答可辨識的字組與專有名詞

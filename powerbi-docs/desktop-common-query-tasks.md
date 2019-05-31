@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239460"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常見查詢工作
@@ -46,9 +46,9 @@ ms.locfileid: "65239460"
 
 ![](media/desktop-common-query-tasks/commonquerytasks_navigator.png)
 
-您可以選取 [編輯]  來調整 (或 *塑造* ) 資料，然後才將它載入到 Power BI Desktop。 載入之前先編輯查詢特別適用於處理大型資料集時，在載入之前先行削減。 我們想要這麼做，因此我們選取 [編輯] 。
+您可以選取 [編輯]  來調整 (或 *塑造* ) 資料，然後才將它載入到 Power BI Desktop。 載入之前先編輯查詢特別適用於處理大型資料集時，在載入之前先行削減。 我們想要這麼做，因此我們選取 [編輯]  。
 
-連接到不同類型的資料也一樣簡單。 我們也想要連接到 Web 資源。 選取 [取得資料] **\> [其他...]**，然後選取 [其他]**\> [Web]**。
+連接到不同類型的資料也一樣簡單。 我們也想要連接到 Web 資源。 選取 [取得資料] **\> [其他...]** ，然後選取 [其他] **\> [Web]** 。
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata_other.png)
 
@@ -56,7 +56,7 @@ ms.locfileid: "65239460"
 
 ![](media/desktop-common-query-tasks/datasources_fromwebbox.png)
 
-選取 [確定] ，然後像之前一樣，Power BI Desktop 會檢查活頁簿並在 [導覽器]  視窗中呈現它找到的資料。
+選取 [確定]  ，然後像之前一樣，Power BI Desktop 會檢查活頁簿並在 [導覽器]  視窗中呈現它找到的資料。
 
 其他資料連線也很類似。 如果需要驗證才能建立資料連線，Power BI Desktop 會提示您輸入適當的認證。
 
@@ -65,13 +65,13 @@ ms.locfileid: "65239460"
 ## <a name="shape-and-combine-data"></a>資料成形及合併
 您可以輕鬆地使用查詢編輯器塑造及合併資料。 本節包含一些範例，說明如何塑造資料。 如需塑造與合併資料的更完整示範，請參閱 **[使用 Power BI Desktop 塑造及合併資料](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)** 。
 
-在上一節中，我們連接到兩組資料 – Excel 活頁簿和 Web 資源。 一旦載入到查詢編輯器中，我們就會看到下列畫面，其中包含來自所選取網頁的查詢 (從 [查詢] 窗格內列出的可用查詢中取得，位於 [查詢編輯器] 視窗左邊)。
+在上一節中，我們連接到兩組資料 – Excel 活頁簿和 Web 資源。 一旦載入到查詢編輯器中，我們就會看到下列畫面，其中包含來自所選取網頁的查詢 (從 [查詢]  窗格內列出的可用查詢中取得，位於 [查詢編輯器] 視窗左邊)。
 
 ![](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
 
-塑造資料時，您會將資料來源轉換成符合您需求的格式。 在此情況下，我們不需要標題為「標頭」 的第一欄，因此我們會將它移除。
+塑造資料時，您會將資料來源轉換成符合您需求的格式。 在此情況下，我們不需要標題為「標頭」  的第一欄，因此我們會將它移除。
 
-在 **查詢編輯器**中，許多命令位於功能區和內容相關性的按一下滑鼠右鍵功能表中。 例如，當您以滑鼠右鍵按一下「標頭」資料行時，出現的功能表可讓您移除該資料行。 您也可以選取該資料行，然後從功能區選取 [移除資料行] 按鈕。
+在 **查詢編輯器**中，許多命令位於功能區和內容相關性的按一下滑鼠右鍵功能表中。 例如，當您以滑鼠右鍵按一下「標頭」  資料行時，出現的功能表可讓您移除該資料行。 您也可以選取該資料行，然後從功能區選取 [移除資料行]  按鈕。
 
 ![](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
 
@@ -86,18 +86,18 @@ ms.locfileid: "65239460"
 
 ![](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
 
-[分組...] 視窗隨即出現。 當查詢編輯器將資料列分組時，它會建立新的資料行，其中放入**分組**結果。 您可以以下列方式調整**分組**作業：
+[分組...]  視窗隨即出現。 當查詢編輯器將資料列分組時，它會建立新的資料行，其中放入**分組**結果。 您可以以下列方式調整**分組**作業：
 
-1. 分組：這是要進行分組的資料行。查詢編輯器會選擇所選取的資料行，但您可以在此視窗中將它變更為資料表中的任何資料行。
+1. 分組  ：這是要進行分組的資料行。查詢編輯器會選擇所選取的資料行，但您可以在此視窗中將它變更為資料表中的任何資料行。
 2. *新的資料行名稱* – 查詢編輯器會建議新的資料行名稱，這是根據它會套用至要分組之資料行的作業，但您可以隨意命名新的資料行。
 3. *作業* – 您在這裡指定查詢編輯器套用的作業。
-4. 新增群組和加入彙總：這些選項會在選取 [進階] 選項之後出現。 您可以對多個資料行執行群組作業 (**分組**動作)，以及執行多個彙總，這些全都位於 [分組] 視窗內，且全都在單一作業中。 查詢編輯器會建立新的資料行 (根據您在此視窗中的選項)，針對多個資料行進行操作。 
+4. 新增群組  和加入彙總  ：這些選項會在選取 [進階]  選項之後出現。 您可以對多個資料行執行群組作業 (**分組**動作)，以及執行多個彙總，這些全都位於 [分組]  視窗內，且全都在單一作業中。 查詢編輯器會建立新的資料行 (根據您在此視窗中的選項)，針對多個資料行進行操作。 
 
-選取 [加入群組] 或 [加入彙總] 按鈕，即可將多個群組或彙總加入至**分組**作業。 您可以藉由選取 **...** 圖示並選取 [刪除] 來移除群組或彙總，因此，請試試看會是什麼樣子。
+選取 [加入群組]  或 [加入彙總]  按鈕，即可將多個群組或彙總加入至**分組**作業。 您可以藉由選取 **...** 圖示並選取 [刪除]  來移除群組或彙總，因此，請試試看會是什麼樣子。
    
    ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-當我們選取 [確定] 時，查詢會執行 **Group By** 作業，並傳回結果。 哇，看看它：俄亥俄、德州、伊利諾和加州現在各有超過一千個機構！
+當我們選取 [確定]  時，查詢會執行 **Group By** 作業，並傳回結果。 哇，看看它：俄亥俄、德州、伊利諾和加州現在各有超過一千個機構！
 
 ![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
 
@@ -110,18 +110,18 @@ ms.locfileid: "65239460"
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotbutton.png)
 
-[樞紐資料行] 視窗隨即出現，讓您知道哪些資料行的值將用來建立新的資料行 (1)，以及展開 [進階選項] (2) 時，可以選取將套用至彙總值 (3) 的函數。
+[樞紐資料行]  視窗隨即出現，讓您知道哪些資料行的值將用來建立新的資料行 (1)，以及展開 [進階選項]  (2) 時，可以選取將套用至彙總值 (3) 的函數。
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
 
-當您選取 [確定] 時，查詢會根據 [樞紐資料行]  視窗所提供的轉換指示，顯示資料表。
+當您選取 [確定]  時，查詢會根據 [樞紐資料行]  視窗所提供的轉換指示，顯示資料表。
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotcomplete.png)
 
 ## <a name="create-custom-columns"></a>建立自訂資料行
 在查詢編輯器中，您可以建立自訂公式，對資料表中的多個資料行進行操作，然後將這類公式的結果放入新的 (自訂) 資料行。 查詢編輯器可讓您輕鬆地建立自訂的資料行。
 
-在查詢編輯器中，從功能區上的 [加入資料行] 索引標籤，選取 [自訂資料行]。
+在查詢編輯器中，從功能區上的 [加入資料行]  索引標籤，選取 [自訂資料行]  。
 
 ![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
@@ -134,15 +134,15 @@ ms.locfileid: "65239460"
 ![](media/desktop-common-query-tasks/customcolumn_addedappliedstep.png)
 
 ## <a name="query-formulas"></a>查詢公式
-您可以編輯查詢編輯器產生的步驟，而且您可以建立自訂公式來取得對於連接和塑造資料的精確控制。 每當查詢編輯器在資料上執行動作時，與動作相關聯的公式會顯示在 [公式列] 。 若要檢視 [公式列] ，請選取功能區 [檢視]  索引標籤中 [公式列]  旁的核取方塊。
+您可以編輯查詢編輯器產生的步驟，而且您可以建立自訂公式來取得對於連接和塑造資料的精確控制。 每當查詢編輯器在資料上執行動作時，與動作相關聯的公式會顯示在 [公式列]  。 若要檢視 [公式列]  ，請選取功能區 [檢視]  索引標籤中 [公式列]  旁的核取方塊。
 
 ![](media/desktop-common-query-tasks/queryformulas_formulabar.png)
 
-查詢編輯器會將每個查詢的所有套用步驟保留為您可以檢視或修改的文字。 您可以使用 [進階編輯器] 檢視或修改任何查詢的文字，當您從功能區的 [檢視]  索引標籤選取 [進階編輯器]  時便會顯示。
+查詢編輯器會將每個查詢的所有套用步驟保留為您可以檢視或修改的文字。 您可以使用 [進階編輯器]  檢視或修改任何查詢的文字，當您從功能區的 [檢視]  索引標籤選取 [進階編輯器]  時便會顯示。
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-以下就來看看 [進階編輯器]，其中顯示與 **USA\_StudentEnrollment** 查詢相關聯的查詢步驟。 這些步驟是以 Power Query 公式語言建立，這個語言常稱為 **M**。如需資訊，請參閱[深入了解 Power Query 公式](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)。 若要檢視語言規格本身，請參閱 [Microsoft Power Query for Excel 公式語言規格](http://go.microsoft.com/fwlink/?linkid=320633) \(英文\)。
+以下就來看看 [進階編輯器]  ，其中顯示與 **USA\_StudentEnrollment** 查詢相關聯的查詢步驟。 這些步驟是以 Power Query 公式語言建立，這個語言常稱為 **M**。如需資訊，請參閱[深入了解 Power Query 公式](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)。 若要檢視語言規格本身，請參閱 [Microsoft Power Query for Excel 公式語言規格](http://go.microsoft.com/fwlink/?linkid=320633) \(英文\)。
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

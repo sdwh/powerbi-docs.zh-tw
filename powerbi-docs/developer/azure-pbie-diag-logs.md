@@ -1,19 +1,19 @@
 ---
 title: Azure 中 Power BI Embedded 服務的診斷記錄 | Microsoft Docs
 description: 了解如何為 Azure 中的 Power BI Embedded 服務設定診斷記錄。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 695d1f219b3438f07125447db04aad3ba971683a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249129"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61385300"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure 中 Power BI Embedded 的診斷記錄
 
@@ -30,11 +30,11 @@ ms.locfileid: "56249129"
 
 ### <a name="azure-portal"></a>Azure 入口網站
 
-1. 在 [Azure 入口網站](https://portal.azure.com) > [Power BI Embedded] 資源中，選取左側瀏覽列中的 [診斷記錄檔]，然後選取 [開啟診斷]。
+1. 在 [Azure 入口網站](https://portal.azure.com) > [Power BI Embedded] 資源中，選取左側瀏覽列中的 [診斷記錄檔]  ，然後選取 [開啟診斷]  。
 
     ![在 Azure 入口網站中開啟 Power BI Embedded 的診斷記錄](media/azure-pbie-diag-logs/azure-pbie-diag-logs-01.png)
 
-2. 在 [診斷設定] 中，指定下列選項：
+2. 在 [診斷設定]  中，指定下列選項：
 
     * **名稱** - 輸入要建立之診斷設定的名稱。
 
@@ -45,7 +45,7 @@ ms.locfileid: "56249129"
     * **引擎** - 選取此選項來記錄下面[列出的一組引擎事件](#whats-logged)。
     * **AllMetrics** - 選取此選項來儲存[計量](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)中的詳細資訊資料。 如果您是封存到儲存體帳戶，您可以選取診斷記錄檔的保留期間。 保留期間到期之後，系統會自動刪除記錄檔。
 
-3. 選取 [儲存]。
+3. 選取 [儲存]  。
 
     若要變更診斷記錄檔的儲存方式，您可以返回此頁面來修改設定。
 
@@ -97,7 +97,7 @@ ms.locfileid: "56249129"
 
 ## <a name="whats-logged"></a>記錄的內容？
 
-您可以選取 [引擎] 和/或 [AllMetrics] 類別。
+您可以選取 [引擎]  和/或 [AllMetrics]  類別。
 
 ### <a name="engine"></a>引擎
 
@@ -151,7 +151,7 @@ ms.locfileid: "56249129"
 
 ### <a name="allmetrics"></a>AllMetrics
 
-選取 [AllMetrics] 選項會記錄您可以搭配 Power BI Embedded 資源來使用之所有計量的資料。
+選取 [AllMetrics]  選項會記錄您可以搭配 Power BI Embedded 資源來使用之所有計量的資料。
 
    ![顯示計量](media/azure-pbie-diag-logs/azure-pbie-diag-logs-02.png)
 
@@ -167,19 +167,19 @@ ms.locfileid: "56249129"
 
 計量和伺服器事件會與 Log Analytics 中的 xEvents 整合以進行並排分析。 您也可以將 Log Analytics 設定成從其他 Azure 服務接收事件，這樣可提供整個架構的診斷記錄全面檢視。
 
-若要在 Log Analytics 中檢視診斷資料，請從左側功能表或 [管理] 區域開啟 [記錄檔] 頁面，如下所示。
+若要在 Log Analytics 中檢視診斷資料，請從左側功能表或 [管理] 區域開啟 [記錄檔]  頁面，如下所示。
 
 ![Log Analytics 頁面](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics.png)
 
-現在您已經啟用了資料收集，請在 [記錄檔] 中選取 [所有已收集的資料]。
+現在您已經啟用了資料收集，請在 [記錄檔]  中選取 [所有已收集的資料]  。
 
 ![所有已收集的資料](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-all-collected-data.png)
 
-在 [類型] 中，選取 [AzureDiagnostics]，然後選取 [套用]。 AzureDiagnostics 包含引擎事件。 請留意，系統隨即建立一個 Log Analytics 查詢。
+在 [類型]  中，選取 [AzureDiagnostics]  ，然後選取 [套用]  。 AzureDiagnostics 包含引擎事件。 請留意，系統隨即建立一個 Log Analytics 查詢。
 
 ![Azure 診斷](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-azure-diagnostics.png)
 
-請選取 [EventClass\_s] 或其中一個事件名稱，Log Analytics 就會繼續建構查詢。 請務必儲存您的查詢，以供日後重複使用。
+請選取 [EventClass\_s]  或其中一個事件名稱，Log Analytics 就會繼續建構查詢。 請務必儲存您的查詢，以供日後重複使用。
 
 請務必查看 [Log Analytics](https://docs.microsoft.com/azure/log-analytics/)，它提供的網站可讓您針對收集的資料進行增強查詢、儀表板管理和警示功能。
 

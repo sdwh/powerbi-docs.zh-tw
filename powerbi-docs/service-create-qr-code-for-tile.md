@@ -11,11 +11,11 @@ ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: cab65ad12255b7a5ff2e37902684437f0e191723
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280186"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61169006"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>為 Power BI 的磚建立 QR 代碼以用於行動裝置應用程式
 Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要瀏覽或搜尋即可直接連接到相關的 BI 資訊。
@@ -27,7 +27,7 @@ Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要瀏覽�
 
 ## <a name="create-a-qr-code-for-a-tile"></a>為磚建立 QR 代碼
 1. 開啟 Power BI 服務中的儀表板。
-2. 選取磚右上角的省略符號 (...)，然後選取 [焦點模式] ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg)。
+2. 選取磚右上角的省略符號 (...)，然後選取 [焦點模式]  ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg)。
 3. 選取右上角的省略符號 (...)，然後選取 [ **產生 QR 代碼**]。 
    
     ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
@@ -42,7 +42,7 @@ Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要瀏覽�
 ## <a name="print-the-qr-code"></a>列印 QR 代碼
 Power BI 會將 QR 代碼產生為 JPG 檔案，可供列印。 
 
-1. 選取 [下載]，然後在連接到印表機的電腦上開啟該 JPG 檔案。  
+1. 選取 [下載]  ，然後在連接到印表機的電腦上開啟該 JPG 檔案。  
    
    > [!TIP]
    > JPG 檔案的名稱與磚相同。 例如，"Opportunity Count - by Month, Sales Stage.jpg"。

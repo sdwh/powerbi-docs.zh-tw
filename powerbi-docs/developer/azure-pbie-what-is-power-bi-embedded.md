@@ -1,8 +1,8 @@
 ---
 title: 什麼是 Azure Power BI Embedded 與內嵌式分析 | Microsoft Docs
 description: Power BI Embedded 旨在作為一項內嵌式分析，以簡化 ISV 和開發人員使用 Power BI 功能的方式，協助其快速地將令人讚嘆的視覺效果、報表和儀表板新增至他們的應用程式。 了解如何使用 Power BI Embedded 來運用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: power-bi-embedded
@@ -11,12 +11,12 @@ ms.devlang: csharp, javascript
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 2e60d29602fb412f66f74d5258081003610c30cd
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: 6e91b2e958a738961255f9ad9b6b0514fed759bb
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762068"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61385009"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>什麼是 Azure Power BI Embedded？
 

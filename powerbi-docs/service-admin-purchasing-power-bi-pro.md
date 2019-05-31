@@ -11,11 +11,11 @@ ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 15cd5e021969a050937b9d67eb7695f4fcde07c0
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383077"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61188368"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>購買及指派 Power BI Pro 授權
 
@@ -35,37 +35,37 @@ Power BI Pro 是個別的授權，允許存取 Power BI 服務中的所有內容
 
 1. 開啟 [MIcrosoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
-2. 在左邊的瀏覽窗格中，選取 [帳單] > [訂閱]。
+2. 在左邊的瀏覽窗格中，選取 [帳單]   > [訂閱]  。
 
     ![[瀏覽] 窗格](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
 
-3. 在 [訂閱] 頁面的右上角，選取 [新增訂閱]。
+3. 在 [訂閱]  頁面的右上角，選取 [新增訂閱]  。
 
-    ![訂閱](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-02.png)
+    ![訂用帳戶](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-02.png)
 
 4. 找出所需的訂閱供應項目：
 
-    在 [企業套件] 下方，選取 [Office 365 Enterprise E5]。
+    在 [企業套件]  下方，選取 [Office 365 Enterprise E5]  。
 
     ![Office E5 訂閱](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-03.png)
 
-    在 [其他方案] 下，選取 [Power BI Pro]。
+    在 [其他方案]  下，選取 [Power BI Pro]  。
 
     ![Power BI 訂用帳戶](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
 
-5. 將滑鼠停留在所需訂閱的省略符號 (**. . .**) 上方，然後選取 [立即購買]。
+5. 將滑鼠停留在所需訂閱的省略符號 ( **. . .** ) 上方，然後選取 [立即購買]  。
 
     ![立即購買](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 
-6. 根據您的計費喜好設定，選擇 [按月支付] 或 [支付全年費用]。
+6. 根據您的計費喜好設定，選擇 [按月支付]  或 [支付全年費用]  。
 
-7. 在 [您想要多少使用者?] 下，輸入所需的授權數目，然後選取 [立即結帳] 以完成交易。
+7. 在 [您想要多少使用者?]  下，輸入所需的授權數目，然後選取 [立即結帳]  以完成交易。
 
-8. 確認所取得的訂閱現在會列於 [訂閱] 頁面上。
+8. 確認所取得的訂閱現在會列於 [訂閱]  頁面上。
 
    ![已取得的訂閱](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-06.png)
 
-9. 若要在初次購買之後新增更多授權，請從 [訂閱] 頁面選取 [Power BI Pro]，然後取 [新增/移除授權]。
+9. 若要在初次購買之後新增更多授權，請從 [訂閱]  頁面選取 [Power BI Pro]  ，然後取 [新增/移除授權]  。
 
 ## <a name="assign-licenses-in-office-365"></a>在 Office 365 中指派授權
 
@@ -73,19 +73,19 @@ Power BI Pro 是個別的授權，允許存取 Power BI 服務中的所有內容
 
 1. 開啟 [MIcrosoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
-2. 在左側瀏覽窗格中，展開 [使用者]，然後選取 [作用中使用者]。
+2. 在左側瀏覽窗格中，展開 [使用者]  ，然後選取 [作用中使用者]  。
 
     ![有效使用者](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-05.png)
 
-3. 選取使用者，然後在 [產品授權] 下方，選取 [編輯]。
+3. 選取使用者，然後在 [產品授權]  下方，選取 [編輯]  。
 
     ![編輯產品授權](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-06.png)
 
-4. 在 [Power BI Pro] 下方，將設定切換成 [開啟]，然後選取 [儲存]。
+4. 在 [Power BI Pro]  下方，將設定切換成 [開啟]  ，然後選取 [儲存]  。
 
     ![已開啟的產品授權](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-07.png)
 
-5. 在所選取帳戶的 [狀態] 下方，確認已成功指派 Power BI Pro 授權。
+5. 在所選取帳戶的 [狀態]  下方，確認已成功指派 Power BI Pro 授權。
 
     ![確認授權狀態](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-08.png)
 
@@ -95,19 +95,19 @@ Power BI Pro 是個別的授權，允許存取 Power BI 服務中的所有內容
 
 1. 開啟 [Azure 入口網站](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0)。
 
-2. 在左側的導覽列中，選取 [Azure Active Directory]。
+2. 在左側的導覽列中，選取 [Azure Active Directory]  。
 
     ![Azure Active Directory](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-01.png)
 
-3. 在 [Azure Active Directory] 下方，選取 [授權]。
+3. 在 [Azure Active Directory]  下方，選取 [授權]  。
 
     ![授權](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-02.png)
 
-4. 在 [授權] 下方，選取 [所有產品]，然後選取 [Power BI Pro] 以顯示已授權使用者的清單。
+4. 在 [授權]  下方，選取 [所有產品]  ，然後選取 [Power BI Pro]  以顯示已授權使用者的清單。
 
     ![授權 - 所有產品](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-03.png)
 
-5. 選取 [指派] 將 Power BI Pro 授權新增至其他使用者帳戶。
+5. 選取 [指派]  將 Power BI Pro 授權新增至其他使用者帳戶。
 
     ![指派授權](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-04.png)
 

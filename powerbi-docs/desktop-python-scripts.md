@@ -11,11 +11,11 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fcfbf4fb7be34739364fba176b28ea42934d5562
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216025"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61283867"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中執行 Python 指令碼
 您可以直接在 **Power BI Desktop** 中執行 Python 指令碼，並將產生的資料集匯入 Power BI Desktop 資料模型。
@@ -44,24 +44,24 @@ pip install matplotlib
 * 只有 Pandas 資料框架會匯入，因此請確定您要匯入至 Power BI 的資料都位於資料框架中
 * 任何 Python 指令碼若執行時間超過 30 分鐘就會逾時
 * 在 Python 指令碼中的互動式呼叫 (例如等待使用者輸入) 會中止指令碼執行
-* 在 Python 指令碼中設定工作目錄時，您「必須」定義工作目錄的完整路徑，而非相對路徑
+* 在 Python 指令碼中設定工作目錄時，您「必須」  定義工作目錄的完整路徑，而非相對路徑
 * 目前不支援巢狀資料表 (包含多個資料表的資料表) 
 
 ### <a name="run-your-python-script-and-import-data"></a>執行 Python 指令碼並匯入資料
-1. 在 Power BI Desktop 中，Python 指令碼資料連接器可在 [取得資料] 中找到。 若要執行 Python 指令碼，請選取 [取得資料] &gt; [其他...]，然後選取 [其他] &gt; [Python 指令碼]，如下圖所示：
+1. 在 Power BI Desktop 中，Python 指令碼資料連接器可在 [取得資料]  中找到。 若要執行 Python 指令碼，請選取 [取得資料] &gt; [其他...]  ，然後選取 [其他] &gt; [Python 指令碼]  ，如下圖所示：
    
    ![](media/desktop-python-scripts/python-scripts-1.png)
-2. 如果您的本機電腦上安裝了 Python，就會選取安裝的最新版本作為 Python 引擎。 只要將您的指令碼複製到指令碼視窗，然後選取 [確定] 。
+2. 如果您的本機電腦上安裝了 Python，就會選取安裝的最新版本作為 Python 引擎。 只要將您的指令碼複製到指令碼視窗，然後選取 [確定]  。
    
    ![](media/desktop-python-scripts/python-scripts-2.png)
 3. 如果未安裝且未識別 Python，或者本機電腦上有多個安裝，將會顯示警告。
    
    ![](media/desktop-python-scripts/python-scripts-3.png)
    
-   Python 安裝設定集中位於 [選項] 對話方塊的 [Python 指令碼] 區段。 若要指定 Python 安裝設定，請選取 [檔案] > [選項和設定]，然後選取 [選項] > [Python 指令碼]。 如果有多個 Python 安裝，則會顯示下拉式功能表，讓您選取要使用的安裝。 您也可以選取 [其他] 並提供自訂路徑。
+   Python 安裝設定集中位於 [選項] 對話方塊的 [Python 指令碼] 區段。 若要指定 Python 安裝設定，請選取 [檔案] > [選項和設定]  ，然後選取 [選項] > [Python 指令碼]  。 如果有多個 Python 安裝，則會顯示下拉式功能表，讓您選取要使用的安裝。 您也可以選取 [其他]  並提供自訂路徑。
    
    ![](media/desktop-python-scripts/python-scripts-4.png)
-4. 選取 [確定] 來執行 Python 指令碼。 當指令碼順利執行時，您可以選擇要加入 Power BI 模型之產生的資料框架。
+4. 選取 [確定]  來執行 Python 指令碼。 當指令碼順利執行時，您可以選擇要加入 Power BI 模型之產生的資料框架。
 
 ### <a name="refresh"></a>重新整理
 您可以在 Power BI Desktop 中重新整理 Python 指令碼。 當您重新整理 Python 指令碼時，Power BI Desktop 會在 Power BI Desktop 環境中再次執行 Python 指令碼。

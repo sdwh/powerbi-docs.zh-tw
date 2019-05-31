@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 0a582eb5c160685784c6db497353f92d2dd3d2cf
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514125"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>連接至 Power BI Desktop 中的資料
@@ -38,7 +38,7 @@ Power BI Desktop 中有「各式各樣」  的可用資料來源。 下圖顯示
 
 ![](media/desktop-connect-to-data/connecttodata_3.png)
 
-當您選取 [確定] 時，Power BI Desktop 的 [查詢]  功能就會開始運作。 Power BI Desktop 會連絡 Web 資源，[導覽器]  視窗會傳回它在該網頁找到的結果。 在本例中，它找到一個資料表 (資料表 0) 和整份文件。 我們對資料表有興趣，因此我們從清單中選取它。 [導覽器]  視窗會顯示預覽。
+當您選取 [確定]  時，Power BI Desktop 的 [查詢]  功能就會開始運作。 Power BI Desktop 會連絡 Web 資源，[導覽器]  視窗會傳回它在該網頁找到的結果。 在本例中，它找到一個資料表 (資料表 0) 和整份文件。 我們對資料表有興趣，因此我們從清單中選取它。 [導覽器]  視窗會顯示預覽。
 
 ![](media/desktop-connect-to-data/datasources_fromnavigatordialog.png)
 
@@ -52,11 +52,11 @@ Power BI Desktop 中有「各式各樣」  的可用資料來源。 下圖顯示
 
 ![](media/desktop-connect-to-data/designer_gsg_changedatatype.png)
 
-在 [查詢設定] 中，[套用的步驟]  會反映任何已做的變更。 當您對資料進行其他變更時，[查詢編輯器] 會將這些變更記錄到 [套用的步驟]  區段中，您可以視需要在此進行調整、重新瀏覽、重新排列或刪除。
+在 [查詢設定]  中，[套用的步驟]  會反映任何已做的變更。 當您對資料進行其他變更時，[查詢編輯器] 會將這些變更記錄到 [套用的步驟]  區段中，您可以視需要在此進行調整、重新瀏覽、重新排列或刪除。
 
 ![](media/desktop-connect-to-data/designer_gsg_appliedsteps_changedtype.png)
 
-資料表載入後仍可進行其他變更，但目前到此為止即可。 完成時，我們會從 [常用] 功能區選取 [關閉並套用]，Power BI Desktop 會套用我們的變更並關閉 [查詢編輯器]。
+資料表載入後仍可進行其他變更，但目前到此為止即可。 完成時，我們會從 [常用]  功能區選取 [關閉並套用]  ，Power BI Desktop 會套用我們的變更並關閉 [查詢編輯器]。
 
 ![](media/desktop-connect-to-data/connecttodata_closenload.png)
 
@@ -75,7 +75,7 @@ Power BI Desktop 中有「各式各樣」  的可用資料來源。 下圖顯示
 * [使用 Power BI Desktop 合併資料並使其成形](desktop-shape-and-combine-data.md)
 * [Power BI Desktop 中的常見查詢工作](desktop-common-query-tasks.md)   
 
-想要提供意見反應嗎？ 太好了 – 使用 Power BI Desktop 的 [Submit an Idea] (送出想法) 功能表項目或瀏覽 [Community Feedback](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) (社群意見應)。 我們期待您的留言！
+想要提供意見反應嗎？ 太好了 – 使用 Power BI Desktop 的 [Submit an Idea] (送出想法)  功能表項目或瀏覽 [Community Feedback](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) (社群意見應)。 我們期待您的留言！
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

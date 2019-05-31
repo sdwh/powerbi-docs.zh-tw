@@ -1,20 +1,20 @@
 ---
 title: 建立要搭配 Power BI 使用的 Azure Active Directory 租用戶
 description: 了解如何使用 Power BI REST API 來建立新的 Azure Active Directory (Azure AD) 租用戶，以用於您的自訂應用程式。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
-ms.openlocfilehash: ec03ba86fdbf57a9898b127aae9b76990837b5ba
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
-ms.translationtype: HT
+ms.openlocfilehash: ae3d15cce7c0beb8122542e3768a0ec10ca0a1ae
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473836"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61381616"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>建立要搭配 Power BI 使用的 Azure Active Directory 租用戶
 
@@ -24,7 +24,7 @@ ms.locfileid: "58473836"
 
 取得 Azure AD 租用戶之後，您就可以定義應用程式並指派權限，讓您的應用程式可以使用 Power BI REST API。
 
-您的組織可能已經有 Azure AD 租用戶，可供您用於應用程式。 您可以利用該租用戶來滿足應用程式需求，也可以特別為您的應用程式建立新的租用戶。 此文章探討如何建立新的租用戶。
+您的組織可能已經有 Azure AD 租用戶，可供您用於應用程式。 您可以利用該租用戶來滿足應用程式需求，也可以特別為您的應用程式建立新的租用戶。 本文探討如何建立新的租用戶。
 
 ## <a name="create-an-azure-active-directory-tenant"></a>建立 Azure Active Directory 租用戶
 
@@ -36,17 +36,17 @@ ms.locfileid: "58473836"
 
 1. 瀏覽至 [Azure 入口網站](https://portal.azure.com)，並使用具有 Azure 訂用帳戶的帳戶登入。
 
-2. 選取**加號圖示 (+)**，並搜尋 *Azure Active Directory*。
+2. 選取**加號圖示 (+)** ，並搜尋 *Azure Active Directory*。
 
     ![加號圖示 (+)](media/create-an-azure-active-directory-tenant/new-directory.png)
 
-3. 在搜尋結果中選取 [Azure Active Directory]。
+3. 在搜尋結果中選取 [Azure Active Directory]  。
 
     ![ADD 搜尋](media/create-an-azure-active-directory-tenant/new-directory2.png)
 
-4. 選取 [建立]。
+4. 選取 [建立]  。
 
-5. 提供**組織的名稱**及**初始網域名稱**。 然後選取 [建立]。 這會建立您的目錄。
+5. 提供**組織的名稱**及**初始網域名稱**。 然後選取 [建立]  。 這會建立您的目錄。
 
     ![組織和網域](media/create-an-azure-active-directory-tenant/organization-and-domain.png)
 
@@ -68,18 +68,18 @@ ms.locfileid: "58473836"
     如果不是，請從左側服務列選取 Azure Active Directory 圖示。
 
     ![](media/create-an-azure-active-directory-tenant/aad-service.png)
-2. 在 [管理] 下方，選取 [使用者和群組]。
+2. 在 [管理]  下方，選取 [使用者和群組]  。
 
     ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
-3. 選取 [所有使用者]，然後選取 [+ 新增使用者]。
-4. 提供此使用者的名稱和使用者名稱。 這會成為租用戶的全域管理員。 您也應該將 [目錄角色] 變更為 [全域管理員]。 您也可以顯示暫時密碼。 完成時選取 [建立]。
+3. 選取 [所有使用者]  ，然後選取 [+ 新增使用者]  。
+4. 提供此使用者的名稱和使用者名稱。 這會成為租用戶的全域管理員。 您也應該將 [目錄角色]  變更為 [全域管理員]  。 您也可以顯示暫時密碼。 完成時選取 [建立]  。
 
     ![](media/create-an-azure-active-directory-tenant/global-admin.png)
 
-5. 對於租用戶中的一般使用者，您應該重複這樣做。 這也可用於主要內嵌帳戶。 這一次，我們讓 [目錄角色] 維持為 [使用者]。 請務必記下密碼。 然後選取 [建立]。
+5. 對於租用戶中的一般使用者，您應該重複這樣做。 這也可用於主要內嵌帳戶。 這一次，我們讓 [目錄角色]  維持為 [使用者]  。 請務必記下密碼。 然後選取 [建立]  。
 
     ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
-6. 使用您在步驟 5 建立使用者帳戶來註冊 Power BI。 若要這樣做，您可以移至 [powerbi.com](https://powerbi.microsoft.com/get-started/)，然後在 [Power BI - 雲端共同作業與共用] 下選取 [免費試用]。
+6. 使用您在步驟 5 建立使用者帳戶來註冊 Power BI。 若要這樣做，您可以移至 [powerbi.com](https://powerbi.microsoft.com/get-started/)，然後在 [Power BI - 雲端共同作業與共用]  下選取 [免費試用]  。
 
     ![](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
 

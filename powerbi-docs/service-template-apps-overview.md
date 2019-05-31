@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/04/2019
+ms.date: 04/26/2019
 ms.author: maggies
-ms.openlocfilehash: 445f5f087bd9589b18f798e8db40a63b0ddceafe
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 0ea8f19fa36bf1f9ceb5f8f0b92bd53ebdfa2a01
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249617"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578519"
 ---
 # <a name="what-are-power-bi-template-apps-preview"></a>什麼是 Power BI 範本應用程式？ (預覽)
 
-新的 Power BI「範本應用程式」讓 Power BI 合作夥伴撰寫少量程式碼或不用撰寫程式碼，即可建置 Power BI 應用程式，再將應用程式部署至所有 Power BI 客戶。  本文為 Power BI 範本應用程式的概觀。
+新的 Power BI「範本應用程式」  讓 Power BI 合作夥伴撰寫少量程式碼或不用撰寫程式碼，即可建置 Power BI 應用程式，再將應用程式部署至所有 Power BI 客戶。  本文為 Power BI 範本應用程式的概觀。
 
 範本應用程式取代目前的服務內容套件。 身為 Power BI 合作夥伴，您可以為客戶建立一組現成可用的內容並親自發佈。  
 
 您可以建置範本應用程式，讓客戶透過自己的帳戶連線並具現化。 身為網域專家，他們可將資料解除鎖定，讓其商務使用者都能輕鬆使用。  
 
-您可以將您的合作夥伴建置範本應用程式提交至 Cloud Partner 入口網站。 然後該應用程式會在 Power BI 應用程式庫 (app.powerbi.com/getdata/services) 中和 Microsoft AppSource (appsource.microsoft.com) 上公開推出。 以下為公用範本應用程式體驗的範例。  
+您送出至 Cloud Partner 入口網站應用程式範本。 然後該應用程式會在 Power BI 應用程式庫 (app.powerbi.com/getdata/services) 中和 Microsoft AppSource (appsource.microsoft.com) 上公開推出。 以下是公用的範本應用程式建立體驗高階介紹。  
 
-## <a name="overview"></a>概觀
-開發及提交範本應用程式的一般程序包含幾個階段，其中某些階段可能同時涉及多個活動。
+## <a name="process"></a>程序
+開發並提交範本應用程式的一般程序牽涉到數個階段。 某些階段可以併入多個活動，在相同的時間。
 
 
 | 階段 | Power BI Desktop |  |Power BI 服務  |  |Cloud Partner 入口網站  |

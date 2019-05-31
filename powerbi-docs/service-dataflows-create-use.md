@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/19/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426623"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61143121"
 ---
-# <a name="creating-and-using-dataflows-in-power-bi-preview"></a>在 Power BI 中建立及使用資料流程 (預覽)
+# <a name="creating-and-using-dataflows-in-power-bi"></a>在 Power BI 中建立及使用資料流程
 
 您可以運用 **Power BI** 中提供的先進資料準備功能，建立稱為資料流程的集合物件，以用來和來自各種來源的商務資料連線、清除資料、轉換資料，然後將它載入到 Power BI 儲存體。
 
@@ -35,17 +35,14 @@ ms.locfileid: "56426623"
 
 我們會在以下各節中查看每個步驟，並藉機熟悉為完成每個步驟所提供的工具。 讓我們開始吧。
 
-> [!NOTE]
-> 資料流程功能目前處於預覽狀態，而且可能會在公開上市之前有所變更及更新。
-
 ## <a name="creating-a-dataflow"></a>建立資料流程
-若要建立資料流程，請啟動瀏覽器中的 Power BI 服務，然後從左側導覽窗格選取 [應用程式工作區] (Power BI 服務的 *my-workspace* 中無法使用資料流程)，如以下畫面所示。 您也可以建立新的工作區，以在其中建立新的資料流程。 
+若要建立資料流程，請啟動瀏覽器中的 Power BI 服務，然後從左側導覽窗格選取 [應用程式工作區]  (Power BI 服務的 *my-workspace* 中無法使用資料流程)，如以下畫面所示。 您也可以建立新的工作區，以在其中建立新的資料流程。 
 
 ![在 Power BI 中建立資料流程](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 
-一旦您進入可建立資料流程的 [應用程式工作區] 區域，畫布右上角就會顯示 [+ 建立] 按鈕。 選取 [+ 建立] 按鈕，然後從下拉式清單選取 [資料流程]。 
+一旦您進入可建立資料流程的 [應用程式工作區]  區域，畫布右上角就會顯示 [+ 建立]  按鈕。 選取 [+ 建立]  按鈕，然後從下拉式清單選取 [資料流程]  。 
 
-請務必記住，任一資料流程都只能有*一個擁有者*，也就是建立它的人員。 只有擁有者可以編輯資料流程。 對資料流程建立所在之 [應用程式工作區] 擁有讀取或寫入權限的所有成員，都能從 **Power BI Desktop** 內部連線至資料流程，如此文章稍後所述。
+請務必記住，任一資料流程都只能有*一個擁有者*，也就是建立它的人員。 只有擁有者可以編輯資料流程。 對資料流程建立所在之 [應用程式工作區]  擁有讀取或寫入權限的所有成員，都能從 **Power BI Desktop** 內部連線至資料流程，如此文章稍後所述。
 
 ![使用 Power BI 服務的 [+ 建立] 按鈕建立資料流程](media/service-dataflows-create-use/dataflows-create-use_03a.png)
 
@@ -55,7 +52,7 @@ ms.locfileid: "56426623"
 
 ### <a name="add-entities"></a>新增實體
 
-「實體」 是一組用來儲存資料的欄位，類似於資料庫中的資料表。 您可以在下圖中看到選取的資料來源，您可以從該來源將資料內嵌至 Power BI。
+「實體」  是一組用來儲存資料的欄位，類似於資料庫中的資料表。 您可以在下圖中看到選取的資料來源，您可以從該來源將資料內嵌至 Power BI。
 
 ![選擇資料來源以新增實體](media/service-dataflows-create-use/dataflows-create-use_05a.png)
 
@@ -73,7 +70,7 @@ ms.locfileid: "56426623"
 
 一旦您選取要在實體中使用哪些來源資料，就可以使用 Power Query 編輯體驗 (類似於 **Power BI Desktop**中的 **Power Query 編輯器**)，將選取的資料塑形成最適合實體使用的表單。 您可以參閱 Power BI Desktop 的 [Query 概觀文章](desktop-query-overview.md)，深入了解 Power Query (Power Query 已併入 Power BI Desktop 成為 Power Query 編輯器)。 
 
-如果您想要查看 [查詢編輯器] 透過每個步驟所建立的程式碼，或想要建立您自己的成形程式碼，您可以使用 [進階編輯器] 。 
+如果您想要查看 [查詢編輯器] 透過每個步驟所建立的程式碼，或想要建立您自己的成形程式碼，您可以使用 [進階編輯器]  。 
 
 ![使用進階編輯器](media/service-dataflows-create-use/dataflows-create-use_07b.png)
 
@@ -83,7 +80,7 @@ ms.locfileid: "56426623"
 
 請從[什麼是 Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview) 文章取得此方法和 Common Data Model 的相關詳細資訊。
 
-若要搭配資料流程使用 Common Data Model，請在 [編輯查詢] 對話方塊中按一下 [對應到標準] 轉換。 您可以在顯示的 [對應實體] 畫面中，選取要對應的標準實體。
+若要搭配資料流程使用 Common Data Model，請在 [編輯查詢]  對話方塊中按一下 [對應到標準]  轉換。 您可以在顯示的 [對應實體]  畫面中，選取要對應的標準實體。
 
 ![對應到標準實體](media/service-dataflows-create-use/dataflows-create-use_08.png)
 
@@ -96,15 +93,15 @@ ms.locfileid: "56426623"
 
 所有未對應的來源資料行都會維持原樣，以確保對應結果是包含自訂欄位的標準實體。
 
-在您選取完成，且已準備好儲存您的實體和其資料設定時，就可以從功能表中選取 [儲存]。 請注意，您可以選取 [新增實體] 按鈕以建立多個實體，而且您可以編輯實體以精簡您已經建立的查詢和實體。
+在您選取完成，且已準備好儲存您的實體和其資料設定時，就可以從功能表中選取 [儲存]  。 請注意，您可以選取 [新增實體]  按鈕以建立多個實體，而且您可以編輯實體以精簡您已經建立的查詢和實體。
 
 ![儲存實體對應](media/service-dataflows-create-use/dataflows-create-use_09.png)
 
-當您選取 [儲存] 時，系統會提示您命名資料流程並提供描述。
+當您選取 [儲存]  時，系統會提示您命名資料流程並提供描述。
 
 ![新資料流程的名稱和描述](media/service-dataflows-create-use/dataflows-create-use_10.png)
 
-當您準備就緒並選取 [儲存] 按鈕時，會顯示一個視窗，告知您**資料流程**已建立完成。 
+當您準備就緒並選取 [儲存]  按鈕時，會顯示一個視窗，告知您**資料流程**已建立完成。 
 
 ![資料流程已儲存](media/service-dataflows-create-use/dataflows-create-use_11.png)
 
@@ -114,15 +111,15 @@ ms.locfileid: "56426623"
 
 儲存資料流程之後，您可以為每個連線的資料來源排程重新整理頻率。
 
-Power BI 資料流程會使用 Power BI 的資料重新整理程序，維持資料的最新狀態。 在 [應用程式工作區] 區段的 [Power BI 服務] 中，有一個可列出您的資訊所在位置的區域集合 (包括資料流程)，如下圖所示。
+Power BI 資料流程會使用 Power BI 的資料重新整理程序，維持資料的最新狀態。 在 [應用程式工作區]  區段的 [Power BI 服務]  中，有一個可列出您的資訊所在位置的區域集合 (包括資料流程)，如下圖所示。
 
 ![使用 Power BI 服務管理資料流程](media/service-dataflows-create-use/dataflows-create-use_12.png)
 
-上圖中的*動態資料流程*實體是我們在上一節中建立資料流程。 若要排程重新整理，請選取 [動作] 區段底下的 [排程重新整理] 圖示，如下圖所示。 
+上圖中的*動態資料流程*實體是我們在上一節中建立資料流程。 若要排程重新整理，請選取 [動作]  區段底下的 [排程重新整理]  圖示，如下圖所示。 
 
 ![[動作] 區段中的 [排程重新整理] 按鈕](media/service-dataflows-create-use/dataflows-create-use_13.png)
 
-當您選取 [排程重新整理] 圖示時，會帶您前往 [排程重新整理] 窗格中，讓您設定資料流程重新整理頻率和時間。
+當您選取 [排程重新整理]  圖示時，會帶您前往 [排程重新整理]  窗格中，讓您設定資料流程重新整理頻率和時間。
 
 ![排程重新整理設定](media/service-dataflows-create-use/dataflows-create-use_14.png)
 
@@ -133,15 +130,15 @@ Power BI 資料流程會使用 Power BI 的資料重新整理程序，維持資�
 
 一旦資料流程建立完成，且已排定將填入模型之每個資料來源的重新整理頻率之後，您就可以進行第三個和最後一個步驟，也就是從 **Power BI Desktop** 內連線至您的資料流程。 
 
-若要連線至資料流程，請在 Power BI Desktop 中選取 [取得資料] > [Power BI] > [Power BI 資料流程 (Beta)]，如下圖所示。
+若要連線至資料流程，請在 Power BI Desktop 中選取 [取得資料] > [Power BI] > [Power BI 資料流程 (Beta)]  ，如下圖所示。
 
 ![從 Power BI Desktop 連線至資料流程](media/service-dataflows-create-use/dataflows-create-use_15.png)
 
-請從這裡瀏覽至您儲存資料流程的 [應用程式工作區]，選取資料流程，然後從清單中選取您建立的實體。
+請從這裡瀏覽至您儲存資料流程的 [應用程式工作區]  ，選取資料流程，然後從清單中選取您建立的實體。
 
-您也可以使用靠近視窗頂端的 [搜尋列]，從許多資料流程實體中快速找出您資料流程或實體的名稱。
+您也可以使用靠近視窗頂端的 [搜尋列]  ，從許多資料流程實體中快速找出您資料流程或實體的名稱。
 
-當您選取實體，然後選取 [載入] 按鈕時，實體會出現在 **Power BI Desktop** 的 [欄位] 窗格中，並以類似於任何其他資料集**資料表**的運作方式運作。
+當您選取實體，然後選取 [載入]  按鈕時，實體會出現在 **Power BI Desktop** 的 [欄位]  窗格中，並以類似於任何其他資料集**資料表**的運作方式運作。
 
 ## <a name="using-dataflows-stored-in-azure-data-lake-storage-gen2"></a>使用儲存在 Azure Data Lake Storage Gen2 中的資料流程
 
@@ -165,9 +162,9 @@ Power BI 資料流程會使用 Power BI 的資料重新整理程序，維持資�
 這篇文章說明如何在 **Power BI Desktop** 中建立您自己的**資料流程**，以及建立資料集和報表以供使用。 下列文章可在您使用資料流程時，提供更詳細的資訊與案例：
 
 * [使用資料流程的自助資料準備](service-dataflows-overview.md)
-* [使用 Power BI Premium 上的計算實體 (預覽)](service-dataflows-computed-entities-premium.md)
-* [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
-* [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
+* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
+* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 * [資料流程與 Azure Data Lake 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：

@@ -11,11 +11,11 @@ ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279979"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61370438"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>在 Power BI 中顯示沒有資料的項目
 
@@ -27,7 +27,7 @@ Power BI 可讓您將來自各式來源的各種資料視覺化。 建立視覺�
 
 若要開始了解 Power BI 如何判斷資料相關性以決定是否要顯示，讓我們以一個資料表作為簡單的範例。 使用在本文末端的範例小節中所示的模型，考慮搭配下列設定來建立資料表：
 
-**1.來自相同資料表的群組：***Product[Color] - Product[Size]*
+**1.來自相同資料表的群組：** *Product[Color] - Product[Size]*
 
 |*Product[Color]*  |*Product[Size]*  |
 |---------|---------|
@@ -40,7 +40,7 @@ Power BI 可讓您將來自各式來源的各種資料視覺化。 建立視覺�
 
 讓我們看看另一個不同的組合：
 
-**2.來自不同但直接相關之資料表的群組，以及一個量值：***ProductStyle[Finish] - Product[Color] - Sum(Sales[Quantity])*
+**2.來自不同但直接相關之資料表的群組，以及一個量值：** *ProductStyle[Finish] - Product[Color] - Sum(Sales[Quantity])*
 
 |*ProductStyle[Finish]*  |*Product[Color]*  |*[SumQuantity]*  |
 |---------|---------|---------|
@@ -51,7 +51,7 @@ Power BI 可讓您將來自各式來源的各種資料視覺化。 建立視覺�
 
 讓我們看看另一個不同的例子： 
 
-**3.來自不同但相關之資料表的群組，且沒有量值：***ProductStyle[Finish] - Product[Color]*
+**3.來自不同但相關之資料表的群組，且沒有量值：** *ProductStyle[Finish] - Product[Color]*
 
 |*ProductStyle[Finish]*  |*Product[Color]*  |
 |---------|---------|
@@ -72,16 +72,16 @@ Power BI 可讓您將來自各式來源的各種資料視覺化。 建立視覺�
 
 ## <a name="showing-items-with-no-data"></a>顯示沒有資料的項目
 
-上一節說明 Power BI 如何判斷資料相關性以決定是否要顯示。 但在某些情況下，您可能會「想要」顯示沒有資料的項目。 
+上一節說明 Power BI 如何判斷資料相關性以決定是否要顯示。 但在某些情況下，您可能會「想要」  顯示沒有資料的項目。 
 
 **顯示沒有資料的項目**功能便可讓您這麼做，並包含沒有量值資料 (空白量值) 的資料列和資料行。
 
-若要啟用**顯示沒有資料的項目**功能，請選取視覺效果，然後在 [欄位] 中以滑鼠右鍵按一下欄位，並從顯示的功能表中選取 [顯示沒有資料的項目]，如下圖所示：
+若要啟用**顯示沒有資料的項目**功能，請選取視覺效果，然後在 [欄位]  中以滑鼠右鍵按一下欄位，並從顯示的功能表中選取 [顯示沒有資料的項目]  ，如下圖所示：
 
 ![如何啟用「顯示沒有資料的項目」功能](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
 
-**顯示沒有資料的項目**功能在下列情況下將「不會」產生影響：
+**顯示沒有資料的項目**功能在下列情況下將「不會」  產生影響：
 
 * 沒有將量值新增至視覺效果，且群組的資料行是來自相同的資料表
 * 群組彼此不相關；Power BI 不會針對具有不相關群組的視覺效果執行查詢
@@ -92,18 +92,18 @@ Power BI 可讓您將來自各式來源的各種資料視覺化。 建立視覺�
 
 **顯示沒有資料的項目**最有意思的使用案例是當量值存在時。 讓我們看看當群組是來自相同的資料表，或可透過模型中的路徑相關聯的情況。 例如，*ProductStyle* 是直接與 *Product* 相關，且間接與 *Sales* 相關；*ProductStyle* 和 *ProductCategory* 可以透過 *Product* 資料表互相關聯，依此類推。
 
-讓我們看看幾個有意思的案例，並比較開啟和關閉 [顯示沒有資料的項目] 所帶來的影響。 
+讓我們看看幾個有意思的案例，並比較開啟和關閉 [顯示沒有資料的項目]  所帶來的影響。 
 
-**1.將來自相同資料表的資料行組成群組：***Product[Color] - Product[Size] - Sum(Sales[Quantity])*
+**1.將來自相同資料表的資料行組成群組：** *Product[Color] - Product[Size] - Sum(Sales[Quantity])*
 
-關閉 [顯示沒有資料的項目] 功能時的情況：
+關閉 [顯示沒有資料的項目]  功能時的情況：
 
 |*Product[Color]*  |*Product[Size]*  |*[SumQuantity]*  |
 |---------|---------|---------|
 |藍色     |中         |15         |
 |藍色     |小         |10         |
 
-開啟 [顯示沒有資料的項目] 功能時的情況：
+開啟 [顯示沒有資料的項目]  功能時的情況：
 
 |*Product[Color]*  |*Product[Size]*  |*[SumQuantity]*  |
 |---------|---------|---------|
@@ -114,16 +114,16 @@ Power BI 可讓您將來自各式來源的各種資料視覺化。 建立視覺�
 
 注意到在開啟該功能時，出現兩個新的組合：*Blue - Large* 和 *Red - Large*。 那兩個項目在 *Sales* 資料表中都沒有相對應的 *Quantity*。 不過，它們出現在 *Product* 資料表中。
 
-**2.將來自相關資料表的資料行組成群組：***ProductStyle[Finish] - Product[Color] - Sum(Sales[Quantity])*
+**2.將來自相關資料表的資料行組成群組：** *ProductStyle[Finish] - Product[Color] - Sum(Sales[Quantity])*
 
-關閉 [顯示沒有資料的項目] 功能時的情況：
+關閉 [顯示沒有資料的項目]  功能時的情況：
 
 |*ProductStyle[Finish]*  |*Product[Color]*  |*[SumQuantity]*  |
 |---------|---------|---------|
 |亮面     |藍色         |10         |
 |暗面     |藍色         |15         |
 
-開啟 [顯示沒有資料的項目] 功能時的情況：
+開啟 [顯示沒有資料的項目]  功能時的情況：
 
 |*ProductStyle[Finish]*  |*Product[Color]*  |*[SumQuantity]*  |
 |---------|---------|---------|
@@ -135,15 +135,15 @@ Power BI 可讓您將來自各式來源的各種資料視覺化。 建立視覺�
 注意到 *(Gloss-Red)* 和 *(None, blank)* 顯示為組合。 它們出現的原因如下：
 * Power BI 先考慮 ProductStyle[Finish]，並選取所有要顯示的值，導致出現 Gloss、Matte、None 這三個值。
 * Power BI 使用這些值選取出所有相對應的 *Product[Color]* 項目 
-* 由於 *None* 沒有對應到任何 *Product[Color]*，系統針對該值顯示空白
+* 由於 *None* 沒有對應到任何 *Product[Color]* ，系統針對該值顯示空白
 
-請務必注意，針對資料行選取值的機制會與順序相依，您可以將它想成兩個資料表之間的「左方外部聯結」作業。 如果資料行的順序出現變更，結果也將會變更。
+請務必注意，針對資料行選取值的機制會與順序相依，您可以將它想成兩個資料表之間的「左方外部聯結」  作業。 如果資料行的順序出現變更，結果也將會變更。
 
 讓我們看看變更順序的範例，以及它影響結果的方式。 此範例與本節中的項目 **2** 相同，只是順序出現變更。
 
 **Product[Color] - ProductStyle[Finish] - Sum(Sales[Quantity])**
 
-開啟 [顯示沒有資料的項目] 功能時的情況：
+開啟 [顯示沒有資料的項目]  功能時的情況：
 
 |*Product[Color]* |*ProductStyle[Finish]*  |*[SumQuantity]*  |
 |---------|---------|---------|

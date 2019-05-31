@@ -1,10 +1,18 @@
+---
+ms.openlocfilehash: 867e528c43126ae9073c0113905d59a835c46a96
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61396395"
+---
 除了豐富的圖表之外，Power BI Desktop 還支援更多的表格式視覺效果。 事實上，當您擷取某個類別欄位或文字欄位並拖曳到報表畫布時，預設會取得資料表結果。 您可以向上及向下捲動資料表，一開始會依字母順序排序。
 
 ![](media/3-6-create-tables-matrixes/3-6_1.png)
 
 如果資料表中有數值資訊 (例如收益)，最下方會顯示總和。 您可以按一下資料行的標題，切換為遞增或遞減順序，來手動排序每個資料行。 如果資料行的寬度不足以顯示所有內容，請按一下並左右拖曳標題將它展開。
 
-[視覺效果] 窗格之 [值] 值區中的欄位順序，決定這些欄位在資料表中的顯示順序。
+[視覺效果]  窗格之 [值]  值區中的欄位順序，決定這些欄位在資料表中的顯示順序。
 
 ![](media/3-6-create-tables-matrixes/3-6_2.png)
 

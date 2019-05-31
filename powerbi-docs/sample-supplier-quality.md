@@ -11,11 +11,11 @@ ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 3ef48bbe55793825693382252ac143068549d7a8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292966"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61238811"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的供應商品質分析範例：觀看導覽
 
@@ -38,13 +38,13 @@ ms.locfileid: "54292966"
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
-2. 在左下角選取 [取得資料]。
+2. 在左下角選取 [取得資料]  。
    
     ![](media/sample-datasets/power-bi-get-data.png)
-3. 在顯示的 [取得資料] 頁面上，選取 [範例]。
+3. 在顯示的 [取得資料] 頁面上，選取 [範例]  。
    
    ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 選取 [供應商品質分析範例]，然後選擇 [連線]。  
+4. 選取 [供應商品質分析範例]  ，然後選擇 [連線]  。  
   
    ![供應商品質分析範例](media/sample-supplier-quality/supplier16.png)
    
@@ -59,7 +59,7 @@ ms.locfileid: "54292966"
  * [供應商品質分析範例 PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
-您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529779)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]。
+您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529779)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]  。
 
 
 ## <a name="downtime-caused-by-defective-materials"></a>用料瑕疵所造成的停工時間
@@ -84,12 +84,12 @@ ms.locfileid: "54292966"
 
    ![](media/sample-supplier-quality/supplier4.png)  
 
-    樹狀圖會自動將 [廠商]  欄位做為 [群組] 。  
+    樹狀圖會自動將 [廠商]  欄位做為 [群組]  。  
 
     ![](media/sample-supplier-quality/supplier5.png)  
 
    從此樹狀圖中，我們可以看到前八個廠商是樹狀圖左側的八個區塊。 我們也可以發現它們應為約 50% 的停工時間總分鐘數承擔責任。  
-3. 選取導覽列頂端的 [供應商品質分析範例]，返回儀表板。
+3. 選取導覽列頂端的 [供應商品質分析範例]  ，返回儀表板。
 
 ### <a name="comparing-plants"></a>比較工廠
 現在讓我們來探索哪些工廠有妥善管理瑕疵用料，以確保較短的停工時間。  
@@ -107,12 +107,12 @@ ms.locfileid: "54292966"
 3. 在泡泡圖中選取 [物流] 泡泡，並觀察伊利諾州春田市和內珀維爾市的工廠。 內珀維爾市似乎在管理瑕疵供貨方面做得更好，因為它的退貨量較高，影響量也較小，而春田市的影響量就較大。  
 
    ![](media/sample-supplier-quality/supplier8.png)  
-4. 選取導覽列頂端的 [供應商品質分析範例]，返回您的使用中工作區。
+4. 選取導覽列頂端的 [供應商品質分析範例]  ，返回您的使用中工作區。
 
 ## <a name="which-material-type-is-best-managed"></a>哪種類型的用料管理最佳？
 管理最佳的用料類型是指不論瑕疵品數量為何，皆具有最低的停工時間或不造成任何影響的類型。
 
-* 在儀表板上，查看 [依物料類型的瑕疵品總數、瑕疵類型] 磚。
+* 在儀表板上，查看 [依物料類型的瑕疵品總數、瑕疵類型]  磚。
 
   ![](media/sample-supplier-quality/supplier9.png)
 
@@ -132,7 +132,7 @@ ms.locfileid: "54292966"
 
     ![](media/sample-supplier-quality/supplier11.png)  
 3. 瑕疵品多代表停工時間一定也更多嗎？ 我們可以在問與答方塊提問以找出答案。  
-4. 選取導覽列頂端的 [供應商品質分析範例]，返回儀表板。  
+4. 選取導覽列頂端的 [供應商品質分析範例]  ，返回儀表板。  
 5. 既然我們知道 [原料] 具有最高數量的瑕疵品，可在問題方塊中輸入：顯示物料類型、年份和瑕疵品總數。  
 
     2014 年的原料瑕疵品數量比 2013 年高很多。  

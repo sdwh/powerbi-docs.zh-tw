@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c172ca90a849ca83a1faeed5dbab3bda96698c1a
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239806"
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>在 Power BI Desktop 中從範例新增資料行
@@ -28,33 +28,33 @@ ms.locfileid: "65239806"
 * 您已經知道需要哪種轉換，但不確定在 UI 中點擊或選取哪裡可以進行轉換。
 * 您完全了解在 **M** 中使用 *Custom Column* 運算式所需要的轉換，但其中一個 (或多個) 運算式在 UI 中無法點選或新增。
 
-[從範例新增資料行] 功能易用也易懂。 從接下來幾節，您會知道有多麼簡單。
+[從範例新增資料行]  功能易用也易懂。 從接下來幾節，您會知道有多麼簡單。
 
 ## <a name="use-query-editor-to-add-a-new-column-from-examples"></a>使用查詢編輯器從範例新增新資料行
-若要從範例建立新資料行，請啟動 [查詢編輯器]。 您也可以從 **Power BI Desktop** 的 [常用] 功能區選取 [編輯查詢] 以完成這個動作。
+若要從範例建立新資料行，請啟動 [查詢編輯器]  。 您也可以從 **Power BI Desktop** 的 [常用]  功能區選取 [編輯查詢]  以完成這個動作。
 
 ![](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-若要從網頁取得資料，請移至 [首頁] 索引標籤，按一下 [取得資料] > [Web]，然後將 URL 貼入出現的對話方塊。 本文使用 Wikipedia 文章中的資料。 您可以按一下下列連結為您自己取得資料，並遵循指示：
+若要從網頁取得資料，請移至 [首頁]  索引標籤，按一下 [取得資料] > [Web]  ，然後將 URL 貼入出現的對話方塊。 本文使用 Wikipedia 文章中的資料。 您可以按一下下列連結為您自己取得資料，並遵循指示：
 
 * [**美國州份和領地列表**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
 
-在**查詢編輯器**已啟動，而您也載入一些資料後，即可開始從範例新增資料行。 若要新增新資料行，請在 [查詢編輯器] 的功能區選取 [新增資料行] 索引標籤，再選取 [來自範例的資料行]。 如果您選擇下拉式清單，可以選取 [來自所有資料行]\ (如果您直接選取按鈕而非下拉式清單，這會是預設選項) 或選取 [來自選取項目]。 在本文中，我們會逐步執行選取 [來自所有資料行] 的步驟。
+在**查詢編輯器**已啟動，而您也載入一些資料後，即可開始從範例新增資料行。 若要新增新資料行，請在 [查詢編輯器]  的功能區選取 [新增資料行]  索引標籤，再選取 [來自範例的資料行]  。 如果您選擇下拉式清單，可以選取 [來自所有資料行]\  (如果您直接選取按鈕而非下拉式清單，這會是預設選項) 或選取 [來自選取項目]  。 在本文中，我們會逐步執行選取 [來自所有資料行]  的步驟。
 
 ![](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
 ## <a name="the-add-column-from-examples-pane"></a>[從範例新增資料行] 窗格
 在您進行選取，以從範例新增新資料行後，新的窗格隨即出現，顯示目前資料表中的資料行 (您可能必須捲動才能看到全部)。 新的 **Column1** 也會顯示在右側，這是 **Power BI Desktop** 依據您的範例所建立的資料行。 在新的 **Column1** 標頭下為空白儲存格，您可以在其中鍵入範例，讓 Power BI 用以建立規則及轉換，以符合您的範例。
 
-請注意，這是 [查詢設定] 窗格中的 [Applied Step] \(套用的步驟\)。 一如往常，**查詢編輯器**會記錄您的轉換步驟，並依序將其套用到查詢。
+請注意，這是 [查詢設定]  窗格中的 [Applied Step] \(套用的步驟\)  。 一如往常，**查詢編輯器**會記錄您的轉換步驟，並依序將其套用到查詢。
 
 ![](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
-這稱作 [從範例新增資料行] 窗格，其中包含四個主要區域：
+這稱作 [從範例新增資料行]  窗格，其中包含四個主要區域：
 
 1. 包含功能或轉換之簡短描述的**命令列**。
-2. [傳送意見反應] 選項可協助 Power BI 改進這項功能。
-3. [確定] 和 [取消] 按鈕，可讓您認可轉換及新增資料行，或取消作業。
+2. [傳送意見反應]  選項可協助 Power BI 改進這項功能。
+3. [確定]  和 [取消]  按鈕，可讓您認可轉換及新增資料行，或取消作業。
 4. 新資料行區域，您可以在這裡鍵入任何資料列中的範例值 (向 Power BI 提供您的範例)，與該資料列中的其他資料行相關。
 
 ![](media/desktop-add-column-from-example/add-column-from-example_05.png)
@@ -65,7 +65,7 @@ ms.locfileid: "65239806"
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
-**查詢編輯器**會在您持續提供範例的同時，新增到轉換。 當您完成時，可以選取 [確定] 認可變更。
+**查詢編輯器**會在您持續提供範例的同時，新增到轉換。 當您完成時，可以選取 [確定]  認可變更。
 
 ## <a name="see-add-column-from-examples-in-action"></a>查看 [從範例新增資料行] 實際運作情形
 想要看這項功能實際運作嗎？ 下方影片使用本範例稍早提供的資料來源，示範這項功能的實際運用情形。 請觀看，並自己跟著操作！
@@ -73,7 +73,7 @@ ms.locfileid: "65239806"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-ykbVW9wQfw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="considerations-and-limitations"></a>考量與限制
-使用 [從範例新增資料行] 時有多種轉換可用，但並非所有轉換都包含在內。 以下清單提供所有受支援的轉換。
+使用 [從範例新增資料行]  時有多種轉換可用，但並非所有轉換都包含在內。 以下清單提供所有受支援的轉換。
 
 * **參考**
   
@@ -99,7 +99,7 @@ ms.locfileid: "65239806"
   * 保留字元
 
 > [!NOTE]
-> 所有「文字」轉換皆考量到欄位值可能需要的修剪、清除或套用大小寫轉換。
+> 所有「文字」  轉換皆考量到欄位值可能需要的修剪、清除或套用大小寫轉換。
 > 
 > 
 
@@ -138,7 +138,7 @@ ms.locfileid: "65239806"
   * 當地時間
 
 > [!NOTE]
-> ：請留意，所有「日期」和「時間」轉換都可能必須將資料行值轉換為「日期」或「時間」，或「日期時間」。
+> ：請留意，所有「日期」  和「時間」  轉換都可能必須將資料行值轉換為「日期」  或「時間」  ，或「日期時間」  。
 > 
 > 
 

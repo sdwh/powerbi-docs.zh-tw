@@ -3,19 +3,19 @@ title: 如何重新整理 Xero 內容套件認證
 description: 如果您使用 Xero Power BI 內容套件，內容套件每日更新可能會因為最近的 Power BI 服務事件而發生問題。
 author: SarinaJoan
 manager: kfile
-ms.reviewer: maggiesMSFT
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 0e49f4b1260e293f0b6e496b06fbe5645c813c8b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 1d773f8c7509fa4bbf872ae62f03bbb4da815d84
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278117"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61219492"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>如何在重新整理失敗時，重新整理 Xero 內容套件認證
 如果您使用 Xero Power BI 內容套件，內容套件每日更新可能會因為最近的 Power BI 服務事件而發生問題。
@@ -26,22 +26,22 @@ ms.locfileid: "54278117"
 
 如果看到如上所示的重新整理失敗，請依照下列步驟更新內容套件認證。
 
-1. 按一下 Xero 資料集旁邊的省略符號 (...)，再按一下 [排程更新]。 這會開啟 Xero 內容套件的設定頁面。
+1. 按一下 Xero 資料集旁邊的省略符號 (...)，再按一下 [排程更新]  。 這會開啟 Xero 內容套件的設定頁面。
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-schedule-refresh.png)
-2. 在 [Settings for Xero] \(Xero 設定) 頁面上，選取 [資料來源認證] > [編輯認證]。
+2. 在 [Settings for Xero] \(Xero 設定)  頁面上，選取 [資料來源認證]   > [編輯認證]  。
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-settings-page.png)
-3. 輸入貴組織名稱 > [下一步]。
+3. 輸入貴組織名稱 > [下一步]  。
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-configure.png)
 4. 使用您的 Xero 帳戶登入。
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-welcome.png)
-5. 更新認證後，讓我們來確定重新整理排程設定為每日執行。 檢查方法是按一下 Xero 資料集旁邊的省略符號 (...)，再按一下 [排程更新]。
+5. 更新認證後，讓我們來確定重新整理排程設定為每日執行。 檢查方法是按一下 Xero 資料集旁邊的省略符號 (...)，再按一下 [排程更新]  。
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-schedule.png)
-6. 您也可以選擇立即重新整理資料集。 按一下 Xero 資料集旁邊的省略符號 (...)，再按一下 [立即重新整理]。
+6. 您也可以選擇立即重新整理資料集。 按一下 Xero 資料集旁邊的省略符號 (...)，再按一下 [立即重新整理]  。
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 

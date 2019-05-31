@@ -11,11 +11,11 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: a4bc58a5be385e22c68aa29a8a366231c8434bba
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283940"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61407243"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中儲存報告
 變更 Power BI 中的報表之後，您可以儲存、以新的名稱儲存，或只關閉但不儲存變更。 假設您開啟了報表、建立視覺效果，以及將它釘選至儀表板。 如果您現在關閉而不儲存變更，圖格仍會保留在儀表板上，但報表中不會儲存視覺效果。 當您按一下該儀表板上的圖格時，報告隨即開啟，但是報告中不存在視覺效果。
@@ -29,7 +29,7 @@ ms.locfileid: "54283940"
 1. 如果您嘗試不巡覽報表，而且報表包含變更，Power BI 將會顯示提示。
    
    ![儲存變更](media/service-report-save/power-bi-unsaved.png)
-2. 儲存報表的另一種方式是選取 [檔案] \> [儲存] 或 [另存新檔]。 如果您是位於[閱讀檢視](consumer/end-user-reading-view.md)，則只會看到 [另存新檔] 選項。 
+2. 儲存報表的另一種方式是選取 [檔案]  \> [儲存]  或 [另存新檔]  。 如果您是位於[閱讀檢視](consumer/end-user-reading-view.md)，則只會看到 [另存新檔] 選項。 
    
    ![儲存報表](media/service-report-save/power-bi-save-new.png)
 3. 如果這是新的報表 (儲存) 或現有報表的新版本 (另存新檔)，請指定它的描述性名稱。  **報告將會新增至使用中工作區**。

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 64957fa71249c551b4f69b619a12baf03fae6b06
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513706"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 的 DAX 基本概念
@@ -36,7 +36,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 了解 DAX 的最佳方式是建立一些基本公式、用來處理一些實際資料，並親自查看結果。 此處的範例和工作使用適用於 Power BI Desktop Preview 的 Contoso Sales 範例檔案。 此檔案是[教學課程：在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)一文中使用的相同範例檔案。 這是要下載的[範例檔案](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)。
 
 ## <a name="lets-begin"></a>現在就開始進行！
-我們將分成下列三個基本概念介紹 DAX：「語法」、「函式」和「內容」。 DAX 當然還有其他重要概念，不過了解這三個概念將為您的 DAX 技能奠定最佳基礎。
+我們將分成下列三個基本概念介紹 DAX：「語法」  、「函式」  和「內容」  。 DAX 當然還有其他重要概念，不過了解這三個概念將為您的 DAX 技能奠定最佳基礎。
 
 ### <a name="syntax"></a>語法
 在您建立自己的公式之前，請先了解 DAX 公式語法。 語法包含組成公式的各種元素，簡單來說就是公式的撰寫方式。 舉例來說，以下是某個量值的簡單 DAX 公式。
@@ -47,7 +47,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 
 **A.** 量值名稱 **Total Sales**。
 
-**B.** 等號運算子 (**=**) 表示公式的開頭。 一旦計算，即會傳回結果。
+**B.** 等號運算子 ( **=** ) 表示公式的開頭。 一旦計算，即會傳回結果。
 
 **C.** DAX 函數 **SUM** 會加總 **Sales[SalesAmount]** 資料行中的所有數值。 稍後您將進一步了解函數。
 
@@ -55,7 +55,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 
 **E.** 參考資料表 **Sales**。
 
-**F.** Sales 資料表中的參考資料行 **[SalesAmount]**。 有了這個引數，SUM 函數便知道哪個資料行要加以彙總總和。
+**F.** Sales 資料表中的參考資料行 **[SalesAmount]** 。 有了這個引數，SUM 函數便知道哪個資料行要加以彙總總和。
 
 嘗試了解 DAX 公式時，將每個元素解析成您平日思考及說出的話語會很有幫助。 例如，您可以將這個公式讀成：
 
@@ -83,23 +83,23 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 ### <a name="task-create-a-measure-formula"></a>工作：建立量值公式
 若要完成這項工作，您需要開啟 Contoso Sales 範例 Power BI Desktop 檔案。
     
-1. 在 [報表] 檢視的 [欄位] 清單中，以滑鼠右鍵按一下 **Sales** 資料表，然後按一下 [新增量值]。
+1. 在 [報表] 檢視的 [欄位] 清單中，以滑鼠右鍵按一下 **Sales** 資料表，然後按一下 [新增量值]  。
     
-2. 在公式列中，輸入新量值名稱 **Previous Quarter Sales** 來取代 [量值]。
+2. 在公式列中，輸入新量值名稱 **Previous Quarter Sales** 來取代 [量值]  。
     
 3. 在等號之後，鍵入前幾個字母 **CAL**，然後按兩下您想要使用的函式。 在此公式中，您想要 **CALCULATE** 函式。
 
    您將透過我們傳遞給 CALCULATE 函數的引數，使用 CALCULATE 函數來篩選要加總的金額。 這就是所謂的巢狀函數。 CALCULATE 函數至少有兩個引數。 第一個引數是要評估的運算式，第二個引數是篩選條件。
    
-4. 在 **CALCULATE** 函式的左括弧 **(** 之後，鍵入 **SUM**，後面接著另一個左括弧 **(**。 現在，我們需要傳遞引數給 SUM 函式。
+4. 在 **CALCULATE** 函式的左括弧 **(** 之後，鍵入 **SUM**，後面接著另一個左括弧 **(** 。 現在，我們需要傳遞引數給 SUM 函式。
 
-5. 開始輸入 **Sal**，然後選取 [Sales[SalesAmount]]，後面接著右括弧 **)**。 這是 CALCULATE 函數的第一個運算式引數。
+5. 開始輸入 **Sal**，然後選取 [Sales[SalesAmount]]  ，後面接著右括弧 **)** 。 這是 CALCULATE 函數的第一個運算式引數。
     
-6. 鍵入逗號 (**,**) 後面接著一個空格，以指定第一個篩選條件，然後鍵入 **PREVIOUSQUARTER**。 這將是我們的篩選條件。
+6. 鍵入逗號 ( **,** ) 後面接著一個空格，以指定第一個篩選條件，然後鍵入 **PREVIOUSQUARTER**。 這將是我們的篩選條件。
     
    您將使用 PREVIOUSQUARTER 時間智慧函數，依上一季來篩選 SUM 結果。
     
-7. 在 PREVIOUSQUARTER 函式的左括弧 **(** 之後，鍵入 **Calendar[DateKey]**。
+7. 在 PREVIOUSQUARTER 函式的左括弧 **(** 之後，鍵入 **Calendar[DateKey]** 。
     
    PREVIOUSQUARTER 函數有一個引數，那就是包含連續日期範圍的資料行。 在我們的案例中，這會是 Calendar 資料表中的 DateKey 資料行。
     
@@ -176,17 +176,17 @@ DAX 包含下列函數類別：[日期和時間](https://msdn.microsoft.com/libr
 
 **A.** 量值名稱 **Store Sales**。
 
-**B.** 等號運算子 (**=**) 表示公式的開頭。
+**B.** 等號運算子 ( **=** ) 表示公式的開頭。
 
 **C.** **CALCULATE** 函數會在指定篩選條件所修改的內容中，作為引數來評估運算式。
 
 **D.** 括弧 **()** 會括住內含一或多個引數的運算式。
 
-**E.** 同一個資料表中作為運算式的量值 [Total Sales]。 Total Sales 量值的公式為：=SUM(Sales[SalesAmount])。
+**E.** 同一個資料表中作為運算式的量值 [Total Sales]  。 Total Sales 量值的公式為：=SUM(Sales[SalesAmount])。
 
-**F.** 逗號 (**,**) 會隔開第一個運算式引數和篩選引數。
+**F.** 逗號 ( **,** ) 會隔開第一個運算式引數和篩選引數。
 
-**G.** 完整的參考資料行 **Channel[ChannelName]**。 這是我們的資料列內容。 此資料行中的每個資料列都指定通道：Store、Online 等等。
+**G.** 完整的參考資料行 **Channel[ChannelName]** 。 這是我們的資料列內容。 此資料行中的每個資料列都指定通道：Store、Online 等等。
 
 **H.** 以特定值 **Store** 作為篩選條件。 這是我們的篩選內容。
 

@@ -1,4 +1,12 @@
-歡迎使用 Power BI **引導式學習**課程的＜探索資料＞一節。 現在，您已了解 Power BI Desktop 以及如何取得資料並將其視覺化，即可開始探索 Power BI 服務中的資料。
+---
+ms.openlocfilehash: 8e5755f632a0cfab8b0b4bc79871c96ee9e2aeef
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263199"
+---
+歡迎使用 Power BI **引導式學習**課程的＜探索資料＞  一節。 現在，您已了解 Power BI Desktop 以及如何取得資料並將其視覺化，即可開始探索 Power BI 服務中的資料。
 
 ![](media/4-0-intro-power-bi-service/4-0_2.png)
 

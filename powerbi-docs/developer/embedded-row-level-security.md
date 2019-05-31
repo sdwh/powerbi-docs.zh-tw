@@ -1,20 +1,20 @@
 ---
 title: 搭配 Power BI 內嵌內容使用資料列層級安全性
 description: 了解您在應用程式中內嵌 Power BI 內容時必須採取的步驟。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: fdc4e90c65ef02f7416ffce9a41b0b2ed028abc8
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.date: 03/27/2019
+ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57328002"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61353676"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>搭配 Power BI Embedded 的資料列層級安全性
 
@@ -30,7 +30,7 @@ ms.locfileid: "57328002"
 
 **使用者**– 檢視成品 (儀表板、圖格、報表或資料集) 的終端使用者。 在 Power BI Embedded 中，使用者是由內嵌權杖中的使用者名稱屬性所識別。
 
-**角色** – 使用者會有隸屬的角色。 角色是規則的容器，可以命名為「銷售經理」或「銷售代表」等。您會在 Power BI Desktop 中建立角色。 如需詳細資訊，請參閱 [Power BI Desktop 的資料列層級安全性 (RLS)](../desktop-rls.md)。
+**角色** – 使用者會有隸屬的角色。 角色是規則的容器，可以命名為「銷售經理」  或「銷售代表」  等。您會在 Power BI Desktop 中建立角色。 如需詳細資訊，請參閱 [Power BI Desktop 的資料列層級安全性 (RLS)](../desktop-rls.md)。
 
 **規則** – 角色擁有規則，而這些規則是將套用至資料的實際篩選。 規則可以是簡單的「國家/地區 = 美國」，或是更複雜的項目。
 本文的其他部分有提供範例，示範如何在撰寫 RLS 後再於內嵌應用程式中加以取用。 我們的範例使用[零售分析範例](http://go.microsoft.com/fwlink/?LinkID=780547) PBIX 檔案。
@@ -47,33 +47,33 @@ RLS 是在 Power BI Desktop 中撰寫。 我們可以在資料集和報表處於
 
 以下是此結構描述需要注意的一些事項：
 
-* 所有量值 (例如 [總銷售額]) 會儲存在 [銷售] 事實資料表中。
-* 有四個額外的相關維度資料表：[項目]、[時間]、[商店] 和 [區域]。
-* 關聯線上的箭頭表示篩選可以從一個資料表流向另一個資料表的方向。 例如，如果在 [時間[日期]] 上套用篩選，在目前的結構描述中，它只會進一步篩選 [銷售] 資料表中的值。 由於關聯線上的所有箭頭都指向而不是背離 [銷售] 資料表，因此其他資料表不會受此篩選的影響。
-* [區域] 資料指出每個區域的經理：
+* 所有量值 (例如 [總銷售額]  ) 會儲存在 [銷售]  事實資料表中。
+* 有四個額外的相關維度資料表：[項目]  、[時間]  、[商店]  和 [區域]  。
+* 關聯線上的箭頭表示篩選可以從一個資料表流向另一個資料表的方向。 例如，如果在 [時間[日期]]  上套用篩選，在目前的結構描述中，它只會進一步篩選 [銷售]  資料表中的值。 由於關聯線上的所有箭頭都指向而不是背離 [銷售] 資料表，因此其他資料表不會受此篩選的影響。
+* [區域]  資料指出每個區域的經理：
   
     ![[區域] 資料表中的資料列](media/embedded-row-level-security/powerbi-embedded-district-table.png)
 
-根據此結構描述，若我們將篩選套用至 [區域] 資料表中的 [區域經理] 資料行，且該篩選符合檢視報表的使用者時，就會進一步篩選 [商店] 和 [銷售] 資料表，進而顯示該區域經理的資料。
+根據此結構描述，若我們將篩選套用至 [區域]  資料表中的 [區域經理]  資料行，且該篩選符合檢視報表的使用者時，就會進一步篩選 [商店]  和 [銷售]  資料表，進而顯示該區域經理的資料。
 
 其做法如下：
 
-1. 在 [模型] 索引標籤上，選取 [管理角色]。
+1. 在 [模型]  索引標籤上，選取 [管理角色]  。
 
     ![Power BI Desktop 中的 [模型] 索引標籤](media/embedded-row-level-security/powerbi-embedded-manage-roles.png)
 2. 建立稱為**經理**的新角色。
 
     ![建立新角色](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. 在 [區域] 資料表中，輸入此 DAX 運算式：**[區域經理] = USERNAME()**。
+3. 在 [區域]  資料表中，輸入此 DAX 運算式： **[區域經理] = USERNAME()** 。
 
     ![RLS 規則的 DAX 陳述式](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. 若要確認規則正常運作，請在 [模型] 索引標籤上選取 [以角色身分檢視]，然後選取您建立的 [經理] 角色，以及 [其他使用者]。 輸入 **AndrewMa** 作為使用者。
+4. 若要確認規則正常運作，請在 [模型]  索引標籤上選取 [以角色身分檢視]  ，然後選取您建立的 [經理]  角色，以及 [其他使用者]  。 輸入 **AndrewMa** 作為使用者。
 
     ![[以角色身分檢視] 對話方塊](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
 
     報表會顯示您以 **AndrewMa** 登入的資料。
 
-套用篩選，我們在此套用的篩選會進一步篩選 [區域]、[商店] 和 [銷售] 資料表中的所有記錄。 不過，由於 [銷售] 和 [時間]、[銷售] 和 [項目] 以及 [項目] 和 [時間] 之間關聯性的篩選方向，因此資料表不會進一步篩選。 若要深入了解雙向交叉篩選，請下載 [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (SQL Server Analysis Services 2016 和 Power BI Desktop 中的雙向交叉篩選) 技術白皮書。
+套用篩選，我們在此套用的篩選會進一步篩選 [區域]  、[商店]  和 [銷售]  資料表中的所有記錄。 不過，由於 [銷售]  和 [時間]  、[銷售]  和 [項目]  以及 [項目]  和 [時間]  之間關聯性的篩選方向，因此資料表不會進一步篩選。 若要深入了解雙向交叉篩選，請下載 [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (SQL Server Analysis Services 2016 和 Power BI Desktop 中的雙向交叉篩選) 技術白皮書。
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>將使用者和角色套用至內嵌權杖
 
@@ -98,7 +98,7 @@ var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view
 var tokenResponse = await client.Reports.GenerateTokenInGroupAsync(GroupId, report.Id, generateTokenRequestParameters);
 ```
 
-更新為
+to
 
 ```csharp
 var generateTokenRequestParameters = new GenerateTokenRequest("View", null, identities: new List<EffectiveIdentity> { new EffectiveIdentity(username: "username", roles: new List<string> { "roleA", "roleB" }, datasets: new List<string> { "datasetId" }) });
@@ -197,15 +197,15 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
     ![建立角色](media/embedded-row-level-security/azure-analysis-services-database-create-role.png)
 
-3. 進行 [一般] 設定。  在這裡提供**角色名稱**然後將資料庫權限設定為僅限 [讀取]。
+3. 進行 [一般]  設定。  在這裡提供**角色名稱**然後將資料庫權限設定為僅限 [讀取]  。
 
     ![建立角色 - 進行 [一般] 設定](media/embedded-row-level-security/azure-analysis-services-database-create-role-general-settings.png)
 
-4. 進行 [成員資格] 設定。 在這裡新增受此角色影響的使用者。
+4. 進行 [成員資格]  設定。 在這裡新增受此角色影響的使用者。
 
     ![建立角色 - 進行 [成員資格] 設定](media/embedded-row-level-security/azure-analysis-services-database-create-role-membership.png)
 
-5. 使用 *CUSTOMDATA()* 函式設定 [資料列篩選] DAX 查詢。
+5. 使用 *CUSTOMDATA()* 函式設定 [資料列篩選]  DAX 查詢。
 
     ![建立角色 - 設定 [資料列篩選]](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
 
@@ -214,6 +214,8 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
     ![PBI 報表範例](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
 7. 利用 Power BI API 在您的應用程式中使用 CustomData 功能。  使用自訂資料功能產生權杖時，您必須具有使用者名稱。 使用者名稱必須與主要使用者的 UPN 相等。 主要使用者必須為您所建立角色的成員。 若未指定任何角色，則會將主要使用者為成員的所有角色用於 RLS 評估。
+
+    使用時[服務主體](embed-service-principal.md)，您也需要執行上述步驟，改為使用主要帳戶。 當產生內嵌權杖時，使用[服務主體物件識別碼](embed-service-principal.md#how-to-get-the-service-principal-object-id)作為使用者名稱。
 
     > [!Note]
     > 當您準備將應用程式部署至生產環境時，終端使用者不應看到主要使用者帳戶欄位或選項。

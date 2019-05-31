@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 2a19cc832f7e03acfd224c6ab2409016ce8da770
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008719"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61179691"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>使用 Power BI 連接到 appFigures
 使用 Power BI 與 appFigures 內容套件，可輕易追蹤與應用程式有關的重要統計資料。 Power BI 會擷取您的資料，包括 App 銷售、下載及廣告統計資料，然後會根據該資料建立預設儀表板和相關報表。
@@ -26,13 +26,13 @@ ms.locfileid: "54008719"
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-appfigures/pbi_getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-appfigures/pbi_getservices.png)
-3. 選取 [appFigures] \> [取得]。
+3. 選取 [appFigures]  \> [取得]  。
    
    ![](media/service-connect-to-appfigures/appfigures.png)
-4. 針對 [驗證方法] 選取 [oAuth2] \> [登入]。 出現提示時，輸入 appFigures 認證，並遵循 appFigures 驗證程序。
+4. 針對 [驗證方法]  選取 [oAuth2]  \> [登入]  。 出現提示時，輸入 appFigures 認證，並遵循 appFigures 驗證程序。
    
    第一次連接時，Power BI 會提示您允許唯讀存取您的帳戶。 選取 [允許]  開始匯入程序。 這可能需要幾分鐘的時間，視您帳戶的資料量而定。
    
@@ -49,7 +49,7 @@ ms.locfileid: "54008719"
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="whats-included"></a>包含的內容
 從 Power BI 中的 appFigures 可使用下列資料。

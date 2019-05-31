@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 688f0e9bc1070c1cd9605a508d2086f52f7e5730
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008112"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61174245"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>使用 Power BI 連接到 Microsoft Dynamics AX 內容套件
 Microsoft Dynamics AX 有三種針對不同商務使用者的 Power BI 內容套件。 專為 CFO 所設計的財務績效內容套件，可存取組織財務績效的深入資訊。 零售通路績效內容套件針對注重銷售績效的通路管理員，直接繪製零售與商務資料，以預測趨勢和探索深入資訊。 成本管理是專為 COO 和 CFO 所設計，並提供作業效能的詳細資料。
@@ -26,16 +26,16 @@ Microsoft Dynamics AX 有三種針對不同商務使用者的 Power BI 內容套
 1. 選取左側瀏覽窗格底部的 [取得資料]  。
    
    ![](media/service-connect-to-microsoft-dynamics-ax/getdata.png)
-2. 在 [服務]  方塊中，選取 [取得] 。
+2. 在 [服務]  方塊中，選取 [取得]  。
    
    ![](media/service-connect-to-microsoft-dynamics-ax/services.png)
-3. 選取其中一個 Dynamics AX 內容套件，然後選擇 [取得]。
+3. 選取其中一個 Dynamics AX 內容套件，然後選擇 [取得]  。
    
    ![](media/service-connect-to-microsoft-dynamics-ax/mdax.png)
 4. 指定 Dynamics AX 7 環境的 URL。 請參閱以下關於[尋找這些參數](#FindingParams)的詳細資訊。
    
    ![](media/service-connect-to-microsoft-dynamics-ax/params.png)
-5. 針對 [驗證方法] 選取 [oAuth2] \> [登入]。 出現提示時，請輸入 Dynamics AX 認證。
+5. 針對 [驗證方法]  選取 [oAuth2]  \> [登入]  。 出現提示時，請輸入 Dynamics AX 認證。
    
     ![](media/service-connect-to-microsoft-dynamics-ax/creds.png)
    
@@ -49,7 +49,7 @@ Microsoft Dynamics AX 有三種針對不同商務使用者的 Power BI 內容套
 * 請嘗試在儀表板頂端的[問與答方塊中提問](consumer/end-user-q-and-a.md)
 * [變更儀表板中的圖格](service-dashboard-edit-tile.md)。
 * [選取圖格](consumer/end-user-tiles.md)，開啟基礎報表。
-* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理] 視需要嘗試重新整理
+* 雖然資料集排程為每天重新整理，但是您可以變更重新整理排程，或使用 [立即重新整理]  視需要嘗試重新整理
 
 ## <a name="whats-included"></a>包含的內容
 此內容套件使用 Dynamics AX 7 OData 摘要，分別匯入零售通路、財務績效和成本管理的相關資料。

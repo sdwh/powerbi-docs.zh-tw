@@ -10,11 +10,11 @@ ms.topic: tutorial
 ms.date: 11/16/2018
 ms.author: mshenhav
 ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282924"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61337183"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>教學課程：使用 Power BI iOS 應用程式中的問與答虛擬分析師，詢問有關您資料的問題
 
@@ -58,11 +58,11 @@ ms.locfileid: "54282924"
 
     ![全域導覽圖示](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
 
-2. 在左瀏覽窗格中，選取 [工作區] > [我的工作區]。
+2. 在左瀏覽窗格中，選取 [工作區]   > [我的工作區]  。
 
     ![我的工作區](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
 
-3. 在左下角選取 [取得資料]。
+3. 在左下角選取 [取得資料]  。
    
     ![取得資料](./media/tutorial-mobile-apps-ios-qna/power-bi-get-data.png)
 
@@ -70,11 +70,11 @@ ms.locfileid: "54282924"
    
    ![範例圖示](./media/tutorial-mobile-apps-ios-qna/power-bi-samples-icon.png)
 
-4. 選取 [商機分析範例]。
+4. 選取 [商機分析範例]  。
  
     ![商機分析範例](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
  
-8. 選取 [連接]。  
+8. 選取 [連接]  。  
   
    ![商機分析範例 - 連線](./media/tutorial-mobile-apps-ios-qna/opportunity-connect.png)
    
@@ -87,7 +87,7 @@ ms.locfileid: "54282924"
 ## <a name="try-featured-insights"></a>試試精選深入解析
 1. 在您的 iPhone 或 iPad 上，開啟 Power BI 應用程式並使用 Power BI 帳戶認證登入，這與您在瀏覽器中的 Power BI 服務中使用的認證相同。
 
-1.  點選全域導覽按鈕 ![全域導覽按鈕](./media/tutorial-mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > [工作區] > [我的工作區]，並開啟 [商機分析範例] 儀表板。
+1.  點選全域導覽按鈕 ![全域導覽按鈕](./media/tutorial-mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > [工作區]   > [我的工作區]  ，並開啟 [商機分析範例] 儀表板。
 
 2. 點選問與答虛擬分析師圖示 ![問與答虛擬分析師圖示](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) 點選問與答圖示。
 
@@ -96,10 +96,10 @@ ms.locfileid: "54282924"
      Power BI 問與答虛擬分析師提供了一些開始使用的建議。
 
      ![精選深入解析按鈕](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insights.png)
-3. 點選 [精選深入解析]。
+3. 點選 [精選深入解析]  。
 
      問與答虛擬分析師建議了一些深入解析。
-4. 向右捲動並點選 [深入解析 2]。
+4. 向右捲動並點選 [深入解析 2]  。
 
     ![深入解析 2 按鈕](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
 
@@ -117,15 +117,15 @@ ms.locfileid: "54282924"
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
 
-2. 在左瀏覽窗格中，選取 [工作區] > [我的工作區]。
+2. 在左瀏覽窗格中，選取 [工作區]   > [我的工作區]  。
 
-3. 在 [儀表板] 索引標籤上，選取 [商機分析] 儀表板旁邊的垃圾桶**刪除**圖示。
+3. 在 [儀表板]  索引標籤上，選取 [商機分析] 儀表板旁邊的垃圾桶**刪除**圖示。
 
     ![刪除範例儀表板](./media/tutorial-mobile-apps-ios-qna/power-bi-service-delete-opportunity-sample.png)
 
-4. 選擇 [報表] 索引標籤，並針對商機分析報表執行相同的動作。
+4. 選擇 [報表]  索引標籤，並針對商機分析報表執行相同的動作。
 
-5. 選擇 [資料集] 索引標籤，並對商機分析資料集執行相同的動作。
+5. 選擇 [資料集]  索引標籤，並對商機分析資料集執行相同的動作。
 
 
 ## <a name="next-steps"></a>後續步驟

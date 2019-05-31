@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 5e5d143c21ad726e7cdb8a4bc99903238916bb64
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454547"
 ---
 # <a name="get-power-bi-desktop"></a>取得 Power BI Desktop
@@ -28,7 +28,7 @@ ms.locfileid: "65454547"
 任一方法皆可為您的電腦取得最新版的 **Power BI Desktop**，但有些許差異值得注意，下列各節會詳述。
 
 ## <a name="download-power-bi-desktop"></a>下載 Power BI Desktop
-若要下載最新版本的 **Power BI Desktop**，您可以從 Power BI 服務右上角選取下載圖示，然後選取 [Power BI Desktop]。
+若要下載最新版本的 **Power BI Desktop**，您可以從 Power BI 服務右上角選取下載圖示，然後選取 [Power BI Desktop]  。
 
 ![](media/desktop-get-the-desktop/getpbid_downloads.png)
 
@@ -47,7 +47,7 @@ ms.locfileid: "65454547"
 ![](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
-> 不支援將下載的 (MSI) 版本和 **Power BI Desktop** 的 **Microsoft Store** 版本安裝在同一部電腦上 (有時也稱為「並存」安裝)。
+> 不支援將下載的 (MSI) 版本和 **Power BI Desktop** 的 **Microsoft Store** 版本安裝在同一部電腦上 (有時也稱為「並存」  安裝)。
 > 
 > 
 
@@ -62,7 +62,7 @@ ms.locfileid: "65454547"
 
 * **自動更新** - 只要有最新版本，Windows 就會自動在背景下載，所以您的版本一律是最新狀態。
 * **較小的下載**：**Microsoft Store** 可確保僅將每個更新中有變更的元件下載到您的電腦，這樣每個更新的下載項目就會比較小。
-* **不需要管理員權限** - 直接下載和安裝 MSI 時，您必須是系統管理員才能順利完成安裝。 當您從 Microsoft Store 取得 **Power BI Desktop** 時，「不」需要管理員權限。
+* **不需要管理員權限** - 直接下載和安裝 MSI 時，您必須是系統管理員才能順利完成安裝。 當您從 Microsoft Store 取得 **Power BI Desktop** 時，「不」  需要管理員權限。
 * **啟用 IT 推出**：**Microsoft Store** 版本更容易部署或*推出*供您組織中的所有人使用，而且可以透過**商務用 Microsoft Store** 提供 **Power BI Desktop**。
 * **語言偵測**：**Microsoft Store** 版本包含所有支援的語言，並會在每次啟動時，檢查電腦上使用的語言。 這也會影響 **Power BI Desktop** 中所建模型的當地語系化；例如，內建日期階層會符合建立 .pbix 檔案時 **Power BI Desktop** 使用的語言。
 
@@ -72,7 +72,7 @@ ms.locfileid: "65454547"
 * 從 Microsoft Store 安裝 **Power BI Desktop**，不會從 MSI 版本複製使用者設定。 您可能必須重新連線到您最近的資料來源，然後重新輸入您的資料來源認證。 
 
 > [!NOTE]
-> 不支援將下載的 (MSI) 版本和 **Power BI Desktop** 的 **Microsoft Store** 版本安裝在同一部電腦上 (有時也稱為「並存」安裝)。 您應該手動解除安裝 **Power BI Desktop**，然後再從 **Microsoft Store** 下載它
+> 不支援將下載的 (MSI) 版本和 **Power BI Desktop** 的 **Microsoft Store** 版本安裝在同一部電腦上 (有時也稱為「並存」  安裝)。 您應該手動解除安裝 **Power BI Desktop**，然後再從 **Microsoft Store** 下載它
 > 
 > [!NOTE]
 > **Power BI Desktop** 的 Power BI 報表伺服器版本與本文所討論的版本是不同的安裝。 如需 **Power BI Desktop** 報表伺服器版本的資訊，請參閱[建立 Power BI 報表伺服器的 Power BI 報表](report-server/quickstart-create-powerbi-report.md)。
@@ -80,7 +80,7 @@ ms.locfileid: "65454547"
 > 
 
 ## <a name="using-power-bi-desktop"></a>使用 Power BI Desktop
-當您啟動 **Power BI Desktop** 時，會顯示 [歡迎] 畫面。
+當您啟動 **Power BI Desktop** 時，會顯示 [歡迎]  畫面。
 
 ![](media/desktop-get-the-desktop/getpbid_05.png)
 
@@ -96,7 +96,7 @@ ms.locfileid: "65454547"
 * Internet Explorer 9 或更新版本
 * **記憶體 (RAM)：** 可用量至少為 1 GB，建議量為 1.5 GB 或以上。
 * **顯示：** 建議至少為 1440x900 或 1600x900 (16:9)。 不建議像是 1024x768 或 1280x800 等較低的解析度，原因是某些控制項 (例如關閉啟動畫面) 需以更高的解析度顯示。
-* **Windows 顯示設定：** 如果您的顯示設定已設定成會將文字、應用程式及其他項目的大小變更為超過 100%，則可能會看不到某些必須關閉或回應以繼續使用 **Power BI Desktop** 的對話方塊。 如果您遇到這項問題，請前往 Windows 中的 [設定] > [系統] > [顯示] 檢查您的 [顯示設定]，並使用滑桿將顯示設定調回 100%。
+* **Windows 顯示設定：** 如果您的顯示設定已設定成會將文字、應用程式及其他項目的大小變更為超過 100%，則可能會看不到某些必須關閉或回應以繼續使用 **Power BI Desktop** 的對話方塊。 如果您遇到這項問題，請前往 Windows 中的 [設定] > [系統] > [顯示]  檢查您的 [顯示設定]  ，並使用滑桿將顯示設定調回 100%。
 * **CPU：** 建議為 1 GHz 或更快的 x86 或 x64 位元處理器。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
@@ -125,7 +125,7 @@ ms.locfileid: "65454547"
 在某些情況下 (包括特定的螢幕解析度設定)，某些使用者可能會看到 Power BI Desktop 轉譯的內容有大型黑色區域。 這通常是因為最新的作業系統更新影響項目轉譯方式而導致，並非 Power BI Desktop 呈現內容的直接結果。 無論如何，大型黑色區域並不像絕佳的視覺效果那麼吸引人，因此若要解決此問題，請採取下列步驟：
 
 1. 按 [開始] 鍵，在顯示的搜尋列中輸入字詞 *blurry*。
-2. 在出現的對話方塊中，選取選項：[讓 Windows 修正模糊的應用程式]。
+2. 在出現的對話方塊中，選取選項：[讓 Windows 修正模糊的應用程式]  。
 3. 重新啟動 Power BI Desktop。
 
 後續的 Windows 更新發行之後，可能會解決此問題。 

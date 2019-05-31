@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4e3b465648d5b827d1ed53550207879f555c38f9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d690e8fd19ab988192c2aa36053416d2bb3d45c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284096"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61403394"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop 與 Power BI 服務的比較
 
@@ -32,7 +32,7 @@ ms.locfileid: "54284096"
 
 ## <a name="report-editing"></a>報表編輯
 
-在應用程式和服務中，您可以建置和編輯「報表」。 報表可以有一或多個頁面，以及視覺效果與視覺效果的集合。 您可以新增書籤、按鈕、篩選和鑽研，以增強您報表中的導覽。
+在應用程式和服務中，您可以建置和編輯「報表」  。 報表可以有一或多個頁面，以及視覺效果與視覺效果的集合。 您可以新增書籤、按鈕、篩選和鑽研，以增強您報表中的導覽。
 
 ![在 Power BI Desktop 或服務中編輯報表](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
@@ -40,7 +40,7 @@ Power BI Desktop 和服務中的報表編輯器很類似。 它們由三個區�
 
 1. 上方導覽列，在 Power BI Desktop 和服務中不同    
 2. 報表畫布     
-3. [欄位]、[視覺效果] 和 [篩選] 窗格
+3. [欄位]  、[視覺效果]  和 [篩選]  窗格
 
 這段影片中顯示 Power BI Desktop 中的報表編輯器。 
 
@@ -48,7 +48,7 @@ Power BI Desktop 和服務中的報表編輯器很類似。 它們由三個區�
 
 ## <a name="collaborating-in-the-power-bi-service"></a>Power BI 服務中的共同作業
 
-建立報表之後，您可以將它們儲存到 [Power BI 服務] 中的「工作區」，您和同事可以在該處共同作業。 您在那些報表之上建置「儀表板」。 然後您可以與組織內外的報表取用者共用這些儀表板和報表。 報表取用者會在 Power BI 服務的 [[讀取] 檢視](consumer/end-user-reading-view.md)而非 [編輯] 檢視中檢視它們。 他們無法存取報表建立者可用的所有功能。 
+建立報表之後，您可以將它們儲存到 [Power BI 服務]  中的「工作區」  ，您和同事可以在該處共同作業。 您在那些報表之上建置「儀表板」  。 然後您可以與組織內外的報表取用者共用這些儀表板和報表。 報表取用者會在 Power BI 服務的 [[讀取] 檢視](consumer/end-user-reading-view.md)而非 [編輯] 檢視中檢視它們。 他們沒有存取報表的建立者提供的所有功能。 
 
 ## <a name="next-steps"></a>後續步驟
 

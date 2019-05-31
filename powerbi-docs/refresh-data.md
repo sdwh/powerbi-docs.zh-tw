@@ -1,21 +1,21 @@
 ---
 title: Power BI 的資料重新整理
 description: Power BI 的資料重新整理
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/21/2019
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2f5680df2077a306532165c62367fcc09c517227
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.openlocfilehash: 149f6963cc59c70342bee824579f6ae4c97a16d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892474"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60974146"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 若要做出正確決策，確保您能夠一直取得最新資料就相當重要。 您可能已經使用 Power BI 中的 [取得資料] 連接及上傳一些資料，也已經建立一些報表和儀表板。 現在，您想要確定您的資料都是最新且最優良的。
@@ -65,7 +65,7 @@ Power BI 內有四種主要的重新整理類型。 封裝重新整理、模型/
 這是指使用原始資料來源的資料，重新整理 Power BI 服務裡的資料集。 這項作業會使用排程的重新整理或立即重新整理完成。 這需要用來處理內部部署資料來源的閘道。
 
 ### <a name="tile-refresh"></a>磚重新整理
-只要資料變更，磚重新整理就會更新儀表板上的磚視覺效果快取。 約每 15 分鐘發生一次。 您也可以選取儀表板右上角的 **省略符號 (...)** ，然後選取 [更新儀表板的圖格]，以強制執行圖格的重新整理。
+只要資料變更，磚重新整理就會更新儀表板上的磚視覺效果快取。 約每 15 分鐘發生一次。 您也可以選取儀表板右上角的 **省略符號 (...)** ，然後選取 [更新儀表板的圖格]  ，以強制執行圖格的重新整理。
 
 ![](media/refresh-data/dashboard-tile-refresh.png)
 
@@ -91,7 +91,7 @@ Power BI 內有四種主要的重新整理類型。 封裝重新整理、模型/
 **即時/DirectQuery** – 這表示 Power BI 和資料來源之間有即時連線。 針對內部部署的資料來源，系統管理員必須在企業閘道器中設定資料來源，但可能不需要使用者互動。
 
 > [!NOTE]
-> 為了增強效能，會自動更新使用 DirectQuery 連接資料的儀表板。 您也可以隨時手動重新整理磚，方法是使用磚上的 [詳細] 功能表。
+> 為了增強效能，會自動更新使用 DirectQuery 連接資料的儀表板。 您也可以隨時手動重新整理磚，方法是使用磚上的 [詳細]  功能表。
 > 
 > 
 
@@ -161,12 +161,12 @@ Power BI 中的內容套件有兩種類型：
 ## <a name="live-connections-and-directquery-to-on-premises-data-sources"></a>內部部署資料來源的即時連線和 DirectQuery
 您可以透過內部部署資料閘道，從 Power BI 向您的內部部署資料來源發出查詢。 當您與視覺效果互動時，會將查詢從 Power BI 直接傳送到資料庫。 接著傳回更新的資料，視覺效果隨即更新。 因為 Power BI 和資料庫之間有直接連接，所以不需要排程重新整理。
 
-當連接到使用即時連接的 SQL Server Analysis Services (SSAS) 資料來源時，不像 DirectQuery，SSAS 來源的即時連接，即使在載入報表時都可以對快取執行。 此行為可改善報表的負載效能。 您可以使用 [重新整理] 按鈕向 SSAS 資料來源要求最新的資料。 SSAS 資料來源的擁有者可以設定資料集的排程快取重新整理頻率，以確保需要時能取得最新狀態的報表。 
+當連接到使用即時連接的 SQL Server Analysis Services (SSAS) 資料來源時，不像 DirectQuery，SSAS 來源的即時連接，即使在載入報表時都可以對快取執行。 此行為可改善報表的負載效能。 您可以使用 [重新整理]  按鈕向 SSAS 資料來源要求最新的資料。 SSAS 資料來源的擁有者可以設定資料集的排程快取重新整理頻率，以確保需要時能取得最新狀態的報表。 
 
 當您設定內部部署資料閘道的資料來源時，可以使用該資料來源當作排程的重新整理選項。 這就如同個人閘道器的替代方案。
 
 > [!NOTE]
-> 如果您的資料集設定為即時或 DirectQuery 連接，則會大約每小時或在與資料互動時重新整理資料集。 您可以在 Power BI 服務的 [排定的快取重新整理] 選項中，手動調整 [重新整理頻率]。
+> 如果您的資料集設定為即時或 DirectQuery 連接，則會大約每小時或在與資料互動時重新整理資料集。 您可以在 Power BI 服務的 [排定的快取重新整理]  選項中，手動調整 [重新整理頻率]  。
 > 
 > 
 
@@ -184,13 +184,13 @@ Power BI 中的內容套件有兩種類型：
 ## <a name="databases-in-the-cloud"></a>雲端資料庫
 使用 DirectQuery，在 Power BI 和雲端資料庫之間就會有直接連線。 當您與視覺效果互動時，會將查詢從 Power BI 直接傳送到資料庫。 接著傳回更新的資料，視覺效果隨即更新。 另外，因為 Power BI 服務和資料來源都位於雲端，所以不需要個人閘道。
 
-如果視覺效果中沒有任何使用者互動，大約每小時即自動重新整理資料。 您可以使用 [排定的快取重新整理] 選項變更該重新整理頻率，然後設定重新整理頻率。
+如果視覺效果中沒有任何使用者互動，大約每小時即自動重新整理資料。 您可以使用 [排定的快取重新整理]  選項變更該重新整理頻率，然後設定重新整理頻率。
 
-若要設定頻率，請選取 Power BI 服務右上角的**齒輪**圖示，然後選取 [設定]。
+若要設定頻率，請選取 Power BI 服務右上角的**齒輪**圖示，然後選取 [設定]  。
 
 ![](media/refresh-data/refresh-data_2.png)
 
-[設定] 頁面隨即出現，您可以在其中選取要調整頻率的資料集。 在該頁面上，選取上方的 [資料集] 索引標籤。
+[設定]  頁面隨即出現，您可以在其中選取要調整頻率的資料集。 在該頁面上，選取上方的 [資料集]  索引標籤。
 
 ![](media/refresh-data/refresh-data_3.png)
 
@@ -273,7 +273,7 @@ Power BI 中的內容套件有兩種類型：
 [對重新整理問題進行疑難排解的工具](service-gateway-onprem-tshoot.md)  
 [對重新整理進行疑難排解的案例](refresh-troubleshooting-refresh-scenarios.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[內部部署資料閘道](service-gateway-onprem.md)  
+[On-premises data gateway (內部部署資料閘道)](service-gateway-onprem.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

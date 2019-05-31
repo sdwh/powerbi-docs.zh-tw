@@ -1,21 +1,21 @@
 ---
 title: 重新整理疑難排解案例
 description: 重新整理疑難排解案例
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: ce353ec70b933319faaabb0040c0df1a31103a27
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285108"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770537"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>重新整理疑難排解案例
 您可以在這裡找到在 Power BI 服務內重新整理資料時可能面臨到的不同狀況的相關資訊。
@@ -57,6 +57,9 @@ Microsoft 正在調查解決方案，以允許資料載入程序重新整理權�
 
 ## <a name="scheduled-refresh-timeout"></a>排定的重新整理逾時
 匯入資料集的排定重新整理會於兩個小時後逾時。 針對 **Premium** 工作區中的資料集，此逾時增加至五個小時。 如果您遇到此限制，請考慮縮減資料集的大小或複雜度，或考慮將資料集分成較小的片段。
+
+## <a name="scheduled-refresh-failures"></a>排程的重新整理失敗
+如果排定的重新整理失敗資料列中的四次，Power BI 會停用重新整理。 處理根本的問題，然後再重新啟用排程的重新整理。
 
 ## <a name="access-to-the-resource-is-forbidden"></a>禁止存取資源  
 此錯誤可能因為快取認證到期而發生。 請登入 Power BI 並前往 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true以清除網際網路瀏覽器快取。 這會強制更新認證。 

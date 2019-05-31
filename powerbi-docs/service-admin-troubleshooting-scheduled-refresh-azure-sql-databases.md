@@ -3,7 +3,7 @@ title: Azure SQL Database 排程重新整理疑難排解
 description: Power BI 中的 Azure SQL Database 排程重新整理疑難排解
 author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
@@ -11,12 +11,12 @@ ms.date: 12/06/2017
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 17ee932bf0331940c7b30b020ab8fc43cdc9fdf5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 0c22d005044c0ebddc242eb35908e26689fee597
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274666"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61186878"
 ---
 # <a name="troubleshooting-scheduled-refresh-for-azure-sql-databases-in-power-bi"></a>Power BI 中的 Azure SQL Database 排程重新整理疑難排解
 如需設定排程重新整理的詳細步驟，請務必參閱[重新整理 Power BI 中的資料](refresh-data.md)。

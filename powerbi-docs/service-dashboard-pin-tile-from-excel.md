@@ -12,11 +12,11 @@ ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 273cfbd86573a5eceaf9705ac19b0f7928b59176
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56214990"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138264"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>從 Excel 將磚釘選到 Power BI 儀表板
 您要先連接活頁簿和 Power BI 服務 (app.powerbi.com)，才可以從 Excel 活頁簿釘選磚。 連接活頁簿其實就是將該活頁簿的連結唯讀版本帶入 Power BI 服務，且讓您將範圍釘選到儀表板。 您甚至可以將整份工作表釘選到儀表板。  
@@ -29,22 +29,22 @@ ms.locfileid: "56214990"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l8JoB7w0zJA" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="connect-your-excel-workbook-from-onedrive-for-business-to-power-bi"></a>從商務用 OneDrive 將 Excel 活頁簿連接至 Power BI
-當您選擇 [連接] 時，您的活頁簿會顯示在 Power BI 中，就像是在 Excel Online 中一樣。 但不同於 Excel Online，您有一些很棒的功能，可協助您將工作表中的項目釘選到儀表板。
+當您選擇 [連接]  時，您的活頁簿會顯示在 Power BI 中，就像是在 Excel Online 中一樣。 但不同於 Excel Online，您有一些很棒的功能，可協助您將工作表中的項目釘選到儀表板。
 
-您無法在 Power BI 中編輯活頁簿。 但如果您需要進行一些變更，則可以從工作區的 [活頁簿] 索引標籤中選取鉛筆圖示，然後選擇在 Excel Online 中編輯活頁簿，或在電腦上以 Excel 開啟活頁簿。 您所做的任何變更都會儲存到 OneDrive 上的活頁簿。
+您無法在 Power BI 中編輯活頁簿。 但如果您需要進行一些變更，則可以從工作區的 [活頁簿]  索引標籤中選取鉛筆圖示，然後選擇在 Excel Online 中編輯活頁簿，或在電腦上以 Excel 開啟活頁簿。 您所做的任何變更都會儲存到 OneDrive 上的活頁簿。
 
 1. 將活頁簿上傳至您的商務用 OneDrive。
 
-2. 從 Power BI 選取 [取得資料] > [檔案] > [OneDrive - 商務]，然後瀏覽至您儲存 Excel 檔案的位置，以[連接到該活頁簿](service-excel-workbook-files.md)。 選取檔案並選擇 [連接] > [連接]。
+2. 從 Power BI 選取 [取得資料] > [檔案] > [OneDrive - 商務]  ，然後瀏覽至您儲存 Excel 檔案的位置，以[連接到該活頁簿](service-excel-workbook-files.md)。 選取檔案並選擇 [連接] > [連接]  。
 
     ![[商務用 OneDrive] 對話方塊](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
-3. 在 Power BI 中，活頁簿會新增至工作區的 [活頁簿] 索引標籤。  ![活頁簿圖示](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) 圖示表示此為 Excel 活頁簿，而黃色星號代表其剛新增。
+3. 在 Power BI 中，活頁簿會新增至工作區的 [活頁簿]  索引標籤。  ![活頁簿圖示](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) 圖示表示此為 Excel 活頁簿，而黃色星號代表其剛新增。
     
     ![活頁簿索引標籤](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. 選取活頁簿名稱，在 Power BI 中開啟活頁簿。
 
-    將不會儲存您對 Power BI 中活頁簿所進行的變更，且不會影響商務用 OneDrive 上的原始活頁簿。 如果您排序、篩選或變更 Power BI 中的值，將無法儲存或釘選這些變更。 如果您需要儲存所進行的變更，請選取右上角的 [編輯]，以便在 Excel Online 或 Excel 中開啟以進行編輯。 以此方式進行的變更，需要幾分鐘的時間才會更新儀表板上的磚。
+    將不會儲存您對 Power BI 中活頁簿所進行的變更，且不會影響商務用 OneDrive 上的原始活頁簿。 如果您排序、篩選或變更 Power BI 中的值，將無法儲存或釘選這些變更。 如果您需要儲存所進行的變更，請選取右上角的 [編輯]  ，以便在 Excel Online 或 Excel 中開啟以進行編輯。 以此方式進行的變更，需要幾分鐘的時間才會更新儀表板上的磚。
    
     ![Power BI 中的 Excel Online](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
@@ -61,10 +61,10 @@ ms.locfileid: "56214990"
    * 新儀表板：輸入新儀表板的名稱。
    
      ![[釘選到儀表板] 對話方塊](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
-4. 選取 [釘選] 。 您可利用靠近右上角所出現的成功訊息，知道該範圍已加入儀表板成為磚。 
+4. 選取 [釘選]  。 您可利用靠近右上角所出現的成功訊息，知道該範圍已加入儀表板成為磚。 
    
     ![[已釘選到儀表板] 對話方塊](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
-5. 選取 [移至儀表板]。 您可以在這裡[重新命名、調整大小、連結和移動](service-dashboard-edit-tile.md)釘選的視覺效果。 選取釘選的磚預設會在 Power BI 中開啟活頁簿。
+5. 選取 [移至儀表板]  。 您可以在這裡[重新命名、調整大小、連結和移動](service-dashboard-edit-tile.md)釘選的視覺效果。 選取釘選的磚預設會在 Power BI 中開啟活頁簿。
 
 ## <a name="pin-an-entire-table-or-pivottable-to-a-dashboard"></a>釘選整個資料表或樞紐分析表至儀表板
 遵循上述步驟，但不選取資料格範圍，而是選取整份資料表或樞紐分析表。

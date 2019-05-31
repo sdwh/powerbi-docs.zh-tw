@@ -12,11 +12,11 @@ ms.date: 01/02/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
 ms.openlocfilehash: d57cd2db38e099fffc73c813f0298cfea5a34aad
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296148"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61193688"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI 的資料列層級安全性 (RLS)
 
@@ -26,7 +26,7 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 
-根據預設，資料列層級安全性篩選使用單一方向的篩選條件，不論關聯性設定為單向或雙向。 您可以手動啟用雙向交叉篩選與資料列層級安全性，方法是選取關聯性，並核取 [雙向套用安全性篩選] 核取方塊。 實作[動態資料列層級安全性](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) (其中您根據使用者名稱或登入識別碼提供資料列層級安全性) 時，請核取此方塊。
+根據預設，資料列層級安全性篩選使用單一方向的篩選條件，不論關聯性設定為單向或雙向。 您可以手動啟用雙向交叉篩選與資料列層級安全性，方法是選取關聯性，並核取 [雙向套用安全性篩選]  核取方塊。 實作[動態資料列層級安全性](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) (其中您根據使用者名稱或登入識別碼提供資料列層級安全性) 時，請核取此方塊。
 
 如需詳細資訊，請參閱[在 Power BI Desktop 中使用 DirectQuery 雙向交叉篩選](desktop-bidirectional-filtering.md)和[保護表格式 BI 語意模型](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)技術文件。
 
@@ -39,8 +39,8 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 
 若要管理資料模型的安全性，需要執行下列動作。
 
-1. 針對資料集選取**省略符號 (...)**。
-2. 選取 [安全性]。
+1. 針對資料集選取**省略符號 (...)** 。
+2. 選取 [安全性]  。
    
    ![雙向套用安全性篩選](media/service-admin-rls/rls-security.png)
 
@@ -70,8 +70,8 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 
 您可以測試角色以驗證您定義的角色是否正常運作。 
 
-1. 選取角色旁的**省略符號 (...)**。
-2. 選取 [以角色測試資料]。
+1. 選取角色旁的**省略符號 (...)** 。
+2. 選取 [以角色測試資料]  。
 
 ![以角色測試](media/service-admin-rls/rls-test-role.png)
 
@@ -79,13 +79,13 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 
 ![目前檢視身分為 <角色>](media/service-admin-rls/rls-test-role2.png)
 
-您可以選取 \[Now viewing as] \(現在檢視為) 來測試其他角色或角色組合。
+您可以選取 \[Now viewing as]  \(現在檢視為) 來測試其他角色或角色組合。
 
 ![測試其他角色](media/service-admin-rls/rls-test-role3.png)
 
 您可以選擇以特定人員身分檢視資料，或者選取可用的角色組合來驗證它們是否作用。 
 
-若要返回正常檢視，請選取 [返回資料列層級安全性]。
+若要返回正常檢視，請選取 [返回資料列層級安全性]  。
 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 

@@ -11,14 +11,14 @@ ms.topic: conceptual
 ms.date: 02/10/2019
 ms.author: mihart
 ms.openlocfilehash: 49eb11698d05ee8877f78b6b3d4cbbc6ef403e75
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086716"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136905"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>在 Power BI 中與 ArcGIS 地圖互動
-本主題是從在 Power BI 服務、Power BI Desktop 或 Power BI Mobile 中「取用」ArcGIS 地圖的人員觀點來撰寫。 一旦建立者與您共用 ArcGIS 地圖，可利用許多方法與該地圖互動。  若要深入了解如何建立 ArcGIS 地圖，請參閱[由 Esri 提供的 ArcGIS 地圖教學課程](../visuals/power-bi-visualization-arcgis.md)。
+本主題是從在 Power BI 服務、Power BI Desktop 或 Power BI Mobile 中「取用」  ArcGIS 地圖的人員觀點來撰寫。 一旦建立者與您共用 ArcGIS 地圖，可利用許多方法與該地圖互動。  若要深入了解如何建立 ArcGIS 地圖，請參閱[由 Esri 提供的 ArcGIS 地圖教學課程](../visuals/power-bi-visualization-arcgis.md)。
 
 ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到了全新境界。 您可以使用基礎地圖、位置類型、佈景主題、符號樣式及參考圖層等選項，建立具有豐富資訊的絶佳地圖視覺效果。 地圖上的官方資料圖層 (例如人口普查資料) 與空間分析結合之後，能讓人更深入了解視覺效果中的資料。
 
@@ -54,14 +54,14 @@ ArcGIS Maps for Power BI 具有三個選取模式。 一次最多可以選取 25
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>與 ArcGIS 地圖互動
-您可以使用的功能取決於您是「建立者」(建立地圖的人) 或「取用者」(與您共用 ArcGIS 地圖的人)。 如果您以取用者身分與 ArcGIS 地圖互動 (也稱為[閱讀檢視](../consumer/end-user-reading-view.md))，以下是您可以採取的動作。
+您可以使用的功能取決於您是「建立者」  (建立地圖的人) 或「取用者」  (與您共用 ArcGIS 地圖的人)。 如果您以取用者身分與 ArcGIS 地圖互動 (也稱為[閱讀檢視](../consumer/end-user-reading-view.md))，以下是您可以採取的動作。
 
-* 如果您是擁有「檢視」權限的進階取用者，您將能夠[檢視用於建立視覺效果的資料](../consumer/end-user-show-data.md)、[訂閱](../consumer/end-user-subscribe.md)、查看[焦點模式與全螢幕模式](../consumer/end-user-focus.md)中的地圖、[檢視相關內容](../consumer/end-user-related.md)，[與報表建立者設定的篩選互動](../consumer/end-user-report-filter.md)，[共用報表](../service-share-reports.md)等等。
+* 如果您是擁有「檢視」  權限的進階取用者，您將能夠[檢視用於建立視覺效果的資料](../consumer/end-user-show-data.md)、[訂閱](../consumer/end-user-subscribe.md)、查看[焦點模式與全螢幕模式](../consumer/end-user-focus.md)中的地圖、[檢視相關內容](../consumer/end-user-related.md)，[與報表建立者設定的篩選互動](../consumer/end-user-report-filter.md)  ，[共用報表](../service-share-reports.md)等等。
 
 * 與其他視覺效果類型一樣，Power BI **Pro** 取用者可以執行進階取用者可以執行的所有操作，再加上[匯出基礎資料](../visuals/power-bi-visualization-export-data.md)、[取得使用計量](../service-usage-metrics.md)、儲存複本並[發行至 Web](../service-publish-to-web.md) 等等。
 
     
-* 展開 [篩選] 窗格以使用篩選探索地圖。   
+* 展開 [篩選]  窗格以使用篩選探索地圖。   
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * 如果地圖有參考圖層，選取位置即可在工具提示中顯示詳細資料。 我們在這裡選取了亞當斯郡，並查看建立者新增至地圖之平均家庭收入參考圖層中的資料。
   

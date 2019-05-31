@@ -12,11 +12,11 @@ ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 52c0211aea0462e0bf79d7a48808f1f826c09fb6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296079"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978449"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>第 1 部分：在 Power BI 報表中新增視覺效果
 本文提供在報表中使用 Power BI 服務或 Power BI Desktop 建立視覺效果的快速簡介。  如需更進一步的內容，請[參閱第二部分](power-bi-report-add-visualizations-ii.md)。 觀看 Amanda 示範數種不同方式，以在報表畫布上建立、編輯和格式化視覺效果。 接著，自己試著使用[銷售和行銷範例](../sample-datasets.md)來建立專屬報表。
@@ -38,14 +38,14 @@ ms.locfileid: "54296079"
    
    ![](media/power-bi-report-add-visualizations-i/pbi_onecolchart.png)
    
-   **或是以類別欄位開始**，例如 [名稱] 或 [產品]：Power BI 會建立資料表，並將該欄位新增至 [值] 區。
+   **或是以類別欄位開始**，例如 [名稱] 或 [產品]：Power BI 會建立資料表，並將該欄位新增至 [值]  區。
    
    ![](media/power-bi-report-add-visualizations-i/pbi_agif_createchart3.gif)
    
    **或從地理位置欄位開始**，例如 [地理位置] > [城市]。 Power BI 與 Bing 地圖服務會建立地圖視覺效果。
    
    ![](media/power-bi-report-add-visualizations-i/power-bi-map.png)
-2. 建立視覺效果，然後變更其類型。 選取 [產品] > [類別]，然後選取 [產品] > [產品計數]，以將兩者新增至 [值]。
+2. 建立視覺效果，然後變更其類型。 選取 [產品] > [類別]  ，然後選取 [產品] > [產品計數]  ，以將兩者新增至 [值]  。
    
    ![](media/power-bi-report-add-visualizations-i/part1table1.png)
 3. 選取直條圖圖示將視覺效果變更為直條圖。

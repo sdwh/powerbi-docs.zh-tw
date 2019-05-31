@@ -12,15 +12,15 @@ ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
-ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "55971686"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61404625"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的報表編輯器導覽
 
-Power BI 服務中的「報表編輯器」與 Power BI Desktop 中的報表編輯器類似。 通常您一開始會先在 Power BI Desktop 中建立報表。 然後將它們發佈至 Power BI 服務，然後可以在服務中繼續修改。 Power BI 服務也是您依據報表建立儀表板的位置。
+Power BI 服務中的「報表編輯器」  與 Power BI Desktop 中的報表編輯器類似。 通常您一開始會先在 Power BI Desktop 中建立報表。 然後將它們發佈至 Power BI 服務，然後可以在服務中繼續修改。 Power BI 服務也是您依據報表建立儀表板的位置。
 
 建立儀表板和報表之後，就可以將它們散發給您的報表取用者。 視您共用儀表板和報表的方式不同，您的終端使用者可能可以在 Power BI 服務的 [閱讀] 檢視中與它們互動，但不能編輯它們。 深入了解 [Power BI 服務為報表取用者提供了哪些功能](consumer/end-user-reading-view.md)。 
 
@@ -32,7 +32,7 @@ Power BI 服務中的「報表編輯器」與 Power BI Desktop 中的報表編�
 
 Power BI 報表編輯器有三個區段︰  
 
-1. [欄位]、[視覺效果] 和 [篩選] 窗格
+1. [欄位]  、[視覺效果]  和 [篩選]  窗格
 2. 上方導覽列    
 3. 報表畫布     
 
@@ -52,12 +52,12 @@ Power BI 報表編輯器有三個區段︰
 ## <a name="the-visualizations-pane"></a>[視覺效果] 窗格
 ![[視覺效果] 窗格頂端](media/service-the-report-editor-take-a-tour/selectviz.png)
 
-以下是您選取視覺效果類型的位置。 小型圖片稱為「範本」。 在上圖中，選取 [群組橫條圖]。 如果您未先選取視覺效果類型，而是選取欄位來開始建置視覺效果，Power BI 將會為您選擇視覺效果類型。 您可以保留 Power BI 的選取項目，或選取不同的範本來變更類型。 視需要切換多次，以找到最能代表您資料的視覺效果類型。
+以下是您選取視覺效果類型的位置。 小型圖片稱為「範本」  。 在上圖中，選取 [群組橫條圖]。 如果您未先選取視覺效果類型，而是選取欄位來開始建置視覺效果，Power BI 將會為您選擇視覺效果類型。 您可以保留 Power BI 的選取項目，或選取不同的範本來變更類型。 視需要切換多次，以找到最能代表您資料的視覺效果類型。
 
 ### <a name="manage-the-fields-in-your-visual"></a>管理視覺效果中的欄位
 ![[視覺效果] 窗格中間](media/service-the-report-editor-take-a-tour/power-bi-field-list.png)
 
-這個窗格中顯示的貯體 (有時稱為「井」)，會隨選取的視覺效果類型而異。  例如，如果您選取的是橫條圖，您看到的貯體就會有：值、軸和圖例。 當您選取欄位或將它拖曳至畫布時，Power BI 就會將該欄位加入到其中一個貯體。  您也可以將 [欄位] 清單中的欄位直接拖曳至貯體。  某些貯體限於特定的資料類型。  例如，[值]  不接受非數值欄位。 因此，如果將 [員工姓名]  欄位拖曳到 [值]  貯體，Power BI 會將其變更為 [員工姓名計數] 。
+這個窗格中顯示的貯體 (有時稱為「井」  )，會隨選取的視覺效果類型而異。  例如，如果您選取的是橫條圖，您看到的貯體就會有：值、軸和圖例。 當您選取欄位或將它拖曳至畫布時，Power BI 就會將該欄位加入到其中一個貯體。  您也可以將 [欄位] 清單中的欄位直接拖曳至貯體。  某些貯體限於特定的資料類型。  例如，[值]  不接受非數值欄位。 因此，如果將 [員工姓名]  欄位拖曳到 [值]  貯體，Power BI 會將其變更為 [員工姓名計數]  。
 
 ### <a name="remove-a-field"></a>移除欄位
 若要移除視覺效果中的欄位，請選取欄位名稱右側的 **X**。

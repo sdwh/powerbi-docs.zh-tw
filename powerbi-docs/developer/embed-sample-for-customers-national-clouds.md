@@ -1,8 +1,8 @@
 ---
 title: 針對政府和國家/地區雲端將 Power BI 內容內嵌至應用程式的內嵌式分析
 description: 了解如何使用內嵌式分析的 Power BI API，為客戶將報表、儀表板或圖格整合或內嵌至應用程式。 了解如何使用政府和國家/地區雲端的內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具，將 Power BI 整合到應用程式中。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: c1148a8f4fe6c9c3751f7d315cf0e7d14e404486
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: bc6b9cf92966dd9e86e789169b9b8134dbfcb2ba
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430888"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61374275"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教學課程：針對國家/地區雲端將 Power BI 內容內嵌到您的應用程式
 

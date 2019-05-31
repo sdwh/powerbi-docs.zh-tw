@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 083d78552c124c3a53d669357678fb473dfcd5f2
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514569"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>[使用 EXCEL 分析] 的疑難排解
@@ -39,15 +39,15 @@ ms.locfileid: "65514569"
 * 無法將任何項目拖曳到樞紐分析表值區域 (沒有任何量值)
 
 ## <a name="update-excel-libraries-for-the-ole-db-provider"></a>更新 OLE DB 提供者的 Excel 文件庫
-若要使用 [使用 EXCEL 分析]，您的電腦必須安裝目前的 AS OLE DB 提供者。 此[社群文章](http://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081)是確認 OLE DB 提供者安裝或下載最新版本的絕佳來源。
+若要使用 [使用 EXCEL 分析]  ，您的電腦必須安裝目前的 AS OLE DB 提供者。 此[社群文章](http://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081)是確認 OLE DB 提供者安裝或下載最新版本的絕佳來源。
 
 Excel 文件庫必須在位元層級方面符合您的 Windows 版本。 如果您已安裝 64 位元 Windows，則必須安裝 64 位元 OLE DB 提供者。
 
-若要下載最新的 Excel 文件庫，請瀏覽 Power BI，然後選取 Power BI 服務右上角的**向下鍵**，然後選取 [在 Excel 更新中分析]。
+若要下載最新的 Excel 文件庫，請瀏覽 Power BI，然後選取 Power BI 服務右上角的**向下鍵**，然後選取 [在 Excel 更新中分析]  。
 
 ![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
 
-在出現的對話方塊中，選取 [下載 (預覽)]。
+在出現的對話方塊中，選取 [下載 (預覽)]  。
 
 ![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
 
@@ -67,7 +67,7 @@ C:\Users\davidi\Desktop\powerbi-content-pr\articles\media\powerbi-desktop-troubl
 如果看到提示您升級的對話方塊，您應該繼續進行安裝，以取得在電腦中安裝之 OLE DB 提供者的最新版本。
 
 ## <a name="connection-cannot-be-made-error"></a>「無法建立連線」錯誤
-「無法建立連線」錯誤的主要原因是電腦的 OLE DB 提供者用戶端文件庫並非最新版本。 如需有關如何判斷正確更新和下載連結的資訊，請參閱本文上述的**更新 OLE DB 提供者的 Excel 文件庫**。
+「無法建立連線」  錯誤的主要原因是電腦的 OLE DB 提供者用戶端文件庫並非最新版本。 如需有關如何判斷正確更新和下載連結的資訊，請參閱本文上述的**更新 OLE DB 提供者的 Excel 文件庫**。
 
 ## <a name="forbidden-error"></a>「禁止」錯誤
 某些使用者擁有多個 Power BI 帳戶，且在 Excel 嘗試使用現有認證連線至 Power BI 時，其可能會使用沒有要存取之資料集或報表存取權的認證。
@@ -80,13 +80,13 @@ C:\Users\davidi\Desktop\powerbi-content-pr\articles\media\powerbi-desktop-troubl
 如果您遇到表示**找不到 OLAP Cube 模型**的錯誤，則您正在嘗試存取的資料集沒有資料模型，因此無法於 Excel 中進行分析。
 
 ## <a name="token-expired-error"></a>「權杖過期」錯誤
-如果您收到**權杖過期**錯誤，其表示您最近未在您使用中的電腦上使用 [使用 EXCEL 分析] 功能。 只需重新輸入您的認證或重新開啟檔案，該錯誤應該便會消失。
+如果您收到**權杖過期**錯誤，其表示您最近未在您使用中的電腦上使用 [使用 EXCEL 分析]  功能。 只需重新輸入您的認證或重新開啟檔案，該錯誤應該便會消失。
 
 ## <a name="unable-to-access-on-premises-analysis-services"></a>無法存取內部部署 Analysis services
 如果您正在嘗試存取已連接至內部部署 Analysis Services 資料的資料集，您可能會收到錯誤訊息。 **使用 Excel 分析**支援使用連接字串連接至內部部署 **Analysis Services** 上的資料集和報表，只要您的電腦與 **Analysis Services** 伺服器位於相同的網域，且您的帳戶可存取該 **Analysis Services** 伺服器即可。
 
 ## <a name="cant-drag-anything-to-the-pivottable-values-area-no-measures"></a>無法將任何項目拖曳到樞紐分析表值區域 (沒有任何量值)
-當 [使用 Excel 分析] 連接到外部 OLAP 模型 (這是 Excel 連接到 Power BI 的方式) 時，樞紐分析表[需要在外部模型中定義量值](https://support.microsoft.com/kb/234700)，因為所有計算都在伺服器上執行。 這不同於您使用本機資料來源時 (例如 Excel 中的資料表，或是您在使用 **Power BI Desktop** 或 **Power BI 服務**中的資料集時)，在此情況下表格式模型可以在本機使用，且[您可以使用隱含量值](https://msdn.microsoft.com/library/gg399077.aspx)，這是動態產生的量值，並不會儲存在資料模型中。 在這些情況下，在 Excel 中的行為與 **Power BI Desktop** 或 **Power BI 服務**中的行為不同：資料中可能有資料行在 Power BI 中視為量值，但無法在 Excel 中作為值 (量值) 來使用。
+當 [使用 Excel 分析]  連接到外部 OLAP 模型 (這是 Excel 連接到 Power BI 的方式) 時，樞紐分析表  [需要在外部模型中定義量值  ](https://support.microsoft.com/kb/234700)，因為所有計算都在伺服器上執行。 這不同於您使用本機資料來源時 (例如 Excel 中的資料表，或是您在使用 **Power BI Desktop** 或 **Power BI 服務**中的資料集時)，在此情況下表格式模型可以在本機使用，且[您可以使用隱含量值](https://msdn.microsoft.com/library/gg399077.aspx)，這是動態產生的量值，並不會儲存在資料模型中。 在這些情況下，在 Excel 中的行為與 **Power BI Desktop** 或 **Power BI 服務**中的行為不同：資料中可能有資料行在 Power BI 中視為量值，但無法在 Excel 中作為值 (量值) 來使用。
 
 若要解決此問題，您有幾個選項︰
 
@@ -94,7 +94,7 @@ C:\Users\davidi\Desktop\powerbi-content-pr\articles\media\powerbi-desktop-troubl
 2. [從 Excel PowerPivot 建立資料模型的量值](https://support.office.com/article/Create-a-Measure-in-Power-Pivot-d3cc1495-b4e5-48e7-ba98-163022a71198)。
 3. 如果您從只有資料表 (且沒有任何資料模型) 的 Excel 活頁簿匯入資料，那麼您可以[將資料表加入資料模型](https://support.office.com/article/Add-worksheet-data-to-a-Data-Model-using-a-linked-table-d3665fc3-99b0-479d-ba09-a37640f5be42)，然後依照上述選項 2 中的步驟，建立資料模型中的量值。
 
-一旦您的量值定義在 Power BI 服務的模型中，您就能夠在 Excel 樞紐分析表的 [值] 區域中使用它們。
+一旦您的量值定義在 Power BI 服務的模型中，您就能夠在 Excel 樞紐分析表的 [值]  區域中使用它們。
 
 ## <a name="next-steps"></a>後續步驟
 [使用 Excel 分析](service-analyze-in-excel.md)

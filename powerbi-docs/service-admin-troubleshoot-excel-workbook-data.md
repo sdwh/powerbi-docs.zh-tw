@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2017
+ms.date: 04/30/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 849c377a140cd0dd31f55760987336fc3711bc79
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285844"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65101577"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>錯誤：在您的 Excel 活頁簿中找不到任何資料
 
->[!NOTE]
+>[!NOTE]  
 >本文適用於 Excel 2007 和較新版本。
 
 當您將 Excel 活頁簿匯入 Power BI 時，您可能會看到下列錯誤：
 
-*錯誤：在您的 Excel 活頁簿中找不到任何資料。您的資料格式可能不正確。您必須在 Execl 中編輯您的活頁簿，然後重新匯入。*
+*錯誤：找不到任何格式化為資料表的資料。若要從 Excel 匯入到 Power BI 服務，您需要將資料格式化為資料表。選取您想要在資料表中，並按下 Ctrl + T 的所有資料。*
 
-![在活頁簿中找不到資料](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
+![在活頁簿中找不到資料](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 
 ## <a name="quick-solution"></a>快速解決方案
 1. 編輯在 Excel 中的活頁簿。
@@ -47,28 +47,28 @@ ms.locfileid: "54285844"
     >[!NOTE]
     >此處圖片中使用的是 Excel 2013。 如果您使用不同的版本，畫面看起來可能有點不同，但步驟都一樣。
     
-    ![開啟活頁簿](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
+    ![開啟活頁簿](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-1.png)
 2. 選取包含資料的資料格範圍。 第一個資料列應該包含您的資料行標頭 (資料行名稱)：
    
-    ![選取儲存格範圍](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
-3. 在功能區的 [插入] 索引標籤上，按一下 [資料表] \(或是按下快捷鍵 **Ctrl + T**)。
+    ![選取儲存格範圍](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-2.png)
+3. 在功能區的 [插入]  索引標籤上，按一下 [資料表]  \(或是按下快捷鍵 **Ctrl + T**)。
    
-    ![插入資料表](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
-4. 您會看到下列對話方塊。 請確定已核取 [有標題的表格]  ，然後選取 [確定] ：
+    ![插入資料表](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-3.png)
+4. 您會看到下列對話方塊。 請確定已核取 [有標題的表格]  ，然後選取 [確定]  ：
    
-    ![建立資料表](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
+    ![建立資料表](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-create-table.png)
 5. 現在，您的資料會格式化為資料表：
    
-    ![格式化為資料表的資料](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
+    ![格式化為資料表的資料](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-table.png)
 6. 儲存活頁簿。
 7. 返回 Power BI。 選取左瀏覽窗格底部的 [取得資料]。
    
-    ![取得資料](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
-8. 在 [檔案]  方塊中選取 [取得] 。
+    ![取得資料](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
+8. 在 [檔案]  方塊中選取 [取得]  。
    
-    ![取得檔案](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
+    ![取得檔案](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-files.png)
 9. 再次匯入 Excel 活頁簿。 這次匯入後應該能找出該資料表，並成功完成步驟。
    
     如果匯入仍然失敗，請按一下 [說明] 功能表中的 [社群]，好讓我們知道：
    
-    ![[社群] 連結](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)
+    ![[社群] 連結](media/service-admin-troubleshoot-excel-workbook-data/power-bi-question-menu-community.png)

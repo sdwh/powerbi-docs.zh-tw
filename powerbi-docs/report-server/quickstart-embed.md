@@ -1,20 +1,20 @@
 ---
 title: 使用 iFrame 來內嵌報告
 description: 在 SharePoint 伺服器的 iFrame 中內嵌 Power BI 報表伺服器報表
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 05/04/2018
 ms.topic: quickstart
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 4730bef0e7f1fc47a4a59a0129640760714fe2e0
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: ca26770c652c12573bf28e24b218b214bf1196fa
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223321"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769855"
 ---
 # <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>快速入門：在 SharePoint Server 中使用 iFrame 來內嵌 Power BI 報表伺服器報表
 
@@ -36,11 +36,11 @@ ms.locfileid: "56223321"
 
     ![PBI RS Desktop 工具](media/quickstart-embed/quickstart_embed_02.png)
 
-3. 將報表儲存至「Power BI 報表伺服器」。 
+3. 將報表儲存至「Power BI 報表伺服器」  。 
 
     ![PBI RS 儲存](media/quickstart-embed/quickstart_embed_03.png)
 
-4. 在「入口網站」中檢視報表。
+4. 在「入口網站」  中檢視報表。
 
     ![入口網站](media/quickstart-embed/quickstart_embed_04.png)
 
@@ -54,7 +54,7 @@ ms.locfileid: "56223321"
     ```
 ## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>在 SharePoint iFrame 中內嵌 Power BI 報表伺服器報表
 
-1. 瀏覽至 SharePoint [網站內容] 頁面。
+1. 瀏覽至 SharePoint [網站內容]  頁面。
 
     ![網站內容頁面](media/quickstart-embed/quickstart_embed_05.png)
 
@@ -62,23 +62,23 @@ ms.locfileid: "56223321"
 
     ![網站內容頁面應用程式](media/quickstart-embed/quickstart_embed_06.png)
 
-3. 選取右上方的齒輪圖示，然後選取 [編輯頁面]。
+3. 選取右上方的齒輪圖示，然後選取 [編輯頁面]  。
 
     ![[編輯頁面] 選項](media/quickstart-embed/quickstart_embed_07.png)
 
-4. 選取 [新增網頁組件]。
+4. 選取 [新增網頁組件]  。
 
     ![新增網頁組件](media/quickstart-embed/quickstart_embed_08.png)
 
-5. 在 [類別] 底下，選取 [媒體及內容]，在 [組件] 底下，選取 [內容編輯器]，然後選取 [新增]。
+5. 在 [類別]  底下，選取 [媒體及內容]  ，在 [組件]  底下，選取 [內容編輯器]  ，然後選取 [新增]  。
 
     ![選取內容編輯器網頁組件](media/quickstart-embed/quickstart_embed_09.png) ![選取 [新增]](media/quickstart-embed/quickstart_embed_091.png)
 
-6. 選取 [按一下此處新增內容]。
+6. 選取 [按一下此處新增內容]  。
 
     ![新增內容](media/quickstart-embed/quickstart_embed_10.png)
 
-7. 在功能區中，選取 [文字格式] 索引標籤，然後選取 [編輯來源]。
+7. 在功能區中，選取 [文字格式]  索引標籤，然後選取 [編輯來源]  。
 
      ![編輯來源](media/quickstart-embed/quickstart_embed_11.png)
 
@@ -91,7 +91,7 @@ ms.locfileid: "56223321"
      <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
      ```
 
-9. 在功能區中，選取 [頁面] 索引標籤，然後選取 [停止編輯]。
+9. 在功能區中，選取 [頁面]  索引標籤，然後選取 [停止編輯]  。
 
     ![停止編輯](media/quickstart-embed/quickstart_embed_13.png)
 
