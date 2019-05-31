@@ -12,11 +12,11 @@ ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Getting started
 ms.openlocfilehash: d828748cf4b625ee555bbc98b91b3ec0c6d85365
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661442"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61049794"
 ---
 # <a name="sign-in-to-power-bi-service"></a>登入 Power BI 服務
 
@@ -40,14 +40,14 @@ Power BI 服務在瀏覽器中執行。  因此第一個步驟是開啟您慣用
 
  
 ### <a name="step-three-create-a-new-password"></a>步驟三：建立新的密碼
-如果 Power BI 系統管理員已傳送暫時密碼給您，請在 [目前密碼] 欄位中輸入該密碼。 如果您還沒有在電子郵件中收到此密碼，請連絡您的 Power BI 系統管理員。
+如果 Power BI 系統管理員已傳送暫時密碼給您，請在 [目前密碼]  欄位中輸入該密碼。 如果您還沒有在電子郵件中收到此密碼，請連絡您的 Power BI 系統管理員。
 
 ![鍵入 [登入] 欄位的電子郵件地址](media/end-user-sign-in/power-bi-login2.png)
 
 Power BI 將會記住您的認證，下一次登入時，您就不需要輸入使用者名稱 (電子郵件地址)。 
 
 ### <a name="step-four-review-your-home-page"></a>步驟四：檢閱 [首頁]
-在您第一次瀏覽時，Power BI 會開啟 [首頁]。 如果您的 [首頁] 未開啟，從請左側瀏覽窗格中加以選取。 
+在您第一次瀏覽時，Power BI 會開啟 [首頁]  。 如果您的 [首頁]  未開啟，從請左側瀏覽窗格中加以選取。 
 
 ![鍵入 [登入] 欄位的電子郵件地址](media/end-user-sign-in/power-bi-home-select.png)
 
@@ -67,7 +67,7 @@ Power BI 將會記住您的認證，下一次登入時，您就不需要輸入�
 
 ![選取 x 以關閉此索引標籤](media/end-user-sign-in/power-bi-close.png) 
 
-如果您共用電腦，建議您在每次關閉 Power BI 時進行登出。  若要登出，請從右上角選取您的 [個人資料] 圖片，然後選擇 [登出]。否則，當您完成時，只需關閉瀏覽器索引標籤即可。
+如果您共用電腦，建議您在每次關閉 Power BI 時進行登出。  若要登出，請從右上角選取您的 [個人資料] 圖片，然後選擇 [登出]  。否則，當您完成時，只需關閉瀏覽器索引標籤即可。
 
 ![選取的個人資料](media/end-user-sign-in/power-bi-sign-out.png) 
 
