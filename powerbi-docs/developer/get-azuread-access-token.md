@@ -1,26 +1,26 @@
 ---
 title: 為應用程式驗證使用者及取得 Azure AD 存取權杖
 description: 了解如何在 Azure Active Directory 註冊應用程式，以用來內嵌 Power BI 內容。
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 7b2249964f2fff26bc68fea19fd0010d8990110b
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: a38547807fbbcf3c76366f32caa46945e57ca8bc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762528"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710312"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>為 Power BI 應用程式取得 Azure AD 存取權杖
 
 了解如何在 Power BI 應用程式驗證使用者，以及擷取要與 REST API 搭配使用的存取權杖。
 
-您必須先取得 Azure Active Directory (Azure AD) **驗證存取權杖** (存取權杖)，才能呼叫 Power BI REST API。 **存取權杖**可供您的應用程式存取 **Power BI** 儀表板、磚和報表。 若想深入了解 Azure Active Directory **存取權杖** 授與流程，請參閱 [Azure AD 授權碼授與流程](https://msdn.microsoft.com/library/azure/dn645542.aspx)。
+您必須先取得 Azure Active Directory (Azure AD) **驗證存取權杖** (存取權杖)，才能呼叫 Power BI REST API。 **存取權杖**可供您的應用程式存取 **Power BI** 儀表板、磚和報表。 若想深入了解 Azure Active Directory **存取權杖** 授與流程，請參閱 [Azure AD 授權碼授與流程](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code)。
 
 根據您內嵌內容的方式，擷取的存取權杖會有所不同。 本文中使用了兩種不同的方法。
 
@@ -56,7 +56,7 @@ var @params = new NameValueCollection
 
 建構查詢字串之後，請重新導向至 **Azure AD** 以取得**授權碼**。  以下是用於建構**授權碼**查詢字串和重新導向至 **Azure AD** 的完整 C# 方法。 取得授權碼之後，您會使用**授權碼**來取得**存取權杖**。
 
-在 redirect.aspx.cs 內，呼叫 [AuthenticationContext.AcquireTokenByAuthorizationCode](https://msdn.microsoft.com/library/azure/dn479531.aspx) 來產生權杖。
+在 redirect.aspx.cs 內，呼叫 [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) 來產生權杖。
 
 #### <a name="get-authorization-code"></a>取得授權碼
 
@@ -89,7 +89,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
     //Redirect authority
     //Authority Uri is an Azure resource that takes a client id to get an Access token
-    // AADAuthorityUri = https://login.microsoftonline.net/common/
+    // AADAuthorityUri = https://login.microsoftonline.com/common/
     string authorityUri = Properties.Settings.Default.AADAuthorityUri;
     var authUri = String.Format("{0}?{1}", authorityUri, queryString);
     Response.Redirect(authUri);
@@ -173,7 +173,7 @@ protected void Page_Load(object sender, EventArgs e)
 
 ### <a name="access-token-with-service-principal"></a>搭配服務主體的存取權杖
 
-對於此方法，您可以使用[服務主體](embed-service-principal.md)，即「僅限應用程式」權杖。 應用程式會使用服務主體來對 Azure AD 進行驗證。 下列顯示的範例程式碼來自 [App owns data 範例](https://github.com/guyinacube/PowerBI-Developer-Samples)
+對於此方法，您可以使用[服務主體](embed-service-principal.md)，即「僅限應用程式」  權杖。 應用程式會使用服務主體來對 Azure AD 進行驗證。 下列顯示的範例程式碼來自 [App owns data 範例](https://github.com/guyinacube/PowerBI-Developer-Samples)
 
 #### <a name="embedservicecs"></a>EmbedService.cs
 
@@ -196,6 +196,10 @@ var authenticationContext = new AuthenticationContext(AuthorityUrl);
 
 m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
+
+## <a name="troubleshoot"></a>疑難排解
+
+* 下載[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)如果您遇到 「 'AuthenticationContext' 未包含定義 'AcquireToken' 並沒有可存取 'AcquireToken' 接受類型的第一個引數 'AuthenticationContext' 找不到 (是否遺漏 using 指示詞或組件參考？) 」 錯誤。
 
 ## <a name="next-steps"></a>後續步驟
 

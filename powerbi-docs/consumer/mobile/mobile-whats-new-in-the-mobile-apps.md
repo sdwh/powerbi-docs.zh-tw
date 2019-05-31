@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/08/2018
+ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872723"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65991043"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -22,6 +22,17 @@ ms.locfileid: "58872723"
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
+
+## <a name="april-2019"></a>2019 年 4 月
+
+### <a name="key-influencers-visual"></a>視覺化的關鍵影響因數 
+現在可使用您的行動應用程式上視覺化的關鍵影響因數。 此視覺效果可讓您對您的資料執行分析的索引鍵的驅動程式，使用少數的點選。
+
+### <a name="add-comments-to-report-content-android-and-ios"></a>將註解加入至報表的內容 （Android 及 iOS）
+現在您可以使用註解共同作業及共用您的意見反應，在報表頁面和視覺效果。 深入了解報表中 Power BI 服務和行動裝置版的留言[在此部落格中](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)。 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>最大化 （Android 及 iOS） 的全螢幕模式檢視
+我們已新增新的按鈕，可讓您控制何時將焦點放在您的資料，移除報表頁首和頁尾，並提供最大的空間來檢視您的報表。
 
 ## <a name="march-2019"></a>2019 年 3 月
 
@@ -31,7 +42,20 @@ ms.locfileid: "58872723"
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>使用投影片增強 Windows 簡報模式 (Windows)
 
-利用[投影片](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)可讓您使用辦公室中的公用顯示器以全螢幕模式執行 Power BI 報表，會在報表頁面之間自動轉換。  
+具有[投影片放映](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)您可以使用位於您辦公室的公用顯示 Power BI 報表中全螢幕，就會自動旋轉之間執行的報表頁面。  
+
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>支援 PBI RS 報表透過 ADFS 和 WAP 組態 (僅限 iOS)
+
+現在可以從 Power BI iOS 應用程式存取 power BI 報表 (PBIX) 透過 ADFS 設定裝載在 PBI RS。
+
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>啟用單一點選報表視覺效果互動
+
+我們會變更報表互動，因此它必須只能有一個視覺效果上的點選 [、] 按鈕或立即與資料互動的交叉分析篩選器。 使用者不再需要點選以選取它，並再次點選以與它互動的視覺效果，只要點選一下即可兩者。
+
+![只要點選一下互動](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+
+> [!NOTE]
+> 現有的使用者必須開啟此應用程式設定中的行為。 如需詳細資訊，請參閱 <<c0> [ 如何設定單一點選報表互動](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap)文章。
 
 ## <a name="january---february-2019"></a>2019 年一月 - 二月
  
@@ -208,11 +232,11 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 
 #### <a name="report-favorites"></a>我的最愛報表
 
-將報表標記為我的最愛，即可讓它們顯示在 [我的最愛] 頁面上。 閱讀更多以了解 [Power BI 行動裝置應用程式中的我的最愛](mobile-apps-favorites.md)。
+將報表標記為我的最愛，即可讓它們顯示在 [我的最愛]  頁面上。 閱讀更多以了解 [Power BI 行動裝置應用程式中的我的最愛](mobile-apps-favorites.md)。
 
 #### <a name="view-shared-reports"></a>檢視共用報表
 
-現在當有人與您共用報表時，它會與儀表板一起在 [與我共用] 頁面上列出。
+現在當有人與您共用報表時，它會與儀表板一起在 [與我共用]  頁面上列出。
 
 #### <a name="improved-hyperlink-support"></a>改善的超連結支援
 
@@ -234,7 +258,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 
 #### <a name="auto-installed-apps"></a>自動安裝的應用程式
 
-您完全不需要在 Power BI 中安裝某些應用程式。 在您組織中的 Power BI 應用程式建立者可以建立包含儀表板和報表集合的「應用程式」。 然後他們可以發行應用程式，並將它設定為自動安裝在 Power BI 服務和 Power BI 行動應用程式中。 當應用程式設定好為您安裝時，它會自動出現在您的 [應用程式] 功能表：
+您完全不需要在 Power BI 中安裝某些應用程式。 在您組織中的 Power BI 應用程式建立者可以建立包含儀表板和報表集合的「應用程式」  。 然後他們可以發行應用程式，並將它設定為自動安裝在 Power BI 服務和 Power BI 行動應用程式中。 當應用程式設定好為您安裝時，它會自動出現在您的 [應用程式]  功能表：
 
 ![Power BI 行動裝置應用程式中的應用程式](./media/mobile-whats-new-in-the-mobile-apps/power-bi-apps-mobile-apps.png)
 
@@ -264,10 +288,10 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 閱讀 [2017 年 7 月的行動裝置應用程式功能摘要](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview)
 
 #### <a name="ios-devices"></a>iOS 裝置
-**新的 iOS 問與答體驗 (預覽)**：您現在除了能取得問題的解答之外，還能使用自然語言來取得相關深入解析。 即使您不太確定要尋找的項目，問與答也會主動顯示與您資料相關的深入解析。 新的行動裝置問與答體驗是與 Microsoft Research 小組共同作業研發而成，展現了我們產品的強大技術。 試用此教學課程，[詢問 iOS 行動裝置應用程式資料的相關問題](mobile-apps-ios-qna.md)。
+**新的 iOS 問與答體驗 (預覽)** ：您現在除了能取得問題的解答之外，還能使用自然語言來取得相關深入解析。 即使您不太確定要尋找的項目，問與答也會主動顯示與您資料相關的深入解析。 新的行動裝置問與答體驗是與 Microsoft Research 小組共同作業研發而成，展現了我們產品的強大技術。 試用此教學課程，[詢問 iOS 行動裝置應用程式資料的相關問題](mobile-apps-ios-qna.md)。
 
 ### <a name="responsive-visuals"></a>回應式視覺效果
-適用於手機報表與儀表板的**回應式視覺效果**：您可以將儀表版或報表中的視覺效果設定為「回應式」，不管是什麼樣的螢幕大小，都能以動態方式變更，顯示最多的資料與深入解析。 閱讀[關於回應式視覺效果的部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)。
+適用於手機報表與儀表板的**回應式視覺效果**：您可以將儀表版或報表中的視覺效果設定為「回應式」  ，不管是什麼樣的螢幕大小，都能以動態方式變更，顯示最多的資料與深入解析。 閱讀[關於回應式視覺效果的部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)。
 
 ### <a name="june-2107"></a>2017 年 6 月
 #### <a name="all-devices"></a>所有裝置
@@ -378,17 +402,17 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 
 如果您掃描無權存取之儀表板的 QR 代碼，現在可以從行動裝置應用程式提交存取要求。
 
-**影像圖格上的自訂 URL**
+**影像磚上的自訂 URL**
 
 如果影像磚有儀表板擁有者所定義的自訂 URL，則當您點選磚時，會直接移至該 URL 而不需要在焦點模式下開啟磚。 
 
 #### <a name="iphone"></a>iPhone
-**Apple Watch 改善**
+**Apple Watch 改進**
 
 您現在可以直接從 Watch 應用程式重新整理 Apple Watch 資料。 按壓 Apple Watch 儀表板索引頁面以重新整理資料。 (Power BI 行動裝置應用程式必須在 iPhone 上背景執行，才能成功)。
 
 #### <a name="android"></a>Android
-**影像圖格上的自訂 URL**
+**影像磚上的自訂 URL**
 
 如果影像磚有儀表板擁有者所定義的自訂 URL，則當您點選磚時，會直接移至該 URL 而不需要在焦點模式下開啟磚。 此外，包含預先定義之自訂 URL 的儀表板磚，現在可以在應用程式內將讀者重新導向到報表。
 

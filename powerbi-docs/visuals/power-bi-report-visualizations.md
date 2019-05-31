@@ -9,20 +9,20 @@ featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2018
+ms.date: 05/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83ef4aa17de5edb18bc6b9cff1b50c29596704f7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d470a262bd8a5e6590746fb07889b1230f5cfc25
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292859"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375653"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 報表的視覺效果
 
 視覺效果會顯示在資料中探索到的見解。 Power BI 報表可能需要有一個視覺效果的單一頁面，或是它可能會有充滿視覺效果的頁面。 在 Power BI 服務中，視覺效果可以[從報表釘選到儀表板](../service-dashboard-pin-tile-from-report.md)。
 
-區分報表「建立者」和報表「取用者」很重要。如果您是建置或修改報表的人員，您就是建立者。  建立者具有報表及其基礎資料集的編輯權限。 在 Power BI Desktop 中，這表示您可以在資料檢視中開啟資料集，並在報表檢視建立視覺效果。 在 Power BI 服務中，這表示您可以用[編輯檢視](../consumer/end-user-reading-view.md)在報表編輯器中開啟資料集或報表。 如果報表或儀表板已[與您共用](../consumer/end-user-shared-with-me.md)，您就是報表**取用者**。 您可以檢視報表和其視覺效果並與其互動，但您將無法儲存變更。
+請務必讓報表之間的差別*設計工具*和報告*取用者*如果您是建立或修改報表的人，則會以設計工具。  設計工具都有要報告和其基礎資料集的編輯權限。 在 Power BI Desktop 中，這表示您可以在資料檢視中開啟資料集，並在報表檢視建立視覺效果。 在 Power BI 服務中，這表示您可以在報表編輯器中開啟資料集或報表[編輯檢視](../consumer/end-user-reading-view.md)。 如果報表或儀表板已[與您共用](../consumer/end-user-shared-with-me.md)，您就是報表**取用者**。 您可以檢視並與其互動報表和其視覺效果，但您將無法儲存重大變更。
 
 有許多不同的視覺效果類型可以直接從 Power BI 的 [視覺效果] 窗格使用。
 
@@ -50,6 +50,11 @@ ms.locfileid: "54292859"
 ## <a name="pin-the-visualization"></a>釘選視覺效果
 
 在 Power BI 服務中，當視覺效果是您想要的呈現方式時，就可以[將其釘選到儀表板](../service-dashboard-pin-tile-from-report.md)作為磚。 如果您在釘選後，變更目前用於報表中的視覺效果，儀表板上的圖格並不會變更 -- 如果該視覺效果是折線圖，即使您在報表中變更成環圈圖，其仍會保持折線圖的樣子。
+
+## <a name="limitations-and-considerations"></a>限制與考量
+- 根據資料來源和欄位 （量值或資料行） 的數目，視覺效果可能會緩慢載入。  建議您限制 10-20 總計欄位，基於可讀性和效能考量的視覺效果。 
+
+- 視覺效果的最高上限是 100 個欄位 （量值或資料行）。 如果您的視覺效果無法載入，減少欄位數目。   
 
 ## <a name="next-steps"></a>後續步驟
 

@@ -1,32 +1,102 @@
 ---
 title: Power BI 報表伺服器的新功能
-description: 了解 Power BI 報表伺服器的新功能。 這涵蓋主要功能範圍，並會隨著新項目發行而更新。
-author: markingmyname
-ms.author: maghan
+description: 了解 Power BI 報表伺服器的新功能。 其涵蓋主要功能範圍，並會隨著新項目發行而更新。
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/22/2019
-ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662449"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187311"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
-了解 Power BI 報表伺服器的新功能。 本文涵蓋主要功能範圍，並會隨著新項目發行而更新。
-
-若要下載最新版 Power BI 報表伺服器以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop，請前往[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)。
+深入了解什麼是 Power BI 報表伺服器和針對 Power BI 報表伺服器最佳化的 Power BI Desktop 的新功能。 本文涵蓋主要功能範圍，並會隨著新項目發行而更新。
 
 如需相關的 Power BI「新功能」資訊，請參閱︰
 
 * [Power BI 服務的新功能](../service-whats-new.md)
 * [Power BI Desktop 的新功能](../desktop-latest-update.md)
 * [Power BI 行動裝置 App 的新功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>2019:Power BI Desktop，Power BI 報表伺服器
+
+請參閱[Power BI 報表伺服器 2019 年](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/)部落格文章，如需所有新功能詳細資料。
+
+以下是一些發行的重點：
+
+### <a name="performance-analyzer"></a>效能分析程式 
+
+如果您的報表執行速度比預期緩慢，請嘗試在 Power BI Desktop 中的 Performance Analyzer。 當您啟動它時，它會建立記錄檔，您需要在報表中的每個動作的相關資訊。 深入了解[Performance Analyzer](../desktop-performance-analyzer.md)。
+
+### <a name="new-modeling-view"></a>新的模型化作業檢視
+
+在 Power BI Desktop 中新的模型檢視，您可以檢視及處理複雜的資料集包含太多資料表。 反白顯示包含多個圖表配置，並大量編輯資料行、 量值和資料表。 深入了解[模型化作業檢視](../desktop-modeling-view.md)。
+
+### <a name="accessible-visual-interaction"></a>可存取的視覺效果互動
+
+您可以立即存取資料點上許多的內建的視覺效果，使用鍵盤巡覽。 深入了解[Power BI 報表中的協助工具](../desktop-accessibility.md)。
+
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>條件式格式化標題和 web URL 動作
+
+Power BI 報表是互動式圖表。 合理，在報表中的標題會是動態的以反映報表的目前狀態。 您可以使用相同的運算式繫結格式設定，讓您的按鈕、 圖形及影像的 Url 為動態。 深入了解[運算式為基礎的標題](../desktop-conditional-format-visual-titles.md)。
+
+### <a name="cross-highlight-by-axis-labels"></a>依座標軸標籤交叉醒目提示
+
+就像您會在視覺效果中選取資料點，請在 視覺效果，以交叉醒目提示頁面上，其他項目中選取類別目錄軸標籤。 深入了解[交叉醒目提示](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)。
+
+### <a name="all-the-new-features"></a>所有新功能
+
+以下是所有的新功能清單：
+
+### <a name="reporting"></a>報告
+
+- 在折線圖中的單一點交叉醒目提示 
+- 標題的文字換行 
+- 交叉篩選您来更新預設視覺效果互動
+- 針對視覺效果框線圓的角 
+- 單一選取的交叉分析篩選器  
+- Bing 地圖服務的熱度圖對應支援  
+- 依座標軸標籤交叉醒目提示  
+- 預設格式設定的工具提示  
+- 靜態 web 支援按鈕、 圖案和影像的 URL  
+- 頁面對齊選項   
+- 選取項目 窗格的改善  
+- 可存取的視覺效果互動  
+- 條件式格式化的視覺效果標題  
+- Web URL 動作，如按鈕、 圖形及影像的設定格式化的條件
+- 效能分析程式 窗格
+- 資料表和矩陣的鍵盤導覽
+- 線資料標籤位置的控制項
+- KPI 視覺指示器文字控制項大小
+
+### <a name="analytics"></a>分析
+
+- 將日期顯示為階層現在已正式推出  
+
+### <a name="modeling"></a>模型
+
+- 新模型檢視現在已正式推出
+- 新的 DAX 函數
+- 更新至 ALLSELECTED DAX 函式
+- 停用自動日期資料表，為新報表
+
+## <a name="may-2019-power-bi-report-server"></a>2019:Power BI 報表伺服器
+
+### <a name="support-for-trusted-visuals"></a>支援受信任的視覺效果
+
+我們已將支援受信任的視覺效果加入 Power BI 報表伺服器。 目前我們支援 Mapbox 和 PowerOn 視覺效果。 ESRI、 Visio 和 PowerApps 不支援此版本。）
+
+### <a name="improved-security-features"></a>改善的安全性功能
+
+**RestrictedResourceMimeTypeForUpload**，讓管理員可用來指定逗號分隔的清單遭到禁用的 mime 類型，例如 text/html。
 
 ## <a name="january-2019"></a>2019 年 1 月
 
@@ -68,7 +138,7 @@ Power BI 報表中支援下列功能：
 
 #### <a name="report-theming"></a>報表佈景主題
 
-Power BI 報表伺服器的 2018 年 8 月版本已新增報表佈景主題，可讓您快速以色彩標示整個報表，以符合某個佈景主題或公司商標。 當您匯入佈景主題時，您所有的圖表都會自動更新以使用佈景主題色彩，而且您可以從調色盤存取佈景主題色彩。 您可以使用 [切換佈景主題] 按鈕下的 [匯入佈景主題] 選項來上傳佈景主題檔案。
+Power BI 報表伺服器的 2018 年 8 月版本已新增報表佈景主題，可讓您快速以色彩標示整個報表，以符合某個佈景主題或公司商標。 當您匯入佈景主題時，您所有的圖表都會自動更新以使用佈景主題色彩，而且您可以從調色盤存取佈景主題色彩。 您可以使用 [切換佈景主題]  按鈕下的 [匯入佈景主題]  選項來上傳佈景主題檔案。
 
 佈景主題檔案是 JSON 檔案，其中包含您想要我們在您的報表中使用的所有色彩，以及您想要套用至視覺效果的任何預設格式。
 以下是簡單的範例 JSON 佈景主題，只會更新報表的預設色彩：
@@ -89,7 +159,7 @@ Power BI 報表伺服器的 2018 年 8 月版本已新增報表佈景主題，�
 
 #### <a name="conditional-formatting-by-values"></a>依據值的條件式格式設定
 
-另一個新的條件式格式設定類型是 [依欄位值格式化]。 [依欄位值格式化] 可讓您使用指定色彩的量值或資料行，透過十六進位碼或名稱，將該色彩套用至背景或字型色彩。
+另一個新的條件式格式設定類型是 [依欄位值格式化]  。 [依欄位值格式化] 可讓您使用指定色彩的量值或資料行，透過十六進位碼或名稱，將該色彩套用至背景或字型色彩。
 
 #### <a name="report-page-tooltips"></a>報表頁面工具提示
 
@@ -328,7 +398,7 @@ Excel 和 Power BI 包含產業中特有的工具組合。 此外，它們可讓
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>新資料表和矩陣視覺效果的支援
 
-Power BI 報表伺服器現在支援新的 Power BI 資料表和矩陣視覺效果。 若要使用這些視覺效果來建立報表，您需要 2017 年 10 月版本的已更新 Power BI Desktop 版本。 它無法與 Power BI Desktop (2017 年 6 月) 版本並存安裝。 如需最新版本的 Power BI Desktop，請在 [Power BI 報表伺服器下載分頁](https://powerbi.microsoft.com/report-server/)上選取 [進階下載選項]。
+Power BI 報表伺服器現在支援新的 Power BI 資料表和矩陣視覺效果。 若要使用這些視覺效果來建立報表，您需要 2017 年 10 月版本的已更新 Power BI Desktop 版本。 它無法與 Power BI Desktop (2017 年 6 月) 版本並存安裝。 如需最新版本的 Power BI Desktop，請在 [Power BI 報表伺服器下載分頁](https://powerbi.microsoft.com/report-server/)上選取 [進階下載選項]  。
 
 ## <a name="june-2017"></a>2017 年 6 月
 

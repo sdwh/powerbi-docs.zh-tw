@@ -1,20 +1,20 @@
 ---
 title: 取得驗證存取權杖
 description: 推送資料逐步解說─取得驗證存取權杖
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 0840d01a53a8d1f2c19ef1d5d263bf9a3d2d8f81
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 4a0b0f5e7d697c137da343576d05fbcc91b4a4f7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216554"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710360"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>步驟 2：取得驗證存取權杖
 
@@ -27,13 +27,11 @@ ms.locfileid: "56216554"
 ## <a name="get-an-authentication-access-token"></a>取得驗證存取權杖
 
 > **注意**：開始使用之前，請確定您已經執行過先前[將資料推送至資料集](walkthrough-push-data.md)逐步解說中的先前步驟。
-> 
-> 
 
-1. 在 Visual Studio 2015 中，建立 **主控台應用程式** 專案。
-2. 安裝 [.NET NuGet 套件的 Azure AD 驗證程式庫](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)。 若要取得 .NET 應用程式中的驗證安全性權杖，您可以使用此套件。 安裝套件的方法如下：
+1. 在 Visual Studio （2015年或更新版本），建立**主控台應用程式**專案。
+2. 安裝 [.NET NuGet 套件的 Azure AD 驗證程式庫](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)。 若要取得 .NET 應用程式中的驗證安全性權杖，您可以使用此套件。 安裝套件的方法如下：
 
-     a. 在 Visual Studio 2015 中，選擇 **工具**  > **NuGet 套件管理員**  >  **套件管理器主控台**。
+     a. 在 Visual Studio （2015年或更新版本），選擇**工具** > **NuGet 套件管理員** > **Package Manager Console**。
 
      b. 在 **套件管理器主控台**中，輸入 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612。
 3. 將下列程式碼加入類別 Program {...}。
@@ -152,7 +150,7 @@ namespace walkthrough_push_data
             string resourceUri = "https://analysis.windows.net/powerbi/api";
 
             //OAuth2 authority Uri
-            string authorityUri = "https://login.microsoftonline.net/common/";
+            string authorityUri = "https://login.microsoftonline.com/common/";
 
             //Get access token:
             // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

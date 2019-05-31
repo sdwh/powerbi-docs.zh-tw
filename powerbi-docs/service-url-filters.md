@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2019
+ms.date: 04/24/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
-ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
-ms.translationtype: HT
+ms.openlocfilehash: cf640be131e1bffb571ad3c2ae2713dee1c4c0ca
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "55648689"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051297"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -43,11 +43,11 @@ URL?filter=***資料表***/***欄位*** eq '***值***'
 
 ### <a name="reports-in-apps"></a>應用程式中的報表
 
-如果要將 URL 篩選器新增至應用程式的報表中，則格式會略有不同。 應用程式中報表的連結具有新增至 URL 的查詢參數 (ctid)。 查詢參數需要以 & 符號分隔。 因此，您需要使用「&filter=」(在 ctid 參數之後) 來附加查詢，而不是使用「?filter=」。 
+如果要將 URL 篩選器新增至應用程式的報表中，則格式會略有不同。 應用程式中報表的連結具有新增至 URL 的查詢參數 (ctid)。 使用連字號分隔的查詢參數 (&)。 保留 「？ 篩選 ="移至 URL 的結尾的 ctid 參數前面會加上連字號 (&)。 
 
 如下列範例中：
 
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*Table*/*Field* eq '*value*'
+app.powerbi.com/groups/me/apps/*應用程式識別碼*/reports/*報表識別碼*/ReportSection？ filter =*表格*/*欄位*eq '*值*（& s)' ctid =*ctid*
 
 ### <a name="field-types"></a>欄位類型
 
@@ -78,12 +78,12 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*
 ![具篩選的 URL](media/service-url-filters/power-bi-filter-urls7.png)
 
 >[!NOTE]
->NC 是儲存在 [Store] 資料表 [Territory] 欄位中的值。
+>NC  是儲存在 [Store]  資料表 [Territory]  欄位中的值。
 > 
 
 我們的報表已篩選出北卡羅萊納州；報表頁面上的所有視覺效果都只會顯示北卡羅萊納州的資料。
 
-![](media/service-url-filters/power-bi-report4.png)
+![篩選出北卡羅萊納州的報表](media/service-url-filters/power-bi-report4.png)
 
 ## <a name="filter-on-multiple-fields"></a>篩選多個欄位
 
@@ -133,19 +133,19 @@ Power BI URL 篩選可包含下列格式的數字。
 
 ### <a name="date-data-types"></a>日期資料類型
 
-Power BI 針對 **Date** 和 **DateTimeOffset** 資料類型支援 OData V3 和 V4。  日期是使用 EDM 格式 (2019-02-12T00:00:00) 表示，因此當您以 YYYY-MM-DD 指定日期時，Power BI 會將它解譯為 YYYY-MM-DDT00:00:00。
+Power BI 針對 **Date** 和 **DateTimeOffset** 資料類型支援 OData V3 和 V4。  使用 EDM 的格式表示日期 (2019年-02-12T00:00:00)，因此當您指定的日期 '-YYYY-MM-DD' 時，Power BI 會將它做為解譯 ' YYYY-MM-DDT00:00:00'。
 
-此差異為何很重要？ 假設您建立查詢字串參數 **Table/Date gt 2018-08-03**。  結果會包含 2018 年 8 月 3 日，還是從 2018 年 8 月 4 日開始？ 由於 Power BI 將您的查詢轉譯為 **Table/Date gt 2018-08-03T00:00:00**，因此您的結果會包含具有非零時間部分的任何日期，因為這些日期會大於 **2018-08-03T00:00:00**。
+此差異為何很重要？ 假設您建立的查詢字串參數**日期資料表/g ' 2018年-08-03'** 。  結果會包含 2018 年 8 月 3 日，還是從 2018 年 8 月 4 日開始？ 因為 Power BI 會將轉譯的查詢，以**日期資料表/g '2018年-08-03T00:00:00'** ，您的結果包含具有非零時間部分，因為這些日期會是大於任何日期 **' 2018年-08-03T00:00:00'** .
 
 ## <a name="special-characters-in-url-filters"></a>URL 篩選中的特殊字元
 
-特殊字元和空格需要一些額外的格式設定。 當您的查詢包含空格、破折號或其他非 ASCII 字元時，請在這些特殊字元前面加上「逸出代碼」，開頭為底線，並加上一個 X (**_x**) 和四位數 **Unicode**，再接上另一個底線。 如果 Unicode 少於四個字元，您必須以零填補。 以下是一些範例。
+特殊字元和空格需要一些額外的格式設定。 當您的查詢包含空格、破折號或其他非 ASCII 字元時，請在這些特殊字元前面加上「逸出代碼」  ，開頭為底線，並加上一個 X ( **_x**) 和四位數 **Unicode**，再接上另一個底線。 如果 Unicode 少於四個字元，您必須以零填補。 以下是一些範例。
 
 |識別碼  |Unicode  | 適用於 Power BI 的編碼  |
 |---------|---------|---------|
 |**資料表名稱**     | 空格是 0x20        |  Table_x0020_Name       |
 |**Column**@**Number**     |   @ 是 0x40     |  Column_x0040_Number       |
-|**[Column]**     |  [ 是 0x0058] 是 0x0050       |  _x0058_Column_x0050       |
+|**[Column]**     |  [ 是 0x0058] 是 0x0050       |  _x0058_Column_x0050_       |
 |**Column+Plus**     | + 是 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![呈現特殊字元的資料表視覺效果](media/service-url-filters/power-bi-special-characters1.png)
@@ -177,7 +177,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 * 使用 *in* 運算子時，*in* 右方的值必須是前後加上括弧的逗點分隔清單。    
 * 在 Power BI 報表伺服器，[傳遞報表參數](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)的方法可以是將其包含在報表 URL 中。 這些 URL 參數不會有前置詞，因為會直接傳遞到報表處理引擎。
-* 查詢字串篩選不適用於[發行至 Web](service-publish-to-web.md)。
+* 查詢字串篩選不適用於[發佈至網路](service-publish-to-web.md)或是[匯出至 PDF](consumer/end-user-pdf.md)。
 * [在 SharePoint Online 中內嵌報表 Web 組件](service-embed-report-spo.md)不支援 URL 篩選。
 * 由於 JavaScript 限制，Long 資料類型為 (2^53-1)。
 * 報表 URL 篩選條件有 10 個運算式的限制 (以 AND 連接的 10 個篩選條件)。

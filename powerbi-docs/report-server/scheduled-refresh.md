@@ -1,20 +1,20 @@
 ---
 title: Power BI 報表伺服器中 Power BI 報表排程的重新整理
 description: Power BI 報表可以連線到不同的資料來源。 根據使用資料的方式而定，可以使用不同的資料來源。
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 81bd3dc166a92f7be6fe9081f4b88feedc7514d3
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: ca2c37a93652bf0f622c7154fe8438faf4c70ac1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394742"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051007"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI 報表伺服器中 Power BI 報表排程的重新整理
 Power BI 報表的排程重新整理可讓報表的資料保持在最新狀態。
@@ -34,6 +34,7 @@ Power BI 報表的排程重新整理可讓報表的資料保持在最新狀態�
 * 資料模型會在 Analysis Services 執行個體中載入。
 * 對於某些資料來源，Power Query 混搭引擎是用來連線至資料來源，並且轉換資料。 其他資料來源可能會直接從用來裝載 Power BI 報表伺服器資料模型的 Analysis Services 服務連線。
 * 新的資料會載入至 Analysis services 中的資料模型。
+* 在向外延展組態中，資料模型可以複寫到節點。
 * Analysis Services 會處理資料，並執行任何所需的計算。
 
 Power BI 報表伺服器會為所有排程的作業維護事件佇列。 它會定期輪詢佇列以檢查是否有新的事件。 根據預設，佇列會以 10 秒鐘的間隔進行掃描。 您可以藉由修改 RSReportServer.config 檔案中的 **PollingInterval**、**IsNotificationService** 和**IsEventService** 組態設定，來變更間隔。 **IsDataModelRefreshService** 也可以用來設定報表伺服器是否處理排程的事件。
@@ -47,11 +48,11 @@ Power BI 報表伺服器會為所有排程的作業維護事件佇列。 它會�
 
 * 您的報表包含一或多個 Analysis Services 資料來源，使用即時連線。
 * 您的報表包含一或多個資料來源，使用 DirectQuery。
-* 您的報表不包含任何資料來源。 例如，資料是透過「輸入資料」手動輸入，或者報表只包含類似影像、文字等的靜態內容。
+* 您的報表不包含任何資料來源。 例如，資料是透過「輸入資料」  手動輸入，或者報表只包含類似影像、文字等的靜態內容。
 
-除了上述清單，在「匯入」模式中還有資料來源的特定案例，您無法為其建立重新整理計劃。
+除了上述清單，在「匯入」  模式中還有資料來源的特定案例，您無法為其建立重新整理計劃。
 
-* 如果使用「檔案」或「資料夾」資料來源，且檔案路徑是本機路徑 (例如 C:\Users\user\Documents)，則無法建立重新整理計劃。 路徑必須是報表伺服器可以連線的路徑，例如網路共用。 例如，\\myshare\Documents。
+* 如果使用「檔案」  或「資料夾」  資料來源，且檔案路徑是本機路徑 (例如 C:\Users\user\Documents)，則無法建立重新整理計劃。 路徑必須是報表伺服器可以連線的路徑，例如網路共用。 例如，\\myshare\Documents  。
 * 如果資料來源只能使用 OAuth (例如，Facebook、Google Analytics、Salesforce 等) 來連線，則無法建立快取重新整理計劃。 目前，RS 不支援任何資料來源 (無論是分頁、行動或 Power BI 報表) 的 OAuth 驗證。
 
 ### <a name="memory-limits"></a>記憶體限制
