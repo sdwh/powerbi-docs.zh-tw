@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/15/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfd40c991f461e57f2f1d2de8a46b3627aa7fbc1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9e91c162c9b748fd0ef122aed8fc7ffee6dba5fc
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274206"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448300"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI 中閘道的單一登入 (SSO) 概觀
 
@@ -29,6 +29,7 @@ ms.locfileid: "54274206"
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))
+* SSO 也可針對[其他資料來源](desktop-directquery-data-sources.md#single-sign-on-sso-for-directquery-sources)而不使用部署資料閘道
 
 當使用者與 Power BI 服務中的 DirectQuery 報表互動時，每個交叉篩選、配量、排序和報表編輯作業可能會導致針對基礎內部部署資料來源即時執行查詢。  當 SSO 針對資料來源設定時，查詢會在使用者用來與 Power BI 互動的身分識別下執行 (也就是，透過 Web 體驗或 Power BI 行動應用程式)。 因此，每個使用者會準確看到他們在基礎資料來源中擁有權限的資料 – 設定單一登入之後，不同使用者之間沒有共用的資料快取。
 
@@ -47,7 +48,7 @@ ms.locfileid: "54274206"
 
 2. 閘道必須將 Azure Active Directory UPN 對應至本機 Active Directory 身分識別。
 
-   a.  如果已設定 Azure AD DirSync (也稱為「Azure AD Connect」)，則閘道中的對應功能會自動運作。
+   a.  如果已設定 Azure AD DirSync (也稱為「Azure AD Connect」  )，則閘道中的對應功能會自動運作。
 
    b.  否則，閘道可以對本機 Active Directory 網域執行查閱，以查閱 Azure AD UPN 並將其對應至本機使用者。
 
