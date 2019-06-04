@@ -11,18 +11,18 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
+ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324821"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "66469778"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>管理 Power BI 內部部署閘道
 
 [安裝 Power BI 資料閘道](service-gateway-install.md)之後，您便可以根據自己的需求來進行管理。 在本主題中，您將學會如何新增及移除資料來源和使用者、重新啟動閘道，以及移轉、還原、接管及移除閘道。
 
-若要管理閘道，可以透過本機電腦上閘道應用程式中 Power BI 服務的 [管理閘道] 區域，或是使用 PowerShell 指令碼。 本文著重在 Power BI 服務。
+若要管理閘道，可以透過本機電腦上閘道應用程式中 Power BI 服務的 [管理閘道]  區域，或是使用 PowerShell 指令碼。 本文著重在 Power BI 服務。
 
 如果您剛剛安裝了一個閘道，建議您下一步[加入資料來源](#add-a-data-source)，然後[新增使用者](#add-users-to-a-data-source)，讓他們可以存取資料來源。
 
@@ -34,30 +34,30 @@ Power BI 支援許多的內部部署資料來源，而且各有自己的需求�
 
 ### <a name="add-a-data-source"></a>加入資料來源
 
-1. 在 Power BI 服務的右上角，選取齒輪圖示 ![設定齒輪圖示](media/service-gateway-manage/icon-gear.png) > [管理閘道]。
+1. 在 Power BI 服務的右上角，選取齒輪圖示 ![設定齒輪圖示](media/service-gateway-manage/icon-gear.png) > [管理閘道]  。
 
     ![管理閘道](media/service-gateway-manage/manage-gateways.png)
 
-2. 選取閘道 > [加入資料來源]，或移至閘道 > [加入資料來源]。
+1. 選取閘道 > [加入資料來源]  ，或移至閘道 > [加入資料來源]  。
 
     ![加入資料來源](media/service-gateway-manage/add-data-source.png)
 
-3. 選取 [資料來源類型]。
+1. 選取 [資料來源類型]  。
 
     ![選取 SQL Server](media/service-gateway-manage/select-sql-server.png)
 
 
-4. 輸入資料來源的資訊。 在本範例中，輸入的資訊有**伺服器**、**資料庫**和其他資訊。  
+1. 輸入資料來源的資訊。 在本範例中，輸入的資訊有**伺服器**、**資料庫**和其他資訊。  
 
     ![資料來源設定](media/service-gateway-manage/data-source-settings.png)
 
-5. 針對 SQL Server，您應選擇 **Windows** 或**基本** (SQL 驗證) 的**驗證方法**。  如果您選擇**基本**，請輸入資料來源的認證。
+1. 針對 SQL Server，您應選擇 **Windows** 或**基本** (SQL 驗證) 的**驗證方法**。  如果您選擇**基本**，請輸入資料來源的認證。
 
-6. 在 [進階設定] 下，選擇性地為您的資料來源 (不適用於 [DirectQuery](desktop-directquery-about.md)) 設定[隱私權等級](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)。
+1. 在 [進階設定]  下，選擇性地為您的資料來源 (不適用於 [DirectQuery](desktop-directquery-about.md)) 設定[隱私權等級](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)。
 
     ![進階設定](media/service-gateway-manage/advanced-settings.png)
 
-7. 選取 [加入] 。 如果程序成功，您會看到 [連線成功]。
+1. 選取 [加入]  。 如果程序成功，您會看到 [連線成功]  。
 
     ![連線成功](media/service-gateway-manage/connection-successful.png)
 
@@ -67,7 +67,7 @@ Power BI 支援許多的內部部署資料來源，而且各有自己的需求�
 
 如果您不再使用資料來源，則可以移除它。 請注意，移除資料來源的同時也會中斷依賴該資料來源的所有儀表板和報表。
 
-若要移除資料來源，請移至 [資料來源]，然後選取 [移除]。
+若要移除資料來源，請移至 [資料來源]，然後選取 [移除]  。
 
 ![移除資料來源](media/service-gateway-manage/remove-data-source.png)
 
@@ -81,31 +81,31 @@ Power BI 支援許多的內部部署資料來源，而且各有自己的需求�
 
 ### <a name="add-users-to-a-data-source"></a>將使用者加入至資料來源
 
-1. 在 Power BI 服務的右上角，選取齒輪圖示 ![設定齒輪圖示](media/service-gateway-manage/icon-gear.png) > [管理閘道]。
+1. 在 Power BI 服務的右上角，選取齒輪圖示 ![設定齒輪圖示](media/service-gateway-manage/icon-gear.png) > [管理閘道]  。
 
 2. 選取您想加入使用者的資料來源。
 
-3. 選取 [使用者]，然後輸入組織中您想要授與所選取資料來源存取權的使用者。 在下列畫面中，您可以看到我新增了 Maggie 和 Adam。
+3. 選取 [使用者]  ，然後輸入組織中您想要授與所選取資料來源存取權的使用者。 在下列畫面中，您可以看到我新增了 Maggie 和 Adam。
 
     ![[使用者] 索引標籤](media/service-gateway-manage/users-tab.png)
 
-4. 選取 [新增]，新增的成員會顯示在方塊中。
+4. 選取 [新增]  ，新增的成員會顯示在方塊中。
 
-    ![加入使用者](media/service-gateway-manage/add-user.png)
+    ![新增使用者](media/service-gateway-manage/add-user.png)
 
 就是這麼簡單。 請記住，您必須將使用者新增至您要授與存取權的每個資料來源。 每個資料來源都有不同的使用者清單，而且您必須分別將使用者新增至每個資料來源。
 
 
 ### <a name="remove-users-from-a-data-source"></a>從資料來源中移除使用者
 
-您可以在 [使用者] 索引標籤上，為資料來源移除使用這個資料來源的使用者或安全性群組。
+您可以在 [使用者]  索引標籤上，為資料來源移除使用這個資料來源的使用者或安全性群組。
 
 ![移除使用者](media/service-gateway-manage/remove-user.png)
 
 
 ### <a name="add-and-remove-administrators"></a>新增和移除管理員
 
-在閘道的 [管理員] 索引標籤上，新增和移除可管理閘道的使用者 (或安全性群組)。
+在閘道的 [管理員]  索引標籤上，新增和移除可管理閘道的使用者 (或安全性群組)。
 
 ![[管理員] 索引標籤](media/service-gateway-manage/administrators-tab.png)
 
@@ -114,14 +114,14 @@ Power BI 支援許多的內部部署資料來源，而且各有自己的需求�
 
 一旦您建立的叢集包含兩個或多個閘道，所有的閘道管理作業 (例如新增資料來源或授與系統管理員閘道權限) 都適用於屬於叢集的所有閘道。 
 
-當系統管理員使用 [Power BI 服務] 齒輪圖示下找到的 [管理閘道] 功能表項目時，會看到已註冊叢集或個別閘道的清單，但看不到叢集成員的個別閘道執行個體。
+當系統管理員使用 [Power BI 服務]  齒輪圖示下找到的 [管理閘道]  功能表項目時，會看到已註冊叢集或個別閘道的清單，但看不到叢集成員的個別閘道執行個體。
 
-所有新的 [已排程重新整理] 要求和 DirectQuery 作業會自動路由到指定閘道叢集的主要執行個體。 如果主要閘道執行個體不在線上，就會將要求路由至叢集中的另一個閘道執行個體。
+所有新的 [已排程重新整理]  要求和 DirectQuery 作業會自動路由到指定閘道叢集的主要執行個體。 如果主要閘道執行個體不在線上，就會將要求路由至叢集中的另一個閘道執行個體。
 
 
 ## <a name="share-a-gateway"></a>共用閘道
 
-您無法共用閘道本身，但是可以為閘道新增系統管理員，以及新增使用者至閘道的資料來源。 
+您無法共用  閘道本身，但是可以為閘道新增系統管理員，以及新增使用者至閘道的資料來源。 
 
 當您安裝閘道之後，預設即成為該閘道的系統管理員。 如先前所示，您可以新增其他人成為系統管理員。 這些系統管理員可以新增資料來源、設定及移除閘道。
 
@@ -133,11 +133,11 @@ Power BI 支援許多的內部部署資料來源，而且各有自己的需求�
 
 1. 下載閘道並進行安裝。
 
-2. 登入您的 Power BI 帳戶之後，註冊閘道。 選取 [移轉、還原或取代現有的閘道] > [下一步]。
+2. 登入您的 Power BI 帳戶之後，註冊閘道。 選取 [移轉、還原或取代現有的閘道]   > [下一步]  。
 
     ![註冊閘道](media/service-gateway-manage/register-gateway.png)
 
-3. 從可用的叢集和閘道中選取，然後輸入所選取閘道的修復金鑰。 選取 [設定]。
+3. 從可用的叢集和閘道中選取，然後輸入所選取閘道的修復金鑰。 選取 [設定]  。
 
     ![移轉、還原或取代](media/service-gateway-manage/migrate-restore-takeover.png)
 
@@ -157,9 +157,9 @@ Power BI 支援許多的內部部署資料來源，而且各有自己的需求�
 
 如果您不再使用閘道，則可以移除它。 但是請注意，移除閘道會刪除其下的所有資料來源。 這也會依次中斷依賴這些資料來源的任何儀表板和報表。
 
-1. 在 Power BI 服務的右上角，選取齒輪圖示 ![設定齒輪圖示](media/service-gateway-manage/icon-gear.png) > [管理閘道]。
+1. 在 Power BI 服務的右上角，選取齒輪圖示 ![設定齒輪圖示](media/service-gateway-manage/icon-gear.png) > [管理閘道]  。
 
-2. 選取閘道 > [移除]
+2. 選取閘道 > [移除] 
    
    ![移除閘道](media/service-gateway-manage/remove-gateway.png)
 
