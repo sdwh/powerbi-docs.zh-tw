@@ -681,9 +681,9 @@
               href: service-dataflows-configure-workspace-storage-settings.md
             - name: 將 CDM 資料夾作為資料流程新增到 Power BI (預覽)
               href: service-dataflows-add-cdm-folder.md
-            - name: 在 Power BI (預覽) 中整合機器學習服務
+            - name: 在 Power BI 中整合機器學習服務
               href: service-machine-learning-integration.md
-            - name: 在 Power BI 中使用認知服務 (預覽)
+            - name: 在 Power BI 中使用認知服務
               href: service-cognitive-services.md
             - name: Power BI 中的自動化機器學習 (預覽)
               href: service-machine-learning-automated.md
@@ -745,8 +745,6 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: 不支援重新整理的資料來源疑難排解
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: 針對以文字傳回的巢狀值進行疑難排解
-              href: service-troubleshooting-nested-values.md
             - name: Azure SQL Database 排程重新整理疑難排解
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: 錯誤：在您的 Excel 活頁簿中找不到任何資料
@@ -927,6 +925,8 @@
           href: service-premium-incremental-refresh.md
         - name: 設定 Multi-Geo
           href: service-admin-premium-multi-geo.md
+        - name: 攜帶您自己的加密金鑰
+          href: service-encryption-byok.md
         - name: 重新啟動 Premium 容量
           href: service-admin-premium-restart.md
         - name: 使用用戶端應用程式與工具連線至資料集
