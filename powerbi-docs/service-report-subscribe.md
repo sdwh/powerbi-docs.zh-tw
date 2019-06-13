@@ -1,6 +1,6 @@
 ---
-title: 訂閱您自己和其他報表和儀表板-Power BI
-description: 了解如何在您自己和其他人訂閱 Power BI 報表頁面、 在儀表板或已編頁的報表的快照集。
+title: 為您自己和其他人訂閱報表和儀表板 - Power BI
+description: 了解如何為您自己和其他人訂閱 Power BI 報表頁面、儀表板或編頁報表的快照集。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a344e3cdd93fbd237387b61fb4735b41f22625e3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b1d0914f146ea56697ada2a64c59744690595054
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991121"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66498069"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
-您可以訂閱您自己和您的同事，對您來說最重要的編頁的報表、 儀表板與報表頁面。 Power BI 的電子郵件收件匣的快照集。 您要告訴 Power BI 需要收到電子郵件的頻率︰每天、每週，或在初始資料重新整理後一天一次。  選擇 每日或每週，您可以在這裡選擇的時間，如果您想要訂用帳戶執行。  總之，針對每個報表頁面和儀表板，您每天可以設定最多 24 個不同的訂用帳戶。
+您可以為自己和同事訂閱對您來說最重要的報表頁面、儀表板和編頁報表。 Power BI 會將快照集以電子郵件傳送到您的收件匣。 您要告訴 Power BI 需要收到電子郵件的頻率︰每天、每週，或在初始資料重新整理後一天一次。  如果您選擇每天或每週，則可以選擇您想要執行訂閱的時間。  總之，針對每個報表頁面和儀表板，您每天可以設定最多 24 個不同的訂用帳戶。
 
 ![儀表板的電子郵件快照集](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -30,13 +30,12 @@ ms.locfileid: "65991121"
 
 - **建立**訂閱是 Power BI Pro 的功能。
 - 您不需要內容 (儀表板或報表) 的編輯權限，即可為您自己建立訂用帳戶，但您必須擁有編輯權限，才能為其他人建立訂用帳戶。 
-- 自 2019 年 1 月起，您不再需要設定資料集重新整理，就能執行訂用帳戶。  其執行與任何設定的排程重新整理無關。  
 
-## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>訂閱儀表板、 報表頁面上或已編頁的報表
+## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>訂閱儀表板、報表頁面或編頁報表
 
-您訂閱的儀表板、 報表，或已編頁的報表、 處理程序很類似。 同樣的按鈕可讓您訂閱 Power BI 服務的儀表板與報表。
+不論您是要訂閱儀表板、報表或編頁報表，程序都很相似。 同樣的按鈕可讓您訂閱 Power BI 服務的儀表板與報表。
 
-訂閱已編頁報表是有點不同。 請參閱[自己和其他人訂閱 Power BI 服務中的分頁報表](paginated-reports-subscriptions.md)如需詳細資訊。
+訂閱編頁報表則略有不同。 如需詳細資訊，請參閱[為您自己和其他人訂閱 Power BI 服務中的編頁報表](paginated-reports-subscriptions.md)。
  
 ![選取訂閱圖示](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
@@ -64,7 +63,7 @@ ms.locfileid: "65991121"
 7. 選取 [儲存並關閉]  。 針對您所選取的頻率和時間，這些訂用帳戶會收到儀表板或報表頁面的電子郵件和快照集。 總之，您可以針對每個報表或儀表板建立最多 24 個訂用帳戶，而且可以為每個訂用帳戶提供唯一的收件者、時間和頻率。  所有設定為 [在資料重新整理後]  的儀表板或報表訂用帳戶，仍然只會在第一次排程重新整理之後傳送一封電子郵件。   
       
    > [!TIP]
-   > 想要立即/隨時從訂用帳戶傳送電子郵件嗎？ 請以訂用帳戶針對您想傳送的儀表板或報表選取 [立即執行]  。 您會看到通知顯示電子郵件正在傳送至屬於該特定訂用帳戶的所有人。  您可能會執行這項操作經常依您的喜好。 這不會計入您每天每報表或儀表板的 24 個排程訂用帳戶執行限制。 它不會觸發資料重新整理基礎資料集。 
+   > 想要立即/隨時從訂用帳戶傳送電子郵件嗎？ 請以訂用帳戶針對您想傳送的儀表板或報表選取 [立即執行]  。 您會看到通知顯示電子郵件正在傳送至屬於該特定訂用帳戶的所有人。  您隨時都可以這麼做。 這不會計入您每天每報表或儀表板的 24 個排程訂用帳戶執行限制。 這不會觸發基礎資料集的資料重新整理。 
    > 
    > 
    
@@ -87,10 +86,11 @@ ms.locfileid: "65991121"
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
-* 傳送給使用者的訂閱電子郵件中，釘選磚超過 25 個，或是有 4 個以上釘選即時報表頁面的儀表板可能不會完整呈現。  覆寫這些數字的磚的儀表板的訂用帳戶，不會封鎖。 不過，被視為不受支援，如果您遇到問題。 請考慮據此修改使其落在支援的範圍。
-* 當設定電子郵件訂用帳戶，請的注意訂用帳戶作業啟動時，會發生延遲之間和電子郵件傳送的確切時間。  若要降至最低兩者之間的延遲，設定不同的時間比當您的電子郵件訂用帳戶排定為要執行您排程的資料重新整理。
-* 儀表板的電子郵件訂用帳戶，如果任何圖格有資料列層級安全性 (RLS) 套用，不顯示這些磚。  
-* 報表電子郵件訂用帳戶，如果此資料集使用 RLS，您可以建立訂用帳戶為您自己。 您無法訂閱其他人報告套用的資料列層級安全性 (RLS)。
+* 傳送給使用者的訂閱電子郵件中，釘選磚超過 25 個，或是有 4 個以上釘選即時報表頁面的儀表板可能不會完整呈現。  訂閱超過這些磚數目的儀表板不會遭到封鎖。 不過，如果您遇到問題，則會視為不受支援。 請考慮據此修改使其落在支援的範圍內。
+* 這次是訂閱作業開始時。 在某些情況下，可能需要幾分鐘的時間，您的收件匣才會收到電子郵件。
+* 在少數情況下，可能需要超過 15 分鐘的時間，收件者才會收到電子郵件訂閱。 如果發生這種情況，建議您在不同時間執行資料重新整理和電子郵件訂閱，以確保準時傳遞。 若問題持續發生，請連絡 Power BI 支援人員。
+* 針對儀表板電子郵件訂閱，如果有任何磚套用資料列層級安全性 (RLS)，則不會顯示這些磚。  
+* 針對報表電子郵件訂閱，如果資料集使用 RLS，您可以為自己建立訂閱。 您無法為其他人訂閱已套用資料列層級安全性 (RLS) 的報表。
 * 報表頁面訂閱會繫結至報表頁面的名稱。 如果您訂閱報表頁面，然後將它重新命名，您必須重新建立訂用帳戶。
 * 您的組織可能會在 Azure Active Directory 進行某些設定，而這可能會限制在 Power BI 中使用電子郵件訂閱的功能。  這些限制包括但不限於存取資源時的多重要素驗證或 IP 範圍限制。
 * 目前，訂閱您自己以外的使用者時，不支援使用即時連線資料集之報表/儀表板的電子郵件訂閱。
@@ -105,6 +105,6 @@ ms.locfileid: "65991121"
 
 ## <a name="next-steps"></a>後續步驟
 
-- [您自己和其他人訂閱 Power BI 服務中的分頁報表](paginated-reports-subscriptions.md)
+- [為您自己和其他人訂閱 Power BI 服務中的編頁報表](paginated-reports-subscriptions.md)
 - 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)    
 - [閱讀部落格文章](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

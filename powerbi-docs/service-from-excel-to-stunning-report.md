@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cd75aebb09c7b6c54c1ff3f68635bfd5033c7f80
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139357"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721477"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>即刻從 Excel 活頁簿到令人驚豔的報表
 您的經理在下班時想要看到您最近的銷售數字以及之前行銷活動效果的報表。 但最新的資料在各種協力廠商系統中，以及您膝上型電腦的檔案內。 在過去，需要好幾個小時的時間才能製作具有各種視覺效果與格式的報表， 所以您覺得有點焦慮。
@@ -98,6 +98,6 @@ Power BI 會隨即顯示 [共用儀表板] 頁面。 請在最上層的區域中
 
 * [開始使用 Power BI 服務](service-get-started.md)
 * [開始使用 Power BI Desktop](desktop-getting-started.md)
-* [Power BI - 基本概念](consumer/end-user-basic-concepts.md)
+* [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0fcb3451249c121281790dca77bd6008c39deaef
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60977194"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497937"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>關於 Power BI 自訂視覺效果的常見問題集
 
@@ -84,7 +84,7 @@ ms.locfileid: "60977194"
  
 ### <a name="how-long-does-it-take-to-certify-my-visual"></a>認證我的視覺效果需要多少時間？
 
-如果是更新版本，最多需要 2 週的時間。 如果是新的提交項目 (首次認證)，最多需要 3 週的時間。 
+如果是更新版本，最多需要 3 週的時間。 如果是新的提交項目 (首次認證)，最多需要 4 週的時間。 
 
 ### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>你們能保證認證流程不會發生資料外洩嗎？
 

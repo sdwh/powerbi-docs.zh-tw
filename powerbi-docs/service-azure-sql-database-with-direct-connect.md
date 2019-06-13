@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f03f4933566a8c18510ef0ce07b71db61ecfa8fd
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5365c076b75d0989df8db15c1dc16f4e11bc3f09
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770585"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448365"
 ---
 # <a name="azure-sql-database-with-directquery"></a>具有 DirectQuery 的 Azure SQL Database
 
@@ -42,28 +42,15 @@ ms.locfileid: "64770585"
 
 您必須使用 Power BI Desktop，才能連線到使用 DirectQuery 的 Azure SQL Database。 這個方法提供額外的彈性與功能。 使用 Power BI Desktop 建立的報表可以發行至 Power BI 服務。 您可以深入了解如何在 Power BI Desktop 中連線到 [ DirectQuery 的 Azure SQL Database](desktop-use-directquery.md)。
 
-## <a name="single-sign-on"></a>單一登入
-
-在您將 Azure SQL DirectQuery 資料集發行至服務之後，您可以透過 Azure Active Directory (Azure AD) OAuth2 為終端使用者啟用單一登入 (SSO)。
-
-若要啟用 SSO，請移至資料集、開啟 [資料來源]  索引標籤，然後檢查 [SSO] 方塊。
-
-![設定 Azure SQL DQ 對話方塊](media/service-azure-sql-database-with-direct-connect/sso-dialog.png)
-
-若已啟用 SSO 選項，且您的使用者存取在資料來源上建立的報告，Power BI 會在對 Azure SQL 資料庫的查詢中傳送其已驗證的 Azure AD 認證。 這可讓 Power BI 遵從在資料來源層級所設定的安全性設定。
-
-SSO 選項會在使用此資料來源的所有資料集中生效。 它不會影響用於匯入案例的驗證方法。
-
-> [!Note]
-> 不支援 Azure Multi-Factor Authentication (MFA)。 想搭配 Azure SQL DirectQuery 使用 SSO 的使用者，必須自 MFA 中免除。
-
 ## <a name="finding-parameter-values"></a>尋找參數值
 
-在 Azure 入口網站中可以找到您完整的伺服器名稱和資料庫名稱。
+在 Azure 入口網站中可以找到您完整的伺服器名稱與資料庫名稱。
 
 ![新的 Azure 連接埠更新](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
 
 ![Azure 入口網站更新](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>後續步驟
 

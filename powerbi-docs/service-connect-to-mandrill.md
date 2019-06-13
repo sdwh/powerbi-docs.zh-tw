@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 00212258a145bf7d161d650a4b1cfa9f054a4508
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: efea81ab0a65b336e01c7a69af2189e31ae5d9f8
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61161849"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721161"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>使用 Power BI 連接到 Mandrill
 Power BI 內容套件會從 Mandrill 帳戶提取資料，並產生儀表板、一組報表與資料集，可讓您瀏覽資料。 請使用 Mandrill 分析，快速深入了解您的電子報或行銷活動。 資料會設定為每天重新整理，確保您所監視的資料為最新狀態。
@@ -49,5 +49,5 @@ Power BI 內容套件會從 Mandrill 帳戶提取資料，並產生儀表板、�
 ## <a name="next-steps"></a>後續步驟
 [Power BI 是什麼？](power-bi-overview.md)
 
-[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
+[Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 

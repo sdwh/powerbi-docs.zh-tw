@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b0a6b3027e548becf56cc5f0d7036e35c9316cd4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
+ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187701"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66453772"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -78,7 +78,7 @@ ms.locfileid: "66187701"
 <br>由 Wim Coorevits 和 Enrique Plaza Garcia 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
-**管理 Power BI Embedded 的最佳作法分析多租用戶部署**
+**用於多租用戶部署的管理 Power BI Embedded 分析最佳做法**
 <br>由 Nimrod Shalit 主持
 <br>[報名並立即觀看](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
 
@@ -118,10 +118,11 @@ ms.locfileid: "66187701"
 <br>由 Reid Havens 主持
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
-### <a name="partners"></a>合作夥伴 ###
+### <a name="partner-solutions-series"></a>合作夥伴解決方案系列 ###
+[觀看本系列](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
 
 **實現消費品製造商和零售商雙贏的局面**
-<br>藉由從 Thorogood Liz McCreesh
+<br>由 Thorogood 的 Liz McCreesh 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 **透過 Power BI 將客戶資料轉換成零售成功**

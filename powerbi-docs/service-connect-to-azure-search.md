@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c6794fd08255dc3d63381549e7ee068631d49697
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4756bcef5d50783940a9b9565d0af6b9978e52b7
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61179912"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721275"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>使用 Power BI 連接到 Azure 搜尋服務
 Azure 搜尋服務流量分析可讓您監視及了解 Azure 搜尋服務的流量。 Power BI 的 Azure 搜尋服務內容套件提供了搜尋資料的詳細深入解析，包括過去 30 天內的搜尋、索引、服務統計資料和延遲。 更多詳細資料請參閱 [Azure 部落格文章](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/)。
@@ -58,5 +58,5 @@ Azure 搜尋服務內容套件需要帳戶啟用 Azure 搜尋服務流量分析�
 ## <a name="next-steps"></a>後續步驟
 [Power BI 是什麼？](power-bi-overview.md)
 
-[Power BI - 基本概念](consumer/end-user-basic-concepts.md)
+[Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 

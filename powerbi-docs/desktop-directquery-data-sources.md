@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/10/2019
+ms.date: 05/31/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3bb7de9685a1e0fc9fa423328ad9e1e5faa53603
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a06a37e89f7984ab227d54ee5b06550a6ae3e4d6
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61305447"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448281"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支援的資料來源
 
@@ -24,10 +24,10 @@ ms.locfileid: "61305447"
 下列資料來源在 Power BI 中支援 DirectQuery：
 
 * Amazon Redshift
-* AtScale (Beta)
+* AtScale (搶鮮版 (Beta))
 * Azure HDInsight Spark
-* Azure SQL Database
-* Azure SQL 資料倉儲
+* [Azure SQL Database](service-azure-sql-database-with-direct-connect.md)
+* [Azure SQL 資料倉儲](service-azure-sql-data-warehouse-with-direct-connect.md)
 * Google BigQuery
 * HDInsight 互動式查詢
 * IBM DB2 資料庫
@@ -39,7 +39,7 @@ ms.locfileid: "61305447"
 * SAP Business Warehouse 訊息伺服器
 * SAP HANA
 * Snowflake
-* Spark (0.9 版及更新版本)
+* Spark (版本 0.9 或更新版本)
 * SQL Server
 * Teradata 資料庫
 * Vertica
@@ -57,22 +57,39 @@ ms.locfileid: "61305447"
 
 | 來源 | 需要閘道？ |
 | --- | --- |
-| SQL Server |是 |
+| Amazon Redshift |否 |
+| Azure HDInsight Spark (Beta) |否 |
 | Azure SQL Database |否 |
 | Azure SQL 資料倉儲 |否 |
-| SAP HANA |是 |
-| Oracle 資料庫 |是 |
-| Teradata 資料庫 |是 |
-| Amazon Redshift |否 |
-| Impala (2.x 版) |是 |
-| Snowflake |是 |
-| Spark (Beta) 0.9 版及更新版本 |是 |
-| Azure HDInsight Spark (Beta) |否 |
+| Google BigQuery |否 |
 | IBM Netezza |是 |
+| Impala (2.x 版) |是 |
+| Oracle 資料庫 |是 |
 | SAP Business Warehouse 應用程式伺服器 |是 |
 | SAP Business Warehouse 訊息伺服器 |**Power BI 服務**中尚不支援 |
-| Google BigQuery |否 |
+| SAP HANA |是 |
+| Snowflake |是 |
+| Spark (Beta) 0.9 版及更新版本 |是 |
+| SQL Server |是 |
+| Teradata 資料庫 |是 |
 
+## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery 來源的單一登入 (SSO)
+
+若已啟用 SSO 選項，且您使用者存取建置在資料來源上的報告，則 Power BI 會在對基礎資料來源的查詢中傳送其已驗證 Azure AD 認證。 這可讓 Power BI 遵從在資料來源層級所設定的安全性設定。
+
+SSO 選項會在使用此資料來源的所有資料集中生效。 它不會影響用於匯入案例的驗證方法。 下列資料來源支援透過 DirectQuery 進行連線的 SSO：
+
+- Azure SQL Database
+- Azure SQL 資料倉儲
+- Impala
+- SAP HANA
+- SAP BW
+- Spark
+- SQL Server
+- Teradata
+
+> [!Note]
+> 不支援 Azure Multi-Factor Authentication (MFA)。 想要搭配 DirectQuery 使用 SSO 的使用者必須豁免於 MFA 之外。
 
 ## <a name="next-steps"></a>後續步驟
 如需 DirectQuery 的詳細資訊，請參閱下列資源：

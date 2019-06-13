@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 5c42b633b3c8746d2e26656eb5310b1f74cb2500
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 296970466505f01ae9ad11f994fe2008563f4884
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61159726"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720194"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>將報表從 Power BI 服務匯出至 Desktop (預覽)
 在 Power BI Desktop 中，您可以匯出 (也稱為「下載」  ) 報表至 Power BI 服務，方法是儲存報表，並選取 [發佈]  。 您也可以另一個方向來匯出，並從 Power BI 服務下載報表到 Desktop。 在任一方向中，匯出的檔案副檔名為 *.pbix* 。
@@ -68,7 +68,7 @@ ms.locfileid: "61159726"
 此外，以下其他幾篇文章可以協助您了解如何使用 **Power BI 服務**：
 
 * [Power BI 中的報表](consumer/end-user-reports.md)
-* [Power BI - 基本概念](consumer/end-user-basic-concepts.md)
+* [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 
 一旦安裝 **Power BI Desktop**，下列內容能幫助您快速啟動並執行：
 

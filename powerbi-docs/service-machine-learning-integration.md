@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 6c09392566805f2857c50784f16c0e3f9d4b5697
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 86fab3a760eb8bb12ed1955fd5bf357790090e0e
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61232343"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448346"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Power BI 與 Azure Machine Learning 的整合 (預覽)
 
@@ -68,7 +68,14 @@ ms.locfileid: "61232343"
 
 資料科學家主要使用 Python 來開發甚至是部署其 Machine Learning Service 機器學習模型。  不像 Machine Learning Studio 會協助自動化為模型建立結構描述檔案的工作，在 Machine Learning Service 的案例中，資料科學家必須明確地使用 Python 產生結構描述檔案。
 
-此結構描述檔案必須包含在
+此結構描述必須包含在機器學習服務模型的部署 Web 服務中。 若要自動產生 Web 服務的結構描述，您必須為部署模型在項目指令碼中提供輸入/輸出的範例。 請參閱＜使用 Azure Machine Learning 服務部署模型＞文件中「(選用) 產生自動 Swagger 結構描述」上的子節。 連結包含產生結構描述陳述式的範例項目指令碼。 
+
+具體而言，項目指令碼中的 *@input_schema* 和 *@output_schema* 函式會參考 *input_sample* 和 *output_sample* 中的輸入和輸出範例格式，並在部署期間使用這些範例來產生 Web 服務的 OpenAPI (Swagger) 規格。
+
+這些透過更新項目指令碼來產生結構描述的指示也必須套用到使用 Azure Machine Learning SDK 時，透過自動化機器學習服務實驗建立的模型。
+
+> [!NOTE]
+> 使用 Azure Machine Learning 服務視覺化介面 (預覽) 建立的模型目前不支援產生結構描述，但會在後續的版本中支援。 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>在 Power BI 中叫用 Azure ML 模型
 
@@ -90,9 +97,9 @@ ms.locfileid: "61232343"
 
 ![選取叫用](media/service-machine-learning-integration/machine-learning-integration_08.png)
 
-如果模型傳回多個輸出參數，它們會群組在一起以記錄形式的輸出資料行。 您可以展開資料行，在不同的資料行中產生個別的輸出參數。
+若模型傳回多個輸出參數，它們會分組為輸出資料行中的記錄。 您可以展開資料行，在不同的資料行中產生個別的輸出參數。
 
-![展開 資料行](media/service-machine-learning-integration/machine-learning-integration_09.png)
+![展開資料行](media/service-machine-learning-integration/machine-learning-integration_09.png)
 
 一旦您儲存資料流程之後，當您針對實體資料表中任何新的或更新的資料列重新整理資料流程時，將會自動叫用模型。
 
@@ -106,8 +113,8 @@ ms.locfileid: "61232343"
 
 如需資料流程的詳細資訊，您可以閱讀這些文章：
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
-* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
+* [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 * [資料流程與 Azure Data Lake 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)
 

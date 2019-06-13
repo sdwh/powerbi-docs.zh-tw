@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9a99344438108d2f092220dfa1c66895355aeda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7157ddd66c651519f59eb964f5fcf95eb127943c
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61402944"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721443"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>在 OneDrive 中共用連結到 Excel 檔案的 Power BI 儀表板
 在 Power BI 中，您可以[連接到商務用 OneDrive 的 Excel 活頁簿](service-excel-workbook-files.md)，並從該活頁簿將磚釘選至儀表板。 當您共用儀表板，或建立包含該儀表板的內容組件時：
@@ -56,6 +56,6 @@ ms.locfileid: "61402944"
 
 ## <a name="next-steps"></a>後續步驟
 * [從 Excel 將磚釘選到 Power BI 儀表板](service-dashboard-pin-tile-from-excel.md)
-* [Power BI 基本概念](consumer/end-user-basic-concepts.md)
+* [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

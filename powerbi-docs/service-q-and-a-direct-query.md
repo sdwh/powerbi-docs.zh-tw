@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9836cd88bef5066f61a8ae44eabe7685196e2bed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59c9488def297537cc2ea944f6c0fc4f59ba29ba
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65624931"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720899"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>針對 Power BI 中的即時連線啟用問與答
 ## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>什麼是內部部署資料閘道？  什麼是即時連線？
-Power BI 中的資料集可匯入 Power BI，或者您可以建立與資料集的即時連接。 即時的連線資料集通常會參照為 「 內部 」。 您可以使用[閘道](service-gateway-onprem.md)管理即時連線，並使用即時查詢以來回傳送資料及查詢。
+Power BI 中的資料集可匯入 Power BI，或者您可以建立與資料集的即時連接。 即時連線資料集通常稱為「內部部署」。 您可以使用[閘道](service-gateway-onprem.md)管理即時連線，並使用即時查詢以來回傳送資料及查詢。
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>內部部署資料閘道資料集問與答
 如果您想要搭配透過閘道存取的資料集使用問與答，必須先啟用資料集。
@@ -33,7 +33,7 @@ Power BI 中的資料集可匯入 Power BI，或者您可以建立與資料集�
 如需詳細資訊，請參閱：
 
 * 什麼是[內部部署資料閘道](service-gateway-onprem.md)？
-* [Power BI 問與答取用者](consumer/end-user-q-and-a.md)
+* [Power BI 取用者問與答](consumer/end-user-q-and-a.md)
 
 ## <a name="enable-qa"></a>啟用問與答
 設定資料閘道之後，從 Power BI 連線到您的資料。  您可以使用內部部署資料建立儀表板，或上傳使用內部部署資料的 .pbix 檔案。  您也可能在與您共用的儀表板、報表和資料集中已有內部部署資料。
@@ -54,16 +54,16 @@ Power BI 中的資料集可匯入 Power BI，或者您可以建立與資料集�
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 此功能有一些限制：
 
-* 一開始，此功能僅適用於 SQL Server 2016 Analysis Services 表格式資料來源。 此功能已最佳化，現在可使用表格式資料。 問與答體驗尚不支援的多維度。 內部部署資料閘道支援的其他資料來源將隨著時間推出。
-* 一開始無法完整支援 SQL Server Analysis Services 中定義的資料列層級安全性。 同時在問與答中提問，「 自動完成 」 的問題，而輸入可顯示字串值的使用者沒有存取權。 不過，報表和圖表視覺效果會使用模型中定義的 RLS，因此不會公開任何基礎數值資料。 未來更新將會發行控制此行為的選項。
-* 不支援物件層級安全性 (OLS)。 問與答不遵守物件層級安全性，且可以顯示資料表或資料行的名稱，不需要存取權的使用者。 您應該啟用 RLS，確保同時適當地保護資料值。 
-* 只有內部部署資料閘道支援即時連線。 如此一來，這不能使用個人閘道。
+* 一開始，此功能僅適用於 SQL Server 2016 Analysis Services 表格式資料來源。 此功能已最佳化，現在可使用表格式資料。 尚未支援多維度的問與答體驗。 內部部署資料閘道支援的其他資料來源將隨著時間推出。
+* 一開始並未完整支援 SQL Server Analysis Services 中定義的資料列層級安全性。 在問與答中詢問問題時，鍵入問題後的「自動完成」功能可顯示使用者無權存取的字串值。 不過，報表和圖表視覺效果會使用模型中定義的 RLS，因此不會公開任何基礎數值資料。 未來更新將會發行控制此行為的選項。
+* 不支援物件層級安全性 (OLS)。 問與答與物件層級安全性無關，且可以向沒有存取權的使用者顯示資料表或資料行名稱。 您應該啟用 RLS，確保同時適當地保護資料值。 
+* 只有內部部署資料閘道支援即時連線。 因此，這無法用於個人閘道。
 
 ## <a name="next-steps"></a>後續步驟
 
 - [內部部署資料閘道](service-gateway-onprem.md)  
 - [管理您的資料來源─Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-- [Power BI：基本概念](consumer/end-user-basic-concepts.md)  
+- [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)  
 - [Power BI 問與答概觀](consumer/end-user-q-and-a.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)

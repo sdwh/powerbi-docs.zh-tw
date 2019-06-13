@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375065"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720347"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>搭配 Power BI 的服務主體 (預覽)
 
@@ -120,7 +120,7 @@ ms.locfileid: "66375065"
 
 5. 以「管理員」  身分將服務主體新增至您建立的新工作區。 您可以透過 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 或使用 Power BI 服務管理這項工作。
 
-    ![身為系統管理員的服務主體新增至工作區](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![將服務主體作為管理員新增至工作區](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. 現在選擇在範例應用程式或您自己的應用程式中內嵌內容。
 
@@ -168,17 +168,17 @@ ms.locfileid: "66375065"
 
 * 服務主體僅會使用[新的應用程式工作區](../service-create-the-new-workspaces.md)。
 * 使用服務主體時，不支援 [我的工作區]  。
-* 需要專用 Premium 容量才能移至生產環境。
+* 需要專用容量才能移至生產環境。
 * 您無法使用服務主體登入 Power BI 入口網站。
 * 需有 Power BI 管理員權限，才能在 Power BI 管理入口網站的開發人員設定中啟用服務主體。
 * 您無法使用服務主體安裝或管理內部部署資料閘道。
 * [為組織內嵌](embed-sample-for-your-organization.md)應用程式無法使用服務主體。
 * 不支援[資料流程](../service-dataflows-overview.md)管理。
-* 服務主體目前不支援任何系統管理 Api。
+* 服務主體目前不支援任何管理員 API。
 
 ## <a name="next-steps"></a>後續步驟
 
 * [註冊應用程式](register-app.md)
 * [適用於您客戶的 Power BI Embedded](embed-sample-for-customers.md)
 * [Azure Active Directory 中的應用程式和服務主體物件](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [使用內部部署資料閘道與服務主體 （預覽） 的資料列層級安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [搭配服務主體使用內部部署資料閘道的資料列層級安全性 (預覽)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

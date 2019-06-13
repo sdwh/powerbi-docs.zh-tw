@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f7e8d58e5fd738e5da678723ef239f5303be5070
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: da5a36454e52891df7906b444b29b4df2db44d7f
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226083"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721184"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的組織內容套件簡介
 > [!NOTE]
@@ -75,6 +75,6 @@ ms.locfileid: "61226083"
 ## <a name="next-steps"></a>後續步驟
 * [建立和發佈組織內容套件](service-organizational-content-pack-create-and-publish.md)
 * [在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md) 
-* [Power BI - 基本概念](consumer/end-user-basic-concepts.md)
+* [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 * 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

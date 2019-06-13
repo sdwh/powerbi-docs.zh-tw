@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7eb30d00cdb03c0f0f879d0cb4b0ab152d1dae37
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61237992"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721522"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>教學課程：開始使用 Power BI 服務 (app.powerbi.com)
 本教學課程可協助您開始使用 Power BI 服務。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，強烈建議您先參閱[什麼是 Power BI](power-bi-overview.md)。
@@ -53,7 +53,7 @@ ms.locfileid: "61237992"
 > 
 
 ## <a name="what-is-the-power-bi-service"></a>什麼是 Power BI 服務？
-Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Power BI 可協助您掌握最新的重要資訊。  使用 Power BI 服務，「儀表板」能助您掌握商務脈動。  儀表板顯示的***磚***，可讓您按一下以開啟「報表」來進一步探索。  連接到多個***資料集***，讓所有相關資料集中到一處。 您想要了解構成 Power BI 的建置組塊嗎？  請參閱 [Power BI - 基本概念](consumer/end-user-basic-concepts.md)。
+Microsoft Power BI 服務有時稱為 Power BI 線上或 app.powerbi.com。 Power BI 可協助您掌握最新的重要資訊。  使用 Power BI 服務，「儀表板」能助您掌握商務脈動。  儀表板顯示的***磚***，可讓您按一下以開啟「報表」來進一步探索。  連接到多個***資料集***，讓所有相關資料集中到一處。 您想要了解構成 Power BI 的建置組塊嗎？  請參閱 [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)。
 
 如果 Excel 或 CSV 檔案中有重要的資料，您可以建立 Power BI 儀表板在任何位置掌握其動態，並與他人交流意見。  您訂閱了 Salesforce 之類的 SaaS 應用程式嗎？  預先連線到 Salesforce 以自動從該資料建立儀表板，或[查看您可以連線的所有其他 SaaS 應用程式](service-get-data.md)。 如果您是組織的一員，請查看是否曾為您發佈過任何的[應用程式](service-create-distribute-apps.md)。
 
