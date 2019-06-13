@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 08a2de32b092ba24b66ddd9f173be1eaea8819ab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3400071c6b8cee472bb61475e6d3482189680563
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394409"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66840104"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>在 Power BI 中使用功能區圖表
 您可以使用功能區圖表來視覺化資料，並快速找出哪個資料類別具有最高的等級 (最大值)。 功能區圖表適合顯示等級變更，最高等級 (值) 一律顯示於每個時段的最上方。 
@@ -27,7 +27,7 @@ ms.locfileid: "61394409"
 
 1. 若要建立功能區圖表，請從 [視覺效果]  畫面選取 [功能區圖表]  。
 
-    ![視覺效果範本](media/desktop-ribbon-charts/ribbon-charts_02.png)
+    ![視覺效果範本](media/desktop-ribbon-charts/power-bi-template.png)
 
     功能區圖表會透過使用功能區，連接視覺化時間連續體的資料類別，可讓您看到在整個圖表 X 軸 (通常為時間軸) 的範圍中，某個類別的等級為何。
 

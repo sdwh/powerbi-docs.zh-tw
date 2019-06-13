@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: Conceptual
+ms.topic: conceptual
 ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 67246168b5387f49e7bda22e470f5a908a4bff9b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: aa6193045ba1c399eaae1b48bf813738edba99f1
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65608236"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750858"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>變更 Power BI 報表中的圖表排序方式
 在 Power BI 報告中，您可以依圖表類別名稱的字母順序排序大部分的視覺效果，或依每個類別的數值排序。 例如，這張圖表是依照類別**商店名稱**排序。

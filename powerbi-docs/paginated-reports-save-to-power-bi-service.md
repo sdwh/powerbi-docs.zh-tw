@@ -1,5 +1,5 @@
 ---
-title: 將編頁報表發佈至 Power BI 服務 (預覽)
+title: 將編頁報表發佈至 Power BI 服務
 description: 在此教學課程中，您將了解如何從本機電腦上傳編頁報表，以將該報表發佈至 Power BI 服務。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423924"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839596"
 ---
-# <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>將編頁報表發佈至 Power BI 服務 (預覽)
+# <a name="publish-a-paginated-report-to-the-power-bi-service"></a>將編頁報表發佈至 Power BI 服務
 
 在此文章中，您將了解如何從本機電腦上傳編頁報表，以將該報表發佈至 Power BI 服務。 只要工作區位於 Premium 容量，您就可以將編頁報表上傳到 [我的工作區] 或任何其他工作區。 尋找工作區名稱旁邊的鑽石圖示 ![Power BI Premium 容量鑽石圖示](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) (在工作區名稱旁邊)。 
 
@@ -89,5 +89,5 @@ ms.locfileid: "61423924"
 ## <a name="next-steps"></a>後續步驟
 
 - [檢視 Power BI 服務中的編頁報表](paginated-reports-view-power-bi-service.md)
-- [什麼是 Power BI Premium 中的編頁報表？(預覽)](paginated-reports-report-builder-power-bi.md)
+- [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 在 Power BI 服務中檢視編頁報表的參數 (預覽)
+title: 使用 Power BI 服務檢視編頁報表的參數
 description: 您將在此文章中了解如何使用 Power BI 服務與編頁報表的參數互動。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: ea186b5fa3bbbe7968c386604066f91b90ec5821
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 100d8b5d25f7d844ea4f44d63a4d2cb9737f57a9
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61422192"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839515"
 ---
-# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>在 Power BI 服務中檢視編頁報表的參數 (預覽)
+# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>使用 Power BI 服務檢視編頁報表的參數
 
 您將在此文章中了解如何使用 Power BI 服務與編頁報表的參數互動。  報表參數提供篩選報表資料的方式。 參數會提供一份可用值清單，您可以選擇一或多個值。 有時參數有預設值，有時候必須先選擇一個值，才會看到報表。  
 

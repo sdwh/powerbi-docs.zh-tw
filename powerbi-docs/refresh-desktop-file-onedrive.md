@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 112/06/2018
+ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 4120240b0f4de530bc62587f91bfe1fd4ff7d3df
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2acdada1a0b6955fb7d85f445bdbf5895b795bb4
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60973483"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751179"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>重新整理 OneDrive 或 SharePoint Online 上儲存的資料集
 將檔案從 OneDrive 或 SharePoint Online 匯入至 Power BI 服務，是確定您在 **Power BI Desktop**中所做的工作與 Power BI 服務保持同步的好方法。
