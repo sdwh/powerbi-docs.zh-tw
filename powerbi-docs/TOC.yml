@@ -257,8 +257,6 @@
               href: desktop-add-column-from-example.md
             - name: 新增自訂資料行
               href: desktop-add-custom-column.md
-            - name: 在 Power BI 中建立自適性圖表
-              href: visuals/desktop-create-responsive-visuals.md
             - name: 在 Power BI Desktop 中使用內嵌階層標籤
               href: desktop-inline-hierarchy-labels.md
             - name: 使用數字範圍交叉分析篩選器
@@ -689,24 +687,6 @@
               href: service-machine-learning-automated.md
         - name: Power BI 中的編頁報表
           items:
-            - name: 什麼是編頁報表？ (預覽)
-              href: paginated-reports-report-builder-power-bi.md
-            - name: 編頁報表常見問題集 (預覽)
-              href: paginated-reports-faq.md
-            - name: 建立編頁報表並上傳 (預覽)
-              href: paginated-reports-quickstart-aw.md
-            - name: 探索報表設計檢視 (預覽)
-              href: paginated-reports-report-design-view.md
-            - name: 直接在編頁報表中輸入資料 (預覽)
-              href: paginated-reports-enter-data.md
-            - name: 建立內嵌的資料來源 (預覽)
-              href: paginated-reports-embedded-data-source.md
-            - name: 建立內嵌的資料集 (預覽)
-              href: paginated-reports-create-embedded-dataset.md
-            - name: 建立參數 (預覽)
-              href: paginated-reports-parameters.md
-            - name: 發佈編頁報表 (預覽)
-              href: paginated-reports-save-to-power-bi-service.md
             - name: 檢視編頁報表 (預覽)
               href: paginated-reports-view-power-bi-service.md
             - name: 與參數互動 (預覽)
@@ -931,6 +911,52 @@
           href: service-admin-premium-restart.md
         - name: 使用用戶端應用程式與工具連線至資料集
           href: service-premium-connect-tools.md
+- name: Power BI 編頁報表產生器
+  items:
+    - name: 概觀
+      items:
+        - name: 什麼是編頁報表？
+          href: paginated-reports-report-builder-power-bi.md
+        - name: Power BI 中的報表產生器
+          href: report-builder-power-bi.md
+    - name: 教學課程
+      items:
+        - name: 建立編頁報表並上傳互動
+          href: paginated-reports-quickstart-aw.md
+    - name: 概念
+      items:
+        - name: 探索報表設計檢視
+          href: paginated-reports-report-design-view.md
+        - name: 規劃報表
+          href: report-builder-planning-report.md
+        - name: 報表產生器資料
+          href: report-builder-data.md
+        - name: 設計秘訣
+          href: report-builder-design-tips.md
+        - name: 資料表、矩陣、清單
+          href: report-builder-tables-matrices-lists.md
+        - name: 參數
+          href: report-builder-parameters.md
+        - name: 運算式
+          href: report-builder-expressions.md
+        - name: 運算式範例
+          href: report-builder-expression-examples.md
+        - name: 預覽報表
+          href: report-builder-previewing-reports.md
+        - name: 編頁報表常見問題集
+          href: paginated-reports-faq.md
+    - name: 如何
+      items:
+        - name: 直接在分頁報表中輸入資料
+          href: paginated-reports-enter-data.md
+        - name: 建立內嵌的資料來源
+          href: paginated-reports-embedded-data-source.md
+        - name: 建立內嵌的資料集
+          href: paginated-reports-create-embedded-dataset.md
+        - name: 建立參數
+          href: paginated-reports-parameters.md
+        - name: 發佈編頁報表
+          href: paginated-reports-save-to-power-bi-service.md
 - name: 適用於開發人員的 Power BI
   items:
     - name: 開發人員可如何使用 Power BI
