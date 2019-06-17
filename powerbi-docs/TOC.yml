@@ -703,6 +703,8 @@
               href: service-template-apps-tips.md
             - name: 安裝並散發範本應用程式
               href: service-template-apps-install-distribute.md
+            - name: 更新、刪除及擷取 Power BI 範本應用程式
+              href: service-template-update-delete-extract.md
         - name: 疑難排解
           items:
             - name: 忘記 Power BI 的密碼？

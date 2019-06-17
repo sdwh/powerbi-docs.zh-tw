@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 67678a150b4fce802bef2b287211cf438b832e82
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: eccda071b6c6abc92640024c3587bafa71038dee
+ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66459582"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66826631"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
@@ -61,9 +61,17 @@ ms.locfileid: "66459582"
    
      ![應用程式瀏覽](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
-5. 在 [權限]  中，決定誰可以存取應用程式，以及他們可以用它做什麼。 
+5. 在 [權限]  上，決定誰可以存取應用程式，以及他們可以用它做什麼。 
     - 在[傳統工作區](service-create-workspaces.md)中：您組織中的每個人、特定人員或 Azure Active Directory (AAD) 安全性群組。
-    - 在[新體驗工作區](service-create-the-new-workspaces.md)中：特定人員、AAD 安全性群組和通訊群組清單，以及 Office 365 群組。
+    - 在[新體驗工作區](service-create-the-new-workspaces.md)中：特定人員、AAD 安全性群組和通訊群組清單，以及 Office 365 群組。 系統會自動為所有工作區使用者授與對工作區應用程式的存取權。
+    - 您可以允許應用程式使用者使用「建置」權限連線到應用程式的底層資料集。 這些資料集將會出現在資料集搜尋體驗中。
+    - 您可以允許應用程式使用者將此應用程式中的報表複製到其「我的工作區」。 
+    
+    >[!IMPORTANT]
+    >若您的應用程式仰賴來自其他工作區的資料集，您必須負責確保所有應用程式使用者都能存取底層資料集。
+> 
+>     
+
 
 6. 如果您的 Power BI 管理員已在 Power BI 管理入口網站中為您啟用此設定，您就可以為收件者自動安裝應用程式。 深入了解本文中的[自動安裝應用程式](#automatically-install-apps-for-end-users)。
 
@@ -151,6 +159,14 @@ ms.locfileid: "66459582"
 * 盡量不要造成使用者太多負擔。 請小心不要推送太多應用程式，這樣使用者才能認定預先安裝的應用程式對他們有用。 為調配時間，最好控制誰可以將應用程式推送給終端使用者。 建立連絡點，將組織中的應用程式推播給使用者。
 
 * 不會為未接受邀請的來賓使用者自動安裝應用程式。  
+
+## <a name="allowing-users-to-connect-to-the-apps-underlying-datasets"></a>允許使用者連線到應用程式的底層資料集
+透過選取選項以允許所有使用者連線到應用程式的底層資料集，應用程式使用者可接收底層資料集上的「建置」權限。 這可讓使用者[跨工作區使用應用程式資料集](service-datasets-across-workspaces.md)在 Power BI Desktop 中搜尋這些資料集，而且服務會取得資料體驗，以及此用這些資料集建立報表與儀表板。 
+
+當您取消選取此選項時，您新增到應用程式的新使用者將無法再獲得「建置」權限。 不過，底層資料集上的現有權限不會變更。 您可以使用提供的使用者介面手動從不應該再擁有「建置」權限的使用者移除該權限。 深入了解[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
+
+## <a name="allowing-users-to-make-a-copy-of-the-reports-in-the-app"></a>允許使用者在應用程式中建立報表複本
+透過選取[允許使用者在此應用程式中複製應用程式報表]  ，您允許使用者將應用程式中的任何報表儲存到其「我的工作區」。 他們接著可以根據其獨特需求自訂報表。 此選項要求您必須啟用 [允許所有使用者使用組建權限來連線至應用程式的基礎資料集]  。 此功能的運作方式就像新的[從其他工作區複製報表](service-datasets-copy-reports.md)功能一樣。
 
 ## <a name="unpublish-an-app"></a>解除發佈應用程式
 應用程式工作區的任何成員都可以解除發佈應用程式。

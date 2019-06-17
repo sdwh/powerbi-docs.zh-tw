@@ -7,19 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/07/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a5e4b41b36dfbf6cca14a348268b96eaad21b00e
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
+ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461848"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66816669"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>跨工作區使用資料集 (預覽)
 
 商業智慧是一項共同作業活動。 建立可成為「真實單一來源」的標準化資料集非常重要。 探索及重複使用這些標準化資料集是關鍵因素。 當組織中的專業資料模型製作者建立並共用最佳化資料集時，報表建立者可以從這些資料集開始建置精確的報表。 然後，組織會擁有一致的資料以進行決策，並擁有健全的資料文化特性。
+
+![選取共用資料集](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
 Power BI 可讓資料集建立者輕鬆認證或推廣資料集，以利其他人探索。 然後，報表作者可以在 Power BI 中找到可讓他們使用的高品質官方資料集。 資料集擁有者可以使用[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)，掌控誰可以存取資料。 租用戶系統管理員具有[跨工作區管理資料集使用方式](service-datasets-admin-across-workspaces.md)的新租用戶設定。
 

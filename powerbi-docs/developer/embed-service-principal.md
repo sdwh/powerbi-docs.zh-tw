@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720347"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823287"
 ---
-# <a name="service-principal-with-power-bi-preview"></a>搭配 Power BI 的服務主體 (預覽)
+# <a name="service-principal-with-power-bi"></a>搭配 Power BI 的服務主體
 
 有了「服務主體」  ，您就可以將 Power BI 內容內嵌至應用程式，並使用「僅限應用程式」  權杖，來使用自動化與 Power BI 搭配使用。 使用 **Power BI Embedded** 時，或**將 Power BI 工作和程序自動化**時，服務主體很有助益。
 
@@ -94,7 +94,7 @@ ms.locfileid: "66720347"
    > [!Important]
    > 一旦您啟用要與 Power BI 搭配使用的服務主體，應用程式的 AD 使用權限就不再生效。 然後，應用程式的使用權限會透過 Power BI 系統管理入口網站管理。
 
-2. 在 Azure Active Directory (AAD) 中建立[安全性群組](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)，並將您建立的應用程式新增至該安全性群組。 您可以使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) 建立 AAD 安全性群組。
+2.  **建議** - [ Azure Active Directory (AAD) 中建立安全性群組](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)，然後將您建立的應用程式新增到該安全性群組。 您可以使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) 建立 AAD 安全性群組。
 
     以下範例指令碼可建立新的安全性群組，並將應用程式新增至該安全性群組。
 
@@ -109,7 +109,7 @@ ms.locfileid: "66720347"
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-3. 身為 Power BI 管理員，您必須在 Power BI 管理入口網站的 [開發人員設定]  中啟用服務主體。 將您在 Azure AD 中建立的安全性群組新增至 [開發人員設定]  中的 [特定安全性群組]  區段。
+3. 身為 Power BI 管理員，您必須在 Power BI 管理入口網站的 [開發人員設定]  中啟用服務主體。 將您在 Azure AD 中建立的安全性群組新增至 [開發人員設定]  中的特定安全性群組區段。 您也可以為整個組織啟用服務主體存取。 在該案例中，不需要步驟 2。
 
    > [!Important]
    > 服務主體可以存取為整個組織啟用的任何租用戶設定，或為具有服務主體作為群組一部分的安全性群組而啟用。 若要限制對特定租用戶設定的服務主體存取權，請僅允許對特定安全性群組的存取權，或為服務主體建立專用安全性群組並將其排除。
@@ -181,4 +181,4 @@ ms.locfileid: "66720347"
 * [註冊應用程式](register-app.md)
 * [適用於您客戶的 Power BI Embedded](embed-sample-for-customers.md)
 * [Azure Active Directory 中的應用程式和服務主體物件](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [搭配服務主體使用內部部署資料閘道的資料列層級安全性 (預覽)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [搭配服務主體使用內部部署資料閘道的資料列層級安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
