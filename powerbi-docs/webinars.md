@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d62ad0624a19666e4ac1e59927df9eade6e4df33
+ms.sourcegitcommit: 8054aa9622d97b196ef6cd087fd9e1d8dad3d9de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750975"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "67144923"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -141,17 +141,9 @@ ms.locfileid: "66750975"
 <br>由來自 US Medical IT 的 Stephen Cracknell 與 Stuart Macanliss 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-**使用位置智慧提升 BI**
-<br>作者：Microsoft Esri and Enrique Plaza 的 Scott Ball
-<br>[報名並立即觀看](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
-
 **銷售與服務的應用智慧**
 <br>由來自 Avanade 的 Ed Bobrin 主持
 <br>[報名並立即觀看](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
-
-**成功趨勢策展人的 5 個習慣 - Rohit Bhargava**
-<br>由 Non-Obvious 的 Rohit Bhargava 主持
-<br>[報名並立即觀看](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **製造商：您所處的產業正在經歷數位轉型 - 利用分析功能獲得最大利益以維持領導地位**
 <br>由來自 Blue Margin 的 Jon Thompson 與 Elgin Fastener Group 的 Jim Pastor 主持
@@ -160,6 +152,14 @@ ms.locfileid: "66750975"
 **使用新的 Power BI 和 data.world 連接器將公用或私用資料集視覺化**
 <br>作者：Patrick McGarry 與 Miguel Martinez
 <br>[報名並立即觀看](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
+**使用位置智慧提升 BI**
+<br>作者：Microsoft Esri and Enrique Plaza 的 Scott Ball
+<br>[報名並立即觀看](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
+
+**成功趨勢策展人的 5 個習慣 - Rohit Bhargava**
+<br>由 Non-Obvious 的 Rohit Bhargava 主持
+<br>[報名並立即觀看](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 ### <a name="community"></a>社群 ###
 
