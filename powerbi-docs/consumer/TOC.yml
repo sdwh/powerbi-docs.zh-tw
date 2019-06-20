@@ -106,6 +106,8 @@
       items:
         - name: 字彙和術語
           href: end-user-glossary.md
+        - name: 常見問題集
+          href: end-user-faq.md
         - name: 支援的瀏覽器
           href: end-user-browsers.md
         - name: Power BI 支援的快速深入剖析類型
