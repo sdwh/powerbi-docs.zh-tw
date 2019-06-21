@@ -1,5 +1,5 @@
 ---
-title: Power BI 與 Azure Machine Learning 的整合 (預覽)
+title: Power BI 中的 Azure Machine Learning 整合
 description: 了解如何搭配 Power BI 使用 Machine Learning
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 86fab3a760eb8bb12ed1955fd5bf357790090e0e
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 10ee974b73372fb2243febdcb4431b5decebdf4b
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448346"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823490"
 ---
-# <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Power BI 與 Azure Machine Learning 的整合 (預覽)
+# <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI 中的 Azure Machine Learning 整合
 
 許多組織使用 **Machine Learning** 模型來取得關於其業務的更好的見解與預測。 在您的報告與儀表板和其他分析中，能夠從這些模型視覺化及叫用見解的能力有助於傳播這些見解給最需要它的企業使用者。  Power BI 現在可讓您輕鬆使用直覺的點按手勢整合來自 Azure Machine Learning 服務上裝載之模型的見解。
 
@@ -75,7 +75,7 @@ ms.locfileid: "66448346"
 這些透過更新項目指令碼來產生結構描述的指示也必須套用到使用 Azure Machine Learning SDK 時，透過自動化機器學習服務實驗建立的模型。
 
 > [!NOTE]
-> 使用 Azure Machine Learning 服務視覺化介面 (預覽) 建立的模型目前不支援產生結構描述，但會在後續的版本中支援。 
+> 使用 Azure Machine Learning 服務視覺化介面建立的模型目前不支援產生結構描述，但會在後續的版本中支援。 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>在 Power BI 中叫用 Azure ML 模型
 
@@ -107,11 +107,11 @@ ms.locfileid: "66448346"
 
 此文章提供將 Machine Learning 整合到 Power BI 服務的概觀。 下列文章可能也很有趣且實用。 
 
-* [教學課程：在 Power BI 中叫用 Machine Learning Studio 模型 (預覽)](service-tutorial-invoke-machine-learning-model.md)
+* [教學課程：在 Power BI 中叫用 Machine Learning Studio 模型](service-tutorial-invoke-machine-learning-model.md)
 * [教學課程：在 Power BI 中使用認知服務](service-tutorial-use-cognitive-services.md)
-* [Power BI 中的認知服務 (預覽)](service-cognitive-services.md)
+* [Power BI 中的認知服務](service-cognitive-services.md)
 
-如需資料流程的詳細資訊，您可以閱讀這些文章：
+如需有關資料流程的詳細資訊，您可以閱讀下列文章：
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
 * [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
 * [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)

@@ -1,20 +1,20 @@
 ---
 title: Power BI 網路研討會
 description: Power BI 網路研討會
-author: maikelson
+author: v-tatero
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.author: maikelson
-ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
-ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.date: 06/01/2019
+ms.author: v-tatero
+ms.openlocfilehash: d62ad0624a19666e4ac1e59927df9eade6e4df33
+ms.sourcegitcommit: 8054aa9622d97b196ef6cd087fd9e1d8dad3d9de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66453772"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "67144923"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -22,7 +22,15 @@ ms.locfileid: "66453772"
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
-沒有已排定的網路研討會。 請稍後再回來查看近期的活動。
+註冊以接收 Power BI 專家傳來的資訊，並參加即時的問與答會議。
+
+**Microsoft 在 Power BI 上執行：在現代化審計中使用 Power BI**
+<br>由 Pankaj Gudimella 與 Guru Kirthigavasan 主持
+<br>[註冊以在 6/25 上午 10:00 – 上午 11:00 (太平洋標準時間) 觀看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+
+**Power BI：如何從您的工作日 HR 資料取得見解**
+<br>由 Agile Analytics 的 Iman Eftekhari、Julia Paton 與 QBE Insurance 的 Shahram Karimi 主持
+<br>[註冊以在 6/27 下午 1:30 – 下午 2:30 (太平洋標準時間) 觀看](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 >[來自 Power BI 社群，即將舉行的網路研討會](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -133,17 +141,9 @@ ms.locfileid: "66453772"
 <br>由來自 US Medical IT 的 Stephen Cracknell 與 Stuart Macanliss 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-**使用位置智慧提升 BI**
-<br>作者：Microsoft Esri and Enrique Plaza 的 Scott Ball
-<br>[報名並立即觀看](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
-
 **銷售與服務的應用智慧**
 <br>由來自 Avanade 的 Ed Bobrin 主持
 <br>[報名並立即觀看](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
-
-**成功趨勢策展人的 5 個習慣 - Rohit Bhargava**
-<br>由 Non-Obvious 的 Rohit Bhargava 主持
-<br>[報名並立即觀看](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **製造商：您所處的產業正在經歷數位轉型 - 利用分析功能獲得最大利益以維持領導地位**
 <br>由來自 Blue Margin 的 Jon Thompson 與 Elgin Fastener Group 的 Jim Pastor 主持
@@ -152,6 +152,14 @@ ms.locfileid: "66453772"
 **使用新的 Power BI 和 data.world 連接器將公用或私用資料集視覺化**
 <br>作者：Patrick McGarry 與 Miguel Martinez
 <br>[報名並立即觀看](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
+**使用位置智慧提升 BI**
+<br>作者：Microsoft Esri and Enrique Plaza 的 Scott Ball
+<br>[報名並立即觀看](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
+
+**成功趨勢策展人的 5 個習慣 - Rohit Bhargava**
+<br>由 Non-Obvious 的 Rohit Bhargava 主持
+<br>[報名並立即觀看](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 ### <a name="community"></a>社群 ###
 
