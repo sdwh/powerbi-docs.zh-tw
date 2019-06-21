@@ -31,7 +31,7 @@ id     |  Guid       | 系統範圍的資料集唯一識別碼。        | True 
 name     | String        | 使用者定義的資料集名稱。        | False        | True        
 tables     | Table[]        | 資料表集合。        |  False       | False        
 relationships     | Relationship[]        | 資料表之間的關聯性集合。        | False        |  False  
-defaultMode     | String        | 決定是否將資料集執行推送、 串流，或兩者的值 「 推送 」 和 「 串流 」。         | False        |  False
+defaultMode | String | 依「 推送 」 和 「 串流 」的值，決定資料集是否已推送、 已串流或兩者皆是 。 | False | False
 
 ## <a name="table"></a>資料表
 
@@ -68,7 +68,7 @@ isHidden     | String        |  若為 true，資料表會從用戶端工具隱�
 名稱  |類型  |描述  |唯讀  |必要 
 ---------|---------|---------|---------|---------
 name     | String        | 使用者定義的關聯性名稱。 其也用作關聯性的識別碼。        | False       | True        
-crossFilteringBehavior     | String        |    篩選關聯性的方向：OneDirection (預設)、BothDirections、Automatic       | False        | False        
+crossFilteringBehavior | String | 關聯性的篩選方向：OneDirection (預設)、BothDirections、Automatic | False | False        
 fromTable     | String        | 外部索引鍵資料表的名稱。        | False        | True         
 fromColumn    | String        | 外部索引鍵資料行的名稱。        | False        | True         
 toTable    | String        | 主索引鍵資料表的名稱。        | False        | True         
