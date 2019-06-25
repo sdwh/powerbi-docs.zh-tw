@@ -12,7 +12,7 @@ ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 37108c88b3a4f1efe2d324d2b182276252072d78
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710456"
@@ -31,7 +31,7 @@ Microsoft 365 系統管理中心會提供重要的工具，適用於 Power BI �
 
 1. 從左側的導覽列中，選取**全部顯示** > **健全狀況** > **服務健全狀況**。 服務健康情況頁面隨即出現：
 
-    ![Microsoft 365 系統管理中心，以叫出健全狀況] 和 [服務健全狀況選項的螢幕擷取畫面。](media/service-admin-health/service-health-tile.png)
+    ![Microsoft 365 系統管理中心，以叫出健全狀況 和 服務健全狀況選項的螢幕擷取畫面。](media/service-admin-health/service-health-tile.png)
 
 1. 從**所有服務**清單中，選取**諮詢**或是**事件**檢閱結果。 在以下的螢幕擷取畫面，您會看到三個作用中的摘要報告的其中一個。
 
