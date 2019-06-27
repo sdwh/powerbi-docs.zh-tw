@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 083d78552c124c3a53d669357678fb473dfcd5f2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0a80a75765d6e25f42163953e28b544171e8fdb2
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514569"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408326"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>[使用 EXCEL 分析] 的疑難排解
+
 有時候使用 [使用 EXCEL 分析] 可能會取得非預期的結果，或功能無法如您預期般運作。 此頁面可提供使用 [使用 EXCEL 分析] 時的常見問題解決方案。
 
 > [!NOTE]
@@ -57,8 +58,6 @@ Excel 文件庫必須在位元層級方面符合您的 Windows 版本。 如果�
 如果 Excel OLE DB 提供者用戶端文件庫處於最新狀態，則會看到下列對話方塊︰
 
 ![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
-
-C:\Users\davidi\Desktop\powerbi-content-pr\articles\media\powerbi-desktop-troubleshooting-analyze-in-excel
 
 或者，如果您要安裝的新版本比電腦上的版本更新，則會出現下列對話方塊︰
 

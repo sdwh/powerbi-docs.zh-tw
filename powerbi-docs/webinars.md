@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: d62ad0624a19666e4ac1e59927df9eade6e4df33
-ms.sourcegitcommit: 8054aa9622d97b196ef6cd087fd9e1d8dad3d9de
+ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "67144923"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389545"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -23,10 +23,6 @@ ms.locfileid: "67144923"
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
 註冊以接收 Power BI 專家傳來的資訊，並參加即時的問與答會議。
-
-**Microsoft 在 Power BI 上執行：在現代化審計中使用 Power BI**
-<br>由 Pankaj Gudimella 與 Guru Kirthigavasan 主持
-<br>[註冊以在 6/25 上午 10:00 – 上午 11:00 (太平洋標準時間) 觀看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Power BI：如何從您的工作日 HR 資料取得見解**
 <br>由 Agile Analytics 的 Iman Eftekhari、Julia Paton 與 QBE Insurance 的 Shahram Karimi 主持
@@ -61,6 +57,10 @@ ms.locfileid: "67144923"
 **Microsoft 執行 Power BI – 輕鬆達成財務規劃與分析**
 <br>由 Cory Hrncirik 和 Miguel Martinez 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Microsoft 在 Power BI 上執行：在現代化審計中使用 Power BI**
+<br>由 Pankaj Gudimella 與 Guru Kirthigavasan 主持
+<br>[報名並立即觀看](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **使用 Power BI JavaScript API 強化您的應用程式**
 <br>由 Nimrod Shalit 主持
