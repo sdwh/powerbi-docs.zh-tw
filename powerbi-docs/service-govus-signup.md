@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 28b77cfeda1f84f3643216dba45bef40bd6441ff
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513223"
@@ -102,7 +102,7 @@ ms.locfileid: "65513223"
 
 如果在美國政府租用戶中混合使用免費和 Pro 授權，並且通過「設為允許清單」  程序，則預期會發生下列情況：
 
-**「設為允許清單」之前  **：
+**設為允許清單_之前_** ：
 
 * 具有免費授權的使用者是在商用雲端中執行
 * Pro 美國政府授權會顯示在入口網站中，而且系統管理員可以將這些授權指派給使用者。 在系統管理員指派美國政府 Pro 授權之後，Pro 美國政府使用者將不會遺失其免費授權的資料。 已指派的使用者可以存取美國政府客戶的 Power BI Pro 功能，但除非租用戶已成功「設為允許清單」  ，否則下列項目符號清單功能會有缺漏：
@@ -112,7 +112,7 @@ ms.locfileid: "65513223"
   * PBIX 檔案必須手動從商用 Power BI 服務進行上傳
   * 沒有 Power BI mobile apps
 
-**「設為允許清單」之後  **：
+**設為允許清單_之後_** ：
 
 * 商用 Power BI 服務中執行的免費使用者可以繼續執行，但會如預期般停止驗證。
 * 在美國政府雲端中執行的 Pro 使用者，可以如預期使用**適用於美國政府客戶的 Power BI** 服務。

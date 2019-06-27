@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b90ef66d2c118a70f1b18ed4fe302ce1db23e45c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769754"
@@ -57,7 +57,7 @@ SWITCH (
 
 若要選取的欄位，並將它套用，請前往**視覺效果**窗格。 在 **格式**區域中，選取**標題**以顯示視覺效果標題選項。 
 
-當您以滑鼠右鍵按一下**標題文字**，內容會出現一個功能表，可讓您選取 ***fx * 條件式格式化**。 當您選取該功能表項目中，**標題文字** 對話方塊隨即出現。 
+當您以滑鼠右鍵按一下**標題文字**，內容會出現一個功能表，可讓您選取 ***fx* 條件式格式化**。 當您選取該功能表項目中，**標題文字** 對話方塊隨即出現。 
 
 ![螢幕擷取畫面的標題文字 對話方塊](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 
