@@ -6,15 +6,15 @@ ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
-ms.subservice: powerbi - developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 31222828d1a12a5f46fd7c04b3aa32240ff35736
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 56b417cb60f7c149b926f4307be0a50b33c278d6
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61374644"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751035"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 內嵌式分析管理多租用戶
 
@@ -142,9 +142,9 @@ SaaS 應用程式有兩種方法，讓使用者能夠編輯和建立報告，或
 
 ### <a name="scalability"></a>延展性
 
-此模型的一個優點是將資料分成每個租用戶的多個資料集，克服了[單一資料集的大小限制](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (目前容量為 10 GB)。 當多載容量時，它可以收回未使用的資料集，以釋放記憶體的使用中的資料集。 單一的大型資料集無法執行這項工作。 如果需要，還可以使用多個資料集將租用戶分成多個 Power BI 容量。
+此模型的一個優點是將資料分成每個租用戶的多個資料集，克服了[單一資料集的大小限制](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (目前容量為 10 GB)。 當容量超載時，它可以收回未使用資料集以釋放使用中資料集的記憶體。 單一的大型資料集無法執行這項工作。 如果需要，還可以使用多個資料集將租用戶分成多個 Power BI 容量。
 
-儘管有這些優點，其中必須考慮 SaaS 應用程式未來可以達到的規模。 例如，人員可能會達到可以管理之成品數目的限制。 如需詳細資料，請參閱本文稍後的[部署限制](#summary-comparison-of-the-different-approaches)。 使用的 SKU 容量導入的資料集無法放入中，相同的時間和最大的資料重新整理頻率可以執行多少的重新整理所需要的記憶體大小限制。 建議您在管理數百或數千個資料集時進行測試。 也建議您考慮平均值和尖峰使用量，以及使用大型資料集或不同使用模式的任何特定租用戶，其管理方式不同於其他租用戶。
+儘管有這些優點，其中必須考慮 SaaS 應用程式未來可以達到的規模。 例如，人員可能會達到可以管理之成品數目的限制。 如需詳細資料，請參閱本文稍後的[部署限制](#summary-comparison-of-the-different-approaches)。 使用的 SKU 容量引入下列限制：資料集需要適應的記憶體大小、可以同時執行的重新整理次數，以及資料重新整理的最高頻率。 建議您在管理數百或數千個資料集時進行測試。 也建議您考慮平均值和尖峰使用量，以及使用大型資料集或不同使用模式的任何特定租用戶，其管理方式不同於其他租用戶。
 
 ### <a name="automation--operational-complexity"></a>自動化與操作複雜度
 

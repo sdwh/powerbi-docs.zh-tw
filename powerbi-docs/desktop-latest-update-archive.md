@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d2a4e168b49ef0d9c3b656c91001ae9306dfe42d
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: cc2c9cbc15240e3dc4d46c7f02ef0b0d82bb36f8
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375044"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823440"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -34,10 +34,9 @@ ms.locfileid: "66375044"
 
 下列章節說明 **Power BI Desktop** 前幾個月的更新。
 
+## <a name="may-2019-update-26954671251"></a>2019 年 5 月更新 (2.69.5467.1251)
 
-## <a name="april-2019-update-2685432361"></a>2019 年 4 月更新 (2.68.5432.361)
-
-我們年 4 月的更新已滿載置於您的步驟中的 spring，雨天的更新。 
+我們的 5 月更新為您報表花園綻放了美麗花朵，包含吸睛新功能和充滿繽紛色彩的美麗視覺效果。 
 
 您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
@@ -53,43 +52,121 @@ ms.locfileid: "66375044"
 以下是本月 **Power BI Desktop** 新增的更新：
 
 ### <a name="reporting"></a>報告
-* 篩選 窗格的改善[[影片]](https://youtu.be/vih35kSrEHU?t=9)[[文章]](power-bi-report-filter-preview.md)[[部落格]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
-* 條件式格式化視覺效果標題[[影片]](https://youtu.be/vih35kSrEHU?t=254)[[文章]](desktop-conditional-format-visual-titles.md)[[部落格]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicTitles)
-* 條件式格式化的 web URL 動作按鈕、 圖案和影像[[影片]](https://youtu.be/vih35kSrEHU?t=439)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicURLs)
+* [效能分析器] 窗格 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=10) [[文章]](desktop-performance-analyzer.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#perfAnalyzer) 
+* 篩選窗格改善 (預覽) [[影片]](https://youtu.be/O8GlHDz8xUQ?t=377) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#filterPane)
+* 資料表和矩陣鍵盤導覽 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=518) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#accessibility)
+* 程式行資料標籤位置控制項 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=572) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#dataLabels)
+* KPI 視覺效果指示器文字大小控制項 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=664) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#kpi)
 
 
 ### <a name="analytics"></a>分析
-* 在報表的鑽研[[影片]](https://youtu.be/vih35kSrEHU?t=567)[[文章]](desktop-cross-report-drill-through.md)[[部落格]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#drillthrough) 
-* 關鍵影響因數 visual 現在支援連續分析的數值目標[[影片]](https://youtu.be/vih35kSrEHU?t=753)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#keyInfluencers) 
-* Python 支援不是正式上市[[影片]](https://youtu.be/vih35kSrEHU?t=889)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#python) 
-* 部分相符的問與答中的詞彙的同義字[[影片]](https://youtu.be/vih35kSrEHU?t=912)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#partialMatching) 
+* 關鍵影響因素視覺效果改善 (預覽) [[影片]](https://youtu.be/O8GlHDz8xUQ?t=717) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#keyInfluencers) 
+    * 量化支援 
+    * 格式化選項
+    * 行動支援
 
 
 ### <a name="modeling"></a>模型
-* 新的 DAX 函數-ALLCROSSFILTERED [[影片]](https://youtu.be/vih35kSrEHU?t=970)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dax) 
+* 停用新報表的自動日期資料表 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=984) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#autoDate) 
+* ALLSELECTED DAX 函式的更新 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=1080) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#dax) 
 
-### <a name="custom-visuals"></a>自訂視覺效果
-* 一個新的自訂視覺效果[[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#rainbowGauge) 
+
+### <a name="visuals"></a>視覺效果
+* ArcGIS Maps for Power BI 更新 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=1093) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#esri) 
+* 六個新的自訂視覺效果和更新 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=1199) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#mapbox) 
 
 
 ### <a name="data-connectivity"></a>資料連線
-* Power BI 資料流程連接器現在正式推出[[影片]](https://youtu.be/vih35kSrEHU?t=983)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dataflows) 
-* Oracle Essbase 連接器現在支援 DirectQuery，並已正式推出[[影片]](https://youtu.be/vih35kSrEHU?t=1011)[[部落格]   ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#oracleEssbase) 
-* PDF 連接器現在正式推出[[影片]](https://youtu.be/vih35kSrEHU?t=1042)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#pdf) 
-* 依範例 web 連接器-自動資料表推斷[[影片]](https://youtu.be/vih35kSrEHU?t=1089)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#webByExample) 
-* Intersystems 鳶尾花連接器[[影片]](https://youtu.be/vih35kSrEHU?t=1186)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intersystemsIRIS) 
-* Indexima 連接器[[影片]](https://youtu.be/vih35kSrEHU?t=1215)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#indexima) 
-* Luminis InformationGrid 連接器[[影片]](https://youtu.be/vih35kSrEHU?t=1236)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#luminisInformationGrid) 
-* 規劃求解 BI360 連接器[[影片]](https://youtu.be/vih35kSrEHU?t=1255)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#solverBI360) 
-* Paxata 連接器[[影片]](https://youtu.be/vih35kSrEHU?t=1268)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paxata) 
+* Essbase 連接器 - 原生查詢 (MDX) 的支援 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=2518) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#essbase) 
+* Intune 資料倉儲連接器 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=2538) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#intune) 
+* Tenforce 連接器 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=2560) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#tenforce) 
+* Roamler 連接器 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=2596) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#roamler) 
 
-### <a name="data-preparation"></a>資料準備
-* 資料分析增強功能和正式[[影片]](https://youtu.be/vih35kSrEHU?t=1299)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#profiling) 
-* 模糊的合併效能增強功能和正式[[影片]](https://youtu.be/vih35kSrEHU?t=1447)[[部落格]   ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#fuzzyMerge) 
-* M Intellisense 支援在公式列 和 [自訂資料行] 對話方塊中，並已正式推出[[影片]](https://youtu.be/vih35kSrEHU?t=1491)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intellisense) 
 
 ### <a name="other"></a>其他
-* Power BI 編頁報表產生器[[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paginatedReports) 
+* Power BI Desktop 的自動查詢取消 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#queryCancellation) 
+
+> [!NOTE]
+> 您也可以[查看 Power BI Desktop 的所有可用資料來源](desktop-data-sources.md)，我們的資料來源會持續增加，因此請經常回來查看。
+
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
+
+
+下列影片將描述並示範這些更新。 您也可以從部落格文章觀賞這段影片。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O8GlHDz8xUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> 您可能也會想要了解 [Power BI 服務的新功能](service-whats-new.md)，並請同時查閱 [Power BI 行動應用程式的新功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
+
+如果組織需要，您也可以下載先前版本的 Power BI Desktop。 強烈建議您使用最新版的 Power BI Desktop，不要使用舊版本。 所有舊版本都有下列限制：
+
+* 不針對舊版 Power BI Desktop 提供服務 - 您應該一律採用最新版本以獲得最新功能和更新。
+* 可能無法使用舊版 Power BI Desktop 開啟使用較新版 Power BI Desktop 建立或儲存的檔案。 
+* 如果您在載入使用較新版 Power BI Desktop 儲存的報表時收到一則警告，然後使用舊版儲存該報表，您將會遺失任何與新功能有關的資訊。
+* 我們只會封存英文版 Power BI Desktop。
+
+請選取下列連結以下載這個較早的版本： 
+
+* [Power BI Desktop - 32 位元 2019 年 5 月版本](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05.msi)
+* [Power BI Desktop - 64 位元 2019 年 5 月版本](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05_x64.msi)
+
+
+## <a name="april-2019-update-2685432361"></a>2019 年 4 月更新 (2.68.5432.361)
+
+我們的 4 月更新內容包含了大量更新，讓您在下雨天也春風滿面。 
+
+您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
+
+旁邊的連結分別更新下列項目：
+
+* 討論到某功能時， **[影片]** 會在新的瀏覽器分頁中摘錄片段。
+* 某些功能有 **[文章]** 提供詳細資料。
+* 每月更新的 **[部落格]** 文章中則說明大多數功能。
+* 最後，有些功能一目瞭然，因此不需要文章或影片。
+
+您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+
+以下是本月 **Power BI Desktop** 新增的更新：
+
+### <a name="reporting"></a>報告
+* 篩選窗格改善 [[影片]](https://youtu.be/vih35kSrEHU?t=9) [[文章]](power-bi-report-filter-preview.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
+* 視覺效果標題的條件式格式設定 [[影片]](https://youtu.be/vih35kSrEHU?t=254) [[文章]](desktop-conditional-format-visual-titles.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicTitles)
+* 按鈕、圖案和影像之 Web URL 動作的條件式格式設定 [[影片]](https://youtu.be/vih35kSrEHU?t=439) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicURLs)
+
+
+### <a name="analytics"></a>分析
+* 報表間的鑽研 [[影片]](https://youtu.be/vih35kSrEHU?t=567) [[文章]](desktop-cross-report-drill-through.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#drillthrough) 
+* 關鍵影響因數視覺效果現在支援數值目標的連續分析 [[影片]](https://youtu.be/vih35kSrEHU?t=753) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#keyInfluencers) 
+* Python 支援尚未正式推出 [[影片]](https://youtu.be/vih35kSrEHU?t=889) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#python) 
+* 問與答中字詞的部分同義字比對 [[影片]](https://youtu.be/vih35kSrEHU?t=912) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#partialMatching) 
+
+
+### <a name="modeling"></a>模型
+* 新的 DAX 函式 - ALLCROSSFILTERED [[影片]](https://youtu.be/vih35kSrEHU?t=970) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dax) 
+
+### <a name="custom-visuals"></a>自訂視覺效果
+* 一個新的自訂視覺效果 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#rainbowGauge) 
+
+
+### <a name="data-connectivity"></a>資料連線
+* Power BI 資料流程現已正式推出 [[影片]](https://youtu.be/vih35kSrEHU?t=983) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dataflows) 
+* Oracle Essbase 連接器現在支援 DirectQuery，並已正式推出 [[影片]](https://youtu.be/vih35kSrEHU?t=1011) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#oracleEssbase) 
+* PDF 連接器現已正式推出 [[影片]](https://youtu.be/vih35kSrEHU?t=1042) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#pdf) 
+* Web By Example 連接器 - 自動資料表推斷 [[影片]](https://youtu.be/vih35kSrEHU?t=1089) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#webByExample) 
+* Intersystems IRIS 連接器 [[影片]](https://youtu.be/vih35kSrEHU?t=1186) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intersystemsIRIS) 
+* Indexima 連接器 [[影片]](https://youtu.be/vih35kSrEHU?t=1215) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#indexima) 
+* Luminis InformationGrid 連接器 [[影片]](https://youtu.be/vih35kSrEHU?t=1236) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#luminisInformationGrid) 
+* Solver BI360 連接器 [[影片]](https://youtu.be/vih35kSrEHU?t=1255) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#solverBI360) 
+* Paxata 連接器 [[影片]](https://youtu.be/vih35kSrEHU?t=1268) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paxata) 
+
+### <a name="data-preparation"></a>資料準備
+* 資料分析增強功能與正式推出 [[影片]](https://youtu.be/vih35kSrEHU?t=1299) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#profiling) 
+* 模糊合併效能增強功能與正式推出 [[影片]](https://youtu.be/vih35kSrEHU?t=1447) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#fuzzyMerge) 
+* M Intellisense 在公式列和自訂資料行對話方塊中受到支援，並已正式推出 [[影片]](https://youtu.be/vih35kSrEHU?t=1491) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#intellisense) 
+
+### <a name="other"></a>其他
+* Power BI 分頁報表產生器 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#paginatedReports) 
 
 
 
@@ -116,13 +193,13 @@ ms.locfileid: "66375044"
 
 請選取下列連結以下載這個較早的版本： 
 
-* [2019 年 4 月的 Power BI Desktop 版本-32 位元](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04.msi)
-* [2019 年 4 月版本的 Power BI Desktop-64 位元](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04_x64.msi)
+* [Power BI Desktop - 32 位元 2019 年 4 月版本](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04.msi)
+* [Power BI Desktop - 64 位元 2019 年 4 月版本](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04_x64.msi)
 
 
 ## <a name="march-2019-update-2675404581"></a>2019 年 3 月更新 (2.67.5404.581)
 
-我們 3 月的更新已記載了許多吸引人且實用的更新，並希望這些增強功能使您能以尋找四-很幸運了。 
+我們的三月更新包含吸引人且實用的更新，希望這些改善可讓您像是找到四葉草一樣幸運。 
 
 您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
@@ -156,7 +233,7 @@ ms.locfileid: "66375044"
 
 
 ### <a name="modeling"></a>模型
-* 新模型檢視現在已正式推出[[影片]](https://youtu.be/rBPGH6eYlT0?t=417)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
+* 新的模型建構檢視現已正式推出 [[影片]](https://youtu.be/rBPGH6eYlT0?t=417) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
 * 新的 DAX 函數 [[影片]](https://youtu.be/rBPGH6eYlT0?t=560)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#DAX) 
 
 ### <a name="custom-visuals"></a>自訂視覺效果
@@ -195,8 +272,8 @@ ms.locfileid: "66375044"
 
 請選取下列連結以下載這個較早的版本： 
 
-* [2019 年 3 月的 Power BI Desktop 版本-32 位元](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03.msi)
-* [2019 年 3 月版本的 Power BI Desktop-64 位元](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03_x64.msi)
+* [Power BI Desktop - 32 位元 2019 年 3 月版本](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03.msi)
+* [Power BI Desktop - 64 位元 2019 年 3 月版本](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03_x64.msi)
 
 
 ## <a name="february-2019-update-26653761681"></a>2019 年 2 月更新 (2.66.5376.1681)
@@ -400,7 +477,7 @@ ms.locfileid: "66375044"
 
 ### <a name="data-connectivity"></a>資料連線
 
-* Azure 的開發人員作業 Server 連接器[[影片]](https://youtu.be/1xsXXoyTxfk?t=2641)[[部落格]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
+* Azure 開發人員作業伺服器連接器 [[影片]](https://youtu.be/1xsXXoyTxfk?t=2641) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
 * PDF 連接器支援「開始頁面」和「結束頁面」參數  [[影片]](https://youtu.be/1xsXXoyTxfk?t=2667)   [[文章]](desktop-connect-pdf.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23pdf) 
 * 改善 Microsoft Azure 使用量見解連接器  [[影片]](https://youtu.be/1xsXXoyTxfk?t=2704)  [[文章]](desktop-connect-azure-consumption-insights.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23consumptionInsights) 
 
@@ -1710,7 +1787,7 @@ ms.locfileid: "66375044"
 -   新增函式引動過程資料行 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 -   展開和彙總資料行 - 支援 [載入更多]  值[[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 -   新轉換 - 將資料表資料行轉換為清單 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
--   索引鍵架-支援*智慧輸入*下拉式功能表中[[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+-   鍵盤輸入 - 支援下拉式功能表中的「智慧鍵入」  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 
 
 ### <a name="other-improvements"></a>其他功能改進
@@ -2554,7 +2631,7 @@ ms.locfileid: "66375044"
   -   展開/摺疊資料表
   -   隱藏/取消隱藏欄位
   -   最佳化的配置 (間距、邊界和字型)
-- 報表頁面導覽-搭乘支援的金鑰
+- 報表頁面導覽 - 鍵盤支援
 - 很多 Bug 修正
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/-bZFeS1S1wU" frameborder="0" allowfullscreen></iframe>

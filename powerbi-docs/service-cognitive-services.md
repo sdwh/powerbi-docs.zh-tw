@@ -1,5 +1,5 @@
 ---
-title: Power BI 中的認知服務 (預覽)
+title: Power BI 中的認知服務
 description: 了解如何搭配 Power BI 使用認知服務
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 63de805b357fd5b4d15aeea2231dc952ec9e7077
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 267534198d40b91a5550321162b42ecd45500673
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61181920"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823493"
 ---
-# <a name="cognitive-services-in-power-bi-preview"></a>Power BI 中的認知服務 (預覽)
+# <a name="cognitive-services-in-power-bi"></a>Power BI 中的認知服務 
 
 您可以使用 Power BI 中的認知服務，從 [Azure 認知服務](https://azure.microsoft.com/services/cognitive-services/)套用不同的演算法，在資料流程的自助資料準備中豐富您的資料。
 
@@ -25,7 +25,7 @@ ms.locfileid: "61181920"
 
 ## <a name="enabling-ai-features"></a>**啟用 AI 功能**
 
-進階容量節點 EM2、A2 或 P1 和更新版本支援認知服務。 容量的個別 AI 工作負載用來執行認知服務。 公開預覽期間，預設會停用此工作負載。 在 Power BI 中使用認知服務之前，必須在管理入口網站的容量設定中啟用 AI 工作負載。 您可以在工作負載區段中開啟 AI 工作負載，並定義您希望此工作負載使用的最大記憶體數量。 建議的記憶體限制為 20%。 超出此限制會讓查詢變慢。
+進階容量節點 EM2、A2 或 P1 和更新版本支援認知服務。 容量的個別 AI 工作負載用來執行認知服務。 公開預覽期間 (2019 年 6 月前) 預設會停用此工作負載。 在 Power BI 中使用認知服務之前，必須在管理入口網站的容量設定中啟用 AI 工作負載。 您可以在工作負載區段中開啟 AI 工作負載，並定義您希望此工作負載使用的最大記憶體數量。 建議的記憶體限制為 20%。 超出此限制會讓查詢變慢。
 
 ![Power BI 中的認知服務](media/service-cognitive-services/cognitive-services_01.png)
 
@@ -95,14 +95,14 @@ ms.locfileid: "61181920"
 
 文章提供搭配 Power BI 服務使用認知服務的概觀。 下列文章可能也很有趣而且實用。 
 
-* [教學課程：在 Power BI 中叫用 Machine Learning Studio 模型 (預覽)](service-tutorial-invoke-machine-learning-model.md)
-* [Power BI 與 Azure Machine Learning 的整合 (預覽)](service-machine-learning-integration.md)
+* [教學課程：在 Power BI 中叫用 Machine Learning Studio 模型](service-tutorial-invoke-machine-learning-model.md)
+* [Power BI 中的 Azure Machine Learning 整合](service-machine-learning-integration.md)
 * [教學課程：在 Power BI 中使用認知服務](service-tutorial-use-cognitive-services.md)
 
 
 如需有關資料流程的詳細資訊，您可以閱讀下列文章：
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
-* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
+* [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 * [資料流程與 Azure Data Lake 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)

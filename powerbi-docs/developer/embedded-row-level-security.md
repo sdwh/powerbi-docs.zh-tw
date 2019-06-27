@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/10/2019
+ms.openlocfilehash: 6aebc45f2341f098f0f54dad66652967077c2a08
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61353676"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823410"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>搭配 Power BI Embedded 的資料列層級安全性
 
@@ -215,7 +215,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 7. 利用 Power BI API 在您的應用程式中使用 CustomData 功能。  使用自訂資料功能產生權杖時，您必須具有使用者名稱。 使用者名稱必須與主要使用者的 UPN 相等。 主要使用者必須為您所建立角色的成員。 若未指定任何角色，則會將主要使用者為成員的所有角色用於 RLS 評估。
 
-    使用時[服務主體](embed-service-principal.md)，您也需要執行上述步驟，改為使用主要帳戶。 當產生內嵌權杖時，使用[服務主體物件識別碼](embed-service-principal.md#how-to-get-the-service-principal-object-id)作為使用者名稱。
+    使用[服務主體](embed-service-principal.md)時，您也需要執行上述步驟來代替使用主要帳戶。 產生內嵌權杖時，將[服務主體物件識別碼](embed-service-principal.md#how-to-get-the-service-principal-object-id)用作使用者名稱。
 
     > [!Note]
     > 當您準備將應用程式部署至生產環境時，終端使用者不應看到主要使用者帳戶欄位或選項。
@@ -310,7 +310,7 @@ public IdentityBlob(string value);
 
    ![應用程式註冊](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
-## <a name="on-premises-data-gateway-with-service-principal-preview"></a>搭配服務主體的內部部署資料閘道 (預覽)
+## <a name="on-premises-data-gateway-with-service-principal"></a>搭配服務主體的內部部署資料閘道
 
 使用 SQL Server Analysis Services (SSAS) 內部部署即時連線資料來源來設定資料列層級安全性 (RLS) 的客戶，可以享有新的[服務主體](embed-service-principal.md)功能，以在與 **Power BI Embedded** 整合時，管理使用者和其對 SSAS 中資料的存取。
 

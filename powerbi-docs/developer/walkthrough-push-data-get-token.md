@@ -1,6 +1,6 @@
 ---
 title: 取得驗證存取權杖
-description: 推送資料逐步解說─取得驗證存取權杖
+description: 推送資料逐步解說 - 取得驗證存取權杖
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -8,42 +8,49 @@ ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 4a0b0f5e7d697c137da343576d05fbcc91b4a4f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 05/29/2019
+ms.openlocfilehash: 5cb741d194d787014fec39f963e19d04de59a668
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710360"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809083"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>步驟 2：取得驗證存取權杖
 
-本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
+本文是[將資料推送至 Power BI 資料集](walkthrough-push-data.md)系列的第二個步驟。
 
-在＜將資料推送至資料集＞的**步驟 1** [使用 Azure AD 註冊應用程式](walkthrough-push-data-register-app-with-azure-ad.md)中，您在 Azure AD 中註冊了用戶端應用程式。 在此步驟中，您會收到驗證存取權杖。 Power BI 應用程式會與 **Azure AD** 整合，以提供應用程式的安全登入和授權。 您可以使用權杖來向 **Azure AD** 驗證，並取得 Power BI 資源的存取權。
-
-以下是取得驗證存取權杖的方式。
+在步驟 1 中，[您已在 Azure AD 中註冊了用戶端應用程式](walkthrough-push-data-register-app-with-azure-ad.md)。 在此步驟中，您會收到驗證存取權杖。 Power BI 應用程式會與 Azure Active Directory 整合，以提供應用程式的安全登入和授權。 您的應用程式使用者可以使用權杖來進行 Azure AD 驗證，並取得 Power BI 資源的存取權。
 
 ## <a name="get-an-authentication-access-token"></a>取得驗證存取權杖
 
-> **注意**：開始使用之前，請確定您已經執行過先前[將資料推送至資料集](walkthrough-push-data.md)逐步解說中的先前步驟。
+開始之前，請確認您已完成[將資料推送至 Power BI 資料集](walkthrough-push-data.md)系列的[上一個步驟](walkthrough-push-data-register-app-with-azure-ad.md)。 
 
-1. 在 Visual Studio （2015年或更新版本），建立**主控台應用程式**專案。
-2. 安裝 [.NET NuGet 套件的 Azure AD 驗證程式庫](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)。 若要取得 .NET 應用程式中的驗證安全性權杖，您可以使用此套件。 安裝套件的方法如下：
+此程序需要 Visual Studio 2015 或更新版本。
 
-     a. 在 Visual Studio （2015年或更新版本），選擇**工具** > **NuGet 套件管理員** > **Package Manager Console**。
+1. 在 Visual Studio 中，建立新的 C# **主控台應用程式**專案。
 
-     b. 在 **套件管理器主控台**中，輸入 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612。
-3. 將下列程式碼加入類別 Program {...}。
-4. 將 "{ClientID}" 取代為註冊應用程式時所得的 **用戶端識別碼** 。 請參閱[使用 Azure AD 註冊應用程式](walkthrough-push-data-register-app-with-azure-ad.md)。
-5. 安裝 Microsoft.IdentityModel.Clients.ActiveDirectory 套件之後，將 **using Microsoft.IdentityModel.Clients.ActiveDirectory;** 加入 Program.cs。
-6. 執行主控台應用程式，然後登入您的 Power BI 帳戶。 您應該會在 [主控台視窗] 中看到權杖字串。
+2. 安裝 [.NET NuGet 套件的 Azure AD 驗證程式庫](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)。 您的 .NET 應用程式需要此套件以取得驗證安全性權杖。 
+
+     a. 選取 [工具]   > [NuGet 套件管理員]   > [套件管理員主控台]  。
+
+     b. 輸入 **Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612**
+
+     c. 在 Program.cs 中，新增 `using Microsoft.IdentityModel.Clients.ActiveDirectory;`。
+
+3. 完成這些步驟之後，將所列的範例程式碼新增至 Program.cs。
+
+4. 將 "{ClientID}" 取代為您在註冊應用程式時 ([上一篇系列文章](walkthrough-push-data-register-app-with-azure-ad.md)) 取得的**用戶端識別碼**。
+
+5. 執行主控台應用程式，然後登入您的 Power BI 帳戶。 
+
+   主控台視窗中應會顯示權杖字串。
 
 **取得驗證安全性權杖的範例程式碼**
 
 將此程式碼加入 Program {...}。
 
-* 呼叫作業的權杖變數：
+* 呼叫作業的權杖變數： 
   
   ```csharp
   private static string token = string.Empty;
@@ -104,13 +111,10 @@ ms.locfileid: "65710360"
        #endregion
 ```
 
-取得驗證權杖之後，您可以呼叫任何 Power BI 作業。 下一個步驟將為您示範如何呼叫 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 作業，以建立將資料推送至儀表板的資料集。
+取得驗證權杖之後，您可以呼叫任何 Power BI 作業。
 
-下一個步驟將為您示範如何[在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)。
+本系列的下一篇文章說明如何[在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)。
 
-以下是[完整程式碼清單](#code)。
-
-<a name="code"/>
 
 ## <a name="complete-code-listing"></a>完整程式碼清單
 
@@ -175,14 +179,13 @@ namespace walkthrough_push_data
 }
 ```
 
-[下一步 >](walkthrough-push-data-create-dataset.md)
+
 
 ## <a name="next-steps"></a>後續步驟
 
-[在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)  
-[使用 Azure AD 註冊應用程式](walkthrough-push-data-register-app-with-azure-ad.md)  
-[Azure AD Authentication Library for .NET NuGet 套件](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
-[將資料推送至 Power BI 資料集](walkthrough-push-data.md)  
+[本系列的下一篇文章 > 在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)
+
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
-[Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/)  
+[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
+
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

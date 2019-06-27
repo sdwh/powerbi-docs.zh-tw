@@ -1,21 +1,21 @@
 ---
 title: Power BI Premium 中的累加式重新整理
 description: 了解如何啟用 Power BI Premium 服務中的極大型資料集。
-author: christianwade
+author: mgblythe
 manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/10/2019
-ms.author: chwade
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b338044433d1d87f07ab38d64c15974a1cfaa173
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ee5ec87e04517ce93589b371e97116acbcb02e87
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65536134"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408574"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium 中的累加式重新整理
 
@@ -41,7 +41,7 @@ ms.locfileid: "65536134"
 
 #### <a name="rangestart-and-rangeend-parameters"></a>RangeStart 和 RangeEnd 參數
 
-針對累加式重新整理，資料集會使用 Power Query 日期/時間參數與保留的區分大小寫名稱 **RangeStart** 和 **RangeEnd** 來進行篩選。 這些參數用來篩選匯入至 Power BI Desktop 的資料，也用來在發佈至 Power BI 服務之後以動態方式將資料分割成範圍。 服務會取代參數值以篩選每個分割區。 發佈之後，Power BI 服務會自動覆寫參數值。 不需要在服務中的資料集設定中進行設定。 發佈之後，Power BI 服務會自動覆寫參數值。 
+針對累加式重新整理，資料集會使用 Power Query 日期/時間參數與保留的區分大小寫名稱 **RangeStart** 和 **RangeEnd** 來進行篩選。 這些參數用來篩選匯入至 Power BI Desktop 的資料，也用來在發佈至 Power BI 服務之後以動態方式將資料分割成範圍。 服務會取代參數值以篩選每個分割區。 不需要在服務中的資料集設定中進行設定。 發佈之後，Power BI 服務會自動覆寫參數值。
 
 若要使用預設值定義參數，請在 [Power Query 編輯器] 中，選取 [管理參數]  。
 
@@ -163,4 +163,4 @@ in
 
 ## <a name="limitations"></a>限制
 
-目前，對於[複合模型](desktop-composite-models.md)、 累加式重新整理支援 SQL、 Oracle 和 Teradata 資料來源只。
+目前，針對[複合模型](desktop-composite-models.md)，僅有 SQL、Oracle 和 Teradata 資料來源支援累加式重新整理。

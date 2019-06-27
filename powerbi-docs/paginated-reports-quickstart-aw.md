@@ -1,5 +1,5 @@
 ---
-title: 教學課程：建立編頁報表並將它上傳至 Power BI 服務 (預覽)
+title: 教學課程：建立分頁報表並將它上傳至 Power BI 服務
 description: 在此教學課程中，您將會連線到範例 Azure SQL Database。 接著會使用報表產生器中的精靈來建立編頁報表。 隨後會在 Power BI 服務中，將編頁報表上傳至 Premium 容量中的工作區。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: e7baff9a6427578266e08e7bde91be664e46edb9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60989528"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839746"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>教學課程：建立編頁報表並將它上傳至 Power BI 服務 (預覽)
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教學課程：建立分頁報表並將它上傳至 Power BI 服務
 
-在此教學課程中，您將會連線到範例 Azure SQL Database。 然後您使用精靈在 Power BI 報表產生器來建立含資料表換行至多個頁面的分頁的報表。 隨後會在 Power BI 服務中，將編頁報表上傳至 Premium 容量中的工作區。 Power BI 服務中的編頁報表目前處於預覽狀態。
+在此教學課程中，您將會連線到範例 Azure SQL Database。 接著會使用 Power BI 報表產生器中的精靈來建立分頁報表，其中包含要自動分成多頁的資料表。 隨後會在 Power BI 服務中，將編頁報表上傳至 Premium 容量中的工作區。
 
 ![Power BI 服務中的編頁報表](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -26,7 +26,7 @@ ms.locfileid: "60989528"
 
 > [!div class="checklist"]
 > * 建立 Azure 範例資料庫。
-> * 在 Power BI 報表產生器中建立矩陣，精靈的協助。
+> * 透過精靈的協助，在 Power BI 報表產生器中建立矩陣。
 > * 將報表格式化，在每頁上包含標題、頁碼和資料行標題。
 > * 將貨幣格式化。
 > * 將報表上傳至 Power BI 服務。
@@ -37,7 +37,7 @@ ms.locfileid: "60989528"
 
 以下是建立編頁報表的必要條件：
 
-- 安裝[Power BI 報表產生器，從 Microsoft 下載中心取得](https://go.microsoft.com/fwlink/?linkid=2086513)。 
+- [從 Microsoft 下載中心安裝 Power BI 報表產生器](https://go.microsoft.com/fwlink/?linkid=2086513)。 
 
 - 遵循快速入門：[在 Azure 入口網站中建立 Azure SQL Database 範例](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal)。 複製並儲存 [概觀]  索引標籤上 [伺服器名稱]  方塊中的值。請記住您在 Azure 中建立的使用者名稱和密碼。
 
@@ -48,7 +48,7 @@ ms.locfileid: "60989528"
 
 ## <a name="create-the-matrix-with-a-wizard"></a>使用精靈建立矩陣
   
-1.  啟動 Power BI 報表產生器從您的電腦。  
+1.  從您的電腦啟動 Power BI 報表產生器。  
   
      [開始使用]  對話方塊隨即開啟。  
   
@@ -329,5 +329,5 @@ ms.locfileid: "60989528"
 
 ## <a name="next-steps"></a>後續步驟
 
-[什麼是 Power BI Premium 中的編頁報表？(預覽)](paginated-reports-report-builder-power-bi.md)
+[什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)
 

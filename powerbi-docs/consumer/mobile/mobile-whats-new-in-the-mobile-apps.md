@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991043"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67038908"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -23,16 +23,45 @@ ms.locfileid: "65991043"
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
 
+## <a name="may-2019"></a>2019 年 5 月
+
+### <a name="siri-shortcuts-support-ios"></a>Siri 快速鍵支援 (iOS)
+使用者可以建立指向 Power BI 報表和儀表板的 Siri 快速鍵，並直接從 Siri 語音介面開啟它們。 [了解如何在 Power BI iOS 應用程式中使用 Siri 快速鍵](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/)。
+
+### <a name="device-search-ios"></a>裝置搜尋 (iOS)
+將 Power BI 與 iOS 裝置搜尋整合 (Spotlight)。 在 iPhone 或 iPad 上搜尋內容現在也會包含 Power BI 項目。 當使用者使用裝置原生搜尋時，Power BI 報表、儀表板、應用程式、工作區和符合搜尋準則的人員，也都會在結果中列出。 [前往部落格文章以深入了解](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/)。
+
+
+### <a name="single-tap-report-interaction---ga"></a>單一點選報表整合 - GA
+
+單一點選現在已進入 GA 狀態，並將會成為新使用者的預設觸控互動。 使用者仍然可以在應用程式設定中關閉它及使用點兩下的功能。
+
+### <a name="enhanced-conditional-access-protection-ios-android"></a>增強式條件式存取保護 (iOS、Android)
+
+我們已和 AAD [新的應用程式防護型條件式存取功能](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)整合，透過在套用應用程式原則前限制對 Power BI 的存取來增加安全性。
+
+### <a name="device-protection-ios"></a>裝置保護 (iOS)
+
+使用者可以使用裝置內建的保護功能，透過在存取 Power BI 時要求 Face ID、Touch ID 或密碼來保護 Power BI 的安全。 這項功能可由使用者透過應用程式設定控制，但也可以由系統管理員透過 Intune 和任何其他的 MDM 工具進行。 [深入了解](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access)。
+
+### <a name="one-page-report-slideshow-windows"></a>單一頁面報表投影片 (Windows)
+
+針對投影片中單一頁面報表同時支援自動重新整理。 因此，若報表的基礎資料來源更新，我們會擷取內容並更新頁面中的資料。
+
+
 ## <a name="april-2019"></a>2019 年 4 月
 
-### <a name="key-influencers-visual"></a>視覺化的關鍵影響因數 
-現在可使用您的行動應用程式上視覺化的關鍵影響因數。 此視覺效果可讓您對您的資料執行分析的索引鍵的驅動程式，使用少數的點選。
+### <a name="key-influencers-visual"></a>關鍵影響因素視覺效果 
 
-### <a name="add-comments-to-report-content-android-and-ios"></a>將註解加入至報表的內容 （Android 及 iOS）
-現在您可以使用註解共同作業及共用您的意見反應，在報表頁面和視覺效果。 深入了解報表中 Power BI 服務和行動裝置版的留言[在此部落格中](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)。 
+您現在可以在行動裝置應用程式上使用關鍵影響因素視覺效果。 此視覺效果讓您只需要點幾下，便能針對資料執行關鍵驅動因素的分析。
 
-### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>最大化 （Android 及 iOS） 的全螢幕模式檢視
-我們已新增新的按鈕，可讓您控制何時將焦點放在您的資料，移除報表頁首和頁尾，並提供最大的空間來檢視您的報表。
+### <a name="add-comments-to-report-content-android-and-ios"></a>將註解新增到報表內容 (Android 與 iOS)
+
+現在您可以使用註解來進行共同作業，並在報表頁面和視覺效果上共用您的意見反應。 在[這個部落格](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)中深入了解 Power BI 服務和行動版中的報表註解。 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>使用全螢幕模式最大化檢視 (Android 和 iOS)
+
+我們已新增新的按鈕，讓您可以透過移除報表首和報表尾，在您檢視報表時提供最大的空間，來決定何時要聚焦在您的資料上。
 
 ## <a name="march-2019"></a>2019 年 3 月
 
@@ -42,20 +71,20 @@ ms.locfileid: "65991043"
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>使用投影片增強 Windows 簡報模式 (Windows)
 
-具有[投影片放映](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)您可以使用位於您辦公室的公用顯示 Power BI 報表中全螢幕，就會自動旋轉之間執行的報表頁面。  
+利用[投影片](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)可讓您使用辦公室中的公用顯示器以全螢幕模式執行 Power BI 報表，在報表頁面間自動輪換。  
 
-### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>支援 PBI RS 報表透過 ADFS 和 WAP 組態 (僅限 iOS)
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>支援透過 ADFS 和 WAP 設定的 PBI-RS 報表 (僅限 iOS)
 
-現在可以從 Power BI iOS 應用程式存取 power BI 報表 (PBIX) 透過 ADFS 設定裝載在 PBI RS。
+透過 ADFS 設定託管在 PBI-RS 中的 Power BI 報表 (PBIX) 現在可以從 Power BI iOS 應用程式進行存取。
 
-### <a name="enabling-single-tap-interaction-with-report-visuals"></a>啟用單一點選報表視覺效果互動
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>啟用與報表視覺效果的單一點選互動
 
-我們會變更報表互動，因此它必須只能有一個視覺效果上的點選 [、] 按鈕或立即與資料互動的交叉分析篩選器。 使用者不再需要點選以選取它，並再次點選以與它互動的視覺效果，只要點選一下即可兩者。
+我們變更了報表的互動，讓您只需要在視覺效果、按鈕或交叉分析篩選器上點一下，便能直接和其資料互動。 使用者不再需要在視覺效果上點一下來選取它，然後再點一下才能與其互動。只需要點一下便可以同時執行這兩個動作。
 
-![只要點選一下互動](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+![單一點選互動](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> 現有的使用者必須開啟此應用程式設定中的行為。 如需詳細資訊，請參閱 <<c0> [ 如何設定單一點選報表互動](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap)文章。
+> 現有使用者需要在應用程式設定中開啟此行為。 如需詳細資訊，請參閱[如何設定單一點選報表互動](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap)一文。
 
 ## <a name="january---february-2019"></a>2019 年一月 - 二月
  
@@ -352,7 +381,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 #### <a name="ios-devices"></a>iOS 裝置
 **透過問與答預覽詢問有關資料的問題** 
 
-透過問與答，您可以用自己的用語詢問資料相關問題，而 Power BI 會提供答案。 問與答已在 Power BI 服務中，位於 [http://powerbi.com](http://powerbi.com) 。 現在也[在 iPhone 或 iPad 上的行動裝置應用程式中提供](mobile-apps-ios-qna.md)。
+透過問與答，您可以用自己的用語詢問資料相關問題，而 Power BI 會提供答案。 問與答已在 Power BI 服務中，位於 [http://powerbi.com](http://powerbi.com ) 。 現在也[在 iPhone 或 iPad 上的行動裝置應用程式中提供](mobile-apps-ios-qna.md)。
 
 **連線到多部 SSRS 伺服器** 
 

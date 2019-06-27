@@ -1,5 +1,5 @@
 ---
-title: 直接在報表產生器的編頁報表中輸入資料 (預覽)
+title: 直接在報表產生器的編頁報表中輸入資料
 description: 在本文中，您會了解如何將資料直接輸入報表產生器中的編頁報表。
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/19/2018
-ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: fd000ffd0d47935f36e72f6d0000d548623edf0a
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61424319"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839093"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>直接在報表產生器的編頁報表中輸入資料 (預覽) - Power BI
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>直接在報表產生器的編頁報表中輸入資料 - Power BI
 
 在本文中，您將了解新版 SQL Server 2016 報表產生器中的一項功能，此功能可讓您在 RDL 報表中直接輸入資料作為內嵌資料集。  此功能類似於 Power BI Desktop。 您可以在報表的資料集中直接鍵入資料，或從另一個應用程式 (例如 Microsoft Excel) 貼上資料。 藉由輸入資料來建立資料集之後，您可以如同已建立的任何其他內嵌資料集一樣加以使用。 此外，您可以新增多個資料表，並使用某個資料表作為其他資料表的篩選條件。 對於您可能需要在報表中使用的小型靜態資料集 (例如報表參數)，這項功能特別有用。
  
@@ -76,7 +76,7 @@ ms.locfileid: "61424319"
 
 ## <a name="upload-the-paginated-report-to-the-power-bi-service"></a>將編頁報表上傳到 Power BI 服務
 
-現在，預覽版中的 Power BI 服務已支援編頁報表，接下來您就可以將編頁報表上傳到 Premium 容量。 如需詳細資訊，請參閱[上傳編頁報表](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report)。
+現在，Power BI 服務已支援分頁報表，您可以將分頁報表上傳到 Premium 容量。 如需詳細資訊，請參閱[上傳編頁報表](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report)。
 
 ## <a name="upload-the-paginated-report-to-a-report-server"></a>將編頁報表上傳到報表伺服器
 
@@ -98,5 +98,5 @@ ms.locfileid: "61424319"
 
 ## <a name="next-steps"></a>後續步驟
 
-- [什麼是 Power BI Premium 中的編頁報表？(預覽)](paginated-reports-report-builder-power-bi.md)
+- [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)
 - [什麼是 Power BI 報表伺服器？](report-server/get-started.md)

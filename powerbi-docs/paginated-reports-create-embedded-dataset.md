@@ -1,5 +1,5 @@
 ---
-title: 建立適用於 Power BI 編頁報表的內嵌資料集 (預覽)
+title: 建立適用於 Power BI 分頁報表的內嵌資料集
 description: 在此文章中，您會了解如何根據內嵌的資料來源，在 Power BI 服務中建立適用於編頁報表的內嵌資料集。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
-ms.openlocfilehash: 3e095da10e9f96c7ec0f10ffbb94995d44effab4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cf41b404385139561a97f1d5b081ae1c48ff2885
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423690"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839023"
 ---
-# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料集 (預覽)
+# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料集
 
-在此文章中，您會了解如何根據內嵌的資料來源，在 Power BI 服務中建立適用於編頁報表的內嵌資料集。 內嵌的資料集均包含於單一編頁報表中，以便在該報表中使用。 目前，發佈至 Power BI 服務的編頁報表需要內嵌的資料集和內嵌的資料來源。 您建立內嵌的資料來源和資料集在 Power BI 報表產生器，您要建立您的報表。 
+在此文章中，您會了解如何根據內嵌的資料來源，在 Power BI 服務中建立適用於編頁報表的內嵌資料集。 內嵌的資料集均包含於單一編頁報表中，以便在該報表中使用。 目前，發佈至 Power BI 服務的編頁報表需要內嵌的資料集和內嵌的資料來源。 您可以在建立報表時，於 Power BI 報表產生器中建立內嵌的資料來源和資料集。 
 
 您需要先建立資料來源，然後才能建立資料集。 若要深入了解，請參閱 Power BI 服務中[適用於編頁報表的內嵌資料來源](paginated-reports-embedded-data-source.md)。
   
 ## <a name="create-an-embedded-dataset"></a>建立內嵌的資料集
   
-1. 在 Power BI 報表產生器中的 報表資料 窗格中，選取**的新** > **Dataset**。
+1. 在 Power BI 報表產生器的 [報表資料] 窗格中，選取[新增]   > [資料集]  。
 
 1. 在 [資料集屬性]  對話方塊的 [查詢]  索引標籤中，指定資料集的名稱。 內嵌的資料來源已經位於 [資料來源]  方塊中，或者您可以選取 [新增]  來建立不同的內嵌資料來源。
  
@@ -56,7 +56,7 @@ ms.locfileid: "61423690"
  
 ## <a name="next-steps"></a>後續步驟 
 
-- [什麼是 Power BI Premium 中的編頁報表？(預覽)](paginated-reports-report-builder-power-bi.md)  
+- [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)  
 - [教學課程：建立編頁報表並將它上傳至 Power BI 服務](paginated-reports-quickstart-aw.md)
 - [將編頁報表發佈至 Power BI 服務](paginated-reports-save-to-power-bi-service.md)
 

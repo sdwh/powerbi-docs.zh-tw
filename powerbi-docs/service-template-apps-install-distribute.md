@@ -5,24 +5,24 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: 2b7b2630e665fca9013920718ff58dd973f01392
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0671dfb324b3d66a9dee9585f94d3cb6825fb5eb
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578577"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751246"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>在您的組織中散發範本應用程式 - Power BI (預覽)
 
-您是 Power BI 分析師嗎？ 因此，這篇文章說明如何安裝如果*範本的應用程式*，連接到許多您用來執行您的業務，例如 Salesforce、 Microsoft Dynamics 和 Google Analytics 的服務。 您可以修改儀表板和報表，以滿足您組織的需求，然後再將它們散發給您的同事做*應用程式*。 
+您是 Power BI 分析員嗎？ 如果是，本文說明如何安裝「範本應用程式」  ，以連線到執行業務所用的多個服務，例如 Salesforce、Microsoft Dynamics 和 Google Analytics。 您可以修改儀表板和報表來滿足組織需求，然後以「應用程式」  的形式散發給同事。 
 
 ![已安裝 Power BI 應用程式](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-如果您有興趣建立範本應用程式並自行散發，請參閱 [Create a template app in Power BI](service-template-apps-create.md) (在 Power BI 中建立範本應用程式)。 Power BI 合作夥伴可以建置 Power BI 應用程式，無須撰寫程式碼，並將其部署給 Power BI 的客戶。 
+如果您有興趣建立範本應用程式並自行散發，請參閱 [Create a template app in Power BI](service-template-apps-create.md) (在 Power BI 中建立範本應用程式)。 Power BI 合作夥伴只要撰寫少量程式碼或不需撰寫程式碼，即可建置 Power BI 應用程式，並將應用程式部署至 Power BI 客戶。 
 
 ## <a name="prerequisites"></a>先決條件  
 

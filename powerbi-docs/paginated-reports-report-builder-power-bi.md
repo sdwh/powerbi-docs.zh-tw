@@ -1,5 +1,5 @@
 ---
-title: 什麼是 Power BI Premium 中的編頁報表？ (預覽)
+title: 什麼是 Power BI Premium 中的編頁報表？
 description: 編頁報表，SQL Server Reporting Services 中長期以來的標準報表格式，現在可在 Power BI 服務中使用。 這些報表可以被列印或共用。 您可以完全控制報表的版面配置。 例如，即使資料表跨越多個頁面，它們也會在資料表中顯示所有資料。
 author: maggiesMSFT
 ms.author: maggies
@@ -8,41 +8,42 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/20/2019
-ms.openlocfilehash: 8da24bb8f7d3b8d507dbb6792556004083b673fe
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: f7cf5091c60a6a916b24d6170eae96b3c1ee64dc
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991079"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839652"
 ---
-# <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>什麼是 Power BI Premium 中的編頁報表？ (預覽)
+# <a name="what-are-paginated-reports-in-power-bi-premium"></a>什麼是 Power BI Premium 中的編頁報表？
 
 編頁報表，SQL Server Reporting Services 中長期以來的標準報表格式，現在可在 Power BI 服務中使用。 這些報表可以被列印或共用。 它們稱為「編頁」，因為已將它們格式化，使其可適當地符合頁面。 即使資料表跨越多個頁面，它們也會在資料表中顯示所有資料。 它們有時被稱為「完美像素」，因為您可以完全控制其報表頁面配置。 編頁報表是以 SQL Server Reporting Services 中的 RDL 報表技術為基礎。 報表產生器是用於撰寫編頁報表的獨立工具。 
 
 編頁報表可以有許多頁面。 例如，此報表有 563 頁。 每頁都有精確的版面配置，每個發票一頁並重複頁首和頁尾。
 
-![Power BI 服務中的編頁報表](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+![分頁](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-您可以在報表產生器中預覽報表，然後將其發佈至 Power BI 服務 (http://app.powerbi.com) 中。 您需要 Power BI Pro 授權才能將報表發佈至服務。 只要工作區位於 Power BI Premium 容量，您就可以在 [我的工作區] 或應用程式工作區中發佈及共用編頁報表。 此外，Power BI 系統管理員需要在 Power BI 管理入口網站中啟用編頁報表。 
+![Power BI 服務中的編頁報表](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
+
+您可以在報表產生器中預覽報表，然後將其發佈至 Power BI 服務 (http://app.powerbi.com ) 中。 您需要 Power BI Pro 授權才能將報表發佈至服務。 只要工作區位於 Power BI Premium 容量，您就可以在 [我的工作區] 或應用程式工作區中發佈及共用編頁報表。 此外，Power BI 系統管理員需要在 Power BI 管理入口網站的 [Premium 容量區段](service-admin-premium-workloads.md#paginated-reports-preview)中啟用分頁報表。 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>在 Power BI 報表產生器中建立報表
 
-編頁的報表都有自己的設計工具，Power BI 報表產生器。 這是新的工具，共用相同的基礎，為您先前使用 Power BI 報表伺服器或 SQL Server Reporting Services (SSRS) 中建立編頁的報表的工具。 實際上，您為 SSRS 2016 和 2017 或 Power BI 報表伺服器內部部署建立的編頁報表是與 Power BI 服務相容的。 Power BI 服務維持回溯相容性，因此您可以繼續向前進行報表，並且可以升級任何舊版的編頁報表。 並非所有報表功能都能在啟動時使用。 如需詳細資料，請參閱本文中的[限制與考量](#limitations-and-considerations)。
+分頁報表有自己的設計工具，也就是 Power BI 報表產生器。 這是一種新工具，會和您先前用來建立 Power BI 報表伺服器或 SQL Server Reporting Services (SSRS) 分頁報表的工具共用相同的基礎。 實際上，您為 SSRS 2016 和 2017 或 Power BI 報表伺服器內部部署建立的編頁報表是與 Power BI 服務相容的。 Power BI 服務維持回溯相容性，因此您可以繼續向前進行報表，並且可以升級任何舊版的編頁報表。 並非所有報表功能都能在啟動時使用。 如需詳細資料，請參閱本文中的[限制與考量](#limitations-and-considerations)。
      
 ## <a name="report-from-a-variety-of-data-sources"></a>來自各種資料來源的報表
 
-單一的編頁報表可以包含許多不同的資料來源。 與 Power BI 報表不同，它沒有基礎資料模型。 針對 Power BI 服務中編頁報表的初始版本，您可以在報表本身中建立內嵌的資料來源和資料集。 目前，您無法使用共用資料來源或共用資料集。 您可以在本機電腦上的報表產生器中建立報表。 如果報表連接至內部部署資料，則在將報表上傳至 Power BI 服務之後，您需要建立閘道並重新導向資料連線。 以下是您可以在此階段連接到資料來源：
+單一的編頁報表可以包含許多不同的資料來源。 與 Power BI 報表不同，它沒有基礎資料模型。 針對 Power BI 服務中編頁報表的初始版本，您可以在報表本身中建立內嵌的資料來源和資料集。 目前，您無法使用共用資料來源或共用資料集。 您可以在本機電腦上的報表產生器中建立報表。 如果報表連接至內部部署資料，則在將報表上傳至 Power BI 服務之後，您需要建立閘道並重新導向資料連線。 以下是您此時可以連線到的資料來源：
 
 - Azure SQL Database 和資料倉儲
-- Azure Analysis Services （透過 SSO)
+- Azure Analysis Services (透過 SSO)
 - 透過閘道的 SQL Server
 - 透過閘道的 SQL Server Analysis Services
-- Power BI Premium 的資料集
+- Power BI Premium 資料集
 - Oracle
 - Teradata
- 
-預覽期間將會有更多的資料來源。
+- 其他來源 (新增時)
 
 ## <a name="design-your-report"></a>設計報表  
 
@@ -62,16 +63,16 @@ ms.locfileid: "65991079"
 
 ## <a name="creating-a-report-definition"></a>建立報表定義
 
-在設計編頁報表時，您實際上是在建立報表定義  。 它不包含資料。 它會指定要取得資料的位置、要取得哪些資料，以及如何顯示資料。 當您執行報表時，報表處理器會採用您所指定的報表定義、擷取資料，並結合報表配置來產生報表。 您可以將報表定義上傳至 Power BI 服務 (http://app.powerbi.com) 中，也可以上載到 [我的工作區] 或是與同事共用的工作區。 如果報表資料來源位於內部部署，則在上傳報表之後，您可以將資料來源連線重新導向為通過閘道。 
+在設計編頁報表時，您實際上是在建立報表定義  。 它不包含資料。 它會指定要取得資料的位置、要取得哪些資料，以及如何顯示資料。 當您執行報表時，報表處理器會採用您所指定的報表定義、擷取資料，並結合報表配置來產生報表。 您可以將報表定義上傳至 Power BI 服務 (http://app.powerbi.com ) 中，也可以上載到 [我的工作區] 或是與同事共用的工作區。 如果報表資料來源位於內部部署，則在上傳報表之後，您可以將資料來源連線重新導向為通過閘道。 
 
 ## <a name="view-your-paginated-report"></a>檢視您的編頁報表
 您可以在瀏覽器中以及 Power BI 行動裝置應用程式中查看 Power BI 服務中的編頁報表。 從 Power BI 服務中，您可以將報表匯出為多種格式，例如 HTML、MHTML、PDF、XML、CSV、TIFF、Word 和 Excel。 您也可以與其他人共用它。  
 
-## <a name="create-a-subscription-to-your-report"></a>建立報表的訂閱
+## <a name="create-a-subscription-to-your-report"></a>建立您報表的訂閱
 
-您現在可以設定為自己和其他人的 Power BI 服務中的分頁報表的電子郵件訂閱。 一般情況下，處理程序是相同訂閱的報表與 Power BI 服務中的儀表板。 在設定訂用帳戶，您選擇您想要收到電子郵件的頻率： 每天、 每週或每小時。 訂用帳戶包含整份報表輸出的 PDF 附件。
+您現在可以為您自己和其他人設定 Power BI 服務中分頁報表的電子郵件訂閱。 在一般情況下，流程與訂閱 Power BI 服務中的報表與儀表板相同。 在訂閱設定中，選擇您希望收到電子郵件的頻率：每天、每週或每小時。 訂閱會包含整個報表輸出的 PDF 附件。
 
-如需詳細資訊，請參閱文章[自己和其他人訂閱 Power BI 服務中的編頁報表](paginated-reports-subscriptions.md)。 
+如需詳細資料，請參閱[為您自己和其他人訂閱 Power BI 服務中的分頁報表](paginated-reports-subscriptions.md)一文。 
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 

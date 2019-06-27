@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e28af5a03fd799f088d428f16621358c2a4f7c5
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770484"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823326"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -80,6 +80,7 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 * Azure AD 驗證權杖過期。
 * 驗證的使用者不是群組 (應用程式工作區) 的成員。
 * 驗證的使用者不是群組 (應用程式工作區) 的系統管理員。
+* 已驗證的使用者不具有權限。 可以使用 [refreshUserPermissions API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions) 來更新權限
 * 授權標頭可能未正確列出。 請確認沒有錯字。
 
 應用程式的後端必須先重新整理權杖，再呼叫 GenerateToken。
@@ -187,7 +188,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="cs1061-error"></a>錯誤 CS1061
 
-下載[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)如果您遇到 「 'AuthenticationContext' 未包含定義 'AcquireToken' 並沒有可存取 'AcquireToken' 接受類型的第一個引數 'AuthenticationContext' 找不到 (是否遺漏 using 指示詞或組件參考？) 」 錯誤。
+如果您遇到「'AuthenticationContext' 不包含 'AcquireToken' 的定義，且找不到任何接受 'AuthenticationContext' 類型第一個引數的可存取 'AcquireToken' (是否遺漏 using 指示詞或組件參考？) 」錯誤，請下載 [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)。
 
 ## <a name="data-sources"></a>資料來源
 

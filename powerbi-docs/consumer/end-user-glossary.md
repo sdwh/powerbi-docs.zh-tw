@@ -6,15 +6,15 @@ ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: resource
+ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
-ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
-ms.translationtype: MT
+ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66412890"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751016"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」  及其連線方式的高階概觀。
@@ -142,7 +142,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 ## <a name="h"></a>H
 **high-density visuals (高密度視覺效果)** ：資料點數量超過 Power BI 轉譯能力的視覺效果。 Power BI 會對資料進行取樣，顯示圖形和極端值。
 
-**首頁**登陸的 Power BI 服務的使用者存留期預設值。 不會修改任何項目。 可以呼叫 Power BI 首頁或只是首頁。
+**首頁**：Power BI 服務使用者的預設登陸頁面。 未修改任何項目。 可以稱為 Power BI 首頁，或單純稱為首頁。
 
 ## <a name="i"></a>I
 

@@ -1,7 +1,7 @@
 ---
 title: Power BI 報表伺服器的變更記錄
 description: 此變更記錄適用於 Power BI 報表伺服器，並列出新的項目，以及每個發行組建的 Bug 修正。
-ms.author: jtarquino
+ms.author: jaimeta
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: bb25bfb9b3278ef5eccfd54436a6de430d17677d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65990610"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751128"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -22,34 +22,34 @@ ms.locfileid: "65990610"
 
 如需新功能的詳細資訊，請參閱 [Power BI 報表伺服器的新增功能](whats-new.md)。 
 
-## <a name="may-2019"></a>2019 年
+## <a name="may-2019"></a>2019 年 5 月
 
 - **Power BI 報表伺服器**          
-    - *1.5.7074.36177 （組建 15.0.1102.371），發行的版本：2019 5 月 21日日*
+    - *版本 1.5.7074.36177 (組建 15.0.1102.371)，發行日期：2019 年 5 月 21 日*
         - Bug 修正
             - 編頁報表
-                - 一律啟用 pdf 字型內嵌的修正程式。
-                - 若要設定透過為安全的 https 傳送的 cookie 修正
-                - 修正問題 pop ups 由於指令碼錯誤
-                - 在 Android 手機與行動應用程式的顯示問題的修正程式
-                - 修正行動報表時間導覽器，以顯示正確的週數，無論會計年度開始
-                - 已新增 'RestrictedResourceMimeTypeForUpload' 可設定的屬性，以指定的系統管理員帳戶已被禁用 mime 類型
+                - 修正一律啟用 PDF 字型內嵌。
+                - 修正將透過 HTTPS 傳送的 Cookie 設為安全
+                - 修正由於指令碼錯誤造成的快顯問題
+                - 修正 Android 手機的行動裝置應用程式顯示問題
+                - 修正行動報表時間導覽，不論會計年度何時開始均顯示正確的週數
+                - 已為系統管理員新增 'RestrictedResourceMimeTypeForUpload' 可設定的屬性，以指定禁用的 MIME 類型
          - 功能
-            - 將受信任的視覺效果的支援新增至 PBIRS
+            - 新增 PBIRS 對受信任視覺效果的支援
 
 - **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
-    - *版本：2.69.5467.1801 (2019 年)，發行：2019 5 月 21日日*
+    - *版本：2.69.5467.1801 (2019 年 5 月) 發行日期：2019 年 5 月 21 日*
         - Bug 修正
-            - 若要避免 PBIRS PBIX 上傳期間的方式重新輸入認證的修正
-            - 修正 # 檔名中開啟文件
-            - 已新增更容易在 PBIRS 選取視窗的向後巡覽連結
-            - 修正 PBIRS 顯示上一步 按鈕，顯示警告 visual 訊息中的高對比模式。
-            - UI 的修正程式，以選取項目 窗格中，畫布縮放比例。
+            - 修正以避免在 PBIRS PBIX 上傳期間重新輸入認證
+            - 修正在檔名中使用 # 開啟文件的問題
+            - 已新增更容易在 PBIRS [選取] 視窗上向後導覽的連結
+            - 修正 PBIRS 中的高對比模式，以顯示 [上一步] 按鈕，並顯示警告視覺效果訊息。
+            - [選取] 窗格中畫布縮放比例的 UI 修正。
 
 ## <a name="january-2019"></a>2019 年 1 月
 
 - **Power BI 報表伺服器**          
-    - *1.4.7024.16477 （組建 15.0.1102.299），發行的版本：2019 年 3 月 28日日*
+    - *版本 1.4.7024.16477 (組建 15.0.1102.299)，發行日期：2019 年 3 月 28 日*
         - Bug 修正
             - Power BI 報表
                 - 已修正使用 SAP Hana 和 SAP BW 之直接查詢時的基本認證問題

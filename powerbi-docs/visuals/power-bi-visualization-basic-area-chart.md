@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02d81a4ebb92ec199887109c7f2d9afcb6449eda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61393165"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839853"
 ---
 # <a name="basic-area-chart"></a>基本的區域圖
 基本區域圖 (也稱為多層次區域圖表) 的基礎為折線圖。 軸和行之間的區域填滿色彩，以表示數量。 
@@ -40,7 +40,7 @@ ms.locfileid: "61393165"
  
 
 1. 從 [零售分析範例] 儀表板，選取 [所有門市]  圖格，開啟 [零售分析範例] 報表。
-2. 選取 [編輯報表]  ，在編輯檢視中開啟報表。
+2. 選取 [編輯]  以在編輯檢視中開啟報表。
 3. 選取報表底部的黃色加號圖示 (+)，以新增報表頁面。
 4. 建立依月份顯示本年度和去年度銷售額的區域圖。
    

@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/26/2019
 ms.author: maggies
-ms.openlocfilehash: 0ea8f19fa36bf1f9ceb5f8f0b92bd53ebdfa2a01
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578519"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751097"
 ---
 # <a name="what-are-power-bi-template-apps-preview"></a>什麼是 Power BI 範本應用程式？ (預覽)
 
@@ -24,10 +24,10 @@ ms.locfileid: "64578519"
 
 您可以建置範本應用程式，讓客戶透過自己的帳戶連線並具現化。 身為網域專家，他們可將資料解除鎖定，讓其商務使用者都能輕鬆使用。  
 
-您送出至 Cloud Partner 入口網站應用程式範本。 然後該應用程式會在 Power BI 應用程式庫 (app.powerbi.com/getdata/services) 中和 Microsoft AppSource (appsource.microsoft.com) 上公開推出。 以下是公用的範本應用程式建立體驗高階介紹。  
+您可以將您的範本應用程式提交至 Cloud Partner 入口網站。 然後該應用程式會在 Power BI 應用程式庫 (app.powerbi.com/getdata/services) 中和 Microsoft AppSource (appsource.microsoft.com) 上公開推出。 以下為公用範本應用程式建立體驗的高階說明。  
 
 ## <a name="process"></a>程序
-開發並提交範本應用程式的一般程序牽涉到數個階段。 某些階段可以併入多個活動，在相同的時間。
+開發並提交範本應用程式的一般程序牽涉到多個步驟。 某些階段可能包含同時進行的多項活動。
 
 
 | 階段 | Power BI Desktop |  |Power BI 服務  |  |Cloud Partner 入口網站  |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e3092c320008df760ef72408c93f601dde26cdef
-ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
-ms.translationtype: MT
+ms.openlocfilehash: f06632e80bad8796ded3e3616836832967435b24
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66051149"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809258"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>部署 Power BI 之資料閘道的指引
 
@@ -37,12 +37,12 @@ ms.locfileid: "66051149"
 
 如果使用者都會在每天的相同時間存取指定的報表，則您會想要確定在可處理所有這些要求的電腦上安裝閘道 (請參閱下列各節，以取得可協助您判斷這個情況的效能計數器和最低需求)。
 
-**Power BI** 中有一個「報表」只允許「一個」閘道的條件約束；因此，即使報表是根據多個資料來源，所有這類資料來源還是必須經過單一閘道。 不過，如果儀表板根據「多個」報表，您可以針對每個參與的報表使用專用閘道，因而將閘道負載分散到多個參與該單一儀表板的報表。
+**Power BI** 中有一個「報表」  只允許「一個」  閘道的條件約束；因此，即使報表是根據多個資料來源，所有這類資料來源還是必須經過單一閘道。 不過，如果儀表板根據「多個」  報表，您可以針對每個參與的報表使用專用閘道，因而將閘道負載分散到多個參與該單一儀表板的報表。
 
 ### <a name="connection-type"></a>連線類型
-**Power BI** 提供兩種類型的連線：**DirectQuery** 和**匯入**。 並非所有資料來源都支援兩種連接類型，而且有許多原因可能會導致選擇其中一個，例如安全性需求、效能、資料限制和資料模型大小。 您可以深入了解[內部部署資料閘道](service-gateway-onprem.md)一文的＜可用資料來源類型清單＞一節中的連線類型和支援的資料來源。
+**Power BI** 提供兩種類型的連線：**DirectQuery** 和**匯入**。 並非所有資料來源都支援兩種連接類型，而且有許多原因可能會導致選擇其中一個，例如安全性需求、效能、資料限制和資料模型大小。 您可以深入了解[內部部署資料閘道](service-gateway-onprem.md)一文的＜可用資料來源類型清單＞  一節中的連線類型和支援的資料來源。
 
-根據使用的連接類型時，閘道使用量可能會不同。 例如，可能的話，您應該嘗試分隔 **DirectQuery** 資料來源與 [排程重新整理] 資料來源 (假設它們位於不同的報表中，而且可以予以分隔)。 如此一來可避免閘道將數千**DirectQuery**要求排入佇列，在同一時間為早上輸入排程的重新整理用於公司主要儀表板的大型資料模型。 以下是每個所需要考量的事項：
+根據使用的連接類型而定，閘道使用量可能會不同。 例如，可能的話，您應該嘗試分隔 **DirectQuery** 資料來源與 [排程重新整理]  資料來源 (假設它們位於不同的報表中，而且可以予以分隔)。 好比說，當針對用於公司主要儀表板的大規模資料模型，進行早上排程的重新整理，同時採取此動作可避免閘道將數千個 **DirectQuery** 要求排入佇列中。 以下是每個所需要考量的事項：
 
 * **排程重新整理**：根據查詢大小以及每天發生的重新整理次數，您可以選擇保持建議的最低硬體需求，或升級為更高效能的電腦。 如果未摺疊指定的查詢，就會在閘道電腦上進行轉換；因此，閘道電腦受惠於具有更多可用的 RAM。
 * **DirectQuery**：每次任何使用者開啟報表或查看資料時，都會傳送查詢。 因此，如果您預期有 1,000 位以上的使用者同時存取資料，則您會想要確定電腦具有穩固且支援硬體的元件。 更多的 CPU 核心將會導致 **DirectQuery** 連接具有更佳的輸送量。
@@ -61,7 +61,7 @@ ms.locfileid: "66051149"
 * 64 位元版本的 Windows 2012 R2 (或更新版本)
 
 ### <a name="location"></a>位置
-閘道安裝位置可能會對查詢效能造成重大影響，因此請嘗試確定您的閘道、資料來源位置和 Power BI 租用戶盡可能彼此接近，將網路延遲降至最低。 若要判斷 Power BI 租用戶位置，請在 Power BI 服務中選取右上角的 **?** 圖示，然後選取 [關於 Power BI]。
+閘道安裝位置可能會對查詢效能造成重大影響，因此請嘗試確定您的閘道、資料來源位置和 Power BI 租用戶盡可能彼此接近，將網路延遲降至最低。 若要判斷 Power BI 租用戶位置，請在 Power BI 服務中選取右上角的 **?** 圖示，然後選取 [關於 Power BI]  。
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_02.png)
 
@@ -76,21 +76,21 @@ ms.locfileid: "66051149"
 > 
 > 
 
-除了電腦的計數器之外，「閘道計數器」還會提供電腦處理多少負載，而且可以指出延伸還是超過伺服器資源能力。
+除了電腦的計數器之外，「閘道計數器」  還會提供電腦處理多少負載，而且可以指出延伸還是超過伺服器資源能力。
 
-這些計數器可以從 [Windows 效能監視器] 進行存取，而且可以供任何用於此用途的報告工具使用。 如需如何搭配使用閘道效能監視器與 Power BI 的詳細逐步解說，請查看下列社群建立部落格文章。
+這些計數器可以從 [Windows 效能監視器]  進行存取，而且可以供任何用於此用途的報告工具使用。 如需如何搭配使用閘道效能監視器與 Power BI 的詳細逐步解說，請查看下列社群建立部落格文章。
 
 * [監視內部部署資料閘道](https://insightsquest.com/2016/08/08/monitor-on-premises-data-gateways/)
 
 #### <a name="logs"></a>記錄
 設定和服務記錄會提供有關閘道發生情況的另一個維度。 因為並非所有錯誤訊息都會顯示在 Power BI 服務上，所以當您的連接未如預期運作時，請一律檢查閘道記錄。
 
-檢視本機電腦上所有記錄檔的簡單方法，是在初始安裝完成之後，於重新開啟閘道時使用**內部部署資料閘道**上的 [匯出記錄] 按鈕，然後選取 [診斷] > [匯出記錄]。
+檢視本機電腦上所有記錄檔的簡單方法，是在初始安裝完成之後，於重新開啟閘道時使用**內部部署資料閘道**上的 [匯出記錄]  按鈕，然後選取 [診斷] > [匯出記錄]  。
 
 #### <a name="additional-logging"></a>其他記錄
-閘道預設會執行基本記錄。 如果您要調查閘道問題，並且需要查詢連接詳細資料的詳細資訊，則可以暫時啟用「詳細資訊記錄」收集其他記錄資訊。 若要這樣做，請在已安裝的閘道中選取 [診斷] > [其他記錄]。
+閘道預設會執行基本記錄。 如果您要調查閘道問題，並且需要查詢連接詳細資料的詳細資訊，則可以暫時啟用「詳細資訊記錄」  收集其他記錄資訊。 若要這樣做，請在已安裝的閘道中選取 [診斷] > [其他記錄]  。
 
-根據閘道使用量，啟用此設定可能會大幅增加記錄大小。 建議您在完成記錄檢閱之後，停用 [其他記錄]。 不建議在正常閘道使用量期間啟用這項設定。
+根據閘道使用量，啟用此設定可能會大幅增加記錄大小。 建議您在完成記錄檢閱之後，停用 [其他記錄]  。 不建議在正常閘道使用量期間啟用這項設定。
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_03.png)
 
@@ -102,16 +102,36 @@ ms.locfileid: "66051149"
 * 5672
 * 9350 到 9354
 
-閘道「不」需要輸入連接埠。 所有必要連接埠都會列在上面的清單中。
+閘道「不」  需要輸入連接埠。 所有必要連接埠都會列在上面的清單中。
 
-建議您將您資料區域的 IP 位址加入防火牆的允許清單中。 您可以下載 [Microsoft Azure Datacenter IP 清單](https://www.microsoft.com/download/details.aspx?id=41653)中的 IP 位址清單。 此清單會每週更新。 閘道會使用指定的 IP 位址及完整網域名稱 (FQDN) 來與 **Azure 服務匯流排**通訊。 如果您強制閘道使用 HTTPS 進行通訊，閘道會嚴格只使用 FQDN，使用 IP 位址則不會發生通訊。
+建議您將資料區域的 IP 位址新增至防火牆的允許清單。 您可以下載 [Microsoft Azure Datacenter IP 清單](https://www.microsoft.com/download/details.aspx?id=41653)中的 IP 位址清單。 此清單會每週更新。 閘道會使用指定的 IP 位址及完整網域名稱 (FQDN) 來與 **Azure 服務匯流排**通訊。 如果您強制閘道使用 HTTPS 進行通訊，閘道會嚴格只使用 FQDN，使用 IP 位址則不會發生通訊。
 
 #### <a name="forcing-https-communication-with-azure-service-bus"></a>強制與 Azure 服務匯流排進行 HTTPS 通訊
-您可以強制閘道使用 HTTPS 與 **Azure 服務匯流排**進行通訊，而不使用直接 TCP。 這樣做將會稍微降低效能。 您也可以使用閘道使用者介面，強制閘道使用 HTTPS 與 **Azure 服務匯流排**進行通訊 (從閘道的 2017 年 3 月版開始)。
 
-若要這樣做，請在閘道中選取 [網路]，然後將 [Azure 服務匯流排連線模式] 設為 [開啟]。
+您可以強制閘道使用 HTTPS 與 Azure 服務匯流排進行通訊，而不使用 TCP。
 
-![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_04.png)
+> [!NOTE]
+> 從 2019 年 6 月版本開始，根據 Azure 服務匯流排的建議，全新安裝 (而非更新) 的預設值為 HTTPS 而非 TCP。
+
+若要強制透過 HTTPS 通訊，請修改 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 檔案，方法是將值從 `AutoDetect` 變更為 `Https`，如本段後面接著的程式碼片段所示。 該檔案 (依預設) 位於  C:\Program Files\On-premises data gateway。
+
+```xml
+<setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
+    <value>Https</value>
+</setting>
+```
+
+*ServiceBusSystemConnectivityModeString* 參數的值有區分大小寫。 有效值為「自動偵測」  和「Https」  。
+
+您也可以使用閘道使用者介面，強制閘道器採用此行為。 在閘道器使用者介面中選取 [網路]  ，然後將 [Azure 服務匯流排連線模式]  切換為 [開啟]  。
+
+![](./includes/media/gateway-onprem-accounts-ports-more/gw-onprem_01.png)
+
+變更後，當您選取 [套用]  \(進行變更才出現的按鈕) 時，「閘道 Windows 服務」  會自動重新啟動，讓變更生效。
+
+為供日後參考，您可以選取 [服務設定]  ，然後選取 [立即重新啟動]  ，從使用者介面對話方塊重新啟動「閘道 Windows 服務」  。
+
+![](./includes/media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ### <a name="additional-guidance"></a>其他指引
 本節提供部署和管理閘道的其他指引。
@@ -122,14 +142,14 @@ ms.locfileid: "66051149"
 * 避免在無線網路上安裝閘道，因為透過無線網路可能會降低效能。
 
 #### <a name="gateway-recovery"></a>閘道復原
-您可以使用**修復金鑰**來復原現有閘道，或將它移至新的電腦。 修復金鑰是提供給安裝閘道的使用者使用，稍後「無法」進行變更。 修復金鑰同時用於資料加密和閘道復原。
+您可以使用**修復金鑰**來復原現有閘道，或將它移至新的電腦。 修復金鑰是提供給安裝閘道的使用者使用，稍後「無法」  進行變更。 修復金鑰同時用於資料加密和閘道復原。
 
 若要復原閘道，請確定您是閘道管理員、確定您知道閘道名稱、確定您有正確的修復金鑰，以及您有新的電腦可提供類似的效能特性。
 
-在您登入之後，請選取 [Migrate an existing gateway]\(移轉現有閘道) 選項。 接下來，您需要選擇想要復原或移轉的閘道，最後提供修復金鑰，並點擊 [設定]。 完成該步驟之後，新的閘道將會取代舊的閘道，而且新的閘道將會繼承其名稱以及所有先前設定的資料來源。 所有資料來源現在都會經過新的電腦，而不需要重新發佈任何項目。 尚未支援自動容錯移轉，但它是閘道小組主動考量的功能。
+在您登入之後，請選取 [Migrate an existing gateway]\(移轉現有閘道)  選項。 接下來，您需要選擇想要復原或移轉的閘道，最後提供修復金鑰，並點擊 [設定]。 完成該步驟之後，新的閘道將會取代舊的閘道，而且新的閘道將會繼承其名稱以及所有先前設定的資料來源。 所有資料來源現在都會經過新的電腦，而不需要重新發佈任何項目。 尚未支援自動容錯移轉，但它是閘道小組主動考量的功能。
 
 #### <a name="administrators"></a>管理員
-您可以在 **Power BI 服務**中找到閘道管理員清單。 登入 **Power BI** 服務時，請選取 [設定]&nbsp;(齒輪圖示) > [管理閘道] > [閘道 UI]。  
+您可以在 **Power BI 服務**中找到閘道管理員清單。 登入 **Power BI** 服務時，請選取 [設定]  &nbsp;(齒輪圖示) > [管理閘道] > [閘道 UI]  。  
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_05.png)
 

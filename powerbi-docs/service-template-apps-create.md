@@ -5,24 +5,24 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: maggies
-ms.openlocfilehash: 653050fbe5c860ef1902a4700c3a70a8af2f7092
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2dc9ae7eb7ecd82cdd6c9ea7ddbc6aa1fc70ca8b
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514962"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751185"
 ---
 # <a name="create-a-template-app-in-power-bi-preview"></a>在 Power BI 中建立範本應用程式 (預覽)
 
 新的 Power BI「範本應用程式」  讓 Power BI 合作夥伴撰寫少量程式碼或不用撰寫程式碼，即可建置 Power BI 應用程式，再將應用程式部署至所有 Power BI 客戶。  本文包含建立 Power BI 範本應用程式的逐步指示。
 
-如果您可以建立 Power BI 報表和儀表板，您可能會變成*範本應用程式產生器*和會建置並封裝到分析內容*應用程式*。 您可能會將您的應用程式部署到透過任何可用的平台，例如 AppSource，或使用您自己的 web 服務中其他 Power BI 租用戶。 為產生器中，您必須讓您建立發佈的受保護的分析封裝。
+如果您可以建立 Power BI 報表及儀表板，即可成為「範本應用程式建置者」  ，將分析內容建置並封裝在「應用程式」  中。 您可以透過任何可用的平台 (例如 AppSource)，或在自己的 Web 服務中使用應用程式，將應用程式部署至其他 Power BI 租用戶。 身為建置者，您可以建立受保護的分析套件以供散發。
 
-Power BI 租用戶系統管理員可管理並控制其組織中可以建立及安裝範本應用程式的人員。 已獲授權的使用者可以安裝應用程式的範本，然後修改它並將它散發給組織中的 Power BI 取用者。
+Power BI 租用戶系統管理員可管理並控制其組織中可以建立及安裝範本應用程式的人員。 獲授權使用者可以安裝您的範本應用程式，加以修改並散發給其組織中的 Power BI 使用者。
 
 ## <a name="prerequisites"></a>先決條件
 
@@ -30,7 +30,7 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
 
 - [Power BI Pro 授權](service-self-service-signup-for-power-bi.md)
 - [安裝 Power BI Desktop](desktop-get-the-desktop.md) (選用)
-- 熟悉[的 Power BI 的基本概念](service-basic-concepts.md)
+- 熟悉 [Power BI 的基本概念](service-basic-concepts.md)
 - 建立範本應用程式的權限。 如需詳細資料，請參閱 Power BI [管理入口網站、範本應用程式設定](service-admin-portal.md#template-apps-settings-preview)。
 
 ## <a name="enable-app-developer-mode"></a>啟用應用程式開發人員模式
@@ -66,7 +66,7 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
 
 5. 選取 [儲存]  。
 >[!NOTE]
->您需要從您的 Power BI 系統管理員，以提升範本的應用程式的權限。
+>您需要獲得 Power BI 系統管理員的權限，才能升階範本應用程式。
 
 ## <a name="create-the-content-in-your-template-app"></a>在範本應用程式中建立內容
 
@@ -86,43 +86,43 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
 
     ![建立應用程式](media/service-template-apps-create/power-bi-create-app.png)
 
-    在這裡，您填寫其他建置選項範本應用程式中，五個類別目錄：
+    您可在這裡填入範本應用程式的其他建置選項，其分為五種：
 
     **Branding**
 
     ![商標](media/service-template-apps-create/power-bi-create-branding.png)
     - 應用程式名稱
     - 描述
-    - 支援網站 （連結會顯示在應用程式資訊 底下之後重新發佈範本應用程式，為組織的應用程式）
-    - 應用程式標誌 （45 萬個檔案的大小限制、 1:1 外觀比例、.png.jpg.jpeg 格式）
-    - 應用程式的佈景主題色彩
+    - 支援網站 (將範本應用程式重新散發為組織的應用程式之後，連結會顯示在應用程式資訊下方)
+    - 應用程式標誌 (45K 檔案大小限制、1:1 外觀比例、.png .jpg .jpeg 格式)
+    - 應用程式佈景主題色彩
 
     **Content**
 
-    **應用程式登陸頁面：** 定義報表或儀表板是您的應用程式的登陸頁面，請使用會讓您正確認為的登陸頁面：
+    **應用程式登陸頁面：** 將報表或儀表板定義為您應用程式的登陸頁面，並使用可提供良好印象的登陸頁面：
 
     ![內容](media/service-template-apps-create/power-bi-create-content.png)
 
     **Control**
 
-    設定您的應用程式的使用者必須使用您的應用程式內容的限制。 您可以使用這個控制項來保護您的應用程式中的財產。
+    設定應用程式使用者在應用程式內容使用上的一些限制。 您可以使用這項控制來保護應用程式中的智慧財產權。
 
-    ![控制項](media/service-template-apps-create/power-bi-create-control.png)
+    ![控制](media/service-template-apps-create/power-bi-create-control.png)
 
     >[!NOTE]
-    >一律封鎖的使用者安裝應用程式匯出成.pbix 格式。
+    >針對安裝應用程式的使用者，一律封鎖匯出至 .pbix 格式的功能。
 
     **參數**
 
-    您可以使用這個類別來連接到資料來源時，管理參數的行為。 深入了解[建立查詢參數](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)。
+    連接到資料來源時，您可以使用這個類別來管理參數的行為。 深入了解[建立查詢參數](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)。
 
     ![參數](media/service-template-apps-create/power-bi-create-parameters.png)
-    - **值**： 預設參數值。
-    - **所需**： 使用此選項可要求輸入使用者特定參數的安裝程式。
-    - **鎖定**:鎖定會防止安裝程式更新為參數。
-    - **靜態**:啟用應用程式包含*只*範例資料。 當您選取**靜態**，安裝精靈並不要求使用者連接到資料來源。
+    - **值**：預設參數值。
+    - **必要**：使用此項目要求安裝程式輸入使用者特定參數。
+    - **鎖定**：鎖定功能可防止安裝程式更新參數。
+    - **靜態**：如果應用程式「僅」  包含範例資料，即可啟用。 當您選取 [靜態]  時，安裝精靈就不會要求使用者連接到資料來源。
 
-    **存取**在測試階段中，決定您組織中的哪些其他可以安裝並測試您的應用程式。 別擔心，您一律可以回到這裡並稍後變更這些設定 （設定不會影響分散式的範本應用程式的存取權）。
+    **存取**：在測試階段中，決定您組織內哪些其他人員可以安裝並測試應用程式。 別擔心，您隨時可以返回，並於稍後變更這些設定 ([設定] 不會影響已散發範本應用程式的存取)。
 
 2. 選取 [建立應用程式]  。
 
@@ -141,9 +141,9 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
 - 將生產階段前套件升至生產階段：生產階段版本。
 - 刪除所有套件，或從先前的階段重新開始。
 
-當您發行階段之間移動，URL 不會變更。 升級不會影響 URL 本身。
+當您在發行階段之間移動時，URL 不會變更。 升階不會影響 URL 本身。
 
-讓我們瀏覽階段：
+讓我們逐步了解各階段：
 
 1. 在範本應用程式工作區中，選取 [發行管理]  。
 
@@ -171,15 +171,15 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
     ![開始使用新的應用程式](media/service-template-apps-create/power-bi-template-app-get-started.png)
 8. 選取 [探索應用程式]  來以範例資料驗證測試應用程式。
 9. 若要進行任何變更，請返回原始工作區中的應用程式。 並將測試應用程式更新到您滿意為止。
-10. 當您準備好升級您的應用程式，以針對您租用戶以外進一步測試進入生產階段前時，請返回**Release Management**窗格，然後選取**升級應用程式**。 
+10. 當您準備好要將應用程式升階至生產階段前，以進一步在租用戶外部測試時，請返回 [發行管理]  窗格，並選取 [升階應用程式]  。 
 
     ![將應用程式升至生產階段前](media/service-template-apps-create/power-bi-template-app-promote.png)
 
     >[!NOTE]
-    > 當應用程式升級時變得公開可用組織外部。
+    > 當應用程式升階時即可在組織外部公開取得。
 
 11. 選取 [升階]  來確認您的選擇。
-12. 複製這個新的 URL 來分享至租用戶外部，以進行測試。 此連結也是您開始建立散發在 AppSource 上的應用程式的程序送出[新 Cloud Partner 入口網站的供應項目](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer)。 提交只能進入生產階段前 Cloud Partner 入口網站的連結。 只有應用程式已通過核准，且您會收到通知，它會在 AppSource 中發行之後，您就可以升級到 Power BI 中的生產環境的這個封裝。
+12. 複製這個新的 URL 來分享至租用戶外部，以進行測試。 當您建立[新的 Cloud Partner 入口網站供應項目](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer)，以在 AppSource 上開始應用程式的散發程序時，也要提交這個連結。 請僅將生產階段前的連結提交至 Cloud Partner 入口網站。 只有在應用程式通過核准，您也收到其在 AppSource 中發佈的通知之後，您才可以將此套件升階到 Power BI 中的生產環境。
 13. 當您的應用程式已準備好進入生產階段或透過 AppSource 分享時，請返回 [發行管理]  窗格，並選取 [生產階段前]  旁邊的 [升階應用程式]  。
 14. 選取 [升階]  來確認您的選擇。
 
@@ -202,11 +202,11 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
 
     ![範本應用程式的兩個版本](media/service-template-apps-create/power-bi-template-app-2-versions.png)
 
-5. 當您準備好升級您的應用程式，以針對您租用戶以外進一步測試進入生產階段前時，請回到 [版本管理] 窗格，然後選取**升級應用程式**旁**測試**。
-6. 您的連結已熱烘烘、 送出一次至 Cloud Partner 入口網站所遵循的步驟[Power BI 應用程式供應項目更新](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)。
+5. 當您準備好要將應用程式升階至生產階段前，以進一步於租用戶外部測試時，請返回 [發行管理] 窗格，並選取 [測試]  旁邊的 [升階應用程式]  。
+6. 您的連結已正式運作，請遵循 [Power BI 應用程式供應項目更新](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)的步驟，將其再次提交至 Cloud Partner 入口網站。
 
 >[!NOTE]
->您的應用程式核准 Cloud Partner 入口網站和您在發佈時，才可以，請升級您的應用程式至實際執行階段。
+>請僅在 Cloud Partner 入口網站核准您的應用程式，且您已將其發佈之後，再將應用程式升階至生產階段。
 
 ## <a name="next-steps"></a>後續步驟
 

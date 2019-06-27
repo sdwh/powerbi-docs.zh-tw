@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b689a4d0718c92608fe7fc0cdb34d27803015269
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853420"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823525"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
@@ -84,8 +84,8 @@ ms.locfileid: "65853420"
 * BI 連接器
 * Dremio
 * Exasol
-* Indexima (Beta)
-* InterSystems 鳶尾花 (Beta)
+* Indexima (搶鮮版 (Beta))
+* InterSystems IRIS (搶鮮版 (Beta))
 * Jethro (搶鮮版 (Beta))
 * Kyligence Enterprise (搶鮮版 (Beta))
 * MarkLogic 搶鮮版 (Beta)
@@ -119,7 +119,7 @@ ms.locfileid: "65853420"
 * Azure HDInsight Spark
 * HDInsight 互動式查詢
 * Azure 資料總管 (Kusto)
-* Azure 成本的管理 (Beta)
+* Azure 成本管理 (搶鮮版 (Beta))
 
 下圖顯示 [Azure]  的 [取得資料]  視窗。
 
@@ -133,7 +133,7 @@ ms.locfileid: "65853420"
 * Dynamics NAV
 * Microsoft Dynamics 365 Business Central
 * Dynamics 365 Business Central (內部部署)
-* Common Data Service for Apps (搶鮮版 (Beta))
+* Common Data Service
 * Microsoft Azure 使用量見解 (搶鮮版 (Beta))
 * Azure DevOps (Beta)
 * Azure DevOps Server (Beta)
@@ -161,8 +161,11 @@ ms.locfileid: "65853420"
 * Webtrends (Beta)
 * Zendesk (搶鮮版 (Beta))
 * Emigo 資料來源 搶鮮版 (Beta)
-* IndustrialAppStore (Beta)
+* Entersoft 商務套件 (搶鮮版 (Beta))
+* 企業 App Store
+* Intune 資料倉儲 (搶鮮版 (Beta))
 * Microsoft Graph 安全性 搶鮮版 (Beta)
+* Quick Base
 * TeamDesk (搶鮮版 (Beta))
 
 下圖顯示 [線上服務]  的 [取得資料]  視窗。
@@ -182,15 +185,14 @@ ms.locfileid: "65853420"
 * Python 指令碼
 * ODBC
 * OLE DB
-* BI360-預算和財務報告 (Beta)
+* BI360 - 預算和財務報告 (搶鮮版 (Beta))
 * Denado
-* 資訊的方格 (Beta)
+* Information Grid (搶鮮版 (Beta))
 * Paxata 
 * QubolePresto (搶鮮版 (Beta))
-* Quick Base 搶鮮版 (Beta)
-* Roamler (Beta)
+* Roamler (搶鮮版 (Beta))
 * SurveyMonkey 搶鮮版 (Beta)
-* Tenforce (Beta)
+* Tenforce (Smart)List (搶鮮版 (Beta))
 * Workforce Dimensions (搶鮮版 (Beta))
 * 空白查詢
 

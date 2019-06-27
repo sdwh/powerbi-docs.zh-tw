@@ -1,5 +1,5 @@
 ---
-title: Power BI 服務中適用於編頁報表的內嵌資料來源 (預覽)
+title: Power BI 服務中適用於分頁報表的內嵌資料來源
 description: 在此文章中，您會了解如何在 Power BI 服務的編頁報表中建立及修改內嵌資料來源。
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 05/16/2019
-ms.openlocfilehash: 4dd9ad935a9f7b286aa64d977a78364f2aed0e0f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: 7b687fd67f844e000811ae00a53772ab9403ab90
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853393"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838936"
 ---
-# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料來源 (預覽)
+# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料來源
 
 在此文章中，您會了解如何在 Power BI 服務中建立及修改適用於編頁報表的內嵌資料來源。 您會在單一報表中定義內嵌資料來源，並將它僅用於該報表中。 目前，發行至 Power BI 服務的編頁報表需要內嵌的資料集和內嵌的資料來源，且可以連線到這些資料來源：
 
@@ -26,12 +26,14 @@ ms.locfileid: "65853393"
 - Oracle 
 - Teradata 
 
-對於這些資料來源，使用[SQL Server Analysis Services 連接](service-premium-connect-tools.md)選項：
+針對下列資料來源，使用 [SQL Server Analysis Services 連線](service-premium-connect-tools.md)選項：
 
 - Azure Analysis Services
-- Power BI Premium 的資料集
+- Power BI Premium 資料集
 
-編頁報表會透過閘道連線至內部部署資料來源。 您會在將報表發行至 Power BI 服務之後設定閘道。 深入了解 [Power BI 閘道](service-gateway-getting-started.md)。 
+分頁報表會透過 [Power BI 閘道](service-gateway-getting-started.md)連線至內部部署資料來源。 您會在將報表發行至 Power BI 服務之後設定閘道。
+
+請參閱 [Power BI 報表產生器中的報表資料](report-builder-data.md)以取得詳細資訊。
 
 ## <a name="create-an-embedded-data-source"></a>建立內嵌的資料來源
   
@@ -68,4 +70,4 @@ ms.locfileid: "65853393"
 ## <a name="next-steps"></a>後續步驟
 
 - [在 Power BI 服務中建立適用於編頁報表的內嵌資料集](paginated-reports-create-embedded-dataset.md)
-- [Power BI Premium 中的編頁報表是什麼？(預覽)](paginated-reports-report-builder-power-bi.md)
+- [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)

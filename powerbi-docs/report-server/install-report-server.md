@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187740"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839442"
 ---
 # <a name="install-power-bi-report-server"></a>安裝 Power BI 報表伺服器
 
@@ -22,9 +22,9 @@ ms.locfileid: "66187740"
 
 ## <a name="download-power-bi-report-server"></a>下載 Power BI 報表伺服器
 
-[下載 Power BI 報表伺服器](https://www.microsoft.com/download/details.aspx?id=56722)從 Microsoft 下載中心取得。
+從 Microsoft 下載中心[下載 Power BI 報表伺服器](https://www.microsoft.com/download/details.aspx?id=56722)。
 
-也是免費的試用版。 在 [內部部署 Power BI 報表伺服器報表](https://powerbi.microsoft.com/report-server/)頁面上，選取**下載免費試用版**。
+也有免費的試用版。 在[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)頁面上，選取 [下載 Power BI 報表伺服器]  。
 
 ## <a name="before-you-install"></a>安裝之前
 
@@ -35,12 +35,12 @@ ms.locfileid: "66187740"
 
 ### <a name="power-bi-report-server-product-key"></a>Power BI 報表伺服器產品金鑰
 
-您可以從兩個不同的來源來取得 Power BI 報表伺服器的產品金鑰：
+您可以從兩個不同來源取得 Power BI 報表伺服器的產品金鑰：
 
 - Power BI Premium
 - SQL Server Enterprise 軟體保證 (SA)
 
-如需詳細資訊，以讀取上。
+繼續閱讀以取得詳細資料。
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -75,8 +75,8 @@ ms.locfileid: "66187740"
 
     ![版本 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    否則，請輸入您從 Power BI 服務或大量授權服務中心取得的產品金鑰。 如需如何取得您的產品金鑰的詳細資訊，請參閱[在安裝之前](#before-you-install)上一節。
-4. 閱讀並同意授權條款及條件，然後選取**下一步**。
+    否則，輸入從 Power BI 服務或大量授權服務中心取得的產品金鑰。 如需如何取得產品金鑰的詳細資訊，請參閱上述[安裝之前](#before-you-install)一節。
+4. 閱讀並接受授權條款和條件，然後選取 [下一步]  。
 
     ![授權條款](media/install-report-server/pbireportserver-eula.png)
 5. 您需要有資料庫引擎才能儲存報表伺服器資料庫。 選取 [下一步]  只安裝報表伺服器。
@@ -92,7 +92,7 @@ ms.locfileid: "66187740"
 
     ![設定報表伺服器](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configure-your-report-server"></a>設定報表伺服器
+## <a name="configure-your-report-server"></a>設定您的報表伺服器
 
 選取安裝程式中的 [設定報表伺服器]  後，您會看到 Reporting Services 設定管理員。 如需詳細資訊，請參閱 [Reporting Services 設定管理員](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)。
 
@@ -153,7 +153,7 @@ URL 保留項目是由前置詞、主機名稱、連接埠及虛擬目錄所組�
 [系統管理員概觀](admin-handbook-overview.md)  
 [如何找到您的報表伺服器產品金鑰](find-product-key.md)  
 [安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)  
-[確認安裝 Reporting Services ](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
+[確認安裝 Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 [設定報表伺服器服務帳戶](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
 [設定報表伺服器 URL](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
 [設定報表伺服器資料庫連接](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  

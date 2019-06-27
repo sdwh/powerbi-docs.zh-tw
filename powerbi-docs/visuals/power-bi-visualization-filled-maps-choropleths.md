@@ -8,20 +8,20 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ef03a562351b8f4487e4822ef28b89009ee5cbb4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2fa8fa5248ee1e4330804205b2cedb64021b1913
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61143552"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839816"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI 中的區域分布圖 (分區著色圖)
 區域分布圖使用陰影、濃淡或圖樣，顯示值的比例如何隨著地理位置或地區而有所不同。  可使用範圍介於淺色 (較不常見/較低) 到深色 (較常見/較多) 的陰影，快速顯示這些相對差異。    
 
-![美國地圖](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
+![美國地圖](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
 
 ## <a name="what-is-sent-to-bing"></a>傳送至 Bing 的項目
 Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編碼)。 當您在 Power BI 服務或 Power BI Desktop 中建立地圖視覺效果時，[位置]  、[緯度]  和 [經度]  貯體中的資料 (用來建立該視覺效果) 會傳送至 Bing。
@@ -55,10 +55,11 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>取得資料，並將新的空白頁面新增至報表
-1. 若要建立您自己的區域分布圖，請[下載銷售與行銷範例](../sample-datasets.md)，方法是登入 Power BI，然後選取 [取得資料] \> [範例] \> [銷售與行銷] \> [連線]  。
-2. 出現成功訊息時，關閉它並選取 [報表]  索引標籤。然後選擇 [銷售與行銷範例]  開啟報表。
+1. 若要建立您自己的區域分布圖，請[下載銷售與行銷範例](../sample-datasets.md)，方法是登入 Power BI，然後選取 [取得資料] \> [範例] \> [銷售與行銷] \> [連線]  。 或從 appsource.com 取得 **Power BI 銷售與行銷**應用程式。 
 
-   ![報表內容清單](media/power-bi-visualization-filled-maps-choropleths/power-bi-content-reports2.png)
+2. 開啟銷售與行銷報表。
+
+   ![銷售與行銷報表隨即開即](media/power-bi-visualization-filled-maps-choropleths/power-bi-report-canvas.png)
 3. Power BI 會開啟報表。 選取 [編輯報表]  以在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報表。
 
 4. 選取報表畫布底部的黃色加號符號以新增頁面。
@@ -123,13 +124,13 @@ Power BI 提供您眾多對區域分布圖外觀的控制。
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 地圖資料可能模稜兩可。  例如，有在法國的巴黎，但也有「德州，巴黎」(Paris, Texas)。 您的地理資料可能會儲存在個別資料行 (縣市名稱的資料行、州或省名稱的資料行等等)，所以 Bing 可能無法判斷這裡的巴黎是哪個巴黎。 如果您的資料集已經包含經度和緯度資料，Power BI 有特殊欄位可協助避免地圖資料模稜兩可。 直接將包含緯度資料的欄位拖曳到 [視覺效果] \> [緯度] 區域。  然後對經度資料執行相同的動作。    
 
-![[視覺效果] 和 [欄位] 窗格](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
+![[視覺效果] 和 [欄位] 窗格](media/power-bi-visualization-filled-maps-choropleths/pbi-latitude.png)
 
 如果您有權限可編輯 Power BI Desktop 中的資料集，請觀賞這段影片，以協助解決地圖模稜兩可的情況。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Co2z9b-s_yM" frameborder="0" allowfullscreen></iframe>
 
-如果您沒有經度和緯度資料的存取權，請[遵循這些指示來更新您的資料集](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7)。
+如果您沒有經度和緯度資料的存取權，但有資料集的編輯存取權，請[遵循這些指示來更新您的資料集](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7)。
 
 如需地圖視覺效果的更多說明，請參閱[地圖視覺效果的祕訣和訣竅](../power-bi-map-tips-and-tricks.md)。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 9cf3eea99813d315c72f3210f3938deae94505b0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 554a5de238af650ab4009669d55a2fadedd4a29f
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61234452"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809131"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 **Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本專為美國政府客戶而設計，並且獨立且不同於商用版本的 **Power BI 服務**。
@@ -41,7 +41,7 @@ ms.locfileid: "61234452"
 
 ## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>政府和全球 Azure 雲端服務之間的連線 
 
-Azure 分散於多個雲端。 根據預設，會允許租用戶以開啟對雲端特定執行個體的防火牆規則，但跨雲端網路不同，且需要開啟特定的防火牆規則，以便在服務之間通訊。 如果您是 Power BI 客戶，而且在公用雲端中有需要存取的現有 SQL 執行個體，您必須在 SQL 中開啟對 Azure 政府雲端 IP 空間的特定防火牆規則，針對下列資料中心：
+Azure 分散於多個雲端。 系統預設會允許租用戶，以開啟對雲端特定執行個體的防火牆規則，但跨雲端網路不同，其需要開啟特定的防火牆規則，以便在服務之間通訊。 如果您是 Power BI 客戶，而且在公用雲端中有需要存取的現有 SQL 執行個體，您必須在 SQL 中開啟對 Azure 政府雲端 IP 空間的特定防火牆規則，針對下列資料中心：
 
 * USGov 愛荷華
 * USGov 維吉尼亞

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e24218e2a465619fdfbfc279d3cc45370202dd6e
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66814858"
+---
 ## <a name="sign-in-account"></a>登入帳戶
 
 使用者使用公司或學校帳戶登入。 此帳戶是您的**組織帳戶**。 如果您註冊 Office 365 供應項目，而且未提供實際的公司電子郵件，其看起來可能會類似 nancy@contoso.onmicrosoft.com。 您的帳戶會儲存在 Azure Active Directory (AAD) 租用戶中。 在大部分情況下，您的 AAD 帳戶 UPN 會比對電子郵件地址。
@@ -15,33 +23,40 @@
 
 閘道會建立 Azure 服務匯流排的輸出連線。 它會在輸出連接埠上進行通訊：TCP 443 (預設)、5671、5672、9350 到 9354。  閘道不需要輸入連接埠。
 
-建議您將您資料區域的 IP 位址加入防火牆的允許清單中。 您可以下載 [Microsoft Azure 資料中心 IP 清單](https://www.microsoft.com/download/details.aspx?id=41653)，此清單會每週更新。 閘道會使用 IP 位址及完整網域名稱 (FQDN) 來與 Azure 服務匯流排通訊。 如果您強制閘道器使用 HTTPS 進行通訊，閘道器會嚴格限於使用 FQDN，使用 IP 位址則不會發生通訊。
+建議您將資料區域之 IP 位址新增至防火牆的允許清單。 您可以下載 [Microsoft Azure 資料中心 IP 清單](https://www.microsoft.com/download/details.aspx?id=41653)，此清單會每週更新。 或者，您可以藉由在內部部署資料閘道應用程式上執行[網路連接埠測試](../service-gateway-onprem-tshoot.md#network-ports-test)，來取得必要的連接埠清單。 閘道會使用 IP 位址及完整網域名稱 (FQDN) 來與 Azure 服務匯流排通訊。 如果您強制閘道器使用 HTTPS 進行通訊，閘道器會嚴格限於使用 FQDN，使用 IP 位址則不會發生通訊。
+
 
 > [!NOTE]
 > Azure Datacenter IP 清單中所列的 IP 位址採用 CIDR 標記法。 例如 10.0.0.0/24 並不等於 10.0.0.0 到 10.0.0.24。 深入了解 [CIDR 標記法](http://whatismyipaddress.com/cidr)。
 
 下列清單包含閘道所使用的完整網域名稱。
 
-| 網域名稱 | 輸出連接埠 | 描述 |
-| --- | --- | --- |
-| *.download.microsoft.com |80 |下載安裝程式所使用的 HTTP。 |
-| *.powerbi.com |443 |HTTPS |
-| *.analysis.windows.net |443 |HTTPS |
-| *.login.windows.net |443 |HTTPS |
-| *.servicebus.windows.net |5671-5672 |進階訊息佇列通訊協定 (AMQP) |
-| *.servicebus.windows.net |443, 9350-9354 |透過 TCP 之服務匯流排轉送上的接聽程式 (需要 443 以取得存取控制 Token) |
-| *.frontend.clouddatahub.net |443 |HTTPS |
-| *.core.windows.net |443 |HTTPS |
-| login.microsoftonline.com |443 |HTTPS |
-| *.msftncsi.com |443 |在 Power BI 服務無法與閘道連線時，用於測試網際網路連線。 |
-| *.microsoftonline-p.com |443 |用於依據組態進行驗證。 |
+| 網域名稱 | 輸出連接埠 | 描述 |  |
+|-----------------------------|----------------|--------------------------------------------------------------------------------------------------------------------|---|
+| *.download.microsoft.com | 80 | 用於下載安裝程式。 也可供資料閘道應用程式用於檢查版本和閘道區域。 |  |
+| *.powerbi.com | 443 | 用於識別相關的 Power BI 叢集。 |  |
+| *.analysis.windows.net | 443 | 用於識別相關的 Power BI 叢集。 |  |
+| *.login.windows.net | 443 | 用於搭配 Azure Active Directory/OAuth2 驗證資料閘道應用程式。 |  |
+| *.servicebus.windows.net | 5671-5672 | 用於進階訊息佇列通訊協定 (AMQP)。 |  |
+| *.servicebus.windows.net | 443, 9350-9354 | 可供服務匯流排轉送上的接聽程式透過 TCP 使用 (需要 443 以取得存取控制權杖)。 |  |
+| *.frontend.clouddatahub.net | 443 | 已淘汰 - 不再需要。 未來將從文件中移除。 |  |
+| *.core.windows.net | 443 | 可供 Power BI 中的資料流程用於將資料寫入 Azure Data Lake。 |  |
+| login.microsoftonline.com | 443 | 用於搭配 Azure Active Directory/OAuth2 驗證資料閘道應用程式。 |  |
+| *.msftncsi.com | 443 | 用於測試網際網路連線，以及 Power BI 服務是否無法與閘道連線。 |  |
+| *.microsoftonline-p.com | 443 | 用於搭配 Azure Active Directory/OAuth2 驗證資料閘道應用程式。 |  |
+| | |
 
 > [!NOTE]
-> 前往 visualstudio.com 或 visualstudioonline.com 的流量是供 App Insights 使用，對閘道的運作並非必要。
+> 一旦安裝並註冊閘道，唯一必要連接埠/IP 是 Azure 服務匯流排 (上述 servicebus.windows.net) 所需的連接埠/IP。 您可以藉由在內部部署資料閘道應用程式上執行[網路連接埠測試](../service-gateway-onprem-tshoot.md#network-ports-test)，來取得必要的連接埠清單。
 
 ## <a name="forcing-https-communication-with-azure-service-bus"></a>強制與 Azure 服務匯流排進行 HTTPS 通訊
 
-您可以強制閘道使用 HTTPS 與 Azure 服務匯流排進行通訊，而不使用 TCP。 使用 HTTPS 可能會對效能產生影響。 若要這樣做，請修改 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 檔案，方法是將值從 `AutoDetect` 變更為 `Https`，如本段後面接著的程式碼片段所示。 該檔案 (依預設) 位於 C:\Program Files\On-premises data gateway。
+您可以強制閘道使用 HTTPS 與 Azure 服務匯流排進行通訊，而不使用 TCP。
+
+> [!NOTE]
+> 從 2019 年 6 月版本開始，根據 Azure 服務匯流排的建議，新的安裝 (不是更新) 預設值為 HTTPS 而非 TCP。
+
+若要強制透過 HTTPS 通訊，請修改 *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 檔案，方法是將值從 `AutoDetect` 變更為 `Https`，如本段落後面接著的程式碼片段所示。 該檔案 (依預設) 位於  C:\Program Files\On-premises data gateway。
 
 ```xml
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
@@ -49,15 +64,15 @@
 </setting>
 ```
 
-*ServiceBusSystemConnectivityModeString* 參數的值有區分大小寫。 有效值為「自動偵測」和「Https」。
+*ServiceBusSystemConnectivityModeString* 參數的值有區分大小寫。 有效值為「自動偵測」  和「Https」  。
 
-您也可以使用閘道使用者介面，強制閘道器採用此行為。 在閘道器使用者介面中選取 [網路]，然後將 [Azure 服務匯流排連線模式] 切換為 [開啟]。
+您也可以使用閘道使用者介面，強制閘道器採用此行為。 在閘道器使用者介面中選取 [網路]  ，然後將 [Azure 服務匯流排連線模式]  切換為 [開啟]  。
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_01.png)
 
-變更後，當您選取 [套用] \(進行變更才出現的按鈕) 時，「閘道 Windows 服務」會自動重新啟動，讓變更生效。
+變更後，當您選取 [套用]  \(進行變更才出現的按鈕) 時，「閘道 Windows 服務」  會自動重新啟動，讓變更生效。
 
-為供日後參考，您可以選取 [服務設定]，然後選取 [立即重新啟動]，從使用者介面對話方塊重新啟動「閘道 Windows 服務」。
+為供日後參考，您可以選取 [服務設定]  ，然後選取 [立即重新啟動]  ，從使用者介面對話方塊重新啟動「閘道 Windows 服務」  。
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 

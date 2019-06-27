@@ -1,5 +1,5 @@
 ---
-title: 在報表設計檢視中瀏覽編頁報表 (預覽)
+title: 在報表設計檢視中瀏覽編頁報表
 description: 報表產生器中的報表設計檢視，是用於建立可以在 Power BI 服務中發佈之編頁報表的設計空間。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2e9c402c09bc6f504729b8d6057ef5052f489f41
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 76c12cf411f49fda9f9fe042a6d1aafa457bf914
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423330"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839529"
 ---
-# <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>在報表設計檢視中瀏覽編頁報表 (預覽)
+# <a name="getting-around-in-report-design-view-for-paginated-reports"></a>在報表設計檢視中瀏覽編頁報表
 
-在 Power BI 報表產生器的報表設計檢視是建立已編頁的報表，您可以發行至 Power BI 服務的設計空間。 設計介面位於報表產生器的中心，其周圍是功能區和窗格。 設計介面是您加入和組織報表項目的位置。 此文章說明可用來加入、選取並組織報表資源，以及變更報表項目屬性的窗格。  
+Power BI 報表產生器中的報表設計檢視，是用於建立可以發佈到 Power BI 服務之分頁報表的設計空間。 設計介面位於報表產生器的中心，其周圍是功能區和窗格。 設計介面是您加入和組織報表項目的位置。 此文章說明可用來加入、選取並組織報表資源，以及變更報表項目屬性的窗格。  
 
 ![報表產生器報表設計檢視](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
@@ -109,7 +109,7 @@ ms.locfileid: "61423330"
 
 ## <a name="next-steps"></a>後續步驟
 
-[什麼是 Power BI Premium 中的編頁報表？(預覽)](paginated-reports-report-builder-power-bi.md) 
+[什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md) 
 
   
   

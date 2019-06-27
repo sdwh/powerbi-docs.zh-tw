@@ -1,279 +1,327 @@
 ---
 title: Power BI 的資料重新整理
-description: Power BI 的資料重新整理
+description: 本文描述 Power BI 資料重新整理功能及其在概念層級的相依性。
 author: mgblythe
 manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/21/2019
+ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 149f6963cc59c70342bee824579f6ae4c97a16d1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 24a559fe35291c5256a5280b3c7d63d110868f4a
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60974146"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67038992"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
-若要做出正確決策，確保您能夠一直取得最新資料就相當重要。 您可能已經使用 Power BI 中的 [取得資料] 連接及上傳一些資料，也已經建立一些報表和儀表板。 現在，您想要確定您的資料都是最新且最優良的。
 
-在許多情況下，您完全不需要執行任何動作。 某些資料 (像是來自 Salesforce 或 Marketo 內容套件的資料) 會為您自動重新整理。 如果您的連線使用即時連線或 DirectQuery，資料就會更新到最新。 但在其他情況下 (例如連接到外部線上資料來源或內部部署資料來源的 Excel 活頁簿或 Power BI Desktop 檔案)，您將必須手動重新整理或設定重新整理排程，好讓 Power BI 可以為您重新整理報表和儀表板中的資料。
+Power BI 可讓您快速地將資料轉化成見解再轉化成動作，但您必須確定 Power BI 報表和儀表板中資料是最新的。 了解如何重新整理資料通常對於提供正確結果至關重要。
 
-此篇文章與其他幾篇旨在協助您了解 Power BI 中資料重新整理的真正運作方式、您是否需要設定重新整理排程，以及需要就地升級哪些項目以順利重新整理您的資料。
+本文描述 Power BI 資料重新整理功能及其在概念層級的相依性。 它也提供最佳做法和祕訣來避免常見的重新整理問題。 該內容為協助您了解資料重新整理運作方式奠定了基礎。 如需設定資料重新整理的目標逐步指示，請參閱本文結尾＜後續步驟＞一節中列出的教學課程和操作指南。
 
 ## <a name="understanding-data-refresh"></a>了解資料重新整理
-設定重新整理前，請務必了解您要重新整理的內容，以及取得資料的來源。
 
-「資料來源」  是您在報表與儀表板中所探索資料的實際來源；例如 Google Analytics (分析) 或 QuickBooks 等線上服務、Azure SQL Database 等雲端資料庫，或您組織中本機電腦或伺服器上的資料庫或檔案。 這些是所有資料來源。 資料來源的類型會決定重新整理其資料的方式。 我們將在稍後＜什麼資料可以重新整理？[一節探討各類型資料來源的重新整理](#what-can-be-refreshed)。
+每當您重新整理資料時，Power BI 必須查詢基礎資料來源、可能會將來源資料載入資料集，然後更新您報表或儀表板中依賴已更新資料集的任何視覺效果。 根據您資料集的儲存模式，整個程序會包含多個階段，如下列各節中所述。
 
-「資料集」  會在您使用 [取得資料] 連接及上傳來自內容套件、檔案的資料，或連接至即時資料來源時，自動在 Power BI 中建立。 在 Power BI Desktop 和 Excel 2016 中，您也可以如同使用 [取得資料] 一般，將檔案直接發佈到 Power BI 服務。
+若要了解 Power BI 如何重新整理您的資料集、報表和儀表板，您必須注意下列概念：
 
-在每個案例中，[我的工作區] 或 [群組]\(Power BI 服務的容器) 中都會建立並顯示資料集。 當您選取資料集的 **省略號 (...)** 時，就可以瀏覽報表中的資料、編輯設定和設定重新整理。
+- **儲存模式和資料集類型**：Power BI 所支援儲存模式和資料集類型有不同的重新整理需求。 您可以選擇將資料重新匯入 Power BI 以查看發生的任何變更，或直接在來源查詢資料。
+- **Power BI 重新整理類型**：不論資料集詳細資料為何，了解各種重新整理類型可協助您了解 Power BI 在重新整理作業期間將其時間花在何處。 而結合這些詳細資料與儲存模式詳細資料，則有助於了解當您針對資料集選取 [立即重新整理]  時，Power BI 實際執行的動作。
 
-![](media/refresh-data/dataset-menu.png)
+### <a name="storage-modes-and-dataset-types"></a>儲存模式和資料集類型
 
-資料集可以從一個或多個資料來源取得資料。 例如，您可以使用 Power BI Desktop 從您組織中的 SQL Database 取得資料，並從 OData 摘要線上取得其他資料。 然後，當您將檔案發行至 Power BI 時，只有一個資料集會建立，但其中同時包含 SQL Database 和 OData 摘要的資料來源。
+Power BI 資料集可在下列其中一種模式中運作，以從各種資料來源存取資料。 如需詳細資訊，請參閱 [Power BI Desktop 中的儲存模式](desktop-storage-mode.md)。
 
-資料集包含資料來源的相關資訊、資料來源認證，並在大部分情況下也包含從資料來源複製的資料子集。 當您在報表和儀表板中建立視覺效果時，看到的是資料集內的資料；而在 Azure SQL Database 的即時連線等情況時，資料集則會定義您直接從資料來源看到的資料。 對於 Analysis Services 的即時連線，資料集定義直接來自 Analysis Services。
+- 匯入模式
+- DirectQuery 模式
+- LiveConnect 模式
+- 推送模式
 
-> *當您重新整理資料時，您更新的是資料集中的資料，這個資料集從資料來源儲存在 Power BI 中。這次重新整理是完整的重新整理，而非累加式。*
-> 
-> 
+下圖說明不同的資料流程，視儲存模式而定。 最重要的一點是只有匯入模式資料集需要重新整理來源資料。 之所以需要重新整理是因為只有這種類型的資料集會從其資料來源匯入資料，且匯入的資料可能會定期或特別更新。 DirectQuery 資料集和連接到 Analysis Services 的 LiveConnect 模式資料集不會匯入資料；它們會在每次與使用者互動時查詢基礎資料來源。 推送模式資料集不會直接存取任何資料來源，但會預期您將資料推送到 Power BI。 資料集重新整理需求會因儲存模式/資料集類型而有所不同。
 
-每當您重新整理資料集內的資料時，無論方式是 [立即重新整理] 或設定重新整理排程，Power BI 都會使用資料集內的資訊來連接到為其定義的資料來源，查詢更新的資料，然後將更新的資料載入資料集。 報表或儀表板中的所有視覺效果都是以自動更新的資料為基礎。
+![儲存模式和資料集類型](media/refresh-data/storage-modes-dataset-types-diagram.png)
 
-在繼續討論之前，必須先了解其他一些重要事項︰
+#### <a name="datasets-in-import-mode"></a>匯入模式資料集
 
-> *無論您重新整理資料集的頻率有多高，或查看即時資料的頻率有多高，都必須先讓資料來源中的資料處於最新狀態。*
-> 
-> 
+Power BI 會從原始資料來源將資料匯入資料集。 提交給資料集的 Power BI 報表和儀表板查詢會從所匯入資料表和資料行傳回結果。 您可以將這類資料集視為時間點複本。 因為 Power BI 會複製資料，所以您必須重新整理資料集才能從基礎資料來源擷取變更。
 
-大部分組織都一天處理一次資料，通常是在晚上。 如果您為建立自連接到內部部署的資料庫 Power BI Desktop 檔案的資料集排程重新整理，而且您的 IT 部門會在晚上處理一次該 SQL 資料庫，您就只需要將排程的重新整理設定為一天執行一次。 例如，在處理資料庫之後、開始工作之前。 當然您也不一定要這樣做。 Power BI 提供許多方式來連接經常更新或甚至是即時的資料來源。
+因為 Power BI 會快取資料，所以匯入模式資料集大小可能很大。 請參閱下表以了解每個容量的資料集大小上限。 保持遠低於資料集大小上限，可避免資料集在重新整理作業期間要求超過可用資源數目上限時可能發生的重新整理問題。
 
-## <a name="types-of-refresh"></a>重新整理的類型
-Power BI 內有四種主要的重新整理類型。 封裝重新整理、模型/資料重新整理，磚重新整理和視覺效果容器重新整理。
+| 容量類型 | 資料集大小上限 |
+| --- | --- |
+| 共用、A1、A2 或 A3 | 1 GB |
+| A4 或 P1 | 3 GB |
+| A4 或 P2 | 6 GB |
+| A6 或 P3 | 10 GB |
+| | |
 
-### <a name="package-refresh"></a>封裝重新整理
-這會同步處理 Power BI Desktop 或 Excel 和 Power BI 服務及 OneDrive 或 SharePoint Online 之間的檔案。 這不會提取原始資料來源的資料。 Power BI 的資料集只會使用 OneDrive 或 SharePoint Online 內的檔案內容加以更新。
+#### <a name="datasets-in-directqueryliveconnect-mode"></a>DirectQuery/LiveConnect 模式資料集
 
-![](media/refresh-data/package-refresh.png)
+Power BI 不會透過連接匯入在 DirectQuery/LiveConnect 模式中運作的資料。 相反地，每當報表或儀表板查詢資料集時，資料集就會從基礎資料來源傳回結果。 Power BI 會轉換查詢並將其轉送到資料來源。
 
-### <a name="modeldata-refresh"></a>模型/資料重新整理
-這是指使用原始資料來源的資料，重新整理 Power BI 服務裡的資料集。 這項作業會使用排程的重新整理或立即重新整理完成。 這需要用來處理內部部署資料來源的閘道。
+雖然 DirectQuery 模式和 LiveConnect 模式很類似 (Power BI 在這兩種模式中都會將查詢轉送到來源)，但請務必注意，Power BI 不需要在 LiveConnect 模式中轉換查詢。 查詢會直接進入裝載資料庫的 Analysis Services 執行個體，而不會使用共用容量或 Premium 容量的資源。
 
-### <a name="tile-refresh"></a>磚重新整理
-只要資料變更，磚重新整理就會更新儀表板上的磚視覺效果快取。 約每 15 分鐘發生一次。 您也可以選取儀表板右上角的 **省略符號 (...)** ，然後選取 [更新儀表板的圖格]  ，以強制執行圖格的重新整理。
+因為 Power BI 不會匯入資料，所以您不需要執行資料重新整理。 不過，Power BI 仍會執行磚重新整理並可能執行報表重新整理，如下一節的重新整理類型中所述。 磚是釘選到儀表板的報表視覺效果，而儀表板磚會大約每小時重新整理一次，以確保磚顯示最新結果。 您可以在資料集設定中變更排程 (如下列螢幕擷取畫面所示)，或使用 [立即重新整理]  選項強制儀表板手動更新。
 
-![](media/refresh-data/dashboard-tile-refresh.png)
-
-如需常見的磚重新整理錯誤詳細資訊，請參閱[為磚錯誤疑難排解](refresh-troubleshooting-tile-errors.md)。
-
-### <a name="visual-container-refresh"></a>視覺效果容器重新整理
-只要資料變更，重新整理視覺效果容器就會更新報表內的快取報表視覺效果。
-
-## <a name="what-can-be-refreshed"></a>什麼資料可以重新整理？
-在 Power BI 中，您通常會使用 [取得資料] 從本機磁碟檔案、OneDrive 或 SharePoint Online 匯入資料、從 Power BI Desktop 發佈報表，或直接連接到您組織中的雲端資料庫。 幾乎所有 Power BI 中的資料都可以重新整理，但會依據您的資料集建立來源和連接的資料來源，決定是否有這個需要。 讓我們來看看這些類型如何重新整理資料。
-
-在進一步討論前，以下有幾項重要定義要了解：
-
-**自動重新整理**  - 這表示定期重新整理資料集時，不需要任何使用者設定。 Power BI 已經為您進行資料重新整理設定。 若是線上服務提供者，通常都是一天進行一次重新整理。 若是從 OneDrive 載入的檔案，就會針對非來自外部資料來源的資料每小時進行自動重新整理。 雖然您可以設定不同的排程重新整理設定以及手動重新整理，但也可能不需要這麼做。
-
-**使用者設定的手動或排程重新整理** – 這表示您可以使用 [立即重新整理] 手動重新整理資料集，或使用資料集設定中的 [排程重新整理] 設定重新整理排程。 連接到外部線上資料來源和內部部署資料來源的Power BI Desktop 檔案和 Excel 活頁簿需要這種重新整理。
+![重新整理排程](media/refresh-data/refresh-schedule.png)
 
 > [!NOTE]
-> 當您設定排程重新整理的時間時，在開始前可能會有最多一小時的延遲。
-> 
-> 
+> [資料集]  索引標籤的 [排定的快取重新整理]  區段不適用於匯入模式資料集。 這些資料集不需要重新整理每個磚，因為 Power BI 會在每個排程或隨選資料重新整理期間自動重新整理磚。
 
-**即時/DirectQuery** – 這表示 Power BI 和資料來源之間有即時連線。 針對內部部署的資料來源，系統管理員必須在企業閘道器中設定資料來源，但可能不需要使用者互動。
+#### <a name="push-datasets"></a>推送資料集
 
-> [!NOTE]
-> 為了增強效能，會自動更新使用 DirectQuery 連接資料的儀表板。 您也可以隨時手動重新整理磚，方法是使用磚上的 [詳細]  功能表。
-> 
-> 
-
-## <a name="local-files-and-files-on-onedrive-or-sharepoint-online"></a>本機檔案和 OneDrive 或 SharePoint Online 上的檔案
-連接到外部線上資料來源和內部部署資料來源的Power BI Desktop 檔案和 Excel 活頁簿支援資料重新整理。 這只會重新整理 Power BI 服務的資料集資料。 不會更新您的本機檔案。
-
-將您的檔案保留在 OneDrive 或 SharePoint Online 上，並從 Power BI 加以連接，可提供大量彈性。 雖然有許多彈性，這卻也讓此類型最難以了解。 儲存在 OneDrive 或 SharePoint Online 中的檔案排程重新整理，和封裝重新整理不一樣。 如需深入了解，請參閱[重新整理的類型](#types-of-refresh)一節。
-
-### <a name="power-bi-desktop-file"></a>Power BI Desktop 檔案
-
-| **資料來源** | **自動重新整理** | **使用者設定的手動或排程重新整理** | **需要閘道** |
-| --- | --- | --- | --- |
-| 會使用 \[取得資料] \(位於功能區) 連接到任何所列資料來源，以及從中查詢資料。 |否 |是 |否 (請參閱下文) |
-| [取得資料] 是用於連接和瀏覽即時的 Analysis Services 資料庫。 |是 |否 |是 |
-| [取得資料] 是用於連接和瀏覽支援的內部部署 DirectQuery 資料來源。 |是 |否 |是 |
-| 會使用 [取得資料] 連接到 Azure SQL Database、Azure SQL 資料倉儲、Azure HDInsight Spark，以及從中查詢資料。 |是 |是 |否 |
-| [取得資料] 是用來連接到任何所列內部部署資料來源 (Hadoop 檔案 (HDFS) 及 Microsoft Exchange 除外)，以及從中查詢資料。 |否 |是 |是 |
+推送資料集不會包含資料來源的正式定義，因此您不需要在 Power BI 中執行資料重新整理。 您會透過外部服務或程序 (例如 Azure 串流分析) 將資料推送到資料集來重新整理。 這是使用 Power BI 進行即時分析的常見方法。 Power BI 仍可對推送資料集上所使用的任何磚執行快取重新整理。 如需詳細的逐步解說，請參閱[教學課程：串流分析及 Power BI：適用於串流資料的即時分析儀表板](/azure/stream-analytics/stream-analytics-power-bi-dashboard)。
 
 > [!NOTE]
-> 如果您使用 [ **Web.Page** ](https://msdn.microsoft.com/library/mt260924.aspx)函式，則在您於 2016 年 11 月 18 日之後重新發佈資料集或報表的情況下，會需要閘道器。
-> 
-> 
+> 推送模式有幾項限制，如 [Power BI REST API 限制](developer/api-rest-api-limitations.md)中所述。
 
-如需詳細資訊，請參閱[重新整理建立自 OneDrive 上 Power BI Desktop 檔案的資料集](refresh-desktop-file-onedrive.md)。
+### <a name="power-bi-refresh-types"></a>Power BI 重新整理類型
 
-### <a name="excel-workbook"></a>Excel 活頁簿
+Power BI 重新整理作業可能是由多個重新整理類型組成，包括資料重新整理、OneDrive 重新整理、查詢快取的重新整理、磚重新整理，以及報表視覺效果的重新整理。 雖然 Power BI 會自動決定指定資料集所需的重新整理步驟，但您應該知道這些步驟的複雜度和重新整理作業持續時間。 如需快速參考，請參閱下表。
 
-| **資料來源** | **自動重新整理** | **使用者設定的手動或排程重新整理** | **需要閘道** |
-| --- | --- | --- | --- |
-| 未載入 Excel 資料模型之工作表中的資料表。 |是，每小時 *(僅限 OneDrive/SharePoint Online)* |僅手動 *(僅限 OneDrive/SharePoint Online)* |否 |
-| 連結到 Excel 資料模型中資料表的工作表中資料表 (連結的資料表)。 |是，每小時 *(僅限 OneDrive/SharePoint Online)* |僅手動 *(僅限 OneDrive/SharePoint Online)* |否 |
-| 會使用 Power Query* 連接到任何所列線上資料來源，以及從中查詢資料，並將資料載入 Excel 資料模型。 |否 |是 |否 |
-| Power Query* 是用來連接到任何所列內部部署資料來源 (Hadoop 檔案 (HDFS) 及 Microsoft Exchange 除外)，以及從中查詢資料，並將資料載入 Excel 資料模型。 |否 |是 |是 |
-| 會使用 Power Pivot 連接到任何所列線上資料來源，以及從中查詢資料，並將資料載入 Excel 資料模型。 |否 |是 |否 |
-| 會使用 Power Pivot 連接到任何所列內部部署資料來源，以及從中查詢資料，並將資料載入 Excel 資料模型。 |否 |是 |是 |
+| 儲存模式 | 資料重新整理 | OneDrive 重新整理 | 查詢快取 | 磚重新整理 | 報表視覺效果 |
+| --- | --- | --- | --- | --- | --- |
+| 匯入 | 排程及隨選 | 是，適用於已連接的資料集 | 在 Premium 容量上啟用時 | 自動及隨選 | 否 |
+| DirectQuery | 不適用 | 是，適用於已連接的資料集 | 在 Premium 容量上啟用時 | 自動及隨選 | 否 |
+| LiveConnect | 不適用 | 是，適用於已連接的資料集 | 在 Premium 容量上啟用時 | 自動及隨選 | 是 |
+| 推送 | 不適用 | 不適用 | 不可行 | 自動及隨選 | 否 |
+| | | | | | |
 
-*\*Power Query 在 Excel 2016 中稱為 [取得與轉換資料]。*
+#### <a name="data-refresh"></a>資料重新整理
 
-如需詳細資訊，請參閱[重新整理建立自 OneDrive 上 Excel 活頁簿的資料集](refresh-excel-file-onedrive.md)。
+對於 Power BI 使用者，重新整理資料通常表示會根據重新整理排程或隨選從原始資料來源將資料匯入資料集。 您可以每天執行多次資料集重新整理，這在基礎來源資料經常變更的情況下為必要。 Power BI 限制共用容量的資料集每天可重新整理八次。 如果資料集位於 Premium 容量上，您每天可以執行最多 48 次重新整理。 如需詳細資訊，請參閱本文稍後的＜設定排程重新整理＞。
 
-### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive 或 SharePoint Online 上的逗點分隔值 (.csv) 檔案
+另請務必注意，每日重新整理限制對排程及隨選重新整理均適用。 您可以在 [資料集] 功能表中選取 [立即重新整理]  來觸發隨選重新整理，如下列螢幕擷取畫面所示。 您也可以使用 Power BI REST API，透過程式設計方式觸發資料重新整理。 如果您有興趣建置自己的重新整理解決方案，請參閱[資料集 - 重新整理資料集](/rest/api/power-bi/datasets/refreshdataset)。
 
-| **資料來源** | **自動重新整理** | **使用者設定的手動或排程重新整理** | **需要閘道** |
-| --- | --- | --- | --- |
-| 簡單的逗號分隔值 |是，小時 |僅手動 |否 |
-
-如需詳細資訊，請參閱[重新整理建立自 OneDrive 上逗點分隔值 (.csv) 檔案的資料集](refresh-csv-file-onedrive.md)。
-
-## <a name="content-packs"></a>內容套件
-Power BI 中的內容套件有兩種類型：
-
-**來自線上服務的內容套件**：例如 Adobe Analytics、SalesForce 和 Dynamics CRM Online。 從線上服務建立的資料集會每天自動重新整理一次。 雖然您可能不需要手動重新整理或設定重新整理排程，仍然可以選擇這麼做。 因為線上服務位於雲端，所以不需要閘道器。
-
-**組織的內容套件**：由您組織中的使用者建立與共用。 內容套件取用者無法設定重新整理排程或手動重新整理。 只有內容套件建立者可以為內容套件中的資料集設定重新整理。 重新整理設定會隨資料集繼承。
-
-### <a name="content-packs-from-online-services"></a>來自線上服務的內容套件
-
-| **資料來源** | **自動重新整理** | **使用者設定的手動或排程重新整理** | **需要閘道** |
-| --- | --- | --- | --- |
-| 位於 [取得資料] &gt;> [服務] 的線上服務 |是 |是 |否 |
-
-### <a name="organizational-content-packs"></a>組織的內容套件
-組織內容套件是否附有資料集的重新整理功能，取決於資料集。 請參閱上文與本機檔案、OneDrive 或 SharePoint Online 相關的資訊。
-
-如需深入了解，請參閱[組織的內容套件簡介](service-organizational-content-pack-introduction.md)。
-
-## <a name="live-connections-and-directquery-to-on-premises-data-sources"></a>內部部署資料來源的即時連線和 DirectQuery
-您可以透過內部部署資料閘道，從 Power BI 向您的內部部署資料來源發出查詢。 當您與視覺效果互動時，會將查詢從 Power BI 直接傳送到資料庫。 接著傳回更新的資料，視覺效果隨即更新。 因為 Power BI 和資料庫之間有直接連接，所以不需要排程重新整理。
-
-當連接到使用即時連接的 SQL Server Analysis Services (SSAS) 資料來源時，不像 DirectQuery，SSAS 來源的即時連接，即使在載入報表時都可以對快取執行。 此行為可改善報表的負載效能。 您可以使用 [重新整理]  按鈕向 SSAS 資料來源要求最新的資料。 SSAS 資料來源的擁有者可以設定資料集的排程快取重新整理頻率，以確保需要時能取得最新狀態的報表。 
-
-當您設定內部部署資料閘道的資料來源時，可以使用該資料來源當作排程的重新整理選項。 這就如同個人閘道器的替代方案。
+![立即重新重理](media/refresh-data/refresh-now.png)
 
 > [!NOTE]
-> 如果您的資料集設定為即時或 DirectQuery 連接，則會大約每小時或在與資料互動時重新整理資料集。 您可以在 Power BI 服務的 [排定的快取重新整理]  選項中，手動調整 [重新整理頻率]  。
-> 
-> 
+> 資料重新整理必須在 2 小時內完成。 如果您的資料集需要較長時間執行重新整理作業，請考慮將資料集移至 Premium 容量。 在 Premium，重新整理持續時間上限為 5 小時。
 
-| **資料來源** | **即時/DirectQuery** | **使用者設定的手動或排程重新整理** | **需要閘道** |
-| --- | --- | --- | --- |
-| Analysis Services 表格式 |是 |是 |是 |
-| Analysis Services 多維度 |是 |是 |是 |
-| SQL Server |是 |是 |是 |
-| SAP HANA |是 |是 |是 |
-| Oracle |是 |是 |是 |
-| Teradata |是 |是 |是 |
+#### <a name="onedrive-refresh"></a>OneDrive 重新整理
 
-若要深入了解，請參閱[內部部署資料閘道](service-gateway-onprem.md)
+如果您根據 Power BI Desktop 檔案、Excel 活頁簿或是 OneDrive 或 SharePoint Online 上的逗點分隔值 (.csv) 檔案建立資料集和報表，Power BI 會執行另一種類型的重新整理，稱為 OneDrive 重新整理。 如需詳細資訊，請參閱[針對 Power BI 從檔案取得資料](service-get-data-from-files.md)。
 
-## <a name="databases-in-the-cloud"></a>雲端資料庫
-使用 DirectQuery，在 Power BI 和雲端資料庫之間就會有直接連線。 當您與視覺效果互動時，會將查詢從 Power BI 直接傳送到資料庫。 接著傳回更新的資料，視覺效果隨即更新。 另外，因為 Power BI 服務和資料來源都位於雲端，所以不需要個人閘道。
+不同於資料集重新整理期間，Power BI 會從資料來源將資料匯入資料集，OneDrive 重新整理會將資料集和報表與其來源檔案進行同步。 根據預設，如果連接到 OneDrive 或 SharePoint Online 上檔案的資料集需要同步處理，Power BI 會大約每小時檢查一次。 若要檢閱過去的同步處理週期，請檢查 [重新整理記錄] 中的 [OneDrive] 索引標籤。 下列螢幕擷取畫面顯示範例資料集的同步處理週期已完成。
 
-如果視覺效果中沒有任何使用者互動，大約每小時即自動重新整理資料。 您可以使用 [排定的快取重新整理]  選項變更該重新整理頻率，然後設定重新整理頻率。
+![重新整理歷程記錄](media/refresh-data/refresh-history.png)
 
-若要設定頻率，請選取 Power BI 服務右上角的**齒輪**圖示，然後選取 [設定]  。
+如上方螢幕擷取畫面所示，Power BI 將此 OneDrive 重新整理識別為**排程**重新整理，但無法設定重新整理間隔。 您只能在資料集的設定中停用 OneDrive 重新整理。 如果您不希望 Power BI 中的資料集和報表自動從來源檔案選取任何變更，則停用重新整理會很有用。
 
-![](media/refresh-data/refresh-data_2.png)
+請注意，如果資料集連接到 OneDrive 或 SharePoint Online 中的檔案，資料集設定頁面只會顯示 [OneDrive 認證]  和 [OneDrive 重新整理]  區段，如下列螢幕擷取畫面所示。 未連接到 OneDrive 或 SharePoint Online 中來源檔案的資料集不會顯示這些區段。
 
-[設定]  頁面隨即出現，您可以在其中選取要調整頻率的資料集。 在該頁面上，選取上方的 [資料集]  索引標籤。
+![OneDrive 認證和 OneDrive 重新整理](media/refresh-data/onedrive-credentials-refresh.png)
 
-![](media/refresh-data/refresh-data_3.png)
+如果您停用資料集的 OneDrive 重新整理，您仍可視需要在 [資料集] 功能表中選取 [立即重新整理]  來同步資料集。 在隨選重新整理的過程中，Power BI 會檢查 OneDrive 或 SharePoint Online 上的來源檔案是否比 Power BI 中資料集更新；如果是，則會同步資料集。 [重新整理記錄]  會將這些活動列為 [OneDrive]  索引標籤上的隨選重新整理。
 
-選取資料集，您將會在右窗格中看到該資料集的選項集合。 針對 DirectQuery/即時連接，您可以使用相關下拉式功能表將重新整理頻率設定為 15 分鐘到每週，如下圖所示。
+請注意，OneDrive 重新整理不會從原始資料來源提取資料。 OneDrive 重新整理只會更新 Power BI 中其中繼資料和資料來自 .pbix、.xlsx 或 .csv 的資源，如下圖所示。 為了確保資料集包含資料來源中的最新資料，Power BI 也會在隨選重新整理的過程中觸發資料重新整理。 如果您切換為 [已排程]  索引標籤，則可以在 [重新整理記錄]  中驗證這點。
 
-![](media/refresh-data/refresh-data_1.png)
+![OneDrive 重新整理圖表](media/refresh-data/onedrive-refresh-diagram.png)
 
-| **資料來源** | **即時/DirectQuery** | **使用者設定的手動或排程重新整理** | **需要閘道** |
-| --- | --- | --- | --- |
-| SQL Azure 資料倉儲 |是 |是 |否 |
-| HDInsight 上的 Spark |是 |是 |否 |
+如果您針對連接到 OneDrive 或 SharePoint Online 的資料集保持啟用 OneDrive 重新整理，並想要根據排程執行資料重新整理，請務必設定排程，讓 Power BI 在 OneDrive 重新整理之後執行資料重新整理。 例如，如果您建立了自己的服務或程序，在每天晚上凌晨 1 點更新 OneDrive 或 SharePoint Online 中的來源檔案，您可以設定在凌晨 2:30 執行排程重新整理，讓 Power BI 有足夠的時間完成 OneDrive 重新整理，再開始資料重新整理。
 
-如需深入了解，請參閱 [Azure 和 Power BI](service-azure-and-power-bi.md)。
+#### <a name="refresh-of-query-caches"></a>查詢快取的重新整理
 
-## <a name="real-time-dashboards"></a>即時儀表板
-即時儀表板使用 Microsoft Power BI REST API 或 Microsoft 串流分析來確保資料皆為最新。 因為即時儀表板不需要使用者設定重新整理，所以不屬於此文章的範圍。
+如果您的資料集位於 Premium 容量上，您就可以藉由啟用查詢快取來改善任何相關聯報表和儀表板的效能，如下列螢幕擷取畫面所示。 查詢快取會指示 Premium 容量使用其本機快取服務來維護查詢結果，避免讓基礎資料來源計算這些結果。 如需詳細資訊，請參閱 [Power BI Premium 中的查詢快取](power-bi-query-caching.md)。
 
-| **資料來源** | **自動** | **使用者設定的手動或排程重新整理** | **需要閘道** |
-| --- | --- | --- | --- |
-| 使用 Power BI REST API 或 Microsoft 串流分析開發的自訂應用程式 |是，即時串流 |否 |否 |
+![查詢快取](media/refresh-data/query-caching.png)
+
+不過，在資料重新整理之後，先前快取的查詢結果將不再有效。 Power BI 會捨棄這些快取的結果，且必須加以重建。 基於這個理由，查詢快取可能不利於與您經常重新整理 (例如每天 48 次) 的資料集建立關聯的報表和儀表板。
+
+#### <a name="tile-refresh"></a>磚重新整理
+
+Power BI 會為儀表板上的每個磚視覺效果維護一個快取，並在資料變更時主動更新磚快取。 換句話說，磚重新整理會在資料重新整理之後自動發生。 這對排程及隨選重新整理作業均適用。 您也可以選取儀表板右上方的省略符號 (...)，然後選取 [重新整理儀表板磚]  ，以強制執行磚重新整理。
+
+![重新整理儀表板磚](media/refresh-data/refresh-dashboard-tiles.png)
+
+因為這會自動發生，所以您可以考慮在資料重新整理期間重新整理磚。 此外，您可能注意到重新整理持續時間會隨著磚數目增加。 磚重新整理額外負荷很可觀。
+
+根據預設，Power BI 會為每個磚維護一個快取，但如果您使用動態安全性根據使用者角色限制資料存取 (如 [Power BI 的資料列層級安全性 (RLS)](service-admin-rls.md) 一文中所述)，則 Power BI 必須為每個角色和每個磚維護一個快取。 磚快取數目會乘以角色數目。
+
+如果資料集使用即時連接來連接具有 RLS 的 Analysis Services 資料模型，則情況可能會變得更複雜，如[動態資料列層級安全性與 Analysis Services 表格式模型](desktop-tutorial-row-level-security-onprem-ssas-tabular.md)教學課程中所強調。 在此情況下，Power BI 必須為每個磚和每個曾經檢視儀表板的使用者維護及重新整理一個快取。 這類資料重新整理作業的磚重新整理部分通常會遠超過從來源擷取資料所需時間。 如需磚重新整理的詳細資訊，請參閱[磚錯誤進行疑難排解](refresh-troubleshooting-tile-errors.md)。
+
+#### <a name="refresh-of-report-visuals"></a>報表視覺效果的重新整理
+
+此重新整理程序較不重要，因為它只與 Analysis Services 的即時連接相關。 針對這些連接，Power BI 會快取報表視覺效果的最近狀態，因此當您再次檢視報表時，Power BI 不需要查詢 Analysis Services 表格式模型。 當您與報表互動時 (例如透過變更報表篩選)，Power BI 會查詢表格式模型並自動更新報表視覺效果。 如果您懷疑報表顯示過時資料，您也可以選取報表的 [重新整理] 按鈕來觸發所有報表視覺效果的重新整理，如下列螢幕擷取畫面所示。
+
+![重新整理報表視覺效果](media/refresh-data/refresh-report-visuals.png)
+
+## <a name="review-data-infrastructure-dependencies"></a>檢閱資料基礎結構相依性
+
+不論儲存模式為何，除非可存取基礎資料來源，否則資料重新整理可能會失敗。 有三個主要的資料存取案例：
+
+- 資料集使用位於內部部署的資料來源
+- 資料集使用雲端中的資料來源
+- 資料集使用來自內部部署和雲端來源的資料
+
+### <a name="connecting-to-on-premises-data-sources"></a>連接到內部部署資料來源
+
+如果您的資料集使用 Power BI 無法透過直接網路連線存取的資料來源，您必須設定此資料集的閘道連接，才能啟用重新整理排程或執行隨選資料重新整理。 如需資料閘道及其運作方式的詳細資訊，請參閱[什麼是內部部署的資料閘道？](service-gateway-getting-started.md)
+
+您有下列選項：
+
+- 選擇具有必要資料來源定義的企業資料閘道
+- 部署個人資料閘道
+
+> [!NOTE]
+> 您可以在[管理您的資料來源 - 匯入/已排程的重新整理](service-gateway-enterprise-manage-scheduled-refresh.md)一文中，找到需要資料閘道的資料來源類型清單。
+
+#### <a name="using-an-enterprise-data-gateway"></a>使用企業資料閘道
+
+Microsoft 建議使用企業資料閘道 (而不是個人閘道) 將資料集連接到內部部署資料來源。 請確定閘道已正確設定，這表示閘道必須具有最新的更新和所有必要的資料來源定義。 資料來源定義為 Power BI 提供指定來源的連接資訊，包括連接端點、驗證模式和認證。 如需管理閘道上資料來源的詳細資訊，請參閱[管理您的資料來源 - 匯入/已排程的重新整理](service-gateway-enterprise-manage-scheduled-refresh.md)。
+
+如果您是閘道管理員，將資料集連接到企業閘道會相當簡單。 透過管理員權限，您可以立即更新閘道，並視需要新增遺漏的資料來源。 事實上，您可以直接從資料集設定頁面，將遺漏的資料來源新增至閘道。 展開切換按鈕以檢視資料來源，然後選取 [新增至閘道]  連結，如下列螢幕擷取畫面所示。 如果您不是閘道管理員，請改用顯示的連絡資訊來傳送要求給閘道管理員，以便新增必要的資料來源定義。
+
+![新增至閘道](media/refresh-data/add-to-gateway.png)
+
+> [!NOTE]
+> 一個資料集只能使用一個閘道連接。 換句話說，您無法跨多個閘道連接存取內部部署資料來源。 因此，您必須將所有必要的資料來源定義新增至同一個閘道。
+
+#### <a name="deploying-a-personal-data-gateway"></a>部署個人資料閘道
+
+如果您沒有企業資料閘道存取權，且您是管理資料集的唯一人員，因此不需要與其他人共用資料來源，則可以在個人模式中部署資料閘道。 在 [閘道連接]  區段的 [您並未安裝任何個人閘道]  下，選取 [立即安裝]  。 個人資料閘道有幾項限制，如[內部部署資料閘道 (個人模式)](service-gateway-personal-mode.md) 中所述。
+
+不同於企業資料閘道，您不需要將資料來源定義新增至個人閘道。 相反地，您會透過使用資料集設定中的 [資料來源認證]  區段來管理資料來源設定，如下列螢幕擷取畫面所示。
+
+![設定閘道的資料來源認證](media/refresh-data/configure-data-source-credentials-gateway.png)
+
+> [!NOTE]
+> 個人資料閘道不支援 DirectQuery/LiveConnect 模式資料集。 資料集設定頁面可能會提示您安裝它，但如果您只有個人閘道，則無法設定閘道連接。 請確定您有支援這些資料集類型的企業資料閘道。
+
+### <a name="accessing-cloud-data-sources"></a>存取雲端資料來源
+
+如果 Power BI 可以建立來源的直接網路連線，則使用雲端資料來源 (例如 Azure SQL DB) 的資料集不需要資料閘道。 因此，您可以使用資料集設定中的 [資料來源認證]  區段，來管理這些資料來源的設定。 如下列螢幕擷取畫面所示，您不需要設定閘道連接。
+
+![設定資料來源認證且不使用閘道](media/refresh-data/configure-data-source-credentials.png)
+
+### <a name="accessing-on-premises-and-cloud-sources-in-the-same-source-query"></a>在同一個來源查詢中存取內部部署和雲端來源
+
+資料集可以從多個來源取得資料，且這些來源可以位於內部部署或雲端。 不過，一個資料集只能使用一個閘道連接，如稍早所述。 雖然雲端資料來源不一定需要閘道，但如果資料集在單一混搭查詢中連接到內部部署和雲端來源，則需要閘道。 在這種情況下，Power BI 也必須針對雲端資料來源使用閘道。 下圖說明這類資料集如何存取其資料來源。
+
+![雲端和內部部署資料來源](media/refresh-data/cloud-on-premises-data-sources-diagram.png)
+
+> [!NOTE]
+> 如果資料集使用個別混搭查詢來連接到內部部署和雲端來源，Power BI 會使用閘道連接來連接到內部部署來源，並使用直接網路連線來連接到雲端來源。 如果混搭查詢會合併或附加來自內部部署和雲端來源的資料，Power BI 會切換為閘道連接，即使是雲端來源也一樣。
+
+Power BI 資料集依賴 Power Query 存取並擷取來源資料。 下列交互式清單顯示一個基本的查詢範例，合併來自內部部署來源和雲端來源的資料。
+
+```
+Let
+
+    OnPremSource = Sql.Database("on-premises-db", "AdventureWorks"),
+
+    CloudSource = Sql.Databases("cloudsql.database.windows.net", "AdventureWorks"),
+
+    TableData1 = OnPremSource{[Schema="Sales",Item="Customer"]}[Data],
+
+    TableData2 = CloudSource {[Schema="Sales",Item="Customer"]}[Data],
+
+    MergedData = Table.NestedJoin(TableData1, {"BusinessEntityID"}, TableData2, {"BusinessEntityID"}, "MergedData", JoinKind.Inner)
+
+in
+
+    MergedData
+```
+
+您有兩個選項來設定資料閘道，以支援合併或附加來自內部部署和雲端來源的資料：
+
+- 除了內部部署資料來源，請將雲端來源的資料來源定義新增至資料閘道。
+- 啟用 [允許使用者的雲端資料來源透過此閘道叢集進行重新整理]  核取方塊。
+
+![透過閘道叢集重新整理](media/refresh-data/refresh-gateway-cluster.png)
+
+如果您啟用閘道設定中的 [允許使用者的雲端資料來源透過此閘道叢集進行重新整理]  核取方塊 (如上方螢幕擷取畫面所示)，Power BI 可以使用者在資料集設定中 [資料來源認證]  下為雲端來源定義的設定。 這可協助降低閘道設定額外負荷。 相反地，如果您想要更進一步控制閘道所建立的連接，則不應該啟用此核取方塊。 在此情況下，您必須針對每個想要支援的雲端來源，將明確資料來源定義新增至您的閘道。 您也可以啟用核取方塊，然後針對雲端來源，將明確的資料來源定義新增至閘道。 在此情況下，閘道會針對所有相符的來源使用資料來源定義。
+
+### <a name="configuring-query-parameters"></a>設定查詢參數
+
+您使用 Power Query 建立的交互式或 (M) 查詢可能會有不同的複雜度，從簡單步驟到參數化建構。 下列清單顯示一個簡單的交互式查詢範例，使用兩個參數 _SchemaName_ 和 _TableName_ 來存取 AdventureWorks 資料庫中的指定資料表。
+
+```
+let
+
+    Source = Sql.Database("SqlServer01", "AdventureWorks"),
+
+    TableData = Source{[Schema=SchemaName,Item=TableName]}[Data]
+
+in
+
+    TableData
+```
+
+> [!NOTE]
+> 只有匯入模式資料集支援查詢參數。 DirectQuery/LiveConnect 模式不支援查詢參數定義。
+
+為了確保參數化資料集存取正確資料，您必須在資料集設定中設定交互式查詢參數。 您也可以使用 [Power BI REST API](/rest/api/power-bi/datasets/updateparametersingroup)，透過程式設計方式更新參數。 下列螢幕擷取畫面顯示使用者介面，為使用上述交互式查詢的資料集設定查詢參數。
+
+![設定查詢參數](media/refresh-data/configure-query-parameters.png)
+
+> [!NOTE]
+> Power BI 目前不支援參數化資料來源定義，也稱為動態資料來源。 例如，您無法將資料存取函式 Sql.Database("SqlServer01", "AdventureWorks") 參數化。 如果您的資料集依賴動態資料來源，則 Power BI 會通知您偵測到未知或不支援的資料來源。 如果您希望 Power BI 能夠識別並連接到資料來源，您必須以靜態值取代資料存取函式中的參數。 如需詳細資訊，請參閱[針對不支援重新整理的資料來源進行疑難排解](service-admin-troubleshoot-unsupported-data-source-for-refresh.md)。
 
 ## <a name="configure-scheduled-refresh"></a>設定排程的重新整理
-若要了解如何設定排程的重新整理，請參閱[設定排程的重新整理](refresh-scheduled-refresh.md)。
 
-## <a name="common-data-refresh-scenarios"></a>資料重新整理常見案例
-有時候，要了解 Power BI 中資料重新整理的最好方式就是查看範例。 以下是部份較常見的資料重新整理案例：
+在 Power BI 與您的資料來源之間建立連接，是設定資料重新整理方面到目前為止最具挑戰性的工作。 其餘步驟則相當簡單，包括設定重新整理排程和啟用重新整理失敗通知。 如需逐步指示，請參閱[設定排程重新整理](refresh-scheduled-refresh.md)操作指南。
 
-### <a name="excel-workbook-with-tables-of-data"></a>具有資料表的 Excel 活頁簿
-您的 Excel 活頁簿有多個資料表，但皆未載入 Excel 資料模型中。 您使用 [取得資料] 從本機磁碟將活頁簿檔案上傳到 Power BI 並建立儀表板。 但是，您對本機磁碟上活頁簿的多個資料表進行了些許變更，並且想要以新資料更新 Power BI 中的儀表板。
+### <a name="setting-a-refresh-schedule"></a>設定重新整理排程
 
-不幸的是，在此案例中，重新整理不受支援。 為了重新整理儀表板的資料集，您必須重新上傳活頁簿。 不過，還有很棒的解決方案：將您的活頁簿檔案放到 OneDrive 或 SharePoint Online！
+[排程重新整理]  區段可讓您定義資料集重新整理的頻率和時段。 如稍早所述，如果您的資料集在共用容量，您可以設定最多每天八個時段；如果在 Power BI Premium，則可以設定 48 個時段。 下列螢幕擷取畫面顯示十二個小時間隔的重新整理排程。
 
-當您連接到 OneDrive 或 SharePoint Online 上的檔案時，報表和儀表板會依據資料在檔案中的原樣加以顯示。 在此情況下即為您的 Excel 活頁簿。 Power BI 會每小時自動檢查檔案是否更新。 如果您對活頁簿 (存放於 OneDrive 或 SharePoint Online) 進行變更，這些變更會在一小時內反映於您的儀表板和報表中。 您完全不需要設定重新整理。 然而，如果您需要立即在 Power BI 中查看更新，可以使用 [立即重新整理] 手動重新整理資料集。
+![設定排程的重新整理](media/refresh-data/configure-scheduled-refresh.png)
 
-若要深入了解，請參閱 [Power BI 中的 Excel 資料](service-excel-workbook-files.md)或[重新整理建立自 OneDrive 上 Excel 活頁簿的資料集](refresh-excel-file-onedrive.md)。
+設定重新整理排程之後，資料集設定頁面會通知您下次重新整理時間，如上方螢幕擷取畫面所示。 如果您想要更快重新整理資料 (例如若要測試閘道和資料來源設定)，請在左側瀏覽窗格的 [資料集] 功能表中使用 [立即重新整理] 選項來執行隨選重新整理。 隨選重新整理不會影響下次排程重新整理時間，但會計入每日重新整理限制，如本文稍早所述。
 
-### <a name="excel-workbook-connects-to-a-sql-database-in-your-company"></a>連接到您公司中 SQL 資料庫的 Excel 活頁簿
-假設您在本機電腦上有個名為 SalesReport.xlsx 的 Excel 活頁簿。 Excel 中的 Power Query 是用以連接到公司中伺服器的 SQL 資料庫，以及查詢載入資料模型中的銷售資料。 每天早上，您都會開啟活頁簿，並點擊 [重新整理] 更新您的 PivotTables。
-
-現在您想要在 Power BI 中瀏覽銷售資料，因此使用 [取得資料] 從本機磁碟連接及上傳 SalesReport.xlsx 活頁簿。
-
-在此情況下，您可以手動重新整理 SalesReport.xlsx 資料集內的資料，或設定重新整理排程。 因為資料實際上是來自您公司的 SQL 資料庫，所以您必須下載及安裝閘道器。 一旦安裝並設定閘道後，您就必須前往 SalesReport 資料集的設定，並登入資料來源；但您只需要執行此動作一次。 您接著可以設定重新整理排程，以便 Power BI 自動連接到 SQL 資料庫並取得更新的資料。 您的報表和儀表板也將自動更新。
+另請注意，已設定重新整理時間可能不是 Power BI 開始下一個排程程序的確切時間。 Power BI 會盡可能準時開始排程重新整理。 目標是在排程時段 15 分鐘內重新整理，但如果服務無法及時配置所需的資源，則最多會延遲一小時。
 
 > [!NOTE]
-> 這只會更新 Power BI 服務中的資料集資料。 本機檔案不會作為重新整理的一部分進行更新。
-> 
-> 
+> Power BI 會在連續失敗四次之後，或在服務偵測到無法復原的錯誤而需要設定更新時 (例如認證無效或已過期)，停用您的重新整理排程。 您無法變更連續失敗閾值。
 
-若要深入了解，請參閱 [Power BI 中的 Excel 資料](service-excel-workbook-files.md)、[Power BI Gateway - Personal](service-gateway-personal-mode.md)、[內部部署資料閘道](service-gateway-onprem.md)、[重新整理建立自本機磁碟上 Excel 活頁簿的資料集](refresh-excel-file-local-drive.md)。
+### <a name="getting-refresh-failure-notifications"></a>取得重新整理失敗通知
 
-### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>包含來自 OData 摘要之資訊的 Power BI Desktop 檔案
-在此情況下，您可在 Power BI Desktop 中使用 [取得資料] 連接及匯入來自 OData 摘要的人口普查資料。  您在 Power BI Desktop 中建立數個報表，然後將檔案命名為 WACensus，並儲存在電腦中的共用。 接著將檔案發佈到 Power BI 服務。
+根據預設，Power BI 會透過電子郵件傳送重新整理失敗通知給資料集擁有者，讓擁有者可以在發生重新整理問題時及時採取動作。 當服務因為連續失敗而停用您的排程時，Power BI 也會傳送通知給您。 Microsoft 建議您保持啟用 [傳送重新整理失敗通知電子郵件給我]  核取方塊。
 
-在此情況下，您可以手動重新整理 WACensus 資料集內的資料或設定重新整理排程。 因為資料實際上是來自線上 OData 摘要，所以您不需要安裝閘道器，但必須前往 WACensus 資料集的設定並登入 OData 資料來源。 您接著可以設定重新整理排程，以便 Power BI 自動連接到 OData 摘要，並取得更新的資料。 您的報表和儀表板也將自動更新。
+請注意，Power BI 不只會在重新整理失敗時，也會在服務因為處於非使用狀態而暫停排程重新整理時傳送通知。 兩個月後，當沒有使用者瀏覽以資料集建置的任何儀表板或報表時，Power BI 會將資料集視為非使用中。 在此情況下，Power BI 會傳送電子郵件訊息給資料集擁有者，指出服務已停用資料集的重新整理排程。 如需這類通知的範例，請參閱下列螢幕擷取畫面。
 
-如需深入了解，請參閱[從 Power BI Desktop 發佈](desktop-upload-desktop-files.md)、[重新整理建立自本機磁碟上 Power BI Desktop 檔案的資料集](refresh-desktop-file-local-drive.md)、[重新整理建立自 OneDrive 上 Power BI Desktop 檔案的資料集](refresh-desktop-file-onedrive.md)。
+![重新整理已暫停的電子郵件](media/refresh-data/email-paused-refresh.png)
 
-### <a name="shared-content-pack-from-another-user-in-your-organization"></a>來自組織中另一位使用者的共用內容套件
-您已連接到組織的內容套件。 其中包含儀表板、多個報表和資料集。
+若要繼續排程重新整理，請瀏覽使用此資料集建置的報表或儀表板，或是使用 [立即重新整理]  選項手動重新整理資料集。
 
-在此案例中，您無法為資料集設定重新整理。 建立內容套件的數據分析師必須確認資料集已經依據所用的資料來源重新整理。
+### <a name="checking-refresh-status-and-history"></a>檢查重新整理狀態和記錄
 
-如果來自內容套件的儀表板和報表未更新，您將告知建立內容套件的數據分析師。
+除了失敗通知，定期檢查您資料集中是否有重新整理錯誤也是很好的方法。 一個快速方式是檢視工作區中的資料集清單。 有錯誤的資料集會顯示一個小型警告圖示。 選取警告圖示以取得其他資訊，如下列螢幕擷取畫面所示。 如需為特定重新整理錯誤進行疑難排解的詳細資訊，請參閱[重新整理案例進行疑難排解](refresh-troubleshooting-refresh-scenarios.md)。
 
-如需深入了解，請參閱[組織的內容套件簡介](service-organizational-content-pack-introduction.md)、[使用組織的內容套件](service-organizational-content-pack-copy-refresh-access.md)。
+![重新整理狀態警告](media/refresh-data/refresh-status-warning.png)
 
-### <a name="content-pack-from-an-online-service-provider-like-salesforce"></a>來自 Salesforce 等線上服務提供者的內容套件
-過去在 Power BI 中，您使用 [取得資料] 從 Salesforce 等線上服務提供者連接並匯入資料。 嗯，其實沒什麼該做的動作。 您的 Salesforce 資料集已自動排程為每天重新整理一次。 
+警告圖示有助於指出目前的資料集問題，但不時檢查重新整理記錄也是很好的方法。 如名稱所指，重新整理記錄可讓您檢閱過去同步處理週期的成功或失敗狀態。 例如，閘道管理員可能已更新一組過期的資料庫認證。 如下列螢幕擷取畫面所示，重新整理記錄顯示受影響的重新整理何時重新開始運作。
 
-如同大部分的線上服務提供者，Salesforce 會一天更新一次資料，時間通常在晚上。 您可以手動重新整理您的 Salesforce 資料集，或設定重新整理排程，但不一定要這麼做，因為 Power BI 會自動重新整理資料集，您的報表與儀表板也會同時更新。
+![重新整理記錄訊息](media/refresh-data/refresh-history-messages.png)
 
-如需深入了解，請參閱[適用於 Power BI 的 Salesforce 內容套件](service-connect-to-salesforce.md)。
+> [!NOTE]
+> 您可以在資料集設定中找到顯示重新整理記錄的連結。 您也可以使用 [Power BI REST API](/rest/api/power-bi/datasets/getrefreshhistoryingroup)，透過程式設計方式擷取重新整理記錄。 透過使用自訂解決方案，您可以集中監視多個資料集的重新整理記錄。
 
-## <a name="troubleshooting"></a>疑難排解
-如果發生錯誤，問題通常起因於 Power BI 無法登入資料來源，或資料集連接至內部部署資料來源時，閘道器為離線。 請確認 Power BI 可以登入資料來源。 如果您用以登入資料來源的密碼已變更，或 Power BI 從資料來源登出，請務必嘗試在 [資料來源認證] 中再次登入您的資料來源。
+## <a name="best-practices"></a>最佳作法
 
-如需疑難排解的詳細資料，請參閱[為重新整理問題疑難排解的工具](service-gateway-onprem-tshoot.md)和[疑難排解重新整理案例](refresh-troubleshooting-refresh-scenarios.md)。
+定期檢查資料集的重新整理記錄，是您可以採用來確保報表和儀表板使用目前資料的最重要最佳做法之一。 如果您發現問題時，請立即加以解決，並在必要時連絡資料來源擁有者和閘道管理員。
+
+此外，請考慮下列建議來為您的資料集建立和維護可靠的資料重新整理程序：
+
+- 排程在較空閒的時間重新整理，特別是您的資料集在 Power BI Premium 時。 如果您將資料集的重新整理週期分散到更廣泛的時間範圍，則可以協助避免可能造成可用資源負擔過重的尖峰。 延遲開始重新整理週期是資源超載的指標。 如果 Premium 容量已完全耗盡，Power BI 可能甚至會略過重新整理週期。
+- 請注意重新整理限制。 如果來源資料經常變更或資料量很大，且在來源增加的負載與對查詢效能造成的影響可接受，請考慮使用 DirectQuery/LiveConnect 模式，而不是匯入模式。 避免經常重新整理匯入模式資料集。 不過，DirectQuery/LiveConnect 模式有幾項限制，例如傳回資料有一百萬個資料列限制及執行查詢有 225 秒回應時間限制，如[在 Power BI Desktop 中使用 DirectQuery](desktop-use-directquery.md) 中所述。 這些限制可能仍會要求您使用匯入模式。 針對非常大的資料量，請考慮使用 [Power BI 中的彙總](desktop-aggregations.md)。
+- 確認您的資料集重新整理時間不超過重新整理持續時間上限。 使用 Power BI Desktop 來檢查重新整理持續時間。 如果需要超過 2 小時，請考慮將您的資料集移至 Power BI Premium。 您的資料集在共用容量可能無法重新整理。 另請考慮對大於 1GB 或重新整理需要數小時之資料集使用 [Power BI Premium 中的累加式重新整理](service-premium-incremental-refresh.md)。
+- 將您的資料集最佳化，僅包含您的報表和儀表板所使用資料表和資料行。 盡可能將您的交互式最佳化查詢最佳化，以避免動態資料來源定義和昂貴的 DAX 計算。 特別是避免測試資料表中每個資料列的 DAX 函式，因為這會造成高記憶體耗用量和處理額外負荷。
+- 套用與 Power BI Desktop 相同的隱私權設定，以確保 Power BI 可產生有效率的來源查詢。 請注意，Power BI Desktop 不會發佈隱私權設定。 您必須在發佈資料集之後，手動重新套用資料來源定義中的設定。
+- 限制您儀表板上的視覺效果數目，特別是使用[資料列層級安全性 (RLS)](service-admin-rls.md) 時。 如本文稍早所述，過多的儀表板磚可能會大幅增加重新整理持續時間。
+- 使用可靠的企業資料閘道部署，以將您的資料集連接到內部部署資料來源。 如果您注意到與閘道相關的重新整理失敗 (例如閘道無法使用或超載)，請連絡閘道管理員以將其他閘道新增至現有的叢集，或部署新的叢集 (相應增加與向外延展)。
+- 針對匯入資料集和 DirectQuery/LiveConnect 資料集使用個別資料閘道，讓排程重新整理期間的資料匯入不會影響 DirectQuery/LiveConnect 資料集上的報表和儀表板效能，這類資料集會在每次與使用者互動時查詢資料來源。
+- 確保 Power BI 可以將重新整理失敗通知傳送至您的信箱。 垃圾郵件篩選可能會封鎖電子郵件訊息或將其移至其他資料夾，而導致您可能不會立即注意到。
 
 ## <a name="next-steps"></a>後續步驟
+
+[設定排定的重新整理](refresh-scheduled-refresh.md)  
 [對重新整理問題進行疑難排解的工具](service-gateway-onprem-tshoot.md)  
 [對重新整理進行疑難排解的案例](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[On-premises data gateway (內部部署資料閘道)](service-gateway-onprem.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
-
