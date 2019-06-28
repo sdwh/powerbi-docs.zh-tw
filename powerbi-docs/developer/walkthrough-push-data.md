@@ -106,9 +106,9 @@ Sales Marketing 資料集範例中，您會傳遞 JSON 字串，如下所示。 
 | --- | --- |
 | Int64 |不允許 Int64.MaxValue 和 Int64.MinValue。 |
 | Double |不允許 Double.MaxValue 和 Double.MinValue 值。 不支援 NaN。 + Infinity 和-Infinity 不支援某些函式 (例如 Min、 Max)。 |
-| 布林值 |無 |
+| Boolean |無 |
 | Datetime |資料載入，使用以 1/300 秒 （3.33 毫秒） 的整數倍數的一天時間分數將值量化。 |
-| 字串 |目前允許最多可有 128 個字元。 |
+| String |目前允許最多可有 128 個字元。 |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>深入了解如何將資料推送至 Power BI
 
