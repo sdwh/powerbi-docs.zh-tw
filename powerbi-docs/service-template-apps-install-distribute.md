@@ -1,22 +1,22 @@
 ---
-title: 在您的組織中散發範本應用程式 - Power BI (預覽)
+title: 在您的組織中散發範本應用程式 - Power BI
 description: 了解如何在 Power BI 中於您的組織內安裝、自訂和散發範本應用程式。
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/19/2019
-ms.author: maggies
-ms.openlocfilehash: 0671dfb324b3d66a9dee9585f94d3cb6825fb5eb
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/10/2019
+ms.author: tebercov
+ms.openlocfilehash: 158345c44f8801a98e19dcd9b4c7dde14aa6126b
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751246"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264522"
 ---
-# <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>在您的組織中散發範本應用程式 - Power BI (預覽)
+# <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>在您的組織中散發範本應用程式 - Power BI
 
 您是 Power BI 分析員嗎？ 如果是，本文說明如何安裝「範本應用程式」  ，以連線到執行業務所用的多個服務，例如 Salesforce、Microsoft Dynamics 和 Google Analytics。 您可以修改儀表板和報表來滿足組織需求，然後以「應用程式」  的形式散發給同事。 
 
@@ -55,14 +55,13 @@ ms.locfileid: "66751246"
 
 3. 瀏覽或搜尋應用程式，然後選取 [立即取得]  。
 
-2. 在對話方塊中，選取 [安裝]  。
+4. 在對話方塊中，選取 [安裝]  。
 
-    如果您有 Power BI Pro 授權，那麼應用程式會安裝到與其相關的應用程式工作區內。 您在相關工作區內自訂應用程式。
+    ![安裝應用程式](media/service-template-apps-install-distribute/power-install-dialog.png) 如果您有 Power BI Pro 授權，那麼應用程式會安裝到與其相關的應用程式工作區內。 您在相關工作區內自訂應用程式。
 
-    安裝成功後，您會看到新應用程式已就緒的通知。 
-
-3. 選取 [前往應用程式]  。
-4. 在 [Get started with your new app]  \(開始使用您的新應用程式\) 中選取三個選項的其中一個：
+    安裝成功後，您會看到新應用程式已就緒的通知。
+4. 選取 [前往應用程式]  。
+5. 在 [Get started with your new app]  \(開始使用您的新應用程式\) 中選取三個選項的其中一個：
 
     ![開始使用您的新應用程式](media/service-template-apps-create/power-bi-template-app-get-started.png)
 
@@ -70,13 +69,22 @@ ms.locfileid: "66751246"
     - **Connect Data** (將資料連線)：將資料來源從範例資料變更為您自己的資料來源。 您可以重新定義資料集參數和資料來源認證。 請參閱範本應用程式提示主題中的 [Known limitations](service-template-apps-tips.md#known-limitations) (已知限制)。 
     - **Go to workspace** (前往工作區) (最進階的選項)：您可以進行應用程式建置者允許的所有變更。
 
-    您也可以跳過此對話方塊，並透過左側瀏覽窗格中的 [工作區]  直接存取相關工作區。   
+    您也可以跳過此對話方塊，並透過左側瀏覽窗格中的 [工作區]  直接存取相關工作區。
+    >[!NOTE]
+    >安裝範本應用程式同時會安裝為「組織應用程式」  與「應用程式工作區」  。 深入了解如何[在 Power BI 中散發應用程式](service-create-distribute-apps.md)。
  
-5. 建議您先連線至自己的資料，再將其與同事共用。 此外也建議您修改報表或儀表板，以使其適用於您的組織。 您也可以在這個時候新增其他報表或儀表板。
+6. 建議您先連線至自己的資料，再將其與同事共用。 此外也建議您修改報表或儀表板，以使其適用於您的組織。 您也可以在這個時候新增其他報表或儀表板。
+
+   若您選取未列於 AppSource 上之應用程式的安裝連結，您將會看到驗證對話方塊要求您確認您的選擇。
+
+   ![安裝應用程式](media/service-template-apps-install-distribute/power-install-unvalidated-dialog.png)
+
+   >[!NOTE]
+   >若要安裝未列於 AppSource 上的範本應用程式，您必須向您的系統管理員要求權限。 如需詳細資料，請參閱 Power BI [管理入口網站、範本應用程式設定](service-admin-portal.md#template-apps-settings)。
 
 ## <a name="update-and-distribute-the-app"></a>更新和散發應用程式
 
-當您為組織更新應用程式後，就能準備加以發佈。 這些步驟就和發佈任何其他應用程式一樣。 
+當您為組織更新應用程式後，就能準備加以發佈。 這些步驟就和發佈任何其他應用程式一樣。
 
 1. 當您完成自訂後，請於工作區清單檢視的右上角選取 [更新應用程式]  。  
 

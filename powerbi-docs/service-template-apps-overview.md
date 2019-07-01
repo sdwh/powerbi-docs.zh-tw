@@ -1,22 +1,22 @@
 ---
-title: 什麼是 Power BI 範本應用程式？ (預覽)
+title: 什麼是 Power BI 範本應用程式？
 description: 本文為 Power BI 範本應用程式的概觀。 了解如何撰寫少量程式碼或不需撰寫程式碼，即可建置 Power BI 應用程式，並將應用程式部署至所有 Power BI 客戶。
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/26/2019
-ms.author: maggies
-ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/24/2019
+ms.author: tebercov
+ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751097"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408224"
 ---
-# <a name="what-are-power-bi-template-apps-preview"></a>什麼是 Power BI 範本應用程式？ (預覽)
+# <a name="what-are-power-bi-template-apps"></a>什麼是 Power BI 範本應用程式？
 
 新的 Power BI「範本應用程式」  讓 Power BI 合作夥伴撰寫少量程式碼或不用撰寫程式碼，即可建置 Power BI 應用程式，再將應用程式部署至所有 Power BI 客戶。  本文為 Power BI 範本應用程式的概觀。
 
@@ -37,7 +37,7 @@ ms.locfileid: "66751097"
 | **Three** | |  | 將測試套件升至生產階段前，以在您的 Power BI 租用戶外進行驗證，並提交至 AppSource  |  | 使用您的生產階段前套件，建立 Power BI 範本應用程式供應項目並啟動驗證程序 |
 | **Four** | |  | 將生產階段前套件升至生產階段 |  | 正式運作 |
 
-## <a name="requirements"></a>需求
+## <a name="before-you-begin"></a>開始之前
 
 若要建立範本應用程式，您需有建立權限。 如需詳細資料，請參閱 Power BI 管理入口網站、範本應用程式設定。 
 
@@ -57,7 +57,7 @@ ms.locfileid: "66751097"
 
 1. 建立測試套件，以在您的組織內親自測試範本應用程式。 
 
-1. 將測試應用程式升至生產階段前，以提交該應用程式至 AppSource 進行驗證，以及在您自己的租用戶外測試。 
+1. 將測試應用程式提升至生產階段前，以提交該應用程式至 AppSource 進行驗證，以及在您自己的租用戶外測試。 
 
 1. 將內容提交至雲端合作夥伴平台以發佈。 
 
@@ -66,9 +66,11 @@ ms.locfileid: "66751097"
 
 ## <a name="requirements"></a>需求
 
-若要建立範本應用程式，您需有建立權限。 如需詳細資料，請參閱 Power BI [管理入口網站、範本應用程式設定](service-admin-portal.md#template-apps-settings-preview)。 
+若要建立範本應用程式，您需有建立權限。 如需詳細資料，請參閱 Power BI [管理入口網站、範本應用程式設定](service-admin-portal.md#template-apps-settings)。 
 
 若要將範本應用程式發佈至 Power BI 服務及 AppSource，您必須符合[成為雲端市集發行者](https://docs.microsoft.com/azure/marketplace/become-publisher)的需求。
+ > [!NOTE] 
+ > 範本應用程式提交是在 [Cloud Partner 入口網站](https://cloudpartner.azure.com)中管理的。 使用相同的 Microsoft 開發人員中心註冊帳戶來登入。 您應該只有一個 AppSource 供應項目的 Microsoft 帳戶。 帳戶不應該適用於個別服務或供應項目。
 
 ## <a name="tips"></a>祕訣 
 
@@ -78,7 +80,7 @@ ms.locfileid: "66751097"
 - 考慮針對個別特殊情況提供多個範本應用程式。 
 - 啟用資料自訂，例如支援透過安裝程式設定自訂連線及參數。
 
-如需更多建議，請參閱[在 Power BI 中撰寫範本應用程式的提示 (預覽)](service-template-apps-tips.md)。
+如需更多建議，請參閱[在 Power BI 中撰寫範本應用程式的提示](service-template-apps-tips.md)。
 
 ## <a name="support"></a>支援
 如需在開發期間的支援，請使用 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)。 我們會主動監視及管理這個網站。 讓適當的小組可快速開始處理客戶事件。

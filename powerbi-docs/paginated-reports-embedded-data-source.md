@@ -9,18 +9,20 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 7b687fd67f844e000811ae00a53772ab9403ab90
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3dcc8211f6752d272d550dfaff343374866187c9
+ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66838936"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "67345488"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料來源
 
 在此文章中，您會了解如何在 Power BI 服務中建立及修改適用於編頁報表的內嵌資料來源。 您會在單一報表中定義內嵌資料來源，並將它僅用於該報表中。 目前，發行至 Power BI 服務的編頁報表需要內嵌的資料集和內嵌的資料來源，且可以連線到這些資料來源：
 
-- Azure SQL Database 和資料倉儲
+- Azure Analysis Services
+- Azure SQL Database 與 
+- Azure SQL 資料倉儲
 - SQL Server
 - SQL Server Analysis Services
 - Oracle 
@@ -28,7 +30,6 @@ ms.locfileid: "66838936"
 
 針對下列資料來源，使用 [SQL Server Analysis Services 連線](service-premium-connect-tools.md)選項：
 
-- Azure Analysis Services
 - Power BI Premium 資料集
 
 分頁報表會透過 [Power BI 閘道](service-gateway-getting-started.md)連線至內部部署資料來源。 您會在將報表發行至 Power BI 服務之後設定閘道。
@@ -66,6 +67,30 @@ ms.locfileid: "66838936"
 5.  選取 [確定]  。  
   
      資料來源會出現在 [報表資料] 窗格中。  
+     
+## <a name="limitations-and-considerations"></a>限制與考量
+
+連線到 Power BI 資料集的已編頁報表遵循 Power BI 中共用資料集的規則，但有一些微幅變更。  為讓使用者正確地檢視使用 Power BI 資料集的已編頁報表，並確定資料列層級安全性 (RLS) 已啟用且已針對您的強制套用，請確定您依照這些規則執行：
+
+### <a name="classic-apps-and-app-workspaces"></a>傳統應用程式與應用程式工作區
+
+- 與資料集相同之工作區中的 .rdl (相同擁有者)：支援
+- 與資料集不同之工作區中的 .rdl (相同擁有者)：支援
+- 共用 .rdl：您必須為在資料集層級檢視報表的每個使用者指派建置權限
+- 共用應用程式：您必須為在資料集層級檢視報表的每個使用者指派建置權限
+- 與資料集相同之工作區中的 .rdl (不同使用者)：支援
+- 與資料集不同之工作區中的 .rdl (不同使用者)：您必須為在資料集層級檢視報表的每個使用者指派建置權限
+- 資料列層級安全性：您必須為在資料集層級檢視報表的每個使用者指派建置權限以加以強制套用。
+
+### <a name="new-experience-apps-and-app-workspaces"></a>新體驗應用程式與應用程式工作區
+
+- 與資料集相同之工作區中的 .rdl：支援
+- 與資料集不同之工作區中的 .rdl (相同擁有者)：支援
+- 共用 .rdl：您必須為在資料集層級檢視報表的每個使用者指派建置權限
+- 共用應用程式：您必須為在資料集層級檢視報表的每個使用者指派建置權限
+- 與資料集相同之工作區中的 .rdl (不同使用者) - 支援
+- 與資料集不同之工作區中的 .rdl (不同使用者)：您必須為在資料集層級檢視報表的每個使用者指派建置權限
+- 資料列層級安全性：您必須為在資料集層級檢視報表的每個使用者指派建置權限以加以強制套用
 
 ## <a name="next-steps"></a>後續步驟
 

@@ -417,50 +417,46 @@
           href: service-whats-new.md
         - name: 基本概念
           items:
-            - name: 設計工具的基本概念
+            - name: 了解 Power BI 服務
               href: service-basic-concepts.md
-            - name: Power BI 中的資料種類
-              href: service-get-data.md
             - name: 報表編輯器導覽
               href: service-the-report-editor-take-a-tour.md
-        - name: Power BI 中的工作流程
+            - name: Power BI 資料來源
+              href: service-get-data.md
+            - name: Power BI 的資料重新整理
+              href: refresh-data.md
+        - name: 在 Power BI 中共同作業
           items:
             - name: 安排您的工作
               href: service-new-workspaces.md
-            - name: 共用成品的方式
+            - name: 分享您的成果
               href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: 讓資料保持在最新狀態
-              href: refresh-data.md
-            - name: 監視使用方式
+            - name: 監視 Power BI 使用方式
               href: service-usage-metrics.md
         - name: 授權
           items:
-            - name: 自助式註冊
+            - name: 註冊 Power BI
               href: service-self-service-signup-for-power-bi.md
-            - name: 組織中的授權
+            - name: 管理 Power BI 授權
               href: service-admin-licensing-organization.md
             - name: 依授權類型排列的功能
               href: service-features-license-type.md
-        - name: 其他概念
+            - name: 美國政府適用的 Power BI
+              href: service-govus-overview.md
+            - name: 德國雲端客戶的常見問題集
+              href: service-govde-faq.md
+        - name: 取得協助及支援
           items:
-            - name: 10 個祕訣協助您取得說明
-              href: service-tips-for-finding-help.md
             - name: Power BI 支援選項
               href: service-support-options.md
-            - name: 授權特殊案例
-              items:
-                - name: 延長的 Pro 試用開跑
-                  href: service-extended-pro-trial.md
-                - name: 美國政府適用的 Power BI
-                  href: service-govus-overview.md
-                - name: 德國雲端客戶的常見問題集
-                  href: service-govde-faq.md
-            - name: 其他
-              items:
-                - name: Microsoft Flow 和 Power BI
-                  href: service-flow-integration.md
-                - name: 開始使用協力廠商應用程式
-                  href: service-power-bi-get-started-third-party-apps.md
+            - name: 協助您取得協助的十個祕訣
+              href: service-tips-for-finding-help.md
+        - name: 擴充 Power BI
+          items:
+            - name: Microsoft Flow 和 Power BI
+              href: service-flow-integration.md
+            - name: 使用協力廠商應用程式
+              href: service-power-bi-get-started-third-party-apps.md
     - name: 如何
       items:
         - name: 從檔案取得資料
@@ -859,14 +855,12 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 移除內容套件的連接
                   href: service-organizational-content-pack-disconnect.md
+        - name: 參考
+          items:
+            - name: 支援的語言和國家 (地區)
+          href: supported-languages-countries-regions.md
     - name: 資源
       items:
-        - name: 影片
-          href: videos.md
-        - name: 網路研討會
-          href: webinars.md
-        - name: 支援的語言和國家 (地區)
-          href: supported-languages-countries-regions.md
         - name: 白皮書
           items:
             - name: 白皮書概觀
@@ -877,6 +871,10 @@
               href: whitepaper-powerbi-premium-deployment.md
             - name: 使用 Azure Active Directory B2B 在外部散發 Power BI
               href: whitepaper-azure-b2b-power-bi.md
+        - name: 影片
+          href: videos.md
+        - name: 網路研討會
+          href: webinars.md
 - name: Power BI Premium
   items:
     - name: 概觀

@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2fa8fa5248ee1e4330804205b2cedb64021b1913
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
+ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839816"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "67299336"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI 中的區域分布圖 (分區著色圖)
 區域分布圖使用陰影、濃淡或圖樣，顯示值的比例如何隨著地理位置或地區而有所不同。  可使用範圍介於淺色 (較不常見/較低) 到深色 (較常見/較多) 的陰影，快速顯示這些相對差異。    
@@ -70,10 +70,10 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 1. 從 [欄位] 窗格中，選取 [地理]  \> [州]  欄位。    
 
    ![[狀態] 旁的黃色核取記號](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
-5. [將圖表轉換](power-bi-report-change-visualization-type.md)成區域分布圖。 請注意，[州]  現在處於 [位置]  部分。 Bing 地圖服務會使用 [位置]  部分中的欄位來建立地圖。  此位置可以是各種不同的有效位置：國家/地區、州、縣市、城市、郵遞區號或其他郵遞區號等。Bing 地圖服務提供世界各地位置的區域分布圖。 如果 [位置] 部分沒有有效項目，Power BI 就不能建立區域分布圖。  
+2. [將圖表轉換](power-bi-report-change-visualization-type.md)成區域分布圖。 請注意，[州]  現在處於 [位置]  部分。 Bing 地圖服務會使用 [位置]  部分中的欄位來建立地圖。  此位置可以是各種不同的有效位置：國家/地區、州、縣市、城市、郵遞區號或其他郵遞區號等。Bing 地圖服務提供世界各地位置的區域分布圖。 如果 [位置] 部分沒有有效項目，Power BI 就不能建立區域分布圖。  
 
    ![已醒目提示區域分布圖圖示的範本](media/power-bi-visualization-filled-maps-choropleths/img003.png)
-6. 篩選地圖，只顯示美國本土。
+3. 篩選地圖，只顯示美國本土。
 
    a.  在 [視覺效果] 窗格底部尋找 [篩選]  區域。
 
@@ -83,21 +83,24 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
    c.  在 [全部]  旁邊放置一個核取記號，然後移除 [AK]  旁邊的核取記號。
 
    ![未選取 [全部] 和 [AK] 的 [狀態] 下拉式清單](media/power-bi-visualization-filled-maps-choropleths/img005.png)
-7. 選取 [SalesFact]  \>[人氣]  ，將其新增到 [色彩飽和度]  部分。 [色彩飽和度]  部分的欄位會控制地圖的明暗。  
-   ![[色彩飽和度] 欄位區中的 [人氣]](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map.png)
-8. 區域分布圖會呈綠色，並以紅色代表人氣指數較低，而綠色代表人氣較高、較為正向。  我們在此將懷俄明州 (WY) 反白顯示，發現人氣相當高，達 74。  
-   ![顯示狀態和人氣的黑色對話方塊](media/power-bi-visualization-filled-maps-choropleths/power-bi-wy.png)
-9. [儲存報表](../service-report-save.md)。
-##    <a name="adjust-the-color-formatting"></a>調整色彩格式化
-Power BI 提供您眾多對區域分布圖外觀的控制。
-1. 選取油漆滾筒圖示來開啟 [格式化] 窗格。
+4. 選取油漆滾筒圖示來開啟 [格式化] 窗格，然後選擇 [資料色彩]  q。
 
-    ![[格式化] 窗格](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-colors.png)
+    ![顯示 [資料色彩] 選項的 [格式化] 窗格](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-color.png)
 
-2. 選取 [資料色彩]  以顯示色彩選項。
-3. 將最小值和最大值色彩設定為黃色和藍色。 並根據您的資料新增最小值和最大值。 試玩這些控制項，直到獲得您想要的外觀。 
+5. 選取三個垂直點並選擇 [設定格式化的條件]  。
 
-    ![非發散色彩](media/power-bi-visualization-filled-maps-choropleths/power-bi-color.png)
+    ![資料色彩設定格式化的條件按鈕](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional-formatting.png)
+
+6. 使用 [預設色彩 - 資料色彩]  畫面來決定您的已填滿地圖將如何套用陰影。 可用選項包括要以哪個欄位作為陰影套用基底，以及如何套用陰影。 在此範例中，我們將會使用欄位 [SalesFact]   > [情感]  , 並將情感的最小值設定為紅色、將最高值設定為綠色。 落在最大值與最小值之間的值將套用紅色與綠色陰影。 畫面底部的圖解顯示將使用的色彩範圍。 
+
+    ![已選取 [情感] 的預設色彩窗格](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment.png)
+
+7. 區域分布圖會呈綠色，並以紅色代表人氣指數較低，而綠色代表人氣較高、較為正向。  若要顯示額外的詳細資料，請一併將欄位拖曳到 [工具提示]。  在這裡，我已新增 [情感間距]  並反白顯示愛達荷州 (ID) 並發現情感間距低 (值為 6)。
+   ![顯示愛達荷州工具提示的已填滿地圖](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map-idaho.png)
+
+10. [儲存報表](../service-report-save.md)。
+
+Power BI 為您提供許多方式來控制已填滿地圖的外觀。您可以嘗試這些資料色彩控制項，直到您獲得想要的外觀。 
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
 如需使用 [篩選] 窗格的資訊，請參閱[將篩選加入報表](../power-bi-report-add-filter.md)。

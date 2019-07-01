@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.author: maggies
 author: maggiesMSFT
 ms.topic: hub-page
-ms:date: 05/10/2019
-ms.openlocfilehash: cebaf83edd2fab39502c7b2953922dec0446c8bc
-ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
+ms:date: 06/10/2019
+ms.openlocfilehash: e1a6700f2f266cffb788f4d8b0f10be88f79e643
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "65533664"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264462"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -38,7 +38,7 @@ ms.locfileid: "65533664"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>適用於取用者的 Power BI</h3>
-                                                    <p>準備好開始使用 Power BI 了嗎？ 認識組成 Power BI 的不同產品與服務並了解其功能。</p>
+                                                    <p>您使用他人建立的報表和儀表板來進行商務決策嗎？ 了解取用者適用的 Power BI 服務。</p>
                                                 </div>
                                             </div>
                                         </div>
