@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 695d1f219b3438f07125447db04aad3ba971683a
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61385300"
@@ -105,13 +105,13 @@ ms.locfileid: "61385300"
 
 |     事件名稱     |     事件描述     |
 |----------------------------|----------------------------------------------------------------------------------|
-|    Audit Login    |    記錄自開始追蹤以來連線到引擎事件的所有新連線。    |
-|    Session Initialize    |    記錄自開始追蹤以來的所有工作階段初始化事件。    |
-|    Vertipaq Query Begin    |    記錄自開始追蹤以來的所有 VertiPaq SE 查詢開始事件。    |
-|    Query Begin    |    記錄自開始追蹤以來的所有查詢開始事件。    |
-|    Query End    |    記錄自開始追蹤以來的所有查詢結束事件。    |
-|    Vertipaq Query End    |    記錄自開始追蹤以來的所有 Vertipaq 查詢結束事件。    |
-|    Audit Logout    |    記錄自開始追蹤以來的所有從引擎中斷連線事件。    |
+|    稽核登入    |    記錄自開始追蹤以來連線到引擎事件的所有新連線。    |
+|    工作階段初始化    |    記錄自開始追蹤以來的所有工作階段初始化事件。    |
+|    Vertipaq 查詢開始    |    記錄自開始追蹤以來的所有 VertiPaq SE 查詢開始事件。    |
+|    查詢開始    |    記錄自開始追蹤以來的所有查詢開始事件。    |
+|    查詢結束    |    記錄自開始追蹤以來的所有查詢結束事件。    |
+|    Vertipaq 查詢結束    |    記錄自開始追蹤以來的所有 Vertipaq 查詢結束事件。    |
+|    稽核登出    |    記錄自開始追蹤以來的所有從引擎中斷連線事件。    |
 |    Error    |    記錄自開始追蹤以來的所有引擎錯誤事件。    |
 
 <br>
