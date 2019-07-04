@@ -10,16 +10,15 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 70f47e4885b3abeb6ee17bea23dec35a230d57ec
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349337"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418768"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客戶獲利率範例：觀看導覽
 
-## <a name="overview-of-the-customer-profitability-sample"></a>瀏覽客戶獲利率範例概觀
 客戶獲利率範例內容套件包含製作行銷資料的公司儀表板、報表和資料集。 財務長建立這個儀表板是為了查看所屬五個業務單位經理 (主管)、產品、客戶和毛利 (GM) 的關鍵計量。 她一眼即可看出影響獲利率的因素。
 
 ![客戶獲利率範例的儀表板](media/sample-customer-profitability/power-bi-dash.png)
@@ -203,9 +202,8 @@ ms.locfileid: "67349337"
 
     我們可以類似的方法瀏覽其他產業，甚至加入客戶，以在視覺效果中了解 Valery 績效的成因。
 
+## <a name="next-steps-connect-to-your-data"></a>後續步驟：連線到您的資料
 您可以在此環境盡情嘗試，因為您可以選擇不儲存您的變更。 但如果儲存了變更，您也可以隨時選取 [取得資料]  以取得此範例的新複本。
 
-## <a name="next-steps-connect-to-your-data"></a>後續步驟：連線到您的資料
 我們希望本教學已示範 Power BI 儀表板、問與答和報表如何讓您深入了解客戶的資料。 現在輪到您了，請連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 若要深入了解，請參閱[開始使用 Power BI 服務](service-get-started.md)。
 
-[Power BI 範例](sample-datasets.md)  
