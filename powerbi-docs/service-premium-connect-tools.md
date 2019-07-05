@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/18/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b671d2f55135312fb529d4b4b30af3941c525a26
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
+ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448314"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67235063"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>使用用戶端應用程式與工具連線至資料集 (預覽)
 
@@ -100,6 +100,10 @@ Power BI Premium 使用 [XML for Analysis](https://docs.microsoft.com/bi-referen
 Power BI 服務中不支援下列資料集：   
 
 - 即時連線至 Power BI 資料集的資料集。
+
+### <a name="roles-and-role-memberships"></a>角色和角色成員資格
+
+目前，模型角色和角色成員資格無法使用 XMLA 端點探索或顯示。
 
 ## <a name="audit-logs"></a>稽核記錄 
 

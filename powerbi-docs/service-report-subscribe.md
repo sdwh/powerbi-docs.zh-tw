@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1d0914f146ea56697ada2a64c59744690595054
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: e7b2f03d561faa7df582b4ad5a975d09d617f98f
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66498069"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264610"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
@@ -28,8 +28,12 @@ ms.locfileid: "66498069"
 
 ## <a name="requirements"></a>需求
 
-- **建立**訂閱是 Power BI Pro 的功能。
-- 您不需要內容 (儀表板或報表) 的編輯權限，即可為您自己建立訂用帳戶，但您必須擁有編輯權限，才能為其他人建立訂用帳戶。 
+可以**建立**訂用帳戶的人：
+
+- 具有 Power BI Pro 授權的使用者
+- 在 Premium 工作區或應用程式中檢視內容的使用者也可以訂閱位於該處的內容，甚至不需要 Power BI Pro 授權。
+
+您不需要內容 (儀表板或報表) 的編輯權限，即可為您自己建立訂用帳戶，但您必須擁有編輯權限，才能為其他人建立訂用帳戶。 
 
 ## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>訂閱儀表板、報表頁面或編頁報表
 
@@ -87,7 +91,6 @@ ms.locfileid: "66498069"
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
 * 傳送給使用者的訂閱電子郵件中，釘選磚超過 25 個，或是有 4 個以上釘選即時報表頁面的儀表板可能不會完整呈現。  訂閱超過這些磚數目的儀表板不會遭到封鎖。 不過，如果您遇到問題，則會視為不受支援。 請考慮據此修改使其落在支援的範圍內。
-* 這次是訂閱作業開始時。 在某些情況下，可能需要幾分鐘的時間，您的收件匣才會收到電子郵件。
 * 在少數情況下，可能需要超過 15 分鐘的時間，收件者才會收到電子郵件訂閱。 如果發生這種情況，建議您在不同時間執行資料重新整理和電子郵件訂閱，以確保準時傳遞。 若問題持續發生，請連絡 Power BI 支援人員。
 * 針對儀表板電子郵件訂閱，如果有任何磚套用資料列層級安全性 (RLS)，則不會顯示這些磚。  
 * 針對報表電子郵件訂閱，如果資料集使用 RLS，您可以為自己建立訂閱。 您無法為其他人訂閱已套用資料列層級安全性 (RLS) 的報表。

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/19/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 587cc5b5d81ca57e809a3973c700c71a214dc045
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0af278171a00c792e466bbd0e21a3efb5ffa8962
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389244"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389735"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>在 Power BI 服務中建立 R 視覺效果
 Power BI 服務支援檢視使用 R 指令碼建立的視覺效果，並與其互動。 以 R 指令碼建立的視覺效果通常稱為「R 視覺效果」  ，可以使用 R 豐富的分析和視覺效果功能呈現進階的資料成形和分析，例如預測。
@@ -64,7 +64,7 @@ Power BI 服務套用「沙箱」  技術，保護使用者與服務免於安全
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
 ## <a name="licensing"></a>授權
-R 視覺效果需要 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 授權才能呈現在報表、重新整理、篩選和交叉篩選中。 如需 Power BI Pro 授權的詳細資訊，以及和免費授權有何差異，請參閱[何謂 Power BI Pro 內容？](../service-premium-what-is.md)
+R 視覺效果需要 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 授權才能呈現在報表、重新整理、篩選和交叉篩選中。 如需 Power BI Pro 授權的詳細資訊，以及和免費授權有何差異，請參閱[何謂 Power BI Pro 內容？](../service-admin-purchasing-power-bi-pro.md)
 
 Power BI 的免費使用者只能取用在 Premium 工作區中與他們共用的磚。 如需詳細資訊，請參閱[購買 Power BI Pro](../service-admin-purchasing-power-bi-pro.md)。
 
@@ -73,7 +73,7 @@ Power BI 的免費使用者只能取用在 Premium 工作區中與他們共用�
 
 |  |在 Power BI Desktop 中撰寫 R 視覺效果  | 使用 R 視覺效果建立 PBI 服務報表 |在報表中檢視 R 視覺效果  | 在儀表板檢視 R 磚 |
 |---------|---------|---------|---------|--------|
-|**來賓** (Power BI Embedded)     |  無關|  無關       | 不支援  | 無關 |
+|**來賓** (Power BI Embedded)     |  支援|  不支援      | 僅在 Premium/Azure 容量中支援  | 僅在 Premium/Azure 容量中支援 |
 |**非受控租用戶** (未驗證網域) | 支援 | 不支援 |  不支援 |支援 (B2B 案例) |
 |具有免費授權的**受控租用戶**    |  支援       |  不支援       |    僅在 Premium 容量中支援    | 支援 |
 具有 Pro 授權的**受控租用戶**     |   支援      | 支援      | 支援    |支援|

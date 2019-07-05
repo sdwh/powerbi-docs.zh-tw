@@ -1,6 +1,6 @@
 ---
-title: 為您自己和其他人訂閱報表和儀表板
-description: 了解如何為您自己和同事訂閱 Power BI 報表或儀表板以電子郵件寄送的快照集。
+title: 為您自己訂閱報表和儀表板
+description: 了解如何為您自己訂閱 Power BI 報表或儀表板以電子郵件寄送的快照集。
 author: mihart
 ms.author: mihart
 manager: kvivek
@@ -9,16 +9,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/11/2019
+ms.date: 06/26/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d452b036c7890d59e27df328ae12ad7f5b3b8dbb
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 85976d191fba627b75f8b415acc312817d11ed34
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497954"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408507"
 ---
-# <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>訂閱 Power BI 服務中的報表或儀表板 
+# <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>訂閱 Power BI 服務中的報表或儀表板 
 讓您最重要的儀表板和報表維持最新的狀態從沒這麼容易過。 訂閱對您來說最重要的報表頁面和儀表板，Power BI 就會以電子郵件寄送快照集到您的收件匣。 您要告訴 Power BI 需要收到電子郵件的頻率︰每天、每週，或在資料重新整理後。 您甚至可以設定特定的時間，讓 Power BI 傳送電子郵件或立即執行。  
 
 電子郵件和快照集將使用 Power BI 設定中設定的語言 (請參閱 [Power BI 支援的語言與國家/地區](../supported-languages-countries-regions.md))。 如果未定義任何語言，Power BI 會使用您目前瀏覽器中地區設定的語言。 若要查看或設定語言喜好設定，請選取齒輪圖示 ![齒輪圖示](./media/end-user-subscribe/power-bi-settings-icon.png) > [設定] > [一般] > [語言]  。 
@@ -29,7 +29,7 @@ ms.locfileid: "66497954"
 
 
 ## <a name="requirements"></a>需求
-**建立**訂閱是 Power BI Pro 的功能。   
+為您自己**建立**訂閱需要 Power BI Pro 授權。 在 Premium 工作區或應用程式中檢視內容的使用者也可以訂閱位於該處的內容，甚至不需要 Power BI Pro 授權。 只有儀表板擁有者可以**訂閱其他內容**。 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>訂閱儀表板或報表頁面
 不論您是要訂閱儀表板或報表，程序都很相似。 同樣的按鈕可讓您訂閱 Power BI 服務的儀表板與報表。
@@ -41,15 +41,13 @@ ms.locfileid: "66497954"
    
    ![訂閱圖示](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-   ![訂閱視窗](./media/end-user-subscribe/power-bi-emails-newer.png)
+   ![訂閱視窗](./media/end-user-subscribe/power-bi-emails-newest.png)
     
     當您在儀表板上並選取 [訂閱]  時，左側畫面隨即出現。 當您在報表頁面上並選取 [訂閱]  時，右側畫面隨即出現。 若要訂閱報表中的多個頁面，請選取 [新增另一個訂閱]  再選取其他頁面。 
 
 4. 使用黃色的滑桿開啟和關閉訂閱。  將滑桿設定為 [關閉] 並不會刪除訂用帳戶。 若要刪除訂閱，請選取垃圾桶圖示。
 
-4. 您的電子郵件地址會自動新增至 [訂閱]  欄位。 若要為您組織中的其他人訂閱，也可以在這裡新增其電子郵件地址。 
-
-5. 您可以選擇新增電子郵件訊息的詳細資料。 
+5. 您可以選擇新增主旨和電子郵件訊息的詳細資料。 
 
 5. 為您的訂用帳戶選取 [頻率]  。  您可以選擇 [每天]、[每週]，或 [在資料重新整理後 (每天)]。  若只要在特定日子收到訂用帳戶電子郵件，請選取 [每週]  ，然後選擇您想要在哪幾天接收電子郵件。  例如，如果您只想要在工作日收到訂閱電子郵件，請為頻率選取 [每週]  ，並取消核取 [週六] 和 [週日] 的方塊。   
 
@@ -59,7 +57,7 @@ ms.locfileid: "66497954"
 
 8. 若要檢閱您的訂用帳戶並測試它，請選取 [立即執行]  。  這會立即將電子郵件傳送給您。 
 
-8. 如果一切看起來都沒有問題，請選取 [儲存並關閉]  來儲存訂用帳戶。 您及已訂閱同事會按照您所設定排程收到儀表板或報表的電子郵件和快照集。 所有已將頻率設定為 [在資料重新整理後]  的訂用帳戶，只會在那一天第一次排程重新整理之後傳送一封電子郵件。
+8. 如果一切看起來都沒有問題，請選取 [儲存並關閉]  來儲存訂用帳戶。 您會按照所設定的排程，收到儀表板或報表的電子郵件和快照集。 所有已將頻率設定為 [在資料重新整理後]  的訂用帳戶，只會在那一天第一次排程重新整理之後傳送一封電子郵件。
    
    ![儀表板的電子郵件快照集](media/end-user-subscribe/power-bi-subscribe-email.png)
    

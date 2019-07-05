@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 97beaa749855d29f0ac559776a99f4be851489fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61048126"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408182"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 問與答中詢問問題的秘訣
 ## <a name="words-and-terminology-that-qa-recognizes"></a>問與答可辨識的字組與專有名詞
 此頁面上列出的關鍵字不是全部的關鍵字。  想知道 Power BI 能否辨識關鍵字的最佳辦法，就是在問題方塊中輸入關鍵字。  如果單字或字詞呈現灰色，則 Power BI 無法辨識它。
 
-下列清單使用現在式，但所有時態在大部分情況下皆可辨識。 例如，"is" 包括：**are**、**was**、**were**、**will be**、**have**、**has**、**had**、**will have**、**has got**、**do**、**does**、**did**。  而 "sort" 包括：**sorted** 與 **sorting**。  此外，Power BI 可辨識且包含單字的單複數形態。 
+下列清單使用現在式，但所有時態在大部分情況下皆可辨識。 例如，"is" 包括：**are**、**was**、**were**、**will be**、**have**、**has**、**had**、**will have**、**has got**、**do**、**does**、**did**。  而 "sort" 包括：**sorted** 與 **sorting**。  Power BI 也可辨識且包含單字的單複數形態。 
 
 > [!NOTE]
 > 現在 [iPad、iPhone 及 iPod Touch 裝置上的 iOS 版 Microsoft Power BI 應用程式](mobile/mobile-apps-ios-qna.md)也提供問與答。
@@ -41,7 +41,7 @@ ms.locfileid: "61048126"
 |     |         |         |
 |**連接詞**     |  and、or、each of、with、versus、&、and、but、nor、along with、in addition to       |         
 |          |         |
-|**縮寫**     |  問與答可辨識幾乎所有的縮寫，請試試看。範例：didn't、haven't、he'd、he's、isn't、it's、she'll、they'd、weren't、where'll、who's、won't、wouldn't          |
+|**縮寫**     |  問與答可辨識幾乎所有的縮寫，請試試看。以下是一些範例：didn't、haven't、he'd、he's、isn't、it's、she'll、they'd、weren't、who's、won't、wouldn't          |
 |        |         |
 |**日期**     |       Power BI 可辨識大部分的日期字詞 (day、week、month、year、quarter、decade、...) 和許多不同的日期格式 (請見下文)。 Power BI 也會辨識下列關鍵字：MonthName、Days 1-31、decade。 範例：January 3rd of 1995、January 3rd 1995、jan 03 1995、3 Jan 1995、the 3rd of January、January 1995、1995 January、1995-01、01/1995、月份名稱         |
 |        |         |
@@ -62,21 +62,21 @@ ms.locfileid: "61048126"
 |**範圍**     |      greater、more、larger、above、over、>、less、smaller、fewer、below、under、<、at least、no less than、>=、at most、no more than、<=、in、between、in the range of、from、later、earlier、sooner、after、on、at、later than、after、since、starting with、starting from、ending with           |
 |        |         |
 **時間**  |am、pm、o'clock、noon、midnight、hour、minute、second、hh:mm:ss  |
-|  |  範例：10 pm、10:35 pm、10:35:15 pm、10 oclock、noon、midnight、hour、minute、second。  |
+|  |  範例：10 pm、10:35 pm、10:35:15 pm、10 o clock、noon、midnight、hour、minute、second。  |
 |  |  |
 |**前 N 個**     |     (順序、排名)：top、bottom、highest、lowest、first、last、next、earliest、newest、oldest、latest、most recent、next            |
 |        |         |
-|**視覺效果類型**     |  所有視覺效果類型對於 Power BI 都是原生的。  如果是 [視覺效果] 窗格中的選項，就可以包含在問題中。  但手動加入 [視覺效果] 窗格中的[自訂視覺效果](../power-bi-custom-visuals.md)例外。  |
+|**視覺效果類型**     |  所有視覺效果類型對於 Power BI 都是原生的。  如果是 [視覺效果] 窗格中的選項，就可以包含在問題中。  此規則的例外是手動新增至 [視覺效果] 窗格的[自訂視覺效果](../power-bi-custom-visuals.md)。  |
 |  |  範例︰以橫條圖依月份和銷售總額顯示區域資料               |
 |        |         |
 |**Wh (關係詞、限定詞)**  | when、where、which、who、whom、how many、how much、how many times、how often、how frequently、amount、number、quantity、how long、what                |
 
 ## <a name="qa-helps-you-phrase-the-question"></a>問與答可協助您將問題分段
-問與答會盡全力了解並回答所提出的問題。 它以數種方式達成此目標。 但所有方法，您都可以完整、部份或完全不接受該動作。 當您輸入問題時，問與答會：
+問與答會盡全力了解並回答所提出的問題。 它會嘗試以數種方式去了解。 針對所有片語，您都可以完整、部分或完全不接受該動作。 當您輸入問題時，問與答會：
 
-* 自動完成單字與問題。 它會使用各種策略，包括自動完成辨識單字，以及傳回有效回應之先前使用的問題。 如果有一個以上的自動完成選項可使用，則選項會出現在下拉式清單中。
+* 自動完成單字與問題。 它會使用各種策略，包括自動完成辨識單字、儲存的問題，以及傳回有效回應之先前使用的問題。 如果有一個以上的自動完成選項可使用，則選項會出現在下拉式清單中。
 * 更正拼字。
-* 以視覺效果形式提供回答的預覽結果。 視覺效果會在您輸入及編輯問題時更新 (不用等您按下 Enter 鍵)。
+* 以視覺效果形式提供回答的預覽結果。 視覺效果會在您鍵入及編輯問題時更新 (不用等您按下 Enter 鍵)。
 * 將游標移回 [問題] 方塊時，從基礎資料集建議取代的字詞。
 * 依據基礎資料集中的資料，再次陳述問題。 問與答會將您使用的單字取代為來自基礎資料集的同義字。 透過閱讀重新陳述的內容，您可以知道問與答是否了解您的問題。 
 * 將不了解的單字變暗。

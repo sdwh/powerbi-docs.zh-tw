@@ -1,22 +1,22 @@
 ---
-title: Tips for authoring template apps in Power BI (preview) (在 Power BI 中撰寫範本應用程式的提示 (預覽))
+title: 在 Power BI 中撰寫範本應用程式的提示
 description: 有關如何撰寫查詢、資料模型、報表和儀表板，來製作高品質範本應用程式的提示
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/19/2019
-ms.author: maggies
-ms.openlocfilehash: 83049a16ecd42b41375da57a5a99a374596a9846
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/26/2019
+ms.author: tebercov
+ms.openlocfilehash: 59d581697091df68df827ec699c8999a6993daef
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514853"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408342"
 ---
-# <a name="tips-for-authoring-template-apps-in-power-bi-preview"></a>Tips for authoring template apps in Power BI (preview) (在 Power BI 中撰寫範本應用程式的提示 (預覽))
+# <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中撰寫範本應用程式的提示
 
 當您在 Power BI 中[撰寫自己的範本應用程式](service-template-apps-create.md)時，有一部分重點是建立工作區、進行測試和生產的邏輯。 而另一個重點則明顯是撰寫報表和儀表板。 撰寫程序可以細分成四大部分。 在這幾個部分投入心力能讓您建立最佳的範本應用程式：
 
@@ -24,7 +24,7 @@ ms.locfileid: "65514853"
 * 您可在**資料模型**中建立[關聯性](desktop-create-and-manage-relationships.md)、[量值](desktop-measures.md)和問與答改善項目。  
 * **[報表頁面](desktop-report-view.md)** 包含可提供資料見解的視覺效果和篩選。  
 * **[儀表板](consumer/end-user-dashboards.md)** 和[磚](service-dashboard-create.md)能為包含的見解提供概觀。
-* 範例資料可讓您的應用程式設定為可探索在安裝之後立即。
+* 在安裝應用程式後，範例資料可立即供您探索。
 
 您可能以現有 Power BI 功能的角度熟悉每項元素。 在建置範本應用程式時，每項元素都有應考量的其他事項。 如需更多詳細資料，請參閱以下各節。
 
@@ -36,12 +36,10 @@ ms.locfileid: "65514853"
 ### <a name="connect-to-your-api"></a>連接到您的 API
 若要開始，您需要從 Power BI Desktop 連線到您的 API，開始建置您的查詢。
 
-您可以在 Power BI Desktop 中使用立即可用的資料連接器，連接到您的 API。 您可以使用 Web 資料連接器 (取得資料 -> Web) 連接到您的 Rest API，或使用 OData 連接器 (取得資料 -> OData 摘要) 連接到 OData 摘要。 只有當您的 API 支援基本驗證時，這些連接器才具現成可用性。
+您可以使用 Power BI Desktop 中提供的資料連接器，連接到您的 API。 您可以使用 Web 資料連接器 (取得資料 -> Web) 連接到您的 Rest API，或使用 OData 連接器 (取得資料 -> OData 摘要) 連接到 OData 摘要。
 
 > [!NOTE]
-> 如果您的 API 使用任何其他驗證類型，例如 OAuth 2.0 或 Web API 金鑰，則您必須開發自己的資料連接器，才能讓 Power BI Desktop 順利連線並向您的 API 驗證。 您的自訂連接器必須加入 PBI 服務確實範本應用程式安裝程式的存取。 <br> 如需如何為自己的範本應用程式開發專屬資料連接器的詳細資料，請參閱[資料連接器文件](https://aka.ms/DataConnectors)。 
->
->
+> 範本應用程式目前不支援自訂連接器，建議針對一些連接使用案例，使用 Odatafeed Auth 2.0 以降低風險，或提交您的連接器進行認證。 如需如何開發連接器並進行認證的詳細資訊，請參閱[資料連接器文件](https://aka.ms/DataConnectors)。
 
 ### <a name="consider-the-source"></a>考慮來源
 查詢會定義將包含在資料模型中的資料。 根據您的系統大小，這些查詢也應包含篩選器，以確定您的客戶正在處理符合商務案例且可管理的大小。
@@ -116,40 +114,40 @@ Power BI Desktop 中的[參數](https://powerbi.microsoft.com/blog/deep-dive-int
 * 針對水平或垂直等不同情況考慮儀表板中的群組。  
 
 ## <a name="sample-data"></a>範例資料
-範本應用程式，應用程式的建立階段，過程包裝快取資料的應用程式工作區中：
+在應用程式建立階段過程中，範本應用程式會將快取資料包裝在工作區中，作為應用程式的一部分：
 
-* 可讓安裝程式，以了解的功能和應用程式的用途，再將資料連接。
-* 建立磁碟機要進一步探索應用程式功能，這樣會導致連接的應用程式資料集的安裝程式的體驗。
+* 在連接資料之前，讓安裝程式了解應用程式的功能和用途。
+* 建立驅動安裝程式進一步探索應用程式功能的體驗，這會導致連接應用程式資料集。
 
-我們建議品質範例資料建立應用程式之前。 請確定應用程式報表和儀表板填入資料。
+建議取得高品質的範例資料，再建立應用程式。 確保應用程式報表和儀表板已填入資料。
 
 ## <a name="publishing-on-appsource"></a>在 AppSource 上發佈
-範本的應用程式可以在 AppSource 上發佈，應用程式提交至 AppSource 之前，請遵循下列方針：
+範本應用程式可以在 AppSource 上發佈，請遵循下列方針，再將您的應用程式提交到 AppSource：
 
-* 請確定您建立的範本應用程式更吸引人的範例資料，以了解應用程式可以執行安裝程式 （空的報表和儀表板不核准）。
-範本的應用程式支援的範例資料的唯一應用程式，請務必檢查靜態應用程式的核取方塊。 [深入了解](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* 已驗證的小組遵循其中包括認證和連接到資料所需參數的指示。
-* 應用程式必須包含應用程式圖示，在 Power BI，並在 CPP 供應項目。 [深入了解](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* 設定登陸頁面。 [深入了解](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* 請務必遵循文件[Power BI 應用程式供應項目](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)。
-* 如果儀表板是您的應用程式的一部分，請確定它不是空白。
-* 安裝應用程式使用的應用程式連結，送出之前，請確定您可以將資料集的連接，而您計劃是應用程式體驗。
-* 上傳之前 bpix 到範本的應用程式工作區，請確定要卸除任何不必要的連接。
-* 請依照下列 Power BI[報表和視覺效果的最佳設計做法](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices)以達到最大的影響，在您的使用者及獲准發佈。
+* 確定您建立的範本應用程式具有能用的範例資料，可協助安裝程式了解應用程式的功能 (不允許空白報表與儀表板)。
+範本應用程式支援僅限範例資料的應用程式，請務必核取靜態應用程式核取方塊。 [深入了解](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* 備妥驗證小組須遵循的指示，其中包含連接到資料所需的認證和參數。
+* 應用程式必須在 Power BI 和您的 CPP 供應項目中包含應用程式圖示。 [深入了解](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* 已設定登陸頁面。 [深入了解](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* 確定遵循 [Power BI App offer](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) (Power BI 應用程式供應項目) 上的文件。
+* 如果儀表板屬於應用程式，請確定儀錶板不是空白。
+* 在提交應用程式之前，請使用應用程式連結安裝應用程式，確保您能如預期連接資料集和應用程式體驗。
+* 將 bpix 上傳到範本應用程式工作區之前，請務必卸載任何不必要的連接。
+* 遵循 Power BI [Best design practices for reports and visuals](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) (報表和視覺效果的最佳設計做法)，達到最大的使用者影響力並獲准散發。
 
 ## <a name="known-limitations"></a>已知的限制
 
 | 特徵 | 已知的限制 |
 |---------|---------|
 |內容：資料集   | 只應剛好出現一個資料集。 只允許 Power BI Desktop (.pbix 檔案) 中建置的資料集。 <br>不支援：來自其他範本應用程式的資料集、跨工作區資料集、編頁報表、Excel 活頁簿 |
-|內容：儀表板 | 不允許即時磚 （亦即，不支援推播或串流資料集） |
+|內容：儀表板 | 不允許即時磚 (也就是指不支援推送或串流資料集) |
 |內容：資料流程 | 不支援：資料流程 |
 |來自檔案的內容 | 只允許 PBIX 檔案。 <br>不支援：.rdl 檔案 (編頁報表)、Excel 活頁簿   |
-| 資料來源 | 允許針對雲端排程的資料重新整理支援的資料來源。 <br>不支援： <li> DirectQuery</li><li>即時連線 (非 Azure AS)</li> <li>在內部部署資料來源 （個人和企業閘道不支援）</li> <li>即時 （推送資料集不支援）</li> <li>複合模型</li></ul> |
+| 資料來源 | 允許針對雲端排程的資料重新整理支援的資料來源。 <br>不支援： <li> DirectQuery</li><li>即時連線 (非 Azure AS)</li> <li>內部部署資料來源 (不支援個人和企業閘道)</li> <li>即時 (不支援推送資料集)</li> <li>複合模型</li></ul> |
 | 資料集：跨工作區 | 不允許跨工作區資料集  |
 | 查詢參數 | 不支援：資料集類型區塊重新整理作業的 "Any" 和 "Binary" 類型參數 |
 | 自訂視覺效果 | 只支援公開可用的自訂視覺效果。 不支援[組織自訂視覺效果](power-bi-custom-visuals-organization.md) |
 
 ## <a name="next-steps"></a>後續步驟
 
-[What are Power BI template apps? (preview)](service-template-apps-overview.md) (什麼是 Power BI 範本應用程式 (預覽))
+[什麼是 Power BI 範本應用程式？](service-template-apps-overview.md)

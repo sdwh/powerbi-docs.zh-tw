@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61067592"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161103"
 ---
 # <a name="funnel-charts"></a>漏斗圖
 漏斗圖幫您將有循序連接階段的線性程序視覺化。 例如，會分階段追蹤客戶的銷售漏斗圖：潛在客戶 (Lead) \> 合格的潛在客戶 (Lead) \> 潛在客戶 (Prospect) \> 合約 \> 關閉。  漏斗圖的圖形一看就能表達出您追蹤中程序的健全狀況。
@@ -61,7 +61,7 @@ ms.locfileid: "61067592"
 2. [將圖表轉換](power-bi-report-change-visualization-type.md)成漏斗圖。 請注意，[銷售階段]  良好地位於 [群組]  井中。 
 3. 從 [欄位]  窗格，選取 [事實]  \> [商機計數]  。
    
-    ![建立漏斗圖](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![建立漏斗圖](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. 暫留在列上會顯示豐富的資訊。
    
    * 階段名稱

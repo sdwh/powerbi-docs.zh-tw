@@ -8,128 +8,160 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 26dd55f1084d62f9506b02c5852f0396adba305a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8222194359077cb0d88286a33d1c9b2a05f6bd80
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61070384"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67390977"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散佈圖、泡泡圖與點圖
-散佈圖一律會有兩個值座標軸，沿著水平軸顯示一組數字資料，沿著垂直軸顯示另一組數值。 此圖表顯示 x 與 y 數交集處的點，結合這些值可形成單一的資料點。 視資料之不同，這些資料點可能平均散布或不平均地散佈在水平軸。
 
-泡泡圖會將資料點以泡泡取代，而泡泡的「大小」  代表其他維度的資料。
+散佈圖一律會有兩個值座標軸：沿著水平軸顯示一組數值資料，沿著垂直軸顯示另一組數值。 此圖表顯示 x 與 y 數交集處的點，結合這些值可形成單一的資料點。 Power BI 可以在水平軸上平均或不平均地分佈這些資料點。 這會依圖表所代表的資料而定。
 
-![範例泡泡圖](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
-
-點圖類似於泡泡圖和散佈圖，不同之處在於您可以沿 X 軸繪製數值或類別資料。 
-
-![範例泡泡圖](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
-
-您可以設定資料點數目，最多 10,000 個。  
-
-## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>何時使用散佈圖或泡泡圖
-### <a name="scatter-charts-are-a-great-choice"></a>散佈圖極適合：
-* 顯示 2 (散佈圖) 或 3 (泡泡) **數值** 之間的關聯性。
-* 將兩組數字繪製成一系列的 xy 座標。
-* 當您想要變更水平軸的刻度時，取代折線圖。    
-* 將水平軸轉為對數刻度。
-* 顯示包含成對值或一組值的工作表資料。 在散佈圖中，您可以調整獨立的軸刻度，以顯示群組值的詳細資訊。
-* 顯示大量資料的模式，例如，顯示線性或非線性趨勢、叢集與極端值。
-* 比較大量資料點，而不考慮時間。  您在散佈圖中包含的資料越多，就能做出越好的比較。
-
-### <a name="bubble-charts-are-a-great-choice"></a>泡泡圖極適合：
-* 如果您的資料有 3 個資料數列，而每個數列包含一組值。
-* 呈現財務數據。  不同的泡泡大小很適合以視覺化方式強調特定值。
-* 與象限一起使用。
-
-### <a name="dot-plot-charts-are-a-great-choice-in-place-of-a-scatter-or-bubble"></a>點圖是代替散佈圖或泡泡圖的絕佳選擇：
-* 如果您想要沿 X 軸包含類別資料
-
-## <a name="create-a-scatter-chart"></a>建立散佈圖
 觀賞這段影片來了解 Will 如何建立散佈圖，然後依照下列步驟自行建立一個散佈圖。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
+您可以設定資料點數目，最多 10,000 個。  
 
-這些指示使用零售分析範例。 若要跟著做，請針對 Power BI 服務 (app.powerbi.com) 或 Power BI Desktop [下載範例](../sample-datasets.md)。   
+## <a name="when-to-use-a-scatter-chart-bubble-chart-or-a-dot-plot-chart"></a>何時使用散佈圖、泡泡圖或點圖
 
-1. 在 [編輯] 檢視開啟報表，然後選取黃色加號圖示以建立空白的報表頁面。
- 
-2. 從 [欄位] 窗格選取下列欄位：
-   - [Sales] (銷售)   > [Sales Per Sq Ft] (每平方英呎的銷售) 
-   - [Sales] (銷售)   > [Total Sales Variance %] (總銷售差異 %) 
-   - [District] (區域)   > District (區域) 
+### <a name="scatter-and-bubble-charts"></a>散佈圖和泡泡圖
 
-     ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
+散佈圖會顯示兩個數值之間的關聯性。 泡泡圖會將資料點以泡泡取代，而泡泡的「大小」  代表第三個額外的資料維度。
 
-     如果您使用 Power BI 服務，請務必在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報告。
+![範例泡泡圖的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
-3. 轉換成散佈圖。 在 [視覺效果] 窗格中，選取散佈圖圖示。
+散佈圖極適合：
 
-   ![](media/power-bi-visualization-scatter/power-bi-scatter-new.png).
+* 顯示兩個數值之間的關聯性。
 
-4. 將 [區域]  從 [詳細資料]  拖曳至 [圖例]  。 這會顯示沿著 Y 軸有繪製**總銷售差異 %** 的散佈圖，以及沿著 X 軸繪製**每平方英呎銷售**的散佈圖。 資料點色彩代表區域：
+* 將兩組數字繪製成一系列的 x 和 y 座標。
 
-    ![](media/power-bi-visualization-scatter/power-bi-scatter2.png)
+* 用來取代折線圖 (若想要變更水平軸的刻度)。
+
+* 將水平軸轉為對數刻度。
+
+* 顯示包含成對值或一組值的工作表資料。
+
+    > [!TIP]
+    > 在散佈圖中，您可以調整獨立的軸刻度，以顯示群組值的詳細資訊。
+
+* 顯示大量資料集的模式，例如顯示線性或非線性趨勢、叢集與極端值。
+
+* 比較大量資料點，而不考慮時間。  您在散佈圖中包含的資料越多，就能做出越好的比較。
+
+散佈圖有以上這些用處，而泡泡圖極適合：
+
+* 如果您的資料有三個資料數列，而每個數列包含一組值。
+
+* 呈現財務數據。  不同的泡泡大小很適合以視覺化方式強調特定值。
+
+* 與象限一起使用。
+
+### <a name="dot-plot-charts"></a>點圖
+
+點圖類似於泡泡圖和散佈圖，但您還可以沿 X 軸繪製數值或類別資料。
+
+![點圖的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
+
+如果您想要在 X 軸包含類別資料，這會是不錯的選擇。
+
+## <a name="prerequisites"></a>先決條件
+
+* Power BI 服務
+
+* 零售分析範例報表
+
+## <a name="create-a-scatter-chart"></a>建立散佈圖
+
+若要跟著做，請登入 [Power BI 服務](https://app.powerbi.com)，然後在[編輯報表](../service-interact-with-a-report-in-editing-view.md)檢視中開啟[零售分析範例](../sample-datasets.md)報表。
+
+1. 選取 ![黃色加號圖示的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-yellow-plus-icon.png) 以建立一個空白報表頁面。
+
+1. 從 [欄位]  窗格，選取下列欄位：
+
+    * [Sales] (銷售)   > [Sales Per Sq Ft] (每平方英呎的銷售) 
+
+    * [Sales] (銷售)   > [Total Sales Variance %] (總銷售差異 %) 
+
+    * [District] (區域)   > District (區域) 
+
+    ![標示出叢集直條圖、[視覺效果] 窗格，以及已選取欄位的 [欄位] 窗格螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
+
+1. 在 [視覺效果]  窗格中，選取 ![散佈圖圖示的螢幕擷取畫面](media/power-bi-visualization-scatter/power-bi-scatter-chart-icon.png)。 將叢集直條圖轉換成散佈圖。
+
+   ![叢集直條圖變成散佈圖的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-scatter-new.png)
+
+1. 將 [區域]  從 [詳細資料]  拖曳至 [圖例]  。
+
+    Power BI 會顯示沿著 Y 軸繪製**總銷售差異 %** 的散佈圖，以及沿著 X 軸繪製**每平方英呎的銷售**的散佈圖。 資料點色彩代表區域：
+
+    ![散佈圖的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
 現在讓我們加入第三個維度。
 
 ## <a name="create-a-bubble-chart"></a>建立泡泡圖
 
-1. 從 [欄位]  窗格中，將 [銷售]   > [本年度銷售]   > [值]  拖曳至 [大小]  區域。 資料點會擴張為與銷售值成正比的數量。
-   
-   ![點成為泡泡](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
+1. 從 [欄位]  窗格，將 [銷售額]   > [本年度銷售額]   > [值]  拖曳至 [大小]  部分。 資料點會擴張為與銷售值成正比的數量。
 
-2. 暫留在泡泡圖上。 泡泡的大小反映 **本年度銷售額**的值。
-   
+   ![藉由將銷售額的 [值] 新增至 [大小] 部分，讓散佈圖變成泡泡圖的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
+
+1. 暫留在泡泡圖上。 泡泡的大小反映 **本年度銷售額**的值。
+
     ![顯示工具提示](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. 若要設定泡泡圖中顯示的資料點數目，請在 [視覺效果]  窗格的 [格式化]  區段中，展開 [一般]  卡片，並調整 [資料量]  。 您可以將資料量上限設為任何大小，上限 10,000。 當您設定更高的數字時，建議先進行測試以確保良好效能。 
+1. 若要設定泡泡圖中顯示的資料點數目，請在 [視覺效果]  窗格的 [格式]  區段中，展開 [一般]  ，然後調整 [資料量]  。
 
-    ![資料量](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+    ![標示出格式圖示、[一般] 下拉式清單和 [資料量] 選項的 [視覺效果] 窗格螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png)
 
-   因為資料點越多可能表示載入時間越長，所以，如果您選擇發佈限制規模較高的報表，請務必在 Web 及行動裝置上測式該報表，以及確保效能符合使用者的期望。 
+    您可以將資料量上限設為任何大小，上限 10,000。 當您設定更高的數字時，建議先進行測試以確保良好效能。
 
-4. 您可以將[格式、視覺效果色彩、標籤、標題、背景等項目格式化](service-getting-started-with-color-formatting-and-axis-properties.md)。 若要[改善協助工具](../desktop-accessibility.md)，請考慮在每一行新增標記圖形。 為每一行使用不同的標記圖形，可讓取用者更容易地區分不同的行 (或區域)。 若要選取標記圖形，請展開 [圖形]  並選取標記圖形。
+    > [!NOTE]
+    > 資料點越多，載入時間可能越久。 如果您選擇發佈限制規模較高的報表，請務必在 Web 及行動裝置上測試您的報表。 您想要確認圖表的效能符合使用者的期望。
 
-      ![標記圖形](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+1. 您可以將[格式、視覺效果色彩、標籤、標題、背景等項目格式化](service-getting-started-with-color-formatting-and-axis-properties.md)。
 
-   您也可以將標記形狀變更為菱形、三角形或正方形：
+    若要[改善協助工具](../desktop-accessibility.md)，請考慮在每一行新增標記圖形。 若要選取標記圖形，請展開 [圖形]  ，然後依序選取 [標記圖形]  和一個圖形。
 
-   ![正方形標記](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+    ![標示出 [標記圖形] 選項的 [圖形] 下拉式清單螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
-## <a name="create-a-dot-plot"></a>建立點圖
-若要建立點圖，請使用類別目錄欄位取代數字 X 軸欄位。
+    您可以將標記圖形變更為菱形、三角形或正方形。 為每一行使用不同的標記圖形，可讓報表取用者更容易區分不同的行 (或區域)。
 
-從 [X 軸]  窗格中，移除 [每平方英呎的銷售量]  ，並將它取代為 [區域 > DM]  。
-   
-![新增點圖](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
+## <a name="create-a-dot-plot-chart"></a>建立點圖
 
+若要建立點圖，請使用類別欄位取代數值 **X 軸**欄位。
+
+從 [X 軸]  窗格，移除 [每平方英呎的銷售]  ，並將它取代為 [區域]   > [區域經理]  。
+
+![新點圖的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
-### <a name="your-scatter-chart-has-only-one-data-point"></a>**散佈圖只有一個資料點**
-散佈圖有只有一個資料點，且彙總 X 軸與 Y 軸上的所有值嗎？  或其也許彙總單一水平或垂直線的所有值？
+### <a name="your-scatter-chart-has-only-one-data-point"></a>散佈圖只有一個資料點
 
-![](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
+散佈圖有只有一個資料點，彙總了 X 軸與 Y 軸上的所有值嗎？  或其也許彙總單一水平或垂直線的所有值？
 
-將欄位加入 [詳細資料]  區域，以告知 Power BI 如何將值分組。 此欄位對於您想要繪製的每個點都不得重複，例如簡單的資料列編號或識別碼欄位。
+![具有一個資料點的散佈圖螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-![](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
+將欄位新增至 [詳細資料]  部分，以告知 Power BI 如何將值分組。 此欄位對於您想要繪製的每個點都不得重複。 可以使用簡單的資料列編號或識別碼欄位。
 
-或者，如果您的資料中沒有它，請建立一個欄位，將 X 與 Y 值串連成每個點的獨特內容：
+![已將 [RowNum] 新增至 [詳細資料] 部分的散佈圖螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 
-![](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
+如果您的資料中沒有它，請建立一個欄位，將 X 與 Y 值串連成每個點的獨特內容：
 
-若要建立新的欄位，請[使用 Power BI Desktop 查詢編輯器新增索引資料行](../desktop-add-custom-column.md)至資料集。  然後將本資料行加入您視覺效果的 [詳細資料]  區域。
+![已將 [TempTime] 新增至 [詳細資料] 部分的散佈圖螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
+
+若要建立新的欄位，請[使用 Power BI Desktop 查詢編輯器新增索引資料行](../desktop-add-custom-column.md)至資料集。 然後將此資料行新增至您視覺效果的 [詳細資料]  部分。
 
 ## <a name="next-steps"></a>後續步驟
 
-[高密度散佈圖](desktop-high-density-scatter-charts.md)
+* [Power BI 散佈圖中的高密度取樣](desktop-high-density-scatter-charts.md)
 
-[Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
+有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
