@@ -7,117 +7,124 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0a71a0e0fe7af3c074c94ab26083839ff114f815
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3fc93f255d6645ffa6f15676b9a70f24326fcfdc
+ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61232630"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67349143"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的 IT 支出分析範例：觀看導覽
 
 ## <a name="overview-of-the-it-spend-analysis-sample"></a>IT 費用分析範例概觀
-IT 支出分析[內容套件](service-organizational-content-pack-introduction.md) (儀表板、報表和資料集) 分析 IT 部門之計劃與實際成本的比較。 這項比較可幫助我們了解公司的年度計畫是否得當，並可針對大大偏離計畫的領域進行調查。 此範例中的公司，會經歷一年一度的計畫週期，然後按季產出新的「最新估計」(LE) 來協助分析 IT 支出於會計年度的變化。
+IT 支出分析範例內容套件包含儀表板、報表和資料集，用來分析 IT 部門的計劃與實際成本。 這項比較可幫助我們了解公司的年度計畫是否得當，並可針對大大偏離計畫的領域進行調查。 此範例中的公司，會經歷一年一度的計畫週期，然後按季產出新的最新估計 (LE) 來協助分析 IT 支出於會計年度的變化。
 
-![](media/sample-it-spend/it1.png)
+![IT 支出分析範例的儀表板](media/sample-it-spend/it1.png)
 
-此範例是系列中的一部分，該系列說明您可如何使用 Power BI 的商業導向資料、報表及儀表板。 此為來自 obviEnce 的匿名真實資料 (<http://obvience.com/>)。
+此範例是系列中的一部分，說明您可如何使用 Power BI 的商業導向資料、報表與儀表板。 它是由 [obviEnce](http://www.obvience.com/), 使用真實資料 (已匿名化) 建立的。 資料會以數種格式提供：內容套件/應用程式、.pbix Power BI Desktop 檔案，或 Excel 活頁簿。 請參閱 [Power BI 範例](sample-datasets.md)。 
+
+本教學課程使用 Power BI 服務和 IT 支出分析範例內容套件。 因為報表的使用體驗皆非常類似，您也可以使用 Power BI Desktop 和範例 .pbix 檔案來進行教學課程。
 
 ## <a name="prerequisites"></a>先決條件
 
- 您必須先將範例下載為[內容套件](https://docs.microsoft.com/power-bi/sample-it-spend#get-the-content-pack-for-this-sample)、[.pbix 檔案](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)或 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529783)，才能使用範例。
+ 您必須先將範例下載為[內容套件](#get-the-content-pack-for-this-sample)、[.pbix 檔案](#get-the-pbix-file-for-this-sample)或 [Excel 活頁簿](#get-the-excel-workbook-for-this-sample)，才能使用範例。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 
-1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
+1. 開啟 Power BI 服務 (app.powerbi.com) 並登入，然後開啟您要儲存範例的工作區。
+
 2. 在左下角選取 [取得資料]  。
    
-    ![](media/sample-datasets/power-bi-get-data.png)
-3. 在顯示的 [取得資料] 頁面上，選取 [範例]  。
+   ![選取 [取得資料]](media/sample-datasets/power-bi-get-data.png)
+3. 在顯示的 [取得資料]  頁面上，選取 [範例]  。
    
-   ![](media/sample-datasets/power-bi-samples-icon.png)
-4. 選取 [IT 費用分析範例]  ，然後選擇 [連線]  。  
+4. 選取 [IT 支出分析範例]  ，然後選擇 [連線]  。  
   
-   ![取得資料](media/sample-it-spend/it-connect.png)
+   ![連線至範例](media/sample-it-spend/it-connect.png)
    
-5. Power BI 會匯入內容套件，並將新的儀表板、報表及資料集新增到您目前的工作區。 新的內容會以黃色星號標示。 
+5. Power BI 會匯入內容套件，然後將新儀表板、報表和資料集新增至您目前的工作區。
    
-   ![Aterisk](media/sample-it-spend/it-asterisk.png)
+   ![IT 支出分析範例項目](media/sample-it-spend/it-spend-analysis-sample-entry.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>取得此範例的 .pbix 檔案
 
-或者，您可以下載此範例為 .pbix 檔案，其設計目的是要用於 Power BI Desktop。 
-
- * [IT 費用分析範例](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+或者，您可以將 IT 支出分析範例下載為 [.pbix](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix) 檔案，其設計目的是要用於 Power BI Desktop。
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
-您也可以[只下載此範例的資料集 (Excel 活頁簿)](http://go.microsoft.com/fwlink/?LinkId=529783)。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理的資料，請選取 [Power Pivot] > [管理]  。
 
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529783) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
 
-## <a name="the-it-spend-analysis-sample-dashboard"></a>IT 支出分析範例的儀表板
-儀表板上具有兩個數字的磚， **浮動計畫 %** 和 **最新估計差異 % 第 3 季**，針對計畫與最新一季估計 (LE3 = 最新第 3 季估計) 的表現提供概觀。 整體上我們落後計畫 6%。 讓我們一起從時間點、地點及商品類別來了解造成此差異的原因。
+## <a name="it-spend-analysis-sample-dashboard"></a>IT 支出分析範例的儀表板
+儀表板左邊有兩個數字的圖格，[浮動計畫 %]  和 [最新估計差異 % 第 3 季]  ，針對計畫與最新一季估計 (LE3 = 最新第 3 季估計) 的表現提供概觀。 整體上我們落後計畫 6%。 讓我們一起從時間點、地點及商品類別來了解造成此差異的原因。
 
 ## <a name="ytd-it-spend-trend-analysis-page"></a>[YTD IT 支出趨勢分析] 頁面
-選取 [依銷售區域的浮動計畫 %]  儀表板磚，會引導您至「IT 支出分析範例」報表的 [IT 支出趨勢分析] 頁面。 在此一眼就可看出我們在美國及歐洲為正差異，加拿大、拉丁美洲地區和澳洲則為負差異。 美國的最新估計約為 6% 正差異，而澳洲的最新估計則約為 7% 的負差異。
+當您選取 [依銷售區域的 Var 方案 %]  儀表板圖格時，它會顯示 IT 支出分析範例報表的 [YTD IT 支出趨勢分析]  頁面。 我們可以一眼看出我們在美國和歐洲有正差異，而在加拿大、拉丁美洲和澳洲有負差異。 美國約為 6% 正差異，而澳洲則約為 7% 負差異。
 
-![](media/sample-it-spend/it2.png)
+![依銷售區域的 Var 方案 %](media/sample-it-spend/it2.png)
 
-但如果只看此圖表就做出結論恐怕會產生誤導。 我們必須看看實際金額才能洞悉狀況。
+不過，如果只看此圖表就做出結論恐怕會產生誤導。 我們必須看看實際金額才能洞悉狀況。
 
-1. 在「依銷售區域的浮動計畫 %」圖表中選取**澳洲和紐西蘭**，並觀察「IT 領域的浮動計畫」圖表。
+1. 在 [依銷售區域的 Var 方案 %]  圖表中選取 [澳洲和紐西蘭]  ，然後觀察 [依 IT 領域的 Var 方案]  圖表。
 
-   ![](media/sample-it-spend/it3.png)
-2. 現在請選取 **美國**。 想必這樣您就了解了，與美國相較之下，澳洲只在我們整體支出中佔了非常小的一部分。
+   ![[YTD IT 支出趨勢分析] 頁面](media/sample-it-spend/it3.png)
+2. 現在請選取 **美國**。 請注意，在我們的整體支出中，澳洲和紐西蘭相較於美國只占極小部分。
 
-    所以我們已將範圍縮小至美國，接下來呢？ 讓我們來探討美國的哪一類商品造成差異。
+    接下來，讓我們來探討美國的哪一類商品造成差異。
 
 ## <a name="ask-questions-of-the-data"></a>針對資料提問
-1. 選取導覽列頂端的 [IT 費用分析範例]  ，返回儀表板。
-2. 在問題方塊中輸入「顯示 IT 領域、浮動計畫 % 和最新第 3 季估計差異 % 長條圖」。
+1. 選取導覽列頂端的 [IT 費用分析範例]  ，返回範例儀表板。
+2. 選取 [詢問資料相關問題]  。
+3. 從左側的 [入門問題]  清單，選取 [何謂依 IT 領域的方案]  。
 
-   ![](media/sample-it-spend/it4.png)
+   ![依 IT 領域的方案圖表](media/sample-it-spend/it-area-chart.png)
 
-   在第一個 IT 領域，也就是 **基礎結構**中，初始的浮動計畫與最新估計的浮動計畫之間的百分比已有巨大差異。
+4. 在問與答方塊中，清除先前的項目，並輸入 *show IT areas, var plan % and var le3 % bar chart*。
+
+   ![依 IT 領域的 Var 方案 % 和 Var LE3 % 圖表](media/sample-it-spend/it4.png)
+
+   在第一個 IT 領域，也就是 **基礎結構**中，請注意，初始的浮動方案與最新估計的浮動方案之間的百分比已有巨大差異。
 
 ## <a name="ytd-spend-by-cost-elements-page"></a>[依成本項目的 YTD 支出] 頁面
-返回儀表板查看 [浮動計畫 %、最新第 3 季估計差異 %]  儀表板磚。
 
-![](media/sample-it-spend/it5.png)
+1. 返回儀表板，並查看 [浮動方案 %、浮動最新估計 % - 第 3 季]  儀表板圖格。
 
-即可看到基礎結構的極大計畫正差異。
+   ![Var 方案 %、Var LE3 圖格](media/sample-it-spend/it5.png)
 
-1. 按一下此磚，移至「IT 支出分析範例」報表的 [依成本項目的 YTD 支出] 頁面。
-2. 按一下左下方「依 IT 領域的浮動計畫 % 和最新第 3 季估計差異 %」圖表中的 [基礎結構]  長條，觀察左邊 [依銷售區域的浮動計畫 %] 中的計畫差異。
+   請注意，基礎結構區域凸顯出對方案有很大的正差異。
 
-    ![](media/sample-it-spend/it6.png)
-3. 按一下交叉分析篩選器中每個成本項目群組的名稱，找出有很大差異的成本項目。
-4. 在選取 [其他]  的情況下，按一下 [IT 領域] 中的 [基礎結構]  ，並按一下 [IT 子領域] 交叉分析篩選器中的子領域，找出具有最大差異的子領域。  
+1. 選取此圖格以開啟報表，並檢視 [依成本項目的 YTD 支出]  頁面。
+2. 選取左下方 [依 IT 領域的 Var 方案 % 和 Var LE3 %]  圖表中的 [基礎結構]  長條，並觀察左下方 [依銷售區域的 Var 方案 %]  中的方案值。
 
-   我們會看到 [網路]  中有很大的差異。
+    ![[依成本項目的 YTD 支出] 頁面](media/sample-it-spend/it6.png)
+3. 依序在 [成本項目群組]  交叉分析篩選器中選取每個名稱，來尋找差異最大的成本項目。
+4. 在選取 [其他]  的情況下，選取 [IT 領域]  交叉分析篩選器中的 [基礎結構]  ，並選取 [IT 子領域]  交叉分析篩選器中的子領域，找出差異最大的子領域。  
 
-   顯然公司決定提供員工電話服務做為福利，不過這項措施未經規劃。
+   請注意，[網路]  的大差異。 顯然公司決定提供員工電話服務做為福利，即使這項措施未經規劃也一樣。
 
-## <a name="plan-variance-analysis-page"></a>[計畫浮動分析] 頁面
-同樣在報表中，按一下報表底部的 [計畫浮動分析] 索引標籤，移至報表的第 3 頁。
+## <a name="plan-variance-analysis-page"></a>[方案變異分析] 頁面
 
-在左側的「依業務區域的浮動計畫和浮動計畫 %」組合式圖表中，按一下 [基礎結構] 欄，反白顯示頁面其他部分的基礎結構值。
+1. 選取頁面底部的 [方案變異分析]  索引標籤。
 
-![](media/sample-it-spend/it7.png)
+2. 在左側的 [依業務區域的 Var 方案和 Var 方案 %]  圖表中，選取 [基礎結構]  欄，反白顯示頁面其他部分的基礎結構業務區域值。
 
-請注意「依月份和業務區域的浮動計畫 %」圖表上的基礎結構，從二月開始有正差異且持續增加。 另外也請注意在與所有業務區域的值相較之下，基礎結構的計畫差異如何隨國家/地區產生變化。 使用右側的 [ IT 領域] 和 [IT 子領域] 交叉分析篩選器篩選頁面其餘部分的值，而不是加以反白顯示。 按一下右側的其他 [IT 領域]，以別種方式研究資料。 您也可以按一下 [IT 子領域] 以該層級來檢視差異。
+    ![[方案變異分析] 頁面](media/sample-it-spend/it7.png)
+
+   請注意，在 [依月份和業務區域的 Var 方案 %]  圖表中，礎結構業務區域在二月開始正差異。 另外也請注意在與所有其他業務區域相較之下，該業務區域的方案差異值如何隨國家/地區產生變化。 
+
+3. 使用右側的 [ IT 領域]  和 [IT 子領域]  交叉分析篩選器，來篩選頁面其餘部分的值，而不是探索資料。 
 
 ## <a name="edit-the-report"></a>編輯報表
-按一下左上角的 [編輯報表]  ，並在 [編輯檢視] 中瀏覽。
+選取左上角的 [編輯報表]  ，並在 [編輯檢視] 中探索：
 
-* 檢視頁面如何組成 – 每個圖表中的欄位、頁面上的篩選器
-* 根據相同的資料新增頁面和圖表
-* 變更每個圖表的視覺效果類型
-* 將頁面釘選到您的儀表板
+* 檢視頁面如何組成、每個圖表中的欄位，以及頁面上的篩選條件。
+* 根據相同的資料新增頁面和圖表。
+* 變更每個圖表的視覺效果類型。
+* 將感興趣的圖表釘選至儀表板。
 
-這是安全的作業環境。 您一律可以選擇不儲存變更。 但如果儲存了變更，您也可以隨時移至 [取得資料]，重新複製此範例。
+您可以在此環境盡情嘗試，因為您可以選擇不儲存您的變更。 但如果儲存了變更，您也可以隨時選取 [取得資料]  以取得此範例的新複本。
 
 ## <a name="next-steps-connect-to-your-data"></a>後續步驟：連線到您的資料
-我們希望本教學已示範 Power BI 儀表板、問與答和報表如何讓您深入了解 IT 支出的資料。 現在換您登場 — 連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 深入了解[開始使用 Power BI](service-get-started.md).
+我們希望本教學已示範 Power BI 儀表板、問與答和報表如何讓您深入了解 IT 支出的資料。 現在輪到您了，請連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 若要深入了解，請參閱[開始使用 Power BI 服務](service-get-started.md)。

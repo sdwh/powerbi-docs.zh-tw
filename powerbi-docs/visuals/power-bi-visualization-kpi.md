@@ -1,6 +1,6 @@
 ---
-title: KPI 視覺效果
-description: 在 Power BI 中建立 KPI 視覺效果
+title: 關鍵效能指標 (KPI) 視覺效果
+description: 在 Power BI 中建立關鍵效能指標 (KPI) 視覺效果
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,71 +8,97 @@ featuredvideoid: xmja6EpqaO0
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/24/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3d197da63be256825efc44c9e97988648d049efa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8fa39c7cc57e24f0c19e1a484c0e925bfeec94f7
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61067462"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389613"
 ---
-# <a name="kpi-visuals"></a>KPI 視覺效果
-關鍵效能指標 (KPI) 是一種視覺提示，指出對於可測量目標已達成的進度。 如需 KPI 的詳細資訊，請參閱 [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)
+# <a name="key-performance-indicator-kpi-visuals"></a>關鍵效能指標 (KPI) 視覺效果
 
-如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
+關鍵效能指標 (KPI) 是一種視覺提示，指出對於可測量目標已達成的進度。 如需 KPI 的詳細資訊，請參閱 [PowerPivot 中的關鍵效能指標 (KPI)](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110))。
 
-## <a name="prerequisites"></a>先決條件
-* [Power BI Desktop - 免費！](https://powerbi.microsoft.com/get-started/)
-* [零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-
-## <a name="when-to-use-a-kpi"></a>使用 KPI 的時機
-KPI 極適合：
-
-* 測量進度 (超前或落後了那些項目？)
-* 測量離目標的距離 (超前或落後了多少？)   
-
-## <a name="kpi-requirements"></a>KPI 需求
-關鍵效能指標 (KPI) 根據特定量值，設計來協助您評估針對定義目標的目前值和指標狀態。 因此，KPI 視覺效果需要評估為值的「基底」  量值和「目標」  量值或值，以及「臨界值」  或「目標」  。
-
-目前的 KPI 資料集必須包含 KPI 目標值。 若您的資料集未包含目標值，可透過將具有目標的 Excel 工作表新增至您的資料模型或 PBIX 檔案，以建立目標。
-
-
-## <a name="how-to-create-a-kpi"></a>如何建立 KPI
-若要跟著做，請在 Power BI Desktop 中開啟[零售分析 .PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。 我們將建立 KPI，測量我們對業務目標已達成的進度。
-
-或觀看 Will 說明如何建立單一計量的視覺效果︰量測計、卡片及 KPI。
+觀看 Will 說明如何建立單一計量的視覺效果︰量測計、卡片及 KPI。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. 在 [報表] 檢視中開啟報表並選取黃色索引標籤來新增頁面。    
-2. 從 [欄位] 窗格中選取 [銷售額] > [本年度的總單位]  。  這會是指標。
-3. 新增 [時間] > [FiscalMonth]  。  這會顯示趨勢。
-4. 重要：請依據 **FiscalMonth** 進行圖表排序。 將視覺效果轉換為 KPI 之後，即沒有選項可供排序。
+## <a name="when-to-use-a-kpi"></a>使用 KPI 的時機
 
-    ![](media/power-bi-visualization-kpi/power-bi-chart.png)
-5. 從 [視覺效果] 窗格中選取 KPI 圖示，將視覺效果轉換為 KPI。
-   
-    ![](media/power-bi-visualization-kpi/power-bi-kpi-template.png)
-6. 新增目標。 新增去年銷售為目標。 將 [去年度的總單位]  拖放至 [目標]  欄位。
-   
-    ![](media/power-bi-visualization-kpi/power-bi-kpi-done.png)
-7. (選擇性) 選取畫刷圖示可開啟 [格式化] 窗格來格式化 KPI。
-   
-   * **指標**：控制指標的顯示單位和小數位數。
-   * **趨勢軸**：若設定為 [開啟]  ，就會顯示趨勢軸，作為 KPI 視覺效果的背景。  
-   * **目標**：若設定為 [開啟]  ，視覺效果會顯示目標，並以百分比顯示離目標的距離。
-   * **[色彩編碼] > [方向]** - 某些 KPI 的值較高可視為「更好」  ，而某些則是值較低可視為「更好」  。 例如，盈餘和等待時間。 通常盈餘值較高代表「更好」，而等待時間更高通常代表「更糟」。 選取 [高更好]  ，以及選擇性變更色彩設定。
+KPI 極適合：
 
+* 測量進度。 解答以下問題：「超前或落後了那些項目？」
 
-KPI 在 Power BI 服務和行動裝置上也可供使用，讓您可隨時連線到貴企業的活動訊號。
+* 測量與目標的距離。 解答以下問題：「超前或落後了多少？」
+
+## <a name="kpi-requirements"></a>KPI 需求
+
+設計者將特定量值作為 KPI 視覺效果的基礎。 KPI 的意圖在於協助您針對定義的目標評估計量的目前值與狀態。 KPI 視覺效果需要評估為值的「基底」  量值、「目標」  量值或值，以及「臨界值」  或「目標」  。
+
+KPI 資料集必須包含 KPI 目標值。 如果您的資料集未包含目標值，可透過將具有目標的 Excel 工作表新增至您的資料模型或 PBIX 檔案，以建立它們。
+
+## <a name="prerequisites"></a>先決條件
+
+如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
+
+* [Power BI Desktop](https://powerbi.microsoft.com/get-started/) - 免費！
+
+* [零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+
+## <a name="how-to-create-a-kpi"></a>如何建立 KPI
+
+若要跟著做，請在 Power BI Desktop 中開啟[零售分析 .PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。 您將建立 KPI，測量我們銷售目標已達成的進度。
+
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 [零售分析範例]  。
+
+1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+
+1. 從 [欄位]  窗格中選取 [銷售額] > [本年度的總單位]  。  此值將是指標。
+
+1. 新增 [時間] > [FiscalMonth]  。  此值將代表趨勢。
+
+1. 在視覺效果的右上角，選取省略符號，然後檢查 Power BI 是否依 **FiscalMonth** 以遞增順序排序資料行。
+
+    > [!IMPORTANT]
+    > 將視覺效果轉換為 KPI 之後，即「沒有」  選項可供排序。 您必須立即正確排序它。
+
+    ![省略符號功能表已展開並已選取 FiscalMonth 的螢幕擷取畫面，其中依遞增順序排序。](media/power-bi-visualization-kpi/power-bi-ascending-by-fiscal-month.png)
+
+    一旦正確排序，您的視覺效果就會看起來像這樣：
+
+    ![已正確排序視覺效果的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-chart.png)
+
+1. 從 [視覺效果]  窗格中選取 **KPI** 圖示，將視覺效果轉換為 KPI。
+
+    ![標示 KPI 圖示的 [視覺效果] 窗格螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-kpi-template.png)
+
+1. 若要新增目標，請將 [去年度的總單位]  拖曳至 [目標]  欄位。
+
+    ![KPI 視覺效果已完成且 [欄位] 窗格具有所述值的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-kpi-done.png)
+
+1. (選擇性) 選取畫刷圖示可開啟 [格式化] 窗格來格式化 KPI。
+
+    * **指標**：控制指標的顯示單位和小數位數。
+
+    * **趨勢軸** - 設為 [開啟]  時，視覺效果會顯示趨勢軸，作為 KPI 視覺效果的背景。  
+
+    * **目標**：設為 [開啟]  時，視覺效果會顯示目標，並以百分比顯示與目標的距離。
+
+    * **[色彩編碼] > [方向]** - 人們會將某些「更高」  的 KPI 值視為更好，而會將某些「更低」  的 KPI 值視為更好。 例如，盈餘和等待時間。 通常盈餘值較高代表「更好」，而等待時間更高通常代表「更糟」。 選取 [高即好]  ，並選擇性變更色彩設定。
+
+在 Power BI 服務中和您的行動裝置上，也可以使用 KPI。 它可讓您選擇一律連線到您的業務活動訊號。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-* 若您的 KPI 看起來不像上述說明，可能是因為您需要依照會計月份排序。 因為 KPI 沒有排序選項，所以將視覺效果轉換為 KPI *之前*，必須先依照會計月份排序。
+
+若您的 KPI 看起來不像上述的 KPI，可能是因為您未依 **FiscalMonth** 排序。 Kpi 沒有排序選項。 您需要重新開始，並在將視覺效果轉換為 KPI「之前」  ，必須先依 **FiscalMonth** 排序。
 
 ## <a name="next-steps"></a>後續步驟
 
-[Power BI 中的基本地圖](power-bi-map-tips-and-tricks.md)
+* [Power BI 地圖視覺效果的秘訣和訣竅](power-bi-map-tips-and-tricks.md)
 
-[Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
