@@ -13,7 +13,7 @@ ms.custom: seodec18
 LocalizationGroup: Administration
 ms.openlocfilehash: 559ff45974274420e2545228720000359d5fe971
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64906855"
@@ -74,7 +74,7 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 如果在選定的日期範圍超過 90 天，您會收到錯誤。 如果您使用最大的 90 天日期範圍，請選取目前時間作為 [開始日期]  。 否則，您會收到錯誤，指出開始日期早於結束日期。 如果您已在過去 90 天內開啟稽核，日期範圍開始日期不能在開啟稽核的日期之前。
 
-![所呼叫的開始日期] 和 [結束日期選項的螢幕擷取畫面的稽核記錄搜尋。](media/service-admin-auditing/search-audit-log-by-date.png)
+![所呼叫的開始日期 和 結束日期選項的螢幕擷取畫面的稽核記錄搜尋。](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>依使用者搜尋稽核記錄
 
