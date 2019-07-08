@@ -1,5 +1,5 @@
 ---
-title: 在新的工作區中組織工作 - Power BI
+title: 在 Power BI 中組織新工作區中的工作
 description: 了解新的工作區，這些工作區是為了提供重要計量給組織而建立的儀表板和報告集合。
 author: maggiesMSFT
 manager: kfile
@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 06/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 419cd2137b8924f153009843d6f60db594219059
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345531"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418667"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 中組織新工作區中的工作
 
@@ -135,7 +135,7 @@ Power BI 會稽核新工作區體驗工作區的下列活動。
 - 成員可以或無法再次共用：取代為「參與者」角色
 - 唯讀工作區：無需將工作區的唯讀存取權授與使用者，請將使用者指派給檢視者角色，這會允許工作區中內容的類似唯讀存取權。
 - 如果工作區在 Power BI Premium 容量中，則沒有 Pro 授權的使用者可以存取工作區，即使使用者只有檢視者角色也一樣。
-- 若要允許具有檢視者角色的使用者匯出資料，請確定他們對工作區中的資料集具有建置權限。
+- 若要允許具有檢視者角色的使用者匯出資料，請確定他們對工作區中的資料集具有建置權限。 深入閱讀[資料集的建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
 - 沒有 [離開工作區]  按鈕。
 
 ## <a name="frequently-asked-questions"></a>常見問題集

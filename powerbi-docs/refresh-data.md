@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2760731e7be1216c4ec8755884467eca9d7eb4c4
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 0013080f3640c4c4d3d717104dcc069ccce3923a
+ms.sourcegitcommit: 952afd75fe8ddcf9350bd9aae88e1a4c438d0f3e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418780"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67561800"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 
@@ -177,6 +177,8 @@ Microsoft 建議使用企業資料閘道 (而不是個人閘道) 將資料集連
 如果您是閘道管理員，將資料集連接到企業閘道會相當簡單。 透過管理員權限，您可以立即更新閘道，並視需要新增遺漏的資料來源。 事實上，您可以直接從資料集設定頁面，將遺漏的資料來源新增至閘道。 展開切換按鈕以檢視資料來源，然後選取 [新增至閘道]  連結，如下列螢幕擷取畫面所示。 如果您不是閘道管理員，請改用顯示的連絡資訊來傳送要求給閘道管理員，以便新增必要的資料來源定義。
 
 ![新增至閘道](media/refresh-data/add-to-gateway.png)
+
+請確認您將正確的資料來源定義對應到您的資料來源。 如上方螢幕擷取畫面所示，閘道系統管理員可以在連線到同一個資料來源的單一閘道上，建立多個定義，並各有不同的認證。 在所示範例中，銷售部門中的資料集擁有者會選擇 AdventureWorksProducts-Sales 資料來源定義，而支援部門中的資料集擁有者會將資料集對應至 AdventureWorksProducts-Support 資料來源定義。 如果無法憑直覺挑選資料來源定義的名稱，請連絡您的閘道系統管理員，以釐清該挑選哪個定義。
 
 > [!NOTE]
 > 一個資料集只能使用一個閘道連接。 換句話說，您無法跨多個閘道連接存取內部部署資料來源。 因此，您必須將所有必要的資料來源定義新增至同一個閘道。
