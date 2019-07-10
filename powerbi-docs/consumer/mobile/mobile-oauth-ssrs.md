@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770363"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559068"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 連線至 Power BI 報表伺服器和 SSRS
 
@@ -25,7 +25,7 @@ ms.locfileid: "64770363"
 您可以使用 OAuth 連線至 Power BI 報表伺服器和 Reporting Services，以顯示行動報表或 KPI。 Windows Server 2016 提供「Web 應用程式 Proxy (WAP)」角色的一些改善，以允許這種類型的驗證。
 
    > [!NOTE]
-   > 檢視 Power BI 報表伺服器中裝載的 Power BI 報表使用 WAP 來驗證目前只支援 iOS 應用程式。 Android 應用程式未正式支援這一次。
+   > 現在 iOS 和 Android 應用程式支援使用 WAP 驗證，檢視裝載於 Power BI 報表伺服器的 Power BI 報表。
 
 ## <a name="requirements"></a>需求
 
@@ -63,7 +63,7 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 您需要確定具�
 
 ### <a name="enabling-negotiate-authentication"></a>啟用交涉驗證
 
-若要讓報表伺服器使用 Kerberos 驗證，您需要將報表伺服器的驗證類型設定為 RSWindowsNegotiate。 這是在 rsreportserver.config 檔案內完成。
+若要讓報表伺服器使用 Kerberos 驗證，您需要將報表伺服器的驗證類型設定為 RSWindowsNegotiate。 您是在 rsreportserver.config 檔案內完成。
 
 ```xml
 <AuthenticationTypes>  
@@ -113,12 +113,12 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 您需要確定具�
    ![ADFS 應用程式群組精靈 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
 7. 選取 [下一步]  。
 
-8. 提供報表伺服器的 URL。 這是將叫用您 Web 應用程式 Proxy 的外部 URL。 它的格式應該如下。
+8. 提供報表伺服器的 URL。 此 URL 是將會叫用您 Web 應用程式 Proxy 的外部 URL。 它的格式應該如下。
 
    > [!NOTE]
    > 此 URL 區分大小寫！
 
-   *https://< 報表伺服器 url > /*
+   *https://< 報表伺服器 URL >/reports*
 
    ![ADFS 應用程式群組精靈 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. 選取 [下一步]  。
@@ -141,7 +141,7 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 您需要確定具�
 
 ## <a name="web-application-proxy-wap-configuration"></a>Web 應用程式 Proxy (WAP) 設定
 
-您將想要在環境的伺服器上啟用 Windows 角色「Web 應用程式 Proxy」(角色)。 這必須位於 Windows 2016 伺服器上。 如需詳細資訊，請參閱 [Web Application Proxy in Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) (Windows Server 2016 中的 Web 應用程式 Proxy) 和 [Publishing Applications using AD FS Preauthentication](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app) (使用 AD FS 預先驗證發行應用程式)。
+您將想要在環境的伺服器上啟用 Windows 角色「Web 應用程式 Proxy」(角色)。 它必須位於 Windows 2016 伺服器上。 如需詳細資訊，請參閱 [Web Application Proxy in Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) (Windows Server 2016 中的 Web 應用程式 Proxy) 和 [Publishing Applications using AD FS Preauthentication](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app) (使用 AD FS 預先驗證發行應用程式)。
 
 ### <a name="constrained-delegation-configuration"></a>限制委派設定
 
@@ -239,7 +239,7 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ## <a name="troubleshooting"></a>疑難排解
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>您收到「無法登入 SSRS 伺服器」錯誤。 請驗證伺服器設定。
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>您收到「無法登入 SSRS 伺服器」錯誤。 驗證伺服器設定。
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

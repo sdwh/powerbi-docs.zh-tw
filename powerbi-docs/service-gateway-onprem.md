@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: f477cbd5f2d767333c16a43308b4793527665806
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7e2e0e7a980c72f203f93baf552685dce6f43bbd
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430778"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418819"
 ---
 # <a name="on-premises-data-gateway"></a>內部部署資料閘道
 
@@ -47,7 +47,7 @@ ms.locfileid: "55430778"
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>下載並安裝內部部署資料閘道
 
-請於下載功能表下選取 [資料閘道]，以下載閘道。 下載[內部部署資料閘道](http://go.microsoft.com/fwlink/?LinkID=820925)。
+請於下載功能表下選取 [資料閘道]  ，以下載閘道。 下載[內部部署資料閘道](http://go.microsoft.com/fwlink/?LinkID=820925)。
 
 請注意，更新內部部署資料閘道的方式是重新安裝閘道，如此節中所述。 只要安裝較新版本的閘道，就會保留您現有的設定。 如果您安裝相同的版本，則會將其視為完整重新安裝，並不會保留您的設定。
 
@@ -79,7 +79,7 @@ ms.locfileid: "55430778"
 
 ## <a name="storing-encrypted-credentials-in-the-cloud"></a>在雲端中儲存加密的認證
 
-當您在閘道中加入資料來源時，您必須提供該資料來源的認證。 資料來源的所有查詢都會使用這些認證來執行。 認證使用非對稱式加密安全地加密，因此在儲存到雲端之前，都無法在雲端中解密。 認證會傳送至執行閘道的內部部署電腦，並在存取資料來源時解密。
+當您在閘道中加入資料來源時，您必須提供該資料來源的認證。 資料來源的所有查詢都會使用這些認證來執行。 認證使用對稱式加密安全地加密，因此在儲存到雲端之前，都無法在雲端中解密。 認證會傳送至執行閘道的內部部署電腦，並在存取資料來源時解密。
 
 <!-- Account and Port information -->
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]

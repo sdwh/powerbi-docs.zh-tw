@@ -7,81 +7,102 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/28/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3d8057c4d35294dd5e83638b721169e4d54d2adf
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: c039b00ced1bf62c8be72d218177d04a9fd3accf
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66374373"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67532641"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>在 Power BI 中使用相對日期交叉分析篩選器和篩選
-利用**相對日期交叉分析篩選器**或**相對日期篩選條件**，可以將時間篩選條件套用到資料模型中的任何日期資料行。 舉例來說，您可以使用**相對日期交叉分析篩選器**，只顯示過去三十天 (或月、日曆月份等) 內產生的銷售資料。 當您重新整理資料時，相對時段會自動套用適當的相對日期限制式。
+# <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>在 Power BI Desktop 中使用相對日期交叉分析篩選器與篩選條件
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
+利用**相對日期交叉分析篩選器**或**相對日期篩選條件**，可以將時間篩選條件套用到資料模型中的任何日期資料行。 舉例來說，您可以使用**相對日期交叉分析篩選器**，只顯示過去 30 天 (或月、日曆月份等) 內產生的銷售資料。 當您重新整理資料時，相對時段會自動套用適當的相對日期限制式。
 
-## <a name="using-the-relative-date-range-slicer"></a>使用相對日期範圍交叉分析篩選器
-您可以使用相對日期交叉分析篩選器，就如同使用其他交叉分析篩選器一般。 只要建立報表的 [交叉分析篩選器]  視覺效果，然後選取一個日期值作為 [欄位]  值即可。 在下圖中，選取了 [OrderDate]  欄位。
+![箭號指向相對日期交叉分析篩選器的報表螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-02.png)
+## <a name="use-the-relative-date-range-slicer"></a>使用相對日期範圍交叉分析篩選器
 
-選取交叉分析篩選器視覺右上角的畫布，然後再插入號的交叉分析篩選器。 如果視覺效果包含日期資料，功能表會顯示的選項**相對**。 
+您可以使用相對日期交叉分析篩選器，就如同使用其他交叉分析篩選器一般。 建立報表的 [交叉分析篩選器]  視覺效果，然後針對 [欄位]  值選取日期值。 下圖中已選取 [OrderDate]  欄位。
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-03.png)
+![箭號指向交叉分析篩選器視覺圖示和欄位的 [視覺效果] 窗格螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-02.png)
+
+選取畫布中的交叉分析篩選器，然後選取交叉分析篩選器視覺效果右上角的插入號。 如果視覺效果有日期資料，則功能表會顯示 [相對]  選項。
+
+![在插入號周圍叫出有箭號指向 [相對] 的交叉分析篩選器視覺效果螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-03.png)
 
 針對相對日期交叉分析篩選器，請選取 [相對]  。
 
-接著您便可以選取設定。 在相對日期交叉分析篩選器  的第一個下拉式功能表中，您有下列選項：
+接著您便可以選取設定。
+
+針對「相對日期交叉分析篩選器」  的第一項設定，您有下列選擇：
+
+![叫出第一項設定的相對設定選項螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
 * 最後
+
 * 下一步
+
 * 此
 
-這些選取項目顯示於下圖。
+「相對日期交叉分析篩選器」  的第二項 (中間) 設定可讓您輸入數字，定義相對的日期範圍。
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
-
-相對日期交叉分析篩選器  中的之後 (中間那一項) 設定可讓您鍵入數字，以定義相對日期範圍。
+![叫出第二項設定的相對設定選項螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04a.png)
 
 第三個設定可讓您選取日期度量。 您有下列選項：
 
+![叫出第二項設定的相對設定選項螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
+
 * 天
+
 * 週
+
 * 週 (日曆)
+
 * 月
+
 * 月 (日曆)
+
 * 年
+
 * 年 (日曆)
 
-這些選取項目顯示於下圖。
+若從該清單中選取 [月]  ，並在中間設定中輸入 *2*，結果如下：
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
+* 如果今天是 7 月 20 日
 
-如果您從該清單選取 [月份]  ，並在中間設定中輸入 2，就會發生下列情形：如果今天是 7 月 20 日，受交叉分析篩選器限制的視覺效果中，包含的資料會顯示前兩個月，自 5 月 20 日至 7 月 20 日 (今天日期) 的資料。
+* 交叉分析篩選器限制視覺效果所包含資料會顯示前兩個月的資料
 
-相對來說，若您選取 [月 (日曆)]  ，受限制的視覺效果會顯示自 5 月 1 日至 6 月 30 日 (之後兩個完整的日曆月份) 的資料。
+* 從 5 月 20 日開始到 7 月 20 (今天的日期)
+
+相對來說，若您選取 [月 (日曆)]  ，則受限制視覺效果會顯示 5 月 1 日至 6 月 30 日的資料 (過去兩個完整的日曆月份)。
 
 ## <a name="using-the-relative-date-range-filter"></a>使用相對日期範圍篩選條件
-您也可以為報表頁面或整個報表建立相對日期範圍篩選。 若要這樣做，只要如下圖所示，將日期欄位拖曳至 [欄位]  窗格中的 [頁面層級篩選]  或 [報表層級篩選]  區域。
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-06.png)
+您也可以為報表頁面或整個報表建立相對日期範圍篩選。 若要這樣做，請將日期欄位拖曳至 [欄位]  窗格中的 [頁面層級篩選]  井或 [報表層級篩選]  井：
 
-完成後，您可以用類似自訂**相對日期交叉分析篩選器**的方式修改相對日期範圍。 從 [篩選類型]  下拉式功能表選取 [相對日期篩選]  。
+![拖曳 [OrderDate] 欄位到 [頁面層級篩選] 井的螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-06.png)
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-07.png)
+到達目的地後，您就可以變更相對日期範圍。 類似自訂**相對日期交叉分析篩選器**的方法。 從 [篩選類型]  下拉式功能表選取 [相對日期篩選]  。
 
-選取 [相對日期篩選]  後，您會看見三個要修改的區段，包括一個置中的數字方塊，就像交叉分析篩選器一樣。
+![顯示 [相對日期篩選] 之 [篩選器類型] 下拉式清單和滑鼠指標的螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-07.png)
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-08.png)
+選取 [相對日期篩選]  後，如同交叉分析篩選器，您會看見三個要變更的區段，包括中間的數字方塊，。
 
-以上就是在報表中使用這些相對日期限制式的步驟。
+![顯示值選項時，箭號指向 [顯示項目] 的 [報表層級篩選] 螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-08.png)
 
 ## <a name="limitations-and-considerations"></a>限制與考量
+
 **相對日期範圍交叉分析篩選器**及篩選條件目前適用下列限制與考量。
 
 * **Power BI** 中的資料模型不包含時區資訊。 模型可以儲存時間，但無法指出所在時區。
-* 交叉分析篩選器及篩選條件一律以 UTC 時間為依據，所以如果您在報表中設定篩選條件，再將其傳送給不同時區中的同事，您與同事都會看到一樣的資料。 不過，若您不在 UTC 時區內，可能會看見時間位移在預期之外的資料。
-* 使用**查詢編輯器**可以將在當地時區中擷取的資料轉換為 UTC。
 
+* 交叉分析篩選器和篩選條件一律以 UTC 時區為基礎。 如果您在報表中設定篩選條件，並將它傳送給不同時區的同事，則兩人會看到相同的資料。 除非您在 UTC 時區中，否則您和同事必須考量會經歷的時間位移。
+
+* 您可以使用 [查詢編輯器]  將擷取的當地時區資料轉換為 UTC。
+
+## <a name="next-steps"></a>後續步驟
+
+了解如何[在 Power BI Desktop 中使用分組與收納](../desktop-grouping-and-binning.md)。

@@ -1,6 +1,6 @@
 ---
 title: 設定點一下的報表互動
-description: 了解如何設定以單引號或雙引號的點選報表互動。
+description: 了解如何設定點一下或點兩下的報表互動。
 author: mshenhav
 manager: kfile
 ms.reviewer: ''
@@ -9,14 +9,14 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: c7f5476ed9d47cc42f275d51801a44c4ee3482ca
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c553b921ebeb30b8fb8ec7ba9f7bce74f6c31dee
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61340585"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558961"
 ---
-# <a name="configure-report-interaction-to-single-tap-or-double-tap-preview"></a>設定點一下或連點兩下 （預覽） 的報表互動
+# <a name="configure-report-interaction-to-single-tap-or-double-tap"></a>設定點一下或點兩下的報表互動
 適用於︰
 
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android 手機](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | 
@@ -25,24 +25,24 @@ ms.locfileid: "61340585"
 
 Power BI 報表是資料的互動式檢視，以視覺效果顯示資料的各種發現與洞見及需要深入了解的事項。
 
-您可以設定與資料互動的方式。 您可以決定是否要有單一的點選互動或 double 點選互動。
+您可以設定與資料互動的方式。 您可以決定要點一下互動或點兩下互動。
 
-* 連點兩下互動，您第一次點選視覺效果上的，選取它時，與第二個點選視覺效果上執行的動作本身，例如交叉分析篩選器項目選取項目、 交叉醒目提示或按一下連結、 按鈕等等。
+* 使用點兩下互動，在視覺效果上點第一下時會選取它，只有在視覺效果上點第二下時才會執行動作本身，例如交叉分析篩選器項目選取、交叉醒目提示或按一下連結、按鈕等。
 
-* 只要點選一下互動點選兩者都執行-選取視覺效果，並執行動作。
-![Power BI 行動裝置，點一下](./media/mobile-app-single-tap/single-tap-2.gif)
+* 使用點一下互動，點選一次即完成兩項作業 - 選取視覺效果並執行動作。
+![Power BI Mobile 點一下](./media/mobile-app-single-tap/single-tap-2.gif)
 
 
-從適用於 Android 的 Power BI 應用程式版本 18.0 適用於 iOS 和 112540，所有新的安裝將會設定使用單一的點選做為預設行為。
-已有安裝在手機上的 Power BI，並為這些新的版本中，將會升級的使用者就會收到切換至點一下。
+從 iOS 版 Power BI 應用程式 18.0 版和 Android 112540 版開始，所有新安裝都會設定點一下的預設行為。
+手機上已安裝 Power BI 以及要升級為這些新版本的使用者，可切換為點一下。
 
 ## <a name="change-interaction-behavior"></a>變更互動行為
 
-若要變更的互動行為，您可以移至應用程式設定，並開啟/關閉只要點選一下互動。
+若要變更互動行為，您可以移至應用程式設定，並開啟/關閉點一下互動。
 
-![Power BI 行動版變更的報表互動](./media/mobile-app-single-tap/configure-single-tap.png)
+![Power BI Mobile 變更報表互動](./media/mobile-app-single-tap/configure-single-tap.png)
 
-本文適用於兩者橫向和手機報表。
+本文適用於橫向和手機報表。
 
 ## <a name="next-steps"></a>後續步驟
 * [檢視為您的手機最佳化的 Power BI 報表，並與其互動](mobile-apps-view-phone-report.md)

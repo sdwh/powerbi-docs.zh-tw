@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137290"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67499000"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>開始在 iOS 裝置上使用 Power BI 行動裝置應用程式
 iPhone、iPad 或 iPod Touch 的 Microsoft Power BI for iOS 應用程式傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 透過 [Apple Watch](mobile-apple-watch.md)，隨時掌握最即時的資料。  
@@ -33,7 +33,7 @@ iPhone、iPad 或 iPod Touch 的 Microsoft Power BI for iOS 應用程式傳遞 P
 ## <a name="download-the-app"></a>下載此應用程式
 從 Apple App Store [下載 iOS 應用程式](http://go.microsoft.com/fwlink/?LinkId=522062 "下載 iOS 應用程式")至 iPhone、iPad 或 iPod Touch。
 
-您可以在 iPhone 5 及更新版本的裝置上 (使用 iOS 10 或更新版本) 執行 Power BI for iOS 應用程式。 您也可以在搭載 iOS 10 或更新版本的 iPad 或 iPod Touch 上執行。 
+您可以在任何執行 iOS 11 或更新版本的裝置上執行 Power BI for iOS 應用程式。 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>註冊 Power BI 服務
 如果您尚未註冊，請前往 [powerbi.com](https://powerbi.microsoft.com/get-started/)，然後在 [Power BI - 雲端共同作業與共用]  下選取 [免費試用]  。

@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
-ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
-ms.translationtype: MT
+ms.openlocfilehash: 8acc0e403c983de79657cd01a7aa7f458bfb01ad
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66469778"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559053"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>管理 Power BI 內部部署閘道
 
@@ -31,6 +31,8 @@ ms.locfileid: "66469778"
 
 Power BI 支援許多的內部部署資料來源，而且各有自己的需求。 閘道可以用於單一資料來源或多個資料來源。 在本範例中，我們將示範如何將 SQL Server 新增為資料來源，但其他資料來源的步驟類似。
 
+> [!NOTE]
+> 閘道管理員現在可以建立連接到相同來源的多個資料來源，各有不同的認證，並根據使用者的存取層級，將他們新增至每一個資料來源。
 
 ### <a name="add-a-data-source"></a>加入資料來源
 
@@ -53,6 +55,11 @@ Power BI 支援許多的內部部署資料來源，而且各有自己的需求�
 
 1. 針對 SQL Server，您應選擇 **Windows** 或**基本** (SQL 驗證) 的**驗證方法**。  如果您選擇**基本**，請輸入資料來源的認證。
 
+1. 如果此資料來源目前無法使用或速度緩慢，請選取 [跳過測試連接]  。 否則建立資料來源可能會失敗。
+
+    > [!NOTE]
+    > Analysis services 不支援跳過測試連接。
+
 1. 在 [進階設定]  下，選擇性地為您的資料來源 (不適用於 [DirectQuery](desktop-directquery-about.md)) 設定[隱私權等級](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)。
 
     ![進階設定](media/service-gateway-manage/advanced-settings.png)
@@ -74,7 +81,7 @@ Power BI 支援許多的內部部署資料來源，而且各有自己的需求�
 
 ## <a name="manage-users-and-administrators"></a>管理使用者和系統管理員
 
-將資料來源加入閘道之後，您可以授與使用者和安全性群組對特定資料來源的存取權 (而不是整個閘道)。 資料來源使用者清單能夠控制可以發行報表的人員，且這些報表可以包含來自資料來源的資料。 報表擁有者可以建立儀表板、內容套件和應用程式，然後與其他使用者共用。
+將資料來源新增至閘道後，您可以將特定資料來源 (非整個閘道) 存取權授與使用者和具電子郵件功能的安全性群組。 資料來源使用者清單能夠控制可以發行報表的人員，且這些報表可以包含來自資料來源的資料。 報表擁有者可以建立儀表板、內容套件和應用程式，然後與其他使用者共用。
 
 您也可以授與使用者和安全性群組對閘道的管理存取權。
 
@@ -98,14 +105,14 @@ Power BI 支援許多的內部部署資料來源，而且各有自己的需求�
 
 ### <a name="remove-users-from-a-data-source"></a>從資料來源中移除使用者
 
-您可以在 [使用者]  索引標籤上，為資料來源移除使用這個資料來源的使用者或安全性群組。
+您可以在資料來源的 [使用者]  索引標籤上，移除使用者和具電子郵件功能的安全性群組，其使用這個資料來源。
 
 ![移除使用者](media/service-gateway-manage/remove-user.png)
 
 
 ### <a name="add-and-remove-administrators"></a>新增和移除管理員
 
-在閘道的 [管理員]  索引標籤上，新增和移除可管理閘道的使用者 (或安全性群組)。
+在閘道的 [管理員]  索引標籤上，新增和移除可管理閘道的使用者 (或具電子郵件功能的安全性群組)。
 
 ![[管理員] 索引標籤](media/service-gateway-manage/administrators-tab.png)
 

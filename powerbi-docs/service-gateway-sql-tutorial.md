@@ -3,206 +3,205 @@ title: 教學課程：連線到 SQL Server 中的內部部署資料
 description: 了解如何使用 SQL Server 作為閘道資料來源，包括如何重新整理資料。
 author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 96ea117ff0ba28a158eb9f0eaf748d66b25f90d5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d73d2ea5e21196d4856d2906805e6dec1f7e60b7
+ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278921"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "67468355"
 ---
-# <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>教學課程：連線到 SQL Server 中的內部部署資料
+# <a name="refresh-data-from-an-on-premises-sql-server-database"></a>從內部部署 SQL Server 資料庫重新整理資料
 
-內部部署資料閘道是您在內部部署網路中安裝的軟體，它有助於存取該網路中的資料。 在本教學課程中，您將根據從 SQL Server 匯入的範例資料，在 Power BI Desktop 中建置報表。 然後，您可以將報表發行至 Power BI 服務，並設定閘道，讓服務能夠存取內部部署資料。 此存取權就表示該服務可以重新整理資料，以使報表保持最新狀態。
+在本教學課程中，您會探索如何從您區域網路中的內部部署關聯式資料庫重新整理 Power BI 資料集。 具體而言，本教學課程會使用範例 SQL Database 資料庫，而 Power BI 必須透過內部部署資料閘道才能存取該資料庫。
 
-在本教學課程中，您會了解如何：
+在本教學課程中，您完成下列步驟：
+
 > [!div class="checklist"]
-> * 從 SQL Server 中的資料建立報表
-> * 將報表發行至 Power BI 服務
-> * 加入 SQL Server 作為閘道資料來源
-> * 重新整理報表中的資料
-
-如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
-
+> * 建立和發佈 Power BI Desktop (.pbx) 檔案，從內部部署 SQL Server 資料庫匯入資料。
+> * 在 Power BI 中針對透過資料閘道的 SQL Server 連線能力設定資料來源及資料集設定。
+> * 設定重新整理排程，確保您的 Power BI 資料集擁有最近的資料。
+> * 執行您資料集的隨選重新整理。
+> * 檢閱重新整理歷程記錄，分析過去重新整理循環的結果。
+> * 刪除在本教學課程中建立的成品來清除資源。
 
 ## <a name="prerequisites"></a>先決條件
 
-* [安裝 Power BI Desktop](https://powerbi.microsoft.com/desktop/)
-* 在本機電腦上[安裝 SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server) 
-* 在相同的本機電腦上[安裝內部部署資料閘道](service-gateway-install.md) (在生產環境中，通常是另一部電腦)
+- 若您尚未擁有 Power BI，請在開始前先註冊[免費 Power BI 試用版](https://app.powerbi.com/signupredirect?pbi_source=web)。
+- 在本機電腦上[安裝 Power BI Desktop](https://powerbi.microsoft.com/desktop/)。
+- 在本機電腦上[安裝 SQL Server](/sql/database-engine/install-windows/install-sql-server)，然後[從備份還原範例資料庫]((https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak))。 如需 AdventureWorks 的詳細資訊，請參閱 [AdventureWorks 安裝及設定](/sql/samples/adventureworks-install-configure)。
+- 在相同的本機電腦上[安裝內部部署資料閘道](service-gateway-install.md)作為 SQL Server (在生產環境中，其通常是另一部電腦)。
 
+> [!NOTE]
+> 若您不是閘道管理員，且不想要自行安裝閘道，請連絡您組織中的閘道管理員。 他們可以建立將您資料集連線到 SQL Server 資料庫時所需要的資料來源定義。
 
-## <a name="set-up-sample-data"></a>設定範例資料
+## <a name="create-and-publish-a-power-bi-desktop-file"></a>建立及發佈 Power BI Desktop 檔案
 
-首先您將範例資料加入至 SQL Server，以便在本教學課程的其餘部分使用該資料。
+請使用下列程序，利用 AdventureWorksDW 範例資料庫建立基本的 Power BI 報表。 將報表發佈到 Power BI 服務，讓您在 Power BI 中取得資料集，並在接下來的步驟中進行設定及重新整理。
 
-1. 在 SQL Server Management Studio (SSMS) 中，連線到您的 SQL Server 執行個體，並建立測試資料庫。
+1. 在 Power BI Desktop 的 [首頁]  索引標籤上，選取 [取得資料]  \> [SQL Server]  。
 
-    ```sql
-    CREATE DATABASE TestGatewayDocs
-    ```
+2. 在 [SQL Server 資料庫]  對話方塊中，輸入 [伺服器]  及 [資料庫 (選擇性)]  名稱、確認 [資料連線能力模式]  為 [匯入]  ，然後選取 [確定]  。
 
-2. 在您建立的資料庫中，新增資料表並插入資料。
+    ![SQL Server 資料庫](./media/service-gateway-sql-tutorial/sql-server-database.png)
 
-    ```sql
-    USE TestGatewayDocs
+3. 驗證您的 [認證]  ，然後選取 [連線]  。
 
-    CREATE TABLE Product (
-        SalesDate DATE,
-        Category  VARCHAR(100),
-        Product VARCHAR(100),
-        Sales MONEY,
-        Quantity INT
-    )
+    > [!NOTE]
+    > 若您無法進行驗證，請確認您已選取正確的驗證方法，並使用具備資料庫存取權限的帳戶。 在測試環境中，您可以使用具備明確使用者名稱及密碼的資料庫驗證。 在生產環境中，您通常會使用 Windows 驗證。 請參閱[針對重新整理案例進行疑難排解](refresh-troubleshooting-refresh-scenarios.md)及連絡您的資料庫管理員，以取得其他協助。
 
-    INSERT INTO Product VALUES('2018-05-05','Accessories','Carrying Case',9924.60,68)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','Tripod',1350.00,18)
-    INSERT INTO Product VALUES('2018-05-11','Accessories','Lens Adapter',1147.50,17)
-    INSERT INTO Product VALUES('2018-05-05','Accessories','Mini Battery Charger',1056.00,44)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','Telephoto Conversion Lens',1380.00,18)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','USB Cable',780.00,26)
-    INSERT INTO Product VALUES('2018-05-08','Accessories','Budget Movie-Maker',3798.00,9)
-    INSERT INTO Product VALUES('2018-05-09','Digital video recorder','Business Videographer',10400.00,13)
-    INSERT INTO Product VALUES('2018-05-10','Digital video recorder','Social Videographer',3000.00,60)
-    INSERT INTO Product VALUES('2018-05-11','Digital','Advanced Digital',7234.50,39)
-    INSERT INTO Product VALUES('2018-05-07','Digital','Compact Digital',10836.00,84)
-    INSERT INTO Product VALUES('2018-05-08','Digital','Consumer Digital',2550.00,17)
-    INSERT INTO Product VALUES('2018-05-05','Digital','Slim Digital',8357.80,44)
-    INSERT INTO Product VALUES('2018-05-09','Digital SLR','SLR Camera 35mm',18530.00,34)
-    INSERT INTO Product VALUES('2018-05-07','Digital SLR','SLR Camera',26576.00,88)
-    ```
+1. 若出現 [加密支援]  對話方塊，請選取 [確定]  。
 
-3. 從資料表中選取資料以確認。
+2. 在 [導覽]  對話方塊中，選取 **DimProduct** 資料表，然後選取 [載入]  。
 
-    ```sql
-    SELECT * FROM Product
-    ```
+    ![資料來源導覽](./media/service-gateway-sql-tutorial/data-source-navigator.png)
 
-    ![查詢結果](media/service-gateway-sql-tutorial/query-results.png)
+3. 在 Power BI Desktop [報表]  檢視的 [視覺效果]  窗格中，選取 [堆疊直條圖]  。
 
+    ![堆疊直條圖](./media/service-gateway-sql-tutorial/stacked-column-chart.png)
 
-## <a name="build-and-publish-a-report"></a>建置並發行報表
+4. 選取報表畫布中的直條圖後，在 [欄位]  窗格中，選取 [EnglishProductName]  和 [ListPrice]  欄位。
 
-有可供使用的範例資料之後，接著就可以連線到 Power BI Desktop 中的 SQL Server，並根據這些資料建置報表。 然後將報表發佈至 Power BI 服務。
+    ![欄位窗格](./media/service-gateway-sql-tutorial/fields-pane.png)
 
-1. 在 Power BI Desktop 的 [常用] 索引標籤上，選取 [取得資料] > [SQL Server]。
+5. 將 [EndDate]  拖曳到 [報表層級篩選]  上，然後在 [基本篩選]  下方，只選取 [(空白)]  的核取方塊。
 
-2. 在 [伺服器] 下輸入您的伺服器名稱，並在 [資料庫] 下輸入 "TestGatewayDocs"。 選取 [確定] 。 
-
-    ![輸入伺服器與資料庫](media/service-gateway-sql-tutorial/server-database.png)
-
-3. 確認您的認證，然後選取 [連線]。
-
-4. 在 [導覽器] 下，選取 [Product] \(產品\) 資料表，然後選取 [載入]。
-
-    ![選取 [產品] 資料表](media/service-gateway-sql-tutorial/select-product-table.png)
-
-5. 在 Power BI Desktop [報表] 檢視的 [視覺效果] 窗格中，選取 [堆疊直條圖]。
-
-    ![堆疊直條圖](media/service-gateway-sql-tutorial/column-chart.png)    
-
-6. 選取報表畫布中的直條圖後，在 [欄位] 窗格中選取 [產品] 和 [銷售] 欄位。  
-
-    ![選取欄位](media/service-gateway-sql-tutorial/select-fields.png)
+    ![報表層級篩選](./media/service-gateway-sql-tutorial/report-level-filters.png)
 
     圖表現在看起來應該類似如下。
 
-    ![選取 [產品] 資料表](media/service-gateway-sql-tutorial/finished-chart.png)
+    ![完成後的直條圖](./media/service-gateway-sql-tutorial/finished-column-chart.png)
 
-    請注意，**單眼相機**是目前的銷售領導者。 當您稍後在本教學課程更新資料並重新整理報表時，這會有所變更。
+    請注意，其中列出了定價最高的五項 **Road-250** 產品。 當您稍後在本教學課程中更新資料並重新整理報表時，這會有所變更。
 
-7. 儲存名稱為 "TestGatewayDocs.pbix" 的報表。
+6. 使用名稱 "AdventureWorksProducts.pbix" 來儲存報表。
 
-8. 在 [常用] 索引標籤上，選取 [發行] > [我的工作區] > [選取]。 如果系統要求您登入 Power BI 服務，請執行這項操作。 
+7. 在 [首頁]  索引標籤上，選取 [發佈]  \> [我的工作區]  \> [選取]  。 如果系統要求您登入 Power BI 服務，請執行這項操作。
 
-    ![發行報表](media/service-gateway-sql-tutorial/publish-report.png)
+8. 在 [成功]  畫面上，選取 [在 Power BI 中開啟 'AdventureWorksProducts.pbix']  。
 
-9. 在 [成功] 畫面上，選取 [在 Power BI 中開啟 'TestGatewayDocs.pbix']。
+    [發佈至 Power BI](./media/service-gateway-sql-tutorial/publish-to-power-bi.png)
 
+## <a name="connect-a-dataset-to-a-sql-server-database"></a>將資料集連線到 SQL Server 資料庫
 
-## <a name="add-sql-server-as-a-gateway-data-source"></a>加入 SQL Server 作為閘道資料來源
+在 Power BI Desktop 中，您可以直接連線到您的內部部署 SQL Server 資料庫，但 Power BI 服務需要資料閘道作為雲端和您內部部署網路之間的橋樑。 請遵循這些步驟來將您的內部部署 SQL Server 資料庫作為資料來源新增到閘道，然後將您的資料集連線到此資料來源。
 
-在 Power BI Desktop 中，您會直接連線到 SQL Server，但 Power BI 服務需要閘道作為橋接器。 現在，將您的 SQL Server 執行個體新增為先前文章中 (列在[必要條件](#prerequisites)下) 所建立閘道的資料來源。 
+1. 登入 Power BI。 選取右上角的設定齒輪圖示，然後選取 [設定]  。
 
-1. 在 Power BI 服務的右上角，選取齒輪圖示 ![設定齒輪圖示](media/service-gateway-sql-tutorial/icon-gear.png) > [管理閘道]。
+    ![Power BI 設定](./media/service-gateway-sql-tutorial/power-bi-settings.png)
 
-    ![管理閘道](media/service-gateway-sql-tutorial/manage-gateways.png)
+2. 在 [資料集]  索引標籤上，選取 **AdventureWorksProducts** 資料集，讓您可以透過資料閘道連線到內部部署 SQL Server 資料庫。
 
-2. 選取 [加入資料來源]，然後輸入 "test-sql-source" 作為**資料來源名稱**。
+3. 展開 [閘道連線]  並驗證其中至少列出了一個閘道。 若您沒有閘道，請參閱本教學課程稍早的[必要條件](#prerequisites)一節，以取得安裝及設定閘道的產品文件連結。
 
-    ![加入資料來源](media/service-gateway-sql-tutorial/add-data-source.png)
+    ![閘道連線](./media/service-gateway-sql-tutorial/gateway-connection.png)
 
-3. 選取 **SQL Server** 的**資料來源類型**，然後輸入其他值，如下所示。
+4. 在 [動作]  下方，展開切換按鈕來檢視資料來源，並選取 [新增至閘道]  連結。
 
-    ![輸入資料來源設定](media/service-gateway-sql-tutorial/data-source-settings.png)
+    ![將資料來源新增至閘道](./media/service-gateway-sql-tutorial/add-data-source-gateway.png)
 
+    > [!NOTE]
+    > 若您不是閘道管理員，且不想要自行安裝閘道，請連絡您組織中的閘道管理員。 他們可以建立將您資料集連線到 SQL Server 資料庫時所需的資料來源定義。
 
-   |          選項           |                                               值                                                |
-   |---------------------------|----------------------------------------------------------------------------------------------------|
-   |   **資料來源名稱**    |                                          test-sql-source                                           |
-   |   **資料來源類型**    |                                             SQL Server                                             |
-   |        **伺服器**         | 您的 SQL Server 執行個體名稱 (必須與您在 Power BI Desktop 中指定的名稱相同) |
-   |       **資料庫**        |                                          TestGatewayDocs                                           |
-   | **驗證方法** |                                              Windows                                               |
-   |       **使用者名稱**        |             您用來連線到 SQL Server 的帳戶，例如 michael@contoso.com             |
-   |       **密碼**        |                   用來連線到 SQL Server 之帳戶的密碼                    |
+5. 在 [閘道]  管理頁面上，於 [資料來源設定]  索引標籤上，輸入並驗證下列資訊，然後選取 [新增]  。
 
+    | 選項 | 值 |
+    | --- | --- |
+    | 資料來源名稱 | AdventureWorksProducts |
+    | 資料來源類型 | SQL Server |
+    | 伺服器 | 您的 SQL Server 執行個體名稱，例如 SQLServer01 (必須與您在 Power BI Desktop 中所指定的內容相同)。 |
+    | 資料庫 | 您的 SQL Server 資料庫名稱，例如 AdventureWorksDW (必須與您在 Power BI Desktop 中所指定的內容相同)。 |
+    | 驗證方法 | Windows 或 Basic (通常是 Windows)。 |
+    | 使用者名稱 | 您用來連線到 SQL Server 的使用者帳戶。 |
+    | 密碼 | 您用來連線到 SQL Server 的帳戶密碼。 |
 
-4. 選取 [加入] 。 當程序成功時，您會看到 [連線成功]。
+    ![資料來源設定](./media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    ![連線成功](media/service-gateway-sql-tutorial/connection-successful.png)
+6. 在 [資料集]  索引標籤上，再次展開 [閘道連線]  區段。 選取您設定的資料閘道 (該閘道的 [狀態]  會顯示其正在您安裝它的電腦上執行)，然後選取 [套用]  。
 
-    您現在可以使用此資料來源，在 Power BI 儀表板和報表中包含 SQL Server 的資料。
+    ![更新閘道連線](./media/service-gateway-sql-tutorial/update-gateway-connection.png)
 
+## <a name="configure-a-refresh-schedule"></a>設定重新整理排程
 
-## <a name="configure-and-use-data-refresh"></a>設定及使用資料重新整理
+現在您已將 Power BI 中的資料集透過資料閘道連線到 SQL Server 資料庫內部部署，請遵循這些步驟來設定重新整理排程。 以排程作為基礎重新整理您的資料集，可協助確保您的報表和儀表板皆具備最新資料。
 
-您將報表發行至 Power BI 服務中，並設定 SQL Server 資料來源。 完成之後，您現在對產品資料表進行變更，並且該變更會通過閘道流向已發行的報表。 您還可以設定排定的重新整理，以處理任何未來的變更。
+1. 在左側瀏覽窗格中，開啟 [我的工作區]  \> [資料集]  。 選取 **AdventureWorksProducts** 資料集的省略符號 ( **. . .** )，然後選取 [排程重新整理]  。
 
-1. 在 SSMS 中，更新產品資料表中的資料。
+    > [!NOTE]
+    > 確認您選取的是 **AdventureWorksProducts** 資料集的省略符號，而非具備相同名稱報表的省略符號。 **AdventureWorksProducts** 報表的操作功能表不包含 [排程重新整理]  選項。
 
-    ```sql
-    UPDATE Product
-    SET Sales = 32508, Quantity = 252
-    WHERE Product='Compact Digital'     
+2. 在 [已排程的重新整理]  區段中，於 [將您的資料維持在最新狀態]  下方，將重新整理設為 [開啟]  。
 
-    ```
+3. 選取適當的 [重新整理頻率]  (例如 [每天]  )，然後在 [時間]  下方，選取 [新增其他時間]  來指定所需的重新整理時間 (此範例為早上和晚上的 6:30)。
 
-2. 在 Power BI 服務的左側瀏覽窗格中，選取 [我的工作區]。
+    ![設定排程的重新整理](./media/service-gateway-sql-tutorial/configure-scheduled-refresh.png)
 
-3. 在 [資料集] 下，針對 **TestGatewayDocs** 資料集選取 [詳細] (**. . .**) > [立即重新整理]。
+    > [!NOTE]
+    > 若您的資料集位共用容量上，您可以設定最多每天 8 個時段；若是在 Power BI Premium 中，則可以設定 48 個時段。
 
-    ![立即重新重理](media/service-gateway-sql-tutorial/refresh-now.png)
+4. 將 [傳送重新整理失敗通知電子郵件給我]  核取方塊保持在啟用狀態，然後選取 [套用]  。
 
-4. 選取 [我的工作區] > [報表] > [TestGatewayDocs]。 查看更新的流向方式，且銷售領導者現在是**輕便相機**。 
+## <a name="perform-an-on-demand-refresh"></a>執行隨選重新整理
 
-    ![更新資料](media/service-gateway-sql-tutorial/updated-data.png)
+現在您已設定了重新整理排程，Power BI 即會在下一個排程的時間重新整理您的資料集 (於 15 分鐘的邊際內)。 如果您想要更快重新整理資料 (例如測試閘道和資料來源設定)，請使用左側瀏覽窗格資料集功能表中的 [立即重新整理]  選項來執行隨選重新整理。 隨選重新整理不會影響下次排程重新整理時間，但會計入每日重新整理限制，如前一節所述。
 
-5. 選取 [我的工作區] > [報表] > [TestGatewayDocs]。 選取 [更多] (**. . .**) > [排程重新整理]。
+為了說明，請透過使用 SQL Server Management Studio (SSMS) 更新 AdventureWorksDW 資料庫中的 DimProduct 資料表，來模擬範例資料的變更。
 
-6. 在 [排程重新整理] 下，將重新整理設定為 [開啟]，然後選取 [套用]。 根據預設，資料集是每天重新整理的。
+```sql
 
-    ![排程重新整理](media/service-gateway-sql-tutorial/schedule-refresh.png)
+UPDATE [AdventureWorksDW].[dbo].[DimProduct]
+SET ListPrice = 5000
+WHERE EnglishProductName ='Road-250 Red, 58'
+
+```
+
+現在請遵循這些步驟，讓更新後的資料可以透過閘道連線流入資料集，並流入 Power BI 中的報表。
+
+1. 在 Power BI 服務的左側導覽窗格中，選取並展開 [我的工作區]  。
+
+2. 在 [資料集]  下方，針對 **AdventureWorksProducts** 資料集，選取省略符號 ( **. . .** )，然後選取 [立即重新整理]  。
+
+    ![立即重新重理](./media/service-gateway-sql-tutorial/refresh-now.png)
+
+    請注意右上角，Power BI 正在準備執行所要求的重新整理。
+
+3. 選取 [我的工作區 \> 報表 \> AdventureWorksProducts]  。 查看更新資料流經的方式，且現在定價最高的產品為 **Road-250 Red, 58**。
+
+    ![更新直條圖](./media/service-gateway-sql-tutorial/updated-column-chart.png)
+
+## <a name="review-the-refresh-history"></a>檢閱重新整理歷程記錄
+
+定期在重新整理歷程記錄中檢查過去重新整理循環的結果是個好做法。 資料庫認證可能已過期，或是所選取的閘道可能已在排程重新整理時離線。 請遵循這些步驟來檢查重新整理歷程記錄並檢查問題。
+
+1. 在 Power BI 使用者介面的右上角，選取設定齒輪圖示，然後選取 [設定]  。
+
+2. 切換到 [資料集]  ，然後選取您要檢查的資料集，例如 **AdventureWorksProducts**。
+
+3. 選取 [重新整理歷程記錄]  連結來開啟 [重新整理歷程記錄]  對話方塊。
+
+    ![重新整理歷程記錄連結](./media/service-gateway-sql-tutorial/refresh-history-link.png)
+
+4. 在 [已排程]  索引標籤上，注意過去的已排程及隨選重新整理，以及它們的 [開始]  和 [結束]  時間，以及 [已完成]  的 [狀態]  ，其指出 Power BI 是否已成功執行重新整理。 針對失敗的重新整理，您可以查看錯誤訊息並檢查錯誤詳細資料。
+
+    ![重新整理歷程記錄詳細資料](./media/service-gateway-sql-tutorial/refresh-history-details.png)
+
+    > [!NOTE]
+    > OneDrive 索引標籤只針對連線到 Power BI Desktop 檔案、Excel 活頁簿，或是 OneDrive 或 SharePoint Online 上 CSV 檔案的資料集才有用途，如 [Power BI 中的資料重新整理](refresh-data.md)中所詳細描述。
 
 ## <a name="clean-up-resources"></a>清除資源
-如果您不想再使用範例資料，請在 SSMS 中執行 `DROP DATABASE TestGatewayDocs`。 如果您不想使用 SQL Server 資料來源，請[移除資料來源](service-gateway-manage.md#remove-a-data-source)。 
 
+若您不想要繼續使用範例資料，請在 SQL Server Management Studio (SSMS) 中卸除資料庫。 若您不想要使用 SQL Server 資料來源，請從您的資料閘道移除資料來源。 若您只是為了完成本教學課程而安裝它，也請考慮移除資料閘道。 您也應該刪除在您上傳 AdventureWorksProducts.pbix 檔案時 Power BI 建立的 AdventureWorksProducts 資料集和 AdventureWorksProducts 報表。
 
 ## <a name="next-steps"></a>後續步驟
-在本教學課程中，您已了解如何：
-> [!div class="checklist"]
-> * 從 SQL Server 中的資料建立報表
-> * 將報表發行至 Power BI 服務
-> * 加入 SQL Server 作為閘道資料來源
-> * 重新整理報表中的資料
 
-繼續閱讀下列文章以深入了解
-> [!div class="nextstepaction"]
-> [管理 Power BI 閘道](service-gateway-manage.md)
+在本教學課程中，您已探索如何從內部部署 SQL Server 資料庫將資料匯入 Power BI 資料集，以及如何根據排程和隨選來重新整理此資料集，以將 Power BI 中使用此資料集的報表和儀表板維持在更新狀態。 現在您可以深入了解管理 Power BI 中的資料閘道和資料來源。 檢閱＜Power BI 中的資料重新整理＞概念文章也是一個不錯的做法。
 
+- [管理 Power BI 內部部署閘道](service-gateway-manage.md)
+- [管理您的資料來源 - 匯入/排程重新整理](service-gateway-enterprise-manage-scheduled-refresh.md)
+- [Power BI 的資料重新整理](refresh-data.md)

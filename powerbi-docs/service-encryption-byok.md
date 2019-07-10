@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5c93a50ce481c5fad899c1911b30100dca7cb841
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264513"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67498960"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>攜帶您自己的加密金鑰以用於 Power BI (預覽)
 
@@ -103,13 +103,22 @@ BYOK 僅適用於與 PBIX 檔案關聯的資料集，而不適用於圖格與視
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
 ```
 
-此 Cmdlet 接受兩個參數，這些參數影響目前和未來容量的加密。 根據預設，並未設定任何參數：
+若要新增多個金鑰，請使用不同的 `-Name` 和 `-KeyVaultKeyUri` 值來執行 `Add-PowerBIEncryptionKey`。 
 
-- `-Activate`：表示此金鑰會用於租用戶中的所有現有容量。
+此 Cmdlet 接受兩個參數，這些參數影響目前和未來容量的加密。 根據預設，不會設定任何切換：
+
+- `-Activate`：表示此金鑰會用於租用戶中所有尚未加密的現有容量。
 
 - `-Default`：表示此金鑰現在是整個租用戶的預設值。 當您建立新的容量時，該容量會繼承此金鑰。
 
-如果您指定 `-Default`，即刻起所有在此租用戶上建立的容量都會使用您指定的金鑰 (或更新的預設金鑰) 來加密。 您無法復原預設作業，因此您無法建立不使用您租用戶中 BYOK 的 Premium 容量。
+> [!IMPORTANT]
+> 如果您指定 `-Default`，即刻起所有在您租用戶上建立的容量都會使用您所指定金鑰 (或更新的預設金鑰) 來加密。 您無法復原預設作業，因此您將無法在租用戶中建立未使用 BYOK 的 Premium 容量。
+
+在您於租用戶上啟用 BYOK 後，請使用 [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) 來設定一或多個 Power BI 容量的加密金鑰：
+
+```powershell
+Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
+```
 
 您可以控制如何在您的租用戶中使用 BYOK。 例如，若要加密單一容量，請呼叫 `Add-PowerBIEncryptionKey` 而不使用 `-Activate`或 `-Default`。 然後，為您要啟用 BYOK 的容量呼叫 `Set-PowerBICapacityEncryptionKey`。
 
@@ -136,12 +145,6 @@ Power BI 也提供其他的 Cmdlet 以協助您管理租用戶中的 BYOK：
     ```
 
     請注意，加密是在容量層級啟用，但您會在指定工作區的資料集層級取得加密狀態。
-
-- 使用 [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) 以更新 Power BI 容量的加密金鑰：
-
-    ```powershell
-    Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
-    ```
 
 - 使用 [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) 以切換 (或變換  ) 用於加密的金鑰版本。 此 Cmdlet 只會更新金鑰 `-Name` 的 `-KeyVaultKeyUri`：
 

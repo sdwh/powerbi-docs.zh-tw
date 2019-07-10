@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
-ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67038908"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558976"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -22,6 +22,15 @@ ms.locfileid: "67038908"
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
+
+## <a name="june-2019"></a>2019 年 6 月
+
+### <a name="barcode-scanning-is-now-available-in-android"></a>Android 現可掃描條碼
+現在您可以使用 Android (手機和平板電腦) 的 Power BI 應用程式掃描門市產品或貨架上的印出條碼，顯示按掃描值篩選的相關 Power BI 報表。 深入了解[使用條碼篩選資料](mobile-apps-scan-barcode-iphone.md)。
+
+### <a name="supporting-pbix-reports-hosted-in-pbi-rs-over-adfs-configuration-ios-android"></a>支援透過 ADFS 設定裝載在 PBI-RS 的 PBIX 報表 (iOS、 Android)
+
+透過 ADFS 設定裝載在 PBI-RS 中的 Power BI 報表 (PBIX)，現在也可以從 Power BI 行動裝置應用程式存取。
 
 ## <a name="may-2019"></a>2019 年 5 月
 
