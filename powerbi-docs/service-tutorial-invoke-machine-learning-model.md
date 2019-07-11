@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 31c1cd7a8455232fdaa3bb3d391fb93e87ad5062
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e0b2036192ace4404816f5ba64ad07569949452e
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61404147"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596598"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>教學課程：在 Power BI 中叫用 Machine Learning Studio 模型 (預覽)
 
@@ -62,7 +62,7 @@ ms.locfileid: "61404147"
 
 此步驟假設您具有您想要使用 CSV 格式的 Azure ML 模型評分的資料。  如果您使用**汽車定價實驗**在 Machine Learning Studio 中建立模型，下列連結中將共用其資料集：
 
-* [Azure Learning Studio 範例模型](https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv)
+* [Azure Learning Studio 範例模型](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
 
 ### <a name="create-a-dataflow"></a>建立資料流程
 

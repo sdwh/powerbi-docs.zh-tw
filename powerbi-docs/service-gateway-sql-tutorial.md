@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d73d2ea5e21196d4856d2906805e6dec1f7e60b7
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468355"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596625"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>從內部部署 SQL Server 資料庫重新整理資料
 
@@ -35,7 +35,7 @@ ms.locfileid: "67468355"
 
 - 若您尚未擁有 Power BI，請在開始前先註冊[免費 Power BI 試用版](https://app.powerbi.com/signupredirect?pbi_source=web)。
 - 在本機電腦上[安裝 Power BI Desktop](https://powerbi.microsoft.com/desktop/)。
-- 在本機電腦上[安裝 SQL Server](/sql/database-engine/install-windows/install-sql-server)，然後[從備份還原範例資料庫]((https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak))。 如需 AdventureWorks 的詳細資訊，請參閱 [AdventureWorks 安裝及設定](/sql/samples/adventureworks-install-configure)。
+- 在本機電腦上[安裝 SQL Server](/sql/database-engine/install-windows/install-sql-server)，然後[從備份還原範例資料庫](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)。 如需 AdventureWorks 的詳細資訊，請參閱 [AdventureWorks 安裝及設定](/sql/samples/adventureworks-install-configure)。
 - 在相同的本機電腦上[安裝內部部署資料閘道](service-gateway-install.md)作為 SQL Server (在生產環境中，其通常是另一部電腦)。
 
 > [!NOTE]

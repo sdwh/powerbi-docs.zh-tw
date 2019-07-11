@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 6aebc45f2341f098f0f54dad66652967077c2a08
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 7c58d4a5ce94a8659c85606dc2cbce1b4fc615f5
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823410"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596557"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>搭配 Power BI Embedded 的資料列層級安全性
 
@@ -287,7 +287,7 @@ public IdentityBlob(string value);
 
 ### <a name="token-based-identity-rest-api-usage"></a>權杖型身分識別 REST API 使用方式
 
-若您呼叫 [REST API](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetoken#definitions)，您可在各個身分識別中新增身分識別 Blob。
+若您呼叫 [REST API](/rest/api/power-bi/embedtoken/reports_generatetokeningroup#definitions)，您可在各個身分識別中新增身分識別 Blob。
 
 ```JSON
 {
