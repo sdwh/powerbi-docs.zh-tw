@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7e9d8779480eb7a00dacfc9fc52fc81987629e7b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136496"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791924"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>搭配 Power BI 資料流程使用累加式重新整理
 
@@ -33,7 +33,7 @@ ms.locfileid: "61136496"
 
 資料流程可以包含許多實體。 累加式重新整理是在實體層級設定的，允許一個資料流程同時保存完整重新整理的實體和以累加方式重新整理的實體。
 
-若要設定累加式重新整理實體，請像設定任何其他實體一樣，從設定實體開始。 若要深入了解設定的資料流程，請參閱[在 Power BI 中的自助資料準備](service-dataflows-overview.md)。
+若要設定累加式重新整理實體，請像設定任何其他實體一樣，從設定實體開始。 若要深入了解資料流程設定，請參閱 [Power BI 中的自助資料準備](service-dataflows-overview.md)。
 
 建立並儲存資料流程之後，請在實體檢視中選取 [累加式重新整理]  圖示，如下圖所示：
 
@@ -96,7 +96,7 @@ ms.locfileid: "61136496"
 
 ## <a name="dataflow-incremental-refresh-and-datasets"></a>資料流程累加式重新整理與資料集
 
-資料流程累加式重新整理和資料集累加式重新整理是為協同合作而設計的。 它可以接受且支援在資料流程中，以累加方式重新整理實體、完整載入到資料集，或將在資料流程中完整載入的實體以累加方式載入到資料集。 
+資料流程累加式重新整理和資料集累加式重新整理是為協同合作而設計的。 在資料流程中以累加方式重新整理實體、完整載入到資料集，或將在資料流程中完整載入的實體以累加方式載入到資料集，都是可接受且受支援的。 
 
 兩種方式都以您在重新整理設定中指定的定義為依據。
 您可以在 [Power BI Premium 中的累加式重新整理](service-premium-incremental-refresh.md)中深入了解累加式重新整理。
@@ -156,7 +156,7 @@ ms.locfileid: "61136496"
 
 * [使用資料流程的自助資料準備](service-dataflows-overview.md)
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 
 如需 Power Query 和排程重新整理的詳細資訊，您可以閱讀下列文章：
