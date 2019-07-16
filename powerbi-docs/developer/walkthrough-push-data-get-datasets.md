@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: c0a70339e8336f3e7b93b40ad8a99dcb87715812
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f7dc84c9c6c84a30417d97f37d984b5f01ec9cd7
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710234"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596462"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步驟 4：取得資料集，以便將資料列加入 Power BI 資料表
 
@@ -22,7 +22,7 @@ ms.locfileid: "65710234"
 
 在＜將資料推送至資料集＞的**步驟 3** [在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)中，您呼叫了[建立資料集](https://docs.microsoft.com/rest/api/power-bi/datasets)作業，以在 Power BI 中建立資料集。 在此步驟中，您會使用[取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)作業和 Newtonsoft.Json 來取得資料集識別碼。您使用步驟 4 中的資料集識別碼將資料列加入資料集。 
 
-若要將資料推送至 Power BI 資料集，您需要參考資料集中的資料表。 若要參考資料集中的資料表，您首先需要取得 **資料集識別碼**。 您可使用[依識別碼取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid)作業來取得**資料集識別碼**。 **依識別碼取得資料集**作業會傳回 JSON 字串，包含 Power BI 中的所有資料集清單。 建議使用 [Newtonsoft.Json](http://www.newtonsoft.com/json) 還原序列化 JSON 字串。
+若要將資料推送至 Power BI 資料集，您需要參考資料集中的資料表。 若要參考資料集中的資料表，您首先需要取得 **資料集識別碼**。 使用[取得資料集](/rest/api/power-bi/datasets/getdatasets)作業將能取得**資料集識別碼**。 **取得資料集**作業會傳回 JSON 字串，它包含 Power BI 中所有資料集的清單。 建議使用 [Newtonsoft.Json](http://www.newtonsoft.com/json) 還原序列化 JSON 字串。
 
 以下是取得資料集的方式。
 

@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 37751117853c8bca686585992108c006c6c76b70
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59913e5d17d15dad8729cd5c96582d09f708c30a
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187474"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791840"
 ---
 # <a name="what-is-power-bi-report-server"></a>什麼是 Power BI 報表伺服器？
 
@@ -24,7 +24,7 @@ Power BI 報表伺服器是具有入口網站的內部部署報表伺服器，�
 ![Power BI 報表伺服器入口網站](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>比較 Power BI 報表伺服器 
-「Power BI 報表伺服器」與 SQL Server Reporting Services 和 Power BI 線上服務都類似，但方式不同。 Power BI 服務，例如 Power BI 報表伺服器會裝載 Power BI 報表 (。PBIX) Excel 檔案和編頁的報表 (。RDL)。 Reporting Services，例如 Power BI 報表伺服器是在內部部署環境。 Power BI 報表伺服器功能是 Reporting Services 的超集： 您可以在 Reporting Services 中所做的一切，你可以使用 Power BI 報表伺服器，以及支援的 Power BI 報表。 如需詳細資料，請參閱[比較 Power BI 報表伺服器與 Power BI 服務](compare-report-server-service.md)。
+「Power BI 報表伺服器」與 SQL Server Reporting Services 和 Power BI 線上服務都類似，但方式不同。 和 Power BI 服務相同，Power BI 報表伺服器能裝載 Power BI 報表 (.PBIX)、Excel 檔案及編頁報表 (.RDL)。 和 Reporting Services 相同，Power BI 報表伺服器位於內部部署環境。 Power BI 報表伺服器功能是 Reporting Services 的超集：所有可以在 Reporting Services 中執行的作業，都能透過 Power BI 報表伺服器來執行，同時它也支援 Power BI 報表。 如需詳細資料，請參閱[比較 Power BI 報表伺服器與 Power BI 服務](compare-report-server-service.md)。
 
 ## <a name="licensing-power-bi-report-server"></a>授權 Power BI 報表伺服器
 Power BI 報表伺服器可透過兩個不同的授權取得：[Power BI Premium](../service-premium-what-is.md) 和 [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) 含軟體保證。 使用 Power BI Premium 授權時，您可以建立混合了雲端和內部部署環境的混合式部署。  
@@ -48,14 +48,14 @@ Power BI 報表伺服器可透過兩個不同的授權取得：[Power BI Premium
 
 Power BI 報表是資料模型的多面向檢視，具有代表來自該資料模型各種不同發現和見解的視覺效果。  報表只能有一種視覺效果或有各種視覺效果的頁面。 視您的角色而定，您可能可以讀取和探索報表，或是為其他項目建立報表。
 
-了解[安裝 Microsoft Power BI Desktop](install-powerbi-desktop.md)。
+請參閱[安裝 Microsoft Power BI Desktop](install-powerbi-desktop.md)。
 
 ## <a name="paginated-reports"></a>編頁報表
 編頁報表 (.RDL) 是含有視覺效果的文件型報表，其中資料表會以水平和垂直方式展開來顯示其所有資料，並視需要一頁接著一頁延伸下去。 它們非常適用於已針對列印進行最佳化的固定配置、像素完美文件，例如 PDF 和 Word 檔案。 
 
 ![「Power BI 報表伺服器」中的編頁報表](media/get-started/paginated-reports.png)
 
-您可以建立分頁的報表中使用[報表產生器](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)中或報表設計師[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt)。
+您可使用[報表產生器](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) \(部分機器翻譯\) 或 [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt) \(部分機器翻譯\) 中的報表設計師來建立編頁報表。
 
 ## <a name="reporting-services-mobile-reports"></a>Reporting Services 行動報表
 行動報表會連線至內部部署資料，並具有可因應不同裝置和不同持有方式的回應式配置。 您可以使用「SQL Server 行動報表發行工具」來建立它們。

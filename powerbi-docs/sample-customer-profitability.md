@@ -7,15 +7,15 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/20/2019
+ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 333403ca74c5c5a13c94cbd41100915c7260e304
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418768"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791998"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客戶獲利率範例：觀看導覽
 
@@ -23,17 +23,21 @@ ms.locfileid: "67418768"
 
 ![客戶獲利率範例的儀表板](media/sample-customer-profitability/power-bi-dash.png)
 
-此範例是系列中的一部分，說明您可如何使用 Power BI 的商業導向資料、報表與儀表板。 它是由 [obviEnce](http://www.obvience.com/), 使用真實資料 (已匿名化) 建立的。 資料會以數種格式提供：內容套件/應用程式、.pbix Power BI Desktop 檔案，或 Excel 活頁簿。 請參閱 [Power BI 範例](sample-datasets.md)。 
+此範例是系列中的一部分，說明您可如何使用 Power BI 的商業導向資料、報表與儀表板。 它是由 [obviEnce](http://www.obvience.com/), 使用真實資料 (已匿名化) 建立的。 資料會以數種格式提供：內容套件、.pbix Power BI Desktop 檔案，或 Excel 活頁簿。 請參閱 [Power BI 範例](sample-datasets.md)。 
 
-此教學課程使用 Power BI 服務和客戶獲利率範例內容套件。 因為報表的使用體驗皆非常類似，您也可以使用 Power BI Desktop 和範例 .pbix 檔案來進行教學課程。 
+此教學課程探索 Power BI 服務中的客戶獲利率範例內容套件。 因為 Power BI Desktop 和服務中報表的使用體驗皆非常類似，因此您也可以在 Power BI Desktop 中使用範例 .pbix 檔案來進行教學課程。 
 
-## <a name="prerequisites"></a>先決條件
+您不需要 Power BI 授權，即可在 Power BI Desktop 中瀏覽範例。 如果您沒有 Power BI Pro 授權，則可以將範例儲存到 Power BI 服務中的 [我的工作區]。 
+
+## <a name="get-the-sample"></a>取得範例
 
 您必須先將範例下載為[內容套件](#get-the-content-pack-for-this-sample)、[.pbix 檔案](#get-the-pbix-file-for-this-sample)或 [Excel 活頁簿](#get-the-excel-workbook-for-this-sample)，才能使用範例。
 
 ### <a name="get-the-content-pack-for-this-sample"></a>取得此範例的內容套件
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入，然後開啟您要儲存範例的工作區。
+
+   如果您沒有 Power BI Pro 授權，則可以將範例儲存到 [我的工作區]。
 
 2. 在左下角選取 [取得資料]  。
 
@@ -53,7 +57,7 @@ ms.locfileid: "67418768"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529781) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529781) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>儀表板告訴我們什麼？
 
@@ -135,8 +139,8 @@ ms.locfileid: "67418768"
 1. 在左側的 [主管]  交叉分析篩選器中，選取 Andrew 的名字來篩選報表頁面，只顯示與他有關的資料：
 
    * 如需快速查看 KPI，請查看 Andrew 的 [營收狀態 (整年)]  ；呈現綠色，表示他的業績很好。
-   * [按月和主管對預算的營收 % 差異]  圖表顯示，除了二月份下跌，Andrew 整年的表現都很不錯。 他負責的區域是東部區域，手上有 49 位客戶和 5 項產品 (共 7 項)。 他的 GM% 不是最高或最低。
-   * [今年營收和按月對預算的營收 % 差異]  圖表顯示平穩甚至有獲利。 不過，如果您在區域矩形式樹狀結構圖中選取 [中部]  方塊進行篩選時，您會發現 Andrew 只有三月份在印第安納州有營收。 這是故意為之，還是有什麼需要一探究竟嗎？
+   * [按月和主管對預算的營收百分比差異]  圖表顯示，除了二月份下跌，Andrew 的表現都很不錯。 他負責的區域是東部區域，手上有 49 個客戶和 5 個產品 (共 7 個)。 他的 GM% 不是最高或最低。
+   * [今年營收和按月對預算的營收 % 差異]  圖表顯示平穩甚至有獲利。 不過，如果您在區域矩形式樹狀結構圖中選取 [中部]  方塊進行篩選時，您會發現 Andrew 只有三月份在印第安納州有營收。 此意圖是故意為之，還是有什麼需要一探究竟嗎？
 
 2. 現在來看看 Valery。 在 [主管]  交叉分析篩選器中，選取 Valery 的名字來篩選報表頁面，只顯示與她有關的資料。 
 
@@ -205,5 +209,5 @@ ms.locfileid: "67418768"
 ## <a name="next-steps-connect-to-your-data"></a>後續步驟：連線到您的資料
 您可以在此環境盡情嘗試，因為您可以選擇不儲存您的變更。 但如果儲存了變更，您也可以隨時選取 [取得資料]  以取得此範例的新複本。
 
-我們希望本教學已示範 Power BI 儀表板、問與答和報表如何讓您深入了解客戶的資料。 現在輪到您了，請連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 若要深入了解，請參閱[開始使用 Power BI 服務](service-get-started.md)。
+希望此教學已讓您了解 Power BI 儀表板、問與答和報表能夠如何提供範例資料的見解。 現在輪到您了，請連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 若要深入了解，請參閱[開始使用 Power BI 服務](service-get-started.md)。
 

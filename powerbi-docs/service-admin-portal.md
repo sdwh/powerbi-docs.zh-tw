@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 06/27/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 992524d3467ebe9bb130b3c61476301ab2bc563c
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: a871a7475dd8282f9ce63646c371182548504357
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67409175"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67568098"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -50,7 +50,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ## <a name="usage-metrics"></a>使用計量
 
-[使用計量]  可讓您監視您組織的 Power BI 使用量。 它也能讓您查看貴組織 Power BI 中最活躍的使用者和群組。
+[使用計量]  可讓您監視您組織的 Power BI 使用量。 它也能讓您查看貴組織 Power BI 中最活躍的使用者和群組。 
 
 > [!NOTE]
 > 第一次存取儀表板，或經過長時間未檢視儀表板而再次瀏覽時，您可能會在載入儀表板時看到載入畫面。
@@ -82,6 +82,40 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 第二個區段顯示相同類型的資訊，但以群組為依據。 這可讓您查看貴組織中最活躍的群組，以及他們取用的內容類型。
 
 利用此資訊，您可以真正了解組織中人員如何使用 Power BI，而且能夠識別出貴組織中活躍的使用者與群組。
+
+## <a name="control-usage-metrics"></a>控制使用計量
+
+使用計量報表是 Power BI 或 Office 365 系統管理員可以開啟或關閉的功能。 系統管理員可以更精細地控制有哪些使用者可以存取使用計量。 它們針對組織中的所有使用者預設為 [開啟]  。
+
+系統管理員也可以決定內容建立者是否能在使用計量中看見個別使用者資料。 
+
+請參閱[監視 Power BI 儀表板和報表的使用計量](service-usage-metrics.md)以取得關於報表本身的詳細資料。
+
+### <a name="usage-metrics-for-content-creators"></a>內容建立者的使用計量
+
+1. 從管理入口網站中，選取 [租用戶設定]   > [內容創作者的使用計量]  。
+
+    ![管理入口網站租用戶設定使用計量](media/service-admin-portal/power-bi-admin-usage-metrics.png)
+
+1. 啟用 (或停用) 使用計量 > [套用]  。
+
+    ![已啟用使用計量](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
+
+
+### <a name="per-user-data-in-usage-metrics"></a>使用計量中的個別使用者資料
+
+根據預設，會針對使用計量啟用個別使用者資料，而且會將內容取用者帳戶資訊包含在計量報表中。 如果您不想要針對部分或所有使用者包括這項資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」  。
+
+![個別使用者使用量資料](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
+
+### <a name="delete-all-existing-usage-metrics-content"></a>刪除所有現有使用計量內容
+
+當系統管理員針對其整個組織停用使用計量時，他們也可以選擇下列一或兩個選項來：
+
+- [刪除所有現有的使用計量內容]  以刪除利用使用計量報表和資料集所建置的所有現有報表和儀表板磚。 此選項會移除組織中可能已使用它之所有使用者的使用計量資料之所有存取權。 
+- [刪除目前使用計量內容中所有現有的每位使用者資料]  ，此選項會移除組織中可能已使用它之所有使用者的所有個別使用者資料存取權。 
+
+請小心，因為刪除現有使用量和個別使用者計量內容是無法復原的。
 
 ## <a name="users"></a>使用者
 

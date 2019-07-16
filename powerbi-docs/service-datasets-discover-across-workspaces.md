@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99769b78060756c557223dd366da550ad3e11056
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: f8229c74a233d8bc44370380bf635527506194f0
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461273"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567446"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>以不同工作區的資料集為基礎建立報表 (預覽)
 
@@ -43,7 +43,7 @@ ms.locfileid: "66461273"
 
 當您按一下 [建立]  時，您會建立資料集的即時連線，並使用完整的資料集開啟報表建立體驗。 您尚未製作資料集的複本。 資料集仍位在其原始位置。 您可以使用資料集中所有資料表和量值建置您自己的報表。 資料集的資料列層級安全性 (RLS) 限制已生效，因此您只會看到根據您的 RLS 角色有權查看的資料。
 
-您可以將報表儲存到 Power BI 服務目前的工作區中，或從 Power BI Desktop 將報表發佈至工作區。 如果報表是以工作區外的資料集為基礎，則 Power BI 會自動在資料集清單中建立項目。 此資料集的圖示和工作區資料集的圖示不同： ![共用的資料集圖示](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
+您可以將報表儲存到 Power BI 服務目前的工作區中，或從 Power BI Desktop 將報表發佈至工作區。 如果報表是以工作區外的資料集為基礎，則 Power BI 會自動在資料集清單中建立項目。 此資料集圖示和工作區資料集的圖示不同： ![共用的資料集圖示](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
 
 如此一來，工作區成員就可以分辨哪些報表和儀表板使用工作區外的資料集。 此項目會顯示資料集的相關資訊以及少數選取動作。
 
@@ -51,7 +51,7 @@ ms.locfileid: "66461273"
 
 ## <a name="find-an-endorsed-dataset"></a>尋找已認可的資料集
 
-有兩種不同的已認可資料集。 資料集擁有者可以「升級」  他們向您建議的資料集。 Power BI 租用戶管理員可以指定您組織中的專家，「認證」  供大家使用的資料集。 升級及認證的資料集都會顯示「徽章」  ，當您尋找資料集以及在工作區的資料集清單中，都會看到它們。 
+有兩種不同的已認可資料集。 資料集擁有者可以「升級」  他們向您建議的資料集。 此外，Power BI 租用戶管理員可以指定您組織中可「認證」  資料集供大家使用的專家。 升級及認證的資料集都會顯示「徽章」  ，當您尋找資料集以及在工作區的資料集清單中，都會看到它們。 在資料集探索體驗期間，在工具提示中會顯示認證資料集的人員名稱；將滑鼠停留在 [認證]  標籤上即可看到它。
 
 - 在 Power BI 服務中：[取得資料]   > [已發佈資料集]  。
 - 在 Power BI Desktop 中：[取得資料]   > [Power BI 資料集]  。

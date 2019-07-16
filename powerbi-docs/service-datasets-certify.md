@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e790afee5b57b73a756ca3c1afd564b00e778186
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461319"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567326"
 ---
 # <a name="certify-datasets-preview"></a>認證資料集 (預覽)
 
@@ -23,8 +23,8 @@ ms.locfileid: "66461319"
 
 Power BI 使用者現在可以存取許多不同的資料集，因此企業需要引導他們使用可靠且高品質的資料集。 Power BI 提供兩種方式「支援」  資料集：
 
-- **宣傳**：資料集擁有者可在他們的資料集準備好供廣範圍使用時進行宣傳。 請參閱[宣傳您的資料集](service-datasets-promote.md)以了解詳細資料。 
-- **認證**：資料集擁有者可以要求認證經過宣傳的資料集。 **資料集認證**租用戶系統管理員設定中所定義的一組經過選取的使用者，可決定要認證哪個資料集。
+- **升級**：資料集擁有者及工作區中的其他人員可在他們的資料集準備好供廣範圍使用時將它們升階。 請參閱[宣傳您的資料集](service-datasets-promote.md)以了解詳細資料。 
+- **認證**：資料集擁有者可以要求認證經過宣傳的資料集。 在 [資料集認證]  租用戶管理員設定中定義的一組所選使用者可決定認證的資料集。 在資料集探索體驗期間，在工具提示中會顯示認證資料集的人員名稱；將滑鼠停留在 [認證]  標籤上即可看到它。
 
 ## <a name="certify-a-dataset"></a>認證資料集
 

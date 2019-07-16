@@ -7,21 +7,19 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 507af4de9d57d2d54fe3e28bca8b1aff7da5cf30
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 2db4c23b50071e387913ed79b4d01daeafb928a4
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461457"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567397"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>複製其他工作區的報表 (預覽)
 
-了解如何複製某個工作區的報表，將它儲存到不同的工作區。 然後您可以修改該報表，新增或刪除視覺效果和其他項目。
-
-當您找到喜歡的報表時，您可在工作區或應用程式中複製它，然後按照您的需求修改它。 您不必擔心建立資料模型。 它已經為您建立。 修改現有的報表，比從頭開始還容易。
+當您在工作區或應用程式中找到喜歡的報表時，您可以複製該報表，然後將它儲存到不同的工作區中。 然後您可以修改該報表，新增或刪除視覺效果和其他項目。 您不需要建立資料模型。 它已經為您建立。 修改現有的報表，比從頭開始要輕鬆許多。 不過，您不能從新的工作區發佈您在應用程式中的報表複本。 請在《跨工作區使用資料集》一文中參閱其他[考量與限制](service-datasets-across-workspaces.md#considerations-and-limitations)。
 
 ## <a name="save-a-copy-of-a-report"></a>儲存報表複本
 
@@ -61,6 +59,21 @@ ms.locfileid: "66461457"
 1. [相關內容]  對話方塊會顯示所有相關項目。 在此清單中，資料集彼此看起來都差不多。 您無法分辨它是否位在不同的工作區中。 此為已知問題。
  
     ![[相關內容] 對話方塊](media/service-datasets-copy-reports/power-bi-dataset-related.png)
+
+## <a name="delete-a-report-and-its-shared-dataset"></a>刪除報表及其共用資料集
+
+您可能會決定自己已不再需要工作區中的報表和其相關聯的共用資料集。
+
+1. 刪除報表。 在工作區的報表清單中，選取**刪除**圖示。
+
+    ![刪除報表圖示](media/service-datasets-across-workspaces/power-bi-datasets-delete-report.png)
+
+2. 在資料集清單中，您會看到共用資料集沒有**刪除**圖示。 請重新整理該頁面，或是移至不同的頁面再返回。 該資料集將會消失。 如果沒有，請檢查 [檢視相關項目]  。 它可能與工作區中的另一個資料表相關聯。
+
+    ![檢視相關項目圖示](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+
+    > [!NOTE]
+    > 刪除此工作區中的共用資料集並不會實際刪除該資料集。 系統只會刪除對它的參考。
 
 
 ## <a name="next-steps"></a>後續步驟

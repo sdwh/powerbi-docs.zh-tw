@@ -7,29 +7,29 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 17a8e1c9e0d46a56d6b6ff3e46c0fda6da8ffe12
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816669"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567837"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>跨工作區使用資料集 (預覽)
 
-商業智慧是一項共同作業活動。 建立可成為「真實單一來源」的標準化資料集非常重要。 探索及重複使用這些標準化資料集是關鍵因素。 當組織中的專業資料模型製作者建立並共用最佳化資料集時，報表建立者可以從這些資料集開始建置精確的報表。 然後，組織會擁有一致的資料以進行決策，並擁有健全的資料文化特性。
+商業智慧是一項共同作業活動。 建立可成為「真實單一來源」的標準化資料集非常重要。 然後關鍵便是探索並重複使用這些標準化資料集。 當組織中的專業資料模型製作者建立並共用最佳化資料集時，報表建立者可以從這些資料集開始建置精確的報表。 然後，組織會擁有一致的資料以進行決策，並擁有健全的資料文化特性。
 
 ![選取共用資料集](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-Power BI 可讓資料集建立者輕鬆認證或推廣資料集，以利其他人探索。 然後，報表作者可以在 Power BI 中找到可讓他們使用的高品質官方資料集。 資料集擁有者可以使用[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)，掌控誰可以存取資料。 租用戶系統管理員具有[跨工作區管理資料集使用方式](service-datasets-admin-across-workspaces.md)的新租用戶設定。
+在 Power BI 中，資料集建立者可以「認證」  資料及或將它「升階」  ，以利其他人探索。 那樣一來，報表作者便知道有哪些資料集是高品質且正式的，並可以在 Power BI 中撰寫時使用那些資料集。 資料集擁有者可以使用[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)，掌控誰可以存取資料。 租用戶系統管理員具有[跨工作區管理資料集使用方式](service-datasets-admin-across-workspaces.md)的新租用戶設定。
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>資料集共用和新的工作區體驗
 
 根據不同工作區中的資料集建置報表、將報表複製到不同的工作區，與[新的工作區體驗](service-create-the-new-workspaces.md)緊密結合：
 
-- 在服務中，當您從新工作區體驗中開啟資料集目錄時，資料集目錄會顯示位於「我的工作區」和新工作區體驗工作區中的資料集。 
+- 在服務中，當您從新工作區體驗中開啟資料集目錄時，資料集目錄會顯示位於「我的工作區」和其他新工作區體驗工作區中的資料集。 
 - 當您從傳統工作區開啟資料集目錄時，您只能看到該工作區中的資料集，無法看到其他工作區中的資料集。
 - 在 Desktop 中，只要 Live Connect 報表的資料集位於新體驗工作區中，您即可將其發佈至不同的工作區。
 - 跨工作區複製報表時，目標工作區必須是新體驗工作區。

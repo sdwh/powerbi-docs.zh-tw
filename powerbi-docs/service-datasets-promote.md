@@ -7,21 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/29/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 366f80ccb1db2d226a80528da610b15082c44ed6
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 681cd9f65713738e2b842bfa3404511f9e3a98f4
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461365"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567347"
 ---
 # <a name="promote-your-dataset-preview"></a>升級您的資料集 (預覽)
 
 您的 Power BI 報表建立者現在可以存取許多不同資料集，因此企業需要引導他們使用可靠且高品質的資料集。 Power BI 提供兩種方式「認可」  資料集：
 
-- **升級**：身為資料集的擁有者，當您的資料集可供廣泛使用時，您可以升級它們。 升級支援組織內共同散佈的資料集。 本文與升級您的資料集相關。
+- **升級**：身為資料集的擁有者，當您的資料集可供廣泛使用時，您可以升級它們。 任何具有寫入權限的工作區成員都可以將資料集升階。 針對可以將資料集升階的對象並沒有任何限制。 升級支援組織內共同散佈的資料集。 本文與升級您的資料集相關。
 - **認證**：您可以要求認證已升級的資料集。 在 [資料集認證]  租用戶管理員設定中定義的一組所選使用者可決定認證的資料集。 如需詳細資訊，請參閱[認證資料集 (預覽)](service-datasets-certify.md)。
 
 ## <a name="promote-a-dataset"></a>升級資料集
