@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9aa80c336fa7918632b71b25f8f57b2798fa52e5
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: dd656f81cb0fdb32f9637f969ef538e263e20053
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418703"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271994"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
@@ -225,7 +225,7 @@ DirectQuery 和其他查詢之間的差異決定 Power BI 服務處理待用資�
         - 如果設定重新整理資料集，則認證會加密儲存在資料移動中的 Azure SQL Database。 加密金鑰的存放位置是在客戶基礎結構閘道上執行的電腦。
         - 如未設定重新整理資料集，則不儲存資料來源的任何認證
 
-1. 資料
+1. Data
 
     a. 內部部署和 DirectQuery 的 Analysis Services – Power BI 服務中不存放任何內容。
 
@@ -249,23 +249,23 @@ Power BI 以下列方式提供資料完整性監視：
 
    a. 報表可以是 Office 365 的 Excel 報表或 Power BI 報表。 下列適用於以報表類型為基礎的中繼資料：
         
-    &ensp; &ensp; a. Excel 報表中繼資料會儲存在 SQL Azure 中加密。 中繼資料也會儲存在 Office 365 中。
+    &ensp; &ensp; a。 Excel 報表中繼資料會儲存在 SQL Azure 中加密。 中繼資料也會儲存在 Office 365 中。
 
-    &ensp; &ensp; b. Power BI 報表會儲存在 Azure SQL 資料庫中加密。
+    &ensp; &ensp; b。 Power BI 報表會儲存在 Azure SQL 資料庫中加密。
 
 2. 靜態資料
 
    靜態資料包括背景映像和自訂視覺效果等成品。
 
-    &ensp; &ensp; a. 使用 Office 365 Excel 建立的報表，不儲存任何內容。
+    &ensp; &ensp; a。 使用 Office 365 Excel 建立的報表，不儲存任何內容。
 
-    &ensp; &ensp; b. Power BI 報表的靜態資料會在 Azure Blob 儲存體中儲存加密。
+    &ensp; &ensp; b。 Power BI 報表的靜態資料會在 Azure Blob 儲存體中儲存加密。
 
 3. 快取
 
-    &ensp; &ensp; a. 使用 Office 365 Excel 建立的報表，不快取任何內容。
+    &ensp; &ensp; a。 使用 Office 365 Excel 建立的報表，不快取任何內容。
 
-    &ensp; &ensp; b. Power BI 報表中顯示的視覺效果資料會在 Azure SQL Database 中快取加密。
+    &ensp; &ensp; b。 Power BI 報表中顯示的視覺效果資料會在 Azure SQL Database 中快取加密。
  
 
 4. 發佈到 Power BI 的原始 Power BI Desktop (.pbix) 或 Excel (.xlsx) 檔案
@@ -302,7 +302,7 @@ Power BI 以下列方式提供資料完整性監視：
     c. 推送的資料 – 無 (不適用)
 
     d. ETL – 無 (無任何內容存放在計算節點上，也和前文＜待用資料＞  一節所述一致)
-4. 資料
+4. Data
 
     有些資料成品可在計算節點的磁碟上存放一段限定時間。
 
@@ -382,7 +382,7 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 * **Power BI 認證和網域認證：** 使用者使用電子郵件地址登入 Power BI；使用者嘗試連線至資料資源時，Power BI 會傳遞 Power BI 登入電子郵件地址作為認證。 針對網域連線資源 (內部部署或雲端式)，目錄服務會將登入電子郵件與「使用者主體名稱」  ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) 比對，以判斷是否有足夠的認證允許存取。 至於使用工作電子郵件地址登入 Power BI 的組織 (他們使用同一電子郵件登入工作資源，例如 _david@contoso.com_ )，可以流暢對應；至於不使用工作電子郵件地址的組織 (例如 _david@contoso.onmicrosoft.com_ )，則必須建立目錄對應，才能使用 Power BI 登入認證存取內部部署資源。
 
-* **SQL Server Analysis Services 和 Power BI：** 針對使用內部部署 SQL Server Analysis Services 的組織，Power BI 提供 Power BI 內部部署資料閘道 (也就是**閘道**，如先前章節所述)。  Power BI 內部部署資料閘道可以對資料來源 (RLS) 實施角色層級安全性。 如需 RLS 的詳細資訊，請參閱本文件稍早所述的**資料來源的使用者驗證**。 您也可以閱讀深入探討 [Power BI Gateway](service-gateway-manage.md) 的相關文章。
+* **SQL Server Analysis Services 和 Power BI：** 針對使用內部部署 SQL Server Analysis Services 的組織，Power BI 提供 Power BI 內部部署資料閘道 (也就是**閘道**，如先前章節所述)。  Power BI 內部部署資料閘道可以對資料來源 (RLS) 實施角色層級安全性。 如需 RLS 的詳細資訊，請參閱本文件稍早所述的**資料來源的使用者驗證**。 如需有關閘道的詳細資訊，請參閱 <<c0> [ 內部部署資料閘道](service-gateway-onprem.md)。
 
   此外，組織也可以使用 Kerberos 來進行**單一登入** (SSO)，並從 Power BI 順暢地連線至內部部署資料來源，例如 SQL Server、SAP HANA 和 Teradata。 如需詳細資訊和特定設定需求，請參閱[**使用 Kerberos 進行 SSO，從 Power BI 到內部部署資料來源**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data)。
 
@@ -422,7 +422,7 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **內部部署資料閘道和個人閘道使用哪些連接埠？是否有任何需要允許進行連線的網域名稱？**
 
-* 可從以下連結查看此問題的詳細解答：[Power BI Gateway](service-gateway-manage.md)
+* 可從以下連結查看此問題的詳細解答：[閘道 」 連接埠](/data-integration/gateway/service-gateway-communication#ports)
 
 **使用內部部署資料閘道時，修復金鑰會如何使用並儲存於何處？安全認證管理呢？**
 
@@ -438,7 +438,7 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
   - **AMQP 1.0 - TCP + TLS**：此通訊協定需要開放連接埠 443、 5671-5672 和 9350-9354，以便進行連出通訊。 此通訊協定為優先選項，因為具有較低的通訊額外負荷。
 
-  - **HTTPS - WebSockets over HTTPS + TLS**：此通訊協定僅使用連接埠 443。 WebSocket 由單一 HTTP 連線訊息啟動。 一旦建立通道後，通訊本質上為 TCP + TLS。 您可以修改[內部部署閘道](service-gateway-manage.md)一文中所述的設定，強制閘道使用此通訊協定。
+  - **HTTPS - WebSockets over HTTPS + TLS**：此通訊協定僅使用連接埠 443。 WebSocket 由單一 HTTP 連線訊息啟動。 一旦建立通道後，通訊本質上為 TCP + TLS。 您可以強制藉由修改中所述設定使用此通訊協定閘道[內部部署閘道文章](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus)。
 
 **Power BI 中 Azure CDN 的角色是什麼？**
 
@@ -448,17 +448,17 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **針對自訂視覺效果，Microsoft 是否會在將項目發行至資源庫前，執行任何自訂視覺效果程式碼的安全性或隱私權評定？**
 
-* 否。 客戶應負責檢閱自訂視覺效果程式碼，並判斷程式碼是否可靠。 因為所有自訂視覺效果程式碼都會在沙箱環境內執行，所以自訂視覺效果中的不當程式碼並不會對 Power BI 服務的其他部分造成影響。
+* 資料分割 客戶應負責檢閱自訂視覺效果程式碼，並判斷程式碼是否可靠。 因為所有自訂視覺效果程式碼都會在沙箱環境內執行，所以自訂視覺效果中的不當程式碼並不會對 Power BI 服務的其他部分造成影響。
 
 **有其他 Power BI 視覺效果會在客戶網路外傳送資訊嗎？**
 
-* 是。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。 如需詳細資訊以及 Power BI 外租用戶流量的詳細描述，請參閱 [**Power BI 和 ExpressRoute**](service-admin-power-bi-expressroute.md)。
+* 是的。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。 如需詳細資訊以及 Power BI 外租用戶流量的詳細描述，請參閱 [**Power BI 和 ExpressRoute**](service-admin-power-bi-expressroute.md)。
 
 **針對範本應用程式，不會 Microsoft 執行任何安全性或隱私權範本應用程式發佈至資源庫的項目之前評估嗎？**
-* 否。 應用程式發行者負責時的客戶有責任檢閱並判斷是否要信任該範本的應用程式發行者的內容。 
+* 資料分割 應用程式發行者負責時的客戶有責任檢閱並判斷是否要信任該範本的應用程式發行者的內容。 
 
 **有傳送資訊的客戶網路外部的範本應用程式嗎？**
-* 是。 是檢閱發行者的隱私權原則，並判斷是否要將應用程式範本安裝租用戶的客戶的責任。 此外，「 發行者 」 端會負責通知的應用程式的行為與功能。
+* 是的。 是檢閱發行者的隱私權原則，並判斷是否要將應用程式範本安裝租用戶的客戶的責任。 此外，「 發行者 」 端會負責通知的應用程式的行為與功能。
 
 **資料主權呢？我們能在位於特定地理位置的資料中心佈建租用戶，來確保資料不會離開國家/地區邊界嗎？**
 
@@ -486,10 +486,9 @@ Power BI 中的資料儲存和資料處理，會根據是否使用 DirectQuery �
 
 - [Power BI 中的群組](https://support.powerbi.com/knowledgebase/articles/654247)
 - [開始使用 Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Power BI Gateway](service-gateway-manage.md)
 - [Power BI REST API - Overview](https://msdn.microsoft.com/library/dn877544.aspx) (Power BI REST API - 概觀)
 - [Power BI API reference](https://msdn.microsoft.com/library/mt147898.aspx) (Power BI API 參考)
-- [On-premises data gateway (內部部署資料閘道)](service-gateway-manage.md)
+- [On-premises data gateway (內部部署資料閘道)](service-gateway-onprem.md)
 - [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI 國家/地區雲端](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
