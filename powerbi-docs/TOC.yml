@@ -723,10 +723,6 @@
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: 對磚的錯誤進行疑難排解
               href: refresh-troubleshooting-tile-errors.md
-            - name: 對內部部署的資料閘道進行疑難排解
-              href: service-gateway-onprem-tshoot.md
-            - name: 對 Power BI Gateway - Personal 進行疑難排解
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: '對 [使用 Excel 分析] 進行疑難排解'
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 錯誤：在您的 Excel 活頁簿中找不到任何資料
@@ -1279,38 +1275,38 @@
   items:
     - name: 概觀
       items:
-        - name: 什麼是 Power BI 閘道？
-          href: service-gateway-getting-started.md
-    - name: 教學課程
-      items:
-        - name: 連線至 SQL Server 資料
-          href: service-gateway-sql-tutorial.md
+        - name: 什麼是內部部署的資料閘道？
+          href: service-gateway-onprem.md
     - name: 概念
       items:
         - name: 部署資料閘道的指導
           href: service-gateway-deployment-guidance.md
         - name: 內部部署資料閘道常見問題集
-          href: service-gateway-onprem-faq.md
+          href: service-gateway-power-bi-faq.md
     - name: 如何
       items:
-        - name: 安裝閘道
-          href: service-gateway-install.md
-        - name: 管理閘道
-          href: service-gateway-manage.md
-        - name: 監視閘道效能
-          href: service-gateway-performance-monitoring.md
-        - name: 管理您的企業資料來源 - Analysis Services
-          href: service-gateway-enterprise-manage-ssas.md
-        - name: 管理您的企業資料來源 - SAP HANA
-          href: service-gateway-enterprise-manage-sap.md
-        - name: 管理您的企業資料來源 - SQL
-          href: service-gateway-enterprise-manage-sql.md
-        - name: 管理您的資料來源 - Oracle
-          href: service-gateway-onprem-manage-oracle.md
-        - name: 管理您的企業資料來源 - 匯入/已排程的重新整理
-          href: service-gateway-enterprise-manage-scheduled-refresh.md
-        - name: 合併內部部署與雲端資料來源
-          href: service-gateway-mashup-on-premises-cloud.md
+        - name: 內部部署資料閘道 - 深入資訊
+          href: service-gateway-onprem-indepth.md
+        - name: 內部部署資料閘道 (個人模式)
+          href: service-gateway-personal-mode.md
+        - name: 管理使用者及管理員
+          href: service-gateway-manage-admins.md
+        - name: 管理資料來源
+          items:
+            - name: 管理資料來源
+              href: service-gateway-data-sources.md
+            - name: 管理您的企業資料來源 - Analysis Services
+              href: service-gateway-enterprise-manage-ssas.md
+            - name: 管理您的企業資料來源 - SAP HANA
+              href: service-gateway-enterprise-manage-sap.md
+            - name: 管理您的企業資料來源 - SQL
+              href: service-gateway-enterprise-manage-sql.md
+            - name: 管理您的資料來源 - Oracle
+              href: service-gateway-onprem-manage-oracle.md
+            - name: 管理您的企業資料來源 - 匯入/已排程的重新整理
+              href: service-gateway-enterprise-manage-scheduled-refresh.md
+            - name: 合併內部部署與雲端資料來源
+              href: service-gateway-mashup-on-premises-cloud.md
         - name: 啟用單一登入 (SSO)
           items:
             - name: 單一登入 (SSO) - 概觀
@@ -1321,24 +1317,16 @@
               href: service-gateway-sso-kerberos-resource.md
             - name: 單一登入 (SSO) - SAML
               href: service-gateway-sso-saml.md
-        - name: 設定 Proxy 設定
-          href: service-gateway-proxy.md
-        - name: 內部部署資料閘道的高可用性叢集
-          href: service-gateway-high-availability-clusters.md
-        - name: 內部部署資料閘道
-          href: service-gateway-onprem.md
-        - name: 內部部署資料閘道 - 深入資訊
-          href: service-gateway-onprem-indepth.md
-        - name: 內部部署資料閘道 (個人模式)
-          href: service-gateway-personal-mode.md
-        - name: 自訂連接器
-          href: service-gateway-custom-connectors.md
-        - name: 對內部部署的資料閘道進行疑難排解
+        - name: 閘道疑難排解
           href: service-gateway-onprem-tshoot.md
+        - name: 閘道疑難排解 (個人模式)
+          href: service-admin-troubleshooting-power-bi-personal-gateway.md
+        - name: 使用自訂連接器
+          href: service-gateway-custom-connectors.md
     - name: 資源
       items:
         - name: 每月閘道更新
-          href: service-gateway-monthly-updates.md
+          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
 - name: 系統管理
   items:
     - name: 概觀
