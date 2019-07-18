@@ -1289,8 +1289,6 @@
           href: service-gateway-onprem-indepth.md
         - name: 內部部署資料閘道 (個人模式)
           href: service-gateway-personal-mode.md
-        - name: 管理使用者及管理員
-          href: service-gateway-manage-admins.md
         - name: 管理資料來源
           items:
             - name: 管理資料來源
