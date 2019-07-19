@@ -12,14 +12,14 @@ ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
 ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454551"
 ---
 # <a name="certified-custom-visuals"></a>認證的自訂視覺效果
 
-## <a name="what-are-certified-custom-visuals"></a>什麼是**經認證的  **自訂視覺效果？
+## <a name="what-are-certified-custom-visuals"></a>什麼是**經認證的 ** 自訂視覺效果？
 
 經認證的自訂視覺效果是 **Marketplace** 中的視覺效果，符合某些經 **Microsoft Power BI 小組**測試並核准的**指定程式碼**需求。 自訂視覺效果一旦經過認證，它會提供更多的功能。 例如，您可以[匯出至 PowerPoint](consumer/end-user-powerpoint.md)，也可以在使用者[訂閱報表頁面](consumer/end-user-subscribe.md)時收到的電子郵件中顯示視覺效果。
 

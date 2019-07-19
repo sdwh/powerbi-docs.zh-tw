@@ -12,7 +12,7 @@ ms.custom: seodec18
 ms.date: 04/02/2019
 ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710964"
@@ -365,7 +365,7 @@ var embedConfig = new EmbedConfig()
 | A5 |16 個虛擬核心 |8 個核心，50-GB 的 RAM |8 個核心 |每秒 60 個 |
 | A6 |32 個虛擬核心 |16 個核心，100-GB 的 RAM |16 個核心 |每秒 120 個 |
 
-**_在 A SKU 中，您無法使用免費的 Power BI 授權存取 Power BI 內容。_ **
+**_在 A SKU 中，您無法使用免費的 Power BI 授權存取 Power BI 內容。_**
 
 使用具有 PRO 授權的內嵌權杖適用於開發測試，因此 Power BI 主帳戶或服務主體可產生的內嵌權杖數量有限。 需有專用容量，才可在生產環境中進行內嵌作業。 若有專用容量，即不會限制您可產生的內嵌權杖數量。 請移至 [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) (可用功能) 來檢查指出目前內嵌使用情況百分比的使用情況值。 使用量以每個主帳戶為基礎。
 

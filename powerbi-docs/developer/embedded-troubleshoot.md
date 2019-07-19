@@ -110,7 +110,7 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>驗證因 AADSTS70002 或 AADSTS50053 而失敗
 
-** _(AADSTS70002：驗證認證時發生錯誤。AADSTS50053：使用不正確的使用者識別碼或密碼，嘗試登入太多次)_ **
+** _(AADSTS70002：驗證認證時發生錯誤。AADSTS50053：使用不正確的使用者識別碼或密碼，嘗試登入太多次)_**
 
 如果您使用 Power BI Embedded 與 Azure AD 直接驗證，且在登入時收到如下訊息 ***error:unauthorized_client, error_description:AADSTS70002：驗證認證時發生錯誤。AADSTS50053：您嘗試使用不正確的使用者識別碼或密碼登入太多次***，這是因為從 2018 年 6 月 14 日起直接驗證已預設為停用。
 
@@ -162,7 +162,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094：需要管理員權限才能授與
 
-**_徵兆：_ **<br>
+**_徵兆：_**<br>
 非系統管理員使用者第一次嘗試登入應用程式並授與同意時，會收到下列其中一個錯誤：
 
 * ConsentTest 需要存取您組織中只有管理員才能授與之資源的權限。 請先要求系統管理員授與此應用程式的權限，您才能使用這個應用程式。
@@ -172,10 +172,10 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 管理使用者可以成功登入並授與同意。
 
-**_根本原因：_ **<br>
+**_根本原因：_**<br>
 已停用租用戶的使用者同意。
 
-**_可能有數個修正程式：_ **
+**_可能有數個修正程式：_**
 
 *啟用整個租用戶的使用者同意 (所有使用者、所有應用程式)*
 
