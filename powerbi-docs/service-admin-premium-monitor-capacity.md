@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 68e21e14227aff538c56951249edbddc249d68eb
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 0ef74a776e7220477a36d652ce1a48ebbf60c267
+ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497985"
+ms.lasthandoff: 07/20/2019
+ms.locfileid: "68362743"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>使用應用程式監視 Premium 容量
 
@@ -41,7 +41,7 @@ ms.locfileid: "66497985"
 
 若要檢查您上次重新整理 Premium 計量應用程式的時間，請按一下 [設定]   > [資料集]   > [Power BI Premium 容量計量]   > [重新整理記錄]  。 
 
-![重新整理設定中的記錄](media/settings-refresh-history.png)
+![重新整理設定中的記錄](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
 即會顯示上次重新整理，或按一下 [重新整理記錄]  ，來查看已排定的重新整理和隨選重新整理。
 

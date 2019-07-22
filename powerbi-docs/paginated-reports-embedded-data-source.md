@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 3dcc8211f6752d272d550dfaff343374866187c9
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.openlocfilehash: 83e3ffbae43d25e89cf52077acaa731cdee9b502
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345488"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270837"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料來源
 
@@ -32,7 +32,7 @@ ms.locfileid: "67345488"
 
 - Power BI Premium 資料集
 
-分頁報表會透過 [Power BI 閘道](service-gateway-getting-started.md)連線至內部部署資料來源。 您會在將報表發行至 Power BI 服務之後設定閘道。
+分頁報表會透過 [Power BI 閘道](service-gateway-onprem.md)連線至內部部署資料來源。 您會在將報表發行至 Power BI 服務之後設定閘道。
 
 請參閱 [Power BI 報表產生器中的報表資料](report-builder-data.md)以取得詳細資訊。
 

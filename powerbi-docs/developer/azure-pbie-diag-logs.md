@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 695d1f219b3438f07125447db04aad3ba971683a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385300"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289855"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure 中 Power BI Embedded 的診斷記錄
 
@@ -22,7 +22,6 @@ ms.locfileid: "61385300"
 使用診斷可以回答一些狀況，例如：
 
 * 長時間執行或有問題之查詢的偵測。
-* 當容量到達限制時偵測錯誤。
 * [容量計量](https://powerbi.microsoft.com/blog/power-bi-developer-community-april-update/) \(英文\) 的衍生。
 * 追蹤特定資料集的使用狀況。
 
@@ -105,14 +104,14 @@ ms.locfileid: "61385300"
 
 |     事件名稱     |     事件描述     |
 |----------------------------|----------------------------------------------------------------------------------|
-|    Audit Login    |    記錄自開始追蹤以來連線到引擎事件的所有新連線。    |
-|    Session Initialize    |    記錄自開始追蹤以來的所有工作階段初始化事件。    |
-|    Vertipaq Query Begin    |    記錄自開始追蹤以來的所有 VertiPaq SE 查詢開始事件。    |
-|    Query Begin    |    記錄自開始追蹤以來的所有查詢開始事件。    |
-|    Query End    |    記錄自開始追蹤以來的所有查詢結束事件。    |
-|    Vertipaq Query End    |    記錄自開始追蹤以來的所有 Vertipaq 查詢結束事件。    |
-|    Audit Logout    |    記錄自開始追蹤以來的所有從引擎中斷連線事件。    |
-|    Error    |    記錄自開始追蹤以來的所有引擎錯誤事件。    |
+|    稽核登入    |    記錄自開始追蹤以來連線到引擎事件的所有新連線。    |
+|    工作階段初始化    |    記錄自開始追蹤以來的所有工作階段初始化事件。    |
+|    Vertipaq 查詢開始    |    記錄自開始追蹤以來的所有 VertiPaq SE 查詢開始事件。    |
+|    查詢開始    |    記錄自開始追蹤以來的所有查詢開始事件。    |
+|    查詢結束    |    記錄自開始追蹤以來的所有查詢結束事件。    |
+|    Vertipaq 查詢結束    |    記錄自開始追蹤以來的所有 Vertipaq 查詢結束事件。    |
+|    稽核登出    |    記錄自開始追蹤以來的所有從引擎中斷連線事件。    |
+|    錯誤    |    記錄自開始追蹤以來的所有引擎錯誤事件。    |
 
 <br>
 <br>
@@ -127,18 +126,14 @@ ms.locfileid: "61385300"
 | JobID | 0 | 進度的工作識別碼。 |
 | ObjectID | 464 | 物件識別碼 |
 | ObjectType | 802012 | ObjectType |
-| ObjectName | SalesLT 客戶 | ObjectName |
-| ObjectPath | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527.Model.SalesLT 客戶 | 物件路徑。 以逗號分隔的父系清單，開頭為物件的父系。 |
-| ObjectReference | <Object><Table>SalesLT 客戶</Table><Model>模型</Model><Database>5eaa550e-06ac-4adf-aba9-dbf0e8fd1527</Database></Object> | 物件參考。 針對所有父系編碼為 XML，且使用標籤來描述物件。 |
 | EndTime | 2018-04-06T18:30:11.9137358Z | 事件結束的時間。 |
-| Duration | 0 | 事件花費的時間量 (毫秒)。 |
+| 持續時間 | 0 | 事件花費的時間量 (毫秒)。 |
 | SessionType | 使用者 | 工作階段類型 (引發作業的實體)。 |
 | ProgressTotal | 0 | 整體進度。 |
 | IntegerData | 0 | 整數資料。 |
-| Severity | 0 | 例外狀況的嚴重性層級。 |
-| Success | 1 | 1 = 成功。 0 = 失敗 (例如，1 表示權限檢查成功，而 0 表示該檢查失敗)。 |
-| Error | 0 | 給定事件的錯誤號碼。 |
-| TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT 客戶 (464)].[rowguid (606)] AS [SalesLT 客戶 (464)$rowguid (606)]  FROM [SalesLT 客戶 (464)]; [估計大小 (磁碟區封送位元組): 850 6800] | 與事件相關聯的文字資料。 |
+| 嚴重性 | 0 | 例外狀況的嚴重性層級。 |
+| 成功 | 1 | 1 = 成功。 0 = 失敗 (例如，1 表示權限檢查成功，而 0 表示該檢查失敗)。 |
+| 錯誤 | 0 | 給定事件的錯誤號碼。 |
 | ConnectionID | 3 | 唯一的連線識別碼。 |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | 資料集 (使用者的陳述式在其中執行) 的識別碼。 |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | 工作階段 GUID。 |
@@ -146,8 +141,7 @@ ms.locfileid: "61385300"
 | ClientProcessID | null | 用戶端應用程式的處理序識別碼。 |
 | ApplicationName | null | 建立對伺服器連線之用戶端應用程式的名稱。 |
 | CapacityName | pbi641fb41260f84aa2b778a85891ae2d97 | Power BI Embedded 容量資源的名稱。 |
-| RequestParameters |  |  |
-| RequestProperties |  |  |
+
 
 ### <a name="allmetrics"></a>AllMetrics
 

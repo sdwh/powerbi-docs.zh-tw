@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 1bee1b31b5e264ec8cd092a90484fc20866db0b3
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: af3c22197e4d6783787bd72c9cf010bf6db64bc1
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823361"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270980"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -95,7 +95,7 @@ Power BI Embedded 是一組 API 的平台即服務 (Paas)，可供開發人員�
 
 * [使用 Power BI 管理入口網站](../service-admin-portal.md#power-bi-embedded)。
 
-* 下載 Power BI 中的[計量應用程式](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity)。
+* 下載 Power BI 中的[計量應用程式](https://docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity)。
 
 * 使用 [Azure 診斷記錄](azure-pbie-diag-logs.md)。
 
