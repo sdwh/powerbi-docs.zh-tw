@@ -55,7 +55,7 @@
           href: desktop-latest-update.md
         - name: Power BI Desktop 中的模型檢視
           href: desktop-modeling-view.md
-        - name: Power BI Desktop (預覽) 中的彙總
+        - name: Power BI Desktop 中的彙總
           href: desktop-aggregations.md
         - name: Power BI Desktop 中的複合模型
           href: desktop-composite-models.md
@@ -234,7 +234,7 @@
             - name: 篩選的類型
               href: power-bi-report-filter-types.md
             - name: 試用新的篩選功能
-              href: power-bi-report-filter-preview.md
+              href: power-bi-report-filter.md
             - name: 使用快速量值
               href: desktop-quick-measures.md
             - name: 使用 What if 參數
@@ -453,6 +453,8 @@
               href: service-support-options.md
             - name: 協助您取得協助的十個祕訣
               href: service-tips-for-finding-help.md
+            - name: 服務中斷通知
+              href: service-interruption-notifications.md
         - name: 擴充 Power BI
           items:
             - name: Microsoft Flow 和 Power BI
@@ -685,6 +687,8 @@
           items:
             - name: 檢視編頁報表
               href: paginated-reports-view-power-bi-service.md
+            - name: 支援的資料來源
+              href: paginated-reports-data-sources.md
             - name: 與參數互動
               href: paginated-reports-view-parameters.md
             - name: 訂閱自己或其他人
