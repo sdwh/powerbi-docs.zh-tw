@@ -73,7 +73,7 @@
           href: desktop-data-source-prerequisites.md
         - name: Power BI 中多維度模型的預設成員
           href: desktop-default-member-multidimensional-models.md
-        - name: 自訂視覺效果常見問題集
+        - name: 視覺效果常見問題集
           href: power-bi-custom-visuals-faq.md
     - name: 如何
       items:
@@ -1067,48 +1067,70 @@
       items:
         - name: 概觀
           items:
-            - name: Power BI 的自訂視覺效果
+            - name: Power BI 的視覺效果
               href: power-bi-custom-visuals.md
         - name: 教學課程
           items:
-            - name: 開發 Power BI 自訂視覺效果
+            - name: 開發 Power BI 視覺效果
               href: developer/custom-visual-develop-tutorial.md
-            - name: 其他格式設定選項
+            - name: 新增格式化選項
               href: developer/custom-visual-develop-tutorial-format-options.md
+            - name: 新增 Visual 專案的單元測試
+              href: developer/visuals/unit-tests-introduction.md
         - name: 概念
           items:
-            - name: Power BI 中組織的自訂視覺效果
+            - name: Power BI 中組織的視覺效果
               href: power-bi-custom-visuals-organization.md
             - name: Power BI 視覺效果指南
               href: developer/guidelines-powerbi-visuals.md
-            - name: 自訂視覺效果常見問題集
+            - name: 視覺效果常見問題集
               href: power-bi-custom-visuals-faq.md
             - name: 使用功能
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/'
+              href: developer/visuals/capabilities.md
             - name: 資料檢視對應
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/dataviewmappings/'
+              href: developer/visuals/dataview-mappings.md
             - name: 物件與屬性
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/'
+              href: developer/visuals/objects-properties.md
             - name: 進階編輯模式
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/advanced-edit-mode/'
-            - name: 移轉至已建立版本的 API 指南
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/migrating-to-versioned-api-guide/'
+              href: developer/visuals/advanced-edit-mode.md
         - name: 如何
           items:
-            - name: 讓自訂視覺效果獲得認證
+            - name: 認證視覺效果
               href: power-bi-custom-visuals-certified.md
             - name: 在 AppSource 上發佈自訂視覺效果
               href: developer/office-store.md
             - name: 在 Power BI 中使用 R 提供技術的自訂視覺效果
               href: desktop-r-powered-custom-visuals.md
-            - name: 疑難排解
-              items:
-                - name: 在開發自訂視覺效果時進行疑難排解
-                  href: power-bi-custom-visuals-troubleshoot.md
+            - name: 視覺效果互動
+              href: developer/visuals/visuals-interactions.md
+            - name: 新增視覺效果工具提示
+              href: developer/visuals/add-tooltips.md
+            - name: 新增分析窗格
+              href: developer/visuals/analytics-pane.md
+            - name: 篩選視覺效果
+              href: developer/visuals/filter-api.md
+            - name: 擷取更多資料
+              href: developer/visuals/fetch-more-data.md
+            - name: 新增書籤支援
+              href: developer/visuals/bookmarks-support.md
+            - name: 在視覺效果中醒目提示資料
+              href: developer/visuals/highlight.md
+            - name: 新增高對比模式支援
+              href: developer/visuals/high-contrast-support.md
+            - name: 啟用同步交叉分析篩選器
+              href: developer/visuals/enable-sync-slicers.md
+            - name: 疑難排解 Power BI 視覺效果
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: 參考
           items:
-            - name: API
-              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+            - name: 登陸頁面
+              href: developer/visuals/landing-page.md
+            - name: 啟動 URL
+              href: developer/visuals/launch-url.md
+            - name: 轉譯事件
+              href: developer/visuals/event-service.md
+            - name: 排序
+              href: developer/visuals/sort-options.md
         - name: 資源
           items:
             - name: 開發人員中心
@@ -1117,6 +1139,8 @@
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
             - name: 自訂視覺效果 Git 存放庫
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+            - name: 正在建立 SSL 憑證
+              href: developer/visuals/create-ssl-certificate.md
     - name: 自動化
       items:
         - name: 概觀
