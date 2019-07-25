@@ -19,13 +19,13 @@ ms.locfileid: "65454551"
 ---
 # <a name="certified-custom-visuals"></a>認證的自訂視覺效果
 
-## <a name="what-are-certified-custom-visuals"></a>什麼是**經認證的 ** 自訂視覺效果？
+## <a name="what-are-certified-custom-visuals"></a>什麼是**經認證的**自訂視覺效果？
 
 經認證的自訂視覺效果是 **Marketplace** 中的視覺效果，符合某些經 **Microsoft Power BI 小組**測試並核准的**指定程式碼**需求。 自訂視覺效果一旦經過認證，它會提供更多的功能。 例如，您可以[匯出至 PowerPoint](consumer/end-user-powerpoint.md)，也可以在使用者[訂閱報表頁面](consumer/end-user-subscribe.md)時收到的電子郵件中顯示視覺效果。
 
 系統會使用**經認證的自訂視覺效果**，例如[標準自訂視覺效果](power-bi-custom-visuals.md)。 經認證的自訂視覺效果可以新增至 **Power BI 服務** (**Power BI Desktop 報表**)，並使用 **Power BI 行動版**和 **Power BI Embedded** 進行檢視。
 
-所執行的測試設計為檢查不會存取外部服務或資源的視覺效果。 **Microsoft** 「不是」  協力廠商自訂視覺效果的作者，我們建議客戶直接連絡作者以驗證這類視覺效果的功能。
+所執行的測試設計為檢查不會存取外部服務或資源的視覺效果。 **Microsoft** 「不是」協力廠商自訂視覺效果的作者，我們建議客戶直接連絡作者以驗證這類視覺效果的功能。
 
 認證程序是一種選擇性程序，開發人員負責決定是否要讓其在 Marketplace 中的視覺效果經過認證。  
 

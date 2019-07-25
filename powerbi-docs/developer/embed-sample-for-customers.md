@@ -123,7 +123,7 @@ ms.locfileid: "65710964"
 
 1. 登入[Azure 入口網站](https://portal.azure.com)。
 
-2. 在左側的功能窗格中，選取 [所有服務]  及 [應用程式註冊]  。
+2. 在左側的功能窗格中，選取 [所有服務] 及 [應用程式註冊]。
 
     ![應用程式註冊搜尋](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -131,7 +131,7 @@ ms.locfileid: "65710964"
 
     ![選擇應用程式](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-4. 有一個以 GUID 形式列出的「應用程式識別碼」  。 請使用此**應用程式識別碼**作為應用程式的 **applicationId**。
+4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此**應用程式識別碼**作為應用程式的 **applicationId**。
 
     ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
@@ -184,13 +184,13 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 僅[服務主體](embed-service-principal.md) AuthenticationType 需要此屬性。
 
-在 **Azure** 之 [應用程式註冊]  區段的 [金鑰]  區段中，填入 **ApplicationSecret** 資訊。  使用[服務主體](embed-service-principal.md)時，此屬性即會運作。
+在 **Azure** 之 [應用程式註冊] 區段的 [金鑰] 區段中，填入 **ApplicationSecret** 資訊。  使用[服務主體](embed-service-principal.md)時，此屬性即會運作。
 
 若要取得 **ApplicationSecret**，請遵循下列步驟：
 
 1. 登入 [Azure 入口網站](https://portal.azure.com)。
 
-2. 在左側瀏覽窗格中，選取 [所有服務]  ，然後選取 [應用程式註冊]  。
+2. 在左側瀏覽窗格中，選取 [所有服務]，然後選取 [應用程式註冊]。
 
     ![應用程式註冊搜尋](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -202,7 +202,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 5. 選取 **新的用戶端祕密**。
 
-6. 在 [描述]  方塊中輸入名稱，並選取期間。 然後選取 [儲存]  來取得您應用程式的**值**。 當您在儲存金鑰值後關閉 [金鑰]  窗格時，[值] 欄位只會以隱藏方式顯示。 此時，您即無法擷取金鑰值。 如果您遺失金鑰值，就必須在 Azure 入口網站中建立一個新的。
+6. 在 [描述] 方塊中輸入名稱，並選取期間。 然後選取 [儲存] 來取得您應用程式的**值**。 當您在儲存金鑰值後關閉 [金鑰] 窗格時，[值] 欄位只會以隱藏方式顯示。 此時，您即無法擷取金鑰值。 如果您遺失金鑰值，就必須在 Azure 入口網站中建立一個新的。
 
     ![金鑰值](media/embed-sample-for-customers/embed-sample-for-customers-042.png)
 
@@ -214,11 +214,11 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 ### <a name="run-the-application"></a>執行應用程式
 
-1. 在 **Visual Studio** 中選取 [執行]  。
+1. 在 **Visual Studio** 中選取 [執行]。
 
     ![執行應用程式](media/embed-sample-for-customers/embed-sample-for-customers-033.png)
 
-2. 接著，選取 [內嵌報表]  。 視您選擇要進行測試之內容的不同 (報表、儀表板或磚)，接著在應用程式中選取該選項。
+2. 接著，選取 [內嵌報表]。 視您選擇要進行測試之內容的不同 (報表、儀表板或磚)，接著在應用程式中選取該選項。
 
     ![選取內容](media/embed-sample-for-customers/embed-sample-for-customers-034.png)
 
@@ -356,7 +356,7 @@ var embedConfig = new EmbedConfig()
 
 使用下表來判斷最符合您需求的 Power BI Embedded 容量。
 
-| 節點容量 | 核心總數<br/>(後端 + 前端)  | 後端核心 | 前端核心 | DirectQuery/即時連線限制|
+| 節點容量 | 核心總數<br/>(後端 + 前端) | 後端核心 | 前端核心 | DirectQuery/即時連線限制|
 | --- | --- | --- | --- | --- | --- |
 | A1 |1 個虛擬核心 |0.5 個核心，3-GB 的 RAM |0.5 個核心 |每秒 0.5 |
 | A2 |2 個虛擬核心 |1 個核心，5-GB 的 RAM |1 個核心 | 每秒 10 個 |
@@ -379,15 +379,15 @@ var embedConfig = new EmbedConfig()
 
 請遵循下列步驟，使用**主帳戶**將專用容量指派給工作區，。
 
-1. 在 **Power BI 服務**中，展開 工作區，然後選取用於內嵌內容之工作區的省略符號。 然後選取 [編輯工作區]  。
+1. 在 **Power BI 服務**中，展開 工作區，然後選取用於內嵌內容之工作區的省略符號。 然後選取 [編輯工作區]。
 
     ![編輯工作區](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
 
-2. 展開 [進階]  ，接著啟用 [專用容量]  ，然後選取您所建立的專用容量」。 接著，選取 [儲存]  。
+2. 展開 [進階]，接著啟用 [專用容量]，然後選取您所建立的專用容量」。 接著，選取 [儲存]。
 
     ![指派專用容量](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. 在您選取 [儲存]  後，應該會在應用程式工作區名稱的旁邊看到一個**鑽石**。
+3. 在您選取 [儲存] 後，應該會在應用程式工作區名稱的旁邊看到一個**鑽石**。
 
     ![繫結至容量的應用程式工作區](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
