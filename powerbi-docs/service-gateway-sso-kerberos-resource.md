@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 01/08/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 6dc530305634b44415ddccb9c42952c0bfbe2e5f
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383352"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271936"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的單一登入 (SSO) 使用以資源為基礎的 Kerberos
 
@@ -23,7 +23,7 @@ ms.locfileid: "58383352"
 
 ## <a name="preparing-for-resource-based-kerberos-constrained-delegation"></a>準備以資源為基礎的 Kerberos 限制委派
 
-必須設定數個項目，Kerberos 限制委派才能正常運作，包括服務帳戶上的「服務主體名稱」(SPN) 和委派設定。 
+必須設定數個項目，Kerberos 限制委派才能正常運作，包括服務帳戶上的「服務主體名稱」  (SPN) 和委派設定。
 
 ### <a name="prerequisite-1-operating-system-requirements"></a>必要條件 1：作業系統需求
 
@@ -31,15 +31,15 @@ ms.locfileid: "58383352"
 
 ### <a name="prerequisite-2-install-and-configure-the-on-premises-data-gateway"></a>必要條件 2：安裝及設定內部部署資料閘道
 
-這個內部部署資料閘道版本支援就地升級，以及對現有閘道的「設定承接」功能。
+內部部署資料閘道支援就地升級，以及對現有閘道的「設定接管」  功能。
 
 ### <a name="prerequisite-3-run-the-gateway-windows-service-as-a-domain-account"></a>必要條件 3：以網域帳戶身分執行閘道 Windows 服務
 
-在標準安裝中，閘道是以電腦本機服務帳戶執行 (具體而言是 NT Service\PBIEgwService)，例如下圖顯示的內容：
+在標準安裝中，閘道是以電腦本機服務帳戶執行 (具體而言是 NT Service\PBIEgwService  )，例如下圖顯示的內容：
 
 ![網域帳戶](media/service-gateway-sso-kerberos-resource/domain-account.png)
 
-若要啟用 **Kerberos 限制委派，閘道必須以網域帳戶執行，除非 Azure AD 已與本機 Active Directory 進行同步處理 (使用 Azure AD DirSync/Connect)。 如果您需要將帳戶切換為網域帳戶，請參閱[將閘道切換為網域帳戶](service-gateway-sso-kerberos.md)。
+若要啟用 **Kerberos 限制委派，閘道必須以網域帳戶執行，除非 Azure AD 已與本機 Active Directory 進行同步處理 (使用 Azure AD DirSync/Connect)。 如果您需要將帳戶切換為網域帳戶，請參閱[變更閘道服務帳戶](/data-integration/gateway/service-gateway-service-account)。
 
 若已設定 Azure AD DirSync / Connect，且已同步使用者帳戶，閘道服務並不需要在執行階段執行本機 AD 查閱。 您可以針對閘道服務使用本機服務 SID (而不需要網域帳戶)。 這篇文章中概述的 Kerberos 限制委派設定步驟與該設定都相同 (它們只會套用至 Active Directory 中的閘道電腦物件，而不會套用至網域帳戶)。
 
@@ -51,9 +51,9 @@ ms.locfileid: "58383352"
 
 若要正確地設定系統，我們需要設定或驗證下列兩個項目：
 
-1. 如有需要，請設定閘道服務網域帳戶的 SPN。
+* 如有需要，請設定閘道服務網域帳戶的 SPN。
 
-1. 在閘道服務網域帳戶上設定委派設定。
+* 在閘道服務網域帳戶上設定委派設定。
 
 請注意，您必須是網域系統管理員才能執行這兩個設定步驟。
 
@@ -61,17 +61,17 @@ ms.locfileid: "58383352"
 
 ### <a name="configure-an-spn-for-the-gateway-service-account"></a>設定閘道服務帳戶的 SPN
 
-首先，判斷 SPN 是否已經為當作閘道服務帳戶使用的網域帳戶建立，但是遵循這些步驟：
+首先，請遵循下列步驟，判斷是否已經為作為閘道服務帳戶使用的網域帳戶建立 SPN：
 
 1. 以網域系統管理員身分啟動 **Active Directory 使用者和電腦**。
 
-1. 以滑鼠右鍵按一下網域，選取 [尋找]，然後鍵入閘道服務帳戶的帳戶名稱
+1. 以滑鼠右鍵按一下網域，選取 [尋找]  ，然後鍵入閘道服務帳戶的帳戶名稱。
 
-1. 在搜尋結果中，以滑鼠右鍵按一下閘道服務帳戶，然後選取 [屬性]。
+1. 在搜尋結果中，以滑鼠右鍵按一下閘道服務帳戶，然後選取 [屬性]  。
 
-1. 如果 [委派] 索引標籤在 [屬性] 對話方塊中顯示，則 SPN 已建立，您可以往前跳至有關設定委派設定的下個小節。
+1. 如果 [委派]  索引標籤顯示在 [屬性]  對話方塊中，則表示 SPN 已建立，且您可以往前跳至有關[設定委派設定](#configure-delegation-settings)的下一小節。
 
-    如果 [屬性] 對話方塊上沒有 [委派] 索引標籤，您可以在該帳戶上手動建立 SPN ，這樣會新增 [委派] 索引標籤 (這是設定委派設定最簡單的方式)。 建立 SPN 可以藉由使用隨附於 Windows 的 [setspn 工具](https://technet.microsoft.com/library/cc731241.aspx)來完成 (您需要網域系統管理員權限才能建立 SPN)。
+    如果 [屬性]  對話方塊上沒有 [委派]  索引標籤，您可以在該帳戶上手動建立 SPN ，這樣會新增 [委派]  索引標籤 (這是設定委派設定最簡單的方式)。 建立 SPN 可以藉由使用隨附於 Windows 的 [setspn 工具](https://technet.microsoft.com/library/cc731241.aspx)來完成 (您需要網域系統管理員權限才能建立 SPN)。
 
     例如，假設閘道服務帳戶是 “PBIEgwTest\GatewaySvc”，且執行閘道服務的電腦名稱是 **Machine1**。 若要為這個範例中電腦的閘道服務帳戶設定 SPN，您可以執行下列命令：
 
@@ -83,10 +83,10 @@ ms.locfileid: "58383352"
 
 在下列步驟中，我們假設內部部署環境具有位於不同網域的兩個機器：閘道電腦和執行 SQL Server 的資料庫伺服器。 基於此範例用途，我們也將假設下列設定和名稱：
 
-- 閘道電腦名稱：**PBIEgwTestGW**
-- 閘道服務帳戶：**PBIEgwTestFrontEnd\GatewaySvc** (帳戶顯示名稱：閘道連接器)
-- SQL Server 資料來源電腦名稱：**PBIEgwTestSQL**
-- SQL Server 資料來源服務帳戶：**PBIEgwTestBackEnd\SQLService**
+* 閘道電腦名稱：**PBIEgwTestGW**
+* 閘道服務帳戶：**PBIEgwTestFrontEnd\GatewaySvc** (帳戶顯示名稱：閘道連接器)
+* SQL Server 資料來源電腦名稱：**PBIEgwTestSQL**
+* SQL Server 資料來源服務帳戶：**PBIEgwTestBackEnd\SQLService**
 
 針對那些範例名稱和設定，請使用下列設定步驟：
 
@@ -102,7 +102,7 @@ ms.locfileid: "58383352"
 
     ![群組屬性](media/service-gateway-sso-kerberos-resource/group-properties.png)
 
-1. 開啟命令提示字元，並在 **PBIEgwTestBack-end** 網域的網域控制站中執行下列命令，以更新後端服務帳戶的 msDS-AllowedToActOnBehalfOfOtherIdentity 屬性：
+1. 開啟命令提示字元，並在 **PBIEgwTestBack-end** 網域之網域控制站中執行下列命令來更新後端服務帳戶的 msDS-AllowedToActOnBehalfOfOtherIdentity 屬性：
 
     ```powershell
     $c = Get-ADGroup ResourceDelGroup
@@ -115,23 +115,23 @@ ms.locfileid: "58383352"
 
 1. 在閘道電腦上執行：_gpedit.msc_。
 
-1. 瀏覽至 [本機電腦原則 > 電腦設定 > Windows 設定 > 安全性設定 > 本機原則 > 使用者權限指派]，如下圖所示。
+1. 瀏覽至 [本機電腦原則 > 電腦設定 > Windows 設定 > 安全性設定 > 本機原則 > 使用者權限指派]  ，如下圖所示。
 
     ![使用者權限指派](media/service-gateway-sso-kerberos-resource/user-rights-assignment.png)
 
-1. 從 [使用者權限指派] 底下的原則清單中，選取 [在驗證後模擬用戶端]。
+1. 從 [使用者權限指派]  底下的原則清單中，選取 [在驗證後模擬用戶端]  。
 
     ![模擬用戶端](media/service-gateway-sso-kerberos-resource/impersonate-client.png)
 
-1. 以滑鼠右鍵按一下並開啟 [在驗證後模擬用戶端] 的 [屬性]，然後檢查帳戶的清單。 它必須包含閘道服務帳戶 (**PBIEgwTestFront-end****\GatewaySvc**)。
+1. 以滑鼠右鍵按一下並開啟 [在驗證後模擬用戶端]  的 [屬性]  ，然後檢查帳戶的清單。 它必須包含閘道服務帳戶 (**PBIEgwTestFront-end** **\GatewaySvc**)。
 
-1. 從 [使用者權限指派] 底下的原則清單中，選取 [當成作業系統的一部分 (SeTcbPrivilege)]。 請確定閘道服務帳戶也包含在帳戶清單中。
+1. 從 [使用者權限指派]  底下的原則清單中，選取 [當成作業系統的一部分 (SeTcbPrivilege)]  。 請確定閘道服務帳戶也包含在帳戶清單中。
 
 1. 重新啟動**內部部署資料閘道**服務處理程序。
 
 ## <a name="running-a-power-bi-report"></a>執行 Power BI 報表
 
-完成本文稍早所述的所有設定步驟之後，您可以在 Power BI 中使用 [管理閘道]頁 面來設定資料來源。 然後在其 [進階設定] 下方啟用 SSO，並將報表和資料集繫結發佈到該資料來源。
+完成本文稍早所述的所有設定步驟之後，您可以在 Power BI 中使用 [管理閘道]  頁 面來設定資料來源。 然後在其 [進階設定]  下方啟用 SSO，並將報表和資料集繫結發佈到該資料來源。
 
 ![資料來源設定](media/service-gateway-sso-kerberos-resource/data-source-settings.png)
 
@@ -141,8 +141,8 @@ ms.locfileid: "58383352"
 
 如需**內部部署資料閘道**和 **DirectQuery** 的詳細資訊，請參閱下列資源：
 
-- [內部部署資料閘道](service-gateway-onprem.md)
-- [Power BI 中的 DirectQuery](desktop-directquery-about.md)
-- [DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)
-- [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)
-- [DirectQuery 和 SAP HANA](desktop-directquery-sap-hana.md)
+* [什麼是內部部署的資料閘道？](/data-integration/gateway/service-gateway-onprem.md)
+* [Power BI 中的 DirectQuery](desktop-directquery-about.md)
+* [DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)
+* [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)
+* [DirectQuery 和 SAP HANA](desktop-directquery-sap-hana.md)

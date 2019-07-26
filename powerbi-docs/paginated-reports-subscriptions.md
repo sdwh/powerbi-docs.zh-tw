@@ -1,6 +1,6 @@
 ---
 title: 訂閱 Power BI 服務中的分頁報表
-description: 在本文中，您將了解在 Power BI 服務中訂閱分頁報表的注意事項。
+description: 在本文中，您將了解在 Power BI 服務中訂閱編頁報表的注意事項。
 author: maggiesMSFT
 ms.author: maggies
 manager: kfile
@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 05/24/2019
-ms.openlocfilehash: 472606fcb3b823cdcb722c9d8d6421d0ec652d24
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.date: 07/15/2019
+ms.openlocfilehash: 2d48892450bbf6ab09a4bc88cd2be9a58bbdc863
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839554"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307073"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的分頁報表 
 
@@ -26,15 +26,15 @@ ms.locfileid: "66839554"
 
 - 不同於儀表板或 Power BI 報表訂閱，您的訂閱會包含完整報表輸出附件。  支援下列附件類型︰PDF、PowerPoint 簡報 (PPTX)、Excel 活頁簿 (XLSX)、Word 文件 (DOCX)、CSV 檔案和 XML。
 
-- 在電子郵件內文中不含報表的任何預覽影像。  我們打算將報表第一頁的影像作為選用項目。 
+- 您可以在電子郵件內文中包含報表的預覽影像。  這是選擇性的，且視所選的附件格式，其會與您附加報表文件的第一頁有些不同。 
 
 - 報表附件大小上限為 25 MB。 
 
 - 您可以為其他使用者訂閱與任何目前支援之資料來源連線的分頁報表，包括 Azure Analysis Services 或 Power BI 資料集。 請注意，報表附件會根據您的權限反映於資料上，如同目前的 SQL Server Reporting Services。 
 
-- 報表頁面訂閱會繫結至報表的名稱。  
+- 電子郵件訂閱可以您針對報表的目前選取項目或預設參數來進行傳送。  您可以為每個您為報表建立的訂閱設定不同的參數值。 
 
-- 電子郵件訂閱傳送時會使用報表的預設參數值。 
+- 若報表作者有設定以運算式為基礎的參數 (例如預設是今天的日期)，訂閱便會使用它作為預設值。 您可以變更其他參數值並選擇使用目前的值，但除非您也明確變更該值，否則訂閱會使用以運算式為基礎的參數。
 
 - 分頁報表不具有**在資料重新整理後**頻率選項。 您將一律從基礎資料來源取得最新的值。 
 

@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/18/2019
-ms.openlocfilehash: 10ac6ed9f49241103d03f2667ccc8db5d619db6c
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.date: 07/15/2019
+ms.openlocfilehash: 10135e0fa725cd4093802cd1416cab302174e21d
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345513"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270786"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -119,10 +119,10 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 我們支援下列資料來源： 
 
-- Power BI Premium 資料集
+- Power BI 資料集 (透過單一登入 (SSO))
 - Azure Analysis Services (透過單一登入 (SSO) 和 oAuth)
 - Azure SQL 資料倉儲
-- Azure SQL Database (使用者名稱/密碼和 oAuth)
+- Azure SQL Database (使用者名稱/密碼、SSO 和 oAuth)
 - SQL Server*
 - SQL Server Analysis Services 表格式 (DAX) 和多維度 (MDX) 模型* 
 - Oracle* 
@@ -134,11 +134,11 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="what-authentication-methods-do-you-support"></a>您支援哪些驗證方法？
 
-我們支援 SSO 用於 Azure Analysis Services 和 Power BI Premium 資料來源，並支援 oAuth 和 SSO 用於 Azure SQL Database。  若為其他資料來源，您目前必須在入口網站或閘道中，將使用者名稱和密碼與資料來源一起儲存。  
+我們支援 Azure Analysis Services、Azure SQL Database 和 Power BI 資料來源的 SSO。  我們也支援 Azure SQL Database 和 Azure Analysis Services 的 OAuth。  若為其他資料來源，您目前必須在入口網站或閘道中，將使用者名稱和密碼與資料來源一起儲存。  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>我可以使用 Power BI 資料集作為編頁報表的資料來源嗎？
 
-可以，我們支援 Power BI Premium 資料集，作為編頁報表的資料來源。
+可以，我們支援 Power BI 資料集作為編頁報表的資料來源。
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>我可以透過閘道使用預存程序嗎？
 
@@ -179,10 +179,6 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>是否規劃了移轉工具，讓 SSRS 客戶可將其現有的報表和資產移至 Power BI？
 
 我們會繼續評估選項，以透過自動化的方式，將內容移至 Power BI，但這會在正式運作時才提供。
-
-### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>我是否能夠在單一製作工具中同時建立編頁報表和 Power BI 報表？
-
-我們已思索啟用此案例的方式，但是目前在我們的計劃中沒有此方式。
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI 服務中是否有適用於編頁報表的報表檢視器控制項？
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b3fa7fd07a4c7f1992623871ed408b959582a125
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61196885"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270593"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 的高可用性、容錯移轉和災害復原常見問題集
 
@@ -65,7 +65,7 @@ Power BI 支援頁面 ([https://powerbi.microsoft.com/en-us/support/](https://po
 如果您組織中使用的 Power BI 解決方案牽涉到下列其中一個項目，您必須採取一些措施，以保證此解決方案會保持高可用性：
 
 - 如果您的組織使用 Power BI Premium，您必須確定 Premium 容量會調整大小以符合部署的負載需求。  [Power BI Premium Planning and Deployment whitepaper](https://aka.ms/Premium-Capacity-Planning-Deployment) (Power BI Premium 規劃與部署的技術白皮書) 和 [Power BI Premium 容量計量應用程式](service-admin-premium-monitor-capacity.md)可協助您規劃和滿足此需求。 我們會經常在 Power BI 的計量應用程式和管理入口網站中新增新功能以提供協助。
-- 如果您的組織使用 Power BI 內部部署閘道存取內部部署資料來源，您必須[依照本文所述](service-gateway-high-availability-clusters.md)設定閘道以支援高可用性。 無論您是在匯入模式下重新整理報表，還是使用 DirectQuery 或 Live Connect 來存取資料或資料模型，請遵循本指南中的指示。
+- 如果您的組織使用內部部署資料閘道存取內部部署資料來源，您必須[依照本文所述](/data-integration/gateway/service-gateway-high-availability-clusters)設定閘道以支援高可用性。 無論您是在匯入模式下重新整理報表，還是使用 DirectQuery 或 Live Connect 來存取資料或資料模型，請遵循本指南中的指示。
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>閘道是否會在容錯移轉模式下運作？
 

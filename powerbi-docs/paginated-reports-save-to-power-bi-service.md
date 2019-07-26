@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 81e079be6c8bec27c006c68eccb3ea1091b813df
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839596"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271205"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>將編頁報表發佈至 Power BI 服務
 
@@ -79,7 +79,7 @@ ms.locfileid: "66839596"
 
    ![管理編頁報表](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 
-1. 如需詳細資料和後續步驟，請參閱 Power BI 服務文章：[安裝閘道](service-gateway-install.md)。
+1. 如需詳細資料和後續步驟，請參閱 Power BI 服務文章：[什麼是內部部署資料閘道](service-gateway-onprem.md)。
 
 ### <a name="gateway-limitations"></a>閘道限制
 

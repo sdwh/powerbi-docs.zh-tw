@@ -7,32 +7,40 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 06/06/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7b863af882604be8c2c59fd21f26cd8441f9e170
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 39f5a01a396e45207777b1a5e58e73808ddf3f88
+ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54272642"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68352189"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>合併或附加內部部署與雲端資料來源
 
-內部部署資料閘道，讓您能在相同查詢中合併或附加內部部署和雲端資料來源。 當您想要混用來自多個來源的資料而不需要使用個別的查詢時，這會有所助益。
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
+
+您可以使用內部部署資料閘道，將內部部署和雲端資料來源合併或附加至相同查詢。 當您想要合併多個來源的資料，但不想使用個別的查詢時，即適用此方法。
+
+>[!NOTE]
+>本文僅適用於已將雲端和內部部署資料來源合併或附加至單一查詢的資料集。 如果資料集包含個別查詢 (一個連接到內部部署，另一個連接到雲端資料來源)，則不會使用閘道來執行使用雲端資料來源的查詢。
 
 ## <a name="prerequisites"></a>先決條件
 
-- [安裝在本機電腦上的閘道](service-gateway-install.md)。
+- [安裝在本機電腦上的閘道](/data-integration/gateway/service-gateway-install)。
 - 具有結合內部部署和雲端資料來源之查詢的 Power BI Desktop 檔案。
 
-1. 在 Power BI 服務的右上角，選取齒輪圖示 ![設定齒輪圖示](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > [管理閘道]。
+>[!NOTE]
+>若要存取任何雲端資料來源，您必須確定閘道可以存取這些資料來源。
+
+1. 在 Power BI 服務的右上角，選取齒輪圖示 ![設定齒輪圖示](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > [管理閘道]  。
 
     ![管理閘道](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
 
 2. 選取您想要設定的閘道。
 
-3. 在 [閘道叢集設定] 下，選取 [允許使用者的雲端資料來源，以透過此閘道叢集重新整理] > [套用]。
+3. 在 [閘道叢集設定]  下，選取 [允許使用者的雲端資料來源，以透過此閘道叢集重新整理]   > [套用]  。
 
     ![透過此閘道叢集重新整理](media/service-gateway-mashup-on-premises-cloud/refresh-gateway-cluster.png)
 
@@ -40,16 +48,17 @@ ms.locfileid: "54272642"
 
 5. 將具有結合內部部署和雲端資料來源之查詢的 Power BI Desktop 檔案上傳至 Power BI 服務。
 
-6. 在新資料集的 [資料集設定] 頁面：
+6. 在新資料集的 [資料集設定]  頁面：
 
    - 對於內部部署來源，選取與此資料來源建立關聯的閘道。
 
-   - 在 [資料來源認證] 下，視需要編輯雲端資料來源認證。
+   - 在 [資料來源認證]  下，視需要編輯雲端資料來源認證。
+
+    請確認已妥善設定雲端和內部部署資料來源的隱私權等級，以確保安全地處理聯結。
 
      ![資料集設定](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-7. 設定雲端認證之後，您現在可以使用 [立即重新整理] 選項重新整理資料集，或將它排程為定期重新整理。
-
+7. 設定雲端認證之後，您現在可以使用 [立即重新整理]  選項重新整理資料集，或將它排程為定期重新整理。
 
 ## <a name="next-steps"></a>後續步驟
 

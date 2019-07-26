@@ -8,32 +8,34 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3eb244cb09b26855bdd5284f781f2c5aa188100
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 074a8dd876e0612f87c220f9fb077b60b2b85c88
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283820"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271821"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>透過內部部署資料閘道使用自訂資料連接器
 
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
+
 適用於 Power BI 的資料連接器可讓您連接並存取應用程式、服務或資料來源中的資料。 您可以在 Power BI Desktop 中開發並使用自訂資料連接器。
 
-若要深入了解如何為 Power BI 開發自訂資料連接器，請參閱[這裡](http://aka.ms/dataconnectors)的文件。
+若要深入了解如何為 Power BI 開發自訂資料連接器，請參閱[資料連接器 SDK GitHub 頁面](http://aka.ms/dataconnectors)。 此網站包含 Power BI 和 Power Query 的快速入門資訊和範例。
 
-當您在 Power BI Desktop 中建立使用自訂資料連接器的報表時，您可以使用內部部署資料閘道從 Power BI 服務重新整理這些報表。
+當您在 Power BI Desktop 中建置使用自訂資料連接器的報表時，您可以使用內部部署資料閘道從 Power BI 服務重新整理這些報表。
 
-## <a name="here-is-a-guide-on-how-to-enable-and-use-this-capability"></a>以下是有關如何啟用及使用這項功能的指南
+## <a name="how-to-enable-and-use-this-capability"></a>如何啟用及使用此功能
 
-當您安裝 2018 年 7 月版或更新版本的內部部署資料閘道時，您可能會在設定程式中看到 [連接器] 索引標籤，以及可供您選擇要從中載入自訂連接器之資料夾的選項。 請務必選取執行閘道服務的使用者可存取的資料夾 (預設為 “NT SERVICE\PBIEgwService”)。 閘道會自動載入位於該資料夾中的自訂連接器檔案，而且您應該會在資料連接器清單中看到這些檔案。
+當您安裝內部部署閘道的 2018 年七月版本或更新版本時，您可以在內部部署資料閘道應用程式中看到 [連接器]  索引標籤，以及用以選擇載入自訂連接器來源資料夾的選項。 請務必挑選可由執行閘道服務 (根據預設為 *NT SERVICE\PBIEgwService*) 使用者存取的資料夾。 閘道會自動載入位於該資料夾中的自訂連接器檔案，您也會在資料連接器清單中看見它們。
 
 ![自訂連接器 1](media/service-gateway-custom-connectors/gateway-onprem-customconnector1.png)
 
-如果您使用個人版的內部部署資料閘道，您此時應該能夠將 Power BI 報表上傳至 Power BI 服務，並使用閘道將它重新整理。
+若您使用的是內部部署資料閘道 (個人模式)，此時您便可以將 Power BI 報表上傳到 Power BI 服務，並使用閘道來加以重新整理。
 
-若是企業版的閘道，您仍需為自訂連接器建立資料來源。 在 Power BI 服務的閘道設定頁面中，當您選取閘道叢集以允許透過此叢集使用自訂連接器時，您應該會看到新的選項。 確定叢集中的所有閘道都有 2018 年 7 月更新版或更新版本，才能使用此選項。 現在，選取該選項以允許透過此叢集使用自訂連接器。
+針對內部部署資料閘道，您仍然需要為您的自訂連接器建立資料來源。 在 Power BI 服務的閘道設定頁面中，當您選取閘道叢集以允許透過此叢集使用自訂連接器時，您應該會看到新的選項。 確定叢集中的所有閘道都有 2018 年 7 月更新版或更新版本，才能使用此選項。 現在，選取該選項以允許透過此叢集使用自訂連接器。
 
 ![自訂連接器 2](media/service-gateway-custom-connectors/gateway-onprem-customconnector2.png)
 
@@ -43,8 +45,8 @@ ms.locfileid: "54283820"
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-* 請確定您所建立的資料夾可供背景閘道服務存取。 一般而言，無法存取您使用者的 Windows 資料夾或系統資料夾下的資料夾。 如果無法存取資料夾，閘道設定程式會顯示一則訊息 (這不適用於個人版的閘道)
-* 若要讓自訂連接器可以透過內部部署資料閘道運作，這些連接器需要實作自訂連接器程式碼中的 “TestConnection” 區段。 當透過 Power BI Desktop 使用自訂連接器時，則不需要此區段。 基於此原因，您可以有一個可透過 Desktop 運作但無法透過閘道運作的連接器。 請參閱[此文件](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support)以了解如何實作 TestConnection 區段。
+* 請確定您所建立的資料夾可供背景閘道服務存取。 一般而言，無法存取您使用者的 Windows 資料夾或系統資料夾下的資料夾。 如果無法存取資料夾，內部部署資料閘道應用程式會顯示一則訊息 (這不適用於個人版的閘道)
+* 若要讓自訂連接器使用內部部署資料閘道，它們需要在自訂連接器的程式碼中實作 "TestConnection" 區段。 當透過 Power BI Desktop 使用自訂連接器時，則不需要此區段。 基於此原因，您可以有一個可透過 Desktop 運作但無法透過閘道運作的連接器。 請參閱[此文件](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support)以了解如何實作 TestConnection 區段。
 
 ## <a name="next-steps"></a>後續步驟
 
@@ -53,9 +55,8 @@ ms.locfileid: "54283820"
 * [管理您的資料來源 - SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [管理您的資料來源 - Oracle](service-gateway-onprem-manage-oracle.md)  
 * [管理您的資料來源 - 匯入/已排程的重新整理](service-gateway-enterprise-manage-scheduled-refresh.md)  
-* [內部部署資料閘道 - 深入資訊](service-gateway-onprem-indepth.md)  
-* [內部部署資料閘道 (個人模式)](service-gateway-personal-mode.md)
-* [設定內部部署資料閘道的 Proxy 設定](service-gateway-proxy.md)  
+
+* [設定內部部署資料閘道的 Proxy 設定](/data-integration/gateway/service-gateway-proxy)  
 * [使用 Kerberos 以從 Power BI 單一登入 (SSO) 到內部部署資料來源](service-gateway-sso-kerberos.md)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

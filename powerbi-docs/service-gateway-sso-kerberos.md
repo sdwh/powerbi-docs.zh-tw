@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: d8cebda3ad0db9fba48804fb8d2dd029c1c07f8d
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 1a0ec90d3f6a1de5a542da7ee98f956dfcef67b1
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809267"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325145"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的單一登入 (SSO) 使用 Kerberos
 
@@ -60,14 +60,14 @@ ms.locfileid: "66809267"
 
 ![服務帳戶的螢幕擷取畫面](media/service-gateway-sso-kerberos/service-account.png)
 
-若要啟用 Kerberos 限制委派，閘道必須以網域帳戶執行，除非 Azure Active Directory (Azure AD) 已與本機 Active Directory 執行個體進行同步處理 (使用 Azure AD DirSync/Connect)。 若要切換為網域帳戶，請參閱本文稍後所述的[將閘道切換為網域帳戶](#switch-the-gateway-to-a-domain-account)。
+若要啟用 Kerberos 限制委派，閘道必須以網域帳戶執行，除非 Azure Active Directory (Azure AD) 已與本機 Active Directory 執行個體進行同步處理 (使用 Azure AD DirSync/Connect)。 若要切換為網域帳戶，請參閱[變更閘道服務帳戶](/data-integration/gateway/service-gateway-service-account)。
 
 > [!NOTE]
 > 若已設定 Azure AD Connect，且已同步使用者帳戶，閘道服務並不需要在執行階段執行本機 Azure AD 查閱。 您可以針對閘道服務使用本機服務 SID (而不需要網域帳戶)。 本文中概述的 Kerberos 限制委派設定步驟與該設定相同。 它們只會套用至 Azure AD 中閘道的電腦物件，而不是網域帳戶。
 
 ### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>必要條件 3：具備網域系統管理員權限以設定 SPN (SetSPN) 與 Kerberos 限制委派設定
 
-不建議網域系統管理員暫時或永久允許其他人有權設定 SPN 和 Kerberos 委派，而不需要網域系統管理員權限。 在下一節中，我們會更詳細地說明建議的設定步驟。
+我們不建議網域系統管理員暫時或永久將 SPN 和 Kerberos 委派的設定權限授與其他人，而不需要網域系統管理員權限。 在下一節中，我們會更詳細地說明建議的設定步驟。
 
 ## <a name="configure-kerberos-constrained-delegation-for-the-gateway-and-data-source"></a>針對閘道和資料來源設定 Kerberos 限制委派
 
@@ -99,7 +99,7 @@ ms.locfileid: "66809267"
 
 我們必須使用通訊協定傳輸來設定 Kerberos 限制委派。 使用限制委派，您必須明確指出要委派哪些服務。 例如，只有 SQL Server 或您的 SAP HANA 伺服器會接受來自閘道服務帳戶的委派呼叫。
 
-本節假設您已經為基礎資料來源 (例如，SQL Server、SAP HANA、Teradata 和 Spark) 設定 SPN。 若要了解如何設定這些資料來源伺服器 SPN，請參閱個別資料庫伺服器的技術文件。 您也可以查看 [What SPN does your app require?](https://blogs.msdn.microsoft.com/psssql/2010/06/23/my-kerberos-checklist/) (您的應用程式需要何種 SPN？) 部落格文章。
+本節假設您已經為基礎資料來源 (例如，SQL Server、SAP HANA、Teradata 和 Spark) 設定 SPN。 若要了解如何設定這些資料來源伺服器 SPN，請參閱個別資料庫伺服器的技術文件。 您也可以參閱 [My Kerberos Checklist](https://techcommunity.microsoft.com/t5/SQL-Server-Support/My-Kerberos-Checklist-8230/ba-p/316160) (我的 Kerberos 檢查清單) 部落格文章的 *What SPN does your app require?* (您的應用程式需要何種 SPN？) 標題。
 
 在下列步驟中，我們假設具有兩個機器的內部部署環境：閘道電腦和執行 SQL Server 的資料庫伺服器。 基於此範例用途，我們也將假設下列設定和名稱：
 
@@ -118,21 +118,21 @@ ms.locfileid: "66809267"
 
 4. 選取 [Trust this computer for delegation to specified services only] \(信任這部電腦，但只委派指定的服務\)   > [Use any authentication protocol] \(使用任何驗證通訊協定\)  。
 
-6. 在 [Services to which this account can present delegated credentials] \(這個帳戶可以呈送委派認證的服務\)  下方，選取 [新增]  。
+5. 在 [Services to which this account can present delegated credentials] \(這個帳戶可以呈送委派認證的服務\)  下方，選取 [新增]  。
 
-7. 在新的對話方塊中，選取 [使用者或電腦]  。
+6. 在新的對話方塊中，選取 [使用者或電腦]  。
 
-8. 輸入 SQL Server 資料來源的服務帳戶 (**PBIEgwTest\SQLService**)，然後選取 [確定]  。
+7. 輸入資料來源的服務帳戶，例如，SQL Server 資料來源可能會有類似 **PBIEgwTest\SQLService** 的服務帳戶。 新增帳戶之後，請選取 [確定]  。
 
-9. 選取您為資料庫伺服器建立的 SPN。 在我們的範例中，SPN 會以 **MSSQLSvc** 開頭。 如果您為資料庫服務新增了 FQDN 與 NetBIOS SPN，請同時選取兩者。 您可能只會看到一個。
+8. 選取您為資料庫伺服器建立的 SPN。 在我們的範例中，SPN 會以 **MSSQLSvc** 開頭。 如果您為資料庫服務新增了 FQDN 與 NetBIOS SPN，請同時選取兩者。 您可能只會看到一個。
 
-10. 選取 [確定]  。 您現在應該會在清單中看到 SPN。
+9. 選取 [確定]  。 您現在應該會在清單中看到 SPN。
 
     或者，您可以選取 [展開]  來顯示 FQDN 和 NetBIOS SPN。 如果選取 [展開]  ，對話方塊將如下所示。 選取 [確定]  。
 
     ![[Gateway Connector Properties] \( 閘道連接器屬性\) 對話方塊的螢幕擷取畫面](media/service-gateway-sso-kerberos/gateway-connector-properties.png)
 
-最後，在執行閘道服務的電腦上 (在我們的範例中是 **PBIEgwTestGW**)，您必須將本機原則 [Impersonate a client after authentication] \(在驗證後模擬用戶端\)  授與閘道服務帳戶。 您可以使用本機群組原則編輯器 (**gpedit**) 來執行並進行驗證。
+最後，在執行閘道服務的電腦上 (在我們的範例中是 **PBIEgwTestGW**)，您必須將本機原則 [在驗證後模擬用戶端]  和 [當成作業系統的一部分 (SeTcbPrivilege)]  授與閘道服務帳戶。 您可以使用本機群組原則編輯器 (**gpedit**) 來執行並驗證此設定。
 
 1. 在閘道電腦上執行：*gpedit.msc*。
 
@@ -170,40 +170,26 @@ ms.locfileid: "66809267"
 
 此設定在大部分情況下都能運作。 不過，使用 Kerberos 會有不同的設定，根據您的環境而異。 如果仍然無法載入報表，請連絡網域系統管理員，以便進一步調查。
 
-## <a name="switch-the-gateway-to-a-domain-account"></a>將閘道切換為網域帳戶
-
-如有必要，您可以使用 [內部部署的資料閘道]  使用者介面，將閘道從本機服務帳戶切換為以網域帳戶執行。 其做法如下：
-
-1. 開啟 [內部部署的資料閘道]  設定工具。
-
-   ![閘道傳統型應用程式啟動選項的螢幕擷取畫面](media/service-gateway-sso-kerberos/gateway-desktop-app.png)
-
-2. 在主要分頁上選取 [登入]  按鈕，並使用您的 Power BI 帳戶登入。
-
-3. 登入完成之後，選取 [服務設定]  索引標籤。
-
-4. 選取 [變更帳戶]  以啟動引導式逐步解說。
-
-   ![[內部部署的資料閘道] 傳統型應用程式的螢幕擷取畫面，其中已醒目提示 [變更帳戶] 選項](media/service-gateway-sso-kerberos/change-account.png)
-
 ## <a name="configure-sap-bw-for-sso"></a>針對 SSO 設定 SAP BW
 
 現在您已了解 Kerberos 如何與閘道搭配使用，您可以針對 SAP Business Warehouse (SAP BW) 設定 SSO。 下列步驟假設您已經[準備好進行 Kerberos 限制委派](#prepare-for-kerberos-constrained-delegation)，如本文稍早所述。
 
 本指南會嘗試儘可能提供廣泛資訊。 如果您已經完成這些步驟的其中一部分，則可以略過它們。 例如，您已為 SAP BW 伺服器建立服務使用者並將 SPN 與其對應，或是已安裝 `gsskrb5` 程式庫。
 
-### <a name="set-up-gsskrb5-on-client-machines-and-the-sap-bw-server"></a>設定用戶端電腦和 SAP BW 伺服器上的 gsskrb5
+### <a name="set-up-gsskrb5gx64krb5-on-client-machines-and-the-sap-bw-server"></a>設定用戶端電腦和 SAP BW 伺服器上的 gsskrb5/gx64krb5
 
 > [!NOTE]
-> SAP 已不再主動支援 `gsskrb5`。 如需詳細資訊，請參閱 [SAP Note 352295](https://launchpad.support.sap.com/#/notes/352295) (SAP 附註 352295)。 另請注意，`gsskrb5` 不允許透過 SSO 從資料閘道連線到 SAP BW 訊息伺服器， 而是只能連線到 SAP BW 應用程式伺服器。 用戶端和伺服器都必須使用 `gsskrb5` 才能透過閘道完成 SSO 連線。 我們現在支援適用於 SAP BW 的 Common Crypto Library (sapcrypto)。
+> SAP 已不再主動支援 `gsskrb5/gx64krb5`。 如需詳細資訊，請參閱 [SAP Note 352295](https://launchpad.support.sap.com/#/notes/352295) (SAP 附註 352295)。 另請注意，`gsskrb5/gx64krb5` 不允許透過 SSO 從資料閘道連線到 SAP BW 訊息伺服器， 而是只能連線到 SAP BW 應用程式伺服器。 您現在可以將 sapcrypto/CommonCryptoLib 作為簡化安裝程序的 SNC 程式庫。 
 
-1. 從 [SAP Note 2115486](https://launchpad.support.sap.com/) 下載 `gsskrb5` - `gx64krb5` (需要 SAP 使用者)。 請確定您有至少 1.0.11.x 以上版本的 gsskrb5.dll 和 gx64krb5.dll。
+用戶端和伺服器都必須使用 `gsskrb5` 才能透過閘道完成 SSO 連線。
+
+1. 依據您所需的位元，從 [SAP Note 2115486](https://launchpad.support.sap.com/) 下載 `gsskrb5` 或 `gx64krb5` (必須為 SAP S-User)。 請確認您具備 1.0.11.x 以上的版本。
 
 1. 將程式庫放在閘道電腦上可透過閘道執行個體存取的位置中 (如果要使用 SAP 登入測試 SSO 連線，也可以透過 SAP GUI)。
 
 1. 將另一個複本放在 SAP BW 伺服器電腦上可供 SAP BW 伺服器存取的位置中。
 
-1. 在用戶端和伺服器電腦上，將 `SNC\_LIB` 和 `SNC\_LIB\_64` 環境變數分別設定為指向 gsskrb5.dll 和 gx64krb5.dll 的位置。
+1. 在用戶端和伺服器電腦上，將 `SNC_LIB` 或 `SNC_LIB_64` 環境變數分別設定為指向 gsskrb5.dll 或 gx64krb5.dll 的位置。 請注意，您只需要其中一個程式庫，而不是兩者。
 
 ### <a name="create-a-sap-bw-service-user-and-enable-snc-communication"></a>建立 SAP BW 服務使用者並啟用 SNC 通訊
 
@@ -262,7 +248,7 @@ ms.locfileid: "66809267"
 
     ![SAP BW [使用者維護] 畫面的螢幕擷取畫面](media/service-gateway-sso-kerberos/user-maintenance.png)
 
-1. 選取 [SNC]  索引標籤。在 SNC 名稱輸入方塊中，輸入 p:\<您的 Active Directory 使用者\>@\<您的網域\>。 請注意，Active Directory 使用者 UPN 前面必須加上強制的 p:。 您指定的 Active Directory 使用者，應屬於要為其啟用 SAP BW 應用程式伺服器 SSO 存取權的人員或組織。 例如，如果您希望為使用者 [testuser@TESTDOMAIN.COM](mailto:testuser@TESTDOMAIN.COM) 啟用 SSO 存取權，請輸入 p:testuser@TESTDOMAIN.COM。
+1. 選取 [SNC]  索引標籤。在 SNC 名稱輸入方塊中，輸入 p:\<您的 Active Directory 使用者\>@\<您的網域\>。 請注意，Active Directory 使用者 UPN 前面必須加上強制的 p:。 您指定的 Active Directory 使用者，應屬於要為其啟用 SAP BW 應用程式伺服器 SSO 存取權的人員或組織。 例如，如果您希望為使用者 testuser\@TESTDOMAIN.COM 啟用 SSO 存取權，請輸入 p:testuser@TESTDOMAIN.COM。
 
     ![SAP BW [維護使用者] 畫面的螢幕擷取畫面](media/service-gateway-sso-kerberos/maintain-users.png)
 
@@ -290,17 +276,17 @@ ms.locfileid: "66809267"
 
 如果您遇到任何問題，請遵循下列步驟針對 SAP 登入中的 gsskrb5 安裝和 SSO 連線進行疑難排解。
 
-- 檢視伺服器記錄檔 (伺服器電腦上的 …work\dev\_w0) 可協助您針對在完成 gsskrb5 安裝步驟時遇到的任何錯誤進行疑難排解。 特別是在設定檔參數變更後無法啟動 SAP BW 伺服器時。
+* 檢視伺服器記錄檔 (伺服器電腦上的 …work\dev\_w0) 可協助您針對在完成 gsskrb5 安裝步驟時遇到的任何錯誤進行疑難排解。 特別是在設定檔參數變更後無法啟動 SAP BW 伺服器時。
 
-- 如果由於登入失敗而無法啟動 SAP BW 服務，則在設定 SAP BW「啟動為」使用者時可能提供了錯誤的密碼。 以 SAP BW 服務使用者身分登入 Active Directory 環境中的電腦來驗證密碼。
+* 如果由於登入失敗而無法啟動 SAP BW 服務，則在設定 SAP BW「啟動為」使用者時可能提供了錯誤的密碼。 以 SAP BW 服務使用者身分登入 Active Directory 環境中的電腦來驗證密碼。
 
-- 如果您收到導致伺服器無法啟動的 SQL 認證相關錯誤，請確認您已授與服務使用者對 SAP BW 資料庫的存取權。
+* 如果您收到導致伺服器無法啟動的 SQL 認證相關錯誤，請確認您已授與服務使用者對 SAP BW 資料庫的存取權。
 
-- 您可能會收到下列訊息：「(GSS-API) 指定的目標未知或無法存取」。 這通常表示您指定了錯誤的 SNC 名稱。 請務必在用戶端應用程式中只使用 "p:"，而非 "p:CN =" 或其他任何項目 (除了服務使用者的 UPN 以外)。
+* 您可能會收到下列訊息：「(GSS-API) 指定的目標未知或無法存取」。 這通常表示您指定了錯誤的 SNC 名稱。 請務必在用戶端應用程式中只使用 "p:"，而非 "p:CN =" 或其他任何項目 (除了服務使用者的 UPN 以外)。
 
-- 您可能會收到下列訊息：「(GSS-API) 提供了無效的名稱」。 請確認 "p:" 位於伺服器 SNC 身分識別設定檔參數的值中。
+* 您可能會收到下列訊息：「(GSS-API) 提供了無效的名稱」。 請確認 "p:" 位於伺服器 SNC 身分識別設定檔參數的值中。
 
-- 您可能會收到下列訊息：「(SNC 錯誤) 無法找到指定的模組」。 這通常是由於 `gsskrb5.dll/gx64krb5.dll` 需要提高權限 (系統管理員權限) 才能存取。
+* 您可能會收到下列訊息：「(SNC 錯誤) 無法找到指定的模組」。 這通常是由於 `gsskrb5.dll/gx64krb5.dll` 需要提高權限 (系統管理員權限) 才能存取。
 
 ### <a name="add-registry-entries-to-the-gateway-machine"></a>新增登錄項目至閘道電腦
 
@@ -356,13 +342,13 @@ ms.locfileid: "66809267"
 
 將 SAP BW 資料來源新增至您的閘道，方法是遵循本文中稍早關於[執行報表](#run-a-power-bi-report)的指示。
 
-1. 在資料來源設定視窗中，輸入應用程式伺服器的 [主機名稱]  、[系統編號]  和 [用戶端識別碼]  ，如同您用來從 Power BI Desktop 登入 SAP BW 伺服器的資訊。 針對 [驗證方法]  ，選取 [Windows]  。
+1. 在資料來源設定視窗中，輸入應用程式伺服器的 [主機名稱]  、[系統編號]  和 [用戶端識別碼]  ，如同您用來從 Power BI Desktop 登入 SAP BW 伺服器的資訊。
 
 1. 在 [SNC Partner Name] \(SNC 合作夥伴名稱\)  欄位中，輸入 p: \<您對應至 SAP BW 服務使用者的 SPN\>。 例如，如果 SPN 為 SAP/BWServiceUser@MYDOMAIN.COM，您應該在 [SNC 合作夥伴名稱]  欄位中輸入 p:SAP/BWServiceUser@MYDOMAIN.COM。
 
-1. 針對 SNC 程式庫，選取 **SNC\_LIB** 或 **SNC\_LIB\_64**。
+1. 針對 SNC 程式庫，請選取 **SNC_LIB** 或 **SNC_LIB_64**。 針對 32 位元案例，請使用 **SNC_LIB**；針對 64 位元案例，請使用 **SNC_LIB_64**。 確認這些環境變數分別指向 gsskrb5 或 gx64krb5.dll，視您的位元而定。
 
-1. [使用者名稱]  和 [密碼]  中使用者名稱和密碼應該是具備使用 SSO 登入 SAP BW 伺服器權限的 Active Directory 使用者。 換句話說，這些應該屬於已透過 SU01 交易對應至 SAP BW 使用者的 Active Directory 使用者。 只有在未核取 [Use SSO via Kerberos for DirectQuery queries] \(透過 Kerberos 使用 SSO 進行 DirectQuery 查詢\)  方塊時，才會使用這些認證。
+1. 如果您已針對 [驗證方法]  選取 [Windows]  ，則 [使用者名稱]  和 [密碼]  應為 Active Directory 使用者的使用者名稱和密碼，且該使用者有權使用 SSO 登入至 SAP BW 伺服器。 換句話說，這些應該屬於已透過 SU01 交易對應至 SAP BW 使用者的 Active Directory 使用者。 如果您已選取 [基本]  ，則 [使用者名稱]  和 [密碼]  應分別設定為 SAP BW 使用者的名稱和密碼。 只有在未核取 [Use SSO via Kerberos for DirectQuery queries] \(透過 Kerberos 使用 SSO 進行 DirectQuery 查詢\)  方塊時，才會使用這些認證。
 
 1. 選取 [Use SSO via Kerberos for DirectQuery queries] \(透過 Kerberos 使用 SSO 進行 DirectQuery 查詢)  方塊，然後選取 [套用]  。 如果測試連線不成功，請確認已正確完成先前的安裝和設定步驟。
 
@@ -396,7 +382,7 @@ ms.locfileid: "66809267"
 
 如需**內部部署資料閘道**和 **DirectQuery** 的詳細資訊，請參閱下列資源：
 
-* [On-premises data gateway (內部部署資料閘道)](service-gateway-onprem.md)
+* [什麼是內部部署的資料閘道？](/data-integration/gateway/service-gateway-getting-started)
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)
 * [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)

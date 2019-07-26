@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/15/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b689a4d0718c92608fe7fc0cdb34d27803015269
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 8d8e77d8fe4ebea5b457ba282014bb8dc738191a
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823525"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324832"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
@@ -114,6 +114,7 @@ ms.locfileid: "66823525"
 * Azure Blob 儲存體
 * Azure 表格儲存體
 * Azure Cosmos DB (搶鮮版 (Beta))
+* Azure Data Lake Storage Gen2 (搶鮮版 (Beta))
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
@@ -167,6 +168,7 @@ ms.locfileid: "66823525"
 * Microsoft Graph 安全性 搶鮮版 (Beta)
 * Quick Base
 * TeamDesk (搶鮮版 (Beta))
+* Dynamics 365 Customer Insights (搶鮮版 (Beta))
 
 下圖顯示 [線上服務]  的 [取得資料]  視窗。
 

@@ -8,15 +8,41 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 03/10/2019
-ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/16/2019
+ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61342654"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271195"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 視覺效果指南
+在您將視覺效果[發佈](https://docs.microsoft.com/power-bi/developer/office-store)至 AppSource 供其他人探索及使用之前，請務必遵循指導方針，以便為您的使用者打造絕佳體驗。 
+
+## <a name="context-menu"></a>操作功能表
+操作功能表是當使用者將滑鼠停留在視覺效果上時所顯示的右鍵功能表。
+所有 Power BI 視覺效果都應該啟用操作功能表，以提供一致的體驗。 請參閱[本文](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md)了解如何新增內容功能表。
+
+
+## <a name="logo-guidelines"></a>標誌指導方針
+
+本節描述在視覺效果中新增標誌和標誌類型的規格。
+
+> [!IMPORTANT]
+> 標誌*僅可在編輯模式*中使用。 標誌*無法*在檢視模式中顯示。
+
+![定義](media/guidelines-powerbi-visuals/definitions.png)
+
+![注意事項](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
+
+![應避免事項](media/guidelines-powerbi-visuals/things-to-avoid.png)
+
+![大小及格式](media/guidelines-powerbi-visuals/size-and-format.png)
+
+![邊界及大小](media/guidelines-powerbi-visuals/margins-and-sizes.png)
+
+![編輯模式](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
+
 
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>需要另外購買的 Power BI 視覺效果指導方針
 
@@ -36,31 +62,13 @@ ms.locfileid: "61342654"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>什麼是具有 IAP 功能的 Power BI 視覺效果？
 
-IAP 視覺效果是提供**免費功能**的**免費**視覺效果。 它也有一些進階功能，但這些功能可能必須另外付費才能使用。 在視覺效果的描述中，開發人員必須通知使用者需要另行購買才能使用的功能。 目前，Microsoft 不提供原生 API 以支援購買應用程式與增益集。
+IAP 視覺效果是提供*免費功能*的*免費*視覺效果。 它也有一些進階功能，但這些功能可能必須另外付費才能使用。 在視覺效果的描述中，開發人員必須通知使用者需要另行購買才能使用的功能。 目前，Microsoft 不提供原生 API 以支援購買應用程式與增益集。
 
 對於這些購買項目，開發人員可以使用任何第三方付款系統。 如需詳細資訊，請參閱[我們的市集原則](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) \(英文\)。
 
 > [!NOTE]
 > 無法在免費功能或免費視覺效果上使用浮水印。 僅可在不具有效授權情況下使用的付費功能上使用浮水印。 若在不具有效授權的情況下使用付費功能，建議您顯示具有全部授權相關資訊的快顯視窗。  
 
-## <a name="logo-guidelines"></a>標誌指導方針
-
-本節描述在視覺效果中新增標誌和標誌類型的規格。
-
-> [!IMPORTANT]
-> 標誌**僅可在編輯模式**中使用。 標誌**無法**在檢視模式中顯示。
-
-![定義](media/guidelines-powerbi-visuals/definitions.png)
-
-![注意事項](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
-
-![應避免事項](media/guidelines-powerbi-visuals/things-to-avoid.png)
-
-![大小及格式](media/guidelines-powerbi-visuals/size-and-format.png)
-
-![邊界及大小](media/guidelines-powerbi-visuals/margins-and-sizes.png)
-
-![編輯模式](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>最佳作法
 

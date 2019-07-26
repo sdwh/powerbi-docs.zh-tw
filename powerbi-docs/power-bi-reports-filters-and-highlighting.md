@@ -1,5 +1,5 @@
 ---
-title: 篩選和醒目提示 Power BI 報表
+title: 在 Power BI 報表中進行篩選和醒目提示
 description: 在 Power BI 報表中進行篩選和醒目提示的相關事項
 author: maggiesMSFT
 manager: kfile
@@ -10,25 +10,25 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8084b8dbbc27c856633d84c6628727dcd426964d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4584ad0f8c083a765b1a1a9943496b40a3ed4bdf
+ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187562"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68342171"
 ---
-# <a name="filters-and-highlighting-in-power-bi-reports"></a>篩選和醒目提示 Power BI 報表
- 本文將介紹您可以篩選和醒目提示 Power BI 服務中。 其體驗幾乎與 Power BI Desktop 完全相同。 *篩選*會保留您最關切的資料，而將其他所有資料移除。 *反白顯示*未篩選。 它並不會移除資料，而是強調顯示資料的子集不反白顯示的資料會保持可見但呈現暗灰色。
+# <a name="filters-and-highlighting-in-power-bi-reports"></a>在 Power BI 報表中進行篩選和醒目提示
+ 本文介紹如何在 Power BI 服務中進行篩選和醒目提示。 其體驗幾乎與 Power BI Desktop 完全相同。 *篩選*會保留您最關切的資料，而將其他所有資料移除。 「醒目提示」  與篩選不同。 它不會移除資料，而是將一部分可見資料醒目提示，未醒目提示的資料仍保持可見但會變暗。
 
 若要篩選 Power BI 中的報表並將其醒目提示，有許多種不同的方式。 將所有該類資訊放在同篇文章中會容易混淆，因此我們已加以細分成這些小節︰
 
-* 篩選及反白顯示簡介、 發行項您現正閱讀。
-* 如何[建立及編輯檢視中使用篩選](power-bi-report-add-filter.md)在 Power BI Desktop 和 Power BI 服務中的報告。 若您具有報表編輯權限，即可建立、修改及刪除報表中的篩選。
-* 如何視覺效果[篩選並反白顯示與您共用報表中](consumer/end-user-interactions.md)，請在 Power BI 服務中的閱讀檢視的報表。 您可執行的動作較少，但您仍然有廣泛的篩選及醒目提示選項。  
-* 詳細的介紹[篩選和反白顯示 [編輯] 檢視中可用的控制項](power-bi-report-add-filter.md)Power BI Desktop 和 Power BI 服務中。 本文會深入探討類型的篩選條件，例如日期和時間、 數字和文字。 其中也涵蓋基本和進階選項之間的差異。
+* 篩選及醒目提示簡介，亦即您現正閱讀的文章。
+* 如何在 Power BI Desktop 和 Power BI 服務的報表中，[使用 [編輯檢視] 建立及使用篩選](power-bi-report-add-filter.md)。 若您具有報表編輯權限，即可建立、修改及刪除報表中的篩選。
+* 在 Power BI 服務的報表 [閱讀檢視] 中，如何[篩選和醒目提示與您共用報表中的視覺效果](consumer/end-user-interactions.md)。 您可執行的動作較少，但您仍然有廣泛的篩選及醒目提示選項。  
+* Power BI Desktop 和 Power BI 服務 [[編輯檢視] 中可用的篩選及醒目提示控制項](power-bi-report-add-filter.md)詳細介紹。 本文會深入探討日期與時間、數字和文字等篩選類型， 也會說明基本和進階選項之間的差異。
 * 在您了解篩選及醒目提示的預設運作方式之後，再了解[如何變更頁面上的視覺效果彼此進行篩選及醒目提示的方式](service-reports-visual-interactions.md)
 
-**您知道嗎？** Power BI 已推出新的篩選體驗，目前正處於預覽狀態。 深入了解 [Power BI 報表中的新篩選體驗](power-bi-report-filter-preview.md)。
+**您知道嗎？** Power BI 已推出新的篩選體驗，目前正處於預覽狀態。 深入了解 [Power BI 報表中的新篩選體驗](power-bi-report-filter.md)。
 
 ![新的篩選體驗](media/power-bi-reports-filters-and-highlighting/power-bi-filter-reading.png)
 
@@ -67,32 +67,32 @@ ms.locfileid: "66187562"
 
 針對視覺效果中的所有欄位，每個視覺效果都能進行篩選，且報表作者可能會新增更多篩選。 在下圖中，泡泡圖有六個篩選。
 
-![視覺效果層級篩選](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
+![視覺效果等級篩選](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
 在 [讀取檢視] 中，透過修改現有的篩選來瀏覽資料。 即使您在行動裝置應用程式中開啟報表，您所做的變更也會與報表一起儲存。 了解[進行報表 [篩選] 窗格概觀](consumer/end-user-report-filter.md)時的做法
 
 當您結束報表時，會儲存您的篩選。 若要復原您的篩選並返回至預設篩選、切割、鑽研並依報表作者排序：請從頂端功能表列選取 [重設為預設]  。
 
-![重設為預設的圖示](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
+![重設為預設圖示](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ### <a name="filters-in-editing-view"></a>[編輯檢視] 中的篩選
 若您具備報表的擁有者權限，並以 [編輯檢視] 加以開啟，則會看到 [篩選]  只是可用的數個編輯窗格中的一項。
 
-![在 編輯檢視的 篩選 窗格](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-editing-view.png)
+![[編輯檢視] 中的 [篩選] 窗格](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-editing-view.png)
 
 在 [閱讀檢視] 中，我們會看到報表的此頁面具有六個頁面層級篩選及一個報表層級篩選。 且透過選取泡泡圖，我們看見其已套用 6 個視覺效果層級篩選。
 
 在 [編輯檢視] 中，我們可以透過篩選和醒目提示來進行更多作業。 主要可以新增新的篩選。 了解如何[新增報表篩選](power-bi-report-add-filter.md)等更多功能。
 
-## <a name="ad-hoc-highlighting"></a>臨機操作的反白顯示
-在 視覺效果，以反白顯示頁面上的其他視覺效果中選取值或軸標籤。 若要移除反白顯示，同樣地，選取的值，或在相同的視覺效果中選取任何空白空間。 反白顯示為一個有趣方式來快速瀏覽資料的影響。 若要微調此類交叉醒目提示的運作方式，請參閱[視覺效果互動](service-reports-visual-interactions.md)。
+## <a name="ad-hoc-highlighting"></a>隨選醒目提示
+選取視覺效果中的值或軸標籤，以醒目提示頁面上的其他視覺效果。 若要移除醒目提示，請再次選取值，或選取相同視覺效果中的任何空白空間。 醒目提示是快速探索資料影響的有趣方式。 若要微調此類交叉醒目提示的運作方式，請參閱[視覺效果互動](service-reports-visual-interactions.md)。
 
 ![交叉醒目提示](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
 
 ## <a name="next-steps"></a>後續步驟
 
-[Power BI 報表中新的篩選器體驗](power-bi-report-filter-preview.md)
+[Power BI 報表的全新篩選體驗](power-bi-report-filter.md)
 
 [將篩選新增至報表 (在 [編輯檢視] 中)](power-bi-report-add-filter.md)
 

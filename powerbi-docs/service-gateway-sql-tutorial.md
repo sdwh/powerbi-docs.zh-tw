@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
-ms.date: 05/03/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596625"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307390"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>從內部部署 SQL Server 資料庫重新整理資料
 
@@ -36,7 +36,7 @@ ms.locfileid: "67596625"
 - 若您尚未擁有 Power BI，請在開始前先註冊[免費 Power BI 試用版](https://app.powerbi.com/signupredirect?pbi_source=web)。
 - 在本機電腦上[安裝 Power BI Desktop](https://powerbi.microsoft.com/desktop/)。
 - 在本機電腦上[安裝 SQL Server](/sql/database-engine/install-windows/install-sql-server)，然後[從備份還原範例資料庫](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)。 如需 AdventureWorks 的詳細資訊，請參閱 [AdventureWorks 安裝及設定](/sql/samples/adventureworks-install-configure)。
-- 在相同的本機電腦上[安裝內部部署資料閘道](service-gateway-install.md)作為 SQL Server (在生產環境中，其通常是另一部電腦)。
+- 在相同的本機電腦上[安裝內部部署資料閘道](service-gateway-onprem.md)作為 SQL Server (在生產環境中，其通常是另一部電腦)。
 
 > [!NOTE]
 > 若您不是閘道管理員，且不想要自行安裝閘道，請連絡您組織中的閘道管理員。 他們可以建立將您資料集連線到 SQL Server 資料庫時所需要的資料來源定義。
@@ -202,6 +202,6 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 在本教學課程中，您已探索如何從內部部署 SQL Server 資料庫將資料匯入 Power BI 資料集，以及如何根據排程和隨選來重新整理此資料集，以將 Power BI 中使用此資料集的報表和儀表板維持在更新狀態。 現在您可以深入了解管理 Power BI 中的資料閘道和資料來源。 檢閱＜Power BI 中的資料重新整理＞概念文章也是一個不錯的做法。
 
-- [管理 Power BI 內部部署閘道](service-gateway-manage.md)
+- [管理內部部署資料閘道](/data-integration/gateway/service-gateway-manage)
 - [管理您的資料來源 - 匯入/排程重新整理](service-gateway-enterprise-manage-scheduled-refresh.md)
 - [Power BI 的資料重新整理](refresh-data.md)

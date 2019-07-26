@@ -1,5 +1,5 @@
 ---
-title: 使用 Power BI Desktop (預覽) 中的彙總
+title: 使用 Power BI Desktop 中的彙總
 description: 在 Power BI Desktop 中執行巨量資料的互動式分析
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239584"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325189"
 ---
-# <a name="aggregations-in-power-bi-desktop-preview"></a>Power BI Desktop (預覽) 中的彙總
+# <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop 中的彙總
 
 使用 Power BI 的**彙總**能以過去不可能的方式啟用巨量資料互動式分析。 **彙總**可以大幅降低解除鎖定制定決策之大型資料集的成本。
 
@@ -36,16 +36,6 @@ ms.locfileid: "65239584"
 彙總可搭配資料來源代表維度模型，例如資料倉儲、資料超市，以及 Hadoop 型巨量資料來源。 本文描述每種資料來源類型在 Power BI 中的一般建模差異。
 
 所有的 Power BI Import 和 (非多維度的) DirectQuery 來源都使用彙總。
-
-## <a name="enabling-the-aggregations-preview-feature"></a>啟用彙總預覽功能
-
-**彙總**功能處於預覽狀態，且必須在 **Power BI Desktop** 中加以啟用。 若要啟用**彙總**，請選取 [檔案] > [選項及設定] > [選項] > [預覽功能]  ，然後選取 [複合模型]  和 [管理彙總]  核取方塊。 
-
-![正在啟用預覽功能](media/desktop-aggregations/aggregations_01.jpg)
-
-您必須重新啟動 **Power BI Desktop**，功能才會啟用。
-
-![需要重新啟動，才能使變更生效](media/desktop-composite-models/composite-models_03.png)
 
 ## <a name="aggregations-based-on-relationships"></a>以關聯性為基礎的彙總
 
@@ -103,8 +93,10 @@ ms.locfileid: "65239584"
 
 對於不依靠關聯性的「跨來源」  彙總叫用，請參閱下節有關以分組方式資料行為基礎的彙總。
 
-### <a name="aggregation-table-is-hidden"></a>彙總資料表為隱藏
-**Sales Agg** 資料表為隱藏。 彙總資料表應一律對資料集取用者隱藏。 取用者和查詢參考的是詳細資料資料表，而不是彙總資料表；他們甚至不需要知道彙總資料表的存在。
+### <a name="aggregation-tables-are-not-addressable"></a>無法定址彙總資料表
+具有資料集唯讀存取權的使用者無法查詢彙總資料表。 這可避免與 RLS 搭配使用時的安全性疑慮。 取用者和查詢參考的是詳細資料資料表，而不是彙總資料表；他們甚至不需要知道彙總資料表的存在。
+
+基於這個理由，**Sales Agg** 資料表應該是隱藏的。 如果不是，當您按一下 [全部套用] 按鈕時，[管理彙總] 對話方塊即會將它設為隱藏。
 
 ### <a name="manage-aggregations-dialog"></a>[管理彙總] 對話方塊
 接下來我們要定義彙總。 以滑鼠右鍵按一下資料表，選取 **Sales Agg** 資料表的 [管理彙總]  操作功能表。
@@ -136,11 +128,7 @@ ms.locfileid: "65239584"
 * 除了計數和計數資料表資料列摘要函式之外，選取的詳細資料資料行必須和彙總資料行具有相同資料類型。 計數和計數資料表資料列僅供整數彙總資料行使用，資料類型不用相符。
 * 不允許鏈結彙總涵蓋三份或更多的資料表。 例如，**資料表 B** 參考**資料表 C** 的彙總，您不可能在指向 B 的**資料表 A** 上設定彙總。
 * 不允許重複彙總有兩個項目使用同一摘要函式，且參考相同的詳細資料資料表/資料行。
-
-在此**彙總**公開預覽期間，也會強制執行下列驗證。 我們打算在正式發行時移除這些驗證。
-
-* 彙總不能搭配資料列層級安全性 (RLS) 使用。 *公用預覽版限制。*
-* 詳細資料表必須是 DirectQuery，不能是 Import。 *公用預覽版限制。*
+* 詳細資料表必須是 DirectQuery，不能是 Import。
 
 這類驗證大部分都是透過停用下拉式清單中的值，並在工具提示中顯示說明文字來強制執行，如下圖所示。
 
@@ -149,6 +137,9 @@ ms.locfileid: "65239584"
 ### <a name="group-by-columns"></a>依資料行分組
 
 在此範例中，三個 GroupBy 項目都是選用的，它們不會影響彙總行為 (除了 DISTINCTCOUNT 範例查詢，如下一張圖所示)。 它們主要是為了可讀性而包含在內。 沒有這些 GroupBy 項目，仍會根據關聯性叫用彙總。 這和使用無關聯性彙總是不同的行為，本文稍後的巨量資料範例會說明此行為。
+
+### <a name="inactive-relationships"></a>非作用中的關聯性
+系統不支援依非作用中關聯性所使用的外部索引鍵資料行進行群組，且不支援依賴 USERELATIONSHIP 函式來進行彙總叫用。
 
 ### <a name="detecting-whether-aggregations-are-hit-or-missed-by-queries"></a>偵測查詢叫用或遺漏彙總
 
@@ -191,6 +182,17 @@ AVERAGE 函式可以受益於彙總。 下列查詢會叫用彙總，因為 AVER
 
 ![查詢範例](media/desktop-aggregations/aggregations-code_07.jpg)
 
+### <a name="rls"></a>RLS
+資料列層級安全性 (RLS) 運算式應篩選彙總資料表和詳細資料資料表，才能正常運作。 遵循範例之後，**Geography** 資料表上的 RLS 運算式將會生效，因為 Geography 位於 **Sales** 資料表和 **Sales Agg** 資料表兩者的關聯性篩選端。 不論查詢是否叫用彙總資料表，都會成功套用 RLS 查詢。
+
+![彙總管理角色](media/desktop-aggregations/manage-roles.jpg)
+
+**Product** 資料表上的 RLS 運算式只會篩選 **Sales** 資料表，而非 **Sales Agg** 資料表。 不建議如此使用。 如果查詢是由使用此角色來存取資料集的使用者所提交，則不會因為彙總叫用而受益。 由於彙總資料表是詳細資料資料表中相同資料的另一種表示法，所以從彙總資料表回答查詢是不安全的，因為無法套用 RLS 篩選。
+
+**Sales Agg** 資料表本身的 RLS 運算式只會篩選彙總資料表，而非詳細資料資料表。 這是不允許的。
+
+![彙總管理角色](media/desktop-aggregations/filter-agg-error.jpg)
+
 ## <a name="aggregations-based-on-group-by-columns"></a>以分組方式資料行為基礎的彙總 
 
 Hadoop 巨量資料模型的特性不同於維度模型。 為避免聯結大型的資料表，它們通常不依賴關聯性。 維度屬性通常是反正規化為事實資料表。 這類的巨量資料模型可以使用以分組方式資料行為基礎的**彙總**，解除鎖定進行互動式分析。
@@ -225,6 +227,10 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免聯結大型
 
 ![[篩選條件] 對話方塊](media/desktop-aggregations/aggregations_12.jpg)
 
+### <a name="rls"></a>RLS
+
+針對以關聯性為基礎的彙總，上述相同的 RLS 規則 (關於 RLS 運算式是否可以篩選彙總資料表、詳細資料資料表或兩者) 也適用於以 [群組依據] 資料行為基礎的彙總。 在此範例中，**Driver Activity** 資料表的 RLS 運算式可以用來篩選 **Driver Activity Agg** 資料表，因為詳細資料資料表已涵蓋彙總資料表中的所有 [群組依據] 資料行。 反之，**Driver Activity Agg** 資料表上的 RLS 篩選無法套用到 **Driver Activity** 資料表，因此不允許此篩選。
+
 ## <a name="aggregation-precedence"></a>彙總優先順序
 
 彙總優先順序可讓單一子查詢考慮多份彙總資料表。
@@ -232,8 +238,11 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免聯結大型
 請考慮下列範例。 這是包含多個 DirectQuery 來源的[複合模型](desktop-composite-models.md)。
 
 * **Driver Activity Agg2** Import 資料表是很高的資料粒度，因為屬性分組少，基數又低。 資料列數目可低至數千筆，所以可輕鬆放入記憶體內部快取。 這些屬性正好為高設定檔執行儀表板所用，因此參考它們的查詢速度應該盡可能快。
-* **Driver Activity Agg** 資料表是 DirectQuery 模式下的中繼彙總資料表。 它包含超過 10 億筆的資料列，而且使用資料行存放區索引在來源最佳化。
+* **Driver Activity Agg** 資料表是 DirectQuery 模式下的中繼彙總資料表。 它包含 Azure SQL DW 中 10 億多筆的資料列，並已使用資料行存放區索引在來源端進行最佳化。
 * **Driver Activity** 資料表是 DirectQuery，包含上兆筆來自巨量資料系統之 IoT 資料的資料列。 它提供鑽研查詢，在受控制的篩選內容中檢視個別的 IoT 讀數。
+
+> [!NOTE]
+> 只有在彙總資料表來自 SQL Server、Azure SQL 或 Azure SQL DW 來源時，才支援對詳細資料資料表使用不同資料來源的 DirectQuery 彙總資料表。
 
 此模型的記憶體磁碟使用量相對較小，但它會解除鎖定大型資料集。 它代表平衡的架構，因為它會將查詢負載分散到根據強度使用它們的架構元件中。
 
@@ -261,8 +270,6 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免聯結大型
 
 ![Sales Agg 彙總資料表](media/desktop-aggregations/aggregations-table_04.jpg)
 
-> 注意：此模型需要 **Date** 資料表在 DirectQuery 模式中填寫 [管理彙總] 對話方塊，因為它是詳細資料資料表。 這是我們希望在正式發行時移除的預覽版限制。
-
 ### <a name="query-examples"></a>查詢範例
 
 下列查詢會叫用彙總，因為 CalendarMonth 是由彙總資料表提供，而且 CategoryName 可透過一對多關聯性存取。 使用 **SalesAmount** 的 Sum 彙總。
@@ -285,9 +292,9 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免聯結大型
 
 下列文章會詳細說明複合模型與 DirectQuery。
 
-* [Power BI Desktop 中的複合模型 (預覽)](desktop-composite-models.md)
-* [Power BI Desktop 中的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md)
-* [Power BI Desktop 中的儲存模式 (預覽)](desktop-storage-mode.md)
+* [Power BI Desktop 中的複合模型](desktop-composite-models.md)
+* [Power BI Desktop 中的多對多關聯性](desktop-many-to-many-relationships.md)
+* [Power BI Desktop 中的儲存模式](desktop-storage-mode.md)
 
 DirectQuery 文章：
 
