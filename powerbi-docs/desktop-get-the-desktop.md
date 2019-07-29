@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5e5d143c21ad726e7cdb8a4bc99903238916bb64
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9fa79bc17e87863d094afbc479d664c8bbf9daaf
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454547"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590480"
 ---
 # <a name="get-power-bi-desktop"></a>取得 Power BI Desktop
 **Power BI Desktop** 可讓您建立進階查詢、模型，以及將資料視覺化的報表。 透過 **Power BI Desktop**，您可以建立資料模型、建立報表，並發行到 Power BI 服務以分享您的工作。  **Power BI Desktop** 可免費下載。
@@ -93,7 +93,7 @@ ms.locfileid: "65454547"
 
 * Windows 7 / Windows Server 2008 R2 或更新版本
 * .NET 4.5
-* Internet Explorer 9 或更新版本
+* Internet Explorer 10 或更新版本
 * **記憶體 (RAM)：** 可用量至少為 1 GB，建議量為 1.5 GB 或以上。
 * **顯示：** 建議至少為 1440x900 或 1600x900 (16:9)。 不建議像是 1024x768 或 1280x800 等較低的解析度，原因是某些控制項 (例如關閉啟動畫面) 需以更高的解析度顯示。
 * **Windows 顯示設定：** 如果您的顯示設定已設定成會將文字、應用程式及其他項目的大小變更為超過 100%，則可能會看不到某些必須關閉或回應以繼續使用 **Power BI Desktop** 的對話方塊。 如果您遇到這項問題，請前往 Windows 中的 [設定] > [系統] > [顯示]  檢查您的 [顯示設定]  ，並使用滑桿將顯示設定調回 100%。
