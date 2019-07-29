@@ -8,6 +8,8 @@
           href: end-user-consumer.md
         - name: 適用於 Power BI 取用者的基本概念和術語
           href: end-user-basic-concepts.md
+        - name: 瀏覽「新外觀」
+          href: ../service-new-look.md
     - name: 快速入門
       items:
         - name: 了解 Power BI

@@ -933,6 +933,8 @@
           href: report-builder-planning-report.md
         - name: 報表產生器資料
           href: report-builder-data.md
+        - name: 使用 Power BI 共用資料集
+          href: report-builder-shared-datasets.md
         - name: 設計秘訣
           href: report-builder-design-tips.md
         - name: 資料表、矩陣、清單
