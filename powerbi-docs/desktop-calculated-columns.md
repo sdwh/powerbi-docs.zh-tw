@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: c7a2b3580516c563d8a2a6d79fdc48d241e89849
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 805e052a2d5b493705c604d1817fc03c0a8b5376
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239864"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522208"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>使用 Power BI Desktop 中的導出資料行
 透過導出資料行，您可以將新資料加入模型中已有的資料表。 您會建立定義資料行值的資料分析運算式 (DAX) 公式，而不是從資料來源查詢值並將其載入新的資料行。 在 Power BI Desktop 中，導出資料行是透過 [報表檢視] 中的 [新增資料行] 功能來建立。
@@ -31,23 +31,23 @@ ms.locfileid: "65239864"
 DAX 公式類似 Excel 公式。 事實上，DAX 有許多函數與 Excel 相同。 不過，DAX 函數是為了處理報表中以互動方式交叉篩選或篩選的資料，就像是在 Power BI Desktop 中一樣。 當您為新資料行建立 DAX 公式時，它會計算資料表中每個資料列的結果，這與 Excel 不同；在 Excel 中，資料表中的每個資料列可以有不同的公式。 系統會視需要重新計算資料行值，例如當基礎資料重新整理及值變更時。
 
 ## <a name="lets-look-at-an-example"></a>以下舉例說明
-Jeff 是 Contoso 的出貨經理。 他想要建立報表，以顯示不同城市的出貨編號。 他有一個 [Geography] 資料表，內含代表城市和州的個別欄位。 但是，Jeff 希望報表能夠顯示為同一個資料列上的單一值 [City, State]。 目前，Jeff 的 [Geography] 資料表沒有他想要的欄位。
+Jeff 是 Contoso 的出貨經理，他想要建立報表，以顯示不同城市的出貨編號。 Jeff 有一個 Geography 資料表，內含代表城市和州的個別欄位。 但是，Jeff 希望報表能夠顯示為同一個資料列上的單一值 [City, State]。 目前，Jeff 的 Geography 資料表沒有所需的欄位。
 
 ![](media/desktop-calculated-columns/calccolinpbid_cityandstatefields.png)
 
-但透過導出資料行，Jeff 可以將 [City] 資料行中的城市與 [State] 資料行中的州直接放在一起，或串連在一起。
+但透過導出資料行，Jeff 可以將 City 資料行中的城市與 State 資料行中的州放在一起，或串連在一起。
 
-Jeff 以滑鼠右鍵按一下 [Geography] 資料表，然後按一下 [新增資料行]。 接著在公式列中輸入下列 DAX 公式：
+Jeff 以滑鼠右鍵按一下 [Geography] 資料表，然後按一下 [新增資料行]。 Jeff 接著在公式列中輸入下列 DAX 公式：
 
 ![](media/desktop-calculated-columns/calccolinpbid_formula.png)
 
 這個公式會直接建立名為 CityState 的新資料行；針對 [Geography] 資料表中的每個資料列，它會擷取 [City] 資料行中的值、加入逗號和空格，再串連 [State] 資料行中的值。
 
-現在 Jeff 會有他想要的欄位。
+Jeff 現在有所需欄位。
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-他可以將該欄位連同出貨編號一起加入報表畫布。 不出一會兒功夫，Jeff 就得到了能夠新增至任何類型視覺效果的 [City]、[State] 欄位。 Jeff 會在建立地圖視覺效果時看到這些項目，Power BI Desktop 甚至了解如何讀取新資料行中的 City、State 值。
+Jeff 現在可以將該欄位連同出貨編號一起新增至報表畫布。 不出一會兒功夫，Jeff 就得到了能夠新增至任何類型視覺效果的 [City, State] 欄位。 Jeff 會在建立地圖視覺效果時看到這些項目，Power BI Desktop 已了解如何讀取新資料行中的 [City, State] 值。
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e687c72ae058f56ca4f528783c5e2326d82db6bb
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139330"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523140"
 ---
 # <a name="dashboard-data-classification"></a>儀表板資料分類
 每個儀表板各不相同，而且隨著您所連接的資料來源不同，您可能會發現您和與您一起共用儀表板的同事，必須依據資料敏感性的不同，而採取不同的預防措施。 有一些儀表板應禁止與公司外部的人員共用或禁止列印，有一些則可任意共用。 透過儀表板資料分類，您就能提醒共用您儀表板的使用者，注意其應遵守的安全性層級。 您可以使用您公司 IT 部門所定義的分類來標記儀表板，讓檢視內容的每個人對於該資料的敏感性都能有相同的認知。
@@ -45,7 +45,7 @@ ms.locfileid: "61139330"
 ## <a name="setting-a-dashboards-classification"></a>設定儀表板的分類
 您的公司如有啟用資料分類，所有儀表板在一開始時，都會使用預設的分類類型，但儀表板擁有者可以依據您的儀表板安全性層級需要而變更該分類。
 
-若要變更分類類型，請執行下列作業。
+若要變更分類類型，請執行下列作業：
 
 1. 選取儀表板名稱旁的**省略符號**，然後選取 [設定]  ，以前往儀表板設定。
    
@@ -58,7 +58,7 @@ ms.locfileid: "61139330"
 套用變更之後，所有與您共用儀表板的人員都會在下次重新載入儀表板時看到這項更新。
 
 ## <a name="working-with-data-classification-tags-as-an-admin"></a>以系統管理員身分處理資料分類標記
-資料分類由全域系統管理員為組織設定。 若要開啟資料分類，請執行下列作業。
+資料分類由全域系統管理員為組織設定。 若要開啟資料分類，請執行下列作業：
 
 1. 選取設定齒輪，然後選取 [管理入口網站]  。
    
@@ -79,7 +79,7 @@ ms.locfileid: "61139330"
 
 ![](media/service-data-classification/filled_in_classification_form.png)
 
-此時，所有儀表板皆會指派以預設分類，而儀表板擁有者也可於此時將分類類型更新成內容適合的分類。 您日後可以返回此處新增或移除分類類型，或是變更預設值。  
+此時，所有儀表板都會指派預設分類。 儀表板擁有者現在可以將分類類型更新為適用於其內容的分類。 您日後可以返回此處新增或移除分類類型，或是變更預設值。  
 
 > [!NOTE]
 > 當您返回此處執行變更時，請注意下列幾項重點：

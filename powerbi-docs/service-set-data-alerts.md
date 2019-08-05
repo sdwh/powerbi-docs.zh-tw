@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0efbcf61eea82dd1db016917c7fa7c53e06c8a66
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a26cd6d654f9378d9fa09ae46b64762213b26089
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61407383"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522978"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Power BI 服務中的資料警示
 設定警示，以在儀表板中的資料變更時超出您所設定的限制時通知您。 
@@ -33,7 +33,7 @@ ms.locfileid: "61407383"
 > 
 
 ## <a name="set-data-alerts-in-power-bi-service"></a>在 Power BI 服務中設定資料警示
-觀看 Amanda 在她的儀表板上將某些警示新增至磚。 然後遵循影片下方的逐步指示親自試試看。
+觀看 Amanda 在儀表板上將某些警示新增至磚。 然後遵循影片下方的逐步指示親自試試看。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 

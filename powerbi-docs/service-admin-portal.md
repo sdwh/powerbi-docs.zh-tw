@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/27/2019
+ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a871a7475dd8282f9ce63646c371182548504357
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 751bcb5ee3b383853f0087bab406d59a2271b588
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67568098"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501750"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -133,7 +133,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 [租用戶設定]  索引標籤可讓您更精細地控制為您的組織提供的功能。 如果您對敏感性資料有疑慮、我們的某些功能可能不適合您的組織，或您可能希望特定群組只能使用特定功能。
 
-下圖顯示 [租用戶設定]  索引標籤的前兩個區段。
+下圖顯示 [租用戶設定]  索引標籤的數個設定。
 
 ![租用戶設定](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -169,6 +169,10 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 組織中的使用者可以從 Power BI 說明功能表，前往內部說明與支援資源。 具體來說，這些參數會變更 [學習]、[社群] 和 [取得說明] 功能表項目的行為。
 
 它也可以指定 URL，將使用者導向授權要求的自訂解決方案。 此參數會自訂 [升級帳戶] 按鈕的目標 URL，沒有 Power BI Pro 授權的使用者可以在 [更新為 Power BI Pro] 對話方塊及 [管理個人儲存體] 頁面中找到該 URL。
+
+### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>接收服務中斷或事件的電子郵件通知
+
+若此租用戶受到服務中斷或事件的影響，則擁有郵件功能的安全性群組將會收到電子郵件通知。 請深入了解[服務中斷通知](service-interruption-notifications.md)。
 
 ## <a name="workspace-settings"></a>工作區設定
 

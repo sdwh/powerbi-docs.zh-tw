@@ -1,5 +1,5 @@
 ---
-title: 開發 Power BI 自訂視覺效果
+title: 開發 Power BI 視覺效果
 description: 說明如何開發 Power BI 自訂視覺效果的教學課程
 author: sranins
 ms.author: rasala
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161226"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415424"
 ---
-# <a name="tutorial-developing-a-power-bi-custom-visual"></a>教學課程：開發 Power BI 自訂視覺效果
+# <a name="tutorial-developing-a-power-bi-visual"></a>教學課程：開發 Power BI 視覺效果
 
 開發人員可以輕鬆地將自訂視覺效果加入 Power BI，以用於儀表板和報表。 為了協助您開始使用，我們已將所有視覺效果的程式碼發行到 GitHub。
 
@@ -79,35 +79,35 @@ ms.locfileid: "67161226"
     pbiviz --install-cert
     ```
 
-  它會傳回產生「複雜密碼」  的結果。 在此情況下，「複雜密碼」  是 **_15105661266553327_** ，會啟動 [憑證匯入精靈]。
+    它會傳回產生「複雜密碼」  的結果。 在此案例中，「複雜密碼」  是 **_15105661266553327_** 。 它也會啟動 [憑證匯入精靈]。
 
-  ![透過 PowerShell 建立的憑證](media/custom-visual-develop-tutorial/cert-create.png)
+    ![透過 PowerShell 建立的憑證](media/custom-visual-develop-tutorial/cert-create.png)
 
-3. 在 [憑證匯入精靈] 中，確認存放區位置已 設定為 [目前使用者]。 接著，選取 [下一步]  。
+2. 在 [憑證匯入精靈] 中，確認存放區位置已 設定為 [目前使用者]。 接著，選取 [下一步]  。
 
       ![憑證安裝](media/custom-visual-develop-tutorial/install-cert-PowerShell.png)
 
-4. 在 [要匯入的檔案]  步驟中，選取 [下一步]  。
+3. 在 [要匯入的檔案]  步驟中，選取 [下一步]  。
 
-5. 在 [私密金鑰保護]  步驟中，在 [密碼] 方塊中，貼上您從建立憑證步驟收到的複雜密碼。同樣地，在此案例中，它是 **_15105661266553327_** 。
+4. 在 [私密金鑰保護]  步驟中，在 [密碼] 方塊中，貼上您從建立憑證步驟收到的複雜密碼。同樣地，在此案例中，它是 **_15105661266553327_** 。
 
       ![複製複雜密碼](media/custom-visual-develop-tutorial/cert-install-wizard-show-passphrase.png)
 
-6. 在 [憑證存放區]  步驟中，選取 [將所有憑證放入以下的存放區]  選項。 接著，選取 [瀏覽]  。
+5. 在 [憑證存放區]  步驟中，選取 [將所有憑證放入以下的存放區]  選項。 接著，選取 [瀏覽]  。
 
       ![所有憑證都在下列存放區中](media/custom-visual-develop-tutorial/all-certs-in-the-following-store.png)
 
-7. 在 [選取憑證存放區]  視窗中，選取 [受信任的根憑證授權單位]  ，然後選取 [確定]  。 接著，在 [憑證存放區]  畫面上，選取 [下一步]  。
+6. 在 [選取憑證存放區]  視窗中，選取 [受信任的根憑證授權單位]  ，然後選取 [確定]  。 接著，在 [憑證存放區]  畫面上，選取 [下一步]  。
 
       ![受信任的根憑證](media/custom-visual-develop-tutorial/trusted-root-cert.png)
 
-8. 若要完成匯入，請選取 [完成]  。
+7. 若要完成匯入，請選取 [完成]  。
 
-9. 如果您收到安全性警告，請選取 [是]  。
+8. 如果您收到安全性警告，請選取 [是]  。
 
     ![安全性警告](media/custom-visual-develop-tutorial/cert-security-warning.png)
 
-10. 當系統通知匯入成功時，請選取 [確定]  。
+9. 當系統通知匯入成功時，請選取 [確定]  。
 
     ![憑證匯入成功](media/custom-visual-develop-tutorial/cert-import-successful.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 41d35eb9e078a63e499bb65dead05fe7dbbc2985
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: 233b4c36b5e59b38c82f5c3ccc1f0b49b70c5ac8
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791891"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523468"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的商機分析範例：觀看導覽
 
@@ -33,7 +33,7 @@ ms.locfileid: "67791891"
 
 ![商機分析範例的儀表板](media/sample-opportunity-analysis/opportunity1.png)
 
-此範例是系列中的一部分，說明您可如何使用 Power BI 的商業導向資料、報表與儀表板。 它是由 [obviEnce](http://www.obvience.com/), 使用真實資料 (已匿名化) 建立的。 資料會以數種格式提供：內容套件、.pbix Power BI Desktop 檔案，或 Excel 活頁簿。 請參閱 [Power BI 範例](sample-datasets.md)。 
+此範例是系列中的一部分，說明您可如何使用 Power BI 的商業導向資料、報表與儀表板。 它是由 [obviEnce](http://www.obvience.com/) 使用真實資料 (已匿名化) 所建立。 資料會以數種格式提供：內容套件、.pbix Power BI Desktop 檔案，或 Excel 活頁簿。 請參閱 [Power BI 範例](sample-datasets.md)。 
 
 此教學課程探索 Power BI 服務中的商機分析範例內容套件。 因為 Power BI Desktop 和服務中報表的使用體驗皆非常類似，因此您也可以在 Power BI Desktop 中使用範例 .pbix 檔案來進行教學課程。 
 
@@ -70,7 +70,7 @@ ms.locfileid: "67791891"
 如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529782) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>儀表板告訴我們什麼？
-我們的銷售經理已建立儀表板來追蹤她認為最重要的計量。 當她看到值得關注的項目時，她可以選取圖格查看資料：
+我們的銷售經理已建立儀表板來追蹤其最重要計量。 當他們看到值得關注的項目時，可以選取磚來深入探究資料：
 
 - 公司營收 $20 億而要素營收為 $4.61 億。
 - 商機計數和營收會依照類似的漏斗圖模式，總計隨著每個後續階段遞減。
@@ -127,7 +127,7 @@ ms.locfileid: "67791891"
  
 ![[近期商機] 頁面](media/sample-opportunity-analysis/opportunity6.png)
 
-我們 CFO 使用此頁面來管理工作量。 透過查看依銷售階段和月份區分的營收商機，她可以據此進行適當的規劃。
+我們 CFO 使用此頁面來管理工作量。 透過查看依銷售階段和月份區分的營收商機，他們可以據此進行適當的規劃。
 
 注意下列詳細資料：
 * [定案] 銷售階段的平均營收最高。 因此成交是第一要務。

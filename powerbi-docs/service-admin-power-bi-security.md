@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/11/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: b70d23d7f4f5dfab9273319ad890a21c9b74ead2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: df2e31ea9c8030e00001081e5fbe280605188bc5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61187341"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523294"
 ---
 # <a name="power-bi-security"></a>Power BI 安全性
 
@@ -56,7 +56,7 @@ Power BI 的平台安全性還包括多租用戶環境安全性、網路安全�
 
 如需詳細資訊，請瀏覽 [Microsoft 信任中心](https://www.microsoft.com/trustcenter)。
 
-如本文稍早所述，內部部署 Active Directory 伺服器利用使用者的 Power BI 登入來對應至 UPN 以取得認證。 不過，請 **務必** 注意，使用者對所要共用的資料負有責任：如果使用者使用自己的認證連接到資料來源，然後共用依據該資料的報表 (或儀表板、資料集)，則共用儀表板的其他使用者不會經過原始資料來源的驗證，便會取得報表的存取權。
+如本文稍早所述，內部部署 Active Directory 伺服器利用使用者的 Power BI 登入來對應至 UPN 以取得認證。 不過，請**務必**注意，使用者對所要共用的資料負有責任：如果使用者使用自己的認證連接到資料來源，然後共用依據該資料的報表 (或儀表板、資料集)，則共用儀表板的其他使用者不會經過原始資料來源驗證，即會獲授與報表的存取權。
 
 唯一的例外是使用**內部部署資料閘道**連線到 **SQL Server Analysis Services**；這些儀表板會在 Power BI 中快取，但存取基礎報表或資料集會對嘗試存取該報表 (或資料集) 的使用者起始驗證，使用者必須具備足以存取該資料的認證，才能存取該資料。 如需詳細資訊，請參閱[內部資料閘道深入探討](service-gateway-onprem-indepth.md)。
 

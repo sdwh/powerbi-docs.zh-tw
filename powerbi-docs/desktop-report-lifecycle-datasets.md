@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8b68f6ee5e475c1b53f914c84372a0875fe87b5d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: cccbfb6bbe43e70ebcea94322923f7600d58aca8
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839136"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590495"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>從 Power BI Desktop 連線到 Power BI 服務中的資料集
 您可在 Power BI 服務中建立連到共用資料集的即時連線，並從同一個資料集建立許多不同的報表。 這表示您可以在 Power BI Desktop 中建立完美的資料模型，並將它發佈到 Power BI 服務。 然後，您和其他人便可以從相同的通用資料模型建立多個不同報表 (分別位於不同的 .pbix 檔案中)，並儲存到不同的工作區。 這項功能稱為 **Power BI 服務即時連線**。
@@ -28,20 +28,20 @@ ms.locfileid: "66839136"
 Power BI 的熱門程度帶來一項挑戰，也就是報表、儀表板及其基礎資料模型數量激增。 原因在於，人們能夠輕鬆在 **Power BI Desktop** 中建立引人入勝的報表，然後在 **Power BI 服務**中共用 ([發佈](desktop-upload-desktop-files.md)) 這些報表，以及從資料集建立優質的儀表板。 由於這樣做的人為數眾多，而且時常使用相同 (或幾乎相同) 的資料集，因此要知道哪個報表以哪個資料集為基礎、各資料集的更新時間有多近，便成了一大挑戰。 **Power BI 服務即時連線**解決了這項難題，並且讓建立、共用及擴展通用資料集的報表及儀表板變得更簡單、一致。
 
 ### <a name="create-a-dataset-everyone-can-use-then-share-it"></a>建立任何人都能使用的資料集並加以共用
-假設 Anna (一名業務分析師) 在您的團隊中，而她很擅長建立優異的資料模型 (通常稱為資料集)。 透過 Anna 的專長，她能夠建立資料集和報表，然後在 **Power BI 服務**裡共用該報表。
+假設 Anna (一名業務分析師) 在您的小組中，而她很擅長建立良好的資料模型 (通常稱為資料集)。 利用他們的專長，Anna 能夠建立資料集和報表，然後在 **Power BI 服務**中共用該報表。
 
 ![發行至 Power BI 服務](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
-每個人都喜愛她的報表和資料集，但這就是問題所在。團隊裡每個人都嘗試建立「自己的」  資料集版本，然後與團隊共用自己的報表。 於是團隊在 **Power BI 服務**中的工作區，一下子就有了大量報表 (來自不同資料集)。 哪一個是最新的？ 資料集內容完全相同，或只是幾乎相同？ 差別在哪裡？ 有了 **Power BI 服務即時連線**功能，這一切問題都能迎刃而解。 在下一節中，我們會知道其他人可以如何在他們自己的工作區，並在自己的報表使用 Anna 發佈的資料集，以及讓所有人都能使用同一個穩固、通過檢驗且已發佈資料集來打造自己的獨特報表。
+每個人都喜愛 Anna 的報表和資料集，但這就是問題所在。Anna 小組中每個人都嘗試建立「自己的」  資料集版本，然後與小組共用自己的報表。 於是小組在 **Power BI 服務**中的工作區，一下子就有了大量報表 (來自不同資料集)。 哪一個是最新的？ 資料集內容完全相同，或只是幾乎相同？ 差別在哪裡？ 有了 **Power BI 服務即時連線**功能，這一切問題都能迎刃而解。 在下一節中，我們會知道其他人可以如何在他們自己的工作區，並在自己的報表使用 Anna 發佈的資料集，以及讓所有人都能使用同一個穩固、通過檢驗且已發佈資料集來打造自己的獨特報表。
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>使用即時連線來連線到 Power BI 服務資料集
-在 Anna 建立她的報表 (並建立其依據的資料集) 之後，便將其發佈到 **Power BI 服務**，而報表隨即顯示在她的團隊在 Power BI 服務中的工作區。 若她將它儲存到「新的體驗工作區」  ，其便可以設定「建置」權限，讓每個進入和離開她工作區的人都可以看到並進行使用。
+Anna 建立報表 (並建立其依據的資料集)，然後將其發佈到 **Power BI 服務**，而它隨即顯示在 Power BI 服務的小組工作區中。 若 Anna 將它儲存到「新的體驗工作區」  ，Anna 便可以設定「建置」權限，讓每個進入和離開他們工作區的人都可以看到並使用。
 
 若要深入了解新的體驗工作區，請參閱[應用程式工作區](service-new-workspaces.md)。
 
-進入和離開她工作區的其他成員現在可以對 Anna 共用的資料模型建立即時連線 (使用 **Power BI 服務即時連線**功能)，以及從「她的原始資料集」  ，在「他們自己的新體驗工作區」  中建立自己的獨特報表。
+進入和離開 Anna 工作區的其他成員現在可以對 Anna 共用的資料模型建立即時連線 (使用 [Power BI 服務即時連線]  功能)，以及從「他們的原始資料集」  ，在「他們自己的新體驗工作區」  中建立自有唯一報表。
 
-在下圖中，您可以看到 Anna 如何建立一份 **Power BI Desktop** 報表，然後將報表 (包括其資料模型) 發佈到 **Power BI 服務**。 接著，其他人就可以使用 **Power BI 服務即時連線**來連線到她的資料模型，並依據她的資料集在他們自己工作區中建立自己的獨特報表。
+在下圖中，您可以看到 Anna 如何建立一份 **Power BI Desktop** 報表，然後將報表 (包括其資料模型) 發佈到 **Power BI 服務**。 接著，其他人就可以使用 [Power BI 服務即時連線]  來連線到 Anna 的資料模型，並依據 Anna 的資料集在他們自己工作區中建立自有唯一報表。
 
 ![以相同資料集為基礎的多個報表](media/desktop-report-lifecycle-datasets/report-lifecycle_03.png)
 
@@ -54,15 +54,15 @@ Power BI 的熱門程度帶來一項挑戰，也就是報表、儀表板及其�
 現在我們已經知道 **Power BI 服務即時連線**有多好用，以及如何將這個方法當作報表生命週期管理的最佳做法使用，接著為您逐步解說步驟，從 Anna 的優質報表 (和資料集) 前進到她 Power BI 小組成員可以使用的共用資料集。
 
 ### <a name="publish-a-power-bi-report-and-dataset"></a>發佈 Power BI 報表和資料集
-使用 **Power BI 服務即時連線**管理報表生命週期的第一步，是擁有團隊成員想要使用的報表 (和資料集)。 因此，Anna 必須先從 **Power BI Desktop** **發佈**她的報表。 她從 Power BI Desktop 的 [常用]  功能區選取 [發佈]  以完成這個動作。
+使用 **Power BI 服務即時連線**管理報表生命週期的第一步，是擁有團隊成員想要使用的報表 (和資料集)。 因此，Anna 必須先從 **Power BI Desktop** **發佈**報表。 這是從 Power BI Desktop 的 [常用]  功能區選取 [發佈]  來完成。
 
 ![發佈報表](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
-如果她未登入 Power BI 服務帳戶，系統會提示她登入。
+如果 Anna 未登入 Power BI 服務帳戶，則快顯視窗會提示 Anna 執行此動作。
 
 ![登入 Power BI Desktop](media/desktop-report-lifecycle-datasets/report-lifecycle_04.png)
 
-她可以從那裡選擇報表和資料集要發佈的工作區目的地。 請記得，若她將它儲存到新的體驗工作區，則任何具備「建置」權限的人員都可以存取該資料集。 建置權限可在發佈之後於 Power BI 服務中進行設定。 若其將它儲存到傳統工作區，則只有擁有報表發佈目標工作區存取權的成員，才能使用 **Power BI 服務即時連線**存取報表的資料集。
+Anna 可以從該處選擇報表和資料集要發佈的工作區目的地。 請記得，若 Anna 將它儲存到新的體驗工作區，則任何具備「建置」權限的人員都可以存取該資料集。 建置權限可在發佈之後於 Power BI 服務中進行設定。 若工作儲存到傳統工作區，則只有擁有報表發佈目標工作區存取權的成員，才能使用 [Power BI 服務即時連線]  來存取報表的資料集。
 
 ![發行至 Power BI 服務](media/desktop-report-lifecycle-datasets/report-lifecycle_05.png)
 
@@ -100,8 +100,8 @@ Power BI 的熱門程度帶來一項挑戰，也就是報表、儀表板及其�
 
 * 只有具備資料集「建置」權限的使用者可以使用 **Power BI 服務即時連線**來連線到發佈的資料集。 
 * 免費使用者只會看到 [我的工作區] 和以 Premium 為基礎工作區中的資料集。
-* 由於這是即時連線，因此無法使用左側瀏覽和模型化，行為與連線到 **SQL Server Analysis Services** 時相似。
-* 由於這是即時連線，因此會強制執行 RLS (資料列及角色層級安全性)、商務用 OneDrive 及其他這類連線行為，方式和連線到 **SQL Server Analysis Services** 時相同。
+* 由於這是即時連線，因此無法使用左側瀏覽和模型化，其與連線到 **SQL Server Analysis Services** 的行為相似，您只能在每個報表中連線到一個資料集。
+* 由於這是即時連線，因此會強制執行 RLS (資料列及角色層級安全性) 及其他這類連線行為，方式和連線到 **SQL Server Analysis Services** 時相同。
 * 如果擁有者修改原本共用的 .pbix 檔案，就會覆寫 **Power BI 服務**中共用的資料集和報表。 以該資料集為基礎的報表不會遭到覆寫，但任何對資料集進行的變更都會反映在報表上。
 * 工作區成員無法取代原先共用的報表。 嘗試這樣做會導致產生警告，提示您為檔案重新命名再發佈。
 * 若您刪除了 **Power BI 服務**中的共用資料集，則其他以該資料集為基礎的報表都將無法正常運作或顯示視覺效果。

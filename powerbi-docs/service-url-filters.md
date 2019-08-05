@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/24/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: cf640be131e1bffb571ad3c2ae2713dee1c4c0ca
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1d1371fa63af51f50a631739e4b2eed5550dc7ee
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051297"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523327"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -43,11 +43,11 @@ URL?filter=***資料表***/***欄位*** eq '***值***'
 
 ### <a name="reports-in-apps"></a>應用程式中的報表
 
-如果要將 URL 篩選器新增至應用程式的報表中，則格式會略有不同。 應用程式中報表的連結具有新增至 URL 的查詢參數 (ctid)。 使用連字號分隔的查詢參數 (&)。 保留 「？ 篩選 ="移至 URL 的結尾的 ctid 參數前面會加上連字號 (&)。 
+如果要將 URL 篩選器新增至應用程式的報表中，則格式會略有不同。 應用程式中報表的連結具有新增至 URL 的查詢參數 (ctid)。 以 & 符號分隔查詢參數。 保留 "?filter=" 並將 ctid 參數移至 URL 結尾，在前面加上 & 符號。 
 
 如下列範例中：
 
-app.powerbi.com/groups/me/apps/*應用程式識別碼*/reports/*報表識別碼*/ReportSection？ filter =*表格*/*欄位*eq '*值*（& s)' ctid =*ctid*
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*&'ctid=*ctid*
 
 ### <a name="field-types"></a>欄位類型
 
@@ -83,7 +83,7 @@ app.powerbi.com/groups/me/apps/*應用程式識別碼*/reports/*報表識別碼*
 
 我們的報表已篩選出北卡羅萊納州；報表頁面上的所有視覺效果都只會顯示北卡羅萊納州的資料。
 
-![篩選出北卡羅萊納州的報表](media/service-url-filters/power-bi-report4.png)
+![針對北卡羅來納州篩選的報表](media/service-url-filters/power-bi-report4.png)
 
 ## <a name="filter-on-multiple-fields"></a>篩選多個欄位
 
@@ -133,9 +133,9 @@ Power BI URL 篩選可包含下列格式的數字。
 
 ### <a name="date-data-types"></a>日期資料類型
 
-Power BI 針對 **Date** 和 **DateTimeOffset** 資料類型支援 OData V3 和 V4。  使用 EDM 的格式表示日期 (2019年-02-12T00:00:00)，因此當您指定的日期 '-YYYY-MM-DD' 時，Power BI 會將它做為解譯 ' YYYY-MM-DDT00:00:00'。
+Power BI 針對 **Date** 和 **DateTimeOffset** 資料類型支援 OData V3 和 V4。  日期是使用 EDM 格式 (2019-02-12T00:00:00) 表示，因此當您以 'YYYY-MM-DD' 指定日期時，Power BI 會將它解譯為 'YYYY-MM-DDT00:00:00'。
 
-此差異為何很重要？ 假設您建立的查詢字串參數**日期資料表/g ' 2018年-08-03'** 。  結果會包含 2018 年 8 月 3 日，還是從 2018 年 8 月 4 日開始？ 因為 Power BI 會將轉譯的查詢，以**日期資料表/g '2018年-08-03T00:00:00'** ，您的結果包含具有非零時間部分，因為這些日期會是大於任何日期 **' 2018年-08-03T00:00:00'** .
+此差異為何很重要？ 假設您建立查詢字串參數 **Table/Date gt '2018-08-03'** 。  結果會包含 2018 年 8 月 3 日，還是從 2018 年 8 月 4 日開始？ 由於 Power BI 將您的查詢轉譯為 **Table/Date gt '2018-08-03T00:00:00'** ，因此您的結果會包含具有非零時間部分的任何日期，因為這些日期會大於 **'2018-08-03T00:00:00'** 。
 
 ## <a name="special-characters-in-url-filters"></a>URL 篩選中的特殊字元
 
@@ -177,7 +177,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 * 使用 *in* 運算子時，*in* 右方的值必須是前後加上括弧的逗點分隔清單。    
 * 在 Power BI 報表伺服器，[傳遞報表參數](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)的方法可以是將其包含在報表 URL 中。 這些 URL 參數不會有前置詞，因為會直接傳遞到報表處理引擎。
-* 查詢字串篩選不適用於[發佈至網路](service-publish-to-web.md)或是[匯出至 PDF](consumer/end-user-pdf.md)。
+* 查詢字串篩選不適用於[發佈至 Web](service-publish-to-web.md) 或[匯出為 PDF](consumer/end-user-pdf.md)。
 * [在 SharePoint Online 中內嵌報表 Web 組件](service-embed-report-spo.md)不支援 URL 篩選。
 * 由於 JavaScript 限制，Long 資料類型為 (2^53-1)。
 * 報表 URL 篩選條件有 10 個運算式的限制 (以 AND 連接的 10 個篩選條件)。

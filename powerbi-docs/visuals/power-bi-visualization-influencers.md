@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cf07318b5866d3f893d745fc8a8bba85cc9680d9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d41fc5991a95b51f71d0db522d4de84454de4ca2
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751265"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590610"
 ---
 # <a name="key-influencers-visualization"></a>關鍵影響因素視覺效果
 關鍵影響因素視覺效果可協助您了解影響您感興趣計量的因素。 可分析您的資料、為重要因素排名並將其顯示為關鍵影響因素。 例如，假設您想要了解影響員工流動率 (也稱為變換) 的因素。 其中一項因素可能是雇用合約長度，另一項因素可能是員工年齡。 
@@ -132,8 +132,13 @@ ms.locfileid: "66751265"
  
 右窗格中散佈圖會針對每個使用期值繪製低評等的平均百分比。 它使用趨勢線來醒目提示斜率。
 
-
 ![使用期的散佈圖](media/power-bi-visualization-influencers/power-bi-tenure.png)
+
+## <a name="binned-continuous-key-influencers"></a>量化連續關鍵影響因素
+
+在某些情況下，您可能會發現連續因素已自動轉換成類別因素。 這是因為我們已了解變數之間的關聯性非為線性，因此我們無法將關聯性描述為只是增加或減少 (就像我們在上述範例中所做的一樣)。
+
+我們會執行相互關聯測試，以判斷影響因素對於目標的線性程度。 如果目標為連續，我們會執行 Perasons 相互關聯，如果目標為類別，我們就會執行 Point Biserial 相互關聯測試。 如果我們偵測到關聯性不夠線性，我們會進行受監督量化，並產生最多 5 個 Bin。為了找出哪些 Bin 最合理，我們使用受監督量化方法，它會查看說明因素與分析中目標之間的關聯性。
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>將量值和彙總解譯為關鍵影響因素 
  
@@ -209,15 +214,14 @@ ms.locfileid: "66751265"
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解 
  
-**預覽的限制有哪些？** 
+**視覺效果的限制有哪些？** 
  
-關鍵影響因素視覺效果目前處於公開預覽狀態，並有一些限制。 目前無法使用的功能包括： 
-- 分析彙總或量值的計量。
-- 在 Power BI Embedded 中使用視覺效果。
-- 在 Power BI 行動裝置應用程式上使用視覺效果。
-- RLS 支援。
-- 直接查詢支援。
-- 即時連線支援。
+關鍵影響因素視覺效果有一些限制：
+
+- 不支援 Direct Query
+- 不支援即時連線至 Azure Analysis Services 和 Sql Server Analysis Services
+- 不支援發佈到 Web
+- 需要 .NET Framework 4.6 或更高版本
 
 ![數值問題](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 
@@ -263,7 +267,7 @@ ms.locfileid: "66751265"
 - 您可以將裝置摘要變更為計數。 例如，如果裝置數量可能會對客戶給予的分數造成影響，請使用計數。 
 - 您可以轉換裝置資料行，查看在特定裝置上使用服務是否會影響客戶的評等。
  
-在此範例中，已轉換資料來建立瀏覽器、行動裝置和平板電腦的新資料行。 您現在可以在 [說明依據]  中使用這些特定的裝置。 所有裝置都是影響因素，而瀏覽器對客戶分數的影響最大。
+在此範例中，資料已經樞紐分析，以建立瀏覽器、行動和平板電腦的新資料行 (請務必在轉換資料之後，在模型化視圖中刪除並重新建立關聯性)。 您現在可以在 [說明依據]  中使用這些特定的裝置。 所有裝置都是影響因素，而瀏覽器對客戶分數的影響最大。
 
 更精確地說，不透過瀏覽器來使用服務的客戶，比透過瀏覽器的客戶，給予低分的可能性高出 3.79 倍。 在清單的較下方處，行動裝置的情況則相反。 使用行動裝置應用程式的客戶，比不使用行動裝置應用程式的客戶較可能給予低分。 
 

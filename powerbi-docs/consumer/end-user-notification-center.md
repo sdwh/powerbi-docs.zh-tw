@@ -12,17 +12,17 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 34bb77c84d1813e32421b87e957e24a946f282f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 68e0a7985997a4512fe26812547f12f1b9be648f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61066178"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522734"
 ---
 # <a name="view-power-bi-notifications"></a>檢視 Power BI 通知
 通知中心是按時間排列的 Power BI 體驗相關資訊摘要。 加以開啟即可看到下列訊息的循序摘要：已與您共用的新儀表板、您的群組空間變更、Power BI 事件和會議的資訊、您已設定的警示等等。 您可以[在 Power BI 服務中設定警示](../service-set-data-alerts.md)，也可以在 Power BI 行動裝置應用程式中設定警示。
 
-觀看 Amanda 檢閱收到的通知、管理通知及加以回應。 然後遵循影片下方的指示親自試試看。
+觀看 Amanda 如何檢閱、管理及回應通知。 然後遵循影片下方的指示親自試試看。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZMSv5KAlcE" frameborder="0" allowfullscreen></iframe>
 

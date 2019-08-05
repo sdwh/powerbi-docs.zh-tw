@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/08/2018
-ms.openlocfilehash: 063ab8083c3091a7a41ca30e9045ce3a791112d2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/23/2019
+ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770023"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415365"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>安裝 Power BI 報表伺服器的硬體和軟體需求
 
@@ -50,6 +50,7 @@ SQL Server 可用來裝載報表伺服器資料庫。 SQL Server 資料庫引擎
 
 Power BI 報表伺服器會安裝預設值，以設定讓報表伺服器運作所需的核心設定。 它有下列需求︰
 
+* Power BI 報表伺服器支援的語言包括：英文、德文、西班牙文、日文、義大利文、法文、俄文、簡體中文、繁體中文、葡萄牙文 (巴西)、韓文
 * 在您設定報表伺服器資料庫前，SQL Server 資料庫引擎必須已安裝且可用。 資料庫引擎執行個體裝載 Reporting Services 設定管理員會建立的報表伺服器資料庫。 實際的安裝體驗不需要資料庫引擎。
 * [SQL Server 版本支援的 Reporting Services 功能](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016)會概述 SQL server 版本之間的差異。
 * 執行安裝程式的使用者帳戶必須是本機系統管理員群組的成員。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: bf10d6a87cb97e1c1ca5164580d0aa556ffc86fc
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: d5670a8077b4de03f6eb866f6177f17cdec7d7f7
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791953"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462335"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的人力資源範例：觀看導覽
 
@@ -27,7 +27,7 @@ ms.locfileid: "67791953"
 
 ![人力資源範例概觀的儀表板](media/sample-human-resources/hr1.png)
 
-此範例是系列中的一部分，說明您可如何使用 Power BI 的商業導向資料、報表與儀表板。 它是由 [obviEnce](http://www.obvience.com/), 使用真實資料 (已匿名化) 建立的。 資料會以數種格式提供：內容套件、.pbix Power BI Desktop 檔案，或 Excel 活頁簿。 請參閱 [Power BI 範例](sample-datasets.md)。 
+此範例是系列中的一部分，說明您可如何使用 Power BI 的商業導向資料、報表與儀表板。 它是由 [obviEnce](http://www.obvience.com/) 使用真實資料 (已匿名化) 所建立。 資料會以數種格式提供：內容套件、.pbix Power BI Desktop 檔案，或 Excel 活頁簿。 請參閱 [Power BI 範例](sample-datasets.md)。 
 
 此教學課程探索 Power BI 服務中的人力資源範例內容套件。 因為 Power BI Desktop 和服務中報表的使用體驗皆非常類似，因此您也可以在 Power BI Desktop 中使用範例 .pbix 檔案來進行教學課程。 
 

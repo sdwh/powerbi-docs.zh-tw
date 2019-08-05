@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2e0fc8ae6a6d2b01121ffb1c52c29652af21f21e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 1d07c678b02f77689d24d067ca58a4e28ac70cb0
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67533141"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623924"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>在 Power BI Desktop (預覽) 中的圖形地圖
 建立**圖形地圖**視覺效果，使用色彩比較地圖上的區域。 不同於**地圖**視覺效果，**圖形地圖**無法在地圖上顯示資料點的確切地理位置。 相反地，其主要目的是要藉由不同的著色，在地圖上顯示區域的相對比較。
@@ -323,11 +323,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | mx-gro |Gro. |MX-GRO |Guerrero |格雷羅 |GR |
 | mx-gua |Gto. |MX-GUA |Guanajuato |瓜納華托 |GT |
 | mx-dur |Dgo. |MX-DUR |Durango |杜蘭戈 |DU |
-| mx-dif |Col. |MX-DIF |Ciudad de México |墨西哥城 |DF |
-| mx-col |Coah. |MX-COL |Colima |科利馬 |CL |
-| mx-coa |Chis. |MX-COA |Coahuila |科阿韋拉 |CA |
+| mx-dif |CDMX. |MX-DIF |Ciudad de México |墨西哥城 |DF |
+| mx-col |Col. |MX-COL |Colima |科利馬 |CL |
+| mx-coa |Coah. |MX-COA |Coahuila |科阿韋拉 |CA |
 | mx-chh |Chih. |MX-CHH |Chihuahua |契瓦瓦 |CH |
-| mx-chp |CDMX. |MX-CHP |Chiapas |恰帕斯 |CP |
+| mx-chp |Chis. |MX-CHP |Chiapas |恰帕斯 |CP |
 | mx-cam |Camp. |MX-CAM |Campeche |坎佩切 |CM |
 | mx-bcs |B.C.S. |MX-BCS |Baja California Sur |南下加利福尼亞 |BS |
 | mx-bcn |B.C. |MX-BCN |Baja California |下加利福尼亞 |BN |

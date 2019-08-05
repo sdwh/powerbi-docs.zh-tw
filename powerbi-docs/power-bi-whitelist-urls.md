@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5b8cce3c62811509b5a2fa80bdde683c6278c7b2
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60978365"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624172"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>要列入允許清單的 Power BI URL
 
@@ -38,7 +38,7 @@ Power BI 需要仰賴 Office 365 驗證與身分識別區段中的必要端點�
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
-| 1 | **必要：** 驗證及身分識別 | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)  | N/A |
+| 1 | **必要：** 驗證及身分識別 | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office)  | N/A |
 
 ## <a name="general-site-usage"></a>一般網站使用方式
 
@@ -47,7 +47,7 @@ Power BI 需要仰賴 Office 365 驗證與身分識別區段中的必要端點�
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
 | 1 | **必要：** 後端 API | *.analysis.windows.net | TCP 443 |
-| 2 | **必要：** Office 365 整合 | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/A |
+| 2 | **必要：** Office 365 整合 | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | N/A |
 | 3 | **必要：** 入口網站 | app.powerbi.com | TCP 443 |
 | 4 | **必要：** 服務遙測 | dc.services.visualstudio.com | TCP 443 |
 | 5 | **選擇性：** 資訊訊息 | dynmsg.modpim.com | TCP 443 |
@@ -60,7 +60,7 @@ Power BI 需要仰賴 Office 365 驗證與身分識別區段中的必要端點�
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
-| 1 | **必要：** 供管理使用者及檢視稽核記錄檔 | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/A |
+| 1 | **必要：** 供管理使用者及檢視稽核記錄檔 | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | N/A |
 | | | |
 
 ## <a name="getting-data"></a>取得資料
@@ -82,7 +82,7 @@ Power BI 需要特定端點能夠支援您的儀表板與報表。 您必須可�
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
-| 1 | **必要：** Excel 整合 | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/A |
+| 1 | **必要：** Excel 整合 | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | N/A |
 | | | |
 
 ## <a name="custom-visuals"></a>自訂視覺效果
@@ -94,7 +94,7 @@ Power BI 需要特定端點能夠檢視及存取自訂的視覺效果。 您必�
 | 1 | **必要：** 從 Marketplace 介面或檔案匯入自訂視覺效果 | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
 | 2 | **選擇性：** Bing 地圖服務 | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **選擇性：** PowerApps | 請參閱 PowerApps 系統需求網站的[必要服務區段](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) | N/A |
-| 4 | **選擇性：** Visio | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)，以及 [SharePoint Online 和商務用 OneDrive](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/A |
+| 4 | **選擇性：** Visio | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office)，以及 [SharePoint Online 和商務用 OneDrive](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/A |
 | | | |
 
 ## <a name="related-external-sites"></a>相關的外部網站

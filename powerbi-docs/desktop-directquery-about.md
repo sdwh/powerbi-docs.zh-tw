@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 07/22/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 19ed4e4505ed2d8eb4f3b559c0af46b2b82a0ec0
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 591a837bb085ba901316e672112b568923995718
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342199"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590546"
 ---
 # <a name="using-directquery-in-power-bi"></a>使用 Power BI 中的 DirectQuery
 您可以在使用 **Power BI Desktop** 或 **Power BI 服務**時連接到各種不同的資料來源，且可以利用不同的方法來進行這些資料連接。 您可以將資料「匯入」  Power BI (這是取得資料的最常見方法)，或直接連接到原始來源存放庫中的資料 (也稱為 **DirectQuery**)。 本文將描述 **DirectQuery** 及其功能：
@@ -72,7 +72,7 @@ Power BI 會連接到大量的各種資料來源，包括：
 * 視覺效果或整個報表頁面可以釘選為儀表板磚。 為了確保快速開啟儀表板，這些磚會依排程自動重新整理 (例如每小時)。 您可以控制此重新整理的頻率，以反映資料變更的頻率，以及查看最新資料的重要性。 因此，開啟儀表板時，磚會反映上次重新整理時的資料，而不一定是對基礎來源所做的最新變更。 您一律可以重新整理開啟的儀表板，以確保儀表板處於最新狀態。    
 
 ### <a name="live-connections"></a>即時連接
-連接到 **SQL Server Analysis Services** (SSAS) 時，可以選擇將資料從選取的資料模型匯入，或即時連接到選取的資料模型。 如果您選取 [匯入]  ，然後定義對該外部 SSAS 來源的查詢，則會正常匯入資料。 如果您選取 [即時連接]  ，則不會定義任何查詢，且整個外部模型都會顯示在欄位清單中。 如果您選取 [DirectQuery]  ，建立視覺效果時，會傳送查詢至外部 SSAS 來源。 不過，不同於 DirectQuery，建立新的「模型」  並沒有任何意義；換句話說，您無法定義新的計算結果欄、階層、關聯性等等。 相反地，您只要直接連接到外部 SSAS 模型即可。
+連接到 **SQL Server Analysis Services** (SSAS) 時，可以選擇將資料從選取的資料模型匯入，或即時連接到選取的資料模型。 如果您選取 [匯入]  ，然後定義對該外部 SSAS 來源的查詢，則會正常匯入資料。 如果您選取 [即時連接]  ，則不會定義任何查詢，且整個外部模型都會顯示在欄位清單中。
 
 前一個段落中所述的情況也適用於連接到下列來源，但無法選擇匯入資料：
 
@@ -116,8 +116,8 @@ Power BI 會連接到大量的各種資料來源，包括：
 
 除了基礎來源的效能，您也應該仔細考慮對其施加的負載 (這通常會影響效能)。 如下所述，開啟共用報表的每位使用者，以及定期重新整理的每個儀表板磚，都會針對每個視覺效果傳送至少一個查詢至基礎來源。 因此，來源必須能夠處理這類查詢負載，同時仍維持合理的效能。
 
-### <a name="limited-to-a-single-source"></a>限制為單一來源
-匯入資料時，您可以將多個來源中的資料合併成單一模型；例如，輕鬆地將公司的 SQL Server 資料庫中的一些資料，聯結到在 Excel 檔案中維護的一些本機資料。 您無法使用 DirectQuery 來執行這項作業。 針對某個來源選取 DirectQuery 時，只能使用該單一來源 (例如單一 SQL Server 資料庫) 中的資料。
+### <a name="security-implications-when-combining-data-sources"></a>合併資料來源時的安全性影響
+在 DirectQuery 模型中，可以使用多個資料來源，就像您在匯入資料時一樣，方法是使用[複合模型](desktop-composite-models.md)功能。 當您這麼做時，請務必了解在基礎資料來源之間來回移動資料的方式，以及它所帶來的[安全性影響](desktop-composite-models.md#security-implications)。
 
 ### <a name="limited-data-transformations"></a>有限的資料轉換
 同樣地，您可以在 [查詢編輯器]  中套用資料轉換限制。 匯入資料之後，您可以輕鬆套用一組精細的轉換，將資料清除並重新成形，再使用此資料建立視覺效果 (例如剖析 JSON 文件，或將資料行中的資料轉換到來源資料列)。 這些轉換在 DirectQuery 中有更多限制。 首先，連接到 SAP Business Warehouse 等 OLAP 來源時，完全無法定義轉換，而且會從來源取出整個外部「模型」。 至於 SQL Server 等關聯式來源，您仍然可以針對每個查詢定義一組轉換，但基於效能原因，這些轉換會受到限制。 您必須對基礎來源的每個查詢套用任何這類轉換，而不是在資料重新整理時套用一次，因此僅限於可合理轉譯成單一原生查詢的轉換。 如果您使用的轉換太過複雜，則會收到錯誤，指出必須加以刪除，或將模型切換至匯入模式。
@@ -139,7 +139,6 @@ Power BI 會連接到大量的各種資料來源，包括：
 * **沒有內建日期階層：** 匯入資料時，每個日期/日期時間資料行預設也會有內建日期階層可用。 例如，如果匯入包含 OrderDate 資料行的銷售訂單資料表，則在視覺效果中使用 OrderDate 時，可以選擇要使用的適當層級 (Year、Month、Day)。 使用 DirectQuery 模式時無法使用此內建日期階層。 不過請注意，如果基礎來源中有可用的 Date 資料表 (這在許多資料倉儲中很常見)，則可以如往常般使用 DAX 時間智慧函式。
 * **計算結果欄限制：** 計算結果欄僅限於內部資料列，換句話說，它們只會參考相同資料表之其他資料行的值，而不會使用任何彙總函式。 此外，允許的 DAX 純量函式 (例如 LEFT()) 僅限於可直接發送至基礎來源的函式，因此會因來源的實際功能而有所不同。 撰寫計算結果欄的 DAX 時，不會在自動完成功能中列出不支援的函式，而且如果使用這些函式，將會導致錯誤。
 * **不支援父子式 DAX 函式：** 在 DirectQuery 模型中，您無法使用通常用來處理父子式結構 (例如會計科目表或員工階層) 的 DAX PATH() 函式系列。
-* **量值的限制：** 系統會限制可用於量值的 DAX 函式和運算式。 同樣地，自動完成功能會限制列出的函式，而且如果使用無效的函式或運算式，則會發生錯誤。 這樣做只是為了確保系統會將量值限制為簡單量值，其本身不太可能造成任何效能問題。
 * **不支援計算資料表：** DirectQuery 模式不支援使用 DAX 運算式定義計算資料表的功能。
 * **關聯性篩選僅限於單一方向：** 使用 DirectQuery 時，您無法將關聯性的交互篩選方向設定為 [雙向]。 例如，您可以透過下列三個資料表，建立顯示每個 Customer[Gender] 以及其所購買之 Product[Category] 數目的視覺效果。 如需使用這類雙向篩選的說明，請參閱[這份詳細的技術白皮書](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (此文件提供 SQL Server Analysis Services 內容的範例，但基本重點同樣適用於 Power BI)。
   
@@ -304,11 +303,11 @@ DirectQuery 開啟的預設最大並行連線數目為 10。 您可以在 **Powe
 ### <a name="diagnosing-performance-issues"></a>診斷效能問題
 本節說明如何診斷效能問題，或如何取得更詳細的資訊以便對報表進行最佳化。
 
-強烈建議在 **Power BI Desktop** 中開始進行效能問題的任何診斷，而不是在 **Power BI 服務**中。 效能問題通常與基礎來源的效能等級相關，在更加隔離的 **Power BI Desktop** 環境中比較容易發現及診斷這些問題，而能夠一開始就排除特定元件 (例如 Power BI 閘道)。 只有在發現與 Power BI Desktop 無關的效能問題時，才應該將調查重點放在 Power BI 服務中的報表詳細資料上。
+強烈建議在 **Power BI Desktop** 中開始進行效能問題的任何診斷，而不是在 **Power BI 服務**中。 效能問題通常與基礎來源的效能等級相關，在更加隔離的 **Power BI Desktop** 環境中比較容易發現及診斷這些問題，而能夠一開始就排除特定元件 (例如 Power BI 閘道)。 只有在發現與 Power BI Desktop 無關的效能問題時，才應該將調查重點放在 Power BI 服務中的報表詳細資料上。 [效能分析器](desktop-performance-analyzer.md)是一個實用的工具，可以識別這整個流程中的問題。
 
 同樣地，建議先嘗試將任何問題隔離到個別視覺效果，而不是頁面上的許多視覺效果。
 
-假設已執行這些步驟 (本節中的前幾個段落)，我們現在於 **Power BI Desktop** 中頁面上的單一視覺效果仍稍嫌緩慢。 若要判斷 Power BI Desktop 傳送至基礎來源的查詢，您可以檢視可能由該來源發出的追蹤/診斷資訊。 這類追蹤也可能包含有關如何執行查詢及如何改善之詳細資料的有用資訊。
+假設已執行這些步驟 (本節中的前幾個段落)，我們現在於 **Power BI Desktop** 中頁面上的單一視覺效果仍稍嫌緩慢。 若要判斷由 Power BI Desktop 傳送至基礎來源的查詢，您可以使用[效能分析器](desktop-performance-analyzer.md)。 也可以檢視可能由基礎資料來源發出的追蹤/診斷資訊。 這類追蹤也可能包含有關如何執行查詢及如何改善之詳細資料的有用資訊。
 
 此外，即使來源中沒有這類追蹤，您也可以檢視 Power BI 所傳送的查詢及其執行時間，如下所述。
 

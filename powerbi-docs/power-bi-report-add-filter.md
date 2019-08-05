@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 903883290def07ee6467dbebab1c7b31dec80b74
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: dcc273dd6bf356d9149086b38b9126e721fe63a2
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342190"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380259"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>將篩選加入 Power BI 報表
 
@@ -76,6 +76,8 @@ Power BI 提供許多不同種類的篩選條件，從手動和自動到鑽研�
     視覺效果會依據新的篩選而變更。 如果您將報表與篩選一起儲存，報表讀者一開始會看到視覺效果篩選，並且在 [閱讀檢視] 中透過選取或清除值的方式與篩選互動。
      
     ![已篩選的視覺效果](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    
+    當您在用於視覺效果的欄位上使用篩選時，若欄位已彙總 (例如已加總、平均或計數)，則您將針對每個資料點中的「彙總」  值進行篩選。 因此，要求以**本年度銷售額 > 500000** 篩選上面的視覺效果，表示您只會在結果中看到 **13 - Charleston Fashion Direct** 資料點。 [模型量值](desktop-measures.md)上篩選一律會套用至資料點的彙總值。
 
 ### <a name="filter-with-a-field-thats-not-in-the-visual"></a>使用不在視覺效果中的欄位篩選
 
@@ -94,6 +96,8 @@ Power BI 提供許多不同種類的篩選條件，從手動和自動到鑽研�
     ![已篩選的視覺效果](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     如果您將報表與此篩選一起儲存，則報表讀者可以在 [閱讀檢視] 中透過選取或清除值的方式與 [區域經理]  篩選互動。
+    
+    如果您將「數值資料行」  拖曳至 [篩選] 窗格以建立視覺效果層級篩選，則該篩選會套用至「基礎資料列」  。 例如，在 [UnitCost]  欄位上新增篩選並將它設定為 **UnitCost** > 20，則不論視覺效果中所顯示資料點的總單位成本為何，都只會顯示單位成本大於 20 的產品資料列。
 
 ## <a name="add-a-filter-to-an-entire-page"></a>將篩選新增至整個頁面
 
@@ -158,10 +162,6 @@ Power BI 提供許多不同種類的篩選條件，從手動和自動到鑽研�
 1. 選取上一步箭頭以返回先前的報表分頁。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-
-- 在某些情況下，您的視覺效果層級篩選與頁面層級篩選可能會傳回不同結果。  例如，當您新增視覺效果層級篩選時，Power BI 會篩選彙總結果。  預設彙總為加總，不過您也可以[變更彙總類型](service-aggregates.md).  
-
-    當您新增頁面層級篩選時，Power BI 會篩選但不彙總。  不彙總的原因是因為一個頁面可能會有多個視覺效果，而且每個視覺效果可能會使用不同的彙總類型。  因此會將篩選套用至每個資料列。
 
 - 如果您看不到 [欄位] 窗格，請確定您是處於報表[編輯檢視](service-interact-with-a-report-in-editing-view.md)。    
 - 如果您已對篩選進行大量變更，並想要返回至報表作者預設設定，請從頂端功能表列選取 [重設為預設]  。

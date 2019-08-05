@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
-ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
+ms.openlocfilehash: 4c39cf5a60786f7cc1748155ce7004254d40ad00
+ms.sourcegitcommit: ebac79f8c2871d4a7e54c1e99ce6d2409345b060
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "67235063"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68475622"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>使用用戶端應用程式與工具連線至資料集 (預覽)
 
-Power BI Premium 工作區及資料集支援來自 Microsoft 和協力廠商應用程式與工具的「唯讀」  連線。 
+Power BI Premium 工作區及資料集支援來自 Microsoft 和協力廠商應用程式與工具的「唯讀」  連線。 預設會啟用連線
 
 > [!NOTE]
 > 本文僅旨在介紹對 Power BI Premium 工作區及資料集的唯讀連線能力。 它「並非」  用於提供可程式性、特定工具與應用程式、架構，以及工具區和資料集管理的深入資訊。 此處描述的主題需要對 Analysis Services 表格式模型資料庫架構及管理具有深入了解。
@@ -104,6 +104,10 @@ Power BI 服務中不支援下列資料集：
 ### <a name="roles-and-role-memberships"></a>角色和角色成員資格
 
 目前，模型角色和角色成員資格無法使用 XMLA 端點探索或顯示。
+
+## <a name="disable-connectivity"></a>停用連線
+
+根據預設，會針對資料集工作負載啟用 XMLA 端點連線。 您可以在 [[工作負載] 設定](service-admin-premium-workloads.md#workload-settings)中停用連線。
 
 ## <a name="audit-logs"></a>稽核記錄 
 

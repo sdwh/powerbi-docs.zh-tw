@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7d716c79146a0d53d261dba514aacb8787ca2fa3
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 53a8847f96d6aa3143e91cab07029a8e0f6afc85
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67300191"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523729"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>報表和視覺效果的最佳設計做法
 
@@ -407,7 +407,7 @@ Edward Tufte 在他的《The Visual Display of Quantitative Information》  這�
 
 視覺效果所表達的意涵是否具吸引力？ 是否有關係嗎？ 請不要因建置視覺效果而建置視覺效果。 您可能認為資料將表達有趣的意涵，但並沒有。 請不要害怕從頭開始，並尋找更多有趣的意涵。 意涵可能就在那裏，但您需要以不同的方式測量它。
 
-假設您想要測量銷售經理是否成功。 用來執行這項作業的測量為何？ 是否可以透過查看總銷售量或總收益、前一年的成長或目標之目標的效能來進行最佳測量？ 銷售人員 Sally 的收益可能最大。 如果您使用橫條圖顯示銷售人員的總收益，則她與其他業務人員相較之下就像搖滾之星。 如果 Sally 的銷售成本很高 (出差費用、運費成本、製造成本等)，則只是查看銷售量並無法表達其最佳意涵。
+假設您想要測量銷售經理是否成功。 用來執行這項作業的測量為何？ 是否可以透過查看總銷售量或總收益、前一年的成長或目標之目標的效能來進行最佳測量？ 銷售人員 Sally 的收益可能最大。 如果您使用橫條圖顯示銷售人員的總收益，則與其他業務人員相較之下其就像搖滾巨星。 如果 Sally 的銷售成本很高 (出差費用、運費成本、製造成本等)，則只是查看銷售量並無法表達其最佳意涵。
 
 #### <a name="reflect-reality-dont-distort-reality"></a>反映事實，不扭曲事實
 
@@ -1007,7 +1007,7 @@ Power BI 提供許多原生的視覺效果類型。 新增 Microsoft 和 Power B
 
 一般而言，橫條圖、直條圖和折線圖可提供大部分用途。 極容易了解圓形圖和環圈圖很難讓人正確地解譯。 事實上，它們經常會扭曲資料。 請盡量避免使用它們。 Stephen Few 在 [Save the Pies for Dessert](https://www.perceptualedge.com/articles/08-21-07.pdf) 中詳細描寫其歷史和危險。
 
-他在比較「部分與整體之間」的關聯性時，確實解釋過一次圓形圖適用的位置。 它極少優於 100%堆疊橫條圖。
+Stephen 在比較「部分與整體之間」的關聯性時，確實解釋過一次圓形圖適用的位置。 它極少優於 100%堆疊橫條圖。
 
 您可以在 [Darkhorse Analytics 網站](http://www.darkhorseanalytics.com/blog/salvaging-the-pie)上找到有關圓形圖的另一個有趣文章 (和動畫)。
 
@@ -1037,4 +1037,4 @@ KPI 會顯示相同空間量中的值、狀態、目標、與目標的變異以�
 
 ### <a name="book-recommendations"></a>書籍建議
 
-現在有許多好書，可協助團隊更新視覺效果設計技術的相關知識。 Stephen Few 的《Information Dashboard Design》  是必讀書籍。 他在另外兩本書中深入探究：*Show Me the Numbers* 和 *Now You See It*。 極少人收到 Edward R. Tufte 的鼓舞 (他的《The Visual Display of Quantitative Information》  這本書視為該領域的經典)。 Tufte 也寫過＜Visual Explanations＞  、＜Envisioning Information＞  和＜Beautiful Evidence＞  。 Andy Kirk 的新書《Data Visualization: A Handbook for Data Driven Design》  是另一個不錯的選項。 其他建議的作者如下：Lachlan James、William McKnight 和 Boris Evelson (Forrester)，Darkhorse Analytics。
+現在有許多好書，可協助團隊更新視覺效果設計技術的相關知識。 Stephen Few 的《Information Dashboard Design》  是必讀書籍。 其在另外兩本書中有深入的探究：*Show Me the Numbers* 和 *Now You See It*。 極少人收到 Edward R. Tufte 的鼓舞 (他的《The Visual Display of Quantitative Information》  這本書視為該領域的經典)。 Tufte 也寫過＜Visual Explanations＞  、＜Envisioning Information＞  和＜Beautiful Evidence＞  。 Andy Kirk 的新書《Data Visualization: A Handbook for Data Driven Design》  是另一個不錯的選項。 其他建議的作者如下：Lachlan James、William McKnight 和 Boris Evelson (Forrester)，Darkhorse Analytics。

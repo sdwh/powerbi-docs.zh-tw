@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: da5a36454e52891df7906b444b29b4df2db44d7f
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: b9c308e0593ac207e323df5b78619f0279f95594
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721184"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523446"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的組織內容套件簡介
 > [!NOTE]
@@ -50,27 +50,27 @@ ms.locfileid: "66721184"
 1. 在 Power BI Pro 中，Nate 建立了一個內容套件，並將其發行至「行銷」通訊群組中。 因為重新整理設定和資料集要一起繼承，所以只有 Nate 可以變更。
    
    > [!NOTE]
-   > 如果 Nate 從他所在的 [Power BI 應用程式工作區](service-create-distribute-apps.md)中建立內容套件，即使他離開群組，Power BI 工作區中的其他人也可以接管擁有權。
+   > 如果 Nate 從 Nate 所在的 [Power BI 應用程式工作區](service-create-distribute-apps.md)中建立內容套件，即使 Nate 離開群組，Power BI 工作區中的其他人也可以接管擁有權。
    > 
    > 
 2. Nate 傳送郵件給通訊群組，告訴他們新內容套件的相關資訊。
-3. 「行銷」通訊群組的成員 Jane 在 Power BI Pro 中搜尋並連線到 AppSource 中的這個內容套件。 她拿到的是唯讀複本。  她知道這是唯讀的，因為在左側瀏覽窗格中，儀表板名稱和報表名稱的左邊有共用圖示。 而當她選取儀表板時，鎖定圖示可讓 Jane 知道她正在查看內容套件儀表板。 
-4. 假設她決定進行自訂。 她現在擁有自己的報表和儀表板複本。 她的舉動不會影響來源、原始的內容套件或其他通訊群組成員。 她現在使用的是自己的儀表板和報表。
-5. Nate 更新了儀表板，隨時準備發佈新版的內容套件。
+3. 「行銷」通訊群組的成員 Jane 在 Power BI Pro 中搜尋並連線到 AppSource 中的內容套件。 Jane 拿到的是唯讀複本。 Jane 知道這是唯讀的，因為在左側瀏覽窗格中，儀表板名稱和報表名稱的左邊有共用圖示。 而當 Jane 選取儀表板時，鎖定圖示可讓 Jane 知道他們正在查看內容套件儀表板。 
+4. 假設 Jane 決定進行自訂。 Jane 現在擁有自己的報表和儀表板複本。 Jane 的舉動不會影響來源、原始的內容套件或其他通訊群組成員。 他們現在各自使用自己的儀表板和報表複本。
+5. Nate 更新了儀表板，並隨時準備發佈新版的內容套件。
    
-   * 另一個通訊群組成員 Julio 並未自訂原始的內容套件。 新的變更會自動套用至其內容套件的版本。  
-   * Jane 並未自訂內容套件。 她會收到新版本的通知。  她可以前往 AppSource 取得已更新的內容套件，而不會遺失她的個人化版本。 她現在有兩個版本：她的個人化版本和更新的內容套件。
+   * 另一個通訊群組成員 Julio 並未自訂原始的內容套件。 新變更會自動套用至 Jane 的內容套件版本。  
+   * Jane 並未自訂內容套件。 然後 Jane 會收到新版本的通知。  Jane 可以前往 AppSource 取得已更新的內容套件，而不會遺失個人化版本。 現在 Jane 有 2 個版本：個人化版本和更新的內容套件。
 6. 假設 Nate 變更安全性設定。 Julio 和 Jane 便不再具有內容的存取權。 或是假設他們已從「行銷」通訊群組中移除。
    
    * Julio 並未自訂原始的內容套件，所以該內容就會自動移除。 
-   * Jane 並未自訂內容套件。 下次開啟儀表板的話，原始內容套件中的所有磚都會消失，但她從其他報表 (她仍然擁有使用權限的報表) 釘選的磚仍會出現。 不再提供相關聯的報表和資料集 (且不再出現在她的左側瀏覽窗格中)。
+   * Jane 並未自訂內容套件。 當下次 Jane 開啟儀表板，原始內容套件中的所有磚都會消失，但從其他報表 (Jane 仍然擁有使用權限的報表) 釘選的磚仍會出現。 不再提供相關聯的報表和資料集 (且不再出現在他們的左側瀏覽窗格中)。
 7. 或是 Nate 刪除了內容套件。
    
    * Julio 並未自訂原始的內容套件，所以該內容就會自動移除。 
-   * Jane 並未自訂內容套件。 下次開啟儀表板的話，原始內容套件中的所有磚都會消失，但她從其他報表釘選的磚仍會出現。 不再提供相關聯的報表和資料集 (且不再出現在她的左側瀏覽窗格中)。
+   * Jane 並未自訂內容套件。 下次 Jane 開啟儀表板的話，原始內容套件中的所有磚都會消失，但從其他報表釘選的磚仍會出現。 不再提供相關聯的報表和資料集 (且不再出現在他們的左側瀏覽窗格中)。
 
 ## <a name="data-security"></a>資料安全性
-所有通訊群組成員的資料權限都和內容套件建立者一樣。 唯一的例外狀況是 SQL Server Analysis Services (SSAS) 內部部署表格式資料集。 因為報表及儀表板即時連線至內部部署 SSAS 模型，所以會使用每個個別通訊群組成員的認證來判斷其可以存取的資料。
+所有通訊群組成員的資料權限都和內容套件建立者一樣。 唯一的例外狀況是 SQL Server Analysis Services (SSAS) 內部部署表格式資料集。 因為報表及儀表板即時連線至內部部署 SSAS 模型，所以會使用每個個別通訊群組成員認證來判斷他們可以存取的資料。
 
 ## <a name="next-steps"></a>後續步驟
 * [建立和發佈組織內容套件](service-organizational-content-pack-create-and-publish.md)

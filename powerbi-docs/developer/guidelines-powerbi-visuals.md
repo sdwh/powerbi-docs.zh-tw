@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271195"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380227"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 視覺效果指南
 在您將視覺效果[發佈](https://docs.microsoft.com/power-bi/developer/office-store)至 AppSource 供其他人探索及使用之前，請務必遵循指導方針，以便為您的使用者打造絕佳體驗。 
@@ -26,7 +26,7 @@ ms.locfileid: "68271195"
 
 ## <a name="logo-guidelines"></a>標誌指導方針
 
-本節描述在視覺效果中新增標誌和標誌類型的規格。
+本節描述在視覺效果中新增標誌和標誌類型的規格。 標誌不是必要的。 如已新增，則必須遵循這些指導方針。 
 
 > [!IMPORTANT]
 > 標誌*僅可在編輯模式*中使用。 標誌*無法*在檢視模式中顯示。

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d001c75d006838f46ce40a8f81bad0a9a058b148
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299431"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523346"
 ---
 # <a name="export-data-from-visualizations"></a>從視覺效果匯出資料
 
@@ -150,9 +150,9 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
 
 - 若要從視覺效果匯出資料，您需要具有[基礎資料集的建置權限](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets)。
 
--  **Power BI Desktop** 和 **Power BI 服務**可以匯出至 *.csv* 的資料列數上限為 30,000。
+-  **Power BI Desktop** 和 **Power BI 服務**可以從 [匯入模式報表]  匯出至 *.csv* 的資料列數上限為 30,000。
 
-- 應用程式可以匯出至 *.xlsx* 檔案的資料列數上限為 150,000。
+- 應用程式可以從 [匯入模式報表]  匯出至 *.xlsx* 檔案的資料列數上限為 150,000。
 
 - 若為下列情況，使用「基礎資料」  匯出將無法運作：
 
@@ -166,7 +166,7 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
 
 - 如果您針對 Power BI 正要匯出的視覺效果啟用 [顯示沒有資料的項目]  選項，則使用「基礎資料」  匯出將無法運作。
 
-- 使用 DirectQuery 時，Power BI 可匯出的最大資料量為 16 MB。 非預期的結果可能是您匯出的資料列數小於資料列數上限。 可能原因如下：
+- 使用 DirectQuery 時，Power BI 可匯出的最大資料量為 16 MB 未壓縮資料。 非預期的結果可能是您匯出的資料列數小於資料列數上限。 可能原因如下：
 
     - 有許多資料行。
 

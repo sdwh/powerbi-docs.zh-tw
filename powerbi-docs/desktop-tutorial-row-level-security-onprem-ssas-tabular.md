@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28fe39788dab6f22845d3ffcb7115fb1da5cb268
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826670"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523224"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>動態資料列層級安全性與 Analysis Services 表格式模型
 
@@ -145,7 +145,7 @@ ms.locfileid: "66826670"
    
    身為**銷售經理**角色，Sumit 可以在所有不同的銷售區域查看資料。 Sumit 建立此報表 (在上一個工作步驟中建立的報表)，並將其發佈至 Power BI 服務。
    
-   Sumit 發佈報表之後，根據該報表在 Power BI 服務中建立稱為 **TabularDynamicSec** 的儀表板。 在下圖中，請注意 Sumit 可以看到對應至所有銷售區域的資料。
+   Sumit 發佈報表之後，下一步就是根據該報表在 Power BI 服務中建立稱為 **TabularDynamicSec** 的儀表板。 在下圖中，請注意 Sumit 可以看到對應至所有銷售區域的資料。
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart_1.png)
 
@@ -155,7 +155,7 @@ ms.locfileid: "66826670"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_dashboard.png)
 
-3. 當 Jon Doe 登入 **Power BI** 服務並檢視 Sumit 建立的共用儀表板時，Jon Doe 應該**只**會看到他職責區域的銷售狀況。 
+3. 當 Jon Doe 登入 **Power BI** 服務並檢視 Sumit 建立的共用儀表板時，應該**只**會看到其職責區域的銷售狀況。 
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 

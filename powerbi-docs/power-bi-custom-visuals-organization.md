@@ -1,6 +1,6 @@
 ---
-title: Power BI 中的組織自訂視覺效果
-description: 在 Power BI 中使用、管理和建立組織自訂視覺效果
+title: Power BI 中的組織視覺效果
+description: 在 Power BI 中使用、管理和建立組織視覺效果
 author: sranins
 ms.author: rasala
 manager: kfile
@@ -10,14 +10,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 157b20107a5be106ac97e0cb927b1e496e1ba115
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9775b7cd1eb936019051ae952bc270924061daaa
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421874"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415349"
 ---
-# <a name="organizational-custom-visuals-in-power-bi"></a>Power BI 中的組織自訂視覺效果
+# <a name="organizational-visuals-in-power-bi"></a>Power BI 中的組織視覺效果
 
 您可以在 Power BI 中使用自訂視覺效果，來建立為您量身打造的獨特視覺效果類型。 自訂視覺效果是由開發人員建立；通常是因為 Power BI 中包含的多種視覺效果不符合開發人員的需求，他們才會自行建立自訂視覺效果。
 

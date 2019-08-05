@@ -12,16 +12,16 @@ ms.topic: quickstart
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 86c8297c9a55f2b59e7c01390ff15bb3b2d4bf2e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: af7f2f0ca5407694b13f0b053ff347f883c8c983
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61048852"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523051"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入門 - 瀏覽 Power BI 服務
 
-您現在已知道 Power BI 基本概念，讓我們瀏覽 **Power BI 服務**。 如前所述，您小組中的某個人可能將所有時間都花在 **Power BI Desktop**、結合資料，以及為其他人建立報表。 但另一方面，您可能將所有時間都花在 Power BI 服務、檢視其他人所建立的內容並與其互動 (**取用**體驗)。 在本快速入門中，您將會匯入範例資料，並使用該資料來了解如何使用 Power BI 服務。 
+您現在已知道 Power BI 基本概念，讓我們瀏覽 **Power BI 服務**。 如先前所述，您小組中的某個人可能將所有時間都花在 **Power BI Desktop**、結合資料，以及為其他人建立報表。 但另一方面，您可能將所有時間都花在 Power BI 服務、檢視其他人所建立的內容並與其互動 (**取用**體驗)。 在本快速入門中，您將會匯入範例資料，並使用該資料來了解如何使用 Power BI 服務。 
  
 ## <a name="prerequisites"></a>先決條件
 

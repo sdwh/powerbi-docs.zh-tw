@@ -11,20 +11,20 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: cb0870bf6f1cdca3cb1f95dc516f5f9124422327
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375217"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523377"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>對適用於 Power BI 的 Cortana 進行疑難排解
 本文是系列文的其中一篇。 
 
 > [!IMPORTANT]
-> Cortana 整合已被取代，在 Power BI 中。 從 6 月 11 日，Cortana 將不再適用於任何儀表板和報表。
+> Cortana 整合在 Power BI 中即將淘汰。 自 6 月 11 日起，Cortana 將無法再用於任何儀表板和報表。
 
-如果您遇到問題，讓 Cortana 與 Power BI 整合，您已來到正確的位置。 請遵循下方步驟以診斷及修正問題。
+如果您在將 Cortana 與 Power BI 整合時遇到問題，這就來對地方了。 請遵循下方步驟以診斷及修正問題。
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>為什麼 Cortana 從我的 Power BI 報表或儀表板找不到答案？
 1. 您有 Power BI 帳戶嗎？  如果沒有，可[註冊以免費試用](https://powerbi.microsoft.com/get-started/)。
@@ -54,7 +54,7 @@ ms.locfileid: "66375217"
 1. 如果您要在報表中尋找答案，則有任何報表具有 Cortana **回應卡**嗎？ 回應卡是 Cortana 在您的 Power BI 報表中找到答案的唯一方法。  閱讀[在 Power BI 服務及 Power BI Desktop 中建立 Cortana 回應卡](service-cortana-answer-cards.md)，以了解如何建立回應卡。
 2. 您執行的是 Windows 1511 版或更新版本嗎？  開啟 [Windows 設定] 後選取 [系統] > [關於]  以了解。 如果不是，請更新您的 Windows 版本。
 3. 您的 Windows 和 Power BI 帳戶連線了嗎？ 這可能會令人困惑。 請遵循[啟用適用於 Power BI 的 Cortana](service-cortana-enable.md#add-your-power-bi-credentials-to-windows) 中的指示。
-4. 已針對 Cortana 啟用基礎資料集嗎？ 可能有同事共用了她已經允許 Cortana 使用的資料集。 但如果沒有，請[了解如何自行讓資料集使用 Cortana](service-cortana-enable.md)。 這又快又簡單。
+4. 已針對 Cortana 啟用基礎資料集嗎？ 可能有同事共用了已供 Cortana 使用的資料集。 但如果沒有，請[了解如何自行讓資料集使用 Cortana](service-cortana-enable.md)。 這又快又簡單。
 
 ## <a name="dashboards-only-why-doesnt-cortana-find-answers-from-my-power-bi-dashboards"></a>僅限儀表板：為什麼 Cortana 從我的 Power BI 儀表板找不到答案
 1. 確定已連線至您的公司帳戶。 Power BI 需要此連線，才能驗證您對資料的存取權限。 若要確認您是否已連線，或要在未連線時連線至公司帳戶，請使用 Windows 搜尋方塊巡覽至 [連線到公司或學校]。  

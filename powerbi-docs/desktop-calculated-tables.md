@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 641d1ac2c1bbcb9d143afdc04652b4c12b6e775f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239479"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522221"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>使用 Power BI Desktop 中的導出資料表
 透過導出資料表，您可以將新的資料表加入模型。 您會建立定義資料表值的資料分析運算式 (DAX) 公式，而不是從資料來源查詢值並將其載入新的資料表資料行。 在 Power BI Desktop 中，導出資料表是透過 [報表檢視] 或 [資料檢視] 中的 [新增資料表] 功能來建立。
@@ -39,7 +39,7 @@ Contoso 專案經理 Jeff 有一個內含西北部員工資訊的資料表，以
 
  ![](media/desktop-calculated-tables/calctables_swempl.png)
 
-將這兩個資料表放到一個導出資料表相當容易。 Jeff 可以在 [報表檢視] 或 [資料檢視] 中建立導出資料表，不過在 [資料檢視] 中執行這項作業比較容易，因為他可以立即看到新的導出資料表。
+將這兩個資料表放到一個導出資料表相當容易。 Jeff 可以在 [報表檢視] 或 [資料檢視] 中建立導出資料表，不過在 [資料檢視] 中執行這項作業比較容易，因為 Jeff 可以立即看到新的導出資料表。
 
 Jeff 在 [資料檢視]  的 [模型化]  索引標籤上，按一下 [新增資料表]  。 公式列會隨即出現。
 
@@ -53,7 +53,7 @@ Jeff 接著輸入下列公式：
 
  ![](media/desktop-calculated-tables/calctables_westregionempl.png)
 
-Jeff 的新 [Western Region Employees] 資料表會出現在 [欄位] 清單中，就像是其他任何資料表一樣。 如同其他任何資料表，他可以建立與其他資料表的關聯性、加入導出資料行和量值，並將任何欄位加入報表。
+Jeff 的新 [Western Region Employees] 資料表會出現在 [欄位] 清單中，就像是其他任何資料表一樣。 如同其他任何資料表，Jeff 甚至可以建立與其他資料表的關聯性、新增導出資料行和量值，並將任何欄位新增至報表。
 
  ![](media/desktop-calculated-tables/calctables_fieldlist.png)
 

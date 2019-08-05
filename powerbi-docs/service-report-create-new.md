@@ -10,27 +10,27 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 6b69c2b1fa811d395a26403de852c44af33491c7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f2d9046c907b78ce2c1bb2754007c34199877a08
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770218"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523072"
 ---
-# <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>在 Power BI 服務中建立報表，藉由匯入資料集
-您已閱讀 [Power BI 中的報表](consumer/end-user-reports.md)，現在想要建立自己的報表。 有不同的方式，來建立報表。 在本文中，我們一開始是從 Excel 資料集的 Power BI 服務中建立基本報表。 一旦您了解建立報表的基本概念，請參閱[後續步驟](#next-steps)結尾的更多進階報表主題。  
+# <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>匯入資料集以在 Power BI 服務中建立報表
+您已閱讀 [Power BI 中的報表](consumer/end-user-reports.md)，現在想要建立自己的報表。 有很多方式可以建立報表。 在本文中，我們將透過在 Power BI 服務中從 Excel 資料集建立基礎報表開始。 了解建立報表的基本概念之後，請查看底部的[後續步驟](#next-steps)以取得更進階的報表主題。  
 
 ## <a name="prerequisites"></a>先決條件
-- [註冊 Power BI 服務](service-self-service-signup-for-power-bi.md)。 使用 Power BI Desktop 建立報表，請參閱[Desktop 的報表檢視](desktop-report-view.md)。 
-- [下載零售分析範例 Excel 資料集](http://go.microsoft.com/fwlink/?LinkId=529778)並將它儲存到 OneDrive for Business 或本機。
+- [註冊 Power BI 服務](service-self-service-signup-for-power-bi.md)。 若要使用 Power BI Desktop 建立報表，請參閱 [Desktop 的報表檢視](desktop-report-view.md)。 
+- 請[下載零售分析範例 Excel 資料集](http://go.microsoft.com/fwlink/?LinkId=529778)，並將它儲存至本機或商務用 OneDrive。
 
 ## <a name="import-the-dataset"></a>匯入資料集
-這種建立報表的方法會從資料集和空白報表畫布開始。 您可以依照零售分析範例 Excel 資料集。
+這種建立報表的方法會從資料集和空白報表畫布開始。 您可以在零售分析範例 Excel 資料集中跟著做。
 
-1. 我們將在 Power BI 服務工作區中建立報表，因此選取現有的工作區或建立一個。
+1. 我們會在 Power BI 服務工作區中建立報表，因此請選取現有工作區或建立一個工作區。
    
    ![應用程式工作區清單](media/service-report-create-new/power-bi-workspaces2.png)
-2. 從左側的導覽窗格底部，選取**取得資料**。
+2. 從左側瀏覽窗格底部，選取 [取得資料]  。
    
    ![取得資料](media/service-report-create-new/power-bi-get-data3.png)
 3. 選取 [檔案]  ，然後導覽至您已儲存零售分析範例的位置。
@@ -47,7 +47,7 @@ ms.locfileid: "64770218"
    ![報表編輯器](media/service-report-create-new/power-bi-blank-report.png)
 
 > [!TIP]
-> 如果您熟悉報表編輯畫布，或需要複習一下，[導覽報表編輯器](service-the-report-editor-take-a-tour.md)才能繼續。 > 
+> 如果您不熟悉報表編輯畫布，或需要複習一下，請先[導覽報表編輯器](service-the-report-editor-take-a-tour.md)，再繼續進行。> 
 > 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>將星形量測計新增至報表
@@ -62,12 +62,12 @@ ms.locfileid: "64770218"
 3. 將 \[銷售]   > \[This Year Sales]\(本年度銷售額)   > \[目標]  拖曳至 \[目標值]  庫。 看起來我們非常接近我們的目標。
    
     ![目標為目標值的量測計視覺效果](media/service-report-create-new/power-bi-report-step3.png)
-4. 現在是時候儲存報表。
+4. 現在是儲存報表的好時機。
    
    ![[檔案] 功能表](media/service-report-create-new/powerbi-save.png)
 
 ## <a name="add-an-area-chart-and-slicer-to-the-report"></a>將區域圖和交叉分析篩選器新增至報表
-我們的 CMO 已回答一些其他問題。 她想要知道今年與去年的銷售額比較。 而且，她想要依區域查看發現結果。
+我們的 CMO 已回答一些其他問題。 他們想要知道今年與去年的銷售額比較。 而且，他們想要依區域查看發現結果。
 
 1. 首先，清出畫面上的一些空間。 選取 [量測計]，然後將它移至右上角。 接著抓取並拖曳其中一個角落，將它設為較小。
 2. 取消選取量測計。 在 [欄位] 窗格中，選取 [銷售]   > [This Year Sales]\(本年度銷售額)   > [值]  ，然後選取 [銷售]   > [Last Year Sales]\(去年度銷售額)  。
@@ -78,7 +78,7 @@ ms.locfileid: "64770218"
    
     ![具有作用中區域圖的報表編輯器](media/service-report-create-new/power-bi-report-step5.png)
 5. 若要依時間期間排序視覺效果，請選取省略符號，然後選擇 [依據期間排序]  。
-6. 現在讓我們新增交叉分析篩選器。 選取畫布上的空白區域，然後選擇交叉分析篩選器 ![交叉分析篩選器圖示](media/service-report-create-new/power-bi-slicer-icon.png) 範本。 我們現在有空白的交叉分析篩選器，在我們的畫布上。
+6. 現在讓我們新增交叉分析篩選器。 選取畫布上的空白區域，然後選擇交叉分析篩選器 ![交叉分析篩選器圖示](media/service-report-create-new/power-bi-slicer-icon.png) 範本。 我們在畫布上現在有一個空的交叉分析篩選器。
    
     ![報表畫布](media/service-report-create-new/power-bi-report-step6.png)    
 7. 從 [欄位] 窗格中，選取 [區域]   > [區域]  。 移動和調整交叉分析篩選器大小。

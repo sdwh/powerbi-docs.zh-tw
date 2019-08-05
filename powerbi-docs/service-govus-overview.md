@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 554a5de238af650ab4009669d55a2fadedd4a29f
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809131"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590449"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 **Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本專為美國政府客戶而設計，並且獨立且不同於商用版本的 **Power BI 服務**。
@@ -48,8 +48,7 @@ Azure 分散於多個雲端。 系統預設會允許租用戶，以開啟對雲�
 * USGov 德州
 * USGov 亞歷桑那
 
-公用雲端中的 IP 空間可供使用，但對於政府雲端，您必須開啟 Azure 支援票證以要求上述所列資料中心的 IP 範圍。 
-
+在公用雲端中，有可用的 IP 空間。 針對政府雲端，請參閱可下載的 [Azure 政府服務文件](https://www.microsoft.com/download/details.aspx?id=57063)，以取得最新資訊。
 
 ## <a name="limitations-of-power-bi-us-government"></a>適用於美國政府的 Power BI 限制
 **Power BI 服務**商用版本中可用的部分功能「不」  可用於美國政府客戶的 **Power BI 服務**。 Power BI 小組積極地將這些功能提供給美國政府客戶，並且會在這些功能可用時更新本文。

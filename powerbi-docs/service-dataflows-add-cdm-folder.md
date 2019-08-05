@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6d03097eb886813b934c75b61ddb056b55bde7b8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: bf2f9baff753b71563c9b5075d3b15be7ae833f9
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61160918"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522754"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>將 CDM 資料夾作為資料流程新增到 Power BI (預覽)
 
@@ -76,7 +76,7 @@ Power BI Desktop：
 
 1.  Anna 建立新的應用程式工作區，並加以設定以儲存來自 CDM 資料夾的資料流程。
 2.  Ben 是 Anna 所建立之工作區的成員，他想要使用 Power BI Desktop 和資料流程連接器，從 Anna 建立的資料流程取得資料。
-3.  Ben 會收到錯誤，因為他並未被新增為該資料流程在 Data Lake 中之 CDM 資料夾的授權使用者。
+3.  Ben 會收到錯誤，因為 Ben 並未新增為該資料流程在 Data Lake 中 CDM 資料夾的授權使用者。
 
     ![嘗試使用資料流程所產生的錯誤](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
@@ -96,8 +96,8 @@ Power BI Desktop：
 如需有關資料流程的整體資訊，請參閱這些文章：
 
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
-* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
+* [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 
 如需 Azure 儲存體的詳細資訊，您可以閱讀這些文章：

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230214"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665440"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -649,8 +649,6 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 [在 Android 手機上以橫向模式](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone)檢視儀表板。 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>適用於 Windows 10 裝置的 Power BI 應用程式
-[在 Windows 10 手機中以橫向模式](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device)檢視儀表板。
-
 [在 Windows 10 手機上檢視報表](mobile-reports-in-the-mobile-apps.md)。
 
 [在 Windows 10 行動儀表板上建立見解](mobile-tiles-in-the-mobile-apps.md)更快：直接從儀表板共用圖格的快照集或開啟報表。

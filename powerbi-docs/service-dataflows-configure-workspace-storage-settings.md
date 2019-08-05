@@ -1,6 +1,6 @@
 ---
 title: 設定工作區資料流程設定
-description: 若要將其資料流程的定義和資料檔案儲存在 Azure Data Lake 儲存體 Gen2 的 Power BI 中設定應用程式工作區
+description: 在 Power BI 中設定應用程式工作區，來將其資料流程定義和資料檔儲存在 Azure Data Lake Storage Gen2 中
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61168443"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523505"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>設定工作區資料流程設定 (預覽)
 
@@ -105,7 +105,7 @@ Power BI Pro、Premium 和 Embedded 工作區：
 
 1.  Anna 建立新的應用程式工作區，並將它設定成在組織的 Data Lake 中儲存資料流程。
 2.  Ben 是 Anna 所建立之工作區的成員，他想要使用 Power BI Desktop 和資料流程連接器，從 Anna 建立的資料流程取得資料。
-3.  Ben 會收到錯誤，因為他並未被新增為該資料流程在 Data Lake 中之 CDM 資料夾的授權使用者。
+3.  Ben 會收到錯誤，因為 Ben 並未新增為該資料流程在 Data Lake 中 CDM 資料夾的授權使用者。
 
     ![嘗試使用資料流程所產生的錯誤](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 

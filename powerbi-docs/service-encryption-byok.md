@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
-ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.openlocfilehash: d1a057f56237a0609f3330d4728c7dfcded84a71
+ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67498960"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68391129"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>攜帶您自己的加密金鑰以用於 Power BI (預覽)
 
@@ -45,6 +45,9 @@ BYOK 僅適用於與 PBIX 檔案關聯的資料集，而不適用於圖格與視
 
 1. 建立長度為 4096 位元的 RSA 金鑰 (或使用此類型的現有金鑰)，包含包裝和解除包裝的權限。
 
+    > [!IMPORTANT]
+    > Power BI BYOK 僅支援 4096 位元長度的 RSA 金鑰。
+
 1. 建議︰確認金鑰保存庫已啟用「虛刪除」  選項。
 
 ### <a name="add-the-service-principal"></a>新增服務主體
@@ -52,6 +55,9 @@ BYOK 僅適用於與 PBIX 檔案關聯的資料集，而不適用於圖格與視
 1. 在 Azure 入口網站您的金鑰保存庫中，在 [存取原則]  下方選取 [新增]  。
 
 1. 在 [選取主體]  下方搜尋並選取 Microsoft.Azure.AnalysisServices。
+
+    > [!NOTE]
+    > 如果您找不到 "Microsoft.Azure.AnalysisServices"，可能是與 Azure Key Vault 建立關聯的 Azure 訂用帳戶從未具有與其建立關聯的 Power BI 資源。 請嘗試改為搜尋下列字串：00000009-0000-0000-c000-000000000000。
 
 1. 在 [金鑰權限]  下方選取 [解除包裝金鑰]  和 [包裝金鑰]  。
 

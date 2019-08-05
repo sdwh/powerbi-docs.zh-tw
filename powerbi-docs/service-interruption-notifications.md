@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 07/25/2019
 ms.author: mblythe
-ms.openlocfilehash: 0bb78e29cc3e9b9792d5916050179703281aa01a
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: a33ace000917311cbd060c853e0122034a396ae2
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68366741"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501743"
 ---
 # <a name="service-interruption-notifications"></a>服務中斷通知
 
@@ -28,10 +28,10 @@ ms.locfileid: "68366741"
 - 模型重新整理可靠性
 - 查詢重新整理可靠性
 
-在解決事件之後，您會收到後續的電子郵件。
+這些通知的範例包括當使用者在開啟報表、資料集重新整理或查詢執行等作業中遇到延遲延長時。 在解決事件之後，您會收到後續的電子郵件。
 
 > [!NOTE]
-> 這項功能目前僅適用於 Power BI Premium 中的專用容量， 而不適用於共用容量。
+> 這項功能目前僅適用於 Power BI Premium 中的專用容量， 其不適用於共用或內嵌容量。
 
 ## <a name="enable-notifications"></a>啟用通知
 

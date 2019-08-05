@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 59ffa05d34b86ba2a4673e3d9db39e15f030fb17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5507356e42c58574a2d7c6787074fb987ddfeaec
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136616"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523198"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>在 Power BI 服務中建立儀表板的複本
 ![儀表板](media/service-dashboard-copy/power-bi-dashboard.png)
 
- 有許多不同的原因會建立儀表板複本。 您可能想要進行變更，並測試其與原始版本的效能；或建立要依同事、地區或小組散發的略為不同的版本。 同事可能欣賞您的儀表板設計，並且想要使用它向經理報告。 另一個原因是您的新資料庫具有相同的資料結構和資料類型，而且想要重複使用您已建立的儀表板，這也一樣可以完成，但在 Power BI Desktop 中需要執行一些工作。 
+ 有許多不同的原因會建立儀表板複本。 您可能想要進行變更，並測試其與原始版本的效能；或建立要依同事、地區或小組散發的略為不同的版本。 同事可能欣賞您的儀表板設計，且想要使用它向他們的經理報告。 另一個原因是您的新資料庫具有相同的資料結構和資料類型，而且想要重複使用您已建立的儀表板，這也一樣可以完成，但在 Power BI Desktop 中需要執行一些工作。 
 
 儀表板是使用 Power BI 服務來建立 (和複製)，並且可以在 Power BI 行動版和 Power BI Embedded 中檢視。  在 Power BI Desktop 中無法使用儀表板。 
 
