@@ -629,7 +629,7 @@
               href: service-admin-manage-your-data-storage-in-power-bi.md
             - name: 連線到群組 OneDrive 上的檔案
               href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-            - name: 在群組工作區共同作業
+            - name: 在傳統工作區共同作業
               href: service-collaborate-power-bi-workspace.md
             - name: 管理 Power BI 和 Office 365 中的群組
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
