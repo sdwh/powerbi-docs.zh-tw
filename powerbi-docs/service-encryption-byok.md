@@ -10,16 +10,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: d1a057f56237a0609f3330d4728c7dfcded84a71
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1e836dd9fe4be1c0267a0ba4008c2455cf59e2e2
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391129"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665389"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>攜帶您自己的加密金鑰以用於 Power BI (預覽)
 
-Power BI 會加密「待用」  與「處理中」  的資料。 根據預設，Power BI 會使用 Microsoft 管理的金鑰來為您加密資料。 在 Power BI Premium 中，您也可以為匯入資料集之待用資料使用您自己的金鑰 (請參閱[資料來源和儲存考量](#data-source-and-storage-considerations)以取得詳細資訊)。 這種方法通常稱為_攜帶您自己的金鑰_ (BYOK)。
+Power BI 會加密「待用」  與「處理中」  的資料。 根據預設，Power BI 會使用 Microsoft 管理的金鑰來為您加密資料。 在 Power BI Premium 中，您也可以為匯入資料集之待用資料使用您自己的金鑰 (請參閱[資料來源和儲存考量](#data-source-and-storage-considerations)以取得詳細資訊)。 這種方法通常稱為 _ (BYOK)。
 
 ## <a name="why-use-byok"></a>為何要使用 BYOK？
 
@@ -64,6 +64,9 @@ BYOK 僅適用於與 PBIX 檔案關聯的資料集，而不適用於圖格與視
     ![PBIX 檔案元件](media/service-encryption-byok/service-principal.png)
 
 1. 選取 [確定]  ，然後 [儲存]  。
+
+> [!NOTE]
+> 若要撤銷 Power BI 未來對您資料的存取權限，請從 Azure Key Vault 移除對此服務主題的存取權限。
 
 ### <a name="create-an-rsa-key"></a>建立 RSA 金鑰
 

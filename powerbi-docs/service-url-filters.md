@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/24/2019
+ms.date: 07/25/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 1d1371fa63af51f50a631739e4b2eed5550dc7ee
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523327"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623902"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -53,9 +53,9 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 欄位類型可以是數字、日期時間或字串，而且使用的類型必須符合資料集中設定的類型。  例如，如果您想要將資料集資料行中的日期時間或數值設定為日期，指定「字串」類型的資料表資料行將無法運作 (例如 Table/StringColumn eq 1)。
 
-* **字串**的前後必須加上單引號 - 'manager name'。
-* **數字**不需要特殊格式設定
-* **日期及時間**的前後必須加上單引號。 在 OData v3 中，前面必須再加上「日期時間」一詞，但在 OData v4 中則不需要。
+* **字串**的前後必須加上單引號，例如 'manager name'。
+* **數字**不需要特殊格式設定。 如需詳細資訊，請參閱本文中的[數值資料類型](#numeric-data-types)。
+* **日期和時間**請參閱本文中的[日期資料類型](#date-data-types)。 
 
 如果仍感到困惑，請繼續閱讀，我們會詳加解說。  
 
@@ -133,9 +133,17 @@ Power BI URL 篩選可包含下列格式的數字。
 
 ### <a name="date-data-types"></a>日期資料類型
 
-Power BI 針對 **Date** 和 **DateTimeOffset** 資料類型支援 OData V3 和 V4。  日期是使用 EDM 格式 (2019-02-12T00:00:00) 表示，因此當您以 'YYYY-MM-DD' 指定日期時，Power BI 會將它解譯為 'YYYY-MM-DDT00:00:00'。
+Power BI 針對 **Date** 和 **DateTimeOffset** 資料類型支援 OData V3 和 V4。 針對 OData V3，日期前後必須加上單引號，並在前面加上 datetime 一字。 OData V4 中不需要單引號和 datetime 一字。 
+  
+日期使用 EDM 格式來表示 (2019-02-12T00:00:00)：當您將日期指定為 'YYYY-MM-DD' 時，Power BI 會將其解譯為 'YYYY-MM-DDT00:00:00'。 請確定月和日是兩個數字，MM 和 DD。
 
-此差異為何很重要？ 假設您建立查詢字串參數 **Table/Date gt '2018-08-03'** 。  結果會包含 2018 年 8 月 3 日，還是從 2018 年 8 月 4 日開始？ 由於 Power BI 將您的查詢轉譯為 **Table/Date gt '2018-08-03T00:00:00'** ，因此您的結果會包含具有非零時間部分的任何日期，因為這些日期會大於 **'2018-08-03T00:00:00'** 。
+此差異為何很重要？ 假設您建立查詢字串參數 **Table/Date gt '2018-08-03'** 。  結果會包含 2018 年 8 月 3 日，還是從 2018 年 8 月 4 日開始？ Power BI 會將您的查詢轉譯為 **Table/Date gt '2018-08-03T00:00:00'** 。 因此，結果會包含具有非零時間部分的任何日期，因為這些日期會大於 **'2018-08-03T00:00:00'** 。
+
+V3 和 V4 之間還有其他差異。 OData V3 不支援日期，只有 DateTime。 因此，如果您使用 V3 格式，就必須使用完整的日期時間來加以限定。 V3 標記法不支援日期常值，例如 "datetime'2019-05-20'"。 但是，您可以在 V4 標記法中將其寫為 "2019-05-20"。 以下是 V3 和 V4 中的兩個對等篩選查詢：
+
+- OData V4 格式：filter=Table/Date gt 2019-05-20
+- OData V3 格式：filter=Table/Date gt datetime'2019-05-20T00:00:00'
+
 
 ## <a name="special-characters-in-url-filters"></a>URL 篩選中的特殊字元
 
@@ -151,7 +159,7 @@ Power BI 針對 **Date** 和 **DateTimeOffset** 資料類型支援 OData V3 和 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![呈現特殊字元的資料表視覺效果](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![呈現特殊字元的資料表視覺效果](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/ _ eq '[C]' ![呈現特殊字元的資料表視覺效果](media/service-url-filters/power-bi-special-characters2.png)
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>使用 DAX 篩選多個值
 
