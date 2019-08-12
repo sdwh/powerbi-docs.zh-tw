@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751128"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68729800"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -45,6 +45,10 @@ ms.locfileid: "66751128"
             - 已新增更容易在 PBIRS [選取] 視窗上向後導覽的連結
             - 修正 PBIRS 中的高對比模式，以顯示 [上一步] 按鈕，並顯示警告視覺效果訊息。
             - [選取] 窗格中畫布縮放比例的 UI 修正。
+
+    - *版本：2.69.5467.5201 (2019 年 5 月) 發行日期：2019 年 7 月 30 日*
+        - Bug 修正
+            - 修正不正確的遙測記錄
 
 ## <a name="january-2019"></a>2019 年 1 月
 
@@ -93,8 +97,11 @@ ms.locfileid: "66751128"
         - 解除安裝 Power BI 報表伺服器之後保留的快顯和已釘選圖示
         - 修正將 Power BI 報表伺服器釘選至開始功能表時，黑色圖示上顯示黑色文字的問題
 
-    - *版本：2.65.5313.1421 (2019 年 1 月)，發行日期：2019 年 1 月 22 日*
-        - 包含與 Power BI 報表伺服器連線所需的變更 (2019 年 1 月)  
+    - *版本：2.65.5313.1421 (2019 年 1 月)，發行日期：2019 年 1 月 22 日* (新組建及新版本)
+        - 包含與 Power BI 報表伺服器連線所需的變更 (2019 年 1 月) 
+    - *版本：2.65.5313.5141 (2019 年 1 月)，發行日期：2019 年 7 月 31 日* (新組建及新版本)
+        - Bug 修正
+            - 修正不正確的遙測記錄
 
 ## <a name="august-2018"></a>2018 年 8 月
 

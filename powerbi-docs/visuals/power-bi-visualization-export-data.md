@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/19/2019
+ms.date: 07/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 21fa3c5c3907e8c1aa4d40bd3e6332c77ff62b98
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523346"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730068"
 ---
 # <a name="export-data-from-visualizations"></a>從視覺效果匯出資料
 
@@ -79,6 +79,8 @@ ms.locfileid: "68523346"
     ![已標示 [摘要資料]、 xlsx 和 [匯出] 選項的 [匯出資料] 螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
     如果您已將篩選條件套用至視覺效果，匯出的資料會匯出為已篩選。 當您選取 [匯出]  時，瀏覽器會提示您儲存檔案。 儲存之後，請在 Excel 中開啟檔案。
+    
+    所有階層使用的資料都會進行匯出，而非只有視覺效果目前鑽研層級所使用的資料。 例如，若視覺效果尚未從最上層向下切入，則匯出的資料會包含階層中所有的資料，而非只有用來建立目前鑽研層級視覺效果的資料。
 
     **摘要資料**：如果您想要匯出在該視覺效果中所看到內容的資料，請選取此選項。  這種類型的匯出只會顯示您選擇建立視覺效果的資料 (資料行和量值)。  如果視覺效果具有彙總，則您會匯出彙總的資料。 例如，如果您有顯示四個橫條的橫條圖，就會取得四列的資料。 摘要資料會以 *.xlsx* 和 *.csv* 提供。
 
@@ -92,6 +94,8 @@ ms.locfileid: "68523346"
     > 根據報表設定，您不一定具有匯出基礎資料的選項。
 
     如果您已將篩選條件套用至視覺效果，匯出的資料會匯出為已篩選。 當您選取 [匯出]  時，瀏覽器會提示您儲存檔案。 儲存之後，請在 Excel 中開啟檔案。
+    
+    所有階層使用的資料都會進行匯出，而非只有視覺效果目前鑽研層級所使用的資料。 例如，若視覺效果尚未從最上層向下切入，則匯出的資料會包含階層中所有的資料，而非只有用來建立目前鑽研層級視覺效果的資料。
 
     >[!WARNING]
     >匯出基礎資料可讓使用者查看所有詳細資料 -- 資料中的每個資料行。 Power BI 服務系統管理員可以替組織關閉這項功能。 如果您是資料集擁有者，您可以將專屬資料行設定為 [隱藏]  ，它們就不會顯示在 Desktop 或 Power BI 服務的 [欄位]  清單中。

@@ -1,6 +1,6 @@
 ---
 title: 運用內嵌式分析為組織將 Power BI 內容內嵌至應用程式
-description: 了解如何使用 Power BI API 將報表、儀表板或磚整合或內嵌至應用程式，為您的組織提供內嵌式分析。 了解如何使用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具，將 Power BI 整合到應用程式中。
+description: 了解如何使用 Power BI API 將報表 (Power BI 或編頁報表)、儀表板或磚整合或內嵌至應用程式，為您的組織提供內嵌式分析。 了解如何使用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具，將 Power BI 整合到應用程式中。
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -9,24 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/29/2019
+ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61354883"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665537"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 內容內嵌至應用程式
 
-在 **Power BI** 中，可利用使用者擁有資料，將報表、儀表板或圖格內嵌至應用程式。 **使用者擁有資料**可讓應用程式延伸 Power BI 服務，使其可用內嵌式分析。 本教學課程會示範如何將報表整合至應用程式。 您可以使用 Power BI .NET SDK 搭配 Power BI JavaScript API，為組織將 Power BI 內嵌到應用程式中。
+在 **Power BI** 中，您可以利用使用者擁有資料，將報表 (Power BI 或編頁報表)、儀表板或磚內嵌至應用程式。 **使用者擁有資料**可讓應用程式延伸 Power BI 服務，使其可用內嵌式分析。 本教學課程會示範如何將報表 (Power BI 或編頁報表) 整合至應用程式。 您可以使用 Power BI .NET SDK 搭配 Power BI JavaScript API，為組織將 Power BI 內嵌到應用程式中。
 
 ![Power BI 內嵌報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 在本教學課程中，您會學習下列工作：
 > [!div class="checklist"]
 > * 在 Azure 中註冊應用程式。
-> * 使用您的 Power BI 租用戶將 Power BI 報表內嵌到應用程式中。
+> * 使用您的 Power BI 租用戶將 Power BI 或編頁報表內嵌到應用程式。
 
 ## <a name="prerequisites"></a>先決條件
 
@@ -35,6 +35,7 @@ ms.locfileid: "61354883"
 * [Power BI Pro 帳戶](../service-self-service-signup-for-power-bi.md)。
 * [Microsoft Azure](https://azure.microsoft.com/) 訂用帳戶。
 * 您必須設定自己的 [Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)。
+* 若要內嵌編頁報表，您需要至少 A4/P1 容量；請參閱[我需要針對編頁報表使用何種大小的 Premium 容量？](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)。
 
 如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
 
@@ -44,9 +45,9 @@ ms.locfileid: "61354883"
 
 在您開始將報表、儀表板或磚內嵌至您的應用程式之前，必須先確定您的環境允許使用 Power BI 內嵌。
 
-您可以瀏覽[內嵌設定工具](https://aka.ms/embedsetup/UserOwnsData)，即可快速開始使用及下載範例應用程式，協助您逐步建立環境及內嵌報表。
+您可以瀏覽[內嵌設定工具](https://aka.ms/embedsetup/UserOwnsData)，即可快速開始使用及下載範例應用程式，協助您逐步建立環境及內嵌報表。 在內嵌編頁報表的案例中，您需要指派至少 A4/P1 容量給所建立的應用程式工作區。
 
-不過，若您選擇手動設定環境，可以繼續進行下方步驟。
+若選擇手動設定環境，您可以繼續進行下列步驟。
 
 ### <a name="register-an-application-in-azure-active-directory"></a>在 Azure Active Directory 中註冊應用程式
 
@@ -60,7 +61,7 @@ ms.locfileid: "61354883"
 
 如果您要為客戶內嵌報表、儀表板或磚，就必須將您的內容放在應用程式工作區內。 有不同類型的工作區可供您設定：[傳統工作區](../service-create-workspaces.md)或[新工作區](../service-create-the-new-workspaces.md)。
 
-### <a name="create-and-publish-your-reports"></a>建立並發佈報表
+### <a name="create-and-publish-your-power-bi-reports"></a>建立並發佈您的 Power BI 報表
 
 您可以使用 Power BI Desktop 來建立您的報表和資料集。 然後您可以將那些報表發佈到應用程式工作區。 發佈報表的終端使用者必須有 Power BI Pro 授權，才能發佈至應用程式工作區。
 
@@ -79,7 +80,11 @@ ms.locfileid: "61354883"
     現在，您可在線上 Power BI 服務中檢視該報表。
 
    ![檢視 Power BI Desktop 報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
+   
+### <a name="create-and-publish-your-paginated-reports"></a>建立並發佈您的編頁報表
 
+您可以使用 [Power BI 報表產生器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)建立您的編頁報表。然後您可以[上傳報表](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)至指派給至少具備 A4/P1 容量的應用程式工作區。上傳報表的終端使用者需要擁有 Power BI Pro 授權才能發佈至應用程式工作區。
+   
 ## <a name="embed-your-content-by-using-the-sample-application"></a>使用範例應用程式來內嵌內容
 
 此範例刻意保持簡單以供示範之用。
@@ -124,30 +129,6 @@ ms.locfileid: "61354883"
 
     ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
-### <a name="application-secret"></a>應用程式祕密
-
-僅[服務主體](embed-service-principal.md) AuthenticationType 需要此屬性。
-
-在 **Azure** 之 [應用程式註冊]  區段的 [金鑰]  區段中，填入 **ApplicationSecret** 資訊。  使用[服務主體](embed-service-principal.md)時，此屬性即會運作。
-
-若要取得 **ApplicationSecret**，請遵循下列步驟：
-
-1. 登入 [Azure 入口網站](https://portal.azure.com)。
-
-2. 在左側瀏覽窗格中，選取 [所有服務]  ，然後選取 [應用程式註冊]  。
-
-3. 選取需要使用 **ApplicationSecret** 的應用程式。
-
-    ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
-
-4. 選取 **憑證和祕密**下方**管理**。
-
-5. 選取 **新的用戶端祕密**。
-
-6. 在 [描述]  方塊中輸入名稱，並選取期間。 然後選取 [儲存]  來取得您應用程式的**值**。 當您在儲存金鑰值後關閉 [金鑰]  窗格時，[值] 欄位只會以隱藏方式顯示。 此時，您即無法擷取金鑰值。 如果您遺失金鑰值，就必須在 Azure 入口網站中建立一個新的。
-
-    ![金鑰值](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
-
 ### <a name="workspace-id"></a>工作區識別碼
 
 在 **workspaceId** 資訊中，填入來自 Power BI 的應用程式工作區 (群組) GUID。 您可以在登入 Power BI 服務時從 URL，或使用 Powershell 取得這項資訊。
@@ -168,9 +149,17 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 
 在 **reportId** 資訊中，填入來自 Power BI 的報表 GUID。 您可以在登入 Power BI 服務時從 URL，或使用 Powershell 取得這項資訊。
 
-URL <br>
+Power BI 報表 URL <br>
 
-![reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+![PBI reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+
+編頁報表 URL <br>
+
+
+
+編頁報表 URL<br>
+
+![編頁 reportId](media/embed-sample-for-your-organization/paginated-reports-url.png)
 
 Powershell <br>
 
@@ -214,7 +203,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 ### <a name="get-a-report"></a>取得報表
 
-若要取得 Power BI 報表，請使用[取得報表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)作業來取得 Power BI 報表清單。 您可以從報表清單中取得報表識別碼。
+若要取得 Power BI 或編頁報表，請使用[取得報表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)作業來取得 Power BI 報表和編頁報表清單。 您可以從報表清單中取得報表識別碼。
 
 ### <a name="get-reports-by-using-an-access-token"></a>使用存取權杖取得報表
 
@@ -275,6 +264,7 @@ public class PBIReports
 public class PBIReport
 {
     public string id { get; set; }
+    public string reportType { get; set }
     public string name { get; set; }
     public string webUrl { get; set; }
     public string embedUrl { get; set; }
@@ -394,7 +384,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>建立專用容量
 
-建立專用容量，您應用程式工作區中的內容即可享有專用資源。 您可以使用 [Power BI Premium](../service-premium-what-is.md) 建立專用容量。
+建立專用容量，您應用程式工作區中的內容即可享有專用資源。 針對編頁報表，您必須以至少 A4/P1 容量作為您應用程式工作區的後端。您可以使用 [Power BI Premium](../service-premium-what-is.md) 來建立專用容量。
 
 下表列出 [Microsoft Office 365](../service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
 
@@ -435,7 +425,7 @@ function updateEmbedReport() {
 
 ## <a name="next-steps"></a>後續步驟
 
-在本教學課程中，您已了解如何使用 Power BI 組織帳戶將 Power BI 內容內嵌至應用程式。 您現在可以嘗試使用應用程式將 Power BI 內容內嵌至應用程式。 您也可以嘗試為客戶內嵌 Power BI 內容：
+在本教學課程中，您已了解如何使用 Power BI 組織帳戶將 Power BI 內容內嵌至應用程式。 您現在可以嘗試使用應用程式將 Power BI 內容內嵌至應用程式。 您也可以嘗試為您的客戶內嵌 Power BI 內容 (目前尚未支援內嵌編頁報表)：
 
 > [!div class="nextstepaction"]
 > [從應用程式內嵌](embed-from-apps.md)

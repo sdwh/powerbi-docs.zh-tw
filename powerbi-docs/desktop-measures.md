@@ -7,25 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d46fa8be055186d2430ca4d3c387fae93b91acc3
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523200"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730142"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop 中的量值
 
 **Power BI Desktop** 可協助您深入探索資料，只要按幾下滑鼠按鍵即可。 但有時候，資料並無法提供您解決一些重要問題所需的一切答案， 而量值可協助您達成目的。
 
-量值可用於一些最常見的資料分析。 例如，總和、平均值、最小值或最大值、計數，或使用 DAX 公式自行建立的更進階計算。 量值的計算結果一律會隨著您與報表的互動而改變，以針對特定資料進行快速且動態的瀏覽。 以下將進一步說明。
+量值可用於一些最常見的資料分析。 您可以透過欄位資料設定簡易的摘要，例如加總、平均、最小值、最大值和計數，如 [Summarization and category](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16) (摘要及類別) 影片中所述。 您可以使用 DAX 公式自行建立更進階的計算。 量值的計算結果一律會隨著您與報表的互動而改變，以針對特定資料進行快速且動態的瀏覽。 以下將進一步說明。
 
 ## <a name="understanding-measures"></a>了解量值
 
-在 **Power BI Desktop** 中，您可以在 [報表檢視]  或 [資料檢視]  中建立及使用量值。 您自行建立的量值會出現在 [欄位] 清單中，並以計算機圖示表示。 您可以為量值指定任何名稱，並將其加入新的或現有的視覺效果，就像是其他任何欄位一樣。
+在 **Power BI Desktop** 中，計量會在 [報表檢視]  或 [資料檢視]  中建立及顯示。 您自行建立的量值會出現在 [欄位] 清單中，並以計算機圖示表示。 您可以為量值指定任何名稱，並將其加入新的或現有的視覺效果，就像是其他任何欄位一樣。
 
 ![](media/desktop-measures/measuresinpbid_measinfieldlist.png)
 
@@ -64,6 +64,25 @@ Jan 接著將他們的新 Projected Sales 量值拖曳到圖表中。
 此外，這可讓您使用量值來動態建立 URL，並將資料類別標示為 Web URL。 
 
 您可以建立將量值顯示為 Web URL 的資料表，並且能夠按一下根據您的選取範圍所建立的 URL。 當您想要使用 [URL 篩選參數](service-url-filters.md)連結至其他 Power BI 報表時，這會特別有用。
+
+
+## <a name="organizing-your-measures"></a>組織您的計量
+
+計量會具備一個「主資料表」  ，定義它們在欄位清單中的位置。 您可以從您模型中的資料表內選擇位置來變更其位置。
+
+![選取您計量的資料表](media/desktop-measures/measures-03.png)
+
+您也可以將資料表中的欄位組織成「顯示資料夾」  。 請從 Power BI Desktop 視窗左側選取 [模型檢視]  ，然後從顯示在畫布上可用欄位清單中選取您要移動的欄位。 在屬性窗格中，會出現 [顯示資料夾]  的文字方塊。 在 [顯示資料夾]  欄位中鍵入名稱來建立資料夾，然後將選取的欄位移動到該資料夾。
+
+![建立計量欄位](media/desktop-measures/measures-04.gif)
+
+您可以使用反斜線字元來建立子資料夾。 例如，*Finance\Currencies* 會建立 *Finance* 資料夾，並在其中建立 *Currencies* 資料夾。
+
+您可以使用分號區別資料夾名稱，讓欄位出現在多個資料夾中。 例如，*Products\Names;Departments* 會使欄位出現在 *Products* 資料夾內的 *Departments* 資料夾及 *Names* 資料夾中。
+
+最後，您可以建立僅包含一律會出現在 [欄位清單]  頂端計量的特殊資料表。 若要執行此動作，請建立僅包含一個資料行的資料表。 您可以使用 [輸入資料]  來建立資料表。 然後將計量移動到該資料表。 最後，請隱藏您建立的資料行 (而非資料表)。 您將需要按一下 [欄位清單]  頂端的＞形箭號來關閉並重新開啟 [欄位清單]  ，才能讓 Power BI Desktop 正常顯示它。
+
+![組織計量並將它們保持在欄位清單的頂端](media/desktop-measures/measures-05.png)
 
 ## <a name="learn-more"></a>深入了解
 我們在此只為您快速介紹量值，還有許多其他資訊可協助您了解如何建立自己的量值。 務必參閱[教學課程：在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)，您可以從中下載範例檔案，並取得有關如何建立更多量值的逐步解說課程。  

@@ -1,5 +1,5 @@
 ---
-title: 管理您的資料來源 - 匯入/已排程的重新整理
+title: 管理您的資料來源 - 匯入/排程重新整理
 description: 如何管理內部部署資料閘道及屬於該閘道的資料來源。 本文旨在說明可用於匯入/已排程重新整理的資料來源。
 author: mgblythe
 manager: kfile
@@ -10,56 +10,56 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2a3cdc3e6c4fc4f18613994a919f8ab733df5e14
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 3e223fba25386e91354130083f8bacc653b26cee
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271685"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757667"
 ---
-# <a name="manage-your-data-source---importscheduled-refresh"></a>管理您的資料來源 - 匯入/已排程的重新整理
+# <a name="manage-your-data-source---importscheduled-refresh"></a>管理您的資料來源 - 匯入/排程重新整理
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-[安裝內部部署資料閘道](/data-integration/gateway/service-gateway-install)之後，您必須[新增可搭配閘道使用的資料來源](service-gateway-data-sources.md#add-a-data-source)。 本文將探討相對於 DirectQuery 或即時連線，如何使用可用於已排程重新整理的閘道和資料來源。
+在您[安裝內部部署資料閘道](/data-integration/gateway/service-gateway-install)後，您需要[新增資料來源](service-gateway-data-sources.md#add-a-data-source)，其可與閘道搭配使用。 本文將探討相對於 DirectQuery 或即時連線，如何使用可用於已排程重新整理的閘道和資料來源。
 
 ## <a name="add-a-data-source"></a>加入資料來源
 
-如需如何新增資料來源的資訊，請參閱[新增資料來源](service-gateway-data-sources.md#add-a-data-source)。
+如需如何新增資料來源的詳細資訊，請參閱[新增資料來源](service-gateway-data-sources.md#add-a-data-source)。 選取資料來源類型。
 
 所有列出的資料來源類型都可搭配內部部署資料閘道用於已排程重新整理。 Analysis Services、SQL Server 和 SAP HANA 可以用於已排程重新整理或 DirectQuery/即時連線。
 
 ![選取資料來源](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings2.png)
 
-您接著需要填入資料來源的資訊，包括用來存取資料來源的來源資訊和認證。
+然後填入資料來源的資訊，包括來源資訊和用來存取資料來源的認證。
 
 > [!NOTE]
-> 資料來源的所有查詢都會使用這些認證來執行。 若要深入了解認證的儲存方式，請參閱[在雲端中儲存加密認證](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud)。
+> 資料來源的所有查詢都會使用這些認證來執行。 若要深入了解認證的儲存方式，請參閱[在雲端中儲存加密認證](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)。
 
 ![填入資料來源設定](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings3-oracle.png)
 
 如需可與已排程重新整理搭配使用的資料來源類型清單，請參閱[可用的資料來源類型清單](service-gateway-data-sources.md#list-of-available-data-source-types)。
 
-在您填入所有內容後，請選取 [新增]  。 您現在可以使用此資料來源，用於內部部署資料已排程的重新整理。 如果成功，您會看到 [連線成功]  。
+填入所有資訊之後，選取 [新增]  。 您現在可以使用此資料來源，用於內部部署資料已排程的重新整理。 如果成功，您會看到「連線成功」  。
 
 ![顯示連線狀態](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings4.png)
 
 ### <a name="advanced-settings"></a>進階設定
 
-您可以選擇性地設定您資料來源的隱私權等級。 這可以控制合併資料的方式。 這只能用於已排程的重新整理。 若要深入了解您資料來源的隱私權等級，請參閱[隱私權等級 (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)。
+您可以選擇性地設定您資料來源的隱私權等級。 此設定可以控制合併資料的方式。 只能用於已排程的重新整理。 若要深入了解您資料來源的隱私權等級，請參閱[隱私權等級 (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)。
 
 ![設定隱私權等級](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings9.png)
 
-## <a name="using-the-data-source-for-scheduled-refresh"></a>使用資料來源進行已排程的重新整理
+## <a name="use-the-data-source-for-scheduled-refresh"></a>使用資料來源進行已排程的重新整理
 
-在您建立資料來源後，便可以搭配 DirectQuery 連線或已排程重新整理來使用它。
+建立資料來源之後，您便可以搭配 DirectQuery 連線，或是透過已排程的重新整理來使用它。
 
 > [!NOTE]
 > Power BI Desktop 和內部部署資料閘道內資料來源的伺服器和資料庫名稱必須相符。
 
-您的資料集和閘道內的資料來源是根據您的伺服器名稱和資料庫名稱以建立連結。 這些項目必須相符。 例如，若您在 Power BI Desktop 中為伺服器名稱提供 IP 位址，您將需要在閘道設定中針對資料來源使用 IP 位址。 若您在 Power BI Desktop 中使用 *SERVER\INSTANCE*，您將必須在針對閘道設定的資料來源內使用相同值。
+您的資料集和閘道內的資料來源是根據您的伺服器名稱和資料庫名稱以建立連結。 這些名稱必須相符。 例如，若您在 Power BI Desktop 中為伺服器名稱提供 IP 位址，則必須在閘道設定中針對資料來源使用 IP 位址。 若您在 Power BI Desktop 中使用 *SERVER\INSTANCE*，則也必須在為閘道設定的資料來源內使用。
 
-若您已列在閘道內所設定資料來源的 [使用者]  索引標籤中，且伺服器和資料庫名稱相符，您將會看到可以與已排程重新整理搭配使用的閘道選項。
+若您已列在閘道內所設定資料來源的 [使用者]  索引標籤中，且伺服器名稱和資料庫名稱相符，您將會看到可以與已排程重新整理搭配使用的閘道選項。
 
 ![顯示使用者](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-gateway-enterprise-schedule-refresh.png)
 
@@ -68,11 +68,11 @@ ms.locfileid: "68271685"
 
 ## <a name="limitations"></a>限制
 
-OAuth 不是內部部署資料閘道支援的驗證結構描述。 您無法新增需要 OAuth 的資料來源。 如果資料集有需要 OAuth 的資料來源，就無法針對已排程重新整理來使用閘道。
+OAuth 不是內部部署資料閘道支援的驗證配置。 您無法新增需要 OAuth 的資料來源。 如果資料集有需要 OAuth 的資料來源，就無法針對已排程重新整理來使用閘道。
 
 ## <a name="next-steps"></a>後續步驟
 
 * [為內部部署資料閘道進行疑難排解](/data-integration/gateway/service-gateway-tshoot)
 * [針對閘道進行疑難排解 - Power BI](service-gateway-onprem-tshoot.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ 試試 [Power BI 社群](http://community.powerbi.com/)。

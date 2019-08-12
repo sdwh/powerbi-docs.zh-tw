@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b61d794701d18fd25ab9acb5d5208ae289376eb6
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: a09388e8b22131c9b82771385b69142b18e3cc84
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271762"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730016"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>管理您的資料來源 - SAP HANA
 
@@ -32,7 +32,7 @@ ms.locfileid: "68271762"
 在您選取 SAP HANA 資料來源類型後，您接下來可以填入資料來源的 [伺服器]  、[使用者名稱]  和 [密碼]  資訊。
 
 > [!NOTE]
-> 資料來源的所有查詢都會使用這些認證來執行。 若要深入了解認證的儲存方式，請參閱[在雲端中儲存加密認證](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud)。
+> 資料來源的所有查詢都會使用這些認證來執行。 若要深入了解認證的儲存方式，請參閱[在雲端中儲存加密認證](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)。
 
 ![填入資料來源設定](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 
@@ -48,12 +48,12 @@ ms.locfileid: "68271762"
 
 ## <a name="using-the-data-source"></a>使用資料來源
 
-在您建立資料來源後，便可以搭配 DirectQuery 連線或排程重新整理來使用它。
+在您建立資料來源後，便可以搭配 DirectQuery 連線或已排程重新整理來使用它。
 
 > [!NOTE]
 > Power BI Desktop 和內部部署資料閘道內資料來源的伺服器和資料庫名稱必須相符。
 
-您的資料集和閘道內的資料來源是根據您的伺服器名稱和資料庫名稱以建立連結。 這些項目必須相符。 例如，若您為伺服器名稱提供 IP 位址，則在 Power BI Desktop 中，您將需要在閘道設定中針對資料來源使用 IP 位址。 若您使用 *SERVER\INSTANCE*，則在 Power BI Desktop 中，您將必須在針對閘道設定的資料來源內使用相同值。
+您的資料集和閘道內的資料來源是根據您的伺服器名稱和資料庫名稱以建立連結。 這些項目必須相符。 例如，若您在 Power BI Desktop 中為伺服器名稱提供 IP 位址，您將需要在閘道設定中針對資料來源使用 IP 位址。 若您使用 *SERVER\INSTANCE*，則在 Power BI Desktop 中，您將必須在針對閘道設定的資料來源內使用相同值。
 
 這適用於 DirectQuery 和已排程的重新整理。
 
@@ -65,7 +65,7 @@ ms.locfileid: "68271762"
 
 ### <a name="using-the-data-source-with-scheduled-refresh"></a>使用已排程的重新整理使用資料來源
 
-若您已列在閘道內所設定資料來源的 [使用者]  索引標籤中，且伺服器和資料庫名稱相符，您將會看到可以與排程重新整理搭配使用的閘道選項。
+若您已列在閘道內所設定資料來源的 [使用者]  索引標籤中，且伺服器和資料庫名稱相符，您將會看到可以與已排程重新整理搭配使用的閘道選項。
 
 ![顯示使用者](media/service-gateway-enterprise-manage-sap/powerbi-gateway-enterprise-schedule-refresh.png)
 

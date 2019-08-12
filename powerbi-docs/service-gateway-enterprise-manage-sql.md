@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7d9e670d2567181a0dc99c23997ac3bc2d35f3c9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 2c21792f97445b336709038f7ec2ec39d041312b
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271576"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730065"
 ---
 # <a name="manage-your-data-source---sql-server"></a>管理您的資料來源 - SQL Server
 
@@ -37,7 +37,7 @@ ms.locfileid: "68271576"
 您也需要選擇**驗證方法**。 此方法可以是 [Windows]  或 [基本]  。 若您要使用 SQL 驗證而非 Windows 驗證，則建議您選擇 [基本]  。 然後輸入要用於這個資料來源的認證。
 
 > [!NOTE]
-> 資料來源的所有查詢都會使用這些認證來執行，除非您為資料來源設定和啟用了 Kerberos 單一登入 (SSO)。 使用 SSO 時，匯入資料集會使用預存認證，但 DirectQuery 資料集會使用目前的 Power BI 使用者來使用 SSO 執行查詢。 若要深入了解儲存認證的方式，請參閱[在雲端中儲存加密認證](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud)，或是說明如何[使用適用於 SSO (單一登入) 的 Kerberos 從 Power BI 登入內部部署資料來源](service-gateway-sso-kerberos.md)的文章。
+> 資料來源的所有查詢都會使用這些認證來執行，除非您為資料來源設定和啟用了 Kerberos 單一登入 (SSO)。 使用 SSO 時，匯入資料集會使用預存認證，但 DirectQuery 資料集會使用目前的 Power BI 使用者來使用 SSO 執行查詢。 若要深入了解儲存認證的方式，請參閱[在雲端中儲存加密認證](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)，或是描述如何[使用適用於 SSO (單一登入) 的 Kerberos 從 Power BI 登入內部部署資料來源](service-gateway-sso-kerberos.md)的文章。
 
 ![填入資料來源設定](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 

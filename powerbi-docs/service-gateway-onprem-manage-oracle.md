@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: af3ebd421a82448ce8a3f13661801ffc1d0051e0
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 3e3e51bf13a904e46552529d9131dbbb4665cb7d
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271497"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730241"
 ---
 # <a name="manage-your-data-source---oracle"></a>管理您的資料來源 - Oracle
 
@@ -73,7 +73,7 @@ CONTOSO =
 您也需要選擇**驗證方法**。  此方法可以是 [Windows]  或 [基本]  。  若您要使用在 Oracle 而非 Windows 驗證中所建立的帳戶，則建議您選擇 [基本]  。 然後輸入要用於這個資料來源的認證。
 
 > [!NOTE]
-> 資料來源的所有查詢都會使用這些認證來執行。 若要深入了解認證的儲存方式，請參閱[在雲端中儲存加密認證](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud)。
+> 資料來源的所有查詢都會使用這些認證來執行。 若要深入了解認證的儲存方式，請參閱[在雲端中儲存加密認證](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)。
 
 ![填入資料來源設定](media/service-gateway-onprem-manage-oracle/data-source-oracle2.png)
 

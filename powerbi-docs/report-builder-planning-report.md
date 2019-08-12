@@ -1,22 +1,23 @@
 ---
 title: 在 Power BI 報表產生器中規劃報表
 description: Power BI 分頁報表產生器可讓您建立各式各樣的分頁報表。 若要建立有用且易於了解的報表，最好先進行規劃。
-ms.date: 06/06/2019
+ms.date: 07/25/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: fd4a318d7a61f6f2298de6b9d5d23ad2ae063d28
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 33cdb53ab411e0d2f4686f7cc9a41bb3f0fe4cb6
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840502"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623859"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>在 Power BI 報表產生器中規劃報表
-  Power BI 分頁報表產生器可讓您建立各式各樣的分頁報表。 例如，您可以建立顯示摘要或詳細銷售資料、行銷和銷售趨勢、營運報表或儀表板的報表。 您也可以建立利用豐富格式化文字的報表，例如銷售訂單、產品目錄或套印信件。 所有報表都是在報表產生器中使用同一個基本建置組塊的不同組合所建立。 若要建立有用且易於了解的報表，最好先進行規劃。 以下是開始之前可能需要考量的一些事項：  
+
+Power BI 分頁報表產生器可讓您建立各式各樣的分頁報表。 例如，您可以建立顯示摘要或詳細銷售資料、行銷和銷售趨勢、營運報表或儀表板的報表。 您也可以建立利用豐富格式化文字的報表，例如銷售訂單、產品目錄或套印信件。 所有報表都是在報表產生器中使用同一個基本建置組塊的不同組合所建立。 若要建立有用且易於了解的報表，最好先進行規劃。 以下是開始之前可能需要考量的一些事項：  
   
 ## <a name="in-what-format-do-you-want-the-report-to-appear"></a>您想要以何種格式來呈現報表？
   
@@ -36,7 +37,7 @@ ms.locfileid: "66840502"
   
 ## <a name="do-you-need-to-create-calculations"></a>您需要建立計算嗎？ 
   
-     Sometimes, your data source and datasets do not contain the exact fields that you need for your report. In that situation, you might have to create your own calculated fields. For example, you might want to multiply the price per unit times the quantity to get a line item sales amount. Expressions are also used to provide conditional formatting and other advanced features. For more information, see [Expressions in Power BI Report Builder](report-builder-expressions.md).  
+有時候，您的資料來源和資料集不會包含報表所需確切欄位。 在這種情況下，您可能必須建立自己的計算欄位。 例如，您可能想要將每個單位的價格乘以數量，以獲得明細項目銷售量。 運算式也可用於提供條件式格式與其他進階功能。 如需詳細資訊，請參閱 [Power BI 報表產生器中的運算式](report-builder-expressions.md)。  
   
 ## <a name="do-you-want-to-hide-report-items-initially"></a>您想要一開始就隱藏報表項目嗎？
   
@@ -44,7 +45,7 @@ ms.locfileid: "66840502"
   
 ## <a name="how-are-you-going-to-deliver-your-report"></a>您想要如何傳遞報表？  
   
-     You can save your report to your local computer and continue to work on it, or run it locally for your own information. However, to share your report with others, you need to save the report to Power BI. Saving it to Power BI lets others run it whenever they want to. Alternatively, you can set up a subscription and e-mail delivery of the report to other individuals. You can have the report delivered in a specific export format if you prefer. 
+您可以將報表儲存至本機電腦並繼續處理，也可以在本機執行以用於您自己的資訊。 不過，若要與其他人共用您的報表，您需要將報表儲存至 Power BI。 將其儲存至 Power BI，可讓其他人在需要時執行。 或者您也可以設定訂閱，並將報表透過電子郵件傳遞給其他人。 如果您想要的話，可以使用特定的匯出格式來傳遞報表。 
   
 ## <a name="next-steps"></a>後續步驟
 

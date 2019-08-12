@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b1d84e9de9ae6d6fd8306fce4865977a8d273652
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: a240d84b20f63542c33bb7cbbb9a9c97af7db2f7
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289956"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757683"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的單一登入 (SSO)，使用安全性聲明標記語言 (SAML)
 
@@ -33,7 +33,7 @@ ms.locfileid: "68289956"
 
 若要使用 SAML，您必須在要啟用 SSO 的 HANA 伺服器和閘道之間建立信任關係，在本案例中作為 SAML 識別提供者 (IdP)。 建立此關係的方式很多，例如將閘道 IdP 的 x509 憑證匯入 HANA 伺服器信任存放區，或讓 HANA 伺服器所信任根憑證授權單位 (CA) 簽署閘道的 X509 憑證。 本指南會在後文中說明第二種方法，但如有更方便的方法，您也可以使用其他方法。
 
-另請注意，雖然本指南使用 OpenSSL 作為 HANA 伺服器的密碼編譯提供者，但也可能使用 SAP 密碼編譯程式庫 (也稱為 CommonCryptoLib 或 sapcrypto) 而不是 OpenSSL 來完成建立信任關係的設定步驟。 請參閱官方 SAP 文件以取得進一步的資訊。
+另請注意，雖然本指南使用 OpenSSL 作為 HANA 伺服器的密碼編譯提供者，但 SAP 建議使用 SAP 密碼編譯程式庫 (也稱為 CommonCryptoLib 或 sapcrypto) 而不是 OpenSSL 來完成建立信任關係的設定步驟。 請參閱官方 SAP 文件以取得進一步的資訊。
 
 下列步驟描述如何使用 HANA 伺服器所信任根 CA 簽署閘道 IdP 的 X509 憑證來建立 HANA 伺服器和閘道 IdP 之間信任關係。
 
@@ -180,7 +180,7 @@ ms.locfileid: "68289956"
 
 如需**內部部署資料閘道**和 **DirectQuery** 的詳細資訊，請參閱下列資源：
 
-* [什麼是內部部署的資料閘道？](/data-integration/gateway/service-gateway-getting-started)
+* [什麼是內部部署的資料閘道？](/data-integration/gateway/service-gateway-onprem)
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)
 * [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)

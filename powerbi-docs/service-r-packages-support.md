@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 76361bba2690e0ab6ae8fa49008d7a6accae900e
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 60d97d8b2226e9a3f9aba2bf043bd9c6aade161a
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325077"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665318"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 服務中的 R 套件
 您可以使用功能強大的 [R 程式設計語言](https://www.r-project.org/)在 Power BI 服務中建立視覺效果。 Power BI 服務支援眾多 R 套件 (有更多套件一直受到支援)，有些套件則不具支援。
@@ -29,6 +29,7 @@ ms.locfileid: "68325077"
 ## <a name="requirements-and-limitations-of-r-packages"></a>R 套件的需求和限制
 有少數 R 套件的需求和限制：
 
+* 目前的 R 執行階段：Microsoft R 3.4.4
 * Power BI 服務大部分支援具有 GPL-2、GPL-3、MIT+ 等這類免費和開放原始碼軟體授權的 R 套件。
 * Power BI 服務支援 CRAN 中所發行的套件。 服務不支援私人或自訂 R 套件。 我們鼓勵使用者先製作其在 CRAN 上可用的私人套件，再要求 Power BI 服務中可用的套件。
 * **Power BI Desktop** 具有 R 套件的兩個變化：

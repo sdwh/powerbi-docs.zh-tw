@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1a2415ba840a1b88f4c7a215a520d0cc88f70e49
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: e5a4e862c89d08b4e277cb4abae934f3fd47141e
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462234"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757625"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>合併或附加內部部署與雲端資料來源
 
@@ -61,4 +61,4 @@ ms.locfileid: "68462234"
 
 ## <a name="next-steps"></a>後續步驟
 
-若要深入了解閘道的資料重新整理，請參閱[使用資料來源進行已排程的重新整理](service-gateway-enterprise-manage-scheduled-refresh.md#using-the-data-source-for-scheduled-refresh)。
+若要深入了解閘道的資料重新整理，請參閱[使用資料來源進行已排程的重新整理](service-gateway-enterprise-manage-scheduled-refresh.md#use-the-data-source-for-scheduled-refresh)。

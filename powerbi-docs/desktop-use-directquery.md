@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 775abf014f571b508832c5cb9a52a62aad455a7b
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: fcad10a77ad531562443470296c9d712b2aa9724
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324803"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757621"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 有了 **Power BI Desktop**，當您連接到資料來源時，隨時可將資料的複本匯入 **Power BI Desktop**。 對於某些資料來源，可用的替代方式是：使用 **DirectQuery**直接連接到資料來源。
@@ -62,10 +62,9 @@ ms.locfileid: "68324803"
   
   您也必須考慮來源資料庫上的負載，這會視取用已發行報表的 Power BI 使用者數目而定。 使用「資料列層級安全性」  (RLS) 也可能會造成顯著的影響；由多位使用者共用的非 RLS 儀表板磚會對資料庫產生單一查詢，但在儀表板磚使用 RLS 通常表示需要「每位使用者」  查詢一次才能重新整理磚，因而大幅增加來源資料庫上的負載並可能影響效能。
   
-  Power BI 會建立盡可能有效率的查詢。 不過在特定情況下，產生的查詢可能效率不足，而無法避免重新整理失敗。 這種情況的其中一個範例是，產生的查詢會從後端資料來源擷取非常大量的資料列 (超過 1 百萬個)，因而發生下列錯誤：
+  Power BI 會建立盡可能有效率的查詢。 不過在特定情況下，產生的查詢可能效率不足，而無法避免重新整理失敗。 這種情況的其中一個範例是，產生的查詢會從後端資料來源擷取非常大量資料列，因而發生下列錯誤：
   
       The resultset of a query to external data source has exceeded
-      the maximum allowed size of '1000000' rows.
   
   如果有一個簡單圖表包含基數很高的資料行，而且彙總選項設定為 [不摘要]  ，就可能會發生此情況。 此視覺效果必須只能包含其基數低於 1 百萬的資料行，否則就必須套用適當的篩選。
 * **安全性** - 所有取用已發行報表的使用者，都會使用發行至 Power BI 服務之後輸入的認證來連接到後端資料來源。 此情況與匯入資料相同：不論後端來源中是否有定義任何安全性規則，所有使用者都會看到相同的資料。 想要使用 DirectQuery 來源為每個使用者實作安全性的客戶，應使用 RLS。 [深入了解 RLS](service-admin-rls.md)。

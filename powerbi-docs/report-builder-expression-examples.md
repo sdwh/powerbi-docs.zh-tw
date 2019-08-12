@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: db0ea02237a2279c26f2c47cecd3bae794a5cba4
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840295"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624143"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 報表產生器中的運算式範例
 在 Power BI 分頁報表產生器的分頁報表中，經常使用運算式來控制內容和報表外觀。 運算式都是以 Microsoft Visual Basic 撰寫，並可使用內建函式、自訂程式碼、報表和群組變數，以及使用者定義的變數。 運算式會以等號 (=) 開頭。   
@@ -40,7 +40,7 @@ ms.locfileid: "66840295"
 ##  <a name="VisualBasicFunctions"></a> Visual Basic 函式  
  您可以使用 Visual Basic 函式來操作顯示在文字方塊中的資料，或是用於參數、屬性或其他報表區域的資料。 本節提供示範其中一些函式的範例。 如需詳細資訊，請參閱 MSDN 上的 [Visual Basic Runtime Library Members](https://go.microsoft.com/fwlink/?LinkId=198941) (Visual Basic 執行階段程式庫成員)。  
   
- .NET Framework 提供許多自訂格式選項，例如特定日期格式。 如需詳細資訊，請參閱 MSDN 上的[格式化類型](https://go.microsoft.com/fwlink/?LinkId=112024)。  
+ .NET Framework 提供許多自訂格式選項，例如特定日期格式。 如需詳細資訊，請參閱[格式化類型](/dotnet/standard/base-types/formatting-types)。  
   
 ### <a name="math-functions"></a>數學函式  
   
