@@ -1289,6 +1289,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: 從遠端設定行動裝置應用程式存取
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: 使用 Azure AD 進行遠端行動存取
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: 編輯 Excel 活頁簿
               href: report-server/excel-oos.md
     - name: 參考
@@ -1424,3 +1426,7 @@
           href: service-admin-governance.md
         - name: Power BI 安全性
           href: service-admin-power-bi-security.md
+- name: 指引
+  items:
+    - name: 什麼是星型結構描述？
+      href: guidance/star-schema.md
