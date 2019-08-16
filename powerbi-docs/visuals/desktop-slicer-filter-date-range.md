@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: c039b00ced1bf62c8be72d218177d04a9fd3accf
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: e1dfda3c759d225019cc50d36cfe746976bd797a
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532641"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867074"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>在 Power BI Desktop 中使用相對日期交叉分析篩選器與篩選條件
 
@@ -41,7 +41,7 @@ ms.locfileid: "67532641"
 
 ![叫出第一項設定的相對設定選項螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* 最後
+* 最後一個
 
 * 下一步
 
@@ -75,7 +75,7 @@ ms.locfileid: "67532641"
 
 * 交叉分析篩選器限制視覺效果所包含資料會顯示前兩個月的資料
 
-* 從 5 月 20 日開始到 7 月 20 (今天的日期)
+* 從 5 月 21 日開始到 7 月 20 日 (今天的日期)
 
 相對來說，若您選取 [月 (日曆)]  ，則受限制視覺效果會顯示 5 月 1 日至 6 月 30 日的資料 (過去兩個完整的日曆月份)。
 

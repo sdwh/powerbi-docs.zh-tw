@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 0aa1d964485297c5e0dae3f4a309cc0dd15b92b2
+ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729800"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68940907"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -79,7 +79,7 @@ ms.locfileid: "68729800"
                 - 在 .pbix 檔案之間複製並貼上
                 - 智慧對齊輔助線
                 - 支援 SAP BW 2.0 連接器
-            - 系統管理員
+            - Administrators
                 - 限制可以上傳到報表伺服器之資源延伸模組的能力
                 - 限制所支援超連結配置的能力
             - 可程式性
@@ -124,7 +124,10 @@ ms.locfileid: "68729800"
 - **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
     - *版本：2.61.5192.641 (2018 年 8 月)，發行日期：2018 年 8 月 15 日*
         - 包含與 Power BI 報表伺服器連接所需的變更 (2018 年 8 月)         
-        
+    - *版本：2.61.5192.7701 (2018 年 8 月)，發行日期：2019 年 8 月 8 日* (新組建和新版本)
+        - Bug 修正
+            - 修正不正確的遙測記錄
+            
 ## <a name="march-2018"></a>2018 年 3 月
 
 - **Power BI 報表伺服器**

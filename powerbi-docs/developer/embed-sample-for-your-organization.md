@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665537"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808241"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 內容內嵌至應用程式
 
@@ -83,7 +83,7 @@ ms.locfileid: "68665537"
    
 ### <a name="create-and-publish-your-paginated-reports"></a>建立並發佈您的編頁報表
 
-您可以使用 [Power BI 報表產生器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)建立您的編頁報表。然後您可以[上傳報表](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)至指派給至少具備 A4/P1 容量的應用程式工作區。上傳報表的終端使用者需要擁有 Power BI Pro 授權才能發佈至應用程式工作區。
+您可以使用 [Power BI 報表產生器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)建立您的編頁報表。然後您可以[上傳報表](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)到指派給至少具備 A4/P1 容量的應用程式工作區。 上傳報表的終端使用者需要擁有 Power BI Pro 授權才能發佈至應用程式工作區。
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>使用範例應用程式來內嵌內容
 

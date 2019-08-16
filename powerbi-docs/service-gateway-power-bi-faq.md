@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3a5b6b89984064101b683532cbfb77ae5540c307
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730251"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867060"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>內部部署資料閘道常見問題集 - Power BI
 
@@ -23,9 +23,9 @@ ms.locfileid: "68730251"
 
 ## <a name="power-bi"></a>Power BI
 
-**問：** 我是否需要升級個人閘道？ 
+**問：** 我需要升級內部部署資料閘道 (個人模式) 嗎？
 
-**答：** 否，您可以繼續針對 Power BI 使用個人閘道。
+**答：** 不需要，您可以繼續使用 Power BI 的閘道 (個人模式)。
 
 **問：** 安裝閘道和在 Power BI 服務中管理它是否需要任何特殊權限？
 
@@ -41,7 +41,7 @@ ms.locfileid: "68730251"
 
 **問：** 為何我無法連線至我的 Oracle 伺服器？ 
 
-**答：** 您可能需要先安裝 Oracle 用戶端並使用適當的伺服器資訊設定 tnsnames.ora 檔案，才能連線至 Oracle 伺服器。 這是閘道外的個別安裝項目。 如需詳細資訊，請參閱[安裝 Oracle 用戶端](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client)。
+**答：** 您可能需要先安裝 Oracle 用戶端並使用適當的伺服器資訊設定 tnsnames.ora 檔案，才能連線至 Oracle 伺服器。 這是閘道外的個別安裝項目。 如需詳細資訊，請參閱[安裝 Oracle 用戶端](service-gateway-onprem-manage-oracle.md#install-the-oracle-client)。
 
 **問：** 閘道是否可與 Azure ExpressRoute 搭配使用？ 
 
