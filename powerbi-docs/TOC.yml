@@ -53,6 +53,8 @@
       items:
         - name: 最新的 Power BI Desktop 中有什麼新功能？
           href: desktop-latest-update.md
+        - name: 將 Power BI Desktop 中的視覺效果分組
+          href: desktop-grouping-visuals.md
         - name: Power BI Desktop 中的模型檢視
           href: desktop-modeling-view.md
         - name: Power BI Desktop 中的彙總
