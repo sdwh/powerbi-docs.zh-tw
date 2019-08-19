@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d6961007c3f7185b954188fa7bd7866d80a7f85a
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 6d0c4a2dba1dee1c8c40da8fd3371767915729da
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523390"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490310"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
@@ -38,7 +38,6 @@ ms.locfileid: "68523390"
 
 * [這會怎麼改變我目前管理組織中使用者身分識別的方式？](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [要如何管理 Power BI？](#how-do-we-manage-power-bi)
-* [管理 Microsoft 為使用者所建之租用戶的程序為何？](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [如果有多個網域，我可以控制使用者新增到哪個 Office 365 租用戶嗎？](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [如何移除已註冊使用者的 Power BI？](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [我如何知道有新的使用者加入我的租用戶？](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -173,18 +172,6 @@ Get-MsolCompanyInformation | fl allow*
 Power BI 提供的管理入口網站可讓您檢視使用量統計資料、提供用來管理使用者與群組的 Microsoft 365 系統管理中心連結，以及用來控制租用戶各種設定的能力。
 
 若要使用 Power BI 管理入口網站，您必須將帳戶在 Office 365 或 Azure Active Directory 中標示為**全域管理員**，或是某人必須指派 Power BI 服務系統管理員角色給您的使用者帳戶。 如需詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)與 [Power BI 系統管理入口網站](service-admin-portal.md)。
-
-### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>管理 Microsoft 為使用者所建之租用戶的程序為何？
-
-當自助使用者註冊使用 Azure AD 的雲端服務時，服務會根據他們的電子郵件網域將他們新增到非受控 Azure AD 目錄。 您可以宣告及管理某人使用「系統管理員接管」  程序建立的租用戶。 您所執行接管類型取決於是否有與您網域建立關聯的現有受控租用戶：
-
-* 使用「內部接管」  為網域建立新的受控租用戶。
-
-* 使用「外部接管」  將網域移動到現有的受控租用戶。
-
-如需詳細資訊，請參閱[使用 Azure Active Directory 中的系統管理員身分接管非受控目錄](/azure/active-directory/users-groups-roles/domains-admin-takeover)。
-
-當您進行外部接管時，服務會將接管之前建立的 Power BI 內容放在 [Power BI 封存工作區](service-admin-power-bi-archived-workspace.md)中。 您必須手動將想要使用的任何內容移轉到新租用戶。
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>如果有多個網域，我可以控制使用者新增到哪個 Office 365 租用戶嗎？
 
