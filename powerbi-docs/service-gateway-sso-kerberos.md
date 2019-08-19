@@ -208,7 +208,7 @@ ms.locfileid: "68624055"
 
     針對 [SNC 程式庫]  ，選取 [SNC\_LIB 或 SNC\_LIB\_64 環境變數]  或 [自訂]  。 如果您選取 [SNC\_LIB]  選項，則必須將閘道電腦上 SNC\_LIB\_64 環境變數的值設定為閘道電腦上 sapcrypto.dll 複本絕對路徑，例如 C:\Users\Test\Desktop\sapcrypto.dll。 如果您選擇 [自訂]  ，請將 sapcrypto.dll 絕對路徑貼入 [管理閘道]  頁面上出現的 [自訂 SNC 程式庫路徑] 欄位。
 
-    在 [進階設定]  底下，確定已選取 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢]  核取方塊。 您輸入的使用者名稱只需要有連線到 BW 伺服器的權限，且主要用來在建立資料來源連線之後進行測試。 使用者也用來重新整理從匯入資料集建立的報表 (如果有的話)。 如果您選取 [基本]  驗證，則必須提供 BW 使用者。 如果您選取 [Windows]  驗證，則必須透過 SAP GUI 中的 SU01 交易，指定對應至 BW 使用者的 Windows Active Directory 使用者。 其餘欄位 ([系統編號] ****、[用戶端識別碼]** **、[SNC 夥伴名稱]**** 等) 必須符合您輸入 Power BI Desktop 的資訊，才能透過 SSO 連線到您的 BW 伺服器。 選取 [套用]  ，並確定測試連線成功。
+    在 [進階設定]  底下，確定已選取 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢]  核取方塊。 您輸入的使用者名稱只需要有連線到 BW 伺服器的權限，且主要用來在建立資料來源連線之後進行測試。 使用者也用來重新整理從匯入資料集建立的報表 (如果有的話)。 如果您選取 [基本]  驗證，則必須提供 BW 使用者。 如果您選取 [Windows]  驗證，則必須透過 SAP GUI 中的 SU01 交易，指定對應至 BW 使用者的 Windows Active Directory 使用者。 其餘欄位 ([**系統編號 **]、[** 用戶端識別碼 **]、[** SNC 夥伴名稱**] 等) 必須符合您輸入 Power BI Desktop 的資訊，才能透過 SSO 連線到您的 BW 伺服器。 選取 [套用]  ，並確定測試連線成功。
 
     ![驗證方法](media/service-gateway-sso-kerberos/authentication-method.png)
 
