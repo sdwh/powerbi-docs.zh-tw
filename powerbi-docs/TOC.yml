@@ -491,7 +491,7 @@
           items:
             - name: 跨工作區使用資料集
               href: service-datasets-across-workspaces.md
-            - name: 建立和共用資料集 (預覽)
+            - name: 共用資料集 (預覽)
               href: service-datasets-build-permissions.md
             - name: 根據資料集建立報表
               href: service-datasets-discover-across-workspaces.md
@@ -581,7 +581,7 @@
               href: service-report-save.md
             - name: 在編輯檢視中與報表互動
               href: service-interact-with-a-report-in-editing-view.md
-            - name: 在 Excel 中進行分析
+            - name: 在 Excel 中分析
               href: service-analyze-in-excel.md
             - name: 建立報表的祕訣和訣竅
               href: power-bi-reports-tips-and-tricks-for-creating.md
@@ -1432,3 +1432,5 @@
   items:
     - name: 什麼是星型結構描述？
       href: guidance/star-schema.md
+    - name: 縮小資料模型大小
+      href: guidance/import-modeling-data-reduction.md
