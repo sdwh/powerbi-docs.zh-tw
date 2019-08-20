@@ -28,7 +28,7 @@ Power BI 報表書籤允許擷取報表頁面的設定視圖、視覺效果的�
 
 ## <a name="how-to-add-report-bookmarks-support"></a>如何新增報表書籤支援
 
-1. 安裝 (或更新) 所需的 util：`powerbi-visuals-utils-interactivityutils`https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) 3.0.0 版或更高版本。 它包含要使用狀態選取項目或篩選進行操作的其他類別。 篩選視覺效果和任何使用 `InteractivityService` 的視覺效果都需要它。
+1. 安裝 (或更新) 所需的 util：`powerbi-visuals-utils-interactivityutils`(https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) 3.0.0 版或更高版本。 它包含要使用狀態選取項目或篩選進行操作的其他類別。 篩選視覺效果和任何使用 `InteractivityService` 的視覺效果都需要它。
 
 2. 將視覺效果 API 更新為 1.11.0，以在 `SelectionManager` 的執行個體中使用 `registerOnSelectCallback`。 使用一般 `SelectionManager` 而不是 `InteractivityService` 的非篩選視覺效果需要這麼做。
 
