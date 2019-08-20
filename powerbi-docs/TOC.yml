@@ -55,6 +55,8 @@
           href: desktop-latest-update.md
         - name: 將 Power BI Desktop 中的視覺效果分組
           href: desktop-grouping-visuals.md
+        - name: 在 Power BI Desktop 中使用範本
+          href: desktop-templates.md
         - name: Power BI Desktop 中的模型檢視
           href: desktop-modeling-view.md
         - name: Power BI Desktop 中的彙總
