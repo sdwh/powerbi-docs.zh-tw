@@ -39,7 +39,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 
 
 **查詢參數**是：
-* **動作**（必要） = OpenApp / OpenDashboard / OpenTile / openreport 巨集
+* **action**（必要） = OpenApp / OpenDashboard / OpenTile / openreport 巨集
 * **appId** = 如果您想要開啟報表或儀表板屬於的應用程式 
 * **groupObjectId** = 如果您想要開啟報表或儀表板屬於的工作區 （但不是我的工作區）
 * **dashboardObjectId** = 儀表板物件識別碼 （如果動作是 OpenDashboard 或 OpenTile）
