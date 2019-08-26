@@ -1,34 +1,34 @@
 ---
-title: 在 Power BI 中建立傳統的工作區
-description: 了解如何建立工作區的儀表板、 報表和編頁的報表，為了提供重要計量給組織而建立的集合。
+title: 在 Power BI 中建立傳統工作區
+description: 了解如何建立工作區、儀表板集合、報表和編頁報表；這些項目是為了傳遞重要計量給您的組織而建置。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dcf9b8befabfec98fcae154e6276f8e698b3ddc2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0bb8d796af5139cd89f4bdfa0a8da10603acb2ed
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61150766"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530554"
 ---
-# <a name="create-classic-workspaces-in-power-bi"></a>在 Power BI 中建立傳統的工作區
+# <a name="create-classic-workspaces-in-power-bi"></a>在 Power BI 中建立傳統工作區
 
-在 Power BI 中，您可以建立*工作區*、 放置要共同作業與同事建立並精簡的儀表板、 報表、 集合和編頁報表。 然後您可以一起配套集合成*應用程式*可散發給整個組織或是特定人員或群組。 
+在 Power BI 中，您可以建立「工作區」  ，這是要與同事共同作業來建立並精簡儀表板、報表和編頁報表集合的地方。 然後，您可以將集合組合成「應用程式」  ，將其散發給整個組織或是特定人員或群組。 
 
-**您知道嗎？** Power BI 提供新的工作區體驗，也就是現在的預設值。 讀取[組織在新的工作區中的工作](service-new-workspaces.md)如需新的工作區的詳細資訊。 
+**您知道嗎？** Power BI 提供新的工作區體驗，而這種體驗也是目前的預設值。 請參閱[在新的工作區中組織工作](service-new-workspaces.md)來取得新工作區詳細資料。 
 
-當您建立傳統的工作區時，您建立的基礎，相關聯的 Office 365 群組。 所有工作區管理都是在 Office 365 中進行管理。 您可以將同事新增至這些工作區，作為成員或系統管理員。 在工作區中，您們全都可以共同處理儀表板、報表和其他文章，以準備發佈給更多對象。 新增至應用程式工作區的每個人都必須有 Power BI Pro 授權。 
+當您建立傳統工作區時，即會建立基礎的相關聯 Office 365 群組。 所有工作區管理都是在 Office 365 中進行管理。 您可以將同事新增至這些工作區，作為成員或系統管理員。 在工作區中，您們全都可以共同處理儀表板、報表和其他文章，以準備發佈給更多對象。 新增至應用程式工作區的每個人都必須有 Power BI Pro 授權。 
 
 ## <a name="video-apps-and-app-workspaces"></a>影片：應用程式及應用程式工作區
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-app-workspace-based-on-an-office-365-group"></a>建立 Office 365 群組為基礎的傳統應用程式工作區
+## <a name="create-a-classic-app-workspace-based-on-an-office-365-group"></a>以 Office 365 群組為基礎建立傳統應用程式工作區
 
 當您建立應用程式工作區時，它會建置在 Office 365 群組上。
 
@@ -51,7 +51,7 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
    
      ![再次選取鉛筆](media/service-create-distribute-apps/power-bi-apps-workspace-edit-group.png)
 
-     映像可以是.png、.jpg 或.bmp 檔案。 檔案大小可能很大的設定為 3 MB。 
+     影像可以是 .png、.jpg 或 .bmp 檔案。 它們的檔案大小可以相當大，最高可達 3 MB。 
 
 4. 選取 [儲存]  。
    
@@ -77,16 +77,16 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 
 ## <a name="distribute-an-app"></a>散發應用程式
 
-如果您想要發佈給大量使用者在組織內的官方內容，您可以從您的工作區中發佈應用程式。  內容準備就緒時，您選擇的儀表板和報表，您想要發佈，然後發佈為*應用程式*。 您可以從每個工作區建立一個應用程式。
+若您想要將正式內容散發至您組織中較大的群體，您可以從工作區發佈應用程式。  當內容就緒時，您可以選擇想要發佈的儀表板和報表，然後將其發佈為「應用程式」  。 您可以從每個工作區建立一個應用程式。
 
-在左側導覽中的應用程式清單會顯示您已安裝的所有應用程式。 您的同事可透過幾種不同的方式取得應用程式。 
-- 它們可以尋找並從 Microsoft AppSource 安裝您的應用程式
-- 您可以傳送它們的直接連結。 
+左側導覽中的 [應用程式] 清單會顯示所有您安裝的應用程式。 您的同事可透過幾種不同的方式取得應用程式。 
+- 他們可以從 Microsoft AppSource 尋找並安裝您的應用程式
+- 您可以向他們傳送直接連結。 
 - 如果 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 
 
-使用者自動看到更新的應用程式內容之後您發行更新從您的工作區。 您可以控制資料重新整理中使用的應用程式內容，在您的工作區中的資料集設定重新整理排程的頻率。 請參閱[在 Power BI 中發行的應用程式，從新的工作區](service-create-distribute-apps.md)如需詳細資訊。
+使用者會在您從工作區發佈更新後自動看到更新後的應用程式內容。 您可以在您工作區的應用程式內容所使用資料集中設定重新整理排程，來控制重新整理資料的頻率。 請參閱[在 Power BI 中從新的工作區發佈應用程式](service-create-distribute-apps.md)以取得詳細資料。
 
-## <a name="power-bi-classic-apps-faq"></a>Power BI 傳統應用程式常見問題集
+## <a name="power-bi-classic-apps-faq"></a>Power BI 傳統型應用程式常見問題集
 
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>應用程式與組織內容套件的差異為何？
 應用程式是組織內容套件的演進。 如果您已經有組織內容套件，則它們會繼續與應用程式並存運作。 應用程式和內容套件有一些主要差異。 
@@ -96,7 +96,7 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 * 經過一段時間之後，我們計劃要淘汰組織內容套件，因此建議您從現在開始建立應用程式。  
 * 使用新的工作區體驗預覽，我們對淘汰組織內容套件邁出第一步。 您無法在預覽工作區中使用或建立它們。
 
-請參閱[新的應用程式工作區與現有應用程式工作區有何不同？](service-new-workspaces.md#how-are-the-new-workspaces-different-from-current-workspaces)來比較這兩者。 
+請參閱[新的應用程式工作區與現有應用程式工作區有何不同](service-new-workspaces.md#how-the-new-workspaces-are-different)來比較這兩者。 
 
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI 中安裝和使用應用程式](service-create-distribute-apps.md)

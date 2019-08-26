@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 08/12/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 85976d191fba627b75f8b415acc312817d11ed34
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 2b0554729824b170fecbe6493141c6f3a8354002
+ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408507"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68961672"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>訂閱 Power BI 服務中的報表或儀表板 
 讓您最重要的儀表板和報表維持最新的狀態從沒這麼容易過。 訂閱對您來說最重要的報表頁面和儀表板，Power BI 就會以電子郵件寄送快照集到您的收件匣。 您要告訴 Power BI 需要收到電子郵件的頻率︰每天、每週，或在資料重新整理後。 您甚至可以設定特定的時間，讓 Power BI 傳送電子郵件或立即執行。  
@@ -76,6 +76,7 @@ ms.locfileid: "67408507"
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 * 傳送給使用者的訂閱電子郵件中，釘選磚超過 25 個，或是有四個以上釘選即時報表頁面的儀表板可能不會完整呈現。 我們建議您連絡儀表板設計人員，並請他們將釘選磚減少到 25 個以下，以及將釘選的即時報表減少到四個以下，以確保電子郵件會正確呈現。  
 * 針對儀表板電子郵件訂用帳戶，如果有任何圖格套用資料列層級安全性 (RLS)，則不會顯示這些圖格。  針對報表電子郵件訂用帳戶，如果資料集使用 RLS，則您無法建立訂用帳戶。
+* 如果您電子郵件中的 (內容) 連結停止運作，可能是內容已遭刪除。 在電子郵件的螢幕擷取畫面下方，您可以查看是否自我訂閱，或否有其他人訂閱您。 如果有其他人訂閱您，請要求同事取消電子郵件或重新訂閱您。
 * 報表頁面訂閱會繫結至報表頁面的名稱。 如果您訂閱報表頁面，而該頁面已重新命名，您就必須重新建立訂閱。
 * 如果您無法使用訂用帳戶功能，請連絡您的系統管理員。 您的組織可能已基於驗證或其他原因停用此功能。  
 * 電子郵件訂閱不支援大部分[自訂視覺效果](../power-bi-custom-visuals.md)。  例外是[經認證](../power-bi-custom-visuals-certified.md)的自訂視覺效果。  

@@ -7,29 +7,31 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/15/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8d8e77d8fe4ebea5b457ba282014bb8dc738191a
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324832"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560879"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
 
 若要連接到資料，請從 [主資料夾]  功能區選取 [取得資料]  。 選取向下箭號，或按鈕上的 [取得資料]  文字，會顯示 [最常見]  資料類型功能表，如下圖所示：
 
-![在 Power BI Desktop 中取得資料](media/desktop-data-sources/data-sources_01.png)
+![在 Power BI Desktop 中取得資料](media/desktop-data-sources/data-sources-01.png)
 
 選取 [其他...]  ， 該選項來自 [最常見]  功能表，如此即會顯示 [取得資料]  視窗。 您也可以藉由直接選取 [取得資料]  **圖示按鈕**，叫出 [取得資料]  視窗 (並略過 [最常見]  功能表)。
 
-![[取得資料] 按鈕](media/desktop-data-sources/data-sources_02.png)
+![[取得資料] 按鈕](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Power BI 小組會持續將可用的資料來源擴充到 **Power BI Desktop** 和 **Power BI 服務**。 因此，您經常會看到舊版工作進行中的資料來源標示為 *Beta* 或「預覽」  。 任何標示為 *Beta* 或「預覽」  的資料來源，受到的支援和功能都有限制，不應該用在生產環境。
+> Power BI 小組會持續將可用的資料來源擴充到 **Power BI Desktop** 和 **Power BI 服務**。 因此，您經常會看到舊版工作進行中的資料來源標示為 *Beta* 或「預覽」  。 任何標示為 *Beta* 或「預覽」  的資料來源，受到的支援和功能都有限制，不應該用在生產環境。 
+
+> 此外，任何為 **Power BI Desktop** 標記為「搶鮮版 (Beta)」  或「預覽」  的資料來源都無法在正式推出 (GA) 前於 **Power BI 服務**或其他 Microsoft 服務中使用。
 
 ## <a name="data-sources"></a>資料來源
 資料類型會組織成下列類別：
@@ -56,7 +58,7 @@ ms.locfileid: "68324832"
 
 下圖顯示 [檔案]  的 [取得資料]  視窗。
 
-![[取得資料] > [檔案]](media/desktop-data-sources/data-sources_03.png)
+![[取得資料] > [檔案]](media/desktop-data-sources/data-sources-03.png)
 
 [資料庫]  類別提供下列資料連線：
 
@@ -95,16 +97,18 @@ ms.locfileid: "68324832"
 
 下圖顯示 [資料庫]  的 [取得資料]  視窗。
 
-![[取得資料] > [資料庫]](media/desktop-data-sources/data-sources_04.png)
+![[取得資料] > [資料庫]](media/desktop-data-sources/data-sources-04.png)
 
-[Power BI]  類別提供下列資料連線：
+**Power Platform** 類別提供下列資料連線：
 
 * Power BI 資料集
 * Power BI 資料流程
+* Common Data Service
+* Power Platform 資料流程 (搶鮮版 (Beta))
 
-下圖顯示 [Power BI]  的 [取得資料]  視窗。
+下圖顯示 **Power Platform** 的 [取得資料]  視窗。
 
-![[取得資料] > [Power BI]](media/desktop-data-sources/data-sources_05.png)
+![[取得資料] > [Power BI]](media/desktop-data-sources/data-sources-05.png)
 
 [Azure]  類別提供下列資料連線：
 
@@ -113,7 +117,7 @@ ms.locfileid: "68324832"
 * Azure Analysis Services 資料庫
 * Azure Blob 儲存體
 * Azure 表格儲存體
-* Azure Cosmos DB (搶鮮版 (Beta))
+* Azure Cosmos DB
 * Azure Data Lake Storage Gen2 (搶鮮版 (Beta))
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
@@ -124,7 +128,7 @@ ms.locfileid: "68324832"
 
 下圖顯示 [Azure]  的 [取得資料]  視窗。
 
-![[取得資料] > [Azure]](media/desktop-data-sources/data-sources_06.png)
+![[取得資料] > [Azure]](media/desktop-data-sources/data-sources-06.png)
 
 [線上服務]  類別提供下列資料連線：
 
@@ -134,7 +138,6 @@ ms.locfileid: "68324832"
 * Dynamics NAV
 * Microsoft Dynamics 365 Business Central
 * Dynamics 365 Business Central (內部部署)
-* Common Data Service
 * Microsoft Azure 使用量見解 (搶鮮版 (Beta))
 * Azure DevOps (Beta)
 * Azure DevOps Server (Beta)
@@ -161,6 +164,7 @@ ms.locfileid: "68324832"
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (搶鮮版 (Beta))
+* Dynamics 365 Customer Insights (搶鮮版 (Beta))
 * Emigo 資料來源 搶鮮版 (Beta)
 * Entersoft 商務套件 (搶鮮版 (Beta))
 * 企業 App Store
@@ -168,11 +172,11 @@ ms.locfileid: "68324832"
 * Microsoft Graph 安全性 搶鮮版 (Beta)
 * Quick Base
 * TeamDesk (搶鮮版 (Beta))
-* Dynamics 365 Customer Insights (搶鮮版 (Beta))
+
 
 下圖顯示 [線上服務]  的 [取得資料]  視窗。
 
-![[取得資料] > [線上服務]](media/desktop-data-sources/data-sources_07.png)
+![[取得資料] > [線上服務]](media/desktop-data-sources/data-sources-07.png)
 
 [其他]  類別提供下列資料連線：
 
@@ -200,7 +204,7 @@ ms.locfileid: "68324832"
 
 下圖顯示 [其他]  的 [取得資料]  視窗。
 
-![[取得資料] > [其他]](media/desktop-data-sources/data-sources_08.png)
+![[取得資料] > [其他]](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > 目前無法連線至使用 Azure Active Directory 保護的自訂資料來源。
@@ -208,15 +212,15 @@ ms.locfileid: "68324832"
 ## <a name="connecting-to-a-data-source"></a>連接到資料來源
 若要連接至資料來源，請從 [取得資料]  視窗選取資料來源，然後選取 [連接]  。 在下圖中，從 [其他]  資料連線類別選取了 [Web]  。
 
-![連線到 Web](media/desktop-data-sources/data-sources_08.png)
+![連線到 Web](media/desktop-data-sources/data-sources-08.png)
 
 隨即會顯示資料連線類型特有的連線視窗。 如果需要認證，將提示您提供它們。 下圖顯示輸入 URL 以連接到 Web 資料來源。
 
-![輸入 Web URL](media/desktop-data-sources/datasources_fromwebbox.png)
+![輸入 Web URL](media/desktop-data-sources/datasources-fromwebbox.png)
 
 輸入 URL 或資源連線資訊之後，請選取 [確定]  。 Power BI Desktop 會建立資料來源的連線，並在 [導覽器]  中呈現可用的資料來源。
 
-![導覽器畫面](media/desktop-data-sources/datasources_fromnavigatordialog.png)
+![導覽器畫面](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
 您可以選取 [導覽器]  窗格底部的 [載入]  按鈕來載入資料，或是選取 [編輯]  按鈕，在載入資料之前先編輯查詢。
 

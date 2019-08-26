@@ -6,37 +6,37 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eccda071b6c6abc92640024c3587bafa71038dee
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: ed3a65e25694c23e1852a554742e0f8a6e6ff668
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826631"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530594"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
-在 Power BI 中，您可以建立正式封裝的內容，然後將它以*應用程式*的形態散發給廣大群眾。 請在「應用程式工作區」  中建立應用程式，您可以在其中與同事對 Power BI 內容進行共同作業。 然後，您可以將已完成的應用程式發佈到組織中的大型人員群組。 
+在 Power BI 中，您可以建立正式封裝的內容，然後將它以*應用程式*的形態散發給廣大群眾。 您可以在 [工作區]  中建立應用程式，且在該處與您的同事在 Power BI 內容上共同作業。 然後，您可以將已完成的應用程式發佈到組織中的大型人員群組。 
 
 ![Power BI 應用程式](media/service-create-distribute-apps/power-bi-new-apps.png)
 
-商務使用者通常需要多個 Power BI 儀表板和報表來執行業務。 透過 Power BI 應用程式，您可以建立多組儀表板和報表，然後將這些應用程式發佈至整個組織、特定人員或群組。 如果您是報表建立者或系統管理員，應用程式可讓您更輕鬆地管理這些集合的權限。
+商務使用者通常需要多個 Power BI 儀表板和報表來執行業務。 透過 Power BI 應用程式，您可以建立多組儀表板和報表，然後將這些集合作為應用程式發佈至整個組織、特定人員或群組。 如果您是報表建立者或系統管理員，應用程式可讓您更輕鬆地管理這些集合的權限。
 
 商務使用者取得您應用程式的不同方式：
 
-- 他們可以從 Microsoft AppSource 尋找並安裝您的應用程式
+- 他們可以從 Microsoft AppSource 尋找並安裝您的應用程式。
 - 您可以向他們傳送直接連結。
 - 如果 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。
 
-您可以建立具備內建瀏覽功能的應用程式，讓使用者可以在您內容中輕鬆找到他們的方式。 他們無法修改應用程式的內容。 但可以在 Power BI 服務或其中一個行動裝置應用程式中與其互動 - 自行篩選、醒目提示和排序資料。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 深入了解[商務使用者的應用程式體驗](consumer/end-user-apps.md)。
+您可以建立具備內建瀏覽功能的應用程式，讓使用者可以在您內容中輕鬆找到他們的方式。 他們無法修改應用程式的內容。 但可以在 Power BI 服務或其中一個行動裝置應用程式中與其互動 - 自行篩選、醒目提示和排序資料。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 您也可以提供他們建置權限，讓他們連線到基礎資料集，並在應用程式中建立報表的複本。 深入了解[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
 
 ## <a name="licenses-for-apps"></a>應用程式的授權
 您需要 Power BI Pro 授權才能建立或更新應用程式。 應用程式「取用者」  有兩個選項。
 
-* 選項 1：所有商務使用者都需要 **Power BI Pro** 授權，才能檢視您的應用程式。 
-* 選項 2：如果您的應用程式工作區位於 Power BI Premium 容量中，則組織中的免費使用者就可以檢視應用程式內容。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium.md)。
+* **選項 1** 此應用程式的工作區「非」  位於 Power BI Premium 容量中：所有商務使用者都需要 Power BI Pro 授權才能檢視您的應用程式。 
+* **選項 2** 此應用程式的工作區「位於」  Power BI Premium 容量中：您組織中未具有 Power BI Pro 授權的商務使用者可以檢視應用程式內容。 但是，他們無法複製報表，或根據基礎資料集建立報表。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium.md)。
 
 ## <a name="publish-your-app"></a>發佈您的應用程式
 當工作區中的儀表板和報表就緒時，您可以選擇想要發佈的儀表板和報表，然後將它們發佈為應用程式。 
@@ -57,21 +57,19 @@ ms.locfileid: "66826631"
    
      ![建置您的應用程式](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
-4. 在 [瀏覽]  中，選取要發佈為應用程式一部分的內容。 然後，新增應用程式瀏覽，按節整理排列內容。 如需詳細資訊，請參閱本文中的[設計應用程式的瀏覽體驗](#design-the-navigation-experience-for-your-app)。
+4. 在 [瀏覽]  中，選取要發佈為應用程式一部分的內容。 然後，新增應用程式瀏覽，按節整理排列內容。 如需詳細資訊，請參閱本文中的[設計應用程式的瀏覽體驗](#design-the-navigation-experience)。
    
      ![應用程式瀏覽](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 5. 在 [權限]  上，決定誰可以存取應用程式，以及他們可以用它做什麼。 
     - 在[傳統工作區](service-create-workspaces.md)中：您組織中的每個人、特定人員或 Azure Active Directory (AAD) 安全性群組。
     - 在[新體驗工作區](service-create-the-new-workspaces.md)中：特定人員、AAD 安全性群組和通訊群組清單，以及 Office 365 群組。 系統會自動為所有工作區使用者授與對工作區應用程式的存取權。
-    - 您可以允許應用程式使用者使用「建置」權限連線到應用程式的底層資料集。 這些資料集將會出現在資料集搜尋體驗中。
-    - 您可以允許應用程式使用者將此應用程式中的報表複製到其「我的工作區」。 
+    - 您可以透過授與建置權限，讓應用程式使用者連線到應用程式的基礎資料集。 他們會在搜尋共用資料集時看到這些資料集。 在本文中深入了解[允許使用者連線到應用程式的資料集](#allow-users-to-connect-to-datasets)。
+    - 具備建置權限的使用者也可以擁有從此應用程式將報表複製到另一個工作區的權限。 在本文中深入了解[允許使用者複製應用程式中的報表](#allow-users-to-copy-reports)。
     
     >[!IMPORTANT]
     >若您的應用程式仰賴來自其他工作區的資料集，您必須負責確保所有應用程式使用者都能存取底層資料集。
-> 
->     
-
+    >
 
 6. 如果您的 Power BI 管理員已在 Power BI 管理入口網站中為您啟用此設定，您就可以為收件者自動安裝應用程式。 深入了解本文中的[自動安裝應用程式](#automatically-install-apps-for-end-users)。
 
@@ -84,26 +82,26 @@ ms.locfileid: "66826631"
 您可以將該直接連結傳送給已共用的對象，或他們可以移至 [從 AppSource 下載和探索更多應用程式]  ，在 [應用程式] 索引標籤中找到您的應用程式。 深入了解[商務使用者的應用程式體驗](consumer/end-user-apps.md)。
 
 ## <a name="change-your-published-app"></a>變更已發佈的應用程式
-在您發佈應用程式之後，可能想要進行變更或更新。 如果您是新應用程式工作區的管理員或成員，就可以輕鬆更新它。 
+在您發佈應用程式之後，可能想要進行變更或更新。 如果您是新工作區的管理員或成員，就可以輕鬆更新它。 
 
-1. 開啟對應至應用程式的應用程式工作區。 
+1. 開啟對應至應用程式的工作區。 
    
      ![開啟工作區](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
 
 2. 對儀表板或報表執行您想要的任何變更。
  
-     應用程式工作區是暫存區域；因此，您的變更在重新發佈之前不會在應用程式中生效。 這可讓您進行變更，而不影響已發佈的應用程式。  
+     工作區是暫存區域；因此，您的變更在重新發佈之前不會在應用程式中生效。 這可讓您進行變更，而不影響已發佈的應用程式。  
  
     > [!IMPORTANT]
     > 如果您移除報表並更新應用程式，即使您將報表新增回應用程式，您的應用程式取用者仍會遺失所有自訂項目，例如書籤、註解等。  
  
-3. 回到內容的應用程式工作區清單，然後選取右上角的 [更新應用程式]  。
+3. 回到內容的工作區清單，然後選取右上角的 [更新應用程式]  。
    
 1. 更新 [安裝程式]  、[瀏覽]  和 [權限]  (如有需要)，然後選取 [更新應用程式]  。
    
 您已對其發佈應用程式的人員會自動看到應用程式的已更新版本。 
 
-## <a name="design-the-navigation-experience-for-your-app"></a>設計應用程式的瀏覽體驗
+## <a name="design-the-navigation-experience"></a>設計導覽體驗
 [新瀏覽產生器]  選項可讓您建置應用程式的自訂瀏覽。 自訂瀏覽可讓使用者更容易尋找及使用應用程式中內容。 現有的應用程式已關閉此選項，而新的應用程式預設開啟此選項。
 
 當此選項關閉時，您可以選取 [應用程式登陸頁面]  為 [特定內容]  (例如儀表板或報表)，或選取 [無]  ，向使用者顯示內容的基本清單。
@@ -160,27 +158,32 @@ ms.locfileid: "66826631"
 
 * 不會為未接受邀請的來賓使用者自動安裝應用程式。  
 
-## <a name="allowing-users-to-connect-to-the-apps-underlying-datasets"></a>允許使用者連線到應用程式的底層資料集
-透過選取選項以允許所有使用者連線到應用程式的底層資料集，應用程式使用者可接收底層資料集上的「建置」權限。 這可讓使用者[跨工作區使用應用程式資料集](service-datasets-across-workspaces.md)在 Power BI Desktop 中搜尋這些資料集，而且服務會取得資料體驗，以及此用這些資料集建立報表與儀表板。 
+## <a name="allow-users-to-connect-to-datasets"></a>允許使用者連線到資料集
 
-當您取消選取此選項時，您新增到應用程式的新使用者將無法再獲得「建置」權限。 不過，底層資料集上的現有權限不會變更。 您可以使用提供的使用者介面手動從不應該再擁有「建置」權限的使用者移除該權限。 深入了解[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
+當您選取 [允許使用者連線到應用程式的基礎資料集]  時，您會提供應用程式使用者在那些資料集上的「建置權限」  。 使用此權限，他們可以執行數種關鍵動作：
 
-## <a name="allowing-users-to-make-a-copy-of-the-reports-in-the-app"></a>允許使用者在應用程式中建立報表複本
-透過選取[允許使用者在此應用程式中複製應用程式報表]  ，您允許使用者將應用程式中的任何報表儲存到其「我的工作區」。 他們接著可以根據其獨特需求自訂報表。 此選項要求您必須啟用 [允許所有使用者使用組建權限來連線至應用程式的基礎資料集]  。 此功能的運作方式就像新的[從其他工作區複製報表](service-datasets-copy-reports.md)功能一樣。
+- [使用應用程式資料集](service-datasets-across-workspaces.md)作為他們報表的基礎。
+- 在 Power BI Desktop 中以及 Power BI 服務內的 get-data 體驗中搜尋這些資料集。
+- 以這些資料集為基礎建立報表和儀表板。
+
+當您清除此選項時，您新增到應用程式的新使用者便不會取得建置權限。 但是，針對現有的應用程式使用者，基礎資料集上的權限不會變更。 您可以從不應繼續擁有該權限的應用程式使用者中手動移除建置權限。 深入了解[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
+
+## <a name="allow-users-to-copy-reports"></a>允許使用者複製報表
+
+當您選取選項來 [允許使用者複製此應用程式中的報表]  時，使用者便可以將應用程式中任何報表儲存到他們的「我的工作區」或另一個工作區。 若要進行複製，使用者將需要 Pro 授權，即使原始報表位於 Premium 容量中的工作區也一樣。 他們接著可以根據其獨特需求自訂報表。 您必須先選取 [允許所有使用者使用建置權限連線到應用程式的基礎資料集]  選項。 透過選取這些選項，您便可以啟用新的[從其他工作區複製報表](service-datasets-copy-reports.md)功能。
 
 ## <a name="unpublish-an-app"></a>解除發佈應用程式
-應用程式工作區的任何成員都可以解除發佈應用程式。
+工作區的任何成員都可以解除發佈應用程式。
 
 >[!IMPORTANT]
 >當您解除發佈應用程式時，應用程式使用者會失去其自訂項目。 他們會遺失所有與應用程式內容建立關聯的個人書籤、註解或訂閱。 只有在您需要移除應用程式時，才解除發佈該應用程式。
 > 
-> 
 
-* 在應用程式工作區中，選取右上角的省略符號 ( **...** ) > [Unpublish app]\(解除發佈應用程式)  。
+* 在工作區中，選取右上角的省略符號 ( **...** ) > [解除發佈應用程式]  。
   
      ![解除發佈應用程式](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 
-這個動作會解除安裝您發佈給每個人的應用程式，而且他們將無法再存取該應用程式。 它不會刪除應用程式工作區或其內容。
+這個動作會解除安裝您發佈給每個人的應用程式，而且他們將無法再存取該應用程式。 它不會刪除工作區或其內容。
 
 ## <a name="view-your-published-app"></a>檢視已發佈的應用程式
 
@@ -189,7 +192,7 @@ ms.locfileid: "66826631"
 ![具有瀏覽的應用程式](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
 ## <a name="next-steps"></a>後續步驟
-* [建立應用程式工作區](service-create-workspaces.md)
+* [建立工作區](service-create-workspaces.md)
 * [在 Power BI 中安裝和使用應用程式](consumer/end-user-apps.md)
 * [外部服務的 Power BI 應用程式](service-connect-to-services.md)
 * [Power BI 管理入口網站](https://docs.microsoft.com/power-bi/service-admin-portal)

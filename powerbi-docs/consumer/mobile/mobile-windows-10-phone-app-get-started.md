@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: aa41e1e2869ad4d2f77224e3bec99dc00c59c536
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0a60fe526e83e5220e9b310097c8ba37682a396e
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61337044"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995229"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>開始使用 Power BI for Windows 10 行動裝置應用程式
-Power BI 的 Windows 10 行動裝置應用程式可將 Power BI 帶著走，以最新狀態、啟用觸控式行動裝置的方式存取您的商務資訊。 在 [Windows 開始畫面](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上，隨處檢視公司儀表板並與之互動。
+Power BI for Windows 10 行動裝置應用程式可將 Power BI 帶到您的平板電腦或手機。 您可以對商務資訊進行最新的觸控式行動存取。 在 [Windows 開始畫面](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上，隨處檢視公司儀表板並與其互動。
 
 ![Windows 動態磚](./media/mobile-windows-10-phone-app-get-started/pbi_win10_livetile.gif)
 
@@ -33,7 +33,7 @@ Power BI 的 Windows 10 行動裝置應用程式可將 Power BI 帶著走，以�
 * 了解 [Power BI 行動裝置應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>在網路上註冊 Power BI 服務
-如果您尚未註冊，請前往 [Power BI 服務](http://powerbi.com/)來註冊您用來建立及儲存儀表板和報表的專屬帳戶，並將您的資料匯聚在一起。 然後從您的 Windows 10 裝置登入 Power BI，便可隨處查看您自己的儀表板。
+如果您尚未註冊，請前往 [Power BI 服務](http://powerbi.com/)。 註冊您自己的帳戶以建立及儲存儀表板和報表，並將您的資料整合在一起。 然後，從您的 Windows 10 裝置登入 Power BI，便可隨處查看您自己的儀表板。
 
 1. 在 Power BI 服務中，點選 [註冊](http://go.microsoft.com/fwlink/?LinkID=513879) 來建立 Power BI 帳戶。
 2. 開始[建立您自己的儀表板和報表](../../service-get-started.md)。
@@ -53,7 +53,7 @@ Power BI 的 Windows 10 行動裝置應用程式可將 Power BI 帶著走，以�
 即使沒有登入，您也可以使用 Power BI 和 Reporting Services 範例。 在您下載應用程式後，便可以檢視範例或開始使用。 您可以視需要隨時回到儀表板首頁的範例。
 
 ### <a name="power-bi-samples"></a>Power BI 範例
-您可以檢視 Power BI 儀表板範例並與其互動，但有幾件事做不到。 您無法開啟儀表板背後的報表、與其他人共用範例，或將它們設成 [我的最愛]。
+您可以檢視 Power BI 儀表板範例並與其互動。 但有幾件事做不到。 您無法開啟儀表板背後的報表、與其他人共用範例，或將它們設成 [我的最愛]。
 
 1. 點選左上角的 ![全域導覽按鈕](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 全域導覽按鈕。
 2. 點選**設定**圖示![設定圖示](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)，點選您的名稱，再點選 [檢視範例]  。
@@ -92,7 +92,7 @@ Power BI 的 Windows 10 行動裝置應用程式可將 Power BI 帶著走，以�
 ![Power BI 左方導覽](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>檢視您最愛的儀表板、KPI 和報表
-您可以在行動裝置應用程式的 [我的最愛] 頁面檢視所有最愛的 Power BI 儀表板，以及 Reporting Services KPI 與行動報表。 當您在 Power BI 行動裝置應用程式中將儀表板設為「我的最愛」  時，就可以從所有裝置加以存取，包括瀏覽器中的 Power BI 服務。 
+在行動裝置應用程式 [我的最愛] 頁面檢視您最愛的 Power BI 儀表板，以及 Reporting Services KPI 與行動報表。 當您在 Power BI 行動裝置應用程式中將儀表板設為「我的最愛」  時，就可以從所有裝置加以存取，包括瀏覽器中的 Power BI 服務。 
 
 * 點選 [我的最愛]  。
   

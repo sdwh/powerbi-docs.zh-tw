@@ -7,19 +7,22 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2db4c23b50071e387913ed79b4d01daeafb928a4
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567397"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530603"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>複製其他工作區的報表 (預覽)
 
-當您在工作區或應用程式中找到喜歡的報表時，您可以複製該報表，然後將它儲存到不同的工作區中。 然後您可以修改該報表，新增或刪除視覺效果和其他項目。 您不需要建立資料模型。 它已經為您建立。 修改現有的報表，比從頭開始要輕鬆許多。 不過，您不能從新的工作區發佈您在應用程式中的報表複本。 請在《跨工作區使用資料集》一文中參閱其他[考量與限制](service-datasets-across-workspaces.md#considerations-and-limitations)。
+當您在工作區或應用程式中找到喜歡的報表時，您可以複製該報表，然後將它儲存到不同的工作區中。 然後您可以修改您複製的報表、新增或刪除視覺效果和其他項目。 您不需要建立資料模型。 它已經為您建立。 修改現有的報表，比從頭開始要輕鬆許多。 但是，當您從新的工作區製作應用程式時，有時候您無法在應用程式內發佈您的報表複本。 請參閱[＜跨工作區使用資料集＞一文中的考量事項和限制](service-datasets-across-workspaces.md#considerations-and-limitations)以取得詳細資料。
+
+> [!NOTE]
+> 若要進行複製，您將需要 Pro 授權，即使原始報表位於 Premium 容量中的工作區也一樣。
 
 ## <a name="save-a-copy-of-a-report"></a>儲存報表複本
 

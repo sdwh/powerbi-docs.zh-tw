@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222269"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69561070"
 ---
 # <a name="conditional-formatting-in-tables"></a>設定資料表格式化的條件 
 設定資料表格式化的條件時，您可以根據資料格值或根據其他值或欄位 (包括漸層色彩) 來指定自訂資料格色彩。 您也可以使用資料橫條來顯示資料格的值。 
@@ -130,11 +130,17 @@ ms.locfileid: "66222269"
 
 只要運用您的想像力和一點 DAX，您還可以建立更多版本。
 
-您可以使用任何 CSS 色彩規格，在中所列的值[ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/)色彩視覺效果：
-* 3、 6 或 8 位數十六進位碼例如 #3E4AFF。 請確定您包含在程式碼的開頭為 # 符號。 不接受 「 3E4AFF"。 
-* RGB 或 RGBA 值例如 RGBA （234、 234、 234，0.5）
-* HSL 或 HSLA 值例如 HSLA （123、 75%、 75%，0.5）
-* 色彩名稱例如綠色 SkyBlue PeachPuff 
+您可以使用 [https://www.w3.org/TR/css-color-3/](https://www.w3.org/TR/css-color-3/) 的 CSS 色彩規格中所列出任何值來為視覺效果設定色彩：
+* 3、6 或 8 位數的十六進位代碼，例如 #3E4AFF。 請確認您在代碼的開頭包含了 # 符號。 "3E4AFF" 是無法接受的格式。 
+* RGB 或 RGBA 值，例如 RGBA(234, 234, 234, 0.5)
+* HSL 或 HSLA 值，例如 HSLA(123, 75%, 75%, 0.5)
+* 色彩名稱，例如 Green、SkyBlue、PeachPuff 
+
+## <a name="considerations-and-limitations"></a>考量與限制
+使用條件式表格格式設定時，請牢記幾個考量事項：
+
+* 條件式表格格式設定只會套用到**矩陣**視覺效果的值，而不會套用到任何小計或總計。 
+
 
 ## <a name="next-steps"></a>後續步驟
 如需詳細資訊，請參閱下列文章：  

@@ -1,6 +1,6 @@
 ---
-title: 檢視 Power BI 內容做為外部來賓使用者 (Azure AD B2B)
-description: 若要檢視與您共用的外部組織的內容中使用 Power BI 行動裝置應用程式。
+title: 以外部來賓使用者身分檢視 Power BI 內容 (Azure AD B2B)
+description: 使用 Power BI 行動裝置應用程式來檢視從外部組織與您共用的內容。
 author: mshenhav
 manager: kfile
 ms.reviewer: ''
@@ -9,16 +9,16 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/27/2019
 ms.author: mshenhav
-ms.openlocfilehash: a15da4349ce97e34c8321909abc862e424b2839c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 900c7b57c2b6283c44e4a1923dd223d7dfd40ef7
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61338644"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490355"
 ---
-# <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>檢視與您共用的外部組織的 Power BI 內容
+# <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>檢視從外部組織與您共用的 Power BI 內容
 
-Power BI 與 Azure Active Directory 企業對企業 (Azure AD B2B) 若要能夠安全地散發給組織外部的來賓使用者的 Power BI 內容整合。 與外部來賓使用者可以使用 Power BI 行動裝置應用程式，來存取與他們共用的 Power BI 內容。 
+Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，以便能夠安全地將 Power BI 內容散發給組織外部的來賓使用者。 而外部來賓使用者可以使用 Power BI 行動裝置應用程式，來存取與他們共用的 Power BI 內容。 
 
 
 適用於︰
@@ -27,28 +27,30 @@ Power BI 與 Azure Active Directory 企業對企業 (Azure AD B2B) 若要能夠�
 |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手機 |Android 平板電腦 |
 
-## <a name="accessing-shared-content"></a>存取共用的內容
+## <a name="accessing-shared-content"></a>存取共用內容
 
-**首先，您必須從外部共用項目與您組織的其他人。** 當有人[與您共用的項目](../../service-share-dashboards.md)，從相同的組織或外部組織，您會收到電子郵件，內含項目共用的連結。 遵循您的行動裝置中的連結會開啟 Power BI 行動裝置應用程式。 如果應用程式可辨識的項目共用的外部組織，應用程式重新連接到您的身分識別與該組織中。 應用程式，然後載入來自該組織與您共用的所有項目。
+**首先，您需要外部組織的某個人與您共用項目。** 當有人[與您共用項目](../../service-share-dashboards.md)時 (不論是從相同的組織或從外部組織)，您都會收到一封電子郵件，其中包含該共用項目的連結。 在行動裝置中進入該連結，即會開啟 Power BI 行動裝置應用程式。 如果應用程式辨識出項目是從外部組織共用，應用程式就會使用您的身分識別重新連接到該組織。 然後，應用程式會從該組織載入與您共用的所有項目。
 
-![Power BI 會開啟共用的項目從電子郵件 ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Power BI 從電子郵件開啟共用項目 ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
 
 > [!NOTE]
-> 如果這是外部來賓使用者身分，與您共用的第一個項目時，您必須宣告在瀏覽器中的邀請。 您可以無法宣告中的 Power BI 應用程式的邀請。
+> 如果這是以外部來賓使用者身分與您共用的第一個項目，則您必須在瀏覽器中宣告邀請。 您無法在 Power BI 應用程式中宣告邀請。
 
-只要您連接到外部組織，黑色的標頭會出現在應用程式中。 此標頭表示您未連接到您的主要組織。 若要連線到您的主要組織，結束來賓模式。
+只要您連線到外部組織，應用程式中就會出現黑色標頭。 此標頭表示您未連線到您的主要組織。 若要連線回您的主要組織，請退出來賓模式。
 
 ![Power BI 來賓使用者標頭](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
 
-即使您需要有 Power BI 成品連結連接到外部組織，您的應用程式會切換之後，您可以存取與您 （不只的項目中開啟電子郵件） 共用的所有項目。 若要檢視之外部組織可以存取的所有項目，請移至 [應用程式] 功能表，然後選取**與我共用**。 底下**應用程式**您找到您也可以使用的應用程式。
+雖然您需要有 Power BI 成品連結來連線到外部組織，但只要應用程式切換之後，您就可以存取與您共用的所有項目 (而不只是您從電子郵件開啟的項目)。 若要在外部組織中檢視您可以存取的所有項目，請移至應用程式功能表，然後選取 [與我共用]  。 在 [應用程式]  底下，您也可以找到可使用的應用程式。
 
-![為來賓外部使用者的 power BI 應用程式功能表](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![以來賓外部使用者身分檢視 Power BI 應用程式功能表](./media/mobile-apps-b2b/mobile-b2b-menu.png)
 
 ## <a name="limitations"></a>限制
 
-- 條件式存取和其他 Intune 原則不支援在 Azure AD B2B 和 Power BI 行動裝置。 這表示，應用程式會強制執行只有主要組織的原則，如果有的話。
-- 從主要組織站台只能接收推播通知 （即使當使用者連接到外部組織以來賓身分）。 開啟通知重新連接至使用者的主要組織站台的應用程式。
-- 如果使用者關閉應用程式時重新開啟應用程式會自動連接到使用者的主要組織。
-- 當連接到外部組織，有些動作會停用： 我的最愛項目，資料警示註解和共用。
-- 無法連線到外部組織時使用離線資料。
-- 如果您有安裝在裝置上的公司入口網站應用程式時，必須註冊您的裝置。
+- 使用者必須具有使用中的 Power BI 帳戶和主租用戶。
+- 使用者必須先登入其 Power BI 的主租用戶，才能存取從外部租用戶與其共用的內容。
+- Azure AD B2B 和 Power BI 行動版不支援條件式存取和其他 Intune 原則。 這表示應用程式只會強制執行主要組織的原則 (如果有的話)。
+- 只會從主要組織網站接收推播通知 (即使使用者是以來賓身分連線到外部組織)。 開啟通知會將應用程式重新連線到使用者的主要組織網站。
+- 如果使用者關閉應用程式，則在重新開啟時，應用程式會自動連線到使用者的主要組織。
+- 連線到外部組織時，會停用某些動作：我的最愛項目、資料警示、註解和共用。
+- 連線到外部組織時，離線資料無法使用。
+- 如果您的裝置上已安裝公司入口網站應用程式，則必須註冊您的裝置。

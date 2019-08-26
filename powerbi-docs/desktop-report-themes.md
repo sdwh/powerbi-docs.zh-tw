@@ -7,24 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0c098baa42e4fdc45b23519856eed824dbab5cad
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60989142"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023399"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用報表主題
-透過**報表主題**，您可以將某個色彩主題套用至整個報表，例如公司色彩、季節性色彩，或其他色彩主題。 當您套用**報表主題**時，報表中的所有視覺效果都會使用您選取之主題中的色彩。 有少數例外狀況，此文章稍後將進行說明。
+透過 [報表主題]  ，您可以將某個色彩主題套用至整個報表，例如公司色彩、季節性色彩、圖示集，或其他色彩主題。 當您套用**報表主題**時，報表中的所有視覺效果都會使用您選取之主題中的色彩。 有少數例外狀況，此文章稍後將進行說明。
 
 ![報表主題](media/desktop-report-themes/report-themes_1.png)
 
 當您套用**報表主題**時，您需要使用基本架構的 JSON 檔案。 接著，將此 JSON 檔案匯入 Power BI Desktop，並將它套用到您的報表。 JSON 檔案結構及匯入程序既快速又容易 (只需按幾個按鈕)。
 
-您也可以將幾乎所有的項目進行自訂和標準化。 若要自訂，您要使用可在 [格式設定]  窗格中手動調整的 JSON 檔案。 目標是要讓您完整控制報表外觀與風格，細微的層級的方式。
+您也可以將幾乎所有的項目進行自訂和標準化。 若要自訂，您要使用可在 [格式設定]  窗格中手動調整的 JSON 檔案。 目標是提供對於報表外觀及操作的完整控制，達到細微的層級。
 
 ## <a name="how-report-themes-work"></a>報表主題的運作方式
 若要在 Power BI Desktop 報表中套用報表主題，請從可用的內建報表主題中選取，或匯入自訂的主題。
@@ -121,7 +121,7 @@ ms.locfileid: "60989142"
 
 或許您也想要透過使用 [主題色彩] 區段來手動設定資料點色彩。 當您套用新的報表主題時，色彩將「不會」  更新。 若您想要還原為您的預設色彩，以便在套用新的報表主題時更新這些色彩，可以在 [佈景主題色彩]  調色盤中選取 [還原為預設值]  。
 
-![還原為預設](media/desktop-report-themes/report-themes_9.png)
+![還原為預設值](media/desktop-report-themes/report-themes_9.png)
 
 此外，許多 [自訂視覺效果]  將不會套用至報表主題。
 

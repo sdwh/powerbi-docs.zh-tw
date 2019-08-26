@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 637a6476af6368fae2bcfed8d89aeb9f43276a6b
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61370438"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560823"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>在 Power BI 中顯示沒有資料的項目
 
@@ -25,7 +25,7 @@ Power BI 可讓您將來自各式來源的各種資料視覺化。 建立視覺�
 
 ## <a name="determining-relevant-data"></a>判斷相關資料
 
-若要開始了解 Power BI 如何判斷資料相關性以決定是否要顯示，讓我們以一個資料表作為簡單的範例。 使用在本文末端的範例小節中所示的模型，考慮搭配下列設定來建立資料表：
+若要開始了解 Power BI 如何判斷資料相關性以決定是否要顯示，讓我們以一個資料表作為簡單的範例。 使用本文結尾[範例資料模型](#example-data-model)區段中呈現的模型，考慮搭配下列設定來建置資料表：
 
 **1.來自相同資料表的群組：** *Product[Color] - Product[Size]*
 
@@ -152,6 +152,25 @@ Power BI 可讓您將來自各式來源的各種資料視覺化。 建立視覺�
 |紅色     |亮面         |         |
 
 在此範例中，注意到 *ProductStyle[Finish]=None* 並沒有出現在資料表中。 這是因為在此範例中，Power BI 是先選取 *Product* 資料表中的所有 *Color* 值。 然後 Power BI 再針對每個 Color 選取包含資料的相對應 *Finish* 值。 由於 *None* 沒有顯示在 *Color* 的任何組合中，因此系統沒有選取它。
+
+
+## <a name="power-bi-visual-behavior"></a>Power BI 視覺效果行為
+
+在視覺效果的一個欄位上啟用 [顯示沒有資料的項目]  時，會為相同「視覺效果貯體」  或階層中的所有其他欄位自動啟用該功能。 視覺效果貯體或階層可以是視覺效果的**軸**或**圖例**，或**類別**、**資料列**或**資料行**。
+
+![軸和圖例的欄位](media/desktop-show-items-no-data/show-items-no-data-04.png)
+
+例如，在**資料列**貯體中包含四個欄位的矩陣視覺效果中，若其中一個欄位啟用了 [顯示沒有資料的項目]  ，則該矩陣中的所有項目都會啟用該功能。 在下圖中，已在**資料列**貯體中的第一個欄位 (*SupplierID* 欄位) 上啟用 [顯示沒有資料的項目]  。 **資料列**貯體中的其他欄位也會自動啟用該功能。
+
+![相同視覺效果中的欄位自動啟用 [顯示沒有資料的項目]](media/desktop-show-items-no-data/show-items-no-data-05.png)
+
+相較之下，**資料行**貯體中顯示的 *Continent* 欄位則「不會」  自動啟用 [顯示沒有資料的項目]  。 
+
+此視覺效果行為常會在將視覺效果轉換成不同類型時出現，例如將矩陣視覺效果轉換成表格視覺效果。 在這類轉換中，[顯示沒有資料的項目]  會自動移動到其貯體中欄位具有已啟用功能的貯體。 在先前的範例中，若 *SupplierID* 已啟用 [顯示沒有資料的項目]  ，並將視覺效果轉換成表格，則**資料行**貯體中的 *Continent* 欄位會與**資料列**貯體中的欄位一同移動到表格視覺效果中唯一使用的貯體 (**值**貯體)。 因此，**值**貯體中的所有欄位都會啟用 [顯示沒有資料的項目]  。
+
+### <a name="exporting-data"></a>匯出資料
+
+使用 [匯出摘要資料]  功能時，[顯示沒有資料的項目]  功能的行為會和將匯出轉換成表格視覺效果時相同。 因此，匯出圖表矩陣視覺效果等視覺效果時，所匯出資料看起來可能會和顯示的視覺效果不同。 這是因為轉換成表格視覺效果時，作為匯出處理流程的一部分，系統會為所有匯出的欄位啟用 [顯示沒有資料的項目]  。 
 
 ## <a name="example-data-model"></a>範例資料模型
 

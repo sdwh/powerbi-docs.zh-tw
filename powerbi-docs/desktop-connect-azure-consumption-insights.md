@@ -1,5 +1,5 @@
 ---
-title: 從 Power BI Desktop 連線至 Azure 的成本和用量
+title: 在 Power BI Desktop 中分析 Azure 成本和使用量資料
 description: 輕鬆地連線到 Azure，並使用 Power BI Desktop 深入了解耗用量和使用
 author: davidiseminger
 manager: kfile
@@ -8,66 +8,77 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 08/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c2ef62dc3ea8aac9c4a0d30ba4dba58e2279490
-ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
+ms.openlocfilehash: 80eb366015de3822b9c8c455f1ee386a34e1f457
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66469832"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69561024"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>在 Power BI Desktop 中分析 Azure 成本和使用量資料
 
-Power BI Desktop 可連線至 Azure，並取得有關貴組織 Azure 服務使用量的深入資料。 有了它，您就可以建立自訂報表和量值，以便更充分了解和分析您的 Azure 費用。
+您可以使用 Power BI Desktop 連線至 Azure，並取得有關貴組織 Azure 服務使用量的深入資料。 有了此資料，您就可以建立自訂報表和量值，以便更充分了解和分析您的 Azure 費用。
 
 Power BI 目前支援連線至 Enterprise 合約及客戶合約的帳單帳戶。
 
-* **Enterprise 合約**使用者應該與「Azure 使用量見解連接器」  進行連線。
+* **Enterprise 合約**使用者應使用 **Azure 使用量見解連接器**進行連線 (如下)。
 
-* **客戶合約**使用者則應該與 **Azure 成本管理連接器**進行連線。
+* **客戶合約**使用者應使用 [**Azure 成本管理連接器**](#connect-with-azure-cost-management)進行連線。
 
 ## <a name="connect-with-azure-consumption-insights"></a>與 Azure 使用量見解進行連線
 
 Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶。
 
-在本節中，您將了解如何取得所需的資料、如何從使用 Azure 企業版連接器移轉，且您會發現「使用量詳細資料資料行」  的對應，這提供於 **ACI** (Azure 使用量見解) API。
+在本節中，您會了解如何使用 Azure 企業版連接器取得您需要遷移的資料。 您也可以在 **ACI** (Azure 使用量見解) API 中找到可用的「使用量詳細資料資料行」  對應。
 
-若要成功使用 **Azure 使用深入解析**連接器進行連線，您必須能夠存取 Azure 入口網站內的企業功能。
+若要成功使用 **Azure 使用量見解**連接器，您需要存取 Azure 入口網站企業版的功能。
 
-若要使用 **Azure 使用深入解析**連接器進行連線，請在 **Power BI Desktop** 的 [首頁]  功能區中選取 [取得資料]  。 從左邊的類別選取 [線上服務]  ，您將會看到 **Microsoft Azure 使用深入解析 (搶鮮版 (Beta))** 。 選取 [連接]  。
+在 **Power BI Desktop** 中使用 **Azure 使用量見解**連接器： 
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
+1. 從 [常用]  功能區選取 [取得資料]  。
 
-在出現的對話方塊，提供您的「註冊號碼」  。
+1. 從左側的類別中選取 [線上服務]  。  
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
+1. 選取 [Microsoft Azure 使用量見解 (搶鮮版 (Beta))]  。 
 
-* 您可以從 [Azure 企業版入口網站](https://ea.azure.com)取得註冊號碼，位置如下圖所示：
+1. 選取 [連接]  。
+
+   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
+
+   在出現的對話方塊中，輸入您的 **Azure 註冊號碼**。
+
+   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
+
+   * 您可以從 [Azure 企業版入口網站](https://ea.azure.com)取得註冊號碼，位置如下圖所示：
 
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
 
-  這個版本的連接器僅支援從 https://ea.azure.com 進行的企業註冊。 中國目前不支援註冊。
+   此連接器版本只支援來自 https://ea.azure.com 的 Enterprise 註冊。 中國目前不支援註冊。
 
-接下來，提供連接用的「存取金鑰」  。
+   接下來，提供連接用的「存取金鑰」  。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
+   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
-* 您的註冊用存取金鑰可以在 [Azure 企業版入口網站](https://ea.azure.com)找到。
+   * 您的註冊用存取金鑰可以在 [Azure 企業版入口網站](https://ea.azure.com)找到。
 
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-提供「存取金鑰」  並選取 [連線]  之後，[導覽器]  視窗隨即出現，並顯示九個您可取得的資料表：
-* **預算**：提供預算詳細資料，以檢視實際成本或現有預算目標的使用情況。
-* **Marketplace**：提供用量型 Azure Marketplace 費用。
-* **PriceSheets**：藉由註冊的計量提供適用的費率。
-* **RICharges**：提供過去 24 個月與您的保留執行個體相關聯的費用。
-* **RIRecommendations_Single**：根據您單一訂用帳戶上，過去 7、30 或 60 天的使用量趨勢所提供的保留執行個體購買建議。
-* **RIRecommendations_Shared**：根據您所有訂用帳戶上，過去 7、30 或 60 天的使用量趨勢所提供的保留執行個體購買建議。
-* **RIUsage**：提供您現有保留執行個體過去一個月的使用詳細資料。
-* **Summaries**：提供包含餘額、新購買、Azure Marketplace 服務費用、調整和超額費用的每月摘要。
-* **UsageDetails**：使用量的細目和註冊的估計費用。
+在您提供「存取金鑰」  並選取 [連線]  後，隨即會出現一個 [導覽器]  視窗，顯示九個可用的資料表：
+
+| 資料表        | 描述 |
+|------------- | -------------------------------------------------------------|
+| **Budgets** | 預算詳細資料，讓您檢視實際成本或現有預算目標的使用情況。 |
+| **MarketPlace** | 用量型 Azure Marketplace 費用。 |
+| **PriceSheets** | 註冊計量的適用費率。 |
+| **RICharges** | 過去 24 個月與您保留執行個體相關聯的費用。 |
+| **RIRecommendations_Single** | 根據您單一訂用帳戶上，過去 7、30 或 60 天的使用量趨勢所提供的保留執行個體購買建議。 |
+| **RIRecommendations_Shared** | 根據您所有訂用帳戶上，過去 7、30 或 60 天的使用量趨勢所提供保留執行個體購買建議。 |
+| **RIUsage** | 您現有保留執行個體過去一個月的使用詳細資料。 |
+| **Summaries** | 餘額、新購買、Azure Marketplace 服務費用、調整和超額費用的每月摘要。 |
+| **UsageDetails** | 取用量明細和估計註冊費用。 |
 
 您可以選取任何資料表旁邊的核取方塊，以便查看預覽。 您可以藉由核取名稱旁邊的方塊，選取一或多個資料表，然後選擇 [載入]  。
 
@@ -78,7 +89,7 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 >
 >
 
-當您選取 [載入]  時，資料會載入到 **Power BI Desktop**。
+當您選取 [載入]  時，資料會載入 **Power BI Desktop**。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
@@ -87,41 +98,52 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
 
 ## <a name="using-azure-consumption-insights"></a>使用 Azure 使用深入解析
-若要使用 **Azure 使用深入解析**連接器，您必須能夠存取 Azure 入口網站內的企業功能。
+若要使用 **Azure 使用量見解**連接器，您可以存取 Azure 入口網站企業版的功能。
 
-成功使用 **Azure 使用深入解析**連接器載入資料之後，您可以使用查詢編輯器  建立自己的自訂量值和資料行，而且可以建立視覺效果、報表和儀表板，並且可以在 **Power BI 服務**中共用。
+使用 **Azure 使用量見解**連接器成功載入資料後，您可以使用 [查詢編輯器]  建立您自己的自訂量值和資料行。 您也可以建立視覺效果、報表和儀表板，以在 **Power BI 服務**中共用。
 
-Azure 也包含範例自訂查詢的集合，您可以使用空的查詢來擷取。 若要這樣做，請在 **Power BI Desktop** 的 [首頁]  功能區，選取 [取得資料]  的下拉式箭號，然後選取 [空的查詢]  。 您也可以在查詢編輯器  這麼做，方法是以滑鼠右鍵按一下左邊的 [查詢]  窗格，然後從出現的功能表選取 [新查詢] > [空的查詢]  。
+使用空白查詢，您可以擷取範例 Azure 自訂查詢集合。 您可以透過兩種方式進行此種擷取： 
 
-在 [公式列]  中鍵入以下內容：
+在 **Power BI Desktop** 中： 
+
+1. 選取 [常用]  功能區 
+2. 選取 [取得資料]   > [空白查詢]  
+
+或者，在 [查詢編輯器]  中： 
+
+1. 在左側的 [查詢]  窗格中以滑鼠右鍵按一下 
+2. 在出現的功能表中選取 [新查詢] > [空白查詢] 
+
+在 [公式列]  中，鍵入：
 
     = MicrosoftAzureConsumptionInsights.Contents
 
-隨即出現範例集合，如下圖所示：
+下圖顯示隨即出現的範例集合。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
-當處理報表和建立查詢時，請使用下列各項：
+使用報表和建立查詢時，您可以：
 
 * 若要定義從目前日期開始的月份數，請使用 *numberOfMonth*
-  * 使用介於 1 到 36 的值來代表您要匯入的月份數，從目前日期開始。 我們建議您不要取得超過 12 個月的資料，以避免匯入條件約束的臨界值，以及 Power BI 中查詢允許的資料量。
+  * 使用介於一到 36 之間的值。 代表您要匯入的月份數 (從目前的日期開始)。 我們建議您不要取得超過 12 個月份的資料。 這項限制可以避免到達 Power BI 查詢匯入條件約束和資料量閾值。
 * 若要定義歷程記錄時間範圍中的月份期間，請使用 *startBillingDataWindow* 和 *endBillingDataWindow*
-* 請「勿」將  *numberOfMonth* 與 *startBillingDataWindow* 或 *endBillingDataWindow* 搭配使用
+* 請不要與 *startBillingDataWindow* 或 *endBillingDataWindow* 一同搭配使用 *numberOfMonth*
 
-## <a name="migrating-from-the-azure-enterprise-connector"></a>從 Azure 企業版連接器移轉
-有些客戶使用 *Azure 企業版連接器 (搶鮮版 (Beta))* 建立視覺效果，這最終將會中止服務，並取代為 **Azure 使用深入解析**連接器。 **Azure 使用深入解析**連接器的功能和增強功能包括：
+## <a name="migrate-from-the-azure-enterprise-connector"></a>從 Azure 企業版連接器遷移
+
+有些客戶已使用「Azure 企業版連接器 (搶鮮版 (Beta))」  來建立視覺效果。 該連接器最終會由 **Azure 使用量見解**連接器取代。 新的連接器具備的功能和加強功能包括：
 
 * 適用於 *Balance Summary* 和 *Marketplace Purchases* 的其他資料來源
 * 新參數和進階參數，例如 *startBillingDataWindow* 和 *endBillingDataWindow*
 * 較佳的效能和回應
 
-為了協助客戶轉換到較新的 **Azure 使用深入解析**連接器，並保留他們在建立自訂儀表板或報表方面已完成的工作，下列步驟顯示如何移至新的連接器。
+接下來的步驟會示範如何轉換到 **Azure 使用量見解**連接器。 這些步驟可以保留您在建立自訂儀表板或報表時已完成的工作。
 
 ### <a name="step-1-connect-to-azure-using-the-new-connector"></a>步驟 1：使用新的連接器連線到 Azure
-第一個步驟是使用 **Azure 使用深入解析**連接器進行連線，如本文稍早所詳述。 在此步驟中，從 **Power BI Desktop** 的 [首頁]  功能區選取 **[取得資料] > [空的查詢]** 。
+第一個步驟是使用本文稍早所詳述的 **Azure 使用量見解**。 在此步驟中，從 **Power BI Desktop** 的 [首頁]  功能區選取 **[取得資料] > [空的查詢]** 。
 
-### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>步驟 2：使用進階編輯器來建立查詢
-在查詢編輯器  中，從 [首頁]  功能區的 [查詢]  區段，選取 [進階編輯器]  。 在出現的 [進階編輯器]  視窗中，輸入下列查詢：
+### <a name="step-2-create-a-query-in-advanced-editor"></a>步驟 2：在進階查詢器中建立查詢
+在 [查詢編輯器]  中，從 [常用]  功能區的 [查詢]  區段選取 [進階編輯器]  。 在出現的 [進階編輯器]  視窗中，輸入此查詢：
 
     let    
         enrollmentNumber = "100",
@@ -132,21 +154,21 @@ Azure 也包含範例自訂查詢的集合，您可以使用空的查詢來擷�
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 
-當然，您必須將 *enrollmentNumber* 的值取代為您自己的註冊號碼，您可以從 [Azure 企業版入口網站](https://ea.azure.com)取得。 *NumberOfMonth* 參數是您要傳回幾個月的資料，從目前的日期起算。 使用零 (0) 代表目前的月份。
+您需要將 *enrollmentNumber* 值替換成您的註冊號碼。 您可以從 [Azure 企業版入口網站](https://ea.azure.com)取得您的號碼。 *numberOfMonth* 參數是您要傳回幾個月的資料，從目前的日期起算。 使用零 (0) 代表目前的月份。
 
-在 [進階編輯器]  視窗中選取 [完成]  之後，預覽會重新整理，您會在資料表中看到來自指定月份範圍的資料。 選取 [關閉並套用]  然後返回。
+在 [進階編輯器]  視窗中選取 [完成]  之後，預覽會重新整理，且資料表中會出現指定月份範圍的資料。 選取 [關閉並套用]  然後返回。
 
 ### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>步驟 3：將量值和自訂資料行移至新的報表
-接下來，您必須將任何自訂資料行或您建立的量值移至新的詳細資料資料表。 以下是步驟。
+接下來，您必須將任何自訂資料行或您所建立量值移至新的詳細資料資料表。 以下是步驟。
 
 1. 開啟 [記事本] \(或其他文字編輯器)。
 2. 選取您想要移動的量值，並從 [公式]  欄位複製文字且放在 [記事本] 中。
 
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. 將 *Query1* 重新命名為原始的詳細資料資料表名稱。
-4. 在資料表中建立新的量值和自訂資料行，方法是以滑鼠右鍵按一下資料表，選擇 [新增量值]  ，然後剪下並貼上您儲存的量值和資料行，直到全部完成。
+4. 若要建立新的資料表量值和自訂資料行，請以滑鼠右鍵按一下資料表，然後選擇 [新量值]  。 然後，請剪下並貼上您儲存的量值和資料行，直到全部完成為止。
 
-### <a name="step-4-re-link-tables-that-had-relationships"></a>步驟 4：重新連結有關聯性的資料表
+### <a name="step-4-relink-tables-that-had-relationships"></a>步驟 4：重新連結具有關聯性的資料表
 許多儀表板有其他用來查閱或篩選的資料表，例如日期資料表或用於自訂專案的資料表。 重新建立這些關聯性，可以解決大部分剩餘的問題。 以下說明如何執行這項作業。
 
 - 在 **Power BI Desktop**的 [模型]  索引標籤中，選取 [管理關聯性]  ，以顯示視窗讓您管理模型內的關聯性。 視需要重新連結您的資料表。
@@ -154,13 +176,13 @@ Azure 也包含範例自訂查詢的集合，您可以使用空的查詢來擷�
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
 ### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>步驟 5：驗證視覺效果，然後視需要調整欄位格式設定
-到目前為止，您大部分的原始視覺效果、資料表和鑽研應該會正常運作。 不過，可能有一些格式設定所需的細微調整，讓一切看來正如您所想要。 需要一些時間查看每個儀表板和視覺效果，以確保它們看來如您所想要。
+此時，您大部分的原始視覺效果、資料表和向下鑽研應該都已正常運作。 但是您可能需要進行一些小幅度的調校，來精確地設定外觀及操作的格式。 請花費一些時間查看每個儀表板和視覺效果，確保它們看起來與您想要的外觀一致。
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>使用 Azure 使用深入解析 (ACI) API 來取得使用資料
 Azure 也提供 [**Azure 使用深入解析 (ACI) API**](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/)。 您可以建立自己的自訂解決方案，來使用 ACI API 收集、報告和視覺化 Azure 使用資訊。
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>在入口網站、連接器和 API 之間對應名稱和使用詳細資料
-Azure 入口網站中的詳細資料資料行和名稱，在 API 和連接器中類似，但並非完全相同。 為了協助釐清，下表提供 API、連接器與您在 Azure 入口網站中看到的資料行之間的對應。 同時也指出資料行是否已經淘汰。 如需這些詞彙的詳細資訊和定義，請參閱 [Azure 帳單資料字典](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail)。
+Azure 入口網站資料行和詳細資料名稱在 API 和連接器中非常相似，雖然並非完全相同。 為了協助您進行釐清，下表提供對應。 同時也指出資料行是否已經淘汰。 如需詳細資訊和字詞定義，請參閱 [Azure 計費資料字典](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail)。
 
 | ACI 連接器 / ContentPack ColumnName | ACI API 資料行名稱 | EA 資料行名稱 | 已淘汰/為了回溯相容性而存在 |
 | --- | --- | --- | --- |
@@ -219,38 +241,61 @@ Azure 入口網站中的詳細資料資料行和名稱，在 API 和連接器中
 >
 >
 
-若要使用 **Azure 成本管理**連接器進行連線，請從 **Power BI Desktop** 的 [首頁]  功能區中選取 [Get Data] \(取得資料\)  。  從左側的類別選取 [Azure]  ，您會看到 [Azure Cost Management (Beta)] \(Azure 成本管理 (搶鮮版 (Beta))\)  。 選取 [連接]  。
+在 **Power BI Desktop** 中使用 **Azure 成本管理**連接器：
 
-![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
+1. 從 [常用]  功能區選取 [取得資料]  。
 
-在出現的對話方塊中，輸入您的「帳單設定檔識別碼」  。
+1. 從左側的類別中選取 [Azure]  。
 
-![](media/desktop-connect-azure-consumption-insights/azure-cost-management-01.png)
+1. 選取右側的 [Azure 成本管理 (搶鮮版 (Beta))]  。
 
-您可以從 [Azure 入口網站](https://portal.azure.com)取得帳單設定檔識別碼。  巡覽至 [Cost Management + Billing] \(成本管理 + 帳單\)  ，並選取您的帳單帳戶，然後選取側邊欄中的 [Biling profiles] \(帳單設定檔\)  。  選取您的帳單設定檔，然後選取側邊欄中的 [屬性]  。  複製您的帳單設定檔識別碼。
+1. 選取 [連接]  。
 
-![](media/desktop-connect-azure-consumption-insights/azure-cost-management-02.png)
 
-系統會提示您使用 Azure 電子郵件和密碼登入。  進行驗證之後，您會看到 [導覽器]  視窗，其中有 12 個資料表可供您使用：
+   ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
 
-* **帳單事件**：提供新發票、點數購買等事件記錄檔。
-* **預算**：提供預算詳細資料，以檢視實際成本或現有預算目標的使用情況。
-* **費用**：提供 Azure 使用量、市場費用和分別計費費用的月份層級摘要。
-* **整批點數**：為所提供帳單設定檔提供 Azure 整批購買點數的詳細資料。
-* **點數摘要**：為所提供帳單設定檔提供點數摘要。
-* **Marketplace**：提供用量型 Azure Marketplace 費用。
-* **價位表**：為所提供帳單設定檔提供依計量排列的適用費率。
-* **RI 費用**：提供過去 24 個月與您的保留執行個體相關聯的費用。
-* **RI 建議 (單一)** ：根據您單一訂用帳戶上，過去 7、30 或 60 天的使用量趨勢所提供的保留執行個體購買建議。
-* **RI 建議 (共用)** ：根據您所有訂用帳戶上，過去 7、30 或 60 天的使用量趨勢所提供的保留執行個體購買建議。
-* **RI 使用量**：提供您現有保留執行個體過去一個月的使用詳細資料。
-* **使用量詳細資料**：為所指定帳單設定檔識別碼提供使用量的細目和估計費用。
+   在出現的對話方塊中，輸入您的**帳單設定檔識別碼**。
 
-您可以選取任何資料表旁邊的核取方塊，以便查看預覽。  您可以藉由核取名稱旁邊的方塊，然後選取 [載入]  ，以選取一或多個資料表。
+   ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-01.png)
+
+您可以從 [Azure 入口網站](https://portal.azure.com)取得您的識別碼：
+
+1. 巡覽至 [成本管理 + 帳單]  。
+
+1. 選取您的計費帳戶。
+
+1. 在側邊欄中選取 [帳單設定檔]  。
+
+1. 選取您的帳單設定檔。
+
+1. 在側邊欄中選取 [屬性]  。
+
+1. 複製您的帳單設定檔識別碼。
+
+   ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-02.png)
+
+   系統會提示您使用 Azure 電子郵件和密碼登入。  在您進行驗證後，隨即會向您顯示一個 [導覽器]  視窗和 12 個可用資料表：
+
+| 資料表        | 描述 |
+|-------------------- | -------------------------------------------------------------|
+| **帳單事件** | 新發票、點數購買等事件記錄檔。 |
+| **Budgets** | 預算詳細資料，讓您檢視實際成本或現有預算目標的使用情況。 |
+| **費用** | Azure 使用量、市場費用和分別計費費用的月份層級摘要。 |
+| **整批點數** | 所提供帳單設定檔 Azure 整批購買點數的詳細資料。 |
+| **點數摘要** | 所提供帳單設定檔的點數摘要。 |
+| **Marketplace** | 用量型 Azure Marketplace 費用。 |
+| **價位表** | 所提供帳單設定檔的適用計量費率。 |
+| **RI 費用** | 過去 24 個月與您保留執行個體相關聯的費用。 |
+| **RI 建議 (單一)** | 根據您單一訂用帳戶上，過去 7、30 或 60 天使用量趨勢所提供的保留執行個體購買建議。 |
+| **RI 建議 (共用)** | 根據您所有訂用帳戶上，過去 7、30 或 60 天使用量趨勢所提供的保留執行個體購買建議。 |
+| **RI 使用量** | 您現有保留執行個體過去一個月的使用詳細資料。 |
+| **使用量詳細資料** | 所指定帳單設定檔識別碼的取用量明細和估計費用。 |
+
+您可以選取資料表核取方塊來查看預覽。  您可以藉由核取名稱旁邊的方塊，然後選取 [載入]  ，以選取一或多個資料表。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-03.png)
 
-當您選取 [載入]  時，資料會載入到 **Power BI Desktop**。
+當您選取 [載入]  時，資料會載入 **Power BI Desktop**。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
@@ -258,13 +303,21 @@ Azure 入口網站中的詳細資料資料行和名稱，在 API 和連接器中
 
 ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-05.png)
 
-請觀看 [How to analyze spending in Power BI with Azure Consumption Insights](https://www.youtube.com/watch?v=QKBMXXrlpEk) (如何使用 Azure 使用量見解分析 Power BI 的支出) 影片，以了解如何使用 Azure 使用量見解連接器檢閱 Power BI Desktop 中的成本資料。
+觀看 [How to analyze spending in Power BI with Azure Consumption Insights](https://www.youtube.com/watch?v=QKBMXXrlpEk) (如何在 Power BI 中使用 Azure 使用量見解分析費用)。 此影片會說明在 Power BI Desktop 中使用 Azure 使用量見解連接器來檢閱您的成本資料。
 
 ## <a name="writing-custom-queries"></a>撰寫自訂查詢
 
-如果您想要自訂月數、變更 API 版本，或對傳回的資料執行更進階的邏輯，您可以建立自訂 M 查詢。
+您可以建立自訂 [M 查詢](/powerquery-m/power-query-m-reference)來自訂月份數、變更 API 版本，或針對所傳回資料執行更進階的邏輯。
 
-請移至 **Power BI Desktop** 的 [首頁]  功能區，並選取 [Get Data] \(取得資料\)  的下拉式箭號，然後選取 [空白查詢]  。  您也可以在**查詢編輯器**中這麼做，方法是以滑鼠右鍵按一下左側的 [查詢]  窗格，然後從出現的功能表中選取 [新增查詢] > [Blank Menu] \(空白功能表\)  。
+在 **Power BI Desktop** 中：
+
+1. 選取 [常用]  功能區
+2. 選取 [取得資料]   > [空白查詢] 
+
+或者，在 [查詢編輯器]  中：
+
+1. 在左側的 [查詢]  窗格中以滑鼠右鍵按一下
+2. 在出現的功能表中選取 [新查詢] > [空白功能表] 
 
 在 [公式列]  中鍵入下列內容，將 `billingProfileId` 取代為您的實際識別碼，並將 "charges" 取代為任何有效的資料表名稱 (如先前所列)。
 
@@ -276,14 +329,14 @@ in
     charges
 ```
 
-除了將 `numberOfMonths` 修改為介於 1 到 36 之間的任何值，您還可以提供：
+除了將 `numberOfMonths` 修改為介於 1 到 36 之間的任何值外，您還可以提供：
 
-* `apiVersion`，用來自訂查詢將會呼叫的 API 版本。
-* `lookbackWindow` 適用於 RI 建議 (單一或共用)，用來修改要從中產生建議的時間範圍 (有效的選項：7、30 或 60 天)
-
+* `apiVersion` 來自訂查詢呼叫的 API 版本。
+* `lookbackWindow` 適用於 RI 建議 (單一或共用)，用來修改要從中產生建議的時間範圍 (有效的選項：7、30 或 60 天)。
 
 ## <a name="next-steps"></a>後續步驟
-您可以使用 Power BI Desktop 連接至各式各樣的資料。 如需有關資料來源的詳細資訊，請參閱下列資源︰
+
+您可以使用 Power BI Desktop 連線到許多不同的資料來源。 如需詳細資訊，請參閱下列文章：
 
 * [Power BI Desktop 是什麼？](desktop-what-is-desktop.md)
 * [Power BI Desktop 中的資料來源](desktop-data-sources.md)

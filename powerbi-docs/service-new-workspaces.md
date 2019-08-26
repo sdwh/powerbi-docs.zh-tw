@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418667"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530492"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 中組織新工作區中的工作
 
@@ -36,7 +36,7 @@ ms.locfileid: "67418667"
 當您建立其中一個新工作區時，不會建立基礎的相關聯 Office 365 群組。 所有工作區管理都是在 Power BI 中進行，而不是 Office 365。 在新的工作區體驗中，您現在可以在工作區存取清單中新增 Office 365 群組，以繼續透過 Office 365 群組管理使用者對內容的存取。
 
 ## <a name="administering-new-workspace-experience-workspaces"></a>管理新的工作區體驗工作區
-現在可在 Power BI 中管理新的工作區體驗工作區，因為 Power BI 系統管理員可決定組織中的誰可以建立工作區。 他們也可以管理和復原工作區。 若要這樣做，他們需要使用 Power BI 管理入口網站或 PowerShell Cmdlet。 對於以 Office 365 群組為基礎的傳統工作區，可在 Office 365 管理入口網站和 Azure Active Directory 中繼續進行管理。
+現在可在 Power BI 中管理新的工作區體驗工作區，因為 Power BI 系統管理員可決定組織中的誰可以建立工作區。 他們也可以使用 Power BI 管理入口網站或 PowerShell Cmdlet 來管理及復原工作區。 對於以 Office 365 群組為基礎的傳統工作區，可在 Office 365 管理入口網站和 Azure Active Directory 中繼續進行管理。
 
 在管理入口網站的 [工作區設定]  中，系統管理員可以使用 [建立工作區] (新的工作區體驗) 設定，來允許組織中的每個人或不允許任何人建立新的工作區體驗工作區。 他們也可以限制只有特定安全性群組的成員才能建立。
 
@@ -59,9 +59,9 @@ Power BI 管理入口網站中[提供工作區清單](service-admin-portal.md#wo
 
 角色可讓您管理誰可以在工作區中做什麼，因此小組可以共同作業。 新的工作區可讓您將角色指派給個人和使用者群組：安全性群組、Office 365 群組，以及通訊群組清單。 
 
-當您將角色指派給使用者群組時，群組中的個人可以存取內容。 如果巢狀處理使用者群組，則所有包含的使用者都具有權限。 在數個使用者群組中具有不同角色的使用者，會獲得授與他們的最高層級權限。 
+當您將角色指派給使用者群組時，群組中的個人可以存取內容。 如果巢狀處理使用者群組，則所有包含的使用者都具有權限。
 
-新的工作區提供四種角色：系統管理員、成員、參與者和檢視者。
+以下是四種角色的功能：系統管理員、成員、參與者和檢視者。
 
 |功能   | 系統管理員  | 成員  | 參與者  | 檢視者 |
 |---|---|---|---|---|
@@ -74,23 +74,26 @@ Power BI 管理入口網站中[提供工作區清單](service-admin-portal.md#wo
 | 建立、編輯和刪除工作區中的內容。  |  X | X  | X  |   |
 | 將報表發佈至工作區、刪除內容。  |  X | X  | X  |   |
 | 檢視項目。 |  X | X  | X  | X  |
- 
+| 根據此工作區中的資料集，在另一個工作區中建立報表。 |  X | X  | X  | X <sup>1</sup>  |
+| 複製報表。 | X | X | X | X <sup>1</sup> |
+
+**1** 需要 Power BI Pro 授權和[資料集的建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。 
  
 ## <a name="licensing"></a>授權
 新增至共用容量中工作區的每個人都必須有 Power BI Pro 授權。 在工作區中，這些使用者皆可在儀表板和報表上共同作業，以準備發佈給更多對象，甚至整個組織。 
 
 如果您想要將內容散發給組織內的其他人，則可以將 Power BI Pro 授權指派給這些使用者，或將工作區置於 Power BI Premium 容量中。
 
-當工作區在 Power BI Premium 容量中時，具有檢視者角色的使用者可以存取工作區，即使他們沒有 Power BI Pro 授權也一樣。 不過，如果您將較高的角色 (例如系統管理員、成員或參與者) 指派給這些使用者，他們將無法存取工作區。 系統會在他們嘗試存取工作區時提示他們啟動 Pro 試用版。 若要在沒有 Pro 授權的情況下，利用使用者的檢視者功能，請確定檢視者角色中的使用者未以下列方式位於其他工作區角色中：個別或透過使用者群組。 
+當工作區在 Power BI Premium 容量中時，具有檢視者角色的使用者可以存取工作區，即使他們沒有 Power BI Pro 授權也一樣。 不過，如果您將較高的角色 (例如系統管理員、成員或參與者) 指派給這些使用者，系統會在其嘗試存取工作區時提示他們啟動 Pro 試用版。 若要在沒有 Pro 授權的情況下，利用使用者的檢視者功能，請確定檢視者角色中的使用者未以下列方式位於其他工作區角色中：個別或透過使用者群組。 
 
 > [!NOTE]
 > 將報表發佈至新的工作區體驗會更嚴格地強制執行現有的授權規則。 嘗試在沒有 Pro 授權的情況下，從 Power BI Desktop 或其他用戶端工具發佈的使用者會看到「只有具備 Power BI Pro 授權的使用者才能發佈至這個工作區」錯誤。
 
-## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>新工作區與目前工作區有何不同？
+## <a name="how-the-new-workspaces-are-different"></a>新工作區的不同之處
 
 我們使用新的工作區重新設計了一些功能。 以下是您可預期為永久性的變更。 
 
-* 建立這些工作區不會如傳統工作區一般建立 Office 365 群組。 不過，您現在可以使用 Office 365 群組，藉由指派角色給它，讓使用者可以存取您的工作區。 
+* 建立這些工作區不會如典型工作區一般建立 Office 365 群組。 不過，您現在可以使用 Office 365 群組，藉由指派角色給它，讓使用者可以存取您的工作區。 
 * 在傳統工作區中，您只能將個人新增至成員和系統管理員清單。 在新的工作區中，您可以將多個 AD 安全性群組、通訊群組清單或 Office 365 群組新增至這些清單，以便能夠更輕鬆地進行使用者管理。 
 - 您可以從傳統工作區建立組織內容套件。 但無法從新的工作區建立組織內容套件。
 - 您可以從傳統工作區取用組織內容套件。 但無法從新的工作區取用組織內容套件。

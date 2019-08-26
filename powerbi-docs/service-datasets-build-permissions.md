@@ -1,5 +1,5 @@
 ---
-title: 建立和共用資料集 (預覽) - Power BI
+title: 共用資料集 (預覽)
 description: 身為資料集擁有者，您可以建立和共用您的資料集，讓其他人也可以使用。 了解如何使用建置權限控制誰可以存取資料。
 author: maggiesMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22339b3d5062c01b3795086eede24ed6a8e7d7e7
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 17c3322ed5f24d106412bafb9c4235ee15a626aa
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461756"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530528"
 ---
-# <a name="create-and-share-datasets-preview"></a>建立和共用資料集 (預覽)
+# <a name="share-a-dataset-preview"></a>共用資料集 (預覽)
 
 身為 Power BI Desktop 中的「資料模型」  建立者，您可以共用這些模型，作為 Power BI 服務中的「資料集」  。 接著，報表建立者可以輕鬆探索並重複使用您共用的資料集。 了解如何共用資料集，以及如何使用建置權限控制誰可以存取資料。
 
@@ -31,7 +31,7 @@ ms.locfileid: "66461756"
     
     此工作區的其他成員，已經可以根據此資料集在其他工作區中建立報表。
 
-1. 現在您可以從這個工作區[建立應用程式](service-create-distribute-apps.md)。 當您這麼做時，您可以在 [權限]  頁面上指定誰具有權限來進行哪些項目。
+1. 您也可以從此工作區[發佈應用程式](service-create-distribute-apps.md)。 當您這麼做時，您可以在 [權限]  頁面上指定誰具有權限來進行哪些項目。
 
     > [!NOTE]
     > 如果您選取 [整個組織]  ，組織中將沒有任何人具有建置權限。 此為已知的問題。 因此，請在 [特定的個人或群組]  中指定電子郵件地址。  如果您希望整個組織都具有建置權限，請指定整個組織的電子郵件別名。
@@ -46,6 +46,8 @@ ms.locfileid: "66461756"
 
 使用者可以藉由不同方式取得建置權限：
 
+- 若您是工作區中至少擁有「參與者」角色的成員，您便會自動擁有該資料集的「建置」權限，以及複製報表的權限。
+ 
 - 資料集所在的工作區成員，可以將權限指派給權限中心內的特定使用者或安全性群組。 選取資料集 > [管理權限]  旁的省略符號 (...)。
 
     ![選取省略符號](media/service-datasets-build-permissions/power-bi-dataset-manage-permissions.png)
@@ -54,13 +56,13 @@ ms.locfileid: "66461756"
 
     ![權限中心](media/service-datasets-build-permissions/power-bi-dataset-permissions.png)
 
-- 資料集所在工作區的系統管理員或成員，可以在發佈應用程式期間決定具有應用程式權限之使用者也可以獲得基礎資料集的建置權限。 請參閱[共用資料集的步驟](#steps-to-sharing-your-dataset)以取得詳細資料。
+- 資料集所在工作區的系統管理員或成員，可以在發佈應用程式期間決定具有應用程式權限之使用者也可以獲得基礎資料集的建置權限。 請參閱本文中的[共用您資料集的步驟](#steps-to-sharing-your-dataset)以取得詳細資料。
 
 - 假設您擁有在資料集上再次共用與建置的權限。 當您共用根據該資料集所建置的報表或儀表板時，您可以指定收件者也可獲得基礎資料集的建置權限。
 
     ![建置權限](media/service-datasets-build-permissions/power-bi-share-report-allow-users.png)
 
-您可以移除人員對資料集的建置權限。 如果您這麼做，他們仍可以查看建置於共用資料集的報表，但無法再加以編輯。
+您可以移除人員對資料集的「建置」權限。 如果您這麼做，他們仍可以查看建置於共用資料集的報表，但無法再加以編輯。
 
 ## <a name="more-granular-permissions"></a>更細微的權限
 

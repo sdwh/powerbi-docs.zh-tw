@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fc5991a95b51f71d0db522d4de84454de4ca2
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590610"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995272"
 ---
 # <a name="key-influencers-visualization"></a>關鍵影響因素視覺效果
 關鍵影響因素視覺效果可協助您了解影響您感興趣計量的因素。 可分析您的資料、為重要因素排名並將其顯示為關鍵影響因素。 例如，假設您想要了解影響員工流動率 (也稱為變換) 的因素。 其中一項因素可能是雇用合約長度，另一項因素可能是員工年齡。 
@@ -24,9 +24,6 @@ ms.locfileid: "68590610"
 如果您想要執行下列作業，關鍵影響因素視覺效果會是不錯的選擇： 
 - 查看哪些因素會影響正在分析的計量。
 - 對比這些因素的相對重要性。 例如，針對客戶流失，短期合約是否比長期合約的影響更大？ 
-
-## <a name="key-influencer-requirements"></a>關鍵影響因素需求 
-您所分析的計量必須是類別目錄欄位或數值欄位 (目前不支援彙總和量值)。
 
 ## <a name="features-of-the-key-influencers-visual"></a>關鍵影響因素視覺效果的功能
 
@@ -44,15 +41,13 @@ ms.locfileid: "68590610"
 
 6. **右窗格**：右窗格包含一個視覺效果。 在此案例中，直條圖會顯示左窗格中所選關鍵影響因素 (**主題**) 的所有值。 左窗格中的特定值 (**可用性**) 會以綠色顯示。 **主題**的所有其他值會以黑色顯示。
 
-7. **平均線**：計算**主題**所有其他可能值 (除了**可用性**以外) 的平均值。 因此，計算會套用至所有黑色的值。 這會告訴您有多少百分比的其他**主題**給予您低評等。 換句話說，客戶給予評等時，該客戶也會描述評等的原因或主題。 其中一些主題包括可用性、速度和安全性。 
+7. **平均線**：計算**可用性** (這是選取的影響因素) 以外**主題**所有可能值的平均值。 因此，計算會套用至所有黑色的值。 這會告訴您有多少百分比的其他**主題**擁有低評等。 在此案例中，11.35% 擁有低評等 (以虛線顯示)。
 
-   根據左窗格中的視覺效果，[主題是可用性]  是低評等的第二高關鍵影響因素。 如果您將所有其他主題及其對 [低]  評等的比重進行平均，您會得到以紅色顯示的結果。 在提供的所有其他主題中，只有 11.35% 高於 [可用性]  。
+8. **核取方塊**：篩選出右窗格中的視覺效果，只顯示屬於該欄位影響因素的值。 在此範例中，這會將視覺效果篩選為可用性、安全性和瀏覽。
 
-8. **核取方塊**：**只顯示屬於影響因素的值**。
-
-## <a name="create-a-key-influencers-visual"></a>建立關鍵影響因素視覺效果 
+## <a name="analyze-a-metric-that-is-categorical"></a>分析類別目錄計量
  
-觀看這段影片以了解如何建立關鍵影響因素視覺效果。 然後遵循下列步驟建立一個視覺效果。 
+觀看這段影片以了解如何使用類別目錄計量來建立關鍵影響因素視覺效果。 然後遵循下列步驟建立一個視覺效果。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -65,20 +60,24 @@ ms.locfileid: "68590610"
 
     ![從 [視覺效果] 窗格中選取 [關鍵影響因素] 範本](media/power-bi-visualization-influencers/power-bi-template-new.png)
 
-2. 將您想要調查的計量移至 [分析]  欄位。 [分析]  欄位僅支援類別目錄 (或非持續) 變數。 若要了解造成客戶對服務給予低評等的因素，請選取 [客戶資料表]   > [評等]  。 
+2. 將您想要調查的計量移至 [分析]  欄位。 若要了解造成客戶對服務給予低評等的因素，請選取 [客戶資料表]   > [評等]  。
+
 3. 將您認為可能會影響**評等**的欄位移至 [說明依據]  欄位。 您可以視需要移動許多欄位。 在此案例中，請從下列欄位開始：
     - 國家/地區 
     - 組織中的角色 
     - 訂閱類型 
     - 公司規模 
-    - 佈景主題 
-1. 若要專注於負面評等，請在 [哪些影響因素評等為]  下拉式清單方塊中選取 [低]  。  
+    - 佈景主題
+    
+4. 將 [展開依據]  欄位保留空白。 只有在分析量值或摘要欄位時，才會使用此欄位。 
+
+5. 若要專注於負面評等，請在 [哪些影響因素評等為]  下拉式清單方塊中選取 [低]  。  
 
     ![從下拉式清單方塊中選取 [低]](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
 
 分析會在所分析欄位的資料表層級執行。 在此案例中為**評等**計量。 此計量是在客戶層級定義。 每個客戶已給予高分或低分。 所有說明因素都必須在客戶層級定義，以供視覺效果使用。 
 
-在上述範例中，所有說明因素都與計量具有一對一或多對一關聯性。 在此案例中，每個分數都有一個與其建立關聯的主題。 此主題是客戶評論中的主要主題。 同樣地，來自同一國家/地區的客戶在其組織中都有一種成員資格類型並執行一個角色。 說明因素已經是客戶的屬性且不需要轉換。 視覺效果可以立即使用。 
+在上述範例中，所有說明因素都與計量具有一對一或多對一關聯性。 在此案例中，每個客戶已將單一主題指派給其評等。 同樣地，來自同一國家/地區的客戶在其組織中都有一種成員資格類型並執行一個角色。 說明因素已經是客戶的屬性且不需要轉換。 視覺效果可以立即使用。 
 
 稍後在教學課程中，您將探討更複雜的範例，包含一對多關聯性。 在這些案例中，資料行必須先向下彙總至客戶層級，才能執行分析。 
 
@@ -89,7 +88,7 @@ ms.locfileid: "68590610"
 
 ### <a name="top-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>可能對低評等造成影響的最主要單一因素
 
-此範例中的組織有三個角色：取用者、管理員和發行者。 取用者是導致低評等的主要因素。 
+此範例中的客戶可能有三個角色：取用者、管理員和發行者。 取用者是導致低評等的主要因素。 
 
 ![選取 [組織中的角色是取用者]](media/power-bi-visualization-influencers/power-bi-role-consumer.png)
 
@@ -138,7 +137,7 @@ ms.locfileid: "68590610"
 
 在某些情況下，您可能會發現連續因素已自動轉換成類別因素。 這是因為我們已了解變數之間的關聯性非為線性，因此我們無法將關聯性描述為只是增加或減少 (就像我們在上述範例中所做的一樣)。
 
-我們會執行相互關聯測試，以判斷影響因素對於目標的線性程度。 如果目標為連續，我們會執行 Perasons 相互關聯，如果目標為類別，我們就會執行 Point Biserial 相互關聯測試。 如果我們偵測到關聯性不夠線性，我們會進行受監督量化，並產生最多 5 個 Bin。為了找出哪些 Bin 最合理，我們使用受監督量化方法，它會查看說明因素與分析中目標之間的關聯性。
+我們會執行相互關聯測試，以判斷影響因素對於目標的線性程度。 如果目標為連續，我們會執行 Pearsons 相互關聯，如果目標為類別目錄，我們就會執行 Point Biserial 相互關聯測試。 如果我們偵測到關聯性不夠線性，我們會進行受監督量化，並產生最多 5 個 Bin。為了找出哪些 Bin 最合理，我們使用受監督量化方法，它會查看說明因素與分析中目標之間的關聯性。
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>將量值和彙總解譯為關鍵影響因素 
  
@@ -165,9 +164,29 @@ ms.locfileid: "68590610"
 
 ![選取第一個主要區段](media/power-bi-visualization-influencers/power-bi-top-segments2.png)
 
-## <a name="working-with-numerical-data"></a>使用數值資料
+## <a name="adding-counts"></a>新增計數
 
-如果您將數值欄位移至 [分析]  欄位，您就可以選擇如何處理該案例。 您可以變更視覺效果的行為，方法是移至 [格式設定]  窗格，然後在**類別目錄分析類型**與**連續分析類型**之間切換。
+有時影響因素可能會有重大影響，但代表非常少的資料。 例如，[主題] **是 [可用性]**  為低評等的第二大影響因素。 不過，可能只有少數客戶抱怨可用性。 計數可協助您排列想要專注的影響因素優先順序。
+
+您可以透過格式設定窗格的 [分析]  卡片來開啟計數。
+
+![新增計數](media/power-bi-visualization-influencers/power-bi-ki-counts-toggle.png)
+
+一旦開啟計數，您就會在每個影響因素的泡泡周圍看到環形，代表影響因素所包含資料的約略百分比。 環形包圍泡泡的面積越多，它所包含的資料就越多。 我們可以看到 [主題]**為** [可用性]  包含非常小的資料比例。
+
+![顯示計數](media/power-bi-visualization-influencers/power-bi-ki-counts-ring.png)
+
+您也可以使用視覺效果左下方的 [排序依據] 切換，先依計數 (而不是影響) 來排序泡泡。 [訂閱類型] **為 [頂級]**  是根據計數的前幾名影響因素。
+
+![依計數排序](media/power-bi-visualization-influencers/power-bi-ki-counts-sort.png)
+
+在圓形周圍具有全環表示影響因素包含 100% 的資料。 您可以使用格式設定窗格 [分析]  卡片中的 [計數類型]  下拉式清單，將計數類型變更為相對於最大影響因素。 現在，具有最多資料量的影響因素會以全環表示，而所有其他計數會相對於它。
+
+![顯示相對計數](media/power-bi-visualization-influencers/power-bi-ki-counts-type.png)
+
+## <a name="analyze-a-metric-that-is-numeric"></a>分析數值計量
+
+如果您將未摘要的數值欄位移至 [分析]  欄位，您就可以選擇如何處理該案例。 您可以變更視覺效果的行為，方法是移至 [格式設定]  窗格，然後在**類別目錄分析類型**與**連續分析類型**之間切換。
 
 ![從 [類別目錄] 變更為 [連續]](media/power-bi-visualization-influencers/power-bi-ki-formatting.png)
 
@@ -212,6 +231,30 @@ ms.locfileid: "68590610"
 
 ![數值目標量值影響因素](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
+## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>分析量值或摘要資料行計量
+
+在量值或摘要資料行的案例中，分析會預設為[上述](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)的**連續分析類型**。 這無法變更。 分析量值/摘要資料行與未摘要數值資料行之間的最大差異，在於分析執行的層級。
+
+在未摘要資料行的案例中，分析一律會在資料表層級執行。 在上述房價範例中，我們分析了 [房價]  計量來查看哪些因素會影響房價變高/變低。 分析會自動在資料表層級執行。 在我們的資料表中，每個房屋有唯一的識別碼，因此分析會在房屋層級執行。
+
+![量值資料表](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
+
+針對量值和摘要資料行，我們不會立即得知分析所在的層級。 如果 [房價]  已摘要為 [平均值]  ，我們必須考慮想要計算此平均房價的層級。 這是鄰近地區層級的平均房價嗎？ 還是區域層級？
+
+量值和摘要資料行會自動在所使用的 [說明依據]  欄位層級分析。 假設我們對 [說明依據]  中的三個欄位感興趣：[廚房品質]  、[建築物類型]  和 [空調]  。 我們會針對這三個欄位的每個唯一組合計算 [平均房價]  。 切換至資料表檢視以查看所要評估的資料外觀通常會很有幫助。
+
+![量值資料表](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
+
+此分析經過相當程度的摘要，因此迴歸模型很難在資料中找到可從中學習的任何模式。 我們應該以更詳細的層級執行分析，以獲得更好的結果。 如果我們想要在房屋層級分析房價，則必須明確將 [識別碼]  欄位新增至分析。 不過，我們不想要將房屋識別碼視為影響因素。 了解房價是否會隨著房屋識別碼增加而增加並沒有幫助。 此時 [展開依據]  欄位部分選項會派上用場。 您可以使用 [展開依據]  新增要用於設定分析層級的欄位，而不需要尋找新的影響因素。
+
+讓我們看看將 [識別碼]  新增至 [展開依據]  之後的視覺效果外觀。 定義您要評估量值的層級之後，解譯影響因素的方式會與[未摘要的數值資料行](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)完全相同。
+
+![量值資料表](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
+
+如果您想要深入了解如何使用關鍵影響因素視覺效果來分析量值，請觀看下列教學課程。
+
+<iframe width="1167" height="631" src="https://www.youtube.com/embed/2X1cW8oPtc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解 
  
 **視覺效果的限制有哪些？** 
@@ -219,7 +262,7 @@ ms.locfileid: "68590610"
 關鍵影響因素視覺效果有一些限制：
 
 - 不支援 Direct Query
-- 不支援即時連線至 Azure Analysis Services 和 Sql Server Analysis Services
+- 不支援即時連線到 Azure Analysis Services 和 SQL Server Analysis Services
 - 不支援發佈到 Web
 - 需要 .NET Framework 4.6 或更高版本
 
@@ -244,6 +287,12 @@ ms.locfileid: "68590610"
 建議您對所選狀態進行至少 100 次觀察。 在此案例中，狀態是流失的客戶。 您也需要對用於比較的狀態進行至少 10 次觀察。 在此案例中，比較狀態是未流失的客戶。
 
 如果您正在分析數值欄位，您可能想要在 [分析]  卡片下的 [格式設定]  窗格中，從**類別目錄分析**切換為**連續分析**。
+
+**我看到一項錯誤，指出未執行摘要「分析」時，分析一律會在其父資料表的資料列集層執行。不允許透過 [展開依據] 欄位變更此層級。為什麼會這樣？**
+
+分析數值或類別目錄資料行時，分析一律會在資料表層級執行。 例如，如果您想要分析房價，且您的資料表包含 [識別碼] 資料行，則分析會自動在房屋識別碼層級執行。 
+
+當您想要分析量值或摘要資料行時，您必須明確指定分析要執行的層級。 您可以使用 [展開依據]  來變更量值和摘要資料行的分析層級，而不需要新增影響因素。 如果已將 [房價]  定義為量值，您可以將 [房屋識別碼] 資料行新增至 [展開依據]  來變更分析層級。
 
 **我看到一項錯誤，指出 [說明依據]  中的欄位與包含所分析計量的資料表不具有唯一關聯性。為什麼會這樣？**
  

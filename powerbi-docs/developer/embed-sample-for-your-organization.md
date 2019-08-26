@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: 1c110022c27cf0e213484619a750140a63a7d0dc
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808241"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490398"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 內容內嵌至應用程式
 
@@ -35,7 +35,7 @@ ms.locfileid: "68808241"
 * [Power BI Pro 帳戶](../service-self-service-signup-for-power-bi.md)。
 * [Microsoft Azure](https://azure.microsoft.com/) 訂用帳戶。
 * 您必須設定自己的 [Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)。
-* 若要內嵌編頁報表，您需要至少 A4/P1 容量；請參閱[我需要針對編頁報表使用何種大小的 Premium 容量？](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)。
+* 若要內嵌編頁報表，您需要至少 P1 容量；請參閱[我需要針對編頁報表使用何種大小的 Premium 容量？](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)。
 
 如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
 
@@ -45,7 +45,7 @@ ms.locfileid: "68808241"
 
 在您開始將報表、儀表板或磚內嵌至您的應用程式之前，必須先確定您的環境允許使用 Power BI 內嵌。
 
-您可以瀏覽[內嵌設定工具](https://aka.ms/embedsetup/UserOwnsData)，即可快速開始使用及下載範例應用程式，協助您逐步建立環境及內嵌報表。 在內嵌編頁報表的案例中，您需要指派至少 A4/P1 容量給所建立的應用程式工作區。
+您可以瀏覽[內嵌設定工具](https://aka.ms/embedsetup/UserOwnsData)，即可快速開始使用及下載範例應用程式，協助您逐步建立環境及內嵌報表。 在內嵌編頁報表的案例中，您需要指派至少 P1 容量給所建立的應用程式工作區。
 
 若選擇手動設定環境，您可以繼續進行下列步驟。
 
@@ -83,7 +83,7 @@ ms.locfileid: "68808241"
    
 ### <a name="create-and-publish-your-paginated-reports"></a>建立並發佈您的編頁報表
 
-您可以使用 [Power BI 報表產生器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)建立您的編頁報表。然後您可以[上傳報表](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)到指派給至少具備 A4/P1 容量的應用程式工作區。 上傳報表的終端使用者需要擁有 Power BI Pro 授權才能發佈至應用程式工作區。
+您可以使用 [Power BI 報表產生器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)來建立編頁報表。 然後，您可以[上傳報表](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)到至少指派 P1 容量的應用程式工作區。 上傳報表的終端使用者需要擁有 Power BI Pro 授權才能發佈至應用程式工作區。
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>使用範例應用程式來內嵌內容
 
@@ -152,9 +152,6 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 Power BI 報表 URL <br>
 
 ![PBI reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
-
-編頁報表 URL <br>
-
 
 
 編頁報表 URL<br>
@@ -384,7 +381,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>建立專用容量
 
-建立專用容量，您應用程式工作區中的內容即可享有專用資源。 針對編頁報表，您必須以至少 A4/P1 容量作為您應用程式工作區的後端。您可以使用 [Power BI Premium](../service-premium-what-is.md) 來建立專用容量。
+建立專用容量，您應用程式工作區中的內容即可享有專用資源。 針對編頁報表，您必須使用至少 P1 容量來備份您的應用程式工作區。 您可以使用 [Power BI Premium](../service-premium-what-is.md) 建立專用容量。
 
 下表列出 [Microsoft Office 365](../service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
 

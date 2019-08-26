@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: ec50369715efdd7bcb9ab764a3240acceb72508e
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 5a5dca5c3fb4b3b375d3fbb603703e8aaaf91c6c
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418637"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023442"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -22,7 +22,9 @@ ms.locfileid: "67418637"
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
-沒有已排定的網路研討會。 請稍後再回來查看近期的活動。
+**搭配 Dynamics 365 Finance and Operations 使用 Power BI**
+<br>由 Kevin Horlock 主持
+<br>[報名以在 9 月 11 日觀看](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
 
 >[來自 Power BI 社群，即將舉行的網路研討會](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

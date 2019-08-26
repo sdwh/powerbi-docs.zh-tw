@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2019
+ms.date: 08/15/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 30552ee407460856fd1548073f0b3046ab508115
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: e77bfdf771e84afbc87335aa77993640d10282b0
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567567"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530537"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>監視 Power BI 儀表板和報表的使用計量
 
@@ -41,20 +41,7 @@ ms.locfileid: "67567567"
 - 若要存取特定儀表板或報表的使用計量，您必須擁有該儀表板或報表的編輯存取權。
 - 您的 Power BI 系統管理員必須已啟用內容建立者的使用計量。 您的 Power BI 系統管理員可能也已啟用在使用計量中收集個別使用者的資料。 請參閱如何[在管理入口網站中啟用這些選項](service-admin-portal.md#control-usage-metrics)。 
 
-## <a name="about-the-usage-metrics-report"></a>關於使用計量報表
-
-當您選取 [使用計量]  或是位於儀表板或報表旁邊的圖示 ![使用計量圖示](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) 時，Power BI 會產生預先建立的報表，顯示過去 90 天的使用計量內容。  這份報表和您已經熟悉的 Power BI 報表很相似。 您可以根據使用者接收存取的方式進行配量，不論他們是透過 Web 應用程式或行動裝置應用程式等進行存取。隨著您的儀表板和報表的進展，使用計量報表也會進展，每天都會更新資料。  
-
-使用計量報表不會出現在 [最近]  、[工作區]  、[我的最愛]  或其他內容清單中。 它們無法被新增至應用程式。 如果您從使用計量報表將磚釘選到儀表板，便無法將該儀表板新增至應用程式。
-
-若要深入鑽研報表資料，或是針對基礎資料集建置自己的報表，您有兩個選項： 
-
-- 在 Power BI 服務中建立報表複本。 請參閱本文稍後的[儲存使用計量報表的複本](#save-a-copy-of-the-usage-metrics-report)以取得詳細資料。
-- 從 Power BI Desktop 連線至資料集。 請參閱[對發佈的資料集建立連線](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset)以取得詳細資料。
-
-    ![連線至使用量報表資料集](media/service-usage-metrics/power-bi-usage-dataset.png)
-
-## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>開啟儀表板或報表的使用計量報表
+## <a name="view-a-usage-metrics-report"></a>檢視使用計量報表
 
 1. 在包含儀表板或報表的工作區中啟動。
 2. 從工作區內容清單或從儀表板或報表中，選取**使用計量**圖示 ![使用計量圖示](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png)。
@@ -82,6 +69,18 @@ ms.locfileid: "67567567"
 
 ![報表使用計量報表](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
+## <a name="about-the-usage-metrics-report"></a>關於使用計量報表
+
+當您選取 [使用計量]  或是位於儀表板或報表旁邊的圖示 ![使用計量圖示](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png) 時，Power BI 會產生預先建立的報表，顯示過去 90 天的使用計量內容。  這份報表和您已經熟悉的 Power BI 報表很相似。 您可以根據使用者接收存取的方式進行配量，不論他們是透過 Web 應用程式或行動裝置應用程式等進行存取。隨著您的儀表板和報表的進展，使用計量報表也會進展，每天都會更新資料。  
+
+使用計量報表不會出現在 [最近]  、[工作區]  、[我的最愛]  或其他內容清單中。 它們無法被新增至應用程式。 如果您從使用計量報表將磚釘選到儀表板，便無法將該儀表板新增至應用程式。
+
+若要深入鑽研報表資料，或是針對基礎資料集建置自己的報表，您有兩個選項： 
+
+- 在 Power BI 服務中建立報表複本。 請參閱本文稍後的[儲存使用計量報表的複本](#save-a-copy-of-the-usage-metrics-report)以取得詳細資料。
+- 從 Power BI Desktop 連線至資料集。 針對每個工作區，資料集的名稱都是「報表使用計量模型」。 請參閱[對發佈的資料集建立連線](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset)以取得詳細資料。
+
+    ![連線至使用量報表資料集](media/service-usage-metrics/power-bi-usage-dataset.png)
 
 ## <a name="which-metrics-are-reported"></a>報告哪些計量？
 
@@ -105,7 +104,7 @@ ms.locfileid: "67567567"
 
 使用 [另存新檔]  來將使用計量報表轉換為一般的 Power BI 報表，以供您針對特定需求加以自訂。 您也可以使用 Power BI Desktop 來根據基礎資料集建置自訂使用計量報表。 請參閱[對發佈的資料集建立連線](desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset)以取得詳細資料。
 
-更棒的是，基礎資料集包含工作區中所有儀表板或報表的使用量詳細資料。 這能開啟更多可能性。 例如，您可以建立能根據使用量來比較工作區中所有儀表板的報表。 您也可以將分散在 Power BI 應用程式中的所有內容使用量彙總，為該應用程式建立使用計量儀表板。  請參閱本文稍後的[移除頁面層級篩選](#remove-the-filter-to-see-all-workspace-usage-metrics)。
+更棒的是，基礎資料集包含工作區中所有儀表板或報表的使用量詳細資料。 這能開啟更多可能性。 例如，您可以建立能根據使用量來比較工作區中所有儀表板的報表。 您也可以將分散在 Power BI 應用程式中的所有內容使用量彙總，為該應用程式建立使用計量儀表板。  請參閱本文稍後部分來了解如何移除篩選和[查看工作區的所有使用計量](#see-all-workspace-usage-metrics)。
 
 ### <a name="create-a-copy-of-the-usage-report"></a>建立使用量報表的複本
 
@@ -121,7 +120,7 @@ ms.locfileid: "67567567"
 
     ![[報表] 索引標籤](media/service-usage-metrics/power-bi-new-report.png)
 
-## <a name="remove-the-filter-to-see-all-workspace-usage-metrics"></a>移除篩選以查看「所有」  工作區使用計量
+## <a name="see-all-workspace-usage-metrics"></a>查看「所有」  工作區使用計量
 
 若要查看工作區中所有儀表板或所有報表的計量，您必須移除篩選。 根據預設，系統會篩選報表，僅顯示您用來建立它之儀表板或報表的計量。
 
@@ -169,7 +168,7 @@ Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供的安
 
 **問：**  使用計量是否會從內嵌的儀表板和報表擷取檢視？
 
-**答：**  使用計量目前不支援擷取內嵌儀表板、報表及[發佈至 Web](service-publish-to-web.md) 流程的使用量。          在這些情況下，我們建議使用現有的 Web 分析平台來追蹤主控應用程式或入口網站的使用方式。
+**答：**  使用計量目前不支援擷取內嵌儀表板、報表及[發佈至 Web](service-publish-to-web.md) 流程的使用量。 在這些情況下，我們建議使用現有的 Web 分析平台來追蹤主控應用程式或入口網站的使用方式。
 
 **問：**  我完全無法對任何內容執行使用計量。
 

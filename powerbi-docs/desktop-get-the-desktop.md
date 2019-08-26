@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2019
+ms.date: 08/15/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 9fa79bc17e87863d094afbc479d664c8bbf9daaf
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 8b92bd2917165cd6dc89e0c9f9a94e83d69f1c2a
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590480"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560860"
 ---
 # <a name="get-power-bi-desktop"></a>取得 Power BI Desktop
 **Power BI Desktop** 可讓您建立進階查詢、模型，以及將資料視覺化的報表。 透過 **Power BI Desktop**，您可以建立資料模型、建立報表，並發行到 Power BI 服務以分享您的工作。  **Power BI Desktop** 可免費下載。
 
 有兩種方式可以取得 **Power BI Desktop**，下列各節會一一描述：
 
-* 直接**下載** (將 MSI 套件下載並安裝在電腦上)
+* 直接**下載** (您會下載套件並安裝在電腦上)
 * 從 **Microsoft Store** 作為應用程式安裝
 
 任一方法皆可為您的電腦取得最新版的 **Power BI Desktop**，但有些許差異值得注意，下列各節會詳述。
@@ -30,21 +30,23 @@ ms.locfileid: "68590480"
 ## <a name="download-power-bi-desktop"></a>下載 Power BI Desktop
 若要下載最新版本的 **Power BI Desktop**，您可以從 Power BI 服務右上角選取下載圖示，然後選取 [Power BI Desktop]  。
 
-![](media/desktop-get-the-desktop/getpbid_downloads.png)
+![下載 Power BI Desktop 的最新版本](media/desktop-get-the-desktop/getpbid_downloads.png)
 
 您也可以從以下的下載頁面下載最新版本的 Power BI Desktop：
 
-* [**Power BI Desktop 下載**(包含 32 和 64 位元版本)](https://powerbi.microsoft.com/desktop)。
+* [**Power BI Desktop 下載** (32 位元及 64 位元版本)](https://powerbi.microsoft.com/desktop)。
   
-  [![](media/service-admin-power-bi-security/PBI_Security_01.png)](https://powerbi.microsoft.com/desktop)
+  [![下載 Power BI Desktop 的最新版本](media/service-admin-power-bi-security/PBI_Security_01.png)](https://powerbi.microsoft.com/desktop)
 
 不論您選擇何種下載方式，一旦 **Power BI Desktop** 下載完畢後，系統會提示您執行安裝檔案︰
 
-![](media/desktop-get-the-desktop/getpbid_3.png)
+![執行 Power BI Desktop 安裝檔案](media/desktop-get-the-desktop/getpbid_3.png)
 
-**Power BI Desktop** 會安裝為應用程式，並在您的桌面上執行。
+從 2019 年七月版本開始，**Power BI Desktop** 會作為單一 .exe 安裝套件發行，其中包含所有支援的語言。 32 位元和 64 位元版本有不同的 .exe 檔案。 從 2019 年九月版本開始，將不再提供 .msi 套件；在這之後您必須使用 .exe 可執行檔進行安裝。 這種方法可讓散發、更新和安裝 (特別是針對系統管理員) 變得更為容易且更方便。 您也可以使用命令列參數來自訂安裝流程，如本文稍後的[在安裝期間使用命令列選項](#using-command-line-options-during-installation)區段所述。
 
-![](media/desktop-get-the-desktop/designer_gsg_install.png)
+在您啟動安裝套件後，**Power BI Desktop** 便會安裝為應用程式，並在您的桌面上執行。
+
+![Power BI Desktop 應用程式會在您的桌面上執行](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
 > 不支援將下載的 (MSI) 版本和 **Power BI Desktop** 的 **Microsoft Store** 版本安裝在同一部電腦上 (有時也稱為「並存」  安裝)。
@@ -56,20 +58,20 @@ ms.locfileid: "68590480"
 
 * [從 **Microsoft Store** 安裝 **Power BI Desktop**](http://aka.ms/pbidesktopstore)
 
-![](media/desktop-get-the-desktop/getpbid_04.png)
+  ![從 Microsoft Store 取得 Power BI Desktop](media/desktop-get-the-desktop/getpbid_04.png)
 
 從 Microsoft Store 取得 **Power BI Desktop** 有幾個優點：
 
 * **自動更新** - 只要有最新版本，Windows 就會自動在背景下載，所以您的版本一律是最新狀態。
 * **較小的下載**：**Microsoft Store** 可確保僅將每個更新中有變更的元件下載到您的電腦，這樣每個更新的下載項目就會比較小。
-* **不需要管理員權限** - 直接下載和安裝 MSI 時，您必須是系統管理員才能順利完成安裝。 當您從 Microsoft Store 取得 **Power BI Desktop** 時，「不」  需要管理員權限。
+* **不需要管理員權限** - 直接下載套件和安裝時，您必須是系統管理員才能順利完成安裝。 當您從 Microsoft Store 取得 **Power BI Desktop** 時，「不」  需要管理員權限。
 * **啟用 IT 推出**：**Microsoft Store** 版本更容易部署或*推出*供您組織中的所有人使用，而且可以透過**商務用 Microsoft Store** 提供 **Power BI Desktop**。
-* **語言偵測**：**Microsoft Store** 版本包含所有支援的語言，並會在每次啟動時，檢查電腦上使用的語言。 這也會影響 **Power BI Desktop** 中所建模型的當地語系化；例如，內建日期階層會符合建立 .pbix 檔案時 **Power BI Desktop** 使用的語言。
+* **語言偵測** - **Microsoft Store** 版本包含所有支援的語言，並會在每次啟動時，檢查電腦上使用的語言。 這也會影響 **Power BI Desktop** 中所建模型的當地語系化；例如，內建日期階層會符合建立 .pbix 檔案時 **Power BI Desktop** 使用的語言。
 
 從 Microsoft Store 安裝 **Power BI Desktop** 有幾項考量與限制，包括下列各項：
 
 * 如果使用 SAP 連接器，您可能需要將 SAP 驅動程式檔案移到 *Windows\System32* 資料夾。
-* 從 Microsoft Store 安裝 **Power BI Desktop**，不會從 MSI 版本複製使用者設定。 您可能必須重新連線到您最近的資料來源，然後重新輸入您的資料來源認證。 
+* 從 Microsoft Store 安裝 **Power BI Desktop**，不會從 .exe 版本複製使用者設定。 您可能必須重新連線到您最近的資料來源，然後重新輸入您的資料來源認證。 
 
 > [!NOTE]
 > 不支援將下載的 (MSI) 版本和 **Power BI Desktop** 的 **Microsoft Store** 版本安裝在同一部電腦上 (有時也稱為「並存」  安裝)。 您應該手動解除安裝 **Power BI Desktop**，然後再從 **Microsoft Store** 下載它
@@ -82,7 +84,7 @@ ms.locfileid: "68590480"
 ## <a name="using-power-bi-desktop"></a>使用 Power BI Desktop
 當您啟動 **Power BI Desktop** 時，會顯示 [歡迎]  畫面。
 
-![](media/desktop-get-the-desktop/getpbid_05.png)
+![Power BI Desktop 歡迎畫面](media/desktop-get-the-desktop/getpbid_05.png)
 
 如果這是您第一次使用 **Power BI Desktop** (如果安裝不是升級)，系統會提示您填寫表單並回答幾個問題，或登入 **Power BI 服務**，才能夠繼續進行。
 
@@ -102,6 +104,25 @@ ms.locfileid: "68590480"
 ## <a name="considerations-and-limitations"></a>考量與限制
 
 我們一直希望能為您提供良好的 Power BI Desktop 體驗。 當您使用 Power BI Desktop 時可能會發生問題，因此本小節包含解決方案或建議以處理可能發生的問題。 
+
+
+### <a name="using-command-line-options-during-installation"></a>在安裝期間使用命令列選項 
+
+安裝 Power BI Desktop 時，您可以使用命令列切換來設定屬性和選項。 這對管理或在組織內輔助安裝 Power BI Desktop 的系統管理員來說特別有用。 這些選項適用於 .msi 和 .exe 安裝。 
+
+
+|命令列選項  |行為  |
+|---------|---------|
+|-q、-quiet、-s、-silent     |無訊息安裝         |
+|-passive     |在安裝期間只顯示進度列         |
+|-norestart     |隱藏電腦重新開機需求         |
+|-forcerestart     |安裝後在不顯示提示的情況下重新啟動機電腦         |
+|-promptrestart     |若需要重新啟動機電腦，請提示使用者 (預設)         |
+|-l<>、-log<>     |將安裝記錄到特定檔案，您可以在 <> 中指定檔案         |
+|-uninstall     |解除安裝 Power BI Desktop         |
+|-repair     |修復安裝 (或在沒安裝的情況下進行安裝)         |
+|-package、-update     |安裝 Power BI Desktop (只要沒有指定 -uninstall 或 -repair，此為預設)         |
+
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>使用舊版 Power BI Desktop 時的問題
 

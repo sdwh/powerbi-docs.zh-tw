@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/21/2019
+ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 49ee06d544e409cadc6728d286cb841f5f4adec4
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: 3105736c6576428af2d00b6f502c94f94c409977
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230288"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995250"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -30,7 +30,7 @@ Power BI 報表是資料的互動式檢視，以視覺效果顯示資料的各�
 3. 然後在 Power BI 行動裝置應用程式中與這些報表互動。
 
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>在行動裝置應用程式中開啟 Power BI 報表
-Power BI 報表會根據您取得的位置，儲存在行動裝置應用程式中的不同位置。 這些報表可能會在 [應用程式]、[與我共用]、[工作區]\(包括 [我的工作區]) 中，或在報表伺服器上。 有時您會經過相關的儀表板才能抵達某個報表，有時會列出這些報表。
+Power BI 報表會根據您取得的位置，儲存在行動裝置應用程式中的不同位置。 這些報表可能會在 [應用程式]、[與我共用]、[工作區]\(包括 [我的工作區]) 中，或在報表伺服器上。 有時，您會經過相關的儀表板才能抵達某個報表，有時會列出這些報表。
 
 在清單和功能表中，您可在報表名稱旁邊看到圖示，協助您了解此項目是報表。 
 
@@ -38,26 +38,27 @@ Power BI 報表會根據您取得的位置，儲存在行動裝置應用程式�
 
 Power BI 行動版應用程式中的報表有兩個圖示：
 
-* ![報表圖示](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) 表示將在應用程式中以橫向顯示的報表，看起來會與瀏覽器中顯示的外觀相同。
+* ![報表圖示](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) 表示在應用程式中以橫向顯示的報表，看起來會如同在瀏覽器中顯示。
 
-* ![手機報表圖示](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) 表示至少具有一個電話最佳化報表頁面的報表，以直向顯示。 
+* ![手機報表圖示](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) 表示至少具有一個手機最佳化報表頁面的報表，以直向顯示。 
 
-注意：將手機保持在橫向，即使報表頁面具有手機配置，也一律會以橫向版面配置顯示。 
+> [!NOTE]
+> 將手機保持在橫向，即使報表頁面具有手機版面配置，也一律會以橫向版面配置顯示。 
 
 若要從儀表板取得報表，請點選磚右上角的省略符號 (...) > [開啟報表]  。
   
   ![開啟報表](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
-  不是所有的磚都有在報表中開啟的選項。 例如，點選藉由在問與答方塊中提問所建立的磚時不會開啟報表。 
+  不是所有的磚都可以在報表中開啟。 例如，點選藉由在問與答方塊中提問所建立的磚時不會開啟報表。 
   
 ## <a name="interacting-with-reports"></a>與報表互動
-在應用程式中開啟報表之後，您就可以開始使用報表。 您可以使用報表和其資料來進行許多工作。 在報表頁尾中，您會看到可對報表執行的動作，也可以透過點選和長按報表中顯示的資料來並排顯示資料。
+在應用程式中開啟報表之後，您就可以開始使用報表。 您可以使用報表和其資料來進行許多工作。 在報表頁尾中，您會看到可對報表執行的動作。 您可以透過點選和長按報表中顯示的資料來並排顯示資料。
 
 ### <a name="using-tap-and-long-tap"></a>使用點選和長按
 點選等於按一下滑鼠。 因此，如果您想要根據資料點來交叉醒目提示報表，請點選該資料點。
 點選交叉分析篩選器的值可選取該值，並根據該值來切割報表的其餘部分。 點選連結、按鈕或書籤，會根據作者所定義的動作來啟動。
 
-您可能已經注意到，當您按一下視覺效果時會出現框線。 框線的右上角有省略符號 [...]。點選省略符號會顯示功能表，其中包含您可以在該視覺效果上執行的動作。
+您可能已經注意到，當您按一下視覺效果時會出現框線。 您會在框線的右上角看到省略符號 (...)。點選省略符號會顯示功能表，其中包含您可以在該視覺效果上執行的動作。
 
 ![報表視覺效果和功能表](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -78,7 +79,7 @@ Power BI 行動版應用程式中的報表有兩個圖示：
 
 ![報表切入動作](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
-透過鑽研  ，當您點選視覺效果的特定部分時，Power BI 會將您帶往報表中的其他頁面，篩選至您所點選的值。  報表作者可定義一或多個鑽研選項，每項都能將您帶往不同頁面。 在此情況下，您可以選擇想要鑽研的項目。 返回按鈕可將您帶回先前的報表頁面。
+透過鑽研  ，當您點選視覺效果的特定部分時，Power BI 會將您帶往報表中的其他頁面，篩選至您所點選的值。 報表作者可定義一或多個鑽研選項，每項都能將您帶往不同頁面。 您可以選擇想要鑽研的項目。 返回按鈕可將您帶回先前的報表頁面。
 
 閱讀更多有關如何[在 Power BI Desktop 中新增鑽研](../../desktop-drillthrough.md)的內容。
    
@@ -97,7 +98,7 @@ Power BI 行動版應用程式中的報表有兩個圖示：
 2) 開啟交談窗格以在此報表上檢視或新增註解。
 3) 開啟篩選窗格以檢視及修改目前套用於報表上的篩選。
 4) 列出此報表中的所有頁面。 點選頁面名稱將會載入並顯示該頁面。
-您可以從畫面邊緣往畫面中央撥動，以在報表頁面之間進行移動。
+您可以從畫面邊緣往畫面中央撥動，以在報表頁面之間移動。
 5) 檢視所有報表動作。
 
 #### <a name="all-report-actions"></a>所有報表動作

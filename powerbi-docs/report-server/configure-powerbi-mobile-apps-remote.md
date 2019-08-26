@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/15/2018
+ms.date: 08/08/2019
 ms.author: maggies
-ms.openlocfilehash: 27b3aad6f1a96c069f56ed68823b71b38115a98a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7727157a9227a5340fccf0af129d87f69edd8c72
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770645"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994807"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>從遠端設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取
 
@@ -63,8 +63,10 @@ ms.locfileid: "64770645"
 現在，他們可以檢視儲存在報表伺服器上的 KPI 和 Power BI 報表，並與其互動。
 
 ## <a name="next-steps"></a>後續步驟
-[系統管理員概觀](admin-handbook-overview.md)  
-[安裝 Power BI 報表伺服器](install-report-server.md)  
+
+- [使用 Azure AD 應用程式 Proxy 啟用 Power BI 行動版的遠端存取](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+- [系統管理員概觀](admin-handbook-overview.md)  
+- [安裝 Power BI 報表伺服器](install-report-server.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 
