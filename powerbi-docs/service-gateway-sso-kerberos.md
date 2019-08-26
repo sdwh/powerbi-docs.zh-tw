@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bea8b954cb1c0743745ef6d3bf9d48aa8513f2fe
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624055"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655178"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的單一登入 (SSO) 使用 Kerberos
 
@@ -192,7 +192,7 @@ ms.locfileid: "68624055"
 1. 從 SAP Launchpad 下載 CommonCryptoLib (sapcrypto.dll) **8.5.25 版或更新版本**，並將它複製到閘道電腦上的資料夾。 在您複製 sapcrypto.dll 的相同目錄中，建立名為 sapcrypto.ini 的檔案，其中包含下列內容：
 
     ```
-    ccl/snc/enable\_kerberos\_in\_client\_role = 1
+    ccl/snc/enable_kerberos_in_client_role = 1
     ```
 
     .Ini 檔案包含 CommonCryptoLib 在閘道案例中啟用 SSO 所需的設定資訊。
@@ -242,7 +242,7 @@ ms.locfileid: "68624055"
 
     ```
     ccl/trace/level=5
-    ccl/trace/directory=\\<drive\\>:\logs\sectrace
+    ccl/trace/directory=<drive>:\logs\sectrace
     ```
 
     請務必將 _ccl/trace/directory_ 選項變更為 [已驗證的使用者] 群組成員可以寫入的位置。 或者，建立新的 .ini 檔案來變更此行為。 在與 sapcrypto.ini 和 sapcrypto.dll 相同的目錄中，建立名為 sectrace.ini 的檔案，其中包含下列內容。  將 DIRECTORY 選項取代為您電腦上已驗證使用者可以寫入的位置：
@@ -250,7 +250,7 @@ ms.locfileid: "68624055"
     ```
     LEVEL = 5
     
-    DIRECTORY = \\<drive\\>:\logs\sectrace
+    DIRECTORY = <drive>:\logs\sectrace
     ```
 
     現在，請重現問題，並檢查 DIRECTORY 所指向的位置是否包含追蹤檔案。 當您完成時，請務必關閉 CPIC 和 CCL 追蹤。

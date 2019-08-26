@@ -291,7 +291,7 @@
               href: desktop-sort-by-column.md
             - name: 最佳化行動裝置應用程式的報表
               href: desktop-create-phone-report.md
-            - name: '使用 [See Data] (查閱資料) 與 [See Records] (查閱記錄)'
+            - name: '使用 [查看資料] 與 [查看記錄]'
               href: desktop-see-data-see-records.md
             - name: 建立報表的祕訣
               href: desktop-tips-and-tricks-for-creating-reports.md
@@ -1141,7 +1141,7 @@
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
             - name: 自訂視覺效果 Git 存放庫
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-            - name: 正在建立 SSL 憑證
+            - name: 建立 SSL 憑證
               href: developer/visuals/create-ssl-certificate.md
     - name: 自動化
       items:
@@ -1420,9 +1420,11 @@
           href: service-admin-governance.md
         - name: Power BI 安全性
           href: service-admin-power-bi-security.md
-- name: 指引
+- name: 指導方針
   items:
     - name: 什麼是星型結構描述？
       href: guidance/star-schema.md
     - name: 縮小資料模型大小
       href: guidance/import-modeling-data-reduction.md
+    - name: DIVIDE 函式與除法運算子 (/) 的比較
+      href: guidance/dax-divide-function-operator.md
