@@ -22,7 +22,7 @@ ms.locfileid: "68523933"
 
 我們建議您將從 Power BI Desktop 和 Power BI 服務到 SAP HANA 伺服器的連線加密。 您可以使用 OpenSSL 和 SAP 的專屬 CommonCryptoLib (先前稱為 sapcrypto) 程式庫來啟用 HANA 加密。 SAP 建議使用 CommonCryptoLib，但可使用任一種程式庫來取得基本加密功能。
 
-本文概述如何使用 OpenSSL 啟用加密，並參考 SAP 文件的某些特定區域。 我們會定期更新內容和連結，但如需完整的指示和支援，請務必參閱 SAP 官方文件。 如果您想要使用 CommonCryptoLib 而非 OpenSSL 來設定加密，請參閱 [How to Configure TLS/SSL in SAP HANA 2.0](https://blogs.sap.com/2018/11/13/how-to-configure-tlsssl-in-sap-hana-2.0/) (如何在 SAP HANA 2.0 設定 TLS/SSL)。如需如何從 OpenSSL 遷移至 CommonCryptoLib 的步驟，請參閱 [SAP Note 2093286](https://launchpad.support.sap.com/#/notes/2093286) (需要 s 使用者)。
+本文概述如何使用 OpenSSL 啟用加密，並參考 SAP 文件的某些特定區域。 我們會定期更新內容和連結，但如需完整的指示和支援，請務必參閱 SAP 官方文件。 如果您想要使用 CommonCryptoLib 而非 OpenSSL 來設定加密，請參閱 [How to Configure TLS/SSL in SAP HANA 2.0](https://blogs.sap.com/2018/11/13/how-to-configure-tlsssl-in-sap-hana-2.0/) (如何在 SAP HANA 2.0 設定 TLS/SSL)。如需從 OpenSSL 遷移至 CommonCryptoLib 的步驟，請參閱 [SAP Note 2093286](https://launchpad.support.sap.com/#/notes/2093286) (需要 s 使用者)。
 
 > [!NOTE]
 > 本文中詳述的設定步驟會與 SAML SSO 的安裝和設定步驟重疊。 無論您選擇 OpenSSL 或 CommonCryptoLib 作為 HANA 伺服器的加密提供者，請確定您的選擇在 SAML 和加密設定之間為一致。
@@ -31,7 +31,7 @@ ms.locfileid: "68523933"
 
 ## <a name="use-openssl"></a>使用 OpenSSL
 
-請確定您的 HANA 伺服器已設定為使用 OpenSSL 作為其密碼編譯提供者。 將下列遺漏路徑資訊取代為 HANA 伺服器的伺服器識別碼 (SID)。
+請確定您的 HANA 伺服器已設定為使用 OpenSSL 作為其密碼編譯提供者。 請使用 HANA 伺服器的伺服器識別碼 (SID) 來取代下方所遺漏的路徑資訊。
 
 ![OpenSSL 密碼編譯提供者](media/desktop-sap-hana-encryption/ssl-crypto-provider.png)
 
@@ -83,11 +83,11 @@ ms.locfileid: "68523933"
 
     用戶端必須信任用來簽署 HANA 伺服器 X509 憑證的 CA，才能從用戶端的電腦對 HANA 伺服器建立加密連線。
 
-    有各種方式可以使用 Microsoft Management Console (mmc) 或命令列來確保存在此信任關係。 您可以將 CA X509 憑證 (trust.pem) 匯入到將建立連線的使用者 [信任的根憑證授權單位]  資料夾中，或是匯入到用戶端電腦本身的相同資料夾中 (想要的話)。
+    有各種方式可以使用 Microsoft Management Console (mmc) 或命令列來確保存在此信任關係。 您可以將 CA X509 憑證 (trust.pem) 匯入即將建立連線的使用者 [信任的根憑證授權單位]  資料夾中，或是匯入用戶端電腦本身的相同資料夾中 (想要的話)。
 
     ![信任的根憑證授權單位資料夾](media/desktop-sap-hana-encryption/trusted-root-certification.png)
 
-    您必須先將 trust.pem 轉換成 .crt 檔案，才能將憑證匯入到「信任的根憑證授權單位」資料夾，例如藉由執行下列 OpenSSL 命令：
+    您必須先將 trust.pem 轉換成 .crt 檔案，才能將憑證匯入「信任的根憑證授權單位」資料夾，例如藉由執行下列 OpenSSL 命令：
 
     ```
     openssl x509 -outform der -in your-cert.pem -out your-cert.crt

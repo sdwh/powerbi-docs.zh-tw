@@ -27,7 +27,7 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 
 在邀請來賓使用者之前，請務必確認已在 Power BI 管理入口網站中啟用[與外部使用者共用內容](service-admin-portal.md#export-and-sharing-settings)的功能。
 
-您也可以使用[允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)功能。 它能讓您選取有哪些來賓可以看見工作區中的內容及建立內容，包括瀏覽您組織的 Power BI。
+您也可以使用[允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)功能。 這能讓您選取可在工作區中看見並建立內容的來賓，這些來賓也能瀏覽您組織的 Power BI。
 
 ## <a name="who-can-you-invite"></a>您可以邀請哪些人？
 
@@ -65,7 +65,7 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 
 若要隨時邀請外部使用者，請透過共用 UI 將他們新增至您的儀表板或報表，或透過存取頁面新增至您的應用程式。 以下範例是邀請外部使用者使用應用程式時該執行的作業。
 
-![外部使用者被新增至 Power BI 中應用程式存取清單的螢幕擷取畫面。](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
+![將外部使用者新增至 Power BI 中應用程式存取清單的螢幕擷取畫面。](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
 來賓使用者將會收到電子郵件，指出您已與他們共用應用程式。
 
