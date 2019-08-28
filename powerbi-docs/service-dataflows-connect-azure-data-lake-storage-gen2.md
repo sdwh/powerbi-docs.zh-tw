@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dee2ff4376242883d30f606e687184c0dde43ffe
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523477"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621246"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體 (預覽)
 
@@ -177,6 +177,7 @@ ms.locfileid: "68523477"
 * 針對儲存在 Azure Data Lake Storage Gen2 中的資料流程，預設只有其擁有者才可以存取其資料。 若要授權其他人員存取儲存在 Azure 中的資料流程，您必須將他們新增至資料流程的 CDM 資料夾 
 * 若要建立含有連結實體的資料流程，必須確定連結的實體和資料流程都儲存在相同儲存體帳戶中
 * 儲存在您組織 Data Lake 中的資料流程，不支援位於 Power BI 共用容量中的內部部署資料來源
+* ADLS Gen 2 上不會自動刪除快照集。 如果您想要釋出空間，可以建立 Azure 函式來定期清除舊的快照集。
 
 此外還有一些已知的問題，如本節中所述。
 

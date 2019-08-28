@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7965751740384c5a5f1cc663389a559e0c1bd1c0
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: e28306532714369830df46304aa4a1ebff67bd8f
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69563658"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985652"
 ---
 # <a name="using-templates-in-power-bi-desktop"></a>在 Power BI Desktop 中使用範本
 
@@ -70,7 +70,10 @@ Power BI 報表範本包含作為產生來源報表的下列資訊：
 這樣就大功告成了！ 在 Power BI Desktop 中建立和使用報表範本相當容易，可讓您輕鬆地重新產生吸引人的版面配置和其他報表外觀，並與其他人共用。
 
 ## <a name="next-steps"></a>後續步驟
-您可以使用 Power BI Desktop 執行各種作業。 如需有關其功能的詳細資訊，請參閱下列資源：
+您可能也想要了解**查詢參數**：
+* [在 Power BI Desktop 中使用查詢參數？](https://docs.microsoft.com/power-query/power-query-query-parameters)
+
+此外，您可以使用 Power BI Desktop 執行各種作業。 如需有關其功能的詳細資訊，請參閱下列資源：
 
 * [Power BI Desktop 是什麼？](desktop-what-is-desktop.md)
 * [Power BI Desktop 的查詢概觀](desktop-query-overview.md)

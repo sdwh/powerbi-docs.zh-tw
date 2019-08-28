@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/28/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06ba5835a568b7158a204ea6676e92844d40414d
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375272"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655039"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
@@ -30,32 +30,32 @@ ms.locfileid: "66375272"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2019"></a>2019 年
-* [自訂的瀏覽](service-create-distribute-apps.md)Power BI 應用程式。
-* 其他的附件 （PPTX、 XLSX、 DOCX、 CSV、 XML） 的類型已編頁報表內的電子郵件訂閱。
+## <a name="may-2019"></a>2019 年 5 月
+* Power BI 應用程式的[自訂瀏覽](service-create-distribute-apps.md)。
+* 可用於編頁報表中電子郵件訂閱的其他附件類型 (PPTX、XLSX、DOCX、CSV、XML)。
 
 ## <a name="previous-months-2019"></a>前幾個月 (2019)
 ### <a name="april-2019"></a>2019 年 4 月
-* Power BI 正式[資料流程](service-dataflows-overview.md)。
-* 新的工作區體驗的公開上市。
-* 在法國和韓國的新 Power BI 區域。
-* 已更新的問與答體驗的儀表板。
-* Azure Analysis services 中的支援[編頁報表](paginated-reports-report-builder-power-bi.md)。
-* 在 Power BI 應用程式中支援的編頁的報表。
-* [電子郵件訂閱](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)與分頁報表的 PDF 附件。
-* Power BI Premium 摘要] 和 [工作負載度量系統管理員入口網站支援
-* [查詢快取](power-bi-query-caching.md)用於 Power BI Premium。
-* 正式運作[Power BI 的首頁](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/)。
+* Power BI [資料流程](service-dataflows-overview.md)的正式推出。
+* 新工作區體驗的正式推出。
+* 法國和南韓的新 Power BI 區域。
+* 已更新儀表板的問與答體驗。
+* [編頁報表](paginated-reports-report-builder-power-bi.md)中 Azure Analysis Services 的支援。
+* Power BI 應用程式中的編頁報表支援。
+* 編頁報表 PDF 附件的[電子郵件訂閱](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)。
+* 管理入口網站中的 Power BI Premium 摘要和工作負載計量支援
+* 可在 Power BI Premium 中使用[查詢快取](power-bi-query-caching.md)。
+* [Power BI 首頁](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/)的正式推出。
 
 ### <a name="march-2019"></a>2019 年 3 月
 * Power BI Premium 多地理位置的公開推出。
 * 編輯和管理 Azure B2B 的 Power BI 內容支援。
-* 公開預覽版的唯讀[XMLA 端點](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)。
+* 唯讀 [XMLA 端點](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)的公開預覽。
 
 ### <a name="february-2019"></a>2019 年 2 月
 * [容量監視應用程式](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)中的工作負載和作用中資料集大小計量。
 * 針對 Power BI 報表匯出為 PDF。
-* [視電子郵件訂閱](service-report-subscribe.md)。
+* [隨選電子郵件訂閱](service-report-subscribe.md)。
 * 管理入口網站中的大量作業。
 * PPT 和 PDF 的已篩選匯出。
 * 管理入口網站中的[說明及支援設定](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/) \(英文\)。
@@ -87,8 +87,8 @@ ms.locfileid: "66375272"
 
 ### <a name="september-2018"></a>2018 年 9 月
 * Power BI 服務中的[儀表板註解](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)功能。
-* 公開預覽[Power BI 的首頁和全域搜尋](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)。
-* 能夠[監視查詢](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)中[容量監視應用程式](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)。
+* [Power BI 首頁和全域搜尋](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)的公開預覽。
+* 能夠在[容量監視應用程式](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)中[監視查詢](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)。
 
 ### <a name="august-2018"></a>2018 年 8 月
 * Power BI Premium 的[容量監視應用程式](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)。
@@ -302,9 +302,9 @@ ms.locfileid: "66375272"
 ***使用 Excel 分析***
 
 * 所有使用者都可以[使用 Excel 分析](service-analyze-in-excel.md)︰在 Excel 中存取 Power BI 資料模型的能力已延伸到所有使用者，而不論獲指派的授權為何。
-* 改進多使用者帳戶體驗︰如果您有多個 Power BI 使用者帳戶，現在可以更輕鬆地登入。
+* 改善的多使用者帳戶體驗︰如果您有多個 Power BI 使用者帳戶，現在可以更輕鬆地登入。
 
-如需所有詳細資訊，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)
+如需所有詳細資料，[請瀏覽 Power BI 小組部落格](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)
 
 **2016 年 3 月 31 日** 在 Microsoft Data Insights Summit 宣佈了許多更新。
 
@@ -350,7 +350,7 @@ ms.locfileid: "66375272"
 
 ***Quick Insights (深入資訊摘要)***
 
-* 趨勢和相互關聯的深入解析現在有了趨勢線，讓您更輕鬆地查看資料中的模式。
+* 趨勢與相互關聯見解現在有了趨勢線，讓您更輕鬆地查看資料中的模式。
 
 ***問與答***
 
@@ -371,7 +371,7 @@ ms.locfileid: "66375272"
 ***管理入口網站***
 
 * 使用 Microsoft 365 系統管理中心連結輕鬆管理使用者
-* 停用發行至 Web 功能
+* 能夠停用發佈至 Web
 * 防止使用者對整個組織發行內容套件
 * 停用與外部使用者共用內容的功能
 
@@ -502,7 +502,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 * [將 Power BI 中的 VMob 資料以圖形呈現](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Power BI 與 Cortana 整合](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [企業級 Power BI 閘道的預覽](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* 簡介新的內容套件：[Power BI 儀表板上由 Bing 提供的搜尋分析](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
+* 引進新的內容套件：[Power BI 儀表板上由 Bing 提供的搜尋分析](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
 * 以開發人員為主的全新改進：[兩個新 API 和更容易的應用程式註冊](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **2015 年 11 月 24 日**
@@ -620,12 +620,8 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 * Webtrends 能協助公司了解客戶資料，推動數位行銷的成功。 使用者能夠針對跨越 Web、社交、行動和 SharePoint 管道的訪客旅程圖，觀察、分析和傳遞其深入解析。 隨著 [Webtrends 內容套件](http://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx)的發行，使用者將能夠使用 Power BI 監視、分析和視覺化 Webtrends 分析資料。 Power BI 的 Webtrends 內容套件[說明頁面](service-connect-to-webtrends.md)包含詳細資訊。
 * 從問答集開始使用會更加簡單。 當您將游標放在問與答文字方塊時，我們會立即顯示與您資料相關的問題和重要度量清單。  在下拉式清單中，您預設會看到已釘選到儀表板的磚相關問題，以及您資料集中每個資料表的項目。
-* 我們顯示的動態畫布大小預設會使用最適合瀏覽器視窗大小的維度，呈現所有報表項目。 如果您想要鎖定外觀比例，或想要以不同方式容納您的報表，我們現在支援其他三個選項：調整成一頁、符合寬度、實際大小。
+* 我們顯示的動態畫布大小預設會使用最適合瀏覽器視窗大小的維度，呈現所有報表項目。 如果您想要鎖定外觀比例，或想要以不同方式容納您的報表，我們現在支援其他三個選項：[調整成一頁]、[符合寬度] 和 [實際大小]。
 * 我們也提高了您可以擁有的資料集和報表數目限制。 您的 Power BI 現在最多可以有 200 個資料集，每個資料集 200 份報表。
-
-**2015 年 8 月 25 日**
-
-* 現在您可以使用 Power BI 來監視、探索及[視覺化 Adobe Analytics 資料](http://blogs.msdn.com/b/powerbi/archive/2015/08/25/exploring-your-adobe-analytics-data-in-power-bi.aspx)。 使用現成可用的內容套件，您可以連接並立即從資料探索深入解析。 若要深入了解，請瀏覽[適用於 Power BI 的 Adobe Analytics 內容套件說明頁面](service-connect-to-adobe-analytics.md).
 
 **2015 年 8 月 18 日**
 
@@ -680,11 +676,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 **2015 年 6 月 16 日**
 
-* SweetIQ 藉由提供位置，可讓您輕鬆追蹤您的本機清單，以及從本機搜尋生態系統檢閱資料。 Power BI 藉由提供從 SweetIQ 資料所建置的[現成可用的內容](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx)，讓您可分析並監視該資料。 如需如何開始使用的其他詳細資訊，請參閱 [Power BI 的 SweetIQ 內容套件](service-connect-to-sweetiq.md).
-
-**2015 年 6 月 9 日**
-
-* Power BI 可讓您使用 [MailChimp API](http://blogs.msdn.com/b/powerbi/archive/2015/06/09/user-power-bi-to-monitor-and-visualize-your-mailchimp-data.aspx) 監視及探索該資料，同時提供一組現成可用的內容供您分析。 儀表板、報表和針對 MailChimp 案例策劃的資料集，可讓您輕鬆存取資料，例如依一週各日開啟總數所統計的熱門行銷活動。 如需如何開始使用的其他詳細資訊，請參閱適用於 Power BI 的 MailChimp 內容套件[文件](service-connect-to-mailchimp.md).
+* SweetIQ 藉由提供位置，可讓您輕鬆追蹤您的本機清單，以及從本機搜尋生態系統來檢閱資料。 Power BI 藉由提供從 SweetIQ 資料所建置的[現成可用的內容](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx)，讓您可分析並監視該資料。 如需如何開始使用的其他詳細資訊，請參閱 [Power BI 的 SweetIQ 內容套件](service-connect-to-sweetiq.md).
 
 **2015 年 6 月 2 日**
 
@@ -697,7 +689,6 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 **2015 年 5 月 13 日**
 
-* 使用 Power BI 的最新更新，您可以使用一組現成可用的報表和自訂儀表板，連接到 **SQL Database 稽核** 所記錄的資料。 此內容套件讓您根據為您的報表建立的資料集，更容易找到可疑事件、異常活動和趨勢。 您可以在[部落格文章](http://blogs.msdn.com/b/powerbi/archive/2015/05/14/monitor-your-azure-sql-database-auditing-activity-with-power-bi.aspx)和[文件](service-connect-to-azure-sql-database-auditing.md)深入了解.
 * 您可以直接連接到儲存在 **Azure SQL Database**的資料。 我們以動態方式產生並將查詢傳送到來源，讓您能直接在資料庫上建立互動式報表。 如需詳細資訊，您可以閱讀[部落格文章](http://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx)和[文件](service-azure-sql-database-with-direct-connect.md)。
 
 **2015 年 5 月 7 日**
@@ -714,7 +705,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 **2015 年 4 月 15 日**
 
-* 您現在可以用新的內容套件視覺化及瀏覽您的 **Google Analytics** 資料！ 使用 Google Analytics 內容套件，您將取得儀表板、報表和資料集，讓您取得最近 6 個月網站使用情形的深入解析。 您可以閱讀[篇部落格文章](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)。
+* 您現在可以用新的內容套件視覺化及瀏覽您的 **Google Analytics** 資料！ 使用 Google Analytics 內容套件，您將取得儀表板、報表和資料集，讓您取得最近 6 個月網站使用情形的深入解析。 您可以閱讀[我們的部落格文章](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)。
 * 您現在可以**釘選所有卡片**，但內含來自問答集和報表之 KPI 和影像者除外
 * 您現在可以藉由在查詢結尾使用 'as card' 片語，**在問答集中使用卡片**
 
@@ -732,7 +723,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 **2015 年 1 月 26 日**
 
-* 已透過各種 Bug 修正改進服務可用性和可靠性。
+* 已透過各種 Bug 修正改善服務可用性和可靠性。
 
 ## <a name="2014"></a>2014
 **2014 年 12 月 11 日**

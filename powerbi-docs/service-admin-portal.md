@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6a1ce47d7af41df51b7c439240f3e9db0dd28397
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757725"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655161"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -188,7 +188,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ### <a name="share-content-with-external-users"></a>與外部使用者共用內容
 
-組織中的使用者可以和組織外的使用者共用儀表板。 [深入了解](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
+組織中的使用者可以和組織外的使用者共用儀表板。 深入了解[在外部共用](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)。
 
 ![外部使用者設定](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -196,7 +196,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ![與外部使用者共用](media/service-admin-portal/powerbi-admin-sharing-external.png)  
 
-### <a name="publish-to-web"></a>發佈至 Web
+### <a name="publish-to-web"></a>發行至 Web
 
 組織中的使用者可以將報表發行到網路。 [深入了解](service-publish-to-web.md)
 
@@ -356,7 +356,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 > [!NOTE]
 > 這項設定適用於整個組織，而無法限於特定群組。
 
-## <a name="audit-and-usage-settings"></a>稽核與使用方式設定
+## <a name="audit-and-usage-settings"></a>稽核與使用量設定
 
 ### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>建立稽核記錄以進行內部活動稽核與合規性
 
@@ -371,9 +371,9 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 組織中的使用者可以看到自己所建立之儀表板與報表的使用計量。 [深入了解](service-usage-metrics.md)
 
-### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>內容建立者之使用計量中的個別使用者資料
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>內容建立者的使用計量中個別使用者資料
 
-內容建立者的使用計量，會公開正在存取內容之使用者的顯示名稱與電子郵件地址。 [深入了解](service-usage-metrics.md)
+內容建立者的使用計量，會公開正在存取內容的使用者顯示名稱與電子郵件地址。 [深入了解](service-usage-metrics.md)
 
 根據預設，已啟用使用計量的個別使用者資料，而且會將內容建立者帳戶資訊併入計量報表中。 如果您不想要針對所有使用者收集這項資訊，則可以針對指定安全性群組或整個組織停用該功能。 遭排除使用者的帳戶資訊接著會在報表中顯示為「未命名」  。
 

@@ -7,25 +7,24 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 08/21/2019
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: c743f56de101cb63db2357acf869aba80162c181
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.openlocfilehash: 4f3c709c0ea699c0c9ad7ebee61889e6c7bceef8
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67559041"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985774"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium 中的累加式重新整理
 
 累加式重新整理可啟用 Power BI Premium 服務中的極大型資料集，且具有下列優勢：
 
-- **重新整理會變快** - 只需要重新整理已變更的資料。 例如，只重新整理 10 年資料集的過去 5 天。
-
-- **重新整理更可靠** - 不需要再維護長時間執行的連線，即可變更來源系統。
-
-- **減少資源耗用量** - 要重新整理的資料較少可減少記憶體和其他資源的整體耗用。
+> [!div class="checklist"]
+> * **重新整理會變快** - 只需要重新整理已變更的資料。 例如，只重新整理 10 年資料集的過去 5 天。
+> * **重新整理更可靠** - 不需要再維護長時間執行的連線，即可變更來源系統。
+> * **減少資源耗用量** - 要重新整理的資料較少可減少記憶體和其他資源的整體耗用。
 
 ## <a name="configure-incremental-refresh"></a>設定累加式重新整理
 
@@ -51,9 +50,13 @@ ms.locfileid: "67559041"
 
 ![自訂篩選](media/service-premium-incremental-refresh/custom-filter.png)
 
-確定已篩選資料列，其中，資料行值「晚於或等於」  **RangeStart** 並「早於」  **RangeEnd**。
+確定已篩選資料列，其中，資料行值「晚於或等於」  **RangeStart** 並「早於」  **RangeEnd**。 其他篩選組合可能會導致重複計算資料列數目。
 
 ![篩選資料列](media/service-premium-incremental-refresh/filter-rows.png)
+
+> [!IMPORTANT]
+> 確認查詢在 **RangeStart** 或 **RangeEnd** 上具有等號 (=)，而非兩者都有。 如果這兩個參數上都存在等號 (=)，資料列可能會滿足兩個分割的條件，而導致模型中的資料重複。 例如：  
+> \#"Filtered Rows" = Table.SelectRows(dbo_Fact, each [OrderDate] **>= RangeStart** and [OrderDate] **<= RangeEnd**) 可能會導致資料重複。
 
 > [!TIP]
 > 參數的資料類型必須是日期/時間時，可以將它們轉換成符合資料來源的需求。 例如，下列 Power Query 函式會轉換日期/時間值，以類似 *yyyymmdd* 格式的整數 Surrogate 索引鍵，而此格式常見於資料倉儲。 篩選步驟可以呼叫函式。
@@ -152,7 +155,7 @@ Power BI 服務中的第一次重新整理可能需要較長的時間才能匯�
 
 [針對重新整理疑難排解](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios)一文說明 Power BI 服務中的重新整理作業受限於逾時。 查詢也受限於資料來源的預設逾時。 大多數關聯式來源都允許覆寫 M 運算式中的逾時。 例如，下列運算式使用 [SQL Server 資料存取功能](https://msdn.microsoft.com/query-bi/m/sql-database)將它設定為 2 小時。 原則範圍所定義的每個週期都會提交查詢，以觀察命令逾時設定。
 
-```
+```powerquery-m
 let
     Source = Sql.Database("myserver.database.windows.net", "AdventureWorks", [CommandTimeout=#duration(0, 2, 0, 0)]),
     dbo_Fact = Source{[Schema="dbo",Item="FactInternetSales"]}[Data],
@@ -164,3 +167,4 @@ in
 ## <a name="limitations"></a>限制
 
 目前，針對[複合模型](desktop-composite-models.md)，僅有 SQL Server、Azure SQL Database、SQL 資料倉儲、Oracle 和 Teradata 資料來源支援累加式重新整理。
+

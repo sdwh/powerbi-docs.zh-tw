@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665480"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654612"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視儀表板和報表
 適用於︰
@@ -31,7 +31,7 @@ ms.locfileid: "68665480"
 若要在您的行動裝置上查看儀表板和報表，您需要在網頁瀏覽器中建立或連線到該儀表板和報表。 
 
 1. 前往 Power BI 服務 ([https://www.powerbi.com](https://www.powerbi.com))，然後[註冊帳戶](../../service-self-service-signup-for-power-bi.md)。
-2. [建立您自己的 Power BI 儀表板和報表](../../service-get-started.md)，或連線到現有的 [Power BI 應用程式](../../service-connect-to-services.md)取得各項服務，例如 [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) 和 [Adobe Analyics](../../service-connect-to-adobe-analytics.md)。
+2. [建立您自己的 Power BI 儀表板和報表](../../service-get-started.md)，或連線到現有的 [Power BI 應用程式](../../service-connect-to-services.md)來取得各項服務，例如 [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md)。
 
 這是 Power BI 服務中的其中一個 Power BI 儀表板：
 

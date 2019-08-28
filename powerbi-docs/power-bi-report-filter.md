@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 148f4881f78b5bba9b6936f5688ba6aaea3a0145
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68346203"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654495"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI 報表的全新篩選體驗
 
@@ -48,6 +48,10 @@ Power BI 中的篩選有新功能和新設計。 當您加入新的篩選體驗�
 3. 在 [篩選體驗]  下，選取 [啟用更新的篩選窗格，並在此報表的視覺效果標題中顯示篩選]  。
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>在服務中為現有報表開啟新的篩選
+
+如果您已開啟 PowerBI 服務中的**新外觀** ![新外觀已開啟](media/power-bi-report-filter/power-bi-new-look-on.png)，則會自動開啟新的篩選體驗。 深入了解 [Power BI 服務中的新外觀](service-new-look.md)。
+
+如果您尚未開啟新外觀，您仍然可以透過執行下列步驟來查看新的篩選體驗。
 
 1. 在 Power BI 服務中，選取工作區內容清單中的 [報表]  索引標籤。
 2. 尋找您要啟用的報表，然後選取該報表的**設定**圖示 ![報表設定圖示](media/power-bi-report-filter/power-bi-settings-icon.png)。
@@ -121,15 +125,13 @@ Power BI 中的篩選有新功能和新設計。 當您加入新的篩選體驗�
 1. 在報表中，按一下報表本身或背景 (「桌布」  )，然後在 [視覺效果]  窗格中，選取 [格式]  。 
     您會看到報表頁面、桌布，以及篩選窗格和篩選卡片的格式設定選項。
 
-    ![選取格式圖示](media/power-bi-report-filter/power-bi-filter-format.png)    
-
 1. 展開 [篩選窗格]  來設定背景、圖示和左框線的色彩，以搭配報表頁面。
 
-    ![展開 [篩選窗格]](media/power-bi-report-filter/power-bi-filter-format-pane-font.png)
+    ![展開 [篩選窗格]](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. 展開 [篩選卡片]  來設定 [可用]  與 [已套用]  色彩和框線。 如果您讓可用和已套用卡片使用不同的色彩，已套用哪些篩選條件就很清楚。 
   
-    ![展開篩選卡片](media/power-bi-report-filter/power-bi-filter-format-card-font.png)
+    ![展開篩選卡片](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
 ## <a name="theming-for-filter-pane"></a>篩選窗格的佈景主題設定
 您現在可以使用佈景主題檔案，修改篩選窗格的預設設定。 以下是可協助您開始的範例佈景主題程式碼片段：

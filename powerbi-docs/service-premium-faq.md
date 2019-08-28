@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 08/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 747ff7788ce30f5d4f61c48cc70a737bc74cd612
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565369"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654276"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常見問題集
 
@@ -76,9 +76,9 @@ Power BI Premium 是以 Power BI Pro 的附加元件形式來提供。 Office 36
 
 **什麼是 Power BI 報表伺服器？這是否表示 Power BI 可供內部部署使用？**
 
-Power BI 報表伺服器是內部部署伺服器，允許在組織的整個防火牆界限內部署及散發互動式 Power BI 報表和編頁報表。 Power BI 報表伺服器可以透過 Power BI Premium 使用，或當作具有軟體保證的 SQL Server Enterprise Edition 客戶權益來使用。 請連絡您的 Microsoft 代表以取得詳細資訊。
+Power BI 報表伺服器是內部部署伺服器，允許在組織的整個防火牆界限內部署及散發互動式 Power BI 報表和編頁報表。 Power BI 報表伺服器可以透過 Power BI Premium 使用，或當作具有軟體保證的 SQL Server Enterprise Edition 客戶權益來使用。 如需授權的資訊，請參閱[授權 Power BI 報表伺服器](report-server/get-started.md#licensing-power-bi-report-server)。 請連絡您的 Microsoft 代表以取得詳細資料。
 
-使用 Power BI Premium。 組織在雲端佈建的相同虛擬核心數目也可透過 Power BI 報表伺服器在內部部署。 不需要分割容量。 組織可以選擇將報表放在雲端 Power BI，也可以選擇透過內部部署來放在 Power BI 的報表伺服器上，未來再依照其步調移至雲端。
+透過 Power BI Premium，組織在雲端佈建的相同虛擬核心數目也可透過 Power BI 報表伺服器在內部部署。 不需要分割容量。 組織可以選擇將報表放在雲端 Power BI，也可以選擇透過內部部署來放在 Power BI 的報表伺服器上，未來再依照其步調移至雲端。
 
 如需詳細資訊，請參閱[開始使用 Power BI 報表伺服器](report-server/get-started.md)。
 

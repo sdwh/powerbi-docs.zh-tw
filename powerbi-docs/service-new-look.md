@@ -1,5 +1,5 @@
 ---
-title: 巡覽 Power BI 服務的「新外觀」
+title: Power BI 服務的「新外觀」
 description: Power BI 服務 (app.powerbi.com) 有新的外觀。 本文描述如何使用新外觀巡覽報表。
 author: maggiesMSFT
 manager: kfile
@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: aa7de324e77b8f2b1c58e558c0814df97d997631
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471299"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654930"
 ---
-# <a name="navigate-the-new-look-of-the-power-bi-service"></a>巡覽 Power BI 服務的「新外觀」
+# <a name="the-new-look-of-the-power-bi-service"></a>Power BI 服務的「新外觀」
 
-Power BI 服務有新的外觀。 我們可讓您更輕鬆地檢視報表。 新外觀是一種更簡單的新式體驗，其建構在您熟悉其他 Microsoft 產品的基礎之上。 在 Power BI 服務中，我們藉由切換至較淺的色彩主題並更新圖示，讓報表內容成為主要焦點。 以下概述新外觀中的變更項目。 如需詳細資料，請參閱編號章節：
+Power BI 服務 (app.powerbi.com) 有新的外觀，可讓您更輕鬆地檢視報表並與其互動。 新外觀是一種更簡單的新式體驗，其建構在您熟悉其他 Microsoft 產品的基礎之上。 在 Power BI 服務中，我們藉由切換至較淺的色彩主題並更新圖示，讓報表內容成為主要焦點。 以下概述新外觀中的變更項目。 如需詳細資料，請參閱編號章節：
 
 ![新外觀的變更總覽](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -35,7 +35,7 @@ Power BI 服務有新的外觀。 我們可讓您更輕鬆地檢視報表。 新
 
 ![選擇使用新外觀](media/service-new-look/power-bi-new-look-off.png)
 
-如果您需要返回舊外觀，請選取右上角的省略符號功能表。
+如果您需要返回舊外觀，只要將其滑動回到**關閉** ![新外觀開啟](media/service-new-look/power-bi-new-look-toggle-on.png) 即可。 如果您沒有看到此項目，請選取右上角的省略符號功能表。
 
 ![選擇退出新外觀](media/service-new-look/power-bi-new-look-on.png)
 

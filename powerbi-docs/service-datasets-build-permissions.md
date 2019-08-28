@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 17c3322ed5f24d106412bafb9c4235ee15a626aa
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c5b880132255fbdf37996273dc6c70029e548df6
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530528"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654904"
 ---
 # <a name="share-a-dataset-preview"></a>共用資料集 (預覽)
 
@@ -42,7 +42,7 @@ ms.locfileid: "69530528"
 
 ## <a name="build-permissions-for-shared-datasets"></a>共用資料集的建置權限
 
-建置權限類型只會與資料集相關。 使用者可以利用此權限在資料集建置新內容，例如問與答中的報表、儀表板、釘選圖格，以及見解探索。 也可以在 Power BI 外部的資料集建置新內容，例如透過使用 Excel 分析的 Excel 工作表、XMLA 和匯出。
+建置權限類型只會與資料集相關。 使用者可以利用此權限在資料集建置新內容，例如問與答中的報表、儀表板、釘選圖格，以及見解探索。 也可以在 Power BI 外部的資料集建置新內容，例如透過使用 Excel 分析的 Excel 工作表、XMLA 和匯出基礎資料。
 
 使用者可以藉由不同方式取得建置權限：
 
@@ -72,7 +72,7 @@ Power BI 於 2019 年 6 月推出建置權限，作為現有權限、讀取和�
 
 如果資料集工作區外的報表正在使用資料集，您無法刪除該資料集。 反之，您會看到一則錯誤訊息。
 
-您可以移除建置權限。 如果您這麼做，您已撤銷其權限的使用者仍然可以查看報表，但無法再編輯報表。
+您可以移除建置權限。 如果您這麼做，您已撤銷其權限的使用者仍然可以查看報表，但無法再編輯報表或匯出基礎資料。 只具有讀取權限的使用者仍然可以匯出摘要資料。 
 
 ## <a name="track-your-dataset-usage"></a>追蹤您的資料集使用方式
 

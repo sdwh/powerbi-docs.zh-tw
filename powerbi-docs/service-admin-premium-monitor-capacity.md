@@ -10,26 +10,26 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 0ef74a776e7220477a36d652ce1a48ebbf60c267
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
+ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68362743"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "70008130"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>使用應用程式監視 Premium 容量
 
 監視您的容量對於明智地決定如何最有效地利用 Premium 容量資源至關重要。 您可以在系統管理入口網站中或使用 **Power BI Premium 容量計量**應用程式來監視容量。 本文說明如何使用 Premium 容量計量應用程式。 此應用程式提供您容量如何執行的最深入資訊。 如需過去七天平均使用計量的更高階概觀，您可以使用系統管理入口網站。 若要深入了解入口網站中的監視，請參閱[在系統管理入口網站中監視 Premium 容量](service-admin-premium-monitor-portal.md)。
 
-應用程式會定期更新，加入新特性和功能。 請確定您執行的是最新版本。 如果您已安裝舊版應用程式，最好從您的應用程式中刪除它，然後按下 CTRL + F5 重新整理。 
+應用程式會定期更新，加入新特性和功能。 請確定您執行的是最新版本。 如果您已安裝舊版應用程式，最好從您的應用程式中刪除它，然後按下 CTRL + F5 重新整理。
 
 ## <a name="install-the-app"></a>安裝應用程式
 
 您可以直接移至 [Premium 容量計量應用程式](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics)，或在 Power BI 中如同安裝其他應用程式一樣安裝它。
 
+1. 在 Power BI 中，按一下 [應用程式]  。
 
-1. 在 Power BI 中，按一下 [應用程式]  。   
-    ![移至應用程式](media/service-admin-premium-monitor-capacity/apps.png)
+    ![移至 [應用程式]](media/service-admin-premium-monitor-capacity/apps.png)
 
 2. 在右側，按一下 [取得應用程式]  。
 3. 在 [應用程式]  類別中，搜尋 **Power BI Premium 容量計量應用程式**。
@@ -245,7 +245,7 @@ ms.locfileid: "68362743"
 | **報表區段** | **計量** |
 | --- | --- |
 | CPU 使用量 |  工作負載的耗用量，以總 CPU 容量百分比表示。 針對過去七天每小時顯示。 |
-| 記憶體使用量 |  工作負載 (實線) 與工作負載限制 (虛線) 重疊的記憶體耗用量，以 GB 表示。 針對過去七天每小時顯示。 |
+| 記憶體使用量 |  一小時內工作負載 (實線) 與工作負載限制 (虛線) 重疊的最大記憶體耗用量，以 GB 表示。 針對過去七天每小時顯示。 |
 |  |  |
 
 ### <a name="ids-and-info"></a>識別碼和資訊
@@ -257,7 +257,7 @@ ms.locfileid: "68362743"
 | [報告] 區段 | 計量 |
 | --- | --- |
 | SKU 和工作負載資訊 | 容量的 SKU 與工作負載設定。 |
-| 系統管理員 | 容量的系統管理員名稱。 |
+| Administrators | 容量的系統管理員名稱。 |
 |||
 
 #### <a name="workspaces-area"></a>工作區區域

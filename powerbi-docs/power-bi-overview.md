@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 05/30/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d6c9eb47d5f88a2d835c1ba6835e871b0c64bf1c
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 0e12d110708c955e0c63e11f7578523222375448
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324780"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654973"
 ---
 # <a name="what-is-power-bi"></a>Power BI 是什麼？
 **Power BI** 是軟體服務、應用程式和連接器的集合，它們搭配使用來將不相關的資料來源轉換成相關、視覺上融入的互動式深入剖析。 不論您的資料是簡單的 Excel 試算表，或是一組雲端和內部部署混合式資料倉儲， Power BI 可讓您輕鬆地連線到資料來源、以視覺化方式檢視及探索重要資料，以及與任何人或您想要的任何人共用該資料。
@@ -25,11 +25,11 @@ Power BI 可以十分簡單和快速，能夠透過 Excel 試算表或本機資�
 
 ## <a name="the-parts-of-power-bi"></a>Power BI 的各部分
 Power BI 包含： 
-- 稱為 **Power BI Desktop** 的 Windows 傳統型應用程式
-- 稱為 **Power BI 服務**的線上 SaaS (「軟體即服務」  ) 服務 
-- 適用於 Windows、iOS 和 Android 裝置的 Power BI **行動裝置應用程式**
+- 稱為 **Power BI Desktop** 的 Windows 傳統型應用程式。
+- 稱為 **Power BI 服務**的線上 SaaS (「軟體即服務」  ) 服務。 
+- 適用於 Windows、iOS 和 Android 裝置的 Power BI **行動裝置應用程式**。
 
-![Power BI Desktop、服務、行動裝置](media/power-bi-overview/power-bi-blocks.png)
+![Power BI Desktop、服務、行動裝置](media/power-bi-overview/power-bi-overview-blocks.png)
 
 這三個元素 (Power BI Desktop、服務以及行動裝置應用程式) 旨在讓使用者透過最符合他們需求或角色的方式，建立、共用和取用企業見解。
 

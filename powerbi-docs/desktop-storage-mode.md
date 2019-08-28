@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61363405"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654741"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop 中的儲存模式
 
@@ -62,6 +62,10 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 * **雙重**：雙重資料表可以快取或不快取兩種形式運作，視提交給 Power BI 資料集的查詢內容而定。 在某些情況下，您可以從快取的資料完成查詢。 在其他的情況下，則可以對資料來源執行即時查詢來完成查詢。
 
 將資料表變更為**匯入**的作業無法復原  。 此屬性無法再變更回 DirectQuery 或「雙重」。
+
+> [!NOTE]
+> 您可以在 Power BI Desktop 和 Power BI 服務中使用「雙重」  儲存模式。
+
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>[DirectQuery] 和 [雙重] 資料表的限制
 

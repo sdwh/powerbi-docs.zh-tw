@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 75e5a6387574c6cc4a9620955a3e7c15479830c2
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391314"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621325"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的供應商品質分析範例：觀看導覽
 
@@ -144,7 +144,7 @@ ms.locfileid: "68391314"
     2014 年的原料瑕疵品數量比 2013 年高很多。  
 
     ![問與答的問題：顯示物料類型、年度和瑕疵品總數](media/sample-supplier-quality/supplier12.png)  
-6. 現在，將問題變更為：*show material types, year, and total **downtime minutes*** (顯示物料類型、年度和停工時間總分鐘數)。  
+6. 接下來，將問題變更為：「顯示物料類型、年度和**停工時間總分鐘數」**  。  
 
    ![問與答的問題：顯示物料類型、年度和停工時間總分鐘數](media/sample-supplier-quality/supplier13.png)
 

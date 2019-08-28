@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/22/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 591a837bb085ba901316e672112b568923995718
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 11de32b8119e8b6922dcc1a971750e4256812932
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590546"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654761"
 ---
 # <a name="using-directquery-in-power-bi"></a>使用 Power BI 中的 DirectQuery
 您可以在使用 **Power BI Desktop** 或 **Power BI 服務**時連接到各種不同的資料來源，且可以利用不同的方法來進行這些資料連接。 您可以將資料「匯入」  Power BI (這是取得資料的最常見方法)，或直接連接到原始來源存放庫中的資料 (也稱為 **DirectQuery**)。 本文將描述 **DirectQuery** 及其功能：
@@ -140,11 +140,8 @@ Power BI 會連接到大量的各種資料來源，包括：
 * **計算結果欄限制：** 計算結果欄僅限於內部資料列，換句話說，它們只會參考相同資料表之其他資料行的值，而不會使用任何彙總函式。 此外，允許的 DAX 純量函式 (例如 LEFT()) 僅限於可直接發送至基礎來源的函式，因此會因來源的實際功能而有所不同。 撰寫計算結果欄的 DAX 時，不會在自動完成功能中列出不支援的函式，而且如果使用這些函式，將會導致錯誤。
 * **不支援父子式 DAX 函式：** 在 DirectQuery 模型中，您無法使用通常用來處理父子式結構 (例如會計科目表或員工階層) 的 DAX PATH() 函式系列。
 * **不支援計算資料表：** DirectQuery 模式不支援使用 DAX 運算式定義計算資料表的功能。
-* **關聯性篩選僅限於單一方向：** 使用 DirectQuery 時，您無法將關聯性的交互篩選方向設定為 [雙向]。 例如，您可以透過下列三個資料表，建立顯示每個 Customer[Gender] 以及其所購買之 Product[Category] 數目的視覺效果。 如需使用這類雙向篩選的說明，請參閱[這份詳細的技術白皮書](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (此文件提供 SQL Server Analysis Services 內容的範例，但基本重點同樣適用於 Power BI)。
-  
-  ![](media/desktop-directquery-about/directquery-about_01.png)
-  
-  同樣會由於效能影響而有所限制。 一個特別重要的應用是在定義資料列層級安全性作為報表的一部分時，因為一般模式是讓使用者與使用者可存取的實體之間有多對多關聯性，必須使用雙向篩選才能強制執行此作業。 不過，針對 DirectQuery 模型使用雙向篩選應該謹慎，並小心注意不要對效能造成任何不良影響。  
+* **關聯性篩選：** 如需使用雙向篩選的描述，請參閱[這份詳細的技術白皮書](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (此文件提供 SQL Server Analysis Services 內容的範例，但基本重點同樣適用於 Power BI)。
+
 * **無叢集：** 使用 DirectQuery 時，您無法使用 [叢集] 功能來自動尋找群組
 
 ### <a name="reporting-limitations"></a>報告限制

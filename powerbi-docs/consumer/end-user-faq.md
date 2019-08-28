@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 6/17/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0e63025c4e8a07e9cd22c82ca7e605042fa65be0
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 5efdb98e0722add361f3b333f773fc03c6ea50a9
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264288"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654129"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>關於 Power BI 的常見問題集
 
@@ -29,7 +29,7 @@ Power BI 服務是雲端式商務分析服務，讓任何人都能將資料視�
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro 與 Power BI Premium 之間的差異為何？
 
-Power BI Pro 是個別的授權，可允許存取 Power BI 服務中的所有內容和功能。 您甚至可以共用內容，並與其他 Pro 使用者共同作業。 只有 Pro 使用者能將內容發行到應用程式工作區、從應用程式工作區中取用內容、共用儀表板，以及訂閱儀表板和報表。
+Power BI Pro 是個別的授權，可允許存取 Power BI 服務中的所有內容和功能。 您甚至可以共用內容，並與其他 Pro 使用者共同作業。 只有 Pro 使用者能將內容發佈到應用程式工作區、共用儀表板，以及訂閱儀表板和報表。
 
 Power BI Premium 提供專用容量，以提供更一致的效能。 它也在 Power BI 支援更大的資料量。 對於個人使用者，Premium 讓 Pro 使用者能廣泛散發內容，而且檢視內容的收件者並不需要每位使用者授權。
 

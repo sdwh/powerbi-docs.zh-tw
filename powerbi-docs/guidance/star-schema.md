@@ -9,14 +9,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: df8a7b2f8564c8862a5c2db3177df42640ce295d
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: bb8c0582e08d8e1e05c78c30df0b59bd89aafbd0
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68996051"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985785"
 ---
-# <a name="understand-a-star-schema-and-the-importance-for-power-bi"></a>了解星型結構描述及其對 Power BI 的重要性
+# <a name="understand-star-schema-and-the-importance-for-power-bi"></a>了解星型結構描述及其對 Power BI 的重要性
 
 本文適用於 Power BI Desktop 資料模型製作人員。 其中描述星型結構描述設計，以及其與開發針對效能和可用性最佳化的 Power BI 資料模型有何關聯。
 
@@ -66,7 +66,7 @@ ms.locfileid: "68996051"
 
 在星型結構描述設計中，**量值**是一個事實資料表資料行，用來儲存要摘要的值。
 
-在 Power BI 模型中，**量值**有不同 (但類似) 的定義。 這是以[資料分析運算式 (DAX)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) 撰寫來達成摘要的公式。 量值運算式通常會利用 DAX 彙總函式 (例如 SUM、MIN、MAX、AVERAGE 等) 在查詢時產生純量值結果 (值永遠不會儲存在模型中)。 量值運算式範圍可以從簡單的資料行彙總，到覆寫篩選內容及/或關聯性傳播的更複雜公式。 如需詳細資訊，請參閱 [DAX Basics in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics) (Power BI Desktop 的 DAX 基本概念) 一文。 深入了解連結？
+在 Power BI 模型中，**量值**有不同 (但類似) 的定義。 這是以[資料分析運算式 (DAX)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) 撰寫來達成摘要的公式。 量值運算式通常會利用 DAX 彙總函式 (例如 SUM、MIN、MAX、AVERAGE 等) 在查詢時產生純量值結果 (值永遠不會儲存在模型中)。 量值運算式範圍可以從簡單的資料行彙總，到覆寫篩選內容及/或關聯性傳播的更複雜公式。 如需詳細資訊，請參閱 [DAX Basics in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics) (Power BI Desktop 的 DAX 基本概念) 一文。
 
 請務必了解 Power BI 模型支援第二種達成摘要的方法。 任何資料行 (通常是數值資料行) 都可以透過報表視覺效果或問與答來進行摘要。 這對身為模型開發人員的您會很方便，因為在許多情況下，您不需要建立量值。 例如，Adventure Works 轉銷商銷售的 [銷售量]  資料行可以透過許多方式 (sum、count、average、median、min、max 等) 進行摘要，而不需要為每個可能的彙總類型建立量值。
 
