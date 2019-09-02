@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3919d869c696617fa97351f352084e5a57e6b06e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 861a1d43f023e3ceba17fba90bcbc703e3195c84
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239520"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160178"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 [分析] 窗格
 有了 **Power BI Desktop** 的 [分析]  窗格，您就可以將動態「參考線」  新增至視覺效果，為重要的趨勢或深入解析提供焦點。 [分析]  窗格位於 Power BI Desktop 的 [視覺效果]  區域中。
@@ -84,7 +84,6 @@ ms.locfileid: "65239520"
 * 區域圖
 * 折線圖
 * 散佈圖
-* 群組直條圖
 * 群組橫條圖
 
 下列視覺效果只可從 [分析]  窗格使用「常數線」  ：

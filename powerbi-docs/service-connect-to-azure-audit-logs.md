@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 02/06/2018
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 005913bc6af73f9b20db3cff7d12733f721eef3a
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: ee4b4616f264f0bd20e53d999b64301b2a7a693b
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720604"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186057"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>使用 Power BI 連接到 Azure 稽核記錄
 您可以使用 Azure 稽核記錄內容套件，來分析及視覺化儲存在稽核記錄中的資訊。 Power BI 會擷取您的資料、建置現成的儀表板，然根據該資料建立報表。
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 [連接至 Azure 稽核記錄檔內容套件](https://app.powerbi.com/getdata/services/azure-audit-logs)或深入了解 Power BI 與 [Azure 稽核記錄檔的整合](https://powerbi.microsoft.com/integrations/azure-audit-logs)。
 

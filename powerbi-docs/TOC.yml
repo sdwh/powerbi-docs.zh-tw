@@ -291,7 +291,7 @@
               href: desktop-sort-by-column.md
             - name: 最佳化行動裝置應用程式的報表
               href: desktop-create-phone-report.md
-            - name: '使用 [查看資料] 與 [查看記錄]'
+            - name: '使用 [See Data] (查閱資料) 與 [See Records] (查閱記錄)'
               href: desktop-see-data-see-records.md
             - name: 建立報表的祕訣
               href: desktop-tips-and-tricks-for-creating-reports.md
@@ -939,8 +939,8 @@
           href: report-builder-tables-matrices-lists.md
         - name: 參數
           href: report-builder-parameters.md
-        - name: 運算式
-          href: report-builder-expressions.md
+        - name: 編頁報表中的 URL 參數
+          href: report-builder-url-parameters.md
         - name: 運算式範例
           href: report-builder-expression-examples.md
         - name: 報表分頁
@@ -959,6 +959,8 @@
           href: paginated-reports-create-embedded-dataset.md
         - name: 建立參數
           href: paginated-reports-parameters.md
+        - name: 在 URL 中傳遞報表參數
+          href: report-builder-url-pass-parameters.md
         - name: 發佈編頁報表
           href: paginated-reports-save-to-power-bi-service.md
 - name: 適用於開發人員的 Power BI
@@ -1141,7 +1143,7 @@
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
             - name: 自訂視覺效果 Git 存放庫
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-            - name: 建立 SSL 憑證
+            - name: 正在建立 SSL 憑證
               href: developer/visuals/create-ssl-certificate.md
     - name: 自動化
       items:
@@ -1420,7 +1422,7 @@
           href: service-admin-governance.md
         - name: Power BI 安全性
           href: service-admin-power-bi-security.md
-- name: 指導方針
+- name: 指引
   items:
     - name: 什麼是星型結構描述？
       href: guidance/star-schema.md

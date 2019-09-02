@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 152b8f3bffa25a66d08af4806f9c7f1fe9bc90f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4e9efa729b9dc4ac645bc8d3ff7df92cafc929e4
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514345"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200976"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Power BI publisher for Excel
 有了 Microsoft **Power BI Publisher for Excel**，您就可以擷取 Excel 中最重要深入解析的快照集，像是樞紐分析表、樞紐分析圖和範圍，並將其釘選到 Power BI 中的儀表板。
@@ -32,7 +32,7 @@ ms.locfileid: "65514345"
 ## <a name="download-and-install"></a>下載並安裝
 您可以在桌面版的 Microsoft Excel 2007 及更新版本下載並安裝 Power BI Publisher for Excel 增益集。
 
-[下載 Power BI Publisher for Excel](http://go.microsoft.com/fwlink/?LinkId=715729)
+[下載 Power BI Publisher for Excel](https://www.microsoft.com/download/details.aspx?id=50729)
 
 在您安裝 Publisher 後，就會在 Excel 內看到新的 **Power BI** 功能區，您可以在此登入 (或登出) Power BI、將項目釘選到儀表板以及管理已釘選的項目。
 
