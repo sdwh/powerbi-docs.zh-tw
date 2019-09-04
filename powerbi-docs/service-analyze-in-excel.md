@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 7ccbfee788bbada580c02544a4af4b1b25c1a169
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6f4beb98c195c5af9967f988015959806d485696
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514231"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159974"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中分析
 有時候您可能會想要使用 Excel 來檢視您在 Power BI 中的資料集，並與其互動。 有了 [使用 EXCEL 分析]  ，您可以做到，並以存在於 Power BI 中的資料集為基礎來存取 Excel 的樞紐分析表、 圖表和交叉分析篩選器的功能。
@@ -28,7 +28,8 @@ ms.locfileid: "65514231"
 * Excel 樞紐分析表不支援數值欄位的拖放功能彙總。 您在 Power BI 中的資料集 *必須有預先定義的量值* 。
 * 某些組織可能會有防止安裝 [使用 EXCEL 分析]  必要更新的群組原則規則。 如果您無法安裝更新，請洽詢您的系統管理員。
 * **使用 Excel 分析**需要資料集位於 Power BI Premium 中，或使用者具有 Power BI Pro 授權。 若要深入了解授權類型之間的功能差異，請參閱[依授權類型排列的 Power BI 功能](service-features-license-type.md)。 
-* 如果他們擁有讀取權限，在基礎資料集上的，使用者可以連線到透過在 Excel 中進行分析的資料集。  使用者可以透過下列數種方式來執行此操作，例如成為包含資料集之工作空間的成員、具有與其共用的報表或儀表板 (該報表或儀表板使用資料集)、或擁有包含資料集之應用程式的使用權限。
+* 若使用者有權讀取基礎資料集，就能透過 [使用 Excel 分析] 連線到資料集。  使用者可以透過下列數種方式來執行此操作，例如成為包含資料集之工作空間的成員、具有與其共用的報表或儀表板 (該報表或儀表板使用資料集)、或擁有包含資料集之應用程式的使用權限。
+* [使用 Excel 分析]  是 Power BI 服務的功能，Power BI 報表伺服器或 Power BI Embedded 不提供此功能。 
 
 ## <a name="how-does-it-work"></a>運作方式
 當您從省略符號功能表 (...) 相關聯的資料集或報表中的 **Power BI** 選取 [使用 EXCEL 分析]  ，Power BI 會建立 .ODC 檔案，並從瀏覽器下載到您的電腦。

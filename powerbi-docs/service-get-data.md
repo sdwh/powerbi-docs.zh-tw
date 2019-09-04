@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/29/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d6d6ca0b9a1a2ec312a9168aad7a7cc93981e396
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 21a7bf05330373febe1e9f121f07df6de0779c69
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816767"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200941"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服務的資料來源
 資料是 Power BI 的核心。 假設您正在探索資料。 您可能會先建立圖表與儀表板，或利用 [問與答]  提出問題，以執行上述作業。 系統顯示的視覺效果和解答會從資料集擷取其基礎資料。 但是，該資料集又來自何處？ 資料集是由資料來源而來。
@@ -46,7 +46,7 @@ ms.locfileid: "66816767"
 ### <a name="files"></a>檔案
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** ( *.xlsx*、 *.xlsm*) - Excel 是比較獨特的。 Excel 活頁簿中可能包含不同資料類型。 例如，它可能包含您自行輸入工作表的資料， 也可能包含您使用 Power Query 從外部資料來源查詢及載入的資料。 您可以透過 Excel 2016 或 Power Pivot 中的 [取得與轉換資料]  來使用 Power Query。 您可以從工作表中的資料表匯入資料，或從資料模型匯入資料。 如需深入了解，請參閱[針對 Power BI 從檔案取得資料](service-get-data-from-files.md)。
+**Excel** ( *.xlsx*, *.xlsm*) - 在 Excel 中，活頁簿可能包含不同資料類型。 例如，它可能包含您自行輸入工作表的資料， 也可能包含您使用 Power Query 從外部資料來源查詢及載入的資料。 您可以透過 Excel 2016 或 Power Pivot 中的 [取得與轉換資料]  來使用 Power Query。 您可以從工作表中的資料表匯入資料，或從資料模型匯入資料。 如需深入了解，請參閱[針對 Power BI 從檔案取得資料](service-get-data-from-files.md)。
 
 **Power BI Desktop** ( *.pbix*) - 您可以使用 Power BI Desktop，從外部資料來源查詢及載入資料，並建立報表。 您也可以使用量值與關聯性來擴充您的資料模型，或將 Power BI Desktop 檔案匯入 Power BI 網站。 Power BI Desktop 最適合更進階的使用者。 這些使用者通常非常了解自己的資料來源， 也充分掌握資料查詢與轉換以及資料模型化概念。 如需深入了解，請參閱[連接至 Power BI Desktop 中的資料](desktop-connect-to-data.md)。
 
@@ -102,9 +102,9 @@ Power BI 中經常使用資料集與資料來源等詞彙。 這兩個詞彙通�
 
 來自服務的內容套件會自動更新。 在大部分情況下，他們會一天更新一次。 您可以手動重新整理，但是否顯示任何更新的資料則取決於服務提供者。 組織人員提供的內容套件更新取決於所使用資料來源。 這些更新也取決於建立內容套件的人員如何設定重新整理而定。
 
-Azure SQL Database、Azure SQL 資料倉儲與 Azure HDInsight 上的 Spark 是雲端上的資料來源，因此比較獨特。 由於 Power BI 服務也是在雲端中，所以 Power BI 可以使用 **DirectQuery** 即時連接到這些資料來源。 您在 Power BI 中看到的內容一律會同步處理，而不需要設定排程的重新整理。
+Azure SQL Database、Azure SQL 資料倉儲與 Azure HDInsight 上的 Spark 是雲端上的資料來源。 由於 Power BI 服務也是在雲端中，所以 Power BI 可以使用 **DirectQuery** 即時連接到這些資料來源。 您在 Power BI 中看到的內容一律會同步處理，而不需要設定排程的重新整理。
 
-SQL Server Analysis Services 也有其獨特性。 當您從 Power BI 對其連接時，就如同在雲端中 Azure 資料庫的即時連線。 差別在於，資料庫本身是在您組織的伺服器上。 這種連線需要 Power BI Gateway，並由 IT 部門進行設定。
+當您從 Power BI 連接到 SQL Server Analysis Services 時，就如同在雲端中 Azure 資料庫的即時連線。 差別在於，資料庫本身是在您組織的伺服器上。 這種連線需要 Power BI Gateway，並由 IT 部門進行設定。
 
 資料重新整理是 Power BI 很重要的一部分，不是本文所能深入探討。 如果您想要徹底了解，請務必查看 [Power BI 的資料重新整理](refresh-data.md)。
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621246"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160357"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體 (預覽)
 
@@ -115,19 +115,19 @@ ms.locfileid: "69621246"
 
     ![搜尋 Power 應用程式](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. 從您的搜尋結果中，選取並複製 Power BI 服務和 Power Query Online 的「物件識別碼」。 請準備好在後續步驟中貼上這些值。
+5. 從您的搜尋結果中，選取並複製 Power BI Premium 服務和 Power Query Online 的物件識別碼。 請準備好在後續步驟中貼上這些值。
 
-7. 接著，使用 [Azure 儲存體總管]  來瀏覽至您在上一節中建立的 *powerbi* 檔案系統。 請遵循[使用 Azure 儲存體總管來設定檔案和目錄層級權限](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) \(英文\) 一文之[管理存取權](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)一節中的指示。
+6. 接著，使用 [Azure 儲存體總管]  來瀏覽至您在上一節中建立的 *powerbi* 檔案系統。 請遵循[使用 Azure 儲存體總管來設定檔案和目錄層級權限](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) \(英文\) 一文之[管理存取權](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)一節中的指示。
 
-8. 針對在步驟 5 中所收集兩個 Power BI 物件識別碼，個別為它們指派您 *powerbi* 檔案系統的 [讀取]  、[寫入]  、[執行]  [存取權] 和 [預設] ACL。
+7. 針對在步驟 5 中所收集的兩個 Power BI Premium 物件識別碼，個別為它們指派您 *powerbi* 檔案系統的 [讀取]  、[寫入]  、[執行]  權限和預設 ACL。
 
    ![為兩者指派所有三個權限](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. 針對在步驟 4 中所收集的 Power Query 線上物件識別碼，將**寫入**、**執行**權限和預設 ACL 指派給您的 *powerbi* 檔案系統。
+8. 針對在步驟 4 中所收集的 Power Query 線上物件識別碼，將**寫入**、**執行**權限和預設 ACL 指派給您的 *powerbi* 檔案系統。
 
    ![接著指派 [寫入] 和 [執行]](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
-10. 此外，針對 [其他]  ，也指派 [執行]  [存取權] 及 [預設] ACL。
+9. 此外，針對 [其他]  ，也指派 [執行]  [存取權] 及 [預設] ACL。
 
     ![最後針對其他項目指派 [執行] 權限](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 

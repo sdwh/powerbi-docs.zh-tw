@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: d7f30dd43fe875380939520f3dc54fcbbe2f4c9c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 629c53358f757002f2b3dcda468641bbaaa2f4d4
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273244"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70166683"
 ---
 **DAX** 及 Excel 公式語言之間的一個重大差異，是 DAX 可讓您在運算式之間傳遞 *整個資料表* ，而不是限制在單一值。 其中一個功能強大的作用是 DAX 可讓您在其運算式中篩選資料表，然後使用已篩選的一組值。
 
@@ -36,7 +36,7 @@ DISTINCT 函數會針對目前內容中亦可見的資料行，傳回該資料�
 
 * 此資料行有多少值？
 
-當資料表顯示在面前時這可能是個簡單的問題，但 DAX 以不同的方式處理，特別是當資料表之間有關連性時。
+當資料表顯示在面前時這可能是個簡單的問題，但 DAX 以不同的方式處理，特別是當資料表之間有關聯性時。
 
 例如，Power BI 和 DAX 會包含未正確相互檢索的值。 如果內送關聯性已損毀，DAX 會將新的資料列新增至每個欄位皆為空白的相關資料表中，並將該新資料列連結至未編製索引的資料列，以確保參考完整性。 如果您的函數包含空白資料列，例如，通常是在使用 **ALL** 時，該等空白資料列就會包括在為該資料行傳回的值數目中。
 

@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 80eb366015de3822b9c8c455f1ee386a34e1f457
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: 0474bc4182f77e7084ca8cb78062ba0f2063e7ae
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561024"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160214"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>在 Power BI Desktop 中分析 Azure 成本和使用量資料
 
@@ -27,6 +27,10 @@ Power BI 目前支援連線至 Enterprise 合約及客戶合約的帳單帳戶�
 * **Enterprise 合約**使用者應使用 **Azure 使用量見解連接器**進行連線 (如下)。
 
 * **客戶合約**使用者應使用 [**Azure 成本管理連接器**](#connect-with-azure-cost-management)進行連線。
+
+> [!NOTE]
+> 如果您是使用 Azure 成本管理連接器的 Enterprise 合約客戶，且在 [成本管理] 刀鋒視窗中沒有看到「帳單設定檔識別碼」  ，則表示您不在新式交易平台中。 在這些情況下，請使用 Azure 使用量見解連接器，這會要求 EA 註冊號碼，而不是「帳單設定檔識別碼」  。
+
 
 ## <a name="connect-with-azure-consumption-insights"></a>與 Azure 使用量見解進行連線
 

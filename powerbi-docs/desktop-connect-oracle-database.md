@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b28c4ea9b4cacc77a7f98af5bfc006670f40af94
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3dce16287c9cdcb7882e332e338137f7598b4010
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61314932"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200903"
 ---
 # <a name="connect-to-an-oracle-database"></a>連接到 Oracle 資料庫
 若要使用 **Power BI Desktop** 連接到 Oracle 資料庫，執行 Power BI Desktop 的電腦上必須安裝正確的 Oracle 用戶端軟體。 您使用的 Oracle 用戶端軟體取決於您安裝的 Power BI Desktop 版本，也就是 **32 位元**版本或 **64 位元**版本。
@@ -64,3 +64,5 @@ ms.locfileid: "61314932"
 * 改為從 https://powerbi.microsoft.com/desktop 下載 Power BI Desktop。
 
 * 若要使用來自 Microsoft Store 的版本：請在您的本機電腦上，將 oraons.dll 從 _12.X.X\client_X_ 複製到 _12.X.X\client_X\bin_。 X 代表版本及目錄號碼。
+
+如果您在連接到 Oracle 資料庫時，在 Power BI Gateway 中看到錯誤訊息「未設定物件參考」  ，您或許可以遵循[管理您的資料來源 - Oracle](service-gateway-onprem-manage-oracle.md) 一文中所找到指示來解決問題。

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d67ca5a4c8014dc295f3ffc458eca3dc5496282a
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 14e57f5b19fe4dccea9aa47d21c959eaf93a45ae
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307199"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185706"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Power BI Desktop 報告中的協助工具
 Power BI 具有可讓行動不便人士更輕鬆地使用 Power BI 報表並與之互動的功能。 這些功能包括能夠利用鍵盤或螢幕助讀程式來使用報告、利用 Tab 鍵聚焦於頁面上的不同物件，以及在視覺效果中貼心地使用標記。
@@ -75,6 +75,9 @@ Power BI 具有可讓行動不便人士更輕鬆地使用 Power BI 報表並與�
 * 針對報表上的每個物件提供替代文字。 這樣做可以確保報表取用者了解您嘗試使用視覺效果傳達的內容。 甚至在他們看不到視覺效果、影像、形狀或文字方塊時也能提供協助。 您可以選取物件 (例如視覺效果、形狀等)，然後選取 [視覺效果]  窗格中的 [格式]  區段，來為 **Power BI** 報表上的任何物件提供替代文字。 然後，請展開 [一般]  ，捲動到底部，然後填入 [替代文字]  文字方塊。
   
   ![在 [視覺效果] > [格式] > [一般] > [替代文字] 方塊中可以為報告中的任何物件新增替代文字](media/desktop-accessibility/accessibility-02.png)
+  
+  您也可以使用運算式動態變更替代文字，例如反映套用至視覺效果的篩選。 您可以使用與視覺效果標題相同的方式來設定運算式。 [視覺效果標題的條件式格式設定](desktop-conditional-format-visual-titles.md)
+  
 * 確定您的報表在文字與任何背景色彩之間有足夠的對比。 您可使用多種工具 (例如 [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) \(英文\)) 來檢查報表色彩。 
 * 使用可輕鬆閱讀的文字大小和字型。 文字大小或字型若太小而難以閱讀，則為無用的協助工具。
 * 在所有視覺效果中包含標題、軸標籤和資料標籤。
@@ -149,7 +152,7 @@ Power BI 服務也會嘗試偵測為 Windows 選取的高對比設定。 該偵�
 | 將焦點向上/向下移動一個資料格 (所有區域的所有資料格)  | **向上鍵** / **向下鍵** |
 | 將焦點向左/向右移動一個資料格 (所有區域的所有資料格)  | **向左鍵** / **向右鍵** |
 
-### <a name="pane-navigation"></a>窗格導覽
+### <a name="pane-navigation"></a>窗格瀏覽
 | 要進行的動作           | 按                |
 | :------------------- | :------------------- |
 | 複選 | **Ctrl + 空格鍵** |

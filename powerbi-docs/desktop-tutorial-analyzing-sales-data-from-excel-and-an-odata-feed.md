@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 757a2ca5a88e8ee98aa1c460c30e001f14bc6789
-ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66814333"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160392"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>教學課程：結合來自 Excel 和 OData 摘要的銷售資料
 
@@ -119,7 +119,7 @@ Power Query 編輯器可讓您建立各種計算式和自訂的欄位，讓您�
    
 2. 在 [自訂資料行]  對話方塊的 [新資料行名稱]  欄位輸入 **LineTotal**。
 
-3. 在 [自訂資料行公式]  欄位中，於 **= 之後輸入 **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** 。 (您也可以從 [可用的資料行]  捲動方塊中選取欄位名稱，然後選取 [<< 插入]  ，而不用逐個輸入)。 
+3. 在 [自訂資料行公式]  欄位中，於 *=* 之後輸入 **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** 。 (您也可以從 [可用的資料行]  捲動方塊中選取欄位名稱，然後選取 [<< 插入]  ，而不用逐個輸入)。 
 
 4. 選取 [確定]  。
    

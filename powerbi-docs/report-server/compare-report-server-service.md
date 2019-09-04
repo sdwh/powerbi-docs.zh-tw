@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 05/22/2019
-ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 08/29/2019
+ms.openlocfilehash: 0755b41fbeef1f62d2722e3529007dc4f8773634
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187675"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186072"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
 
@@ -44,10 +44,10 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 編頁報表 | 是 | 是 | Premium 容量的預覽版中，[可於 Power BI 服務內使用編頁的報表](../paginated-reports-report-builder-power-bi.md) |
 | Power BI 行動應用程式 | 是 | 是 | [Power BI 行動裝置應用程式概觀](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS 地圖 | 否 | 是 | [Power BI 服務及 Power BI Desktop 中由 Esri 提供的 ArcGIS 地圖](../visuals/power-bi-visualization-arcgis.md) |
-| Power BI 報表的電子郵件訂用帳戶 | 否 | 是 | [為您自己或其他人訂閱](../service-report-subscribe.md) Power BI 服務中的報表或儀表板 |
-| 編頁報表的電子郵件訂用帳戶 | 是 | 否 | [Reporting Services 中的電子郵件傳遞](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
+| Power BI 報表的電子郵件訂用帳戶 | 是 | 是 | [為您自己或其他人訂閱](../service-report-subscribe.md) Power BI 服務中的報表或儀表板 |
+| 編頁報表的電子郵件訂用帳戶 | 是 | 是 | [為您自己和其他人訂閱 Power BI 服務中的編頁報表](../paginated-reports-subscriptions.md)<br><br>[Reporting Services 中的電子郵件傳遞](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
 | 資料警示 | 否 | 是 | Power BI 服務中的[資料警示](../service-set-data-alerts.md)
-| 資料列層級安全性 (RLS) | 是 | 是 | DirectQuery (資料來源) 與匯入模式中皆可使用 <br>[Power BI 服務](../service-admin-rls.md)中的資料列層級安全性 <br>[Power BI 報表伺服器](row-level-security-report-server.md)中的資料列層級安全性 |
+| 資料列層級安全性 (RLS) | 是 | 是 | DirectQuery (資料來源) 與匯入模式中皆可使用 <br><br>[Power BI 服務](../service-admin-rls.md)中的資料列層級安全性 <br><br>[Power BI 報表伺服器](row-level-security-report-server.md)中的資料列層級安全性 |
 | 全螢幕模式 | 否 | 是 | [Power BI 服務](../consumer/end-user-focus.md)中的全螢幕模式 |
 | 進階的 Office 365 共同作業 | 否 | 是 | 與 Office 365 [在應用程式工作區中共同作業](../service-collaborate-power-bi-workspace.md) |
 | R 視覺效果 | 否 | 是 | 在 Power BI Desktop 中[建立 R 視覺效果](../desktop-r-visuals.md)，並將其發佈至 Power BI 服務。 您無法將具有 R 視覺效果的 Power BI 報表，儲存至 Power BI 報表伺服器。  |

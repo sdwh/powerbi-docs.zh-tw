@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665440"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030169"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -22,6 +22,12 @@ ms.locfileid: "68665440"
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
+
+## <a name="august-2019"></a>2019 年 8 月
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>保護 Azure Active Directory (AD) 應用程式 Proxy 的存取安全
+
+我們與 Azure Active Directory 團隊合作，整合了 Power BI 行動應用程式與 Azure Active Directory (AAD) 應用程式 Proxy。 使用此設定您可以從 Power BI 行動應用程式，連線到企業範圍內部裝載的報表伺服器，省去設定複雜內部部署麻煩。 請參閱 [Power BI mobile and Azure AD Application Proxy integration](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) (Power BI 行動應用程式與 Azure AD 應用程式 Proxy 整合) 中的詳細資訊。 了解[如何設定 Azure AD 應用程式 Proxy 與 Power BI](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
 
 ## <a name="july-2019"></a>2019 年 7 月
 

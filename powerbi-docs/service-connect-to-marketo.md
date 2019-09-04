@@ -7,18 +7,21 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 66dcbd76d76de04675204674626c2942aef515fa
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61172720"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200994"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>使用 Power BI 連接到 Marketo
 適用於 Marketo 的 Power BI 內容套件，可讓您深入了解您的 Marketo 帳戶有關潛在客戶和其活動的資料。建立此連接時可擷取您的資料，並自動依據該資料提供儀表板和相關報表。
+
+>[!IMPORTANT]
+>我們將在 2019 年 9 月 4 日淘汰此內容套件。 如果您在之前已安裝此內容套件，則它會繼續運作，但您無法在之後安裝新的內容套件。 範本應用程式會取代服務內容套件。
 
 連接到 Power BI 的 [Marketo 內容套件](https://app.powerbi.com/getdata/services/marketo)。
 

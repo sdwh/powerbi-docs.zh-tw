@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7a25a9cc220dcb9f4620b7fb77e6bac264a47256
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 848019a020e4a91e80caf342acb15c0d9b7e3121
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514755"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160224"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>連接到 Power BI Desktop 中的 SSAS 多維度模型
 使用 Power BI Desktop，您可以存取 **SSAS 多維度模型**，通常稱為 **SSAS MD**。
@@ -78,7 +78,8 @@ Power BI 服務和支援 Power BI Desktop 皆支援即時連接模式中的 **SS
 ## <a name="considerations-and-limitations"></a>考量與限制
 使用 **SSAS MD**會有某些限制：
 
-* 伺服器必須執行 SQL Server 2012 SP1 CU4 或更新版本的 Analysis Services，才能使 Power BI Desktop SSAS MD 連接器正常運作
+* 伺服器必須執行 SQL Server 2012 SP1 CU4 或更新版本的 Analysis Services，才能使 Power BI Desktop SSAS MD 連接器正常運作。
+* 只有 SQL Server 2012 和 SQL Server 2014 Enterprise 和 BI 版才支援即時連線。 若是 SQL Server Standard 版，則需要 SQL Server 2016 或更新版本才能進行即時連線。
 * *動作* 和 *具名集合* 不會公開至 Power BI，但您仍然可以連線到同樣包含「 *動作* 」或 *具名集合* 的 Cube，然後建立視覺效果和報表。
 * 您可能會遇到 Power BI 顯示 SSAS 模型的中繼資料，但無法從模型擷取資料的問題。 這可能發生在您系統上已安裝 MSOLAP 提供者的 32 位元版本且沒有 64 位元版本時。 安裝 64 位元版本可解決此問題。
 * 撰寫即時連線到SSAS 多維度模型時，無法建立「報表層級」量值。 唯一可用的量值是 MD 模型中定義的量值。

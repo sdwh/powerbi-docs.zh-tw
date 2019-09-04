@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 9f5e2715af5b3fd898d3c7f0486c8b75463a1c42
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70008130"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030181"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>使用應用程式監視 Premium 容量
 
@@ -244,7 +244,7 @@ ms.locfileid: "70008130"
 
 | **報表區段** | **計量** |
 | --- | --- |
-| CPU 使用量 |  工作負載的耗用量，以總 CPU 容量百分比表示。 針對過去七天每小時顯示。 |
+| CPU 使用量 |  該小時內的 CPU 最大使用量，會依工作負載以對 CPU 容量的佔比顯示。 針對過去七天每小時顯示。 |
 | 記憶體使用量 |  一小時內工作負載 (實線) 與工作負載限制 (虛線) 重疊的最大記憶體耗用量，以 GB 表示。 針對過去七天每小時顯示。 |
 |  |  |
 

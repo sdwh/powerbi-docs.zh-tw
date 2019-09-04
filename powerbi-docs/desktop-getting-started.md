@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d1739d97b0741c67e29ed7ab9a35a70bf4fdc484
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654830"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70201023"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>開始使用 Power BI Desktop
 歡迎使用 **Power BI Desktop 使用者入門指南**。 此 Power BI Desktop 簡短教學課程能讓您熟悉它的運作方式、示範它的功能，以及加速您建置穩固資料模型的能力 — 以及令人讚嘆的報表，增強您的商業智慧工作。 
@@ -105,6 +105,9 @@ Power BI Desktop 中有三種檢視：[報表]  檢視、[資料]  檢視，以�
  ![](media/desktop-getting-started/designer_gsg_editquery.png)
 
 如需如何連接至資料的詳細資訊，請參閱[連接至 Power BI Desktop 中的資料](desktop-connect-to-data.md)。
+
+> [!NOTE]
+> 本文中參考的資料表資料可能會隨著時間而改變。 因此，您需要遵循的步驟可能會與下列步驟不同，而需要您針對如何調整步驟或結果發揮創意，這全都是學習樂趣的一部分。 
 
 在下一節中，我們會調整資料，使其符合我們的需求。 調整連接資料的程序稱為「塑造」  資料。
 
