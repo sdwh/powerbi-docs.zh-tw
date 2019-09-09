@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: bbd40173bd10abf312ff382a9452f7636234bc95
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523224"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751682"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>動態資料列層級安全性與 Analysis Services 表格式模型
 
@@ -36,7 +36,7 @@ ms.locfileid: "68523224"
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>工作 1︰建立使用者安全性資料表，並定義資料關聯性
 
-您可以找到許多文章描述如何定義資料列層級動態的安全性與 **SQL Server Analysis Services (SSAS) 表格式**模型。 我們的範例使用 [Implement Dynamic Security by Using Row Filters](https://msdn.microsoft.com/library/hh479759.aspx) (使用資料列篩選來實作動態安全性)。 
+您可以找到許多文章描述如何定義資料列層級動態的安全性與 **SQL Server Analysis Services (SSAS) 表格式**模型。 我們的範例使用 [Implement Dynamic Security by Using Row Filters](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) (使用資料列篩選來實作動態安全性)。 
 
 此處的步驟需要使用 **AdventureworksDW2012** 關聯式資料庫。
 

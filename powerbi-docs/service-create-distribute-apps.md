@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ed3a65e25694c23e1852a554742e0f8a6e6ff668
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530594"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751564"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
@@ -127,7 +127,7 @@ ms.locfileid: "69530594"
 當您將連結新增至應用程式瀏覽並選取 [內容區域] 選項時：
 * 請確定連結可內嵌。 某些服務會在第三方網站中封鎖內嵌其內容，例如 Power BI。
 * 在不支援的其他工作區中內嵌 Power BI 服務內容，例如報表或儀表板。 
-* 從內部部署的部署，透過其原生內嵌 URL 內容內嵌 Power BI 報表伺服器內容。 使用[建立 Power BI 報表伺服器 URL](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#creating-the-power-bi-report-server-report-url) 中的這些步驟取得 URL。 請注意，因為適用一般驗證規則，所以檢視內容需要 VPN 連線到內部部署伺服器。 
+* 從內部部署的部署，透過其原生內嵌 URL 內容內嵌 Power BI 報表伺服器內容。 使用[建立 Power BI 報表伺服器 URL](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) 中的這些步驟取得 URL。 請注意，因為適用一般驗證規則，所以檢視內容需要 VPN 連線到內部部署伺服器。 
 * 在內嵌內容的頂端會顯示安全性警告，表示此非 Power BI 的內容。
 
 

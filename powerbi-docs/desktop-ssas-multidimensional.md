@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 848019a020e4a91e80caf342acb15c0d9b7e3121
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: b089c3e51ce80fdb776455519f2569ee8fa24572
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160224"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751640"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>連接到 Power BI Desktop 中的 SSAS 多維度模型
 使用 Power BI Desktop，您可以存取 **SSAS 多維度模型**，通常稱為 **SSAS MD**。
@@ -87,7 +87,7 @@ Power BI 服務和支援 Power BI Desktop 皆支援即時連接模式中的 **SS
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop 中 SSAS MD 支援的功能
 在 Power BI Desktop 中支援下列 SSAS MD 的功能：
 
-* **SSAS MD** 的這個版本支援使用下列項目 (您可以取得這些功能的[詳細資訊](https://msdn.microsoft.com/library/jj969574.aspx))：
+* **SSAS MD** 的這個版本支援使用下列項目 (您可以取得這些功能的[詳細資訊](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models?view=sql-server-2014))：
   * 顯示資料夾
   * KPI 趨勢
   * 預設成員

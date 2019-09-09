@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9f5357056c27d6461ad7f7d7fba1daa27a508868
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391140"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750927"
 ---
 # <a name="optimizing-premium-capacities"></a>最佳化 Premium 容量
 
@@ -257,7 +257,7 @@ Premium 容量的大小決定其可用記憶體和處理器資源，以及加諸
 
 如果您已有想要對其進行負載測試的一個容量和多個報表，請使用 [PowerShell 負載產生工具](https://aka.ms/PowerBILoadTestingTool)來快速產生負載測試。 此工具可讓您估計容量在一小時內可執行的每個報表執行個體數目。 您可以使用此工具來評估容量對於個別報表轉譯或平行轉譯數個不同報表的能力。 如需詳細資訊，請觀看影片 [Microsoft Power BI:Premium capacity](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw) (Microsoft Power BI：Premium 容量)。
 
-若要產生更複雜的測試，請考慮開發模擬實際工作負載的負載測試應用程式。 如需詳細資訊，請參閱網路研討會 [Load Testing Power BI Applications with Visual Studio Load Test](https://blogs.msdn.microsoft.com/charles_sterling/2018/04/04/webinar-load-testing-power-bi-applications-with-visual-studio-load-test/) (使用 Visual Studio 負載測試對 Power BI 應用程式進行負載測試)。
+若要產生更複雜的測試，請考慮開發模擬實際工作負載的負載測試應用程式。 如需詳細資訊，請參閱網路研討會 [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/) (使用 Visual Studio 負載測試對 Power BI 應用程式進行負載測試)。
 
 ## <a name="acknowledgements"></a>致謝
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 53a8847f96d6aa3143e91cab07029a8e0f6afc85
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 5bae8983df58353ea57e073defb001795976591b
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523729"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751698"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>報表和視覺效果的最佳設計做法
 
@@ -730,7 +730,7 @@ Outliers = if(Editions[Temp]<60, Editions[Temp], BLANK())
 | 交叉分析篩選器 | 已新增頁面層級篩選，然後只選取 [金]  、[銀]  、[銅]  ，來移除交叉分析篩選器中的空格。 <br> 針對 [單一選取]  和 [全選]  ，已將 [選取控制項]  變更為 [關閉]  。 |
 | 泡泡 | 圖例中的項目太多，因此會捲動到螢幕外部。 已移除圖例，並改為開啟 [類別標籤]  。 客戶可以停留在泡泡上方，以查看詳細資料。<br> 已縮短標題，並移除「依 countryregion」，因為這不喻自明。 <br> 開啟  兩者的軸標籤，讓圖表更容易了解。 |
 | 區域分布圖 | 已變更 [資料色彩]  ，讓它更為醒目。 <br> 開啟 [發散]  、將 [最小值]  設為粉紅色，並將 [最大值]  設為紅色。
-| 矩形式樹狀結構圖 | 已移除僅針對 USA 所設定的篩選條件。 <br> 將 [資料標籤]  設為 1 位小數位數。 <br> 視覺效果之前使用不實用的 [類別]  欄位，因為它幾乎一律是 3 個金屬各 33%：金、銀和銅。 <br> 已選取不同的更有趣欄位 ([性別]  )。 依據設計，已將 [水上運動] 變更為藍色，並將 [體育運動] 設為灰色。
+| 樹狀圖 | 已移除僅針對 USA 所設定的篩選條件。 <br> 將 [資料標籤]  設為 1 位小數位數。 <br> 視覺效果之前使用不實用的 [類別]  欄位，因為它幾乎一律是 3 個金屬各 33%：金、銀和銅。 <br> 已選取不同的更有趣欄位 ([性別]  )。 依據設計，已將 [水上運動] 變更為藍色，並將 [體育運動] 設為灰色。
 | 頂端橫條圖 | 已縮短標題、已移除資料標籤、已關閉圖例標題。 <br> 已變更標題的文字順序，使其符合下面的圖表。
 | 底端橫條圖 | 依年份遞增排序，以符合上述圖表。 <br> 已變更色彩來符合類別。 <br> 已變更標題。 <br> 已關閉圖例，來清出更多空間供資料使用。 <br> 已開啟資料標籤。 它們不會顯示在報表中，因為視覺效果太小，不容易讀取標籤。 當讀者在 [焦點]  模式中開啟視覺效果時，它們即會顯示。 了解[焦點模式](../consumer/end-user-focus.md)。 <br> 已將 [事件計數 (相異)]  新增至 [工具提示]  。 現在，當您將滑鼠停留在堆疊直條圖上方時，工具提示也會告訴您，人們在該年已完成多少事件。 |
 | 視覺效果互動 | 因為一律要讓兩張卡片顯示遊戲和運動總計，所以已關閉其互動。 |
@@ -823,7 +823,7 @@ Power BI 提供許多原生的視覺效果類型。 新增 Microsoft 和 Power B
 
 如需橫條圖和直條圖的詳細資訊︰
 
-* [資料視覺化 101：橫條圖](http://blog.newscred.com/article/data-visualization-101-bar-charts)
+* [資料視覺化 101：橫條圖](https://insights.newscred.com/data-visualization-101-bar-charts/)
 
 * [資料視覺效果目錄：橫條圖](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw) \(英文\)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: b4a5d11697cff2cae8d137916636907967a7c276
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f43538b658c1d46984026fd936378a37d33c2e1d
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769817"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751554"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI 報表伺服器中的資料列層級安全性 (RLS)
 
@@ -32,7 +32,7 @@ ms.locfileid: "64769817"
 
     ![套用安全性篩選](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-請在根據使用者名稱或登入識別碼實作[動態資料列層級安全性](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)時，選取此方塊。 
+請在根據使用者名稱或登入識別碼實作[動態資料列層級安全性](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters)時，選取此方塊。 
 
 如需詳細資訊，請參閱[在 Power BI Desktop 中使用 DirectQuery 雙向交叉篩選](../desktop-bidirectional-filtering.md)和[保護表格式 BI 語意模型](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)技術白皮書。
 
