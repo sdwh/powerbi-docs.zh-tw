@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 07/15/2019
-ms.openlocfilehash: 2e59499b93f4d1b4879cdec5b807f863a80718aa
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.date: 09/04/2019
+ms.openlocfilehash: 2be953c31ba3090e83e58f8e5626bb83e249556e
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665360"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302698"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -26,11 +26,11 @@ ms.locfileid: "68665360"
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>我需要針對編頁報表使用何種大小的 Premium 容量？
 
-編頁報表工作負載可在 P1 - P3 SKU 上使用。  您也可以使用它，與適用於 SaaS 內嵌案例的 A4 - A6 SKU 搭配。
+編頁報表工作負載可在 P1 - P3 SKU 上使用。  您也可以針對內嵌或/開發案例搭配 A4 – A6 SKU 使用它。
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>我可以在容量中針對編頁報表放置的記憶體閾值上限為何？
 
-您可以在 2019 年 6 月結束前，對此工作負載使用最多 100% 的記憶體。 
+您可以為此工作負載使用最多 100% 的記憶體。
 
 ### <a name="how-does-user-access-work-for-paginated-reports"></a>使用者存取如何針對編頁報表運作？
 
@@ -152,7 +152,7 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 可以，編頁報表亦可使用列印功能，包括全新和改善的列印預覽體驗。 
 
-### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>可以針對編頁報表提供電子郵件訂閱嗎？
+### <a name="are-e-mail-subscriptions-available-for-paginated-reports"></a>可以針對編頁報表提供電子郵件訂閱嗎？
 
 可以，編頁報表完全支援電子郵件訂閱，而且這些訂閱支援六個不同的檔案格式和參數值。
 
@@ -166,7 +166,7 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>我可以從 Power BI 報表鑽研至編頁報表嗎？
 
-還不行，但我們絕對有計畫要支援此案例。
+是，這可透過搭配您的編頁報表使用 URL 參數來完成。
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>我可以透過 Power BI 應用程式共用編頁報表的內容嗎？
 
