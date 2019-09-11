@@ -1,6 +1,6 @@
 ---
-title: 資料檢視對應
-description: Power BI 如何在傳入視覺效果之前轉換資料
+title: 了解 Power BI 視覺效果中的資料檢視對應
+description: 此文章說明 Power BI 如何轉換資料，再將它傳入視覺效果。
 author: asander
 ms.author: asander
 manager: rkarlin
@@ -9,19 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ff70b2f12921694617a736164484df1326471eea
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425175"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237233"
 ---
-# <a name="data-view-mappings-in-power-bi-visuals"></a>Power BI 視覺效果中的資料檢視對應
+# <a name="understand-data-view-mapping-in-power-bi-visuals"></a>了解 Power BI 視覺效果中的資料檢視對應
 
-`dataViewMappings` 會描述資料角色的相互關係，並可讓您指定其條件式需求。
-每個 `dataMappings` 都有一個區段。
+此文章說明資料檢視對應，也描述資料角色的相互關係，並可讓您指定其條件式需求。 此文章也說明每個 `dataMappings` 類型。
 
-每個有效的對應都會產生 `DataView`，但目前我們只支援對每個視覺效果執行一個查詢，因此在大部分情況下，您只會取得一個 `DataView`。 不過，您可以提供多個具有不同條件的資料對應，其允許
+每個有效對應都會產生資料檢視，但我們目前僅支援針對每個視覺效果執行一個查詢。 您通常只會取得一個資料檢視。 不過，您可以提供具有特定條件的多個資料對應，允許的設定如下：
 
 ```json
 "dataViewMappings": [
@@ -35,10 +34,10 @@ ms.locfileid: "68425175"
 ]
 ```
 
-> [!NOTE]
-> 值得注意的是，只有在 `dataViewMappings` 中填入有效的對應時，Power BI 才會建立 DataView 的對應。
+只有在 `dataViewMappings` 中填入有效的對應時，Power BI 才會建立資料檢視的對應。
 
-換句話說，如果 `categorical` 定義在 `dataViewMappings` 中，但 `table`、`single` 等其他對應不是 (如下列範例所示)：
+換句話說，`dataViewMappings` 中可能已定義 `categorical`，但未定義其他對應 (例如，`table` 或 `single`)。 例如：
+
 ```json
 "dataViewMappings": [
     {
@@ -47,7 +46,8 @@ ms.locfileid: "68425175"
 ]
 ```
 
-Power BI 會產生具有單一 `categorical` 對應的 `DataView` (`table` 和其他對應將是 `undefined`)：
+Power BI 產生具有單一 `categorical` 對應的資料檢視，且未定義 `table` 和其他對應：
+
 ```javascript
 {
     "categorical": {
@@ -60,16 +60,16 @@ Power BI 會產生具有單一 `categorical` 對應的 `DataView` (`table` 和�
 
 ## <a name="conditions"></a>條件
 
-描述特定資料對應的條件。 您可以提供多組條件，如果資料符合其中一組描述的條件，視覺效果會將資料接受為有效。
+本節描述特定資料對應的條件。 您可以提供多組條件，如果資料符合其中一組描述的條件，視覺效果會將資料接受為有效。
 
-目前，您可以為每個欄位指定最小值和最大值。 這代表可以繫結至該資料角色的欄位數目。 
+目前，您可以為每個欄位指定最小值和最大值。 該值代表可以繫結至該資料角色的欄位數目。 
 
 > [!NOTE]
 > 如果條件中省略了資料角色，則可以有任意數目的欄位。
 
 ### <a name="example-1"></a>範例 1
 
-您可以將多個欄位拖曳到每個資料角色。 在此範例中，我們會將類別限制為一個資料欄位，並將量值限制為兩個資料欄位。
+您可以將多個欄位拖曳到每個資料角色。 在此範例中，您會將類別限制為一個資料欄位，並將量值限制為兩個資料欄位。
 
 ```json
 "conditions": [
@@ -79,7 +79,9 @@ Power BI 會產生具有單一 `categorical` 對應的 `DataView` (`table` 和�
 
 ### <a name="example-2"></a>範例 2
 
-在此範例中，需要兩個條件其中之一。 正好一個類別資料欄位和正好兩個量值，或正好兩個類別和正好一個量值。
+在此範例中，需要兩個條件其中之一：
+* 類別目錄資料欄位只有一個，且量值只有兩個
+* 類別目錄只有兩個，且量值只有一個。
 
 ```json
 "conditions": [
@@ -92,7 +94,7 @@ Power BI 會產生具有單一 `categorical` 對應的 `DataView` (`table` 和�
 
 單一資料對應是資料對應的最簡單形式。 它會接受單一量值欄位，並為您提供總計。 如果欄位是數值，則會為您提供總和。 否則，它會為您提供唯一值的計數。
 
-若要使用單一資料對應，您必須定義想要對應的資料角色名稱。 這個對應只會使用單一量值欄位。 如果指派第二個欄位，則不會產生任何資料檢視。 因此，也建議您包含將資料限制為單一欄位的條件。
+若要使用單一資料對應，您必須定義想要對應的資料角色名稱。 這個對應只使用單一量值欄位。 如果指派第二個欄位，就不會產生資料檢視，因此，也建議您包含將資料限制為單一欄位的條件。
 
 > [!NOTE]
 > 此資料對應不能與任何其他資料對應一起使用。 其目的是要將資料縮減為單一數值。
@@ -110,7 +112,7 @@ Power BI 會產生具有單一 `categorical` 對應的 `DataView` (`table` 和�
 }  
 ```
 
-產生的資料檢視仍會包含其他類型 (資料表、類別目錄等)，但每個對應只會包含單一值。 最佳做法是只存取單一值。
+產生的資料檢視仍包含其他類型 (資料表、類別目錄等)，但每個對應只包含單一值。 最佳做法是只存取單一值。
 
 ```JSON
 {
@@ -135,7 +137,7 @@ Power BI 會產生具有單一 `categorical` 對應的 `DataView` (`table` 和�
 
 ### <a name="example-4"></a>範例 4
 
-以下是上述範例中關於 DataRole 的定義。
+以下是上述範例中關於資料角色的定義：
 
 ```json
 "dataRole":[
@@ -152,7 +154,7 @@ Power BI 會產生具有單一 `categorical` 對應的 `DataView` (`table` 和�
 ]
 ```
 
-現在，針對此對應：
+對應如下：
 
 ```json
 "dataViewMappings": {
@@ -169,14 +171,14 @@ Power BI 會產生具有單一 `categorical` 對應的 `DataView` (`table` 和�
 }
 ```
 
-這是一個簡單範例，用簡單易懂的英語就是「對應我的 `category` DataRole，讓我拖曳至 `category` 的每個欄位，其資料會對應到 `categorical.categories`。 也請將我的 `measure` DataRole 對應到 `categorical.values`」。
+這是簡單的範例。 意思是「對應我的 `category` 資料角色，使我拖曳至 `category` 的每個欄位，其資料都對應到 `categorical.categories`。 也將我的 `measure` 資料角色對應到 `categorical.values`」。
 
-* **for...in** - 對於此資料角色中的所有項目，請將其包含在資料查詢中。
-* **bind...to** - 產生與 for...in 相同的結果，但預期 DataRole 會有將其限制為單一欄位的條件。
+* **for...in**：對於此資料角色中的所有項目，將它們包含在資料查詢中。
+* **bind...to**：產生與 *for...in* 相同的結果，但預期資料角色會有將其限制為單一欄位的條件。
 
 ### <a name="example-5"></a>範例 5
 
-在此範例中，我們將使用上述範例的前兩個 DataRole，另外定義 `grouping` 和 `measure2`。
+在此範例中，我們將使用上述範例的前兩個資料角色，另外定義 `grouping` 和 `measure2`。
 
 ```json
 "dataRole":[
@@ -203,7 +205,7 @@ Power BI 會產生具有單一 `categorical` 對應的 `DataView` (`table` 和�
 ]
 ```
 
-現在，針對此對應：
+對應如下：
 
 ```json
 "dataViewMappings":{
@@ -228,7 +230,7 @@ Power BI 會產生具有單一 `categorical` 對應的 `DataView` (`table` 和�
 
 ### <a name="example-6"></a>範例 6
 
-以下是 dataRole。
+以下是資料角色：
 
 ```json
 "dataRoles": [
@@ -250,7 +252,7 @@ Power BI 會產生具有單一 `categorical` 對應的 `DataView` (`table` 和�
 ]
 ```
 
-以下是 dataViewMapping。
+以下是資料檢視對應：
 
 ```json
 "dataViewMappings": [
@@ -277,7 +279,7 @@ Power BI 會產生具有單一 `categorical` 對應的 `DataView` (`table` 和�
 ]
 ```
 
-類別目錄 `dataview` 可以像這樣視覺化。
+類別目錄資料檢視的視覺化方式如下：
 
 | 類別目錄 |  |  | | | |
 |-----|-----|------|------|------|------|
@@ -288,7 +290,7 @@ Power BI 會產生具有單一 `categorical` 對應的 `DataView` (`table` 和�
 | 墨西哥 | | 300 | x | x | x |
 | 英國 | | x | x | 75 | x |
 
-Power BI 會為您產生類別目錄 dataview。 這是一組類別。
+Power BI 將它產生為類別目錄資料檢視。 這是一組類別。
 
 ```JSON
 {
@@ -310,7 +312,7 @@ Power BI 會為您產生類別目錄 dataview。 這是一組類別。
 }
 ```
 
-每個類別也會對應到一組值。 每一個值都會依數列 (即年份) 分組。
+每個類別也會對應到一組值。 每一個值都會依數列 (以年份表示) 分組。
 
 例如，2013 年的加拿大銷售額是 Null，而 2014 年的加拿大銷售額是 50。
 
@@ -393,9 +395,9 @@ Power BI 會為您產生類別目錄 dataview。 這是一組類別。
 ]
 ```
 
-資料表 `dataview` 可以像這樣視覺化。  
+您可以下列方式將資料表資料檢視視覺化：  
 
-| 國家/地區| 年度 | 銷售額 |
+| 國家/地區| 年度 | 銷售量 |
 |-----|-----|------|
 | 美國 | 2016 | 100 |
 | 美國 | 2015 | 50 |
@@ -405,7 +407,7 @@ Power BI 會為您產生類別目錄 dataview。 這是一組類別。
 | 英國 | 2014 | 150 |
 | 美國 | 2015 | 75 |
 
-Power BI 將會產生您的資料表 dataview。 請不要假設有排序。
+Power BI 會將您的資料顯示為資料表資料檢視。 您不應該假設資料已排序。
 
 ```JSON
 {
@@ -452,13 +454,13 @@ Power BI 將會產生您的資料表 dataview。 請不要假設有排序。
 }
 ```
 
-選取所需的欄位並按一下 [總和]，即可彙總資料。  
+您可以選取所需的欄位，然後選取 [加總]，來彙總資料。  
 
 ![資料彙總](./media/data-aggregation.png)
 
 ## <a name="matrix-data-mapping"></a>矩陣資料對應
 
-矩陣資料對應類似於資料表資料對應，但資料列會以階層方式呈現。 而其中一個 `dataRole` 值可用來作為資料行標題值。
+矩陣資料對應類似於資料表資料對應，但資料列會以階層方式呈現。 任一個資料角色值都可以用來作為資料行標題值。
 
 ```json
 {
@@ -510,7 +512,7 @@ Power BI 將會產生您的資料表 dataview。 請不要假設有排序。
 }
 ```
 
-Power BI 會建立階層式資料結構。 樹狀結構的根包含 `Category` 資料角色第一個資料行中的資料，其中包含來自資料角色第二個資料行的下層。
+Power BI 會建立階層式資料結構。 樹狀結構階層的根包含 `Category` 資料角色 **Parents** 資料行中的資料，其中包含來自資料角色資料表 **Children** 資料行的下層。
 
 資料集：
 
@@ -533,11 +535,11 @@ Power BI 會建立階層式資料結構。 樹狀結構的根包含 `Category` �
 | Parent2 | Child3 | Grand child8 | Col1 | 10 |
 | Parent2 | Child3 | Grand child8 | Col2 | 13 |
 
-Power BI 的核心矩陣視覺效果會像資料表一樣加以呈現。
+Power BI 的核心矩陣視覺效果會將資料以表格呈現。
 
 ![矩陣視覺效果](./media/matrix-visual-smaple.png)
 
-視覺效果會取得如下所述的資料結構 (只呈現前兩個資料列)：
+下列程式碼描述視覺效果的資料結構 (這裡只顯示前兩個表格列)：
 
 ```json
 {
@@ -614,9 +616,9 @@ Power BI 的核心矩陣視覺效果會像資料表一樣加以呈現。
 
 ## <a name="data-reduction-algorithm"></a>資料縮減演算法
 
-如果您想要控制在 DataView 中收到的資料量，則可以套用 `DataReductionAlgorithm`。
+若要控制在資料檢視中接收到的資料量，您可以套用資料縮減演算法。
 
-根據預設，所有自訂視覺效果都會套用頂端的 DataReductionAlgorithm，並將 "count" 設定為 1000 個資料點。 這相當於在 capabilities.json 中設定下列屬性：
+根據預設，所有自訂視覺效果都會套用頂端資料縮減演算法，並將 *count* 設定為 1000 個資料點。 這相當於在 *capabilities.json* 檔案中設定下列屬性：
 
 ```json
 "dataReductionAlgorithm": {
@@ -626,23 +628,23 @@ Power BI 的核心矩陣視覺效果會像資料表一樣加以呈現。
 }
 ```
 
-您可以將 'count' 值修改為最多到 30000 的任何整數值。 以 R 為基礎的自訂視覺效果最多可支援 150000 個資料列。
+您可以將 *count* 值修改為最多到 30000 的任何整數值。 以 R 為基礎的自訂視覺效果最多可支援 150000 個資料列。
 
 ## <a name="data-reduction-algorithm-types"></a>資料縮減演算法類型
 
-有四種類型的 `DataReductionAlgorithm` 設定：
+資料縮減演算法有四個類型：
 
-* `top` - 如果您想要將資料限制為取自資料集頂端的值。 前一個 "count" 值將取自資料集。
-* `bottom` - 如果您想要將資料限制為取自資料集底端的值。 最後的 "count" 值將取自資料集。
-* `sample` - 透過限制為 "count" 個項目的簡單取樣演算法來減少資料集。 這表示會包含第一個和最後一個項目，以及在它們之間具有相等間隔的 "count" 個項目。
-例如，如果您有資料集 [0, 1, 2, ...100] 且 `count: 9`，則會收到下列值 [0, 10, 20 ...100]
-* `window` - 在包含 "count" 元素時載入一個資料點 'window'。 目前 `top` 和 `window` 是相等的。 正在進行完整支援視窗化設定的工作。
+* `top`：如果您想要將資料限制為取自資料集頂端的值。 前一個 *count* 值將取自資料集。
+* `bottom`：如果您想要將資料限制為取自資料集底端的值。 最後的 "count" 值將取自資料集。
+* `sample`：透過限制為 *count* 個項目的簡單取樣演算法來縮減資料集。 這表示會包含第一個和最後一個項目，以及在它們之間具有相等間隔的 *count* 個項目。
+例如，如果您有資料集 [0, 1, 2, ...100] 且 *count* 為 9，則您接收到的值為 [0, 10, 20 ...100]。
+* `window`：一次載入一個 *window* 的資料點，其中包含 *count* 個元素。 目前，`top` 和 `window` 是相等的。 我們正在努力完整地支援視窗設定。
 
 ## <a name="data-reduction-algorithm-usage"></a>資料縮減演算法使用方式
 
-`DataReductionAlgorithm` 可用於類別目錄、資料表或矩陣 `dataview` 對應。
+資料縮減演算法可以用於類別目錄、資料表或矩陣矩陣資料檢視對應。
 
-它可以設定到類別目錄資料對應中 `values` 的 `categories` 和/或 group 區段。
+它可以將演算法設定到類別目錄資料對應的 `categories` 中，和/或其 `values` 的 group 區段中。
 
 ### <a name="example-8"></a>範例 8
 
@@ -677,7 +679,7 @@ Power BI 的核心矩陣視覺效果會像資料表一樣加以呈現。
 }
 ```
 
-資料縮減演算法可以套用至資料表 `dataview` 對應的 `rows` 區段。
+您可以將資料縮減演算法套用至資料檢視對應資料表的 `rows` 區段。
 
 ### <a name="example-9"></a>範例 9
 
@@ -700,4 +702,4 @@ Power BI 的核心矩陣視覺效果會像資料表一樣加以呈現。
 ]
 ```
 
-資料縮減演算法可以套用至 `matrix` `dataview` 對應的 `rows` 和/或 `columns` 區段。
+您可以將資料縮減演算法套用至資料檢視對應矩陣的 `rows` 和 `columns` 區段。

@@ -1,6 +1,6 @@
 ---
-title: 登陸頁面
-description: 如何將登陸頁面新增至 Power BI 視覺效果
+title: 將登陸頁面新增至 Power BI 視覺效果
+description: 此文章說明如何將登陸頁面新增至 Power BI 視覺效果。
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 44cc9314b31803c97d3203d4aab846685d8f88fa
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: d15c52134fe3c8638625e50a1374867a4abed3c1
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424876"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236703"
 ---
-# <a name="landing-page"></a>登陸頁面
+# <a name="add-a-landing-page-to-your-power-bi-visuals"></a>將登陸頁面新增至 Power BI 視覺效果
 
-透過 API 2.3.0，您可以將登陸頁面新增至您的視覺效果。若要這麼做，請將 `supportsLandingPage` 新增至功能並將它設定為 true，如此一來，即使在將資料新增至其中之前，它也會讓您的視覺效果初始化及更新 (也就是說，它不會再顯示浮水印)；因此，只要它沒有資料，您就可以設計自己的登陸頁面以便在視覺效果中顯示。
+使用 API 2.3.0，您可以將登陸頁面新增至您的 Power BI 視覺效果。 若要這麼做，請將 `supportsLandingPage` 新增至功能，並將它設定為 true。 在您將資料新增至視覺效果之前，此動作會先將它初始化並更新。 因為視覺效果不再顯示浮水印，所以只要視覺效果沒有資料，您就可以讓它顯示您設計的登陸頁面。
 
 ```typescript
 export class BarChart implements IVisual {
@@ -57,6 +57,6 @@ export class BarChart implements IVisual {
     }
 ```
 
-範例
+下列影像顯示範例登陸頁面：
 
 ![登陸頁面的螢幕擷取畫面](./media/landing-page.png)

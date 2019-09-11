@@ -1,30 +1,29 @@
 ---
-title: 在 Power BI 中檢視報表
-description: Power BI 中的報表
+title: Power BI 服務中的報表
+description: Power BI 服務中適用於取用者的報表
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a844ff813435328df63240aa46aff3430117f6e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: c13398ff08722c54a9f0c373a1c103e4d684c9bb
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532165"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391391"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的報表
 
 Power BI 報表是一種資料集的多角度檢視，可透過視覺效果表示該資料集不同的尋找結果和見解。  報表可以具備單一視覺效果，或是充滿視覺效果的頁面。 取決於您的作業角色，您可能會是「設計」  報表的人員。 您也可能是「取用」  或使用報表的人員。
 
-![報表頁面的螢幕擷取畫面。](./media/end-user-reports/power-bi-report.png)
+![報表頁面的螢幕擷取畫面。](./media/end-user-reports/power-bi-reports.png)
 
-此報表有四個頁面 (或索引標籤)，且您目前正在檢視 [人氣]  頁面。 在此頁面上，有五個不同的視覺效果和頁面標題。
+此報表有六個頁面 (或索引標籤)，且您目前正在檢視 [情感]  頁面。 在此頁面上，有五個不同的視覺效果和頁面標題。 [篩選]  窗格會顯示已將單一篩選套用至所有報表頁面。 若要摺疊 [篩選] 窗格，請選取箭號 ( **>** )。
 
 如果您不熟悉 Power BI，請參閱 [Power BI 服務取用者的基本概念](end-user-basic-concepts.md)來打好基礎。 報表可供在行動裝置上檢視、共用及加上標註。 如需詳細資訊，請參閱[探索 Power BI 行動裝置應用程式中的報表](mobile/mobile-reports-in-the-mobile-apps.md)。
 
@@ -42,6 +41,8 @@ Power BI 根據單一資料集建立報表。 報表「設計師」  會建立�
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>儲存您的變更或還原至預設設定
 
 這並不表示您無法儲存變更。 您可以儲存變更，只是這些變更只會影響您的內容檢視。 若要還原至報表的原始預設檢視，請選取 [重設為預設]  。
+
+![[還原為預設值] 圖示的螢幕擷取畫面。](./media/end-user-reports/power-bi-reset.png)
 
 ## <a name="dashboards-versus-reports"></a>儀表板與報表
 
@@ -76,6 +77,5 @@ Power BI 根據單一資料集建立報表。 報表「設計師」  會建立�
 
 ## <a name="next-steps"></a>後續步驟
 
-[Power BI 是什麼？](../power-bi-overview.md)
-
-[Power BI 服務取用者的基本概念](end-user-basic-concepts.md)
+[開啟並檢視報表](end-user-report-open.md)    
+[Power BI 服務中的儀表板](end-user-dashboards.md)

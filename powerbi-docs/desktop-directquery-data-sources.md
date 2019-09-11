@@ -8,18 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159956"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302645"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支援的資料來源
 
-**Power BI Desktop** 和 **Power BI 服務**有許多資料來源供您連線和存取資料。 本文描述 Power BI 的哪些資料來源可支援稱為 **DirectQuery** 的連線方法。 如需 DirectQuery 的詳細資訊，請參閱 [ **Power BI 中的 DirectQuery**](desktop-directquery-about.md)。
+**Power BI Desktop** 和 **Power BI 服務**有許多資料來源供您連線和存取資料。 此文章說明 Power BI 的哪些資料來源可支援稱為 **DirectQuery** 的連線方法。 如需 DirectQuery 的詳細資訊，請參閱 [ **Power BI 中的 DirectQuery**](desktop-directquery-about.md)。
 
 下列資料來源在 Power BI 中支援 DirectQuery：
 
@@ -29,14 +29,16 @@ ms.locfileid: "70159956"
 * Azure HDInsight Spark
 * [Azure SQL Database](service-azure-sql-database-with-direct-connect.md)
 * [Azure SQL 資料倉儲](service-azure-sql-data-warehouse-with-direct-connect.md)
+* Denodo
 * Google BigQuery
 * HDInsight 互動式查詢
-* IBM DB2 資料庫
+* IBM DB2 (Microsoft 提供者)
 * IBM Netezza
 * Impala (2.x 版)
 * MarkLogic
 * Oracle 資料庫 (第 12 版及更新版本)
 * Oracle Essbase
+* PostgreSQL
 * SAP Business Warehouse 應用程式伺服器
 * SAP Business Warehouse 訊息伺服器
 * SAP HANA
@@ -65,15 +67,24 @@ ms.locfileid: "70159956"
 | Azure SQL 資料倉儲 |否 |
 | Google BigQuery |否 |
 | IBM Netezza |是 |
+| IBM DB2 (IBM 提供者) |是 |
+| IBM DB2 (Microsoft 提供者) |否 |
+| IBM Informix 資料庫 |否 |
 | Impala (2.x 版) |是 |
+| MySQL |是 |
+| ODBC |是 |
 | Oracle 資料庫 |是 |
+| PostgreSQL |是 |
 | SAP Business Warehouse 應用程式伺服器 |是 |
 | SAP Business Warehouse 訊息伺服器 |**Power BI 服務**中尚不支援 |
 | SAP HANA |是 |
 | Snowflake |是 |
 | Spark (Beta) 0.9 版及更新版本 |是 |
 | SQL Server |是 |
+| Sybase |是 |
 | Teradata 資料庫 |是 |
+| Vertica |是 |
+
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery 來源的單一登入 (SSO)
 

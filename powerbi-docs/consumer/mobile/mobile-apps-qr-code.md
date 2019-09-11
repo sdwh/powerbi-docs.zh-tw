@@ -1,7 +1,7 @@
 ---
 title: 從行動裝置掃描 Power BI QR 代碼
 description: Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要搜尋即可直接連接到適用於 iPhone 和 Android 裝置之 Power BI 行動應用程式中的相關 BI 資訊。
-author: mshenhav
+author: KesemSharabi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 8b994dfd44a999b877a906571027f5fcb55d9924
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69c0e5279389c186471aa0a6068d88917cf6fc65
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60972777"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236760"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>從行動裝置掃描 Power BI QR 代碼
 適用於︰
@@ -35,7 +35,7 @@ Power BI 中的 QR 代碼可以將真實世界中的任何項目直接連接到�
 > 您也可以[使用 Power BI for Mixed Reality 應用程式掃描報表 QR 代碼](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)。
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>使用 Power BI 掃描器掃描 iPhone 上的 Power BI QR 代碼
-1. 在 Power BI 行動裝置應用程式中，開啟左上方的全域瀏覽功能表 ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png)。 
+1. 在 Power BI 行動裝置應用程式中，開啟左上方的全域導覽功能表 ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png)。 
 2. 向下捲動並選取 [掃描器]  。 
    
     ![](media/mobile-apps-qr-code/power-bi-iphone-scanner-menu.png)

@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 09/04/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 6f4beb98c195c5af9967f988015959806d485696
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 5dbfa400f25f6981f7a73bffe1afad2acf735334
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159974"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391899"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中分析
 有時候您可能會想要使用 Excel 來檢視您在 Power BI 中的資料集，並與其互動。 有了 [使用 EXCEL 分析]  ，您可以做到，並以存在於 Power BI 中的資料集為基礎來存取 Excel 的樞紐分析表、 圖表和交叉分析篩選器的功能。
@@ -25,7 +25,7 @@ ms.locfileid: "70159974"
 使用 [使用 EXCEL 分析]  有幾項要求：
 
 * Microsoft Excel 2010 SP1 和更新版本支援 [使用 EXCEL 分析]  。
-* Excel 樞紐分析表不支援數值欄位的拖放功能彙總。 您在 Power BI 中的資料集 *必須有預先定義的量值* 。
+* Excel 樞紐分析表不支援數值欄位的拖放功能彙總。 您在 Power BI 中的資料集 *必須有預先定義的量值*。
 * 某些組織可能會有防止安裝 [使用 EXCEL 分析]  必要更新的群組原則規則。 如果您無法安裝更新，請洽詢您的系統管理員。
 * **使用 Excel 分析**需要資料集位於 Power BI Premium 中，或使用者具有 Power BI Pro 授權。 若要深入了解授權類型之間的功能差異，請參閱[依授權類型排列的 Power BI 功能](service-features-license-type.md)。 
 * 若使用者有權讀取基礎資料集，就能透過 [使用 Excel 分析] 連線到資料集。  使用者可以透過下列數種方式來執行此操作，例如成為包含資料集之工作空間的成員、具有與其共用的報表或儀表板 (該報表或儀表板使用資料集)、或擁有包含資料集之應用程式的使用權限。
@@ -67,7 +67,7 @@ ms.locfileid: "70159974"
 ### <a name="users-with-multiple-power-bi-accounts"></a>使用多個 Power BI 帳戶的使用者
 某些使用者有多個 Power BI 帳戶，這些使用者可能會遇到的情況是：他們用某個帳戶登入 Power BI，但該帳戶與使用於 [使用 EXCEL 分析] 所存取的資料集的帳戶是不同的。 在這些情況下，若您嘗試存取用於 [使用 EXCEL 分析] 活頁簿中的資料集，可能會出現**禁止**錯誤或登入失敗。
 
-您將有機會再次登入，屆時您可以使用用於 [使用 EXCEL 分析] 所存取之資料集的 Power BI 帳戶登入。 您也可以從 Excel 中的 **Power BI** 功能區索引標籤選取**設定檔**，其會識別您目前登入的帳戶，並提供一個連結讓您登出 (接著即可使用不同的帳戶登入)。
+您將有機會再次登入，屆時您可以使用用於 [使用 EXCEL 分析] 所存取之資料集的 Power BI 帳戶登入。 您也可以從 Excel 中的 **Power BI** 功能區索引標籤選取**設定檔**，其會識別您目前登入的帳戶，並提供一個連結讓您登出 (接著即可使用不同的帳戶登入)。 如果您尚未安裝，您可以[下載 Power BI Publisher for Excel](https://www.microsoft.com/download/details.aspx?id=50729)；這是在 Excel 中安裝 Power BI 功能區的方式。
 
 ![](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
 

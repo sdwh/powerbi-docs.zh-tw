@@ -4,20 +4,19 @@ description: 本主題將說明 Power BI 取用者和終端使用者必須開啟
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 8/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
-ms.openlocfilehash: 0896d397c7cc78ce36109cf1c975b34d081169a1
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70184738"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391721"
 ---
-# <a name="view-a-report-in-power-bi-service-for-consumers"></a>在適用於「取用者」  的 Power BI 服務中檢視報表
+# <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>在適用於「取用者」  的 Power BI 服務中檢視報表
 報表是一或多頁的視覺效果。 報表是由 Power BI「設計師」  所建立，並[直接與「取用者」  共用](end-user-shared-with-me.md)，或作為[應用程式](end-user-apps.md)的一部分共用。 
 
 要開啟報表有很多種不同的方法，我們將示範其中兩種：從 [首頁] 開啟，以及從儀表板開啟。 
@@ -31,7 +30,7 @@ ms.locfileid: "70184738"
    ![首頁](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>開啟已與您共用的報表
-Power BI「設計師」  可以直接與您共用報表。 以這種方式共用的內容會顯示在導覽列上 [與我共用]  容器中，以及 [首頁] 畫布的 [與我共用]  區段中。
+Power BI「設計師」  可以透過電子郵件中的連結與您直接共用個別報表，或是將它新增至您的 Power BI 首頁。 以這種方式共用的內容會顯示在導覽列上 [與我共用]  容器中，以及 [首頁] 畫布的 [與我共用]  區段中。
 
 1. 開啟 Power BI 服務 (app.powerbi.com)。
 
@@ -45,13 +44,13 @@ Power BI「設計師」  可以直接與您共用報表。 以這種方式共用
 
 4. 只要選取報表「卡片」  即可開啟報表。
 
-   ![報表頁面](./media/end-user-report-open/power-bi-report-open.png)
+   ![報表頁面](./media/end-user-report-open/power-bi-open.png)
 
 5. 請注意左側的索引標籤。  每個索引標籤各代表一個報表「頁面」  。 我們目前開啟的是 [成長的商機]  頁面。 選取 [年初迄今類別]  索引標籤即可改為開啟該報表頁面。 
 
    ![報表頁面索引標籤](./media/end-user-report-open/power-bi-ytd.png)
 
-6. 現在，我們會看到整個報表頁面。 若要變更頁面的顯示 (縮放)，請選取右上角的 [檢視] 下拉式清單 ( **>** )，然後選擇 [實際大小]  。
+6. 現在，我們會看到整個報表頁面。 若要變更頁面的顯示 (縮放)，請選取右上角的 [檢視] 下拉式清單，然後選擇 [實際大小]  。
 
    ![變更縮放](./media/end-user-report-open/power-bi-fit-new.png)
 
@@ -66,7 +65,7 @@ Power BI「設計師」  可以直接與您共用報表。 以這種方式共用
 
    ![首頁](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. 選取其中一個應用程式加以開啟。 根據應用程式「設計師」  所設定的選項，應用程式將會開啟儀表板、報表或應用程式內容清單。 若選取應用程式：
+8. 選取其中一個應用程式加以開啟。 根據應用程式「設計者」  所設定的選項，應用程式將會開啟儀表板或報表。 若選取應用程式：
     - 會開啟報表，您已萬事俱備。
     - 會開啟儀表板，請參閱下方的***從儀表板開啟報表***。
 
@@ -95,5 +94,5 @@ Power BI「設計師」  可以直接與您共用報表。 以這種方式共用
 - 以及更多
 
 ## <a name="next-steps"></a>後續步驟
-有[很多方式可用來與報表互動](end-user-reading-view.md)。  選取報表畫布一側的每個索引標籤來開始探索。
+[開啟並檢視儀表板](end-user-dashboard-open.md)
 

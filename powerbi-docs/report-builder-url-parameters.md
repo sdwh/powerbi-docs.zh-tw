@@ -9,12 +9,12 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.date: 08/29/2019
-ms.openlocfilehash: 4dae849a18bbfc6e85eedc7ae9e338ad205cb436
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: bda35bfb4690d8109f7bd611e3d319278d235f33
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70189338"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302664"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI 編頁報表中的 URL 參數
 
@@ -27,7 +27,7 @@ ms.locfileid: "70189338"
 - 隱藏或檢視參數窗格。 
 - 指定 DeviceInfo 設定。 
 
-如需可透過 URL 存取使用的命令和設定完整清單，請參閱本文稍後的  [URL 存取參數參考](#url-access-parameter-reference)。 
+如需可透過 URL 存取使用的命令和設定完整清單，請參閱此文章稍後的  [URL 存取參數參考](#url-access-parameter-reference)。 
 
 ## <a name="url-access-concepts"></a>URL 存取概念 
 
@@ -49,7 +49,7 @@ Power BI 租用戶的 Web 服務 URL。 例如：
 
 **&** ：用來分隔 URL 存取參數的名稱/值對。
 
-**前置詞**：URL 參數的前置詞 (例如  rp: 或  rdl:)，可指定 Power BI 服務中的動作。 
+**前置詞**：URL 參數的前置詞 (例如 rp: 或  rdl:)，可指定 Power BI 服務中的動作。 
 
 > [!NOTE]
 > 報表參數需要參數前置詞，且會區分大小寫。 
@@ -68,12 +68,12 @@ Power BI 租用戶的 Web 服務 URL。 例如：
 
 ### <a name="report-commands-rdl"></a>報表命令 (`rdl:`) 
 
-**匯出格式**：指定用來轉譯和匯出報表的格式。 其值包括： 
-- PPTX 
+**匯出格式**：指定用來轉譯和匯出報表的格式。 可用值為： 
+- PPTX (PowerPoint)
 - MHTML 
 - 影像 
-- EXCEL 
-- WORD 
+- EXCELOPENXML (EXCEL) 
+- WORDOPENXML (WORD) 
 - CSV 
 - PDF 
 - XML 

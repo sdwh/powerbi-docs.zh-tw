@@ -1,6 +1,6 @@
 ---
-title: 物件與屬性
-description: Power BI 視覺效果的可自訂屬性
+title: Power BI 視覺效果的物件和屬性
+description: 此文章說明 Power BI 視覺效果的可自訂屬性。
 author: MrMeison
 ms.author: rasala
 manager: rkarlin
@@ -9,20 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c22a1cfb281c9902d490e2320b85c2f6bbb63468
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: e15d80af35ff7c56879dab4380d4ae0c9fdd0e8a
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424600"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236629"
 ---
-# <a name="object-and-properties"></a>物件與屬性
+# <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI 視覺效果的物件和屬性
 
-物件會描述與視覺效果建立關聯的可自訂屬性。
-每個物件都可以有多個屬性，且每個屬性都有一個與其建立關聯的類型。
-類型指的是屬性的內容。 如需類型的詳細資訊，請參閱下文。
+物件會描述與視覺效果相關聯的可自訂屬性。 一個物件可以有多個屬性，且每個屬性都有能描述該屬性將會是什麼的相關聯類型。 此文章提供物件及屬性類型的相關資訊。
 
-`myCustomObject` 是在 `dataView` 和 `enumerateObjectInstances` 中用來參考物件的內部名稱
+`myCustomObject` 是用來參考 `dataView` 和 `enumerateObjectInstances` 內之物件的內部名稱。
 
 ```json
 "objects": {
@@ -68,10 +66,11 @@ ms.locfileid: "68424600"
 
 屬性類型有兩種類型：`ValueTypeDescriptor` 和 `StructuralTypeDescriptor`。
 
-#### <a name="value-type-descriptor"></a>實值型別描述項
+#### <a name="value-type-descriptor"></a>實值類型描述項
 
-`ValueTypeDescriptor` 大多是基本類型，通常作為靜態物件使用。
-以下是一些常見的 `ValueTypeDescriptor`
+`ValueTypeDescriptor` 類型大多是基本類型，且通常作為靜態物件使用。
+
+以下是一些常見的 `ValueTypeDescriptor`元素：
 
 ```typescript
 export interface ValueTypeDescriptor {
@@ -84,8 +83,8 @@ export interface ValueTypeDescriptor {
 
 #### <a name="structural-type-descriptor"></a>結構類型描述項
 
-`StructuralTypeDescriptor` 主要用於資料繫結物件。
-Fill 是最常見的 `StructuralTypeDescriptor`
+`StructuralTypeDescriptor` 類型主要用於資料繫結物件。
+最常見的 `StructuralTypeDescriptor` 類型是 *fill*。
 
 ```typescript
 export interface StructuralTypeDescriptor {
@@ -95,8 +94,9 @@ export interface StructuralTypeDescriptor {
 
 ## <a name="gradient-property"></a>漸層屬性
 
-漸層屬性是無法設定為標準屬性的屬性。 相反地，您必須設定要替代色彩選擇器屬性 (fill 類型) 的規則。
-請參閱下列範例：
+漸層屬性是無法設定為標準屬性的屬性。 相反地，您必須設定要替代色彩選擇器屬性 (*fill* 類型) 的規則。
+
+下列程式碼會顯示範例：
 
 ```json
 "properties": {
@@ -137,13 +137,13 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-請注意 `"fill"` 和 `"fillRule"` 屬性。 第一個是色彩選擇器，第二個是漸層的替代規則，其會在符合規則條件時將 "fill" 替代為 `visually`。
+請注意 *fill* 和 *fillRule* 屬性。 第一個是色彩選擇器，而第二個則是漸層的替代規則，其會在符合規則條件時 `visually` 取代「fill 屬性」  。
 
-fill 屬性與替代規則之間的這個連結是在 `"fillRule"` 屬性 `"rule"`->`"output"` 區段中設定。
+*fill* 屬性與替代規則之間的這個連結，是在 *fillRule* 屬性的 `"rule"`>`"output"` 區段中設定。
 
-`"Rule"`->`"InputRole"` 設定哪一個資料角色會觸發規則 (條件)。 在此範例中，如果資料角色 `"Gradient"` 包含資料，則會針對 `"fill"` 屬性套用規則。
+`"Rule"`>`"InputRole"` 屬性會設定哪一個資料角色會觸發規則 (條件)。 在此範例中，如果資料角色 `"Gradient"` 包含資料，則會針對 `"fill"` 屬性套用規則。
 
-您可以在下方看到觸發 fill 規則 (`the last item`) 的資料角色範例。
+您可以在下列程式碼中看到觸發 fill 規則 (`the last item`) 的資料角色範例：
 
 ```json
 {
@@ -170,7 +170,7 @@ fill 屬性與替代規則之間的這個連結是在 `"fillRule"` 屬性 `"rule
 }
 ```
 
-## <a name="enumerateobjectinstances-method"></a>`enumerateObjectInstances` 方法
+## <a name="the-enumerateobjectinstances-method"></a>enumerateObjectInstances 方法
 
 若要有效地使用物件，您必須在自訂視覺效果中使用稱為 `enumerateObjectInstances` 的函式。 此函式會在屬性窗格中填入物件，也會決定應在 dataView 內繫結物件的位置。  
 
@@ -197,7 +197,7 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 
 ### <a name="properties"></a>屬性
 
-`enumerateObjectInstances` 中的屬性會反映您在功能中定義的屬性。 請參閱頁面底部的範例。
+`enumerateObjectInstances` 中的屬性會反映您在功能中定義的屬性。 如需範例，請移至此文章結尾。
 
 ### <a name="objects-selector"></a>物件選取器
 
@@ -205,7 +205,7 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 
 #### <a name="static"></a>靜態
 
-此物件會繫結到中繼資料 `dataviews[index].metadata.objects`
+此物件會繫結至中繼資料 `dataviews[index].metadata.objects`，如這裡所示。
 
 ```typescript
 selector: null
@@ -223,7 +223,7 @@ selector: {
 
 #### <a name="selector"></a>選取器
 
-此物件會繫結到我們為其建立 `selectionID` 的項目。 在此範例中，我們假設我們已針對某些 dataPoints 建立 `selectionID`，且我們會反覆執行它們。
+此物件會繫結至您其建立 `selectionID` 的元素。 在此範例中，假設我們已針對某些 dataPoints 建立 `selectionID`，且我們會以迴圈方式執行它們。
 
 ```typescript
 for (let dataPoint in dataPoints) {
@@ -234,7 +234,7 @@ for (let dataPoint in dataPoints) {
 
 #### <a name="scope-identity"></a>範圍識別
 
-此物件會繫結到群組交集處的特定值。 例如，如果我有類別 `["Jan", "Feb", "March", ...]` 和序列 `["Small", "Medium", "Large"]`，我可能想要在符合 `Large` 和 `Feb` 的值交集處有一個物件。 為了達到這個目的，我可以取得這兩個資料行的 `DataViewScopeIdentity`，將其推送至 `identities` 變數，並將此語法與選取器搭配使用。
+此物件會繫結到群組交集處的特定值。 例如，如果您有類別 `["Jan", "Feb", "March", ...]` 和序列 `["Small", "Medium", "Large"]`，您可能想要在符合 `Large` 和 `Feb` 的值交集處有一個物件。 為了達到這個目的，您可以取得這兩個資料行的 `DataViewScopeIdentity`，將它們推送至 `identities` 變數，並將此語法與選取器搭配使用。
 
 ```typescript
 selector: {
@@ -244,7 +244,7 @@ selector: {
 
 ##### <a name="example"></a>範例
 
-在此範例中，我們會針對具有一個屬性 `fill` 的 customColor 物件顯示一個 objectEnumeration 可能外觀。 我們希望此物件以靜態方式繫結到 `dataViews[index].metadata.objects`
+下列範例會針對具有單一屬性 *fill* 的 customColor 物件，顯示單一 objectEnumeration 的可能外觀。 我們想要讓此物件以靜態方式繫結至 `dataViews[index].metadata.objects`，如下所示：
 
 ```typescript
 objectEnumeration.push({

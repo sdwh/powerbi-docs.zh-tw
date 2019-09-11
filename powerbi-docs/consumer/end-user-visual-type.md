@@ -1,5 +1,5 @@
 ---
-title: 在 Power BI 中的消費者的視覺效果類型
+title: Power BI 中適用於取用者的視覺效果類型
 description: Power BI 服務中的視覺效果類型
 author: mihart
 manager: kvivek
@@ -7,26 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: acee7e78a19986a0f83e13836ba6d77f7c35fdce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65711360"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302526"
 ---
-# <a name="visual-types-in-power-bi"></a>在 Power BI 中的視覺效果類型
-您會發現 視覺效果中的報表、 儀表板、 應用程式，以及問與答。 部分這些視覺效果的類型會封裝有了 Power BI，但有些就*自訂視覺效果*。 自訂視覺效果是在 Power BI 外部建立，且其建立方式允許*報表設計師*將它們新增至 Power BI 報表、儀表板和應用程式。 
+# <a name="visual-types-in-power-bi"></a>Power BI 中的視覺效果類型
+您會在報表、儀表板及問與答中看見視覺效果。 其中一些視覺效果類型是隨 Power BI 一同封裝，而某些則是「自訂視覺效果」  。 自訂視覺效果是在 Power BI 外部建立，且其建立方式允許報表「設計師」  將它們新增至 Power BI 報表和儀表板。 
 
-這篇文章是封裝在使用 Power BI 視覺效果概觀。  這些是您最常遇到的視覺效果。 
+此文章概述隨 Power BI 服務一同封裝的視覺效果。  這些是您最常會遇到的視覺效果。 如需這些視覺效果的深入資訊，請參閱[關於視覺效果類型的 Power BI 報表「設計師」  文件](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 > [!NOTE]
 > 若要了解自訂視覺效果，請在 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 的＜**Power BI 視覺效果**＞一節中搜尋這些自訂視覺效果。 針對每個視覺效果，您可找到描述、建立者資訊，以及螢幕擷取畫面或影片。 
 
-## <a name="list-of-visuals-available-in-power-bi"></a>Power bi 的視覺效果的清單
-所有這些視覺效果可在 Power BI 應用程式、 儀表板、 報告以及[問與答中指定](end-user-q-and-a.md)。 若要了解如何與視覺效果互動，請參閱[與報表、 儀表板和應用程式中的視覺效果互動](end-user-visualizations.md)
+## <a name="list-of-visuals-available-in-power-bi"></a>Power BI 提供的視覺效果清單
+所有這些視覺效果都能在 Power BI 儀表板及報表中找到，並[於問與答中詳述](end-user-q-and-a.md)。 若要了解如何與視覺效果互動，請參閱[在報表、儀表板和應用程式中與視覺效果互動](end-user-visualizations.md)
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>區域圖：基本 (分層) 與堆疊
 ![區域圖](media/end-user-visual-type/basic-area-map-small.png)
@@ -59,7 +59,7 @@ ms.locfileid: "65711360"
 組合圖極適合：
 - 當您的折線圖和直條圖具有相同的 X 軸。
 - 當您要比較具有不同值範圍的多個量值
-- 說明在一個視覺效果中的兩個量值之間的相互關聯
+- 當您要在一個視覺效果中說明兩個量值間的相互關聯
 - 當您要檢查量值是否符合另一個量值所定義的目標。
 - 當您要節省畫布的空間
 
@@ -76,14 +76,6 @@ ms.locfileid: "65711360"
 例如，會分階段追蹤客戶的銷售漏斗圖：潛在客戶 (Lead) > 合格的潛在客戶 (Lead) > 潛在客戶 (Prospect) > 合約 > 關閉。 漏斗圖的圖形一看就能表達出您追蹤中程序的健全狀況。
 漏斗圖的每個階段代表總數中所佔的百分比。 因此，在大部分情況下，漏斗圖形狀像漏斗 -- 第一階段最大，然後每個後續階段比前一階段小。 梨狀的漏斗圖也很實用，能識別出程序中的問題。 但通常第一階段，也就是「引入」階段佔最大部分。
 
-漏斗圖極適合：
-- 當資料具有循序性，並至少通過 4 個以上的階段時。
-- 當第一階段「項目」數目預期大於最後階段的數目時。
-- 當您要分階段計算潛在項目 (營收/銷售額/成交量/等等) 時。
-- 當您要計算及追蹤轉換率和留客率時。
-- 當您要顯示線性程序中的瓶頸時。
-- 當您要追蹤購物車的工作流程時。
-- 當您要追蹤點選連結廣告/行銷活動的進度及成功與否時。
 
 ### <a name="gauge-charts"></a>量表圖
 ![量表圖](media/end-user-visual-type/gauge-m.png)
@@ -127,7 +119,7 @@ KPI 極適合：
 ### <a name="maps-arcgis-maps"></a>地圖：ArcGIS 地圖
 ![ArcGis 地圖](media/end-user-visual-type/power-bi-esri-map-theme2.png)
 
-ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到了全新境界。 基本地圖、 位置類型、 佈景主題、 符號樣式及參考圖層的可用選項會建立豐富資訊的絶佳地圖視覺效果。 （例如人口普查資料） 與空間分析地圖上的官方資料圖層的組合會傳達更深入的了解您的視覺效果中的資料。
+ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到了全新境界。 您可以使用基礎地圖、位置類型、佈景主題、符號樣式及參考圖層等選項，建立具有豐富資訊的絶佳地圖視覺效果。 地圖上的官方資料圖層 (例如人口普查資料) 與空間分析結合之後，能讓人更深入了解視覺效果中的資料。
 
 ### <a name="maps-filled-maps-choropleth"></a>地圖：區域分布圖 (分級著色圖)
 ![區域分布圖](media/end-user-visual-type/pbi-nancy-viz-filledmap.png)
@@ -137,7 +129,7 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 ### <a name="maps-shape-maps"></a>地圖：圖形地圖
 ![圖形地圖](media/end-user-visual-type/power-bi-shape-map2.png)
 
-圖形地圖會使用色彩來比較地圖上的區域。 不同於地圖視覺效果，圖形地圖無法在地圖上顯示資料點的確切地理位置。 相反地，其主要目的是要藉由不同的著色，在地圖上顯示區域的相對比較。
+圖形地圖會使用色彩來比較地圖上的區域。 圖形地圖無法在地圖上顯示資料點的確切地理位置。 相反地，其主要目的是要藉由不同的著色，在地圖上顯示區域的相對比較。
 
 ### <a name="matrix"></a>矩陣圖
 ![矩陣](media/end-user-visual-type/matrix.png)
@@ -163,12 +155,16 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 
 泡泡圖會將資料點以泡泡取代，而泡泡的大小代表其他維度的資料。
 
-點圖類似於泡泡圖和散佈圖，不同之處在於其可沿 X 軸繪製數值或類別資料。
+
+
+點圖類似於泡泡圖和散佈圖，不同之處在於其可沿 X 軸繪製數值或類別資料。 此範例使用的是正方形而非圓形，並沿著 X 軸繪製銷售額。
+
+![點圖](media/end-user-visual-type/power-bi-dot-plot-squares.png)
 
 ### <a name="scatter-high-density"></a>散佈圖高密度
 ![高密度散佈圖](media/end-user-visual-type/density-scatter.png)
 
-根據定義，對高密度資料進行取樣，建立視覺效果相當快速回應互動性。 高密度取樣會使用消除重疊點的演算法，並確保視覺效果會呈現資料集中的所有點。 它不只會繪製代表性的資料樣本。  
+根據定義，高密度資料是取樣來在合理範圍內快速建立視覺效果以回應互動。 高密度取樣會使用消除重疊點的演算法，並確保視覺效果會呈現資料集中的所有點。 它不只會繪製代表性的資料樣本。  
 
 還可確保提供回應、轉譯和清楚保留整體資料集中重要點的最佳組合。
 
@@ -220,14 +216,14 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 資料行會標示色彩，讓您快速地分辨增加和減少。 起始值和最終值資料行通常在水平軸上開始，而中間值則是浮動的資料行。 由於其「外觀」，瀑布圖也稱為橋樑圖 (bridge chart)。
 
 瀑布圖極適合：
-- 您擁有跨越時間序列或不同類別目錄的量值變更時
+- 您擁有跨越時間或不同類別目錄的量值變更時
 - 稽核對總值造成的重大變更
 - 藉由顯示營收的各種來源來標示貴公司的年度收益，並達到總收益 (或虧損)
 - 呈現貴公司一年的開始和結束人數
 - 以視覺化方式顯示您的每月收入與支出，以及帳戶的日常餘額
 
-## <a name="qna"></a>告訴問與答要使用哪一個視覺效果
-輸入時使用 Power BI 問與答自然語言查詢，您可以在查詢中指定的視覺效果類型。  例如：
+## <a name="qna"></a>告訴問與答要使用的視覺效果
+使用 Power BI 問與答輸入自然語言查詢時，您可以在查詢中指定視覺效果類型。  例如：
 
 
 ***依州以矩形式樹狀結構圖顯示銷售額***.
@@ -235,5 +231,5 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 ![問與答工作階段](media/end-user-visual-type/qa-treemap.png)
 
 ## <a name="next-steps"></a>後續步驟
-[與報表、 儀表板和應用程式中的視覺效果互動](end-user-visualizations.md)    
+[在報表、儀表板和應用程式中與視覺效果互動](end-user-visualizations.md)    
 [來自 sqlbi.com 的正確視覺效果參考](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

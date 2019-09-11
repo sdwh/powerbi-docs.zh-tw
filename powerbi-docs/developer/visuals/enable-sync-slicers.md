@@ -1,6 +1,6 @@
 ---
-title: 啟用同步交叉分析篩選器
-description: 如何為 Power BI 視覺效果新增同步交叉分析篩選器功能
+title: 在 Power BI 視覺效果中啟用同步交叉分析篩選器功能
+description: 此文章說明如何將同步交叉分析篩選器功能新增至 Power BI 視覺效果。
 author: EugeneElkin
 ms.author: v-evelk
 manager: rkarlin
@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 9966475e8bcaccad2090451b47ef09ef0a9af125
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 4d7b73a5d06f34fd197464d4444d0e19d6c1c026
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425014"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237201"
 ---
-# <a name="sync-slicers"></a>同步交叉分析篩選器
+# <a name="sync-slicers-in-power-bi-visuals"></a>Power BI 中的同步交叉分析篩選器
 
-若要支援[同步交叉分析篩選器](https://docs.microsoft.com/power-bi/desktop-slicers)，您的自訂交叉分析篩選器視覺效果必須使用 API 1.13 或更高版本。
+若要支援[同步交叉分析篩選器](https://docs.microsoft.com/power-bi/desktop-slicers) \(部分機器翻譯\) 功能，您的自訂交叉分析篩選器視覺效果必須使用 API 1.13 版或更新版本。
 
-第二個必要條件是啟用 `capabilities.json` 中的選項 (請參閱以下範例)。
+此外，您也必須啟用 *capabilities.json* 檔案中的選項，如下列程式碼所示：
 
 ```json
 {
@@ -34,11 +34,11 @@ ms.locfileid: "68425014"
 }
 ```
 
-變更 `capabilities.json` 之後，當您按一下自訂交叉分析篩選器視覺效果時，就可以看到 [同步交叉分析篩選器] 選項面板。
+更新 *capabilities.json* 檔案之後，當您選取您的自訂交叉分析篩選器視覺效果時，就能檢視 [同步交叉分析篩選器]  選項窗格。
 
 > [!NOTE]
-> 如果您的交叉分析篩選器具有多個欄位 (類別或量值)，則會停用此功能，因為同步交叉分析篩選器不支援多個欄位。
+> 同步交叉分析篩選器功能不支援多個欄位。 如果交叉分析篩選器有多個欄位 (**Category** 或 **Measure**)，系統會停用該功能。
 
-![[同步交叉分析篩選器] 面板](./media/sync-slicers-panel.png)
+![[同步交叉分析篩選器] 窗格](./media/sync-slicers-panel.png)
 
-在面板中，您可以看到交叉分析篩選器可見度及其篩選可能套用至數個報表頁面。
+在 [同步交叉分析篩選器]  窗格中，您可以看到交叉分析篩選器可見度及其篩選可以套用至數個報表頁面。

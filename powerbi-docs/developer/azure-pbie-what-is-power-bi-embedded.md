@@ -1,9 +1,9 @@
 ---
 title: 什麼是 Azure Power BI Embedded 與內嵌式分析 | Microsoft Docs
 description: Power BI Embedded 旨在作為一項內嵌式分析，以簡化 ISV 和開發人員使用 Power BI 功能的方式，協助其快速地將令人讚嘆的視覺效果、報表和儀表板新增至他們的應用程式。 了解如何使用 Power BI Embedded 來運用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具。
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: power-bi-embedded
 ms.subservice: ''
@@ -11,16 +11,16 @@ ms.devlang: csharp, javascript
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 6e91b2e958a738961255f9ad9b6b0514fed759bb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c74bd97a3323f28ba6d66fad03307f28c1b0c270
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385009"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391477"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>什麼是 Azure Power BI Embedded？
 
-Power BI Embedded 旨在透過內嵌式分析簡化 ISV 和開發人員使用 Power BI 功能的方式。 Power BI Embedded 可協助您快速地將令人讚嘆的視覺效果、報表和儀表板新增至您的應用程式，藉以簡化 Power BI 功能。 類似於 Microsoft Azure 上建置的應用程式使用如機器學習服務和 IoT 之類的服務。 透過在其應用程式中啟用輕鬆巡覽資料探勘，ISV 可讓其客戶在內容中進行快速、明智的決策。
+Power BI Embedded 旨在透過內嵌式分析簡化 ISV 和開發人員使用 Power BI 功能的方式。 Power BI Embedded 可協助您快速地將令人讚嘆的視覺效果、報表和儀表板新增至您的應用程式，藉以簡化 Power BI 功能。 類似於 Microsoft Azure 上使用如機器學習服務和 IoT 之類的服務來建置應用程式的方式。 透過在其應用程式中啟用輕鬆巡覽資料探勘，ISV 可讓其客戶在內容中進行快速、明智的決策。
 
 > [!VIDEO https://www.youtube.com/embed/iEHfUuoZseo]
 
@@ -34,7 +34,7 @@ Power BI Embedded 旨在透過內嵌式分析簡化 ISV 和開發人員使用 Po
 
 **Power BI Embedded** 適用於獨立軟體廠商 (ISV) 和為其客戶建置應用程式的開發人員。 它可用來作為協力廠商商業智慧服務，讓您將應用程式資料視覺化，而不是自行建置該服務。 Power BI Embedded 是平台即服務 (PaaS) 分析解決方案，開發人員可以在這個解決方案中為客戶將報表和儀表板嵌入應用程式。 **Power BI Premium** 則是軟體即服務 (SaaS) 分析解決方案，為組織提供最重要商務資料的單一檢視。 
 
-[Power BI Embedded](https://azure.microsoft.com/pricing/details/power-bi-embedded/)　是預付型功能，而 [Power BI Premium](https://powerbi.microsoft.com/calculator/) 則需要支付每月費用。 您可以觀看這個[影片](https://www.youtube.com/watch?v=0y2oJikC6Xc&t=0s&list=PLv2BtOtLblH1dQPV49Ni12olDcUoW-GEl&index=3)以深入了解它們的比較方式。
+[Power BI Embedded](https://azure.microsoft.com/pricing/details/power-bi-embedded/)　是隨用隨付功能，而 [Power BI Premium](https://powerbi.microsoft.com/calculator/) 則需要支付每月費用。 您可以觀看這個[影片](https://www.youtube.com/watch?v=0y2oJikC6Xc&t=0s&list=PLv2BtOtLblH1dQPV49Ni12olDcUoW-GEl&index=3)以深入了解它們的比較方式。
 
 ## <a name="easy-to-use-tools"></a>簡單易用的工具
 

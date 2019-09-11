@@ -1,6 +1,6 @@
 ---
-title: 單元測試簡介
-description: 如何為 Power BI 視覺效果專案撰寫單元測試
+title: Power BI 視覺效果專案單元測試簡介
+description: 此文章說明如何撰寫 Power BI 視覺效果專案的單元測試
 author: zBritva
 ms.author: v-ilgali
 manager: rkarlin
@@ -9,31 +9,29 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 4b16eaad9b541bf6e5d8df49ffda99d9bbd5bbf2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424531"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236727"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>教學課程：新增 Power BI 視覺效果專案的單元測試
 
-本教學課程描述為 Power BI 視覺效果撰寫單元測試的基本概念。
+此文章說明為 Power BI 視覺效果撰寫單元測試的基本概念，包括如何：
 
-在本教學課程中，我們將考慮
-
-* 如何使用測試執行器 karma.js 測試架構 - jasmine.js
-* 如何使用 powerbi-visuals-utils-testutils 套件
-* 模擬和假功能集如何協助簡化 Power BI 視覺效果的單元測試。
+* 設定 Karma JavaScript 測試執行器測試架構 (Jasmine)。
+* 使用 powerbi-visuals-utils-testutils 套件。
+* 使用模擬和假功能集協助簡化 Power BI 視覺效果的單元測試。
 
 ## <a name="prerequisites"></a>先決條件
 
-* 您有 Power BI 視覺效果專案
-* 已設定 Node.JS 環境
+* 已安裝 Power BI 視覺效果專案
+* 已設定 Node.js 環境
 
-## <a name="install-and-configure-karmajs-and-jasmine"></a>安裝和設定 karma.js 和 jasmine
+## <a name="install-and-configure-the-karma-javascript-test-runner-and-jasmine"></a>安裝和設定 Karma JavaScript 測試執行器和 Jasmine
 
-將必要的程式庫新增至 package.json 的 `devDependencies` 區段：
+將必要的程式庫新增至 *package.json* 檔案的 `devDependencies` 區段中：
 
 ```json
 "@babel/polyfill": "^7.2.5",
@@ -67,19 +65,19 @@ ms.locfileid: "68424531"
 "webpack": "4.26.0"
 ```
 
-請參閱以下描述以深入了解此套件。
+若要深入了解套件，請參閱說明。
 
-儲存 `package.json` 並在命令列的 `package.json` 位置執行：
+在 `package.json` 位置儲存 *package.json* 檔案，然後執行下列命令：
 
 ```cmd
 npm install
 ```
 
-套件管理員會安裝所有新增至 `package.json` 的新套件
+套件管理員會安裝所有新增至 *package.json* 的新套件。
 
-若要執行單元測試，我們必須設定測試執行器和 `webpack` 設定。您可以在這裡找到設定的範例
+若要執行單元測試，請設定測試執行器和 `webpack` 設定。
 
-`test.webpack.config.js` 的範例：
+下列程式碼是 *test.webpack.config.js* 檔案的範例：
 
 ```typescript
 const path = require('path');
@@ -147,7 +145,7 @@ module.exports = {
 };
 ```
 
-`karma.conf.ts` 的範例
+下列程式碼是 *karma.conf.ts* 檔案的範例：
 
 ```typescript
 "use strict";
@@ -252,29 +250,27 @@ module.exports = (config: Config) => {
 
 如有需要，您可以修改此設定。
 
-`karma.conf.js` 的一些設定如下：
+*karma.conf.js* 中的程式碼包含下列變數：
 
-* `recursivePathToTests` 變數會尋找測試程式碼的位置。
+* `recursivePathToTests`：尋找測試程式碼
 
-* `srcRecursivePath` 變數會尋找編譯後的輸出 JS 程式碼。
+* `srcRecursivePath`：在編譯之後，尋找輸出 JavaScript 程式碼
 
-* `srcCssRecursivePath` 變數會尋找編譯 LESS 檔案 (含樣式) 後的輸出 CSS。
+* `srcCssRecursivePath`：尋找編譯 LESS 檔案 (含樣式) 後的輸出 CSS
 
-* `srcOriginalRecursivePath` 變數會尋找視覺效果的原始程式碼。
+* `srcOriginalRecursivePath`：尋找視覺效果的原始程式碼
 
-* `coverageFolder` 變數會判斷要在其中建立涵蓋範圍報告的位置。
+* `coverageFolder`：決定要建立涵蓋範圍報表的位置
 
-設定的一些屬性如下：
+設定檔包含下列屬性：
 
-* `singleRun: true` - 在 CI 系統上執行測試。 執行一次便已足夠。
-您可以變更為 `false` 來偵錯測試。 Karma 會繼續執行瀏覽器，並允許您使用主控台進行偵錯。
+* `singleRun: true`：測試是在持續整合 (CI) 系統上執行，或是執行一次。 您可以將設定變更為 *false*，來對測試進行偵錯。 Karma 會讓瀏覽器保持執行狀態，讓您可以使用主控台進行偵錯。
 
-* `files: [...]` - 在此陣列中，您可以設定要載入瀏覽器的檔案。
-通常包括原始程式檔、測試案例、程式庫 (jasmine、test utils)。 如有需要，您可以將其他檔案新增至清單。
+* `files: [...]`：在此陣列中，您可以指定要載入瀏覽器的檔案。 通常包括原始程式檔、測試案例、程式庫 (Jasmine、測試公用程式)。 您可以視需要將其他檔案新增至清單。
 
-* `preprocessors` - 這是您設定動作的設定區段，會先執行此動作，再執行單元測試。 系統會將 TypeScript 先行編譯為 JS 並準備來源對應檔，再產生程式碼涵蓋範圍報告。 您可以停用 `coverage` 來偵錯測試。 涵蓋範圍會產生其他程式碼來檢查測試涵蓋範圍中的程式碼，這會使得偵錯測試變得很複雜。
+* `preprocessors`：在本節中，您會設定在執行單元測試之前執行的動作。 系統會將 TypeScript 先行編譯為 JavaScript 並準備來源對應檔，再產生程式碼涵蓋範圍報表。 當您在對測試進行偵錯時，可以停用 `coverage`。 涵蓋範圍會產生其他程式碼來檢查測試涵蓋範圍中的程式碼，這會使得對測試進行偵錯變得複雜。
 
-**您可以在 karma.js 的[文件](https://karma-runner.github.io/1.0/config/configuration-file.html)中找到所有設定的描述**
+如需所有 Karma 設定的說明，請移至 [Karma 設定檔](https://karma-runner.github.io/1.0/config/configuration-file.html)頁面。
 
 為了方便使用，您可以將測試命令新增至 `scripts`：
 
@@ -294,13 +290,13 @@ module.exports = (config: Config) => {
 
 您已準備好開始撰寫單元測試。
 
-## <a name="simple-unit-test-for-check-dom-element-of-the-visual"></a>用於檢查視覺效果 DOM 元素的簡單單元測試
+## <a name="check-the-dom-element-of-the-visual"></a>檢查視覺效果的 DOM 元素
 
 若要測試視覺效果，我們必須建立視覺效果的執行個體。
 
-### <a name="creating-visual-instance-builder"></a>建立視覺效果執行個體產生器
+### <a name="create-a-visual-instance-builder"></a>建立視覺效果執行個體產生器
 
-使用下一段程式碼，將 `visualBuilder.ts` 檔案新增至 `test` 資料夾：
+使用下列程式碼，將 *visualBuilder.ts* 檔案新增至 [test]  資料夾：
 
 ```typescript
 import {
@@ -329,13 +325,13 @@ export class BarChartBuilder extends VisualBuilderBase<VisualClass> {
 }
 ```
 
-其中的 `build` 方法會建立視覺效果執行個體。 `mainElement` 是 get 方法，會傳回視覺效果中的「根」DOM 元素執行個體。 getter 是選擇性的，但可讓您更輕鬆地撰寫單元測試。
+其中的 `build` 方法會建立視覺效果執行個體。 `mainElement` 是 get 方法，會傳回視覺效果中的「根」文件物件模型 (DOM) 元素執行個體。 getter 是選擇性的，但可讓您更輕鬆地撰寫單元測試。
 
-我們已有視覺效果執行個體的產生器。 接下來將撰寫測試案例。 此測試案例會在您的視覺效果顯示時，檢查已建立的 SVG 元素。
+您現在已經有視覺效果執行個體的組建。 接下來將撰寫測試案例。 測試案例會檢查顯示視覺效果時所建立的 SVG 元素。
 
-### <a name="creating-typescript-file-to-write-test-cases"></a>建立 TypeScript 檔案以撰寫測試案例
+### <a name="create-a-typescript-file-to-write-test-cases"></a>建立 TypeScript 檔案以撰寫測試案例
 
-使用下列程式碼，新增測試案例的 `visualTest.ts` 檔案：
+使用下列程式碼，新增測試案例的 *visualTest.ts* 檔案：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -362,40 +358,36 @@ describe("BarChart", () => {
 });
 ```
 
-這會呼叫數個方法。
+呼叫數個方法：
 
-* [`describe`](https://jasmine.github.io/api/2.6/global.html#describe) 方法描述測試案例。 在 jasmine 的內容中，架構通常稱為「套件」或「規格群組」。
+* [`describe`](https://jasmine.github.io/api/2.6/global.html#describe)：描述測試案例。 在 Jasmine 架構的內容中，它通常描述套件或規格群組。
 
-* `beforeEach` 方法會在每次呼叫 `it` 方法之前呼叫，並定義於 [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) 方法中。
+* `beforeEach`：在每次呼叫 `it` 方法之前，都會呼叫此方法，這定義於 [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) 方法中。
 
-* `it` 會定義單一規格。[`it`](https://jasmine.github.io/api/2.6/global.html#it) 方法應該包含一或多個 `expectations`。
+* [`it`](https://jasmine.github.io/api/2.6/global.html#it)：定義單一規格。`it` 方法應該包含一或多個 `expectations`。
 
-* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect) 方法會建立規格的預期。如果所有預期皆通過且未發生任何失敗，則規格會成功。
+* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect)：建立規格的預期。如果所有預期皆通過且未發生任何失敗，則規格即為成功。
 
-* `toBeInDOM` - 它是其中一個比對器方法。 若要了解現有的比對器，您可以閱讀 jasmine 架構的[文件](https://jasmine.github.io/api/2.6/matchers.html)。
+* `toBeInDOM`：其中一個「比對器」  方法。 如需比對器的詳細資訊，請參閱 [Jasmine 命名空間：比對器](https://jasmine.github.io/api/2.6/matchers.html) \(英文\)。
 
-**如需 Jasmine 架構的詳細資訊，請參閱官方[文件](https://jasmine.github.io/)。**
-
-之後，您可以在命令列工具中鍵入命令來執行單元測試。
-
-此測試會檢查是否已建立視覺效果的根 SVG 元素。
+如需 Jasmine 的詳細資訊，請參閱 [Jasmine 架構文件](https://jasmine.github.io/)頁面 \(英文\)。
 
 ### <a name="launch-unit-tests"></a>啟動單元測試
 
-若要執行單元測試，您可以在命令列工具中鍵入此命令。
+此測試會檢查是否已建立視覺效果的根 SVG 元素。 若要執行單元測試，請在命令列工具中輸入此命令：
 
 ```cmd
 npm run test
 ```
 
-`karma.js` 會執行 Chrome 瀏覽器並將執行測試案例。
+`karma.js` 會在 Chrome 瀏覽器中執行測試案例。
 
-![KarmaJS 已在 Chrome 中啟動](./media/karmajs-chrome.png)
+![在 Chrome 中開啟的 Karma JavaScript](./media/karmajs-chrome.png)
 
 > [!NOTE]
-> 必須在本機安裝 Google Chrome。
+> 您必須在本機安裝 Google Chrome。
 
-在命令列中，您會取得下列輸出：
+在命令列視窗中，您會取得下列輸出：
 
 ```cmd
 > karma start
@@ -418,7 +410,7 @@ Lines        : 20.85% ( 44/211 )
 
 ### <a name="how-to-add-static-data-for-unit-tests"></a>如何新增單元測試的靜態資料
 
-在 `test` 資料夾中建立 `visualData.ts` 檔案。 使用下列程式碼：
+使用下列程式碼，在 [test]  資料夾中建立 *visualData.ts* 檔案：
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -460,17 +452,17 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 
 `SampleBarChartDataBuilder` 類別會擴充 `TestDataViewBuilder` 並實作抽象方法 `getDataView`。
 
-當您將資料放入資料欄位貯體時，Power BI 會根據您的資料產生類別目錄 `dataview` 物件。
+當您將資料放入資料欄位值區時，Power BI 會產生以您資料為基礎的類別目錄 `dataview` 物件。
 
-![歸檔的貯體](./media/fields-buckets.png)
+![資料欄位值區](./media/fields-buckets.png)
 
-在單元測試中，您沒有 Power BI 核心函式可將它重現。 但您必須將靜態資料對應至類別目錄 `dataview`。 `TestDataViewBuilder` 類別將協助您進行。
+在單元測試中，您沒有 Power BI 核心函式可將資料重現。 但您必須將靜態資料對應至類別目錄 `dataview`。 `TestDataViewBuilder` 類別可協助您對應它。
 
-[深入了解 DataViewMapping](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md)
+如需資料檢視對應的詳細資訊，請參閱 [DataViewMappings](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md) \(英文\)。
 
-在 `getDataView` 方法中，只要使用您的資料呼叫 `createCategoricalDataViewBuilder` 方法即可。
+在 `getDataView` 方法中，使用您的資料呼叫 `createCategoricalDataViewBuilder` 方法。
 
-在 `sampleBarChart` 視覺效果的 [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) 中，我們有 dataRoles 和 dataViewMapping 物件：
+在 `sampleBarChart` 視覺效果的 [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) 檔案中，我們有 dataRoles 和 dataViewMapping 物件：
 
 ```json
 "dataRoles": [
@@ -549,13 +541,13 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 ], columnNames)
 ```
 
-其中 `this.valuesCategory` 是類別陣列。
+其中 `this.valuesCategory` 是類別陣列：
 
 ```ts
 public valuesCategory: string[] = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 ```
 
-而 `this.valuesMeasure` 是每個類別的量值陣列。 範例：
+而 `this.valuesMeasure` 是每個類別的量值陣列：
 
 ```ts
 public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 376074.57, 814724.34, 570921.34];
@@ -563,7 +555,7 @@ public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 37
 
 現在，您可以在單元測試中使用 `SampleBarChartDataBuilder` 類別。
 
-`ValueType` 類別已定義於 `powerbi-visuals-utils-testutils` 套件中。 而 `createCategoricalDataViewBuilder` 方法需要 `lodash` 程式庫。
+`ValueType` 類別是定義於 powerbi-visuals-utils-testutils 套件中。 而 `createCategoricalDataViewBuilder` 方法需要 `lodash` 程式庫。
 
 將這些套件新增至相依性。
 
@@ -582,7 +574,7 @@ npm install
 
 以安裝 `lodash-es` 程式庫。
 
-現在，您可以再次執行單元測試。 您必須取得此輸出
+現在，您可以再次執行單元測試。 您必須取得下列輸出：
 
 ```cmd
 > karma start
@@ -603,27 +595,25 @@ Lines        : 52.83% ( 112/212 )
 ================================================================================
 ```
 
-且您必須看到已啟動之 Chrome 瀏覽器中具有您的視覺效果。
+您的視覺效果會在 Chrome 瀏覽器中開啟，如下所示：
 
 ![UT 在 Chrome 中啟動](./media/karmajs-chrome-ut-runned.png)
 
-請注意，涵蓋範圍摘要已增加。 開啟 `coverage\index.html` 以深入了解目前的程式碼涵蓋範圍
+摘要顯示涵蓋範圍已增加。 若要深入了解目前的程式碼涵蓋範圍，開啟 `coverage\index.html`。
 
 ![UT 涵蓋範圍索引](./media/code-coverage-index.png)
 
-或在 `src` 資料夾範圍內
+或查看 `src` 資料夾的範圍：
 
-![src 資料夾的涵蓋範圍](./media/code-coverage-src-folder.png)
+![[src] 資料夾的涵蓋範圍](./media/code-coverage-src-folder.png)
 
-在檔案範圍內，您可以查看原始程式碼。 如果在單元測試執行期間沒有執行程式碼，`Coverage` 公用程式會將資料列背景標示為紅色。
+在檔案範圍內，您可以檢視原始程式碼。 如果特定程式碼在單元測試中未執行，`Coverage` 公用程式會用紅色醒目提示該列。
 
 ![visual.ts 檔案的程式碼涵蓋範圍](./media/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
-> 但程式碼涵蓋範圍並不表示您有很好的視覺效果功能涵蓋範圍。 一個簡單單元測試提供 `src\visual.ts` 中超過 96% 的涵蓋範圍。
+> 程式碼涵蓋範圍並不表示您有很好的視覺效果功能涵蓋範圍。 一個簡單單元測試提供 `src\visual.ts` 中超過百分之 96 的涵蓋範圍。
 
 ## <a name="next-steps"></a>後續步驟
 
-當您的視覺效果就緒時，您可以將視覺效果提交至發行集。
-
-[深入了解如何將視覺效果發佈至 AppSource](../office-store.md)
+當您的視覺效果就緒時，您可以提交它以供發佈。 如需詳細資訊，請參閱[在 AppSource 上發佈自訂視覺效果](../office-store.md)。

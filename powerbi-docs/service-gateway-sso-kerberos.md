@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5445326f302f5ffef39ab387b3a22a336efb6550
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655178"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391866"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的單一登入 (SSO) 使用 Kerberos
 
@@ -63,7 +63,7 @@ ms.locfileid: "69655178"
 若要啟用 Kerberos 限制委派，閘道必須以網域帳戶執行，除非 Azure Active Directory (Azure AD) 已與本機 Active Directory 執行個體進行同步處理 (使用 Azure AD DirSync/Connect)。 若要切換為網域帳戶，請參閱[變更閘道服務帳戶](/data-integration/gateway/service-gateway-service-account)。
 
 > [!NOTE]
-> 若已設定 Azure AD Connect，且已同步使用者帳戶，閘道服務並不需要在執行階段執行本機 Azure AD 查閱。 您可以針對閘道服務使用本機服務 SID (而不需要網域帳戶)。 本文中概述的 Kerberos 限制委派設定步驟與該設定相同。 它們只會套用至 Azure AD 中閘道的電腦物件，而不是網域帳戶。
+> 若已設定 Azure AD Connect，且已同步使用者帳戶，閘道服務並不需要在執行階段執行本機 Azure AD 查閱。 您可以針對閘道服務使用本機服務 SID (而不需要網域帳戶)。 此文章中概述的 Kerberos 限制委派設定步驟與該設定相同。 它們只會套用至 Azure AD 中閘道的電腦物件，而不是網域帳戶。
 
 ### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>必要條件 3：具備網域系統管理員權限以設定 SPN (SetSPN) 與 Kerberos 限制委派設定
 
@@ -172,7 +172,7 @@ ms.locfileid: "69655178"
 
 ## <a name="configure-sap-bw-for-sso-using-commoncryptolib"></a>使用 CommonCryptoLib 針對 SSO 設定 SAP BW
 
-現在您已了解 Kerberos 如何與閘道搭配使用，您可以針對 SAP Business Warehouse (SAP BW) 設定 SSO。 下列步驟假設您已經[準備好進行 Kerberos 限制委派](#prepare-for-kerberos-constrained-delegation)，如本文稍早所述。
+現在您已了解 Kerberos 如何與閘道搭配使用，您可以針對 SAP Business Warehouse (SAP BW) 設定 SSO。 下列步驟假設您已經[準備好進行 Kerberos 限制委派](#prepare-for-kerberos-constrained-delegation)，如此文章稍早所述。
 
 > [!NOTE]
 > 這些指示介紹 SAP BW **應用程式**伺服器的 SSO 設定。 Microsoft 目前不支援 SAP BW **訊息**伺服器的 SSO 連線。
@@ -355,7 +355,7 @@ ms.locfileid: "69655178"
 
 1. 以滑鼠右鍵按一下新連線，然後選取 [屬性]  。 切換至 [網路]  索引標籤。在 [SNC Name] \(SNC 名稱\)  文字方塊中輸入 p:\<SAP BW 服務使用者的 UPN\>，例如 p:BWServiceUser@MYDOMAIN.COM。 然後選取 [確定]  。
 
-    ![[System Entry Properties] \(系統項目屬性\)畫面的螢幕擷取畫面](media/service-gateway-sso-kerberos/system-entry-properties.png)
+    ![[System Entry Properties] \(系統項目屬性\) 畫面的螢幕擷取畫面](media/service-gateway-sso-kerberos/system-entry-properties.png)
 
 1. 按兩下您剛才建立的連線，以嘗試與 SAP BW 伺服器建立 SSO 連線。 如果連線成功，請繼續下一個步驟。 如果未成功，請檢閱此文件中先前的步驟，確定這些步驟已正確完成，或檢閱以下的疑難排解一節。 請注意，如果您在此內容中無法透過 SSO 連線至 SAP BW 伺服器，則無法在閘道內容中使用 SSO 連線至 SAP BW 伺服器。
 
@@ -377,7 +377,7 @@ ms.locfileid: "69655178"
 
 ### <a name="add-registry-entries-to-the-gateway-machine"></a>新增登錄項目至閘道電腦
 
-將所需的登錄項目，新增至已安裝閘道的電腦登錄中。 以下是要執行的命令：
+將所需的登錄項目新增至閘道安裝所在之電腦的登錄，同時安裝至要從 Power BI Desktop 連線至的電腦上。 以下是要執行的命令：
 
 1. REG ADD HKLM\SOFTWARE\Wow6432Node\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
 
@@ -427,7 +427,7 @@ ms.locfileid: "69655178"
 
 ### <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service"></a>將新的 SAP BW 應用程式伺服器資料來源新增至 Power BI 服務
 
-將 SAP BW 資料來源新增至您的閘道，方法是遵循本文中稍早關於[執行報表](#run-a-power-bi-report)的指示。
+將 SAP BW 資料來源新增至您的閘道，方法是遵循此文章中稍早關於[執行報表](#run-a-power-bi-report)的指示。
 
 1. 在資料來源設定視窗中，輸入應用程式伺服器的 [主機名稱]  、[系統編號]  和 [用戶端識別碼]  ，如同您用來從 Power BI Desktop 登入 SAP BW 伺服器的資訊。
 
