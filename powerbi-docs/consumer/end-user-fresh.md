@@ -6,16 +6,16 @@ manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
-ms.topic: overview
+ms.topic: conceptual
 ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dbad2927b64966a459086531fbfbf3e3e5de2eab
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61059715"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751669"
 ---
 # <a name="your-content-is-up-to-date"></a>您的內容是最新狀態
 作為「消費者」  ，您可以與「設計師」  建立並與您共用的內容互動。 您可能會希望知道該內容是否為最新，或只想要知道該內容上次重新整理的時間。 了解您正在使用最新的內容，可讓您保持信心。  
@@ -82,7 +82,7 @@ ms.locfileid: "61059715"
 保持最新狀態的另一種方式是訂閱報表或儀表板。 不需要登入並開啟報表或儀表板，您可以要求 Power BI 依照您設定的排程來傳送快照給您。  如需詳細資訊，請參閱[訂閱儀表板和報表](end-user-subscribe.md)。
 
 ## <a name="set-data-alerts"></a>設定資料警示
-如果資料變更超出或大於您設定的限制，您是否希望收到通知？ [建立資料警示](end-user-alerts.md)。  使用資料警示可讓您輕鬆保持在最新狀態。 使用資料警示，您可以要求 Power BI 在報表中的值超出特定閾值時傳送電子郵件給您。  例如，如果庫存低於 25 個單位，或銷售超出目標。  
+如果資料變更超出或大於您設定的限制，您是否希望收到通知？ [建立資料警示](end-user-alerts.md)。  使用資料警示可讓您輕鬆保持在最新狀態。 使用資料警示時，您可以要求 Power BI 在報表中的值超出特定閾值時傳送電子郵件給您。  例如，如果庫存低於 25 個單位，或銷售超出目標。  
 
 ## <a name="next-steps"></a>後續步驟
 [建立資料警示](end-user-alerts.md)    

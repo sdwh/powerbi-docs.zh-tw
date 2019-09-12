@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530492"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750893"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 中組織新工作區中的工作
 
@@ -61,7 +61,7 @@ Power BI 管理入口網站中[提供工作區清單](service-admin-portal.md#wo
 
 當您將角色指派給使用者群組時，群組中的個人可以存取內容。 如果巢狀處理使用者群組，則所有包含的使用者都具有權限。
 
-以下是四種角色的功能：系統管理員、成員、參與者和檢視者。
+以下是四種角色的功能：系統管理員、成員、參與者和檢視者。 除了最後一項以外，所有這些功能都需要 Power BI Pro 授權。
 
 |功能   | 系統管理員  | 成員  | 參與者  | 檢視者 |
 |---|---|---|---|---|
@@ -73,9 +73,9 @@ Power BI 管理入口網站中[提供工作區清單](service-admin-portal.md#wo
 | 允許其他人再次共用項目。 |  X | X  |   |   |
 | 建立、編輯和刪除工作區中的內容。  |  X | X  | X  |   |
 | 將報表發佈至工作區、刪除內容。  |  X | X  | X  |   |
-| 檢視項目。 |  X | X  | X  | X  |
 | 根據此工作區中的資料集，在另一個工作區中建立報表。 |  X | X  | X  | X <sup>1</sup>  |
 | 複製報表。 | X | X | X | X <sup>1</sup> |
+| 檢視項目並與其互動。 |  X | X  | X  | X  |
 
 **1** 需要 Power BI Pro 授權和[資料集的建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。 
  
@@ -134,7 +134,7 @@ Power BI 會稽核新工作區體驗工作區的下列活動。
 
 某些功能在新工作區的運作方式不同於目前工作區。 根據我們從客戶收到的意見反應，這些差異是刻意設計的，並會啟用更彈性方法，以便與工作區共同作業：
 
-- 授權強制執行：將報表發佈至新的工作區體驗會強制執行現有的授權規則，此規則需要在工作區中共同作業的使用者，或在 Power BI 服務中與其他人共用內容的使用者具有 Power BI Pro 授權。 沒有 Pro 授權的使用者會看到「僅具有 Powre BI Pro 授權的使用者才能發佈至這個工作區」錯誤。
+- 授權強制執行：將報表發佈至新的工作區體驗會強制執行現有的授權規則，此規則需要在工作區中共同作業的使用者，或在 Power BI 服務中與其他人共用內容的使用者具有 Power BI Pro 授權。 如果使用者沒有 Pro 授權，即會看到錯誤：「只有具備 Power BI Pro 授權的使用者才能發佈至這個工作區」。
 - 成員可以或無法再次共用：取代為「參與者」角色
 - 唯讀工作區：無需將工作區的唯讀存取權授與使用者，請將使用者指派給檢視者角色，這會允許工作區中內容的類似唯讀存取權。
 - 如果工作區在 Power BI Premium 容量中，則沒有 Pro 授權的使用者可以存取工作區，即使使用者只有檢視者角色也一樣。
