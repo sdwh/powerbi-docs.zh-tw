@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513115"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70840958"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>從 Excel 活頁簿檔案取得資料
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -77,8 +77,6 @@ Power BI 支援下列資料類型：整數、十進位數字、貨幣、日期�
 當您選擇 [連接]  時，您的活頁簿會顯示在 Power BI 中，就像是在 Excel Online 中一樣。 但不同於 Excel Online，您有一些很棒的功能，可協助您將工作表中的項目釘選到儀表板。
 
 您無法在 Power BI 中編輯活頁簿。 但如果您需要進行一些變更，您可以按一下 [編輯]，然後選擇在 Excel Online 中編輯活頁簿，或在電腦上以 Excel 開啟活頁簿。 您所做的任何變更都會儲存到 OneDrive 上的活頁簿。
-
-選擇這種方式時，Power BI 會為連線的活頁簿建立相應的資料集。 如有需要，您可以使用此資料集建立 Power BI 報表。 您的活頁簿也會顯示在 Power BI 工作區功能窗格的 [報表] 下。 已連接的活頁簿會有特殊 Excel 圖示。
 
 如果您只有工作表中的資料，或是有需要釘選到儀表板的範圍、樞紐分析表和圖表，請選擇此選項。
 

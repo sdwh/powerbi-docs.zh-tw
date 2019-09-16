@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: d18e61343496eef63dee29afae0a9e95fb382848
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 86fc2f8d13cdcd006c01dfff0114c13cc78f5e65
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497997"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "70987006"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -137,7 +137,7 @@ ms.locfileid: "66497997"
 - 包含報表層級 DAX 量值的報表。
 - 單一登入資料查詢模型。
 - [安全的機密或專屬資訊](#publish-to-web-from-power-bi)。
-- 隨著 [內嵌]  選項提供的自動驗證功能無法搭配 Power BI JavaScript API 使用。 針對 Power BI JavaScript API，請使用[使用者擁有資料](developer/embed-sample-for-your-organization.md)方式來內嵌。 深入了解[使用者擁有資料](developer/embed-sample-for-your-organization.md)。
+- 隨著 [內嵌]  選項提供的自動驗證功能無法搭配 Power BI JavaScript API 使用。 針對 Power BI JavaScript API，請使用[使用者擁有資料](developer/embed-sample-for-your-organization.md)方式來內嵌。
 
 ## <a name="tenant-setting"></a>租用戶設定
 

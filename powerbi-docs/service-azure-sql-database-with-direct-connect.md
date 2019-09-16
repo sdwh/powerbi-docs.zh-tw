@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/13/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2363b9da3ac46ce9fd49f19a00950a4a3cf23502
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: 96bf1a8d95f26014be09a32c1e83fb2af90f9fc0
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468132"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "70986999"
 ---
 # <a name="azure-sql-database-with-directquery"></a>具有 DirectQuery 的 Azure SQL Database
 
@@ -27,7 +27,7 @@ ms.locfileid: "67468132"
 **注意：**
 
 * 連線時請指定完整的伺服器名稱 (請參閱以下以取得詳細資料)。
-* 請確定已將資料庫的防火牆規則設為「[允許存取 Azure 服務](https://msdn.microsoft.com/library/azure/ee621782.aspx)」。
+* 請確定已將資料庫的防火牆規則設為「[允許存取 Azure 服務](https://docs.microsoft.com/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services)」。
 * 例如選取資料行或新增篩選器的每一個動作，都會增將查詢傳送回資料庫。
 * 圖格會每小時重新整理 (重新整理不需要排程)。 您可以在連線時，於 [進階] 設定中調整重新整理的頻率。
 * 問與答不能用於 DirectQuery 資料集。
