@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: 資料表中的超連結
               href: power-bi-hyperlinks-in-tables.md
+            - name: 在資料表顯示影像
+              href: power-bi-images-tables.md
             - name: 自訂格式字串
               href: desktop-custom-format-strings.md
             - name: 條件式表格格式設定
@@ -569,8 +571,6 @@
               href: service-create-dashboard-mobile-phone-view.md
             - name: 為磚建立 QR 代碼
               href: service-create-qr-code-for-tile.md
-            - name: 將影像加入儀表板中
-              href: service-dashboard-add-image.md
             - name: 儀表板資料分類
               href: service-data-classification.md
             - name: 儀表板佈景主題
@@ -677,8 +677,6 @@
               href: service-dataflows-linked-entities.md
             - name: 搭配資料流程使用累加式重新整理
               href: service-dataflows-incremental-refresh.md
-            - name: 資料流程的最佳做法
-              href: service-dataflows-best-practices.md
             - name: 資料流程的開發人員資源
               href: service-dataflows-developer-resources.md
             - name: 在 Power BI Desktop 中連線到資料流程
@@ -1432,6 +1430,8 @@
           href: service-admin-power-bi-security.md
 - name: 指引
   items:
+    - name: 資料流程的最佳做法
+      href: service-dataflows-best-practices.md
     - name: 什麼是星型結構描述？
       href: guidance/star-schema.md
     - name: 縮小資料模型大小
