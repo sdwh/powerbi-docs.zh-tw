@@ -10,10 +10,10 @@ ms.topic: quickstart
 ms.date: 04/18/2019
 ms.author: mshenhav
 ms.openlocfilehash: 173142d9aaf2b445504028e1f7987abe21806c37
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "60975739"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>快速入門：在 Power BI 行動裝置應用程式中探索儀表板和報表
