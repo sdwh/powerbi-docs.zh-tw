@@ -13,10 +13,10 @@ ms.date: 6/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 29823a2f1ca7f1448df54282e0ce081310974eb3
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67265658"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Power BI 視覺效果中的鑽研模式
@@ -48,7 +48,7 @@ ms.locfileid: "67265658"
 
     | 區 | 欄位 |
     | ---- | ----- |
-    | 值 |銷售額<br>\|\_ 今年總單位數 |
+    | 值 |銷售量<br>\|\_ 今年總單位數 |
     | 分組 | 商店<br>\|\_ 國家/地區<br>\|\_ 城市<br>\|\_ 郵遞區號<br>\|\_ 名稱
 
     樹狀圖具有由國家/地區、城市、郵遞區號和城市名稱組成的階層。 每個國家/地區有一或多個城市，每個城市有一或多個郵遞區號等等。 根據預設，視覺效果只會顯示國家/地區資料，因為「國家/地區」  最先出現在清單中。
@@ -145,7 +145,7 @@ ms.locfileid: "67265658"
 
 只顯示郵遞區號的樹狀圖無法提供足夠的資訊。  所以讓我們在階層中向下展開一個層級。  
 
-1. 在樹狀圖使用中的情況下，選取「向下展開」  圖示 ![向下展開圖示的螢幕擷取畫面。](./media/end-user-drill/power-bi-drill-icon6.png)。 您的樹狀圖現在顯示兩個層級的階層：郵遞區號與商店名稱。
+1. 在樹狀圖使用中的情況下，選取「向下展開」  圖示 ![向下展開圖示的螢幕擷取畫面](./media/end-user-drill/power-bi-drill-icon6.png)。 您的樹狀圖現在顯示兩個層級的階層：郵遞區號與商店名稱。
 
     ![顯示郵遞區號和商店名稱的樹狀圖螢幕擷取畫面](./media/end-user-drill/power-bi-expand1.png)
 
@@ -153,7 +153,7 @@ ms.locfileid: "67265658"
 
     ![顯示所有 TN 資料的樹狀圖螢幕擷取畫面。](media/end-user-drill/power-bi-drill-down-one1.png)
 
-1. 請確定向下切入仍然開啟 ![已開啟向下切入開啟/關閉圖示的螢幕擷取畫面。](./media/end-user-drill/power-bi-drill-icon2.png) 並選取「向下展開」  圖示 ![向下展開圖示的螢幕擷取畫面。](./media/end-user-drill/power-bi-drill-icon6.png)。 您的樹狀圖現在會顯示一些其他的詳細資料。 除了城市與州之外現在也會顯示郵遞區號。
+1. 請確定向下切入仍然開啟 ![已開啟向下切入開啟/關閉圖示的螢幕擷取畫面。](./media/end-user-drill/power-bi-drill-icon2.png) 並選取「向下展開」  圖示 ![向下展開圖示的螢幕擷取畫面](./media/end-user-drill/power-bi-drill-icon6.png)。 您的樹狀圖現在會顯示一些其他的詳細資料。 除了城市與州之外現在也會顯示郵遞區號。
 
     ![顯示城市、州和郵遞區號的視覺效果螢幕擷取畫面。](./media/end-user-drill/power-bi-expand-one3.png)
 
@@ -209,7 +209,7 @@ Power BI 可讓您一次展開一個子集，或一次展開所有子集。 您�
     | 區 | 欄位 |
     | ---- | ----- |
     | 軸 | 時間<br>\|\_ 月份 |
-    | 值 | 銷售額<br>\|\_ TotalSales |
+    | 值 | 銷售量<br>\|\_ TotalSales |
 
     即使 [軸] 資料欄位是 [月份]  ，它仍會在 [軸]  區中建立 [年份]  類別。 這是因為 Power BI 針對所讀取的所有值，都會提供完整的 DateTime 結構。 階層最上層會顯示該年的資料。
 
@@ -244,7 +244,7 @@ Power BI 可讓您一次展開一個子集，或一次展開所有子集。 您�
 
     | 區 | 欄位 |
     | ---- | ----- |
-    | 值 |銷售額<br>\|\_ 今年總單位數 |
+    | 值 |銷售量<br>\|\_ 今年總單位數 |
     | 軸 | 商店<br>\|\_ 國家/地區<br>\|\_ 城市 - 您可能需要將城市從 [圖例]  區拖曳至 [軸]  區。<br>\|\_ 郵遞區號<br>\|\_ 名稱 |
 
     ![依國家/地區顯示今年總單位數的橫條圖螢幕擷取畫面。](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
