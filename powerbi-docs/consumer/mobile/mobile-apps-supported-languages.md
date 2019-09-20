@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
 ms.openlocfilehash: 97fa91dda195d6976d92b027a0f96fca8e2ccea1
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "70841413"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Power BI 行動裝置應用程式中支援的語言

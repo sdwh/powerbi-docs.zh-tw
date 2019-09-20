@@ -8,14 +8,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 00574228fbfa8954b8cfb9cb026a9230eb1bd73e
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816532"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841700"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>在 Power BI 中共用成品的方式
 
@@ -31,7 +31,7 @@ ms.locfileid: "66816532"
 
 無論您選擇哪個選項，都必須具有 [Power BI Pro 授權](service-features-license-type.md)，或內容必須位於[進階容量](service-premium-what-is.md)中，才能共用您的內容。 根據您選擇的選項，檢視您內容的同事會有不同授權需求。 下列各節組說明詳細資料。 
 
-![Power BI 服務中的應用程式](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
+![Power BI 服務中的應用程式](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-new-look.png)
 
 *Power BI 服務中的應用程式*
 
@@ -41,7 +41,7 @@ ms.locfileid: "66816532"
 
 工作區提供可決定您同事具有哪些權限的角色。 您可以使用這些角色來決定誰可以管理整個工作區，或編輯其內容以及散發其內容。
 
-![工作區](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![工作區](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
 
 您可以自然地將內容放入 [我的工作區]，然後從該處共用。 但是工作區比 [我的工作區] 更適合共同作業，原因是它們允許內容的共同擁有權。 您和您的整個小組可以輕鬆地進行更新或授與其他人存取權。 [我的工作區] 最適合個人用於一次性或個人內容。
 
@@ -55,21 +55,23 @@ Power BI 具有新的工作區體驗。 讀取[建立新的工作區](service-cr
 
 ## <a name="distribute-insights-in-an-app"></a>在應用程式中散發見解
 
-假設您想要將自己的儀表板散發給組織內廣大群眾。 您和同事已建立「工作區」  ，接著在工作區中建立並調整了儀表板、報表和資料集。 現在，您可以選取您想要的儀表板和報表，並將其以應用程式的形式發佈給群組或整個組織。
+假設您想要將自己的儀表板散發給組織內廣大群眾。 您和同事已建立「工作區」  ，接著在工作區中建立並調整了儀表板、報表和資料集。 現在，您可以選取您要的儀表板和報表，並將它們發佈為應用程式，以供群組或整個組織使用。
 
-![發佈應用程式圖示](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
+![發佈應用程式圖示](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-publish-app.png)
 
-在 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 中可輕鬆地找到及安裝應用程式。 您可以將應用程式的直接連結傳送給商務使用者，或者他們可以在 AppSource 中進行搜尋。 如果您的 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 深入了解如何[發佈您的應用程式](service-create-distribute-apps.md)。
+在 Power BI 服務 ([https://app.powerbi.com](https://app.powerbi.com)) 中可輕鬆地找到及安裝應用程式。 您可以將應用程式的直接連結傳送給商務使用者，或者他們可以在 AppSource 中進行搜尋。 如果您的 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 深入了解如何[發佈您的應用程式](service-create-distribute-apps.md)。
 
 當他們安裝應用程式之後，就可以在瀏覽器或行動裝置中檢視此應用程式。
 
 若要讓使用者檢視您的應用程式，他們也必須有 Power BI Pro 授權，否則，應用程式必須儲存在 Power BI Premium 容量中。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium-what-is.md)。
 
-您也可以將應用程式發佈給組織外部的使用者。 他們可以檢視應用程式內容並與其互動，但不能與其他人共用應用程式內容。 現在您可以建立「範本應用程式」  ，將其部署至任何 Power BI 客戶。
+您也可以將應用程式發佈給組織外部的人員。 他們可以檢視應用程式內容並與其互動，但不能與其他人共用應用程式內容。 現在您可以建立「範本應用程式」  ，將其部署至任何 Power BI 客戶。
 
 ## <a name="share-a-dataset"></a>共用資料集
 
 讓我們面對現實吧，有些人比別人更擅長在報表中建立設計完善的高品質資料模型。 或許就是您。 您整個組織都可以受益於這些設計完善的資料模型。 「共用資料集」  適合擔任該角色。 當您以每個人都應使用的資料模型建立報表時，可以將該報表儲存至 Power BI 服務，並將其使用權限提供給合適的人員。 然後他們就可以在您的資料集上建立報表。 如此一來，每個人的報告都會基於相同資料，並可看到相同的「真實版本」。
+
+![尋找共用資料集](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-shared-datasets.png)
 
 深入了解[建立和使用共用資料集](service-datasets-across-workspaces.md)。
 
@@ -77,9 +79,9 @@ Power BI 具有新的工作區體驗。 讀取[建立新的工作區](service-cr
 
 假設您已在自己的 [我的工作區] 或在工作區中完成儀表板和報表，而且希望一些其他人可加以存取。 其中一項存取方法是「共用」  它。 
 
-![共用圖示](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
+![共用報表](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
-您和內容的共用對象都必須具有 Power BI Pro 授權，或內容必須位於 [Premium 容量](service-premium-what-is.md)的工作區中，才能共用內容。 當您共用儀表板或報表時，接受者可以檢視此儀表板或報表並與其互動，但是無法編輯此儀表板或報表。 除非資料列層級安全性 (RLS) 套用至基礎資料集，否則他們會看到您在儀表板和報表中看到的相同資料。 如果您允許的話，您與其共用的同事可以與他們的同事共用。 
+您和內容的共用人員都必須具有 Power BI Pro 授權，或內容必須位於 [Premium 容量](service-premium-what-is.md)的工作區中，才能共用內容。 當您共用儀表板或報表時，接受者可以檢視此儀表板或報表並與其互動，但是無法編輯此儀表板或報表。 除非資料列層級安全性 (RLS) 套用至基礎資料集，否則他們會看到您在儀表板和報表中看到的相同資料。 如果您允許的話，您與其共用的同事可以與他們的同事共用。 
 
 您也可以與組織外部人員共用。 他們也可以檢視儀表板或報表並其互動，但不能共用儀表板或報表。 
 

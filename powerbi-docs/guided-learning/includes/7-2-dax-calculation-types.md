@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6ed1690ec77880467007200c30038d185c98d6c2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f4043a5a8deac0596b58519183988f6ae574458e
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273231"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70847662"
 ---
 您可以使用 DAX 來建立兩種主要的計算結果︰
 
@@ -26,7 +26,7 @@ ms.locfileid: "61273231"
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_1.png)
 
-您也可以完全省略資料表名稱，並只使用資料行名稱，但這對於撰寫清楚的函數 (以及清楚的 DAX 碼) 而言是不良做法。 資料行名稱必須一律包含方括弧。
+您也可以完全省略資料表名稱，並只使用資料行名稱，但這對於撰寫清楚的函式 (以及清楚的 DAX 程式碼) 而言不是最佳做法。 資料行名稱必須一律包含方括弧。
 
 最佳做法是一律執行下列動作︰ 
 

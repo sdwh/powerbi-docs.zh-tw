@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e2a970ecbf7b341d4feaba4e90a862841ba8bb17
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560915"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841505"
 ---
 # <a name="use-r-in-query-editor"></a>在查詢編輯器中使用 R
 
@@ -84,6 +84,9 @@ ms.locfileid: "69560915"
        output <- dataset
        output$completedValues <- completedData$"SMI missing values"
     ```
+
+    > [!NOTE]
+    > 您可能需要覆寫名為 *output* 的變數，以適當地建立已套用篩選的新資料集。
 
 7. 選取 [確定]  之後，**查詢編輯器**會顯示有關資料隱私權的警告。
 

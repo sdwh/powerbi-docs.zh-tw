@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/08/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 278d631e755c4d484db0788b6c58fca9cfce4616
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 218124542570d313c3d5893a6f1d69c75594f33c
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961870"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903788"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>管理 Power BI 和 Office 365 中的應用程式工作區
 
@@ -72,7 +72,7 @@ ms.locfileid: "68961870"
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>新增影像並設定其他工作區屬性
 
-從應用程式工作區散發應用程式時，您在這裡新增的影像會成為應用程式的影像。 請參閱＜建立新工作區＞  一文的[＜將影像新增至 Office 365 應用程式工作區 (選擇性)＞](service-create-workspaces.md#add-an-image-to-your-office-365-app-workspace-optional)一節。
+從應用程式工作區散發應用程式時，您在這裡新增的影像會成為應用程式的影像。 請參閱＜建立新工作區＞  一文中的[將影像新增至 Office 365 應用程式工作區](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional)。
 
 1. 在應用程式工作區的 Outlook for Office 365 檢視中，移至 [關於]  索引標籤，然後選取 [編輯]  。
 

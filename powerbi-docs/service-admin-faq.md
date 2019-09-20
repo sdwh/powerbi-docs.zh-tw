@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 6d0c4a2dba1dee1c8c40da8fd3371767915729da
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490310"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877797"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
@@ -119,9 +119,9 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>我該如何不讓現有的使用者開始使用 Power BI？
 
-控制此項的 Azure AD 設定是 **AllowAdHocSubscriptions**。 大部分的租用戶都將此設定為 true，表示已啟用此設定。 如果您是透過合作夥伴取得 Power BI，這可能設定為 false，表示已停用此設定。
+控制此項的 Azure AD 設定是 **AllowAdHocSubscriptions**。 大部分的租用戶都會將此設定為 *true*，表示已啟用此設定。 如果您是透過合作夥伴取得 Power BI，這可能已設定為 *false*，表示已停用此設定。
 
-您可以使用下列 PowerShell 指令碼來停用特定訂閱。 ([深入了解 PowerShell][1]。)
+您可以使用下列 PowerShell 指令碼來停用隨選訂閱。([深入了解 PowerShell][1]。)
 
 1. 使用 Office 365 認證登入 Azure Active Directory。 下列 PowerShell 指令碼的第一行會提示您輸入您的認證。 第二行連接到 Azure Active Directory。
 
@@ -145,7 +145,7 @@ Get-MsolCompanyInformation | fl allow*
     ```
 
 > [!NOTE]
-> **AllowAdHocSubscriptions** 旗標可用以控制貴組織的數個使用者功能，包括使用者能否註冊 Azure Rights Management Service。 變更此旗標會影響所有這些功能。
+> **AllowAdHocSubscriptions** 旗標可用以控制貴組織的數個使用者功能，包括使用者能否註冊 Azure Rights Management Service。 變更此旗標會影響所有這些功能。 設定為 *false* 時，使用者仍可以註冊 Pro 試用版。
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>我要如何允許現有的使用者註冊 Power BI？
 

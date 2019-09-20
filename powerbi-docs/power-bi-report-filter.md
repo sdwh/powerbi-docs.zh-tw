@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654495"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841289"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI 報表的全新篩選體驗
 
 Power BI 中的篩選有新功能和新設計。 當您加入新的篩選體驗時，您可以設定 [篩選] 窗格的格式，使它看起來像報表的其餘部分。 您可以鎖定甚至是隱藏篩選。 設計報表時，您不會再於 [視覺效果] 窗格中看到舊的 [篩選] 窗格。 您會在單一 [篩選] 窗格中，執行您所有的篩選編輯和格式設定。 
 
-![新的篩選體驗](media/power-bi-report-filter/power-bi-filter-reading.png)
+![新的篩選體驗](media/power-bi-report-filter/power-bi-filter-new-look.png)
 
-身為報表設計師，您可以在新的 [篩選] 窗格中執行以下動作：
+身為報表設計師，以下是您可以在新的 [篩選] 窗格中執行的一些工作：
 
 - 新增和移除要篩選的欄位。 
 - 變更篩選狀態。
@@ -31,7 +31,7 @@ Power BI 中的篩選有新功能和新設計。 當您加入新的篩選體驗�
 - 定義當取用者開啟報表時，[篩選] 窗格預設是開啟或折疊的。
 - 隱藏整個 [篩選] 窗格，或您不想要報表取用者看到的特定篩選。
 - 控制可見度 (新 [篩選] 窗格的開啟和摺疊狀態) 或甚至將它加入書籤。
-- 將您不想要取用者看到的篩選條件鎖定。
+- 將您不想要取用者編輯的篩選條件鎖定。
 
 透過新的篩選體驗，報表取用者也可以將滑鼠停留在任何視覺效果上，來查看影響該視覺效果的所有篩選或交叉分析篩選器唯讀清單。
 
@@ -207,7 +207,7 @@ Power BI 中的篩選有新功能和新設計。 當您加入新的篩選體驗�
 
 ## <a name="sort-the-filter-pane"></a>排序篩選窗格
 
-自訂排序功能是新 [篩選] 窗格體驗的一部分。 報表建立者可以拖放篩選，以他們想要的順序來重新排列這些篩選。
+自訂排序功能是新 [篩選] 窗格體驗的一部分。 報表建立者可以拖放篩選，以任何順序來重新排列這些篩選。
 
 ![重新排列篩選排序次序](media/power-bi-report-filter/power-bi-filter-sort.gif)
 

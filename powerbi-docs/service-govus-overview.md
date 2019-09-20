@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/26/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: d491ca460d8393e9da308c826e69aad454d0e766
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590449"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841617"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 **Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本專為美國政府客戶而設計，並且獨立且不同於商用版本的 **Power BI 服務**。
@@ -48,7 +48,7 @@ Azure 分散於多個雲端。 系統預設會允許租用戶，以開啟對雲�
 * USGov 德州
 * USGov 亞歷桑那
 
-在公用雲端中，有可用的 IP 空間。 針對政府雲端，請參閱可下載的 [Azure 政府服務文件](https://www.microsoft.com/download/details.aspx?id=57063)，以取得最新資訊。
+在公用雲端中，有可用的 IP 空間。 針對政府雲端，請參閱可下載的 [Azure Government 服務文件](https://www.microsoft.com/download/details.aspx?id=57063) \(英文\)，以取得最新資訊。
 
 ## <a name="limitations-of-power-bi-us-government"></a>適用於美國政府的 Power BI 限制
 **Power BI 服務**商用版本中可用的部分功能「不」  可用於美國政府客戶的 **Power BI 服務**。 Power BI 小組積極地將這些功能提供給美國政府客戶，並且會在這些功能可用時更新本文。
@@ -85,13 +85,13 @@ Azure 分散於多個雲端。 系統預設會允許租用戶，以開啟對雲�
 
 **答：** 註冊 (通常稱為「上架」  ) 可能會根據您現有的授權和訂用帳戶而不同。 如需詳細資訊，請參閱[註冊適用於美國政府的 Power BI](service-govus-signup.md) 一文。
 
-**問：** 連線到適用於美國政府之 **Power BI** 的 URL，與商用 **Power BI** URL 是否不同？
+**問：** 連線到適用於美國政府之 **Power BI** 的 URL，與商用 **Power BI** URL 是否不同？ 政府社群雲端 (進階版) (GCC High) 客戶是否有不同 URL？
 
 **答：** 是，它們的 URL 並不相同。 下表顯示每個 URL：
 
-| 商用版本 URL | 美國政府版本 URL |
-| --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+| 商用版本 URL | 美國政府版本 URL | GCC High 的美國政府 URL |
+| --- | --- | --- |
+| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 
 **問：** 我的帳戶已佈建在多個國家/地區雲端。 當使用 **Power BI Desktop** 時，如何選取要連線至哪一個雲端？
 

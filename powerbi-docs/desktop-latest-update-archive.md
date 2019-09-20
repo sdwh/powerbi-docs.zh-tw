@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/26/2019
+ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a7061597df08e82f3128b6fc85ed2841569922c4
-ms.sourcegitcommit: 2b340946ed5f1deedeace4071845e1720ea155c9
+ms.openlocfilehash: b61d0e3515b4efb08cb08a49d9bb339a1fbbb5a3
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "70064638"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903696"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -33,6 +33,75 @@ ms.locfileid: "70064638"
 您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
 
 下列章節說明 **Power BI Desktop** 前幾個月的更新。
+
+## <a name="august-2019-update-2715523641"></a>2019 年 8 月更新 (2.71.5523.641)
+
+8 月更新可讓您在 Power BI Desktop 中建立熱門亮眼的報表。 
+
+您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)，現在是以包含所有支援語言的單一 .exe 檔案形式提供。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
+
+旁邊的連結分別更新下列項目：
+
+* 討論到某功能時， **[影片]** 會在新的瀏覽器分頁中摘錄片段。
+* 某些功能有 **[文章]** 提供詳細資料。
+* 每月更新的 **[部落格]** 文章中則說明大多數功能。
+* 最後，有些功能一目瞭然，因此不需要文章或影片。
+
+您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+
+以下是本月 **Power BI Desktop** 新增的更新：
+
+### <a name="reporting"></a>報告
+* 群組視覺效果 [[影片]](https://youtu.be/sf4n7VXoQHY?t=10)  [[文章]](desktop-grouping-visuals.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#grouping) 
+* 篩選窗格移轉  [[影片]](https://youtu.be/sf4n7VXoQHY?t=360)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#filterPane)
+* 圖示條件式格式設定的圖示樣式選擇器 [[影片]](https://youtu.be/sf4n7VXoQHY?t=509)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#iconStyles)
+* 條件式格式設定警告 [[影片]](https://youtu.be/sf4n7VXoQHY?t=621)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#conditionalFormatting)
+
+
+### <a name="analytics"></a>分析
+* 關鍵影響因素視覺效果改善 (正式運作) [[影片]](https://youtu.be/sf4n7VXoQHY?t=801)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#keyInfluencers) 
+
+
+### <a name="visuals"></a>視覺效果
+* 新的自訂視覺效果和更新  [[影片]](https://youtu.be/sf4n7VXoQHY?t=956)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#xviz) 
+
+
+### <a name="data-connectivity"></a>資料連線
+* SAP HANA HDI 容器支援 [[影片]](https://youtu.be/sf4n7VXoQHY?t=1502)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#HDIcontainers) 
+* 在 Power BI 服務中編輯 SAP 變數 (預覽)  [[影片]](https://youtu.be/sf4n7VXoQHY?t=1522)   [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#SAPvariables)
+* PostgreSQL DirectQuery [[影片]](https://youtu.be/sf4n7VXoQHY?t=1662)   [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#postgresql) 
+* MarkLogic 連接器現已正式推出  [[影片]](https://youtu.be/sf4n7VXoQHY?t=1678)   [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#marklogic) 
+* 取得資料內的新 Power Platform 類別  [[影片]](https://youtu.be/sf4n7VXoQHY?t=1688)   [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#powerPlatform) 
+
+### <a name="template-apps"></a>範本應用程式
+* Facebook 頁面 - 基本分析 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#facebook) 
+
+
+> [!NOTE]
+> 您也可以[查看 Power BI Desktop 的所有可用資料來源](desktop-data-sources.md)，我們的資料來源會持續增加，因此請經常回來查看。
+
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
+
+
+下列影片將描述並示範這些更新。 您也可以從部落格文章觀賞這段影片。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sf4n7VXoQHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> 您可能也會想要了解 [Power BI 服務的新功能](service-whats-new.md)，並請同時查閱 [Power BI 行動應用程式的新功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
+
+如果組織需要，您也可以下載先前版本的 Power BI Desktop。 強烈建議您使用最新版的 Power BI Desktop，不要使用舊版本。 所有舊版本都有下列限制：
+
+* 不針對舊版 Power BI Desktop 提供服務 - 您應該一律採用最新版本以獲得最新功能和更新。
+* 可能無法使用舊版 Power BI Desktop 開啟使用較新版 Power BI Desktop 建立或儲存的檔案。 
+* 如果您在載入使用較新版 Power BI Desktop 儲存的報表時收到一則警告，然後使用舊版儲存該報表，您將會遺失任何與新功能有關的資訊。
+* 我們只會封存英文版 Power BI Desktop。
+
+請選取下列連結以下載這個較早的版本： 
+
+* [Power BI Desktop 2019 年 8 月版本 - 32 位元](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08.msi)
+* [Power BI Desktop 2019 年 8 月版本 - 64 位元](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08_x64.msi)
+
 
 ## <a name="july-2019-update-2715523641"></a>2019 年 7 月更新 (2.71.5523.641)
 

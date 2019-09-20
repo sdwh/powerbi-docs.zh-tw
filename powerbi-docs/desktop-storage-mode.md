@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654741"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841305"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop 中的儲存模式
 
@@ -42,6 +42,9 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 * **多對多關聯性**：您可以使用「複合模型」  在資料表之間建立「多對多關聯性」  。 多對多關聯性  會移除資料表中值必須唯一的要求。 此外也會移除先前的因應措施，像是只為了建立關聯性而導入新的資料表。 如需詳細資訊，請參閱 [Power BI Desktop 中的多對多關聯性](desktop-many-to-many-relationships.md)。
 
 * **儲存模式**：您現在可以指定哪些視覺效果必須查詢後端資料來源。 不需要查詢的視覺效果，即便是使用 DirectQuery，也同樣會匯入。 此功能可提升效能，並減輕後端的負載。 先前即使是像交叉分析篩選器這類簡單的視覺效果，都會起始查詢，並將其傳送到後端來源。 儲存模式將在本文後段進一步說明。
+
+> [!NOTE]
+> 若要查看目前的儲存模式，請選取 [模型]  檢視，選取感興趣的資料表，然後在 [屬性]  窗格的 [進階]  區段中，檢視 [儲存模式]  值。
 
 ## <a name="use-the-storage-mode-property"></a>使用儲存模式屬性
 

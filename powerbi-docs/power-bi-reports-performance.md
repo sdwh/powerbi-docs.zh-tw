@@ -1,8 +1,8 @@
 ---
 title: Power BI 效能最佳做法
 description: 本文提供如何在 Power BI 中建置快速且可靠報表的指引
-author: MarkMcGeeAtAquent
-ms.author: kfile
+author: Bhavik-MSFT
+ms.author: bhmerc
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,20 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: bddd653b5ac8b49a38a69ae79baf2f96824444ed
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665347"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841492"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 效能最佳做法
 
 本文提供如何在 Power BI 中建置快速且可靠報表的指引。  
+
+## <a name="choose-an-appropriate-storage-mode-import-directquery"></a>選擇適當的儲存模式：匯入、DirectQuery
+
+在大部分情況下，匯入模式是最佳選擇，因為它會利用使用單欄式儲存體壓縮的本機快取記憶體內部資料，提供最高速的速度。 匯入模式也允許完整的 DAX 功能。 當來源資料磁碟區太大而無法納入您的 Power BI 容量時，請考慮 DirectQuery (和複合模型)。 當您必須在每次載入報表時都從來源提取最新的資料，DirectQuery 也很有用。 如果您沒有這些需求，而且使用者只需要查看每天 (或更少) 更新幾次的資料 (例如從公司資料倉儲)，則強烈建議使用匯入模式。 在 DirectQuery 模式中，使用者可能會嘗試重新整理報表，而不會意識到他們從來源中擷取完全相同的資料。      
 
 ## <a name="use-filters-to-limit-report-visuals-to-display-only-whats-needed"></a>使用篩選來限制報表視覺效果只顯示需要的項目 
 
@@ -57,7 +61,7 @@ ms.locfileid: "68665347"
 ## <a name="directquery-best-practices"></a>DirectQuery 最佳做法
 
 下節描述透過 DirectQuery 連線的一般最佳做法。
-  
+
 ### <a name="db-design-guidance"></a>資料庫設計指引
 
 - 盡可能地將計算結果欄和導出量值推送到來源。 與來源越接近，改善效能的可能性越高。

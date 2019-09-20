@@ -7,23 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/08/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513699"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841389"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教學課程：使用 Power BI Desktop 的 Facebook 分析
 
 在本教學課程中，您將了解如何從 Facebook 匯入資料，並用於 Power BI Desktop 中。 您將連線 Power BI Facebook 頁面並從中匯入資料、將轉換套用至匯入的資料，然後在報表視覺效果中使用資料。
 
+> [!WARNING]
+> 由於 Facebook 應用程式權限限制，此文章中所述的連接器功能目前無法正常運作。 我們正與 Facebook 合作，以盡快恢復此功能。
+
+
 ## <a name="connect-to-a-facebook-page"></a>連線至 Facebook 頁面
 
-本教學課程使用來自 [Microsoft Power BI Facebook 頁面](https://www.facebook.com/microsoftbi) ( *https://www.facebook.com/microsoftbi* ) 的資料。 除了個人的 Facebook 帳戶之外，您不需要任何特殊認證就能連線此頁面並從中匯出資料。
+本教學課程使用來自 [Microsoft Power BI Facebook 頁面](https://www.facebook.com/microsoftbi) ( *https://www.facebook.com/microsoftbi* ) 的資料。 除了個人的 Facebook 帳戶之外，您不需要任何特殊認證就能連線此頁面並匯入資料。
 
 1. 開啟 Power BI Desktop，接著在 [開始使用]  對話方塊中選取 [取得資料]  ，或在 [首頁]  功能區索引標籤中選取 [取得資料]  ，然後選取 [更多]  。
    
@@ -39,7 +43,7 @@ ms.locfileid: "65513699"
    
 4. 在 [使用者名稱]  文字方塊中輸入或貼上頁面名稱 **microsoftbi**、從 [連接]  下拉式清單中選取 [貼文]  ，然後選取 [確定]  。
    
-   ![連線](media/desktop-tutorial-facebook-analytics/2.png)
+   ![連接](media/desktop-tutorial-facebook-analytics/2.png)
    
 5. 當提示您輸入認證時，請登入您的 Facebook 帳戶，並允許 Power BI 存取您的帳戶。
    
@@ -104,7 +108,7 @@ ms.locfileid: "65513699"
    
 ### <a name="review-query-steps"></a>檢閱查詢步驟
 
-當您在 **Power Query編輯器**中使資料成形並轉換時，每個步驟都會記錄於 [Power Query 編輯器] 視窗右側 [查詢設定]  窗格的 [套用的步驟]  區域中。 您可以反向逐步執行「套用的步驟」，以確實查看您做了哪些變更，並視需要編輯、刪除或重新排列它們 (雖然這可能會有風險，因為變更前面的步驟可能中斷接下來的步驟)。 
+當您在 **Power Query 編輯器**中使資料成形並轉換時，每個步驟都會記錄於 [Power Query 編輯器] 視窗右側 [查詢設定]  窗格的 [套用的步驟]  區域中。 您可以反向逐步執行「套用的步驟」，以確實查看您做了哪些變更，並視需要編輯、刪除或重新排列它們 (雖然這可能會有風險，因為變更前面的步驟可能中斷接下來的步驟)。 
 
 套用資料轉換之後，套用的步驟看起來應該如下：
    
@@ -129,7 +133,7 @@ ms.locfileid: "65513699"
    
 ## <a name="use-the-data-in-report-visualizations"></a>在報表視覺效果中使用資料 
 
-現在您已從 Facebook 頁面載入資料，便可以使用視覺效果，快速且輕鬆地深入解析您的資料。 建立視覺效果很簡單；只要選取一個欄位，或將它從 [欄位]  清單拖曳至報表畫布即可。
+現在您已從 Facebook 頁面匯入資料，便可以使用視覺效果，快速且輕鬆地深入解析您的資料。 建立視覺效果很簡單；只要選取一個欄位，或將它從 [欄位]  清單拖曳至報表畫布即可。
 
 ### <a name="create-a-bar-chart"></a>建立橫條圖
 
@@ -187,7 +191,7 @@ ms.locfileid: "65513699"
 2. 在 Power Query 編輯器中，選取 **Number of comments** \(留言數目\) 資料行，並透過下列其中一種方式，將資料類型變更為**整數**： 
    - 選取 **Number of comments** \(留言數目\) 資料行標頭旁的 **1.2** 圖示，然後從下拉式清單中選取 [整數]  ，或者
    - 以滑鼠右鍵按一下資料行標頭，然後選取 [變更類型] > [整數]  ，或者
-   - 選取**資料型別：十進位數字**中**轉換**群組的 [首頁] 索引標籤中，或有**任何資料行**群組**轉換**索引標籤，然後選取**整個數字**。
+   - 選取 [資料類型:  十進位數字] \(在 [首頁] 索引標籤的 [轉換]  群組，或 [轉換]  索引標籤的 [任何資料行]  群組中\)，然後選取 [整數]  。
    
    資料行標頭中的圖示會變更為 **123**，表示整數資料類型。
    
@@ -234,7 +238,7 @@ ms.locfileid: "65513699"
 
 ![折線圖](media/desktop-tutorial-facebook-analytics/moreviz.png)
 
-Power BI Desktop 提供從頭到尾流暢的體驗，包括從各種資料來源取得資料、讓資料成形以符合您的分析需求，乃至於以豐富且互動的方式將此資料視覺化。 準備好報表之後，您可以[將其上傳至 Power BI 服務](desktop-upload-desktop-files.md)並依此建立儀表板，以便與與其他 Power BI 使用者共用。
+Power BI Desktop 提供從頭到尾流暢的體驗，包括從各種資料來源取得資料、讓資料成形以符合您的分析需求，乃至於以豐富且互動的方式將此資料視覺化。 準備好報表之後，您可以[將其上傳至 Power BI 服務](desktop-upload-desktop-files.md)並依此建立儀表板，以便與其他 Power BI 使用者共用。
 
 ## <a name="next-steps"></a>後續步驟
 * [閱讀其他 Power BI Desktop 教學課程](http://go.microsoft.com/fwlink/?LinkID=521937)

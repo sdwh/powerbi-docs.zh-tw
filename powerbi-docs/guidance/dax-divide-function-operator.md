@@ -1,20 +1,20 @@
 ---
 title: DAX：DIVIDE 函式與除法運算子 (/) 的比較
 description: 何時使用 DAX DIVIDE 函式的指引。
-author: guyinacube
+author: peter-myers
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/05/2019
+ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d22491ee314ebcebd4479c4e57dbfdf7a6a1ffdb
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 7516aaedb886e7b9e0f57ed76f0a7c5e40efbd6d
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70010429"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877849"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX：DIVIDE 函式與除法運算子 (/) 的比較
 
@@ -34,15 +34,15 @@ DIVIDE(<numerator>, <denominator> [,<alternateresult>])
 
 DIVIDE 函式已設計為自動處理除以零的案例。 如果未傳入替代結果，且分母為零或空白，則函式會傳回空白。 如果傳入替代結果，則會傳回該結果，而不是空白。
 
-DIVIDE 函式很方便，因為它會避免您的運算式必須先測試分母值。 此函式針對測試分母值的最佳化也比 [IF](/dax/if-function-dax) 函式更佳。 使用 DIVIDE 也會產生更精簡的運算式。
+DIVIDE 函式很方便，因為它會避免您的運算式必須先測試分母值。 此函式針對測試分母值的最佳化也比 [IF](/dax/if-function-dax) 函式更佳。 效能增益很明顯，因為檢查除數為零的代價很昂貴。 使用 DIVIDE 也會產生更精簡的運算式。
 
 ## <a name="example"></a>範例
 
-下列量值運算式會產生安全的除法，但它牽涉到使用三個 DAX 函式。
+下列量值運算式會產生安全的除法，但它牽涉到使用四個 DAX 函式。
 
 ```dax
 
-=IF(ISBLANK([Sales]) || [Sales] = 0, BLANK(), [Profit] / [Sales])
+=IF(OR(ISBLANK([Sales]), [Sales] == 0), BLANK(), [Profit] / [Sales])
 
 ```
 

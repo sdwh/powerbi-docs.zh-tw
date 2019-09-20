@@ -1347,13 +1347,21 @@
               href: service-gateway-mashup-on-premises-cloud.md
         - name: 啟用單一登入 (SSO)
           items:
-            - name: 單一登入 (SSO) - 概觀
+            - name: SSO 概觀
               href: service-gateway-sso-overview.md
-            - name: 單一登入 (SSO) - Kerberos
-              href: service-gateway-sso-kerberos.md
-            - name: 單一登入 (SSO) - Kerberos - 以資源為基礎
-              href: service-gateway-sso-kerberos-resource.md
-            - name: 單一登入 (SSO) - SAML
+            - name: 以 Kerberos 為基礎的 SSO
+              items:
+                - name: 設定以 Kerberos 為基礎的 SSO
+                  href: service-gateway-sso-kerberos.md
+                - name: 資源來源專屬設定
+                  items:
+                    - name: SAP HANA
+                      href: service-gateway-sso-kerberos-sap-hana.md
+                    - name: SAP BW - sapcrypto.dll (Common Crypto Library)
+                      href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                    - name: SAP BW - gx64krb5.dll 和 gsskrb5.dll
+                      href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
+            - name: 以 SAML 為基礎的 SSO
               href: service-gateway-sso-saml.md
         - name: 閘道疑難排解
           href: service-gateway-onprem-tshoot.md

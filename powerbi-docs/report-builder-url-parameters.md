@@ -8,13 +8,13 @@ ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
-ms.date: 08/29/2019
-ms.openlocfilehash: bda35bfb4690d8109f7bd611e3d319278d235f33
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.date: 09/10/2019
+ms.openlocfilehash: e2a325a8a59b35ad1fcd477fd2d0891b3591ee88
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302664"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877827"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI 編頁報表中的 URL 參數
 
@@ -27,7 +27,7 @@ ms.locfileid: "70302664"
 - 隱藏或檢視參數窗格。 
 - 指定 DeviceInfo 設定。 
 
-如需可透過 URL 存取使用的命令和設定完整清單，請參閱此文章稍後的  [URL 存取參數參考](#url-access-parameter-reference)。 
+如需可透過 URL 存取使用的命令和設定完整清單，請參閱本文稍後的  [URL 存取參數參考](#url-access-parameter-reference)。 
 
 ## <a name="url-access-concepts"></a>URL 存取概念 
 
@@ -49,7 +49,7 @@ Power BI 租用戶的 Web 服務 URL。 例如：
 
 **&** ：用來分隔 URL 存取參數的名稱/值對。
 
-**前置詞**：URL 參數的前置詞 (例如 rp: 或  rdl:)，可指定 Power BI 服務中的動作。 
+**前置詞**：URL 參數的前置詞 (例如rp: 或 rdl)，可指定 Power BI 服務中的動作。 
 
 > [!NOTE]
 > 報表參數需要參數前置詞，且會區分大小寫。 
@@ -68,7 +68,8 @@ Power BI 租用戶的 Web 服務 URL。 例如：
 
 ### <a name="report-commands-rdl"></a>報表命令 (`rdl:`) 
 
-**匯出格式**：指定用來轉譯和匯出報表的格式。 可用值為： 
+**匯出格式**：指定用來轉譯和匯出報表的格式。 可用值為：
+ 
 - PPTX (PowerPoint)
 - MHTML 
 - 影像 
@@ -77,6 +78,79 @@ Power BI 租用戶的 Web 服務 URL。 例如：
 - CSV 
 - PDF 
 - XML 
+
+**裝置資訊** 您可以為下列匯出格式指定額外的輸出參數。 
+
+PDF：
+
+- rdl:AccessiblePDF=true/false
+- rdl:Columns=integer
+- rdl:ColumnSpacing=decimal(in)
+- rdl:DpiX=integer
+- rdl:DpiY=integer
+- rdl:EndPage=integer
+- rdl:HumanReadablePDF=true/false
+- rdl:MarginBottom=decimal(in)
+- rdl:MarginLeft=decimal(in)
+- rdl:MarginRight=decimal(in)
+- rdl:MarginTop=decimal(in)
+- rdl:PageHeight=decimal(in)
+- rdl:PageWidth=decimal(in)
+    - rdl:StartPage=integer
+    
+CSV：
+
+- rdl:Encoding=string
+- rdl:ExcelMode=true/false
+- rdl:FieldDelimiter=string
+- rdl:FileExtension=string
+- rdl:NoHeader=true/false
+- rdl:Qualifier=string
+- rdl:RecordDelimiter=string
+- rdl:SuppressLineBreaks=true/false
+    - rdl:UseFormattedValues=true/false
+    
+WORDOPENXML (WORD)：
+
+- rdl:AutoFit=string -> True/False/Never/Default
+- rdl:ExpandToggles=true/false
+- rdl:FixedPageWidth=true/false
+- rdl:OmitHyperlinks=true/false
+- rdl:OmitDrillthroughs=true/false
+
+EXCELOPENXML (EXCEL)：
+
+- rdl:OmitDocumentMap=true/false
+- rdl:OmitFormulas=true/false
+    - rdl:SimplePageHeaders=true/false
+    
+PPTX (PowerPoint)：
+ 
+- rdl:Columns=integer
+- rdl:ColumnSpacing=decimal(in)
+- rdl:DpiX=integer
+- rdl:DpiY=integer
+- rdl:EndPage=integer
+- rdl:MarginBottom=decimal(in)
+- rdl:MarginLeft=decimal(in)
+- rdl:MarginRight=decimal(in)
+- rdl:MarginTop=decimal(in)
+- rdl:PageHeight=decimal(in)
+- rdl:PageWidth=decimal(in)
+- rdl:StartPage=integer
+    - rdl:UseReportPageSize=true/false
+
+XML：
+
+- rdl:XSLT=string
+- rdl:MIMEType=string
+- rdl:UseFormattedValues=true/false
+- rdl:Indented=true/false
+- rdl:OmitNamespace=true/false
+- rdl:OmitSchema=true/false
+- rdl:Encoding=string
+- rdl:FileExtension=string
+- rdl:Schema=true/false
 
 ## <a name="next-steps"></a>後續步驟
 

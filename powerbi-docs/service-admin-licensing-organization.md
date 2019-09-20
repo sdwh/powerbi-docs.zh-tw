@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 003d179902ad3eeb5dc6dea841936a217a292d0c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c5a3b2b3e74d636f8d9af75e4c84b7fd61bd2139
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65099808"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877883"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>組織中的 Power BI 授權
 
@@ -31,11 +31,11 @@ ms.locfileid: "65099808"
 
 您透過 Microsoft Office 365 或透過認證的 Microsoft 合作夥伴，來購買 Power BI Pro 授權。 購買授權之後，請將它們指派給個別使用者。 如需詳細資訊，請參閱[購買及指派 Power BI Pro 授權](service-admin-purchasing-power-bi-pro.md)。
 
-### <a name="power-bi-pro-license-expiration"></a>Power BI Pro 授權到期日
+### <a name="power-bi-pro-license-expiration"></a>Power BI Pro 授權到期
 
 在 Power BI Pro 授權到期後有寬限期。 若是屬於大量授權購買的授權，寬限期為 90 天。 如果您直接購買授權，則寬限期會是 30 天。
 
-Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳細資訊，請參閱 <<c0> [ 我的 Office 365 商務訂用帳戶結束時，我的資料和存取會發生什麼事？](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)。
+Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳細資訊，請參閱[當商務用 Office 365 訂閱結束時，我的資料與存取權會發生什麼情況？](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3) \(部分機器翻譯\)。
 
 ### <a name="power-bi-pro-trial-for-individuals"></a>Power BI Pro 個人試用版
 
@@ -125,7 +125,7 @@ Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳
 
 身為系統管理員，您可以選擇透過 Azure Active Directory (AAD) 啟用或停用個人使用者註冊。 文章的本節會示範如何使用 PowerShell 命令管理註冊。 如需 Azure PowerShell 的詳細資訊，請參閱 [Azure PowerShell 概觀](/powershell/azure/overview)。
 
-控制註冊的 AAD 設定為**AllowAdHocSubscriptions**。 在大多數的租用戶，此會設定為 *true*，表示已啟用此設定。 如果您透過合作夥伴取得 Power BI，這可能設為 *false*，表示已停用此設定。 如果您將設定從 *true* 變更為 *false*，則組織中的新使用者會遭到封鎖，無法以個人身分註冊。 在設定變更前已註冊 Power BI 的使用者，會保留其授權。
+控制註冊的 Azure AD 設定為 **AllowAdHocSubscriptions**。 在大多數的租用戶，此會設定為 *true*，表示已啟用此設定。 如果您透過合作夥伴取得 Power BI，這可能設為 *false*，表示已停用此設定。 如果您將設定從 *true* 變更為 *false*，則組織中的新使用者會遭到封鎖，無法以個人身分註冊。 在設定變更前已註冊 Power BI 的使用者，會保留其授權。 請注意，設定為 *false* 時，使用者仍可以註冊 Pro 試用版。
 
 1. 使用 Office 365 認證登入 Azure Active Directory。 下列 PowerShell 指令碼的第一行會提示您輸入您的認證。 第二行連接到 Azure Active Directory。
 
@@ -136,7 +136,7 @@ Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳
 
    ![Azure Active Directory 登入](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. 當您登入之後，請執行下列命令，查看租用戶目前的設定情形。 （請注意 'fl' 下，使用字母 'l'，而不是數字 1）。
+1. 當您登入之後，請執行下列命令，查看租用戶目前的設定情形。 (請注意，下面的 'fl' 使用字母 'l'，不是數字 1。)
 
     ```powershell
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 

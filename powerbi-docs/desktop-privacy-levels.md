@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 05/08/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c522a9e6c40f4164ee82675c40c3110b174d017
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d3405a434c8b3add7bb39f20d5aa65e066e4b73d
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513916"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841340"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop 隱私權等級
 在 **Power BI Desktop** 中，隱私權等級會指定某個資料來源與其他資料來源隔離程度的隔離等級。 雖然嚴格的隔離等級能夠阻擋資料來源交換資訊，卻可能會降低功能並影響效能。
@@ -52,7 +52,7 @@ ms.locfileid: "65513916"
 | \[根據您每個來源的隱私權等級設定合併資料]  \(開啟，預設設定) |合併資料時使用隱私權等級設定決定資料來源的隔離等級。 |
 | \[忽略隱私權等級可能會改善效能]  \(關閉) |合併資料時不考慮隱私權等級，但可能會提高資料的效能和功能。 |
 
-> **安全性注意事項：** 在 [隱私權等級]  對話方塊中選取 [忽略隱私權等級可能會改善效能]  以啟用 [隱私權等級]  ，可能會將敏感或機密資料暴露給未經授權的人員。 除非確定資料來源不包含敏感或機密資料，否則請勿啟用 [隱私權等級]  。
+> **安全性注意事項：** 在 [隱私權等級]  對話方塊中選取 [忽略隱私權等級可能會改善效能]  ，可能會將敏感或機密資料暴露給未經授權的人員。 除非確定資料來源不包含敏感或機密資料，否則請勿「關閉」  此設定。
 > 
 > 
 
