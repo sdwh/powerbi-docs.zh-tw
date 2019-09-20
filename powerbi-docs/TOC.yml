@@ -269,6 +269,8 @@
               href: desktop-inline-hierarchy-labels.md
             - name: 使用數字範圍交叉分析篩選器
               href: desktop-slicer-numeric-range.md
+            - name: 使用相對日期交叉分析篩選器
+              href: desktop-slicer-filter-date-range.md
             - name: 建立可以調整大小的交叉分析篩選器
               href: power-bi-slicer-filter-responsive.md
             - name: 建立 Cortana 的自訂回應卡
@@ -587,7 +589,7 @@
               href: service-report-save.md
             - name: 在編輯檢視中與報表互動
               href: service-interact-with-a-report-in-editing-view.md
-            - name: 在 Excel 中分析
+            - name: 在 Excel 中進行分析
               href: service-analyze-in-excel.md
             - name: 建立報表的祕訣和訣竅
               href: power-bi-reports-tips-and-tricks-for-creating.md
