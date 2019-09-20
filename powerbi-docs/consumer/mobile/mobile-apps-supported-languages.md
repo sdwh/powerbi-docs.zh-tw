@@ -9,15 +9,15 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 8a6ee2e16b5c5190c969c6017101257f331775f9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 97fa91dda195d6976d92b027a0f96fca8e2ccea1
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269364"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841413"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Power BI 行動裝置應用程式中支援的語言
-Power BI 行動裝置應用程式目前支援下列語言：
+Power BI 行動裝置應用程式目前支援這些語言：
 
 * 阿拉伯文 (僅限 iOS)
 * 卡達隆尼亞 - català
@@ -61,5 +61,5 @@ Power BI 行動裝置應用程式目前支援下列語言：
 ## <a name="next-steps"></a>後續步驟
 * [Power BI 支援的語言和國家/地區](../../supported-languages-countries-regions.md)
 * 有問題嗎？ 請嘗試詢問 [Power BI 社群](http://community.powerbi.com/)。
-* 仍有問題嗎？ 請前往 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
+* 仍有問題嗎？ 瀏覽 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
 

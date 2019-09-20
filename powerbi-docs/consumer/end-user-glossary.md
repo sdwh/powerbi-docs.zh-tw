@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751016"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903666"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」  及其連線方式的高階概觀。
@@ -60,14 +60,19 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **calculation (計算)** ：一項事物大小或數量的數學判定。
 
+**card (卡片)** ：(視覺效果類型) Power BI [視覺效果類型](end-user-visual-type.md)。
+
+**card (卡片)** ：(Power BI 首頁) Power BI 首頁會顯示矩形和正方形圖片，代表儀表板、報表、應用程式等。 這些圖片稱為「卡片 (card)」  。
+
 **certified custom visual (認證自訂視覺效果)** ：滿足需求並通過嚴格安全性測試的 Power BI 自訂視覺效果。
 
 **classification (分類)** ：也稱為資料分類。 此選項可由 Power BI 系統管理員開啟，引起對儀表板所需安全性層級的重視。 分類類型可由組織自訂。
 
 **connect live (即時連接)** ：一種連線到 SQL Server Analysis Services 資料模型的方法。 也稱為即時連線。
 
-**content (內容)**
+**container (容器)** ：「容器 (container)」  是導覽列上的區域。 在導覽列中，您可以找到下列項目的容器：我的最愛、最近、應用程式、與我共用和首頁。 
 
+**content (內容)** ：Power BI 服務的內容通常是儀表板、報表和應用程式。 也可以包含活頁簿和資料集。
 
 **content list (內容清單)** ：應用程式的內容索引。
 
@@ -109,7 +114,8 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **Editing View (編輯檢視)** ：模式，其中報表「設計師」  可探索、設計、建置及共用報表。
 
-**ellipsis (省略符號)** ...
+**ellipsis (省略符號)** ...    
+：選取省略符號會顯示額外的功能表選項。
 
 **embed code (內嵌程式碼)** ：網際網路上的通用標準。 在 Power BI 中，客戶可以產生內嵌程式碼並複製它，以將內容 (例如報表視覺效果) 放置在網站或部落格上。
 
@@ -158,7 +164,8 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 ## <a name="l"></a>L
 
-**left navigation (left nav) (左側導覽 (左導覽))** ：沿著 Power BI 服務左側邊緣的控制項。
+**left navigation (左側導覽)** ：此項目已由**導覽列 (nav bar)** 取代，但可能仍會出現在某些檔中。    
+沿著 Power BI 服務左側邊緣的控制項。
 
 第一個執行個體：「左側導覽」後續提及或空間狹小時：「左導覽」
 
@@ -176,7 +183,11 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **native (原生)** ：隨附於產品。 例如，Power BI 隨附一組「原生」  視覺效果類型。 但是，您也可以匯入其他類型 (像是自訂視覺效果)。
 
-**navigation pane (瀏覽窗格)** ：請參閱**左側導覽**
+**navigation bar (導覽列)** 或 **nav bar (導覽列)** ：沿著 Power BI 服務左側邊緣的控制項。
+
+第一次出現：導覽列 (navigation bar)，後續提及或空間狹小時：導覽列 (nav bar)
+
+**navigation pane (瀏覽窗格)** ：請參閱**導覽列 (navigation bar)**
 
 **notification (通知)** ：由 Power BI 通知中心傳送或傳送到通知中心的訊息。  
 

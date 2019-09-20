@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391721"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903793"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>在適用於「取用者」  的 Power BI 服務中檢視報表
 報表是一或多頁的視覺效果。 報表是由 Power BI「設計師」  所建立，並[直接與「取用者」  共用](end-user-shared-with-me.md)，或作為[應用程式](end-user-apps.md)的一部分共用。 
@@ -30,7 +30,7 @@ ms.locfileid: "70391721"
    ![首頁](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>開啟已與您共用的報表
-Power BI「設計師」  可以透過電子郵件中的連結與您直接共用個別報表，或是將它新增至您的 Power BI 首頁。 以這種方式共用的內容會顯示在導覽列上 [與我共用]  容器中，以及 [首頁] 畫布的 [與我共用]  區段中。
+Power BI「設計師」  可以透過電子郵件中的連結或自動新增報表，來與您直接共用個別報表。 以這種方式共用的內容會顯示在導覽列上 [與我共用]  容器中，以及 [首頁] 畫布的 [與我共用]  區段中。
 
 1. 開啟 Power BI 服務 (app.powerbi.com)。
 
@@ -50,6 +50,12 @@ Power BI「設計師」  可以透過電子郵件中的連結與您直接共用�
 
    ![報表頁面索引標籤](./media/end-user-report-open/power-bi-ytd.png)
 
+6. 請注意右邊的 [篩選]  窗格。 已套用到此報表頁面或整個報表的篩選會顯示在這裡。
+
+7. 將滑鼠停留在報表視覺效果上會顯示數個圖示和省略符號 (...)。若要查看套用至特定視覺效果的篩選，請選取篩選圖示。 在這裡，我們已選取 [依連續期間和區域的總單位]  折線圖的篩選圖示。
+
+   ![報表頁面索引標籤](./media/end-user-report-open/power-bi-visual-filters.png)
+
 6. 現在，我們會看到整個報表頁面。 若要變更頁面的顯示 (縮放)，請選取右上角的 [檢視] 下拉式清單，然後選擇 [實際大小]  。
 
    ![變更縮放](./media/end-user-report-open/power-bi-fit-new.png)
@@ -59,21 +65,26 @@ Power BI「設計師」  可以透過電子郵件中的連結與您直接共用�
 ### <a name="open-a-report-that-is-part-of-an-app"></a>開啟應用程式中的報表
 如果您收到了來自同事或 AppSource 的應用程式，則這些應用程式可從 [首頁] 及導覽列上的 [應用程式]  容器中開啟。 [應用程式](end-user-apps.md)是儀表板和報表的組合。
 
+### <a name="prerequisites"></a>先決條件
+若要跟著做，請下載「銷售與行銷」應用程式。
+1. 在您的瀏覽器中，瀏覽至 appsource.microsoft.com。
+1. 搜尋 "Sales and Marketing"，然後選取 [Microsoft sample - Sales & Marketing]  。
+1. 選取 [立即取得]   > [繼續]   > [安裝]  ，將應用程式安裝在您的應用程式容器中。 
+
+您可以從您的 [應用程式] 容器或從 [首頁] 開啟該應用程式。
 1. 若要返回 [首頁]，請從導覽列中選取 [首頁]  。
 
 7. 向下捲動，直到您看到**我的應用程式**為止。
 
-   ![首頁](./media/end-user-report-open/power-bi-my-apps.png)
+   ![首頁](./media/end-user-report-open/power-bi-app.png)
 
-8. 選取其中一個應用程式加以開啟。 根據應用程式「設計者」  所設定的選項，應用程式將會開啟儀表板或報表。 若選取應用程式：
-    - 會開啟報表，您已萬事俱備。
-    - 會開啟儀表板，請參閱下方的***從儀表板開啟報表***。
+8. 選取您的新「銷售與行銷」應用程式來開啟它。 根據應用程式「設計者」  所設定的選項，應用程式將會開啟儀表板或報表。 此應用程式會開啟儀表板。  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>從儀表板開啟報表
 您可以從儀表板開啟報表。 大部分的儀表板[磚](end-user-tiles.md)都是從報表「釘選」  而來。 選取磚會開啟用來建立磚的報表。 
 
-1. 從儀表板選取磚。 在此範例中，我們已選取 [總單位 YTD...] 直條圖磚。
+1. 從儀表板選取圖格。 在此範例中，我們已選取 [總單位 YTD...] 直條圖磚。
 
     ![已選取磚的儀表板](./media/end-user-report-open/power-bi-dashboard.png)
 
@@ -94,5 +105,6 @@ Power BI「設計師」  可以透過電子郵件中的連結與您直接共用�
 - 以及更多
 
 ## <a name="next-steps"></a>後續步驟
-[開啟並檢視儀表板](end-user-dashboard-open.md)
+[開啟並檢視儀表板](end-user-dashboard-open.md)    
+[報表篩選](end-user-report-filter.md)
 

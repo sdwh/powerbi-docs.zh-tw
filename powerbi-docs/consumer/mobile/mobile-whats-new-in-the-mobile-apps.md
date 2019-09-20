@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
-ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
+ms.openlocfilehash: 5697fd79551d238f095696dcc940afb8ea330d11
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2019
-ms.locfileid: "70030169"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841383"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -25,7 +25,15 @@ ms.locfileid: "70030169"
 
 ## <a name="august-2019"></a>2019 年 8 月
 
-### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>保護 Azure Active Directory (AD) 應用程式 Proxy 的存取安全
+### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Power BI 行動版新外觀 (預覽) 的簡介 (iOS 和 Android)
+
+我們已重新整理應用程式並引進新的體驗、新增可快速存取常用內容的首頁，以及讓您輕鬆瀏覽應用程式的新導覽列。 使用全新且重新整理的體驗，您現在可以更快速且更輕鬆地找到所需的內容。
+由於新外觀處於預覽狀態，因此您必須開啟它才能使用。
+閱讀更多 [Power BI 行動版新外觀](https://powerbi.microsoft.com/blog/introducing-power-bi-mobile-apps-new-look-preview/) \(英文\) 的內容。
+
+![Power BI 行動版新外觀](./media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-new-look2.gif)
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>保護 Azure Active Directory (AD) 應用程式 Proxy 的存取安全 (iOS 和 Android)
 
 我們與 Azure Active Directory 團隊合作，整合了 Power BI 行動應用程式與 Azure Active Directory (AAD) 應用程式 Proxy。 使用此設定您可以從 Power BI 行動應用程式，連線到企業範圍內部裝載的報表伺服器，省去設定複雜內部部署麻煩。 請參閱 [Power BI mobile and Azure AD Application Proxy integration](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) (Power BI 行動應用程式與 Azure AD 應用程式 Proxy 整合) 中的詳細資訊。 了解[如何設定 Azure AD 應用程式 Proxy 與 Power BI](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
 
@@ -36,7 +44,7 @@ ms.locfileid: "70030169"
 現在，在您的行動裝置應用程式中檢視報表時，支援報表頁面工具提示。 只要長按視覺效果，就會顯示與其相關聯的報表工具提示。  
 
 ![報表畫布工具提示](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
-
+ 
 > [!NOTE]
 > 大於 640 像素和 320 檢視區的裝置支援報表工具提示。 較小型的裝置會使用預設工具提示。
 
