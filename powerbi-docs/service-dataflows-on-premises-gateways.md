@@ -10,22 +10,19 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 82c8bbb5361730b306cacd14dc9598ca12035027
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 81dfc6961ff0c00b609f98e50da3532a230cf26d
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61136123"
 ---
-# <a name="using-dataflows-with-on-premises-data-sources-preview"></a>搭配內部部署資料來源使用資料流程 (預覽)
+# <a name="using-dataflows-with-on-premises-data-sources"></a>搭配內部部署資料來源使用資料流程
 
 利用**資料流程**，您就能從各種來源建立資料集合、清除資料、轉換它，然後將它載入至 Power BI 儲存體。 建立資料流程時，您可能想要使用內部部署資料來源。 此文章將釐清與建立資料流程相關聯的需求，以及應該如何設定您的**企業閘道**來啟用那些連線。
 
 ![資料流程和閘道](media/service-dataflows-onpremises-gateways/onpremises-gateways_01.png)
 
-> [!NOTE]
-> 資料流程功能目前處於預覽狀態，而且可能會在公開上市之前有所變更及更新。
- 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>設定企業閘道以與資料流程搭配使用
 
 若要在資料流程中使用內部部署資料來源，所有建立該資料流程的使用者都必須安裝並設定**企業閘道**。 建立資料流程的使用者也必須是企業閘道的管理員，才能針對資料流程使用該閘道。
@@ -79,9 +76,9 @@ ms.locfileid: "54276460"
 此文章提供了如何針對資料流程使用內部部署資料來源，以及如何使用和設定閘道來存取這類資料的相關資訊。 下列文章可能也很實用
 
 * [使用資料流程的自助資料準備](service-dataflows-overview.md)
-* [建立 Power BI 中的資料流程](service-dataflows-create-use.md)
-* [使用 Power BI Premium 上的計算實體 (預覽)](service-dataflows-computed-entities-premium.md)
-* [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
+* [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
+* [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
+* [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 
 如需 Power Query 和排程重新整理的詳細資訊，您可以閱讀下列文章：
 * [Power BI Desktop 中的查詢概觀](desktop-query-overview.md)

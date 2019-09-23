@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 08/29/2019
-ms.openlocfilehash: 0755b41fbeef1f62d2722e3529007dc4f8773634
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.date: 09/13/2019
+ms.openlocfilehash: d2c0ab82a3b262a975c461a4414ed7fd3b1bc060
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186072"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075892"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
 
@@ -23,7 +23,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 
 ## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Power BI 報表伺服器和 Power BI 服務的功能
 
-| 功能 | Power BI 報表伺服器 | Power BI 服務 | 注意 |
+| 功能 | Power BI 報表伺服器 | Power BI 服務 | 備忘稿 |
 |---------|---------|---------|---------|
 | 部署 | 內部部署或雲端託管 | 雲端 | 如果透過 Power BI Premium 授權，Power BI 報表伺服器可以部署在 Azure VM (雲端託管) 中 |
 | 來源資料 | 雲端及/或內部部署 | 雲端及/或內部部署 |  |
@@ -40,11 +40,11 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 連線到服務 (例如 Salesforce) | 是 | 是 | 在 Power BI 服務中，使用內容套件[連線至您所使用的服務](../service-connect-to-services.md)。 在 Power BI 報表伺服器中，請使用經認證的連接器來連線至服務。 如需詳細資料，請參閱 [Power BI 報表伺服器中的 Power BI 報表資料來源](data-sources.md)。 |
 | 問與答 | 否 | 是 | [Power BI 服務和 Power BI Desktop 中的問與答](../power-bi-tutorial-q-and-a.md) 
 | 深入資訊摘要 | 否 | 是 | [使用 Power BI 自動產生資料的見解](../consumer/end-user-insights.md) |
-| 在 Excel 中分析 | 否 | 是 | [使用 Excel 分析](../service-analyze-in-excel.md) 
+| 在 Excel 中進行分析 | 否 | 是 | [使用 Excel 分析](../service-analyze-in-excel.md) 
 | 編頁報表 | 是 | 是 | Premium 容量的預覽版中，[可於 Power BI 服務內使用編頁的報表](../paginated-reports-report-builder-power-bi.md) |
 | Power BI 行動應用程式 | 是 | 是 | [Power BI 行動裝置應用程式概觀](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS 地圖 | 否 | 是 | [Power BI 服務及 Power BI Desktop 中由 Esri 提供的 ArcGIS 地圖](../visuals/power-bi-visualization-arcgis.md) |
-| Power BI 報表的電子郵件訂用帳戶 | 是 | 是 | [為您自己或其他人訂閱](../service-report-subscribe.md) Power BI 服務中的報表或儀表板 |
+| Power BI 報表的電子郵件訂用帳戶 | 否 | 是 | [為您自己或其他人訂閱](../service-report-subscribe.md) Power BI 服務中的報表或儀表板 |
 | 編頁報表的電子郵件訂用帳戶 | 是 | 是 | [為您自己和其他人訂閱 Power BI 服務中的編頁報表](../paginated-reports-subscriptions.md)<br><br>[Reporting Services 中的電子郵件傳遞](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
 | 資料警示 | 否 | 是 | Power BI 服務中的[資料警示](../service-set-data-alerts.md)
 | 資料列層級安全性 (RLS) | 是 | 是 | DirectQuery (資料來源) 與匯入模式中皆可使用 <br><br>[Power BI 服務](../service-admin-rls.md)中的資料列層級安全性 <br><br>[Power BI 報表伺服器](row-level-security-report-server.md)中的資料列層級安全性 |
@@ -57,4 +57,4 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 
 ## <a name="next-steps"></a>後續步驟
 
-[安裝 Power BI 報表伺服器](install-report-server.md)  
+[安裝 Power BI 報表伺服器](install-report-server.md)

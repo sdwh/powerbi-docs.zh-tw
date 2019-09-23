@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 6e425f146228d0139b9eec914a44ed5dc732fe98
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514775"
@@ -33,7 +33,7 @@ ms.locfileid: "65514775"
 >  - 漏斗圖
 >  - 地圖
 >  - 圓形圖
->  - 矩形式樹狀結構圖
+>  - 樹狀圖
 
 ## <a name="use-see-data-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 [查看資料]
 

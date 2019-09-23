@@ -11,7 +11,7 @@ ms.topic: tutorial
 ms.date: 11/21/2018
 ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61379556"
@@ -211,7 +211,7 @@ ms.locfileid: "61379556"
 
 6. 儲存 **pbiviz.json** 檔案。
 
-7. 在 **assets** 物件中，注意文件會定義圖示的路徑。 此圖示是顯示在 [視覺效果]   窗格中的影像。 它必須是 **PNG** 檔案，20 x 20 像素  。
+7. 在 **assets** 物件中，注意文件會定義圖示的路徑。 此圖示是顯示在 [視覺效果]  窗格中的影像。 它必須是 **PNG** 檔案，20 x 20 像素  。
 
 8. 在 Windows 檔案總管中，複製 icon.png 檔案，然後貼入到 assets 資料夾以取代其中的預設檔案。
 
@@ -239,7 +239,7 @@ ms.locfileid: "61379556"
 
 1. 開啟 **Power BI Desktop**，使用任何範例資料集  建立新的報表
 
-2. 在 [視覺效果]   窗格中，選取省略符號  ，然後選取 [從檔案匯入]  。
+2. 在 [視覺效果]  窗格中，選取省略符號  ，然後選取 [從檔案匯入]  。
 
     ![新增自訂效果到 Desktop](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
@@ -251,7 +251,7 @@ ms.locfileid: "61379556"
 
 6. 當視覺效果成功匯入之後，選取 [確定]  。
 
-7. 確認視覺效果已新增到 [視覺效果]   窗格。
+7. 確認視覺效果已新增到 [視覺效果]  窗格。
 
     ![在 PBI Desktop 視覺效果窗格中檢視](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
