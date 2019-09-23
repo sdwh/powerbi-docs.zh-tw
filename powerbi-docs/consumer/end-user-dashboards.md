@@ -12,10 +12,10 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608347"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Power BI 服務取用者的儀表板
@@ -24,7 +24,7 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 
 ![儀表板](media/end-user-dashboards/power-bi-dashboard2.png)
 
-呼叫您在儀表板看到的視覺效果*圖格*而且*釘選*依報表的儀表板*設計工具*。 在大部分情況下，選取磚帶您前往報表頁面建立視覺效果的位置。 如果您不熟悉 Power BI，請參閱 [Power BI 基本概念](end-user-basic-concepts.md)來打好基礎。
+您在儀表板上看到的視覺效果稱為「磚」  ，且報表「設計師」  釘選  在儀表板上。 在大部分的情況下，選取磚會帶您前往建立視覺效果的報表頁面。 如果您不熟悉 Power BI，請參閱 [Power BI 基本概念](end-user-basic-concepts.md)來打好基礎。
 
 > [!NOTE]
 > 儀表板可以[在行動裝置上檢視及共用](mobile/mobile-apps-view-dashboard.md)。
@@ -39,7 +39,7 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 ## <a name="advantages-of-dashboards"></a>儀表板的優點
 儀表板是很棒的方式，一眼就可以監視企業、尋找答案以及查看所有最重要的指標。 儀表板上的視覺效果可能來自一或多個基礎資料集，以及來自一或多份基礎報表。 儀表板可將內部部署和雲端的資料結合在一起，提供不受資料位置限制的合併檢視。
 
-儀表板不只是好看的圖片。它是互動式以及磚更新會隨著基礎資料變更。
+儀表板不只是張好看的圖，而是具有互動性，且磚會隨著基礎資料變更而更新。
 
 ## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>適用於 Power BI ***取用者***的儀表板與報告
 報表經常與儀表板相混淆，因為它們也是填滿視覺效果的畫布。 但從 Power BI *取用者*的觀點來看，仍有一些主要差異。

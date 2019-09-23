@@ -12,14 +12,14 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: cd0b680265d526ecf7adbf4db8c54b77535eadf8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608452"
 ---
 # <a name="view-a-dashboard"></a>檢視儀表板
-Power BI*取用者*花費大量時間檢視儀表板。 儀表板的目的是從醒目提示基礎報表和資料集中的特定資訊。 而 Power BI 取用者使用該資訊來追蹤、監控、回答問題、測試等，以制定資料驅動的商務決策。
+Power BI「取用者」  花費大量時間檢視儀表板。 儀表板的目的是從醒目提示基礎報表和資料集中的特定資訊。 而 Power BI 取用者使用該資訊來追蹤、監控、回答問題、測試等，以制定資料驅動的商務決策。
 
 ![儀表板](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
@@ -32,7 +32,7 @@ Power BI*取用者*花費大量時間檢視儀表板。 儀表板的目的是從
 
 |              |         |
 |------------|--------------------------------|
-|![儀表板圖示](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |可以從 Power BI 服務中的許多位置開啟儀表板。 <br> 只尋找此儀表板圖示。 一旦找到 <br>儀表板，要開啟它很簡單 - 只要選取它，儀表板就會填滿 <br>您的 Power BI 畫布。 |
+|![儀表板圖示](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |您可以從 Power BI 服務中的許多位置開啟儀表板。 <br> 只尋找此儀表板圖示。 一旦找到 <br>儀表板，要開啟它很簡單 - 只要選取它，儀表板就會填滿 <br>您的 Power BI 畫布。 |
 |                    |          |
 
 
