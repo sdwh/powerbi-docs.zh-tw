@@ -13,10 +13,10 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61049073"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>使用 Power BI 在儀表板圖格上檢視資料見解
@@ -59,7 +59,7 @@ ms.locfileid: "61049073"
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 - **檢視見解**不適用於 DirectQuery，而僅適用於上傳至 Power BI 的資料。
-- **檢視見解**並不適用於所有類型的儀表板磚。 比方說，它不適用於自訂視覺效果。<!--[custom visuals](end-user-custom-visuals.md)-->
+- **檢視見解**並不適用於所有類型的儀表板磚。 例如，它不適用於自訂視覺效果。<!--[custom visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>後續步驟

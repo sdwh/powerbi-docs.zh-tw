@@ -9,15 +9,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/30/2019
+ms.date: 09/16/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 2796b29ee553ece77846f5edc8af4b2523fd48c6
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: d09ada0d3309a9cb2b93a8cd4fa3d6740e69ba77
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522806"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073540"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>將註解新增至儀表板或報表
 新增個人註解，或是和您的同事開始儀表板或報表相關交談。 **註解**功能只是「取用者」  可與其他人共同作業的其中一種方法。 
@@ -25,16 +25,18 @@ ms.locfileid: "68522806"
 ![註解影片](media/end-user-comment/comment.gif)
 
 ## <a name="how-to-use-the-comments-feature"></a>如何使用註解功能
-註解可以新增至整個儀表板、儀表板上的個別視覺效果、報表頁面，以及報表頁面上的個別視覺效果。 請新增一般註解或鎖定特定同事的註解。  
+可以新增註解至整個儀表板、儀表板上的個別視覺效果、報表頁面、編頁報表，以及報表頁面上的個別視覺效果。 請新增一般註解或鎖定特定同事的註解。  
 
 當您將註解新增至報表時，Power BI 會擷取目前的篩選和交叉分析篩選器的值。 這表示當您選取或回應註解時，報表頁面或報表視覺效果可能會變更，以顯示第一次新增註解時，使用中的篩選和交叉分析篩選器選取項目。  
 
 ![使用篩選的報表影片](media/end-user-comment/comment-reports-with-filters/comment-reports-with-filters.gif)
 
-為什麼這很重要？ 假設有一位同事套用了篩選，以顯示他們想要與小組共用的有趣見解。 若未選取該篩選，註解可能沒有意義。 
+為什麼這很重要？ 假設有一位同事套用了篩選，以顯示他們想要與小組共用的有趣見解。 若未選取該篩選，註解可能沒有意義。
+
+如果您使用編頁報表，則只能留下有關報表的一般註解。  不提供對個別報表視覺效果留下註解的支援。
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>將一般註解新增至儀表板或報表
-將註解新增至儀表板或報表的處理程序很類似。 在本例中，我們使用儀表板。 
+將註解新增至儀表板或報表的處理程序很類似。  在本例中，我們使用儀表板。 
 
 1. 開啟 Power BI 儀表板或報表，然後選取**註解**圖示。 這會開啟 [註解] 對話方塊。
 

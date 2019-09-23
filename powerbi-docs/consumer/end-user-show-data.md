@@ -1,5 +1,5 @@
 ---
-title: 顯示用來建立視覺效果的資料
+title: 顯示用於建立視覺效果的資料
 description: 本文件說明 Power BI 取用者可以如何「看見」用於建立視覺效果的資料。
 author: mihart
 manager: kvivek
@@ -12,18 +12,18 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5b36ded0863685726f9af3104b43c507b9a3c4d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65607947"
 ---
-# <a name="show-the-data-that-was-used-to-create-the-visual"></a>顯示用來建立視覺效果的資料
+# <a name="show-the-data-that-was-used-to-create-the-visual"></a>顯示用於建立視覺效果的資料
 
-Power BI 視覺效果是使用基礎資料集之資料所建構的。 如果您對背景資料有興趣，Power BI 可讓您「顯示」  用來建立視覺效果的資料。 當您選取**顯示資料**，Power BI 會顯示如下 （或旁邊） 的資料視覺效果。
+Power BI 視覺效果是使用基礎資料集中的資料所建構。 如果您對背景資料有興趣，Power BI 可讓您「顯示」  用來建立視覺效果的資料。 當您選取 [顯示資料]  時，Power BI 會在視覺效果下方 (或旁邊) 顯示資料。
 
 
-1. 在 Power BI 服務中，[開啟報表](end-user-report-open.md)和選取的視覺效果。  
+1. 在 Power BI 服務中，[開啟報表](end-user-report-open.md)並選取視覺效果。  
 2. 若要顯示視覺效果背後的資料，請選取省略符號 (...) 並選擇 [顯示資料]  。
    
    ![選取 [顯示資料]](./media/end-user-show-data/power-bi-explore-show-data-newer.png)

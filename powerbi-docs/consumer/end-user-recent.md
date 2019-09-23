@@ -13,10 +13,10 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61054837"
 ---
 # <a name="recent-content-in-power-bi-service"></a>Power BI 服務中的 [最近]  內容
@@ -37,7 +37,7 @@ ms.locfileid: "61054837"
 
 ![顯示所有最近內容](./media/end-user-recent/power-bi-recent-list.png)
 
-從這裡您可以與內容互動如同個別[**儀表板**](end-user-dashboards.md)， [**報表**](end-user-reports.md)，和**活頁簿**索引標籤上，而應用程式 <!--[**Apps**](end-user-apps.md)--> 畫面。
+您可以在這裡與內容互動，就像在個別[儀表板  ](end-user-dashboards.md)、[報表  ](end-user-reports.md)和 [活頁簿]  索引標籤，以及在應用程式畫面上互動一樣 <!--[**Apps**](end-user-apps.md)--> 。
 
 ## <a name="next-steps"></a>後續步驟
 <!--[Power BI service Apps](end-user-apps.md)-->

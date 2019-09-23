@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
 ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61338092"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Surface Hub 和 Windows 10 裝置上，以簡報模式檢視報表和儀表板
@@ -43,7 +43,7 @@ ms.locfileid: "61338092"
 1. 點選上一頁圖示 ![上一頁圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) 返回上一頁。 長按圖示時會顯示階層連結視窗，以讓您瀏覽至報表或儀表板所含的資料夾。
 2. 墨水圖示 ![墨水圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) 可讓您在使用 Surface 畫筆繪圖與在報表頁面上新增註解時，選擇色彩。 
 3. 使用頁面圖示 ![分頁圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) 取代您目前呈現的報表頁面。
-4. 播放圖示  ![播放圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) 會隱藏 [動作] 列，並啟動投影片，應用程式就會自動在報表頁之間輪替。 
+4. 播放圖示  ![播放圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) 會隱藏動作列並開始投影片放映，而應用程式會在報表頁面之間自動輪替。 
 5. 點選搜尋圖示 ![搜尋圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) 尋找 Power BI 中的其他成品。
 6. 若要結束簡報模式，請點選兩個向內箭號的圖示 ![結束全螢幕模式](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) (位於工具列)。
 
