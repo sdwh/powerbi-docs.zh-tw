@@ -3,20 +3,19 @@ title: 檢視 Power BI 儀表板
 description: 儀表板是 Power BI 服務的重要功能，了解如何開啟及檢視儀表板。
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd0b680265d526ecf7adbf4db8c54b77535eadf8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b8d604b8872bae14bc2ffeeb16b56b1b3a98e056
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608452"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141361"
 ---
 # <a name="view-a-dashboard"></a>檢視儀表板
 Power BI「取用者」  花費大量時間檢視儀表板。 儀表板的目的是從醒目提示基礎報表和資料集中的特定資訊。 而 Power BI 取用者使用該資訊來追蹤、監控、回答問題、測試等，以制定資料驅動的商務決策。
@@ -39,7 +38,7 @@ Power BI「取用者」  花費大量時間檢視儀表板。 儀表板的目的
 
 您可在左側瀏覽列的所有容器中看到儀表板。 
 
-![儀表板圖示](media/end-user-dashboard-open/opendash.gif)
+![儀表板圖示](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 
 - **首頁** 
 - **我的最愛** - 若您已[將儀表板設為我的最愛](end-user-favorite.md)

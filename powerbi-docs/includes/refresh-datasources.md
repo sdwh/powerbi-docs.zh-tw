@@ -6,7 +6,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 06/13/2019
 ms.locfileid: "67124060"
 ---
-### <a name="on-premises-data-gateway"></a>內部部署資料閘道
+### <a name="on-premises-data-gateway"></a>內部部署的資料閘道
 
 #### <a name="data-source"></a>資料來源
 

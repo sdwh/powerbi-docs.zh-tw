@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: ccd8569650bd4f3da1a05c0999ad510029e5ab49
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61137815"
@@ -85,7 +85,7 @@ ms.locfileid: "61137815"
 
 * [使用資料流程的自助資料準備](service-dataflows-overview.md)
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 * [設定工作區資料流程設定 (預覽)](service-dataflows-configure-workspace-storage-settings.md)
 * [新增 CDM 資料夾成為 Power BI 資料流程 (預覽)](service-dataflows-add-cdm-folder.md)

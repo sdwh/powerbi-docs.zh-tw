@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61143121"
@@ -153,7 +153,7 @@ Power BI 資料流程會使用 Power BI 的資料重新整理程序，維持資�
 
 * **SharePoint 連接器** - 請確定您提供的 SharePoint 網站根位址沒有任何子資料夾或文件。 例如，使用如下所示的連結： https://microsoft.sharepoint.com/teams/ObjectModel/ 
 
-* **JSON 檔案連接器** - 目前您僅能使用基本驗證連線到 JSON 檔案。  目前**不**支援透過提供 URL (例如 https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg..) 中的認證來連線到 JSON 檔案。  
+* **JSON 檔案連接器** - 目前您僅能使用基本驗證連線到 JSON 檔案。  目前**不**支援透過提供 URL (例如 https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. ) 中的認證來連線到 JSON 檔案。  
 
 * **Azure SQL 資料倉儲** - 資料流程目前不支援對 Azure SQL 資料倉儲使用 Azure Active Directory (AAD) 驗證。 對此案例使用基本驗證。
 
@@ -162,8 +162,8 @@ Power BI 資料流程會使用 Power BI 的資料重新整理程序，維持資�
 這篇文章說明如何在 **Power BI Desktop** 中建立您自己的**資料流程**，以及建立資料集和報表以供使用。 下列文章可在您使用資料流程時，提供更詳細的資訊與案例：
 
 * [使用資料流程的自助資料準備](service-dataflows-overview.md)
-* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
-* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
+* [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 * [資料流程與 Azure Data Lake 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)
 

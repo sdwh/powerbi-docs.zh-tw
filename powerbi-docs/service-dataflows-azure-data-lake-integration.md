@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 7532b0b381e43c6e413d27fa141c22e58dfba84e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61150442"
@@ -84,8 +84,8 @@ Power BI 外部的人員或服務也可以利用授權替代形式，這些替�
 如需有關資料流程的整體資訊，請參閱這些文章：
 
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
-* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
+* [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 
 如需 Azure 儲存體的詳細資訊，您可以閱讀這些文章：

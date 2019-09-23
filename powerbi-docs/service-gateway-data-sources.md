@@ -11,12 +11,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: c46a5c419c242ae25ecca74428362ec27f234afd
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730210"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164525"
 ---
 # <a name="manage-data-sources"></a>管理資料來源
 
@@ -123,9 +123,9 @@ OAuth 驗證配置僅支援使用內部部署資料閘道的自訂連接器。 �
 | **資料來源** | **即時/DirectQuery** | **手動或排程重新整理 (使用者設定)** |
 | --- | --- | --- |
 | Amazon Redshift |是 |是 |
+| Analysis Services |是 |是 |
 | AtScale Cube |是 |是 |
 | Azure Active Directory |否 |是 |
-| Azure Analysis Services |是 |是 |
 | Azure Blob 儲存體 |否 |是 |
 | Azure DevOps Server |否 |是 |
 | Azure 資料表儲存體 |否 |是 |

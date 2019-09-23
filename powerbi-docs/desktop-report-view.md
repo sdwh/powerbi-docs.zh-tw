@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 153a77cdc7d4749ac450378723d04c82ef938de6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514615"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142179"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop 中的報表檢視
 若您已在使用 Power BI，就會知道建立報表提供動態檢視方塊及深入剖析資訊有多容易。 Power BI Desktop 提供更多進階的 Power BI 功能。 有了 Power BI Desktop，您可以建立進階查詢、混用來自多種來源的資料、建立資料表之間的關聯性等等。
@@ -61,9 +61,11 @@ Power BI Desktop 包含 [報表檢視]  ，可讓您從中建立任意數量的�
 
 複製並貼上視覺效果的功能，很適合經常會建置及更新多個報表的人員使用。 在檔案之間進行複製時，原先在格式設定窗格中明確設定的設定及格式都會被帶過去，而仰賴某個佈景主題或預設設定的視覺效果元素則會更新以符合目的地報表的佈景主題。 因此，當您將某個視覺效果的格式和外觀調整成所需的模樣之後，便可以將該視覺效果複製到新的報表中，並保留您先前在格式設定上花費的所有心力。
 
-![複製/貼上視覺效果上的錯誤 - 沒有資料欄位](media/desktop-report-view/report-view_05.png)
+如果模型中的欄位是不同的，您將會在視覺效果上看見錯誤，以及關於有哪些欄位不存在的警告。 該錯誤和您在刪除某個視覺效果正在使用的欄位時所見到的情況類似。 
 
-如果模型中的欄位是不同的，您將會在視覺效果上看見錯誤，以及關於有哪些欄位不存在的警告。 該錯誤和您在刪除某個視覺效果正在使用的欄位時所見到的情況類似。 若要修正該錯誤，請將以來自您貼上視覺效果之報表中的模型，且想要使用的欄位，取代有問題的欄位。 如果您是使用自訂視覺效果，則也必須將該自訂視覺效果匯入至目的地報表。
+![複製/貼上視覺效果上的錯誤 - 沒有資料欄位](media/desktop-report-view/report-view_07.png)
+
+若要修正該錯誤，請將以來自您貼上視覺效果之報表中的模型，且想要使用的欄位，取代有問題的欄位。 如果您是使用自訂視覺效果，則也必須將該自訂視覺效果匯入至目的地報表。
 
 
 
