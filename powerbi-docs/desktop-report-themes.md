@@ -373,7 +373,7 @@ tableAccent | 覆寫資料表和矩陣格線外框色彩 (若存在的話) |
 | areaChart |
 | barChart |
 | basicShape |
-| card |
+| 卡片 |
 | clusteredBarChart |
 | clusteredColumnChart |
 | columnChart |
