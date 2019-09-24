@@ -373,7 +373,7 @@ tableAccent | 覆寫資料表和矩陣格線外框色彩 (若存在的話) |
 | areaChart |
 | barChart |
 | basicShape |
-| 卡片 |
+| card |
 | clusteredBarChart |
 | clusteredColumnChart |
 | columnChart |
@@ -410,7 +410,7 @@ tableAccent | 覆寫資料表和矩陣格線外框色彩 (若存在的話) |
 | breakdown：分解 |
 | bubbles：泡泡 |
 | calloutValue：圖說文字值 |
-| card：卡片 |
+| card：card |
 | cardTitle：卡片磚 |
 | categoryAxis：X 軸 |
 | categoryLabels：類別標籤 |
