@@ -27,7 +27,7 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 
 在邀請來賓使用者之前，請務必確認已在 Power BI 管理入口網站中啟用[與外部使用者共用內容](service-admin-portal.md#export-and-sharing-settings)的功能。
 
-您也可以使用[允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)功能。 這能讓您選取可在工作區中看見並建立內容的來賓，這些來賓也能瀏覽您組織的 Power BI。
+您也可以使用[允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)功能。 這能讓您挑選出可在工作區中看見並建立內容的來賓，這些來賓也能瀏覽您組織的 Power BI。
 
 ## <a name="who-can-you-invite"></a>您可以邀請哪些人？
 
@@ -81,7 +81,7 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 
 ### <a name="use-power-bi-premium"></a>使用 Power BI Premium
 
-將應用程式工作區指派給 [Power BI Premium 容量](service-premium-what-is.md)能讓來賓使用者使用應用程式，而不需要 Power BI Pro 授權。 Power BI Premium 還可讓應用程式充分利用其他功能，像是增加的重新整理頻率、專用的容量和大型模型大小等。
+將應用程式工作區指派給 [Power BI Premium 容量](service-premium-what-is.md)能讓來賓使用者使用應用程式，而不需要 Power BI Pro 授權。 Power BI Premium 還可讓應用程式充分利用其他功能，像是增加重新整理頻率、專用容量和大型模型等。
 
 ![搭配 Power BI Premium 之來賓使用者體驗的圖表。](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
@@ -131,7 +131,7 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 
 * Power BI SharePoint Online 報表網頁組件目前不提供此功能。
 
-* Active Directory 設定可能會限制外部來賓使用者得以在整體組織內完成哪些作業。 那也適用於您的 Power BI 環境。 下列文件會討論這些設定：
+* Active Directory 的設定可能會限制外部來賓使用者所能在整體組織內完成的作業。 那也適用於您的 Power BI 環境。 下列文件會討論這些設定：
     * [管理外部共同作業設定](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
     * [允許或封鎖對特定組織 B2B 使用者的邀請](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)  
 
