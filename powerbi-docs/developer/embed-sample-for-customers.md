@@ -228,7 +228,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 ## <a name="embed-content-within-your-application"></a>在應用程式中內嵌內容
 
-即使使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 可以完成內嵌您內容的步驟，此文章描述的範例程式碼仍是使用 **.NET SDK** 撰寫。
+即使使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 可以完成內嵌您內容的步驟，本文描述的範例程式碼仍是使用 **.NET SDK** 撰寫。
 
 在應用程式中為您的客戶內嵌項目，需要從 **Azure AD** 取得您主帳戶或[服務主體](embed-service-principal.md)的**存取權杖**。 您需要先為您的 Power BI 應用程式取得 [Azure AD 存取權杖](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，才可呼叫 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
 
@@ -377,9 +377,9 @@ var embedConfig = new EmbedConfig()
 
 若要使用[服務主體](embed-service-principal.md)，將專用容量指派工作區，請使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 時，請務必使用[服務主體物件識別碼](embed-service-principal.md#how-to-get-the-service-principal-object-id)。
 
-請遵循下列步驟，使用**主帳戶**將專用容量指派給工作區。
+請遵循下列步驟，使用**主帳戶**將專用容量指派給工作區，。
 
-1. 在 **Power BI 服務**中，展開工作區，然後選取用於內嵌內容之工作區的省略符號。 然後選取 [編輯工作區]  。
+1. 在 **Power BI 服務**中，展開 工作區，然後選取用於內嵌內容之工作區的省略符號。 然後選取 [編輯工作區]  。
 
     ![編輯工作區](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
 

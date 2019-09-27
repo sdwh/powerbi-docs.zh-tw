@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710403"
@@ -311,7 +311,7 @@ ms.locfileid: "65710403"
     }
 ```
 
-雖然我們在上列程式碼中指定了 **_//Get the first id_**，但正確的作法應是依名稱搜尋資料集。
+雖然我們在上列程式碼中指定了  **_//Get the first id_** ，但正確的作法應是依名稱搜尋資料集。
 
 ## <a name="next-steps"></a>後續步驟
 [將資料推送至 Power BI 儀表板](walkthrough-push-data.md)  

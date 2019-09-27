@@ -1,20 +1,20 @@
 ---
 title: Power BI 視覺效果中的進階編輯模式
 description: 此文章討論如何在 Power BI 視覺效果中設定進階 UI 控制項。
-author: shaym83
-ms.author: shaym
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 54cd9d106132979e5ace71a2617a9e2520363176
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: da72cf603027bc97060e7a00ed4a4e959a3a92e2
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237349"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194456"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>Power BI 視覺效果中的進階編輯模式
 
