@@ -1,22 +1,22 @@
 ---
 title: 將格式選項新增到 Power BI 自訂視覺效果
 description: 說明如何開發 Power BI 自訂視覺效果格式選項的教學課程
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5fa14e3aa8a303206d52359d04db05850e096d81
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61379556"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194571"
 ---
-# <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>教學課程：將格式選項新增到 Power BI 自訂視覺效果
+# <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>教學課程：將格式設定選項新增到 Power BI 視覺效果
 
 在本教學課程中，我們將探討如何將通用屬性新增至視覺效果。
 
@@ -263,4 +263,4 @@ ms.locfileid: "61379556"
 
 ## <a name="next-steps"></a>後續步驟
 
-您可以透過將新開發的視覺效果提交至 **AppSource**，以將其列出供他人使用。 如需此程序的詳細資訊，請參閱[將自訂視覺效果發佈至 AppSource](office-store.md)。
+您可以透過將新開發的視覺效果提交至 **AppSource**，以將其列出供他人使用。 如需此程序的詳細資訊，請參閱[將 Power BI 視覺效果發佈至 AppSource](office-store.md)。

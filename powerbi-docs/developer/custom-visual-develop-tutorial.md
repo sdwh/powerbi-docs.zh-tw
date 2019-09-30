@@ -1,26 +1,26 @@
 ---
 title: 開發 Power BI 視覺效果
 description: 說明如何開發 Power BI 自訂視覺效果的教學課程
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5d9ed20435069fa31707d9532141558351ec63ba
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415424"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194486"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>教學課程：開發 Power BI 視覺效果
 
-開發人員可以輕鬆地將自訂視覺效果加入 Power BI，以用於儀表板和報表。 為了協助您開始使用，我們已將所有視覺效果的程式碼發行到 GitHub。
+開發人員可以輕鬆地將 Power BI 視覺效果加入 Power BI，以用於儀表板和報表。 為了協助您開始使用，我們已將所有視覺效果的程式碼發行到 GitHub。
 
-除了視覺效果架構之外，我們還提供測試套件與工具，以協助社群建置適用於 Power BI 的高品質自訂視覺效果。
+除了視覺效果架構之外，我們還提供測試套件與工具，以協助社群建置適用於 Power BI 的高品質 Power BI 視覺效果。
 
 此教學課程說明如何開發名為 Circle Card 的 Power BI 自訂視覺效果，以在圓形中顯示已設定格式的量值。 Circle Card 視覺效果支援自訂填滿色彩與外框粗細。
 

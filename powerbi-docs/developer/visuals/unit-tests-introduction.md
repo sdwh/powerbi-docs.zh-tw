@@ -1,20 +1,20 @@
 ---
 title: Power BI 視覺效果專案單元測試簡介
 description: 此文章說明如何撰寫 Power BI 視覺效果專案的單元測試
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70236727"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192469"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>教學課程：新增 Power BI 視覺效果專案的單元測試
 
@@ -616,4 +616,4 @@ Lines        : 52.83% ( 112/212 )
 
 ## <a name="next-steps"></a>後續步驟
 
-當您的視覺效果就緒時，您可以提交它以供發佈。 如需詳細資訊，請參閱[在 AppSource 上發佈自訂視覺效果](../office-store.md)。
+當您的視覺效果就緒時，您可以提交它以供發佈。 如需詳細資訊，請參閱[在 AppSource 上發佈 Power BI 視覺效果](../office-store.md)。

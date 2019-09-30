@@ -1,20 +1,20 @@
 ---
 title: 了解 Power BI 視覺效果中的資料檢視對應
 description: 此文章說明 Power BI 如何轉換資料，再將它傳入視覺效果。
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 77d5d6423c8246712d12dcc041d32ae73f68b72e
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237233"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193541"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>了解 Power BI 視覺效果中的資料檢視對應
 
@@ -397,7 +397,7 @@ Power BI 將它產生為類別目錄資料檢視。 這是一組類別。
 
 您可以下列方式將資料表資料檢視視覺化：  
 
-| 國家/地區| 年度 | 銷售量 |
+| 國家/地區| 年度 | 銷售 |
 |-----|-----|------|
 | 美國 | 2016 | 100 |
 | 美國 | 2015 | 50 |
@@ -618,7 +618,7 @@ Power BI 的核心矩陣視覺效果會將資料以表格呈現。
 
 若要控制在資料檢視中接收到的資料量，您可以套用資料縮減演算法。
 
-根據預設，所有自訂視覺效果都會套用頂端資料縮減演算法，並將 *count* 設定為 1000 個資料點。 這相當於在 *capabilities.json* 檔案中設定下列屬性：
+根據預設，所有 Power BI 視覺效果都會套用常見資料縮減演算法，並將 *count* 設定為 1000 個資料點。 這相當於在 *capabilities.json* 檔案中設定下列屬性：
 
 ```json
 "dataReductionAlgorithm": {
@@ -628,7 +628,7 @@ Power BI 的核心矩陣視覺效果會將資料以表格呈現。
 }
 ```
 
-您可以將 *count* 值修改為最多到 30000 的任何整數值。 以 R 為基礎的自訂視覺效果最多可支援 150000 個資料列。
+您可以將 *count* 值修改為最多到 30000 的任何整數值。 以 R 為基礎的 Power BI 視覺效果最多可支援 150000 個資料列。
 
 ## <a name="data-reduction-algorithm-types"></a>資料縮減演算法類型
 

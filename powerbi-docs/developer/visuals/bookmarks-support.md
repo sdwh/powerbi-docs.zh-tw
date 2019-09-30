@@ -1,24 +1,24 @@
 ---
 title: 新增 Power BI 視覺效果的書籤支援
 description: Power BI 視覺效果可以處理書籤切換
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c7fb8fa6fcf8c07f0d8f466892fff8d03a492a79
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: c19b67a59d0ecb4cbfbcf5ad8dd18886f440e164
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237268"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194453"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>新增 Power BI 視覺效果的書籤支援
 
-您可以使用 Power BI 報表書籤來擷取已設定的報表頁面檢視、視覺效果的選取項目狀態和篩選狀態。 但它需要從自訂視覺效果執行其他動作，以支援書籤並正確地回應變更。
+您可以使用 Power BI 報表書籤來擷取已設定的報表頁面檢視、視覺效果的選取項目狀態和篩選狀態。 但它需要從 Power BI 視覺效果執行其他動作，以支援書籤並正確地回應變更。
 
 如需書籤的詳細資訊，請參閱[在 Power BI 中使用書籤來共用深入解析並建立故事](https://docs.microsoft.com/power-bi/desktop-bookmarks) \(部分機器翻譯\)。
 
@@ -32,7 +32,7 @@ ms.locfileid: "70237268"
 
 2. 將視覺效果 API 更新為 1.11.0 版，以在 `SelectionManager` 的執行個體中使用 `registerOnSelectCallback`。 使用一般 `SelectionManager` 而不是 `InteractivityService` 的非篩選視覺效果需要這麼做。
 
-### <a name="how-custom-visuals-interact-with-power-bi-in-report-bookmarks"></a>自訂視覺效果如何在報表書籤中與 Power BI 互動
+### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>Power BI 視覺效果如何在報表書籤中與 Power BI 互動
 
 讓我們考慮下列情節：您想在報表頁面中建立數個書籤，且每個書籤中的選取項目狀態都不同。
 

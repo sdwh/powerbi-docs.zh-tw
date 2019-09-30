@@ -1,22 +1,22 @@
 ---
-title: 在 AppSource 上發佈自訂視覺效果
+title: 在 AppSource 上發佈 Power BI 視覺效果
 description: 了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及使用。
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 3cbc2c6fcb70d6298c9d2ade3e3f2cd10cd8a834
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623815"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194517"
 ---
-# <a name="publish-custom-visuals-to-appsource"></a>在 AppSource 上發佈自訂視覺效果
+# <a name="publish-power-bi-visuals-to-appsource"></a>在 AppSource 上發佈 Power BI 視覺效果
 
 了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及使用。
 
@@ -40,13 +40,13 @@ ms.locfileid: "68623815"
 | 螢幕擷取畫面 |是 |您必須提供至少一張螢幕擷取畫面。 格式可以是 .png、.jpg、.jpeg 或 .gif。 它必須剛好是 1366 px (寬度) x 768 px (高度)。 檔案大小不能大於 1024 KB。 「為提高使用率，請新增文字泡泡以表達每張螢幕擷取畫面所顯示重要功能的價值定位。」  |
 | 支援下載連結 |是 |提供 URL 以支援使用您視覺效果發生問題的客戶。 系統會輸入此連結作為您 SellerDashboard 清單的一部分，當使用者在 AppSource 上存取您視覺效果的清單時會看到。 URL 的格式應該包含 https:// 或 http:// 。 |
 | 隱私權文件連結 |是 |為使用您視覺效果的客戶提供隱私權原則連結。 系統會輸入此連結作為您 SellerDashboard 清單的一部分，當使用者在 AppSource 上存取您視覺效果的清單時會看到。 連結的格式應該包含 https:// 或 http:// 。 |
-| 使用者授權合約 (EULA) |是 |您必須上傳 EULA 檔案。 您可以使用自己的 EULA 或 Power BI Office 市集自訂視覺效果的預設 EULA。 若要使用預設的 EULA，請將下列 URL 貼至賣方儀表板的 [使用者授權合約] 檔案上傳對話方塊中︰[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) \(英文\)。 |
+| 使用者授權合約 (EULA) |是 |您必須上傳 EULA 檔案。 您可以使用自己的 EULA 或 Power BI Office 市集 Power BI 視覺效果的預設 EULA。 若要使用預設的 EULA，請將下列 URL 貼至賣方儀表板的 [使用者授權合約] 檔案上傳對話方塊中︰[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) \(英文\)。 |
 | 影片連結 |否 |為提高使用者對您自訂視覺效果的興趣，建議您提供有關視覺效果的影片連結。 URL 的格式應該包含 https:// 或 http:// 。 |
 | GitHub 儲存機制 |否 |為讓其他開發人員對您的程式碼提供意見反應和建議改良，最好在 [GitHub](https://www.github.com) 儲存機制有視覺效果和範例資料來源的有效公用連結。 |
 
 ## <a name="submitting-to-power-bi"></a>提交至 Power BI
 
-提交從傳送電子郵件給 Power BI 自訂視覺效果提交小組開始。 您可傳送電子郵件至 [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com)。
+提交從傳送電子郵件給 Power BI 視覺效果提交小組開始。 您可傳送電子郵件至 [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com)。
 
 > [!IMPORTANT]
 > 您必須先在 pbiviz.json 檔案中填妥下列欄位，然後才能建立 .pbiviz 套件：“description”、“supportUrl”、“author“、“name” 及 “email”。
@@ -89,7 +89,7 @@ ms.locfileid: "68623815"
    * *提交標題：* 您的提交在開發人員中心的命名方式
    * *版本：* 版本號碼是從您的增益集應用程式套件自動填入。
    * *發行日期 (UTC)：* 選取應用程式在市集發行的日期。 如果選擇未來的日期，則市集要到該日期才會提供應用程式。
-   * *類別：* 第一個類別會自動填入 "Data Visualization + BI"。 這是所有 Power BI 自訂視覺效果的標記方式。 您最多可以提供 2 個額外的類別，方便使用者搜尋您的視覺效果
+   * *類別：* 第一個類別會自動填入 "Data Visualization + BI"。 這是所有 Power BI 視覺效果的標記方式。 您最多可以提供 2 個額外的類別，方便使用者搜尋您的視覺效果
    * 「測試備註」：  選擇性，如果您想要為 Microsoft 軟體測試人員提供一些指示。
    * 「我的應用程式需要、支援、包含或使用密碼或加密」：  保持取消核取
    * 「將此增益集放在 iPad 上的 Office 增益集目錄中」：  保持取消核取
@@ -104,7 +104,7 @@ ms.locfileid: "68623815"
    * 影片連結
    * 使用者授權合約 (EULA)
 
-       您必須上傳 EULA 檔案。 您可以使用自己的 EULA 或 Power BI Office 市集自訂視覺效果的預設 EULA。 若要使用預設的 EULA，請將下列 URL 貼至賣方儀表板的 [使用者授權合約] 檔案上傳對話方塊中︰[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) \(英文\)。
+       您必須上傳 EULA 檔案。 您可以使用自己的 EULA 或 Power BI Office 市集 Power BI 視覺效果的預設 EULA。 若要使用預設的 EULA，請將下列 URL 貼至賣方儀表板的 [使用者授權合約] 檔案上傳對話方塊中︰[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) \(英文\)。
 
 8. 選取 [下一步]  前往 [詳細資料]  頁面。
 

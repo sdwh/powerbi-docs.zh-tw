@@ -1,20 +1,20 @@
 ---
 title: Power BI 視覺效果方針
 description: 了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及透過購買來使用。
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
-ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
+ms.openlocfilehash: 71752a635c69e6712befbb00e942189fa4dacc36
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68380227"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327723"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 視覺效果指南
 在您將視覺效果[發佈](https://docs.microsoft.com/power-bi/developer/office-store)至 AppSource 供其他人探索及使用之前，請務必遵循指導方針，以便為您的使用者打造絕佳體驗。 
@@ -25,11 +25,14 @@ ms.locfileid: "68380227"
 
 
 ## <a name="logo-guidelines"></a>標誌指導方針
+> [!NOTE]
+> 此文章中的單字標誌指的是下面圖形所示的任何商業公司圖示。 
 
-本節描述在視覺效果中新增標誌和標誌類型的規格。 標誌不是必要的。 如已新增，則必須遵循這些指導方針。 
+此節說明在 Power BI 視覺效果中心增標誌的規格。 標誌不是必要的。 如已新增，則必須遵循這些指導方針。 
 
 > [!IMPORTANT]
 > 標誌*僅可在編輯模式*中使用。 標誌*無法*在檢視模式中顯示。
+
 
 ![定義](media/guidelines-powerbi-visuals/definitions.png)
 
@@ -44,11 +47,13 @@ ms.locfileid: "68380227"
 ![編輯模式](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 
+閱讀模式中的資訊圖示 (如果有的話) 應該符合上面標誌的色彩、大小與位置。
+
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>需要另外購買的 Power BI 視覺效果指導方針
 
 到目前為止，Marketplace (AppSource) 只接受免費的 Power BI 視覺效果。 此原則已變更 (2018 年 12 月)，因此您也可以提交具有「可能需要另外購買」價格標籤的視覺效果到 AppSource。 
 
-「可能需要個別購買」視覺效果類似於 Office 市集中的在應用程式內購買 (IAP) 增益集。 開發人員也可以在經過 AppSource 小組核准，確定符合認證需求之後，再提交這些經認證的視覺效果。 如需有關需求的詳細資訊，請參閱[經認證的自訂視覺效果](../power-bi-custom-visuals-certified.md)。
+「可能需要個別購買」視覺效果類似於 Office 市集中的在應用程式內購買 (IAP) 增益集。 開發人員也可以在經過 AppSource 小組核准，確定符合認證需求之後，再提交這些經認證的視覺效果。 如需有關需求的詳細資訊，請參閱[經認證的 Power BI 視覺效果](../power-bi-custom-visuals-certified.md)。
 
 > [!NOTE]
 > 視覺效果不得存取外部服務或資源，才能通過驗證。
