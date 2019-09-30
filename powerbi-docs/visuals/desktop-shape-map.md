@@ -113,7 +113,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="australia-states"></a>澳洲：州
 
-| 識別碼 | abbr | iso | 名稱 | 郵遞區號 |
+| ID | abbr | iso | 名稱 | 郵遞區號 |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |西澳洲 |WA |
 | au-vic |Vic |AU-VIC |維多利亞 |VIC |
@@ -126,7 +126,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="austria-states"></a>奧地利：州
 
-| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| ID | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |維也納 |WI |
 | at-vo |AT-8 |Vorarlberg |福拉爾貝格 |VO |
@@ -140,7 +140,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="brazil-states"></a>巴西：州
 
-| 識別碼 |
+| ID |
 | --- |
 | 托坎廷斯 |
 | 伯南布科 |
@@ -176,7 +176,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="canada-provinces"></a>加拿大：省
 
-| 識別碼 | iso | 名稱 | 郵遞區號 |
+| ID | iso | 名稱 | 郵遞區號 |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |努納福特 |NU |
 | ca-nt |CA-NT |西北領地 |NT |
@@ -194,7 +194,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="france-regions"></a>法國：區
 
-| 識別碼 | 名稱 | 名稱 - 繁體中文 |
+| ID | 名稱 | 名稱 - 繁體中文 |
 | --- | --- | --- |
 | Alsace |Alsace |阿爾薩斯 |
 | Rhone-Alpes |Rhône-Alpes |隆河─阿爾卑斯 |
@@ -221,7 +221,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="germany-states"></a>德國：州
 
-| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| ID | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |柏林 |BE |
 | de-th |DE-TH |Thüringen |圖林根 |TH |
@@ -242,7 +242,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="ireland-counties"></a>愛爾蘭：郡
 
-| 識別碼 |
+| ID |
 | --- |
 | 威克洛 |
 | 韋克斯福德 |
@@ -273,7 +273,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="italy-regions"></a>義大利：區
 
-| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| ID | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |威尼托 |VN |
 | it-vd |IT-23 |Valle d'Aosta |瓦萊達奧斯塔 |VD |
@@ -298,7 +298,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="mexico-states"></a>墨西哥：州
 
-| 識別碼 | abreviatura | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| ID | abreviatura | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |薩卡特卡斯 |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |猶加敦 |YU |
@@ -335,7 +335,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="netherlands-provinces"></a>荷蘭：省
 
-| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 |
+| ID | iso | 名稱 | 名稱 - 繁體中文 |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |南荷蘭 |
 | nl-ze |NL-ZE |Zeeland |澤蘭 |
@@ -352,7 +352,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="uk-countries"></a>英國：國家/地區
 
-| 識別碼 | iso | 名稱 |
+| ID | iso | 名稱 |
 | --- | --- | --- |
 | gb-wls |GB-WLS |威爾斯 |
 | gb-sct |GB-SCT |蘇格蘭 |
@@ -361,7 +361,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="usa-states"></a>美國：州
 
-| 識別碼 | 名稱 | 郵遞區號 |
+| ID | 名稱 | 郵遞區號 |
 | --- | --- | --- |
 | us-mi |密西根 |MI |
 | us-ak |阿拉斯加 |AK |
