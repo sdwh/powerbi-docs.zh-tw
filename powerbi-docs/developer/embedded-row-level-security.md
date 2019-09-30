@@ -1,20 +1,20 @@
 ---
 title: 搭配 Power BI 內嵌內容使用資料列層級安全性
 description: 了解您在應用程式中內嵌 Power BI 內容時必須採取的步驟。
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 7c58d4a5ce94a8659c85606dc2cbce1b4fc615f5
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 2e7100db05b6ace0e4d530964f645e120387a8b2
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596557"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073355"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>搭配 Power BI Embedded 的資料列層級安全性
 
@@ -26,7 +26,7 @@ ms.locfileid: "67596557"
 
 ![資料列層級安全性的相關項目。](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
-若要利用 RLS，請務必了解三個主要概念：使用者、角色和規則。 讓我們分別探討：
+若要利用 RLS，請務必了解三個主要概念：使用者、角色和規則。 讓我們仔細探討這些概念：
 
 **使用者**– 檢視成品 (儀表板、圖格、報表或資料集) 的終端使用者。 在 Power BI Embedded 中，使用者是由內嵌權杖中的使用者名稱屬性所識別。
 
@@ -77,9 +77,9 @@ RLS 是在 Power BI Desktop 中撰寫。 我們可以在資料集和報表處於
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>將使用者和角色套用至內嵌權杖
 
-您現在已經設定好 Power BI Desktop 角色了，現在須對應用程式進行一些調整才能利用這些角色。
+您現在已經設定好 Power BI Desktop 角色，現在要對應用程式執行一些工作才能利用這些角色。
 
-使用者會由您的應用程式驗證和授權，而內嵌權杖可用來授權該使用者存取特定 Power BI Embedded 報表。 Power BI Embedded 沒有關於您使用者身分識別的任何特定資訊。 您必須傳遞一些額外的內容作為身分識別形式內嵌權杖的一部分，RLS 才能運作。 您可以使用 [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (內嵌權杖) API 傳遞身分識別。
+使用者會由您的應用程式驗證和授權，而內嵌權杖可用來授與該使用者存取特定 Power BI Embedded 報表。 Power BI Embedded 沒有關於您使用者身分識別的任何特定資訊。 您必須傳遞一些額外的內容作為身分識別形式內嵌權杖的一部分，RLS 才能運作。 您可以使用 [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (內嵌權杖) API 傳遞身分識別。
 
 API 接受表示相關資料集的身分識別清單。 您必須傳遞下列項目作為身分識別的一部分，RLS 才能運作。
 

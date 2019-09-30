@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808229"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71401832"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 報表伺服器中的 Power BI 報表資料來源
 Power BI 報表可以連接到數種資料來源。 根據使用資料的方式而定，可以使用不同的資料來源。 可以匯入資料，或者使用 DirectQuery 或與 SQL Server Analysis Services 的即時連線，直接查詢資料。
@@ -71,7 +71,7 @@ Power BI 報表可以連接到數種資料來源。 根據使用資料的方式�
 | SharePoint Online 清單 |是 |否 |否 |
 | Snowflake |是 |否 |否 |
 | Sybase 資料庫 |是 |是 |否 |
-| Teradata 資料庫 |是 |是 |是 |
+| Teradata |是 |是 |是 |
 | 文字/CSV |是 |是 |否 |
 | Web |是 |是 |否 |
 | XML |是 |是 |否 |

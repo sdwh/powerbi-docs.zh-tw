@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565296"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175236"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何購買 Power BI Premium
 
@@ -42,7 +42,7 @@ ms.locfileid: "65565296"
 
     ![Office 365 應用程式選擇器](media/service-admin-premium-purchase/o365-app-picker.png)
 
-    或者，您可以瀏覽至 Microsoft 365 系統管理中心。 您可以前往 [https://portal.office.com](https://portal.office.com)，再選取 [系統管理]  ，如此就能進入系統管理中心。
+    或者，您可以瀏覽至 Microsoft 365 系統管理中心。 您可以前往 [https://portal.office.com](https://portal.office.com )，再選取 [系統管理]  ，如此就能進入系統管理中心。
 
 1. 選取 [計費]   > [購買服務]  。
 
@@ -101,9 +101,10 @@ ms.locfileid: "65565296"
 
 ## <a name="next-steps"></a>後續步驟
 
-[Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)   
-[Power BI Premium 計算機](https://powerbi.microsoft.com/calculator/)   
-[Power BI Premium 常見問題集](service-premium-faq.md)   
+[設定及管理 Power BI Premium 中的容量](service-admin-premium-manage.md)\
+[Power BI 定價頁面](https://powerbi.microsoft.com/pricing/)\
+[Power BI Premium 計算機](https://powerbi.microsoft.com/calculator/)\
+[Power BI Premium 常見問題集](service-premium-faq.md)\
 [規劃 Power BI 企業部署白皮書](https://aka.ms/pbienterprisedeploy)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)

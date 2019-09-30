@@ -4,24 +4,23 @@ description: 適用於取用者之 Power BI 中儀表板圖格的所有相關資
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a341dda238996db4953fa7c68d7053034ca40b8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 7e6d10a7a06c94c6bc00b06d38194dde461720be
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61050070"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142041"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 的儀表板圖格
-圖格是您的資料快照，由*設計工具*釘選到儀表板。 您可以從報表、資料集、儀表板、問與答問題方塊、Excel 和 SQL Server Reporting Services (SSRS) 等來方建立圖格。  這個螢幕擷取畫面顯示許多釘選到儀表板的不同磚。
+圖格是您的資料快照，由*設計工具*釘選到儀表板。 「設計師」  可以從報表、資料集、儀表板、問與答問題方塊、Excel 和 SQL Server Reporting Services (SSRS) 等項目來建立磚。  這個螢幕擷取畫面顯示許多釘選到儀表板的不同磚。
 
-![Power BI 儀表板](./media/end-user-tiles/power-bi-dashboard.png)
+![Power BI 儀表板](./media/end-user-tiles/power-bi-dash.png)
 
 
 除了從報表中釘選的圖格，*設計工具*也可以使用 [新增圖格]  直接在儀表板上新增獨立圖格。 獨立磚包括：文字方塊、影像、視訊、串流資料和 Web 內容。
@@ -38,15 +37,15 @@ ms.locfileid: "61050070"
 
     - 使用問與答建立的圖格
    
-        ![省略符號圖示](./media/end-user-tiles/power-bi-menu1.png)
+        ![省略符號圖示](./media/end-user-tiles/power-bi-options-1.png)
 
     - 從活頁簿建立圖格
    
-        ![省略符號圖示](./media/end-user-tiles/power-bi-menu2.png)
+        ![省略符號圖示](./media/end-user-tiles/power-bi-options-2.png)
 
     - 從報表建立圖格
    
-        ![省略符號圖示](./media/end-user-tiles/power-bi-menu3.png)
+        ![省略符號圖示](./media/end-user-tiles/power-bi-options-3.png)
    
     從這裡您可以：
    
@@ -56,9 +55,12 @@ ms.locfileid: "61050070"
    
 
    * [開啟用於建立此圖格的活頁簿](end-user-reports.md) ![工作表圖示](./media/end-user-tiles/power-bi-open-worksheet.png)  
-    * [以焦點模式檢視圖格](end-user-focus.md) ![焦點圖示](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [執行深入解析](end-user-insights.md) ![深入解析圖示](./media/end-user-tiles/power-bi-insights.png)
-    * [新增註解並開始討論](end-user-comment.md) ![註解圖示](./media/end-user-tiles/comment-icons.png)
+   * [以焦點模式檢視圖格](end-user-focus.md) ![焦點圖示](./media/end-user-tiles/fullscreen-icon.jpg)  
+   * [檢視見解](end-user-insights.md) ![見解圖示](./media/end-user-tiles/power-bi-insights.png)
+   * [新增註解並開始討論](end-user-comment.md) ![註解圖示](./media/end-user-tiles/comment-icons.png)
+   * [管理儀表板磚上設定的警示圖示](end-user-alerts.md)  ![警示圖示](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [在 Excel 中開啟資料](end-user-export.md)  ![匯出圖示](./media/end-user-tiles/power-bi-export-icon.png)
+
 
 3. 若要關閉動作功能表，選取畫布中的空白區域。
 

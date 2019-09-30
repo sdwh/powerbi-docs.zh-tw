@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: a34de25af7febf63b34d7608ff7ef40e8b653fc4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61284709"
@@ -23,9 +23,9 @@ ms.locfileid: "61284709"
 若要讓問與答成功解譯可回應的大量問題，問與答必須對模型進行假設。 如果您模型的結構不符合其中一或多個假設，則需要調整模型。 不論是否使用問與答，這些問與答調整都是 Power BI 中任何模型的相同最佳做法最佳化。 
 
 > [!NOTE]
-> 問與答時，才可使用模型，其中包含**匯入**資料或即時連線至 SSAS。 不支援 DirectQuery 模型。
+> 只有在使用包含**已匯入**資料的模型，或是即時連線到 SSAS 時，才能使用「問與答」。 不支援 DirectQuery 模型。
 >
-> 您若是使用 Windows 10 之前的 Windows 版本，必須安裝下列 C 執行階段更新，才能使用問與答。 您可以嘗試從 Windows Update 安裝重要更新，或是手動安裝 Microsoft 提供的必要元件 (KB2999226)。 [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
+> 您若是使用 Windows 10 之前的 Windows 版本，必須安裝下列 C 執行階段更新，才能使用問與答。 您可以嘗試從 Windows Update 安裝重要更新，或是手動安裝 Microsoft 提供的必要元件 (KB2999226)。 [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows )
 >
 >
 

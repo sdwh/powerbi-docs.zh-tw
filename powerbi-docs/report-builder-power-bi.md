@@ -1,28 +1,33 @@
 ---
 title: Power BI 編頁報表產生器
 description: Power BI 分頁報表產生器是用於撰寫分頁報表的工具。
-ms.date: 06/06/2019
+ms.date: 09/16/2019
 ms.service: powerbi
 ms.subservice: report-builder
+featuredvideoid: 78TZeiEhveY
 ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 7ae945be1941fea4303b5cc74f9a2a4f104e8754
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 6d13871ec3ba8a7550a556a8923893a6b7d676ae
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840479"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076067"
 ---
 # <a name="power-bi-paginated-report-builder"></a>Power BI 編頁報表產生器
 
- Power BI 分頁報表產生器是用於撰寫分頁報表的工具。  當您設計分頁報表時，您將建立報表定義來指定要擷取的資料、何處取得資料及如何顯示資料。 當您執行報表時，報表處理器會採用您所指定的報表定義、擷取資料，並結合報表配置來產生報表。 您可以在報表產生器中預覽報表。 然後將報表發佈至 Power BI 服務。
+ Power BI 分頁報表產生器是用於撰寫分頁報表的工具。  當您設計分頁報表時，您將建立報表定義來指定要擷取的資料、何處取得資料及如何顯示資料。 當您執行報表時，報表處理器會採用您所指定的報表定義、擷取資料，並結合報表配置來產生報表。 您會在報表產生器中預覽報表。 然後將報表發佈至 Power BI 服務。
+
+想要從影片學習嗎？ 請觀看 Power BI 首席專案經理 Chris Finlan 在 YouTube 上提供的 Power BI 編頁報表影片系列。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/78TZeiEhveY?list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ" frameborder="0" allowfullscreen></iframe>
+
+下列編頁報表提供一個矩陣，其中包含資料列和資料行群組、走勢圖、指標及邊角儲存格中的摘要圓形圖，並伴隨著由兩組地理資料 (以色彩和圓形大小表示) 組成的地圖。  
 
 ![Power BI 服務中的編頁報表](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
- 此分頁報表提供一個矩陣，其中包含資料列和資料行群組、走勢圖、指標及邊角儲存格中的摘要圓形圖，並伴隨著由兩組地理資料 (以色彩和圓形大小表示) 組成的地圖。  
-  
 ##  <a name="JumpStartReptCreation"></a> 開始建立報表  
  
 -   **開始使用 [資料表精靈]、[矩陣精靈] 或 [圖表精靈]** 。 建立資料來源連線、拖放欄位以建立資料集查詢、選取配置和樣式，並自訂報表。  
@@ -35,7 +40,7 @@ ms.locfileid: "66840479"
   
 -   **來自各種資料來源的報表。** 您可以建立報表，使用來自 SQL Server 和 Analysis Services、Oracle、Power BI 資料集以及其他資料庫的關聯式和多維度資料。  
   
--   **修改現有的報表。** 您可以使用報表產生器來自訂及更新 SQL Server Data Tools (SSDT) 報表設計師中所建立的報表。  
+-   **修改現有的報表。** 藉由使用報表產生器，您可以自訂及更新在 SQL Server Data Tools (SSDT) 報表設計工具中建立的報表。  
   
 -   **修改您的資料**。 篩選、分組及排序資料，或是新增公式或運算式。  
 
@@ -52,6 +57,9 @@ ms.locfileid: "66840479"
 -   當您開啟報表時，或在您開啟報表之後，**選擇呈現格式**。 您可以選取 Web 導向、頁面導向和傳統型應用程式格式。 格式包括 MHTML、PDF、XML、CSV、Word 和 Excel。  
   
 -   **設定訂閱。** 將報表發佈至 Power BI 服務之後，您可以設定報表在特定時間執行，並以電子郵件訂閱形式傳送。  
+
 ## <a name="next-steps"></a>後續步驟
 
 - [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)
+
+- 請觀看 Power BI 首席專案經理 Chris Finlan 在 YouTube 上提供的 [Power BI 編頁報表影片系列](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ)

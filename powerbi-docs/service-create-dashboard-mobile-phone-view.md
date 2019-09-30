@@ -1,5 +1,5 @@
 ---
-title: 最佳化行動電話-Power BI 的儀表板
+title: 為行動電話最佳化儀表板 - Power BI
 description: 了解如何在 Power BI 服務中，建立專供手機檢視之用的自訂儀表板檢視。
 author: maggiesMSFT
 manager: kfile
@@ -12,15 +12,15 @@ ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61158169"
 ---
-# <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>最佳化行動電話-Power BI 的儀表板 
-當您在手機上直向模式檢視儀表板時，您會注意到儀表板磚的版面配置是並排，大小完全相同。 在 Power BI 服務中，您可以建立儀表板，專為手機上以直向模式的自訂的檢視。 即使您旋轉手機畫面時，您可以建立手機檢視，，您會看到儀表板，在服務中配置。
+# <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>為行動電話最佳化儀表板 - Power BI 
+當您在手機上以直向模式檢視儀表板時，會注意到儀表板磚的版面配置是並排排列而成，而且大小完全相同。 在 Power BI 服務中，您可以為儀表板建立專供手機直向模式使用的自訂檢視。 即使您建立了手機檢視，當您旋轉手機時，您還是會看到儀表板在服務中的版面配置方式。
 
-需要在行動裝置上檢視儀表板相關資訊嗎？ 請嘗試本快速入門[瀏覽儀表板和報表，Power BI 行動裝置應用程式](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)改。
+正在尋找在行動裝置上檢視儀表板的資訊嗎？ 請改為嘗試此快速入門：[探索 Power BI 行動裝置應用程式中的儀表板和報表](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)。
 
 > [!NOTE]
 > 當您編輯手機檢視時，所有檢視手機儀表板的人都會立刻看到您所做的變更。 例如，如果您取消釘選儀表板手機檢視上所有的磚，手機儀表板就會突然沒有任何磚。 

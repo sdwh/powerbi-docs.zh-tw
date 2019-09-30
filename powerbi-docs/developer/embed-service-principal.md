@@ -1,21 +1,21 @@
 ---
 title: 搭配 Power BI 的服務主體
 description: 了解如何在 Azure Active Directory 內使用服務主體來註冊應用程式，以與內嵌 Power BI 內容搭配使用。
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823287"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073091"
 ---
 # <a name="service-principal-with-power-bi"></a>搭配 Power BI 的服務主體
 
@@ -67,7 +67,7 @@ ms.locfileid: "66823287"
 
 ## <a name="get-started-with-a-service-principal"></a>開始使用服務主體
 
-不同於傳統使用的主帳戶，使用服務主體 (僅限應用程式權杖) 需要設定幾個不同的片段。 若要開始使用服務主體 (僅限應用程式權杖)，您需要設定正確的環境。
+與傳統使用的主帳戶相反，使用服務主體 (僅限應用程式權杖) 需要設定幾個不同的片段。 若要開始使用服務主體 (僅限應用程式權杖)，您需要設定正確的環境。
 
 1. 在 Azure Active Directory (AAD) 中[註冊伺服器端 Web 應用程式](register-app.md)，以與 Power BI 搭配使用。 在註冊應用程式之後，您可以擷取應用程式識別碼、應用程式祕密和服務主體物件識別碼來存取您的 Power BI 內容。 您可以使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) 建立服務主體。
 

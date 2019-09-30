@@ -12,14 +12,14 @@ ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 9bbe302c7187419abae556bb34f991efa1fdae00
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454374"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>在 Power BI Desktop 中設定和使用日期資料表
 
-**Power BI Desktop**自動識別資料行代表日期，在幕後運作，然後建立代表您的 日期階層和其他啟用中繼資料，為您的模型。 當建立如視覺效果、資料表、快速量值、交叉分析篩選器等報告功能時，您就可接著使用那些內建階層。 Power BI Desktop 的運作方式，是代表您建立隱藏的資料表，您可以在之後針對您的報告和 DAX 運算式使用該資料表。
+**Power BI Desktop** 在幕後運作，可自動識別表示日期的資料行，並代替您為您的模型建立日期階層和其他啟用中繼資料。 當建立如視覺效果、資料表、快速量值、交叉分析篩選器等報告功能時，您就可接著使用那些內建階層。 Power BI Desktop 的運作方式，是代表您建立隱藏的資料表，您可以在之後針對您的報告和 DAX 運算式使用該資料表。
 
 許多資料分析師都偏好建立自己的日期資料表，這並沒有問題。 在 **Power BI Desktop** 中，您可以指定您的模型要用來作為其**日期資料表**的資料表，並接著使用該資料表的日期資料來建立與日期相關的視覺效果、資料表、快速量值等等。 當您指定自己的日期資料表後，您可以控制模型中建立的日期階層，並將它們用於使用您模型之日期資料表的**快速量值**和其他作業中。 
 
@@ -52,7 +52,7 @@ ms.locfileid: "65454374"
 
 ![](media/desktop-date-tables/date-tables_03.png)
 
-請務必注意，當您指定自己的日期資料表時，**Power BI Desktop** 不會自動建立階層 (原本將代表您建立到模型中)。 如果您稍後取消選取您的日期資料表 （也不再需要手動設定的日期資料表），Power BI Desktop 會重新建立自動建立的內建日期資料表，資料表中的日期資料行。
+請務必注意，當您指定自己的日期資料表時，**Power BI Desktop** 不會自動建立階層 (原本將代表您建立到模型中)。 如果您稍後取消選取自己的日期資料表 (而且不再有任何手動設定的日期資料表)，Power BI Desktop 會為您針對資料表中的日期資料行，重新建立自動建立的內建日期資料表。
 
 另請務必注意，當您將資料表標記為日期資料表時，Power BI Desktop 建立的內建 (自動建立的) 日期資料表將會被移除，而您先前以那些內建資料表為基礎建立的任何視覺效果或 DAX 運算式將無法再正常運作。 
 

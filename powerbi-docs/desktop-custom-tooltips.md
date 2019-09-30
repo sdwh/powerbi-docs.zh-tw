@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: d5259ba22287a8a2ade3107e4320c39713dcb45e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239757"
@@ -22,10 +22,10 @@ ms.locfileid: "65239757"
 
 ![預設工具提示](media/desktop-custom-tooltips/custom-tooltips-1.png)
 
-建立視覺效果時，預設的工具提示會顯示資料點的值與類別。 自訂工具提示資訊非常有用，並無法提供額外的內容和檢視視覺效果之使用者的資訊時，有許多執行個體。 自訂工具提示可讓您指定額外的資料點，以當做工具提示的一部分顯示。
+建立視覺效果時，預設的工具提示會顯示資料點的值與類別。 在許多情況下，自訂工具提示資訊會很有用，而且可為檢視視覺效果的使用者提供額外的內容和資訊。 自訂工具提示可讓您指定額外的資料點，以當做工具提示的一部分顯示。
 
 ## <a name="how-to-customize-tooltips"></a>如何自訂工具提示
-若要建立自訂的工具提示中，在**欄位**部分**視覺效果**窗格將欄位拖曳至**工具提示**貯體，如下圖所示。 在下圖中，已將兩個欄位放入 [工具提示]  值區。
+若要建立自訂工具提示，請在 [視覺效果]  窗格的 [欄位]  部分，將欄位拖曳到 [工具提示]  貯體即可，如下圖所示。 在下圖中，已將兩個欄位放入 [工具提示]  值區。
 
 ![新增工具提示欄位](media/desktop-custom-tooltips/custom-tooltips-2.png)
 
@@ -38,5 +38,5 @@ ms.locfileid: "65239757"
 
 ![具快速計算功能的工具提示](media/desktop-custom-tooltips/custom-tooltips-4.png)
 
-有許多方式來自訂**工具提示**，傳達快速資訊和深入解析來檢視您的儀表板或報表的使用者使用您的資料集的任何欄位。
+您可以使用資料集中任何可用的欄位，透過許多方式自訂 [工具提示]  ，以便將資訊和見解快速傳遞給檢視儀表板或報表的使用者。
 

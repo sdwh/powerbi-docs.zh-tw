@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: fae3af81540e22b961fcb1d2a79de425fdc1cd8c
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791812"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194779"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中撰寫範本應用程式的提示
 
@@ -126,7 +126,6 @@ Power BI Desktop 中的[參數](https://powerbi.microsoft.com/blog/deep-dive-int
 
 * 確定您建立的範本應用程式具有能用的範例資料，可協助安裝程式了解應用程式的功能 (不允許空白報表與儀表板)。
 範本應用程式支援僅限範例資料的應用程式，請務必核取靜態應用程式核取方塊。 [深入了解](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* 一般而言，只有具有重要功能的應用程式才能通過核准以用於 AppSource 上的一般用途。 僅具有範例資料內容的應用程式必須具有指引或統計值兩者之一。
 * 備妥驗證小組須遵循的指示，其中包含連接到資料所需的認證和參數。
 * 應用程式必須在 Power BI 和您的 CPP 供應項目中包含應用程式圖示。 [深入了解](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * 已設定登陸頁面。 [深入了解](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
@@ -135,6 +134,7 @@ Power BI Desktop 中的[參數](https://powerbi.microsoft.com/blog/deep-dive-int
 * 在提交應用程式之前，請使用應用程式連結安裝應用程式，確保您能如預期連接資料集和應用程式體驗。
 * 將 bpix 上傳到範本應用程式工作區之前，請務必卸載任何不必要的連接。
 * 遵循 Power BI [Best design practices for reports and visuals](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) (報表和視覺效果的最佳設計做法)，達到最大的使用者影響力並獲准散發。
+<!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="known-limitations"></a>已知的限制
 

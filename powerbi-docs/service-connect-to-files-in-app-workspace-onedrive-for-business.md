@@ -11,16 +11,16 @@ ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 52b7748b6b634caf87de01ddc965576339a04b8b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61174898"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>連接到 Power BI 應用程式工作區中儲存在 OneDrive 的檔案
-您[在 Power BI 中建立應用程式工作區](service-create-distribute-apps.md)後，即可將 Excel、CSV 及 Power BI Desktop 檔案儲存至 Power BI 應用程式工作區的商務用 OneDrive。 您可以繼續更新儲存在 OneDrive 中的檔案。 這些更新會自動反映在 Power BI 報表和儀表板檔案為基礎。 
+您[在 Power BI 中建立應用程式工作區](service-create-distribute-apps.md)後，即可將 Excel、CSV 及 Power BI Desktop 檔案儲存至 Power BI 應用程式工作區的商務用 OneDrive。 您可以繼續更新儲存在 OneDrive 中的檔案。 這些更新會自動反映到以這些檔案為基礎的 Power BI 報表和儀表板中。 
 
 > [!NOTE]
-> 新的工作區體驗變更 Power BI 工作區和 Office 365 群組之間的關聯性。 每次您建立一個新的工作區，不會自動建立的 Office 365 群組。 了解[建立新的工作區](service-create-the-new-workspaces.md)
+> 新工作區體驗會變更 Power BI 工作區與 Office 365 群組之間的關聯性。 每次建立一個新的工作區時，不會自動建立 Office 365 群組。 了解如何[建立新的工作區](service-create-the-new-workspaces.md)
 
 將檔案新增至應用程式工作區是兩步驟的程序： 
 
@@ -48,7 +48,7 @@ ms.locfileid: "61174898"
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 將 Excel 檔案匯入為資料集或 Excel Online 活頁簿
 既然檔案已在應用程式工作區的商務用 OneDrive 中，您就有選擇。 您可以： 
 
-* [將資料從 Excel 活頁簿做為資料集匯入](service-get-data-from-files.md)。 然後使用資料來建立報表和儀表板，您可以檢視在網頁瀏覽器和行動裝置上。
+* [將 Excel 活頁簿中的資料以資料集匯入](service-get-data-from-files.md)。 然後使用此資料建置可在網頁瀏覽器和行動裝置上檢視的報表和儀表板。
 * 或者[連接到 Power BI 的完整 Excel 活頁簿](service-excel-workbook-files.md)，讓其顯示畫面完全與在 Excel Online 一樣。
 
 ### <a name="import-or-connect-to-the-files-in-your-app-workspace"></a>匯入或連接至應用程式工作區中的檔案
@@ -64,7 +64,7 @@ ms.locfileid: "61174898"
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
 5. 選取您想要的檔案 > [連接]  。
    
-    此時，您決定是否要[將資料匯入 Excel 活頁簿](service-get-data-from-files.md)，或[連接至整個 Excel 活頁簿](service-excel-workbook-files.md)。
+    此時您需決定是要[從 Excel 活頁簿匯入資料](service-get-data-from-files.md)，或[連線至整個 Excel 活頁簿](service-excel-workbook-files.md)。
 6. 選取 [匯入]  或 [連接]  。
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)

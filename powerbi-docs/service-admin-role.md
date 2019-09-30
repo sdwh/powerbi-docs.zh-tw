@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: aad02103903837afbb7bbce48ab9607b5dbf62c3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2185d7a9c91ed014cf0bed29d6393be0e40556a8
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65099628"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074528"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>了解 Power BI 服務管理員角色
 
@@ -39,7 +39,7 @@ Power BI 服務管理員角色不提供下列功能：
 
 若要在 Microsoft 365 系統管理中心內將使用者指派為 Power BI 管理員角色，請遵偱下列步驟。
 
-1. 在  [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)，選取**使用者** > **作用中使用者**。
+1. 在 [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)內，選取 [使用者]   > [作用中使用者]  。
 
     ![MIcrosoft 365 系統管理中心](media/service-admin-role/powerbi-admin-users.png)
 
@@ -61,14 +61,14 @@ Power BI 服務管理員角色不提供下列功能：
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>使用 PowerShell 將使用者指派為系統管理員角色
 
-您也可以使用 PowerShell 來為使用者指派角色。 Azure Active Directory (Azure AD) 中管理的使用者。 如果您還沒有 Azure AD PowerShell 模組，[請下載並安裝最新版](https://www.powershellgallery.com/packages/AzureAD/)。
+您也可以使用 PowerShell 來為使用者指派角色。 使用者是在 Azure Active Directory (Azure AD) 中管理。 如果您還沒有 Azure AD PowerShell 模組，[請下載並安裝最新版](https://www.powershellgallery.com/packages/AzureAD/)。
 
-1. 首先，連接到 Azure AD:
+1. 首先，連線至 Azure AD：
    ```
    PS C:\Windows\system32> Connect-AzureAD
    ```
 
-1. 第二，取得**ObjectId** for **Power BI 服務管理員**角色。 您可以執行 [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) 以取得 **ObjectId**
+1. 第二，取得 **Power BI 服務管理員**角色的 **ObjectId**。 您可以執行 [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) 以取得 **ObjectId**
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole

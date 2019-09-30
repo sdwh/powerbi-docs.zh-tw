@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 37304f9d23c514c7223b3eca481bf3b7b2258ac4
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 64be68398ffa2ab8323307b45b5bff09ec511090
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70904411"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327841"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用報表主題
 透過**報表主題**，您可以將設計變更套用至整個報表，例如使用公司色彩、變更圖示集，或是套用新的預設視覺效果格式。 當您套用**報表主題**時，報表中的所有視覺效果都會使用您選取之主題中的色彩和格式。 有少數例外狀況，此文章稍後將進行說明。
@@ -475,7 +475,8 @@ tableAccent | 覆寫資料表和矩陣格線外框色彩 (若存在的話) |
 
 
 ```json
-      "general":
+{
+      "general":{ 
         "responsive": {
           "type": [
             "bool"
@@ -486,7 +487,7 @@ tableAccent | 覆寫資料表和矩陣格線外框色彩 (若存在的話) |
           "description": [
             "The visual will adapt to size changes"
           ]
-        }
+        },
         "legend": {
         "show": {
           "type": [
@@ -4378,4 +4379,6 @@ tableAccent | 覆寫資料表和矩陣格線外框色彩 (若存在的話) |
          ]
        }
     }
+  }
+}
 ```

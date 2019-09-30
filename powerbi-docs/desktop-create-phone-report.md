@@ -1,5 +1,5 @@
 ---
-title: 最佳化行動裝置應用程式-Power BI 報表
+title: 為行動裝置應用程式最佳化報表 - Power BI
 description: 了解如何專為手機與平板電腦建立直向版報表，將 Power BI 行動應用程式的報表頁面最佳化。
 author: maggiesMSFT
 manager: kfile
@@ -12,19 +12,19 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61310607"
 ---
-# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>最佳化 Power BI 行動應用程式的報表
-您可以改善在行動裝置應用程式中檢視報表，藉由建立直向配置的體驗。 在 Power BI Desktop 和 Power BI 服務中，您可以重新排列，並調整大小以獲得最佳的體驗，以直向模式的報表視覺效果。  
+# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>為 Power BI 行動裝置應用程式最佳化報表
+您可以透過建立直向版面配置，改善在行動裝置應用程式中檢視報表的體驗。 在 Power BI Desktop 和 Power BI 服務中，您可以重新排列和重新調整報表視覺效果的大小，來取得直向模式中的最佳體驗。  
 
-如需行動裝置上檢視報表時，也將改為尋找嗎？ 請嘗試本快速入門[瀏覽儀表板和報表，Power BI 行動裝置應用程式](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)。
+正在尋找在行動裝置上檢視報表的資訊嗎？ 請嘗試此快速入門：[探索 Power BI 行動裝置應用程式中的儀表板和報表](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)。
 
 ![手機上的最佳化報表](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-您可以建立加[*回應*視覺效果](#optimize-a-visual-for-any-size)和[回應式交叉分析篩選器](#enhance-slicers-to-work-well-in-phone-reports)，調整大小，以及任何位置。 如果您將篩選加入報表時，它們會自動顯示在最佳化的報表。
+您還可以建立[「回應式」  視覺效果](#optimize-a-visual-for-any-size)和[回應式交叉分析篩選器](#enhance-slicers-to-work-well-in-phone-reports)，在任何地方都能重新調整大小。 如果您將篩選條件新增至報表，他們會自動顯示在最佳化報表中。
 
 ## <a name="lay-out-a-portrait-version-of-a-report-page"></a>報表頁面的直向版面配置版本
 
@@ -44,7 +44,7 @@ ms.locfileid: "61310607"
    
     ![拖放視覺效果](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
-    您可以將部分或所有主要報表頁面的視覺效果新增至手機報表頁面。 每個視覺效果只能各新增一次。 您不需要包含的所有視覺效果。
+    您可以將部分或所有主要報表頁面的視覺效果新增至手機報表頁面。 每個視覺效果只能各新增一次。 您不需要包含所有視覺效果。
 
 4. 您可以在方格調整視覺效果的大小，方法如同儀表板及行動儀表板上的磚。
    

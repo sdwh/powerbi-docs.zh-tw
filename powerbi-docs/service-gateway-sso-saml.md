@@ -1,6 +1,6 @@
 ---
-title: 將 SAML 用於內部部署資料來源的單一登入 (SSO)
-description: 使用安全性聲明標記語言 (SAML) 設定閘道，以啟用從 Power BI 到內部部署資料來源的單一登入 (SSO) 。
+title: 將 SAML 用於內部部署資料來源的 SSO
+description: 使用安全性聲明標記語言 (SAML) 設定閘道，以啟用從 Power BI 到內部部署資料來源的 SSO。
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -8,16 +8,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 09/16/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: a240d84b20f63542c33bb7cbbb9a9c97af7db2f7
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 75641468b52d4174779b9ddd03ed7aab27b6c5d0
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757683"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100405"
 ---
-# <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的單一登入 (SSO)，使用安全性聲明標記語言 (SAML)
+# <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的 SSO，使用安全性聲明標記語言 (SAML)
 
 使用[安全性聲明標記語言 (SAML)](https://www.onelogin.com/pages/saml) 啟用無縫單一登入連線。 啟用 SSO 可讓 Power BI 報表和儀表板輕鬆重新整理來自內部部署來源的資料。
 
@@ -27,7 +27,7 @@ ms.locfileid: "68757683"
 
 我們使用 [Kerberos ](service-gateway-sso-kerberos.md) 支援其他資料來源。
 
-請注意，針對 HANA，我們**高度**建議您先啟用加密，再建立 SAML SSO 連線 (即應該設定 HANA 伺服器接受加密的連線，並設定閘道與您的 HANA 伺服器通訊時使用加密)。 根據預設，HANA ODBC 驅動程式**不能**加密 SAML 判斷提示，而未開啟加密之已簽署 SAML 判斷提示會從閘道傳送到「沒有問題」的 HANA 伺服器，很容易被第三方攔截和重複使用。
+請注意，針對 HANA，我們**高度**建議您先啟用加密，再建立 SAML SSO 連線 (即應該設定 HANA 伺服器接受加密的連線，並設定閘道與您的 HANA 伺服器通訊時使用加密)。 根據預設，HANA ODBC 驅動程式**不能**加密 SAML 判斷提示，而未開啟加密之已簽署 SAML 判斷提示會從閘道傳送到「沒有問題」的 HANA 伺服器，很容易被第三方攔截和重複使用。 如需如何使用 OpenSSL 程式庫啟用 HANA 加密的指示，請參閱[啟用 SAP HANA 的加密](/power-bi/desktop-sap-hana-encryption)。
 
 ## <a name="configuring-the-gateway-and-data-source"></a>設定閘道和資料來源
 
@@ -35,16 +35,17 @@ ms.locfileid: "68757683"
 
 另請注意，雖然本指南使用 OpenSSL 作為 HANA 伺服器的密碼編譯提供者，但 SAP 建議使用 SAP 密碼編譯程式庫 (也稱為 CommonCryptoLib 或 sapcrypto) 而不是 OpenSSL 來完成建立信任關係的設定步驟。 請參閱官方 SAP 文件以取得進一步的資訊。
 
-下列步驟描述如何使用 HANA 伺服器所信任根 CA 簽署閘道 IdP 的 X509 憑證來建立 HANA 伺服器和閘道 IdP 之間信任關係。
+下列步驟描述如何使用 HANA 伺服器所信任根 CA 簽署閘道 IdP 的 X509 憑證來建立 HANA 伺服器和閘道 IdP 之間信任關係。 您將建立這個根 CA。
 
 1. 建立根 CA 的 X509 憑證和私密金鑰。 例如，以 .pem 格式建立根 CA 的 X509 憑證和私密金鑰：
 
    ```
    openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
    ```
-  請確定根 CA 的憑證已適當地受到保護，因為若協力廠商取得了此憑證，便可能會使用它來取得 HANA 伺服器的未經授權存取權限。 
 
-  將憑證 (例如，CA_Cert.pem) 新增至 HANA 伺服器的信任存放區，HANA 伺服器才會信任由您剛才建立之根 CA 所簽署的任何憑證。 檢查 **ssltruststore** 組態設定即可找到您 HANA 伺服器的信任存放區位置。 如已遵循如何設定 OpenSSL 之 SAP 文件的內容執行作業，HANA 伺服器可能已信任您可重複使用的根 CA。 如需詳細資料，請參閱 [How to Configure Open SSL for SAP HANA Studio to SAP HANA Server](https://archive.sap.com/documents/docs/DOC-39571) (如何設定 SAP HANA 伺服器的 Open SSL for SAP HANA Studio)。 如有多部 HANA 伺服器想要啟用 SAML SSO，請確定每部伺服器都信任此根 CA。
+    請確定根 CA 的憑證已適當地受到保護，因為若協力廠商取得了此憑證，便可能會使用它來取得 HANA 伺服器的未經授權存取權限。 
+
+    將憑證 (例如，CA_Cert.pem) 新增至 HANA 伺服器的信任存放區，HANA 伺服器才會信任由您剛才建立之根 CA 所簽署的任何憑證。 檢查 **ssltruststore** 組態設定即可找到您 HANA 伺服器的信任存放區位置。 如已遵循如何設定 OpenSSL 之 SAP 文件的內容執行作業，HANA 伺服器可能已信任您可重複使用的根 CA。 如需詳細資料，請參閱 [How to Configure Open SSL for SAP HANA Studio to SAP HANA Server](https://archive.sap.com/documents/docs/DOC-39571) (如何設定 SAP HANA 伺服器的 Open SSL for SAP HANA Studio)。 如有多部 HANA 伺服器想要啟用 SAML SSO，請確定每部伺服器都信任此根 CA。
 
 1. 建立閘道 IdP 的 X509 憑證。 例如，若要建立憑證簽署要求 (IdP_Req.pem) 和有效期為一年的私用金鑰 (IdP_Key.pem)，請執行下列命令：
 
@@ -131,17 +132,18 @@ ms.locfileid: "68757683"
     ```powershell
     Get-ChildItem -path cert:\LocalMachine\My
     ```
+
 1. 複製您所建立憑證的指紋。
 
 1. 巡覽至閘道目錄，其預設為 C:\Program Files\On-premises data gateway。
 
-1. 開啟 PowerBI.DataMovement.Pipeline.GatewayCore.dll.config，並尋找 \* SapHanaSAMLCertThumbprint\* 區段。 貼上您複製的憑證指紋。
+1. 開啟 PowerBI.DataMovement.Pipeline.GatewayCore.dll.config，並尋找  *SapHanaSAMLCertThumbprint* 區段。 貼上您複製的憑證指紋。
 
 1. 重新啟動閘道服務。
 
 ## <a name="running-a-power-bi-report"></a>執行 Power BI 報表
 
-現在您可以使用 Power BI 中的 [管理閘道]  頁面來設定資料來源，並在其下方的 [進階設定]  啟用 SSO。 然後您可以發佈繫結至該資料來源的報表和資料集。
+現在您可以使用 Power BI 中的 [管理閘道]  頁面來設定 SAP HANA 資料來源，並在其下方的 [進階設定]  啟用 SSO。 然後您可以發佈繫結至該資料來源的報表和資料集。
 
 ![進階設定](media/service-gateway-sso-saml/advanced-settings.png)
 

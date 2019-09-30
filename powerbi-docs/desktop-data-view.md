@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454470"
@@ -28,7 +28,7 @@ ms.locfileid: "65454470"
 
 1. **資料檢視圖示** – 選取此圖示以進入 [資料檢視]。
 
-2. **資料格** – 這會顯示選取的資料表，以及其中的所有資料行和資料列。 [報表檢視]  中隱藏的資料行會呈現灰色。您可以以滑鼠右鍵按一下資料行的選項。
+2. **資料格** – 這會顯示選取的資料表，以及其中的所有資料行和資料列。 [報表檢視]  中隱藏的資料行會呈現灰色。以滑鼠右鍵按一下資料行，顯示選項。
 
 3. **模型化功能區** - 在這裡您可以管理關聯性；建立計算；變更資料行的資料類型、格式、資料類別。
 

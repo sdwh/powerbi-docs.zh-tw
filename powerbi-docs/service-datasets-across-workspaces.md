@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/16/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 258dd735c5ba97122d9e93f888e65cf2030f01eb
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: ace40fed472dc516cce5a761544cc5365566f3cd
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530473"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074117"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>跨工作區的資料集簡介 (預覽)
 
@@ -55,6 +55,7 @@ ms.locfileid: "69530473"
 基於共用資料集功能所建置的特定功能和體驗，會根據其現有情況來授權。 例如：
 
 - 在一般情況下，任何人都可探索並連線至共用資料集。 不過，沒有具有 Pro 授權的使用者，只能連線至位於其個人「我的工作區」的資料集。
+- 如果這兩個工作區 (一個包含內容，另一個包含資料集) 裝載於 Premium 容量中，則沒有 Pro 授權的使用者只能取用依據共用資料集所建置報表和儀表板。
 - 在 Power BI Desktop 中，沒有 Pro 授權的使用者，只能看到其「我的工作區」中的資料集。
 - 在工作區之間複製報表需要 Pro 授權。
 - 從應用程式複製報表需要 Pro 授權，這是組織內容套件所需。
@@ -66,7 +67,7 @@ ms.locfileid: "69530473"
 - 假設您在工作區 A 中建立以工作區 B 資料集為基礎的報表。當您建立工作區 A 的應用程式時，如果您也是工作區 B 的成員，則只能在工作區 A 應用程式中包含該報表。
 - 在傳統工作區中，資料集探索體驗只會顯示該工作區中的資料集。
 - 如果您希望根據共用資料集將報表新增至應用程式，您必須是資料集工作區的成員。 這是已知的問題。
-- 「發佈至 Web 」不適用於以共用資料集為基礎的報表。 這是預設行為。
+- 根據設計，「發佈至 Web 」不適用於以共用資料集為基礎的報表。
 - 如果兩名人員是正在存取共用資料集之工作區的成員，則可能只有其中一個人可以在工作區中查看相關資料集。 只有對資料集具有最低讀取權限的人員，才能查看共用資料集。 
 
 ## <a name="next-steps"></a>後續步驟

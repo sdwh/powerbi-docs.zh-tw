@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: e30a79796fd4d5538406a85a3297a23b2c09a61a
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d21199d8960df4db5027115704533bd3d5d8097c
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751401"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142269"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>針對 Power BI 服務中以文字傳回的巢狀值進行疑難排解
 
 ## <a name="cause"></a>原因
 
-在過去，Power BI 報表有時會在 Desktop 中成功重新整理，但在 Power BI 服務中失敗，並出現「我們無法將值 "[Table]" 轉換成類型 Table」之類的錯誤。 此錯誤的原因之一是，當資料隱私權防火牆 (這裡的連結？) 緩衝處理資料來源時，巢狀的非純量值 (例如資料表、記錄、清單和函式) 會自動轉換成文字值 (例如 “[Table]” 或 “[Record]”)。
+在過去，Power BI 報表有時會在 Desktop 中成功重新整理，但在 Power BI 服務中失敗，並出現「我們無法將值 "[Table]" 轉換成類型 Table」之類的錯誤。 此錯誤的原因之一是，當資料隱私權防火牆緩衝處理資料來源時，巢狀的非純量值 (例如資料表、記錄、清單和函式) 會自動轉換成文字值 (例如 “[Table]” 或 “[Record]”)。
 
 現在，Power BI 服務支援設定隱私權等級 (或完全關閉防火牆)，因此可在 Power BI 服務中將[資料來源隱私權設定](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/)設為非私人來避免這類錯誤。
 

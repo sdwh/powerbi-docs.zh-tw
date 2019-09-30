@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 1c000b2bfce4b6eeaa40b1a641321a20cea49d13
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66051117"
@@ -17,7 +17,7 @@ ms.locfileid: "66051117"
 
 ![](media/0-1-intro-using-power-bi/c0a1_1.png)
 
-如先前所述，您可能需要將所有時間花在 **Power BI 服務**，以取得資料以及建立儀表板 – 這沒有問題。 您的小組的其他人可能會花時間中的所有**Power BI Desktop**，這也沒有問題。 為了協助您完全了解 Power BI 和其作用，我們將向您顯示它的全部… 然後，您可以決定如何善加利用它。
+如先前所述，您可能需要將所有時間花在 **Power BI 服務**，以取得資料以及建立儀表板 – 這沒有問題。 其他小組成員則可能需要將所有時間花在 **Power BI Desktop**，這也沒有問題。 為了協助您完全了解 Power BI 和其作用，我們將向您顯示它的全部… 然後，您可以決定如何善加利用它。
 
 因此，讓我們開始，並讓 Will 引導我們完成體驗。 第一件事是了解 Power BI 的基本建構元素，這些基本建構元素提供了解 Power BI 如何將資料轉變成酷炫報表和視覺效果的穩固基礎。
 

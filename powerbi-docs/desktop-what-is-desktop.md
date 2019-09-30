@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 711e0252cddcc78437e03a82d91c67441cfc3a55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513502"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141953"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop 是什麼？
 
@@ -32,6 +32,16 @@ ms.locfileid: "65513502"
 * 使用 **Power BI 服務**來與其他人共用報表
 
 從事這類工作的人員通常稱為「資料分析師」  (有時直接稱為「分析師」  ) 或商業智慧專業人員 (通常稱為「報表建立者」  )。 不過，許多自認並非是分析師或報表建立者的人員也會使用 **Power BI Desktop** 來建立具傑出的報表，或從各種來源提取資料並建置可以和同事及組織分享的資料模型。
+
+Power BI Desktop 中有三個檢視，會沿著畫布的左側顯示。 這些檢視會以其出現的順序顯示，如下所示：
+* **報表檢視** - 這是您用來建立報表和視覺效果，以及花費大部分時間建置的位置。
+* **資料檢視** - 您可以在這裡查看與報表相關聯之資料模型中所使用的資料表、量值和其他資料，以及轉換資料以便在報表的模型中充份利用。
+* **模型檢視** - 在此檢視中，您可以查看和管理資料模型中資料表之間的關聯性。
+
+下圖顯示沿著畫布左側顯示的三個檢視：
+
+![不同的檢視](media/desktop-what-is-desktop/what-is-desktop-07.png)
+
 
 **Power BI Desktop** 可讓您使用多個來源的資料，在單一報表中建立複雜且視覺效果豐富的報表，以便和組織中其他人共用。 
 

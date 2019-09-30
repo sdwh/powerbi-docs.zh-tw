@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 09/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 80182ae0898ab5c88acb85ce24a55fe615cf2a0b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 589f34db5009a9203ee33c13dc4931e42d68ddcb
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61415614"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076087"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>重新整理建立自 OneDrive 或 SharePoint Online 上 .CSV 檔案的資料集
 ## <a name="what-are-the-advantages"></a>有哪些優點？
@@ -36,7 +36,7 @@ ms.locfileid: "61415614"
 
 當您使用 Microsoft 帳戶登入時，請確定選取 [讓我保持登入]。 Power BI 之後可將任何更新與在 Power BI 中的資料集同步處理
 
-![](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
+![登入範例](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
 
 如果您變更無法與 Power BI 中資料集同步處理之 OneDrive 上的 .csv 檔案 (因為您的 Microsoft 帳戶認證可能已更改)，您將必須連接到該檔案，並從您的個人 OneDrive 將它再匯入一次。
 

@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 9d7c5415d084ea7ca9b6a6dd4da3e84662fc6349
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61303773"
@@ -20,17 +20,17 @@ ms.locfileid: "61303773"
 # <a name="directquery-and-sap-hana"></a>DirectQuery 和 SAP HANA
 您可以使用 **DirectQuery** 來直接連線到 **SAP HANA** 資料來源。 連線到 SAP HANA 時有兩個選項：
 
-* **將 SAP HANA 視為多維度來源 (預設值)：** 在此情況下，行為將會類似於 Power BI 連線到其他多維度來源時，例如 SAP Business Warehouse 或 Analysis Services。 連接到 SAP HANA 使用此設定，單一分析或計算已選取 檢視所有量值時，表示階層和該檢視的屬性會在欄位清單。 隨著視覺效果的建立，將會一律從 SAP HANA 擷取彙總資料。 這是建議的方法，也是 SAP HANA 上的新 DirectQuery 報表預設值。
+* **將 SAP HANA 視為多維度來源 (預設值)：** 在此情況下，行為將會類似於 Power BI 連線到其他多維度來源時，例如 SAP Business Warehouse 或 Analysis Services。 使用此設定連線到 SAP HANA 時，會選取單一分析或計算檢視，而欄位清單中則會提供該檢視的所有量值、階層及屬性。 隨著視覺效果的建立，將會一律從 SAP HANA 擷取彙總資料。 這是建議的方法，也是 SAP HANA 上的新 DirectQuery 報表預設值。
 
-* **將 SAP HANA 視為關聯來源：** 在此情況下，Power BI 會將 SAP HANA 視為關聯來源。 這提供更大的彈性。 必須小心使用此方法以確保量值會彙總，如預期般運作，並避免效能問題。
+* **將 SAP HANA 視為關聯來源：** 在此情況下，Power BI 會將 SAP HANA 視為關聯來源。 這可提供更大的彈性。 使用此方法時，您必須小心地確保依照預期方式彙總量值，以及避免效能問題。
 
-連接方式取決於全域工具選項，它會設定所選取**檔案 > 選項及設定**，然後**選項 > DirectQuery**，然後選取選項**將 SAP HANA 視為關聯來源**，如下圖所示。 
+連線的方法取決於全域工具選項，其設定方式為選取 [檔案] > [選項及設定]  ，接著選取 [選項] > [DirectQuery]  ，然後選取 [將 SAP HANA 視為關聯來源]  選項，如下圖所示。 
 
 ![](media/desktop-directquery-sap-hana/directquery-sap-hana_01a.png)
 
-將 SAP HANA 視為關聯來源的選項，可控制在 SAP HANA 上使用 DirectQuery 的任何「新」  報表所使用的方法。 此選項對目前報表中任何現有的 SAP HANA 連線，以及任何其他報表中已開啟的連線，都沒有作用。 因此，如果目前未選取此選項，則在使用 [取得資料]  來新增連至 SAP HANA 的連線時，將會把該連線設定為將 SAP HANA 視為多維度來源。 不過，如果已開啟不同的報表且也連線到 SAP HANA，則該報表將繼續到的行為會根據所設定的選項*在建立時*，這表示連線到 SAP HANA 的任何報表至 2018 年 2 月建立的之前會繼續將 SAP HANA 視為關聯來源。 
+將 SAP HANA 視為關聯來源的選項，可控制在 SAP HANA 上使用 DirectQuery 的任何「新」  報表所使用的方法。 此選項對目前報表中任何現有的 SAP HANA 連線，以及任何其他報表中已開啟的連線，都沒有作用。 因此，如果目前未選取此選項，則在使用 [取得資料]  來新增連至 SAP HANA 的連線時，將會把該連線設定為將 SAP HANA 視為多維度來源。 但是，若開啟的不同報表也連線到 SAP HANA，則該報表會繼續依照「建立時」  設定的選項運作，這表示任何在 2018 年 2 月之前建立且連線到 SAP HANA 的報表，都會繼續將 SAP HANA 視為關聯來源。 
 
-兩個方法構成不同的行為，並不能夠切換至其他現有報表從一種方法。 
+這兩個方法會構成不同的行為，且您無法將現有報表從一個方法切換到另一個方法。 
 
 我們將依序更詳細了解這每一個方法。
 
@@ -38,9 +38,9 @@ ms.locfileid: "61303773"
 
 所有新的 SAP HANA 連線預設都會使用這個連線方法，將 SAP HANA 視為多維度來源。 若要將連至 SAP HANA 的連線視為關聯來源，您必須選取 [檔案] > [選項及設定] > [選項]  ，然後選取 [Direct Query] > [將 SAP HANA 視為關聯來源]  底下的方塊。 由於此功能目前為**預覽版**，因此您「無法」  將使用多維度方法建立的報表發佈至 Power BI 服務，如果這麼做，將會導致在 Power BI 服務內開啟報表時發生錯誤。  
 
-連接到 SAP HANA 視為多維度來源時，適用下列考量：
+以多維度來源形式連線到 SAP HANA 時，適用下列考量事項：
 
-* 在 [Get Data Navigator] (取得資料導覽器)  中，可以選取單一 SAP HANA 檢視。 您無法選取個別量值或屬性。 連線時不會定義任何查詢，這與匯入資料或在將 SAP HANA 視為關聯來源的情況下使用 DirectQuery 時不同。 這也表示不選取此連線方法時，直接使用 SAP HANA SQL 查詢。
+* 在 [Get Data Navigator] (取得資料導覽器)  中，可以選取單一 SAP HANA 檢視。 您無法選取個別量值或屬性。 連線時不會定義任何查詢，這與匯入資料或在將 SAP HANA 視為關聯來源的情況下使用 DirectQuery 時不同。 這也意謂著選取此連線方法時，無法直接使用 SAP HANA SQL 查詢。
 
 * 欄位清單中將會顯示所選檢視的所有量值、階層及屬性。 
 
@@ -54,9 +54,9 @@ ms.locfileid: "61303773"
 
 * 任何屬性只要至少包含在一個階層中，預設就會隱藏。 不過，如果需要，從欄位清單上的操作功能表中選取 [檢視隱藏項目]  ，即可檢視這些屬性。 從相同的操作功能表中，可以將它們設定為可見。
 
-* 在 SAP HANA 中，可以將一個屬性定義為使用另一個屬性作為其標籤。 例如，**產品**（具有值 1 2、 3，依此類推） 可以使用**ProductName** (與值 Bike、 Shirt、 Gloves 等) 作為其標籤。 在此案例中，單一欄位 **Product** 會顯示在欄位清單中，其值會是 Bike、Shirt、Gloves 等標籤，但其排序及唯一性將取決於索引鍵值 1、2、3。 此外，也會建立一個隱藏欄 **Product.Key**，可讓您視需要存取基礎索引鍵值。 
+* 在 SAP HANA 中，可以將一個屬性定義為使用另一個屬性作為其標籤。 例如 **Product** (值為 1、2、3 等) 可以使用 **ProductName** (值為 Bike、Shirt、Gloves 等) 作為其標籤。 在此案例中，單一欄位 **Product** 會顯示在欄位清單中，其值會是 Bike、Shirt、Gloves 等標籤，但其排序及唯一性將取決於索引鍵值 1、2、3。 此外，也會建立一個隱藏欄 **Product.Key**，可讓您視需要存取基礎索引鍵值。 
 
-在連線時，將會顯示基礎 SAP HANA 檢視中定義的所有變數，並可輸入必要的值。 接下來可以藉由選取變更這些值**編輯查詢**從功能區，然後**管理參數**從顯示的下拉式選單。 
+在連線時，將會顯示基礎 SAP HANA 檢視中定義的所有變數，並可輸入必要的值。 您可以在後續變更這些值，方法是從功能區中選取 [編輯查詢]  ，然後從所顯示的下拉式功能表中選取 [管理參數]  。 
 
 使用 DirectQuery 時，允許的模型化作業比一般案例有更多限制，因為需要確保能夠一律從 SAP HANA 取得正確的彙總資料。 不過，仍然可以進行許多新增和變更，包括定義量值、將欄位重新命名和隱藏，以及定義顯示格式。 在重新整理時會保留所有這類變更，並且會套用對 SAP HANA 檢視所做的所有非衝突變更。 
 
@@ -90,7 +90,7 @@ ms.locfileid: "61303773"
 如果要將資料匯入至 Power BI (與使用 DirectQuery 比較)，會產生下列情況：
 
 * 將資料匯入彙總層級，而彙總層級是由 [查詢編輯器]  中所建立的查詢所定義。 例如，產品的平均價格。 這會導致表格包含兩個可在視覺效果中使用的資料行 *ProductID* 和 *AveragePrice*。
-* 在視覺效果中，會對該匯入的資料執行任何後續彙總 (例如 *Sum*、*Average*、*Min* 等)。 例如，在視覺效果上包括 *AveragePrice* 預設會使用 *Sum* 彙總，而會傳回每個 *ProductID* 之 *AveragePrice* 的總和 – 在此範例案例中為 13.67。 這同樣適用於視覺效果上所使用的任何替代彙總函式 (例如 *Min*、*Average* 等)。 例如，*平均*的*AveragePrice*傳回平均值 6.66、 4 和 3，這等同於 4.56 做，並不平均*價格*六個記錄中的基礎表格中，這是 5.17。
+* 在視覺效果中，會對該匯入的資料執行任何後續彙總 (例如 *Sum*、*Average*、*Min* 等)。 例如，在視覺效果上包括 *AveragePrice* 預設會使用 *Sum* 彙總，而會傳回每個 *ProductID* 之 *AveragePrice* 的總和 – 在此範例案例中為 13.67。 這同樣適用於視覺效果上所使用的任何替代彙總函式 (例如 *Min*、*Average* 等)。 例如，*AveragePrice* 的 *Average* 會傳回 6.66、4 和 3 的平均值 (亦即等同 4.56)，而不是基礎資料表中六筆記錄的 *Price* 平均值 (亦即 5.17)。
   
 如果使用 **DirectQuery**(針對相同的關聯來源) 而非 Import，則相同的語意也適用，且結果會完全相同：  
 
@@ -103,15 +103,15 @@ ms.locfileid: "61303773"
 
 上述 SQL Server 範例的對等項就是有一個 SAP HANA 檢視包含 *ID*、*ProductID*、*DepotID*，以及數個包含 *AveragePrice* 的量值 (檢視中定義為「平均價格」  )。  
     
-如果在**取得資料**體驗所做的選擇是**ProductID**並**AveragePrice**量值，則那針對檢視中，要求，來定義查詢彙總資料 （在之前的範例中，為求簡化虛擬 SQL 會使用不符合確切的 SAP HANA SQL 語法）。 然後，在視覺效果中定義的任何進一步彙總都會進一步彙總這類查詢的結果。 同樣地，如上面針對 SQL Server 所述，這同時適用於 Import 和 DirectQuery 案例。 在 DirectQuery 案例中，從查詢**取得資料**或是**查詢編輯器**將用於傳送到 SAP HANA 之單一查詢內的子選擇，因此它是不實際的情況下，會在之前讀取所有資料若要進一步彙總。  
+如果在 [取得資料]  體驗中選取的是 [ProductID]  和 [AveragePrice]  量值，則那是在針對檢視定義查詢，用來要求該彙總資料 (在先前的範例中，為求簡化，使用了不符合確切 SAP HANA SQL 語法的虛擬 SQL)。 然後，在視覺效果中定義的任何進一步彙總都會進一步彙總這類查詢的結果。 同樣地，如上面針對 SQL Server 所述，這同時適用於 Import 和 DirectQuery 案例。 在 DirectQuery 案例中，來自 [取得資料]  或 [查詢編輯器]  的查詢將會用於傳送至 SAP HANA 單一查詢內的部分選取；因此在進一步彙總之前，不會實際讀入所有資料。  
 
 所有這些考量和行為使得使用 SAP HANA DirectQuery 時，必須顧及下列重要考量：  
 
 * 只要 SAP HANA 中的量值是非加法類 (例如，非簡單 *Sum*、*Min* 或 *Max*)，就必須注意視覺效果中所執行的任何進一步彙總。
 
-* 在 [取得資料]  或 [查詢編輯器]  中，只應該包括必要資料行來擷取必要資料，並反映結果將是查詢的事實，而查詢必須是可傳送至 SAP HANA 的合理查詢。 比方說，如果已選取了很多資料行，但考量到他們可能需要在後續的視覺效果，則甚至針對 DirectQuery 簡單視覺效果將表示子選擇中使用的彙總查詢將會包含這幾個資料行，通常會執行效能不佳。
+* 在 [取得資料]  或 [查詢編輯器]  中，只應該包括必要資料行來擷取必要資料，並反映結果將是查詢的事實，而查詢必須是可傳送至 SAP HANA 的合理查詢。 例如，如果選取許多資料行，但考量到後續視覺效果上可能需要這些資料行，則甚至針對 DirectQuery，簡單視覺效果將表示部分選取中所使用的彙總查詢將會包含這幾個資料行，而這樣的執行效果一般會很差。
   
-以下舉例說明。 在下列範例中，於 [取得資料] 對話方塊中選取五個資料行 (**CalendarQuarter** **Color** **LastName** **ProductLine** **SalesOrderNumber**)   以及量值 *OrderQuantity* 意謂著稍後建立包含 Min OrderQuantity 的簡單視覺效果將會導致對 SAP HANA 進行下列 SQL 查詢。 陰影部分是子選擇，其中包含來自 [取得資料]   / [查詢編輯器]  的查詢。 如果這個子選擇提供高的基數結果，則產生的 SAP HANA 效能可能不佳。  
+以下舉例說明。 在下列範例中，於 [取得資料] 對話方塊中選取五個資料行 (**CalendarQuarter** **Color** **LastName** **ProductLine** **SalesOrderNumber**)   以及量值 *OrderQuantity* 意謂著稍後建立包含 Min OrderQuantity 的簡單視覺效果將會導致對 SAP HANA 進行下列 SQL 查詢。 陰影部分是子選擇，其中包含來自 [取得資料]   / [查詢編輯器]  的查詢。 如果這個部分選取提供相當高的基數結果，則產生的 SAP HANA 效能可能不佳。  
 
 ![](media/desktop-directquery-sap-hana/directquery-sap-hana_03.png)
 
@@ -130,7 +130,7 @@ ms.locfileid: "61303773"
 這是因為 Power BI 會使用 SQL 介面來存取 SAP HANA，而透過 SQL 並無法完全存取父子式階層。
 * **其他階層中繼資料** - 在 Power BI 中會顯示階層的基本結構，不過有些階層中繼資料 (例如控制不完全階層的行為) 將不會有任何作用。
 同樣地，這也是 SQL 介面所加諸的限制所造成。
-* **使用 SSL 連線**-您可以使用匯入來進行連線和多維度與 SSL，購買無法連接到 SAP HANA 執行個體設定為使用 SSL 進行關聯式的連接器。
+* **使用 SSL 連線** - 您可以搭配 SSL 使用匯入和多維度進行連線，但無法連線到針對關聯式連接器設為使用 SSL 的 SAP HANA 執行個體。
 * **對屬性檢視的支援** - Power BI 可以連線到 [分析] 和 [計算] 檢視，但無法直接連線到 [屬性] 檢視。
 * **對目錄物件的支援** - Power BI 無法連線到「目錄」物件。
 * **在發佈後對變數進行變更** - 在發佈報表之後，您便無法直接在 Power BI 服務中變更任何 SAP HANA 變數的值。 

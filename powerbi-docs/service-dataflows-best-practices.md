@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c5aeb74277379b46398dc709f5deda1d10dc0926
-ms.sourcegitcommit: 7eb74b060de080152c190ac7eb6b64767f8d6626
+ms.openlocfilehash: c499a83b87eb15031d75974084468f418a17804a
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70919499"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142299"
 ---
 # <a name="dataflows-best-practice"></a>資料流程最佳做法
 
@@ -28,7 +28,7 @@ ms.locfileid: "70919499"
 
 ### <a name="split-ingestion-and-transformation-to-use-the-enhanced-compute-engine"></a>對擷取和轉換進行分割以使用增強計算引擎
 
-建立資料流程時，您可能會想要建立單一資料流程，並使所有實體、轉換、聯結及增強功能都位於單一位置。 對於較小的資料集來說，單一資料流程可能是有效的。 但在處理較大資料量的情況下，執行聯結或某些轉換時可能會遇到節流或記憶體限制。 為了解決那些問題，已針對 Power BI Premium 使用者推出增強引擎，以針對較大的資料量調整規模。 增強計算引擎僅適用於已連結或計算的實體，因此建立適用於擷取的個別資料流程，以及用來執行所有複雜合併及轉換的已連結資料流程，將可受益於增強引擎。
+建立資料流程時，您可能會想要建立單一資料流程，並使所有實體、轉換、聯結及增強功能都位於單一位置。 對於較小的資料集來說，單一資料流程可能是有效的。 但在處理較大資料量的情況下，執行聯結或某些轉換時可能會遇到節流或記憶體限制。 為了解決那些問題，已針對 Power BI Premium 使用者推出增強引擎，以便針對較大的資料量調整規模。 增強計算引擎僅適用於已連結或計算的實體，因此建立適用於擷取的個別資料流程，以及用來執行所有複雜合併及轉換的已連結資料流程，將可受益於增強引擎。
 
 對資料流程進行分割也能為重新整理問題的診斷及偵錯有益，特別是在使用具有節流限制的來源時。
 

@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 09/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5551247307e750624006de71a3c8652376b73fcf
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655161"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175260"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -47,6 +47,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 * [組織視覺效果](#organizational-visuals)
 * [資料流程儲存體 (預覽)](#dataflowStorage)
 * [工作區](#workspaces)
+* [自訂商標](#custom-branding)
 
 ## <a name="usage-metrics"></a>使用計量
 
@@ -522,7 +523,22 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 ![工作區清單](media/service-admin-portal/workspaces-list.png)
 
+## <a name="custom-branding"></a>自訂商標
 
+您身為系統管理員，可以為整個組織自訂 Power BI 的外觀。 目前有三個主要選項：
+
+![[自訂商標] 選項](media/service-admin-portal/power-bi-custom-branding.png)
+
+* **上傳標誌**：為取得最佳結果，請上傳儲存為 .png、10 KB 或更小，且至少為 200 x 30 像素的標誌。
+
+* **上傳封面影像**：為取得最佳結果，請上傳儲存為 .jpg 或 .png、1 MB 或更小，且至少為 1920 x 160 像素的封面影像。
+
+* **選取佈景主題色彩**：您可以根據十六進位 #、RGB、值或從提供的平板中選取您的佈景主題。
+
+
+如需詳細資訊，請參閱[為貴組織自訂商標](http://aka.ms/orgBranding)。
+
+![工作區清單](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>後續步驟
 
 [管理貴組織中的 Power BI](service-admin-administering-power-bi-in-your-organization.md)  

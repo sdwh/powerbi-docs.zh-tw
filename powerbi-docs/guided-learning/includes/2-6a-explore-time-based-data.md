@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 48e553ebd81632cb0baa9a2c9c6a761860c3c9c6
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61253675"
@@ -31,7 +31,7 @@ ms.locfileid: "61253675"
 ![](media/2-6a-explore-time-based-data/2-6a_5.png)
 
 ## <a name="next-steps"></a>後續步驟
-**恭喜您！** 您已完成本節的 Power BI **引導式學習**課程。 既然您已了解*模型化*資料，您準備好深入了解有趣等候下一節中的項目：**視覺效果**。
+**恭喜您！** 您已完成本節的 Power BI **引導式學習**課程。 現在，您已了解為資料「建立模型」  ，即可開始了解下一節中等您來挖掘的有趣項目：**視覺效果**。
 
 之前提過，本課程讓您遵循一般的 Power BI 工作流程來建立您的知識︰
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 4ec7a67b861a747f9f8f654ab9fb3fa5c2951af3
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877797"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175199"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
@@ -38,6 +38,7 @@ ms.locfileid: "70877797"
 
 * [這會怎麼改變我目前管理組織中使用者身分識別的方式？](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [要如何管理 Power BI？](#how-do-we-manage-power-bi)
+* [管理 Microsoft 為使用者所建之租用戶的程序為何？](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [如果有多個網域，我可以控制使用者新增到哪個 Office 365 租用戶嗎？](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [如何移除已註冊使用者的 Power BI？](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [我如何知道有新的使用者加入我的租用戶？](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -172,6 +173,14 @@ Get-MsolCompanyInformation | fl allow*
 Power BI 提供的管理入口網站可讓您檢視使用量統計資料、提供用來管理使用者與群組的 Microsoft 365 系統管理中心連結，以及用來控制租用戶各種設定的能力。
 
 若要使用 Power BI 管理入口網站，您必須將帳戶在 Office 365 或 Azure Active Directory 中標示為**全域管理員**，或是某人必須指派 Power BI 服務系統管理員角色給您的使用者帳戶。 如需詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)與 [Power BI 系統管理入口網站](service-admin-portal.md)。
+
+### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>管理 Microsoft 為使用者所建之租用戶的程序為何？
+
+當自助使用者註冊使用 Azure AD 的雲端服務時，服務會根據他們的電子郵件網域將他們新增到非受控 Azure AD 目錄。 您可以宣告及管理某人使用「系統管理員接管」  程序建立的租用戶。 如需詳細資訊，請參閱[使用 Azure Active Directory 中的系統管理員身分接管非受控目錄](/azure/active-directory/users-groups-roles/domains-admin-takeover)。 您所執行接管類型取決於是否有與您網域建立關聯的現有受控租用戶：
+
+* Power BI 支援內部系統管理員接管。 當您執行非受控 Azure 目錄的「內部」  系統管理員接管時，系統會將您新增為非受控目錄的全域管理員。 系統不會將任何使用者、網域或服務方案移轉至您所管理的其他目錄。
+
+* Power BI 不再支援外部系統管理員接管。 當您執行非受控 Azure 目錄的「外部」  系統管理員接管時，您會將非受控目錄的 DNS 網域名稱新增至受控 Azure 目錄。 當您新增網域名稱時，會在您的受控 Azure 目錄中建立使用者與資源的對應，讓使用者可以繼續存取服務而不會中斷。
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>如果有多個網域，我可以控制使用者新增到哪個 Office 365 租用戶嗎？
 

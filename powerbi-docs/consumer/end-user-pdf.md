@@ -8,39 +8,39 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e15cb6e09ff493512bb1b87939004c851b31fa10
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 66ac187d002c1606f96694bb45a5d44ba2ad2279
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61047953"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141250"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>從 Power BI 將報表匯出至 PDF
 有了 Power BI，您就可以將報表發佈至 PDF 格式，並根據 Power BI 報表輕鬆地建立文件。 當您**匯出至 PDF** 時，Power BI 報表中的每個頁面都會變成 PDF 文件中的個別頁面。
 
 ## <a name="how-to-export-your-power-bi-report-to-pdf"></a>如何將 Power BI 報表匯出至 PDF
-在 Power BI 服務中，選取要顯示在畫布上的報表。 也可以從您的首頁、應用程式，或左側瀏覽窗格上的其他區段選取報表。
+在 Power BI 服務中，選取要顯示在畫布上的報表。 也可以從左側瀏覽列上的 [首頁]、[應用程式]，或其他容器選取報表。
 
-1. 從功能表列中選取 [檔案]   > [匯出至 PDF]  。
+1. 從功能表列中選取 [匯出]   > [PDF]  。
 
-    ![從功能表列選取 [檔案]，將箭頭指向 [匯出至 PDF]](media/end-user-pdf/power-bi-export-pdf.png)
+    ![從功能表列選取 [匯出]，將箭頭指向 [匯出至 PDF]](media/end-user-pdf/power-bi-export.png)
 
-    會出現快顯，其中有選項可供您選取 [目前檢視]  或 [預設檢視]  。  [目前檢視]  會以目前狀態匯出報表，其中包括您對交叉分析篩選器和篩選值進行的有效變更。  大多數使用者會選取此選項。  選取 [預設檢視]  則會以原始狀態 (如同作者共用當下的狀態) 匯出報表，而不會反映您對該原始狀態進行的任何變更。
+    隨即出現快顯視窗，其中有選項可供您選取 [目前的值]  或 [預設值]  。  [目前的值]  會以目前狀態匯出報表，其中包括您對交叉分析篩選器和篩選值進行的有效變更。  大多數使用者會選取此選項。  選取 [預設值]  則會以原始狀態 (如同「設計人員」  共用當下的狀態) 匯出報表，而不會反映您對該原始狀態進行的任何變更。
     
-    另外還會出現核取方塊供您選取是否要匯出報表的隱藏索引標籤。  如果您只要可在瀏覽器中看見的報表索引標籤，只要選取此方塊即可。  如果您希望取得屬於報表的所有隱藏索引標籤，可以不要選取此方塊。  如果選取方塊呈現灰色，即代表報表中沒有任何隱藏索引標籤。  在您選取完成後，請按一下 [匯出] 按鈕繼續。
+    另外還會出現核取方塊供您選取是否要匯出報表的隱藏索引標籤。  如果您只要在瀏覽器中匯出可看見的報表索引標籤，只要核取此方塊即可。  如果您希望取得屬於報表的所有隱藏索引標籤，可以不要選取此方塊。  如果選取方塊呈現灰色，即代表報表中沒有任何隱藏索引標籤。  在您選取完成後，請選取 [匯出] 按鈕繼續。
     
     進度列會顯示在右上角。 匯出可能需要幾分鐘的時間，而您可以在報表匯出時繼續使用 Power BI 工作。
 
-    ![匯出進度訊息](media/end-user-pdf/power-bi-export-message.png)
+    ![匯出進度訊息](media/end-user-pdf/power-bi-export-progress.png)
 
     完成後，通知橫幅隨即變更，讓您知道 Power BI 服務已完成匯出程序。
 
 2. 您可以在瀏覽器顯示下載檔案的位置取得檔案。 在下圖中，是以瀏覽器視窗底部的下載橫幅方式顯示。
 
-    ![下載的檔案位置](media/end-user-pdf/power-bi-save-file.png)
+    ![下載的檔案位置](media/end-user-pdf/power-bi-export-done.png)
 
 就是這麼簡單。 您可以下載檔案，並以任何 PDF 檢視器開啟它，例如 Microsoft Edge 中提供的 PDF 檢視器。
 

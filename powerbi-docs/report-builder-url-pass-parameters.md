@@ -9,16 +9,16 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.date: 08/29/2019
-ms.openlocfilehash: add2f82594d83d1e1f177bfad5045c2e0a34ba84
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: f7f1b777e7c4e54dbdcfb1757fe4df274624a580
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70189361"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075990"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>針對 Power BI 中的編頁報表在 URL 中傳遞報表參數 
 
-您可以藉由將報表參數包含在報表 URL 中，來將其傳遞至報表。 所有查詢參數都可以有對應的報表參數。 因此，您可以藉由傳遞對應的報表參數，來將查詢參數傳遞至報表。 您必須在參數名稱前面加上  `rp:`，Power BI 才能在 URL 中識別它。 
+您可以藉由將報表參數包含在報表 URL 中，來將其傳遞至報表。 所有查詢參數都可以有對應的報表參數。 因此，您可以藉由傳遞對應的報表參數，來將查詢參數傳遞至報表。 您必須在參數名稱前面加上 `rp:`，Power BI 才能在 URL 中加以識別。 
 
 報表參數會區分大小寫，並使用下列特殊字元： 
 
@@ -63,7 +63,7 @@ rp:SalesOrderNumber:isnull=true
 若要傳遞布林值，請使用 0 表示 false，並使用 1 表示 true。 若要傳遞浮點值，請包含伺服器地區設定的小數分隔符號。
 
 > [!NOTE]
-> 如果報表包含具有預設值的報表參數，且  **Prompt**  屬性的值為  **false** (也就是未在報表管理員中選取 [提示使用者]  屬性)，則您無法在 URL 中傳遞該報表參數的值。 這可讓系統管理員選擇防止終端使用者新增或修改特定報表參數的值。
+> 如果報表包含具有預設值的報表參數，且 **Prompt** 屬性的值為 **false** (也就是未在報表管理員中選取 [提示使用者]  屬性)，則您無法在 URL 中傳遞該報表參數的值。 這可讓系統管理員選擇防止終端使用者新增或修改特定報表參數的值。
 
 ## <a name="additional-examples"></a>其他範例 
 
@@ -73,7 +73,7 @@ rp:SalesOrderNumber:isnull=true
 https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d?rp:Salesperson=Tie+Bear&rp:Salesperson=Mickey 
 ```
 
-下列 URL 範例會針對原生模式的報表伺服器，傳遞值為 "7/1/2005" 的單一參數  SellStartDate with。
+下列 URL 範例會針對原生模式的報表伺服器，傳遞值為 "7/1/2005" 的單一參數 SellStartDate。
 
 ```
 https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d?rp:SellStartDate=7/1/2005

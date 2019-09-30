@@ -3,20 +3,19 @@ title: 什麼是儀表板，以及如何開啟它？
 description: 儀表板是 Power BI 服務的重要功能。
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cad6aeeb156534052241d5183a575b222736230a
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608347"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141935"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Power BI 服務取用者的儀表板
 
@@ -54,8 +53,8 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 | 可以看到基礎資料集的資料表和欄位 |否。 可以匯出資料，但看不到儀表板本身的資料表和欄位。 |是。 可以看到資料集資料表和欄位以及值。 |
 
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>儀表板建立者和儀表板取用者
-作為 Power BI ***取用者***，您將收到來自*建立者*的儀表板。 繼續利用下列主題深入了解儀表板：
+## <a name="dashboard-designers-and-dashboard-consumers"></a>儀表板設計師和儀表板取用者
+您身為 Power BI ***取用者***，將收到來自*設計師*的儀表板。 繼續利用下列主題深入了解儀表板：
 
 * [檢視儀表板](end-user-dashboard-open.md)
 * 深入了解[儀表板磚](end-user-tiles.md)以及選取一個磚時會發生什麼情況。

@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 78e5ba4edc84e7dabef17d608c938adc4693145d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61396396"
@@ -14,7 +14,7 @@ ms.locfileid: "61396396"
 
 ![](media/3-8-create-waterfall-funnel-charts/3-8_2.png)
 
-瀑布圖只有兩個值區選項：*類別目錄*並*Y 軸*。 請將以時間為基礎的欄位 (例如 [年]  ) 拖曳到 [類別]  值區，並將您要追蹤的值拖曳到 [Y 軸]  值區。 預設會以綠色顯示數值增加的時間週期，並以紅色顯示數值減少的時間週期。
+瀑布圖只有兩個貯體選項：[類別]  和 [Y 軸]  。 請將以時間為基礎的欄位 (例如 [年]  ) 拖曳到 [類別]  值區，並將您要追蹤的值拖曳到 [Y 軸]  值區。 預設會以綠色顯示數值增加的時間週期，並以紅色顯示數值減少的時間週期。
 
 **漏斗圖**通常用來顯示某個處理程序 (例如準銷售案源或網站保留工作) 的變化。
 

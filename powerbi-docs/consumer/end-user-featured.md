@@ -5,21 +5,20 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5251bf34d7467c2727cdac83c6f6f9faf59aa888
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608615"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141283"
 ---
-# <a name="featured-dashboards-in-power-bi-service"></a>Power BI 服務中的精選儀表板
+# <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI 服務中的精選儀表板
 ## <a name="create-a-featured-dashboard"></a>建立精選儀表板
 許多使用者會有一個比其他任何儀表板更常瀏覽的儀表板。  這可能是用來執行業務的儀表板，或可能是包含來自許多不同儀表板和報告之圖格彙總的儀表板。
 
@@ -52,7 +51,7 @@ ms.locfileid: "65608615"
 1. 遵循上述步驟 1 和 2。
    
     ![變更精選儀表板視窗](./media/end-user-featured/power-bi-change-feature.png)
-2. 選取 [設為精選儀表板]  。 將儀表板移除精選並不會將其從您的工作區中移除。  
+2. 選取 [設為精選儀表板]  。 將儀表板移除精選並不會將其從 Power BI 中移除。  
    
     ![成功訊息](./media/end-user-featured/power-bi-unfeature-new.png)
 

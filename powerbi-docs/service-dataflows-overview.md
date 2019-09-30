@@ -12,12 +12,12 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136349"
 ---
-# <a name="self-service-data-prep-in-power-bi"></a>在 Power BI 中的自助資料準備
+# <a name="self-service-data-prep-in-power-bi"></a>Power BI 中的自助資料準備
 
 隨著資料量持續成長，將該資料整頓為語式正確且可操作之資訊的挑戰也會隨之增加。 我們想要備妥資料以供分析，以填入視覺效果、報表和儀表板，好讓我們可快速地將資料量轉換為可操作的深入解析。 若要針對 Power BI 中的巨量資料使用**自助資料準備**，只需按幾下，就能從資料移至 Power BI 深入解析。
 
@@ -108,10 +108,10 @@ Power BI 也可以連線到含有 Common Data Service 格式且已結構描述�
 此文章提供適用於 Power BI 中巨量資料的自助資料準備概觀，以及您可使用它的許多方式。 下列文章將更詳細討論資料流程的常見使用案例。 
 
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
-* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
+* [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
-* [資料流程和 Azure Data Lake 整合](service-dataflows-azure-data-lake-integration.md)
+* [資料流程與 Azure Data Lake 整合](service-dataflows-azure-data-lake-integration.md)
 
 如需 Power Query 和排程重新整理的詳細資訊，您可以閱讀下列文章：
 * [Power BI Desktop 中的查詢概觀](desktop-query-overview.md)

@@ -1,6 +1,6 @@
 ---
 title: Power BI 中的自動化機器學習 (預覽)
-description: 了解如何在 Power BI 中使用自動化機器學習服務 (AutoML)
+description: 了解如何使用 Power BI 中的自動化機器學習 (AutoML)
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -12,271 +12,271 @@ ms.author: davidi
 LocalizationGroup: conceptual
 ms.openlocfilehash: 894e92687a6283ce71b253bd4dc635aca0c4673f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61236268"
 ---
 # <a name="automated-machine-learning-in-power-bi-preview"></a>Power BI 中的自動化機器學習 (預覽)
 
-自動化 (AutoML) 適用於 machine learning 資料流程可讓商務分析師訓練、 驗證及叫用直接在 Power BI 中的機器學習模型。 它包含簡單的體驗，來建立新的 ML 模型，其中分析師可以使用其資料流程來指定輸入的資料來定型模型。 服務會自動擷取的最相關的功能，選取適當的演算法和微調並驗證 ML 模型。 在定型模型之後，Power BI 會自動產生報表，其中包含說明效能的驗證的結果和分析師的結果。 模型則可以對任何新的或更新的資料在資料流程內叫用。
+適用於資料流程的自動化機器學習 (AutoML) 可讓商務分析師直接在 Power BI 中定型、驗證和叫用機器學習模型。 它包含建立新 ML 模型的簡單體驗，讓分析師可以使用其資料流程來指定用於定型模型的輸入資料。 此服務會自動擷取最相關的功能、選取適當的演算法，並調整和驗證 ML 模型。 在模型定型之後，Power BI 會自動產生一份含驗證結果的報表，以向分析師說明效能和結果。 接著，您即可針對資料流程內的任何新資料或更新資料來叫用模型。
 
-![機器學習服務畫面](media/service-machine-learning-automated/automated-machine-learning-power-bi-01.png)
+![機器學習畫面](media/service-machine-learning-automated/automated-machine-learning-power-bi-01.png)
 
-自動化的機器學習服務可供裝載於 Power BI Premium 和 Embedded 容量的資料流程。 在此預覽中，AutoML 可讓您定型的二元預測、 分類和迴歸模型的機器學習服務模型。
+自動化機器學習僅適用於 Power BI Premium 和 Power BI Embedded 容量上裝載的資料流程。 在此預覽中，AutoML 可讓您為二元預測、分類和迴歸模型進行機器學習模型的定型。
 
 ## <a name="working-with-automl"></a>使用 AutoML
 
-[Power BI 資料流程](service-dataflows-overview.md)提供適用於巨量資料的自助資料準備。 AutoML 可讓您運用您的資料準備工作，來建置機器學習服務模型，直接在 Power BI 中。
+[Power BI 資料流程](service-dataflows-overview.md)提供適用於巨量資料的自助資料準備。 AutoML 可讓您直接在 Power BI 內利用資料準備工作來建立機器學習模型。
 
-在 Power BI 中的 AutoML 可讓建置簡化的體驗，與機器學習服務模型中使用資料流程的資料分析師使用 Power BI 的技巧就。 大部分的 ML 模型建立的資料科學會由 Power BI 中，自動化，以確保所產生之模型有很好的品質和曝光機會，讓您用來建立您的 ML 模型的程序的完整深入 guardrails 使用。
+Power BI 中的 AutoML 可讓資料分析師單純使用 Power BI 的技能，透過簡化體驗來使用資料流程建立機器學習模型。 Power BI 會將建立 ML 模型所需的大部分資料科學自動化、透過邊界來確保產生的模型具有良好品質，並讓您取得 ML 模型建立所用程序的完整見解。
 
-AutoML 支援建立**二元預測**，**分類**，並**迴歸**資料流程的模型。 這些是受監督的機器學習模型，這表示他們了解從過去的觀察值，以預測其他的觀察值的結果，已知結果的類型。 定型 AutoML 模型的輸入資料集是一組記錄所**標示為**與已知的結果。
+AutoML 支援建立資料流程的**二元預測**、**分類**和**迴歸**模型。 上述是監督式機器學習模型的類型，這表示它們會從過去觀察的已知結果中學習，以預測其他觀察的結果。 您會使用一組含已知結果**標示**的記錄，作為定型 AutoML 模型的輸入資料集。
 
-整合 Power BI 中的 AutoML[自動化 ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml)從[Azure Machine Learning 服務](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)來建立您的 ML 模型。 不過，您不需要使用 AutoML Power BI 中的 Azure 訂用帳戶。 訓練和裝載 ML 模型的程序是完全由 Power BI 服務管理。
+Power BI 中的 AutoML 會整合 [Azure Machine Learning 服務](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)的[自動化 ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml)，以建立您的 ML 模型。 不過，您不需要 Azure 訂用帳戶，就能在 Power BI 中使用 AutoML。 ML 模型的定型和裝載程序完全由 Power BI 服務來管理。
 
-在定型的 ML 模型之後，AutoML 會自動產生說明可能的效能的 ML 模型的 Power BI 報表。 AutoML 強調 explainability，反白您影響您的模型傳回預測的輸入之間的關鍵影響因數。 此報表也包含重要計量給模型，根據 ML 模型類型而定。
+在 ML 模型定型之後，AutoML 會自動產生 Power BI 報表，說明您 ML 模型可能的效能情況。 AutoML 會醒目提示您輸入中影響模型所傳回預測的關鍵影響因數，以強調可解釋性。 這份報表也會包含模型的關鍵計量 (視 ML 模型類型而定)。
 
-所產生報告的其他頁面會顯示模型訓練詳細資料的統計摘要。 統計摘要是效能的想要看到的模型標準的資料科學量值的使用者感興趣。 訓練詳細資料摘要說明所有的反覆項目相關聯的模型參數以建立您的模型執行。 它也會描述每個輸入用來建立 ML 模型的方式。
+在產生的報表中，其他頁面會顯示模型的統計摘要和定型詳細資料。 如果使用者想要查看模型效能的標準資料科學量值，則可以參閱統計摘要。 定型詳細資料會摘要所有執行的反覆運算，並使用相關聯的模型參數，以建立您的模型。 它也會描述如何使用每項輸入來建立 ML 模型。
 
-您接著可以套用到您的資料進行評分的 ML 模型。 重新整理資料流程時，您的 ML 模型的預測會自動套用到您的資料。 Power BI 也包含個人化的 ML 模型會產生每個特定的預測分數的說明。
+接著，您可以對 ML 模型套用資料以進行評分。 重新整理資料流程時，系統即會將 ML 模型的預測自動套用至資料。 Power BI 也會個別說明 ML 模型所產生的每個特定預測分數。
 
-## <a name="creating-a-machine-learning-model"></a>建立機器學習服務模型
+## <a name="creating-a-machine-learning-model"></a>建立機器學習模型
 
-本節說明如何建立 AutoML 學習模型。 
+本節描述如何建立 AutoML 學習模型。 
 
 ### <a name="data-prep-for-creating-an-ml-model"></a>建立 ML 模型的資料準備
 
-若要在 Power BI 中建立的機器學習模型，您必須先建立資料流程的資料與可用於定型的 ML 模型的歷程記錄的結果資訊。 如需有關設定至資料流程的詳細資訊，請參閱[在 Power BI 中的自助資料準備](service-dataflows-overview.md)。
+若要在 Power BI 中建立機器學習模型，您必須先使用歷史結果資訊來建立資料的資料流程，以用於定型 ML 模型。 如需設定資料流程的詳細資料，請參閱 [Power BI 中的自助資料準備](service-dataflows-overview.md)。
 
-在目前的版本中，Power BI 會使用來自單一實體的資料來定型的 ML 模型。 因此如果您的歷程記錄資料包含多個實體，您必須到單一資料流程實體以手動方式加入資料。 您也應該新增任何可能會嘗試預測結果的強式預測值的商務計量的導出資料行。
+在目前版本中，Power BI 只會使用單一實體的資料來定型 ML 模型。 因此，如果您的歷史結果資料是由多個實體所組成，您就必須手動將資料聯結到單一資料流程實體中。 針對您嘗試預測的結果，您也應該為任何可能是強式預測的業務計量新增計算結果欄。
 
-AutoML 有特定的資料來定型機器學習模型的需求。 這些需求各節所述，根據個別的模型型別。
+AutoML 具備用來定型機器學習模型的特定資料需求。 下列各節會根據各自的模型類型來描述這些需求。
 
 ### <a name="configuring-the-ml-model-inputs"></a>設定 ML 模型輸入
 
-若要建立 AutoML 模型，選取 ML 圖示**動作**資料行的歷程記錄資料，然後選取資料流程實體**新增機器學習服務模型**。
+若要建立 AutoML 模型，請選取資料流程實體 (含歷史資料) [動作]  資料行中的 ML 圖示，然後選取 [新增機器學習模型]  。
 
-![新增機器學習服務模型](media/service-machine-learning-automated/automated-machine-learning-power-bi-02.png)
+![新增機器學習模型](media/service-machine-learning-automated/automated-machine-learning-power-bi-02.png)
 
-簡化的體驗就會啟動，其中包含一個精靈，引導您完成建立 ML 模型的程序。 此精靈包含下列簡單的步驟。
+我們已推出簡化的體驗，其中所包含精靈會引導您完成建立 ML 模型的程序。 此精靈包含下列簡單的步驟。
 
-1. 選取歷程記錄的結果資料，與您想要預測的欄位實體
-2. 選擇您想要看到的預測類型所根據的模型型別
-3. 選取您想要做為預測的訊號模型的輸入
-4. 命名您的模型，並儲存您的組態
+1. 選取含歷史結果資料的實體，以及您想要預測的欄位
+2. 根據您想要查看的預測類型來選擇模型類型
+3. 選取您想要讓模型作為預測性訊號的輸入
+4. 命名您的模型並儲存設定
 
-[歷程記錄結果] 欄位會識別用於定型的 ML 模型，如下圖所示的標籤屬性。
+[歷史結果] 欄位會識別用來定型 ML 模型的標籤屬性，如下圖所示。
 
-![選取歷程記錄的結果資料](media/service-machine-learning-automated/automated-machine-learning-power-bi-03.png)
+![選取歷史結果資料](media/service-machine-learning-automated/automated-machine-learning-power-bi-03.png)
 
-當您指定 [歷程記錄結果] 欄位時，AutoML 分析來識別該資料可以訓練的 ML 模型類型的標籤資料，並建議最有可能的 ML 模型類型，可以進行訓練。 
+當您指定 [歷史結果] 欄位時，AutoML 會分析標籤資料，以識別可針對該資料定型的 ML 模型類型，並建議最可能成功定型的 ML 模型類型。 
 
 > [!NOTE]
-> 您已選取的資料時，可能不支援某些模型類型。
+> 某些模型類型可能不支援您選取的資料。
 
-AutoML 也會分析選取的實體來建議可以用於定型的 ML 模型的輸入中的所有欄位。 此程序是一個約略值，並為基礎統計分析，因此您應該檢閱可用的輸入。 任何相依於歷程記錄的結果欄位 （或 [標籤] 欄位） 的輸入不應該用於定型的 ML 模型，因為它們會影響其效能。
+AutoML 也會分析所選實體中的所有欄位，以建議可用來定型 ML 模型的輸入。 此程序是以統計分析為基礎的約略情況，因此您應該檢查所使用的輸入。 您不應該使用任何相依於 [歷史結果] 欄位 (或標籤欄位) 的輸入來定型 ML 模型，因為它們會影響其效能。
 
 ![自訂輸入欄位](media/service-machine-learning-automated/automated-machine-learning-power-bi-04.png)
 
-在最後一個步驟中，您可以將模型，並儲存其設定。
+在最後一個步驟中，您可以為模型命名並儲存其設定。
 
-在這個階段，系統會提示您重新整理資料流程，開始 ML 模型訓練程序。
+在這個階段，系統會提示您重新整理資料流程，以開始 ML 模型的定型程序。
 
-### <a name="ml-model-training"></a>ML 模型訓練
+### <a name="ml-model-training"></a>ML 模型定型
 
-AutoML 模型的訓練是資料流程重新整理的一部分。 AutoML 先準備您的資料進行訓練。
+AutoML 模型的定型是資料流程重新整理的一部分。 AutoML 會先準備您的資料以進行定型。
 
-AutoML 會分割成定型和測試資料集，您提供的歷程記錄資料。 測試資料集是用來驗證之後訓練的模型效能鑑效組集。 這些會實現成**定型集和測試**在資料流程中的實體。 AutoML 使用交叉驗證的模型驗證。
+AutoML 會將您提供的歷史資料分割成訓練和測試資料集。 測試資料集是一種鑑效組，可用來驗證模型訓練後的效能。 這些項目會在資料流程中以**訓練和測試**實體呈現。 AutoML 會使用交叉驗證來進行模型驗證。
 
-接下來，就會分析每個輸入的欄位，而且會套用插補，其中的替代值取代任何遺漏值。 AutoML 會使用幾個不同的插補的策略。 然後，任何必要的取樣和正規化會套用到您的資料。
+接下來，系統會分析每個輸入欄位並套用插補，以將任何遺漏值取代為替代值。 AutoML 會使用幾種不同的插補策略， 並對資料套用任何必要的取樣和正規化。
 
-AutoML 適用於數個轉換是每個選取的輸入的欄位，根據其資料類型和其統計屬性。 AutoML 會使用這些轉換，來擷取您的 ML 模型定型中使用的功能。
+AutoML 會根據每個所選輸入欄位的資料類型以及統計屬性，對其套用數種轉換。 AutoML 會使用這些轉換來擷取功能，以用來訓練您的 ML 模型。
 
-AutoML 模型定型程序是由使用不同的模型化演算法和超參數的設定，以找出效能最好的模型最多可到 50 個反覆項目所組成。 使用鑑效組測試資料集的驗證被評估每個這些模型的效能。 此訓練步驟期間，AutoML 會建立數條管線，適用於定型和驗證這些反覆項目。 評估模型效能的程序可能需要時間，任何位置從數分鐘到幾個小時，視您的資料集和可用的專用的容量資源的大小而定。
+AutoML 模型的訓練程序包含高達 50 個反覆運算，其中具有不同的模型化演算法和超參數設定，以找出效能最佳的模型。 其中每個模型的效能都是透過鑑效組的測試資料集驗證來進行評估。 在此訓練步驟中，AutoML 會建立數個管線來訓練和驗證這些反覆運算。 評估模型效能的程序可能需要一些時間 (從數分鐘到幾個小時)，視您的資料集大小和可用專用容量資源而定。
 
-在某些情況下，產生的最終模型可以使用集團學習，其中有多個模型可用來提供更好預測的效能。
+在某些情況下，最終產生的模型可能會使用集成學習，以使用多個模型來提供更佳的預測效能。
 
-### <a name="automl-model-explainability"></a>AutoML 模型 explainability
+### <a name="automl-model-explainability"></a>AutoML 模型的可解釋性
 
-在訓練模型之後，AutoML 會分析輸入的功能與模型輸出之間的關聯性。 它會評估的大小和方向的鑑效組測試資料集，每一個輸入功能的模型輸出的變更。 這就所謂*特徵重要性*。
+模型定型之後，AutoML 會分析輸入功能和模型輸出之間的關聯性。 它會針對每個輸入功能的鑑效組測試資料集，評估模型輸出的變化大小和方向。 這就是所謂的「功能重要性」  。
 
 ![功能重要性](media/service-machine-learning-automated/automated-machine-learning-power-bi-05.png)
 
 ### <a name="automl-model-report"></a>AutoML 模型報表
 
-AutoML 產生摘要說明在驗證期間，以及通用的功能重要性的效能模型的 Power BI 報表。 報表摘要說明將 ML 模型套用至鑑效組測試資料，並比較已知的結果值與預測的結果。
+AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全域功能重要性。 此報表摘要說明對 ML 模型套用鑑效組測試資料，並將預測與已知結果值進行比較的結果。
 
-您可以檢閱模型報表來了解其效能。 您也可以驗證模型的關鍵影響因數配合商務深入解析已知的結果。
+您可以檢閱模型報表來了解其效能。 您也可以驗證模型之關鍵影響因素是否符合已知結果的商業見解。
 
-圖表和量值，用來描述在報表中的模型效能取決於模型類型。 下列各節會說明這些效能圖表和量值。
+報表中用來描述模型效能的圖表和量值是依據模型類型而定。 下列各節將描述這些效能圖表和量值。
 
-在報表中的其他頁面可能需從資料科學觀點模型描述統計量值。 比方說，**二元預測**報表包括改善圖表和模型的 ROC 曲線。
+報表中其他頁面可能會從資料科學角度來描述模型的相關統計量值。 例如，**二元預測**報表包含模型的增益圖和 ROC 曲線。
 
-報告中也包含**訓練細節**執行包含的模型定型，以及包含描述模型效能，透過每個反覆項目圖表描述的頁面。
+這些報表也包括 [定型詳細資料]  頁面，其中含有模型定型方式的描述，並包含一個圖表，描述每個反覆運算執行下的模型效能。
 
 ![定型詳細資料](media/service-machine-learning-automated/automated-machine-learning-power-bi-06.png)
 
-在此頁面上的另一節會說明如何插補方法，用於填滿遺漏值的輸入欄位中，以及如何擷取模型中使用的功能已轉換的每個輸入的欄位。 它也包含最終的模型所使用的參數。
+此頁面上另一個區段描述如何使用插補方法來填入輸入欄位的遺漏值，以及如何轉換每個輸入欄位以擷取模型中所使用的功能。 它也包括最終模型所使用的參數。
 
 ![模型的詳細資訊](media/service-machine-learning-automated/automated-machine-learning-power-bi-07.png)
 
-如果產生此模型使用集團學習，則**訓練細節**頁面也包含描述每個構成模型集團，以及其參數的加權的區段。
+如果產生的模型使用集成學習，則 [定型詳細資料]  頁面也會包含一個區段，描述集成中每個組成模型的權數，以及其參數。
 
-![集團中的權重](media/service-machine-learning-automated/automated-machine-learning-power-bi-08.png)
+![集成中的權數](media/service-machine-learning-automated/automated-machine-learning-power-bi-08.png)
 
 ## <a name="applying-the-automl-model"></a>套用 AutoML 模型
 
-如果您滿意所建立的 ML 模型的效能，您可以將它套用至新的或更新的資料重新整理您的資料流程時。 您可以從模型的報表中，選取**套用**右上角的按鈕。
+如果您對所建立的 ML 模型效能感到滿意，可以在重新整理資料流程時，對其套用新資料或更新的資料。 您可以選取模型報表右上角的 [套用]  按鈕，來執行此動作。
 
-若要套用的 ML 模型，您必須指定將會加入至模型輸出的這個實體的資料行必須套用它，實體和前置詞的名稱。 資料行名稱的預設前置詞是模型名稱。 *套用*函式可能包含模型類型特有的其他參數。
+若要套用 ML 模型，您必須指定要對其套用的實體名稱，以及要針對模型輸出新增至此實體的資料行前置詞。 資料行名稱的預設前置詞是模型名稱。 *Apply* 函式可能包含模型類型特定的其他參數。
 
-將 ML 模型套用後置詞建立新的資料流程實體**豐富 < model_name >** 。 比方說，如果您套用_PurchaseIntent_模型到_OnlineShoppers_實體，輸出將會產生**OnlineShoppers 豐富 PurchaseIntent**。
+當您套用 ML 模型時，即會建立新的資料流程實體，後置詞為 **enriched <model_name>** 。 例如，如果您將 _PurchaseIntent_ 模型套用至 _OnlineShoppers_ 實體，輸出將會產生 **OnlineShoppers enriched PurchaseIntent**。
 
-目前，輸出實體不能用於預覽中的 Power Query 編輯器 ML 模型的結果。 輸出資料行一定會顯示 null 做為結果。 若要檢視結果，第二個輸出後置詞的實體**豐富 < model_name > 預覽**套用模型時建立。
+目前，您無法在 Power Query 編輯器中使用輸出實體來預覽 ML 模型結果。 輸出資料行一律會顯示 null 作為結果。 為了檢視結果，系統會在套用模型時建立第二個輸出實體，後置詞為 **enriched <model_name> Preview**。
 
-您必須重新整理預覽結果在 [查詢編輯器] 中的資料流程。
+您必須重新整理資料流程，以在查詢編輯器中預覽結果。
 
 ![查詢編輯器](media/service-machine-learning-automated/automated-machine-learning-power-bi-09.png)
 
-當您將模型套用 AutoML 一律會保留您預測最新重新整理資料流程時。
+當您套用模型時，AutoML 一律會在重新整理資料流程時，將您的預測保持在最新狀態。
 
-AutoML 也會包含輸出實體中的個人化的說明，每個資料列，其分數。
+AutoML 也會包含輸出實體中所評分每個資料列的個別說明。
 
-若要在 Power BI 報表中使用的深入解析及從 ML 模型的預測，您可以從連接到輸出實體使用 Power BI Desktop**資料流程**連接器。
+若要在 Power BI 報表中使用 ML 模型的見解和預測，您可以使用**資料流程**連接器從 Power BI Desktop 連接到輸出實體。
 
 ## <a name="binary-prediction-models"></a>二元預測模型
 
-二進位的預測模型，稱為更正式的說法**二元分類模型**，可用來分類資料集分成兩個群組。 會使用它們來預測可以有二進位結果，例如是否會將轉換的銷售機會，不論帳戶將會流失，是否準時; 支付發票的事件交易是否詐騙，依此類推。
+二元預測模型的正式名稱為**二元分類模型**，可用來將資料集分類成兩個群組。 它們可用來預測可能具有二元結果的事件，例如銷售商機是否轉換、帳戶是否會變換、發票是否能準時支付、交易是否為詐騙等。
 
-由於結果是二進位，Power BI 會預期二元預測模型必須為布林值，與已知結果被標示為標籤 **，則為 true**或是**false**。 比方說，在銷售良機轉換模型中，已贏得的銷售機會標示，則為 true，已遺失標示為 false，並已開啟的銷售商機標示 null。
+由於結果是二元，因此 Power BI 預期二元預測模型的標籤必須是布林值，且已知的結果會標示 **true** 或 **false**。 例如，銷售商機轉換模型會將已獲得的銷售商機標示為 true，將已流失的商機標示為 false，並將開放的銷售商機標示為 null。
 
-二元預測模型的輸出是機率分數，用來識別對應到標籤值，則為 true 的結果將會達到的可能性。
+二元預測模型的輸出是機率分數，它會識別可達成對應至 true 標籤值之結果的可能性。
 
-### <a name="training-a-binary-prediction-model"></a>定型的二元預測模型
+### <a name="training-a-binary-prediction-model"></a>定型二元預測模型
 
-若要建立二進位的預測模型，包含將訓練資料的輸入的實體必須的布林值欄位來識別過去的已知的結果的 [歷程記錄結果] 欄位。
+若要建立二元預測模型，您的輸入實體 (包含定型資料) 必須將布林值欄位作為歷史結果欄位，以識別過去已知的結果。
 
 必要條件：
 
-* 必須為歷程記錄的結果欄位使用的布林值欄位
-* 50 個歷程記錄資料列至少須具備結果的每個類別
+* 您必須將布林值欄位作為歷史結果欄位
+* 每個結果類別都需要最少 50 個資料列的歷史資料
 
-一般情況下，如果過去的結果由不同的資料類型的欄位，您可以新增要轉換成布林值，使用 Power Query 的這些導出資料行。
+一般來說，如果過去結果是由不同資料類型的欄位所識別，您可以新增計算結果欄，以使用 Power Query 將它們轉換成布林值。
 
-建立的程序的二進位的預測模型會遵循相同步驟其他 AutoML 模型，一節所述**設定 ML 模型輸入**上方。
+建立二元預測模型的程序步驟與其他 AutoML 模型相同，如上方＜設定 ML 模型輸入＞  一節中所述。
 
-### <a name="binary-prediction-model-report"></a>二進位預測模型的報表
+### <a name="binary-prediction-model-report"></a>二元預測模型報表
 
-二元預測模型產生做為輸出的記錄，以達到結果為 True 的布林值的標籤值所定義的機率。 此報表包含交叉分析篩選器的機率臨界值，會影響上方和下方的機率臨界值的分數的解譯方式。
+二元預測模型會產生一個機率結果，其為可達到 True 布林值標籤值所定義結果的記錄。 這份報表包含機率臨界值的交叉分析篩選器，它會影響高於和低於機率臨界值的分數解讀方式。
 
-報表描述的模型效能*真肯定*，*誤判*，*真否定*並*誤否定*. 真肯定和真否定是兩個類別中的結果資料的正確預測的結果。 誤肯定會有實際的布林值標籤的值為 False，但預測為 True 的結果。 相反地，誤否定是實際的布林值標籤值為 True，但預測為 False 的結果。
+報表會以「確判為真」  、「誤判為真」  、「確判為否」  和「誤判為否」  的角度來描述模型的效能。 「確判為真」和「確判為否」可針對結果資料中的兩種類別正確預測結果。 「誤判為真」是指實際布林值標籤值為 False，但預測為 True 的結果。 相反地，「誤判為否」是實際布林值標籤值為 True，但預測為 False 的結果。
 
-量值，例如精確度與回收，說明預測結果的機率臨界值的效果。 您可以使用機率臨界值交叉分析篩選器選取可達到精確度與回收之間取得折衷平衡臨界值。
+量值 (例如精確度和召回率) 可描述預測結果的機率臨界值效果。 您可以使用機率臨界值交叉分析篩選器選取臨界值，以在精確度和召回率之間達到平衡的折衷。
 
-![精確度預覽](media/service-machine-learning-automated/automated-machine-learning-power-bi-10.png)
+![正確性預覽](media/service-machine-learning-automated/automated-machine-learning-power-bi-10.png)
 
-**精確度報表**模型報表的頁面包含*累計獲益*圖表和 ROC 曲線的模型。 這些是模型效能的統計量值。 報告包含圖表所示的描述。
+模型報表的 [正確性報表]  頁面包括模型的「累計增益」  圖表和 ROC 曲線。 這些是模型效能的統計量值。 報表包含所示圖表的描述。
 
-![精確度報表畫面](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
+![正確性報表畫面](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
 
 ### <a name="applying-a-binary-prediction-model"></a>套用二元預測模型
 
-若要套用的二元預測模型，您必須指定實體與您要套用的 ML 模型的預測的資料。 其他參數包含輸出資料行名稱前置詞和分類的預測的結果的機率臨界值。
+若要套用二元預測模型，您必須指定實體，其中包含您想要對其套用 ML 模型預測的資料。 其他參數包括輸出資料行名稱前置詞與機率臨界值，以用來分類預測結果。
 
-![預測的輸入](media/service-machine-learning-automated/automated-machine-learning-power-bi-12.png)
+![預測輸入](media/service-machine-learning-automated/automated-machine-learning-power-bi-12.png)
 
-套用二元預測模型時，它會將三個輸出資料行加入至已充實的輸出實體中。 這些是**PredictionScore**， **PredictionOutcome**並**PredictionExplanation**。 在實體中的資料行名稱有時將模型套用指定的前置詞。
+當您套用二元預測模型時，系統會將三個輸出資料行新增至擴充的輸出實體。 這些分別是 **PredictionScore**、**PredictionOutcome** 和 **PredictionExplanation**。 實體中的資料行名稱會使用套用模型時所指定前置詞。
 
-**PredictionOutcome**資料行包含預測的結果的標籤。 記錄超過臨界值的機率預測為可能達到的結果，並指低於 「 預測為可能無法達到的結果。
+**PredictionOutcome** 資料行包含預測的結果標籤。 系統會將機率超過臨界值的記錄預測為可能達到結果，並將下列情況預測為不太可能達到結果。
 
-**PredictionExplanation**資料行包含與輸入的特徵有特定影響解釋**PredictionScore**。 這是 JSON 格式的集合加權為預測的輸入功能。
+**PredictionExplanation** 資料行包含說明，以及輸入功能對 **PredictionScore** 的特定影響。 這是用於預測之輸入功能權數的 JSON 格式化集合。
 
 ## <a name="classification-models"></a>分類模型
 
-若要將資料集分類成多個群組或類別會使用分類模型。  會使用它們來預測可以有多個可能的結果，例如客戶是否可能有極高、 高、 中或低的存留時間值; 其中的事件預設的風險是高、 中度、 低或極低;等等。
+分類模型可用來將資料集分類為多個群組或類別。  它們是用來預測可能有多個可能結果之一的事件，例如客戶是否可能有非常高、高、中或低的存留期值；預設的風險是高、中、低或非常低等。
 
-分類模型的輸出是機率分數，識別一筆記錄，以達到特定類別的準則的可能性。
+分類模型的輸出是機率分數，可識別記錄將達到特定類別之準則的可能性。
 
-### <a name="training-a-classification-model"></a>定型分類模型
+### <a name="training-a-classification-model"></a>訓練分類模型
 
-輸入包含您的分類模型的訓練資料的實體必須具有和歷程記錄的結果欄位中，用來識別過去的已知的結果的字串或數值的欄位。
+輸入實體 (包含分類模型的定型資料) 必須將字串或數值欄位作為歷史結果欄位，以識別過去已知的結果。
 
 必要條件：
 
-* 50 個歷程記錄資料列至少須具備結果的每個類別
+* 每個結果類別都需要最少 50 個資料列的歷史資料
 
-建立的程序的分類模型會遵循相同步驟，其他 AutoML 模型，一節所述**設定 ML 模型輸入**上方。
+建立分類模型的程序步驟與其他 AutoML 模型相同，如上方＜設定 ML 模型輸入＞  一節中所述。
 
-### <a name="classification-model-report"></a>分類模型的報表
+### <a name="classification-model-report"></a>分類模型報表
 
-分類模型的報表會產生將 ML 模型套用至鑑效組測試資料和比較的一筆記錄的實際已知類別與預測的類別。
+分類模型報表的產生方式是對 ML 模型套用鑑效組測試資料，並將記錄的預測類別與實際已知類別進行比較。
 
-模型報告包含圖表，其中包含的每個已知類別的正確和錯誤分類記錄分解。
+模型報表包含一個圖表，其中包含每個已知類別的正確和不正確分類記錄明細。
 
 ![模型報表](media/service-machine-learning-automated/automated-machine-learning-power-bi-13.png)
 
-進一步特定類別的向下鑽研可讓分析如何散發已知類別的預測。 這包括其他類別中的已知類別的記錄是可能會被歸類。
+類別特定之深入向下鑽研可讓您分析已知類別的預測分佈情況。 這包括其他類別，其中包含可能會將該已知類別分錯類別的記錄。
 
 ![分析報表](media/service-machine-learning-automated/automated-machine-learning-power-bi-14.png)
 
-在報表中的模型說明也包含每個類別最上層的預測值。
+報表中的模型說明也包含每個類別的最上層預測指標。
 
-分類模型的報表也包含訓練詳細資料 頁面類似於其他模型類型，如頁面一節中所述**AutoML 模型報表**稍早在這篇文章。
+分類模型報表也包含 [定型詳細資料] 頁面 (類似於其他模型類型的頁面)，如本文稍早的＜AutoML 模型報表＞  一節中所述。
 
 ### <a name="applying-a-classification-model"></a>套用分類模型
 
-若要套用的分類 ML 模型，您必須使用輸入的資料和輸出資料行名稱前置詞指定的實體。
+若要套用分類 ML 模型，您必須使用輸入資料和輸出資料行名稱前置詞來指定實體。
 
-套用分類模型時，它會新增三個輸出資料行加入豐富的輸出實體。 這些是**PredictionScore**， **PredictionClass**並**PredictionExplanation**。 在實體中的資料行名稱有時將模型套用指定的前置詞。
+當您套用類別模型時，系統會將三個輸出資料行新增至擴充的輸出實體。 這些分別是 **PredictionScore**、**PredictionClass** 和 **PredictionExplanation**。 實體中的資料行名稱會使用套用模型時所指定前置詞。
 
-**PredictionClass**資料行包含資料錄的最有可能的預測類別。 **PredictionScore**資料行包含的每個可能的類別的記錄機率分數的清單。
+**PredictionClass** 資料行包含最可能的記錄預測類別。 **PredictionScore** 資料行包含每個可能類別的記錄機率分數清單。
 
-**PredictionExplanation**資料行包含與輸入的特徵有特定影響解釋**PredictionScore**。 這是 JSON 格式的集合加權為預測的輸入功能。
+**PredictionExplanation** 資料行包含說明，以及輸入功能對 **PredictionScore** 的特定影響。 這是用於預測之輸入功能權數的 JSON 格式化集合。
 
 ## <a name="regression-models"></a>迴歸模型
 
-會使用迴歸模型來預測的值，例如可能會帶來什麼銷售交易的存留時間值的帳戶，應收帳款的發票可能要支付，可能會在其支付發票的日期數量的營收依此類推。
+迴歸模型可用來預測值，例如可能從銷售交易實現的收益、帳戶的存留期值、可能收取的應收發票金額、可能的發票支付日期等等。
 
-迴歸模型的輸出是預測的值。
+迴歸模型的輸出是預測值。
 
-### <a name="training-a-regression-model"></a>定型的迴歸模型
+### <a name="training-a-regression-model"></a>定型迴歸模型
 
-輸入包含迴歸模型的定型資料的實體必須具有與歷程記錄的結果欄位中，用來識別過去的已知的結果值的數值欄位。
+輸入實體 (包含迴歸模型的定型資料) 必須將數值欄位作為歷史結果欄位，以識別過去已知的結果。
 
 必要條件：
 
-* 歷程記錄資料的 100 個資料列至少須具備迴歸模型
+* 每個回歸模型都需要最少 100 個資料列的歷史資料
 
-建立的程序的迴歸模型會遵循相同步驟，其他 AutoML 模型，一節所述**設定 ML 模型輸入**上方。
+建立迴歸模型的程序步驟與其他 AutoML 模型相同，如上方＜設定 ML 模型輸入＞  一節中所述。
 
-### <a name="regression-model-report"></a>迴歸模型的報表
+### <a name="regression-model-report"></a>迴歸模型報表
 
-其他 AutoML 模型跟報表一樣，迴歸報表根據將模型套用的鑑效組測試資料的結果。
+如同其他 AutoML 模型報表一樣，迴歸報表是以對模型套用鑑效組測試資料的結果為基礎。
 
-模型報表包含比較實際值的預測的值的圖表。 在此圖中，從對角線的距離會指示預測中的錯誤訊息。
+模型報表包含比較預測值與實際值的圖表。 在此圖表中，對角線的距離會指出預測誤差。
 
-剩餘的錯誤圖表會顯示在鑑效組測試資料集中的不同值的平均誤差百分比的分佈。 水平軸代表群組的實際值的平均值在該範圍內顯示的頻率或值計數的泡泡圖的大小。 垂直軸是平均的剩餘項目時發生錯誤。
+剩餘誤差圖表會顯示鑑效組測試資料集中不同值的平均誤差百分比分佈情況。 水平軸代表群組實際值的平均值，而泡泡大小則顯示該範圍內值的頻率或計數。 垂直軸是平均剩餘誤差。
 
-![剩餘的錯誤圖表](media/service-machine-learning-automated/automated-machine-learning-power-bi-15.png)
+![剩餘誤差圖表](media/service-machine-learning-automated/automated-machine-learning-power-bi-15.png)
 
-迴歸模型的報表也包含其他模型類型，報表的訓練詳細資料頁面一節中所述**AutoML 模型報表**上方。
+迴歸模型報表也包含 [定型詳細資料] 頁面 (類似於其他模型類型的頁面)，如上方＜AutoML 模型報表＞  一節中所述。
 
 ### <a name="applying-a-regression-model"></a>套用迴歸模型
 
-若要套用的迴歸 ML 模型，您必須使用輸入的資料和輸出資料行名稱前置詞指定的實體。
+若要套用迴歸 ML 模型，您必須使用輸入資料和輸出資料行名稱前置詞來指定實體。
 
-![適用於迴歸](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
+![套用迴歸](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
 
-套用迴歸模型時，它會將兩個輸出資料行加入至已充實的輸出實體中。 這些是**PredictionValue**，並**PredictionExplanation**。 在實體中的資料行名稱有時將模型套用指定的前置詞。
+當您套用迴歸模型時，系統會將兩個輸出資料行新增至擴充的輸出實體。 這兩個資料行是 **PredictionValue** 和 **PredictionExplanation**。 實體中的資料行名稱會使用套用模型時所指定前置詞。
 
-**PredictionValue**資料行包含預測的值的輸入欄位為基礎之資料錄。 **PredictionExplanation**資料行包含與輸入的特徵有特定影響解釋**PredictionValue**。 這是 JSON 格式的輸入特徵權數的集合。
+**PredictionValue** 資料行包含的預測值，是以記錄的輸入欄位為依據。 **PredictionExplanation** 資料行包含說明，以及輸入功能對 **PredictionValue** 的特定影響。 這是輸入功能權數的 JSON 格式化集合。
 
 ## <a name="next-steps"></a>後續步驟
 
-本文提供 Power BI 服務中的資料流程自動化機器學習服務的概觀。 下列文件也很有用。
+本文提供 Power BI 服務的資料流程自動化機器學習概觀。 下列文章可能也很實用。
 
-* [教學課程：建立 Power BI （預覽） 中的機器學習服務模型](service-tutorial-build-machine-learning-model.md)
+* [教學課程：在 Power BI 中建置機器學習模型 (預覽)](service-tutorial-build-machine-learning-model.md)
 * [教學課程：在 Power BI 中使用認知服務](service-tutorial-use-cognitive-services.md)
 * [教學課程：在 Power BI 中叫用 Machine Learning Studio 模型 (預覽)](service-tutorial-invoke-machine-learning-model.md)
 * [Power BI 中的認知服務 (預覽)](service-cognitive-services.md)
@@ -284,8 +284,8 @@ AutoML 也會包含輸出實體中的個人化的說明，每個資料列，其�
 
 如需有關資料流程的詳細資訊，您可以閱讀下列文章：
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
-* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
+* [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 * [資料流程與 Azure Data Lake 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)
 
