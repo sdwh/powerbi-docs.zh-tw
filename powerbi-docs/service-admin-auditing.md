@@ -1,5 +1,5 @@
 ---
-title: 使用您組織內的稽核
+title: 在組織內使用稽核
 description: 了解您可以如何使用 Power BI 的稽核來監視和調查所執行的動作。 您可以使用安全與合規性中心或使用 PowerShell。
 author: mgblythe
 manager: kfile
@@ -7,62 +7,62 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/23/2019
+ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 559ff45974274420e2545228720000359d5fe971
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: cd12546c91e9f967c8ed4cdd6e4dac9884f73670
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906855"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075839"
 ---
-# <a name="use-auditing-within-your-organization"></a>使用您組織內的稽核
+# <a name="use-auditing-within-your-organization"></a>在組織內使用稽核
 
-了解誰您的 Power BI 中的項目採取什麼動作，租用戶可能很重要，可協助組織符合其需求，例如符合法規合規性與記錄管理的。 使用 Power BI 稽核來稽核動作的使用者，例如 「 檢視報表 」 和 「 檢視儀表板 完成。 您無法使用稽核來稽核權限。
+了解誰正在對 Power BI 租用戶的哪個項目採取什麼動作，可能對於幫助貴組織符合其需求 (如符合法規合規性與記錄管理) 而言極為重要。 使用 Power BI 稽核來稽核使用者執行的動作，例如 [檢視報表] 與 [檢視儀表板]。 您無法使用稽核來稽核權限。
 
 您可以在 Office 365 安全性與合規性中心使用稽核，或使用 PowerShell 來執行。 稽核需仰賴 Exchange Online 的功能，其會自動佈建以支援 Power BI。
 
-您可以篩選稽核資料依日期範圍、 使用者、 儀表板、 報表、 資料集和活動類型。 您也可以下載 csv （逗點分隔值） 檔案，以便離線分析中的活動。
+您可以依日期範圍、使用者、儀表板、報表、資料集和活動類型來篩選稽核資料。 您也可以用 csv (逗號分隔值) 檔案來下載活動以便離線分析。
 
 ## <a name="requirements"></a>需求
 
 您必須符合這些需求才能存取稽核記錄：
 
-* 您必須是全域管理員或稽核記錄檔或角色指派給授予稽核記錄檔在 Exchange Online 來存取稽核記錄檔。 根據預設，合規性管理和組織管理角色群組隨附上指派這些角色**權限**在 Exchange 系統管理中心 頁面。
+* 您必須是全域管理員或已被指派 Exchange Online 中的「稽核記錄」或「僅供檢視稽核記錄」角色，才能存取稽核記錄。 根據預設，「法規遵循管理」和「組織管理」角色群組會隨附在 Exchange 系統管理中心的 [權限] 頁面上指派的這些角色。
 
-    為非系統管理員帳戶提供稽核記錄的存取權，您必須將使用者新增為其中一個角色群組的成員。 如果您想要執行另一種方式，您可以在 Exchange 系統管理中心中建立自訂的角色群組、 將稽核記錄或授予稽核記錄檔的角色指派給此群組中，然後加入新的角色群組中的非系統管理員帳戶。 如需詳細資訊，請參閱[在 Exchange Online 中管理角色群組](/Exchange/permissions-exo/role-groups)。
+    若要提供可存取稽核記錄的非系統管理員帳戶，您必須將使用者新增為上述其中一個角色群組的成員。 如果您想要以另一種方式執行，則可以在 Exchange 系統管理中心建立自訂角色群組，將「稽核記錄」或「僅供檢視稽核記錄」角色指派給這個群組，然後將非系統管理員帳戶新增至新的角色群組。 如需詳細資訊，請參閱[在 Exchange Online 中管理角色群組](/Exchange/permissions-exo/role-groups)。
 
     如果您無法從 Microsoft 365 系統管理中心存取 Exchange 系統管理中心，請前往 https://outlook.office365.com/ecp 並使用您的認證登入。
 
-* 如果您有稽核記錄的存取權，但不是全域管理員或 Power BI 服務管理員，您不需要 Power BI 管理入口網站的存取。 在此情況下，您必須使用 [Office 365 安全性與合規性中心](https://sip.protection.office.com/#/unifiedauditlog) \(英文\) 的直接連結。
+* 如果您有稽核記錄的存取權，但並不是全域管理員或 Power BI 服務管理員，您將無法存取 Power BI 管理入口網站。 在此情況下，您必須使用 [Office 365 安全性與合規性中心](https://sip.protection.office.com/#/unifiedauditlog) \(英文\) 的直接連結。
 
 ## <a name="access-your-audit-logs"></a>存取您的稽核記錄
 
-若要存取記錄檔，首先請確定在 Power BI 中啟用記錄。 如需詳細資訊，請參閱系統管理入口網站文件中的[稽核記錄](service-admin-portal.md#audit-logs)。 可以有長達 48 小時的延遲之間的時間，您啟用稽核，時，您可以檢視稽核資料。 若您未立即看到資料，請稍候再查看稽核記錄。 取得檢視稽核記錄的權限，以及能夠存取記錄的延遲可能相近。
+若要存取記錄，請務必先在 Power BI 中啟用記錄功能。 如需詳細資訊，請參閱系統管理入口網站文件中的[稽核記錄](service-admin-portal.md#audit-logs)。 啟用稽核到能夠檢視稽核資料的時間之間，可能有最多 48 小時的延遲。 若您未立即看到資料，請稍候再查看稽核記錄。 取得檢視稽核記錄的權限，以及能夠存取記錄的延遲可能相近。
 
-Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](https://sip.protection.office.com/#/unifiedauditlog)取得。 另外還有來自 Power BI 管理入口網站的連結：
+Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](https://sip.protection.office.com/#/unifiedauditlog)取得。 此外，也有 Power BI 管理入口網站的連結：
 
-1. 在 Power BI 中，選取**齒輪圖示**右上角，然後選取**管理入口網站**。
+1. 在 Power BI 中，選取右上角的**齒輪圖示**，然後選取 [管理入口網站]。
 
-   ![齒輪下拉式選單，以系統管理員入口網站選項的螢幕擷取畫面叫出。](media/service-admin-auditing/powerbi-admin.png)
+   ![齒輪下拉式功能表已標示 [管理入口網站] 選項的螢幕擷取畫面。](media/service-admin-auditing/powerbi-admin.png)
 
-1. 選取 [稽核記錄]  。
+1. 選取 [稽核記錄]。
 
-1. 選取 [前往 O365 系統管理中心]  。
+1. 選取 [前往 O365 系統管理中心]。
 
-   ![在管理入口網站的螢幕擷取畫面，與稽核記錄 選項，然後移至 Microsoft O365 系統管理中心選項呼叫。](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![[管理入口網站] 已標示 [稽核記錄] 選項和 [移至 Microsoft O365 系統管理中心] 選項的螢幕擷取畫面。](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>僅搜尋 Power BI 活動
 
 您可以依照下列步驟將結果限制在僅 Power BI 活動。 如需活動清單，請參閱文章稍後的[已由 Power BI 稽核的活動](#activities-audited-by-power-bi)清單。
 
-1. 在 **稽核記錄檔搜尋**頁面的 **搜尋**，選取下拉式清單**活動**。
+1. 在 [稽核記錄搜尋] 頁面上，從 [搜尋] 下選取 [活動] 下拉式清單。
 
-2. 選取 [Power BI 活動]  。
+2. 選取 [Power BI 活動]。
 
-   ![使用 Power BI 活動所呼叫的螢幕擷取畫面的稽核記錄搜尋。](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+   ![[審核記錄搜尋] 已標示 [Power BI 活動] 的螢幕擷取畫面。](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
 3. 在選取方塊外面任何地方選取，將它關閉。
 
@@ -70,56 +70,56 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 ## <a name="search-the-audit-logs-by-date"></a>依日期搜尋稽核記錄
 
-您可以使用 [開始日期]  與 [結束日期]  欄位，依日期範圍搜尋記錄。 預設選項是過去七天。 顯示呈現的日期和時間，格式為 Coordinated Universal Time (UTC)。 您可以指定的最大日期範圍是 90 天。 
+您可以使用 [開始日期] 與 [結束日期] 欄位，依日期範圍搜尋記錄。 預設的選取範圍是過去七天。 顯示畫面會以國際標準時間 (UTC) 格式呈現日期和時間。 您可以指定的最大日期範圍是 90 天。 
 
-如果在選定的日期範圍超過 90 天，您會收到錯誤。 如果您使用最大的 90 天日期範圍，請選取目前時間作為 [開始日期]  。 否則，您會收到錯誤，指出開始日期早於結束日期。 如果您已在過去 90 天內開啟稽核，日期範圍開始日期不能在開啟稽核的日期之前。
+如果選定的日期範圍超過 90 天，您會收到錯誤。 如果您使用最大的 90 天日期範圍，請選取目前時間作為 [開始日期]。 否則，您會收到錯誤，指出開始日期早於結束日期。 如果您已在過去 90 天內開啟稽核，日期範圍開始日期不能在開啟稽核的日期之前。
 
-![所呼叫的開始日期 和 結束日期選項的螢幕擷取畫面的稽核記錄搜尋。](media/service-admin-auditing/search-audit-log-by-date.png)
+![[審核記錄搜尋] 已標示 [開始日期] 和 [結束日期] 選項的螢幕擷取畫面。](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>依使用者搜尋稽核記錄
 
-您可以搜尋由特定使用者的活動的稽核記錄項目。 輸入中的一或多個使用者名稱**使用者**欄位。 使用者名稱看起來像電子郵件地址。 這是使用者登入 Power BI 帳戶。 將此方塊保留空白，可傳回貴組織所有使用者 (和服務帳戶) 的項目。
+您可以搜尋特定使用者所執行活動的稽核記錄項目。 請在 [使用者] 欄位中輸入一或多個使用者名稱。 使用者名稱看起來像電子郵件地址。 這是使用者用來登入 Power BI 的帳戶。 將此方塊保留空白，可傳回貴組織所有使用者 (和服務帳戶) 的項目。
 
 ![依使用者搜尋](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="view-search-results"></a>檢視搜尋結果
 
-選取後**搜尋**，搜尋結果中載入。 幾分鐘後，它們會顯示於下**結果**。 當搜尋完成時，顯示找到的結果數目。 **稽核記錄檔搜尋**會顯示最多 1000年個事件。 如果超過 1000 個事件符合搜尋準則，則應用程式會顯示最新的 1000 個事件。
+選取 [搜尋] 之後，即會載入搜尋結果。 幾分鐘後，它們就會顯示在 [結果] 下。 搜尋完成後時，顯示畫面會顯示找到的結果數目。 [稽核記錄搜尋] 最多顯示 1000 個事件。 如果有超過 1000 個事件符合搜尋準則，則應用程式會顯示最新的 1000 個事件。
 
 ### <a name="view-the-main-results"></a>檢視主要結果
 
-**結果**區域所擁有搜尋所傳回的每個事件的下列資訊。 選取 [結果]  下的欄標題以排序結果。
+[結果] 區域具有由搜尋所傳回每個事件的下列資訊。 選取 [結果] 下的欄標題以排序結果。
 
 | **資料行** | **定義** |
 | --- | --- |
 | 日期 |發生事件時的日期和時間 (UTC 格式)。 |
-| IP 位址 |記錄的活動所用之裝置的 IP 位址。 應用程式會顯示在 IPv4 或 IPv6 位址格式的 IP 位址。 |
+| IP 位址 |用於已記錄活動的裝置 IP 位址。 應用程式會以 IPv4 或 IPv6 位址格式顯示 IP 位址。 |
 | 使用者 |執行觸發事件之動作的使用者 (或服務帳戶)。 |
-| 活動 |使用者所執行的活動。 這個值對應至您在 [活動]  下拉式清單中選取的活動。 對於來自 Exchange 系統管理員稽核記錄的事件，此資料行中的值會是 Exchange Cmdlet。 |
-| 項目 |建立或修改因為對應活動物件。 例如，檢視或修改過的檔案或更新的使用者帳戶。 並非所有活動在此資料行中都有值。 |
+| 活動 |使用者所執行的活動。 這個值對應至您在 [活動] 下拉式清單中選取的活動。 對於來自 Exchange 系統管理員稽核記錄的事件，此資料行中的值會是 Exchange Cmdlet。 |
+| 項目 |因對應活動而建立或修改的物件。 例如，已檢視或已修改的檔案，或是已更新的使用者帳戶。 並非所有活動在此資料行中都有值。 |
 | 詳細資料 |關於活動的其他詳細資料。 同樣地，並非所有活動都有值。 |
 
 ### <a name="view-the-details-for-an-event"></a>檢視事件的詳細資料
 
-若要檢視更多詳細的事件，請在搜尋結果清單中選取的事件記錄。 A**詳細資料**頁面會顯示可從事件記錄的詳細的屬性。 **詳細資料**頁面會顯示根據發生事件的 Office 365 服務的屬性。
+若要檢視事件的詳細資料，請選取搜尋結果清單中的事件記錄。 [詳細資料] 頁面隨即出現，其中包含事件記錄的詳細屬性。 [詳細資料] 頁面所顯示屬性取決於發生事件的 Office 365 服務。
 
-若要顯示這些詳細資料，請選取 [更多資訊]  。 所有 Power BI 項目的 RecordType 屬性值都是 20。 如需有關其他屬性的詳細資訊，請參閱[稽核記錄中的詳細屬性](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/)。
+若要顯示這些詳細資料，請選取 [更多資訊]。 所有 Power BI 項目的 RecordType 屬性值都是 20。 如需有關其他屬性的詳細資訊，請參閱[稽核記錄中的詳細屬性](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/)。
 
-   ![使用 需要更多資訊 」 選項叫出 稽核詳細資料 對話方塊的螢幕擷取畫面。](media/service-admin-auditing/audit-details.png)
+   ![稽核 [詳細資料] 對話方塊已標示 [詳細資料] 選項的螢幕擷取畫面。](media/service-admin-auditing/audit-details.png)
 
 ## <a name="export-search-results"></a>匯出搜尋結果
 
-若要匯出至 CSV 檔案的 Power BI 稽核記錄檔，請遵循下列步驟。
+若要將 Power BI 稽核記錄匯出至 CSV 檔案，請遵循下列步驟執行。
 
-1. 選取 [匯出結果]  。
+1. 選取 [匯出結果]。
 
-1. 選取 \[Save loaded results] \(儲存載入結果)  或 \[Download all results] \(下載所有結果)  。
+1. 選取 \[Save loaded results] \(儲存載入結果) 或 \[Download all results] \(下載所有結果)。
 
-    ![螢幕擷取畫面的 [匯出結果] 選項。](media/service-admin-auditing/export-auditing-results.png)
+    ![[匯出結果] 選項的螢幕擷取畫面。](media/service-admin-auditing/export-auditing-results.png)
 
 ## <a name="use-powershell-to-search-audit-logs"></a>使用 PowerShell 來搜尋稽核記錄
 
-您也可以使用 PowerShell，依據您的登入存取稽核記錄。 下列範例顯示如何連線至 Exchange Online PowerShell，並接著使用 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 命令來提取 Power BI 稽核記錄項目。 若要執行指令碼，系統管理員必須指派給您適當的權限，如中所述[需求](#requirements)一節。
+您也可以使用 PowerShell，依據您的登入存取稽核記錄。 下列範例顯示如何連線至 Exchange Online PowerShell，並接著使用 [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) 命令來提取 Power BI 稽核記錄項目。 若要執行該指令碼，系統管理員必須將適當的權限指派給您，如[＜需求＞](#requirements)一節中所述。
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -136,9 +136,9 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 
 ## <a name="activities-audited-by-power-bi"></a>由 Power BI 稽核的活動
 
-Power BI 會稽核下列活動：
+下列活動是由 Power BI 稽核：
 
-| 易記名稱                                     | 作業名稱                              | 注意                                  |
+| 易記名稱                                     | 作業名稱                              | 備忘稿                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|
 | 已將資料來源新增至 Power BI 閘道             | AddDatasourceToGateway                      |                                          |
 | 已新增 Power BI 資料夾存取權                      | AddFolderAccess                             | 目前未使用                       |
