@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 38e393a07defcf572d06f00c14ff8e4efa3081cc
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 2c08736e23568675af87e7de63092fff3a6a86c5
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185727"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073425"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
@@ -56,7 +56,7 @@ ms.locfileid: "70185727"
 
 5. 為您的訂用帳戶選取 [頻率]  ：[每天]  、[每小時]  、[每週]  、[每月]  ，或是 [資料重新整理後 (每天)]  。  若只要在特定日子接收訂閱電子郵件，請選取 [每小時]  或 [每週]  ，然後選取您希望接收電子郵件的日子。  例如，如果您只想要在工作日收到訂閱電子郵件，請選取 [每週]  ，並清除 [週六]  和 [週日]  的方塊。  如果您選取 [每月]  ，請輸入您想要接收訂閱電子郵件的月份天數。  
 
-6. 如果您選擇 [每天]  、[每小時]、[每月]  或 [每週]  ，則也可以為訂閱選擇 [排程的時間]  。  您將於每小時整點，或在 15、30 或 45 分時加以執行。  請選取上午 (AM) 或下午/晚上 (PM)。 您也可以指定時區。  如果您選擇 [每小時]  ，請選取您希望開始訂閱的 [排程時間]  ，則會在該時間之後每小時執行。
+6. 如果您選擇 [每天]  、[每小時]  、[每月]  或 [每週]  ，也可以為訂閱選擇 [排程的時間]  。  您將於每小時整點，或在 15、30 或 45 分時加以執行。  請選取上午 (AM) 或下午/晚上 (PM)。 您也可以指定時區。  如果您選擇 [每小時]  ，請選取您希望開始訂閱的 [排程時間]  ，則會在該時間之後每小時執行。
 
 7. 根據預設，訂用帳戶開始日期是您建立訂用帳的日期。 您可以選擇選取結束日期。 如果您未設定結束日期，則結束日期自動設為開始日期的一年後。 您可以在訂用帳戶結束之前，隨時將它變更為未來的任何日期 (最多至 9999 年)。 當訂用帳戶達到結束日期時，即會停止直到您重新啟用為止。 在排程結束日期之前，您會收到通知，詢問您是否要加以延長。    
 

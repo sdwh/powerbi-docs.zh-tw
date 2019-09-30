@@ -11,7 +11,7 @@ ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65240064"
@@ -46,13 +46,13 @@ ms.locfileid: "65240064"
 
     ![建立 Power BI 報表伺服器 VM](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
 
-5. 在 **步驟 1 的基本概念**，如**VM 名稱**，呼叫它**reportservervm**。
+5. 在 [步驟 1 基本]  中，針對 [VM 名稱]  ，將其命名為 **reportservervm**。
 
     Power BI 報表伺服器的 VM 名稱不能包含連字號。
 
 5. 建立使用者名稱和密碼。
 
-6. 針對**資源群組**，選取**建立新**，並呼叫它**reportserverresourcegroup** > **確定**。
+6. 針對 [資源群組]  ，選取 [新建]  ，然後將其命名為 **reportserverresourcegroup** > [確定]  。
 
     若您瀏覽過一次以上的教學課程，則在第一次之後，需要為資源群組提供不同的名稱。 您無法在同一個訂用帳戶中，使用兩次相同的資源群組名稱。 
 
@@ -60,15 +60,15 @@ ms.locfileid: "65240064"
 
 7. 保留其他預設值 > [確定]  。
 
-8. 在 **步驟 2 設定**，保留預設值 >**確定**。
+8. 在 [步驟 2 設定]  中，保留預設值 > [確定]  。
  
-    **SQL 儲存體帳戶**並**診斷儲存體帳戶**值也必須是唯一。 如果您一次瀏覽本教學課程，您需要指定不同的名稱。
+    [SQL 儲存體帳戶]  和 [診斷儲存體帳戶]  的值必須是唯一的。 若您瀏覽過一次以上的教學課程，您需要給予他們不同的名稱。
 
-9. 在 **步驟 3 摘要**，檢閱您的選擇 >**確定**。
+9. 在 [步驟 3 摘要]  中，檢閱您的選取項目 > [確定]  。
 
-10. 在 **步驟 4 購買**，檢閱使用者和隱私權原則規定 >**建立**。
+10. 在 [步驟 4 購買]  中，檢閱使用者規定和隱私權原則 > [建立]  。
 
-    **提交的 Power BI 報表伺服器部署**程序可能需要幾分鐘的時間。
+    **提交 Power BI 報表伺服器的部署**程序需要數分鐘的時間。
 
 ## <a name="connect-to-your-virtual-machine"></a>連線至虛擬機器
 
@@ -84,13 +84,13 @@ ms.locfileid: "65240064"
 
     ![連線至虛擬機器](media/tutorial-explore-report-server-web-portal/power-bi-report-server-connect-to-virtual-machine.png)
 
-5. 在 **連線至虛擬機器**窗格中，保留預設值，然後選取**下載 RDP 檔案**。
+5. 在 [連線到虛擬機器]  窗格中，保留預設值並選取 [下載 RDP 檔案]  。
 
-1. 在 **遠端桌面連線**對話方塊中，選取**Connect**。
+1. 在 [遠端桌面連線]  對話方塊中，選取 [連線]  。
 
 6. 輸入您為 VM 建立的名稱和密碼 > [確定]  。
 
-7. 下一個對話方塊中顯示**找不到遠端電腦的身分識別**。 請選取 [是]  。
+7. 下一個對話方塊會指出**無法識別遠端電腦的身分識別**。 請選取 [是]  。
 
    您看，新的 VM 開啟了。
 
@@ -104,7 +104,7 @@ ms.locfileid: "65240064"
 |---------|---------|
 |![數字 1](media/tutorial-explore-report-server-web-portal/number-1.png) | 範例 Power BI (.PBIX) 報表 |
 |![數字 2](media/tutorial-explore-report-server-web-portal/number-2.png) | 連結至「Power BI 報表伺服器」文件 |
-|![數字 3](media/tutorial-explore-report-server-web-portal/number-3.png) | 啟動 Power BI Desktop 適用於 Power BI 報表伺服器 (第 2019 年 1 月) |
+|![數字 3](media/tutorial-explore-report-server-web-portal/number-3.png) | 啟動已針對 Power BI 報表伺服器最佳化的 Power BI Desktop (2019 年 1 月) |
 |![數字 4](media/tutorial-explore-report-server-web-portal/number-4.png) | 在瀏覽器中開啟「Power BI 報表伺服器」入口網站 |
 |![數字 5](media/tutorial-explore-report-server-web-portal/number-5.png) | 啟動 SQL Server Data Tools 來建立編頁 (.RDL) 報表 |
 
@@ -163,7 +163,7 @@ ms.locfileid: "65240064"
 
 1. 選取 [允許]  以允許此網站在您的電腦上開啟程式。 
 
-     報表隨即在 Power BI Desktop 中開啟。 請注意頂端列中，「 Power BI Desktop (第 2019 年 1 月) 」 中的名稱。 這是已針對「Power BI 報表伺服器」最佳化的版本。
+     報表隨即在 Power BI Desktop 中開啟。 請注意頂端列中的名稱「Power BI Desktop (2019 年 1 月)」。 這是已針對「Power BI 報表伺服器」最佳化的版本。
 
     請使用安裝在 VM 上的 Power BI Desktop 版本。 您不可跨網域來上傳報表。
 

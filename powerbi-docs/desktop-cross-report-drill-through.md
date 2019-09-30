@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e735d45a7a49c4a0365e35d5bb95957c6145f934
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6424180dde3dac0d6d2b66c8a9303810b6aa0dc6
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903762"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100107"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>在 Power BI Desktop 中使用跨報表鑽研
 
@@ -32,7 +32,7 @@ ms.locfileid: "70903762"
 
 
 > [!NOTE]
-> [我的工作區]  中個別的已共用報表 (顯示為[與我共用](service-share-dashboards.md#share-a-dashboard-or-report)  的報表)，只能在其原始共用工作區中存取。 
+> 您可以使用 Power BI Desktop 中的跨報表鑽研功能，依據內容從一個報表跳到另一個報表。 只要報表位於 Power BI 服務中的相同工作區或應用程式內，就能使用此功能。 這不適用於在 [我的工作區]  中存取個別的共用報表時 ([與我共用報表](service-share-dashboards.md#share-a-dashboard-or-report))；而是必須在原先共用報表的工作區中存取報表。
 
 
 ## <a name="enable-cross-report-drillthrough"></a>啟用跨報表鑽研

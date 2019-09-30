@@ -9,18 +9,18 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.cunstom: ''
-ms.date: 08/10/2017
+ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 11afe27ffbca295eec67fd07731cc646bcca56dc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3de0b5473c6d00013bdf109f262dc0577c3bf290
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769692"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073526"
 ---
 # <a name="get-started-with-third-party-apps"></a>開始使用協力廠商應用程式
 
-有了 Power BI，您就可以使用 Microsoft 以外的公司或個人所建置的應用程式。 比方說，您可能會使用第三方應用程式的 Power BI 磚整合到自訂建置 web 應用程式。 當您使用第三方應用程式時，您必須授與該應用程式特定的權限，您的 Power BI 帳戶和資源。 請務必只將權限授予給您已知且信任的應用程式。 應用程式的權限可以隨時撤銷。 請參閱[撤銷協力廠商應用程式權限](#revoke).
+有了 Power BI，您就可以使用 Microsoft 以外的公司或個人所建置的應用程式。 例如，您可能會使用將 Power BI 磚整合到自訂建置 Web 應用程式的協力廠商應用程式。 當您使用協力廠商應用程式時，系統會要求您將 Power BI 帳戶和資源特定權限授與該應用程式。 請務必只將權限授予給您已知且信任的應用程式。 應用程式的權限可以隨時撤銷。 請參閱[撤銷協力廠商應用程式權限](#revoke).
 
 以下是應用程式可以要求的存取權類型。
 
@@ -47,15 +47,15 @@ ms.locfileid: "64769692"
 
 <a name="revoke"/>
 
-## <a name="revoke-third-party-app-permissions"></a>撤銷協力廠商應用程式的權限
+## <a name="revoke-third-party-app-permissions"></a>撤銷協力廠商應用程式權限
 
-移至 Office 365 我的應用程式網站撤銷協力廠商應用程式的權限。
+請前往 Office 365 我的應用程式網站，撤銷協力廠商應用程式的權限。
 
-在  **Office 365 我的應用程式**網站，撤銷協力廠商權限的方式如下：
+在 **Office 365 我的應用程式**網站，撤銷協力廠商權限的方式如下：
 
 1. 前往 [Office 365 我的應用程式網站](https://portal.office.com/myapps).
 
-2. 在 **我的應用程式**頁面上，找出第三方應用程式。
+2. 在 [我的應用程式]  頁面上，找到協力廠商應用程式。
 
 3. 將滑鼠暫留在該應用程式的磚，按一下 [(...)]  按鈕，然後按一下 [移除]  。
 

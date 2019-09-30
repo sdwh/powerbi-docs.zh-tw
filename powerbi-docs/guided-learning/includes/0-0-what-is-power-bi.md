@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 30cd80cbeafe2da4468a0049bfa0c34715bce0d3
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66051084"
@@ -31,7 +31,7 @@ Power BI 包含稱為 **Power BI Desktop** 的 Windows 桌面應用程式、稱�
 ## <a name="how-power-bi-matches-your-role"></a>Power BI 如何符合您的角色
 Power BI 的使用方式可能取決於您在專案或小組中的角色。 而其他角色的其他人可能會以不同的方式使用 Power BI，這沒有問題。
 
-例如，您可能主要使用 **Power BI 服務**，但是您的數字處理、業務報表建立同事可能會大量使用 **Power BI Desktop** (並將 Desktop 報表發行到 Power BI 服務，然後即可進行檢視)。 和另一個同事在銷售可能主要使用 Power BI 手機應用程式來監視進度，在 銷售配額，並向下鑽研到新的銷售潛在客戶詳細資料。
+例如，您可能主要使用 **Power BI 服務**，但是您的數字處理、業務報表建立同事可能會大量使用 **Power BI Desktop** (並將 Desktop 報表發行到 Power BI 服務，然後即可進行檢視)。 而銷售部門的另一名同事可能主要使用 Power BI 手機應用程式監視銷售額的進度，並鑽研新的潛在客戶詳細資料。
 
 您也可能會根據您嘗試達成的目標或您在指定專案或工作中的角色，在不同的時間使用 **Power BI** 的每個元素。
 

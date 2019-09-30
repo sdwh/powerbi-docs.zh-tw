@@ -3,20 +3,19 @@ title: 從 Power BI 將報表匯出至 PowerPoint
 description: 了解如何將 Power BI 報表匯出至 PowerPoint。
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9a798afead16174f66fadba87c795d5377747e93
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61063574"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141421"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>從 Power BI 將報表匯出至 PowerPoint
 有了 Power BI，您就可以將報表發佈至 **Microsoft PowerPoint**，並根據 Power BI 報表輕鬆地建立投影片組。 當您**匯出至 PowerPoint** 時會發生下列狀況︰
@@ -29,27 +28,24 @@ ms.locfileid: "61063574"
 將 **Power BI 報表**匯出到 **PowerPoint** 的程序非常簡單快速。 只要遵循下一節中列出的步驟即可。
 
 ## <a name="how-to-export-your-power-bi-report-to-powerpoint"></a>如何將 Power BI 報表匯出至 PowerPoint
-在 Power BI 服務中，選取要顯示在畫布上的報表。 也可以從您的 [首頁]  頁面、[應用程式]  ，或左側瀏覽窗格上的其他區段選取報表。
+在 Power BI 服務中，選取要顯示在畫布上的報表。 您也可以從左側瀏覽列上的 [首頁]  、[應用程式]  或其他任何容器中選取報表。
 
-![從功能表列選取 [檔案]，指向 [匯出至 PowerPoint] 的箭頭](media/end-user-powerpoint/power-bi-publish.png)
+當畫布上顯示您要匯出至 PowerPoint 的報表時，請從功能表列選取 [匯出] > [PowerPoint]  。
 
-當畫布上顯示您要匯出至 PowerPoint 的報表時，請從 Power BI 服務的功能表列選取 [檔案] > [匯出至 PowerPoint]  。
+![從功能表列選取 [匯出]](media/end-user-powerpoint/power-bi-export.png)
 
-![在 [我的工作區] 已選取且 [檔案] 下拉式清單已選取之情況下的左上角瀏覽列特寫](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
    
-會出現快顯，其中有選項可供您選取 [目前檢視]  或 [預設檢視]  。  [目前檢視]  會以目前狀態匯出報表，其中包括您對交叉分析篩選器和篩選值進行的有效變更。  大多數使用者會選取此選項。  選取 [預設檢視]  則會以原始狀態 (如同作者共用當下的狀態) 匯出報表，而不會反映您對該原始狀態進行的任何變更。
+隨即出現快顯視窗，其中有選項可供您選取 [目前的值]  或 [預設值]  。  [目前的值]  會以目前狀態匯出報表，其中包括您對交叉分析篩選器和篩選值進行的有效變更。  大多數使用者會選取此選項。  選取 [預設值]  則會以原始狀態 (如同作者共用當下的狀態) 匯出報表，而不會反映您對該原始狀態進行的任何變更。
+
+![選取要匯出的項目](media/end-user-powerpoint/power-bi-current-values.png)
     
-另外還會出現核取方塊供您選取是否要匯出報表的隱藏索引標籤。  如果您只要可在瀏覽器中看見的報表索引標籤，只要選取此方塊即可。  如果您希望取得屬於報表的所有隱藏索引標籤，可以不要選取此方塊。  如果選取方塊呈現灰色，即代表報表中沒有任何隱藏索引標籤。  在您選取完成後，請按一下 [匯出]  按鈕繼續。
+另外還會出現核取方塊供您選取是否要匯出報表的隱藏索引標籤。  如果您只要在瀏覽器中匯出可看見的報表索引標籤，只要核取此方塊即可。  如果您希望取得屬於報表的所有隱藏索引標籤，可以不要選取此方塊。  如果選取方塊呈現灰色，即代表報表中沒有任何隱藏索引標籤。  在您選取完成後，請選取 [匯出]  按鈕繼續。
 
 您會在 Power BI 服務瀏覽器視窗的右上角，看到報表正匯出至 PowerPoint 的通知橫幅。 這可能需要幾分鐘的時間，而您可以在報表匯出時繼續使用 Power BI 工作。
 
-![正在匯出至 PowerPoint 通知](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
+![正在匯出至 PowerPoint 通知](media/end-user-powerpoint/power-bi-export-progress.png)
 
-完成後，通知橫幅隨即變更，讓您知道 Power BI 服務已完成匯出程序。
-
-![顯示成功訊息](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
-
-您可以在瀏覽器顯示下載檔案的位置取得檔案。 在下圖中，是以瀏覽器視窗底部的下載橫幅方式顯示。
+完成後，通知橫幅隨即變更，讓您知道 Power BI 服務已完成匯出程序。 您可以在瀏覽器顯示下載檔案的位置取得檔案。 在下圖中，是以瀏覽器視窗底部的下載橫幅方式顯示。
 
 ![指向畫面底部瀏覽器通知的箭頭](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
 

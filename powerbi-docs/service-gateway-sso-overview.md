@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271856"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100393"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI 中閘道的單一登入 (SSO) 概觀
 
-您可以藉由使用 Kerberos 限制委派或安全性聲明標記語言 (SAML) 來設定內部部署資料閘道，以取得順暢的單一登入連線，讓 Power BI 報表和儀表板能夠從內部部署資料進行更新。 內部部署資料閘道可以使用 DirectQuery 輔助 SSO，也就是用來連線到內部部署資料來源的方法。
+您可以藉由使用 Kerberos 限制委派或安全性聲明標記語言 (SAML) 來設定內部部署資料閘道，以取得順暢的單一登入連線，讓 Power BI 報表和儀表板能夠從內部部署資料進行即時更新。 內部部署資料閘道可以使用 DirectQuery 支援 SSO，也就是用來連線到內部部署資料來源的方法。
 
 我們目前支援下列資料來源︰
 
@@ -52,8 +52,7 @@ ms.locfileid: "68271856"
 
 ## <a name="next-steps"></a>後續步驟
 
-現在您已了解 SSO 的基本概念，請參閱 Kerberos 和 SAML 的詳細資訊：
+現在您已了解透過閘道進行 SSO 的基本概念，請參閱 Kerberos 和 SAML 的詳細資訊：
 
 * [單一登入 (SSO) - Kerberos](service-gateway-sso-kerberos.md)
-* [單一登入 (SSO) - Kerberos - 以資源為基礎](service-gateway-sso-kerberos-resource.md)
 * [單一登入 (SSO) - SAML](service-gateway-sso-saml.md)

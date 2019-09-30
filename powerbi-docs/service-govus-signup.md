@@ -18,7 +18,7 @@ ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513223"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服務中註冊美國政府組織
-**Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 **Power BI 服務**本文所討論的版本專為美國政府客戶和個別且不同於商用版本**Power BI 服務**。
+**Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本是為美國政府客戶而設計，獨立且不同於商用版本的 **Power BI 服務**。
 
 如需適用於美國政府的 **Power BI 服務**詳細資訊，包括其功能與限制，請參閱[適用於美國政府客戶的 Power BI - 概觀](service-govus-overview.md)。
 
@@ -58,7 +58,7 @@ ms.locfileid: "65513223"
 > 
 > 
 
-1. 登入您的現有 Office Government Cloud 帳戶並移至管理入口網站
+1. 登入現有的 Office Government Cloud 帳戶並前往管理入口網站
 2. 選取 [計費]  。
 3. 選取 [購買服務]  。
 4. 選取 [Power BI Pro 政府] 選項，然後選擇 [嘗試]  或 [立即購買] 
@@ -66,7 +66,7 @@ ms.locfileid: "65513223"
 6. 指派使用者給帳戶。
    
    ![](media/service-govus-signup/service_govus_signup_5.png)
-7. 登入**Power BI 服務**適用於美國政府客戶，在 [https://app.powerbigov.us](https://app.powerbigov.us)
+7. 在 [https://app.powerbigov.us](https://app.powerbigov.us) 登入適用於美國政府客戶的 **Power BI 服務**
 
 ## <a name="additional-signup-information"></a>其他的註冊資訊
 以下是在不同授權移轉案例中註冊 **Power BI 美國政府**的詳細資訊。
@@ -90,19 +90,19 @@ ms.locfileid: "65513223"
 ### <a name="whitelisting-instructions"></a>設為允許清單指示
 「設為允許清單」  是 Power BI 工程小組用來將客戶從商用雲端環境移至安全政府雲端環境的程序。 這可確保美國政府雲端中可用的功能如預期般運作。 第一次購買美國政府 **Power BI** 服務的所有現有 (或新的) 美國政府客戶，「必須」  起始下列允許清單處理。 處理必須在安裝或移轉至美國政府 **Power BI** 服務之前完成。 
 
-若要將您的租用戶*列入白名單*美國政府雲端，請連絡 Microsoft 帳戶小組以取得協助與白名單。 只有系統管理員能提出此要求。 「設為允許清單」  程序大約需要三週，在此期間，Power BI 工程小組會進行適當變更，確保租用戶在美國政府雲端正確操作。
+若要將您的租用戶加入美國政府雲端的「允許名單」  ，請連絡 Microsoft 帳戶小組，協助您加入允許名單。 只有系統管理員能提出此要求。 「設為允許清單」  程序大約需要三週，在此期間，Power BI 工程小組會進行適當變更，確保租用戶在美國政府雲端正確操作。
 
 從 Power BI **免費**授權移轉至 **Power BI 美國政府**的客戶 (而且，根據定義，如本文前面所述移轉至相關聯 **Pro** 授權功能)，將會遇到本文的下節中所述的問題，直到 Power BI 工程小組將其租用戶「設為允許清單」  。
 
 ### <a name="mixed-free-and-pro-licenses-in-us-government-tenants"></a>在美國政府租用戶中混合使用免費和 Pro 授權
 如果您的租用戶內同時具有免費和美國政府 Pro 授權，則免費和 (美國政府) Pro 授權仍然會存在，但其中一個或其他授權類型將無法正常運作。 如果您的租用戶成功通過「設為允許清單」  程序，則會發生下列情況：
 
-* 任何免費授權的使用者將不再能夠登入 Power BI 使用**Power BI Desktop**，並將功能缺漏下, 一節中所述。
+* 任何免費授權使用者都無法再使用 **Power BI Desktop** 登入 Power BI，並且會有功能缺漏，如下節所述。
 * 所有指派給美國政府 Pro 授權的用戶端都可以正常運作，包括使用閘道、Power BI Desktop 和行動裝置應用程式。
 
 如果在美國政府租用戶中混合使用免費和 Pro 授權，並且通過「設為允許清單」  程序，則預期會發生下列情況：
 
-**設為允許清單_之前_** ：
+**「設為允許清單」之前 ** ：
 
 * 具有免費授權的使用者是在商用雲端中執行
 * Pro 美國政府授權會顯示在入口網站中，而且系統管理員可以將這些授權指派給使用者。 在系統管理員指派美國政府 Pro 授權之後，Pro 美國政府使用者將不會遺失其免費授權的資料。 已指派的使用者可以存取美國政府客戶的 Power BI Pro 功能，但除非租用戶已成功「設為允許清單」  ，否則下列項目符號清單功能會有缺漏：
@@ -112,7 +112,7 @@ ms.locfileid: "65513223"
   * PBIX 檔案必須手動從商用 Power BI 服務進行上傳
   * 沒有 Power BI mobile apps
 
-**設為允許清單_之後_** ：
+**「設為允許清單」之後 ** ：
 
 * 商用 Power BI 服務中執行的免費使用者可以繼續執行，但會如預期般停止驗證。
 * 在美國政府雲端中執行的 Pro 使用者，可以如預期使用**適用於美國政府客戶的 Power BI** 服務。

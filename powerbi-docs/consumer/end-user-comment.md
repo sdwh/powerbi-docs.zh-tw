@@ -5,19 +5,18 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d09ada0d3309a9cb2b93a8cd4fa3d6740e69ba77
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: f9979a852028e929b626e76534fef073feca3fd8
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073540"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100586"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>將註解新增至儀表板或報表
 新增個人註解，或是和您的同事開始儀表板或報表相關交談。 **註解**功能只是「取用者」  可與其他人共同作業的其中一種方法。 
@@ -29,7 +28,7 @@ ms.locfileid: "71073540"
 
 當您將註解新增至報表時，Power BI 會擷取目前的篩選和交叉分析篩選器的值。 這表示當您選取或回應註解時，報表頁面或報表視覺效果可能會變更，以顯示第一次新增註解時，使用中的篩選和交叉分析篩選器選取項目。  
 
-![使用篩選的報表影片](media/end-user-comment/comment-reports-with-filters/comment-reports-with-filters.gif)
+![使用篩選的報表影片](media/end-user-comment/power-bi-comment.gif)
 
 為什麼這很重要？ 假設有一位同事套用了篩選，以顯示他們想要與小組共用的有趣見解。 若未選取該篩選，註解可能沒有意義。
 
@@ -40,49 +39,50 @@ ms.locfileid: "71073540"
 
 1. 開啟 Power BI 儀表板或報表，然後選取**註解**圖示。 這會開啟 [註解] 對話方塊。
 
-    ![註解圖示](media/end-user-comment/power-bi-comment-icon.png)
+    ![註解圖示](media/end-user-comment/power-bi-comment-menu.png)
 
     在此我們會看到儀表板建立者已新增一般註解。  有權存取此儀表板的任何人都可以看到此註解。
 
-    ![註解圖示](media/end-user-comment/power-bi-dash-comment.png)
+    ![註解圖示](media/end-user-comment/power-bi-first-comments.png)
 
 2. 若要回應，請選取 [回覆]  ，鍵入您的回應，然後選取 [張貼]  。  
 
     ![註解回覆圖示](media/end-user-comment/power-bi-comment-reply.png)
 
-    根據預設，Power BI 將引導您回應發起註解討論串的同事，在本例中為 Aaron F。 
+    根據預設，Power BI 將引導您回應發起註解討論串的同事，在本例中為 Aaron。 
 
-    ![具有回應的註解](media/end-user-comment/power-bi-response.png)
+    ![具有回應的註解](media/end-user-comment/power-bi-respond.png)
 
  3. 如果您想要新增不屬於現有討論串的註解，請在上方文字欄位中輸入您的註解。
 
-    ![註解回覆圖示](media/end-user-comment/power-bi-new-comment.png)
+    ![註解回覆圖示](media/end-user-comment/power-bi-new-comments.png)
 
     此儀表板的註解現在看起來如下。
 
-    ![註解的交談](media/end-user-comment/power-bi-comment-conversation.png)
+    ![註解的交談](media/end-user-comment/power-bi-conversation.png)
 
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>將註解新增至特定儀表板或報表的視覺效果
 除了將註解新增至整個儀表板或整個報表頁面之外，您還可以將註解新增至個別儀表板磚和個別報表視覺效果。 處理程序很類似，且我們在本範例中使用報表。
 
 1. 將滑鼠暫留在視覺效果上並選取省略符號 (...)。    
-2. 從下拉式清單中，選取 [新增註解]  。
+2. 從下拉式清單中，選取 [開啟註解]  。
 
-    ![新增註解是第一個選項](media/end-user-comment/power-bi-comment-report.png)  
+    ![新增註解是第一個選項](media/end-user-comment/power-bi-report-comment.png)  
 
 3.  [註解]  對話方塊隨即開啟，且頁面上的其他視覺效果會呈現灰色。此視覺效果還沒有任何註解。 
 
-    ![新增註解給自己](media/end-user-comment/power-bi-comment-bar.png)  
+    ![新增註解給自己](media/end-user-comment/power-bi-comment-column.png)  
 
 4. 鍵入您的註解，然後選取 [張貼]  。
 
-    ![新增註解給自己](media/end-user-comment/power-bi-comment-june.png)  
+    ![新增註解給自己](media/end-user-comment/power-bi-comment-logistics.png)  
 
     - 在報表頁面上，選取在視覺效果上所輸入的註解即會醒目提示該視覺效果 (如上所示)。
 
     - 在儀表板上，圖表圖示 ![具有圖表圖示的註解](media/end-user-comment/power-bi-comment-chart-icon.png) 可讓我們知道註解會繫結至特定的視覺效果。 套用到整個儀表板的註解沒有特殊圖示。 選取圖表圖示會醒目提示儀表板上的相關視覺效果。
+    
 
-        ![醒目提示的相關視覺效果](media/end-user-comment/power-bi-comment-highlight2.png)
+    ![醒目提示的相關視覺效果](media/end-user-comment/power-bi-highlight.png)
 
 5. 按一下 [關閉]  返回儀表板或報表。
 

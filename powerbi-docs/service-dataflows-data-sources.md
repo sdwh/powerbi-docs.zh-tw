@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81449d7a07bec3c142930573154ecd13a0ceff49
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d2ba4809ce5c6664350ec81b57b6fc717a13879f
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61141002"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164559"
 ---
-# <a name="connect-to-data-sources-for-power-bi-dataflows"></a>連接到 Power BI 資料流程的資料來源
+# <a name="connect-to-data-sources-for-power-bi-dataflows"></a>連線到 Power BI 資料流程的資料來源
 
 使用 Power BI 資料流程，您可以連線到許多不同的資料來源，以建立新的資料流程，或將新實體新增至現有的資料流程。
 
 本文列出許多關於建立或新增至資料流程的可用資料來源，並描述如何使用這些資料來源來建立資料流程。
 
-如需如何建立和使用資料流程的概觀，請參閱 <<c0> [ 建立及使用 Power BI 中的資料流程](service-dataflows-create-use.md)。
+如需如何建立和使用資料流程的概觀，請參閱[在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)。
 
 ## <a name="create-a-dataflow-from-a-data-source"></a>從資料來源建立資料流程
 
@@ -61,7 +61,7 @@ ms.locfileid: "61141002"
 
 [檔案]  類別包含資料流程的下列可用資料連線：
 
-* Access
+* 存取權
 * Excel
 * JSON
 * 文字/CSV
@@ -156,7 +156,6 @@ ms.locfileid: "61141002"
 
 下列清單會顯示您目前可以藉由複製 M 查詢並貼入空白查詢中的連接器：
 
-* SAP Business Warehouse 
 * Azure Analysis Services
 * Adobe Analytics
 * ODBC
@@ -176,10 +175,10 @@ ms.locfileid: "61141002"
 
 本文說明您可以連線到資料流程的資料來源。 下列文章將更詳細討論資料流程的常見使用案例。 
 
-* [在 Power BI 中的自助資料準備](service-dataflows-overview.md)
+* [Power BI 中的自助資料準備](service-dataflows-overview.md)
 * [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
-* [使用 Power BI Premium 上的計算的實體](service-dataflows-computed-entities-premium.md)
-* [使用內部部署資料來源的資料流程](service-dataflows-on-premises-gateways.md)
+* [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
+* [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 * [資料流程與 Azure Data Lake 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)
 

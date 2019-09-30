@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: e87ea8470464e458c1da2037f25adfcee857361e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61271232"
@@ -16,5 +16,5 @@ ms.locfileid: "61271232"
 
 ![](media/5-3-import-powerpivot-powerview/5-3_2.png)
 
-而以下是其中一個 Power BI 最棒的功能：您可以使用 Power Query 或 Power Pivot 來連接到查詢，並將資料載入外部資料來源，一旦您已將活頁簿匯入 Power BI，您可以根據意願**排程的重新整理**。 透過使用排程的重新整理作業，Power BI 會使用您活頁簿中的連接資訊以直接連接至資料來源和查詢，並載入任何已變更的資料。 報表中的任何視覺效果也會自動更新。
+以下是一項 Power BI 的絕佳功能：如果您使用 Power Query 或 Power Pivot 連線及查詢資料，以及從外部資料來源載入資料，那麼在您將活頁簿匯入 Power BI 之後，就可以設定**排程重新整理**。 透過使用排程的重新整理作業，Power BI 會使用您活頁簿中的連接資訊以直接連接至資料來源和查詢，並載入任何已變更的資料。 報表中的任何視覺效果也會自動更新。
 

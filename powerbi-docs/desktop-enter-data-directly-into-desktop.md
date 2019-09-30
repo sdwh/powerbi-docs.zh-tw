@@ -8,20 +8,20 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f50fa577cace62adadd0dfc29216445c6c8f269
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 10586d0fa685bb947b27a5c243117596517bdb52
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454363"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142235"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>直接將資料輸入 Power BI Desktop
 使用 Power BI Desktop，您可以直接輸入資料，並在您的報表和視覺效果中使用該資料。 例如，您可以複製部分的活頁簿或網頁，然後將其貼到 Power BI Desktop。
 
-若要直接輸入資料，請從 [主資料夾]  功能區選取 [輸入資料]  。
+若要以新資料表的形式將資料直接輸入 Power BI Desktop，請從 [首頁]  功能區中選取 [輸入資料]  。
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.png)
 

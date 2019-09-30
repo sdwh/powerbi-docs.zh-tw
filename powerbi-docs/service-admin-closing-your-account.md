@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/26/2019
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a285c6188e8b9298702645e28ad686e33147c3a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 227b4e837e75959dc838556ab0215db32131ec07
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65101064"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075667"
 ---
 # <a name="close-your-power-bi-account"></a>關閉 Power BI 帳戶
 
-如果您不想再使用 Power BI，您可以關閉 Power BI 帳戶。  關閉您的帳戶之後，您無法登入 Power BI。 此外，如所述的資料保留原則在 Power BI 服務條款中，Power BI 就會刪除您上傳或建立的任何客戶資料。 它不會保留。
+如果您不想再使用 Power BI，您可以關閉 Power BI 帳戶。  當您關閉帳戶之後，就無法登入 Power BI。 此外，按照 Power BI 服務條款中資料保留原則的指定內容，Power BI 會刪除您上傳或建立的任何客戶資料。 而不會予以保留。
 
 ## <a name="individual-power-bi-users"></a>個人 Power BI 使用者
 
@@ -27,23 +27,23 @@ ms.locfileid: "65101064"
 
 1. 在 Power BI 中，選取在右上方的齒輪，然後選取 [設定]  。
 
-    ![右上角的齒輪圖示，然後叫出 [設定] 選項的 UI 的螢幕擷取畫面。](media/service-admin-closing-your-account/close-account-settings.png)
+    ![UI 的右上角已標示齒輪圖示和 [設定] 選項的螢幕擷取畫面。](media/service-admin-closing-your-account/close-account-settings.png)
 
 1. 在 [一般]  索引標籤上，選取 [關閉帳戶]  。
 
-    ![使用 [關閉帳戶] 選項的 [設定] 頁面的左上角的螢幕擷取畫面叫出。](media/service-admin-closing-your-account/close-account-settings-2.png)
+    ![[設定] 頁面左上角已標示 [關閉帳戶] 選項的螢幕擷取畫面。](media/service-admin-closing-your-account/close-account-settings-2.png)
 
 1. 選取關閉帳戶的原因 (1)。 您也可以提供進一步的資訊 (2)。 然後選取 **關閉帳戶**。
 
-    ![與所呼叫的 [關閉帳戶] 選項的 [關閉帳戶] 對話方塊的螢幕擷取畫面。](media/service-admin-closing-your-account/close-account-settings-3.png)
+    ![[關閉帳戶] 對話方塊已標示 [關閉帳戶] 選項的螢幕擷取畫面。](media/service-admin-closing-your-account/close-account-settings-3.png)
 
 1. 確認您要關閉帳戶。
 
-    ![關閉帳戶的確認對話方塊，以叫出 [是] 選項的螢幕擷取畫面。](media/service-admin-closing-your-account/close-account-settings-4.png)
+    ![[關閉帳戶] 確認對話方塊已標示 [是] 選項的螢幕擷取畫面。](media/service-admin-closing-your-account/close-account-settings-4.png)
 
-    您應該會看到確認 Power BI 會關閉您的帳戶。 如有必要，您可以從這裡重新開啟您的帳戶。
+    您應該會看到確認 Power BI 關閉帳戶的訊息。 如有必要，您可以從這裡重新開啟您的帳戶。
 
-    ![螢幕擷取畫面關閉帳戶 對話方塊。](media/service-admin-closing-your-account/close-account-settings-5.png)
+    ![[您的帳戶已關閉] 對話方塊的螢幕擷取畫面。](media/service-admin-closing-your-account/close-account-settings-5.png)
 
 ## <a name="managed-tenant-users"></a>Managed 租用戶使用者
 

@@ -7,47 +7,54 @@ ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/08/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dbad2927b64966a459086531fbfbf3e3e5de2eab
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70751669"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141842"
 ---
 # <a name="your-content-is-up-to-date"></a>您的內容是最新狀態
 作為「消費者」  ，您可以與「設計師」  建立並與您共用的內容互動。 您可能會希望知道該內容是否為最新，或只想要知道該內容上次重新整理的時間。 了解您正在使用最新的內容，可讓您保持信心。  
  
-![Power BI 儀表板](media/end-user-consumer/power-bi-service.png)
+![Power BI 儀表板](media/end-user-fresh/power-bi-dashboards.png)
 
 
 若要做出正確決策，確保您正在使用最新資料就相當重要。 如何確保您正在使用最新的內容？ 在大多數情況下，您完全不需要執行任何動作。 已與您共用的應用程式會自動重新整理，並依應用程式設計師所設定的排程更新。 與您共用的儀表板和報表也一樣，設計師會手動或使用自動重新整理排程來確保內容為最新。  
 
 如果您對資料的新舊有疑問，請連絡設計師。
 
-## <a name="how-to-locate-the-name-of-the-designer"></a>如何找出設計師的名稱
+## <a name="how-to-locate-the-name-of-the-designer-or-owner"></a>如何找出設計師或擁有者的名稱
+
+### <a name="dashboard-or-report"></a>儀表板或報表
+
+擁有者名稱可從儀表板和報表的標題列中取得。 選取報表或儀表板名稱，以顯示其他詳細資料，包括**擁有者**。
+
+![Power BI 儀表板擁有者](media/end-user-fresh/power-bi-owner.png)
+
 
 ### <a name="apps"></a>應用程式
 
-應用程式畫面會顯示設計師名稱和建立應用程式的日期。  
+應用程式畫面會顯示設計師名稱，以及上次更新應用程式的日期。  
 
 1. 從左側瀏覽窗格中選取 [應用程式]  。
 
-    ![左側瀏覽窗格](media/end-user-fresh/power-bi-nav-apps.png)
+    ![左側瀏覽窗格](media/end-user-fresh/power-bi-nav-app.png)
 
-    針對每個應用程式，您會看到標題和建立日期。 
 
-2. 將游標停留在應用程式也會顯示設計師的名稱。 
+
+2. 將滑鼠停留在應用程式上方，以顯示設計師的標題、有效日期和名稱。 
 
     ![選取兩個應用程式的其中一個](media/end-user-fresh/power-bi-app.png)
 
 
 ### <a name="shared-with-me"></a>與我共用
-[與我共用]  畫面會顯示內容擁有者名稱和與您共用內容的日期。
+[與我共用]  畫面會顯示內容擁有者名稱，以及上次與您共用內容的日期。
 
-![與我共用畫面會顯示已變更的日期和擁有者](media/end-user-fresh/power-bi-shared-new.png) 
+![與我共用畫面會顯示已變更的日期和擁有者](media/end-user-fresh/power-bi-share.png) 
 
 
 ## <a name="how-to-look-up-the-last-refresh-date"></a>如何查詢上次重新整理日期
@@ -58,24 +65,24 @@ ms.locfileid: "70751669"
 
 1. 在儀表板圖格上選取省略符號 (...)，然後選擇 [以焦點模式開啟]  。
 
-    ![選取省略符號後顯示的功能表](media/end-user-fresh/power-bi-focus.png)
+    ![選取省略符號後顯示的功能表](media/end-user-fresh/power-bi-focus-mode.png)
 
 2. 上次重新整理日期會顯示在右上角。 如果您沒有看到該日期，請展開您的瀏覽器使其更寬。 
 
     ![加寬後的瀏覽器會顯示上次重新整理日期](media/end-user-fresh/power-bi-last-refresh2.png)
 
-### <a name="from-dashboards-and-reports"></a>從儀表板和報表
-查詢上次重新整理日期的另一個方法是使用 [檢視相關項目]  。  [檢視相關項目]  位於 Power BI 上方功能表列。
+### <a name="dashboards-and-reports"></a>儀表板和報表
+查詢上次重新整理日期的另一個方法是使用 [檢視相關項目]  。  從 Power BI 上方功能表列選取省略符號 (...)，即可取得 [檢視相關項目]  。
 
-![從功能表選取 [檢視相關項目]](media/end-user-fresh/power-bi-view-related.png)
+![從功能表選取 [檢視相關項目]](media/end-user-fresh/power-bi-view-related-dropdown.png)
 
 [相關內容]  窗格會顯示儀表板或報表基礎資料集的上次重新整理資訊。
 
-![Power BI 儀表板](media/end-user-fresh/power-bi-last-refresh.png)
+![Power BI 儀表板](media/end-user-fresh/power-bi-refresh.png)
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>如果設計師刪除應用程式會發生什麼狀況
 
-如果設計師刪除應用程式，則與該應用程式建立關聯的儀表板與報表，也會自動從您的 Power BI 工作區移除。 您無法再次取得這些儀表板和報表，且該應用程式不會出現於 [瀏覽] 窗格中。
+如果設計師刪除應用程式，則與該應用程式建立關聯的儀表板與報表，也會自動從您的 Power BI 工作區移除。 您無法再次取得這些儀表板和報表，且該應用程式不會出現於瀏覽列中的 [應用程式] 容器或其他位置。
 
 
 ## <a name="subscribe-to-see-changes"></a>訂閱以查看變更

@@ -13,7 +13,7 @@ ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769925"
@@ -31,7 +31,7 @@ Power BI 有兩種方式可以連接到即時 SQL Server Analysis Services 伺�
 
 1. 在 [我的工作區]  中，選取 [取得資料]  。 您也可以變更為群組工作區 (如果有的話)。
 
-   ![連接到 [取得資料] 按鈕](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
+   ![連接 [取得資料] 按鈕](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
 2. 選取 **Databases & More** (資料庫及更多).
 
@@ -47,7 +47,7 @@ Power BI 有兩種方式可以連接到即時 SQL Server Analysis Services 伺�
 
 連接到模型之後，它會顯示在 Power BI 站台的 [我的工作區/資料集]  。 如果您切換到群組工作區，則會在該群組內出現資料集。
 
-![連接到資料集](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
+![連線到資料集](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
 ## <a name="dashboard-tiles"></a>儀表板圖格
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5477d7772681f0dd5ac4426335521f6ab1a7844e
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: f3c72de197203adcad1020bc244ff0bc215e10bd
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160332"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164487"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>從 Power BI Desktop 連線到 Power BI 服務中的資料集
 您可在 Power BI 服務中建立連到共用資料集的即時連線，並從同一個資料集建立許多不同的報表。 這表示您可以在 Power BI Desktop 中建立完美的資料模型，並將它發佈到 Power BI 服務。 然後，您和其他人便可以從相同的通用資料模型建立多個不同報表 (分別位於不同的 .pbix 檔案中)，並儲存到不同的工作區。 這項功能稱為 **Power BI 服務即時連線**。
@@ -74,7 +74,7 @@ Anna 可以從該處選擇報表和資料集要發佈的工作區目的地。 �
 
 ![發佈已成功](media/desktop-report-lifecycle-datasets/report-lifecycle_07.png)
 
-現在您包含其資料集的報表已在 Power BI 服務中，您也可以「宣傳」  它，證明其品質和可靠性。 您甚至可以要求它通過您 Power BI 租用戶中中央授權單位的「認證」  。 透過這些保證，您的資料集便一律會在其他人尋找資料集時，出現在清單主題中。 若有興趣的話，您可以深入閱讀[宣傳您資料集](service-datasets-promote.md)流程。 
+現在您包含其資料集的報表已在 Power BI 服務中，您也可以「宣傳」  它，證明其品質和可靠性。 您甚至可以要求它通過您 Power BI 租用戶中中央授權單位的「認證」  。 透過這些保證，您的資料集便一律會在其他人尋找資料集時，出現在清單頂端。 若有興趣的話，您可以深入閱讀[宣傳您資料集](service-datasets-promote.md)流程。 
 
 最後一個步驟是為作為報表基礎的資料集設定「建置權限」  。 建置權限會決定誰可以看見及使用您的資料集。 您可以在工作區本身中設定它，或是在您從工作區共用應用程式時設定它。 深入了解設定[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
 

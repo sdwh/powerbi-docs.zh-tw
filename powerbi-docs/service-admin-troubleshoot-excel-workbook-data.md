@@ -13,7 +13,7 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65101577"
@@ -25,7 +25,7 @@ ms.locfileid: "65101577"
 
 當您將 Excel 活頁簿匯入 Power BI 時，您可能會看到下列錯誤：
 
-*錯誤：找不到任何格式化為資料表的資料。若要從 Excel 匯入到 Power BI 服務，您需要將資料格式化為資料表。選取您想要在資料表中，並按下 Ctrl + T 的所有資料。*
+*錯誤：找不到任何形式為資料表的資料。若要從 Excel 匯入至 Power BI 服務，您需要形式為資料表的資料。請在資料表中選取您需要的所有資料，然後按 Ctrl+T。*
 
 ![在活頁簿中找不到資料](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 
