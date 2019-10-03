@@ -697,6 +697,8 @@
               href: service-cognitive-services.md
             - name: Power BI 中的自動化機器學習 (預覽)
               href: service-machine-learning-automated.md
+        - name: 資料譜系
+          href: service-data-lineage.md
         - name: Power BI 中的編頁報表
           items:
             - name: 檢視編頁報表
@@ -867,6 +869,8 @@
       items:
         - name: 支援的語言和國家 (地區)
           href: supported-languages-countries-regions.md
+        - name: 支援的瀏覽器
+          href: power-bi-browsers.md
     - name: 資源
       items:
         - name: 白皮書
