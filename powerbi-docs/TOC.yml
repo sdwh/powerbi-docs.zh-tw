@@ -873,16 +873,6 @@
           href: power-bi-browsers.md
     - name: 資源
       items:
-        - name: 白皮書
-          items:
-            - name: 白皮書概觀
-              href: whitepapers.md
-            - name: Power BI 安全性白皮書
-              href: whitepaper-powerbi-security.md
-            - name: Power BI Premium 部署
-              href: whitepaper-powerbi-premium-deployment.md
-            - name: 使用 Azure Active Directory B2B 在外部散發 Power BI
-              href: whitepaper-azure-b2b-power-bi.md
         - name: 影片
           href: videos.md
         - name: 網路研討會
@@ -1456,3 +1446,13 @@
       href: guidance/dax-divide-function-operator.md
     - name: 資料流程的最佳做法
       href: service-dataflows-best-practices.md
+    - name: 白皮書
+      items:
+        - name: 白皮書概觀
+          href: whitepapers.md
+        - name: Power BI 安全性白皮書
+          href: whitepaper-powerbi-security.md
+        - name: Power BI Premium 部署
+          href: whitepaper-powerbi-premium-deployment.md
+        - name: 使用 Azure Active Directory B2B 在外部散發 Power BI
+          href: whitepaper-azure-b2b-power-bi.md
