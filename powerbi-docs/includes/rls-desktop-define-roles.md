@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e48713315b23cf322b635f1650374251b639e4f
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61193689"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71409350"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>在 Power BI Desktop 中定義角色和規則
 您可以在 Power BI Desktop 中定義角色和規則。 當發佈到 Power BI 時，也會發佈角色定義。
@@ -35,8 +35,14 @@ ms.locfileid: "61193689"
    
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 8. 建立 DAX 運算式之後，您可以選取運算式上方的核取方塊，以驗證運算式。
-   
+      
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
+   
+   > [!NOTE]
+   > 在此運算式方塊中，即使您使用的地區設定慣用分號分隔字元 (例如法文或德文)，您仍須使用逗號分隔 DAX 函式的引數。 
+   >
+   >
+   
 9. 選取 [儲存]  。
 
 您無法在 Power BI Desktop 中指派使用者給角色。 請在 Power BI 服務中指派他們。 在 Power BI Desktop 內，您可以使用 *username()* 或 *userprincipalname()* DAX 函式，並設定合適的關聯性，以啟用動態安全性。 
