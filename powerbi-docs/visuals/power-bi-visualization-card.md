@@ -10,102 +10,92 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b3b773d7c28cb4528edb59a92e07874b53fc9c20
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 268b69362f0f8c98ba01fbd0673fc46856d54ba2
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840004"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195609"
 ---
 # <a name="card-visualizations"></a>卡片視覺效果
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 有時您在 Power BI 儀表板或報告中追蹤的最重要項目是一個單一數字，例如總銷售額、歷年的市佔率，或總商機。 這類型的視覺效果稱為「卡片」  。 幾乎所有的原生 Power BI 視覺效果，都可以使用報告編輯器或 [問與答] 來建立卡片。
 
 ![卡片視覺效果](media/power-bi-visualization-card/pbi-opptuntiescard.png)
 
-## <a name="create-a-card-using-the-report-editor"></a>使用報告編輯器建立卡片
-這些指示使用零售分析範例。 若要跟著做，請針對 Power BI 服務 (app.powerbi.com) 或 Power BI Desktop [下載範例](../sample-datasets.md)。   
+## <a name="prerequisite"></a>必要條件
 
-1. 從空白報告頁面開始，選取 [商店]  \> [開啟商店計數]  欄位。 如果您使用 Power BI 服務，您必須在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報告。
+本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+
+1. 從功能表列的左上方區段中，選取 [檔案]  \>[開啟] 
+   
+2. 尋找您的**零售分析範例 PBIX 檔案**複本
+
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+
+1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+
+## <a name="option-1-create-a-card-using-the-report-editor"></a>選項 1：使用報告編輯器建立卡片
+
+建立卡片的第一種方法，是使用 Power BI Desktop 中的報表編輯器。
+
+1. 從空白報告頁面開始，選取 [商店]  \> [開啟商店計數]  欄位。
 
     Power BI 會以一個數字建立直條圖。
 
-   ![](media/power-bi-visualization-card/pbi-rptnumbertilechart.png)
+   ![範例號碼標題圖](media/power-bi-visualization-card/pbi-overview-chart.png)
+
 2. 在 [視覺效果] 窗格中選取卡片圖示。
 
-   ![](media/power-bi-visualization-card/power-bi-templates.png)
-6. 將滑鼠暫留在卡片上，然後選取釘選圖示 ![](media/power-bi-visualization-card/pbi-pintile.png)，以將視覺效果新增至儀表板。
+   ![範例號碼標題卡](media/power-bi-visualization-card/power-bi-card-visualization.png)
 
-   ![](media/power-bi-visualization-card/power-bi-pin-icon.png)
-7. 將磚釘選至現有的儀表板或新的儀表板上。
+您現在已成功使用報表編輯器建立卡片。 以下是使用問與答問題方塊來建立卡片的第二個選項。
 
-   * 現有儀表板：從下拉式清單中選取儀表板的名稱。
-   * 新儀表板：輸入新儀表板的名稱。
-8. 選取 [釘選]  。
+## <a name="option-2-create-a-card-from-the-qa-question-box"></a>選項 2：從問與答問題方塊建立卡片
+問與答問題方塊是您在建立卡片時使用的另一個選項。 您可以在 Power BI Desktop 報表檢視中取得問與答問題方塊。
 
-   靠近右上角的成功訊息讓您知道，視覺效果已當成磚加入儀表板。
+1. 從空白報表頁面開始
 
-   ![](media/power-bi-visualization-card/power-bi-success2.png)
-9. 選取 [移至儀表板]  。 您可以在這裡[編輯和移動](../service-dashboard-edit-tile.md)釘選的視覺效果。
+1. 在視窗頂端，選取**詢問問題**圖示。 
 
+    Power BI 將會為您的問題建立卡片和方塊。 
 
-## <a name="create-a-card-from-the-qa-question-box"></a>從問與答問題方塊建立卡片
-[問與答] 問題方塊是製作卡片的最簡單方式。 您可以從儀表板或報表的 Power BI 服務或在 Desktop 報表檢視中取得問與答問題方塊。 下列步驟說明如何從 Power BI 服務儀表板建立卡片。 如果您想要使用 Power BI Desktop 中的問與答建立卡片，請[遵循這些指示](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA)使用 Desktop 報表的問與答。
+   ![詢問問題圖示位置](media/power-bi-visualization-card/power-bi-q-and-a-overview.png)
 
-此範例使用[商機分析範例](../sample-opportunity-analysis.md)。
+2. 例如，在問題方塊中鍵入「Tina 的總銷售額」。
 
-1. 在儀表板頂端的問題方塊中，開始輸入您想要知道的資料相關問題。 
+    問題方塊可透過建議與重新陳述來協助您，而且最後會顯示總數。  
 
-   ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
+   ![問題方塊範例](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
-> [!TIP]
-> 在 Power BI 服務報表的 [編輯] 檢視中，從頂端功能表列選取 [詢問問題]  。 從 Power BI Desktop 報告，尋找報告中的某個開放空間，然後按兩下以開啟問題方塊。
+   ![來自問題方法的卡片範例](media/power-bi-visualization-card/power-bi-q-and-a-card.png)
 
-2. 例如，在問題方塊中輸入「商機次數」。
-
-   ![](media/power-bi-visualization-card/power-bi-q-and-a.png)
-
-   問題方塊可透過建議與重新陳述來協助您，而且最後會顯示總數。  
-4. 選取右上角的釘選圖示 ![](media/power-bi-visualization-card/pbi-pintile.png)，將卡片新增至儀表板。
-
-   ![](media/power-bi-visualization-card/power-bi-pin.png)
-5. 將卡片當作圖格，釘選至現有儀表板或新的儀表板。
-
-   * 現有儀表板：從下拉式清單中選取儀表板的名稱。 您只能選擇具有目前工作區的儀表板。
-   * 新的儀表板︰輸入新儀表板的名稱，它就會新增至目前工作區。
-6. 選取 [釘選]  。
-
-   靠近右上角的成功訊息讓您知道，視覺效果已當作圖格新增至儀表板。  
-
-   ![](media/power-bi-visualization-card/power-bi-success2.png)
-7. 選取 [移至儀表板]  以查看新磚。 於該處，您可以在儀表板上[重新命名、調整大小、加入超連結和重新置放磚等等](../service-dashboard-edit-tile.md)。
-
-   ![](media/power-bi-visualization-card/power-bi-pinned-2.png)
-
-
-
+您現在已成功建立包含問與答問題方塊的卡片。 以下步驟可讓您針對特定需求將卡片格式化。
 
 ## <a name="format-a-card"></a>格式化卡片
 您有變更標籤、文字、色彩等等的許多選項。 學習的最佳方法是建立卡片，然後探索 [格式化] 窗格。 以下是幾個可用的格式化選項。 
 
-在報表中與卡片互動時，可使用 [格式化] 窗格。 如果您變更報表中的卡片，請重新釘選它，在儀表板中查看這些變更。 
+在報表中與卡片互動時，可使用 [格式化] 窗格。 
 
 1. 從選取油漆滾筒圖示開始，開啟 [格式化] 窗格。 
 
     ![凸顯油漆滾筒外框的卡片](media/power-bi-visualization-card/power-bi-format-card-2.png)
+
 2. 選取卡片，展開 [資料標籤]  並變更色彩、大小和字型系列。 如果您有數千個存放區，則可以使用 [顯示單位]  以千為單位顯示存放區數目，並控制小數位數。 例如，125.8K 而不是 125,832.00。
+
+    ![含資料格式範例的卡片](media/power-bi-visualization-card/power-bi-card-format-2.png)
 
 3.  展開 [類別目錄標籤]  並變更色彩和大小。
 
-    ![已選取深藍色](media/power-bi-visualization-card/power-bi-card-format-2.png)
+    ![含類別範例的卡片](media/power-bi-visualization-card/power-bi-card-format-category.png)
 
 4. 展開 [背景]  並移動滑桿至 [開啟]。  現在您可以變更背景色彩和透明度。
 
     ![滑桿已設為 ON](media/power-bi-visualization-card/power-bi-format-color-2.png)
 
 5. 繼續探索格式化選項，直到您的卡片完全符合您的喜好。 
-
-    ![完成所有格式化之後的卡片](media/power-bi-visualization-card/power-bi-formatted-2.png)
-
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 如果完全看不到問題方塊，請連絡系統或租用戶系統管理員。    

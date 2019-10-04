@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751564"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305753"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
@@ -190,6 +190,13 @@ ms.locfileid: "70751564"
 當您的應用程式取用者開啟應用程式時，他們會看到您建立的瀏覽，而不是標準的 Power BI 左側瀏覽窗格。 應用程式瀏覽會列出已定義區段中的報表和儀表板。 它也會列出每份報表的個別頁面，而不僅是報表名稱。
 
 ![具有瀏覽的應用程式](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+## <a name="considerations-and-limitations"></a>考量與限制
+發佈應用程式時的重要事項：
+
+* 在應用程式的存取清單中，您最多可以有 100 個使用者或群組。 不過，您可以讓超過 100 個使用者存取該應用程式。 若要這麼做，請使用一或多個包含所有所需使用者的使用者群組。
+* 針對新的工作區體驗，如果新增至應用程式存取清單的使用者已經可以透過工作區存取應用程式，他們就不會顯示在應用程式的存取清單中。  
+
 
 ## <a name="next-steps"></a>後續步驟
 * [建立工作區](service-create-workspaces.md)

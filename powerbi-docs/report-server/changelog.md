@@ -9,18 +9,43 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 0aa1d964485297c5e0dae3f4a309cc0dd15b92b2
-ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
+ms.openlocfilehash: 71c2135092b0b9bb2b02f4559d40c0b10814a51f
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "68940907"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325736"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
 此變更記錄適用於 Power BI 報表伺服器，並列出新的項目，以及每個發行組建的 Bug 修正。
 
 如需新功能的詳細資訊，請參閱 [Power BI 報表伺服器的新增功能](whats-new.md)。 
+
+## <a name="september-2019"></a>2019 年 9 月
+
+- **Power BI 報表伺服器**          
+    - *版本 1.6.7206.38019 (組建 15.0.1102.597)，發行日期：2019 年 9 月 26 日*
+        - 安全性更新
+        - Bug 修正
+           - 編頁報表
+             - 修正使用 IE 和 Edge 時所遇到的協助工具問題。
+             - 修正測試連線時的 SAP HANA 問題。
+             - 修正在提供電子郵件地址清單時所發現的問題。
+             - 修正使用 DirectQuery 資料來源和整合式驗證的 Power BI 報表。
+             - 修正啟用快照集時，要使用篩選參數呈現的編頁報表。
+             - 修正預存程式在報表執行期間的雙重執行。
+             - 修正當自訂服務帳戶設定為執行 Power BI 報表伺服器時，獲授與 SQL Server 登入權限的預設服務帳戶。
+             - 修正在日文時區重新整理期間的存取模型問題。
+             - 修正在重新整理期間上傳新報表版本時的過時模型。
+             - 修正包含 '&' 字元的參數值。
+         - 可程式性
+             - 已更新 Web API: /PowerBIReports({Id})/DataSources (PATCH) 來允許連接字串更新。
+         
+- **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
+    - *版本：2.73.5586.821 (2019 年 9 月)，發行日期：2019 年 9 月 26 日* (新組建和新版本)
+    - 包含與 Power BI 報表伺服器連線所需的變更 (2019 年 9 月)
+
 
 ## <a name="may-2019"></a>2019 年 5 月
 

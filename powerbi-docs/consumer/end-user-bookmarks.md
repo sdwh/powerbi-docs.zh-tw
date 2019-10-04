@@ -3,20 +3,18 @@ title: Power BI 服務報表中的書籤概觀
 description: Power BI 問與答自然語言查詢的文件概觀主題。
 author: mihart
 manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/10/2019
+ms.date: 09/22/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 55fafb00135908dc4f82151b96ed04d2cf2568da
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 0b4da978687afbafcc7f0d48b6df220b240a507f
+ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608318"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71207601"
 ---
 # <a name="what-are-bookmarks"></a>什麼是書籤？
 書籤會擷取目前設定的報表頁面檢視，包括篩選、交叉分析篩選器，以及視覺效果的狀態。 當您選取書籤時，Power BI 會將您帶回到該檢視。 有兩種類型的書籤：您自行建立的書籤和由報表「設計師」  建立的書籤。
@@ -26,15 +24,15 @@ ms.locfileid: "65608318"
 
 您也可以建立書籤集合，依您想要的順序加以排列，然後在簡報中逐步執行每個書籤，以醒目提示一系列述說故事的見解。  
 
-![從功能區中選取 [書籤] 窗格加以顯示。](media/end-user-bookmarks/power-bi-bookmarks-pane.png)
+![從功能區中選取 [書籤] 窗格加以顯示。](media/end-user-bookmarks/power-bi-select-bookmark.png)
 
-## <a name="using-bookmarks"></a>使用書籤
-若要開啟 [書籤] 窗格，請從功能表列選取 [書籤]  。 若要返回報表的原始發佈檢視，請選取 [重設為預設]  。
+## <a name="open-bookmarks"></a>開啟書籤
+若要開啟 [書籤] 窗格，請從功能表列選取 [書籤]   > [顯示更多書籤]  。 若要返回報表的原始發佈檢視，請選取 [重設為預設]  。
 
 ### <a name="report-bookmarks"></a>報表書籤
-如果報表「設計師」  包含報表書籤，則您會在 [報表書籤]  標題底下找到這些書籤。 
+如果報表「設計師」  包含報表書籤，則您會在 [報表書籤]  標題底下找到這些書籤。 此報表頁面有兩個書籤 (B1 和 B2)。 
 
-![顯示報表書籤。](media/end-user-bookmarks/power-bi-report-bookmark.png)
+![顯示報表書籤。](media/end-user-bookmarks/power-bi-report.png)
 
 選取要變更為該報表檢視的書籤。 
 
@@ -55,13 +53,13 @@ ms.locfileid: "65608318"
 
 以您想要在書籤中顯示的方式來設定報表頁面。 將報表頁面和視覺效果排列成您想要的方式之後，從 [書籤]  窗格中選取 [新增]  以新增書籤。 在此範例中，我們新增了一些區域和日期的篩選條件。 
 
-![新增個人書籤。](media/end-user-bookmarks/power-bi-add-personal.png)
+![新增個人書籤。](media/end-user-bookmarks/power-bi-bookmark-personal.png)
 
-**Power BI** 會建立書籤，並為其提供泛型名稱或您輸入的名稱。 您可以選取書籤名稱旁的省略符號，然後從出現的功能表中選取一個動作，以「重新命名」  、「刪除」  或「更新」  書籤。
+**Power BI** 會建立個人書籤，並為其提供泛型名稱或您輸入的名稱。 您可以選取書籤名稱旁的省略符號，然後從出現的功能表中選取一個動作，以「重新命名」  、「刪除」  或「更新」  書籤。
 
 一旦有了書籤，只要在 [書籤]  窗格中選取書籤，就可以加以顯示。 
 
-![新增個人書籤。](media/end-user-bookmarks/power-bi-personal-bookmark.png)
+![新增個人書籤。](media/end-user-bookmarks/power-bi-bookmark-west.png)
 
 
 <!--
@@ -81,11 +79,11 @@ The order of your bookmarks can become important when you use the **View** featu
 
 在 [檢視]  模式中，有一些需要注意的功能：
 
-1. 書籤的名稱會出現在畫布底部的書籤標題列中。
-2. 書籤標題列的箭號可讓您移至下一個或上一個書籤。
-3. 您可以從 [書籤]  窗格中選取 [結束]  ，或選取可在書籤標題列中找到的 **X**，來結束 [檢視]  模式。 
+- 書籤的名稱會出現在畫布底部的書籤標題列中。
+- 書籤標題列的箭號可讓您移至下一個或上一個書籤。
+- 您可以從 [書籤]  窗格中選取 [結束]  ，或選取可在書籤標題列中找到的 **X**，來結束 [檢視]  模式。
 
-![書籤投影片放映](media/end-user-bookmarks/power-bi-bookmark-slideshow.png)
+![書籤投影片放映](media/end-user-bookmarks/power-bi-slideshow.png)
 
 當您在 [檢視]  模式時，您可以關閉 [書籤]  窗格 (藉由按一下該窗格上的 X)，為您的簡報提供更多空間。 此外，在 [檢視]  模式中，所有視覺效果都是互動式，並可用於交叉醒目提示，就像是與其互動一樣。 
 
@@ -154,7 +152,6 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 
 * 大部分的自訂視覺效果都可以和書籤搭配使用。 如果您在使用書籤和自訂視覺效果時遇到問題，請連絡該自訂視覺效果的建立者，並請他們將書籤的支援新增到其視覺效果。 
 * 如果您在建立書籤之後將視覺效果新增至報表頁面，視覺效果就會以其預設狀態顯示。 換句話說，如果您在先前建立書籤的頁面中引進交叉分析篩選器，交叉分析篩選器就會以其預設狀態運作。
-* 在建立書籤之後移動視覺效果的結果會反映在書籤中。 
 * 一般來說，如果報表「設計師」  更新或重新發佈報表，您的書籤不會受到影響。 不過，如果設計師對報表進行重大變更 (例如移除書籤所使用的欄位)，則您下次嘗試開啟該書籤時，將會收到錯誤訊息。 
 
 <!--

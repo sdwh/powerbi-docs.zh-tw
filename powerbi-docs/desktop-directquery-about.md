@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 11de32b8119e8b6922dcc1a971750e4256812932
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: d303e20e524ad7ac67882812b6e4f5a1d9b06c33
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654761"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305809"
 ---
 # <a name="using-directquery-in-power-bi"></a>使用 Power BI 中的 DirectQuery
 您可以在使用 **Power BI Desktop** 或 **Power BI 服務**時連接到各種不同的資料來源，且可以利用不同的方法來進行這些資料連接。 您可以將資料「匯入」  Power BI (這是取得資料的最常見方法)，或直接連接到原始來源存放庫中的資料 (也稱為 **DirectQuery**)。 本文將描述 **DirectQuery** 及其功能：
@@ -137,6 +137,7 @@ Power BI 會連接到大量的各種資料來源，包括：
 使用 **DirectQuery** 時，仍可進行許多這類模型擴充，而且也有擴充未處理資料的原則，以便改善後續使用。 不過，使用 DirectQuery 時，某些模型功能會無法使用或受到限制。 為避免效能問題，通常會套用這些限制。 下列項目符號清單中列出所有 DirectQuery 來源常見的一組限制。 還有其他限制可能會套用至個別來源，如本文結尾附近的*資料來源的特定詳細資料*中所述。
 
 * **沒有內建日期階層：** 匯入資料時，每個日期/日期時間資料行預設也會有內建日期階層可用。 例如，如果匯入包含 OrderDate 資料行的銷售訂單資料表，則在視覺效果中使用 OrderDate 時，可以選擇要使用的適當層級 (Year、Month、Day)。 使用 DirectQuery 模式時無法使用此內建日期階層。 不過請注意，如果基礎來源中有可用的 Date 資料表 (這在許多資料倉儲中很常見)，則可以如往常般使用 DAX 時間智慧函式。
+* **日期/時間僅支援到秒精確度：** 當您在資料集中使用時間資料行時，Power BI 只會向基礎來源發出查詢到秒的詳細資料層級。 查詢不會在幾毫秒內傳送至 DirectQuery 來源，因此您必須從來源資料行中移除這部分的時間。
 * **計算結果欄限制：** 計算結果欄僅限於內部資料列，換句話說，它們只會參考相同資料表之其他資料行的值，而不會使用任何彙總函式。 此外，允許的 DAX 純量函式 (例如 LEFT()) 僅限於可直接發送至基礎來源的函式，因此會因來源的實際功能而有所不同。 撰寫計算結果欄的 DAX 時，不會在自動完成功能中列出不支援的函式，而且如果使用這些函式，將會導致錯誤。
 * **不支援父子式 DAX 函式：** 在 DirectQuery 模型中，您無法使用通常用來處理父子式結構 (例如會計科目表或員工階層) 的 DAX PATH() 函式系列。
 * **不支援計算資料表：** DirectQuery 模式不支援使用 DAX 運算式定義計算資料表的功能。

@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/06/2019
-ms.openlocfilehash: 9e4d5285b48739e9f16fbe503736c20cb5524e5d
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.date: 09/24/2019
+ms.openlocfilehash: ca090f7251349c9ed4768b49f1372c14e68f0068
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985717"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305687"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>什麼是 Power BI Premium 中的編頁報表？
 
@@ -36,14 +36,13 @@ ms.locfileid: "69985717"
 
 單一的編頁報表可以包含許多不同的資料來源。 與 Power BI 報表不同，它沒有基礎資料模型。 針對 Power BI 服務中編頁報表的初始版本，您可以在報表本身中建立內嵌的資料來源和資料集。 目前，您無法使用共用資料來源或共用資料集。 您可以在本機電腦上的報表產生器中建立報表。 如果報表連接至內部部署資料，則在將報表上傳至 Power BI 服務之後，您需要建立閘道並重新導向資料連線。 以下是您此時可以連線到的資料來源：
 
-- Azure SQL Database 和資料倉儲
+- Azure SQL Database 和資料倉儲 (透過基本和 oAuth)
 - Azure Analysis Services (透過 SSO)
 - 透過閘道的 SQL Server
 - 透過閘道的 SQL Server Analysis Services
-- Power BI Premium 資料集
+- Power BI 資料集
 - Oracle
 - Teradata
-- 其他來源 (新增時)
 
 ## <a name="design-your-report"></a>設計報表  
 
@@ -79,10 +78,10 @@ ms.locfileid: "69985717"
 以下是初始版本中不支援的一些其他功能：
 
 - 將報表頁面或視覺效果釘選到 Power BI 儀表板。 您仍然可以從位於 Power BI 報表伺服器或 Reporting Services 報表伺服器上的內部部署編頁報表，將視覺效果釘選到 Power BI 儀表板。 請參閱[將 Reporting Services 項目釘選至 Power BI 儀表板](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)以取得更多資訊。
-- 互動式功能，例如文件引導模式及顯示/隱藏按鈕。
-- 子報表和鑽研報表。
+- 文件對應。
+- 子報表和鑽研報表。  不過，您可以考慮使用 URL 參數搭配編頁報表來完成鑽研案例。
 - 共用的資料來源和共用資料集。
-- Power BI 報表的視覺效果。
+
  
 ## <a name="next-steps"></a>後續步驟
 

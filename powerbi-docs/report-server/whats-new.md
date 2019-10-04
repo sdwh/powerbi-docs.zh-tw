@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 09/26/2019
+ms.openlocfilehash: 26dde078ce0b237779660c44b2843a645e4d1a47
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187311"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325557"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
-深入了解什麼是 Power BI 報表伺服器和針對 Power BI 報表伺服器最佳化的 Power BI Desktop 的新功能。 本文涵蓋主要功能範圍，並會隨著新項目發行而更新。
+了解 Power BI 報表伺服器的新功能，以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop。 本文涵蓋主要功能範圍，且會隨著每個新版本而更新。
 
 如需相關的 Power BI「新功能」資訊，請參閱︰
 
@@ -26,77 +26,132 @@ ms.locfileid: "66187311"
 * [Power BI Desktop 的新功能](../desktop-latest-update.md)
 * [Power BI 行動裝置 App 的新功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
-## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>2019:Power BI Desktop，Power BI 報表伺服器
+## <a name="september-2019"></a>2019 年 9 月
 
-請參閱[Power BI 報表伺服器 2019 年](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/)部落格文章，如需所有新功能詳細資料。
+如需所有新功能的詳細資料，請參閱 [Power BI Report Server September 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-september-2019-feature-summary/) (Power BI 報表伺服器 2019 年 9 月) 部落格文章。
 
-以下是一些發行的重點：
+Power BI 報表伺服器的 2019 年 9 月更新包含了許多 Power BI 報表功能。 以下是一些重點：
 
-### <a name="performance-analyzer"></a>效能分析程式 
+- **交叉分析篩選器的視覺效果層級篩選**：您可以將視覺效果層級篩選新增至交叉分析篩選器。 它的運作方式就像任何其他視覺效果層級的篩選一樣，但只是篩選交叉分析篩選器本身，而不是其他視覺效果。 這項篩選對於篩選出空白，或您要使用量值篩選時很有用。
+- **資料表和矩陣的圖示集**使用 KPI 圖示，您可以設定規則，以在資料表和矩陣中顯示不同的圖示集，類似於 Excel 中的圖示集。
+- **群組視覺效果**現在，您可以在報表頁面上將視覺效果、圖形、文字方塊、影像及按鈕群組在一起，就像在 PowerPoint 中一樣。 當您將物件群組在一起時，可以一起移動這些物件並調整其大小。 群組可讓您更輕鬆地在每個頁面上有許多物件的報表中工作。
+- **新的預設佈景主題**為了與新的佈景主題 JSON 選項一起使用，我們正在更新可用於報表的佈景主題，以及變更新報表的預設佈景主題。 新預設佈景主題會更妥善地配合 Microsoft 的設計語言，並遵循視覺效果的最佳設計做法。 
+- **更新的窗格設計**：我們重新整理了大部分的介面。 我們已將所有窗格、頁尾和檢視切換器更新為較淺的色彩、已更新間距，並引進了新的圖示。 新設計是重新整理整個介面的第一個步驟。
 
-如果您的報表執行速度比預期緩慢，請嘗試在 Power BI Desktop 中的 Performance Analyzer。 當您啟動它時，它會建立記錄檔，您需要在報表中的每個動作的相關資訊。 深入了解[Performance Analyzer](../desktop-performance-analyzer.md)。
-
-### <a name="new-modeling-view"></a>新的模型化作業檢視
-
-在 Power BI Desktop 中新的模型檢視，您可以檢視及處理複雜的資料集包含太多資料表。 反白顯示包含多個圖表配置，並大量編輯資料行、 量值和資料表。 深入了解[模型化作業檢視](../desktop-modeling-view.md)。
-
-### <a name="accessible-visual-interaction"></a>可存取的視覺效果互動
-
-您可以立即存取資料點上許多的內建的視覺效果，使用鍵盤巡覽。 深入了解[Power BI 報表中的協助工具](../desktop-accessibility.md)。
-
-### <a name="conditional-formatting-titles-and-web-url-actions"></a>條件式格式化標題和 web URL 動作
-
-Power BI 報表是互動式圖表。 合理，在報表中的標題會是動態的以反映報表的目前狀態。 您可以使用相同的運算式繫結格式設定，讓您的按鈕、 圖形及影像的 Url 為動態。 深入了解[運算式為基礎的標題](../desktop-conditional-format-visual-titles.md)。
-
-### <a name="cross-highlight-by-axis-labels"></a>依座標軸標籤交叉醒目提示
-
-就像您會在視覺效果中選取資料點，請在 視覺效果，以交叉醒目提示頁面上，其他項目中選取類別目錄軸標籤。 深入了解[交叉醒目提示](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)。
-
-### <a name="all-the-new-features"></a>所有新功能
-
-以下是所有的新功能清單：
+以下是完整的功能清單。 
 
 ### <a name="reporting"></a>報告
 
-- 在折線圖中的單一點交叉醒目提示 
-- 標題的文字換行 
-- 交叉篩選您来更新預設視覺效果互動
-- 針對視覺效果框線圓的角 
-- 單一選取的交叉分析篩選器  
-- Bing 地圖服務的熱度圖對應支援  
-- 依座標軸標籤交叉醒目提示  
-- 預設格式設定的工具提示  
-- 靜態 web 支援按鈕、 圖案和影像的 URL  
-- 頁面對齊選項   
-- 選取項目 窗格的改善  
-- 可存取的視覺效果互動  
-- 條件式格式化的視覺效果標題  
-- Web URL 動作，如按鈕、 圖形及影像的設定格式化的條件
-- 效能分析程式 窗格
-- 資料表和矩陣的鍵盤導覽
-- 線資料標籤位置的控制項
-- KPI 視覺指示器文字控制項大小
+- 更新的窗格設計
+- 交叉分析篩選器的視覺效果層級篩選
+- 效能分析程式窗格的排序
+- 視覺效果標頭工具提示
+- 資料表和矩陣總計標籤自訂
+- 階層交叉分析篩選器的同步交叉分析篩選器支援
+- 跨視覺效果的一致字型大小
+- 資料表和矩陣的圖示集
+- 依規則的條件式格式設定百分比支援
+- 新的篩選窗格現已正式推出
+- 在散佈圖上使用播放軸時的資料色彩支援
+- 使用相對日期和下拉式交叉分析篩選器時的效能改善
+- 群組視覺效果
+- 佈景主題中的色彩和文字類別
+- 新的預設佈景主題
 
 ### <a name="analytics"></a>分析
 
-- 將日期顯示為階層現在已正式推出  
+- 自訂格式字串
+- 格式設定選項的條件式格式設定更新
+
+    - 視覺效果背景和標題色彩
+    - 卡片色彩
+    - 量測計填滿和色彩
+    - 替代文字
+    - 框線色彩
+
+- 條件式格式設定警告
+- 鑽研可探索性改善
+- 新的 DAX 運算式：REMOVEFILTERS 和 CONVERT
+- 新的 DAX 比較運算子：==
+
+### <a name="data-preparation"></a>資料準備
+
+- M Intellisense 的改善
+- 新的轉換：依位置分割資料行
+- 從資料分析複製到剪貼簿
+
+
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>2019 年 5 月：適用於 Power BI 報表伺服器的 Power BI Desktop
+
+如需所有新功能的詳細資料，請參閱 [Power BI Report Server May 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) (Power BI 報表伺服器 2019 年 5 月) 部落格文章。
+
+以下是此版本的一些重點：
+
+### <a name="performance-analyzer"></a>效能分析器 
+
+如果您的報表執行速度比預期慢，請嘗試使用 Power BI Desktop 中的效能分析器。 當您予以啟動時，它會建立一個記錄檔，其中包含您在報表中所採取之每個動作的相關資訊。 深入了解[效能分析器](../desktop-performance-analyzer.md)。
+
+### <a name="new-modeling-view"></a>新的模型檢視
+
+在 Power BI Desktop 的新模型檢視中，您可以檢視並處理包含許多資料表的複雜資料集。 重點包括多個圖表配置，以及資料行、量值和資料表的大量編輯。 深入了解[模型檢視](../desktop-modeling-view.md)。
+
+### <a name="accessible-visual-interaction"></a>無障礙的視覺效果互動
+
+您現在可以使用鍵盤導覽來存取許多內建視覺效果上的資料點。 深入了解 [Power BI 報表的協助工具](../desktop-accessibility.md)。
+
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>條件式格式設定標題和 Web URL 動作
+
+Power BI 報表是互動式報表。 很明顯，報表中的標題會是動態的，用來反映報表的目前狀態。 您可以使用相同的運算式繫結格式設定，讓按鈕、圖形與影像的 URL 成為動態項目。 深入了解[以運算式為基礎的標題](../desktop-conditional-format-visual-titles.md)。
+
+### <a name="cross-highlight-by-axis-labels"></a>依軸標籤的交叉醒目提示
+
+選取視覺效果中的軸類別標籤，以交叉醒目提示頁面上的其他項目，就像您在視覺效果中選取資料點一樣。 深入了解[交叉醒目提示](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)。
+
+### <a name="all-the-new-features"></a>所有新功能
+
+以下是所有新功能的清單：
+
+### <a name="reporting"></a>報告
+
+- 折線圖單一點上的交叉醒目提示 
+- 標題的自動換行 
+- 更新預設視覺效果互動以交叉篩選
+- 視覺效果框線的圓角 
+- 單選交叉分析篩選器  
+- 針對 Bing 地圖的熱度圖支援  
+- 依軸標籤的交叉醒目提示  
+- 預設工具提示格式設定  
+- 針對按鈕、圖形與影像的靜態 Web URL 支援  
+- 頁面對齊選項   
+- 選取窗格改善  
+- 無障礙的視覺效果互動  
+- 視覺效果標題的條件式格式設定  
+- 按鈕、圖形與影像的 Web URL 動作條件式格式設定
+- 效能分析器窗格
+- 資料表和矩陣的鍵盤導覽
+- 程式行資料標籤位置控制項
+- KPI 視覺效果指示器文字大小控制項
+
+### <a name="analytics"></a>分析
+
+- 將日期顯示為階層的功能現已正式推出  
 
 ### <a name="modeling"></a>模型
 
-- 新模型檢視現在已正式推出
+- 新的模型檢視現已正式推出
 - 新的 DAX 函數
-- 更新至 ALLSELECTED DAX 函式
-- 停用自動日期資料表，為新報表
+- ALLSELECTED DAX 函式的更新
+- 停用新報表的自動日期資料表
 
-## <a name="may-2019-power-bi-report-server"></a>2019:Power BI 報表伺服器
+## <a name="may-2019-power-bi-report-server"></a>2019 年 5 月：Power BI 報表伺服器
 
-### <a name="support-for-trusted-visuals"></a>支援受信任的視覺效果
+### <a name="support-for-trusted-visuals"></a>受信任視覺效果的支援
 
-我們已將支援受信任的視覺效果加入 Power BI 報表伺服器。 目前我們支援 Mapbox 和 PowerOn 視覺效果。 ESRI、 Visio 和 PowerApps 不支援此版本。）
+我們已將受信任視覺效果的支援新增至 Power BI 報表伺服器。 目前我們支援 Mapbox 和 PowerOn 視覺效果。 此版本不支援 ESRI、Visio 和 PowerApps。)
 
 ### <a name="improved-security-features"></a>改善的安全性功能
 
-**RestrictedResourceMimeTypeForUpload**，讓管理員可用來指定逗號分隔的清單遭到禁用的 mime 類型，例如 text/html。
+**RestrictedResourceMimeTypeForUpload**，系統管理員可用來指定以逗號分隔的禁用 mime 類型清單，例如 text/html。
 
 ## <a name="january-2019"></a>2019 年 1 月
 
@@ -122,7 +177,7 @@ Power BI 報表中支援下列功能：
 
 **AllowedResourceExtensionsForUpload**：設定可上傳到報表伺服器之資源的延伸模組。 內建檔案類型 (像是 &ast;.rdl 和 &ast;.pbix) 的延伸模組不需要包含在內。 預設為「&ast;、&ast;.xml、&ast;.xsd、&ast;.xsl、&ast;.png、&ast;.gif、&ast;.jpg、&ast;.tif、&ast;.jpeg、&ast;.tiff、&ast;.bmp、&ast;.pdf、&ast;.svg、&ast;.rtf、&ast;.txt、&ast;.doc、&ast;.docx、&ast;.pps、&ast;.ppt、&ast;.pptx」。 
 
-**SupportedHyperlinkSchemes**：設定允許對可轉譯超連結動作定義的 URI 配置逗點分隔清單，或設定 "&ast;" 啟用所有超連結配置。 例如，設定 “http,https” 會允許 “https://wwwcontoso.com” 的超連結， 但是會移除 “mailto:bill@contoso.com” 或 “javascript:window.open(‘www.contoso.com’, ‘_blank’)” 的超連結。 預設為 "&ast;"。
+**SupportedHyperlinkSchemes**：設定允許對可轉譯超連結動作定義的 URI 配置逗點分隔清單，或設定 "&ast;" 啟用所有超連結配置。 例如，設定 “http,https” 會允許 “https://www contoso.com” 的超連結， 但是會移除 “mailto:bill@contoso.com” 或 “javascript:window.open(‘www.contoso.com’, ‘_blank’)” 的超連結。 預設為 "&ast;"。
 
 ## <a name="august-2018"></a>2018 年 8 月
 

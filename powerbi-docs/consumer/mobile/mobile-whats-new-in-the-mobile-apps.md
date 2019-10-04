@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: e74bdacc1b8ee40ec6628337e9e78528e8fdee29
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: fe8f21bbbd0886b8ff4046f744884e53f8822912
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164518"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327743"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -22,6 +22,13 @@ ms.locfileid: "71164518"
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
+
+## <a name="september-2019"></a>2019 年 9 月
+
+### <a name="support-for-custom-app-navigation-ios-and-android"></a>支援自訂應用程式瀏覽 (iOS 及 Android)
+
+我們增加了自訂應用程式瀏覽的支援。 現在，當您在 Power BI 行動版中開啟應用程式時，就能使用應用程式建立者所建置的自訂瀏覽體驗。 應用程式瀏覽可以依內容排列，也可以包含像是連結與可摺疊的區段等新項目。
+請參閱更多[自訂瀏覽](https://powerbi.microsoft.com/en-us/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/)的文章。
 
 ## <a name="august-2019"></a>2019 年 8 月
 

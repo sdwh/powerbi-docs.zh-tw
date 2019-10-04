@@ -1,22 +1,22 @@
 ---
-title: 針對如何開發 Power BI 自訂視覺效果的疑難排解
+title: 針對如何開發 Power BI Power BI 視覺效果的疑難排解
 description: 本文探討您開發或建立自訂 Power BI 視覺效果時，可能會遇到的幾個常見問題。
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: cbda8cca80c32056f06788e53540d7f2d6ed972d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 4d863ff921df2a5cfb5233d85679f2277542bb44
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421764"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195369"
 ---
-# <a name="troubleshoot-power-bi-custom-visuals"></a>針對 Power BI 自訂視覺效果進行疑難排解
+# <a name="troubleshoot-power-bi-power-bi-visuals"></a>針對 Power BI Power BI 視覺效果進行疑難排解
 
 ## <a name="debug"></a>偵錯
 
@@ -39,8 +39,8 @@ ms.locfileid: "61421764"
 
 在終端機命令列中輸入 `pbiviz start` 命令，從視覺效果專案的根目錄執行視覺效果伺服器。 如果伺服器未在執行中，很可能是您未正確安裝 SSL 憑證。
 
-如果您有任何問題或意見，歡迎連絡自訂視覺效果支援小組： *pbicvsupport@microsoft.com*  。
+如果您有任何問題或意見，歡迎連絡 Power BI 視覺效果支援小組： *pbicvsupport@microsoft.com*  。
 
 ## <a name="next-steps"></a>後續步驟
 
-如需詳細資訊，請參閱 [Power BI 自訂視覺效果的常見問題集](power-bi-custom-visuals-faq.md#organizational-custom-visuals)。
+如需詳細資訊，請參閱 [Power BI Power BI 視覺效果的常見問題集](power-bi-custom-visuals-faq.md#organizational-visuals)。

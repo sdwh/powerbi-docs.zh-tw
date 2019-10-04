@@ -11,18 +11,20 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 857db3240385e9bf1b4e0416cc1200d1a029d73e
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 65410dc15600307ba11a2c48db1689be5a458383
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867196"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193345"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 報表和儀表板中的資料表
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 資料表是一個方格，其中以資料列和資料行的邏輯數列包含相關的資料。 它也可能包含標頭和總計資料列。 資料表適合處理您要在許多值裡尋找單一類別的量化比較。 例如，這個資料表會顯示「類別」  的五個不同量值。
 
-![顯示「類別」五個不同量值的資料表螢幕擷取畫面。](media/power-bi-visualization-tables/table.png)
+![顯示「類別」五個不同量值的資料表螢幕擷取畫面。](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 
 在報表中建立資料表，並在資料表中交叉醒目提示元素，並在相同的報表頁面上顯示其他視覺效果。 您可以選取資料列、資料行，甚至是個別資料格，然後交叉醒目提示。 您也可以複製個別資料格和多個資料格的選取項目，並將其貼至其他應用程式。
 
@@ -36,25 +38,23 @@ ms.locfileid: "68867196"
 
 * 依類別顯示數值資料。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisite"></a>必要條件
 
-* Power BI 服務或 Power BI Desktop
+本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-* 零售分析範例報表
+1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
+   
+2. 尋找您的**零售分析範例 PBIX 檔案**複本
 
-## <a name="get-the-retail-analysis-sample-report"></a>取得零售分析範例報表
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
 
-這些指示使用零售分析範例。 建立視覺效果需要有資料集和報表的編輯權限。 幸運的是，所有的 Power BI 範例都是可編輯的。 如果有人與您共用報表，您就無法在報表中建立視覺效果。 若要跟著做，請取得[零售分析範例報表](../sample-datasets.md)。
+1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
-取得 [零售分析範例]  資料集之後，您就可以開始進行。
 
 ## <a name="create-a-table"></a>建立資料表
 
 我們將建立文章開頭描述的資料表，依項目類別顯示銷售值。
 
-1. 從 [我的工作區]  中，選取 [資料集]   > [建立報表]  。
-
-    ![[資料集] > [建立報表] 的螢幕擷取畫面。](media/power-bi-visualization-tables/power-bi-create-a-report.png)
 
 1. 從 [欄位]  窗格中，選取 [項目]   > [類別目錄]  。
 
@@ -66,11 +66,10 @@ ms.locfileid: "68867196"
 
 1. 然後，選取 [銷售 > 本年度銷售額]  ，並選取全部三個選項：[值]  、[目標]  和 [狀態]  。
 
-1. 在 [視覺效果]  窗格中，找出 [值]  區 並拖曳值，直到您的圖表資料行順序符合此頁面上的第一個影像。 您的 [值]  區看起來像這樣：
+1. 在 [視覺效果]  窗格中，找出 [值]  區並選取值，直到圖表資料行的順序符合此頁面上第一個影像。 如有需要，請將值拖曳到適當的區。 您的 [值]  區看起來像這樣：
 
     ![值](media/power-bi-visualization-tables/power-bi-table2.png)
 
-1. 選取釘選圖示將資料表釘選到儀表板 ![圖釘](media/power-bi-visualization-tables/pbi_pintile.png) 位於視覺效果的右上角。
 
 ## <a name="format-the-table"></a>格式化資料表
 
@@ -98,7 +97,7 @@ ms.locfileid: "68867196"
 
     ![到目前為止所有格式化的資料表](media/power-bi-visualization-tables/power-bi-table-format.png)
 
-### <a name="conditional-formatting"></a>設定格式化的條件
+### <a name="conditional-formatting"></a>條件式格式設定
 
 「條件式格式設定」  是某種類型的格式化。 Power BI 會將條件式格式設定套用至 [視覺效果]  窗格 [值]  區中的欄位。
 
@@ -170,10 +169,6 @@ ms.locfileid: "68867196"
 1. 選取 [複製]   > [複製選取範圍]  。
 
     ![複製選項](media/power-bi-visualization-tables/power-bi-copy-selection.png)
-
-    該複本包含資料行和資料列標頭。
-
-    ![貼到 Excel](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>調整資料表的資料行寬度
 

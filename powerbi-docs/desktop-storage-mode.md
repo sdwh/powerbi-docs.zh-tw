@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: bf69b2e4c25597eba980137e5ef8b2feb2f4d103
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841305"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327706"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop 中的儲存模式
 
 在 Microsoft Power BI Desktop 中，您可以指定資料表的儲存模式  。 儲存模式  可讓您控制 Power BI Desktop 是否要將報表資料快取到記憶體內。 
 
-![Power BI Desktop 中的儲存模式](media/desktop-storage-mode/storage-mode_01.png)
+![Power BI Desktop 中的儲存模式](media/desktop-storage-mode/storage-mode-01.png)
 
 設定儲存模式有許多好處。 您可以個別為模型中的每個資料表設定儲存模式。 此動作會啟用單一資料集，而且具有下列優點：
 
@@ -48,13 +48,10 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 
 ## <a name="use-the-storage-mode-property"></a>使用儲存模式屬性
 
-您可以對模型中的每一個資料表，設定儲存模式屬性。 若要設定儲存模式，請在 [欄位]  窗格中，在您要對其設定屬性的資料表上按一下右鍵，然後選取 [屬性]  。
+您可以對模型中的每一個資料表，設定儲存模式屬性。 若要設定儲存模式或查看其目前的設定，請在 [模型]  檢視中，選取您要檢視或設定其屬性的資料表，然後選取 [屬性]  窗格，接著展開 [進階]  區段，再展開 [儲存模式]  下拉式清單。
 
-![特色選單中的 [屬性] 命令](media/desktop-storage-mode/storage-mode_02.png)
+![特色選單中的 [屬性] 命令](media/desktop-storage-mode/storage-mode-02.png)
 
-目前的屬性會顯示在資料表之 [欄位屬性]  窗格中的 [儲存模式]  下拉式清單內。 您可以在該處檢視或修改目前的儲存模式。
-
-![設定資料表的儲存模式](media/desktop-storage-mode/storage-mode_03.png)
 
 儲存模式共有三個值：
 
@@ -77,11 +74,11 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 ## <a name="propagation-of-dual"></a>雙重的傳播方式
 請考慮下列簡單模型，其中所有資料表都來自支援 [匯入] 和 [DirectQuery] 的單一來源。
 
-![儲存模式的範例關聯性檢視](media/desktop-storage-mode/storage-mode_04.png)
+![儲存模式的範例關聯性檢視](media/desktop-storage-mode/storage-mode-04.png)
 
 一開始，假設此模型中的所有資料表都是 DirectQuery。 若我們將 *SurveyResponse* 資料表的**儲存模式**變更為「匯入」，將會顯示下列警告視窗：
 
-![儲存模式的警告視窗](media/desktop-storage-mode/storage-mode_05.png)
+![儲存模式的警告視窗](media/desktop-storage-mode/storage-mode-05.png)
 
 維度資料表 (*Customer*、*Geography* 和 *Date*) 可以設定為 [雙重]  ，以減少資料集中弱關聯性的數目並改善效能。 弱關聯性通常會涉及至少一個 [DirectQuery] 資料表，其中無法將聯結邏輯推送至來源系統。 [雙重]  資料表可作為 [DirectQuery] 或 [匯入] 運作，因此可協助避免此情況。
 
@@ -123,15 +120,15 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 
 延續上一個範例，下列查詢只會參考來自**雙重**模式之 *Date* 資料表的資料行。 因此，查詢應會命中快取。
 
-![適用於儲存體模式診斷的指令碼](media/desktop-storage-mode/storage-mode_06.png)
+![適用於儲存體模式診斷的指令碼](media/desktop-storage-mode/storage-mode-06.png)
 
 下列查詢只會參考 *Sales* 資料表的資料行，此資料表處於 **DirectQuery** 模式。 因此，它應該「不會」  命中快取。
 
-![適用於儲存體模式診斷的指令碼](media/desktop-storage-mode/storage-mode_07.png)
+![適用於儲存體模式診斷的指令碼](media/desktop-storage-mode/storage-mode-07.png)
 
 下列查詢的特別之處在於它結合了兩個資料行。 此查詢不會命中快取。 您可能一開始就預期此查詢會從快取中擷取 *CalendarYear* 值，並從來源中擷取 *SalesAmount* 值，然後合併結果，但相較於將 SUM/GROUP BY 作業提交至來源系統，此方法比較沒有效率。 如果將此作業向下推送至來源，傳回的資料列數目可能大幅減少。 
 
-![適用於儲存體模式診斷的指令碼](media/desktop-storage-mode/storage-mode_08.png)
+![適用於儲存體模式診斷的指令碼](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > 在合併快取及非快取的資料表時，此行為與 [Power BI Desktop 中的多對多關聯性](desktop-many-to-many-relationships.md)不同。
@@ -145,7 +142,7 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 ## <a name="data-view"></a>資料檢視
 若資料集中至少有一個資料表已將其儲存模式設定為**匯入**或**雙重**，就會顯示 [資料檢視]  索引標籤。
 
-![Power BI Desktop 中的資料檢視](media/desktop-storage-mode/storage-mode_09.png)
+![Power BI Desktop 中的資料檢視](media/desktop-storage-mode/storage-mode-03.png)
 
 在 [資料檢視]  中選取時，**雙重**及**匯入**資料表會顯示快取的資料。 DirectQuery 資料表不會顯示資料，並會顯示一則訊息，表示無法顯示 DirectQuery 資料表。
 

@@ -8,143 +8,123 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/23/2019
+ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e4b7b4b336b376f6ccec0bc0fe56de107ab8bd09
-ms.sourcegitcommit: 7d52401f50944feaaa112c84113ee47f606dbf68
+ms.openlocfilehash: 97c01966750d888f3420d265eb3f252b3a8f57d3
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67124167"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194893"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI 中的組合圖
 
-在 Power BI 中，組合圖是結合折線圖和直條圖的單一視覺效果。 將兩種圖結合成一張圖，讓您可以更快速地比較資料。
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+在 Power BI 中，組合圖是結合折線圖和直條圖的單一視覺效果。 將 2 種圖結合成一個，讓您可以更快速地比較資料。
 
 組合圖可以有一或兩條 Y 軸。
 
 ## <a name="when-to-use-a-combo-chart"></a>使用組合圖的時機
-
 組合圖極適合：
 
 * 當您的折線圖和直條圖具有相同的 X 軸。
-
-* 當您要比較具有不同值範圍的多個量值。
-
+* 當您要比較多個量值，其具有不同範圍的值。
 * 當您要在一個視覺效果中說明兩個量值間的相互關聯。
-
 * 當您要檢查量值是否符合另一個量值所定義的目標。
-
 * 當您要節省畫布的空間。
 
-## <a name="prerequisites"></a>先決條件
+### <a name="prerequisites"></a>先決條件
+本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-組合圖適用於 Power BI 服務和 Power BI Desktop。 本教學課程會使用 Power BI 服務建立組合圖。 請確定您具有使用者認證來登入 Power BI。
+1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
+   
+2. 尋找您的**零售分析範例 PBIX 檔案**複本
 
-觀看 Will 如何使用銷售和行銷範例建立組合圖。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>  
+1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+
+
 
 ## <a name="create-a-basic-single-axis-combo-chart"></a>建立單一軸的基本組合圖
+觀看 Will 如何使用銷售和行銷範例建立組合圖。
+   > [!NOTE]
+   > 這部影片使用舊版的 Power BI Desktop。
+   > 
+   > 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>  
 
-若要跟著做，請開啟 Power BI 服務並連線到 [零售分析範例]  。 若要建立自己的組合圖，請登入 Power BI 服務並選取 [取得資料]   >  [範例]   >  [零售分析範例]   >  [連接]  。 [零售分析範例]  儀表板即會出現。
+<a name="create"></a>
 
-1. 從 [零售分析範例] 儀表板，選取 [所有門市]  圖格，開啟 [門市零售概觀]  報表。
+1. 從空白報表頁面開始建立依月份顯示本年度銷售額和毛利的直條圖。
 
-1. 選取 [編輯報表]  以在 [編輯檢視] 中開啟報表。
+    a.  從 [欄位] 窗格中選取 [銷售額]  \> [本年度銷售額]   >  [值]  。
 
-1. 在頁面底部，選取 **+** 来新增報表頁面。
+    b.  將 [銷售額]  \>[本年度毛利]  拖曳到 [值]  的部分。
 
-1. 建立依月份顯示本年度銷售額和毛利的直條圖。
+    c. 選取 [時間]  \> [會計月份]  ，將其加入 [軸]  部分。
 
-    1. 從 [欄位] 窗格中選取 [銷售額]  \> [本年度銷售額]   >  [值]  。
+    ![組合教學課程範例](media/power-bi-visualization-combo-chart/combotutorial1new.png)
+5. 選取視覺效果右上角的省略符號 (...)，然後選取 [Sort by] > [FiscalMonth] \(排序依據\) > [FiscalMonth]  。 若要變更排序次序，請再次選取省略符號，並選擇 [遞增排序]  或 [遞減排序]  。 範例將使用 [遞增排序]  。
 
-    1. 將 [銷售額]  \>[本年度毛利]  拖曳到 [值]  的部分。
+6. 將直條圖轉換成組合圖。 有兩個組合圖可用：[折線與堆疊直條圖]  和 [折線與群組直條圖]  。 選取直條圖後，從 [視覺效果]  窗格中，選取 [折線與群組直條圖]  。
 
-    1. 選取 [時間]  \> [會計月份]  ，將其加入 [軸]  部分。
+    ![轉換組合圖範例](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
+7. 從 [欄位]  窗格中，將 [銷售額]  \> [去年度銷售額]  拖曳到 [折線圖值]  值區。
 
-        ![新建立直條圖的螢幕擷取畫面。](media/power-bi-visualization-combo-chart/combotutorial1new.png)
+   ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 
-1. 選取視覺效果右上角的省略符號，然後選取 [排序依據] > [FiscalMonth]  。 若要變更排序次序，請再次選取省略符號，並選擇 [遞增排序]  或 [遞減排序]  。
+   您的組合圖看起來應該像這樣：
 
-1. 將直條圖轉換成組合圖。 有兩個組合圖可用：[折線與堆疊直條圖]  和 [折線與群組直條圖]  。 選取直條圖後，從 [視覺效果]  窗格中，選取 [折線與群組直條圖]  。
-
-    ![標示折線與群組直條圖選項的 [視覺效果] 窗格螢幕擷取畫面。](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
-
-1. 從 [欄位]  窗格中，將 [銷售額]   >  [去年度銷售額]  拖曳到 [折線圖值]  區。
-
-    ![將去年度銷售額拖曳至其中的 [折線圖值] 區螢幕擷取畫面。](media/power-bi-visualization-combo-chart/linevaluebucket.png)
-
-    您的組合圖看起來應該像這樣：
-
-    ![新增去年銷售額折線圖值的直條圖螢幕擷取畫面。](media/power-bi-visualization-combo-chart/combochartdone-new.png)
+   ![組合圖完成範例](media/power-bi-visualization-combo-chart/combochartdone-new.png)
 
 ## <a name="create-a-combo-chart-with-two-axes"></a>建立具有兩軸的組合圖
-
 在這項工作中，我們會比較毛利率與銷售額。
 
-1. 建立依**月份**追蹤**去年毛利率 %** 的新折線圖。 選取省略符號，依 [月份]  和 [遞增]  排序。
+1. 建立依**會計月份**追蹤**去年毛利率 %** 的新折線圖。 選取省略符號，依 [月份]  和 [遞增]  排序。  
+一月的 GM% 為 35%，尖峰在 4 月為 45%，於 7 月下降並再次於 8 月達到尖峰。 我們去年和今年會看到類似的銷售模式嗎？
 
-    ![新折線圖的螢幕擷取畫面。](media/power-bi-visualization-combo-chart/combo1_new.png)
+   ![組合圖範例銷售](media/power-bi-visualization-combo-chart/combo1-new.png)
+2. 將 [今年度銷售額 > 值]  和 [去年度銷售額]  新增至折線圖。 [去年毛利率 %]  的刻度遠小於 [銷售額]  的刻度，因此難以比較。      
 
-     一月的 GM% 為 35%，尖峰在 4 月為 45%，於 7 月下降並再次於 8 月達到尖峰。 我們去年和今年會看到類似的銷售模式嗎？
+   ![組合圖 flatline 範例](media/power-bi-visualization-combo-chart/flatline-new.png)
+3. 若要使視覺效果更容易閱讀及解譯，請將折線圖轉換成折線與堆疊直條圖。
 
-1. 將 [今年度銷售額]   >  [值]  和 [去年度銷售額]  新增至折線圖。 [去年毛利率 %]  的刻度遠小於 [銷售額]  的刻度。 因此，難以比較。
+   ![轉換成組合圖範例](media/power-bi-visualization-combo-chart/converttocombo-new.png)
 
-    ![新增值和去年銷售額的折線圖螢幕擷取畫面。](media/power-bi-visualization-combo-chart/flatline_new.png)
+4. 將 [去年毛利率 %]  從 [資料行值]  拖曳到 [行值]  。 Power BI 會建立兩個軸，因此可用不同方式調整資料集；左邊的量值為銷售金額，而右邊的量值則為百分比。 我們看到我們問題的答案；是的，我們確實看到類似的模式。
 
-1. 若要使視覺效果更容易閱讀及解譯，請將折線圖轉換成折線與堆疊直條圖。
-
-    ![標示折線與堆疊直條圖選項的視覺效果窗格螢幕擷取畫面。](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-
-1. 將 [去年毛利率 %]  從 [資料行值]  拖曳到 [行值]  。 
-
-    ![折線與堆疊直條圖的螢幕擷取畫面](media/power-bi-visualization-combo-chart/power-bi-combochart.png)
-
-    Power BI 會建立兩個軸，允許服務採用不同的資料集刻度。 左側測量銷售金額，而右側測量百分比。 然後，我們看到問題的答案：是，我們的確看到類似的模式。
+   ![叢集組合圖範例](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>將標題加入座標軸
-
-1. 選取油漆滾筒圖示 ![油漆滾筒圖示的螢幕擷取畫面。](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) 開啟 [格式化] 窗格。
-
+1. 選取油漆滾筒圖示 
+1. ![油漆滾筒圖示](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) 開啟 [格式化] 窗格。
 1. 選取向下箭號以展開 [Y 軸]  選項。
+1. 針對 [Y 軸 (欄)]  ，將 [位置]  設為 [左]  、[標題]  設為 [開啟]  、[樣式]  設為 [僅顯示標題]  ，且 [顯示單位]  設為 [百萬]  。
 
-1. 針對 [Y 軸 (直條圖)]  ，選取下列選項：
+   ![組合圖開啟 y 範例](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
+4. 在 [Y 軸 (資料行)]  下方，向下捲動直到您看到 [顯示次要]  。 因為 Y 軸有很多選項，所以您可能必須捲動兩次。 [顯示次要] 區段會顯示用於設定組合圖中折線圖部分格式的選項。
 
-    | 設定 | 值 |
-    | ------- | ----- |
-    | 位置 | 選取 [左]  。 |
-    | 顯示單位 | 選取 [百萬]  。 |
-    | 標題 | 將滑桿移至 [開啟]  。 |
-    | 樣式 | 選取 [僅顯示標題]  。 |
-    | 顯示次要 | 將滑桿移至 [開啟]  。  這會顯示用於設定組合圖中折線圖部分格式的選項。 |
+   ![組合圖次要範例](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
+5. 對於 [Y 軸 (行)]  ，保留 [位置]  為 [右]  ，將 [標題]  改為 [開啟]  ，並將 [樣式]  設為 [僅顯示標題]  。
 
-1. 針對 [Y 軸 (折線圖)]  ，選取下列選項：
+   組合圖現在顯示兩個軸，而且都有標題。
 
-    | 設定 | 值 |
-    | ------- | ----- |
-    | 位置 | 選取 [右]  。 |
-    | 標題 | 將滑桿移至 [開啟]  。 |
-    | 樣式 | 選取 [僅顯示標題]  。 |
+   ![組合圖標題範例](media/power-bi-visualization-combo-chart/power-bi-2-titles.png)
 
-    組合圖現在會顯示雙座標軸及其標題。
-
-    ![標題開啟的折線與堆疊直條圖螢幕擷取畫面。](media/power-bi-visualization-combo-chart/power-bi-titles-on.png)
-
-1. (選擇性) 變更文字的字型、大小和色彩，並設定其他格式化選項，以改善圖表的顯示和可讀性。
+6. (選擇性) 修改文字的字型、大小和色彩，並設定其他格式化選項，以改善圖表的顯示和可讀性。
 
 接下來，您可能會想要：
 
 * [將組合圖加入為儀表板圖格](../service-dashboard-tiles.md)。
-
 * [儲存報表](../service-report-save.md)。
-
 * [使報表讓行動不便人士易於存取](../desktop-accessibility.md)。
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>交叉反白顯示和交叉篩選
 
-在組合圖中反白顯示直條或折線，會交叉反白顯示和交叉篩選報表頁面上的其他視覺效果。 若要變更此預設行為，請使用[視覺效果互動](../service-reports-visual-interactions.md)。
+在組合圖中反白顯示直條或折線，會交叉反白顯示和交叉篩選報表頁面上的其他視覺效果，反之亦然。 若要變更此預設行為，請使用[視覺效果互動](../service-reports-visual-interactions.md)。
 
 ## <a name="next-steps"></a>後續步驟
 

@@ -10,22 +10,35 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cd78fc1411f1eb4e9148bb12ddf6d9805954cfd7
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d90ef12e1971ddc81928746f338ba927a48d5b23
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839719"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195118"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Power BI 中的環圈圖
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 環圈圖類似於圓形圖之處，在於它會顯示部分與整體的關聯性。 唯一的差別在於，中央為空白，且保留空間給標籤或圖示。
 
+## <a name="prerequisite"></a>必要條件
+
+本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
+
+1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
+   
+2. 尋找您的**零售分析範例 PBIX 檔案**複本
+
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+
+1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+
+
 ## <a name="create-a-doughnut-chart"></a>建立環圈圖
-這些指示會使用「零售分析範例」來建立環圈圖，依類別顯示今年度銷售量。 若要跟著做，請針對 Power BI 服務或 Power BI Desktop [下載範例](../sample-datasets.md)。
 
-1. 從空白報表頁面開始。 如果您使用 Power BI 服務，請務必在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報告。
-
-2. 從 [欄位] 窗格中，選取 [銷售額]  \> [去年度銷售額]  。  
+1. 從空白報表頁面開始，並從 [欄位] 窗格中選取 [銷售額]  \>[去年度銷售額]  。  
    
 3. 從 [視覺效果] 窗格中，選取環圈圖的圖示 ![環圈圖圖示](media/power-bi-visualization-doughnut-charts/power-bi-icon.png)，以將橫條圖轉換成環圈圖。 如果 [值]  區域中沒有 [去年度銷售額]  ，請將其拖曳到該區域。
      

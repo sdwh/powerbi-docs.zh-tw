@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 214b9fe48d5254e1bd2d436dd873b3c2d1d35f98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1622e06cd7aa394d384954b393d1e547e87df10a
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65564922"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305661"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>重新啟動 Power BI Premium 容量
 
@@ -31,7 +31,7 @@ Power BI 持續改善其保護 Premium 容量使用者免於這類問題的方�
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>重新啟動程序安全嗎？ 我是否會遺失任何資料？
 
-所有儲存在容量的資料、定義、報表和儀表板在重新啟動後都會保持完整。 當您重新啟動容量時，所有進行中的排程和特定重新整理都會停止。 服務會嘗試重試一次重新整理可用的容量時。 與容量互動的使用者將會遺失未儲存的工作。 他們應該在重新啟動完成時，重新整理其瀏覽器。
+所有儲存在容量的資料、定義、報表和儀表板在重新啟動後都會保持完整。 當您重新啟動容量時，所有進行中的排程和特定重新整理都會停止。 當容量可用時，服務會嘗試重試重新整理。 與容量互動的使用者將會遺失未儲存的工作。 他們應該在重新啟動完成時，重新整理其瀏覽器。
 
 ## <a name="how-do-i-restart-a-capacity"></a>如何重新啟動容量？
 

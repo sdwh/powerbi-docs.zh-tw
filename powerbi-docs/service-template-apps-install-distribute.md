@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 158345c44f8801a98e19dcd9b4c7dde14aa6126b
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264522"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195297"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>在您的組織中散發範本應用程式 - Power BI
 
@@ -82,7 +82,7 @@ ms.locfileid: "67264522"
    >[!NOTE]
    >若要安裝未列於 AppSource 上的範本應用程式，您必須向您的系統管理員要求權限。 如需詳細資料，請參閱 Power BI [管理入口網站、範本應用程式設定](service-admin-portal.md#template-apps-settings)。
 
-## <a name="update-and-distribute-the-app"></a>更新和散發應用程式
+## <a name="customize-and-publish-the-app"></a>自訂及發佈應用程式
 
 當您為組織更新應用程式後，就能準備加以發佈。 這些步驟就和發佈任何其他應用程式一樣。
 
@@ -94,7 +94,7 @@ ms.locfileid: "67264522"
 
    ![設定應用程式描述和色彩](media/service-template-apps-install-distribute/power-bi-install-app-details.png)
 
-3. 您可在 [內容]  中選取登陸頁面，有儀表板和報表可供選擇。
+3. 在 [瀏覽]  中，您可以針對應用程式使用新的瀏覽產生器，或選取登陸頁面的儀表板或報表。 請參閱[設計應用程式的瀏覽體驗](service-create-distribute-apps.md#design-the-navigation-experience)以取得詳細資料。
 
    ![設定應用程式登陸頁面](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
 
@@ -106,14 +106,31 @@ ms.locfileid: "67264522"
 
 6. 成功發佈應用程式後，您可以複製連結並和您授與存取權的對象共用。 如果您與他們共用，他們就能在 AppSource 的 [我的組織]  索引標籤看到該應用程式。
 
-## <a name="next-steps"></a>後續步驟 
+## <a name="update-a-template-app"></a>更新範本應用程式
+
+範本應用程式建立者可以透過 AppSource 或直接連結來發行其範本應用程式的新版本。 當他們發行新版本時，您可以在使用相同或較新版本重新安裝應用程式時更新範本應用程式。
+
+  >[!NOTE]
+  >安裝新版本會覆寫您對報表和儀表板所做的任何變更。 若要保留已更新的報表和儀表板，您可以在安裝之前使用不同的名稱或位置將其儲存。
+
+- **覆寫現有的版本：** 使用範本應用程式的更新版本來覆寫現有工作區。
+
+   ![更新範本應用程式](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+
+- **安裝到新的工作區：** 安裝您需要重新設定的新版本工作區和應用程式
+
+### <a name="overwrite-behavior"></a>覆寫行為
+
+* 覆寫會更新「工作區」  內的報表、儀表板和資料集，而不是應用程式。 覆寫不會變更應用程式的瀏覽、設定和權限。
+* 更新工作區之後，您需要「更新應用程式」  ，以將變更從工作區套用到組織應用程式。
+* 覆寫會保留已設定的參數和驗證。 更新之後，隨即開始自動資料集重新整理。 在這段期間，組織應用程式、報表和儀表板會顯示「範例資料」  體驗。
+  ![範例資料](media/service-template-apps-install-distribute/power-bi-sample-data.png)
+* 覆寫一律會顯示範例資料，直到重新整理完成為止。 如果範本應用程式作者對資料集或參數進行變更，則工作區和應用程式的使用者會繼續看到「範例資料」  體驗。
+* 覆寫一律不會刪除已新增至工作區的「新」  報表或儀表板。 它會使用原始作者的變更來覆寫原始報表和儀表板。
+
+>[!IMPORTANT]
+>請記得在覆寫之後[更新應用程式](#customize-and-publish-the-app)，以將變更套用至組織應用程式使用者的報表和儀表板。
+
+## <a name="next-steps"></a>後續步驟
 
 [與同事在 Power BI 中建立工作區](service-create-workspaces.md)
-
-
-
-
-
-￼ 
-
- 

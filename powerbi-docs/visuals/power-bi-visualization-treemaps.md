@@ -11,14 +11,16 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4c28071917dbe5669e6e35bd416236ef7047eb24
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 1de5869bc5b422dc98a13316022f653f62675829
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408778"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192680"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI 中的矩形式樹狀結構圖
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 矩形式樹狀結構圖會將階層式資料顯示成一組巢狀矩形。 每個階層層級會以包含較小矩形 (分葉) 的彩色矩形 (分支) 表示。 Power BI 會根據測量值決定每個矩形內的空間大小。 矩形會依大小從左上角 (最大) 排列到右下角 (最小)。
 
@@ -40,6 +42,11 @@ ms.locfileid: "67408778"
 
 想要先觀賞其他人建立矩形式樹狀結構圖嗎？ 請跳至這段影片的 2:10 處，觀看 Amanda 建立矩形式樹狀結構圖。
 
+   > [!NOTE]
+   > 這部影片使用舊版的 Power BI Desktop。
+   > 
+   > 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-treemap"></a>使用矩形式樹狀結構圖的時機
@@ -58,41 +65,41 @@ ms.locfileid: "67408778"
 
 * 找出模式、極端值、最重要的因素和例外狀況。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisite"></a>必要條件
 
-* Power BI 服務或 Power BI Desktop
+本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-* 零售分析範例報表
+1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
+   
+2. 尋找您的**零售分析範例 PBIX 檔案**複本
 
-## <a name="get-the-retail-analysis-sample-report"></a>取得零售分析範例報表
+1. 在報表檢視![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png)中開啟**零售分析範例 PBIX 檔案**。
 
-這些指示使用零售分析範例。 建立視覺效果需要有資料集和報表的編輯權限。 幸運的是，所有的 Power BI 範例都是可編輯的。 如果有人與您共用報表，您就無法在報表中建立視覺效果。 若要跟著做，請取得[零售分析範例報表](../sample-datasets.md)。
+1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
-取得**零售分析範例**資料集之後，您就可以開始進行。
+
+取得 [零售分析範例]  資料集之後，您就可以開始進行。
 
 ## <a name="create-a-basic-treemap"></a>建立基本的矩形式樹狀結構圖
 
 您將建立報表並新增基本的矩形式樹狀結構圖。
 
-1. 從 [我的工作區]  ，選取 [資料集]   > [建立報表]  。
-
-    ![[資料集] > [建立報表] 的螢幕擷取畫面。](media/power-bi-visualization-treemaps/power-bi-create-a-report.png)
 
 1. 從 [欄位]  窗格，選取 [銷售額]   > [去年度銷售額]  量值。
 
-   ![選取 [銷售額] > [去年度銷售額] 後產生的視覺效果螢幕擷取畫面。](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)
+   ![選取 [銷售額] > [去年度銷售額] 後產生的視覺效果螢幕擷取畫面。](media/power-bi-visualization-treemaps/treemapfirstvalue-new.png)
 
 1. 選取矩形式樹狀結構圖圖示 ![矩形式樹狀結構圖圖示的螢幕擷取畫面](media/power-bi-visualization-treemaps/power-bi-treemap-icon.png) 將圖表轉換成矩形式樹狀結構圖。
 
-   ![沒有設定的矩形式樹狀結構圖螢幕擷取畫面。](media/power-bi-visualization-treemaps/treemapconvertto_new.png)
+   ![沒有設定的矩形式樹狀結構圖螢幕擷取畫面。](media/power-bi-visualization-treemaps/treemapconvertto-new.png)
 
-1. 將 [項目]   > [類別]  拖曳到 [群組]  部分。
+1. 選取 [項目]   > [類別]  ，這會將 [類別]  新增至 [群組]  區。
 
     Power BI 會建立矩形式樹狀結構圖，其中的矩形大小是根據總銷售額，而色彩則代表類別目錄。 在本質上，您已建立以視覺方式描述依類別目錄的總銷售額相對大小的階層。 [男裝]  類別目錄的銷售額最高，[襪子]  類別目錄則最低。
 
     ![已設定的矩形式樹狀結構圖螢幕擷取畫面。](media/power-bi-visualization-treemaps/power-bi-complete.png)
 
-1. 將 [商店]   > [鏈結]  拖曳到 [詳細資料]  部分以完成矩形式樹狀結構圖。 您現在可以依照類別目錄和鏈結比較去年的銷售額。
+1. 選取 [商店]   > [鏈結]  ，這會將 [鏈結]  新增至 [詳細資料]  區以完成矩形式樹狀結構圖。 您現在可以依照類別目錄和鏈結比較去年的銷售額。
 
    ![將 [商店] > [鏈結] 新增至 [詳細資料] 的矩形式樹狀結構圖螢幕擷取畫面。](media/power-bi-visualization-treemaps/power-bi-details.png)
 
@@ -103,19 +110,14 @@ ms.locfileid: "67408778"
 
     例如，暫留在 **090-Home** 矩形中的 **Fashions Direct** 會顯示 [首頁] 類別 Fashion Direct 部分的工具提示。
 
-   ![顯示 [首頁] 工具提示的螢幕擷取畫面。](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
+   ![顯示 [首頁] 工具提示的螢幕擷取畫面。](media/power-bi-visualization-treemaps/treemaphoverdetail-new.png)
 
-1. 新增矩形式樹狀結構圖作為[儀表板磚 (釘選視覺效果)](../service-dashboard-tiles.md)。
-
-1. 儲存[報表](../service-report-save.md)。
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
 
-如需使用 [篩選]  窗格的資訊，請參閱[將篩選新增至報表](../power-bi-report-add-filter.md)。
+在矩形式樹狀結構圖中醒目提示某個**類別**或**詳細資料**，可交叉醒目提示及交叉篩選報表頁面上的其他視覺效果。 若要跟著做，請將一些視覺效果新增至此報表頁面或是將矩形式樹狀結構圖複製到此報表中其他頁面的其中一個。 以下樹狀圖已複製到 [概觀]  頁面上。 
 
-在矩形式樹狀結構圖中醒目提示某個 [類別]  或 [詳細資料]  ，可交叉醒目提示及交叉篩選報表頁面上的其他視覺效果，反之亦然。 若要跟著做，請將一些視覺效果新增至此報表頁面或是將矩形式樹狀結構圖複製到此報表中其他頁面的其中一個。
-
-1. 在矩形式樹狀結構圖上，選取 [類別]  或 [類別]  中的 [鏈結]  。 這會交叉醒目提示頁面上的其他視覺效果。 例如，選取 [050-鞋子]  會顯示鞋子的去年銷售額美金 **$3,640,471** 元，這些銷售額中有美金 **$2,174,185** 元來自 **Fashions Direct**。
+1. 在矩形式樹狀結構圖上，選取 [類別]  或 [類別]  中的 [鏈結]  。 這會交叉醒目提示頁面上的其他視覺效果。 例如，選取 [050-鞋子]  會顯示鞋子的去年銷售額美金 **$16,352,432** 元，這些銷售額中有美金 **$2,174,185** 元來自 **Fashions Direct**。
 
    ![顯示交叉醒目提示的 [銷售門市概觀] 報表螢幕擷取畫面。](media/power-bi-visualization-treemaps/treemaphiliting.png)
 

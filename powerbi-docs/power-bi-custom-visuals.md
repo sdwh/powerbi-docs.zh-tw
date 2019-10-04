@@ -1,21 +1,21 @@
 ---
 title: Power BI 的視覺效果
 description: Power BI 中的自訂視覺效果
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 68048968bf6a3f85f2bc24e55fd1288073be1d56
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: fde213e29b5168ed990f297e5ace9895bfd44020
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415398"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195724"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 的視覺效果
 
@@ -23,11 +23,11 @@ ms.locfileid: "68415398"
 
 ![視覺效果](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
-不過，您能夠使用的不只是這組視覺效果。 如果您選取底部的省略符號 (...)，則另一個報表視覺效果來源會變成可用 -「自訂視覺效果」  。
+不過，您能夠使用的不只是這組視覺效果。 如果您選取底部的省略符號 (...)，則另一個報表視覺效果來源會變成可用 -「Power BI 視覺效果」  。
 
-開發人員可以使用自訂視覺效果 SDK 來建立視覺效果。 這些視覺效果可讓企業用戶以最符合業務的方式來查看資料。 報表作者之後可以將自訂視覺效果檔案匯入其報表中，並將它們當成任何其他 Power BI 視覺效果來使用。 自訂視覺效果是 Power BI 中的第一類物件，可加以篩選、醒目提示、編輯、共用等。
+開發人員使用 Power BI 視覺效果 SDK 來建立 Power BI 視覺效果。 這些視覺效果可讓企業用戶以最符合業務的方式來查看資料。 報表作者之後可以將自訂視覺效果檔案匯入其報表中，並將它們當成任何其他 Power BI 視覺效果來使用。 Power BI 視覺效果是 Power BI 中的第一類物件，可加以篩選、醒目提示、編輯、共用等。
 
-部署自訂視覺效果的方式有三種：
+部署 Power BI 視覺效果的方式有三種：
 
 * 自訂視覺效果檔案
 * 組織視覺效果
@@ -35,29 +35,29 @@ ms.locfileid: "68415398"
 
 ## <a name="custom-visual-files"></a>自訂視覺效果檔案
 
-自訂視覺效果是一種套件，其中所包含程式碼可用來轉譯提供給自訂視覺效果的資料。 任何人都可以建立自訂視覺效果，並將它封裝為單一 `.pbiviz` 檔案，以便之後可匯入到 Power BI 報表中。
+Power BI 視覺效果是一種套件，其中所包含程式碼可用來轉譯提供給自訂視覺效果的資料。 任何人都可以建立自訂視覺效果，並將它封裝為單一 `.pbiviz` 檔案，以便之後可匯入到 Power BI 報表中。
 
 > [!WARNING]
 > 自訂視覺效果的程式碼可能會有安全性或隱私權風險。 請確定您信任作者和自訂視覺效果來源，再將其匯入到報表。
 
 ## <a name="organizational-visuals"></a>組織視覺效果
 
-Power BI 系統管理員可以將自訂視覺效果部署到組織中，讓報表作者可以輕鬆地探索、更新及使用。 系統管理員可以輕鬆地對這些視覺效果進行管理 (例如更新版本、停用/啟用)。
+Power BI 系統管理員可以將 Power BI 視覺效果部署到組織中，讓報表作者可以輕鬆地探索、更新及使用。 系統管理員可以輕鬆地對這些視覺效果進行管理 (例如更新版本、停用/啟用)。
 
  [深入了解組織視覺效果](power-bi-custom-visuals-organization.md)。
 
 ## <a name="marketplace-visuals"></a>Marketplace 視覺效果
 
-社群成員與 Microsoft 貢獻出自訂視覺效果以造福大眾，並將自訂視覺效果發佈至 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) Marketplace。 您可以下載這些視覺效果並將其新增至 Power BI 報表。 Microsoft 已測試並核准這些自訂視覺效果的功能與品質。
+社群成員與 Microsoft 貢獻出 Power BI 視覺效果以造福大眾，並將 Power BI 視覺效果發佈至 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) Marketplace。 您可以下載這些視覺效果並將其新增至 Power BI 報表。 Microsoft 已測試並核准這些 Power BI 視覺效果的功能與品質。
 
 什麼是 [AppSource](developer/office-store.md)？ 這是您可以為 Microsoft 軟體尋找應用程式、增益集和延伸模組的地方。 AppSource 為上百萬名 Office 365、Azure、Dynamics 365、Cortana 及 Power BI 等產品的使用者提供尋找解決方案的管道，讓使用者能夠以更有效率、切實且完美地完成工作。
 
 ### <a name="certified-visuals"></a>認證的視覺效果
 
 Power BI 經認證視覺效果是已通過額外嚴格品質測試的 Marketplace 視覺效果，且支援額外的使用案例，例如[電子郵件訂閱](service-report-subscribe.md)以及[匯出至 PowerPoint](service-publish-to-powerpoint.md)。
-若要查看已認證的自訂視覺效果清單，或提交您自己的視覺效果，請參閱[已認證的自訂視覺效果](power-bi-custom-visuals-certified.md)。
+若要查看已認證的 Power BI 視覺效果清單，或提交您自己的視覺效果，請參閱[經認證的 Power BI 視覺效果](power-bi-custom-visuals-certified.md)。
 
-您是否為 Web 開發人員，而且有興趣將自己建立的視覺效果發佈到 AppSource 呢？ 請參閱[開發 Power BI 自訂視覺效果](developer/custom-visual-develop-tutorial.md)，並了解如何[將自訂視覺效果發佈至 AppSource](developer/office-store.md)。
+您是否為 Web 開發人員，而且有興趣將自己建立的視覺效果發佈到 AppSource 呢？ 請參閱[開發 Power BI 自訂視覺效果](developer/custom-visual-develop-tutorial.md)，並了解如何[將 Power BI 視覺效果發佈至 AppSource](developer/office-store.md)。
 
 ### <a name="import-a-custom-visual-from-a-file"></a>從檔案匯入自訂視覺效果
 
@@ -95,11 +95,11 @@ Power BI 經認證視覺效果是已通過額外嚴格品質測試的 Marketplac
 
     ![視覺效果組織 5](media/power-bi-custom-visuals/power-bi-visual-org-05.png)
 
-## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>從 Microsoft AppSource 下載或匯入自訂視覺效果
+## <a name="download-or-import-power-bi-visuals-from-microsoft-appsource"></a>從 Microsoft AppSource 下載或匯入 Power BI 視覺效果
 
-您可以選擇從 Power BI 與 [AppSource 網站](https://appsource.microsoft.com/)下載及匯入自訂視覺效果。
+您可以選擇從 Power BI 與 [AppSource 網站](https://appsource.microsoft.com/)下載及匯入 Power BI 視覺效果。
 
-### <a name="import-custom-visuals-from-within-power-bi"></a>從 Power BI 匯入自訂視覺效果
+### <a name="import-power-bi-visuals-from-within-power-bi"></a>從 Power BI 內匯入 Power BI 視覺效果
 
 1. 從 [視覺效果]  窗格底部選取省略符號。
 
@@ -129,13 +129,13 @@ Power BI 經認證視覺效果是已通過額外嚴格品質測試的 Marketplac
 
     ![已匯入視覺效果](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>從 Microsoft AppSource 下載並匯入自訂視覺效果
+### <a name="download-and-import-power-bi-visuals-from-microsoft-appsource"></a>從 Microsoft AppSource 下載並匯入 Power BI 視覺效果
 
 1. 請先前往 [Microsoft AppSource](https://appsource.microsoft.com) 並選取 [應用程式]  索引標籤。
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. 前往[應用程式結果頁面](https://appsource.microsoft.com/marketplace/apps)，您可在其中檢視各種類別的熱門應用程式，包括 *Power BI 應用程式*。 我們想要尋找自訂視覺效果，因此請從左方的瀏覽清單選取 [Power BI 視覺效果]  以縮小結果範圍。
+2. 前往[應用程式結果頁面](https://appsource.microsoft.com/marketplace/apps)，您可在其中檢視各種類別的熱門應用程式，包括 *Power BI 應用程式*。 我們想要尋找 Power BI 視覺效果，因此請從左方的瀏覽清單選取 [Power BI 視覺效果]  以縮小結果範圍。
 
     ![AppSource 視覺效果](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 
@@ -165,15 +165,15 @@ Power BI 經認證視覺效果是已通過額外嚴格品質測試的 Marketplac
 
 * 自訂視覺效果在匯入後會加入特定的報表。 如果想在另一份報表中使用這個視覺效果，也必須將它匯入該報表。 使用 [另存新檔]  選項儲存具有自訂視覺效果的報表時，自訂視覺效果的複本就會與新報表一起儲存。
 
-* 如果您沒有看到 [視覺效果]  窗格，這表示您沒有報表編輯權限。  您只能在您可編輯的報表中新增自訂視覺效果，而在只與您共用的報表中則不能。
+* 如果您沒有看到 [視覺效果]  窗格，這表示您沒有報表編輯權限。  您只能在您可編輯的報表中新增 Power BI 視覺效果，而不能在只與您共用的報表中新增它。
 
 ## <a name="troubleshoot"></a>疑難排解
 
-若要進行疑難排解，請參閱[針對您的 Power BI 自訂視覺效果進行疑難排解](power-bi-custom-visuals-troubleshoot.md)。
+若要進行疑難排解，請參閱[針對您的 Power BI Power BI 視覺效果進行疑難排解](power-bi-custom-visuals-troubleshoot.md)。
 
 ## <a name="faq"></a>常見問題集
 
-如需詳細資訊和問題的解答，請前往 [Power BI 自訂視覺效果的常見問題集](power-bi-custom-visuals-faq.md#organizational-custom-visuals)。
+如需詳細資訊和問題的解答，請前往 [Power BI Power BI 視覺效果的常見問題集](power-bi-custom-visuals-faq.md#organizational-visuals)。
 
 ## <a name="next-steps"></a>後續步驟
 

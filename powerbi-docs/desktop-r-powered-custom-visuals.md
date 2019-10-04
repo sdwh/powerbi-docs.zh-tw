@@ -1,37 +1,37 @@
 ---
-title: 在 Power BI 中使用 R 提供技術的自訂視覺效果
-description: 在 Power BI 中使用 R 提供技術的自訂視覺效果
-author: sranins
-ms.author: rasala
-manager: kfile
+title: 在 Power BI 中使用 R 支援的 Power BI 視覺效果
+description: 在 Power BI 中使用 R 支援的 Power BI 視覺效果
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: d79164ea5b66fe003f913742436a817d76d798e0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b5f8677b3207122831e3d2cae6c07aa5bbcb9983
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61278486"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194606"
 ---
-# <a name="use-r-powered-custom-visuals-in-power-bi"></a>在 Power BI 中使用 R 提供技術的自訂視覺效果
+# <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>在 Power BI 中使用 R 支援的 Power BI 視覺效果
 
-在 **Power BI Desktop** 與 **Power BI 服務**中，您不必具備任何 R 的知識或編寫任何 R 指令碼，就能使用 R 提供技術的自訂視覺效果。 這讓您能夠充分運用 R 視覺效果的分析與視覺效果功能及 R 指令碼，而不必親自學習 R 或設計程式。
+在 **Power BI Desktop** 與 **Power BI 服務**中，您不必具備任何 R 的知識或撰寫任何 R 指令碼，就能使用 R 提供技術的 Power BI 視覺效果。 這讓您能夠充分運用 R 視覺效果的分析與視覺效果功能及 R 指令碼，而不必親自學習 R 或設計程式。
 
-若要使用 R 提供技術的自訂視覺效果，您必須先從 [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 的 Power BI **自訂視覺效果**資源庫選取並下載想要使用的 R 自訂視覺效果。
+若要使用 R 提供技術的 Power BI 視覺效果，您必須先從 [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 的 Power BI **Power BI 視覺效果**資源庫選取並下載想要使用的 R 自訂視覺效果。
 
 ![R 視覺效果 1a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1a.png)
 
 下列章節描述如何選取、載入以及在 **Power BI Desktop** 使用由 R 提供技術的視覺效果。
 
-## <a name="use-r-custom-visuals"></a>使用 R 自訂視覺效果
+## <a name="use-r-power-bi-visuals"></a>使用 R Power BI 視覺效果
 
-若要使用 R 提供技術的自訂視覺效果，您必須先從**自訂視覺效果**資源庫下載每個視覺效果，然後就可以像使用 **Power BI Desktop** 中任何其他類型的視覺效果一樣地使用它。 取得自訂視覺效果的方法有兩種：您可以從線上 **AppSource** 網站下載，或在 **Power BI Desktop** 中瀏覽並取得。 
+若要使用 R 提供技術的 Power BI 視覺效果，您必須先從 **Power BI 視覺效果**資源庫下載每個視覺效果，然後就可以像使用 **Power BI Desktop** 中任何其他類型的視覺效果一樣地使用它。 取得 Power BI 視覺效果的方法有兩種：您可以從線上 **AppSource** 網站下載，或在 **Power BI Desktop** 中瀏覽並取得。 
 
-### <a name="get-custom-visuals-from-appsource"></a>從 AppSource 取得自訂視覺效果
+### <a name="get-power-bi-visuals-from-appsource"></a>從 AppSource 取得 Power BI 視覺效果
 
 以下是從線上 **AppSource** 網站瀏覽並選取視覺效果的步驟：
 
@@ -50,7 +50,7 @@ ms.locfileid: "61278486"
 
    ![R 視覺效果 3a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
 
-   您無須先安裝 R 才能在 **Power BI 服務**中使用 R 提供技術的自訂視覺效果，但是如果您要在 **Power BI Desktop** 中使用 R 提供技術的自訂視覺效果，則「必須」  於本機上安裝 R。 您可以從下列位置下載 R：
+   您無須先安裝 R 才能在 **Power BI 服務**中使用 R 提供技術的 Power BI 視覺效果，但是如果您要在 **Power BI Desktop** 中使用 R 提供技術的 Power BI 視覺效果，則「必須」  於本機上安裝 R。 您可以從下列位置下載 R：
 
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
@@ -79,25 +79,25 @@ ms.locfileid: "61278486"
 
     由於視覺效果不斷增加，請時常查看資源庫。
 
-### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>從 **Power BI Desktop** 中取得自訂視覺效果
+### <a name="get-power-bi-visuals-from-within-power-bi-desktop"></a>從 **Power BI Desktop** 中取得 Power BI 視覺效果
 
-1. 您也可以從 **Power BI Desktop** 中取得自訂視覺效果。 在 [Power BI Desktop]  中，於 [視覺效果]  窗格內按一下省略符號 (...)，然後選取 [從市集匯入]  。
+1. 您也可以從 **Power BI Desktop** 中取得 Power BI 視覺效果。 在 [Power BI Desktop]  中，於 [視覺效果]  窗格內按一下省略符號 (...)，然後選取 [從市集匯入]  。
 
    ![R 視覺效果 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 
-2. 當您這樣做時，[Power BI 視覺效果]  對話方塊隨即顯示，您可以在其中捲動檢視可用的自訂視覺效果，並選取想要的自訂視覺效果。 您可以依名稱搜尋、選取類別，或直接捲動檢視可用的視覺效果。 當您準備就緒後，選取 [新增]  即可將自訂視覺效果新增至 **Power BI Desktop**。
+2. 當您這樣做時，[Power BI 視覺效果]  對話方塊隨即顯示，您可以在其中捲動檢視可用的自訂視覺效果，並選取想要的 Power BI 視覺效果。 您可以依名稱搜尋、選取類別，或直接捲動檢視可用的視覺效果。 當您準備就緒後，選取 [新增]  即可將自訂視覺效果新增至 **Power BI Desktop**。
 
    ![R 視覺效果 12](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
 
-## <a name="contribute-r-powered-custom-visuals"></a>發表 R 提供技術的自訂視覺效果
+## <a name="contribute-r-powered-power-bi-visuals"></a>貢獻 R 支援的 Power BI 視覺效果
 
-如果您自行建立 R 視覺效果以用於報表中，您可在**自訂視覺效果資源庫**中提供您的自訂視覺效果，進而與各地使用者分享。 貢獻會透過 GitHub 進行，程序概述於下列位置：
+如果您自行建立 R 視覺效果以用於報表中，您可在 **Power BI 視覺效果資源庫**中提供您的自訂視覺效果，進而與各地使用者共用。 貢獻會透過 GitHub 進行，程序概述於下列位置：
 
-* [貢獻給 R 提供技術的自訂視覺效果資源庫](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
+* [ R 支援的 Power BI 視覺效果資源庫](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
-## <a name="troubleshoot-r-powered-custom-visuals"></a>針對 R 提供技術的自訂視覺效果進行疑難排解
+## <a name="troubleshoot-r-powered-power-bi-visuals"></a>針對 R 支援的 Power BI 視覺效果進行疑難排解
 
-R 提供技術的自訂視覺效果具有特定相依性，視覺效果必須符合這些相依性才能正常運作。 當 R 提供技術的自訂視覺效果未正確執行或載入時，通常是下列其中一個問題所致：
+R 支援的 Power BI 視覺效果具有特定相依性，視覺效果必須符合這些相依性才能正常運作。 當 R 提供技術的 Power BI 視覺效果未正確執行或載入時，通常是下列其中一個問題所致：
 
 * R 引擎遺失
 * 視覺效果所依據的 R 指令碼中發生錯誤
@@ -150,7 +150,7 @@ Power BI 小組會在連絡您之前主動解決這些問題，下一版 Power B
 
 請看看下列有關 Power BI 中 R 的其他資訊。
 
-* [Power BI 自訂視覺效果資源庫](https://app.powerbi.com/visuals/)
+* [Power BI Power BI 視覺效果資源庫](https://app.powerbi.com/visuals/)
 * [在 Power BI Desktop 中執行 R 指令碼](desktop-r-scripts.md)
 * [在 Power BI Desktop 中建立 R 視覺效果](desktop-r-visuals.md)
 * [在 Power BI 使用外部 R IDE](desktop-r-ide.md)

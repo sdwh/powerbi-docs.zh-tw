@@ -1,6 +1,6 @@
 ---
 title: 了解 Power BI 系統管理員角色
-description: 如何在 Power BI 服務內設定匯入資料集的資料列層級安全性和 DirectQuery。
+description: 本文描述 Power BI 服務管理員角色，以及如何在您的組織中使用該角色。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,18 +10,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2185d7a9c91ed014cf0bed29d6393be0e40556a8
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 8b4d2382f89c48f20767cf72bc0468589c366cfe
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074528"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256425"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>了解 Power BI 服務管理員角色
 
 了解如何在組織中使用 Power BI 服務管理員角色。 此角色的使用者對 Power BI 租用戶和其系統管理功能 (除了授權以外) 有完整的控制權。
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/PQRbdJgEm3k?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Power BI 服務管理員角色可以指派給需要存取 Power BI 管理入口網站，但不會同時授與那些使用者完整的 Office 365 系統管理存取權。
 

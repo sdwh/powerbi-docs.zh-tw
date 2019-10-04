@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 02a81aa47fb7945b2fd76d03a6bdde7712304bdc
-ms.sourcegitcommit: 7eb74b060de080152c190ac7eb6b64767f8d6626
+ms.openlocfilehash: fffb0479865439759167635efcae1799452c4c6f
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70919608"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305721"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>在 Power BI Desktop 中使用自訂格式字串
 
@@ -148,13 +148,14 @@ ms.locfileid: "70919608"
 | ( **E- E+ e- e+** ) | 科學格式。 如果格式運算式在 E-、E+、e 或 e+ 的右邊至少包含一個數字預留位置 ( **0**  或 **#** )，則該數字會以科學格式顯示，而 E 或 e 會插入到該數字和其指數之間。 右邊數字預留位置的數目，會決定指數中數字的數目。 使用 E- 或 e- 在負指數旁邊加上負號。 使用 E+ 或 e+ 在正指數旁邊加上加號。 |
 | **- + $**  ( ) | 顯示常值字元。 若要顯示除列出的字元以外的字元，請在其前面加上反斜線 (\) 或以雙引號 (&quot; &quot;) 括住。 |
 | ( * *\** ) | 顯示格式字串中的下一個字元。 若要將有特殊意義的字元作為常值字元顯示，請在其前面加上反斜線 (\)。 反斜線本身不會顯示。 使用反斜線與以雙引號括住下一個字元的方式相同。 若要顯示反斜線，請使用兩個反斜線 (\\)。 不能顯示為常值字元的字元範例，包括日期格式和時間格式字元 (a、c、d、h、m、n、p、q、s、t、w、y、/ 和 :)、數值格式字元 (#、0、%、E、e、逗號和句號)，以及字串格式字元 (@、&amp;、\&lt;、\&gt; 和 !)。 |
-| (&quot;ABC&quot;) | 以雙引號 (&quot; &quot;) 括住字串。 若要包含程式碼中**格式**的字串，您必須使用 **Chr(34)** 來括住文字 (34 是引號 (&quot;) 的字元碼)。 |
+| (&quot;ABC&quot;) | 以雙引號 (&quot; &quot;) 括住字串。 |
 
 
 ## <a name="next-steps"></a>後續步驟
 您可能也會對下列文章感興趣：
 
 * [VBA 格式字串](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
+* [Power BI Desktop 中的量值](desktop-measures.md)
+* [Power BI Desktop 中的資料類型](desktop-data-types.md)
 * [設定資料表格式化的條件](desktop-conditional-table-formatting.md)
-* [Power BI Desktop 中以運算式為基礎的標題](desktop-conditional-format-visual-titles.md)
 

@@ -11,19 +11,24 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8222194359077cb0d88286a33d1c9b2a05f6bd80
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: d776425d4c19070c00658cbd588c5421d22a0057
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390977"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192919"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散佈圖、泡泡圖與點圖
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 散佈圖一律會有兩個值座標軸：沿著水平軸顯示一組數值資料，沿著垂直軸顯示另一組數值。 此圖表顯示 x 與 y 數交集處的點，結合這些值可形成單一的資料點。 Power BI 可以在水平軸上平均或不平均地分佈這些資料點。 這會依圖表所代表的資料而定。
 
 觀賞這段影片來了解 Will 如何建立散佈圖，然後依照下列步驟自行建立一個散佈圖。
-
+   > [!NOTE]
+   > 這部影片使用舊版的 Power BI Desktop。
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 您可以設定資料點數目，最多 10,000 個。  
@@ -55,7 +60,7 @@ ms.locfileid: "67390977"
 
 * 比較大量資料點，而不考慮時間。  您在散佈圖中包含的資料越多，就能做出越好的比較。
 
-散佈圖有以上這些用處，而泡泡圖極適合：
+散佈圖有以上這些用處，而泡泡圖相當適用於：
 
 * 如果您的資料有三個資料數列，而每個數列包含一組值。
 
@@ -65,7 +70,7 @@ ms.locfileid: "67390977"
 
 ### <a name="dot-plot-charts"></a>點圖
 
-點圖類似於泡泡圖和散佈圖，但您還可以沿 X 軸繪製數值或類別資料。
+點圖類似於泡泡圖和散佈圖，但會用於沿著 X 軸繪製類別資料。
 
 ![點圖的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
 
@@ -73,17 +78,20 @@ ms.locfileid: "67390977"
 
 ## <a name="prerequisites"></a>先決條件
 
-* Power BI 服務
+本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-* 零售分析範例報表
+1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
+   
+2. 尋找您的**零售分析範例 PBIX 檔案**複本
+
+1. 在報表檢視![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png)中開啟**零售分析範例 PBIX 檔案**。
+
+1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+
 
 ## <a name="create-a-scatter-chart"></a>建立散佈圖
 
-若要跟著做，請登入 [Power BI 服務](https://app.powerbi.com)，然後在[編輯報表](../service-interact-with-a-report-in-editing-view.md)檢視中開啟[零售分析範例](../sample-datasets.md)報表。
-
-1. 選取 ![黃色加號圖示的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-yellow-plus-icon.png) 以建立一個空白報表頁面。
-
-1. 從 [欄位]  窗格，選取下列欄位：
+1. 從空白報表頁面開始，並從 [欄位]  窗格選取下列欄位：
 
     * [Sales] (銷售)   > [Sales Per Sq Ft] (每平方英呎的銷售) 
 
@@ -113,11 +121,11 @@ ms.locfileid: "67390977"
 
 1. 暫留在泡泡圖上。 泡泡的大小反映 **本年度銷售額**的值。
 
-    ![顯示工具提示](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
+    ![顯示工具提示](media/power-bi-visualization-scatter/pbi-scatter-chart-hover.png)
 
 1. 若要設定泡泡圖中顯示的資料點數目，請在 [視覺效果]  窗格的 [格式]  區段中，展開 [一般]  ，然後調整 [資料量]  。
 
-    ![標示出格式圖示、[一般] 下拉式清單和 [資料量] 選項的 [視覺效果] 窗格螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png)
+    ![標示出格式圖示、[一般] 下拉式清單和 [資料量] 選項的 [視覺效果] 窗格螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi-scatter-data-volume.png)
 
     您可以將資料量上限設為任何大小，上限 10,000。 當您設定更高的數字時，建議先進行測試以確保良好效能。
 
@@ -128,7 +136,7 @@ ms.locfileid: "67390977"
 
     若要[改善協助工具](../desktop-accessibility.md)，請考慮在每一行新增標記圖形。 若要選取標記圖形，請展開 [圖形]  ，然後依序選取 [標記圖形]  和一個圖形。
 
-    ![標示出 [標記圖形] 選項的 [圖形] 下拉式清單螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+    ![標示出 [標記圖形] 選項的 [圖形] 下拉式清單螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
     您可以將標記圖形變更為菱形、三角形或正方形。 為每一行使用不同的標記圖形，可讓報表取用者更容易區分不同的行 (或區域)。
 
@@ -146,15 +154,15 @@ ms.locfileid: "67390977"
 
 散佈圖有只有一個資料點，彙總了 X 軸與 Y 軸上的所有值嗎？  或其也許彙總單一水平或垂直線的所有值？
 
-![具有一個資料點的散佈圖螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
+![具有一個資料點的散佈圖螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi-scatter-tshoot1.png)
 
 將欄位新增至 [詳細資料]  部分，以告知 Power BI 如何將值分組。 此欄位對於您想要繪製的每個點都不得重複。 可以使用簡單的資料列編號或識別碼欄位。
 
-![已將 [RowNum] 新增至 [詳細資料] 部分的散佈圖螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
+![已將 [RowNum] 新增至 [詳細資料] 部分的散佈圖螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi-scatter-tshoot.png)
 
 如果您的資料中沒有它，請建立一個欄位，將 X 與 Y 值串連成每個點的獨特內容：
 
-![已將 [TempTime] 新增至 [詳細資料] 部分的散佈圖螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
+![已將 [TempTime] 新增至 [詳細資料] 部分的散佈圖螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
 若要建立新的欄位，請[使用 Power BI Desktop 查詢編輯器新增索引資料行](../desktop-add-custom-column.md)至資料集。 然後將此資料行新增至您視覺效果的 [詳細資料]  部分。
 
