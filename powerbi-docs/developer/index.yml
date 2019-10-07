@@ -1,0 +1,93 @@
+### YamlMime:Landing
+title: Power BI 開發人員版文件
+summary: 不論您如何使用 Power BI，Power BI 文件都能提供專家資訊及答案解決您的需求。
+metadata:
+  title: 適用於開發人員的 Power BI
+  description: 不論您如何使用 Power BI，Power BI 文件都能提供專家資訊及答案解決您的需求。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 10/02/2019
+  ms.openlocfilehash: 11e9bc6d2e848fcc1b827f52985c573cba382415
+  ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+  ms.translationtype: HT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 10/04/2019
+  ms.locfileid: "71951017"
+landingContent:
+- title: 關於 Power BI 開發人員版
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 開發人員可如何使用 Power BI
+      url: what-can-you-do.md
+    - text: Power BI 的視覺效果
+      url: ../power-bi-custom-visuals.md
+    - text: Power BI 的內嵌是什麼
+      url: embedding.md
+    - text: 什麼是 Power BI API
+      url: overview-of-power-bi-rest-api.md
+  - linkListType: reference
+    links:
+    - text: Power BI 開發人員中心
+      url: https://powerbi.microsoft.com/developers/
+    - text: Power BI 開發人員範例
+      url: https://github.com/Microsoft/PowerBI-Developer-Samples
+    - text: Power BI JavaScript Wiki
+      url: https://github.com/Microsoft/powerbi-javascript/wiki
+    - text: Power BI REST API
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Azure Resource Manager REST API
+      url: https://docs.microsoft.com/rest/api/power-bi-embedded/
+- title: Power BI 視覺效果
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 開發 Power BI 視覺效果
+      url: custom-visual-develop-tutorial.md
+  - linkListType: concept
+    links:
+    - text: Power BI 視覺效果常見問題集
+      url: ../power-bi-custom-visuals-faq.md
+    - text: Power BI 視覺效果指南
+      url: guidelines-powerbi-visuals.md
+    - text: 視覺效果中的進階編輯模式
+      url: /advanced-edit-mode.md
+  - linkListType: how-to-guide
+    links:
+    - text: 認證視覺效果
+      url: ../power-bi-custom-visuals-certified.md
+    - text: 在 AppSource 上發佈自訂視覺效果
+      url: office-store.md
+- title: 內嵌式分析
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 內嵌客戶的內容
+      url: embed-sample-for-customers.md
+    - text: 內嵌組織的內容
+      url: embed-sample-for-your-organization.md
+  - linkListType: concept
+    links:
+    - text: 資料列層級安全性
+      url: embedded-row-level-security.md
+    - text: 管理多個租用戶
+      url: embed-multi-tenancy.md
+    - text: Embedded 常見問題集
+      url: embedded-faq.md
+    - text: Power BI 權限
+      url: power-bi-permissions.md
+  - linkListType: how-to-guide
+    links:
+    - text: 從應用程式內嵌
+      url: embed-from-apps.md
+    - text: 建立 Azure Active Directory 租用戶
+      url: create-an-azure-active-directory-tenant.md
+    - text: 取得 Azure AD 存取權杖
+      url: get-azuread-access-token.md
+    - text: Power BI Embedded 問與答
+      url: qanda.md
