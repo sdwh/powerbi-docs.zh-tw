@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264560"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195402"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>在 Power BI 中建立範本應用程式
 
@@ -47,7 +47,7 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
 
 3. 輸入您應用程式工作區的名稱、描述 (選用) 及標誌影像 (選用)。
 
-4. 選取 [開發範本應用程式]  。
+4. 展開 [進階]  區段，然後選取 [開發範本應用程式]  。
 
     ![開發範本應用程式](media/service-template-apps-create/power-bi-template-app-develop.png)
 
@@ -84,11 +84,13 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
     - 應用程式標誌 (45K 檔案大小限制、1:1 外觀比例、.png .jpg .jpeg 格式)
     - 應用程式佈景主題色彩
 
-    **Content**
+    **瀏覽**
 
-    **應用程式登陸頁面：** 將報表或儀表板定義為您應用程式的登陸頁面，並使用可提供良好印象的登陸頁面：
+    啟動 [新的瀏覽產生器]  ，您可以在其中定義應用程式的左側瀏覽窗格 (請參閱本文中的＜[設計瀏覽體驗](service-create-distribute-apps.md#design-the-navigation-experience)＞以取得詳細資料)。
 
-    ![內容](media/service-template-apps-create/power-bi-create-content.png)
+   ![設定應用程式登陸頁面](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+    
+    **應用程式登陸頁面：** 如果您決定退出瀏覽產生器，您可以選擇選取應用程式登陸頁面。 定義要作為應用程式登陸頁面的報表或儀表板。 使用可提供正確印象的登陸頁面。
 
     **Control**
 
@@ -107,7 +109,6 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
     - **值**：預設參數值。
     - **必要**：使用此項目要求安裝程式輸入使用者特定參數。
     - **鎖定**：鎖定功能可防止安裝程式更新參數。
-    - **靜態**：如果應用程式「僅」  包含範例資料，即可啟用。 當您選取 [靜態]  時，安裝精靈就不會要求使用者連接到資料來源。
 
     **存取**：在測試階段中，決定您組織內哪些其他人員可以安裝並測試應用程式。 別擔心，您隨時可以返回，並於稍後變更這些設定 ([設定] 不會影響已散發範本應用程式的存取)。
 
