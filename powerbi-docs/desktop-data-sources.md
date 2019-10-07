@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ead5c8f45e102aaeebeed492ecf4646342747fe1
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 417238550f68a1c244bab33b8343712f02242eae
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142292"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945269"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
@@ -72,7 +72,7 @@ ms.locfileid: "71142292"
 * MySQL 資料庫
 * PostgreSQL 資料庫
 * Sybase 資料庫
-* Teradata 資料庫
+* Teradata
 * SAP HANA 資料庫
 * SAP Business Warehouse 應用程式伺服器
 * SAP Business Warehouse 訊息伺服器

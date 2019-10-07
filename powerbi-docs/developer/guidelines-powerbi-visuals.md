@@ -4,17 +4,17 @@ description: 了解如何將自訂視覺效果發佈至 AppSource 供其他人�
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
-ms.reviewer: maghan
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: 71752a635c69e6712befbb00e942189fa4dacc36
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 4e17406b0b4e616a9857cf40298a7931e2b65427
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327723"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71944870"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 視覺效果指南
 在您將視覺效果[發佈](https://docs.microsoft.com/power-bi/developer/office-store)至 AppSource 供其他人探索及使用之前，請務必遵循指導方針，以便為您的使用者打造絕佳體驗。 

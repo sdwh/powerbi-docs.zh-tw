@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 61fc821e63889951aefd0ef815f885ffa8a880cf
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994815"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715192"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>從 Power BI 服務將報表下載到 Power BI Desktop (預覽)
 在 Power BI Desktop 中，您可以將報表 *.pbix* 檔案) 從本機電腦發佈至 Power BI 服務。 Power BI 報表也可以移至另一個方向：您可以從 Power BI 服務將報表下載到 Power BI Desktop。 在任一情況下，Power BI 報表的副檔名都是 .pbix。
@@ -26,7 +26,7 @@ ms.locfileid: "68994815"
 
 ## <a name="download-the-report-as-a-pbix-file"></a>將報表下載為 .pbix 檔案
 
-您只能下載 2016 年 11 月 23 日後[使用 Power BI Desktop 建立](guided-learning/publishingandsharing.yml?tutorial-step=2)的報表，以及在這之後更新的報表。 如果報表在這之前建立，則 Power BI 服務中的 [下載報表]  功能表選項會是灰色。
+您只能下載 2016 年 11 月 23 日後[使用 Power BI Desktop 建立](/learn/modules/publish-share-power-bi/2-publish-reports)的報表，以及在這之後更新的報表。 如果報表在這之前建立，則 Power BI 服務中的 [下載報表]  功能表選項會是灰色。
 
 若要下載 .pbix 檔案，請遵循下列步驟：
 

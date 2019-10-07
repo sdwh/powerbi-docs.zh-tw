@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d491ca460d8393e9da308c826e69aad454d0e766
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 748594dcf9f71677057b8641e44f1408bebd1b89
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841617"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715335"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 **Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本專為美國政府客戶而設計，並且獨立且不同於商用版本的 **Power BI 服務**。
@@ -103,7 +103,7 @@ Azure 分散於多個雲端。 系統預設會允許租用戶，以開啟對雲�
 
 * [針對美國政府註冊 Power BI](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI 美國政府示範</a>
-* [引導式學習 Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
+* [引導式學習 Power BI](guided-learning/index.md)
 * [開始使用 Power BI 服務](service-get-started.md)
 * [Power BI Desktop 是什麼？](desktop-what-is-desktop.md)
 

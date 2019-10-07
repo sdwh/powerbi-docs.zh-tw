@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/30/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cb009e29c05ce318c5931fb418617e1ef63f4f
-ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
+ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "70937052"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715304"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>將超連結 (URL) 新增至資料表
 本主題會指導您如何將超連結 (URL) 新增至資料表。 您會使用 Power BI Desktop 來將超連結 (URL) 新增至資料表或矩陣。 然後，在 Power BI Desktop 或 Power BI 服務中，您可以將那些超連結新增至您的報表資料表和矩陣。 
@@ -57,7 +57,7 @@ ms.locfileid: "70937052"
 
     ![開啟 URL 圖示](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
-1. (選擇性) [將報表從 Power BI Desktop 發佈到 Power BI 服務](guided-learning/publishingandsharing.yml?tutorial-step=2)，然後在 Power BI 服務中開啟該報表。 超連結在該處也可以運作。
+1. (選擇性) [將報表從 Power BI Desktop 發佈到 Power BI 服務](/learn/modules/publish-share-power-bi/2-publish-reports)，然後在 Power BI 服務中開啟該報表。 超連結在該處也可以運作。
 
 ### <a name="for-data-connected-with-directquery"></a>使用 DirectQuery 連接資料
 您無法在 DirectQuery 模式中建立新的資料行。  但若資料已經包含 URL，您可以將它們轉換成超連結。
@@ -65,7 +65,7 @@ ms.locfileid: "70937052"
 1. 在 [報表] 檢視中，使用包含 URL 的欄位建立資料表。
 2. 選取該資料行，且在 [模型]  索引標籤中選擇 [資料類別]  的下拉式清單。
 3. 選取 [Web URL]  。 超連結為藍色加底線。
-4. (選擇性) [將報表從 Power BI Desktop 發佈到 Power BI 服務](guided-learning/publishingandsharing.yml?tutorial-step=2)，然後在 Power BI 服務中開啟該報表。 超連結在該處也可以運作。
+4. (選擇性) [將報表從 Power BI Desktop 發佈到 Power BI 服務](/learn/modules/publish-share-power-bi/2-publish-reports)，然後在 Power BI 服務中開啟該報表。 超連結在該處也可以運作。
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-excel-power-pivot"></a>在 Excel Power Pivot 中建立資料表或矩陣超連結
 將超連結新增至 Power BI 資料表和矩陣的另一種方式，是先在資料集內建立超連結，然後才從 Power BI 匯入/連線至該資料集。 這個範例會使用 Excel 活頁簿。

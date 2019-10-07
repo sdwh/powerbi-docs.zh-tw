@@ -3,7 +3,7 @@ title: 從 Power BI 視覺效果匯出資料
 description: 從報表視覺效果和儀表板視覺效果匯出資料，並在 Excel 中檢視。
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 3ab3b7a96fb629b303263b1ccf5c2f31603300b4
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6aec9f569f657c58eb1dc0b807bbceefc62ab01a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073139"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943862"
 ---
 # <a name="export-data-from-a-visual"></a>匯出視覺效果的資料
 如果您想要查看用來建立視覺效果的資料，可以[在 Power BI 中顯示該資料](end-user-show-data.md)或將資料匯出至 Excel。 匯出資料的選項需要特定類型或授權，以及內容的編輯權限。 如果無法匯出，請連絡您的 Power BI 系統管理員。 

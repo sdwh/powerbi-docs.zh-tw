@@ -10,16 +10,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302645"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945213"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI 中 DirectQuery 支援的資料來源
 
-**Power BI Desktop** 和 **Power BI 服務**有許多資料來源供您連線和存取資料。 此文章說明 Power BI 的哪些資料來源可支援稱為 **DirectQuery** 的連線方法。 如需 DirectQuery 的詳細資訊，請參閱 [ **Power BI 中的 DirectQuery**](desktop-directquery-about.md)。
+**Power BI Desktop** 和 **Power BI 服務**有許多資料來源供您連線和存取資料。 本文描述 Power BI 的哪些資料來源可支援稱為 **DirectQuery** 的連線方法。 如需 DirectQuery 的詳細資訊，請參閱 [ **Power BI 中的 DirectQuery**](desktop-directquery-about.md)。
 
 下列資料來源在 Power BI 中支援 DirectQuery：
 
@@ -45,7 +45,7 @@ ms.locfileid: "70302645"
 * Snowflake
 * Spark (版本 0.9 或更新版本)
 * SQL Server
-* Teradata 資料庫
+* Teradata
 * Vertica
 
 名稱後面有**搶鮮版 (Beta)** 或 **(預覽)** 的資料來源可能會變更，不支援用於生產環境。 將報告發佈至 **Power BI 服務** 之後可能也不支援這些資料來源，這表示開啟已發佈的報表或瀏覽資料集可能會導致錯誤。
@@ -82,7 +82,7 @@ ms.locfileid: "70302645"
 | Spark (Beta) 0.9 版及更新版本 |是 |
 | SQL Server |是 |
 | Sybase |是 |
-| Teradata 資料庫 |是 |
+| Teradata |是 |
 | Vertica |是 |
 
 
