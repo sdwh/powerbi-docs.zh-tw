@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7440fb6dfcd181b6b1164260626cd0bfa7cda991
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: aa685ae9b51e1f5044dab883d8de871dcc7ed5da
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185428"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945880"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>使用 Power BI 連接到 Mandrill
 Power BI 內容套件會從 Mandrill 帳戶提取資料，並產生儀表板、一組報表與資料集，可讓您瀏覽資料。 請使用 Mandrill 分析，快速深入了解您的電子報或行銷活動。 資料會設定為每天重新整理，確保您所監視的資料為最新狀態。
@@ -39,7 +39,7 @@ Power BI 內容套件會從 Mandrill 帳戶提取資料，並產生儀表板、�
     ![](media/service-connect-to-mandrill/auth.png)
 5. Power BI 匯入資料之後，您會在左側瀏覽窗格中看到新的儀表板、報表和資料集。 這是 Power BI 建立的預設儀表板，可顯示您的資料。
    
-    ![](media/service-connect-to-mandrill/mandrill-dashboard1.jpg)
+    ![](media/service-connect-to-mandrill/mandrill-dashboard1.png)
 
 **接下來呢？**
 
