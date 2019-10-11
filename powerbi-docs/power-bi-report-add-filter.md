@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/25/2019
+ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: dcc273dd6bf356d9149086b38b9126e721fe63a2
-ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
+ms.openlocfilehash: da7652556bc11e47cf238dd969ae1b27e6387299
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68380259"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968790"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>將篩選加入 Power BI 報表
 
+[!INCLUDE [power-bi-service-new-look-include](includes/power-bi-service-new-look-include.md)]
+
 本文說明如何將頁面篩選、視覺效果篩選、報表篩選或鑽研篩選新增到 Power BI 中的報表。 本文中的範例是在 Power BI 服務中。 這些步驟幾乎與 Power BI Desktop 完全相同。
 
-**您知道嗎？** Power BI 已推出新的篩選體驗，目前正處於預覽狀態。 深入了解 [Power BI 報表中的新篩選體驗](power-bi-report-filter.md)。
+**您知道嗎？** Power BI 已推出新的篩選體驗。 深入了解 [Power BI 報表中的新篩選體驗](power-bi-report-filter.md)。
 
 ![新的篩選體驗](media/power-bi-report-add-filter/power-bi-filter-reading.png)
 

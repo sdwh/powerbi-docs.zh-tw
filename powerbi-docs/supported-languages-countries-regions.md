@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 10/03/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6e89fa21617add5c3c11ada990f7055d305cebf5
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: efb2ee5ef0ed09cbca1a2bebf6ab3a0f8908efb8
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256455"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968691"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI 支援的語言和國家 (地區)
 
@@ -122,6 +122,9 @@ Power BI 會根據您電腦上的語言喜好設定偵測您的語言。 存取�
 * 當您將 Power BI Desktop 下載為獨立安裝程式時，您會在執行安裝程式時選擇預設語言，並可在日後進行變更。
 * 您也可以針對特定報表，[在匯入資料時選擇要使用的地區設定](#choose-the-locale-for-importing-data-into-power-bi-desktop)。
 
+> [!NOTE]
+> 如果您要安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop 版本，您可以在下載時選擇語言。 如需詳細資料，請參閱[安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](report-server/install-powerbi-desktop.md)。
+
 ### <a name="choose-a-language-for-power-bi-desktop"></a>選擇 Power BI Desktop 的語言 
 1. [從 Windows 市集](http://aka.ms/pbidesktopstore)安裝 Power BI Desktop，或將其安裝為[獨立安裝程式](http://aka.ms/pbiSingleInstaller)。
 2. 若要變更語言，請在您的電腦上搜尋 **Windows 設定**。 
@@ -139,7 +142,7 @@ Power BI 會根據您電腦上的語言喜好設定偵測您的語言。 存取�
 2. 在 [全域設定]  下，選取 [區域設定]  。
 3. 在 [應用程式語言]  方塊中，選取不同的地區設定。 
 
-Power BI Desktop 中的語言支援會限制在 [應用程式語言] 下拉式清單內所顯示語言。
+Power BI Desktop 的語言支援僅限 [應用程式語言] 下拉式清單中所顯示語言。
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>選擇用於將資料匯入 Power BI Desktop 的地區設定
 無論是下載 Power BI Desktop 或從 Windows 市集安裝，您都可以針對特定報表選擇所用版本地區設定以外的其他地區設定。 地區設定會變更從您資料來源匯入資料時解譯資料的方式，例如要將 "3/4/2017" 解譯成 4 月 3 日還是 3 月 4 日。 

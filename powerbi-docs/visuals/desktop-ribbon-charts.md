@@ -1,6 +1,6 @@
 ---
 title: 在 Power BI 中使用功能區圖表
-description: 在 Power BI 服務和 Power BI Desktop 中建立和使用功能區圖表
+description: 在 Power BI Desktop 中建立和使用功能區圖表
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -10,20 +10,34 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3400071c6b8cee472bb61475e6d3482189680563
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: e6044f3a2cfdbfc40d0497ebde25780336dc1dc4
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840104"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715487"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>在 Power BI 中使用功能區圖表
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 您可以使用功能區圖表來視覺化資料，並快速找出哪個資料類別具有最高的等級 (最大值)。 功能區圖表適合顯示等級變更，最高等級 (值) 一律顯示於每個時段的最上方。 
 
-![功能區圖表](media/desktop-ribbon-charts/ribbon-charts_01.png)
+![功能區圖表](media/desktop-ribbon-charts/ribbon-charts-01.png)
+
+## <a name="prerequisites"></a>先決條件
+
+本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
+
+1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
+   
+2. 尋找您的**零售分析範例 PBIX 檔案**複本
+
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+
+1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
 ## <a name="create-a-ribbon-chart"></a>建立功能區圖表
-如果要跟著做，請開啟[零售分析範例報表](../sample-retail-analysis.md)。 
 
 1. 若要建立功能區圖表，請從 [視覺效果]  畫面選取 [功能區圖表]  。
 
@@ -31,13 +45,13 @@ ms.locfileid: "66840104"
 
     功能區圖表會透過使用功能區，連接視覺化時間連續體的資料類別，可讓您看到在整個圖表 X 軸 (通常為時間軸) 的範圍中，某個類別的等級為何。
 
-2. 選取 [軸]  、[圖例]  和 [值]  的欄位。  在本例中，我們已選取：[日期]  、[類別]  ，以及 [今年銷售量]  。  
+2. 選取 [軸]  、[圖例]  和 [值]  的欄位。  在本例中，我們已選取：[商店]   > [OpenDate]  、[項目]   > [類別]  和 [銷售]   > [今年銷售額]   > [值]  。  
 
     ![選取的欄位](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
 
-    因為資料集只包含一年的資料，所以我們從 [軸]  移除了 [年份]  欄位。 
+    因為資料集只包含一年的資料，所以我們從 [軸]  移除了 [年份]  和 [季度]  欄位。
 
-3. 功能區圖表會顯示每個其他月份的順位。 請注意順位隨時間變化的方式。  例如，家居服類別從第三個移至第四個，並再次移回第三個。 童裝類別在 7 月會從第三個移至第五個。 
+3. 功能區圖表會顯示每個月份的順位。 請注意順位隨時間變化的方式。 例如，二月到三月時，「家居」類別從第二位移至第四位。
 
     ![功能區圖表](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
@@ -57,7 +71,7 @@ ms.locfileid: "66840104"
 
 ![資料標籤的格式化選項](media/desktop-ribbon-charts/power-bi-labels.png)
 
-設定資料標籤的格式化選項。  在此範例中，我們已將文字色彩設定為白色、將小數位數設為零，並將顯示單位設為千。 
+設定資料標籤的格式化選項。 在此範例中，我們已將文字色彩設定為白色，並將顯示單位設為千。
 
 ![[視覺效果] 窗格上的功能區範本](media/desktop-ribbon-charts/power-bi-data-labels.png)
 

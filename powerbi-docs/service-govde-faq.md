@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 16114793b190996b3ef9e800e562dd0caf62089c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 805856082b3bef0f92674415eb16da1cc108cdf2
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514815"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715359"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>德國雲端客戶的 Power BI 常見問題集
 **Power BI 服務**為歐盟/歐洲自由貿易協定 (EU/EFTA) 客戶提供一個版本，通常稱為 Microsoft Cloud Deutschland (MCD)。 本文所討論的 **Power BI 服務**版本為 EU/EFTA 客戶專屬，獨立且不同於商用版本的 **Power BI 服務**，或提供給政府客戶的 Power BI 服務。
@@ -32,10 +32,10 @@ ms.locfileid: "65514815"
    為 EU/EFTA 客戶提供的 Power BI 服務也稱作 Microsoft Cloud Deutschland (MCD)，這個 EU/EFTA 雲端符合傳遞自德國資料中心的 Power BI 服務規範。 在 EU/EFTA 雲端的 Power BI 服務中，所有客戶資料都會以待用狀態儲存在德國，由 T-Systems 擔任獨立的德國資料信任者，資料的實體和邏輯存取則受德國法律約束。 EU/EFTA 雲端的 Power BI 服務需要與商用版本 Power BI 服務不同的獨立帳戶。 前往[這裡](https://www.microsoft.com/trustcenter/cloudservices/nationalcloud)深入了解 Microsoft Cloud Deutschland。
 2. **我可以在哪裡找到 Power BI 德國雲端的定價及註冊資訊？**
    
-   您可以在 [Power BI 德國雲端首頁](https://powerbi.microsoft.com/power-bi-germany/)找到許多資訊，包括定價資訊。 在該頁面上，您也可以找到註冊的連結**Power BI Pro 服務**具有 25 個使用者授權的 30 天試用版。 註冊試用版的一部分，您可以購買，或視需要新增額外的授權。 我們也提供 Enterprise 合約 (EA)、政府及非營利定價。 如需詳細資訊，請連絡您的 Microsoft 客戶代表。
+   您可以在 [Power BI 德國雲端首頁](https://powerbi.microsoft.com/power-bi-germany/)找到許多資訊，包括定價資訊。 在該頁面上，您也可以找到具有 25 個使用者授權的 **Power BI Pro 服務** 30 天試用版註冊連結。 在註冊試用版的過程中，您可以依需求選擇購買或新增額外授權。 我們也提供 Enterprise 合約 (EA)、政府及非營利定價。 如需詳細資料，請連絡您的 Microsoft 客戶代表。
 3. **我的 Azure Germany 及 (或) Office 365 Germany 訂閱有 Germany Cloud 租用戶。我可以使用現有租用戶註冊 Power BI Germany 嗎？**
    
-   是。 在註冊程序中，您可以選擇使用現有 Germany Cloud 租用戶管理帳戶登入，並將 Power BI Pro 服務授權新增到您在 Germany Cloud 中的現有租用戶。 請注意，Germany Cloud 租用戶和使用者帳戶是不同於適用於德國雲端 Power BI 服務。
+   是。 在註冊程序中，您可以選擇使用現有 Germany Cloud 租用戶管理帳戶登入，並將 Power BI Pro 服務授權新增到您在 Germany Cloud 中的現有租用戶。 請注意，Germany Cloud 租用戶和使用者帳戶與德國雲端的 Power BI 服務不同。
 4. **德國雲端的 Power BI 服務中有免費服務嗎？**
    
    否。 我們未在德國雲端的 Power BI 服務中提供免費授權版本。 不過，如果您的業務需求與 Power BI 免費供應項目相符，我們也鼓勵您註冊[公用雲端中的 Power BI 免費供應項目](https://powerbi.microsoft.com/get-started/)。
@@ -56,7 +56,7 @@ ms.locfileid: "65514815"
    * Power BI Embedded (個別計量的 ISV 授權，將於日後透過 [Microsoft Azure Germany](https://azure.microsoft.com/overview/clouds/germany/) 提供)
 7. **我可以在哪裡找到德國雲端 Power BI 服務專屬的設定資訊，以在我的應用程式中使用及整合？**
    
-   我們更新了 [SaaS 內嵌開發人員範例](https://github.com/Microsoft/PowerBI-Developer-Samples)，增加德國及其他 Power BI 雲端專屬的設定資訊。 看看**雲端組態**雲端專屬設定端點的範例中的資料夾。 下表列出德國雲端 Power BI 服務的不同設定端點 (及用於交互參照的公用雲端)。
+   我們更新了 [SaaS 內嵌開發人員範例](https://github.com/Microsoft/PowerBI-Developer-Samples)，增加德國及其他 Power BI 雲端專屬的設定資訊。 請查看範例中的 **Cloud Configs** 資料夾，以取得雲端特定的設定端點。 下表列出德國雲端 Power BI 服務的不同設定端點 (及用於交互參照的公用雲端)。
 
 | **端點名稱及 (或) 使用方式** | **適用於德國雲端的 Power BI 服務 URL** | **公用雲端中的對等 URL (用於交互參照)** |
 | --- | --- | --- |
@@ -68,13 +68,13 @@ ms.locfileid: "65514815"
 | Power BI 服務資源 URI |[https://analysis.cloudapi.de/powerbi/api](https://analysis.cloudapi.de/powerbi/api) |[https://analysis.windows.net/powerbi/api](https://analysis.windows.net/powerbi/api) |
 | 自訂視覺效果資源庫 |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | 為 Power BI 註冊應用程式 (適用於 Embedded) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
-| Azure 入口網站 （如內嵌） |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
+| Azure 入口網站 (適用於 Embedded) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
 | 社群 |[https://community.powerbi.com/](https://community.powerbi.com/) |[https://community.powerbi.com/](https://community.powerbi.com/) |
 
 ## <a name="next-steps"></a>後續步驟
 您可以使用 Power BI 執行各種作業。 如需詳細資訊和學習，包括說明如何註冊服務的文章，請參閱下列資源︰
 
-* [引導式學習 Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
+* [引導式學習 Power BI](guided-learning/index.md)
 * [開始使用 Power BI 服務](service-get-started.md)
 * [Power BI Desktop 是什麼？](desktop-what-is-desktop.md)
 

@@ -4,23 +4,25 @@ description: 使用 Power BI 快速深入解析和檢視深入解析。
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/23/2019
+ms.date: 10/2/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 991dd7bb94e79a21c8e4ec877093b81d2ed9b285
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 507d49ba6cdb894667bf66f8f35c5c325b9ff25e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327769"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943915"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI 支援的深入解析類型
+
+Power BI 服務可以自動在您的儀表板或報表中尋找見解。
+
 ## <a name="how-does-insights-work"></a>深入解析如何運作？
-Power BI 可快速地搜尋資料集的不同子集，同時套用一組複雜的演算法來探索潛在相關的深入剖析資訊。 Power BI 會在分配的時間內盡可能掃描資料集。
+Power BI 可快速搜尋資料集的不同子集， 並在搜尋時套用一組複雜的演算法來探索潛在相關見解。 Power BI 會在分配的時間內盡可能掃描資料集。
 
 您可以針對資料集或儀表板圖格執行深入解析。   
 
@@ -74,8 +76,6 @@ Power BI 可快速地搜尋資料集的不同子集，同時套用一組複雜�
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 深入解析](end-user-insights.md)
-
-如果您擁有資料集，請[針對深入解析將它最佳化](../service-insights-optimize.md)。
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
 

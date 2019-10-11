@@ -10,24 +10,22 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 385cae5511d89ec86e52232066227687673f9523
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d627b74d4c681e409424b18a117743e0488dc34c
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394036"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715456"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 散佈圖中的高密度取樣
-從 **Power BI Desktop** 的 2017 年 9 月版和 **Power BI 服務**的更新開始，有新的取樣演算法可以改善散佈圖代表高密度資料的方式。
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+從 **Power BI Desktop** 的 2017 年 9 月版本開始，您即可使用新取樣演算法來改善散佈圖代表高密度資料的方式。
 
 例如，您可以從組織的銷售活動建立散佈圖，每間商店每年有數以萬計的資料點。 這類資訊的散佈圖會可用資料進行取樣 (選取以有意義的方式轉譯該資料，來說明銷售隨著時間的變化)，並建立代表基礎資料的散佈圖。 這是高密度散佈圖中的常見做法。 Power BI 已改善對高密度資料的取樣，本文會描述其詳細資料。
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
-
-> [!NOTE]
-> **Power BI Desktop** 和 **Power BI 服務**散佈圖可使用本文中所述的**高密度取樣**演算法。
-> 
-> 
+![散佈圖範例](media/desktop-high-density-scatter-charts/high-density-scatter-charts-01.png)
 
 ## <a name="how-high-density-scatter-charts-work"></a>高密度散佈圖的運作方式
 先前，**Power BI** 透過決定性方式選取完整基礎資料範圍中的範例資料點集合，以建立散佈圖。 具體來說，Power BI 會在散佈圖圖表數列中，選取第一個和最後一個資料列，然後平均分配剩餘的資料列，以便在散佈圖上繪製總計 3500 個資料點。 例如，如果樣本有 35,000 個資料列，則會選取第一個和最後一個資料列來繪製，然後也會繪製每十個資料列 (35000 / 10 = 每十個資料列 = 3,500 個資料點)。 此外，先前資料數列中無法繪製的 null 值或點 (例如文字值) 的點不會顯示，因此在產生視覺效果時並未考慮它們。 使用這樣的取樣，散佈圖的認知密度也是根據代表性資料點，因此隱含的視覺效果密度是取樣點的一種情況，而不是完整的基礎資料集合。
@@ -60,20 +58,22 @@ ms.locfileid: "61394036"
 
 * 如果您以滑鼠右鍵按一下 [詳細資料]  下的值，然後從功能表將它設為 [顯示沒有資料的項目]  ，散佈圖會還原成原始的演算法。
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
+  ![顯示不含資料範例的項目](media/desktop-high-density-scatter-charts/high-density-scatter-charts-02.png)
 * [播放]  軸中的任何值將導致散佈圖還原成原始的演算法。
 * 如果散佈圖上同時遺漏 X 和 Y 軸，圖表會還原為原始的演算法。
 * 在 [分析]  窗格中使用 [比率行]  會導致圖表還原成原始的演算法。
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
+  ![使用比率行範例](media/desktop-high-density-scatter-charts/high-density-scatter-charts-03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>如何開啟散佈圖的高密度取樣
 若要開啟**高密度取樣**，請選取散佈圖並移至 [格式]  窗格，展開 [一般]  卡片，在該卡片底部的附近，將 [高密度取樣]  切換滑桿移至 [開啟]  。
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
+![高密度取樣範例](media/desktop-high-density-scatter-charts/high-density-scatter-charts-04.png)
 
 > [!NOTE]
 > 一旦開啟滑桿，Power BI 會嘗試盡可能使用**高密度取樣**演算法。 無法使用此演算法時 (例如，您在「播放」  軸放了值)，滑桿會停留在 [開啟]  位置，但圖表已還原成標準演算法。 如果您接著從「播放」  軸移除值 (或是狀況變更為可使用高密度取樣演算法)，圖表會自動使用適合該圖表的高密度取樣，因為功能啟用中。
+> 
+
 > 
 > [!NOTE]
 > 資料點會依索引分組或選取。 具有圖例不會影響演算法的取樣，而只會影響視覺效果的排序。

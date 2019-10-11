@@ -1,0 +1,61 @@
+### YamlMime:Landing
+title: 適用於系統管理員的 Power BI
+summary: 不論您如何使用 Power BI，Power BI 文件都能提供專家資訊及答案解決您的需求。
+metadata:
+  title: 適用於系統管理員的 Power BI
+  description: 不論您如何使用 Power BI，Power BI 文件都能提供專家資訊及答案解決您的需求。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-service
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 10/04/2019
+  ms.openlocfilehash: 8209cc755b33887c533e9f90b9b1cd7a5021490e
+  ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+  ms.translationtype: HT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 10/10/2019
+  ms.locfileid: "72245642"
+landingContent:
+- title: 關於適用於系統管理員的 Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 什麼是 Power BI 管理？
+      url: ../service-admin-administering-power-bi-in-your-organization.md
+  - linkListType: concept
+    links:
+    - text: Office 365 中的管理角色
+      url: ../service-admin-role.md
+- title: 開始使用
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 為組織獲得授權
+      url: ../service-admin-licensing-organization.md
+    - text: 使用管理入口網站
+      url: ../service-admin-portal.md
+  - linkListType: how-to-guide
+    links:
+    - text: 購買 Power BI Pro
+      url: ../service-admin-purchasing-power-bi-pro.md
+    - text: 註冊 Office 365 試用版
+      url: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+    - text: 使用 Office 365 合作夥伴新增 Power BI
+      url: ../service-admin-syndication-partner.md
+- title: 租用戶
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 我的租用戶位在何處？
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: 尋找已登入的使用者
+      url: ../service-admin-access-usage.md
+    - text: 稽核 Power BI
+      url: ../service-admin-auditing.md
+    - text: 追蹤服務健康情況
+      url: ../service-admin-health.md
+    - text: 關閉 Power BI 帳戶
+      url: ../service-admin-closing-your-account.md

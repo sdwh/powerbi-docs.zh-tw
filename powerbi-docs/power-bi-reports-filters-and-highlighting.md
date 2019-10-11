@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4584ad0f8c083a765b1a1a9943496b40a3ed4bdf
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: cfae856cf80027a92fb7d19c27b990aa659d992d
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342171"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968757"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>在 Power BI 報表中進行篩選和醒目提示
  本文介紹如何在 Power BI 服務中進行篩選和醒目提示。 其體驗幾乎與 Power BI Desktop 完全相同。 *篩選*會保留您最關切的資料，而將其他所有資料移除。 「醒目提示」  與篩選不同。 它不會移除資料，而是將一部分可見資料醒目提示，未醒目提示的資料仍保持可見但會變暗。
@@ -28,7 +28,7 @@ ms.locfileid: "68342171"
 * Power BI Desktop 和 Power BI 服務 [[編輯檢視] 中可用的篩選及醒目提示控制項](power-bi-report-add-filter.md)詳細介紹。 本文會深入探討日期與時間、數字和文字等篩選類型， 也會說明基本和進階選項之間的差異。
 * 在您了解篩選及醒目提示的預設運作方式之後，再了解[如何變更頁面上的視覺效果彼此進行篩選及醒目提示的方式](service-reports-visual-interactions.md)
 
-**您知道嗎？** Power BI 已推出新的篩選體驗，目前正處於預覽狀態。 深入了解 [Power BI 報表中的新篩選體驗](power-bi-report-filter.md)。
+**您知道嗎？** Power BI 已推出新的篩選體驗。 深入了解 [Power BI 報表中的新篩選體驗](power-bi-report-filter.md)。
 
 ![新的篩選體驗](media/power-bi-reports-filters-and-highlighting/power-bi-filter-reading.png)
 

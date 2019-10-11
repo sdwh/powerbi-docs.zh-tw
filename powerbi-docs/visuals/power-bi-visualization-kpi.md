@@ -11,19 +11,24 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8fa39c7cc57e24f0c19e1a484c0e925bfeec94f7
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 508da47272313d9781fdd66c2ca367dcf9e433e5
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389613"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715235"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>關鍵效能指標 (KPI) 視覺效果
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 關鍵效能指標 (KPI) 是一種視覺提示，指出對於可測量目標已達成的進度。 如需 KPI 的詳細資訊，請參閱 [PowerPivot 中的關鍵效能指標 (KPI)](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110))。
 
-觀看 Will 說明如何建立單一計量的視覺效果︰量測計、卡片及 KPI。
-
+請觀看 Will 說明如何建立單一計量的視覺效果︰量測計、卡片及 KPI。
+   > [!NOTE]
+   > 這部影片使用舊版的 Power BI Desktop。
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>使用 KPI 的時機
@@ -42,19 +47,19 @@ KPI 資料集必須包含 KPI 目標值。 如果您的資料集未包含目標�
 
 ## <a name="prerequisites"></a>先決條件
 
-如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
+本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-* [Power BI Desktop](https://powerbi.microsoft.com/get-started/) - 免費！
+1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
+   
+2. 尋找您的**零售分析範例 PBIX 檔案**複本
 
-* [零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+
+1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
 ## <a name="how-to-create-a-kpi"></a>如何建立 KPI
 
-若要跟著做，請在 Power BI Desktop 中開啟[零售分析 .PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。 您將建立 KPI，測量我們銷售目標已達成的進度。
-
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟 [零售分析範例]  。
-
-1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+在此範例中，您將建立 KPI 以測量達成的銷售目標進度。
 
 1. 從 [欄位]  窗格中選取 [銷售額] > [本年度的總單位]  。  此值將是指標。
 

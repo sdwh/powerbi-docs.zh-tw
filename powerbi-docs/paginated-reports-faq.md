@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 09/04/2019
-ms.openlocfilehash: 6ab7338029118ab6478ad345776e2b9f13c34123
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.date: 10/04/2019
+ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751519"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968503"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -123,6 +123,7 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 - Azure Analysis Services (透過單一登入 (SSO) 和 oAuth)
 - Azure SQL 資料倉儲
 - Azure SQL Database (使用者名稱/密碼、SSO 和 oAuth)
+- 透過公用端點的 Azure SQL 受控執行個體 (使用者名稱/密碼)
 - SQL Server*
 - SQL Server Analysis Services 表格式 (DAX) 和多維度 (MDX) 模型* 
 - Oracle* 

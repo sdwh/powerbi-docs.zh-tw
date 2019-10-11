@@ -7,36 +7,40 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/24/2019
+ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b95df5c32d9058e4480d7af5e226a971ba581144
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 3a73656d8de462dfc7d1d9e7ac742d588cc8c810
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256281"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943894"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>如何在 Power BI 報表中相互進行視覺效果交叉篩選
 Power BI 的其中一項絕佳功能，是報表頁面上所有視覺效果互連的方式。 如果您選取其中一個視覺效果的資料點，頁面上包含該資料的其他視覺效果就會全部根據該選取項目而變更。 
 
 ![視覺效果互動的影片](media/end-user-interactions/interactions.gif)
 
-根據預設，選取報表頁面上某個視覺效果中的資料點將會交叉篩選、交叉醒目提示，以及切入頁面上的其他視覺效果。 
+## <a name="how-visuals-interact-with-each-other"></a>視覺效果彼此互動的方式
 
-這有助於識別資料中某個值對另一個值的貢獻度。 例如，選取環圈圖中的 [合適性] 區段，會醒目提示該區段對依月份之單位總量圖表中每個資料行的貢獻度，並篩選出右側的折線圖。
+根據預設，當您選取報表頁面上某個視覺效果中的資料點時，即會交叉篩選或交叉醒目提示頁面上的其他視覺效果。 頁面上視覺效果的確切互動方式由報表「設計者」  建立。 「設計者」  可以選擇開啟和關閉視覺效果互動，也可以選擇變更預設交叉篩選、交叉醒目提示和[切入](end-user-drill.md)行為。 
+
+如果您尚未使用階層或切入，可以閱讀 [Power BI 中的向下切入](end-user-drill.md)，以了解相關資訊。 
+
+交叉篩選和交叉醒目提示有助於識別資料中某個值對另一個值的貢獻度。 例如，當您選取環圈圖中的 [合適性] 區段時，即會醒目提示該區段對 [月份單位總量] 圖表中每個資料行的貢獻度，並篩選折線圖。
 
 ![視覺效果互動的影像](media/end-user-interactions/power-bi-interactions.png)
 
-請參閱[關於篩選及醒目提示](../power-bi-reports-filters-and-highlighting.md)。 
+請參閱[關於篩選及醒目提示](end-user-report-filter.md)。 
 
-頁面上視覺效果的確切互動方式由報表「設計者」  建立。 設計者會有可以開啟和關閉視覺效果互動，以及變更預設交叉篩選、交叉醒目提示及切入行為的選項。 
+
   
 > [!NOTE]
-> 「交叉篩選」  與「交叉醒目提示」  這兩個詞彙用於區分本文所述，當您使用 [篩選]  窗格來篩選視覺效果及將其醒目提示時的這兩項行為。  
+> 「交叉篩選」  與「交叉醒目提示」  這兩個字詞用來區分本文所述的兩項行為：當您使用 [篩選]  窗格來篩選視覺效果及將其醒目提示時所發生的情況。  
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-- 如果報表具有支援[切入](../power-bi-visualization-drill-down.md)的視覺效果，則根據預設，切入某個視覺效果不會影響報表頁面上的其他視覺效果。     
+- 如果報表所含的視覺效果支援[切入](end-user-drill.md)，則根據預設，當您切入某個視覺效果時，不會影響報表頁面上的其他視覺效果。     
 - 如果您使用 visualA 與 visualB 互動，則 visualA 中的視覺效果層級篩選將會套用至 visualB。
 
 ## <a name="next-steps"></a>後續步驟

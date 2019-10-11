@@ -1,22 +1,21 @@
 ---
-title: 適用於報表取用者的 Power BI
-description: 準備好開始使用 Power BI 了嗎？ 認識 Power BI 的特色與功能，以及了解 Power BI 取用者或使用者如何妥善運用它們。
+title: 適用於取用者的 Power BI
+description: 準備好開始使用 Power BI 了嗎？ 認識 Power BI 服務的特色與功能，並了解 Power BI 取用者或終端使用者如何妥善運用它們。
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
-ms.date: 09/11/2019
+ms.date: 10/01/2019
 ms.author: mihart
 layout: HubPage
-ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: d43d1072c9eafa71d336f71e22ac2d6d68144558
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: ec123c29bc6cf942c096ffb78b8bfab10be3bc14
+ms.sourcegitcommit: e371690159f69a72410abc97ff1c2a2bb9c841f5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073386"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "71829629"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -105,7 +104,8 @@ ms.locfileid: "71073386"
                                                 <p><a href="/power-bi/consumer/end-user-experience" data-linktype="absolute-path">導覽 - 快速尋找您需要的內容</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-q-and-a" data-linktype="absolute-path">問與答 - 使用自然語言詢問問題</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-report-filter" data-linktype="absolute-path">與篩選條件和交叉分析篩選器互動</a></p>
-                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">了解您在 Power BI 中看到的視覺效果類型</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">了解視覺效果類型</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-app-marketing" data-linktype="absolute-path">下載範例應用程式</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -152,10 +152,10 @@ ms.locfileid: "71073386"
                 </ul>
             </li>
             <li>
-                <a href="#concepts-terminology" data-linktype="self-bookmark"> 概念 &amp; 術語</a>
+                <a href="#concepts-terminology" data-linktype="self-bookmark">概念和術語</a>
                 <ul id="concepts-terminology">
                     <li>
-                        <a href="#conceptsterminology" data-linktype="self-bookmark"> 概念 &amp; 術語</a>
+                        <a href="#conceptsterminology" data-linktype="self-bookmark">概念和術語</a>
                         <ul id="conceptsterminology" class="cardsC">
                             <br>
                             <li>

@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
-ms.openlocfilehash: bbd9a3884b3b6b0cd235471b0746f605e3872aff
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 10/03/2019
+ms.openlocfilehash: a97c8125af46eae193f6c592d0b3c1153ae9b50c
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325744"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968634"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 
-若要建立 Power BI 報表伺服器的 Power BI 報告，您必須下載並安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop。 此版本與搭配 Power BI 服務使用的 Power BI Desktop 不同。 例如，Power BI 服務的 Power BI Desktop 版本包含 Power BI 報表伺服器版發行後才擁有的預覽功能。 使用此版本可確保報表伺服器可與已知版本的報告和模型互動。 
+若要建立 Power BI 報表伺服器的 Power BI 報表，您必須下載並安裝已針對 Power BI 報表伺服器最佳化的 Power BI Desktop 版本。 此版本與搭配 Power BI 服務使用的 Power BI Desktop 不同。 例如，Power BI 服務的 Power BI Desktop 版本包含 Power BI 報表伺服器版本正式推出後才擁有的預覽功能。 使用此版本可確保報表伺服器可與已知版本的報告和模型互動。 
 
 好消息是，您可以將 Power BI Desktop 和針對 Power BI 報表伺服器最佳化的 Power BI Desktop，並排安裝在同一部電腦上。
 
@@ -32,7 +32,7 @@ ms.locfileid: "71325744"
 
     或移至 [Power BI 報表伺服器](https://powerbi.microsoft.com/report-server/)首頁，然後選取 [進階下載選項]  。
 
-2. 在 [下載中心] 頁面上，選取 [下載]  。
+2. 在 [下載中心] 頁面上，選取語言，然後選取 [下載]  。
 
 3. 根據您的電腦，選取： 
 
@@ -65,7 +65,11 @@ Power BI 服務的 Power BI Desktop 版本不會在標題列中顯示年份和�
 
 Power BI 報表伺服器、Power BI 服務 (http://app.powerbi.com) ) 和 Power BI 行動裝置應用程式中的 Power BI 報表行為幾乎完全相同，但部分功能不同。
 
-### <a name="in-a-browser"></a>在瀏覽器中
+### <a name="selecting-a-language"></a>選取語言
+
+若是已針對 Power BI 報表伺服器最佳化的 Power BI Desktop，您可以在安裝應用程式時選取語言。 之後，您就無法變更語言，但可以安裝其他語言的版本。
+
+### <a name="report-visuals-in-a-browser"></a>瀏覽器中的報表視覺效果
 
 Power BI 報表伺服器的報表支援幾乎所有視覺效果，包括自訂視覺效果。 Power BI 報表伺服器報表不支援：
 
@@ -74,7 +78,7 @@ Power BI 報表伺服器的報表支援幾乎所有視覺效果，包括自訂�
 * 階層連結
 * Power BI Desktop 預覽功能
 
-### <a name="in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中
+### <a name="reports-in-the-power-bi-mobile-apps"></a>Power BI 行動裝置應用程式中的報表
 
 Power BI 報表伺服器報表支援 [Power BI 行動裝置應用程式](../consumer/mobile/mobile-apps-for-mobile-devices.md)中的所有基本功能，包括：
 
@@ -92,7 +96,7 @@ Power BI 報表伺服器報表不支援 Power BI 行動裝置應用程式中的�
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>適用於舊版 Power BI 報表伺服器的 Power BI Desktop
 
-如果您的報表伺服器是舊版，則需要 Power BI Desktop 的對應版本。 以下是下載先前版本的連結。
+如果您的報表伺服器是舊版，則需要 Power BI Desktop 的對應版本。 以下是舊版的下載連結。
 
 - Microsoft Power BI Desktop ([已針對 Power BI 報表伺服器最佳化 - 2019 年 1 月](https://go.microsoft.com/fwlink/?linkid=2055039))
 

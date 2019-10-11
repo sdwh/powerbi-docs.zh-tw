@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0dcc5e3aac4b43a6975a9faa5dd23faa2888b324
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 1ccf5dd3a84bbbaca7019f8943cf0ab974e4bd06
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142205"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71944882"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -209,7 +209,7 @@ ms.locfileid: "71142205"
     * 雲端 RLS 的支援
 * 管理彙總對話方塊協助工具 [[影片]](https://youtu.be/7k-nP38uHyQ?t=1213) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#aggregationsAccessibility) 
 
-### <a name="modeling"></a>模型
+### <a name="modeling"></a>模型化
 * 新 == DAX 比較運算子 [[影片]](https://youtu.be/7k-nP38uHyQ?t=1267) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#dax) 
 
 
@@ -289,7 +289,7 @@ ms.locfileid: "71142205"
     * 行動支援
 
 
-### <a name="modeling"></a>模型
+### <a name="modeling"></a>模型化
 * 停用新報表的自動日期資料表 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=984) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#autoDate) 
 * ALLSELECTED DAX 函式的更新 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=1080) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#dax) 
 
@@ -365,7 +365,7 @@ ms.locfileid: "71142205"
 * 問與答中字詞的部分同義字比對 [[影片]](https://youtu.be/vih35kSrEHU?t=912) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#partialMatching) 
 
 
-### <a name="modeling"></a>模型
+### <a name="modeling"></a>模型化
 * 新的 DAX 函式 - ALLCROSSFILTERED [[影片]](https://youtu.be/vih35kSrEHU?t=970) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dax) 
 
 ### <a name="custom-visuals"></a>自訂視覺效果
@@ -455,7 +455,7 @@ ms.locfileid: "71142205"
 * 將日期顯示為階層的功能現已公開推出 [[影片]](https://youtu.be/rBPGH6eYlT0?t=397)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#dateHierarchy) 
 
 
-### <a name="modeling"></a>模型
+### <a name="modeling"></a>模型化
 * 新的模型建構檢視現已正式推出 [[影片]](https://youtu.be/rBPGH6eYlT0?t=417) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
 * 新的 DAX 函數 [[影片]](https://youtu.be/rBPGH6eYlT0?t=560)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#DAX) 
 
@@ -601,7 +601,7 @@ ms.locfileid: "71142205"
 * 問與答的 Live Connect 支援 (預覽) [[影片]](https://youtu.be/AHNlkjRFdYI?t=1037) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#liveConnectQA) 
 
 
-### <a name="modeling"></a>模型
+### <a name="modeling"></a>模型化
 
 * DAX 資料編輯列更新 [[影片]](https://youtu.be/AHNlkjRFdYI?t=1132) [[文章]](desktop-modeling-view.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#daxFormulaBar) 
 * 資料檢視協助工具支援 [[影片]](https://youtu.be/AHNlkjRFdYI?t=1253) [[文章]](desktop-composite-models.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#dataView) 
@@ -661,7 +661,7 @@ ms.locfileid: "71142205"
 * 問與答總管中的後續問題 [[影片]](https://youtu.be/1xsXXoyTxfk?t=1429)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
 
 
-### <a name="modeling"></a>模型
+### <a name="modeling"></a>模型化
 
 * 新的模型檢視 (預覽) [[影片]](https://youtu.be/1xsXXoyTxfk?t=1642)  [[文章]](desktop-modeling-view.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
 * 複合模型現已正式推出 [[影片]](https://youtu.be/1xsXXoyTxfk?t=1941)  [[文章]](desktop-composite-models.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
@@ -706,7 +706,7 @@ ms.locfileid: "71142205"
 * ArcGIS Map 的效能改進[[影片]](https://youtu.be/cT3L2VzgBRU?t=333)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
 
 
-### <a name="modeling"></a>模型
+### <a name="modeling"></a>模型化
 
 * DAX 編輯器的改善 [[影片]](https://youtu.be/GO1dhDJhSDY)  [[文章]](desktop-formula-editor.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23daxEditor) 
 
@@ -806,7 +806,7 @@ ms.locfileid: "71142205"
 
 以下是 8 月 **Power BI Desktop** 新增的更新：
 
-### <a name="modeling"></a>模型
+### <a name="modeling"></a>模型化
 
 * 量值的資料類別  [[影片]](https://youtu.be/dgv5HhHxxe8?t=15m27s)  [[文章]](desktop-measures.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dataCategory)
 * 統計 DAX 函數  [[影片]](https://youtu.be/dgv5HhHxxe8?t=18m56s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dax)
@@ -855,7 +855,7 @@ ms.locfileid: "71142205"
 
 以下是 7 月 **Power BI Desktop** 新增的更新：
 
-### <a name="modeling"></a>模型
+### <a name="modeling"></a>模型化
 
 * 複合模型 (預覽) [[影片]](https://youtu.be/Mtig3rmIUe0?t=15s) [[文章]](desktop-composite-models.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
 * 多對多關聯性 (預覽) (與複合模型相關聯) [[影片]](https://youtu.be/Mtig3rmIUe0?t=4m53s) [[文章]](desktop-many-to-many-relationships.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
@@ -925,7 +925,7 @@ ms.locfileid: "71142205"
 
 * 兩個新的自訂視覺效果  [[影片]](https://youtu.be/4VpGtWSrssE?t=17m42s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
 
-### <a name="modeling"></a>模型
+### <a name="modeling"></a>模型化
 * 資料檢視中的篩選和排序  [[影片]](https://youtu.be/4VpGtWSrssE?t=13m11s)  [[文章]](desktop-data-view.md#filtering-in-data-view)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
 * 改善的地區設定篩選   [[影片]](https://youtu.be/4VpGtWSrssE?t=15m35s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#locale) 
 
@@ -2290,8 +2290,8 @@ ms.locfileid: "71142205"
 
 ### <a name="data-connectivity"></a>資料連接：
 
--   Oracle 與 Teradata 資料庫的 **DirectQuery** 支援
--   **DirectQuery** – 支援建立導出資料行
+-   Oracle 與 Teradata 的 **DirectQuery** 支援
+-   **DirectQuery** 支援建立計算結果欄
 -   支援發行 Analysis Services 即時報表
 -   JSON 檔案連接器
 -   SQL Sentry 連接器

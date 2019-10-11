@@ -1,0 +1,65 @@
+- name: Power BI 系統管理
+  items:
+    - name: 概觀
+      expanded: true
+      items:
+        - name: 什麼是 Power BI 管理？
+          href: ../service-admin-administering-power-bi-in-your-organization.md
+    - name: 概念
+      expanded: true
+      items:
+        - name: Office 365 中的管理角色
+          href: ../service-admin-role.md
+        - name: 常見問題集 (FAQ)
+          href: ../service-admin-faq.md
+        - name: 高可用性及容錯移轉常見問題集
+          href: ../service-admin-failover.md
+    - name: 如何
+      items:
+        - name: 授權及註冊
+          items:
+            - name: 為組織獲得授權
+              href: ../service-admin-licensing-organization.md
+            - name: 購買 Power BI Pro
+              href: ../service-admin-purchasing-power-bi-pro.md
+            - name: 註冊 Office 365 試用版
+              href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+            - name: 使用 Office 365 合作夥伴新增 Power BI
+              href: ../service-admin-syndication-partner.md
+        - name: 使用管理入口網站
+          href: ../service-admin-portal.md
+        - name: 我的租用戶位在何處？
+          href: ../service-admin-where-is-my-tenant-located.md
+        - name: 尋找已登入的使用者
+          href: ../service-admin-access-usage.md
+        - name: 稽核 Power BI
+          href: ../service-admin-auditing.md
+        - name: 追蹤服務健康情況
+          href: ../service-admin-health.md
+        - name: 關閉 Power BI 帳戶
+          href: ../service-admin-closing-your-account.md
+        - name: Power BI 和 ExpressRoute
+          href: ../service-admin-power-bi-expressroute.md
+        - name: 使用 Azure AD B2B
+          href: ../service-admin-azure-ad-b2b.md
+        - name: 資料列層級安全性和 Power BI
+          href: ../service-admin-rls.md
+        - name: Power BI 封存工作區
+          href: ../service-admin-power-bi-archived-workspace.md
+        - name: 使用 Intune 設定行動應用程式
+          href: ../service-admin-mobile-intune.md
+    - name: 參考
+      items:
+        - name: PowerShell、REST API 和 .NET SDK
+          href: ../service-admin-reference.md
+        - name: 適用於 PowerShell 的 Power BI Cmdlet
+          href: 'https://docs.microsoft.com/powershell/power-bi/'
+          maintainContext: true
+        - name: 服務 URL 參考
+          href: ../power-bi-whitelist-urls.md
+    - name: 資源
+      items:
+        - name: Power BI 管理與部署方法
+          href: ../service-admin-governance.md
+        - name: Power BI 安全性
+          href: ../service-admin-power-bi-security.md

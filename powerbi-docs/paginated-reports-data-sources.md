@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.openlocfilehash: f055cd27f25af399b63336e66aaad526ed740de2
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: f0cc7563fc59a6c1ceeceefcf4b65b0cc1a3aa80
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462320"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968660"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 編頁報表支援的資料來源
 
@@ -24,9 +24,10 @@ ms.locfileid: "68462320"
 
 編頁報表會以原生方式支援下列資料來源清單：
 
-| 資料來源 | 驗證 | 注意 |
+| 資料來源 | 驗證 | 備忘稿 |
 | --- | --- | --- |
 | Azure SQL Database <br>Azure SQL 資料倉儲 | 基本、單一登入 (SSO)、OAuth2 |   |
+| Azure SQL 受控執行個體 | 基本 | 透過使用 Azure SQL Database 延伸模組的公用端點  |
 | Azure Analysis Services | SSO, OAuth2 |   |
 | Power BI 資料集 | SSO | Premium 和非 Premium Power BI 資料集 |
 | Premium Power BI 資料集 (XMLA) | SSO |   |

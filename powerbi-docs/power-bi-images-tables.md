@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2ebbc277f2a269ebaf2d1bdb99f1aa800576b466
-ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
+ms.openlocfilehash: cbb04057c8065e998068dd6520539c830a659f72
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "70936485"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715561"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>在報表中的表格、矩陣或交叉分析篩選器中顯示影像
 
@@ -44,7 +44,7 @@ ms.locfileid: "70936485"
 
 ## <a name="next-steps"></a>後續步驟
 
-[將靜態圖形、文字方塊和影像新增至報表](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=11)
+[頁面配置和格式設定](/learn/modules/visuals-in-power-bi/12-formatting)
 
 [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 

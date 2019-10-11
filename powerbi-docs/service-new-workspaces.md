@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750893"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715197"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 中組織新工作區中的工作
 
@@ -24,7 +24,7 @@ ms.locfileid: "70750893"
 新的工作區體驗已正式運作 (GA)，而且現在是預設工作區。 您仍然可以繼續根據 Office 365 群組建立並使用[傳統工作區](service-create-workspaces.md)。 
 
 > [!NOTE]
-> 若要強制執行資料列層級安全性 (RLS)，讓使用者瀏覽工作區中的內容，請使用檢視者角色。 如果尚無法在您的租用戶中使用檢視者角色，請繼續使用[傳統工作區](service-create-workspaces.md)，然後選取 [成員只能檢視 Power BI 內容]  選項。 或者，將 Power BI 應用程式發佈給這些使用者，或使用「共用」來散發內容。
+> 若要強制執行資料列層級安全性 (RLS)，讓使用者瀏覽工作區中的內容，請使用檢視者角色。 若要強制執行 RLS 而不授與工作區的存取權，請將 Power BI 應用程式發佈給這些使用者，或使用共用功能來散發內容。
 
 使用新的工作區，您可以：
 
@@ -73,11 +73,14 @@ Power BI 管理入口網站中[提供工作區清單](service-admin-portal.md#wo
 | 允許其他人再次共用項目。 |  X | X  |   |   |
 | 建立、編輯和刪除工作區中的內容。  |  X | X  | X  |   |
 | 將報表發佈至工作區、刪除內容。  |  X | X  | X  |   |
-| 根據此工作區中的資料集，在另一個工作區中建立報表。 |  X | X  | X  | X <sup>1</sup>  |
-| 複製報表。 | X | X | X | X <sup>1</sup> |
+| 根據此工作區中的資料集，在另一個工作區中建立報表。 |  X | X  | X  |   |
+| 複製報表。 | X | X | X |  |
 | 檢視項目並與其互動。 |  X | X  | X  | X  |
 
-**1** 需要 Power BI Pro 授權和[資料集的建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。 
+> [!NOTE]
+>若要複製報表，並根據此工作區中的資料集在另一個工作區中建立報表，則使用者必須符合其他條件：
+>- 使用者需具備 Power BI Pro 授權。 
+>- 使用者需具備資料集的建置權限。 針對此工作區中的資料集，具有「系統管理員」、「成員」和「參與者」角色的使用者可透過其工作區角色取得建置權限。
  
 ## <a name="licensing"></a>授權
 新增至共用容量中工作區的每個人都必須有 Power BI Pro 授權。 在工作區中，這些使用者皆可在儀表板和報表上共同作業，以準備發佈給更多對象，甚至整個組織。 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e001d35761eb7918aab2c427c3400df526e4dbc0
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 87a8333c89f2682640649e757984c6b02e10c3a8
+ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71192270"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "71691276"
 ---
 # <a name="arcgis-maps-in-power-bi-desktop-by-esri"></a>在 Power BI Desktop 中由 Esri 提供的 ArcGIS 地圖
 
@@ -333,6 +333,8 @@ ArcGIS Maps for Power BI 由 Esri (www.esri.com) 提供。 因此，您的 ArcGI
 
 如有 Esri 之 ArcGIS Maps for Power BI 運作方式的詳細技術性問題，請透過其支援網站與 Esri 聯繫。
 
+**哪些資料會傳送給 Esri？**
+您可以閱讀 Esri 的[文件](https://doc.arcgis.com/en/maps-for-powerbi/get-started/data-transfer.htm)，以了解哪些資料會傳輸給 Esri。
 
 **使用 ArcGIS Maps for Power BI 會產生任何費用嗎？**
 

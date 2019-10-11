@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d5ada41ef4941f14118b777e37e731337a5282d0
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730142"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715386"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop 中的量值
 
 **Power BI Desktop** 可協助您深入探索資料，只要按幾下滑鼠按鍵即可。 但有時候，資料並無法提供您解決一些重要問題所需的一切答案， 而量值可協助您達成目的。
 
-量值可用於一些最常見的資料分析。 您可以透過欄位資料設定簡易的摘要，例如加總、平均、最小值、最大值和計數，如 [Summarization and category](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16) (摘要及類別) 影片中所述。 您可以使用 DAX 公式自行建立更進階的計算。 量值的計算結果一律會隨著您與報表的互動而改變，以針對特定資料進行快速且動態的瀏覽。 以下將進一步說明。
+量值可用於一些最常見的資料分析。 您可以透過「欄位」來設定簡易的摘要，例如加總、平均、最小值、最大值和計數。 量值的計算結果一律會隨著您與報表的互動而改變，以針對特定資料進行快速且動態的瀏覽。 以下將進一步說明。 如需詳細資訊，請參閱[建立導出量值](/learn/modules/model-data-power-bi/4b-create-calculated-measures)。
 
 ## <a name="understanding-measures"></a>了解量值
 
