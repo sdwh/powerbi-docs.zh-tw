@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 50f78709ce7ce302ce79df5eb383af25f55d539a
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 1a46c1fb8e9f31bd5199fccfaecb16cece144b5a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471575"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72021038"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>在 Power BI 報表產生器中使用共用資料集
 
@@ -20,14 +20,14 @@ ms.locfileid: "68471575"
 
 ![Power BI Desktop 到報表產生器編頁報表](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-此資料集不一定要位於 Premium 容量的工作區中，因此您不需要是該工作區的成員。 您只需要擁有資料集的[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。 若要發佈編頁報表，您需要 Power BI Pro 授權。 針對 Premium 容量中的工作區，您還需要至少一個「參與者」角色。
+此資料集不一定要位於 Premium 容量的工作區中，因此您不需要是該工作區的成員。 您只需要擁有資料集的[建置權限](service-datasets-build-permissions.md)。 若要發佈編頁報表，您需要 Power BI Pro 授權。 針對 Premium 容量中的工作區，您還需要至少一個「參與者」角色。
 
 ## <a name="what-you-need"></a>必要條件
 
 以下是您在 Power BI 報表產生器中使用共用資料集時，需要和不需要的項目清單。
 
 - Power BI 報表產生器。 [下載及安裝 Power BI 報表產生器](https://go.microsoft.com/fwlink/?linkid=2086513)。
-- 若要存取 Power BI 資料集，您需要有該資料集的建置權限。 請參閱[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
+- 若要存取 Power BI 資料集，您需要有該資料集的建置權限。 請參閱[建置權限](service-datasets-build-permissions.md)。
 - 您不需要 Power BI Pro 授權，即可在報表產生器中建立編頁報表。 
 - 您需要有 Power BI Pro 授權，才能發佈編頁報表。 針對 Premium 容量中的工作區，您還需要至少一個「參與者」角色。 
 - 選擇性：如果您想要遵循本文的指示進行，請下載 Power BI Desktop [零售分析範例 .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) 檔案，在 Power BI Desktop 中開啟該檔案，然後新增包含許多資料行的資料表。 在 [格式]  窗格中，關閉 [總計]  。 然後將它發佈到 Power BI 服務中的工作區。
