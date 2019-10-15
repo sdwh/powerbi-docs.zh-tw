@@ -27,7 +27,7 @@ ms.locfileid: "61386285"
 
 名稱  |類型  |描述  |唯讀  |必要
 ---------|---------|---------|---------|---------
-識別碼     |  Guid       | 系統範圍的資料集唯一識別碼。        | True        | False        
+id     |  Guid       | 系統範圍的資料集唯一識別碼。        | True        | False        
 名稱     | 字串        | 使用者定義的資料集名稱。        | False        | True        
 資料表     | Table[]        | 資料表集合。        |  False       | False        
 關聯性     | Relationship[]        | 資料表之間的關聯性集合。        | False        |  False  
