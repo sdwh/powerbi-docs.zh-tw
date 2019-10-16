@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c60c3c29bbf87d7a5e18838dac0baa6157de6437
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530603"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020815"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>複製其他工作區的報表 (預覽)
 
@@ -32,7 +32,7 @@ ms.locfileid: "69530603"
 
     ![儲存報表複本](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
-    如果報表位在新體驗工作區中，而您有[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)，您只會看到**儲存複本**圖示。 即使您可以存取該工作區，您也必須有資料集的建置權限。
+    如果報表位在新體驗工作區中，而您有[建置權限](service-datasets-build-permissions.md)，您只會看到**儲存複本**圖示。 即使您可以存取該工作區，您也必須有資料集的建置權限。
 
 3. 在 [儲存此報表的複本]  中，為報表命名，然後選取目的地工作區。
 

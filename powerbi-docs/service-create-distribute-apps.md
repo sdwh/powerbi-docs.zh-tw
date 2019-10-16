@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305753"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020235"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
@@ -30,7 +30,7 @@ ms.locfileid: "71305753"
 - 您可以向他們傳送直接連結。
 - 如果 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。
 
-您可以建立具備內建瀏覽功能的應用程式，讓使用者可以在您內容中輕鬆找到他們的方式。 他們無法修改應用程式的內容。 但可以在 Power BI 服務或其中一個行動裝置應用程式中與其互動 - 自行篩選、醒目提示和排序資料。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 您也可以提供他們建置權限，讓他們連線到基礎資料集，並在應用程式中建立報表的複本。 深入了解[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
+您可以建立具備內建瀏覽功能的應用程式，讓使用者可以在您內容中輕鬆找到他們的方式。 他們無法修改應用程式的內容。 但可以在 Power BI 服務或其中一個行動裝置應用程式中與其互動 - 自行篩選、醒目提示和排序資料。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 您也可以提供他們建置權限，讓他們連線到底層資料集，並在應用程式中建立報表的複本。 深入了解[建置權限](service-datasets-build-permissions.md)。
 
 ## <a name="licenses-for-apps"></a>應用程式的授權
 您需要 Power BI Pro 授權才能建立或更新應用程式。 應用程式「取用者」  有兩個選項。
@@ -166,11 +166,11 @@ ms.locfileid: "71305753"
 - 在 Power BI Desktop 中以及 Power BI 服務內的 get-data 體驗中搜尋這些資料集。
 - 以這些資料集為基礎建立報表和儀表板。
 
-當您清除此選項時，您新增到應用程式的新使用者便不會取得建置權限。 但是，針對現有的應用程式使用者，基礎資料集上的權限不會變更。 您可以從不應繼續擁有該權限的應用程式使用者中手動移除建置權限。 深入了解[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
+當您清除此選項時，您新增到應用程式的新使用者便不會取得建置權限。 但是，針對現有的應用程式使用者，基礎資料集上的權限不會變更。 您可以從不應繼續擁有該權限的應用程式使用者中手動移除建置權限。 深入了解[建置權限](service-datasets-build-permissions.md)。
 
 ## <a name="allow-users-to-copy-reports"></a>允許使用者複製報表
 
-當您選取選項來 [允許使用者複製此應用程式中的報表]  時，使用者便可以將應用程式中任何報表儲存到他們的「我的工作區」或另一個工作區。 若要進行複製，使用者將需要 Pro 授權，即使原始報表位於 Premium 容量中的工作區也一樣。 他們接著可以根據其獨特需求自訂報表。 您必須先選取 [允許所有使用者使用建置權限連線到應用程式的基礎資料集]  選項。 透過選取這些選項，您便可以啟用新的[從其他工作區複製報表](service-datasets-copy-reports.md)功能。
+當您選取選項來 [允許使用者複製此應用程式中的報表]  時，使用者便可以將應用程式中任何報表儲存到他們的「我的工作區」或另一個工作區。 若要進行複製，使用者將需要 Pro 授權，即使原始報表位於 Premium 容量中的工作區也一樣。 他們接著可以根據其獨特需求自訂報表。 您必須先選取 [允許所有使用者使用組建權限來連線至應用程式的基礎資料集]  選項。 透過選取這些選項，您便可以啟用新的[從其他工作區複製報表](service-datasets-copy-reports.md)功能。
 
 ## <a name="unpublish-an-app"></a>解除發佈應用程式
 工作區的任何成員都可以解除發佈應用程式。

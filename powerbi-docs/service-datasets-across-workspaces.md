@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ace40fed472dc516cce5a761544cc5365566f3cd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e086cc89a24760bce0c4a45efd558dc47495bd04
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074117"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020780"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>跨工作區的資料集簡介 (預覽)
 
@@ -23,7 +23,7 @@ ms.locfileid: "71074117"
 
 ![選取共用資料集](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-在 Power BI 中，資料集建立者可以使用[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)，控制誰可以存取其資料。 資料集建立者也可以「認證」  資料集或將其「升階」  ，以利其他人探索。 那樣一來，報表作者便知道有哪些資料集是高品質且正式的，並可以在 Power BI 中撰寫時使用那些資料集。 租用戶系統管理員具有[跨工作區管理資料集使用方式](service-datasets-admin-across-workspaces.md)的新租用戶設定。
+在 Power BI 中，資料集建立者可以使用[建置權限](service-datasets-build-permissions.md)，控制誰可以存取其資料。 資料集建立者也可以「認證」  資料集或將其「升階」  ，以利其他人探索。 那樣一來，報表作者便知道有哪些資料集是高品質且正式的，並可以在 Power BI 中撰寫時使用那些資料集。 租用戶系統管理員具有[跨工作區管理資料集使用方式](service-datasets-admin-across-workspaces.md)的新租用戶設定。
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>資料集共用和新的工作區體驗
 
@@ -44,7 +44,7 @@ ms.locfileid: "71074117"
 
 ## <a name="build-permission-for-datasets"></a>資料集的建置權限
 
-使用建置權限類型時，如果您是資料集建立者，則可以判斷組織中的哪些人員可在資料集上建置新內容。 具有建置權限的人員也可以在 Power BI 外部的資料集上建置新內容，例如透過使用 Excel 分析、XMLA 和匯出的 Excel 工作表。 深入了解[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
+使用建置權限類型時，如果您是資料集建立者，則可以判斷組織中的哪些人員可在資料集上建置新內容。 具有建置權限的人員也可以在 Power BI 外部的資料集上建置新內容，例如透過使用 Excel 分析、XMLA 和匯出的 Excel 工作表。 深入了解[建置權限](service-datasets-build-permissions.md)。
 
 ## <a name="promotion-and-certification"></a>推廣與認證
 
@@ -54,19 +54,17 @@ ms.locfileid: "71074117"
 
 基於共用資料集功能所建置的特定功能和體驗，會根據其現有情況來授權。 例如：
 
-- 在一般情況下，任何人都可探索並連線至共用資料集。 不過，沒有具有 Pro 授權的使用者，只能連線至位於其個人「我的工作區」的資料集。
-- 如果這兩個工作區 (一個包含內容，另一個包含資料集) 裝載於 Premium 容量中，則沒有 Pro 授權的使用者只能取用依據共用資料集所建置報表和儀表板。
-- 在 Power BI Desktop 中，沒有 Pro 授權的使用者，只能看到其「我的工作區」中的資料集。
+- 在一般情況下，任何人都可探索並連線至共用資料集 - 它不是僅限進階版使用的功能。
+- 沒有 Pro 權限的使用者只能使用跨工作區的資料集進行報表編寫 (若那些資料集位於使用者的個人 [我的工作區] 或位於 Premium 支持的工作區)。 不論他們在 Power BI Desktop 或在 Power BI 服務中編寫報表，都適用相同的授權限制。
 - 在工作區之間複製報表需要 Pro 授權。
 - 從應用程式複製報表需要 Pro 授權，這是組織內容套件所需。
 - 將資料集升階和認證資料集需要 Pro 授權。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
+- 身為應用程式發行者，您必須確定您的對象可以存取應用程式工作區外的資料集。 否則，使用者在與您的應用程式互動時會發生問題：沒有資料集存取權將無法開啟報表，而且儀表板磚將會顯示為已鎖定。 使外，若使用者的瀏覽中的第一個項目是沒有資料集存取權的報表，使用者將無法開啟應用程式。
 - 在不同工作區的資料集上建置報表，需要兩端的新工作區體驗：報表必須位於新工作區體驗中，資料集也必須位於新工作區體驗中。
-- 假設您在工作區 A 中建立以工作區 B 資料集為基礎的報表。當您建立工作區 A 的應用程式時，如果您也是工作區 B 的成員，則只能在工作區 A 應用程式中包含該報表。
 - 在傳統工作區中，資料集探索體驗只會顯示該工作區中的資料集。
-- 如果您希望根據共用資料集將報表新增至應用程式，您必須是資料集工作區的成員。 這是已知的問題。
 - 根據設計，「發佈至 Web 」不適用於以共用資料集為基礎的報表。
 - 如果兩名人員是正在存取共用資料集之工作區的成員，則可能只有其中一個人可以在工作區中查看相關資料集。 只有對資料集具有最低讀取權限的人員，才能查看共用資料集。 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f3c72de197203adcad1020bc244ff0bc215e10bd
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164487"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020471"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>從 Power BI Desktop 連線到 Power BI 服務中的資料集
 您可在 Power BI 服務中建立連到共用資料集的即時連線，並從同一個資料集建立許多不同的報表。 這表示您可以在 Power BI Desktop 中建立完美的資料模型，並將它發佈到 Power BI 服務。 然後，您和其他人便可以從相同的通用資料模型建立多個不同報表 (分別位於不同的 .pbix 檔案中)，並儲存到不同的工作區。 這項功能稱為 **Power BI 服務即時連線**。
@@ -35,7 +35,7 @@ Power BI 的熱門程度帶來一項挑戰，也就是報表、儀表板及其�
 每個人都喜愛 Anna 的報表和資料集，但這就是問題所在。Anna 小組中每個人都嘗試建立「自己的」  資料集版本，然後與小組共用自己的報表。 於是小組在 **Power BI 服務**中的工作區，一下子就有了大量報表 (來自不同資料集)。 哪一個是最新的？ 資料集內容完全相同，或只是幾乎相同？ 差別在哪裡？ 有了 **Power BI 服務即時連線**功能，這一切問題都能迎刃而解。 在下一節中，我們會知道其他人可以如何在他們自己的工作區，並在自己的報表使用 Anna 發佈的資料集，以及讓所有人都能使用同一個穩固、通過檢驗且已發佈資料集來打造自己的獨特報表。
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>使用即時連線來連線到 Power BI 服務資料集
-Anna 建立報表 (並建立其依據的資料集)，然後將其發佈到 **Power BI 服務**，而它隨即顯示在 Power BI 服務的小組工作區中。 若 Anna 將它儲存到「新的體驗工作區」  ，Anna 便可以設定「建置」權限，讓每個進入和離開他們工作區的人都可以看到並使用。
+Anna 建立報表 (並建立其依據的資料集)，然後將其發佈到 **Power BI 服務**，而它隨即顯示在 Power BI 服務的小組工作區中。 若 Anna 將它儲存到「新的體驗工作區」  ，Anna 便可以設定「建置」權限，讓每個進入和離開其工作區的人都可以看到並使用。
 
 若要深入了解新的體驗工作區，請參閱[應用程式工作區](service-new-workspaces.md)。
 
@@ -76,7 +76,7 @@ Anna 可以從該處選擇報表和資料集要發佈的工作區目的地。 �
 
 現在您包含其資料集的報表已在 Power BI 服務中，您也可以「宣傳」  它，證明其品質和可靠性。 您甚至可以要求它通過您 Power BI 租用戶中中央授權單位的「認證」  。 透過這些保證，您的資料集便一律會在其他人尋找資料集時，出現在清單頂端。 若有興趣的話，您可以深入閱讀[宣傳您資料集](service-datasets-promote.md)流程。 
 
-最後一個步驟是為作為報表基礎的資料集設定「建置權限」  。 建置權限會決定誰可以看見及使用您的資料集。 您可以在工作區本身中設定它，或是在您從工作區共用應用程式時設定它。 深入了解設定[建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
+最後一個步驟是為作為報表基礎的資料集設定「建置權限」  。 建置權限會決定誰可以看見及使用您的資料集。 您可以在工作區本身中設定它，或是在您從工作區共用應用程式時設定它。 深入了解設定[建置權限](service-datasets-build-permissions.md)。
 
 接下來，我們來看看其他擁有報表 (和資料集) 發佈目標工作區存取權的團隊成員可以如何連線到資料集，及建立他們自己的報表。
 

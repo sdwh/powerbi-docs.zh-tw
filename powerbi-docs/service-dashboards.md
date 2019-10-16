@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/17/2019
+ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7ee083de9800b55c4f7d998a113c1a63df112b7b
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 269b495a41f193c6a2ba02fa75f171c3b5789689
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624032"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72019598"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 設計工具的儀表板簡介
 
@@ -29,9 +29,6 @@ Power BI 「儀表板」  是透過視覺效果來說故事的單一頁面，通
 
 您在儀表板上看到的視覺效果稱為「磚」  。 您會從報表將磚「釘選」  到儀表板。 如果您不熟悉 Power BI，請參閱 [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)來打好基礎。
 
-> [!IMPORTANT]
-> 您需要 [Power BI Pro](service-free-vs-pro.md) 授權，才能建立儀表板。
-
 儀表板上的視覺效果來自報表，而每份報表都是以一個資料集為基礎。 您可以將儀表板想成是進入基礎報表和資料集的一種方法。 選取視覺效果會帶您前往效果所依據的報表 (和資料集)。
 
 ![顯示儀表板、報表、資料集之間關聯性的圖表](media/service-dashboards/power-bi-diagram.png)
@@ -40,6 +37,13 @@ Power BI 「儀表板」  是透過視覺效果來說故事的單一頁面，通
 儀表板是很棒的方式，一眼就可以監視企業，以及查看所有最重要的計量。 儀表板上的視覺效果可以來自一或多個基礎資料集，以及來自一或多份基礎報表。 儀表板將內部部署和雲端的資料結合在一起，提供不受資料位置限制的合併檢視。
 
 儀表板不只是好看的圖片。 其具有高度互動性，且磚會隨著基礎資料變更來更新。
+
+## <a name="who-can-create-a-dashboard"></a>誰可以建立儀表板？
+能夠建立儀表板的能力視為「建立者」  功能，需要報表的編輯權限。 報表的建立者，以及由建立者授予存取權限的同事皆會有編輯權限。 例如，如果 David 在 workspaceABC 中建立報表，並將您新增為該工作區的成員，您和 David 都會有編輯權限。 反過來說，如果報表是直接與您共用，或是搭配 [Power BI 應用程式](service-create-distribute-apps.md)與您共用 (在此情況下，您是「取用」  該報表)。 您可能將無法將磚釘選到儀表板。 
+
+> [!IMPORTANT]
+> 您需要 [Power BI Pro](service-free-vs-pro.md) 授權，才能在工作區中建立儀表板。 您可以在您自己的 [我的工作區] 中建立儀表板，而不需要 Power BI Pro 授權。
+
 
 ## <a name="dashboards-versus-reports"></a>儀表板與報表
 [報表](service-reports.md)與儀表板看起來很相似，因為它們都是填滿視覺效果的畫布。 但有一些主要的差異，如下表所示。

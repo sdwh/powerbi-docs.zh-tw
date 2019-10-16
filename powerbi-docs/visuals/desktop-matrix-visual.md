@@ -10,17 +10,20 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2f50a6fc9fccc35333257caaf3efeb8185c8caff
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 0015921990bb35a7ac5e6652b018ef16485e5b9c
+ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390377"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "72164752"
 ---
 # <a name="use-the-matrix-visual-in-power-bi"></a>在 Power BI 中使用矩陣視覺效果
-**矩陣**視覺化類似於**資料表**。  資料表支援兩個維度，且資料是一般資料，這表示會顯示重複的值，並不會彙總。 矩陣可讓您更輕鬆地顯示跨多個維度 (支援分層式的配置) 資料，更具意義。 矩陣會自動彙總資料，並啟用向下鑽研。 
 
-您可以在 **Power BI Desktop** 和 **Power BI 服務**報表中建立矩陣視覺效果，並與該報表頁面上的其他視覺效果交叉醒目提示矩陣內的元素。 例如，您可以選取資料列、資料行，甚至是個別資料格，然後交叉醒目提示。 也可以將個別資料格和多個資料格的選取項目，複製及貼上到其他應用程式。 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+矩陣視覺效果類似於表格。  資料表支援兩個維度，且資料是一般資料，這表示會顯示重複的值，並不會彙總。 矩陣可讓您更輕鬆地顯示跨多個維度 (支援分層式的配置) 資料，更具意義。 矩陣會自動彙總資料，並啟用向下鑽研。 
+
+您可以在 **Power BI Desktop** 報表中建立矩陣視覺效果，並與該報表頁面上的其他視覺效果交叉醒目提示矩陣內的元素。 例如，您可以選取資料列、資料行，甚至是個別資料格，然後交叉醒目提示。 也可以將個別資料格和多個資料格的選取項目，複製及貼上到其他應用程式。 
 
 ![交叉醒目提示的矩陣和環圈圖](media/desktop-matrix-visual/matrix-visual_2a.png)
 
@@ -29,7 +32,7 @@ ms.locfileid: "67390377"
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>了解 Power BI 如何計算總和
 
-在開始了解如何使用**矩陣**視覺效果之前，務必先了解 Power BI 如何計算資料表和矩陣中的總和與小計值。 針對總和與小計資料列，Power BI 會根據基礎資料的所有資料列來評估量值，而不是僅僅加總可見或顯示資料列中的值。 這表示在總和資料列中，所得到的值可能會與您預期的不同。
+在開始了解如何使用矩陣視覺效果之前，務必先了解 Power BI 如何計算資料表和矩陣中的總和與小計值。 針對總和與小計資料列，Power BI 會根據基礎資料的所有資料列來評估量值，而不是僅僅加總可見或顯示資料列中的值。 這表示在總和資料列中，所得到的值可能會與您預期的不同。
 
 看看下列矩陣視覺效果。 
 
@@ -83,7 +86,7 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 請注意，出現的功能表中還有幾個選項會產生不同的結果：
 
-選取 [向下切入]  會展開「該」  資料列層級的矩陣，並「排除」  除了選取的資料列標題以外的所有其他資料列標題。 在下圖中，已選取 [提案]   > [向下切入]  。 請注意，其他最上層的資料列不會再出現於矩陣中。 這種向下切入的方式是很有用的功能，並且是 [交叉醒目提示]  區段中特別酷炫的功能。
+選取 [向下切入]  會展開「該」  資料列層級的矩陣，並「排除」  除了選取的資料列標題以外的所有其他資料列標題。 在下圖中，已選取 [提案]   > [向下切入]  。 請注意，其他最上層的資料列不會再出現於矩陣中。 這種向下切入的方式是很有用的功能，並且是 [交叉醒目提示] 區段中特別酷炫的功能。
 
 ![向下切入一個層級的矩陣](media/desktop-matrix-visual/power-bi-drill-down-matrix.png)
 
@@ -100,7 +103,7 @@ Watch the following video to learn more about expand/collapse in the matrix:
 ![對提案套用展開之後的矩陣](media/desktop-matrix-visual/power-bi-matrix-expand.png)
 
 ### <a name="drill-down-on-column-headers"></a>資料行標頭的向下切入
-類似於資料列的向下切入功能，您也可以在 [資料行]  上向下切入。 在下圖中，在 [資料行]  欄位中有兩個欄位，這會建立類似於本文稍早針對資料列所使用的階層。 在 [資料行]  欄位中，包含 [區域]  和 [區段]  。 第二個欄位新增至 [資料行]  之後，新的下拉式功能表便會顯示在視覺效果上，它目前會顯示 [資料列]  。
+類似於資料列的向下切入功能，您也可以在資料行上向下切入。 在下圖中，在 [資料行]  欄位中有兩個欄位，這會建立類似於本文稍早針對資料列所使用的階層。 在 [資料行]  欄位中，包含 [區域]  和 [區段]  。 第二個欄位新增至 [資料行]  之後，新的下拉式功能表便會顯示在視覺效果上，它目前會顯示 [資料列]  。
 
 ![新增第二個資料行值之後的矩陣](media/desktop-matrix-visual/power-bi-matrix-row.png)
 
@@ -108,7 +111,7 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 ![資料行的向下切入功能表](media/desktop-matrix-visual/power-bi-matrix-column.png)
 
-當您選取 [向下切入]  時，隨即顯示 [區域] > [東部]  資料行階層的下一個層級，在此情況下是 [商機計數]  。 其他區域會顯示，但會呈現灰色。
+當您選取 [向下切入]  時，隨即顯示 [區域] > [東部]  資料行階層的下一個層級，在此情況下是 [商機計數]  。 其他區域已隱藏。
 
 ![資料行向下切入一個層級的矩陣](media/desktop-matrix-visual/power-bi-matrix-column-drill.png)
 
@@ -119,21 +122,21 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>矩陣視覺效果的分層式配置
 
-[矩陣]  視覺效果會將階層中的子類別自動縮排在每個父系之下，此功能稱為**分層式配置**。
+矩陣視覺效果會將階層中的子類別自動縮排在每個父系之下，此功能稱為分層式配置。
 
-在矩陣視覺效果的原始版本中，子類別會顯示在完全不同的資料行中，並在視覺效果中佔用更多的空間。 下圖顯示原始 [矩陣]  視覺效果中的資料表；請注意，其子類別在不同的資料行中。
+在矩陣視覺效果的原始版本中，子類別會顯示在完全不同的資料行中，並在視覺效果中佔用更多的空間。 下圖顯示原始矩陣視覺效果中的資料表；請注意，其子類別在不同的資料行中。
 
 ![舊矩陣視覺效果的螢幕擷取畫面，子類別目錄顯示在個別資料行中。](media/desktop-matrix-visual/matrix-visual_14.png)
 
-在下圖中，您會看到 [矩陣]  視覺效果，並已啟用**分層式配置**。 請注意，[Computers]  類別已將其子類別 ([Computers Accessories]、[Desktops]、[Laptops]、[Monitors] 等) 稍微縮排，以提供更精簡的視覺效果。
+在下圖中，您會看到矩陣視覺效果，並已啟用分層式配置。 請注意，[Computers]  類別已將其子類別 ([Computers Accessories]、[Desktops]、[Laptops]、[Monitors] 等) 稍微縮排，以提供更精簡的視覺效果。
 
 ![目前矩陣的資料格式設定方式](media/desktop-matrix-visual/matrix-visual_13.png)
 
-您可以輕鬆地調整分層式配置設定。 選取 [矩陣]  視覺效果時，在 [視覺效果]  窗格的 [格式]  區段 (油漆滾筒圖示) 中，展開 [資料列標題]  區段。 您有兩個選項：[分層式配置]  切換選項 (將它開啟或關閉) 和 [逐步的配置縮排]  (以像素為單位指定縮排數量)。
+您可以輕鬆地調整分層式配置設定。 選取矩陣視覺效果時，在 [視覺效果]  窗格的 [格式]  區段 (油漆滾筒圖示) 中，展開 [資料列標題] 區段。 您有兩個選項：[分層式配置] 切換選項 (將它開啟或關閉) 和 [逐步的配置縮排] (以像素為單位指定縮排數量)。
 
 ![顯示分層式配置控制項的資料列標頭卡片](media/desktop-matrix-visual/power-bi-stepped-matrix.png)
 
-如果您關閉 [分層式配置]  ，Power BI 會將子類別顯示在另一個資料行中，而不是縮排在父系類別之下。
+如果您關閉 [分層式配置]，Power BI 會將子類別顯示在另一個資料行中，而不是縮排在父系類別之下。
 
 ## <a name="subtotals-with-matrix-visuals"></a>矩陣視覺效果的小計
 
@@ -141,7 +144,7 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 ![顯示總和與小計的矩陣](media/desktop-matrix-visual/matrix-visual_20.png)
 
-在 [視覺效果]  窗格的 [格式]  區段中，展開 [小計]  卡片，然後將 [資料列小計]  滑桿移至 [關閉]  。 當您這樣做時，不會顯示小計。
+在 [視覺效果] 窗格的 [格式] 區段中，展開 [小計]  卡片，然後將 [資料列小計] 滑桿移至 [關閉]  。 當您這樣做時，不會顯示小計。
 
 ![已關閉小計的矩陣](media/desktop-matrix-visual/matrix-visual_21.png)
 
@@ -149,16 +152,15 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>矩陣視覺效果的交叉醒目提示
 
-使用 [矩陣]  視覺效果，您可以選取矩陣中的任何元素作為交叉醒目提示的基礎。 在 [矩陣]  中選取一個資料行，Power BI 會醒目提示該資料行，就像是報表頁面上的任何其他視覺效果一樣。 這類的交叉亮顯功能，在選取各類視覺效果和資料點時尤為常見，因此 [矩陣]  也提供相同的功能。
+使用矩陣視覺效果，您可以選取矩陣中的任何元素作為交叉醒目提示的基礎。 在矩陣中選取一個資料行，Power BI 會醒目提示該資料行，就像是報表頁面上的任何其他視覺效果一樣。 這類的交叉亮顯功能，在選取各類視覺效果和資料點時尤為常見，因此矩陣視覺效果現在也提供相同的功能。
 
-此外，交叉醒目提示也可以使用 Ctrl + 按一下滑鼠左鍵。 例如，在下圖中，已從 [矩陣]  視覺效果選取子類別集合。 請注意，視覺效果中未選取的項目是如何呈現灰色的，以及頁面中的其他視覺效果，又是如何反映 [矩陣]  中所做出的選擇的。
+此外，交叉醒目提示也可以使用 Ctrl + 按一下滑鼠左鍵。 例如，在下圖中，已從矩陣視覺效果選取子類別集合。 請注意，視覺效果中未選取的項目是如何呈現灰色的，以及頁面中的其他視覺效果，又是如何反映矩陣視覺效果所做出的選擇的。
 
 ![矩陣視覺效果的螢幕擷取畫面，還有兩個其他的視覺效果，示範交叉醒目提示用的 Ctrl + 按一下功能。](media/desktop-matrix-visual/matrix-visual_16.png)
 
 ## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>複製 Power BI 中的值，以用於其他應用程式
 
 您的矩陣或資料表可能有想要在其他應用程式中使用的內容：Dynamics CRM、Excel 和其他 Power BI 報表。 在 Power BI 上按一下滑鼠右鍵，可以將單一資料格或資料格選取範圍複製到剪貼簿。 然後，貼到另一個應用程式。
-
 
 
 * 若要複製單一資料格的值，請選取資料格、按一下滑鼠右鍵，然後選擇 [複製值]  。 使用剪貼簿上未格式化的資料格的值，您現在可以將它貼至另一個應用程式。
@@ -175,8 +177,16 @@ Watch the following video to learn more about expand/collapse in the matrix:
 
     ![螢幕擷取畫面顯示 Excel 資料列和資料行，在其中已貼上值。](media/desktop-matrix-visual/power-bi-copy-selection.png)
 
+* 若要建立僅包含您選取之儲存格的視覺效果本身複本，請使用 CTRL 與滑鼠右鍵選取一或多個儲存格，然後選擇 [複製視覺效果] 
+
+    ![顯示複製視覺效果選項的螢幕擷取畫面](media/desktop-matrix-visual/power-bi-copy-visual.png)
+
+* 複本將會是另一個矩陣視覺效果，但只包含您複製的資料。
+
+    ![顯示複製視覺效果範例的螢幕擷取畫面](media/desktop-matrix-visual/power-bi-copy-visual-example.png)
+
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>矩陣視覺效果的網底和字型色彩
-透過 [矩陣] 視覺效果，[條件式格式設定]  (色彩、網底和資料橫條) 可以套用至資料格背景，甚至也能套用至文字和值本身。
+透過矩陣視覺效果，[條件式格式設定] \(色彩、網底和資料橫條\) 可以套用至資料格背景，甚至也能套用至文字和值本身。
 
 若要套用條件式格式設定，請選取矩陣視覺效果，然後開啟 [格式]  窗格。 展開 [條件式格式設定]  卡片，然後將 [背景色彩]  、[字型色彩]  或 [資料橫條]  的滑桿移至 [開啟]  。 開啟其中一個選項會顯示 [進階控制項]  連結，可讓您自訂色彩格式設定的色彩和值。
   

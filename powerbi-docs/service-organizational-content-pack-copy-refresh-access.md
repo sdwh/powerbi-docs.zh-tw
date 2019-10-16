@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c369d8f0d342aebcb3625b289472089412ef7cee
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 86fa7a7845686fd46e9d58ea138bdddd47a0a097
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61227709"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72019637"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>整理有序的內容套件：複製、重新整理及取得存取權
 
@@ -24,7 +24,7 @@ ms.locfileid: "61227709"
 建立內容套件與共用儀表板或對群組中的儀表板共同作業不同。 閱讀[應該如何共同作業和共用儀表板和報表？](service-how-to-collaborate-distribute-dashboards-reports.md)，來為您的情況決定最佳選項。
 
 > [!NOTE]
-> 您無法在新的工作區體驗預覽中建立或安裝組織內容套件。 如果您尚未開始，現在是將您的內容套件升級為應用程式的好時機。 深入了解[新的工作區體驗](service-create-the-new-workspaces.md)。
+> 您無法在新的工作區體驗中建立或安裝組織內容套件。 如果您尚未開始，現在是將您的內容套件升級為應用程式的好時機。 深入了解[新的工作區體驗](service-create-the-new-workspaces.md)。
 >
 
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>建立組織內容套件的複本

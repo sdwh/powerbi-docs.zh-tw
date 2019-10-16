@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 15f0ce3910261ed2902603ab7fb3f07f8b695d4c
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715197"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020674"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 中組織新工作區中的工作
 
@@ -79,7 +79,7 @@ Power BI 管理入口網站中[提供工作區清單](service-admin-portal.md#wo
 
 > [!NOTE]
 >若要複製報表，並根據此工作區中的資料集在另一個工作區中建立報表，則使用者必須符合其他條件：
->- 使用者需具備 Power BI Pro 授權。 
+>- 使用者需具備 Power BI Pro 授權。 請參閱下一節[授權](#licensing)以取得詳細資訊。
 >- 使用者需具備資料集的建置權限。 針對此工作區中的資料集，具有「系統管理員」、「成員」和「參與者」角色的使用者可透過其工作區角色取得建置權限。
  
 ## <a name="licensing"></a>授權
@@ -141,7 +141,7 @@ Power BI 會稽核新工作區體驗工作區的下列活動。
 - 成員可以或無法再次共用：取代為「參與者」角色
 - 唯讀工作區：無需將工作區的唯讀存取權授與使用者，請將使用者指派給檢視者角色，這會允許工作區中內容的類似唯讀存取權。
 - 如果工作區在 Power BI Premium 容量中，則沒有 Pro 授權的使用者可以存取工作區，即使使用者只有檢視者角色也一樣。
-- 若要允許具有檢視者角色的使用者匯出資料，請確定他們對工作區中的資料集具有建置權限。 深入閱讀[資料集的建置權限](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)。
+- 若要允許具有檢視者角色的使用者匯出資料，請確定他們對工作區中的資料集具有建置權限。 深入閱讀[資料集的建置權限](service-datasets-build-permissions.md)。
 - 沒有 [離開工作區]  按鈕。
 
 ## <a name="frequently-asked-questions"></a>常見問題集

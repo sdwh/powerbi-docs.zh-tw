@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 83e3ffbae43d25e89cf52077acaa731cdee9b502
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270837"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020789"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料來源
 

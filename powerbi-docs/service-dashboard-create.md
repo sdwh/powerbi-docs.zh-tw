@@ -10,49 +10,46 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: b50d247f54cfe2af4cefbd14b9528b1dfa263acf
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624302"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020333"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>從報表建立 Power BI 儀表板
 您已閱讀 [Power BI 的儀表板簡介](service-dashboards.md)，現在想要建立自己的儀表板。 建立儀表板的方式有很多種。 例如，您可以建立儀表板：從報表、從頭建立、從資料集、或複製現有的儀表板。  
 
-由於在首次接觸時，這可能會令人望而生畏，因此我們會從建立可釘選已建置報表視覺效果的快速簡單儀表板開始。 
+我們會從建立可釘選已建置報表視覺效果的快速簡單儀表板開始。 
 
-完成本快速入門之後，您就能充分了解：
+完成此文章之後，您就能充分了解：
 - 儀表板和報表之間的關聯性
 - 如何在報表編輯器中開啟編輯檢視
 - 如何釘選磚 
 - 如何在儀表板與報表之間巡覽 
-
-## <a name="who-can-create-a-dashboard"></a>誰可以建立儀表板？
-能夠建立儀表板的能力視為「建立者」  功能，需要報表的編輯權限。 報表的建立者，以及由建立者授予存取權限的同事皆會有編輯權限。 例如，如果 David 在 workspaceABC 中建立報表，並將您新增為該工作區的成員，您和 David 都會有編輯權限。 反過來說，如果報表是直接與您共用，或是搭配 [Power BI 應用程式](service-create-distribute-apps.md)與您共用 (在此情況下，您是「取用」  該報表)，您將無法將磚釘選到儀表板上。
  
 ![儀表板](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 > [!NOTE] 
-> 儀表板是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 雖然 Power BI 行動裝置無法建立儀表板，但可以[檢視及共用](consumer/mobile/mobile-apps-view-dashboard.md)儀表板。
+> 儀表板是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 雖然您無法在 Power BI 行動裝置應用程式中建立儀表板，但可以在該處[檢視和共用](consumer/mobile/mobile-apps-view-dashboard.md)儀表板。
 >
 > 
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>影片：從報表釘選視覺效果和影像來建立儀表板
-觀看 Amanda 釘選報表的視覺效果，建立新的儀表板。 然後使用 [採購分析] 範例，遵循[匯入包含報表的資料集](#import-a-dataset-with-a-report)中步驟來親自嘗試。
+觀看 Amanda 釘選報表的視覺效果，建立新的儀表板。 然後使用 [採購分析] 範例，遵循下一節[匯入包含報表的資料集](#import-a-dataset-with-a-report)中的步驟來親自嘗試。
     
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="import-a-dataset-with-a-report"></a>匯入資料集與報表
-我們會匯入其中一個 Power BI 範例資料集，並用它建立新的儀表板。 要使用的範例是具有兩份 PowerView 工作表的 Excel 活頁簿。 當 Power BI 匯入活頁簿時，會將資料集以及報表新增至您的工作區。 從 PowerView 工作表自動建立報表。
+在此逐步解說中，我們會匯入其中一個 Power BI 範例資料集，並用它建立新的儀表板。 我們使用的範例是具有兩份 PowerView 工作表的 Excel 活頁簿。 當 Power BI 匯入活頁簿時，會將資料集以及報表新增至您的工作區。 從 PowerView 工作表自動建立報表。
 
-1. 下載 [採購分析] 範例 [Excel 檔案](http://go.microsoft.com/fwlink/?LinkId=529784)。 建議您將它儲存在您的商務用 OneDrive 中。
+1. 下載 [[採購分析] 範例](http://go.microsoft.com/fwlink/?LinkId=529784)Excel 檔案。 建議您將它儲存在您的商務用 OneDrive 中。
 2. 在瀏覽器中開啟 Power BI 服務 (app.powerbi.com)。
 3. 從左邊的 [瀏覽] 窗格中，選取 [我的工作區]  然後選取 [取得資料]  。
 
-    ![左側瀏覽窗格](media/service-dashboard-create/power-bi-get-data3.png)
-5. 選取 [檔案]  。
+    ![左側瀏覽窗格](media/service-dashboard-create/power-bi-get-data-new-look.png)
+5. 在 [檔案]  下選取 [取得]  。
 
    ![取得檔案](media/service-dashboard-create/power-bi-select-files.png)
 6. 瀏覽至您儲存採購分析範例 Excel 檔案的位置。 選取它並選擇 [連接]  。
@@ -64,6 +61,9 @@ ms.locfileid: "68624302"
 8. 出現成功訊息時，選取 **x** 將其關閉。
 
    ![成功訊息](media/service-dashboard-create/power-bi-view-datasetnew.png)
+
+> [!TIP]
+> 您知道嗎？ 您可以透過選取頂端具有三條線的圖示![瀏覽窗格顯示或隱藏圖示](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)來縮小左瀏覽列。 這樣可讓報表本身有更多空間可用。
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>開啟報表並將磚釘選到您的儀表板上
 1. 在相同的工作區中，選取 [報表]  索引標籤，然後選取 [採購分析範例]  以開啟報表。

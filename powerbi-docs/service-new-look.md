@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654930"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239947"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 服務的「新外觀」
 
-Power BI 服務 (app.powerbi.com) 有新的外觀，可讓您更輕鬆地檢視報表並與其互動。 新外觀是一種更簡單的新式體驗，其建構在您熟悉其他 Microsoft 產品的基礎之上。 在 Power BI 服務中，我們藉由切換至較淺的色彩主題並更新圖示，讓報表內容成為主要焦點。 以下概述新外觀中的變更項目。 如需詳細資料，請參閱編號章節：
+Power BI 服務 (app.powerbi.com) 有新的外觀，可讓您更輕鬆地檢視報表並與其互動。 新外觀更簡潔，而且建構在您熟悉的其他 Microsoft 產品基礎之上。 在 Power BI 服務中，我們藉由切換至較淺的色彩主題並更新圖示，讓報表內容成為主要焦點。 以下概述新外觀中的變更項目。 如需詳細資料，請參閱編號章節：
 
 ![新外觀的變更總覽](media/service-new-look/power-bi-new-look-changes.png)
+
+在找特定的動作嗎？ 請參閱[「新外觀」：動作跑到哪裡了？](service-new-look-where-actions.md)
 
 ## <a name="quick-tour-of-the-changes"></a>變更的快速導覽
 
@@ -70,7 +72,7 @@ Power BI 服務 (app.powerbi.com) 有新的外觀，可讓您更輕鬆地檢視�
 
 ## <a name="6-new-filter-experience"></a>6.新的篩選體驗
 
-根據預設，新外觀提供了最近的更新，例如檢視套用的篩選和新增篩選窗格。 即使報表設計工具尚未升級至新的篩選體驗，您還是會看到新的篩選窗格。
+根據預設，新外觀提供了最近的更新，例如檢視套用的篩選和新增篩選窗格。 即使您的報表設計工具尚未升級至新的篩選體驗，您還是會看到新的篩選窗格。
 
 ![篩選重述](media/service-new-look/power-bi-new-look-filters.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5385512e534d866a2474fd4e3def10f45d52a1a0
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903948"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020255"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>在 Power BI 中建立傳統工作區
 
@@ -90,11 +90,11 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 * 商務使用者在安裝內容組件之後失去其群組身分識別︰它只是與其他儀表板和報表穿插的儀表板和報表清單。 相反地，應用程式會維護其群組和身分識別，即使在安裝之後也是一樣。 這種分組可讓商務使用者在經過一段時間之後仍可輕鬆地繼續進行導覽。
 * 您可以從任何工作區建立多個內容套件，但應用程式與其工作區具有 1:1 關聯性。 
 * 經過一段時間之後，我們計劃要淘汰組織內容套件，因此建議您從現在開始建立應用程式。  
-* 使用新的工作區體驗預覽，我們對淘汰組織內容套件邁出第一步。 您無法在預覽工作區中使用或建立它們。
+* 使用新的工作區體驗，我們對淘汰組織內容套件邁出第一步。 您無法在新工作區中取用或建立它們。
 
 請參閱[新的工作區與現有工作區有何不同](service-new-workspaces.md#how-the-new-workspaces-are-different)，以比較兩者。 
 
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI 中安裝和使用應用程式](service-create-distribute-apps.md)
-- [建立新的工作區 (預覽)](service-create-the-new-workspaces.md)
+- [建立新的工作區](service-create-the-new-workspaces.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)

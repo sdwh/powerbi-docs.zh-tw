@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62bec222a3f948612db63c386e10c0afe9762bb4
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d83a57b2b1f8e2ca0887f2432f2de43647900b81
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721417"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020628"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>移除與 Power BI 組織內容套件的連接
 
 > [!NOTE]
-> 您無法在新的工作區體驗預覽中建立組織內容套件或加以安裝。 如果您尚未開始，現在是將您的內容套件升級為應用程式的好時機。 深入了解[新的工作區體驗](service-create-the-new-workspaces.md)。
+> 您無法在新的工作區體驗中建立組織內容套件或加以安裝。 如果您尚未開始，現在是將您的內容套件升級為應用程式的好時機。 深入了解[新的工作區體驗](service-create-the-new-workspaces.md)。
 > 
 
 假設有位同事建立了內容套件， 您在 AppSource 中找到了該套件，並將其新增到您的 Power BI 工作區中。 現在，您不再需要該套件了。  該如何移除呢？

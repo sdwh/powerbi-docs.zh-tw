@@ -2,20 +2,20 @@
 title: jPower BI Premium 中的查詢快取
 description: jPower BI Premium 中的查詢快取
 author: KesemSharabi
-ms.author: maggies
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/16/2019
+ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 489069df43d2c09f6f5551987a61353e095aff7a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6e68f515581d62b544f1c6b17144e73ea709a62d
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076163"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020490"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Power BI Premium/Embedded 中的查詢快取
 
@@ -26,13 +26,13 @@ ms.locfileid: "71076163"
 
 快取的查詢結果特定於使用者和資料集內容，且一律遵循安全性規則。 目前，服務僅會對您登陸的初始頁面進行查詢快取。 換句話說，當您與報表互動時，查詢並不會快取。 查詢快取涉及[個人書籤](consumer/end-user-bookmarks.md#personal-bookmarks)和[永續性篩選](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)，因此會快取個人化報表所產生的查詢。 查詢完成快取後，由相同查詢提供的[儀表板圖格](service-dashboard-tiles.md)也會受益。 頻繁存取資料集且不需要經常重新整理時，會特別有益於效能。 查詢快取也可以減少查詢總數來降低 Premium/Embedded 容量的負載。
 
-您可以在 Power BI 服務中資料集的 [設定]  頁面上控制查詢快取行為。 有兩個可能的設定：
+您可以在 Power BI 服務中資料集的 [設定]  頁面上控制查詢快取行為。 有三個可能的設定：
 
+- **容量預設**：查詢快取關閉
 - **關閉**：不為此資料集使用查詢快取。
-
 - **開啟**：為此資料集使用查詢快取。
 
-![查詢快取對話方塊](media/power-bi-query-caching/power-bi-query-caching.png)
+    ![查詢快取對話方塊](media/power-bi-query-caching/power-bi-query-3-options.png)
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 

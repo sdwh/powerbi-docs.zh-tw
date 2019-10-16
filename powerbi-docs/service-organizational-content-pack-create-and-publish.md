@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d48214cffcc17da9c105f7277b721c03946d5c2
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961751"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020666"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>教學課程：建立及發佈 Power BI 組織內容套件
 
@@ -26,7 +26,7 @@ ms.locfileid: "68961751"
 建立組織內容套件需要用到您和同事的 [Power BI Pro 帳戶](https://powerbi.microsoft.com/pricing)。
 
 > [!NOTE]
-> 您無法在新的工作區體驗預覽中建立或安裝組織內容套件。 如果您尚未開始，現在是將內容套件升級為應用程式的好時機。 深入了解[新的工作區體驗](service-create-the-new-workspaces.md)。
+> 您無法在新的工作區體驗中建立或安裝組織內容套件。 如果您尚未開始，現在是將內容套件升級為應用程式的好時機。 深入了解[新的工作區體驗](service-create-the-new-workspaces.md)。
 
 ## <a name="create-and-publish-a-content-pack"></a>建立並發佈內容套件
 

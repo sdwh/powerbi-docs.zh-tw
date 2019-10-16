@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cbca162348092d9d03bef03199c63113ec487165
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 86b7a5e93183c06d6cac1445cb1702edde5d4bc9
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226206"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020600"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和刪除組織內容套件
 > [!NOTE]
-> 您無法在新的工作區體驗預覽中建立組織內容套件或加以安裝。 如果您尚未開始，現在是將您的內容套件升級為應用程式的好時機。 深入了解[新的工作區體驗](service-create-the-new-workspaces.md)。
+> 您無法在新的工作區體驗中建立組織內容套件或加以安裝。 如果您尚未開始，現在是將您的內容套件升級為應用程式的好時機。 深入了解[新的工作區體驗](service-create-the-new-workspaces.md)。
 > 
 
 您可以將您的儀表板、報表、Excel 活頁簿和資料集封裝為[組織內容套件](service-organizational-content-pack-introduction.md)，並與您的同事共用。 您的同事可以直接加以使用，或是建立自己的複本。
