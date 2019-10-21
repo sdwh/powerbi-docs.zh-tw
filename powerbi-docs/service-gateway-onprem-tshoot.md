@@ -7,15 +7,15 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6a846a0588aff7dd52e725bfed1435276730e2a3
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: bfb0546771331e13f3703de0afdbcad6c3219f9c
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757698"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543827"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>針對閘道進行疑難排解 - Power BI
 
@@ -31,7 +31,7 @@ ms.locfileid: "68757698"
 
 ## <a name="data-sources"></a>資料來源
 
-### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>錯誤：無法連線。 詳細資料：[連接認證無效]
+### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>錯誤：無法連線。 詳細資料:[連接認證無效]
 
 在 [顯示詳細資料]  中，會顯示從資料來源收到的錯誤訊息。 若是 SQL Server，您會看到類似如下的訊息：
 
@@ -39,7 +39,7 @@ ms.locfileid: "68757698"
 
 請確認您擁有正確的使用者名稱和密碼。 另請確認這些認證可成功連接到資料來源。 請確定使用的帳戶符合驗證方法。
 
-### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>錯誤：無法連線。 詳細資料：「無法連線到資料庫」
+### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>錯誤：無法連線。 詳細資料:「無法連線到資料庫」
 
 您可以連線到伺服器，但無法連線到提供的資料庫。 請確認資料庫的名稱，以及使用者認證具有存取該資料庫的適當權限。
 
@@ -47,7 +47,7 @@ ms.locfileid: "68757698"
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
-### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>錯誤：無法連線。 詳細資料：「資料閘道發生不明錯誤」
+### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>錯誤：無法連線。 詳細資料:「資料閘道發生不明錯誤」
 
 這個錯誤可能有數個不同的發生原因。 請務必驗證您可以從裝載閘道的電腦連線到資料來源。 這種情況可能是由於無法存取伺服器所致。
 
@@ -55,7 +55,7 @@ ms.locfileid: "68757698"
 
 您也可以查看 [事件記錄檔]   > [應用程式及服務記錄檔]   > [內部部署資料閘道服務]  ，以取得詳細資訊。
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>錯誤：嘗試連線至 \<伺服器\> 時發生錯誤。 詳細資料：[已連線到資料閘道，但該閘道無法存取內部部署資料來源。]
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>錯誤：嘗試連線至 \<伺服器\> 時發生錯誤。 詳細資料:[已連線到資料閘道，但該閘道無法存取內部部署資料來源。]
 
 您無法連線到指定的資料來源。 請務必驗證為該資料來源提供的資訊。
 
