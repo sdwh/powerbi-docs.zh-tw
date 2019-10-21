@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f81517bf4d7857b5c86b4fd8d801e989abb0399b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a1726919ff1696b95c7f4558749155301ef211b1
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514483"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543954"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>對 Power BI Desktop 的登入進行疑難排解
 當您嘗試登入 **Power BI Desktop** 時，有時可能會遇到錯誤。 登入問題有兩個主要原因：**Proxy 驗證錯誤**和**非 HTTPS URL 重新導向錯誤**。 

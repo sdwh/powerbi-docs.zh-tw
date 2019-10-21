@@ -6,17 +6,20 @@ manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/22/2019
+ms.date: 10/18/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0b4da978687afbafcc7f0d48b6df220b240a507f
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: 5383b06bbc40953ea9f4322562190b6a7b29db14
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207601"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589432"
 ---
 # <a name="what-are-bookmarks"></a>什麼是書籤？
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 書籤會擷取目前設定的報表頁面檢視，包括篩選、交叉分析篩選器，以及視覺效果的狀態。 當您選取書籤時，Power BI 會將您帶回到該檢視。 有兩種類型的書籤：您自行建立的書籤和由報表「設計師」  建立的書籤。
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用書籤來共用深入解析並建立故事 

@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 2203e3a9abddb52902c09fdc98665ba013f604ee
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 84afdf7072241533bf1e70d6a2a49d18c3da1d8f
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946224"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307835"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>取得 Power BI 視覺效果認證
 
@@ -31,7 +31,7 @@ ms.locfileid: "71946224"
 
 **未經認證的 Power BI 視覺效果**不一定不安全。 有些視覺效果未經過認證，因為它們不符合一或多個[認證需求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)。 例如，連接到地圖視覺效果或使用商業程式庫的視覺效果等外部服務。
 
-您是否為 Web 開發人員，而且有興趣建立自己的視覺效果並將其新增至  **[Microsoft AppSource](https://appsource.microsoft.com)** ？ 若要了解做法，請參閱 **[開發 Power BI 自訂視覺效果](developer/custom-visual-develop-tutorial.md)** 。
+您是否為 Web 開發人員，而且有興趣建立自己的視覺效果並將其新增至  **[Microsoft AppSource](https://appsource.microsoft.com)** ？ 若要了解做法，請參閱 **[開發 Power BI 自訂視覺效果](developer/visuals/custom-visual-develop-tutorial.md)** 。
 
 ## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>移除 Power BI 經認證的 Power BI 視覺效果
 
@@ -196,7 +196,7 @@ Microsoft 可自行斟酌將視覺效果自[認證清單](#list-of-power-bi-visu
 
 ## <a name="next-steps"></a>後續步驟
 
-* [Developing a Power BI custom visual](developer/custom-visual-develop-tutorial.md) (開發 Power BI 自訂視覺效果)
+* [Developing a Power BI custom visual](developer/visuals/custom-visual-develop-tutorial.md) (開發 Power BI 自訂視覺效果)
 * [YouTube 上的 Microsoft 自訂視覺效果播放清單](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Power BI 中的視覺效果](visuals/power-bi-report-visualizations.md)  
 * [Power BI 中的自訂視覺效果](power-bi-custom-visuals.md)  

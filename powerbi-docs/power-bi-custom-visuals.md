@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a782726e34bec4d6a5b8557c88178d469f7987b6
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a8b1be9157fa34e9ed4c987628f0b67624b4c826
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946183"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307485"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 的視覺效果
 
@@ -57,7 +57,7 @@ Power BI 系統管理員可以將 Power BI 視覺效果部署到組織中，讓�
 Power BI 經認證視覺效果是已通過額外嚴格品質測試的 Marketplace 視覺效果，且支援額外的使用案例，例如[電子郵件訂閱](service-report-subscribe.md)以及[匯出至 PowerPoint](service-publish-to-powerpoint.md)。
 若要查看已認證的 Power BI 視覺效果清單，或提交您自己的視覺效果，請參閱[經認證的 Power BI 視覺效果](power-bi-custom-visuals-certified.md)。
 
-您是否為 Web 開發人員，而且有興趣將自己建立的視覺效果發佈到 AppSource 呢？ 請參閱[開發 Power BI 自訂視覺效果](developer/custom-visual-develop-tutorial.md)，並了解如何[將 Power BI 視覺效果發佈至 AppSource](developer/office-store.md)。
+您是否為 Web 開發人員，而且有興趣將自己建立的視覺效果發佈到 AppSource 呢？ 請參閱[開發 Power BI 自訂視覺效果](developer/visuals/custom-visual-develop-tutorial.md)，並了解如何[將自訂視覺效果發佈至 AppSource](developer/office-store.md)。
 
 ### <a name="import-a-custom-visual-from-a-file"></a>從檔案匯入自訂視覺效果
 
