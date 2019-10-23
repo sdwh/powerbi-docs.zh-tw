@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ff962335b573c6dd2a03ae5ab4633c1042a77059
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5a4c385b9c8e8a28de3b9a5e1dd84651f87ef000
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770787"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72542996"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 服務中的設計工具基本概念
 
@@ -33,10 +33,11 @@ ms.locfileid: "64770787"
 3. Power BI 首頁按鈕
 4. 圖示按鈕，包括設定、說明與意見反應
 5. 搜尋方塊
-6. 我的最愛儀表板磚
-7. 我的最愛與常用儀表板和報表
+6. 我的最愛與常用儀表板、報表和工作區
+7. 我的最愛與常用儀表板、報表和工作區
+8. 您的工作區
 
-在瀏覽器中，您報表和儀表板的終端使用者會在 Power BI 服務中獲得相同的開始體驗。
+在瀏覽器中，您和您報表與儀表板的終端使用者會在 Power BI 服務中獲得相同的開始體驗。
 
 我們稍後會深入探討這些功能，不過首先來看 Power BI 的一些概念。 或者，您也可以先觀賞這段影片。  在影片中，Will 會檢閱基本概念，並介紹 Power BI 服務。
 
@@ -195,8 +196,8 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
 
 一旦您開始輸入問題，問與答就會帶您前往問與答的頁面。 您在輸入時，問與答會以修改措辭、自動填入、建議及更多方式，協助您詢問適當的問題並找尋最佳解答。 如果有您喜歡的視覺效果 (解答)，請予以釘選到您的儀表板中。 如需詳細資訊，請參閱 [Power BI 中的問與答](power-bi-q-and-a.md)。
 
-### <a name="4-icon-buttons"></a>4.**圖示按鈕**
-右上角的圖示為您的資源，可供您設定、通知、下載、取得說明，並將意見反應提供給 Power BI 小組。 選取雙箭頭以 [全螢幕]  模式開啟儀表板。  
+### <a name="4-icons-in-the-black-header-bar"></a>4.**黑色標題列中的圖示**
+右上角的圖示為您的資源，可供您設定、通知、下載、取得說明、開啟或關閉**新外觀**，並將意見反應提供給 Power BI 小組。  
 
 ![圖示按鈕](media/service-basic-concepts/power-bi-icons.png)
 
@@ -217,8 +218,8 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
 
    ![服務中的「Power BI」](media/service-basic-concepts/version-new.png)
 
-### <a name="8-labeled-icon-buttons"></a>8.**加上標籤的圖示按鈕**
-螢幕的這個區域包含與內容互動 (在此例中，與儀表板互動) 的其他選項。  除了您可以看到之加上標籤的圖示，選取省略符號可顯示用於複製、列印、重新整理儀表板等選項。
+### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8.**灰色功能表列中標示的圖示**
+螢幕的這個區域包含與內容互動 (在此例中，與儀表板互動) 的其他選項。  除了您可以看到之加上標籤的圖示，選取 [更多選項 (...)]  可顯示用於複製、列印、重新整理儀表板等選項。
 
    ![加上標籤的圖示按鈕](media/service-basic-concepts/power-bi-labeled-icons.png)
 

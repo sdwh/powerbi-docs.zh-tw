@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: da7652556bc11e47cf238dd969ae1b27e6387299
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: be2304e655adadf20f5d33f46840c5a0cb82aa9f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968790"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544675"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>將篩選加入 Power BI 報表
 
@@ -51,11 +51,12 @@ Power BI 提供許多不同種類的篩選條件，從手動和自動到鑽研�
 * 篩選某個視覺效果已使用的欄位。
 * 識別視覺效果尚未使用的欄位，並將該欄位直接新增至 [視覺效果層級篩選]  貯體。
 
-順帶一提，此程序使用零售分析範例，您可以視需要下載並跟著操作。 下載[零售分析範例](sample-retail-analysis.md)。
+
+順帶一提，此程序使用零售分析範例，您可以視需要下載並跟著操作。 下載[零售分析範例](sample-retail-analysis.md#get-the-content-pack-for-this-sample)內容套件。
 
 ### <a name="filter-the-fields-in-the-visual"></a>篩選視覺效果中的欄位
 
-1. 選取 [編輯報表]  以在 [編輯] 檢視中開啟報表。
+1. 選取 [更多選項 (...)]   > [編輯報表]  以在 [編輯] 檢視中開啟您的報表。
    
    ![[編輯報表] 按鈕](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
@@ -85,7 +86,7 @@ Power BI 提供許多不同種類的篩選條件，從手動和自動到鑽研�
 
 現在，讓我們將新欄位以視覺效果層級篩選形式新增至視覺效果。
    
-1. 從 [欄位] 窗格選取您要新增為新視覺效果層級篩選的欄位，並將它拖曳到 [視覺效果層級篩選]  區域。  在此範例中，我們會將 [區域經理]  拖曳至 [視覺效果層級篩選]  貯體，搜尋 **an**，然後選取那三個經理。 
+1. 從 [欄位] 窗格選取您要新增為新視覺效果層級篩選的欄位，並將它拖曳到 [視覺效果層級篩選]  區域。  在此範例中，我們會將 [區域經理]  拖曳至 [視覺效果層級篩選]  貯體，搜尋 **an**，然後選取那三個經理。
      
     ![將欄位新增至 [篩選] 窗格](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
@@ -105,7 +106,9 @@ Power BI 提供許多不同種類的篩選條件，從手動和自動到鑽研�
 
 您也可以新增頁面層級篩選條件，以篩選整個頁面。
 
-1. 選取 [編輯報表]  以在 [編輯] 檢視中開啟報表。
+1. 在 Power BI 服務中，開啟 [零售分析] 報表，然後移至 [區域每月銷售額]  頁面。 
+
+2. 選取 [...]   > [編輯報表]  以在 [編輯] 檢視中開啟您的報表。
    
    ![[編輯報表] 按鈕](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. 開啟 [視覺效果和篩選] 窗格和 [欄位] 窗格 (如果尚未開啟的話)。
@@ -122,19 +125,21 @@ Power BI 提供許多不同種類的篩選條件，從手動和自動到鑽研�
 使用 Power BI 服務和 Power BI Desktop 中的鑽研，您可以建立「目的地」  報表分頁，著重於特定的實體 - 例如供應商、客戶或製造商。 現在，使用者可以從其他報表分頁以滑鼠右鍵按一下該實體的資料點，就會鑽研至焦點分頁。
 
 ### <a name="create-a-drillthrough-filter"></a>建立鑽研篩選
-若要跟著做，請下載[客戶獲利率範例](sample-customer-profitability.md)。 假設您想要一個著重於主管業務區域的分頁。
+若要跟著做，請下載[客戶獲利率範例](sample-customer-profitability.md#get-the-content-pack-for-this-sample)。 假設您想要一個著重於主管業務區域的分頁。
 
-1. 選取 [編輯報表]  以在 [編輯檢視] 中開啟報表。
+1. 在 Power BI 服務中，開啟 [零售分析] 報表，然後移至 [區域每月銷售額]  頁面。
+
+2. 選取 [更多選項 (...)]   > [編輯報表]  以在 [編輯] 檢視中開啟您的報表。
    
    ![[編輯報表] 按鈕](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
 1. 將新分頁新增至報表，並將其命名為「小組主管」  。 這個分頁將會是鑽研「目的地」  。
 2. 新增視覺效果，該視覺效果會追蹤小組主管業務區域的關鍵計量。    
-3. 將 [主管 > 主管姓名]  新增至鑽研篩選。    
+3. 從 [主管]  資料表，將 [主管]  拖曳至鑽研篩選。    
    
     ![將值新增至鑽研篩選條件](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
    
-    請注意，Power BI 會將上一步箭頭新增至報表分頁。  選取上一步箭頭讓使用者返回「來源」  報表分頁 -- 使用者選擇鑽研時所在的分頁。 上一步箭頭只適用於 [閱讀] 檢視。
+    請注意，Power BI 會將上一步箭頭新增至報表分頁。  選取上一步箭頭讓使用者返回「來源」  報表分頁 -- 使用者選擇鑽研時所在的分頁。 在 [編輯] 檢視中，按住 Ctrl 鍵以選取上一步箭頭
    
      ![上一步箭頭](media/power-bi-report-add-filter/power-bi-back-arrow.png)
 
@@ -145,7 +150,7 @@ Power BI 提供許多不同種類的篩選條件，從手動和自動到鑽研�
 2. 假設您是 Andrew Ma，而且您想要查看 [小組主管] 報表分頁篩選為只有您的資料。  從左上方區域圖表，以滑鼠右鍵按一下任何綠色的資料點，以開啟 [鑽研] 功能表選項。
    
     ![啟動鑽研動作](media/power-bi-report-add-filter/power-bi-drillthrough.png)
-3. 選取 [鑽研 > 小組主管]  以鑽研至名稱為 [小組主管]  的報表分頁。 分頁會篩選為顯示他們以滑鼠右鍵按一下之資料點的相關資訊，在這個案例中為 Andrew Ma。 只有鑽研篩選中的欄位會傳遞至鑽研報表分頁。  
+3. 選取 [鑽研 > 小組主管]  以鑽研至名稱為 [小組主管]  的報表分頁。 分頁會篩選為顯示他們以滑鼠右鍵按一下之資料點的相關資訊，在這個案例中為 Andrew Ma。 原始頁面上的任何篩選準則都會套用至 [鑽研報表] 頁面。  
    
     ![選取鑽研動作](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 

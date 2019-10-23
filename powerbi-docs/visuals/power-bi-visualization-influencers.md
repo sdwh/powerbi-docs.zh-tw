@@ -10,14 +10,17 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995272"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544106"
 ---
 # <a name="key-influencers-visualization"></a>關鍵影響因素視覺效果
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 關鍵影響因素視覺效果可協助您了解影響您感興趣計量的因素。 可分析您的資料、為重要因素排名並將其顯示為關鍵影響因素。 例如，假設您想要了解影響員工流動率 (也稱為變換) 的因素。 其中一項因素可能是雇用合約長度，另一項因素可能是員工年齡。 
  
 ## <a name="when-to-use-key-influencers"></a>何時使用關鍵影響因素 
@@ -49,6 +52,10 @@ ms.locfileid: "68995272"
  
 觀看這段影片以了解如何使用類別目錄計量來建立關鍵影響因素視覺效果。 然後遵循下列步驟建立一個視覺效果。 
 
+   > [!NOTE]
+   > 此影片使用舊版的 Power BI Desktop。
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 產品經理希望您了解哪些因素會導致客戶對您的雲端服務留下負面評論。 若要跟著做，請在 Power BI Desktop 中開啟[客戶意見反應 PBIX 檔案](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)。 您也可以下載 [Power BI 服務或 Power BI Desktop 的客戶意見反應 Excel 檔案](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)。 
@@ -137,7 +144,7 @@ ms.locfileid: "68995272"
 
 在某些情況下，您可能會發現連續因素已自動轉換成類別因素。 這是因為我們已了解變數之間的關聯性非為線性，因此我們無法將關聯性描述為只是增加或減少 (就像我們在上述範例中所做的一樣)。
 
-我們會執行相互關聯測試，以判斷影響因素對於目標的線性程度。 如果目標為連續，我們會執行 Pearsons 相互關聯，如果目標為類別目錄，我們就會執行 Point Biserial 相互關聯測試。 如果我們偵測到關聯性不夠線性，我們會進行受監督量化，並產生最多 5 個 Bin。為了找出哪些 Bin 最合理，我們使用受監督量化方法，它會查看說明因素與分析中目標之間的關聯性。
+我們會執行相互關聯測試，以判斷影響因素對於目標的線性程度。 如果目標為連續，我們會執行皮爾生 (Pearson) 相互關聯，且若目標為類別目錄，我們會執行點二系列 (Point Biserial) 相互關聯測試。 如果我們偵測到關聯性不夠線性，我們會進行受監督量化，並產生最多 5 個 Bin。為了找出哪些 Bin 最合理，我們使用受監督量化方法，它會查看說明因素與分析中目標之間的關聯性。
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>將量值和彙總解譯為關鍵影響因素 
  

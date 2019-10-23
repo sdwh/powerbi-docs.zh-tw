@@ -8,15 +8,15 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/31/2018
-ms.openlocfilehash: 71c2135092b0b9bb2b02f4559d40c0b10814a51f
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 10/09/2019
+ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325736"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259974"
 ---
-# <a name="changelog-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
+# <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
 此變更記錄適用於 Power BI 報表伺服器，並列出新的項目，以及每個發行組建的 Bug 修正。
 
@@ -24,12 +24,19 @@ ms.locfileid: "71325736"
 
 ## <a name="september-2019"></a>2019 年 9 月
 
-- **Power BI 報表伺服器**          
+- **Power BI 報表伺服器**
+    - *版本：1.6.7221.30698 (組建 15.0.1102.620)，發行日期：2019 年 10 月 9 日*
+        - Bug 修正
+            - 修正文字篩選自訂視覺效果。
+            - 修正下拉式交叉分析篩選器的效能。
+            - 修正來自遙測的 Strip PII。
+          - 修正 URL 為不需分大小寫。
+             
     - *版本 1.6.7206.38019 (組建 15.0.1102.597)，發行日期：2019 年 9 月 26 日*
         - 安全性更新
         - Bug 修正
            - 編頁報表
-             - 修正使用 IE 和 Edge 時所遇到的協助工具問題。
+             - 修正使用 Internet Explorer 與 Microsoft Edge 時所遇到的協助工具問題。
              - 修正測試連線時的 SAP HANA 問題。
              - 修正在提供電子郵件地址清單時所發現的問題。
              - 修正使用 DirectQuery 資料來源和整合式驗證的 Power BI 報表。
@@ -43,10 +50,17 @@ ms.locfileid: "71325736"
              - 已更新 Web API: /PowerBIReports({Id})/DataSources (PATCH) 來允許連接字串更新。
          
 - **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
+
+    - *版本：2.73.5586.1241 (2019 年 9 月)，發行日期：2019 年 10 月 9 日*
+        - Bug 修正
+            - 修正文字篩選自訂視覺效果。
+            - 修正下拉式交叉分析篩選器的效能。
+            - 修正來自遙測的 Strip PII。
+            
     - *版本：2.73.5586.821 (2019 年 9 月)，發行日期：2019 年 9 月 26 日* (新組建和新版本)
-    - 包含與 Power BI 報表伺服器連線所需的變更 (2019 年 9 月)
+        - 包含與 Power BI 報表伺服器連線所需的變更 (2019 年 9 月)
 
-
+    
 ## <a name="may-2019"></a>2019 年 5 月
 
 - **Power BI 報表伺服器**          

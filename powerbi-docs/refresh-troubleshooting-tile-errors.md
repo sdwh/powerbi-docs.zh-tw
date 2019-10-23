@@ -7,16 +7,16 @@ ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c1df7e6293db703922f37c3f28546bb296d1a46a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051004"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544279"
 ---
 # <a name="troubleshooting-tile-errors"></a>圖格錯誤的疑難排解
 以下是您在使用圖格時可能發生的常見錯誤和說明。
@@ -65,16 +65,16 @@ ms.locfileid: "66051004"
 
 這通常是暫時性的問題。 如果您稍後再試，卻仍看到此訊息，請連絡支援人員。
 
-**磚仍會顯示啟用單一登入 (SSO) 之後的未篩選的資料。**
+**啟用單一登入 (SSO) 之後，圖格會繼續顯示未篩選的資料。**
 
-如果基礎資料集設定為使用 透過內部部署資料閘道的 DirectQuery 模式或 Analysis Services 即時連線，會發生這項目。 在此情況下，圖格會繼續以啟用資料來源的 SSO，直到下一步 磚的更新已到期之後顯示未篩選的資料。 在下一步 磚重新整理，Power BI 會使用 SSO 設定，而圖格會顯示根據使用者身分識別篩選的資料。 
+如果底層資料集設定為使用 DirectQuery 模式或透過內部部署資料閘道的 Analysis Services 即時連線，就可能發生這種情況。 在此案例中，為資料來源啟用 SSO 之後，圖格會繼續顯示未篩選的資料，直到下一個圖格重新整理到期為止。 在下一個圖格重新整理時，Power BI 會使用已設定的 SSO，而圖格則會顯示根據使用者身分識別篩選的資料。 
 
-如果您想要立即查看篩選過的資料，您可以強制執行磚重新整理中的儀表板右上角選取省略符號 （...），並選取**重新整理儀表板磚**。
+若要立即查看已篩選的資料，您可以透過選取儀表板右上方的省略符號 (...)，然後選取 [重新整理儀表板磚]  ，以強制執行磚重新整理。
 
-為資料集擁有者，您也可以變更磚重新整理頻率，並將它設定為 15 分鐘的時間來加速磚重新整理。 選取 Power BI 服務右上角的齒輪圖示，然後選取**設定**。 在 [**設定**頁面上，選取**資料集**] 索引標籤。依序展開**排程快取重新整理**並變更**重新整理頻率**。 請確定您的組態之後重設原始的重新整理頻率 Power BI 會執行下一步 磚重新整理。
+身為資料集擁有者，您也可以變更磚重新整理頻率，並將它設定為15分鐘，以加速磚重新整理。 選取 Power BI 服務右上角的齒輪圖示，然後選取 [設定]  。 在 [設定]  頁面上，選取 [資料集]  索引標籤。展開 [排定的快取重新整理]  並變更 [重新整理頻率]  。 請務必在 Power BI 執行下一個磚重新整理之後，將設定重設為原始的重新整理頻率。
 
 > [!NOTE]
-> **排程快取重新整理**節僅適用於 DirectQuery/LiveConnection 模式中的資料集。 匯入模式中的資料集不需要個別的磚重新整理，因為圖格會自動重新整理在下次排程的資料重新整理。
+> [排定的快取重新整理]  區段僅適用於 DirectQuery/LiveConnection 模式中的資料集。 匯入模式中的資料集不需要個別的磚重新整理，因為磚會在下一次排程的資料重新整理期間自動重新整理。
 
 ## <a name="contact-support"></a>連絡支援人員
 如果您仍遇到問題，請[連絡支援人員](https://support.powerbi.com)以進一步調查。

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020333"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543506"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>從報表建立 Power BI 儀表板
 您已閱讀 [Power BI 的儀表板簡介](service-dashboards.md)，現在想要建立自己的儀表板。 建立儀表板的方式有很多種。 例如，您可以建立儀表板：從報表、從頭建立、從資料集、或複製現有的儀表板。  
@@ -68,9 +68,9 @@ ms.locfileid: "72020333"
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>開啟報表並將磚釘選到您的儀表板上
 1. 在相同的工作區中，選取 [報表]  索引標籤，然後選取 [採購分析範例]  以開啟報表。
 
-    ![[報表] 索引標籤](media/service-dashboard-create/power-bi-reports.png) 報表會在 [閱讀] 檢視中開啟。 請注意底部有兩個索引標籤：[折扣分析]  和 [支出概觀]  。 每個索引標籤都代表報表的一個頁面。
+    ![[報表] 索引標籤](media/service-dashboard-create/power-bi-reports.png) 報表會在 [閱讀] 檢視中開啟。 請注意，它的左邊有兩個索引標籤：[折扣分析]  和 [支出概觀]  。 每個索引標籤都代表報表的一個頁面。
 
-2. 選取 [編輯報表]  以在 [編輯檢視] 中開啟報表。
+2. 選取 [更多選項 (...)]   > [編輯報表]  以在 [編輯] 檢視中開啟報表。
 
     ![[閱讀] 檢視中的報表](media/service-dashboard-create/power-bi-reading-view.png)
 3. 暫留在視覺效果上，以顯示可用的選項。 若要在儀表板上新增視覺效果，請選取釘選圖示 ![釘選圖示](media/service-dashboard-create/power-bi-pin-icon.png).

@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: 44534f2adbc4f1f39a0c65e11d646fd8fd67be71
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944808"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307665"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>在 AppSource 上發佈 Power BI 視覺效果
 
 了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及使用。
 
-一旦建立了自訂的視覺效果後，您可能需要發佈至 AppSource 供其他人探索及使用。 您需要先做一些準備才能執行此作業。 如需如何建立自訂視覺效果的詳細資訊，請參閱[開發 Power BI 自訂視覺效果](custom-visual-develop-tutorial.md)。
+一旦建立了自訂的視覺效果後，您可能需要發佈至 AppSource 供其他人探索及使用。 您需要先做一些準備才能執行此作業。 如需如何建立自訂視覺效果的詳細資訊，請參閱[開發 Power BI 自訂視覺效果](visuals/custom-visual-develop-tutorial.md)。
 
    ![Office 市集](media/office-store/appsource-01.png)
 
@@ -30,7 +30,7 @@ ms.locfileid: "71944808"
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>準備提交您的自訂視覺效果
 
-當您閱讀完我們的 [Power BI 視覺效果指導方針](guidelines-powerbi-visuals.md)、完成編碼、[測試您的自訂視覺效果](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)並封裝到 pbiviz 檔案後，您應該也備妥下列項目以便提交。
+當您閱讀完我們的 [Power BI 視覺效果指導方針](guidelines-powerbi-visuals.md)、完成程式碼撰寫且[測試您的自訂視覺效果](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)並將它封裝到 pbiviz 檔案後，您應該也備妥下列項目以便提交。
 
 | 項目 | 必要 | 描述 |
 | --- | --- | --- |
@@ -147,7 +147,7 @@ ms.locfileid: "71944808"
 
 ## <a name="next-steps"></a>後續步驟
 
-[Developing a Power BI custom visual](custom-visual-develop-tutorial.md) (開發 Power BI 自訂視覺效果)  
+[Developing a Power BI custom visual](visuals/custom-visual-develop-tutorial.md) (開發 Power BI 自訂視覺效果)  
 [Power BI 中的視覺效果](../visuals/power-bi-report-visualizations.md)  
 [Power BI 中的自訂視覺效果](../power-bi-custom-visuals.md)  
 [讓自訂視覺效果「通過認證」  ](../power-bi-custom-visuals-certified.md)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 034dc98b1e623bd0d509eb2d174cdc3e3b865067
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f88d1e0458e6a1b3abe20c0b4dd889c037ede612
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514311"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307335"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的即時串流
 您可以使用 Power BI 即時串流，即時串流資料及更新儀表板。 您也可以建立可在 Power BI 中建立的任何視覺效果或儀表板，進而顯示及更新即時資料和視覺效果。 串流資料的裝置和來源可以是 Factory 感應器、社交媒體來源、服務使用計量，以及可從中收集或傳送即時資料的任何其他項目。
@@ -235,6 +235,13 @@ Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流
 4. Azure 串流分析查詢是否明確輸出至 Power BI 輸出？ (使用 INTO 關鍵字)
 5. Azure 串流分析作業有資料流過它嗎？ 只有在傳輸資料時，才會建立資料集。
 6. 您可以查看 Azure 串流分析記錄檔中是否有任何警告或錯誤嗎？
+
+## <a name="automatic-page-refresh"></a>自動重新整理頁面
+
+自動頁面重新整理會在報表頁面層級運作，並可讓報表作者設定頁面中視覺效果 (只有在取用頁面時才會是作用中) 的重新整理間隔。 自動頁面重新整理僅適用於 DirectQuery 資料來源。 最小重新整理間隔取決於發行報表的工作區類型，以及進階工作區的容量管理員設定。
+
+若要深入了解自動頁面重新整理，請參閱[自動頁面重新整理](desktop-automatic-page-refresh.md)一文。
+
 
 ## <a name="next-steps"></a>後續步驟
 以下是一些可能有助於在 Power BI 中使用即時串流的連結︰

@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299336"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544487"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI 中的區域分布圖 (分區著色圖)
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 區域分布圖使用陰影、濃淡或圖樣，顯示值的比例如何隨著地理位置或地區而有所不同。  可使用範圍介於淺色 (較不常見/較低) 到深色 (較常見/較多) 的陰影，快速顯示這些相對差異。    
 
 ![美國地圖](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
@@ -44,27 +47,24 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 * 當您要取得跨地理位置的分佈概觀。
 
 ### <a name="prerequisites"></a>先決條件
-- Power BI 服務或 Power BI Desktop
-- 銷售與行銷範例
+本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。
+1. 從功能表列的左上方區段，選取 [檔案]   > [開啟] 
+   
+2. 尋找您的**零售分析範例 PBIX 檔案**複本
 
-若要跟著做，請留意到本教學課程使用的是 Power BI 服務，而非 Power BI Desktop。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+
+1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+
 
 ## <a name="create-a-basic-filled-map"></a>建立基本的區域分布圖
 在這段影片中，Kim 會建立一個基本地圖，並將其轉換成區域分布圖。
+   > [!NOTE]
+   > 此影片使用舊版的 Power BI Desktop。
+   > 
+   > 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
-
-### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>取得資料，並將新的空白頁面新增至報表
-1. 若要建立您自己的區域分布圖，請[下載銷售與行銷範例](../sample-datasets.md)，方法是登入 Power BI，然後選取 [取得資料] \> [範例] \> [銷售與行銷] \> [連線]  。 或從 appsource.com 取得 **Power BI 銷售與行銷**應用程式。 
-
-2. 開啟銷售與行銷報表。
-
-   ![銷售與行銷報表隨即開即](media/power-bi-visualization-filled-maps-choropleths/power-bi-report-canvas.png)
-3. Power BI 會開啟報表。 選取 [編輯報表]  以在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報表。
-
-4. 選取報表畫布底部的黃色加號符號以新增頁面。
-
-    ![[報表] 索引標籤](media/power-bi-visualization-filled-maps-choropleths/power-bi-new-page.png)
 
 ### <a name="create-a-filled-map"></a>建立區域分布圖
 1. 從 [欄位] 窗格中，選取 [地理]  \> [州]  欄位。    
@@ -75,9 +75,9 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
    ![已醒目提示區域分布圖圖示的範本](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 3. 篩選地圖，只顯示美國本土。
 
-   a.  在 [視覺效果] 窗格底部尋找 [篩選]  區域。
+   a.  在 [視覺效果] 窗格左邊尋找 [篩選]  窗格。 若它已最小化，請將它展開
 
-   b.  將滑鼠指標暫留在 [州]  ，然後按一下展開Ｖ形箭號  
+   b.  將滑鼠游標停在 [州]  上方，然後選取展開＞形箭號。  
    ![顯示 [狀態(全部)] 的視覺效果層級篩選](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    c.  在 [全部]  旁邊放置一個核取記號，然後移除 [AK]  旁邊的核取記號。
@@ -115,11 +115,11 @@ Power BI 為您提供許多方式來控制已填滿地圖的外觀。您可以�
 
     ![已選取 [人氣] 索引標籤](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 
-4. 移動並調整頁面上視覺效果的大小以便挪出空間空間，然後按 CTRL-V 從先前的報表貼上區域分布圖。
+4. 移動並調整頁面上視覺效果的大小以便挪出空間空間，然後按 CTRL-V 從先前的報表貼上區域分布圖。 (查看下列影像)
 
    ![區域分布圖已新增至 [人氣] 頁面](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. 在區域分布圖中選取一個州。  這會反白顯示頁面上的其他視覺效果。 例如，選取 [德州]  ，會顯示人氣為 74，德州位於中央區 \#23。   
+5. 在區域分布圖中選取一個州。  這會交叉醒目提示及交叉篩選頁面上的其他視覺效果。 例如，選取 [德州]  ，會顯示情緒為 75，且德州位於中央區 #23。   
    ![已選取 [德州]](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
 2. 選取 [VanArsdel - 依月份的人氣] 折線圖上的資料點。 這樣會篩選區域分布圖，來顯示 VanArsdel 的人氣，而不顯示其競賽的人氣。  
    ![新的陰影](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)

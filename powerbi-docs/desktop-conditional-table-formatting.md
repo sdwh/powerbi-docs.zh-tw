@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: bd14437b0833d4c24c37ebeca6524948465bdb1f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561070"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544007"
 ---
 # <a name="conditional-formatting-in-tables"></a>設定資料表格式化的條件 
 設定資料表格式化的條件時，您可以根據資料格值或根據其他值或欄位 (包括漸層色彩) 來指定自訂資料格色彩。 您也可以使用資料橫條來顯示資料格的值。 
@@ -140,6 +140,9 @@ ms.locfileid: "69561070"
 使用條件式表格格式設定時，請牢記幾個考量事項：
 
 * 條件式表格格式設定只會套用到**矩陣**視覺效果的值，而不會套用到任何小計或總計。 
+* 條件式格式化不會套用至**總計**列
+* 任何沒有分組的資料表都會顯示為不支援條件式格式化的單一資料列。
+* 若您使用具有自動最大/最小值的漸層格式，或以規則為基礎的格式設定百分比規則，當您的資料包含 NaN 值時，就無法套用條件式格式化。 NaN 表示「不是數字」，最常見的原因是除以零錯誤。 您可以使用 [DIVIDE() DAX 函式](https://docs.microsoft.com/dax/divide-function-dax)來避免這些錯誤。
 
 
 ## <a name="next-steps"></a>後續步驟

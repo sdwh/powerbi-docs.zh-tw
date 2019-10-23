@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/17/2019
+ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2e41a3f5b1d1bd945e1ab4566abed1589b20c148
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 2b9fd3fc971d2cf73aabb2033d3a64565333bc67
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67264786"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543776"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI 服務取用者的基本概念
 
-本文假設您已閱讀 [Power BI 概觀](../power-bi-overview.md)，並將自已識別為 Power BI 的「取用者」。 取用者可從同事收到 Power BI 內容，例如儀表板和報表。 取用者會使用 Power BI 服務，也就是 Power BI 的網站版本。
+此文章假設您已閱讀 [Power BI 概觀](../power-bi-overview.md)，並將自已識別為 [Power BI ***取用者***](end-user-consumer.md)。 取用者可從同事收到 Power BI 內容，例如儀表板和報表。 取用者會使用 Power BI 服務，也就是 Power BI 的網站版本。
 
 您一定會聽到字詞 "Power BI Desktop"，或只聽到 "Desktop"。 它是供「設計者」  使用的獨立工具，而設計師會組建儀表板和報表，並與您共用它們。 請務必知道當中有其他 Power BI 工具。 只要您是取用者，只會使用 Power BI 服務。 本文僅適用於 Power BI 服務。
 
@@ -35,7 +35,7 @@ ms.locfileid: "67264786"
 
 若要開始使用，請開啟瀏覽器並輸入 **app.powerbi.com**。 第一次開啟 Power BI 服務時，您會看到類似下面的內容：
 
-![歡迎使用 Power BI 服務畫面的螢幕擷取畫面。](media/end-user-basic-concepts/power-bi-open.png)
+![歡迎使用 Power BI 服務畫面的螢幕擷取畫面。](media/end-user-basic-concepts/power-bi-home.png)
 
 當您使用 Power BI 時，您會將每次開啟網站時所看到的內容個人化。 例如，有些人想要將 Power BI 開啟至 [首頁]  ，而有些則有想要先查看他們的最愛儀表板。 別擔心，本文將教導您如何將您的體驗個人化。
 
@@ -87,9 +87,9 @@ _______________________________________________________
 
 當設計者與您共用應用程式時，您可以看到設計者隨附於應用程式的資料集。
 
-![Power BI 使用者介面的螢幕擷取畫面，其中顯示選取的應用程式，以及指向畫布上 [資料集] 區段的箭號。](media/end-user-basic-concepts/power-bi-dataset-list.png)
+![Power BI 使用者介面以及指向畫布上 [資料集] 區段之箭號的螢幕擷取畫面。](media/end-user-basic-concepts/power-bi-dataset-lists.png)
 
-在資料集上...
+一個資料集...
 
 - 報表設計者可以一再用來建立儀表板和報表
 
@@ -98,10 +98,6 @@ _______________________________________________________
 - 資料集可在其中出現在許多不同儀表板的視覺效果
 
   ![顯示資料集具有多對一關係的圖形](media/end-user-basic-concepts/drawing2.png)
-
-此外，設計者可以使用來自其他工作空間的資料集，在其工作區中建立內容 (報表、儀表板)。 Power BI 會使用參考的資料集圖示來顯示這些資料集：
-
-![資料庫 (含連結) 圖示的螢幕擷取畫面。](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
 請前進到下一個建置組塊 -- 視覺效果。
 
@@ -131,11 +127,11 @@ _______________________________________________________
 
 Power BI 報表是一或多個頁面的視覺效果、圖表及文字。 報表中的所有視覺效果都是來自單一資料集。 「設計工具」  會與[在「閱讀檢視」  與報表互動](end-user-reading-view.md)的「取用者」  共用報表。
 
-![報表 (含索引標籤) 的螢幕擷取畫面。](media/end-user-basic-concepts/power-bi-report2.png)
+![報表 (含索引標籤) 的螢幕擷取畫面。](media/end-user-basic-concepts/power-bi-report.png)
 
 一個報表...
 
-- 可將它與多個儀表板建立關聯 (從該單一報表釘選的磚可出現在多個儀表板上)。
+- 可以與多個儀表板相關聯 (從該單一報表釘選的磚可出現在多個儀表板上)。
 
 - 只能使用一個資料集的資料建立而成。  
 
@@ -151,7 +147,7 @@ _______________________________________________________
 
   ![範例儀表板的螢幕擷取畫面](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-圖格是視覺效果的呈現，例如，「設計工具」  可將其從報表「釘選」  到儀表板。 每個已釘選圖格會顯示 Power BI 從某個資料集建立並釘選到該儀表板的[視覺效果](end-user-visualizations.md)。 圖格也可以包含整份報表頁面，而且可以包含即時串流資料或影片。 「設計者」  有許多方法可將圖格新增至儀表板。 有太多內容無法在此概觀文章中討論。 若要深入了解，請參閱 [Power BI 的儀表板磚](end-user-tiles.md).
+圖格是視覺效果的呈現，例如，「設計工具」  可將其從報表「釘選」  到儀表板。 每個已釘選圖格會顯示設計工具從某個資料集建立並釘選到該儀表板的[視覺效果](end-user-visualizations.md)。 圖格也可以包含整份報表頁面，而且可以包含即時串流資料或影片。 「設計者」  有許多方法可將圖格新增至儀表板。 有太多內容無法在此概觀文章中討論。 若要深入了解，請參閱 [Power BI 的儀表板磚](end-user-tiles.md).
 
 取用者無法編輯儀表板。 不過，您可以新增註解、檢視相關資料、將它設為我的最愛、訂閱等。
 
@@ -183,7 +179,7 @@ _______________________________________________________
 
 這些儀表板和報表的集合會將相關內容一起組織成單一套件。 Power BI 的「設計工具」  可建置它們，並將其與個人、群組、整個組織或大眾共用。 身為取用者，您可以確信您和您的同事正在使用相同的資料；這是事實的單一受信任版本。
 
-![Power BI 左窗格中所選取應用程式的螢幕擷取畫面。](media/end-user-basic-concepts/power-bi-app.png)
+![Power BI 左窗格中所選取應用程式的螢幕擷取畫面。](media/end-user-basic-concepts/power-bi-apps.png)
 
 在 [Power BI 服務](https://powerbi.com)中和您的行動裝置上，可輕鬆找到並安裝應用程式。 安裝應用程式之後，您不必記住許多不同儀表板的名稱。 它們全都放在某個應用程式中、您的瀏覽器中，或您的行動裝置上。
 

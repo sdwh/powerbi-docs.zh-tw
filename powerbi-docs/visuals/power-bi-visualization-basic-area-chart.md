@@ -10,19 +10,22 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: b7a4021999a39d88b78d31aaa55d7f9c08a93d8e
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839853"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544212"
 ---
 # <a name="basic-area-chart"></a>基本的區域圖
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 基本區域圖 (也稱為多層次區域圖表) 的基礎為折線圖。 軸和行之間的區域填滿色彩，以表示數量。 
 
 區域圖強調隨著時間的變化大小，而且可用來強調跨趨勢的總計值。 例如，代表收益隨時間變化的資料，可以在區域圖中繪製，藉此強調總收益。
 
-![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
+![](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
 
 ## <a name="when-to-use-a-basic-area-chart"></a>使用基本區域圖的時機
 基本區域圖極適合：
@@ -31,29 +34,32 @@ ms.locfileid: "66839853"
 * 如果個別數列代表實質上可數的集合
 
 ### <a name="prerequisites"></a>先決條件
- - Power BI 服務
- - 零售分析範例
+本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-若要跟著做，請登入 Power BI 並選取 [取得資料] \> [範例] \> [零售分析範例]  ，然後選擇 [移至儀表板]  。 
+1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
+   
+2. 尋找您的**零售分析範例 PBIX 檔案**複本
+
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+
+1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+
 
 ## <a name="create-a-basic-area-chart"></a>建立基本區域圖
  
 
-1. 從 [零售分析範例] 儀表板，選取 [所有門市]  圖格，開啟 [零售分析範例] 報表。
-2. 選取 [編輯]  以在編輯檢視中開啟報表。
-3. 選取報表底部的黃色加號圖示 (+)，以新增報表頁面。
-4. 建立依月份顯示本年度和去年度銷售額的區域圖。
+1. 這些步驟將可協助您建立依月份顯示本年度和去年度銷售額的區域圖。
    
    a. 從 [欄位] 窗格中選取 [銷售] \> [去年銷售]  ，以及 [今年銷售] > [值]  。
 
-   ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
+   ![區域圖資料值](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
    b.  從 [視覺效果] 窗格選取區域圖圖示，以將圖表轉換成基本區域圖。
 
-   ![](media/power-bi-visualization-basic-area-chart/convertchart.png)
+   ![區域圖圖示](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  選取 [時間] \> [月]  以將它加入 [軸]  部分。   
-   ![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
+   c.  選取 [時間] **\> [會計月份]** 以將它新增到 [軸]  部分。   
+   ![區域圖軸值](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
    d.  若要依照月份顯示圖表，請選取省略符號 \(視覺效果的右上角)，並選擇 \[Sort by month] \(按月份排序)  。 若要變更排序次序，請再次選取省略符號，並選取 [遞增排序]  或 [遞減排序]  。
 
@@ -62,14 +68,11 @@ ms.locfileid: "66839853"
 
 若要反白顯示圖表中的一個特定區域，請選取該區域或其上框線。  不同於其他視覺效果類型，如果在相同的頁面上有其他視覺效果，反白顯示基本區域圖並不會交叉篩選報表頁面上的其他視覺效果。 不過，對報表頁面上的其他視覺效果來說，區域圖是觸發交叉篩選的目標。 
 
-1. 請試著選取區域圖，並將它複製到另一個報表頁面 (CTRL + C 和 CTRL-V)。
-2. 選取其中一個陰影區域，然後選取另一個陰影區域。 您會發現對頁面上其他視覺效果沒有任何影響。
+1. 選取區域圖，並將它複製到 [新商店分析]  報表頁面 (CTRL-C 與 CTRL-V) 以進行嘗試。
+2. 選取區域圖的其中一個陰影區域，然後選取另一個陰影區域。 您會發現對頁面上其他視覺效果沒有任何影響。
+1. 現在請選取一個元素。 請注意對區域圖的影響 -- 它會交叉篩選。
 
-    ![區域圖中已選取本年度銷售量](media/power-bi-visualization-basic-area-chart/power-bi-select-area.png)
-
-3. 現在選取頁面上其他視覺效果的其中一個，例如直條圖直條或折線圖上的一個月。 請注意對區域圖的影響 -- 它會篩選。  
-
-    ![已選取 Ft Oglethorpe 直條](media/power-bi-visualization-basic-area-chart/power-bi-filter.png) 
+    ![篩選範例](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
 若要進一步了解，請參閱[報表中的視覺效果互動](../service-reports-visual-interactions.md)
 

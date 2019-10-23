@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 417238550f68a1c244bab33b8343712f02242eae
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 56583c796a8f6e32bed67629dee4fe3bea677bee
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945269"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307849"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
@@ -225,6 +225,201 @@ ms.locfileid: "71945269"
 您可以選取 [導覽器]  窗格底部的 [載入]  按鈕來載入資料，或是選取 [編輯]  按鈕，在載入資料之前先編輯查詢。
 
 這就是連接到 Power BI Desktop 中資料來源的全部資訊！ 嘗試連接到我們持續增加的資料來源，並經常回來查看，我們隨時會增加新的來源。
+
+## <a name="using-pbids-files-to-get-data"></a>使用 PBIDS 檔案來取得資料
+
+PBIDS 檔案是具有特定結構的 Power BI Desktop 檔案，而且具有 .PBIDS 副檔名，以識別它是 Power BI 資料來源檔案。
+
+您可以建立 .PBIDS 檔案以簡化組織中報表建立者的**取得資料**體驗。 建議系統管理員為常用的連線建立這些檔案，以促使新的報表作者使用 PBIDS 檔案。 
+
+當作者開啟 .PBIDS 檔案時，Power BI Desktop 會開啟並提示使用者提供認證來進行驗證，並連線到檔案中指定的資料來源。 [瀏覽] 對話方塊隨即出現，而且使用者必須從該資料來源選取要載入至模型的資料表。 使用者可能也需要選取資料庫 (如果未在 .PBIDS 檔案中指定的話)。 
+
+之後，使用者可以開始建立視覺效果，或重新瀏覽 [最近的來源] 以將一組新的資料表載入模型中。 
+
+目前 .PBIDS 檔案只支援一個檔案中的單一資料來源。 指定一個以上的資料來源會導致錯誤。 
+
+若要建立 .PBIDS 檔案，系統管理員必須指定單一連線的必要輸入，而且可以指定連線模式 (**DirectQuery** 或**匯入**)。 若檔案中缺少 **mode** 或為 Null，則會提示在 Power BI Desktop 中開啟檔案的使用者選取 [DirectQuery] 或 [匯入]。 
+
+### <a name="pbids-file-examples"></a>PBIDS 檔案範例
+
+此節提供一些來自常用資料來源的範例。 .PBIDS 檔案類型只支援 Power BI Desktop 中也支援的資料連線，但有兩個例外：Live Connect 與空白查詢。 
+
+.PBIDS 檔案不  包含驗證資訊與資料表和結構描述資訊。  
+
+下面是數個常見的 .PBIDS 檔案範例，但它們並不完整。 針對其他資料來源，您可以參考[資料來源參考 (DSR) 格式，以取得通訊協定和位址資訊 ](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) \(部分機器翻譯\)。
+
+這些範例只是為了方便起見，它們並不完整，而且不包含 DSR 格式的所有支援連接器。 系統管理員或組織可以使用這些範例作為指南來建立自己的資料來源，他們可以在其中建立及支援自己 的資料來源檔案。 
+
+
+**Azure AS**
+```
+{ 
+    "version": "0.1", 
+    "connections": [ 
+    { 
+        "details": { 
+        "protocol": "analysis-services", 
+        "address": { 
+            "server": "server-here" 
+        }, 
+        } 
+    } 
+    ] 
+}
+```
+
+
+ 
+
+**資料夾**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "folder", 
+        "address": { 
+            "path": "folder-path-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+
+**OData**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "odata", 
+        "address": { 
+            "url": "URL-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+**SAP BW**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sap-bw-olap", 
+        "address": { 
+          "server": "server-name-here", 
+          "systemNumber": "system-number-here", 
+          "clientId": "client-id-here" 
+        }, 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+**SAP Hana**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sap-hana-sql", 
+        "address": { 
+          "server": "server-name-here:port-here" 
+        }, 
+      } 
+    } 
+  ] 
+} 
+```
+
+**SharePoint 清單**
+
+URL 必須指向 SharePoint 網站本身，而不是網站內的清單。 使用者會取得一個導覽器，讓他們能夠從該網站選取一或多個清單，其中每個都成為模型中的資料表。 
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sharepoint-list", 
+        "address": { 
+          "url": "URL-here" 
+        }, 
+       } 
+    } 
+  ] 
+} 
+```
+ 
+ 
+**SQL Server**
+```
+{ 
+  “version”: “0.1”, 
+  “connections”: [ 
+    { 
+      “details”: { 
+        “protocol”: “tds”, 
+        “address”: { 
+          “server”: “server-name-here”, 
+          “database”: “db-name-here (optional)” 
+        } 
+      }, 
+      “options”: {}, 
+      “mode”: “DirectQuery” 
+    } 
+  ] 
+} 
+} 
+```
+ 
+
+**文字檔**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "file", 
+        "address": { 
+            "path": "path-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+
+**Web**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "http", 
+        "address": { 
+            "url": "URL-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+
+
 
 ## <a name="next-steps"></a>後續步驟
 您可以使用 Power BI Desktop 執行各種作業。 如需有關其功能的詳細資訊，請參閱下列資源：

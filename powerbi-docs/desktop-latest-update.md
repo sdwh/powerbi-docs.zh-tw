@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 646372dbba995a359b732e46a8689cb295565c1f
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 0ccd89bfa868569f6547c67d3673d0afd664d6a7
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903540"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307707"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新的 Power BI Desktop 中有什麼新功能？ 
 
 
-## <a name="september-2019-update-2735586561"></a>2019 年 9 月更新 (2.73.5586.561)
+## <a name="october-2019-update-2745619621"></a>2019 年 10 月更新 (2.74.5619.621)
 
-我們的 9 月更新就像是令人興奮的開學日一樣 - 要學習的新知、在夏天錯過的朋友近況更新，以及將我們所知道的內容應用到更好的未來報表中的機會。 
+我們的十月更新就像南瓜節跑步一樣有趣，而且比午夜鬼屋探險更刺激。 
 
 您現在可以[下載最新版本的 Power BI Desktop](https://powerbi.microsoft.com/desktop)，現在是以包含所有支援語言的單一 .exe 檔案形式提供。 如果您執行 Windows 10，您也可以從 Windows 市集取得 **Power BI Desktop**。 不論您用哪種方式安裝 **Power BI Desktop**，雖然兩個版本之間的版本編號可能不同，但每月版本都相同。 如需詳細資訊，請參閱[本文](desktop-get-the-desktop.md)。 
 
@@ -42,46 +42,57 @@ ms.locfileid: "70903540"
 以下是本月 **Power BI Desktop** 新增的更新：
 
 ### <a name="reporting"></a>報告
-* 佈景主題中的色彩和文字類別 [[影片]](https://youtu.be/neq0THnRJzo?t=11)  [[文章]](desktop-report-themes.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#themeJSON) 
-* 新的預設佈景主題 [[影片]](https://youtu.be/neq0THnRJzo?t=334)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#newThemes)
-* 個人化的視覺效果窗格改善 (預覽) [[影片]](https://youtu.be/neq0THnRJzo?t=601)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#vizPane)
+* DirectQuery 的自動頁面重新整理 [[影片]](https://youtu.be/A8A9baUQsXQ?t=12)  [[文章]](desktop-automatic-page-refresh.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#automaticPageRefresh) 
+
 
 
 ### <a name="analytics"></a>分析
-* 自訂格式字串 [[影片]](https://youtu.be/neq0THnRJzo?t=731)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#customFormatStrings) 
-* 適用於更多視覺效果格式化選項的條件式格式設定 [[影片]](https://youtu.be/neq0THnRJzo?t=813) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#conditionalFormatting) 
-* 鑽研探索改進 [[影片]](https://youtu.be/neq0THnRJzo?t=959)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#drillThrough) 
-* 新的 DAX 運算式：REMOVEFILTERS 和 CONVERT [[影片]](https://youtu.be/neq0THnRJzo?t=1048)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#dax) 
+* 新的問與答視覺效果 [[影片]](https://youtu.be/A8A9baUQsXQ?t=144)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaVisual) 
+* 改進的問與答使用者體驗 [[影片]](https://youtu.be/A8A9baUQsXQ?t=144)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#improvedExperience) 
+    * 改進的下拉式清單控制項
+    * 紅色與藍色底線
+    * 改進的視覺效果結果
+* 問與答的自然語言改進 [[影片]](https://youtu.be/A8A9baUQsXQ?t=322)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#nlImprovements) 
+    * 與 Office / Bing 同義字整合
+    * 支援量值資料表，以更有效的方式處理資料表名稱與模稜兩可的情況
+* 問與答工具 (預覽) [[影片]](https://youtu.be/A8A9baUQsXQ?t=376)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaTooling) 
+    * 檢閱問題
+    * 教導問與答
+    * 檢閱進行的所有變更
+* 對 SSAS 與 Azure AS 的支援，包括 RLS [[影片]](https://youtu.be/A8A9baUQsXQ?t=480)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#supportAS) 
 
 
 ### <a name="visuals"></a>視覺效果
-* PowerApps 視覺效果現已正式推出 [[影片]](https://youtu.be/neq0THnRJzo?t=1063)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#powerApps) 
-
+* 現在預設會包括 PowerApps 視覺效果 [[影片]](https://youtu.be/A8A9baUQsXQ?t=505)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#powerApps) 
+* 新的 xViz 視覺效果 [[影片]](https://youtu.be/A8A9baUQsXQ?t=538)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#xViz) 
 
 ### <a name="data-connectivity"></a>資料連線
-* PostgreSQL 連接器改善 [[影片]](https://youtu.be/neq0THnRJzo?t=1112)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#postgreSQL) 
+* Sagra Emigo 連接器公開式推出  [[影片]](https://youtu.be/A8A9baUQsXQ?t=778)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#sagraEmigo) 
+* Azure 成本管理連接器已更新 [[影片]](https://youtu.be/A8A9baUQsXQ?t=805)  [[文章]](desktop-connect-azure-cost-management.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#azureCostManagement) 
+* 新的工作場所分析連接器 [[影片]](https://youtu.be/A8A9baUQsXQ?t=830)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#workplaceAnalytics) 
+
 
 ### <a name="data-preparation"></a>資料準備
-* 從資料分析複製到剪貼簿 [[影片]](https://youtu.be/neq0THnRJzo?t=1146)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#copyProfiling) 
+* 查詢診斷 [[影]](https://youtu.be/A8A9baUQsXQ?t=907)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#queryDiagnostics) 
+* 資料分析增強功能 [[影片]](https://youtu.be/A8A9baUQsXQ?t=953)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#dataProfiling) 
 
 
 ### <a name="template-apps"></a>範本應用程式
-* Google Analytics 報告 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#googleAnalytics) 
+* Project Web App   [[影片]](https://youtu.be/A8A9baUQsXQ?t=850)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#projectWebApp) 
 
 ### <a name="other"></a>其他
-* 多維度模型的效能提升 [[影片]](https://youtu.be/neq0THnRJzo?t=1208)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfMultiDiminsional) 
-* DirectQuery 模型的查詢效能提升 [[影片]](https://youtu.be/neq0THnRJzo?t=1272)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfDirectQuery) https://youtu.be/neq0THnRJzo?t=1208
+* 新的檔案格式：.PBIDS  [[video]](https://youtu.be/A8A9baUQsXQ?t=2455) [[文章]](desktop-data-sources.md#pbids-file-examples) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#pbids) 
+* 建構作業模型的效能改進  [[影片]](https://youtu.be/A8A9baUQsXQ?t=2583)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#performance) 
 
 > [!NOTE]
 > 您也可以[查看 Power BI Desktop 的所有可用資料來源](desktop-data-sources.md)，我們的資料來源會持續增加，因此請經常回來查看。
 
-需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/)，您可以從中取得每項新功能的詳細資訊 (這和上列清單中的部落格文章參考相同)。
 
 
 下列影片將描述並示範這些更新。 您也可以從部落格文章觀賞這段影片。
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/neq0THnRJzo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A8A9baUQsXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > 您可能也會想要了解 [Power BI 服務的新功能](service-whats-new.md)，並請同時查閱 [Power BI 行動應用程式的新功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。

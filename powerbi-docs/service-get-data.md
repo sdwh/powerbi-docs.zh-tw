@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 21a7bf05330373febe1e9f121f07df6de0779c69
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e6b0d7db9f82d8bc68f230858799f6afbcad1c82
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70200941"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511650"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服務的資料來源
 資料是 Power BI 的核心。 假設您正在探索資料。 您可能會先建立圖表與儀表板，或利用 [問與答]  提出問題，以執行上述作業。 系統顯示的視覺效果和解答會從資料集擷取其基礎資料。 但是，該資料集又來自何處？ 資料集是由資料來源而來。
@@ -111,7 +111,11 @@ Azure SQL Database、Azure SQL 資料倉儲與 Azure HDInsight 上的 Spark 是�
 ## <a name="considerations-and-limitations"></a>考量與限制
 針對 Power BI 服務中使用的所有資料來源，請注意下列限制。 特定功能有其他適用限制，但下列清單適用於整個 Power BI 服務︰
 
-* **資料集大小限制** - Power BI 服務中每個資料集的限制為 1 GB。
-* **資料列限制** - 資料集 (不使用 **DirectQuery** 時) 的資料列數目上限為 20 億， 系統會保留三個資料列 (因此可用上限為 1,999,999,997 個資料列)。 使用 **DirectQuery** 時的資料列數目上限是 1 百萬個資料列。
-* **資料行限制** - 資料集允許的資料行數目上限；資料集中所有資料表加起來是 16,000 個資料行。 此限制適用於 Power BI 服務以及 Power BI Desktop 中使用的資料集。 Power BI 在資料集的每份資料表上都使用內部的資料列號碼資料行，這表示資料集中每份資料表的資料行數目上限是 16,000 減一。
+* **資料集大小限制** - Power BI 服務之共用容量中儲存的資料集限制為 1 GB。 若您需要較大的資料集，您可以使用 [Power BI Premium](service-premium-what-is.md)。
+
+* **資料行中的相異值** - 快取 Power BI 資料集中的資料 (有時稱為「匯入」模式) 時，資料行中可以儲存之相異值的限制為 1,999,999,997 個。
+
+* **資料列限制** - 使用 **DirectQuery** 時，Power BI 會在傳送到您底層資料來源的查詢結果上加諸限制。 若傳送至資料來源的查詢傳回超過 1 百萬列，您會看到錯誤，而且查詢會失敗。 您的底層資料仍然可以包含超過 1 百萬列。 因為大部分的報表都會將資料彙總成較小的結果集，您不太可能會遇到此限制。
+
+* **資料行限制** - 資料集允許的資料行數目上限；資料集中所有資料表加起來是 16,000 個資料行。 此限制適用於 Power BI 服務以及 Power BI Desktop 中使用的資料集。 Power BI 會使用此方式追蹤資料集中的資料行與資料表數目，這表示資料集中每個資料表的資料行數目上限是 16,000 減一。
 

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a05924fc093c1514f51c3fabac3162433e2188f7
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968911"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307405"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>設定 Premium 容量中的工作負載
 
@@ -70,6 +70,8 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 | **結果資料列集計數上限** | DAX 查詢中傳回的資料列數目上限。 預設值為 -1 (沒有限制)，且允許的範圍介於 100000 到 2147483647 之間。 |
 | **查詢記憶體限制 (%)** | 可用於查詢或 DAX 量值中暫存結果的可用記憶體百分比上限。 |
 | **查詢逾時 (秒)** | 查詢逾時前的最大時間量。預設值為 3600 秒 (1 小時)。 值 0 指定查詢不會逾時。 |
+| **自動頁面重新整理 (預覽)** | 開啟/關閉開關以讓進階工作區具有含自動頁面重新整理的報表。 |
+| **最小重新整理間隔** | 若自動頁面重新整理已開啟，則為頁面重新整理間隔所允許的最小間隔。 預設值為 5 分鐘，而允許的下限為一秒。 |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>中繼資料列集計數上限
@@ -112,6 +114,19 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 所有查詢的時間總和為 75 分鐘，但並未達到設定限制，因為所有個別查詢執行都少於 20 分鐘。
 
 請注意，針對容量查詢，Power BI 報表會以較小的逾時覆寫此預設值。 每個查詢的逾時時間通常為三分鐘。
+
+#### <a name="automatic-page-refresh-preview"></a>自動頁面重新整理 (預覽)
+
+啟用時，自動頁面重新整理可讓您 Premium 容量中的使用者以定義的間隔 (針對 DirectQuery 來源) 重新整理其報表中的頁面。 身為容量管理員，您可以執行下列動作：
+
+1.  開啟及關閉自動頁面重新整理
+2.  定義最小重新整理間隔
+
+下列影像顯示 [自動重新整理間隔] 設定的位置：
+
+![自動重新整理間隔的系統管理設定](media/service-admin-premium-workloads/automatic-refresh-interval.png)
+
+自動頁面重新整理所建立的查詢會直接移至資料來源，因此在您的組織中允許自動頁面重新整理時，請務必考慮這些來源的可靠性與負載。 
 
 ### <a name="dataflows"></a>資料流程
 
@@ -181,5 +196,6 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 [將 Power BI Premium 容量最佳化](service-premium-capacity-optimize.md)     
 [Power BI 中的自助資料準備 (使用資料流程)](service-dataflows-overview.md)   
 [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)   
+[Power BI Desktop 自動頁面重新整理 (預覽)](desktop-automatic-page-refresh.md)
 
 有其他問題嗎？ [詢問 Power BI 社群](http://community.powerbi.com/)

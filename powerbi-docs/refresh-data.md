@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325043"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307933"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 
@@ -309,6 +309,13 @@ in
 > [!NOTE]
 > 您可以在資料集設定中找到顯示重新整理記錄的連結。 您也可以使用 [Power BI REST API](/rest/api/power-bi/datasets/getrefreshhistoryingroup)，透過程式設計方式擷取重新整理記錄。 透過使用自訂解決方案，您可以集中監視多個資料集的重新整理記錄。
 
+## <a name="automatic-page-refresh"></a>自動重新整理頁面
+
+自動頁面重新整理會在報表頁面層級運作，並可讓報表作者設定頁面中視覺效果 (只有在取用頁面時才會是作用中) 的重新整理間隔。 自動頁面重新整理僅適用於 DirectQuery 資料來源。 最小重新整理間隔取決於發行報表的工作區類型，以及進階工作區的容量管理員設定。
+
+若要深入了解自動頁面重新整理，請參閱[自動頁面重新整理](desktop-automatic-page-refresh.md)一文。
+
+
 ## <a name="best-practices"></a>最佳作法
 
 定期檢查資料集的重新整理記錄，是您可以採用來確保報表和儀表板使用目前資料的最重要最佳做法之一。 如果您發現問題時，請立即加以解決，並在必要時連絡資料來源擁有者和閘道管理員。
@@ -324,6 +331,7 @@ in
 - 使用可靠的企業資料閘道部署，以將您的資料集連接到內部部署資料來源。 如果您注意到與閘道相關的重新整理失敗 (例如閘道無法使用或超載)，請連絡閘道管理員以將其他閘道新增至現有的叢集，或部署新的叢集 (相應增加與向外延展)。
 - 針對匯入資料集和 DirectQuery/LiveConnect 資料集使用個別資料閘道，讓排程重新整理期間的資料匯入不會影響 DirectQuery/LiveConnect 資料集上的報表和儀表板效能，這類資料集會在每次與使用者互動時查詢資料來源。
 - 確保 Power BI 可以將重新整理失敗通知傳送至您的信箱。 垃圾郵件篩選可能會封鎖電子郵件訊息或將其移至其他資料夾，而導致您可能不會立即注意到。
+
 
 ## <a name="next-steps"></a>後續步驟
 
