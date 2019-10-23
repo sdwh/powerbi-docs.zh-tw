@@ -353,6 +353,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: 矩陣視覺效果
               href: visuals/desktop-matrix-visual.md
+            - name: 問與答視覺效果
+              href: visuals/power-bi-visualization-q-and-a.md
             - name: 在 Power BI 中使用 R 指令碼建立進階分析和視覺效果
               href: visuals/service-r-visuals.md
             - name: Power BI 中的星形量測計圖表
@@ -375,6 +377,22 @@
               href: visuals/power-bi-visualization-waterfall-charts.md
             - name: 建立動態參考線
               href: service-analytics-pane.md
+        - name: 自然語言
+          items:
+            - name: 問與答簡介
+              href: natural-language/q-and-a-intro.md
+            - name: 問與答視覺效果
+              href: visuals/power-bi-visualization-q-and-a.md
+            - name: 問與答工具簡介
+              href: natural-language/q-and-a-tooling-intro.md
+            - name: 問與答工具教導問與答
+              href: natural-language/q-and-a-tooling-teach-q-and-a.md
+            - name: 問與答工具進階
+              href: natural-language/q-and-a-tooling-advanced.md
+            - name: 問與答最佳做法
+              href: natural-language/q-and-a-best-practices.md
+            - name: 問與答限制
+              href: natural-language/q-and-a-limitations.md
         - name: 疑難排解
           items:
             - name: 解決 Power BI Desktop 和 Power Query 中匯入 Access 資料庫和 Excel 試算表的問題
