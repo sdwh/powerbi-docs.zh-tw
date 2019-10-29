@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Power BI 開發人員版文件
+title: Power BI 開發人員文件
 summary: 不論您如何使用 Power BI，Power BI 文件都能提供專家資訊及答案解決您的需求。
 metadata:
-  title: 適用於開發人員的 Power BI
+  title: Power BI 開發人員文件
   description: 不論您如何使用 Power BI，Power BI 文件都能提供專家資訊及答案解決您的需求。
   services: powerbi
   ms.service: powerbi
@@ -11,49 +11,49 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/02/2019
-  ms.openlocfilehash: 04cbb872183f589ad37e39c0dd132a1a17662ce4
-  ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+  ms.date: 10/25/2019
+  ms.openlocfilehash: ac0d2e2955846d7b67e94af923b41c8b5f476996
+  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 10/14/2019
-  ms.locfileid: "72307647"
+  ms.lasthandoff: 10/26/2019
+  ms.locfileid: "72959536"
 landingContent:
 - title: 關於 Power BI 開發人員版
   linkLists:
   - linkListType: overview
     links:
-    - text: 開發人員可如何使用 Power BI
+    - text: 開發人員能執行的作業
       url: what-can-you-do.md
     - text: Power BI 的視覺效果
       url: ../power-bi-custom-visuals.md
-    - text: Power BI 的內嵌是什麼
+    - text: 什麼是內嵌
       url: embedding.md
     - text: 什麼是 Power BI API
       url: overview-of-power-bi-rest-api.md
   - linkListType: reference
     links:
-    - text: Power BI 開發人員中心
+    - text: 開發人員中心
       url: https://powerbi.microsoft.com/developers/
-    - text: Power BI 開發人員範例
+    - text: 開發人員範例
       url: https://github.com/Microsoft/PowerBI-Developer-Samples
-    - text: Power BI JavaScript Wiki
+    - text: JavaScript Wiki
       url: https://github.com/Microsoft/powerbi-javascript/wiki
-    - text: Power BI REST API
+    - text: REST API
       url: https://docs.microsoft.com/rest/api/power-bi/
     - text: Azure Resource Manager REST API
       url: https://docs.microsoft.com/rest/api/power-bi-embedded/
-- title: Power BI 視覺效果
+- title: 視覺效果
   linkLists:
   - linkListType: tutorial
     links:
-    - text: 開發 Power BI 視覺效果
+    - text: 開發視覺效果
       url: visuals/custom-visual-develop-tutorial.md
   - linkListType: concept
     links:
-    - text: Power BI 視覺效果常見問題集
+    - text: 視覺效果常見問題集
       url: ../power-bi-custom-visuals-faq.md
-    - text: Power BI 視覺效果指南
+    - text: 視覺效果方針
       url: guidelines-powerbi-visuals.md
     - text: 視覺效果中的進階編輯模式
       url: /advanced-edit-mode.md
@@ -79,7 +79,7 @@ landingContent:
       url: embed-multi-tenancy.md
     - text: Embedded 常見問題集
       url: embedded-faq.md
-    - text: Power BI 權限
+    - text: 權限
       url: power-bi-permissions.md
   - linkListType: how-to-guide
     links:
@@ -89,5 +89,5 @@ landingContent:
       url: create-an-azure-active-directory-tenant.md
     - text: 取得 Azure AD 存取權杖
       url: get-azuread-access-token.md
-    - text: Power BI Embedded 問與答
+    - text: Power BI Embedded 的問與答功能
       url: qanda.md

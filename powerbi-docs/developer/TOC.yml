@@ -1,4 +1,5 @@
-- name: 適用於開發人員的 Power BI
+- name: Power BI 開發人員文件
+  href: index.yml
   items:
     - name: 概觀
       expanded: true

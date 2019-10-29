@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: 適用於系統管理員的 Power BI
-summary: 不論您如何使用 Power BI，Power BI 文件都能提供專家資訊及答案解決您的需求。
+title: Power BI 系統管理文件
+summary: 無論您如何使用 Power BI，Power BI 文件都能提供專業資訊與解答來滿足您的需求。
 metadata:
-  title: 適用於系統管理員的 Power BI
-  description: 不論您如何使用 Power BI，Power BI 文件都能提供專家資訊及答案解決您的需求。
+  title: Power BI 系統管理文件
+  description: 無論您如何使用 Power BI，Power BI 文件都能提供專業資訊與解答來滿足您的需求。
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -11,13 +11,13 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/04/2019
-  ms.openlocfilehash: 8209cc755b33887c533e9f90b9b1cd7a5021490e
-  ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+  ms.date: 10/25/2019
+  ms.openlocfilehash: 533b8dc4ccc800e3120f3a01c6069e224c2df27e
+  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 10/10/2019
-  ms.locfileid: "72245642"
+  ms.lasthandoff: 10/26/2019
+  ms.locfileid: "72959511"
 landingContent:
 - title: 關於適用於系統管理員的 Power BI
   linkLists:
