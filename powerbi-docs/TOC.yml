@@ -424,11 +424,11 @@
     - name: 概觀
       items:
         - name: Power BI 是什麼？
-          href: power-bi-overview.md
+          href: fundamentals/power-bi-overview.md
         - name: 什麼是 Power BI 服務？
           href: power-bi-service-overview.md
         - name: Power BI Desktop 與服務的比較
-          href: service-service-vs-desktop.md
+          href: designer/service-service-vs-desktop.md
     - name: 教學課程
       items:
         - name: 開始使用 Power BI
