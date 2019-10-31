@@ -48,6 +48,8 @@
               href: end-user-report-open.md
             - name: 變更報表的顯示方式
               href: end-user-report-view.md
+            - name: 變更視覺效果中的排序次序
+              href: end-user-change-sort.md
             - name: 在報表中使用篩選
               href: end-user-report-filter.md
             - name: 了解報表視覺效果如何相互交叉篩選
