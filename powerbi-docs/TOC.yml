@@ -415,10 +415,20 @@
           href: desktop-latest-update-archive.md
         - name: Power BI Desktop 傳送笑臉隱私權聲明
           href: desktop-send-smile-privacy-statement.md
-        - name: Power BI 報表的協助工具
-          href: desktop-accessibility.md
         - name: 管理 Power BI Desktop 登入表單
           href: desktop-admin-sign-in-form.md
+        - name: 協助工具
+          items:
+            - name: Power BI 中的協助工具概觀
+              href: desktop-accessibility-overview.md
+            - name: 建立具協助功能的 Power BI 報表
+              href: desktop-accessibility-creating-reports.md
+            - name: 使用協助工具來取用 Power BI 報表
+              href: desktop-accessibility-consuming-tools.md
+            - name: 使用協助工具來建立 Power BI 報表
+              href: desktop-accessibility-creating-tools.md
+            - name: Power BI 報表的協助工具鍵盤快速鍵
+              href: desktop-accessibility-keyboard-shortcuts.md
 - name: Power BI 服務
   items:
     - name: 概觀
