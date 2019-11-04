@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c2f6564c83c7234b626686a6fe4c76f65b354e58
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 9a02c642d0b5d766b22b3b8c3853da2d4d773cbd
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185533"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060569"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>使用 Power BI 連接到 Lithium
 
@@ -61,7 +61,7 @@ Lithium 搭起世界最佳品牌與客戶之間的信任關係，協助大眾取
 Lithium 內容套件需要 Lithium community v15.9 或更新版本。 請與 Lithium 系統管理員確認。
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 是什麼？](power-bi-overview.md)
+[Power BI 是什麼？](fundamentals/power-bi-overview.md)
 
 [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 

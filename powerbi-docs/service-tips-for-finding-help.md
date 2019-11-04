@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7baa8284d90242584aa529fb66bc6446402924
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715441"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060310"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>取得 Power BI 問題說明的 10 個祕訣
 您在使用 Power BI 時曾感到挫折嗎？或您曾在需要 Power BI 問題的解答時，因為無法即時如願而難以繼續嗎？ 
@@ -69,6 +69,6 @@ Power BI 小組會在他們的定期 [Power BI 部落格文章](https://powerbi.
 例如，假設您想知道您能否與安全性群組共用儀表板。 在回答此問題時，可以利用 [共用] 對話方塊嘗試新增安全性群組。 無論如何，您在經過這項測試之後，都能得到答案。
 
 ## <a name="next-steps"></a>後續步驟
-* [Power BI 是什麼？](power-bi-overview.md)
+* [Power BI 是什麼？](fundamentals/power-bi-overview.md)
 * 請嘗試詢問 [Power BI 社群](http://community.powerbi.com/)
 * 仍有問題嗎？ 請前往 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)

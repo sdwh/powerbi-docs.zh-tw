@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e912c47c58c96de8d2875b83a530468135e93ef2
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 06fc561d3fbe07cbf553be63c7b19de3ab11992e
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185919"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060947"
 ---
 # <a name="connect-to-intelliboard-with-power-bi"></a>使用 Power BI 連接到 IntelliBoard
 IntelliBoard 透過 Reporting Services 提供對您 Moodle 學習管理系統資料的簡化存取方式。 Power BI 的 IntelliBoard 內容套件提供額外的分析，包括您的課程、註冊的使用者、整體績效和 LMS 活動的度量。
@@ -68,7 +68,7 @@ IntelliBoard 透過 Reporting Services 提供對您 Moodle 學習管理系統資
 需要有具備上述資料表權限的 IntelliBoard 帳戶，才能具現化此內容套件。
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 是什麼？](power-bi-overview.md)
+[Power BI 是什麼？](fundamentals/power-bi-overview.md)
 
 [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 

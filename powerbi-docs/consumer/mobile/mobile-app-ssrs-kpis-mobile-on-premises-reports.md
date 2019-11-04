@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: c735b5e1abbed0c733ca4414e15fc44b741349d8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 01ee3cf9be3a0d6b4350925d4ecb9e57b668457a
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61343623"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060245"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視內部部署報表伺服器報表和 KPI
 
@@ -132,6 +132,6 @@ Power BI 報表、Reporting Services 行動報表和 KPI 皆顯示在 Reporting 
 3. 點選 [移除伺服器]  。
 
 ## <a name="next-steps"></a>後續步驟
-* [Power BI 是什麼？](../../power-bi-overview.md)  
+* [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)  
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

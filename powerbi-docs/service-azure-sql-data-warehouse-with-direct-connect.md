@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: aaeda4c2f7c50e41d9b149e33ba49f5eba76eba8
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448445"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060694"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>具有 DirectQuery 的 Azure SQL 資料倉儲
 
@@ -98,7 +98,7 @@ SQL 資料倉儲也會列在 Power BI 的 [取得資料] 頁面上。
 
 ## <a name="next-steps"></a>後續步驟
 
-* [Power BI 是什麼？](power-bi-overview.md)  
+* [Power BI 是什麼？](fundamentals/power-bi-overview.md)  
 * [取得 Power BI 的資料](service-get-data.md)  
 * [Azure SQL 資料倉儲](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 
