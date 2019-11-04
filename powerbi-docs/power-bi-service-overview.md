@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a4d8b094fe10b674d315b1982e1dc34148ba6d1d
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70775732"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060864"
 ---
 # <a name="what-is-the-power-bi-service"></a>什麼是 Power BI 服務？
 **Power BI** 是一項軟體服務、應用程式和連接器的集合，其可共同運作以協助您和企業透過最有效的方式建立、共用和取用商業見解。 Microsoft Power BI 服務  (app.powerbi.com) 有時稱為 Power BI 線上，其為 Power BI 的 SaaS (軟體即服務  ) 組件。 Power BI 服務中的「儀表板」  有助您掌握商務脈動。 您可以選取儀表板所顯示的「磚」  來開啟「報表」，以  進一步探索。 儀表板和報表都會連接到「資料集」  ，讓所有相關資料集中到一處。 
@@ -26,7 +26,7 @@ ms.locfileid: "70775732"
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-Power BI 的其他主要元件是 Windows 傳統型應用程式 **Power BI Desktop** 和適用於 Windows、iOS 和 Android 裝置的 Power BI **行動應用程式**。 您可以和同事使用這三個元素&mdash;Power BI Desktop、服務和行動應用程式&mdash;來建立、共用和取用商業見解。 如需概觀，請參閱[什麼是 Power BI](power-bi-overview.md)。
+Power BI 的其他主要元件是 Windows 傳統型應用程式 **Power BI Desktop** 和適用於 Windows、iOS 和 Android 裝置的 Power BI **行動應用程式**。 您可以和同事使用這三個元素&mdash;Power BI Desktop、服務和行動應用程式&mdash;來建立、共用和取用商業見解。 如需概觀，請參閱[什麼是 Power BI](fundamentals/power-bi-overview.md)。
 
 ## <a name="creating-reports-in-the-service"></a>在服務中建立報表
 在一般的 Power BI 工作流程中，您一開始會先在 Power BI Desktop 中建立報表，然後將它發佈至 Power BI 服務。  

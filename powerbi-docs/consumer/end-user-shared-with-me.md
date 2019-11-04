@@ -11,15 +11,16 @@ ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d50ed2c06c81514fa6fb129ca3691ec56b8116b9
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 0f7926e536ba80549e8a6e1cdce5a7cf609efaba
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256227"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716717"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>顯示與我共用的報表與儀表板
 
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 當您的同事使用 [共用]  按鈕與您共用內容時，該內容會出現在您的 [與我共用]  容器中。 儀表板或報表只能從 [與我共用]  取得，而無法從 [應用程式]  取得。
 

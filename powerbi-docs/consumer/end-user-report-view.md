@@ -7,17 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/24/2019
+ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: fb4bffe36c24f83d81501554edffa0bb3ae5a3c0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b92060847dbdd100f33ca590cbedc7866fbe252d
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70391695"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716684"
 ---
 # <a name="change-the-display-of-a-report-page"></a>變更報表頁面的顯示
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 人們會在許多不同的裝置上，使用各種螢幕大小和外觀比例來檢視報表。 變更報表頁面的顯示方式以符合需求。
 
