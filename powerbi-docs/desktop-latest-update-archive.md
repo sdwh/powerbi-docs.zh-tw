@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b43408ef91e79d9489480d795329f2e80d0bb1be
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 24ff0748a57df5b76d8a559781cf9326764450e3
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307744"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429719"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -107,8 +107,8 @@ ms.locfileid: "72307744"
 
 請選取下列連結以下載這個較早的版本： 
 
-* [Power BI Desktop 2019 年 9 月版本 - 32 位元](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09.msi)
-* [Power BI Desktop 2019 年 9 月版本 - 64 位元](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09_x64.msi)
+* [Power BI Desktop 2019 年 9 月版本 - 32 位元](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09.exe)
+* [Power BI Desktop 2019 年 9 月版本 - 64 位元](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09_x64.exe)
 
 
 ## <a name="august-2019-update-2725556801"></a>2019 年 8 月更新 (2.72.5556.801)
@@ -286,7 +286,7 @@ ms.locfileid: "72307744"
     * 雲端 RLS 的支援
 * 管理彙總對話方塊協助工具 [[影片]](https://youtu.be/7k-nP38uHyQ?t=1213) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#aggregationsAccessibility) 
 
-### <a name="modeling"></a>建立模型
+### <a name="modeling"></a>模型化
 * 新 == DAX 比較運算子 [[影片]](https://youtu.be/7k-nP38uHyQ?t=1267) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#dax) 
 
 
@@ -366,7 +366,7 @@ ms.locfileid: "72307744"
     * 行動支援
 
 
-### <a name="modeling"></a>建立模型
+### <a name="modeling"></a>模型化
 * 停用新報表的自動日期資料表 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=984) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#autoDate) 
 * ALLSELECTED DAX 函式的更新 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=1080) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#dax) 
 
@@ -442,7 +442,7 @@ ms.locfileid: "72307744"
 * 問與答中字詞的部分同義字比對 [[影片]](https://youtu.be/vih35kSrEHU?t=912) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#partialMatching) 
 
 
-### <a name="modeling"></a>建立模型
+### <a name="modeling"></a>模型化
 * 新的 DAX 函式 - ALLCROSSFILTERED [[影片]](https://youtu.be/vih35kSrEHU?t=970) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dax) 
 
 ### <a name="custom-visuals"></a>自訂視覺效果
@@ -532,7 +532,7 @@ ms.locfileid: "72307744"
 * 將日期顯示為階層的功能現已公開推出 [[影片]](https://youtu.be/rBPGH6eYlT0?t=397)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#dateHierarchy) 
 
 
-### <a name="modeling"></a>建立模型
+### <a name="modeling"></a>模型化
 * 新的模型建構檢視現已正式推出 [[影片]](https://youtu.be/rBPGH6eYlT0?t=417) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
 * 新的 DAX 函數 [[影片]](https://youtu.be/rBPGH6eYlT0?t=560)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#DAX) 
 
@@ -666,7 +666,7 @@ ms.locfileid: "72307744"
 * 問與答的 Live Connect 支援 (預覽) [[影片]](https://youtu.be/AHNlkjRFdYI?t=1037) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#liveConnectQA) 
 
 
-### <a name="modeling"></a>建立模型
+### <a name="modeling"></a>模型化
 
 * DAX 資料編輯列更新 [[影片]](https://youtu.be/AHNlkjRFdYI?t=1132) [[文章]](desktop-modeling-view.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#daxFormulaBar) 
 * 資料檢視協助工具支援 [[影片]](https://youtu.be/AHNlkjRFdYI?t=1253) [[文章]](desktop-composite-models.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#dataView) 
@@ -726,7 +726,7 @@ ms.locfileid: "72307744"
 * 問與答總管中的後續問題 [[影片]](https://youtu.be/1xsXXoyTxfk?t=1429)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
 
 
-### <a name="modeling"></a>建立模型
+### <a name="modeling"></a>模型化
 
 * 新的模型檢視 (預覽) [[影片]](https://youtu.be/1xsXXoyTxfk?t=1642)  [[文章]](desktop-modeling-view.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
 * 複合模型現已正式推出 [[影片]](https://youtu.be/1xsXXoyTxfk?t=1941)  [[文章]](desktop-composite-models.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
@@ -767,11 +767,11 @@ ms.locfileid: "72307744"
 ### <a name="reporting"></a>報告
 
 * 在篩選卡片中搜尋  [[影片]](https://youtu.be/cT3L2VzgBRU?t=56)  [[文章]](power-bi-reports-filters-and-highlighting.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23search) 
-* 撰寫體驗的協助工具改善 [[影片]](https://youtu.be/cT3L2VzgBRU?t=118)  [[文章]](desktop-accessibility.md#arranging-items-in-field-buckets)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
+* 撰寫體驗的協助工具改善 [[影片]](https://youtu.be/cT3L2VzgBRU?t=118)  [[文章]](desktop-accessibility-overview.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
 * ArcGIS Map 的效能改進[[影片]](https://youtu.be/cT3L2VzgBRU?t=333)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
 
 
-### <a name="modeling"></a>建立模型
+### <a name="modeling"></a>模型化
 
 * DAX 編輯器的改善 [[影片]](https://youtu.be/GO1dhDJhSDY)  [[文章]](desktop-formula-editor.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23daxEditor) 
 
@@ -871,7 +871,7 @@ ms.locfileid: "72307744"
 
 以下是 8 月 **Power BI Desktop** 新增的更新：
 
-### <a name="modeling"></a>建立模型
+### <a name="modeling"></a>模型化
 
 * 量值的資料類別  [[影片]](https://youtu.be/dgv5HhHxxe8?t=15m27s)  [[文章]](desktop-measures.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dataCategory)
 * 統計 DAX 函數  [[影片]](https://youtu.be/dgv5HhHxxe8?t=18m56s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dax)
@@ -920,7 +920,7 @@ ms.locfileid: "72307744"
 
 以下是 7 月 **Power BI Desktop** 新增的更新：
 
-### <a name="modeling"></a>建立模型
+### <a name="modeling"></a>模型化
 
 * 複合模型 (預覽) [[影片]](https://youtu.be/Mtig3rmIUe0?t=15s) [[文章]](desktop-composite-models.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
 * 多對多關聯性 (預覽) (與複合模型相關聯) [[影片]](https://youtu.be/Mtig3rmIUe0?t=4m53s) [[文章]](desktop-many-to-many-relationships.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
@@ -980,7 +980,7 @@ ms.locfileid: "72307744"
 
 ### <a name="reporting"></a>報告
 
-* 報表的高對比支援  [[影片]](https://youtu.be/4VpGtWSrssE?t=13s)  [[文章]](desktop-accessibility.md#high-contrast-support-for-reports)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* 報表的高對比支援  [[影片]](https://youtu.be/4VpGtWSrssE?t=13s)  [[文章]](desktop-accessibility-overview.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
 * 環圈圖半徑控制項  [[影片]](https://youtu.be/4VpGtWSrssE?t=6m1s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
 * 圓形圖和環圈圖的詳細資料標籤定位控制項  [[影片]](https://youtu.be/4VpGtWSrssE?t=7m19s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
 * 分別為組合圖中的每個量值格式化資料標籤  [[影片]](https://youtu.be/4VpGtWSrssE?t=9m29s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
@@ -990,7 +990,7 @@ ms.locfileid: "72307744"
 
 * 兩個新的自訂視覺效果  [[影片]](https://youtu.be/4VpGtWSrssE?t=17m42s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
 
-### <a name="modeling"></a>建立模型
+### <a name="modeling"></a>模型化
 * 資料檢視中的篩選和排序  [[影片]](https://youtu.be/4VpGtWSrssE?t=13m11s)  [[文章]](desktop-data-view.md#filtering-in-data-view)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
 * 改善的地區設定篩選   [[影片]](https://youtu.be/4VpGtWSrssE?t=15m35s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#locale) 
 

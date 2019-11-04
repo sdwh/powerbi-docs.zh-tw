@@ -71,6 +71,8 @@
               href: visuals/landing-page.md
             - name: 啟動 URL
               href: visuals/launch-url.md
+            - name: 本機存放區 API
+              href: visuals/local-storage.md
             - name: 轉譯事件
               href: visuals/event-service.md
             - name: 排序

@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8bab7179d8ac344b0cf099fb11352e024d6dfd47
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 3215dfab54d1537ec5f7ca32ee4bd39b9ef997e5
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256348"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72717012"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>從 Power BI 將報表匯出至 PowerPoint
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 有了 Power BI，您就可以將報表發佈至 Microsoft PowerPoint，並根據 Power BI 報表輕鬆地建立投影片組。 當您匯出至 PowerPoint 時，會發生下列狀況：
 
 * Power BI 報表中每個頁面都會變成 PowerPoint 的個別投影片。

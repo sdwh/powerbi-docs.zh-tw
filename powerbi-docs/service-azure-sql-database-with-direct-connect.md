@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a80c549ab3aa61e377b657ad426d240a6a485fdd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: f2d175896876bd6ea6f76b58b0eda0e5100dcfe1
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074237"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060915"
 ---
 # <a name="azure-sql-database-with-directquery"></a>具有 DirectQuery 的 Azure SQL Database
 
@@ -55,7 +55,7 @@ ms.locfileid: "71074237"
 ## <a name="next-steps"></a>後續步驟
 
 * [在 Power BI Desktop 中使用 DirectQuery](desktop-use-directquery.md)  
-* [Power BI 是什麼？](power-bi-overview.md)  
+* [Power BI 是什麼？](fundamentals/power-bi-overview.md)  
 * [取得 Power BI 的資料](service-get-data.md)  
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

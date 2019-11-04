@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ee4b4616f264f0bd20e53d999b64301b2a7a693b
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 42b56cbad4c47b8cc8133a1f35511ea48ac24055
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186057"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060603"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>使用 Power BI 連接到 Azure 稽核記錄
 您可以使用 Azure 稽核記錄內容套件，來分析及視覺化儲存在稽核記錄中的資訊。 Power BI 會擷取您的資料、建置現成的儀表板，然根據該資料建立報表。
@@ -71,6 +71,6 @@ Azure 稽核記錄檔內容套件需要能存取 Azure 入口網站中的稽核�
 如果您看見認證錯誤，或因為認證無效而嘗試重新整理時發生錯誤，請嘗試刪除所有 Azure 稽核記錄檔內容套件的執行個體，並重新連線。
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 是什麼？](power-bi-overview.md)  
+[Power BI 是什麼？](fundamentals/power-bi-overview.md)  
 [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)  
 

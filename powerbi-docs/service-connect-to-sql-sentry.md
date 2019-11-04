@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1fc8decc70ade009a7c4236686cfe9cf72adb54d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 52ca0405c17339580a971162d13cb4ba67f05979
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61161352"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060513"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>使用 Power BI 連接到 SQL Sentry
 使用 Power BI 可輕鬆分析由 SQL Sentry 所收集的效能資料。 Power BI 會擷取您的資料，然後根據該資料建置預設的儀表板和相關報表。
@@ -93,7 +93,7 @@ Power BI 中的 SQL Sentry 提供下列資料：
 如果您並非要同步到 <https://cloud.sqlsentry.com> 之 SQL Sentry 資料庫的擁有者，請連絡系統管理員以確定您有權限檢視所收集的資料。
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 是什麼？](power-bi-overview.md)
+[Power BI 是什麼？](fundamentals/power-bi-overview.md)
 
 [取得 Power BI 的資料](service-get-data.md)
 
