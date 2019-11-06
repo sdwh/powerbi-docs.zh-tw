@@ -102,6 +102,8 @@
               href: embed-sample-for-customers.md
             - name: 內嵌組織的內容
               href: embed-sample-for-your-organization.md
+            - name: 內嵌客戶的編頁報表
+              href: embed-paginated-reports-customers.md
             - name: 為國家/地區雲端內嵌內容
               href: embed-sample-for-customers-national-clouds.md
         - name: 概念
@@ -112,6 +114,8 @@
               href: embed-service-principal.md
             - name: 資料列層級安全性
               href: embedded-row-level-security.md
+            - name: 編頁報表資料列層級安全性
+              href: paginated-reports-row-level-security.md
             - name: 管理多租用戶
               href: embed-multi-tenancy.md
             - name: 適用於 Power BI Embedded 的 Azure 診斷記錄
