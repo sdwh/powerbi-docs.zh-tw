@@ -1109,6 +1109,8 @@
       items:
         - name: 容量規劃白皮書
           href: report-server/capacity-planning.md
+        - name: PDF 轉譯延伸模組一致性
+          href: report-server/rendering-extension-support.md
 - name: 閘道
   items:
     - name: 概觀
