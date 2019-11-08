@@ -3,19 +3,19 @@ title: 部署和管理 Power BI Premium 的容量
 description: 瞭解 Power BI Premium 的潛能，並瞭解如何設計、部署、監視和疑難排解可調整的解決方案。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: eecbc43f26cebc12884ae6c5143a815f6e310ce5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f9269b52b1721cd7c6801cd0337911159c0b2494
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432360"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73786335"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>部署和管理 Power BI Premium 的容量
 
@@ -48,7 +48,7 @@ Power BI 是一種商務分析服務，其設計目的是要提供快速、明�
 
 在共用的容量中，工作負載是在與其他客戶共用的計算資源上執行。 由於容量必須共用資源，因此會強加限制以確保「公平播放」，例如模型大小上限（1 GB）和每日重新整理頻率上限（每天八次）。
 
-### <a name="workspaces"></a>工作區
+### <a name="workspaces"></a>工作區數
 
 Power BI 的工作區位於容量內，並代表安全性、共同作業和部署容器。 每個 Power BI 使用者都有個人工作區，稱為**我的工作區**。 您可以建立額外的工作區來啟用共同作業和部署，這也稱為**工作區**。 根據預設，會在共用容量中建立工作區（包括個人工作區）。
 
@@ -64,7 +64,7 @@ Power BI 的工作區位於容量內，並代表安全性、共同作業和部�
 - 資料集
 - 活頁簿
 - 報表
-- 儀表板
+- Dashboards
 
 #### <a name="dataflows"></a>資料流程
 
@@ -151,7 +151,7 @@ Power BI 活頁簿是 \[[4](#endnote-04)\]的 Power BI 內容類型。 這些是
 
 不論何種報表類型，達到回應式報表載入和資料更新（篩選或參數變更時）都是提供可靠且良好的使用者體驗的必要項。
 
-#### <a name="dashboards"></a>儀表板
+#### <a name="dashboards"></a>Dashboards
 
 Power BI 儀表板的目的是要提供監視體驗，而且在概念上與 Power BI 報表非常不同。 儀表板的設計目的是要在單一畫面上顯示，以表達磚中的值和資料視覺效果。 一般而言，儀表板提供的互動體驗比 Power BI 報表少，有些儀表板設計則不需要互動。 例如，在伺服器聊天室中的非觸控螢幕上顯示的自動儀表板。 另一個重要的差異是，儀表板可能會顯示來自多個資料集之來源資料的磚，而 Power BI 報表只能以單一資料集為基礎。
 

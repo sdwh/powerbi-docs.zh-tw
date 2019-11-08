@@ -2,19 +2,19 @@
 title: Power BI 的技術白皮書
 description: 技術白皮書可讓您更深入探索 Power BI 主題。
 author: maggiesMSFT
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
-ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
+ms.openlocfilehash: e88e6753df091fb7f046d475df59fa4344da5d98
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2019
-ms.locfileid: "73710774"
+ms.locfileid: "73787307"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI 的技術白皮書
 
@@ -34,9 +34,9 @@ ms.locfileid: "73710774"
 | [雙向篩選](desktop-bidirectional-filtering.md) |說明 Power BI Desktop 中的雙向交叉篩選 (技術白皮書另涵蓋 SQL Server Analysis Services 2016，這兩者有相同的行為)。 | 2018 年 7 月 |
 | [SQL Server 2016 Analysis Services 中的 DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |對於 SQL Server 2016，DirectQuery 已經過重新設計，讓速度和效能大幅提升，但現在要了解和實作也變得較複雜。 | 2017 年 1 月 |
 | [Power BI 和 SAP BW](https://aka.ms/powerbiandsapbw)| 本文描述 SAP 客戶可如何從將 Power BI 連線到其現有的 SAP Business Warehouse (BW) 系統中受益。| 2018 年 2 月 |
-| [Securing the Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (保護表格式 BI 語意模型) |此技術白皮書介紹表格式 BI 語意和 Power BI 的資訊安全模型。 您將了解如何建立角色、實作動態安全性、設定模擬設定、管理角色，以及選擇連線到適用於您網路安全性內容之模型的方法。 | 2016 年 4 月 |
+| [Securing the Tabular BI Semantic Model](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (保護表格式 BI 語意模型) |此技術白皮書介紹表格式 BI 語意和 Power BI 的資訊安全模型。 您將了解如何建立角色、實作動態安全性、設定模擬設定、管理角色，以及選擇連線到適用於您網路安全性內容之模型的方法。 | 2016 年 4 月 |
 | [Power BI 與 GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| 此連結會帶您前往服務信任入口網站上的技術白皮書清單，包括 Microsoft Power BI GDPR 技術白皮書。 | 2018 年 4 月 |
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-hybrid-note.md)]
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

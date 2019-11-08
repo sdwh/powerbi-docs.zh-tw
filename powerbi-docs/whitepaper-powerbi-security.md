@@ -3,19 +3,19 @@ title: Power BI 安全性白皮書
 description: 白皮書會討論並描述 Power BI 的安全性架構和實作
 author: davidiseminger
 ms.author: davidi
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4cb2ae69044b156d5f8a4bd554f8386808fb6b9e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 8cbb1c4b25cacae5cb025f85790be6a1657b0482
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430510"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73787749"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
@@ -34,13 +34,13 @@ ms.locfileid: "73430510"
 
 **Power BI** 是 Microsoft 提供的線上軟體服務 (稱為 _SaaS_ 或軟體即服務)，讓您輕鬆快速地建立自助商業智慧儀表板、報表、資料集和視覺效果。 使用 Power BI，您可以連線到許多不同的資料來源、結合與塑造來自這些連線的資料，然後建立與其他人共用的報表和儀表板。
 
-Power BI 服務受 [Microsoft Online Services 條款](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft 隱私權聲明](http://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)制約管轄。 如需資料處理的位置，請參閱 Microsoft Online Services 條款中的資料處理位置條款。 [Microsoft 信任中心](https://www.microsoft.com/trustcenter)是 Power BI 有關合規性資訊的主要資源。 Power BI 小組致力於為客戶創造最新的創新和生產力。 Power BI 目前位於[Office 365 合規性架構](http://go.microsoft.com/fwlink/p/?LinkID=618494)的第 D 層。
+Power BI 服務受 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft 隱私權聲明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)制約管轄。 如需資料處理的位置，請參閱 Microsoft Online Services 條款中的資料處理位置條款。 [Microsoft 信任中心](https://www.microsoft.com/trustcenter)是 Power BI 有關合規性資訊的主要資源。 Power BI 小組致力於為客戶創造最新的創新和生產力。 Power BI 目前位於[Office 365 合規性架構](https://go.microsoft.com/fwlink/p/?LinkID=618494)的第 D 層。
 
 本文透過 Power BI 架構的說明來描述 Power BI 安全性，並說明使用者如何向 Power BI 驗證以及建立資料連線，然後描述 Power BI 如何透過服務儲存及移動資料。 最後一節專門針對安全性相關問題，為每個問題提供答案。
 
 ## <a name="power-bi-architecture"></a>Power BI 架構
 
-**Power BI** 服務是建置在 Microsoft 的**雲端運算平台** [Azure](http://azure.microsoft.com/overview/what-is-azure/) 上。 Power BI 目前部署在世界各地的許多資料中心，向這些資料中心服務的客戶提供許多主動部署，以及作為每個主動部署備份使用之同等數目的被動部署。
+**Power BI** 服務是建置在 Microsoft 的[雲端運算平台](https://azure.microsoft.com/overview/what-is-azure/) **Azure** 上。 Power BI 目前部署在世界各地的許多資料中心，向這些資料中心服務的客戶提供許多主動部署，以及作為每個主動部署備份使用之同等數目的被動部署。
 
 每個 Power BI 部署均由兩個叢集組成：Web 前端 (**WFE**) 叢集和**後端**叢集。 這兩個叢集如下圖所示，為本文其餘部分的背景。 
 
@@ -117,8 +117,8 @@ Power BI 僅於特定區域提供，根據區域資料中心部署 Power BI 叢�
 
 下列連結提供 Azure 資料中心的其他資訊。
 
-- [Azure 區域](http://azure.microsoft.com/regions/) – Azure 全球出現位置的相關資訊
-- [依區域劃分的 Azure 服務](http://azure.microsoft.com/regions/#services) – Microsoft 提供之各區域的 Azure 服務 (基礎結構服務及平台服務) 完整清單。
+- [Azure 區域](https://azure.microsoft.com/regions/) – Azure 全球出現位置的相關資訊
+- [依區域劃分的 Azure 服務](https://azure.microsoft.com/regions/#services) – Microsoft 提供之各區域的 Azure 服務 (基礎結構服務及平台服務) 完整清單。
 
 目前，Power BI 服務可在特定區域中使用，如[Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)所述，由資料中心提供服務。 以下連結顯示 Power BI 資料中心的地圖，您可將滑鼠暫留在區域上，以查看位於該區域的資料中心：
 
@@ -126,7 +126,7 @@ Power BI 僅於特定區域提供，根據區域資料中心部署 Power BI 叢�
 
 Microsoft 也為各國政府提供資料中心。 如需國家/地區雲端的 Power BI 服務可用性詳細資訊，請參閱 [Power BI 國家/地區雲端](https://powerbi.microsoft.com/clouds/)。
 
-如需資料存放位置和使用方式的詳細資訊，請參閱 [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where) (Microsoft 信任中心)。 **Microsoft Online Services 條款**的[資料處理條款](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)會指定客戶待用資料的相關位置。
+如需資料存放位置和使用方式的詳細資訊，請參閱 [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where) (Microsoft 信任中心)。 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)的**資料處理條款**會指定客戶待用資料的相關位置。
 
 ## <a name="user-authentication"></a>使用者驗證
 
@@ -136,7 +136,7 @@ Power BI 服務的使用者驗證包含一系列的要求、回應，並在使�
 
 Power BI 服務的使用者驗證順序如下列步驟中所述，請見下列圖示。
 
-1. 使用者可在 Power BI 位址的網址列 (例如 https://app.powerbi.com)) 中鍵入 Power BI 位址，或在 Power BI 登陸頁面 ( _) 選取 [登入]_ https://powerbi.microsoft.com)，以從瀏覽器起始對 Power BI 服務的連線。 連線是使用 TLS 1.2 和 HTTPS 來建立，而瀏覽器和 Power BI 服務之間所有後續的通訊則使用 HTTPS。 要求傳送至 **Azure 流量管理員**。
+1. 使用者可在 Power BI 位址的網址列 (例如 https://app.powerbi.com) ) 中鍵入 Power BI 位址，或在 Power BI 登陸頁面 (https://powerbi.microsoft.com) ) 選取 [登入]，以從瀏覽器起始對 Power BI 服務的連線。 連線是使用 TLS 1.2 和 HTTPS 來建立，而瀏覽器和 Power BI 服務之間所有後續的通訊則使用 HTTPS。 要求傳送至 **Azure 流量管理員**。
 
 2. **Azure 流量管理員**會檢查使用者的 DNS 記錄，以判斷已部署 Power BI 的最近資料中心，並以應傳送使用者之目標 WFE 叢集的 IP 位址來回應 DNS。
 
@@ -371,7 +371,7 @@ Power BI 行動版的資料快取會在裝置上保留兩週，或是直到應�
 
 Power BI 行動版應用程式不會查看裝置上的資料夾。 
 
-可以使用 Power BI 行動版的三個平台都支援 Microsoft Intune (提供行動裝置和應用程式管理的軟體服務)。 啟用和設定 Intune 後，將會加密行動裝置上的資料，且 Power BI 應用程式本身不能安裝在 SD 卡上。 您可以[深入了解 Microsoft Intune](http://www.microsoft.com/cloud-platform/microsoft-intune)。
+可以使用 Power BI 行動版的三個平台都支援 Microsoft Intune (提供行動裝置和應用程式管理的軟體服務)。 啟用和設定 Intune 後，將會加密行動裝置上的資料，且 Power BI 應用程式本身不能安裝在 SD 卡上。 您可以[深入了解 Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune)。
 
 ## <a name="power-bi-security-questions-and-answers"></a>Power BI 安全性問題和回答
 
@@ -487,7 +487,7 @@ Power BI 中的資料儲存和資料處理，會根據是否使用 DirectQuery �
 - [開始使用 Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
 - [Power BI REST API - Overview](https://msdn.microsoft.com/library/dn877544.aspx) (Power BI REST API - 概觀)
 - [Power BI API reference](https://msdn.microsoft.com/library/mt147898.aspx) (Power BI API 參考)
-- [內部部署資料閘道](service-gateway-onprem.md)
+- [On-premises data gateway (內部部署資料閘道)](service-gateway-onprem.md)
 - [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI 國家/地區雲端](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
