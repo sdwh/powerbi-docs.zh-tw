@@ -3,19 +3,18 @@ title: 部署和管理 Power BI Premium 的容量
 description: 瞭解 Power BI Premium 的潛能，並瞭解如何設計、部署、監視和疑難排解可調整的解決方案。
 author: mgblythe
 ms.author: mblythe
-manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f9269b52b1721cd7c6801cd0337911159c0b2494
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 3ccd4af0f00e132c8bc0bd29a9ff23f89b13a15f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73786335"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880601"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>部署和管理 Power BI Premium 的容量
 
@@ -834,7 +833,7 @@ Power BI Premium 提供更一致的效能、對大型資料磁片區的支援，
 
 ## <a name="end-notes"></a>結束附注
 
-<a name="endnote-01"></a>\[1\] 這份技術檔會與 Power BI 雲端服務所支援的 Power BI Premium 相關，因此 Power BI 報表伺服器不在範圍內，除非安裝 Power BI 報表伺服器所需的授權包含在某些 Power BI Premium Sku。
+<a name="endnote-01"></a>\[1\] 這份技術檔會與 Power BI 雲端服務所支援的 Power BI Premium 相關，因此 Power BI 報表伺服器不在範圍內，除非安裝 Power BI 報表伺服器所需的授權包含在某些 Power BI Premium Sku 中。
 
 <a name="endnote-02"></a>當用來代表應用程式使用者內嵌內容的雲端服務時，\[2\] Power BI 是平臺即服務（PaaS）。 這種內嵌類型可透過不同的兩個產品來達成，其中一個是 Power BI Premium。
 
