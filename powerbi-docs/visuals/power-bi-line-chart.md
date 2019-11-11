@@ -2,7 +2,6 @@
 title: Power BI 中的折線圖
 description: Power BI 中的折線圖
 author: mihart
-manager: kvivek
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4b2c7c237393fd0a8e76b7ca27987c479b5c411d
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408594"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871065"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI 中的折線圖
 折線圖是一連串以點表示並由直線連接的資料點。 折線圖可以有一或多個線條。 折線圖有 X 軸和 Y 軸。 

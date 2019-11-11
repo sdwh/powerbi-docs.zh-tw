@@ -3,18 +3,17 @@ title: 取得要加入資料列的資料集
 description: 推送資料的逐步解說 - 取得資料集，以便將資料列加入 Power BI 資料表
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f7dc84c9c6c84a30417d97f37d984b5f01ec9cd7
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 1edf73aa20301e86146de0d9ef924ad45c6f1f33
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596462"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875733"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步驟 4：取得資料集，以便將資料列加入 Power BI 資料表
 
@@ -22,7 +21,7 @@ ms.locfileid: "67596462"
 
 在＜將資料推送至資料集＞的**步驟 3** [在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)中，您呼叫了[建立資料集](https://docs.microsoft.com/rest/api/power-bi/datasets)作業，以在 Power BI 中建立資料集。 在此步驟中，您會使用[取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)作業和 Newtonsoft.Json 來取得資料集識別碼。您使用步驟 4 中的資料集識別碼將資料列加入資料集。 
 
-若要將資料推送至 Power BI 資料集，您需要參考資料集中的資料表。 若要參考資料集中的資料表，您首先需要取得 **資料集識別碼**。 使用[取得資料集](/rest/api/power-bi/datasets/getdatasets)作業將能取得**資料集識別碼**。 **取得資料集**作業會傳回 JSON 字串，它包含 Power BI 中所有資料集的清單。 建議使用 [Newtonsoft.Json](http://www.newtonsoft.com/json) 還原序列化 JSON 字串。
+若要將資料推送至 Power BI 資料集，您需要參考資料集中的資料表。 若要參考資料集中的資料表，您首先需要取得 **資料集識別碼**。 使用[取得資料集](/rest/api/power-bi/datasets/getdatasets)作業將能取得**資料集識別碼**。 **取得資料集**作業會傳回 JSON 字串，它包含 Power BI 中所有資料集的清單。 建議使用 [Newtonsoft.Json](https://www.newtonsoft.com/json) 還原序列化 JSON 字串。
 
 以下是取得資料集的方式。
 
@@ -270,10 +269,10 @@ namespace walkthrough_push_data
 ## <a name="next-steps"></a>後續步驟
 
 [將資料列新增至 Power BI 資料表](walkthrough-push-data-add-rows.md)  
-[Newtonsoft.Json](http://www.newtonsoft.com/json)  
+[Newtonsoft.Json](https://www.newtonsoft.com/json)  
 [取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [將資料推送至 Power BI](walkthrough-push-data.md)  
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
 [Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/)  
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

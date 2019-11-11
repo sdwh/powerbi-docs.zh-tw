@@ -2,7 +2,6 @@
 title: 我的 Power BI 租用戶位於何處？
 description: 了解您的 Power BI 租用戶所在位置，以及選取該位置的方式。 因為這會影響您與服務的互動，所以務必要了解。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 621b15d682cf2992559f76fa9f8f18bfe68ac93b
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 3f12e6f0b54f85ebd626b2bd35bf1a03d513c17a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074169"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873331"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>我的 Power BI 租用戶位於何處？
 
@@ -44,5 +43,5 @@ Power BI 會挑選最接近此選取項目的資料區域，以決定租用戶�
 > [!IMPORTANT]
 > 在您建立租用戶之後，就無法變更此選取項目。
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

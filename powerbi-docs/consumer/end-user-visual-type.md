@@ -2,7 +2,6 @@
 title: Power BI 中適用於取用者的視覺效果類型
 description: Power BI 服務中的視覺效果類型
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302526"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861312"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的視覺效果類型
 您會在報表、儀表板及問與答中看見視覺效果。 其中一些視覺效果類型是隨 Power BI 一同封裝，而某些則是「自訂視覺效果」  。 自訂視覺效果是在 Power BI 外部建立，且其建立方式允許報表「設計師」  將它們新增至 Power BI 報表和儀表板。 
@@ -169,7 +168,7 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 還可確保提供回應、轉譯和清楚保留整體資料集中重要點的最佳組合。
 
 ### <a name="slicers"></a>交叉分析篩選器
-![交叉分析篩選器](media/end-user-visual-type/pbi-slicer.png)
+![slicer](media/end-user-visual-type/pbi-slicer.png)
 
 交叉分析篩選器是一種獨立圖表，可用來篩選頁面上的其他視覺效果。 交叉分析篩選器有許多不同的格式 (類別、範圍、日期等)，可將其格式化以允許只選取一個、選取多個或所有可用的值。 
 
@@ -232,4 +231,4 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 
 ## <a name="next-steps"></a>後續步驟
 [在報表、儀表板和應用程式中與視覺效果互動](end-user-visualizations.md)    
-[來自 sqlbi.com 的正確視覺效果參考](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[來自 sqlbi.com 的正確視覺效果參考](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

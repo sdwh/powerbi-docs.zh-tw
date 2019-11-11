@@ -2,7 +2,6 @@
 title: Power BI 的高可用性、容錯移轉和災害復原常見問題集
 description: 了解 Power BI 服務如何為其使用者提供高可用性，以及提供商務持續性和災害復原。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b8f98541b70c3573d9f31b5e59196cd37d322bb3
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: dd2c94b490cdf31bd383c7100b9a1bc372f8e75f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075222"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873668"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 的高可用性、容錯移轉和災害復原常見問題集
 
@@ -23,7 +22,7 @@ ms.locfileid: "71075222"
 
 ## <a name="what-does-high-availability-mean-for-power-bi"></a>「高可用性」對 Power BI 來說代表什麼？
 
-Power BI 是完全受控的軟體即服務 (SaaS)。  Microsoft 設計和操作此功能以從基礎結構失敗中復原，讓使用者一律能夠存取他們的報表。  [高達 99.9% 的 SLA](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) 支援此服務。
+Power BI 是完全受控的軟體即服務 (SaaS)。  Microsoft 設計和操作此功能以從基礎結構失敗中復原，讓使用者一律能夠存取他們的報表。  [高達 99.9% 的 SLA](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) 支援此服務。
 
 ## <a name="what-is-a-power-bi-failover"></a>什麼是 Power BI 容錯移轉？
 
@@ -50,7 +49,7 @@ Power BI 會維護 Azure 資料中心 (也稱為區域) 內每個元件的多個
 
 ## <a name="how-do-i-know-power-bi-is-now-in-failover-mode"></a>如何知道 Power BI 現已處於容錯移轉模式？
 
-Power BI 支援頁面 ([https://powerbi.microsoft.com/en-us/support/](https://powerbi.microsoft.com/en-us/support/)) 上已張貼通知。 該通知包含在容錯移轉期間無法使用的主要作業，包括發佈、重新整理、建立儀表板、複製儀表板和權限變更。
+Power BI 支援頁面 ([https://powerbi.microsoft.com/support/](https://powerbi.microsoft.com/support/)) 上已張貼通知。 該通知包含在容錯移轉期間無法使用的主要作業，包括發佈、重新整理、建立儀表板、複製儀表板和權限變更。
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>Power BI 需要多久時間進行容錯移轉？
 

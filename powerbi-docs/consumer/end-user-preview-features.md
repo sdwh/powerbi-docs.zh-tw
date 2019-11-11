@@ -2,7 +2,6 @@
 title: 選擇加入預覽功能
 description: 如何開啟 (開關) 預覽中的 Power BI 功能。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b2d658daade3ab1aa2a1c09dc33c0e7d48636910
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 5189c92c9da29b38d9ffaa4bf59e271e08fc4b2c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141493"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862710"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>選擇加入 Power BI 服務預覽功能
 ## <a name="what-are-preview-features"></a>什麼是「預覽功能」  ？
@@ -34,5 +33,5 @@ ms.locfileid: "71141493"
 4. 若要關閉預覽功能，請遵循上述步驟 1-3，並在步驟 3 中選擇 [關閉]  ，或移除核取方塊，然後選取 [套用]  。
 
 
-有疑問或意見反應嗎？ [請瀏覽 Power BI 社群論壇](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)。
+有疑問或意見反應嗎？ [請瀏覽 Power BI 社群論壇](https://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)。
 

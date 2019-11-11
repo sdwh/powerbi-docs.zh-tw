@@ -2,7 +2,6 @@
 title: Power BI 影片
 description: Power BI 影片與 YouTube 頻道的連結。
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 9068c522d2aedf95fc65e9bc4bece04531db478d
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: a33efaf4e0ecd871170873df072f24bf8f824cdc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060321"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871166"
 ---
 # <a name="power-bi-videos"></a>Power BI 影片
 Power BI 有 YouTube 頻道喔！ 您可以瀏覽[我們的頻道](https://www.youtube.com/user/mspowerbi/videos)；如果您剛開始使用 Power BI，[Analyze & Visualize Data with Power BI 播放清單](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)是很好的起點.
@@ -49,5 +48,5 @@ Power BI 有 YouTube 頻道喔！ 您可以瀏覽[我們的頻道](https://www.y
 ## <a name="next-steps"></a>後續步驟
 [Power BI 是什麼？](fundamentals/power-bi-overview.md)
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 
