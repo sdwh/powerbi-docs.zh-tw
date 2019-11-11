@@ -2,7 +2,6 @@
 title: Power BI 中的矩形式樹狀結構圖
 description: Power BI 中的矩形式樹狀結構圖
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1de5869bc5b422dc98a13316022f653f62675829
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: b70e9611b22f1df20d39cdbd338fd5b6bfe1b43d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71192680"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880730"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI 中的矩形式樹狀結構圖
 
@@ -67,13 +66,13 @@ ms.locfileid: "71192680"
 
 ## <a name="prerequisite"></a>必要條件
 
-本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
+本教學課程使用[零售分析範例 PBIX 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
 1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
    
 2. 尋找您的**零售分析範例 PBIX 檔案**複本
 
-1. 在報表檢視![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png)中開啟**零售分析範例 PBIX 檔案**。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 

@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的查詢概觀
 description: Power BI Desktop 中的查詢概觀
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 56c38a4e42dcdb3fb22e9dc92446c7e963f50e3e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3ee7c094972e7251ab99d9092691bf809344a3d5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513560"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876291"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop 中的查詢概觀
 透過 **Power BI Desktop**，您可以連線到資料世界、建立具吸引力的基礎報表，並與他人分享您的成果。其他使用者可接著以您的成果作為建置基礎，擴展自己的商務智慧成果。
@@ -47,7 +46,7 @@ Power BI Desktop 也隨附 [查詢編輯器]  ，您可以從中連接到一或�
 
 載入查詢之後，[查詢編輯器]  檢視會變得更有趣。 如果我們連接到下列 Web 資料來源，[查詢編輯器]  會載入該資料的相關資訊，您可以接著開始將此資料成形。
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 以下是建立資料連線之後所顯示的 [查詢編輯器]  ：
 

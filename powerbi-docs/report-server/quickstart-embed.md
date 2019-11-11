@@ -8,13 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-manager: kfile
-ms.openlocfilehash: e1787863d2b5db50cdb9a8d09907fbee6623972f
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 195be0766e135dcccc2124a998fb5a32e8703d5b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994981"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875005"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>在 SharePoint Server 中使用 iFrame 來內嵌 Power BI 報表伺服器報表
 
@@ -51,7 +50,7 @@ ms.locfileid: "68994981"
 
    例如：
     ``` 
-    http://myserver/reports/powerbi/Sales?rs:embed=true
+    https://myserver/reports/powerbi/Sales?rs:embed=true
     ```
 ## <a name="embed-the-report-in-a-sharepoint-iframe"></a>在 SharePoint iFrame 內嵌報表
 
@@ -85,7 +84,7 @@ ms.locfileid: "68994981"
 
      例如：
      ```html
-     <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
+     <iframe width="800" height="600" src="https://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
      ```
 
 9. 在頂端功能表中，選取 [頁面]  ，然後選取 [停止編輯]  。

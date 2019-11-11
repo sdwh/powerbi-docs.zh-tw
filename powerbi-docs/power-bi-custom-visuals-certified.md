@@ -3,19 +3,18 @@ title: 經認證的 Power BI Power BI 視覺效果
 description: 提交自訂視覺效果進行認證的需求和程序。 以及經認證的 Power BI 視覺效果清單。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: d0372af2727861a4af0f4ebb983cb447b020b821
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 8b119f0f3b0dfb67dc2f9cb1dfd6f19d72593d66
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021365"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874568"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>取得 Power BI 視覺效果認證
 
@@ -202,4 +201,4 @@ Microsoft 可自行斟酌將視覺效果自[認證清單](#list-of-power-bi-visu
 * [Power BI 中的自訂視覺效果](power-bi-custom-visuals.md)  
 * [在 Microsoft AppSource 上發佈 Power BI 視覺效果](developer/office-store.md)  
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

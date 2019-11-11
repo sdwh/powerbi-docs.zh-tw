@@ -2,7 +2,6 @@
 title: 解決啟動 Power BI Desktop 的問題
 description: 解決啟動 Power BI Desktop 的問題
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 19dc98b4f402176b2ae511236015ea25d7e4178b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: eeaf2c48baddaccbaeb80b788e9f8a5bc3263000
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454414"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878254"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>解決 Power BI Desktop 無法啟動的問題
 在 **Power BI Desktop** 中，因為 Power BI 內部部署閘道在本機電腦的具名管道上設置了系統管理原則限制，所以會封鎖安裝並執行舊版 **Power BI 內部部署資料閘道**的使用者，讓他們無法啟動 Power BI Desktop。 

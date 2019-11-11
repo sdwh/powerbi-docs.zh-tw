@@ -2,7 +2,6 @@
 title: 部署 Power BI 之資料閘道的指引
 description: 了解部署 Power BI 之閘道的最佳做法和考量。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5a0c29f04e7329373eec5f60af840e503ec22b3c
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d4a02ccc759f78a4243f34fb59115fb9084ea90d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729981"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881682"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>部署 Power BI 之資料閘道的指引
 
@@ -69,5 +68,5 @@ Power BI 提供兩種連線類型：DirectQuery 和 Import (匯入)。 並非所
 * [針對閘道進行疑難排解 - Power BI](service-gateway-onprem-tshoot.md)  
 * [內部部署資料閘道常見問題集 - Power BI](service-gateway-power-bi-faq.md)  
 
-有其他問題嗎？ 試試 [Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ 試試 [Power BI 社群](https://community.powerbi.com/)。
 

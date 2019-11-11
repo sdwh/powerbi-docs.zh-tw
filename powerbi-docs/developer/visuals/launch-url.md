@@ -3,18 +3,17 @@ title: 建立啟動 URL
 description: 此文章說明如何使用 Power BI 視覺效果在新索引標籤上開啟 URL。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 7dff03f0ad192e0598c677d41709447fbdc0688d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 1bf7bac5631e0d76864620057ba3d95fab3ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307313"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879932"
 ---
 # <a name="create-a-launch-url"></a>建立啟動 URL
 
@@ -31,12 +30,12 @@ ms.locfileid: "72307313"
 您可以使用 `host.launchUrl()` API 呼叫，並傳遞您的目的地 URL 作為字串引數：
 
 ```typescript
-this.host.launchUrl('http://some.link.net');
+this.host.launchUrl('https://some.link.net');
 ```
 
 ## <a name="restrictions"></a>限制
 
-* 只能使用絕對路徑，不能使用相對路徑。 例如，請使用 `http://some.link.net/subfolder/page.html`之類的絕對路徑。 系統不會開啟像 `/page.html` 這樣的相對路徑。
+* 只能使用絕對路徑，不能使用相對路徑。 例如，請使用 `https://some.link.net/subfolder/page.html`之類的絕對路徑。 系統不會開啟像 `/page.html` 這樣的相對路徑。
 
 * 目前僅支援 *HTTP* 和 *HTTPS* 通訊協定。 請避免使用 *FTP* 和 *MAILTO* 之類的通訊協定。
 

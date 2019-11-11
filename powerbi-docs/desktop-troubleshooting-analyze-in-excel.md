@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中針對 [使用 Excel 分析] 進行疑難排解
 description: '[使用 EXCEL 分析] 的常見問題解決方案'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: a2116f2146072590c4cbcc7f41d941950d9692f0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 987078ae33af10e9c33b4d8a00f8e2e688be12a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543977"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865773"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>[使用 EXCEL 分析] 的疑難排解
 
@@ -24,7 +23,7 @@ ms.locfileid: "72543977"
 > [!NOTE]
 > 沒有專門用來描述及啟用[使用 EXCEL 分析](service-analyze-in-excel.md)的個別頁面。
 > 
-> 如果您遇到下面沒有列出的案例且發生問題，您可以在[社群網站](http://community.powerbi.com/)上要求進一步協助，您也可以建立[支援票證](https://powerbi.microsoft.com/support/)。
+> 如果您遇到下面沒有列出的案例且發生問題，您可以在[社群網站](https://community.powerbi.com/)上要求進一步協助，您也可以建立[支援票證](https://powerbi.microsoft.com/support/)。
 > 
 > 
 
@@ -40,7 +39,7 @@ ms.locfileid: "72543977"
 * 無法將任何項目拖曳到樞紐分析表值區域 (沒有任何量值)
 
 ## <a name="update-excel-libraries-for-the-ole-db-provider"></a>更新 OLE DB 提供者的 Excel 文件庫
-若要使用 [使用 EXCEL 分析]  ，您的電腦必須安裝目前的 AS OLE DB 提供者。 此[社群文章](http://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081)是確認 OLE DB 提供者安裝或下載最新版本的絕佳來源。
+若要使用 [使用 EXCEL 分析]  ，您的電腦必須安裝目前的 AS OLE DB 提供者。 此[社群文章](https://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081)是確認 OLE DB 提供者安裝或下載最新版本的絕佳來源。
 
 Excel 文件庫必須在位元層級方面符合您的 Windows 版本。 如果您已安裝 64 位元 Windows，則必須安裝 64 位元 OLE DB 提供者。
 

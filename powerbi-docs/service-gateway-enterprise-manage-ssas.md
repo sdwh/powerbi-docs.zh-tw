@@ -2,7 +2,6 @@
 title: 管理您的資料來源 ─ Analysis Services
 description: 如何管理內部部署資料閘道及屬於該閘道的資料來源。 本文同時適用於多維度和表格式模式的 Analysis Services。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 02036d8b8fe35729a97a18dc5e058805d089b128
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 646bbc2e1923c3c325fce4c8f745e6b9914133f2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730190"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881663"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理您的資料來源─Analysis Services
 
@@ -284,5 +283,5 @@ EffectiveUserName 不能用在未加入網域的 Analysis Services 伺服器上�
 * [為內部部署資料閘道進行疑難排解](/data-integration/gateway/service-gateway-tshoot)
 * [針對閘道進行疑難排解 - Power BI](service-gateway-onprem-tshoot.md)
 
-有其他問題嗎？ 試試 [Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ 試試 [Power BI 社群](https://community.powerbi.com/)。
 

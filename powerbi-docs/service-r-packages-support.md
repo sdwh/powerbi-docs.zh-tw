@@ -2,7 +2,6 @@
 title: 了解支援哪些 R 套件
 description: Power BI 中支援與不支援的 R 套件
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: edbe565d155f0c0623cfef0417cc3861dc515c15
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 1070cf40fb743fc0d4661bd067b6475ef8dc8217
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654184"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871696"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Power BI 服務中的 R 套件
 您可以使用功能強大的 [R 程式設計語言](https://www.r-project.org/)在 Power BI 服務中建立視覺效果。 Power BI 服務支援眾多 R 套件 (有更多套件一直受到支援)，有些套件則不具支援。
@@ -909,7 +908,7 @@ ms.locfileid: "69654184"
 |TraMineR|2.0-8|https://cran.r-project.org/web/packages/TraMineR/index.html|
 |轉譯|3.4.4|NA|
 |tree|1.0-39|https://cran.r-project.org/web/packages/tree/index.html|
-|矩形式樹狀結構圖|2.4-2|https://cran.r-project.org/web/packages/treemap/index.html|
+|treemap|2.4-2|https://cran.r-project.org/web/packages/treemap/index.html|
 |trelliscopejs|0.1.18|https://cran.r-project.org/web/packages/trelliscopejs/index.html|
 |trimcluster|0.1-2|https://cran.r-project.org/web/packages/trimcluster/index.html|
 |truncnorm|1.0-8|https://cran.r-project.org/web/packages/truncnorm/index.html|

@@ -3,18 +3,17 @@ title: 檢視 Power BI 服務中的編頁報表
 description: 在此教學課程中，您將了解如何檢視 Power BI 服務中的編頁報表。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: f80b13ccd1393e98199acbcaabfbf80ad63707c8
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 670637b59a79691e72b6093451894cc516952a6d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839589"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874659"
 ---
 # <a name="view-a-paginated-report-in-the-power-bi-service"></a>檢視 Power BI 服務中的編頁報表
 

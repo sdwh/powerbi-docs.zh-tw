@@ -2,7 +2,6 @@
 title: 在 OneDrive 中共用連結到 Excel 檔案的儀表板 - Power BI
 description: 閱讀以了解如何在商務用 OneDrive 共用連線到 Excel 活頁簿的儀表板，其中有釘選自該活頁簿的磚。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7157ddd66c651519f59eb964f5fcf95eb127943c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: ee32d10ffeb22160b054661ca91c46890a877fa3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721443"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871473"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>在 OneDrive 中共用連結到 Excel 檔案的 Power BI 儀表板
 在 Power BI 中，您可以[連接到商務用 OneDrive 的 Excel 活頁簿](service-excel-workbook-files.md)，並從該活頁簿將磚釘選至儀表板。 當您共用儀表板，或建立包含該儀表板的內容組件時：
@@ -57,5 +56,5 @@ ms.locfileid: "66721443"
 ## <a name="next-steps"></a>後續步驟
 * [從 Excel 將磚釘選到 Power BI 儀表板](service-dashboard-pin-tile-from-excel.md)
 * [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

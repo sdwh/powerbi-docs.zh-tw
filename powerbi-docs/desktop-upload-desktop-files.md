@@ -2,7 +2,6 @@
 title: 從 Power BI Desktop 發行
 description: 從 Power BI Desktop 發行
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69e458d966e656847a4e2122df148e90c1834a58
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: fa8e901d73d6ae0f35e74a427354368e75977202
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160312"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865355"
 ---
 # <a name="publish-from-power-bi-desktop"></a>從 Power BI Desktop 發行
 當您將 **Power BI Desktop** 檔案發行至 **Power BI 服務**時，模型中的資料和您在 [報表]  檢視中建立的任何報表，都會發行至 Power BI 工作區。 您會看到新的資料集具有相同名稱，以及在工作區導覽器中的所有報表。

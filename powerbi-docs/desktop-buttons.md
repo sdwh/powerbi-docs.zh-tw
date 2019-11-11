@@ -2,7 +2,6 @@
 title: 使用 Power BI 中的按鈕
 description: Power BI Desktop 中的按鈕可讓您製作行為類似應用程式的報表與儀表板，並促進與使用者的互動
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9d884df7fdfa6d0f16e7963c00a1100186d70546
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a38b54bdacd0f60ee0151ad7c1a2084cebac2a37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239487"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878726"
 ---
 # <a name="using-buttons-in-power-bi"></a>使用 Power BI 中的按鈕
 使用 Power BI Desktop 中的**按鈕**可讓您製作行為類似應用程式的報表與儀表板，進而打造出互動式環境，讓使用者能夠以滑鼠瀏覽及點選 Power BI 內容，並進行深入互動。 您可在 **Power BI Desktop** 中為報表新增按鈕，並將這些報表共用或發佈至 Power BI 服務來建立能為使用者提供行為類似應用程式的儀表板。

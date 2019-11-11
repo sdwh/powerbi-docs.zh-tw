@@ -3,18 +3,17 @@ title: 將格式選項新增到 Power BI 自訂視覺效果
 description: 說明如何開發 Power BI 自訂視覺效果格式選項的教學課程
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: e953fdc9741a7faa69f1dab04f2298f8b7d5db13
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 084ef3affcec7a177bab95aa5809161dd591858a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72309126"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880210"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>教學課程：將格式設定選項新增到 Power BI 視覺效果
 

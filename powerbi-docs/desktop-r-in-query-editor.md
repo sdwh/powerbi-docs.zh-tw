@@ -2,7 +2,6 @@
 title: 在 Power Query 編輯器中使用 R
 description: 在 Power BI Desktop 查詢編輯器中使用 R 以進行進階分析
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: d2ba33e18701ad147cb38072461804b4528101ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841505"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877934"
 ---
 # <a name="use-r-in-query-editor"></a>在查詢編輯器中使用 R
 
@@ -50,7 +49,7 @@ ms.locfileid: "70841505"
 
 為了示範在 [查詢編輯器]  中使用 **R**，我們會使用包含在 .csv 檔案中的範例股市資料集，並逐步完成下列步驟：
 
-1. [下載 **EuStockMarkets_NA.csv** 檔案](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)。 請記住您儲存的位置。
+1. [下載 **EuStockMarkets_NA.csv** 檔案](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)。 請記住您儲存的位置。
 
 1. 將檔案載入 **Power BI Desktop**：從 [常用]  功能區中，選取 [取得資料] > [文字/CSV]  。
 
@@ -108,7 +107,7 @@ ms.locfileid: "70841505"
 您可以在一個 **Power BI Desktop** .pbix 檔案中儲存所有完成的視覺效果，然後在 Power BI 服務中使用資料模型和它的 R 指令碼。
 
 > [!NOTE]
-> 您可以[下載已完成所有步驟的 .pbix 檔案](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix)。
+> 您可以[下載已完成所有步驟的 .pbix 檔案](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix)。
 
 在您將 .pbix 檔案上傳到 Power BI 服務後，您需要採取額外步驟來啟用服務資料重新整理和更新後的視覺效果：  
 

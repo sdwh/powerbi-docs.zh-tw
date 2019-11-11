@@ -2,7 +2,6 @@
 title: 在 Power BI 服務中編輯參數設定
 description: 查詢參數會在 Power BI Desktop 中建立，但可以在 Power BI 服務中檢閱及更新
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8db6f106ecc2285cb66ff980bc72fa666456f81a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 656de2cbf318211bf2fe19f15a3867ab183f3173
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61225951"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871964"
 ---
 # <a name="edit-parameter-settings-in-the-power-bi-service"></a>在 Power BI 服務中編輯參數設定
 報表建立者會在 Power BI Desktop 中將查詢參數新增至報表。 參數允許他們讓報表的各部分根據一或多個參數「值」  。 例如，報表建立者可能會建立將資料限制為單一國家/地區的參數，或定義可接受欄位格式的參數 (例如日期、時間和文字)。

@@ -2,7 +2,6 @@
 title: 深入了解內部部署資料閘道
 description: 本文探討內部部署閘道的深入資訊。 這會探討服務與 Azure Active Directory 之間的運作方式以及本機 Active Directory 使用 Analysis Services 時的運作方式
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7d6948f7b5be25b7027a4aa2adaf244a2cde836a
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: e8807feeccccebab8837ac571ae4340c5c0c9b1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729954"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881582"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解內部部署資料閘道
 
@@ -106,4 +105,4 @@ ms.locfileid: "68729954"
 
 [什麼是內部部署資料閘道？](service-gateway-onprem.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

@@ -3,18 +3,17 @@ title: 使用 Power BI 報表伺服器中的 REST API 進行開發
 description: REST API 提供以程式設計方式存取 Power BI 報表伺服器目錄中的物件。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 8f35b7a3c19751b4537a49fa8cb30f4347f080ed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 9b8e795c4a55f9efd6fd534d92d95b36c93cf2c0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770758"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874068"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>使用 Power BI 報表伺服器中的 REST API 進行開發
 
@@ -41,7 +40,7 @@ REST API 要求/回應配對可以分成五個元件：
 * 選擇性 HTTP **要求訊息本文**欄位，以支援 URI 和 HTTP 作業。 例如，POST 作業包含 MIME 編碼的物件，作為複雜參數傳遞。 針對 POST 或 PUT 作業，本文的 MIME 編碼類型也應該在 `Content-type` 要求標頭中指定。 有些服務需要您使用特定的 MIME 類型，例如 `application/json`。
 * HTTP **回應訊息標頭**欄位：
   
-  * [HTTP 狀態碼](http://www.w3.org/Protocols/HTTP/HTRESP.html)，範圍從 2xx 成功碼到 4xx 或 5xx 錯誤碼。 或者，可能會傳回定義服務的狀態碼，如同 API 文件中所示。
+  * [HTTP 狀態碼](https://www.w3.org/Protocols/HTTP/HTRESP.html)，範圍從 2xx 成功碼到 4xx 或 5xx 錯誤碼。 或者，可能會傳回定義服務的狀態碼，如同 API 文件中所示。
   * 選擇性額外標頭欄位，是支援要求的回應所需項目，例如 `Content-type` 回應標頭。
 * 選擇性 HTTP **回應訊息本文**欄位：
   
@@ -53,7 +52,7 @@ REST API 要求/回應配對可以分成五個元件：
 
 ## <a name="testing-api-calls"></a>測試 API 呼叫
 
-用來測試 HTTP 要求/回應訊息的工具是 [Fiddler](http://www.telerik.com/fiddler)。 Fiddler 是免費的 Web 偵錯 Proxy，可以攔截 REST 要求，以便輕鬆地診斷 HTTP 要求/回應訊息。
+用來測試 HTTP 要求/回應訊息的工具是 [Fiddler](https://www.telerik.com/fiddler)。 Fiddler 是免費的 Web 偵錯 Proxy，可以攔截 REST 要求，以便輕鬆地診斷 HTTP 要求/回應訊息。
 
 ## <a name="next-steps"></a>後續步驟
 

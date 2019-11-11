@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中連接到 Snowflake 運算倉儲
 description: 在 Power BI Desktop 中輕鬆連接並使用 Snowflake 運算倉儲
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c02eda44ec81fe31972055548996ae357bc4c4b9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2bb44498b6123eadffe86c7eb9bfb93bb0db5e14
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513833"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876413"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>在 Power BI Desktop 中連接到 Snowflake
 在 Power BI Desktop 中，您可以連接至 **Snowflake** 運算倉儲並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。 
 
 > [!NOTE]
-> 您還「必須」  使用符合 **Power BI Desktop** 安裝的 32 位元或 64 位元架構，在使用 **Snowflake** 連接器的電腦上安裝 **Snowflake ODBC 驅動程式**。 只要遵循下列連結並[下載適當的 Snowflake ODBC 驅動程式](http://go.microsoft.com/fwlink/?LinkID=823762)即可。
+> 您還「必須」  使用符合 **Power BI Desktop** 安裝的 32 位元或 64 位元架構，在使用 **Snowflake** 連接器的電腦上安裝 **Snowflake ODBC 驅動程式**。 只要遵循下列連結並[下載適當的 Snowflake ODBC 驅動程式](https://go.microsoft.com/fwlink/?LinkID=823762)即可。
 > 
 > 
 

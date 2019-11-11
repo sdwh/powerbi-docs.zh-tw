@@ -2,7 +2,6 @@
 title: Power BI 中的高密度散佈圖
 description: Power BI 中的高密度散佈圖
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 928e93c724a47f48aff1f87ee51f9a8c907774d6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ae33d7aac0eb42e925e78b8b76a9d7106cdf9d20
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454293"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867432"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 散佈圖中的高密度取樣
 從 **Power BI Desktop** 的 2017 年 9 月版和 **Power BI 服務**的更新開始，有新的取樣演算法可以改善散佈圖代表高密度資料的方式。

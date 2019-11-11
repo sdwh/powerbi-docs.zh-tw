@@ -2,18 +2,17 @@
 title: 在 Power BI 行動裝置應用程式中依地理位置篩選報表
 description: 了解如何在 Power BI mobile apps 中，依地理位置篩選報表 (若報表擁有者已設定地理標記)。
 author: mshenhav
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mshenhav
-ms.openlocfilehash: 9a4950a1d52451764c3c62413bf4ecbd036f06c8
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 1079b624ebab827b41f4da55095028796319fdcd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305787"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870645"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中依地理位置篩選報表
 適用於︰
@@ -51,5 +50,5 @@ ms.locfileid: "71305787"
 ### <a name="next-steps"></a>後續步驟
 * 透過行動裝置應用程式[實際連接 Power BI 資料](mobile-apps-data-in-real-world-context.md)
 * [Power BI Desktop 中的資料分類](../../desktop-data-categorization.md) 
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

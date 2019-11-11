@@ -3,19 +3,18 @@ title: 如何設定 Power BI Premium 中的工作負載
 description: 了解如何設定 Power BI Premium 容量中的工作負載。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307405"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856821"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>設定 Premium 容量中的工作負載
 
@@ -198,4 +197,4 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)   
 [Power BI Desktop 自動頁面重新整理 (預覽)](desktop-automatic-page-refresh.md)
 
-有其他問題嗎？ [詢問 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [詢問 Power BI 社群](https://community.powerbi.com/)

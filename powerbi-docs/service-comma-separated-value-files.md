@@ -2,7 +2,6 @@
 title: 從逗點分隔值 (.CSV) 檔案取得資料
 description: 了解如何從 CSV 檔案取得資料並放入 Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1a150c2cb4eb819b78b2b08a492087eb98bf6363
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a33c8a45f4f32efb0a47df82b8af23d42c281ae9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513313"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855536"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>從逗點分隔值 (.CSV) 檔案取得資料
 ![](media/service-comma-separated-value-files/csv_icon.png)
 
-逗點分隔值檔案通常稱為 .CSV，這是具有多列資料並以逗號分隔每個值的簡單文字檔。 這些類型的檔案可以在相對很小的檔案內包含大量資料，因此是 Power BI 的理想資料來源。 您可以在[這裡](http://go.microsoft.com/fwlink/?LinkID=619356)下載範例 .CSV 檔案。
+逗點分隔值檔案通常稱為 .CSV，這是具有多列資料並以逗號分隔每個值的簡單文字檔。 這些類型的檔案可以在相對很小的檔案內包含大量資料，因此是 Power BI 的理想資料來源。 您可以在[這裡](https://go.microsoft.com/fwlink/?LinkID=619356)下載範例 .CSV 檔案。
 
 如果您有 .CSV，就能夠放到 Power BI 網站中作為資料集，以開始瀏覽資料、建立一些儀表板，並與其他人分享您的深入解析。
 

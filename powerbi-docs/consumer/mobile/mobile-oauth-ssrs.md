@@ -3,18 +3,17 @@ title: 使用 OAuth 連線至 Power BI 報表伺服器和 SSRS
 description: 了解如何設定您的環境以使用 Power BI 行動裝置應用程式支援 OAuth 驗證，才能連線至 SQL Server Reporting Services 2016 或更新版本。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 59c376afd384812473d3175df992c628ae5049ca
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9ce761d09e2db4fbbc2e56d461f5272041edfbfe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903649"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870084"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 連線至 Power BI 報表伺服器和 SSRS
 
@@ -193,7 +192,7 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 您需要確定具�
 在 Report Access 管理主控台內發行應用程式時，我們想要透過 PowerShell 建立應用程式。 以下是新增應用程式的命令。
 
 ```powershell
-Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
+Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl https://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
 | 參數 | 註解 |
@@ -243,7 +242,7 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ![「無法登入 SSRS 伺服器」錯誤](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
-您可以設定 [Fiddler](http://www.telerik.com/fiddler) 作為您行動裝置的 Proxy，來查看提出它的要求有多遠。 若要啟用手機裝置的 Fiddler Proxy，您需要在執行 Fiddler 的電腦上設定 [CertMaker for iOS and Android](http://www.telerik.com/fiddler/add-ons) \(英文\)。 該附加元件是來自 Telerik for Fiddler。
+您可以設定 [Fiddler](https://www.telerik.com/fiddler) 作為您行動裝置的 Proxy，來查看提出它的要求有多遠。 若要啟用手機裝置的 Fiddler Proxy，您需要在執行 Fiddler 的電腦上設定 [CertMaker for iOS and Android](https://www.telerik.com/fiddler/add-ons) \(英文\)。 該附加元件是來自 Telerik for Fiddler。
 
 如果使用 Fiddler 時登入成功，您可能會有 WAP 應用程式或 ADFS 伺服器的憑證問題。 您可以使用 [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226) 這類工具確認憑證是否有效。
 
@@ -256,4 +255,4 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 [Web Application Proxy in Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) (Windows Server 2016 中的 Web 應用程式 Proxy)  
 [Publishing Applications using AD FS Preauthentication](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app) (使用 AD FS 預先驗證發行應用程式)  
 [Configure AD FS 2016 and Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa) (設定 AD FS 2016 和 Azure MFA)  
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

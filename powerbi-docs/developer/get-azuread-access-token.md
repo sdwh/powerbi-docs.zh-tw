@@ -3,18 +3,17 @@ title: 為應用程式驗證使用者及取得 Azure AD 存取權杖
 description: 了解如何在 Azure Active Directory 註冊應用程式，以用來內嵌 Power BI 內容。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/04/2019
-ms.openlocfilehash: f0e8a9931248860e11f783d04fead6172559afc1
-ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.openlocfilehash: 1655843d9e3175b9c428434fd533a601cc42d847
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66814273"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875746"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>為 Power BI 應用程式取得 Azure AD 存取權杖
 
@@ -50,7 +49,7 @@ var @params = new NameValueCollection
     {"resource", Properties.Settings.Default.PowerBiAPI},
 
     //After user authenticates, Azure AD will redirect back to the web app
-    {"redirect_uri", "http://localhost:13526/Redirect"}
+    {"redirect_uri", "https://localhost:13526/Redirect"}
 };
 ```
 
@@ -80,7 +79,7 @@ protected void signInButton_Click(object sender, EventArgs e)
         {"resource", Properties.Settings.Default.PowerBiAPI},
 
         //After user authenticates, Azure AD will redirect back to the web app
-        {"redirect_uri", "http://localhost:13526/Redirect"}
+        {"redirect_uri", "https://localhost:13526/Redirect"}
     };
 
     //Create sign-in query string
@@ -207,4 +206,4 @@ m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bea
 
 取得存取權杖後，即可呼叫 Power BI REST API 以內嵌內容。 如需詳細資訊，請參閱[如何內嵌 Power BI 內容](embed-sample-for-customers.md#embed-content-within-your-application)。
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

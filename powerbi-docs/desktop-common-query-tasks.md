@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的常見查詢工作
 description: Power BI Desktop 中的常見查詢工作
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239460"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878662"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常見查詢工作
 當使用 Power BI Desktop 的 [查詢編輯器]  視窗時，有很多常用的工作。 本文將示範這些常見工作，並提供其他資訊的連結。 
@@ -31,9 +30,9 @@ ms.locfileid: "65239460"
 
 我們將使用幾個資料連線來完成這些工作。 如果您想要自行逐步執行這些工作，可以下載或連接至資料。
 
-第一個資料連線是 Excel 活頁簿，可從[此連結](http://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx)下載。 另一個則是 Web 資源 (這也會在其他 Power BI Desktop 說明內容中使用)，可以從這裡存取：
+第一個資料連線是 Excel 活頁簿，可從[此連結](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx)下載。 另一個則是 Web 資源 (這也會在其他 Power BI Desktop 說明內容中使用)，可以從這裡存取：
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 連接至這兩個資料來源所需的步驟是常見查詢工作的開始位置。
 
@@ -142,7 +141,7 @@ ms.locfileid: "65239460"
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-以下就來看看 [進階編輯器]  ，其中顯示與 **USA\_StudentEnrollment** 查詢相關聯的查詢步驟。 這些步驟是以 Power Query 公式語言建立，這個語言常稱為 **M**。如需資訊，請參閱[深入了解 Power Query 公式](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)。 若要檢視語言規格本身，請參閱 [Microsoft Power Query for Excel 公式語言規格](http://go.microsoft.com/fwlink/?linkid=320633) \(英文\)。
+以下就來看看 [進階編輯器]  ，其中顯示與 **USA\_StudentEnrollment** 查詢相關聯的查詢步驟。 這些步驟是以 Power Query 公式語言建立，這個語言常稱為 **M**。如需資訊，請參閱[深入了解 Power Query 公式](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)。 若要檢視語言規格本身，請參閱 [Microsoft Power Query for Excel 公式語言規格](/powerquery-m/excel-workbook) \(英文\)。
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

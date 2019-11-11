@@ -3,19 +3,18 @@ title: Power BI 的 [發行至 Web]
 description: 透過 Power BI 的 [發行至 Web]，您可以輕鬆地使用任何裝置，線上內嵌互動式 Power BI 視覺效果，例如內嵌至部落格文章、網站，或透過電子郵件、社交媒體傳送。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9824b3340da694c00784f34b0c6245cafbf69383
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 9f8da4a5f37eb1e652dd2125dd588febf49fb01b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239908"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871837"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -186,4 +185,4 @@ Power BI 系統管理員可以啟用或停用 [發佈至 Web ]  功能。 他們
 
 - [在安全入口網站或網站中內嵌報告](service-embed-secure.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

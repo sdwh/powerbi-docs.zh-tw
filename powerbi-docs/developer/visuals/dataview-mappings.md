@@ -3,18 +3,17 @@ title: 了解 Power BI 視覺效果中的資料檢視對應
 description: 此文章說明 Power BI 如何轉換資料，再將它傳入視覺效果。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 77d5d6423c8246712d12dcc041d32ae73f68b72e
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 07cc0517fb27649bb3cc47b8ba8f51b4268d9a7c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193541"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880167"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>了解 Power BI 視覺效果中的資料檢視對應
 
@@ -516,7 +515,7 @@ Power BI 會建立階層式資料結構。 樹狀結構階層的根包含 `Categ
 
 資料集：
 
-| 上層 | 下層 | 下下層 | 資料行 | 值 |
+| 上層 | 下層 | 下下層 | 行 | 值 |
 |-----|-----|------|-------|-------|
 | Parent1 | Child1 | Grand child1 | Col1 | 5 |
 | Parent1 | Child1 | Grand child1 | Col2 | 6 |

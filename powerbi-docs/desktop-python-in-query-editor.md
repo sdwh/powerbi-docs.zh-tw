@@ -2,7 +2,6 @@
 title: 在 Power BI 查詢編輯器中使用 Python
 description: 在 Power BI Desktop 查詢編輯器中使用 Python 以進行進階分析
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 371779df3aaf7cf08d96f61f49039a6383eeda9c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61286488"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878029"
 ---
 # <a name="using-python-in-query-editor"></a>在查詢編輯器中使用 Python
 您可以在 Power BI Desktop **查詢編輯器**中使用 **Python**，這是統計學家、資料科學家和資料分析師廣泛使用的程式設計語言。 將 Python 整合到**資料編輯器**中，可讓您使用 Python 執行資料清理，以及在資料集執行進階資料成形與分析，包括補足遺漏的資料、預測及叢集等。 **Python** 是功能強大的語言，可用於**查詢編輯器**以準備您的資料模型及建立報表。
@@ -24,7 +23,7 @@ ms.locfileid: "61286488"
 若要在 Power BI Desktop 的**查詢編輯器**中使用 **Python**，您必須在本機電腦上安裝 **Python**。 您可以從許多位置免費下載並安裝 **Python**，包括[官方 Python 下載頁面](https://www.python.org/)以及 [Anaconda](https://anaconda.org/anaconda/python/)。
 
 ## <a name="using-python-in-query-editor"></a>在查詢編輯器中使用 Python
-為了示範如何在**查詢編輯器**中使用 **Python**，我們會使用來自股市資料集的範例，您可以[從這裡下載](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)該 .CSV 檔案並遵循指示。 本範例的步驟如下所示：
+為了示範如何在**查詢編輯器**中使用 **Python**，我們會使用來自股市資料集的範例，您可以[從這裡下載](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)該 .CSV 檔案並遵循指示。 本範例的步驟如下所示：
 
 1. 首先，將您的資料載入 **Power BI Desktop**。 在此範例中，載入 *EuStockMarkets_NA.csv* 檔案，然後從 **Power BI Desktop** 的 [首頁]  功能區選取 [取得資料] > [CSV]  。
    
@@ -77,7 +76,7 @@ ms.locfileid: "61286488"
 一旦完成該視覺效果以及其他要使用 **Power BI Desktop** 建立的任何視覺效果，您就可以儲存 **Power BI Desktop** 檔案 (儲存為 .pbix 檔案)，然後在 Power BI 服務中使用資料模型，包括屬於其中的 Python 指令碼。
 
 > [!NOTE]
-> 想查看完成這些步驟後的完成後 .pbix 檔案嗎？ 幸運的是，您可以在[這裡](http://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix)下載這些範例中使用的完成後 **Power BI Desktop** 檔案。
+> 想查看完成這些步驟後的完成後 .pbix 檔案嗎？ 幸運的是，您可以在[這裡](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix)下載這些範例中使用的完成後 **Power BI Desktop** 檔案。
 
 一旦將 .pbix 檔案上傳到 Power BI 服務，就必須再執行幾個步驟以 (在服務中) 啟用資料重新整理，並讓視覺效果在服務中保持更新 (資料需要 Python 存取權以更新視覺效果)。 其他步驟如下：
 

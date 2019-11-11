@@ -6,17 +6,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f2d175896876bd6ea6f76b58b0eda0e5100dcfe1
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 125838ccd53e4e5f35bbd702f8a1cf319e6c278d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060915"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855709"
 ---
 # <a name="azure-sql-database-with-directquery"></a>具有 DirectQuery 的 Azure SQL Database
 
@@ -58,4 +57,4 @@ ms.locfileid: "73060915"
 * [Power BI 是什麼？](fundamentals/power-bi-overview.md)  
 * [取得 Power BI 的資料](service-get-data.md)  
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

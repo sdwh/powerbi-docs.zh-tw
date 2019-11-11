@@ -3,18 +3,17 @@ title: 在報表設計檢視中瀏覽編頁報表
 description: 報表產生器中的報表設計檢視，是用於建立可以在 Power BI 服務中發佈之編頁報表的設計空間。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 6be5121c91d64a4bd9437a1d7d111d10627b8330
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: a77631cbf2438c00a8c05b196837b73b8dc6bb61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751601"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874690"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports"></a>在報表設計檢視中瀏覽編頁報表
 

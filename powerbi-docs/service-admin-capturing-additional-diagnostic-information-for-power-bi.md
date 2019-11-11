@@ -2,7 +2,6 @@
 title: 擷取其他診斷資訊
 description: 這些指示提供兩個可能的選項，以從 Power BI Web 用戶端手動收集其他診斷資訊。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 09/17/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: ea1756b82efe6a68940ae3c5094eafc9c3ca4c7c
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 370ac3fad6f31c214ecafad7762acd8219831218
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305858"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873691"
 ---
 # <a name="capture-additional-diagnostic-information-for-power-bi"></a>擷取 Power BI 的其他診斷資訊
 
@@ -60,4 +59,4 @@ ms.locfileid: "71305858"
 
 1. 您可以提供 HAR 檔案以支援檢閱。
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

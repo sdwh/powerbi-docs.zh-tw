@@ -3,18 +3,17 @@ title: Power BI 編頁報表支援的資料來源
 description: 在本文中，您將了解 Power BI 服務編頁報表支援的資料來源，以及如何連接至 Azure SQL Database 資料來源。
 author: onegoodsausage
 ms.author: andremi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.openlocfilehash: f0cc7563fc59a6c1ceeceefcf4b65b0cc1a3aa80
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: fcc6e7880a3f27c6b35fe2192e76a0b2cc82abd0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968660"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874861"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 編頁報表支援的資料來源
 
@@ -74,4 +73,4 @@ ms.locfileid: "71968660"
 
 [檢視 Power BI 服務中的編頁報表](paginated-reports-view-power-bi-service.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: 建立 Power BI 問與答的精選問題
 description: 說明如何建立 Power BI 問與答的精選問題
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 138c14e98485777d84130854c7811a33b74dffd3
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721131"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881106"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>建立 Power BI 問與答的精選問題
 如果您擁有自己的資料集，則可將自己的精選問題新增至該資料集。 Power BI 問與答會向取用根據該資料集之報表的同事顯示這些問題。  精選問題可讓您的同事有些概念，知道要針對資料集詢問哪類問題。 您可自行決定要新增什麼精選問題 -- 新增熱門問題、會顯示有趣結果的問題，或難以簡短說明的問題。
@@ -50,5 +49,5 @@ ms.locfileid: "66721131"
 - [在儀表板和報表中使用問與答](power-bi-tutorial-q-and-a.md)  
 - [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)  
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

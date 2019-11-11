@@ -3,18 +3,17 @@ title: 對 Power BI 報表伺服器中的報表新增註解
 description: 了解如何將註解新增至 Power BI 報表伺服器或 SQL Server Reporting Services 報表伺服器上的 Power BI 報告或編頁報告。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.openlocfilehash: 87b0c3b1c50c38d69009e28513188362b52549dc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: dd469bdbfa530a1a4728494d3c06e571600dfb5f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769654"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874334"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>在報表伺服器中將註解新增至報表 - Power BI 報表伺服器
 

@@ -2,7 +2,6 @@
 title: 適用於美國政府客戶的 Power BI 註冊
 description: 對於美國政府客戶，深入了解如何針對美國政府組織註冊 Power BI 美國政府服務
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ca9233f6373f8732f0996a09d7fe83ea18431f88
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: c24ed4b605b0e0d8176fc5428d6c30aa2dd131cd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715330"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872262"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服務中註冊美國政府組織
 **Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本是為美國政府客戶而設計，獨立且不同於商用版本的 **Power BI 服務**。

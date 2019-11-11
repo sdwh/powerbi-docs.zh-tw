@@ -2,7 +2,6 @@
 title: 為行動裝置應用程式最佳化報表 - Power BI
 description: 了解如何專為手機與平板電腦建立直向版報表，將 Power BI 行動應用程式的報表頁面最佳化。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 006d0e02f3b0aa7860cade4d8e035ddc299e8ba8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61310607"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878401"
 ---
 # <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>為 Power BI 行動裝置應用程式最佳化報表
 您可以透過建立直向版面配置，改善在行動裝置應用程式中檢視報表的體驗。 在 Power BI Desktop 和 Power BI 服務中，您可以重新排列和重新調整報表視覺效果的大小，來取得直向模式中的最佳體驗。  
@@ -110,5 +109,5 @@ ms.locfileid: "61310607"
 * [在 Power BI 中建立儀表板的手機檢視](service-create-dashboard-mobile-phone-view.md)
 * [檢視為手機最佳化的 Power BI 報表](consumer/mobile/mobile-apps-view-phone-report.md)
 * [建立適用於任何大小的回應式視覺效果](visuals/desktop-create-responsive-visuals.md)
-* 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

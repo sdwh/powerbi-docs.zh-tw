@@ -2,7 +2,6 @@
 title: 將 Excel 活頁簿匯入 Power BI Desktop
 description: 將 Excel 活頁簿匯入 Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b6b74682f1c74ab78f27be857dbec42efa29347
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 96ec6349080547688914360f77cbfb2c12cb1fd8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454178"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878157"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>將 Excel 活頁簿匯入 Power BI Desktop
 透過 **Power BI Desktop**，您可以輕鬆地將內含 Power Query 查詢、Power Pivot 模型和 Power View 工作表的 Excel 活頁簿，匯入 Power BI Desktop。 系統會根據 Excel 活頁簿自動建立報表和視覺效果，一旦匯入，您便可以使用現有功能及隨 Power BI Desktop 每月更新所發行的新功能，持續改進及精簡這些報表。

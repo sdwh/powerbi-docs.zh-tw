@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中使用報表主題
 description: 了解如何在 Power BI Desktop 中使用自訂調色盤，並將它套用至整個報表
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 64be68398ffa2ab8323307b45b5bff09ec511090
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: c97316b0509f7d243befa5cfe5310aa0f5826335
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327841"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880001"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用報表主題
 透過**報表主題**，您可以將設計變更套用至整個報表，例如使用公司色彩、變更圖示集，或是套用新的預設視覺效果格式。 當您套用**報表主題**時，報表中的所有視覺效果都會使用您選取之主題中的色彩和格式。 有少數例外狀況，此文章稍後將進行說明。
@@ -414,7 +413,7 @@ tableAccent | 覆寫資料表和矩陣格線外框色彩 (若存在的話) |
 | cardTitle：卡片磚 |
 | categoryAxis：X 軸 |
 | categoryLabels：類別標籤 |
-| columnFormatting：欄位格式 |
+| columnFormatting：欄位格式化 |
 | columnHeaders：資料行標題 |
 | dataLabels：資料標籤 |
 | fill：填滿 |
@@ -438,7 +437,7 @@ tableAccent | 覆寫資料表和矩陣格線外框色彩 (若存在的話) |
 | plotAreaShading：對稱網底 |
 | ratioLine：比率行 |
 | referenceLine：常數線 |
-| ribbonChart：緞帶 |
+| ribbonChart：功能區 |
 | rotation：旋轉 |
 | rowHeaders：資料列標題 |
 | selection：選取控制項 |

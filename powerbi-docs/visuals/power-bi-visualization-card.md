@@ -2,7 +2,6 @@
 title: 卡片視覺效果 (也稱為大數字磚)
 description: 在 Power BI 中建立卡片視覺效果
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 268b69362f0f8c98ba01fbd0673fc46856d54ba2
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 37b7a85534e1ad8f1f301994dea895e098758d1b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195609"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870980"
 ---
 # <a name="card-visualizations"></a>卡片視覺效果
 
@@ -27,7 +26,7 @@ ms.locfileid: "71195609"
 
 ## <a name="prerequisite"></a>必要條件
 
-本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+本教學課程使用[零售分析範例 PBIX 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 1. 從功能表列的左上方區段中，選取 [檔案]  \>[開啟] 
    

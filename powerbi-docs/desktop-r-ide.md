@@ -2,7 +2,6 @@
 title: 搭配使用外部 R IDE 與 Power BI
 description: 您可以啟動外部 IDE，然後搭配 Power BI 使用它
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ef64c802e2f231ce2632f4ed0a442a2a7bac3328
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: db4b6d4915e97aaee65806b0bca7801bf4ce951e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514698"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876241"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>搭配使用外部 R IDE 與 Power BI
 透過 **Power BI Desktop**，您可以使用您的外部 R IDE (整合式開發環境) 來建立並精簡 R 指令碼，然後在 Power BI 中使用這些指令碼。

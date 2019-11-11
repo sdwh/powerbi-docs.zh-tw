@@ -2,19 +2,18 @@
 title: 使用裝置原生識別保護 Power BI 資料
 description: 了解如何設定您的 iOS 應用程式要求必須提供額外識別，才能存取 Power BI 資料
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
-ms.openlocfilehash: b7418c9579a439a18a30a967947c15d58693fd44
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a4ae7d7d61f4b377fe020fcc5f66f68ae7709ac7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "66816815"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870144"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-or-passcode"></a>使用 Face ID、Touch ID 或密碼保護 Power BI 應用程式 
 

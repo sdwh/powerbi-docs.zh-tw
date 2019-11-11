@@ -2,7 +2,6 @@
 title: 使用快速量值以執行常用及功能強大的計算
 description: 快速量值提供現成的 DAX 公式，以快速執行常用的計算
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4c37f3bb8f84c6ab40dceb3327f2b244559e9170
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 755ef6ab515244a2b7613ee7007caf3c3e6d1ed8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513968"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877950"
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>使用快速量值，輕鬆執行常用及功能強大的計算
 您可以使用**快速量值**，快速輕鬆執行常用及功能強大的計算。 **快速量值**會依據您在對話方塊中提供的輸入，在幕後執行一組 DAX 命令 (DAX 是現成的，所以您不必撰寫)，然後顯示結果，供您在報表中使用。 更棒的是，您可以查看快速量值所執行的 DAX，以啟發或拓展您的 DAX 知識。

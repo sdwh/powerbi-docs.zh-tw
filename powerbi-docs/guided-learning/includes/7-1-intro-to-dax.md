@@ -1,17 +1,17 @@
 ---
-ms.openlocfilehash: 6366dbe4d7c58b49b4085d80aa690fd6c64fee59
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 3966521d158c244487638be4117f98ea570e1f28
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70847663"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799729"
 ---
 歡迎使用專為您介紹 **DAX** 而設計的 Power BI **引導式學習**一節。
 
 **DAX** 代表 **Data Analysis Expressions (資料分析運算式)** ，是用於 Power BI 中各處的公式語言 (Power BI 也會在幕後使用它)。 在 Microsoft 的其他供應項目中也可以找到 DAX，例如 Power Pivot 和 SSAS Tabular，但這些引導式學習的主題聚焦在 DAX 在 Power BI 中的使用方式，以及您可以如何加以使用。
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX 和此引導式學習影片系列
-本**引導式學習**一節的目標是教導您 DAX 的基本知識和基本概念，包括如何看待 DAX、其運作方式，以及由知名 DAX 專家 [Alberto Ferrari](http://www.sqlbi.com/learning-dax) \(英文\) 所說明 (與透過眾多經驗所學習) 的最實用功能。
+本**引導式學習**一節的目標是教導您 DAX 的基本知識和基本概念，包括如何看待 DAX、其運作方式，以及由知名 DAX 專家 [Alberto Ferrari](https://www.sqlbi.com/learning-dax) \(英文\) 所說明 (與透過眾多經驗所學習) 的最實用功能。
 
 ![Alberto Ferrari 的相片](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
@@ -30,7 +30,7 @@ DAX 使用運算子多載，這表示您可以在計算中混合資料類型，�
 
 在 Power BI 中，有一個資料類型是您可能會特別經常使用的︰**DateTime**。 **DateTime** 會以浮點值的方式儲存，包含整數與小數部分。 DateTime 可用於精確地計算任何 1900 年 3 月 1 日之後的時間週期。
 
-> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](https://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
 > 
 > 
 

@@ -2,7 +2,6 @@
 title: 管理資料來源
 description: 了解如何管理 Power BI 中的資料來源。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -11,12 +10,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164525"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881766"
 ---
 # <a name="manage-data-sources"></a>管理資料來源
 
@@ -178,4 +177,4 @@ OAuth 驗證配置僅支援使用內部部署資料閘道的自訂連接器。 �
 * [管理您的資料來源 - 匯入/排程重新整理](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [部署資料閘道的指引](service-gateway-deployment-guidance.md)
 
-有其他問題嗎？ 試試 [Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ 試試 [Power BI 社群](https://community.powerbi.com/)。

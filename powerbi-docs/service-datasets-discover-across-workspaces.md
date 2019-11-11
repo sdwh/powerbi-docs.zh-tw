@@ -2,7 +2,6 @@
 title: 以不同工作區的資料集為基礎建立報表 (預覽) - Power BI
 description: 了解如何與整個組織的使用者共用資料集。 然後他們可以您的資料集為基礎，在自己的工作區中建置報表。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8229c74a233d8bc44370380bf635527506194f0
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 371507eb86e1b68225e9d66ee3a1363b0e163d4f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567446"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877182"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>以不同工作區的資料集為基礎建立報表 (預覽)
 
@@ -63,4 +62,4 @@ ms.locfileid: "67567446"
 ## <a name="next-steps"></a>後續步驟
 
 - [跨工作區使用資料集 (預覽)](service-datasets-across-workspaces.md)
-- 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+- 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

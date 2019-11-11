@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的資料類型
 description: Power BI Desktop 中的資料類型
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,19 +9,19 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ccde7f01968a9fdcdd74903819b7083a552479b0
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391778"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868528"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的資料類型
-此文章說明 Power BI Desktop 與資料分析運算式 (DAX) 支援的資料類型。 
+本文描述 Power BI Desktop 與資料分析運算式 (DAX) 支援的資料類型。 
 
 當您將資料載入 Power BI Desktop 時，它會嘗試將來源資料行的資料類型轉換成比較能夠支援更有效率的儲存、計算和資料視覺效果的資料類型。 例如，如果您從 Excel 匯入的資料行值沒有小數值，Power BI Desktop 會將整個資料行轉換成比較適合儲存整數的 [整數] 資料類型。
 
-由於某些 DAX 函式具有特殊的資料類型需求，所以這個觀念很重要。 在多數情況下，DAX 會為您隱含地轉換資料類型，但在某些情況下則不會。  例如，如果 DAX 函數需要 [日期] 資料類型，但您資料行的資料類型為 [文字]，DAX 函數將無法正常運作。  因此，為資料行取得正確的資料類型既重要又實用。 此文章稍後將說明隱含轉換。
+由於某些 DAX 函式具有特殊的資料類型需求，所以這個觀念很重要。 在多數情況下，DAX 會為您隱含地轉換資料類型，但在某些情況下則不會。  例如，如果 DAX 函數需要 [日期] 資料類型，但您資料行的資料類型為 [文字]，DAX 函數將無法正常運作。  因此，為資料行取得正確的資料類型既重要又實用。 本文稍後將說明隱含轉換。
 
 ## <a name="determine-and-specify-a-columns-data-type"></a>判斷及指定資料行的資料類型
 在 Power BI Desktop 中，您可以判斷及指定 [查詢編輯器]、[資料檢視] 或 [報表檢視] 中之資料行的資料類型：
@@ -40,7 +39,7 @@ ms.locfileid: "70391778"
 ### <a name="number-types"></a>數字類型
 Power BI Desktop 支援三種數字類型：
 
-**十進位數字** - 代表 64 位元 (8 位元組) 浮點數。 它是最常見的數字類型，也是您通常認定的數字類型。  雖然其設計是為了處理帶小數值的數字，但也可以處理整數。  [十進位數字] 類型可以處理 -1.79E +308 到 -2.23E -308 的負值、0，以及 2.23E -308 到 1.79E + 308 的正值。 例如，34、34.01 和 34.000367063 等數字都是有效的十進位數字。 [十進位數字] 類型可以表示的最大值長度為 15 位數。  小數分隔符號可出現在數字中的任何位置。 [十進位數字] 類型與 Excel 儲存其數字的方式相對應。
+**十進位數字** - 代表 64 位元 (8 位元組) 浮點數。 它是最常見的數字類型，也是您通常認定的數字類型。  雖然其設計是為了處理帶小數值的數字，但也可以處理整數。  [十進位數字] 類型可以處理  -1.79E +308 到 -2.23E -308 的負值、0，以及 2.23E -308 到 1.79E + 308 的正值。 例如，34、34.01 和 34.000367063 等數字都是有效的十進位數字。 [十進位數字] 類型可以表示的最大值長度為 15 位數。  小數分隔符號可出現在數字中的任何位置。 [十進位數字] 類型與 Excel 儲存其數字的方式相對應。
 
 **固定十進位數字** - 小數分隔符號的位置固定。 小數分隔符號右邊一律為 4 位數，並允許 19 位數的有效位數。  它可以表示的最大值為 922,337,203,685,477.5807 (正值或負值)。  [固定十進位數字] 類型在進位可能導致誤差的情況下會很有用。  當您處理其小數值很小的許多數字時，有時候累積起來會使得數字有些誤差。  由於在 [固定十進位數字] 類型中，超過小數分隔符號右邊 4 位數的值會遭到截斷，因此可協助您避免這類錯誤。   如果您熟悉 SQL Server，這種資料類型與 SQL Server 的 Decimal(19,4) 或 Power Pivot 中的 [貨幣資料] 類型相對應。 
 
@@ -71,7 +70,7 @@ Power BI Desktop 支援 [查詢檢視] 中的五種 [日期/時間] 資料類型
 **True/False** - True 或 False 布林值。
 
 ### <a name="blanksnulls-type"></a>空白/Null 類型
-**空白** - 這是 DAX 中表示和取代 SQL Null 的資料類型。 您可以使用 [BLANK](http://msdn.microsoft.com/library/ee634820.aspx) 函數來建立空白，並使用 [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 邏輯函數來測試空白。
+**空白** - 這是 DAX 中表示和取代 SQL Null 的資料類型。 您可以使用 [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) 函數來建立空白，並使用 [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 邏輯函數來測試空白。
 
 ### <a name="table-data-type"></a>資料表資料類型
 DAX 會在許多函數中使用資料表資料類型，例如彙總與時間智慧計算。 某些函數需要資料表的參考，其他函數則會傳回之後可當做其他函數輸入使用的資料表。 在需要資料表當做輸入的部分函數中，您可以指定評估為資料表的運算式；對於某些函數，則需要基底資料表的參考。 如需特定函數需求的相關資訊，請參閱 [DAX 函數參考](https://msdn.microsoft.com/library/ee634396.aspx).

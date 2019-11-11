@@ -2,19 +2,18 @@
 title: Power BI iOS 應用程式組態設定
 description: 如何使用 MDM 工具自訂 Power BI 用於 iOS 的行為
 author: paulinbar
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
-ms.openlocfilehash: bc9c6dd8cd892ab0304cc5a99a3bb780486f32f0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c2d619489b042e523c559a16dab249b268389cd5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70160169"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879418"
 ---
 # <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>使用行動裝置管理 (MDM) 工具從遠端設定 Power BI iOS 應用程式
 
@@ -61,6 +60,6 @@ Intune 入口網站可讓管理員透過應用程式設定原則，輕鬆地將�
 
 ## <a name="next-steps"></a>後續步驟
 
-* 下載 [Power BI iPhone 行動裝置應用程式](http://go.microsoft.com/fwlink/?LinkId=522062)
+* 下載 [Power BI iPhone 行動裝置應用程式](https://go.microsoft.com/fwlink/?LinkId=522062)
 * 在 Twitter 上關注 [@MSPowerBI](https://twitter.com/MSPowerBI)
-* 加入 [Power BI 社群](http://community.powerbi.com/)的交談
+* 加入 [Power BI 社群](https://community.powerbi.com/)的交談

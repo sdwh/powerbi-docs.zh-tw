@@ -2,7 +2,6 @@
 title: 在 Excel 中對 Power BI 進行分析
 description: 深入了解如何在 Excel 中分析 Power BI 資料集
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: b04feaff983f2a4384fc87028355143264c6e6b1
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 125cb684cae6263d335ad959bb17d1e5c84f5f72
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325522"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855891"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中進行分析
 有時候您可能會想要使用 Excel 來檢視您在 Power BI 中的資料集，並與其互動。 有了 [使用 EXCEL 分析]  ，您可以做到，並以存在於 Power BI 中的資料集為基礎來存取 Excel 的樞紐分析表、 圖表和交叉分析篩選器的功能。

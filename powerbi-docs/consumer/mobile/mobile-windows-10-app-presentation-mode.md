@@ -2,19 +2,18 @@
 title: 在 Surface Hub 和 Windows 10 上檢視簡報模式 - Power BI
 description: 閱讀在 Surface Hub 上顯示 Power BI 報表，以及在 Windows 10 裝置上以全螢幕模式顯示 Power BI 儀表板、報表和磚。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
-ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: abd7fd34cf2dbdc2f8f12a7f3c6de6228941af5a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61338092"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869531"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Surface Hub 和 Windows 10 裝置上，以簡報模式檢視報表和儀表板
 您可以在 Windows 10 裝置和 Surface Hub 中，使用簡報模式以全螢幕顯示報表和儀表板。 
@@ -54,5 +53,5 @@ ms.locfileid: "61338092"
 
 ## <a name="next-steps"></a>後續步驟
 * [從 Power BI 服務以全螢幕模式顯示儀表板和報表](../end-user-focus.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

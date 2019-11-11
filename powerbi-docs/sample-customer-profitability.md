@@ -2,7 +2,6 @@
 title: Power BI 的客戶獲利率範例：觀看導覽
 description: Power BI 的客戶獲利率範例：觀看導覽
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: ddda7d6aaacbcde2d71371b316d14a9cd411bd43
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: d6368ae61b2813972c3209e2af456ba5aa5fb81b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523415"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874026"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客戶獲利率範例：觀看導覽
 
@@ -53,11 +52,11 @@ ms.locfileid: "68523415"
 
 ### <a name="get-the-pbix-file-for-this-sample"></a>取得此範例的 .pbix 檔案
 
-或者，您可以將[客戶獲利率範例](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)下載為 .pbix 檔案，其設計目的是要用於 Power BI Desktop。
+或者，您可以將[客戶獲利率範例](https://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)下載為 .pbix 檔案，其設計目的是要用於 Power BI Desktop。
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529781) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529781) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>儀表板告訴我們什麼？
 
@@ -180,7 +179,7 @@ ms.locfileid: "68523415"
 
 2.  從儀表板頂端，選取 [詢問問題]  來開啟問與答問題方塊。
 
-    ![詢問與資料相關的問題](media/sample-customer-profitability/power-bi-ask-question.png)
+    ![詢問一個與資料相關的問題](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. 在問題方塊中輸入*Valery 依產業分類的總營收*。 請注意當您輸入問題時，視覺效果更新的方式。
 

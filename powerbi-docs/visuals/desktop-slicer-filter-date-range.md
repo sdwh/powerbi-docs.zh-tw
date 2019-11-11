@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中使用相對日期交叉分析篩選器或篩選條件
 description: 深入了解如何在 在 Power BI Desktop 中使用交叉分析篩選器或篩選條件限制相對日期範圍
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: e1dfda3c759d225019cc50d36cfe746976bd797a
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 9d7173225cc52df5d7221b32a6fad81617afa422
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867074"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876810"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>在 Power BI Desktop 中使用相對日期交叉分析篩選器與篩選條件
 

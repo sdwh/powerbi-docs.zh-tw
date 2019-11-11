@@ -2,7 +2,6 @@
 title: 使用 Power BI Desktop 中的量值
 description: Power BI Desktop 中的量值
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d5ada41ef4941f14118b777e37e731337a5282d0
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: c75300a05b58b82230540a1a61ae503d194d53e0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715386"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878130"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Power BI Desktop 中的量值
 
@@ -87,7 +86,7 @@ Jan 接著將他們的新 Projected Sales 量值拖曳到圖表中。
 ## <a name="learn-more"></a>深入了解
 我們在此只為您快速介紹量值，還有許多其他資訊可協助您了解如何建立自己的量值。 務必參閱[教學課程：在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)，您可以從中下載範例檔案，並取得有關如何建立更多量值的逐步解說課程。  
 
-若要更深入了解 DAX，請務必查看 [Power BI Desktop 的 DAX 基礎概念](desktop-quickstart-learn-dax-basics.md)。 [Data Analysis Expression 參考](https://msdn.microsoft.com/library/gg413422.aspx)提供有關每個函數、語法、運算子和命名慣例的詳細文章。 DAX 在 Excel 的 Power Pivot 和 SQL Server Analysis Services 中已行之有年，因此還有其他許多實用的資源可供使用。 請務必查看 [DAX 資源中心 Wiki](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)，其中具影響力的 BI 社群成員將與您分享 DAX 的知識。
+若要更深入了解 DAX，請務必查看 [Power BI Desktop 的 DAX 基礎概念](desktop-quickstart-learn-dax-basics.md)。 [Data Analysis Expression 參考](https://msdn.microsoft.com/library/gg413422.aspx)提供有關每個函數、語法、運算子和命名慣例的詳細文章。 DAX 在 Excel 的 Power Pivot 和 SQL Server Analysis Services 中已行之有年，因此還有其他許多實用的資源可供使用。 請務必查看 [DAX 資源中心 Wiki](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)，其中具影響力的 BI 社群成員將與您分享 DAX 的知識。
 
 
 

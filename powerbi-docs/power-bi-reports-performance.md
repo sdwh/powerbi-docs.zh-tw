@@ -3,19 +3,18 @@ title: Power BI 效能最佳做法
 description: 本文提供如何在 Power BI 中建置快速且可靠報表的指引
 author: Bhavik-MSFT
 ms.author: bhmerc
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 2fd0a3d878641264e84a14579901a9685b0f6e8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841492"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875098"
 ---
 # <a name="power-bi-performance-best-practices"></a>Power BI 效能最佳做法
 
@@ -152,7 +151,7 @@ ms.locfileid: "70841492"
 
 網路延遲可能會因要求到達 Power BI 服務所需時間增加以及傳遞回應所需時間增加而影響報表效能。 Power BI 中的租用戶會獲指派特定區域。 您可以檢視租用戶的「起始」區域，方法是巡覽至 powerbi.com，並選取右上方的 **?** ， 然後在右上角選擇 [關於 Power BI]  。 租用戶中的使用者存取 Power BI 服務時，他們的要求一律會路由至此區域。 舉例來說，當要求到達 Power BI 服務之後，服務可能會將其他要求傳送至基礎資料來源或閘道，而這些要求也受限於網路延遲。
 
-[Azure Speed Test](http://azurespeedtest.azurewebsites.net/) 這類工具可以指出用戶端與 Azure 區域之間的網路延遲。 一般而言，若要將網路延遲的影響降到最低，請盡量將資料來源、閘道和 Power BI 叢集保留在最接近的位置。 如果網路延遲是問題，則您可以透過將它們放置在虛擬機器上，嘗試將閘道和資料來源放置在更接近 Power BI 叢集的位置。
+[Azure Speed Test](https://azurespeedtest.azurewebsites.net/) 這類工具可以指出用戶端與 Azure 區域之間的網路延遲。 一般而言，若要將網路延遲的影響降到最低，請盡量將資料來源、閘道和 Power BI 叢集保留在最接近的位置。 如果網路延遲是問題，則您可以透過將它們放置在虛擬機器上，嘗試將閘道和資料來源放置在更接近 Power BI 叢集的位置。
 
 若要進一步改善網路延遲，請考慮使用 [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)，其可在用戶端與 Azure 資料中心之間建立更快速、可靠的網路連線。
 

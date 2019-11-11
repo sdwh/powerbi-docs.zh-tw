@@ -2,7 +2,6 @@
 title: 使用備用電子郵件地址
 description: 使用備用電子郵件地址
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 88432f55fc8cfeefa07b66ea68437bbb23f12531
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6549ec04d8ec47381b4639d15242e909929b52de
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906672"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858077"
 ---
 # <a name="use-an-alternate-email-address"></a>使用備用電子郵件地址
 
@@ -70,4 +69,4 @@ Power BI 會根據下列順序選取要使用的電子郵件：
 
 1. 如果上述條件都不存在，Power BI 會使用 UPN 地址。
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

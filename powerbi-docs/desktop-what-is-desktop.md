@@ -2,7 +2,6 @@
 title: Power BI Desktop 是什麼？
 description: 了解 Power BI Desktop 與如何開始使用
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 01e5effcf5f72dd110005815e2ba86c9a6731a70
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141953"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865137"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop 是什麼？
 
@@ -100,4 +99,4 @@ Power BI Desktop 中有許多不同類型的視覺效果可供選擇。 若要�
 若要開始使用 **Power BI Desktop**，第一件事就是下載並安裝該應用程式。 有兩種方式可以取得 **Power BI Desktop**：
 
 * [從 Web 下載 Power BI Desktop](desktop-get-the-desktop.md)
-* [從 Windows 市集取得 Power BI Desktop](http://aka.ms/pbidesktopstore)
+* [從 Windows 市集取得 Power BI Desktop](https://aka.ms/pbidesktopstore)

@@ -3,18 +3,17 @@ title: Power BI 視覺效果方針
 description: 了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及透過購買來使用。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: 4e17406b0b4e616a9857cf40298a7931e2b65427
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 84c873c925c7e733c70b309d5cc2476dff2e553b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944870"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863942"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 視覺效果指南
 在您將視覺效果[發佈](https://docs.microsoft.com/power-bi/developer/office-store)至 AppSource 供其他人探索及使用之前，請務必遵循指導方針，以便為您的使用者打造絕佳體驗。 

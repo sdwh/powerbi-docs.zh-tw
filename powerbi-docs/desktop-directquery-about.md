@@ -2,7 +2,6 @@
 title: 使用 Power BI 中的 DirectQuery
 description: 了解如何搭配 Power BI 使用 DirectQuery
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d303e20e524ad7ac67882812b6e4f5a1d9b06c33
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 13ca0b53bb1aed2d4323afdc99a97f8b9cfa5567
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305809"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868347"
 ---
 # <a name="using-directquery-in-power-bi"></a>使用 Power BI 中的 DirectQuery
 您可以在使用 **Power BI Desktop** 或 **Power BI 服務**時連接到各種不同的資料來源，且可以利用不同的方法來進行這些資料連接。 您可以將資料「匯入」  Power BI (這是取得資料的最常見方法)，或直接連接到原始來源存放庫中的資料 (也稱為 **DirectQuery**)。 本文將描述 **DirectQuery** 及其功能：
@@ -32,7 +31,7 @@ ms.locfileid: "71305809"
 
 Power BI 為這兩種連接模式 (匯入和 DirectQuery) 所提供的功能集，會隨著時間持續發展。 這包括使用匯入的資料時提供更大的彈性 (例如可在更多情況下使用匯入)，以及排除使用 DirectQuery 的一些缺點。 不論有哪些改進，使用 DirectQuery 時，基礎資料來源的效能一律是主要考量。 如果基礎資料來源緩慢，則仍不適合針對該來源使用 DirectQuery。
 
-本文涵蓋 DirectQuery 和 Power BI，但不涵蓋 SQL Server Analysis Services。 DirectQuery 也是 **SQL Server Analysis Services** 的功能，而且以下所述的許多詳細資料適用於此服務，不過也有重大差異。 如需搭配 SQL Server Analysis Services 使用 DirectQuery 的資訊，請參閱 [SQL Server Analysis Services 2016 DirectQuery 技術白皮書](http://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf)中的詳細說明。  
+本文涵蓋 DirectQuery 和 Power BI，但不涵蓋 SQL Server Analysis Services。 DirectQuery 也是 **SQL Server Analysis Services** 的功能，而且以下所述的許多詳細資料適用於此服務，不過也有重大差異。 如需搭配 SQL Server Analysis Services 使用 DirectQuery 的資訊，請參閱 [SQL Server Analysis Services 2016 DirectQuery 技術白皮書](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf)中的詳細說明。  
 
 本文著重於在 **Power BI Desktop** 中建立報表的建議 DirectQuery 工作流程，但也會涵蓋在 **Power BI 服務**中直接連接的方式。
 
@@ -141,7 +140,7 @@ Power BI 會連接到大量的各種資料來源，包括：
 * **計算結果欄限制：** 計算結果欄僅限於內部資料列，換句話說，它們只會參考相同資料表之其他資料行的值，而不會使用任何彙總函式。 此外，允許的 DAX 純量函式 (例如 LEFT()) 僅限於可直接發送至基礎來源的函式，因此會因來源的實際功能而有所不同。 撰寫計算結果欄的 DAX 時，不會在自動完成功能中列出不支援的函式，而且如果使用這些函式，將會導致錯誤。
 * **不支援父子式 DAX 函式：** 在 DirectQuery 模型中，您無法使用通常用來處理父子式結構 (例如會計科目表或員工階層) 的 DAX PATH() 函式系列。
 * **不支援計算資料表：** DirectQuery 模式不支援使用 DAX 運算式定義計算資料表的功能。
-* **關聯性篩選：** 如需使用雙向篩選的描述，請參閱[這份詳細的技術白皮書](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (此文件提供 SQL Server Analysis Services 內容的範例，但基本重點同樣適用於 Power BI)。
+* **關聯性篩選：** 如需使用雙向篩選的描述，請參閱[這份詳細的技術白皮書](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (此文件提供 SQL Server Analysis Services 內容的範例，但基本重點同樣適用於 Power BI)。
 
 * **無叢集：** 使用 DirectQuery 時，您無法使用 [叢集] 功能來自動尋找群組
 

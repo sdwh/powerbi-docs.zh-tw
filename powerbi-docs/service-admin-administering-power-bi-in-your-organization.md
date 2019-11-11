@@ -2,7 +2,6 @@
 title: 什麼是 Power BI 管理？
 description: 了解 Power BI 控管原則的設定、使用狀況監控，以及授權容量及組織資源的佈建。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 779dba9262752a4030eb263002822d0186f3e470
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: d33aad1d52a7074873e4b2bb7f5e2f93e2b8ab0e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075785"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873722"
 ---
 # <a name="what-is-power-bi-administration"></a>什麼是 Power BI 管理？
 
@@ -87,4 +86,4 @@ Power BI 服務系統管理員角色不會將指派授權的能力授與使用�
 
 [Power BI 管理常見問題集](service-admin-faq.md)
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

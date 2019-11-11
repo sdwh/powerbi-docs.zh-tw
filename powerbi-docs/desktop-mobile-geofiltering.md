@@ -2,19 +2,18 @@
 title: 在 Power BI Desktop 中為行動裝置應用程式設定地理篩選
 description: 當您在 Power BI Desktop 中的模型中設定地理篩選時，可以在 Power BI Mobile Apps 中為您的位置自動篩選資料。
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: b8887ba39d3c6d3123d3308eddba2994fbfe6485
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c054bc933cb1eaac7475ac0c7649c7e0f77f503b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61295984"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878101"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>在 Power BI Desktop 中為行動裝置應用程式設定地理篩選
 在 Power BI Desktop 中，您可以為資料行[分類地理資料](desktop-data-categorization.md)，使 Power BI Desktop 知道如何處理報表中視覺效果的值。 作為額外的權益，當您或您的同事在 Power BI Mobile Apps 中檢視該報表時，Power BI 會自動提供符合您所在地的地理篩選。 
@@ -61,5 +60,5 @@ ms.locfileid: "61295984"
 
 ## <a name="next-steps"></a>後續步驟
 * [Power BI Desktop 中的資料分類](desktop-data-categorization.md)  
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: 了解報表中的視覺效果互動方式
 description: 適用於 Power BI 終端使用者的文件，說明視覺效果在報表頁面上的互動方式。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 3a73656d8de462dfc7d1d9e7ac742d588cc8c810
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 28e6cea55b02fabddd0b2f118631a09c0344b66f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71943894"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863102"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>如何在 Power BI 報表中相互進行視覺效果交叉篩選
 Power BI 的其中一項絕佳功能，是報表頁面上所有視覺效果互連的方式。 如果您選取其中一個視覺效果的資料點，頁面上包含該資料的其他視覺效果就會全部根據該選取項目而變更。 

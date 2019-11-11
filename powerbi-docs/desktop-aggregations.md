@@ -2,7 +2,6 @@
 title: 使用 Power BI Desktop 中的彙總
 description: 在 Power BI Desktop 中執行巨量資料的互動式分析
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325189"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876729"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop 中的彙總
 
@@ -60,7 +59,7 @@ ms.locfileid: "68325189"
 ![模型中的彙總資料表](media/desktop-aggregations/aggregations_03.jpg)
 
 > [!NOTE]
-> **Sales Agg** 資料表不過是另一份資料表，所以它可以各種方式靈活載入。 例如，在來源資料庫中可使用 ETL/ELT 程序執行彙總，或由資料表 [M 運算式](https://msdn.microsoft.com/query-bi/m/power-query-m-reference)執行彙總。 它可以使用包含或不含 [Power BI Premium 中的累加式重新整理](service-premium-incremental-refresh.md) 的 Import 儲存模式，或可為 DirectQuery 且使用[資料行存放區索引](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview)來最佳化快速查詢。 此彈性可讓已平衡的架構分散查詢負載，避免瓶頸。
+> **Sales Agg** 資料表不過是另一份資料表，所以它可以各種方式靈活載入。 例如，在來源資料庫中可使用 ETL/ELT 程序執行彙總，或由資料表 [M 運算式](/powerquery-m/power-query-m-function-reference)執行彙總。 它可以使用包含或不含 [Power BI Premium 中的累加式重新整理](service-premium-incremental-refresh.md) 的 Import 儲存模式，或可為 DirectQuery 且使用[資料行存放區索引](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview)來最佳化快速查詢。 此彈性可讓已平衡的架構分散查詢負載，避免瓶頸。
 
 ### <a name="storage-mode"></a>儲存模式 
 讓我們繼續正在使用的範例。 我們將 **Sales Agg** 的儲存模式設定為 **Import** 以加速查詢。

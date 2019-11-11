@@ -2,7 +2,6 @@
 title: 了解如何在 Power BI 中連線到資料流程
 description: 了解 Power BI 中資料流程的運作方式
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ae260e36d0ca7363a3b21242087813d951cf4983
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945793"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872671"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>連線到 Power BI 資料流程的資料來源
 

@@ -2,7 +2,6 @@
 title: 使用 Power BI Desktop 中的 Analysis Services 表格式資料
 description: Power BI Desktop 中的 Analysis Services 表格式資料
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 996a65bd001626fd184ac98ee76dc61c22922707
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6ee7405b7c3d542dd824c70c17459c7078b3f0e1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239977"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878835"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 Analysis Services 表格式資料
 使用 Power BI Desktop 時，有兩種方式可以連線到 SQL Server Analysis Services 表格式模型並從中取得資料：「使用即時連線進行瀏覽」或「選取項目並匯入 Power BI Desktop」。

@@ -2,7 +2,6 @@
 title: Power BI 的資料來源
 description: Power BI 的資料來源
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e6b0d7db9f82d8bc68f230858799f6afbcad1c82
-ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
+ms.openlocfilehash: ac8b403163ea2599955afd79d8e95659b8cc5bed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72511650"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881440"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 服務的資料來源
 資料是 Power BI 的核心。 假設您正在探索資料。 您可能會先建立圖表與儀表板，或利用 [問與答]  提出問題，以執行上述作業。 系統顯示的視覺效果和解答會從資料集擷取其基礎資料。 但是，該資料集又來自何處？ 資料集是由資料來源而來。

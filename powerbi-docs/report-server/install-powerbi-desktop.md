@@ -3,18 +3,17 @@ title: 安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 description: 了解如何安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/03/2019
-ms.openlocfilehash: a97c8125af46eae193f6c592d0b3c1153ae9b50c
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968634"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874125"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 
@@ -55,7 +54,7 @@ Power BI 服務的 Power BI Desktop 版本不會在標題列中顯示年份和�
 ## <a name="file-extension-association"></a>副檔名關聯
 如果在同一部電腦上，同時安裝 Power BI Desktop 和針對 Power BI 報表伺服器最佳化的 Power BI Desktop，則最近安裝的 Power BI Desktop 會與 .pbix 檔案有檔案關聯。 因此，當您按兩下 .pbix 檔案時，便會啟動最近安裝的 Power BI Desktop。
 
-如果您擁有 Power BI Desktop，並接著安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop，則所有 .pbix 檔案都會預設在後者中開啟。 如果您偏好在開啟 .pbix 檔案時，預設啟動 Power BI Desktop，那麼請[從 Microsoft Store 重新安裝 Power BI Desktop](http://aka.ms/pbidesktopstore)。
+如果您擁有 Power BI Desktop，並接著安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop，則所有 .pbix 檔案都會預設在後者中開啟。 如果您偏好在開啟 .pbix 檔案時，預設啟動 Power BI Desktop，那麼請[從 Microsoft Store 重新安裝 Power BI Desktop](https://aka.ms/pbidesktopstore)。
 
 您隨時可以開啟您想要先用的 Power BI Desktop 版本， 然後再從 Power BI Desktop 中開啟檔案。
 
@@ -63,7 +62,7 @@ Power BI 服務的 Power BI Desktop 版本不會在標題列中顯示年份和�
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-Power BI 報表伺服器、Power BI 服務 (http://app.powerbi.com) ) 和 Power BI 行動裝置應用程式中的 Power BI 報表行為幾乎完全相同，但部分功能不同。
+Power BI 報表伺服器、Power BI 服務 (https://app.powerbi.com) ) 和 Power BI 行動裝置應用程式中的 Power BI 報表行為幾乎完全相同，但部分功能不同。
 
 ### <a name="selecting-a-language"></a>選取語言
 

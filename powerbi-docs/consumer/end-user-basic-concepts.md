@@ -2,7 +2,6 @@
 title: Power BI 服務 - 取用者的基本概念
 description: Power BI 服務的應用程式、工作區、儀表板、報表、資料集和活頁簿。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 902bfe11ba3dfa4047ab5918de7081ae05fb9a09
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 24e5a06d3e835f7ff5114cbf17b772bc7efd00bb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060359"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852232"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI 服務取用者的基本概念
 

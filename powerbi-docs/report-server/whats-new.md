@@ -3,18 +3,17 @@ title: Power BI 報表伺服器的新功能
 description: 了解 Power BI 報表伺服器的新功能。 其涵蓋主要功能範圍，並會隨著新項目發行而更新。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/26/2019
-ms.openlocfilehash: 26dde078ce0b237779660c44b2843a645e4d1a47
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 526a971817c50599bf77ae085f3d5ff07294b25b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325557"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858750"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
@@ -136,7 +135,7 @@ Power BI 報表是互動式報表。 很明顯，報表中的標題會是動態�
 
 - 將日期顯示為階層的功能現已正式推出  
 
-### <a name="modeling"></a>模型
+### <a name="modeling"></a>模型化
 
 - 新的模型檢視現已正式推出
 - 新的 DAX 函數
@@ -272,7 +271,7 @@ SAP HANA SSO Direct Query 對 Kerberos 的支援現在於 Power BI 報表中正�
 - [依據不同欄位的條件式格式設定](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingField)
 - [依據值的條件式格式設定](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingValue)
 
-### <a name="modeling"></a>模型
+### <a name="modeling"></a>模型化
 
 - [資料檢視中的篩選和排序](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#filterAndSort)
 - [改善的地區設定篩選](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#locale)

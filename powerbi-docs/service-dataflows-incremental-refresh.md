@@ -2,7 +2,6 @@
 title: 搭配 Power BI 資料流程使用累加式重新整理
 description: 了解如何設定資料流程的累加式重新整理
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7e9d8779480eb7a00dacfc9fc52fc81987629e7b
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: 921d0c394377bb7df602105073cc46478e3a1e74
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791924"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872636"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>搭配 Power BI 資料流程使用累加式重新整理
 

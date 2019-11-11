@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: cd6ea6fd52f929e2cd254214cf0e8c96e858f6c2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 679c3e8c3d94c93899e9dcfae1e57f4b678fb218
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273238"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799728"
 ---
 Power BI 可讓您建立多個資料表之間的關聯性，包括資料來源完全不同的資料表之間的關聯性。 您可以在 Power BI Desktop 的 [關聯性]  檢視中，查看任何資料模型的關聯性。
 
@@ -23,7 +23,7 @@ DAX 具有**關聯式函數**，可讓您與已建立關聯性的資料表進行
 
 您可以使用關聯式函數建立包含多個資料表值的運算式。 不論關聯性的鏈結長度為何，DAX 皆會以此等函數傳回結果。
 
-> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](http://www.sqlbi.com/learning-dax)
+> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](https://www.sqlbi.com/learning-dax)
 > 
 > 
 

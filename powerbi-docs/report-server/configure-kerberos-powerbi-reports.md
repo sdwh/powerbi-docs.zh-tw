@@ -2,19 +2,18 @@
 title: 設定 Kerberos 使用 Power BI 報表
 description: 了解如何設定報表伺服器進行資料來源的 Kerberos 驗證，這些是用在分散式環境 Power BI 報表內的資料來源。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: 63bf5653ddf17097a44113324011951734f6d13c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6e341f80e3631228c28590ccf0a7711e0b624f2c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770713"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874230"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>設定 Kerberos 使用 Power BI 報表
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>

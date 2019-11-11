@@ -2,19 +2,18 @@
 title: 從遠端設定 iOS 行動裝置應用程式對報表伺服器的存取權
 description: 了解如何為報表伺服器從遠端設定 iOS 行動裝置應用程式。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/08/2019
 ms.author: maggies
-ms.openlocfilehash: 7727157a9227a5340fccf0af129d87f69edd8c72
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: ab9f7c2559038505b5507d4a87b50933e7b0b041
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994807"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874217"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>從遠端設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取
 

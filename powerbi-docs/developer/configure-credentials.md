@@ -3,18 +3,17 @@ title: 以程式設計的方式為 Power BI 設定認證
 description: 如何針對自動化以程式設計的方式為 Power BI 設定認證
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/25/2019
-ms.openlocfilehash: f93119a621330d673fd2cf6035e0416646bd5e6a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 52daf96a4ff6ca7eac4d996f5891740538c88e74
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61380160"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875869"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>以程式設計的方式為 Power BI 設定認證
 

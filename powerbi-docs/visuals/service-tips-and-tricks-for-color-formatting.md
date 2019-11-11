@@ -2,7 +2,6 @@
 title: 在 Power BI 中色彩格式化的秘訣和訣竅
 description: 在 Power BI 中色彩格式化的秘訣和訣竅
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e115b886a0fd952a8d3d28f345a0594fae7f0a49
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3865647a056e28735894e40f71045305518642c6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66838411"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880651"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>在 Power BI 中色彩格式化的秘訣和訣竅
 Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 本文詳細說明一系列秘訣，讓您的 Power BI 視覺效果更吸引人、更加有趣，且視您的需求自訂。

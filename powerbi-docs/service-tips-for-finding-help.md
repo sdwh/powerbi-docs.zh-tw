@@ -2,7 +2,6 @@
 title: 取得 Power BI 問題說明的 10 個祕訣
 description: 當您有 Power BI 如何運作方式的問題時，可利用下列 10 種方法取得說明
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: ee272f32dbce4630f8b834187e05fda5739df7be
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060310"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876954"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>取得 Power BI 問題說明的 10 個祕訣
 您在使用 Power BI 時曾感到挫折嗎？或您曾在需要 Power BI 問題的解答時，因為無法即時如願而難以繼續嗎？ 
@@ -55,7 +54,7 @@ Power BI 小組會在他們的定期 [Power BI 部落格文章](https://powerbi.
 * 尋找可實地操作的 **Dashboard in a Day** 訓練課程。
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7 在 Power BI 社群中發問或搜尋
-在 [Power BI 社群](http://community.powerbi.com) 中發問及尋找解答。 全世界的 BI 專家都在社群中活動。 請務必善用此資源分享專家們的知識。
+在 [Power BI 社群](https://community.powerbi.com) 中發問及尋找解答。 全世界的 BI 專家都在社群中活動。 請務必善用此資源分享專家們的知識。
 
 ## <a name="8-join-or-create-a-power-bi-user-group"></a>8 加入或成立 Power BI 使用者群組
 加入[Power BI 使用者群組](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups)，並向您的小組發問，請他們為您解惑。 您也可以開始您自己的使用者群組，並成立一個社群針對您的領域、您的資料、您的時區等需求，待此互相幫助。
@@ -70,5 +69,5 @@ Power BI 小組會在他們的定期 [Power BI 部落格文章](https://powerbi.
 
 ## <a name="next-steps"></a>後續步驟
 * [Power BI 是什麼？](fundamentals/power-bi-overview.md)
-* 請嘗試詢問 [Power BI 社群](http://community.powerbi.com/)
+* 請嘗試詢問 [Power BI 社群](https://community.powerbi.com/)
 * 仍有問題嗎？ 請前往 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)

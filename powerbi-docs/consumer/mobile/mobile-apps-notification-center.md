@@ -2,19 +2,18 @@
 title: 取得 Power BI 行動裝置應用程式中的通知
 description: 通知中心會將 Power BI 體驗的相關資訊傳送到您的行動裝置上。
 author: KesemSharabi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: fe502b2d1822140c47f8c09266497144f07bb8a8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 22988b08209865e9f1f2c583a30aa40e48c249bc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236765"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879248"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>取得 Power BI 行動裝置應用程式中的通知
 適用於︰

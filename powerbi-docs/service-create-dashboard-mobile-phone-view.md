@@ -2,7 +2,6 @@
 title: 為行動電話最佳化儀表板 - Power BI
 description: 了解如何在 Power BI 服務中，建立專供手機檢視之用的自訂儀表板檢視。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 75152d546bc2dc622210d5b9e5933ee44fbdc0b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61158169"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872866"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>為行動電話最佳化儀表板 - Power BI 
 當您在手機上以直向模式檢視儀表板時，會注意到儀表板磚的版面配置是並排排列而成，而且大小完全相同。 在 Power BI 服務中，您可以為儀表板建立專供手機直向模式使用的自訂檢視。 即使您建立了手機檢視，當您旋轉手機時，您還是會看到儀表板在服務中的版面配置方式。
@@ -59,5 +58,5 @@ ms.locfileid: "61158169"
 ## <a name="next-steps"></a>後續步驟
 * [建立為 Power BI 手機應用程式最佳化的報表](desktop-create-phone-report.md)
 * [建立適用於任何大小的回應式視覺效果](visuals/desktop-create-responsive-visuals.md)
-* 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

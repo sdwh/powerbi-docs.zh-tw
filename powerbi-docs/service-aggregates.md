@@ -2,7 +2,6 @@
 title: 在 Power BI 服務中使用彙總 (加總、平均等等)
 description: 了解如何在 Power BI 服務中變更圖表的彙總 (加總、平均、最大值等)。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 05/03/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 7cee05df6a7d13e18bc31bc1a1f34a5f89711c0d
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 595b5743450aeb8ae6f6e60157742e3563a28fdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "65710572"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873320"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>在 Power BI 服務中使用彙總 (加總、平均等等)
 
@@ -50,7 +49,7 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 
 一般而言，基礎問題會是資料集中的欄位定義。 也許資料集擁有者將欄位定義為文字，而那便能說明 Power BI 為何無法對它進行加總或平均。 不幸的是，[只有資料集擁有者可以變更欄位的分類方式](desktop-measures.md)。 因此如果您具有資料集的擁有者權限，不論是針對 Desktop 或是用來建立該資料集的程式 (例如 Excel)，您便可以修正這個問題。 否則，您必須連絡資料集擁有者以取得協助。  
 
-此文章結尾有專門的小節，稱為[考量與疑難排解  ](#considerations-and-troubleshooting)。 它能提供祕訣及指引。 如果您在那裡找不到答案，請在 [Power BI 社群論壇](http://community.powerbi.com) \(英文\) 提出您的問題。 您將能快速獲得直接來自 Power BI 小組的回應。
+此文章結尾有專門的小節，稱為[考量與疑難排解  ](#considerations-and-troubleshooting)。 它能提供祕訣及指引。 如果您在那裡找不到答案，請在 [Power BI 社群論壇](https://community.powerbi.com) \(英文\) 提出您的問題。 您將能快速獲得直接來自 Power BI 小組的回應。
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>變更數值欄位的彙總方式
 
@@ -188,4 +187,4 @@ Power BI 服務和 Power BI Desktop 建立視覺效果時，可能會彙總資�
 
 答：請嘗試移除欄位，並將其新增回去。
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

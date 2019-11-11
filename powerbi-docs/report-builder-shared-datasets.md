@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0cf85d2757dd77de854a6640f400c6dd9c70379a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431501"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73791272"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>在 Power BI 報表產生器中使用共用資料集
 
@@ -30,7 +30,7 @@ ms.locfileid: "73431501"
 - 若要存取 Power BI 資料集，您需要有該資料集的建置權限。 請參閱[建置權限](service-datasets-build-permissions.md)。
 - 您不需要 Power BI Pro 授權，即可在報表產生器中建立編頁報表。 
 - 您需要有 Power BI Pro 授權，才能發佈編頁報表。 針對 Premium 容量中的工作區，您還需要至少一個「參與者」角色。 
-- 選擇性：如果您想要遵循本文的指示進行，請下載 Power BI Desktop [零售分析範例 .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) 檔案，在 Power BI Desktop 中開啟該檔案，然後新增包含許多資料行的資料表。 在 [格式]  窗格中，關閉 [總計]  。 然後將它發佈到 Power BI 服務中的工作區。
+- 選擇性：如果您想要遵循本文的指示進行，請下載 Power BI Desktop [零售分析範例 .pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) 檔案，在 Power BI Desktop 中開啟該檔案，然後新增包含許多資料行的資料表。 在 [格式]  窗格中，關閉 [總計]  。 然後將它發佈到 Power BI 服務中的工作區。
 
     ![[總計] 關閉](media/report-builder-shared-datasets/power-bi-desktop-totals-off.png)
 

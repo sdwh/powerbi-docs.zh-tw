@@ -2,7 +2,6 @@
 title: 藉由 Power BI Desktop 中的範例從網頁擷取資料
 description: 提供所要提取內容的範例，以便從網頁擷取資料
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 37efc295a3c79286458a862c255d987b0afde6d3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6bf933203f8dc76d4ede2d25683981cbdf6755f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514071"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869040"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>藉由提供範例來從網頁取得資料
 
@@ -52,7 +51,7 @@ ms.locfileid: "65514071"
 
 ![範例資料](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
-> 注意：值的建議只包含長度小於或等於 128 個字元的值。
+> 注意:值的建議只包含長度小於或等於 128 個字元的值。
 
 一旦我們已經滿意從網頁擷取的資料，請選取 [確定]  以移至 [查詢編輯器]  ，我們可以在其中套用更多轉換或塑造資料，例如將此資料與其的他資料來源結合。
 

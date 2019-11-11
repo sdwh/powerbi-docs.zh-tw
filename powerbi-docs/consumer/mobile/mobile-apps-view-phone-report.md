@@ -2,19 +2,18 @@
 title: 檢視為手機最佳化的 Power BI 報表
 description: 了解與報表頁面進行互動，該頁面已針對在 Power BI 手機應用程式中檢視進行最佳化。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: mshenhav
-ms.openlocfilehash: 79ca47f83bb39ab9d6df141b5a26dcb54e00c72c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f8dba41a15390e4b52227c7daaa603daf7c08939
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65100945"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870521"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>檢視為手機最佳化的 Power BI 報表
 
@@ -134,5 +133,5 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
 * [建立為 Power BI 手機應用程式最佳化的報表](../../desktop-create-phone-report.md)
 * [在 Power BI 中建立儀表板的手機檢視](../../service-create-dashboard-mobile-phone-view.md)
 * [建立適用於任何大小的回應式視覺效果](../../visuals/desktop-create-responsive-visuals.md)
-* 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

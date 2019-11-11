@@ -2,7 +2,6 @@
 title: 使用 Power BI Desktop 中的 [分析] 窗格
 description: 為 Power BI Desktop 中的視覺效果建立動態參考線
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 861a1d43f023e3ceba17fba90bcbc703e3195c84
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: a3ba6f8faf22d3854ecfcbc40e7931ca887de0f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160178"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876644"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 [分析] 窗格
 有了 **Power BI Desktop** 的 [分析]  窗格，您就可以將動態「參考線」  新增至視覺效果，為重要的趨勢或深入解析提供焦點。 [分析]  窗格位於 Power BI Desktop 的 [視覺效果]  區域中。

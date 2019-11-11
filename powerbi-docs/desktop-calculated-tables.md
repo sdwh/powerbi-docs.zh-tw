@@ -2,7 +2,6 @@
 title: 使用 Power BI Desktop 中的導出資料表
 description: Power BI Desktop 中的導出資料表
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 641d1ac2c1bbcb9d143afdc04652b4c12b6e775f
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 4da25e0c6ea7115111bc057947183a8b86b5c2f4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522221"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878697"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>使用 Power BI Desktop 中的導出資料表
 透過導出資料表，您可以將新的資料表加入模型。 您會建立定義資料表值的資料分析運算式 (DAX) 公式，而不是從資料來源查詢值並將其載入新的資料表資料行。 在 Power BI Desktop 中，導出資料表是透過 [報表檢視] 或 [資料檢視] 中的 [新增資料表] 功能來建立。

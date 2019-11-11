@@ -2,7 +2,6 @@
 title: 管理您的資料來源 - SAP HANA
 description: 如何管理內部部署資料閘道及屬於該閘道的資料來源。 本文為 SAP HANA 專用。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/16/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3e1ea53abeff39609515b0b615f9e000432e9c6
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 577f0b26052ecc5fbe5f4e5b4da624da2b6e06c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70303188"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881736"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>管理您的資料來源 - SAP HANA
 
@@ -74,5 +73,5 @@ ms.locfileid: "70303188"
 * [為內部部署資料閘道進行疑難排解](/data-integration/gateway/service-gateway-tshoot)
 * [針對閘道進行疑難排解 - Power BI](service-gateway-onprem-tshoot.md) 
 
-有其他問題嗎？ 請嘗試詢問 [Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ 請嘗試詢問 [Power BI 社群](https://community.powerbi.com/)。
 

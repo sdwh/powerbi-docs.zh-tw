@@ -2,7 +2,6 @@
 title: Power BI 設計工具的儀表板磚簡介
 description: 本文描述 Power BI 中的儀表板磚，其中包括從 SQL Server Reporting Services (SSRS) 報表建立的磚。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4577ca5d12002e18406b66036244d895fa7ee5fd
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994843"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872795"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 設計工具的儀表板磚簡介
 
@@ -99,8 +98,8 @@ ms.locfileid: "68994843"
 - [Power BI 設計工具的儀表板簡介](service-dashboards.md)  
 - [Power BI 的資料重新整理](refresh-data.md)
 - [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
-- [Integrating Power BI tiles into Office documents](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx) (將 Power BI 磚整合到 Office 文件中)
+- [Integrating Power BI tiles into Office documents](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx) (將 Power BI 磚整合到 Office 文件中)
 - [將 Reporting Services 項目釘選到 Power BI 儀表板](https://msdn.microsoft.com/library/mt604784.aspx)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)。
 

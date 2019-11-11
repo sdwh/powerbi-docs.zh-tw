@@ -2,7 +2,6 @@
 title: 連接到 Oracle 資料庫
 description: 將 Oracle 連接至 Power BI Desktop 所需的步驟和下載
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3dce16287c9cdcb7882e332e338137f7598b4010
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: 7c91095cf321fed56a0cb1c3c6bd1113f380a524
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70200903"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878498"
 ---
 # <a name="connect-to-an-oracle-database"></a>連接到 Oracle 資料庫
 若要使用 **Power BI Desktop** 連接到 Oracle 資料庫，執行 Power BI Desktop 的電腦上必須安裝正確的 Oracle 用戶端軟體。 您使用的 Oracle 用戶端軟體取決於您安裝的 Power BI Desktop 版本，也就是 **32 位元**版本或 **64 位元**版本。
@@ -30,11 +29,11 @@ ms.locfileid: "70200903"
 ## <a name="installing-the-oracle-client"></a>安裝 Oracle 用戶端
 針對 **32 位元**版本的 Power BI Desktop，使用下列連結，下載並安裝 **32 位元**的 Oracle 用戶端︰
 
-* [32 位元的 Oracle Access Components (ODAC) 與 Oracle Developer Tools for Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
+* [32 位元的 Oracle Access Components (ODAC) 與 Oracle Developer Tools for Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
 針對 **64 位元**版本的 Power BI Desktop，使用下列連結，下載並安裝 **64 位元** 的 Oracle 用戶端︰
 
-* [適用於 Windows x64 的 64 位元 ODAC 12c Release 4 (12.1.0.2.4)](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+* [適用於 Windows x64 的 64 位元 ODAC 12c Release 4 (12.1.0.2.4)](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 ## <a name="connect-to-an-oracle-database"></a>連接到 Oracle 資料庫
 安裝相符的 Oracle 用戶端驅動程式之後，您可以連接到 Oracle 資料庫。 請採取下列步驟建立連線：

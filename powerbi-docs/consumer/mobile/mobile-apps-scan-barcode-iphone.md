@@ -2,19 +2,18 @@
 title: 從 Power BI 行動裝置應用程式掃描條碼
 description: 掃描實際的條碼可直接前往 Power BI 行動裝置應用程式中篩選過的 BI 資訊。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 432b65f8d7f461ac1942cf8996f9cc67e756fc7f
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: bbc787203293fc6c9075400abf674345710faaed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67559004"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879186"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>使用裝置從 Power BI 行動裝置應用程式掃描條碼
 掃描實際的條碼可直接前往 Power BI 行動裝置應用程式中篩選過的 BI 資訊。

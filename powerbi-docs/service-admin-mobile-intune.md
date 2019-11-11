@@ -2,7 +2,6 @@
 title: 使用 Microsoft Intune 設定行動裝置應用程式
 description: 如何使用 Microsoft Intune 設定 Power BI 行動應用程式 這包括如何新增及部署應用程式， 以及如何建立行動應用程式原則來控制安全性。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b1af8c58e24ff1d95b28ea8a024c29ccdcac56b3
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: abbbceb6734ecb70469efa198b6e85fce4c3e840
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075622"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857333"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>使用 Microsoft Intune 設定行動裝置應用程式
 
@@ -191,4 +190,4 @@ Microsoft Intune 可以與行動裝置管理 (MDM) 同時存在 Office 365 中�
 
 [行動裝置的 Power BI 應用程式](consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)  
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)  

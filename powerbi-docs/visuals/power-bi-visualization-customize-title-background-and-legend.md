@@ -2,7 +2,6 @@
 title: 開始設定 Power BI 視覺效果的格式
 description: 自訂視覺化標題、背景和圖例
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6228ed70dd78ffca6cd3c8803518b2b27674576f
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 011e2b6d3bf5cc998f7db76e96536d2ddab09888
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389925"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880853"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>自訂視覺效果標題、圖例及背景
 
@@ -139,9 +138,9 @@ ms.locfileid: "67389925"
 |:--- |:--- |:--- |:--- |
 | 區域 | 可以 | 是 |可以 |
 | 橫條圖 | 可以 | 是 |可以 |
-| 卡片 | 可以 | 是 |n/a |
+| card | 可以 | 是 |n/a |
 | 多列卡片 | 可以 | 是 | n/a |
-| Column | 可以 | 是 | 可以 |
+| 資料行 | 可以 | 是 | 可以 |
 | 組合圖 | 可以 | 是 | 可以 |
 | 環圈圖 | 可以 | 是 | 可以 |
 | 區域分布圖 | 可以 | 是 | 可以 |
@@ -156,7 +155,7 @@ ms.locfileid: "67389925"
 | 交叉分析篩選器 | 可以 | 是 | n/a |
 | 資料表 | 可以 | 是 | n/a |
 | 文字方塊 | 不可以 | 是 | n/a |
-| 矩形式樹狀結構圖 | 可以 | 是 | 可以 |
+| 樹狀圖 | 可以 | 是 | 可以 |
 | 瀑布圖 | 可以 | 是 | 可以 |
 
 ## <a name="next-steps"></a>後續步驟
@@ -167,4 +166,4 @@ ms.locfileid: "67389925"
 
 - [Power BI 服務取用者的基本概念](../consumer/end-user-basic-concepts.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

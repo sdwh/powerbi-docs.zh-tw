@@ -2,7 +2,6 @@
 title: 使用 Power BI 的報表工具提示頁面
 description: Power BI Desktop 中的工具提示頁面可讓您在報表中建立豐富的暫留式工具提示視覺效果
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f18ed2b0e370ad4617b7eccae4fbf043233fe4c0
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 5f6f0db28103b937d2074e6f339c9aaa61bfd688
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590515"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879627"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>在 Power BI Desktop 中根據報表頁面建立工具提示
 您可以建立視覺化的豐富**報表工具提示**，它們是您在 **Power BI Desktop** 中根據報表頁面所建立的，當您將滑鼠停留在視覺效果上時就會顯示。 透過建立作為工具提示的報表頁面，您的自訂工具提示可以包含視覺效果、影像和任何其他您在報表頁面中建立的項目集合。 

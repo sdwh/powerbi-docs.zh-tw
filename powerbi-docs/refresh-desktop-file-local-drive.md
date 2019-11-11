@@ -2,7 +2,6 @@
 title: 重新整理建立自 Power BI Desktop 檔案的資料集 - 本機
 description: 重新整理建立自本機磁碟上 Power BI Desktop 檔案的資料集
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/04/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 58727627656a3cb22ad7fce626d0c7e6ce746440
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: b96163b433998ad92860ad6c234aac4126cf5486
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816494"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874365"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>重新整理建立自本機磁碟上 Power BI Desktop 檔案的資料集
 
@@ -68,5 +67,5 @@ ms.locfileid: "66816494"
 - [為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)
 - [對 Power BI Gateway - Personal 進行疑難排解](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

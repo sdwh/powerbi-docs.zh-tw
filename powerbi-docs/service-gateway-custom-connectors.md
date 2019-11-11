@@ -3,19 +3,18 @@ title: 透過內部部署資料閘道使用自訂資料連接器
 description: 您可以透過內部部署資料閘道使用自訂資料連接器。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3c0ef172115dba05deb02d724b663742a2e71c13
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: c76c8fdb635db7724ffeb1a5140e9095c9b2eff5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832531"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881756"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>透過內部部署資料閘道使用自訂資料連接器
 
@@ -23,7 +22,7 @@ ms.locfileid: "68832531"
 
 有了適用於 Power BI 的資料連接器，您可以連接並存取應用程式、服務或資料來源中的資料。 您可以在 Power BI Desktop 中開發並使用自訂資料連接器。
 
-若要深入了解如何為 Power BI 開發自訂資料連接器，請參閱[資料連接器 SDK GitHub 頁面](http://aka.ms/dataconnectors)。 此網站包含 Power BI 和 Power Query 的開始使用方式和範例資訊。
+若要深入了解如何為 Power BI 開發自訂資料連接器，請參閱[資料連接器 SDK GitHub 頁面](https://aka.ms/dataconnectors)。 此網站包含 Power BI 和 Power Query 的開始使用方式和範例資訊。
 
 當您在 Power BI Desktop 中建置使用自訂資料連接器的報表時，您可以使用內部部署資料閘道從 Power BI 服務重新整理這些報表。
 
@@ -58,4 +57,4 @@ ms.locfileid: "68832531"
 * [設定內部部署資料閘道的 Proxy 設定](/data-integration/gateway/service-gateway-proxy)
 * [針對從 Power BI 到內部部署資料來源的單一登入 (SSO) 使用 Kerberos](service-gateway-sso-kerberos.md)  
 
-有其他問題嗎？ 請嘗試詢問 [Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ 請嘗試詢問 [Power BI 社群](https://community.powerbi.com/)。

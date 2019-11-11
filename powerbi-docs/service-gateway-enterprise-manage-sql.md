@@ -2,7 +2,6 @@
 title: 管理您的資料來源 - SQL
 description: 如何管理內部部署資料閘道及屬於該閘道的資料來源。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ca8cf2e9c20f2efb4fe4b9f80a936ba887cccc93
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 66e9b53761fa154fe76cefea99cb5c88345b97aa
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832383"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881626"
 ---
 # <a name="manage-your-data-source---sql-server"></a>管理您的資料來源 - SQL Server
 
@@ -81,5 +80,5 @@ ms.locfileid: "68832383"
 * [針對閘道進行疑難排解 - Power BI](service-gateway-onprem-tshoot.md)
 * [針對從 Power BI 到內部部署資料來源的單一登入 (SSO) 使用 Kerberos](service-gateway-sso-kerberos.md)
 
-有其他問題嗎？ 請嘗試詢問 [Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ 請嘗試詢問 [Power BI 社群](https://community.powerbi.com/)。
 

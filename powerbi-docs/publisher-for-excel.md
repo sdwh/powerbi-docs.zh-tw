@@ -2,7 +2,6 @@
 title: 使用 Power BI Publisher for Excel
 description: 了解如何使用 Power BI Publisher for Excel
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4e9efa729b9dc4ac645bc8d3ff7df92cafc929e4
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: b646d7da5862e20a15f62ce3dc5f49f93ccd01ff
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70200976"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877643"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Power BI publisher for Excel
 有了 Microsoft **Power BI Publisher for Excel**，您就可以擷取 Excel 中最重要深入解析的快照集，像是樞紐分析表、樞紐分析圖和範圍，並將其釘選到 Power BI 中的儀表板。

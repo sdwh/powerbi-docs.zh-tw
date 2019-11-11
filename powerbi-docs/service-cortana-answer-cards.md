@@ -2,7 +2,6 @@
 title: 建立 Cortana 的自訂 Power BI 回應頁面
 description: 在 Power BI 中建立 Cortana 的自訂回應頁面
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: bb0f6febfaee30c3eab3ce8b8aa618eb09c464bf
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 06f155676dffa7b5f87ce61a8b342708793ef2c6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375255"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853731"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>使用 Power BI 服務或 Power BI Desktop 建立 Cortana 的自訂回應頁面
 您可以使用 Power BI 的完整功能，建立稱為「Cortana 回應頁面」  (有時稱為*Cortana Answer Card*)、專為回答 Cortana 問題所設計的特殊報表頁面。
 
 > [!IMPORTANT]
-> Cortana 整合已被取代，在 Power BI 中。 從 6 月 11 日，Cortana 將不再適用於任何儀表板和報表。
+> Cortana 整合在 Power BI 中即將淘汰。 自 6 月 11 日起，Cortana 將無法再用於任何儀表板和報表。
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
@@ -96,5 +95,5 @@ ms.locfileid: "66375255"
 
 還是無法讓 Cortana 搭配 Power BI 運作嗎？  請嘗試 [Cortana 疑難排解員](service-cortana-troubleshoot.md)。
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

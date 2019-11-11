@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中使用群組和量化
 description: 了解如何在 Power BI Desktop 中群組和量化項目
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b8d742e9238d438775115fd1ee2e287cf0ba0388
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: eae7ffdaa6f21ed0732500539f922cf10eb7bb61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454254"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878190"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>在 Power BI Desktop 中使用群組和量化
 當 **Power BI Desktop** 建立視覺效果時，會根據在基礎資料中找到的值，將資料彙總成區塊 (或群組)。 通常沒有問題，但您偶爾會想要調整這些區塊的呈現方式。 例如，您可能想要將三種產品類別放在一個較大的類別 (一個「群組」  ) 中。 或者您可能想要以量化大小 1,000,000 美元來查看銷售數字，而不是等分為 923,983 美元。

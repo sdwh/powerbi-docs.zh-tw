@@ -3,25 +3,24 @@ title: Power BI Premium 常見問題集
 description: 瀏覽常見問題集清單並取得 Power BI Premium 供應項目相關問題的解答。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f7d23c291e77ebacd3ed19a14ed7ce2921da5673
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 31335f01bd91355587634afbde9a10df5689226b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073341"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881174"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常見問題集
 
 本文可解決關於 Power BI Premium 的常見問題。 如需概觀，請參閱[什麼是 Power BI Premium？](service-premium-what-is.md)。
 
-* 如果您有其他問題，請[嘗試詢問 Power BI 社群](http://community.powerbi.com/)。
+* 如果您有其他問題，請[嘗試詢問 Power BI 社群](https://community.powerbi.com/)。
 * 仍有問題嗎？ 請前往 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
 
 **什麼是 Power BI Premium？**  

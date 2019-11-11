@@ -2,19 +2,18 @@
 title: Power BI 行動版 Windows 應用程式的單一登入
 description: 閱讀 Power BI 行動版 Windows 應用程式的單一登入 (SSO) 相關資訊。 SSO 表示您只要以單一使用者帳戶登入一次，就可以存取執行業務所需的所有應用程式和資源。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: mshenhav
-ms.openlocfilehash: fdbdebacc2ae41cdfa8296eb6b0c06e52f149cac
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 4ec2e43843d37f0966070d39e08ae0ab6160dbf8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61336836"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876659"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Power BI 行動版 Windows 應用程式的單一登入
 
@@ -35,5 +34,5 @@ ms.locfileid: "61336836"
 ## <a name="next-steps"></a>後續步驟
 
 - [開始使用 Power BI for Windows 10 行動裝置 App](mobile-windows-10-phone-app-get-started.md)
-- 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+- 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

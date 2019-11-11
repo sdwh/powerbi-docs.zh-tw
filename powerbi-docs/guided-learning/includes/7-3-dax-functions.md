@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 06ee6ad7ade46d811c6340d905150c6dd3810c55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273236"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799730"
 ---
 使用 DAX，有許多函數可用於形成、塑造，或分析您的資料。 這些函數可分為數個類別︰
 
@@ -97,7 +97,7 @@ DAX 包括下列**日期**函數︰
 
 雖然這些函數用來計算和擷取日期值的資訊很實用，他們並不適用於使用日期資料表的時間智慧。 
 
-> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](http://www.sqlbi.com/learning-dax)
+> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](https://www.sqlbi.com/learning-dax)
 > 
 > 
 

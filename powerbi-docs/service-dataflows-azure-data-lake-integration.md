@@ -2,7 +2,6 @@
 title: 資料流程與 Azure Data Lake 整合
 description: Power BI 資料流程如何與 Azure Data Lake Storage Gen2 整合的概觀
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7532b0b381e43c6e413d27fa141c22e58dfba84e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5b13fdc1f65fe2650ea0fb4fee1be20611ac3e8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61150442"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877303"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>資料流程與 Azure Data Lake 整合 (預覽)
 
@@ -97,4 +96,4 @@ Power BI 外部的人員或服務也可以利用授權替代形式，這些替�
 * [CDM 資料夾](https://go.microsoft.com/fwlink/?linkid=2045304) \(英文\)
 * [CDM 模型檔案定義](https://go.microsoft.com/fwlink/?linkid=2045521) \(英文\)
 
-此外，您隨時都可以試著[向 Power BI 社群發問](http://community.powerbi.com/) \(英文\)。
+此外，您隨時都可以試著[向 Power BI 社群發問](https://community.powerbi.com/) \(英文\)。

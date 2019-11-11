@@ -2,19 +2,18 @@
 title: 管理員如何管理 Power BI Desktop 登入表單
 description: 了解開啟 Power BI Desktop 時，如何管理初始登入表單。
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: davidi
-ms.openlocfilehash: 5c31277b640b16882bef5c5f2cd9c56b441ede82
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b1ab5188ba8f5ccf54589d359f6f8ced1ada3060
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61329861"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878848"
 ---
 # <a name="how-administrators-can-manage-the-power-bi-desktop-sign-in-form"></a>系統管理員如何管理 Power BI Desktop 登入表單
 Power BI Desktop 第一次啟動時，會顯示登入表單。 您可以填入資訊，或登入 Power BI 以繼續。 系統管理員使用登錄機碼來管理此表單。 
@@ -39,5 +38,5 @@ valueName: ShowLeadGenDialog
 
 
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

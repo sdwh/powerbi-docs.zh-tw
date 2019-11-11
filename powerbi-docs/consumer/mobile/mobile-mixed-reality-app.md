@@ -2,19 +2,18 @@
 title: Power BI for Mixed Reality 應用程式 (預覽)
 description: 您可以透過 Power BI for Mixed Reality 應用程式 (預覽) 來檢視您的儀表板和報表，沉浸在虛擬世界或您的環境內容中。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 443615a64bee1f4723450c6c8cc3c49feb81989c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 04a77aa9a5a464baf0ce1c9a88604d84ad0feb53
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61373950"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879135"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 應用程式 (預覽)
 您可以在沉浸於虛擬世界的同時，透過 Power BI for Mixed Reality 應用程式 (預覽) 來檢視您的儀表板和報表，或將這些項目放在您環境內容中的特定位置。 

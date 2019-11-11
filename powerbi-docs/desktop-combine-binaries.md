@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中合併檔案 (二進位檔)
 description: 在 Power BI Desktop 中輕鬆合併檔案 (二進位檔) 資料來源
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8a5b4c7cb484b296ccab395e18eb2b0089ffd5c7
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 03a6e044a55613d40a1cf195d6a0ad3b44a9f012
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327833"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876564"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>在 Power BI Desktop 中合併檔案 (二進位檔)
 將多個具有相同結構描述的檔案合併成單一邏輯資料表，是一種將資料匯入 **Power BI Desktop** 中的強大方法。 一如本文所述，此方法原本就十分便利，廣為大眾使用，現在方便性更加提升，擴充性也變得更好。

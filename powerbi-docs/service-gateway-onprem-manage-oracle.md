@@ -2,7 +2,6 @@
 title: 管理您的資料來源 - Oracle
 description: 如何管理內部部署資料閘道及屬於該閘道的資料來源。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ac116cfb2e3f09ceab6c9f78dba33bc18e847784
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: cb7856b0b5ac84684e8d0648b91e45805218cead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832465"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872468"
 ---
 # <a name="manage-your-data-source---oracle"></a>管理您的資料來源 - Oracle
 
@@ -29,11 +28,11 @@ ms.locfileid: "68832465"
 
 針對 32 位元版本的 Power BI Desktop，請使用下列連結來下載並安裝 32 位元的 Oracle 用戶端：
 
-* [32 位元的 Oracle Access Components (ODAC) 與 Oracle Developer Tools for Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
+* [32 位元的 Oracle Access Components (ODAC) 與 Oracle Developer Tools for Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
 針對 64 位元版本的 Power BI Desktop 或內部部署資料閘道，請使用下列連結來下載並安裝 64 位元的 Oracle 用戶端：
 
-* [適用於 Windows x64 的 64 位元 ODAC 12.2c Release 1 (12.2.0.1.0)](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+* [適用於 Windows x64 的 64 位元 ODAC 12.2c Release 1 (12.2.0.1.0)](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 安裝用戶端之後，請使用您資料庫的適當資訊來設定 tnsnames.ora 檔案。 Power BI Desktop 和閘道將會離開 tnsnames.ora 檔案中定義的 net_service_name。 如果未設定 net_service_name，您就無法連接。 tnsnames.ora 的預設路徑為 `[Oracle Home Directory]\Network\Admin\tnsnames.ora`。 如需如何設定 tnsnames.ora 檔案的詳細資訊，請參閱 [Oracle:本機命名引數 (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm)。
 
@@ -132,5 +131,5 @@ CONTOSO =
 * [針對閘道進行疑難排解 - Power BI](service-gateway-onprem-tshoot.md)
 * [Power BI Premium](service-premium.md)
 
-有其他問題嗎？ 請嘗試詢問 [Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ 請嘗試詢問 [Power BI 社群](https://community.powerbi.com/)。
 

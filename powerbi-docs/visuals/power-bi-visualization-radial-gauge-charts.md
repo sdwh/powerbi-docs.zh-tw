@@ -2,7 +2,6 @@
 title: Power BI 中的星形量測計圖表
 description: Power BI 中的星形量測計圖表
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 020d7edcf6bc499623df93a9def30285a37cffc6
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: e783b4357d4db39e09aabbb1df39e1bb5c84532e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194311"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880893"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的星形量測計圖表
 
@@ -49,7 +48,7 @@ ms.locfileid: "71194311"
 
 ## <a name="prerequisites"></a>先決條件
 
-本教學課程使用[財務範例 Excel 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
+本教學課程使用[財務範例 Excel 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
 1. 從功能表列的左上方區段中，選取 [取得資料]   > [Excel] 
    
@@ -153,4 +152,4 @@ ms.locfileid: "71194311"
 
 * [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

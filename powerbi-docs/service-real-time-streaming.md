@@ -2,7 +2,6 @@
 title: Power BI 中的即時串流
 description: 在 Power BI 中取得即時資料串流和視覺效果
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f88d1e0458e6a1b3abe20c0b4dd889c037ede612
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 9415365c3846329d5bcf707ec7f41d0bd2cc6f92
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307335"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871746"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的即時串流
 您可以使用 Power BI 即時串流，即時串流資料及更新儀表板。 您也可以建立可在 Power BI 中建立的任何視覺效果或儀表板，進而顯示及更新即時資料和視覺效果。 串流資料的裝置和來源可以是 Factory 感應器、社交媒體來源、服務使用計量，以及可從中收集或傳送即時資料的任何其他項目。

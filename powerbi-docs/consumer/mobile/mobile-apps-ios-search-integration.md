@@ -2,19 +2,18 @@
 title: 與 Power BI 的 iOS 裝置搜尋整合
 description: 使用裝置搜尋 (焦點) 來尋找並存取您需要的內容
 author: michalfo
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 8f40781bb15b06f894a53f16d4ec6754d88e6b53
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f89895650bb0b81533aeddbc149f225742dc9d3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "66817068"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879220"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>與 Power BI iOS 行動裝置應用程式的 iOS 裝置搜尋 (焦點) 整合 (預覽)
 使用 iOS 裝置搜尋來尋找並存取您需要的內容。
@@ -51,7 +50,7 @@ ms.locfileid: "66817068"
 ## <a name="next-steps"></a>後續步驟
 如需 Power BI 行動裝置應用程式的詳細資訊，請執行下列動作： 
 
-* 下載 [Power BI iPhone 行動裝置應用程式](http://go.microsoft.com/fwlink/?LinkId=522062)
+* 下載 [Power BI iPhone 行動裝置應用程式](https://go.microsoft.com/fwlink/?LinkId=522062)
 * 關注 [Twitter 上的 @MSPowerBI](https://twitter.com/MSPowerBI)
-* 加入 [Power BI 社群](http://community.powerbi.com/)的交談
+* 加入 [Power BI 社群](https://community.powerbi.com/)的交談
 

@@ -3,19 +3,18 @@ title: 修正「公司 SSL 憑證不受信任」
 description: 登入 Power BI for Android 應用程式時，您可能會看到訊息：「無法驗證，因為您的公司 SSL 憑證不受信任」
 .": ''
 author: paulinbar
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/28/2019
 ms.author: mshenhav
-ms.openlocfilehash: 19bcdf08d4eacff5e080bf1a2f987ea848e4bfb9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cde8a4bbaed9ef10940b7a102d40a8bc6009e9b9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70840918"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879469"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>修正「公司 SSL 憑證不受信任」- Power BI
 登入 Microsoft Power BI for Android 行動裝置應用程式時，您可能會看到訊息：「無法驗證，因為您的公司 SSL 憑證不受此裝置信任。 請連絡您公司的 IT 管理員。」 
@@ -41,9 +40,9 @@ ms.locfileid: "70840918"
 移至 [設定]   > [系統]   > [日期和時間]  檢查它們。
 
 ## <a name="custom-authentication-server"></a>自訂驗證伺服器
-如果您使用自訂驗證伺服器，公司驗證伺服器在的 SSL 憑證可能無效。 請與您組織的 IT 合作，依照[此文章](https://support.microsoft.com/en-us/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce)中的指導方針測試公司驗證伺服器設定。
+如果您使用自訂驗證伺服器，公司驗證伺服器在的 SSL 憑證可能無效。 請與您組織的 IT 合作，依照[此文章](https://support.microsoft.com/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce)中的指導方針測試公司驗證伺服器設定。
 
 ## <a name="next-steps"></a>後續步驟
-* 從 Android App Store [下載 Android 應用程式](http://go.microsoft.com/fwlink/?LinkID=544867)。
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/) 
+* 從 Android App Store [下載 Android 應用程式](https://go.microsoft.com/fwlink/?LinkID=544867)。
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/) 
 

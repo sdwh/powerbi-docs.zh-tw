@@ -2,7 +2,6 @@
 title: Power BI 報表與儀表板中的資料表視覺效果
 description: 在 Power BI 報表和儀表板中使用資料表視覺效果的教學課程，包括如何調整資料行寬度。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 65410dc15600307ba11a2c48db1689be5a458383
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 2bb20b9ecc43e73e85d798416fe0ddaabb98e12b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193345"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870794"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 報表和儀表板中的資料表
 
@@ -40,7 +39,7 @@ ms.locfileid: "71193345"
 
 ## <a name="prerequisite"></a>必要條件
 
-本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
+本教學課程使用[零售分析範例 PBIX 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
 1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
    

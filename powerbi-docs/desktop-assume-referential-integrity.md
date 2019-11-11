@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的採用參考完整性設定
 description: 透過 DirectQuery，了解如何讓 Power BI Desktop 採用參考完整性
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e4e13ddf098d68d48fcbe968c325e9a9458b3df
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5af9c2e5979121054e51b928c58f49477c19a7d0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239857"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878811"
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Power BI Desktop 中的採用參考完整性設定
 使用 **DirectQuery** 連接到資料來源時，您可以使用 [採用參考完整性]  選項來允許對資料來源執行更有效率的查詢。 這項功能對於基礎資料有幾項需求，而且只有在使用 **DirectQuery** 時才能存取。

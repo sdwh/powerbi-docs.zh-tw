@@ -2,7 +2,6 @@
 title: 設計絕佳 Power BI 儀表板的秘訣
 description: 設計絕佳 Power BI 儀表板的秘訣
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2083fa0d197010ca770422f11c7f1e4b83d0184b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023761"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877415"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>設計絕佳 Power BI 儀表板的秘訣
 現在您已經建立儀表板，及新增了某些圖格，請思考如何讓您的儀表板不只是好看，同時功能也更強。 一般而言，這代表將突顯最重要的資訊，讓它簡潔且整齊。
@@ -24,8 +23,6 @@ ms.locfileid: "69023761"
 
 > [!TIP]
 > 喜歡這個儀表板？ 您可以從 AppSource 下載這個儀表板及相關報表。 請移至 [取得資料]   > [服務]  。 搜尋 [Microsoft 範例 - 銷售與行銷]   > [立即取得]  。
-
-報表的許多設計準則也適用於儀表板。 如需詳細資訊，請閱讀我們的技術白皮書︰[報表和視覺效果的最佳設計準則](visuals/power-bi-visualization-best-practices.md)。
 
 以下是儀表板的幾個祕訣。
 
@@ -85,4 +82,4 @@ ms.locfileid: "69023761"
 ## <a name="next-steps"></a>後續步驟
 [從報表建立儀表板](service-dashboard-create.md)  
 [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)  
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

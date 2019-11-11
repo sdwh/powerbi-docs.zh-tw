@@ -2,7 +2,6 @@
 title: Power BI Desktop 的先前每月更新
 description: 舊版 Power BI Desktop 的功能更新
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 24ff0748a57df5b76d8a559781cf9326764450e3
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: e775d5c4cf0ad1c24765368681134f5d4e865ad3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429719"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866956"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -176,8 +175,8 @@ ms.locfileid: "73429719"
 
 請選取下列連結以下載這個較早的版本： 
 
-* [Power BI Desktop 2019 年 8 月版本 - 32 位元](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08.msi)
-* [Power BI Desktop 2019 年 8 月版本 - 64 位元](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08_x64.msi)
+* [Power BI Desktop 2019 年 8 月版本 - 32 位元](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08.msi)
+* [Power BI Desktop 2019 年 8 月版本 - 64 位元](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08_x64.msi)
 
 
 ## <a name="july-2019-update-2715523641"></a>2019 年 7 月更新 (2.71.5523.641)
@@ -247,8 +246,8 @@ ms.locfileid: "73429719"
 
 請選取下列連結以下載這個較早的版本： 
 
-* [Power BI Desktop - 32 位元 2019 年 7 月版本](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07.msi)
-* [Power BI Desktop - 64 位元 2019 年 7 月版本](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07_x64.msi)
+* [Power BI Desktop - 32 位元 2019 年 7 月版本](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07.msi)
+* [Power BI Desktop - 64 位元 2019 年 7 月版本](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07_x64.msi)
 
 
 ## <a name="june-2019-update-2705494561"></a>2019 年 6 月更新 (2.70.5494.561)
@@ -330,8 +329,8 @@ ms.locfileid: "73429719"
 
 請選取下列連結以下載這個較早的版本： 
 
-* [Power BI Desktop - 32 位元 2019 年 6 月版本](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
-* [Power BI Desktop - 64 位元 2019 年 6 月版本](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
+* [Power BI Desktop - 32 位元 2019 年 6 月版本](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
+* [Power BI Desktop - 64 位元 2019 年 6 月版本](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
 
 
 ## <a name="may-2019-update-26954671251"></a>2019 年 5 月更新 (2.69.5467.1251)
@@ -408,8 +407,8 @@ ms.locfileid: "73429719"
 
 請選取下列連結以下載這個較早的版本： 
 
-* [Power BI Desktop - 32 位元 2019 年 5 月版本](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05.msi)
-* [Power BI Desktop - 64 位元 2019 年 5 月版本](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05_x64.msi)
+* [Power BI Desktop - 32 位元 2019 年 5 月版本](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05.msi)
+* [Power BI Desktop - 64 位元 2019 年 5 月版本](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05_x64.msi)
 
 
 ## <a name="april-2019-update-2685432361"></a>2019 年 4 月更新 (2.68.5432.361)
@@ -490,12 +489,6 @@ ms.locfileid: "73429719"
 * 可能無法使用舊版 Power BI Desktop 開啟使用較新版 Power BI Desktop 建立或儲存的檔案。 
 * 如果您在載入使用較新版 Power BI Desktop 儲存的報表時收到一則警告，然後使用舊版儲存該報表，您將會遺失任何與新功能有關的資訊。
 * 我們只會封存英文版 Power BI Desktop。
-
-請選取下列連結以下載這個較早的版本： 
-
-* [Power BI Desktop - 32 位元 2019 年 4 月版本](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04.msi)
-* [Power BI Desktop - 64 位元 2019 年 4 月版本](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04_x64.msi)
-
 
 ## <a name="march-2019-update-2675404581"></a>2019 年 3 月更新 (2.67.5404.581)
 
@@ -2414,7 +2407,7 @@ ms.locfileid: "73429719"
 -   Power BI Desktop R 整合的增強功能
 
 
-需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](http://blogs.msdn.com/b/powerbi/archive/2016/01/28/power-bi-updates-this-week-new-report-authoring-capabilities.aspx)，您可以從中取得每項新功能的詳細資訊。
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://blogs.msdn.com/b/powerbi/archive/2016/01/28/power-bi-updates-this-week-new-report-authoring-capabilities.aspx)，您可以從中取得每項新功能的詳細資訊。
 
 下列影片將描述並示範這些更新。 您也可以從部落格文章觀賞這段影片。
 
@@ -2470,7 +2463,7 @@ ms.locfileid: "73429719"
 -   CSV Connector：可在 [來源] 對話方塊中指定資料行分隔符號
 
 
-需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)，您可以從中取得每項新功能的詳細資訊。
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)，您可以從中取得每項新功能的詳細資訊。
 
 下列影片將描述並示範這些更新。 您也可以從部落格文章觀賞這段影片。
 
@@ -2525,7 +2518,7 @@ ms.locfileid: "73429719"
 
 -   新的文件網站，現在也包括當地語系化內容
 
-需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](http://blogs.msdn.com/b/powerbi/archive/2015/11/20/announcing-the-power-bi-desktop-november-update.aspx)，您可以從中取得每項新功能的詳細資訊。
+需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://blogs.msdn.com/b/powerbi/archive/2015/11/20/announcing-the-power-bi-desktop-november-update.aspx)，您可以從中取得每項新功能的詳細資訊。
 
 下列影片將描述並示範這些更新。 您也可以從部落格文章觀賞這段影片。
 
@@ -2577,7 +2570,7 @@ ms.locfileid: "73429719"
 <iframe width="500" height="281" src="https://www.youtube.com/embed/Jbocn1ZNkxM" frameborder="0" allowfullscreen></iframe>
 
 
-如需詳細資訊，請[查看部落格通知](http://blogs.msdn.com/b/powerbi/archive/2015/10/20/custom-visualizations-support-and-22-other-features-in-the-power-bi-desktop-october-update.aspx)，內含每個更新的詳細資訊。
+如需詳細資訊，請[查看部落格通知](https://blogs.msdn.com/b/powerbi/archive/2015/10/20/custom-visualizations-support-and-22-other-features-in-the-power-bi-desktop-october-update.aspx)，內含每個更新的詳細資訊。
 
 
 
@@ -2647,7 +2640,7 @@ ms.locfileid: "73429719"
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/Jm44dLXdarQ" frameborder="0" allowfullscreen></iframe>
 
-如需這項更新的詳細資訊，請[查看部落格通知](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/44-new-features-in-the-power-bi-desktop-september-update.aspx)，內含每個更新的詳細資訊。
+如需這項更新的詳細資訊，請[查看部落格通知](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/44-new-features-in-the-power-bi-desktop-september-update.aspx)，內含每個更新的詳細資訊。
 
 ## <a name="august-2015-update-2264128403"></a>2015 年 8 月更新 (2.26.4128.403)
 

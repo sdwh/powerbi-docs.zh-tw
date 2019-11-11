@@ -2,7 +2,6 @@
 title: 教學課程：從網頁匯入並分析資料
 description: 教學課程：使用 Power BI Desktop 從網頁匯入並分析資料
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514644"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879581"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>教學課程：使用 Power BI Desktop 來分析網頁資料
 
@@ -29,7 +28,7 @@ ms.locfileid: "65514644"
 
 ## <a name="connect-to-a-web-data-source"></a>連線到 Web 資料來源
 
-您可以從 UEFA 歐洲足球聯賽維基百科頁面的成績表格取得 UEEA 得獎者資料，網址是 http://en.wikipedia.org/wiki/UEFA_European_Football_Championship 。 
+您可以從 UEFA 歐洲足球聯賽維基百科頁面的成績表格取得 UEEA 得獎者資料，網址是 https://en.wikipedia.org/wiki/UEFA_European_Football_Championship 。 
 
 ![維基百科成績資料表](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
@@ -44,7 +43,7 @@ ms.locfileid: "65514644"
    >[!NOTE]
    >您也可以選取 [取得資料]  項目本身，或從 Power BI [開始使用]  對話方塊選取 [取得資料]  ，然後從 [取得資料]  對話方塊的 [全部]  或 [其他]  區段選取 [Web]  ，最後選取 [連接]  。
    
-2. 在 [從 Web]  對話方塊方塊中，將 URL `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` 貼到 **URL** 文字方塊中，然後選取 [確定]  。
+2. 在 [從 Web]  對話方塊方塊中，將 URL `https://en.wikipedia.org/wiki/UEFA_European_Football_Championship` 貼到 **URL** 文字方塊中，然後選取 [確定]  。
    
     ![對話方塊的 [取得資料]](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
    
@@ -186,8 +185,8 @@ ms.locfileid: "65514644"
 Power BI Desktop 提供從頭到尾流暢的體驗，包括從各種資料來源取得資料、讓資料成形以符合您的分析需求，乃至於以豐富且互動的方式將此資料視覺化。 準備好報表之後，您可以[將其上傳至 Power BI](desktop-upload-desktop-files.md) 並建立以此為基礎的儀表板，您可以與其他 Power BI 使用者共用該儀表板。
 
 ## <a name="see-also"></a>另請參閱
-* [閱讀其他 Power BI Desktop 教學課程](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [觀看 Power BI Desktop 影片](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [瀏覽 Power BI 論壇](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [閱讀 Power BI 部落格](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [閱讀其他 Power BI Desktop 教學課程](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [觀看 Power BI Desktop 影片](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [瀏覽 Power BI 論壇](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [閱讀 Power BI 部落格](https://go.microsoft.com/fwlink/?LinkID=519327)
 

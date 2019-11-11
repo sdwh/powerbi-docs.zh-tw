@@ -2,7 +2,6 @@
 title: Power BI 報表中的文字方塊和圖形
 description: 使用 Microsoft Power BI 服務在報表中新增及建立文字方塊和圖形。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 03157d34e8d3a20ae7b4aadf71a0829d9a88e08d
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 3da18269817ef89dfff9524c8875814430bc6cce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715274"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874428"
 ---
 # <a name="text-boxes-and-shapes-in-power-bi-reports"></a>Power BI 報表中的文字方塊和圖形
 您可以使用 Power BI 服務和 Power BI Desktop 將文字方塊和圖形新增至報表。 在這兩種情況下，您都必須要有報表的編輯權限。 如果報表已在 Power BI 服務中與您共用，則您不會有編輯權限。 
@@ -68,4 +67,4 @@ ms.locfileid: "71715274"
 
 [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: 在 Power BI 中組織新工作區中的工作
 description: 了解新的工作區，這些工作區是為了提供重要計量給組織而建立的儀表板和報告集合。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 15f0ce3910261ed2902603ab7fb3f07f8b695d4c
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 8ff32c2559570514f775d15d7da3f787ab85970a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020674"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872049"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 中組織新工作區中的工作
 
@@ -162,4 +161,4 @@ Power BI 會稽核新工作區體驗工作區的下列活動。
 * [在 Power BI 中建立新的工作區](service-create-the-new-workspaces.md)
 * [建立傳統工作區](service-create-workspaces.md)
 * [在 Power BI 中安裝和使用應用程式](service-create-distribute-apps.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

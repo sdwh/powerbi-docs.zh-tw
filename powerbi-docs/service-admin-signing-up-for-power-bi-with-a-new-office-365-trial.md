@@ -2,7 +2,6 @@
 title: 使用新的 Office 365 試用版註冊 Power BI
 description: 使用新的 Office 365 試用版註冊 Power BI
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7f9fd3870803a73bf9e47f2ca4e706e03a728eb4
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 89732201276c00949a8ef1d605c5e60ea03b6b47
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074259"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873347"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>使用新的 Office 365 試用版註冊 Power BI
 
@@ -41,4 +40,4 @@ ms.locfileid: "71074259"
 [組織中的 Power BI 授權](service-admin-licensing-organization.md)  
 [以個人身分註冊 Power BI](service-self-service-signup-for-power-bi.md)
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

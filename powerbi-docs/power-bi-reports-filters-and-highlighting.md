@@ -2,7 +2,6 @@
 title: 在 Power BI 報表中進行篩選和醒目提示
 description: 在 Power BI 報表中進行篩選和醒目提示的相關事項
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 53bca7d1c0fd4d8592ec694d67148a7e3ccd46ff
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: f1722690ff974a9d4fac6e94243e1024bfbfc12e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891866"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877604"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>在 Power BI 報表中進行篩選和醒目提示
  本文介紹如何在 Power BI 服務中進行篩選和醒目提示。 其體驗幾乎與 Power BI Desktop 完全相同。 *篩選*會保留您最關切的資料，而將其他所有資料移除。 「醒目提示」  與篩選不同。 它不會移除資料，而是將一部分可見資料醒目提示，未醒目提示的資料仍保持可見但會變暗。
@@ -100,5 +99,5 @@ ms.locfileid: "72891866"
 
 [變更報表視覺效果相互交叉篩選及交叉醒目提示的方式](consumer/end-user-interactions.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

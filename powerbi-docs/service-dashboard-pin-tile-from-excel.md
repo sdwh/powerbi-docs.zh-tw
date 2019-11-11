@@ -2,7 +2,6 @@
 title: 如何從 Excel 將磚釘選到 Power BI 儀表板
 description: 從商務用 OneDrive 上的 Excel 將磚釘選到 Power BI 儀表板 釘選範圍、圖表、資料表
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 273cfbd86573a5eceaf9705ac19b0f7928b59176
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d0f258af383327fb25c8f0e896677bbd19eca6c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61138264"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877417"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>從 Excel 將磚釘選到 Power BI 儀表板
 您要先連接活頁簿和 Power BI 服務 (app.powerbi.com)，才可以從 Excel 活頁簿釘選磚。 連接活頁簿其實就是將該活頁簿的連結唯讀版本帶入 Power BI 服務，且讓您將範圍釘選到儀表板。 您甚至可以將整份工作表釘選到儀表板。  
 如果活頁簿已與您共用，您就能夠檢視擁有者釘選的磚，但不能自行建立任何儀表板磚。 
 
-如需 Excel 和 Power BI 如何合作的詳細資訊，請參閱[從 Excel 活頁簿檔案取得資料](http://go.microsoft.com/fwlink/?LinkID=521962)。
+如需 Excel 和 Power BI 如何合作的詳細資訊，請參閱[從 Excel 活頁簿檔案取得資料](https://go.microsoft.com/fwlink/?LinkID=521962)。
 
 觀看 Will 示範數種連接至 Excel 活頁簿及從中匯入資料的方式。
 
@@ -81,12 +80,12 @@ ms.locfileid: "61138264"
  ![影片](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-不支援的功能：Power BI 使用 Excel Services 來擷取活頁簿圖格。 因此，因為 Excel Services REST API 不支援 Excel 的某些功能，所以在 Power BI 中的磚上不會看到它們。 例如：走勢圖、設定條件式格式的圖示和時間交叉分析篩選器。 如需不支援功能的完整清單，請參閱 [Unsupported Features in Excel Services REST API](http://msdn.microsoft.com/library/office/ff394477.aspx) (Excel Services REST API 中不支援的功能)
+不支援的功能：Power BI 使用 Excel Services 來擷取活頁簿圖格。 因此，因為 Excel Services REST API 不支援 Excel 的某些功能，所以在 Power BI 中的磚上不會看到它們。 例如：走勢圖、設定條件式格式的圖示和時間交叉分析篩選器。 如需不支援功能的完整清單，請參閱 [Unsupported Features in Excel Services REST API](https://msdn.microsoft.com/library/office/ff394477.aspx) (Excel Services REST API 中不支援的功能)
 
 ## <a name="next-steps"></a>後續步驟
 [共用可連結至 Excel 活頁簿的儀表板](service-share-dashboard-that-links-to-excel-onedrive.md)
 
 [從 Excel 活頁簿取得資料](service-excel-workbook-files.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: 針對 Power BI 深入資訊摘要將資料最佳化
 description: 針對 Power BI 深入資訊摘要將資料最佳化。 如果 Power BI 在您的資料中找不到深入剖析資訊，您可以執行下列一些作業
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2d2a0cca984776ea67fca45b39f91e280fe02afa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1ed588b0ca183e090d12f9aa0df23460a6037ed4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61235022"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872204"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>最佳化 Power BI 快速深入剖析的資料
 想要改善深入資訊摘要結果嗎？  如果您是資料集擁有者，請嘗試下列︰
@@ -28,5 +27,5 @@ ms.locfileid: "61235022"
 ### <a name="next-steps"></a>後續步驟
 [Power BI 深入資訊摘要](consumer/end-user-insights.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

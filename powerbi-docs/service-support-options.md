@@ -2,19 +2,18 @@
 title: Power BI Pro 和 Power BI Premium 支援選項
 description: 此文章說明適用於 Power BI Pro 和 Power BI Premium 客戶的支援選項。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: mblythe
-ms.openlocfilehash: df14bf127ed6935f9bec445709153a87088f8af0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 4cd007467b2ebd7f08dbb9d9bd3447194aad1f37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305822"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871402"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro 和 Power BI Premium 支援選項
 
@@ -55,4 +54,4 @@ ms.locfileid: "71305822"
 
   - **WorkshopPLUS - 資料 AI：使用 Power BI 進行進階資料分析**：此課程提供的知識將可協助您使用 Power BI Desktop 之類的工具了解及實作 Power BI 中資料模型各方面的主要原則，以及使用雲端服務來發佈及使用 BI 資產。 此課程後續涵蓋報表開發的基本概念、將內容內嵌到自訂應用程式的 Power BI 內嵌式分析、即時儀表板設定，以及 Power BI 中與資料科學相關的進階分析和發展。
 
-如需詳細資訊，請連絡您的 Microsoft 技術客戶經理。 如果您還沒有 Microsoft 頂級支援合約，請深入了解[頂級支援](https://support.microsoft.com/en-us/premier)。
+如需詳細資訊，請連絡您的 Microsoft 技術客戶經理。 如果您還沒有 Microsoft 頂級支援合約，請深入了解[頂級支援](https://support.microsoft.com/premier)。

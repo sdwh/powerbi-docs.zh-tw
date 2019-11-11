@@ -2,7 +2,6 @@
 title: 重新整理建立自 Excel 活頁簿的資料集 - 本機
 description: 重新整理建立自本機磁碟上 Excel 活頁簿的資料集
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: a71631c0ac8e45c7e268eb11a0539fa8305dfcd7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b69e908e378605facbdaea79618aaf5167ff7739
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61414701"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874395"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>重新整理建立自本機磁碟上 Excel 活頁簿的資料集
 ## <a name="whats-supported"></a>支援的項目有哪些？
@@ -80,5 +79,5 @@ ms.locfileid: "61414701"
 [對 Power BI Gateway - Personal 進行疑難排解](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
 ## <a name="next-steps"></a>後續步驟
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

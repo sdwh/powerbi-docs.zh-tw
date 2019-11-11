@@ -2,7 +2,6 @@
 title: 在 Power BI 中匯入和顯示 KPI
 description: 匯入和顯示 KPI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 3bf974176c7638aa2f1093535e8027ad511deabb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 270d5542bd7856059387e565e4b5ffa90432794c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454207"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867149"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>在 Power BI 中匯入和顯示 KPI
 透過 **Power BI Desktop**，您可以在資料表、矩陣和卡片中匯入和顯示 KPI。

@@ -3,19 +3,18 @@ title: 在 Power BI 中共用成品的方式
 description: 在 Power BI 中，您可以多種方式來共同作業和共用儀表板、報表、磚和應用程式。 每種方法各有其優點。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841700"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881328"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>在 Power BI 中共用成品的方式
 
@@ -135,4 +134,4 @@ Power BI 服務中的 [在 SharePoint Online 內嵌]  和 [內嵌]  選項可讓
 
 有任何意見嗎？ 請移駕 [Power BI 社群網站](https://community.powerbi.com/)提供您的建議。
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

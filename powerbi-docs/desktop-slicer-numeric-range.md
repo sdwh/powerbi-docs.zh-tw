@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中使用數值範圍交叉分析篩選器
 description: 了解如何在 Power BI Desktop 中使用交叉分析篩選器來限制數值範圍
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fa1311f93cd6b543d552070b990f1bada551a699
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 535dbe2b1765d788e59d928f7303ce4696aa163b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307011"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879688"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>在 Power BI Desktop 中使用數值範圍交叉分析篩選器
 透過數值範圍交叉分析篩選器，您可以將各式各樣的篩選器套用至資料模型中的任何數值資料行。 您有三種篩選數值資料的選項：在數字之間、小於或等於數字，或是大於或等於數字。 這聽起來可能很簡單，但卻是篩選資料的強大方式。

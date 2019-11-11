@@ -2,7 +2,6 @@
 title: 將超連結加入報表中的文字方塊
 description: 將超連結新增至 Power BI Desktop 和 Power BI 服務中的文字方塊
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0ceb1749fcbf78ac844ca1c6e4b3f08a6f4c5d3f
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 2de2cd80dbffc8c65a4577fffd6a8e41bc6116d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832421"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873785"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>將超連結加入報表中的文字方塊
 您可以在 Power BI Desktop 或 Power BI 服務中將文字方塊新增至報表。 您可以將文字方塊從報表釘選到儀表板，或將其直接新增至儀表板。 不論文字方塊位於何處，您都可以隨時在其中新增超連結。 本文說明如何將超連結新增至報表中的文字方塊。 
@@ -63,5 +62,5 @@ ms.locfileid: "68832421"
 ## <a name="next-steps"></a>後續步驟
 [Power BI 報表中的文字方塊和圖形](power-bi-reports-add-text-and-shapes.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)。
 

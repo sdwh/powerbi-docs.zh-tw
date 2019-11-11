@@ -3,19 +3,18 @@ title: 針對政府和國家/地區雲端將 Power BI 內容內嵌至應用程�
 description: 了解如何使用內嵌式分析的 Power BI API，為客戶將報表、儀表板或圖格整合或內嵌至應用程式。 了解如何使用政府和國家/地區雲端的內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具，將 Power BI 整合到應用程式中。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: bc6b9cf92966dd9e86e789169b9b8134dbfcb2ba
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 7ede1678dc6cf0e217eb17dcc28f756031467b84
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61374275"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875898"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教學課程：針對國家/地區雲端將 Power BI 內容內嵌到您的應用程式
 
@@ -37,7 +36,7 @@ Power BI 也支援[國家/地區雲端](https://docs.microsoft.com/azure/active-
 
 ![內嵌的儀表板](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-若要開始使用此逐步解說，您需要一個 **Power BI** 帳戶。 如未設定帳戶，則可以根據政府或國家/地區的類型，選擇正確的國家/地區雲端。 您可以註冊一個[美國政府 Power BI 帳戶](../service-govus-signup.md)、一個[適用於德國雲端的 Power BI 帳戶](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)或一個[適用於中國雲端的 Power BI 帳戶](http://www.21vbluecloud.com/powerbi/)。
+若要開始使用此逐步解說，您需要一個 **Power BI** 帳戶。 如未設定帳戶，則可以根據政府或國家/地區的類型，選擇正確的國家/地區雲端。 您可以註冊一個[美國政府 Power BI 帳戶](../service-govus-signup.md)、一個[適用於德國雲端的 Power BI 帳戶](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)或一個[適用於中國雲端的 Power BI 帳戶](https://www.21vbluecloud.com/powerbi/)。
 
 > [!NOTE]
 > 想要改為內嵌組織的內容嗎？ 請參閱[將儀表板整合到應用程式中](integrate-dashboard.md)。
@@ -150,7 +149,7 @@ Power BI 也支援[國家/地區雲端](https://docs.microsoft.com/azure/active-
 
 * 政府社群雲端 (GCC)： ```https://login.microsoftonline.com```
 
-* 軍事承包商 (DoDCON)： ```http://login.microsoftonline.us```
+* 軍事承包商 (DoDCON)： ```https://login.microsoftonline.us```
 
 * 軍事 (DoD)： ```https://login.microsoftonline.us```
 
@@ -445,4 +444,4 @@ var embedConfig = new TileEmbedConfig()
 
 考量與限制
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: 教學課程：在 Power BI Desktop 中結合來自 Excel 和 OData 摘要的資料
 description: 教學課程：結合來自 Excel 和 OData 摘要的資料
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160392"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866074"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>教學課程：結合來自 Excel 和 OData 摘要的銷售資料
 
@@ -35,7 +34,7 @@ ms.locfileid: "70160392"
 
 首先，將 Products.xlsx Excel 活頁簿的產品資料匯入 Power BI Desktop。
 
-1. [下載 Products.xlsx Excel 活頁簿](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)，然後儲存為 **Products.xlsx**。
+1. [下載 Products.xlsx Excel 活頁簿](https://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)，然後儲存為 **Products.xlsx**。
    
 2. 在 Power BI Desktop 功能區的 [首頁]  索引標籤中，選取 [取得資料]  旁的下拉式箭號，然後從 [最常用]  下拉式清單選取 [Excel]  。 
    
@@ -76,7 +75,7 @@ ms.locfileid: "70160392"
    
    ![取得 OData](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
    
-2. 在 [OData 摘要]  對話方塊中，貼上 Northwind OData 摘要 URL：`http://services.odata.org/V3/Northwind/Northwind.svc/`。 選取 [確定]  。
+2. 在 [OData 摘要]  對話方塊中，貼上 Northwind OData 摘要 URL：`https://services.odata.org/V3/Northwind/Northwind.svc/`。 選取 [確定]  。
    
    ![OData 摘要對話方塊](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
    
@@ -271,7 +270,7 @@ Power BI Desktop 不需要您結合查詢來建立報表。 不過，您可以�
 您完成的報表會結合 Products.xlsx Excel 檔案中資料以及 Northwind OData 摘要，形成各種視覺效果，以協助您分析不同國家/地區的訂單資訊、時間範圍和產品。 準備好報表之後，您可以[將其上傳至 Power BI 服務](desktop-upload-desktop-files.md)並與其他 Power BI 使用者共用。
 
 ## <a name="next-steps"></a>後續步驟
-* [閱讀其他 Power BI Desktop 教學課程](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [觀看 Power BI Desktop 影片](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [瀏覽 Power BI 論壇](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [閱讀 Power BI 部落格](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [閱讀其他 Power BI Desktop 教學課程](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [觀看 Power BI Desktop 影片](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [瀏覽 Power BI 論壇](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [閱讀 Power BI 部落格](https://go.microsoft.com/fwlink/?LinkID=519327)

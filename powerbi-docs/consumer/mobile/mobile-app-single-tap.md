@@ -2,19 +2,18 @@
 title: 設定點一下的報表互動
 description: 了解如何設定點一下或點兩下的報表互動。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: c553b921ebeb30b8fb8ec7ba9f7bce74f6c31dee
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 4288178f702ff3fbfaa05c943adb0fd7ec12f530
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67558961"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879401"
 ---
 # <a name="configure-report-interaction-to-single-tap-or-double-tap"></a>設定點一下或點兩下的報表互動
 適用於︰
@@ -46,5 +45,5 @@ Power BI 報表是資料的互動式檢視，以視覺效果顯示資料的各�
 
 ## <a name="next-steps"></a>後續步驟
 * [檢視為您的手機最佳化的 Power BI 報表，並與其互動](mobile-apps-view-phone-report.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: 適用於 Power BI 的商機分析範例：觀看導覽
 description: 適用於 Power BI 的商機分析範例：觀看導覽
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 233b4c36b5e59b38c82f5c3ccc1f0b49b70c5ac8
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: d871fa15c999e5b6c83b0334d6c978b2ba3c9870
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523468"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858717"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的商機分析範例：觀看導覽
 
@@ -63,11 +62,11 @@ ms.locfileid: "68523468"
 
 ### <a name="get-the-pbix-file-for-this-sample"></a>取得此範例的 .pbix 檔案
 
-或者，您可以將商機分析範例下載為 [.pbix 檔案](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)，其設計目的是要用於 Power BI Desktop。
+或者，您可以將商機分析範例下載為 [.pbix 檔案](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)，其設計目的是要用於 Power BI Desktop。
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529782) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529782) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>儀表板告訴我們什麼？
 我們的銷售經理已建立儀表板來追蹤其最重要計量。 當他們看到值得關注的項目時，可以選取磚來深入探究資料：

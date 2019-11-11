@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的 Analysis Services 多維度模型
 description: Power BI Desktop 中的 Analysis Services 多維度模型
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b089c3e51ce80fdb776455519f2569ee8fa24572
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 68ae5b04f951fcc0fa8a067e60a408d1610c3fdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751640"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879668"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>連接到 Power BI Desktop 中的 SSAS 多維度模型
 使用 Power BI Desktop，您可以存取 **SSAS 多維度模型**，通常稱為 **SSAS MD**。
@@ -36,7 +35,7 @@ Power BI 服務和支援 Power BI Desktop 皆支援即時連接模式中的 **SS
 | --- | --- |
 | Cube |模型 |
 | Cube 維度 |資料表 |
-| 維度屬性 (索引鍵)、名稱 |資料行 |
+| 維度屬性 (索引鍵)、名稱 |行 |
 | 量值群組 |資料表 |
 | 量值 |量值 |
 | 不含相關聯量值群組的量值 |在稱為「 *量值* 」的資料表內 |

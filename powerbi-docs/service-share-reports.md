@@ -2,7 +2,6 @@
 title: 兩種共用已篩選的 Power BI 報表的方式
 description: 了解兩種篩選 Power BI 報表並與組織中的同事共用的方式。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c5bc8b32ae61870b794875c1d1720cd07dcf97f8
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 79f09b5018efcdae88d74ae26f099ff095fb161a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877705"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871432"
 ---
 # <a name="two-ways-to-share-a-filtered-power-bi-report"></a>兩種共用已篩選的 Power BI 報表的方式
 「共用」  是讓一些人存取您儀表板和報表的一種好方法。 如果要共用報表的篩選版本呢？ 可能是只顯示特定城市或特定銷售人員或特定年份等資料的報表。 嘗試篩選報表並加以共用，或建立自訂 URL。 當收件者第一次開啟報表時，會篩選報表。 收件者可以修改 URL，以移除篩選條件。 
@@ -74,6 +73,6 @@ Power BI 還提供[可進行共同作業及散發您報表的其他方式](servi
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI 中共用成品的方式](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [共用儀表板](service-share-dashboards.md)
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)。
 * 有任何意見嗎？ 請移駕 [Power BI 社群網站](https://community.powerbi.com/)提供您的建議。
 

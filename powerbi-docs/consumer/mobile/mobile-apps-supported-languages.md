@@ -2,19 +2,18 @@
 title: Power BI 行動裝置應用程式中支援的語言
 description: 請參閱 Power BI 行動裝置應用程式支援的語言清單。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 97fa91dda195d6976d92b027a0f96fca8e2ccea1
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ac3ed868f23ff15441a30dd2425820d2cda0c920
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70841413"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879161"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Power BI 行動裝置應用程式中支援的語言
 Power BI 行動裝置應用程式目前支援這些語言：
@@ -60,6 +59,6 @@ Power BI 行動裝置應用程式目前支援這些語言：
 
 ## <a name="next-steps"></a>後續步驟
 * [Power BI 支援的語言和國家/地區](../../supported-languages-countries-regions.md)
-* 有問題嗎？ 請嘗試詢問 [Power BI 社群](http://community.powerbi.com/)。
+* 有問題嗎？ 請嘗試詢問 [Power BI 社群](https://community.powerbi.com/)。
 * 仍有問題嗎？ 瀏覽 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
 

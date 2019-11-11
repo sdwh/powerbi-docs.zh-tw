@@ -2,7 +2,6 @@
 title: 什麼是 Power BI「取用者」？
 description: 適用於取用者 (也稱為終端使用者或企業用戶) 的 Power BI 概觀。
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b1876d0990cc21d854ac96329e5ab4a5632f22d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430278"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863818"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>適用於取用者的 Power BI 服務
 
@@ -59,6 +58,6 @@ Power BI 可同時讓您的工作更輕鬆且更具影響力。 所有資料都�
 ## <a name="next-steps"></a>後續步驟
 
 [導覽適用於取用者的 Power BI 服務](end-user-reading-view.md)    
-[適用於取用者的 Power BI 服務訓練](https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/)    
+[適用於取用者的 Power BI 服務訓練](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/)    
 [適用於 Power BI 取用者  的術語和概念](end-user-basic-concepts.md)    
 

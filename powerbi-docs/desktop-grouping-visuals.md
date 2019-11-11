@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中使用群組
 description: 了解如何在 Power BI Desktop 中為視覺效果分組
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6b6266547704077769174c2ae0a9675503f10dca
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: d67fbacece27ab75a3add89541dad77ce51a91f8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69029572"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867485"
 ---
 # <a name="use-grouping-in-power-bi-desktop"></a>在 Power BI Desktop 中使用群組
 在 **Power BI Desktop** 中使用**群組**，您可以在報表中為視覺效果分組，例如按鈕、文字方塊、圖形、影像和任何您建立的視覺效果，就跟您在 PowerPoint 中為項目分組一樣。 在報表中為視覺效果分組可讓您透過單一物件的方式處理群組，讓在您的報表中移動、調整大小和使用層變得更簡單、更快且更直覺化。

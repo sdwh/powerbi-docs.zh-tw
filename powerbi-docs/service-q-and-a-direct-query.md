@@ -2,7 +2,6 @@
 title: 透過 Power BI 中的即時連線使用問與答
 description: 有關透過 Analysis Services 資料的即時連線和內部部署資料閘道來使用 Power BI 問與答自然語言查詢的文件。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 59c9488def297537cc2ea944f6c0fc4f59ba29ba
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 8bb3597d2877376431a2249428e88d56bee2c0a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720899"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871795"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>針對 Power BI 中的即時連線啟用問與答
 ## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>什麼是內部部署資料閘道？  什麼是即時連線？
@@ -66,5 +65,5 @@ Power BI 中的資料集可匯入 Power BI，或者您可以建立與資料集�
 - [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)  
 - [Power BI 問與答概觀](consumer/end-user-q-and-a.md)  
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

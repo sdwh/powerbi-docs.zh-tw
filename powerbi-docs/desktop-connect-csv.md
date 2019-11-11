@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中連接至 CSV 檔案
 description: 在 Power BI Desktop 中輕鬆地連接至 CSV 檔案資料並加以使用
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8eecbfdaa948163ab6d0623a70f237d479fcdb88
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: c5d817af65529506a0ee515be5e287a629d6ad54
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70200920"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878562"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>在 Power BI Desktop 中連接至 CSV 檔案
 從 Power BI Desktop 連接至以逗號分隔的值 (*CSV*) 檔案與連接至 Excel 活頁簿十分相似。 兩者都很簡單，而本文章會引導您了解如何連接至任何您具有存取權的 CSV 檔案。

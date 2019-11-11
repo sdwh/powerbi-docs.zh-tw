@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 5c2b254f20bd1eba97840a464a1b554cc4fe1238
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f22c12ec0ad5bd413f3658704132143c878df1aa
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273185"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799732"
 ---
 使用**變數**是 DAX 運算式中功能極為強大的一部分。
 
@@ -18,7 +18,7 @@ ms.locfileid: "61273185"
 
 請記住，每當您在 DAX 運算式中參考變數，Power BI 都必須根據您的定義重新計算其值。 基於這項理由，建議您避免在函數中重複使用變數。
 
-> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](http://www.sqlbi.com/learning-dax)
+> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](https://www.sqlbi.com/learning-dax)
 > 
 > 
 

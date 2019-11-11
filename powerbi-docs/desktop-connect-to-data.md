@@ -2,7 +2,6 @@
 title: 連接至 Power BI Desktop 中的資料
 description: 連接至 Power BI Desktop 中的資料
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,15 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a582eb5c160685784c6db497353f92d2dd3d2cf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514125"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878495"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>連接至 Power BI Desktop 中的資料
-透過 Power BI Desktop，您可以輕鬆地連接到持續擴展的資料世界。 如果您沒有 Power BI Desktop，您可以[下載](http://go.microsoft.com/fwlink/?LinkID=521662)並加以安裝。
+透過 Power BI Desktop，您可以輕鬆地連接到持續擴展的資料世界。 如果您沒有 Power BI Desktop，您可以[下載](https://go.microsoft.com/fwlink/?LinkID=521662)並加以安裝。
 
 Power BI Desktop 中有「各式各樣」  的可用資料來源。 下圖顯示如何藉由依序選取 **檔案** 功能區 > [取得資料] > **其他\> 來連接到資料**.
 
@@ -32,7 +31,7 @@ Power BI Desktop 中有「各式各樣」  的可用資料來源。 下圖顯示
 
 無論如何，您都可以在下列 Web 資源中找到這些主題的相關有趣資料：
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 請選取 **取得資料 \>Web**，然後輸入位址。
 
@@ -75,7 +74,7 @@ Power BI Desktop 中有「各式各樣」  的可用資料來源。 下圖顯示
 * [使用 Power BI Desktop 合併資料並使其成形](desktop-shape-and-combine-data.md)
 * [Power BI Desktop 中的常見查詢工作](desktop-common-query-tasks.md)   
 
-想要提供意見反應嗎？ 太好了 – 使用 Power BI Desktop 的 [Submit an Idea] (送出想法)  功能表項目或瀏覽 [Community Feedback](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) (社群意見應)。 我們期待您的留言！
+想要提供意見反應嗎？ 太好了 – 使用 Power BI Desktop 的 [Submit an Idea] (送出想法)  功能表項目或瀏覽 [Community Feedback](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) (社群意見應)。 我們期待您的留言！
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

@@ -2,7 +2,6 @@
 title: 在 Power BI 中使用書籤
 description: Power BI Desktop 中的書籤可讓您儲存報表中的檢視和設定，然後建立類似故事的簡報
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b25c09e7dc24445b5ad2ba5263542bc62891b28f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61325825"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876694"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用書籤來共用深入解析並建立故事 
 在 Power BI 中使用**書籤**可協助您擷取目前設定的報表頁面檢視 (包括視覺效果的篩選和狀態)，讓您稍後只要選取儲存的書籤，就可以返回該狀態。 

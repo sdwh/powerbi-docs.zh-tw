@@ -2,7 +2,6 @@
 title: 連接至 Power BI Desktop 中的 Excel
 description: 在 Power BI Desktop 中輕鬆地連接至 Excel 活頁簿並加以使用
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fb282ed4b2851bfbdf520d18b29d03af88e6eb03
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 31caf34b9167c282dc36afd5322458f76e7a7614
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513673"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878587"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>在 Power BI Desktop 中連接至 Excel
 從 Power BI Desktop 連接至 Excel 活頁簿很容易，本文將逐步引導您執行這些步驟。

@@ -2,7 +2,6 @@
 title: 支援 Power BI 的瀏覽器
 description: 查看支援 Power BI 的瀏覽器清單
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e27fdf6c57eeaebe554011517d6bea79b7270055
-ms.sourcegitcommit: 35f7ee9280022c76033502b344e8ebc52d3ec1d1
+ms.openlocfilehash: d81e9e7142a05ac49969e98dbada0e0edf2fe3ba
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71705455"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875244"
 ---
 # <a name="supported-browsers-for-power-bi"></a>支援 Power BI 的瀏覽器
 Power BI 可在這些瀏覽器中執行：
@@ -30,6 +29,6 @@ Power BI 可在這些瀏覽器中執行：
 
 ### <a name="next-steps"></a>後續步驟
 * [Power BI 是什麼？](power-bi-overview.md)
-* 請嘗試詢問 [Power BI 社群](http://community.powerbi.com/)
+* 請嘗試詢問 [Power BI 社群](https://community.powerbi.com/)
 * 仍有問題嗎？ 瀏覽 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)
 

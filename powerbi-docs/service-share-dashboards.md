@@ -2,7 +2,6 @@
 title: 與同事和其他人共用 Power BI 儀表板和報表
 description: 如何與組織內外的同事共用 Power BI 儀表板與報表，以及需要了解的共用相關資訊。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: da7b8999dfb6185b044960dde7795008d7e716f7
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 05a134f50f9a09ae5b51578a5e4e5f0a01a95740
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655101"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871515"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用 Power BI 儀表板和報表
 「共用」  是讓一些人存取您儀表板和報表的一種好方法。 Power BI 還提供[數種其他方式可進行共同作業及散發您的儀表板和報表](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -167,5 +166,5 @@ ms.locfileid: "69655101"
 * 有任何意見嗎？ 請移駕 [Power BI 社群網站](https://community.powerbi.com/)提供您的建議。
 * [應該如何共同作業和共用儀表板和報表？](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [共用已篩選的 Power BI 報表](service-share-reports.md)。
-* 有問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
+* 有問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)。
 

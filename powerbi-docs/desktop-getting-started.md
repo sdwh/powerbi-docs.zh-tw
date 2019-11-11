@@ -2,7 +2,6 @@
 title: 開始使用 Power BI Desktop
 description: 開始使用 Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e533313e20c4e1f994c2ae3d1e552170aef2cbd2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70201023"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868005"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>開始使用 Power BI Desktop
 歡迎使用 **Power BI Desktop 使用者入門指南**。 此 Power BI Desktop 簡短教學課程能讓您熟悉它的運作方式、示範它的功能，以及加速您建置穩固資料模型的能力 — 以及令人讚嘆的報表，增強您的商業智慧工作。 
 
-偏好觀看而不是閱讀嗎？ 歡迎[觀賞我們的使用者入門影片](desktop-videos.md)。 如果您想要跟著影片操作對應的範例資料，可以[下載這個範例 Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkID=521962).
+偏好觀看而不是閱讀嗎？ 歡迎[觀賞我們的使用者入門影片](desktop-videos.md)。 如果您想要跟著影片操作對應的範例資料，可以[下載這個範例 Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkID=521962).
 
 ![](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
@@ -88,7 +87,7 @@ Power BI Desktop 中有三種檢視：[報表]  檢視、[資料]  檢視，以�
 
 無論如何，下列 Web 資源具有關於那些主題的相關和詳細資料：
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 選取 [取得資料] **\> [Web]** 並貼上位址。
 
@@ -158,7 +157,7 @@ Power BI Desktop 中的查詢編輯器能夠充分利用右鍵功能表，也會
 
 我們很幸運：有另一個公用的資料來源可執行該項工作，但還需要進行相當多的塑造，才能予以連接到我們的退休資料表。 以下是州名縮寫的 Web 資源：
 
-<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+<https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
 從 [查詢編輯器]  中的 [常用]  功能區，我們選取 [取得資料] **\> [Web]** 並輸入位址，然後選取 [確定]  ，[導覽器]  視窗便會顯示在該網頁上找到的資訊。
 

@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中使用鑽研
 description: 了解如何在 Power BI Desktop 的新報表頁面上鑽研資料
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7c9d400b196366609caebe9f79bb9a8130a4ad11
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: e093788683d10bc11c09d63ba327611a67f311c0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375185"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879902"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>在 Power BI Desktop 中使用鑽研
 使用 **Power BI Desktop** 中的**鑽研**，您可以在報表中建立頁面，著重在特定實體，例如供應商、客戶或製造商。 使用者能以滑鼠右鍵按一下其他報表頁面中的資料點。 然後他們可以鑽研至焦點頁面，取得篩選為該內容的詳細資料。
