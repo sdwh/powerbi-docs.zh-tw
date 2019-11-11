@@ -2,7 +2,6 @@
 title: Power BI 中的區域分布圖 (分區著色圖)
 description: 有關在 Power BI 中建立區域分布圖 (分級著色圖) 的文件
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 9c35e97fba55230277f9f144a5155071656b6add
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544487"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870949"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Power BI 中的區域分布圖 (分區著色圖)
 
@@ -47,7 +46,7 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 * 當您要取得跨地理位置的分佈概觀。
 
 ### <a name="prerequisites"></a>先決條件
-本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。
+本教學課程使用[零售分析範例 PBIX 檔案](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。
 1. 從功能表列的左上方區段，選取 [檔案]   > [開啟] 
    
 2. 尋找您的**零售分析範例 PBIX 檔案**複本

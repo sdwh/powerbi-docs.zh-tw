@@ -4,18 +4,17 @@ description: 本文逐步解說如何在 Microsoft Azure 中調整 Power BI Embe
 services: power-bi-embedded
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 01/31/2019
-ms.openlocfilehash: b9a632fa39d320d14d1282cee5e59022a8ab0303
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5a30c8cb6af80e74cbf2513c24aee55483338fb4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61388393"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875920"
 ---
 # <a name="scale-your-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 入口網站中調整您的 Power BI Embedded 容量規模
 
@@ -62,4 +61,4 @@ ms.locfileid: "61388393"
 
 若要在您的應用程式中開始內嵌 Power BI 內容，請參閱[如何內嵌您的 Power BI 儀表板、報表及磚](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/)。
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

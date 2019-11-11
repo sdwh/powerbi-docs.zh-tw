@@ -2,7 +2,6 @@
 title: 什麼是 Power BI 服務？
 description: Power BI 服務概觀，以及如何搭配使用 Power BI 的其他組件。
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 featuredvideoid: B2vd4MQrz4M
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 22446936f36074379242bd54af15c9bb2864e4a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060864"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874997"
 ---
 # <a name="what-is-the-power-bi-service"></a>什麼是 Power BI 服務？
 **Power BI** 是一項軟體服務、應用程式和連接器的集合，其可共同運作以協助您和企業透過最有效的方式建立、共用和取用商業見解。 Microsoft Power BI 服務  (app.powerbi.com) 有時稱為 Power BI 線上，其為 Power BI 的 SaaS (軟體即服務  ) 組件。 Power BI 服務中的「儀表板」  有助您掌握商務脈動。 您可以選取儀表板所顯示的「磚」  來開啟「報表」，以  進一步探索。 儀表板和報表都會連接到「資料集」  ，讓所有相關資料集中到一處。 

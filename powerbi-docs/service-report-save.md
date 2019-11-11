@@ -2,7 +2,6 @@
 title: 將報表儲存在 Power BI
 description: 在 Power BI 服務和 Power BI Desktop 中儲存報告
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d5237ebbaf1be6aac7fcde252754436067ae932e
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 1dfb75595de939f99bf269d67bf9c29a2f0db249
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720822"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871619"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中儲存報告
 變更 Power BI 中的報表之後，您可以儲存、以新的名稱儲存，或只關閉但不儲存變更。 假設您開啟了報表、建立視覺效果，以及將它釘選至儀表板。 如果您現在關閉而不儲存變更，圖格仍會保留在儀表板上，但報表中不會儲存視覺效果。 當您按一下該儀表板上的圖格時，報告隨即開啟，但是報告中不存在視覺效果。
@@ -41,5 +40,5 @@ ms.locfileid: "66720822"
 
 [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

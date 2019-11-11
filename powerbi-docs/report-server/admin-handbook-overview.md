@@ -2,19 +2,18 @@
 title: 系統管理員概觀：Power BI 報表伺服器
 description: 本文是 Power BI 報表伺服器的系統管理員概觀，這個內部部署位置可用於儲存及管理您的 Power BI 報表、行動報表及分頁報表。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: c670c78b03a1cd3fd6ce1ad3aeaa0003ce794eec
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187373"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860213"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>系統管理員概觀：Power BI 報表伺服器
 本文是 Power BI 報表伺服器的系統管理員概觀，這個內部部署位置可用於儲存及管理您的 Power BI 報表、行動報表及分頁報表。 此文章將介紹規劃、部署及管理「Power BI 報表伺服器」的概念，並提供詳細資訊連結。
@@ -49,7 +48,7 @@ SQL Server Reporting Services 沒有任何就地升級。 若您有現有的 SQL
 [尋找您的報表伺服器產品金鑰](find-product-key.md)  
 [安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)  
 [下載報表產生器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下載 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[下載 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 
