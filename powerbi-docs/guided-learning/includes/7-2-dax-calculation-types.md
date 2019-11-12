@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: f4043a5a8deac0596b58519183988f6ae574458e
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 4ea1b2141cf9a072f11a3a62789c7c0ec5b500a4
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70847662"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799727"
 ---
 您可以使用 DAX 來建立兩種主要的計算結果︰
 
@@ -65,7 +65,7 @@ ms.locfileid: "70847662"
 * 新的量值名稱
 * 至少一個函數或運算式
 
-> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](http://www.sqlbi.com/learning-dax)
+> 影片內容感謝下列提供者的協助 [Alberto Ferrari、SQLBI](https://www.sqlbi.com/learning-dax)
 > 
 > 
 
