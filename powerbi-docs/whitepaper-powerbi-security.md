@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 075d4ea0c243f77ebf0d29020f25bbca6567c6c0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fa9c07be31f5110f44c2f200bbde249c95abe9ed
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870766"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009821"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
@@ -334,12 +334,6 @@ Power BI 以下列方式提供資料完整性監視：
 
 如果 Ralph 想要存取共用的儀表板或報表，就會根據其角色層級依序發生相同的狀況。
 
-## <a name="power-bi-and-expressroute"></a>Power BI 和 ExpressRoute
-
-透過 Power BI 和 ExpressRoute，您可以建立從組織到 Power BI (或使用 ISP 設備代管) 的私人網路連線，藉由略過網際網路，更妥善地保護您機密的 Power BI 資料和連線。
-
-ExpressRoute 是 Azure 服務，可讓您在 Azure 資料中心 (Power BI 所在位置) 與內部部署基礎結構之間建立私人連線，或在 Azure 資料中心與代管環境之間建立私人連線。 如需詳細資訊，請參閱 [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md) 一文。
-
 ## <a name="power-bi-mobile"></a>Power BI 行動版
 
 Power BI 行動版是針對三個主要行動平臺設計的應用程式集合： Android、iOS 和 Windows Mobile。 Power BI 行動裝置應用程式的安全性考量分成兩類：
@@ -450,7 +444,7 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **有其他 Power BI 視覺效果會在客戶網路外傳送資訊嗎？**
 
-* 是。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。 如需詳細資訊以及 Power BI 外租用戶流量的詳細描述，請參閱 [**Power BI 和 ExpressRoute**](service-admin-power-bi-expressroute.md)。
+* 是。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。
 
 **針對範本應用程式，Microsoft 是否會在將專案發行至資源庫之前，先執行範本應用程式的任何安全性或隱私權評估？**
 * 否。 應用程式發行者負責內容，而客戶必須負責審查並判斷是否信任範本應用程式發行者。 
@@ -487,7 +481,6 @@ Power BI 中的資料儲存和資料處理，會根據是否使用 DirectQuery �
 - [Power BI REST API - Overview](https://msdn.microsoft.com/library/dn877544.aspx) (Power BI REST API - 概觀)
 - [Power BI API reference](https://msdn.microsoft.com/library/mt147898.aspx) (Power BI API 參考)
 - [On-premises data gateway (內部部署資料閘道)](service-gateway-onprem.md)
-- [Power BI 和 ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI 國家/地區雲端](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [針對從 Power BI 到內部部署資料來源的 SSO 使用 Kerberos](service-gateway-sso-overview.md)
