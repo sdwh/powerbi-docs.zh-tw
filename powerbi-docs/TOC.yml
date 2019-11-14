@@ -381,8 +381,6 @@
               href: visuals/power-bi-visualization-treemaps.md
             - name: Power BI 中的瀑布圖
               href: visuals/power-bi-visualization-waterfall-charts.md
-            - name: 建立動態參考線
-              href: service-analytics-pane.md
         - name: 自然語言
           items:
             - name: 問與答簡介
