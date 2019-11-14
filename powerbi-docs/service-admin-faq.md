@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4ec7a67b861a747f9f8f654ab9fb3fa5c2951af3
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 6cc29bd1d06e948facf1058411759c15841a8352
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175199"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442928"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
@@ -28,8 +28,8 @@ ms.locfileid: "71175199"
 * [使用 PowerShell](#using-powershell)
 * [使用者如何註冊 Power BI？](#how-do-users-sign-up-for-power-bi)
 * [個人使用者如何在我的組織中註冊？](#how-do-individual-users-in-my-organization-sign-up)
-* [我該如何防止使用者加入現有的 Office 365 租用戶？](#how-can-i-prevent-users-from-joining-my-existing-office-365-tenant)
-* [我該如何允許使用者加入現有的 Office 365 租用戶？](#how-can-i-allow-users-to-join-my-existing-office-365-tenant)
+* [我該如何防止使用者加入現有的 Office 365 租用戶？](#how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant)
+* [我該如何允許使用者加入現有的 Office 365 租用戶？](#how-can-i-allow-users-to-join-my-existing-microsoft-365-tenant)
 * [我該如何檢查租用戶是否開啟了封鎖？](#how-do-i-check-if-i-have-the-block-on-in-the-tenant)
 * [我該如何不讓現有的使用者開始使用 Power BI？](#how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi)
 * [我要如何允許現有的使用者註冊 Power BI？](#how-can-i-allow-my-existing-users-to-sign-up-for-power-bi)
@@ -39,7 +39,7 @@ ms.locfileid: "71175199"
 * [這會怎麼改變我目前管理組織中使用者身分識別的方式？](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [要如何管理 Power BI？](#how-do-we-manage-power-bi)
 * [管理 Microsoft 為使用者所建之租用戶的程序為何？](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
-* [如果有多個網域，我可以控制使用者新增到哪個 Office 365 租用戶嗎？](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
+* [我如有多個網域，可以控制使用者所要加入的 Microsoft 365 租用戶嗎？](#if-i-have-multiple-domains-can-i-control-the-microsoft-365-tenant-that-users-get-added-to)
 * [如何移除已註冊使用者的 Power BI？](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [我如何知道有新的使用者加入我的租用戶？](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [我還應該準備什麼？](#are-there-any-additional-things-i-should-prepare-for)
@@ -60,7 +60,7 @@ ms.locfileid: "71175199"
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>使用者如何註冊 Power BI？
 
-身為管理員，您可以透過 [Power BI 網站](https://powerbi.microsoft.com)或 Microsoft 365 系統管理中心上的[購買服務](https://admin.microsoft.com/AdminPortal/Home#/catalog)頁面來註冊 Power BI。 當系統管理員註冊 Power BI 時，他們可以將使用者授權指派給應該有存取權的使用者。
+Microsoft 365 系統管理員可以透過 [Power BI 網站](https://powerbi.microsoft.com)或 Microsoft 365 系統管理中心上的[購買服務](https://admin.microsoft.com/AdminPortal/Home#/catalog)頁面註冊 Power BI。 Microsoft 365 系統管理員可以在註冊 Power BI 時，將使用者授權指派給需要存取權的使用者。
 
 貴組織中的個人使用者也可以透過 [Power BI 網站](https://powerbi.microsoft.com)註冊 Power BI。 當貴組織中使用者註冊 Power BI 時，服務會自動將 Power BI 授權指派給該使用者。 如需詳細資訊，請參閱[以個人身分註冊 Power BI](service-self-service-signup-for-power-bi.md) 與[組織中的 Power BI 授權](service-admin-licensing-organization.md)。
 
@@ -68,21 +68,21 @@ ms.locfileid: "71175199"
 
 貴組織使用者有三種適用案例︰
 
-* **案例 1**︰您的組織已有現有的 Office 365 環境，且註冊 Power BI 的使用者已有 Office 365 帳戶。
-    在此案例中，如果使用者在租用戶中已經有公司或學校帳戶 (例如，contoso.com)，但尚未有 Power BI，則 Microsoft 只會啟用該帳戶的方案。 系統會自動通知使用者如何使用 Power BI 服務的資訊。
+* **案例 1**︰您的組織已有 Microsoft 365 環境，且要註冊 Power BI 的使用者也有 Microsoft 365 帳戶。
+    在此案例中，若使用者在租用戶中已經有公司或學校帳戶 (例如 contoso.com)，但還沒有 Power BI，則 Microsoft 只會為該帳戶啟用 Power BI (免費) 方案。 系統會自動通知使用者如何使用 Power BI 服務的資訊。
 
-* **案例 2**︰您的組織有現有的 Office 365 環境，但註冊 Power BI 的使用者沒有 Office 365 帳戶。
-    在這個案例中，使用者有貴組織網域的電子郵件地址 (例如，contoso.com)，但還沒有 Office 365 帳戶。 在此情況下，使用者可以註冊 Power BI，且會自動獲得帳戶。 這個動作可讓使用者存取 Power BI 服務。 例如，如果員工 Nancy 使用她的公司電子郵件地址 (例如 nancy@contoso.com) 來註冊，Microsoft 就會自動將 Nancy 新增為 Contoso 的 Office 365 環境使用者，並為該帳戶啟用 Power BI。
+* **案例 2**︰您的組織已有 Microsoft 365 環境，但要註冊 Power BI 的使用者沒有 Microsoft 365 帳戶。
+    在此案例中，使用者使用您組織網域的電子郵件地址 (例如 contoso.com)，但還沒有 Microsoft 365 帳戶。 在此情況下，使用者可以註冊 Power BI，且會自動獲得帳戶。 這個動作可讓使用者存取 Power BI 服務。 例如，假設員工 Nancy 使用她的公司電子郵件地址 (例如 nancy@contoso.com) 註冊，Microsoft 就會自動將 Nancy 新增為 Contoso 之 Microsoft 365 環境的使用者，並為該帳戶啟用 Power BI。
 
-* **案例 3**︰貴組織沒有連線到您電子郵件網域的 Office 365 環境。
-    貴組織不需要執行任何管理動作來利用 Power BI。 服務會將使用者新增至僅限雲端的新使用者目錄。 您也可以選擇接管成為租用戶系統管理員，並加以管理。
+* **案例 3**︰您組織的 Microsoft 365 環境未連線到您電子郵件網域。
+    貴組織不需要執行任何管理動作來利用 Power BI。 服務會將使用者新增至僅限雲端的新使用者目錄。 您也可以選擇接管該租用戶，成為其 Microsoft 365 全域管理員來管理該環境。
 
 > [!IMPORTANT]
-> 如果貴組織有多個電子郵件網域，而您希望所有的電子郵件地址擴充功能都在相同的租用戶中，請先將所有電子郵件地址網域新增至 Azure Active Directory 租用戶中，再讓使用者註冊。 使用者建立後，沒有自動化的機制可在租用戶之間移動使用者。 如需此程序的詳細資訊，請參閱本文稍後的[如果有多個網域，我可以控制使用者新增到哪個 Office 365 租用戶嗎？](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)，以及[將網域新增至 Office 365](/office365/admin/setup/add-domain/)。
+> 如果貴組織有多個電子郵件網域，而您希望所有的電子郵件地址擴充功能都在相同的租用戶中，請先將所有電子郵件地址網域新增至 Azure Active Directory 租用戶中，再讓使用者註冊。 使用者建立後，沒有自動化的機制可在租用戶之間移動使用者。 如需此流程的詳細資訊，請參閱後文中的[我如有多個網域，可以控制使用者所要加入的 Microsoft 365 租用戶嗎？](#if-i-have-multiple-domains-can-i-control-the-microsoft-365-tenant-that-users-get-added-to)一文，以及[將網域新增至 Microsoft 365](/office365/admin/setup/add-domain/)。
 
-### <a name="how-can-i-prevent-users-from-joining-my-existing-office-365-tenant"></a>我該如何防止使用者加入現有的 Office 365 租用戶？
+### <a name="how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant"></a>如何才能禁止使用者加入我現有的 Microsoft 365 租用戶？
 
-身為系統管理員，您可以採取幾個步驟不讓使用者加入現有的 Office 365 租用戶。 如果您封鎖存取，則使用者嘗試註冊會失敗，且會出現訊息，將他們導向至連絡組織系統管理員。如果您已停用自動授權發佈 (例如透過學生用、教職員用 Office 365 教育版)，就不需要重複此程序。
+Microsoft 365 全域管理員可以採取幾個步驟，禁止使用者加入現有的 Microsoft 365 租用戶。 如果您封鎖存取，則使用者嘗試註冊會失敗，且會出現訊息，將他們導向至連絡組織系統管理員。如果您已停用自動授權發佈 (例如透過學生用、教職員用 Office 365 教育版)，就不需要重複此程序。
 
 您可以使用下列 PowerShell 指令碼來防止新使用者加入受控租用戶。 ([深入了解 PowerShell][1]。)
 
@@ -96,7 +96,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 > [!NOTE]
 > 封鎖存取會防止您組織的新使用者註冊 Power BI。 在您停用組織的新註冊前即已註冊 Power BI 的使用者，仍然保留其授權。 若要移除使用者，請參閱此文章稍後的[如何移除已註冊使用者的 Power BI？](#how-do-i-remove-power-bi-for-users-that-already-signed-up)。
 
-### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>我該如何允許使用者加入現有的 Office 365 租用戶？
+### <a name="how-can-i-allow-users-to-join-my-existing-microsoft-365-tenant"></a>我該如何允許使用者加入我現有的 Microsoft 365 租用戶？
 
 使用下列 PowerShell 指令碼讓新使用者加入受控租用戶。 ([深入了解 PowerShell][1]。)
 
@@ -124,7 +124,7 @@ Get-MsolCompanyInformation | fl allow*
 
 您可以使用下列 PowerShell 指令碼來停用隨選訂閱。([深入了解 PowerShell][1]。)
 
-1. 使用 Office 365 認證登入 Azure Active Directory。 下列 PowerShell 指令碼的第一行會提示您輸入您的認證。 第二行連接到 Azure Active Directory。
+1. 使用 Microsoft 365 認證登入 Azure Active Directory。 下列 PowerShell 指令碼的第一行會提示您輸入您的認證。 第二行連接到 Azure Active Directory。
 
     ```powershell
      $msolcred = get-credential
@@ -146,7 +146,7 @@ Get-MsolCompanyInformation | fl allow*
     ```
 
 > [!NOTE]
-> **AllowAdHocSubscriptions** 旗標可用以控制貴組織的數個使用者功能，包括使用者能否註冊 Azure Rights Management Service。 變更此旗標會影響所有這些功能。 設定為 *false* 時，使用者仍可以註冊 Pro 試用版。
+> **AllowAdHocSubscriptions** 旗標可用以控制貴組織的數個使用者功能，包括使用者能否註冊 Azure Rights Management Service。 變更此旗標會影響所有這些功能。 請注意，若設定為 *false*，使用者仍能註冊 Power BI Pro 試用版。
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>我要如何允許現有的使用者註冊 Power BI？
 
@@ -158,36 +158,34 @@ Get-MsolCompanyInformation | fl allow*
 
 貴組織使用者有三種適用案例︰
 
-* **案例 1**︰如果貴組織已有現有的 Office 365 環境，且組織中的所有使用者都已經有 Office 365 帳戶，則您管理身分識別的方式不會變更。
+* **案例 1**︰若您的組織已有 Microsoft 365 環境，且組織中的所有使用者都有 Microsoft 365 帳戶，則您對於身分識別的管理方式不會有任何變更。
 
-* **案例 2**︰如果貴組織已有現有的 Office 365 環境，但並非組織中所有使用者都有 Office 365 帳戶，則我們會在租用戶中建立使用者，然後根據使用者的公司或學校電子郵件地址指派授權。
+* **案例 2**︰若您的組織已有 Microsoft 365 環境，但組織中並非所有使用者都有 Microsoft 365 帳戶，則我們會在租用戶中建立使用者，然後依據使用者的公司或學校電子郵件地址指派授權。
 
     因此，您在任何特定時間內管理的使用者數目，會隨組織中的使用者註冊服務而成長。
 
-* **案例 3**︰如果貴組織沒有連線到您電子郵件網域的 Office 365 環境，則您管理身分識別的方式不會變更。
+* **案例 3**︰若您組織的 Microsoft 365 環境未連線到您的電子郵件網域，則您對於身分識別的管理方式不會有任何變更。
 
-    服務會將使用者新增至僅限雲端的新使用者目錄。 您也可以選擇接管成為租用戶系統管理員，並加以管理。
+    此服務會將使用者新增至僅限雲端的新使用者目錄；您可以選擇是否要接管該目錄，成為 Microsoft 365 全域管理員進行管理。
 
 ### <a name="how-do-we-manage-power-bi"></a>要如何管理 Power BI？
 
-Power BI 提供的管理入口網站可讓您檢視使用量統計資料、提供用來管理使用者與群組的 Microsoft 365 系統管理中心連結，以及用來控制租用戶各種設定的能力。
-
-若要使用 Power BI 管理入口網站，您必須將帳戶在 Office 365 或 Azure Active Directory 中標示為**全域管理員**，或是某人必須指派 Power BI 服務系統管理員角色給您的使用者帳戶。 如需詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)與 [Power BI 系統管理入口網站](service-admin-portal.md)。
+Power BI 提供 Power BI 管理入口網站，供 Microsoft 365 全域管理員角色中的使用者及 Power BI 服務系統管理員角色中的使用者使用。 若要使用 Power BI 管理入口網站，必須在 Microsoft 365 或 Azure Active Directory 中，將您的帳戶標示為**全域管理員**，或者必須有人將 Power BI 服務系統管理員角色指派給您的使用者帳戶。 如需詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)與 [Power BI 系統管理入口網站](service-admin-portal.md)。 此入口網站可以讓您控制影響遍及整個租用戶的設定、檢視 Power BI 使用量統計資料，並提供 Microsoft 365 系統管理中心連結，讓您管理使用者與群組。
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>管理 Microsoft 為使用者所建之租用戶的程序為何？
 
-當自助使用者註冊使用 Azure AD 的雲端服務時，服務會根據他們的電子郵件網域將他們新增到非受控 Azure AD 目錄。 您可以宣告及管理某人使用「系統管理員接管」  程序建立的租用戶。 如需詳細資訊，請參閱[使用 Azure Active Directory 中的系統管理員身分接管非受控目錄](/azure/active-directory/users-groups-roles/domains-admin-takeover)。 您所執行接管類型取決於是否有與您網域建立關聯的現有受控租用戶：
+當自助使用者註冊使用 Azure AD 的雲端服務時，服務會根據他們的電子郵件網域將他們新增到非受控 Azure AD 目錄。 您可以要求或管理他人使用*系統管理員接管*流程所建立的租用戶。 如需詳細資訊，請參閱[使用 Azure Active Directory 中的系統管理員身分接管非受控目錄](/azure/active-directory/users-groups-roles/domains-admin-takeover)。 您所執行接管類型取決於是否有與您網域建立關聯的現有受控租用戶：
 
 * Power BI 支援內部系統管理員接管。 當您執行非受控 Azure 目錄的「內部」  系統管理員接管時，系統會將您新增為非受控目錄的全域管理員。 系統不會將任何使用者、網域或服務方案移轉至您所管理的其他目錄。
 
-* Power BI 不再支援外部系統管理員接管。 當您執行非受控 Azure 目錄的「外部」  系統管理員接管時，您會將非受控目錄的 DNS 網域名稱新增至受控 Azure 目錄。 當您新增網域名稱時，會在您的受控 Azure 目錄中建立使用者與資源的對應，讓使用者可以繼續存取服務而不會中斷。
+* Power BI 不再支援外部系統管理員接管。 當您執行非受控 Azure 目錄的「外部」  系統管理員接管時，您會將非受控目錄的 DNS 網域名稱新增至受控 Azure 目錄。 外部接管將導致無法存取原始未受控之租用戶上的所有 Power BI 內容。 Power BI 報表必須重新發佈給新的租用戶，並須在新的租用戶中重新建立 Power BI 儀表板與應用程式。
 
-### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>如果有多個網域，我可以控制使用者新增到哪個 Office 365 租用戶嗎？
+### <a name="if-i-have-multiple-domains-can-i-control-the-microsoft-365-tenant-that-users-get-added-to"></a>我如有多個網域，可以控制使用者所要加入的 Microsoft 365 租用戶嗎？
 
 如果不執行任何動作，服務會為每個使用者電子郵件網域和子網域建立租用戶。 如果不論電子郵件地址擴充功能為何，希望所有使用者都在相同的租用戶中︰預先建立目標租用戶，或使用現有的租用戶。 然後新增您想要在該租用戶內彙總的所有現有網域和子網域。 電子郵件地址結尾是那些網域與子網域的所有使用者，都會在他們註冊時自動加入目標租用戶。
 
 > [!IMPORTANT]
-> 建立使用者後，支援的自動化機制沒有在租用戶之間移動使用者。 若要深入了解將網域新增至單一 Office 365 租用戶中，請參閱[將您的使用者與網域新增至 Office 365](/office365/admin/setup/add-domain/)。
+> 建立使用者後，支援的自動化機制沒有在租用戶之間移動使用者。 若要深入了解如何將網域新增至單一 Microsoft 365 租用戶，請參閱[將您的使用者與網域新增至 Microsoft 365](/office365/admin/setup/add-domain/)。
 
 ### <a name="how-do-i-remove-power-bi-for-users-that-already-signed-up"></a>如何移除已註冊使用者的 Power BI？
 
@@ -209,7 +207,7 @@ Power BI 提供的管理入口網站可讓您檢視使用量統計資料、提�
 
 ### <a name="how-do-i-know-when-new-users-have-joined-my-tenant"></a>我怎麼知道有新的使用者加入我的租用戶？
 
-已加入這個程式租用戶的使用者會獲派唯一授權，您可以在系統管理儀表板的作用中使用者窗格內篩選。 若要建立這個新檢視，請依照下列步驟執行。
+透過自助式註冊加入您租用戶的使用者，將獲指派一份專用授權，而您可以在系統管理儀表板的有效使用者窗格中加以篩選。 若要建立這個新檢視，請依照下列步驟執行。
 
 1. 巡覽至 [MIcrosoft 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
@@ -251,7 +249,7 @@ Power BI 提供的管理入口網站可讓您檢視使用量統計資料、提�
 
 ### <a name="how-does-security-work-in-power-bi"></a>Power BI 安全性如何運作？
 
-Microsoft 是將 Power BI 建置在 Office 365 的基礎上，而 Office 365 則是建置在 Azure Active Directory 等 Azure 服務上。 如需 Power BI 架構的概觀，請參閱 [Power BI 安全性](service-admin-power-bi-security.md)。
+Microsoft Power BI 以 Microsoft 365 為建置基礎上，而 Microsoft 365 則是以 Azure Active Directory 等 Azure 服務為建置基礎。 如需 Power BI 架構的概觀，請參閱 [Power BI 安全性](service-admin-power-bi-security.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
