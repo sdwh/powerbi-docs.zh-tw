@@ -119,6 +119,8 @@
           items:
             - name: Power BI Desktop 中的資料來源
               href: desktop-data-sources.md
+            - name: 連線到 LinkedIn Sales Navigator (預覽)
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: 依範例連線到網頁 (預覽)
               href: desktop-connect-to-web-by-example.md
             - name: 連線至 Power BI 服務中的資料集
@@ -201,6 +203,8 @@
           items:
             - name: 合併二進位檔
               href: desktop-combine-binaries.md
+            - name: 使用 Power BI Desktop 中的 AI 見解 (預覽)
+              href: desktop-ai-insights.md
         - name: 製作資料模型
           items:
             - name: Power BI Desktop 中的資料分類
@@ -339,6 +343,8 @@
               href: visuals/power-bi-visualization-card.md
             - name: Power BI 中的組合圖
               href: visuals/power-bi-visualization-combo-chart.md
+            - name: Power BI 中的分解樹狀結構 (預覽)
+              href: visuals/power-bi-visualization-decomposition-tree.md
             - name: Power BI 中的環圈圖
               href: visuals/power-bi-visualization-doughnut-charts.md
             - name: Power BI 中的區域分布圖 (分區著色圖)
@@ -405,6 +411,8 @@
       items:
         - name: Power BI Desktop 中的資料類型
           href: desktop-data-types.md
+        - name: 使用 Power BI Desktop 中已更新的功能區 (預覽)
+          href: desktop-ribbon.md
         - name: Power BI Desktop 的公式編輯器快速鍵
           href: desktop-formula-editor.md
         - name: Power BI Desktop 隱私權等級
