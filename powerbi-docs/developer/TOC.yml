@@ -45,8 +45,10 @@
               href: office-store.md
             - name: 在 Power BI 中使用 R 提供技術的自訂視覺效果
               href: ../desktop-r-powered-custom-visuals.md
-            - name: 視覺效果互動
+            - name: 允許視覺效果互動
               href: visuals/visuals-interactions.md
+            - name: 新增選取項目
+              href: visuals/selection-api.md
             - name: 新增視覺效果工具提示
               href: visuals/add-tooltips.md
             - name: 新增分析窗格
@@ -57,6 +59,8 @@
               href: visuals/fetch-more-data.md
             - name: 新增書籤支援
               href: visuals/bookmarks-support.md
+            - name: 新增操作功能表支援
+              href: visuals/context-menu.md
             - name: 在視覺效果中醒目提示資料
               href: visuals/highlight.md
             - name: 新增高對比模式支援
@@ -65,6 +69,8 @@
               href: visuals/enable-sync-slicers.md
             - name: 疑難排解 Power BI 視覺效果
               href: ../power-bi-custom-visuals-troubleshoot.md
+            - name: 移轉至新 powerbi-visuals-tools
+              href: visuals/migrate-to-new-tools.md
         - name: 參考
           items:
             - name: 登陸頁面
@@ -77,6 +83,8 @@
               href: visuals/event-service.md
             - name: 排序
               href: visuals/sort-options.md
+            - name: 互動功能公用程式
+              href: visuals/utils-interactivity-selections.md
         - name: 資源
           items:
             - name: 開發人員中心
