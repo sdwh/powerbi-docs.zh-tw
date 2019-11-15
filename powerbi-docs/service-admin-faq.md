@@ -2,7 +2,6 @@
 title: 管理 Power BI - 常見問題集 (FAQ)
 description: 了解 Power BI 註冊、租用戶管理和其他管理工作常見問題的解答。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 6cc29bd1d06e948facf1058411759c15841a8352
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 711646009fe79e145a3ab756266a442243c1116e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442928"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857816"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
@@ -56,7 +55,7 @@ ms.locfileid: "73442928"
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-此節中的一些程序需要 Windows PowerShell 指令碼。 如果您不熟悉 PowerShell，我們建議您參閱 [PowerShell 入門手冊](http://go.microsoft.com/fwlink/p/?LinkID=286814)。 若要執行指令碼，請先安裝[適用於 Graph 的 Azure Active Directory PowerShell](/powershell/azure/active-directory/) 的最新 64 位元版本。
+此節中的一些程序需要 Windows PowerShell 指令碼。 如果您不熟悉 PowerShell，我們建議您參閱 [PowerShell 入門手冊](https://go.microsoft.com/fwlink/p/?LinkID=286814)。 若要執行指令碼，請先安裝[適用於 Graph 的 Azure Active Directory PowerShell](/powershell/azure/active-directory/) 的最新 64 位元版本。
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>使用者如何註冊 Power BI？
 
@@ -193,7 +192,7 @@ Power BI 提供 Power BI 管理入口網站，供 Microsoft 365 全域管理員�
 
 1. 移至 [MIcrosoft 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
-1. 在左側的導覽列中，選取 [使用者]   > [作用中使用者]  。
+1. 請在瀏覽窗格中選取 [使用者]   > [作用中使用者]  。
 
 1. 找到您要移除授權的使用者，然後選取其名稱。
 
@@ -211,7 +210,7 @@ Power BI 提供 Power BI 管理入口網站，供 Microsoft 365 全域管理員�
 
 1. 巡覽至 [MIcrosoft 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
-1. 在左側的導覽列中，選取 [使用者]   > [作用中使用者]  。
+1. 請在瀏覽窗格中選取 [使用者]   > [作用中使用者]  。
 
 1. 在 [檢視]  功能表上，選取 [新增自訂檢視]  。
 
@@ -235,7 +234,7 @@ Power BI 提供 Power BI 管理入口網站，供 Microsoft 365 全域管理員�
 
 ### <a name="what-is-the-power-bi-sla"></a>什麼是 Power BI SLA？
 
-如需 Power BI SLA (服務等級協定) 的相關資訊，請參閱 Microsoft Licensing 網站 **Licensing** (授權) 一節中的 [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) (授權條款與文件) 文章。
+如需 Power BI SLA (服務等級協定) 的相關資訊，請參閱 Microsoft Licensing 網站 **Licensing** (授權) 一節中的 [Licensing Terms and Documentation](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) (授權條款與文件) 文章。
 
 ### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Power BI 如何處理高可用性和容錯移轉？
 
@@ -264,6 +263,6 @@ Microsoft Power BI 以 Microsoft 365 為建置基礎上，而 Microsoft 365 則�
 [Office 365 使用者帳戶管理](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
 [Office 365 群組管理](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 
 [1]: https://docs.microsoft.com/powershell/scripting/overview

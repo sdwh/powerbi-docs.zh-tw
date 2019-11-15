@@ -12,7 +12,7 @@
         - name: 概觀
           items:
             - name: Power BI 的視覺效果
-              href: ../power-bi-custom-visuals.md
+              href: power-bi-custom-visuals.md
         - name: 教學課程
           items:
             - name: 開發 Power BI 視覺效果
@@ -24,11 +24,11 @@
         - name: 概念
           items:
             - name: Power BI 中組織的視覺效果
-              href: ../power-bi-custom-visuals-organization.md
+              href: power-bi-custom-visuals-organization.md
             - name: Power BI 視覺效果指南
               href: guidelines-powerbi-visuals.md
             - name: 視覺效果常見問題集
-              href: ../power-bi-custom-visuals-faq.md
+              href: power-bi-custom-visuals-faq.md
             - name: 使用功能
               href: visuals/capabilities.md
             - name: 資料檢視對應
@@ -40,12 +40,12 @@
         - name: 如何
           items:
             - name: 認證視覺效果
-              href: ../power-bi-custom-visuals-certified.md
+              href: power-bi-custom-visuals-certified.md
             - name: 在 AppSource 上發佈自訂視覺效果
               href: office-store.md
             - name: 在 Power BI 中使用 R 提供技術的自訂視覺效果
-              href: ../desktop-r-powered-custom-visuals.md
-            - name: 允許視覺效果互動
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+            - name: 視覺效果互動
               href: visuals/visuals-interactions.md
             - name: 新增選取項目
               href: visuals/selection-api.md
@@ -68,9 +68,7 @@
             - name: 啟用同步交叉分析篩選器
               href: visuals/enable-sync-slicers.md
             - name: 疑難排解 Power BI 視覺效果
-              href: ../power-bi-custom-visuals-troubleshoot.md
-            - name: 移轉至新 powerbi-visuals-tools
-              href: visuals/migrate-to-new-tools.md
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: 參考
           items:
             - name: 登陸頁面

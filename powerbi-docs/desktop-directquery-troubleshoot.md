@@ -2,19 +2,18 @@
 title: Power BI Desktop 中的 DirectQuery 模型疑難排解
 description: 疑難排解 DirectQuery 模型的問題。
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ac585aef180bb852f79ad5135778cec20f35cf2d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73433582"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868052"
 ---
 # <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型疑難排解
 
@@ -92,7 +91,7 @@ ms.locfileid: "73433582"
 - 如前文所述，開啟 SQL Server Profiler 檢查追蹤。 請注意，關閉 Power BI Desktop 時，便會刪除追蹤檔案。 此外，Power BI Desktop 不會立即顯示進一步的動作，必須關閉再重新開啟追蹤檔案，才會顯示新的事件。
 - 請將個別工作階段保持為適當大小 (10 秒而不是數百秒的動作)，以便更容易解譯追蹤檔案 (且由於追蹤檔案大小受到限制，因此工作階段若過長，就有可能會卸除早期事件)。
 
-## <a name="understand-the-form-of-query-sent-by-power-bi-desktop"></a>了解 Power BI Desktop 傳送的查詢格式
+## <a name="understand-queries-sent-to-the-source"></a>了解傳送至來源的查詢
 
 Power BI Desktop 所產生及傳送的一般查詢格式，會採用所參考之每一個模型資料表的子選擇，其中的子查詢由 Power Query 查詢定義。 例如，假設 SQL Server 關聯式資料庫中有下列 TPC-DS 資料表：
 
