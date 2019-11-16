@@ -18,3 +18,6 @@
         - name: 報表伺服器
           tocHref: /power-bi/report-server/
           topicHref: /power-bi/report-server/get-started
+        - name: 指引
+          tocHref: /power-bi/guidance/
+          topicHref: /power-bi/guidance/index
