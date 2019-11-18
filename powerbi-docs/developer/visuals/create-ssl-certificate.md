@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: d24135cc55ebc8cdfd2a1279cb2a2a46f8f0bc3e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 224b6db8fa04a471a1ce7d1fff2b34a838d6fb9d
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880195"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060362"
 ---
 # <a name="create-an-ssl-certificate"></a>建立 SSL 憑證
 
@@ -22,20 +22,19 @@ ms.locfileid: "73880195"
 若要在 Windows 8 或更新版本上使用 Powershell `New-SelfSignedCertificate` Cmdlet 來產生憑證，請執行下列命令：
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 該工具需要適用於 Windows 7 的 OpenSSL 安裝。 OpenSSL 公用程式必須能從命令列使用。
 
 若要安裝 OpenSSL，請移至 [OpenSSL](https://www.openssl.org) \(英文\) 或 [OpenSSL 二進位檔](https://wiki.openssl.org/index.php/Binaries) \(英文\) 網站。
 
-
-
 ## <a name="create-a-certificate-mac-os-x"></a>建立憑證 (Mac OS X)
 
 Linux 或 Mac OS X 作業系統通常會提供 OpenSSL 公用程式。
 
 您也可以執行下列其中一個命令來安裝該公用程式：
+
 * 從 *Brew* 套件管理員：
 
     ```cmd
@@ -52,7 +51,7 @@ Linux 或 Mac OS X 作業系統通常會提供 OpenSSL 公用程式。
 在您安裝 OpenSSL 公用程式以產生新憑證之後，請執行下列命令：
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 ## <a name="create-a-certificate-linux"></a>建立憑證 (Linux)
@@ -80,7 +79,7 @@ pbiviz --create-cert
 如果您的作業系統上已有 OpenSSL 公用程式，請執行下列命令來產生新憑證：
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 或者，您可以移至 [OpenSSL](https://www.openssl.org) \(英文\) 或 [OpenSSL 二進位檔](https://wiki.openssl.org/index.php/Binaries) \(英文\) 網站來取得 OpenSSL 公用程式。

@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 84c873c925c7e733c70b309d5cc2476dff2e553b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e650b1eb8fd05db54b9d0bf9021eaa881d28832e
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863942"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128196"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 視覺效果指南
 在您將視覺效果[發佈](https://docs.microsoft.com/power-bi/developer/office-store)至 AppSource 供其他人探索及使用之前，請務必遵循指導方針，以便為您的使用者打造絕佳體驗。 
@@ -52,7 +52,7 @@ ms.locfileid: "73863942"
 
 到目前為止，Marketplace (AppSource) 只接受免費的 Power BI 視覺效果。 此原則已變更 (2018 年 12 月)，因此您也可以提交具有「可能需要另外購買」價格標籤的視覺效果到 AppSource。 
 
-「可能需要個別購買」視覺效果類似於 Office 市集中的在應用程式內購買 (IAP) 增益集。 開發人員也可以在經過 AppSource 小組核准，確定符合認證需求之後，再提交這些經認證的視覺效果。 如需有關需求的詳細資訊，請參閱[經認證的 Power BI 視覺效果](../power-bi-custom-visuals-certified.md)。
+「可能需要個別購買」視覺效果類似於 Office 市集中的在應用程式內購買 (IAP) 增益集。 開發人員也可以在經過 AppSource 小組核准，確定符合認證需求之後，再提交這些經認證的視覺效果。 如需有關需求的詳細資訊，請參閱[經認證的 Power BI 視覺效果](../developer/power-bi-custom-visuals-certified.md)。
 
 > [!NOTE]
 > 視覺效果不得存取外部服務或資源，才能通過驗證。
