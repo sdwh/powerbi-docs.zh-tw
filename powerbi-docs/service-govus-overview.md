@@ -2,7 +2,6 @@
 title: 適用於美國政府客戶的 Power BI - 概觀
 description: 對於美國政府客戶，請深入了解 Power BI 美國政府服務的功能和限制
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3121c939cca8b2b4f743185e2367c8ea83794009
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: 225c21693c9f100d9abbfc310b957bee7a909061
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048821"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881368"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 **Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本專為美國政府客戶而設計，並且獨立且不同於商用版本的 **Power BI 服務**。

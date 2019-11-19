@@ -2,7 +2,6 @@
 title: 教學課程：在 Power BI Desktop 中建立您自己的量值
 description: 教學課程：在 Power BI Desktop 中建立您自己的量值
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ade9c163c017b13b0524c66f67f7a27378dc4b80
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019358"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865949"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中建立您自己的量值
 您可以在 Power BI Desktop 中使用量值來建立一些最強大的資料分析方案。 當您與報表互動時，量值會在您的資料上執行計算，藉此提供協助。 本教學課程將引導您了解量值，並在 Power BI Desktop 中建立自己的基本量值。
@@ -23,7 +22,7 @@ ms.locfileid: "73019358"
 ### <a name="prerequisites"></a>先決條件
 - 本教學課程適用於已經熟悉使用 Power BI Desktop，用來建立更進階模型的 Power BI 使用者。 您應該已經很熟悉使用 [取得資料] 和 [查詢編輯器] 匯入資料、使用多個相關資料表，以及將欄位加入報表畫布。 如果您剛開始使用 Power BI Desktop，請務必參閱[開始使用 Power BI Desktop](desktop-getting-started.md)。
   
-- 下載[適用於 Power BI Desktop 的 Contoso 銷售範例](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)檔案，其中包含虛構公司 Contoso, Inc. 的線上銷售資料。此資料是從資料庫匯入，因此您無法連線到該資料來源或在 [查詢編輯器] 中檢視它。 在您自己的電腦上將此檔案解壓縮，然後在 Power BI Desktop 中開啟它。
+- 下載[適用於 Power BI Desktop 的 Contoso 銷售範例](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)檔案，其中包含虛構公司 Contoso, Inc. 的線上銷售資料。此資料是從資料庫匯入，因此您無法連線到該資料來源或在 [查詢編輯器] 中檢視它。 在您自己的電腦上將此檔案解壓縮，然後在 Power BI Desktop 中開啟它。
 
 ## <a name="understand-measures"></a>了解量值
 

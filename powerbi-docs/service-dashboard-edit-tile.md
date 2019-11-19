@@ -2,7 +2,6 @@
 title: 編輯儀表板磚
 description: 本教學課程會帶領您從建立磚並釘選到儀表板，到了解如何編輯該儀表板磚 -- 調整大小、移動、重新命名、釘選、刪除、新增超連結。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f96af87706fb289d5fe7216c8ba0b9b0d83b1391
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021132"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877480"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>編輯或移除儀表板磚
 
@@ -148,5 +147,5 @@ ms.locfileid: "73021132"
 
 [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

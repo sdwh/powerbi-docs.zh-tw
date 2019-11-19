@@ -2,7 +2,6 @@
 title: Power BI Desktop 的 DAX 基本概念
 description: Power BI Desktop 的 DAX 基本概念
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 524d04655d01b527707a59b941c84f5254ffea20
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: fcff0bf1d6c68b9bdb000855f4984b3664b882c1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922489"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877920"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 的 DAX 基本概念
 本文適用對象為剛開始使用 Power BI Desktop 的使用者。 您將以快速且容易了解的方式，了解如何使用資料分析運算式 (DAX)，以便解決一些基本計算和資料分析問題。 我們將逐一探討一些概念性資訊、一系列您可以完成的工作，以及用來測試所學內容的知識檢定。 完成本文之後，您便可充分了解 DAX 最重要的基本概念。
@@ -33,7 +32,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 
 ### <a name="example-workbook"></a>範例活頁簿
 
-了解 DAX 的最佳方式是建立一些基本公式、用來處理實際資料，並親自查看結果。 此處的範例和工作使用[適用於 Power BI Desktop 的 Contoso Sales 範例檔案](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)。 此範例檔案是[教學課程：在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)一文中使用的相同範例檔案。 
+了解 DAX 的最佳方式是建立一些基本公式、用來處理實際資料，並親自查看結果。 此處的範例和工作使用[適用於 Power BI Desktop 的 Contoso Sales 範例檔案](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)。 此範例檔案是[教學課程：在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)一文中使用的相同範例檔案。 
 
 ## <a name="lets-begin"></a>現在就開始進行！
 我們將分成下列三個基本概念介紹 DAX：「語法」  、「函式」  和「內容」  。 DAX 還有其他重要概念，不過了解這三個概念將為您的 DAX 技能奠定最佳基礎。
@@ -82,7 +81,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 
 ### <a name="task-create-a-measure-formula"></a>工作：建立量值公式
 
-1. [下載](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)並開啟 Contoso Sales 範例 Power BI Desktop 檔案。 
+1. [下載](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)並開啟 Contoso Sales 範例 Power BI Desktop 檔案。 
     
 2. 在 [報表] 檢視的 [欄位] 清單中，以滑鼠右鍵按一下 [Sales]  資料表，然後選取 [新增量值]  。
     
@@ -213,7 +212,7 @@ DAX 包含下列函數類別：[日期和時間](https://msdn.microsoft.com/libr
 ## <a name="summary"></a>摘要
 在您對 DAX 中最重要的概念有了基本了解之後，即可開始建立 DAX 公式來處理自己的量值。 DAX 確實有點難了解，但有許多資源可供您使用。 讀完本文並實驗幾個自己的公式之後，您可以進一步了解可協助您解決自身商務問題的其他 DAX 概念和公式。 有許多 DAX 資源可供您使用；最重要的是[資料分析運算式 (DAX) 參考](https://msdn.microsoft.com/library/gg413422.aspx)。
 
-因為 DAX 在 Power Pivot 和 Analysis Services 表格式模型等其他 Microsoft BI 工具中已行之有年，所以有許多可用的實用資訊。 您可以在 Microsoft 和領先 BI 專業人員所提供的書籍、技術白皮書和部落格中找到更多資訊。 [TechNet 上的 DAX 資源中心 Wiki](http://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) 也是很好的起點。
+因為 DAX 在 Power Pivot 和 Analysis Services 表格式模型等其他 Microsoft BI 工具中已行之有年，所以有許多可用的實用資訊。 您可以在 Microsoft 和領先 BI 專業人員所提供的書籍、技術白皮書和部落格中找到更多資訊。 [TechNet 上的 DAX 資源中心 Wiki](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) 也是很好的起點。
 
 ### <a name="quickquiz-answers"></a>快速測驗解答
 語法：

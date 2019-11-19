@@ -3,18 +3,17 @@ title: Power BI 權限
 description: Power BI 權限
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 06901a484ca53881f30cc71d9a7404807ac6cd57
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 14327f09ede41c23fd4fe7cc65fc4f8d3a91b926
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429129"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880441"
 ---
 # <a name="power-bi-permissions"></a>Power BI 權限
 
@@ -46,7 +45,7 @@ Power BI 權限可賦予應用程式代表使用者採取某些動作。 所有�
 
 ## <a name="requesting-permissions"></a>要求權限
 
-雖然您可以呼叫 API 來驗證使用者名稱及密碼，以便能代表其他使用者採取動作，他們仍須先要求權限，待使用者核准之後，才會傳送產生的存取權杖，供後續的所有呼叫之用。 在處理序中，我們會遵循標準 [OAuth 2.0](http://oauth.net/2/) 通訊協定。 實際實作可能有所不同，Power BI 的 OAuth 流程包含下列項目：
+雖然您可以呼叫 API 來驗證使用者名稱及密碼，以便能代表其他使用者採取動作，他們仍須先要求權限，待使用者核准之後，才會傳送產生的存取權杖，供後續的所有呼叫之用。 在處理序中，我們會遵循標準 [OAuth 2.0](https://oauth.net/2/) 通訊協定。 實際實作可能有所不同，Power BI 的 OAuth 流程包含下列項目：
 
 * **登入 UI** - 這是開發人員可以呼叫來要求權限的 UI。 如果使用者尚未登入，將會要求使用者登入。 使用者也必須核准應用程式所要求的權限。 登入視窗會回傳所提供之重新導向 URL 的存取碼或錯誤訊息。
   * 標準的重新導向 URL 應該由 Power BI 提供，以供原生應用程式使用。
@@ -54,4 +53,4 @@ Power BI 權限可賦予應用程式代表使用者採取某些動作。 所有�
 * **授權權杖** - 這會用來代表另一位使用者驗證 API 呼叫。 只有特定應用程式才可使用這些權杖。 權杖有既定的壽命，當其時限屆滿時，就必須更新。
 * **更新權杖** - 當權杖到期時，將會執行更新程序。
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

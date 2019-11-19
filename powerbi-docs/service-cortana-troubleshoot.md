@@ -2,7 +2,6 @@
 title: 對適用於 Power BI 的 Cortana 進行疑難排解
 description: 如果您在搭配 Power BI 使用 Cortana 時遇到問題，請嘗試這些建議。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 02e79522baa7580b019cec6956593d88260fb95b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9d6241659eaa5e6ff9c98b5c25dbfacb0bbac34d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432119"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872884"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>對適用於 Power BI 的 Cortana 進行疑難排解
 本文是系列文的其中一篇。 
@@ -96,4 +95,4 @@ ms.locfileid: "73432119"
 * 查詢必須有 2 個以上的字。  如果您的查詢過短，請加上 "show" 字。
 * 某些具有介係詞的查詢字串可能無法運作 (例如 sales by item)。 請嘗試其他沒有使用介係詞，而且有意義/唯一的查詢字詞。
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

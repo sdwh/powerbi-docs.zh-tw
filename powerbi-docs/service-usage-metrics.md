@@ -3,7 +3,6 @@ title: 監視儀表板和報表的使用計量
 description: 如何檢視、儲存和使用 Power BI 儀表板和報表的使用計量。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6b34fc07afb082115ef5fb537badbae989e21cec
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432305"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871216"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>監視 Power BI 儀表板和報表的使用計量
 
@@ -195,4 +194,4 @@ Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供的安
 
 [在系統管理入口網站中管理 Power BI](service-admin-portal.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

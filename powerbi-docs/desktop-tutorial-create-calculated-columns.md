@@ -2,7 +2,6 @@
 title: 教學課程：在 Power BI Desktop 中建立計算結果欄
 description: 教學課程：在 Power BI Desktop 中建立計算結果欄
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 92cd402c394fc2f03a9bba3149260c022116e9d7
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 4c1f6985a2ff88fa9ca595ad68456eed7a55c82e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017814"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876138"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中建立計算結果欄
 
@@ -28,7 +27,7 @@ ms.locfileid: "73017814"
 ### <a name="prerequisites"></a>先決條件
 - 本教學課程適用於已經熟悉使用 Power BI Desktop，用來建立更進階模型的 Power BI 使用者。 您應該已經熟悉如何使用 [取得資料]  和 **Power Query 編輯器**來匯入資料、使用多個相關資料表，以及將欄位新增至 [報表] 畫布。 如果您剛開始使用 Power BI Desktop，請務必參閱[開始使用 Power BI Desktop](desktop-getting-started.md)。
   
-- 本教學課程使用[適用於 Power BI Desktop 的 Contoso 銷售範例](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)，這是[在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)教學課程中所使用的相同範例。 這份來自虛構公司 Contoso, Inc. 的銷售資料是從資料庫匯入的，因此您無法連線到資料來源或在「Power Query 編輯器」中檢視它。 請在您自己的電腦上下載檔案並將檔案解壓縮，然後在 Power BI Desktop 中開啟它。
+- 本教學課程使用[適用於 Power BI Desktop 的 Contoso 銷售範例](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)，這是[在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)教學課程中所使用的相同範例。 這份來自虛構公司 Contoso, Inc. 的銷售資料是從資料庫匯入的，因此您無法連線到資料來源或在「Power Query 編輯器」中檢視它。 請在您自己的電腦上下載檔案並將檔案解壓縮，然後在 Power BI Desktop 中開啟它。
 
 ## <a name="create-a-calculated-column-with-values-from-related-tables"></a>使用來自相關資料表的值來建立計算結果欄
 

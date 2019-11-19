@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的資料來源
 description: Power BI Desktop 中的資料來源
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 07618606c4554cf0e16eba029ea6198e3060a105
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: c363e63a7354c2a8c66099a98cb441ce2c94becf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891724"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878381"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。

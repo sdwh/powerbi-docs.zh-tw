@@ -2,7 +2,6 @@
 title: 在 Power BI 中建立可存取的報表
 description: 如何建立可存取的 Power BI Desktop 報表
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ea03387dd35537ac47f1c97a3c2712d4185b3247
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: 4686b15e04d3724256c76d7ba27a125cb04e86b3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73181704"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878968"
 ---
 # <a name="creating-accessible-reports-in-power-bi"></a>在 Power BI 中建立可存取的報表
 您可以設計和建立具視覺吸引力的報表，同時針對協助工具進行設計。 建置報表時，無論您的對象為何都建議盡可能地將報表建置為可供更多人使用，而無須針對某種特殊設計進行調整。
@@ -166,9 +165,9 @@ Power BI 的產品中內建了需要報表作者進行設定的協助工具功�
 
 ### <a name="themes-contrast-and-colorblind-friendly-colors"></a>佈景主題、對比和方便色盲人士使用的色彩
 
-建議您確保報表在文字與任何背景色彩之間有足夠的對比。 WCAG 2.1 成功準則 1.4.3 描述文字和背景色彩應具備至少 4.5:1 的對比比例。 有數種工具 (例如 [Color Contrast Analyzer](https://developer.paciellogroup.com/resources/contrastanalyser/) (色彩對比分析器)、[WebAIM](https://webaim.org/resources/contrastchecker/) 和 [Accessible Colors](http://accessible-colors.com/) (可存取色彩) 可讓您用來檢查報表的色彩。
+建議您確保報表在文字與任何背景色彩之間有足夠的對比。 WCAG 2.1 成功準則 1.4.3 描述文字和背景色彩應具備至少 4.5:1 的對比比例。 有數種工具 (例如 [Color Contrast Analyzer](https://developer.paciellogroup.com/resources/contrastanalyser/) (色彩對比分析器)、[WebAIM](https://webaim.org/resources/contrastchecker/) 和 [Accessible Colors](https://accessible-colors.com/) (可存取色彩) 可讓您用來檢查報表的色彩。
 
-建議您也考慮一部分報表檢視人員可能會有色彩視覺上的缺陷。 [Coblis](http://www.color-blindness.com/coblis-color-blindness-simulator/) 和 [Vischeck](http://www.vischeck.com/vischeck/vischeckImage.php) 等工具可模擬具有不同色彩缺陷的報表檢視者所看見內容。  在報表中使用較少色彩或單色調色盤可協助降低建立無法存取報表的可能。
+建議您也考慮一部分報表檢視人員可能會有色彩視覺上的缺陷。 [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/) 和 [Vischeck](https://www.vischeck.com/vischeck/vischeckImage.php) 等工具可模擬具有不同色彩缺陷的報表檢視者所看見內容。  在報表中使用較少色彩或單色調色盤可協助降低建立無法存取報表的可能。
 
 特定色彩組合對具有色彩視覺缺陷的使用者來說特別難以辨識。 這些包含下列組合： 
 

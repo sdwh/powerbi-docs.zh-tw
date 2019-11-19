@@ -2,7 +2,6 @@
 title: 重新整理疑難排解案例
 description: 重新整理疑難排解案例
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,19 +9,19 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7e66cbf11c8177a12dbbf825873adb4cef5f26fd
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: d79fc47ff30d7f28827290268ba01edf09643032
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73169045"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860501"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>重新整理疑難排解案例
 
 您可以在這裡找到在 Power BI 服務內重新整理資料時可能面臨到的不同狀況的相關資訊。
 
 > [!NOTE]
-> 如果您遇到下列以外的案例且發生問題，您可以在[社群網站](http://community.powerbi.com/)上要求進一步協助，也可以建立[支援票證](https://powerbi.microsoft.com/support/)。
+> 如果您遇到下列以外的案例且發生問題，您可以在[社群網站](https://community.powerbi.com/)上要求進一步協助，也可以建立[支援票證](https://powerbi.microsoft.com/support/)。
 >
 >
 
@@ -92,5 +91,5 @@ Microsoft 正在調查解決方案，以允許資料載入程序重新整理權�
 - [為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)  
 - [對 Power BI Gateway - Personal 進行疑難排解](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-有其他問題嗎？ [嘗試在 Microsoft Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Microsoft Power BI 社群提問](https://community.powerbi.com/)
 

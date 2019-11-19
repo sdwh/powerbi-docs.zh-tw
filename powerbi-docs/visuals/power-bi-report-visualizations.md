@@ -3,7 +3,6 @@ title: Power BI 服務和 Desktop 中的報表視覺效果概觀
 description: Microsoft Power BI 中的報表視覺效果概觀。
 author: mihart
 ms.author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 075985ce2d4eec1244827c65476c81774196a449
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048865"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099083"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 報表的視覺效果
 
@@ -71,4 +70,4 @@ ms.locfileid: "73048865"
 ## <a name="next-steps"></a>後續步驟
 
 * [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [自訂視覺效果](../power-bi-custom-visuals.md)
+* [自訂視覺效果](../developer/power-bi-custom-visuals.md)

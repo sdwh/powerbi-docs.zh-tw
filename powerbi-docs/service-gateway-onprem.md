@@ -3,19 +3,18 @@ title: 內部部署的資料閘道
 description: 本文是 Power BI 的內部部署資料閘道概觀。 您可以使用此閘道處理 DirectQuery 資料來源。 您也可以使用此閘道以內部部署資料重新整理雲端資料集。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 8ca43232cdc5781900dd7cf8b9f72c510dab2e37
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442815"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872449"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>什麼是內部部署的資料閘道？
 
@@ -51,4 +50,4 @@ ms.locfileid: "73442815"
 
 * [安裝內部部署資料閘道](/data-integration/gateway/service-gateway-install)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

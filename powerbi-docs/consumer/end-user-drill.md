@@ -2,7 +2,6 @@
 title: 在視覺效果中向下切入及向上切入
 description: 本文說明如何向下切入 Microsoft Power BI 服務的視覺效果。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24dbce4d825e51d40fc9a42384561d4608f18035
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019909"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851448"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI 視覺效果中的切入模式
 
@@ -153,4 +152,4 @@ ms.locfileid: "73019909"
 
 [Power BI - 基本概念](end-user-basic-concepts.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

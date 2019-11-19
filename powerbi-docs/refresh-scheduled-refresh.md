@@ -2,7 +2,6 @@
 title: 設定排程的重新整理
 description: 這包含選取閘道並設定排定的重新整理步驟。
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 9f1289b5fce74c60e5b3802054cef008dd33ada2
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 89f8b3d609b9433cc85d8af709eec828f924ad8e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021558"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860704"
 ---
 # <a name="configure-scheduled-refresh"></a>設定排程的重新整理
 
@@ -127,5 +126,5 @@ ms.locfileid: "73021558"
 - [為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)  
 - [對 Power BI Gateway - Personal 進行疑難排解](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

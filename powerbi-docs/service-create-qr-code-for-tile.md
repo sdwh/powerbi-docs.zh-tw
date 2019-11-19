@@ -2,7 +2,6 @@
 title: 為磚建立 QR 代碼以用於 Power BI 行動裝置應用程式
 description: Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要搜尋即可直接連接到 Power BI 行動應用程式中的相關 BI 資訊。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e08d37f3db6156de21f00813a90b1c7544345abe
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 10faca7cf81575dddd2abb29afee1aca0e9f1279
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021176"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853336"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>為 Power BI 的磚建立 QR 代碼以用於行動裝置應用程式
 Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要瀏覽或搜尋即可直接連接到相關的 BI 資訊。
@@ -55,5 +54,5 @@ Power BI 會將 QR 代碼產生為 JPG 檔案，可供列印。
 * 透過行動裝置應用程式[實際連接 Power BI 資料](consumer/mobile/mobile-apps-data-in-real-world-context.md)
 * [從行動裝置掃描 Power BI QR 代碼](consumer/mobile/mobile-apps-qr-code.md)
 * [建立報表的 QR 代碼](service-create-qr-code-for-report.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

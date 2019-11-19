@@ -2,7 +2,6 @@
 title: 從 Power BI Desktop 連線到 Power BI 服務中的資料集
 description: 在多個工作區中使用多個 Power BI Desktop 報表的通用資料集，以及管理報表生命週期
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: de72cab51a4d43d1a07d6ada0bd77888952817ab
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d7d48b78ecced3e26a52df12bc8850ab8fed4c1e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429812"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877878"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>從 Power BI Desktop 連線到 Power BI 服務中的資料集
 您可在 Power BI 服務中建立連到共用資料集的即時連線，並從同一個資料集建立許多不同的報表。 這表示您可以在 Power BI Desktop 中建立完美的資料模型，並將它發佈到 Power BI 服務。 然後，您和其他人便可以從相同的通用資料模型建立多個不同報表 (分別位於不同的 .pbix 檔案中)，並儲存到不同的工作區。 這項功能稱為 **Power BI 服務即時連線**。

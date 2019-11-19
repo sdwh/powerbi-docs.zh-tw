@@ -2,7 +2,6 @@
 title: 變更報表中的圖表排序方式
 description: 變更 Power BI 報表中的圖表排序方式
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: aaf2af2209097b75a4a6aee4faa062bc432dd765
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: e325d13dd8001e8da41dc5602bf3f7dbba2f371f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019940"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852375"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>變更 Power BI 報表中的圖表排序方式
 
@@ -29,7 +28,7 @@ ms.locfileid: "73019940"
 
 儀表板上的視覺效果無法排序，但是在 Power BI 報表中，您可以依圖表類別名稱的字母順序排序大部分視覺效果，或依每個類別的數值排序。 例如，這張圖表是依照 [門市名稱]  類別的字母順序排序。
 
-![依 X 軸以英文字母排序的橫條圖](media/end-user-change-sort/pbi_chartsortcategory.png)
+![依 X 軸以英文字母排序的橫條圖](media/end-user-change-sort/pbi-chartsortcategory.png)
 
 可以輕鬆地將排序從類別 (商店名稱) 變更為值 (每平方英尺銷售額)。
 

@@ -2,7 +2,6 @@
 title: 在傳統工作區共同作業
 description: 了解如何使用 Office 365 服務，以在您工作區的 Power BI Desktop 檔案上共同作業，例如共用商務用 OneDrive 上的檔案、Exchange 中的交談、行事曆及工作等。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 860aa1de5a91d98e6a50773250e89581fc1d9801
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: cddb55ab85cfd6d8d6a5e49d81b83a80df2f81da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021343"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873186"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>在傳統工作區共同作業
 Power BI 工作區是與您同事共同作業以使用儀表板、報表和資料集來建立「應用程式」  的絕佳地方。 本文是關於原始的「典型」  工作區。  
@@ -80,6 +79,6 @@ Power BI 工作區是與您同事共同作業以使用儀表板、報表和資�
 
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI 中發佈應用程式](service-create-distribute-apps.md)。
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)。
 * 想提出意見反應嗎？ 請前往 [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi)。
 

@@ -2,7 +2,6 @@
 title: Power BI 終端使用者常見問題集
 description: 瀏覽 Power BI 服務和 Power BI 行動應用程式的常見問題與解答清單。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,16 +9,16 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5166c99a66178fb29ecab3d5ed0a660f694f7a61
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 282b10d48efc97c38dae06692964e3ba2a7412b0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430051"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852518"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>關於 Power BI 的常見問題集
 
-* 如果您有其他問題，請[嘗試詢問 Power BI 社群](http://community.powerbi.com/)。
+* 如果您有其他問題，請[嘗試詢問 Power BI 社群](https://community.powerbi.com/)。
 * 仍有問題嗎？ 瀏覽 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
 
 ## <a name="what-is-the-microsoft-power-bi-service"></a>Microsoft Power BI 服務是什麼？
@@ -56,9 +55,9 @@ Power BI 不支援消費者電子郵件服務或電信提供者所提供的電�
 
 是。 Power BI 備有 Android 手機與平板裝置、iOS 裝置及 Windows 10 裝置的原生應用程式。 從個別的市集下載其中一種 [Power BI 行動應用程式](https://powerbi.microsoft.com/mobile)：  
 
-* [Apple App Store](http://go.microsoft.com/fwlink/?LinkId=526218)
-* [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
-* [Windows 市集](http://go.microsoft.com/fwlink/?LinkId=526478)
+* [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
+* [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
+* [Windows 市集](https://go.microsoft.com/fwlink/?LinkId=526478)
 
 ## <a name="what-do-i-need-to-install-to-use-power-bi"></a>使用 Power BI 需要安裝哪些東西？
 
@@ -66,15 +65,15 @@ Power BI 不支援消費者電子郵件服務或電信提供者所提供的電�
 
 您可以從個別的 Power BI 行動應用程式市集免費下載所需的應用程式：
 
-* [應用程式市集](http://go.microsoft.com/fwlink/?LinkId=526218)
-* [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
-* [Windows 市集](http://go.microsoft.com/fwlink/?LinkId=526478)
+* [應用程式市集](https://go.microsoft.com/fwlink/?LinkId=526218)
+* [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
+* [Windows 市集](https://go.microsoft.com/fwlink/?LinkId=526478)
 
 ## <a name="where-do-i-get-started-with-power-bi"></a>我要從哪裡開始使用 Power BI？
 
 下列資源可用來幫助您開始使用：
 
-* [Power BI 部落格](http://blogs.msdn.com/b/powerbi/)
+* [Power BI 部落格](https://blogs.msdn.com/b/powerbi/)
 * [網路研討會](../webinars.md)
 * 我們 [YouTube 頻道](https://www.youtube.com/user/mspowerbi)上的使用者入門影片
 * [以「取用者」  身分開始使用 Power BI](power-bi-consumer-landing.md) 一文
@@ -91,19 +90,19 @@ Power BI 不支援消費者電子郵件服務或電信提供者所提供的電�
 
 ## <a name="how-can-i-buy-power-bi-pro-in-my-country"></a>如何在我的國家/地區購買 Power BI Pro？
 
-您可以直接購買 Power BI Pro 授權或與 [www.powerbi.com](http://www.powerbi.com) 的代表交談。
+您可以直接購買 Power BI Pro 授權或與 [www.powerbi.com](https://www.powerbi.com) 的代表交談。
 
 您也可以找到 [Microsoft 合作夥伴](https://partner.microsoft.com/)來協助您進行 Power BI 實作。
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI 是否符合國家、地區和業界的特定合規性要求？
 
-請在 [Microsoft 信任中心](http://go.microsoft.com/fwlink/?LinkId=785324)深入了解 Power BI 合規性。
+請在 [Microsoft 信任中心](https://go.microsoft.com/fwlink/?LinkId=785324)深入了解 Power BI 合規性。
 
 ## <a name="where-can-i-learn-more-about-security"></a>我可以在哪裡深入了解安全性？
 
 深入了解 Power BI 安全性、隱私權和合規性：
 
-* 此份 [Power BI 安全性](http://go.microsoft.com/fwlink/?LinkId=829185)白皮書
+* 此份 [Power BI 安全性](https://go.microsoft.com/fwlink/?LinkId=829185)白皮書
 
 * 這篇 [Power BI 安全性支援](../service-admin-power-bi-security.md)文章
 
@@ -117,5 +116,5 @@ Power BI 不支援消費者電子郵件服務或電信提供者所提供的電�
 
 * [什麼是 Power BI 取用者？](end-user-consumer.md)
 * [取用者如何使用 Power BI？](end-user-reading-view.md)
-* 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 * 仍有問題嗎？ 瀏覽 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)

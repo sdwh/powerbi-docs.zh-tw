@@ -2,7 +2,6 @@
 title: 將超連結 (URL) 新增至資料表
 description: 本主題會指導您如何將超連結 (URL) 新增至資料表。 您會使用 Power BI Desktop 來將超連結 (URL) 新增至資料表或矩陣。 然後，在 Power BI Desktop 或 Power BI 服務中，您可以將那些超連結新增至您的報表資料表和矩陣。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c53ce84610e68280c915d55466bc7cddd3c0cc92
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: e8cad7035e752e5e344d78a22ad5fd8ea0a072ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060741"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874508"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>將超連結 (URL) 新增至資料表
 本主題會指導您如何將超連結 (URL) 新增至資料表。 您會使用 Power BI Desktop 來將超連結 (URL) 新增至資料表或矩陣。 然後，在 Power BI Desktop 或 Power BI 服務中，您可以將那些超連結新增至您的報表資料表和矩陣。 
@@ -112,5 +111,5 @@ URL 的開頭必須是下列其中一項：
 
 [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

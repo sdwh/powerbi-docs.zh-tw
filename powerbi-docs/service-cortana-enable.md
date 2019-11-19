@@ -2,19 +2,18 @@
 title: 啟用適用於 Power BI 的 Cortana
 description: 搭配使用 Cortana 和 Power BI 從您的資料中取得答案。 針對每個 Power BI 資料集啟用 Cortana，然後允許 Cortana 從 Windows 裝置存取您的資料集。
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: b1792abeed1a4a03cb8e3f49acb4ed8aa53b1be0
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a631bc37c193521b2acc367a0c6d8540419e3b79
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020509"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872894"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>允許 Cortana 存取 Power BI 報表 (和其基礎資料集)
 您已經讀過 [Cortana 及 Power BI 簡介](service-cortana-intro.md) (如果沒有，您可能要先讀過後再回來)。 而現在，您會想要親自試試。  您在 Cortana 中詢問自然語言問題，並從儲存在 Power BI 報表中的資料尋找答案之前，有幾項要求。 具體來說，您必須執行下列作業。
@@ -84,5 +83,5 @@ Cortana 將會使用這個公司或學校帳戶，來檢查 Power BI 中是否�
 
 [對 Cortana 和 Power BI 整合問題進行疑難排解](service-cortana-troubleshoot.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

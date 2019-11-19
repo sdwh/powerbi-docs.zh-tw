@@ -2,7 +2,6 @@
 title: 設定工作區資料流程設定
 description: 在 Power BI 中設定工作區以將其資料流程定義和資料檔儲存在 Azure Data Lake Storage Gen2 中
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 54c0936510c3d383df32fd8b1f99816726f74d9f
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: fa448dac3e7788639377ce2d73d9c0ed68952fb3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431997"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877336"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>設定工作區資料流程設定 (預覽)
 
@@ -138,4 +137,4 @@ Power BI Pro、Premium 和 Embedded 工作區：
 * [CDM 資料夾](https://go.microsoft.com/fwlink/?linkid=2045304) \(英文\)
 * [CDM 模型檔案定義](https://go.microsoft.com/fwlink/?linkid=2045521) \(英文\)
 
-此外，您隨時都可以試著[向 Power BI 社群發問](http://community.powerbi.com/) \(英文\)。
+此外，您隨時都可以試著[向 Power BI 社群發問](https://community.powerbi.com/) \(英文\)。

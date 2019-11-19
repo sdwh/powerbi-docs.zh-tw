@@ -2,21 +2,20 @@
 title: Power BI 管理入口網站
 description: 管理入口網站可讓您管理貴組織的 Power BI 租用戶。 包含項目如使用計量、存取 Microsoft 365 系統管理中心及設定等。
 author: mgblythe
-ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
+ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8a6e104a6fcb129a6e51d8424a8c2321ea74b49c
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442873"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128376"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -305,7 +304,7 @@ Azure B2B 來賓使用者可編輯及管理組織中的內容。 [深入了解](
 
 ### <a name="add-and-use-custom-visuals"></a>新增並使用自訂視覺效果
 
-組織中的使用者可以共用自訂視覺效果，並與其互動。 [深入了解](power-bi-custom-visuals.md)
+組織中的使用者可以共用自訂視覺效果，並與其互動。 [深入了解](developer/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > 這項設定可以套用於整個組織，也可以限於特定群組。
@@ -457,7 +456,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
  ## <a name="organizational-visuals">組織視覺效果</a> 
 
-[組織視覺效果]  索引標籤可讓您部署及管理組織內的自訂視覺效果。 使用組織視覺效果時，您可以輕鬆地在您的組織中部署專屬視覺效果，供報表作者從 Power BI Desktop 探索並匯入到其報表。 [深入了解](power-bi-custom-visuals-organization.md)
+[組織視覺效果]  索引標籤可讓您部署及管理組織內的自訂視覺效果。 使用組織視覺效果時，您可以輕鬆地在您的組織中部署專屬視覺效果，供報表作者從 Power BI Desktop 探索並匯入到其報表。 [深入了解](developer/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > 自訂視覺效果可能包含具有安全性或隱私權風險的程式碼；在您將自訂視覺效果部署到組織存放庫之前，請確定您信任自訂視覺效果的作者與來源。
@@ -513,7 +512,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 確定視覺效果識別碼會維持不變。 新檔案會取代先前的檔案，供整個組織內的所有報表使用。 不過，如果新版的視覺效果可能會中斷舊版視覺效果的任何使用方式或資料結構，則不要取代舊版。 您應該改以為新版視覺效果建立新的清單。 例如，將新的版本號碼 (版本 X.X) 新增至最新列出的視覺效果標題中。 透過這種方法，可以很清楚地表示它只是具有更新版本號碼的相同視覺效果，讓現有的報表不會中斷其功能。 再次提醒，請確定視覺效果識別碼維持不變。 之後，當使用者下一次從 Power BI Desktop 進入組織存放庫時，就能匯入新版本，這會提示他們取代報表中的目前版本。
 
-如需詳細資訊，請前往[組織自訂視覺效果的常見問題集](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)
+如需詳細資訊，請前往[組織自訂視覺效果的常見問題集](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals)
 
 ## <a name="dataflowStorage">資料流程儲存體 (預覽)</a>
 
@@ -547,7 +546,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 * **選取佈景主題色彩**：您可以根據十六進位 #、RGB、值或從提供的平板中選取您的佈景主題。
 
 
-如需詳細資訊，請參閱[為貴組織自訂商標](http://aka.ms/orgBranding)。
+如需詳細資訊，請參閱[為貴組織自訂商標](https://aka.ms/orgBranding)。
 
 ![工作區清單](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>後續步驟

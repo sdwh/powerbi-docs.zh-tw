@@ -2,7 +2,6 @@
 title: 在儀表板圖格上執行及檢視見解
 description: 以 Power BI 使用者角色了解如何取得和儀表板圖格有關的見解。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019617"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863391"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>使用 Power BI 在儀表板圖格上檢視資料見解
 儀表板上每個視覺效果[磚](end-user-tiles.md)都是資料探索的入口。 當您選取磚時，磚會開啟報表或[開啟問與答](end-user-q-and-a.md)，您可以在其中篩選和排序報表後方的資料集，並深入挖掘。 當您執行見解時，Power BI 會為您探索資料。

@@ -2,7 +2,6 @@
 title: 教學課程：在 Power BI Desktop 中將資料成形及合併
 description: 在本教學課程中，您將了解如何在 Power BI Desktop 中將資料成形及合併
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 19e0fa75426cd3e3f72ce9c01712b8d1c52e4abf
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: d6a36f8ef3ef5d668fe8d6021758b651cdbf7fd5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922594"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877808"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中將資料成形及合併
 
@@ -195,7 +194,7 @@ Power BI Desktop 中的查詢編輯器經常會用到快顯功能表，以及 [�
 
 1. 從查詢編輯器的 [常用]  功能區，選取 [新來源] \> [Web]  。 
 
-2. 輸入州名縮寫的網站位址 *http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations* ，然後選取 [連線]  。
+2. 輸入州名縮寫的網站位址 *https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations* ，然後選取 [連線]  。
 
    導覽器會顯示網站的內容。
 

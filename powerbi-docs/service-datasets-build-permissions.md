@@ -2,7 +2,6 @@
 title: 共用資料集的建置權限 (預覽)
 description: 了解如何使用建置權限控制誰可以存取資料。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020290"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872550"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>共用資料集的建置權限 (預覽)
 
@@ -103,4 +102,4 @@ Power BI 於 2019 年 6 月推出建置權限，作為現有權限、讀取和�
 ## <a name="next-steps"></a>後續步驟
 
 - [跨工作區使用資料集 (預覽)](service-datasets-across-workspaces.md)
-- 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+- 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

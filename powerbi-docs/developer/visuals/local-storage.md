@@ -3,18 +3,17 @@ title: Power BI 視覺效果中的本機存放區 API
 description: 本文描述如何使用 Power BI 視覺效果 API 取得瀏覽器本機存放區的存取權
 author: uve
 ms.author: v-grniki
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: 3b6746b611a41ddfb471008f5aefa4f7dc391456
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f69a3c8928b8079f79b8a6dd5f5b132235a7089c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432818"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879891"
 ---
 # <a name="local-storage-api"></a>本機存放區 API
 

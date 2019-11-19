@@ -2,7 +2,6 @@
 title: 快速入門：連線至資料
 description: 在 Power BI Desktop 中連線至資料來源
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 05d8c990b7057ab59515826547a42ce1ee643ac2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891694"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876199"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>快速入門：連接至 Power BI Desktop 中的資料
 
@@ -28,8 +27,8 @@ ms.locfileid: "72891694"
 ## <a name="prerequisites"></a>先決條件
 
 若要完成本文中的步驟，您需要下列項目：
-* 下載並安裝 **Power BI Desktop**，這是可在您的本機電腦上執行的免費應用程式。 您可以直接[下載 **Power BI Desktop**](https://powerbi.microsoft.com/desktop)，或是從 [**Microsoft Store**](http://aka.ms/pbidesktopstore) 取得。
-* [下載此範例 Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkID=521962)，並建立名為 *C:\PBID-qs* 的資料夾，您可在其中儲存 Excel 檔案。 本快速入門中的後續步驟，均假設該處為所下載 Excel 活頁簿的檔案位置。
+* 下載並安裝 **Power BI Desktop**，這是可在您的本機電腦上執行的免費應用程式。 您可以直接[下載 **Power BI Desktop**](https://powerbi.microsoft.com/desktop)，或是從 [**Microsoft Store**](https://aka.ms/pbidesktopstore) 取得。
+* [下載此範例 Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkID=521962)，並建立名為 *C:\PBID-qs* 的資料夾，您可在其中儲存 Excel 檔案。 本快速入門中的後續步驟，均假設該處為所下載 Excel 活頁簿的檔案位置。
 
 ## <a name="launch-power-bi-desktop"></a>啟動 Power BI Desktop
 

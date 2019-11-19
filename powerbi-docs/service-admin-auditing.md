@@ -2,7 +2,6 @@
 title: 在組織內使用稽核
 description: 了解您可以如何使用 Power BI 的稽核來監視和調查所執行的動作。 您可以使用安全與合規性中心或使用 PowerShell。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: cbb9fa77c529052e32800e0a72a6263b770840d0
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 76de629f1579289ea3b702013583911d05f08408
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060665"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873773"
 ---
 # <a name="use-auditing-within-your-organization"></a>在組織內使用稽核
 
@@ -261,4 +260,4 @@ Remove-PSSession $Session
 
 [Power BI 管理入口網站](service-admin-portal.md)  
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

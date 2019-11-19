@@ -2,7 +2,6 @@
 title: 為您自己和其他人訂閱報表和儀表板
 description: 了解如何為您自己和其他人訂閱 Power BI 報表頁面、儀表板或編頁報表的快照集。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e3e22a40b385ab519767eb850617a0506dbfbfd2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891839"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099772"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
@@ -97,7 +96,7 @@ ms.locfileid: "72891839"
 * 報表頁面訂閱會繫結至報表頁面的名稱。 如果您訂閱報表頁面，然後將它重新命名，您必須重新建立訂用帳戶。
 * 您的組織可能會在 Azure Active Directory 進行某些設定，而這可能會限制在 Power BI 中使用電子郵件訂閱的功能。  這些限制包括但不限於存取資源時的多重要素驗證或 IP 範圍限制。
 * 目前，在訂閱您之外的其他人時，不支援使用即時連線資料集的報表/儀表板電子郵件訂閱，除非您使用的是編頁報表，因為編頁報表可讓您使用安全性內容來傳送訂閱給其他人。 
-* 電子郵件訂用帳戶不支援大部分[自訂視覺效果](power-bi-custom-visuals.md)。  其中一個例外是[「已認證」](power-bi-custom-visuals-certified.md)的自訂視覺效果。  
+* 電子郵件訂用帳戶不支援大部分[自訂視覺效果](developer/power-bi-custom-visuals.md)。  其中一個例外是[「已認證」](developer/power-bi-custom-visuals-certified.md)的自訂視覺效果。  
 * 電子郵件訂用帳戶目前不支援 R 支援的自訂視覺效果。  
 * 電子郵件訂閱傳送時會使用報表的預設篩選器和交叉分析篩選器狀態。 在訂閱之後對預設值所做的所有變更，均不會顯示在電子郵件中。  編頁報表支援此功能，且可讓您針對每個訂閱設定特定參數值。   
 * 特別是針對儀表板訂閱，尚不支援某些磚類型。  其中包括：資料流磚、影片磚、自訂 Web 內容磚。     
@@ -109,5 +108,5 @@ ms.locfileid: "72891839"
 ## <a name="next-steps"></a>後續步驟
 
 - [為您自己和其他人訂閱 Power BI 服務中的編頁報表](paginated-reports-subscriptions.md)
-- 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)    
+- 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)    
 - [閱讀部落格文章](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

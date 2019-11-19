@@ -2,7 +2,6 @@
 title: 使用 Power BI 自動產生資料見解
 description: 了解如何取得資料集和儀表板磚的深入解析。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 428e392994a1b6934bf78d9cccbee1821744a622
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020227"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872233"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>使用 Power BI 自動產生資料見解
 您有新資料集，但不太確定要從何處著手？  需要快速建置儀表板嗎？  想要尋找您可能錯失的深入解析嗎？
@@ -96,5 +95,5 @@ ms.locfileid: "73020227"
 - 如果您擁有資料集，請[針對快速見解將它最佳化](service-insights-optimize.md)。
 - 了解[可用的快速見解類型](service-insight-types.md)。
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)。
 

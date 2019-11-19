@@ -2,7 +2,6 @@
 title: 從 Power BI 視覺效果匯出資料
 description: 從報表視覺效果和儀表板視覺效果匯出資料，並在 Excel 中檢視。
 author: mihart
-manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 77d26d32c70c3047636eb03d1211aff3736c8f0c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 0e8a3ce01356804aa5dcca21895fa01b5908ebd0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430181"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851327"
 ---
 # <a name="export-data-from-a-visual"></a>匯出視覺效果的資料
 
@@ -26,7 +25,7 @@ ms.locfileid: "73430181"
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>從 Power BI 儀表板上的視覺效果
 
-1. 從 Power BI 儀表板上開始。 在這裡，我們使用來自「行銷與銷售範例」應用程式的儀表板。 您可以[從 AppSource.com 下載此應用程式](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282)。
+1. 從 Power BI 儀表板上開始。 在這裡，我們使用來自「行銷與銷售範例」應用程式的儀表板。 您可以[從 AppSource.com 下載此應用程式](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282)。
 
     ![應用程式儀表板](media/end-user-export/power-bi-dashboards.png)
 

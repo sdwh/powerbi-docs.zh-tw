@@ -2,19 +2,18 @@
 title: 探索 Power BI 行動裝置應用程式中的報表
 description: 了解如何在手機或平板電腦上的 Power BI 行動裝置應用程式中檢視報表，並與其互動。 您可以使用 Power BI 服務或 Power BI Desktop 來建立報表，然後在行動裝置應用程式中與其互動。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: ab96cc6d17d340c626775bf2a03e225968985835
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: d4b9a9aeda00dd7f16690d1e92336f5b63adf1da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019386"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869773"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -124,5 +123,5 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 ## <a name="next-steps"></a>後續步驟
 * [檢視為您的手機最佳化的 Power BI 報表，並與其互動](mobile-apps-view-phone-report.md)
 * [建立為手機最佳化的報表版本](../../desktop-create-phone-report.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

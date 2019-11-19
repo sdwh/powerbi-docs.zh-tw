@@ -2,7 +2,6 @@
 title: 在 Power BI 和 Office 365 中管理工作區
 description: Power BI 中工作區是建置在 Office 365 群組上的共同作業體驗。 在 Power BI 及 Office 365 中管理工作區。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1317d11b11624ca6187eb91d5350a698bf164f63
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 7f1d86dd3da6665eb985db17ac3641768ff56947
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431813"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872086"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>在 Power BI 和 Office 365 中管理工作區
 
@@ -87,4 +86,4 @@ ms.locfileid: "73431813"
 
 * [使用 Power BI 發佈應用程式](service-create-distribute-apps.md)
 
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

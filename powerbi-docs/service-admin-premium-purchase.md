@@ -3,19 +3,18 @@ title: 如何購買 Power BI Premium
 description: 了解如何購買 Power BI Premium，以及讓整個組織存取內容。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 1d2ff47fdbc31598524986742319ab36c8f3e957
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b9681b15b0eef4415849b59e903440f9d904b1f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442894"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856889"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何購買 Power BI Premium
 
@@ -107,4 +106,4 @@ ms.locfileid: "73442894"
 [Power BI Premium 常見問題集](service-premium-faq.md)\
 [規劃 Power BI 企業部署白皮書](https://aka.ms/pbienterprisedeploy)
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

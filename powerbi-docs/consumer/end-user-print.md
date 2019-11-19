@@ -2,7 +2,6 @@
 title: 從 Power BI 服務列印
 description: 從 Power BI 服務列印儀表板、磚或報表頁面。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 928b69bc1f7e8210f66bd1b99e211a7fe28a5a00
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ec633b5e41936363663736807979dc08f50820b1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019566"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862775"
 ---
 # <a name="printing-from-the-power-bi-service"></a>從 Power BI 服務列印
 
@@ -82,5 +81,5 @@ ms.locfileid: "73019566"
 ## <a name="next-steps"></a>後續步驟
 [與同事和其他人共用儀表板與報表](../service-share-dashboards.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: 以個人身分註冊 Power BI
 description: 了解如何註冊 Power BI，並開始使用它來滿足資料分析和視覺效果需求。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/31/2019
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 785aad2cb7fe369805d8562eb8e493fb65036ef0
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b7dae4c3b4ce35ec6af82ae59c374ab31937881a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442845"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871532"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>以個人身分註冊 Power BI
 
@@ -88,4 +87,4 @@ Power BI 可以是您的個人資料分析和視覺效果工具，也可以作�
 [購買 Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [個人使用者適用的 Power BI 服務合約](https://powerbi.microsoft.com/terms-of-service/)  
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

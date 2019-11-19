@@ -2,7 +2,6 @@
 title: 升級您的資料集 (預覽) - Power BI
 description: 了解如何升級資料集，以引導企業使用者使用可靠且高品質的資料集。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a9c4f2e6348067b3a7029be8d8e7fdfb26e7045
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 379249ac50f61df07c4adaffe53e0df29a311086
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020938"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877119"
 ---
 # <a name="promote-your-dataset-preview"></a>升級您的資料集 (預覽)
 
@@ -55,4 +54,4 @@ ms.locfileid: "73020938"
 ## <a name="next-steps"></a>後續步驟
 
 * 閱讀[跨工作區使用資料集](service-datasets-across-workspaces.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

@@ -3,19 +3,18 @@ title: 使用 gx64krb5 將 Kerberos 用於 SAP BW 的單一登入 (SSO)
 description: 設定您的 SAP BW 伺服器，以使用 gx64krb5 從 Power BI 服務啟用 SSO
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0063ca280667e12fb2cf4d0432651f8145495ac8
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a162ba686c3f548ed371e7a63c2d85dd1f697462
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020319"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881481"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>使用 gx64krb5 將 Kerberos 用於 SAP BW 的單一登入 (SSO)
 

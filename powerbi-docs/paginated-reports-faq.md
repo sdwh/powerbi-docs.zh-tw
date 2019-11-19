@@ -3,18 +3,17 @@ title: Power BI 中的編頁報表：常見問題集
 description: 此文章將回答有關編頁報表的常見問題集。 這些報表均為已高度格式化且具完美像素的輸出，並已基於列印或產生 PDF 用途進行最佳化。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/04/2019
-ms.openlocfilehash: 513c6a4a3f5041b7af06e5c1713de3bd417a1354
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d8fd8490bda3be4217440a984e8b6da6fca7c5cf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431577"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874808"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 

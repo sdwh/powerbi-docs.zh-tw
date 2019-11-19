@@ -3,22 +3,21 @@ title: 關於 Power BI Embedded 的常見問題集
 description: 瀏覽 Power BI Embedded 相關的常見問題與回答清單。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 81eb5de3294430c3960502700bb6255aea43f91a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9e641b70c9fd6c6d378628d34413b14c59eaea23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429290"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864219"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
-* 如果您有其他問題，請[嘗試詢問 Power BI 社群](http://community.powerbi.com/)。
+* 如果您有其他問題，請[嘗試詢問 Power BI 社群](https://community.powerbi.com/)。
 * 仍有問題嗎？ 瀏覽 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
 
 ## <a name="general"></a>一般
@@ -362,4 +361,4 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 如需詳細資訊，請參閱[為您的內嵌應用程式進行疑難排解](embedded-troubleshoot.md)。
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

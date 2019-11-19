@@ -2,7 +2,6 @@
 title: Power BI Desktop 自動重新整理頁面 (預覽)
 description: 了解如何在 Power BI Desktop 中自動重新整理 DirectQuery 來源的頁面
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e694add3fd275cc2d3e9e0e6799adc9a16f32bbd
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4c2217495ee8b735bc600c9b803897a408495472
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429922"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878757"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop 自動重新整理頁面 (預覽)
 

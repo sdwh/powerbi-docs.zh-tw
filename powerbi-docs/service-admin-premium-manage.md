@@ -3,19 +3,18 @@ title: 設定及管理 Power BI Premium 中的容量
 description: 了解如何管理 Power BI Premium，以及讓整個組織存取內容。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: c3c1b11b4445ceba67e272b7f652d61d8935fc16
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 04f5b1f639b7abdbbe789a23e5d7a54790ad50a5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431409"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857090"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>設定及管理 Power BI Premium 中的容量
 
@@ -166,4 +165,4 @@ Power BI 管理員和 Office 365 全域管理員可以變更 Power BI Premium �
 
 [管理 Premium 容量](service-premium-capacity-manage.md)
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

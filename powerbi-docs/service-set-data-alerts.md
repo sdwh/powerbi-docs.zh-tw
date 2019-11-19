@@ -2,7 +2,6 @@
 title: 在 Power BI 服務中設定資料警示
 description: 了解如何在 Microsoft Power BI 服務中設定儀表板，以在資料變更超出您所設定的限制時通知您。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d1944f139cdd7089d9465e174e554ac7df1d8bf8
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060377"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871550"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 服務中的資料警示
 
@@ -132,4 +131,4 @@ ms.locfileid: "73060377"
 
 * [Power BI 是什麼？](fundamentals/power-bi-overview.md)
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

@@ -3,7 +3,6 @@ title: 最佳化 Microsoft Power BI Premium 容量
 description: 描述 Power BI Premium 容量的最佳化策略。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: fc983fe9027f6d94c5394d524a6417a64719a8ac
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d2e8ede356ed015c4c35b311ca58d35366324b9a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431698"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871922"
 ---
 # <a name="optimizing-premium-capacities"></a>最佳化 Premium 容量
 
@@ -257,7 +256,7 @@ Premium 容量的大小決定其可用記憶體和處理器資源，以及加諸
 
 如果您已有想要對其進行負載測試的一個容量和多個報表，請使用 [PowerShell 負載產生工具](https://aka.ms/PowerBILoadTestingTool)來快速產生負載測試。 此工具可讓您估計容量在一小時內可執行的每個報表執行個體數目。 您可以使用此工具來評估容量對於個別報表轉譯或平行轉譯數個不同報表的能力。 如需詳細資訊，請觀看影片 [Microsoft Power BI:Premium capacity](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw) (Microsoft Power BI：Premium 容量)。
 
-若要產生更複雜的測試，請考慮開發模擬實際工作負載的負載測試應用程式。 如需詳細資訊，請參閱網路研討會 [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/) (使用 Visual Studio 負載測試對 Power BI 應用程式進行負載測試)。
+若要產生更複雜的測試，請考慮開發模擬實際工作負載的負載測試應用程式。 如需詳細資訊，請參閱網路研討會 [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/) (使用 Visual Studio 負載測試對 Power BI 應用程式進行負載測試)。
 
 ## <a name="acknowledgements"></a>致謝
 

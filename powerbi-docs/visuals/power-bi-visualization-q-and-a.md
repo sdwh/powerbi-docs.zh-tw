@@ -2,18 +2,17 @@
 title: 使用 Power BI 問與答視覺效果
 description: 如何設定 Power BI 問與答視覺效果
 author: mihart
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/19/2019
 ms.author: mohaali
-ms.openlocfilehash: a32c19f07a052aff74fec8062631ea8621d5de18
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 78a74d2d49ac9eabb7d63f467c9838d370d5c314
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72775922"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870847"
 ---
 # <a name="introduction-to-power-bi-qa-visual"></a>Power BI 問與答視覺效果簡介
 
@@ -38,7 +37,7 @@ ms.locfileid: "72775922"
 
 ## <a name="prerequisites"></a>先決條件
 
-1. 本教學課程使用[銷售與行銷範例 PBIX 檔案](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。 
+1. 本教學課程使用[銷售與行銷範例 PBIX 檔案](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。 
 
 1. 從 Power BI Desktop 功能表列的左上方區段，選取 [檔案]   > [開啟] 
    

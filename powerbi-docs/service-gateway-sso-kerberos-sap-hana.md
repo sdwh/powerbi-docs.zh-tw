@@ -3,19 +3,18 @@ title: 將 Kerberos 用於 SAP HANA 的單一登入 (SSO)
 description: 設定您的 SAP HANA 伺服器，以從 Power BI 服務啟用 SSO
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4985e241811558c90298e72cf82cbec634e23eaa
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: bf255e97bbce8360de6fba314ac181b7633e6db3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020823"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872353"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-hana"></a>將 Kerberos 用於 SAP HANA 的單一登入 (SSO)
 
@@ -55,7 +54,7 @@ ms.locfileid: "73020823"
 
 如需內部部署資料閘道和 DirectQuery 的詳細資訊，請參閱下列資源：
 
-* [什麼是內部部署的資料閘道？](/data-integration/gateway/service-gateway-getting-started)
+* [什麼是內部部署的資料閘道？](/data-integration/gateway/service-gateway-onprem)
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)
 * [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)

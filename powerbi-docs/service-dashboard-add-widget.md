@@ -2,7 +2,6 @@
 title: 將影像、影片和其他項目新增至儀表板
 description: 有關如何使用 [新增磚] 小工具將影像、影片、文字方塊、Web 程式碼和資料流資料磚新增至儀表板的文件。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93301625efda52aa69af172b29e7fbcd94b2a4dd
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020432"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853523"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>將影像、影片和其他項目新增至儀表板
 
@@ -246,5 +245,5 @@ ms.locfileid: "73020432"
 ## <a name="next-steps"></a>後續步驟
 [Power BI 設計工具的儀表板磚簡介](service-dashboard-tiles.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)。
 

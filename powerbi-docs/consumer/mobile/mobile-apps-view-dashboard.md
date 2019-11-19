@@ -2,19 +2,18 @@
 title: 在 Power BI 行動裝置應用程式中檢視儀表板和報表
 description: 建立或連線到 Power BI 服務中的儀表板和報表。 然後在 Power BI 行動裝置應用程式中檢視。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: b4c81e1c83ef53dcb16153b4e9996b259e9eb886
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059807"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870655"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視儀表板和報表
 適用於︰
@@ -40,7 +39,7 @@ ms.locfileid: "73059807"
 ## <a name="view-dashboards-on-your-iphone"></a>在 iPhone 上檢視儀表板
 1. 在您的 iPhone 上開啟 Power BI App 並登入。
    
-   需要從 Apple App Store [下載 iPhone 應用程式](http://go.microsoft.com/fwlink/?LinkId=522062)嗎？
+   需要從 Apple App Store [下載 iPhone 應用程式](https://go.microsoft.com/fwlink/?LinkId=522062)嗎？
 2. 點選以開啟儀表板。  
    
     ![點選儀表板](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
@@ -80,7 +79,7 @@ ms.locfileid: "73059807"
 ## <a name="view-dashboards-on-your-ipad"></a>在 iPad 上檢視儀表板
 1. 開啟 Power BI App。
    
-   需要先從 Apple App Store [下載 iPad 應用程式](http://go.microsoft.com/fwlink/?LinkId=522062)嗎？
+   需要先從 Apple App Store [下載 iPad 應用程式](https://go.microsoft.com/fwlink/?LinkId=522062)嗎？
 2. 點選應用程式頂端的 [儀表板]  。  
    
    ![儀表板首頁](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -103,7 +102,7 @@ ms.locfileid: "73059807"
 ## <a name="view-dashboards-on-your-android-phone"></a>在 Android 手機上檢視儀表板
 1. 在您的 Android 手機上開啟 Power BI App 並登入。
    
-   需要先[下載 Android 應用程式](http://go.microsoft.com/fwlink/?LinkID=544867)嗎？
+   需要先[下載 Android 應用程式](https://go.microsoft.com/fwlink/?LinkID=544867)嗎？
 2. 點選以開啟儀表板。   
    
    ![儀表板首頁](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -127,7 +126,7 @@ ms.locfileid: "73059807"
 ## <a name="view-dashboards-on-your-android-tablet"></a>在 Android 平板電腦上檢視儀表板
 1. 在您的 Android 平板電腦上開啟 Power BI 應用程式並登入。
    
-   需要先[下載 Android 應用程式](http://go.microsoft.com/fwlink/?LinkID=544867)嗎？
+   需要先[下載 Android 應用程式](https://go.microsoft.com/fwlink/?LinkID=544867)嗎？
 2. 點選以開啟儀表板。   
    
    ![儀表板首頁](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
@@ -154,8 +153,8 @@ ms.locfileid: "73059807"
 深入了解[建立儀表板的手機檢視](../../service-create-dashboard-mobile-phone-view.md)。
 
 ## <a name="next-steps"></a>後續步驟
-* 從 Google Play [下載 Android 應用程式](http://go.microsoft.com/fwlink/?LinkID=544867)  
+* 從 Google Play [下載 Android 應用程式](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [開始使用 Power BI 的 Android 應用程式](mobile-android-app-get-started.md)  
 * [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

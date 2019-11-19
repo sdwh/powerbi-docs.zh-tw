@@ -2,7 +2,6 @@
 title: 圖格錯誤的疑難排解
 description: 圖格在 Power BI 中嘗試進行重新整理時可能遇到的常見錯誤
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: dbae4c82fb350242ed0fefadeeec217666fc3005
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021542"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877495"
 ---
 # <a name="troubleshooting-tile-errors"></a>圖格錯誤的疑難排解
 以下是您在使用圖格時可能發生的常見錯誤和說明。
 
 > [!NOTE]
-> 如果您遇到以下未列出的錯誤，且其造成問題您的問題，可以在[社群網站](http://community.powerbi.com/)尋求進一步協助，也可以建立[支援票證](https://powerbi.microsoft.com/support/)。
+> 如果您遇到以下未列出的錯誤，且其造成問題您的問題，可以在[社群網站](https://community.powerbi.com/)尋求進一步協助，也可以建立[支援票證](https://powerbi.microsoft.com/support/)。
 > 
 > 
 
@@ -38,7 +37,7 @@ ms.locfileid: "73021542"
 
 **自訂視覺效果已由系統管理員停用。**
 
-您的 Power BI 系統管理員已為貴組織或安全性群組停用自訂視覺效果。 您將無法使用 [Microsoft marketplace](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) 的自訂視覺效果，或從檔案匯入私人視覺效果。 您僅可以使用預先封裝的視覺效果集。
+您的 Power BI 系統管理員已為貴組織或安全性群組停用自訂視覺效果。 您將無法使用 [Microsoft marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) 的自訂視覺效果，或從檔案匯入私人視覺效果。 您僅可以使用預先封裝的視覺效果集。
 
 
 **資料圖形必須包含至少一個群組或輸出資料的計算。請連絡儀表板擁有者。**
@@ -82,5 +81,5 @@ ms.locfileid: "73021542"
 ## <a name="next-steps"></a>後續步驟
 [為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)  
 [對 Power BI Personal Gateway 進行疑難排解](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

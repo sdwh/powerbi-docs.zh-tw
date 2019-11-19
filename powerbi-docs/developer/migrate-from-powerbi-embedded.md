@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: d06709f16beec025b99b69d82d5c17c248288004
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f55a9f1bfc9454c7d5a4ee3755a10f7cde1b0fd6
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429096"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73780934"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何將 Power BI 工作區集合內容遷移至 Power BI Embedded
 
@@ -207,4 +207,4 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 [工作區集合分析容量規劃白皮書](https://aka.ms/pbiewhitepaper)  
 [Power BI Premium 技術白皮書](https://aka.ms/pbipremiumwhitepaper)  
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

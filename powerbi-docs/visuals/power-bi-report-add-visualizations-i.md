@@ -2,7 +2,6 @@
 title: 第 1 部分：在 Power BI 報表中新增視覺效果
 description: 第 1 部分：在 Power BI 報表中新增視覺效果
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e25db5ab57e3a52ffc08020dc980553e515256bf
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: d68abc7b4509595d4dfa3071dc56673e6af89e4f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048904"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871059"
 ---
 # <a name="part-1-add-visualizations-to-a-power-bi-report"></a>第 1 部分：在 Power BI 報表中新增視覺效果
 
@@ -28,7 +27,7 @@ ms.locfileid: "73048904"
 
 ## <a name="prerequisites"></a>先決條件
 
-本教學課程使用[銷售與行銷 PBIX 檔案](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。
+本教學課程使用[銷售與行銷 PBIX 檔案](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。
 
 1. 從 Power BI Desktop 功能表列的左上方區段，選取 [檔案]   > [開啟] 
    

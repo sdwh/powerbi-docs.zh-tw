@@ -2,19 +2,18 @@
 title: 資料譜系 (預覽)
 description: 在新式商業智慧 (BI) 專案中，了解從資料來源到其目的地的資料流程，對許多客戶來說是重要挑戰。
 author: paulinbar
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: c2cc5f9da8ea12709d8244a1e82d8283f66f2413
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 774b8b19f8b199e1d98b2bd5e079b35f1a9a6935
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021025"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877354"
 ---
 # <a name="data-lineage-preview"></a>資料譜系 (預覽)
 在新式商業智慧 (BI) 專案中，了解從資料來源到其目的地的資料流程，可能是一項挑戰。 如果您已建置跨多個資料來源、成品和相依性的進階分析專案，挑戰就會更加艱鉅。  「如果我變更此資料會發生什麼事？」 或「為什麼這份報表不是最新的？」 之類的問題，可能會變得難以回答。 您可能會需要一組專家或是進行深入調查，才能回答這些問題。 我們設計了資料譜系檢視來協助您回答這些問題。

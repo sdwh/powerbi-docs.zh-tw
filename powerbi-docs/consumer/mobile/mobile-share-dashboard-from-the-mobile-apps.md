@@ -2,19 +2,18 @@
 title: 從 Power BI 行動裝置應用程式共用儀表板或報表
 description: 從 Power BI 行動裝置應用程式共用連結，以邀請其他人檢視您的儀表板和報表。 了解方法。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 6bd0b929bbf4fa7df0d13a3cc7e529bad708582e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 232d311e876a5fe01eb6c8091eb7a83669592cbf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017902"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879085"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>從 Power BI 行動裝置應用程式共用儀表板或報表
 適用於︰
@@ -147,5 +146,5 @@ ms.locfileid: "73017902"
 ## <a name="next-steps"></a>後續步驟
 * [在行動裝置應用程式中標註並共用圖格、報告或視覺效果的快照集](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [共用 Power BI 儀表板或報表](../../service-share-dashboards.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

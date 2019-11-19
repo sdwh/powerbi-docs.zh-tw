@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中使用複合模型
 description: 在 Power BI Desktop 中透過多個資料連線與多對多關聯性來建立資料模型
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: aef50d58dc11269c2c30010c1ca89843689f45c4
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c79994f2144dfe019c3ac10a51230d17b75b542e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017688"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876588"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>在 Power BI Desktop 中使用複合模型
 

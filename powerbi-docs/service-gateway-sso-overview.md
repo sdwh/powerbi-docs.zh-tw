@@ -3,19 +3,18 @@ title: Power BI 中閘道的單一登入 (SSO) 概觀
 description: 設定您的閘道以啟用從 Power BI 到內部部署資料來源的單一登入 (SSO)。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 53c35210878e442cfdec4d78a97bd76acc65e482
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 43394e8f09327ebcb858ff5644b30daee1793444
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020758"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872366"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI 中閘道的單一登入 (SSO) 概觀
 

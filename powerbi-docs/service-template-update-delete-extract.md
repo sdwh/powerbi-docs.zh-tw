@@ -2,19 +2,18 @@
 title: 更新、刪除及擷取 Power BI 範本應用程式
 description: 如何更新、刪除及擷取範本應用程式。
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: 8ed27d830e0bc779fc7ecb8e3aa8fde11b8d9c61
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432275"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871372"
 ---
 # <a name="update-delete-and-extract-template-app"></a>更新、刪除及擷取範本應用程式
 

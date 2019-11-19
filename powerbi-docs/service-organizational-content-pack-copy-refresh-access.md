@@ -2,7 +2,6 @@
 title: 整理有序的內容套件：存取及複製
 description: 閱讀以了解如何建立 Power BI 中組織內容套件的複本，以及對存取權疑難排解
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp, kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 605f942f2d19c7701d7146829e75fa282efcb0a5
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 905e461c69a898b41b45e48405c3aaaa6e09cfec
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020148"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881317"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>整理有序的內容套件：複製、重新整理及取得存取權
 
@@ -58,4 +57,4 @@ ms.locfileid: "73020148"
 ## <a name="next-steps"></a>後續步驟
 * [組織內容套件簡介](service-organizational-content-pack-introduction.md)
 * [在 Power BI 中建立群組](service-create-distribute-apps.md)
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

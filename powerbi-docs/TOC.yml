@@ -513,7 +513,7 @@
               href: service-interruption-notifications.md
         - name: 擴充 Power BI
           items:
-            - name: Microsoft Flow 和 Power BI
+            - name: Power Automate 與 Power BI
               href: service-flow-integration.md
             - name: 使用協力廠商應用程式
               href: service-power-bi-get-started-third-party-apps.md
@@ -989,7 +989,7 @@
               href: report-server/data-sources.md
             - name: 分頁報表資料來源
               href: report-server/connect-data-sources.md
-            - name: 訂用帳戶
+            - name: 訂閱
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
             - name: 使用行動裝置應用程式
               href: 'https://go.microsoft.com/fwlink/?linkid=848711'

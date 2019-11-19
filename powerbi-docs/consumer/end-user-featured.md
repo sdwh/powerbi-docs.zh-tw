@@ -2,7 +2,6 @@
 title: 選取當您開啟 Power BI 服務時要顯示的儀表板
 description: 如何在 Power BI 服務中建立精選儀表板的相關文件
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4f72a07d723a63291d59d6c3824c3616e97b686e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 412bcf397d550e002957e7379bf41381e8e3eea8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019847"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852541"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI 服務中的精選儀表板
 
@@ -67,5 +66,5 @@ ms.locfileid: "73019847"
    
 ## <a name="next-steps"></a>後續步驟
 - [將儀表板設為最愛](end-user-favorite.md)
-- 有其他問題嗎？ 試試 [Power BI 社群](http://community.powerbi.com/)。
+- 有其他問題嗎？ 試試 [Power BI 社群](https://community.powerbi.com/)。
 

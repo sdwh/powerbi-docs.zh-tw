@@ -3,19 +3,18 @@ title: 無法連絡 Power BI 支援人員
 description: 在使用者無法登入時，要建立 Power BI 案例的因應措施
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: bdac9b5d0377055d842ae4b64b914deb76660a41
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 37bb189f7792410ffdef30e79d36f94cc85478b4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021429"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874603"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>對 Power BI 的登入問題進行疑難排解
 
@@ -27,7 +26,7 @@ ms.locfileid: "73021429"
 
 ## <a name="engage-the-support-team"></a>洽詢支援小組
 
-首先，嘗試透過 [Power BI 支援頁面](https://powerbi.microsoft.com/en-us/support/) 來建立支援票證。
+首先，嘗試透過 [Power BI 支援頁面](https://powerbi.microsoft.com/support/) 來建立支援票證。
 
 若您無法瀏覽 Power BI 支援頁面，則請透過 [Office 365 (O365) 支援頁面](https://support.office.com/home/contact)來建立票證。
 
@@ -58,4 +57,3 @@ ms.locfileid: "73021429"
 您可前往以下幾個網站取得其他 Power BI 支援：
 
 * [Power BI Microsoft Docs](https://docs.microsoft.com/power-bi/)
-* [Creating Power BI Support Cases](https://blogs.msdn.microsoft.com/charles_sterling/2017/12/01/creating-power-bi-support-cases/) (建立 Power BI 支援案例)

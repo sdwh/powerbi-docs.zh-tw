@@ -3,18 +3,17 @@ title: Power BI 報表伺服器的變更記錄
 description: 此變更記錄適用於 Power BI 報表伺服器，並列出新的項目，以及每個發行組建的 Bug 修正。
 ms.author: jaimeta
 author: jtarquino
-manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/25/2019
-ms.openlocfilehash: 0a4aaa5d9fcb3d5dab6cce0b0c8dd6034581aedb
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922549"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874282"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -29,7 +28,7 @@ ms.locfileid: "72922549"
         - Bug 修正
             - 未安裝 .net framework 4.7 的修正程式。
             - 多重值參數的 Teradata 編頁報表錯誤 110083 修正程式。
-            - 如果有多個 Web 服務 URL 繫結，且其中一個為 http://+80/reportserver ，則 URLRoot 值無法正常執行的修正程式。
+            - 如果有多個 Web 服務 URL 繫結，且其中一個為 https://+80/reportserver ，則 URLRoot 值無法正常執行的修正程式。
           - 編頁報表多重值參數值顯示於報表區域外的修正程式。
           
     - *版本：1.6.7221.30698 (組建 15.0.1102.620)，發行日期：2019 年 10 月 9 日*
@@ -305,6 +304,6 @@ ms.locfileid: "72922549"
 [管理員概觀](admin-handbook-overview.md)  
 [安裝 Power BI 報表伺服器](install-report-server.md)  
 [下載報表產生器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下載 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[下載 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

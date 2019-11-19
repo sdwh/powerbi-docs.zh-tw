@@ -2,7 +2,6 @@
 title: 查看 Power BI Desktop 視覺效果中的資料和記錄
 description: 使用 Power BI Desktop 的查看資料和查看記錄功能向下鑽研詳細資料
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 667b6eac288d3be35eac619b669498b6d7381dc3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019257"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877779"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>使用 Power BI Desktop 中的查看資料和查看記錄
 在 **Power BI Desktop** 中，您可以向下鑽研到視覺效果的詳細資料，並查看所選視覺效果基底資料的文字表示或個別資料記錄。 這些功能有時稱為「按一下」  ，或「鑽研」  或「鑽研到詳細資料」  。

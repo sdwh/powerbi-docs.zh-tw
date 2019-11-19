@@ -2,19 +2,18 @@
 title: 在 Power BI 中撰寫範本應用程式的提示
 description: 有關如何撰寫查詢、資料模型、報表和儀表板，來製作高品質範本應用程式的提示
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 57d8da8bafb62f1f24598f5f0ef4cb5e3facd59b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432144"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099739"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中撰寫範本應用程式的提示
 
@@ -147,7 +146,7 @@ Power BI Desktop 中的[參數](https://powerbi.microsoft.com/blog/deep-dive-int
 | 資料來源 | 允許針對雲端排程的資料重新整理支援的資料來源。 <br>不支援： <li> DirectQuery</li><li>即時連線 (非 Azure AS)</li> <li>內部部署資料來源 (不支援個人和企業閘道)</li> <li>即時 (不支援推送資料集)</li> <li>複合模型</li></ul> |
 | 資料集：跨工作區 | 不允許跨工作區資料集  |
 | 查詢參數 | 不支援：資料集類型區塊重新整理作業的 "Any" 和 "Binary" 類型參數 |
-| 自訂視覺效果 | 只支援公開可用的自訂視覺效果。 不支援[組織自訂視覺效果](power-bi-custom-visuals-organization.md) |
+| 自訂視覺效果 | 只支援公開可用的自訂視覺效果。 不支援[組織自訂視覺效果](developer/power-bi-custom-visuals-organization.md) |
 
 ## <a name="next-steps"></a>後續步驟
 

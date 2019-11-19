@@ -3,18 +3,17 @@ title: 為您的內嵌應用程式進行疑難排解
 description: 本文探討您在從 Power BI 內嵌內容時，可能會遇到的幾個常見問題。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 5b9a0de8a3a9301219c15e5566854b591e79ba5e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4038ffdb9a3218c0b2f04dd524463235fa91b6b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429322"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864091"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -24,7 +23,7 @@ ms.locfileid: "73429322"
 
 ### <a name="fiddler-trace"></a>Fiddler 追蹤
 
-[Fiddler](http://www.telerik.com/fiddler) 是 Telerik 提供的免費工具，可用來監視 HTTP 流量。  您可以從用戶端電腦使用 Power BI API 來查看流量。 此工具可能會顯示錯誤與其他相關資訊。
+[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 提供的免費工具，可用來監視 HTTP 流量。  您可以從用戶端電腦使用 Power BI API 來查看流量。 此工具可能會顯示錯誤與其他相關資訊。
 
 ![Fiddler 追蹤](media/embedded-troubleshoot/fiddler.png)
 
@@ -80,7 +79,7 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 * Azure AD 驗證權杖過期。
 * 驗證的使用者不是群組 (工作區) 成員。
 * 驗證的使用者不是群組 (工作區) 系統管理員。
-* 已驗證的使用者不具有權限。 可以使用 [refreshUserPermissions API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions) 來更新權限
+* 已驗證的使用者不具有權限。 可以使用 [refreshUserPermissions API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) 來更新權限
 * 授權標頭可能未正確列出。 請確認沒有錯字。
 
 應用程式的後端必須先重新整理權杖，再呼叫 GenerateToken。
@@ -293,7 +292,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
     AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
 
-此錯誤是由於為網頁伺服器應用程式指定的重新導向 URL 與範例的 URL 不同所致。 如果您想要註冊範例應用程式，則請使用 `http://localhost:13526/` 作為重新導向 URL。
+此錯誤是由於為網頁伺服器應用程式指定的重新導向 URL 與範例的 URL 不同所致。 如果您想要註冊範例應用程式，則請使用 `https://localhost:13526/` 作為重新導向 URL。
 
 若您想編輯已註冊的應用程式，請了解如何[更新 Azure AD 註冊 的應用程式](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)，讓應用程式可提供 Web API 的存取權。
 
@@ -305,7 +304,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 如需詳細資訊，請參閱 [Power BI Embedded 常見問題集](embedded-faq.md)。
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 
 若需要進一步的協助，請[連絡客戶支援](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded)，或[透過 Azure 入口網站建立支援票證](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)，並提供您遇到的錯誤訊息。
 
@@ -313,4 +312,4 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 如需詳細資訊，請參閱[常見問題集](embedded-faq.md)。
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
