@@ -3,19 +3,18 @@ title: 使用 CommonCryptoLib (sapcrypto.dll) 將 Kerberos 單一登入用於 SA
 description: 使用 CommonCryptoLib (sapcrypto.dll) 設定您的 SAP BW 伺服器，以從 Power BI 服務啟用 SSO
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 97cae53e102538bba7ed969cefe0541d500c33bc
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 63b5abde7deb5f6d93fb7702f0b1244bd193a47d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020894"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872416"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>使用 CommonCryptoLib (sapcrypto.dll) 將 Kerberos 單一登入用於 SAP BW 的 SSO
 
@@ -31,7 +30,7 @@ ms.locfileid: "73020894"
 
 1. 請確定您的 BW 伺服器已使用 CommonCryptoLib 針對 Kerberos SSO 正確設定。 如果已正確設定，則可透過 SAP GUI 之類已設定為使用 CommonCryptoLib 的 SAP 工具，使用 SSO 來存取 BW 伺服器 (直接或透過 SAP BW 訊息伺服器)。 
 
-   如需設定步驟的詳細資訊，請參閱 [SAP Single Sign-On:Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/) (SAP 單一登入：使用 Kerberos/SPNEGO 進行驗證)。 您的 BW 伺服器應該使用 CommonCryptoLib 作為其 SNC 程式庫，並具有以 *CN=* 開頭的 SNC 名稱，例如 *CN=BW1*。 如需 SNC 名稱需求 (具體來說，是 snc/identity/as 參數) 的詳細資訊，請參閱 [Kerberos 設定的 SNC 參數](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/en-US/360534094511490d91b9589d20abb49a.html)。
+   如需設定步驟的詳細資訊，請參閱 [SAP Single Sign-On:Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/) (SAP 單一登入：使用 Kerberos/SPNEGO 進行驗證)。 您的 BW 伺服器應該使用 CommonCryptoLib 作為其 SNC 程式庫，並具有以 *CN=* 開頭的 SNC 名稱，例如 *CN=BW1*。 如需 SNC 名稱需求 (具體來說，是 snc/identity/as 參數) 的詳細資訊，請參閱 [Kerberos 設定的 SNC 參數](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html)。
 
 1. 如果您尚未這麼做，請在已安裝閘道的電腦上安裝 [SAP .NET 連接器](https://support.sap.com/en/product/connectors/msnet.html)的 x64 版本。 
    

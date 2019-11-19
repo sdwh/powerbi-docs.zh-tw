@@ -3,19 +3,18 @@ title: 搭配 Power BI 的服務主體
 description: 了解如何在 Azure Active Directory 內使用服務主體來註冊應用程式，以與內嵌 Power BI 內容搭配使用。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: d8e1edc7d9d474911e7e7a58c2c7da728358845c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9bbba47456d9c5bed5c8cd77858b6dbaeefce5a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429262"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877668"
 ---
 # <a name="service-principal-with-power-bi"></a>搭配 Power BI 的服務主體
 
