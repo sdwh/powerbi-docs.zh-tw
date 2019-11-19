@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 8a48ec007f2d8c9c07de5cc0d51049e3dbf19662
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 06901a484ca53881f30cc71d9a7404807ac6cd57
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269322"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429129"
 ---
 # <a name="power-bi-permissions"></a>Power BI 權限
 
@@ -42,7 +42,7 @@ Power BI 權限可賦予應用程式代表使用者採取某些動作。 所有�
 應用程式可以在第一次嘗試登入使用者頁面時，藉由在呼叫的範圍參數中，傳遞所要求權限來要求權限。 若授與權限，將會傳回存取權杖給應用程式，供後續的 API 呼叫使用。 只有特定應用程式才可使用此存取權。
 
 > [!NOTE]
-> Power BI API 仍然將應用程式工作區稱為群組。 任何對群組的引述都表示您處理的是應用程式工作區。
+> Power BI API 仍然將工作區稱為群組。 任何對群組的參考都表示您正在使用工作區。
 
 ## <a name="requesting-permissions"></a>要求權限
 

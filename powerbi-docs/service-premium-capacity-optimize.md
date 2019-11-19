@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: fc983fe9027f6d94c5394d524a6417a64719a8ac
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750927"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431698"
 ---
 # <a name="optimizing-premium-capacities"></a>最佳化 Premium 容量
 
@@ -33,7 +33,7 @@ ms.locfileid: "70750927"
 
 嘗試取得最佳的使用率和效能時，有一些建議的最佳做法，包括：
 
-- 使用應用程式工作區，而不是個人工作區。
+- 使用工作區，而不是個人工作區。
 - 將商務關鍵性和自助 BI (SSBI) 分隔成不同的容量。
 
   ![將商務關鍵性和自助 BI 分隔成不同的容量](media/service-premium-capacity-optimize/separate-capacities.png)

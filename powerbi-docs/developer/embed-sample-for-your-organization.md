@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 15c16e2e065148666eee6c67a511c5e412bc334e
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237402"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431075"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 內容內嵌至應用程式
 
@@ -45,7 +45,7 @@ ms.locfileid: "70237402"
 
 在您開始將報表、儀表板或磚內嵌至您的應用程式之前，必須先確定您的環境允許使用 Power BI 內嵌。
 
-您可以瀏覽[內嵌設定工具](https://aka.ms/embedsetup/UserOwnsData)，即可快速開始使用及下載範例應用程式，協助您逐步建立環境及內嵌報表。 在內嵌編頁報表的案例中，您需要指派至少 P1 容量給所建立的應用程式工作區。
+您可以瀏覽[內嵌設定工具](https://aka.ms/embedsetup/UserOwnsData)，即可快速開始使用及下載範例應用程式，協助您逐步建立環境及內嵌報表。 在內嵌編頁報表的案例中，您需要指派至少 P1 容量給所建立的工作區。
 
 若選擇手動設定環境，您可以繼續進行下列步驟。
 
@@ -57,13 +57,13 @@ ms.locfileid: "70237402"
 
 ## <a name="set-up-your-power-bi-environment"></a>設定您的 Power BI 環境
 
-### <a name="create-an-app-workspace"></a>建立應用程式工作區
+### <a name="create-a-workspace"></a>建立工作區
 
-如果您要為客戶內嵌報表、儀表板或磚，就必須將您的內容放在應用程式工作區內。 有不同類型的工作區可供您設定：[傳統工作區](../service-create-workspaces.md)或[新工作區](../service-create-the-new-workspaces.md)。
+如果要為客戶內嵌報表、儀表板或磚，就必須將您的內容放在工作區內。 有不同類型的工作區可供您設定：[傳統工作區](../service-create-workspaces.md)或[新工作區](../service-create-the-new-workspaces.md)。
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>建立並發佈您的 Power BI 報表
 
-您可以使用 Power BI Desktop 來建立您的報表和資料集。 然後您可以將那些報表發佈到應用程式工作區。 發佈報表的終端使用者必須有 Power BI Pro 授權，才能發佈至應用程式工作區。
+您可以使用 Power BI Desktop 來建立您的報表和資料集。 然後您可以將那些報表發佈到工作區。 發佈報表的終端使用者必須有 Power BI Pro 授權，才能發佈至工作區。
 
 1. 從 GitHub 下載範例[示範](https://github.com/Microsoft/powerbi-desktop-samples)。
 
@@ -73,7 +73,7 @@ ms.locfileid: "70237402"
 
    ![範例 Power BI Desktop 報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
 
-3. 發佈至應用程式工作區。
+3. 發佈至工作區。
 
    ![發佈 Power BI Desktop 報表](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
 
@@ -83,7 +83,7 @@ ms.locfileid: "70237402"
    
 ### <a name="create-and-publish-your-paginated-reports"></a>建立並發佈您的編頁報表
 
-您可以使用 [Power BI 報表產生器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)來建立編頁報表。 然後，您可以[上傳報表](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)到至少指派 P1 容量的應用程式工作區。 上傳報表的終端使用者需要擁有 Power BI Pro 授權才能發佈至應用程式工作區。
+您可以使用 [Power BI 報表產生器](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)來建立編頁報表。 然後，您可以[上傳報表](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)到至少指派 P1 容量的工作區。 上傳報表的終端使用者需要擁有 Power BI Pro 授權才能發佈至工作區。
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>使用範例應用程式來內嵌內容
 
@@ -130,7 +130,7 @@ ms.locfileid: "70237402"
 
 ### <a name="workspace-id"></a>工作區識別碼
 
-在 **workspaceId** 資訊中，填入來自 Power BI 的應用程式工作區 (群組) GUID。 您可以在登入 Power BI 服務時從 URL，或使用 Powershell 取得這項資訊。
+在 **workspaceId** 資訊中，填入來自 Power BI 的工作區 (群組) GUID。 您可以在登入 Power BI 服務時從 URL，或使用 Powershell 取得這項資訊。
 
 URL <br>
 
@@ -376,11 +376,11 @@ function updateEmbedReport() {
 
 ## <a name="using-a-power-bi-premium-dedicated-capacity"></a>使用 Power BI Premium 專用容量
 
-現在您已完成應用程式的開發，就可以為您的應用程式工作區配置專用容量。
+現在您已完成應用程式的開發，即可為工作區配置專用容量。
 
 ### <a name="create-a-dedicated-capacity"></a>建立專用容量
 
-建立專用容量，您應用程式工作區中的內容即可享有專用資源。 針對編頁報表，您必須使用至少 P1 容量來備份您的應用程式工作區。 您可以使用 [Power BI Premium](../service-premium-what-is.md) 建立專用容量。
+藉由建立專用容量，您工作區中的內容即可享有專用資源。 針對編頁報表，您必須使用至少 P1 容量來支援工作區。 您可以使用 [Power BI Premium](../service-premium-what-is.md) 建立專用容量。
 
 下表列出 [Microsoft Office 365](../service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
 
@@ -399,9 +399,9 @@ function updateEmbedReport() {
 > - 當您嘗試使用 Microsoft Office 應用程式進行內嵌時，您可以搭配免費的 Power BI 授權，使用 EM SKU 來存取內容。 但是，您無法在使用 Powerbi.com 或 Power BI 行動版時，搭配免費的 Power BI 授權來存取內容。
 > - 當您嘗試透過利用 Powerbi.com 或 Power BI 行動版，使用 Microsoft Office 應用程式來進行內嵌時，您可以使用免費 Power BI 授權來存取內容。
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>將應用程式工作區指派至專用容量
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>將工作區指派至專用容量
 
-建立專用容量之後，您可以將應用程式工作區指派到該專用容量。 若要完成此處理序，請遵循下列步驟：
+建立專用容量之後，您可以將工作區指派至該專用容量。 若要完成此處理序，請遵循下列步驟：
 
 1. 在 Power BI 服務中，展開工作區，然後選取用於內嵌內容工作區的省略符號。 然後選取 [編輯工作區]  。
 
@@ -411,9 +411,9 @@ function updateEmbedReport() {
 
     ![指派專用容量](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. 在您選取 [儲存]  後，應該會在應用程式工作區名稱的旁邊看到一個鑽石。
+3. 在您選取 [儲存]  後，應該會在工作區名稱的旁邊看到一個鑽石。
 
-    ![繫結至容量的應用程式工作區](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
+    ![繫結至容量的工作區](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
 ## <a name="admin-settings"></a>管理員設定
 

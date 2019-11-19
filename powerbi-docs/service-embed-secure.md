@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3c6dc26ee1cf806ff85a9452c024e7ccbd210a25
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: d140e39cdd30f5e2078f24c55fda5ea7040e0ad4
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867098"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431873"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全入口網站或網站中內嵌報告
 
@@ -49,7 +49,7 @@ ms.locfileid: "68867098"
 
 [內嵌]  選項不會自動允許使用者檢視報表。 您可以在 Power BI 服務中設定檢視權限。
 
-在 Power BI 服務中，您可以與需要存取的使用者共用內嵌報表。 若您正在使用 Office 365 群組，您可以將使用者列出為應用程式工作區的成員。 如需詳細資訊，請參閱如何[在 Power BI 和 Office 365 中管理您的應用程式工作區](service-manage-app-workspace-in-power-bi-and-office-365.md)。
+在 Power BI 服務中，您可以與需要存取的使用者共用內嵌報表。 若您正在使用 Office 365 群組，您可將使用者列為工作區的成員。 如需詳細資訊，請參閱如何[在 Power BI 和 Office 365 中管理工作區](service-manage-app-workspace-in-power-bi-and-office-365.md)。
 
 ## <a name="licensing"></a>授權
 

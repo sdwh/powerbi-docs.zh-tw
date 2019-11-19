@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 08d66df2456917c09b6b0c1d9c40e2de47f53fa5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 5b9a0de8a3a9301219c15e5566854b591e79ba5e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543915"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429322"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -78,8 +78,8 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 
 * 使用者已超過共用容量上可產生的內嵌權杖數量。 購買 Azure 容量來產生內嵌權杖，並將工作區指派給該容量。 請參閱[在 Azure 入口網站中建立 Power BI Embedded 容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)。
 * Azure AD 驗證權杖過期。
-* 驗證的使用者不是群組 (應用程式工作區) 的成員。
-* 驗證的使用者不是群組 (應用程式工作區) 的系統管理員。
+* 驗證的使用者不是群組 (工作區) 成員。
+* 驗證的使用者不是群組 (工作區) 系統管理員。
 * 已驗證的使用者不具有權限。 可以使用 [refreshUserPermissions API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions) 來更新權限
 * 授權標頭可能未正確列出。 請確認沒有錯字。
 

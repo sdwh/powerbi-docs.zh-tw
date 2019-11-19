@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 63c10a0507b5e484ac4c104a5a1e83f5dd411d9d
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 00b8ece26a5440128e62d77e3e9100f58f4d584c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523268"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430935"
 ---
 # <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>在 Power BI Desktop (搶鮮版 (Beta)) 中連線到 Power BI 資料流程所建立的資料
 在 **Power BI Desktop** 中，您可以連線至 **Power BI 資料流程**建立的資料，就像連線到 Power BI Desktop 中的任何其他資料來源一樣。
@@ -40,7 +40,7 @@ ms.locfileid: "68523268"
 
 大部分資料流程位於 Power BI 服務租用戶中。 但是，**Power BI Desktop** 使用者無法存取儲存在 Azure Data Lake Storage Gen2 帳戶中的資料流程，除非他們是資料流程的擁有者，或已獲得資料流程之 CDM 資料夾的明確授權。 請考慮下列情況：
 
-1.  Anna 建立新的應用程式工作區，並將它設定成在組織的 Data Lake 中儲存資料流程。
+1.  Anna 建立新的工作區，並將其設定成在組織的 Data Lake 中儲存資料流程。
 2.  Ben 是 Anna 所建立之工作區的成員，他想要使用 Power BI Desktop 和資料流程連接器，從 Anna 建立的資料流程取得資料。
 3.  Ben 會收到錯誤，這是因為其未作為授權使用者新增至該資料流程在 Data Lake 中的 CDM 資料夾。
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 433bfc6298632eb9b999a23fe4b54417add507a3
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 53ea3444be75b32390789205ab96c87fa8ff2ce6
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61339242"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017842"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>在 Power BI 行動應用程式中建立及檢視我的最愛項目
 適用於︰
@@ -44,7 +44,7 @@ ms.locfileid: "61339242"
   ![我的最愛頁面](./media/mobile-apps-favorites/power-bi-ipad-favorites.png)
 
 ## <a name="make-an-app-a-favorite"></a>將應用程式設為我的最愛
-1. 在行動應用程式的應用程式清單中，點選應用程式旁邊的省略符號 (...) > [我的最愛]  。
+1. 在行動應用程式的應用程式清單中，點選應用程式旁邊的 [更多選項]  (...) > [我的最愛]  。
    
     ![應用程式的我的最愛功能表](./media/mobile-apps-favorites/power-bi-android-favorite-app-ellipsis.png)
    
@@ -65,7 +65,7 @@ ms.locfileid: "61339242"
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>在 Android 行動應用程式中將儀表板或報表設為我的最愛
 您可以從儀表板或報表清單，或是從儀表板或報表本身，將儀表板或報表設為我的最愛。
 
-* 在行動應用程式的儀表板或報表清單中，點選名稱旁邊的垂直省略符號 (...)，然後點選 [我的最愛]  。 您會在名稱旁看到黃色星號 ![[我的最愛] 圖示](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)。
+* 在行動應用程式的儀表板或報表清單中，點選名稱旁邊垂直的 [更多選項]  (...)，然後點選 [我的最愛]  。 您會在名稱旁看到黃色星號 ![[我的最愛] 圖示](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)。
   
     ![Android 的 [我的最愛] 功能表](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 * 在儀表板或報表上，點選功能區中的空心星號 ![[不是我的最愛] 圖示](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 星號會變成暗灰色 ![[我的最愛] 圖示](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).

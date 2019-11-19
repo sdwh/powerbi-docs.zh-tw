@@ -1,6 +1,6 @@
 ---
 title: 從應用程式內嵌報表或儀表板
-description: 了解如何從 Power BI 應用程式，而不是從應用程式工作區，整合或內嵌報表或儀表板。
+description: 了解如何從 Power BI 應用程式，而不是從工作區，整合或內嵌報表或儀表板。
 author: rkarlin
 ms.author: rkarlin
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.custom: mvc
 manager: kfile
 ms.date: 11/27/2018
-ms.openlocfilehash: 5a988eb160ce772d2c2e70e8cba2c01d3f0a36a9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 1883d82b47c32f3c7f03e55a177429d09ce337a2
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750892"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430846"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>從應用程式內嵌報表或儀表板
 
@@ -42,7 +42,7 @@ ms.locfileid: "66750892"
 
 ## <a name="next-steps"></a>後續步驟
 
-檢閱如何從應用程式工作區為協力廠商客戶和組織內嵌：
+檢閱如何從工作區為協力廠商客戶和組織內嵌：
 
 > [!div class="nextstepaction"]
 >[為協力廠商客戶內嵌](embed-sample-for-customers.md)

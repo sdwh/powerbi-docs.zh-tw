@@ -1,37 +1,39 @@
 ---
 title: 購買及指派 Power BI Pro 授權
-description: 了解如何購買及指派 Power BI Pro 授權，讓您的使用者可以存取 Power BI 服務中的所有內容和功能。
+description: 了解如何購買及指派 Power BI Pro 使用者授權，讓您的使用者可以存取 Power BI 服務中的內容，並在其中與同事共同作業。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: quickstart
-ms.date: 09/09/2019
+ms.date: 10/29/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 9e7cd025388a5ae21b73fe05fca0e1c8433b562d
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 31739cee4371a8991f8c88e6ba67bfb48878a33c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074888"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431402"
 ---
-# <a name="purchase-and-assign-power-bi-pro-licenses"></a>購買及指派 Power BI Pro 授權
+# <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>購買及指派 Power BI Pro 使用者授權
 
-Power BI Pro 是個別的授權，允許存取 Power BI 服務中的所有內容和功能，包括能與其他 Pro 使用者分享內容和共同作業。 只有 Pro 使用者能將內容發佈到應用程式工作區、共用儀表板，以及訂閱儀表板和報表。 如需詳細資訊，請參閱[依授權類型排列的 Power BI 功能](service-features-license-type.md)。
+Power BI Pro 是一種個別使用者授權，可允許使用者讀取及和其他使用者在 Power BI 服務中發佈的報表與儀表板互動，並與其他 Power BI Pro 使用者共用內容和共同作業。 只有具備 Power BI Pro 使用者授權的使用者才能發佈或和其他使用者共用內容，或取用由其他使用者建立的內容，除非該內容是裝載在 Power BI Premium 容量中。 如需詳細資訊，請參閱[依授權類型排列的 Power BI 功能](service-features-license-type.md)。
 
-本文先說明如何在 Office 365 中購買 Power BI Pro 授權。 文章接著會說明您可用來將那些授權指派給個人使用者的兩個選項：Office 365 和 Azure (選擇一個選項)。
+## <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>購買及指派 Power BI Pro 使用者授權
 
-## <a name="prerequisites"></a>先決條件
+本文說明如何在 Microsoft 365 系統管理中心中購買 Power BI Pro 使用者授權，接著會說明系統管理員用來將那些授權指派給個別使用者時的兩個選項：在 Microsoft 365 系統管理中心及 Azure 入口網站 (選擇一個選項)。
 
-您必須是 Office 365 中[**全域管理員**或**計費管理員**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)角色的成員。
+### <a name="prerequisites"></a>先決條件
 
-若要在 Azure 中指派授權，針對 Power BI 用於 Active Directory 查詢的 Azure 訂用帳戶，您必須是訂用帳戶的擁有者。
+若要在 Microsoft 365 系統管理中心內購買和指派授權，您必須是 Microsoft 365 中 **[全域管理員或計費管理員](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)** 角色的成員。
 
-## <a name="purchase-licenses-in-office-365"></a>在 Office 365 中購買授權
+若要在 Azure 入口網站中指派授權，您必須是 Power BI 針對 Azure Active Directory 查閱所使用 Azure 訂用帳戶的擁有者。
 
-請遵循以下步驟來購買 Power BI Pro 授權：
+### <a name="purchase-licenses-in-microsoft-365"></a>在 Microsoft 365 中購買授權
+
+請遵循下列步驟以在 Microsoft 365 系統管理中心內購買 Power BI Pro 授權：
 
 1. 開啟 [MIcrosoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
@@ -67,7 +69,7 @@ Power BI Pro 是個別的授權，允許存取 Power BI 服務中的所有內容
 
 9. 若要在初次購買之後新增更多授權，請從 [訂閱]  頁面選取 [Power BI Pro]  ，然後取 [新增/移除授權]  。
 
-## <a name="assign-licenses-in-office-365"></a>在 Office 365 中指派授權
+### <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>在 Microsoft 365 系統管理中心內指派授權
 
 按照以下步驟操作，將 Power BI Pro 授權指派給個別使用者帳戶：
 
@@ -89,7 +91,7 @@ Power BI Pro 是個別的授權，允許存取 Power BI 服務中的所有內容
 
     ![確認授權狀態](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-08.png)
 
-## <a name="assign-licenses-in-azure"></a>在 Azure 中指派授權
+### <a name="assign-licenses-in-the-azure-portal"></a>在 Azure 入口網站中指派授權
 
 按照以下步驟操作，將 Power BI Pro 授權指派給個別使用者帳戶：
 
@@ -107,7 +109,7 @@ Power BI Pro 是個別的授權，允許存取 Power BI 服務中的所有內容
 
     ![授權 - 所有產品](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-03.png)
 
-5. 選取 [指派]  將 Power BI Pro 授權新增至其他使用者帳戶。
+5. 選取 [指派]  來將 Power BI Pro 授權新增至使用者帳戶。
 
     ![指派授權](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-04.png)
 

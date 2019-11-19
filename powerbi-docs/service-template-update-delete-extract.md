@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: 2cf655c25bb58ec001bac52b55aea74f887f08d9
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: 8ed27d830e0bc779fc7ecb8e3aa8fde11b8d9c61
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207644"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432275"
 ---
 # <a name="update-delete-and-extract-template-app"></a>更新、刪除及擷取範本應用程式
 
@@ -65,7 +65,7 @@ ms.locfileid: "71207644"
 新的工作區版本設定會重設，您可以繼續從新擷取的工作區開發和散發範本應用程式。
 
 ## <a name="delete-template-app-version"></a>刪除範本應用程式版本
-範本應用程式工作區是使用中分散式範本應用程式的來源。 為了保護範本應用程式使用者，若未先移除工作區中建立的所有應用程式版本，便無法刪除工作區。
+範本工作區是使用中分散式範本應用程式的來源。 為了保護範本應用程式使用者，若未先移除工作區中建立的所有應用程式版本，便無法刪除工作區。
 刪除應用程式版本時，也會刪除無法再運作的應用程式 URL。
 
 1. 在 [發行管理] 窗格中，按下選取省略符號 [(...)]  ，然後按 [刪除]  。

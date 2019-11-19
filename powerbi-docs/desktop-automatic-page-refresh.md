@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 546dffe20d6840544eca1360945482630a686069
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: e694add3fd275cc2d3e9e0e6799adc9a16f32bbd
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307976"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429922"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop 自動重新整理頁面 (預覽)
 
@@ -112,7 +112,7 @@ Power BI Desktop 沒有重新整理間隔的限制；其重新整理間隔可以
 
 在共用的容量中，工作負載是在與其他客戶共用的計算資源上執行。 由於容量必須共用資源，因此會有限制，以確保公平使用  ，例如設定最大模型大小 (1 GB) 與每日重新整理頻率上限 (每天 8 次)。
 
-Power BI **工作區**位於容量內，而且它們代表安全性、共同作業和部署容器。 每個 Power BI 使用者都有個人工作區，稱為**我的工作區**。 可建立額外的工作區來啟用共同作業和部署，這些工作區稱為**應用程式工作區**。 根據預設，工作區 (包括個人工作區) 是在**共用容量**中建立的。
+Power BI **工作區**位於容量內，而且它們代表安全性、共同作業和部署容器。 每個 Power BI 使用者都有個人工作區，稱為**我的工作區**。 可建立額外的工作區來啟用共同作業和部署，這些額外的工作區稱為**工作區**。 根據預設，工作區 (包括個人工作區) 是在**共用容量**中建立的。
 
 以下是這兩個工作區案例的一些詳細資料：
 

@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0492b797d75e29145c14a70d8a8058bad295ef18
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 428e392994a1b6934bf78d9cccbee1821744a622
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994952"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020227"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>使用 Power BI 自動產生資料見解
 您有新資料集，但不太確定要從何處著手？  需要快速建置儀表板嗎？  想要尋找您可能錯失的深入解析嗎？
@@ -38,7 +38,7 @@ ms.locfileid: "68994952"
 
 現在換您試試看。 使用[供應商品質分析範例](sample-supplier-quality.md)探索見解。
 
-1. 從 [資料集]  索引標籤，選取省略符號 (...)，然後選擇 [取得快速見解]  。
+1. 從 [資料集]  索引標籤，選取 [更多選項]  (...)，然後選擇 [取得快速見解]  。
    
     ![[資料集] 索引標籤](media/service-insights/power-bi-ellipses.png)
    
@@ -62,7 +62,7 @@ ms.locfileid: "68994952"
 
 1. 將滑鼠暫留在卡片上，然後選取釘選圖示，已將視覺效果新增至儀表板。
 
-2. 將游標停留在卡片上方，選取省略符號 (...)，然後選擇 [檢視見解]  。 
+2. 將游標暫留在卡片上方，選取 [更多選項]  (...)，然後選擇 [檢視見解]  。 
 
     隨即在焦點模式中開啟見解畫面。
    
@@ -86,7 +86,7 @@ ms.locfileid: "68994952"
 不要搜尋針對整個資料集的見解，而是縮小搜尋範圍來對資料進行定義範圍的見解，該資料用於建立單一儀表板磚。 
 
 1. 開啟儀表板。
-2. 將游標停留在磚上方， 選取省略符號 (...)，然後選擇 [檢視見解]  。 隨即在[焦點模式](service-focus-mode.md)中開啟磚，而深入解析卡片會沿著右側顯示。    
+2. 將游標停留在磚上方， 選取 [更多選項]  (...)，然後選擇 [檢視見解]  。 隨即在[焦點模式](service-focus-mode.md)中開啟磚，而深入解析卡片會沿著右側顯示。    
    
     ![焦點模式](media/service-insights/pbi-insights-tile.png)    
 3. 一個深入剖析是否引起您的興趣？ 選取該資訊摘要卡片可挖掘更深入的資料。 選取的資訊摘要會顯示於左側，只以該單一資訊摘要中資料為依據的新資訊摘要卡片則沿著右側顯示。    

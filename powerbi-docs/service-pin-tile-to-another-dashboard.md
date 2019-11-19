@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d4e9c095dc0114ec3b5fe2fdd6d52fd25aa76d97
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61225844"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020108"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>將儀表板的圖格釘選到另一個儀表板
 加入新[儀表板磚](consumer/end-user-tiles.md)的一種方法是從另一個儀表板複製過來。 每個圖格都是一個連結，按一下就會返回其建立位置，問與答或報表。 
@@ -26,7 +26,7 @@ ms.locfileid: "61225844"
 ## <a name="pin-a-tile-to-another-dashboard"></a>將磚釘選到另一個儀表板
 1. [取得資料](service-get-data.md). 本範例使用 [IT 費用分析範例](sample-it-spend.md)。
 2. 開啟[儀表板](consumer/end-user-dashboards.md).
-3. 將滑鼠停留在要釘選的圖格上，選取省略符號 (...)，然後選擇 [釘選圖示]  。  
+3. 將滑鼠暫留在要釘選的磚上、選取 [更多選項]  (...)，然後選擇 [釘選磚]  。  
    
    ![省略符號功能表](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. 將磚釘選至現有的儀表板或新的儀表板上。 

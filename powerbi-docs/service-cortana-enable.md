@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: b1792abeed1a4a03cb8e3f49acb4ed8aa53b1be0
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375141"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020509"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>允許 Cortana 存取 Power BI 報表 (和其基礎資料集)
 您已經讀過 [Cortana 及 Power BI 簡介](service-cortana-intro.md) (如果沒有，您可能要先讀過後再回來)。 而現在，您會想要親自試試。  您在 Cortana 中詢問自然語言問題，並從儲存在 Power BI 報表中的資料尋找答案之前，有幾項要求。 具體來說，您必須執行下列作業。
 
 > [!IMPORTANT]
-> Cortana 整合已被取代，在 Power BI 中。 從 6 月 11 日，Cortana 將不再適用於任何儀表板和報表。
+> Cortana 整合在 Power BI 中即將淘汰。 自 6 月 11 日起，Cortana 將無法再用於任何儀表板和報表。
 
 在 Power BI 服務中
 
@@ -42,7 +42,7 @@ ms.locfileid: "66375141"
 2. 與此報表建立關聯的資料集是 **Contoso Sales**。
    
     ![Contoso Sales 資料集](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. 在資料集名稱的右邊，選取省略符號 (...) > [設定]  。  
+3. 在資料集名稱的右邊，選取 [更多選項]  (...) > [設定]**。  
    
     ![選擇 [設定]](media/service-cortana-enable/power-bi-settings-cortana.png)
 4. 選取 \[Q&A and Cortana] \(問與答及 Cortana)   > [允許 Cortana 存取此資料集]   > [套用]  。

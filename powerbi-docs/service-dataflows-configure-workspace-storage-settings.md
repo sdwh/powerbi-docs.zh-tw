@@ -1,6 +1,6 @@
 ---
 title: 設定工作區資料流程設定
-description: 在 Power BI 中設定應用程式工作區，來將其資料流程定義和資料檔儲存在 Azure Data Lake Storage Gen2 中
+description: 在 Power BI 中設定工作區以將其資料流程定義和資料檔儲存在 Azure Data Lake Storage Gen2 中
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 54c0936510c3d383df32fd8b1f99816726f74d9f
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523505"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431997"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>設定工作區資料流程設定 (預覽)
 
@@ -35,11 +35,11 @@ ms.locfileid: "68523505"
 
 ## <a name="create-a-new-workspace-configure-its-dataflow-storage"></a>建立新的工作區，設定其資料流程儲存體
 
-若要在 Power BI 服務中建立新的應用程式工作區，請選取 [工作區] > [建立應用程式工作區]  。
+若要在 Power BI 服務中建立新的工作區，請選取 [工作區] > [建立工作區]  。
 
 ![新增工作區](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_01.jpg)
 
-在 [建立應用程式工作區] 對話方塊中，可能會出現標題為 [預覽改進的工作區]  的黃色方塊。 在該區域中，選取 [立即試用]  。
+在 [建立工作區] 對話方塊中，可能會出現標題為 [預覽改善的工作區]  的黃色方塊。 在該區域中，選取 [立即試用]  。
 
 ![預覽改進的工作區](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
@@ -47,7 +47,7 @@ ms.locfileid: "68523505"
 
 ![命名您的新工作區](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
 
-接下來，請展開 [建立應用程式工作區]  對話方塊的 [進階]  區域，您將可以在那裡開啟 [資料流程儲存體 (預覽)]  設定。
+接下來，請展開 [建立工作區]  對話方塊的 [進階]  區域，您可在那裡開啟 [資料流程儲存體 (預覽)]  設定。)
 
 ![適用於新工作區的 [進階] 設定](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
@@ -57,7 +57,7 @@ ms.locfileid: "68523505"
 
 除了建立新的工作區之外，您可以更新現有的工作區，以將定義檔案和資料儲存在您組織的 Azure Data Lake Storage Gen2 帳戶中。 請記得資料流程儲存體設定只能在工作區尚未包含資料流程的情況下變更。
 
-若要編輯應用程式工作區，請選取省略符號 **(...)** ，然後選取 [編輯工作區]  。 
+若要編輯工作區，請選取省略符號 **(…)** ，然後選取 [編輯工作區]  。 
 
 ![編輯工作區](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
@@ -103,7 +103,7 @@ Power BI Pro、Premium 和 Embedded 工作區：
 
 **Power BI Desktop** 客戶無法存取儲存在 Azure Data Lake Storage Gen2 帳戶中的資料流程，除非他們是該資料流程的擁有者。 請考慮下列情況：
 
-1.  Anna 建立新的應用程式工作區，並將它設定成在組織的 Data Lake 中儲存資料流程。
+1.  Anna 建立新的工作區，並將其設定成在組織的 Data Lake 中儲存資料流程。
 2.  Ben 是 Anna 所建立之工作區的成員，他想要使用 Power BI Desktop 和資料流程連接器，從 Anna 建立的資料流程取得資料。
 3.  Ben 會收到錯誤，因為 Ben 並未新增為該資料流程在 Data Lake 中 CDM 資料夾的授權使用者。
 

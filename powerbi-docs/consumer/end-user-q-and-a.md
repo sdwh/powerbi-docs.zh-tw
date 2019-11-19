@@ -3,26 +3,44 @@ title: Power BI 取用者問與答
 description: Power BI 問與答自然語言查詢的文件概觀主題。
 author: mihart
 manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
+ms.reviewer: mohammad ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/25/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9960ebe11271eea34245250ef5701e9a94bba744
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 8c39d64619018d01c436ddb1478881f15480bab6
+ms.sourcegitcommit: 8e28280d9d4d6034d28e2f635af2b765edc282ba
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67408458"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "72793960"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI **取用者**問與答
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 ## <a name="what-is-qa"></a>問與答是什麼？
 有時若要從您的資料獲得解答，最快的方法是使用自然語言詢問問題。 例如，「去年總銷售額是多少」。
 
 使用問與答來探索資料，可使用直覺式的自然語言功能，並以圖表和圖形形式接收回應。 問與答不同於搜尋引擎 -- 問與答只會提供有關 Power BI 中資料的結果。
+
+## <a name="which-visualization-does-qa-use"></a>問與答會使用哪一種視覺效果？
+問與答會根據要顯示的資料挑選最佳視覺效果。 有時在基礎資料集中資料的定義是特定類型或類別，這有助於問與答知道要如何加以顯示。 例如，如果將資料定義為日期類型，則較有可能顯示為折線圖。 分類為城市的資料比較有可能顯示為地圖。
+
+您也可以告知問與答要使用哪一種視覺效果，方法是將視覺效果類型新增至您的問題。 但是請記住，以您要求的視覺效果類型讓問與答顯示資料，並不一定可行。 問與答將提示您可用的視覺效果類型清單。
+
+## <a name="where-can-i-use-qa"></a>我可以在哪裡使用問與答？
+您可以在 Power BI 服務的儀表板上，以及 Power BI 行動版的儀表板底部找到問與答。 除非設計工具已授與您編輯權限，否則您將能夠使用問與答來探索資料，但無法儲存以問與答建立的任何視覺效果。
+
+![問題方塊](media/end-user-q-and-a/powerbi-qna.png)
+
+如果報表「設計師」  新增了[問與答視覺效果](../visuals/power-bi-visualization-q-and-a.md)，則您也可以在報表上找到問與答。   
+
+![問與答視覺效果](media/end-user-q-and-a/power-bi-q-and-a-default.png)
+
+## <a name="qa-on-dashboards"></a>儀表板上的問與答
 
 **Power BI 問與答**可透過專業或進階授權提供。  [Power BI 行動應用程式的問與答](mobile/mobile-apps-ios-qna.md)和 [Power BI Embedded 的問與答](../developer/qanda.md)會在不同的文章中說明。 目前，**Power BI 問與答**只可回答以英文詢問的自然語言查詢，但您可以透過 Power BI 管理員啟用西班牙文預覽。
 
@@ -33,15 +51,11 @@ ms.locfileid: "67408458"
 
 這種體驗真正充滿互動...而且快速！ 採用記憶體內部儲存體的回應幾乎可瞬間完成。
 
-## <a name="where-can-i-use-qa"></a>我可以在哪裡使用問與答？
-您可以在 Power BI 服務的儀表板上，以及 Power BI 行動版的儀表板底部找到問與答。 除非設計工具已授與您編輯權限，否則您將能夠使用問與答來探索資料，但無法儲存以問與答建立的任何視覺效果。
-
-![問題方塊](media/end-user-q-and-a/powerbi-qna.png)
 
 ## <a name="use-qa-on-a-dashboard-in-the-power-bi-service"></a>在 Power BI 服務的儀表板上使用問與答
-在 Power BI 服務 (app.powerbi.com) 中，儀表板包含從一或多個資料集釘選的磚，因此您可以詢問這些資料集包含的所有資料。 若要查看哪些報表和資料集已用來建立儀表板，請從功能表列選取 [檢視相關項目]  。
+在 Power BI 服務 (app.powerbi.com) 中，儀表板包含從一或多個資料集釘選的磚，因此您可以詢問這些資料集包含的所有資料。 若要查看使用了哪些報表和資料集來建立儀表板，請從 [其他動作]  下拉式清單選取 [檢視相關項目]  。
 
-![頂端功能表列中的 [檢視相關項目] 按鈕](media/end-user-q-and-a/power-bi-view-related.png)
+![功能表列中的 [檢視相關項目]](media/end-user-q-and-a/power-bi-q-and-a-view-related.png)
 
 ## <a name="how-do-i-start"></a>我該如何開始？
 首先，熟悉內容。 請在儀表板和報表中查看視覺效果。 了解可供您使用的資料類型和範圍。 
@@ -56,22 +70,69 @@ ms.locfileid: "67408458"
 
 ![問與答畫面](media/end-user-q-and-a/power-bi-screen.png) 
 
-即使您還沒開始輸入，問與答也會顯示包含建議的新畫面，以協助您提出問題。 您會在基礎資料集中看到包含資料表名稱的片語和問題，甚至可能會看到資料集擁有者所建立的「精選」  * 問題。
+即使您還沒開始輸入，問與答也會顯示包含建議的新畫面，以協助您提出問題。 您會在基礎資料集中看到包含資料表名稱的片語和問題，甚至可能會看到資料集擁有者所建立的「精選」  問題。
 
 您可以選取其中任何一個以將其新增至問題方塊，然後縮小搜尋範圍以尋找特定解答。 
 
 問與答可協助您詢問問題的另一種方式為提示、自動完成和視覺提示。 
 
-![影片](media/end-user-q-and-a/qna4.gif) 
+<!-- ![video](../visuals/media/end-user-q-and-a/qna4.gif) -->
 
 
-### <a name="which-visualization-does-qa-use"></a>問與答會使用哪一種視覺效果？
-問與答會根據要顯示的資料挑選最佳視覺效果。 有時在基礎資料集中資料的定義是特定類型或類別目錄，這就有助於問與答知道要如何加以顯示。 例如，如果將資料定義為日期類型，則較有可能顯示為折線圖。 分類為城市的資料比較有可能顯示為地圖。
+## <a name="the-qa-visual"></a>問與答視覺效果
 
-您也可以告知問與答要使用哪一種視覺效果，方法是將視覺效果類型新增至您的問題。 但是請記住，以您要求的視覺效果類型讓問與答顯示資料，並不一定可行。 問與答將提示您可用的視覺效果類型清單。
+問與答視覺效果可讓您詢問自然語言問題，並以視覺效果形式獲得解答。 問與答視覺效果的行為就像任何其他視覺效果一樣，可交叉篩選/交叉醒目顯示，也支援書籤和註解。 
+
+問與答視覺效果識別方式為其出現在頂端的問題方塊。 這是您使用自然語言來輸入或鍵入問題的地方。 您可以重複使用問與答視覺效果來詢問資料的相關問題。 當您離開報表時，問與答視覺效果會重設為其預設值。 
+
+![預設問與答視覺效果的螢幕擷取畫面](media/end-user-q-and-a/power-bi-q-and-a-default.png)
+
+
+## <a name="use-the-qa-visual"></a>使用問與答視覺效果
+若要使用問與答視覺效果，請選取其中一個建議的問題，或鍵入您自己的自然語言問題。 
+
+### <a name="create-a-qa-visual-by-using-a-suggested-question"></a>使用建議的問題來建立問與答視覺效果
+
+在這裡，我們選取了 [top geo states by total units] \(依單位總量的前幾州地區\)  。 Power BI 會竭盡所能選取要使用的視覺效果類型。 在此案例中是地圖。
+
+![問與答視覺效果地圖](media/end-user-q-and-a/power-bi-q-and-a-suggested.png)
+
+但您可以告知 Power BI 要使用的視覺效果類型，方法是將其新增至您的自然語言查詢。 請記住，並非所有視覺效果類型都適用於您的資料或對其有意義。 例如，此資料不會產生有意義的散佈圖。 但適合以區域分布圖顯示。
+
+![以區域分布圖顯示的問與答視覺效果](media/end-user-q-and-a/power-bi-filled-map.png)
+
+### <a name="create-a-qa-visual-by-typing-a-natural-language-query"></a>鍵入自然語言查詢來建立問與答視覺效果
+
+
+如果您不確定要詢問的問題類型或要使用的術語，請展開 [顯示所有建議]  或查看報表中的其他視覺效果。 這可協助您熟悉資料集的字詞和內容。
+
+1. 使用自然語言在問與答欄位中鍵入您的問題。 當您鍵入問題時，Power BI 會使用自動完成、建議和意見反應來協助您。
+
+    - Power BI 無法辨識的字組會使用紅色底線標示。 Power BI 會盡可能協助您定義這些字組。 如果您看到正確的定義，請從下拉式清單選取此定義。  
+
+        ![問與答問題方塊中加紅色底線的字詞](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+
+    - 如果沒有正確的定義，請嘗試另一個字詞，或選取加紅色底線的字組，要求報表擁有者新增此字組。
+
+        ![在問與答問題方塊中鍵入問題](media/end-user-q-and-a/power-bi-q-and-a-owner.png)
+
+    - 當您鍵入更多問題時，Power BI 會在不了解問題時讓您知道，並嘗試協助。 在以下範例中，Power BI 會詢問您「您的意思是...」，並使用資料集中的術語來建議不同問題陳述方式。 
+
+        ![問與答視覺效果提供建議的校正](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+
+2. 選取 Power BI 的校正之後，您的結果會顯示為折線圖。 
+
+    ![以折線圖顯示的問與答視覺效果結果](media/end-user-q-and-a/power-bi-q-and-a-line.png)
+
+
+3. 但您可以將折線圖變更為另一種視覺效果類型。  
+
+    ![將「以直條圖顯示」的問與答視覺效果新增至問題](media/end-user-q-and-a/power-bi-q-and-a-specify-type.png)
+
 
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
+
 **問題**：我在儀表板上找不到問與答。    
 **解答 1**：如果您找不到問題方塊，請先檢查您的設定。 請選取 Power BI 工具列右上角的齒輪圖示。   
 ![齒輪圖示](media/end-user-q-and-a/power-bi-settings.png)
@@ -80,11 +141,12 @@ ms.locfileid: "67408458"
 ![儀表板的問與答設定](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 
-**解答 2**：有時儀表板「設計者」  或您的系統管理員會關閉問與答。 請與他們確認是否可以將其重新開啟。   
+**解答 2**：有時您無法存取設定。 如果儀表板「設計師」  或您的系統管理員已關閉問與答，請與其確認以查看是否可以重新開啟。   
 
 **問題**：當我輸入問題時無法取得我想看到的結果。    
-**解答**：請諮詢儀表板「設計者」  。 為了改善問與答的結果，設計工具可能會進行很多作業。 比方說，設計工具可能會重新命名資料集中的資料行，來使用較容易了解的詞彙 (例如以 `CustomerFirstName` 取代 `CustFN`)。 由於設計工具十分了解資料集，因此設計工具也可以提出有幫助的問題，並將其新增至問與答畫布中。
+**解答**：選取連絡報表或儀表板擁有者的選項。 您可以直接從問與答儀表板頁面或問與答視覺效果執行這項操作。 或者，您可以從 Power BI 頁首查詢擁有者。  為了改善問與答的結果，設計工具可能會進行很多作業。 比方說，設計工具可能會重新命名資料集中的資料行，來使用較容易了解的詞彙 (例如以 `CustomerFirstName` 取代 `CustFN`)。 由於設計師十分了解資料集，因此設計師也可以提出有幫助的問題，並將其新增至問與答建議的問題。
 
+![顯示連絡人資訊](media/end-user-q-and-a/power-bi-q-and-a-contact.png)
 
 ## <a name="next-steps"></a>後續步驟
-[Power BI 取用者問與答秘訣](end-user-q-and-a.md)
+若要了解如何透過報表「設計師」  來建立和管理問與答視覺效果，請參閱[問與答視覺效果類型](../visuals/power-bi-visualization-q-and-a.md)。

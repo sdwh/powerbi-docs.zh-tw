@@ -1,19 +1,19 @@
 ---
 title: Power BI 報表產生器中的運算式範例
 description: 在 Power BI 分頁報表產生器的分頁報表中，經常使用運算式來控制內容和報表外觀。
-ms.date: 06/06/2019
+ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
+ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624143"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72728554"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 報表產生器中的運算式範例
 在 Power BI 分頁報表產生器的分頁報表中，經常使用運算式來控制內容和報表外觀。 運算式都是以 Microsoft Visual Basic 撰寫，並可使用內建函式、自訂程式碼、報表和群組變數，以及使用者定義的變數。 運算式會以等號 (=) 開頭。   
@@ -34,8 +34,8 @@ ms.locfileid: "68624143"
   
 如需簡單和複雜運算式、運算式可用位置以及運算式中可包含參考型別的詳細資訊，請參閱 [Power BI 報表產生器中的運算式](report-builder-expressions.md)底下的主題。 
   
-## <a name="functions"></a>函數  
- 報表中的許多運算式都包含函式。 您可以使用這些函式來設定資料格式、套用邏輯和存取報表中繼資料。 您可以撰寫運算式，使用來自 Microsoft Visual Basic 執行階段程式庫，以及來自 `xref:System.Convert` 和 `xref:System.Math` 命名空間的運算式。 您可以將其他組件或自訂程式碼的參考新增至函式。 您也可以使用 Microsoft .NET Framework 中的類別，包括 `xref:System.Text.RegularExpressions`。  
+## <a name="functions"></a>函式  
+ 報表中的許多運算式都包含函式。 您可以使用這些函式來設定資料格式、套用邏輯和存取報表中繼資料。 您可以撰寫運算式，使用來自 Microsoft Visual Basic 執行階段程式庫，以及來自 `xref:System.Convert` 和 `xref:System.Math` 命名空間的運算式。 您可以在自訂程式碼中新增函式的參考。 您也可以使用 Microsoft .NET Framework 中的類別，包括 `xref:System.Text.RegularExpressions`。  
   
 ##  <a name="VisualBasicFunctions"></a> Visual Basic 函式  
  您可以使用 Visual Basic 函式來操作顯示在文字方塊中的資料，或是用於參數、屬性或其他報表區域的資料。 本節提供示範其中一些函式的範例。 如需詳細資訊，請參閱 MSDN 上的 [Visual Basic Runtime Library Members](https://go.microsoft.com/fwlink/?LinkId=198941) (Visual Basic 執行階段程式庫成員)。  
@@ -476,7 +476,7 @@ ms.locfileid: "68624143"
     ```  
   
 ##  <a name="CustomCode"></a> 自訂程式碼  
- 您可以在報表中使用自訂程式碼。 自訂程式碼可以內嵌在報表中，或儲存在報表所使用的自訂組件中。  
+ 您可以使用內嵌在報表中的自訂程式碼。 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>使用群組變數進行自訂彙總  
  您可以將特定群組範圍的群組區域變數值初始化，然後在運算式中包含該變數的參考。 您可以搭配自訂程式碼使用群組變數的方式之一是實作自訂彙總。 

@@ -1,5 +1,5 @@
 ---
-title: 為您自己和其他人訂閱報表和儀表板 - Power BI
+title: 為您自己和其他人訂閱報表和儀表板
 description: 了解如何為您自己和其他人訂閱 Power BI 報表頁面、儀表板或編頁報表的快照集。
 author: maggiesMSFT
 manager: kfile
@@ -8,19 +8,19 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2c08736e23568675af87e7de63092fff3a6a86c5
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e3e22a40b385ab519767eb850617a0506dbfbfd2
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073425"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891839"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
-您可以為自己和同事訂閱對您來說最重要的報表頁面、儀表板和編頁報表。 Power BI 會將快照集以電子郵件傳送到您的收件匣。 您要告訴 Power BI 需要收到電子郵件的頻率︰每天、每週、每小時、每月，或在初始資料重新整理後一天一次。  如果您選擇每天、每週、每小時或每月，則可以選擇您想要執行訂閱的時間。  總之，針對每個報表頁面和儀表板，您每天可以設定最多 24 個不同的訂用帳戶。
+您可以為自己和同事訂閱對您來說最重要的報表頁面、儀表板和編頁報表。 Power BI 會將快照集以電子郵件傳送到您的收件匣。 您要告訴 Power BI 需要收到電子郵件的頻率︰每天、每週、每小時、每月，或在初始資料重新整理後一天一次。  如果您選擇每天、每週、每小時或每月，則可以選擇您想要執行訂閱的時間。  針對每個報表或儀表板，您總計可以設定最多 24 個不同的訂閱。
 
 ![儀表板的電子郵件快照集](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 

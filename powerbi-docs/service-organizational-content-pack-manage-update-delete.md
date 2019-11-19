@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86b7a5e93183c06d6cac1445cb1702edde5d4bc9
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: f2a80b075a56cdeccfa4c3675cdf31504b6a7e5d
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020600"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431774"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和刪除組織內容套件
 > [!NOTE]
@@ -71,14 +71,14 @@ ms.locfileid: "72020600"
 您可以內容套件建立者身分來[排程資料集的重新整理](refresh-data.md)。  當您建立並上傳內容套件時，重新整理排程會和資料集同時上傳。 如果您變更重新整理排程，就必須重新發佈內容套件 (請參閱前述)。
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>從 AppSource 刪除組織內容套件
-您只能從 AppSource 刪除自己建立的內容套件。 如果您已在應用程式工作區中建立了組織內容套件，並決定刪除該工作區，請務必先刪除內容套件。 如果您先刪除工作區而未先刪除內容套件，則將遺失對這些內容套件的所有存取權，並且必須連絡 Microsoft 支援服務以尋求協助。 
+您只能從 AppSource 刪除自己建立的內容套件。 如果已在工作區中建立了組織內容套件，並決定刪除該工作區，請務必先刪除內容套件。 如果您先刪除工作區而未先刪除內容套件，則將遺失對這些內容套件的所有存取權，並且必須連絡 Microsoft 支援服務以尋求協助。 
 
 > [!TIP]
 > 您可以[刪除未建立之內容套件的連線](service-organizational-content-pack-disconnect.md)。 這麼做並不會將內容套件自 AppSource 刪除。
 > 
 > 
 
-1. 若要從 AppSource 中刪除內容套件，請前往您建立該內容套件的應用程式工作區，選取齒輪圖示 ![](media/service-organizational-content-pack-manage-update-delete/cog.png) 並選擇 [檢視內容套件]  。
+1. 若要從 AppSource 中刪除內容套件，請前往您建立該內容套件的工作區，選取齒輪圖示 ![](media/service-organizational-content-pack-manage-update-delete/cog.png) 並選擇 [檢視內容套件]  。
 2. 選取 [刪除] \> [刪除]  。 
    
    * 如果群組成員尚未自訂內容套件，將會自動移除與該內容套件相關聯的儀表板和報表。 再也無法取得這些儀表板和報表，該內容套件不會出現於 [瀏覽] 窗格中。

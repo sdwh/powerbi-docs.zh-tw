@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 6bd0b929bbf4fa7df0d13a3cc7e529bad708582e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61274327"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017902"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>從 Power BI 行動裝置應用程式共用儀表板或報表
 適用於︰
@@ -86,7 +86,7 @@ ms.locfileid: "61274327"
 3. 若不共用，請點選名稱旁的紅色圓形並點選 [刪除]  。
 
 ## <a name="share-from-your-android-device"></a>從您的 Android 裝置共用
-1. 在儀表板或報表首頁上，點選省略符號 (...)，然後點選 [邀請同事]  。
+1. 在儀表板或報表首頁上，點選 [更多選項]  (...)，然後點選 [邀請同事]  。
    
    ![邀請同事](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
 2. 或者，在儀表板或報表中，點選邀請圖示 ![邀請圖示](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).

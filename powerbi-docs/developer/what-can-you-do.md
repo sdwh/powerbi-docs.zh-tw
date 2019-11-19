@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 0d4f79714be7d354c26a7bd63adbe8bce07ed4ef
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 54d0b1635eb75fd5cbcb1f3e745097e7da566342
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307451"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429300"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>開發人員可如何利用 Power BI？
 
@@ -22,7 +22,7 @@ ms.locfileid: "72307451"
 
 ## <a name="embedding-power-bi-content"></a>內嵌 Power BI 內容
 
-Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 API 可供內嵌您的儀表板和報表。 此功能意謂著在內嵌內容時，您可以存取最新的 Power BI 功能，例如儀表板、閘道及應用程式工作區。
+Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 API 可供內嵌您的儀表板和報表。 此功能意謂著在內嵌內容時，您可以存取最新的 Power BI 功能，例如儀表板、閘道及工作區。
 
 您可以完成[內嵌安裝工具](https://aka.ms/embedsetup)以快速開始使用並下載應用程式範例。
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: e91f1d5084957ee7266161b9a34f916e2902d1f4
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: c2cc5f9da8ea12709d8244a1e82d8283f66f2413
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019583"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021025"
 ---
 # <a name="data-lineage-preview"></a>資料譜系 (預覽)
 在新式商業智慧 (BI) 專案中，了解從資料來源到其目的地的資料流程，可能是一項挑戰。 如果您已建置跨多個資料來源、成品和相依性的進階分析專案，挑戰就會更加艱鉅。  「如果我變更此資料會發生什麼事？」 或「為什麼這份報表不是最新的？」 之類的問題，可能會變得難以回答。 您可能會需要一組專家或是進行深入調查，才能回答這些問題。 我們設計了資料譜系檢視來協助您回答這些問題。
@@ -55,7 +55,7 @@ Power BI 有數個成品類型，例如儀表板、報表、資料集和資料�
  
 如果工作區中報表是以另一個工作區中的資料集為基礎，則您會在資料集卡片上看到來源工作區名稱。 選取要移至該工作區的來源工作區名稱。
  
-- 針對任何成品，選取省略符號 (...) 以檢視 [選項] 功能表。 它具有清單檢視中所有相同的動作。
+- 針對任何成品，選取 [更多選項]  (...) 以檢視 [選項] 功能表。 它具有清單檢視中所有相同的動作。
   
 若要查看資料集的更多中繼資料，請選取資料集卡片本身。 資料集的其他資訊會顯示在側邊窗格中。
 
@@ -89,7 +89,8 @@ Power BI 有數個成品類型，例如儀表板、報表、資料集和資料�
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-譜系檢視不適用於 Internet Explorer。 請參閱[支援 Power BI 的瀏覽器](power-bi-browsers.md)以取得詳細資料。
+- 譜系檢視不適用於 Internet Explorer。 請參閱[支援 Power BI 的瀏覽器](power-bi-browsers.md)以取得詳細資料。
+- [我的工作區] 中並未提供譜系檢視。
 
 ## <a name="next-steps"></a>後續步驟
 

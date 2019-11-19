@@ -8,15 +8,15 @@ featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/08/2019
+ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c87a54a0e991af3faa53b9ac4ac6c92893b2ed0a
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: d1944f139cdd7089d9465e174e554ac7df1d8bf8
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962596"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060377"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 服務中的資料警示
 
@@ -24,7 +24,7 @@ ms.locfileid: "68962596"
 
 如果您有 Power BI Pro 授權，您可以在磚上設定警示。 如果有人共用位於 [Premium 容量](service-premium-what-is.md)中的儀表板，您也可以設定警示。 只可在從報表視覺效果釘選的磚上，為量測計、KPI 和卡片設定警示。 可以對您從報表釘選到儀表板的串流資料集上所建立視覺效果設定警示。 但不可對使用 [新增磚]   > [自訂串流資料]  直接在儀表板上所建立串流磚設定警示。
 
-即使將儀表板分享給他人共用，仍只有您才能查看您所設定的警示。 資料警示會在平台之間完全同步處理；請在 [ Power BI 行動裝置應用程式](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服務中設定和檢視資料警示。 其不適用於 Power BI Desktop。 您甚至可以使用 Microsoft Flow 來自動化並整合警示。 您可以在 [Microsoft Flow 和 Power BI](service-flow-integration.md) 這篇文章中親身試用。
+即使將儀表板分享給他人共用，仍只有您才能查看您所設定的警示。 即使儀表板擁有者也看不到您在其儀表板檢視上設定的警示。 資料警示會在平台之間完全同步處理；請在 [ Power BI 行動裝置應用程式](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服務中設定和檢視資料警示。 其不適用於 Power BI Desktop。 您甚至可以使用 Microsoft Flow 來自動化並整合警示。 您可以在 [Microsoft Flow 和 Power BI](service-flow-integration.md) 這篇文章中親身試用。
 
 ![磚](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -116,15 +116,13 @@ ms.locfileid: "68962596"
 
 1. 您可以在此處開啟及關閉警示、開啟 [管理警示]  視窗執行變更，或是刪除警示。
 
-## <a name="tips-and-troubleshooting"></a>提示與疑難排解
+## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
 * 具有日期/時間量值的卡片磚不支援警示。
-
 * 警示只適用於數值資料類型。
-
 * 警示只對重新整理的資料有作用。 警示對於靜態資料毫無作用。
-
 * 如果建置 KPI、卡片或量測計報表視覺效果，然後將該視覺效果釘選到儀表板，則警示只對串流資料集有作用。
+
 
 ## <a name="next-steps"></a>後續步驟
 
@@ -132,6 +130,6 @@ ms.locfileid: "68962596"
 
 * [在行動裝置上設定資料警示](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)。
 
-* [Power BI 是什麼？](power-bi-overview.md)
+* [Power BI 是什麼？](fundamentals/power-bi-overview.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)

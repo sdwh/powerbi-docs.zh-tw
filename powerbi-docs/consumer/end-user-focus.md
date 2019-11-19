@@ -11,14 +11,16 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a52fdbefabf84df22c89b0e933d56352fedf5da1
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327792"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019808"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>顯示更詳細的內容：焦點模式與全螢幕模式
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -97,11 +99,11 @@ ms.locfileid: "71327792"
 
 1. 在 Power BI 服務中開啟儀表板。
 
-2. 將滑鼠指標停留在儀表板磚或報表視覺效果上方，再選取省略符號 (...)，然後選擇 [以焦點模式開啟]  。
+2. 將滑鼠指標暫留在儀表板磚或報表視覺效果上，選取 [更多選項]  (...)，然後選擇 [以焦點模式開啟]  。
 
     ![磚的省略符號功能表](media/end-user-focus/power-bi-dashboard-focus.png).
 
-2. 這會開啟磚，並填滿整個報表畫布。 請注意，您仍有 [篩選]  窗格可與視覺效果互動。 [篩選]  窗格可以摺疊。 
+2. 這會開啟磚，並填滿整個報表畫布。 請注意，您仍有 [篩選]  窗格可與視覺效果互動。 [篩選]  窗格可以摺疊。
 
    ![磚會填滿報表畫布](media/end-user-focus/power-bi-focus-filter.png)
 

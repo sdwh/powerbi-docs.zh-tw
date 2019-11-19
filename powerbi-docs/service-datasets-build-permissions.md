@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 069ec5e0c767bcfcb0a4a41c2180ae78146800f2
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020981"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020290"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>共用資料集的建置權限 (預覽)
 
@@ -29,7 +29,7 @@ ms.locfileid: "72020981"
 
 - 若您是工作區中至少擁有「參與者」角色的成員，您便會自動擁有該工作區中資料集的「建置」權限，以及複製報表的權限。
  
-- 資料集所在的工作區成員，可以將權限指派給權限中心內的特定使用者或安全性群組。 若您是工作區的成員，請選取資料集 > [管理權限]  旁的省略符號 (...)。
+- 資料集所在的工作區成員，可以將權限指派給權限中心內的特定使用者或安全性群組。 若您是工作區的成員，請選取資料集旁的 [更多選項]  (...) > [管理權限]  。
 
     ![選取省略符號](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
@@ -50,11 +50,11 @@ ms.locfileid: "72020981"
 有時候，您可能需要移除某些使用者對共用資料集的建置權限。 
 
 1. 在工作區中，移至 [資料集]  清單頁面。 
-1. 選取資料集 > [管理權限]  旁的省略符號 (...)。
+1. 選取資料集旁的 [更多選項]  (...) > [管理權限]  。
 
     ![管理權限](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. 選取名稱 > [移除建置]  旁的省略符號 (...)。
+1. 選取名稱旁的 [更多選項]  (...) > [移除組建]  。
 
     ![移除建置權限](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -80,11 +80,11 @@ ms.locfileid: "72020981"
 1. 選取 [更新]  。
 
 1. 在工作區中，移至 [資料集]  清單頁面。 
-1. 選取資料集 > [管理權限]  旁的省略符號 (...)。
+1. 選取資料集旁的 [更多選項]  (...) > [管理權限]  。
 
     ![管理權限](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. 選取其名稱 > [移除建置]  旁的省略符號 (...)。
+1. 選取其名稱旁的 [更多選項]  (...) > [移除組建]  。
 
     ![移除建置權限](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 

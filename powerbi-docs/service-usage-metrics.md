@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e77bfdf771e84afbc87335aa77993640d10282b0
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 6b34fc07afb082115ef5fb537badbae989e21cec
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530537"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432305"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>監視 Power BI 儀表板和報表的使用計量
 
@@ -86,7 +86,7 @@ ms.locfileid: "69530537"
 
 | 計量 | 儀表板 | 報表 | 描述 |
 | --- | --- | --- | --- |
-| 散發方法交叉分析篩選器 |可以 |可以 |使用者存取內容的方式。 有 3 種可能的方法︰使用者可以成為[應用程式工作區](consumer/end-user-experience.md)的成員、讓內容[與他們共用](service-share-dashboards.md)，或安裝內容套件/應用程式，來存取儀表板或報表。  請注意，透過應用程式檢視會視為「內容套件」。 |
+| 散發方法交叉分析篩選器 |可以 |可以 |使用者存取內容的方式。 有 3 種可能的方法︰使用者可以成為[工作區](consumer/end-user-experience.md)成員、[藉由共用內容](service-share-dashboards.md)，或藉由安裝內容套件/應用程式，以存取儀表板或報表。  請注意，透過應用程式檢視會視為「內容套件」。 |
 | 平台交叉分析篩選器 |可以 |可以 |曾透過 Power BI 服務 (powerbi.com) 或行動裝置存取儀表板或報表嗎？ 行動裝置包括我們所有的 iOS、Android 和 Windows 應用程式。 |
 | 報表頁面交叉分析篩選器 |不可以 |可以 |如果報表有 1 個以上的頁面，請依檢視的頁面分割報表。 如果您看到 [空白] 清單選項，表示最近新增了報表頁面 (新頁面的實際名稱會在 24 小時內出現在交叉分析篩選器清單中)，及/或已刪除報表頁面。 [空白] 包含這類情況。 |
 | 每日檢視 |可以 |可以 |每日檢視的總數 - 只要使用者載入報表頁面或儀表板即視為檢視。 |
@@ -152,11 +152,18 @@ Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供的安
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-請務必了解比較使用計量和稽核記錄時可能產生的差異和其原因。 「稽核記錄」  是使用來自 Power BI 服務的資料來收集，而「使用計量」  是在用戶端上收集。 稽核記錄中的彙總計數不一定會和使用計量相符，原因如下：
+### <a name="discrepancies-between-audit-logs-and-usage-metrics"></a>稽核記錄與使用計量之間的差異
+
+請務必了解比較使用計量和稽核記錄時可能產生的差異和其原因。 「稽核記錄」  收集自 Power BI 服務的資料，而「使用計量」  則收集自用戶端。 稽核記錄中的彙總計數不一定會和使用計量相符，原因如下：
 
 * 由於網路連線不一致、廣告封鎖程式或其他可能中斷從用戶端傳送事件的問題，使用計量有時候可能會將活動少算。
 * 如本文稍早所述，特定類型的檢視未包含在使用計量中。
 * 在用戶端重新整理但並不需將要求傳送回 Power BI 服務的情況下，使用計量可能有時會高估活動數目。
+
+### <a name="other-considerations"></a>其他考量
+
+您至少需要在自己的工作區中，或從該工作區內檢視一次內容。 若未能至少從工作區本身檢視一次內容，資料就不會與使用計量報表中的應用程式檢視相互關聯。 若要解除封鎖對此報告的資料處理，請至少從工作區檢視一次內容。
+
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 

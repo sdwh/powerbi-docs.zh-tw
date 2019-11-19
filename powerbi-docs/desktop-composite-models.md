@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ae896fb737eda6f95efa1589f2b3384e7426cf30
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: aef50d58dc11269c2c30010c1ca89843689f45c4
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654569"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017688"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>在 Power BI Desktop 中使用複合模型
 
@@ -53,7 +53,7 @@ Power BI Desktop 中的複合模型功能包含三種相關功能：
 結合多個 DirectQuery 來源的資料或結合 DirectQuery 與「匯入」資料的模型，即稱為「複合模型」  。
 
 
-您能如往常一般，建立資料表之間的關聯性 (即使這些資料表來自不同的來源)，但有下列限制：不論實際基數為何，跨來源的關聯性都必須定義為有「多對多」  基數。 這類關聯性的行為之後會和正常的「多對多」  關聯性一樣，如 [Power BI Desktop 中的多對多關聯性 (預覽)](desktop-many-to-many-relationships.md) 中所述。 
+您能如往常一般，建立資料表之間的關聯性 (即使這些資料表來自不同的來源)。 不論實際基數為何，任何跨來源的關聯性都會使用「多對多」  基數來建立。 您可以將其變更為一對多、多對一或一對一。 無論您設定的基數為何，跨來源關聯性都會有不同的行為，因此無法使用 DAX 函式從多端的一端來擷取值。 您也可能會看到相同來源中多對多關聯性對效能的影響。
 
 > [!NOTE]
 > 在複合模型內容中，所有匯入的資料表便有如單一來源，不論匯入的實際基礎資料來源為何。   
@@ -88,7 +88,7 @@ Power BI Desktop 中的複合模型功能包含三種相關功能：
 
 ![資料表的關聯性檢視](media/desktop-composite-models/composite-models_08.png)
 
-我們現在需要將這些資料表與模型中的其他資料表相關聯。 如往常，我們在來自 SQL Server 的 **Bike** 資料表，與匯入的 **ProductManagers** 資料表之間建立關聯性。 亦即，關聯性是在 *Bike[ProductName]* 與 *ProductManagers[ProductName]* 之間。 如前文所述，跨來源的所有關聯性必須有預設的「多對多」  基數。 
+我們現在需要將這些資料表與模型中的其他資料表相關聯。 如往常，我們在來自 SQL Server 的 **Bike** 資料表，與匯入的 **ProductManagers** 資料表之間建立關聯性。 亦即，關聯性是在 *Bike[ProductName]* 與 *ProductManagers[ProductName]* 之間。 如前文所述，跨來源的所有關聯性預設為「多對多」  基數。 
 
 ![[建立關聯性] 視窗](media/desktop-composite-models/composite-models_09.png)
 

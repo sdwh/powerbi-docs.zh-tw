@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 042fee1a55728884b3f4d5792a82973b3ea9fcc4
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 93301625efda52aa69af172b29e7fbcd94b2a4dd
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832542"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020432"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>將影像、影片和其他項目新增至儀表板
 
@@ -232,7 +232,7 @@ ms.locfileid: "68832542"
 ## <a name="edit-a-tile"></a>編輯磚
 若要對現有的磚進行變更：
 
-1. 將滑鼠暫留在磚右上角並選取省略符號 (...)。
+1. 將滑鼠暫留在磚右上角並選取 [更多選項]  (...)。
    
     ![選取磚省略符號](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. 選取 [編輯詳細資料]  ，以顯示 [磚詳細資料]  視窗並進行變更。

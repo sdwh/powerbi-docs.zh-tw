@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 97b21b6844ffb8633a37656e781a60f88cebbf43
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71192469"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060431"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>教學課程：新增 Power BI 視覺效果專案的單元測試
 
@@ -65,7 +65,7 @@ ms.locfileid: "71192469"
 "webpack": "4.26.0"
 ```
 
-若要深入了解套件，請參閱說明。
+若要深入了解 *package.json*，請參閱 [npm-package.json](https://docs.npmjs.com/files/package.json) 的描述。
 
 在 `package.json` 位置儲存 *package.json* 檔案，然後執行下列命令：
 

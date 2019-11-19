@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b4c81e1c83ef53dcb16153b4e9996b259e9eb886
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654612"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059807"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視儀表板和報表
 適用於︰
@@ -118,7 +118,7 @@ ms.locfileid: "69654612"
 
     如果您是儀表板的擁有者，在 Power BI 服務中，您可以[建立手機直向模式專用的儀表板檢視](../../service-create-dashboard-mobile-phone-view.md)。 
 
-1. 在儀表板時，您可以點選名稱旁邊的垂直省略符號 (...) 來邀請同事、重新整理，或取得儀表板的相關資訊：
+1. 在儀表板中時，您可以點選名稱旁邊的垂直 [更多選項]  (...) 按鈕來邀請同事、重新整理，或取得儀表板的相關資訊：
    
    ![省略符號功能表](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. 上下撥動，即可查看[儀表板中的所有磚](mobile-tiles-in-the-mobile-apps.md)。 
@@ -134,7 +134,7 @@ ms.locfileid: "69654612"
    
    * 黃色星星 ![我的最愛星星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 會顯示您最愛的儀表板。 
    * 每個儀表板名稱下的標記法 (在此例中為 "MBI") ![資料分類](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)會顯示每個儀表板中資料的分類方式。 深入了解 [Power BI 的資料分類](../../service-data-classification.md)。
-3. 在儀表板時，您可以點選名稱旁邊的垂直省略符號 (...) 來邀請同事、重新整理，或取得儀表板的相關資訊：
+3. 在儀表板中時，您可以點選名稱旁邊的垂直 [更多選項]  (...) 按鈕來邀請同事、重新整理，或取得儀表板的相關資訊：
    
    ![省略符號功能表](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. 上下撥動，即可查看[儀表板中的所有磚](mobile-tiles-in-the-mobile-apps.md)。 
@@ -156,6 +156,6 @@ ms.locfileid: "69654612"
 ## <a name="next-steps"></a>後續步驟
 * 從 Google Play [下載 Android 應用程式](http://go.microsoft.com/fwlink/?LinkID=544867)  
 * [開始使用 Power BI 的 Android 應用程式](mobile-android-app-get-started.md)  
-* [Power BI 是什麼？](../../power-bi-overview.md)
+* [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 

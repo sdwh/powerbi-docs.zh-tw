@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8e444c78c1f6f9f3f0be1375f96f7381489cc069
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3021ee4df1ba4456f86c3deb5e7a3c247dbc13fe
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61142903"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020410"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>在 Power BI 服務中使用儀表板佈景主題
 透過**儀表板主題**，您可以將某個色彩佈景主題套用到整個儀表板，例如公司色彩、季節性色彩，或是您可能想要套用的任何其他色彩佈景主題。 當您套用 [儀表板主題]  時，儀表板中的所有視覺效果都會使用您選擇的佈景主題色彩 (但有些例外，本文稍後會加以說明)。
@@ -30,7 +30,7 @@ ms.locfileid: "61142903"
 
 
 ## <a name="how-dashboard-themes-work"></a>儀表板佈景主題的運作方式
-若要開始，請開啟您建立 (或有權編輯) 並想要自訂的儀表板。 選取省略符號 (...)，然後選擇 [儀表板佈景主題]  。 
+若要開始，請開啟您建立 (或有權編輯) 並想要自訂的儀表板。 選取 [更多選項]  (...)，然後選擇 [儀表板佈景主題]  。 
 
 ![儀表板佈景主題選項](media/service-dashboard-themes/power-bi-dashboard-theme.png)
 

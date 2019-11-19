@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c46b58369c334ff5364cee00bb5c3f8cd025adf0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: e57df395fd3efe439cb6ef009cb2c7a9f3fe99f9
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305853"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431646"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -53,7 +53,7 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 透過 Power BI Premium，您可以取得「專用容量」  。 相對於共用容量 (其中工作負載是在與其他客戶共用的計算資源上執行)，專用容量僅供組織使用。 它與專用計算資源一起隔離，為所裝載內容提供可靠且一致的效能。 
 
-工作區存放在容量中。 每個 Power BI 使用者都有個人工作區，稱為**我的工作區**。 可建立額外的工作區 (稱為**應用程式工作區**) 來啟用共同作業。 根據預設，工作區 (包括個人工作區) 是在共用容量中建立。 當您具有 Premium 容量時，可將「我的工作區」和「應用程式工作區」指派給 Premium 容量。
+工作區存放在容量中。 每個 Power BI 使用者都有個人工作區，稱為**我的工作區**。 可建立額外的工作區 (稱為**工作區**) 來啟用共同作業。 根據預設，工作區 (包括個人工作區) 是在共用容量中建立。 當具有 Premium 容量時，即可將「我的工作區」和工作區指派給 Premium 容量。
 
 ### <a name="capacity-nodes"></a>容量節點
 
@@ -71,7 +71,7 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 | 容量節點 | V 核心總數 | 後端 V 核心 | RAM (GB) | 前端 V 核心 | DirectQuery/即時連線 (每秒) | 模型重新整理平行處理原則 |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3.75 | 1 |
+| EM1/A1 | 1 | 0.5 | 3 | 0.5 | 3.75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |

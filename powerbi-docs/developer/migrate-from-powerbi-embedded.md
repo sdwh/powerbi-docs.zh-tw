@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d06709f16beec025b99b69d82d5c17c248288004
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61270427"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429096"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何將 Power BI 工作區集合內容遷移至 Power BI Embedded
 
@@ -20,7 +20,7 @@ ms.locfileid: "61270427"
 
 Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/)，這是一種新容量授權模型，可提高使用者如何存取、共用和散發內容的彈性。 此供應項目也會提供額外延展性和效能。
 
-使用 Power BI Embedded，在內嵌內容時，您會有一個 API 介面、一組一致的功能以及最新 Power BI 功能的存取權 (例如儀表板、閘道和應用程式工作區)。 接著，您即可開始使用 Power BI Desktop 並移至具有 Power BI Embedded 的部署。
+透過 Power BI Embedded，在內嵌內容時，您會有一個 API 介面、一組一致功能以及最新 Power BI 功能 (例如儀表板、閘道和工作區) 的存取權。 接著，您即可開始使用 Power BI Desktop 並移至具有 Power BI Embedded 的部署。
 
 目前的 Power BI 工作區集合在有限的時間內仍會繼續提供服務。 Enterprise 合約的客戶在現有合約到期後仍可繼續存取服務；透過直接或 CSP 通路取得 Power BI 工作區集合的客戶，自 Power BI Embedded 正式發行一年內，仍可繼續存取服務。  本文會提供從 Power BI 工作區集合遷移至新 Power BI Embedded 體驗的指引，以及應用程式中預期變更的內容。
 
@@ -56,19 +56,19 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 下列帳戶必須存在於您的租用戶內。
 
 > [!NOTE]
-> 這些帳戶必須擁有 Power BI Pro 授權，才能使用應用程式工作區。
+> 這些帳戶必須擁有 Power BI Pro 授權才能使用工作區。
 
 1. 租用戶系統管理員使用者。
 
-    建議這位使用者是基於內嵌而建立之所有應用程式工作區的成員。
+    建議這位使用者是基於內嵌目的而建立的所有工作區成員。
 
 2. 將建立內容之分析師的帳戶。
 
-    應該視需要將這些使用者指派給應用程式工作區。
+    應該視需要將這些使用者指派給工作區。
 
 3. 應用程式 *master* 使用者帳戶或 Embedded 帳戶。
 
-    應用程式後端將會儲存此帳戶的認證，並使用它取得 Azure AD 權杖以與 Power BI REST API 搭配使用。 這個帳戶將用來產生應用程式的內嵌權杖。 這個帳戶也需要是針對內嵌而建立之應用程式工作區的管理員。
+    應用程式後端將會儲存此帳戶的認證，並使用它取得 Azure AD 權杖以與 Power BI REST API 搭配使用。 這個帳戶將用來產生應用程式的內嵌權杖。 這個帳戶還需要是針對內嵌而建立的工作區管理員。
 
 > [!NOTE]
 > 此為貴組織中的一般使用者帳戶，將用於內嵌。
@@ -83,17 +83,17 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 
 您應使用應用程式**主要**帳戶註冊應用程式。
 
-## <a name="create-app-workspaces-required"></a>建立應用程式工作區 (必要項)
+## <a name="create-workspaces-required"></a>建立工作區 (必要)
 
-如果您的應用程式會服務多個客戶，則可利用應用程式工作區來提供更佳的隔離。 在您的客戶之間，會隔離儀表板和報表。 您接著可以使用每個應用程式工作區的 Power BI 帳戶，進一步隔離客戶之間的應用程式體驗。
+如果應用程式會服務多個客戶，則可利用工作區來提供更佳的隔離。 在您的客戶之間，會隔離儀表板和報表。 您接著可以使用每個工作區的 Power BI 帳戶，進一步隔離客戶之間的應用程式體驗。
 
 > [!IMPORTANT]
 > 您無法使用個人工作區來利用內嵌至非 Power BI 使用者。
 
-您需要有具有 Pro 授權的使用者，才能在 Power BI 內建立應用程式工作區。 建立應用程式工作區的 Power BI 使用者預設會是該工作區的系統管理員。
+您需要有具備 Pro 授權的使用者才能在 Power BI 內建立工作區。 建立工作區的 Power BI 使用者預設會是該工作區管理員。
 
 > [!NOTE]
-> 應用程式*主要*帳戶必須是工作區的管理員。
+> 應用程式 *主要* 帳戶必須是工作區的管理員。
 
 ## <a name="content-migration"></a>內容移轉
 
@@ -163,7 +163,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 
 ## <a name="create-and-upload-new-reports"></a>建立和上傳新報表
 
-除了您從 Power BI 工作區集合所遷移的內容之外，還可以使用 Power BI Desktop 建立報表和資料集，然後將這些報表發佈至應用程式工作區。 發佈報表的一般使用者必須有 Power BI Pro 授權，才能發佈至應用程式工作區。
+除了您從 Power BI 工作區集合所移轉的內容之外，還可以使用 Power BI Desktop 建立報表和資料集，然後將這些報表發佈至工作區。 發佈報表的終端使用者必須具備 Power BI Pro 授權，才能發佈至工作區。
 
 ## <a name="rebuild-your-application"></a>重建應用程式
 
@@ -179,9 +179,9 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 
 當您準備好進入生產環境時，必須執行下列作業。
 
-* 如果您要使用不同的租用戶進行開發，則必須確定生產環境中具有應用程式工作區、儀表板和報表。 您也必須確定已在 Azure AD 中建立生產租用戶的應用程式，並獲指派適當的應用程式權限，如步驟 1 所示。
+* 如果您要使用不同的租用戶進行開發，則必須確定生產環境中具有工作區、儀表板和報表。 您也必須確定已在 Azure AD 中建立生產租用戶的應用程式，並獲指派適當的應用程式權限，如步驟 1 所示。
 * 購買符合您需求的容量。 若要深入了解您所需的數量及容量類型，請參閱 [Power BI Embedded 分析容量規劃白皮書](https://aka.ms/pbiewhitepaper)。 您可以在 Azure 中[購買容量](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)。
-* 在進階下，編輯應用程式工作區，並將它指派給進階容量。
+* 在 [進階] 下，編輯工作區，並將其指派給 Premium 容量。
 
     ![進階容量](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
 

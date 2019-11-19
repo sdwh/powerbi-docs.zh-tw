@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 33598798104d88f3044a6689effa54e9b4256274
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e75c9b86b20eda2de630f2b27caa6b88a687fbb4
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139046"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432081"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>從問與答將磚釘選到儀表板
 ## <a name="how-to-pin-a-tile-from-qa"></a>如何從問與答釘選磚
@@ -52,7 +52,7 @@ ms.locfileid: "61139046"
    ![含有圖格的儀表板](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-* 當您開始輸入問題時，問與答會立即開始從與目前儀表板相關聯的所有資料集搜尋最佳回應。  「目前儀表板」是列在上方導覽列中的儀表板。 例如，這個問題將會在 [零售分析範例]  儀表板中提出，而此儀表板是 **mihart** 應用程式工作區的一部分。
+* 當您開始輸入問題時，問與答會立即開始從與目前儀表板相關聯的所有資料集搜尋最佳回應。  「目前儀表板」是列在上方導覽列中的儀表板。 例如，這個問題將會在 [零售分析範例]  儀表板中提出，而此儀表板是 **mihart** 工作區的一部分。
 
   ![階層連結](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **問與答如何知道要使用哪些資料集**？  問與答可存取至少已有一個視覺效果釘選至該儀表板的所有資料集。

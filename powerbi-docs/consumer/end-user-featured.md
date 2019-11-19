@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7f7f488891ddbdac1f377d25cf32c2eb0468c291
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 4f72a07d723a63291d59d6c3824c3616e97b686e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256319"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019847"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI 服務中的精選儀表板
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 許多使用者會有一個比其他任何儀表板更常瀏覽的儀表板。 這可能是我們用來執行業務的儀表板。 或者，可能是包含來自許多不同儀表板和報告之磚彙總的儀表板。
 
 ## <a name="create-a-featured-dashboard"></a>建立精選儀表板
@@ -37,7 +40,7 @@ ms.locfileid: "71256319"
 
 
 1. 開啟您想要設為精選的儀表板。 
-2. 在頂端功能表列中，選取省略符號 (...)，然後選取 [設為精選]  。 
+2. 在頂端功能表列中，選取 [更多選項]  (...)，然後選取 [設為精選儀表板]  。 
    
     ![設為精選圖示](./media/end-user-featured/power-bi-dropdown.png)
 3. 確認您的選擇。
@@ -58,7 +61,7 @@ ms.locfileid: "71256319"
 如果您決定不想要將任何儀表板指定為精選，以下是將儀表板取消精選的方式。
 
 1. 開啟目前的精選儀表板。
-2. 在頂端功能表列中，選取省略符號 (...)，然後選取 [停用精選儀表板]  。
+2. 在頂端功能表列中，選取 [更多選項]  (...)，然後選取 [停用精選儀表板]  。
 
     ![已選取 [停用精選儀表板]](./media/end-user-featured/power-bi-unfeature-newer.png)
    

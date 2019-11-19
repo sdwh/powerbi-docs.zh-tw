@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195297"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432330"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>在您的組織中散發範本應用程式 - Power BI
 
@@ -57,7 +57,7 @@ ms.locfileid: "71195297"
 
 4. 在對話方塊中，選取 [安裝]  。
 
-    ![安裝應用程式](media/service-template-apps-install-distribute/power-install-dialog.png) 如果您有 Power BI Pro 授權，那麼應用程式會安裝到與其相關的應用程式工作區內。 您在相關工作區內自訂應用程式。
+    ![安裝應用程式](media/service-template-apps-install-distribute/power-install-dialog.png) 如果您有 Power BI Pro 授權，即會安裝應用程式及其相關聯的工作區。 您在相關工作區內自訂應用程式。
 
     安裝成功後，您會看到新應用程式已就緒的通知。
 4. 選取 [前往應用程式]  。
@@ -71,7 +71,7 @@ ms.locfileid: "71195297"
 
     您也可以跳過此對話方塊，並透過左側瀏覽窗格中的 [工作區]  直接存取相關工作區。
     >[!NOTE]
-    >安裝範本應用程式同時會安裝為「組織應用程式」  與「應用程式工作區」  。 深入了解如何[在 Power BI 中散發應用程式](service-create-distribute-apps.md)。
+    >安裝範本應用程式會同時安裝「組織應用程式」  和「工作區」  。 深入了解如何[在 Power BI 中散發應用程式](service-create-distribute-apps.md)。
  
 6. 建議您先連線至自己的資料，再將其與同事共用。 此外也建議您修改報表或儀表板，以使其適用於您的組織。 您也可以在這個時候新增其他報表或儀表板。
 

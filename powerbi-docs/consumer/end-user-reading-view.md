@@ -13,12 +13,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: ef955f672bc7266979b1e0b9ddbab6e9b6ae1ff7
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236827"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019584"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>快速入門：了解適用於*取用者*的 Power BI 功能
 在此快速入門中，您會了解如何與 Power BI 互動，探索資料驅動商務見解。 本文不適合用於深入了解，而是快速探索 Power BI **取用者**可用的許多動作。
@@ -118,7 +118,7 @@ Power BI 會在值的增加或減少程度超過所設定的限制時，傳送�
 ### <a name="favorite-a-dashboard"></a>將儀表板設為我的最愛
 當您將內容設為「我的最愛」  時，便可從瀏覽列存取它。 Power BI 中幾乎每一個區域都能看到瀏覽列。 我的最愛通常是儀表板、報表頁面，以及您最常前往的應用程式。
 
-從 Power BI 服務的右上角，選取 [我的最愛]  ；如果看不到它，請選取省略符號 (...)，並從下拉式清單中選取 [我的最愛]  。 
+從 Power BI 服務的右上角，選取 [我的最愛]  ；如果看不到，請選取 [更多選項]  (...)，並從下拉式清單選取 [我的最愛]  。 
    
 ![[我的最愛] 圖示](./media/end-user-reading-view/power-bi-favorites.png)
 
@@ -168,7 +168,7 @@ Easily navigate between the visualizations on the report page.
 ### <a name="sort-a-visualization"></a>排序視覺效果
 報表頁面上的視覺效果可進行排序，並儲存您套用的變更。 
 
-將游標暫留在視覺效果上來啟用它，然後選取省略符號 (...) 來開啟排序選項。
+將游標暫留在視覺效果上來予以啟用，並選取 [更多選項]  (...) 來開啟排序選項。
 
 ![排序圖表](media/end-user-reading-view/sort.gif) 
 
@@ -177,7 +177,7 @@ Easily navigate between the visualizations on the report page.
 ### <a name="show-the-data-used-to-create-a-visualization"></a>顯示用來建立視覺效果的資料
 Power BI 視覺效果是使用基礎資料集中的資料所建構。 如果您對背景資料有興趣，Power BI 可讓您「顯示」  用來建立視覺效果的資料。 當您選取 [顯示資料]  時，Power BI 會在視覺效果下方 (或旁邊) 顯示資料。
 
-在視覺效果啟用的情況下，選取省略符號 (...) 並選擇 [顯示資料]  。
+在視覺效果啟用的情況下，選取 [更多選項]  (...) 並選擇 [顯示資料]  。
    
    ![選取 [顯示資料]](./media/end-user-show-data/power-bi-explore-show-data.png)
 

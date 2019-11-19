@@ -9,24 +9,24 @@ featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/01/2019
+ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91ae7fbbba8b9ba63e8b429c8b2ef3a3adb1c95e
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 075985ce2d4eec1244827c65476c81774196a449
+ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307162"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048865"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 報表的視覺效果
 
-視覺效果會顯示在資料中探索到的見解。 Power BI 報表可能需要有一個視覺效果的單一頁面，或是它可能會有充滿視覺效果的頁面。 在 Power BI 服務中，視覺效果可以[從報表釘選到儀表板](../service-dashboard-pin-tile-from-report.md)。
+視覺效果會顯示在資料中探索到的見解。 Power BI 報表可能需要有一個視覺效果的單一頁面，或是它可能會有充滿視覺效果的頁面。 在 Power BI 服務中，視覺效果可以[從報表釘選至儀表板](../service-dashboard-pin-tile-from-report.md)。
 
-請務必區隔報表「設計師」  和報表「取用者」  。  如果您是建置或修改報表的人，您就是設計師。  設計師具有報表及其基礎資料集的編輯權限。 在 Power BI Desktop 中，這表示您可以在資料檢視中開啟資料集，並在報表檢視建立視覺效果。 在 Power BI 服務中，這表示您可以用[編輯檢視](../consumer/end-user-reading-view.md)在報表編輯器中開啟資料集或報表。 如果報表或儀表板已[與您共用](../consumer/end-user-shared-with-me.md)，您就是報表**取用者**。 您可以檢視報表及其視覺效果並與之互動，但您無法儲存主要變更。
+請務必區隔報表「設計師」  和報表「取用者」  。  如果您是建置或修改報表的人，您就是設計師。  設計師具有報表及其基礎資料集的編輯權限。 在 Power BI Desktop 中，這表示您可以在資料檢視中開啟資料集，並在報表檢視建立視覺效果。 在 Power BI 服務中，這表示您可以用[編輯檢視](../consumer/end-user-reading-view.md)在報表編輯器中開啟資料集或報表。 如果報表或儀表板已[與您共用](../consumer/end-user-shared-with-me.md)，您就是報表*取用者*。 您可以檢視報表及其視覺效果並與其互動，但無法與「設計工具」  一樣進行許多變更。
 
 有許多不同的視覺效果類型可以直接從 Power BI 的 [視覺效果] 窗格使用。
 
-![](media/power-bi-report-visualizations/power-bi-templates.png)
+![具有每個視覺效果類型圖示的窗格](media/power-bi-report-visualizations/power-bi-icons.png)
 
 如需更多的選擇，請前往 [Microsoft AppSource 社群網站](https://appsource.microsoft.com)以尋找並[下載](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) \(英文\) Microsoft 和社群所提供的[自訂視覺效果](../developer/visuals/custom-visual-develop-tutorial.md)。
 
@@ -49,7 +49,7 @@ ms.locfileid: "72307162"
 
 ![釘選到視覺效果窗格](media/power-bi-report-visualizations/power-bi-pin-custom-visual-option.png)
 
-視覺效果一經釘選，就會上移以和其他內建視覺效果待在一起。 假設您已登入，則此視覺效果現在會繫結至您登入的帳戶，因此您建立的任何新報表都會自動包含此視覺效果。 這樣就很容易標準化特定的視覺效果，而不需要將它新增至每一份報表。
+視覺效果一經釘選，就會上移以和其他內建視覺效果待在一起。 假設您已登入，則此視覺效果現在會繫結至您登入的帳戶，因此您建置的任何新報表都會自動包含此視覺效果。 這樣就很容易標準化特定的視覺效果，而不需要將它新增至每一份報表。
 
 ![個人化的視覺效果窗格](media/power-bi-report-visualizations/power-bi-personalized-visualization-pane.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020255"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021109"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>在 Power BI 中建立傳統工作區
 
@@ -39,7 +39,7 @@ ms.locfileid: "72020255"
 ### <a name="add-an-image-to-your-office-365-workspace-optional"></a>將影像新增至 Office 365 工作區 (選擇性)
 Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用程式的縮寫。 但是，您可能會想要使用影像來進行自訂。 若要新增影像，您需要有 Exchange Online 的授權。
 
-1. 選取 [工作區]  ，並選取工作區名稱旁邊的省略符號 (...)，然後選取 [成員]  。 
+1. 選取 [工作區]  ，並選取工作區名稱旁邊的 [更多選項]  (...)，然後選取 [成員]  。 
    
      ![選取工作區成員](media/service-create-workspaces/power-bi-workspace-old-members.png)
    

@@ -11,12 +11,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544279"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021542"
 ---
 # <a name="troubleshooting-tile-errors"></a>圖格錯誤的疑難排解
 以下是您在使用圖格時可能發生的常見錯誤和說明。
@@ -69,7 +69,7 @@ ms.locfileid: "72544279"
 
 如果底層資料集設定為使用 DirectQuery 模式或透過內部部署資料閘道的 Analysis Services 即時連線，就可能發生這種情況。 在此案例中，為資料來源啟用 SSO 之後，圖格會繼續顯示未篩選的資料，直到下一個圖格重新整理到期為止。 在下一個圖格重新整理時，Power BI 會使用已設定的 SSO，而圖格則會顯示根據使用者身分識別篩選的資料。 
 
-若要立即查看已篩選的資料，您可以透過選取儀表板右上方的省略符號 (...)，然後選取 [重新整理儀表板磚]  ，以強制執行磚重新整理。
+若要立即查看已篩選的資料，您可以透過選取儀表板右上方的 [更多選項]  (...)，然後選取 [重新整理儀表板磚]  ，以強制執行磚重新整理。
 
 身為資料集擁有者，您也可以變更磚重新整理頻率，並將它設定為15分鐘，以加速磚重新整理。 選取 Power BI 服務右上角的齒輪圖示，然後選取 [設定]  。 在 [設定]  頁面上，選取 [資料集]  索引標籤。展開 [排定的快取重新整理]  並變更 [重新整理頻率]  。 請務必在 Power BI 執行下一個磚重新整理之後，將設定重設為原始的重新整理頻率。
 

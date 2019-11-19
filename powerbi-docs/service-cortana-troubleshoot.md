@@ -11,12 +11,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 678910000a0062836004b208cb401774c9eb2a9a
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 02e79522baa7580b019cec6956593d88260fb95b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542878"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432119"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>對適用於 Power BI 的 Cortana 進行疑難排解
 本文是系列文的其中一篇。 
@@ -39,7 +39,7 @@ ms.locfileid: "72542878"
    * "show sales"「不會」  傳回 Power BI 結果。   
    * "show me sales fy16"、"sales fy16"、"show sales fy16" 和 "show me sales f"「將」  會傳回 Power BI 結果。    
    * 新增 "powerbi" 字組會算作 2 個必要字組中的其中一個，因此 "powerbi sales"「會」  傳回 Power BI 結果。
-5. 您有任何報表或儀表板的存取或編輯權嗎？ 若為報表，請確認您嘗試搜尋的內容有[回應卡](service-cortana-answer-cards.md)。  針對儀表板，請確定您嘗試搜尋的內容位在 [與我共用]  、應用程式工作區或 [我的工作區]  中。 [使用疑難排解工具](#try-the-cortana-troubleshooting-tool)，協助找出問題。
+5. 您有任何報表或儀表板的存取或編輯權嗎？ 若為報表，請確認您嘗試搜尋的內容有[回應卡](service-cortana-answer-cards.md)。  針對儀表板，請確定您嘗試搜尋的內容位在 [與我共用]  、工作區或 [我的工作區]  中。 [使用疑難排解工具](#try-the-cortana-troubleshooting-tool)，協助找出問題。
 6. 您使用的是行動裝置嗎？  目前，我們只在 Windows 行動裝置上支援 Power BI 與 Cortana 整合。
 7. Cortana 有設定為英文嗎？  目前的 Cortana-Power BI 整合僅支援英文。 開啟 Cortana，然後選取齒輪圖示以顯示 [設定]。 向下捲動到 [Cortana 語言]  並確認其已設為其中一個英文選項。
 

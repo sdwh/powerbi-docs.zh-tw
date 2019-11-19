@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41aaf33602fc8a895d54666736d775ac53d5aaef
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 860aa1de5a91d98e6a50773250e89581fc1d9801
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832422"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021343"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>在傳統工作區共同作業
 Power BI 工作區是與您同事共同作業以使用儀表板、報表和資料集來建立「應用程式」  的絕佳地方。 本文是關於原始的「典型」  工作區。  
@@ -45,7 +45,7 @@ Power BI 工作區是與您同事共同作業以使用儀表板、報表和資�
 ## <a name="collaborate-in-office-365"></a>在 Office 365 中共同作業
 在 Office 365 中共同作業是從 Power BI 中的典型工作區開始。
 
-1. 在 Power BI 服務中，選取 [工作區]  旁的箭號 > 選取工作區名稱旁邊的省略符號 (...)。 
+1. 在 Power BI 服務中，選取 [工作區]  旁的箭號 > 選取工作區名稱旁邊的 [更多選項]  (...)。 
    
    ![[工作區] 功能表](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. 從這個功能表中，您有幾個方法可以和您的群組共同作業︰ 
@@ -56,7 +56,7 @@ Power BI 工作區是與您同事共同作業以使用儀表板、報表和資�
    第一次移至您在 Office 365 中的群組工作區時，可能需要一些時間。 需要 15 到 30 分鐘，然後請重新整理瀏覽器。
 
 ## <a name="have-a-group-conversation-in-office-365"></a>在 Office 365 中建立群組交談
-1. 選取工作區名稱旁邊的省略符號 (...) \> [交談]  。 
+1. 選取工作區名稱旁邊的 [更多選項]  (...) \> [交談]  。 
    
     ![[交談] 索引標籤](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -66,7 +66,7 @@ Power BI 工作區是與您同事共同作業以使用儀表板、報表和資�
 2. 進一步了解[適用於 Office 365 的 Outlook 群組交談](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
 
 ## <a name="schedule-an-event-on-the-group-workspace-calendar"></a>在群組工作區行事曆上排程事件
-1. 選取工作區名稱旁邊的省略符號 (...) \> [行事曆]  。 
+1. 選取工作區名稱旁邊的 [更多選項]  (...) \> [行事曆]  。 
    
    ![[行事曆] 索引標籤](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

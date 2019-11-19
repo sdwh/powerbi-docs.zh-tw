@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 1612ae952489a047be884a25842bd47fd70d8447
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239947"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020196"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 服務的「新外觀」
 
@@ -66,7 +66,7 @@ Power BI 服務 (app.powerbi.com) 有新的外觀，可讓您更輕鬆地檢視�
 
 ### <a name="where-are-file-menu-actions"></a>[檔案] 功能表動作在哪裡？
 
-正在尋找 [檔案]  功能表動作嗎？ 以前位於 [檔案]  功能表上的動作，現在也會在省略符號 (...) 功能表上。 
+正在尋找 [檔案]  功能表動作嗎？ 以前位於 [檔案]  功能表上的動作，現在也會在 [更多選項]  (...) 功能表上。 
 
 ![新外觀中的 [檔案] 功能表](media/service-new-look/power-bi-file-menu-new-look.gif)
 

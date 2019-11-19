@@ -10,14 +10,16 @@ ms.topic: conceptual
 ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d35cdc6e2c6d2c2632fe8a9776ddc366436cff94
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 8a4eee43aeab8be096e8e7b7021763c7e77bd26d
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71251519"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019297"
 ---
 # <a name="show-data-with-power-bi-reports"></a>使用 Power BI 報表顯示資料
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Power BI 視覺效果是使用基礎資料集中的資料所建構。 如果您對背景資料有興趣，Power BI 服務可讓您「顯示」  將用來在報表中建立視覺效果的資料。 當您選取 [顯示資料]  時，Power BI 會在視覺效果下方 (或旁邊) 顯示資料。
 
@@ -25,7 +27,7 @@ Power BI 視覺效果是使用基礎資料集中的資料所建構。 如果您�
 
 ## <a name="show-the-data-being-used-to-create-a-report-visual"></a>顯示用來建立報表視覺效果的資料
 1. 在 Power BI 服務中，[開啟報表](end-user-report-open.md)並選取視覺效果。  
-2. 若要顯示視覺效果背後的資料，請選取省略符號 (...) 並選擇 [顯示資料]  。
+2. 若要顯示視覺效果背後的資料，請選取 [更多選項]  (...) 並選擇 [顯示資料]  。
    
    ![選取 [顯示資料]](./media/end-user-show-data/power-bi-explore-show-data-newer.png)
 3. 根據預設，資料會顯示在視覺效果下方。

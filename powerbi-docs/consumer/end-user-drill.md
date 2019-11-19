@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 24dbce4d825e51d40fc9a42384561d4608f18035
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589499"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019909"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI 視覺效果中的切入模式
 
@@ -128,7 +128,7 @@ ms.locfileid: "72589499"
 ## <a name="show-the-data-as-you-drill"></a>在您切入時顯示資料
 使用 [顯示資料]  以在幕後查看外觀。 每次您切入或展開時，[顯示資料]  即會顯示要用來建置視覺效果的資料。 這可能有助您了解階層、切入和展開如何搭配運作以建置視覺效果。 
 
-在右上角選取省略符號 (...)，然後選取 [顯示資料]  。 
+在右上角選取 [更多選項]  (...)，然後選取 [顯示資料]  。 
 
 ![省略符號功能表的螢幕擷取畫面。](./media/end-user-drill/power-bi-ellipses.png)
 

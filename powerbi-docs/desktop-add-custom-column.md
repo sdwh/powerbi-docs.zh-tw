@@ -7,66 +7,93 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5633370259662141296550aa3d5d2343ac4fedaa
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 25295447736ddb674d23a7b4ac34aa04f44887ba
+ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408567"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72922516"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>在 Power BI Desktop 中新增自訂資料行
-您可以使用 **Power BI Desktop** 中的**查詢編輯器**，輕鬆將資料的新自訂資料行新增到模型。 您可以使用簡單的按鈕建立定義自訂資料行的 [M 公式](https://msdn.microsoft.com/library/mt270235.aspx)，建立自訂資料行並為其重新命名。 M 公式有[完整的函式參考內容集](https://msdn.microsoft.com/library/mt779182.aspx)。 
 
-![](media/desktop-add-custom-column/add-custom-column_01.png)
+在 Power BI Desktop 中，您可以使用查詢編輯器，輕鬆將資料的新自訂資料行新增至模型。 使用查詢編輯器，您可以建立自訂資料行並為其重新命名來建立定義自訂資料行的 [PowerQuery M 公式查詢](https://docs.microsoft.com/en-us/powerquery-m/quick-tour-of-the-power-query-m-formula-language)。 PowerQuery M 公式查詢有[完整的函式參考內容集](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference)。 
 
-建立自訂資料行是您在**查詢編輯器**中建立的另一個**套用的步驟**，表示其可以隨時變更、稍早或稍後移動及修改。
+當您在查詢編輯器中建立自訂資料行時，Power BI Desktop 會在查詢的 [查詢設定]  中，將其新增為 [套用的步驟]  。 您可以隨時進行變更、移動或修改。
 
-## <a name="use-query-editor-to-add-a-new-custom-column"></a>使用查詢編輯器新增自訂資料行
-若要建立新的自訂資料行，請啟動**查詢編輯器**。 您也可以從 **Power BI Desktop** 的 [常用]  功能區選取 [編輯查詢]  以完成這個動作。
+![[新增自訂資料行] 頁面](media/desktop-add-custom-column/add-custom-column_01.png)
 
-![](media/desktop-add-custom-column/add-column-from-example_02.png)
+## <a name="use-query-editor-to-add-a-custom-column"></a>使用查詢編輯器新增自訂資料行
 
-在**查詢編輯器**已啟動，而您也載入一些資料後，就可以依序選取功能區的 [新增資料行]  索引標籤和 [自訂資料行]  ，以新增自訂資料行。
+若要開始建立自訂資料行，請遵循下列步驟：
 
-![](media/desktop-add-custom-column/add-custom-column_02.png)
+1. 啟動 Power BI Desktop 並載入一些資料。
 
-[新增自訂資料行]  隨即顯示，這會在下一節中討論。
+2. 從功能區的 [首頁]  索引標籤，選取 [編輯查詢]  ，然後從功能表選取 [編輯查詢]  。
+
+   ![選取 [編輯查詢]](media/desktop-add-custom-column/add-column-from-example_02.png)
+
+   [查詢編輯器]  視窗隨即出現。 
+
+2. 從功能區的 [新增資料行]  索引標籤，選取 [自訂資料行]  。
+
+   ![選取 [自訂資料行]](media/desktop-add-custom-column/add-custom-column_02.png)
+
+   [新增自訂資料行]  視窗隨即出現。
 
 ## <a name="the-add-custom-column-window"></a>[新增自訂資料行] 視窗
-在 [新增自訂資料行]  視窗中，您會在右方窗格中看到可用欄位的清單，您的自訂資料行名稱位於頂端 (只要在文字方塊中鍵入新名稱，即可為其重新命名)，以及您依據從右側插入的欄位、新增運算子或建立公式而建立 (或撰寫) 的 [**M** 公式](https://msdn.microsoft.com/library/mt779182.aspx)，新的自訂資料行會依此定義。 
 
-![](media/desktop-add-custom-column/add-custom-column_03.png)
+[新增自訂資料行]  視窗具有下列功能： 
+- 可用的資料行清單，位於右側的 [可用的資料行]  清單中。
+
+- 自訂資料行的初始名稱，位於 [新資料行名稱]  方塊中。 您可以重新命名此資料行。
+
+- [PowerQuery M 公式查詢](https://docs.microsoft.com/en-us/powerquery-m/power-query-m-function-reference)，位於 [自訂資料行公式]  方塊中。 您可以建置用來定義新自訂資料行的公式來建立這些查詢。 
+
+   ![[新增自訂資料行] 頁面](media/desktop-add-custom-column/add-custom-column_03.png)
 
 ## <a name="create-formulas-for-your-custom-column"></a>為您的自訂資料行建立公式
-您可以從右側 [可用的資料行:]  清單中選取欄位，然後選取 [<< 插入]  將其新增到自訂資料行公式。 只要按兩下清單中的資料行，也可以加以新增。
 
-在您鍵入公式及建立資料行的同時，會在視窗底部看到指標，即時 (在您鍵入時) 讓您知道是否偵測到任何語法錯誤。 如果一切正常，您會看到綠色勾號。
+1. 從右側的 [可用的資料行]  清單選取資料行，然後選取清單下方的 [插入]  將其新增至自訂資料行公式。 您也可以在清單中按兩下來新增資料行。
 
-![](media/desktop-add-custom-column/add-custom-column_04.png)
+2. 當您輸入公式並建置資料行時，請注意 [新增自訂資料行]  視窗底部的指標。 
 
-但如果您的語法中有某種錯誤，會看到黃色的警告圖示以及偵測到的錯誤，還有會在偵測到錯誤的位置放上游標 (在公式中) 的連結。
+   如果沒有任何錯誤，您會看到綠色的核取記號，以及「未偵測到任何語法錯誤」  訊息。
 
-![](media/desktop-add-custom-column/add-custom-column_05.png)
+   ![[新增自訂資料行] 頁面上的成功語法核取記號](media/desktop-add-custom-column/add-custom-column_04.png)
 
-當您選取 [確定]  時，自訂資料行即新增到模型，而 [已新增自訂]  步驟會新增到查詢的 [套用的步驟]  。
+   如果發生語法錯誤，您會看到黃色的警告圖示，以及公式中錯誤發生位置的連結。
 
-![](media/desktop-add-custom-column/add-custom-column_06.png)
+   ![[新增自訂資料行] 頁面上的錯誤](media/desktop-add-custom-column/add-custom-column_05.png)
 
-如果您在 [套用的步驟]  窗格中按兩下 [已新增自訂]  步驟，[新增自訂資料行]  最會再次顯示，並已載入您建立的自訂資料行公式，準備好讓您在必要時修改。
+3. 選取 [確定]  。 
 
-## <a name="using-the-advanced-editor-for-custom-columns"></a>在自訂資料行使用進階編輯器
-您也可以使用**進階編輯器**建立自訂資料行 (也可以修改任何查詢步驟)。 在**查詢編輯器**中選取 [檢視]  索引標籤，然後選取 [進階編輯器]  以顯示**進階編輯器**。
+   Power BI Desktop 會將自訂資料行新增至模型，並在 [查詢設定]  中將 [已新增自訂]  步驟新增至查詢的 [套用的步驟]  清單。
 
-![](media/desktop-add-custom-column/add-custom-column_07.png)
+   ![將自訂資料行新增至 [查詢設定]](media/desktop-add-custom-column/add-custom-column_06.png)
 
-**進階編輯器**可讓您完整控制查詢。
+4. 若要修改您的自訂資料行，請在 [套用的步驟]  清單中，按兩下 [已新增自訂]  步驟。 
 
+   [新增自訂資料行]  視窗隨即出現，並顯示您所建立的自訂資料行公式。
+
+## <a name="use-the-advanced-editor-for-custom-columns"></a>在自訂資料行使用進階編輯器
+
+建立查詢之後，您也可以使用 [進階編輯器]  來修改查詢的任何步驟。 請遵循下列步驟執行此項作業：
+
+1. 在 [查詢編輯器]  視窗中，選取功能區上的 [檢視]  索引標籤。 
+
+2. 選取 [進階編輯器]  。
+
+   [進階編輯器]  頁面隨即出現，可讓您完整控制查詢。 
+
+   ![[進階編輯器] 頁面](media/desktop-add-custom-column/add-custom-column_07.png)
+
+   
 ## <a name="next-steps"></a>後續步驟
-建立自訂資料行還有其他多種方式，包括依據您提供給**查詢編輯器**的範例建立資料行。 如需從範例建立自訂資料行的詳細資訊，請參閱下列文章：
 
-* [在 Power BI Desktop 中從範例新增資料行](desktop-add-column-from-example.md)
-* [Power Query M 參考](/powerquery-m/power-query-m-reference)  
+- 您可以透過其他方式來建立自訂資料行，例如依據您提供給查詢編輯器的範例來建立資料行。 如需詳細資訊，請參閱[在 Power BI Desktop 中從範例新增資料行](desktop-add-column-from-example.md)。
+
+- 如需 Power Query M 參考資訊，請參閱 [Power Query M 函式參考](/powerquery-m/power-query-m-function-reference)。
 

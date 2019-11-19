@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839746"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431683"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教學課程：建立分頁報表並將它上傳至 Power BI 服務
 
@@ -44,7 +44,7 @@ ms.locfileid: "66839746"
 以下是將編頁報表上傳至 Power BI 服務的必要條件：
 
 - 您需要 [Power BI Pro 授權](service-admin-power-bi-pro-in-your-organization.md)。
-- 您需要在 [Power BI Premium 容量](service-premium-what-is.md)中的服務上具備應用程式工作區。 它在工作區名稱旁邊有一個鑽石圖示 ![Premium 鑽石圖示](media/paginated-reports-quickstart-aw/premium-diamond.png)。
+- 您需要在 [Power BI Premium 容量](service-premium-what-is.md)中的服務上具備工作區。 它在工作區名稱旁邊有一個鑽石圖示 ![Premium 鑽石圖示](media/paginated-reports-quickstart-aw/premium-diamond.png)。
 
 ## <a name="create-the-matrix-with-a-wizard"></a>使用精靈建立矩陣
   
@@ -287,7 +287,7 @@ ms.locfileid: "66839746"
 
 既然您已建立此編頁報表，現在就可將它上傳至 Power BI 服務。
 
-1. 在 Power BI 服務 (http://app.powerbi.com) 的左側瀏覽窗格中，選取 [我的工作區]   >  [建立應用程式工作區]  。
+1. 在 Power BI 服務 (http://app.powerbi.com) 的左側瀏覽窗格中，選取 [工作區]   >  [建立工作區]  。
 
 2. 將工作區命名為 **Azure AW** 或其他唯一的名稱。 您現在是唯一的成員。 
 

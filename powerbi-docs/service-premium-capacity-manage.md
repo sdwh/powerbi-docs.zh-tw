@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1e8218e19ca3949a96a9c701e4a18f9fb088e2a1
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: a2b51d2a03a9d3b88d31bc7d7d232fef0b2251d6
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175220"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431709"
 ---
 # <a name="managing-premium-capacities"></a>管理 Premium 容量
 
@@ -42,7 +42,7 @@ Power BI 管理入口網站的 [容量設定]  頁面會顯示已購買的 V 核
 
 除非在工作區權限中明確指派，否則容量管理員無法存取工作區內容。 他們也無法存取所有的 Power BI 管理區域 (除非已明確指派)，例如使用計量、稽核記錄檔或租用戶設定。 重要的是，容量管理員沒有建立新容量或調整現有容量大小的權限。 管理員是按每個容量來指派，確保他們只能檢視和管理指派給他們的容量。
 
-容量大小選取自可用的 SKU 選項清單，其受限於集區中可用的 V 核心數目。 您可以從集區建立多個容量，這可能來自一或多個已購買的 SKU。 例如，P3 SKU (32 個 V 核心) 可用來建立三個容量：一個 P2 (16 個 V 核心) 和兩個 P1 (2 x 8 個 V 核心)。 如[最佳化 Premium 容量](service-premium-capacity-optimize.md)一文所述，藉由建立較小的容量，可以達到更佳的效能和規模。 下圖顯示虛構組織 Contoso 的範例設定，其中包含五個 Premium 容量 (3 個 P1 及 2 個 P3，每個內含多個應用程式工作區)，以及共用容量中的數個工作區。
+容量大小選取自可用的 SKU 選項清單，其受限於集區中可用的 V 核心數目。 您可以從集區建立多個容量，這可能來自一或多個已購買的 SKU。 例如，P3 SKU (32 個 V 核心) 可用來建立三個容量：一個 P2 (16 個 V 核心) 和兩個 P1 (2 x 8 個 V 核心)。 如[最佳化 Premium 容量](service-premium-capacity-optimize.md)一文所述，藉由建立較小的容量，可以達到更佳的效能和規模。 下圖顯示虛構組織 Contoso 的範例設定，其中包含五個 Premium 容量 (3 個 P1 及 2 個 P3，每個內含多個工作區)，以及共用容量中的數個工作區。
 
 ![虛構組織 Contoso 的範例設定](media/service-premium-capacity-manage/contoso-organization-example.png)
 
@@ -66,7 +66,7 @@ Power BI 服務管理員和 Office 365 全域管理員可以修改 Premium 容�
 
 ### <a name="assigning-workspaces-to-capacities"></a>將工作區指派給容量
 
-在 [工作區]  窗格中，您可以將工作區指派給 Power BI 管理入口網站中的 Premium 容量，或針對應用程式工作區進行指派。
+您可以在 Power BI 管理入口網站中將工作區指派給 Premium 容量，或針對工作區，在 [工作區]  窗格中進行指派。
 
 容量管理員以及 Office 365 全域管理員或 Power BI 服務管理員，都可以在 Power BI 管理入口網站中大量指派工作區。 大量指派可套用至：
 

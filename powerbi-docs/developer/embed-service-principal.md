@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: d8e1edc7d9d474911e7e7a58c2c7da728358845c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073091"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429262"
 ---
 # <a name="service-principal-with-power-bi"></a>搭配 Power BI 的服務主體
 
@@ -58,8 +58,8 @@ ms.locfileid: "71073091"
 |------------------------------------------------------|---------------------|-------------------|
 | 可以登入 Power BI 服務  | 是 | 否 |
 | 已在 Power BI 系統管理入口網站啟用 | 否 | 是 |
-| [使用應用程式工作區 (v1)](../service-create-workspaces.md) | 是 | 否 |
-| [使用新的應用程式工作區 (v2)](../service-create-the-new-workspaces.md) | 是 | 是 |
+| [使用工作區 (v1)](../service-create-workspaces.md) | 是 | 否 |
+| [使用新的工作區 (v2)](../service-create-the-new-workspaces.md) | 是 | 是 |
 | 若與 Power BI Embedded 搭配使用，需要是工作區管理員 | 是 | 是 |
 | 可以使用 Power BI REST API | 是 | 是 |
 | 需要全域管理員才能建立 | 是 | 否 |
@@ -141,7 +141,7 @@ ms.locfileid: "71073091"
 
 ### <a name="how-to-get-the-service-principal-object-id"></a>如何取得服務主體物件識別碼
 
-若要將服務主體指派給新的應用程式工作區，請使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)。 若要參考作業的服務主體或進行變更，請使用**服務主體物件識別碼** — 例如，以管理員身分將服務主體套用至工作區。
+若要將服務主體指派給新的工作區，請使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)。 若要參考作業的服務主體或進行變更，請使用**服務主體物件識別碼** — 例如，以管理員身分將服務主體套用至工作區。
 
 以下是從 Azure 入口網站取得服務主體物件識別碼的步驟。
 
@@ -166,7 +166,7 @@ ms.locfileid: "71073091"
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-* 服務主體僅會使用[新的應用程式工作區](../service-create-the-new-workspaces.md)。
+* 服務主體只會使用[新的工作區](../service-create-the-new-workspaces.md)。
 * 使用服務主體時，不支援 [我的工作區]  。
 * 需要專用容量才能移至生產環境。
 * 您無法使用服務主體登入 Power BI 入口網站。

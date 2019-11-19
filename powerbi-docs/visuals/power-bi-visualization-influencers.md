@@ -7,15 +7,15 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 05/22/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b11d2e5ce330c111313ef0d4bd8f2b1f1a89ce43
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544106"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72776000"
 ---
 # <a name="key-influencers-visualization"></a>關鍵影響因素視覺效果
 
@@ -58,7 +58,7 @@ ms.locfileid: "72544106"
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-產品經理希望您了解哪些因素會導致客戶對您的雲端服務留下負面評論。 若要跟著做，請在 Power BI Desktop 中開啟[客戶意見反應 PBIX 檔案](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)。 您也可以下載 [Power BI 服務或 Power BI Desktop 的客戶意見反應 Excel 檔案](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)。 
+產品經理希望您了解哪些因素會導致客戶對您的雲端服務留下負面評論。 若要跟著做，請在 Power BI Desktop 中開啟[客戶意見反應 PBIX 檔案](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)。 您也可以下載 [Power BI 服務或 Power BI Desktop 的客戶意見反應 Excel 檔案](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)。 選取任一連結，然後從出現的 GitHub 頁面選取 [下載]  。
 
 > [!NOTE]
 > 客戶意見反應資料集乃基於 [Moro et al., 2014] S. Moro、P. Cortez 和 P. Rita。 "A Data-Driven Approach to Predict the Success of Bank Telemarketing" (預測銀行電話行銷成功的資料導向方法)。 *Decision Support Systems*，Elsevier，62:22-31，2014 年 6 月。 
@@ -240,7 +240,7 @@ ms.locfileid: "72544106"
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>分析量值或摘要資料行計量
 
-在量值或摘要資料行的案例中，分析會預設為[上述](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)的**連續分析類型**。 這無法變更。 分析量值/摘要資料行與未摘要數值資料行之間的最大差異，在於分析執行的層級。
+在量值或摘要資料行的案例中，分析會預設為[上述](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)的**連續分析類型**。 這無法變更。 分析量值/摘要資料行與未摘要數值資料行之間的最大差異，在於分析執行的層級。
 
 在未摘要資料行的案例中，分析一律會在資料表層級執行。 在上述房價範例中，我們分析了 [房價]  計量來查看哪些因素會影響房價變高/變低。 分析會自動在資料表層級執行。 在我們的資料表中，每個房屋有唯一的識別碼，因此分析會在房屋層級執行。
 
@@ -254,7 +254,7 @@ ms.locfileid: "72544106"
 
 此分析經過相當程度的摘要，因此迴歸模型很難在資料中找到可從中學習的任何模式。 我們應該以更詳細的層級執行分析，以獲得更好的結果。 如果我們想要在房屋層級分析房價，則必須明確將 [識別碼]  欄位新增至分析。 不過，我們不想要將房屋識別碼視為影響因素。 了解房價是否會隨著房屋識別碼增加而增加並沒有幫助。 此時 [展開依據]  欄位部分選項會派上用場。 您可以使用 [展開依據]  新增要用於設定分析層級的欄位，而不需要尋找新的影響因素。
 
-讓我們看看將 [識別碼]  新增至 [展開依據]  之後的視覺效果外觀。 定義您要評估量值的層級之後，解譯影響因素的方式會與[未摘要的數值資料行](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)完全相同。
+讓我們看看將 [識別碼]  新增至 [展開依據]  之後的視覺效果外觀。 定義您要評估量值的層級之後，解譯影響因素的方式會與[未摘要的數值資料行](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)完全相同。
 
 ![量值資料表](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

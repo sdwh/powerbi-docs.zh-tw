@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/11/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 80033cafbe66303a1d6f55bba61f7d19449dc45b
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 77d26d32c70c3047636eb03d1211aff3736c8f0c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589512"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430181"
 ---
 # <a name="export-data-from-a-visual"></a>匯出視覺效果的資料
 
@@ -30,7 +30,7 @@ ms.locfileid: "72589512"
 
     ![應用程式儀表板](media/end-user-export/power-bi-dashboards.png)
 
-2. 將滑鼠停留在視覺效果上方以顯示省略符號 (...)，然後按一下以顯示動作功能表。
+2. 將滑鼠暫留在視覺效果上方以顯示 [更多選項]  (...)，然後按一下以顯示動作功能表。
 
     ![選取省略符號時出現的功能表](media/end-user-export/power-bi-action-menu.png)
 

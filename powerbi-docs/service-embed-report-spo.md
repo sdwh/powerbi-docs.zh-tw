@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: c5d35c1e7fef15c72314738c1d67f81656dc3101
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6fb02a3ea31dd3bed6f1013d5e81237345aef40c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073604"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431900"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -79,11 +79,11 @@ ms.locfileid: "71073604"
 > [!IMPORTANT]
 > 請務必檢閱可以看到 Power BI 服務內報表的成員，並將存取權授與未列出的成員。
 
-有兩種方式可提供 Power BI 的報表存取權。 如果您使用 Office 365 群組來建置 SharePoint Online 小組網站，第一種方式是要將使用者列為 **Power BI 服務內的應用程式工作區**及 **SharePoint 頁面**的成員。 如需詳細資訊，請參閱如何[管理應用程式工作區](service-manage-app-workspace-in-power-bi-and-office-365.md)。
+有兩種方式可提供 Power BI 的報表存取權。 如果您使用 Office 365 群組來建置 SharePoint Online 小組網站，第一種方式是要將使用者列為 **Power BI 服務內工作區**及 **SharePoint 頁面**的成員。 如需詳細資訊，請參閱如何[管理工作區](service-manage-app-workspace-in-power-bi-and-office-365.md)。
 
 第二種方式是在應用程式中內嵌報表，並將其直接與使用者共用：  
 
-1. 必須身為 Pro 使用者的作者，在應用程式工作區中建立報表。 若要與「Power BI 免費使用者」  共用，您需要將該應用程式工作區設定為「Premium 工作區」  。
+1. 必須為 Pro 使用者的作者才可在工作區中建立報表。 若要與「Power BI 免費使用者」  共用，您需要將該工作區設為「Premium 工作區」  。
 
 2. 作者會發佈應用程式，然後加以安裝。 作者必須安裝應用程式，使其可以存取用於在 SharePoint Online 中進行內嵌的報表 URL。
 
@@ -93,7 +93,7 @@ ms.locfileid: "71073604"
 
 4. 作者開啟應用程式，並移至報表。
 
-5. 作者從應用程式安裝的報表複製內嵌報表 URL。 請勿使用來自應用程式工作區的原始報表 URL。
+5. 作者從應用程式安裝的報表複製內嵌報表 URL。 請勿使用來自工作區的原始報表 URL。
 
 6. 在 SharePoint Online 中建立新的小組網站。
 

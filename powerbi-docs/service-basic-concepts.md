@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a4c385b9c8e8a28de3b9a5e1dd84651f87ef000
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 80d878cc5a8ed0df294b99390fb87d8099bfccb5
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542996"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431324"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 服務中的設計工具基本概念
 
@@ -48,10 +48,10 @@ ms.locfileid: "72542996"
 Power BI 有 4 個主要的建置組塊： **_儀表板_** 、 **_報表_** 、 **_活頁簿_** 及 **_資料集_** 。 而且其會全部整理到 **_工作區_** 中。 在我們深入探討四個建置組塊之前，請務必先了解工作區，因此讓我們先從這裡開始。
 
 ## <a name="workspaces"></a>工作區
-工作區是 Power BI 中儀表板、報告、活頁簿和資料集的容器。 有兩種類型的工作區：「我的工作區」  和「應用程式工作區」  。 所以，何謂「應用程式」  ？ Power BI 應用程式  是為了提供重要計量給組織的 Power BI 終端使用者而建立的一組儀表板和報告。 應用程式皆為互動式，但終端使用者無法編輯。
+工作區是 Power BI 中儀表板、報告、活頁簿和資料集的容器。 有兩種類型的工作區：「我的工作區」  和「工作區」  。 所以，何謂「應用程式」  ？ Power BI 應用程式  是為了提供重要計量給組織的 Power BI 終端使用者而建立的一組儀表板和報告。 應用程式皆為互動式，但終端使用者無法編輯。
 
-- [我的工作區]  是可供任何 Power BI 客戶處理自己的內容的個人工作區。 只有您可以存取您的 [我的工作區]。 您可以從 [我的工作區] 共用儀表板和報表。 如果您想要在儀表板和報表上共同作業，或是建立應用程式，則應在應用程式工作區中工作。      
--  [應用程式工作區]  用於共同作業並與同事共用內容。 它們也是您為組織建立、發佈及管理應用程式的地方。 將它們視為將構成 Power BI 應用程式之內容的暫存區域與容器。 您可以將同事新增至您的應用程式工作區，以及在儀表板、報告、活頁簿和資料集上共同作業。 應用程式工作區的所有成員都需要 Power BI Pro 授權。 應用程式取用者 (可以存取應用程式的同事) 不一定需要 Pro 授權。 深入閱讀[新增工作區](service-create-the-new-workspaces.md)。  
+- [我的工作區]  是可供任何 Power BI 客戶處理自己的內容的個人工作區。 只有您可以存取您的 [我的工作區]。 您可以從 [我的工作區] 共用儀表板和報表。 如果您想要在儀表板和報表上共同作業，或建立應用程式，則應在工作區中工作。      
+-  [工作區]  用於共同作業並與同事共用內容。 它們也是您為組織建立、發佈及管理應用程式的地方。 將它們視為將構成 Power BI 應用程式之內容的暫存區域與容器。 您可以將同事新增至您的工作區，以及在儀表板、報告、活頁簿和資料集上共同作業。 工作區的所有成員都需要 Power BI Pro 授權。 應用程式取用者 (可以存取應用程式的同事) 不一定需要 Pro 授權。 深入閱讀[新增工作區](service-create-the-new-workspaces.md)。  
 
 若要深入了解一般共用，請從[共用您工作時使用儀表板的方式](service-how-to-collaborate-distribute-dashboards-reports.md)開始。
 
@@ -62,7 +62,7 @@ Power BI 有 4 個主要的建置組塊： **_儀表板_** 、 **_報表_** 、 
 
 資料集與「工作區」  相關聯，而單一資料集可以是許多工作區的一部分。 當您開啟工作區時，相關聯的資料集會列在 [資料集]  索引標籤之下。每個列出的資料集代表單一來源的資料，例如 OneDrive 上的 Excel 活頁簿、內部部署的 SSAS 表格式資料集，或 Salesforce 資料集。 其支援許多不同的資料來源，同時我們會不停加入新的資料來源。 查看[可搭配 Power BI 使用的資料集類型](service-get-data.md)清單。
 
-在下列範例中，我已選取「銷售與行銷」應用程式工作區，並按下了 [資料集]  的索引標籤。
+在以下範例中，我已選取「銷售與行銷」工作區，並按下了 [資料集]  的索引標籤。
 
 ![選取資料集](media/service-basic-concepts/power-bi-datasets.png)
 
@@ -96,7 +96,7 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
 
 根據預設，報告會在 [閱讀檢視] 中開啟。  請直接選取 [編輯報告]  ，在 [編輯檢視] 中開啟報告 (如果您有必要權限)。
 
-在下列範例中，我已選取「銷售與行銷」應用程式工作區，並按下了 [報告]  的索引標籤。
+在以下範例中，我已選取「銷售與行銷」工作區，並按下了 [報表]  的索引標籤。
 
 ![選取報表](media/service-basic-concepts/power-bi-reports.png)
 
@@ -224,7 +224,7 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
    ![加上標籤的圖示按鈕](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>後續步驟
-- [Power BI 是什麼？](power-bi-overview.md)  
+- [Power BI 是什麼？](fundamentals/power-bi-overview.md)  
 - [Power BI 影片](videos.md)  
 - [報告編輯器.-.進行導覽](service-the-report-editor-take-a-tour.md)
 

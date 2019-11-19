@@ -12,14 +12,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b52a858d10bb7f508d39e2d4e9678e48e01394f5
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 10fcb7420c261379d596666589a0f6707cf70160
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100261"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019454"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>檢視 Power BI 服務中的相關內容
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 [相關內容]  窗格會顯示您的 Power BI 服務內容 (儀表板、報表及資料集) 如何互連。 [相關內容]  窗格也是用來採取動作的啟動台。 您可以從這裡執行一些動作，例如開啟儀表板、開啟報表、產生見解、在 Excel 中分析資料等。  
 
 在 Power BI 中，報表是建立在資料集之上，報表視覺效果會釘選到儀表板，且儀表板視覺效果會連結回報表。 但您要如何知道，哪些儀表板裝載了來自「行銷」報表的視覺效果？ 要怎麼找到那些儀表板？ 您的「採購」儀表板是否使用來自多個資料集的視覺效果？ 如果有，儀表板名稱為何、如何加以開啟和編輯？ 您的 HR 資料集是否已用於任何報表或儀表板？ 或者，是否可以移動它而不會造成任何中斷的連結？ 在 [相關內容]  窗格，這類問題都能獲得解答。  該窗格不僅顯示相關內容，還能讓您對內容採取動作，並在相關內容之間輕鬆瀏覽。
@@ -36,7 +39,7 @@ ms.locfileid: "71100261"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M#t=3m05s" frameborder="0" allowfullscreen></iframe>
 
-在儀表板或報表開啟的情況下，選取功能表列中的省略符號 (...)，然後從下拉式清單中選擇 [檢視相關項目]  。
+在儀表板或報表開啟的情況下，選取功能表列中的 [更多選項]  (...)，然後從下拉式清單中選擇 [檢視相關項目]  。
 
 ![省略符號下拉式清單](./media/end-user-related/power-bi-dropdown.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 948776a12af2d99da2d84d07c9298f9ec0558c7b
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307933"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442941"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 
@@ -93,14 +93,14 @@ Power BI 重新整理作業可能是由多個重新整理類型組成，包括�
 
 #### <a name="data-refresh"></a>資料重新整理
 
-對於 Power BI 使用者，重新整理資料通常表示會根據重新整理排程或隨選從原始資料來源將資料匯入資料集。 您可以每天執行多次資料集重新整理，這在基礎來源資料經常變更的情況下為必要。 Power BI 限制共用容量的資料集每天可重新整理八次。 如果資料集位於 Premium 容量上，您每天可以執行最多 48 次重新整理。 如需詳細資訊，請參閱本文稍後的＜設定排程重新整理＞。
+對於 Power BI 使用者，重新整理資料通常表示會根據重新整理排程或隨選從原始資料來源將資料匯入資料集。 您可以每天執行多次資料集重新整理，這在基礎來源資料經常變更的情況下為必要。 Power BI 限制共用容量的資料集每天可重新整理八次。 如果資料集位於 Premium 容量上，則您可在資料集設定中排程每天最多重新整理 48 次。 如需詳細資訊，請參閱本文稍後的＜設定排程重新整理＞。
 
-另請務必注意，每日重新整理限制對排程及隨選重新整理均適用。 您可以在 [資料集] 功能表中選取 [立即重新整理]  來觸發隨選重新整理，如下列螢幕擷取畫面所示。 您也可以使用 Power BI REST API，透過程式設計方式觸發資料重新整理。 如果您有興趣建置自己的重新整理解決方案，請參閱[資料集 - 重新整理資料集](/rest/api/power-bi/datasets/refreshdataset)。
+另請務必注意，每日重新整理次數的共用容量限制同時適用於排程重新整理及 API 重新整理，為兩者的合計。 您也可以在 [資料集] 功能表中選取 [立即重新整理]  ，以觸發隨選重新整理，如下列螢幕擷取畫面所示。 重新整理限制不包含隨選重新整理次數。 另請注意，Premium 容量上的資料集不限制 API 重新整理次數。 如有興趣使用 Power BI REST API 建置自己的重新整理解決方案，請參閱[資料集 - 重新整理資料集](/rest/api/power-bi/datasets/refreshdataset)。
 
 ![立即重新重理](media/refresh-data/refresh-now.png)
 
 > [!NOTE]
-> 資料重新整理必須在 2 小時內完成。 如果您的資料集需要較長時間執行重新整理作業，請考慮將資料集移至 Premium 容量。 在 Premium，重新整理持續時間上限為 5 小時。
+> 共用容量資料重新整理必須在 2 小時內完成。 如果您的資料集需要較長時間執行重新整理作業，請考慮將資料集移至 Premium 容量。 在 Premium，重新整理持續時間上限為 5 小時。
 
 #### <a name="onedrive-refresh"></a>OneDrive 重新整理
 
@@ -134,7 +134,7 @@ Power BI 重新整理作業可能是由多個重新整理類型組成，包括�
 
 #### <a name="tile-refresh"></a>磚重新整理
 
-Power BI 會為儀表板上的每個磚視覺效果維護一個快取，並在資料變更時主動更新磚快取。 換句話說，磚重新整理會在資料重新整理之後自動發生。 這對排程及隨選重新整理作業均適用。 您也可以選取儀表板右上方的省略符號 (...)，然後選取 [重新整理儀表板磚]  ，以強制執行磚重新整理。
+Power BI 會為儀表板上的每個磚視覺效果維護一個快取，並在資料變更時主動更新磚快取。 換句話說，磚重新整理會在資料重新整理之後自動發生。 這對排程及隨選重新整理作業均適用。 您也可以選取儀表板右上方的 [更多選項]  (...)，然後選取 [更新儀表板的磚]  來強制執行重新整理磚。
 
 ![重新整理儀表板磚](media/refresh-data/refresh-dashboard-tiles.png)
 

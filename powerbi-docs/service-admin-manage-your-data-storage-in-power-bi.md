@@ -1,6 +1,6 @@
 ---
 title: 管理您工作區中的資料儲存體
-description: 了解如何管理您個人或應用程式工作區中的資料儲存體，以確保您可以繼續發佈報表和資料集。
+description: 了解如何管理您個人或工作區中的資料儲存體，以確保您可以繼續發佈報表和資料集。
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,24 +11,24 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: a46fbb0679de30e554003d858e01756b9b242b1b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ea187de55eec2667abe2eed017481180910b7619
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61189834"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431375"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>管理 Power BI 工作區中的資料儲存體
 
-了解如何管理您個人或應用程式工作區中的資料儲存體，以確保您可以繼續發佈報表和資料集。
+了解如何管理您個人或工作區中的資料儲存體，以確保您可以繼續發佈報表和資料集。
 
-使用者和應用程式工作區有自己的資料容量：
+使用者和工作區有自己的資料容量：
 
 * 所有使用者都有最多 10 GB 的資料儲存體。
-* 具有 Power BI Pro 授權的使用者可以建立應用程式工作區，而每個工作區都有最多 10 GB 的資料儲存體。
-* Premium 容量中的應用程式工作區不會計入 Power BI Pro 使用者的儲存體。
+* 具有 Power BI Pro 授權的使用者可以建立工作區，而每個工作區都有最多 10 GB 的資料儲存體。
+* Premium 容量中的工作區不會計入 Power BI Pro 使用者的儲存體。
 
-在租用戶層級，每位 Pro 使用者在租用戶中的所有 Pro 使用者和應用程式工作區之間的總使用量不能超過 10 GB。
+在租用戶層級，每個 Pro 使用者在租用戶中的所有 Pro 使用者和工作區之間總使用量不能超過 10 GB。
 
 請閱讀 [Power BI 定價模型](https://powerbi.microsoft.com/pricing)之其他功能的相關資訊。
 
@@ -63,15 +63,15 @@ ms.locfileid: "61189834"
 
 請記住，您或其他人可能會有依據某個資料集的報表和儀表板。 如果您刪除該資料集，這些報表和儀表板將無法再運作。
 
-## <a name="manage-your-app-workspace"></a>管理您的應用程式工作區
-1. 選取 [工作區]  旁的箭號 \> 選取應用程式工作區的名稱。
+## <a name="manage-your-workspace"></a>管理工作區
+1. 選取 [工作區]  旁的箭號 \> 選取工作區的名稱。
    
-    ![選取應用程式工作區](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+    ![選取工作區](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
 2. 選取右上角的齒輪圖示 ![齒輪圖示](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> [管理群組儲存體]  。
    
     頂端列會顯示已使用的群組儲存空間限制量。
    
-    ![管理應用程式工作區儲存體](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![管理工作區儲存體](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     資料集和報表會分成兩個索引標籤：
    
@@ -80,7 +80,7 @@ ms.locfileid: "61189834"
 3. 若要刪除資料集或報表，請選取垃圾桶圖示 ![垃圾桶圖示](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
-   > 應用程式工作區具有編輯權限的所有成員，都有權從應用程式工作區刪除資料集和報表。
+   > 工作區具有編輯權限的所有成員，都有權從工作區刪除資料集和報表。
    > 
    > 
 

@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 564c3d03a7879cd7788e19055d8c11e4de46013f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 7e66cbf11c8177a12dbbf825873adb4cef5f26fd
+ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543874"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73169045"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>重新整理疑難排解案例
 
@@ -25,6 +25,12 @@ ms.locfileid: "72543874"
 > 如果您遇到下列以外的案例且發生問題，您可以在[社群網站](http://community.powerbi.com/)上要求進一步協助，也可以建立[支援票證](https://powerbi.microsoft.com/support/)。
 >
 >
+
+## <a name="email-notifications"></a>電子郵件通知
+
+如果您是從電子郵件通知進入本文，且不想再收到關於重新整理問題的電子郵件，請洽詢 Power BI 系統管理員。請要求其從 Power BI 中適當資料集中移除您的電子郵件或所訂閱電子郵件清單。 Power BI 系統管理員可以從 Power BI 管理入口網站中的下列區域執行此動作。
+
+![重新整理通知的電子郵件](media/refresh-troubleshooting-refresh-scenarios/refresh-email.png)
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>無法使用 Web 連接器來進行重新整理
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: e7a9b4da760f02672f51aa7ace0f3bb19c501834
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a5b04c5b3325a9fd4d3bb11aa1943e62cf2c90c
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770143"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021463"
 ---
 # <a name="manage-content-in-the-web-portal"></a>管理入口網站中的內容 
 Power BI 報表伺服器入口網站是可檢視、儲存和管理您的 Power BI、行動裝置、編頁報表及 KPI 的內部部署位置。
@@ -56,7 +56,7 @@ Power BI 報表伺服器入口網站是可檢視、儲存和管理您的 Power B
 ## <a name="manage-items-in-the-web-portal"></a>管理入口網站中的項目
 Power BI 報表伺服器會提供您儲存在入口網站之項目的詳細控制。 例如，您可以對個別的編頁報表設定訂用帳戶、快取、快照集及安全性。
 
-1. 選取項目右上角的省略符號 (...)，然後選取 [管理]  。
+1. 選取項目右上角的 更多選項  (...)，然後選取 管理  。
    
     ![選取 [管理]](media/getting-around/report-server-web-portal-manage-ellipsis.png)
 2. 選擇您想要設定的屬性或其他功能。

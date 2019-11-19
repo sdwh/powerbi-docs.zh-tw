@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6e425f146228d0139b9eec914a44ed5dc732fe98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 667b6eac288d3be35eac619b669498b6d7381dc3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514775"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019257"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>使用 Power BI Desktop 中的查看資料和查看記錄
 在 **Power BI Desktop** 中，您可以向下鑽研到視覺效果的詳細資料，並查看所選視覺效果基底資料的文字表示或個別資料記錄。 這些功能有時稱為「按一下」  ，或「鑽研」  或「鑽研到詳細資料」  。
@@ -41,7 +41,7 @@ ms.locfileid: "65514775"
 
 ![功能區中的 [查看資料]](media/desktop-see-data-see-records/see-data1.png)
 
-若要查看資料，您也可以在視覺效果上按一下滑鼠右鍵，然後從顯示的功能表中選取 [顯示資料]  ，或是選取視覺效果右上角的**更多選項**省略符號 (...)，然後選取 [顯示資料]  。
+若要查看資料，您也可以用滑鼠右鍵按一下視覺效果，然後從顯示的功能表選取 [顯示資料]  ，或選取視覺效果右上角的 [更多選項]  (...)，然後選取 [顯示資料]  。
 
 ![按一下滑鼠右鍵的 [顯示資料]](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![更多選項的 [顯示資料]](media/desktop-see-data-see-records/see-data3.png)
 

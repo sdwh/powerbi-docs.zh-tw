@@ -11,12 +11,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: cbb9fa77c529052e32800e0a72a6263b770840d0
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325447"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060665"
 ---
 # <a name="use-auditing-within-your-organization"></a>在組織內使用稽核
 
@@ -162,7 +162,9 @@ Remove-PSSession $Session
 | 系統管理員已將資料流程儲存體帳戶連結至租用戶 | AdminAttachedDataflowStorageAccountToTenant | 目前未使用                       |
 | 已分析 Power BI 資料集                         | AnalyzedByExternalApplication               |                                          |
 | 已分析 Power BI 報表                          | AnalyzeInExcel                              |                                          |
+| 已附加資料流程儲存體帳戶                 | AttachedDataflowStorageAccount              |                                          |
 | 已將 Power BI 資料集繫結至閘道                | BindToGateway                               |                                          |
+| 已取消資料流程重新整理                        | CancelDataflowRefresh                       |                                          |
 | 已變更容量狀態                            | ChangeCapacityState                         |                                          |
 | 已變更容量使用者指派                  | UpdateCapacityUsersAssignment               |                                          |
 | 已變更 Power BI 資料集連線              | SetAllConnections                           |                                          |
@@ -194,6 +196,7 @@ Remove-PSSession $Session
 | 已刪除 Power BI 報表                           | DeleteReport                                |                                          |
 | 已探索到 Power BI 資料集資料來源          | GetDatasources                              |                                          |
 | 下載 Power BI 報表                        | DownloadReport                              |                                          |
+| 已編輯資料流程屬性                        | EditDataflowProperties                      |                                          |
 | 已編輯 Power BI 認證權限          | EditCertificationPermission                 | 目前未使用                       |
 | 已編輯 Power BI 儀表板                         | EditDashboard                               | 目前未使用                       |
 | 已編輯 Power BI 資料集                           | EditDataset                                 |                                          |
@@ -213,7 +216,7 @@ Remove-PSSession $Session
 | 已列印 Power BI 儀表板                        | PrintDashboard                              |                                          |
 | 已列印 Power BI 報表頁面                      | PrintReport                                 |                                          |
 | 已將 Power BI 報表發佈到 Web                  | PublishToWebReport                          |                                          |
-| 已從金鑰保存庫收到 Power BI 資料流程密碼  | ReceiveDataflowSecretFromKeyVault           | 目前未使用                       |
+| 已從金鑰保存庫收到 Power BI 資料流程密碼  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | 已從 Power BI 閘道移除資料來源         | RemoveDatasourceFromGateway                 |                                          |
 | 已移除 Power BI 群組成員                    | DeleteGroupMembers                          |                                          |
 | 已從容量移除工作區                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -221,6 +224,7 @@ Remove-PSSession $Session
 | 已要求 Power BI 資料流程重新整理               | RequestDataflowRefresh                      | 目前未使用                       |
 | 已要求 Power BI 資料集重新整理                | RefreshDataset                              |                                          |
 | 已擷取 Power BI 工作區                     | GetWorkspaces                               |                                          |
+| 設定工作區的資料流程儲存位置     | SetDataflowStorageLocationForWorkspace      |                                          |
 | 對 Power BI 資料流程設定排定的重新整理        | SetScheduledRefreshOnDataflow               |                                          |
 | 對 Power BI 資料集設定排定的重新整理         | SetScheduledRefresh                         |                                          |
 | 已共用 Power BI 儀表板                         | ShareDashboard                              |                                          |
@@ -229,10 +233,12 @@ Remove-PSSession $Session
 | 已開始 Power BI 試用版                            | OptInForProTrial                            |                                          |
 | 已接管 Power BI 資料來源                   | TakeOverDatasource                          |                                          |
 | 已接管 Power BI 資料集                        | TakeOverDataset                             |                                          |
+| 已接管 Power BI 資料流程                     | TookOverDataflow                             |                                          |
 | 已解除發佈 Power BI 應用程式                          | UnpublishApp                                |                                          |
 | 更新容量資源管控設定      | UpdateCapacityResourceGovernanceSettings    | 目前不在 Microsoft 365 系統管理中心內 |
 | 已更新容量管理                            | UpdateCapacityAdmins                        |                                          |
 | 已更新容量顯示名稱                     | UpdateCapacityDisplayName                   |                                          |
+| 已更新資料流程的儲存體指派權限   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | 已更新組織的 Power BI 設定          | UpdatedAdminFeatureSwitch                   |                                          |
 | 已更新 Power BI 應用程式                              | UpdateApp                                   |                                          |
 | 已更新 Power BI 資料流程                         | UpdateDataflow                              |                                          |

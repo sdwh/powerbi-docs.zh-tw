@@ -10,15 +10,15 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 49504343b076d7e2371c45005da24e35831bf506
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751305"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060409"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>教學課程：開始使用 Power BI 服務
-本教學課程是 *Power BI 服務*的部分功能簡介。 您會在本課程中連接資料、建立報表和儀表板，並詢問資料的相關問題。 您可以在 Power BI 服務中執行更多動作；本教學課程僅為了提高您的興趣。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，建議您參閱[什麼是 Power BI](power-bi-overview.md)。
+本教學課程是 *Power BI 服務*的部分功能簡介。 您會在本課程中連接資料、建立報表和儀表板，並詢問資料的相關問題。 您可以在 Power BI 服務中執行更多動作；本教學課程僅為了提高您的興趣。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，建議您參閱[什麼是 Power BI](fundamentals/power-bi-overview.md)。
 
 ![Power BI 服務首頁](media/service-get-started/power-bi-service-get-started-home.png)
 
@@ -115,7 +115,7 @@ ms.locfileid: "70751305"
    
 8. 選取儀表板上新的磚，即可返回報表。 Power BI 會讓您回到 [閱讀檢視] 中的報表。 
 
-1. 若要切換回 [編輯檢視]，請選取上方導覽列中的省略符號 (...) > [編輯]  。 回到 [編輯檢視] 時，您即可繼續探索及釘選磚。
+1. 若要切換回 [編輯檢視]，請選取上方導覽列中的 [更多選項]  (...) > [編輯]  。 回到 [編輯檢視] 時，您即可繼續探索及釘選磚。
 
     ![選取 [編輯] 以編輯報表](media/service-get-started/power-bi-service-edit-report.png)
 
@@ -200,7 +200,7 @@ ms.locfileid: "70751305"
 
 1. 在左側導覽列中，確認您位於 [我的工作區]  中。
 2. 選取 [資料集]  索引標籤，並找到您針對本教學課程匯入的資料集。  
-3. 選取省略符號 (...) > [刪除]  。
+3. 選取 [更多選項]  (...) > [刪除]  。
 
     ![刪除資料集](media/service-get-started/power-bi-service-delete-dataset.png)
 

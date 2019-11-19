@@ -10,14 +10,16 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 21a77d585707b19cd8a3d06ad44471fac45d7178
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 26741d229b260a0114f5f089018b79f34bc41938
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903706"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019326"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的報表
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Power BI 報表是一種資料集的多角度檢視，可透過視覺效果表示該資料集不同的尋找結果和見解。  報表可以具備單一視覺效果，或是充滿視覺效果的頁面。 取決於您的作業角色，您可能會是「設計」  報表的人員。 您也可能是「取用」  或使用報表的人員。 本文適用於「取用者」  。
 
@@ -27,7 +29,7 @@ A. 此報表有六個頁面 (或索引標籤)，且您目前正在檢視 [情感
 B. 在此頁面上，有五個不同的視覺效果和頁面標題。    
 C. [篩選]  窗格會顯示已將單一篩選套用至所有報表頁面。 若要摺疊 [篩選] 窗格，請選取箭號 ( **>** )。    
 D. Power BI 橫幅會顯示報表的名稱和上次更新日期。 選取箭號可開啟功能表，也會顯示報表擁有者名稱。    
-E. 動作列包含您可以對這份報告採取的動作。  例如，您可以新增註解、檢視書籤，或從報表匯出資料。  選取省略符號 (...) 以顯示額外報表功能的清單。    
+E. 動作列包含您可以對這份報告採取的動作。  例如，您可以新增註解、檢視書籤，或從報表匯出資料。  選取 [更多選項]  (...) 以顯示額外報表功能的清單。    
 
 如果您不熟悉 Power BI，請參閱 [Power BI 服務取用者的基本概念](end-user-basic-concepts.md)來打好基礎。 報表可供在行動裝置上檢視、共用及加上標註。 如需詳細資訊，請參閱[探索 Power BI 行動裝置應用程式中的報表](mobile/mobile-reports-in-the-mobile-apps.md)。
 

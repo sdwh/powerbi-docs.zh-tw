@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3ab200194d89eb15892dc4f452079eb56df8a608
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: c4def89d7c91186295e4f2b3f07769792a8892e8
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71191453"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017783"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布圖
 
@@ -55,7 +55,7 @@ ms.locfileid: "71191453"
    
 2. 尋找您的**零售分析範例 PBIX 檔案**複本
 
-1. 在報表檢視![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png)中開啟**零售分析範例 PBIX 檔案**。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
@@ -76,7 +76,7 @@ ms.locfileid: "71191453"
 
     ![瀑布圖](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 
-1. 確定 Power BI 依時間先後順序來排序瀑布圖。 選取圖表右上角的省略符號 (...)。
+1. 確定 Power BI 依時間先後順序來排序瀑布圖。 選取圖表右上角的 [更多選項]  (...)。
 
     在此範例中，我們將選取 [遞增排序] 
 

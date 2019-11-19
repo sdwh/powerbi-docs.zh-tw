@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c039f4adc196e619dc81af38fb52cd07e89992f0
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161199"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72775947"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
 ## <a name="power-bi-visualizations"></a>Power BI 視覺效果
@@ -147,6 +147,14 @@ ms.locfileid: "67161199"
 >[!TIP]
 >圓形圖會顯示部分與整體的關聯性。 
 
+### <a name="qa-visual"></a>問與答視覺效果
+![問與答視覺效果](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
+
+>[!TIP]
+>問與答視覺效果類似於[儀表板上的問與答體驗](../power-bi-tutorial-q-and-a.md)，可讓您使用自然語言來詢問資料的相關問題。 
+
+如需詳細資訊，請參閱 [Power BI 中的問與答視覺效果](power-bi-visualization-q-and-a.md)。
+
 ### <a name="r-script-visuals"></a>R 指令碼視覺效果
 ![R 視覺效果](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
 
@@ -180,7 +188,7 @@ ms.locfileid: "67161199"
 如需詳細資訊，請參閱 [Power BI 中的高密度散佈圖](desktop-high-density-scatter-charts.md)。
 
 ### <a name="slicers"></a>交叉分析篩選器
-![交叉分析篩選器](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+![slicer](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 如需詳細資訊，請參閱 [Power BI 中的交叉分析篩選器](power-bi-visualization-slicers.md)。
 
@@ -198,7 +206,7 @@ ms.locfileid: "67161199"
 如需詳細資訊，請參閱[在 Power BI 中使用資料表](power-bi-visualization-tables.md)。
 
 ### <a name="treemaps"></a>矩形式樹狀結構圖
-![矩形式樹狀結構圖](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![treemap](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 如需詳細資訊，請參閱 [Power BI 中的矩形式樹狀結構圖](power-bi-visualization-treemaps.md)。
 

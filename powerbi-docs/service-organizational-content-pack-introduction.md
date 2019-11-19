@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e54750d928918fd77c2bf93577cf1d3d0634ca97
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: c5f56df51a1f18db7c2080afb79f4ac7abfb2444
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020614"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431740"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的組織內容套件簡介
 > [!NOTE]
@@ -26,7 +26,7 @@ ms.locfileid: "72020614"
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
-建立內容套件的方式與在應用程式工作區中，對內容套件共用儀表板或作業的方式不同。 閱讀[應該如何共同作業和共用儀表板和報表？](service-how-to-collaborate-distribute-dashboards-reports.md)，來為您的情況決定最佳選項。 
+建立內容套件與共用儀表板或在工作區中於儀表板上進行共同作業不同。 閱讀[應該如何共同作業和共用儀表板和報表？](service-how-to-collaborate-distribute-dashboards-reports.md)，來為您的情況決定最佳選項。 
 
 在 AppSource 中，您可以瀏覽或搜尋發行給整個組織、通訊群組或安全性群組以及[您所屬 Office 365 群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)的內容套件。 如果您不是某特定群組的成員，就看不到與該群組分享的內容套件。 所有的群組成員都有相同的權限，可以唯讀存取內容套件資料、報表、活頁簿和儀表板 (除了 SQL Server Analysis Services (SSAS) 資料來源以外，其權限是繼承自資料來源)。
 
@@ -50,7 +50,7 @@ ms.locfileid: "72020614"
 1. 在 Power BI Pro 中，Nate 建立了一個內容套件，並將其發行至「行銷」通訊群組中。 因為重新整理設定和資料集要一起繼承，所以只有 Nate 可以變更。
    
    > [!NOTE]
-   > 如果 Nate 從 Nate 所在的 [Power BI 應用程式工作區](service-create-distribute-apps.md)中建立內容套件，即使 Nate 離開群組，Power BI 工作區中的其他人也可以接管擁有權。
+   > 如果 Nate 從其所在的 [Power BI 工作區](service-create-distribute-apps.md)中建立內容套件，則即使 Nate 離開群組，Power BI 工作區中的其他人也可以接管擁有權。
    > 
    > 
 2. Nate 傳送郵件給通訊群組，告訴他們新內容套件的相關資訊。
@@ -58,7 +58,7 @@ ms.locfileid: "72020614"
 4. 假設 Jane 決定進行自訂。 Jane 現在擁有自己的報表和儀表板複本。 Jane 的舉動不會影響來源、原始的內容套件或其他通訊群組成員。 他們現在各自使用自己的儀表板和報表複本。
 5. Nate 更新了儀表板，並隨時準備發佈新版的內容套件。
    
-   * 另一個通訊群組成員 Julio 並未自訂原始的內容套件。 新變更會自動套用至 Jane 的內容套件版本。  
+   * 另一個通訊群組成員 Julio 並未自訂原始的內容套件。 新變更會自動套用至 Julio 的內容套件版本。  
    * Jane 並未自訂內容套件。 然後 Jane 會收到新版本的通知。  Jane 可以前往 AppSource 取得已更新的內容套件，而不會遺失個人化版本。 現在 Jane 有 2 個版本：個人化版本和更新的內容套件。
 6. 假設 Nate 變更安全性設定。 Julio 和 Jane 便不再具有內容的存取權。 或是假設他們已從「行銷」通訊群組中移除。
    

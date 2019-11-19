@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: f9979a852028e929b626e76534fef073feca3fd8
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 45c158d15c92b67d945696b6d55ba0b1e4c6d971
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100586"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019923"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>將註解新增至儀表板或報表
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 新增個人註解，或是和您的同事開始儀表板或報表相關交談。 **註解**功能只是「取用者」  可與其他人共同作業的其中一種方法。 
 
 ![註解影片](media/end-user-comment/comment.gif)
@@ -64,7 +67,7 @@ ms.locfileid: "71100586"
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>將註解新增至特定儀表板或報表的視覺效果
 除了將註解新增至整個儀表板或整個報表頁面之外，您還可以將註解新增至個別儀表板磚和個別報表視覺效果。 處理程序很類似，且我們在本範例中使用報表。
 
-1. 將滑鼠暫留在視覺效果上並選取省略符號 (...)。    
+1. 將滑鼠暫留在視覺效果上並選取 [更多選項]  (...)。    
 2. 從下拉式清單中，選取 [開啟註解]  。
 
     ![新增註解是第一個選項](media/end-user-comment/power-bi-report-comment.png)  

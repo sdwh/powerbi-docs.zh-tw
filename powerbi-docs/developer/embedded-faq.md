@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 62b5498558b2c89a23e2ed2caf3dacdf343d3a79
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: 81eb5de3294430c3960502700bb6255aea43f91a
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490343"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429290"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -67,7 +67,7 @@ Power BI Embedded 是一組 API 的平台即服務 (Paas)，可供開發人員�
 | 特徵 | Power BI Embedded | Power BI Premium 容量 | Power BI Premium 容量 |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | SKU-Azure 容量 | EM SKU-O365 容量 | P SKU-O365 容量 |
-| 從 Power BI 應用程式工作區內嵌成品 | 是 | 是 | 是 |
+| 從 Power BI 工作區內嵌成品 | 是 | 是 | 是 |
 | 在內嵌應用程式中取用 Power BI 報表 - SaaS | 否 | 是 | 是 |
 | 在內嵌應用程式中取用 Power BI 報表 - PaaS | 是 | 是 | 是 |
 | 在 SharePoint 中取用 Power BI 報表 | 否 | 是 | 是 |
@@ -146,7 +146,7 @@ Power BI 需要您使用組織帳戶註冊。 不支援使用 Microsoft 帳戶�
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解決方案中的 PBI Embedded 專用容量角色是什麼？
 
-若要[將您的解決方案升階到生產環境](embed-sample-for-customers.md#move-to-production)，您需要指派 Power BI 內容 (應用程式用於 Power BI Embedded (A SKU) 容量的應用程式工作區)。
+若要[將解決方案升階到生產環境](embed-sample-for-customers.md#move-to-production)，您需要將應用程式使用的 Power BI 內容 (工作區) 指派至 Power BI Embedded (A SKU) 容量。
 
 ### <a name="in-what-azure-regions-is-pbi-embedded-available"></a>哪些 Azure 區域提供 PBI Embedded？
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3577c19342d9f2dc5b0e3ab9908f47f82430e6db
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391469"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020641"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>連線至 Power BI 服務中的範例
 
@@ -91,7 +91,7 @@ ms.locfileid: "68391469"
      
    ![全新的報表](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
 
-1. 另一個探索資料集的方法是執行[快速見解](consumer/end-user-insights.md)。 選取省略符號 (...)，然後選擇 [取得快速見解]  。 當深入資訊就緒時，請選取 [檢視深入資訊]  。
+1. 另一個探索資料集的方法是執行[快速見解](consumer/end-user-insights.md)。 選取 [更多選項]  (...)，然後選擇 [取得快速見解]  。 當深入資訊就緒時，請選取 [檢視深入資訊]  。
      
     ![見解報表](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 

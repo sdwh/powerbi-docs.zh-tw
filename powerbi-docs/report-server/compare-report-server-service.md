@@ -10,12 +10,12 @@ ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: 104b903e6b7a47b5ce35dc5c0627a43d54c1090a
-ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
+ms.openlocfilehash: 877d3590fab67f0aed3c3ab6dc9de9a96ade5dc9
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "71691232"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431463"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
 
@@ -29,7 +29,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 來源資料 | 雲端及/或內部部署 | 雲端及/或內部部署 |  |
 | 授權 | Power BI Premium 或使用 SA 的 SQL Server EE | Power BI Pro 及/或 Power BI Premium | |  
 | 生命週期 | 新式生命週期原則 | 完全受控的服務 |  |
-| 發行週期 | 每 4 個月一次 | 每月一次 | 最新功能和修正首先會提供給 Power BI 服務。 在接下來的幾個版本中，大部分的核心功能都會提供給 Power BI 報表伺服器，而某些功能僅適用於 Power BI 服務。 |
+| 發行週期 | 一年三次 (一月、五月、九月) | 每月一次 | 最新功能和修正首先會提供給 Power BI 服務。 在接下來的幾個版本中，大部分的核心功能都會提供給 Power BI 報表伺服器，而某些功能僅適用於 Power BI 服務。 |
 | 在 Power BI Desktop 中建立 Power BI 報表 | 是 | 是 |  |
 | 在瀏覽器中建立 Power BI 報表 | 否 | 是 |  |
 | 需要閘道器 | 否 | 是 (針對內部部署資料來源) |  |
@@ -49,7 +49,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 資料警示 | 否 | 是 | Power BI 服務中的[資料警示](../service-set-data-alerts.md)
 | 資料列層級安全性 (RLS) | 是 | 是 | DirectQuery (資料來源) 與匯入模式中皆可使用 <br><br>[Power BI 服務](../service-admin-rls.md)中的資料列層級安全性 <br><br>[Power BI 報表伺服器](row-level-security-report-server.md)中的資料列層級安全性 |
 | 全螢幕模式 | 否 | 是 | [Power BI 服務](../consumer/end-user-focus.md)中的全螢幕模式 |
-| 進階的 Office 365 共同作業 | 否 | 是 | 與 Office 365 [在應用程式工作區中共同作業](../service-collaborate-power-bi-workspace.md) |
+| 進階的 Office 365 共同作業 | 否 | 是 | 搭配 Office 365 [在工作區中共同作業](../service-collaborate-power-bi-workspace.md) |
 | R 視覺效果 | 否 | 是 | 在 Power BI Desktop 中[建立 R 視覺效果](../desktop-r-visuals.md)，並將其發佈至 Power BI 服務。 您無法將具有 R 視覺效果的 Power BI 報表，儲存至 Power BI 報表伺服器。  |
 | 預覽功能 | 否 | 是 | [選擇加入 Power BI 服務預覽](../consumer/end-user-preview-features.md)功能 |
 | 自訂視覺效果 | 是 | 是 | [Power BI 的自訂視覺效果](../power-bi-custom-visuals.md) |

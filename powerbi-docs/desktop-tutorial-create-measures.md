@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513859"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019358"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中建立您自己的量值
 您可以在 Power BI Desktop 中使用量值來建立一些最強大的資料分析方案。 當您與報表互動時，量值會在您的資料上執行計算，藉此提供協助。 本教學課程將引導您了解量值，並在 Power BI Desktop 中建立自己的基本量值。
@@ -60,7 +60,7 @@ DAX 公式使用許多與 Excel 公式相同的函數、運算子和語法。 �
 
 您想要藉由從總銷售金額中減去折扣和退貨來分析淨銷售額。 針對任何存在於您視覺效果中的內容，您需要會從 SalesAmount 總和減去 DiscountAmount 和 ReturnAmount 總和的量值。 [欄位] 清單中沒有任何適用於淨銷售額的欄位，但是您可以使用建置組塊來建立自己的量值，以計算淨銷售額。 
 
-1.  以滑鼠右鍵按一下 [欄位] 中的 **Sales** 資料表，或將滑鼠停留在該資料表並選取**更多選項**省略符號 (...)，然後選取 [新增量值]  。 這樣會將您的新量值儲存於 Sales 資料表中，在那裡將會比較容易找到。
+1.  以滑鼠右鍵按一下 [欄位] 中的 **Sales** 資料表，或將滑鼠暫留在該資料表並選取 [更多選項]  (...)，然後選取 [新增量值]  。 這樣會將您的新量值儲存於 Sales 資料表中，在那裡將會比較容易找到。
     
     ![新增量值](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     

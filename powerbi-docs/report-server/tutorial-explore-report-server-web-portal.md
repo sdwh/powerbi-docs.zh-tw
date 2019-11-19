@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65240064"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021615"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教學課程：探索 VM 中的 Power BI 報表伺服器入口網站
 在本教學課程中，您會建立一部已經安裝「Power BI 報表伺服器」的 Azure 虛擬機器，以便體驗如何檢視、編輯和管理範例 Power BI 及編頁報表與 KPI。
@@ -189,7 +189,7 @@ ms.locfileid: "65240064"
 
 ### <a name="manage-a-paginated-report"></a>管理編頁報表
 
-1. 在入口網站中的 [編頁報表]  底下，選取 [銷售訂單]  旁邊的省略符號 (...) > [管理]  。
+1. 在入口網站中的 [編頁報表]  底下，選取 [銷售訂單]  旁邊的 [更多選項]  (...) > [管理]  。
 
 1. 選取 [參數]  ，將 [SalesOrderNumber]  的預設值變更為 **SO50689** > [套用]  。
 
@@ -219,7 +219,7 @@ ms.locfileid: "65240064"
 
 您可以在「報表產生器」中編輯編頁報表，並且可以直接從瀏覽器中啟動「報表產生器」。
 
-1. 在入口網站中，選取 [銷售訂單]  旁邊的省略符號 (...) > [在報表產生器中編輯]  。
+1. 在入口網站中，選取 [銷售訂單]  旁邊的 [更多選項]  (...) > [在報表產生器中編輯]  。
 
 1. 選取 [允許]  以允許此網站在您的電腦上開啟程式。
 

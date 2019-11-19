@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 8a6e104a6fcb129a6e51d8424a8c2321ea74b49c
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305884"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442873"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -169,7 +169,9 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 組織中的使用者可以從 Power BI 說明功能表，前往內部說明與支援資源。 具體來說，這些參數會變更 [學習]、[社群] 和 [取得說明] 功能表項目的行為。
 
-它也可以指定 URL，將使用者導向授權要求的自訂解決方案。 此參數會自訂 [升級帳戶] 按鈕的目標 URL，沒有 Power BI Pro 授權的使用者可以在 [更新為 Power BI Pro] 對話方塊及 [管理個人儲存體] 頁面中找到該 URL。
+    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+
+透過指定授權要求的 URL，您可自訂 [升級帳戶]  按鈕的目標 URL，讓沒有 Power BI Pro 授權的使用者可以在 [更新為 Power BI Pro]  對話方塊及 [管理個人儲存體]  頁面中找到該 URL。 此外，Power BI 不再於此對話方塊或 [儲存體] 頁面中提供 [免費試用專業版]  按鈕，以確保 Power BI 會透過授權管理解決方案，在組織定義的流程中穩定可靠地引導使用者。
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>接收服務中斷或事件的電子郵件通知
 
@@ -179,7 +181,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ### <a name="create-workspaces"></a>建立工作區
 
-管理員使用 [建立工作區]  設定來指出組織中的哪些使用者可以建立應用程式工作區，以在儀表板、報表及其他內容共同作業。 深入了解[應用程式工作區](service-create-the-new-workspaces.md)。
+系統管理員可使用 [建立工作區]  設定指出組織中哪些使用者可以建立工作區，以在儀表板、報表及其他內容中共同作業。 深入了解[工作區](service-create-the-new-workspaces.md)。
 
 管理入口網站會有關於您租用戶中工作區的另一個設定區段。 在該區段中，您可以排序和篩選工作區的清單，以及顯示各工作區的詳細資料。 如需詳細資訊，請參閱[工作區](#workspaces)。
 
@@ -284,7 +286,7 @@ Azure B2B 來賓使用者可編輯及管理組織中的內容。 [深入了解](
 > [!NOTE]
 > 這項設定適用於整個組織，而無法限於特定群組。
 
-### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>在內部部署資料集使用 [在 Excel 中進行分析]
+### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>以內部部署資料集使用「使用 EXCEL 分析」
 
 組織中的使用者可以使用 Excel 來檢視內部部署 Power BI 資料集，並與其互動。 [深入了解](service-analyze-in-excel.md)
 
@@ -525,7 +527,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 在 [工作區]  索引標籤上，您會看到每個工作區的「狀態」  。 下表提供有關這些狀態意義的更多詳細資料。
 
-|縣市  |描述  |
+|州  |描述  |
 |---------|---------|
 | 使用中 | 正常工作區。 它不會指出使用方式或其中內容的相關資訊，只表示工作區本身是「正常」的。 |
 | 孤立 | 沒有管理使用者的工作區。 |

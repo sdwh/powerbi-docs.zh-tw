@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f2d9046c907b78ce2c1bb2754007c34199877a08
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 1993ac0b300bb582d7b8a1946ff63cf6316c2d52
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523072"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432212"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>匯入資料集以在 Power BI 服務中建立報表
 您已閱讀 [Power BI 中的報表](consumer/end-user-reports.md)，現在想要建立自己的報表。 有很多方式可以建立報表。 在本文中，我們將透過在 Power BI 服務中從 Excel 資料集建立基礎報表開始。 了解建立報表的基本概念之後，請查看底部的[後續步驟](#next-steps)以取得更進階的報表主題。  
@@ -29,7 +29,7 @@ ms.locfileid: "68523072"
 
 1. 我們會在 Power BI 服務工作區中建立報表，因此請選取現有工作區或建立一個工作區。
    
-   ![應用程式工作區清單](media/service-report-create-new/power-bi-workspaces2.png)
+   ![工作區清單](media/service-report-create-new/power-bi-workspaces2.png)
 2. 從左側瀏覽窗格底部，選取 [取得資料]  。
    
    ![取得資料](media/service-report-create-new/power-bi-get-data3.png)

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: 830d75aaddd60ce0b678d6abdbeca7cd79a3ab28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bdac9b5d0377055d842ae4b64b914deb76660a41
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769839"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021429"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>對 Power BI 的登入問題進行疑難排解
 
@@ -49,6 +49,9 @@ ms.locfileid: "64769839"
 ## <a name="power-bi-community"></a>Power BI 社群
 
 若您無法在社群頁面上建立論壇文章，其原因為 [Power BI 社群論壇](https://community.powerbi.com/)也需要您的登入。
+
+> [!Note]
+> 如需其他詳細資料，請參閱 [Community Support](https://community.powerbi.com/t5/Community-Support/ct-p/PBI_CommunitySupport) (社群支援)。
 
 ## <a name="next-steps"></a>後續步驟
 

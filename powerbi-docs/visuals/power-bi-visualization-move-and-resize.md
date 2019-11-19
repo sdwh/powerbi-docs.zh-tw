@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/23/2018
+ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cd5026a1bb3bca4781be1e3f61b4a71364190f8a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ff46e750d053ead7eb46d57e55e4af96770f0d6e
+ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61135818"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73169123"
 ---
-# <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>在 Power BI 服務和 Power BI Desktop 中變更報告視覺效果的類型
-只有報告建立者和擁有者可以移動視覺效果及調整其大小。 在 Power BI 服務 (app.powerbi.com) 中，這表示在[編輯檢視](../consumer/end-user-reading-view.md)中開啟報告。
+# <a name="move-and-resize-a-visualization-in-a-report"></a>移動和調整報表中視覺效果的大小
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+報表設計師和擁有者可以移動視覺效果及調整其大小。 如果您是在 Power BI 服務 (app.powerbi.com) 中工作，則必須在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報表。 
 
 ## <a name="open-the-report"></a>開啟報表
-在 Power BI 中，開啟至少有一個視覺效果的報告，或[建立新的視覺效果](power-bi-report-add-visualizations-i.md)。 
+在 Power BI Desktop 中，開啟至少有一個視覺效果的報表，或[建立新的視覺效果](power-bi-report-add-visualizations-i.md)。 
 
 ## <a name="move-the-visualization"></a>移動視覺效果
 * 選取 (按滑鼠左鍵) 視覺效果的任何區域，並拖曳至新位置。
@@ -36,5 +39,7 @@ ms.locfileid: "61135818"
 
 ## <a name="next-steps"></a>後續步驟
 [調整儀表板上的視覺效果](../service-dashboard-edit-tile.md)  
+
+[焦點模式](../consumer/end-user-focus.md)
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

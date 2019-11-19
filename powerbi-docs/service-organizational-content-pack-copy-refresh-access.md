@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fa7a7845686fd46e9d58ea138bdddd47a0a097
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 605f942f2d19c7701d7146829e75fa282efcb0a5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019637"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020148"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>整理有序的內容套件：複製、重新整理及取得存取權
 
@@ -30,7 +30,7 @@ ms.locfileid: "72019637"
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>建立組織內容套件的複本
 建立專屬的內容套件複本，其他人都無法看到。
 
-1. 選取內容套件儀表板旁的省略符號 (...) > [製作複本]。
+1. 選取內容套件儀表板旁的 [更多選項]  (...) > [製作複本]。
 
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. 選取 [儲存]  。  

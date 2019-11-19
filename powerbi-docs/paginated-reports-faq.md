@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/04/2019
-ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 513c6a4a3f5041b7af06e5c1713de3bd417a1354
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968503"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431577"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
 此文章將回答有關編頁報表的常見問題集。 這些報表均為已高度格式化且具完美像素的輸出，並已基於列印或產生 PDF 用途進行最佳化。 它們稱為「編頁」，因為已將它們格式化，使其可適當地符合多個頁面。 編頁報表會以 SQL Server Reporting Services 中的 RDL 報表技術為基礎。 
 
-此文章將回答人們關於 Power BI Premium 中的編頁報表，以及關於報表產生器 (此為用來製作編頁報表的單獨工具) 的許多常見問題。 您需要 Power BI Pro 授權，才能將報表發佈至服務。 只要工作區位於 Power BI Premium 容量，您就可以在 [我的工作區] 或應用程式工作區中發佈及共用編頁報表。 
+此文章將回答人們關於 Power BI Premium 中的編頁報表，以及關於報表產生器 (此為用來製作編頁報表的單獨工具) 的許多常見問題。 您需要 Power BI Pro 授權，才能將報表發佈至服務。 只要工作區位於 Power BI Premium 容量，即可在 [我的工作區] 或工作區中發佈及共用編頁報表。 
 
 ## <a name="administration"></a>系統管理
 
@@ -163,7 +163,7 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>我可以使用 Power BI Embedded，將編頁報表內嵌到我代管的應用程式嗎？
 
-目前已支援 SaaS 內嵌。 目前尚不支援 PaaS 內嵌。
+SaaS 內嵌 (包括安全內嵌支援) 已可供使用。  PaaS 內嵌支援已在今年的稍後規劃。
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>我可以從 Power BI 報表鑽研至編頁報表嗎？
 
@@ -179,7 +179,7 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>是否規劃了移轉工具，讓 SSRS 客戶可將其現有的報表和資產移至 Power BI？
 
-我們會繼續評估選項，以透過自動化的方式，將內容移至 Power BI，但這會在正式運作時才提供。
+GitHub 上的專案現在支援將內容從 SQL Server Reporting Services 移轉至 Power BI。  請在此檢視詳細資料和下載工具：[https://github.com/microsoft/RdlMigration](https://github.com/microsoft/RdlMigration)
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI 服務中是否有適用於編頁報表的報表檢視器控制項？
 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 689d86029150fa66daa90c4f93b71ed15750b095
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841389"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73018077"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>教學課程：使用 Power BI Desktop 的 Facebook 分析
 
@@ -43,7 +43,7 @@ ms.locfileid: "70841389"
    
 4. 在 [使用者名稱]  文字方塊中輸入或貼上頁面名稱 **microsoftbi**、從 [連接]  下拉式清單中選取 [貼文]  ，然後選取 [確定]  。
    
-   ![連接](media/desktop-tutorial-facebook-analytics/2.png)
+   ![連線](media/desktop-tutorial-facebook-analytics/2.png)
    
 5. 當提示您輸入認證時，請登入您的 Facebook 帳戶，並允許 Power BI 存取您的帳戶。
    
@@ -147,7 +147,7 @@ ms.locfileid: "70841389"
    
    ![橫條圖](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. 選取視覺效果右上角的省略符號 (...)，然後選取 [排序依據 Number of comments]  ，以便依遞減的留言數目排序資料表。 
+4. 選取視覺效果右上角的 [更多選項]  (...)，然後選取 [Sort by Number of comments] \(依留言數排序\)  ，以便依遞減的留言數來排序資料表。 
    
    ![依留言數目排序](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
@@ -184,7 +184,7 @@ ms.locfileid: "70841389"
 
 看起來好多了，但資料標籤全都有 **.0** 小數位數，這可能會造成失焦與誤解，因為 **Number of posts** \(貼文數目\) 必須是整數。 您需要將 **Number of posts** \(貼文數目\) 資料行的資料類型變更為整數。
 
-1. 若要編輯資料類型，以滑鼠右鍵按一下 [欄位] 清單中的 **Query1**，或將滑鼠停留在它的上方，並選取**更多選項**省略符號 (...)，然後選取 [編輯查詢]  。 您也可以從功能區 [首頁] 索引標籤的 [外部資料]  區域中選取 [編輯查詢]  ，然後從下拉式清單中選取 [編輯查詢]  。 Power BI Desktop 的 **Power Query 編輯器** 會在另一個視窗中開啟。
+1. 若要編輯資料類型，以滑鼠右鍵按一下 [欄位] 清單中的 **Query1**，或將滑鼠暫留在其上方，然後依序選取 [更多選項]  (...) 和 [編輯查詢]  。 您也可以從功能區 [首頁] 索引標籤的 [外部資料]  區域中選取 [編輯查詢]  ，然後從下拉式清單中選取 [編輯查詢]  。 Power BI Desktop 的 **Power Query 編輯器** 會在另一個視窗中開啟。
    
    ![從 [欄位] 清單編輯查詢](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![從功能區編輯查詢](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    

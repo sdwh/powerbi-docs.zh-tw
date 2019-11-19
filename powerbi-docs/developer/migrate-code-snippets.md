@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 83c3257fb9aaaee01efdfceaac93c1d32aeebba0
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269211"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429159"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>從 Power BI 工作區集合遷移內容的程式碼片段
 
@@ -167,7 +167,7 @@ using System.Threading.Tasks;
 
 您必須為已建立的資料集重建報告。
 
-在此片段中，我們假設可發送的資料集已在 SaaS 環境內的應用程式工作區。 如需發送 API 的相關資訊，請參閱[將資料發送至 Power BI 資料集](walkthrough-push-data.md)。
+在此片段中，我們假設可發送資料集已在 SaaS 環境內的工作區中。 如需發送 API 的相關資訊，請參閱[將資料發送至 Power BI 資料集](walkthrough-push-data.md)。
 
 ```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");

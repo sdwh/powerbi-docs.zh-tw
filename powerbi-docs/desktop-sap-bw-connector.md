@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: af227d2bcbbba2a27804ec74f14003f54aa89dde
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e7952093c333d517792c9cd44d78d8c5538f2b22
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514682"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891733"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 SAP BW 連接器
 您可以透過 Power BI Desktop 存取 **SAP Business Warehouse (BW)** 資料。
@@ -236,10 +236,11 @@ Power BI Desktop 中的第 1 版 **SAP BW 連接器**可讓您從您的 **SAP Bu
 |Power BI Gateway     |匯入      | 與 Power BI Desktop 相同 |         |   |   |
 |Power BI Gateway     |DirectQuery | 使用者/密碼        | 應用程式伺服器 | N/A  | 是  |
 |Power BI Gateway     |DirectQuery | Windows 透過模擬 (固定使用者，無 SSO) | 應用程式伺服器 | sapcrypto + gsskrb5/gx64krb5  | 是  |
-|Power BI Gateway     |DirectQuery | 透過 Kerberos 使用 SSO 進行 DirectQuery 查詢選項 | 應用程式伺服器 | 只能搭配  gsskrb5/gx64krb5   | 是  |
+|Power BI Gateway     |DirectQuery | 透過 Kerberos 使用 SSO 進行 DirectQuery 查詢選項 | 應用程式伺服器 | sapcrypto + gsskrb5/gx64krb5   | 是  |
 |Power BI Gateway     |DirectQuery | 使用者/密碼        | 訊息伺服器 | N/A  | 是  |
 |Power BI Gateway     |DirectQuery | Windows 透過模擬 (固定使用者，無 SSO) | 訊息伺服器 | sapcrypto + gsskrb5/gx64krb5  | 是  |
-|Power BI Gateway     |DirectQuery | 透過 Kerberos 使用 SSO 進行 DirectQuery 查詢選項 | 訊息伺服器 | sapcrypto + gsskrb5/gx64krb5  | 否  |
+|Power BI Gateway     |DirectQuery | 透過 Kerberos 使用 SSO 進行 DirectQuery 查詢選項 | 訊息伺服器 | gsskrb5/gx64krb5  | 否  |
+|Power BI Gateway     |DirectQuery | 透過 Kerberos 使用 SSO 進行 DirectQuery 查詢選項 | 訊息伺服器 | sapcrypto  | 是  |
 
 
 

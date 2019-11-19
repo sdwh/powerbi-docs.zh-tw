@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b7327a7b32aacd222efc422263187f29285bd73
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 8de1b483f31a540cf27a89d94167d919a2a85e95
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075758"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431441"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者
 
@@ -81,7 +81,7 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 
 ### <a name="use-power-bi-premium"></a>使用 Power BI Premium
 
-將應用程式工作區指派給 [Power BI Premium 容量](service-premium-what-is.md)能讓來賓使用者使用應用程式，而不需要 Power BI Pro 授權。 Power BI Premium 還可讓應用程式充分利用其他功能，像是增加重新整理頻率、專用容量和大型模型等。
+將工作區指派給 [Power BI Premium 容量](service-premium-what-is.md)能讓來賓使用者使用應用程式，而不需要 Power BI Pro 授權。 Power BI Premium 還可讓應用程式充分利用其他功能，像是增加重新整理頻率、專用容量和大型模型等。
 
 ![搭配 Power BI Premium 之來賓使用者體驗的圖表。](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
@@ -113,6 +113,8 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 
 * 根據預設，外部 Azure AD B2B 會將來賓限制為僅能使用內容。 外部 Azure AD B2B 來賓可以檢視應用程式、儀表板、報表、匯出資料，並針對儀表板和報表建立電子郵件訂閱。 他們無法存取工作區或發行其專屬內容。 不過，如果來賓使用者是透過[允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)功能來獲得存取權，即不適用這些限制。
 
+* 若要邀請來賓使用者，則需要 Power BI Pro 授權。 Pro 試用版使用者無法在 Power BI 中邀請來賓使用者。
+
 * 如果來賓使用者是透過[允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)功能來啟用，則無法使用某些體驗。 若要更新或發佈報表，他們需要使用 Power BI 服務 Web UI，包括 [取得資料] 以上傳 Power BI Desktop 檔案。  不支援下列體驗：
     * 從 Power BI Desktop 直接發佈至 Power BI 服務
     * 來賓使用者無法使用 Power BI Desktop 來連線至 Power BI 服務中的服務資料集
@@ -127,7 +129,12 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
     * 來賓使用者無法使用 [使用 Excel 分析]
     * 無法在註解中對來賓使用者進行 @mentioned
     * 來賓使用者無法使用訂用帳戶
-    * 如果來賓使用者要使用這項功能，則應具備工作或學校帳戶。 基於登入限制，使用個人帳戶的來賓使用者將會受到更多限制。
+    * 如果來賓使用者要使用這項功能，則應具備工作或學校帳戶。 
+    
+* 基於登入限制，使用個人帳戶的來賓使用者將會受到更多限制。
+    * 來賓使用者可以透過網頁瀏覽器來使用 Power BI 服務中的使用體驗
+    * 其無法使用 Power BI 行動版應用程式。
+    * 他們將無法登入來提供需要公司或學校帳戶的認證。
 
 * Power BI SharePoint Online 報表網頁組件目前不提供此功能。
 

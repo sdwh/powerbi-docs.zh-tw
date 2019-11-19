@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 38ecb04b45ef45a8345397c5b9ec3e89d9dfd232
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61143121"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432069"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>在 Power BI 中建立及使用資料流程
 
 您可以運用 **Power BI** 中提供的先進資料準備功能，建立稱為資料流程的集合物件，以用來和來自各種來源的商務資料連線、清除資料、轉換資料，然後將它載入到 Power BI 儲存體。
 
-**資料流程**是使用 Power BI 服務中的應用程式工作區建立及管理的*實體* (類似於資料表) 的集合。 您可以直接從建立資料流程所在的工作區，在資料流程中新增及編輯實體，以及管理資料重新整理排程。
+**資料流程**是在 Power BI 服務中工作區內建立及管理的「實體」  (類似於資料表的實體) 集合。 您可以直接從建立資料流程所在的工作區，在資料流程中新增及編輯實體，以及管理資料重新整理排程。
 
 一旦您建立資料流程之後，就可以使用 **Power BI Desktop** 和 **Power BI 服務**，來建立以您在 Power BI 資料流程中所置入資料為基礎，因此可深入探索商業活動的資料集、報表、儀表板及應用程式。
 
@@ -36,13 +36,13 @@ ms.locfileid: "61143121"
 我們會在以下各節中查看每個步驟，並藉機熟悉為完成每個步驟所提供的工具。 讓我們開始吧。
 
 ## <a name="creating-a-dataflow"></a>建立資料流程
-若要建立資料流程，請啟動瀏覽器中的 Power BI 服務，然後從左側導覽窗格選取 [應用程式工作區]  (Power BI 服務的 *my-workspace* 中無法使用資料流程)，如以下畫面所示。 您也可以建立新的工作區，以在其中建立新的資料流程。 
+若要建立資料流程，請在瀏覽器中啟動 Power BI 服務，然後從左側瀏覽窗格選取 [工作區]  (Power BI 服務的 *my-workspace* 中無法使用資料流程)，如下列畫面所示。 您也可以建立新的工作區，以在其中建立新的資料流程。 
 
 ![在 Power BI 中建立資料流程](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 
-一旦您進入可建立資料流程的 [應用程式工作區]  區域，畫布右上角就會顯示 [+ 建立]  按鈕。 選取 [+ 建立]  按鈕，然後從下拉式清單選取 [資料流程]  。 
+一旦進入可建立資料流程的 [工作區]  區域，畫布右上角就會顯示 [+ 建立]  按鈕。 選取 [+ 建立]  按鈕，然後從下拉式清單選取 [資料流程]  。 
 
-請務必記住，任一資料流程都只能有*一個擁有者*，也就是建立它的人員。 只有擁有者可以編輯資料流程。 對資料流程建立所在之 [應用程式工作區]  擁有讀取或寫入權限的所有成員，都能從 **Power BI Desktop** 內部連線至資料流程，如此文章稍後所述。
+請務必記住，任一資料流程都只能有*一個擁有者*，也就是建立它的人員。 只有擁有者可以編輯資料流程。 對資料流程建立所在 [工作區]  擁有讀取或寫入權限的所有成員，都能從 **Power BI Desktop** 內部連線至資料流程，如此本文中稍後所述。
 
 ![使用 Power BI 服務的 [+ 建立] 按鈕建立資料流程](media/service-dataflows-create-use/dataflows-create-use_03a.png)
 
@@ -111,7 +111,7 @@ ms.locfileid: "61143121"
 
 儲存資料流程之後，您可以為每個連線的資料來源排程重新整理頻率。
 
-Power BI 資料流程會使用 Power BI 的資料重新整理程序，維持資料的最新狀態。 在 [應用程式工作區]  區段的 [Power BI 服務]  中，有一個可列出您的資訊所在位置的區域集合 (包括資料流程)，如下圖所示。
+Power BI 資料流程會使用 Power BI 的資料重新整理程序，維持資料的最新狀態。 在 [工作區]  區段的 [Power BI 服務]  中，有一個可列出您資訊所在位置的區域集合 (包括資料流程)，如下圖所示。
 
 ![使用 Power BI 服務管理資料流程](media/service-dataflows-create-use/dataflows-create-use_12.png)
 
@@ -134,7 +134,7 @@ Power BI 資料流程會使用 Power BI 的資料重新整理程序，維持資�
 
 ![從 Power BI Desktop 連線至資料流程](media/service-dataflows-create-use/dataflows-create-use_15.png)
 
-請從這裡瀏覽至您儲存資料流程的 [應用程式工作區]  ，選取資料流程，然後從清單中選取您建立的實體。
+請從這裡巡覽至您儲存資料流程的 [工作區]  ，選取資料流程，然後從清單中選取您建立的實體。
 
 您也可以使用靠近視窗頂端的 [搜尋列]  ，從許多資料流程實體中快速找出您資料流程或實體的名稱。
 

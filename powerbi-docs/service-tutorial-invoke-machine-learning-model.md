@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e0b2036192ace4404816f5ba64ad07569949452e
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 368f860ed064cf3b4ff73496db1fa993fd3b716a
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596598"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432219"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>教學課程：在 Power BI 中叫用 Machine Learning Studio 模型 (預覽)
 
@@ -68,7 +68,7 @@ ms.locfileid: "67596598"
 
 若要在資料流程中建立實體，登入 Power BI 服務，並瀏覽至您已啟用 AI 預覽版的專用容量上的工作區。
 
-如果您還沒有工作區，可以在左側功能表中選取 [工作區]  來建立一個工作區，然後在下方的面板中選取 [建立應用程式工作區]  。  如此會開啟一個面板來輸入工作區詳細資料。 輸入工作區名稱，然後選取 [儲存]  。
+如果您還沒有工作區，則可在左側功能表中選取 [工作區]  來建立一個工作區，然後在底部的面板中選取 [建立工作區]  。  如此會開啟一個面板來輸入工作區詳細資料。 輸入工作區名稱，然後選取 [儲存]  。
 
 ![建立工作區](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_03.png)
 

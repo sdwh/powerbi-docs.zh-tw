@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 46f61d2fcce21e3f8e6dae83c32457414928faee
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 9f1289b5fce74c60e5b3802054cef008dd33ada2
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816573"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021558"
 ---
 # <a name="configure-scheduled-refresh"></a>設定排程的重新整理
 
@@ -30,7 +30,7 @@ ms.locfileid: "66816573"
 
 若要前往 [排程重新整理]  畫面，您可以執行下列動作。
 
-1. 選取 [資料集]  底下所列資料集旁的**省略符號 (...)** 。
+1. 選取 [資料集]  底下所列資料集旁的 [更多選項]  (...)。
 2. 選取 [排程重新整理]  。
 
     ![排程重新整理](media/refresh-scheduled-refresh/dataset-menu.png)
@@ -63,7 +63,7 @@ ms.locfileid: "66816573"
 
 如果發生錯誤，問題通常起因於閘道無法登入 Windows 啟動服務而處於離線，或 Power BI 無法登入資料來源以查詢更新的資料。 如果重新整理失敗，請檢查資料集的設定。 如果閘道服務離線，您可以在 [狀態]  查看錯誤。 如果 Power BI 無法登入資料來源，您可以在 [資料來源認證] 查看錯誤。
 
-### <a name="on-premises-data-gateway"></a>內部部署資料閘道
+### <a name="on-premises-data-gateway"></a>內部部署的資料閘道
 如果您使用內部部署資料閘道來重新整理資料，就不需要提供認證，因為閘道管理員會定義資料來源的認證。
 
 ![排程重新整理命令](media/refresh-scheduled-refresh/data-source-credentials-egw.png)

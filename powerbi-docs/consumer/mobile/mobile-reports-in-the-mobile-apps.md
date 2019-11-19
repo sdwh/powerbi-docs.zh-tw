@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 166b7d88e6ab55481ec56b0cf4f91628cd141bef
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ab96cc6d17d340c626775bf2a03e225968985835
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69985740"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019386"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -45,7 +45,7 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 > [!NOTE]
 > 當您將手機保持在橫向時，即使報表頁面處於手機版面配置，也一律會以橫向版面配置顯示。
 
-若要從儀表板取得報表，請點選磚右上角的省略符號 (...)，然後點選 [開啟報表]  ：
+若要從儀表板取得報表，請點選磚右上角的 [更多選項]  (...)，然後點選 [開啟報表]  ：
   
   ![開啟報表](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
@@ -59,7 +59,7 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 當您點選交叉分析篩選器的值時，會選取該值，並根據該值來切割報表的其餘部分。
 當您點選連結、按鈕或書籤時，會執行報表作者所定義的動作。
 
-您可能已經注意到，當您點選視覺效果時會出現框線。 您會在框線的右上角看到省略符號 (...)。如果您點選省略符號，您會看到一個功能表，其中包含可在該視覺效果上執行的動作：
+您可能已經注意到，當您點選視覺效果時會出現框線。 您會在框線的右上角看到 [更多選項]  (...)。如果您點選省略符號，您會看到一個功能表，其中包含可在該視覺效果上執行的動作：
 
 ![視覺效果和功能表](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -92,7 +92,7 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>使用報表頁尾中的動作
-您可以從報表頁尾，對目前報表頁面或整個報表執行數個動作。 頁尾可讓您快速存取一些最常用的動作。 您可以點選省略符號 (...) 按鈕來存取其他動作：
+您可以從報表頁尾，對目前報表頁面或整個報表執行數個動作。 頁尾可讓您快速存取一些最常用的動作。 您可以點選 [更多選項]  (...) 按鈕來存取其他動作：
 
 ![報表頁尾](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -105,7 +105,7 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 - 檢視所有報表動作。
 
 #### <a name="all-report-actions"></a>所有報表動作
-當您點選報表頁尾中的省略符號 (...) 按鈕時，您會看到可在報表上執行的所有動作：
+當點選報表頁尾中的 [更多選項]  (...) 按鈕時，您會看到可在報表上執行的所有動作：
 
 
 ![所有報表動作](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: eb2ea1fbb96138e892ed563d5999f5bc9da8e59f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e36da3d91289c8e58e1ddbd86c5759f89919b848
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61160660"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021245"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>為 Power BI 的報表建立 QR 代碼以用於行動裝置應用程式
 Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要瀏覽或搜尋即可直接連接到相關的 BI 資訊。
@@ -26,7 +26,7 @@ Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要瀏覽�
 
 ## <a name="create-a-qr-code-for-a-report"></a>建立報表的 QR 代碼
 1. 開啟 Power BI 服務中的報表。
-2. 選取右上角的省略符號 (...)，然後選取 [ **產生 QR 代碼**]。 
+2. 選取右上角的 [更多選項]  (...)，然後選取 [產生 QR 代碼]  。 
    
     ![](media/service-create-qr-code-for-report/power-bi-create-qr-code-report.png)
 3. 具有 QR 代碼的對話方塊隨即出現。 

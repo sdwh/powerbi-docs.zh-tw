@@ -11,12 +11,12 @@ ms.author: mblythe
 ms.date: 09/09/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 04a8c8a08d885427e9de43b719674fce4ac2ebbd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 7d2bfbfb53914fea43014c78d88ac0c66559466c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074829"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431358"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI 的資料列層級安全性 (RLS)
 
@@ -70,7 +70,7 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 
 您可以測試角色以驗證您定義的角色是否正常運作。 
 
-1. 選取角色旁的**省略符號 (...)** 。
+1. 選取角色旁邊的 [更多選項]  (...)。
 2. 選取 [以角色測試資料]  。
 
 ![以角色測試](media/service-admin-rls/rls-test-role.png)
@@ -89,12 +89,12 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
-## <a name="using-rls-with-app-workspaces-in-power-bi"></a>在 Power BI 中對應用程式工作區使用 RLS
+## <a name="using-rls-with-workspaces-in-power-bi"></a>在 Power BI 中搭配工作區使用 RLS
 
-如果您將 Power BI Desktop 報告發佈至 Power BI 服務內的應用程式工作區，角色會套用至唯讀成員。 您必須在應用程式工作區設定內指出成員只能檢視 Power BI 內容。
+如果您將 Power BI Desktop 報告發佈至 Power BI 服務內的工作區，則角色會套用至唯讀成員。 您必須在工作區設定內指出成員只能檢視 Power BI 內容。
 
 > [!WARNING]
-> 如果您已將應用程式工作區設定為讓成員具有編輯權限，則 RLS 角色不會套用至成員。 使用者可以查看所有的資料。
+> 如果您已將工作區設定為讓成員具有編輯權限，則 RLS 角色不會套用至成員。 使用者可以查看所有的資料。
 
 ![群組設定](media/service-admin-rls/rls-group-settings.png)
 

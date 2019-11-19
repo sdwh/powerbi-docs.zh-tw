@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: ab0c4a7bf529f878796ea4b41177e57d19c79128
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 276fc99a1bc4bed4aecb8ca4f6de1094599ff66f
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945248"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017624"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>在 Power BI 中使用 R 支援的 Power BI 視覺效果
 
@@ -55,7 +55,7 @@ ms.locfileid: "71945248"
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
-4. 下載視覺效果之後 (如同從瀏覽器下載任何檔案)，移至 [Power BI Desktop]  並按一下 [視覺效果]  窗格中的省略符號 (...)，然後選取 [從檔案匯入]  。
+4. 下載視覺效果之後 (如同從瀏覽器下載任何檔案)，移至 [Power BI Desktop]  並按一下 [視覺效果]  窗格中的 [更多選項]  (...)，然後選取 [從檔案匯入]  。
 
    ![R 視覺效果 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. 您會在匯入自訂視覺效果時收到警告，如下圖所示：

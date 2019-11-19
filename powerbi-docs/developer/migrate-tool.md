@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f839c8d4208dd63cab411ef5dae064fdb3d2fa95
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61271918"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429450"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 移轉工具
 
@@ -130,9 +130,9 @@ ms.locfileid: "61271918"
 > [!NOTE]
 > 這不會實際執行下載。 這只會指定報表下載目標位置的結構。
 
-#### <a name="upload-plan"></a>上傳計劃
+#### <a name="upload-plan"></a>上傳方案
 
-您可以在這裡指定用於在 Power BI 服務內建立之應用程式工作區的前置詞。 前置詞後面會是 Azure 中現有工作區的 GUID。
+您可以在這裡指定要用於 Power BI 服務內所建立工作區的前置詞。 前置詞後面會是 Azure 中現有工作區的 GUID。
 
 ![上傳計劃](media/migrate-tool/migrate-tool-upload-plan.png)
 
@@ -167,21 +167,21 @@ ms.locfileid: "61271918"
 
 ## <a name="step-3-create-groups"></a>步驟 3：建立群組
 
-在您下載可用的報表之後，可以移至 [建立群組]  索引標籤。此索引標籤將會根據您所建立的移轉計劃，在 Power BI 服務內建立應用程式工作區。 它將會使用您在 **[Analyze & Plan Migration]** (分析和規劃移轉) 的 [上傳]  索引標籤上提供的名稱，來建立應用程式工作區。
+在您下載可用的報表之後，可以移至 [建立群組]  索引標籤。此索引標籤將根據您建立的移轉計劃，在 Power BI 服務內建立工作區。 這會使用您在 [分析和規劃移轉]  內 [上傳]  索引標籤上提供的名稱來建立工作區。
 
 ![建立群組](media/migrate-tool/migrate-tool-create-groups.png)
 
-若要建立應用程式工作區，您可以選取 **[Create Selected Groups ]** (建立選取的群組) 或 **[Create All Missing Groups]** (建立所有遺漏的群組)。
+若要建立工作區，您可以選取 [建立選取的群組]  或 [建立所有缺少的群組]  。
 
-當您選取其中一個選項時，系統會提示您登入。 *您想要將認證用於您要在其上建立應用程式工作區的 Power BI 服務。*
+當您選取其中一個選項時，系統會提示您登入。 *您想要將認證用於要在其上建立工作區的 Power BI 服務。*
 
 ![建立群組登入](media/migrate-tool/migrate-tool-create-group-sign-in.png)
 
-這會在 Power BI 服務內建立應用程式工作區。 這不會將報表上傳至應用程式工作區。
+這會在 Power BI 服務內建立工作區。 這不會將報表上傳至工作區。
 
-您可以登入 Power BI 並驗證工作區存在與否，確認已建立應用程式工作區。 您會注意到工作區中沒有內容。
+您可以登入 Power BI 並驗證工作區存在與否來確認已建立工作區。 您會注意到工作區中沒有內容。
 
-![應用程式工作區](media/migrate-tool/migrate-tool-app-workspace.png)
+![工作區](media/migrate-tool/migrate-tool-app-workspace.png)
 
 建立工作區之後，您可以移至 [上傳]  索引標籤。
 
@@ -235,9 +235,9 @@ ms.locfileid: "61271918"
 
 我們接著可以在移轉工具中重新開啟計劃，並上傳失敗的報表。
 
-回到 Power BI，即可在應用程式工作區中看到已上傳報表和資料集。
+回到 Power BI，即可在工作區中看到報表和資料集已上傳。
 
-![上傳應用程式工作區](media/migrate-tool/migrate-tool-upload-app-workspace.png)
+![上傳工作區](media/migrate-tool/migrate-tool-upload-app-workspace.png)
 
 <a name="upload-local-file"></a>
 
@@ -264,7 +264,7 @@ ms.locfileid: "61271918"
 
 ## <a name="embedding"></a>內嵌
 
-既然，您的報表已從 Power BI Embedded Azure 服務升級為 Power BI 服務，您現在可以更新您的應用程式，並開始將報表內嵌在此應用程式工作區中。
+既然，報表已從 Power BI Embedded Azure 服務移轉至 Power BI 服務，您現在可以更新應用程式，並開始將報表內嵌在此工作區中。
 
 如需詳細資訊，請參閱[如何將 Power BI Embedded 工作區集合內容移轉至 Power BI](migrate-from-powerbi-embedded.md)。
 

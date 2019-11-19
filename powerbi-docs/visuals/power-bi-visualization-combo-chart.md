@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97c01966750d888f3420d265eb3f252b3a8f57d3
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 527334d2772dbe20f7f78929231cca9faf036e95
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194893"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017736"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI 中的組合圖
 
@@ -67,7 +67,7 @@ ms.locfileid: "71194893"
     c. 選取 [時間]  \> [會計月份]  ，將其加入 [軸]  部分。
 
     ![組合教學課程範例](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. 選取視覺效果右上角的省略符號 (...)，然後選取 [Sort by] > [FiscalMonth] \(排序依據\) > [FiscalMonth]  。 若要變更排序次序，請再次選取省略符號，並選擇 [遞增排序]  或 [遞減排序]  。 範例將使用 [遞增排序]  。
+5. 選取視覺效果右上角的 [更多選項]  (...)，然後選取 [排序依據] > [FiscalMonth]  。 若要變更排序次序，請再次選取省略符號，並選擇 [遞增排序]  或 [遞減排序]  。 範例將使用 [遞增排序]  。
 
 6. 將直條圖轉換成組合圖。 有兩個組合圖可用：[折線與堆疊直條圖]  和 [折線與群組直條圖]  。 選取直條圖後，從 [視覺效果]  窗格中，選取 [折線與群組直條圖]  。
 

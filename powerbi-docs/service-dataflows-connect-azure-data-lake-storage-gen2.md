@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160357"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432007"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體 (預覽)
 
@@ -183,7 +183,7 @@ ms.locfileid: "70160357"
 
 Power BI Desktop 客戶無法存取儲存在 **Azure Data Lake Storage 帳戶** 中的資料流程，除非他們是該資料流程的擁有者，或已獲得 Lake 中 CDM 資料夾的授權。 案例如下：
 
-1. Anna 建立了新的應用程式工作區，並加以設定以儲存組織 Data Lake 中的資料流程。 
+1. Anna 建立了新的工作區，並加以設定以在組織的 Data Lake 中儲存資料流程。 
 2. Ben 是 Anna 所建立之工作區的成員，他想要利用 Power BI Desktop 和資料流程連接器，從 Anna 建立的資料流程取得資料。
 3. Ben 會收到類似的錯誤，因為 Ben 並未獲得授權，無法存取該資料流程在 Lake 中的 CDM 資料夾。
 

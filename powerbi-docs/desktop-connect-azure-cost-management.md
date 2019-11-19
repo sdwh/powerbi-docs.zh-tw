@@ -1,6 +1,6 @@
 ---
 title: 在 Power BI Desktop 中連線到 Azure 成本管理資料
-description: 使用 Power BI Desktop 輕鬆地連線到 Azure，並取得有關成本管理的見解
+description: 輕鬆地連線到 Azure，並使用 Power BI Desktop 取得 Azure 成本和使用方式相關見解
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -11,21 +11,21 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1ef9deac169873d7faee33abdae9f8f38aa09c6d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: dccae9f8f9519495da9056599939169e7157873c
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307999"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891762"
 ---
-# <a name="connect-to-azure-cost-management-data-in-power-bi-desktop"></a>在 Power BI Desktop 中連線到 Azure 成本管理資料
+# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>在 Power BI Desktop 中連線到 Azure 成本管理
 
 您可以使用適用於 Power BI Desktop 的 Azure 成本管理連接器，來提供功能強大、自訂視覺效果與報表，協助您更了解您的 Azure 支出。 Azure 成本管理連接器目前支援具有 [Microsoft 客戶合約](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/)或 [Enterprise 合約 (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/) 的客戶。  
 
-Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證。 若要連線，您必須使用 Enterprise 合約的[企業系統管理員](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles)帳戶，或 Microsoft 客戶合約的[計費帳戶擁有者](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles)。 
+Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並識別要使用連接器的使用者。 在此程序中產生的權杖會在特定期間內有效。 Power BI 會保留權杖以供下次登入使用。 OAuth 2.0 是在幕後進行的程序標準，以確保這些權限的處理安全。 若要連線，您必須使用 Enterprise 合約的[企業系統管理員](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles)帳戶，或 Microsoft 客戶合約的[計費帳戶擁有者](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles)。 
 
 > [!NOTE]
-> 此連接器取代先前可用的 [Azure 成本管理搶鮮版 (Beta)](desktop-connect-azure-consumption-insights.md) 連接器。 使用先前連接器建立的任何報表都必須使用此連接器重新建立。
+> 此連接器取代先前可用的 [Azure 使用量見解和 Azure 成本管理搶鮮版 (Beta)](desktop-connect-azure-consumption-insights.md) 連接器。 使用先前連接器建立的任何報表都必須使用此連接器重新建立。
 
 ## <a name="connect-using-azure-cost-management"></a>使用 Azure 成本管理來連線
 

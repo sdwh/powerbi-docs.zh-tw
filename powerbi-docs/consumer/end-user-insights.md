@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c157a486b66180de1299144e670210559a53258a
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207592"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019617"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>使用 Power BI 在儀表板圖格上檢視資料見解
 儀表板上每個視覺效果[磚](end-user-tiles.md)都是資料探索的入口。 當您選取磚時，磚會開啟報表或[開啟問與答](end-user-q-and-a.md)，您可以在其中篩選和排序報表後方的資料集，並深入挖掘。 當您執行見解時，Power BI 會為您探索資料。
@@ -31,7 +31,7 @@ ms.locfileid: "71207592"
 當您對儀表板磚執行見解時，Power BI 只會搜尋用來建立這一個儀表板磚的資料。 
 
 1. [開啟儀表板](end-user-dashboards.md)。
-2. 將游標停留在磚上方， 選取省略符號 (...)，然後選擇 [檢視見解]  。 
+2. 將游標停留在磚上方， 選取 [更多選項]  (...)，然後選擇 [檢視見解]  。 
 
     ![省略符號功能表](./media/end-user-insights/power-bi-hovers.png)
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 1d2ff47fdbc31598524986742319ab36c8f3e957
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175236"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442894"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何購買 Power BI Premium
 
@@ -30,17 +30,17 @@ ms.locfileid: "71175236"
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>建立具有 Power BI Premium P1 的新租用戶
 
-如果您目前沒有租用戶並想建立一個，您可以同時購買 Power BI Premium。 下列連結會引導您完成建立新租用戶的程序，並可讓您購買 Power BI Premium：[Power BI Premium P1 供應項目](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1)。 當您建立租用戶時，系統會自動將您指派為該租用戶的 Office 365 全域管理員角色。
+如果您目前沒有租用戶並想建立一個，您可以同時購買 Power BI Premium。 下列連結會引導您完成建立新租用戶的程序，並可讓您購買 Power BI Premium：[Power BI Premium P1 供應項目](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1)。 當您建立租用戶時，系統會自動將該租用戶的 Microsoft 365 全域管理員角色指派給您。
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>為現有的組織購買 Power BI Premium 容量
 
-如果您有現有的組織 (租用戶)，則您必須是 Office 365 全域管理員角色或計費管理員角色，才能購買訂閱和授權。 如需詳細資訊，請參閱[關於 Office 365 系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+如果您有現有的組織 (租用戶)，則您必須是 Microsoft 365 全域管理員角色或計費管理員角色才能購買訂閱和授權。 如需詳細資訊，請參閱[關於 Microsoft 365 系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 若要購買 Premium 容量，請遵循下列步驟。
 
-1. 從 Power BI 服務內選取 Office 365 應用程式選擇器，然後選取 [系統管理員]  。
+1. 從 Power BI 服務內選取 Microsoft 365 應用程式選擇器，然後選取 [系統管理員]  。
 
-    ![Office 365 應用程式選擇器](media/service-admin-premium-purchase/o365-app-picker.png)
+    ![Microsoft 365 應用程式選擇器](media/service-admin-premium-purchase/o365-app-picker.png)
 
     或者，您可以瀏覽至 Microsoft 365 系統管理中心。 您可以前往 [https://portal.office.com](https://portal.office.com )，再選取 [系統管理]  ，如此就能進入系統管理中心。
 
@@ -66,7 +66,7 @@ ms.locfileid: "71175236"
 
 1. 在 [其他方案]  下，尋找您要購買更多的 Power BI Premium 項目。
 
-1. 將滑鼠停留在**省略符號 (...)** ，然後選取 [變更授權數量]  。
+1. 將滑鼠暫留在 [更多選項]  (...)，然後選取 [變更授權數量]  。
 
     ![變更授權數量](media/service-admin-premium-purchase/premium-purchase-more.png)
 

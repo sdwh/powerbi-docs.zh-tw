@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/30/2019
+ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: c53ce84610e68280c915d55466bc7cddd3c0cc92
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715304"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060741"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>將超連結 (URL) 新增至資料表
 本主題會指導您如何將超連結 (URL) 新增至資料表。 您會使用 Power BI Desktop 來將超連結 (URL) 新增至資料表或矩陣。 然後，在 Power BI Desktop 或 Power BI 服務中，您可以將那些超連結新增至您的報表資料表和矩陣。 
@@ -44,7 +44,7 @@ ms.locfileid: "71715304"
     ![藍色且加上底線的連結](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
 
     > [!NOTE]
-    > URL 的開頭必須是 **http://、 https://** 或 **www**。
+    > URL 的開頭必須是特定的前置詞。 如需完整清單，請參閱[考量與疑難排解](#considerations-and-troubleshooting)。
     >
    
 1. 如果您不想在表格中顯示完整的 URL，可以改為顯示超連結圖示  ![超連結圖示](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) 。 請注意，您無法在矩陣中顯示圖示。
@@ -80,8 +80,9 @@ ms.locfileid: "71715304"
 4. 將游標放在包含 URL 的資料行，其中的 URL 想要轉換成 Power BI 資料表中的超連結。
    
    > [!NOTE]
-   > URL 的開頭必須是 **http://、 https://** 或 **www**。
+   > URL 的開頭必須是特定的前置詞。 如需完整清單，請參閱[考量與疑難排解](#considerations-and-troubleshooting)。
    > 
+   
 5. 在 [報表屬性]  群組中，選取 [資料類別目錄]  下拉式清單，然後選擇 [Web URL]  。 
    
    ![Excel 中的資料類別下拉式清單](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
@@ -92,6 +93,16 @@ ms.locfileid: "71715304"
    ![在 Power BI 中建立包含 URL 欄位的資料表](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
+
+URL 的開頭必須是下列其中一項：
+- http
+- https
+- -mailto
+- file
+- ftp
+- news
+- telnet
+
 問：是否可以在資料表或矩陣中使用自訂 URL 作為超連結？    
 答：否。 您可以使用連結圖示。 如果您需要針對超連結使用自訂文字，且您的 URL 清單很短，請考慮改用文字方塊。
 

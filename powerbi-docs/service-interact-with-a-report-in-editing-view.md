@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 12ee21427f06f0bce373adffa7ef336de144a3a4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 786357d2861b05c46ffb3c7b827d5c797fb5ea20
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61234445"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431779"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>在 Power BI 服務中與編輯檢視的報表互動
 報表可以在 Power BI 服務和 Power BI Desktop 中建立與編輯。 在 Power BI 服務中，您可以在**編輯檢視**中建立和編輯報表。 而在 Power BI Desktop 中，您可以在[**報表檢視**](desktop-report-view.md)中建立和編輯報表。 本文涵蓋 Power BI 服務中的編輯檢視。 
 
 Power BI 服務有兩種不同模式可與報表互動 -- [閱讀檢視](consumer/end-user-reading-view.md) (適用於報表「取用者」  ) 和 [編輯檢視] (適用於報表擁有者和建立者)。  共用報表以及編輯其他人建立的報告需要 Power BI Pro 版授權。 如果您沒有 Pro 授權，則仍然可以建立報表，但無法[共用報表](service-share-reports.md)。    
 
-在報表編輯檢視中，提供您許多探索及設計報表的彈性。 提供所有[閱讀檢視](consumer/end-user-reading-view.md)功能，以及其他功能。 [編輯檢視] 僅適用於建立報告的人員，或[以應用程式工作區的成員或管理員身分共同擁有報告](service-create-distribute-apps.md)的同事。
+在報表編輯檢視中，提供您許多探索及設計報表的彈性。 提供所有[閱讀檢視](consumer/end-user-reading-view.md)功能，以及其他功能。 [編輯檢視] 僅適用於建立報表的人員，或[以工作區成員或系統管理員身分共同擁有報表](service-create-distribute-apps.md)的同事。
 
 ## <a name="functionality-only-available-in-editing-view"></a>編輯檢視才有的功能
 請查看左側 [目錄] 的 [報告]  標頭下方的主題清單。 這是一份很長的清單，而且許多主題都涵蓋「只有在您具有報表的編輯權限時才能使用」  的功能。  為了協助您巡覽 [目錄]，[編輯檢視] 需要用於下列作業︰

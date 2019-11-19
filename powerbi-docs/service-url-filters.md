@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 389b28a4cadca10445ebaabeebaa109e414496f1
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623902"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891805"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -153,13 +153,13 @@ V3 和 V4 之間還有其他差異。 OData V3 不支援日期，只有 DateTime
 |---------|---------|---------|
 |**資料表名稱**     | 空格是 0x20        |  Table_x0020_Name       |
 |**Column**@**Number**     |   @ 是 0x40     |  Column_x0040_Number       |
-|**[Column]**     |  [ 是 0x0058] 是 0x0050       |  _x0058_Column_x0050_       |
+|**[Column]**     |  [ 是 0x005B ] 是 0x005D       |  _x005B_Column_x005D_       |
 |**Column+Plus**     | + 是 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![呈現特殊字元的資料表視覺效果](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/ _ eq '[C]' ![呈現特殊字元的資料表視覺效果](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![呈現特殊字元的資料表視覺效果](media/service-url-filters/power-bi-special-characters2.png)
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>使用 DAX 篩選多個值
 

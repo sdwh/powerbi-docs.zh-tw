@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 10/24/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 748594dcf9f71677057b8641e44f1408bebd1b89
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 3121c939cca8b2b4f743185e2367c8ea83794009
+ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715335"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048821"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 **Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本專為美國政府客戶而設計，並且獨立且不同於商用版本的 **Power BI 服務**。
@@ -60,6 +60,7 @@ Azure 分散於多個雲端。 系統預設會允許租用戶，以開啟對雲�
 * **外部使用者共用** - 共用只允許在 Power BI 租用戶內進行，不過自 2018 年 6 月起，就能與 Power BI 租用戶以外的使用者共用。 請參閱[使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者](service-admin-azure-ad-b2b.md)。
 * **儀表板和報表的使用計量** - 使用計量不適用於儀表板和報表。 客戶可以使用稽核記錄資料，取得組織中內容的使用量資訊。
 * **資料流程** - 資料流程無法使用。
+* **編頁報表** - 編頁報表目前僅適用於美國維吉尼亞州政府。  對美國德克薩斯州政府的支援已在規劃中，但尚未提供。
 
 如果您已將 **Power BI** 免費授權指派給您的帳戶，則這些帳戶會在 **Power BI** 服務的商用版本中執行，而不是 **Power BI 美國政府**供應項目的一部分。 針對這些免費帳戶，您可能會遇到下列問題︰
 

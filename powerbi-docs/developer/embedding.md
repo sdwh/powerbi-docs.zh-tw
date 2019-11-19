@@ -17,16 +17,16 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: d2e52ff986bb2bba0caf5168c5038bb55011144a
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 501b43b7a17d60bbb277cd68c1a5d13e09b14bd5
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391517"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430741"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>搭配 Power BI 使用內嵌式分析
 
-Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 API 可供內嵌您的儀表板和報表。 在內嵌內容時，這可讓您存取最新的 Power BI 功能，例如儀表板、閘道及應用程式工作區。
+Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 API 可供內嵌您的儀表板和報表。 在內嵌內容時，這可讓您存取最新的 Power BI 功能，例如儀表板、閘道及工作區。
 
 您可以完成[內嵌安裝工具](https://aka.ms/embedsetup)以快速開始使用並下載應用程式範例。
 
@@ -85,7 +85,7 @@ Power BI Pro 帳戶將成為應用程式的主帳戶 (將其視為 Proxy 帳戶)
 > [!IMPORTANT]
 > 雖然內嵌需要 Power BI 服務，但您的客戶不需要擁有 Power BI 帳戶就能檢視應用程式的內嵌內容。 
 
-當您準備好進入生產環境時，必須將應用程式工作區指派給專用容量。 Microsoft Azure 中的 Power BI Embedded 提供與您應用程式搭配使用的[專用容量](azure-pbie-create-capacity.md)。
+當準備好進入生產環境時，必須將工作區指派給專用容量。 Microsoft Azure 中的 Power BI Embedded 提供與您應用程式搭配使用的[專用容量](azure-pbie-create-capacity.md)。
 
 如需內嵌的詳細資料，請參閱[如何內嵌 Power BI 內容](embed-sample-for-customers.md)。
 

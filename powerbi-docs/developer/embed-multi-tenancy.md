@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 3940f677cadc5844cfac9c32781a5586bde0607a
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 3b33e2479ad114a2224c16c9d43e7797784624fc
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621283"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429638"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 內嵌式分析管理多租用戶
 
@@ -37,7 +37,7 @@ ms.locfileid: "69621283"
 
 **租用戶** - 使用 SaaS 應用程式的單一客戶 (組織) 以及客戶為 SaaS 應用程式帶來的任何資源或資料。
 
-**[Power BI](../power-bi-overview.md)** - Power BI 雲端服務，可作為 Power BI Embedded 的平台。
+**[Power BI](../fundamentals/power-bi-overview.md)** - Power BI 雲端服務，可作為 Power BI Embedded 的平台。
 
 **Power BI 租用戶** - 是一組與單一 AAD 租用戶相關聯的 Power BI 資源。
 
@@ -55,7 +55,7 @@ ms.locfileid: "69621283"
 
 **容量** - 一組專門用來執行 Power BI 服務的資源。 [Power BI Premium 容量](../service-premium-what-is.md) 適用於內部使用 Power BI 的企業公司，而 [Power BI Embedded 容量](azure-pbie-create-capacity.md)旨在讓應用程式開發人員為第三方開發 SaaS 應用程式。
 
-**[Power BI Pro 授權](../service-admin-purchasing-power-bi-pro.md)** - 以使用者為基礎的授權，可授予權限將內容發行至應用程式工作區、使用無 Premium 容量的應用程式、共用儀表板以及訂閱儀表板和報表。
+**[Power BI Pro 授權](../service-admin-purchasing-power-bi-pro.md)** - 以使用者為基礎的授權，可授與權限將內容發佈至工作區、使用無 Premium 容量的應用程式、共用儀表板以及訂閱儀表板和報表。
 
 **[資料連線模式](../desktop-directquery-about.md)** - 將資料來源連接到可以在不同模式中完成的 Power BI：
 

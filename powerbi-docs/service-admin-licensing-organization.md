@@ -1,6 +1,6 @@
 ---
 title: 組織中的 Power BI 授權
-description: 了解 Power BI 中提供的不同授權類型：免費授權、Power BI Pro 和 Power BI Premium。
+description: 了解 Power BI 提供的不同授權類型：免費授權、Power BI Pro 和 Power BI Premium。
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 24cc798814e0c19de4f1dd4d0d6907fc7a0074a6
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e7a851a890fa734c045bb9cee60d429f87a3a602
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075411"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442839"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>組織中的 Power BI 授權
 
@@ -27,9 +27,9 @@ ms.locfileid: "71075411"
 
 身為系統管理員，您可以購買和指派 Power BI Pro 授權，也可以為您的組織註冊 Power BI Pro 試用版。 個人也可以註冊 Power BI Pro 試用版。
 
-### <a name="purchase-power-bi-pro"></a>購買 Power BI Pro
+### <a name="purchase-power-bi-pro-licenses"></a>購買 Power BI Pro 授權
 
-您透過 Microsoft Office 365 或透過認證的 Microsoft 合作夥伴，來購買 Power BI Pro 授權。 購買授權之後，請將它們指派給個別使用者。 如需詳細資訊，請參閱[購買及指派 Power BI Pro 授權](service-admin-purchasing-power-bi-pro.md)。
+身為系統管理員，您會透過 Microsoft Office 365 或認證的 Microsoft 合作夥伴來購買 Power BI Pro 授權。 購買授權之後，請將它們指派給個別使用者。 如需詳細資訊，請參閱[購買及指派 Power BI Pro 授權](service-admin-purchasing-power-bi-pro.md)。
 
 ### <a name="power-bi-pro-license-expiration"></a>Power BI Pro 授權到期
 
@@ -41,7 +41,7 @@ Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳
 
 在您組織中的個人可以註冊 Power BI Pro 試用。 如需詳細資訊，請參閱[以個人身分註冊 Power BI](service-self-service-signup-for-power-bi.md)。
 
-利用產品中 Power BI Pro 試用版的使用者，不會在 Microsoft 365 系統管理中心顯示為 Power BI Pro 試用版使用者 (他們會顯示為 Power BI 免費版使用者)。 不過在 Power BI [管理儲存體] 頁面中會顯示為 Power BI Pro 試用版使用者。
+利用產品中 Power BI Pro 試用版的個人使用者，不會在 Microsoft 365 系統管理中心顯示為 Power BI Pro 試用版使用者 (其會顯示為 Power BI 免費版使用者)。 不過在 Power BI [管理儲存體] 頁面中會顯示為 Power BI Pro 試用版使用者。
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>Power BI Pro 組織試用版
 
@@ -49,7 +49,7 @@ Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳
 
 遵循註冊步驟之前，請記住下列事項：
 
-* 若要註冊，您必須是 Office 365 中[**全域管理員**或**計費管理員**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)角色的成員。
+* 若要註冊，您必須是 Microsoft 365 中[**全域管理員**或**計費管理員**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)角色的成員。
 
 * 每個租用戶只限使用一個組織試用版。 這表示，如果有人已將 Power BI Pro 試用版套用至您的租用戶，您就無法再次套用。 如果您需要這方面的協助，請連絡 [Office 365 帳單支援](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671)。
 
@@ -79,11 +79,11 @@ Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳
 
 * 您可以在 Microsoft 365 系統管理中心內，為他們指派 Power BI 授權。
 
-* 如果使用者[註冊 Power BI Pro 試用版](service-self-service-signup-for-power-bi.md)且試用版到期，則會取得免費授權。
+* 如果使用者[註冊 Power BI Pro 帳戶](service-self-service-signup-for-power-bi.md)，即會獲指派免費授權。
 
 ### <a name="requesting-and-assigning-free-licenses"></a>要求及指派免費授權
 
-如果您打算集中管理授權要求和指派，請先檢查是否已有無限制的 Power BI (免費) 授權區塊。
+如果您打算集中管理授權要求和指派，請先檢查是否已擁有租用戶的無限制 Power BI (免費) 授權區塊。
 
 在首次有人以個人身分註冊 Power BI 之後，便可使用此區塊的授權。 在此過程中，這個授權區塊會附加到您的組織，並將授權指派給註冊的使用者。
 
@@ -125,9 +125,9 @@ Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳
 
 身為系統管理員，您可以選擇透過 Azure Active Directory (AAD) 啟用或停用個人使用者註冊。 文章的本節會示範如何使用 PowerShell 命令管理註冊。 如需 Azure PowerShell 的詳細資訊，請參閱 [Azure PowerShell 概觀](/powershell/azure/overview)。
 
-控制註冊的 Azure AD 設定為 **AllowAdHocSubscriptions**。 在大多數的租用戶，此會設定為 *true*，表示已啟用此設定。 如果您透過合作夥伴取得 Power BI，這可能設為 *false*，表示已停用此設定。 如果您將設定從 *true* 變更為 *false*，則組織中的新使用者會遭到封鎖，無法以個人身分註冊。 在設定變更前已註冊 Power BI 的使用者，會保留其授權。 請注意，設定為 *false* 時，使用者仍可以註冊 Pro 試用版。
+控制註冊的 Azure Active Directory 設定為 **AllowAdHocSubscriptions**。 在大多數的租用戶，此會設定為 *true*，表示已啟用此設定。 如果您透過合作夥伴取得 Power BI，這可能設為 *false*，表示已停用此設定。 如果您將設定從 *true* 變更為 *false*，則組織中的新使用者會遭到封鎖，無法以個人身分註冊。 在設定變更前已註冊 Power BI 的使用者，會保留其授權。 請注意，設定為 *false* 時，Power BI (免費) 授權的使用者仍可註冊個人 Power BI Pro 試用版。
 
-1. 使用 Office 365 認證登入 Azure Active Directory。 下列 PowerShell 指令碼的第一行會提示您輸入您的認證。 第二行連接到 Azure Active Directory。
+1. 使用 Microsoft 365 認證登入 Azure Active Directory。 下列 PowerShell 指令碼的第一行會提示您輸入您的認證。 第二行連接到 Azure Active Directory。
 
     ```powershell
      $msolcred = get-credential

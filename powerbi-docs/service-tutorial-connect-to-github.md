@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7540083b49e0790bfd9062d28d2655ff024d577f
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 7f7fde7fcabc29238d9558739eff02519ef9cca3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867177"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020027"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>教學課程：使用 Power BI 連線到 GitHub 存放庫
 在本教學課程中，您使用 Power BI 連線接至 GitHub 服務中的實際資料，而且 Power BI 會自動建立儀表板和報表。 您會連線到 Power BI 內容的公用存放庫 (也稱為「存放庫」  )，並查看如下問題的解答：有多少人參與 Power BI 的公用內容？ 誰參與最多？ 哪個星期幾的參與最多？ 以及其他問題。 
@@ -76,7 +76,7 @@ ms.locfileid: "68867177"
 
     ![左側瀏覽窗格中的應用程式](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. 選取儀表板名稱旁邊的省略符號 (...) > [重新命名]  > 鍵入 **GitHub 儀表板**。
+10. 選取儀表板名稱旁邊的 [更多選項]  (...) > [重新命名]  > 鍵入 **GitHub 儀表板**。
  
     ![Power BI GitHub 磚](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cc239ad33d8789d679fccd21339740af71155336
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67499000"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059453"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>開始在 iOS 裝置上使用 Power BI 行動裝置應用程式
 iPhone、iPad 或 iPod Touch 的 Microsoft Power BI for iOS 應用程式傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 透過 [Apple Watch](mobile-apple-watch.md)，隨時掌握最即時的資料。  
@@ -109,7 +109,7 @@ Microsoft Intune 讓組織可以控制像是要求存取 PIN、控制應用程�
 
 ## <a name="next-steps"></a>後續步驟
 
-* [Power BI 是什麼？](../../power-bi-overview.md)
+* [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
 
 

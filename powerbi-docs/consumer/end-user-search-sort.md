@@ -3,22 +3,25 @@ title: 在 Power BI 服務中搜尋並排序您的內容
 description: 在 Power BI 我的工作區中搜尋和排序內容的文件
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e32f0da4c512434fb316c010f2547de3ad5828e5
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d5bc5638d9f98c1a35f57edd1d5d838c91c8ebf2
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302824"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891772"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>瀏覽：搜尋、尋找和排序 Power BI 服務中的內容
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 有許多方法可以在 Power BI 服務中瀏覽到您的內容。 您工作區內的內容會依類型加以組織：儀表板和報表。  而內容也會依使用情況加以組織：我的最愛、最近、應用程式、與我共用及精選。 為了讓導覽可在一處完成，Power BI「首頁」  會將內容整理在同一個頁面上。 這些通往您內容的不同路徑，可讓您在 Power BI 服務中快速找出您所需的內容。  
 
 ## <a name="navigation-within-workspaces"></a>在工作區內瀏覽
@@ -41,13 +44,13 @@ ________________________________________
 
 ![排序內容](./media/end-user-experience/power-bi-sort-new.png)
 
-並非所有資料行都可以進行排序。 將滑鼠游標暫留在資料行標題，以探索哪些項目無法進行排序。
+並非所有資料行都可以進行排序。 將滑鼠游標暫留在資料行標題，以探索哪些項目可以進行排序。
 
 ___________________________________________________________________
-## <a name="navigation-using-the-left-nav-bar"></a>使用左導覽列進行瀏覽
-左側瀏覽列會以可讓您更快速地找到需要內容的方式將您的內容分類。  
+## <a name="navigation-using-the-navigation-pane"></a>使用瀏覽窗格進行瀏覽
+瀏覽窗格會以可讓以您更快速地找到需要內容的方式來將內容分類。  
 
-![左側瀏覽列](./media/end-user-search-sort/power-bi-navbar.png)
+![左側瀏覽窗格](./media/end-user-search-sort/power-bi-navbar.png)
 
 
 - 與您共用的內容可在**與我共用**中取得。

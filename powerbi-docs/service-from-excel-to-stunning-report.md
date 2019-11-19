@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ed4bc9d10e3e1512aba559d77ba8729a39cb8a84
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995150"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021004"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>從 Excel 活頁簿轉變為 Power BI 服務中出色的報表
 您的經理在下班時想要看到您最近的銷售數字以及之前行銷活動效果的報表。 但最新資料在各種協力廠商系統及您膝上型電腦的檔案上。 在過去，需要好幾個小時的時間才能建立視覺效果並將報表格式化，所以您覺得有點焦慮。
@@ -111,7 +111,7 @@ Power BI 服務匯入您的 Excel 檔案之後，您就可以開始製作報表�
 
 2. 選擇 [視覺效果]  功能表中的任一圖示來變更圖表的類型。 例如，將其變更為 [堆疊直條圖]  。 
 
-3. 若要排序圖表，請選取省略符號 (...) > [排序依據]  。
+3. 若要排序圖表，請選取 [更多選項]  (...) > [排序依據]  。
 
    ![報表編輯器中的堆疊直條圖](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
 

@@ -8,13 +8,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/09/2019
-ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.date: 10/25/2019
+ms.openlocfilehash: 0a4aaa5d9fcb3d5dab6cce0b0c8dd6034581aedb
+ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259974"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72922549"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -23,15 +23,22 @@ ms.locfileid: "72259974"
 如需新功能的詳細資訊，請參閱 [Power BI 報表伺服器的新增功能](whats-new.md)。 
 
 ## <a name="september-2019"></a>2019 年 9 月
-
 - **Power BI 報表伺服器**
+    - *版本：1.6.7236.4246 (組建 15.0.1102.646)，發行日期：2019 年 10 月 25 日*
+        - 安全性更新
+        - Bug 修正
+            - 未安裝 .net framework 4.7 的修正程式。
+            - 多重值參數的 Teradata 編頁報表錯誤 110083 修正程式。
+            - 如果有多個 Web 服務 URL 繫結，且其中一個為 http://+80/reportserver ，則 URLRoot 值無法正常執行的修正程式。
+          - 編頁報表多重值參數值顯示於報表區域外的修正程式。
+          
     - *版本：1.6.7221.30698 (組建 15.0.1102.620)，發行日期：2019 年 10 月 9 日*
         - Bug 修正
             - 修正文字篩選自訂視覺效果。
             - 修正下拉式交叉分析篩選器的效能。
             - 修正來自遙測的 Strip PII。
           - 修正 URL 為不需分大小寫。
-             
+          
     - *版本 1.6.7206.38019 (組建 15.0.1102.597)，發行日期：2019 年 9 月 26 日*
         - 安全性更新
         - Bug 修正
@@ -50,7 +57,10 @@ ms.locfileid: "72259974"
              - 已更新 Web API: /PowerBIReports({Id})/DataSources (PATCH) 來允許連接字串更新。
          
 - **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
-
+    - *版本：2.73.5586.1501 (2019 年 9 月)，發行日期：2019 年 10 月 25 日*
+        - Bug 修正
+            - 遙測的修正程式。
+            
     - *版本：2.73.5586.1241 (2019 年 9 月)，發行日期：2019 年 10 月 9 日*
         - Bug 修正
             - 修正文字篩選自訂視覺效果。

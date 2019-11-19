@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cab65ad12255b7a5ff2e37902684437f0e191723
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e08d37f3db6156de21f00813a90b1c7544345abe
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61169006"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021176"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>為 Power BI 的磚建立 QR 代碼以用於行動裝置應用程式
 Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要瀏覽或搜尋即可直接連接到相關的 BI 資訊。
@@ -27,8 +27,8 @@ Power BI 中的 QR 代碼可將真實世界中的所有項目，不需要瀏覽�
 
 ## <a name="create-a-qr-code-for-a-tile"></a>為磚建立 QR 代碼
 1. 開啟 Power BI 服務中的儀表板。
-2. 選取磚右上角的省略符號 (...)，然後選取 [焦點模式]  ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg)。
-3. 選取右上角的省略符號 (...)，然後選取 [ **產生 QR 代碼**]。 
+2. 選取磚右上角的 [更多選項]  (...)，然後選取 [焦點模式]  ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg)。
+3. 選取右上角的 [更多選項]  (...)，然後選取 [產生 QR 代碼]  。 
    
     ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
 4. 具有 QR 代碼的對話方塊隨即出現。 

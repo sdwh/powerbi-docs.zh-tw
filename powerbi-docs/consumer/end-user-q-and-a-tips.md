@@ -3,20 +3,19 @@ title: 透過問與答提出問題的祕訣與訣竅
 description: 透過 Power BI 中的問與答提出問題的秘訣和訣竅
 author: mihart
 manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
+ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a3d70824949d214404b25b401930fc69cb47ad4e
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67408182"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72774728"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 問與答中詢問問題的秘訣
 ## <a name="words-and-terminology-that-qa-recognizes"></a>問與答可辨識的字組與專有名詞
@@ -79,7 +78,9 @@ ms.locfileid: "67408182"
 * 以視覺效果形式提供回答的預覽結果。 視覺效果會在您鍵入及編輯問題時更新 (不用等您按下 Enter 鍵)。
 * 將游標移回 [問題] 方塊時，從基礎資料集建議取代的字詞。
 * 依據基礎資料集中的資料，再次陳述問題。 問與答會將您使用的單字取代為來自基礎資料集的同義字。 透過閱讀重新陳述的內容，您可以知道問與答是否了解您的問題。 
-* 將不了解的單字變暗。
+* 將不了解的字組加上雙底線。
+* 將不了解的字組加上單底線。
+* 在找不到字詞或問題沒有得到結果時，讓您連絡報表或儀表板擁有者。
 
 ## <a name="dont-stop-now"></a>不立即停止
 問與答顯示您的結果之後，持續保存交談內容！ 使用視覺效果的互動功能與問答集，發掘更多深入資訊。

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: db79c33abe6f9e472dc29db007c4485d7a8d861e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020789"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431612"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料來源
 
@@ -72,7 +72,7 @@ ms.locfileid: "72020789"
 
 連線到 Power BI 資料集的已編頁報表遵循 Power BI 中共用資料集的規則，但有一些微幅變更。  為讓使用者正確地檢視使用 Power BI 資料集的已編頁報表，並確定資料列層級安全性 (RLS) 已啟用且已針對您的強制套用，請確定您依照這些規則執行：
 
-### <a name="classic-apps-and-app-workspaces"></a>傳統應用程式與應用程式工作區
+### <a name="classic-apps-and-workspaces"></a>傳統應用程式與工作區
 
 - 與資料集相同之工作區中的 .rdl (相同擁有者)：支援
 - 與資料集不同之工作區中的 .rdl (相同擁有者)：支援
@@ -82,7 +82,7 @@ ms.locfileid: "72020789"
 - 與資料集不同之工作區中的 .rdl (不同使用者)：您必須為在資料集層級檢視報表的每個使用者指派建置權限
 - 資料列層級安全性：您必須為在資料集層級檢視報表的每個使用者指派建置權限以加以強制套用。
 
-### <a name="new-experience-apps-and-app-workspaces"></a>新體驗應用程式與應用程式工作區
+### <a name="new-experience-apps-and-workspaces"></a>新體驗應用程式與工作區
 
 - 與資料集相同之工作區中的 .rdl：支援
 - 與資料集不同之工作區中的 .rdl (相同擁有者)：支援

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56583c796a8f6e32bed67629dee4fe3bea677bee
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 07618606c4554cf0e16eba029ea6198e3060a105
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307849"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891724"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
@@ -234,7 +234,7 @@ PBIDS 檔案是具有特定結構的 Power BI Desktop 檔案，而且具有 .PBI
 
 當作者開啟 .PBIDS 檔案時，Power BI Desktop 會開啟並提示使用者提供認證來進行驗證，並連線到檔案中指定的資料來源。 [瀏覽] 對話方塊隨即出現，而且使用者必須從該資料來源選取要載入至模型的資料表。 使用者可能也需要選取資料庫 (如果未在 .PBIDS 檔案中指定的話)。 
 
-之後，使用者可以開始建立視覺效果，或重新瀏覽 [最近的來源] 以將一組新的資料表載入模型中。 
+之後，使用者可以開始建置視覺效果，或重新瀏覽 [最近的來源]  以將一組新的資料表載入模型中。 
 
 目前 .PBIDS 檔案只支援一個檔案中的單一資料來源。 指定一個以上的資料來源會導致錯誤。 
 
@@ -364,21 +364,20 @@ URL 必須指向 SharePoint 網站本身，而不是網站內的清單。 使用
 **SQL Server**
 ```
 { 
-  “version”: “0.1”, 
-  “connections”: [ 
+  "version": "0.1", 
+  "connections": [ 
     { 
-      “details”: { 
-        “protocol”: “tds”, 
-        “address”: { 
-          “server”: “server-name-here”, 
-          “database”: “db-name-here (optional)” 
+      "details": { 
+        "protocol": "tds", 
+        "address": { 
+          "server": "server-name-here", 
+          "database": "db-name-here (optional) "
         } 
       }, 
-      “options”: {}, 
-      “mode”: “DirectQuery” 
+      "options": {}, 
+      "mode": "DirectQuery" 
     } 
   ] 
-} 
 } 
 ```
  
@@ -419,6 +418,24 @@ URL 必須指向 SharePoint 網站本身，而不是網站內的清單。 使用
 ```
  
 
+**資料流程**
+```
+{
+  "version": "0.1",
+  "connections": [
+    {
+      "details": {
+        "protocol": "powerbi-dataflows",
+        "address": {
+          "workspace":"workspace id (Guid)",
+          "dataflow":"optional dataflow id (Guid)",
+          "entity":"optional entity name"
+        }
+       }
+    }
+  ]
+}
+```
 
 
 ## <a name="next-steps"></a>後續步驟

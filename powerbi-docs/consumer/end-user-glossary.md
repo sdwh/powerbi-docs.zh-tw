@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a48589e6126203856a306de796c964ce6e347c26
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903666"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429865"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」  及其連線方式的高階概觀。
@@ -37,10 +37,8 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **answer card, answer page (Answer Card、回應頁面)** ：查看 Cortana Answer Card。
 
-**app, apps (應用程式)**
+**app, apps (應用程式)** 
 
- 
-**app workspace (應用程式工作區)** ：Power BI 中除「我的工作區」之外的所有工作區現在都是應用程式工作區。 內容可以與 Power BI 應用程式一同搭售。 儲存在 Premium 容量中的內容也可以和免費使用者共用。 個人工作區 (位於我的工作區下) 可託管於 Premium 容量。  
 
 **AppSource**：集中式線上存放庫，您可以在其中瀏覽、探索及下載儀表板、報表、資料集，以及應用程式。
 
@@ -54,7 +52,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **bookmark (書籤)** Power BI Desktop 或服務中於報表 [書籤] 窗格內擷取到的資料檢視。 在 Desktop 中，書籤會儲存在 .pbix 報表檔案中，用於在 Power BI 服務上共用
   
-**breadcrumbs (階層連結)** ：位於左上方的導覽，可在應用程式工作區之間快速巡覽。
+**breadcrumbs (階層連結)** ：位於左上方的導覽，可在工作區之間快速巡覽。
 
 ## <a name="c"></a>C
 
@@ -177,7 +175,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **modeling (模型)** [Power BI Desktop] 讓您已連線的資料在 Power BI 中準備就緒以供使用。 這包括在多個資料來源中建立資料表間的關聯性、建立量值，以及指派度量。
 
-**My workspace (我的工作區)** ：讓每個 Power BI 客戶建立內容的工作區。 若他們想要將在此處建立的任何項目封裝成應用程式，並具有「設計師」  權限，即可將它上傳到適當應用程式工作區或建立新工作區。
+**My workspace (我的工作區)** ：讓每個 Power BI 客戶建立內容的工作區。 若客戶想要將在此處建立的任何項目組合成應用程式，並具有「設計師」  權限，即可將其上傳到適當的工作區或建立新工作區。
 
 ## <a name="n"></a>N
 
@@ -222,7 +220,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **Power BI**、**Power BI service (Power BI 服務)** 、**Power BI Desktop**、**Power BI mobile (Power BI 行動版)** 、一些 Power BI 供應項目。 Power BI  是通用詞彙。 它通常用於在第一次提及完整的產品名稱後代指完整產品名稱，例如「Power BI 服務」  和「Power BI 行動版」  。
 
-**Power BI Desktop**：也稱為「桌面版 (Desktop)」  。 可以安裝在本機電腦上的免費 Power BI Windows 應用程式，可讓您連線和轉換資料，以及將資料視覺化。 適合報表設計師和系統管理員使用。 如需詳細資訊，請參閱[什麼是 Power BI](../power-bi-overview.md)。
+**Power BI Desktop**：也稱為「桌面版 (Desktop)」  。 可以安裝在本機電腦上的免費 Power BI Windows 應用程式，可讓您連線和轉換資料，以及將資料視覺化。 適合報表設計師和系統管理員使用。 如需詳細資訊，請參閱[什麼是 Power BI](../fundamentals/power-bi-overview.md)。
 
 **Power BI Embedded**：由開發人員使用的產品，用於將 Power BI 儀表板和報表內嵌到其應用程式、網站和工具。
 
@@ -232,7 +230,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **Power BI Report Server (Power BI 報表伺服器)** ：新推出的 SSRS 品牌化供應項目，與 Power BI Premium 一同啟動，可允許組織建置分散式、混合式 BI 系統 (一種雲端與內部部署的混合)。 內嵌式提供已當地語系化的方式以儲存及管理 Power BI 報表。
 
-**Power BI service (Power BI 服務)** ：線上 SaaS (軟體即服務) 服務。 如需詳細資訊，請參閱[什麼是 Power BI](../power-bi-overview.md)。
+**Power BI service (Power BI 服務)** ：線上 SaaS (軟體即服務) 服務。 如需詳細資訊，請參閱[什麼是 Power BI](../fundamentals/power-bi-overview.md)。
 
 **Power BI service connector (Power BI 服務連接器)** ：此連接器可讓 Power BI Desktop 使用者從 Desktop 連線到 Power BI 服務中的資料集。 他們可以建立模型一次，然後在許多報表和儀表板中重複使用它。
 
@@ -325,7 +323,7 @@ Power BI 儀表板包含報表圖格。
 
 **workbook (活頁簿)** ：要作為資料來源使用的 Excel 活頁簿。 活頁簿可以包含具有一或多個資料表的資料模型，這些資料表是透過連結資料表、Power Query 或 Power Pivot 載入資料模型。
 
-**workspace (工作區)** ：Power BI 中儀表板、報表和資料集的容器。 請參閱本詞彙集中的應用程式工作區。
+**workspace (工作區)** ：Power BI 中儀表板、報表和資料集的容器。 使用者可以在 [我的工作區] 以外的任何工作區中，對內容進行共同作業。 內容可以與 Power BI 應用程式一同搭售。 儲存在 Premium 容量中的內容也可以和免費使用者共用。 個人工作區 (位於我的工作區下) 可託管於 Premium 容量。
 
 ## <a name="x"></a>X
 **x-axis (x 軸)**  

@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: e9214fbb78b501b49e8c2115423ec1c6f55e65d7
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: c3c1b11b4445ceba67e272b7f652d61d8935fc16
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175582"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431409"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>設定及管理 Power BI Premium 中的容量
 
@@ -98,7 +98,7 @@ Power BI 管理員和 Office 365 全域管理員可以變更 Power BI Premium �
 
 ### <a name="manage-user-permissions"></a>管理使用者權限
 
-您可以指派其他容量管理員，以及指派具有「容量指派」  權限的使用者。 如果具有指派權限的使用者是應用程式工作區管理員，則他們可以將該工作區指派給容量。 他們也可以將其個人的「我的工作區」  指派給容量。 具有指派權限的使用者無法存取管理入口網站。
+您可以指派其他容量管理員，以及指派具有「容量指派」  權限的使用者。 如果具有指派權限的使用者是該工作區系統管理員，則其可將工作區指派給容量。 他們也可以將其個人的「我的工作區」  指派給容量。 具有指派權限的使用者無法存取管理入口網站。
 
 > [!NOTE]
 > 針對 Power BI Embedded，容量管理員是在 Microsoft Azure 入口網站中定義。
@@ -109,7 +109,7 @@ Power BI 管理員和 Office 365 全域管理員可以變更 Power BI Premium �
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>將工作區指派給容量
 
-有兩種方式可將工作區指派給容量：在管理入口網站和從應用程式工作區。
+有兩種方式可將工作區指派給容量：在管理入口網站和從工作區。
 
 ### <a name="assign-from-the-admin-portal"></a>從管理入口網站指派
 
@@ -127,22 +127,22 @@ Power BI 管理員和 Office 365 全域管理員可以變更 Power BI Premium �
    | --- | --- |
    | **依使用者選取工作區** | 當您指派使用者或群組的工作區時，會將這些使用者所擁有的所有工作區都指派給進階容量，包括使用者的個人工作區。 就是使用者會自動取得工作區指派權限。<br>這包括已指派給不同容量的工作區。 |
    | **特定工作區** | 輸入要指派給所選取容量的特定工作區名稱。 |
-   | **The entire organization's workspaces (整個組織的工作區)** | 將整個組織的工作區指派給 Premium 容量，會將組織中的所有應用程式工作區和「我的工作區」指派給這個 Premium 容量。 此外，所有目前和未來使用者都有權將個別工作區重新指派給這個容量。 |
+   | **The entire organization's workspaces (整個組織的工作區)** | 將整個組織的工作區指派給 Premium 容量，會將組織中的所有工作區和「我的工作區」指派給這個 Premium 容量。 此外，所有目前和未來使用者都有權將個別工作區重新指派給這個容量。 |
    | | |
 
 1. 選取 [ **套用**]。
 
-### <a name="assign-from-app-workspace-settings"></a>從應用程式工作區設定指派
+### <a name="assign-from-workspace-settings"></a>從工作區設定進行指派
 
-您也可以從該工作區的設定中，將應用程式工作區指派給進階容量。 若要將工作區移至容量，您必須具有該工作區的管理員權限，同時具有該容量的容量指派權限。 請注意，工作區管理員一律可以從 Premium 容量中移除工作區。
+您也可以從該工作區的設定中，將工作區指派給 Premium 容量。 若要將工作區移至容量，您必須具有該工作區的管理員權限，同時具有該容量的容量指派權限。 請注意，工作區管理員一律可以從 Premium 容量中移除工作區。
 
-1. 選取省略符號 **(. . .)** 然後選取 [編輯工作區]  來編輯應用程式工作區。
+1. 選取省略符號 **(. . .)** ，然後選取 [編輯工作區]  來編輯工作區。
 
     ![從省略符號操作功能表編輯工作區](media/service-admin-premium-manage/edit-app-workspace.png)
 
 1. 在 [編輯工作區]  下方，展開 [進階]  。
 
-1. 選取您想要將這個應用程式工作區指派至其中的容量。
+1. 選取您想要將這個工作區指派至其中的容量。
 
     ![容量選項下拉式清單](media/service-admin-premium-manage/app-workspace-advanced.png)
 

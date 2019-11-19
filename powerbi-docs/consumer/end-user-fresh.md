@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141842"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019786"
 ---
 # <a name="your-content-is-up-to-date"></a>您的內容是最新狀態
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 作為「消費者」  ，您可以與「設計師」  建立並與您共用的內容互動。 您可能會希望知道該內容是否為最新，或只想要知道該內容上次重新整理的時間。 了解您正在使用最新的內容，可讓您保持信心。  
  
 ![Power BI 儀表板](media/end-user-fresh/power-bi-dashboards.png)
@@ -63,7 +66,7 @@ ms.locfileid: "71141842"
 ### <a name="dashboard-tiles"></a>儀表板圖格
 針對儀表板圖格，在 [焦點] 模式中檢視圖格以查看上次重新整理的時間戳記。
 
-1. 在儀表板圖格上選取省略符號 (...)，然後選擇 [以焦點模式開啟]  。
+1. 在儀表板磚上，選取 [更多選項]  (...)，然後選擇 [以焦點模式開啟]  。
 
     ![選取省略符號後顯示的功能表](media/end-user-fresh/power-bi-focus-mode.png)
 
@@ -72,7 +75,7 @@ ms.locfileid: "71141842"
     ![加寬後的瀏覽器會顯示上次重新整理日期](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="dashboards-and-reports"></a>儀表板和報表
-查詢上次重新整理日期的另一個方法是使用 [檢視相關項目]  。  從 Power BI 上方功能表列選取省略符號 (...)，即可取得 [檢視相關項目]  。
+查詢上次重新整理日期的另一個方法是使用 [檢視相關項目]  。  從 Power BI 上方功能表列選取 [更多選項]  (...)，即可取得 [檢視相關項目]  。
 
 ![從功能表選取 [檢視相關項目]](media/end-user-fresh/power-bi-view-related-dropdown.png)
 

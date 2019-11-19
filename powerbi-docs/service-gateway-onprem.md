@@ -1,5 +1,5 @@
 ---
-title: 內部部署資料閘道
+title: 內部部署的資料閘道
 description: 本文是 Power BI 的內部部署資料閘道概觀。 您可以使用此閘道處理 DirectQuery 資料來源。 您也可以使用此閘道以內部部署資料重新整理雲端資料集。
 author: mgblythe
 ms.author: mblythe
@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 883d5c83019df293628d096f5834c9b5c6d425b6
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 8ca43232cdc5781900dd7cf8b9f72c510dab2e37
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730284"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442815"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>什麼是內部部署的資料閘道？
 
@@ -42,13 +42,13 @@ ms.locfileid: "68730284"
 使用閘道有四個主要步驟。
 
 1. 在本機電腦上[下載並安裝閘道](/data-integration/gateway/service-gateway-install)。
-2. 根據您的防火牆和其他網路要求，[設定](/data-integration/gateway/service-gateway-app)閘道。
-3. [新增閘道系統管理員](/data-integration/gateway/service-gateway-manage)，讓他們管理其他網路要求。
-4. 發生錯誤時，針對閘道[進行疑難排解](service-gateway-onprem-tshoot.md)。
+1. 根據您的防火牆和其他網路要求，[設定](/data-integration/gateway/service-gateway-app)閘道。
+1. [新增閘道系統管理員](/data-integration/gateway/service-gateway-manage)，讓他們管理其他網路要求。
+1. [使用閘道](service-gateway-sql-tutorial.md)重新整理內部部署資料來源。
+1. 發生錯誤時，針對閘道[進行疑難排解](service-gateway-onprem-tshoot.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
 * [安裝內部部署資料閘道](/data-integration/gateway/service-gateway-install)
-
 
 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)

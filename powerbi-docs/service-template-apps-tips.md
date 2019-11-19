@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: fae3af81540e22b961fcb1d2a79de425fdc1cd8c
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 57d8da8bafb62f1f24598f5f0ef4cb5e3facd59b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194779"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432144"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中撰寫範本應用程式的提示
 
@@ -132,7 +132,7 @@ Power BI Desktop 中的[參數](https://powerbi.microsoft.com/blog/deep-dive-int
 * 確定遵循 [Power BI App offer](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) (Power BI 應用程式供應項目) 上的文件。
 * 如果儀表板屬於應用程式，請確定儀錶板不是空白。
 * 在提交應用程式之前，請使用應用程式連結安裝應用程式，確保您能如預期連接資料集和應用程式體驗。
-* 將 bpix 上傳到範本應用程式工作區之前，請務必卸載任何不必要的連接。
+* 將 bpix 上傳到範本工作區之前，請務必卸載任何不必要的連線。
 * 遵循 Power BI [Best design practices for reports and visuals](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) (報表和視覺效果的最佳設計做法)，達到最大的使用者影響力並獲准散發。
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 

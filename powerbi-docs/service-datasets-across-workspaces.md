@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e086cc89a24760bce0c4a45efd558dc47495bd04
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 5e445f24f78d4171c0c2c12ccbe4a1bf55b9825d
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020780"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431919"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>跨工作區的資料集簡介 (預覽)
 
@@ -62,7 +62,7 @@ ms.locfileid: "72020780"
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-- 身為應用程式發行者，您必須確定您的對象可以存取應用程式工作區外的資料集。 否則，使用者在與您的應用程式互動時會發生問題：沒有資料集存取權將無法開啟報表，而且儀表板磚將會顯示為已鎖定。 使外，若使用者的瀏覽中的第一個項目是沒有資料集存取權的報表，使用者將無法開啟應用程式。
+- 身為應用程式發行者，您必須確定您的對象可以存取工作區外的資料集。 否則，使用者在與您的應用程式互動時會發生問題：沒有資料集存取權將無法開啟報表，而且儀表板磚將會顯示為已鎖定。 使外，若使用者的瀏覽中的第一個項目是沒有資料集存取權的報表，使用者將無法開啟應用程式。
 - 在不同工作區的資料集上建置報表，需要兩端的新工作區體驗：報表必須位於新工作區體驗中，資料集也必須位於新工作區體驗中。
 - 在傳統工作區中，資料集探索體驗只會顯示該工作區中的資料集。
 - 根據設計，「發佈至 Web 」不適用於以共用資料集為基礎的報表。
