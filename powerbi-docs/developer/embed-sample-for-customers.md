@@ -3,19 +3,18 @@ title: 運用內嵌式分析為客戶將 Power BI 內容內嵌至應用程式
 description: 了解如何使用內嵌式分析的 Power BI API，為客戶將報表、儀表板或磚整合或內嵌至應用程式。 了解如何使用內嵌式分析軟體、內嵌式分析工具，或內嵌式商業智慧工具，將 Power BI 整合到應用程式中。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: rkarlin
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: e35f4f7bd870e51810d49c43a058e467bd724e6e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 24a9c0069cb80a20a84823655437a27a4f6c0e9e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429665"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877701"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教學課程：將客戶的 Power BI 內容內嵌至應用程式
 
@@ -120,7 +119,7 @@ ms.locfileid: "73429665"
 
 1. 登入[Azure 入口網站](https://portal.azure.com)。
 
-2. 在左側的功能窗格中，選取 [所有服務]  及 [應用程式註冊]  。
+2. 在左側的瀏覽窗格中，選取 [所有服務]  ，然後選取 [應用程式註冊]  。
 
     ![應用程式註冊搜尋](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -460,4 +459,4 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 > [!div class="nextstepaction"]
 >[為組織內嵌](embed-sample-for-your-organization.md)
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

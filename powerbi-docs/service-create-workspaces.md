@@ -2,7 +2,6 @@
 title: 在 Power BI 中建立傳統工作區
 description: 了解如何建立工作區、儀表板集合、報表和編頁報表；這些項目是為了傳遞重要計量給您的組織而建置。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 3153e63685e21a29687c33e702c4ade55324e05c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021109"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853539"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>在 Power BI 中建立傳統工作區
 
@@ -75,7 +74,7 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 
 若您想要將正式內容散發至您組織中較大的群體，您可以從工作區發佈應用程式。  當內容就緒時，您可以選擇想要發佈的儀表板和報表，然後將其發佈為「應用程式」  。 您可以從每個工作區建立一個應用程式。
 
-左側導覽中的 [應用程式] 清單會顯示所有您安裝的應用程式。 您的同事可透過幾種不同的方式取得應用程式。 
+導覽窗格中的 [應用程式] 清單會顯示所有您已經安裝的應用程式。 您的同事可透過幾種不同的方式取得應用程式。 
 - 他們可以從 Microsoft AppSource 尋找並安裝您的應用程式
 - 您可以向他們傳送直接連結。 
 - 如果 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。 
@@ -97,4 +96,4 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI 中安裝和使用應用程式](service-create-distribute-apps.md)
 - [建立新的工作區](service-create-the-new-workspaces.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

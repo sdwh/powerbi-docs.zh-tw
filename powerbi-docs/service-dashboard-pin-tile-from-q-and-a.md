@@ -2,7 +2,6 @@
 title: 如何從問與答將磚釘選到儀表板
 description: 說明如何從問與答的問題方塊將磚釘選至 Power BI 儀表板
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e75c9b86b20eda2de630f2b27caa6b88a687fbb4
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432081"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872820"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>從問與答將磚釘選到儀表板
 ## <a name="how-to-pin-a-tile-from-qa"></a>如何從問與答釘選磚
@@ -52,9 +51,9 @@ ms.locfileid: "73432081"
    ![含有圖格的儀表板](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-* 當您開始輸入問題時，問與答會立即開始從與目前儀表板相關聯的所有資料集搜尋最佳回應。  「目前儀表板」是列在上方導覽列中的儀表板。 例如，這個問題將會在 [零售分析範例]  儀表板中提出，而此儀表板是 **mihart** 工作區的一部分。
+* 當您開始輸入問題時，問與答會立即開始從與目前儀表板相關聯的所有資料集搜尋最佳回應。  「目前儀表板」是列在上方導覽窗格中的儀表板。 例如，這個問題將會在 [零售分析範例]  儀表板中提出，而此儀表板是 **mihart** 工作區的一部分。
 
-  ![階層連結](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
+  ![階層連結](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
 * **問與答如何知道要使用哪些資料集**？  問與答可存取至少已有一個視覺效果釘選至該儀表板的所有資料集。
 
 * **看不到問題方塊**？ 請連絡 Power BI 系統管理員。 系統管理員能夠停用問與答。
@@ -64,4 +63,4 @@ ms.locfileid: "73432081"
 [重新命名、調整大小、新增超連結和重新置放磚等等](service-dashboard-edit-tile.md)    
 [以焦點模式顯示儀表板磚](consumer/end-user-focus.md)     
 [返回 Power BI 中的問與答](consumer/end-user-q-and-a.md)  
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

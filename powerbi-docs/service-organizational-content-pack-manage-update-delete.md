@@ -2,7 +2,6 @@
 title: 整理有序的內容套件：管理和更新
 description: 閱讀以了解如何在 Power BI 中管理、更新和刪除組織內容套件。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f2a80b075a56cdeccfa4c3675cdf31504b6a7e5d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 975c219a98f3d03f59df4d1c2a0551718bf213f0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431774"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881261"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和刪除組織內容套件
 > [!NOTE]
@@ -64,8 +63,8 @@ ms.locfileid: "73431774"
    
    若是不屬於新別名的任何同事：
    
-   * 如果群組成員尚未自訂內容套件，將再也無法取得與該內容套件相關聯的儀表板和報表，且該內容套件也不會出現於 [瀏覽] 窗格中。
-   * 已自訂了內容套件的群組成員，下次開啟自訂儀表板時，所有來自原始內容套件的磚都會消失。  不過仍然會轉譯從其他報表釘選的圖格。 再也無法取得原始內容套件報表和資料集，該內容套件不會出現於 [瀏覽] 窗格中。   
+   * 如果群組成員尚未自訂內容套件，將再也無法取得與該內容套件相關聯的儀表板和報表，且該內容套件也不會出現於導覽窗格中。
+   * 已自訂了內容套件的群組成員，下次開啟自訂儀表板時，所有來自原始內容套件的磚都會消失。  不過仍然會轉譯從其他報表釘選的圖格。 再也無法取得原始內容套件報表和資料集，該內容套件不會出現於導覽窗格中。   
 
 ## <a name="refresh-an-organizational-content-pack"></a>重新整理組織內容套件
 您可以內容套件建立者身分來[排程資料集的重新整理](refresh-data.md)。  當您建立並上傳內容套件時，重新整理排程會和資料集同時上傳。 如果您變更重新整理排程，就必須重新發佈內容套件 (請參閱前述)。
@@ -81,11 +80,11 @@ ms.locfileid: "73431774"
 1. 若要從 AppSource 中刪除內容套件，請前往您建立該內容套件的工作區，選取齒輪圖示 ![](media/service-organizational-content-pack-manage-update-delete/cog.png) 並選擇 [檢視內容套件]  。
 2. 選取 [刪除] \> [刪除]  。 
    
-   * 如果群組成員尚未自訂內容套件，將會自動移除與該內容套件相關聯的儀表板和報表。 再也無法取得這些儀表板和報表，該內容套件不會出現於 [瀏覽] 窗格中。
-   * 已自訂了內容套件的群組成員，下次開啟自訂儀表板時，所有來自原始內容套件的磚都會消失。  不過仍然會轉譯從其他報表釘選的圖格。 再也無法取得原始內容套件報表和資料集，該內容套件不會出現於 [瀏覽] 窗格中。   
+   * 如果群組成員尚未自訂內容套件，將會自動移除與該內容套件相關聯的儀表板和報表。 再也無法取得這些儀表板和報表，該內容套件不會出現於導覽窗格格中。
+   * 已自訂了內容套件的群組成員，下次開啟自訂儀表板時，所有來自原始內容套件的磚都會消失。  不過仍然會轉譯從其他報表釘選的圖格。 再也無法取得原始內容套件報表和資料集，該內容套件不會出現於導覽窗格中。   
 
 ## <a name="next-steps"></a>後續步驟
 * [組織內容套件簡介](service-organizational-content-pack-introduction.md)
 * [在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md) 
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

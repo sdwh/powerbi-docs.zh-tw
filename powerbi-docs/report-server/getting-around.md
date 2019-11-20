@@ -2,19 +2,18 @@
 title: 管理 Power BI 報表伺服器入口網站中的內容
 description: 閱讀有關管理「Power BI 報表伺服器」入口網站中內容的資訊。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 8a5b04c5b3325a9fd4d3bb11aa1943e62cf2c90c
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021463"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859489"
 ---
 # <a name="manage-content-in-the-web-portal"></a>管理入口網站中的內容 
 Power BI 報表伺服器入口網站是可檢視、儲存和管理您的 Power BI、行動裝置、編頁報表及 KPI 的內部部署位置。
@@ -38,9 +37,9 @@ Power BI 報表伺服器入口網站是可檢視、儲存和管理您的 Power B
     請參閱此[支援的網頁瀏覽器和版本](browser-support.md)清單。
 2. 在網址列中鍵入入口網站 URL。
    
-    預設的 URL 是「 http://[電腦名稱]/reports」。
+    預設的 URL 是 <em>https://[電腦名稱]/reports</em>。
    
-    報表伺服器可能設定使用特定的連接埠。 例如，「 http://[電腦名稱]:80/reports」 或「 http://[電腦名稱]:8080/reports」。
+    報表伺服器可能設定使用特定的連接埠。 例如，<em>https://[電腦名稱]:80/reports</em> 或 <em>https://[電腦名稱]:8080/reports</em>
    
     您會看到入口網站將項目分組為下列類別︰
    

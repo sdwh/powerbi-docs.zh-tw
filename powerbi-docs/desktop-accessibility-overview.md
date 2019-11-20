@@ -2,7 +2,6 @@
 title: Power BI 中的協助工具概觀
 description: 用於建立可存取之 Power BI Desktop 報告的功能和建議
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 13017fed9a7cd54cde624424894341dc2ced0d9b
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: e61df101d26dd95a771a64ce7633e40fcd9c9123
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73180968"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878907"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI 中的協助工具概觀
 使用 Power BI 時，請務必考慮可能與報表互動的不同類型使用者。 建立和呈現鍵盤或螢幕助讀程式使用者可輕鬆瀏覽及了解的報表，讓可能具有視覺或身體障礙的使用者能夠接收相同的資訊。
@@ -30,10 +29,10 @@ ms.locfileid: "73180968"
 
 ## <a name="accessibility-standards"></a>協助工具標準
 
-Power BI 符合下列協助工具標準。  這有助於確保您的 Power BI 體驗可供最多人員存取。
+Power BI 致力於符合下列協助工具標準。  這有助於確保您的 Power BI 體驗可供最多人員存取。
 
 ### <a name="wcag-21"></a>WCAG 2.1
-Power BI 遵守 Web 內容無障礙 (WCAG) 2.1 指導方針。 有三個主要的 WCAG 原則：
+Web 內容無障礙指導方針 (WCAG) 協助讓 Web 內容可供具有身心障礙的人員存取。 有三個主要的 WCAG 原則：
 
 1. **可感知** - 資訊和使用者介面元件必須以使用者可以感知的方式呈現給使用者。
 2. **可操作** - 使用者介面元件和導覽必須為可操作。

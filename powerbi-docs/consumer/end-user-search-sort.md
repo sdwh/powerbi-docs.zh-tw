@@ -2,7 +2,6 @@
 title: 在 Power BI 服務中搜尋並排序您的內容
 description: 在 Power BI 我的工作區中搜尋和排序內容的文件
 author: mihart
-manager: kvivek
 ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d5bc5638d9f98c1a35f57edd1d5d838c91c8ebf2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 5a7848cb5931d983ab434a19c934c9e9cb464724
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891772"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861745"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>瀏覽：搜尋、尋找和排序 Power BI 服務中的內容
 
@@ -47,10 +46,10 @@ ________________________________________
 並非所有資料行都可以進行排序。 將滑鼠游標暫留在資料行標題，以探索哪些項目可以進行排序。
 
 ___________________________________________________________________
-## <a name="navigation-using-the-navigation-pane"></a>使用瀏覽窗格進行瀏覽
-瀏覽窗格會以可讓以您更快速地找到需要內容的方式來將內容分類。  
+## <a name="navigation-using-the-nav-pane"></a>使用導覽窗格進行瀏覽
+導覽窗格會以可讓以您更快速地找到需要內容的方式來將內容分類。  
 
-![左側瀏覽窗格](./media/end-user-search-sort/power-bi-navbar.png)
+![導覽窗格](./media/end-user-search-sort/power-bi-nav pane.png)
 
 
 - 與您共用的內容可在**與我共用**中取得。
@@ -58,7 +57,7 @@ ___________________________________________________________________
 - 您可以選取 [應用程式]  來找出您的應用程式。
 - **首頁**讓您可從一處檢視最重要的內容、建議的內容及學習資源。
 
-此外，您可以將內容標記為[我的最愛](end-user-favorite.md)和[精選](end-user-featured.md)。 挑選您預期會最常檢視的儀表板或報表，並將它設為 [精選]  內容。 每次開啟 Power BI 服務時，都會先顯示您的精選儀表板。 您有一些經常瀏覽的儀表板和應用程式嗎？ 透過將它們設為「我的最愛」，即一律可在左導覽列中看到它們。
+此外，您可以將內容標記為[我的最愛](end-user-favorite.md)和[精選](end-user-featured.md)。 挑選您預期會最常檢視的儀表板或報表，並將它設為 [精選]  內容。 每次開啟 Power BI 服務時，都會先顯示您的精選儀表板。 您有一些經常瀏覽的儀表板和應用程式嗎？ 將它們設為「我的最愛」，即一律可在導覽窗格中看到它們。
 
 ![[我的最愛] 飛出視窗](./media/end-user-search-sort/power-bi-favorite.png).
 
@@ -70,4 +69,4 @@ ___________________________________________________________________
 ## <a name="next-steps"></a>後續步驟
 [在報表中將視覺效果排序](end-user-change-sort.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

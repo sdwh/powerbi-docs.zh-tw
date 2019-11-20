@@ -2,19 +2,18 @@
 title: 檢視報表
 description: 本主題將說明 Power BI 取用者和終端使用者必須開啟並檢視 Power BI 報表。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b22da2df92c0cc7130c7a5ebf69e2284c12ffef4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019476"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861959"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>在適用於「取用者」  的 Power BI 服務中檢視報表
 
@@ -33,11 +32,11 @@ ms.locfileid: "73019476"
    ![首頁](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>開啟已與您共用的報表
-Power BI「設計師」  可以透過電子郵件中的連結或自動新增報表，來與您直接共用個別報表。 以這種方式共用的內容會顯示在導覽列上 [與我共用]  容器中，以及 [首頁] 畫布的 [與我共用]  區段中。
+Power BI「設計師」  可以透過電子郵件中的連結或自動新增報表，來與您直接共用個別報表。 以這種方式共用的內容會顯示在導覽窗格上 [與我共用]  容器中，以及 [首頁] 畫布的 [與我共用]  區段中。
 
 1. 開啟 Power BI 服務 (app.powerbi.com)。
 
-2. 從導覽列中，選取 [首頁]  以顯示您的 [首頁] 畫布。  
+2. 從導覽窗格中，選取 [首頁]  以顯示您的 [首頁] 畫布。  
 
    ![[首頁] 畫布](./media/end-user-report-open/power-bi-select-home-new.png)
    
@@ -66,7 +65,7 @@ Power BI「設計師」  可以透過電子郵件中的連結或自動新增報�
    ![符合一頁大小](./media/end-user-report-open/power-bi-actual.png)
 
 ### <a name="open-a-report-that-is-part-of-an-app"></a>開啟應用程式中的報表
-如果您收到了來自同事或 AppSource 的應用程式，則這些應用程式可從 [首頁] 及導覽列上的 [應用程式]  容器中開啟。 [應用程式](end-user-apps.md)是儀表板和報表的組合。
+如果您收到了來自同事或 AppSource 的應用程式，則這些應用程式可從 [首頁] 及導覽窗格上的 [應用程式]  容器中開啟。 [應用程式](end-user-apps.md)是儀表板和報表的組合。
 
 ### <a name="prerequisites"></a>先決條件
 若要跟著做，請下載「銷售與行銷」應用程式。
@@ -75,7 +74,7 @@ Power BI「設計師」  可以透過電子郵件中的連結或自動新增報�
 1. 選取 [立即取得]   > [繼續]   > [安裝]  ，將應用程式安裝在您的應用程式容器中。 
 
 您可以從您的 [應用程式] 容器或從 [首頁] 開啟該應用程式。
-1. 若要返回 [首頁]，請從導覽列中選取 [首頁]  。
+1. 若要返回 [首頁]，請從導覽窗格中選取 [首頁]  。
 
 7. 向下捲動，直到您看到**我的應用程式**為止。
 
@@ -101,7 +100,7 @@ Power BI「設計師」  可以透過電子郵件中的連結或自動新增報�
 
 ##  <a name="still-more-ways-to-open-a-report"></a>仍然有更多方法來開啟報表
 當您更熟悉巡覽 Power BI 服務之後，便會找出最適合您的工作流程。 還有一些其他方法可存取報表：
-- 從導覽列使用 [我的最愛]  和 [最近]     
+- 從導覽窗格使用 [我的最愛]  和 [最近]     
 - 使用[檢視相關項目](end-user-related.md)    
 - 在電子郵件中，當有人[與您共用](../service-share-reports.md)或您[設定警示](end-user-alerts.md)時。    
 - 從您的[通知中心](end-user-notification-center.md)    

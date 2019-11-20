@@ -2,19 +2,18 @@
 title: 連線到 Power BI 工作區 OneDrive 中的檔案
 description: 了解如何儲存和連線到 Power BI 工作區 OneDrive 上的 Excel、CSV 和 Power BI Desktop 檔案。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2cecd327d76659eb11d81180480cb9be998fd772
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 180fd8d451be794070d8b0f4d37c40965671d23d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431631"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854868"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>連線到儲存在 Power BI 工作區 OneDrive 中的檔案
 [在 Power BI 中建立工作區](service-create-distribute-apps.md)後，即可將 Excel、CSV 及 Power BI Desktop 檔案儲存至 Power BI 工作區的商務用 OneDrive。 您可以繼續更新儲存在 OneDrive 中的檔案。 這些更新會自動反映到以這些檔案為基礎的 Power BI 報表和儀表板中。 
@@ -53,7 +52,7 @@ ms.locfileid: "73431631"
 
 ### <a name="import-or-connect-to-the-files-in-your-workspace"></a>匯入或連線至工作區中的檔案
 1. 在 Power BI 中，切換至工作區，讓工作區名稱顯示於左上角。 
-2. 選取左側瀏覽窗格底部的 [取得資料]  。 
+2. 選取導覽窗格底部的 [取得資料]  。 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
 3. 在 [檔案]  方塊中選取 [取得]  。
@@ -80,6 +79,6 @@ ms.locfileid: "73431631"
 * [在 Power BI 中建立應用程式和工作區](service-create-distribute-apps.md)
 * [從 Excel 活頁簿匯入資料](service-get-data-from-files.md)
 * [連接至整個 Excel 活頁簿](service-excel-workbook-files.md)
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 * 想提出意見反應嗎？ 請前往 [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi)
 

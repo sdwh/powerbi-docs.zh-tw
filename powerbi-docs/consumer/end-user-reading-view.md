@@ -4,7 +4,6 @@ description: 在本快速入門中，**取用者**將能了解 Power BI、應用
 services: powerbi
 documentationcenter: ''
 author: mihart
-manager: kvivek
 editor: ''
 tags: ''
 ms.service: powerbi
@@ -13,12 +12,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019584"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862677"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>快速入門：了解適用於*取用者*的 Power BI 功能
 在此快速入門中，您會了解如何與 Power BI 互動，探索資料驅動商務見解。 本文不適合用於深入了解，而是快速探索 Power BI **取用者**可用的許多動作。
@@ -50,7 +49,7 @@ Power BI 服務中的 [閱讀] 檢視可供報表「取用者」  使用。 當�
 
 「應用程式」  是將相關儀表板和報表全都結合到同一處的 Power BI 內容類型。 應用程式可以有一或多個儀表板和一或多個報表，所有儀表板和報表都會組合在一起。 應用程式是由 Power BI「設計師」  所建立，這些設計師會散發應用程式並與像您一樣的「取用者」  共用。 
 
-檢視應用程式的其中一種方法是從瀏覽列選取 [應用程式]  ，然後選取要開啟的應用程式。
+檢視應用程式的其中一種方法是從導覽窗格選取 [應用程式]  ，然後選取要開啟的應用程式。
 
 ![取得應用程式圖示](./media/end-user-reading-view/power-bi-apps.png)
 
@@ -116,7 +115,7 @@ Power BI 會在值的增加或減少程度超過所設定的限制時，傳送�
 ![游標暫留以查看詳細資料](media/end-user-reading-view/power-bi-hover.gif)
 
 ### <a name="favorite-a-dashboard"></a>將儀表板設為我的最愛
-當您將內容設為「我的最愛」  時，便可從瀏覽列存取它。 Power BI 中幾乎每一個區域都能看到瀏覽列。 我的最愛通常是儀表板、報表頁面，以及您最常前往的應用程式。
+當您將內容設為「我的最愛」  時，便可從導覽窗格加以存取。 Power BI 中幾乎每一個區域都能看到導覽窗格。 我的最愛通常是儀表板、報表頁面，以及您最常前往的應用程式。
 
 從 Power BI 服務的右上角，選取 [我的最愛]  ；如果看不到，請選取 [更多選項]  (...)，並從下拉式清單選取 [我的最愛]  。 
    
@@ -194,9 +193,9 @@ Power BI 視覺效果是使用基礎資料集中的資料所建構。 如果您�
 這是針對「取用者」  可搭配 Power BI 服務執行之一部分工作的快速概觀。  
 
 ## <a name="clean-up-resources"></a>清除資源
-- 若您連線到應用程式，請從左側瀏覽列，選取 [應用程式]  來開啟應用程式內容清單。 在要刪除的應用程式上暫留，然後選取垃圾桶圖示。
+- 若您連線到應用程式，請從導覽窗格選取 [應用程式]  以開啟應用程式內容清單。 在要刪除的應用程式上暫留，然後選取垃圾桶圖示。
 
-- 若您匯入或連線至 Power BI 範例報表，請從左側瀏覽列開啟 [我的工作區]  。 使用頂端的索引標籤，找到儀表板、報表和資料集，然後為每個項目選取垃圾桶圖示。
+- 若您匯入或連線至 Power BI 範例報表，請從導覽窗格開啟 [我的工作區]  。 使用頂端的索引標籤，找到儀表板、報表和資料集，然後為每個項目選取垃圾桶圖示。
 
 ## <a name="next-steps"></a>後續步驟
 [取用者適用的 Power BI](end-user-consumer.md)

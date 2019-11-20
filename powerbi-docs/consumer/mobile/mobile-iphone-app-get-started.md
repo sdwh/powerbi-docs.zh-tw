@@ -2,19 +2,18 @@
 title: 開始使用 Power BI for iOS 行動裝置應用程式
 description: 了解 Microsoft Power BI for iOS 行動裝置應用程式如何將 Power BI 帶入您的口袋，讓您可以行動存取內部部署和雲端的商務資訊。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: cc239ad33d8789d679fccd21339740af71155336
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: dd43df2a01175657b39c1e3dcebe5ae6a9433e42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059453"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870190"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>開始在 iOS 裝置上使用 Power BI 行動裝置應用程式
 iPhone、iPad 或 iPod Touch 的 Microsoft Power BI for iOS 應用程式傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 透過 [Apple Watch](mobile-apple-watch.md)，隨時掌握最即時的資料。  
@@ -31,7 +30,7 @@ iPhone、iPad 或 iPod Touch 的 Microsoft Power BI for iOS 應用程式傳遞 P
 了解 [Power BI 行動裝置應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="download-the-app"></a>下載此應用程式
-從 Apple App Store [下載 iOS 應用程式](http://go.microsoft.com/fwlink/?LinkId=522062 "下載 iOS 應用程式")至 iPhone、iPad 或 iPod Touch。
+從 Apple App Store [下載 iOS 應用程式](https://go.microsoft.com/fwlink/?LinkId=522062 "下載 iOS 應用程式")至 iPhone、iPad 或 iPod Touch。
 
 您可以在任何執行 iOS 11 或更新版本的裝置上執行 Power BI for iOS 應用程式。 
 
@@ -75,7 +74,7 @@ iPhone、iPad 或 iPod Touch 的 Microsoft Power BI for iOS 應用程式傳遞 P
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中尋找內容
 儀表板和報表儲存在 Power BI 行動裝置應用程式中的不同位置，視其來源而定。 請閱讀[在行動裝置應用程式中尋找內容](mobile-apps-quickstart-view-dashboard-report.md)。 此外，您還可以一律搜尋您在 Power BI 行動裝置應用程式中的任何內容。 
 
-![左側瀏覽窗格](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
+![導覽窗格](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
 深入了解[在行動裝置應用程式中尋找內容](mobile-apps-quickstart-view-dashboard-report.md)。
 
@@ -84,7 +83,7 @@ iPhone、iPad 或 iPod Touch 的 Microsoft Power BI for iOS 應用程式傳遞 P
 
 * 點選 [我的最愛]  。
   
-   ![左側瀏覽窗格中的我的最愛](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
+   ![導覽窗格中的 [我的最愛]](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
   
    您可在此頁面查看所有 [我的最愛]：
   
@@ -110,6 +109,6 @@ Microsoft Intune 讓組織可以控制像是要求存取 PIN、控制應用程�
 ## <a name="next-steps"></a>後續步驟
 
 * [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 
 

@@ -2,7 +2,6 @@
 title: 從 Excel 活頁簿轉變為 Power BI 服務中出色的報表
 description: 本文說明如何從 Excel 活頁簿快速建立出色的報表。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021004"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872501"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>從 Excel 活頁簿轉變為 Power BI 服務中出色的報表
 您的經理在下班時想要看到您最近的銷售數字以及之前行銷活動效果的報表。 但最新資料在各種協力廠商系統及您膝上型電腦的檔案上。 在過去，需要好幾個小時的時間才能建立視覺效果並將報表格式化，所以您覺得有點焦慮。
@@ -57,7 +56,7 @@ Power BI 服務可連接至許多資料來源，包括您電腦上的 Excel 檔�
 
    ![[建立] 下拉式清單](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
 
-4. 在左側瀏覽窗格底部，選取 [取得資料]  。 
+4. 在導覽窗格的底部，選取 [取得資料]  。 
 
 5. 在 [取得資料]  頁面上，在 [建立新內容]  下方的 [檔案]  方塊中選取 [取得]  。
 
@@ -140,5 +139,5 @@ Power BI 服務匯入您的 Excel 檔案之後，您就可以開始製作報表�
 * [開始使用 Power BI Desktop](desktop-getting-started.md)
 * [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)。
 

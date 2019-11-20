@@ -2,19 +2,18 @@
 title: 在 Power BI 中建立範本應用程式
 description: 如何在 Power BI 中建立可以散發給所有 Power BI 客戶的範本應用程式。
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432151"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871479"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>在 Power BI 中建立範本應用程式
 
@@ -86,7 +85,7 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
 
     **瀏覽**
 
-    啟動 [新的瀏覽產生器]  ，您可以在其中定義應用程式的左側瀏覽窗格 (請參閱本文中的[設計瀏覽體驗](service-create-distribute-apps.md#design-the-navigation-experience)以取得詳細資料)。
+    啟動 [新的瀏覽產生器]  ，您可以在其中定義應用程式的導覽窗格 (請參閱本文中的[設計瀏覽體驗](service-create-distribute-apps.md#design-the-navigation-experience)以取得詳細資料)。
 
    ![設定應用程式登陸頁面](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
     

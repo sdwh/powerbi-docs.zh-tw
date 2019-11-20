@@ -2,7 +2,6 @@
 title: 從資料集建立報表
 description: 從資料集建立 Power BI 報表。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,19 +9,19 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 1993ac0b300bb582d7b8a1946ff63cf6316c2d52
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432212"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871757"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>匯入資料集以在 Power BI 服務中建立報表
 您已閱讀 [Power BI 中的報表](consumer/end-user-reports.md)，現在想要建立自己的報表。 有很多方式可以建立報表。 在本文中，我們將透過在 Power BI 服務中從 Excel 資料集建立基礎報表開始。 了解建立報表的基本概念之後，請查看底部的[後續步驟](#next-steps)以取得更進階的報表主題。  
 
 ## <a name="prerequisites"></a>先決條件
 - [註冊 Power BI 服務](service-self-service-signup-for-power-bi.md)。 若要使用 Power BI Desktop 建立報表，請參閱 [Desktop 的報表檢視](desktop-report-view.md)。 
-- 請[下載零售分析範例 Excel 資料集](http://go.microsoft.com/fwlink/?LinkId=529778)，並將它儲存至本機或商務用 OneDrive。
+- 請[下載零售分析範例 Excel 資料集](https://go.microsoft.com/fwlink/?LinkId=529778)，並將它儲存至本機或商務用 OneDrive。
 
 ## <a name="import-the-dataset"></a>匯入資料集
 這種建立報表的方法會從資料集和空白報表畫布開始。 您可以在零售分析範例 Excel 資料集中跟著做。
@@ -30,7 +29,7 @@ ms.locfileid: "73432212"
 1. 我們會在 Power BI 服務工作區中建立報表，因此請選取現有工作區或建立一個工作區。
    
    ![工作區清單](media/service-report-create-new/power-bi-workspaces2.png)
-2. 從左側瀏覽窗格底部，選取 [取得資料]  。
+2. 從導覽窗格的底部，選取 [取得資料]  。
    
    ![取得資料](media/service-report-create-new/power-bi-get-data3.png)
 3. 選取 [檔案]  ，然後導覽至您已儲存零售分析範例的位置。
@@ -93,5 +92,5 @@ ms.locfileid: "73432212"
 ## <a name="next-steps"></a>後續步驟
 
 * 了解如何[將視覺效果釘選到儀表板](service-dashboard-pin-tile-from-report.md)   
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

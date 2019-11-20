@@ -2,7 +2,6 @@
 title: 了解如何將 Azure Data Lake Storage Gen2 連線到 Power BI 以作為資料流程儲存體
 description: 使用 Azure Data Lake Storage Gen2 將您自己的資料帶入資料流程中
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432007"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872724"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體 (預覽)
 
@@ -105,7 +104,7 @@ ms.locfileid: "73432007"
 
 若要尋找您的租用戶應用程式，請遵循下列步驟：
 
-1. 在 [Azure 入口網站](https://portal.azure.com/)中，從左側導覽面板中選取 [Azure Active Directory]  。
+1. 在 [Azure 入口網站](https://portal.azure.com/)中，從導覽面板中選取 [Azure Active Directory]  。
 2. 在 [Azure Active Directory]  刀鋒視窗中，選取 [企業應用程式]  。
 3. 從 [應用程式類型]  下拉式功能表中，選取 [所有應用程式]  ，然後選取 [套用]  。 隨即會顯示您租用戶應用程式的範例，類似下圖。
 
@@ -223,4 +222,4 @@ Power BI Desktop 客戶無法存取儲存在 **Azure Data Lake Storage 帳戶** 
 * [CDM 資料夾](https://go.microsoft.com/fwlink/?linkid=2045304) \(英文\)
 * [CDM 模型檔案定義](https://go.microsoft.com/fwlink/?linkid=2045521) \(英文\)
 
-此外，您隨時都可以試著[向 Power BI 社群發問](http://community.powerbi.com/) \(英文\)。
+此外，您隨時都可以試著[向 Power BI 社群發問](https://community.powerbi.com/) \(英文\)。

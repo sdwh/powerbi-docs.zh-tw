@@ -2,7 +2,6 @@
 title: 開始使用 Power BI 服務
 description: 開始使用 Power BI 線上服務 (app.powerbi.com)
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060409"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872338"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>教學課程：開始使用 Power BI 服務
 本教學課程是 *Power BI 服務*的部分功能簡介。 您會在本課程中連接資料、建立報表和儀表板，並詢問資料的相關問題。 您可以在 Power BI 服務中執行更多動作；本教學課程僅為了提高您的興趣。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，建議您參閱[什麼是 Power BI](fundamentals/power-bi-overview.md)。
@@ -35,7 +34,7 @@ ms.locfileid: "73060409"
 > * 刪除資料集、報表和儀表板來清除資源。
 
 > [!TIP]
-> 偏好免費自修訓練課程？ [註冊在 EdX 上的資料分析與視覺化課程](http://aka.ms/edxpbi)。
+> 偏好免費自修訓練課程？ [註冊在 EdX 上的資料分析與視覺化課程](https://aka.ms/edxpbi)。
 
 ## <a name="sign-up-for-the-power-bi-service"></a>註冊 Power BI 服務
 如果您沒有 Power BI 帳戶，請先[註冊免費 Power BI Pro 試用](https://app.powerbi.com/signupredirect?pbi_source=web)，再開始進行。
@@ -46,10 +45,10 @@ ms.locfileid: "73060409"
 
 一般來說，當您想要建立 Power BI 報表時，您會從 Power BI Desktop 開始。 這一次，我們將從頭開始在 Power BI 服務中建立報表。
 
-在本教學課程中，我們會從 CSV 檔案取得資料。 想要跟著做嗎？ [下載財務範例 CSV 檔案](http://go.microsoft.com/fwlink/?LinkID=521962)。
+在本教學課程中，我們會從 CSV 檔案取得資料。 想要跟著做嗎？ [下載財務範例 CSV 檔案](https://go.microsoft.com/fwlink/?LinkID=521962)。
 
-1. [登入 Power BI](http://www.powerbi.com/)。 沒有帳戶嗎？ 別擔心，您可以註冊免費試用。
-2. Power BI 會在您的瀏覽器中開啟。 選取左導覽列底部的 [取得資料]  。
+1. [登入 Power BI](https://www.powerbi.com/)。 沒有帳戶嗎？ 別擔心，您可以註冊免費試用。
+2. Power BI 會在您的瀏覽器中開啟。 選取導覽窗格底部的 [取得資料]  。
 
     [取得資料]  頁面隨即開啟。   
 
@@ -73,7 +72,7 @@ ms.locfileid: "73060409"
 
     ![空白報表畫布](media/service-get-started/power-bi-service-blank-report.png)
 
-7. 請注意，上方導覽列有 [閱讀檢視]  的選項。 由於您有此選項，這表示您目前處於 [編輯檢視] 中。 熟悉報表編輯器的一項好方法為[進行導覽](service-the-report-editor-take-a-tour.md)。
+7. 請注意，上方導覽窗格有 [閱讀檢視]  的選項。 由於您有此選項，這表示您目前處於 [編輯檢視] 中。 熟悉報表編輯器的一項好方法為[進行導覽](service-the-report-editor-take-a-tour.md)。
 
     ![[閱讀檢視] 選項](media/service-get-started/power-bi-service-reading-view.png)
 
@@ -115,13 +114,13 @@ ms.locfileid: "73060409"
    
 8. 選取儀表板上新的磚，即可返回報表。 Power BI 會讓您回到 [閱讀檢視] 中的報表。 
 
-1. 若要切換回 [編輯檢視]，請選取上方導覽列中的 [更多選項]  (...) > [編輯]  。 回到 [編輯檢視] 時，您即可繼續探索及釘選磚。
+1. 若要切換回 [編輯檢視]，請選取上方導覽窗格中的 [更多選項]  (...) > [編輯]  。 回到 [編輯檢視] 時，您即可繼續探索及釘選磚。
 
     ![選取 [編輯] 以編輯報表](media/service-get-started/power-bi-service-edit-report.png)
 
 ## <a name="step-3-explore-with-qa"></a>步驟 3：使用問與答進行探索
 
-如要快速探索資料，請試著在問與答的問題方塊中提問。 問與答會建立與資料相關的自然語言查詢。 在儀表板中，問與答方塊位於最上方 ([詢問與資料相關的問題]  )。 在報表中，該方塊位於頂端導覽列 ([詢問問題]  )。
+如要快速探索資料，請試著在問與答的問題方塊中提問。 問與答會建立與資料相關的自然語言查詢。 在儀表板中，問與答方塊位於最上方 ([詢問與資料相關的問題]  )。 在報表中，該方塊位於頂端導覽窗格 ([詢問問題]  )。
 
 1. 若要返回儀表板，請在黑色 **Power BI** 列中選取 [我的工作區]  。
 
@@ -198,7 +197,7 @@ ms.locfileid: "73060409"
 ## <a name="clean-up-resources"></a>清除資源
 既然您已經完成本教學課程，就可以刪除資料集、報表和儀表板。 
 
-1. 在左側導覽列中，確認您位於 [我的工作區]  中。
+1. 在導覽窗格中，確定您處於 [我的工作區]  。
 2. 選取 [資料集]  索引標籤，並找到您針對本教學課程匯入的資料集。  
 3. 選取 [更多選項]  (...) > [刪除]  。
 

@@ -3,7 +3,6 @@ title: Microsoft Power BI Premium 是什麼？
 description: Power BI Premium 可為組織提供專用容量，給您更可靠的效能和更大的資料磁碟區，不需要您購買每個使用者授權。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: e57df395fd3efe439cb6ef009cb2c7a9f3fe99f9
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f62387feebca089b2afbb919419365fd7e09c2d3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431646"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871811"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -166,9 +165,9 @@ Power BI REST API 包含[容量 API](https://docs.microsoft.com/rest/api/power-b
 
 ### <a name="size-considerations"></a>大小考量
 
-大型模型可能會耗用大量資源。 任何大於 1 GB 的模型至少要有 P1 SKU。 雖然可將大型模型發佈到 A SKU 支援的工作區 (最多到 A3)，但無法重新整理這些模型。
+大型資料集可能會耗用大量資源。 任何大於 1 GB 的資料集都至少要有 P1 SKU。 雖然可將大型資料集發佈到 A SKU 支援的工作區 (最多到 A3)，但無法重新整理這些資料集。
 
-下表描述各種 .pbix 大小的建議 SKU：
+下表顯示將 .pbix 檔案上傳或發行至 Power BI 服務的建議 SKU：
 
    |SKU  |.pbix 大小   |
    |---------|---------|
@@ -176,9 +175,11 @@ Power BI REST API 包含[容量 API](https://docs.microsoft.com/rest/api/power-b
    |P2    | < 6 GB        |
    |P3、P4、P5    | 最多 10 GB   |
 
-Power BI Embedded A4 SKU 等同於 P1 SKU、A5 = P2 及 A6 = P3。 將大型模型發行到 A 和 EM SKU 可能會傳回錯誤，且為非專屬於共用容量中模型大小限制的錯誤。 A 和 EM SKU 中，大型模型的重新整理錯誤，很可能指向逾時。 
+Power BI Embedded A4 SKU 等同於 P1 SKU、A5 = P2 及 A6 = P3。 將資料集發行到 A 和 EM SKU 可能會傳回錯誤，且為非專屬於共用容量中模型大小限制的錯誤。 A 和 EM SKU 中，資料集的重新整理錯誤，很可能指向逾時。
 
-.pbix 檔案以「高度壓縮狀態」  呈現資料。 載入至記憶體時，資料可能會展開多次，而且從該處，在資料重新整理期間，資料可能會再展開幾次。
+如果您在資料集上啟用[大型模型](service-premium-large-models.md)，.pbix 檔案大小限制仍適用於檔案上傳或發行。 不過，隨著累加重新整理和大型模型結合，資料集可能會成長為比這些限制還大。 若使用大型模型，則資料集大小只受限於 Power BI Premium 容量大小。
+
+.pbix 檔案以「高度壓縮狀態」  呈現資料。 載入至記憶體時，資料可能會展開，而且從該處，在資料重新整理期間，資料可能會再展開幾次。
 
 排程重新整理大型資料集可能需要很長的時間，且會耗用大量資源。 請務必不要排程太多重疊重新整理。 建議設定[累加式重新整理](service-premium-incremental-refresh.md)，因為其更快速可靠，且耗用較少的資源。
 

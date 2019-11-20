@@ -2,7 +2,6 @@
 title: 連線至 Power BI 服務中的範例
 description: 了解如何安裝及探索 Power BI 服務中的範例。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020641"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873836"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>連線至 Power BI 服務中的範例
 
@@ -38,11 +37,11 @@ ms.locfileid: "73020641"
 
     如果您沒有 Power BI Pro 授權，則可以將範例儲存到 [我的工作區]。
 
-2. 選取左側瀏覽窗格底部的 [取得資料]  。 
+2. 在導覽窗格的底部，選取 [取得資料]  。 
 
    ![選取 [取得資料]](media/sample-datasets/power-bi-get-data.png)
 
-   如果您看不到 [取得資料]  ，請選取窗格頂端的下列圖示來展開瀏覽窗格：![漢堡圖示](media/sample-tutorial-connect-to-the-samples/expand-nav.png)。
+   如果您看不到 [取得資料]  ，請選取窗格頂端的下列圖示來展開導覽窗格：![漢堡圖示](media/sample-tutorial-connect-to-the-samples/expand-nav.png)。
 
 5. 在顯示的 [取得資料]  頁面上，選取 [範例]  。
    
@@ -100,7 +99,7 @@ ms.locfileid: "73020641"
 
 不同於在 Power BI 服務中編輯報表，在 Power BI Desktop 中，您也可以使用查詢及建立資料模型，確保資料在報表中能夠提供最透徹的見解。 然後，您可以將 Power BI Desktop 檔案儲存在任何位置，無論是本機磁碟機或雲端。
 
-1. 下載[零售分析範例 .pbix 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)並在 Power BI Desktop 中加以開啟。 
+1. 下載[零售分析範例 .pbix 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)並在 Power BI Desktop 中加以開啟。 
 
     ![Power BI 報表檢視中的範例](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
@@ -138,4 +137,4 @@ ms.locfileid: "73020641"
 - [Power BI 服務的範例](sample-datasets.md)
 - [Power BI 的資料來源](service-get-data.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

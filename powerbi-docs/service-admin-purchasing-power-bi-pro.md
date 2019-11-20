@@ -2,7 +2,6 @@
 title: 購買及指派 Power BI Pro 授權
 description: 了解如何購買及指派 Power BI Pro 使用者授權，讓您的使用者可以存取 Power BI 服務中的內容，並在其中與同事共同作業。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 10/29/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 31739cee4371a8991f8c88e6ba67bfb48878a33c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 72a158e2dca32d2199fcd48e2cc37bf4c90778ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431402"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873550"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>購買及指派 Power BI Pro 使用者授權
 
@@ -37,9 +36,9 @@ Power BI Pro 是一種個別使用者授權，可允許使用者讀取及和其�
 
 1. 開啟 [MIcrosoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
-2. 在左邊的瀏覽窗格中，選取 [帳單]   > [訂閱]  。
+2. 在導覽窗格中，選取 [帳單]   > [訂閱]  。
 
-    ![[瀏覽] 窗格](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
+    ![導覽窗格](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
 
 3. 在 [訂閱]  頁面的右上角，選取 [新增訂閱]  。
 
@@ -75,7 +74,7 @@ Power BI Pro 是一種個別使用者授權，可允許使用者讀取及和其�
 
 1. 開啟 [MIcrosoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
-2. 在左側瀏覽窗格中，展開 [使用者]  ，然後選取 [作用中使用者]  。
+2. 在導覽窗格中，展開 [使用者]  ，然後選取 [作用中使用者]  。
 
     ![作用中使用者](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-05.png)
 
@@ -97,7 +96,7 @@ Power BI Pro 是一種個別使用者授權，可允許使用者讀取及和其�
 
 1. 開啟 [Azure 入口網站](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0)。
 
-2. 在左側的導覽列中，選取 [Azure Active Directory]  。
+2. 在導覽窗格中，選取 [Azure Active Directory]  。
 
     ![Azure Active Directory](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-01.png)
 

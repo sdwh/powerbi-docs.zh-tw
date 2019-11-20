@@ -2,7 +2,6 @@
 title: 管理您工作區中的資料儲存體
 description: 了解如何管理您個人或工作區中的資料儲存體，以確保您可以繼續發佈報表和資料集。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: ea187de55eec2667abe2eed017481180910b7619
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431375"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873648"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>管理 Power BI 工作區中的資料儲存體
 
@@ -46,7 +45,7 @@ ms.locfileid: "73431375"
 
 查看您在 Power BI 帳戶中使用的資料儲存空間，並管理您的帳戶。
 
-1. 若要管理您自己的儲存空間，請移至左側功能窗格的 [我的工作區]  。
+1. 若要管理您自己的儲存空間，請移至導覽窗格上的 [我的工作區]  。
    
     ![我的工作區](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 2. 選取右上角的齒輪圖示 ![齒輪圖示](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> [管理個人儲存體]  。
@@ -104,5 +103,5 @@ ms.locfileid: "73431375"
 
  ![超出您的儲存體限制](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
- 有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+ 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

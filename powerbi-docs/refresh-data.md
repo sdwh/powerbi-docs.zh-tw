@@ -2,7 +2,6 @@
 title: Power BI 的資料重新整理
 description: 本文描述 Power BI 資料重新整理功能及其在概念層級的相依性。
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 948776a12af2d99da2d84d07c9298f9ec0558c7b
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 422d742748fc6880b0636bd3a0c5de7011a3ff0a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442941"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860805"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 
@@ -277,7 +276,7 @@ in
 
 ![設定排程的重新整理](media/refresh-data/configure-scheduled-refresh.png)
 
-設定重新整理排程之後，資料集設定頁面會通知您下次重新整理時間，如上方螢幕擷取畫面所示。 如果您想要更快重新整理資料 (例如測試閘道和資料來源設定)，請使用左側瀏覽窗格 [資料集] 功能表中的 [立即重新整理]  選項來執行隨選重新整理。 隨選重新整理不會影響下次排程重新整理時間，但會計入每日重新整理限制，如本文稍早所述。
+設定重新整理排程之後，資料集設定頁面會通知您下次重新整理時間，如上方螢幕擷取畫面所示。 如果您想要更快重新整理資料 (例如測試閘道和資料來源設定)，請使用導覽窗格中資料集功能表裡的 [立即重新整理]  選項來執行隨選重新整理。 隨選重新整理不會影響下次排程重新整理時間，但會計入每日重新整理限制，如本文稍早所述。
 
 另請注意，已設定重新整理時間可能不是 Power BI 開始下一個排程程序的確切時間。 Power BI 會盡可能準時開始排程重新整理。 目標是在排程時段 15 分鐘內重新整理，但如果服務無法及時配置所需的資源，則最多會延遲一小時。
 
@@ -339,4 +338,4 @@ in
 [對重新整理問題進行疑難排解的工具](service-gateway-onprem-tshoot.md)  
 [對重新整理進行疑難排解的案例](refresh-troubleshooting-refresh-scenarios.md)  
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

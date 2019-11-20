@@ -3,18 +3,17 @@ title: 教學課程：建立分頁報表並將它上傳至 Power BI 服務
 description: 在此教學課程中，您將會連線到範例 Azure SQL Database。 接著會使用報表產生器中的精靈來建立編頁報表。 隨後會在 Power BI 服務中，將編頁報表上傳至 Premium 容量中的工作區。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: ab4cb14936ceff52a78f713877064d525de4b104
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431683"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875416"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教學課程：建立分頁報表並將它上傳至 Power BI 服務
 
@@ -287,7 +286,7 @@ ms.locfileid: "73431683"
 
 既然您已建立此編頁報表，現在就可將它上傳至 Power BI 服務。
 
-1. 在 Power BI 服務 (http://app.powerbi.com) 的左側瀏覽窗格中，選取 [工作區]   >  [建立工作區]  。
+1. 在 Power BI 服務 (https://app.powerbi.com) 的導覽窗格中，選取 [工作區]   >  [建立工作區]  。
 
 2. 將工作區命名為 **Azure AW** 或其他唯一的名稱。 您現在是唯一的成員。 
 

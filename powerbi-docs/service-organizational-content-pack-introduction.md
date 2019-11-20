@@ -2,7 +2,6 @@
 title: Power BI 中的組織內容套件簡介
 description: 閱讀以了解如何將您的儀表板、報表、Excel 活頁簿和資料集封裝到可與同事共用的組織內容套件中。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c5f56df51a1f18db7c2080afb79f4ac7abfb2444
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b766cc4eae71b94a28e12ba989f85542fec2ab83
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431740"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871981"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的組織內容套件簡介
 > [!NOTE]
@@ -54,7 +53,7 @@ ms.locfileid: "73431740"
    > 
    > 
 2. Nate 傳送郵件給通訊群組，告訴他們新內容套件的相關資訊。
-3. 「行銷」通訊群組的成員 Jane 在 Power BI Pro 中搜尋並連線到 AppSource 中的內容套件。 Jane 拿到的是唯讀複本。 Jane 知道這是唯讀的，因為在左側瀏覽窗格中，儀表板名稱和報表名稱的左邊有共用圖示。 而當 Jane 選取儀表板時，鎖定圖示可讓 Jane 知道他們正在查看內容套件儀表板。 
+3. 「行銷」通訊群組的成員 Jane 在 Power BI Pro 中搜尋並連線到 AppSource 中的內容套件。 Jane 拿到的是唯讀複本。 Jane 知道這是唯讀的，因為在導覽窗格中，儀表板名稱和報表名稱的左邊有共用圖示。 而當 Jane 選取儀表板時，鎖定圖示可讓 Jane 知道他們正在查看內容套件儀表板。 
 4. 假設 Jane 決定進行自訂。 Jane 現在擁有自己的報表和儀表板複本。 Jane 的舉動不會影響來源、原始的內容套件或其他通訊群組成員。 他們現在各自使用自己的儀表板和報表複本。
 5. Nate 更新了儀表板，並隨時準備發佈新版的內容套件。
    
@@ -63,11 +62,11 @@ ms.locfileid: "73431740"
 6. 假設 Nate 變更安全性設定。 Julio 和 Jane 便不再具有內容的存取權。 或是假設他們已從「行銷」通訊群組中移除。
    
    * Julio 並未自訂原始的內容套件，所以該內容就會自動移除。 
-   * Jane 並未自訂內容套件。 當下次 Jane 開啟儀表板，原始內容套件中的所有磚都會消失，但從其他報表 (Jane 仍然擁有使用權限的報表) 釘選的磚仍會出現。 不再提供相關聯的報表和資料集 (且不再出現在他們的左側瀏覽窗格中)。
+   * Jane 並未自訂內容套件。 當下次 Jane 開啟儀表板，原始內容套件中的所有磚都會消失，但從其他報表 (Jane 仍然擁有使用權限的報表) 釘選的磚仍會出現。 不再提供相關聯的報表和資料集 (且不再出現在他們的導覽窗格中)。
 7. 或是 Nate 刪除了內容套件。
    
    * Julio 並未自訂原始的內容套件，所以該內容就會自動移除。 
-   * Jane 並未自訂內容套件。 下次 Jane 開啟儀表板的話，原始內容套件中的所有磚都會消失，但從其他報表釘選的磚仍會出現。 不再提供相關聯的報表和資料集 (且不再出現在他們的左側瀏覽窗格中)。
+   * Jane 並未自訂內容套件。 下次 Jane 開啟儀表板的話，原始內容套件中的所有磚都會消失，但從其他報表釘選的磚仍會出現。 不再提供相關聯的報表和資料集 (且不再出現在他們的導覽窗格中)。
 
 ## <a name="data-security"></a>資料安全性
 所有通訊群組成員的資料權限都和內容套件建立者一樣。 唯一的例外狀況是 SQL Server Analysis Services (SSAS) 內部部署表格式資料集。 因為報表及儀表板即時連線至內部部署 SSAS 模型，所以會使用每個個別通訊群組成員認證來判斷他們可以存取的資料。
@@ -76,5 +75,5 @@ ms.locfileid: "73431740"
 * [建立和發佈組織內容套件](service-organizational-content-pack-create-and-publish.md)
 * [在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md) 
 * [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

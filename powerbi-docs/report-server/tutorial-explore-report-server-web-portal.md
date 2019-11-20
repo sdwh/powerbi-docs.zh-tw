@@ -2,19 +2,18 @@
 title: 教學課程：探索 VM 中的 Power BI 報表伺服器
 description: 在本教學課程中，您會建立一部已經安裝「Power BI 報表伺服器」的虛擬機器並探索入口網站。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021615"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859245"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教學課程：探索 VM 中的 Power BI 報表伺服器入口網站
 在本教學課程中，您會建立一部已經安裝「Power BI 報表伺服器」的 Azure 虛擬機器，以便體驗如何檢視、編輯和管理範例 Power BI 及編頁報表與 KPI。
@@ -72,7 +71,7 @@ ms.locfileid: "73021615"
 
 ## <a name="connect-to-your-virtual-machine"></a>連線至虛擬機器
 
-1. 在 Azure 左側瀏覽窗格中，選取 [虛擬機器]  。 
+1. 在 Azure 導覽窗格中，選取 [虛擬機器]  。 
 
 2. 在 [依名稱篩選]  方塊中，輸入 "report"。 
 
@@ -108,7 +107,7 @@ ms.locfileid: "73021615"
 |![數字 4](media/tutorial-explore-report-server-web-portal/number-4.png) | 在瀏覽器中開啟「Power BI 報表伺服器」入口網站 |
 |![數字 5](media/tutorial-explore-report-server-web-portal/number-5.png) | 啟動 SQL Server Data Tools 來建立編頁 (.RDL) 報表 |
 
-按兩下 [報表伺服器入口網站]  圖示。 瀏覽器會開啟 `http://localhost/reports/browse`。 在入口網站中，您會看到各種依類型分組的檔案。 
+按兩下 [報表伺服器入口網站]  圖示。 瀏覽器會開啟 `https://localhost/reports/browse`。 在入口網站中，您會看到各種依類型分組的檔案。 
 
 ![Power BI 報表伺服器入口網站](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

@@ -2,7 +2,6 @@
 title: Power BI 如何確保您的內容是最新狀態
 description: 了解 Power BI 如何確保您正在使用最新版的資料、報表、儀表板和應用程式。
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 92f031ff43bc4d3bd5840e69fec166606b14eb73
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019786"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863873"
 ---
 # <a name="your-content-is-up-to-date"></a>您的內容是最新狀態
 
@@ -43,9 +42,9 @@ ms.locfileid: "73019786"
 
 應用程式畫面會顯示設計師名稱，以及上次更新應用程式的日期。  
 
-1. 從左側瀏覽窗格中選取 [應用程式]  。
+1. 從導覽窗格中選取 [應用程式]  。
 
-    ![左側瀏覽窗格](media/end-user-fresh/power-bi-nav-app.png)
+    ![導覽窗格](media/end-user-fresh/power-bi-nav-app.png)
 
 
 
@@ -85,7 +84,7 @@ ms.locfileid: "73019786"
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>如果設計師刪除應用程式會發生什麼狀況
 
-如果設計師刪除應用程式，則與該應用程式建立關聯的儀表板與報表，也會自動從您的 Power BI 工作區移除。 您無法再次取得這些儀表板和報表，且該應用程式不會出現於瀏覽列中的 [應用程式] 容器或其他位置。
+如果設計師刪除應用程式，則與該應用程式建立關聯的儀表板與報表，也會自動從您的 Power BI 工作區移除。 您無法再次取得這些儀表板和報表，且該應用程式不會出現於導覽窗格中的 [應用程式] 容器或其他位置。
 
 
 ## <a name="subscribe-to-see-changes"></a>訂閱以查看變更

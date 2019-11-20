@@ -2,7 +2,6 @@
 title: 教學課程：在 Power BI 中叫用 Machine Learning Studio 模型 (預覽)
 description: 在此教學課程中，您要在 Power BI 中叫用 Machine Learning Studio 模型。
 author: davidiseminger
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 368f860ed064cf3b4ff73496db1fa993fd3b716a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432219"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876977"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>教學課程：在 Power BI 中叫用 Machine Learning Studio 模型 (預覽)
 
@@ -44,7 +43,7 @@ ms.locfileid: "73432219"
 
 下列步驟假設您是發佈模型的 Azure 訂用帳戶和資源群組的共同系統管理員。
 
-登入 [Azure 入口網站](https://portal.azure.com)，然後瀏覽至 [訂用帳戶]  頁面，您可以使用左導覽功能表中的 [所有服務]  清單找到該頁面。
+登入 [Azure 入口網站](https://portal.azure.com)，然後瀏覽至 [訂用帳戶]  頁面，您可以使用導覽窗格功能表中的 [所有服務]  清單找到該頁面。
 
 ![Azure 入口網站](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
@@ -135,7 +134,7 @@ Power Query 編輯器會從 CSV 檔案中顯示資料的預覽。 從命令功�
 
 ![編輯](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_16.png)
 
-選取功能區中的 [AI 見解]  按鈕，然後從左側瀏覽功能表選取 [Azure Machine Learning 模型]  資料夾。
+選取功能區中的 [AI 見解]  按鈕，然後從導覽窗格功能表選取 [Azure Machine Learning 模型]  資料夾。
 
 您已獲授與存取權的 Azure ML 模型會列為首碼為 *AzureML* 的 Power Query 函式。  當您按一下對應至 _AutomobilePricePrediction_ 模型的函式時，此模型的 Web 服務參數會列為函式參數。
 

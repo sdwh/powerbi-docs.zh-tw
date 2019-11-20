@@ -2,7 +2,6 @@
 title: 第 2 部分：在 Power BI 報表中新增視覺效果
 description: 第 2 部分：在 Power BI 報表中新增視覺效果
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc50c54f826dd695b0aab459bd3d68d0da792abe
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: e9759f69668780b450117e5e6255e7f5cb7e67f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73049120"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881024"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>第 2 部分：在 Power BI 報表中新增視覺效果
 
@@ -29,7 +28,7 @@ ms.locfileid: "73049120"
 
 ## <a name="prerequisites"></a>先決條件
 
-本教學課程使用[零售分析範例 PBIX 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
+本教學課程使用[零售分析範例 PBIX 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
 1. 從 Power BI Desktop 功能表列的左上方區段，選取 [檔案]   > [開啟] 
    
@@ -59,7 +58,7 @@ ms.locfileid: "73049120"
 
 5. 選取視覺效果、抓取一個圓形外框，然後拖曳以[調整視覺效果大小](power-bi-visualization-move-and-resize.md)。 讓它寬到消除捲軸，但提供足夠的空間以新增另一個視覺效果。
    
-   ![](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
+   ![區域圖視覺效果的螢幕擷取畫面](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
 6. [儲存報表](../service-report-save.md)。
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>加入地圖視覺效果來依位置查看銷售
@@ -68,9 +67,9 @@ ms.locfileid: "73049120"
    ![區域圖](media/power-bi-report-add-visualizations-ii/power-bi-map1.png)
 
 2. 加入圖例。  若要依門市名稱查看資料，請將 [門市]   > [連鎖店]  拖曳到 [圖例] 區域。  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
+   ![報表畫布，有箭號從欄位清單中的 [連鎖店] 指到 [圖例] 值區中的 [連鎖店]](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
 ## <a name="next-steps"></a>後續步驟
 * 深入了解 [Power BI 報表中的視覺效果](power-bi-report-visualizations.md)。  
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

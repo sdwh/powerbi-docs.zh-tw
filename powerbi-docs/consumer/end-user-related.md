@@ -2,7 +2,6 @@
 title: 從儀表板、報表與資料集檢視相關內容
 description: 瀏覽變得更容易，檢視儀表板、報表及資料集中的相關內容
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 10fcb7420c261379d596666589a0f6707cf70160
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 9e202d22c2ff42a29eb28a8ee154b09f18097d04
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019454"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862270"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>檢視 Power BI 服務中的相關內容
 
@@ -54,9 +53,9 @@ ms.locfileid: "73019454"
 ## <a name="view-related-content-for-a-dataset"></a>檢視資料集相關內容
 您至少必須有資料集的「檢視」  權限，才能開啟 [相關內容]  窗格。 在此範例中，我們使用的是[採購分析範例](../sample-procurement.md)。
 
-從瀏覽列中，找出 [工作區]  標題，並從清單中選取工作區。 如果您的工作區中有內容，則其會顯示在右側的畫布中。 
+從導覽窗格中，找出 [工作區]  標題，並從清單中選取工作區。 如果您的工作區中有內容，則其會顯示在右側的畫布中。 
 
-![左側瀏覽列中的工作區](./media/end-user-related/power-bi-workspace.png)
+![導覽窗格中的工作區](./media/end-user-related/power-bi-workspace.png)
 
 
 在工作區中選取 [資料集]  索引標籤，然後找出**檢視相關項目**圖示 ![檢視相關項目圖示](./media/end-user-related/power-bi-view-related-icon-new.png)。
@@ -76,5 +75,5 @@ ms.locfileid: "73019454"
 
 ## <a name="next-steps"></a>後續步驟
 * [開始使用 Power BI 服務](../service-get-started.md)
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

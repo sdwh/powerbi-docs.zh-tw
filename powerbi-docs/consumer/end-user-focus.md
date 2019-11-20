@@ -2,7 +2,6 @@
 title: 焦點模式與全螢幕模式 - 如何放大以查看更多詳細資料
 description: 以焦點模式或全螢幕模式顯示 Power BI 儀表板、儀表板磚、報表或報表視覺效果的文件
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 633aaf4bd06634f0b1cc7eb2dd38b56eec0cfaf0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019808"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852738"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>顯示更詳細的內容：焦點模式與全螢幕模式
 
@@ -38,7 +37,7 @@ ms.locfileid: "73019808"
 
 ![儀表板的全螢幕模式使用前和使用後](media/end-user-focus/power-bi-dashboards-focus.png)
 
-顯示您 Power BI 服務的內容 (儀表板、報表頁面、磚及視覺效果) 而不受功能表和導覽列所干擾。  您可隨時取得內容的完整檢視，而不含其他無關項目。 這有時稱為電視模式。   
+顯示您 Power BI 服務的內容 (儀表板、報表頁面、磚及視覺效果) 而不受功能表和導覽窗格所干擾。  您可隨時取得內容的完整檢視，而不含其他無關項目。 這有時稱為電視模式。   
 
 若要開啟全螢幕模式，在焦點模式的儀表板、報表、磚上方，或焦點模式的視覺效果上方，從 Power BI 服務功能表列選取 [全螢幕]  圖示 ![全螢幕圖示](media/end-user-focus/power-bi-full-screen-icon.png)。  您選取的內容隨即會填滿整個螢幕。
 如果您使用 Power BI 行動版，[Windows 10 行動裝置應用程式可使用全螢幕](./mobile/mobile-windows-10-app-presentation-mode.md)。 

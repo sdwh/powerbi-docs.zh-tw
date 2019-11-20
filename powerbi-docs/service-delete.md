@@ -2,7 +2,6 @@
 title: 刪除儀表板、報表、活頁簿、資料集或工作區
 description: 了解如何刪除 Power BI 中的絶大部分所有項目
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b010cfafc15c905cd792b9693777af94149cb1fe
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431982"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872533"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>刪除 Power BI 服務中的絶大部分所有項目
 本文會教導您如何刪除 Power BI 服務中的儀表板、報告、活頁簿、資料集、應用程式、視覺效果和工作區。
@@ -90,7 +89,7 @@ ms.locfileid: "73431982"
 身為工作區作者，您可以將其刪除。 如果您已將應用程式發佈到整個組織，則刪除它時，也會刪除所有群組成員的相關聯應用程式，並從 AppSource 中予以移除。 刪除工作區與離開工作區不同。
 
 ### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>刪除工作區 - 如果您是系統管理員
-1. 從左側導覽中，選取 [工作區] 
+1. 從導覽窗格中選取 [工作區] 
 
 2. 選取所要刪除工作區右側的 [更多選項]  (…)，然後選擇 [編輯工作區]  。
 
@@ -125,7 +124,7 @@ ms.locfileid: "73431982"
 ### <a name="remove-an-app-from-your-app-list-page"></a>從應用程式清單頁面中移除應用程式
 從應用程式清單頁面中刪除應用程式，並不會刪除其他成員的應用程式。
 
-1. 在左側導覽中，選取 [應用程式]  以開啟應用程式清單頁面。
+1. 在導覽窗格中，選取 [應用程式]  以開啟應用程式清單頁面。
 2. 將滑鼠游標移至要刪除的應用程式上方，然後選取刪除 ![](media/service-delete/power-bi-delete-report2.png) 圖示。
 
    ![選取 [應用程式]](media/service-delete/power-bi-delete-app.png)
@@ -141,4 +140,4 @@ ms.locfileid: "73431982"
 * [刪除儀表板磚](service-dashboard-edit-tile.md)
 * [刪除報表視覺效果](service-delete.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

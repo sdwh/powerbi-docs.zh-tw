@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: a48589e6126203856a306de796c964ce6e347c26
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429865"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73764720"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」  及其連線方式的高階概觀。
@@ -68,7 +68,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **connect live (即時連接)** ：一種連線到 SQL Server Analysis Services 資料模型的方法。 也稱為即時連線。
 
-**container (容器)** ：「容器 (container)」  是導覽列上的區域。 在導覽列中，您可以找到下列項目的容器：我的最愛、最近、應用程式、與我共用和首頁。 
+**容器**：導覽窗格上的區域是「容器」  。 在導覽窗格中，您可以找到下列項目的容器：我的最愛、最近、應用程式、與我共用和首頁。 
 
 **content (內容)** ：Power BI 服務的內容通常是儀表板、報表和應用程式。 也可以包含活頁簿和資料集。
 
@@ -162,12 +162,12 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 ## <a name="l"></a>L
 
-**left navigation (左側導覽)** ：此項目已由**導覽列 (nav bar)** 取代，但可能仍會出現在某些檔中。    
+**left navigation (左側導覽)** ：此項目已由**導覽窗格**取代，但可能仍會出現在某些文件中。    
 沿著 Power BI 服務左側邊緣的控制項。
 
-第一個執行個體：「左側導覽」後續提及或空間狹小時：「左導覽」
+第一次出現：導覽窗格 (navigation pane)，後續提及或空間狹小時：導覽窗格 (nav pane)
 
-**list page (清單頁面)** 或**內容清單**：左側導覽中其中一個項目區段頁面。 例如：我的最愛、最近項目、我的工作區等。
+**list page (清單頁面)** 或**內容清單**：導覽窗格中其中一個項目區段頁面。 例如：我的最愛、最近項目、我的工作區等。
 
 ## <a name="m"></a>M
 
@@ -181,11 +181,11 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **native (原生)** ：隨附於產品。 例如，Power BI 隨附一組「原生」  視覺效果類型。 但是，您也可以匯入其他類型 (像是自訂視覺效果)。
 
-**navigation bar (導覽列)** 或 **nav bar (導覽列)** ：沿著 Power BI 服務左側邊緣的控制項。
+**nav pane (導覽窗格)** 或 **nav pane (導覽窗格)** ：沿著 Power BI 服務左側邊緣的控制項。
 
-第一次出現：導覽列 (navigation bar)，後續提及或空間狹小時：導覽列 (nav bar)
+第一次出現：導覽窗格 (nav pane)，後續提及或空間狹小時：導覽窗格 (nav pane)
 
-**navigation pane (瀏覽窗格)** ：請參閱**導覽列 (navigation bar)**
+**nav pane (導覽窗格)** 請參閱**nav pane (導覽窗格)**
 
 **notification (通知)** ：由 Power BI 通知中心傳送或傳送到通知中心的訊息。  
 
@@ -260,7 +260,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **real-time streaming (即時串流)** ：從來源 (例如感應器、社交媒體、使用計量及任何可收集或傳輸時間敏感性資料的其他來源) 即時串流資料及更新儀表板的能力。  
 
-**Recent (最近項目)** ：左導覽中的容器，其中保有所有最後存取的個別成品。
+**Recent (最近項目)** ：導覽窗格中的容器，其中保有所有最後存取的個別成品。
 
 **related content (相關內容)** ：顯示參與構成目前內容的個別內容零件。 例如，針對儀表板，您可以看到提供資料的報表和資料集，以及儀表板上的視覺效果。   
 
@@ -288,7 +288,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 **share, sharing (共用)** ：在 Power BI 中，「共用」通常表示使用其電子郵件地址，直接和一或多個人共用個別成品 (儀表板或報表)。 寄件者和收件者都須具備 Power BI Pro 授權。
 在行動裝置上，「共用」則可代指原生 OS 共用功能，例如「標註並共用」。  
 
-**Shared with me (與我共用)** ：左導覽中的容器，其中保有所有直接由其他 Power BI 使用者共用的個別成品。
+**Shared with me (與我共用)** ：導覽窗格中的容器，其中保有所有直接由其他 Power BI 使用者共用的個別成品。
 
 **snapshot (快照集)**
 

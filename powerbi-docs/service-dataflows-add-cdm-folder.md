@@ -2,7 +2,6 @@
 title: 將 CDM 資料夾作為資料流程新增到 Power BI
 description: 在 Azure Data Lake Storage Gen2 中設定工作區，以儲存其資料流程定義和資料檔案
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3adc642d539ab8e1c1f1f60981a61fdc58a460ab
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432033"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872698"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>將 CDM 資料夾作為資料流程新增到 Power BI (預覽)
 
@@ -33,7 +32,7 @@ ms.locfileid: "73432033"
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>從 CDM 資料夾建立資料流程
 
-若要開始從 CDM 資料夾建立資料流程，請啟動 **Power BI 服務**，並從左側瀏覽窗格選取 [工作區]  。 您也可以建立新的工作區，在其中建立新的資料流程。
+若要開始從 CDM 資料夾建立資料流程，請啟動 **Power BI 服務**，並從導覽窗格選取 [工作區]  。 您也可以建立新的工作區，在其中建立新的資料流程。
 
 ![在 Power BI 服務中建立資料流程](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
@@ -110,5 +109,5 @@ Power BI Desktop：
 * [CDM 資料夾](https://go.microsoft.com/fwlink/?linkid=2045304) \(英文\)
 * [CDM 模型檔案定義](https://go.microsoft.com/fwlink/?linkid=2045521) \(英文\)
 
-此外，您隨時都可以試著[向 Power BI 社群發問](http://community.powerbi.com/) \(英文\)。
+此外，您隨時都可以試著[向 Power BI 社群發問](https://community.powerbi.com/) \(英文\)。
 

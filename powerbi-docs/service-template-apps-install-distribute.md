@@ -2,19 +2,18 @@
 title: 在您的組織中散發範本應用程式 - Power BI
 description: 了解如何在 Power BI 中於您的組織內安裝、自訂和散發範本應用程式。
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432330"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871413"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>在您的組織中散發範本應用程式 - Power BI
 
@@ -45,7 +44,7 @@ ms.locfileid: "73432330"
 
 ### <a name="search-appsource-from-the-power-bi-service"></a>從 Power BI 服務搜尋 AppSource
 
-1. 在 Power BI 服務的左側瀏覽窗格中選取 [應用程式]   > [取得應用程式]  。
+1. 在 Power BI 服務的導覽窗格中選取 [應用程式]   > [取得應用程式]  。
 
     ![取得應用程式](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
@@ -69,7 +68,7 @@ ms.locfileid: "73432330"
     - **Connect Data** (將資料連線)：將資料來源從範例資料變更為您自己的資料來源。 您可以重新定義資料集參數和資料來源認證。 請參閱範本應用程式提示主題中的 [Known limitations](service-template-apps-tips.md#known-limitations) (已知限制)。 
     - **Go to workspace** (前往工作區) (最進階的選項)：您可以進行應用程式建置者允許的所有變更。
 
-    您也可以跳過此對話方塊，並透過左側瀏覽窗格中的 [工作區]  直接存取相關工作區。
+    您也可以跳過此對話方塊，並透過導覽窗格中的 [工作區]  直接存取相關工作區。
     >[!NOTE]
     >安裝範本應用程式會同時安裝「組織應用程式」  和「工作區」  。 深入了解如何[在 Power BI 中散發應用程式](service-create-distribute-apps.md)。
  

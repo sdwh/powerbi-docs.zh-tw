@@ -2,7 +2,6 @@
 title: 教學課程：在 Power BI 中建置機器學習模型
 description: 在本教學課程中，您會在 Power BI 中建置機器學習模型。
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 75f6449c4795fd0095c46a33b33fd3ef14045e35
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 78b29a4e71e75793e168da25987b3e9c4a8b13f4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432257"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877013"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>教學課程：在 Power BI 中建置機器學習模型
 
@@ -47,7 +46,7 @@ ms.locfileid: "73432257"
 
 若要在資料流程中建立實體，請登入 Power BI 服務，並巡覽至您已啟用 AI 專用容量上的工作區。
 
-如果還沒有工作區，則您可在 Power BI 服務的左側導覽功能表中選取 [工作區]  來建立一個工作區，然後在出現的面板底部選取 [建立工作區]  。 如此會在右側開啟一個面板，輸入工作區詳細資料。 輸入工作區名稱，然後選取 [進階]  。 透過圓形按鈕，確認工作區使用專用容量，並且指派給已開啟 AI 預覽的專用容量執行個體。 接著，選取 [儲存]  。
+如果還沒有工作區，則您可在 Power BI 服務的導覽窗格功能表中選取 [工作區]  來建立一個工作區，然後在出現的面板底部選取 [建立工作區]  。 如此會在右側開啟一個面板，輸入工作區詳細資料。 輸入工作區名稱，然後選取 [進階]  。 透過圓形按鈕，確認工作區使用專用容量，並且指派給已開啟 AI 預覽的專用容量執行個體。 接著，選取 [儲存]  。
 
 ![建立工作區](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-01.png)
 

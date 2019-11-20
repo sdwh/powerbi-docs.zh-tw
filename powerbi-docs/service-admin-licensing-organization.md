@@ -2,7 +2,6 @@
 title: 組織中的 Power BI 授權
 description: 了解 Power BI 提供的不同授權類型：免費授權、Power BI Pro 和 Power BI Premium。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7a851a890fa734c045bb9cee60d429f87a3a602
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 2cbf2498740d26a59ced5652368cf99b8fa5eec1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442839"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857720"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>組織中的 Power BI 授權
 
@@ -55,7 +54,7 @@ Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳
 
 1. 巡覽至 [MIcrosoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)。
 
-1. 在左邊的功能窗格中，依序選取 [帳單]  、[訂閱]  。
+1. 在導覽窗格中，依序選取 [帳單]  、[訂閱]  。
 
    ![帳單及訂閱](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-05.png)
 
@@ -101,7 +100,7 @@ Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳
 
 1. 巡覽至 [MIcrosoft 365 系統管理中心](https://portal.office.com/admin/default.aspx)。
 
-1. 在左邊的瀏覽窗格中，選取 [帳單]   > [訂閱]  。
+1. 在導覽窗格中，依序選取 [帳單]   > [訂閱]  。
 
 1. 在右邊，選取 [新增訂閱 +]  。
 
@@ -156,4 +155,4 @@ Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳
 
 [購買及指派 Power BI Pro 授權](service-admin-purchasing-power-bi-pro.md)
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
