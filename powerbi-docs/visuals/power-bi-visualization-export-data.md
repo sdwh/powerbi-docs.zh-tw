@@ -3,24 +3,24 @@ title: 從 Power BI 視覺效果匯出資料
 description: 從報表視覺效果和儀表板視覺效果匯出資料，並在 Excel 中檢視。
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 11/13/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b2474cd5cc82e1736790f4a352b216dcc8013a6f
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431107"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060474"
 ---
 # <a name="export-data-from-visualizations"></a>從視覺效果匯出資料
 
-如果想要查看 Power BI 用來建立視覺效果的資料，[您可以在 Power BI 中顯示該資料](service-reports-show-data.md)。 您也可以將該資料匯出至 Excel，作為 *.xlsx* 或 *.csv* 檔案。 匯出資料的選項需要專業或進階授權，以及資料集和報表的編輯權限。
+如果想要查看 Power BI 用來建立視覺效果的資料，[您可以在 Power BI 中顯示該資料](service-reports-show-data.md)。 您也可以將該資料匯出至 Excel，作為 *.xlsx* 或 *.csv* 檔案。 匯出資料的選項需要專業或進階授權，以及資料集和報表的編輯權限。 <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
 觀看 Will 從其報表的其中一個視覺效果中匯出資料、將資料儲存為 *.xlsx* 檔案，並在 Excel 中開啟它。 然後遵循影片下方的逐步指示親自試試看。
 
@@ -152,7 +152,7 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
 ## <a name="limitations-and-considerations"></a>限制與考量
 這些限制和考量適用於 Power BI Desktop 和 Power BI 服務，包括 Power BI Pro 和 Premium。
 
-- 若要從視覺效果匯出資料，您需要具有[基礎資料集的建置權限](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets)。
+- 若要從視覺效果匯出資料，您需要具有[基礎資料集的建置權限](https://docs.microsoft.com/power-bi/service-datasets-build-permissions)。
 
 -  **Power BI Desktop** 和 **Power BI 服務**可以從 [匯入模式報表]  匯出至 *.csv* 的資料列數上限為 30,000。
 
@@ -160,13 +160,11 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
 
 - 若為下列情況，使用「基礎資料」  匯出將無法運作：
 
-  - 資料來源是 Analysis Services 即時連線。
-
   - 版本早於 2016 年。
 
   - 模型中的資料表沒有唯一索引鍵。
     
-  -  如果系統管理員或報表設計者已停用這項功能。
+  -  管理員或報表設計者已停用這項功能。
 
 - 如果您針對 Power BI 正要匯出的視覺效果啟用 [顯示沒有資料的項目]  選項，則使用「基礎資料」  匯出將無法運作。
 
@@ -196,4 +194,4 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
 
 - Power BI 系統管理員可以停用匯出資料。
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

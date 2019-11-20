@@ -1,20 +1,19 @@
 ---
 title: 註冊應用程式以內嵌 Power BI 內容
 description: 了解如何在 Azure Active Directory 內註冊應用程式，以用來內嵌 Power BI 內容。
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 73cca097ce6693c3bbee538eb1518a2ede19beab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a2aa135bfa5720763485579b012c13c722637db
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269519"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009807"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>註冊要與 Power BI 搭配使用的 Azure AD 應用程式
 
@@ -83,7 +82,7 @@ ms.locfileid: "61269519"
 
 3. 在頁面的右上角選取您的帳戶，以選擇您的 Azure AD 租用戶。
 
-4. 在左側功能窗格中，前往 [所有服務]  ，選取 [應用程式註冊]  ，然後選取 [新增註冊]  。
+4. 在左側導覽窗格中，前往 [所有服務]  ，選取 [應用程式註冊]  ，然後選取 [新增註冊]  。
 
 5. 遵循提示並建立新的應用程式。
 
@@ -105,7 +104,7 @@ ms.locfileid: "61269519"
 
 ### <a name="using-the-azure-ad-portal"></a>使用 Azure AD 入口網站
 
-1. 瀏覽至 Azure 入口網站內的[應用程式註冊](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade)，然後選取您要用於內嵌的應用程式。
+1. 瀏覽至 Azure 入口網站內的[應用程式註冊](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType//sourceType/)，然後選取您要用於內嵌的應用程式。
 
 2. 選取 [管理]  下方的 [API 權限]  。
 
@@ -199,4 +198,4 @@ ms.locfileid: "61269519"
 
 既然您已在 Azure AD 中註冊應用程式，就必須在應用程式中驗證使用者。 若要深入了解，請參閱[為 Power BI 應用程式驗證使用者及取得 Azure AD 存取權杖](get-azuread-access-token.md)。
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

@@ -2,20 +2,19 @@
 title: 大型資料集、資料點限制及資料策略
 description: 適用於視覺效果和資料縮減策略的資料限制
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 11/07/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61276395"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74011283"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>依視覺效果類型區分的資料點限制和策略
 
@@ -64,7 +63,7 @@ ms.locfileid: "61276395"
 - 在類別目錄模式下時
     - 類別：使用一次顯示 500 個資料列的視窗進行虛擬化
     - 數列：前 60 個
-    - 在純量模式下時 (可以使用動態限制)
+    - 在純量模式下 (可以使用動態限制)
         - 點數上限：10,000
         - 類別：500 個值的樣本
         - 數列：前 20 個值
@@ -81,7 +80,7 @@ ms.locfileid: "61276395"
 ### <a name="doughnut"></a>環圈圖
 - 點數上限：3,500
 - 群組：前 500 個
-- 詳細資料：前 20 個
+- 詳細資料:前 20 個
 
 ### <a name="filled-map-choropleth"></a>區域分布圖 (分級著色圖) 
 區域分布圖可以使用統計資料或動態限制。 Power BI 會嘗試依下列順序使用縮減：動態限制、統計資料、設定。 
@@ -109,12 +108,12 @@ ms.locfileid: "61276395"
 視設定而定，地圖可以有：
 - 位置：前 3,500 個
 - 位置、大小：前 3,500 個
-- 位置、緯度及經度的彙總 (+/-大小)：前 3,500 個
+- 位置、緯度、經度的彙總 (+/-大小)：前 3,500 個
 - 緯度、經度：請參閱[高密度散佈圖](desktop-high-density-scatter-charts.md)
 - 緯度、經度、大小：前 3,500 個
 - 圖例、緯度、經度：請參閱[高密度散佈圖](desktop-high-density-scatter-charts.md)
 - 圖例、緯度、經度、大小：前 233 個圖例、前 15 個緯度和經度 (可使用統計資料或動態限制)
-- 位置、圖例、緯度及經度的彙總 (+/-大小)：前 233 個位置、前 15 個圖例 (可使用統計資料或動態限制)
+- 位置、圖例、緯度、經度的彙總 (+/-大小)：前 233 個位置、前 15 個圖例 (可使用統計資料或動態限制)
 
 ### <a name="matrix"></a>矩陣圖
 - 資料列：使用一次顯示 500 個資料列的視窗進行虛擬化
@@ -133,7 +132,7 @@ ms.locfileid: "61276395"
 ### <a name="pie"></a>圓形圖
 - 點數上限：3,500
 - 群組：前 500 個
-- 詳細資料：前 20 個
+- 詳細資料:前 20 個
 
 ### <a name="r--python-visuals"></a>R 和 Python 視覺效果
 限制為 150,000 個資料列。 如果選取超過 150,000 個資料列，則只會使用前 150,000 個資料列
@@ -142,24 +141,23 @@ ms.locfileid: "61276395"
 - 在類別目錄模式下時
     - 類別：使用一次顯示 500 個資料列的視窗進行虛擬化 (資料視窗化)
     - 數列：前 60 個
-    - 在純量模式下時 (可以使用動態限制)
+    - 在純量模式下 (可以使用動態限制)
         - 點數上限：10,000
         - 類別：500 個值的樣本
         - 數列：前 20 個值
 
-### <a name="shape-map"></a>圖形地圖
-區域分布圖可以使用統計資料或動態限制。 
-- 點數上限：10,000
+### <a name="shape-map-preview"></a>圖形圖 (預覽)
+圖形圖可以使用統計資料或動態限制。 
+- 點數上限：1,500
 - 類別：前 500 個
-- 數列 (當 X 與 Y 都存在時)：前 20 個
 
 ### <a name="table"></a>資料表
 - 值：使用一次顯示 500 個資料列的視窗進行虛擬化 (資料視窗化)
 
-### <a name="tree-map-this-could-use-statistics-or-dynamic-limits"></a>樹狀圖 (可使用統計資料或動態限制)
+### <a name="tree-map-could-use-statistics-or-dynamic-limits"></a>樹狀圖 (可使用統計資料或動態限制)
 - 點數上限：3,500
 - 群組：前 500 個
-- 詳細資料：前 20 個
+- 詳細資料:前 20 個
 
 ### <a name="waterfall-chart"></a>瀑布圖
 - 當只有類別值區時

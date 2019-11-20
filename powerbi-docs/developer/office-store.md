@@ -3,18 +3,17 @@ title: 在 AppSource 上發佈 Power BI 視覺效果
 description: 了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及使用。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307665"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128056"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>在 AppSource 上發佈 Power BI 視覺效果
 
@@ -143,13 +142,13 @@ ms.locfileid: "72307665"
 
 ## <a name="certify-your-visual"></a>認證您的視覺效果
 
-建立視覺效果之後，您可以選擇讓您的視覺效果通過認證。 這表示它可以在 Power BI 服務內執行，還可以與服務的其他功能一起使用，例如匯出至 PowerPoint。 如需詳細資訊，請參閱[讓自訂視覺化「通過證認」  ](../power-bi-custom-visuals-certified.md)。
+建立視覺效果之後，您可以選擇讓您的視覺效果通過認證。 這表示它可以在 Power BI 服務內執行，還可以與服務的其他功能一起使用，例如匯出至 PowerPoint。 如需詳細資訊，請參閱[讓自訂視覺化「通過證認」  ](../developer/power-bi-custom-visuals-certified.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
 [Developing a Power BI custom visual](visuals/custom-visual-develop-tutorial.md) (開發 Power BI 自訂視覺效果)  
 [Power BI 中的視覺效果](../visuals/power-bi-report-visualizations.md)  
-[Power BI 中的自訂視覺效果](../power-bi-custom-visuals.md)  
-[讓自訂視覺效果「通過認證」  ](../power-bi-custom-visuals-certified.md)
+[Power BI 中的自訂視覺效果](../developer/power-bi-custom-visuals.md)  
+[讓自訂視覺效果「通過認證」  ](../developer/power-bi-custom-visuals-certified.md)
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
