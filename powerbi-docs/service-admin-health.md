@@ -2,7 +2,6 @@
 title: 在 Office 365 中追蹤 Power BI 服務健康狀態
 description: 了解如何在 Microsoft 365 系統管理中心中檢視目前和歷史服務健全狀況。
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 579950320c3193e9cc1921a06d5b121ff0b58ae0
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 0e944dfa34bec1e1c1816cf80d7dc2df7252b65a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075349"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857695"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>在 Office 365 中追蹤 Power BI 服務健康狀態
 
@@ -29,7 +28,7 @@ Microsoft 365 系統管理中心提供適用於 Power BI 系統管理員的重�
 
 1. 登入 [MIcrosoft 365 系統管理中心](https://portal.office.com/adminportal)。
 
-1. 從左側瀏覽列中，選取 [全部顯示]   > [健康狀態]   > [服務健全狀況]  。 [服務健康狀態] 頁面隨即出現：
+1. 從導覽窗格中，選取 [全部顯示]   >  [健康情況]   >  [服務健康狀態]  。 [服務健康狀態] 頁面隨即出現：
 
     ![Microsoft 365 系統管理中心已標示 [健康狀態] 和 [服務健康情況] 選項的螢幕擷取畫面。](media/service-admin-health/service-health-tile.png)
 

@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中建立和管理關聯性
 description: 在 Power BI Desktop 中建立和管理關聯性
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f2102ad654a056832f7890dc506acc99eb5ef26f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61312289"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869121"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中建立和管理關聯性
 當您匯入多個資料表時，您可能想要使用所有資料表中的資料來進行一些分析。 這些資料表之間必須有關聯性，才能正確地計算結果，並在報表中顯示正確資訊。 Power BI Desktop 可讓您輕鬆地建立這些關聯性。 事實上，在大多數情況下，您不必執行任何動作，[自動偵測] 功能會為您完成這項作業。 不過，在某些情況下，您可能必須自行建立關聯性，或可能需要對關聯性進行一些變更。 不論是哪種情況，請務必了解 Power BI Desktop 中的關聯性，以及如何建立和編輯關聯性。
@@ -64,9 +63,9 @@ ms.locfileid: "61312289"
 如需何時變更基數的詳細資訊，請參閱本文後段的＜了解其他選項＞一節。
 
 ## <a name="cross-filter-direction"></a>交叉篩選方向
-**兩者** - 最常見的預設方向，表示用於篩選時，兩個資料表會視為一個資料表。 **兩者**適用於周圍有一些查閱資料表的單一資料表。 例如，以下是具有部門之查閱資料表的銷售實際值資料表。 這通常稱為星型結構描述組態 (一個具有多個查閱資料表的中央資料表)。不過，如果您有兩個或多個資料表也有查閱資料表 (並共用一些資料表)，則不會想要使用 [雙向] 設定。 延續上一個範例，在這種情況下，您也會有一個預算銷售資料表，來記錄每個部門的目標預算。 而部門資料表會同時連接到銷售與預算資料表。 請避免針對這種組態使用 [雙向] 設定。
+**兩者** - 這表示用於篩選時，兩個資料表會視為一個資料表。 **兩者**適用於周圍有一些查閱資料表的單一資料表。 例如，以下是具有部門之查閱資料表的銷售實際值資料表。 這通常稱為星型結構描述組態 (一個具有多個查閱資料表的中央資料表)。不過，如果您有兩個或多個資料表也有查閱資料表 (並共用一些資料表)，則不會想要使用 [雙向] 設定。 延續上一個範例，在這種情況下，您也會有一個預算銷售資料表，來記錄每個部門的目標預算。 而部門資料表會同時連接到銷售與預算資料表。 請避免針對這種組態使用 [雙向] 設定。
 
-**單向** - 已連線資料表中的篩選選項會套用至彙總值所在的資料表。 如果您匯入 Excel 2013 或更早版本的 Power Pivot 資料模型，所有關聯性都會是單向。 
+**單向** - 最常見的預設方向，這表示已連接的資料表中的篩選選項會套用至彙總值的所在資料表。 如果您匯入 Excel 2013 或更早版本的 Power Pivot 資料模型，所有關聯性都會是單向。 
 
 如需何時變更交叉篩選方向的詳細資訊，請參閱本文後段的＜了解其他選項＞一節。
 

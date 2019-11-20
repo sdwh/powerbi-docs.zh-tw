@@ -2,22 +2,21 @@
 title: 瀏覽 Power BI 服務
 description: Power BI 瀏覽體驗概觀
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: quickstart
-ms.date: 10/18/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 14c7f88e0bfb822a73a72958f556443260f6ed76
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589442"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851516"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入門 - 瀏覽 Power BI 服務
 
@@ -57,7 +56,7 @@ ms.locfileid: "72589442"
 
 ![[我的工作區] 畫面](./media/end-user-experience/power-bi-my-workspace.png)
 
-從左側瀏覽窗格 (左側瀏覽窗格) 選取工作區，相關內容 (儀表板、報表、活頁簿、資料集) 的索引標籤便會填入右側的 Power BI 畫布。
+從導覽窗格選取工作區，相關內容 (儀表板、報表、活頁簿、資料集) 的索引標籤便會填入右邊的 Power BI 畫布。
 
 如果您是新使用者，則只會看到一個工作區：[我的工作區]  。
 
@@ -82,7 +81,7 @@ ms.locfileid: "72589442"
    
    ![移除我的最愛](./media/end-user-experience/power-bi-unfavorite2.png)
 
-2. 若要顯示您已新增為我的最愛之所有內容清單，請在左側瀏覽窗格中選取 [我的最愛]  右邊的箭號。 由於左側瀏覽窗格是 Power BI 服務的永久功能，因此您可以從 Power BI 服務的任何位置存取此清單。
+2. 若要顯示您已新增為我的最愛之所有內容清單，請在導覽窗格中選取 [我的最愛]  右邊的箭號。 由於導覽窗格是 Power BI 服務的永久功能，因此您可以從 Power BI 服務的任何地方存取此清單。
    
     ![[我的最愛] 飛出視窗](./media/end-user-experience/power-bi-favorite.png)
    
@@ -92,7 +91,7 @@ ms.locfileid: "72589442"
    
    ![標示為我的最愛](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. 從左側瀏覽窗格中選取 [我的最愛]  ，或選取星星圖示 ![](media/end-user-experience/powerbi-star-icon.png)，以開啟 [我的最愛]  窗格  。
+3. 從導覽窗格中選取 [我的最愛]  ，或選取星星圖示 ![顯示黃色星形圖示的螢幕擷取畫面](media/end-user-experience/powerbi-star-icon.png)，以開啟 [我的最愛]  窗格  。
    
    ![開啟 [我的最愛] 畫面](./media/end-user-experience/power-bi-favorite-pane.png)
    
@@ -107,13 +106,13 @@ ms.locfileid: "72589442"
 
 ## <a name="locate-your-most-recent-content"></a>找到最新內容
 
-1. 與 [我的最愛] 類似，選取左側瀏覽窗格中 [最近項目]  旁的箭號，即可從 Power BI 服務的任何位置快速查看最近項目。
+1. 與 [我的最愛] 類似，選取導覽窗格中 [最近項目]  旁的箭號，即可從 Power BI 服務的任何位置快速查看最近項目。
 
    ![[最近項目] 飛出視窗](./media/end-user-experience/power-bi-recent-flyout.png)
 
     從飛出視窗中，選取內容予以開啟。
 
-2. 有時，您不想要開啟最近內容，但想要檢視資訊或採取其他動作，例如檢視深入解析或匯出 Excel。 在這些類似的情況下，從左側瀏覽窗格中選取 [最近項目]  或其圖示，以開啟 [最近項目]  窗格。 如果您有多個工作區，則這份清單會包含所有工作區中的內容。
+2. 有時，您不想要開啟最近內容，但想要檢視資訊或採取其他動作，例如檢視深入解析或匯出 Excel。 在這些類似的情況下，從導覽窗格中選取 [最近項目]  或其圖示，以開啟 [最近項目]  窗格。 如果您有多個工作區，則這份清單會包含所有工作區中的內容。
 
    ![[最近項目] 窗格](./media/end-user-experience/power-bi-recent.png)
 
@@ -138,7 +137,7 @@ ms.locfileid: "72589442"
 完成此快速入門後，您可以根據需求，刪除零售分析範例儀表板、報表和資料集。
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。    
-2. 在左側瀏覽窗格中，選取 [工作區] > [我的工作區]  。  
+2. 在導覽窗格中，選取 [工作區 > 我的工作區]  。  
     有注意到表示我的最愛的黃色星號嗎？    
 3. 在 [儀表板]  索引標籤上，選取零售分析儀表板旁邊的垃圾桶**刪除**圖示。    
 

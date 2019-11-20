@@ -2,7 +2,6 @@
 title: 從 Excel 活頁簿檔案取得資料
 description: 了解如何從 Excel 活頁簿檔案取得資料並放入 Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840958"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877059"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>從 Excel 活頁簿檔案取得資料
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -83,7 +82,7 @@ Power BI 支援下列資料類型：整數、十進位數字、貨幣、日期�
 在 Excel 2016 中，您也可以使用 [發佈] > [上傳]。 其功能幾乎相同。 如需深入了解，請參閱[從 Excel 2016 發佈至 Power BI](service-publish-from-excel.md)。
 
 ## <a name="import-or-connect-to-an-excel-workbook-from-power-bi"></a>從 Power BI 匯入或連接到 Excel 活頁簿
-1. 在 Power BI 的功能窗格中，按一下 [取得資料]  。
+1. 在 Power BI 的導覽窗格中，按一下 [取得資料]  。
    
    ![](media/service-excel-workbook-files/excel_get_data_button.png)
 2. 在 [檔案] 中，按一下 [取得]  。

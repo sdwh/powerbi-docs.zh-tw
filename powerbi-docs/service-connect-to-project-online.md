@@ -2,7 +2,6 @@
 title: 使用 Power BI 連接到 Project Online
 description: Project Online for Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0978e87167f96b40082819764d7e3ae35e930a4b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 941981e1f84cf3d7a74a156e4f1c88f57e061ad2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023770"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854643"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>使用 Power BI 連線到 Project Web App
 Microsoft Project Web App 是針對專案組合管理 (PPM) 與日常工作的靈活線上解決方案。 Project Web App 可讓組織開始著手專案組合的投資、排定優先順序，並提供預期的商業價值。 Power BI 的 Project Web App 範本應用程式可讓您解鎖 Project Web App 的見解，協助管理專案、組合和資源。
@@ -24,7 +23,7 @@ Microsoft Project Web App 是針對專案組合管理 (PPM) 與日常工作的�
 
 ## <a name="how-to-connect"></a>如何連接
 
-1. 在左側瀏覽窗格中選取 [應用程式]  > 選取右上角的 [取得應用程式]  。
+1. 在導覽窗格中選取 [應用程式]  > 選取右上角的 [取得應用程式]  。
 
     ![取得應用程式](media/service-connect-to-project-online/GetApps.png)
 
@@ -38,7 +37,7 @@ Microsoft Project Web App 是針對專案組合管理 (PPM) 與日常工作的�
    ![安裝 Project Web](media/service-connect-to-project-online/ProjectTile.png)
 5. 在 [應用程式]  窗格中，選取 [Microsoft Project Web App]  磚。 
    
-   ![Microsoft Project Web 應用程式](media/service-connect-to-project-online/getstarted.png)
+   ![Microsoft Project Web App](media/service-connect-to-project-online/getstarted.png)
 6. 在 [開始使用您的新應用程式]  中，選取 [連線資料]  。
    
    ![連接到資料](media/service-connect-to-project-online/mproject.png)
@@ -52,7 +51,7 @@ Microsoft Project Web App 是針對專案組合管理 (PPM) 與日常工作的�
 
 9. 您會看到通知，指出正在載入資料。 時間長短視帳戶大小而定。 Power BI 匯入資料之後，您即可看到新工作區的內容。 您可能需要重新整理資料集，才能取得最新的更新。 
 
-    Power BI 匯入資料之後，您會在左側瀏覽窗格中看到 13 頁的報表和資料集。 
+    Power BI 匯入資料之後，您會在導覽窗格中看到 13 頁的報表和資料集。 
 
 10. 報表準備就緒之後，請繼續並開始探索 Project Web App 資料！ 範本應用程式隨附 13 頁豐富且詳細的報表：組合概觀 (6 個報表頁面)、資源概觀 (5 個報表頁面) 和專案狀態 (2 個報表頁面)。 
 

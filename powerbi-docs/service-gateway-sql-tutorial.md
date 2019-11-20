@@ -2,7 +2,6 @@
 title: 教學課程：連線到 SQL Server 中的內部部署資料
 description: 了解如何使用 SQL Server 作為閘道資料來源，包括如何重新整理資料。
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307390"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881539"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>從內部部署 SQL Server 資料庫重新整理資料
 
@@ -131,7 +130,7 @@ ms.locfileid: "68307390"
 
 現在您已將 Power BI 中的資料集透過資料閘道連線到 SQL Server 資料庫內部部署，請遵循這些步驟來設定重新整理排程。 以排程作為基礎重新整理您的資料集，可協助確保您的報表和儀表板皆具備最新資料。
 
-1. 在左側瀏覽窗格中，開啟 [我的工作區]  \> [資料集]  。 選取 **AdventureWorksProducts** 資料集的省略符號 ( **. . .** )，然後選取 [排程重新整理]  。
+1. 在導覽窗格中，開啟 [我的工作區]  \> [資料集]  。 選取 **AdventureWorksProducts** 資料集的省略符號 ( **. . .** )，然後選取 [排程重新整理]  。
 
     > [!NOTE]
     > 確認您選取的是 **AdventureWorksProducts** 資料集的省略符號，而非具備相同名稱報表的省略符號。 **AdventureWorksProducts** 報表的操作功能表不包含 [排程重新整理]  選項。
@@ -149,7 +148,7 @@ ms.locfileid: "68307390"
 
 ## <a name="perform-an-on-demand-refresh"></a>執行隨選重新整理
 
-現在您已設定了重新整理排程，Power BI 即會在下一個排程的時間重新整理您的資料集 (於 15 分鐘的邊際內)。 如果您想要更快重新整理資料 (例如測試閘道和資料來源設定)，請使用左側瀏覽窗格資料集功能表中的 [立即重新整理]  選項來執行隨選重新整理。 隨選重新整理不會影響下次排程重新整理時間，但會計入每日重新整理限制，如前一節所述。
+現在您已設定了重新整理排程，Power BI 即會在下一個排程的時間重新整理您的資料集 (於 15 分鐘的邊際內)。 如果您想要更快重新整理資料 (例如測試閘道和資料來源設定)，請使用導覽窗格中資料集功能表裡的 [立即重新整理]  選項來執行隨選重新整理。 隨選重新整理不會影響下次排程重新整理時間，但會計入每日重新整理限制，如前一節所述。
 
 為了說明，請透過使用 SQL Server Management Studio (SSMS) 更新 AdventureWorksDW 資料庫中的 DimProduct 資料表，來模擬範例資料的變更。
 
@@ -163,7 +162,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 現在請遵循這些步驟，讓更新後的資料可以透過閘道連線流入資料集，並流入 Power BI 中的報表。
 
-1. 在 Power BI 服務的左側導覽窗格中，選取並展開 [我的工作區]  。
+1. 在 Power BI 服務的導覽窗格中，選取並展開 [我的工作區]  。
 
 2. 在 [資料集]  下方，針對 **AdventureWorksProducts** 資料集，選取省略符號 ( **. . .** )，然後選取 [立即重新整理]  。
 

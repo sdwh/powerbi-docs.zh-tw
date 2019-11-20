@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中使用 DirectQuery
 description: 在 Power BI Desktop 使用 DirectQuery，也稱為即時連接
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6664924a10b89e057765d70499208aede2d7fdad
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 08b739c5be01efed5abf8258540b5ab66b3b390b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654793"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876082"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 有了 **Power BI Desktop**，當您連接到資料來源時，隨時可將資料的複本匯入 **Power BI Desktop**。 對於某些資料來源，可用的替代方式是：使用 **DirectQuery**直接連接到資料來源。
@@ -70,7 +69,7 @@ ms.locfileid: "69654793"
       The resultset of a query to external data source has exceeded
   
   如果有一個簡單圖表包含基數很高的資料行，而且彙總選項設定為 [不摘要]  ，就可能會發生此情況。 此視覺效果必須只能包含其基數低於 1 百萬的資料行，否則就必須套用適當的篩選。
-* **安全性** - 所有取用已發行報表的使用者，都會使用發行至 Power BI 服務之後輸入的認證來連接到後端資料來源。 此情況與匯入資料相同：不論後端來源中是否有定義任何安全性規則，所有使用者都會看到相同的資料。 想要使用 DirectQuery 來源為每個使用者實作安全性的客戶，應使用 RLS。 [深入了解 RLS](service-admin-rls.md)。
+* **安全性** - 所有取用已發行報表的使用者，預設都會使用發行至 Power BI 服務之後輸入的認證來連接到後端資料來源。 此情況與匯入資料相同：不論後端來源中是否有定義任何安全性規則，所有使用者都會看到相同的資料。 想要使用 DirectQuery 來源執行每個使用者安全性的客戶，應使用 RLS 或針對來源設定 Kerberos 限制驗證。 Kerberos 無法供所有來源使用。 [深入了解 RLS](service-admin-rls.md)。 [深入了解 DirectQuery中的 Kerberos](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos)。 
 * **支援的功能** - **DirectQuery** 模式不支援 **Power BI Desktop** 的所有功能，或有一些限制。 此外，使用 **DirectQuery** 的資料集無法使用 Power BI 服務的某些功能 (例如 [深入資訊摘要]  )。 因此，決定是否要使用 **DirectQuery** 時，應該考慮使用 **DirectQuery** 時的這類功能限制。   
 
 ## <a name="publish-to-the-power-bi-service"></a>發行至 Power BI 服務
@@ -88,7 +87,7 @@ Power BI 會顯示 [設定]  視窗。 從該處選取 [資料集]  索引標籤
 
 除非提供認證，否則開啟已發行的報表，或探索使用連接至這類資料來源的 **DirectQuery** 建立的資料集會產生錯誤。
 
-若是 **Azure SQL Database**、**Azure SQL 資料倉儲**及 **Redshift** 以外之使用 DirectQuery 的其他資料來源，必須安裝**內部部署資料閘道**，而且必須註冊資料來源以建立資料連線。 您可以[深入了解內部部署資料閘道](http://go.microsoft.com/fwlink/p/?LinkID=627094)。
+若是 **Azure SQL Database**、**Azure SQL 資料倉儲**及 **Redshift** 以外之使用 DirectQuery 的其他資料來源，必須安裝**內部部署資料閘道**，而且必須註冊資料來源以建立資料連線。 您可以[深入了解內部部署資料閘道](https://go.microsoft.com/fwlink/p/?LinkID=627094)。
 
 ## <a name="next-steps"></a>後續步驟
 如需 **DirectQuery** 的詳細資訊，請參閱下列資源：

@@ -2,19 +2,18 @@
 title: 教學課程：使用 iOS 應用程式中的問與答虛擬分析師提問
 description: 在此教學課程中，請嘗試用您自己的文字，在 iOS 裝置上向 Power BI 行動裝置應用程式的問與答虛擬分析師詢問這份範例資料的相關問題。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c7fd216d50f918d96392532ccb82f80d619ce8a3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61337183"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869644"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>教學課程：使用 Power BI iOS 應用程式中的問與答虛擬分析師，詢問有關您資料的問題
 
@@ -42,7 +41,7 @@ ms.locfileid: "61337183"
 ## <a name="prerequisites"></a>先決條件
 
 ### <a name="install-the-power-bi-for-ios-app"></a>安裝 iOS 版 Power BI 應用程式
-從 Apple App Store [下載 iOS 應用程式](http://go.microsoft.com/fwlink/?LinkId=522062 "下載 iPhone 應用程式")至 iPad、iPhone 或 iPod Touch。
+從 Apple App Store [下載 iOS 應用程式](https://go.microsoft.com/fwlink/?LinkId=522062 "下載 iPhone 應用程式")至 iPad、iPhone 或 iPod Touch。
 
 這些版本支援 iOS 版 Power BI 應用程式：
 - iPad (iOS 10 或更新版本)。
@@ -54,11 +53,11 @@ ms.locfileid: "61337183"
 
 1. 在瀏覽器 (app.powerbi.com) 中開啟 Power BI 服務，然後登入。
 
-1. 選取全域導覽圖示以開啟左瀏覽窗格。
+1. 選取全域導覽圖示以開啟導覽窗格。
 
     ![全域導覽圖示](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
 
-2. 在左瀏覽窗格中，選取 [工作區]   > [我的工作區]  。
+2. 在導覽窗格中，選取 [工作區]   >  [我的工作區]  。
 
     ![我的工作區](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
 
@@ -117,7 +116,7 @@ ms.locfileid: "61337183"
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
 
-2. 在左瀏覽窗格中，選取 [工作區]   > [我的工作區]  。
+2. 在導覽窗格中，選取 [工作區]   >  [我的工作區]  。
 
 3. 在 [儀表板]  索引標籤上，選取 [商機分析] 儀表板旁邊的垃圾桶**刪除**圖示。
 

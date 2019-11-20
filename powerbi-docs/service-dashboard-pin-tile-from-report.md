@@ -2,7 +2,6 @@
 title: 從報表將圖格釘選至 Power BI 儀表板
 description: 從報表將磚釘選至 Power BI 儀表板。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b27cf80985dc1789fff5797430e4592fe361b533
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 24d706108bab274ef6aae8733f1fc11d212f13eb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624090"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852637"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>從報表將圖格釘選至 Power BI 儀表板
 
@@ -52,7 +51,7 @@ ms.locfileid: "68624090"
    靠近右上角的成功訊息，可讓您知道視覺效果已作為儀表板上的磚新增至儀表板。
    
    ![成功訊息](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
-5. 從瀏覽窗格中，選取具有新圖格的儀表板。 [編輯磚顯示和行為](service-dashboard-edit-tile.md)或選取磚以返回報表。
+5. 從導覽窗格中，選取具有新磚的儀表板。 [編輯磚顯示和行為](service-dashboard-edit-tile.md)或選取磚以返回報表。
 
 ## <a name="pin-an-entire-report-page"></a>釘選整份報表頁面
 另一個選項，是將整個報表頁面釘選到儀表板，這是一次釘選多個視覺效果的簡單方式。 當您釘選整個頁面時，磚會成為「動態」  。 也就是說，您可以在儀表板上與其互動。 您對報表編輯器中任何視覺效果所做的變更 (如新增篩選或變更圖表中所使用的欄位) 也會反映在儀表板磚中。  
@@ -66,5 +65,5 @@ ms.locfileid: "68624090"
 - [Power BI 的資料重新整理](refresh-data.md)
 - [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

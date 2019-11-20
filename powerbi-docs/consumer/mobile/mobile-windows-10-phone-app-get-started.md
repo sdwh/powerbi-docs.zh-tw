@@ -2,19 +2,18 @@
 title: 開始使用 Power BI for Windows 10 行動裝置應用程式
 description: Power BI 的 Windows 10 行動裝置應用程式可以最新狀態、啟用觸控式行動裝置的方式存取您的商務資訊。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 3aff2b6a939a53a6246ed69ac5bd76dfe4f0dfe4
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: b2bfe6157653459c2d7b60b85c9f7e8a3e465e23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059710"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879058"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>開始使用 Power BI for Windows 10 行動裝置應用程式
 Power BI for Windows 10 行動裝置應用程式可將 Power BI 帶到您的平板電腦或手機。 您可以對商務資訊進行最新的觸控式行動存取。 在 [Windows 開始畫面](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)上，隨處檢視公司儀表板並與其互動。
@@ -26,16 +25,16 @@ Power BI for Windows 10 行動裝置應用程式可將 Power BI 帶到您的平�
 之後即可利用適用於 Windows 10 的 Power BI 行動裝置應用程式，與您的儀表板和報表互動、瀏覽資料並加以共用。
 
 ## <a name="first-things-first"></a>最重要的第一件事
-* 從 Windows 市集[**取得適用於 Windows 10 的 Power BI 行動裝置應用程式**](http://go.microsoft.com/fwlink/?LinkID=526478)。
+* 從 Windows 市集[**取得適用於 Windows 10 的 Power BI 行動裝置應用程式**](https://go.microsoft.com/fwlink/?LinkID=526478)。
   
   您的裝置必須執行 Windows 10。 應用程式可以在具有至少 3 GB RAM 和 8 GB 內部儲存空間的裝置上執行。
    
 * 了解 [Power BI 行動裝置應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>在網路上註冊 Power BI 服務
-如果您尚未註冊，請前往 [Power BI 服務](http://powerbi.com/)。 註冊您自己的帳戶以建立及儲存儀表板和報表，並將您的資料整合在一起。 然後，從您的 Windows 10 裝置登入 Power BI，便可隨處查看您自己的儀表板。
+如果您尚未註冊，請前往 [Power BI 服務](https://powerbi.com/)。 註冊您自己的帳戶以建立及儲存儀表板和報表，並將您的資料整合在一起。 然後，從您的 Windows 10 裝置登入 Power BI，便可隨處查看您自己的儀表板。
 
-1. 在 Power BI 服務中，點選 [註冊](http://go.microsoft.com/fwlink/?LinkID=513879) 來建立 Power BI 帳戶。
+1. 在 Power BI 服務中，點選 [註冊](https://go.microsoft.com/fwlink/?LinkID=513879) 來建立 Power BI 帳戶。
 2. 開始[建立您自己的儀表板和報表](../../service-get-started.md)。
 
 ## <a name="get-started-with-the-power-bi-app"></a>開始使用 Power BI 應用程式
@@ -89,7 +88,7 @@ Power BI for Windows 10 行動裝置應用程式可將 Power BI 帶到您的平�
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中尋找內容
 儀表板和報表儲存在 Power BI 行動裝置應用程式中的不同位置，視其來源而定。 請閱讀[在行動裝置應用程式中尋找內容](mobile-apps-quickstart-view-dashboard-report.md)。 此外，您還可以一律搜尋您在 Power BI 行動裝置應用程式中的任何內容。 
 
-![Power BI 左方導覽](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
+![Power BI 導覽窗格](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>檢視您最愛的儀表板、KPI 和報表
 在行動裝置應用程式 [我的最愛] 頁面檢視您最愛的 Power BI 儀表板，以及 Reporting Services KPI 與行動報表。 當您在 Power BI 行動裝置應用程式中將儀表板設為「我的最愛」  時，就可以從所有裝置加以存取，包括瀏覽器中的 Power BI 服務。 
@@ -120,7 +119,7 @@ Power BI for Windows 10 行動裝置應用程式可將 Power BI 帶到您的平�
 * [使用 SQL Server 行動報表發行工具建立自己的行動報表](https://msdn.microsoft.com/library/mt652547.aspx)，並將其發佈到 Reporting Services 入口網站。
 
 ## <a name="next-steps"></a>後續步驟
-* 從 Windows 市集[下載 Power BI 應用程式](http://go.microsoft.com/fwlink/?LinkID=526478)  
+* 從 Windows 市集[下載 Power BI 應用程式](https://go.microsoft.com/fwlink/?LinkID=526478)  
 * [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

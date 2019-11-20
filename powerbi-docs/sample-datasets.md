@@ -2,7 +2,6 @@
 title: 瀏覽可在 Power BI 使用的範例
 description: 適用於 Power BI 的範例內容套件、PBIX 檔案及 Excel 資料集
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 49c16e083b2119e94f23a78b10ea014efcd70c3c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721495"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858977"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>哪種範例資料可搭配 Power BI 使用？
 您是否剛接觸 Power BI 並想要試用，但沒有任何資料；  或您可能有資料集。 因為您 (還) 不了解 Power BI 的運作方式，所以擔心可能會不小心損害資料集？
@@ -116,16 +115,16 @@ ObviEnce 是一家 ISV 和 Microsoft Business Intelligence 的智慧財產權 (I
 ## <a name="the-power-bi-samples-as-excel-files"></a>以 Excel 檔案形式提供的 Power BI 範例
 每個範例內容套件也都能以 Excel 活頁簿形式提供。 這些 Excel 活頁簿經過設計，可與 Power BI 服務搭配使用。  
 
-1. 請使用下方連結個別下載檔案，或[下載所有範例檔案的 ZIP 檔案](http://go.microsoft.com/fwlink/?LinkId=535020)。 如果您是進階使用者，可能必須下載 Excel 活頁簿以探索或編輯資料模型。
+1. 請使用下方連結個別下載檔案，或[下載所有範例檔案的 ZIP 檔案](https://go.microsoft.com/fwlink/?LinkId=535020)。 如果您是進階使用者，可能必須下載 Excel 活頁簿以探索或編輯資料模型。
 
-   * [零售分析範例](http://go.microsoft.com/fwlink/?LinkId=529778)
-   * [供應商品質分析範例](http://go.microsoft.com/fwlink/?LinkId=529779)
-   * [人力資源範例](http://go.microsoft.com/fwlink/?LinkId=529780)
-   * [客戶獲利率範例](http://go.microsoft.com/fwlink/?LinkId=529781)
-   * [商機追蹤範例](http://go.microsoft.com/fwlink/?LinkId=529782)
-   * [IT 費用分析範例](http://go.microsoft.com/fwlink/?LinkId=529783)
-   * [採購分析範例](http://go.microsoft.com/fwlink/?LinkId=529784)
-   * [銷售與行銷範例](http://go.microsoft.com/fwlink/?LinkId=529785)
+   * [零售分析範例](https://go.microsoft.com/fwlink/?LinkId=529778)
+   * [供應商品質分析範例](https://go.microsoft.com/fwlink/?LinkId=529779)
+   * [人力資源範例](https://go.microsoft.com/fwlink/?LinkId=529780)
+   * [客戶獲利率範例](https://go.microsoft.com/fwlink/?LinkId=529781)
+   * [商機追蹤範例](https://go.microsoft.com/fwlink/?LinkId=529782)
+   * [IT 費用分析範例](https://go.microsoft.com/fwlink/?LinkId=529783)
+   * [採購分析範例](https://go.microsoft.com/fwlink/?LinkId=529784)
+   * [銷售與行銷範例](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. 儲存下載的檔案。 檔案的儲存位置會有差異。
 
    * ![本機](media/sample-datasets/power-bi-local-file2.png)  **本機** - 如果您將檔案儲存到電腦上的本機磁碟或組織中的其他位置，您可以從 Power BI 將檔案匯入至 Power BI。 您的檔案實際上會保留在本機磁碟，因此不會將整個檔案匯入 Power BI。 發生的情況是在 Power BI 網站中建立新資料集，並將資料和資料模型 (在某些情況下) 載入資料集。 如果您的檔案有任何報表，則這些報表會顯示在 Power BI 網站的 [報表] 下。
@@ -154,7 +153,7 @@ ObviEnce 是一家 ISV 和 Microsoft Business Intelligence 的智慧財產權 (I
 
     ![匯入或連線](media/sample-datasets/power-bi-import.png)
 9. 如果您選取 [匯入]  ，Power BI 會匯入範例活頁簿，並將其新增為新資料集，名為 **Procurement Analysis Sample**。  如果活頁簿有任何 Power View 工作表、資料表或範圍，或有資料模型，Power BI 也會建立報表 (名稱相同)。 如果您尚未開啟任何儀表板，Powrer BI 會建立新的儀表板。 (如果您在按一下 [取得資料]  時開啟了儀表板，將會在該儀表板上看到新的空白磚。  按一下該磚，您就會前往剛新增的資料集之報表)。 新的內容會依範例命名，並以黃色星號標示。
-10. 當 [您的資料集已就緒!]  畫面出現時，請選取 [檢視資料集]  或 [取得快速見解]  ，也可以使用 Power BI 左側瀏覽列找出並開啟相關報表或儀表板。  
+10. 當 [您的資料集已就緒!]  畫面出現時，請選取 [檢視資料集]  或 [取得快速見解]  ，也可以使用 Power BI 導覽窗格找出並開啟相關報表或儀表板。  
 
      ![檢視資料集](media/sample-datasets/power-bi-ready.png)
 
@@ -176,15 +175,15 @@ ObviEnce 是一家 ISV 和 Microsoft Business Intelligence 的智慧財產權 (I
 
 1. 使用下方連結個別下載檔案。 選取這些連結會自動將檔案儲存至您的 [下載] 資料夾。 
 
-   * [零售分析範例 PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-   * [供應商品質分析範例 PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
+   * [零售分析範例 PBIX](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+   * [供應商品質分析範例 PBIX](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    <!-- Previous link doesn't work -->
-   * [人力資源範例 PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
-   * [客戶獲利率範例 PBIX](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
-   * [商機追蹤範例 PBIX](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
-   * [IT 費用分析範例 PBIX](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
-   * [採購分析範例 PBIX](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
-   * [銷售與行銷範例 PBIX](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+   * [人力資源範例 PBIX](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+   * [客戶獲利率範例 PBIX](https://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
+   * [商機追蹤範例 PBIX](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+   * [IT 費用分析範例 PBIX](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+   * [採購分析範例 PBIX](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+   * [銷售與行銷範例 PBIX](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
 
 1. 從 Power BI Desktop 中，選取 [檔案] > [開啟]  ，然後巡覽到您儲存範例 .pbix 的位置。
 
@@ -198,4 +197,4 @@ ObviEnce 是一家 ISV 和 Microsoft Business Intelligence 的智慧財產權 (I
 
 [Power BI 的資料來源](service-get-data.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

@@ -2,78 +2,82 @@
 title: 自訂 X 軸和 Y 軸屬性
 description: 自訂 X 軸和 Y 軸屬性
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3bfe84acdf73fcb5ace791c9a84943262d0f73ab
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 393f6f25fedddd9ff17d635ae67ce473ab57eea4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389984"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880931"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>自訂 X 軸和 Y 軸屬性
 
-本教學課程中，您將學到許多不同的方法，可以用來自訂視覺效果的 X 軸和 Y 軸。 並非所有視覺效果都擁有座標軸。 例如，圓餅圖就沒有座標軸。 而且自訂選項會隨視覺效果而不同。 選項太多而無法在單一文章中介紹，因此將探討一些最常用的軸自訂項目，並使用 Power BI 報表畫布中的視覺 [格式]  窗格以輕鬆解說。  
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+本教學課程中，您將學到許多不同的方法，可以用來自訂視覺效果的 X 軸和 Y 軸。 並非所有視覺效果都擁有座標軸。 例如，圓餅圖就沒有座標軸。 而且自訂選項會隨視覺效果而不同。 選項太多而無法在單一文章中介紹，因此我們將探討一些最常用的自訂項目，並使用 Power BI 報表畫布中的視覺 [格式]  窗格以輕鬆解說。  
+
+觀看 Amanda 自訂 X 軸和 Y 軸。 她也會以不同的方式，示範使用向下切入和向上切入時控制串連。
 
 > [!NOTE]
-> 此頁面適用於 Power BI 服務和 Power BI Desktop。 Power BI Desktop 也會提供選取 [格式]  (滾筒刷圖示 ![滾筒刷圖示的螢幕擷取畫面](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller.png)) 時可用的自訂項目。
-
-觀看 Amanda 自訂 X 軸和 Y 軸。 她將以不同的方式，示範使用向下切入和向上切入時控制串連。
+> 這部影片使用舊版的 Power BI。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9DeAKM4SNJM" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="prerequisites"></a>先決條件
 
-- Power BI 服務
+- Power BI Desktop
 
-- 零售分析範例報表
+- [零售分析範例](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
-## <a name="customize-visualization-x--and-y-axes-in-reports"></a>自訂報表中的視覺效果 X 軸和 Y 軸
 
-若要跟著做，請登入 [Power BI 服務](https://app.powerbi.com)，然後在[編輯報表](../service-interact-with-a-report-in-editing-view.md)檢視中開啟[零售分析範例](../sample-datasets.md)報表。
-
-### <a name="create-a-stacked-column-chart-visualization"></a>建立堆疊直條圖表視覺效果
+## <a name="add-a-new-visualization"></a>新增新的視覺效果
 
 您必須先建立視覺效果，才能自訂視覺效果。
 
-1. 在 Power BI 服務中，展開 [我的工作區]  。
+1. 在 Power BI Desktop 中，開啟零售分析範例。  
 
-1. 向下捲動並從 [資料集]  的清單選取 [零售分析範例]  。
+2. 選取底部的黃色加號圖示以新增頁面。 
 
-1. 從 [視覺效果]  窗格中選取堆疊直條圖圖示 。
+    ![黃色加號](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-new-page-icon.png)
 
-    ![[視覺效果] 窗格和空白堆疊直條圖的螢幕擷取畫面](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-stacked-column-chart.png)
+1. 從 [視覺效果]  窗格中選取堆疊直條圖圖示 。 這會將空白範本加入報表畫布中。
 
-1. 若要設定 X 軸的值，請從 [欄位]  窗格，選取 [時間]   > [FiscalMonth]  。
+    ![[視覺效果] 窗格和空白堆疊直條圖的螢幕擷取畫面](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-column-chart.png)
 
-1. 若要設定 Y 軸的值，請從 [欄位]  窗格，選取 [銷售額]   > [去年度銷售額]  和 [銷售額]   > [今年度銷售額]   > [值]  。
+1. 若要設定 X 軸的值，請從 [欄位]  窗格中選取 [時間]   >  [FiscalMonth]  。
 
-    ![已填入的堆疊直條圖螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-create-chart.png)
+1. 若要設定 Y 軸的值，請從 [欄位]  窗格中選取 [銷售額]   >  [去年度銷售額]  和 [銷售額]   >  [今年度銷售額]   >  [值]  。
 
-### <a name="customize-the-x-axis"></a>自訂 X 軸
+    ![已填入的堆疊直條圖螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-build-visual.png)
 
-現在您可以自訂您的 X 軸。
+    現在您可以自訂您的 X 軸。 Power BI 提供您幾乎無限制的選項來格式化視覺效果。 
 
-1. 在 [視覺效果]  窗格中，選取 [格式]  (滾筒刷圖示 ![滾筒刷圖示的螢幕擷取畫面](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller.png)) 以顯示自訂選項。
+## <a name="customize-the-x-axis"></a>自訂 X 軸
+X 軸有許多可自訂的功能。 您可以新增及修改資料標籤和 X 軸標題。 針對類別，您可以修改橫條、直條、折線、面積的寬度、大小和填補。 針對值，您可以修改顯示單位、小數位數、格線。 下列範例示範自訂直條圖。 讓我們新增一些自訂項目，讓您熟悉這些選項，然後您就可以自行探索其餘自訂。
 
-1. 展開 X 軸選項。
+### <a name="customize-the-x-axis-labels"></a>自訂 X 軸標籤
+X 軸標籤會顯示在圖表中的直條下方。 現在，它們是淺灰色、小字，而且很難閱讀。 讓我們改變它。
 
-   ![X 軸選項的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-x-axis.png)
+1. 在 [視覺效果]  窗格中，選取 [格式]  (滾筒刷圖示 ![滾筒刷圖示的螢幕擷取畫面](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller-icon.png) ) 以顯示自訂選項。
 
-1. 將 [X 軸]  滑桿移至 [開啟]  。
+2. 展開 X 軸選項。
 
-    ![[開啟] 滑桿的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/onoffslider.png)
+   ![X 軸選項的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-axis-x.png)
 
-    您可能會為了保留空間給更多資料而關閉 X 軸。
+3. 將 [X 軸]  滑桿移至 [開啟]  。
 
-1. 設定文字色彩、大小和字型的格式：
+    ![[開啟] 滑桿的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
+
+    基於某些原因，您可能會想要將 X 軸設定為 [關閉]  ，例如，如果視覺效果在沒有標籤的情況下是一目了然的，或如果您的報表頁面擁擠，需要空間來顯示更多資料。
+
+4. 設定文字色彩、大小和字型的格式：
 
     - **色彩**：選取 [黑色]
 
@@ -81,137 +85,147 @@ ms.locfileid: "67389984"
 
     - **字型家族**：選取 [Arial Black] 
 
-1. 將 [標題]  選項移到 [開啟]  顯示 X 軸的名稱。 在本例中是 **FiscalMonth**。
+    - **內部邊框間距**：輸入 40% 
+
+        ![傾斜標籤的螢幕擷取畫面](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-x.png)
+    
+5. 也許您不喜歡 X 軸文字傾斜顯示的樣子。 您可以有幾種做法。 
+    - 將文字大小變更為小於 14 的值。
+    - 將視覺效果變大一些。 
+    - 增加 [最小類別寬度]  以顯示較少的直條，並加入捲軸。 
+    
+    在這裡，我們選擇第二個做法，抓取其中一個調整大小列將視覺效果加寬。 它現在可以容納 14 點文字了，不需要傾斜顯示文字或使用捲軸。 
+
+   ![水平標籤的圖表和格式化窗格](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-stretch.png)
+
+### <a name="customize-the-x-axis-title"></a>自訂 X 軸標題
+當 X 軸標題為 [開啟]  時，X 軸標題會顯示在 X 軸標籤下方。 
+
+1. 一開始先將 X 軸標題設為 [開啟]  。  
+
+    ![標題滑桿](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-title-on.png)
+
+    您會注意到的第一件事，就是您的視覺效果現在有了預設的 X 軸標題。  在本例中是 **FiscalMonth**。
+
+   ![底部顯示標題的圖表](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-x-title.png)
 
 1. 設定標題文字色彩、大小和字型的格式：
 
     - **標題色彩**：選取 [橙色]
 
-    - **軸標題**：輸入 [會計月份] 
+    - **軸標題**：輸入「會計月份」 
 
-    - **標題文字大小**：輸入 *21*
+    - **標題文字大小**：輸入 18 
 
-完成自訂之後，堆疊直條圖看起來像這樣：
+    完成自訂之後，堆疊直條圖看起來像這樣：
 
-![已自訂的堆疊直條圖螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-customize-axis.png)
+    ![已自訂的堆疊直條圖螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-x-title-formatted.png)
 
-儲存您所做的變更，然後移至下個區段。
+1. 儲存您所做的變更，然後移至下個區段。 如果需要還原所有變更，請選取 [X 軸]  自訂窗格底部的 [還原為預設值]  。 接下來，您將自訂您的 Y 軸。
 
-如果需要還原所有變更，請選取 [X 軸]  自訂窗格底部的 [還原為預設值]  。
+## <a name="customize-the-y-axis"></a>自訂 Y 軸
+Y 軸有許多可自訂的功能。 您可以新增及修改資料標籤、Y 軸標題、格線。 針對值，您可以修改顯示單位、小數位數、起始點、結束點。 針對類別，您可以修改橫條、直條、折線、面積的寬度、大小和填補。 
 
-### <a name="customize-the-y-axis"></a>自訂 Y 軸
+下列範例繼續自訂剛才的直條圖。 讓我們進行一些變更，讓您熟悉這些選項，然後您就可以自行探索其餘自訂。
 
-接下來，您將自訂您的 Y 軸。
+### <a name="customize-the-y-axis-labels"></a>自訂 Y 軸標籤
+Y 軸標籤預設會顯示在左邊。 現在，它們是淺灰色、小字，而且很難閱讀。 讓我們改變它。
 
 1. 展開 Y 軸選項。
 
-   ![Y 軸選項的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis.png)
+   ![Y 軸選項的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-axis-y.png)
 
 1. 將 [Y 軸]  滑桿移至 [開啟]  。  
 
-    ![[開啟] 滑桿的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/onoffslider.png)
+    ![[開啟] 滑桿的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
 
     您可能會為了保留空間給更多資料而關閉 Y 軸。
-
-1. 將 Y 軸 [位置]  設為 [右]  。
 
 1. 設定文字色彩、大小和字型的格式：
 
     - **色彩**：選取 [黑色]
 
-    - **文字大小**：輸入 *14*
+    - **文字大小**：輸入 10 
 
-    - **字型家族**：選取 [Arial Black] 
+    - [顯示單位]  ：選取 [百萬] 
 
-1. 將 [顯示單位]  設定為 [百萬]  ，並將 [值小數位數]  設定為 *0*。
+    ![Y 軸格式化後的圖表](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-y.png)
 
-1. 對於此視覺效果，具有 Y 軸標題並不會改善視覺效果，因此將 [標題]  保持為 [關閉]  。  
+### <a name="customize-the-y-axis-title"></a>自訂 Y 軸標題
+當 Y 軸標題為 [開啟]  時，Y 軸標題會顯示在 Y 軸標籤旁邊。 對於此視覺效果，具有 Y 軸標題並不會改善視覺效果，因此將 [標題]  保持為 [關閉]  。 我們會在本教學課程稍後，將 Y 軸標題新增至雙軸視覺效果。 
 
-1. 變更色彩並增加筆觸，讓格線更明顯：
+### <a name="customize-the-gridlines"></a>自訂格線
+變更色彩並增加筆觸，讓格線更明顯：
 
-    - **色彩**：選取 [暗灰色]
+- **色彩**：選取 [橙色]
 
-    - **筆觸**：輸入 *2*
+- **筆觸**：輸入 *2*
 
 在進行所有自訂之後，直條圖看起來應該類似這樣：
 
-![已自訂 Y 軸的圖表螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-complete.png)
+![已自訂 Y 軸的圖表螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-gridline.png)
 
 ## <a name="customizing-visualizations-with-dual-y-axes"></a>使用雙重 Y 軸自訂視覺效果
 
-首先您要建立組合圖，探討門市計數對銷售的影響。 這和[組合圖教學課程](power-bi-visualization-combo-chart.md)中所建立的是相同的圖表。 然後您將設定雙重 Y 軸格式。
+有些視覺效果使用兩個 Y 軸會更好。 組合圖就是極佳範例。 在格式化雙重 Y 軸之前，我們會建立組合圖來比較銷售額和毛利的趨勢。  
 
 ### <a name="create-a-chart-with-two-y-axes"></a>建立具有兩個 Y 軸的圖表
 
-1. 建立依 [時間] > [FiscalMonth]  追蹤 [銷售額] > [去年毛利率 %]  的新折線圖。
+1. 選取一個直條圖，將其變更為 [折線與堆疊直條圖]  。 
 
-    ![新折線圖的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
+    ![標示折線與堆疊直條圖圖示的 [視覺效果] 窗格螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo.png)
+   
 
-    > [!NOTE]
-    > 如需依月份排序的說明，請參閱[使用其他準則排序](../consumer/end-user-change-sort.md#other)。
+2. 從 [欄位] 窗格中，將 [銷售額]   >  [去年度毛利 %]  拖曳到 [折線圖值]  貯體。
 
-    一月時，毛利百分比為 35%，四月達到尖峰 45%，七月下滑，然後八月再度達到尖峰。 我們去年和今年會看到類似的銷售模式嗎？
+    ![折線與堆疊直條圖的螢幕擷取畫面，清楚地表示所有三個值。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-add-line.png)
 
-1. 將 [今年度銷售額 > 值]  和 [去年度銷售額]  新增至折線圖。
+    
+3. 重新格式化視覺效果以移除傾斜的 X 軸標籤。 
 
-    ![已新增資料的折線圖螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+   ![字型大小縮減為 12 的組合圖和格式窗格](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-font-size.png)
 
-    [去年毛利率 %]  的刻度 (沿著 **0M%** 格線的藍線) 遠小於 [銷售額]  的刻度，因此難以比較。 此外，Y 軸標籤百分比看起來很荒謬。
+   Power BI 會建立兩個 Y 軸，讓值可以採用不同的刻度。 左側的軸測量金額，右側的軸測量百分比。
 
-1. 若要使視覺效果更容易閱讀及解譯，請將折線圖轉換成折線與堆疊直條圖。
-
-   ![標示折線與堆疊直條圖圖示的 [視覺效果] 窗格螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
-
-1. 將 [去年毛利率 %]  從 [資料行值]  拖曳到 [行值]  。
-
-    ![折線與堆疊直條圖的螢幕擷取畫面，清楚地表示所有三個值。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes.png)
-
-    現在您在第一個區段建立了堆疊直條圖，並且在其上有重疊的折線圖。 選擇性地利用先前學到的內容來設定軸字型色彩和大小的格式。
-
-   ![自訂的折線與堆疊直條圖螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes-new.png)
-
-   Power BI 會建立兩個 Y 軸，允許資料集採用不同的刻度。 左側的軸測量金額，右側的軸測量百分比。
-
-### <a name="format-the-secondary-y-axis"></a>設定次要 Y 軸的格式
+### <a name="format-the-second-y-axis"></a>設定第二個 Y 軸的格式
+因為我們一開始使用只有一個格式化 Y 軸的視覺效果，Power BI 使用相同的設定來建立第二個 Y 軸。 但我們可以變更此設定。 
 
 1. 在 [視覺效果]  窗格中，選取滾筒刷圖示以顯示格式選項。
 
 1. 展開 Y 軸選項。
 
-1. 向下捲動，直到您找到 [顯示次要]  選項。 確認它是 [開啟]  。
+1. 向下捲動，直到您找到 [顯示次要]  選項。 確認它是 [開啟]  。 我們的第二個 Y 軸代表折線圖。
 
-   ![[顯示次要] 選項的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/combo3.png)
+   ![[顯示次要] 選項的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-show-secondary.png)
 
-1. (選擇性) 自訂兩個軸。 如果您切換欄軸或行軸的 [位置]  ，這兩個軸就會換邊。
+1. (選擇性) 自訂兩個軸的字型色彩、大小、顯示單位。 如果您切換欄軸或行軸的 [位置]  ，這兩個軸就會換邊。
 
 ### <a name="add-titles-to-both-axes"></a>將標題加入兩軸
 
-因為這個視覺效果如此複雜，最好先新增軸標題。  標題可幫助您的同事了解視覺效果的內容。
+因為這個視覺效果如此複雜，加入軸標題比較好。  標題可幫助您的同事了解視覺效果的內容。
 
 1. 將 **Y 軸 (欄)** 及 **Y 軸 (行)** 的 [標題]  切換為 [開啟]  。
 
 1. 將兩者的 [樣式]  都設定為 [僅顯示標題]  。
 
-   ![[標題] 和 [樣式] 選項的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)
+   ![[標題] 和 [樣式] 選項的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-show-title.png)
 
 1. 組合圖現在會顯示雙座標軸及其標題。
 
-   ![自訂的雙重 Y 軸圖表螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo-chart.png)
+   ![自訂的雙重 Y 軸圖表螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-titles-on.png)
 
-如需詳細資訊，請參閱[在 Power BI 中色彩格式設定的秘訣和訣竅](service-tips-and-tricks-for-color-formatting.md)。
+1. 格式化標題。 在此範例中，我們將其中一個標題縮短，並減小兩個標題的字型大小。 
+    - 字型大小：**9**
+    - 縮短第一個 Y 軸 (直條圖) 的 [軸標題]  ：去年與今年的銷售額
 
-## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
+    ![完整標題的組合圖螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
 
-如果報表擁有者將 X 軸分類為資料類型，[類型]  選項就會顯示，以供您在連續或類別目錄之間選取。
+
+
+如需詳細資訊，請參閱[在 Power BI 中色彩格式設定的秘訣和訣竅](service-tips-and-tricks-for-color-formatting.md)和[自訂視覺效果的標題、圖例及背景](power-bi-visualization-customize-title-background-and-legend.md)。 並尋找即將推出之格式標題的新更新。 
 
 ## <a name="next-steps"></a>後續步驟
 
 - [Power BI 報表的視覺效果](power-bi-report-visualizations.md)
 
-- [自訂視覺效果標題、圖例及背景](power-bi-visualization-customize-title-background-and-legend.md)
-
-- [開始使用色彩格式和軸屬性](service-getting-started-with-color-formatting-and-axis-properties.md)
-
-- [Power BI 服務取用者的基本概念](../consumer/end-user-basic-concepts.md)
-
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

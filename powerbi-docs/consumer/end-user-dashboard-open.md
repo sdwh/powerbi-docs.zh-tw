@@ -2,7 +2,6 @@
 title: 檢視 Power BI 儀表板
 description: 儀表板是 Power BI 服務的重要功能，了解如何開啟及檢視儀表板。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 629db8e4706bfb42f3f1b3ad65b8a57577d7ee21
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: f250d380fc8938f7b5d7723b5b8becb65f27d79d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716374"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852613"
 ---
 # <a name="view-a-dashboard"></a>檢視儀表板
 
@@ -39,7 +38,7 @@ Power BI「取用者」  花費大量時間檢視儀表板。 儀表板的目的
 
 
 
-您可在左側瀏覽列的所有容器中看到儀表板。 
+您可在導覽窗格的所有容器中看到儀表板。 
 
 ![儀表板圖示](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 

@@ -2,7 +2,6 @@
 title: 使用 Power BI 連接到 Office365Mon
 description: Office365Mon for Power BI
 author: teddybercovitz
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 8/29/2019
 ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5d31eccd52164bb4d1ff37532d89dc7e147693d3
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 64e8365a6d4e0c01911de9e69998af4d58d59202
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060839"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854732"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>使用 Power BI 連接到 Office365Mon
 使用 Power BI 與 Office365Mon 範本應用程式，輕鬆分析您 Office 365 的中斷問題與健康狀態效能資料。 Power BI 會擷取您的資料 (包括中斷與健康狀況探查)，然後根據該資料建置現成的儀表板與報表。
@@ -26,7 +25,7 @@ ms.locfileid: "73060839"
 >Office365Mon 系統管理帳戶是連接及載入 Power BI 範本應用程式的必備項目。
 
 ## <a name="how-to-connect"></a>如何連接
-1. 選取左側瀏覽窗格底部的 [取得資料]  。
+1. 選取導覽窗格底端的 [取得資料]  。
    
    ![](media/service-connect-to-office365mon/pbi_getdata.png)
 2. 在 [服務]  方塊中，選取 [取得]  。
@@ -42,7 +41,7 @@ ms.locfileid: "73060839"
    ![](media/service-connect-to-office365mon/creds.png)
    
    ![](media/service-connect-to-office365mon/creds2.png)
-5. Power BI 匯入資料之後，您會在左側瀏覽窗格中看到新的儀表板、報表和資料集。 新的項目會以黃色星號 \* 標示，選取 Office365Mon 項目。
+5. Power BI 匯入資料之後，您會在導覽窗格中看到新的儀表板、報表和資料集。 新的項目會以黃色星號 \* 標示，選取 Office365Mon 項目。
    
    ![](media/service-connect-to-office365mon/dashboard4.png)
 

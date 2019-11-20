@@ -2,7 +2,6 @@
 title: 從 Power BI 將報表匯出至 PowerPoint
 description: 了解如何將 Power BI 報表匯出至 PowerPoint。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3215dfab54d1537ec5f7ca32ee4bd39b9ef997e5
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 840f2462ea9fc6b2d748b3803445c5ee4b155bdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72717012"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862902"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>從 Power BI 將報表匯出至 PowerPoint
 
@@ -31,7 +30,7 @@ ms.locfileid: "72717012"
 將 **Power BI 報表**匯出到 **PowerPoint** 的程序非常簡單快速。 請遵循下一節中概述的步驟。
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>將 Power BI 報表匯出至 PowerPoint
-在 Power BI 服務中，選取要顯示在畫布上的報表。 您也可以從左側瀏覽窗格上的 [首頁]  、[應用程式]  或其他任何容器中選取報表。
+在 Power BI 服務中，選取要顯示在畫布上的報表。 您也可以從導覽窗格的 [首頁]  、[應用程式]  或其他任何容器中選取報表。
 
 當畫布上顯示您要匯出至 PowerPoint 的報表時，請從功能表列選取 [匯出]   > [PowerPoint]  。
 
@@ -60,7 +59,7 @@ ms.locfileid: "72717012"
 
 1. 投影片組的第一頁包含報表名稱及連結，讓您能夠**在 Power BI 中檢視**作為投影片組基礎的報表。
 2. 您也可以取得有關報表的一些實用資訊。 [上次資料重新整理]  會顯示匯出報表所依據的日期和時間。 [下載於]  則顯示將 Power BI 報表匯出至 PowerPoint 檔案時的日期和時間。
-3. 每張報表頁面都是一張個別的投影片，如左導覽窗格中所示。 
+3. 每張報表頁面都是一張個別的投影片，如導覽窗格中所示。 
 4. 已發行的報表會根據您 Power BI 設定中的語言來進行轉譯，否則會根據您的瀏覽器地區設定來進行轉譯。 若要查看或設定語言喜好設定，請選取齒輪圖示 ![齒輪圖示](media/end-user-powerpoint/power-bi-settings-icon.png) > [設定]   > [一般]   > [語言]  。 如需地區設定的資訊，請參閱 [Power BI 支援的語言與國家或地區](../supported-languages-countries-regions.md)。
 5. PowerPoint 簡報包含了一張封面投影片，其中有正確時區的匯出時間。
 

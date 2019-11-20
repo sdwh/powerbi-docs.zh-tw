@@ -3,18 +3,17 @@ title: 安裝 Power BI 報表伺服器
 description: 了解如何安裝 Power BI 報表伺服器。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839442"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874149"
 ---
 # <a name="install-power-bi-report-server"></a>安裝 Power BI 報表伺服器
 
@@ -46,7 +45,7 @@ ms.locfileid: "66839442"
 
 如果您已購買 Power BI Premium，則在 Power BI 管理入口網站的 [進階設定]  索引標籤內，您可存取 Power BI 報表伺服器產品金鑰。 這只適用於全域系統管理員，或已獲指派 Power BI 服務系統管理員角色的使用者。
 
-![Premium 設定](../report-server/media/install-report-server/pbirs-product-key.png "Premium 設定內的 Power BI 報表伺服器金鑰")
+![Premium 設定](../report-server/media/install-report-server/pbirs-product-key.png "[Premium 設定] 內的 Power BI 報表伺服器金鑰")
 
 選取 [Power BI 報表伺服器金鑰]  會顯示一個包含產品金鑰的對話方塊。 您可以複製金鑰，並在安裝時使用。
 
@@ -127,14 +126,14 @@ URL 保留項目是由前置詞、主機名稱、連接埠及虛擬目錄所組�
 | 組件 | 描述 |
 | --- | --- |
 | 前置詞 |預設的前置詞是 HTTP。 如果之前安裝的是安全通訊端層 (SSL) 憑證，安裝程式會嘗試建立使用 HTTPS 前置詞的 URL 保留項目。 |
-| 主機名稱 |預設的主機名稱是強式萬用字元 (+)。 它會指定報表伺服器接受解析為電腦的任何主機名稱的指定連接埠上的任何 HTTP 要求，包括 `http://<computername>/reportserver`、`http://localhost/reportserver` 或 `http://<IPAddress>/reportserver.`。 |
+| 主機名稱 |預設的主機名稱是強式萬用字元 (+)。 它會指定報表伺服器接受解析為電腦的任何主機名稱的指定連接埠上的任何 HTTP 要求，包括 `https://<computername>/reportserver`、`https://localhost/reportserver` 或 `https://<IPAddress>/reportserver.`。 |
 | 連接埠 |預設連接埠為 80。 如果使用連接埠 80 以外的任何連接埠，您必須在瀏覽器視窗中開啟入口網站時，明確將它新增至 URL。 |
 | 虛擬目錄 |根據預設，虛擬目錄是以報表伺服器 Web 服務和入口網站報告的 ReportServer 格式建立。 報表伺服器 Web 服務的預設虛擬目錄是 **reportserver**。 入口網站的預設虛擬目錄是 **reports**。 |
 
 完整的 URL 字串範例可能如下︰
 
-* `http://+:80/reportserver` 可以存取報表伺服器。
-* `http://+:80/reports` 可以存取入口網站。
+* `https://+:80/reportserver` 可以存取報表伺服器。
+* `https://+:80/reports` 可以存取入口網站。
 
 ## <a name="firewall"></a>防火牆
 
@@ -153,7 +152,7 @@ URL 保留項目是由前置詞、主機名稱、連接埠及虛擬目錄所組�
 [系統管理員概觀](admin-handbook-overview.md)  
 [如何找到您的報表伺服器產品金鑰](find-product-key.md)  
 [安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)  
-[確認安裝 Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
+[驗證安裝 Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 [設定報表伺服器服務帳戶](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
 [設定報表伺服器 URL](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
 [設定報表伺服器資料庫連接](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  

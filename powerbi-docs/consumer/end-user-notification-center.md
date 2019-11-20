@@ -2,21 +2,20 @@
 title: 檢視通知中心的訊息
 description: 通知中心是按時間排列的 Power BI 體驗相關資訊摘要。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/24/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e0ec01eb4d4ee8134a165d438f29baa4aee22841
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: c4feda0e502a9363900901ebe76005219587167b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716945"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863015"
 ---
 # <a name="view-power-bi-notifications"></a>檢視 Power BI 通知
 
@@ -31,7 +30,7 @@ ms.locfileid: "72716945"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZMSv5KAlcE" frameborder="0" allowfullscreen></iframe>
 
-
+## <a name="view-your-notifications"></a>檢視您的通知
 1. 當您登入 Power BI 時，所有在您離線時傳來的通知都會加入摘要中。 如果您有新通知，Power BI 會顯示有新項目數目的黃色泡泡。
    
    ![新通知圖示](./media/end-user-notification-center/power-bi-new-notification.png)
@@ -43,9 +42,9 @@ ms.locfileid: "72716945"
    ![通知中心](./media/end-user-notification-center/power-bi-notification-center.png)
 4. 若要關閉通知，請選取 X 圖示。
 
-### <a name="next-steps"></a>後續步驟
+## <a name="next-steps"></a>後續步驟
 * [Power BI 服務中的資料警示](end-user-alerts.md)
 * [在 iPhone App (Power BI for iOS) 中設定資料警示](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [在 Power BI for Windows 10 行動裝置 App 中設定資料警示](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

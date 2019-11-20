@@ -3,18 +3,17 @@ title: 將資料推送至資料集
 description: 將資料推送至 Power BI 資料集
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5db16bfdc1013668be5103f392d6f298c8faf925
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222146"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875460"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>將資料推送至 Power BI 資料集
 
@@ -43,7 +42,7 @@ Power BI API 可讓您將資料推送到 Power BI 資料集。 在此文章中�
 * [Post Rows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
 * [取得群組](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
-您可以將 JavaScript 物件標記法 (JSON) 字串傳遞至 Power BI 服務，在 Power BI 中建立資料集。 若要深入了解 JSON，請參閱 [JSON 簡介](http://json.org/)。
+您可以將 JavaScript 物件標記法 (JSON) 字串傳遞至 Power BI 服務，在 Power BI 中建立資料集。 若要深入了解 JSON，請參閱 [JSON 簡介](https://json.org/)。
 
 資料集的 JSON 字串具有下列格式：
 
@@ -112,13 +111,13 @@ Power BI API 可讓您將資料推送到 Power BI 資料集。 在此文章中�
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>深入了解如何將資料推送至 Power BI
 
-若要開始將資料推送至資料集，請參閱左側導覽窗格中的[步驟 1：使用 Azure AD 註冊應用程式](walkthrough-push-data-register-app-with-azure-ad.md)。
+若要開始將資料推送至資料集，請參閱左側導覽窗格中的[步驟 1：在導覽窗格中，使用 Azure AD 註冊應用程式](walkthrough-push-data-register-app-with-azure-ad.md)。
 
 [下一步 >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>後續步驟
 
 [註冊 Power BI](create-an-azure-active-directory-tenant.md)  
-[JSON 簡介](http://json.org/)  
+[JSON 簡介](https://json.org/)  
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

@@ -2,19 +2,18 @@
 title: 使用 Power BI 發佈應用程式
 description: 了解如何發佈新的應用程式，亦即儀表板與內建瀏覽功能的報表集合。
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020235"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853630"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
@@ -115,7 +114,7 @@ ms.locfileid: "72020235"
 * 重新命名 [報告詳細資料]  、[儀表板詳細資料]  和 [活頁簿詳細資料]  中的項目。
 * 隱藏瀏覽中的特定項目。
 * 使用 [新增]  選項將**各節**新增至群組相關內容。
-* 使用 [新增]  選項將**連結**新增至左側瀏覽的外部資源。 
+* 使用 [新增]  選項將「連結」  新增至導覽窗格的外部資源。 
 
 當您新增**連結**時，您可在 [連結詳細資料]  中選擇在何處開啟該連結。 根據預設，連結會在 [目前索引標籤]  中開啟，但您可以選取 [新索引標籤]  或 [內容區域]  。 
 
@@ -187,7 +186,7 @@ ms.locfileid: "72020235"
 
 ## <a name="view-your-published-app"></a>檢視已發佈的應用程式
 
-當您的應用程式取用者開啟應用程式時，他們會看到您建立的瀏覽，而不是標準的 Power BI 左側瀏覽窗格。 應用程式瀏覽會列出已定義區段中的報表和儀表板。 它也會列出每份報表的個別頁面，而不僅是報表名稱。
+當您的應用程式取用者開啟應用程式時，他們會看到您建立的導覽窗格，而不是標準的 Power BI 導覽窗格。 應用程式瀏覽會列出已定義區段中的報表和儀表板。 它也會列出每份報表的個別頁面，而不僅是報表名稱。
 
 ![具有瀏覽的應用程式](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
@@ -203,4 +202,4 @@ ms.locfileid: "72020235"
 * [在 Power BI 中安裝和使用應用程式](consumer/end-user-apps.md)
 * [外部服務的 Power BI 應用程式](service-connect-to-services.md)
 * [Power BI 管理入口網站](https://docs.microsoft.com/power-bi/service-admin-portal)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

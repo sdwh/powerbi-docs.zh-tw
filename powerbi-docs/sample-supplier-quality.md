@@ -2,7 +2,6 @@
 title: Power BI 的供應商品質分析範例：觀看導覽
 description: Power BI 的供應商品質分析範例：觀看導覽
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621325"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858416"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的供應商品質分析範例：觀看導覽
 
@@ -59,11 +58,11 @@ ms.locfileid: "69621325"
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>取得此範例的 .pbix 檔案
 
-或者，您可以將供應商品質分析範例下載為 [.pbix 檔案](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)，其設計目的是要用於 Power BI Desktop。
+或者，您可以將供應商品質分析範例下載為 [.pbix 檔案](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)，其設計目的是要用於 Power BI Desktop。
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529779) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529779) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
 
 ## <a name="downtime-caused-by-defective-materials"></a>用料瑕疵所造成的停工時間
 讓我們來分析用料瑕疵所造成的停工時間並查看應由哪些廠商負責。  
@@ -94,7 +93,7 @@ ms.locfileid: "69621325"
     ![依廠商的停工時間 (分鐘) 矩形式樹狀結構圖](media/sample-supplier-quality/supplier5.png)  
 
    從此矩形式樹狀結構圖中，我們可以看到前八個廠商是矩形式樹狀結構圖左側的八個區塊。 我們也可以發現它們應為約 50% 的停工時間總分鐘數承擔責任。  
-3. 選取頂端導覽列的 [供應商品質分析範例]  並返回儀表板。
+3. 選取頂端導覽窗格的 [供應商品質分析範例]  ，以返回儀表板。
 
 ### <a name="comparing-plants"></a>比較工廠
 現在讓我們來探索哪些工廠有妥善管理瑕疵用料，以確保較短的停工時間。  
@@ -113,7 +112,7 @@ ms.locfileid: "69621325"
 3. 在泡泡圖中選取 [物流]  泡泡，並觀察伊利諾州春田市和內珀維爾市的工廠。 內珀維爾市似乎在管理瑕疵供貨方面做得更好，因為它的退貨量較高，影響量也較小，而春田市的影響量就較大。  
 
    ![選取 [物流]](media/sample-supplier-quality/supplier8.png)  
-4. 選取頂端導覽列的 [供應商品質分析範例]  並返回儀表板。
+4. 選取頂端導覽窗格的 [供應商品質分析範例]  ，以返回儀表板。
 
 ## <a name="which-material-type-is-best-managed"></a>哪種類型的用料管理最佳？
 管理最佳的用料類型是指不論瑕疵品數量為何，皆具有最低的停工時間或不造成任何影響的類型。
@@ -138,7 +137,7 @@ ms.locfileid: "69621325"
 
     ![[依月份和年度的瑕疵品總數] 圖表](media/sample-supplier-quality/supplier11.png)  
 3. 瑕疵品多代表停工時間一定也更多嗎？ 在問與答方塊提問以找出答案。  
-4. 選取頂端導覽列的 [供應商品質分析範例]  並返回儀表板。  
+4. 選取頂端導覽窗格的 [供應商品質分析範例]  ，以返回儀表板。  
 5. 由於我們知道原料具有最高數量的瑕疵品，可在問題方塊中鍵入：*show material types, year, and total defect qty* (顯示物料類型、年度和瑕疵品總數)。  
 
     2014 年的原料瑕疵品數量比 2013 年高很多。  

@@ -2,7 +2,6 @@
 title: 從報表建立 Power BI 儀表板
 description: 從報表建立 Power BI 儀表板
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543506"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853421"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>從報表建立 Power BI 儀表板
 您已閱讀 [Power BI 的儀表板簡介](service-dashboards.md)，現在想要建立自己的儀表板。 建立儀表板的方式有很多種。 例如，您可以建立儀表板：從報表、從頭建立、從資料集、或複製現有的儀表板。  
@@ -44,11 +43,11 @@ ms.locfileid: "72543506"
 ## <a name="import-a-dataset-with-a-report"></a>匯入資料集與報表
 在此逐步解說中，我們會匯入其中一個 Power BI 範例資料集，並用它建立新的儀表板。 我們使用的範例是具有兩份 PowerView 工作表的 Excel 活頁簿。 當 Power BI 匯入活頁簿時，會將資料集以及報表新增至您的工作區。 從 PowerView 工作表自動建立報表。
 
-1. 下載 [[採購分析] 範例](http://go.microsoft.com/fwlink/?LinkId=529784)Excel 檔案。 建議您將它儲存在您的商務用 OneDrive 中。
+1. 下載 [[採購分析] 範例](https://go.microsoft.com/fwlink/?LinkId=529784)Excel 檔案。 建議您將它儲存在您的商務用 OneDrive 中。
 2. 在瀏覽器中開啟 Power BI 服務 (app.powerbi.com)。
-3. 從左邊的 [瀏覽] 窗格中，選取 [我的工作區]  然後選取 [取得資料]  。
+3. 從導覽窗格中，選取 [我的工作區]  ，然後選取 [取得資料]  。
 
-    ![左側瀏覽窗格](media/service-dashboard-create/power-bi-get-data-new-look.png)
+    ![導覽窗格](media/service-dashboard-create/power-bi-get-data-new-look.png)
 5. 在 [檔案]  下選取 [取得]  。
 
    ![取得檔案](media/service-dashboard-create/power-bi-select-files.png)
@@ -63,7 +62,7 @@ ms.locfileid: "72543506"
    ![成功訊息](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
-> 您知道嗎？ 您可以透過選取頂端具有三條線的圖示![瀏覽窗格顯示或隱藏圖示](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)來縮小左瀏覽列。 這樣可讓報表本身有更多空間可用。
+> 您知道嗎？ 您可以透過選取頂端具有三條線的圖示 ![導覽窗格顯示或隱藏圖示](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png) 來縮小導覽窗格。 這樣可讓報表本身有更多空間可用。
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>開啟報表並將磚釘選到您的儀表板上
 1. 在相同的工作區中，選取 [報表]  索引標籤，然後選取 [採購分析範例]  以開啟報表。
@@ -118,4 +117,4 @@ ms.locfileid: "72543506"
 * [Power BI - 基本概念](service-basic-concepts.md)
 * [設計絕佳儀表板的秘訣](service-dashboards-design-tips.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)。

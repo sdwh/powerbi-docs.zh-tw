@@ -2,7 +2,6 @@
 title: 採購分析範例：觀看導覽
 description: 適用於 Power BI 的採購分析範例：觀看導覽
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 9e27d09414167f9625e046204c14a5fb57112cd9
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462284"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873869"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的採購分析範例：觀看導覽
 
@@ -58,11 +57,11 @@ ms.locfileid: "68462284"
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>取得此範例的 .pbix 檔案
 
-或者，您可以將採購分析範例範例下載為 [.pbix 檔案](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)，其設計目的是要用於 Power BI Desktop。 
+或者，您可以將採購分析範例範例下載為 [.pbix 檔案](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)，其設計目的是要用於 Power BI Desktop。 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529784) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529784) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
 
 
 ## <a name="spending-trends"></a>支出趨勢
@@ -99,7 +98,7 @@ ms.locfileid: "68462284"
       ![墨西哥的 [間接商品與服務] 向下切入](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. 選取圖表左上角的向上箭號，以重新向上鑽研。
 4. 再選取向下切入箭號，即可關閉向下鑽研。  
-5. 在頂端導覽列，選取 [採購分析範例]  以返回儀表板。
+5. 在頂端導覽窗格，選取 [採購分析範例]  ，以返回儀表板。
 
 ## <a name="evaluate-different-cities"></a>評估不同的城市
 我們可以使用反白顯示來評估不同的城市。

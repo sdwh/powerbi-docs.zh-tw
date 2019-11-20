@@ -2,21 +2,20 @@
 title: 地圖秘訣和訣竅 (包括 Bing 地圖服務整合)
 description: 'Power BI 地圖服務視覺效果、位置、經度和緯度，以及如何與 Bing 地圖服務整合運作的秘訣和訣竅。 '
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: dd35f06a685d1fd4620ef6a2ee3dc7f90e702a6a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61411694"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881028"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 視覺效果的秘訣和訣竅
 Power BI 與 Bing 地圖服務整合以提供預設地圖座標 (這個程序稱為地理編碼)，以便您建立地圖。 這兩者使用演算法來識別正確位置，但有時會猜測最接近的位置。 如果 Power BI 嘗試但無法自行建立地圖視覺效果，則會請求 Bing 地圖服務的協助。 
@@ -26,12 +25,13 @@ Power BI 與 Bing 地圖服務整合以提供預設地圖座標 (這個程序稱
 * https://platform.bing.com/geo/spatial/v1/public/Geodata
 * https://www.bing.com/api/maps/mapcontrol
 
-若要提高正確地理編碼的可能性，請使用下列祕訣。 第一組祕訣是讓您在可以存取資料集本身時使用。 第二組祕訣則是您在無法存取資料集時，可以在 Power BI 中執行的作業。 最後一組是 URL 的清單
+若要提高正確地理編碼的可能性，請使用下列祕訣。 第一組祕訣是讓您在可以存取資料集本身時使用。 第二組祕訣則是您在無法存取資料集時，可以在 Power BI 中執行的作業。 
 
 ## <a name="what-is-sent-to-bing-maps"></a>傳送至 Bing 地圖服務的項目
 Power BI 服務和 Power BI Desktop 會將 Bing 建立地圖視覺效果所需的地理資料傳送至 Bing。 這可能包括 [位置]  、[緯度]  和 [經度]  貯體中的資料，以及 [報告層級]  、[頁面層級]  或 [視覺效果層級]  的任何篩選貯體中的地理欄位。 傳送的確切資料依地圖類型而異。 若要深入了解，請參閱 [Bing 地圖服務隱私權](https://go.microsoft.com/fwlink/?LinkID=248686)。
 
-* 以地圖來說 (泡泡地圖)，如果提供緯度和經度，則不會將資料傳送至 Bing。 否則，[位置]  (及 [篩選]) 貯體中的任何資料都會傳送至 Bing。     
+* 以地圖來說 (泡泡圖、散佈圖、點繪圖)，如果提供緯度和經度，則不會將資料傳送至 Bing。 否則，[位置]  (及 [篩選]) 貯體中的任何資料都會傳送至 Bing。     
+
 * 區域分布圖需要 [位置]  貯體中的欄位，即使提供緯度和經度亦然。 [位置]  、[緯度]  或 [經度]  貯體中的資料都會傳送至 Bing。
   
     在下列範例中，[廠商]  欄位用於地理編碼，因此會將所有廠商資料傳送至 Bing。 [大小]  和 [色彩飽和度]  貯體中的資料不會傳送至 Bing。
@@ -47,7 +47,7 @@ Power BI 服務和 Power BI Desktop 會將 Bing 建立地圖視覺效果所需�
 
 **1.在 Power BI Desktop 中分類地理位置欄位**
 
-在 Power BI Desktop 中，您可以設定資料欄位的 [資料類別]  ，以確保欄位的地理編碼正確。 選取需要的資料表，前往 [進階]  功能區，然後將 [資料類別]  設定為**地址**、**城市**、**洲**、**國家/地區**、**郡**、**郵遞區號**、**縣**或**市**。 這些資料類別可以協助 Bing 將該日期正確編碼。 若要深入了解，請參閱 [Power BI Desktop 中的資料分類](../desktop-data-categorization.md)。 若您即時連線到 SQL Server Analysis Services，您必須使用 [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) 於 Power BI 外部設定資料分類。
+在 Power BI Desktop 中，您可以設定資料欄位的 [資料類別]  ，以確保欄位的地理編碼正確。 在 [資料] 檢視中，選取所需的資料行。 從功能區中選取 [建立模型]  索引標籤，然後將 [資料類別]  設定為**地址**、**城市**、**洲**、**國家/地區**、**郡**、**郵遞區號**、**縣**或**市**。 這些資料類別可以協助 Bing 將該日期正確編碼。 若要深入了解，請參閱 [Power BI Desktop 中的資料分類](../desktop-data-categorization.md)。 若您即時連線到 SQL Server Analysis Services，您必須使用 [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) 於 Power BI 外部設定資料分類。
 
 **2.使用多個位置資料行。**     
  有時候，即使設定了地圖的資料分類，也不夠讓 Bing 正確猜出您的意圖。 某些指定由於位置存在於多個國家或地區而模稜兩可。 例如，英國、賓夕法尼亞州和紐約州都有「南安普敦」。
@@ -56,7 +56,7 @@ Power BI 會使用 Bing 的[非結構化 URL 範本服務](https://msdn.microsof
 
  例如：如果您只有 [鄉/鎮/市/區] 資料行，Bing 可能很難進行地理編碼。 新增其他地理資料行，讓位置更明確。  有時只需要再將一個位置資料行新增至資料集，在本例中為州/省。 此外，別忘了將它正確分類，如上面第一項所述。
 
-請確認每個欄位都只有與該分類相符的特定資訊。  例如：您的 [鄉/鎮/市/區] 位置欄位內容應該要是**南安普敦**，而非**南安普敦，紐約**。  地址位置欄位的內容應該要是 **1 Microsoft Way**，而非 **1 Microsoft Way，雷德蒙德，WA**。
+請確定每個欄位只有一個位置分類。 例如：您的 [鄉/鎮/市/區] 位置欄位內容應該要是**南安普敦**，而非**南安普敦，紐約**。  地址位置欄位的內容應該要是 **1 Microsoft Way**，而非 **1 Microsoft Way，雷德蒙德，WA**。
 
 **3.使用特定經度和緯度**
 
@@ -84,8 +84,8 @@ Power BI 會使用 Bing 的[非結構化 URL 範本服務](https://msdn.microsof
 
 當您在切入地理階層架構時，請務必了解每個切入按鈕的運作方式為何，以及您將會傳送什麼資料給 Bing 地圖服務。 
 
-* 最右邊的切入按鈕稱為「切入模式」![](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png)，可讓您選取一個地圖位置，並在該特定位置一次向下切入一個層級。 例如：若您開啟 [向下切入]，然後按一下北美洲，您將會在階層中移動至下一個層級：北美洲的州/省。 針對地理編碼，Power BI 僅會將北美洲的國家/地區及各州/省的資料傳送給 Bing 地圖服務。  
-* 左邊則有另外兩個切入選項。 第一個選項，![](media/power-bi-map-tips-and-tricks/power-bi-drill-down2.png)，會於所有位置一次切入至階層中的下一個層級。 例如：若您目前正在查看國家/地區，然後使用此選項移至下一個層級，Power BI 將會顯示所有國家/地區的州/省資料。 針對地理編碼，Power BI 會將所有位置的州/省資料傳送給 Bing 地圖服務 (不包含國家/地區資料)。 當您階層中的每個層級與上一層都無關時，這個選項將會非常有用。 
+* 最右邊的切入按鈕稱為「切入模式」 ![切入模式圖示](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) ，可讓您選取一個地圖位置，並在該特定位置一次向下切入一個層級。 例如：若您開啟 [向下切入]，然後按一下北美洲，您將會在階層中移動至下一個層級：北美洲的州/省。 針對地理編碼，Power BI 僅會將北美洲的國家/地區及各州/省的資料傳送給 Bing 地圖服務。  
+* 左邊則有另外兩個切入選項。 第一個選項， ![第一個切入圖示](media/power-bi-map-tips-and-tricks/power-bi-drill-down2.png) ，會於所有位置一次切入至階層中的下一個層級。 例如：若您目前正在查看國家/地區，然後使用此選項移至下一個層級，Power BI 將會顯示所有國家/地區的州/省資料。 針對地理編碼，Power BI 會將所有位置的州/省資料傳送給 Bing 地圖服務 (不包含國家/地區資料)。 當您階層中的每個層級與上一層都無關時，這個選項將會非常有用。 
 * 第二個選項， ![向下鑽研地圖](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) ，與 [向下切入] 類似，不同之處在於您並不需要在地圖上按一下。  它會展開階層中的下一個層級，並記住目前層級的內容。 例如：若您目前正在查看國家/地區，並選取此圖示，您將會移至階層中的下一個層級：州/省。 針對地理編碼，Power BI 會將每個州/省的資料及其對應的國家/地區資料傳送給 Bing 地圖服務，以協助其更準確的進行地理編碼。 在大多數的地圖中，您通常會使用這個選項或最右邊的 [向下切入] 選項，盡量將最多的資料傳送給 Bing，以取得準確的位置資訊。 
 
 ## <a name="next-steps"></a>後續步驟
@@ -93,5 +93,5 @@ Power BI 會使用 Bing 的[非結構化 URL 範本服務](https://msdn.microsof
 
 [Power BI 視覺效果](power-bi-report-visualizations.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

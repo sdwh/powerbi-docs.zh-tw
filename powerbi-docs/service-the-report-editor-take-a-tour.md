@@ -2,7 +2,6 @@
 title: 報表編輯器導覽
 description: 在 Power BI Desktop 和 Power BI 服務中，您可以在報表編輯器內設計終端使用者所看到的報表。 這兩個環境中的報表編輯器很類似。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c3a5454032a4138ce3d93c490fa6b3d5a7fecec5
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023722"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871349"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的報表編輯器導覽
 
@@ -34,14 +33,14 @@ ms.locfileid: "69023722"
 
 Power BI 報表編輯器分成數個主要區段：  
 
-1. 上方導覽列
+1. 頂端導覽窗格
 1. 報表畫布
 1. [篩選] 窗格
 1. [視覺效果] 窗格
 1. 欄位窗格
 
-## <a name="1-the-top-navigation-bar"></a>1.上方導覽列
-上方導覽列提供許多動作，且不斷新增新的動作。 如需特定動作的資訊，請使用 Power BI 文件目錄或搜尋方塊。
+## <a name="1-the-top-nav-pane"></a>1.頂端導覽窗格
+頂端導覽窗格提供許多動作，且不斷新增新的動作。 如需特定動作的資訊，請使用 Power BI 文件目錄或搜尋方塊。
 
 
 ## <a name="2-the-report-canvas"></a>2.報表畫布
@@ -156,5 +155,5 @@ Power BI 會使用一些不同圖示來表示報表中的欄位類型。 當您�
 
 [Power BI 設計工具的基本概念](service-basic-concepts.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

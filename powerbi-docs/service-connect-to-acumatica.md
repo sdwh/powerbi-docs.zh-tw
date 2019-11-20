@@ -2,7 +2,6 @@
 title: 使用 Power BI 連接到 Acumatica
 description: Acumatica for Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d2ee7a338f34e4c29fdbefae6518bede9e94badb
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 09e55aef3a1167143694c8e26a342cb1b8f0875c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186155"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873212"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>使用 Power BI 連接到 Acumatica
 Power BI Acumatica 內容套件可讓您快速深入了解機會資料。 Power BI 會擷取您的資料 (包含機會、帳戶和客戶)，然後根據該資料建置預設的儀表板和相關報表。
@@ -28,7 +27,7 @@ Power BI Acumatica 內容套件可讓您快速深入了解機會資料。 Power 
 >這個內容套件需要 Acumatica v5.2 或更新版本。
 
 ## <a name="how-to-connect"></a>如何連接
-1. 選取左側瀏覽窗格底部的 [取得資料]  。
+1. 選取導覽窗格底端的 [取得資料]  。
    
    ![](media/service-connect-to-acumatica/getdata3.png)
 2. 在 [服務]  方塊中，選取 [取得]  。
@@ -47,7 +46,7 @@ Power BI Acumatica 內容套件可讓您快速深入了解機會資料。 Power 
 5. 在驗證方法選取 [基本]  。 從您的 Acumatica 帳戶輸入使用者名稱和密碼，然後按一下 [登入]  。
    
     ![](media/service-connect-to-acumatica/creds2.png)
-6. Power BI 匯入資料之後，您會在左側瀏覽窗格中看到新的儀表板、報表和資料集。 新的項目會以黃色星號 \* 標示，只要經選取就會消失，而選擇儀表板會顯示類似下面的配置：
+6. Power BI 匯入資料之後，您會在導覽窗格中看到新的儀表板、報表和資料集。 新的項目會以黃色星號 \* 標示，只要經選取就會消失，而選擇儀表板會顯示類似下面的配置：
    
     ![](media/service-connect-to-acumatica/dashboard.png)
 

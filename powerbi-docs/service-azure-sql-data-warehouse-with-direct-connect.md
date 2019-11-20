@@ -6,17 +6,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aaeda4c2f7c50e41d9b149e33ba49f5eba76eba8
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 2e96b88963250d7ac11cf9690c63b431279d585a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060694"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873256"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>具有 DirectQuery 的 Azure SQL 資料倉儲
 
@@ -54,7 +53,7 @@ ms.locfileid: "73060694"
 
 SQL 資料倉儲也會列在 Power BI 的 [取得資料] 頁面上。 
 
-1. 選取左側瀏覽窗格底部的 [取得資料]  。  
+1. 選取導覽窗格底端的 [取得資料]  。  
 
     ![[取得資料] 按鈕](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
@@ -62,7 +61,7 @@ SQL 資料倉儲也會列在 Power BI 的 [取得資料] 頁面上。
 
     ![資料庫](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
 
-3. 選取 **SQL 資料倉儲**\> **連接**。
+3. 選取 **[SQL 資料倉儲]** \> **[連接]** 。
 
     ![具有直接連接的 Azure SQL 資料倉儲](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 
@@ -102,4 +101,4 @@ SQL 資料倉儲也會列在 Power BI 的 [取得資料] 頁面上。
 * [取得 Power BI 的資料](service-get-data.md)  
 * [Azure SQL 資料倉儲](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

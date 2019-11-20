@@ -2,7 +2,6 @@
 title: Power BI 報表的全新篩選體驗
 description: Power BI 中的篩選條件有新功能和新設計。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841289"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875155"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI 報表的全新篩選體驗
 
@@ -44,7 +43,7 @@ Power BI 中的篩選有新功能和新設計。 當您加入新的篩選體驗�
 ### <a name="turn-on-new-filters-for-an-existing-report-in-power-bi-desktop"></a>在 Power BI Desktop 中為現有報表開啟新的篩選
 
 1. 在 Power BI Desktop 中的現有報表中，選取 [檔案]   > [選項及設定]   > [選項] 
-2. 在左側導覽列中，選取 [目前檔案]  下的 [報表設定]  。
+2. 在導覽窗格的 [目前檔案]  底下，選取 [報表設定]  。
 3. 在 [篩選體驗]  下，選取 [啟用更新的篩選窗格，並在此報表的視覺效果標題中顯示篩選]  。
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>在服務中為現有報表開啟新的篩選
@@ -238,5 +237,5 @@ Power BI 中的篩選有新功能和新設計。 當您加入新的篩選體驗�
 - [報表的篩選和醒目提示](power-bi-reports-filters-and-highlighting.md)
 - [Power BI 中各種不同的篩選類型](power-bi-report-filter-types.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: 針對 Power BI 閘道進行疑難排解 (個人模式)
 description: 針對 Power BI 閘道進行疑難排解 (個人模式)
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 32413c8ae860f5c9e376f8be46290047f67231fc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543537"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873386"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>針對 Power BI 閘道進行疑難排解 (個人模式)
 
@@ -111,7 +110,7 @@ Power BI 目前針對使用 ACE OLEDB 提供者的資料來源不支援 Windows 
 ### <a name="refresh-history"></a>重新整理歷程記錄
 透過**重新整理歷程記錄**，您可以查看發生的錯誤並在您需要建立支援要求時尋找有用資料。 您可以檢視排程及隨選重新整理。 以下是取得**重新整理歷程記錄**的方法。
 
-1. 在 Power BI 功能窗格的 [資料集]  中選取資料集。 開啟功能表，然後選取 [排程重新整理]  。
+1. 在 Power BI 導覽窗格的 [資料集]  中，選取資料集。 開啟功能表，然後選取 [排程重新整理]  。
 
    ![選取 [排程重新整理]](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)
 1. 在 [設定...]  中，選取 [重新整理歷程記錄]  。 
@@ -128,7 +127,7 @@ Power BI 目前針對使用 ACE OLEDB 提供者的資料來源不支援 Windows 
 ![資料管理閘道及 PowerBIGateway 記錄](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Fiddler 追蹤
-[Fiddler](http://www.telerik.com/fiddler) 是 Telerik 提供的免費工具，可用來監視 HTTP 流量。 您可以從用戶端電腦看到與 Power BI 服務的通訊。 此通訊可能會顯示錯誤及其他相關資訊。
+[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 提供的免費工具，可用來監視 HTTP 流量。 您可以從用戶端電腦看到與 Power BI 服務的通訊。 此通訊可能會顯示錯誤及其他相關資訊。
 
 ![Fiddler 追蹤](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
@@ -154,5 +153,5 @@ Power BI 目前針對使用 ACE OLEDB 提供者的資料來源不支援 Windows 
 - [為磚錯誤進行疑難排解](refresh-troubleshooting-tile-errors.md)  
 - [為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md) 
  
-有其他問題嗎？ 請嘗試詢問 [Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ 請嘗試詢問 [Power BI 社群](https://community.powerbi.com/)。
 

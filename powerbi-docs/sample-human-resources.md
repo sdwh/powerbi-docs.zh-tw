@@ -2,7 +2,6 @@
 title: 人力資源範例：觀看導覽
 description: 適用於 Power BI 的人力資源範例：觀看導覽
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5670a8077b4de03f6eb866f6177f17cdec7d7f7
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462335"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858851"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的人力資源範例：觀看導覽
 
@@ -58,11 +57,11 @@ ms.locfileid: "68462335"
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>取得此範例的 .pbix 檔案
 
-或者，您可以將人力資源範例下載為 [.pbix](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix) 檔案，其設計目的是要與 Power BI Desktop 搭配使用。
+或者，您可以將人力資源範例下載為 [.pbix](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix) 檔案，其設計目的是要與 Power BI Desktop 搭配使用。
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529780) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529780) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
 
 ## <a name="new-hires"></a>新進員工
 首先，我們來探索新進員工。
@@ -87,7 +86,7 @@ ms.locfileid: "68462335"
 
 4. 選取圖表中不同的年齡群組和性別，以探索年齡、性別、地區和民族群組之間的關聯性。
 
-5. 從頂端導覽列選取 [人力資源範例]  ，返回儀表板。
+5. 從頂端導覽窗格選取 [人力資源範例]  ，以返回儀表板。
 
    ![返回儀表板](media/sample-human-resources/power-bi-breadcrumbs.png)
 
@@ -133,7 +132,7 @@ ms.locfileid: "68462335"
 
 8. 您也可以針對 [依性別的在職員工]  圓形圖遵循相同步驟，將它變更為離職員工，而不是在職員工。 查看依性別顯示的自願離職資料，看看是否能發現任何其他深入資訊。
 
-9. 從頂端導覽列選取 [人力資源範例]  ，返回儀表板。 您可以將所做的變更儲存至報表。
+9. 從頂端導覽窗格選取 [人力資源範例]  ，以返回儀表板。 您可以將所做的變更儲存至報表。
 
 ## <a name="bad-hires"></a>不當員工
 最後要探索的部分是不當員工。 不當員工定義為沒有在職超過 60 天以上的員工。 我們雇用速度很快，但是否有雇用良好的人才？
@@ -147,7 +146,7 @@ ms.locfileid: "68462335"
 
 3. 如果您查看 [依性別的不適任員工計數]  環圈圖，並在 [區域]  交叉分析篩選器中選取不同的區域，您會注意到東部區域是不適任員工女性多於男性的唯一區域。  
 
-4. 從項端導覽列選取儀表板名稱，以返回儀表板。
+4. 從頂端導覽窗格選取儀表板名稱，以返回儀表板。
 
 ## <a name="ask-a-question-in-the-dashboard-qa-box"></a>在儀表板問與答方塊中提問
 在 [[問與答問題方塊]](power-bi-tutorial-q-and-a.md) 儀表板中，您可以使用自然語言提出您的資料問題。 問與答辨識您輸入的文字，然後找出在哪個資料集裡可以找到解答。

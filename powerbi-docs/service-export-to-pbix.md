@@ -2,7 +2,6 @@
 title: 從 Power BI 服務將報表下載到 Power BI Desktop (預覽)
 description: 從 Power BI 服務將報表下載到 Power BI Desktop 檔案
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,15 +9,15 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715192"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881829"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>從 Power BI 服務將報表下載到 Power BI Desktop (預覽)
-在 Power BI Desktop 中，您可以將報表 *.pbix* 檔案) 從本機電腦發佈至 Power BI 服務。 Power BI 報表也可以移至另一個方向：您可以從 Power BI 服務將報表下載到 Power BI Desktop。 在任一情況下，Power BI 報表的副檔名都是 .pbix。
+在 Power BI Desktop 中，您可以將報表 ( *.pbix* 檔案) 從本機電腦發佈至 Power BI 服務。 Power BI 報表也可以移至另一個方向：您可以從 Power BI 服務將報表下載到 Power BI Desktop。 在任一情況下，Power BI 報表的副檔名都是 .pbix。
 
 有幾項需要注意的限制和考量，將在本文稍後討論。
 
@@ -32,7 +31,7 @@ ms.locfileid: "71715192"
 
 1. 在 Power BI 服務中，以[編輯檢視](https://docs.microsoft.com/power-bi/service-interact-with-a-report-in-editing-view)開啟您想要下載的報表。
 
-2. 從上方導覽列，選取 [檔案] > [下載報表]  。
+2. 從上方導窗格中，選取 [檔案] > [下載報表]  。
    
 3. 報表下載時，狀態橫幅會顯示進度。 當檔案已準備就緒時，系統會詢問您要在何處儲存 .pbix 檔案。 檔案的預設名稱與報表標題相符。
    
@@ -71,5 +70,5 @@ ms.locfileid: "71715192"
 
 * [開始使用 Power BI Desktop](desktop-getting-started.md)
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)。
 

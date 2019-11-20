@@ -2,7 +2,6 @@
 title: Power BI 封存工作區
 description: 管理 Office 365 租用戶之後的 Power BI 封存工作區
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 891ffffd885e2b5d59cba64e6e99ce7fe3cf811b
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 66bf203cad577df0c985fbd73bcab3c6d79f6a95
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175824"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873553"
 ---
 # <a name="power-bi-archived-workspace"></a>Power BI 封存工作區
 
@@ -24,7 +23,7 @@ ms.locfileid: "71175824"
 
 任何人都可以透過 Power BI 在幾分鐘內完成註冊並開始使用服務。  稍後，您組織的 IT 部門可能會選擇代替組織中的使用者接管 Power BI。  發生這種接管時，您便可受益於集中管理組織中的使用者和使用權限。 您也可以運用與用於組織內其他服務的同一組使用者名稱和密碼，來使用簡化的登入程序。
 
-您在 IT 部門開始管理 Power BI 之前所建立的任何內容都將置於 Power BI [封存工作區] 中，稍後可從 [Power BI](https://app.powerbi.com) 的左導覽列存取。 您應該在 [我的工作區] 中開始建立新的 Power BI 內容，這個工作區是由組織的 IT 部門保護及管理。  您的 [封存工作區] 會持續存在，但會限制您可以對 [封存工作區] 中的內容執行的動作。  若要移除這些限制，您必須將內容從 [封存工作區] 移轉至由 IT 部門管理的 [我的工作區]。
+您在 IT 部門開始管理 Power BI 之前所建立的任何內容都將置於 Power BI [封存工作區] 中，稍後可從 [Power BI](https://app.powerbi.com) 的導覽窗格存取。 您應該在 [我的工作區] 中開始建立新的 Power BI 內容，這個工作區是由組織的 IT 部門保護及管理。  您的 [封存工作區] 會持續存在，但會限制您可以對 [封存工作區] 中的內容執行的動作。  若要移除這些限制，您必須將內容從 [封存工作區] 移轉至由 IT 部門管理的 [我的工作區]。
 
 ## <a name="restrictions-in-your-archived-workspace"></a>封存工作區的限制
 
@@ -50,5 +49,5 @@ Power BI 不會從 [封存工作區] 中刪除內容。 您可以繼續取得資
 
 * **儀表板**：安裝作為內容套件一部分的儀表板，會在您重新連接到 [我的工作區] 中的內容套件時自動重新建立。 如果您透過 Power BI 服務建立自己的儀表板，請在 [我的工作區] 中重新建立這些儀表板。
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

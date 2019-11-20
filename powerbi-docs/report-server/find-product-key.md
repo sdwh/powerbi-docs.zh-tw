@@ -2,19 +2,18 @@
 title: 如何找到您的報表伺服器產品金鑰
 description: 了解如何找到您的 Power BI 報表伺服器產品金鑰，以在生產環境中安裝您的伺服器。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 42057ba7cea04f432a39d649c9a4eecc34a0883d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769623"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859687"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>如何找到您的報表伺服器產品金鑰
 了解如何找到您的 Power BI 報表伺服器產品金鑰，以在生產環境中安裝您的伺服器。
@@ -42,13 +41,13 @@ ms.locfileid: "64769623"
 > 
 > 
 
-![](media/find-product-key/vlsc-download.png "大量授權服務中心")
+![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
 
 ## <a name="next-steps"></a>後續步驟
 [安裝 Power BI 報表伺服器](install-report-server.md)  
 [安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)  
 [下載報表產生器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下載 SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[下載 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

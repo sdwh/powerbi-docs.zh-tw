@@ -3,25 +3,24 @@ title: 升級 Power BI 報表伺服器
 description: 了解如何升級 Power BI 報表伺服器。
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
-ms.openlocfilehash: 52863ea4bd666547a9c63b3add1d2d9c0626adc7
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839690"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873946"
 ---
 # <a name="upgrade-power-bi-report-server"></a>升級 Power BI 報表伺服器
 
 了解如何升級 Power BI 報表伺服器。
 
- **下載**![下載](media/upgrade/download.png "下載")
+ **下載** ![下載](media/upgrade/download.png "下載")
 
 若要下載 Power BI 報表伺服器，以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop，請移至[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)。
 

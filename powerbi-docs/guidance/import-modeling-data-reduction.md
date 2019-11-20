@@ -2,19 +2,18 @@
 title: 匯入模型的資料減少技術
 description: 了解可協助減少載入匯入模型資料量的不同技術。
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 794ded1bc310cfcecc609f48ee4f0595693ceeb3
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c61a21f400de009815ecb685f989b1cdafbcdb22
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69520172"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875617"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>匯入模型的資料減少技術
 
@@ -29,7 +28,7 @@ ms.locfileid: "69520172"
 - 較小的模型可以更快地進行資料重新整理，降低延遲報告、提高資料集重新整理輸送量，並降低對來源系統和容量資源造成的壓力。
 - 較小的資料表資料列計數可以更快地進行計算評估，其可提高整體的查詢效能。
 
-本文會涵蓋七種不同的資料減少技術。 這些包括：
+本文會涵蓋八種不同的資料減少技術。 這些包括：
 
 - [移除不必要的資料行](#remove-unnecessary-columns)
 - [移除不必要的資料列](#remove-unnecessary-rows)
@@ -37,6 +36,7 @@ ms.locfileid: "69520172"
 - [最佳化資料行資料類型](#optimize-column-data-types)
 - [自訂資料行的喜好設定](#preference-for-custom-columns)
 - [停用 Power Query 查詢載入](#disable-power-query-query-load)
+- [停用自動日期/時間](#disable-auto-datetime)
 - [切換到混合模式](#switch-to-mixed-mode)
 
 ## <a name="remove-unnecessary-columns"></a>移除不必要的資料行
@@ -85,6 +85,10 @@ VertiPaq 儲存引擎會儲存模型計算結果欄 (定義在 DAX 中)，如同
 旨在支援與其他查詢進行資料整合的 Power Query 查詢不應載入模型。 若要避免將這種查詢載入模型，請確保您已在這些執行個體中停用查詢載入。
 
 ![停用 Power Query 查詢的載入](media/import-modeling-data-reduction/power-query-disable-query-load.png)
+
+## <a name="disable-auto-datetime"></a>停用自動日期/時間
+
+Power BI Desktop 包含一個稱為「自動日期/時間」  的選項。 啟用時，它會為日期資料行建立隱藏的自動日期/時間資料表，以便在為行事曆時間週期設定篩選、群組和向下切入時支援報表作者。 隱藏的資料表事實上是會增加模型大小的計算資料表。 如需使用此選項的相關指引，請參閱 [Power BI Desktop 中的自動日期/時間指引](../desktop-auto-date-time.md)文章。
 
 ## <a name="switch-to-mixed-mode"></a>切換到混合模式
 

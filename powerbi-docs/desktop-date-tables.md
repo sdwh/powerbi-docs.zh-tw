@@ -2,7 +2,6 @@
 title: 在 Power BI Desktop 中設定和使用日期資料表
 description: 了解如何在 Power BI Desktop 中將資料表設定為日期資料表，以及其代表的意義
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,16 +9,18 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9bbe302c7187419abae556bb34f991efa1fdae00
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b2a7f4434ac82a125352eaefdd2417d9039b710f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454374"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868610"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>在 Power BI Desktop 中設定和使用日期資料表
 
 **Power BI Desktop** 在幕後運作，可自動識別表示日期的資料行，並代替您為您的模型建立日期階層和其他啟用中繼資料。 當建立如視覺效果、資料表、快速量值、交叉分析篩選器等報告功能時，您就可接著使用那些內建階層。 Power BI Desktop 的運作方式，是代表您建立隱藏的資料表，您可以在之後針對您的報告和 DAX 運算式使用該資料表。
+
+如需此自動行為的詳細資訊，請閱讀 [Power BI Desktop 中的自動日期/時間](desktop-auto-date-time.md)一文。
 
 許多資料分析師都偏好建立自己的日期資料表，這並沒有問題。 在 **Power BI Desktop** 中，您可以指定您的模型要用來作為其**日期資料表**的資料表，並接著使用該資料表的日期資料來建立與日期相關的視覺效果、資料表、快速量值等等。 當您指定自己的日期資料表後，您可以控制模型中建立的日期階層，並將它們用於使用您模型之日期資料表的**快速量值**和其他作業中。 
 
@@ -73,8 +74,7 @@ ms.locfileid: "65454374"
 
 ## <a name="next-steps"></a>後續步驟
 
-您可能也會對下列文章感興趣。
+您可能也會對下列文章感興趣：
 
+* [Power BI Desktop 中的自動日期/時間](desktop-auto-date-time.md)
 * [Power BI Desktop 中的資料類型](desktop-data-types.md)
-
- 

@@ -2,19 +2,18 @@
 title: iOS 應用程式中的問與答虛擬分析師 - Power BI
 description: 請嘗試用您自己的文字，在 iOS 裝置上向 Power BI 行動裝置應用程式的問與答虛擬分析師詢問這份範例資料的相關問題。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60977040"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879393"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 應用程式中的問與答虛擬分析師 - Power BI
 
@@ -35,7 +34,7 @@ ms.locfileid: "60977040"
 ## <a name="prerequisites"></a>先決條件
 
 ### <a name="install-the-power-bi-for-ios-app"></a>安裝 iOS 版 Power BI 應用程式
-從 Apple App Store [下載 iOS 應用程式](http://go.microsoft.com/fwlink/?LinkId=522062 "下載 iPhone 應用程式")至 iPad、iPhone 或 iPod Touch。
+從 Apple App Store [下載 iOS 應用程式](https://go.microsoft.com/fwlink/?LinkId=522062 "下載 iPhone 應用程式")至 iPad、iPhone 或 iPod Touch。
 
 這些版本支援 iOS 版 Power BI 應用程式：
 - iPad (iOS 10 或更新版本)。
@@ -49,7 +48,7 @@ ms.locfileid: "60977040"
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
 
-2. 在左瀏覽窗格中，依序選取 [工作區]  、[我的工作區]  。
+2. 在導覽窗格中，依序選取 [工作區]  、[我的工作區]  。
 
 3. 在左下角選取 [取得資料]  。
    

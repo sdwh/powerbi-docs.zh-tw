@@ -2,7 +2,6 @@
 title: Power BI Desktop 與 Power BI 服務的比較
 description: Power BI Desktop 是完整的資料分析和報表建立工具。 Power BI 服務是適用於小組及企業輕量型報表編輯和共同作業的雲端架構線上服務。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e2985f4a27d8471bcfce80d40f2263e2be07d38c
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73064345"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879025"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop 與 Power BI 服務的比較
 
@@ -38,7 +37,7 @@ ms.locfileid: "73064345"
 
 Power BI Desktop 和服務中的報表編輯器很類似。 它們由三個區段組成：  
 
-1. 上方導覽列，在 Power BI Desktop 和服務中不同    
+1. Power BI Desktop 和服務中的頂端導覽窗格是不同的    
 2. 報表畫布     
 3. [欄位]  、[視覺效果]  和 [篩選]  窗格
 

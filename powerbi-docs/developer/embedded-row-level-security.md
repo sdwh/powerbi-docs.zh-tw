@@ -3,18 +3,17 @@ title: 搭配 Power BI 內嵌內容使用資料列層級安全性
 description: 了解您在應用程式中內嵌 Power BI 內容時必須採取的步驟。
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 2e7100db05b6ace0e4d530964f645e120387a8b2
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 3ef9bd001e17c472216e501c6d38907087219959
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073355"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875807"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>搭配 Power BI Embedded 的資料列層級安全性
 
@@ -33,7 +32,7 @@ ms.locfileid: "71073355"
 **角色** – 使用者會有隸屬的角色。 角色是規則的容器，可以命名為「銷售經理」  或「銷售代表」  等。您會在 Power BI Desktop 中建立角色。 如需詳細資訊，請參閱 [Power BI Desktop 的資料列層級安全性 (RLS)](../desktop-rls.md)。
 
 **規則** – 角色擁有規則，而這些規則是將套用至資料的實際篩選。 規則可以是簡單的「國家/地區 = 美國」，或是更複雜的項目。
-本文的其他部分有提供範例，示範如何在撰寫 RLS 後再於內嵌應用程式中加以取用。 我們的範例使用[零售分析範例](http://go.microsoft.com/fwlink/?LinkID=780547) PBIX 檔案。
+本文的其他部分有提供範例，示範如何在撰寫 RLS 後再於內嵌應用程式中加以取用。 我們的範例使用[零售分析範例](https://go.microsoft.com/fwlink/?LinkID=780547) PBIX 檔案。
 
 ![報表範例](media/embedded-row-level-security/powerbi-embedded-report-example.png)
 
@@ -73,7 +72,7 @@ RLS 是在 Power BI Desktop 中撰寫。 我們可以在資料集和報表處於
 
     報表會顯示您以 **AndrewMa** 登入的資料。
 
-套用篩選，我們在此套用的篩選會進一步篩選 [區域]  、[商店]  和 [銷售]  資料表中的所有記錄。 不過，由於 [銷售]  和 [時間]  、[銷售]  和 [項目]  以及 [項目]  和 [時間]  之間關聯性的篩選方向，因此資料表不會進一步篩選。 若要深入了解雙向交叉篩選，請下載 [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (SQL Server Analysis Services 2016 和 Power BI Desktop 中的雙向交叉篩選) 技術白皮書。
+套用篩選，我們在此套用的篩選會進一步篩選 [區域]  、[商店]  和 [銷售]  資料表中的所有記錄。 不過，由於 [銷售]  和 [時間]  、[銷售]  和 [項目]  以及 [項目]  和 [時間]  之間關聯性的篩選方向，因此資料表不會進一步篩選。 若要深入了解雙向交叉篩選，請下載 [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (SQL Server Analysis Services 2016 和 Power BI Desktop 中的雙向交叉篩選) 技術白皮書。
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>將使用者和角色套用至內嵌權杖
 
@@ -241,7 +240,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 [JavaScript 篩選](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters) 可用來讓使用者取用資料的已縮減、已限定範圍或已篩選檢視。 然而，使用者仍擁有模型結構描述資料表、資料行和計量的存取權，且可能可以存取該處的任何資料。 不可透過用戶端篩選 API 限制資料的存取權，僅能使用 RLS 執行此動作。
 
-## <a name="token-based-identity-with-azure-sql-database-preview"></a>Azure SQL Database 的權杖型身分識別 (預覽)
+## <a name="token-based-identity-with-azure-sql-database"></a>Azure SQL Database 的權杖型身分識別
 
 **權杖型身分識別**允許您使用 **Azure SQL Database** 的 **Azure Active Directory (AAD)** 存取權杖為內嵌權杖指定有效的身分識別。
 
@@ -332,7 +331,7 @@ public IdentityBlob(string value);
 * 如果基礎資料集是雲端模型 (快取模型或 DirectQuery)，有效的身分識別必須包含至少一個角色，否則不會發生角色指派。
 * 身分識別清單可讓多個身分識別權杖用於儀表板內嵌。 對於所有其他成品，此清單包含單一身分識別。
 
-### <a name="token-based-identity-limitations-preview"></a>權杖型身分識別限制 (預覽)
+### <a name="token-based-identity-limitations"></a>權杖型身分識別限制
 
 * 這項功能會限制僅使用 Power BI Premium。
 * 此功能不適用於內部部署 SQL Server。

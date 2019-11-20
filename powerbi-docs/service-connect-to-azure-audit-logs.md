@@ -2,7 +2,6 @@
 title: 使用 Power BI 連接到 Azure 稽核記錄
 description: Azure Audit Logs for Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 42b56cbad4c47b8cc8133a1f35511ea48ac24055
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: d0bd4e90dac6e71d95c38bed83f1c9507acc4fd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060603"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855382"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>使用 Power BI 連接到 Azure 稽核記錄
 您可以使用 Azure 稽核記錄內容套件，來分析及視覺化儲存在稽核記錄中的資訊。 Power BI 會擷取您的資料、建置現成的儀表板，然根據該資料建立報表。
@@ -25,7 +24,7 @@ ms.locfileid: "73060603"
 [連接至 Azure 稽核記錄檔內容套件](https://app.powerbi.com/getdata/services/azure-audit-logs)或深入了解 Power BI 與 [Azure 稽核記錄檔的整合](https://powerbi.microsoft.com/integrations/azure-audit-logs)。
 
 ## <a name="how-to-connect"></a>如何連接
-1. 選取左側瀏覽窗格底部的 [取得資料]  。  
+1. 選取導覽窗格底端的 [取得資料]  。  
    
     ![](media/service-connect-to-azure-audit-logs/getdata.png)
 2. 在 [服務]  方塊中，選取 [取得]  。  

@@ -2,7 +2,6 @@
 title: 在 Power BI 中建立報表的祕訣和訣竅
 description: 了解在 Power BI 服務和 Power BI Desktop 中建立報表的最佳做法
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 41e5ff75e9b6fd48e3101d30999e8d570f34a270
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6d949f95f463cb988958551d825a4eae824fb70
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514061"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865836"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 中建立報表的秘訣和訣竅
 為了充分利用您的資料，有時您需要一些額外的協助。 我們集結了一些秘訣與技巧，可供您在 Microsoft Power BI Desktop 中，*以及*在啟用 Power Pivot 增益集與安裝並啟用 Power Query 的 Microsoft Excel 2016 或 Microsoft Excel 2013 Pro-Plus 版本中，用來建立報表。 
@@ -28,19 +27,19 @@ Power BI Desktop 中的查詢編輯器與 Excel 2013 中的 Power Query 增益�
 您也可以檢視[公式參考](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f).
 
 ## <a name="data-types-in-query-editor"></a>查詢編輯器中的資料類型
-使用 Power BI Desktop 中的查詢編輯器載入資料時，可對資料類型偵測做出最佳猜測。 使用公式時，有時不會保留資料行的資料類型設定。 請確定資料行的資料類型正確無誤之後執行下列作業：將資料初始載入 [查詢] 索引標籤、以第一個資料列作為標頭、加入資料行、群組依據、合併、附加，以及第一次按下 [載入資料] 之前。
+使用 Power BI Desktop 中的查詢編輯器載入資料時，可對資料類型偵測做出最佳猜測。 使用公式時，有時不會保留資料行的資料類型設定。 執行下列作業之後，請確保資料行的資料類型是否正確：將資料初始載入 [查詢] 索引標籤、以第一個資料列作為標頭、加入資料行、群組依據、合併、附加，以及第一次按下 [載入資料] 之前。
 
 請記住一個重點：資料格中的斜體並不代表資料類型已正確設定，只是代表資料不會被視為文字。
 
 ## <a name="reference-queries-in-the-query-editor"></a>查詢編輯器中的參考查詢
-在 Power BI Desktop 中的查詢編輯器 的導覽器，當您以滑鼠右鍵按一下其中一個查詢，< 參考 > 會提供選項。 這相當實用，原因如下 ︰
+在 Power BI Desktop 的查詢編輯器的導覽器中，當您以滑鼠右鍵按一下其中一個查詢，即可使用 [參考] 選項。 這相當實用，原因如下 ︰
 
 * 當您使用檔案做為查詢的資料來源時，檔案的絕對路徑會儲存在查詢中。 共用或移動 Power BI Desktop 檔案或 Excel 活頁簿時，只需更新一次而無須更新所有路徑，藉此節省更新路徑的時間。
 
-根據預設，所有查詢會載入至 Excel 工作表或資料模型 (或兩者)。 某些查詢是中繼步驟，非供終端使用者。 當參考上述查詢時，通常會是這種情況。 您可以控制查詢載入行為，以滑鼠右鍵按一下 [導覽器] 中的查詢切換 [啟用載入] 選項。 當*啟用載入*沒有核取記號旁邊，查詢仍然可用在 [查詢] 索引標籤中，您可以使用其他查詢。 它特別適合搭配「合併」、「附加」和「參考」轉換使用。 不過，由於不會將查詢結果載入至資料模型，因此查詢不會造成報表欄位清單或資料模型紊亂的情況。 
+根據預設，所有查詢會載入至 Excel 工作表或資料模型 (或兩者)。 某些查詢是中繼步驟，不適合使用者使用。 當參考上述查詢時，通常會是這種情況。 您可以控制查詢載入行為，方法是以滑鼠右鍵按一下導覽器中的查詢，然後切換 [啟用載入] 選項。 如果 [啟用載入]  旁沒有核取記號，您仍可從 [查詢] 索引標籤使用查詢，並可搭配其他查詢使用。 它特別適合搭配「合併」、「附加」和「參考」轉換使用。 不過，由於不會將查詢結果載入至資料模型，因此查詢不會造成報表欄位清單或資料模型紊亂的情況。 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>散佈圖需要點識別元
-以簡單的溫度表為例，並計時閱讀所花的時間。 如果您直接在散佈圖上繪製，Power BI 會將所有值彙總成一點。 若要顯示個別資料點，您必須將欄位加入詳細資料中的值區欄位也。 在 Power BI Desktop 中這麼做的一個簡單方法，便是在查詢索引標籤上使用 [新增資料行] 功能區上的 [新增索引資料行] 選項。 
+以簡單的溫度表為例，並計時閱讀所花的時間。 如果您直接在散佈圖上繪製，Power BI 會將所有值彙總成一點。 若要顯示個別資料點，您必須將一個欄位加入欄位區中的 [詳細資料] 貯體。 在 Power BI Desktop 中這麼做的一個簡單方法，便是在查詢索引標籤上使用 [新增資料行] 功能區上的 [新增索引資料行] 選項。 
 
 ## <a name="reference-lines-in-your-report"></a>報表中的參考線
 您可以在 Power BI Desktop 中使用計算結果欄來定義參考線。 指定您要建立參考線的資料表和資料行。 在功能區中選取 [新增資料行]，然後在公式列中輸入下列公式：
@@ -50,7 +49,7 @@ Power BI Desktop 中的查詢編輯器與 Excel 2013 中的 Power Query 增益�
 不論使用的位置為何，這個導出資料行都會傳回值 100。 您的新資料行會顯示在 [欄位] 清單中。 將 Target Value 導出資料行加入折線圖中，以顯示任何數列與特定參考線的關聯。 
 
 ## <a name="sort-by-another-column"></a>依其他資料行排序
-當您在 Power BI 中針對圖表座標軸，或者在交叉分析篩選器或篩選條件中使用分類 (字串) 值時，預設會依字母順序排列。 如果您需要覆寫這個順序，例如針對一週或月數，天等然後您所見 Power BI Desktop 依其他資料行排序。 若要進一步了解，請參閱[依在 Power BI Desktop 中的資料行排序](desktop-sort-by-column.md)。
+當您在 Power BI 中針對圖表座標軸，或者在交叉分析篩選器或篩選條件中使用分類 (字串) 值時，預設會依字母順序排列。 如果您需要覆寫這個順序，例如針對一週天數或月數等項目，您可以指示 Power BI Desktop 依其他資料行排序。 若要深入了解，請參閱 [Power BI Desktop 中的依資料行排序](desktop-sort-by-column.md)。
 
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>透過對 Bing 的建議更輕鬆地建立地圖
 Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編碼)，因此可讓您更輕鬆地建立地圖。 Bing 使用一些演算法和建議來嘗試取得正確的位置，但這是它所能做出的最佳猜測。 若要提高正確地理編碼的可能性，您可以使用下列秘訣：
@@ -62,7 +61,7 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 您隨時可以在 Power BI 服務或 Power BI Desktop 中提供特定經度和緯度位置。 當您這麼做時，同時也需要傳遞 [位置] 欄位，否則預設會彙總資料，而導致緯度和經度的位置可能不符合您的預期。
 
 ## <a name="categorizing-geographic-fields-to-hint-bings-geocoding"></a>分類地理欄位以建議 Bing 的地理編碼
-確保欄位地理編碼正確的另一個方法，便是在資料欄位上設定 [資料類別]。 在 Power BI Desktop 中，選取所需的資料表，移至進階的功能區中，然後再設為 地址、 縣 （市）、 大陸、 國家/地區、 國家/地區、 郵遞區號、 狀態或省的 資料類別。 這些資料類別可以協助 Bing 將該資料正確編碼。 若要深入了解，請參閱 [Power BI Desktop 中的資料分類](desktop-data-categorization.md)。
+確保欄位地理編碼正確的另一個方法，便是在資料欄位上設定 [資料類別]。 在 Power BI Desktop 中，選取所需的資料表，移至進階功能區，然後將 [資料類別] 設定為 [地址]、[城市]、[洲]、[國家/地區]、[國家]、[郵遞區號]、[州] 或 [省]。 這些資料類別可以協助 Bing 將該資料正確編碼。 若要深入了解，請參閱 [Power BI Desktop 中的資料分類](desktop-data-categorization.md)。
 
 ## <a name="better-geocoding-with-more-specific-locations"></a>以更具體的位置改善地理編碼
 有時候，即使設定了地圖的資料分類還是不夠。 在 Power BI Desktop 中使用查詢編輯器建立街道地址等更特定的位置。 您可以使用 [加入資料行] 功能來建立自訂資料行。 然後建立所需的位置，如下所示： 
@@ -86,7 +85,7 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 
 確定所產生之彙總資料行的資料類型為數值。 您現在可以使用＜最簡單的長條圖＞中所述的群組依據方法來取得長條圖。 這個選項會處理更多資料點，但仍無法解決筆刷繪製的問題。
 
-定義支援筆刷繪製-筆刷繪製是視覺效果連結在一起，以便當使用者選取一個視覺效果中的資料點的長條圖，報表頁面上的其他視覺效果反白顯示，或篩選與所選的資料點相關的資料點。 由於我們要在查詢期間操作資料，因此需要建立資料表之間的關聯性，並確保知道哪個詳細資料項目與長條圖中的值區相關，反之亦然。
+定義支援筆刷繪製的長條圖 – 筆刷繪製是指將視覺效果連結在一起，以便使用者選取某個視覺效果中的資料點時，報表頁面上的其他視覺效果會醒目提示或篩選與所選資料點相關的資料點。 由於我們要在查詢期間操作資料，因此需要建立資料表之間的關聯性，並確保知道哪個詳細資料項目與長條圖中的值區相關，反之亦然。
 
 在具有您想要建立長條圖之欄位的查詢上，使用 [參考] 選項開始進行這個程序。 將新的查詢命名為 "Buckets"。 在本例中，我們將原始查詢稱為 "Details"。 接著移除所有資料行，只留下要做為長條圖值區使用的資料行。 現在，在查詢中使用 [移除重複項目] 功能，如此留在資料行中的值便是唯一的值；您可以選取資料行，然後在快顯功能表中找到這項功能。 如果您有十進位數字，您可以先使用定義值區的秘訣來建立長條圖，以取得一組可管理的值區。 現在，檢查查詢預覽中顯示的資料。 如果您看到空白值或 Null，則必須先修正這些問題，再建立關聯性。 請參閱＜資料包含 Null 或空白值時建立關聯性＞。 使用這個方法時，由於需要排序，因此可能會造成問題。 若要讓值區正確排序，請參閱＜排列順序：以我想要的順序來顯示類別＞。 
 
@@ -161,4 +160,4 @@ DAX 是 Power BI Desktop 的計算公式語言， 並已針對 BI 分析最佳�
 
 [資料分析運算式 (DAX) 參考](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[DAX 資源中心](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[DAX 資源中心](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)

@@ -2,7 +2,6 @@
 title: 適用於 Power BI 的 IT 支出分析範例：觀看導覽
 description: 適用於 Power BI 的 IT 支出分析範例：觀看導覽
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: bc6b35b6401f4424a3a5120cb7c28437da9a2a48
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6f39f8b5c288c1dbff3cd87c7beee27683cfeae2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462259"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873917"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的 IT 支出分析範例：觀看導覽
 
@@ -54,11 +53,11 @@ IT 支出分析範例內容套件包含儀表板、報表和資料集，用來�
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>取得此範例的 .pbix 檔案
 
-或者，您可以將 IT 支出分析範例下載為 [.pbix](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix) 檔案，其設計目的是要用於 Power BI Desktop。
+或者，您可以將 IT 支出分析範例下載為 [.pbix](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix) 檔案，其設計目的是要用於 Power BI Desktop。
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529783) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529783) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>IT 支出分析範例的儀表板
 儀表板左邊有兩個數字的圖格，[浮動計畫 %]  和 [最新估計差異 % 第 3 季]  ，針對計畫與最新一季估計 (LE3 = 最新第 3 季估計) 的表現提供概觀。 整體上我們落後計畫 6%。 讓我們一起從時間點、地點及商品類別來了解造成此差異的原因。
@@ -78,7 +77,7 @@ IT 支出分析範例內容套件包含儀表板、報表和資料集，用來�
     接下來，讓我們來探討美國的哪一類商品造成差異。
 
 ## <a name="ask-questions-of-the-data"></a>針對資料提問
-1. 選取導覽列頂端的 [IT 費用分析範例]  ，返回範例儀表板。
+1. 選取導覽窗格頂端的 [IT 費用分析範例]  ，返回範例儀表板。
 2. 選取 [詢問資料相關問題]  。
 3. 從左側的 [入門問題]  清單，選取 [何謂依 IT 領域的方案]  。
 

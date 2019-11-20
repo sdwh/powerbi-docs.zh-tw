@@ -1,8 +1,7 @@
 ---
-title: 適用於問與答 Power BI 中的 Excel 資料
+title: 讓 Excel 資料適用於 Power BI 的問與答
 description: 如何讓資料適用於 Power BI 的問與答
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7ed8eb8e205c05582d2cfd93030ab056be77912a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 16d58090a9a7c6e64fbf2ace23fdf342d1768a30
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65624974"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881094"
 ---
-# <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>適用於問與答 Power BI 中的 Excel 資料
+# <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>讓 Excel 資料適用於 Power BI 的問與答
 如果您是建立資料模型的人員，或要建立搭配 Power BI 使用的 Excel 活頁簿，請繼續閱讀...
 
 在 Power BI 中，問與答可搜尋結構化的資料，並為您的問題選擇適當的視覺效果，就是這一點讓它成為大家愛用的工具。   
@@ -27,7 +26,7 @@ ms.locfileid: "65624974"
 ## <a name="how-qa-works-with-excel"></a>問與答在 Excel 的運作方式
 問與答有一組可在您的資料中運作的功能，可了解核心自然語言。 它會搜尋 Excel 資料表、資料行和導出欄位名稱之內容相關的關鍵字。 它也有內建如何篩選、排序、彙總、群組和顯示資料的相關知識。 
 
-例如，在一個名為「銷售」的 Excel 資料表，其資料行為「產品」、「月」、「單位銷售」、「銷售毛額」和「利潤」，您可以詢問有關任何這些實體的問題。  您可以要求顯示銷售額、各月份的總計收益、依單位銷售排序產品等等。 深入了解[儀表板和報表中使用問與答](power-bi-tutorial-q-and-a.md)，並[問與答查詢中可以指定視覺效果類型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
+例如，在一個名為「銷售」的 Excel 資料表，其資料行為「產品」、「月」、「單位銷售」、「銷售毛額」和「利潤」，您可以詢問有關任何這些實體的問題。  您可以要求顯示銷售額、各月份的總計收益、依單位銷售排序產品等等。 深入了解[在儀表板和報表中使用問與答](power-bi-tutorial-q-and-a.md)以及[問與答查詢中可以指定的視覺效果類型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
 
 ## <a name="prepare-an-excel-dataset-for-qa"></a>準備適用於問與答的 Excel 資料集
 問與答依賴資料表、資料行和導出欄位的名稱，藉此回應特定資料的問題，這表示您如何在活頁簿中命名實體會相當重要！
@@ -39,16 +38,16 @@ ms.locfileid: "65624974"
   
   例如，如果您有包含銷售資料的資料表時，請將資料表命名為「銷售額」。 「年」、「產品」、「銷售代表」和「金額」等資料行名稱可適用於問與答。
 
-* 如果您的活頁簿有 PowerPivot 資料模型，您就可以更進一步地最佳化。 深入了解我們內部團隊之自然語言專家的 [Demystifying Power BI Q&A part 2](http://blogs.msdn.com/b/powerbi/archive/2014/02/27/demystifying-power-bi-q-amp-a-part-2.aspx) (揭密 Power BI 問與答第 2 部分)。
+* 如果您的活頁簿有 PowerPivot 資料模型，您就可以更進一步地最佳化。 深入了解我們內部團隊之自然語言專家的 [Demystifying Power BI Q&A part 2](https://blogs.msdn.com/b/powerbi/archive/2014/02/27/demystifying-power-bi-q-amp-a-part-2.aspx) (揭密 Power BI 問與答第 2 部分)。
 
 * 在 Power BI Desktop 中開啟資料集並建立新的資料行、建立導出量值、串連欄位以建立唯一的值、依類型分類資料 (例如日期、字串、地理位置、影像、URL)，以及其他更多。
 
 ## <a name="next-steps"></a>後續步驟
 
-- [問與答的取用者](consumer/end-user-q-and-a.md)  
+- [取用者問與答](consumer/end-user-q-and-a.md)  
 - [在儀表板和報表中使用問與答](power-bi-tutorial-q-and-a.md)
-- [準備內部部署資料集問與答](service-q-and-a-direct-query.md)   
+- [準備適用於問與答的內部部署資料集](service-q-and-a-direct-query.md)   
 - [取得 Power BI 的資料](service-get-data.md)  
 
-有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

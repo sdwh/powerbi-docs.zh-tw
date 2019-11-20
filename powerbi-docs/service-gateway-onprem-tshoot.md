@@ -3,25 +3,24 @@ title: 針對閘道進行疑難排解 - Power BI
 description: 本文提供您對內部部署資料閘道和 Power BI 問題進行疑難排解的方法。 其提供已知問題可能的因應措施，以及可協助您的工具。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfb0546771331e13f3703de0afdbcad6c3219f9c
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b420c827df3c18796d0d46514f81170f202eafbd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543827"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881567"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>針對閘道進行疑難排解 - Power BI
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-本文探討使用內部部署資料閘道搭配 Power BI 時的一些常見問題。 如果您遇到此處未列出的問題，可以使用 Power BI [社群](http://community.powerbi.com)網站。 或者，您可以建立[支援票證](http://powerbi.microsoft.com/support)。
+本文探討使用內部部署資料閘道搭配 Power BI 時的一些常見問題。 如果您遇到此處未列出的問題，可以使用 Power BI [社群](https://community.powerbi.com)網站。 或者，您可以建立[支援票證](https://powerbi.microsoft.com/support)。
 
 ## <a name="configuration"></a>設定
 
@@ -227,7 +226,7 @@ ImpersonationLevel 與 SPN 設定或本機原則設定有關。
 
 當您使用閘道進行排程的重新整理時，[重新整理記錄]  可以協助您查看發生了哪些錯誤。 如果您需要建立支援要求，它也可以提供有用的資料。 您可以檢視已排程及隨選的重新整理。 下列步驟顯示取得重新整理記錄的方式。
 
-1. 在 Power BI 瀏覽窗格中，在 [資料集]  中選取資料集。 開啟功能表，然後選取 [排程重新整理]  。
+1. 在 Power BI 導覽窗格的 [資料集]  中，選取資料集。 開啟功能表，然後選取 [排程重新整理]  。
 
     ![如何選取排程重新整理](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 
@@ -241,7 +240,7 @@ ImpersonationLevel 與 SPN 設定或本機原則設定有關。
 
 ## <a name="fiddler-trace"></a>Fiddler 追蹤
 
-[Fiddler](http://www.telerik.com/fiddler) 是 Telerik 提供的免費工具，可用來監視 HTTP 流量。 您可以從用戶端電腦使用 Power BI 服務來回查看。 此流量清單可能會顯示錯誤與其他相關資訊。
+[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 提供的免費工具，可用來監視 HTTP 流量。 您可以從用戶端電腦使用 Power BI 服務來回查看。 此流量清單可能會顯示錯誤與其他相關資訊。
 
 ![使用 Fiddler 追蹤](media/service-gateway-onprem-tshoot/fiddler.png)
 
@@ -254,4 +253,4 @@ ImpersonationLevel 與 SPN 設定或本機原則設定有關。
 * [管理您的資料來源 - SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [管理您的資料來源 - 匯入/排程重新整理](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
-有其他問題嗎？ 試試 [Power BI 社群](http://community.powerbi.com/)。
+有其他問題嗎？ 試試 [Power BI 社群](https://community.powerbi.com/)。

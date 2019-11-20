@@ -2,7 +2,6 @@
 title: Power BI 服務中我的最愛 (儀表板、報表、應用程式)
 description: 說明如何在 Power BI 服務中將儀表板、報表和應用程式設為我的最愛
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 165f958cabf3eb6f3cc5c0e61b62667f891d1d48
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256373"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852642"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Power BI 服務中的常用儀表板、報告和應用程式
 當您將內容設為 [我的最愛]  時，您可以從 [我的最愛]  內容清單，並從 [Power BI 首頁]   > [我的最愛和常用項目]  快速存取該內容。 [我的最愛] 通常是您經常瀏覽的內容，並以黃色星號識別。
@@ -41,7 +40,7 @@ ms.locfileid: "71256373"
 
 ## <a name="add-an-app-as-a-favorite"></a>將應用程式新增為我的最愛
 
-1. 從 [瀏覽] 窗格中，選取 [應用程式]  。
+1. 從導覽窗格中選取 [應用程式]  。
 
    ![儀表板](./media/end-user-favorite/power-bi-app.png)
 
@@ -53,7 +52,7 @@ ms.locfileid: "71256373"
 1. 若要存取我的最愛，請選取 [我的最愛]  右邊的飛出箭號。 您可以在這裡選取我的最愛並加以開啟。 最多依字母順序列出五個我的最愛。 如果超過五個，請選取 [查看全部]  來開啟 [我的最愛] 內容清單。 
    
    ![[我的最愛] 飛出視窗](./media/end-user-favorite/power-bi-favorite-flyout.png)
-2. 若要查看您已新增為我的最愛的所有內容，請在瀏覽窗格中選取 [我的最愛]  或我的最愛 ![星號圖示](./media/end-user-favorite/power-bi-favorites-icon.png) 圖示。 
+2. 若要查看您已新增為我的最愛的所有內容，請在導覽窗格中選取 [我的最愛]  或我的最愛 ![星號圖示](./media/end-user-favorite/power-bi-favorites-icon.png)圖示。 
    
     ![[我的最愛] 視窗](./media/end-user-favorite/power-bi-fav-screen.png)
    
@@ -62,7 +61,7 @@ ms.locfileid: "71256373"
 ## <a name="unfavorite-content"></a>移除最愛的內容
 如果您不再像之前那樣經常使用報表，則可以從我的最愛中移除。 移除最愛的內容時，其會從 [我的最愛] 清單中移除，但不會從 Power BI 中移除。
 
-1. 在左側功能窗格中，選取 [我的最愛]  以開啟 [我的最愛]  畫面。
+1. 在導覽窗格中，選取 [我的最愛]  以開啟 [我的最愛]  畫面。
    
    ![[我的最愛] 畫面](./media/end-user-favorite/power-bi-un-favorite.png)
 2. 選取您要移除最愛的內容旁黃色星號。
@@ -76,5 +75,5 @@ ms.locfileid: "71256373"
 
 ## <a name="next-steps"></a>後續步驟
 - [Power BI：基本概念](end-user-basic-concepts.md)
-- 有其他問題嗎？ 試試 [Power BI 社群](http://community.powerbi.com/)。
+- 有其他問題嗎？ 試試 [Power BI 社群](https://community.powerbi.com/)。
 

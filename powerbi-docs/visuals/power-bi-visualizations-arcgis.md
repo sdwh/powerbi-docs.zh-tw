@@ -2,7 +2,6 @@
 title: 與已和您共用的 ArcGIS 地圖互動
 description: 在閱讀檢視中使用 ArcGIS 地圖作為 Power BI 報表取用者
 author: mihart
-manager: kvivek
 ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,15 +9,15 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/10/2019
 ms.author: mihart
-ms.openlocfilehash: 7fef2c96afadad6fe39d731038f74249a4ccbf6d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 85a5f50bbccd22041bb035d14b16e4f8b76a3f7b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432317"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880715"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>在 Power BI 中與 ArcGIS 地圖互動
-本主題是從在 Power BI 服務、Power BI Desktop 或 Power BI Mobile 中「取用」  ArcGIS 地圖的人員觀點來撰寫。 一旦建立者與您共用 ArcGIS 地圖，可利用許多方法與該地圖互動。  若要深入了解如何建立 ArcGIS 地圖，請參閱[由 Esri 提供的 ArcGIS 地圖教學課程](../visuals/power-bi-visualization-arcgis.md)。
+本主題是從在 Power BI 服務、Power BI Desktop 或 Power BI Mobile 中「使用」ArcGIS 地圖的人員觀點來撰寫。 一旦建立者與您共用 ArcGIS 地圖，可利用許多方法與該地圖互動。  若要深入了解如何建立 ArcGIS 地圖，請參閱[由 Esri 提供的 ArcGIS 地圖教學課程](../visuals/power-bi-visualization-arcgis.md)。
 
 ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到了全新境界。 您可以使用基礎地圖、位置類型、佈景主題、符號樣式及參考圖層等選項，建立具有豐富資訊的絶佳地圖視覺效果。 地圖上的官方資料圖層 (例如人口普查資料) 與空間分析結合之後，能讓人更深入了解視覺效果中的資料。
 
@@ -28,7 +27,7 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 
 我們使用的範例會依鄉/鎮/市/區查看去年銷售量，使用街道基礎地圖、泡泡符號來表示大小，並使用平均家庭收入的參考圖層。 此地圖包含 3 個圖釘及一個行車時間半徑範圍 (以紫色顯示)。
 
-![](media/power-bi-visualizations-arcgis/power-bi-arcgis-esri-new.png)
+![顯示美國及泡泡、圖釘、行車時間的 ArcGIS 地圖](media/power-bi-visualizations-arcgis/power-bi-arcgis-esri-new.png)
 
 > [!TIP]
 > 若要查看多個範例及閱讀見證，請前往 [Power BI 上的 Esri 頁面](https://www.esri.com/powerbi)。 接著請參閱 Esri 的 [ArcGIS Maps for Power BI Getting Started (ArcGIS Maps for Power BI 使用者入門) 頁面](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm)。
@@ -38,18 +37,18 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 <br/>
 
 ## <a name="user-consent"></a>使用者同意
-當同事第一次與您共用 ArcGIS 地圖時，Power BI 會顯示提示。 ArcGIS Maps for Power BI 是由 Esri (www.esri.com) 提供，因此，您的 ArcGIS Maps for Power BI 使用方式受到 Esri 的條款及隱私權原則的規範。 如果 Power BI 使用者想要使用 ArcGIS Maps for Power BI 的視覺效果，就必須接受同意對話方塊。
+當同事第一次與您共用 ArcGIS 地圖時，Power BI 會顯示提示。 ArcGIS Maps for Power BI 是由 Esri (https://www.esri.com) 提供，因此，您的 ArcGIS Maps for Power BI 使用方式受到 Esri 的條款及隱私權原則的規範。 如果 Power BI 使用者想要使用 ArcGIS Maps for Power BI 的視覺效果，就必須接受同意對話方塊。
 
 ## <a name="selection-tools"></a>選取工具
 ArcGIS Maps for Power BI 具有三個選取模式。 一次最多可以選取 250 個資料點。
 
-![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-tools2.png)
+![這三個選取工具的螢幕擷取畫面](media/power-bi-visualizations-arcgis/power-bi-esri-selection-tools2.png)
 
-![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-single2.png)選取個別資料點。
+![單一選取工具的螢幕擷取畫面](media/power-bi-visualizations-arcgis/power-bi-esri-selection-single2.png) 選取個別資料點。
 
-![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-marquee2.png)在地圖上繪製一個矩形，並選取包含的資料點。 使用 CTRL 鍵可選取多個矩形區域。
+![複選工具](media/power-bi-visualizations-arcgis/power-bi-esri-selection-marquee2.png) 在地圖上繪製一個矩形，並選取包含的資料點。 使用 CTRL 鍵可選取多個矩形區域。
 
-![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-reference-layer2.png)可讓您使用參考圖層內的界限或多邊形，進而選取包含的資料點。
+![界限的第三個選取工具](media/power-bi-visualizations-arcgis/power-bi-esri-selection-reference-layer2.png) 可讓您使用參考圖層內的界限或多邊形，來選取包含的資料點。
 
 <br/>
 
@@ -62,28 +61,28 @@ ArcGIS Maps for Power BI 具有三個選取模式。 一次最多可以選取 25
 
     
 * 展開 [篩選]  窗格以使用篩選探索地圖。   
-    ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
+    ![[篩選] 窗格](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * 如果地圖有參考圖層，選取位置即可在工具提示中顯示詳細資料。 我們在這裡選取了亞當斯郡，並查看建立者新增至地圖之平均家庭收入參考圖層中的資料。
   
-    ![](media/power-bi-visualizations-arcgis/power-bi-reference-layer.png)  
+    ![亞當斯郡工具提示](media/power-bi-visualizations-arcgis/power-bi-reference-layer.png)  
   
     在本例中，我們也會取得一個圖表。 選取圖表上的長條以深入了解相關資料。 我們在這裡看到亞當斯郡有 79 戶的收入為美金 $200,000 元 (含) 以上。
   
-    ![](media/power-bi-visualizations-arcgis/power-bi-tooltip-chart.png)
+    ![原始工具提示圖表中直條的工具提示](media/power-bi-visualizations-arcgis/power-bi-tooltip-chart.png)
   
     選取箭號即可顯示任何其他圖表。
 * 將滑鼠停留在基礎地圖位置符號上方，以在工具提示中顯示詳細資料。     
-  ![](media/power-bi-visualizations-arcgis/power-bi-arcgis-hover.png)
+  ![位置工具提示](media/power-bi-visualizations-arcgis/power-bi-arcgis-hover.png)
   
   > [!TIP]
   > 您可能必須放大才能選取特定位置。  否則，如果有位置重疊，Power BI 可能會一次提供多個工具提示。 選取箭號即可在工具提示之間移動
   > 
-  > ![](media/power-bi-visualizations-arcgis/power-bi-3-screens.png)
+  > ![顯示三頁的工具提示](media/power-bi-visualizations-arcgis/power-bi-3-screens.png)
   > 
   > 
 * 如果建立者將資訊圖層新增至 ArcGIS 地圖，您將會在地圖右上角看到其他資料顯示。  例如，地圖建立者在這裡新增了「14 歲以下兒童」。
   
-    ![](media/power-bi-visualizations-arcgis/power-bi-demographics.png)
+    ![包含資訊圖圖層的地圖](media/power-bi-visualizations-arcgis/power-bi-demographics.png)
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 ArcGIS Maps for Power BI 可在下列服務和應用程式中使用：
@@ -117,7 +116,7 @@ ArcGIS Maps for Power BI 可在下列服務和應用程式中使用：
 </table>
 
 **如何搭配 ArcGIS Maps for Power BI 運作？**
-ArcGIS Maps for Power BI 由 Esri (www.esri.com) 提供。 因此，您的 ArcGIS Maps for Power BI 使用方式受到 Esri 的[條款](https://go.microsoft.com/fwlink/?LinkID=8263222)及[隱私權原則](https://go.microsoft.com/fwlink/?LinkID=826323)的規範。 如果 Power BI 使用者想要使用 ArcGIS Maps for Power BI 的視覺效果，就必須接受同意對話方塊 (如需詳細資訊，請參閱＜使用者同意＞)。  Esri 的 ArcGIS Maps for Power BI 使用方式受到 Esri 的條款及隱私權原則的規範，同意對話方塊也提供相關連結。 每位使用者第一次使用 ArcGIS Maps for Power BI 之前都必須先同意。 一旦使用者接受同意對話方塊，繫結至視覺效果的資料就會傳送至 Esri 服務至少進行地理編碼，這表示會將位置資訊轉換成可在地圖上表示的緯度和經度資訊。 您應該假設任何繫結至資料視覺效果的資料都可能會傳送至 Esri 服務。 Esri 提供基本地圖、空間分析、地理編碼等服務。ArcGIS Maps for Power BI 視覺效果透過受到 Esri 所提供及維護的憑證保護的 SSL 連線與這些服務互動。 您可以從 Esri 的 [ArcGIS Maps for Power BI 產品頁面](https://www.esri.com/powerbi)取得 ArcGIS Maps for Power BI 的其他資訊。
+ArcGIS Maps for Power BI 由 Esri (https://www.esri.com) 提供。 因此，您的 ArcGIS Maps for Power BI 使用方式受到 Esri 的[條款](https://go.microsoft.com/fwlink/?LinkID=8263222)及[隱私權原則](https://go.microsoft.com/fwlink/?LinkID=826323)的規範。 如果 Power BI 使用者想要使用 ArcGIS Maps for Power BI 的視覺效果，就必須接受同意對話方塊 (如需詳細資訊，請參閱＜使用者同意＞)。  Esri 的 ArcGIS Maps for Power BI 使用方式受到 Esri 的條款及隱私權原則的規範，同意對話方塊也提供相關連結。 每位使用者第一次使用 ArcGIS Maps for Power BI 之前都必須先同意。 一旦使用者接受同意對話方塊，繫結至視覺效果的資料就會傳送至 Esri 服務至少進行地理編碼，這表示會將位置資訊轉換成可在地圖上表示的緯度和經度資訊。 您應該假設任何繫結至資料視覺效果的資料都可能會傳送至 Esri 服務。 Esri 提供基本地圖、空間分析、地理編碼等服務。ArcGIS Maps for Power BI 視覺效果透過受到 Esri 所提供及維護的憑證保護的 SSL 連線與這些服務互動。 您可以從 Esri 的 [ArcGIS Maps for Power BI 產品頁面](https://www.esri.com/powerbi)取得 ArcGIS Maps for Power BI 的其他資訊。
 
 **Power BI Plus**    
 ![選取加號圖示以註冊或登入](media/power-bi-visualizations-arcgis/power-bi-plus.png)

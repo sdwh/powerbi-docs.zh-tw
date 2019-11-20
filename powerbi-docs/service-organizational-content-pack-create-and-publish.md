@@ -2,7 +2,6 @@
 title: 建立及發佈組織內容套件 - Power BI
 description: 在本教學課程中，您將建立組織內容套件、限制特定群組才能存取，並將該套件發佈至 Power BI 上的組織內容套件庫。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020666"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871997"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>教學課程：建立及發佈 Power BI 組織內容套件
 
@@ -34,9 +33,9 @@ ms.locfileid: "72020666"
 
 想要跟著做嗎？ 在 [Power BI 服務](https://powerbi.com)中，移至 [我的工作區]  。 然後移至 [取得資料]   > [範例]   > [商機分析範例]   > [連接]  ，取得自己的複本。
 
-1. 在左側瀏覽窗格中，選取 [工作區]   > [我的工作區]  。
+1. 在導覽窗格中，選取 [工作區]   >  [我的工作區]  。
 
-1. 從上方導覽列，選取齒輪圖示 ![齒輪圖示的螢幕擷取畫面](media/service-organizational-content-pack-create-and-publish/cog.png)。 > [建立內容套件]  。
+1. 從頂端導覽窗格，選取齒輪圖示 ![齒輪圖示的螢幕擷取畫面](media/service-organizational-content-pack-create-and-publish/cog.png)。 > [建立內容套件]  。
 
    ![焦點在齒輪圖示和 [建立內容套件] 選項的 UI 螢幕擷取畫面。](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 
@@ -100,4 +99,4 @@ ms.locfileid: "72020666"
 
 * [商務用 OneDrive 是什麼？](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

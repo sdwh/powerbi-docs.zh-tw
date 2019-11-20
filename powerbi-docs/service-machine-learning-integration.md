@@ -2,7 +2,6 @@
 title: Power BI 中的 Azure Machine Learning 整合
 description: 了解如何搭配 Power BI 使用 Machine Learning
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 9593296b0e09340fe4f62fff7a2e7722912a4216
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.openlocfilehash: 2f872825c327b8195e7a6e5516e0b533235ddc27
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259955"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872096"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI 中的 Azure Machine Learning 整合
 
@@ -43,7 +42,7 @@ ms.locfileid: "72259955"
 
 1. 登入 [Azure 入口網站](https://portal.azure.com)。
 
-2. 移至 [訂用帳戶]  頁面。 您可以透過 Azure 入口網站左側瀏覽功能表中的 [所有服務]  清單找到 [訂用帳戶]  頁面。
+2. 移至 [訂用帳戶]  頁面。 您可以透過 Azure 入口網站導覽窗格功能表中的 [所有服務]  清單找到 [訂用帳戶]  頁面。
 
     ![Azure 訂用帳戶頁面](media/service-machine-learning-integration/machine-learning-integration_01.png)
 
@@ -68,7 +67,7 @@ ms.locfileid: "72259955"
 
 資料科學家主要使用 Python 來開發甚至是部署其 Machine Learning Service 機器學習模型。  不像 Machine Learning Studio 會協助自動化為模型建立結構描述檔案的工作，在 Machine Learning Service 的案例中，資料科學家必須明確地使用 Python 產生結構描述檔案。
 
-此結構描述必須包含在機器學習服務模型的部署 Web 服務中。 若要自動產生 Web 服務的結構描述，您必須為部署模型在項目指令碼中提供輸入/輸出的範例。 請參閱＜使用 Azure Machine Learning 服務部署模型＞文件中「(選用) 產生自動 Swagger 結構描述」上的子節。 連結包含產生結構描述陳述式的範例項目指令碼。 
+此結構描述必須包含在機器學習服務模型的部署 Web 服務中。 若要自動產生 Web 服務的結構描述，您必須為部署模型在項目指令碼中提供輸入/輸出的範例。 請參閱[使用 Azure Machine Learning 部署模型中的選擇性自動產生 Swagger 架構](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation)服務文件上的子節。 連結包含產生結構描述陳述式的範例項目指令碼。 
 
 具體而言，項目指令碼中的 *\@input_schema* 與 *\@output_schema* 函式會參考 *input_sample* 與 *output_sample* 中的輸入和輸出範例格式，並在部署期間使用這些範例來產生 Web 服務的 OpenAPI (Swagger) 規格。
 
@@ -87,7 +86,7 @@ ms.locfileid: "72259955"
 
 ![Power Query 編輯器](media/service-machine-learning-integration/machine-learning-integration_06.png)
 
-選取功能區中的 [AI 見解]  按鈕，然後從左側瀏覽功能表選取 [Azure Machine Learning 模型]  資料夾。 您擁有存取權的所有 Azure ML 模型會在這裡列為 Power Query 函式。 此外，Azure ML 模型的輸入參數會自動對應為對應之 Power Query 函式的參數。
+選取功能區中的 [AI 見解]  按鈕，然後從導覽窗格功能表選取 [Azure Machine Learning 模型]  資料夾。 您擁有存取權的所有 Azure ML 模型會在這裡列為 Power Query 函式。 此外，Azure ML 模型的輸入參數會自動對應為對應之 Power Query 函式的參數。
 
 若要叫用 Azure ML 模型，您可以從下拉式清單中指定任何所選實體的資料行作為輸入。 您也可以將資料行圖示切換至 [輸入] 對話方塊的左側，以指定要當作輸入使用的常數值。
 

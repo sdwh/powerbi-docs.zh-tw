@@ -3,19 +3,18 @@ title: 攜帶您自己的加密金鑰以用於 Power BI (預覽)
 description: 了解如何在 Power BI Premium 中使用您自己的加密金鑰。
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 39c6dc8a60be67f8f9e99e01ae1c7249166c5ddb
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 7ab5b09aa6341acf86e039c5951e4752e260876e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877740"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881875"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>攜帶您自己的加密金鑰以用於 Power BI (預覽)
 
@@ -32,6 +31,7 @@ BYOK 可更輕鬆地滿足透過雲端服務提供者 (在此案例中為 Micros
 - Analysis Services 即時連線
 - Excel 活頁簿 (除非資料先匯入 Power BI Desktop)
 - 推送資料集
+- [大型模型](service-premium-large-models.md)
 
 BYOK 僅適用於與 PBIX 檔案關聯的資料集，而不適用於圖格與視覺效果的查詢結果快取。
 

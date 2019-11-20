@@ -2,7 +2,6 @@
 title: 適用於 Power BI 的零售分析範例：觀看導覽
 description: 適用於 Power BI 的零售分析範例：觀看導覽
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962220"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858558"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的零售分析範例：觀看導覽
 
@@ -54,11 +53,11 @@ ms.locfileid: "68962220"
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>取得此範例的 .pbix 檔案
 
-或者，您可以將零售分析範例下載為 [.pbix 檔案](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)，其設計目的是要用於 Power BI Desktop。 
+或者，您可以將零售分析範例下載為 [.pbix 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)，其設計目的是要用於 Power BI Desktop。 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529778) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529778) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>進入儀表板，然後開啟報表
 
@@ -78,7 +77,7 @@ ms.locfileid: "68962220"
 
    **FD-01** 區有**每平方英呎最高的平均銷售額**，FD-02 區與去年相比的**總銷售額差異**最低。 FD-03 區和 FD-04 區的整體表現最差。
 4. 選取個別泡泡或其他圖表，即可查看交叉醒目提示，呈現您選取範圍的影響。
-5. 若要返回儀表板，請從頂端導覽列選取 [零售分析範例]  。
+5. 若要返回儀表板，請從頂端導覽窗格選取 [零售分析範例]  。
 
    ![導覽列](media/sample-retail-analysis/power-bi-breadcrumbs.png)
 6. 在儀表板中，選取 [新門市和現有門市的本年度銷售量]  圖格，這相當於在問與答問題方塊中輸入 [本年度銷售量]  。

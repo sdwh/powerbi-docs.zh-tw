@@ -2,19 +2,18 @@
 title: 快速入門：在行動裝置應用程式中探索儀表板及報表
 description: 在此快速入門中，您將探索 Power BI 行動裝置應用程式中的範例儀表板和報表。
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 04/18/2019
 ms.author: mshenhav
-ms.openlocfilehash: 173142d9aaf2b445504028e1f7987abe21806c37
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9af245b51fa2520dca1ccca535ec44f14360a54c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60975739"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879264"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>快速入門：在 Power BI 行動裝置應用程式中探索儀表板和報表
 在此快速入門中，您將探索 Android 手機上 Power BI 行動裝置應用程式中的範例儀表板和報表。 您也可以在其他行動裝置應用程式中按照步驟操作。 
@@ -35,7 +34,7 @@ ms.locfileid: "60975739"
 如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
 
 ### <a name="install-the-power-bi-for-android-app"></a>安裝 Power BI for Android 應用程式
-從 Google Play [下載 Power BI for Android 應用程式](http://go.microsoft.com/fwlink/?LinkID=544867)。
+從 Google Play [下載 Power BI for Android 應用程式](https://go.microsoft.com/fwlink/?LinkID=544867)。
 
 Power BI 適用於執行 Android 5.0 作業系統或更新版本的 Android 裝置。 若要檢查您的裝置，請前往 [設定]   > [關於裝置]   > [Android 版本]  。
 
@@ -44,11 +43,11 @@ Power BI 適用於執行 Android 5.0 作業系統或更新版本的 Android 裝�
 
 1. 在瀏覽器 (app.powerbi.com) 中開啟 Power BI 服務，然後登入。
 
-1. 選取全域導覽圖示以開啟左瀏覽窗格。
+1. 選取全域導覽圖示以開啟導覽窗格。
 
     ![全域導覽圖示](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-global-nav-icon.png)
 
-2. 在左瀏覽窗格中，選取 [工作區]   > [我的工作區]  。
+2. 在導覽窗格中，選取 [工作區]   >  [我的工作區]  。
 
     ![我的工作區](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-my-workspace.png)
 
@@ -135,9 +134,9 @@ Power BI 適用於執行 Android 5.0 作業系統或更新版本的 Android 裝�
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
 
-2. 在左瀏覽窗格中，選取 [工作區]   > [我的工作區]  。
+2. 在導覽窗格中，選取 [工作區]   >  [我的工作區]  。
 
-    是否注意到表示它是我的最愛項目的黃色星號？
+    有注意到表示我的最愛的黃色星號嗎？
 
 3. 在 [儀表板]  索引標籤上，選取 [零售分析] 儀表板旁邊的垃圾桶**刪除**圖示。
 

@@ -2,7 +2,6 @@
 title: 適用於 Power BI 的銷售與行銷範例：觀看導覽
 description: 適用於 Power BI 的銷售與行銷範例：觀看導覽
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 31f42d7f53b3322717677d586266668fb2c0f26b
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 8085a6c8f5d0e7a2797ef6c5961b6083eb98f346
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391391"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873827"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的銷售與行銷範例：觀看導覽
 
@@ -56,11 +55,11 @@ VanArsdel 有許多競爭對手，但仍是該產業的市場領導者。 CMO �
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>取得此範例的 .pbix 檔案
 
-或者，您可以將銷售與行銷範例下載為 [.pbix 檔案](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)，其設計目的是要用於 Power BI Desktop。
+或者，您可以將銷售與行銷範例下載為 [.pbix 檔案](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)，其設計目的是要用於 Power BI Desktop。
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](http://go.microsoft.com/fwlink/?LinkId=529785) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529785) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>儀表板告訴我們什麼？
 讓我們開始瀏覽儀表板並查看 CMO 已釘選的圖格。 我們可以看到我們的市場佔有率、銷售和人氣的相關資訊。 這些資料是依區域、時間和競爭對手細分。
@@ -82,7 +81,7 @@ VanArsdel 有許多競爭對手，但仍是該產業的市場領導者。 CMO �
 
    ![問與答的問題：VanArsdel 依市場區隔的單位總量](media/sample-sales-and-marketing/sales2.png)
 3. 我們在 [合適性]  和 [便利性]  兩個類別的市佔率很高；這些都是我們具競爭力的市場區隔。
-4. 選取頂端導覽列的 [銷售與行銷範例]  並返回儀表板。
+4. 選取頂端導覽窗格的 [銷售與行銷範例]  ，以返回儀表板。
 
 ### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>依據類別目錄 (與地區) 的單位銷售總量市場佔有率為何？
 1. 注意 [依製造商、區域的年初迄今單位總量]  磚。 依類別的總單位市場佔有率為何？

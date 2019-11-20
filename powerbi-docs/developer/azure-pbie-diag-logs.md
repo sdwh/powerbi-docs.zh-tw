@@ -3,17 +3,16 @@ title: Azure 中 Power BI Embedded 服務的診斷記錄 | Microsoft Docs
 description: 了解如何為 Azure 中的 Power BI Embedded 服務設定診斷記錄。
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: 9065feef76050c6a04e1ecf8ec7907b74be4b0ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289855"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875970"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure 中 Power BI Embedded 的診斷記錄
 
@@ -29,7 +28,7 @@ ms.locfileid: "68289855"
 
 ### <a name="azure-portal"></a>Azure 入口網站
 
-1. 在 [Azure 入口網站](https://portal.azure.com) > [Power BI Embedded] 資源中，選取左側瀏覽列中的 [診斷記錄檔]  ，然後選取 [開啟診斷]  。
+1. 在 [Azure 入口網站](https://portal.azure.com) > [Power BI Embedded] 資源中，選取導覽窗格中的 [診斷記錄檔]  ，然後選取 [開啟診斷]  。
 
     ![在 Azure 入口網站中開啟 Power BI Embedded 的診斷記錄](media/azure-pbie-diag-logs/azure-pbie-diag-logs-01.png)
 

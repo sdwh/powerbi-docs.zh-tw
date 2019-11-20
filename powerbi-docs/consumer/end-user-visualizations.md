@@ -2,7 +2,6 @@
 title: 以取用者身分使用視覺效果 (visualization, visual)
 description: Power BI 概念與術語 - 視覺效果 (visualization, visual)。 什麼是 Power BI 視覺效果 (visualization, visual)。
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f72e53fe9f017f5f12893711858cc9179b883dd
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379962"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860973"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>在報表、儀表板和應用程式中與視覺效果互動
 
@@ -52,7 +51,7 @@ ms.locfileid: "72379962"
 |在視覺效果的資料內[要求 Power BI 替您尋找有趣的事物或趨勢](end-user-insights.md)。  這些自動產生的視覺效果稱為「見解」  。     |    可以     |  針對整個報表，而不是個別視覺效果       | 不可以   |
 |[使用「焦點」  模式，一次檢視一個視覺效果](end-user-focus.md)。     | 可以        |   可以      | na  |
 |[查閱上次視覺效果更新的時間](end-user-fresh.md)。     |  可以       |    可以     | na  |
-|[使用「全螢幕」  模式或「焦點」  模式，一次檢視一個視覺效果，並去除邊界與導覽列](end-user-focus.md)。     |   可以      |  可以       | 根據預設  |
+|[使用*全螢幕模式*或*焦點模式*，一次檢視一個視覺效果，並去除邊界與導覽窗格。](end-user-focus.md)     |   可以      |  可以       | 根據預設  |
 |[列印](end-user-print.md)。     |  可以       |   可以      | 不可以  |
 |[透過新增和修改視覺效果篩選，深入挖掘視覺效果](end-user-report-filter.md)。     |    不可以     |   可以      | 不可以  |
 |將滑鼠暫留於視覺效果，以顯示其他詳細資料和工具提示。     |    可以     |   是      | 可以  |

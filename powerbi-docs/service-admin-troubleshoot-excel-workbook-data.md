@@ -2,7 +2,6 @@
 title: 錯誤：在您的 Excel 活頁簿中找不到任何資料
 description: 錯誤：在您的 Excel 活頁簿中找不到任何資料
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 04/30/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c32133a7958c1239337a5f77a92dde098652514e
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 08de5051adb420bc2a3b257fcc231730aa505b23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542872"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873393"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>錯誤：在您的 Excel 活頁簿中找不到任何資料
 
@@ -61,7 +60,7 @@ ms.locfileid: "72542872"
    
     ![格式化為資料表的資料](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-table.png)
 6. 儲存活頁簿。
-7. 返回 Power BI。 選取左瀏覽窗格底部的 [取得資料]。
+7. 返回 Power BI。 選取導覽窗格底端的 [取得資料]。
    
     ![取得資料](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
 8. 在 [檔案]  方塊中選取 [取得]  。

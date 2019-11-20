@@ -2,7 +2,6 @@
 title: 使用模擬參數來視覺化變數
 description: 建立您自己的模擬變數以想像及視覺化 Power BI 報表中的變數
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2451620c6d4092e5da4605f8e76b0a70e2eecf2b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1ad0c7d2a3c3d21d8ccb81354bdc03d845b61f58
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513493"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876055"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>在 Power BI Desktop 中建立及使用模擬參數來視覺化變數
 從 2018 年 8 月發行的 **Power BI Desktop** 開始，您可以為報表建立**模擬**變數，將變數當作交叉分析篩選器與其互動，進而視覺化及量化報表中的不同索引鍵值。
@@ -50,7 +49,7 @@ ms.locfileid: "65513493"
 
 ![](media/desktop-what-if/what-if_05.png)
 
-此新量值將會是套用折扣率的總銷售金額。 當然，您可以建立複雜且相關的量值，讓您報表的取用者視覺化**模擬**參數的變數。 例如，您可以建立一份報告，可讓銷售人員查看其補償，是否它們符合特定銷售目標或百分比，或查看的效果增加對更銷售折扣。
+此新量值將會是套用折扣率的總銷售金額。 當然，您可以建立複雜且相關的量值，讓您報表的取用者視覺化**模擬**參數的變數。 例如，您可以建立報表，讓銷售人員查看達到特定銷售目標或百分比時的報酬，或查看銷售量增加對更優惠折扣的影響。
 
 在公式列中鍵入量值公式，並將其命名為 **Sales after Discount** 之後，其結果會如下所示：
 

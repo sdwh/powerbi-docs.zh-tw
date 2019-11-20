@@ -2,20 +2,19 @@
 title: 在 Power BI Desktop (預覽) 中使用圖形地圖
 description: 在 Power BI Desktop 中使用圖形地圖建立區域的相對比較
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amanda
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6543263c0e6c3395479169e8b02034e4a9c78f7b
-ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
+ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "72164031"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871129"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>在 Power BI Desktop (預覽) 中的圖形地圖
 
@@ -61,7 +60,7 @@ Power BI Desktop 會建立空的**圖形地圖**視覺效果設計畫布。
 3. 然後，您就可以使用格式化選項 (例如 [預設色彩]  、[縮放]  等) 修改地圖。 而且，您也可以將類別資料行新增至**圖例**貯體中，並以類別為基礎來分類地圖區域。
 
 ## <a name="use-custom-maps"></a>使用自訂地圖
-只要自訂地圖為 **TopoJSON** 格式，就可在**圖形地圖**加以使用。 如果您的地圖為其他格式，可以使用 [**Map Shaper**](http://mapshaper.org/) 等線上工具將 *shapefiles* 或您的 *GeoJSON* 地圖轉換成 **TopoJSON** 格式。
+只要自訂地圖為 **TopoJSON** 格式，就可在**圖形地圖**加以使用。 如果您的地圖為其他格式，可以使用 [**Map Shaper**](https://mapshaper.org/) 等線上工具將 *shapefiles* 或您的 *GeoJSON* 地圖轉換成 **TopoJSON** 格式。
 
 若要使用您的 **TopoJSON** 地圖檔，請將 ShapeMap 視覺效果加入報表中，然後將一些資料加入「位置」  與「色彩飽和度」  貯體中。 然後，在已選取 [格式]  區段 (在下圖顯示為 (1)) 的 [視覺效果]  窗格中，展開 [圖形]  區段，然後選取 [+ 新增地圖]  。
 
@@ -82,7 +81,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 如果您想要測試此資料集和視覺效果，您可以下載原始 PBIX 檔案，透過下列連結來產生此報表。
 
-* [自訂圖形地圖示範 .PBIX 檔案](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
+* [自訂圖形地圖示範 .PBIX 檔案](https://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>取得地圖資料
 若您需要快速將資料輸入模型，以測試**圖形地圖**，您可以複製本文章最後的其中一個資料表，然後從 [主資料夾]  功能區選取 [輸入資料]  。
@@ -108,7 +107,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 * **圖形地圖**視覺效果僅供預覽，且必須在 Power BI Desktop 中加以啟用。 若要啟用**圖形地圖**，請選取 [檔案] > [選項及設定] > [選項] > [預覽功能]  ，然後選取 [圖形對應視覺效果]  核取方塊。
 * 目前，您也必須設定**色彩飽和度**貯體，如此一來，**圖例**分類才能正常運作。
 * **圖形地圖**的最終發行版本將提供使用者介面來顯示目前選取之地圖的地圖索引鍵 (並未針對最後發行版本設定任何日期，而**圖形地圖**仍處於預覽狀態)。 在此預覽版本中，您可以參考可在本文後續**區域索引鍵**一節中找到之表格中的地圖區域索引鍵。
-* [圖形地圖]  視覺效果最多可繪製 1,000 個資料點。
+* [圖形地圖]  視覺效果最多可繪製 1,500 個資料點。
 
 ## <a name="region-keys"></a>區域索引鍵
 

@@ -2,7 +2,6 @@
 title: 與組織內容套件中斷連接 - Power BI
 description: 了解如何藉由刪除 Power BI 中內容套件的資料集來移除組織內容套件的連線。
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d83a57b2b1f8e2ca0887f2432f2de43647900b81
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 3936ebfedb1e4e51fe93b948a49de0b9fb133c52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020628"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881301"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>移除與 Power BI 組織內容套件的連接
 
@@ -27,7 +26,7 @@ ms.locfileid: "72020628"
 
 若要移除內容套件，請移除其資料集。  
 
-* 在左方瀏覽窗格中，選取資料集右方的省略符號，然後選取 [移除] **\> [是]** 。  
+* 在導覽窗格中，選取資料集右方的省略符號，然後選取 [移除] **\> [是]** 。  
   
   ![移除內容套件](media/service-organizational-content-pack-disconnect/power-bi-remove-organizational-content-pack-dataset.png)
 
@@ -37,5 +36,5 @@ ms.locfileid: "72020628"
 * [組織內容套件簡介](service-organizational-content-pack-introduction.md) 
 * [在 Power BI 中建立和散發應用程式](service-create-distribute-apps.md) 
 * [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)  
-* 有其他問題嗎？ [試試 Power BI 社群](http://community.powerbi.com/)
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

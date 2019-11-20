@@ -2,7 +2,6 @@
 title: 將報表匯出至 PDF
 description: 了解如何將 Power BI 報表匯出至 PDF。
 author: mihart
-manager: kvivek
 ms.custom: ''
 ms.reviewer: cmfinlan
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1d6ddcd11118e0eb9894002c5c97edda134d4635
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 376ecd007e774a153b47df75417621d4233cc4ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716996"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862855"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>從 Power BI 將報表匯出至 PDF
 
@@ -25,7 +24,7 @@ ms.locfileid: "72716996"
 有了 Power BI，您就可以將報表發佈為 PDF 格式，並根據 Power BI 報表輕鬆地建立文件。 當您匯出至 PDF 時，Power BI 報表中每個頁面都會變成 PDF 文件中的個別頁面。
 
 ## <a name="export-your-power-bi-report-to-pdf"></a>將 Power BI 報表匯出至 PDF
-在 Power BI 服務中，選取要顯示在畫布上的報表。 您也可以從左側瀏覽窗格上的 [首頁]  、[應用程式]  或其他任何容器中選取報表。
+在 Power BI 服務中，選取要顯示在畫布上的報表。 您也可以從導覽窗格的 [首頁]  、[應用程式]  或其他任何容器中選取報表。
 
 1. 從功能表列中選取 [匯出]   > [PDF]  。
 

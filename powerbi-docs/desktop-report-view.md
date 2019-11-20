@@ -2,7 +2,6 @@
 title: Power BI Desktop 中的報表檢視
 description: Power BI Desktop 中的報表檢視
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 06b8c9d0be2ec8bc5b350767263bfc5e0ab4ec81
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142179"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877857"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop 中的報表檢視
 若您已在使用 Power BI，就會知道建立報表提供動態檢視方塊及深入剖析資訊有多容易。 Power BI Desktop 提供更多進階的 Power BI 功能。 有了 Power BI Desktop，您可以建立進階查詢、混用來自多種來源的資料、建立資料表之間的關聯性等等。
@@ -29,7 +28,7 @@ Power BI Desktop 包含 [報表檢視]  ，可讓您從中建立任意數量的�
 
 ![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-您只需要選取左導覽列中的圖示，就能切換 [報表檢視]  、[資料檢視]  與 [關聯性檢視]  ：
+您只需要選取左側導覽窗格中的圖示，就能切換 [報表檢視]  、[資料檢視]  與 [關聯性檢視]  ：
 
 ![[報表檢視] 圖示](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
