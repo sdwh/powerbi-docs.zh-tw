@@ -142,7 +142,7 @@
               href: register-app.md
             - name: 取得 Azure AD 存取權杖
               href: get-azuread-access-token.md
-            - name: 動態繫結
+            - name: 使用動態繫結連接報表
               href: embed-dynamic-binding.md
             - name: 內嵌問與答
               href: qanda.md
