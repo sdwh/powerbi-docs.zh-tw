@@ -2,26 +2,25 @@
 title: Power BI 中的視覺效果類型
 description: Power BI 中的視覺效果類型
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72775947"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099928"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
 ## <a name="power-bi-visualizations"></a>Power BI 視覺效果
 近期將加入新的視覺效果，請密切注意！
 
-也請查看 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)，您會發現這裡有一份持續成長的[自訂視覺效果](../power-bi-custom-visuals.md)清單，供您下載並用在自己的儀表板和報告中。 腦中充滿創造力嗎？ [了解如何建立您自己的視覺效果並新增至這個社群網站](../developer/office-store.md)。  
+也請查看 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)，您會發現這裡有一份持續成長的[自訂視覺效果](../developer/power-bi-custom-visuals.md)清單，供您下載並用在自己的儀表板和報告中。 腦中充滿創造力嗎？ [了解如何建立您自己的視覺效果並新增至這個社群網站](../developer/office-store.md)。  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI 提供的視覺效果清單
 所有這些視覺效果皆可加入 Power BI 報表、在問與答中指定，並釘選到儀表板。
@@ -226,8 +225,8 @@ ms.locfileid: "72775947"
 
 ***依州以矩形式樹狀結構圖顯示銷售額***.
 
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
+![顯示指定視覺效果類型的問與答問題方塊](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 報表中的視覺效果](power-bi-report-visualizations.md)    
-[來自 sqlbi.com 的正確視覺效果參考](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[來自 sqlbi.com 的正確視覺效果參考](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

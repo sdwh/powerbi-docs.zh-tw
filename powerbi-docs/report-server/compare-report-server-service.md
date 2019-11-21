@@ -7,15 +7,14 @@ ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: 877d3590fab67f0aed3c3ab6dc9de9a96ade5dc9
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431463"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128283"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
 
@@ -27,7 +26,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 |---------|---------|---------|---------|
 | 部署 | 內部部署或雲端託管 | 雲端 | 如果透過 Power BI Premium 授權，Power BI 報表伺服器可以部署在 Azure VM (雲端託管) 中 |
 | 來源資料 | 雲端及/或內部部署 | 雲端及/或內部部署 |  |
-| 授權 | Power BI Premium 或使用 SA 的 SQL Server EE | Power BI Pro 及/或 Power BI Premium | |  
+| 授權 | Power BI Premium 或包含軟體保證 (SA) 的 SQL Server | Power BI Pro 及/或 Power BI Premium | |  
 | 生命週期 | 新式生命週期原則 | 完全受控的服務 |  |
 | 發行週期 | 一年三次 (一月、五月、九月) | 每月一次 | 最新功能和修正首先會提供給 Power BI 服務。 在接下來的幾個版本中，大部分的核心功能都會提供給 Power BI 報表伺服器，而某些功能僅適用於 Power BI 服務。 |
 | 在 Power BI Desktop 中建立 Power BI 報表 | 是 | 是 |  |
@@ -52,9 +51,9 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 進階的 Office 365 共同作業 | 否 | 是 | 搭配 Office 365 [在工作區中共同作業](../service-collaborate-power-bi-workspace.md) |
 | R 視覺效果 | 否 | 是 | 在 Power BI Desktop 中[建立 R 視覺效果](../desktop-r-visuals.md)，並將其發佈至 Power BI 服務。 您無法將具有 R 視覺效果的 Power BI 報表，儲存至 Power BI 報表伺服器。  |
 | 預覽功能 | 否 | 是 | [選擇加入 Power BI 服務預覽](../consumer/end-user-preview-features.md)功能 |
-| 自訂視覺效果 | 是 | 是 | [Power BI 的自訂視覺效果](../power-bi-custom-visuals.md) |
+| 自訂視覺效果 | 是 | 是 | [Power BI 的自訂視覺效果](../developer/power-bi-custom-visuals.md) |
 | 複合模型 | 否 | 是 |
-| Power BI Desktop | 針對報表服務器進行了版本最佳化，可透過報表伺服器下載使用 | 針對 Power BI 服務進行了版本最佳化，可從 Windows 市集取得 | [適用於報表伺服器的 Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [適用於 Power BI 服務的 Power BI Desktop](http://aka.ms/pbidesktopstore) |
+| Power BI Desktop | 針對報表服務器進行了版本最佳化，可透過報表伺服器下載使用 | 針對 Power BI 服務進行了版本最佳化，可從 Windows 市集取得 | [適用於報表伺服器的 Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [適用於 Power BI 服務的 Power BI Desktop](https://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>後續步驟
 

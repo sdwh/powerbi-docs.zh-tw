@@ -1,22 +1,22 @@
 ---
 title: Power BI 服務中的設計工具基本概念
-description: Power BI 服務工作區、儀表板、報告、資料集和活頁簿。
+description: Power BI 服務容量、工作區、儀表板、報表、資料集與資料流程。
 author: maggiesMSFT
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/25/2019
+ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 80d878cc5a8ed0df294b99390fb87d8099bfccb5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431324"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128356"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 服務中的設計工具基本概念
 
@@ -28,7 +28,7 @@ ms.locfileid: "73431324"
 
 當您在瀏覽器中開啟 Power BI 服務時，會從看到首頁開始。 以下是您可能會看到的元素：
 
-1. 瀏覽窗格 (左導覽列)
+1. [瀏覽] 窗格
 2. Office 365 應用程式啟動器
 3. Power BI 首頁按鈕
 4. 圖示按鈕，包括設定、說明與意見反應
@@ -45,20 +45,36 @@ ms.locfileid: "73431324"
 
 
 ## <a name="power-bi-concepts"></a>Power BI 概念
-Power BI 有 4 個主要的建置組塊： **_儀表板_** 、 **_報表_** 、 **_活頁簿_** 及 **_資料集_** 。 而且其會全部整理到 **_工作區_** 中。 在我們深入探討四個建置組塊之前，請務必先了解工作區，因此讓我們先從這裡開始。
+Power BI 包含五個主要的建構元素：*儀表板*、*報表*、*活頁簿*、*資料集*及*資料流程*。 這些建構元素組合而成*工作區*，並會依據*容量*建立。  在深入探討這五個建構元素之前，應先了解容量與工作區，所以我們將由此開始。
+
+## <a name="capacities"></a>容量
+容量是 Power BI 的核心概念，代表一組可以用於裝載及傳遞 Power BI 內容的資源 (儲存體、處理器與記憶體)。 容量可以_共用_，也可以_專用_。 共用的容量會提供給其他 Microsoft 客戶共用，而專用容量則會專供一位客戶使用。 專用容量需要[訂閱](service-premium-what-is.md)，這會在[管理進階容量](service-premium-capacity-manage.md)一文中詳細說明。
+
+根據預設，工作區會依據共用容量建立。 在共用的容量中，工作負載是在與其他客戶共用的計算資源上執行。 由於容量必須共用資源，因此會加以設限，以確保「公平使用」，例如最大模型大小 (1 GB) 及每日重新整理頻率上限 (每天 8 次)。
 
 ## <a name="workspaces"></a>工作區
-工作區是 Power BI 中儀表板、報告、活頁簿和資料集的容器。 有兩種類型的工作區：「我的工作區」  和「工作區」  。 所以，何謂「應用程式」  ？ Power BI 應用程式  是為了提供重要計量給組織的 Power BI 終端使用者而建立的一組儀表板和報告。 應用程式皆為互動式，但終端使用者無法編輯。
+工作區會依據容量建立。 工作區基本上就是 Power BI 儀表板、報表、活頁簿、資料集與資料流程的容器。
+
+有兩種類型的工作區：「我的工作區」  和「工作區」  。
 
 - [我的工作區]  是可供任何 Power BI 客戶處理自己的內容的個人工作區。 只有您可以存取您的 [我的工作區]。 您可以從 [我的工作區] 共用儀表板和報表。 如果您想要在儀表板和報表上共同作業，或建立應用程式，則應在工作區中工作。      
--  [工作區]  用於共同作業並與同事共用內容。 它們也是您為組織建立、發佈及管理應用程式的地方。 將它們視為將構成 Power BI 應用程式之內容的暫存區域與容器。 您可以將同事新增至您的工作區，以及在儀表板、報告、活頁簿和資料集上共同作業。 工作區的所有成員都需要 Power BI Pro 授權。 應用程式取用者 (可以存取應用程式的同事) 不一定需要 Pro 授權。 深入閱讀[新增工作區](service-create-the-new-workspaces.md)。  
+-  *工作區*可用於共同作業，以及與同事共用內容。 您可以將同事新增至您的工作區，以及在儀表板、報告、活頁簿和資料集上共同作業。 但有一項例外，所有工作區成員都須具備 Power BI Pro 授權。 深入閱讀[新增工作區](service-create-the-new-workspaces.md)。 
+
+    您也可以在工作區中為組織建立、發佈及管理*應用程式*。 您可以將工作區視為組成 Power BI 應用程式之內容的暫存區域與容器。 所以，何謂「應用程式」  ？ 應用程式集結了儀表板與報表，而建置這些儀表格與報表目的，則在提供關鍵計量給組織中的 Power BI 取用者。 應用程式皆能互動，但取用者無法編輯。 應用程式取用者 (可以存取應用程式的同事) 不一定需要 Pro 授權。  
 
 若要深入了解一般共用，請從[共用您工作時使用儀表板的方式](service-how-to-collaborate-distribute-dashboards-reports.md)開始。
 
-現在，進入 Power BI 建置組塊。 儀表板或報表不能沒有資料 (確實可以有空白儀表板與空白報表，但如果當中沒有資料並沒有幫助)，因此讓我們先從 **資料集**開始。
+現在讓我們開始進入 Power BI 的五大建構元素。
+
+## <a name="dataflows"></a>資料流程
+*資料流程*可協助組織統一不同來源的資料， 這非必要，通常複雜的大型專案才會使用。 資料流程代表資料已準備好，而且已經暫存，可以供資料集使用。 資料流程無法直接用為報表的來源。 其會利用龐大的 Microsoft 資料連接器集合，讓您能夠從內部部署及雲端資料來源擷取資料。
+
+資料流程只會在工作區中建立及管理 (但不是*我的工作區*)，而且在 Azure Data Lake Storage Gen2 的 Common Data Model (CDM) 中，會以實體的形式儲存。 資料流程通常會定期重新整理，以儲存最新的資料。 其非常適合用於準備資料供資料集使用或可能重複使用。 如需詳細資訊，請參閱 [Power BI 中的自助資料準備](service-dataflows-overview.md)一文。
+
+您的儀表板或報表中不能沒有資料 (您可能會有空白的儀表板及空白報表，但其中若無任何資料，就不會加以使用)，因此我們接著要介紹**資料集**。
 
 ## <a name="datasets"></a>資料集
-「資料集」  是您要在其中「匯入」  或「連接」  之資料的集合。 Power BI 可讓您連接和匯入各式各樣的資料集，並將所有資料整合到一個位置。  
+「資料集」  是您要在其中「匯入」  或「連接」  之資料的集合。 Power BI 可讓您連接和匯入各式各樣的資料集，並將所有資料整合到一個位置。 資料集也是資料流程的來源資料。
 
 資料集與「工作區」  相關聯，而單一資料集可以是許多工作區的一部分。 當您開啟工作區時，相關聯的資料集會列在 [資料集]  索引標籤之下。每個列出的資料集代表單一來源的資料，例如 OneDrive 上的 Excel 活頁簿、內部部署的 SSAS 表格式資料集，或 Salesforce 資料集。 其支援許多不同的資料來源，同時我們會不停加入新的資料來源。 查看[可搭配 Power BI 使用的資料集類型](service-get-data.md)清單。
 
@@ -74,13 +90,17 @@ Power BI 有 4 個主要的建置組塊： **_儀表板_** 、 **_報表_** 、 
 
   ![資料集圖表](media/service-basic-concepts/drawing2.png)
 
-若要[連線到或匯入資料集](service-get-data.md)，請選取左邊瀏覽區底部的 [取得資料]  。 請遵循指示來連線到或匯入特定來源，並將資料集新增至作用中的工作區。 新的資料集會以黃色星號標示。 您在 Power BI 中執行的工作不會變更底層資料集。
+若要[連接資料集或匯入資料集](service-get-data.md)，請選取瀏覽窗格底部的 [取得資料]  。 請遵循指示來連線到或匯入特定來源，並將資料集新增至作用中的工作區。 新的資料集會以黃色星號標示。 您在 Power BI 中執行的工作不會變更底層資料集。
 
 具備 *admin*、*member* 或 *contributor* 角色的其他工作區成員，可以使用由其中一位工作區成員所新增的資料集。
 
-您可以重新整理、重新命名、瀏覽及移除資料集。 使用資料集從頭開始建立報告，或執行[快速深入解析](service-insights.md)。  若要查看哪些報告和儀表板已經使用資料集，請選取 [檢視相關的]  。 若要瀏覽資料集，請選取該資料集。 您實際上會在報表編輯器中開啟資料集，您可以在編輯器中開始挖掘資料並建立視覺效果。 因此，讓我們前進到下一個主題 - 報表。
+您可以重新整理、重新命名、瀏覽及移除資料集。 使用資料集從頭開始建立報告，或執行[快速深入解析](service-insights.md)。  若要查看哪些報告和儀表板已經使用資料集，請選取 [檢視相關的]  。 若要瀏覽資料集，請選取該資料集。 您實際上會在報表編輯器中開啟資料集，而在編輯器中，您可以建立視覺效果，開始深入探索資料。
+
+現在讓我們進入下一個主題 - 報表。
 
 ### <a name="dig-deeper"></a>深入瞭解
+* [Power BI 服務中的資料集](service-datasets-understand.md)
+* [Power BI 服務中的資料集模式](service-dataset-modes-understand.md)
 * [什麼是 Power BI Premium？](service-premium-what-is.md)
 * [取得 Power BI 的資料](service-get-data.md)
 * [Power BI 的範例資料集](sample-datasets.md)
@@ -159,10 +179,10 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
 
 ![瀏覽器中的 Power BI 服務](media/service-basic-concepts/completenewest.png)
 
-### <a name="1-navigation-pane-left-nav"></a>1.**瀏覽窗格** (左導覽列)
-使用瀏覽窗格在您的工作區與 Power BI 建置組塊 (儀表板、報告、活頁簿和資料集) 之間尋找及移動。  
+### <a name="1-navigation-pane"></a>1.**瀏覽窗格**
+使用瀏覽窗格在您的工作區與 Power BI 建構元素 (儀表板、報表、活頁簿和資料集) 之間尋找及移動。  
 
-  ![[瀏覽] 窗格](media/service-basic-concepts/power-bi-navigation.png)
+  ![瀏覽窗格](media/service-basic-concepts/power-bi-navigation.png)
 
 * 選取 [取得資料]  ，[將資料集、報表和儀表板新增至 Power BI](service-get-data.md)。
 * 使用此圖示展開及摺疊瀏覽窗格 ![瀏覽窗格圖示](media/service-basic-concepts/expand-icon.png).
@@ -227,5 +247,4 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
 - [Power BI 是什麼？](fundamentals/power-bi-overview.md)  
 - [Power BI 影片](videos.md)  
 - [報告編輯器.-.進行導覽](service-the-report-editor-take-a-tour.md)
-
-有其他問題嗎？ [嘗試在 Power BI 社群提問](http://community.powerbi.com/)
+- 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
