@@ -279,8 +279,6 @@
               href: desktop-slicer-filter-date-range.md
             - name: 建立可以調整大小的交叉分析篩選器
               href: power-bi-slicer-filter-responsive.md
-            - name: 建立 Cortana 的自訂回應卡
-              href: service-cortana-answer-cards.md
             - name: 資料列層級安全性
               href: desktop-rls.md
             - name: 自訂工具提示
@@ -665,10 +663,6 @@
               href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
             - name: 透過即時連線使用問與答
               href: service-q-and-a-direct-query.md
-            - name: 適用於 Power BI 的 Cortana 簡介
-              href: service-cortana-intro.md
-            - name: 啟用適用於 Power BI 的 Cortana
-              href: service-cortana-enable.md
             - name: Power BI 的快速深入剖析
               href: service-insights.md
             - name: 針對快速見解將資料最佳化
@@ -801,8 +795,6 @@
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 錯誤：在您的 Excel 活頁簿中找不到任何資料
               href: service-admin-troubleshoot-excel-workbook-data.md
-            - name: 疑難排解 Cortana
-              href: service-cortana-troubleshoot.md
             - name: 如何在重新整理失敗時，重新整理 Xero 內容套件認證
               href: service-refresh-xero-credentials.md
         - name: 其他工作
