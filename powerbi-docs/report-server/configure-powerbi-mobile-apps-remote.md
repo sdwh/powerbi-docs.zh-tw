@@ -1,25 +1,31 @@
 ---
-title: 從遠端設定 iOS 行動裝置應用程式對報表伺服器的存取權
-description: 了解如何為報表伺服器從遠端設定 iOS 行動裝置應用程式。
-author: maggiesMSFT
+title: 從遠端設定行動裝置應用程式對報表伺服器的存取權
+description: 了解如何為報表伺服器從遠端設定行動裝置應用程式。
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/08/2019
-ms.author: maggies
-ms.openlocfilehash: ab9f7c2559038505b5507d4a87b50933e7b0b041
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/07/2019
+ms.author: painbar
+ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874217"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925842"
 ---
-# <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>從遠端設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取
+# <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>從遠端設定 Power BI 行動裝置應用程式對報表伺服器的存取
 
-在本文中，您可以了解如何使用組織的 MDM 工具來設定 Power BI iOS 行動裝置應用程式對報表伺服器的存取。 若要進行此設定，IT 系統管理員會使用要推送到應用程式的必要資訊，來建立應用程式設定原則。 
+適用於︰
 
- Power BI iOS 行動裝置應用程式的使用者，可利用已設定的報表伺服器連線，更輕鬆地連線到其組織的報表伺服器。 
+| ![iPhone](./media/configure-powerbi-mobile-apps-remote/ios-logo-40-px.png) | ![Android 手機](./media/configure-powerbi-mobile-apps-remote/android-logo-40-px.png) |
+|:--- |:--- |
+| iOS |Android |
+
+在本文中，您可以了解如何使用組織的 MDM 工具來設定 Power BI 行動裝置應用程式對報表伺服器的存取。 若要進行此設定，IT 系統管理員會使用要推送到應用程式的必要資訊，來建立應用程式設定原則。 
+
+ Power BI 行動裝置應用程式的使用者，可利用已設定的報表伺服器連線，更輕鬆地連線到其組織的報表伺服器。 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>在 MDM 工具中建立應用程式組態原則 
 
@@ -43,9 +49,9 @@ ms.locfileid: "73874217"
 
 ![Intune 組態設定](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configuration-settings.png)
 
-## <a name="end-users-connecting-to-a-report-server"></a>終端使用者連線到報表伺服器
+## <a name="end-users-connecting-to-report-server"></a>終端使用者連線到報表伺服器
 
- 假設您對通訊群組清單發佈了應用程式設定原則。 則當通訊群組清單上的使用者與裝置，啟動 iOS 行動裝置應用程式時，會有如下的體驗。 
+ 假設您對通訊群組清單發佈了應用程式設定原則。 則當通訊群組清單上的使用者與裝置，啟動行動裝置應用程式時，會有如下的體驗。 
 
 1. 他們會看到訊息顯示行動裝置應用程式已設有報表伺服器，然後點選 [登入]  。
 
