@@ -1,23 +1,25 @@
 ---
 title: 使用 R 指令碼建立進階分析和視覺效果
-description: 在 Power BI 中使用 R 指令碼建立進階分析和進階視覺效果
+description: 在 Power BI Desktop 中使用 R 指令碼，建立進階分析及進階視覺效果
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 93b3be374707b3e49f87d0875795d160f4530410
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655010"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099860"
 ---
-# <a name="creating-r-visuals-in-the-power-bi-service"></a>在 Power BI 服務中建立 R 視覺效果
+# <a name="r-visuals-in-power-bi"></a>Power BI 中的 R 視覺效果
+R 視覺效果目前僅能在 **Power BI Desktop** 中建立，然後發行到 Power BI 服務。 如需如何建立 R 視覺效果的詳細資訊，請參閱 [使用 R 建立 Power BI 視覺效果](../desktop-r-visuals.md)。
+
+## <a name="viewing-r-visuals-in-the-power-bi-service"></a>在 Power BI 服務中檢視 R 視覺效果
 Power BI 服務支援檢視使用 R 指令碼建立的視覺效果，並與其互動。 以 R 指令碼建立的視覺效果通常稱為「R 視覺效果」  ，可以使用 R 豐富的分析和視覺效果功能呈現進階的資料成形和分析，例如預測。
 
 > [!NOTE]
@@ -27,23 +29,23 @@ Power BI 服務支援檢視使用 R 指令碼建立的視覺效果，並與其�
 
 下圖顯示的 Power BI 儀表板，使用了一系列用於進階分析的 R 視覺效果。
 
-![](media/service-r-visuals/r-visuals-service_1.png)
+![Power BI 服務報表畫布的螢幕擷取畫面](media/service-r-visuals/power-bi-r-visuals.png)
 
 R 視覺效果建立在 [Power BI Desktop 報表](../desktop-get-the-desktop.md)中，如下圖顯示的報表。
 
-![](media/service-r-visuals/r-visuals-service_2a.png)
+![有兩個視覺效果的 Desktop 報表](media/service-r-visuals/power-bi-r-visual-desktop.png)
 
-一旦在 **Power BI Desktop** 中建立了報表，您就可以將包含一或多個 R 視覺效果的報表發行到 Power BI 服務。 R 視覺效果目前僅能在 **Power BI Desktop** 中建立，然後發佈到 Power BI 服務。 如需有關建立 R 視覺效果的詳細資訊，請參閱 [使用 R 建立 Power BI 視覺效果 (Power BI Desktop)](../desktop-r-visuals.md)。
+一旦在 **Power BI Desktop** 中建立了報表，您就可以將包含一或多個 R 視覺效果的報表發行到 Power BI 服務。 
 
-請注意，服務並不支援所有的 R 封裝。 如需 Power BI 服務目前支援的封裝清單，請在本文結尾參閱支援的封裝。
+ 此服務不支援所有的 R 套件。 如需 Power BI 服務目前支援的封裝清單，請在本文結尾參閱支援的封裝。
 
-您可以下載這份[範例 Power BI Desktop 檔案](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (.pbix 檔案)，其中包含數個 R 視覺效果，可供您查看運作方式及進行實驗。
+您可以下載這份[範例 Power BI Desktop 檔案](https://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (.pbix 檔案)，其中包含數個 R 視覺效果，可供您查看運作方式及進行實驗。
 
 在 **Power BI Desktop** 中建立、然後發行到 Power BI 服務的 R 視覺效果，絕大多數的行為就如同 Power BI 服務中的其他視覺效果；您可以與其互動，加以篩選、配量以及釘選到儀表板，或與他人共用。 如需共用儀表板和視覺效果的詳細資訊，請參閱 [與同事和其他人共用儀表板](../service-share-dashboards.md)。 R 視覺效果和其他視覺效果的不同之處在於無法顯示工具提示，也無法用於篩選其他視覺效果。
 
 如下圖所示，Power BI 服務中的 R 視覺效果無論在儀表板或報表中，大部分的表現及行為都和任何其他視覺效果一樣，因此使用者不需要留意建立視覺效果的基礎 R 指令碼。
 
-![](media/service-r-visuals/r-visuals-service_3a.png)
+![Power BI 服務中報表畫布的螢幕擷取畫面](media/service-r-visuals/power-bi-r-visual.png)
 
 ## <a name="r-scripts-security"></a>R 指令碼安全性
 R 視覺效果是從 R 指令碼建立，可能包含具有安全性或隱私權風險的程式碼。
@@ -57,14 +59,14 @@ Power BI 服務套用「沙箱」  技術，保護使用者與服務免於安全
 ## <a name="r-scripts-error-experience"></a>R 指令碼錯誤體驗
 當 R 指令碼發生錯誤時，R 視覺效果不會進行繪製，而且會顯示錯誤訊息。 如需錯誤的詳細資料，請從畫布的 R 視覺效果錯誤中選取 [查看詳細資料]  ，如下圖所示。
 
-![](media/service-r-visuals/r-visuals-service_4.png)
+![錯誤訊息](media/service-r-visuals/r-visuals-service-4.png)
 
 下圖顯示另一例，當 R 指令碼因為 Azure 遺漏 R 封裝而無法正確執行時，會出現錯誤訊息。
 
-![](media/service-r-visuals/r-visuals-service_5.png)
+![顯示執行階段錯誤的螢幕擷取畫面](media/service-r-visuals/r-visuals-service-5.png)
 
 ## <a name="licensing"></a>授權
-R 視覺效果需要 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 授權才能呈現在報表、重新整理、篩選和交叉篩選中。 如需 Power BI Pro 授權的詳細資訊，以及和免費授權有何差異，請參閱[何謂 Power BI Pro 內容？](../service-admin-purchasing-power-bi-pro.md)
+R 視覺效果需要 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 授權，才能在報表、重新整理、篩選及交叉篩選中呈現。 如需 Power BI Pro 授權的詳細資訊，以及和免費授權有何差異，請參閱[何謂 Power BI Pro 內容？](../service-admin-purchasing-power-bi-pro.md)
 
 Power BI 的免費使用者只能取用在 Premium 工作區中與他們共用的磚。 如需詳細資訊，請參閱[購買 Power BI Pro](../service-admin-purchasing-power-bi-pro.md)。
 
@@ -83,7 +85,7 @@ Power BI 的免費使用者只能取用在 Premium 工作區中與他們共用�
 ## <a name="known-limitations"></a>已知的限制
 Power BI 服務的 R 視覺效果有某些限制︰
 
-* R 視覺效果支援限於下頁 <make this a link to the supported packages page per my excel> 提及的封裝。 目前不支援自訂封裝。
+* R 視覺效果支援僅限於[了解支援哪些 R 套件](../service-r-packages-support.md)一文中指出的套件 。 目前不支援自訂封裝。
 * 資料大小限制 – R 視覺效果用於繪製的資料限制為 150,000 個資料列。 如果選取超過 150,000 個資料列，則只會使用前 150,000 個資料列，而且影像上會顯示訊息。
 * 計算時間限制 - 如果 R 視覺效果計算超過 60 秒，指令碼會逾時並導致錯誤。
 * R 視覺效果會在資料更新、篩選及反白顯示時進行重新整理。 不過，影像本身不會互動，也不支援工具提示。
@@ -92,7 +94,7 @@ Power BI 服務的 R 視覺效果有某些限制︰
 * 使用 [發行至 Web]  時不會顯示 R 視覺效果。
 * 儀表板和報表列印目前不會列印 R 視覺效果
 * Analysis Services 的 DirectQuery 模式目前不支援 R 視覺效果
-* 中文、日文和韓文字型需要執行下列所有額外步驟，才能在 Power BI 服務中正常運作︰
+* 中文、日文與韓文字型必須執行下列所有額外步驟，才能在 Power BI 服務中正常運作︰
   
   * 首先，請安裝 R 套件 *showtext* 和其所有其相依性。 做法是執行下列指令碼︰
     
@@ -102,7 +104,7 @@ Power BI 服務的 R 視覺效果有某些限制︰
         powerbi_rEnableShowTextForCJKLanguages =  1
 
 ## <a name="overview-of-r-packages"></a>R 套件概觀
-R 套件是以定義完善的格式所合併的 R 函式、資料和已編譯程式碼集合。 R 在安裝時隨附一組標準套件，並且有其他套件可供下載和安裝。 安裝之後，必須將 R 套件載入至要使用的工作階段。 可用 R 套件的主要來源是 CRAN，即 [Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html)。
+R 套件是以定義完善的格式所合併的 R 函式、資料和已編譯程式碼集合。 R 在安裝時隨附一組標準套件，並且有其他套件可供下載和安裝。 安裝之後，必須將 R 套件載入要使用的工作階段。 可用 R 套件的主要來源是 CRAN，即 [Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html)。
 
 **Power BI Desktop** 可以使用任意類型的 R 套件，沒有任何限制。 您可以自行安裝 R 套件，以用於 **Power BI Desktop** (例如，使用 [RStudio IDE](https://www.rstudio.com/))。
 

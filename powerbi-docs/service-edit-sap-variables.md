@@ -1,29 +1,28 @@
 ---
-title: 在 Power BI 服務中編輯 SAP 變數 (預覽)
+title: 在 Power BI 服務中編輯 SAP 變數
 description: Azure 和 Power BI
 author: Sujata994
 ms.author: sunaraya
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: db1d4a8a9734c910514b4952b664bf7ebce324c1
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654883"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010860"
 ---
-# <a name="edit-sap-variables-in-the-power-bi-service-preview"></a>在 Power BI 服務中編輯 SAP 變數 (預覽)
+# <a name="edit-sap-variables-in-the-power-bi-service"></a>在 Power BI 服務中編輯 SAP 變數
 
-搭配 DirectQuery 使用 SAP Business Warehouse 或 SAP HANA 時，報表作者現在可以允許終端使用者在 **Power BI 服務**中編輯 Premium 工作區的 SAP 變數。
+報表作者現在在搭配使用 DirectQuery 與 SAP Business Warehouse 或 SAP HANA 時，可以允許終端使用者在 **Power BI 服務**中，編輯 Premium 及共用工作區的 SAP 變數。 請注意，此功能不適用於 [我的工作區] 的 [與我共用] 索引標籤中的報表。 
 
 ![[編輯變數] 對話方塊](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 
-本文件描述在 Power BI 中編輯變數的需求、如何啟用此預覽功能，以及在 Power BI 服務中編輯變數的位置。
+本文件描述在 Power BI 中編輯變數的需求；如何啟用此功能；以及在 Power BI 服務中，何處可以編輯變數。
 
 ## <a name="requirements-for-sap-edit-variables"></a>SAP 編輯變數的需求
 
@@ -31,12 +30,10 @@ ms.locfileid: "69654883"
 
 **需要新的篩選體驗** - 您必須為報表啟用[新的篩選體驗](power-bi-report-filter.md)。 以下示範如何在 Power BI Desktop 中為報表啟用新的篩選體驗：
 - 在 Power BI Desktop 中，選取 [檔案]   > [選項及設定]   > [選項] 
-- 在左側導覽列中，選取 [目前檔案]  下的 [報表設定]  。
+- 在導覽窗格的 [目前檔案]  底下，選取 [報表設定]  。
 - 在 [篩選體驗]  下，選取 [啟用更新的篩選窗格]  。
 
 **需要 DirectQuery 連接** - 您必須使用 DirectQuery 連接到 SAP 資料來源。 不支援匯入連接。
-
-**需要 Power BI Premium 訂用帳戶** - SAP 編輯變數功能目前僅適用於 Power BI Premium 訂用帳戶。
 
 **需要 SSO 設定** - 為了讓此功能正常運作，必須設定單一登入 (SSO)。 如需詳細資訊，請參閱[單一登入 (SSO) 概觀](service-gateway-sso-overview.md)。
 
@@ -48,7 +45,7 @@ ms.locfileid: "69654883"
 
 ## <a name="how-to-enable-the-feature"></a>如何啟用功能
 
-若要啟用 [SAP 編輯變數]  功能，請在 Power BI Desktop 中連接到 SAP HANA 或 SAP BW 資料來源。 然後移至 [檔案] > [選項及設定] > [選項]  ，並接著在左窗格的 [目前檔案] 區段中，選取 [DirectQuery]  。 當您選取該選項時，您會在右窗格中看到 [DirectQuery 選項]，以及可讓您 [允許終端使用者變更此報表的 SAP 變數 (預覽)]  的核取方塊，如下圖所示。
+若要啟用 [SAP 編輯變數]  功能，請在 Power BI Desktop 中連接到 SAP HANA 或 SAP BW 資料來源。 然後移至 [檔案] > [選項及設定] > [選項]  ，並接著在左窗格的 [目前檔案] 區段中，選取 [DirectQuery]  。 當您選取該選項時，右窗格中會顯示 [DirectQuery 選項]，以及可讓您 [允許終端使用者變更此報表的 SAP 變數]  的核取方塊，如下圖所示。
 
 ![DirectQuery 選項](media/service-edit-sap-variables/sap-preview-setting-in-desktop.png)
 
@@ -78,10 +75,6 @@ ms.locfileid: "69654883"
     ![重設為預設值](media/service-edit-sap-variables/reset-to-default.png)
 
 在使用 SAP HANA 或 SAP BW 並啟用 [編輯變數]  功能的 Power BI 服務中處理發佈報表時，報表擁有者可以變更這些預設值。 報表的擁有者可以在編輯模式中變更變數，然後儲存報表，讓這些設定成為該報表的「新預設設定」  。 在報表擁有者進行這類變更之後，任何其他存取此報表的使用者將會看到這些新預設設定。
-
-## <a name="issues-and-considerations"></a>問題與考量
-
-應用程式目前不支援 SAP 編輯變數功能。
 
 ## <a name="next-steps"></a>後續步驟
 
