@@ -407,6 +407,8 @@
       items:
         - name: Power BI Desktop 中的資料類型
           href: desktop-data-types.md
+        - name: Power BI 資料來源
+          href: power-bi-data-sources.md
         - name: 使用 Power BI Desktop 中已更新的功能區 (預覽)
           href: desktop-ribbon.md
         - name: Power BI Desktop 的公式編輯器快速鍵
