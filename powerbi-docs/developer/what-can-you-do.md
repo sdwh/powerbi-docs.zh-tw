@@ -1,19 +1,19 @@
 ---
 title: 開發人員可如何利用 Power BI？
 description: Power BI 提供各種開發人員選項。 範圍包括內嵌、自訂視覺效果和串流資料集。
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 9105edd88e83f17f4d6e75a7e45dc123a6789713
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9f9383e5cdb4b4690ef75294f7ff8c17fb643d9a
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875679"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265012"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>開發人員可如何利用 Power BI？
 

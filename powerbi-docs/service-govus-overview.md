@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 225c21693c9f100d9abbfc310b957bee7a909061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881368"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265468"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 **Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本專為美國政府客戶而設計，並且獨立且不同於商用版本的 **Power BI 服務**。
@@ -55,7 +55,6 @@ Azure 分散於多個雲端。 系統預設會允許租用戶，以開啟對雲�
 * **內嵌在 SharePoint Online 中** - 不可能使用 Power BI Web 組件將內容內嵌在 SharePoint Online 中。 不過，使用[*內嵌* Web 組件](https://docs.microsoft.com/power-bi/service-embed-secure)的安全內嵌可正常運作。 您必須將 *app.powerbigov.us* 新增至例外清單中，完成方法是遵循[允許或限制能夠內嵌在 SharePoint 頁面上內容](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)一文中的指示。
 * **Power BI 美國政府**只能作為 Pro  授權。 在系統管理入口網站中進行的任何 Power BI (免費) 授權參考 (或使用者身分) 都是在商用 Power BI 服務雲端中執行。
 * **稽核** - 自 2018 年 6 月起，稽核現在可透過 Office 365 安全性與合規性入口網站取得。
-* **Cortana 中的 Power BI 內容** - Power BI 結果不會顯示在 Cortana 搜尋結果中，其中包括適用於您的 Power BI 內容 (儀表板、報表、應用程式) 的結果，以及顯示特定關鍵字之 Cortana 最佳化報表頁面的結果。
 * **外部使用者共用** - 共用只允許在 Power BI 租用戶內進行，不過自 2018 年 6 月起，就能與 Power BI 租用戶以外的使用者共用。 請參閱[使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者](service-admin-azure-ad-b2b.md)。
 * **儀表板和報表的使用計量** - 使用計量不適用於儀表板和報表。 客戶可以使用稽核記錄資料，取得組織中內容的使用量資訊。
 * **資料流程** - 資料流程無法使用。
@@ -103,7 +102,7 @@ Azure 分散於多個雲端。 系統預設會允許租用戶，以開啟對雲�
 
 * [針對美國政府註冊 Power BI](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI 美國政府示範</a>
-* [引導式學習 Power BI](guided-learning/index.md)
+* [引導式學習 Power BI](guided-learning/index.yml)
 * [開始使用 Power BI 服務](service-get-started.md)
 * [Power BI Desktop 是什麼？](desktop-what-is-desktop.md)
 

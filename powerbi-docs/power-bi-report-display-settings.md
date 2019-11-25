@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875128"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265881"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 報表的頁面顯示設定
 我們了解保持報表版面配置像素完美的重要性。 有時候這會有點困難，因為您和您的同事可能會使用外觀比例和大小不同的螢幕來檢視這些報表。 
@@ -66,7 +66,6 @@ ms.locfileid: "73875128"
 
 * 4:3 比例
 * 16:9 比例 (預設值)
-* Cortana
 * Letter
 * 自訂 (以像素為單位的高度和寬度)
 

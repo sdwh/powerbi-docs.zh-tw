@@ -1,19 +1,19 @@
 ---
 title: 從 Power BI Embedded 移轉內容的程式碼片段
 description: 以下是內容移轉所需之基本作業的一些程式碼片段
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 95c249fe2326d9075d920a415c707811d19e5387
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f44e8b44157f62b6b80e16b18a2c80d11e43eb77
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880499"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265313"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>從 Power BI 工作區集合遷移內容的程式碼片段
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ee272f32dbce4630f8b834187e05fda5739df7be
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 10540ed49064b9e28543ce46b43d8bb2d9ca6cf7
+ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876954"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74178237"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>取得 Power BI 問題說明的 10 個祕訣
 您在使用 Power BI 時曾感到挫折嗎？或您曾在需要 Power BI 問題的解答時，因為無法即時如願而難以繼續嗎？ 
@@ -44,7 +44,7 @@ Power BI 小組會在他們的定期 [Power BI 部落格文章](https://powerbi.
 ## <a name="6-attend-training"></a>6 參加訓練
 您能選擇參加的訓練不勝枚舉，從可以實地操作的實驗室訓練到訓練短片一應俱全。
 
-* Power BI 網站上的[引導式學習](guided-learning/index.md)。
+* Power BI 網站上的[引導式學習](guided-learning/index.yml)。
 * Power BI 網站上現場或點播的[免費 Power BI 網路研討會](webinars.md)。
 
 您也可在網路上找到其他選項，例如︰

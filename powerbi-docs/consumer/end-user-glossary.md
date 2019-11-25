@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 668665bcdbbb4b06a6fd1a2ee6d4af2437be77b3
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73764720"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264865"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」  及其連線方式的高階概觀。
@@ -34,8 +34,6 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 **alert, alerts (警示)** ：根據其設定的限制，通知使用者資料變更的一種功能。 警示可在從報表視覺效果釘選的圖格上設定。 使用者會在服務及其行動裝置應用程式上接收到警示。
 
 **annotate (標註)** ：在適用於 iOS 及 Android 裝置的 Power BI 行動裝置應用程式上，在圖格、報表或視覺效果的快照集複本上撰寫行、文字或戳記。
-
-**answer card, answer page (Answer Card、回應頁面)** ：查看 Cortana Answer Card。
 
 **app, apps (應用程式)** 
 
@@ -77,10 +75,6 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 **content pack (內容套件)** ：預先封裝的資料集、報表和儀表板的集合。 現在是**應用程式**，了解[全新工作區體驗](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) \(英文\)。 
 
 **content view (內容檢視)**
-
-**Cortana Answer Card**：要包含在 Power BI 報表中的專用報表頁面，可建立自訂 Cortana 回應。
-
-**Cortana answer page (Cortana 回應頁面)** ：向客戶顯示的 Cortana 頁面名稱。
 
 **cross filter, cross highlight (交叉篩選、交叉醒目提示)**
 

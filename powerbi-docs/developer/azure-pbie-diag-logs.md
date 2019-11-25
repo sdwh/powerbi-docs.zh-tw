@@ -1,18 +1,18 @@
 ---
 title: Azure 中 Power BI Embedded 服務的診斷記錄 | Microsoft Docs
 description: 了解如何為 Azure 中的 Power BI Embedded 服務設定診斷記錄。
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 9065feef76050c6a04e1ecf8ec7907b74be4b0ce
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875970"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265713"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure 中 Power BI Embedded 的診斷記錄
 
