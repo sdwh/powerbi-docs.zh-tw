@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: c6ecb2eb2346940a22bbd6b7bff5ca0138faa290
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 373d57b871953f1afe02212ff0a1bbdb633cac4d
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102586"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565244"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>取得 Power BI 視覺效果認證
 
@@ -70,7 +70,7 @@ Microsoft 可自行斟酌將視覺效果自[認證清單](#list-of-power-bi-visu
 
 * 若 capabilities.json 中的任何屬性發生變更，請確定他們不會中斷現有使用者的報表。
 
-* 請確定視覺效果是搭配 [Power BI 視覺效果指導方針](./guidelines-powerbi-visuals.md#guidelines-for-power-bi-visuals-with-additional-purchases)進行編譯。 **不允許任何浮水印**。
+* 請確定視覺效果是搭配 [Power BI 視覺效果指導方針](./guidelines-powerbi-visuals.md)進行編譯。 **不允許任何浮水印**。
 
 * 僅使用可公開檢閱的 OSS 元件 (公用的 JS 程式庫或 TypeScript。 原始程式碼可供檢閱，而且沒有已知弱點)。 我們無法使用商業元件來驗證自訂視覺效果。
 

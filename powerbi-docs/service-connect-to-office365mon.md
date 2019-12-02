@@ -1,25 +1,25 @@
 ---
 title: 使用 Power BI 連接到 Office365Mon
 description: Office365Mon for Power BI
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 8/29/2019
-ms.author: tebercov
+ms.date: 11/26/2019
+ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 64e8365a6d4e0c01911de9e69998af4d58d59202
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e9563d10d80290a48e20cd2d6a889831d34924b
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73854732"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548578"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>使用 Power BI 連接到 Office365Mon
 使用 Power BI 與 Office365Mon 範本應用程式，輕鬆分析您 Office 365 的中斷問題與健康狀態效能資料。 Power BI 會擷取您的資料 (包括中斷與健康狀況探查)，然後根據該資料建置現成的儀表板與報表。
 
-連線到 Power BI 適用的 [Office365Mon 範本應用程式](https://app.powerbi.com/groups/me/getdata/services/office365mon)。
+連線到 Power BI 適用的 [Office365Mon 範本應用程式](https://msit.powerbi.com/groups/me/getapps/services/office365mon.office365mon_powerbi_v3)。
 
 >[!NOTE]
 >Office365Mon 系統管理帳戶是連接及載入 Power BI 範本應用程式的必備項目。

@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 668665bcdbbb4b06a6fd1a2ee6d4af2437be77b3
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 8c7a0463e8a521482a1aab6a53ae9656585a7849
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264865"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548548"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」  及其連線方式的高階概觀。
@@ -177,7 +177,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **nav pane (導覽窗格)** 或 **nav pane (導覽窗格)** ：沿著 Power BI 服務左側邊緣的控制項。
 
-第一次出現：導覽窗格 (nav pane)，後續提及或空間狹小時：導覽窗格 (nav pane)
+第一次出現：導覽窗格 (navigation pane)，後續提及或空間狹小時：導覽窗格 (nav pane)
 
 **nav pane (導覽窗格)** 請參閱**nav pane (導覽窗格)**
 
