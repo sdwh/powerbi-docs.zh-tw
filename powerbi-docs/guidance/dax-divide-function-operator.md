@@ -8,49 +8,48 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: c96518bb8de7f323b51a7e1e3f34f9d9bf056c79
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 91acaa3a2252250e2a10674bae0e9be81f142696
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875371"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410924"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX：DIVIDE 函式與除法運算子 (/) 的比較
 
-本文適用於定義 DAX 運算式的資料模型製作人員。
+身為資料模型製造者，當您在撰寫 DAX 運算式來將分子除以分母時，可以選擇使用 [DIVIDE](/dax/divide-function-dax) 函式或除法運算子 (/ - 正斜線)。
 
-## <a name="background"></a>背景
-
-撰寫 DAX 運算式將分子除以分母時，您可以選擇使用 [DIVIDE](/dax/divide-function-dax) 函式或除法運算子 (/ - 正斜線)。
-
-使用 DIVIDE 函式時，您必須傳入分子和分母運算式。 (選擇性) 您可以傳入表示替代結果的值。
+使用 DIVIDE 函式時，您必須傳入分子和分母運算式。 (選擇性) 您可以傳入表示「替代結果」  的值。
 
 ```dax
-
 DIVIDE(<numerator>, <denominator> [,<alternateresult>])
-
 ```
 
-DIVIDE 函式已設計為自動處理除以零的案例。 如果未傳入替代結果，且分母為零或空白，則函式會傳回空白。 如果傳入替代結果，則會傳回該結果，而不是空白。
+DIVIDE 函式設計目的是要自動處理除以零的案例。 如果未傳入替代結果，且分母為零或空白，則函式會傳回空白。 如果傳入替代結果，則會傳回該結果，而不是空白。
 
-DIVIDE 函式很方便，因為它會避免您的運算式必須先測試分母值。 此函式針對測試分母值的最佳化也比 [IF](/dax/if-function-dax) 函式更佳。 效能增益很明顯，因為檢查除數為零的代價很昂貴。 使用 DIVIDE 也會產生更精簡的運算式。
+DIVIDE 函式很方便，因為它會避免您的運算式必須先測試分母值。 此函式針對測試分母值的最佳化也比 [IF](/dax/if-function-dax) 函式更佳。 效能增益很明顯，因為檢查除數為零的代價很昂貴。 進一步使用 DIVIDE 會產生更精簡的運算式。
 
 ## <a name="example"></a>範例
 
 下列量值運算式會產生安全的除法，但它牽涉到使用四個 DAX 函式。
 
 ```dax
-
-=IF(OR(ISBLANK([Sales]), [Sales] == 0), BLANK(), [Profit] / [Sales])
-
+Profit Margin =
+IF(
+    OR(
+        ISBLANK([Sales]),
+        [Sales] == 0
+    ),
+    BLANK(),
+    [Profit] / [Sales]
+)
 ```
 
 此量值運算式可達到相同的結果，但效率更高且更簡潔。
 
 ```dax
-
-=DIVIDE([Profit], [Sales])
-
+Profit Margin =
+DIVIDE([Profit], [Sales])
 ```
 
 ## <a name="recommendations"></a>建議
@@ -59,4 +58,11 @@ DIVIDE 函式很方便，因為它會避免您的運算式必須先測試分母�
 
 在分母為常數值的情況下，建議您使用除法運算子。 在此情況下，除法保證會成功，且您的運算式執行效果更佳，因為它會避免不必要的測試。
 
-您應該仔細考慮 DIVIDE 函式是否應該傳回替代值。 針對量值，傳回空白通常是較佳的設計。 這是因為當摘要為空白時，報表視覺效果預設會排除群組。 這可讓視覺效果專注於資料存在的群組。 如有必要，您可以藉由啟用 [顯示沒有資料的項目] 選項，將視覺效果設定為顯示篩選內容中的所有群組 (傳回值或空白)。
+請仔細考慮 DIVIDE 函式是否應該傳回替代值。 針對量值，傳回空白通常是較佳的設計。 傳回空白的較佳原因是因為當摘要為空白時，報表視覺效果預設會排除群組。 視覺效果可以專注於存有資料的群組。 如有必要，您可以藉由啟用 [顯示沒有資料的項目] 選項，將視覺效果設定為顯示篩選內容中的所有群組 (傳回值或空白)。
+
+## <a name="next-steps"></a>後續步驟
+
+如需本文的詳細資訊，請參閱下列資源︰
+
+- [資料分析運算式 (DAX) 參考](/dax/)
+- 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

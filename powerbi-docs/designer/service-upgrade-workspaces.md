@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34b0bd1a59ec66cf7a2e5eb41d2c1ec12a39d1e7
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 266a8609123f05f258daee60f6ae17f032ebae29
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128118"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410828"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>將傳統工作區升級至 Power BI 中的新工作區
 
 此文章說明如何將傳統工作區升級為新的工作區體驗。 您可以升級任何傳統工作區。 新的工作區具有更細微的工作區角色，因此您可以更有效地管理內容的存取權。 由於升級後的工作區與原始 Office 365 群組的連線鬆散，您有更大的彈性來管理已升級的工作區。 了解[新的工作區體驗](../service-new-workspaces.md)。 
 
 >[!NOTE]
->此文件是發行前版本，並涵蓋尚未提供的功能。 我們已發佈此功能，讓您可以準備新的功能，並在發行之前，尋找您可能會遇到的任何問題。  
+>工作區升級是以公開預覽的形式提供。 
 
 ![成功升級](media/service-upgrade-workspaces/power-bi-upgrade-success.png)
 
@@ -198,7 +198,15 @@ ms.locfileid: "74128118"
 2. 與個別的 Office 365 群組擁有者或 Office 365 系統管理員一起使用，讓他們升級工作區。 如果您想要升級工作區，您必須成為群組的「擁有者」。
 
 工作區升級功能不提供大量或以程式設計方式升級的工具。 此外，在您的組織中建立的新 Office 365 群組仍會繼續在 Power BI 中顯示。 
-    
+   
+   
+## <a name="known-issues"></a>已知問題
+
+您可能會遇到幾個已知問題：
+- 升級之後，使用者可能會看到 [無法載入模型] 警告對話方塊。 這則訊息為錯誤地顯示且可以忽略。 
+- 升級之後，部分工作區名稱與升級前不同。 發生這種情況時，工作區名稱會還原為先前的工作區名稱，或工作區名稱會變成空白。 若要解決此問題，請將工作區重新命名為想要的名稱。
+- 升級已安裝內容套件的工作區之後，您可能會在工作區中看到在升級前看不到的其他儀表板。 在某些情況下，如果內容套件最近未更新，就會發生這種情況。 您可以安全地移除這些儀表板。
+
 
 
 ## <a name="next-steps"></a>後續步驟

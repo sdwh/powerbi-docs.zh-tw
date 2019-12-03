@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 422d742748fc6880b0636bd3a0c5de7011a3ff0a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 28a6aa8659411b829e6982e7c766e03d683871fd
+ms.sourcegitcommit: 982ffaa8eb91897f48221a816970671f4a92e6d9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860805"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74415426"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 
@@ -105,7 +105,14 @@ Power BI 重新整理作業可能是由多個重新整理類型組成，包括�
 
 如果您根據 Power BI Desktop 檔案、Excel 活頁簿或是 OneDrive 或 SharePoint Online 上的逗點分隔值 (.csv) 檔案建立資料集和報表，Power BI 會執行另一種類型的重新整理，稱為 OneDrive 重新整理。 如需詳細資訊，請參閱[針對 Power BI 從檔案取得資料](service-get-data-from-files.md)。
 
-不同於資料集重新整理期間，Power BI 會從資料來源將資料匯入資料集，OneDrive 重新整理會將資料集和報表與其來源檔案進行同步。 根據預設，如果連接到 OneDrive 或 SharePoint Online 上檔案的資料集需要同步處理，Power BI 會大約每小時檢查一次。 若要檢閱過去的同步處理週期，請檢查 [重新整理記錄] 中的 [OneDrive] 索引標籤。 下列螢幕擷取畫面顯示範例資料集的同步處理週期已完成。
+不同於資料集重新整理期間，Power BI 會從資料來源將資料匯入資料集，OneDrive 重新整理會將資料集和報表與其來源檔案進行同步。 根據預設，如果連接到 OneDrive 或 SharePoint Online 上檔案的資料集需要同步處理，Power BI 會大約每小時檢查一次。
+
+> [!IMPORTANT]
+> 請謹慎處理 OneDrive 上的檔案管理作業。 當您將 OneDrive 檔案設定為資料來源時，Power BI 會在執行重新整理時參考檔案的項目識別碼，這在某些情況下可能會造成問題。 請考慮下列情況：您有一個主要檔案 _A_ 和該檔案的生產環境複本 _B_，並為檔案 B 設定 OneDrive 重新整理。如果您接著將檔案 A「複製」  到檔案 B，則複製作業會刪除舊的檔案 B，並使用不同項目識別碼來建立新的檔案 B，但這會中斷 OneDrive 重新整理。 您應該改為上傳並取代檔案 B，這會保留相同的項目識別碼。
+
+您可以將檔案移到另一個位置 (例如使用拖放)，而重新整理會繼續執行，因為 PBI 仍然知道 fileID。 不過，如果您將該檔案複製到其他位置，則會建立檔案的新執行個體和新的 fileID。 因此，您的 Power BI 檔案參考不再有效，重新整理將會失敗。
+
+若要檢閱過去的同步處理週期，請檢查 [重新整理記錄] 中的 [OneDrive] 索引標籤。 下列螢幕擷取畫面顯示範例資料集的同步處理週期已完成。
 
 ![重新整理歷程記錄](media/refresh-data/refresh-history.png)
 

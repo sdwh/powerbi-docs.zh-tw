@@ -1,5 +1,5 @@
 ---
-title: Power BI 與 Microsoft Flow 整合
+title: Power BI 與 Power Automate 整合
 description: 了解如何建立由 Power BI 資料警示觸發的流程。
 author: mgblythe
 ms.reviewer: ''
@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: a5b5a34e7cd61ac9d197faa0ef4410cd9558f597
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c8d768e1d02846eca10c6100aa8ec30dbb7f704b
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881852"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164307"
 ---
-# <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow 和 Power BI
+# <a name="power-automate-and-power-bi"></a>Power Automate 與 Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/documentation/getting-started) 是一款 SaaS 供應項目，在企業用戶所仰賴的越來越多種應用程式和 SaaS 服務之間，將工作流程自動化。 您可以使用 Flow 整合最愛的應用程式和服務 (包括 Power BI) 來將工作自動化，以取得通知、同步檔案、收集資料等。 工作流程自動化讓重複性的工作變得輕鬆。
+[Power Automate](https://flow.microsoft.com/documentation/getting-started) 是一款 SaaS 供應項目，在企業用戶所仰賴的越來越多種應用程式和 SaaS 服務之間，將工作流程自動化。 您可以使用 Flow 整合最愛的應用程式和服務 (包括 Power BI) 來將工作自動化，以取得通知、同步檔案、收集資料等。 工作流程自動化讓重複性的工作變得輕鬆。
 
 [立即開始使用 Flow。](https://flow.microsoft.com/documentation/getting-started)
 
@@ -30,12 +30,12 @@ ms.locfileid: "73881852"
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>建立由 Power BI 資料警示觸發的流程
 
 ### <a name="prerequisites"></a>先決條件
-本教學課程將示範如何建立兩個不同流程；一個從範本建立，一個從頭建立。 如果要跟著做，請[在 Power BI 中建立資料警示](service-set-data-alerts.md)，建立免費的 Slack 帳戶，並[註冊 Microsoft Flow](https://flow.microsoft.com/#home-signup) (免費！)。
+本教學課程將示範如何建立兩個不同流程；一個從範本建立，一個從頭建立。 如果要跟著做，請[在 Power BI 中建立資料警示](service-set-data-alerts.md)，建立免費的 Slack 帳戶，並[註冊 Power Automate](https://flow.microsoft.com/#home-signup) (免費！)。
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>建立使用 Power BI 的流程 - 從範本
 在這項工作中，我們將使用範本來建立由 Power BI 資料警示 (通知) 觸發的簡單流程。
 
-1. 登入 Microsoft Flow (flow.microsoft.com)。
+1. 登入 Power Automate (flow.microsoft.com)。
 2. 選取 [我的流程]  。
    
    ![流程功能表列](media/service-flow-integration/power-bi-my-flows.png)
@@ -80,7 +80,7 @@ ms.locfileid: "73881852"
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>建立使用 Power BI 的流程 - 從頭 (空白)
 在這項工作中，我們將從頭建立由 Power BI 資料警示 (通知) 觸發的簡單流程。
 
-1. 登入 Microsoft Flow。
+1. 登入 Power Automate。
 2. 選取 [我的流程]   > [從空白建立]  。
    
    ![流程頂端功能表列](media/service-flow-integration/power-bi-my-flows.png)
@@ -107,7 +107,7 @@ ms.locfileid: "73881852"
     ![觸發 Outlook 通知的流程](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>後續步驟
-* [開始使用 Microsoft Flow](https://flow.microsoft.com/documentation/getting-started/)
+* [開始使用 Power Automate](https://flow.microsoft.com/documentation/getting-started/)
 * [在Power BI 服務中設定資料警示](service-set-data-alerts.md)
 * [在 iPhone 上設定資料警示](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [在 Power BI for Windows 10 行動裝置 App 中設定資料警示](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

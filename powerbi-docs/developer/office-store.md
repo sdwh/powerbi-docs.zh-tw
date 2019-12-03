@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: f8ca6aae805ae3184a1c54d8707fcb9a3cfd32e7
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128056"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265260"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>在 AppSource 上發佈 Power BI 視覺效果
 
@@ -25,7 +25,7 @@ ms.locfileid: "74128056"
 
 ## <a name="what-is-appsource"></a>什麼是 AppSource？
 
-**AppSource** 是針對 Microsoft 產品和服務尋找 SaaS 應用程式與增益集的地方。 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 為上百萬名 Office 365、Dynamics 365、Cortana Intelligence 等的使用者提供了尋找解決方案的管道，讓使用者能夠以更有效率、更確切且更得心應手的方式搞定工作。
+**AppSource** 是針對 Microsoft 產品和服務尋找 SaaS 應用程式與增益集的地方。 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 為上百萬名 Office 365、Dynamics 365 等使用者提供尋找解決方案的管道，讓使用者能夠以更有效率、更有見解且更得心應手的方式完成工作。
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>準備提交您的自訂視覺效果
 

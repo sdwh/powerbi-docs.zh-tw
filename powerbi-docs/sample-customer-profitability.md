@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d6368ae61b2813972c3209e2af456ba5aa5fb81b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874026"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265538"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客戶獲利率範例：觀看導覽
 
@@ -128,7 +128,7 @@ ms.locfileid: "73874026"
 
     * [小組計分卡]  著重於五位經理的績效及其客戶個資清冊。
     * [產業毛利分析]  提供一種方法，用以分析相較於整個產業現況的獲利率。
-    * [主管計分卡]  提供格式化以供 Cortana 檢視的各經理檢視。
+    * [主管計分卡]  以自訂頁面大小格式提供每位經理的檢視。
 
 ### <a name="team-scorecard-page"></a>[小組計分卡] 頁面
 ![[小組計分卡] 報表分頁](media/sample-customer-profitability/customer2.png)
@@ -170,7 +170,7 @@ ms.locfileid: "73874026"
    * Valery 只負責一種產品，只處理五個產業區段。 Valery 的產業影響力有季節性，但一直都是大型的泡泡，這表示對公司營收的影響巨大。 產業區段可否說明他們不盡人意的表現？
 
 ### <a name="executive-scorecard"></a>主管計分卡
-此頁面會格式化為 Cortana 回應頁面。 若要深入了解，請參閱[建立 Cortana 的自訂回應頁面](service-cortana-answer-cards.md)。
+此頁面具有自訂頁面大小格式。
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>利用問與答問來提問以深入探索資料
 我們的分析可能有助於判斷哪些產業讓 Valery 產生最多收益。 讓我們使用問與答。

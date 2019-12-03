@@ -1,5 +1,5 @@
 ---
-title: 在應用程式中為客戶內嵌 Power BI 編頁報表
+title: 針對客戶在應用程式中內嵌編頁報表
 description: 了解如何使用 Power BI API，將 Power BI 編頁報表整合或內嵌至應用程式。
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 11/04/2019
-ms.openlocfilehash: 5611d65ab800c14b2570a12078c08cce5dc58147
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877725"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311437"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>教學課程：為客戶將 Power BI 編頁報表內嵌至您的應用程式中 (預覽)
 
@@ -38,6 +38,11 @@ ms.locfileid: "73877725"
 
 如果您沒有 Azure 訂用帳戶，請先建立[免費帳戶](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)，再開始進行。
 
+> [!IMPORTANT]
+> * 您必須使用**服務主體**。 不支援主要使用者。
+> * 不支援需要單一登入 (SSO) 的資料來源。
+> * 不支援將 Power BI 資料集作為[資料來源](../service-get-data.md)。
+
 ## <a name="set-up-your-power-bi-environment"></a>設定您的 Power BI 環境
 
 內嵌編頁報表需要將工作區指派給專用容量，並將報表上傳至工作區。
@@ -52,7 +57,7 @@ ms.locfileid: "73877725"
 * **Power BI Premium** - 若要內嵌編頁報表，需要 *P* SKU 容量。 內嵌 Power BI 內容時，此解決方案稱為「Power BI 內嵌」  。 如需此訂用帳戶的詳細資訊，請參閱[什麼是 Power BI Premium？](../service-premium-what-is.md)
 * **Azure Power BI Embedded** - 您可以在 [Microsoft Azure 入口網站](https://portal.azure.com)中購買專用容量。 此訂用帳戶會使用 *A* SKU。 若要內嵌編頁報表，您至少需要一個 *A4* 訂用帳戶。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
 
-下表說明每個 SKU 的資源和限制。 若要判斷最符合您需求的容量，請參閱[應該為我的案例購買哪個 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario) 資料表。
+下表說明每個 SKU 的資源和限制。 若要判斷最符合需求的容量，請參閱[我該為案例購買哪一種 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario) 資料表。
 
 | 容量節點 | V 核心總數 | 後端 V 核心 | RAM (GB) | 前端 V 核心 | 
 | --- | --- | --- | --- | --- |

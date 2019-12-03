@@ -2,20 +2,20 @@
 title: Power BI 中的散佈圖、泡泡圖與點圖
 description: Power BI 中的散佈圖、點圖與泡泡圖
 author: mihart
-ms.reviewer: ''
+ms.reviewer: amac
 featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 88db87b995f52aa51023bd465d349459e1dd2965
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870827"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311644"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散佈圖、泡泡圖與點圖
 
@@ -131,13 +131,30 @@ ms.locfileid: "73870827"
     > [!NOTE]
     > 資料點越多，載入時間可能越久。 如果您選擇發佈限制規模較高的報表，請務必在 Web 及行動裝置上測試您的報表。 您想要確認圖表的效能符合使用者的期望。
 
-1. 您可以將[格式、視覺效果色彩、標籤、標題、背景等項目格式化](service-getting-started-with-color-formatting-and-axis-properties.md)。
-
-    若要[改善協助工具](../desktop-accessibility.md)，請考慮在每一行新增標記圖形。 若要選取標記圖形，請展開 [圖形]  ，然後依序選取 [標記圖形]  和一個圖形。
+1. 繼續將視覺效果色彩、標籤、標題、背景等項目格式化。 若要[改善協助工具](../desktop-accessibility.md)，請考慮在每一行新增標記圖形。 若要選取標記圖形，請展開 [圖形]  ，然後依序選取 [標記圖形]  和一個圖形。
 
     ![標示出 [標記圖形] 選項的 [圖形] 下拉式清單螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
-    您可以將標記圖形變更為菱形、三角形或正方形。 為每一行使用不同的標記圖形，可讓報表取用者更容易區分不同的行 (或區域)。
+    將標記圖形變更為菱形、三角形或正方形。 為每一行使用不同的標記圖形，可讓報表取用者更容易區分不同的行 (或區域)。
+
+1. 開啟分析窗格 ![分析窗格圖示的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-analytics.png) 將其他資訊新增至您的視覺效果。  
+    - 新增中線。 選取 [中線]   > [新增]  。 根據預設，Power BI 會為 [Sales per sq ft] \(每平方英呎的銷售額\)  新增中線。這並不是很有幫助，因為我們可以看到有 10 個資料點，且知道系統會在每一端都具有五個資料點的情況下建立中位數。 相反地，請將 [量值]  切換為 [Total sales variance %] \(總銷售額差異百分比\)  。  
+
+        ![泡泡圖已新增中線的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-analytics-median.png)
+
+    - 新增對稱網底，以顯示比 Y 軸量值更高的 X 軸量值，反之亦然。 當在 [分析] 窗格中開啟對稱網底時，Power BI 會根據目前的軸上限和下限，對稱地顯示散佈圖的背景。 這是一種非常快速的方法，可識別資料點偏重於哪個軸量值，特別是當 X 和 Y 軸有不同的軸範圍時。
+
+        a. 將 [Total sales variance %] \(總銷售額差異百分比\)  欄位變更為 [Gross margin last year %] \(去年毛利率百分比\) 
+
+        ![泡泡圖已新增中線的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+
+        b. 從 [分析] 窗格新增 [對稱網底]  。 我們可以從網底看到，襪子 (粉紅色陰影區域中的綠色泡泡) 是偏向毛利率而不是每個商店坪數銷售額的唯一分類。 
+
+        ![泡泡圖已新增對稱網底的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-symmetry.png)
+
+    - 繼續探索 [分析] 窗格，以在資料中探索感興趣的見解。 
+
+        ![泡泡圖已新增對稱網底的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>建立點圖
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5138536fca255638e2cef802b885be1f5dfcbef9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e6adb5c07c18a72d278b17e70fa7f06d1f6fd5f
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881530"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164177"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>在 Power BI 中使用個人閘道
 
@@ -31,7 +31,7 @@ ms.locfileid: "73881530"
 
 |   |內部部署的資料閘道 | 內部部署資料閘道 (個人模式) |
 | ---- | ---- | ---- |
-|支援雲端服務 |Power BI, PowerApps, Azure Logic Apps, Microsoft Flow, Azure Analysis Services, 資料流程 |Power BI |
+|支援雲端服務 |Power BI、PowerApps、Azure Logic Apps、Power Automate、Azure Analysis Services、資料流程 |Power BI |
 |執行 |如具有閘道存取權的使用者所設定 |如同您用於 Windows 驗證，且如同您為其他驗證類型所設定 |
 |只能以電腦系統管理員身分安裝 |是 |否 |
 |集中式閘道和資料來源管理 |是 |否 |

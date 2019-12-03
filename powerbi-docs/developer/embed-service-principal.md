@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 9bbba47456d9c5bed5c8cd77858b6dbaeefce5a1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877668"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264198"
 ---
 # <a name="service-principal-with-power-bi"></a>搭配 Power BI 的服務主體
 
@@ -93,7 +93,7 @@ ms.locfileid: "73877668"
    > [!Important]
    > 一旦您啟用要與 Power BI 搭配使用的服務主體，應用程式的 AD 使用權限就不再生效。 然後，應用程式的使用權限會透過 Power BI 系統管理入口網站管理。
 
-2.  **建議** - [ Azure Active Directory (AAD) 中建立安全性群組](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)，然後將您建立的應用程式新增到該安全性群組。 您可以使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) 建立 AAD 安全性群組。
+2.  **建議** - 在 Azure Active Directory (AAD) 中建立安全性群組，然後將您建立的[應用程式](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)新增至該安全性群組。 您可以使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) 建立 AAD 安全性群組。
 
     以下範例指令碼可建立新的安全性群組，並將應用程式新增至該安全性群組。
 

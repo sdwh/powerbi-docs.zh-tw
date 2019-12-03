@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a45566d6fe9f4833ebed91e7c10656a8ca1c6961
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: e68d886564552d1b1cb2dc9e7c018c65a5cca039
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102057"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265203"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 的視覺效果
 
@@ -49,7 +49,7 @@ Power BI 系統管理員可以將 Power BI 視覺效果部署到組織中，讓�
 
 社群成員與 Microsoft 貢獻出 Power BI 視覺效果以造福大眾，並將 Power BI 視覺效果發佈至 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) Marketplace。 您可以下載這些視覺效果並將其新增至 Power BI 報表。 Microsoft 已測試並核准這些 Power BI 視覺效果的功能與品質。
 
-什麼是 [AppSource](office-store.md)？ 這是您可以為 Microsoft 軟體尋找應用程式、增益集和延伸模組的地方。 AppSource 為上百萬名 Office 365、Azure、Dynamics 365、Cortana 及 Power BI 等產品的使用者提供尋找解決方案的管道，讓使用者能夠以更有效率、切實且完美地完成工作。
+什麼是 [AppSource](office-store.md)？ 這是您可以為 Microsoft 軟體尋找應用程式、增益集和延伸模組的地方。 AppSource 為上百萬名 Office 365、Azure、Dynamics 365 及 Power BI 等產品使用者提供尋找解決方案的管道，讓使用者能夠以更有效率、更有見解且完美地完成工作。
 
 ### <a name="certified-visuals"></a>認證的視覺效果
 
@@ -134,7 +134,7 @@ Power BI 經認證視覺效果是已通過額外嚴格品質測試的 Marketplac
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. 前往[應用程式結果頁面](https://appsource.microsoft.com/marketplace/apps)，您可在其中檢視各種類別的熱門應用程式，包括 *Power BI 應用程式*。 我們想要尋找 Power BI 視覺效果，因此，請從瀏覽窗格清單中選取 [Power BI 視覺效果]  以縮小結果範圍。
+2. 前往[應用程式結果頁面](https://appsource.microsoft.com/marketplace/apps)，您可在其中檢視各種類別的熱門應用程式，包括 *Power BI 應用程式*。 我們想要尋找 Power BI 視覺效果，因此，請從導覽窗格清單中選取 [Power BI 視覺效果]  以縮小結果範圍。
 
     ![AppSource 視覺效果](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 

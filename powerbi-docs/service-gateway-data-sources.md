@@ -10,18 +10,18 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cb28db10eecdc32f844e29c8beea178f08fbf920
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881766"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410873"
 ---
 # <a name="manage-data-sources"></a>管理資料來源
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Power BI 支援許多的內部部署資料來源，而且各有自己的需求。 閘道可以用於單一資料來源或多個資料來源。 針對此範例，我們會示範如何新增 SQL Server 作為資料來源。 其步驟與其他資料來源相似。
+Power BI 支援許多的[內部部署資料來源](power-bi-data-sources.md)，且各有自己的需求。 閘道可以用於單一資料來源或多個資料來源。 針對此範例，我們會示範如何新增 SQL Server 作為資料來源。 其步驟與其他資料來源相似。
 
 大多數的資料來源管理作業也都可以使用 API 來執行。 如需詳細資訊，請參閱 [REST API (閘道)](/rest/api/power-bi/gateways)。
 
@@ -117,56 +117,7 @@ OAuth 驗證配置僅支援使用內部部署資料閘道的自訂連接器。 �
 
 ## <a name="list-of-available-data-source-types"></a>可用的資料來源類型清單
 
-內部部署資料閘道支援下列 Power BI 資料來源。 除了內部部署資料來源以外，防火牆、VPN 或虛擬網路後方的來源可能也需要資料閘道。
-
-| **資料來源** | **即時/DirectQuery** | **手動或排程重新整理 (使用者設定)** |
-| --- | --- | --- |
-| Amazon Redshift |是 |是 |
-| Analysis Services |是 |是 |
-| AtScale Cube |是 |是 |
-| Azure Active Directory |否 |是 |
-| Azure Blob 儲存體 |否 |是 |
-| Azure DevOps Server |否 |是 |
-| Azure 資料表儲存體 |否 |是 |
-| BI 連接器 |是 |是 |
-| Denodo |是 |是 |
-| Dremio |是 |是 |
-| EmigoDataSourceConnector |否 |是 |
-| Essbase |是 |是 |
-| Exasol |是 |是 |
-| 檔案 |否 |是 |
-| 資料夾 |否 |是 |
-| Paxata |否 |是 |
-| IBM DB2 |是 |是 |
-| IBM Informix 資料庫 |否 |是 |
-| IBM Netezza |是 |是 |
-| Impala |是 |是 |
-| Jethro ODBC |是 |是 |
-| Kyligence Enterprise |是 |是 |
-| MarkLogic ODBC |是 |是 |
-| Microsoft Graph 安全性 |否 |是 |
-| MySQL |否 |是 |
-| ODBC |否 |是 |
-| OData |否 |是 |
-| OLE DB |否 |是 |
-| Oracle |是 |是 |
-| PostgreSQL |否 |是 |
-| QubolePresto |是 |是 |
-| Quick Base Connector |否 |是 |
-| SAP Business Warehouse 訊息伺服器 |是 |是 |
-| SAP Business Warehouse 伺服器 |是 |是 |
-| SAP HANA |是 |是 |
-| SQL Server |是 |是 |
-| SharePoint |否 |是 |
-| Snowflake |是 |是 |
-| Spark |是 |是 |
-| SurveyMonkey |否 |是 |
-| Sybase |否 |是 |
-| TeamDesk.Database |否 |是 |
-| Teradata |是 |是 |
-| Vertica |是 |是 |
-| Web |否 |是 |
-| Workforce Dimensions |否 |是 |
+如需內部部署資料閘道支援哪些資料來源的詳細資訊，請參閱 [Power BI 資料來源](power-bi-data-sources.md)。
 
 ## <a name="next-steps"></a>後續步驟
 

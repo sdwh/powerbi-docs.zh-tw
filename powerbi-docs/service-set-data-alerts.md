@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871550"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74163763"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 服務中的資料警示
 
@@ -23,7 +23,7 @@ ms.locfileid: "73871550"
 
 如果您有 Power BI Pro 授權，您可以在磚上設定警示。 如果有人共用位於 [Premium 容量](service-premium-what-is.md)中的儀表板，您也可以設定警示。 只可在從報表視覺效果釘選的磚上，為量測計、KPI 和卡片設定警示。 可以對您從報表釘選到儀表板的串流資料集上所建立視覺效果設定警示。 但不可對使用 [新增磚]   > [自訂串流資料]  直接在儀表板上所建立串流磚設定警示。
 
-即使將儀表板分享給他人共用，仍只有您才能查看您所設定的警示。 即使儀表板擁有者也看不到您在其儀表板檢視上設定的警示。 資料警示會在平台之間完全同步處理；請在 [ Power BI 行動裝置應用程式](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服務中設定和檢視資料警示。 其不適用於 Power BI Desktop。 您甚至可以使用 Microsoft Flow 來自動化並整合警示。 您可以在 [Microsoft Flow 和 Power BI](service-flow-integration.md) 這篇文章中親身試用。
+即使將儀表板分享給他人共用，仍只有您才能查看您所設定的警示。 即使儀表板擁有者也看不到您在其儀表板檢視上設定的警示。 資料警示會在平台之間完全同步處理；請在 [ Power BI 行動裝置應用程式](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服務中設定和檢視資料警示。 其不適用於 Power BI Desktop。 您甚至可以使用 Power Automate 來自動化並整合警示。 您可以在 [Power Automate 和 Power BI](service-flow-integration.md) 一文中親身試用。
 
 ![磚](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -125,7 +125,7 @@ ms.locfileid: "73871550"
 
 ## <a name="next-steps"></a>後續步驟
 
-* [建立包含資料警示的 Microsoft Flow](service-flow-integration.md)。
+* [建立包含資料警示的 Power Automate](service-flow-integration.md)。
 
 * [在行動裝置上設定資料警示](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)。
 

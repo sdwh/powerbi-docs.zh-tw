@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d26327e41e4236a3ea5e0eca2246c6f66a64be4
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 8041fee4689c6319f219c26f20701c6062601a64
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099143"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164192"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>從 Power BI 將報表匯出至 PDF
 
@@ -61,6 +61,7 @@ ms.locfileid: "74099143"
 * 將包含背景影像的報表匯出成 PDF 時，如果使用 [頁面背景]  中的 [標準]  或 [填滿]  選項，您可能會在匯出中看到扭曲的影像。 為得到最佳結果，請使用 [最適大小]  選項，以免匯出的文件發生問題。
 * Power BI 服務會使用您的 Power BI 語言設定作為 PDF 的輸出語言。 若要查看或設定語言喜好設定，請選取齒輪圖示![齒輪圖示](media/end-user-powerpoint/power-bi-settings-icon.png) > [設定]   > [一般]   > [語言]  。
 * 針對匯出選擇 [目前的值]  時，目前不適用 URL 篩選。
+* 具有異常自訂頁面大小的報表可能會在匯出案例中遇到問題。 為獲得最佳結果，請考慮切換到報表的標準頁面大小。
 
 ## <a name="next-steps"></a>後續步驟
 [列印報表](end-user-print.md)

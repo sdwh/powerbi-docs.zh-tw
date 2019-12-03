@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: bd6270731f79ac5a1e270ac36699470a0e6df978
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060433"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164254"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -28,6 +28,10 @@ ms.locfileid: "74060433"
 **Microsoft 正在如何改變 BI 資料保護**
 <br>由 Anton Fritz 和 Adi Regev 主持
 <br>[報名以在 12 月 4 日觀看](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US) \(英文\)
+
+**塑造巨量資料分析未來的九個趨勢**
+<br>由 Vijay Gopalakrishnan 主持
+<br>[報名以在 12 月 18 日觀看](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 >[來自 Power BI 社群，即將舉行的網路研討會](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -87,7 +91,7 @@ ms.locfileid: "74060433"
 
 ### <a name="getting-started"></a>開始使用
 
-**透過 Power BI、PowerApps 和 Microsoft Flow 將日常商務程序自動化**
+**透過 Power BI、PowerApps 和 Power Automate 將日常商務程序自動化**
 <br>由 Wim Coorevits 和 Enrique Plaza Garcia 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
@@ -107,7 +111,7 @@ ms.locfileid: "74060433"
 <br>由 Charlie Sterling 主持
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**Microsoft Flow 與 PowerApps 的整體經濟影響**
+**Power Automate 與 PowerApps 的整體經濟影響**
 <br>主講：Jonathan Lipsitz 與 Enrique Plaza Garcia
 <br>[報名並立即觀看](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 

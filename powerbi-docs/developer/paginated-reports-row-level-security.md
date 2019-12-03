@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f28ffa89647272306dc9cecb5c93928d36805d2a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880460"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311496"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>在內嵌的編頁報表中實作資料列層級安全性 (預覽)
 
@@ -30,7 +30,7 @@ ms.locfileid: "73880460"
 
 將參數指派給 **UserID** 之後，請使用 [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API 來取得內嵌權杖。
 
-## <a name="use-uderid-as-a-filter-at-report-or-query-level"></a>在報表或查詢層級使用 UserID 做為篩選條件
+## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>在報表或查詢層級使用 UserID 作為篩選
 
 您可以使用 **UserId** 做為「篩選」  ，或是用在對 [Power BI 分頁報表產生器](../report-builder-power-bi.md)中資料來源的「查詢」  中。
 
@@ -66,7 +66,7 @@ ms.locfileid: "73880460"
 
     ![Power BI 報表產生器中的 [參數]](media/embedded-paginated-reports-secure-data/parameters.png)
 
-2. 在 [參數名稱]  中輸入 **@UserID** ，然後在 [參數值]  新增 **[&UserID]** 。
+2. 在 [參數名稱]  中輸入 **\@UserID**，然後在 [參數值]  中新增 **[&UserID]** 。
 
     ![Power BI 報表產生器中的 [參數名稱]](media/embedded-paginated-reports-secure-data/parameter-name.png) 
 

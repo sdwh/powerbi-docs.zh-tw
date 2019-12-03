@@ -9,15 +9,16 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c363e63a7354c2a8c66099a98cb441ce2c94becf
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 88a49af62a26b64d8b913b6df03c82841f31a489
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878381"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410966"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
-有了 Power BI Desktop，您可以從許多不同來源連接至資料。 在此頁面底部有可用資料來源的完整清單。
+
+有了 Power BI Desktop，您可以從許多不同來源連接至資料。 如需可用資料來源的完整清單，請參閱 [Power BI 資料來源](power-bi-data-sources.md)。
 
 若要連接到資料，請從 [主資料夾]  功能區選取 [取得資料]  。 選取向下箭號，或按鈕上的 [取得資料]  文字，會顯示 [最常見]  資料類型功能表，如下圖所示：
 

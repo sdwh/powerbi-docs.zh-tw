@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9f8da4a5f37eb1e652dd2125dd588febf49fb01b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 1fd640922f132f56a03b37ed59a6267a5af83d00
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871837"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311715"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -135,7 +135,8 @@ ms.locfileid: "73871837"
 - ArcGIS Maps for Power BI 視覺效果。
 - 包含報表層級 DAX 量值的報表。
 - 單一登入資料查詢模型。
-- [安全的機密或專屬資訊](#publish-to-web-from-power-bi)。
+- 安全的機密或專屬資訊。
+- [共用和認證的資料集](service-datasets-share.md)。
 - 隨著 [內嵌]  選項提供的自動驗證功能無法搭配 Power BI JavaScript API 使用。 針對 Power BI JavaScript API，請使用[使用者擁有資料](developer/embed-sample-for-your-organization.md)方式來內嵌。
 
 ## <a name="tenant-setting"></a>租用戶設定

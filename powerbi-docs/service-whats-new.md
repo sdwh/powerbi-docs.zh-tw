@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: c470eba3998e04fde8c00c619077d5d8db444b42
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099718"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265346"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
@@ -30,7 +30,7 @@ ms.locfileid: "74099718"
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 ### <a name="october-2019"></a>2019 年 10 月
-* 可重新整理 Power BI 資料集的新 Microsoft Flow 動作。
+* 可重新整理 Power BI 資料集的新 Power Automate 動作。
 * Power BI 服務中報表和儀表板的[連絡人清單](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/)。
 
 ## <a name="previous-months-2019"></a>前幾個月 (2019)
@@ -227,7 +227,7 @@ ms.locfileid: "74099718"
 * Office 365 稽核入口網站中的 [Power BI 稽核記錄](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs)全球通用。
 * 發行[開發人員工具和自訂視覺效果 API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) 1.4 版。
 * [即時串流功能集](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)公開上市。
-* [使用 Microsoft Flow 將資料發送至 Power BI](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)，而不需要撰寫任何程式碼。
+* [使用 Power Automate 將資料發送至 Power BI](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)，而不需要撰寫任何程式碼。
 * 預覽：[訂閱報告頁面](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)來掌握您的資料。
 * 使用 Azure AD 內容套件來深入了解員工和合作夥伴使用 Azure AD 的情形。
 
@@ -530,7 +530,6 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 * 使用深入資訊摘要自動探索趨勢並發掘資料集中的模式：[影片](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)或[文章](consumer/end-user-insights.md)
 * [將 Power BI 中的 VMob 資料以圖形呈現](https://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
-* [Power BI 與 Cortana 整合](https://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [企業級 Power BI 閘道的預覽](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
 * 引進新的內容套件：[Power BI 儀表板上由 Bing 提供的搜尋分析](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
 * 以開發人員為主的全新改進：[兩個新 API 和更容易的應用程式註冊](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)

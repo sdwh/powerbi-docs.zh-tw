@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c2217495ee8b735bc600c9b803897a408495472
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b9f7c745ad251fdb81c7898130cd3ca6c5d32af9
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878757"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164150"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop 自動重新整理頁面 (預覽)
 
@@ -105,9 +105,9 @@ Power BI Desktop 沒有重新整理間隔的限制；其重新整理間隔可以
 
 在 Power BI 服務中，根據如工作區或是否使用進階版服務等因素，可能適用自動頁面重新整理限制。
 
-為了釐清其運作方式，讓我們從[容量與工作區](whitepaper-powerbi-premium-deployment.md#capacities)的一些背景開始著手
+為了釐清其運作方式，讓我們從容量與工作區的一些背景開始著手：
 
-**容量**是核心 Power BI 概念，代表用來裝載及傳遞 Power BI 內容的一組資源 (儲存體、處理器與記憶體)。 容量為「共用」或「專用」。 **共用的容量**會與其他 Microsoft 客戶共用，而**專用容量**完全認可給單一客戶。 專用容量會在[進階版容量](whitepaper-powerbi-premium-deployment.md#capacities) 一文中說明。
+**容量**是核心 Power BI 概念，代表用來裝載及傳遞 Power BI 內容的一組資源 (儲存體、處理器與記憶體)。 容量為「共用」或「專用」。 **共用的容量**會與其他 Microsoft 客戶共用，而**專用容量**完全認可給單一客戶。 專用容量會在[管理 Premium 容量](service-premium-capacity-manage.md)一文中說明。
 
 在共用的容量中，工作負載是在與其他客戶共用的計算資源上執行。 由於容量必須共用資源，因此會有限制，以確保公平使用  ，例如設定最大模型大小 (1 GB) 與每日重新整理頻率上限 (每天 8 次)。
 
@@ -123,7 +123,7 @@ Power BI **工作區**位於容量內，而且它們代表安全性、共同作�
 
  2. *最小重新整理間隔*：啟用此功能時，您的容量管理員必須設定最小的重新整理間隔。 如果您的間隔低於最小值，則 Power BI 服務會覆寫您的間隔，以遵循容量管理員所設定的最小間隔。
 
-下表描述可使用此功能的更多詳細資料，以及每個容量類型與[儲存模式](whitepaper-powerbi-premium-deployment.md#model-storage-modes)的限制
+下表描述可使用此功能的更多詳細資料，以及每個容量類型與[儲存模式](service-dataset-modes-understand.md)的限制
 
 | 儲存模式 | 專用容量 | 共用容量 |
 | --- | --- | --- |

@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop (預覽) 中使用圖形地圖
 description: 在 Power BI Desktop 中使用圖形地圖建立區域的相對比較
 author: mihart
-ms.reviewer: amanda
+ms.reviewer: amanda, justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
+ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871129"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74199461"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>在 Power BI Desktop (預覽) 中的圖形地圖
 
@@ -198,28 +198,23 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 | 識別碼 | 名稱 | 名稱 - 繁體中文 |
 | --- | --- | --- |
-| Alsace |Alsace |阿爾薩斯 |
-| Rhone-Alpes |Rhône-Alpes |隆河─阿爾卑斯 |
-| Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |普羅旺斯─阿爾卑斯─蔚藍海岸 |
-| Poitou-Charentes |Poitou-Charentes |普瓦圖─夏朗德 |
-| Picardie |Picardie |皮卡第 |
-| Pays de la Loire |Pays de la Loire |羅亞爾河地區 |
-| Nord-Pas-de-Calais |Nord-Pas-de-Calais |北部─加來海峽 |
-| Midi-Pyrenees |Midi-Pyrénées |南部─庇里牛斯 |
-| Lorraine |Lorraine |洛林 |
-| Limousin |Limousin |利穆贊 |
-| Languedoc-Roussillon |Languedoc-Roussillon |朗格多克─魯西永 |
-| Ile-del-France |Île-de-France |法蘭西島 |
-| Haute-Normandie |Haute-Normandie |上諾曼地 |
-| Franche-Comte |Franche-Comté |法蘭琪─康堤 |
-| Corse |Corse |科西嘉島 |
-| Champagne-Ardenne |Champagne-Ardenne |香檳─阿登 |
-| Centre-Val de Loire |Centre-Val de Loire |中央-羅亞爾河谷 |
+| Auvergne-Rhone-Alpes |  |  |
+| Bourgogne-Franche-Comte |  |  |
 | Bretagne |Bretagne |布列塔尼 |
-| Bourgogne |Bourgogne |勃根地 |
-| Basse-Normandie |Basse-Normandie |下諾曼地 |
-| Auvergne |Auvergne |奧弗涅 |
-| Aquitaine |Aquitaine |Aquitaine |
+| 中央-羅亞爾河谷 |Centre-Val de Loire |中央-羅亞爾河谷 |
+| Corse |Corse |科西嘉島 |
+| Grand Est |  |  |
+| 瓜地洛普 | |   |
+| Hauts-de-France |  |  |
+| 法蘭西島 |Île-de-France |法蘭西島 |
+| La Reunion |  |  |
+| 馬約特島  |  |  |
+| Normandie |Normandie |  |
+| Nouvelle-Aquitaine |  |  |
+| Occitanie  |  |  |
+| Pays de la Loire |Pays de la Loire |Pays de la Loire |
+| Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
+|  |  |  |
 
 ### <a name="germany-states"></a>德國：州
 

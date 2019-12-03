@@ -7,16 +7,16 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: ecc7ec21117c9e2cd974058c63bcf02d72d1f4b1
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.openlocfilehash: f797dd55202ff4cba87cc3a15601d85091e94823
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "73925766"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164053"
 ---
-# <a name="connecting-a-report-to-a-dataset-using-dynamic-binding"></a>使用動態繫結連接報表與資料集 
+# <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>使用動態繫結連接報表與資料集 
 
-僅當報表連接到資料集時，才須使用動態繫結。 報表與資料集之間的連接稱為*繫結*。 當繫結在內嵌時決定，而非預先決定時，該繫結便稱為[動態繫結](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0) (英文)。
+當報表連接到資料集時，您可以使用動態繫結。 報表與資料集之間的連接稱為*繫結*。 當繫結在內嵌時決定，而非預先決定時，該繫結便稱為[動態繫結](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0) (英文)。
  
 當您使用*動態繫結*內嵌 Power BI 報表時，可以透過使用者的認證，將同一份報表連接到不同的資料集。
  
