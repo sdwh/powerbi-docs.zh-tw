@@ -58,6 +58,8 @@
               href: end-user-pdf.md
             - name: 將書籤新增至報表
               href: end-user-bookmarks.md
+            - name: 編頁報表
+              href: end-user-paginated-report.md
         - name: 視覺效果
           items:
             - name: 視覺效果有哪些功能？
