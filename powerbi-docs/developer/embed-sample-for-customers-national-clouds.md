@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: b469cd4649a7acaef3a64eb0d3d8359e438e796f
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 2d8fc35383aa427d8e5c9fd37c6c35f4f3d0a6bb
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311112"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565308"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教學課程：針對國家/地區雲端將 Power BI 內容內嵌到您的應用程式
 
@@ -25,6 +25,8 @@ Power BI 也支援[國家/地區雲端](https://docs.microsoft.com/azure/active-
 不同的國家/地區雲端是：
 
 * 美國政府社群雲端 (GCC)
+
+* 美 國 政府社群雲端 High (GCC High)
 
 * 美 國 軍事承包商 (DoDCON)
 
@@ -51,8 +53,8 @@ Power BI 也支援[國家/地區雲端](https://docs.microsoft.com/azure/active-
 
 * 政府社群雲端 (GCC)：
 
-    > [!Note]
-    > GCC 帳戶僅支援 P 和 EM 容量。
+    > [!NOTE]
+    > 您只能利用 Office 356 SKU 從政府社群雲端 (GCC) 內嵌 Power BI 內容。 GCC High 客戶可以使用 [Office 365 或 Azure SKU](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365)。
 
 1. 以 GCCCloud.config 內容覆寫 Cloud.config 檔案。
 

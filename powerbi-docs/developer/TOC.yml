@@ -15,6 +15,8 @@
               href: power-bi-custom-visuals.md
         - name: 教學課程
           items:
+            - name: 視覺效果概念
+              href: visuals/power-bi-visuals-concept.md
             - name: 開發 Power BI 視覺效果
               href: visuals/custom-visual-develop-tutorial.md
             - name: 新增格式化選項
@@ -67,6 +69,8 @@
               href: visuals/high-contrast-support.md
             - name: 啟用同步交叉分析篩選器
               href: visuals/enable-sync-slicers.md
+            - name: 新增向下切入支援
+              href: visuals/drill-down-support.md
             - name: 疑難排解 Power BI 視覺效果
               href: power-bi-custom-visuals-troubleshoot.md
         - name: 參考
@@ -81,8 +85,14 @@
               href: visuals/event-service.md
             - name: 排序
               href: visuals/sort-options.md
-            - name: 互動功能公用程式
-              href: visuals/utils-interactivity-selections.md
+            - name: Localization
+              href: visuals/localization.md
+            - name: Power BI 視覺效果公用程式
+              items:
+                - name: 互動功能公用程式
+                  href: visuals/utils-interactivity-selections.md
+                - name: 格式化公用程式
+                  href: visuals/utils-formatting.md
         - name: 資源
           items:
             - name: 開發人員中心
