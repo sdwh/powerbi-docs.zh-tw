@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 09/24/2019
-ms.openlocfilehash: 9e49e8e70e7bc499fbcfe0c263bdd8315f2c7dbe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/27/2019
+ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874717"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565710"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>什麼是 Power BI Premium 中的編頁報表？
 
@@ -21,9 +21,9 @@ ms.locfileid: "73874717"
 
 編頁報表可以有許多頁面。 例如，此報表有 563 頁。 每頁都有精確的版面配置，每個發票一頁並重複頁首和頁尾。
 
-![分頁](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+試用[Hands-on lab:Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (實作教室：建立 Microsoft Power BI 編頁報表)。
 
-![Power BI 服務中的編頁報表](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
+![分頁](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 您可以在報表產生器中預覽報表，然後將其發佈至 Power BI 服務 (https://app.powerbi.com ) 中。 您需要 Power BI Pro 授權，才能將報表發佈至服務。 只要工作區位於 Power BI Premium 容量，即可在 [我的工作區] 或工作區中發佈及共用編頁報表。 此外，Power BI 系統管理員需要在 Power BI 管理入口網站的 [Premium 容量區段](service-admin-premium-workloads.md#paginated-reports)中啟用分頁報表。 
 
@@ -87,6 +87,6 @@ ms.locfileid: "73874717"
 - [從 Microsoft 下載中心安裝 Power BI 報表產生器](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [教學課程：建立編頁報表](paginated-reports-quickstart-aw.md)
 - [直接在編頁報表中輸入資料](paginated-reports-enter-data.md)
-
+- [Hands-on lab:Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (實作教室：建立 Microsoft Power BI 編頁報表)
   
 

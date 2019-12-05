@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: c286e921c47b46c20cd73d4b32146093adc74d7f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ad657da4e0a81c6b3b9845d9c130755334f5a97f
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860131"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565723"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI 報表伺服器的容量規劃指引
 Power BI 報表伺服器是客戶可以在其防火牆後方內部部署的自助 BI 和企業報告解決方案。 它結合 Power BI Desktop 的互動式報表功能與 SQL Server Reporting Services 的內部部署伺服器平台。 隨著企業內的分析和報告使用量愈來愈大，估算所需的硬體基礎結構和軟體授權以依照企業使用者總數來調整規模會是項挑戰。 本文旨在提供 Power BI 報表伺服器容量規劃的相關指引，文中並共用對報表伺服器的各種工作負載所執行的多項負載測試結果。 雖然組織的報表、查詢和使用模式差異很大，但本文中所呈現的結果，以及所使用的實際測試及其執行方式的詳細描述，可作為任何人在部署 Power BI 報表伺服器之初期規劃程序的參考點。
@@ -56,7 +56,10 @@ Power BI 報表伺服器部署是由下列虛擬機器所組成：
 * 模擬轉譯小型和大型編頁報表的測試，以及 
 * 模擬執行各種入口網站作業的測試。 
 
-所有測試都是為了執行端對端作業所撰寫 (例如轉譯報表、建立新的資料來源等)。 它們會藉由向報表伺服器提出一或多個 Web 要求 (透過 API) 來完成此工作。 在真實世界中，使用者可能需要執行一些中繼作業，才能完成這些端對端作業之一。 例如，若要轉譯報表，使用者必須前往入口網站，巡覽至報表所在的資料夾，然後按一下報表將它轉譯。 雖然測試不會執行完成端對端工作所需的所有作業，但仍會加諸 Power BI 報表伺服器所遇到的大部分負載。 您可以探索 GitHub 專案，以深入了解所使用的不同報表類型及所執行的各種作業。
+所有測試都是為了執行端對端作業所撰寫 (例如轉譯報表、建立新的資料來源等)。 它們會藉由向報表伺服器提出一或多個 Web 要求 (透過 API) 來完成此工作。 在真實世界中，使用者可能需要執行一些中繼作業，才能完成這些端對端作業之一。 例如，若要轉譯報表，使用者必須前往入口網站，巡覽至報表所在的資料夾，然後按一下報表將它轉譯。 雖然測試不會執行完成端對端工作所需的所有作業，但仍會加諸 Power BI 報表伺服器所遇到的大部分負載。 您可以探索 GitHub 專案，以深入了解所使用的不同報表類型及所執行的各種作業。  
+
+> [!NOTE]
+> 此工具並未正式受到 Microsoft 支援，但是產品小組會參與由其他參與者所發起的專案，並回答其問題。
 
 ### <a name="workloads"></a>工作負載
 測試中使用 2 個工作負載設定檔：Power BI 報表 (大量) 和編頁報表 (大量)。 下表描述對報表伺服器所執行之要求的分佈。
@@ -133,12 +136,11 @@ Power BI 報表伺服器部署是由下列虛擬機器所組成：
 ### <a name="2-run-the-loadtest-tool"></a>2 執行 LoadTest 工具
 如果您想要對自己或 Microsoft Azure 的 Power BI 報表伺服器部署執行 Reporting Services LoadTest 工具，請遵循下列步驟。
 
-1. 從 GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest) 複製 Reporting Services LoadTest 專案。
+1. 從 GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest) 複製 Reporting Services LoadTest 專案。  
 2. 在專案目錄中，您會找到一個稱為 RSLoadTests.sln 的方案檔。 在 Visual Studio 2015 或更新版本中開啟此檔案。
 3. 決定您是要對自己或 Microsoft Azure 的 Power BI 報表伺服器部署執行這項工具。 如果您要對自己的部署執行這項工具，請移至步驟 5。
 4. 請遵循 https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure 中列出的指示，在 Azure 中建立 Power BI 報表伺服器環境。
 5. 完成部署環境後，請按照 https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution 上列出的指示執行測試。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-
 

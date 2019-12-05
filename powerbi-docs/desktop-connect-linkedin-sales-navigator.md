@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5631e4144cf202591e202fd46405815b38ceb42d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016242"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565629"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>在 Power BI Desktop 中連線到 LinkedIn Sales Navigator
 
@@ -111,6 +111,10 @@ ms.locfileid: "74016242"
 範本應用程式接著會使用您的資料，重新整理應用程式中的資料。 您也可以設定排程的重新整理，因此，應用程式中的資料會與您的重新整理頻率所指定的一樣。 
 
 一旦資料更新之後，您就可以看到已填入自己資料的應用程式。
+
+## <a name="getting-help"></a>取得說明
+
+如果在連線至資料時遇到問題，請透過 https://www.linkedin.com/help/sales-navigator 連絡 LinkedIn Sales Navigator 支援。 
 
 ## <a name="next-steps"></a>後續步驟
 您可以使用 Power BI Desktop 連接至各式各樣的資料。 如需有關資料來源的詳細資訊，請參閱下列資源︰

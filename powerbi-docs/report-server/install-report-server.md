@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/26/2019
+ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874149"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565787"
 ---
 # <a name="install-power-bi-report-server"></a>安裝 Power BI 報表伺服器
 
@@ -21,9 +21,9 @@ ms.locfileid: "73874149"
 
 ## <a name="download-power-bi-report-server"></a>下載 Power BI 報表伺服器
 
-從 Microsoft 下載中心[下載 Power BI 報表伺服器](https://www.microsoft.com/download/details.aspx?id=56722)。
+在[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)頁面上，選取 [下載 Power BI 報表伺服器]  。
 
-也有免費的試用版。 在[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)頁面上，選取 [下載 Power BI 報表伺服器]  。
+在執行 PowerBIReportServer.exe 檔案時，請選取免費試用，或輸入產品金鑰。 繼續閱讀以取得詳細資料。
 
 ## <a name="before-you-install"></a>安裝之前
 
@@ -43,7 +43,7 @@ ms.locfileid: "73874149"
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
-如果您已購買 Power BI Premium，則在 Power BI 管理入口網站的 [進階設定]  索引標籤內，您可存取 Power BI 報表伺服器產品金鑰。 這只適用於全域系統管理員，或已獲指派 Power BI 服務系統管理員角色的使用者。
+如果已購買 Power BI Premium，則在 Power BI 管理入口網站的 [進階設定]  索引標籤內，您可存取 Power BI 報表伺服器產品金鑰。 系統管理入口網站只適用於全域系統管理員，或已獲指派 Power BI 服務系統管理員角色的使用者。
 
 ![Premium 設定](../report-server/media/install-report-server/pbirs-product-key.png "[Premium 設定] 內的 Power BI 報表伺服器金鑰")
 
@@ -70,7 +70,7 @@ ms.locfileid: "73874149"
 
     ![選擇版本](media/install-report-server/pbireportserver-choose-edition.png)
 
-    您可以從下拉式清單中選擇 Evaluation 或 Developer 版本。
+    選擇 Evaluation 或 Developer 版本。
 
     ![版本 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
@@ -78,7 +78,7 @@ ms.locfileid: "73874149"
 4. 閱讀並接受授權條款和條件，然後選取 [下一步]  。
 
     ![授權條款](media/install-report-server/pbireportserver-eula.png)
-5. 您需要有資料庫引擎才能儲存報表伺服器資料庫。 選取 [下一步]  只安裝報表伺服器。
+5. 您需要資料庫引擎才能儲存報表伺服器資料庫。 選取 [下一步]  只安裝報表伺服器。
 
     ![只安裝檔案](media/install-report-server/pbireportserver-install-files-only.png)
 6. 指定報表伺服器的安裝位置。 選取 [安裝]  繼續作業。
@@ -95,11 +95,11 @@ ms.locfileid: "73874149"
 
 選取安裝程式中的 [設定報表伺服器]  後，您會看到 Reporting Services 設定管理員。 如需詳細資訊，請參閱 [Reporting Services 設定管理員](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)。
 
-您需要[建立報表伺服器資料庫](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)來完成 Reporting services 的初始設定。 需要 SQL Server 資料庫伺服器才能完成此步驟。
+若要完成 Reporting Services 的初始設定，您需要[建立報表伺服器資料庫](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)。 需要 SQL Server 資料庫伺服器才能完成此步驟。
 
 ### <a name="creating-a-database-on-a-different-server"></a>在其他伺服器上建立資料庫
 
-如果您要在另一部電腦的資料庫伺服器上建立報表伺服器資料庫，您需要將報表伺服器的服務帳戶變更為資料庫伺服器上可辨識的認證。 
+如果要在另一部電腦的資料庫伺服器上建立報表伺服器資料庫，請將報表伺服器的服務帳戶變更為資料庫伺服器上可辨識的認證。 
 
 報表伺服器預設使用虛擬服務帳戶。 如果您嘗試在其他伺服器上建立資料庫，可能會在套用連接權限的步驟中收到下列錯誤。
 
@@ -137,9 +137,9 @@ URL 保留項目是由前置詞、主機名稱、連接埠及虛擬目錄所組�
 
 ## <a name="firewall"></a>防火牆
 
-如果要從遠端電腦存取報表伺服器，您會想要確定已設定所有防火牆規則，如果有防火牆存在的話。
+如果要從遠端電腦存取報表伺服器，請確定已設定所有防火牆規則 (如果有防火牆存在的話)。
 
-您需要開啟已為 Web 服務 URL 和入口網站 URL 設定的 TCP 連接埠。 根據預設，這些都設定在 TCP 連接埠 80。
+開啟已為 Web 服務 URL 和 Web 入口網站 URL 設定的 TCP 連接埠。 根據預設，這些都設定在 TCP 連接埠 80。
 
 ## <a name="additional-configuration"></a>額外設定
 

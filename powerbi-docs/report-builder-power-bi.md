@@ -1,7 +1,7 @@
 ---
 title: Power BI 編頁報表產生器
 description: Power BI 分頁報表產生器是用於撰寫分頁報表的工具。
-ms.date: 09/16/2019
+ms.date: 11/27/2019
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6d13871ec3ba8a7550a556a8923893a6b7d676ae
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: faba36a609abd94b2439006fbbcf01a1d193c585
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076067"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565300"
 ---
 # <a name="power-bi-paginated-report-builder"></a>Power BI 編頁報表產生器
 
  Power BI 分頁報表產生器是用於撰寫分頁報表的工具。  當您設計分頁報表時，您將建立報表定義來指定要擷取的資料、何處取得資料及如何顯示資料。 當您執行報表時，報表處理器會採用您所指定的報表定義、擷取資料，並結合報表配置來產生報表。 您會在報表產生器中預覽報表。 然後將報表發佈至 Power BI 服務。
+
+試用[Hands-on lab:Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (實作教室：建立 Microsoft Power BI 編頁報表)。
 
 想要從影片學習嗎？ 請觀看 Power BI 首席專案經理 Chris Finlan 在 YouTube 上提供的 Power BI 編頁報表影片系列。
 
@@ -61,5 +63,5 @@ ms.locfileid: "71076067"
 ## <a name="next-steps"></a>後續步驟
 
 - [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)
-
+- 試用[Hands-on lab:Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (實作教室：建立 Microsoft Power BI 編頁報表)
 - 請觀看 Power BI 首席專案經理 Chris Finlan 在 YouTube 上提供的 [Power BI 編頁報表影片系列](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ)
