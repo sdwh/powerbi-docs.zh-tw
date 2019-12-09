@@ -1,20 +1,20 @@
 ---
 title: 組織中的 Power BI 授權
 description: 了解 Power BI 提供的不同授權類型：免費授權、Power BI Pro 和 Power BI Premium。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 2cbf2498740d26a59ced5652368cf99b8fa5eec1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7a2cc9a1deb87e94c0887b1ae00174d6791cf712
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73857720"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74700019"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>組織中的 Power BI 授權
 

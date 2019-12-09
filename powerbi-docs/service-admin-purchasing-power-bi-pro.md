@@ -1,20 +1,20 @@
 ---
 title: 購買及指派 Power BI Pro 授權
 description: 了解如何購買及指派 Power BI Pro 使用者授權，讓您的使用者可以存取 Power BI 服務中的內容，並在其中與同事共同作業。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: quickstart
 ms.date: 10/29/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 72a158e2dca32d2199fcd48e2cc37bf4c90778ea
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ebaf32bbf84dcbb8efd8516fd0a1ab01011f2d63
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873550"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698478"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>購買及指派 Power BI Pro 使用者授權
 

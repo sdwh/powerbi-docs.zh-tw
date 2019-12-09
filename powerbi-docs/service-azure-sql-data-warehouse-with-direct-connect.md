@@ -4,18 +4,18 @@ description: 具有 DirectQuery 的 Azure SQL 資料倉儲
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2e96b88963250d7ac11cf9690c63b431279d585a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 932c13b84184ad237879e33e943d85020640dd4c
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873256"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698297"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>具有 DirectQuery 的 Azure SQL 資料倉儲
 
@@ -61,7 +61,7 @@ SQL 資料倉儲也會列在 Power BI 的 [取得資料] 頁面上。
 
     ![資料庫](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
 
-3. 選取 **[SQL 資料倉儲]** \> **[連接]** 。
+3. 選取 **SQL 資料倉儲**\> **連接**。
 
     ![具有直接連接的 Azure SQL 資料倉儲](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 

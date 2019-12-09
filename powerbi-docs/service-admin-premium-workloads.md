@@ -1,20 +1,20 @@
 ---
 title: 如何設定 Power BI Premium 中的工作負載
 description: 了解如何設定 Power BI Premium 容量中的工作負載。
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7d94c5d3531576cd36688591b55aaf4a49de51aa
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856821"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831285"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>設定 Premium 容量中的工作負載
 
@@ -164,7 +164,7 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 | **最大記憶體 (%)** | 編頁報表可在容量中使用的可用記憶體百分比上限。 |
 |  |  |
 
-編頁報表可讓您在轉譯報表時執行自訂程式碼。 例如，根據內容動態變更文字色彩，這可能需要額外的記憶體。 Power BI Premium 在容量內的包含空間中執行編頁報表。 「無論」  工作負載是否為作用中，都會使用指定的最大記憶體。 如果變更預設的 [最大記憶體] 設定，請務必將它設得夠低，以避免對其他工作負載造成負面影響。
+編頁報表可讓您在轉譯報表時執行自訂程式碼。 例如，根據內容動態變更文字色彩，這可能需要額外的記憶體。 Power BI Premium 在容量內的包含空間中執行編頁報表。 
 
 在某些情況下，編頁報表工作負載可能會變成無法使用。 此時，工作負載會在管理入口網站中顯示錯誤狀態，且使用者會看到報表轉譯逾時。 若要緩解此問題，請停用工作負載，然後再次啟用它。
 

@@ -1,21 +1,21 @@
 ---
 title: 圖格錯誤的疑難排解
 description: 圖格在 Power BI 中嘗試進行重新整理時可能遇到的常見錯誤
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 12/06/2018
-ms.author: mblythe
+ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: dbae4c82fb350242ed0fefadeeec217666fc3005
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877495"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699536"
 ---
 # <a name="troubleshooting-tile-errors"></a>圖格錯誤的疑難排解
 以下是您在使用圖格時可能發生的常見錯誤和說明。

@@ -1,21 +1,21 @@
 ---
 title: 在組織內使用稽核
 description: 了解您可以如何使用 Power BI 的稽核來監視和調查所執行的動作。 您可以使用安全與合規性中心或使用 PowerShell。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 76de629f1579289ea3b702013583911d05f08408
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 868d3dc2463f5ed94b8d8ccd85e5edff33ca1c6e
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873773"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698915"
 ---
 # <a name="use-auditing-within-your-organization"></a>在組織內使用稽核
 

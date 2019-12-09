@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: b451333aaf93584e7e16dcf24e6b693e9da3eccd
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478634"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882762"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -24,10 +24,6 @@ ms.locfileid: "74478634"
 **Azure 虛擬活動中的分析：使用 Azure Synapse Analytics 來加快取得見解的速度**
 <br>由 Gayle Sheppard 和 John Macintyre 主持
 <br>[立即報名](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**Microsoft 正在如何改變 BI 資料保護**
-<br>由 Anton Fritz 和 Adi Regev 主持
-<br>[報名以在 12 月 4 日觀看](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US) \(英文\)
 
 **塑造巨量資料分析未來的九個趨勢**
 <br>由 Vijay Gopalakrishnan 主持
@@ -42,6 +38,10 @@ ms.locfileid: "74478634"
 ## <a name="featured-webinars"></a>精選的網路研討會
 
 開始使用這些熱門的隨選網路研討會
+
+**Microsoft 正在如何改變 BI 資料保護**
+<br>由 Anton Fritz 和 Adi Regev 主持
+<br>[報名並立即觀看](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **Power BI 以及現代化和企業 BI 的未來**
 <br>由 Arun Ulag 和 Amir Netz 主持
