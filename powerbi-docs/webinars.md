@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: b451333aaf93584e7e16dcf24e6b693e9da3eccd
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164254"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478634"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -32,6 +32,10 @@ ms.locfileid: "74164254"
 **塑造巨量資料分析未來的九個趨勢**
 <br>由 Vijay Gopalakrishnan 主持
 <br>[報名以在 12 月 18 日觀看](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
+
+**三種 AI 正在改變 BI 的方式**
+<br>由 Justyna Lucznik 主持
+<br>[報名以在 1 月 8 日觀看](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
 
 >[來自 Power BI 社群，即將舉行的網路研討會](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

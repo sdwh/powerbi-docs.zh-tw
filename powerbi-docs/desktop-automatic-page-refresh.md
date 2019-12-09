@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9f7c745ad251fdb81c7898130cd3ca6c5d32af9
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164150"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548575"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop 自動重新整理頁面 (預覽)
 
@@ -83,7 +83,7 @@ Power BI 中的「自動重新頁面整理 (APR)」功能可讓您的作用中�
 
 您也可以為已在 Power BI Desktop 中撰寫的報表設定自動頁面重新整理間隔，並將其發行至 Power BI 服務。 
 
-Power BI 服務中報表的自動頁面重新整理是使用與 Power BI Desktop 中的設定類似的步驟所設定。 下圖顯示 Power BI 服務的 [頁面重新整理]  設定：
+Power BI 服務中報表的自動頁面重新整理是使用與 Power BI Desktop 中的設定類似的步驟所設定。 於 Power BI 服務中設定時，自動頁面重新整理也支援[內嵌的 Power BI](developer/embedding.md) 內容。 下圖顯示 Power BI 服務的 [頁面重新整理]  設定：
 
 ![Power BI 服務中的自動頁面重新整理](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 
