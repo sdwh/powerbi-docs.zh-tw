@@ -1,20 +1,20 @@
 ---
 title: 使用系統管理入口網站來監視 Power BI Premium 容量
 description: 您可以使用 Power BI 系統管理入口網站來監視您的 Premium 容量。
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/10/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 0d1e0da498a7a2c78e86b643b8a86cb87d6d095a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 51d7b29eee1394ec1bbcad8d69b39b4e45ecdb18
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856855"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74700065"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>在系統管理入口網站中監視容量
 

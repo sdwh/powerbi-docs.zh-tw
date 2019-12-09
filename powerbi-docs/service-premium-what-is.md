@@ -1,8 +1,8 @@
 ---
 title: Microsoft Power BI Premium 是什麼？
 description: Power BI Premium 可為組織提供專用容量，給您更可靠的效能和更大的資料磁碟區，不需要您購買每個使用者授權。
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: f62387feebca089b2afbb919419365fd7e09c2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9434aa717ad10791e75366cf23ef8ece567389ea
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871811"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699122"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 

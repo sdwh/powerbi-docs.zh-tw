@@ -1,20 +1,20 @@
 ---
 title: 管理您的資料來源 - 匯入/排程重新整理
 description: 如何管理內部部署資料閘道及屬於該閘道的資料來源。 本文旨在說明可用於匯入/已排程重新整理的資料來源。
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7512257a3abad33babe2a5b6b56f613c7bb1b50f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 13d8cd9838cdcb035e7dd30a1180ac77957441ea
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881704"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699421"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>管理您的資料來源 - 匯入/排程重新整理
 
