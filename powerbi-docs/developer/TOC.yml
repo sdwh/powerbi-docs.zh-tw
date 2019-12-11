@@ -41,11 +41,11 @@
               href: visuals/advanced-edit-mode.md
         - name: 如何
           items:
-            - name: 認證視覺效果
+            - name: 取得 Power BI 視覺效果認證
               href: power-bi-custom-visuals-certified.md
-            - name: 在 AppSource 上發佈自訂視覺效果
+            - name: 在 AppSource 上發佈 Power BI 視覺效果
               href: office-store.md
-            - name: 在 Power BI 中使用 R 提供技術的自訂視覺效果
+            - name: 在 Power BI 中使用 R 支援的 Power BI 視覺效果
               href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
             - name: 視覺效果互動
               href: visuals/visuals-interactions.md
@@ -69,8 +69,6 @@
               href: visuals/high-contrast-support.md
             - name: 啟用同步交叉分析篩選器
               href: visuals/enable-sync-slicers.md
-            - name: 新增向下切入支援
-              href: visuals/drill-down-support.md
             - name: 疑難排解 Power BI 視覺效果
               href: power-bi-custom-visuals-troubleshoot.md
         - name: 參考
@@ -85,14 +83,8 @@
               href: visuals/event-service.md
             - name: 排序
               href: visuals/sort-options.md
-            - name: Localization
-              href: visuals/localization.md
-            - name: Power BI 視覺效果公用程式
-              items:
-                - name: 互動功能公用程式
-                  href: visuals/utils-interactivity-selections.md
-                - name: 格式化公用程式
-                  href: visuals/utils-formatting.md
+            - name: 互動功能公用程式
+              href: visuals/utils-interactivity-selections.md
         - name: 資源
           items:
             - name: 開發人員中心
