@@ -32,10 +32,14 @@
           href: ../service-dataflows-best-practices.md
         - name: Power BI Desktop 中的 DirectQuery 模型指南
           href: directquery-model-guidance.md
+        - name: 參考 Power Query 查詢
+          href: power-query-referenced-queries.md
         - name: 使用報表頁面工具提示延伸視覺效果
           href: report-page-tooltips.md
         - name: 報表頁面鑽研
           href: report-drillthrough.md
+        - name: Power BI Desktop 中的自動日期/時間指引
+          href: auto-date-time.md
     - name: 白皮書
       items:
         - name: 白皮書概觀
