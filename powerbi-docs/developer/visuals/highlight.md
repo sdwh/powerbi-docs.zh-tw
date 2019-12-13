@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: ed1a67168a386838049ec2ca047ec0cd971408fc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf5cd8d8ae649071b3c9cc7243f87ac3cc316c3b
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880022"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695352"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>在 Power BI 視覺效果中醒目提示資料點
 
@@ -26,6 +26,9 @@ ms.locfileid: "73880022"
 ![`dataview` 支援醒目提示](./media/highlight-dataview-supports.png)
 
 在此範例中，您會注意到選取了 1 個直條。 這是 highlights 陣列中唯一的值。 另請務必注意，可能會有多個選取項目和部分醒目提示。 醒目提示的值將會呈現在資料檢視中。
+
+> [!Note]
+> 資料表資料檢視對應不支援醒目提示功能。
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>使用類別資料檢視對應來醒目提示資料點
 

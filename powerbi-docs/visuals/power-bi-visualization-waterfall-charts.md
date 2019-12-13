@@ -7,15 +7,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fedaa811c94a9e955d6ca10646bc546f60dc9b98
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881956"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907598"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布圖
 
@@ -63,9 +63,11 @@ ms.locfileid: "73881956"
 
 您將會建立一個顯示了每月銷售額差異 (估計銷售額與實際銷售額) 的瀑布圖。
 
+### <a name="build-the-waterfall-chart"></a>建立瀑布圖
+
 1. 從 [欄位]  窗格，選取 [銷售額]   > [總銷售額差異]  。
 
-   ![選取 [銷售額] > [總銷售額差異] 後產生的視覺效果螢幕擷取畫面。](media/power-bi-visualization-waterfall-charts/power-bi-first-value.png)
+   ![選取 [銷售額] > [總銷售額差異] 後產生的視覺效果螢幕擷取畫面。](media/power-bi-visualization-waterfall-charts/power-bi-bar.png)
 
 1. 選取瀑布圖圖示 ![瀑布圖圖示的螢幕擷取畫面](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png)
 
@@ -73,41 +75,45 @@ ms.locfileid: "73881956"
 
 1. 選取 [時間]   > [FiscalMonth]  將其新增至 [類別]  部分。
 
-    ![瀑布圖](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![瀑布圖](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
-1. 確定 Power BI 依時間先後順序來排序瀑布圖。 選取圖表右上角的 [更多選項]  (...)。
+### <a name="sort-the-waterfall-chart"></a>排序瀑布圖
 
-    在此範例中，我們將選取 [遞增排序] 
+1. 確定 Power BI 依月份時間先後順序來排序瀑布圖。 選取圖表右上角的 [更多選項]  (...)。
 
-    檢查 [遞增排序]  選項左側是否有黃色指標。 這表示已套用您選取的選項。
+    在此範例中，選取 [排序依據]  ，然後選擇 [FiscalMonth]  。 選取項目旁的黃色指標會指出套用選取選項的時間。
 
-    ![選取 [排序依據] > [遞增順序]](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
+    ![選取 [排序依據] > [FiscalMonth]](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscalmonth.png)
+    
+    若要依時間順序顯示月份，請選取 [遞增排序]  。 如同上一個步驟，請檢查 [遞增排序]  左側是否有黃色指標。 這表示已套用您選取的選項。
 
-    接下來，我們將按一下 [排序依據]  ，然後選取 [會計月份]  ，如同上一個步驟所述，選取項目旁黃色指標會指出套用選取選項的時間。
+    ![選取 [排序依據] > [遞增順序]](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-ascending.png)
 
-    ![選取 [排序依據] > [FiscalMonth]](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscal-month.png)
+    
 
-    您也可以查看 X 軸的值，這些值會依 [一月]  到 [八月]  的順序顯示。
+    請注意，圖表會從會計月份的一月排到八月。  
 
-    深入了解造成每個月變化的最大因素為何。
+### <a name="explore-the-waterfall-chart"></a>探索瀑布圖
+
+深入了解造成每個月變化的最大因素為何。
 
 1.  選取 [商店]   > [地區]  ，這會將 [地區]  新增至 [分解]  貯體。
 
     ![顯示 [分解] 貯體中的 [存放區]](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
-    根據預設，Power BI 會新增造成每個月增加或減少的前五個因素。 下圖已展開 [視覺效果] 窗格以納入更多資料。 
+    Power BI 會使用 [分解]  中的值，將其他資料新增至視覺效果。 其新增造成每個會計月份增加或減少的前五個因素。 例如，這表示 2 月現在會有六個資料點，而不是只有一個。  
 
-    ![顯示 [分解] 貯體中的 [存放區]](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-initial.png)
+    ![顯示 [分解] 貯體中的 [存放區]](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-default.png)
 
-    您只想了解前兩個因素。
+    假設您只想了解前兩個因素。
 
 1. 在 [格式]  窗格中，選取 [分解]  ，然後將 [分解上限]  設定為 [2]  。
 
-    ![[格式] > [分解]](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![[格式] > [分解]](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-two.png)
 
     快速檢閱會顯示俄亥俄州和賓夕法尼亞州地區是造成我們瀑布圖負向及正向移動的最大因素。
 
-    ![瀑布圖](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+    ![瀑布圖](media/power-bi-visualization-waterfall-charts/power-bi-axis-waterfall.png)
 
 ## <a name="next-steps"></a>後續步驟
 

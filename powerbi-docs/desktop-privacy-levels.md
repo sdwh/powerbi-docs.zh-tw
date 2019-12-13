@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b28c56433e27794798f2907f0d780002db96b2f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878068"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791302"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop 隱私權等級
 在 **Power BI Desktop** 中，隱私權等級會指定某個資料來源與其他資料來源隔離程度的隔離等級。 雖然嚴格的隔離等級能夠阻擋資料來源交換資訊，卻可能會降低功能並影響效能。
@@ -44,7 +44,7 @@ ms.locfileid: "73878068"
 > 
 
 ## <a name="configure-privacy-levels"></a>設定隱私權等級
-[隱私權等級]  是預設為 [根據您每個來源的隱私權等級設定合併資料]  的設定，表示並未啟用 [隱私權等級]  。
+[隱私權等級]  預設為 [根據每個來源的隱私權等級設定合併資料]  ，表示會施行 [隱私權等級]  。
 
 | 設定 | 描述 |
 | --- | --- |

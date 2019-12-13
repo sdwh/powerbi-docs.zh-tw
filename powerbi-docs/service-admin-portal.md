@@ -1,21 +1,21 @@
 ---
 title: Power BI 管理入口網站
 description: 管理入口網站可讓您管理貴組織的 Power BI 租用戶。 包含項目如使用計量、存取 Microsoft 365 系統管理中心及設定等。
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265897"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882888"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -247,11 +247,14 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 ![列印報告](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>允許外部來賓使用者編輯和管理組織中的內容
-Azure B2B 來賓使用者可編輯及管理組織中的內容。 [深入了解](service-admin-azure-ad-b2b.md)
+Azure Active Directory B2B 來賓使用者可編輯及管理組織中的內容。 [深入了解](service-admin-azure-ad-b2b.md)
 
 以下影像顯示可讓外部來賓使用者編輯及管理組織中內容的選項。
 
 ![允許外部來賓使用者編輯和管理組織中的內容](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+> [!IMPORTANT]
+> 當您將外部使用者新增至 Azure AD 租用戶時 (以手動方式或藉由與該使用者共用報表)，該使用者帳戶現在可供內部帳戶探索。 即使內部帳戶沒有外部共用權限，內部使用者也可與外部使用者共用其他項目。
 
 ### <a name="email-subscriptions"></a>電子郵件訂閱
 組織中的使用者可建立電子郵件訂閱。 深入了解[訂閱](service-report-subscribe.md)。

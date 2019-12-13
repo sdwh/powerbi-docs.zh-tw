@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099860"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698984"
 ---
 # <a name="r-visuals-in-power-bi"></a>Power BI 中的 R 視覺效果
 R 視覺效果目前僅能在 **Power BI Desktop** 中建立，然後發行到 Power BI 服務。 如需如何建立 R 視覺效果的詳細資訊，請參閱 [使用 R 建立 Power BI 視覺效果](../desktop-r-visuals.md)。
@@ -94,6 +94,11 @@ Power BI 服務的 R 視覺效果有某些限制︰
 * 使用 [發行至 Web]  時不會顯示 R 視覺效果。
 * 儀表板和報表列印目前不會列印 R 視覺效果
 * Analysis Services 的 DirectQuery 模式目前不支援 R 視覺效果
+* R 視覺效果能夠將文字標籤轉換成圖形元素。 在 Power BI 服務中這麼做需要執行下列額外步驟：
+  
+  * 在 R 指令碼的開頭新增下行：
+    
+        powerbi_rEnableShowText =  1
 * 中文、日文與韓文字型必須執行下列所有額外步驟，才能在 Power BI 服務中正常運作︰
   
   * 首先，請安裝 R 套件 *showtext* 和其所有其相依性。 做法是執行下列指令碼︰

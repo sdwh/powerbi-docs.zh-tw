@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 07cc0517fb27649bb3cc47b8ba8f51b4268d9a7c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880167"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696600"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>了解 Power BI 視覺效果中的資料檢視對應
 
@@ -101,14 +101,29 @@ Power BI 產生具有單一 `categorical` 對應的資料檢視，且未定義 `
 ### <a name="example-3"></a>範例 3
 
 ```json
-"dataViewMappings": {
-    "conditions": [
-        { "Y": { "max": 1 } }
+{
+    "dataRoles": [
+        {
+            "displayName": "Y",
+            "name": "Y",
+            "kind": "Measure"
+        }
     ],
-    "single": {
-        "role": "Y"
-    }
-}  
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "Y": {
+                        "max": 1
+                    }
+                }
+            ],
+            "single": {
+                "role": "Y"
+            }
+        }
+    ]
+}
 ```
 
 產生的資料檢視仍包含其他類型 (資料表、類別目錄等)，但每個對應只包含單一值。 最佳做法是只存取單一值。
@@ -129,6 +144,48 @@ Power BI 產生具有單一 `categorical` 對應的資料檢視，且未定義 `
     ]
 }
 ```
+
+處理簡單資料檢視對應的程式碼範例
+
+```typescript
+"use strict";
+import powerbi from "powerbi-visuals-api";
+import DataView = powerbi.DataView;
+import DataViewSingle = powerbi.DataViewSingle;
+// standart imports
+// ...
+
+export class Visual implements IVisual {
+    private target: HTMLElement;
+    private host: IVisualHost;
+    private valueText: HTMLParagraphElement;
+
+    constructor(options: VisualConstructorOptions) {
+        // constructor body
+        this.target = options.element;
+        this.host = options.host;
+        this.valueText = document.createElement("p");
+        this.target.appendChild(this.valueText);
+        // ...
+    }
+
+    public update(options: VisualUpdateOptions) {
+        const dataView: DataView = options.dataViews[0];
+        const singleDataView: DataViewSingle = dataView.single;
+
+        if (!singleDataView ||
+            !singleDataView.value ) {
+            return
+        }
+
+        this.valueText.innerText = singleDataView.value.toString();
+    }
+}
+```
+
+因此，視覺效果會顯示來自 Power BI 的單一值：
+
+![單一資料檢視對應的視覺效果範例](./media/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>類別目錄資料對應
 
@@ -282,12 +339,12 @@ Power BI 產生具有單一 `categorical` 對應的資料檢視，且未定義 `
 
 | 類別目錄 |  |  | | | |
 |-----|-----|------|------|------|------|
-| | 年度 | 2013 | 2014 | 2015 | 2016 |
+| | 年 | 2013 | 2014 | 2015 | 2016 |
 | 國家/地區 | | |
-| 美國 | | x | x | 125 | 100 |
-| 加拿大 | | x | 50 | 200 | x |
-| 墨西哥 | | 300 | x | x | x |
-| 英國 | | x | x | 75 | x |
+| 美國 | | x | x | 650 | 350 |
+| 加拿大 | | x | 630 | 490 | x |
+| 墨西哥 | | 645 | x | x | x |
+| 英國 | | x | x | 831 | x |
 
 Power BI 將它產生為類別目錄資料檢視。 這是一組類別。
 
@@ -299,9 +356,9 @@ Power BI 將它產生為類別目錄資料檢視。 這是一組類別。
                 "source": {...},
                 "values": [
                     "Canada",
-                    "Mexico",
+                    "USA",
                     "UK",
-                    "USA"
+                    "Mexico"
                 ],
                 "identity": [...],
                 "identityFields": [...],
@@ -313,54 +370,130 @@ Power BI 將它產生為類別目錄資料檢視。 這是一組類別。
 
 每個類別也會對應到一組值。 每一個值都會依數列 (以年份表示) 分組。
 
-例如，2013 年的加拿大銷售額是 Null，而 2014 年的加拿大銷售額是 50。
+例如，每個 `values` 陣列都代表每年的資料。
+此外，每個 `values` 陣列各有 4 個值，分別適用於加拿大、美國、英國和墨西哥：
 
 ```JSON
 {
     "values": [
+        // Values for 2013 year
         {
             "source": {...},
             "values": [
-                null,
-                300,
-                null,
-                null
+                null, // Value for `Canada` category
+                null, // Value for `USA` category
+                null, // Value for `UK` category
+                645 // Value for `Mexico` category
             ],
             "identity": [...],
         },
+        // Values for 2014 year
         {
             "source": {...},
             "values": [
-                50,
-                null,
-                150,
-                null
+                630, // Value for `Canada` category
+                null, // Value for `USA` category
+                null, // Value for `UK` category
+                null // Value for `Mexico` category
             ],
             "identity": [...],
         },
+        // Values for 2015 year
         {
             "source": {...},
             "values": [
-                200,
-                null,
-                null,
-                125
+                490, // Value for `Canada` category
+                650, // Value for `USA` category
+                831, // Value for `UK` category
+                null // Value for `Mexico` category
             ],
             "identity": [...],
         },
+        // Values for 2016 year
         {
             "source": {...},
             "values": [
-                null,
-                null,
-                null,
-                100
+                null, // Value for `Canada` category
+                350, // Value for `USA` category
+                null, // Value for `UK` category
+                null // Value for `Mexico` category
             ],
             "identity": [...],
         }
     ]
 }
 ```
+
+處理類別資料檢視對應的程式碼範例如下所述。 此範例會建立階層式結構 `Country => Year => Value`
+
+```typescript
+"use strict";
+import powerbi from "powerbi-visuals-api";
+import DataView = powerbi.DataView;
+import DataViewDataViewCategoricalSingle = powerbi.DataViewCategorical;
+import DataViewValueColumnGroup = powerbi.DataViewValueColumnGroup;
+import PrimitiveValue = powerbi.PrimitiveValue;
+// standart imports
+// ...
+
+export class Visual implements IVisual {
+    private target: HTMLElement;
+    private host: IVisualHost;
+    private categories: HTMLElement;
+
+    constructor(options: VisualConstructorOptions) {
+        // constructor body
+        this.target = options.element;
+        this.host = options.host;
+        this.categories = document.createElement("pre");
+        this.target.appendChild(this.categories);
+        // ...
+    }
+
+    public update(options: VisualUpdateOptions) {
+        const dataView: DataView = options.dataViews[0];
+        const categoricalDataView: DataViewCategorical = dataView.categorical;
+
+        if (!categoricalDataView ||
+            !categoricalDataView.categories ||
+            !categoricalDataView.categories[0] ||
+            !categoricalDataView.values) {
+            return;
+        }
+
+        // Categories have only one column in data buckets
+        // If you want to support several columns of categories data bucket, you should iterate categoricalDataView.categories array.
+        const categoryFieldIndex = 0;
+        // Measure has only one column in data buckets.
+        // If you want to support several columns on data bucket, you should iterate years.values array in map function
+        const measureFieldIndex = 0;
+        let categories: PrimitiveValue[] = categoricalDataView.categories[categoryFieldIndex].values;
+        let values: DataViewValueColumnGroup[] = categoricalDataView.values.grouped();
+
+        let data = {};
+        // iterate categories/countries
+        categories.map((category: PrimitiveValue, categoryIndex: number) => {
+            data[category.toString()] = {};
+            // iterate series/years
+            values.map((years: DataViewValueColumnGroup) => {
+                if (!data[category.toString()][years.name] && years.values[measureFieldIndex].values[categoryIndex]) {
+                    data[category.toString()][years.name] = []
+                }
+                if (years.values[0].values[categoryIndex]) {
+                    data[category.toString()][years.name].push(years.values[measureFieldIndex].values[categoryIndex]);
+                }
+            });
+        });
+
+        this.categories.innerText = JSON.stringify(data, null, 6);
+        console.log(data);
+    }
+}
+```
+
+視覺效果的結果：
+
+![內含類別資料檢視對應的視覺效果](./media/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>資料表資料對應
 
@@ -373,8 +506,13 @@ Power BI 將它產生為類別目錄資料檢視。 這是一組類別。
 ```json
 "dataRoles": [
     {
-        "displayName": "Values",
-        "name": "values",
+        "displayName": "Column",
+        "name": "column",
+        "kind": "Measure"
+    },
+    {
+        "displayName": "Value",
+        "name": "value",
         "kind": "Measure"
     }
 ]
@@ -385,9 +523,18 @@ Power BI 將它產生為類別目錄資料檢視。 這是一組類別。
     {
         "table": {
             "rows": {
-                "for": {
-                    "in": "values"
-                }
+                "select": [
+                    {
+                        "for": {
+                            "in": "column"
+                        }
+                    },
+                    {
+                        "for": {
+                            "in": "value"
+                        }
+                    }
+                ]
             }
         }
     }
@@ -396,7 +543,9 @@ Power BI 將它產生為類別目錄資料檢視。 這是一組類別。
 
 您可以下列方式將資料表資料檢視視覺化：  
 
-| 國家/地區| 年度 | 銷售 |
+資料範例：
+
+| 國家/地區| 年 | 銷售 |
 |-----|-----|------|
 | 美國 | 2016 | 100 |
 | 美國 | 2015 | 50 |
@@ -405,6 +554,10 @@ Power BI 將它產生為類別目錄資料檢視。 這是一組類別。
 | 墨西哥 | 2013 | 300 |
 | 英國 | 2014 | 150 |
 | 美國 | 2015 | 75 |
+
+資料繫結：
+
+![資料表資料檢視對應的資料繫結](./media/table-dataview-mapping-data.png)
 
 Power BI 會將您的資料顯示為資料表資料檢視。 您不應該假設資料已排序。
 
@@ -416,37 +569,32 @@ Power BI 會將您的資料顯示為資料表資料檢視。 您不應該假設�
             [
                 "Canada",
                 2014,
-                50
+                630
             ],
             [
                 "Canada",
                 2015,
-                200
+                490
             ],
             [
                 "Mexico",
                 2013,
-                300
+                645
             ],
             [
                 "UK",
                 2014,
-                150
+                831
             ],
             [
                 "USA",
                 2015,
-                100
-            ],
-            [
-                "USA",
-                2015,
-                75
+                650
             ],
             [
                 "USA",
                 2016,
-                100
+                350
             ]
         ]
     }
@@ -456,6 +604,89 @@ Power BI 會將您的資料顯示為資料表資料檢視。 您不應該假設�
 您可以選取所需的欄位，然後選取 [加總]，來彙總資料。  
 
 ![資料彙總](./media/data-aggregation.png)
+
+處理資料表資料檢視對應的程式碼範例。
+
+```typescript
+"use strict";
+import "./../style/visual.less";
+import powerbi from "powerbi-visuals-api";
+// ...
+import DataViewMetadataColumn = powerbi.DataViewMetadataColumn;
+import DataViewTable = powerbi.DataViewTable;
+import DataViewTableRow = powerbi.DataViewTableRow;
+import PrimitiveValue = powerbi.PrimitiveValue;
+// other imports
+// ...
+
+export class Visual implements IVisual {
+    private target: HTMLElement;
+    private host: IVisualHost;
+    private table: HTMLParagraphElement;
+
+    constructor(options: VisualConstructorOptions) {
+        // constructor body
+        this.target = options.element;
+        this.host = options.host;
+        this.table = document.createElement("table");
+        this.target.appendChild(this.table);
+        // ...
+    }
+
+    public update(options: VisualUpdateOptions) {
+        const dataView: DataView = options.dataViews[0];
+        const tableDataView: DataViewTable = dataView.table;
+
+        if (!tableDataView) {
+            return
+        }
+        while(this.table.firstChild) {
+            this.table.removeChild(this.table.firstChild);
+        }
+
+        //draw header
+        const tableHeader = document.createElement("th");
+        tableDataView.columns.forEach((column: DataViewMetadataColumn) => {
+            const tableHeaderColumn = document.createElement("td");
+            tableHeaderColumn.innerText = column.displayName
+            tableHeader.appendChild(tableHeaderColumn);
+        });
+        this.table.appendChild(tableHeader);
+
+        //draw rows
+        tableDataView.rows.forEach((row: DataViewTableRow) => {
+            const tableRow = document.createElement("tr");
+            row.forEach((columnValue: PrimitiveValue) => {
+                const cell = document.createElement("td");
+                cell.innerText = columnValue.toString();
+                tableRow.appendChild(cell);
+            })
+            this.table.appendChild(tableRow);
+        });
+    }
+}
+```
+
+視覺效果樣式檔案 `style/visual.less` 包含資料表的配置：
+
+```less
+table {
+    display: flex;
+    flex-direction: column;
+}
+
+tr, th {
+    display: flex;
+    flex: 1;
+}
+
+td {
+    flex: 1;
+    border: 1px solid black;
+}
+```
+
+![內含資料表資料檢視對應的視覺效果](./media/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>矩陣資料對應
 
@@ -694,7 +925,7 @@ Power BI 的核心矩陣視覺效果會將資料以表格呈現。
                     "top": {
                         "count": 2000
                     }
-                } 
+                }
             }
         }
     }
@@ -702,3 +933,7 @@ Power BI 的核心矩陣視覺效果會將資料以表格呈現。
 ```
 
 您可以將資料縮減演算法套用至資料檢視對應矩陣的 `rows` 和 `columns` 區段。
+
+## <a name="next-steps"></a>後續步驟
+
+了解如何[在 Power BI 視覺效果中新增資料檢視對應的向下鑽研支援](drill-down-support.md)。

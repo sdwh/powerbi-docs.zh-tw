@@ -1,20 +1,20 @@
 ---
 title: Power BI 的資料重新整理
 description: 本文描述 Power BI 資料重新整理功能及其在概念層級的相依性。
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/14/2019
-ms.author: mblythe
+ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 28a6aa8659411b829e6982e7c766e03d683871fd
-ms.sourcegitcommit: 982ffaa8eb91897f48221a816970671f4a92e6d9
+ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74415426"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791676"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 
@@ -92,7 +92,7 @@ Power BI 重新整理作業可能是由多個重新整理類型組成，包括�
 
 #### <a name="data-refresh"></a>資料重新整理
 
-對於 Power BI 使用者，重新整理資料通常表示會根據重新整理排程或隨選從原始資料來源將資料匯入資料集。 您可以每天執行多次資料集重新整理，這在基礎來源資料經常變更的情況下為必要。 Power BI 限制共用容量的資料集每天可重新整理八次。 如果資料集位於 Premium 容量上，則您可在資料集設定中排程每天最多重新整理 48 次。 如需詳細資訊，請參閱本文稍後的＜設定排程重新整理＞。
+對於 Power BI 使用者，重新整理資料通常表示會根據重新整理排程或隨選從原始資料來源將資料匯入資料集。 您可以每天執行多次資料集重新整理，這在基礎來源資料經常變更的情況下為必要。 Power BI 限制共用容量的資料集每天可重新整理八次。 如果資料集位於 Premium 容量上，則您可在資料集設定中排程每天最多重新整理 48 次。 如需詳細資訊，請參閱本文稍後的[設定排程重新整理](#configure-scheduled-refresh)。
 
 另請務必注意，每日重新整理次數的共用容量限制同時適用於排程重新整理及 API 重新整理，為兩者的合計。 您也可以在 [資料集] 功能表中選取 [立即重新整理]  ，以觸發隨選重新整理，如下列螢幕擷取畫面所示。 重新整理限制不包含隨選重新整理次數。 另請注意，Premium 容量上的資料集不限制 API 重新整理次數。 如有興趣使用 Power BI REST API 建置自己的重新整理解決方案，請參閱[資料集 - 重新整理資料集](/rest/api/power-bi/datasets/refreshdataset)。
 
@@ -283,7 +283,7 @@ in
 
 ![設定排程的重新整理](media/refresh-data/configure-scheduled-refresh.png)
 
-設定重新整理排程之後，資料集設定頁面會通知您下次重新整理時間，如上方螢幕擷取畫面所示。 如果您想要更快重新整理資料 (例如測試閘道和資料來源設定)，請使用導覽窗格中資料集功能表裡的 [立即重新整理]  選項來執行隨選重新整理。 隨選重新整理不會影響下次排程重新整理時間，但會計入每日重新整理限制，如本文稍早所述。
+設定重新整理排程之後，資料集設定頁面會通知您下次重新整理時間，如上方螢幕擷取畫面所示。 如果您想要更快重新整理資料 (例如測試閘道和資料來源設定)，請使用導覽窗格中資料集功能表裡的 [立即重新整理]  選項來執行隨選重新整理。 隨選重新整理不會影響下次排程重新整理時間。
 
 另請注意，已設定重新整理時間可能不是 Power BI 開始下一個排程程序的確切時間。 Power BI 會盡可能準時開始排程重新整理。 目標是在排程時段 15 分鐘內重新整理，但如果服務無法及時配置所需的資源，則最多會延遲一小時。
 

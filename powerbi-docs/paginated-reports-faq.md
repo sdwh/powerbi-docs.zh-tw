@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 10/04/2019
-ms.openlocfilehash: d8fd8490bda3be4217440a984e8b6da6fca7c5cf
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: c1f8a274a17d85cf8f86d2e33ff63f3e9b686742
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874808"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831221"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -116,21 +116,7 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>您目前針對編頁報告支援哪些資料來源？
 
-我們支援下列資料來源： 
-
-- Power BI 資料集 (透過單一登入 (SSO))
-- Azure Analysis Services (透過單一登入 (SSO) 和 oAuth)
-- Azure SQL 資料倉儲
-- Azure SQL Database (使用者名稱/密碼、SSO 和 oAuth)
-- 透過公用端點的 Azure SQL 受控執行個體 (使用者名稱/密碼)
-- SQL Server*
-- SQL Server Analysis Services 表格式 (DAX) 和多維度 (MDX) 模型* 
-- Oracle* 
-- Teradata* 
-
-* 需要內部部署閘道。
-
-透過閘道存取 SSAS 時，已儲存認證的使用者需要在 SSAS 中提高權限，才能透過閘道運作。
+如需資料來源清單，請參閱 [Power BI 編頁報表支援的資料來源](paginated-reports-data-sources.md)一文。 
 
 ### <a name="what-authentication-methods-do-you-support"></a>您支援哪些驗證方法？
 

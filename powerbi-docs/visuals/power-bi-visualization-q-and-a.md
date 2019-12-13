@@ -5,14 +5,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2019
+ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 78a74d2d49ac9eabb7d63f467c9838d370d5c314
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9805b98df7f606e61412ca9dee7dc0467a1649a3
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870847"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791806"
 ---
 # <a name="introduction-to-power-bi-qa-visual"></a>Power BI 問與答視覺效果簡介
 
@@ -93,6 +93,10 @@ ms.locfileid: "73870847"
 6. 讓我們將視覺效果變更為直條圖。 
 
     ![將「以直條圖顯示」的問與答視覺效果新增至問題](media/power-bi-visualization-q-and-a/power-bi-specify-visual.png)
+
+7.  將更多視覺效果新增至報表頁面，並查看問與答視覺效果如何與頁面上的其他視覺效果互動。 在此範例中，問與答視覺效果已交叉篩選折線圖和地圖，並交叉醒目提示橫條圖。
+
+    ![選取了一個橫條的問與答視覺效果，以及對報表頁面上其他三個視覺效果的影響](media/power-bi-visualization-q-and-a/power-bi-filters.png)
 
 ## <a name="format-and-customize-the-qa-visual"></a>格式化和自訂問與答視覺效果
 您可以使用格式化窗格並透過套用佈景主題來自訂問與答視覺效果。 

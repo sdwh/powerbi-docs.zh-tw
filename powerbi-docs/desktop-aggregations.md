@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876729"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907931"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop 中的彙總
 
@@ -29,7 +29,7 @@ ms.locfileid: "73876729"
 * **達到平衡的架構** - 允許 Power BI 記憶體內部快取處理彙總的查詢，這很有效率。 限制 DirectQuery 模式中傳送至資料來源的查詢，有利保持並行限制。 通過的查詢通常會經過篩選 (交易式層級的查詢)，資料倉儲和巨量資料系統一般能正常處理它們。
 
 ### <a name="table-level-storage"></a>資料表層級的儲存體
-資料表層級的儲存體通常搭配彙總功能使用。 如需詳細資訊，請參閱 [Power BI Desktop 的儲存模式](desktop-storage-mode.md)一文。
+資料表層級的儲存體通常搭配彙總功能使用。 如需詳細資訊，請參閱 [Power BI Desktop 中的儲存模式](desktop-storage-mode.md)一文。
 
 ### <a name="data-source-types"></a>資料來源類型
 彙總可搭配資料來源代表維度模型，例如資料倉儲、資料超市，以及 Hadoop 型巨量資料來源。 本文描述每種資料來源類型在 Power BI 中的一般建模差異。
@@ -44,7 +44,7 @@ ms.locfileid: "73876729"
 
 ![模型中的資料表](media/desktop-aggregations/aggregations_02.jpg)
 
-相反地，我們會建立 **Sales Agg** 資料表作為彙總資料表。 它的資料粒度比 **Sales** 更高，因此包含的資料列更少。 資料列數目應該等於 **SalesAmount** 的總和，這是 **CustomerKey**、**DateKey** 以及 **ProductSubcategoryKey** 的組合。 它沒有數十億，可能只有數百萬筆資料列，更容易管理。
+相反地，我們會建立 **Sales Agg** 資料表作為彙總資料表。 其資料粒度比 **Sales** 更高，因此包含的資料列更少。 資料列數目應該等於 **SalesAmount** 的總和，這是 **CustomerKey**、**DateKey** 以及 **ProductSubcategoryKey** 的組合。 它沒有數十億，可能只有數百萬筆資料列，更容易管理。
 
 假設下列維度資料表最常用於高商業價值的查詢。 這些資料表可以使用「一對多」  (或「多對一」  ) 關聯性來篩選 **Sales Agg**。
 
@@ -92,10 +92,10 @@ ms.locfileid: "73876729"
 
 對於不依靠關聯性的「跨來源」  彙總叫用，請參閱下節有關以分組方式資料行為基礎的彙總。
 
-### <a name="aggregation-tables-are-not-addressable"></a>無法定址彙總資料表
+### <a name="aggregation-tables-arent-addressable"></a>無法定址彙總資料表
 具有資料集唯讀存取權的使用者無法查詢彙總資料表。 這可避免與 RLS 搭配使用時的安全性疑慮。 取用者和查詢參考的是詳細資料資料表，而不是彙總資料表；他們甚至不需要知道彙總資料表的存在。
 
-基於這個理由，**Sales Agg** 資料表應該是隱藏的。 如果不是，當您按一下 [全部套用] 按鈕時，[管理彙總] 對話方塊即會將它設為隱藏。
+基於這個理由，**Sales Agg** 資料表應該是隱藏的。 如果不是，當您按一下 [全部套用] 按鈕時，[管理彙總] 對話方塊即會將其設為隱藏。
 
 ### <a name="manage-aggregations-dialog"></a>[管理彙總] 對話方塊
 接下來我們要定義彙總。 以滑鼠右鍵按一下資料表，選取 **Sales Agg** 資料表的 [管理彙總]  操作功能表。
@@ -125,7 +125,7 @@ ms.locfileid: "73876729"
 下列值得注意的驗證會由對話方塊強制執行：
 
 * 除了計數和計數資料表資料列摘要函式之外，選取的詳細資料資料行必須和彙總資料行具有相同資料類型。 計數和計數資料表資料列僅供整數彙總資料行使用，資料類型不用相符。
-* 不允許鏈結彙總涵蓋三份或更多的資料表。 例如，**資料表 B** 參考**資料表 C** 的彙總，您不可能在指向 B 的**資料表 A** 上設定彙總。
+* 不允許鏈結彙總涵蓋三份或更多的資料表。 例如，若**資料表 B** 具有參考**資料表 C** 的彙總，則不可能在參考資料表 B 的**資料表 A** 上設定彙總。
 * 不允許重複彙總有兩個項目使用同一摘要函式，且參考相同的詳細資料資料表/資料行。
 * 詳細資料表必須是 DirectQuery，不能是 Import。
 
@@ -138,7 +138,7 @@ ms.locfileid: "73876729"
 在此範例中，三個 GroupBy 項目都是選用的，它們不會影響彙總行為 (除了 DISTINCTCOUNT 範例查詢，如下一張圖所示)。 它們主要是為了可讀性而包含在內。 沒有這些 GroupBy 項目，仍會根據關聯性叫用彙總。 這和使用無關聯性彙總是不同的行為，本文稍後的巨量資料範例會說明此行為。
 
 ### <a name="inactive-relationships"></a>非作用中的關聯性
-系統不支援依非作用中關聯性所使用的外部索引鍵資料行進行群組，且不支援依賴 USERELATIONSHIP 函式來進行彙總叫用。
+不支援依非作用中關聯性所使用的外部索引鍵資料行進行分組，亦不支援依賴 USERELATIONSHIP 函式進行彙總。
 
 ### <a name="detecting-whether-aggregations-are-hit-or-missed-by-queries"></a>偵測查詢叫用或遺漏彙總
 
@@ -161,7 +161,7 @@ ms.locfileid: "73876729"
 
 ![查詢範例](media/desktop-aggregations/aggregations-code_02.jpg)
 
-下列查詢不會叫用彙總。 儘管要求 **SalesAmount** 的加總，它仍會對 **Product** 資料表中的資料行作業以執行分組，其資料粒度不可以叫用彙總。 如果您觀察模型中的關聯性，會發現產品子類別可以有多個 **Product** 資料列，而查詢無法判斷要彙總哪些產品。 在此情況下，查詢會還原為 DirectQuery，並將 SQL 查詢提交至資料來源。
+下列查詢不會叫用彙總。 儘管要求 **SalesAmount** 的加總，仍會依 **Product** 資料表中的資料行作業執行分組，其資料粒度不可以叫用彙總。 如果您觀察模型中的關聯性，會發現產品子類別可以有多個 **Product** 資料列，而查詢無法判斷要彙總哪些產品。 在此情況下，查詢會還原為 DirectQuery，並將 SQL 查詢提交至資料來源。
 
 ![查詢範例](media/desktop-aggregations/aggregations-code_03.jpg)
 
@@ -184,9 +184,9 @@ AVERAGE 函式可以受益於彙總。 下列查詢會叫用彙總，因為 AVER
 ### <a name="rls"></a>RLS
 資料列層級安全性 (RLS) 運算式應篩選彙總資料表和詳細資料資料表，才能正常運作。 遵循範例之後，**Geography** 資料表上的 RLS 運算式將會生效，因為 Geography 位於 **Sales** 資料表和 **Sales Agg** 資料表兩者的關聯性篩選端。 不論查詢是否叫用彙總資料表，都會成功套用 RLS 查詢。
 
-![彙總管理角色](media/desktop-aggregations/manage-roles.jpg)
+![彙總管理角色](media/desktop-aggregations/manage-roles.png)
 
-**Product** 資料表上的 RLS 運算式只會篩選 **Sales** 資料表，而非 **Sales Agg** 資料表。 不建議如此使用。 如果查詢是由使用此角色來存取資料集的使用者所提交，則不會因為彙總叫用而受益。 由於彙總資料表是詳細資料資料表中相同資料的另一種表示法，所以從彙總資料表回答查詢是不安全的，因為無法套用 RLS 篩選。
+**Product** 資料表上的 RLS 運算式只會篩選 **Sales** 資料表，而非 **Sales Agg** 資料表。 這不是建議的做法。 如果查詢是由使用此角色來存取資料集的使用者所提交，則不會因為彙總叫用而受益。 由於彙總資料表是詳細資料資料表中相同資料的另一種表示法，所以從彙總資料表回答查詢是不安全的，因為無法套用 RLS 篩選。
 
 **Sales Agg** 資料表本身的 RLS 運算式只會篩選彙總資料表，而非詳細資料資料表。 這是不允許的。
 

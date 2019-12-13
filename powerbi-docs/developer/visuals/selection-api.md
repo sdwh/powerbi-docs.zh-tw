@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5f5e4769c750406a02ead656af551133fbceb738
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 94a1af90cc7ed08947f65f4ed0d55e981558d049
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061883"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696434"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>透過 Power BI 視覺效果選取項目，將互動功能新增至視覺效果中
 
@@ -37,7 +37,7 @@ export interface ISelectionId {
 
 視覺效果主機物件提供建立選取項目管理員執行個體的方法。 選取項目管理員負責選取、清除選取項目、顯示操作功能表，儲存目前的選取項目和檢查選取項目狀態。 選取項目管理員為那些動作提供了對應的方法。
 
-### <a name="create-instance-of-selection-manager"></a>建立選取項目管理員的執行個體
+### <a name="create-an-instance-of-the-selection-manager"></a>建立選取項目管理員的執行個體
 
 若要使用選取項目管理員，您必須建立選取項目管理員的執行個體。 視覺效果通常會在視覺效果物件的 `constructor` 中建立選取項目管理員執行個體。
 
@@ -56,7 +56,7 @@ export class Visual implements IVisual {
 }
 ```
 
-### <a name="create-instance-of-selection-builder"></a>建立選取項目產生器的執行個體
+### <a name="create-an-instance-of-the-selection-builder"></a>建立選取項目產生器的執行個體
 
 建立選取項目管理員執行個體時，您必須為視覺效果的每個資料點都建立 `selections`。 視覺效果主機物件提供 `createSelectionIdBuilder` 方法，以產生每個資料點的選取項目。 這個方法會傳回具有介面 `powerbi.visuals.ISelectionIdBuilder` 之物件的執行個體：
 
@@ -71,15 +71,15 @@ export interface ISelectionIdBuilder {
 }
 ```
 
-這個物件有對應的方法，可建立不同類型資料檢視對應的 `selections`。
+這個物件有對應的方法，可建立用於不同類型資料檢視對應的 `selections`。
 
 > [!NOTE]
-> 方法 `withTable`、`withMatrixNode` 是在 Power BI 視覺效果的 API 2.5.0 引進。
-> 如果您需要針對資料表或矩陣資料檢視對應使用選取項目，您需要將 API 版本更新為 2.5.0 或更高版本。
+> 方法 `withTable` 和 `withMatrixNode` 是在 Power BI 視覺效果的 API 2.5.0 中引進。
+> 如果您需要針對資料表或矩陣資料檢視對應使用選取項目，則必須將 API 版本更新為 2.5.0 或更高版本。
 
 ### <a name="create-selections-for-categorical-data-view-mapping"></a>建立類別資料檢視對應的選取項目
 
-讓我們來看看在範例資料集的類別資料檢視對應上，選取項目的呈現方式：
+讓我們檢閱在範例資料集的類別資料檢視對應上，選取項目的呈現方式：
 
 | 製造商 | 類型 | 值 |
 | - | - | - |
@@ -155,11 +155,11 @@ export interface ISelectionIdBuilder {
 }
 ```
 
-在範例中，`Manafacturer` 為 `columns` 而 `Type` 為 `rows`。 有一個依群組值建立的數列 (依 `rows` (`Type`))。
+在範例中，`Manufacturer` 為 `columns` 而 `Type` 為 `rows`。 有一個依群組值建立的數列 (依 `rows` (`Type`))。
 
-而且視覺效果應該也可以藉由 `Manafacturer` 和 `Type` 來配量資料。
+而且視覺效果應該也可以藉由 `Manufacturer` 和 `Type` 來配量資料。
 
-例如，當使用者依 `Manafacturer` 選取 `Chrysler` 時，其他視覺效果應顯示下列資料：
+例如，當使用者依 `Manufacturer` 選取 `Chrysler` 時，其他視覺效果應顯示下列資料：
 
 | 製造商 | 類型 | 值 |
 | - | - | - |
@@ -185,10 +185,10 @@ export interface ISelectionIdBuilder {
 
 ![包含選取項目的視覺效果資料籃](media/visual-selections-databuckets.png)
 
-`Manafacturer` 作為類別 (資料行)、`Type` 作為數列 (資料列)，而 `Value` 作為數列的 `Values`。
+`Manufacturer` 作為類別 (資料行)、`Type` 作為數列 (資料列)，而 `Value` 作為數列的 `Values`。
 
 > [!NOTE]
-> `Values` 是數列的必要項，因為根據資料檢視對應，視覺效果預期 `Values` 會由 `Rows` 資料來分組。
+> `Values` 是數列的必要項，因為根據資料檢視對應，視覺效果預期 `Values` 會依據 `Rows` 資料來分組。
 
 #### <a name="create-selections-for-categories"></a>建立類別的選取項目
 
@@ -196,7 +196,7 @@ export interface ISelectionIdBuilder {
 // categories
 const categories = dataView.categorical.categories;
 
-// create label for 'Manafacturer' column
+// create label for 'Manufacturer' column
 const p = document.createElement("p") as HTMLParagraphElement;
 p.innerText = categories[0].source.displayName.toString();
 this.target.appendChild(p);
@@ -209,7 +209,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
     const categoryValue: powerbi.PrimitiveValue = categories[0].values[categoryIndex];
 
     const categorySelectionId = this.host.createSelectionIdBuilder()
-        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manafacturer` column)
+        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manufacturer` column)
         .createSelectionId();
     this.dataPoints.push({
         value: categoryValue,
@@ -229,9 +229,9 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
 }
 ```
 
-在範例程式碼中，您可以看到我們逐一查看所有類別。 而在每個反覆運算中，我們透過呼叫選取項目建立器的 `withCategory` 方法呼叫 `createSelectionIdBuilder` 來建立每個類別的下一個選取項目。 方法 `createSelectionId` 是用來作為傳回所產生 `selection` 物件的最後方法。
+在範例程式碼中，您可以看到我們逐一查看所有類別。 而在每次反覆運算中，我們透過呼叫選取項目產生器的 `withCategory` 方法，呼叫 `createSelectionIdBuilder` 來建立每個類別的下一個選取項目。 方法 `createSelectionId` 是用來作為傳回所產生 `selection` 物件的最後方法。
 
-在 `withCategory` 方法中，我們會傳遞 `category` 的資料行，範例中它是 `Manafacturer` 和類別元素的索引。
+在 `withCategory` 方法中，我們會傳遞 `category` 的資料行，範例中其為 `Manufacturer` 和類別元素的索引。
 
 #### <a name="create-selections-for-series"></a>建立數列的選取項目
 
@@ -295,7 +295,7 @@ series.forEach( (ser: powerbi.DataViewValueColumnGroup) => {
 }
 ```
 
-若要為資料表資料檢視對應的每個資料列都建立選取項目，您必須呼叫選取項目建立器的 `withTable` 方法。
+若要為資料表資料檢視對應的每個資料列建立選取項目，您必須呼叫選取項目產生器的 `withTable` 方法。
 
 ```typescript
 public update(options: VisualUpdateOptions) {
@@ -336,13 +336,13 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-在範例 `nodeWalker` 中會針對每個節點和子節點以遞迴方式呼叫。
+在範例中，`nodeWalker` 會針對每個節點和子節點以遞迴方式呼叫。
 
 `nodeWalker` 會在每個呼叫上建立 `nodeSelection` 物件。 而每個 `nodeSelection` 代表對應節點的 `selection`。
 
 ## <a name="select-datapoints-to-slice-other-visuals"></a>選取資料點以配量其他視覺效果
 
-在類別資料檢視對應的選取項目範例程式碼中，您會看到我們為按鈕元素建立了 Click 處理常式。 處理常式會呼叫選取項目管理員的 `select` 方法，並傳遞選取項目物件。
+在類別資料檢視對應的選取項目範例程式碼中，您會看到我們為按鈕元素建立了 Click 處理常式。 此處理常式會呼叫選取項目管理員的 `select` 方法，並傳遞選取項目物件。
 
 ```typescript
 button.addEventListener("click", () => {
@@ -361,7 +361,7 @@ interface ISelectionManager {
 }
 ```
 
-您可以看到 `select` 可以接受選取項目陣列。 這表示您的視覺效果可以選取數個資料點。 第二個參數 `multiSelect` 負責多重選取。 如果值為 true，Power BI 不會清除先前的選取項目狀態並套用目前的選取項目，否則會重設先前的選取項目。
+您可以看到 `select` 能夠接受選取項目陣列。 這表示您的視覺效果可以選取數個資料點。 第二個參數 `multiSelect` 負責處理複選。 如果值為 true，則 Power BI 不會清除先前的選取項目狀態並套用目前的選取項目；否則會重設先前的選取項目。
 
 在 Click 事件上使用 `multiSelect` 處理 CTRL 按鈕狀態的一般情節。
 

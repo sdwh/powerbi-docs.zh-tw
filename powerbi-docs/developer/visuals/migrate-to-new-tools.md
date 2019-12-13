@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: cc554bff1cbd248ccd69a80ee47b60af981cdab1
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 245475feeb43ee544117aaa54969f2de1e207cd5
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061814"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696274"
 ---
 # <a name="migrate-to-the-new-powerbi-visuals-tools-3xx"></a>移轉到新的 powerbi-visuals-tools 3.x.x
 
@@ -27,7 +27,7 @@ ms.locfileid: "74061814"
 
 * 支援新版的 [D3v5](https://d3js.org/) \(英文\) 和其他以 ES6 模組為基礎的程式庫。
 
-* 已縮減套件大小。 Webpack 使用 [Tree Shaking](https://webpack.js.org/guides/tree-shaking/) \(英文\) 來移除未使用的程式碼。 它會縮減 JS 的程式碼，因此，您可以在載入視覺效果時獲得更好的效能。
+* 已縮減套件大小。 Webpack 使用 [Tree Shaking](https://webpack.js.org/guides/tree-shaking/) \(英文\) 來移除未使用的程式碼。 其會縮減 JS 的程式碼；因此，您可以在載入視覺效果時獲得更好的效能。
 
 * 已改善 API 效能。
 
@@ -39,7 +39,7 @@ ms.locfileid: "74061814"
 
 ## <a name="backward-compatibility"></a>回溯相容性
 
-新工具為舊的視覺效果程式碼基底保留了回溯相容性，但可能需要進行一些額外變更，才能載入外部程式庫。
+新工具為舊的視覺效果程式碼基底保留回溯相容性，但可能需要進行一些額外變更，才能載入外部程式庫。
 
 支援模組系統的程式庫將會以 Webpack 模組形式匯入。 所有其他程式庫和視覺效果原始程式碼都將包裝成一個模組。
 
@@ -81,7 +81,7 @@ npm install -g powerbi-visuals-tools
 
 新版的 powerbi-visual-tools 並未隨附所有 API 版本。 反而是該開發人員應安裝特定版本的 [`powerbi-visuals-api`](https://www.npmjs.com/package/powerbi-visuals-api) \(英文\) 套件。 套件的版本會與 Power BI 自訂視覺效果的 API 版本相符，並針對 Power BI 自訂視覺效果 API 提供所有類型定義。
 
-藉由執行 `npm install --save-dev powerbi-visuals-api` 命令，來將 `powerbi-visuals-api` 新增至專案的相依性。
+藉由執行 `npm install --save-dev powerbi-visuals-api` 命令，將 `powerbi-visuals-api` 新增至專案的相依性。
 因此，您應該移除舊有 API 類型定義的連結。 因為 Webpack 會自動包含來自 `powerbi-visuals-api` 的類型。 對應的變更位於 `package.json` 中的[這](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/package.json#L14)行。
 
 ## <a name="update-tsconfigjson"></a>更新 `tsconfig.json`
@@ -91,20 +91,20 @@ npm install -g powerbi-visuals-tools
 
 這是必要的，因為 TypeScript 檔案將獨立編譯為 JavaScript 檔案。 這就是您不再需要將 visual.js 檔案指定為輸出的原因。
 
-此外，如果您想要使用新式 JavaScript 作為輸出，您也可以將 `target` 選項變更為 `ES6`。 [這是選擇性的](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/tsconfig.json#L6)。
+此外，如果您想要使用新式 JavaScript 作為輸出，也可以將 `target` 選項變更為 `ES6`。 [這是選擇性的](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/tsconfig.json#L6)。
 
 ## <a name="update-custom-visuals-utils"></a>更新自訂視覺效果公用程式
 
-如果您使用其中一個 [powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils) \(英文\)，也應該將其更新為最新版本。
+如果您使用其中一個 powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils) ，也應該將其更新為最新版本。
 
 執行 `npm install powerbi-visuals-utils-<UTILNAME> --save` 命令。 (例如 `npm install powerbi-visuals-utils-dataviewutils --save`) 以使用 TypeScript 的外部模組來取得新版本。
 
-您可以在 MekkoChart [存放庫](https://github.com/Microsoft/powerbi-visuals-mekkochart) \(英文\) 中找到範例。
+您可以在 MekkoChart [存放庫](https://github.com/Microsoft/powerbi-visuals-mekkochart)中找到範例。
 此視覺效果會使用所有公用程式。
 
 ## <a name="remove-globalizejs-library"></a>移除 Globalize.js 程式庫
 
-新版的 [powerbi-visuals-utils-formattingutils@4.3](https://www.npmjs.com/package/powerbi-visuals-utils-formattingutils) \(英文\) 包含現成的 globalize.js。
+新版的 [powerbi-visuals-utils-formattingutils@4.3](https://www.npmjs.com/package/powerbi-visuals-utils-formattingutils) 包含現成的 globalize.js。
 您不需要手動將此程式庫包含於專案中。
 所有必要的當地語系化都將自動新增至最終套件。
 
@@ -220,9 +220,9 @@ import "./../style/visual.less";
 
 呼叫命令以更新您視覺效果專案中的 D3
 
-`npm install --save d3@5` 以安裝新的 D3.js。
+`npm install --save d3@5` 可安裝新的 D3.js。
 
-`npm install --save-dev @types/d3@5` 以安裝適用於 D3.js 的新類型定義。
+`npm install --save-dev @types/d3@5` 可安裝適用於 D3.js 的新類型定義。
 
 有數個中斷性變更，而您應該修改程式碼以使用新的 D3.js。
 
@@ -236,7 +236,7 @@ import "./../style/visual.less";
 
 ## <a name="babel"></a>Babel
 
-從 3.1 版開始，工具會使用 Babel 來將新的新式 JS 程式碼編譯為舊的 ES5，以支援各式各樣的瀏覽器。
+從 3.1 版開始，這些工具會使用 Babel 來將新的新式 JS 程式碼編譯為舊的 ES5，以支援各類瀏覽器。
 
 預設會啟用此選項，但您必須手動匯入 [`@babel/polyfill`](https://babeljs.io/docs/en/babel-polyfill) \(英文\) 套件。
 
@@ -250,6 +250,6 @@ import "./../style/visual.less";
 
 [在文件中](https://babeljs.io/docs/en/) \(英文\) 深入了解 Babel。
 
-最後，執行 [webpack-visualizer](https://github.com/chrisbateman/webpack-visualizer) \(英文\)，以顯示視覺效果的程式碼基底。  
+最後，執行 [webpack-visualizer](https://github.com/chrisbateman/webpack-visualizer)，以顯示視覺效果的程式碼基底。  
 
 ![視覺效果程式碼統計資料](./media/webpack-stats.png)

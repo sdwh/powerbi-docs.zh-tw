@@ -9,24 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 8a9218085b0da655d1ce4b3ece0b2666c4826c86
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: e2587140d5436552e26be90c67eb5e6240bf6a1d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061860"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696132"
 ---
 # <a name="microsoft-power-bi-visuals-interactivity-utils"></a>Microsoft Power BI 視覺效果互動功能公用程式
 
-InteractivityUtils 是一組函式和類別，可簡化 Power BI 自訂視覺效果的交叉選取和交叉篩選的實作。
+InteractivityUtils 是一組函式和類別，可簡化 Power BI 自訂視覺效果的交叉選取和交叉篩選實作。
 
 ## <a name="installation"></a>安裝
 
 > [!NOTE]
-> 如果您繼續使用舊版本的 powerbi-visuals-tools (版本號碼小於 3.x.x)，請安裝新版工具 (3.x.x)。
+> 如果您繼續使用舊版本的 powerbi-visuals-tools (版本號碼小於 3.x.x)，則請安裝新版工具 (3.x.x)。
 
 > [!IMPORTANT]
-> 互動功能公用程式的新更新將僅支援最新版本的工具。 [深入了解如何更新視覺效果程式碼以搭配最新的工具使用](migrate-to-new-tools.md)
+> 互動功能公用程式的新更新僅支援最新版本的工具。 [深入了解如何更新視覺效果程式碼以搭配最新的工具使用](migrate-to-new-tools.md)
 
 若要安裝套件，您應該在具有目前自訂視覺效果的目錄中執行下列命令：
 
@@ -106,7 +106,7 @@ export interface VisualDataPoint extends interactivitySelectionService.Selectabl
 第二個步驟是擴充基底行為類別：
 
 > [!NOTE]
-> [互動功能公用程式的 5.6.x 版本](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0) \(英文\) 中引入了 BaseBehavior。 如果您使用舊版本，請從下列範例建立行為類別 (`BaseBehavior` 類別相同)：
+> [互動功能公用程式的 5.6.x 版本](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0) \(英文\) 中引入了 BaseBehavior。 如果您使用舊版本，則請從下列範例建立行為類別 (`BaseBehavior` 類別相同)：
 
 定義行為類別的選項介面：
 
@@ -126,8 +126,8 @@ export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoi
 }
 ```
 
-定義 `visual behaviour` 的類別。 負責處理 `click`、`contextmenu` 滑鼠事件的類別。
-當您按下資料元素時，視覺效果會呼叫選取項目處理常式來選取資料點。 或清除選取項目 (如果使用者按一下視覺效果的背景元素)。 且類別有對應的方法：`bindClick`、`bindClearCatcher`、`bindContextMenu`。
+定義 `visual behavior` 的類別。 負責處理 `click`、`contextmenu` 滑鼠事件的類別。
+當使用者按一下資料元素時，視覺效果接著會呼叫選取項目處理常式來選取資料點。 如果使用者按一下視覺效果的背景元素，則會呼叫清除選取項目處理常式。 且類別有對應的方法：`bindClick`、`bindClearCatcher`、`bindContextMenu`。
 
 ```typescript
 export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
@@ -214,7 +214,7 @@ protected bindContextMenu() {
 }
 ```
 
-互動功能公用程式會呼叫 `bindEvents` 方法，將函式指派給處理常式、將 `bindClick`、`bindClearCatcher`和 `bindContextMenu` 的呼叫加入至 `bindEvents` 方法中：
+互動功能公用程式會呼叫 `bindEvents` 方法，將函式指派給處理常式、將 `bindClick`、`bindClearCatcher`和 `bindContextMenu` 的呼叫新增至 `bindEvents` 方法中：
 
 ```typescript
   public bindEvents(
@@ -230,9 +230,9 @@ protected bindContextMenu() {
   }
 ```
 
-`renderSelection` 方法，負責更新圖表中元素的視覺狀態。
+`renderSelection` 方法負責更新圖表中元素的視覺效果狀態。
 
-`renderSelection` 方法實作的範例：
+`renderSelection` 方法實作範例：
 
 ```typescript
 public renderSelection(hasSelection: boolean): void {
@@ -259,9 +259,9 @@ this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
 
 * `selectionMerge` 是 D3 選取項目物件，代表視覺效果上所有可選取的元素。
 
-* `select(this.target)` 是 D3 選取項目物件，代表視覺效果的主要 DOm 元素。
+* `select(this.target)` 是 D3 選取項目物件，代表視覺效果的主要 DOM 元素。
 
-* 包含元素的 `this.categories` 資料點，其中介面為 `VisualDataPoint` (或 `categories: VisualDataPoint[];`)
+* `this.categories` 是包含元素的資料點，其中介面為 `VisualDataPoint` (或 `categories: VisualDataPoint[];`)
 
 * `this.behavior` 是 `visual behavior` 的新執行個體
 

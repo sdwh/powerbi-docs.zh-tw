@@ -1,21 +1,21 @@
 ---
 title: 不支援重新整理的資料來源疑難排解
 description: 不支援重新整理的資料來源疑難排解
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 12/06/2017
-ms.author: mblythe
+ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b44dbc06c15a576174277695583f3afebb0f298a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856256"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791993"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>不支援重新整理的資料來源疑難排解
 當您嘗試設定資料集的排程重新整理時，可能會看到錯誤。
@@ -35,7 +35,7 @@ ms.locfileid: "73856256"
    ![進階編輯器](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. 記下所列的來源提供者。  在本例中，提供者為 ActiveDirectory。  
    ![資料來源提供者](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
-5. 將該提供者與 [Power BI 的資料重新整理](refresh-data.md)中支援的資料來源清單進行比對。  您會發現 Active Directory 不是支援重新整理的資料來源。  
+5. 將該提供者與 [Power BI 資料來源](power-bi-data-sources.md)中支援的資料來源清單進行比對。
 
 ## <a name="next-steps"></a>後續步驟
 [資料重新整理](refresh-data.md)  

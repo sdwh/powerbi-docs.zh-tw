@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099772"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831120"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
@@ -38,7 +38,7 @@ ms.locfileid: "74099772"
 
 不論您是要訂閱儀表板、報表或編頁報表，程序都很相似。 同樣的按鈕可讓您訂閱 Power BI 服務的儀表板與報表。
 
-訂閱編頁報表則略有不同。 如需詳細資訊，請參閱[為您自己和其他人訂閱 Power BI 服務中的編頁報表](paginated-reports-subscriptions.md)。
+訂閱編頁報表則略有不同。 如需詳細資訊，請參閱[為您自己和其他人訂閱 Power BI 服務中的編頁報表](consumer/paginated-reports-subscriptions.md)。
  
 ![選取訂閱圖示](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
@@ -107,6 +107,6 @@ ms.locfileid: "74099772"
 
 ## <a name="next-steps"></a>後續步驟
 
-- [為您自己和其他人訂閱 Power BI 服務中的編頁報表](paginated-reports-subscriptions.md)
+- [為您自己和其他人訂閱 Power BI 服務中的編頁報表](consumer/paginated-reports-subscriptions.md)
 - 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)    
 - [閱讀部落格文章](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

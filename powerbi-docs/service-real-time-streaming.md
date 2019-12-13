@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9415365c3846329d5bcf707ec7f41d0bd2cc6f92
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871746"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699078"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的即時串流
 您可以使用 Power BI 即時串流，即時串流資料及更新儀表板。 您也可以建立可在 Power BI 中建立的任何視覺效果或儀表板，進而顯示及更新即時資料和視覺效果。 串流資料的裝置和來源可以是 Factory 感應器、社交媒體來源、服務使用計量，以及可從中收集或傳送即時資料的任何其他項目。
 
-![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+![顯示即時環境感應器結果的螢幕擷取畫面。](media/service-real-time-streaming/real-time-streaming-10.png)
 
 本文將說明如何在 Power BI 設定即時串流資料集。 但在這之前，請務必了解設計用來顯示於磚 (和儀表板) 中的即時資料集類型，以及這些資料集之間的差異。
 
@@ -198,7 +198,7 @@ Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流
    ![](media/service-real-time-streaming/real-time-streaming_9.png)
 5. 回到 Power BI 工作區，建立新的儀表板，然後新增磚 (如果需要，請參閱上述步驟)。 當您建立磚並選取 [自訂串流資料]  時，這次會有可以使用的串流資料集。 現在就試試看。 將 [數目]  欄位新增至折線圖，然後新增其他磚，您可能會取得如下所示的即時儀表板：
    
-   ![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+   ![顯示即時環境感應器結果的螢幕擷取畫面。](media/service-real-time-streaming/real-time-streaming-10.png)
 
 現在就利用範例資料集試試看。 接著建立您自己的資料集，並將即時資料串流到 Power BI。
 

@@ -7,16 +7,18 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 393f6f25fedddd9ff17d635ae67ce473ab57eea4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880931"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791783"
 ---
+- 哪裡可以找到年度毛利率百分比折線圖？ 我可以有多個橫條圖，但只能有一個折線圖。
+
 # <a name="customize-x-axis-and-y-axis-properties"></a>自訂 X 軸和 Y 軸屬性
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
@@ -171,7 +173,7 @@ Y 軸標籤預設會顯示在左邊。 現在，它們是淺灰色、小字，�
 
 ### <a name="create-a-chart-with-two-y-axes"></a>建立具有兩個 Y 軸的圖表
 
-1. 選取一個直條圖，將其變更為 [折線與堆疊直條圖]  。 
+1. 選取一個直條圖，將其變更為 [折線與堆疊直條圖]  。 這種類型的視覺效果支援單一折線圖值和多個可堆疊的資料行值。 
 
     ![標示折線與堆疊直條圖圖示的 [視覺效果] 窗格螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo.png)
    
@@ -185,7 +187,7 @@ Y 軸標籤預設會顯示在左邊。 現在，它們是淺灰色、小字，�
 
    ![字型大小縮減為 12 的組合圖和格式窗格](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-font-size.png)
 
-   Power BI 會建立兩個 Y 軸，讓值可以採用不同的刻度。 左側的軸測量金額，右側的軸測量百分比。
+   Power BI 會建立兩個 Y 軸，讓值可以採用不同的刻度。 左側的軸測量銷售金額，右側的軸測量毛利率百分比。
 
 ### <a name="format-the-second-y-axis"></a>設定第二個 Y 軸的格式
 因為我們一開始使用只有一個格式化 Y 軸的視覺效果，Power BI 使用相同的設定來建立第二個 Y 軸。 但我們可以變更此設定。 
