@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e09b3f8579b65bc242cda1dbdb54f187ab6b47d0
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791612"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958394"
 ---
 # <a name="configure-scheduled-refresh"></a>設定排程的重新整理
 
@@ -75,7 +75,7 @@ ms.locfileid: "74791612"
 將 [維持資料的最新狀態]  滑桿設為 [開啟]  以進行設定。
 
 > [!NOTE]
-> Power BI 服務的目標是在您排定的重新整理時間 **15 分鐘**內起始資料重新整理。
+> 目標是在排程時段 15 分鐘內重新整理，但如果服務無法及時配置所需的資源，則最多會延遲一小時。
 
 ![[排定的重新整理] 對話方塊](media/refresh-scheduled-refresh/scheduled-refresh.png)
 
