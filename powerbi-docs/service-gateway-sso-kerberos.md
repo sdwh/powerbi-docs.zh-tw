@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/03/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4ce5eab22538b7abdded2759a4a072fd500575ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699214"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000104"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>設定從 Power BI 服務到內部部署資料來源的 Kerberos 架構 SSO
 
@@ -66,6 +66,22 @@ ms.locfileid: "74699214"
    ```setspn -a gateway/MyGatewayMachine Contoso\GatewaySvc```
 
    也可以使用 [Active Directory 使用者和電腦]  MMC 嵌入式管理單元來設定 SPN。
+   
+### <a name="add-gateway-service-account-to-windows-authorization-and-access-group-if-required"></a>視需要將閘道服務帳戶新增至 Windows 授權和存取群組
+
+在特定案例中，必須將閘道服務帳戶新增至 Windows 授權和存取群組。 這些案例包括 Active Directory 環境的安全性強化，以及當閘道服務帳戶與閘道將會模擬的使用者帳戶位於不同網域或樹系時。 在未強化網域 /樹系的情況下，您也可以將閘道服務帳戶新增至 Windows 授權和存取群組，但這不是必要的。
+
+如需詳細資訊，請參閱 [Windows 授權和存取群組](/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-winauthaccess)。
+
+若要完成此設定步驟，請針對每個網域 (包含您要讓閘道服務帳戶能夠模擬的 Active Directory 使用者)，執行下列步驟：
+1. 登入網域中的電腦，然後啟動 [Active Directory 使用者及電腦] MMC 嵌入式管理單元。
+2. 找出 [Windows 授權和存取群組]  群組，通常是在 [內建]  容器中。
+3. 按兩下該群組，然後按一下 [成員]  索引標籤。
+4. 按一下 [新增]  ，然後將網域位置變更為閘道服務帳戶所在的網域。
+5. 輸入閘道服務帳戶名稱，然後按一下 [檢查名稱]  ，以確認閘道服務帳戶可供存取。
+6. 按一下 [確定]  。
+7. 按一下 [套用]  。
+8. 重新啟動閘道服務。
 
 ### <a name="decide-on-the-type-of-kerberos-constrained-delegation-to-use"></a>決定要使用的 Kerberos 限制委派類型
 

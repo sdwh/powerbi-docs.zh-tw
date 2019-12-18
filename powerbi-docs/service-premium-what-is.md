@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9434aa717ad10791e75366cf23ef8ece567389ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 37107c1092b12a8efc230718c624f104aa31520f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699122"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958555"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -29,16 +29,17 @@ Power BI Premium 可為組織提供專門用來執行 Power BI 服務的增強�
 > * 依區域 (多地理位置) 的資料落地支援
 > * 無須購買每個使用者的授權，就可與任何人共用資料
 
-本文會介紹 Power BI Premium 中的重要功能。 如有需要，請連結到提供更詳細資訊的其他文章。
+本文會介紹 Power BI Premium 中的重要功能。 如有需要，請連結到提供更詳細資訊的其他文章。 如需 Power BI Pro 與 Power BI Premium 的詳細資訊，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing/)的「Power BI 功能比較」  一節。
 
 ## <a name="subscriptions-and-licensing"></a>訂閱和授權
 
 Power BI Premium 是兩個 SKU (庫存單位) 系列的可用租用戶層級 Office 365 訂閱：
 
-- **EM** SKU (EM1-EM3) 用於內嵌、需要年度履約承諾，且按月計費。 EM1 和 EM2 SKU 只能透過大量授權方案提供。 您無法直接購買。
 - **P** SKU (P1-P3) 用於內嵌和企業功能、需要每月或年度履約承諾、按月計費，且包含在內部部署安裝 Power BI 報表伺服器的授權。
 
-替代方法是購買 **Azure Power BI Embedded** 訂閱，其具有單一 **A** (A1-A6) SKU 系列，僅限用於內嵌和容量測試目的。 所有 SKU 都提供 V 核心來建立容量，但 EM SKU 僅能用於較小的規模內嵌。 若 EM1、EM2、A1 和 A2 SKU 所具備的 V 核心不到四個，便無法在專用基礎結構上執行。
+- **EM** SKU (EM1-EM3) 用於「組織」  內嵌、需要年度履約承諾，且按月計費。 EM1 和 EM2 SKU 只能透過大量授權方案提供。 您無法直接購買。
+
+另一種方法是在 Azure 中購買 **Power BI Embedded** 訂用帳戶。 單一 **A** (A1-A6) SKU 系列不需要承諾用量，且在應用程式、入口網站與網站中使用貼牌 Power BI，或作為測試 P 或 EM 容量的方式都是按小時計費。 所有 SKU 都提供 V 核心來建立容量，但 EM SKU 僅能用於較小的規模內嵌。 若 EM1、EM2、A1 和 A2 SKU 所具備的 V 核心不到四個，便無法在專用基礎結構上執行。
 
 雖然本文的焦點是 P SKU，但所述的許多內容也與 A SKU 相關。 相較於 Premium 訂閱 SKU，Azure SKU 不需要時間履約承諾，且按小時計費。 它們提供完整的彈性，允許相應增加、相應減少、暫停、繼續和刪除。 
 
@@ -50,7 +51,11 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 ## <a name="dedicated-capacities"></a>專用容量
 
-透過 Power BI Premium，您可以取得「專用容量」  。 相對於共用容量 (其中工作負載是在與其他客戶共用的計算資源上執行)，專用容量僅供組織使用。 它與專用計算資源一起隔離，為所裝載內容提供可靠且一致的效能。 
+透過 Power BI Premium，您可以取得「專用容量」  。 相對於共用容量 (其中工作負載是在與其他客戶共用的計算資源上執行)，專用容量僅供組織使用。 它與專用計算資源一起隔離，為所裝載內容提供可靠且一致的效能。 請注意，下列資源是儲存在共用容量中，而不是在您的專用容量中：
+
+* Excel 活頁簿 (除非資料先匯入 Power BI Desktop)
+* [推送資料集](/rest/api/power-bi/pushdatasets)
+* [串流資料集](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 
 工作區存放在容量中。 每個 Power BI 使用者都有個人工作區，稱為**我的工作區**。 可建立額外的工作區 (稱為**工作區**) 來啟用共同作業。 根據預設，工作區 (包括個人工作區) 是在共用容量中建立。 當具有 Premium 容量時，即可將「我的工作區」和工作區指派給 Premium 容量。
 
@@ -77,6 +82,9 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | | | | | | | |
+
+> [!NOTE]
+> 使用單一大型 SKU (例如一個 P2 SKU)，可能比結合小型 SKU (例如兩個 P1 SKU) 更好。 例如，若使用 P2，您可以使用大型模型，並達到更好的平行處理原則。
 
 ### <a name="capacity-workloads"></a>容量工作負載
 
@@ -235,5 +243,3 @@ Microsoft 工具 (例如 SQL Server Management Studio 和 SQL Server Profiler) �
 > [管理 Premium 容量](service-premium-capacity-manage.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-
-||||||

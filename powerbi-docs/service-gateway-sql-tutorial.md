@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0ab5831cb1cf4af28a56711475b7ba6a5683b5d5
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699306"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958420"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>從內部部署 SQL Server 資料庫重新整理資料
 
@@ -49,6 +49,10 @@ ms.locfileid: "74699306"
 2. 在 [SQL Server 資料庫]  對話方塊中，輸入 [伺服器]  及 [資料庫 (選擇性)]  名稱、確認 [資料連線能力模式]  為 [匯入]  ，然後選取 [確定]  。
 
     ![SQL Server 資料庫](./media/service-gateway-sql-tutorial/sql-server-database.png)
+
+    我們不會在此教學課程中使用 [進階選項]  ，但請注意，您可以指定 SQL 陳述式並設定其他選項，例如，使用 [SQL Server 容錯移轉](/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server)。
+
+    ![SQL Server 進階選項](media/service-gateway-sql-tutorial/sql-server-advanced-options.png)
 
 3. 驗證您的 [認證]  ，然後選取 [連線]  。
 

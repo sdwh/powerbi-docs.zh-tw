@@ -1,5 +1,5 @@
 ---
-title: 針對如何開發 Power BI Power BI 視覺效果的疑難排解
+title: 針對如何開發 Power BI 視覺效果進行疑難排解
 description: 本文探討您開發或建立自訂 Power BI 視覺效果時，可能會遇到的幾個常見問題。
 author: KesemSharabi
 ms.author: kesharab
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.topic: troubleshooting
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
-ms.openlocfilehash: e28df5035e057d485a8122853f6ae88327e3045f
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: c2680a5818488a7822f38b8286a3e5a1782a487a
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74127755"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999759"
 ---
-# <a name="troubleshoot-power-bi-power-bi-visuals"></a>針對 Power BI Power BI 視覺效果進行疑難排解
+# <a name="troubleshoot-power-bi-visuals"></a>疑難排解 Power BI 視覺效果
 
 ## <a name="debug"></a>偵錯
 
@@ -42,4 +42,4 @@ ms.locfileid: "74127755"
 
 ## <a name="next-steps"></a>後續步驟
 
-如需詳細資訊，請參閱 [Power BI Power BI 視覺效果的常見問題集](power-bi-custom-visuals-faq.md#organizational-visuals)。
+如需詳細資訊，請前往 [Power BI 視覺效果常見問題集](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)。

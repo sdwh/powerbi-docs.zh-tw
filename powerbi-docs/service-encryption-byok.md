@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 4f16cffe24d7eae5fe919dd2aa29949855258842
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 4cddf01dd57191b5d3e707589e6d8a78e106259f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698271"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958463"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>攜帶您自己的加密金鑰以用於 Power BI (預覽)
 
@@ -30,7 +30,8 @@ BYOK 可更輕鬆地滿足透過雲端服務提供者 (在此案例中為 Micros
 
 - Analysis Services 即時連線
 - Excel 活頁簿 (除非資料先匯入 Power BI Desktop)
-- 推送資料集
+- [推送資料集](/rest/api/power-bi/pushdatasets)
+- [串流資料集](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [大型模型](service-premium-large-models.md)
 
 BYOK 僅適用於與 PBIX 檔案關聯的資料集，而不適用於圖格與視覺效果的查詢結果快取。

@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/22/2019
 ms.author: kfollis
-ms.openlocfilehash: a45cfb20907c96995adf8618cd6dd8ff32194bea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699720"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958486"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 資料來源
 
-下表顯示 Power BI 支援的資料來源，包括 DirectQuery 和內部部署資料閘道的相關資訊。
+下表顯示 Power BI 針對資料集所支援的資料來源，包括 DirectQuery 與內部部署資料閘道的相關資訊。 如需資料流程的詳細資訊，請參閱[連線到 Power BI 資料流程的資料來源](service-dataflows-data-sources.md)。
 
 | 資料來源 | 從桌面連線 | 從服務連線並重新整理 | DirectQuery/即時連線限制 | 閘道 (支援) | 閘道 (必要) |
 |---|---|---|---|---|---|---|---|
@@ -95,7 +95,7 @@ ms.locfileid: "74699720"
 | Planview Enterprise One - CTM | 是 | 是 | 否 | 否 | 否 |
 | Planview Enterprise One - PRM | 是 | 是 | 否 | 否 | 否 |
 | Planview Projectplace | 是 | 是 | 否 | 否 | 否 |
-| PostgreSQL | 是 | 是 | 否 | 是 | 是 |
+| PostgreSQL | 是 | 是 | 是 | 是 | 是 |
 | Power BI 資料流程 | 是 | 是 | 否 | 否 | 否 |
 | Power BI 資料集 | 是 | 是 | 是 | 否 | 否 |
 | Power Platform 資料流程 | 是 | 是 | 否 | 否 | 否 |

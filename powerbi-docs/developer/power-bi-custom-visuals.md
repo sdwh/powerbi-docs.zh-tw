@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e68d886564552d1b1cb2dc9e7c018c65a5cca039
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 1d176941f04bdaf06c9cdeda65271769098268fb
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265203"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999805"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 的視覺效果
 
@@ -168,11 +168,11 @@ Power BI 經認證視覺效果是已通過額外嚴格品質測試的 Marketplac
 
 ## <a name="troubleshoot"></a>疑難排解
 
-若要進行疑難排解，請參閱[針對您的 Power BI Power BI 視覺效果進行疑難排解](power-bi-custom-visuals-troubleshoot.md)。
+若要進行疑難排解，請參閱[針對您的 Power BI 視覺效果進行疑難排解](power-bi-custom-visuals-troubleshoot.md)。
 
 ## <a name="faq"></a>常見問題集
 
-如需詳細資訊和問題的解答，請前往 [Power BI Power BI 視覺效果的常見問題集](power-bi-custom-visuals-faq.md#organizational-visuals)。
+如需詳細資訊和問題的解答，請前往 [Power BI 視覺效果常見問題集](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)。
 
 ## <a name="next-steps"></a>後續步驟
 

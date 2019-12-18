@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8789986e94c860bffc622d903e33b4f1edabdd2d
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 1f350e8ff888ffc2fd95e6c47bf84ccc96ebf88b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696156"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000150"
 ---
 # <a name="auto-datetime-in-power-bi-desktop"></a>Power BI Desktop 中的自動日期/時間
 
@@ -36,7 +36,7 @@ ms.locfileid: "74696156"
 
 Power BI Desktop 也會在自動日期/時間資料表的 [資料]  資料行與模型日期資料行之間建立關聯性。
 
-自動日期/時間資料表包含完整的行事曆年度，內含儲存在模型日期資料行中的所有日期值。 例如，若日期資料行中最早的值是 2016 年 3 月 20 日，而最新的值是 2019 年10 月 23日，則此資料表會包含 1,461 個資料列。 每一個資料列會代表 2016 年到 2019 年的四個行事曆年份中的每個日期。 當 Power BI 重新整理模型時，每個自動日期/時間資料表也會重新整理，以確保其中包含的日期含括日期資料行值。
+自動日期/時間資料表包含完整的行事曆年度，內含儲存在模型日期資料行中的所有日期值。 例如，若日期資料行中最早的值是 2016 年 3 月 20 日，而最新的值是 2019 年10 月 23日，則此資料表會包含 1,461 個資料列。 每一個資料列會代表 2016 年到 2019 年的四個行事曆年份中的每個日期。 當 Power BI 重新整理模型時，每個自動日期/時間資料表也會重新整理。 如此一來，模型一律會包含日期資料行值所包含的日期。
 
 如果可以看到自動日期/時間資料表的資料列，其外觀將如下所示：
 
@@ -53,7 +53,7 @@ Power BI Desktop 也會在自動日期/時間資料表的 [資料]  資料行與
 
 ## <a name="work-with-auto-datetime"></a>使用自動日期/時間
 
-當日期資料行有自動日期/時間資料表 (且該資料行可見)，則報表作者不會在 [欄位]  窗格中找到欄位形式的該資料行。 相反地，他們會找到具有日期資料行名稱的可展開物件。 您可以輕鬆地識別它，因為它帶有行事曆圖示裝飾。 當報表作者展開行事曆物件時，他們會找到名為**日期階層**的階層。 展開階層之後，即可找到四個層級：**Year**、**Quarter**、**Month** 和 **Day**。
+當日期資料行有自動日期/時間資料表 (而且該資料行可見)，報表作者將不會在 [欄位]  窗格中，找到欄位形式的該資料行。 相反地，他們會找到具有日期資料行名稱的可展開物件。 您可以輕鬆地識別它，因為它帶有行事曆圖示裝飾。 當報表作者展開行事曆物件時，他們會找到名為**日期階層**的階層。 展開階層之後，即可找到四個層級：**Year**、**Quarter**、**Month** 和 **Day**。
 
 ![[欄位] 窗格的範例，其中開啟了已展開的 Sales 資料表。 它包含 OrderDate 欄位，該欄位帶有行事曆圖示裝飾。 它已展開並開啟，並包含名為「日期階層」的階層。 它也會展開並包含四個層級：Year、Quarter、Month 和 Day。](media/desktop-auto-date-time/auto-date-time-fields-pane-example.png)
 
@@ -93,7 +93,8 @@ Date Count = COUNT(Sales[OrderDate].[Date])
 
 ## <a name="next-steps"></a>後續步驟
 
-如需自動日期/時間和相關主題的詳細資訊，請參閱下列資源：
+如需本文的詳細資訊，請參閱下列資源：
 
+- [Power BI Desktop 中的自動日期/時間指導方針](guidance/auto-date-time.md)
 - [在 Power BI Desktop 中設定和使用日期資料表](desktop-date-tables.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

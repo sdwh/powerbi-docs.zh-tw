@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5374397dc9b89df7b7cbd86cfca5a44631b94e4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876474"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999782"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Microsoft Graph 安全性 API
 
@@ -40,7 +40,7 @@ Microsoft Graph 安全性 API 連線 Microsoft [多個安全性解決方案](htt
 
 * 透過[應用程式同意體驗](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)回應邏輯應用程式在第一次執行期間所提交的要求
    
-登入 Microsoft Graph 安全性連接器的使用者帳戶，必須是 Azure AD 安全性讀取者受限管理員角色的成員，可以是「安全性讀取者」  或「安全性系統管理員」  。 請參閱 [Assign Azure AD roles to users](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users) (將 Azure AD 角色指派給使用者)。
+登入 Microsoft Graph 安全性連接器的使用者帳戶，**如果**不是「安全性系統管理員」  角色的成員，就必須已獲指派「Azure AD 安全性讀取者」角色。 請參閱 [Assign Azure AD roles to users](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users) (將 Azure AD 角色指派給使用者)。
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>使用 Microsoft Graph 安全性連接器
 

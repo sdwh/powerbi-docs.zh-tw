@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 98a1fc1c394a81f743e622ec1756e6501a497fa3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: cc85fb07f50a42952e9b293908a797b1cbac023f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699835"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958348"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>無法將 Power BI 加入 Office 365 合作夥伴訂閱
 
@@ -48,7 +48,7 @@ Office 365 可讓公司將 Office 365 與其自有的解決方案進行搭配整
 
 ## <a name="sign-up-for-a-free-trial"></a>註冊免費試用版
 
-您可以註冊 Power BI Pro 的免費試用版。 如果您在試用期結束時未購買 Power BI Pro，您仍然擁有提供許多 Power BI 功能的免費授權。 如需詳細資訊，請參閱[各授權類型的 Power BI 功能](service-features-license-type.md)。
+您可以註冊 Power BI 的免費試用。 如果您在試用期結束時未購買 Power BI Pro，您仍然擁有提供許多 Power BI 功能的免費授權。 如需詳細資訊，請參閱[以個人身分註冊 Power BI](service-self-service-signup-for-power-bi.md)。
 
 ### <a name="enable-ad-hoc-subscriptions"></a>啟用特定訂閱
 

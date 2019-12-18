@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9588f13a857dc105dce3b3577df7c3b06df027ed
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6c8b62cf798d2fbbd09dab0603d216448d04487c
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699237"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000127"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>使用 gx64krb5 將 Kerberos 用於 SAP BW 的單一登入 (SSO)
 
@@ -197,6 +197,8 @@ ms.locfileid: "74699237"
       ![CPIC 追蹤](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
     c. 重現問題，並確定 **CPIC\_TRACE\_DIR** 包含追蹤檔案。 
+    
+    d. 檢查追蹤檔案的內容，以判斷執行問題。 例如，您可能會發現 gx64krb5.dll 未正確載入，或 Active Directory 使用者與您預期起始 SSO 連線嘗試的使用者不同。
 
 ## <a name="next-steps"></a>後續步驟
 

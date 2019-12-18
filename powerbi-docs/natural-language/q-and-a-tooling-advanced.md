@@ -7,19 +7,19 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64a6294ca30901c61928eca068ab4ebbb3d39638
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875334"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958509"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>編輯問與答語言結構描述和新增片語 - Power BI Desktop 
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 如果您的資料能夠回答就更厲害了。 Power BI 問與答在您提出問題時，會盡力正確回答。 但如果想要得到更好的問與答互動，您可以改善答案。 其中一種方式是編輯語言結構描述。 
 
-一切從您的企業資料開始。  資料模型愈完善，使用者獲得高品質的解答就愈容易。 改善模型的一種方法是新增語言結構描述，來定義和分類資料集中資料表和資料列名稱之間的術語和關聯性。 Power BI Desktop 可讓您管理語言結構描述。 
+一切從您的企業資料開始。  資料模型愈完善，使用者獲得高品質的解答就愈容易。 改善模型的一種方法是新增語言結構描述，來定義和分類資料集中資料表和資料列名稱之間的術語和關聯性。 Power BI Desktop 可讓您管理語言結構描述。 
 
-問與答有兩個方面。  第一個方面是準備工作，或稱「建立模型」  。  第二個方面是詢問問題和探索資料，或稱「取用」  。 在某些公司，稱為「製造資料模型者」  或「IT 系統管理員」的員工，會負責組合資料集、建立資料模型並將資料集發佈至 Power BI。  另一組員工則是在線上「取用」資料的人。  在其他公司，這些角色可能合併在一起。 
+問與答有兩個方面。  第一個方面是準備工作，或稱「建立模型」  。  第二個方面是詢問問題和探索資料，或稱「取用」  。 在某些公司，稱為「製造資料模型者」  或「IT 系統管理員」的員工，會負責組合資料集、建立資料模型並將資料集發佈至 Power BI。  另一組員工則是在線上「取用」資料的人。  在其他公司，這些角色可能合併在一起。 
 
 本文適用於製造資料模型者，也就是將資料集最佳化以提供最佳問與答結果的人員。 
 

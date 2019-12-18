@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6c098a187b7f0d0d4828500cd6c5995a7c82ab42
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697627"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000173"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>使用 CommonCryptoLib (sapcrypto.dll) 將 Kerberos 單一登入用於 SAP BW 的 SSO
 
@@ -89,7 +89,7 @@ ms.locfileid: "74697627"
 
 ## <a name="troubleshooting"></a>疑難排解
 
-如果無法在 Power BI 服務中重新整理報表，則您可以使用閘道追蹤、CPIC 追蹤和 CommonCryptoLib 追蹤來診斷問題。 由於 CPIC 追蹤和 CommonCryptoLib 是 SAP 產品，因此 Microsoft 無法為其提供支援。 針對獲授與 BW SSO 存取權的 Active Directory 使用者，某些 Active Directory 設定可能會要求使用者在安裝閘道的電腦上必須是 Administrators 群組成員。
+如果無法在 Power BI 服務中重新整理報表，則您可以使用閘道追蹤、CPIC 追蹤和 CommonCryptoLib 追蹤來診斷問題。 由於 CPIC 追蹤和 CommonCryptoLib 是 SAP 產品，因此 Microsoft 無法為其提供支援。
 
 ### <a name="gateway-logs"></a>閘道記錄
 
@@ -109,7 +109,49 @@ ms.locfileid: "74697627"
 
    ![CPIC 追蹤](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
- 3. 重現問題，並確定 **CPIC\_TRACE\_DIR** 包含追蹤檔案。
+3. 重現問題，並確定 **CPIC\_TRACE\_DIR** 包含追蹤檔案。
+ 
+    CPIC 追蹤可以診斷較高層級的問題，例如，載入 sapcrypto.dll 程式庫失敗。 例如，以下程式碼片段是來自 CPIC 追蹤檔案，其中發生 .dll 載入錯誤：
+
+    ```
+    [Thr 7228] *** ERROR => DlLoadLib()==DLENOACCESS - LoadLibrary("C:\Users\test\Desktop\sapcrypto.dll")
+    Error 5 = "Access is denied." [dlnt.c       255]
+    ```
+
+    如果您遇到此類失敗，但您已依照[上一節](#configure-sap-bw-to-enable-sso-using-commoncryptolib)所述設定 sapcrypto.dll 與 sapcrypto.ini 的讀取與執行權限，請嘗試在包含檔案的資料夾設定相同的讀取與執行權限。
+
+    如果您仍然無法載入 .dll，請嘗試開啟[檔案的稽核](/windows/security/threat-protection/auditing/apply-a-basic-audit-policy-on-a-file-or-folder)。 在 Windows 事件檢視器中檢查產生的稽核記錄，可能有助於判斷載入檔案失敗的原因。 尋找由模擬 Active Directory 使用者起始的失敗項目。 例如，針對模擬使用者 `MYDOMAIN\mytestuser`，稽核記錄中的失敗看起來會像這樣：
+
+    ```
+    A handle to an object was requested.
+
+    Subject:
+        Security ID:        MYDOMAIN\mytestuser
+        Account Name:       mytestuser
+        Account Domain:     MYDOMAIN
+        Logon ID:       0xCF23A8
+
+    Object:
+        Object Server:      Security
+        Object Type:        File
+        Object Name:        <path information>\sapcrypto.dll
+        Handle ID:      0x0
+        Resource Attributes:    -
+
+    Process Information:
+        Process ID:     0x2b4c
+        Process Name:       C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe
+
+    Access Request Information:
+        Transaction ID:     {00000000-0000-0000-0000-000000000000}
+        Accesses:       ReadAttributes
+                
+    Access Reasons:     ReadAttributes: Not granted
+                
+    Access Mask:        0x80
+    Privileges Used for Access Check:   -
+    Restricted SID Count:   0
+    ```
 
 ### <a name="commoncryptolib-tracing"></a>CommonCryptoLib 追蹤 
 

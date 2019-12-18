@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.date: 10/29/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ebaf32bbf84dcbb8efd8516fd0a1ab01011f2d63
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 55cdfad221aef276c790e98de83dd844bc13aafe
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698478"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958655"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>購買及指派 Power BI Pro 使用者授權
 
-Power BI Pro 是一種個別使用者授權，可允許使用者讀取及和其他使用者在 Power BI 服務中發佈的報表與儀表板互動，並與其他 Power BI Pro 使用者共用內容和共同作業。 只有具備 Power BI Pro 使用者授權的使用者才能發佈或和其他使用者共用內容，或取用由其他使用者建立的內容，除非該內容是裝載在 Power BI Premium 容量中。 如需詳細資訊，請參閱[依授權類型排列的 Power BI 功能](service-features-license-type.md)。
+Power BI Pro 是一種個別使用者授權，可允許使用者讀取及和其他使用者在 Power BI 服務中發佈的報表與儀表板互動，並與其他 Power BI Pro 使用者共用內容和共同作業。 只有具備 Power BI Pro 使用者授權的使用者才能發佈或和其他使用者共用內容，或取用由其他使用者建立的內容，除非該內容是裝載在 Power BI Premium 容量中。 如需詳細資訊，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing/)的「Power BI 功能比較」  一節。
 
 ## <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>購買及指派 Power BI Pro 使用者授權
 

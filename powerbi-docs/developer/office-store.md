@@ -1,138 +1,106 @@
 ---
-title: 在 AppSource 上發佈 Power BI 視覺效果
-description: 了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及使用。
+title: 將 Power BI 視覺效果發佈至合作夥伴中心
+description: 了解如何將自訂視覺效果發佈至合作夥伴中心供其他人探索及使用
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 3/27/2019
-ms.openlocfilehash: f8ca6aae805ae3184a1c54d8707fcb9a3cfd32e7
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 12/02/2019
+ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265260"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999878"
 ---
-# <a name="publish-power-bi-visuals-to-appsource"></a>在 AppSource 上發佈 Power BI 視覺效果
+# <a name="publish-power-bi-visuals-to-partner-center"></a>將 Power BI 視覺效果發佈至合作夥伴中心
 
-了解如何將自訂視覺效果發佈至 AppSource 供其他人探索及使用。
-
-一旦建立了自訂的視覺效果後，您可能需要發佈至 AppSource 供其他人探索及使用。 您需要先做一些準備才能執行此作業。 如需如何建立自訂視覺效果的詳細資訊，請參閱[開發 Power BI 自訂視覺效果](visuals/custom-visual-develop-tutorial.md)。
-
-   ![Office 市集](media/office-store/appsource-01.png)
+一旦建立了 Power BI 視覺效果後，您可以將它發佈至 AppSource 供其他人探索及使用。 如需建立 Power BI 視覺效果的詳細資訊，請參閱[開發 Power BI 視覺效果](visuals/custom-visual-develop-tutorial.md)。
 
 ## <a name="what-is-appsource"></a>什麼是 AppSource？
 
-**AppSource** 是針對 Microsoft 產品和服務尋找 SaaS 應用程式與增益集的地方。 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 為上百萬名 Office 365、Dynamics 365 等使用者提供尋找解決方案的管道，讓使用者能夠以更有效率、更有見解且更得心應手的方式完成工作。
+您可以在 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) \(英文\) 尋找適用於 Microsoft 產品與服務的 SaaS 應用程式與增益集。
 
-## <a name="preparing-to-submit-your-custom-visual"></a>準備提交您的自訂視覺效果
+![Office 市集](media/office-store/appsource-01.png)
 
-當您閱讀完我們的 [Power BI 視覺效果指導方針](guidelines-powerbi-visuals.md)、完成程式碼撰寫且[測試您的自訂視覺效果](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)並將它封裝到 pbiviz 檔案後，您應該也備妥下列項目以便提交。
+## <a name="preparing-to-submit-your-power-bi-visual"></a>準備提交您的 Power BI 視覺效果
+
+將 Power BI 視覺效果提交至 AppSource 之前，請確定您已閱讀 [Power BI 視覺效果指導方針](guidelines-powerbi-visuals.md)，而且[已測試您的自訂視覺效果](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) \(英文\)。
+
+當您準備好要提交 Power BI 視覺效果時，請確認您的視覺效果符合以下所列的所有需求。
 
 | 項目 | 必要 | 描述 |
 | --- | --- | --- |
-| Pbiviz 套件包含所有必要的中繼資料 |是 |視覺效果名稱<br>顯示名稱<br>GUID<br>版本<br>描述<br>作者名稱和電子郵件 |
-| .pbix 報表檔案範例 |是 |為展示您的視覺效果，您應該協助使用者熟悉該視覺效果。 您應該強調視覺效果為使用者帶來的價值，並提供範例使用方式、格式化選項等等。您也可以在結尾新增「提示」  頁面，提供一些像是提示與祕訣、要避免的事項等等。<br>.pbix 報表範例檔案必須離線工作，不能有任何外部連線 |
-| 圖示 |是 |您應該包含店面中會出現的自訂視覺效果標誌。 格式可以是 .png、.jpg、.jpeg 或 .gif。 它必須剛好是 300 px (寬度) x 300 px (高度)。 **重要！** 提交圖示之前，請仔細檢閱[簡短指南](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) \(英文\)。 |
-| 螢幕擷取畫面 |是 |您必須提供至少一張螢幕擷取畫面。 格式可以是 .png、.jpg、.jpeg 或 .gif。 它必須剛好是 1366 px (寬度) x 768 px (高度)。 檔案大小不能大於 1024 KB。 「為提高使用率，請新增文字泡泡以表達每張螢幕擷取畫面所顯示重要功能的價值定位。」  |
-| 支援下載連結 |是 |提供 URL 以支援使用您視覺效果發生問題的客戶。 系統會輸入此連結作為您 SellerDashboard 清單的一部分，當使用者在 AppSource 上存取您視覺效果的清單時會看到。 URL 的格式應該包含 https:// 或 http:// 。 |
-| 隱私權文件連結 |是 |為使用您視覺效果的客戶提供隱私權原則連結。 系統會輸入此連結作為您 SellerDashboard 清單的一部分，當使用者在 AppSource 上存取您視覺效果的清單時會看到。 連結的格式應該包含 https:// 或 http:// 。 |
-| 使用者授權合約 (EULA) |是 |您必須上傳 EULA 檔案。 您可以使用自己的 EULA 或 Power BI Office 市集 Power BI 視覺效果的預設 EULA。 若要使用預設的 EULA，請將下列 URL 貼至賣方儀表板的 [使用者授權合約] 檔案上傳對話方塊中︰[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) \(英文\)。 |
-| 影片連結 |否 |為提高使用者對您自訂視覺效果的興趣，建議您提供有關視覺效果的影片連結。 URL 的格式應該包含 https:// 或 http:// 。 |
-| GitHub 儲存機制 |否 |為讓其他開發人員對您的程式碼提供意見反應和建議改良，最好在 [GitHub](https://www.github.com) 儲存機制有視覺效果和範例資料來源的有效公用連結。 |
+| Pbiviz 套件 |是 |將您的 Power BI 視覺效果封裝成包含所有必要中繼資料的 Pbiviz 套件。<br>視覺效果名稱<br>顯示名稱<br>GUID<br>版本<br>描述<br>作者名稱和電子郵件 |
+| .pbix 報表檔案範例 |是 |為展示您的視覺效果，您應該協助使用者熟悉該視覺效果。 強調視覺效果能為使用者帶來的價值，並提供使用方式及格式設定選項的範例。 您也可以在結尾新增「提示」  頁面，提供一些提示與祕訣，以及應避免的事項。<br>.pbix 報表範例檔案必須離線工作，不能有任何外部連線。 |
+| 圖示 |是 |您應該包含店面中會出現的自訂視覺效果標誌。 格式可以是 .png、.jpg、.jpeg 或 .gif。 它必須剛好是 300 px (寬度) x 300 px (高度)。<BR>**重要！** 提交圖示之前，請仔細檢閱 [AppSource 市集影像指南](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) \(英文\)。 |
+| 螢幕擷取畫面 |是 |提供至少一張螢幕擷取畫面。 格式可以是 .png、.jpg、.jpeg 或 .gif。 尺寸必須剛好為 1366 px (寬度) x 768 px (高度)。 檔案大小不能大於 1024 kb。<br>若要提供更好的使用體驗，請新增文字泡泡以表達每張螢幕擷取畫面所顯示重要功能的價值定位。 |
+| 支援下載連結 |是 |為您的客戶提供支援 URL。 系統會輸入此連結作為您賣方儀表板清單的一部分；當使用者在 AppSource 上存取您視覺效果的清單時便會看到它。 URL 的格式應該包含 https:// 或 http:// 。 |
+| 隱私權文件連結 |是 |提供視覺效果隱私權原則的連結。 系統會輸入此連結作為您賣方儀表板清單的一部分；當使用者在 AppSource 上存取您視覺效果的清單時便會看到它。 連結的格式應該包含 https:// 或 http:// 。 |
+| 使用者授權合約 (EULA) |是 |您必須上傳 EULA 檔案。 您可以使用自己的 EULA，或使用 Office 市集內適用於 Power BI 視覺效果的預設 EULA。 若要使用預設的 EULA，請將下列 URL 貼至賣方儀表板的 [使用者授權合約] 檔案上傳對話方塊中。 [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) \(英文\)。 |
+| 影片連結 |否 |為提高使用者對您自訂視覺效果的興趣，請提供有關視覺效果的影片連結。 URL 的格式應該包含 https:// 或 http:// 。 |
+| GitHub 儲存機制 |否 |共用具有您 Power BI 視覺效果及範例資料之 [GitHub](https://www.github.com) \(英文\) 存放庫的公用連結。 這可讓其他開發人員有機會提供意見反應，並為您的程式碼提出改進。 |
 
-## <a name="submitting-to-power-bi"></a>提交至 Power BI
+## <a name="getting-an-app-package-xml"></a>取得應用程式套件 XML
 
-提交從傳送電子郵件給 Power BI 視覺效果提交小組開始。 您可傳送電子郵件至 [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com)。
+若要提交 Power BI 視覺效果，您需要來自 Power BI 小組的應用程式套件 XML。 若要取得應用程式套件 XML，請將電子郵件傳送至 Power BI 視覺效果提交小組 ([pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com))。
 
-> [!IMPORTANT]
-> 您必須先在 pbiviz.json 檔案中填妥下列欄位，然後才能建立 .pbiviz 套件：“description”、“supportUrl”、“author“、“name” 及 “email”。
+在建立 **pbiviz** 套件之前，必須在 **pbiviz.json** 檔案中填寫以下欄位：
+* description
+* supportUrl
+* 編寫
+* 名稱
+* 電子郵件
 
-在您的電子郵件中附上 **.pbiviz 檔案**與**範例報告 .pbix 檔案**。 Power BI 小組會回覆指示和要上傳的應用程式套件 XML 檔案。 需要有此 XML 應用程式套件，才能透過 Office 開發人員中心提交您的視覺效果。
+在您的電子郵件中附加 **pbiviz 檔案**與**範例報告 pbix 檔案**。 Power BI 小組會回覆指示和要上傳的應用程式套件 XML 檔案。 需要有此 XML 應用程式套件，才能透過 Office 開發人員中心提交您的視覺效果。
 
 > [!NOTE]
 > 為改善品質並確保現有的報告不中斷，現有視覺效果的更新經市集核准後，要再 2 週才會投放到生產環境。
 
 ## <a name="submitting-to-appsource"></a>提交至 AppSource
 
-從 Power BI 小組取得應用程式套件 XML 後，請瀏覽至[開發人員中心](https://sellerdashboard.microsoft.com/Application/Summary)以將視覺效果提交至 AppSource。
+若要將您的 Power BI 視覺效果提交至 AppSource，您需要從 Power BI 小組取得應用程式套件，然後將它提交至合作夥伴中心。 
 
-> [!NOTE]
-> 您必須擁有有效的 Office 程式開發人員帳戶，才能登入 [Office 開發人員中心](https://dev.office.com/)。 Office 開發人員帳戶必須是 Microsoft 帳戶 (Live ID，例如 hotmail.com 或 outlook.com)。
+### <a name="getting-the-app-package"></a>取得應用程式套件
 
-> [!IMPORTANT]
-> 您必須先將附有 .pbiviz 檔案和 .pbix 檔案的電子郵件傳送至 Power BI 小組，然後再提交至 AppSource。 這樣可讓 Power BI 小組將這些檔案上傳到公用的共用伺服器。 否則，市集就無法擷取檔案。 每個新的視覺效果提交、現有視覺效果的更新及對拒絕的提交修正，都必須傳送這些檔案。
+您必須先將附有 **pbiviz** 檔案與 **pbix** 檔案的電子郵件傳送至 Power BI 小組，然後再提交至 AppSource。 這樣可讓 Power BI 小組將這些檔案上傳到公用的共用伺服器。 否則，市集就無法擷取檔案。 
 
-### <a name="process-to-submit-visual"></a>提交視覺效果的程序
+Power BI 小組必須檢查檔案中是否有新的 Power BI 視覺效果提交、對現有 Power BI 視覺效果的更新，以及對已拒絕提交所做的修正。
 
-請遵循下列步驟以完成提交。
+### <a name="submitting-to-partner-center"></a>提交至合作夥伴中心
 
-1. 選取 [新增應用程式]  。
+若要將您的 Power BI 視覺效果提交至合作夥伴中心，您必須向合作夥伴中心註冊。 如果您尚未註冊，請[在合作夥伴中心建立開發人員帳戶](https://docs.microsoft.com/office/dev/store/open-a-developer-account) \(英文\)。
 
-    ![新增應用程式](media/office-store/powerbi-custom-visual-add-an-app.png)
+遵循下列步驟來將您的 Power BI 視覺效果提交至合作夥伴中心。 如需提交程序的詳細資訊，請參閱[透過合作夥伴中心將 Office 方案提交至 AppSource](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource) \(英文\)。
 
-2. 選取 [Power BI 自訂視覺效果]  然後選取 [下一步]  。
+>[!NOTE]
+> 如果您處於 Power BI 視覺效果提交程序期間，而且需要使用[賣方儀表板](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) \(英文\) (舊的管理工具)，請檢閱[使用賣方儀表板將 Power BI 視覺效果提交至 AppSource](seller-dashboard.md) 中的指示。
 
-3. 選取 [應用程式套件]  下的 **+** ，然後在開啟的檔案對話方塊中選取從 Power BI 小組收到的應用程式套件 XML 檔案。
+1. 登入 [合作夥伴中心]  。
 
-    ![應用程式套件](media/office-store/powerbi-custom-visual-apppackage.png)
+2. 在左側窗格上，選取 [OFFICE 市集]  。
 
-4. 您應該會收到這是有效 Power BI 應用程式套件的核准。
+3. 選取 [概觀]  。
 
-    ![資訊清單已核准](media/office-store/powerbi-custom-visual-manifest-approved.png)
+4. 選取 [建立新的]  ，然後從下拉式功能表中選取 [Power BI 視覺效果]  。
 
-5. 填寫 [一般資訊]  詳細資料。
+    ![Office 市集](media/office-store/power-bi-visual.png)
 
-   * *提交標題：* 您的提交在開發人員中心的命名方式
-   * *版本：* 版本號碼是從您的增益集應用程式套件自動填入。
-   * *發行日期 (UTC)：* 選取應用程式在市集發行的日期。 如果選擇未來的日期，則市集要到該日期才會提供應用程式。
-   * *類別：* 第一個類別會自動填入 "Data Visualization + BI"。 這是所有 Power BI 視覺效果的標記方式。 您最多可以提供 2 個額外的類別，方便使用者搜尋您的視覺效果
-   * 「測試備註」：  選擇性，如果您想要為 Microsoft 軟體測試人員提供一些指示。
-   * 「我的應用程式需要、支援、包含或使用密碼或加密」：  保持取消核取
-   * 「將此增益集放在 iPad 上的 Office 增益集目錄中」：  保持取消核取
-6. 選取**應用程式標誌** 下的 **+** ，上傳您的視覺效果標誌。 然後在開啟的檔案對話方塊中選取圖示檔。 檔案必須是 .png、.jpg、.jpeg 或 .gif。 它必須剛好是 300px (寬度) x 300px (高度)，大小不能大於 512 KB。
+5. 在 [建立新的 Power BI 視覺效果]  視窗中，輸入 Power BI 視覺效果的名稱，然後選取 [建立]  。
 
-    ![應用程式標誌](media/office-store/powerbi-custom-visual-app-logo.png)
+6. 選取 [套件]  ，並上傳您的 Power BI 視覺效果 XML 應用程式套件。
 
-7. 填寫 [支援文件]  詳細資料。
+7. 選取 [內容]  並提供必要的資訊。
 
-   * 支援文件連結
-   * 隱私權文件連結
-   * 影片連結
-   * 使用者授權合約 (EULA)
+8. 如果您的產品需要額外購買，請選取 [產品設定]  並選取 [購買相關服務]  核取方塊。
 
-       您必須上傳 EULA 檔案。 您可以使用自己的 EULA 或 Power BI Office 市集 Power BI 視覺效果的預設 EULA。 若要使用預設的 EULA，請將下列 URL 貼至賣方儀表板的 [使用者授權合約] 檔案上傳對話方塊中︰[https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) \(英文\)。
+9. (選擇性) 如果您想要[認證](power-bi-custom-visuals-certified.md)您的視覺效果，請選取 [產品設定]  ，然後選取 [Power BI 認證]  核取方塊。
+    >[!TIP]
+    >Power BI 認證程序可能需要一些時間。 如果您是在建立新的 Power BI 視覺效果，建議您在要求 Power BI 認證之前，先透過合作夥伴中心發佈您的 Power BI 視覺效果。 這可確保視覺效果的發佈不會延遲。
 
-8. 選取 [下一步]  前往 [詳細資料]  頁面。
-
-9. 選取 [語言]  並從清單中挑選語言。
-
-    ![語言](media/office-store/powerbi-custom-visual-language.png)
-
-10. 填寫 [描述] 詳細資料。
-
-    * *應用程式名稱 (用於此語言)：* 輸入店面中應該出現的應用程式標題。
-    * *簡短描述：* 輸入店面中應該出現的應用程式簡短描述，最多 100 個字元。 此描述會和標誌一起出現在最上層頁面。 您可以使用 pbiviz 套件的描述。
-    * *完整描述：* 提供更詳細的應用程式描述，客戶將會在應用程式詳細資料頁面看到此完整描述。 如果您想讓視覺效果成為開放原始碼，讓社群加以改進，請在這裡提供公用存放庫 (如 GitHub) 的連結。
-
-11. 至少上傳一張螢幕擷取畫面。 格式可以是 .png、.jpg、.jpeg 或 .gif。 它必須剛好是 1366 px (寬度) x 768 px (高度)。 檔案大小不能大於 1024 KB。 「為提高使用率，請新增文字泡泡以表達每張螢幕擷取畫面所顯示重要功能的價值定位。」 
-
-12. 如果您想要新增更多語言，請選取 [新增語言]  並重複步驟 10 和 11。 新增更多語言有利於使用者使用自己的語言檢視自訂的視覺效果詳細資料。 未列出的語言會預設為第一個選取的語言。
-
-13. 當您完成新增語言時，請選取 [下一步]  前往 [封鎖存取]  頁面。
-
-14. 如果您想要防止特定國家或地區的客戶使用或購買您的應用程式，請核取此方塊並從清單中選取。
-
-15. 選取 [下一步]  前往 [定價]  頁面。
-
-16. 目前只有「免費」  的視覺效果支援，而且不允許在視覺效果中購買其他項目 (應用程式內購買)。 選取 [此應用程式免費]  。
-
-    > [!NOTE]
-    > 如果您選取除了「免費」以外的選項或在應用程式內購買已提交的視覺效果內容，此提交將會遭到拒絕。
-
-17. 您現在可以選取 [儲存為草稿]  於稍後提交，或選取 [提交送審]  向 Office 市集提交自訂的視覺效果。
+10. 選取 [產品設定]  ，然後按一下 [檢閱並發佈]  。
 
 ## <a name="tracking-submission-status-and-usage"></a>追蹤提交狀態和使用方式
 
@@ -142,13 +110,13 @@ ms.locfileid: "74265260"
 
 ## <a name="certify-your-visual"></a>認證您的視覺效果
 
-建立視覺效果之後，您可以選擇讓您的視覺效果通過認證。 這表示它可以在 Power BI 服務內執行，還可以與服務的其他功能一起使用，例如匯出至 PowerPoint。 如需詳細資訊，請參閱[讓自訂視覺化「通過證認」  ](../developer/power-bi-custom-visuals-certified.md)。
+建立視覺效果之後，如果需要，可以為您的視覺效果[取得認證](../developer/power-bi-custom-visuals-certified.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
 [Developing a Power BI custom visual](visuals/custom-visual-develop-tutorial.md) (開發 Power BI 自訂視覺效果)  
 [Power BI 中的視覺效果](../visuals/power-bi-report-visualizations.md)  
 [Power BI 中的自訂視覺效果](../developer/power-bi-custom-visuals.md)  
-[讓自訂視覺效果「通過認證」  ](../developer/power-bi-custom-visuals-certified.md)
+[取得 Power BI 視覺效果認證](../developer/power-bi-custom-visuals-certified.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

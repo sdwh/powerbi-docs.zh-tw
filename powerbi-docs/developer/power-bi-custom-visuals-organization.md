@@ -9,18 +9,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8c28c5ee89ffee37c09db8dc6ffcd6fb90274786
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: f11636de003aaab2d10d595b3c2b0230e373410c
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102080"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999828"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI 中的組織視覺效果
 
 您可以在 Power BI 中使用 Power BI 視覺效果，來建立為您量身打造的唯一視覺效果類型。 Power BI 視覺效果是由開發人員建立；通常是因為 Power BI 中包含的多種視覺效果不符合開發人員需求，他們才會自行建立自訂視覺效果。
 
-在某些組織中，Power BI 視覺效果則更為重要，必須有它們才能傳達組織唯一的特定資料或見解，它們也可能有特殊的資料需求，或醒目提示私用商務方法。 此類組織需要開發 Power BI 視覺效果、在整個組織中共用它們，並確保其被妥善地維護。 Power BI Power BI 視覺效果可讓組織達到此目的。
+在某些組織中，Power BI 視覺效果則更為重要，必須有它們才能傳達組織唯一的特定資料或見解，它們也可能有特殊的資料需求，或醒目提示私用商務方法。 此類組織需要開發 Power BI 視覺效果、在整個組織中共用它們，並確保其被妥善地維護。 Power BI 視覺效果可讓組織達到此目的。
 
 下圖顯示的程序說明 Power BI 流程中組織 Power BI 視覺效果如何從系統管理員開始，經過開發及維護，最後到資料分析師手上。
 
@@ -55,10 +55,10 @@ ms.locfileid: "74102080"
 
 ## <a name="troubleshoot"></a>疑難排解
 
-如需疑難排解的資訊，請前往[針對您的 Power BI Power BI 視覺效果進行疑難排解](power-bi-custom-visuals-troubleshoot.md)。
+如需疑難排解的相關資訊，請前往[針對您的 Power BI 視覺效果進行疑難排解](power-bi-custom-visuals-troubleshoot.md)。
 
 ## <a name="faq"></a>常見問題集
 
-如需詳細資訊和問題的解答，請前往 [Power BI Power BI 視覺效果的常見問題集](power-bi-custom-visuals-faq.md#organizational-visuals)。
+如需詳細資訊和問題的解答，請前往 [Power BI 視覺效果常見問題集](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)。
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)。
