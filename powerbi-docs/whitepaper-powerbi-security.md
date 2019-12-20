@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: fa9c07be31f5110f44c2f200bbde249c95abe9ed
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 656f7e532702cef8c38af96e8c9df49ffc36734a
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009821"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304348"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
@@ -33,7 +33,7 @@ ms.locfileid: "74009821"
 
 **Power BI** 是 Microsoft 提供的線上軟體服務 (稱為 _SaaS_ 或軟體即服務)，讓您輕鬆快速地建立自助商業智慧儀表板、報表、資料集和視覺效果。 使用 Power BI，您可以連線到許多不同的資料來源、結合與塑造來自這些連線的資料，然後建立與其他人共用的報表和儀表板。
 
-Power BI 服務受 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft 隱私權聲明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)制約管轄。 如需資料處理的位置，請參閱 Microsoft Online Services 條款中的資料處理位置條款。 [Microsoft 信任中心](https://www.microsoft.com/trustcenter)是 Power BI 有關合規性資訊的主要資源。 Power BI 小組致力於為客戶創造最新的創新和生產力。 Power BI 目前位於[Office 365 合規性架構](https://go.microsoft.com/fwlink/p/?LinkID=618494)的第 D 層。
+Power BI 服務受 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft 隱私權聲明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)制約管轄。 如需資料處理的位置，請參閱 Microsoft Online Services 條款中的資料處理位置條款。 [Microsoft 信任中心](https://www.microsoft.com/trustcenter)是 Power BI 有關合規性資訊的主要資源。 Power BI 小組致力於為客戶創造最新的創新和生產力。 Power BI 目前位於[Office 365 合規性架構](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)的第 D 層。
 
 本文透過 Power BI 架構的說明來描述 Power BI 安全性，並說明使用者如何向 Power BI 驗證以及建立資料連線，然後描述 Power BI 如何透過服務儲存及移動資料。 最後一節專門針對安全性相關問題，為每個問題提供答案。
 
@@ -45,7 +45,7 @@ Power BI 服務受 [Microsoft Online Services 條款](https://www.microsoftvolum
 
 ![WFE 和後端](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI 使用 Azure Active Directory (**AAD**) 來驗證與管理帳戶。 Power BI 也會使用 **Azure 流量管理員 (ATM)** ，將使用者流量導向至由用戶端嘗試連線之 DNS 記錄所決定的最近資料中心，以便進行驗證程序及下載靜態內容和檔案。 Power BI 使用地理位置最接近的 WFE，有效率地將必要的靜態內容和檔案散發給使用者，但使用**Azure 內容傳遞網路（CDN）** 傳遞的自訂視覺效果除外。
+Power BI 使用 Azure Active Directory (**AAD**) 來驗證與管理帳戶。 Power BI 也會使用 **Azure 流量管理員 (ATM)**，將使用者流量導向至由用戶端嘗試連線之 DNS 記錄所決定的最近資料中心，以便進行驗證程序及下載靜態內容和檔案。 Power BI 使用地理位置最接近的 WFE，有效率地將必要的靜態內容和檔案散發給使用者，但使用**Azure 內容傳遞網路（CDN）** 傳遞的自訂視覺效果除外。
 
 ### <a name="the-wfe-cluster"></a>WFE 叢集
 
@@ -135,7 +135,7 @@ Power BI 服務的使用者驗證包含一系列的要求、回應，並在使�
 
 Power BI 服務的使用者驗證順序如下列步驟中所述，請見下列圖示。
 
-1. 使用者可在 Power BI 位址的網址列 (例如 https://app.powerbi.com) ) 中鍵入 Power BI 位址，或在 Power BI 登陸頁面 (https://powerbi.microsoft.com) ) 選取 [登入]，以從瀏覽器起始對 Power BI 服務的連線。 連線是使用 TLS 1.2 和 HTTPS 來建立，而瀏覽器和 Power BI 服務之間所有後續的通訊則使用 HTTPS。 要求傳送至 **Azure 流量管理員**。
+1. 使用者可在 Power BI 位址的網址列 (例如 https://app.powerbi.com)) 中鍵入 Power BI 位址，或在 Power BI 登陸頁面 (https://powerbi.microsoft.com)) 選取 [登入]，以從瀏覽器起始對 Power BI 服務的連線。 連線是使用 TLS 1.2 和 HTTPS 來建立，而瀏覽器和 Power BI 服務之間所有後續的通訊則使用 HTTPS。 要求傳送至 **Azure 流量管理員**。
 
 2. **Azure 流量管理員**會檢查使用者的 DNS 記錄，以判斷已部署 Power BI 的最近資料中心，並以應傳送使用者之目標 WFE 叢集的 IP 位址來回應 DNS。
 
@@ -192,7 +192,7 @@ DirectQuery 和其他查詢之間的差異決定 Power BI 服務處理待用資�
   - 客戶基礎結構的內部部署資料閘道 – 適用於內部部署資料
   - 資料移動角色 – 適用於雲端式資料來源
 
-用來加密 Windows Azure Blob 儲存體之內容加密金鑰 (CEK) 是隨機產生的 256 位元金鑰。 CEK 用來加密內容的演算法是 AES\_CBC\_256。
+用來加密 Microsoft Azure Blob 儲存體的內容加密金鑰（CEK）是隨機產生的256位金鑰。 CEK 用來加密內容的演算法是 AES\_CBC\_256。
 
 用來加密 CEK 之金鑰加密金鑰 (KEK) 則是預先定義的 256 位元金鑰。 KEK 加密 CEK 的演算法是 A256KW。
 
@@ -318,7 +318,7 @@ Power BI 以下列方式提供資料完整性監視：
 
 當使用者共用查詢、儀表板、報表或任何視覺效果時，能否存取該資料和這些視覺效果，取決於基礎資料來源是否支援角色層級安全性 (RLS)。
 
-如果基礎資料來源能因應 **Power BI 的***角色層級安全性 (RLS)** ，則 Power BI 服務會套用該角色層級安全性，而認證不足無法存取基礎資料 (可能是用於儀表板、報表或其他資料成品的查詢) 的使用者，看不到需要足夠使用者權限的資料。 如果使用者存取基礎資料之方式不同於儀表板或報表建立者的方式，則視覺效果和其他成品只會根據此使用者所擁有的資料存取層級顯示資料。
+如果基礎資料來源能因應 **Power BI 的***角色層級安全性 (RLS)**，則 Power BI 服務會套用該角色層級安全性，而認證不足無法存取基礎資料 (可能是用於儀表板、報表或其他資料成品的查詢) 的使用者，看不到需要足夠使用者權限的資料。 如果使用者存取基礎資料之方式不同於儀表板或報表建立者的方式，則視覺效果和其他成品只會根據此使用者所擁有的資料存取層級顯示資料。
 
 如果資料來源**不**適用 RLS，則基礎資料來源會套用 Power BI 登入認證；或者，如果在連線期間提供其他認證，則套用這些提供的認證。 當使用者從非 RLS 資料來源將資料載入 Power BI 服務時，資料會存放在 Power BI 中，如本文件的＜資料儲存和移動＞一節所述。 針對非 RLS 資料來源，當與其他使用者共用資料 (例如透過儀表板或報表)，或重新整理資料時，即會使用原始的認證存取或顯示資料。
 
@@ -372,13 +372,13 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **使用 Power BI 時，使用者如何連線至資料來源並存取？**
 
-* **Power BI 認證和網域認證：** 使用者使用電子郵件地址登入 Power BI;當使用者嘗試連線到資料資源時，Power BI 會傳遞 Power BI 登入電子郵件地址作為認證。 針對網域連線資源 (內部部署或雲端式)，目錄服務會將登入電子郵件與「使用者主體名稱」 ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) 比對，以判斷是否有足夠的認證允許存取。 至於使用工作電子郵件地址登入 Power BI 的組織 (他們使用同一電子郵件登入工作資源，例如 _david@contoso.com_ )，可以流暢對應；至於不使用工作電子郵件地址的組織 (例如 _david@contoso.onmicrosoft.com_ )，則必須建立目錄對應，才能使用 Power BI 登入認證存取內部部署資源。
+* **Power BI 認證和網域認證：** 使用者使用電子郵件地址登入 Power BI;當使用者嘗試連線到資料資源時，Power BI 會傳遞 Power BI 登入電子郵件地址作為認證。 針對網域連線資源 (內部部署或雲端式)，目錄服務會將登入電子郵件與「使用者主體名稱」 ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) 比對，以判斷是否有足夠的認證允許存取。 至於使用工作電子郵件地址登入 Power BI 的組織 (他們使用同一電子郵件登入工作資源，例如 _ david@contoso.com _)，可以流暢對應；至於不使用工作電子郵件地址的組織 (例如 _ david@contoso.onmicrosoft.com _)，則必須建立目錄對應，才能使用 Power BI 登入認證存取內部部署資源。
 
 * **SQL Server Analysis Services 和 Power BI：** 針對使用內部部署 SQL Server Analysis Services 的組織，Power BI 提供 Power BI 內部部署資料閘道（這是**閘道**，如上一節中所述）。  Power BI 內部部署資料閘道可以對資料來源 (RLS) 實施角色層級安全性。 如需 RLS 的詳細資訊，請參閱本文件稍早所述的**資料來源的使用者驗證**。 如需閘道的詳細資訊，請參閱內部[部署資料閘道](service-gateway-onprem.md)。
 
   此外，組織也可以使用 Kerberos 來進行**單一登入** (SSO)，並從 Power BI 順暢地連線至內部部署資料來源，例如 SQL Server、SAP HANA 和 Teradata。 如需詳細資訊和特定設定需求，請參閱[**使用 Kerberos 進行 SSO，從 Power BI 到內部部署資料來源**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data)。
 
-* **非網域**連線：對於未加入網域且不具備角色層級安全性（RLS）的資料連線，使用者必須在連接順序期間提供認證，Power BI 接著會傳遞至資料來源以建立建立. 如果具有足夠的權限，資料會從資料來源載入 Power BI 服務。
+* **非網域**連線：對於未加入網域且不具備角色層級安全性（RLS）的資料連線，使用者必須在連接順序期間提供認證，Power BI 接著會傳遞至資料來源以建立連接。 如果具有足夠的權限，資料會從資料來源載入 Power BI 服務。
 
 **Power BI 如何傳輸資料？**
 
