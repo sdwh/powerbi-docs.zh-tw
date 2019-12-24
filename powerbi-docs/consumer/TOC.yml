@@ -142,6 +142,8 @@
       items:
         - name: 什麼是行動裝置應用程式？
           href: mobile/mobile-apps-for-mobile-devices.md
+        - name: 認識首頁
+          href: mobile/mobile-apps-home-page.md
     - name: 快速入門
       items:
         - name: 探索儀表板和報表
@@ -198,7 +200,7 @@
               href: mobile/mobile-apps-qr-code.md
             - name: 在行動裝置應用程式中標註及共用
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: 從 iPhone 上的應用程式掃描條碼
+            - name: 從 Power BI 行動裝置應用程式掃描條碼
               href: mobile/mobile-apps-scan-barcode-iphone.md
             - name: 使用行動裝置管理的設定
               href: mobile/mobile-app-configuration.md

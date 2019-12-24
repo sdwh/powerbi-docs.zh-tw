@@ -7,6 +7,10 @@
       items:
         - name: 什麼是 Power BI 管理？
           href: ../service-admin-administering-power-bi-in-your-organization.md
+        - name: 我的租用戶位在何處？
+          href: ../service-admin-where-is-my-tenant-located.md
+        - name: 移轉至 Go Local 德國地區
+          href: service-admin-migrate-data-germany.md
     - name: 概念
       expanded: true
       items:
@@ -30,8 +34,6 @@
               href: ../service-admin-syndication-partner.md
         - name: 使用管理入口網站
           href: ../service-admin-portal.md
-        - name: 我的租用戶位在何處？
-          href: ../service-admin-where-is-my-tenant-located.md
         - name: 尋找已登入的使用者
           href: ../service-admin-access-usage.md
         - name: 稽核
