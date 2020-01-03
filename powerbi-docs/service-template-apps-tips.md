@@ -131,7 +131,7 @@ Power BI Desktop 中的[參數](https://powerbi.microsoft.com/blog/deep-dive-int
 * 確定遵循 [Power BI App offer](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) (Power BI 應用程式供應項目) 上的文件。
 * 如果儀表板屬於應用程式，請確定儀錶板不是空白。
 * 在提交應用程式之前，請使用應用程式連結安裝應用程式，確保您能如預期連接資料集和應用程式體驗。
-* 將 bpix 上傳到範本工作區之前，請務必卸載任何不必要的連線。
+* 將 pbix 上傳到範本工作區之前，請務必卸載任何不必要的連線。
 * 遵循 Power BI [Best design practices for reports and visuals](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) (報表和視覺效果的最佳設計做法)，達到最大的使用者影響力並獲准散發。
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
