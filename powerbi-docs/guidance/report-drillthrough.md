@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b674c621c30491a00c529af7f2fcd9eb87f3ecfa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834762"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223611"
 ---
 # <a name="report-page-drillthrough"></a>報表頁面鑽研
 
@@ -63,7 +63,7 @@ ms.locfileid: "74834762"
 - **探索：** 您可以設定視覺效果標題圖示文字，或將指示新增至文字方塊，以協助提升鑽研頁面的感知能力。 您也可以設計重疊，如[此部落格文章](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/)中所述。
 
 > [!TIP]
-> 您也可以將鑽研設定為 Power BI 編頁報表。 您可以透過將連結新增至 Power BI 報表來執行這項作業。 連結可以定義 [URL 參數](/blog/url-parameters-for-paginated-reports-are-now-available/)。
+> 您也可以將鑽研設定為 Power BI 編頁報表。 您可以透過將連結新增至 Power BI 報表來執行這項作業。 連結可以定義 [URL 參數](https://powerbi.microsoft.com/blog/url-parameters-for-paginated-reports-are-now-available/)。
 
 ## <a name="next-steps"></a>後續步驟
 

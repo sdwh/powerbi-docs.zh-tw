@@ -10,10 +10,10 @@ ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: fcff0bf1d6c68b9bdb000855f4984b3664b882c1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73877920"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop 的 DAX 基本概念
@@ -25,7 +25,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 ## <a name="why-is-dax-so-important"></a>為什麼 DAX 很重要？
 建立新 Power BI Desktop 檔案並匯入一些資料非常容易。 您甚至可以建立報表，以顯示重要的深入資訊，而完全不需要用到任何 DAX 公式。 但如果您需要分析所有產品類別不同日期範圍的成長百分比， 又或者需要計算相較於市場趨勢的每年成長量，該怎麼辦？ DAX 公式可提供這項功能，以及其他許多重要的功能。 了解如何建立有效的 DAX 公式可協助您充分利用資料。 當您取得所需的資訊之後，即可開始解決影響營收的實際商務問題。 這便是 Power BI 的強大功能，而 DAX 將協助您達成目的。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 您可能已經熟悉如何在 Microsoft Excel 中建立公式。 該知識有助於了解 DAX，但即使您沒有使用 Excel 公式的經驗，此處描述的概念也將協助您開始立即建立 DAX 公式，並解決真實世界的 BI 問題。
 
 我們將著重於介紹計算中所使用的 DAX 公式，更明確地說，也就是量值和計算結果欄中所使用的 DAX 公式。 您應該已經熟悉使用 Power BI Desktop 匯入資料、將欄位新增至報表中，且也應該熟悉[量值](desktop-measures.md)和[計算結果欄](desktop-calculated-columns.md)的基本概念。

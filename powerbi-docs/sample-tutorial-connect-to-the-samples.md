@@ -11,10 +11,10 @@ ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73873836"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>連線至 Power BI 服務中的範例
@@ -25,7 +25,7 @@ ms.locfileid: "73873836"
 
 如果您想要多了解一點背景，請參閱 [Power BI 的範例資料集](sample-datasets.md)。 在該文章中，您會了解範例的所有資訊：範例要如何取得、儲存、使用，以及各範例可提供的一些案例。 
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 這些範例適用於 Power BI 服務和 Power BI Desktop。 如果要跟著做，我們將會使用「零售分析」範例。
 
 本教學課程使用的「零售分析」  內容套件範例，包含儀表板、報表和資料集。

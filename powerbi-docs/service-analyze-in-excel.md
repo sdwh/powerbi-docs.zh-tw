@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d949978d431a219845ed93b59eb52439c9d7f0c0
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: f72d29e7f5bc7f93abd43f4c14cf0e53ef18f8d3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958624"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223736"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中進行分析
 有時候您可能會想要使用 Excel 來檢視您在 Power BI 中的資料集，並與其互動。 有了 [使用 EXCEL 分析]  ，您可以做到，並以存在於 Power BI 中的資料集為基礎來存取 Excel 的樞紐分析表、 圖表和交叉分析篩選器的功能。
@@ -104,3 +104,11 @@ ms.locfileid: "74958624"
 
 ## <a name="troubleshooting"></a>疑難排解
 有時候使用 [使用 EXCEL 分析] 可能會取得非預期的結果，或功能無法如您預期般運作。 [此頁面可提供使用 [使用 EXCEL 分析] 時的常見問題解決方案](desktop-troubleshooting-analyze-in-excel.md)
+
+## <a name="next-steps"></a>後續步驟
+
+您可能也會對下列文章感興趣：
+
+* [在 Power BI Desktop 中使用跨報表鑽研](desktop-cross-report-drill-through.md)
+* [使用 Power BI Desktop 交叉分析篩選器](visuals/power-bi-visualization-slicers.md)
+

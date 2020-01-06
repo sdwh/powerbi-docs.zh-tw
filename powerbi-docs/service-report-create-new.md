@@ -10,16 +10,16 @@ ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871757"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>匯入資料集以在 Power BI 服務中建立報表
 您已閱讀 [Power BI 中的報表](consumer/end-user-reports.md)，現在想要建立自己的報表。 有很多方式可以建立報表。 在本文中，我們將透過在 Power BI 服務中從 Excel 資料集建立基礎報表開始。 了解建立報表的基本概念之後，請查看底部的[後續步驟](#next-steps)以取得更進階的報表主題。  
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 - [註冊 Power BI 服務](service-self-service-signup-for-power-bi.md)。 若要使用 Power BI Desktop 建立報表，請參閱 [Desktop 的報表檢視](desktop-report-view.md)。 
 - 請[下載零售分析範例 Excel 資料集](https://go.microsoft.com/fwlink/?LinkId=529778)，並將它儲存至本機或商務用 OneDrive。
 

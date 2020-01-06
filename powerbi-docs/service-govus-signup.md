@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 7edfe46173b1d9b2537c5fd980b245af09fd1f53
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74178276"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服務中註冊美國政府組織
@@ -79,7 +79,7 @@ ms.locfileid: "74178276"
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>Power BI Trial 到 Pro 的轉銷商客戶上架
 移至 [計費] > [訂閱]  ，然後選取 [Power BI Pro for Government]  訂閱。 您會看到︰
 
-* 高可用性
+* 可用
 * 已指派
 * 指派給使用者連結
 * 如果您仍有指派的試用版︰

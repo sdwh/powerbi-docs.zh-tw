@@ -10,10 +10,10 @@ ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73875155"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI 報表的全新篩選體驗
@@ -48,7 +48,7 @@ Power BI 中的篩選有新功能和新設計。 當您加入新的篩選體驗�
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>在服務中為現有報表開啟新的篩選
 
-如果您已開啟 PowerBI 服務中的**新外觀** ![新外觀已開啟](media/power-bi-report-filter/power-bi-new-look-on.png)，則會自動開啟新的篩選體驗。 深入了解 [Power BI 服務中的新外觀](service-new-look.md)。
+如果您已開啟 PowerBI 服務中的**新外觀**![新外觀已開啟](media/power-bi-report-filter/power-bi-new-look-on.png)，則會自動開啟新的篩選體驗。 深入了解 [Power BI 服務中的新外觀](service-new-look.md)。
 
 如果您尚未開啟新外觀，您仍然可以透過執行下列步驟來查看新的篩選體驗。
 

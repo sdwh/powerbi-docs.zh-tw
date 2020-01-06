@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478623"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223648"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型指南
 
@@ -87,7 +87,7 @@ DirectQuery 模型可以透過許多方式進行最佳化，如下列項目符�
 
     增加 [每個資料來源的連線數量上限]  值可確保有更多查詢 (最多可達指定的最大數目) 可以傳送至基礎資料來源，這在單一頁面上有許多視覺效果時，或是許多使用者同時存取報表時很有用。 一旦達到最大連線數目，進一步的查詢會排入佇列，直到有連線可供使用。 增加此限制會導致基礎資料來源有更多的負載，所以設定不保證能改善整體效能。
     
-    將此模型發佈至 Power BI 時，傳送到基礎資料來源的同時查詢數量上限也會取決於環境。 每個不同環境 (例如 Power BI、Power BI Premium 或 Power BI 報表伺服器) 都可能會施加不同的輸送量條件約束。 如需 Power BI Premium 容量資源限制的詳細資訊，請參閱[部署及管理 Power BI Premium 容量](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment#premium-capacities)。
+    將此模型發佈至 Power BI 時，傳送到基礎資料來源的同時查詢數量上限也會取決於環境。 每個不同環境 (例如 Power BI、Power BI Premium 或 Power BI 報表伺服器) 都可能會施加不同的輸送量條件約束。 如需 Power BI Premium 容量資源限制的詳細資訊，請參閱[部署及管理 Power BI Premium 容量](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment)。
 
 ## <a name="optimize-report-designs"></a>最佳化報表設計
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: db4b6d4915e97aaee65806b0bca7801bf4ce951e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4440db5888eeeab638eab4ea3819107d37bdbdbd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876241"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223460"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>搭配使用外部 R IDE 與 Power BI
 透過 **Power BI Desktop**，您可以使用您的外部 R IDE (整合式開發環境) 來建立並精簡 R 指令碼，然後在 Power BI 中使用這些指令碼。
@@ -31,7 +31,7 @@ ms.locfileid: "73876241"
 若要使用這項功能，您需要在本機電腦上安裝 **R IDE**。 **Power BI Desktop** 不會包含、部署或安裝 R 引擎，所以您必須在本機電腦上個別安裝 **R**。 您可以使用下列選項選擇要使用哪項 R IDE︰
 
 * 您可以安裝您最喜愛的 R IDE，其中有許多為免費使用，例如 [Revolution Open 下載頁面](https://mran.revolutionanalytics.com/download/) 及 [CRAN Repository](https://cran.r-project.org/bin/windows/base/)。
-* **Power BI Desktop** 也支援 [R Studio](https://www.rstudio.com/) 和 **Visual Studio 2015** 與 [*R Tools for Visual Studio*](https://beta.visualstudio.com/vs/rtvs/) 編輯器。
+* **Power BI Desktop** 也支援 [R Studio](https://www.rstudio.com/) 和 **Visual Studio 2015** 與 [*R Tools for Visual Studio*](/visualstudio/rtvs) 編輯器。
 * 您也可以安裝不同的 R IDE，並讓 **Power BI Desktop** 啟動該 **R IDE**，方法是進行下列其中一項︰
   
   * 您可建立 **.R** 檔與您想要 **Power BI Desktop** 啟動的外部 IDE 之間的關聯。

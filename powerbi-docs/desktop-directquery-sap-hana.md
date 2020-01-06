@@ -10,10 +10,10 @@ ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 8d5923c111debb14aab46977d42f3357837d9399
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73878307"
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery 和 SAP HANA
@@ -110,7 +110,7 @@ ms.locfileid: "73878307"
 
 * 在 [取得資料]  或 [查詢編輯器]  中，只應該包括必要資料行來擷取必要資料，並反映結果將是查詢的事實，而查詢必須是可傳送至 SAP HANA 的合理查詢。 例如，如果選取許多資料行，但考量到後續視覺效果上可能需要這些資料行，則甚至針對 DirectQuery，簡單視覺效果將表示部分選取中所使用的彙總查詢將會包含這幾個資料行，而這樣的執行效果一般會很差。
   
-以下舉例說明。 在下列範例中，於 [取得資料] 對話方塊中選取五個資料行 (**CalendarQuarter** **Color** **LastName** **ProductLine** **SalesOrderNumber**)   以及量值 *OrderQuantity* 意謂著稍後建立包含 Min OrderQuantity 的簡單視覺效果將會導致對 SAP HANA 進行下列 SQL 查詢。 陰影部分是子選擇，其中包含來自 [取得資料]   / [查詢編輯器]  的查詢。 如果這個部分選取提供相當高的基數結果，則產生的 SAP HANA 效能可能不佳。  
+以下舉例說明。 在下列範例中，於 [取得資料] 對話方塊中選取五個資料行 (**CalendarQuarter** **Color** **LastName** **ProductLine** **SalesOrderNumber**)  以及量值 *OrderQuantity* 意謂著稍後建立包含 Min OrderQuantity 的簡單視覺效果將會導致對 SAP HANA 進行下列 SQL 查詢。 陰影部分是子選擇，其中包含來自 [取得資料]   / [查詢編輯器]  的查詢。 如果這個部分選取提供相當高的基數結果，則產生的 SAP HANA 效能可能不佳。  
 
 ![](media/desktop-directquery-sap-hana/directquery-sap-hana_03.png)
 
@@ -148,5 +148,5 @@ ms.locfileid: "73878307"
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)
 * [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)
-* [內部部署資料閘道](service-gateway-onprem.md)
+* [On-premises data gateway (內部部署資料閘道)](service-gateway-onprem.md)
 

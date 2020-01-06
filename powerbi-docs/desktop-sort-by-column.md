@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: daf4f2c4aaa010516f90cae54c1e8b6784fb0f64
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 78632db52ae197a1643dcf1f2831e140568bc6fe
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879715"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223449"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Power BI Desktop 中的依資料行排序
 在 **Power BI Desktop** 和 **Power BI 服務**中，您可以依不同資料欄位進行排序來變更視覺效果外觀。 變更視覺效果的排序方式，即可反白顯示您想要傳達的資訊，並確定視覺效果反映出該趨勢 (或強調)。
@@ -100,4 +100,11 @@ ms.locfileid: "73879715"
 ![預設排序次序](media/desktop-sort-by-column/sortbycolumn_7.png)
 
 有如此多種排序視覺效果的選項，建立所需的圖表或影像真的很簡單。
+
+## <a name="next-steps"></a>後續步驟
+
+您可能也會對下列文章感興趣：
+
+* [在 Power BI Desktop 中使用跨報表鑽研](desktop-cross-report-drill-through.md)
+* [使用 Power BI Desktop 交叉分析篩選器](visuals/power-bi-visualization-slicers.md)
 

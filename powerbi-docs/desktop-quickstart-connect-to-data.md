@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73876199"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>快速入門：連接至 Power BI Desktop 中的資料
@@ -24,7 +24,7 @@ ms.locfileid: "73876199"
 
 如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 若要完成本文中的步驟，您需要下列項目：
 * 下載並安裝 **Power BI Desktop**，這是可在您的本機電腦上執行的免費應用程式。 您可以直接[下載 **Power BI Desktop**](https://powerbi.microsoft.com/desktop)，或是從 [**Microsoft Store**](https://aka.ms/pbidesktopstore) 取得。
@@ -36,7 +36,7 @@ ms.locfileid: "73876199"
 
 ![Power BI Desktop - 空白畫布](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 
-## <a name="connect-to-data"></a>連接到資料
+## <a name="connect-to-data"></a>連線至資料
 
 有了 **Power BI Desktop**，您可以連線到各種不同資料類型。 您可以連線到基本資料來源，例如 Microsoft Excel 檔案，且可以連線到包含各式各樣資料的線上服務，例如 Salesforce、Microsoft Dynamics、Azure Blob 儲存體等等。
 

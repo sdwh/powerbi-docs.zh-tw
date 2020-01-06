@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565349"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622428"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 中組織新工作區中的工作
 
@@ -111,18 +111,19 @@ Power BI 管理入口網站中[提供工作區清單](service-admin-portal.md#wo
 Power BI 不會同步處理使用者或群組的權限，而這些使用者或群組會設定為可利用 Office 365 群組成員資格存取工作區。 最佳作法是透過相同的 Office 365 群組管理工作區存取，而您會在此設定中設定該群組的檔案儲存體。 
 
 閱讀如何[設定和存取工作區 OneDrive](service-create-the-new-workspaces.md#workspace-onedrive)。  
-   
+
 ## <a name="auditing"></a>稽核
+
 Power BI 會稽核新工作區體驗工作區的下列活動。
 
-| 易記名稱 |   作業名稱 |
+| 易記名稱 | 作業名稱 |
 |---|---|
 | 已建立 Power BI 資料夾 | CreateFolder |
 | 已刪除 Power BI 資料夾 | DeleteFolder |
 | 已更新 Power BI 資料夾 | UpdateFolder |
 | 已更新 Power BI 資料夾存取權| UpdateFolderAccess |
 
-深入閱讀 [Power BI 稽核](service-admin-auditing.md#activities-audited-by-power-bi)。
+深入閱讀 [Power BI 稽核](service-admin-auditing.md)。
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 
@@ -147,11 +148,11 @@ Power BI 會稽核新工作區體驗工作區的下列活動。
 
 **現有內容受到新工作區體驗影響的連結是否正式運作**
 
-否。 新的工作區體驗不會影響傳統工作區中現有項目的連結。 正式運作 (GA) 的新工作區體驗會變更您建立的預設工作區，但不會變更現有工作區。 
+不會。 新的工作區體驗不會影響傳統工作區中現有項目的連結。 正式運作 (GA) 的新工作區體驗會變更您建立的預設工作區，但不會變更現有工作區。 
 
 **現有的工作區是否升級至正式運作的新工作區體驗**
 
-否。 新的工作區體驗 GA 只會將預設工作區類型變更為新的工作區體驗。 基於 Office 365 群組的現有傳統工作區維持不變。
+不會。 新的工作區體驗 GA 只會將預設工作區類型變更為新的工作區體驗。 基於 Office 365 群組的現有傳統工作區維持不變。
 
 **是否仍會針對 Office 365 群組自動建立工作區**
 

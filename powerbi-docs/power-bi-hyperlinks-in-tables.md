@@ -11,10 +11,10 @@ ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e8cad7035e752e5e344d78a22ad5fd8ea0a072ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874508"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>將超連結 (URL) 新增至資料表
@@ -103,7 +103,7 @@ URL 的開頭必須是下列其中一項：
 - telnet
 
 問：是否可以在資料表或矩陣中使用自訂 URL 作為超連結？    
-答：否。 您可以使用連結圖示。 如果您需要針對超連結使用自訂文字，且您的 URL 清單很短，請考慮改用文字方塊。
+答：不會。 您可以使用連結圖示。 如果您需要針對超連結使用自訂文字，且您的 URL 清單很短，請考慮改用文字方塊。
 
 
 ## <a name="next-steps"></a>後續步驟

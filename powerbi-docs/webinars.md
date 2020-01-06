@@ -8,26 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882762"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548570"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
 註冊參加我們即將舉行的即時網路研討會，或隨需觀賞我們錄製下來的會議實況。
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
-
-**Azure 虛擬活動中的分析：使用 Azure Synapse Analytics 來加快取得見解的速度**
-<br>由 Gayle Sheppard 和 John Macintyre 主持
-<br>[立即報名](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**塑造巨量資料分析未來的九個趨勢**
-<br>由 Vijay Gopalakrishnan 主持
-<br>[報名以在 12 月 18 日觀看](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **三種 AI 正在改變 BI 的方式**
 <br>由 Justyna Lucznik 主持
@@ -39,6 +31,10 @@ ms.locfileid: "74882762"
 
 開始使用這些熱門的隨選網路研討會
 
+**Azure 虛擬活動中的分析：使用 Azure Synapse Analytics 來加快取得見解的速度**
+<br>由 Gayle Sheppard 和 John Macintyre 主持
+<br>[報名並立即觀看](https://info.microsoft.com/Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-On-Demand-Registration.html)
+
 **Microsoft 正在如何改變 BI 資料保護**
 <br>由 Anton Fritz 和 Adi Regev 主持
 <br>[報名並立即觀看](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
@@ -46,6 +42,10 @@ ms.locfileid: "74882762"
 **Power BI 以及現代化和企業 BI 的未來**
 <br>由 Arun Ulag 和 Amir Netz 主持
 <br>[報名並立即觀看](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+
+**塑造巨量資料分析未來的九個趨勢**
+<br>由 Vijay Gopalakrishnan 主持
+<br>[報名並立即觀看](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **開始使用 Power BI**
 <br>由 Miguel Martinez 主持

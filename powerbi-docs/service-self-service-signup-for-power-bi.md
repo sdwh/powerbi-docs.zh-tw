@@ -10,10 +10,10 @@ ms.date: 10/31/2019
 ms.author: kfollis
 LocalizationGroup: Get started
 ms.openlocfilehash: 13928bc39801cdaccf73450da64c4f84048fbce3
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74791644"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>以個人身分註冊 Power BI
@@ -76,7 +76,7 @@ Power BI 可以是您的個人資料分析和視覺效果工具，也可以作�
 
 在大部分情況下，您可以遵循本文所述程序來註冊 Power BI。 下表描述一些可能導致無法註冊的問題，並提供可能的因應措施。
 
-| 徵兆 / 錯誤訊息 | 原因和因應措施 |
+| 徵兆/錯誤訊息 | 原因和解決方法 |
 | ----------------------- | -------------------- |
 | <strong>個人電子郵件地址 (例如 nancy@gmail.com)</strong> 您會在註冊期間收到類似於以下內容訊息： <br /><br /> *您已輸入個人電子郵件地址：請輸入您的公司電子郵件地址，讓我們可以安全地儲存貴公司的資料。* <br /><br /> 或 <br /><br /> *這似乎是個人電子郵件地址。請輸入您的公司地址，以便我們可以將您與公司內的其他人連接。而且別擔心。我們不會向任何人洩漏您的地址。* | Power BI 不支援消費者電子郵件服務或電信提供者所提供的電子郵件地址。 <br /><br /> 請使用公司或學校指派給您的電子郵件地址再試一次，以完成註冊。 <br /><br /> 如果您仍然無法註冊，但是可以完成更進階的安裝程序，您可以[註冊新的 Office 365 試用訂閱和使用該電子郵件地址來註冊](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 <br /><br /> 您也可以讓現有使用者[邀請您作為來賓](service-admin-azure-ad-b2b.md)。 |
 | **自助式註冊已停用**：您會在註冊期間收到類似以下內容的訊息︰ <br /><br /> *我們無法完成您的註冊。您的 IT 部門已經關閉 Microsoft Power BI 註冊。請與他們連絡來完成註冊。* <br /><br /> 或 <br /><br /> *這似乎是個人電子郵件地址。請輸入您的公司地址，以便我們可以將您與公司內的其他人連接。而且別擔心。我們不會向任何人洩漏您的地址。* | 組織的 IT 系統管理員已停用 Power BI 自助式註冊。 <br /><br /> 請連絡 IT 系統管理員，請其[遵循指示啟用註冊](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)，以完成註冊。 <br/><br/> 如果您[透過合作夥伴註冊 Office 365](service-admin-syndication-partner.md)，可能也會遇到這個問題。 |

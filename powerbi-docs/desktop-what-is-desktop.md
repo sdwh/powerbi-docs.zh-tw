@@ -10,10 +10,10 @@ ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 01e5effcf5f72dd110005815e2ba86c9a6731a70
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73865137"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop 是什麼？
@@ -24,7 +24,7 @@ ms.locfileid: "73865137"
 
 以下是最常見的 **Power BI Desktop** 使用方式：
 
-* 連接到資料
+* 連線至資料
 * 轉換並清理資料，以建立資料模型
 * 建立圖表或圖形之類的視覺效果，以便為資料提供視覺呈現
 * 在一或多個報表頁面上，建立視覺效果集合的報表
@@ -44,7 +44,7 @@ Power BI Desktop 中有三個檢視，會沿著畫布的左側顯示。 這些�
 
 **Power BI Desktop** 可讓您使用多個來源的資料，在單一報表中建立複雜且視覺效果豐富的報表，以便和組織中其他人共用。 
 
-## <a name="connect-to-data"></a>連接到資料
+## <a name="connect-to-data"></a>連線至資料
 若要開始使用 **Power BI Desktop**，第一步是連線到資料。 您可以從 **Power BI Desktop** 連線到許多不同的資料來源。 若要連線到資料，只要選取 [常用]  功能區，然後選取 [取得資料] > [其他]  。 以下影像顯示出現的 [取得資料]  視窗，其中顯示 Power BI Desktop 可以連線的許多類別。
 
 ![在 Power BI Desktop 中取得資料](media/desktop-what-is-desktop/what-is-desktop_02.png)
