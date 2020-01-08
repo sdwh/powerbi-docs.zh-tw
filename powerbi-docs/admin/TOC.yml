@@ -36,7 +36,7 @@
           href: ../service-admin-portal.md
         - name: 尋找已登入的使用者
           href: ../service-admin-access-usage.md
-        - name: 稽核
+        - name: 追蹤使用者活動
           href: ../service-admin-auditing.md
         - name: 追蹤服務健康情況
           href: ../service-admin-health.md
