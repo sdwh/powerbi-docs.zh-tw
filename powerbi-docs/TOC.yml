@@ -115,7 +115,7 @@
           href: desktop-show-items-no-data.md
         - name: 使用自動日期/時間
           href: desktop-auto-date-time.md
-        - name: 連接到資料
+        - name: 連線至資料
           items:
             - name: 連接至資料來源
               href: desktop-data-sources.md
@@ -837,7 +837,7 @@
       items:
         - name: 影片
           href: videos.md
-        - name: 網路研討會
+        - name: 研討會
           href: webinars.md
 - name: Power BI Premium
   items:
@@ -903,8 +903,6 @@
           href: report-builder-data.md
         - name: 支援的資料來源
           href: paginated-reports-data-sources.md
-        - name: 使用 Power BI 共用資料集
-          href: report-builder-shared-datasets.md
         - name: 設計秘訣
           href: report-builder-design-tips.md
         - name: 資料表、矩陣、清單
@@ -929,6 +927,8 @@
           href: paginated-reports-embedded-data-source.md
         - name: 建立內嵌的資料集
           href: paginated-reports-create-embedded-dataset.md
+        - name: 建立具有 Power BI 共用資料集的報表
+          href: report-builder-shared-datasets.md
         - name: 建立參數
           href: paginated-reports-parameters.md
         - name: 在 URL 中傳遞報表參數
@@ -989,6 +989,8 @@
       items:
         - name: 安裝 Power BI Desktop
           href: report-server/install-powerbi-desktop.md
+        - name: 安裝報表產生器
+          href: report-server/install-report-builder.md
         - name: 報表伺服器基本概念
           items:
             - name: 建立報表伺服器的 Power BI 報表
