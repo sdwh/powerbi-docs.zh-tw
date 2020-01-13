@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2fc33c8adcaed35dab8fc9d81ab28fa314f42e3b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9c7cbd895a913b76a9c0b87155f7800c5538ab28
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881932"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223850"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>複製其他工作區的報表 (預覽)
 
@@ -37,7 +37,7 @@ ms.locfileid: "73881932"
 
     ![儲存複本對話方塊](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 
-    您可以將報表儲存在目前工作區或 Power BI 服務的其他工作區。 您只會看到您為所屬成員之新體驗工作區的工作區。
+    您可以儲存至的工作區取決於複製來源的位置。 從工作區複製時，您可以將報表儲存到目前的工作區或 Power BI 服務中的其他工作區。 您只會看到您為所屬成員之新體驗工作區的工作區。 從應用程式複製時，您可以將報表儲存到 [我的工作區]。
   
 4. 選取 [儲存]  。
 

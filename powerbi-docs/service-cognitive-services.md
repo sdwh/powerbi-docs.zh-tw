@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3965a21ff2ab53fd46667658f7cfa21fa4a3b916
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cf927e94726f33e8d88c25c6d09f6f0ca2226e05
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73855607"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75224133"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Power BI 中的認知服務 
 
@@ -94,7 +94,7 @@ ms.locfileid: "73855607"
 
 文章提供搭配 Power BI 服務使用認知服務的概觀。 下列文章可能也很有趣而且實用。 
 
-* [教學課程：在 Power BI 中叫用 Machine Learning Studio 模型](service-tutorial-invoke-machine-learning-model.md)
+* [教學課程：在 Power BI 中叫用 Machine Learning Studio (傳統) 模型](service-tutorial-invoke-machine-learning-model.md)
 * [Power BI 中的 Azure Machine Learning 整合](service-machine-learning-integration.md)
 * [教學課程：在 Power BI 中使用認知服務](service-tutorial-use-cognitive-services.md)
 

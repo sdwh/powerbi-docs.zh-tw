@@ -1,6 +1,6 @@
 ---
-title: 教學課程：在 Power BI 中叫用 Machine Learning Studio 模型 (預覽)
-description: 在此教學課程中，您要在 Power BI 中叫用 Machine Learning Studio 模型。
+title: 教學課程：在 Power BI 中叫用 Machine Learning Studio (傳統) 模型 (預覽)
+description: 在本教學課程中，您要在 Power BI 中叫用 Machine Learning Studio (傳統) 模型。
 author: davidiseminger
 ms.reviewer: SarinaJoan
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3a7d4fa73caa718cec905d8f511ae94b077f7e2b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876977"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224236"
 ---
-# <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>教學課程：在 Power BI 中叫用 Machine Learning Studio 模型 (預覽)
+# <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>教學課程：在 Power BI 中叫用 Machine Learning Studio (傳統) 模型 (預覽)
 
-在此教學課程中，我們會逐步解說將 **Azure Machine Learning Studio** 的見解併入 Power BI 模型的經驗。 此教學課程包含將 Power BI 使用者存取權授與 Azure ML 模型、建立資料流程，以及將見解從 Azure ML 模型套用至資料流程的指導方針。 如果您還沒有模型，它也會參考建立 Azure ML 模型的快速入門指南。
+在本教學課程中，我們會逐步解說將 **Azure Machine Learning Studio (傳統)** 模型的見解併入 Power BI 的經驗。 此教學課程包含將 Power BI 使用者存取權授與 Azure ML 模型、建立資料流程，以及將見解從 Azure ML 模型套用至資料流程的指導方針。 如果您還沒有模型，它也會參考建立 Azure ML 模型的快速入門指南。
 
 此教學課程將會指導您逐步執行下列步驟：
 
@@ -31,15 +31,15 @@ ms.locfileid: "73876977"
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>建立及發佈 Azure ML 模型
 
-請依照[逐步解說步驟 1：建立 Machine Learning Studio 工作區](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)的指示，建立 **Machine Learning** 工作區。
+請依照[逐步解說步驟 1：建立 Machine Learning Studio (傳統) 工作區](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)以建立 **Machine Learning** 工作區。
 
-您可以使用下列步驟搭配您已經具備的任何 Azure ML 模型或資料集。 如果您沒有已發佈的模型，可以參考[在 Azure Machine Learning Studio 中建立您的第一個資料科學實驗](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment)，在數分鐘內建立模型，這會為設定 Azure ML 模型汽車價格預測。
+您可以使用下列步驟搭配您已經具備的任何 Azure ML 模型或資料集。 如未發佈模型，您可以參考[快速入門：在 Azure Machine Learning Studio (傳統) 中建立第一個資料科學實驗](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment)，在數分鐘內建立模型，這會設定汽車價格預測的 Azure ML 模型。
 
-請依照[部署 Azure Machine Learning Studio Web 服務](https://docs.microsoft.com/azure/machine-learning/studio/publish-a-machine-learning-web-service)，將 Azure ML 模型發佈為 Web 服務。
+請遵循[教學課程 3：部署信用風險模型 - Azure Machine Learning Studio (傳統)](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy)，將 Azure ML 模型發佈為 Web 服務。
 
 ## <a name="grant-a-power-bi-user-access"></a>授與 Power BI 使用者存取權
 
-若要從 Power BI 存取 Azure ML 模型，您必須對 Azure 訂用帳戶和資源群組擁有**讀取**存取權，並對適用於 Machine LearningStudio 模型的 Azure Machine Learning Studio Web 服務擁有**讀取**存取權。  若是 Azure Machine Learning 服務模型，您需要對 Machine Learning 服務工作區擁有**讀取**存取權。
+若要從 Power BI 存取 Azure ML 模型，您必須有 Azure 訂閱和資源群組的**讀取**存取權，以及 Machine LearningStudio (傳統) 模型的 Azure Machine Learning Studio (傳統) Web 服務的**讀取**存取權。  若是 Azure Machine Learning 模型，您需要有 Machine Learning 工作區的**讀取**存取權。
 
 下列步驟假設您是發佈模型的 Azure 訂用帳戶和資源群組的共同系統管理員。
 
@@ -59,9 +59,9 @@ ms.locfileid: "73876977"
 
 使用您在上一個步驟中對 Azure ML 模型授與存取權的使用者認證，登入 Power BI 服務。
 
-此步驟假設您具有您想要使用 CSV 格式的 Azure ML 模型評分的資料。  如果您使用**汽車定價實驗**在 Machine Learning Studio 中建立模型，下列連結中將共用其資料集：
+此步驟假設您具有您想要使用 CSV 格式的 Azure ML 模型評分的資料。  如果使用**汽車定價實驗**在 Machine Learning Studio (傳統) 中建立模型，即共用下列連結中的資料集：
 
-* [Azure Learning Studio 範例模型](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
+* [Azure Learning Studio (傳統) 範例模型](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
 
 ### <a name="create-a-dataflow"></a>建立資料流程
 
@@ -173,7 +173,7 @@ Power Query 編輯器會從 CSV 檔案中顯示資料的預覽。 從命令功�
 
 ## <a name="next-steps"></a>後續步驟
 
-在此教學課程中，您使用 Azure Machine Learning Studio，利用簡單的資料集，透過下列步驟建立了簡單的實驗：
+在本教學課程中，您使用利用簡單資料集的 Azure Machine Learning Studio (傳統)，透過下列步驟建立了簡單的實驗：
 
 - 建立及發佈 Azure Machine Learning 模型
 - 將存取權授與 Power BI 使用者以使用模型

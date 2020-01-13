@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882888"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224179"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -168,9 +168,9 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 組織中的使用者可以從 Power BI 說明功能表，前往內部說明與支援資源。 具體來說，這些參數會變更 [學習]、[社群] 和 [取得說明] 功能表項目的行為。
 
-    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+此外，藉由指定授權要求的 URL，您可以自訂 [升級帳戶]  按鈕的目標 URL。 沒有 Power BI Pro 授權的使用者會在 [Update to Power BI Pro] \(更新至 Power BI Pro\)  對話方塊以及 [管理個人儲存體]  頁面中看到此按鈕。 而且，Power BI 不再於此對話方塊或儲存體頁面中提供 [免費試用專業版]  按鈕。 這可確保 Power BI 透過您的授權管理解決方案，透過組織中定義的程序準確地引導您的使用者。
 
-透過指定授權要求的 URL，您可自訂 [升級帳戶]  按鈕的目標 URL，讓沒有 Power BI Pro 授權的使用者可以在 [更新為 Power BI Pro]  對話方塊及 [管理個人儲存體]  頁面中找到該 URL。 此外，Power BI 不再於此對話方塊或 [儲存體] 頁面中提供 [免費試用專業版]  按鈕，以確保 Power BI 會透過授權管理解決方案，在組織定義的流程中穩定可靠地引導使用者。
+![啟用例外設定](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>接收服務中斷或事件的電子郵件通知
 

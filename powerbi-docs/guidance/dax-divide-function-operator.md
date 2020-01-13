@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: c20a366ef657e851ef77a9649dbcc8b66b67dac0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 7eea15d4389afaac2ac69e2f26eaa38fe84e337b
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74695189"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304179"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX：DIVIDE 函式與除法運算子 (/) 的比較
 
@@ -58,7 +58,7 @@ DIVIDE([Profit], [Sales])
 
 在分母為常數值的情況下，建議您使用除法運算子。 在此情況下，除法保證會成功，且您的運算式執行效果更佳，因為它會避免不必要的測試。
 
-請仔細考慮 DIVIDE 函式是否應該傳回替代值。 對於量值來說，在無法評估有意義的結果時傳回 BLANK 通常是較好的設計。 如需詳細資訊，請參閱[避免將 BLANK 轉換成值](dax-avoid-converting-blank.md)。
+請仔細考慮 DIVIDE 函式是否應該傳回替代值。 針對量值，傳回空白通常是較佳的設計。 傳回空白的較佳原因是因為當摘要為空白時，報表視覺效果預設會排除群組。 視覺效果可以專注於存有資料的群組。 如有必要，您可以藉由啟用 [[顯示沒有資料的項目]](../desktop-show-items-no-data.md) 選項，將視覺效果設定為顯示篩選內容中的所有群組 (傳回值或空白)。
 
 ## <a name="next-steps"></a>後續步驟
 

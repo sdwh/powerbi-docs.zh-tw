@@ -10,10 +10,10 @@ ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 32d731c354d848809d336392ef51f667b14427d8
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74565691"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>使用 Power BI 連線到 Project Web App
@@ -40,11 +40,11 @@ Microsoft Project Web App 是針對專案組合管理 (PPM) 與日常工作的�
    ![Microsoft Project Web App](media/service-connect-to-project-online/getstarted.png)
 6. 在 [開始使用您的新應用程式]  中，選取 [連線資料]  。
    
-   ![連接到資料](media/service-connect-to-project-online/mproject.png)
+   ![連線至資料](media/service-connect-to-project-online/mproject.png)
 7. 在 [Project Web App URL]  文字方塊中，輸入要連線之 Project Web App (PWA) 的 URL。  請注意，自訂網域可能和範例不一樣。 在 [PWA Site Language] \(PWA 網站語言\)  文字方塊中，鍵入對應至 PWA 網站語言的數字。 鍵入單一數字 '1' 表示英文、'2' 表示法文、'3' 表示德文、'4' 表示葡萄牙文 (巴西)、'5' 表示葡萄牙文 (葡萄牙) 和 '6' 表示西班牙文。 
    
    ![連線至 Microsoft Project Online](media/service-connect-to-project-online/params.png)
-8. 針對 [驗證方法] 選取 [oAuth2]  \> [登入]  。 出現提示時，輸入 Project Web App 認證，並遵循驗證程序。
+8. 針對 [驗證方法]，選取 [oAuth2]  \> [登入]  。 出現提示時，輸入 Project Web App 認證，並遵循驗證程序。
 
     > [!NOTE]
     > 您必須擁有公事包檢視者、公事包管理員或系統管理員權限，以供您要連線的 Project Web App 使用。
