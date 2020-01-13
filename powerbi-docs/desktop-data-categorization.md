@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8667823567270680415c2fb0ba2db7846dd968ac
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef3191d77e2aeb89ff97468bd4bfdc07b0d7afb8
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878322"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761333"
 ---
-# <a name="data-categorization-in-power-bi-desktop"></a>Power BI Desktop 中的資料分類
+# <a name="specify-data-categories-in-power-bi-desktop"></a>在 Power BI Desktop 中指定資料類別
 在 **Power BI Desktop** 中，您可以指定資料行的資料類別，讓 Power BI Desktop 知道如何在視覺效果中處理其值。
 
 當 Power BI Desktop 匯入資料時，不只會取得資料本身，也會取得資料表和資料行名稱等資訊，像是主索引鍵等。有了該資訊之後，Power BI Desktop 便可做出某種程度的假設，讓您在建立視覺效果時可以有最佳的預設體驗。 

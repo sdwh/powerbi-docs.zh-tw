@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6bf933203f8dc76d4ede2d25683981cbdf6755f5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 131101d6e7a23b7c6d8571c89097036f1149a2f3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73869040"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761534"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example"></a>藉由提供範例來從網頁取得資料
+# <a name="get-webpage-data-by-providing-examples"></a>提供範例以取得網頁資料
 
 從網頁取得資料讓使用者輕鬆就能從網頁擷取資料，並將該資料匯入 **Power BI Desktop**。 不過，網頁上的資料通常不容易擷取，因為它們不是在整齊的資料表中，所以從這樣的頁面中取得資料會是一項挑戰，即使該頁面是結構化且一致的。 
 

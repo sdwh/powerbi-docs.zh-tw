@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 06/06/2019
+ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: f3170fb30011e50ba97f936d879a7f19cc795521
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: d4d6ed36ea849e2bc9ba3d5212c5d5973ea9c953
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128403"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691331"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>直接在報表產生器的編頁報表中輸入資料 - Power BI
 
 在本文中，您將了解新版 SQL Server 2016 報表產生器中的一項功能，此功能可讓您在 RDL 報表中直接輸入資料作為內嵌資料集。  此功能類似於 Power BI Desktop。 您可以在報表的資料集中直接鍵入資料，或從另一個應用程式 (例如 Microsoft Excel) 貼上資料。 藉由輸入資料來建立資料集之後，您可以如同已建立的任何其他內嵌資料集一樣加以使用。 此外，您可以新增多個資料表，並使用某個資料表作為其他資料表的篩選條件。 對於您可能需要在報表中使用的小型靜態資料集 (例如報表參數)，這項功能特別有用。
  
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 - 若要在編頁報表中直接輸入資料，請[從 Microsoft 下載中心](https://www.microsoft.com/download/details.aspx?id=53613)安裝新版的報表產生器。 
 - 若要將編頁報表儲存至 Power BI 服務，您需要 [Power BI Pro 帳戶](service-self-service-signup-for-power-bi.md)以及 [Power BI Premium 容量](service-premium-what-is.md)中工作區的寫入權限。
@@ -75,7 +75,7 @@ ms.locfileid: "74128403"
 
 ## <a name="upload-the-paginated-report-to-the-power-bi-service"></a>將編頁報表上傳到 Power BI 服務
 
-現在，Power BI 服務已支援分頁報表，您可以將分頁報表上傳到 Premium 容量。 如需詳細資訊，請參閱[上傳編頁報表](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report)。
+現在，Power BI 服務已支援分頁報表，您可以將分頁報表上傳到 Premium 容量。 如需詳細資訊，請參閱[上傳編頁報表](paginated-reports-save-to-power-bi-service.md)。
 
 ## <a name="upload-the-paginated-report-to-a-report-server"></a>將編頁報表上傳到報表伺服器
 

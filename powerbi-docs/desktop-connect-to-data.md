@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 61af482ca5a035325a6c3f6c5a661aa8c3fc0985
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878495"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761580"
 ---
-# <a name="connect-to-data-in-power-bi-desktop"></a>連接至 Power BI Desktop 中的資料
+# <a name="connect-to-data-sources-in-power-bi-desktop"></a>連接至 Power BI Desktop 的資料來源
 透過 Power BI Desktop，您可以輕鬆地連接到持續擴展的資料世界。 如果您沒有 Power BI Desktop，您可以[下載](https://go.microsoft.com/fwlink/?LinkID=521662)並加以安裝。
 
 Power BI Desktop 中有「各式各樣」  的可用資料來源。 下圖顯示如何藉由依序選取 **檔案** 功能區 > [取得資料] > **其他\> 來連接到資料**.

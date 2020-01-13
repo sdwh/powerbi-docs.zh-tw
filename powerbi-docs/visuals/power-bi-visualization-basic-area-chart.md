@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ccba97d7fc4df050b9685dd9c2a69af36f62a485
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5fda121af151e787c444b928c320b7f33fe1405c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880960"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757868"
 ---
-# <a name="basic-area-chart"></a>基本的區域圖
+# <a name="create-and-use-basic-area-charts"></a>建立和使用基本區域圖
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -32,7 +32,7 @@ ms.locfileid: "73880960"
 * 如果您要查看和比較時間序列中的數量趨勢 
 * 如果個別數列代表實質上可數的集合
 
-### <a name="prerequisites"></a>先決條件
+### <a name="prerequisites"></a>必要條件
 本教學課程使用[零售分析範例 PBIX 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
 1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
@@ -80,6 +80,6 @@ ms.locfileid: "73880960"
 * [使報表讓行動不便人士易於存取](../desktop-accessibility.md)
 * 基本區域圖不適用於比較值，原因是多層次區域會受阻擋。 Power BI 使用透明效果來表示重疊的區域。 不過，它只適用於兩個或三個不同的區域。 當您需要比較三個以上量值的趨勢時，請試著使用折線圖。 當您需要比較三個以上量值的數量時，請試著使用樹狀圖。
 
-## <a name="next-step"></a>下一個步驟
+## <a name="next-step"></a>下一步
 [Power BI 中的報表](power-bi-visualization-card.md)  
 

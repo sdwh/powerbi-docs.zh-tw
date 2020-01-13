@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 10c6f9f512c1b8c837842247d9dc928e8e065451
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4178dd37acf12efbe8dd00baed4f6b72ab549841
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876622"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762040"
 ---
-# <a name="using-calculated-columns-in-power-bi-desktop"></a>使用 Power BI Desktop 中的導出資料行
+# <a name="create-calculated-columns-in-power-bi-desktop"></a>在 Power BI Desktop 中建立計算結果欄
 透過導出資料行，您可以將新資料加入模型中已有的資料表。 您會建立定義資料行值的資料分析運算式 (DAX) 公式，而不是從資料來源查詢值並將其載入新的資料行。 在 Power BI Desktop 中，導出資料行是透過 [報表檢視] 中的 [新增資料行] 功能來建立。
 
 與在 [查詢編輯器] 中使用 [新增自訂資料行] 建立做為查詢一部分的自訂資料行不同，在 [報表檢視] 或 [資料檢視] 中建立的導出資料行會依據您已經載入模型的資料。 例如，您可能會選擇串連不同但相關的兩個資料表之兩個不同資料行中的值、執行加法，或擷取子字串。

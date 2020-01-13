@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: e3154e5a143de63300e7f5dc87cec518188a3442
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548570"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837598"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -21,9 +21,7 @@ ms.locfileid: "75548570"
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
-**三種 AI 正在改變 BI 的方式**
-<br>由 Justyna Lucznik 主持
-<br>[報名以在 1 月 8 日觀看](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
+沒有已排定的網路研討會。 請稍後再回來查看近期的活動。
 
 >[來自 Power BI 社群，即將舉行的網路研討會](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -38,6 +36,10 @@ ms.locfileid: "75548570"
 **Microsoft 正在如何改變 BI 資料保護**
 <br>由 Anton Fritz 和 Adi Regev 主持
 <br>[報名並立即觀看](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**三種 AI 正在改變 BI 的方式**
+<br>由 Justyna Lucznik 主持
+<br>[報名並立即觀看](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
 
 **Power BI 以及現代化和企業 BI 的未來**
 <br>由 Arun Ulag 和 Amir Netz 主持

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 371779df3aaf7cf08d96f61f49039a6383eeda9c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 82a03731ffea49f7e41fc8582155fe09734d475b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878029"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760834"
 ---
-# <a name="using-python-in-query-editor"></a>在查詢編輯器中使用 Python
+# <a name="use-python-in-query-editor"></a>在查詢編輯器中使用 Python
 您可以在 Power BI Desktop **查詢編輯器**中使用 **Python**，這是統計學家、資料科學家和資料分析師廣泛使用的程式設計語言。 將 Python 整合到**資料編輯器**中，可讓您使用 Python 執行資料清理，以及在資料集執行進階資料成形與分析，包括補足遺漏的資料、預測及叢集等。 **Python** 是功能強大的語言，可用於**查詢編輯器**以準備您的資料模型及建立報表。
 
 ## <a name="installing-python"></a>安裝 Python

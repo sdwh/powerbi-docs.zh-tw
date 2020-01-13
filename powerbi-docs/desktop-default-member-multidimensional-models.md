@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: afd85404dd926cab396222d3ba9b4bf62e689054
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ea60400a4522dd496e19d508f13760581c0b2620
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876353"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761241"
 ---
-# <a name="default-member-in-multidimensional-models-in-power-bi"></a>Power BI 中多維度模型的預設成員
+# <a name="work-with-multidimensional-models-in-power-bi"></a>使用 Power BI 中的多維度模型
 
 您可以在 Power BI 中連線到多維度模型，然後建立能將模型內的各種資料視覺化的報表。 搭配多維度模型運作時，Power BI 會根據定義為「預設成員」  的資料行，套用規則以決定其處理資料的方式。 
 

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a01598bda6520bbf0bf82175ab4256cf7d529e84
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880689"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762247"
 ---
-# <a name="getting-started-with-color-formatting-and-axis-properties"></a>開始使用色彩格式和軸屬性
+# <a name="get-started-with-color-formatting-and-axis-properties"></a>開始使用色彩格式和軸屬性
 在 **Power BI** 中，您可以變更資料數列、資料點、甚至視覺效果背景的色彩。 您也可以變更 x 軸和 y 軸的顯示方式，讓您完全掌控儀表板和報表的顯示方式。
 
 若要開始，請從 [我的工作區]  窗格選取 [報表]  。 然後從上方的功能表區域選取 [編輯報表]  。  
@@ -42,7 +42,7 @@ ms.locfileid: "73880689"
 * 繪圖區
 * 標題
 * 背景
-* 鎖定長寬
+* 鎖定外觀比例
 * 框線
 
 > [!NOTE]

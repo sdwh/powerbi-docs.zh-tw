@@ -10,15 +10,13 @@ ms.topic: conceptual
 ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791783"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758098"
 ---
-- 哪裡可以找到年度毛利率百分比折線圖？ 我可以有多個橫條圖，但只能有一個折線圖。
-
 # <a name="customize-x-axis-and-y-axis-properties"></a>自訂 X 軸和 Y 軸屬性
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
@@ -32,7 +30,7 @@ ms.locfileid: "74791783"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9DeAKM4SNJM" frameborder="0" allowfullscreen></iframe>
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 - Power BI Desktop
 

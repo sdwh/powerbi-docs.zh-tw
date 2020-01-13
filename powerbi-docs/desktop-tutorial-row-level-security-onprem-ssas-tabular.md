@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 64a7cc62f319162b653742be776a9aa9549f8659
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 09e4a9cc3e6a5c16f23532f0a4589fdcb1906549
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311463"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759512"
 ---
-# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>動態資料列層級安全性與 Analysis Services 表格式模型
+# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>在 Analysis Services 表格式模型中實作資料列層級安全性
 
 本教學課程使用範例資料集進行下列步驟，為您示範如何在 **Analysis Services 表格式模型**中
 實作[**資料列層級安全性**](service-admin-rls.md)，並將其用於 Power BI 報表。 
@@ -158,7 +158,7 @@ ms.locfileid: "74311463"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 
-    恭喜您！ **Power BI 服務**會顯示內部部署 **Analysis Services** 表格式模型中定義的資料列層級安全性。 Power BI 使用 **EffectiveUserName** 屬性，將目前的 Power BI 使用者認證傳送到內部部署資料來源以執行查詢。
+    恭喜！ **Power BI 服務**會顯示內部部署 **Analysis Services** 表格式模型中定義的資料列層級安全性。 Power BI 使用 **EffectiveUserName** 屬性，將目前的 Power BI 使用者認證傳送到內部部署資料來源以執行查詢。
 
 ## <a name="task-6-understand-what-happens-behind-the-scenes"></a>工作 6︰了解幕後發生的情況
 

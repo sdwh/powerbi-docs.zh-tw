@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3f71bf3b7b457370fccb8b5fbae4bd7bae3b227d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 3928b90d3aba8084cb5f1bf3677adb31afb01722
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75223479"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729665"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -1016,7 +1016,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="analytics"></a>分析
 
-* 依據值的條件式格式設定  [[影片]](https://youtu.be/dgv5HhHxxe8?t=7m54s)  [[文章]](desktop-conditional-table-formatting.md#color-formatting-by-field-value)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
+* 依據值的條件式格式設定  [[影片]](https://youtu.be/dgv5HhHxxe8?t=7m54s)  [[文章]](desktop-conditional-table-formatting.md#color-by-color-values)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
 * Python 整合  [[影片]](https://youtu.be/dgv5HhHxxe8?t=11m14s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
 * 問與答改善  [[影片]](https://youtu.be/dgv5HhHxxe8?t=13m1s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
 

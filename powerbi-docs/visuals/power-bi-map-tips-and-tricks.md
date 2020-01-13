@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dd35f06a685d1fd4620ef6a2ee3dc7f90e702a6a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c876a1f87afcb5bbaa3e27bdcb88bda2a04496e5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73881028"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758500"
 ---
-# <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 視覺效果的秘訣和訣竅
+# <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI 地圖視覺效果的秘訣和訣竅
 Power BI 與 Bing 地圖服務整合以提供預設地圖座標 (這個程序稱為地理編碼)，以便您建立地圖。 這兩者使用演算法來識別正確位置，但有時會猜測最接近的位置。 如果 Power BI 嘗試但無法自行建立地圖視覺效果，則會請求 Bing 地圖服務的協助。 
 
 您或您的系統管理員可能需要更新防火牆，以允許存取 Bing 用以進行地理編碼的 URL。  這些 URL 是：
