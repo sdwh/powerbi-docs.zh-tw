@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/03/2019
-ms.openlocfilehash: 12ecde787bb268190f9b94a2db5992d5840080ac
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 73a6a3d16ae2515af41a3232a37579e18876f38b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75002527"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223676"
 ---
 # <a name="submit-a-power-bi-visual-to-appsource-using-seller-dashboard"></a>使用賣方儀表板將 Power BI 視覺效果提交至 AppSource
 
@@ -103,7 +103,7 @@ ms.locfileid: "75002527"
     * [遵守需求](power-bi-custom-visuals-certified.md#certification-requirements)
     * 通過程式碼檢閱
 
-2. Microsoft 的 Power BI 視覺效果小組會在下列時機通知您：Power BI 視覺效果已通過認證並新增至[認證清單](power-bi-custom-visuals-certified.md#list-of-power-bi-visuals-that-have-been-certified)，或是被拒絕 (並檢附須修正問題的報表)。 開發人員必須負責維護與 Microsoft 之間暢通的通訊，並在必要時更新其經認證的視覺效果。
+2. Microsoft 的 Power BI 視覺效果小組會在下列時機通知您：Power BI 視覺效果已通過認證並新增至[經認證的 Power BI 視覺效果](power-bi-custom-visuals-certified.md#certified-power-bi-visuals)清單，或是被拒絕 (並檢附須修正問題的報表)。 開發人員必須負責維護與 Microsoft 之間暢通的通訊，並在必要時更新其經認證的視覺效果。
 
 ## <a name="tracking-submission-status-and-usage"></a>追蹤提交狀態和使用方式
 

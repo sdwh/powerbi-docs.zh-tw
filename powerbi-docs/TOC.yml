@@ -13,7 +13,7 @@
       items:
         - name: 塑造及合併多個資料來源
           href: desktop-shape-and-combine-data.md
-        - name: 從網頁匯入並分析資料
+        - name: 匯入並分析網頁資料
           href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
         - name: 分析來自 Excel 和 OData 摘要的銷售資料
           href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
@@ -31,21 +31,21 @@
           href: sample-datasets.md
         - name: 匯入和開啟範例套件
           href: sample-tutorial-connect-to-the-samples.md
-        - name: 觀看導覽：客戶獲利率範例
+        - name: 客戶獲利率範例
           href: sample-customer-profitability.md
-        - name: 觀看導覽：IT 費用分析範例
+        - name: IT 費用分析範例
           href: sample-it-spend.md
-        - name: 觀看導覽：人力資源範例
+        - name: 人力資源範例
           href: sample-human-resources.md
-        - name: 觀看導覽：商機分析範例
+        - name: 商機分析範例
           href: sample-opportunity-analysis.md
-        - name: 觀看導覽：採購分析範例
+        - name: 採購分析範例
           href: sample-procurement.md
-        - name: 觀看導覽：零售分析範例
+        - name: 零售分析範例
           href: sample-retail-analysis.md
-        - name: 觀看導覽：銷售與行銷範例
+        - name: 銷售與行銷範例
           href: sample-sales-and-marketing.md
-        - name: 觀看導覽：供應商品質分析範例
+        - name: 供應商品質分析範例
           href: sample-supplier-quality.md
         - name: 下載財務範例活頁簿
           href: sample-financial-download.md
@@ -57,7 +57,7 @@
           href: desktop-relationships-understand.md
         - name: 為報表中的視覺效果分組
           href: desktop-grouping-visuals.md
-        - name: 使用範本
+        - name: 建立報表範本
           href: desktop-templates.md
         - name: 使用模型檢視
           href: desktop-modeling-view.md
@@ -65,15 +65,15 @@
           href: desktop-aggregations.md
         - name: 使用複合模型
           href: desktop-composite-models.md
-        - name: 使用多對多關聯性
+        - name: 套用多對多關聯性
           href: desktop-many-to-many-relationships.md
         - name: 管理儲存模式
           href: desktop-storage-mode.md
-        - name: 使用雙向交叉篩選
+        - name: 啟用雙向交叉篩選
           href: desktop-bidirectional-filtering.md
         - name: 如何在 Power BI 中使用 DirectQuery
           href: desktop-directquery-about.md
-        - name: DirectQuery 支援的 Power BI 資料來源
+        - name: Power BI 資料來源
           href: power-bi-data-sources.md
         - name: Power BI 資料來源必要條件
           href: desktop-data-source-prerequisites.md
@@ -93,7 +93,7 @@
           href: desktop-create-and-manage-relationships.md
         - name: 使用資料檢視
           href: desktop-data-view.md
-        - name: 使用查詢
+        - name: 關於查詢編輯器
           href: desktop-query-overview.md
         - name: 套用 DAX 基本概念
           href: desktop-quickstart-learn-dax-basics.md
@@ -101,9 +101,9 @@
           href: desktop-relationship-view.md
         - name: 使用報表檢視
           href: desktop-report-view.md
-        - name: 連線到多個資料來源
+        - name: 連接至資料來源
           href: desktop-connect-to-data.md
-        - name: 發佈資料集
+        - name: 發佈資料集與報表
           href: desktop-upload-desktop-files.md
         - name: 將視覺效果新增至 Power BI 報表 (第 1 部分)
           href: visuals/power-bi-report-add-visualizations-i.md
@@ -113,15 +113,17 @@
           href: visuals/power-bi-visualization-customize-title-background-and-legend.md
         - name: 在 Power BI 中顯示沒有資料的項目
           href: desktop-show-items-no-data.md
-        - name: 使用自動日期/時間
+        - name: 套用自動日期/時間
           href: desktop-auto-date-time.md
         - name: 連線至資料
           items:
             - name: 連接至資料來源
               href: desktop-data-sources.md
+            - name: 在 SharePoint 清單上建立報表
+              href: desktop-sharepoint-online-list.md
             - name: 連線至 LinkedIn Sales Navigator
               href: desktop-connect-linkedin-sales-navigator.md
-            - name: 提供範例以從網頁取得資料
+            - name: 提供範例以取得網頁資料
               href: desktop-connect-to-web-by-example.md
             - name: 連線至 Power BI 服務中的資料集
               href: desktop-report-lifecycle-datasets.md
@@ -153,9 +155,9 @@
               href: service-r-packages-support.md
             - name: 直接將資料輸入 Power BI Desktop
               href: desktop-enter-data-directly-into-desktop.md
-            - name: 連接到 Excel 活頁簿
+            - name: 連線到 Excel 活頁簿
               href: desktop-connect-excel.md
-            - name: 連線到多維度模型
+            - name: 連線到 SSAS 多維度模型
               href: desktop-ssas-multidimensional.md
             - name: 連線到 CSV 檔案
               href: desktop-connect-csv.md
@@ -171,25 +173,25 @@
               href: desktop-connect-to-web.md
             - name: 連接至 Snowflake 運算倉儲
               href: desktop-connect-snowflake.md
-            - name: 連線到 Azure 成本管理資料
+            - name: 使用 Azure 成本管理連接器建立視覺效果
               href: desktop-connect-azure-cost-management.md
             - name: 連線到 Azure Consumption Insights 資料
               href: desktop-connect-azure-consumption-insights.md
-            - name: 使用 SAP HANA
+            - name: 連線到 SAP HANA 資料庫
               href: desktop-sap-hana.md
             - name: 啟用 SAP HANA 的加密
               href: desktop-sap-hana-encryption.md
-            - name: 使用 Analysis Services 表格式資料
+            - name: 連線到 Analysis Services 表格式資料
               href: desktop-analysis-services-tabular-data.md
-            - name: 使用 DirectQuery
+            - name: 使用 DirectQuery 連線到資料來源
               href: desktop-use-directquery.md
-            - name: 連線到 DirectQuery 和 SAP Business Warehouse
+            - name: 使用 DirectQuery 連線到 SAP Business Warehouse
               href: desktop-directquery-sap-bw.md
-            - name: 連線到 DirectQuery 和 SAP HANA
+            - name: 使用 DirectQuery 連線到 SAP HANA 資料來源
               href: desktop-directquery-sap-hana.md
             - name: '套用 [採用參考完整性] 設定'
               href: desktop-assume-referential-integrity.md
-            - name: 使用 SAP Business Warehouse 連接器
+            - name: 使用 SAP BW 連接器存取 SAP BW 資料
               href: desktop-sap-bw-connector.md
             - name: 使用商務用 OneDrive 連結
               href: desktop-use-onedrive-business-links.md
@@ -197,7 +199,7 @@
               href: service-facebook-connector.md
             - name: 第三方服務：使用 Google Analytics 連接器
               href: service-google-analytics-connector.md
-            - name: Project Online：透過 Power BI Desktop 連線到資料
+            - name: 透過 Power BI Desktop 連線到 Project Online 資料
               href: desktop-project-online-connect-to-data.md
         - name: 轉換與塑造資料
           items:
@@ -209,37 +211,37 @@
           items:
             - name: 在 Power BI Desktop 中指定資料類別
               href: desktop-data-categorization.md
-            - name: 標記 Power BI 行動應用程式的條碼欄位
+            - name: 在 Power BI 中為行動裝置應用程式標記條碼欄位
               href: desktop-mobile-barcodes.md
-            - name: 為 Power BI 行動應用程式設定地理篩選
+            - name: 在 Power BI 中為行動裝置應用程式設定地理篩選
               href: desktop-mobile-geofiltering.md
-            - name: 使用計算結果欄
+            - name: 建立計算結果欄
               href: desktop-calculated-columns.md
-            - name: 使用計算資料表
+            - name: 建立導出的資料表
               href: desktop-calculated-tables.md
-            - name: 使用量值
+            - name: 建立資料分析的量值
               href: desktop-measures.md
             - name: 匯入和顯示 KPI
               href: desktop-import-and-display-kpis.md
         - name: 建立報表
           items:
-            - name: 使用自動頁面重新整理 (預覽)
+            - name: 啟用自動頁面重新整理 (預覽)
               href: desktop-automatic-page-refresh.md
-            - name: 使用效能分析器
+            - name: 使用效能分析器檢查報表項目
               href: desktop-performance-analyzer.md
             - name: 將視覺元素新增至報表
               href: desktop-visual-elements-for-reports.md
-            - name: 建立報表頁面的工具提示
+            - name: 新增報表工具提示以增強視覺效果
               href: desktop-tooltips.md
             - name: 將報表匯出至 PDF 檔案
               href: desktop-export-to-pdf.md
-            - name: '使用 [分析] 窗格'
+            - name: '關於使用 [分析] 窗格'
               href: desktop-analytics-pane.md
-            - name: 使用見解來說明視覺效果中的波動 (預覽)
+            - name: 套用見解以說明視覺效果中的波動 (預覽)
               href: desktop-insights.md
-            - name: 使用見解來找出圖表中分佈的不同之處 (預覽)
+            - name: 使用見解來探索散發的差異 (預覽)
               href: desktop-insights-find-where-different.md
-            - name: 使用書籤來共用見解
+            - name: 建立書籤以儲存並共用見解
               href: desktop-bookmarks.md
             - name: 使用報表主題
               href: desktop-report-themes.md
@@ -247,21 +249,21 @@
               href: power-bi-report-filter-types.md
             - name: 使用 Power BI 報表中的篩選
               href: power-bi-report-filter.md
-            - name: 使用快速量值以執行常用的計算
+            - name: 建立快速量值以執行常用的計算
               href: desktop-quick-measures.md
-            - name: 使用模擬參數來視覺化變數
+            - name: 建立並使用假設參數來視覺化變數
               href: desktop-what-if.md
             - name: 使用鑽研功能
               href: desktop-drillthrough.md
             - name: 使用跨報表鑽研功能
               href: desktop-cross-report-drill-through.md
-            - name: 使用分組與收納
+            - name: 套用分組與量化
               href: desktop-grouping-and-binning.md
             - name: 使用 R 建立 Power BI 視覺效果
               href: desktop-r-visuals.md
-            - name: 使用 R 提供技術的自訂視覺效果
+            - name: 下載並使用 R 支援的自訂視覺效果
               href: desktop-r-powered-custom-visuals.md
-            - name: 使用格線與貼齊隔線
+            - name: 套用格線與貼齊格線
               href: desktop-gridlines-snap-to-grid.md
             - name: 套用 Power BI 報表的頁面顯示設定
               href: power-bi-report-display-settings.md
@@ -277,7 +279,7 @@
               href: desktop-slicer-filter-date-range.md
             - name: 建立可以調整大小的交叉分析篩選器
               href: power-bi-slicer-filter-responsive.md
-            - name: 使用資料列層級安全性
+            - name: 使用資料列層級安全性來限制資料存取
               href: desktop-rls.md
             - name: 自訂工具提示
               href: desktop-custom-tooltips.md
@@ -287,9 +289,9 @@
               href: service-add-hyperlink-to-text-box.md
             - name: 將超連結新增至資料表
               href: power-bi-hyperlinks-in-tables.md
-            - name: 在資料表顯示影像
+            - name: 在資料表、矩陣或交叉分析篩選器中顯示映像
               href: power-bi-images-tables.md
-            - name: 使用自訂格式字串
+            - name: 顯示自訂格式字串
               href: desktop-custom-format-strings.md
             - name: 套用條件式表格格式設定
               href: desktop-conditional-table-formatting.md
@@ -297,11 +299,11 @@
               href: desktop-conditional-format-visual-titles.md
             - name: 依資料行排序
               href: desktop-sort-by-column.md
-            - name: 為 Power BI 行動裝置應用程式進行報表最佳化
+            - name: 為行動裝置應用程式最佳化報表
               href: desktop-create-phone-report.md
-            - name: '使用 [查看資料] 與 [查看記錄] 選項'
+            - name: '套用 [查看資料] 與 [查看記錄] 選項'
               href: desktop-see-data-see-records.md
-            - name: 建立報表的祕訣
+            - name: 建立報表的祕訣和訣竅
               href: desktop-tips-and-tricks-for-creating-reports.md
         - name: 視覺效果
           items:
@@ -309,9 +311,9 @@
               href: visuals/power-bi-report-visualizations.md
             - name: 變更 Power BI 報表中的視覺效果
               href: visuals/power-bi-report-change-visualization-type.md
-            - name: 關於資料點限制 (按視覺效果類型)
+            - name: 依視覺效果類型套用資料點限制與策略
               href: visuals/power-bi-data-points.md
-            - name: 顯示用來建立視覺效果的資料
+            - name: 顯示視覺效果的基礎資料
               href: visuals/service-reports-show-data.md
             - name: 開始使用色彩格式和軸屬性
               href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
@@ -319,7 +321,7 @@
               href: visuals/service-tips-and-tricks-for-color-formatting.md
             - name: 複製並貼上報表視覺效果
               href: visuals/power-bi-visualization-copy-paste.md
-            - name: 匯出用來建立視覺效果的資料
+            - name: 匯出用於建立視覺效果的資料
               href: visuals/power-bi-visualization-export-data.md
             - name: 在報表中移動視覺效果、調整視覺效果大小，以及彈出視覺效果
               href: visuals/power-bi-visualization-move-and-resize.md
@@ -329,9 +331,9 @@
               href: visuals/power-bi-map-tips-and-tricks.md
             - name: 自訂 X 軸和 Y 軸屬性
               href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: 在 Power BI 視覺效果中與 ArcGIS Maps 互動
+            - name: 在 Power BI 視覺效果中與 ArcGIS 地圖互動
               href: visuals/power-bi-visualizations-arcgis.md
-            - name: 建立 ArcGIS Maps for Power BI 視覺效果
+            - name: 建立 ArcGIS maps for Power BI 視覺效果
               href: visuals/power-bi-visualization-arcgis.md
             - name: 建立和使用基本區域圖
               href: visuals/power-bi-visualization-basic-area-chart.md
@@ -339,7 +341,7 @@
               href: visuals/power-bi-visualization-card.md
             - name: 建立和使用組合圖
               href: visuals/power-bi-visualization-combo-chart.md
-            - name: 使用分解樹狀結構視覺效果 (預覽)
+            - name: 建立並使用分解樹狀結構視覺效果 (預覽)
               href: visuals/power-bi-visualization-decomposition-tree.md
             - name: 建立和使用環圈圖
               href: visuals/power-bi-visualization-doughnut-charts.md
@@ -347,17 +349,17 @@
               href: visuals/power-bi-visualization-filled-maps-choropleths.md
             - name: 建立和使用漏斗圖
               href: visuals/power-bi-visualization-funnel-charts.md
-            - name: 使用關鍵影響因素視覺效果
+            - name: 建立並使用關鍵影響因素視覺效果
               href: visuals/power-bi-visualization-influencers.md
-            - name: 關於高密度折線圖的取樣
+            - name: 高密度折線圖取樣
               href: desktop-high-density-sampling.md
-            - name: 建立和使用 KPI 視覺效果
+            - name: 建立並使用 KPI 視覺效果
               href: visuals/power-bi-visualization-kpi.md
-            - name: 使用矩陣視覺效果
+            - name: 建立並使用矩陣視覺效果
               href: visuals/desktop-matrix-visual.md
             - name: 關於 Power BI 問與答視覺效果
               href: visuals/power-bi-visualization-q-and-a.md
-            - name: 使用 R 視覺效果
+            - name: 建立並使用 R 視覺效果
               href: visuals/service-r-visuals.md
             - name: 建立和使用星形量測計圖表
               href: visuals/power-bi-visualization-radial-gauge-charts.md
@@ -403,17 +405,17 @@
               href: desktop-directquery-troubleshoot.md
     - name: 參考
       items:
-        - name: 了解 Power BI Desktop 中的資料類型
+        - name: Power BI Desktop 中的資料類型
           href: desktop-data-types.md
-        - name: 使用已更新的功能區 (預覽)
+        - name: 已更新的功能區 (預覽)
           href: desktop-ribbon.md
-        - name: 使用公式編輯器的快速鍵
+        - name: 公式編輯器快速鍵
           href: desktop-formula-editor.md
-        - name: 設定隱私權等級
+        - name: 隱私權等級
           href: desktop-privacy-levels.md
-        - name: 關於連接器擴充性
+        - name: 連接器擴充性
           href: desktop-connector-extensibility.md
-        - name: 關於受信任的協力廠商連接器
+        - name: 受信任的第三方連接器
           href: desktop-trusted-third-party-connectors.md
     - name: 資源
       items:
@@ -421,21 +423,21 @@
           href: desktop-videos.md
         - name: Power BI Desktop 更新封存
           href: desktop-latest-update-archive.md
-        - name: Power BI Desktop 隱私權保護
+        - name: Power BI Desktop 傳送笑臉隱私權聲明
           href: desktop-send-smile-privacy-statement.md
-        - name: 管理 Power BI Desktop 登入表單
+        - name: 系統管理員：管理 Power BI Desktop 登入表單
           href: desktop-admin-sign-in-form.md
         - name: 協助工具
           items:
             - name: 關於 Power BI 協助工具
               href: desktop-accessibility-overview.md
-            - name: 關於 Power BI 報表中的可存取導覽
+            - name: 設計具協助功能的 Power BI 報表
               href: desktop-accessibility-creating-reports.md
-            - name: 了解 Power BI 報表的協助工具功能
-              href: desktop-accessibility-consuming-tools.md
-            - name: 使用協助工具建立 Power BI 報表
+            - name: 使用協助工具來建立 Power BI 報表
               href: desktop-accessibility-creating-tools.md
-            - name: 使用 Power BI Desktop 中的鍵盤快速鍵
+            - name: 使用協助工具功能以取用 Power BI 報表
+              href: desktop-accessibility-consuming-tools.md
+            - name: Power BI Desktop 中的鍵盤快速鍵
               href: desktop-accessibility-keyboard-shortcuts.md
 - name: Power BI 服務
   items:
@@ -627,7 +629,7 @@
               href: power-bi-report-add-filter.md
             - name: 儲存報表
               href: service-report-save.md
-            - name: 在編輯檢視中與報表互動
+            - name: 與編輯檢視的報表互動
               href: service-interact-with-a-report-in-editing-view.md
             - name: 在 Excel 中進行分析
               href: service-analyze-in-excel.md

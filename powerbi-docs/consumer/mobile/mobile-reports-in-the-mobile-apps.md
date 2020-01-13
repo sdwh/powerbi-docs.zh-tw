@@ -1,19 +1,19 @@
 ---
 title: 探索 Power BI 行動裝置應用程式中的報表
 description: 了解如何在手機或平板電腦上的 Power BI 行動裝置應用程式中檢視報表，並與其互動。 您可以使用 Power BI 服務或 Power BI Desktop 來建立報表，然後在行動裝置應用程式中與其互動。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/09/2019
-ms.author: mshenhav
-ms.openlocfilehash: d4b9a9aeda00dd7f16690d1e92336f5b63adf1da
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/16/2019
+ms.author: painbar
+ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869773"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220682"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -96,29 +96,43 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 ![報表頁尾](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
 您可以從頁尾執行這些動作：
-- 將報表篩選器與交叉醒目提示的選取範圍重設回其原始狀態。
-- 開啟交談窗格以檢視註解或將註解新增至報表。
-- 開啟篩選窗格以檢視或修改目前套用至報表的篩選。
-- 列出報表中的所有頁面。 點選頁面名稱將會載入並顯示該頁面。
+* 將報表篩選器與交叉醒目提示的選取範圍重設回其原始狀態。
+* 開啟交談窗格以檢視註解或將註解新增至報表。
+* 開啟篩選窗格以檢視或修改目前套用至報表的篩選。
+* 列出報表中的所有頁面。 點選頁面名稱將會載入並顯示該頁面。
 您可以從畫面邊緣往畫面中央撥動，以在報表頁面之間移動。
-- 檢視所有報表動作。
+* 檢視所有報表動作。
 
 #### <a name="all-report-actions"></a>所有報表動作
 當點選報表頁尾中的 [更多選項]  (...) 按鈕時，您會看到可在報表上執行的所有動作：
 
 
-![所有報表動作](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
+![所有報表動作](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
 
 某些動作可能會因相依於特定的報表功能而停用。
 例如：
+
+只有在報表中設定 [[書籤]](mobile-reports-in-the-mobile-apps.md#bookmarks)，才會出現 [書籤]  。 可在 Power BI 服務中定義的個人書籤以及報表建立者定義的書籤都會出現。 如果其中一種書籤已定義為預設書籤，報表就會在載入時開啟至該檢視。
+
+如果組織具有禁止從 Power BI 行動裝置應用程式共用的 [Intune 保護原則](https://docs.microsoft.com/intune/app-protection-policies)，則可能會關閉 [標註並共用]  。
+
+只有當您有權與他人共用報表時，才會啟用 [邀請]  。 只有當您是報表的擁有者，或擁有者已授與您再次共用權限時，您才會擁有權限。
 
 如果報表作者使用地理資料來分類報表，則會啟用 [依目前位置篩選]  。 如需詳細資訊，請參閱 [identifying geographical data in a report](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering) (識別報表中的地理資料)。
 
 只有當您報表中的資料集標記為**條碼**時，才會啟用 [依條碼掃描並篩選報表]  。 如需詳細資訊，請參閱 [tagging barcodes in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes) (在 Power BI Desktop 中標記條碼)。
 
-只有當您有權與他人共用報表時，才會啟用 [邀請]  。 只有當您是報表的擁有者，或擁有者已授與您再次共用權限時，您才會擁有權限。
+### <a name="bookmarks"></a>書籤
 
-如果組織具有禁止從 Power BI 行動裝置應用程式共用的 [Intune 保護原則](https://docs.microsoft.com/intune/app-protection-policies)，則可能會關閉 [標註並共用]  。
+Power BI 行動裝置應用程式支援報表建立者定義的報表書籤，也支援可在 Power BI 服務中定義的個人書籤。 [書籤] 功能表位在 [[報表動作] 工具列](mobile-reports-in-the-mobile-apps.md#all-report-actions)的 [更多選項]  (...) 下。
+
+![[書籤] 功能表](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
+
+當報表的書籤檢視開啟時，書籤的名稱就會出現在報表頂端。
+
+![書籤檢視](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
+
+[深入了解 Power BI 服務的書籤](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks)。
 
 ## <a name="next-steps"></a>後續步驟
 * [檢視為您的手機最佳化的 Power BI 報表，並與其互動](mobile-apps-view-phone-report.md)

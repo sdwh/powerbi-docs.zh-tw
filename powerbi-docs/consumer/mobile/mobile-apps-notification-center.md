@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 22988b08209865e9f1f2c583a30aa40e48c249bc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7b0a8b1f8b77ba1ee636bc92bb230b7c51e2935b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879248"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219326"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>取得 Power BI 行動裝置應用程式中的通知
 適用於︰
@@ -34,27 +34,23 @@ ms.locfileid: "73879248"
    
    ![通知橫幅](./media/mobile-apps-notification-center/power-bi-mobile-notification-banner.png)
    
-   或在 iPad 上：
-   
-   ![通知](./media/mobile-apps-notification-center/power-bi-ipad-notifications.png)
-   
+
    您可以[變更 Power BI 通知您的方式](mobile-apps-notification-center.md#change-or-turn-off-notifications-on-your-mobile-device)。
-2. 如果收到通知，當您使用行動裝置登入 Power BI 時，就會在全域導覽按鈕 ![通知點](./media/mobile-apps-notification-center/power-bi-android-menu-notifications-icon.png) (Android) 或**通知**圖示上看到黃點。 
-   
-   ![通知點](./media/mobile-apps-notification-center/power-bi-windows-10-notifications.png)
-3. 選取通知圖示 ![通知圖示](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10)。
+2. 如已收到通知，則當您從行動裝置登入 Power BI 時，就會在通知鈴鐺圖示上看到黃點 ![通知鈴鐺](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS 和 Android) 或在全域導覽按鈕上 ![通知點](./media/mobile-apps-notification-center/power-bi-iphone-alert-global-nav-button.png) (Windows 10 裝置)。 
+
+3. 若要在通知中心查看通知，請點選通知鈴鐺 ![通知鈴鐺](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS 和 Android) 或通知中心圖示 ![通知圖示](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10 裝置)。
    
     通知會將最新訊息列在頂端，並醒目提示未讀取的訊息。 通知會保留 90 天，除非您將其刪除，或是達到 100 則上限。
    
    ![iOS 通知清單](./media/mobile-apps-notification-center/power-bi-iphone-notifications-list.png)
-4. 若要關閉通知，請點選並按住，然後選取 [關閉]  。
+4. 若要關閉 iOS 和 Android 裝置上的通知，請點選、按住並撥動通知。 在 Windows 10 裝置上，按一下滑鼠右鍵，然後選擇 [關閉]  。
 
 ## <a name="change-or-turn-off-notifications-on-your-mobile-device"></a>變更或關閉行動裝置上的通知
 您可以變更 Power BI 通知您的方式。
 
 1. 在 iOS 裝置中，前往 [設定]   > [通知]  。 
    
-    在 Android 手機中，前往 [通知設定]  。
+    在 Android 手機中，前往 [設定]   > [通知設定]  。
    
     在 Windows 裝置的 [設定]  中，前往 [系統]   > [通知與控制項目]  。
 2. 在應用程式清單中，選取 [Power BI]  。 

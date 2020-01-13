@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b400f429ef1e65a40caea717ab18bc06300f9d76
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870047"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221139"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的磚
 適用於︰
@@ -41,10 +41,13 @@ ms.locfileid: "73870047"
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-pie.png)
 3. 在地圖中，點選**地圖置中**圖示 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png)，將地圖置中於您目前的所在位置。
-   
-     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
-4. 點選共用圖示 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) 與他人[標註並共用磚](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
+
+   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
+
+4. 點選鉛筆圖示 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) 以[標注磚](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)，然後點選共用圖示 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) 以[與其他人共用](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)。
+
 5. [在磚中加入警示](mobile-set-data-alerts-in-the-mobile-apps.md)。 當值高於或低於目標值時，Power BI 會通知您。
+
 6. 有時候，儀表板的建立者已新增磚的連結。 若是如此，當磚處於焦點模式時就會有連結圖示 ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)︰
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
@@ -54,7 +57,7 @@ ms.locfileid: "73870047"
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
     在 Power BI 應用程式中開啟連結後，您可以複製該連結，並改以瀏覽器視窗開啟連結。
-7. [開啟報表](mobile-reports-in-the-mobile-apps.md) ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)，其為磚的基礎。
+7. [開啟報表](mobile-reports-in-the-mobile-apps.md)![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)，此為磚的基礎。
 8. 若要離開磚焦點模式，請點選磚名稱，然後點選儀表板名稱或 [我的工作區]  。
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
@@ -68,7 +71,7 @@ ms.locfileid: "73870047"
     在焦點模式中，您可以︰
    
    * 點選圖表以移動折線圖、橫條圖、直線圖或泡泡圖中的列，檢視視覺效果中之特定點的值。  
-   * 點選共用快照集圖示 ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) 與他人[標註和共用磚](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
+   * 點選鉛筆圖示 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) 以[標註磚](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)，然後點選共用快照集圖示 ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) 以[與其他人共用](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)。
    * 點選開啟報表圖示 ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) 在行動裝置應用程式中[檢視報表](mobile-reports-in-the-mobile-apps.md)。
 3. 有時候，儀表板的建立者已新增磚的連結。 因此，當您點選垂直省略符號 ( **...** ) 時會看到 [開啟連結]  ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)：
    

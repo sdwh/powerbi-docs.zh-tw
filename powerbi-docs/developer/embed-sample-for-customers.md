@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 85b21d95cb992449d3b7a910c619d049237fc9d8
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.date: 12/12/2019
+ms.openlocfilehash: e27789ca28d86a53b7d8340b3d766a73a04645cb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311085"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223419"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教學課程：將客戶的 Power BI 內容內嵌至應用程式
 
@@ -27,7 +27,7 @@ ms.locfileid: "74311085"
 > * 在 Azure 中註冊應用程式。
 > * 將 Power BI 報表內嵌到應用程式中。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 若要開始，您必須具備：
 
@@ -435,6 +435,8 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>將工作區指派給專用容量
 
 建立專用容量之後，您可以將工作區指派給該專用容量。
+
+您必須將所有包含內嵌內容 (包括資料集、報表和儀表板) 相關 Power BI 資源的工作區指派給專用容量。 例如，如果內嵌報表和繫結至該報表的資料集位於不同工作區，則必須將這兩個工作區指派給專用容量。
 
 若要使用[服務主體](embed-service-principal.md)，將專用容量指派工作區，請使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 時，請務必使用[服務主體物件識別碼](embed-service-principal.md#how-to-get-the-service-principal-object-id)。
 

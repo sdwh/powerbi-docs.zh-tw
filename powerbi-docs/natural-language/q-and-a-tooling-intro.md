@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 17d0a68782f34c09286be5ebe020668a15061ee4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874942"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>用於訓練 Power BI 問與答 (預覽) 的問與答工具簡介
@@ -80,7 +80,7 @@ Power BI Desktop 的 [模型]  索引標籤有更多選項可以改善問與答�
 
 1. 在 Power BI Desktop 中，選取模型檢視。
 
-2. 選取一個欄位或資料表以顯示 [屬性]  窗格，然後**開啟** [已隱藏]  。
+2. 選取一個欄位或資料表以顯示 [屬性]  窗格，然後將 [已隱藏]  設定為 [開啟]  。
 
     問與答會採用該設定，並確保問與答無法辨識該欄位。 例如，您可能想要隱藏識別碼欄位和外部索引鍵，以避免具有相同名稱的不必要重複欄位。 即使隱藏欄位，您仍然可以將其用於 Power BI Desktop 中問與答以外的視覺效果。
 

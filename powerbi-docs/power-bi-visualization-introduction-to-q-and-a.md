@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874452"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>使用 Power BI 問與答建立視覺效果
@@ -28,7 +28,7 @@ ms.locfileid: "73874452"
 
 我們要如何使用問與答建立此折線圖？
 
-1. 從您的 Power BI 工作區選取 [Get Data] (取得資料)  \> [範例]  \> [零售分析範例]   >  [連接]  。
+1. 從 Power BI 工作區選取 [取得資料]  \> [範例]  \> [零售分析範例]   > [連線]  。
 
 1. 開啟 [零售分析範例] 儀表板，並將游標放在問與答方塊中：[詢問一個與資料相關的問題]  。
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870655"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218310"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視儀表板和報表
 適用於︰
@@ -63,7 +63,7 @@ ms.locfileid: "73870655"
    
    * [點選磚](mobile-tiles-in-the-mobile-apps.md)在焦點模式中開啟，並與其互動。
    * 點選星星![我的最愛星星](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png)[使其成為我的最愛](mobile-apps-favorites.md)。
-   * 點選 [邀請]  ![邀請圖示](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png)以[邀請同事](mobile-share-dashboard-from-the-mobile-apps.md)檢視您的儀表板。
+   * 點選 [邀請]  ![邀請圖示](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) 以[邀請同事](mobile-share-dashboard-from-the-mobile-apps.md)檢視您的儀表板。
    * [同步處理儀表板與您的 Apple Watch](mobile-apple-watch.md)。
 4. 若要回到儀表板清單，請點選儀表板標題旁的箭號，然後點選 [我的工作區]  。
    
@@ -131,7 +131,7 @@ ms.locfileid: "73870655"
    
    ![儀表板首頁](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
-   * 黃色星星 ![我的最愛星星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 會顯示您最愛的儀表板。 
+   * 黃色星星 ![我的最愛星星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 顯示您最愛的儀表板。 
    * 每個儀表板名稱下的標記法 (在此例中為 "MBI") ![資料分類](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)會顯示每個儀表板中資料的分類方式。 深入了解 [Power BI 的資料分類](../../service-data-classification.md)。
 3. 在儀表板中時，您可以點選名稱旁邊的垂直 [更多選項]  (...) 按鈕來邀請同事、重新整理，或取得儀表板的相關資訊：
    

@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "75000104"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>設定從 Power BI 服務到內部部署資料來源的 Kerberos 架構 SSO
 
 啟用 SSO 可讓 Power BI 報表和儀表板輕鬆重新整理來自內部部署來源的資料，同時遵守在這些來源上設定的使用者層級權限。 使用 [Kerberos 限制委派](/windows-server/security/kerberos/kerberos-constrained-delegation-overview)來啟用無縫 SSO 連線。 
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 必須設定數個項目，Kerberos 限制委派才能正常運作，包括服務帳戶上的「服務主體名稱 (SPN)」  和委派設定。
 
@@ -189,7 +189,7 @@ ms.locfileid: "75000104"
 
 1. 在閘道電腦上，執行 **gpedit.msc**。
 
-2. 前往 [本機電腦原則]  &gt;[電腦設定]  &gt;[Windows 設定]  &gt;[安全性設定]  &gt;[本機原則]  &gt;[使用者權限指派]  ，如下圖所示。
+2. 請前往 [本機電腦原則]  &gt; [電腦設定]  &gt; [Windows 設定]  &gt; [安全性設定]  &gt; [本機原則]  &gt; [使用者權限指派]  。
 
     ![[本機電腦原則] 資料夾結構](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 

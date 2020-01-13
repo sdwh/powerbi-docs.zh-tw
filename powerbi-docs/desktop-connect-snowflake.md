@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2bb44498b6123eadffe86c7eb9bfb93bb0db5e14
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 23d66994e88204f56ee937a4f7887225e48a5e2f
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876413"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304273"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>在 Power BI Desktop 中連接到 Snowflake
 在 Power BI Desktop 中，您可以連接至 **Snowflake** 運算倉儲並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。 
@@ -42,9 +42,14 @@ ms.locfileid: "73876413"
 > 
 > 
 
+如果想要使用 [Microsoft 帳戶] 選項，請讓您的 Snowflake 系統管理員連線到 Snowflake 以加入此功能的私人預覽。
+
+![Snowflake 連接器中的 Microsoft 帳戶驗證類型。](media/desktop-connect-snowflake/connect-snowflake-6.png)
+
+
 成功連接後，[導覽器]  視窗隨即出現，並顯示伺服器上可用的資料，您可以從中選取一或多個要匯入 **Power BI Desktop** 並在其中使用的項目。
 
-![](media/desktop-connect-snowflake/connect_snowflake_5.png)
+![ODBC 錯誤 28000 導致連線失敗。](media/desktop-connect-snowflake/connect_snowflake_5.png)
 
 您可以**載入**選取的資料表，將整個資料表帶入 **Power BI Desktop** 中，也可以**編輯**查詢以開啟**查詢編輯器**，以便您篩選並縮小搜尋範圍到一組您想要使用的資料，然後將該組精簡的資料載入 **Power BI Desktop** 中。
 

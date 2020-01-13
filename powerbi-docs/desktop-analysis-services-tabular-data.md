@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ee7405b7c3d542dd824c70c17459c7078b3f0e1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f7af1c584802181cab68f6ce2fc4823ec7078354
+ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878835"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "75523019"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 Analysis Services 表格式資料
 使用 Power BI Desktop 時，有兩種方式可以連線到 SQL Server Analysis Services 表格式模型並從中取得資料：「使用即時連線進行瀏覽」或「選取項目並匯入 Power BI Desktop」。
@@ -63,7 +63,7 @@ ms.locfileid: "73878835"
 
 **問：** 如果我建立即時連線，是否可以連線到同一個 Power BI Desktop 檔案中的另一個資料來源？
 
-**答：** 否。 您無法瀏覽即時資料並連接到同一個檔案中的另一種資料來源類型。 如果您已經匯入資料或連接到 Power BI Desktop 檔案中的不同資料來源，則必須建立新檔案以進行即時瀏覽。
+**答：** 不會。 您無法瀏覽即時資料並連接到同一個檔案中的另一種資料來源類型。 如果您已經匯入資料或連接到 Power BI Desktop 檔案中的不同資料來源，則必須建立新檔案以進行即時瀏覽。
 
 **問：** 如果我建立即時連線，是否可以在 Power BI Desktop 中編輯模型或查詢？
 
@@ -76,6 +76,12 @@ ms.locfileid: "73878835"
 **問：** 我在 [導覽器] 中看到模型和檢視方塊。 有何不同？
 
 **答：** 檢視方塊是表格式模型的特定檢視。 根據獨特資料分析需求，它可能只會包含特定資料表、資料行或量值。 表格式模型至少一定會包含一個檢視方塊，該檢視方塊可能包含模型中的所有項目。 如果您不確定該選取哪個項目，請洽詢您的系統管理員。
+
+**問：** 是否有任何 Analysis Services 功能會變更 Power BI 的運作方式？
+
+**答：** 是。 依據表格式模型所使用的功能，使用 Power BI Desktop 的體驗可能會隨之改變。 部分範例包括：
+* 您可能會看到模型中的量值一同群組在欄位清單頂端，而不是資料表中的資料行。 別擔心！ 您仍然可以像平常一樣使用模型量值，這樣就能更輕鬆地找到這些量值！
+* 如果表格式模型已定義計算群組，則您只能將其與模型量值搭配使用，而不能與透過將數值欄位新增至視覺效果而建立的隱含量值搭配使用。 模型可能還會以手動方式設定 **DiscourageImplicitMeasures** 旗標，這具有相同的效果。 若要深入了解，請參閱 [Analysis Services 中的計算群組](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits)
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>在初始連接之後變更伺服器名稱
 建立具有即時連接瀏覽的 Power BI Desktop 檔案之後，可能會有些情況需要您將連接切換至其他伺服器。 例如，如果您在連接到開發伺服器時，以及在發佈到 Power BI 服務之前建立 Power BI Desktop 檔案，您會想要將連接切換至實際執行伺服器。

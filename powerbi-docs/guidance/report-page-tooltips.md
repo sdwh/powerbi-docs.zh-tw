@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b7256a04ccdca107ef0cd8e24af8b3170a3d68cc
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 95cf62057cdea001a438f4555aa3384c54efe4b5
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834716"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221934"
 ---
 # <a name="extending-visuals-with-report-page-tooltips"></a>使用報表頁面工具提示延伸視覺效果
 
@@ -61,15 +61,15 @@ ms.locfileid: "74834716"
 
 ### <a name="add-help"></a>新增說明
 
-您可以將視覺效果標題設定為顯示視覺效果標題的頁面工具提示。 您可以使用豐富的格式化文字方塊，將說明內容新增至頁面工具提示。 也可以新增影像和圖形。
+您可以將視覺效果標題設定為顯示視覺效果標題的頁面工具提示。 您可以使用 RTF 文字方塊，將說明文件新增至頁面工具提示。 也可以新增影像和圖形。
 
 有趣的是，按鈕、影像、文字方塊和圖形也可以顯示視覺效果標題頁面工具提示。
 
-下列範例顯示當報表使用者將游標停留在視覺效果標題上時所發生的情況。
+下列範例顯示當報表使用者將游標暫留在[視覺效果標頭圖示](../desktop-visual-elements-for-reports.md)上時所發生的情況。
 
 ![報表使用者已將游標停留在視覺效果標題圖示 (問號圖示) 上。 豐富的格式化工具提示已顯示。](media/report-page-tooltips/suggestion-add-help.png)
 
-頁面工具提示隨即顯示。 其呈現豐富的格式化文字，描述視覺效果所顯示的量值。 工具提示也包含圖形 (線條)。
+頁面工具提示隨即顯示。 在四個文字方塊中顯示 RTF 文字，以及一個圖形 (線條)。 頁面工具提示藉由描述視覺效果中顯示的每個縮寫來提供協助。
 
 ## <a name="recommendations"></a>建議
 
@@ -87,5 +87,6 @@ ms.locfileid: "74834716"
 
 - [在 Power BI Desktop 中根據報表頁面建立工具提示](../desktop-tooltips.md)
 - [在 Power BI Desktop 中自訂工具提示](../desktop-custom-tooltips.md)
+- [使用視覺效果元素強化 Power BI 報表](../desktop-visual-elements-for-reports.md)
 - Guy in a Cube 影片：[Power BI report page tooltip - How to create one in Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw) (Power BI 報表頁面工具提示 - 如何在 Power BI Desktop 中建立)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

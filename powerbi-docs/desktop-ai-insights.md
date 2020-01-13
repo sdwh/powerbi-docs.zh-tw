@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a1f6adfcf471fa6805e0a99c4b8789ba9eb7cf58
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: c2985f0281274adcdbde737c0f3b00688a401df7
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016656"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221267"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop-preview"></a>使用 Power BI Desktop 中的 AI 見解 (預覽)
 
@@ -149,7 +149,7 @@ Power Query 和 Power Query Online 中使用的文字分析和視覺函式都相
 
 ## <a name="using-azure-ml"></a>使用 Azure ML
 
-許多組織使用 **Machine Learning** 模型來取得關於其業務的更好的見解與預測。 在您的報告與儀表板和其他分析中，能夠從這些模型視覺化及叫用見解的能力有助於傳播這些見解給最需要它的企業使用者。 Power BI 可讓您輕鬆使用直覺的點按手勢整合來自 Azure Machine Learning 服務上裝載之模型的見解。
+許多組織使用 **Machine Learning** 模型來取得關於其業務的更好的見解與預測。 在您的報告與儀表板和其他分析中，能夠從這些模型視覺化及叫用見解的能力有助於傳播這些見解給最需要它的企業使用者。 Power BI 可讓您輕鬆使用直覺的點按手勢，整合來自 Azure Machine Learning 託管模型的見解。
 
 若要使用此功能，資料科學家可以使用 Azure 入口網站將對 Azure ML 模型的存取權授與 BI 分析師。 接著，在每個工作階段開頭，Power Query 會探索使用者有權存取的所有 Azure ML 模型並將它們公開為動態 Power Query 函式。 使用者接著可以透過從 Power Query 編輯器中的功能區存取函式，或透過直接叫用 M 函式，來叫用那些函式。 Power BI 也會在針對一組資料列叫用 Azure ML 模型時自動分存取要求分批，以獲得更好的效能。
 
@@ -166,8 +166,8 @@ Power Query 和 Power Query Online 中使用的文字分析和視覺函式都相
 
 若要從 Power BI 存取 Azure ML 模型，使用者必須有對 Azure 訂用帳戶的**讀取**存取權。 此外，它們必須具有下列各項：
 
-- 針對 Machine Learning Studio 模型，需要對 Machine Learning Studio 服務的**讀取**存取權。
-- 針對 Machine Learning Studio 模型，需要對 Machine Learning Studio 工作區的**讀取**存取權。
+- 針對 Machine Learning Studio (傳統) 模型，需要有對 Machine Learning Studio (傳統) Web 服務的**讀取**存取權
+- 針對 Machine Learning 模型，需要有對 Machine Learning 工作區的**讀取**存取權
 
 本節中的步驟說明如何將對 Azure ML 上裝載之模型的存取權授與 Power BI 使用者，以便他們能以 Power Query 函式形式存取此模型。 如需進一步的詳細資料，請參閱[使用 RBAC 與 Azure 入口網站管理存取權](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)。
 
@@ -177,20 +177,20 @@ Power Query 和 Power Query Online 中使用的文字分析和視覺函式都相
 4. 選取 [存取控制 (IAM)]  ，然後選取 [新增]  按鈕。
 5. 選取 [讀者]  做為 [角色]。 選取您希望為其授與對 Azure ML 模型之存取權的 Power BI 使用者。
 6. 選取 [儲存] 
-7. 重複步驟三到六以將**讀者**存取權授與特定 Machine Learning Studio Web 服務或  裝載模型之 Machine Learning 服務工作區的使用者。
+7. 重複步驟三到六，將**讀者**存取權授與特定 Machine Learning Studio (傳統) Web 服務「或」  託管模型的 Machine Learning 工作區使用者。
 
-### <a name="schema-discovery-for-machine-learning-service-models"></a>針對 Machine Learning Service 模型的結構描述探索
+### <a name="schema-discovery-for-machine-learning-models"></a>針對 Machine Learning 模型的結構描述探索
 
-資料科學家主要使用 Python 來開發甚至是部署其 Machine Learning Service 機器學習模型。 不像 Machine Learning Studio 會協助自動化為模型建立結構描述檔案的工作，在 Machine Learning Service 的案例中，資料科學家必須明確地使用 Python 產生結構描述檔案。
+資料科學家主要使用 Python 開發甚至是部署其 Machine Learning 的機器學習模型。 不同於 Machine Learning Studio (傳統) 是協助自動化為模型建立結構描述檔案的工作，在 Machine Learning 的案例中，資料科學家必須明確使用 Python 產生結構描述檔案。
 
-此結構描述必須包含在機器學習服務模型的部署 Web 服務中。 若要自動產生 Web 服務的結構描述，您必須為部署模型在項目指令碼中提供輸入/輸出的範例。 請參閱[使用 Azure Machine Learning 部署模型中的選擇性自動產生 Swagger 架構](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation)服務文件上的子節。 連結包含產生結構描述陳述式的範例項目指令碼。
+此結構描述檔案必須包含在 Machine Learning 模型的部署 Web 服務中。 若要自動產生 Web 服務的結構描述，您必須為部署模型在項目指令碼中提供輸入/輸出的範例。 請參閱[使用 Azure Machine Learning 部署模型中的選擇性自動產生 Swagger 架構](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation)服務文件上的子節。 連結包含產生結構描述陳述式的範例項目指令碼。
 
 具體而言，項目指令碼中的 _@input\_schema_ 與 _@output\_schema_ 函式會參考_input\_sample_ 與 _output\_sample_ 中的輸入和輸出範例格式，並在部署期間使用這些範例來產生 Web 服務的 OpenAPI (Swagger) 規格。
 
 這些透過更新項目指令碼來產生結構描述的指示也必須套用到使用 Azure Machine Learning SDK 時，透過自動化機器學習服務實驗建立的模型。
 
 > [!NOTE]
-> 使用 Azure Machine Learning 服務視覺化介面建立的模型目前不支援產生結構描述，但會在後續的版本中支援。
+> 使用 Azure Machine Learning 視覺化介面建立的模型目前不支援產生結構描述，但會在後續的版本中支援。
 > 
 ### <a name="invoking-an-azure-ml-model-in-power-query"></a>在 Power Query 中叫用 Azure ML 模型
 
@@ -212,7 +212,7 @@ Power Query 和 Power Query Online 中使用的文字分析和視覺函式都相
 
 下列考量和限制適用於 Power BI Desktop 中的 Azure ML。
 
-* 使用 Azure Machine Learning 服務視覺化介面建立的模型目前不支援產生結構描述。 後續的版本中預期會支援。
+* 使用 Azure Machine Learning 視覺化介面建立的模型目前不支援產生結構描述。 後續的版本中預期會支援。
 * 支援累加式重新整理，但是在使用 AI 見解的查詢上使用時，可能會造成效能問題。
 * 不支援 Direct Query。
 
@@ -220,7 +220,7 @@ Power Query 和 Power Query Online 中使用的文字分析和視覺函式都相
 
 此文章提供將 Machine Learning 整合到 Power BI Desktop 的概觀。 下列文章可能也很有趣而且實用。
 
-- [教學課程：在 Power BI 中叫用 Machine Learning Studio 模型](service-tutorial-invoke-machine-learning-model.md)
+- [教學課程：在 Power BI 中叫用 Machine Learning Studio (傳統) 模型](service-tutorial-invoke-machine-learning-model.md)
 - [教學課程：在 Power BI 中使用認知服務](service-tutorial-use-cognitive-services.md)
 - [Power BI 中的認知服務](service-cognitive-services.md)
 - [Power BI 中的 Azure Machine Learning 整合](service-machine-learning-integration.md)

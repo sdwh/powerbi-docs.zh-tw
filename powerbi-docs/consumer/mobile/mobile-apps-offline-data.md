@@ -1,19 +1,19 @@
 ---
 title: 在 Power BI 行動裝置應用程式中離線檢視資料
 description: 閱讀以了解在行動裝置應用程式中 (而非行動瀏覽器中) 檢視 Power BI 的優點：即使未連線到網路，您仍可以查看資料。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/27/2018
-ms.author: mshenhav
-ms.openlocfilehash: 09a4595b461f69cfa02b4cc0ca3c96b1eb917ef8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870604"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219061"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中離線檢視資料
 適用於︰
@@ -34,9 +34,9 @@ ms.locfileid: "73870604"
 對於先前從行動裝置應用程式存取的任何 Power BI 報表，您也可以唯讀存取。 您可以查看完整的報表，但不能在其上篩選、交叉篩選、排序或使用交叉分析篩選器。
 
 ## <a name="background-data-refresh"></a>背景的資料重新整理
-背景重新整理會使用 Power BI 服務 (而不是資料來源) 上的資料來更新您的最愛儀表板，以及您在過去兩週檢視的儀表板和報表。 如果您已連接到 Wi-Fi，背景重新整理會每隔 2 小時更新一次。 否則，如果您使用 3G 網路，Power BI 會每隔 24 小時更新內容一次。
+背景重新整理會使用 Power BI 服務 (而不是資料來源) 上的資料來更新您的最愛儀表板，以及您在過去兩週檢視的儀表板和報表。 如已連線到 Wi-Fi，背景重新整理會每隔 2 小時更新一次。 否則，如果您使用 3G 網路，Power BI 會每隔 24 小時更新內容一次。
 
-假如要避免使用網路，您可以關閉背景重新整理。 請檢查您裝置上的設定。
+例如，您可關閉背景重新整理以避免使用網路。 請檢查您裝置上的設定。
 
 > [!NOTE]
 > 您的組織設定 Microsoft Intune MAM 之後，如果您在 iOS 裝置上使用 Power BI 行動裝置應用程式，則背景的資料重新整理會關閉。 下次進入應用程式時，Power BI 會從網路上的 Power BI 服務重新整理資料。
@@ -52,7 +52,7 @@ Power BI 提供您何時移入和移出離線模式的清楚指標，以及無�
 當您在行動裝置上離線使用 Power BI 時，可能會遇到下列限制︰
 
 * Power BI 可以快取最多 250 MB 的離線資料。
-* 某些類型的磚需要使用中的伺服器連線，因此無法離線使用，例如 Bing 地圖磚和一些自訂的磚。
+* 某些類型的磚需要連線到伺服器，因此無法離線使用，例如 Bing 地圖磚和一些自訂的磚。
 * Power BI 中的整個 Excel 活頁簿無法離線使用。
 * 如果您在連線時已檢視過 Reporting Services 行動報表和 KPI，即可離線查看。 它們不會在背景中重新整理， 而是在每次開啟時重新整理。
 * 在 Power BI 行動裝置應用程式中，您看不到儲存至 Power BI 報表伺服器的 Power BI Desktop (.pbix) 檔案。 
@@ -65,4 +65,3 @@ Power BI 提供您何時移入和移出離線模式的清楚指標，以及無�
 * 請在 Twitter 上關注 @MSPowerBI
 * 加入 [Power BI 社群](https://community.powerbi.com/)的交談
 * [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)
-

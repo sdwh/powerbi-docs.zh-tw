@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 12/10/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6e64ab2730b73339d6d22ba356cce6e644af52c5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48efc58c7428961b70fb31a96f404139a75a1ac3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861856"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217846"
 ---
 # <a name="change-the-display-of-a-report-page"></a>變更報表頁面的顯示
 
@@ -52,6 +52,26 @@ ms.locfileid: "73861856"
     ![全螢幕顯示的報表](media/end-user-report-view/power-bi-full-screen.png)
 
 結束報表時，不會儲存您的 [檢視]  設定，但會還原為預設值。 如果一定要儲存這些設定，請使用[書籤](end-user-bookmarks.md)。
+
+## <a name="use-your-browser-to-change-page-display"></a>使用瀏覽器變更頁面顯示
+
+瀏覽器中的縮放控制項可放大或縮小可用畫布區域。 減少縮放會展開可用的畫布區域，反之亦然。 
+
+![顯示瀏覽器縮放控制項的短片](media/end-user-report-view/power-bi-zoom.png)
+
+調整整個瀏覽器大小是另一種變更報表顯示大小的方式。 
+
+![顯示瀏覽器調整大小的短片](media/end-user-report-view/power-bi-resize-browser.gif)
+
+## <a name="zoom-in-on-a-visual"></a>放大視覺效果
+有時候很難看到視覺效果的細節。 您可以放大視覺效果，只顯示該視覺效果。 如需詳細資訊，請參閱[焦點模式和全螢幕模式](end-user-focus.md)
+
+### <a name="a-visual-in-focus-mode"></a>「焦點」  模式中的視覺效果
+
+![在焦點模式中開啟視覺效果的螢幕擷取畫面。](media/end-user-report-view/power-bi-focus.png)
+
+### <a name="a-visual-in-full-screen-mode"></a>「全螢幕」  模式中的視覺效果
+![在全螢幕模式中開啟視覺效果的螢幕擷取畫面。](media/end-user-report-view/power-bi-full-screen.png)
 
 ## <a name="next-steps"></a>後續步驟
 

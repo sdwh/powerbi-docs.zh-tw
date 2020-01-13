@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 2f872825c327b8195e7a6e5516e0b533235ddc27
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9aaa26b4798a0632b0ad751bc30e8496f6103fb1
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872096"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223764"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI 中的 Azure Machine Learning 整合
 
-許多組織使用 **Machine Learning** 模型來取得關於其業務的更好的見解與預測。 在您的報告與儀表板和其他分析中，能夠從這些模型視覺化及叫用見解的能力有助於傳播這些見解給最需要它的企業使用者。  Power BI 現在可讓您輕鬆使用直覺的點按手勢整合來自 Azure Machine Learning 服務上裝載之模型的見解。
+許多組織使用 **Machine Learning** 模型來取得關於其業務的更好的見解與預測。 在您的報告與儀表板和其他分析中，能夠從這些模型視覺化及叫用見解的能力有助於傳播這些見解給最需要它的企業使用者。  Power BI 現在可讓您輕鬆使用直覺的點按手勢整合來自 Azure Machine Learning 上所裝載模型的見解。
 
 若要使用此功能，資料科學家可以使用 Azure 入口網站將對 Azure ML 模型的存取權授與 BI 分析師。  接著，在每個工作階段開頭，Power Query 會探索使用者有權存取的所有 Azure ML 模型並將它們公開為動態 Power Query 函式。  使用者接著可以透過從 Power Query 編輯器中的功能區存取函式，或透過直接叫用 M 函式，來叫用那些函式。 Power BI 也會在針對一組資料列叫用 Azure ML 模型時自動分存取要求分批，以獲得更好的效能。
 
@@ -35,8 +35,8 @@ ms.locfileid: "73872096"
 
 若要從 Power BI 存取 Azure ML 模型，使用者必須有對 Azure 訂用帳戶的**讀取**存取權。  此外：
 
-- 針對 Machine Learning Studio 模型，需要對 Machine Learning Studio 服務的**讀取**存取權。
-- 針對 Machine Learning Studio 模型，需要對 Machine Learning Studio 工作區的**讀取**存取權。
+- 針對 Machine Learning Studio (傳統) 模型，需要對 Machine Learning Studio (傳統) Web 服務的**讀取**存取權
+- 針對 Machine Learning 模型，需要對 Machine Learning 工作區的**讀取**存取權
 
 此文章中的步驟說明如何將對 Azure ML 上裝載之模型的存取權授與 Power BI 使用者，以便他們能以 Power Query 函式形式存取此模型。  如需進一步的詳細資料，請參閱[使用 RBAC 與 Azure 入口網站管理存取權](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)。
 
@@ -60,21 +60,21 @@ ms.locfileid: "73872096"
 
 6. 選取 [儲存]  。
 
-7. 重複步驟三到六以將**讀者**存取權授與特定 Machine Learning Studio Web 服務或  裝載模型之 Machine Learning 服務工作區的使用者。
+7. 重複步驟三到六以將**讀者**存取權授與特定 Machine Learning Studio (傳統) Web 服務或  裝載模型的 Machine Learning 工作區使用者。
 
 
-## <a name="schema-discovery-for-machine-learning-service-models"></a>針對 Machine Learning Service 模型的結構描述探索
+## <a name="schema-discovery-for-machine-learning-models"></a>針對 Machine Learning 模型的結構描述探索
 
-資料科學家主要使用 Python 來開發甚至是部署其 Machine Learning Service 機器學習模型。  不像 Machine Learning Studio 會協助自動化為模型建立結構描述檔案的工作，在 Machine Learning Service 的案例中，資料科學家必須明確地使用 Python 產生結構描述檔案。
+資料科學家主要使用 Python 來開發甚至是部署其 Machine Learning 的機器學習模型。  不像 Machine Learning Studio (傳統) 會協助將為模型建立結構描述檔案的工作自動化，在 Machine Learning 的案例中，資料科學家必須明確地使用 Python 來產生結構描述檔案。
 
-此結構描述必須包含在機器學習服務模型的部署 Web 服務中。 若要自動產生 Web 服務的結構描述，您必須為部署模型在項目指令碼中提供輸入/輸出的範例。 請參閱[使用 Azure Machine Learning 部署模型中的選擇性自動產生 Swagger 架構](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation)服務文件上的子節。 連結包含產生結構描述陳述式的範例項目指令碼。 
+此結構描述必須包含在 Machine Learning 模型的部署 Web 服務中。 若要自動產生 Web 服務的結構描述，您必須為部署模型在項目指令碼中提供輸入/輸出的範例。 請參閱[使用 Azure Machine Learning 部署模型中的選擇性自動產生 Swagger 架構](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation)服務文件上的子節。 連結包含產生結構描述陳述式的範例項目指令碼。 
 
 具體而言，項目指令碼中的 *\@input_schema* 與 *\@output_schema* 函式會參考 *input_sample* 與 *output_sample* 中的輸入和輸出範例格式，並在部署期間使用這些範例來產生 Web 服務的 OpenAPI (Swagger) 規格。
 
 這些透過更新項目指令碼來產生結構描述的指示也必須套用到使用 Azure Machine Learning SDK 時，透過自動化機器學習服務實驗建立的模型。
 
 > [!NOTE]
-> 使用 Azure Machine Learning 服務視覺化介面建立的模型目前不支援產生結構描述，但會在後續的版本中支援。 
+> 使用 Azure Machine Learning 視覺化介面建立的模型目前不支援產生結構描述，但會在後續的版本中支援。 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>在 Power BI 中叫用 Azure ML 模型
 
@@ -106,7 +106,7 @@ ms.locfileid: "73872096"
 
 此文章提供將 Machine Learning 整合到 Power BI 服務的概觀。 下列文章可能也很有趣且實用。 
 
-* [教學課程：在 Power BI 中叫用 Machine Learning Studio 模型](service-tutorial-invoke-machine-learning-model.md)
+* [教學課程：在 Power BI 中叫用 Machine Learning Studio (傳統) 模型](service-tutorial-invoke-machine-learning-model.md)
 * [教學課程：在 Power BI 中使用認知服務](service-tutorial-use-cognitive-services.md)
 * [Power BI 中的認知服務](service-cognitive-services.md)
 

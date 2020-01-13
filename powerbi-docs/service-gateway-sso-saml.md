@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: bbb0584843f79445c4e5cca073f9c4b953d346aa
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74699352"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>針對從 Power BI 到內部部署資料來源的 SSO，使用安全性聲明標記語言 (SAML)
@@ -68,7 +68,7 @@ ms.locfileid: "74699352"
 
 匯入 HANA Studio 中的 IdP 憑證，以建立新的 SAML 識別提供者：
 
-1. 在 SAP HANA Studio 中，以滑鼠右鍵按一下您的 SAP HANA 伺服器名稱，然後巡覽至 [安全性]  &gt;[開啟安全性主控台]  &gt;[SAML 識別提供者]  &gt;[OpenSSL 密碼編譯程式庫]  。
+1. 在 SAP HANA Studio 中，以滑鼠右鍵按一下您的 SAP HANA 伺服器名稱，然後巡覽至 [安全性]  &gt; [開啟安全性主控台]  &gt; [SAML 識別提供者]  &gt; [OpenSSL 密碼編譯程式庫]  。
 
     ![識別提供者](media/service-gateway-sso-saml/identity-providers.png)
 
@@ -100,11 +100,11 @@ ms.locfileid: "74699352"
 
 1. 將 pfx 檔案複製到閘道電腦：
 
-    1. 按兩下 samltest.pfx，然後選取 [本機電腦]  &gt;[下一步]  。
+    1. 按兩下 samltest.pfx，然後選取 [本機電腦]  &gt; [下一步]  。
 
     1. 輸入密碼，然後選取 [下一步]  。
 
-    1. 選取 [將所有憑證放在下列存放區]  ，然後選取 [瀏覽]  &gt;[個人]  &gt;[確定]  。
+    1. 選取 [將所有憑證放在下列存放區]  ，然後選取 [瀏覽]  &gt; [個人]  &gt; [確定]  。
 
     1. 選取 [下一步]  ，然後選取 [完成]  。
 
@@ -120,13 +120,13 @@ ms.locfileid: "74699352"
 
         ![新增嵌入式管理單元](media/service-gateway-sso-saml/add-snap-in.png)
 
-    1. 選取 [憑證]  &gt;[新增]  ，然後選取 [電腦帳戶]  &gt;[下一步]  。
+    1. 選取 [憑證]  &gt; [新增]  ，然後選取 [電腦帳戶]  &gt; [下一步]  。
 
-    1. 選取 [本機電腦]  &gt;[完成]  &gt;[確定]  。
+    1. 選取 [本機電腦]  &gt; [完成]  &gt; [確定]  。
 
-    1. 依序展開 [憑證]  &gt;[個人]  &gt;[憑證]  ，並尋找憑證。
+    1. 依序展開 [憑證]  &gt; [個人]  &gt; [憑證]  ，並尋找憑證。
 
-    1. 以滑鼠右鍵按一下憑證，並巡覽至 [所有工作]  &gt;[管理私密金鑰]  。
+    1. 以滑鼠右鍵按一下憑證，並巡覽至 [所有工作]  &gt; [管理私密金鑰]  。
 
         ![管理私用金鑰](media/service-gateway-sso-saml/manage-private-keys.png)
 

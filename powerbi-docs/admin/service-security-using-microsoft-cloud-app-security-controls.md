@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 18062c770b93bcd1295026d841f923a81c11d84f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7aa0fb1c8707c18e583d0de6bbd602ef43291146
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851248"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548496"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>在 Power BI 中使用 Microsoft Cloud App Security 控制項 (預覽)
 
@@ -77,10 +77,11 @@ Microsoft Cloud App Security 偵測可讓系統管理員監視受監視應用程
 使用 Microsoft Cloud App Security 搭配 Power BI 時，會針對 Power BI 系統管理員建立新角色。 當以 Power BI 系統管理員的身分登入 [Cloud App Security 入口網站](https://portal.cloudappsecurity.com/)時，您對 Power BI 相關資料、警示、有風險的使用者、活動記錄和其他資訊的存取權會有所限制。
 
 ## <a name="considerations-and-limitations"></a>考量與限制 
-使用 Cloud App Security 搭配 Power BI 的設計，旨在利用監視使用者工作階段及其活動的偵測，協助保護組織的內容和資料。 使用 Cloud App Security 搭配 Power BI 時，請務必牢記幾項限制：
+使用 Cloud App Security 搭配 Power BI 的設計，旨在利用監視使用者工作階段及其活動的偵測，協助保護組織的內容和資料。 使用 Cloud App Security 搭配 Power BI 時，請務必牢記幾項考量和限制：
 
 * Microsoft Cloud App Security 只能在 Excel、PowerPoint 和 PDF 檔案中操作。
-* 如果想要在 Power BI 的工作階段原則中使用敏感度標籤功能，您需要擁有 Azure 資訊保護進階 P1 或進階 P2 的授權。 您可單獨購買 Microsoft Azure 資訊保護，或透過其中一個 Microsoft 授權套件來購買。 如需詳細資訊，請參閱 [Azure 資訊保護價格](https://azure.microsoft.com/pricing/details/information-protection/)。 此外，Power BI 資產必須已套用敏感度標籤。
+* 如果想要在 Power BI 的工作階段原則中使用敏感度標籤功能，您需要擁有 Azure 資訊保護進階 P1 或進階 P2 的授權。 您可單獨購買 Microsoft Azure 資訊保護，或透過其中一個 Microsoft 授權套件來購買。 如需詳細資訊，請參閱 [Azure 資訊保護定價](https://azure.microsoft.com/pricing/details/information-protection/)。 此外，Power BI 資產必須已套用敏感度標籤。
+* 工作階段控制適用於任何作業系統上任何主要平台的所有瀏覽器。 我們建議使用 Internet Explorer 11、Microsoft Edge (最新版本)、Google Chrome (最新版本)、Mozilla Firefox (最新版本) 或 Apple Safari (最新版本)。 Microsoft Cloud App Security 工作階段控制中不支援 Power BI 公用 API 呼叫和其他非瀏覽器型工作階段。 [查看更多詳細資料](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients)。
 
 > [!CAUTION]
 > * 套用 Excel 檔案原則時，Power BI 目前暫不提供 Microsoft Cloud App Security 的 [內容檢查]  原則，因此請勿在 Power BI 設定此原則。

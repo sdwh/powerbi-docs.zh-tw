@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 4d7f02d9f78eee4cf287e0bb83acb93a7b1b0355
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
+ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696845"
+ms.lasthandoff: 12/27/2019
+ms.locfileid: "75498491"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>教學課程：將格式設定選項新增到 Power BI 視覺效果
 
@@ -124,10 +124,12 @@ ms.locfileid: "74696845"
 
 8. 在 **visual.ts** 檔案中，
 
-    匯入 `VisualSettings` 類別
+    匯入 `VisualSettings`、`VisualObjectInstanceEnumeration` 和 `EnumerateVisualObjectInstancesOptions`：
 
     ```typescript
     import { VisualSettings } from "./settings";
+    import VisualObjectInstanceEnumeration = powerbi.VisualObjectInstanceEnumeration;
+    import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInstancesOptions;
     ```
 
     並在 **Visual** 類別中，加入下列屬性：
@@ -218,23 +220,34 @@ ms.locfileid: "74696845"
 
     「在圓形中顯示已格式化的量值」 
 
-5. 您可以選擇在 **author** 物件中輸入自己的詳細資料。
+5. 針對視覺效果填入 **supportUrl** 和 **gitHubUrl**。
 
-6. 儲存 **pbiviz.json** 檔案。
+    範例：
 
-7. 在 **assets** 物件中，注意文件會定義圖示的路徑。 此圖示是顯示在 [視覺效果]  窗格中的影像。 它必須是 **PNG** 檔案，20 x 20 像素  。
+    ```json
+    {
+        "supportUrl": "https://community.powerbi.com",
+        "gitHubUrl": "https://github.com/microsoft/PowerBI-visuals-circlecard"
+    }
+    ```
 
-8. 在 Windows 檔案總管中，複製 icon.png 檔案，然後貼入到 assets 資料夾以取代其中的預設檔案。
+6. 在 **author** 物件中輸入您的詳細資料。
 
-9. 在 Visual Studio Code 的 [檔案總管] 窗格中，展開 assets 資料夾，然後選取 icon.png 檔案。
+7. 儲存 **pbiviz.json** 檔案。
 
-10. 檢閱圖示。
+8. 在 **assets** 物件中，注意文件會定義圖示的路徑。 此圖示是顯示在 [視覺效果]  窗格中的影像。 它必須是 **PNG** 檔案，20 x 20 像素  。
+
+9. 在 Windows 檔案總管中，複製 icon.png 檔案，然後貼入到 assets 資料夾以取代其中的預設檔案。
+
+10. 在 Visual Studio Code 的 [檔案總管] 窗格中，展開 assets 資料夾，然後選取 icon.png 檔案。
+
+11. 檢閱圖示。
 
     ![視覺效果窗格影像](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
-11. 在 Visual Studio Code 中，確定已儲存所有檔案。
+12. 在 Visual Studio Code 中，確定已儲存所有檔案。
 
-12. 若要封裝自訂視覺效果，請在 PowerShell 中輸入下列命令。
+13. 若要封裝自訂視覺效果，請在 PowerShell 中輸入下列命令。
 
     ```powershell
     pbiviz package

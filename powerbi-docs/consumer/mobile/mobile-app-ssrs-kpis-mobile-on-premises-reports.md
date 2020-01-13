@@ -1,19 +1,19 @@
 ---
 title: 在 Power BI 行動裝置應用程式中檢視內部部署報表和 KPI
 description: Power BI 行動裝置應用程式提供 SQL Server Reporting Services 和 Power BI 報表伺服器中內部部署商務資訊的即時觸控式行動存取。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/13/2018
-ms.author: mshenhav
-ms.openlocfilehash: 50d44b99d8efea848588ab4c460a469ef6dc780b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/05/2019
+ms.author: painbar
+ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879462"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220017"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視內部部署報表伺服器報表和 KPI
 
@@ -40,8 +40,9 @@ Power BI 行動裝置應用程式提供 Power BI 報表伺服器及 SQL Server 2
 ## <a name="explore-samples-in-the-mobile-apps-without-a-server-connection"></a>在沒有伺服器連線的行動裝置應用程式中探索範例
 即使您沒有 Reporting Services 入口網站的存取權，您仍然可以探索 Reporting Services 行動報表與 KPI 的功能。 
 
-1. 點選左上角的 ![全域導覽按鈕](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) 全域導覽按鈕，然後點選右上方的齒輪圖示 ![齒輪圖示](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png).
-2. 點選 [Reporting Services 範例]  ，然後瀏覽至範例 KPI 和行動報表與之互動。
+1. 點選左上角的設定檔圖片，再於滑出的 [帳戶] 窗格中點選 [設定]  。
+
+2. 在開啟的 [設定] 頁面中，點選 [Reporting Services 範例]  ，然後瀏覽至範例 KPI 和行動報表來與其互動。
    
    ![Reporting Services 範例](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
@@ -53,18 +54,17 @@ Power BI 行動裝置應用程式提供 Power BI 報表伺服器及 SQL Server 2
    
    ![登入報表伺服器](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-connect-to-rs-login.png)
    
-   如果您已經登入 Power BI 應用程式，請點選全域導覽按鈕 ![全域導覽按鈕](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png)，然後點選右上方的齒輪圖示 ![齒輪圖示](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png) 。
-3. 點選 [連線到伺服器]  。
+   如已登入 Power BI 應用程式，請點選左上角的設定檔圖片，然後於滑出的 [帳戶] 窗格中點選 [設定]  。
+3. 在開啟的 [設定] 頁面中，點選 [連線到伺服器]  。
    
     ![連線至伺服器](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
 
-     行動裝置應用程式需要以某種方式存取伺服器。 有幾種方式可執行此作業：
+    行動裝置應用程式需要以某種方式存取伺服器。 有幾種方式可執行此作業：
+     * 位於相同的網路上/使用 VPN 是最簡單的方式。
+     * 可以使用 Web Application Proxy 從組織外部進行連線。 如需詳細資訊，請參閱[使用 OAuth 連線到 Reporting Services](mobile-oauth-ssrs.md)。
+     * 在防火牆中開啟連線 (連接埠)。
 
-    - 位於相同的網路上/使用 VPN 是最簡單的方式。
-    - 可以使用 Web Application Proxy 從組織外部進行連線。 如需詳細資訊，請參閱[使用 OAuth 連線到 Reporting Services](mobile-oauth-ssrs.md)。 
-    - 在防火牆中開啟連線 (連接埠)。
-
-1. 請填入伺服器位址以及使用者名稱和密碼。 請使用此格式的伺服器位址：
+4. 如果願意，您可填入伺服器位址並提供好記的伺服器名稱。 請使用此格式的伺服器位址︰
    
      `https://<servername>/reports`
    
@@ -75,14 +75,14 @@ Power BI 行動裝置應用程式提供 Power BI 報表伺服器及 SQL Server 2
    請在連接字串前面包含 **http** 或 **https**。
    
     ![連線到伺服器對話方塊](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
-5. (選擇性) 在 [進階選項]  下，您可以依需要提供伺服器易記的名稱。
-6. 在導覽窗格中，您現在會看到伺服器，本例中稱為「Power BI 報表伺服器」。
+5. 填入伺服器位址及選用的好記名稱後，點選 [連線]  ，然後在提示出現時填入您的使用者名稱和密碼。
+6. 您現在可在 [帳戶] 窗格中看到伺服器，本例中稱為「工作伺服器」。
    
    ![導覽窗格中的報表伺服器](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
-## <a name="connect-to-an-on-premises-report-server-in-ios"></a>在 iOS 中連線到內部部署報表伺服器
+## <a name="connect-to-an-on-premises-report-server-in-ios-or-android"></a>在 iOS 或 Android 中連線到內部部署報表伺服器
 
-如果您正在檢視 Power BI iOS 行動應用程式，您的 IT 系統管理員可能已定義應用程式設定原則。 如果是這樣，連線到報表伺服器的體驗就會變得流暢，且在連線到報表伺服器時不必提供詳細資訊。 
+如果您正在檢視 iOS 或 Android 行動裝置應用程式中的 Power BI，您的 IT 系統管理員可能已定義應用程式設定原則。 如果是這樣，連線到報表伺服器的體驗就會變得流暢，且在連線到報表伺服器時不必提供詳細資訊。 
 
 1. 您會看到一條訊息，確認您的行動裝置應用程式已設定報表伺服器。 點選 [登入]  。
 
@@ -94,7 +94,7 @@ Power BI 行動裝置應用程式提供 Power BI 報表伺服器及 SQL Server 2
 
 3. 鍵入密碼以進行驗證，然後點選 [登入]  。 
 
-    ![已填入詳細資料的報表伺服器](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-address.png)
+    ![報表伺服器詳細資料已填入](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-address.png)
 
 現在您可以檢視 KPI 和儲存在報表伺服器上的 Power BI 報表，並與其互動。
 
@@ -117,7 +117,7 @@ Power BI 報表、Reporting Services 行動報表和 KPI 皆顯示在 Reporting 
 ## <a name="view-your-favorite-kpis-and-reports"></a>檢視您最愛的 KPI 和報表
 您可以在入口網站中，將 KPI 和報表標示為 [我的最愛]，然後將其與您 Power BI 最愛的儀表板放置在行動裝置方便存取的資料夾中並加以檢視。
 
-* 點選 [我的最愛]  。
+* 點選導覽列上的 [我的最愛]  。
   
    ![導覽窗格中的 [我的最愛]](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
@@ -126,7 +126,7 @@ Power BI 報表、Reporting Services 行動報表和 KPI 皆顯示在 Reporting 
    ![我的最愛頁面中的 Power BI 報表和儀表板](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-favorites.png)
 
 ## <a name="remove-a-connection-to-a-report-server"></a>移除報表伺服器的連接
-1. 在導覽窗格的底部，點選 [設定]  。
+1. 開啟 [帳戶] 窗格，點選 [設定]  。
 2. 點選您不要連線的伺服器名稱。
 3. 點選 [移除伺服器]  。
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6feba420e5bdc25651176be67e6f86f1dafc9ef6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879393"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219546"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 應用程式中的問與答虛擬分析師 - Power BI
 
@@ -31,65 +31,28 @@ ms.locfileid: "73879393"
 
 如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
-### <a name="install-the-power-bi-for-ios-app"></a>安裝 iOS 版 Power BI 應用程式
-從 Apple App Store [下載 iOS 應用程式](https://go.microsoft.com/fwlink/?LinkId=522062 "下載 iPhone 應用程式")至 iPad、iPhone 或 iPod Touch。
-
+* **安裝 iOS 版 Power BI 應用程式**：[將 iOS 應用程式](https://go.microsoft.com/fwlink/?LinkId=522062)下載到您的 iPhone 或 iPad。
 這些版本支援 iOS 版 Power BI 應用程式：
-- iPad (iOS 10 或更新版本)。
-- iPhone 5 與後續機種 (iOS 10 或更新版本)。 
-- iPod Touch (iOS 10 或更新版本)。
+    * iPad (iOS 11 或更新版本)。
+    * iPhone 5 與後續機種 (iOS 11 或更新版本)。
+* **下載零售分析和商機分析範例**：本快速入門的第一個步驟是下載 Power BI 服務中的零售分析及商機分析範例。 [了解如何下載範例](./mobile-apps-download-samples.md)到 Power BI 帳戶以開始使用。 請務必選擇 [零售分析範例] 和 [商機分析範例]。
 
-### <a name="download-samples"></a>下載範例
-第一個步驟是下載 Power BI 服務中的零售分析及商機分析範例。
-
-**取得零售分析範例**
-
-1. 開啟 Power BI 服務 (app.powerbi.com) 並登入。
-
-2. 在導覽窗格中，依序選取 [工作區]  、[我的工作區]  。
-
-3. 在左下角選取 [取得資料]  。
-   
-    ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
-
-3. 在 [取得資料] 頁面上，選取**範例**圖示。
-   
-   ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
-
-4. 選取 [零售分析範例]  。
- 
-    ![零售分析範例](./media/mobile-apps-ios-qna/power-bi-rs.png)
- 
-8. 選取 [連接]  。  
-  
-   ![零售分析範例](./media/mobile-apps-ios-qna/retail16.png)
-   
-5. Power BI 會匯入內容套件，並將新的儀表板、報表及資料集新增到您目前的工作區。
-   
-   ![零售分析範例](./media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
-
-**取得商機分析範例**
-
-- 執行與零售分析範例相同的步驟，但在步驟 4 中選取 [商機分析範例]  。
-
-    ![零售分析範例](./media/mobile-apps-ios-qna/power-bi-oa.png)
-  
-好的，您已準備好在 iOS 裝置上檢視範例。
+完成必要條件之後，您隨時可以試用問與答虛擬分析師。
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>請嘗試在您的 iPhone 或 iPad 上詢問問題
-1. 在您的 iPhone 或 iPad 上，點選全域導覽按鈕 ![全域導覽按鈕](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > [工作區]   > [我的工作區]  ，並開啟 [零售分析範例] 儀表板。
+1. 在 iPhone 或 iPad 的底部導覽列上，點選 [工作區] 按鈕 ![[工作區] 按鈕](./media/mobile-apps-ios-qna/power-bi-iphone-workspaces-button.png)並前往 [我的工作區]，開啟 [零售分析範例] 儀表板。
 
 2. 在頁面底部 (若是 iPad 則為頁面頂端) 的 [動作] 功能表中，點選問與答虛擬分析師圖示![問與答虛擬分析師圖示](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png)。
      問與答虛擬分析師提供了一些開始使用的建議。
 3. 鍵入 **show**，從建議清單中點選 [sales]  > [傳送]  ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![顯示銷售額](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. 從關鍵字中點選 [by]\(由)  ，然後從建議清單上點選 [項目]  > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+4. 從關鍵字中點選 **by**，然後從建議清單中點選 [item]  > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![依項目的銷售額](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. 依序從關鍵字點選 [as]\(為)  、資料行圖表圖示![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png)，然後點選 [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+5. 依序從關鍵字中點選 **as**、資料行圖表圖示 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png)，然後點選 [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 6. 按住產出的圖表，然後點選 [展開]  。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -99,13 +62,13 @@ ms.locfileid: "73879393"
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. 點選左上角的箭號，可返回問與答虛擬分析師聊天視窗。
 8. 點選文字方塊右邊的 X 以刪除文字，然後重新開始。
-9. 嘗試新的提問︰從關鍵字點選 [頂端]  ，然後點選 [依單位平均銷售金額排序]   > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+9. 嘗試新的提問︰從關鍵字點選 **top**，然後點選 [依單位平均銷售金額排序]   > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. 從關鍵字選擇 [by]\(由)  ，從頂端的建議清單點選 [時間]  > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+10. 從關鍵字選擇 **by**，從頂端的建議清單點選 [time]  > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
      ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. 鍵入 [as]\(為)  ，然後從建議清單選取折線圖圖示![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+11. 鍵入 **as**，然後從建議清單中選取折線圖圖示 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 

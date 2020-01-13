@@ -9,10 +9,10 @@ ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73859245"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>教學課程：探索 VM 中的 Power BI 報表伺服器入口網站
@@ -170,7 +170,7 @@ ms.locfileid: "73859245"
 
     ![將欄位拖曳至 [篩選] 窗格](media/tutorial-explore-report-server-web-portal/power-bi-report-server-desktop-filter.png)
 
-1. 請儲存報表。
+1. 儲存報表。
 
 1. 返回瀏覽器中的報表，然後選取 [重新整理]  圖示。
 
@@ -206,7 +206,7 @@ ms.locfileid: "73859245"
 
     您可以在這裡變更該參數及其他參數，而無須變更預設值。
 
-1. 選取 [訂單 SO48339]    > [檢視報表]  。
+1. 選取 [訂單]  、[SO48339]   > [檢視報表]  。
 
 4. 您會看到這是 2 頁中的第 1 頁。 請選取向右箭號來查看第 2 頁。 資料表會在該頁面繼續。
 

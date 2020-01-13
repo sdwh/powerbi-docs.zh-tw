@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/29/2019
-ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 12/12/2019
+ms.openlocfilehash: dec23aaa4fd54761c62507b8c7a5a36c45c75afd
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264198"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223366"
 ---
 # <a name="service-principal-with-power-bi"></a>搭配 Power BI 的服務主體
 
@@ -53,7 +53,7 @@ ms.locfileid: "74264198"
 
 使用服務主體和標準主帳戶 (Power BI Pro 授權) 進行驗證之間有差異。 下表反白顯示一些顯著的差異。
 
-| 函數 | 主使用者帳戶 <br> (Power BI Pro 授權) | 服務主體 <br> (僅限應用程式權杖) |
+| 函式 | 主使用者帳戶 <br> (Power BI Pro 授權) | 服務主體 <br> (僅限應用程式權杖) |
 |------------------------------------------------------|---------------------|-------------------|
 | 可以登入 Power BI 服務  | 是 | 否 |
 | 已在 Power BI 系統管理入口網站啟用 | 否 | 是 |
@@ -150,7 +150,7 @@ ms.locfileid: "74264198"
 
    ![本機目錄中的受控應用程式](media/embed-service-principal/managed-application-in-local-directory.png)
 
-    > [!Note]
+    > [!NOTE]
     > 上圖中的物件識別碼不是與服務主體搭配使用的物件識別碼。
 
 3. 選取 [屬性]  來查看物件識別碼。
@@ -174,6 +174,7 @@ ms.locfileid: "74264198"
 * [為組織內嵌](embed-sample-for-your-organization.md)應用程式無法使用服務主體。
 * 不支援[資料流程](../service-dataflows-overview.md)管理。
 * 服務主體目前不支援任何管理員 API。
+* 搭配 [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 資料來源使用服務主體時，服務主體本身必須具有 Azure Analysis Services 執行個體權限。 基於此目的使用包含服務主體的安全性群組將無法正常運作。
 
 ## <a name="next-steps"></a>後續步驟
 

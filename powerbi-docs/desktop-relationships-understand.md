@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8562d0fd5acee2f18576f0a6b6f2e3d613354f92
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 0029d275e5180c29e8653f549d8450014362b59b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009623"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75304234"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop 中的模型關聯性
 
@@ -73,7 +73,7 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 「一對一」  關聯性表示兩個資料行都包含唯一的值。 此基數類型並不常見，且可能代表非最佳的模型設計，因為它會儲存多餘的資料。<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
 
-「多對多」  關聯性表示兩個資料行都可以包含重複的值。 此基數類型不常使用。 在設計複雜的模型需求時，這通常很有用。<!-- For guidance on using this cardinality type, see the [Many-to-many relationship guidance](guidance/relationships-many-to-many) article.-->
+「多對多」  關聯性表示兩個資料行都可以包含重複的值。 此基數類型不常使用。 在設計複雜的模型需求時，這通常很有用。 如需使用此基數類型的指引，請參閱[多對多關聯性指引](guidance/relationships-many-to-many.md)。
 
 > [!NOTE]
 > 針對 Power BI 報表伺服器所開發的模型，目前不支援多對多基數類型。
@@ -87,9 +87,9 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 | 基數類型 | 交叉篩選選項 |
 | --- | --- |
-| 一對多 (或多對一) | 單一<br>兩向 |
-| 一對一 | 兩向 |
-| 多對多 | 單一 (Table1 至 Table2)<br>單一 (Table2 至 Table1)<br>兩向 |
+| 一對多 (或多對一) | 單一<br>兩者 |
+| 一對一 | 兩者 |
+| 多對多 | 單一 (Table1 至 Table2)<br>單一 (Table2 至 Table1)<br>兩者 |
 
 「單一」  交叉篩選方向表示「單向」，而「兩者」  表示「雙向」。 在兩個方向篩選的關聯性通常會稱為「雙向」  。
 
@@ -135,7 +135,7 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 - [USERELATIONSHIP](/dax/userelationship-function-dax)：強制使用特定非作用中模型關聯性。
 - [CROSSFILTER](/dax/crossfilter-function)：修改關聯性交叉篩選方向 (為一或兩者)，否則會停用篩選傳播 (無)。
 - [COMBINEVALUES](/dax/combinevalues-function-dax)：將兩個或多個文字字串聯結成一個文字字串。 此函數的目的是要支援 DirectQuery 模型中的多重資料行關聯性。
-- [TREATAS](/dax/treatas-function)：將資料表運算式的結果以篩選形式套用至來自不相關資料表的資料行。
+- [TREATAS](/dax/treatas-function)：將資料表運算式結果以篩選形式套用至來自不相關資料表的資料行。
 - [Parent 和 Child 函數](/dax/parent-and-child-functions-dax)：一系列的相關函數，可用來產生計算結果欄，以移植父子式階層。 然後，這些資料行就可以用來建立固定層級的階層。
 
 ## <a name="relationship-evaluation"></a>關聯性評估
@@ -226,4 +226,5 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 ## <a name="next-steps"></a>後續步驟
 
 - [了解星型結構描述及其對 Power BI 的重要性](guidance/star-schema.md)
+- [多對多關聯性指引](guidance/relationships-many-to-many.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

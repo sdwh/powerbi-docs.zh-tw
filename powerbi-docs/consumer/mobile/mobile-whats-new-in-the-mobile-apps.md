@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/12/2019
+ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: c188f2b00447ff9f97059e81e7945f67e3170c6d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010023"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75220509"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -21,6 +21,20 @@ ms.locfileid: "74010023"
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
+
+## <a name="november-2019"></a>2019 年 11 月
+
+### <a name="power-bi-apps-new-look-is-now-on-by-default"></a>根據預設，現在會開啟 Power BI 應用程式的新外觀
+ 
+現在當您開啟應用程式時，新的外觀和導覽列會自動開啟以簡化您尋找和開啟內容的方式。 使用應用程式的[首頁](mobile-apps-home-page.md)作為起點，即可快速存取最重要的內容，以及讓您隨時掌握最新警示、通知及其他資訊的[活動摘要](mobile-apps-home-page.md#activity-feed)。
+
+### <a name="see-all-your-latest-power-bi-activity"></a>查看所有最新的 Power BI 活動
+ 
+活動摘要可協助您追蹤 Power BI 內容的即時狀況。 只要移至應用程式的 [首頁] 並開啟 [活動] 索引標籤，即可檢視所有最新的通知、警示、註解、@mentions等等。 [深入了解](mobile-apps-home-page.md#activity-feed)。
+
+### <a name="use-bookmarks-in-your-reports"></a>在您的報表中使用書籤
+
+Power BI 行動裝置應用程式現支援在 Power BI 中建立的書籤。 當開啟應用程式時，您可以利用報表作者建立的書籤，以及您自己建立的任何個人書籤。 [深入了解](mobile-reports-in-the-mobile-apps.md#bookmarks)。
 
 ## <a name="october-2019"></a>2019 年 10 月
 
@@ -520,7 +534,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 #### <a name="android-devices"></a>Android 裝置
 **預覽：Intune 行動應用程式管理** - 對於 Microsoft Intune 行動應用程式管理員 (MAM) 的 Power BI 支援，現在針對 Android 裝置上的 Power BI Pro 使用者處於預覽狀態。 
 
-**我的最愛**：在 Android 裝置上標記您最愛的儀表板，並在一個便利的位置集中查看您的所有[最愛的 Power BI 儀表板和 Reporting Services 行動報表和 KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports)。 
+**我的最愛**：在 Android 裝置上標記您最愛的儀表板，並在一個便利的位置集中查看您的所有[最愛的 Power BI 儀表板和 Reporting Services 行動報表和 KPI](mobile-android-app-get-started.md#view-your-favorite-dashboards-and-reports)。 
 
 #### <a name="ios-devices"></a>iOS 裝置
 **連結**：磚和視覺效果中的 URL 現在都可以點選，並在瀏覽器中開啟。
@@ -667,7 +681,7 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 **Bing 和 R 磚**：在焦點模式中開啟 Bing 和 R 磚。​
 
 #### <a name="android-mobile-app"></a>Android 行動裝置應用程式
-**SQL Server 2016 行動報表及 KPI**：[檢視 SQL Server 2016 行動報表及 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)，然後在 SSRS 資料夾之間瀏覽。
+**SQL Server 2016 行動報表及 KPI** [檢視 SQL Server 2016 行動報表及 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)，然後在 SSRS 資料夾之間巡覽。
 
 **檢視報表**從儀表板上的磚開啟報表。
 
@@ -678,7 +692,7 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 
 **Bing 和 R 磚**：在焦點模式中開啟 Bing 和 R 磚。​
 
-**開始畫面上更多的動態磚** [在開始畫面上將 KPI 和資料列卡釘選](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)為動態磚，以便您可以一眼看到所有的關鍵度量。
+**開始畫面上更多的動態磚** [在開始畫面上將 KPI 和資料列卡釘選](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)為動態磚，以便一眼即可看到所有的關鍵計量。
 
 **捏合以縮放** 使用平板電腦的捏合以縮放，更詳細地檢查儀表板。
 

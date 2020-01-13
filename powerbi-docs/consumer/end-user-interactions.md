@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/03/2019
+ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 28e6cea55b02fabddd0b2f118631a09c0344b66f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863102"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75303818"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>如何在 Power BI 報表中相互進行視覺效果交叉篩選
 Power BI 的其中一項絕佳功能，是報表頁面上所有視覺效果互連的方式。 如果您選取其中一個視覺效果的資料點，頁面上包含該資料的其他視覺效果就會全部根據該選取項目而變更。 
@@ -27,20 +27,31 @@ Power BI 的其中一項絕佳功能，是報表頁面上所有視覺效果互�
 
 如果您尚未使用階層或切入，可以閱讀 [Power BI 中的向下切入](end-user-drill.md)，以了解相關資訊。 
 
-交叉篩選和交叉醒目提示有助於識別資料中某個值對另一個值的貢獻度。 例如，當您選取環圈圖中的 [合適性] 區段時，即會醒目提示該區段對 [月份單位總量] 圖表中每個資料行的貢獻度，並篩選折線圖。
+### <a name="cross-filtering-and-cross-highlighting"></a>交叉篩選和交叉醒目提示
 
-![視覺效果互動的影像](media/end-user-interactions/power-bi-interactions.png)
+交叉篩選和交叉醒目提示有助於識別資料中某個值對另一個值的貢獻度。 「交叉篩選」  與「交叉醒目提示」  這兩個字詞用來區分本文所述的兩項行為：當您使用 [篩選]  窗格來篩選視覺效果及將其醒目提示時所發生的情況。  
 
-請參閱[關於篩選及醒目提示](end-user-report-filter.md)。 
+讓我們在查看下列報表頁面時，定義這些詞彙。 「依區段的總類別量」環圈圖有兩個值：「審核」和「便利性」。 
 
+![報表頁面](media/end-user-interactions/power-bi-interactions-before.png)
 
-  
-> [!NOTE]
-> 「交叉篩選」  與「交叉醒目提示」  這兩個字詞用來區分本文所述的兩項行為：當您使用 [篩選]  窗格來篩選視覺效果及將其醒目提示時所發生的情況。  
+1. 看看當我們選取 [審核]  時會發生什麼事。
+
+    ![選取環圈圖 [審核] 區段後的報表頁面](media/end-user-interactions/power-bi-interactions-after.png)
+
+2. **交叉篩選**會移除不適用的資料。 選取環圈圖的 [審核]  會交叉篩選折線圖。 折線圖現在只顯示 [審核] 區段的資料點。 
+
+3. **交叉醒目提示**會保留所有原始資料點，但會讓不適用所選範圍的部分變暗。 選取環圈圖的 [審核]  會交叉醒目提示直條圖。 直條圖會讓所有適用 [便利性] 區段的資料變暗，並醒目提示適用 [審核] 區段的所有資料。 
+
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 - 如果報表所含的視覺效果支援[切入](end-user-drill.md)，則根據預設，當您切入某個視覺效果時，不會影響報表頁面上的其他視覺效果。     
-- 如果您使用 visualA 與 visualB 互動，則 visualA 中的視覺效果層級篩選將會套用至 visualB。
+- 交叉篩選和交叉醒目提示報表頁面上的其他視覺效果時，會保留視覺效果層級篩選。 因此，如果 VisualA 具有報表設計師或您所套用的視覺效果層級篩選，且您使用 visualA 與 visualB 互動，則來自 visualA 的視覺效果層級篩選即會套用至 visualB。
+
+    ![選取環圈圖 [審核] 區段後的報表頁面](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>後續步驟
-[如何使用報表篩選](../power-bi-how-to-report-filter.md)
+[如何使用報表篩選](../power-bi-how-to-report-filter.md)    
+
+
+[關於篩選及醒目提示](end-user-report-filter.md)。 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: fac23cf5814513c488a3403be420a2273992bae5
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831188"
+ms.lasthandoff: 01/04/2020
+ms.locfileid: "75657159"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>使用 Power BI 服務建立編頁報表的參數
 
@@ -61,7 +61,12 @@ ms.locfileid: "74831188"
     -   若要隱藏參數並防止發佈報表之後在報表伺服器上遭到修改，請選取 [內部]  。 之後就只能在報表定義中檢視報表參數。 您必須針對這個選項設定預設值，或允許參數接受 Null 值。  
   
 9. 選取 [確定]  。 
-  
+
+## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
+
+- 如果使用 Power BI 資料集或 Analysis Services 模型作為資料來源，則由於 DAX 限制，您無法在單一要求中傳遞超過 1,000 個參數值。 
+
+ 
 ## <a name="next-steps"></a>後續步驟
 
 請參閱[檢視編頁報表的參數](consumer/paginated-reports-view-parameters.md)以了解參數在 Power BI 服務中的樣子。

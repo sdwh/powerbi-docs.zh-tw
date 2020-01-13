@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 738ae599e116beaf5ff80098e4965ee3ed958b04
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699674"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223792"
 ---
-# <a name="power-automate-and-power-bi"></a>Power Automate 與 Power BI
+# <a name="power-automate-and-power-bi"></a>Power Automate 和 Power BI
 
-[Power Automate](https://flow.microsoft.com/documentation/getting-started) 是一款 SaaS 供應項目，在企業用戶所仰賴的越來越多種應用程式和 SaaS 服務之間，將工作流程自動化。 您可以使用 Flow 整合最愛的應用程式和服務 (包括 Power BI) 來將工作自動化，以取得通知、同步檔案、收集資料等。 工作流程自動化讓重複性的工作變得輕鬆。
+[Power Automate](https://docs.microsoft.com/power-automate/getting-started) 是一款 SaaS 供應項目，在企業用戶所仰賴的越來越多種應用程式和 SaaS 服務之間，將工作流程自動化。 您可以使用 Flow 整合最愛的應用程式和服務 (包括 Power BI) 來將工作自動化，以取得通知、同步檔案、收集資料等。 工作流程自動化讓重複性的工作變得輕鬆。
 
-[立即開始使用 Flow。](https://flow.microsoft.com/documentation/getting-started)
+[立即開始使用 Flow。](https://docs.microsoft.com/power-automate/getting-started)
 
 觀看 Sirui 建立流程，在 Power BI 警示觸發時，將詳細的電子郵件傳送給同事。 然後遵循影片下方的逐步指示親自試試看。
 
@@ -29,7 +29,7 @@ ms.locfileid: "74699674"
 
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>建立由 Power BI 資料警示觸發的流程
 
-### <a name="prerequisites"></a>先決條件
+### <a name="prerequisites"></a>必要條件
 本教學課程將示範如何建立兩個不同流程；一個從範本建立，一個從頭建立。 如果要跟著做，請[在 Power BI 中建立資料警示](service-set-data-alerts.md)，建立免費的 Slack 帳戶，並[註冊 Power Automate](https://flow.microsoft.com/#home-signup) (免費！)。
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>建立使用 Power BI 的流程 - 從範本
@@ -47,7 +47,7 @@ ms.locfileid: "74699674"
     ![搜尋結果](media/service-flow-integration/power-bi-flow-alert.png)
 
 
-### <a name="build-the-flow"></a>建置流程
+### <a name="build-the-flow"></a>組建應用程式
 此範本有一個觸發程序 (愛爾蘭獲得新奧運獎牌的 Power BI 資料警示) 和一個動作 (傳送電子郵件)。 在您選取欄位時，Flow 會顯示可以包含的動態內容。  在此範例中，訊息本文包含了磚的值和磚 URL。
 
 ![流程範本](media/service-flow-integration/power-bi-template1.png)
@@ -90,7 +90,7 @@ ms.locfileid: "74699674"
 1. 從下拉式清單中，選取您的警示名稱。  若要了解如何建立警示，請參閱 [Power BI 中的資料警示](service-set-data-alerts.md)。
    
     ![選取警示的名稱](media/service-flow-integration/power-bi-totalstores2.png)
-2. 選取 [新步驟]   > [新增動作]  。
+2. 選取 [新增步驟]   > [新增動作]  。
    
    ![新增步驟](media/service-flow-integration/power-bi-new-step.png)
 3. 搜尋 **Outlook**，然後選取 [建立事件]  。
@@ -107,7 +107,7 @@ ms.locfileid: "74699674"
     ![觸發 Outlook 通知的流程](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>後續步驟
-* [開始使用 Power Automate](https://flow.microsoft.com/documentation/getting-started/)
+* [開始使用 Power Automate](https://docs.microsoft.com/power-automate/getting-started/)
 * [在Power BI 服務中設定資料警示](service-set-data-alerts.md)
 * [在 iPhone 上設定資料警示](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [在 Power BI for Windows 10 行動裝置 App 中設定資料警示](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

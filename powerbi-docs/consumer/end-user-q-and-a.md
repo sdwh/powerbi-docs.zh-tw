@@ -6,15 +6,15 @@ ms.reviewer: mohammad ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 051803b3d9708289f37271afc02b7802fb52b50e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862667"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218134"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI **取用者**問與答
 
@@ -67,28 +67,30 @@ ms.locfileid: "73862667"
 
 在您熟悉資料過後，請返回儀表板並將游標放在問題方塊中。 即會開啟問與答畫面。
 
-![問與答畫面](media/end-user-q-and-a/power-bi-screen.png) 
+![問與答畫面](media/end-user-q-and-a/power-bi-suggested.png) 
 
 即使您還沒開始輸入，問與答也會顯示包含建議的新畫面，以協助您提出問題。 您會在基礎資料集中看到包含資料表名稱的片語和問題，甚至可能會看到資料集擁有者所建立的「精選」  問題。
 
 您可以選取其中任何一個以將其新增至問題方塊，然後縮小搜尋範圍以尋找特定解答。 
 
-問與答可協助您詢問問題的另一種方式為提示、自動完成和視覺提示。 
+![問與答畫面](media/end-user-q-and-a/power-bi-result.png) 
+
+Power BI 協助您詢問問題的另一種方式為使用提示、自動完成和視覺提示等功能。Power BI 會在儀表板問與答、報表問與答，以及問與答視覺效果中提供此說明。 我們會在後文的[鍵入自然語言查詢以建立問與答視覺效果](#create-a-qa-visual-by-typing-a-natural-language-query)一節中詳細討論這些功能
 
 <!-- ![video](../visuals/media/end-user-q-and-a/qna4.gif) -->
 
 
-## <a name="the-qa-visual"></a>問與答視覺效果
+## <a name="the-qa-visual-in-power-bi-reports"></a>Power BI 報表中的問與答視覺效果
 
-問與答視覺效果可讓您詢問自然語言問題，並以視覺效果形式獲得解答。 問與答視覺效果的行為就像任何其他視覺效果一樣，可交叉篩選/交叉醒目顯示，也支援書籤和註解。 
+問與答視覺效果可讓您詢問自然語言問題，並以視覺效果形式獲得解答。 問與答視覺效果的表現和報表中任何其他視覺效果如出一轍，可交叉篩選/交叉醒目顯示，也支援書籤和註解。 
 
 問與答視覺效果識別方式為其出現在頂端的問題方塊。 這是您使用自然語言來輸入或鍵入問題的地方。 您可以重複使用問與答視覺效果來詢問資料的相關問題。 當您離開報表時，問與答視覺效果會重設為其預設值。 
 
 ![預設問與答視覺效果的螢幕擷取畫面](media/end-user-q-and-a/power-bi-q-and-a-default.png)
 
 
-## <a name="use-the-qa-visual"></a>使用問與答視覺效果
-若要使用問與答視覺效果，請選取其中一個建議的問題，或鍵入您自己的自然語言問題。 
+## <a name="use-qa"></a>使用問與答 
+若要在儀表板上使用問與答或在報表中使用問與答視覺效果，請選取其中一個建議的問題，或鍵入您自己的自然語言問題。 
 
 ### <a name="create-a-qa-visual-by-using-a-suggested-question"></a>使用建議的問題來建立問與答視覺效果
 
@@ -105,26 +107,45 @@ ms.locfileid: "73862667"
 
 如果您不確定要詢問的問題類型或要使用的術語，請展開 [顯示所有建議]  或查看報表中的其他視覺效果。 這可協助您熟悉資料集的字詞和內容。
 
-1. 使用自然語言在問與答欄位中鍵入您的問題。 當您鍵入問題時，Power BI 會使用自動完成、建議和意見反應來協助您。
+1. 使用自然語言在問與答欄位中鍵入您的問題。 當您鍵入問題時，Power BI 會使用自動完成、視覺提示和意見反應來協助您。
 
-    - Power BI 無法辨識的字組會使用紅色底線標示。 Power BI 會盡可能協助您定義這些字組。 如果您看到正確的定義，請從下拉式清單選取此定義。  
+    **自動完成** - 當您鍵入問題時，Power BI 問與答會顯示內容相關建議，協助您快速有效地使用自然語言。 當您鍵入時，您會立即收到意見反應和結果。 該體驗類似於在搜尋引擎中鍵入。
 
-        ![問與答問題方塊中加紅色底線的字詞](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    在此範例中，我們想要最後一個建議。 
 
-    - 如果沒有正確的定義，請嘗試另一個字詞，或選取加紅色底線的字組，要求報表擁有者新增此字組。
+    ![問與答使用藍色加底線的字詞](media/end-user-q-and-a/power-bi-autocomplete.png)
 
-        ![在問與答問題方塊中鍵入問題](media/end-user-q-and-a/power-bi-q-and-a-owner.png)
+    **紅色/藍色底線** - Power BI 問與答會顯示加底線的文字，協助您查看 Power BI 辨識出或無法辨識的字詞。 藍色實心底線表示 Power BI 辨識出該字詞。 以下範例顯示問與答辨識出**商店**一詞。
 
-    - 當您鍵入更多問題時，Power BI 會在不了解問題時讓您知道，並嘗試協助。 在以下範例中，Power BI 會詢問您「您的意思是...」，並使用資料集中的術語來建議不同問題陳述方式。 
+    ![問與答使用下拉式建議來完成問題](media/end-user-q-and-a/power-bi-blue.png)
 
-        ![問與答視覺效果提供建議的校正](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+    選取藍色底線的字詞，以顯示建議問題的下拉式清單。 
 
-2. 選取 Power BI 的校正之後，您的結果會顯示為折線圖。 
+    ![下拉式清單加上您也可以嘗試的建議](media/end-user-q-and-a/power-bi-try.png)
+
+
+    通常當您在問與答中鍵入字詞時，該字詞會以紅色底線標示。 紅色底線可能表示兩個潛在問題的其中一個。 第一類問題可分類為低信賴度。 如果您鍵入含糊或不明確的字組，此欄位會加紅色底線。 例如 'Location' (位置)。 多個欄位可能會包含 'Location' (位置)，因此系統會使用紅色底線提示您選擇有意的欄位。 在此範例中，Power BI 會提示您選取要用於 'VanArsdel' 的欄位。
+    
+    ![問與答問題方塊中加紅色底線的字詞](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    
+    低信賴度的另一例為，當您鍵入 'area' (區域)，但其比對的資料行卻是 'district' (區域)。 多虧與 Bing 和 Office 的整合，Power BI 問與答可辨識代表同一件事的字組。 問與答會為字詞加上紅色底線，讓您知道這不是直接相符的項目
+
+    ![問與答使用同義字重組問題](media/end-user-q-and-a/power-bi-red.png)
+
+    第二種問題類型是當問與答完全無法辨識該字組時。 例如使用 'geography'，但其不存在於資料中的任何位置。 該字出現在英文字典中，但問與答以紅色底線標示此字詞。 Power BI 問與答無法建立視覺效果，建議您要求報表設計師新增該字詞。
+
+    ![建議您要求設計師新增 geography 一字的問與答](media/end-user-q-and-a/power-bi-geography.png)
+
+    **建議** - 當您鍵入更多問題時，Power BI 會在不了解問題時讓您知道，並嘗試協助。 在以下範例中，Power BI 會詢問您「您的意思是...」，並使用資料集中的術語來建議不同問題陳述方式。 
+
+    ![問與答視覺效果提供建議的校正](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+
+    選取 Power BI 的校正之後，您的結果會顯示為折線圖。 
 
     ![以折線圖顯示的問與答視覺效果結果](media/end-user-q-and-a/power-bi-q-and-a-line.png)
 
 
-3. 但您可以將折線圖變更為另一種視覺效果類型。  
+    但您可以將折線圖變更為另一種視覺效果類型。  
 
     ![將「以直條圖顯示」的問與答視覺效果新增至問題](media/end-user-q-and-a/power-bi-q-and-a-specify-type.png)
 

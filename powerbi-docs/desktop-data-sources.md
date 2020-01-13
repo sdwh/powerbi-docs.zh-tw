@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 88a49af62a26b64d8b913b6df03c82841f31a489
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410966"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75222122"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 
@@ -24,14 +24,12 @@ ms.locfileid: "74410966"
 
 ![在 Power BI Desktop 中取得資料](media/desktop-data-sources/data-sources-01.png)
 
-選取 [其他...]  ， 該選項來自 [最常見]  功能表，如此即會顯示 [取得資料]  視窗。 您也可以藉由直接選取 [取得資料]  **圖示按鈕**，叫出 [取得資料]  視窗 (並略過 [最常見]  功能表)。
+選取 [其他...]  ， 該選項來自 [最常見]  功能表，如此即會顯示 [取得資料]  視窗。 您也可以藉由直接選取**取得資料** **圖示按鈕**，叫出 [取得資料]  視窗 (並略過 [最常見]  功能表)。
 
 ![[取得資料] 按鈕](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Power BI 小組會持續將可用的資料來源擴充到 **Power BI Desktop** 和 **Power BI 服務**。 因此，您經常會看到舊版工作進行中的資料來源標示為 *Beta* 或「預覽」  。 任何標示為 *Beta* 或「預覽」  的資料來源，受到的支援和功能都有限制，不應該用在生產環境。 
-
-> 此外，任何為 **Power BI Desktop** 標記為「搶鮮版 (Beta)」  或「預覽」  的資料來源都無法在正式推出 (GA) 前於 **Power BI 服務**或其他 Microsoft 服務中使用。
+> Power BI 小組會持續將可用的資料來源擴充到 **Power BI Desktop** 和 **Power BI 服務**。 因此，您經常會看到舊版工作進行中的資料來源標示為 *Beta* 或「預覽」  。 任何標示為 *Beta* 或「預覽」  的資料來源，受到的支援和功能都有限制，不應該用在生產環境。 此外，任何為 **Power BI Desktop** 標記為「搶鮮版 (Beta)」  或「預覽」  的資料來源都無法在正式推出 (GA) 前於 **Power BI 服務**或其他 Microsoft 服務中使用。
 
 ## <a name="data-sources"></a>資料來源
 資料類型會組織成下列類別：
@@ -49,7 +47,7 @@ ms.locfileid: "74410966"
 [檔案]  類別提供下列資料連線：
 
 * Excel
-* Text/CSV
+* 文字/CSV
 * XML
 * JSON
 * 資料夾
@@ -65,7 +63,7 @@ ms.locfileid: "74410966"
 * SQL Server 資料庫
 * Access 資料庫
 * SQL Server Analysis Services 資料庫
-* Oracle 資料庫
+* Oracle Database
 * IBM DB2 資料庫
 * IBM Informix 資料庫 (搶鮮版 (Beta))
 * IBM Netezza
@@ -82,7 +80,7 @@ ms.locfileid: "74410966"
 * Vertica
 * Snowflake
 * Essbase
-* AtScale cube 搶鮮版 (Beta)
+* AtScale Cube
 * BI 連接器
 * Dremio
 * Exasol
@@ -104,7 +102,7 @@ ms.locfileid: "74410966"
 * Power BI 資料集
 * Power BI 資料流程
 * Common Data Service
-* Power Platform 資料流程 (搶鮮版 (Beta))
+* Power Platform 資料流程
 
 下圖顯示 **Power Platform** 的 [取得資料]  視窗。
 
@@ -118,13 +116,14 @@ ms.locfileid: "74410966"
 * Azure Blob 儲存體
 * Azure 表格儲存體
 * Azure Cosmos DB
-* Azure Data Lake Storage Gen2 (搶鮮版 (Beta))
+* Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight 互動式查詢
 * Azure 資料總管 (Kusto)
-* Azure 成本管理 (搶鮮版 (Beta))
+* Azure 成本管理
+* Azure 時間序列深入解析 (Beta)
 
 下圖顯示 [Azure]  的 [取得資料]  視窗。
 
@@ -136,7 +135,7 @@ ms.locfileid: "74410966"
 * Microsoft Exchange Online
 * Dynamics 365 (線上)
 * Dynamics NAV
-* Microsoft Dynamics 365 Business Central
+* Dynamics 365 Business Central
 * Dynamics 365 Business Central (內部部署)
 * Microsoft Azure 使用量見解 (搶鮮版 (Beta))
 * Azure DevOps (Beta)
@@ -149,7 +148,7 @@ ms.locfileid: "74410966"
 * Data.World - 取得資料集 (搶鮮版 (Beta))
 * Facebook
 * GitHub (Beta)
-* MailChimp (Beta)
+* MailChimp (搶鮮版 (Beta))
 * Merketo (Beta)
 * Mixpanel (搶鮮版 (Beta))
 * Planview Enterprise One - PRM (搶鮮版 (Beta))
@@ -209,7 +208,7 @@ ms.locfileid: "74410966"
 > [!NOTE]
 > 目前無法連線至使用 Azure Active Directory 保護的自訂資料來源。
 
-## <a name="connecting-to-a-data-source"></a>連接到資料來源
+## <a name="connecting-to-a-data-source"></a>連線到資料來源
 若要連接至資料來源，請從 [取得資料]  視窗選取資料來源，然後選取 [連接]  。 在下圖中，從 [其他]  資料連線類別選取了 [Web]  。
 
 ![連線到 Web](media/desktop-data-sources/data-sources-08.png)
@@ -236,7 +235,7 @@ PBIDS 檔案是具有特定結構的 Power BI Desktop 檔案，而且具有 .PBI
 
 之後，使用者可以開始建置視覺效果，或重新瀏覽 [最近的來源]  以將一組新的資料表載入模型中。 
 
-目前 .PBIDS 檔案只支援一個檔案中的單一資料來源。 指定一個以上的資料來源會導致錯誤。 
+.PBIDS 檔案目前在一個檔案中只支援一個資料來源。 指定一個以上的資料來源會導致錯誤。 
 
 若要建立 .PBIDS 檔案，系統管理員必須指定單一連線的必要輸入，而且可以指定連線模式 (**DirectQuery** 或**匯入**)。 若檔案中缺少 **mode** 或為 Null，則會提示在 Power BI Desktop 中開啟檔案的使用者選取 [DirectQuery] 或 [匯入]。 
 

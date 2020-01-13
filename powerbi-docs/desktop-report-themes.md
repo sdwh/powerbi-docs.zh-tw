@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c97316b0509f7d243befa5cfe5310aa0f5826335
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4fdcfd4d7684cef3e6b703709b2739ebbff1badd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880001"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223589"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用報表主題
 透過**報表主題**，您可以將設計變更套用至整個報表，例如使用公司色彩、變更圖示集，或是套用新的預設視覺效果格式。 當您套用**報表主題**時，報表中的所有視覺效果都會使用您選取之主題中的色彩和格式。 有少數例外狀況，此文章稍後將進行說明。
@@ -23,16 +23,16 @@ ms.locfileid: "73880001"
 
 當您套用自訂**報表主題**時，您需要使用基本架構的 JSON 檔案。 接著，將此 JSON 檔案匯入 Power BI Desktop，並將它套用到您的報表。
 
-透過主題 JSON 檔案，您也可以對 [格式化]  窗格中幾乎所有的元素進行自訂並加以標準化。 目標是提供對於報表外觀及操作的完整控制，達到細微的層級。
+您也可以透過直接在 Power BI Desktop 中進行自訂，或透過主題 JSON 檔案，對 [格式化]  窗格中幾乎所有的項目進行自訂並加以標準化。 目標是提供對於報表外觀及操作的完整控制，達到細微的層級。
 
 ## <a name="how-report-themes-work"></a>報表主題的運作方式
-若要在 Power BI Desktop 報表中套用報表主題，請從可用的內建報表主題中選取，或匯入自訂的主題。
+若要在 Power BI Desktop 報表中套用報表主題，請從可用的內建報表主題中選取，或是建立或匯入自訂的主題。
 
 | 內建報表主題 | 預設色彩序列    |
 |------ |---------- |
 | 預設   | ![預設](media/desktop-report-themes/report-themes-color-scheme-default.png)|
 | 高樓  | ![高樓](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
-| 主管     | ![高階主管](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+| 高階主管     | ![高階主管](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
 | 先驅  | ![先驅](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
 | 創新    | ![創新](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
 | 盛開     | ![盛開](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
@@ -60,7 +60,7 @@ ms.locfileid: "73880001"
 
 若要匯入自訂的報表主題，請從 [常用]  功能區選取 [切換主題]  按鈕。 然後，從下拉式功能表選取 [匯入主題]  。
 
-![匯入主題](media/desktop-report-themes/report-themes-3a.png)
+![匯入佈景主題](media/desktop-report-themes/report-themes-3a.png)
 
 這會出現一個視窗，以供您瀏覽至 JSON 主題檔案的位置。 Power BI Desktop 會尋找 .JSON 檔案，因為 JSON 是 Power BI 報表主題檔案類型。 在下圖中，有幾個假日主題檔案可供使用。 我們為 3 月選擇假日主題。
 
@@ -70,7 +70,48 @@ ms.locfileid: "73880001"
 
 ![已成功匯入主題](media/desktop-report-themes/report-themes_5.png)
 
-我們已匯入主題檔案，現在來查看一下 JSON 檔案結構。
+有兩種方式可在 Power BI Desktop 中自訂主題。 讓我們依序分別探討。
+
+
+## <a name="customize-report-themes-preview"></a>自訂報表主題 (預覽)
+
+自 2019 年 12 月的 **Power BI Desktop** 版本開始，現在有兩種方式可自訂報表主題：
+
+* 在 Power BI Desktop 中建立和自訂主題 (預覽)
+* 建立自訂報表主題 JSON 檔案並進行自訂
+
+若要直接在 Power BI Desktop 中自訂主題，您必須先選取 [檔案] > [選項和設定] > [選項]  ，然後在 [預覽功能]  區段中，選取 [自訂目前的主題]  旁的方塊，如下圖所示。
+
+![啟用自訂主題](media/desktop-report-themes/report-themes_5a.png)
+
+系統可能會提示您重新啟動 Power BI Desktop，以啟用預覽功能。
+
+重新啟動之後，您可以選取 [首頁]  功能區，然後從功能區選取 [切換主題] > [自訂目前的主題]  來開始自訂目前的主題。 對話方塊會隨即出現，並顯示您可以自訂現有主題的多種方式。
+
+![自訂主題](media/desktop-report-themes/report-themes_5b.png)
+
+如果您喜歡現有的主題並想要進行一些調整，您可以選取現有的主題，然後從對話方塊選取 [自訂目前的主題]  ，如下圖所示。 
+
+![自訂目前的主題](media/desktop-report-themes/report-themes_5c.png)
+
+> [!NOTE]
+> 上圖是在啟用新的功能區之後所擷取，目前為預覽狀態。 您可以選取 [檔案] > [選項和設定] > [選項]  ，然後在 [預覽功能]  區段中選取 [New ribbon preview] \(新的功能區預覽\)  來啟用新的功能區預覽。
+
+可自訂的主題設定會以下列類別反映在自訂主題對話方塊中：
+
+* 主題名稱 (可命名您所自訂的主題)，以及各種色彩設定 (主題色彩、人氣色彩、發散的色彩等)
+* 文字設定，包括字型家族、大小和色彩，以及軸標題、色彩、卡片和 KPI，以及索引標籤標頭
+* 視覺效果項目，例如背景、框線、標頭和工具提示
+* 頁面項目，例如底色圖案和背景
+* [篩選] 窗格設定，包括背景色彩、透明度、字型和圖示色彩、大小、篩選卡片等
+
+一旦您進行變更並選取 [套用並儲存]  按鈕之後，您的主題將會儲存，並可在之後用於目前的報表及予以匯出。 
+
+以這種方式自訂目前的主題，可讓您快速輕鬆地建立自訂主題的視覺效果。 不過，對於需要修改主題 JSON 檔案的主題進行調整有一些限制，如下一節所述。
+
+> [!TIP]
+> 您可以使用 [自訂目前的主題]  對話方塊來自訂大多數的主題項目，接著可匯出 JSON 檔案，並手動進行微調 (藉由修改 JSON 檔案本身)。 然後，您可以重新命名該微調的 JSON 檔案，將其匯入，並進行您想要的所有調整。
+
 
 ## <a name="structure-of-a-report-theme-json-file"></a>報表主題 JSON 檔案的結構
  上一節中我們所選取的基本 JSON 檔案 (*St Patrick's Day.json* 檔案) 在編輯器中開啟時，會如下列螢幕擷取畫面所示：

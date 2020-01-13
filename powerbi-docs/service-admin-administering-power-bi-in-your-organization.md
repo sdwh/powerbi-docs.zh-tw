@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: dced3d2bfe844e857556386fb208395faab3fd8b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698961"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548576"
 ---
 # <a name="what-is-power-bi-administration"></a>什麼是 Power BI 管理？
 
@@ -61,7 +61,7 @@ Power BI 服務系統管理員角色不會將指派授權的能力授與使用�
 | 確定對內部原則、法律和規定的合規性 | <ul><li>管理商務資料的分類<br><li>協助執行內容發佈和共用原則</ul>|
 | 管理 Power BI 資源 |<ul><li>管理工作區<br><li>發行自訂視覺效果<br><li>驗證用來在其他應用程式中嵌入 Power BI 的程式碼|
 | 為租用戶使用者提供說明和支援 |<ul><li>針對資料存取和其他問題進行疑難排解</ul>|
-| 其他工作 |<ul><li>部署 Power BI Desktop (例如：使用 System Center Configuration Manager)<br><li>使用 Intune 管理 Power BI 行動應用程式部署<br><li>管理資料隱私權和安全性，例如來源資料安全性</ul>|
+| 其他工作 |<ul><li>部署 Power BI Desktop (例如：使用 Microsoft Endpoint Configuration Manager)<br><li>使用 Intune 管理 Power BI 行動應用程式部署<br><li>管理資料隱私權和安全性，例如來源資料安全性</ul>|
 
 ## <a name="administrative-tools"></a>系統管理工具
 

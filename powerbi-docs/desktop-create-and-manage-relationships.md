@@ -10,10 +10,10 @@ ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73869121"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中建立和管理關聯性
@@ -23,12 +23,12 @@ ms.locfileid: "73869121"
 若您同時查詢兩個或多個資料表，在載入資料時，Power BI Desktop 會嘗試為您尋找及建立關聯性。 系統會自動設定基數、交叉篩選方向和作用中屬性。 Power BI Desktop 會查看您要查詢之資料表中的資料行名稱，以判斷是否有任何可能的關聯性。 如果有，則會自動建立這些關聯性。 如果 Power BI Desktop 不太確定是否有相符項目，則不會自動建立關聯性。 您仍然可以使用 [管理關聯性] 對話方塊來建立或編輯關聯性。
 
 ## <a name="create-a-relationship-by-using-autodetect"></a>使用自動偵測建立關聯性
-在 **常用** 索引標籤上，按一下 **管理關聯性**\>**自動偵測**。
+在 [常用]  索引標籤上，按一下 [管理關聯性]  \> [自動偵測]  。
 
 ![](media/desktop-create-and-manage-relationships/automaticrelationship.gif)
 
 ## <a name="create-a-relationship-manually"></a>以手動方式建立關聯性
-1. 在 **常用** 索引標籤上，按一下 **管理關聯性**\> **新增**。
+1. 在 [常用]  索引標籤上，按一下 [管理關聯性]  \> [新增]  。
 2. 在 [建立關聯性]  對話方塊中，選取第一個資料表下拉式清單中的資料表，然後選取您要用於關聯性的資料行。
 3. 在第二個資料表下拉式清單中，選取您要用於關聯性的其他資料表，然後選取您要使用的其他資料行，再按一下 [確定]  。
 
@@ -80,7 +80,7 @@ ms.locfileid: "73869121"
 以下將進行一些快速教學課程，讓您更了解關聯性在 Power BI Desktop 中的運作方式。
 
 >[!TIP]
->您可以自行完成這個課程。 將下面的 [專案時數] 資料表複製到 Excel 工作表，選取所有資料格，然後按一下 **插入**\>**資料表**。 在 [建立資料表]  對話方塊中，直接按一下 [確定]  。 然後在 [資料表名稱]  中輸入「專案時數」  。 對 [公司專案] 資料表執行相同的動作。 您可以接著使用 Power BI Desktop 中的 [取得資料]  匯入資料。 選取您的活頁簿和資料表做為資料來源。
+>您可以自行完成這個課程。 將下面的 [專案時數] 資料表複製到 Excel 工作表，選取所有資料格，然後按一下 [插入]  \> [資料表]  。 在 [建立資料表]  對話方塊中，直接按一下 [確定]  。 然後在 [資料表名稱]  中輸入「專案時數」  。 對 [公司專案] 資料表執行相同的動作。 您可以接著使用 Power BI Desktop 中的 [取得資料]  匯入資料。 選取您的活頁簿和資料表做為資料來源。
 
 第一個資料表 [專案時數] 是工作票證記錄，記錄特定人員在特定專案上工作的時數。 
 

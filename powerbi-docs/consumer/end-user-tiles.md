@@ -10,10 +10,10 @@ ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 92c473b5df6c21509ba32e41d88dd43c265fa3a0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73861422"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 的儀表板圖格
@@ -51,17 +51,17 @@ ms.locfileid: "73861422"
    
     從這裡您可以：
    
-   * [開啟用於建立此磚的報表](end-user-reports.md) ![報表圖示](./media/end-user-tiles/chart-icon.jpg)  
+   * [開啟用於建立此磚的報表](end-user-reports.md)![報表圖示](./media/end-user-tiles/chart-icon.jpg)  
    
-   * [開啟用於建立圖格的問與答問題](end-user-reports.md) ![問與答圖示](./media/end-user-tiles/qna-icon.png)  
+   * [開啟用於建立磚的問與答問題](end-user-reports.md)![問與答圖示](./media/end-user-tiles/qna-icon.png)  
    
 
-   * [開啟用於建立此圖格的活頁簿](end-user-reports.md) ![工作表圖示](./media/end-user-tiles/power-bi-open-worksheet.png)  
-   * [以焦點模式檢視圖格](end-user-focus.md) ![焦點圖示](./media/end-user-tiles/fullscreen-icon.jpg)  
-   * [檢視見解](end-user-insights.md) ![見解圖示](./media/end-user-tiles/power-bi-insights.png)
-   * [新增註解並開始討論](end-user-comment.md) ![註解圖示](./media/end-user-tiles/comment-icons.png)
-   * [管理儀表板磚上設定的警示圖示](end-user-alerts.md)  ![警示圖示](./media/end-user-tiles/power-bi-alert-icon.png)
-   * [在 Excel 中開啟資料](end-user-export.md)  ![匯出圖示](./media/end-user-tiles/power-bi-export-icon.png)
+   * [開啟用於建立此磚的活頁簿](end-user-reports.md)![工作表圖示](./media/end-user-tiles/power-bi-open-worksheet.png)  
+   * [在焦點模式中檢視磚](end-user-focus.md)![焦點圖示](./media/end-user-tiles/fullscreen-icon.jpg)  
+   * [檢視見解](end-user-insights.md)![見解圖示](./media/end-user-tiles/power-bi-insights.png)
+   * [新增註解並開始討論](end-user-comment.md)![註解圖示](./media/end-user-tiles/comment-icons.png)
+   * [管理儀表板磚上設定的警示](end-user-alerts.md)![警示圖示](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [在 Excel 中開啟資料](end-user-export.md)![匯出圖示](./media/end-user-tiles/power-bi-export-icon.png)
 
 
 3. 若要關閉動作功能表，選取畫布中的空白區域。

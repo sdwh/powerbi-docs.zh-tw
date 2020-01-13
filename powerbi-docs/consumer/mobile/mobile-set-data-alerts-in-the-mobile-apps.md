@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/18/2017
-ms.author: mshenhav
-ms.openlocfilehash: c843a3ef8ddfde591dec27ea523cb73857d1a289
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/11/2019
+ms.author: painbar
+ms.openlocfilehash: 7668df00d63fc1bdb8bb0e113fa9ad7e0f029147
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870099"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221324"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中設定資料警示
 適用於︰
@@ -62,7 +62,8 @@ ms.locfileid: "73870099"
 
 1. 在儀表板中，點選出現警示的數字磚或量測計磚。  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
+   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+
 2. 點選鈴鐺圖示 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png)。  
 3. 點選警示的名稱編輯警示、點選滑桿關閉電子郵件警示，或點選垃圾桶刪除警示。
    
@@ -148,10 +149,12 @@ ms.locfileid: "73870099"
 2. 您如有設定傳送電子郵件警示，將會在收件匣中看到類似如下所述的狀況。
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
-3. Power BI 會在您的**通知中心**新增一則訊息，並將新的警示圖示新增至適用的磚 ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png)。
-4. 點選全域瀏覽按鈕 ![](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) 以[開啟 [通知中心]  ](mobile-apps-notification-center.md)，查看警示詳細資料。
+3. Power BI 會將訊息新增至[通知中心](mobile-apps-notification-center.md)，並在 (iOS 和 Android) 標題列的鈴鐺圖示 ![鈴鐺圖示](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) 或 (Windows 10 裝置) 全域導覽按鈕 ![全域導覽按鈕](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) 上新增一個黃點。
+
+
+4. 點選鈴鐺圖示 ![鈴鐺圖示](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) 或全域導覽按鈕 ![全域導覽按鈕](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) 以[開啟**通知中心**](mobile-apps-notification-center.md)並查看警示詳細資訊。
    
-     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-notifications.png) 
+     
 
 > [!NOTE]
 > 警示只對重新整理的資料有作用。 當資料重新整理時，Power BI 會檢查該資料有無設定警示。 若資料已達警示臨界值，便會觸發警示。

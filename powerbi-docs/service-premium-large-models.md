@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/29/2019
+ms.date: 12/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 934f045e2546893c48211729402a773b4bbe2aa0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696753"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223715"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium 中的大型模型 (預覽)
 
@@ -118,23 +118,4 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 - **多地理位置支援**：啟用 Premium 檔案的資料集，在也啟用了[多地理位置](service-admin-premium-multi-geo.md)的容量上會失敗。
 
 - **下載至 Power BI Desktop**：如果資料集儲存在 Premium 檔案上，[下載為 .pbix](service-export-to-pbix.md) 檔案將會失敗。
-- **支援的區域**：下列區域支援大型模型。
-  - 澳洲東部
-  - 澳大利亞東南部
-  - 美國中部
-  - 東亞
-  - 美國東部
-  - 美國東部 2
-  - 日本東部
-  - 日本西部
-  - 南韓中部
-  - 南韓南部
-  - 美國中北部
-  - 北歐
-  - 美國中南部
-  - 東南亞
-  - 英國南部
-  - 英國西部
-  - 西歐
-  - 美國西部
-  - 美國西部 2
+- **支援的區域**：大型模型在支援進階檔案儲存體的所有 Azure 區域中受到支援。 若要深入了解，請參閱[依區域提供的產品](https://azure.microsoft.com/global-infrastructure/services/?products=storage)。

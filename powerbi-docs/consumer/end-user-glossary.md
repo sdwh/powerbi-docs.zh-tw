@@ -2,19 +2,18 @@
 title: Power BI 取用者字彙
 description: Power BI 引進許多新詞彙和熟悉詞彙的新用法。 使用我們的字彙來熟悉 Power BI 術語。
 services: power-bi
-ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 12/18/2019
 ms.author: mihart
-ms.openlocfilehash: 8c7a0463e8a521482a1aab6a53ae9656585a7849
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: 046f35613e5fe748e93389fbe10a77af08f449e3
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548548"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75303911"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」  及其連線方式的高階概觀。
@@ -76,7 +75,9 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **content view (內容檢視)**
 
-**cross filter, cross highlight (交叉篩選、交叉醒目提示)**
+**交叉篩選**適用於視覺互動。 交叉篩選會移除不適用的資料。 例如，選取環圈圖的 [審核]  會交叉篩選折線圖。 折線圖現在只顯示適用 [審核] 區段的資料點。
+
+**交叉醒目提示**適用於視覺互動。 交叉醒目提示會保留所有原始資料點，但會讓不適用所選範圍的部分變暗。 例如，選取環圈圖的 [審核]  會交叉醒目提示直條圖。 直條圖會讓所有不適用 [審核] 區段的資料變暗，並醒目提示適用 [審核] 區段的所有資料。
 
 **custom visual (自訂視覺效果)** ：由社群和 Microsoft 建立的視覺效果。 它們可從 Office 市集下載，並在 Power BI 報表中使用。
 
@@ -310,6 +311,8 @@ Power BI 儀表板包含報表圖格。
 **value, values (值)** ：要視覺化的數值資料。
 
 **visual, visualization (視覺效果)** ：圖表。 一部分的視覺效果包括：橫條圖、樹狀結構圖、環圈圖、地圖。
+
+**視覺效果互動**：報表頁面上所有視覺效果互連方式是 Power BI 絕佳功能的其中一項。 如果您選取其中一個視覺效果的資料點，頁面上包含該資料的其他視覺效果就會全部根據該選取項目而變更。
 
 **Visualizations pane (視覺效果窗格)** ：在 Power BI Desktop 和 Power BI 服務共用報表畫布中傳遞的視覺效果範本名稱。 包含每個原生視覺效果類型的小型範本 (也稱為圖示)。  
 
