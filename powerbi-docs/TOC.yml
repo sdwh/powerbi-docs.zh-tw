@@ -709,6 +709,8 @@
               href: service-dataflows-overview.md
             - name: 建立及使用資料流程
               href: service-dataflows-create-use.md
+            - name: 使用具有資料流程的強化計算引擎
+              href: service-dataflows-enhanced-compute-engine.md
             - name: 使用 Power BI Premium 的計算實體
               href: service-dataflows-computed-entities-premium.md
             - name: 透過資料流程連線到資料來源
@@ -801,6 +803,8 @@
               items:
                 - name: 使用應用程式連線到服務
                   href: service-connect-to-services.md
+                - name: Azure Carbon Calculator
+                  href: service-connect-to-azure-carbon-calculator.md
                 - name: GitHub
                   href: service-connect-to-github.md
                 - name: Office365Mon
