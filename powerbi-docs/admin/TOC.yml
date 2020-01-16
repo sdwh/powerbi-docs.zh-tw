@@ -54,8 +54,6 @@
               href: service-security-using-microsoft-cloud-app-security-controls.md
         - name: 資料列層級安全性
           href: ../service-admin-rls.md
-        - name: 封存的工作區
-          href: ../service-admin-power-bi-archived-workspace.md
         - name: 使用 Intune 設定行動應用程式
           href: ../service-admin-mobile-intune.md
     - name: 參考
