@@ -357,6 +357,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: 建立並使用矩陣視覺效果
               href: visuals/desktop-matrix-visual.md
+            - name: 建立及使用 Power Apps 視覺效果
+              href: visuals/power-bi-visualization-powerapp.md
             - name: 關於 Power BI 問與答視覺效果
               href: visuals/power-bi-visualization-q-and-a.md
             - name: 建立並使用 R 視覺效果
@@ -1035,6 +1037,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: 從遠端設定行動裝置應用程式存取
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: 設定 WAP 與 AD FS
+              href: report-server/connect-adfs-wap-report-server.md
             - name: 使用 Azure AD 進行遠端行動存取
               href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: 編輯 Excel 活頁簿
