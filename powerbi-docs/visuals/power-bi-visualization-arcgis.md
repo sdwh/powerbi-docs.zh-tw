@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 359d36e3becb58386aeaca66f12670bd463644d1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c9e0658eb277ae25b3a418dd80fb9323be6f6ab0
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73871106"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758391"
 ---
-# <a name="arcgis-maps-in-power-bi-desktop"></a>Power BI Desktop 中的 ArcGIS Maps
+# <a name="create-arcgis-maps-in-power-bi-desktop"></a>在 Power BI Desktop 中建立 ArcGIS 地圖
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 

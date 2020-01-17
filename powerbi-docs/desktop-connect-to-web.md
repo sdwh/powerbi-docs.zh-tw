@@ -1,6 +1,6 @@
 ---
-title: 從 Power BI Desktop 連接至網頁
-description: 輕鬆地連接並使用在 Power BI Desktop 中的網頁
+title: 從 Power BI Desktop 連線至網頁
+description: 輕鬆地連線並使用在 Power BI Desktop 中的網頁資料
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
@@ -10,15 +10,16 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 139cdcfe9629afb25a78bf50ae7714db670721e3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f76d3e61c3817d3e5ab4480c935abe4dc7346e54
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878441"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761511"
 ---
-# <a name="connect-to-a-web-page-from-power-bi-desktop"></a>從 Power BI Desktop 連接至網頁
-您可以連接至網頁並將其資料匯入 Power BI Desktop，以在您的視覺效果和資料模型中使用。
+# <a name="connect-to-webpages-from-power-bi-desktop"></a>從 Power BI Desktop 連線至網頁
+
+您可以連線至網頁並將其資料匯入 Power BI Desktop，以在您的視覺效果和資料模型中使用。
 
 在 Power BI Desktop 中，從 [主資料夾]  功能區選取 [取得資料] > [Web]  。
 

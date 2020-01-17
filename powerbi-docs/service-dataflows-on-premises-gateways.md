@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53124f2b1ede9d8a9c3a9866416f713af1fd2061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efd110ad73b1bd72813d418a1f641613c88dc0d5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877260"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762569"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>搭配內部部署資料來源使用資料流程
 
@@ -24,7 +24,8 @@ ms.locfileid: "73877260"
 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>設定企業閘道以與資料流程搭配使用
 
-若要在資料流程中使用內部部署資料來源，所有建立該資料流程的使用者都必須安裝並設定**企業閘道**。 建立資料流程的使用者也必須是企業閘道的管理員，才能針對資料流程使用該閘道。
+若要使用閘道建立資料流程，使用者必須是企業閘道的系統管理員，或系統管理員必須共用其打算與使用者一起使用的資料來源。 
+
 
 > [!NOTE]
 > 資料流程只能使用企業閘道來支援。
@@ -35,7 +36,7 @@ ms.locfileid: "73877260"
 
 ![選擇內部部署資料來源](media/service-dataflows-onpremises-gateways/onpremises-gateways_02a.png)
 
-一旦選擇之後，系統就會提示您提供企業閘道的連線詳細資料，以用來存取內部部署資料。 您必須選取閘道本身，並提供所選取閘道的認證。 只有該使用者為管理員的閘道才會出現在下拉式清單中。
+一旦選擇之後，系統就會提示您提供企業閘道的連線詳細資料，以用來存取內部部署資料。 您必須選取閘道本身，並提供所選取閘道的認證。
 
 ![提供連線詳細資料](media/service-dataflows-onpremises-gateways/onpremises-gateways_03.png)
 

@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 116575898812e82f2f15126d0fee640902367ace
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878662"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761741"
 ---
-# <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop 中的常見查詢工作
+# <a name="perform-common-query-tasks-in-power-bi-desktop"></a>在 Power BI Desktop 中執行常見查詢工作
 當使用 Power BI Desktop 的 [查詢編輯器]  視窗時，有很多常用的工作。 本文將示範這些常見工作，並提供其他資訊的連結。 
 
 這裡示範的常見查詢工作如下所示：
 
-* 連接到資料
+* 連線至資料
 * 資料成形及合併
 * 將資料列分組
 * 樞紐資料行
@@ -36,8 +36,8 @@ ms.locfileid: "73878662"
 
 連接至這兩個資料來源所需的步驟是常見查詢工作的開始位置。
 
-## <a name="connect-to-data"></a>連接到資料
-若要連接至 Power BI Desktop 中的資料，請從功能區上的 [主資料夾]  索引標籤選取 [取得資料]  按鈕。 Power BI Desktop 會呈現一個功能表，其中具有最常見的資料來源。 如需 Power BI Desktop 可連接的資料來源完整清單，請選取功能表底部的 [其他...]  按鈕。 如需詳細資訊，請參閱 [Power BI Desktop 中的資料來源](https://docs.microsoft.com/power-bi/desktop-data-sources).
+## <a name="connect-to-data"></a>連線至資料
+若要連接至 Power BI Desktop 中的資料，請從功能區上的 [主資料夾]  索引標籤選取 [取得資料]  按鈕。 Power BI Desktop 會呈現一個功能表，其中具有最常見的資料來源。 如需 Power BI Desktop 可連接的資料來源完整清單，請選取功能表底部的 [其他...]  按鈕。 如需詳細資訊，請參閱 [Power BI Desktop 中的資料來源](https://docs.microsoft.com/power-bi/desktop-data-sources)。
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -59,7 +59,7 @@ ms.locfileid: "73878662"
 
 其他資料連線也很類似。 如果需要驗證才能建立資料連線，Power BI Desktop 會提示您輸入適當的認證。
 
-如需連接至 Power BI Desktop 資料的逐步示範，請參閱[連接至 Power BI Desktop 中的資料](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
+如需連接至 Power BI Desktop 資料的逐步示範，請參閱[連接至 Power BI Desktop 中的資料](https://docs.microsoft.com/power-bi/desktop-connect-to-data)。
 
 ## <a name="shape-and-combine-data"></a>資料成形及合併
 您可以輕鬆地使用查詢編輯器塑造及合併資料。 本節包含一些範例，說明如何塑造資料。 如需塑造與合併資料的更完整示範，請參閱 **[使用 Power BI Desktop 塑造及合併資料](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)** 。
@@ -100,7 +100,7 @@ ms.locfileid: "73878662"
 
 ![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
 
-使用查詢編輯器，您隨時都可以選取剛完成之步驟旁的 **X** ，移除最後一個塑造作業。 因此請放心試驗，如果您不喜歡結果就重做步驟，直到查詢編輯器將資料塑造成您要的樣子。
+使用查詢編輯器，您隨時都可以選取剛完成之步驟旁的 **X**，移除最後一個塑造作業。 因此請放心試驗，如果您不喜歡結果就重做步驟，直到查詢編輯器將資料塑造成您要的樣子。
 
 ## <a name="pivot-columns"></a>樞紐資料行
 使用 Power BI Desktop，您可以對資料行進行樞紐分析，並建立資料表來包含資料行中每個唯一值的彙總值。 例如，如果您需要知道在每個產品類別中有多少不同的產品，您可以快速建立資料表，精確地完成此項作業。
@@ -128,7 +128,7 @@ ms.locfileid: "73878662"
 
 ![](media/desktop-common-query-tasks/customcolumn_addcustomcolumndialog.png)
 
-類似於查詢編輯器中套用的任何其他步驟，如果新的自訂資料行未提供您尋找的資料，您可以選取 [加入的自訂]  步驟旁邊的 **X** ，將步驟從 [查詢設定]  窗格的 [套用的步驟]  區段刪除。
+類似於查詢編輯器中套用的任何其他步驟，如果新的自訂資料行未提供您尋找的資料，您可以選取 [加入的自訂]  步驟旁邊的 **X**，將步驟從 [查詢設定]  窗格的 [套用的步驟]  區段刪除。
 
 ![](media/desktop-common-query-tasks/customcolumn_addedappliedstep.png)
 
@@ -145,7 +145,7 @@ ms.locfileid: "73878662"
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 
-Power BI Desktop 提供一組廣泛的公式類別。 如需詳細資訊和查詢編輯器的所有公式的完整參考，請瀏覽 [Power Query 公式類別](https://support.office.com/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819).
+Power BI Desktop 提供一組廣泛的公式類別。 如需詳細資訊和查詢編輯器的所有公式的完整參考，請瀏覽 [Power Query 公式類別](https://support.office.com/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819)。
 
 查詢編輯器的公式類別如下所示：
 
@@ -185,7 +185,7 @@ Power BI Desktop 提供一組廣泛的公式類別。 如需詳細資訊和查�
   * 集作業
   * 排序
   * 平均值
-  * 新增
+  * 加法
   * 數字
   * 產生器
 * 資料表
@@ -206,8 +206,8 @@ Power BI Desktop 提供一組廣泛的公式類別。 如需詳細資訊和查�
 * 二進位
 * 線條
 * 運算式
-* 函數
-* 錯誤
+* 函式
+* Error
 * 比較子
 * 分隔器
 * 合併子

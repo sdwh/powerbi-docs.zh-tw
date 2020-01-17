@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 1f350e8ff888ffc2fd95e6c47bf84ccc96ebf88b
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 160812521939d505612e0725e678dcf985f0d03a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75000150"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761833"
 ---
-# <a name="auto-datetime-in-power-bi-desktop"></a>Power BI Desktop 中的自動日期/時間
+# <a name="apply-auto-datetime-in-power-bi-desktop"></a>在 Power BI Desktop 中套用自動日期/時間
 
 本文的目標為開發 Power BI Desktop 中的「匯入」模型或「複合」模型的資料模型製作人員。 其引進並描述 [自動日期/時間]  選項。
 

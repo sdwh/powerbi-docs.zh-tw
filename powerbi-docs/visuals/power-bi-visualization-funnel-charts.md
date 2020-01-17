@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1394d71a5a2e811da23e18b9ee0d98f171f19083
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880822"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762431"
 ---
-# <a name="funnel-charts"></a>漏斗圖
+# <a name="create-and-use-funnel-charts"></a>建立和使用漏斗圖
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 

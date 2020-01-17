@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 16af5a6c8b5341067c458329c68da0a1a0fe14a5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2dca4094ed0c21c421aa2fef89353e6f210b3ea4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311477"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761471"
 ---
-# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>為 Power BI 行動裝置應用程式最佳化報表
+# <a name="optimize-power-bi-reports-for-the-mobile-app"></a>為行動裝置應用程式最佳化 Power BI 報表
 您可以透過建立直向版面配置，改善在行動裝置應用程式中檢視報表的體驗。 在 Power BI Desktop 和 Power BI 服務中，您可以重新排列和重新調整報表視覺效果的大小，來取得直向模式中的最佳體驗。  
 
 正在尋找在行動裝置上檢視報表的資訊嗎？ 請嘗試此快速入門：[探索 Power BI 行動裝置應用程式中的儀表板和報表](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)。

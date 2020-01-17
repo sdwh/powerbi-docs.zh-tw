@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69b6cd3200627c5b0523fce914eae5899e594c27
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 925d63f0abf92bd7a9c0d5fdd2ff6eff5b88b961
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867226"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761149"
 ---
-# <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>使用 Power BI Desktop 中的見解來說明視覺效果中顯示的增減情況 (預覽)
+# <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>在 Power BI Desktop 中套用見解以說明視覺效果中的波動 (預覽)
 
 在視覺效果中，您經常會看到值大幅增加，然後急遽下降，並想知道造成此波動的原因。 使用 **Power BI Desktop** 中的**見解**，只要按幾下就能了解原因。
 
@@ -62,7 +62,7 @@ ms.locfileid: "73867226"
 
 因此演算法不會只傳回佔最大變更金額的值。 例如，如果銷售額大部分 (98%) 來自美國，在常見的情況下，增加情形大部分也會發生在美國。 但除非美國或其他國家/地區會大幅變更總金額的相對比重，否則在此內容中，「國家/地區」  並不重要。  
 
-簡單來說，您可以將此演算法想成擷取模型中的所有其他資料行，並依資料行計算時段「之前」  與「之後」  的明細，判斷該明細中發生的變更量，然後傳回具有最大變更的資料行。 例如，在上述範例中已選取「類別」  ，因為「電視和視訊裝置」  所佔的比重從 33%　降至 26% (降幅 7%)，而「家用設備」  的比重從無成長超過 6%。 
+簡單來說，您可以將此演算法想成擷取模型中的所有其他資料行，並依資料行計算時段「之前」  與「之後」  的明細，判斷該明細中發生的變更量，然後傳回具有最大變更的資料行。 例如，在上述範例中已選取「類別」  ，因為「電視和視訊裝置」  所佔的比重從 33% 降至 26% (降幅 7%)，而「家用設備」  的比重從無成長超過 6%。 
 
 針對傳回的每個資料行，可能會顯示四個視覺效果。 其中三個視覺效果是為了指出兩個時段之間的比重變更。 例如，用於說明從「第 2 季」  到「第 3 季」  的增加情形。
 

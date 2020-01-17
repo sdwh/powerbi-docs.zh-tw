@@ -9,16 +9,16 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 712864afdea5431fa630d052271e8cb2c05e9dd2
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866074"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759874"
 ---
-# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>教學課程：結合來自 Excel 和 OData 摘要的銷售資料
+# <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>教學課程：分析來自 Excel 和 OData 摘要的銷售資料
 
-您通常會有來自多個資料來源的資料。 例如，您可能會有兩個資料庫，一個用於產品資訊，另一個用於銷售資訊。 使用 **Power BI Desktop** 時，您可以合併不同來源的資料，以建立有趣、 吸引人的資料分析和視覺效果。 
+您通常會有來自多個資料來源的資料。 例如，您可能會有兩個資料庫，一個用於產品資訊，另一個用於銷售資訊。 使用 **Power BI Desktop** 時，您可以合併不同來源的資料，以建立有趣、吸引人的資料分析和視覺效果。 
 
 在本教學課程中，您將結合來自兩個資料來源的資料： 
 

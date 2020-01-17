@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7fa98be039093015e1b19ba8bf20f1368658a43
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/07/2019
-ms.locfileid: "74907780"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757839"
 ---
-# <a name="filled-maps-choropleth-in-power-bi"></a>Power BI 中的區域分布圖 (分區著色圖)
+# <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>在 Power BI 中建立和使用區域分布圖 (分級著色圖)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -45,9 +45,9 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 * 當定義的區域相當重要。
 * 當您要取得跨地理位置的分佈概觀。
 
-### <a name="prerequisites"></a>先決條件
+### <a name="prerequisites"></a>必要條件
 本教學課程使用[銷售與行銷範例 PBIX 檔案](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。
-1. 從功能表列的左上方區段，選取 [檔案]   > [開啟] 
+1. 從功能表列的左上方區段，選取 [檔案]   >  [開啟] 
    
 2. 尋找您的**銷售與行銷範例 PBIX 檔案**複本
 

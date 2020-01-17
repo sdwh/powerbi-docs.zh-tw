@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: c1f8a274a17d85cf8f86d2e33ff63f3e9b686742
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f5030f4fe820ac8ba14d0f7255cdbe1da5f7e9a3
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74831221"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732053"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -148,7 +148,7 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>我可以使用 Power BI Embedded，將編頁報表內嵌到我代管的應用程式嗎？
 
-SaaS 內嵌 (包括安全內嵌支援) 已可供使用。  PaaS 內嵌支援已在今年的稍後規劃。
+SaaS 內嵌 (包括安全內嵌支援) 已可供使用。 對於 PaaS 內嵌，請參閱[為客戶將 Power BI 編頁報表內嵌至應用程式](developer/embed-paginated-reports-customers.md)教學課程。
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>我可以從 Power BI 報表鑽研至編頁報表嗎？
 

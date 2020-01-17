@@ -6,53 +6,48 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/22/2019
+ms.date: 01/02/2020
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e493e4a41e7b357a23677c1c50f654dbee51e0ca
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b604ade56335e65b25501eb9fe3d3c2fd185a6f0
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878407"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761381"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Power BI 中的連接器擴充性
 
-在 Power BI 中，客戶和開發人員可透過許多方式延伸他們所連線的資料來源。 他們可以使用現有連接器和一般資料來源 (例如 ODBC、OData、Oledb、Web、CSV、XML 和 JSON)。 或者，開發人員可以建立資料延伸模組 (稱為**自訂連接器**)，然後將它們設為**經過認證的連接器**。
+Power BI 可使用現有的連接器和一般資料來源 (例如 ODBC、OData、OLE DB、Web、CSV、XML 和 JSON) 連線至資料。 或者，開發人員可使用名為*自訂連接器*的自訂資料延伸模組來啟用新的資料來源。 某些自訂連接器已通過 Microsoft 的認證並以*經認證的連接器*的形式散發。
 
-目前，您可以透過功能表啟用**自訂連接器**，該功能表可讓您安全地控制您希望允許在系統上執行的自訂程式碼層級。 您可以在 [取得資料]  對話方塊中選擇所有自訂連接器，或是僅限由 Microsoft 散發且認證的連接器。
+若要使用由您或第三方開發、但未經認證的自訂連接器，您必須調整 Power BI Desktop 安全性設定，以允許在沒有驗證或警告的情況下載入延伸模組。 由於此程式碼可處理認證 (包括透過 HTTP 加以傳送)，且會忽略隱私權層級，因此，只有在您絕對信任自訂連接器時，才應使用此安全性設定。
+
+另一個選項是讓開發人員以憑證簽署連接器，並提供讓您直接加以使用而無須變更安全性設定時所需的資訊。 如需詳細資訊，請參閱[關於受信任的第三方連接器](desktop-trusted-third-party-connectors.md)。
 
 ## <a name="custom-connectors"></a>自訂連接器
 
-**自訂連接器**可包含各種可能性，從對您商務不可或缺的小型 API，到 Microsoft 尚未發行連接器的大型產業特定服務。 廠商也會散發許多連接器。 若您需要特定的資料連接器，建議您連絡廠商。
+未經認證的自訂連接器種類繁多，從小型商務關鍵性 API，到 Microsoft 尚未發行連接器的大型產業特定服務，都包含在內。 廠商也會散發許多連接器。 如果您需要特定的資料連線器，請洽詢廠商。 
 
-若要使用**自訂連接器**，請將它們放在 *\[Documents]\\Power BI Desktop\\Custom Connectors* 資料夾中，然後遵循下一節中的描述來調整安全性設定。
+若要使用未經認證的自訂連接器，請將連接器的 *.pq*、 *.pqx*、 *.m* 或 *.mez* 檔案放置在 *\[Documents]\\Power BI Desktop\\Custom Connectors* 資料夾中。 如果該資料夾不存在，請予以建立。
 
-您不需要調整安全性設定來使用**認證的連接器**。
+請依照下列方式調整資料延伸模組安全性設定：
 
-## <a name="data-extension-security"></a>資料延伸模組安全性
+在 Power BI Desktop 中，選取 [檔案]   > [選項及設定]   > [選項]   > [安全性]  。
 
-若要變更資料延伸模組安全性設定，請在 **Power BI Desktop** 中，選取 [檔案] > [選項和設定] > [選項] > [安全性]  。
+在 [資料延伸模組]  底下，選取 [(不建議) 允許任何延伸模組載入，而不經過驗證或警告]  。 選取 [確定]  ，然後重新啟動 Power BI Desktop。 
 
-![使用資料延伸模組安全性選項控制是否想要載入自訂連接器](media/desktop-connector-extensibility/data-extension-security-1.png)
+![在資料延伸模組安全性選項中允許未經認證的自訂連接器](media/desktop-connector-extensibility/data-extension-security-1.png)
 
-在 [資料延伸模組]  下，您可以從兩種安全性層級中選取：
+預設 Power BI Desktop 資料延伸模組安全性設定為 [(建議使用) 只允許經過 Microsoft 認證和其他信任的第三方延伸模組載入]  。 使用此設定時，如果您的系統上有未經認證的自訂連接器，在 Power BI Desktop 啟動時就會出現 [未經認證的連接器]  對話方塊，並列出無法安全載入的連接器。
 
-* (建議) 僅允許認證的延伸模組載入
-* (不建議) 允許任何延伸模組載入而不警告
+![未經認證的連接器對話方塊](media/desktop-connector-extensibility/data-extension-security-2.png)
 
-如果您計劃使用**自訂連接器**，或是您或協力廠商開發的連接器，您必須選取 [(不建議) 允許任何延伸模組載入而不警告]  。 除非您絕對信任您的自訂連接器，否則我們不建議使用此安全性設定。 因為，其中的程式碼可能會處理認證，包括透過 HTTP 傳送它們及忽略隱私權層級等。
-
-在 [(建議)]  安全性設定中，若您的系統上有自訂連接器，您會收到錯誤「下列連接器尚未經過認證，因此我們無法驗證您可以安全地使用該連接器」，其後附帶無法安全載入的連接器清單。
-
-![描述因為安全性設定而無法載入自訂連接器的對話方塊，在此案例中為 TripPin](media/desktop-connector-extensibility/data-extension-security-2.png)
-
-若要在不變更安全性的情況下解決錯誤，請從您的 'Custom Connectors' 資料夾中移除未經簽署的連接器。
-
-若要解決錯誤並使用那些連接器，請將您的安全性設定變更為 [(不建議) 允許任何延伸模組載入而不警告]  設定，如先前所述。 然後，請重新啟動 **Power BI Desktop**。
+若要解決此錯誤，您可以變更 [資料延伸模組]  安全性設定，或從 *Custom Connectors* 資料夾中移除未經認證的連接器。
 
 ## <a name="certified-connectors"></a>認證的連接器
 
-有限且視為**通過認證**的部分資料延伸模組。 請在 [取得資料]  對話方塊中存取經過認證的連接器。 但是，建立連接器的協力廠商開發人員需負責其維護和支援。 雖然 Microsoft 會散發這些連接器，但 Microsoft 不會負責其效能或功能的持續性。
+有少部分的資料延伸模組會被視為*經過認證*的延伸模組。 雖然 Microsoft 會散發這些連接器，但 Microsoft 不會負責其效能或功能的持續性。 建立連接器的第三方開發人員需負責其維護和支援。 
+
+在 Power BI Desktop 中，經過認證的第三方連接器會出現在 [取得資料]  對話方塊中的清單上，與一般和通用連接器一併顯示。 您無須調整安全性設定即可使用經過認證的連接器。
 
 如果您想要認證自訂連接器，請要求您的廠商連絡 dataconnectors@microsoft.com。

@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75224179"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885308"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -25,7 +25,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ## <a name="how-to-get-to-the-admin-portal"></a>如何取得管理入口網站
 
-您的帳戶必須在 Office 365或 Azure Active Directory 中標示為**全域管理員**，或已指派 Power BI 服務系統管理員角色，才能存取 Power BI 管理入口網站。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。 若要取得 Power BI 管理入口網站，請執行下列步驟。
+您的帳戶必須在 Office 365或 Azure Active Directory (Azure AD) 中標示為**全域管理員**，或已指派 Power BI 服務管理員角色，才能存取 Power BI 管理入口網站。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。 若要取得 Power BI 管理入口網站，請執行下列步驟。
 
 1. 選取 Power BI 服務右上角的設定齒輪。
 
@@ -190,13 +190,16 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ### <a name="share-content-with-external-users"></a>與外部使用者共用內容
 
-組織中的使用者可以和組織外的使用者共用儀表板。 深入了解[在外部共用](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)。
+組織內部使用者可與組織外部使用者共用儀表板、報表和應用程式。 深入了解[在外部共用](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)。
 
 ![外部使用者設定](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
 下圖顯示您與外部使用者共用時會出現的訊息。
 
 ![與外部使用者共用](media/service-admin-portal/powerbi-admin-sharing-external.png)  
+
+> [!IMPORTANT]
+> 此選項控制 Power BI 中的使用者是否可以透過 Power BI，邀請外部使用者成為組織中 Azure Active Directory B2B (Azure AD B2B) 來賓使用者。 啟用後，在 Azure AD 中具有「來賓邀請者」角色的使用者可以在共用報告、儀表板和 Power BI 應用程式時，新增外部電子郵件地址。 外部收件者會受邀加入貴組織，成為 Azure AD B2B 來賓使用者。 重要的是，停用此設定時，組織中已是 Azure AD B2B 來賓使用者的外部使用者會繼續出現在 Power BI 的人員選擇器 UI 中，並可獲得項目、工作區和應用程式的存取權。
 
 ### <a name="publish-to-web"></a>發行至 Web
 
@@ -247,14 +250,14 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 ![列印報告](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>允許外部來賓使用者編輯和管理組織中的內容
-Azure Active Directory B2B 來賓使用者可編輯及管理組織中的內容。 [深入了解](service-admin-azure-ad-b2b.md)
+
+Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了解](service-admin-azure-ad-b2b.md)
 
 以下影像顯示可讓外部來賓使用者編輯及管理組織中內容的選項。
 
 ![允許外部來賓使用者編輯和管理組織中的內容](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
 
-> [!IMPORTANT]
-> 當您將外部使用者新增至 Azure AD 租用戶時 (以手動方式或藉由與該使用者共用報表)，該使用者帳戶現在可供內部帳戶探索。 即使內部帳戶沒有外部共用權限，內部使用者也可與外部使用者共用其他項目。
+在管理入口網站中，您也可控制哪些使用者有權邀請外部使用者加入組織。 如需詳細資訊，請參閱本文中的[與外部使用者共用內容](#export-and-sharing-settings)。
 
 ### <a name="email-subscriptions"></a>電子郵件訂閱
 組織中的使用者可建立電子郵件訂閱。 深入了解[訂閱](service-report-subscribe.md)。
@@ -500,7 +503,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 不過，已加入書籤的視覺效果仍會繼續運作。
 
-進行任何更新或系統管理員變更之後， Power BI Desktop 使用者應該在 Power BI 服務中重新啟動應用程式或重新整理瀏覽器以查看更新。
+進行任何更新或系統管理員變更之後，Power BI Desktop 使用者應該在 Power BI 服務中重新啟動應用程式或重新整理瀏覽器以查看更新。
 
 ### <a name="update-a-visual"></a>更新視覺效果
 
@@ -508,7 +511,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 確定視覺效果識別碼會維持不變。 新檔案會取代先前的檔案，供整個組織內的所有報表使用。 不過，如果新版的視覺效果可能會中斷舊版視覺效果的任何使用方式或資料結構，則不要取代舊版。 您應該改以為新版視覺效果建立新的清單。 例如，將新的版本號碼 (版本 X.X) 新增至最新列出的視覺效果標題中。 透過這種方法，可以很清楚地表示它只是具有更新版本號碼的相同視覺效果，讓現有的報表不會中斷其功能。 再次提醒，請確定視覺效果識別碼維持不變。 之後，當使用者下一次從 Power BI Desktop 進入組織存放庫時，就能匯入新版本，這會提示他們取代報表中的目前版本。
 
-如需詳細資訊，請前往[組織自訂視覺效果的常見問題集](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals)
+如需詳細資訊，請前往[組織自訂視覺效果的常見問題集](/power-bi/developer/power-bi-custom-visuals-faq#organizational-power-bi-visuals)
 
 ## <a name="dataflowStorage">資料流程儲存體 (預覽)</a>
 

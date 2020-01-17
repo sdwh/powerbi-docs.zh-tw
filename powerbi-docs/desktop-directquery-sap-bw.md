@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ffff443716f11101347debd97f28349afc3904bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876332"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761172"
 ---
-# <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery 和 SAP Business Warehouse (BW)
+# <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>在 Power BI 中使用 DirectQuery 連線到 SAP Business Warehouse
 您可以使用 **DirectQuery** 直接連接到 **SAP Business Warehouse (BW)** 資料來源。 根據 SAP BW 的 OLAP/多維度本質，透過 SAP BW 的 DirectQuery 與透過關聯式來源 (例如 SQL Server) 的 DirectQuery 之間有許多重要差異。 這些差異摘要如下：
 
 * 在透過關聯式來源的 **DirectQuery** 中有一組查詢 (如 [Get Data]\(取得資料)  或 [查詢編輯器]  對話方塊中所定義)，這些查詢會以邏輯方式定義欄位清單中可用的資料。 連接到 SAP BW 等 OLAP 來源時則「不同」  。 相反地，使用 [Get Data]\(取得資料)  連接到 SAP 伺服器時，只要選取 InfoCube 或 BEx 查詢即可。 然後就會在欄位清單中提供所選 InfoCube/BEx 查詢的所有關鍵數據和維度。   
@@ -48,7 +48,7 @@ ms.locfileid: "73876332"
 ## <a name="support-for-sap-bw-features"></a>SAP BW 功能的支援
 下表列出未完全支援或使用 Power BI 時會有不同行為的所有 SAP BW 功能。   
 
-| 功能 | 描述 |
+| 特徵 | 描述 |
 | --- | --- |
 | 本機計算 |BEx 查詢中所定義的本機計算，會變更透過 BEx Analyzer 等工具顯示的數字。 不過，這些計算不會反映在 SAP 透過公用 MDX 介面所傳回的數字中。 <br/> <br/> **因此，Power BI 視覺效果中所示的數字，不一定符合 SAP 工具中對應視覺效果中的數字。**<br/> <br/>  例如，從 BEx 查詢連接到查詢 Cube 以設定要累積的彙總 (也就是變動總合) 時，Power BI 會取得基底數字，並略過該設定。  分析師接著當然可在 Power BI 本機套用變動總合計算，但請務必小心謹慎處理未完成時的數字解譯方式。 |
 | 彙總 |在某些情況下 (特別是處理多種貨幣時)，SAP 公用介面所傳回的彙總數字與 SAP 工具所示的數字不符。 <br/> <br/> **因此，Power BI 視覺效果中所示的數字，不一定符合 SAP 工具中對應視覺效果中的數字。** <br/> <br/> 例如，不同貨幣的總計在 BEx Analyzer 中會顯示為 "*"，但 SAP 公用介面會傳回該總計，而不會有任何資訊指出這是無意義的彙總數字。 因此，Power BI 會顯示此數字 (彙總 $、EUR 和 AUD 等)。 |

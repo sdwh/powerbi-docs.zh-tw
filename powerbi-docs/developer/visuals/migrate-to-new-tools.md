@@ -1,5 +1,5 @@
 ---
-title: 移轉到 powerbi-visuals-tools 3.x
+title: 移轉到 powerbi-visuals-tools 3.x 版
 description: 開始使用新版的 powerbi-visuals-tools
 author: zBritva
 ms.author: v-ilgali
@@ -9,108 +9,123 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 245475feeb43ee544117aaa54969f2de1e207cd5
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 1b819aeb0f59df9ee0d48d7c41807abe62efed08
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696274"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885139"
 ---
-# <a name="migrate-to-the-new-powerbi-visuals-tools-3xx"></a>移轉到新的 powerbi-visuals-tools 3.x.x
+# <a name="migrate-to-the-new-powerbi-visuals-tools-version-3x"></a>遷移到新的 powerbi-visuals-tools 3.*x* 版
 
-從第 3 版開始，Power BI 視覺效果工具會使用 Webpack 來建置自訂視覺效果。
-新版本為開發人員帶來許多建立視覺效果的新機會：
+從第 3 版開始，Power BI Visuals Tools (powerbi-visuals-tools，或 `pbiviz`) 會使用 Webpack 來建置自訂視覺效果。
+新版本為開發人員提供許多建立視覺效果的改良功能：
 
-* 預設為 TypeScript v3.x.x。 從 TypeScript 1.5 開始，命名法已變更。 [深入了解 TypeScript 模組](https://www.typescriptlang.org/docs/handbook/modules.html) \(英文\)。
+- 預設會使用 TypeScript 3.*x*。 從 TypeScript 1.5 開始，命名法已變更。 [深入了解 TypeScript 模組](https://www.typescriptlang.org/docs/handbook/modules.html) \(英文\)。
 
-* 支援 ES6 模組。 您不再需要使用 [externalJS](migrate-to-new-tools.md#fix-loading-external-libraries)，請改為使用 ES6 匯入。
+- 支援 ECMAScript 6 (ES6) 模組。 立即使用 ES6 匯入，而不是 [externalJS](migrate-to-new-tools.md#configure-loading-of-external-libraries)。
 
-* 支援新版的 [D3v5](https://d3js.org/) \(英文\) 和其他以 ES6 模組為基礎的程式庫。
+- 支援新版的資料驅動文件 ([D3v5](https://d3js.org/)) 和其他以 ES6 模組為依據的程式庫。
 
-* 已縮減套件大小。 Webpack 使用 [Tree Shaking](https://webpack.js.org/guides/tree-shaking/) \(英文\) 來移除未使用的程式碼。 其會縮減 JS 的程式碼；因此，您可以在載入視覺效果時獲得更好的效能。
+- 已縮減套件大小。 Webpack 會使用 [Tree shaking](https://webpack.js.org/guides/tree-shaking/)來移除未使用的程式碼。 其會減少 JavaScript 程式碼，並讓您在載入視覺效果時獲得更好的效能。
 
-* 已改善 API 效能。
+- 已改善 API 效能。
 
-* Globalize.js 程式庫[已整合](migrate-to-new-tools.md#remove-globalizejs-library)到 formatting-utils。
+- Globalize.js 程式庫[已整合](migrate-to-new-tools.md#remove-the- globalizejs-library)到 FormattingUtils 中。
 
-* 工具會使用 [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer) \(英文\) 來顯示視覺效果的程式碼基底。
+- Power BI Visuals Tools 會使用 [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)來顯示視覺效果的程式碼基底。
 
-以下描述所有適用於新版 Power BI 視覺效果工具的移轉步驟。
+本文說明所有適用於新版 Power BI Visuals Tools 的移轉步驟。
 
 ## <a name="backward-compatibility"></a>回溯相容性
 
-新工具為舊的視覺效果程式碼基底保留回溯相容性，但可能需要進行一些額外變更，才能載入外部程式庫。
+新工具為舊的視覺效果程式碼基底保留回溯相容性資訊，但可能需要進行一些額外變更，才能載入外部程式庫。
 
-支援模組系統的程式庫將會以 Webpack 模組形式匯入。 所有其他程式庫和視覺效果原始程式碼都將包裝成一個模組。
+支援模組系統的程式庫會以 Webpack 模組的形式匯入。 視覺效果的所有其他程式庫和原始程式碼都會包裝成一個模組。
 
-先前 pbiviz 工具中所使用的全域變數 (例如 JQuery 和 Lodash ) 現已過時。 這表示，如果舊的視覺效果程式碼會在全域變數上轉送，則視覺效果可能會在此情況下中斷。
+先前 Power BI Visuals Tools 中所使用的全域變數 (例如 JQuery 和 Lodash ) 現已過時。 如果您視覺效果的舊程式碼依賴全域變數，則視覺效果可能無法搭配新工具運作。
 
-舊版 Power BI 視覺效果工具必須在 `powerbi.extensibility.visual` 模組底下定義視覺效果類別。
+舊版 Power BI Visuals Tools 必須在 `powerbi.extensibility.visual` 模組底下定義視覺效果類別。 使用新版工具時，您必須改為在主要 TypeScript (.ts) 檔案中定義視覺效果類別。 該檔案通常是 `src/visual.ts`。
 
-## <a name="how-to-install-powerbi-visuals-tools"></a>如何安裝 powerbi-visuals-tools
+## <a name="install-powerbi-visuals-tools"></a>安裝 powerbi-visuals-tools
 
-您可以執行下列命令來安裝新的工具組
+執行下列命令來安裝新的工具︰
 
 ```cmd
 npm install -g powerbi-visuals-tools
 ```
 
-`package.json` 中 SampleBarChart 視覺效果的範例及對應的[變更](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/package.json#L16)：
+在視覺效果專案已更新為可搭配新工具運作之後，下列程式碼來自 [sampleBarChart 視覺效果存放庫](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/471f103fcef9af93cff76cbac9c7fc67564acd4b/package.json#L15)中的 `package.json` 檔案：
 
 ```json
 {
     "name": "visual",
-    "version": "1.2.3",
+    "version": "3.0.0",
     "scripts": {
         "pbiviz": "pbiviz",
         "start": "pbiviz start",
+        "package": "pbiviz package",
         "lint": "tslint -r \"node_modules/tslint-microsoft-contrib\"  \"+(src|test)/**/*.ts\"",
         "test": "pbiviz package --resources --no-minify --no-pbiviz"
     },
     "devDependencies": {
-      "@types/d3": "5.0.0",
-      "d3": "5.5.0",
-      "powerbi-visuals-tools": "^3.1.0",
-      "tslint": "^4.4.2",
-      "tslint-microsoft-contrib": "^4.0.0"
+        "@types/d3": "5.7.2",
+        "d3": "5.12.0",
+        "powerbi-visuals-api": "^2.6.1",
+        "powerbi-visuals-tools": "^3.1.7",
+        "powerbi-visuals-utils-dataviewutils": "^2.2.1",
+        "powerbi-visuals-utils-formattingutils": "^4.4.2",
+        "powerbi-visuals-utils-interactivityutils": "^5.6.0",
+        "powerbi-visuals-utils-tooltiputils": "^2.3.1",
+        "tslint": "^5.20.0",
+        "tslint-microsoft-contrib": "^6.2.0"
     }
 }
 ```
 
-## <a name="how-to-install-power-bi-custom-visuals-api"></a>如何安裝 Power BI 自訂視覺效果 API
+## <a name="install-the-power-bi-custom-visuals-api"></a>安裝 Power BI 自訂視覺效果 API
 
-新版的 powerbi-visual-tools 並未隨附所有 API 版本。 反而是該開發人員應安裝特定版本的 [`powerbi-visuals-api`](https://www.npmjs.com/package/powerbi-visuals-api) \(英文\) 套件。 套件的版本會與 Power BI 自訂視覺效果的 API 版本相符，並針對 Power BI 自訂視覺效果 API 提供所有類型定義。
+新版的 powerbi-visual-tools 並未包含所有的 API 版本。 相反地，您必須安裝特定版本的 [powerbi-visuals-api](https://www.npmjs.com/package/powerbi-visuals-api) 套件。 選擇與您的 Power BI 自訂視覺效果的 API 版本相符的套件版本。 此套件會提供 Power BI 自訂視覺效果 API 的所有類型定義。
 
-藉由執行 `npm install --save-dev powerbi-visuals-api` 命令，將 `powerbi-visuals-api` 新增至專案的相依性。
-因此，您應該移除舊有 API 類型定義的連結。 因為 Webpack 會自動包含來自 `powerbi-visuals-api` 的類型。 對應的變更位於 `package.json` 中的[這](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/package.json#L14)行。
+執行下列命令，將 `powerbi-visuals-api` 新增至專案的專案相依性：
 
-## <a name="update-tsconfigjson"></a>更新 `tsconfig.json`
+```cmd
+npm install --save-dev powerbi-visuals-api
+```
 
-若要使用外部模組，您應該將 `out` 選項切換為 `outDir`。
-`"outDir": "./.tmp/build/",` 而非 `"out": "./.tmp/build/visual.js",`。
+此外，移除任何舊 API 類型定義的連結，因為 Webpack 會自動包含 `powerbi-visuals-api` 中的類型。 對應的變更位於 [package.json](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/471f103fcef9af93cff76cbac9c7fc67564acd4b/package.json#L14) 和 [tsconfig.json](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/471f103fcef9af93cff76cbac9c7fc67564acd4b/tsconfig.json#L14)中。
 
-這是必要的，因為 TypeScript 檔案將獨立編譯為 JavaScript 檔案。 這就是您不再需要將 visual.js 檔案指定為輸出的原因。
+## <a name="update-tsconfigjson"></a>更新 tsconfig.json
 
-此外，如果您想要使用新式 JavaScript 作為輸出，也可以將 `target` 選項變更為 `ES6`。 [這是選擇性的](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/tsconfig.json#L6)。
+若要使用外部模組，請將 `out` 選項變更為 `outDir`。 例如，請使用 `"outDir": "./.tmp/build/",`，而不要使用 `"out": "./.tmp/build/visual.js",`。
 
-## <a name="update-custom-visuals-utils"></a>更新自訂視覺效果公用程式
+這是必要的變更，因為 TypeScript 檔案將獨立編譯為 JavaScript 檔案。 這就是您不再需要將 visual.js 檔案指定為輸出的原因。
 
-如果您使用其中一個 powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils) ，也應該將其更新為最新版本。
+如果您想要使用新式 JavaScript 作為輸出，也可以將 `target` 選項變更為 `ES6`。 這是[選擇性](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/471f103fcef9af93cff76cbac9c7fc67564acd4b/tsconfig.json#L7)變更。
 
-執行 `npm install powerbi-visuals-utils-<UTILNAME> --save` 命令。 (例如 `npm install powerbi-visuals-utils-dataviewutils --save`) 以使用 TypeScript 的外部模組來取得新版本。
+## <a name="update-custom-visuals-utilities"></a>更新自訂視覺效果公用程式
 
-您可以在 MekkoChart [存放庫](https://github.com/Microsoft/powerbi-visuals-mekkochart)中找到範例。
-此視覺效果會使用所有公用程式。
+如果您使用任何一個 [powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils)套件，也應該將其更新為最新版本。 若要這麼做，請執行此命令：
 
-## <a name="remove-globalizejs-library"></a>移除 Globalize.js 程式庫
+```cmd
+npm install powerbi-visuals-utils-<UTILNAME> --save
+```
 
-新版的 [powerbi-visuals-utils-formattingutils@4.3](https://www.npmjs.com/package/powerbi-visuals-utils-formattingutils) 包含現成的 globalize.js。
-您不需要手動將此程式庫包含於專案中。
-所有必要的當地語系化都將自動新增至最終套件。
+例如，若要使用 TypeScript 的外部模組來取得新版本，請執行： 
 
-## <a name="fix-loading-external-libraries"></a>修正載入外部程式庫
+```cmd
+npm install powerbi-visuals-utils-dataviewutils --save
+```
 
-請改為在 `pbiviz.json` 的 `externalJS` 陣列中，將新的 JS 檔案包含於程式庫後面。 範例：
+如需使用所有 `powerbi-visuals-utils` 套件的視覺效果範例，請參閱 [MekkoChart 存放庫](https://github.com/Microsoft/powerbi-visuals-mekkochart)。
+
+## <a name="remove-the-globalizejs-library"></a>移除 Globalize.js 程式庫
+
+新版的 [powerbi-visuals-utils-formattingutils@4.3](https://www.npmjs.com/package/powerbi-visuals-utils-formattingutils) 包含 Globalize.js。 因此，您不需要手動將此程式庫包含於您的專案中。 所有必要的當地語系化都將自動新增至最終套件。
+
+## <a name="configure-loading-of-external-libraries"></a>設定外部程式庫的載入
+
+在 `pbiviz.json` 的 `externalJS` 陣列中，將新的 JavaScript 檔案包含在程式庫後面。 例如：
 
 ```JSON
 "externalJS": [
@@ -121,23 +136,21 @@ npm install -g powerbi-visuals-tools
 ]
 ```
 
-匯入來源中的程式庫。 適用於 `lodash-es` 的範例：
+在您的原始程式碼中匯入程式庫。 例如，針對 `lodash-es`，使用下列陳述式：
 
 ```JS
 import * as _ from "lodash-es";
 ```
 
-其中 `_` 是 `lodash` 程式庫的全域變數。
+在上述範例中，`_` 是 `lodash` 程式庫的全域變數。
 
-## <a name="changes-in-the-visuals-sources"></a>視覺效果來源中的變更
+## <a name="make-changes-in-the-sources-of-your-visuals"></a>在視覺效果的來源中進行變更
 
-主要變更是將內部模組轉換為外部模組，因為您無法在內部模組中使用外部模組。
+您必須進行的主要變更，就是將內部模組轉換成外部模組。 您不能在內部模組內使用外部模組。
 
-那些變更會描述已套用至範例橫條圖的修改
+以下是要進行的變更詳細描述。 這些修改會在長條圖自訂視覺效果程式碼範例的內容中加以說明：
 
-以下為變更的詳細描述：
-
-1. 從[原始程式碼](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/src/barChart.ts#L153)的每個檔案中移除所有模組定義
+1. 從每個[原始程式碼](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/commit/72ec605ce6a311a6cc004453b07973b6ed5e61f9#diff-433142f7814fee940a0ffc98dc75bfcbL1-L3)檔案中移除所有模組定義：
 
     ```typescript
     module powerbi.extensibility.visual {
@@ -145,13 +158,13 @@ import * as _ from "lodash-es";
     }
     ```
 
-2. [匯入 Power BI 自訂視覺效果 API 定義](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/src/barChart.ts#L2)。
+2. [匯入 Power BI 自訂視覺效果 API 定義](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/commit/72ec605ce6a311a6cc004453b07973b6ed5e61f9#diff-433142f7814fee940a0ffc98dc75bfcbR4)：
 
     ```typescript
     import powerbi from "powerbi-visuals-api";
     ```
 
-3. 從 `powerbi` 內部模組[匯入](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/src/barChart.ts#L12-L23)必要的介面或類別。
+3. 從 `powerbi` 內部模組[匯入必要的介面或類別](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/commit/72ec605ce6a311a6cc004453b07973b6ed5e61f9#diff-433142f7814fee940a0ffc98dc75bfcbR12-R35)。
 
     ```typescript
     import PrimitiveValue = powerbi.PrimitiveValue; 
@@ -168,19 +181,19 @@ import * as _ from "lodash-es";
     import ISelectionManager = powerbi.extensibility.ISelectionManager; 
     ```
 
-4. [匯入](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/src/barChart.ts#L1) D3.js 程式庫
+4. [匯入 D3.js 程式庫](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/commit/72ec605ce6a311a6cc004453b07973b6ed5e61f9#diff-433142f7814fee940a0ffc98dc75bfcbR2)：
 
     ```typescript
     import * as d3 from "d3";
     ```
 
-    或者，只匯入必要的 D3 程式庫模組
+    或者，只匯入必要的 D3 程式庫模組：
 
     ```typescript
     import { max, min } from "d3-array";
     ```
 
-5. 將視覺效果專案中定義的公用程式、類別、介面[匯入](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/src/barChart.ts#L4-L10)到主要來源檔案
+5. [將視覺效果專案中定義的公用程式、類別和介面匯入](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/commit/72ec605ce6a311a6cc004453b07973b6ed5e61f9#diff-433142f7814fee940a0ffc98dc75bfcbR38-R41)到主要來源檔案中：
 
     ```typescript
     import { getLocalizedString } from "./localization/localizationHelper";
@@ -194,62 +207,60 @@ import * as _ from "lodash-es";
 
 ### <a name="import-css-styles"></a>匯入 CSS 樣式
 
-新版工具可讓開發人員將 CSS、LESS 樣式直接匯入到 TypeScript 程式碼。
+新版工具可讓您將 `CSS` 和 `Less` 樣式直接匯入 TypeScript 程式碼中。 編譯器現在會忽略先前使用的[樣式區段](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/471f103fcef9af93cff76cbac9c7fc67564acd4b/pbiviz.json#L21)。
 
-因此，編譯器將忽略先前使用的[樣式區段](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/pbiviz.json#L22)。
-
-若要使用您的樣式表，請開啟主要 ts 檔案，並新增下一行：  
+若要使用您的樣式表，請開啟主要 TypeScript (.ts) 檔案並新增以下一行：  
 
 ```typescript
 import "./../style/visual.less";
 ```  
 
-您的 CSS、LESS 樣式將會自動編譯。  
+您的 `CSS` 和 `Less` 樣式將會自動編譯。
 
 ### <a name="externaljs-section-in-pbivizjson"></a>pbiviz.json 中的 externalJS 區段
 
-工具[不需要](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/pbiviz.json#L20)將 `externalJS` 清單載入到視覺效果套件組合。 因為 Webpack 會包含所有匯入的程式庫。
+工具[不需要 `externalJS` 程式庫的清單](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/commit/72ec605ce6a311a6cc004453b07973b6ed5e61f9#diff-a1a7bbee7e7d2f9d449f4b534532bcf2R20)載入到視覺效果套件組合中，因為 Webpack 包含所有匯入的程式庫。
 
-**pbivi.json 中的 externalJS 區段應該是空的。**
+> [!NOTE]
+> 在 `pbiviz.json`中，將 `externalJS` 區段保留空白。
 
-呼叫一般命令 `npm run package`，以建立視覺效果套件或 `npm run start` 來啟動開發伺服器。
+使用一般命令 `npm run package`建立視覺效果套件，或使用 `npm run start` 啟動開發伺服器。
 
-## <a name="updating-d3js-library-to-version-5"></a>將 D3.js 程式庫更新到第 5 版
+## <a name="update-the-d3js-library-to-version-5"></a>將 D3.js 程式庫更新到第 5 版
 
-利用新工具，您就可以開始使用新版的 D3.js 程式庫。
+利用新的視覺效果工具，您就可以開始使用新版的 D3.js 程式庫。 執行下列命令以更新您視覺效果專案中的 D3：
 
-呼叫命令以更新您視覺效果專案中的 D3
+- `npm install --save d3@5` 可安裝新的 D3.js。
 
-`npm install --save d3@5` 可安裝新的 D3.js。
+- `npm install --save-dev @types/d3@5` 可安裝適用於 D3.js 的新類型定義。
 
-`npm install --save-dev @types/d3@5` 可安裝適用於 D3.js 的新類型定義。
+> [!IMPORTANT]
+> D3 第 5 版引進了幾項重大變更。
 
-有數個中斷性變更，而您應該修改程式碼以使用新的 D3.js。
+修改您的程式碼以使用新的 D3.js：
 
-1. `d3.Selection<T>` 介面[已變更](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/af2ff9fb0fc70bd94ea0c604d75a362411d5abeb#diff-433142f7814fee940a0ffc98dc75bfcbR157)為 `Selection<GElement extends BaseType, Datum, PElement extends BaseType, PDatum>`
+- `d3.Selection<T>` 介面[已變更](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/af2ff9fb0fc70bd94ea0c604d75a362411d5abeb#diff-433142f7814fee940a0ffc98dc75bfcbR157)為 `Selection<GElement extends BaseType, Datum, PElement extends BaseType, PDatum>`。
 
-2. 您無法透過 `attr` 方法的單一呼叫來套用數個屬性。 您[應該在不同的 `attr` 方法呼叫中傳遞](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/af2ff9fb0fc70bd94ea0c604d75a362411d5abeb#diff-433142f7814fee940a0ffc98dc75bfcbR278)每個屬性。 `style` 方法也[類似](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/af2ff9fb0fc70bd94ea0c604d75a362411d5abeb#diff-433142f7814fee940a0ffc98dc75bfcbR247)。
+- 您無法使用 `attr` 方法的單一呼叫來套用數個屬性。 相反地，您必須[將個別呼叫中的每個屬性傳遞](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/af2ff9fb0fc70bd94ea0c604d75a362411d5abeb#diff-433142f7814fee940a0ffc98dc75bfcbR278)至 `attr`。 此外，對 `style` 方法進行[個別呼叫](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/af2ff9fb0fc70bd94ea0c604d75a362411d5abeb#diff-433142f7814fee940a0ffc98dc75bfcbR247)。
 
-3. 在 D3.js v4 中，引進了新的合併方法。 此方法通常用來在資料聯結之後合併輸入和更新選取項目。 [呼叫 merge 方法](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/83fe8d52d362dccd0034dd8e32c94080d9376b29#diff-433142f7814fee940a0ffc98dc75bfcbR272)以正確使用 D3。
+- D3.js 第 4 版引進了新的 `merge` 方法。 此方法通常用來在資料聯結作業之後合併 `enter` 和 `update` 選取項目。 若要正確使用 D3，[請呼叫 `merge` 方法](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/83fe8d52d362dccd0034dd8e32c94080d9376b29#diff-433142f7814fee940a0ffc98dc75bfcbR272)。
 
-[深入了解](https://github.com/d3/d3/blob/master/CHANGES.md) \(英文\) D3.js 程式庫中的相關變更。
+[深入了解](https://github.com/d3/d3/blob/master/CHANGES.md) D3.js 程式庫中的相關變更。
 
-## <a name="babel"></a>Babel
+## <a name="install-babel-and-core-js"></a>安裝 Babel 和 core-js
 
-從 3.1 版開始，這些工具會使用 Babel 來將新的新式 JS 程式碼編譯為舊的 ES5，以支援各類瀏覽器。
+從 3.1 版開始，視覺效果工具會使用 Babel 將新式 JavaScript 程式碼編譯為舊的 ECMAScript 5 (ES5)，以支援各種瀏覽器。
 
-預設會啟用此選項，但您必須手動匯入 [`@babel/polyfill`](https://babeljs.io/docs/en/babel-polyfill) \(英文\) 套件。
+預設會啟用 Babel 選項，但您必須手動匯入 [`core-js`](https://www.npmjs.com/package/core-js) 套件。 執行下列命令來安裝此套件︰
 
-執行命令以安裝套件
+```cmd
+npm install --save core-js
+```
 
-`npm install --save @babel/polyfill`
+然後，在視覺效果程式碼的起點匯入套件。 這通常是 'src/visual.ts' 檔案。
 
-然後，將套件匯入到視覺效果程式碼的起點 (通常是 'src/visual.ts' 檔案)：
-
-`import "@babel/polyfill";`
+```JS
+import "core-js/stable";
+```
 
 [在文件中](https://babeljs.io/docs/en/) \(英文\) 深入了解 Babel。
-
-最後，執行 [webpack-visualizer](https://github.com/chrisbateman/webpack-visualizer)，以顯示視覺效果的程式碼基底。  
-
-![視覺效果程式碼統計資料](./media/webpack-stats.png)

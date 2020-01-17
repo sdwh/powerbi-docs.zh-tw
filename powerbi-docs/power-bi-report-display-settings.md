@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 6aefe879e6d5871c8f88ac15407038aa600bf980
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265881"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762500"
 ---
-# <a name="page-display-settings-in-a-power-bi-report"></a>Power BI 報表的頁面顯示設定
+# <a name="apply-page-display-settings-in-a-power-bi-report"></a>在 Power BI 報表中套用頁面顯示設定
 我們了解保持報表版面配置像素完美的重要性。 有時候這會有點困難，因為您和您的同事可能會使用外觀比例和大小不同的螢幕來檢視這些報表。 
 
 預設顯示檢視為 [調整成一頁]  ，而預設顯示大小為 **16:9**。 如果您想要鎖定為不同的外觀比例，或想要以不同的方式調整報表，有兩個工具可協助您：「頁面檢視」設定和「頁面大小」設定。
@@ -53,7 +53,7 @@ ms.locfileid: "74265881"
 * **顯示格線**：開啟格線可協助您在報表畫布上放置物件。
 * **貼齊格線**：搭配 **[顯示格線]** 使用，可在報表畫布上精確地放置和對齊物件。 
 * **鎖定物件**：鎖定畫布上的所有物件，使其無法移動或調整大小。
-* **選取範圍窗格**： **[選取]** 窗格會列出畫布上的所有物件。 您可以決定要顯示和隱藏的物件。
+* **選取範圍窗格**： **[選取範圍]** 窗格會列出畫布上的所有物件。 您可以決定要顯示和隱藏的物件。
 
     ![選取窗格](media/power-bi-report-display-settings/power-bi-selection-pane.png)
 

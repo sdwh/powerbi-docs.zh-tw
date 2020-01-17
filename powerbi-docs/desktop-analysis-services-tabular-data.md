@@ -9,29 +9,29 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f7af1c584802181cab68f6ce2fc4823ec7078354
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.openlocfilehash: 7ce20b8b6dc382cdafe61bde3e9305197fd33ea6
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75523019"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762063"
 ---
-# <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 Analysis Services 表格式資料
+# <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Analysis Services 表格式資料
 使用 Power BI Desktop 時，有兩種方式可以連線到 SQL Server Analysis Services 表格式模型並從中取得資料：「使用即時連線進行瀏覽」或「選取項目並匯入 Power BI Desktop」。
 
 以下將進一步說明。
 
-**使用即時連接進行瀏覽** - 使用即時連接時，表格式模型或檢視方塊中的資料表、資料行和量值等項目，都會出現在 Power BI Desktop 的 [欄位] 清單中。 您可以使用 Power BI Desktop 的進階視覺效果和報表工具，以全新且高度互動的方式來瀏覽表格式模型。
+**使用即時連線進行瀏覽** – 使用即時連線時，表格式模型或檢視方塊中的資料表、資料行和量值等項目，都會出現在 Power BI Desktop 的 [欄位] 清單中。 您可以使用 Power BI Desktop 的進階視覺效果和報表工具，以全新且高度互動的方式來瀏覽表格式模型。
 
-即時連接時，不會從表格式模型匯入任何資料到 Power BI Desktop。 每當您與某個視覺效果互動時，Power BI Desktop 會查詢表格式模型並計算您所看到的結果。 您一律會看到表格式模型中可用的最新資料，該資料可能來自上次處理時間，或來自表格式模型中可用的 Direct Query 資料表。 
+即時連線時，不會從表格式模型匯入任何資料到 Power BI Desktop。 每當您與某個視覺效果互動時，Power BI Desktop 會查詢表格式模型並計算您所看到的結果。 您一律會看到表格式模型中可用的最新資料，該資料可能來自上次處理時間，或來自表格式模型中可用的 Direct Query 資料表。 
 
-請記住，表格式模型非常安全。 您對於所連接之表格式模型的權限會決定出現在 Power BI Desktop 中的項目。
+請記住，表格式模型非常安全。 您對於所連線表格式模型的權限會決定出現在 Power BI Desktop 中的項目。
 
 當您在 Power BI Desktop 中建立動態報表時，您可以將其發佈到 Power BI 網站以與他人共用。 當您透過表格式模型的即時連線將 Power BI Desktop 檔案發佈到 Power BI 網站時，必須由系統管理員安裝及設定內部部署資料閘道。 若要深入了解，請參閱[內部部署資料閘道](service-gateway-onprem.md)。
 
-**選取項目並匯入 Power BI Desktop** - 當您使用這個選項進行連接時，您可以選取表格式模型或檢視方塊中的資料表、資料行和量值等項目，再將其載入 Power BI Desktop 模型。 您可以使用 Power BI Desktop 的進階 [查詢編輯器]，進一步成形為您想要的樣子。 您可以使用 Power BI Desktop 的模型化功能，進一步建立資料模型。 Power BI Desktop 與表格式模型之間不需要維持即時連接。 您可以接著離線瀏覽 Power BI Desktop 模型，或發佈到 Power BI 網站。
+**選取項目並匯入 Power BI Desktop** – 當您使用這個選項進行連線時，您可以選取表格式模型或檢視方塊中的資料表、資料行和量值等項目，再將其載入 Power BI Desktop 模型。 您可以使用 Power BI Desktop 的進階 [查詢編輯器]，進一步成形為您想要的樣子。 您可以使用 Power BI Desktop 的模型化功能，進一步建立資料模型。 Power BI Desktop 與表格式模型之間不需要維持即時連線。 您可以接著離線瀏覽 Power BI Desktop 模型，或發佈到 Power BI 網站。
 
-## <a name="to-connect-to-a-tabular-model"></a>連接到表格式模型
+## <a name="to-connect-to-a-tabular-model"></a>連線到表格式模型
 1. 在 Power BI Desktop 的 [常用]  索引標籤上，按一下 [取得資料]  。
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata.png)
@@ -43,7 +43,7 @@ ms.locfileid: "75523019"
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_server.png)
 4. 這個步驟取決於您選取的連接模式：
 
-* 如果您要即時連接，請在 [導覽器] 中，選取一個表格式模型或檢視方塊。
+* 如果您要即時連線，請在 [導覽器] 中，選取一個表格式模型或檢視方塊。
   
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
 * 如果您選擇「選取項目並取得資料」，請在 [導覽器] 中，選取一個表格式模型或檢視方塊。 您可以進一步只選擇要載入的特定資料表或資料行。 若要將資料成形再載入，請按一下 [編輯] 以開啟 [查詢編輯器]。 當您完成時，按一下 [載入] 以將資料匯入 Power BI Desktop。
@@ -53,13 +53,13 @@ ms.locfileid: "75523019"
 ## <a name="frequently-asked-questions"></a>常見問題集
 **問：** 我是否需要內部部署資料閘道？
 
-**答：** 不一定。 如果您使用 Power BI Desktop 即時連接到表格式模型，但不想發佈到 Power BI 網站，則不需要閘道。 相反地，若您想要發佈到 Power BI 網站，就需要資料閘道，以確保 Power BI 服務與您內部部署 Analysis Services 伺服器之間的通訊安全。 安裝資料閘道之前，請先諮詢您的 Analysis Services 伺服器管理員。
+**答：** 不一定。 如果您使用 Power BI Desktop 即時連線到表格式模型，但不想發佈到 Power BI 網站，則不需要閘道。 相反地，若您想要發佈到 Power BI 網站，就需要資料閘道，以確保 Power BI 服務與您內部部署 Analysis Services 伺服器之間的通訊安全。 安裝資料閘道之前，請先諮詢您的 Analysis Services 伺服器管理員。
 
 若選擇要選取項目並取得資料，因為表格式模型資料會直接匯入您的 Power BI Desktop 檔案，所以不需要任何閘道。
 
 **問：** 從 Power BI 服務即時連線到表格式模型，與從 Power BI Desktop 即時連線有何不同？
 
-**答：** 當您從 Power BI 服務中的網站即時連線到表格式模型，再連線到組織內部部署的 Analysis Services 資料庫時，將會需要內部部署資料閘道以確保兩者之間的通訊安全。 當您從 Power BI Desktop 即時連接到表格式模型時，由於所要連接的 Power BI Desktop 和 Analysis Services 伺服器都是在組織內部執行，因此不需要閘道。 但您若要將 Power BI Desktop 檔案發佈到您的 Power BI 網站，就需要閘道。
+**答：** 當您從 Power BI 服務中的網站即時連線到表格式模型，再連線到組織內部部署的 Analysis Services 資料庫時，將會需要內部部署資料閘道以確保兩者之間的通訊安全。 當您從 Power BI Desktop 即時連線到表格式模型時，由於所要連線的 Power BI Desktop 和 Analysis Services 伺服器都是在組織內部執行，因此不需要閘道。 但您若要將 Power BI Desktop 檔案發佈到您的 Power BI 網站，就需要閘道。
 
 **問：** 如果我建立即時連線，是否可以連線到同一個 Power BI Desktop 檔案中的另一個資料來源？
 
@@ -97,5 +97,5 @@ ms.locfileid: "75523019"
 ## <a name="troubleshooting"></a>疑難排解 
 下列清單描述了連線至 SQL Server Analysis Services (SSAS) 或 Azure Analysis Services 時的所有已知問題。 
 
-* **錯誤:無法載入模型結構描述** - 此錯誤通常會在使用者於沒有資料庫/模型存取權的的情況下連線至 Analysis Services 時發生。
+* **錯誤：無法載入模型結構描述** - 此錯誤通常會在使用者於沒有資料庫/模型存取權的情況下連線至 Analysis Services 時發生。
 

@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 252e83a543640ec47fbadd00012bf1a4d8074f84
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 1e2465273368c6b76e602e5ffbdf4ec3a1d121a3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831519"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757822"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds"></a>自訂視覺效果標題、圖例及背景
+# <a name="customize-visualization-titles-backgrounds-and-legends"></a>自訂視覺效果標題、背景和圖例
 
 在本教學課程中，您將學到一些不同的方法，可以用來自訂視覺效果。 有很多選項可讓您自訂視覺效果。 深入了解它們的最佳方式就是探索 [格式]  窗格 (選取油漆滾筒圖示)。 為了協助您開始進行，本文示範如何自訂視覺效果標題、圖例、背景，以及如何新增主題。
 
 您無法自訂所有視覺效果。 如需詳細資料，請參閱視覺效果的[完整清單](#visualization-types-that-you-can-customize)。
 
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 - Power BI 服務或 Power BI Desktop
 
@@ -135,30 +135,30 @@ ms.locfileid: "74831519"
 
 | 視覺效果 | 標題 | 背景 | 圖例 |
 |:--- |:--- |:--- |:--- |
-| 區域 | 可以 | 是 |可以 |
-| 橫條圖 | 可以 | 是 |可以 |
-| card | 可以 | 是 |n/a |
-| 多列卡片 | 可以 | 是 | n/a |
-| 資料行 | 可以 | 是 | 可以 |
-| 組合圖 | 可以 | 是 | 可以 |
-| 環圈圖 | 可以 | 是 | 可以 |
-| 區域分布圖 | 可以 | 是 | 可以 |
-| 漏斗圖 | 可以 | 是 | n/a |
-| 量測計 | 可以 | 是 | n/a |
-| 關鍵影響因素 | 可以 | 是 | n/a |
-| KPI | 可以 | 是 | n/a |
-| 線條 | 可以 | 是 | 可以 |
-| 地圖 | 可以 | 是 | 可以 |
-| 矩陣圖 | 可以 | 是 | n/a |
-| 圓形圖 | 可以 | 是 | 可以 |
-| 問與答 | 可以 | 是 | n/a |
-| 散佈圖 | 可以 | 是 | 可以 |
-| 圖形 | 可以 | 是 | 可以 |
-| 交叉分析篩選器 | 可以 | 是 | n/a |
-| 資料表 | 可以 | 是 | n/a |
+| 區域 | 是 | 是 |是 |
+| 橫條圖 | 是 | 是 |是 |
+| card | 是 | 是 |n/a |
+| 多列卡片 | 是 | 是 | n/a |
+| 資料行 | 是 | 是 | 是 |
+| 組合圖 | 是 | 是 | 是 |
+| 環圈圖 | 是 | 是 | 是 |
+| 區域分布圖 | 是 | 是 | 是 |
+| 漏斗圖 | 是 | 是 | n/a |
+| 量測計 | 是 | 是 | n/a |
+| 關鍵影響因素 | 是 | 是 | n/a |
+| KPI | 是 | 是 | n/a |
+| 線條 | 是 | 是 | 是 |
+| 地圖 | 是 | 是 | 是 |
+| 矩陣圖 | 是 | 是 | n/a |
+| 圓形圖 | 是 | 是 | 是 |
+| 問與答 | 是 | 是 | n/a |
+| 散佈圖 | 是 | 是 | 是 |
+| 圖形 | 是 | 是 | 是 |
+| 交叉分析篩選器 | 是 | 是 | n/a |
+| 資料表 | 是 | 是 | n/a |
 | 文字方塊 | 不可以 | 是 | n/a |
-| 樹狀圖 | 可以 | 是 | 可以 |
-| 瀑布圖 | 可以 | 是 | 可以 |
+| 樹狀圖 | 是 | 是 | 是 |
+| 瀑布圖 | 是 | 是 | 是 |
 
 ## <a name="next-steps"></a>後續步驟
 

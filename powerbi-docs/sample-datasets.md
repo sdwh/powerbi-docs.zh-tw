@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b14b9a8a0978876942de789548d9741fa3932152
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858977"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762218"
 ---
-# <a name="what-sample-data-is-available-to-use-with-power-bi"></a>哪種範例資料可搭配 Power BI 使用？
+# <a name="get-sample-data-for-power-bi"></a>取得 Power BI 的範例資料
 您是否剛接觸 Power BI 並想要試用，但沒有任何資料；  或您可能有資料集。 因為您 (還) 不了解 Power BI 的運作方式，所以擔心可能會不小心損害資料集？
 
 不必煩惱！ obviEnce ([www.obvience.com](http://www.obvience.com/)) 和 Microsoft 建立了範例供您使用，直到您更熟悉 Power BI 為止。  資料經匿名處理，並代表了不同產業：財務、HR、銷售等。 此外，我們的線上文件會在教學課程和範例中使用這些相同範例，讓您能夠跟著進行。      
@@ -30,7 +30,7 @@ ms.locfileid: "73858977"
 
 ## <a name="usage-guidelines-for-the-power-bi-sample-excel-workbooks"></a>Power BI 範例 Excel 活頁簿的使用方式方針
 
-©2015 Microsoft Corporation. 著作權所有，並保留一切權利。 文件和活頁簿皆以「現況」提供。 活頁簿中呈現的資訊和檢視，包括 URL 及其他網際網路網站參考資料，可能會變更，恕不另行通知。 貴用戶須自行承擔使用風險。 部分範例僅供示範，均屬虛構， 亦沒有任何預定或推斷的實際關聯。 針對此處提供的資訊，Microsoft 不做任何明示或默許的擔保。
+©2015 Microsoft Corporation. All rights reserved. 文件和活頁簿皆以「現況」提供。 活頁簿中呈現的資訊和檢視，包括 URL 及其他網際網路網站參考資料，可能會變更，恕不另行通知。 貴用戶須自行承擔使用風險。 部分範例僅供示範，均屬虛構， 亦沒有任何預定或推斷的實際關聯。 針對此處提供的資訊，Microsoft 不做任何明示或默許的擔保。
 
 活頁簿不會提供您任何 Microsoft 產品的任何智慧財產權法定權利。 您可以複製並使用此活頁簿以供內部參考之用。
 
@@ -127,7 +127,7 @@ ObviEnce 是一家 ISV 和 Microsoft Business Intelligence 的智慧財產權 (I
    * [銷售與行銷範例](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. 儲存下載的檔案。 檔案的儲存位置會有差異。
 
-   * ![本機](media/sample-datasets/power-bi-local-file2.png)  **本機** - 如果您將檔案儲存到電腦上的本機磁碟或組織中的其他位置，您可以從 Power BI 將檔案匯入至 Power BI。 您的檔案實際上會保留在本機磁碟，因此不會將整個檔案匯入 Power BI。 發生的情況是在 Power BI 網站中建立新資料集，並將資料和資料模型 (在某些情況下) 載入資料集。 如果您的檔案有任何報表，則這些報表會顯示在 Power BI 網站的 [報表] 下。
+   * ![本機](media/sample-datasets/power-bi-local-file2.png) **本機**- 如果您將檔案儲存到電腦上的本機磁碟或組織中的其他位置，您可以從 Power BI 將檔案匯入 Power BI 中。 您的檔案實際上會保留在本機磁碟，因此不會將整個檔案匯入 Power BI。 發生的情況是在 Power BI 網站中建立新資料集，並將資料和資料模型 (在某些情況下) 載入資料集。 如果您的檔案有任何報表，則這些報表會顯示在 Power BI 網站的 [報表] 下。
    * ![商務用 OneDrive](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 商務** – 如果您有商務用 OneDrive，並使用與用來登入 Power BI 相同的帳戶進行登入，則商務用 OneDrive 是目前為止確保 Excel、Power BI 或 .CSV 檔案中工作與 Power BI 中資料集、報表和儀表板保持同步的最佳位置。 由於 Power BI 和 OneDrive 都在雲端，因此 Power BI 每隔約一小時就會連接到您在 OneDrive 上的檔案。 如果發現任何變更，便會自動更新 Power BI 中的資料集、報表和儀表板。
    * ![OneDrive 個人版](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - 個人** - 如果您將檔案儲存到自己的 OneDrive 帳戶，則可以利用許多與使用商務用 OneDrive 相同的優點。 最大的差異是當您第一次連接到檔案時 (使用 [取得資料] > [檔案] > [OneDrive - 個人])，需要使用 Microsoft 帳戶登入 OneDrive，這通常與用來登入 Power BI 的帳戶不同。 當您使用 Microsoft 帳戶登入 OneDrive 時，請務必選取 [讓我保持登入] 選項。 如此一來，Power BI 每隔約一小時就會連接到您的檔案，以確保您在 Power BI 中的資料集保持同步。
    * ![SharePoint 小組網站](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint 小組網站** - 將 Power BI 檔案儲存到 SharePoint - 小組網站與儲存到商務用 OneDrive 大致相同。 最大的差異是從 Power BI 連接到檔案的方式。 您可以指定 URL 或連接到根資料夾。

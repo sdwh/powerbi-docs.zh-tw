@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bb4e177ff813c332c8b60b490ead1f6d97a03935
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 33fc0faf92d1730c1d08f91eabc276cdafadfffb
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867124"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761103"
 ---
-# <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>使用 Power BI Desktop 中的見解來找出分佈的不同之處 (預覽)
+# <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>套用 Power BI Desktop 中的見解以找出分佈的不同之處 (預覽)
 
 在視覺效果中，您經常會看到資料點，並想知道不同類別的分佈是否會相同。 使用 **Power BI Desktop** 中的**見解**，只要按幾下就能查明。
 

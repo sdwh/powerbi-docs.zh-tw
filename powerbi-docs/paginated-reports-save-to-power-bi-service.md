@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 12/03/2019
-ms.openlocfilehash: a7f0e6f08f25d47cd50789a3c8f296ae20c4cab0
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.date: 01/03/2020
+ms.openlocfilehash: 5f77e17eccf4c99e7a391ea310a34848c604e01d
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831203"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732076"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>將編頁報表發佈至 Power BI 服務
 
 在此文章中，您將了解如何從本機電腦上傳編頁報表，以將該報表發佈至 Power BI 服務。 只要工作區位於 Premium 容量，您就可以將編頁報表上傳到 [我的工作區] 或任何其他工作區。 尋找工作區名稱旁邊的鑽石圖示 ![Power BI Premium 容量鑽石圖示](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) (在工作區名稱旁邊)。 
 
-如果您的報表資料來源位於內部部署，則需在上傳報表之後[建立閘道](#create-a-gateway)。
+如果您的報表資料來源位於內部部署環境，則需在上傳報表後建立閘道。 請參閱本文稍後的[建立閘道](#create-a-gateway)一節。
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>將工作區新增至 Premium 容量
 
@@ -35,8 +35,33 @@ ms.locfileid: "74831203"
 
    您可能無法變更它。 如果沒有，則連絡您的 Power BI Premium 容量管理員，以為您提供指派權限來將您的工作區新增至 Premium 容量。
 
+## <a name="from-report-builder-publish-a-paginated-report"></a>從報表產生器發佈編頁報表
 
-## <a name="upload-a-paginated-report"></a>上傳編頁報表
+1. 在報表產生器中建立編頁報表，然後將它儲存到本機電腦。
+
+1. 在報表產生器的 [檔案]  功能表上，選取 [另存新檔]  。
+
+    ![檔案功能表 > 儲存 > 另存新檔](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
+
+    如果您尚未登入 Power BI，您必須立即登入或建立帳戶。 在報表產生器的右上角，選取 [登入]  並完成相關步驟。
+
+2. 在左側工作區清單中，選取其名稱旁邊具有鑽石圖示 ![Power BI Premium 容量鑽石圖示](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) 的工作區。 在方塊中輸入**檔案名稱**，然後按一下 [儲存]  。 
+
+    ![選取 Premium 工作區](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-workspace.png)
+
+4. 在瀏覽器中開啟 Power BI 服務，然後瀏覽至您在其中發佈編頁報表的 Premium 工作區。 在 [報表]  索引標籤上，您會看到報表。
+
+    ![報表清單中的編頁報表](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
+
+5. 選取編頁報表以在 Power BI 服務中開啟。 如果報表具有參數，則您需要選取它們，才能檢視該報表。
+
+    ![選取參數](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-parameters.png)
+
+6. 如果您的報表資料來源位於內部部署環境，請參閱本文中[建立閘道](#create-a-gateway)的方式以存取資料來源。
+
+## <a name="from-the-power-bi-service-upload-a-paginated-report"></a>從 Power BI 服務上傳編頁報表
+
+您也可以從 Power BI 服務開始並上傳編頁報表。
 
 1. 在報表產生器中建立編頁報表，然後將它儲存到本機電腦。
 
@@ -62,13 +87,15 @@ ms.locfileid: "74831203"
 
     ![編輯認證](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
-   您會在報表清單中看到您的報表。
+   在 [報表]  索引標籤上，您會看到報表。
 
     ![報表清單中的編頁報表](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
 
 1. 選取該報表以在 Power BI 服務中開啟它。 如果報表具有參數，則您需要選取它們，才能檢視該報表。
  
     ![選取參數](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-parameters.png)
+
+6. 如果您的報表資料來源位於內部部署環境，請參閱本文中[建立閘道](#create-a-gateway)的方式以存取資料來源。
 
 ## <a name="create-a-gateway"></a>建立閘道
 
@@ -89,4 +116,5 @@ ms.locfileid: "74831203"
 
 - [檢視 Power BI 服務中的編頁報表](consumer/paginated-reports-view-power-bi-service.md)
 - [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)
+- [教學課程：為客戶將 Power BI 編頁報表內嵌至應用程式](developer/embed-paginated-reports-customers.md)
 

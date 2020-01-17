@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 87a72ba5ac69334c04e65871c81a9006e183d88d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e1babaa39a1f52a06c69dcb9aac2441ca02452b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876362"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761264"
 ---
-# <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop 中的資料檢視
+# <a name="work-with-data-view-in-power-bi-desktop"></a>在 Power BI Desktop 中使用資料檢視
 [資料檢視]  可協助您檢查、瀏覽及了解 **Power BI Desktop** 模型中的資料。 它與您在 [查詢編輯器]  中檢視資料表、資料行和資料的方式不同。 在 [資料檢視] 中，您所看到的資料是載入模型「之後」  的樣子。
 
 當您建立資料模型時，有時會想要在報表畫布上沒有建立視覺效果的情況下，查看資料表或資料行中的實際內容，通常會查看到資料列層級。 特別適用於當您要建立量值和導出資料行，或需要識別資料類型或資料類別時。

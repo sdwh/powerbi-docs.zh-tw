@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2018
 LocalizationGroup: Model your data
-ms.openlocfilehash: d2b034d6e58f98169a5b1b260571001d5a929f28
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e2b1c90c6a4ee237af0d800dd7d1c6e1dc8dc3ba
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866596"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760897"
 ---
-# <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>在 Power BI Desktop 中為行動裝置應用程式標記條碼
+# <a name="tag-barcodes-in-power-bi-desktop-for-use-in-the-mobile-app"></a>在 Power BI Desktop 中標記條碼以便在行動裝置應用程式中使用
 
 在 Power BI Desktop 中，您可以在資料行內[分類資料](desktop-data-categorization.md)，使 Power BI Desktop 知道在報表中以何種視覺效果處理值。 您也可以將資料行分類為**條碼**。 當您或您的同事在 iPhone 上 [ 使用 Power BI 應用程式掃描產品上條碼](consumer/mobile/mobile-apps-scan-barcode-iphone.md)時，您會看到任何包含該條碼的報表。 當您在行動裝置應用程式中開啟報表時，Power BI 會自動篩選出報表中與條碼相關的資料。
 

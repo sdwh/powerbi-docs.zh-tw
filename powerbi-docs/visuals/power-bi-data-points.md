@@ -2,21 +2,21 @@
 title: 大型資料集、資料點限制及資料策略
 description: 適用於視覺效果和資料縮減策略的資料限制
 author: mihart
-ms.reviewer: amac
+ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74011283"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885247"
 ---
-# <a name="data-point-limits-and-strategies-by-visual-type"></a>依視覺效果類型區分的資料點限制和策略
+# <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>依視覺效果類型套用資料點限制與策略
 
 在 Power BI 中呈現視覺效果時，視覺化作業必須既快速又精確。 這需要針對每個視覺效果類型設定底層的演算法。 Power BI 中的視覺效果必須有足夠的彈性來處理不同大小的資料集。 有些資料集只有少數幾個資料點，而其他資料集則會有數 PB 的資料點。 本文說明 Power BI 用來呈現視覺效果的策略。
 
@@ -75,12 +75,12 @@ ms.locfileid: "74011283"
  使用與直條圖相同的策略。 請注意，**組合圖**中的線路並不會使用**折線圖**所使用的高密度演算法。
 
 ### <a name="custom-visuals"></a>自訂視覺效果
-最多 30,000 個，但需由視覺效果作者指示要使用的策略
+最多 30,000 個，但需由視覺效果作者指示要使用的策略。 預設限制為 1000，但視覺效果建立者可加以變更，其上限為 30000。
 
 ### <a name="doughnut"></a>環圈圖
 - 點數上限：3,500
 - 群組：前 500 個
-- 詳細資料:前 20 個
+- 詳細資料：前 20 個
 
 ### <a name="filled-map-choropleth"></a>區域分布圖 (分級著色圖) 
 區域分布圖可以使用統計資料或動態限制。 Power BI 會嘗試依下列順序使用縮減：動態限制、統計資料、設定。 
@@ -120,6 +120,9 @@ ms.locfileid: "74011283"
 - 資料行：前 100 個群組資料行 
 - 值：有多個值不會計入資料縮減
 
+### <a name="powerapps-visual"></a>PowerApps 視覺效果
+最多 30,000 個，但需由視覺效果作者指示要使用的策略。 預設限制為 1000，但視覺效果建立者可加以變更，其上限為 30000。
+
 ### <a name="radial-gauge"></a>星形量測計
 無縮減策略
 
@@ -132,7 +135,7 @@ ms.locfileid: "74011283"
 ### <a name="pie"></a>圓形圖
 - 點數上限：3,500
 - 群組：前 500 個
-- 詳細資料:前 20 個
+- 詳細資料：前 20 個
 
 ### <a name="r--python-visuals"></a>R 和 Python 視覺效果
 限制為 150,000 個資料列。 如果選取超過 150,000 個資料列，則只會使用前 150,000 個資料列
@@ -157,7 +160,7 @@ ms.locfileid: "74011283"
 ### <a name="tree-map-could-use-statistics-or-dynamic-limits"></a>樹狀圖 (可使用統計資料或動態限制)
 - 點數上限：3,500
 - 群組：前 500 個
-- 詳細資料:前 20 個
+- 詳細資料：前 20 個
 
 ### <a name="waterfall-chart"></a>瀑布圖
 - 當只有類別值區時

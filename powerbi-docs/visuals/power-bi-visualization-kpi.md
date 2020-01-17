@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 42a9f2c641a0cdac9b7a129ffc5ecc6f7fb8cf8d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f477c21a337838fb275087f744eef02eb7fd57ce
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870876"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762362"
 ---
-# <a name="key-performance-indicator-kpi-visuals"></a>關鍵效能指標 (KPI) 視覺效果
+# <a name="create-key-performance-indicator-kpi-visualizations"></a>建立關鍵效能指標 (KPI) 視覺效果
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -44,7 +44,7 @@ KPI 極適合：
 
 KPI 資料集必須包含 KPI 目標值。 如果您的資料集未包含目標值，可透過將具有目標的 Excel 工作表新增至您的資料模型或 PBIX 檔案，以建立它們。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 本教學課程使用[零售分析範例 PBIX 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
@@ -97,7 +97,7 @@ KPI 資料集必須包含 KPI 目標值。 如果您的資料集未包含目標�
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
-若您的 KPI 看起來不像上述的 KPI，可能是因為您未依 **FiscalMonth** 排序。 Kpi 沒有排序選項。 您需要重新開始，並在將視覺效果轉換為 KPI「之前」  ，必須先依 **FiscalMonth** 排序。
+若您的 KPI 看起來不像上述的 KPI，可能是因為您未依 **FiscalMonth** 排序。 Kpi 沒有排序選項。 您必須重新開始，且在將視覺效果轉換為 KPI「之前」  ，必須先依 **FiscalMonth** 排序。
 
 ## <a name="next-steps"></a>後續步驟
 

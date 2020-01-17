@@ -6,16 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: b8dd79e4b256a80ba5159a1b3980e798bc611840
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4c4228ea4276235a983849d2ea88e1030f4690f7
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875038"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732030"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>建立 Power BI 報表伺服器的編頁報表
+在本文中，您會在幾個簡單步驟中建立 Power BI 報表伺服器的編頁報表。
+
+尋求在 Power BI 服務的報表產生器中建立編頁報表的協助嗎？ 請改為參閱 [Power BI 編頁報表產生器](../report-builder-power-bi.md)。
+
 正如其名，編頁報表可以執行至許多頁面。 其配置使用固定的格式，且提供精確的自訂項目。 編頁報表為 .rdl 檔案。
 
 您可以在 Power BI 報表伺服器入口網站中儲存及管理編頁報表，就如同您在 SQL Server Reporting Services (SSRS) 入口網站一樣。 在 SQL Server Data Tools (SSDT) 的報表產生器或報表設計師中建立和編輯，然後將其發行至其中一個入口網站。 接著貴組織的報表讀者可在瀏覽器，或其行動裝置上的 Power BI 行動裝置應用程式中加以檢視。
@@ -24,7 +28,7 @@ ms.locfileid: "73875038"
 
 如果您已在報表產生器或報表設計師中建立編頁報表，就可建立 Power BI 報表伺服器的編頁報表。 若否，以下是一些快速入門步驟。
 
-## <a name="step-1-install-and-start-report-builder"></a>步驟 1：安裝並啟動報表產生器
+## <a name="step-1-start-report-builder"></a>步驟 1：啟動報表產生器
 您可能已安裝報表產生器，可建立 SSRS 伺服器的報表。 您可以使用相同版本或報表產生器來建立 Power BI 報表伺服器的報表。 如果您尚未安裝，此程序很簡單。
 
 1. 在 Power BI 報表伺服器入口網站中，選取 [新增]   >  [編頁報表]  。

@@ -9,14 +9,15 @@ ms.topic: conceptual
 ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5417511b12c85cb467c3613671a1e101541c9609
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73880632"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758615"
 ---
-# <a name="show-the-data-that-was-used-to-create-the-visualization"></a>顯示用於建立視覺效果的資料
+# <a name="display-a-visualizations-underlying-data"></a>顯示視覺效果的基礎資料
+
 ## <a name="show-data"></a>顯示資料
 Power BI 視覺效果是使用您資料集中的資料所建構的。 如果您對背景資料有興趣，Power BI 可讓您「顯示」  用來建立視覺效果的資料。 當您選取 [顯示資料]  時，Power BI 會在視覺效果下方 (或旁邊) 顯示資料。
 

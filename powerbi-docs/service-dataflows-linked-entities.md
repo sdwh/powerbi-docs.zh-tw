@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 31e2e681bc4309e5dce31583e70e669bce5e466f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 3e6de89f66d6f6282fcde25a1d2be445e2721817
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877249"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762178"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>連結 Power BI 中資料流程之間的實體
 
@@ -81,6 +81,7 @@ ms.locfileid: "73877249"
 * 不允許連結實體循環相依性
 * 資料流程必須位於[新的 Power BI 工作區](service-create-the-new-workspaces.md)中
 * 連結的實體無法與資料取自內部部署資料來源的一般實體相連
+* 當查詢 (例如查詢 A) 用於計算資料流程中的另一個查詢 (查詢 B) 時，查詢 B 會成為計算的實體。 計算的實體不能參考內部部署來源。
 
 
 ## <a name="next-steps"></a>後續步驟

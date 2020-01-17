@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: f14734f168abca1003bd5b6c773c4c70daf53d15
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265468"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762086"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 **Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本專為美國政府客戶而設計，並且獨立且不同於商用版本的 **Power BI 服務**。
@@ -59,6 +59,7 @@ Azure 分散於多個雲端。 系統預設會允許租用戶，以開啟對雲�
 * **儀表板和報表的使用計量** - 使用計量不適用於儀表板和報表。 客戶可以使用稽核記錄資料，取得組織中內容的使用量資訊。
 * **資料流程** - 資料流程無法使用。
 * **編頁報表** - 編頁報表目前僅適用於美國維吉尼亞州政府。  對美國德克薩斯州政府的支援已在規劃中，但尚未提供。
+* 您只能利用 Office 356 SKU 從政府社群雲端 (GCC) 內嵌 Power BI 內容。 GCC High 客戶可以使用 [Office 365 或 Azure SKU](developer/embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365)。
 
 如果您已將 **Power BI** 免費授權指派給您的帳戶，則這些帳戶會在 **Power BI** 服務的商用版本中執行，而不是 **Power BI 美國政府**供應項目的一部分。 針對這些免費帳戶，您可能會遇到下列問題︰
 

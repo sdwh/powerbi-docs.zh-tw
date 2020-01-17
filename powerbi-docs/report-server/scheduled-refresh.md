@@ -6,14 +6,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 90f08abd119e7dfc0bf639eeb2ed8334fbdfa234
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699007"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837604"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI 報表伺服器中 Power BI 報表排程的重新整理
 Power BI 報表的排程重新整理可讓報表的資料保持在最新狀態。
@@ -61,8 +61,10 @@ Power BI 報表伺服器會為所有排程的作業維護事件佇列。 它會�
 
 如需 Analysis Services 內記憶體設定的詳細資訊，請參閱[記憶體屬性](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)。
 
+### <a name="data-model-size-limit"></a>資料模型大小限制
+在排定重新整理期間載入內部 Analysis Services 引擎的資料模型大小上限為 2000 MB (2GB)。 無法設定此大小上限。 如果您的資料模型成長大於 2GB，您會收到重新整理錯誤：「結果長度超過目標大型類型的長度限制 (2GB)」。 在這種情況下，建議將模型裝載於 Analysis Services 執行個體中，並使用報表中模型的即時連線。
+
 ## <a name="next-steps"></a>後續步驟
 在 Power BI 報表上設定[排程的重新整理](configure-scheduled-refresh.md)。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

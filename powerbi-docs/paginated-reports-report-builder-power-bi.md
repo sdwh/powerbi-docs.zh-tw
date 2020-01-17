@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 35f50f57f3874bbb87fcdd5fbcf7da987fea1d1a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b82bd3d6f9badd8102f95856f203aa2a8ea5f950
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74831161"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732116"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>什麼是 Power BI Premium 中的編頁報表？
 
@@ -88,5 +88,4 @@ ms.locfileid: "74831161"
 - [教學課程：建立編頁報表](paginated-reports-quickstart-aw.md)
 - [直接在編頁報表中輸入資料](paginated-reports-enter-data.md)
 - [Hands-on lab:Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (實作教室：建立 Microsoft Power BI 編頁報表)
-  
-
+- [教學課程：為客戶將 Power BI 編頁報表內嵌至應用程式](developer/embed-paginated-reports-customers.md)。

@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868528"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729705"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的資料類型
 本文描述 Power BI Desktop 與資料分析運算式 (DAX) 支援的資料類型。 
@@ -51,7 +51,7 @@ Power BI Desktop 支援三種數字類型：
 >
 
 ### <a name="datetime-types"></a>日期/時間類型
-Power BI Desktop 支援 [查詢檢視] 中的五種 [日期/時間] 資料類型，以及 [報表檢視] 和模型中的三種資料類型。   [日期/時間/時區] 和 [持續時間] 會在載入模型期間進行轉換。
+Power BI Desktop 支援 [查詢檢視] 中的五種 [日期/時間] 資料類型。  [日期/時間/時區] 和 [持續時間] 會在載入模型期間進行轉換。 Power BI Desktop 資料模型僅支援日期/時間，但可以獨立格式化為日期或時間。 
 
 **日期/時間** - 代表日期和時間值。  基本上，[日期/時間] 值會儲存為 [十進位數字] 類型。  因此，您實際上可以在這兩種類型之間進行轉換。   日期的時間部分會儲存為整數的小數 1/300 秒 (3.33 毫秒)。  支援介於 1900 到 9999 年之間的日期。
 
@@ -59,7 +59,7 @@ Power BI Desktop 支援 [查詢檢視] 中的五種 [日期/時間] 資料類型
 
 **時間** - 只代表時間 (沒有日期部分)。  轉換成模型時，[時間] 值等同於小數位數左邊沒有位數的 [日期/時間] 值。
 
-**日期/時間/時區** - 代表 UTC 日期/時間。  目前，當載入模型時，它會轉換成 [日期/時間]。
+**日期/時間/時區** - 代表沒有時區偏移的 UTC 日期/時間。  當載入模型時，它會轉換成 [日期/時間]。 Power BI 模型不會根據使用者的位置或地區設定等來調整時區。如果將 09:00 的值載入美國的模型，其會在任何開啟或檢視報表的地方顯示為 09:00。 
 
 **持續時間** - 代表時間長度。 當載入模型時，它會轉換成 [十進位數字] 類型。  以 [十進位數字] 類型表示時，可從 [日期/時間] 欄位進行加減以得到正確的結果。  以 [十進位數字] 類型表示時，您可以輕鬆地用於視覺效果以顯示大小。
 
@@ -73,7 +73,7 @@ Power BI Desktop 支援 [查詢檢視] 中的五種 [日期/時間] 資料類型
 **空白** - 這是 DAX 中表示和取代 SQL Null 的資料類型。 您可以使用 [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) 函數來建立空白，並使用 [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 邏輯函數來測試空白。
 
 ### <a name="table-data-type"></a>資料表資料類型
-DAX 會在許多函數中使用資料表資料類型，例如彙總與時間智慧計算。 某些函數需要資料表的參考，其他函數則會傳回之後可當做其他函數輸入使用的資料表。 在需要資料表當做輸入的部分函數中，您可以指定評估為資料表的運算式；對於某些函數，則需要基底資料表的參考。 如需特定函數需求的相關資訊，請參閱 [DAX 函數參考](https://msdn.microsoft.com/library/ee634396.aspx).
+DAX 會在許多函數中使用資料表資料類型，例如彙總與時間智慧計算。 某些函數需要資料表的參考，其他函數則會傳回之後可當做其他函數輸入使用的資料表。 在需要資料表當做輸入的部分函數中，您可以指定評估為資料表的運算式；對於某些函數，則需要基底資料表的參考。 如需特定函數需求的相關資訊，請參閱 [DAX 函數參考](https://msdn.microsoft.com/library/ee634396.aspx)。
 
 ## <a name="implicit-and-explicit-data-type-conversion-in-dax-formulas"></a>DAX 公式中隱含與明確的資料類型轉換
 每個 DAX 函數對於當做輸入與輸出使用之資料的類型都有特定需求。 例如，某些函數需要整數做為部分引數並需要日期做為其他引數，其他函數則需要文字或資料表。
@@ -102,7 +102,7 @@ DAX 會在許多函數中使用資料表資料類型，例如彙總與時間智�
 | REAL |REAL |REAL |REAL |日期/時間 |
 | 日期/時間 |日期/時間 |日期/時間 |日期/時間 |日期/時間 |
 
-例如，如果在加法運算中使用實數搭配貨幣資料，兩個值都會轉換為 REAL，因此傳回的結果為 REAL
+例如，如果在加法運算中使用實數搭配貨幣資料，兩個值都會轉換為 REAL，因此傳回的結果為 REAL。
 
 **減 (-)**
 
@@ -175,13 +175,13 @@ DAX 會在許多函數中使用資料表資料類型，例如彙總與時間智�
 | BLANK + BLANK |BLANK |0 (零) |
 | BLANK + 5 |5 |5 |
 | BLANK * 5 |BLANK |0 (零) |
-| 5/BLANK |無限 |錯誤 |
-| 0/BLANK |NaN |錯誤 |
-| BLANK/BLANK |BLANK |錯誤 |
+| 5/BLANK |無限 |Error |
+| 0/BLANK |NaN |Error |
+| BLANK/BLANK |BLANK |Error |
 | FALSE OR BLANK |FALSE |FALSE |
 | FALSE AND BLANK |FALSE |FALSE |
 | TRUE OR BLANK |TRUE |TRUE |
 | TRUE AND BLANK |FALSE |TRUE |
-| BLANK OR BLANK |BLANK |錯誤 |
-| BLANK AND BLANK |BLANK |錯誤 |
+| BLANK OR BLANK |BLANK |Error |
+| BLANK AND BLANK |BLANK |Error |
 

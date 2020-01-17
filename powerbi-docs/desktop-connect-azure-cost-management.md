@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1a09bd706a69156066f077bfb1668dd27448bd40
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf83df157738621116eb9e5461876eee8faf0863
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878594"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761672"
 ---
-# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>在 Power BI Desktop 中連線到 Azure 成本管理
+# <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 Azure 成本管理連接器建立視覺效果和報表
 
 您可以使用適用於 Power BI Desktop 的 Azure 成本管理連接器，來提供功能強大、自訂視覺效果與報表，協助您更了解您的 Azure 支出。 Azure 成本管理連接器目前支援具有 [Microsoft 客戶合約](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/)或 [Enterprise 合約 (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/) 的客戶。  
 
@@ -45,7 +45,7 @@ Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並�
 
 1.  在 [Azure 入口網站](https://portal.azure.com/)中，瀏覽到 [成本管理 + 計費]  。
 2.  選取您的帳單設定檔。 
-3.  在功能表的 [設定]   下，選取側邊欄中的 [屬性]  。
+3.  在功能表的 [設定]  下，選取側邊欄中的 [屬性]  。
 4.  在 [帳單設定檔]  下，複製**識別碼**。 
 5.  針對 [選擇範圍]  ，請選取 [帳單設定檔識別碼]  並貼上上一個步驟中的帳單設定檔識別碼。 
 6.  輸入月份數，然後選取 [確定]  。

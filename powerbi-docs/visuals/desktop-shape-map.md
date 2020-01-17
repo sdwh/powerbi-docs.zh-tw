@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199461"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762316"
 ---
-# <a name="shape-maps-in-power-bi-desktop-preview"></a>在 Power BI Desktop (預覽) 中的圖形地圖
+# <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>在 Power BI Desktop (預覽) 中建立圖形對應視覺效果
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -115,7 +115,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="australia-states"></a>澳洲：州
 
-| 識別碼 | abbr | iso | 名稱 | 郵遞區號 |
+| 識別碼 | abbr | iso | name | 郵遞區號 |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |西澳洲 |WA |
 | au-vic |Vic |AU-VIC |維多利亞 |VIC |
@@ -128,7 +128,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="austria-states"></a>奧地利：州
 
-| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| 識別碼 | iso | name | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |維也納 |WI |
 | at-vo |AT-8 |Vorarlberg |福拉爾貝格 |VO |
@@ -178,7 +178,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="canada-provinces"></a>加拿大：省
 
-| 識別碼 | iso | 名稱 | 郵遞區號 |
+| 識別碼 | iso | name | 郵遞區號 |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |努納福特 |NU |
 | ca-nt |CA-NT |西北領地 |NT |
@@ -196,7 +196,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="france-regions"></a>法國：區
 
-| 識別碼 | 名稱 | 名稱 - 繁體中文 |
+| 識別碼 | name | 名稱 - 繁體中文 |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
@@ -204,7 +204,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 中央-羅亞爾河谷 |Centre-Val de Loire |中央-羅亞爾河谷 |
 | Corse |Corse |科西嘉島 |
 | Grand Est |  |  |
-| 瓜地洛普 | |   |
+| 哥德洛普 | |   |
 | Hauts-de-France |  |  |
 | 法蘭西島 |Île-de-France |法蘭西島 |
 | La Reunion |  |  |
@@ -218,7 +218,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="germany-states"></a>德國：州
 
-| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| 識別碼 | iso | name | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |柏林 |BE |
 | de-th |DE-TH |Thüringen |圖林根 |TH |
@@ -270,7 +270,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="italy-regions"></a>義大利：區
 
-| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| 識別碼 | iso | name | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |威尼托 |VN |
 | it-vd |IT-23 |Valle d'Aosta |瓦萊達奧斯塔 |VD |
@@ -295,7 +295,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="mexico-states"></a>墨西哥：州
 
-| 識別碼 | abreviatura | iso | 名稱 | 名稱 - 繁體中文 | 郵遞區號 |
+| 識別碼 | abreviatura | iso | name | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |薩卡特卡斯 |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |猶加敦 |YU |
@@ -316,13 +316,13 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | mx-mic |Mich. |MX-MIC |Michoacán |米卻肯 |MC |
 | mx-mex |Méx. |MX-MEX |Estado de México |墨西哥州 |MX |
 | mx-jal |Jal. |MX-JAL |Jalisco |哈利斯科 |JA |
-| mx-hid |Hgo. |MX-HID |Hidalgo |伊達爾戈 |HI |
+| mx-hid |Hgo. |MX-HID |Hidalgo |伊達爾戈 |夏威夷 |
 | mx-gro |Gro. |MX-GRO |Guerrero |格雷羅 |GR |
 | mx-gua |Gto. |MX-GUA |Guanajuato |瓜納華托 |GT |
 | mx-dur |Dgo. |MX-DUR |Durango |杜蘭戈 |DU |
 | mx-dif |CDMX. |MX-DIF |Ciudad de México |墨西哥城 |DF |
 | mx-col |Col. |MX-COL |Colima |科利馬 |CL |
-| mx-coa |Coah. |MX-COA |Coahuila |科阿韋拉 |CA |
+| mx-coa |Coah. |MX-COA |Coahuila |科阿韋拉 |加利福尼亞 |
 | mx-chh |Chih. |MX-CHH |Chihuahua |契瓦瓦 |CH |
 | mx-chp |Chis. |MX-CHP |Chiapas |恰帕斯 |CP |
 | mx-cam |Camp. |MX-CAM |Campeche |坎佩切 |CM |
@@ -332,7 +332,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="netherlands-provinces"></a>荷蘭：省
 
-| 識別碼 | iso | 名稱 | 名稱 - 繁體中文 |
+| 識別碼 | iso | name | 名稱 - 繁體中文 |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |南荷蘭 |
 | nl-ze |NL-ZE |Zeeland |澤蘭 |
@@ -349,7 +349,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="uk-countries"></a>英國：國家/地區
 
-| 識別碼 | iso | 名稱 |
+| 識別碼 | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |威爾斯 |
 | gb-sct |GB-SCT |蘇格蘭 |
@@ -358,11 +358,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="usa-states"></a>美國：州
 
-| 識別碼 | 名稱 | 郵遞區號 |
+| 識別碼 | name | 郵遞區號 |
 | --- | --- | --- |
 | us-mi |密西根 |MI |
 | us-ak |阿拉斯加 |AK |
-| us-hi |夏威夷 |HI |
+| us-hi |夏威夷 |夏威夷 |
 | us-fl |佛羅里達 |FL |
 | us-la |路易斯安那 |LA |
 | us-ar |阿肯色 |AR |
@@ -375,10 +375,10 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-tn |田納西 |TN |
 | us-nc |北卡羅來那州 |NC |
 | us-ok |奧克拉荷馬 |OK |
-| us-az |亞歷桑那 |AZ |
+| us-az |亞歷桑那 |亞利桑那 |
 | us-mo |密蘇里 |MO |
-| us-va |維吉尼亞 |VA |
-| us-ks |堪薩斯 |KS |
+| us-va |維吉尼亞 |維吉尼亞 |
+| us-ks |堪薩斯 |堪薩斯 |
 | us-ky |肯塔基 |KY |
 | us-co |科羅拉多 |CO |
 | us-md |馬里蘭 |MD |
@@ -387,7 +387,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-dc |哥倫比亞特區 |DC |
 | us-il |伊利諾 |IL |
 | us-oh |俄亥俄 |OH |
-| us-ca |加利福尼亞 |CA |
+| us-ca |加利福尼亞 |加利福尼亞 |
 | us-ut |猶他 |UT |
 | us-nv |內華達 |NV |
 | us-in |印第安納 |IN |
@@ -398,18 +398,18 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-ny |紐約 |NY |
 | us-ne |內布拉斯加 |NE |
 | us-ma |麻薩諸塞 |MA |
-| us-ia |愛荷華 |IA |
+| us-ia |愛荷華 |愛荷華 |
 | us-nh |新罕布夏 |NH |
-| us-or |奧勒崗 |OR |
-| us-mn |明尼蘇達 |MN |
-| us-vt |佛蒙特 |VT |
+| us-or |奧勒崗 |或 |
+| us-mn |明尼蘇達 |明尼蘇達 |
+| us-vt |佛蒙特 |佛蒙特 |
 | us-id |愛達荷 |ID |
 | us-wi |威斯康辛 |WI |
 | us-wy |懷俄明 |WY |
 | us-sd |南達科他 |SD |
 | us-nd |北達科他 |ND |
 | us-me |緬因 |ME |
-| us-mt |蒙大拿 |MT |
+| us-mt |蒙大拿 |蒙大拿 |
 | us-wa |華盛頓 |WA |
 
 ## <a name="next-steps"></a>後續步驟
