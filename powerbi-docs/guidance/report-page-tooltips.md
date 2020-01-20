@@ -1,5 +1,5 @@
 ---
-title: 使用報表頁面工具提示延伸視覺效果
+title: 展開報表頁面之視覺效果的工具提示
 description: 使用報表頁面工具提示的指引。
 author: peter-myers
 ms.reviewer: asaxton
@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 95cf62057cdea001a438f4555aa3384c54efe4b5
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221934"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040348"
 ---
-# <a name="extending-visuals-with-report-page-tooltips"></a>使用報表頁面工具提示延伸視覺效果
+# <a name="extend-visuals-with-report-page-tooltips"></a>展開報表頁面之視覺效果的工具提示
 
 本文適用於設計 Power BI 報表的報表作者。 其提供建立[報表頁面工具提示](../desktop-tooltips.md)時的相關建議。
 
