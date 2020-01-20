@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5af9c2e5979121054e51b928c58f49477c19a7d0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4d478396f88a1443c0d23d64199d84f0b615b1da
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878811"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761810"
 ---
-# <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Power BI Desktop 中的採用參考完整性設定
+# <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>在 Power BI Desktop 中套用 [採用參考完整性] 設定
 使用 **DirectQuery** 連接到資料來源時，您可以使用 [採用參考完整性]  選項來允許對資料來源執行更有效率的查詢。 這項功能對於基礎資料有幾項需求，而且只有在使用 **DirectQuery** 時才能存取。
 
 設定 [採用參考完整性]  可讓資料來源的查詢使用 **INNER JOIN** 陳述式 (而不是 **OUTER JOIN**)，進而改善查詢效率。

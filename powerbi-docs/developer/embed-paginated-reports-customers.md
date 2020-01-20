@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 11/04/2019
-ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/04/2019
+ms.openlocfilehash: 48aae2391ead5ded0860364ce5942d7bd725c2d9
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311437"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731235"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>教學課程：為客戶將 Power BI 編頁報表內嵌至您的應用程式中 (預覽)
 
@@ -271,6 +271,12 @@ var embedConfig = new EmbedConfig()
 
 ## <a name="next-steps"></a>後續步驟
 
-在本教學課程中，您已了解如何為客戶將 Power BI 編頁報表內嵌至應用程式。 您也可以嘗試為組織內嵌 Power BI 內容。
+在本教學課程中，您已了解如何為客戶將 Power BI 編頁報表內嵌至應用程式。 您也可以嘗試為客戶或組織內嵌 Power BI 內容。
+
+> [!div class="nextstepaction"]
+>[內嵌客戶的內容](embed-sample-for-customers.md)
+
+> [!div class="nextstepaction"]
+>[內嵌組織的內容](embed-sample-for-your-organization.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

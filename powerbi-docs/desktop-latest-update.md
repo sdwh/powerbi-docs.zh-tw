@@ -9,21 +9,21 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 75b3c370e6b17c5a5a4937da6db989f814a0ebd9
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ab98463f6dc1defd9ee3f2a97b322fefbe582779
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221980"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761034"
 ---
-# <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>最新 Power BI Desktop 更新中的新功能
+# <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop 的新功能
 
 
 ## <a name="december-2019-update-2765678661"></a>2019 年 12 月更新 (2.76.5678.661)
 
 我們的 12 月更新和滑雪一樣有趣。 
 
-您可以從[下載中心](https://www.microsoft.com/download/details.aspx?id=58494)取得最新版本的 Power BI Desktop。 如果您執行的是 Windows 10，您也可以從 Windows 10 的 Microsoft Store取得 Power BI Desktop。 無論您用何種方式安裝 Power BI Desktop，雖然版本編號各不相同，但每月版本都相同。 如需下載與安裝 Power BI Desktop 的詳細資訊，請參閱[取得 Power BI Desktop](desktop-get-the-desktop.md)。 
+您可以從[下載中心](https://www.microsoft.com/download/details.aspx?id=58494)取得最新版本的 Power BI Desktop。 如果您執行的是 Windows 10，您也可以從 Windows 10 的 Microsoft Store 取得 Power BI Desktop。 無論您用何種方式安裝 Power BI Desktop，雖然版本編號各不相同，但每月版本都相同。 如需下載與安裝 Power BI Desktop 的詳細資訊，請參閱[取得 Power BI Desktop](desktop-get-the-desktop.md)。 
 
 > [!IMPORTANT]
 > 從 2019 年 9 月版本開始，Power BI Desktop 僅發行為單一 .exe 檔案，其中包含所有支援的語言。 .msi 版本已不再發行。
@@ -42,8 +42,8 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 
 ### <a name="reporting"></a>報告
-* 佈景主題更新 (預覽) [[影片]](https://youtu.be/eCEwgZsVUOs?t=10) [[文章]](desktop-report-themes.md#customize-report-themes-preview) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
-* 匯出目前的佈景主題 (預覽) [[影片]](https://youtu.be/eCEwgZsVUOs?t=242) [[文章]](desktop-report-themes.md#customize-report-themes-preview) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
+* 自訂目前的主題 (預覽) [[影片]](https://youtu.be/eCEwgZsVUOs?t=10)  [[文章]](desktop-report-themes.md#create-and-customize-a-theme-in-power-bi-desktop-preview)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
+* 匯出目前的主題 (預覽) [[影片]](https://youtu.be/eCEwgZsVUOs?t=242)  [[文章]](desktop-report-themes.md#export-report-themes-preview)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
 * 將目錄或矩陣值設定為自訂的 URL [[影片]](https://youtu.be/eCEwgZsVUOs?t=277) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
 * KPI 視覺效果格式設定 [[影片]](https://youtu.be/eCEwgZsVUOs?t=354) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
 * 新的分解樹狀結構格式 [[影片]](https://youtu.be/eCEwgZsVUOs?t=442) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 

@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/05/2019
 LocalizationGroup: Create reports
-ms.openlocfilehash: abbd8f34f42bdcfdca6e65df58c78bf394f00d91
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: dc2c1e312592048c90643526a898ebe654907a68
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882807"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760650"
 ---
-# <a name="row-level-security-rls-with-power-bi-desktop"></a>使用 Power BI Desktop 的資料列層級安全性 (RLS)
+# <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>使用 Power BI Desktop 的資料列層級安全性 (RLS) 來限制資料存取
 
 您可以搭配資料列層級安全性 (RLS) 使用 Power BI Desktop 來限制指定使用者的資料存取權限。 篩選會限制資料列層級的資料。 您可以在角色中定義篩選。
 

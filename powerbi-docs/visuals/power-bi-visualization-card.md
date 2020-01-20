@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37b7a85534e1ad8f1f301994dea895e098758d1b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2b584c0664623f62b6d1d77cce74eaa51b0e9041
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870980"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758029"
 ---
-# <a name="card-visualizations"></a>卡片視覺效果
+# <a name="create-card-visualizations"></a>建立卡片視覺效果
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,7 +28,7 @@ ms.locfileid: "73870980"
 
 本教學課程使用[零售分析範例 PBIX 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
-1. 從功能表列的左上方區段中，選取 [檔案]  \>[開啟] 
+1. 從功能表列的左上方區段中，選取 [檔案]  \> [開啟] 
    
 2. 尋找您的**零售分析範例 PBIX 檔案**複本
 
@@ -40,7 +40,7 @@ ms.locfileid: "73870980"
 
 建立卡片的第一種方法，是使用 Power BI Desktop 中的報表編輯器。
 
-1. 從空白報告頁面開始，選取 [商店]  \> [開啟商店計數]  欄位。
+1. 從空白報告頁面開始，選取 [門市]  \> [開張門市計數]  欄位。
 
     Power BI 會以一個數字建立直條圖。
 

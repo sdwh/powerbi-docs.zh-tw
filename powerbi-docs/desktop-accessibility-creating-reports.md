@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4686b15e04d3724256c76d7ba27a125cb04e86b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 50a5705f5e236dc326f4c2b33716e55f6a9f7ce5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878968"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761971"
 ---
-# <a name="creating-accessible-reports-in-power-bi"></a>在 Power BI 中建立可存取的報表
+# <a name="design-power-bi-reports-for-accessibility"></a>針對協助工具設計 Power BI 報表
 您可以設計和建立具視覺吸引力的報表，同時針對協助工具進行設計。 建置報表時，無論您的對象為何都建議盡可能地將報表建置為可供更多人使用，而無須針對某種特殊設計進行調整。
 
 ![高對比 Windows 設定](media/desktop-accessibility/accessibility-05.png)

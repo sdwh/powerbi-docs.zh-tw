@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 03a426947787cbd2720661267cac4601a4b9b13a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880950"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758075"
 ---
-# <a name="combo-chart-in-power-bi"></a>Power BI 中的組合圖
+# <a name="create-and-use-combo-charts-in-power-bi"></a>在 Power BI 中建立和使用組合圖
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "73880950"
 * 當您要檢查量值是否符合另一個量值所定義的目標。
 * 當您要節省畫布的空間。
 
-### <a name="prerequisites"></a>先決條件
+### <a name="prerequisites"></a>必要條件
 本教學課程使用[零售分析範例 PBIX 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
 1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
@@ -59,11 +59,11 @@ ms.locfileid: "73880950"
 
 1. 從空白報表頁面開始建立依月份顯示本年度銷售額和毛利的直條圖。
 
-    a.  從 [欄位] 窗格中選取 [銷售額]  \> [本年度銷售額]   >  [值]  。
+    a.  從 [欄位] 窗格中，選取 [銷售額]  \> [本年度銷售額]   > [值]  。
 
-    b.  將 [銷售額]  \>[本年度毛利]  拖曳到 [值]  的部分。
+    b.  將 [銷售額]  \> [本年度毛利]  拖曳到 [值]  區。
 
-    c. 選取 [時間]  \> [會計月份]  ，將其加入 [軸]  部分。
+    c. 選取 [時間]  \> [會計月份]  以將其新增到 [軸]  區。
 
     ![組合教學課程範例](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. 選取視覺效果右上角的 [更多選項]  (...)，然後選取 [排序依據] > [FiscalMonth]  。 若要變更排序次序，請再次選取省略符號，並選擇 [遞增排序]  或 [遞減排序]  。 範例將使用 [遞增排序]  。
@@ -71,7 +71,7 @@ ms.locfileid: "73880950"
 6. 將直條圖轉換成組合圖。 有兩個組合圖可用：[折線與堆疊直條圖]  和 [折線與群組直條圖]  。 選取直條圖後，從 [視覺效果]  窗格中，選取 [折線與群組直條圖]  。
 
     ![轉換組合圖範例](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
-7. 從 [欄位]  窗格中，將 [銷售額]  \> [去年度銷售額]  拖曳到 [折線圖值]  值區。
+7. 從 [欄位]  窗格中，將 [銷售額]  \> [去年度銷售額]  拖曳到 [折線圖值]  貯體。
 
    ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 

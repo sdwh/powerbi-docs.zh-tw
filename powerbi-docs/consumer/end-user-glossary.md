@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/07/2019
 ms.author: mihart
-ms.openlocfilehash: 046f35613e5fe748e93389fbe10a77af08f449e3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: cf70774712a8b72493c8957139d8f802dc4d1ed7
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75303911"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75836654"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」  及其連線方式的高階概觀。
@@ -41,7 +41,9 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **ArcGIS for Power BI**：ArcGIS 是一種由 ESRI 公司建立的對應及分析平台。 包含在 Power BI 視覺效果程式庫中的視覺效果名稱為 ArcGIS for PowerBI。
 
-**assign (指派)** ：[Power BI Premium] 動詞，指將工作區移動到專用容量，或是從專用容量移出。 請不要針對將工作區移動到專用容量使用「升階」一詞，因為其具有專用容量優於共用容量的含意。  
+**assign (指派)** ：[Power BI Premium] 動詞，指將工作區移動到專用容量，或是從專用容量移出。 請不要針對將工作區移動到專用容量使用「升階」一詞，因為其具有專用容量優於共用容量的含意。 
+
+**Auto Insights (自動見解)** ：現在稱為「快速見解」  。
 
 ## <a name="b"></a>B
 
@@ -49,7 +51,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **bookmark (書籤)** Power BI Desktop 或服務中於報表 [書籤] 窗格內擷取到的資料檢視。 在 Desktop 中，書籤會儲存在 .pbix 報表檔案中，用於在 Power BI 服務上共用
   
-**breadcrumbs (階層連結)** ：位於左上方的導覽，可在工作區之間快速巡覽。
+**breadcrumbs (階層連結)** ：位於左上方的導覽，可在報表與儀表板之間快速巡覽。
 
 ## <a name="c"></a>C
 
@@ -65,13 +67,13 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **connect live (即時連接)** ：一種連線到 SQL Server Analysis Services 資料模型的方法。 也稱為即時連線。
 
-**容器**：導覽窗格上的區域是「容器」  。 在導覽窗格中，您可以找到下列項目的容器：我的最愛、最近、應用程式、與我共用和首頁。 
+**container (容器)** ：導覽窗格上的區域是「容器」  。 在導覽窗格中，您可以找到下列項目的容器：我的最愛、最近、應用程式、與我共用和首頁。 
 
 **content (內容)** ：Power BI 服務的內容通常是儀表板、報表和應用程式。 也可以包含活頁簿和資料集。
 
 **content list (內容清單)** ：應用程式的內容索引。
 
-**content pack (內容套件)** ：預先封裝的資料集、報表和儀表板的集合。 現在是**應用程式**，了解[全新工作區體驗](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) \(英文\)。 
+**content pack (內容套件)** ：預先封裝的資料集、報表和儀表板的集合。 將以**應用程式**取代這些詞彙，請了解[全新工作區體驗](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces)。 
 
 **content view (內容檢視)**
 
@@ -89,26 +91,29 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **data connector (資料連接器)** ：請參閱「連接器」
 
-**data model, Excel Data Model (資料模型、Excel 資料模型)**
+**data mode, Excel Data Model (資料模型、Excel 資料模型)** ：在 Power BI 內容中，資料模型代表資料表格式的資料結構對應。 資料模型會顯示將用來建置資料庫的關聯性。 報表設計師、系統管理員和開發人員會建立並使用資料模型來建立 Power BI 內容。
 
+**dataflow (資料流程)** ：資料流程可藉由定義資料來源連線、ETL 邏輯、重新整理排程以及其他項目來內嵌、轉換、整合及擴充巨量資料。 先前稱為資料集區。
 
 **dataset (資料集)** 與**data source (資料來源)** ：**資料集**是建立視覺效果和報表時所用資料的集合。
 
 **dedicated capacity (專用容量)** ：[Power BI Premium] 在 Microsoft 雲端資料中心內專用硬體上執行的資料模型，可協助確保大規模的一致效能。 BI 解決方案會傳遞給整個組織，無論 Power BI 的授權為何。
 
-**Desktop (桌面版)** ：第一個執行個體：Power BI Desktop 後續會提及：桌面
+**Desktop** 或 **Power BI Desktop**：免費的 Power BI 工具，主要使用者為報表設計師、系統管理員和開發人員。 
+
 
 
 **diamond (鑽石)** ：Power BI Premium。 圖示的圖形，表示該工作區為 Premium 容量工作區。
 
-**drill up, drill down, drillthrough (向上切入、向下切入、鑽研)**
+**drill up, drill down, drillthrough (向上切入、向下切入、鑽研)** ：在 Power BI 中，使用向下切入和向上切入代表在報表或視覺效果中探索下一層詳細資料的能力。 使用 [鑽取] 則代表下列功能：選取部分視覺效果，並將其移至報表中的另一個頁面，篩選出與在原始頁面上所選取視覺效果部分相關的資料。
+切入至詳細資料通常表示顯示基礎記錄。
 
 ## <a name="e"></a>E
 
 **Editing View (編輯檢視)** ：模式，其中報表「設計師」  可探索、設計、建置及共用報表。
 
 **ellipsis (省略符號)** ...    
-：選取省略符號會顯示額外的功能表選項。
+：選取省略符號會顯示額外的功能表選項。 也稱為**其他動作**功能表。
 
 **embed code (內嵌程式碼)** ：網際網路上的通用標準。 在 Power BI 中，客戶可以產生內嵌程式碼並複製它，以將內容 (例如報表視覺效果) 放置在網站或部落格上。
 
@@ -117,22 +122,20 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 **embedding (內嵌)** ：在 Power BI 開發人員供應項目中，使用 Power BI REST API 和 Power BI SDK 將分析與應用程式整合的過程。
 
 
-**environment (環境)** ：[Power BI Desktop、Power BI 行動版等] 使用 Power BI 環境。 針對多租用戶客戶，使用此詞彙來指出選擇要連線的租用戶對象。
-若能協助熟悉「租用戶」一詞的商務分析師了解兩者為同一事物，則在文件中便可以使用「Power BI 環境 (租用戶)」一詞。
+**environment (環境)** ：[Power BI Desktop、Power BI 行動版、Power BI 服務等] 參考其中一個 Power BI 工具的另一種方式。 若能協助熟悉「租用戶」一詞的商務分析師了解兩者為同一事物，則在文件中便可以使用「Power BI 環境 (租用戶)」一詞。
 
 ## <a name="f"></a>F
 
 **favorite, unfavorite (我的最愛、移除最愛)** ：動詞，表示新增到 [我的最愛] 清單以快速存取 Power BI 中經常瀏覽的儀表板和報表。 當您不再需要它們作為我的最愛，即可將它們從我的最愛中移除。
 
-**filter (篩選)**
+**filter (篩選)** 與 **highlight (醒目提示)** ：篩選會移除不適用的資料。 醒目提示則會以灰色顯示不適用的資料。 
 
-**formatting (格式化)**
 
-**focus mode (焦點模式)** ：[Powr BI 服務]
+**focus mode (焦點模式)** ：使用焦點模式可彈出視覺效果或磚，以查看更多詳細資料。 在焦點模式下，您仍然可以與視覺效果或磚互動。 
 
-**Free account (免費帳戶)** ：請參閱此詞彙集中的「帳戶」
+**Free account (免費帳戶)** ：請參閱「帳戶」 
 
-**full screen, full-screen mode (全螢幕、全螢幕模式)** ：[Power BI 服務]
+**full screen, full-screen mode (全螢幕、全螢幕模式)** ：使用全螢幕模式來檢視 Power BI 內容，而不受功能表和導覽窗格的干擾。 這有時稱為電視模式。 
 
 ## <a name="g"></a>G
 
@@ -145,7 +148,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 ## <a name="i"></a>I
 
-**insights (見解)** ：由執行我們見解機器學習演算法所進行的自動資料分析。
+**insights (見解)** ：請參閱**快速見解**。
 
 
 ## <a name="j"></a>J
@@ -170,17 +173,15 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **modeling (模型)** [Power BI Desktop] 讓您已連線的資料在 Power BI 中準備就緒以供使用。 這包括在多個資料來源中建立資料表間的關聯性、建立量值，以及指派度量。
 
-**My workspace (我的工作區)** ：讓每個 Power BI 客戶建立內容的工作區。 若客戶想要將在此處建立的任何項目組合成應用程式，並具有「設計師」  權限，即可將其上傳到適當的工作區或建立新工作區。
+**My workspace (我的工作區)** ：每個 Power BI 客戶用來建立內容的工作區。 若客戶想要將在此處建立的任何項目組合成應用程式，並具有「設計師」  權限，即可將其上傳到適當的工作區或建立新工作區。
 
 ## <a name="n"></a>N
 
 **native (原生)** ：隨附於產品。 例如，Power BI 隨附一組「原生」  視覺效果類型。 但是，您也可以匯入其他類型 (像是自訂視覺效果)。
 
-**nav pane (導覽窗格)** 或 **nav pane (導覽窗格)** ：沿著 Power BI 服務左側邊緣的控制項。
+**navigation pane (導覽窗格)** 或 **nav pane (導覽窗格)** ：沿著 Power BI 服務左側邊緣的控制項。
 
 第一次出現：導覽窗格 (navigation pane)，後續提及或空間狹小時：導覽窗格 (nav pane)
-
-**nav pane (導覽窗格)** 請參閱**nav pane (導覽窗格)**
 
 **notification (通知)** ：由 Power BI 通知中心傳送或傳送到通知中心的訊息。  
 
@@ -191,15 +192,14 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **OneDrive for Business (商務用 OneDrive)** 和 **OneDrive**：OneDrive 是個人帳戶，商務用 OneDrive 則適合公司帳戶。  
 
-**On-premises data gateway (內部部署資料閘道)**
-
+**On-premises (內部部署)** ：用來區分本機運算 (其中運算資源位在客戶自己的設備上) 與雲端運算的詞彙。
 
 
 ## <a name="p"></a>P
 
 **PaaS**PaaS 代表「平台即服務」。 例如：Power BI Embedded。
 
-**page (頁面)** ：報表有一或多個頁面。 沿著報表畫布底部的每個索引標籤都代表一個頁面。
+**page (頁面)** ：報表有一或多個頁面。 報表畫布上的每個索引標籤都代表一個頁面。
 
 **pbiviz**：Power BI 自訂視覺效果的副檔名。
 
@@ -211,7 +211,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **phone view (手機檢視)** ：用於配置手機報表的 Power BI 服務使用者介面。
 
-**pin, unpin (釘選、取消釘選)** ：將視覺效果 (通常是來自報表) 放置到儀表板上的動作。
+**pin, unpin (釘選、取消釘選)** ：報表「設計師」  所採取將視覺效果 (通常來自報表) 放置到儀表板上的動作。
 
 **Power BI**、**Power BI service (Power BI 服務)** 、**Power BI Desktop**、**Power BI mobile (Power BI 行動版)** 、一些 Power BI 供應項目。 Power BI  是通用詞彙。 它通常用於在第一次提及完整的產品名稱後代指完整產品名稱，例如「Power BI 服務」  和「Power BI 行動版」  。
 
@@ -227,10 +227,9 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **Power BI service (Power BI 服務)** ：線上 SaaS (軟體即服務) 服務。 如需詳細資訊，請參閱[什麼是 Power BI](../fundamentals/power-bi-overview.md)。
 
-**Power BI service connector (Power BI 服務連接器)** ：此連接器可讓 Power BI Desktop 使用者從 Desktop 連線到 Power BI 服務中的資料集。 他們可以建立模型一次，然後在許多報表和儀表板中重複使用它。
-
 **Premium workspace (Premium 工作區)** ：在專用容量中執行的工作區，並會以鑽石圖示向客戶表示。  
 
+**publish (發佈)** ：Power BI 服務報表「設計師」  會組合 Power BI 工作區的內容，使其可作為 Power BI 應用程式供其他人使用。 Power BI Desktop 報表「設計師」  使用發佈代表將 .pbix 格式的 Power BI Desktop 報表傳送至 Power BI 服務，讓他們可以根據該報表建置儀表板並輕鬆與其他人共用。 
 
 ## <a name="q"></a>Q
 **Q&A (問與答)** ：鍵入與資料集相關的自然語言問題，並以視覺效果形式取得回應。 在 Power BI 服務和 Desktop 中出現。
@@ -243,13 +242,10 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 **query string parameter (查詢字串參數)**  
 新增到 URL 來預先篩選 Power BI 報表中看見的結果。 廣義來說，查詢字串會從資料庫復原資訊。
 
-**Quick Insights (深入資訊摘要)**
-
-
-**quick measures (快速量值)**
+**Quick Insights (快速見解)** ：快速見解代表自動產生的見解，其用來顯示資料中的趨勢和模式。  
 
 ## <a name="r"></a>R
-**R、Microsoft R**
+**R、Microsoft R**：R 是用於統計運算和圖形的程式設計語言與軟體環境。
 
 **Reading View (閱讀檢視)** ：報表的唯讀檢視 (與編輯檢視相反)。
 
@@ -264,19 +260,24 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 **report (報表)**  
 單一資料集的多面向檢視，以視覺效果顯示該資料集的各種發現與見解。 可擁有單一視覺效果或多個視覺效果；單一頁面或多個頁面。  
 
-**report editor (報表編輯器)**
+**report editor (報表編輯器)** ：報表編輯器是報表「設計師」  建立新報表，以及對現有報表進行變更的位置。 
 
-**report measures (報表量值)** ：也稱為自訂計算。 Excel 會呼叫這些計算欄位。 另請參閱「量值」  。   
-**report server (報表伺服器)** ：報表伺服器的執行個體。
+**report measures (報表量值)** ：也稱為自訂計算。 Excel 會呼叫這些「導出欄位」  。 另請參閱「量值」  。   
 
 **responsive visuals (回應式視覺效果)** ：以動態方式變更，無論螢幕大小如何，皆能顯示最多資料和見解的視覺效果。
 
+**row-level security, RLS (資料列層級安全性，RLS)** ：此 Power BI 功能可讓資料庫管理員根據執行查詢的使用者特性 (例如群組成員資格)，來控制對資料庫資料表中資料列的存取。  
+
+系統管理員可以使用 Power BI Desktop 為匯入 Power BI 的資料模型設定 RLS。  
+
+
 ## <a name="s"></a>S
-**SaaS**   
+**SaaS** ：  
+軟體即服務 (或 SaaS) 是以 Web 服務形式透過網際網路傳遞應用程式的一種方式，也就是以 Web 型服務的形式傳遞。 也稱為：Web 軟體、隨選軟體或託管軟體。 
 
 **screenshot (螢幕擷取畫面)** ：簡單的報表螢幕擷取畫面可透過使用傳送螢幕擷取畫面功能以電子郵件寄發。
 
-**service (服務)** ：請參閱「Power BI 服務」  。
+**service (服務)** ：請參閱「Power BI 服務」  。依訂用帳戶或授權提供給客戶的獨立資源。 服務是以獨佔方式透過雲端提供的產品供應項目。  
 
 **ettings (設定)** ：BI 使用者管理其一般設定 (例如是否要預覽新功能、設定預設語言、關閉其帳戶等) 的位置。此外，使用者也可以管理內容資產、警示和訂閱的個別設定。 以齒輪圖示表示。
 
@@ -285,8 +286,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **Shared with me (與我共用)** ：導覽窗格中的容器，其中保有所有直接由其他 Power BI 使用者共用的個別成品。
 
-**snapshot (快照集)**
-
+**snapshot (快照集)** ：在 Power BI 中，快照集是靜態影像 (相對於磚、儀表板或報表的即時影像)。
 
 **SQL Server Analysis Services (SSAS)** 
  

@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 07/29/2019
-ms.openlocfilehash: c67ce4ef9b5b0ac2054d4ecdf76ee3a1a79571d8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 02/04/2020
+ms.openlocfilehash: 7a10df09bd6b0f4ce81ee32ae72700080a8020d9
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311067"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691365"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 內容內嵌至應用程式
 
@@ -53,6 +53,8 @@ ms.locfileid: "74311067"
 請向 Azure Active Directory [註冊您的應用程式](register-app.md)，以允許該應用程式存取 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。 註冊您的應用程式可讓您為應用程式建立身分識別，並指定對 Power BI REST 資源的權限。
 
 您必須繼續註冊**伺服器端 Web 應用程式**應用程式。 您註冊伺服器端 Web 應用程式，以建立應用程式祕密。
+
+在 Azure 中建立應用程式之後，請開啟 Azure 中的應用程式，巡覽至 [驗證]  並在 [重新導向 URI]  中將 **/Redirect** 新增至 [重新導向 URI]  。
 
 ## <a name="set-up-your-power-bi-environment"></a>設定您的 Power BI 環境
 

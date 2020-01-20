@@ -1,20 +1,20 @@
 ---
-title: 在 Power BI 編頁報表產生器中使用共用資料集
-description: 從 Power BI 編頁報表產生器連接到共用資料集。
-ms.date: 07/23/2019
+title: 使用 Power BI 共用資料集建立編頁報表 - Power BI Report Builder
+description: 根據 Power BI 共用資料集，在 Power BI Report Builder 中建立編頁報表。
+ms.date: 01/03/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73791272"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691476"
 ---
-# <a name="use-shared-datasets-in-power-bi-report-builder"></a>在 Power BI 報表產生器中使用共用資料集
+# <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>建立以 Power BI 共用資料集為基礎的編頁報表
 
 您可以使用您在 Power BI Desktop 中建立的資料集，作為 Power BI 報表產生器編頁報表的資料來源。 想像下列情節：您已在 Power BI Desktop 中建立 Power BI 報表。 您花了很多時間來設計資料模型，然後建立美觀的 Power BI 報表，其中包含各種絕佳的視覺效果。 報表具有包含多個資料列的矩陣，因此您必須捲動才能查看全部。 報表讀者想要一個他們可以列印出來的報表，以顯示該矩陣中的所有資料列。 Power BI 編頁報表可以執行此作業：將執行的資料表或矩陣列印到多個頁面，頁面中包含頁首和頁尾，以及您設計的完美頁面配置。 它可補充 Power BI Desktop 報表。 您希望它們以完全相同的資料為基礎，而不會產生不一致的情況，因此您可以使用相同的資料集。
 
@@ -123,7 +123,7 @@ ms.locfileid: "73791272"
 
     ![選擇資料集](media/report-builder-shared-datasets/power-bi-report-builder-choose-dataset.png)
 
-1. 若要建立一般資料表，請在 [可用的欄位]   中選取您所想要欄位。 您可以選取您想要的第一個欄位，按住 Shift 鍵，然後選取最後一個欄位，以一次選取多個欄位。
+1. 若要建立一般資料表，請在 [可用的欄位]  中選取您所想要欄位。 您可以選取您想要的第一個欄位，按住 Shift 鍵，然後選取最後一個欄位，以一次選取多個欄位。
 
     ![選取多個欄位](media/report-builder-shared-datasets/power-bi-report-builder-select-fields.png)
 

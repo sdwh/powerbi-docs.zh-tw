@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: c054bc933cb1eaac7475ac0c7649c7e0f77f503b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b30310f78dca919474baf6d5870294bfc05dcacf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878101"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760988"
 ---
-# <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>在 Power BI Desktop 中為行動裝置應用程式設定地理篩選
+# <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>在 Power BI Desktop 中設定地理篩選以用於行動裝置應用程式
 在 Power BI Desktop 中，您可以為資料行[分類地理資料](desktop-data-categorization.md)，使 Power BI Desktop 知道如何處理報表中視覺效果的值。 作為額外的權益，當您或您的同事在 Power BI Mobile Apps 中檢視該報表時，Power BI 會自動提供符合您所在地的地理篩選。 
 
 例如，假設您是正要與客戶見面的銷售經理，而您想要快速的針對您計劃造訪的特定客戶進行總銷售與營收的篩選。 您想要獲得您目前位置的資料，不論是依州、城市或一個實際的地址。 稍後，如果您有剩餘時間，您還想要造訪位於附近的其他客戶。 您可以[依您的位置篩選報表以尋找客戶](consumer/mobile/mobile-apps-geographic-filtering.md)。

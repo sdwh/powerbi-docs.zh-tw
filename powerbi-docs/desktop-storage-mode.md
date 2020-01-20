@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8ecb52f0e9f06a2d3b1c16b4231943ea7970a56e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7b2d3975ba6bcea7b1294c1432f9278908a33ea4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879603"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760012"
 ---
-# <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop 中的儲存模式
+# <a name="manage-storage-mode-in-power-bi-desktop"></a>管理 Power BI Desktop 中的儲存模式
 
 在 Microsoft Power BI Desktop 中，您可以指定資料表的儲存模式  。 儲存模式  可讓您控制 Power BI Desktop 是否要將報表資料快取到記憶體內。 
 

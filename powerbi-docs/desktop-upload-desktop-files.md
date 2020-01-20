@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fa8e901d73d6ae0f35e74a427354368e75977202
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d528ba824986ff171688a55aee2ca2febe523236
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865355"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759282"
 ---
-# <a name="publish-from-power-bi-desktop"></a>從 Power BI Desktop 發行
+# <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>從 Power BI Desktop 發佈資料集和報表
 當您將 **Power BI Desktop** 檔案發行至 **Power BI 服務**時，模型中的資料和您在 [報表]  檢視中建立的任何報表，都會發行至 Power BI 工作區。 您會看到新的資料集具有相同名稱，以及在工作區導覽器中的所有報表。
 
 從 **Power BI Desktop** 發行，以及在 Power BI 中使用 [取得資料]  來連接及上傳 **Power BI Desktop** 檔案，兩者效果相同。

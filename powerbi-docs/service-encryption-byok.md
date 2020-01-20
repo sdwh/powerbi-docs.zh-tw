@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 4cddf01dd57191b5d3e707589e6d8a78e106259f
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958463"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762109"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>攜帶您自己的加密金鑰以用於 Power BI (預覽)
 
@@ -104,6 +104,8 @@ BYOK 僅適用於與 PBIX 檔案關聯的資料集，而不適用於圖格與視
 - 在此階段中，啟動 BYOK 後即無法將其停用。 根據您如何指定 `Add-PowerBIEncryptionKey` 的參數，您可以控制如何將 BYOK 用於您的一或多個容量。 不過，您無法復原將金鑰引入租用戶的動作。 如需詳細資訊，請參閱[啟用 BYOK](#enable-byok)。
 
 - 您不能「直接」  將使用 BYOK 之工作空間從 Power BI Premium 中的專用容量移至共用容量。 您必須先將工作區移至未啟用 BYOK 的專用容量。
+
+- 如果您將使用 BYOK 的工作區從 Power BI Premium 中專用容量移到共用區，由於報表和資料集已使用金鑰進行加密，因此這些報表和資料集會變成無法存取。 若要避免這種情況，您必須先將工作區移至未啟用 BYOK 的專用容量。
 
 ### <a name="enable-byok"></a>啟用 BYOK
 

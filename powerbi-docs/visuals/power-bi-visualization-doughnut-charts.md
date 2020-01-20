@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4dd6f185ea7d4f4664626586f1374f67bd34f784
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0e870163552e64594e574669ed8dea6937633282
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870941"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757707"
 ---
-# <a name="doughnut-charts-in-power-bi"></a>Power BI 中的環圈圖
+# <a name="create-and-use-doughnut-charts-in-power-bi"></a>在 Power BI 中建立和使用環圈圖
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -43,7 +43,7 @@ ms.locfileid: "73870941"
      
    ![已選取環圈圖的 [視覺效果] 窗格](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 
-4. 選取 [項目]  \> [類別]  ，將其加入 [圖例]  區域。 
+4. 選取 [項目]  \> [類別]  ，將其新增至 [圖例]  區域。 
      
     ![[欄位] 窗格旁邊的環圈圖](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
 

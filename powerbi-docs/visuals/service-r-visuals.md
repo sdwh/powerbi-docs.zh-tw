@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 837412a85eff14c8eaa72fbf1625cadde524cc76
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74698984"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762201"
 ---
-# <a name="r-visuals-in-power-bi"></a>Power BI 中的 R 視覺效果
+# <a name="create-and-use-r-visuals-in-power-bi"></a>在 Power BI 中建立和使用 R 視覺效果
 R 視覺效果目前僅能在 **Power BI Desktop** 中建立，然後發行到 Power BI 服務。 如需如何建立 R 視覺效果的詳細資訊，請參閱 [使用 R 建立 Power BI 視覺效果](../desktop-r-visuals.md)。
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>在 Power BI 服務中檢視 R 視覺效果
@@ -87,6 +87,7 @@ Power BI 服務的 R 視覺效果有某些限制︰
 
 * R 視覺效果支援僅限於[了解支援哪些 R 套件](../service-r-packages-support.md)一文中指出的套件 。 目前不支援自訂封裝。
 * 資料大小限制 – R 視覺效果用於繪製的資料限制為 150,000 個資料列。 如果選取超過 150,000 個資料列，則只會使用前 150,000 個資料列，而且影像上會顯示訊息。
+* 解決方案 - 所有 R 視覺效果都會以 72 DPI 顯示。
 * 計算時間限制 - 如果 R 視覺效果計算超過 60 秒，指令碼會逾時並導致錯誤。
 * R 視覺效果會在資料更新、篩選及反白顯示時進行重新整理。 不過，影像本身不會互動，也不支援工具提示。
 * R 視覺效果會回應反白顯示的其他視覺效果，但您不能點選 R 視覺效果中的項目，無法交叉篩選其他項目。

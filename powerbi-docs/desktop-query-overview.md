@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3ee7c094972e7251ab99d9092691bf809344a3d5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 294bd8017d6e6c8a1eaca836b32c7bd5d50d88e1
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876291"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760788"
 ---
-# <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop 中的查詢概觀
+# <a name="about-using-query-editor-in-power-bi-desktop"></a>關於使用 Power BI Desktop 中的查詢編輯器
 透過 **Power BI Desktop**，您可以連線到資料世界、建立具吸引力的基礎報表，並與他人分享您的成果。其他使用者可接著以您的成果作為建置基礎，擴展自己的商務智慧成果。
 
 Power BI Desktop 包含三種檢視：

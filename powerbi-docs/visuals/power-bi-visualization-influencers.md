@@ -6,17 +6,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 10/22/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871007"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885312"
 ---
-# <a name="key-influencers-visualization"></a>關鍵影響因素視覺效果
+# <a name="create-key-influencers-visualizations"></a>建立關鍵影響因素視覺效果
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -57,7 +57,7 @@ ms.locfileid: "73871007"
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-產品經理希望您了解哪些因素會導致客戶對您的雲端服務留下負面評論。 若要跟著做，請在 Power BI Desktop 中開啟[客戶意見反應 PBIX 檔案](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix)。 您也可以下載 [Power BI 服務或 Power BI Desktop 的客戶意見反應 Excel 檔案](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx)。 選取任一連結，然後從出現的 GitHub 頁面選取 [下載]  。
+產品經理希望您了解哪些因素會導致客戶對您的雲端服務留下負面評論。 若要跟著做，請在 Power BI Desktop 中開啟[客戶意見反應 PBIX 檔案](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix)。 您也可以下載 [Power BI 服務或 Power BI Desktop 的客戶意見反應 Excel 檔案](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx)。 選取任一連結，然後從出現的 GitHub 頁面選取 [下載]  。
 
 > [!NOTE]
 > 客戶意見反應資料集乃基於 [Moro et al., 2014] S. Moro、P. Cortez 和 P. Rita。 "A Data-Driven Approach to Predict the Success of Bank Telemarketing" (預測銀行電話行銷成功的資料導向方法)。 *Decision Support Systems*，Elsevier，62:22-31，2014 年 6 月。 
@@ -267,6 +267,8 @@ ms.locfileid: "73871007"
  
 關鍵影響因素視覺效果有一些限制：
 
+
+
 - 不支援 Direct Query
 - 不支援即時連線到 Azure Analysis Services 和 SQL Server Analysis Services
 - 不支援發佈到 Web
@@ -357,6 +359,9 @@ AI 視覺效果可以分析類別目錄欄位和數值欄位。 在類別目錄�
 此判斷的原因是視覺效果在尋找影響因素時也會考慮資料點的數量。 下列範例有超過 29,000 名取用者，比管理員人數 (大約 2,900) 少 10 倍。 只有 390 名給予低評等。 視覺效果沒有足夠資料來判斷它是使用管理員評等來發現模式或只是碰巧發現。 
 
 ![如何確定影響因素](media/power-bi-visualization-influencers/power-bi-error5.png)
+
+**關鍵影響因素的資料點限制為何？**
+我們對包含 10,000 個資料點的範例執行分析。 其中一側中泡泡會顯示所有找到的影響因素。 另一側中直條圖和散佈圖則會遵守這些核心視覺效果的取樣策略。
 
 **您如何計算類別目錄分析的關鍵影響因素？**
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2d564b22ecf02c0d8593ed5676e46f2eb4168964
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876911"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75836710"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -46,7 +46,7 @@ URL?filter=***資料表***/***欄位*** eq '***值***'
 
 如下列範例中：
 
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*&'ctid=*ctid*
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*'&ctid=*ctid*
 
 ### <a name="field-types"></a>欄位類型
 
@@ -106,14 +106,14 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 |運算子  | 定義 | 字串  | 數字 | 日期 |  範例|
 |---------|---------|---------|---------|---------|---------|
-|**and**     | 和 |  可以      | 是 |  可以|  product/price le 200 and price gt 3.5 |
-|**eq**     | 等於 |  可以      | 是   |  可以       | Address/City eq 'Redmond' |
-|**ne**     | 不等於 |   可以      | 是  | 可以        |  Address/City ne 'London' |
-|**ge**     |  大於或等於       | 不可以 | 是 |可以 |  product/price ge 10
-|**gt**     | 大於        |不可以 | 是 | 可以  | product/price gt 20
-|**le**     |   小於或等於      | 不可以 | 是 | 可以  | product/price le 100
-|**lt**     |  小於       | 不可以 | 是 | 可以 |  product/price lt 20
-|**in\*\***     |  含       | 可以 | 是 |  可以 | Student/Age in (27, 29)
+|**and**     | 和 |  是      | 是 |  是|  product/price le 200 and price gt 3.5 |
+|**eq**     | 等於 |  是      | 是   |  是       | Address/City eq 'Redmond' |
+|**ne**     | 不等於 |   是      | 是  | 是        |  Address/City ne 'London' |
+|**ge**     |  大於或等於       | 不可以 | 是 |是 |  product/price ge 10
+|**gt**     | 大於        |不可以 | 是 | 是  | product/price gt 20
+|**le**     |   小於或等於      | 不可以 | 是 | 是  | product/price le 100
+|**lt**     |  小於       | 不可以 | 是 | 是 |  product/price lt 20
+|**in\*\***     |  含       | 是 | 是 |  是 | Student/Age in (27, 29)
 
 
 \*\* 使用 **in** 時，**in** 右側的值可為以括弧括住的逗號分隔清單，或傳回集合的單一運算式。

@@ -7,17 +7,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d653bb0193351e2ecb38c09e6b34d02eea5cce67
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060665"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885282"
 ---
-# <a name="use-the-decomposition-tree-visual-in-power-bi-preview"></a>在 Power BI 中使用分解樹狀結構視覺效果 (預覽)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>在 Power BI 中建立和檢視分解樹狀結構視覺效果 (預覽)
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Power BI 中的分解樹狀結構視覺效果可讓您將多個維度上的資料視覺化。 它會自動彙總資料，並且能夠以任何順序向下切入到您的維度。 這也是一種人工智慧 (AI) 視覺效果，因此，您可以要求它根據特定準則來尋找下一個要向下切入到其中的維度。 這讓它成為特定探索和進行根本原因分析的重要工具。
@@ -131,6 +131,8 @@ Nintendo 的北美洲銷售量/Abs(Avg(平台的北美洲銷售量))
 ![分解樹狀結構鎖定](media/power-bi-visualization-decomposition-tree/tree-locking.png)
 
 ## <a name="known-limitations"></a>已知的限制
+
+樹狀結構的層級數目上限為 50。 在樹狀結構中一次可以視覺化的資料點數目上限為 5000。 我們會截斷層級以顯示前 n 個。 目前每個層級的前 n 個設定為 10 個。 
 
 下列案例中不支援分解樹狀結構：  
 -   內部部署 Analysis Services

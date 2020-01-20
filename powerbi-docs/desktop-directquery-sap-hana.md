@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8d5923c111debb14aab46977d42f3357837d9399
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 86307a871503dd42e565099b810cb82efa109417
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73878307"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761218"
 ---
-# <a name="directquery-and-sap-hana"></a>DirectQuery 和 SAP HANA
+# <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>在 Power BI 中使用 DirectQuery 以連線到 SAP HANA 資料來源
 您可以使用 **DirectQuery** 來直接連線到 **SAP HANA** 資料來源。 連線到 SAP HANA 時有兩個選項：
 
 * **將 SAP HANA 視為多維度來源 (預設值)：** 在此情況下，行為將會類似於 Power BI 連線到其他多維度來源時，例如 SAP Business Warehouse 或 Analysis Services。 使用此設定連線到 SAP HANA 時，會選取單一分析或計算檢視，而欄位清單中則會提供該檢視的所有量值、階層及屬性。 隨著視覺效果的建立，將會一律從 SAP HANA 擷取彙總資料。 這是建議的方法，也是 SAP HANA 上的新 DirectQuery 報表預設值。

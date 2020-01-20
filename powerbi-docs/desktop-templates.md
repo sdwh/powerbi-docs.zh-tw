@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2001a83a1fb4a5d605a7ac1c752fe4bbd4c5a51
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a10de05fed8a77a165797dda7155ffb81bbad815
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879569"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759989"
 ---
-# <a name="using-templates-in-power-bi-desktop"></a>在 Power BI Desktop 中使用範本
+# <a name="create-report-templates-for-power-bi-desktop"></a>建立 Power BI Desktop 的報表範本
 
 使用 **Power BI Desktop**，您可以建立吸引人的報表來與整個組織共用見解。 使用 Power BI Desktop **範本**，您可以根據現有的範本建立報表範本來簡化工作，且您或組織中其他使用者也可以使用此範本作為新報表版面配置、資料模型和查詢的起點。 **Power BI Desktop** 中範本可協助您快速開始和標準化報表的建立過程。
 

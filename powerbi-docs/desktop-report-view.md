@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 06b8c9d0be2ec8bc5b350767263bfc5e0ab4ec81
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3e40d26570e37167c61ffd3241cfe96a90c55fa0
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877857"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760541"
 ---
-# <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop 中的報表檢視
+# <a name="work-with-report-view-in-power-bi-desktop"></a>使用 Power BI Desktop 中的報表檢視
 若您已在使用 Power BI，就會知道建立報表提供動態檢視方塊及深入剖析資訊有多容易。 Power BI Desktop 提供更多進階的 Power BI 功能。 有了 Power BI Desktop，您可以建立進階查詢、混用來自多種來源的資料、建立資料表之間的關聯性等等。
 
 Power BI Desktop 包含 [報表檢視]  ，可讓您從中建立任意數量的報表頁面且包含視覺效果。 報表檢視提供中有許多設計，與 Power BI 服務中的報表編輯檢視幾乎完全相同。 您可以在四處移動、複製及貼上、合併其中的視覺效果等等。

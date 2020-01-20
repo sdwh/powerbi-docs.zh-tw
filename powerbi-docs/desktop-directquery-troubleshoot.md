@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 740760121635cc0dccb0f2aa64750ebf649d8de3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73868052"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761195"
 ---
-# <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型疑難排解
+# <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>針對 Power BI Desktop 中的 DirectQuery 模型開發問題進行疑難排解
 
-這篇文章專門針對使用 Power BI Desktop 或 Power BI 服務，開發 Power BI DirectQuery 模型所研發的資料模組工具。 本文描述如何診斷效能問題，以及如何取得更詳細的資訊，以改進報表。
+本文針對使用 Power BI Desktop 或 Power BI 服務所開發 Power BI DirectQuery 模型來加以開發的資料製造模型者。 本文描述如何診斷效能問題，以及如何取得更詳細的資訊，以改進報表。
 
 ## <a name="performance-analyzer"></a>效能分析器
 

@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e0b6f3017b69540ea2a95280ceadfe7a05a9c474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8aeae0075ed32a832c27f475ef3786b7df76576c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878729"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761764"
 ---
-# <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery 雙向交叉篩選
+# <a name="enable-bidirectional-cross-filtering-for-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中啟用 DirectQuery 的雙向交叉篩選
 
 在篩選資料表以建立適當的資料檢視時，報表建立者 (和製造資料模型者) 在決定如何將篩選套用至報表上也面臨挑戰。資料表的篩選內容為關聯性的其中一端所持有，而其他相關聯的項目則不具有其內容，通常需要複雜的 DAX 公式才能取得所需的結果。
 
