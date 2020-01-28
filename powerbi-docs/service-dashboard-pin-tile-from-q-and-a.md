@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 77be727de3cda1d3b6fd5c34b6e572b1d505fc54
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872820"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282013"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>從問與答將磚釘選到儀表板
 ## <a name="how-to-pin-a-tile-from-qa"></a>如何從問與答釘選磚
@@ -53,7 +53,7 @@ ms.locfileid: "73872820"
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 * 當您開始輸入問題時，問與答會立即開始從與目前儀表板相關聯的所有資料集搜尋最佳回應。  「目前儀表板」是列在上方導覽窗格中的儀表板。 例如，這個問題將會在 [零售分析範例]  儀表板中提出，而此儀表板是 **mihart** 工作區的一部分。
 
-  ![階層連結](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
+  ![階層連結](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **問與答如何知道要使用哪些資料集**？  問與答可存取至少已有一個視覺效果釘選至該儀表板的所有資料集。
 
 * **看不到問題方塊**？ 請連絡 Power BI 系統管理員。 系統管理員能夠停用問與答。

@@ -1,6 +1,6 @@
 ---
 title: 在 Power BI 報表產生器中規劃報表
-description: Power BI 分頁報表產生器可讓您建立各式各樣的分頁報表。 若要建立有用且易於了解的報表，最好先進行規劃。
+description: Power BI Report Builder 可讓您建立許多種類的編頁報表。 若要建立有用且易於了解的報表，最好先進行規劃。
 ms.date: 07/25/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 33cdb53ab411e0d2f4686f7cc9a41bb3f0fe4cb6
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623859"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953817"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>在 Power BI 報表產生器中規劃報表
 
-Power BI 分頁報表產生器可讓您建立各式各樣的分頁報表。 例如，您可以建立顯示摘要或詳細銷售資料、行銷和銷售趨勢、營運報表或儀表板的報表。 您也可以建立利用豐富格式化文字的報表，例如銷售訂單、產品目錄或套印信件。 所有報表都是在報表產生器中使用同一個基本建置組塊的不同組合所建立。 若要建立有用且易於了解的報表，最好先進行規劃。 以下是開始之前可能需要考量的一些事項：  
+Power BI Report Builder 可讓您建立許多種類的編頁報表。 例如，您可以建立顯示摘要或詳細銷售資料、行銷和銷售趨勢、營運報表或儀表板的報表。 您也可以建立利用豐富格式化文字的報表，例如銷售訂單、產品目錄或套印信件。 所有報表都是在報表產生器中使用同一個基本建置組塊的不同組合所建立。 若要建立有用且易於了解的報表，最好先進行規劃。 以下是開始之前可能需要考量的一些事項：  
   
 ## <a name="in-what-format-do-you-want-the-report-to-appear"></a>您想要以何種格式來呈現報表？
   

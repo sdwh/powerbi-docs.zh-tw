@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 50a5705f5e236dc326f4c2b33716e55f6a9f7ce5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761971"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925680"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>針對協助工具設計 Power BI 報表
 您可以設計和建立具視覺吸引力的報表，同時針對協助工具進行設計。 建置報表時，無論您的對象為何都建議盡可能地將報表建置為可供更多人使用，而無須針對某種特殊設計進行調整。
@@ -22,6 +22,8 @@ ms.locfileid: "75761971"
 ![高對比 Windows 設定](media/desktop-accessibility/accessibility-05.png)
 
 本文描述協助工具功能及在 Power BI 中用來建立可存取報表的工具。
+
+一般來說，使用 Power BI 與螢幕助讀程式時，建議您關閉掃描模式或瀏覽模式。
 
 若要改善使用螢幕助讀程式建立報表的流程，您可以使用操作功能表。 功能表可讓您在 [欄位]  清單中上下移動區域內的欄位。 此功能表也可以讓您將欄位移動到其他區域，例如 [圖例]  或 [值]  等。
 
@@ -165,7 +167,7 @@ Power BI 的產品中內建了需要報表作者進行設定的協助工具功�
 
 ### <a name="themes-contrast-and-colorblind-friendly-colors"></a>佈景主題、對比和方便色盲人士使用的色彩
 
-建議您確保報表在文字與任何背景色彩之間有足夠的對比。 WCAG 2.1 成功準則 1.4.3 描述文字和背景色彩應具備至少 4.5:1 的對比比例。 有數種工具 (例如 [Color Contrast Analyzer](https://developer.paciellogroup.com/resources/contrastanalyser/) (色彩對比分析器)、[WebAIM](https://webaim.org/resources/contrastchecker/) 和 [Accessible Colors](https://accessible-colors.com/) (可存取色彩) 可讓您用來檢查報表的色彩。
+建議您確保報表在文字與任何背景色彩之間有足夠的對比。 WCAG 2.1 成功準則 1.4.3 描述文字和背景色彩應具備至少 4.5:1 的對比比例。 有數種工具，例如 [Color Contrast Analyzer](https://developer.paciellogroup.com/resources/contrastanalyser/) (色彩對比分析器)、[WebAIM](https://webaim.org/resources/contrastchecker/) 和 [Accessible Colors](https://accessible-colors.com/) (可存取色彩) 可讓您用來檢查報表的色彩。
 
 建議您也考慮一部分報表檢視人員可能會有色彩視覺上的缺陷。 [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/) 和 [Vischeck](https://www.vischeck.com/vischeck/vischeckImage.php) 等工具可模擬具有不同色彩缺陷的報表檢視者所看見內容。  在報表中使用較少色彩或單色調色盤可協助降低建立無法存取報表的可能。
 

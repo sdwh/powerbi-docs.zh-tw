@@ -8,17 +8,17 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: 4c4228ea4276235a983849d2ea88e1030f4690f7
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 54416b314b03a5889c58004918513fecd7ff5ccd
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75732030"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75954261"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>建立 Power BI 報表伺服器的編頁報表
 在本文中，您會在幾個簡單步驟中建立 Power BI 報表伺服器的編頁報表。
 
-尋求在 Power BI 服務的報表產生器中建立編頁報表的協助嗎？ 請改為參閱 [Power BI 編頁報表產生器](../report-builder-power-bi.md)。
+尋求在 Power BI 服務的報表產生器中建立編頁報表的協助嗎？ 請改為參閱 [Power BI Report Builder](../report-builder-power-bi.md)。
 
 正如其名，編頁報表可以執行至許多頁面。 其配置使用固定的格式，且提供精確的自訂項目。 編頁報表為 .rdl 檔案。
 

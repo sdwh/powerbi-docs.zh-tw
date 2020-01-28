@@ -1,6 +1,6 @@
 ---
 title: 經認證的 Power BI 視覺效果
-description: 提交自訂視覺效果進行認證的需求和程序。 以及經認證的 Power BI 視覺效果清單。
+description: 提交自訂視覺效果進行認證的需求和程序，以及經認證的 Power BI 視覺效果清單。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,73 +8,94 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 12/02/2019
-ms.openlocfilehash: c39b96122016746905ea09c0983adf50356f0c77
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/12/2019
+ms.openlocfilehash: 04954397a16fecddabca63067c903dee742873ef
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221957"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925585"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>取得 Power BI 視覺效果認證
 
-經認證的 Power BI 視覺效果是 *Marketplace* 中視覺效果，符合某些經 *Microsoft Power BI 小組*測試並核准的*指定程式碼*需求。 測試的目的是要檢查視覺效果是否不會存取外部服務或資源。
+經認證的 Power BI 視覺效果是 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) 中的 Power BI 視覺效果，符合 Microsoft Power BI 小組[程式碼需求](#certification-requirements)。 這些視覺效果會經過測試，以驗證它們不會存取外部服務或資源，而且它們會遵循安全的程式碼模式和指導方針。
 
-經認證的 Power BI 視覺效果與[標準 Power BI 視覺效果](power-bi-custom-visuals.md)的使用方式相同。 可以將它們新增至 [Power BI Desktop](../desktop-what-is-desktop.md) 與 [Power BI 服務](../power-bi-service-overview.md)中，並使用 [Power BI 行動版](../consumer/mobile/mobile-apps-for-mobile-devices.md)和 [Power BI Embedded](embedding.md) 查看。
+Power BI 視覺效果一旦經過認證，便能提供更多的功能。 例如，您可以[匯出至 PowerPoint](../consumer/end-user-powerpoint.md)，也可以在使用者[訂閱報表頁面](../consumer/end-user-subscribe.md)時所收到的電子郵件中顯示視覺效果。
 
-認證程序是選擇性的程序。 開發人員必須自行決定是否要認證其位於 Marketplace 中的 Power BI 視覺效果。 Power BI 視覺效果一旦經過認證，便能提供更多的功能。 例如，您可以[匯出至 PowerPoint](../consumer/end-user-powerpoint.md)，也可以在使用者[訂閱報表頁面](../consumer/end-user-subscribe.md)時所收到的電子郵件中顯示視覺效果。
-
-未經認證的 Power BI 視覺效果不一定不安全。 有些視覺效果未經過認證，因為它們不符合一或多個[認證需求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)。 例如，連接到地圖視覺效果或使用商業程式庫的視覺效果等外部服務。
-
-如果您是想要建立自己的 Power BI 視覺效果並將它們新增至  [Microsoft AppSource](https://appsource.microsoft.com) \(英文\) 的 Web 開發人員，請從 [開發 Power BI 視覺效果](visuals/custom-visual-develop-tutorial.md)教學課程開始。
+認證程序是選擇性的。 未經認證的 Power BI 視覺效果，不一定是不安全的 Power BI 視覺效果。 有些 Power BI 視覺效果未經過認證，因為它們不符合一或多個[認證需求](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)。 例如，連接至外部服務的對應 Power BI 視覺效果，或使用商業程式庫的 Power BI 視覺效果。
 
 > [!NOTE]
-> **Microsoft**「並非」  協力廠商 Power BI 視覺效果的作者。 若要確認協力廠商視覺效果的功能，我們建議客戶直接連絡視覺效果的作者。
-
-> [!IMPORTANT]
-> Microsoft 可自行決定是否移除[認證的 Power BI 視覺效果](#certified-power-bi-visuals)清單中的 Power BI 視覺效果。
+> Microsoft 並非協力廠商 Power BI 視覺效果的作者。 若要確認第三方視覺效果的功能，請直接連絡視覺效果的作者。
 
 ## <a name="certification-requirements"></a>認證需求
 
-若要讓您的 Power BI 視覺效果[通過認證](#get-a-power-bi-visual-certified)，請確定您的 Power BI 視覺效果符合此節所列的需求。 
+若要讓您的 Power BI 視覺效果[通過認證](#get-a-power-bi-visual-certified)，您的 Power BI 視覺效果必須符合此節所列的需求。 
 
-> [!TIP]
-> 建議您搭配預設安全性規則集使用 EsLint，以便在提交程式碼前預先加以驗證。
+### <a name="general-requirements"></a>一般需求
 
-* 已由 Microsoft 賣方儀表板或合作夥伴中心核准。 Power BI 視覺效果應該要位於我們的 [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) 中。
-* Power BI 視覺效果是以 *API v2.5* 或更高版本撰寫。
-* 程式碼存放庫可供 Power BI 小組檢閱。 例如，在 GitHub 中為我們提供可讀取格式的原始程式碼 (JavaScript 或 TypeScript)。
+您的 Power BI 視覺效果必須由賣方儀表板或合作夥伴中心核准。 我們建議您的 Power BI 視覺效果已在 [AppSource](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) 中。 若要了解如何將 Power BI 視覺效果發佈至 AppSource，請參閱[將 Power BI 視覺效果發佈至合作夥伴中心](office-store.md)。
 
-    >[!NOTE]
-    > 您不需要在 Github 中公開共用您的程式碼。
+在提交您的 Power BI 視覺效果以獲得認證之前，請確認它符合 [Power BI 視覺效果的指導方針](./guidelines-powerbi-visuals.md)。
 
-* 程式碼存放庫需求：
-  * 必須包含下列檔案：
-    * .gitignore
-    * capabilities.json
-    * pbiviz.json
-    * package.json
-    * package-lock.json
-    * tsconfig.json
-  * 不得包含 [node_modules]  資料夾 (將 [node_modules]  新增至 .gitingore* 檔案)。
-  * *npm install* 命令不得傳回任何錯誤。
-  * *npm audit* 命令不得傳回任何層級為高或中的警告。
-  * *pbiviz package* 命令不得傳回任何錯誤。
-  * 必須包含[來自 Microsoft 的 TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib) \(英文\)，且不具任何已覆寫的設定。 此命令不得傳回任何 lint 錯誤。
-   * Power BI 視覺效果的編譯套件必須與所提交套件相符。
-* 原始程式碼需求：
-   * Power BI 視覺效果必須支援[轉譯事件 API](./visuals/event-service.md) \(英文\)。
-   * 請確定沒有執行任何任意/動態程式碼 (不佳：eval()，使用 settimeout()、requestAnimationFrame()、setinterval(一些包含使用者輸入的函式)、執行使用者輸入/資料皆不安全)。
-   * 請確定 DOM 是透過安全的方式操縱 (不佳：innerHTML、D3.html(<一些使用者/資料輸入>))，請在新增至 DOM 前清理使用者輸入/資料。
-   * 確定瀏覽器主控台中沒有任何輸入資料的 javascript 錯誤或例外狀況。 使用者可能會搭配不同範圍的未預期資料使用您的 Power BI 視覺效果，因此視覺效果不能失敗。 您可以使用此[範例報表](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) \(英文\) 作為測試資料集。
+提交 Power BI 視覺效果時，請確定編譯的套件完全符合已提交的套件。
 
-* 若 *capabilities.json* 檔案中的任何屬性發生變更，請確定它們不會中斷現有使用者的報表。
+### <a name="code-repository-requirements"></a>程式碼存放庫需求
 
-* 確定 Power BI 視覺效果符合 [Power BI 視覺效果指導方針](./guidelines-powerbi-visuals.md)。
-    
-* 您的程式碼只能使用公用的可檢閱 OSS 元件，例如公用 Javascript 或 TypeScript 程式庫。 原始程式碼必須可供檢閱，而且沒有已知弱點。 我們無法使用商業元件來驗證自訂視覺效果。
+雖然您不需要在 GitHub 中公開共用程式碼，但是程式碼存放庫必須可供 Power BI 小組檢閱。 執行此動作的最佳方式是在 GitHub 中提供原始程式碼 (JavaScript 或 TypeScript)。
 
-* Power BI 視覺效果不得存取外部服務或資源。 例如，不能從 Power BI 將任何 HTTP/S 或 WebSocket 要求發送到任何服務。 
+存放庫必須只包含一個 Power BI 視覺效果的程式碼。 不能包含多個 Power BI 視覺效果或不相關的程式碼。
+
+存放庫必須包含名為**認證**的分支。 此分支中的原始程式碼必須符合已提交的套件。 如果您要重新提交 Power BI 視覺效果，則只能在下一次提交程序期間更新此程式碼。
+
+如果您的 Power BI 視覺效果使用私人 npm 套件或 git 子模組，您必須提供其他存放庫 (包含此程式碼) 的存取權。
+
+### <a name="file-requirements"></a>檔案需求
+
+使用最新版本的 API 來撰寫 Power BI 視覺效果。
+
+存放庫必須包含下列檔案：
+* **.gitignore** - 將 `node_modules` 新增至此檔案。 程式碼不能包含 node_modules  資料夾。
+* **capabilities.json** - 如果您要提交較新版本的 Power BI 視覺效果，並變更此檔案中的屬性，請確認它們不會中斷現有使用者的報告。
+* **pbiviz.json**
+* **package.json**
+* **package-lock.json**
+* **tsconfig.json**
+
+### <a name="command-requirements"></a>命令需求
+
+請確定下列命令不會傳回任何錯誤。
+
+* `npm install`
+* `pbiviz package`
+* `npm audit` - 不得傳回任何層級為高或中的警告。
+* [TSlint from Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib)，不具任何已覆寫的設定。 此命令不得傳回任何 lint 錯誤。
+
+### <a name="compiling-requirements"></a>編譯需求
+
+使用最新版本的 [powerbi-visuals-tools](https://www.npmjs.com/package/powerbi-visuals-tools) 來撰寫 Power BI 視覺效果。
+
+您必須使用 `pbiviz package` 來編譯您的 Power BI 視覺效果。 如果您要使用自己的組建指令碼，請提供 `npm run package` 自訂組建命令。
+
+
+
+### <a name="source-code-requirements"></a>原始程式碼需求
+
+確認您遵循 [Power BI 視覺效果其他認證](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification)原則清單。 如果您的提交未遵循這些指導方針，合作夥伴中心的拒絕電子郵件將會包含此連結中所列的原則號碼。
+
+依照下列程式碼需求，確定您的程式碼符合 Power BI 認證原則。  
+
+**必要**
+* 只能使用公用的可檢閱 OSS 元件，例如公用 JavaScript 或 TypeScript 程式庫。
+* 程式碼必須支援[轉譯事件 API](./visuals/event-service.md)。
+* 請確定已安全地操作 DOM。 請先對使用者輸入或使用者資料使用清理，再將其新增至 DOM。
+* 使用[範例報告](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix)作為測試資料集。
+
+**不允許**
+* 存取外部服務或資源。 例如，不能從 Power BI 將任何 HTTP/S 或 WebSocket 要求發送到任何服務。
+* 使用 `innerHTML` 或 `D3.html(user data or user input)`。
+* 瀏覽器主控台中任何輸入資料的 JavaScript 錯誤或例外狀況。
+* 任意或動態程式碼，例如 `eval()`、不安全地使用 `settimeout()`、`requestAnimationFrame()`、`setinterval(user input function)`，以及使用者輸入或使用者資料。
+* 縮短 JavaScript 檔案或專案。
 
 ## <a name="submitting-a-power-bi-visual-for-certification"></a>提交 Power BI 視覺效果進行認證
 
@@ -212,6 +233,7 @@ ms.locfileid: "75221957"
 * [YouTube 上的 Microsoft 自訂視覺效果播放清單](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Power BI 中的視覺效果](../visuals/power-bi-report-visualizations.md)  
 * [Power BI 中的自訂視覺效果](power-bi-custom-visuals.md)  
-* [在 Microsoft AppSource 上發佈 Power BI 視覺效果](../developer/office-store.md)  
+* [在 Microsoft AppSource 上發佈 Power BI 視覺效果](../developer/office-store.md) 
+* 如果您是想要建立自己的 Power BI 視覺效果並將它們新增至  [Microsoft AppSource](https://appsource.microsoft.com) \(英文\) 的 Web 開發人員，請從 [開發 Power BI 視覺效果](visuals/custom-visual-develop-tutorial.md)教學課程開始。 
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

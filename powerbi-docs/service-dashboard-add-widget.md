@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73853523"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282022"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>將影像、影片和其他項目新增至儀表板
 
@@ -117,8 +117,6 @@ ms.locfileid: "73853523"
 ## <a name="add-streaming-data"></a>新增串流資料
 您可以使用 PubNub 將串流資料 (例如 Twitter 摘要或感應器資料) 新增至儀表板中的磚。 Power BI 已建立整合，以便從 PubNub 取得資料。 在這裡，將說明其運作方式。
    
-
-您可以使用 PubNub 將串流資料 (例如 Twitter 摘要或感應器資料) 新增至儀表板中的磚。 Power BI 已建立整合，以便從 PubNub 取得資料。 在這裡，將說明其運作方式。 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOuINwgkEkQ" frameborder="0" allowfullscreen></iframe>
 

@@ -1,126 +1,179 @@
 ---
 title: Power BI 視覺效果專案結構
-description: 本文描述視覺化專案的結構
-author: zBritva
-ms.author: v-ilgali
+description: 本文將說明 Power BI 視覺效果專案的資料夾和檔案結構
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: tutorial
+ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/15/2019
-ms.openlocfilehash: 728aba749f80710fdc0bb1e180b3318e63caa88c
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.date: 01/12/2020
+ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75542085"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925527"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 視覺效果專案結構
 
-執行 pbiviz new `<visual project name>` 之後，此工具會在 `<visual project name>` 資料夾中建立檔案和資料夾的基本結構。
+開始建立新 Power BI 視覺效果的最佳方式，就是使用 Power BI 視覺效果的 [pbiviz](https://www.npmjs.com/package/powerbi-visuals-tools) 工具。
 
-## <a name="visual-project-structure"></a>視覺效果專案結構
+若要建立新的視覺效果，請瀏覽至您想要放置 Power BI 視覺效果的目錄，然後執行命令：
 
-![視覺效果專案結構](./media/visual-project-structure.png)
+`pbiviz new <visual project name>`
 
-* `.vscode` - 包含 VS Code 的專案設定。 若要設定您的工作區，請編輯 `.vscode/settings.json` 檔案。 深入了解[文件中的 VS Code 設定](https://code.visualstudio.com/docs/getstarted/settings)
+執行此命令會建立包含下列檔案的 Power BI 視覺效果資料夾：
 
-* `assets` 資料夾僅包含 `icon.png` 檔案。 此工具會在 Power BI 的 [視覺效果] 窗格中，使用此檔案作為視覺效果的圖示。
+```markdown
+project
+├───.vscode
+│   ├───launch.json
+│   └───settings.json
+├───assets
+│   └───icon.png
+├───node_modules
+├───src
+│   ├───settings.ts
+│   └───visual.ts
+├───style
+│   └───visual.less
+├───capabilities.json
+├───package-lock.json
+├───package.json
+├───pbiviz.json
+├───tsconfig.json
+└───tslint.json
+```
 
-    ![[視覺效果] 窗格](./media/visualization-pane-analytics-tab.png)
+## <a name="folder-and-file-description"></a>資料夾和檔案描述
 
-* `node_modules` 資料夾包含[節點套件管理員安裝的](https://docs.npmjs.com/files/folders.html)所有套件。
+本節會針對 Power BI 視覺效果 **pbiciz** 工具所建立的目錄，提供其中每個資料夾和檔案的資訊。  
 
-* `src` 資料夾包含視覺效果的原始程式碼。 此工具預設會建立兩個檔案：
+### <a name="vscode"></a>.vscode
 
-  * `visual.ts` - 視覺效果的主要原始程式碼。
+此資料夾包含 VS Code 專案設定。
 
-  * `settings.ts` - 視覺效果的設定程式碼。 檔案中的類別可簡化[使用視覺效果屬性的工作](./objects-properties.md#properties)。
+若要設定您的工作區，請編輯 `.vscode/settings.json` 檔案。
 
-* `style` 資料夾包含具有視覺效果樣式的 `visual.less` 檔案。
+如需詳細資訊，請參閱[使用者和工作區設定](https://code.visualstudio.com/docs/getstarted/settings)
 
-* `capabilities.json` 檔案包含視覺效果的主要屬性和設定。 此檔案允許視覺效果宣告支援的功能、物件、屬性和資料檢視對應。
+### <a name="assets"></a>資產
 
-    深入了解[文件中的功能](./capabilities.md)。
+此資料夾包含 `icon.png` 檔案。
 
-* `package-lock.json` 會針對 npm 修改 `node_modules` 樹狀結構或 `package.json` 的任何作業自動產生。
+Power BI 視覺效果工具會使用此檔案作為 [Power BI 視覺效果] 窗格中的新 Power BI 視覺效果圖示。
 
-    深入了解 [NPM 官方文件中的 `package-lock.json`](https://docs.npmjs.com/files/package-lock.json)。
+<!--- ![Visualization pane](./media/visualization-pane-analytics-tab.png) --->
 
-* `package.json` 描述專案套件。 其中通常包含專案的相關資訊、其作者、描述和專案的相依性。
+### <a name="src"></a>src
 
-    深入了解 [NPM 官方文件中的 `package.json`](https://docs.npmjs.com/files/package.json.html)。
+此資料夾包含視覺效果的原始程式碼。
 
-* `pbiviz.json` 包含視覺效果中繼資料。 請在這個檔案中指定視覺效果的中繼資料。
+在此資料夾中，Power BI 視覺效果工具會建立下列檔案：
+* `visual.ts` - 視覺效果的主要原始程式碼。
+* `settings.ts` - 視覺效果設定的程式碼。 檔案中的類別會提供用來定義[視覺效果屬性](./objects-properties.md#properties)的介面。
 
-    檔案的一般內容：
+### <a name="style"></a>樣式
 
-  ```json
-    {
-        "visual": {
-            "name": "<visual project name>",
-            "displayName": "<visual project name>",
-            "guid": "<visual project name>23D8B823CF134D3AA7CC0A5D63B20B7F",
-            "visualClassName": "Visual",
-            "version": "1.0.0",
-            "description": "",
-            "supportUrl": "",
-            "gitHubUrl": ""
-        },
-        "apiVersion": "2.6.0",
-        "author": { "name": "", "email": "" },
-        "assets": { "icon": "assets/icon.png" },
-        "externalJS": null,
-        "style": "style/visual.less",
-        "capabilities": "capabilities.json",
-        "dependencies": null,
-        "stringResources": []
-    }
-  ```
+此資料夾包含會保存視覺效果樣式的 `visual.less` 檔案。
 
-    其中
+### <a name="capabilitiesjson"></a>capabilities.json
 
-  * `name` - 視覺效果的內部名稱。
+此檔案包含視覺效果的主要屬性和設定 (或[功能](./capabilities.md))。 此檔案允許視覺效果宣告支援的功能、物件、屬性和[資料檢視對應](./dataview-mappings.md)。
 
-  * `displayName` - Power BI UI 介面中的視覺效果名稱。
+### <a name="package-lockjson"></a>package-lock.json
 
-  * `guid` - 視覺效果的唯一識別碼。
+此檔案會針對 npm  修改 `node_modules` 樹狀結構或 `package.json` 檔案的任何作業自動產生。
 
-  * `visualClassName` - 視覺效果的主要類別名稱。 Power BI 會建立這個類別的執行個體，以開始使用 Power BI 報表中的視覺效果。
+如需此檔案的詳細資訊，請參閱官方 [npm-package-lock.json](https://docs.npmjs.com/files/package-lock.json) 文件。
 
-  * `version` - 視覺效果的版本號碼。
+### <a name="packagejson"></a>package.json
 
-  * `author` - 包含作者的名稱和連絡人電子郵件。
+此檔案會描述專案套件。 其中包含專案的相關資訊，例如作者、描述和專案相依性。
 
-  * `assets` 中 `icon` - 視覺效果的圖示檔案路徑。
+如需此檔案的詳細資訊，請參閱官方 [npm-package.json](https://docs.npmjs.com/files/package.json.html) 文件。
 
-  * `externalJS` 包含視覺效果所使用 JS 程式庫的路徑。
+### <a name="pbivizjson"></a>pbiviz.json
 
-    > [!IMPORTANT]
-    > 最新版的工具 3.x.x 或更高版本不再使用 `externalJS`。
+此檔案包含視覺效果中繼資料。
 
-  * `style` 是樣式檔案的路徑。
+若要檢視 `pbiviz.json` 範例檔案及其中描述中繼資料項目的註解，請參閱[中繼資料項目](#metadata-entries)一節。
 
-  * `capabilities` 是 `capabilities.json` 檔案的路徑。
+### <a name="tsconfigjson"></a>tsconfig.json
 
-  * `dependencies` 是 `dependencies.json` 檔案的路徑。 `dependencies.json` 包含的資訊與 R 型視覺效果中所使用 R 套件有關。
+[TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) 的組態檔。
 
-  * `stringResources` 是當地語系化檔案的路徑陣列。
+此檔案必須包含 **\*.ts** 檔案的路徑，也就是視覺效果主要類別 (在 `pbiviz.json` 檔案 `visualClassName` 屬性中指定) 的所在位置。
 
-  深入了解[文件中的視覺效果當地語系化](./localization.md)
+### <a name="tslintjson"></a>tslint.json
 
-* `tsconfig.json` 是 TypeScript 的設定檔。
+此檔案包含 [TSLint 設定](https://palantir.github.io/tslint/usage/configuration/)。
 
-    深入了解[官方文件中的 TypeScript 設定](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+## <a name="metadata-entries"></a>中繼資料項目
 
-    `files` 區段中的 `tsconfig.json` 必須包含 *.ts 檔案的路徑，其中視覺效果主要類別指定於 `pbiviz.json` 檔案的 `visualClassName` 屬性中。
+在 `pbiviz.json` 檔案中，下列程式碼標題中的註解會描述中繼資料項目。
 
-* `tslint.json` 檔案包含 TSLint 設定。
+> [!NOTE]
+> * 從 **pbiciz** 工具 3.x 版開始，`externalJS` 不再受到支援。
+> * 如需當地語系化的支援，[請將 Power BI 地區設定新增至您的視覺效果](./localization.md)。
 
-    深入了解[官方文件中的 TSLint 設定](https://palantir.github.io/tslint/usage/configuration/)
+```json
+{
+  "visual": {
+     // The visual's internal name.
+    "name": "<visual project name>",
+
+    // The visual's display name.
+    "displayName": "<visual project name>",
+
+    // The visual's unique ID.
+    "guid": "<visual project name>23D8B823CF134D3AA7CC0A5D63B20B7F",
+
+    // The name of the visual's main class. Power BI creates the instance of this class to start using the visual in a Power BI report.
+    "visualClassName": "Visual",
+
+    // The visual's version number.
+    "version": "1.0.0",
+    
+    // The visual's description (optional)
+    "description": "",
+
+    // A URL linking to the visual's support page (optional).
+    "supportUrl": "",
+
+    // A link to the source code available from GitHub (optional).
+    "gitHubUrl": ""
+  },
+  // The version of the Power BI API the visual is using.
+  "apiVersion": "2.6.0",
+
+  // The name of the visual's author and email.
+  "author": { "name": "", "email": "" },
+
+  // 'icon' holds the path to the icon file in the assets folder; the visual's display icon.
+  "assets": { "icon": "assets/icon.png" },
+
+  // Contains the paths for JS libraries used in the visual.
+  // Note: externalJS' isn't used in the Power BI visuals tool version 3.x.x or higher.
+  "externalJS": null,
+
+  // The path to the 'visual.less' style file.
+  "style": "style/visual.less",
+
+  // The path to the `capabilities.json` file.
+  "capabilities": "capabilities.json",
+
+  // The path to the `dependencies.json` file which contains information about R packages used in R based visuals.
+  "dependencies": null,
+
+  // An array of paths to files with localizations.
+  "stringResources": []
+}
+```
 
 ## <a name="next-steps"></a>後續步驟
 
-* 深入了解[視覺效果概念](./power-bi-visuals-concept.md)，以進一步了解視覺效果、使用者和 Power BI 彼此互動的方式。
+* 若要了解視覺效果、使用者和 Power BI 之間的互動，請參閱 [Power BI 視覺效果概念](./power-bi-visuals-concept.md)。
 
-* [透過逐步指南](./custom-visual-develop-tutorial.md)，從頭開始開發您自己的 Power BI 視覺效果。
+* 使用[逐步指南](./custom-visual-develop-tutorial.md)，從頭開始開發您自己的 Power BI 視覺效果。

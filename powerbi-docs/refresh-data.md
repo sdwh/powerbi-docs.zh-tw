@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791676"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039047"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 
@@ -317,10 +317,9 @@ in
 
 ## <a name="automatic-page-refresh"></a>自動重新整理頁面
 
-自動頁面重新整理會在報表頁面層級運作，並可讓報表作者設定頁面中視覺效果 (只有在取用頁面時才會是作用中) 的重新整理間隔。 自動頁面重新整理僅適用於 DirectQuery 資料來源。 最小重新整理間隔取決於發行報表的工作區類型，以及進階工作區的容量管理員設定。
+自動頁面重新整理會在報表頁面層級運作，並可讓報表作者設定頁面中視覺效果 (只有在取用頁面時才會是作用中) 的重新整理間隔。 自動頁面重新整理僅適用於 DirectQuery 資料來源。 最小重新整理間隔取決於發行報表的工作區類型，以及進階工作區和[內嵌工作區](developer/embedding.md)的容量管理員設定。
 
 若要深入了解自動頁面重新整理，請參閱[自動頁面重新整理](desktop-automatic-page-refresh.md)一文。
-
 
 ## <a name="best-practices"></a>最佳作法
 

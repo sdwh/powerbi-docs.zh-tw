@@ -19,7 +19,7 @@
           href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
         - name: 建立自己的量值
           href: desktop-tutorial-create-measures.md
-        - name: 建立計算結果欄
+        - name: 建立導出資料行
           href: desktop-tutorial-create-calculated-columns.md
         - name: 分析 Facebook 資料
           href: desktop-tutorial-facebook-analytics.md
@@ -101,7 +101,7 @@
           href: desktop-relationship-view.md
         - name: 使用報表檢視
           href: desktop-report-view.md
-        - name: 連接至資料來源
+        - name: 連線到資料來源
           href: desktop-connect-to-data.md
         - name: 發佈資料集與報表
           href: desktop-upload-desktop-files.md
@@ -115,9 +115,9 @@
           href: desktop-show-items-no-data.md
         - name: 套用自動日期/時間
           href: desktop-auto-date-time.md
-        - name: 連線至資料
+        - name: 連接到資料
           items:
-            - name: 連接至資料來源
+            - name: 連線到資料來源
               href: desktop-data-sources.md
             - name: 在 SharePoint 清單上建立報表
               href: desktop-sharepoint-online-list.md
@@ -215,7 +215,7 @@
               href: desktop-mobile-barcodes.md
             - name: 在 Power BI 中為行動裝置應用程式設定地理篩選
               href: desktop-mobile-geofiltering.md
-            - name: 建立計算結果欄
+            - name: 建立導出資料行
               href: desktop-calculated-columns.md
             - name: 建立導出的資料表
               href: desktop-calculated-tables.md
@@ -429,7 +429,7 @@
           href: desktop-send-smile-privacy-statement.md
         - name: 系統管理員：管理 Power BI Desktop 登入表單
           href: desktop-admin-sign-in-form.md
-        - name: 協助工具
+        - name: Accessibility
           items:
             - name: 關於 Power BI 協助工具
               href: desktop-accessibility-overview.md
@@ -633,7 +633,7 @@
               href: service-report-save.md
             - name: 與編輯檢視的報表互動
               href: service-interact-with-a-report-in-editing-view.md
-            - name: 在 Excel 中進行分析
+            - name: 在 Excel 中分析
               href: service-analyze-in-excel.md
             - name: 建立報表的祕訣和訣竅
               href: power-bi-reports-tips-and-tricks-for-creating.md
@@ -727,7 +727,7 @@
               href: service-dataflows-developer-resources.md
             - name: 在 Power BI Desktop 中連線到資料流程
               href: desktop-connect-dataflows.md
-            - name: 資料流程與 Azure Data Lake 整合 (預覽)
+            - name: Dataflows and Azure Data Lake 整合 (預覽)
               href: service-dataflows-azure-data-lake-integration.md
             - name: 連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體
               href: service-dataflows-connect-azure-data-lake-storage-gen2.md
@@ -801,7 +801,7 @@
               href: service-govus-signup.md
             - name: 刪除 Power BI 中的大部分項目
               href: service-delete.md
-            - name: 連接至服務
+            - name: 連線到伺服器
               items:
                 - name: 使用應用程式連線到服務
                   href: service-connect-to-services.md
@@ -845,7 +845,7 @@
       items:
         - name: 影片
           href: videos.md
-        - name: 研討會
+        - name: 網路研討會
           href: webinars.md
 - name: Power BI Premium
   items:
@@ -899,7 +899,7 @@
           href: report-builder-power-bi.md
     - name: 教學課程
       items:
-        - name: 實作教室：建立編頁報表
+        - name: 實作教室：建立分頁報表
           href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
         - name: 建立編頁報表並上傳
           href: paginated-reports-quickstart-aw.md
@@ -961,16 +961,18 @@
       items:
         - name: 新功能
           href: report-server/whats-new.md
+        - name: 系統管理員概觀
+          href: report-server/admin-handbook-overview.md
         - name: 變更記錄
           href: report-server/changelog.md
         - name: 支援時間表
           href: report-server/support-timeline.md
+        - name: Always Encrypted 支援
+          href: report-server/always-encrypted-support.md
         - name: 硬體和軟體需求
           href: report-server/system-requirements.md
         - name: 瀏覽器支援
           href: report-server/browser-support.md
-        - name: 系統管理員概觀
-          href: report-server/admin-handbook-overview.md
         - name: 報表伺服器基本概念
           items:
             - name: Power BI 報表的重新整理排程
@@ -979,7 +981,7 @@
               href: report-server/data-sources.md
             - name: 分頁報表資料來源
               href: report-server/connect-data-sources.md
-            - name: 訂閱
+            - name: 訂用帳戶
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
             - name: 使用行動裝置應用程式
               href: 'https://go.microsoft.com/fwlink/?linkid=848711'
@@ -1065,7 +1067,7 @@
   items:
     - name: 概觀
       items:
-        - name: 什麼是內部部署的資料閘道？
+        - name: 什麼是內部部署資料閘道？
           href: service-gateway-onprem.md
     - name: 概念
       items:

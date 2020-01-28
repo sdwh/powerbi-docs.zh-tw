@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/25/2019
 ms.author: v-pemyer
-ms.openlocfilehash: becde542f68b2f9fb1412a904793f46a8f154856
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308241"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161286"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多對多關聯性指導
 
@@ -120,7 +120,7 @@ ms.locfileid: "75308241"
 - 新增橋接資料表以儲存相關聯的實體
 - 建立這三個資料表之間的一對多關聯性
 - 設定**一個**雙向關聯性，以允許篩選傳播接續到事實類型資料表
-- 在遺漏識別碼值不當的情況下，請將識別碼資料行的 [可為 Null]  屬性設定為 TRUE；如果以遺漏值為來源，則資料重新整理將會失敗
+- 在遺漏識別碼值不當的情況下，請將識別碼資料行的 [可為 Null]  屬性設定為 FALSE；如果以遺漏值為來源，則資料重新整理將會失敗
 - 隱藏橋接資料表 (除非其中包含需要報告的其他資料行或量值)
 - 隱藏不適合報告的任何識別碼資料行 (例如，當識別碼為 Surrogate 索引鍵時)
 - 如果識別碼資料行必須保持可見，請確定其位於關聯性的「一」端；請一律隱藏「多」端的資料行。 這會產生最佳的篩選效能。

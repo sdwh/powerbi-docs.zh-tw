@@ -1,6 +1,6 @@
 ---
 title: Power BI 報表產生器的報表設計祕訣
-description: 使用下列祕訣協助您在 Power BI 分頁報表產生器中設計您的分頁報表。
+description: 使用下列祕訣協助您在 Power BI Report Builder 中設計您的編頁報表。
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d7e232d09eee2a4cfff17d4565443195e6f7f1aa
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3b436156d6bd36fe5da7b9b4404227ca1a6de336
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840341"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160527"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Power BI 報表產生器的報表設計祕訣
-  使用下列祕訣協助您在 Power BI 分頁報表產生器中設計您的分頁報表。  
+  使用下列祕訣協助您在 Power BI Report Builder 中設計您的編頁報表。  
   
    
   
@@ -131,7 +131,7 @@ ms.locfileid: "66840341"
   
 -   如果您打算將報表儲存為 .pdf 檔案，報表寬度必須明確設定為您想要的匯出檔案格式結果值。 例如，將報表頁面寬度設為正好 7.9375 英吋，左右邊界各為.5 英吋。  
   
--   使用報表檢視器工具列上的 [整頁模式]  和 [設定列印格式]  ，將報表轉譯為與列印相容的檢視。 若要協助移除不想要的水平頁面，請執行下列作業：  
+-   使用報表檢視器工具列上的 [整頁模式]  和 [設定列印格式]  ，將報表轉譯為與列印相容的檢視。 為協助移除不需要的空白頁面，請執行下列動作：  
   
     1.  移除資料區和報表邊緣之間所有的額外空白字元。  
   
@@ -140,8 +140,10 @@ ms.locfileid: "66840341"
     3.  使用**矩形**作為容器，以利控制報表項目轉譯的方式。  
   
     4.  在資料行標頭中，將文字方塊屬性 WritingMode 變更為使用垂直文字。  
-  
- 此行為的組合、報表項目的寬度和高度屬性、報表主體的大小、頁面高度和頁面寬度定義、父報表的邊界設定，以及轉譯器特有的分頁支援，全部結合在一起決定轉譯頁面中彼此相合的報表項目。 
+
+ 如需更多指導方針，請參閱[避免在列印編頁報表時出現空白頁面](guidance/report-paginated-blank-page.md)。
+
+ 此行為的組合、報表項目的寬度和高度屬性、報表主體的大小、頁面高度和頁面寬度定義、父報表的邊界設定，以及轉譯器特有的分頁支援，全部結合在一起決定轉譯頁面中彼此相合的報表項目。
  
 ## <a name="next-steps"></a>後續步驟
 

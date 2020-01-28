@@ -1,6 +1,6 @@
 ---
 title: Power BI 報表產生器中的運算式範例
-description: 在 Power BI 分頁報表產生器的分頁報表中，經常使用運算式來控制內容和報表外觀。
+description: 在 Power BI Report Builder 的編頁報表中，經常使用運算式來控制內容和報表外觀。
 ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
-ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
+ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72728554"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953969"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 報表產生器中的運算式範例
-在 Power BI 分頁報表產生器的分頁報表中，經常使用運算式來控制內容和報表外觀。 運算式都是以 Microsoft Visual Basic 撰寫，並可使用內建函式、自訂程式碼、報表和群組變數，以及使用者定義的變數。 運算式會以等號 (=) 開頭。   
+在 Power BI Report Builder 的編頁報表中，經常使用運算式來控制內容和報表外觀。 運算式都是以 Microsoft Visual Basic 撰寫，並可使用內建函式、自訂程式碼、報表和群組變數，以及使用者定義的變數。 運算式會以等號 (=) 開頭。   
 
 本主題提供可用來在報表中執行一般工作的運算式範例。  
   

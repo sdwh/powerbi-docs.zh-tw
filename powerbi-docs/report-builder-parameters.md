@@ -1,6 +1,6 @@
 ---
 title: Power BI 報表產生器中的報表參數
-description: 本主題描述 Power BI 分頁報表產生器報表參數的常見使用案例、您可以設定的屬性等。
+description: 此主題描述 Power BI Report Builder 報表參數的常見使用案例、您可以設定的屬性等。
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,16 +9,16 @@ ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 5a7e91c03b11902f324d6a7c639a03f7652acf16
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128435"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160849"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Power BI 報表產生器中的報表參數
 
-本主題描述 Power BI 分頁報表產生器報表參數的常見使用案例、您可以設定的屬性等。 報表參數可以讓您控制報表資料、將相關的報表連接在一起，以及變更報表的呈現方式。 您可以在您於報表產生器中建立的分頁報表中使用報表參數。
+此主題描述 Power BI Report Builder 報表參數的常見使用案例、您可以設定的屬性等。 報表參數可以讓您控制報表資料、將相關的報表連接在一起，以及變更報表的呈現方式。 您可以在您於報表產生器中建立的分頁報表中使用報表參數。
 
 ## <a name="bkmk_Common_Uses_for_Parameters"></a> 參數的常見使用案例
 
@@ -93,7 +93,7 @@ ms.locfileid: "74128435"
   
 - 從下拉式清單選取多個參數值。  
   
-- 從下拉式清單中為一個參數選取值，決定下拉式清單中另一個參數的可用值。 這些是串聯參數。 串聯參數可讓您從上千個值中，透過連續篩選參數值來將數量縮小到可管理的數量。  
+- 從下拉式清單中為一個參數選取值，決定下拉式清單中另一個參數的可用值。 這些是串聯參數。 串聯參數可讓您從上千個值中，透過連續篩選參數值來將數量縮小到可管理的數量。 如需詳細資訊，請參閱[在編頁報表中使用串聯參數](guidance/paginated-report-cascading-parameter.md)。
   
 - 在無需先選取參數值的情況下執行報表 (因為已為參數建立預設值)。  
   
@@ -148,5 +148,4 @@ ms.locfileid: "74128435"
 ## <a name="next-steps"></a>後續步驟
 
 - [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)  
- 
- 
+- [在編頁報表中使用串聯參數](guidance/paginated-report-cascading-parameter.md)

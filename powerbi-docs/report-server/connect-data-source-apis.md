@@ -8,16 +8,20 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: maggies
-ms.openlocfilehash: 77716514ffbb6dc8d3f128ada85276b46bf7af05
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 5cdf29c71ef3e5f8dc02799945cf76ccc518dabe
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72923657"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953738"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>在 PowerShell 報表中使用 PowerShell 變更資料來源連接字串 - Power BI 報表伺服器
 
+
 您可以在 PowerShell 中使用 API，在 Power BI 報表伺服器的 Power BI 報表中變更資料來源連接字串。 
+
+> [!NOTE]
+> 此功能目前僅適用於 DirectQuery。 即將推出匯入和資料重新整理的支援。
 
 1. 安裝 Power BI 報表伺服器 PowerShell commandlet。 在 [https://github.com/Microsoft/ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools) 尋找 commandlet 和安裝指示。 
 
@@ -33,7 +37,7 @@ ms.locfileid: "72923657"
     $dataSources[0]
     ```
 
-3. 視需要更新連線和認證資訊。 如果更新連接字串，且資料來源會使用預存認證，您就必須提供帳戶密碼。 
+3. 視需要更新連接和認證資訊。 如果更新連接字串，且資料來源會使用預存認證，您就必須提供帳戶密碼。 
 
     更新資料來源連接字串：
 
@@ -67,4 +71,3 @@ ms.locfileid: "72923657"
 [Power BI 報表伺服器中的分頁報表資料來源](connect-data-sources.md) 
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

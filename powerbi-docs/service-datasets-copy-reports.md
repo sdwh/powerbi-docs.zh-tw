@@ -1,31 +1,33 @@
 ---
-title: 複製其他工作區的報表 (預覽) - Power BI
-description: 了解如何與整個組織的使用者共用資料集。 然後他們可以您的資料集為基礎，在自己的工作區中建置報表。
+title: 複製其他應用程式或工作區的報表 (預覽) - Power BI
+description: 了解如何建立報表的複本，並將其儲存到您自己的工作區。
 author: maggiesMSFT
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 01/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9c7cbd895a913b76a9c0b87155f7800c5538ab28
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223850"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "76268928"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>複製其他工作區的報表 (預覽)
 
-當您在工作區或應用程式中找到喜歡的報表時，您可以複製該報表，然後將它儲存到不同的工作區中。 然後您可以修改您複製的報表、新增或刪除視覺效果和其他項目。 您不需要建立資料模型。 它已經為您建立。 修改現有的報表，比從頭開始要輕鬆許多。 但是，當您從新的工作區製作應用程式時，有時候您無法在應用程式內發佈您的報表複本。 請參閱[＜跨工作區使用資料集＞一文中的考量事項和限制](service-datasets-across-workspaces.md#considerations-and-limitations)以取得詳細資料。
+當您在工作區或應用程式中找到喜歡的報表時，您可以複製該報表，然後將它儲存到不同的工作區中。 然後您可以修改您複製的報表、新增或刪除視覺效果和其他項目。 您不需要建立資料模型。 它已經為您建立。 修改現有的報表，比從頭開始要輕鬆許多。 但是，當您從您的工作區製作應用程式時，有時候您無法在應用程式內發佈您的報表複本。 請參閱[＜跨工作區使用資料集＞一文中的考量事項和限制](service-datasets-across-workspaces.md#considerations-and-limitations)以取得詳細資料。
 
 > [!NOTE]
 > 若要進行複製，您將需要 Pro 授權，即使原始報表位於 Premium 容量中的工作區也一樣。
 
-## <a name="save-a-copy-of-a-report"></a>儲存報表複本
+## <a name="save-a-copy-of-a-report-in-a-workspace"></a>在工作區中儲存報表複本
 
-1. 在應用程式或工作區中，移至 [報表] 清單檢視。
+1. 在工作區中，移至 [報表] 清單檢視。
+
+    ![報表清單檢視](media/service-datasets-copy-reports/power-bi-report-list-view.png)
 
 1. 在 [動作]  下選取 [儲存複本]  。
 
@@ -37,22 +39,46 @@ ms.locfileid: "75223850"
 
     ![儲存複本對話方塊](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 
-    您可以儲存至的工作區取決於複製來源的位置。 從工作區複製時，您可以將報表儲存到目前的工作區或 Power BI 服務中的其他工作區。 您只會看到您為所屬成員之新體驗工作區的工作區。 從應用程式複製時，您可以將報表儲存到 [我的工作區]。
+    您可以將報表儲存在目前工作區或 Power BI 服務的其他工作區。 您只會看到您為所屬成員之新體驗工作區的工作區。 
   
 4. 選取 [儲存]  。
 
-    當您儲存報表的複本時，您即建立資料集的即時連線，並以可用的完整資料集來開啟報表建立體驗。 您尚未製作資料集的複本。 資料集仍位在其原始位置。 您可以使用您報表的資料集中所有資料表和量值。 資料集的資料列層級安全性 (RLS) 限制已生效，因此您只會看到根據您 RLS 角色有權查看的資料。
-
-    如果報表是以工作區外的資料集為基礎，則 Power BI 會自動在資料集清單中建立項目。 此資料集圖示和工作區資料集的圖示不同： ![共用的資料集圖示](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
-
-
+    如果報表是以工作區外的資料集為基礎，則 Power BI 會自動在資料集清單中建立報表複本和項目。 此資料集圖示和工作區資料集的圖示不同： ![共用的資料集圖示](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
+    
     如此一來，工作區成員就可以分辨哪些報表和儀表板使用工作區外的資料集。 此項目會顯示資料集的相關資訊以及少數選取動作。
 
     ![資料集動作](media/service-datasets-across-workspaces/power-bi-dataset-actions.png)
 
+    如需有關報表和相關資料集的詳細資訊，請參閱本文中的[您的報表複本](#your-copy-of-the-report)。
+
+## <a name="copy-a-report-in-an-app"></a>在應用程式中複製報表
+
+1. 在應用程式中，開啟您想要複製的報表。
+2. 在功能表列中，選取 [多個選項]  ( **...** ) > [儲存複本]  。
+
+    ![儲存報表的複本](media/service-datasets-copy-reports/power-bi-save-copy.png)
+
+    如果報表位在新體驗工作區中，而您有[建置權限](service-datasets-build-permissions.md)，您只會看到 [儲存複本]  選項。
+
+3. 為報表命名 > [儲存]  。
+
+    ![為報表的複本命名](media/service-datasets-copy-reports/power-bi-save-report-from-app.png)
+
+    您的複本會自動儲存至 [我的工作區]。
+
+4. 選取 [移至報表]  以開啟您的複本。
+
+## <a name="your-copy-of-the-report"></a>您的報表複本
+
+當您儲存報表的複本時，您即建立資料集的即時連線，並以可用的完整資料集來開啟報表建立體驗。 
+
+![編輯您的報表複本](media/service-datasets-copy-reports/power-bi-edit-report-copy.png)
+
+您尚未製作資料集的複本。 資料集仍位在其原始位置。 您可以使用您報表的資料集中所有資料表和量值。 資料集的資料列層級安全性 (RLS) 限制已生效，因此您只會看到根據您 RLS 角色有權查看的資料。
+
 ## <a name="view-related-datasets"></a>檢視相關資料集
 
-當您的工作區中有報表時，您可能需要知道它以何資料集為本。
+當您在一個工作區中有一個以另一個工作區中的資料集為基礎的報表時，您可能需要深入了解它所依據的資料集。
 
 1. 在 [報表] 清單檢視中，選取 [檢視相關項目]  。
 

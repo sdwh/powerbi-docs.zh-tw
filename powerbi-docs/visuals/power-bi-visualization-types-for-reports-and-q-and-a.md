@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 8737a0e9b2dd8ba17d28962ed51e24ec0c5cefc4
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099928"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040500"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
 ## <a name="power-bi-visualizations"></a>Power BI 視覺效果
@@ -145,6 +145,13 @@ ms.locfileid: "74099928"
 
 >[!TIP]
 >圓形圖會顯示部分與整體的關聯性。 
+
+### <a name="power-apps-visual"></a>Power Apps 視覺效果
+![Power Apps 視覺效果](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-powerapps-visual.png)
+
+報表設計師可以建立 Power App，並將其內嵌到 Power BI 報表中作為視覺效果。 取用者可以在 Power BI 報表內與該視覺效果互動。 
+
+如需詳細資訊，請參閱[將 Power Apps 視覺效果新增至您的報表](power-bi-visualization-powerapp.md)。
 
 ### <a name="qa-visual"></a>問與答視覺效果
 ![問與答視覺效果](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)

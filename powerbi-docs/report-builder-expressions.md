@@ -1,6 +1,6 @@
 ---
 title: Power BI 報表產生器中的運算式
-description: 在整個 Power BI 分頁報表產生器的分頁報表中會廣泛利用運算式來擷取、計算、顯示、分組、排序、篩選、參數化和格式化資料。
+description: 在整個 Power BI Report Builder 的編頁報表中會廣泛利用運算式來擷取、計算、顯示、分組、排序、篩選、參數化和格式化資料。
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d3a72fd967eeb24cfa1093d16c4434447d5fc89d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840617"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953869"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Power BI 報表產生器中的運算式
-  在整個 Power BI 分頁報表產生器的分頁報表中會廣泛利用運算式來擷取、計算、顯示、分組、排序、篩選、參數化和格式化資料。 
+  在整個 Power BI Report Builder 的編頁報表中會廣泛利用運算式來擷取、計算、顯示、分組、排序、篩選、參數化和格式化資料。 
   
   許多報表項目屬性都可以設為運算式。 運算式可協助您控制報表的內容、設計和互動。 運算式都是以 Microsoft Visual Basic 撰寫，儲存在報表定義中，並會在您執行報表時由報表處理器評估。  
   

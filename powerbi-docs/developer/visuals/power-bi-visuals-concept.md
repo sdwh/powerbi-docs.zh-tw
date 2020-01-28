@@ -1,132 +1,134 @@
 ---
 title: Power BI 視覺效果概念
-description: 本文描述視覺效果如何與 Power BI 整合
-author: zBritva
-ms.author: v-ilgali
+description: 本文將說明視覺效果與 Power BI 的整合方式，以及使用者可以如何與 Power BI 中的視覺效果互動。
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 36742917829013a6efca9d74f88b01bc686437a8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700838"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925599"
 ---
-# <a name="power-bi-visual-concept"></a>Power BI 視覺效果概念
+# <a name="visuals-in-power-bi"></a>Power BI 的視覺效果
 
-本文說明使用者和視覺效果如何與 Power BI 互動，而使用者又如何與 Power BI 視覺效果互動。 在圖表中，您會看到哪些動作直接影響視覺效果，或透過 Power BI (例如使用者選取書籤) 影響。
+本文將說明視覺效果與 Power BI 的整合方式，以及使用者可以如何與 Power BI 中的視覺效果互動。 
 
-![Power BI 視覺效果](./media/visual-concept.svg)
+下圖說明使用者常採取的視覺效果動作 (例如選取書籤) 如何在 Power BI 中處理。
 
-## <a name="the-visual-gets-update-from-power-bi"></a>視覺效果從 Power BI 取得更新
+![Power BI 視覺效果動作圖表](./media/visual-concept.svg)
 
-視覺效果具有 `update` 方法，而此方法通常會包含視覺效果的主要邏輯，並負責轉譯圖表或將資料視覺化。
+## <a name="visuals-get-updates-from-power-bi"></a>視覺效果會從 Power BI 取得更新
 
-呼叫 `update` 方法會取得大多數更新。
+視覺效果會呼叫 `update` 方法，以從 Power BI 取得更新。 `update` 通常會包含視覺效果的主要邏輯，並負責轉譯圖表或將資料視覺化。
 
-### <a name="user-interacts-with-visual-through-power-bi"></a>使用者透過 Power BI 與視覺效果互動
+當視覺效果呼叫 `update` 方法時，就會觸發更新。
+
+## <a name="action-and-update-patterns"></a>動作和更新模式
+
+Power BI 視覺效果中的動作和後續更新會以下列三種模式之一進行：
+
+* 使用者透過 Power BI 與視覺效果互動。
+* 使用者直接與視覺效果互動。
+* 視覺效果與 Power BI 互動。
+
+### <a name="user-interacts-with-a-visual-through-power-bi"></a>使用者透過 Power BI 與視覺效果互動
 
 * 使用者開啟視覺屬性面板。
 
-    Power BI 會從視覺效果的 `capabilities.json` 擷取支援的物件和屬性；若要接收屬性的實際值，Power BI 會呼叫視覺效果的 `enumerateObjectInstances` 方法。
+    當使用者開啟視覺效果的屬性面板時，Power BI 會從視覺效果的 capabilities.json  檔案提取支援的物件和屬性。 若要接收屬性的實際值，Power BI 會呼叫視覺效果的 `enumerateObjectInstances` 方法。 視覺效果會傳回屬性的實際值。
 
-    視覺效果必須傳回屬性的實際值。
+    如需詳細資訊，請參閱 [Power BI 視覺效果的功能和屬性](capabilities.md)。
 
-    如需詳細資訊，[請參閱視覺效果的功能](capabilities.md)。
+* 使用者在格式面板中[變更視覺效果的屬性](../../visuals/power-bi-visualization-customize-title-background-and-legend.md)。
 
-* [使用者在格式面板中變更視覺效果的屬性](../../visuals/power-bi-visualization-customize-title-background-and-legend.md)。
+    當使用者在格式面板中變更屬性的值時，Power BI 會呼叫視覺效果的 `update` 方法。 Power BI 會將新的 `options` 物件傳入 `update` 方法。 物件會包含新的值。
 
-    變更屬性值之後，Power BI 會呼叫視覺效果的 `update` 方法，並將新的 `options` 與物件的新值一併傳入 update 方法中。
-
-    如需詳細資訊，[請參閱視覺效果的物件和屬性](objects-properties.md)。
+    如需詳細資訊，請參閱 [Power BI 視覺效果的物件和屬性](objects-properties.md)。
 
 * 使用者調整視覺效果的大小。
 
-    當使用者變更視覺效果的大小時，Power BI 會使用新的 `option` 物件來呼叫 `update` 方法。 選項具有使用視覺效果新寬度和高度的巢狀 `viewport` 物件。
+    當使用者變更視覺效果的大小時，Power BI 會使用新的 `options` 物件來呼叫 `update` 方法。 `options` 物件具有巢狀 `viewport` 物件，其中包含視覺效果的新寬度和高度。
 
-* 使用者套用報表、頁面或視覺效果層級篩選。
+* 使用者會在報表、頁面或視覺效果層級上套用篩選。
 
-    Power BI 會根據篩選條件來篩選資料，並呼叫視覺效果的 `update` 方法，將新的資料提供給視覺效果。
+    Power BI 會根據篩選準則來篩選資料。 Power BI 會呼叫視覺效果的 `update` 方法，以新的資料更新視覺效果。
 
-    視覺效果會使用其中一個巢狀物件中的新資料來取得 `options` 的新更新。 這取決於視覺效果的資料檢視對應設定。
+    當其中一個巢狀物件中有新資料時，視覺效果會取得 `options` 物件的新更新。 更新發生的方式取決於視覺效果的資料檢視對應設定。
 
-    如需詳細資訊，[請參閱資料檢視對應](dataview-mappings.md)。
+    如需詳細資訊，請參閱[了解 Power BI 視覺效果中的資料檢視對應](dataview-mappings.md)。
 
 * 使用者在報表的另一個視覺效果中選取資料點。
 
-    Power BI 會篩選或醒目提示選取的資料點，並呼叫視覺效果的 `update` 方法。
+    當使用者在報表的另一個視覺效果中選取資料點時，Power BI 會篩選或醒目提示選取的資料點，並呼叫視覺效果的 `update` 方法。 視覺效果會取得新的篩選資料，或取得具有醒目提示陣列的相同資料。
 
-    視覺效果會取得新的篩選資料，或具有醒目提示陣列的相同資料。
-
-    如需詳細資訊，[請參閱如何在視覺效果中醒目提示資料點](highlight.md)。
+    如需詳細資訊，請參閱[在 Power BI 視覺效果中醒目提示資料點](highlight.md)。
 
 * 使用者在報表的書籤面板上選取書籤。
 
-    可能會發生兩個動作：
+    當使用者在報表的書籤面板中選取書籤時，可能會發生以下兩者其中之一的動作：
 
-    1. Power BI 會呼叫透過 `registerOnSelectionCallback` 方法註冊的已傳遞函式，而回呼函數會取得對應書籤的選取項目陣列。
+    * Power BI 會呼叫由 `registerOnSelectionCallback` 方法傳遞和註冊的函式。 回呼函式會取得對應書籤的選取陣列。
 
-    2. Power BI 會使用 `options` 內的對應篩選物件來呼叫 `update` 方法。
+    * Power BI 會使用 `options` 物件內的對應 `filter` 物件來呼叫 `update` 方法。
 
-    在這兩種情況下，視覺效果都必須根據收到的選取項目或篩選物件來變更視覺效果狀態。
+    不論是哪一種情況，視覺效果都必須根據收到的選取項目或 `filter` 物件來變更其狀態。
 
-    如需書籤的詳細資訊，[請參閱如何處理書籤](filter-api.md)。
+    如需有關書籤和篩選器的詳細資訊，請參閱 [Power BI 視覺效果中的視覺篩選 API](filter-api.md)。
 
-    如需篩選的詳細資訊，[請參閱 Power BI 視覺效果如何篩選其他視覺效果中的資料](filter-api.md)。
+### <a name="user-interacts-with-the-visual-directly"></a>使用者直接與視覺效果互動
 
-### <a name="user-interacts-with-visual-directly"></a>使用者直接與視覺效果互動
+* 使用者將滑鼠停留在資料元素上。
 
-* 使用者將滑鼠停留在資料元素上
+    視覺效果可以透過 Power BI 工具提示 API 顯示資料點的詳細資訊。 當使用者將滑鼠停留在視覺元素上方時，視覺效果可以處理事件，並顯示相關聯的工具提示元素資料。 視覺效果可以顯示標準工具提示或報表頁面工具提示。
 
-    視覺效果可以透過 Power BI 工具提示 API 顯示資料點的其他資訊。
-    使用者將滑鼠停留在視覺元素上：視覺效果可以處理事件，並顯示工具提示元素的相關資料。
+    如需詳細資訊，請參閱 [Power BI 視覺效果中的工具提示](add-tooltips.md)。
 
-    視覺效果可以顯示標準工具提示或報表頁面工具提示。
+* 使用者變更視覺效果屬性。 (例如，使用者展開樹狀結構，而視覺效果會在視覺效果屬性中儲存狀態。)
 
-    如需詳細資訊，請參閱[如何新增工具提示](add-tooltips.md)指南。
+    視覺效果可以透過 Power BI API 儲存屬性值。 例如，當使用者與視覺效果互動，而視覺效果需要儲存或更新屬性值時，視覺效果就可以呼叫 `presistProperties` 方法。
 
-* 使用者變更視覺屬性 (例如，使用者展開樹狀結構，而視覺效果會在屬性中儲存狀態)
+* 使用者選取 URL。
 
-    視覺效果可以透過 Power BI API 儲存屬性值。 例如，當使用者與視覺效果互動時。 而視覺效果必須儲存或更新屬性值。 視覺效果可以呼叫 `presistProperties` 方法來完成。
+    根據預設，視覺效果無法直接開啟 URL。 相反地，若要在新的索引標籤中開啟 URL，視覺效果可以呼叫 `launchUrl` 方法，並將 URL 傳遞為參數。
 
-* 使用者按一下 URL 連結。
+    如需詳細資訊，請參閱[建立啟動 URL](launch-url.md)。
 
-    根據預設，視覺效果無法開啟 URL。 若要在新的索引標籤中開啟 URL，則視覺效果應呼叫 `launchURL` 方法，並傳遞 URL 作為參數。
+* 使用者透過視覺效果套用篩選。
 
-    如需詳細資訊，請參閱[啟動 URL API](launch-url.md)。
+    視覺效果可以呼叫 `applyJsonFilter` 方法並傳遞條件，以篩選其他視覺效果中的資料。 有數種篩選類型可供使用，包括基本、進階和 Tuple 篩選。
 
-* 使用者透過視覺效果套用篩選
+    如需詳細資訊，請參閱 [Power BI 視覺效果中的視覺效果篩選 API](filter-api.md)。
 
-    視覺效果呼叫 `applyJSONFilter` 並傳遞篩選條件，以篩選其他視覺效果中的篩選資料。
+* 使用者選取視覺效果中的元素。
 
-    視覺效果可以使用數種類型的篩選，例如基本篩選、進階篩選、Tuple 篩選。
+    如需有關 Power BI 視覺效果中選取項目的詳細資訊，請參閱[使用 Power BI 視覺效果選取項目來新增互動](selection-api.md)。
 
-    如需篩選的詳細資訊，[請參閱 Power BI 視覺效果如何篩選其他視覺效果中的資料](filter-api.md)。
-
-* 使用者按一下/選取視覺效果上的元素。
-
-    如需選取項目的詳細資訊，[請參閱視覺效果如何互動](selection-api.md)。
-
-### <a name="the-visual-interacts-with-power-bi"></a>視覺效果與 Power BI 互動
+### <a name="visual-interacts-with-power-bi"></a>視覺效果與 Power BI 互動
 
 * 視覺效果向 Power BI 要求更多資料。
 
-    視覺效果可以逐項處理資料。 FetchMoreData API 方法會要求資料集的下一個片段。
+    視覺效果逐項處理資料。 `fetchMoreData` API 方法會要求資料集中的下一個資料片段。
 
-    如需 `fetchMoreData` 的詳細資訊，[請參閱如何從 Power BI 擷取更多資料](fetch-more-data.md)
+    如需詳細資訊，請參閱[從 Power BI 擷取更多資料](fetch-more-data.md)。
 
-* 事件服務
+* 事件服務觸發程序。
 
-    Power BI 可以將報表匯出至 PDF，或透過電子郵件傳送 (僅支援認證的視覺效果)。 為了通知 Power BI 轉譯已完成並準備擷取 PDF/電子郵件，視覺效果應呼叫轉譯事件 API。
+    Power BI 可以將報表匯出為 PDF，或透過電子郵件傳送報表 (僅適用於經認證的視覺效果)。 若要通知 Power BI 轉譯已完成，而且視覺效果已準備好擷取為 PDF 或電子郵件，則視覺效果應呼叫轉譯事件 API。
 
-    如需詳細資訊，[請參閱從 Power BI 將報表匯出至 PDF](../../consumer/end-user-pdf.md)
+    如需詳細資訊，請參閱[報表從 Power BI 匯出至 PDF](../../consumer/end-user-pdf.md)。
 
-    深入了解[事件服務](event-service.md)
+    若要了解事件服務，請參閱[在 Power BI 視覺效果中轉譯事件](event-service.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
-您是否為 Web 開發人員，而且有興趣將自己建立的視覺效果發佈到 AppSource 呢？ 請參閱[開發 Power BI 視覺效果](./custom-visual-develop-tutorial.md)，並了解如何[將 Power BI 視覺效果發佈至 AppSource](../office-store.md)。
+您想建立視覺效果並將其新增到 Microsoft AppSource 嗎？ 請參閱以下文章：
+
+* [開發 Power BI 視覺效果](./custom-visual-develop-tutorial.md)
+* [將 Power BI 視覺效果發佈至合作夥伴中心](../office-store.md)

@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 04ffeb01efeaa714b30b2246174584f2caf90468
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: fc1a0c524a3cb4a713cbaf049c259a4b96714131
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75622343"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160803"
 ---
 # <a name="understanding-power-bi-service-administrator-roles"></a>了解 Power BI 服務管理員角色
 
-若要管理 Power BI 租用戶，您必須是下列其中一種角色：Power BI 系統管理員、Power Platform 系統管理員或 Microsoft 365 全域管理員。Microsoft 365 使用者管理管理員，可在 Microsoft 365 系統管理中心內或使用 PowerShell 指令碼，將使用者指派為 Power BI 系統管理員角色或 Power Platform 系統管理員角色。
+若要管理 Power BI 租用戶，您必須是下列其中一種角色：Power BI 系統管理員、Power Platform 系統管理員或 Microsoft 365 全域管理員。Microsoft 365 使用者管理管理員，可在 Microsoft 365 系統管理中心內或使用 PowerShell 指令碼，將使用者指派為 Power BI 系統管理員角色或 Power Platform 系統管理員角色。 如需詳細資訊，請參閱[使用 Office 365 PowerShell 指派角色給使用者帳戶](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)。
 
 Power BI 系統管理員角色和 Power Platform 系統管理員角色的使用者，對 Power BI 租用戶和其系統管理功能 (除了授權以外) 有完整的控制權。 使用者獲派角色之後，就能存取 [Power BI 管理入口網站](service-admin-portal.md)。 在那裡，他們能存取整個租用戶的使用計量，並可控制整個租用戶使用 Power BI 功能的方式。 這些系統管理員角色適用於需要存取 Power BI 管理入口網站的使用者，但不會同時授與那些使用者完整的 Microsoft 365 系統管理存取權。
 

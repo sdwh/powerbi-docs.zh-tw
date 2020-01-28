@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 12/03/2019
-ms.openlocfilehash: 88df45a95e485695a9a2f36358c1fcca9670f258
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/16/2020
+ms.openlocfilehash: f7f163a8930d8bd90d6270f59e8afa602e89dd57
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74831125"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160826"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
 
@@ -31,6 +31,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 發行週期 | 一年三次 (一月、五月、九月) | 每月一次 | 最新功能和修正首先會提供給 Power BI 服務。 在接下來的幾個版本中，大部分的核心功能都會提供給 Power BI 報表伺服器，而某些功能僅適用於 Power BI 服務。 |
 | 在 Power BI Desktop 中建立 Power BI 報表 | 是 | 是 |  |
 | 在瀏覽器中建立 Power BI 報表 | 否 | 是 |  |
+| 裝載並連線至 Power BI 共用資料集 | 否 | 是 | [跨工作區的資料集簡介](../service-datasets-across-workspaces.md) |
 | 需要閘道 | 否 | 是 (針對內部部署資料來源) |  |
 | 即時串流 | 否 | 是 | [Power BI 中的即時串流](../service-real-time-streaming.md) |
 | 儀表板 | 否 | 是 | [Power BI 服務中的儀表板](../consumer/end-user-dashboards.md) |
@@ -39,7 +40,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 連線到服務 (例如 Salesforce) | 是 | 是 | 在 Power BI 服務中，使用內容套件[連線至您所使用的服務](../service-connect-to-services.md)。 在 Power BI 報表伺服器中，請使用經認證的連接器來連線至服務。 如需詳細資料，請參閱 [Power BI 報表伺服器中的 Power BI 報表資料來源](data-sources.md)。 |
 | 問與答 | 否 | 是 | [Power BI 服務和 Power BI Desktop 中的問與答](../power-bi-tutorial-q-and-a.md) 
 | 深入資訊摘要 | 否 | 是 | [使用 Power BI 自動產生資料的見解](../consumer/end-user-insights.md) |
-| 在 Excel 中進行分析 | 否 | 是 | [使用 Excel 分析](../service-analyze-in-excel.md) 
+| 使用 Excel 分析 | 否 | 是 | [使用 Excel 分析](../service-analyze-in-excel.md) 
 | 編頁報表 | 是 | 是 | Premium 容量的預覽版中，[可於 Power BI 服務內使用編頁的報表](../paginated-reports-report-builder-power-bi.md) |
 | Power BI 行動應用程式 | 是 | 是 | [Power BI 行動裝置應用程式概觀](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS 地圖 | 否 | 是 | [Power BI 服務及 Power BI Desktop 中由 Esri 提供的 ArcGIS 地圖](../visuals/power-bi-visualization-arcgis.md) |

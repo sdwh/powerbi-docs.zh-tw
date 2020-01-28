@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7f1d86dd3da6665eb985db17ac3641768ff56947
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: d4be5aa246b6e58b9a6234f30754e16a39341abe
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73872086"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160573"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>在 Power BI 和 Office 365 中管理工作區
 
 身為 [Power BI 或 Office 365 中工作區](service-create-distribute-apps.md)的建立者或系統管理員，您可以在 Power BI 中管理工作區的一些層面。 您在 Office 365 中管理的其他層面。
 
 > [!NOTE]
-> 新工作區體驗會變更 Power BI 工作區與 Office 365 群組之間的關聯性。 每次建立其中一個新的工作區時，您都不會自動建立 Office 365 群組。 了解如何[建立新的工作區](service-create-the-new-workspaces.md)。
+> 新工作區體驗會變更 Power BI 工作區與 Office 365 群組之間的關聯性。 每次建立其中一個新的工作區時，都不會自動建立 Office 365 群組。 了解如何[建立新的工作區](service-create-the-new-workspaces.md)。
 
 在 **Power BI** 中，您可以：
 

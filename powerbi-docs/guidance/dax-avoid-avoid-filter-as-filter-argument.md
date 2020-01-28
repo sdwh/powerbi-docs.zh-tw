@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 935b453dabeaa731a218175526ddddeb980a2b92
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75692451"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161424"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX：避免使用 FILTER 作為篩選引數
 
@@ -36,13 +36,13 @@ CALCULATE(
 
 CALCULATE 函式會接受 [FILTER](/dax/filter-function-dax) DAX 函式所傳回的資料表運算式，這會針對 **Product** 資料表的每個資料列評估其篩選運算式。 其會達到正確的結果，也就是紅色產品的銷售結果。 不過，使用布林運算式可以更有效率地達成此目的。
 
-以下是已改良的量值定義，其使用布林運算式，而不是資料表運算式。
+以下是已改良的量值定義，其使用布林運算式，而不是資料表運算式。 [KEEPFILTERS](/dax/keepfilters-function-dax) DAX 函式可確保套用至 **Color** 資料行的任何現有篩選都會保留，不會遭到覆寫。
 
 ```dax
 Red Sales =
 CALCULATE(
     [Sales],
-    'Product'[Color] = "Red"
+    KEEPFILTERS('Product'[Color] = "Red")
 )
 ```
 

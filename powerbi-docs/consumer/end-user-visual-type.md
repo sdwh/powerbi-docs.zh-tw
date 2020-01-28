@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 01/15/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861312"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039143"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的視覺效果類型
 您會在報表、儀表板及問與答中看見視覺效果。 其中一些視覺效果類型是隨 Power BI 一同封裝，而某些則是「自訂視覺效果」  。 自訂視覺效果是在 Power BI 外部建立，且其建立方式允許報表「設計師」  將它們新增至 Power BI 報表和儀表板。 
@@ -59,7 +59,7 @@ ms.locfileid: "73861312"
 - 當您的折線圖和直條圖具有相同的 X 軸。
 - 當您要比較具有不同值範圍的多個量值
 - 當您要在一個視覺效果中說明兩個量值間的相互關聯
-- 當您要檢查量值是否符合另一個量值所定義的目標。
+- 當您要檢查量值是否符合另一個量值所定義的目標
 - 當您要節省畫布的空間
 
 ### <a name="doughnut-charts"></a>環圈圖
@@ -139,6 +139,19 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 ![圓形圖](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
 圓形圖會顯示部分與整體的關聯性。 
+
+### <a name="power-apps-visual"></a>Power Apps 視覺效果
+![Power Apps 視覺效果](media/end-user-visual-type/power-bi-powerapps-visual.png)
+
+報表設計師可以建立 Power App，並將其內嵌到 Power BI 報表中。 取用者可以在 Power BI 報表內與該視覺效果互動。 
+
+### <a name="qa-visual"></a>問與答視覺效果
+![問與答視覺效果](media/end-user-visual-type/power-bi-q-and-a.png)
+
+>[!TIP]
+>問與答視覺效果類似於[儀表板上的問與答體驗](../power-bi-tutorial-q-and-a.md)，可讓您使用自然語言來詢問資料的相關問題。 
+
+如需詳細資訊，請參閱 [Power BI 中的問與答視覺效果](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
 
 ### <a name="ribbon-chart"></a>功能區圖表
 ![功能區圖表](media/end-user-visual-type/power-bi-ribbon.png)

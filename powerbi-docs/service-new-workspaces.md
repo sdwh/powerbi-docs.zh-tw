@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622428"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925656"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 中組織新工作區中的工作
 
@@ -124,6 +124,10 @@ Power BI 會稽核新工作區體驗工作區的下列活動。
 | 已更新 Power BI 資料夾存取權| UpdateFolderAccess |
 
 深入閱讀 [Power BI 稽核](service-admin-auditing.md)。
+
+## <a name="guest-users"></a>來賓使用者
+
+根據預設，[Azure AD B2B 來賓使用者](service-admin-azure-ad-b2b.md)無法存取工作區。 Power BI 系統管理員可以[允許外部來賓使用者編輯及管理組織中的內容](service-admin-azure-ad-b2b.md#guest-users-who-can-edit-and-manage-content)。 已啟用的來賓使用者可以存取他們具有權限的工作區。
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 

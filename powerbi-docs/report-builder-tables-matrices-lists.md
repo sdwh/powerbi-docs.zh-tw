@@ -1,6 +1,6 @@
 ---
 title: Power BI 報表產生器中的表格、矩陣和清單
-description: 在 Power BI 分頁報表產生器中，表格、矩陣和清單都是資料區域，在排成列和行的儲存格中用來顯示分頁的報表資料。
+description: 在 Power BI Report Builder 中，表格、矩陣和清單都是「資料區域」，在排成列和行的儲存格中用來顯示編頁報表資料。
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: f48187edc3d955b3b87f902a3056e86a933817e1
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 02ac131325dab59590cb88c524ace68a1226fc69
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840203"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953837"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>Power BI 報表產生器中的表格、矩陣和清單
  在報表產生器中，表格、矩陣和清單都是「資料區域」  ，在排成列和行的儲存格中用來顯示分頁的報表資料。 這些儲存格通常會包含文字資料，例如文字、日期和數字，但也可以包含量測計、圖表或報表項目，例如影像。 整體而言，表格、矩陣和清單經常稱為 *tablix* 資料區域。  

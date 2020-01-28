@@ -1,7 +1,7 @@
 ---
 title: Power BI 設計工具的儀表板簡介
 description: 儀表板是 Power BI 服務的重要功能。 它們是透過視覺效果來說故事的單一頁面，通常稱為畫布。
-author: maggieMSFT
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 41381a2f0ccc2c5db904d9ac94c7dad19edfa4e5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872753"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160780"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 設計工具的儀表板簡介
 
@@ -53,12 +53,12 @@ Power BI 「儀表板」  是透過視覺效果來說故事的單一頁面，通
 | 資料來源 |每個儀表板一或多份報表以及一或多個資料集 |每份報表單一資料集 |
 | Power BI Desktop 可用 |否 | 是。 可在 Power BI Desktop 中建置及檢視報表 |
 | 訂閱 |是。 可訂閱儀表板 |是。 可訂閱報表頁面 |
-| 篩選 |否。 無法篩選或配量 |是。 有多種不同方法可篩選、反白顯示及配量 |
+| 篩選 |不會。 無法篩選或配量 |是。 有多種不同方法可篩選、反白顯示及配量 |
 | 精選 |是。 可將一個儀表板設為您的「精選」  儀表板 |否 |
 | 我的最愛 | 是。 可將多個儀表板設為「我的最愛」  | 是。 可將多個報表設為「我的最愛」 
 | 設定警示 |是。 在特定情況下可用於儀表板磚 |否 |
 | 自然語言查詢 (問與答) |是 | 是，若您具有報表和基礎資料集的編輯權限 |
-| 可以看到基礎資料集的資料表和欄位 |否。 可以匯出資料，但看不到儀表板本身的資料表和欄位 |是 |
+| 可以看到基礎資料集的資料表和欄位 |不會。 可以匯出資料，但看不到儀表板本身的資料表和欄位 |是 |
 
 
 ## <a name="next-steps"></a>後續步驟

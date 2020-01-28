@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311496"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953778"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>在內嵌的編頁報表中實作資料列層級安全性 (預覽)
 
-內嵌編頁報表時，您可以控制要顯示的資料。 這可讓您量身打造為每位使用者所顯示的資訊。 例如，如果您有一個包含全球銷售結果的 Power BI 編頁報表 ，您可以內嵌報表，而且只提供來自特定地區的銷售結果。
+內嵌編頁報表時，您可以控制要顯示的資料。 這可讓您量身打造為每位使用者所顯示的資訊。 例如，如果您有一個包含全球銷售結果的 Power BI 編頁報表，您可以內嵌報表，而且只提供來自特定地區的銷售結果。
 
 這項功能是一個安全的做法，只顯示資料的子集，不會危害其餘的資料。 它類似[資料列層級安全性 (RLS)](embedded-row-level-security.md) 功能，RLS 提供了一種在 Power BI 報表 (未編頁)、儀表板、圖格、資料集內顯示資料的安全方式。  
 
@@ -32,7 +32,7 @@ ms.locfileid: "74311496"
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>在報表或查詢層級使用 UserID 作為篩選
 
-您可以使用 **UserId** 做為「篩選」  ，或是用在對 [Power BI 分頁報表產生器](../report-builder-power-bi.md)中資料來源的「查詢」  中。
+您可以使用 **UserId** 作為「篩選」  ，或是用在對 [Power BI Report Builder](../report-builder-power-bi.md) 中資料來源的「查詢」  中。
 
 ### <a name="using-the-filter"></a>使用篩選條件
 

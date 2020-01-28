@@ -1,72 +1,104 @@
 ---
-title: 將超連結 (URL) 新增至資料表
-description: 本主題會指導您如何將超連結 (URL) 新增至資料表。 您會使用 Power BI Desktop 來將超連結 (URL) 新增至資料表或矩陣。 然後，在 Power BI Desktop 或 Power BI 服務中，您可以將那些超連結新增至您的報表資料表和矩陣。
+title: 將超連結 (URL) 新增至資料表或矩陣
+description: 本主題會指導如何將超連結 (URL) 新增至資料表。 您會使用 Power BI Desktop 來將超連結 (URL) 新增至資料集。 然後，在 Power BI Desktop 或 Power BI 服務中，您可以將那些超連結新增至您的報表資料表和矩陣。
 author: maggiesMSFT
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/29/2019
+ms.date: 01/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e8cad7035e752e5e344d78a22ad5fd8ea0a072ad
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: ddb54ca91936626b4870b51b86b7fc7f0ac6b2c9
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73874508"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75954186"
 ---
-# <a name="add-hyperlinks-urls-to-a-table"></a>將超連結 (URL) 新增至資料表
-本主題會指導您如何將超連結 (URL) 新增至資料表。 您會使用 Power BI Desktop 來將超連結 (URL) 新增至資料表或矩陣。 然後，在 Power BI Desktop 或 Power BI 服務中，您可以將那些超連結新增至您的報表資料表和矩陣。 
+# <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>將超連結 (URL) 新增至資料表或矩陣
+本主題會指導如何將超連結 (URL) 新增至資料表。 您會使用 Power BI Desktop 來將超連結 (URL) 新增至資料集。 然後，在 Power BI Desktop 或 Power BI 服務中，您可以將那些超連結新增至您的報表資料表和矩陣。 接著，您可以顯示 URL 或連結圖示，或將另一個資料行格式化為連結文字。
 
-![包含超連結的資料表](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
+![包含超連結的資料表](media/power-bi-hyperlinks-in-tables/power-bi-url-link-text.png)
 
-> [!NOTE]
-> 您可以在 Power BI 服務中，於[儀表板上的磚](service-dashboard-edit-tile.md)和[儀表板上的文字方塊](service-dashboard-add-widget.md)中快速建立超連結。 您可以在 Power BI 服務和 Power BI Desktop 中，於[報表中的文字方塊](service-add-hyperlink-to-text-box.md)中快速建立超連結。
-> 
+您也可以在 Power BI 服務和 Power BI Desktop 中，於[報表中的文字方塊](service-add-hyperlink-to-text-box.md)中建立超連結。 在 Power BI 服務中，您可以將超連結新增至[儀表板上的磚](service-dashboard-edit-tile.md)以及[儀表板上的文字方塊](service-dashboard-add-widget.md)。 
 
-## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>若要使用 Power BI Desktop 在資料表或矩陣中建立超連結
-您可以在 Power BI Desktop 中建立資料表與矩陣內的超連結，而不是在 Power BI 服務中建立。 您也可以在 Excel Power Pivot 中建立超連結，再將活頁簿匯入 Power BI。 以下說明這兩種方法。
 
-## <a name="create-a-table-or-matrix-hyperlink-in-power-bi-desktop"></a>在 Power BI Desktop 中建立資料表或矩陣超連結
-新增超連結的程序取決於您是否已匯入資料，還是已使用 DirectQuery 連接資料。 以下說明這兩種案例。
+## <a name="format-a-url-as-a-hyperlink-in-power-bi-desktop"></a>將 URL 格式化為 Power BI Desktop 中的超連結
 
-### <a name="for-data-imported-into-power-bi"></a>資料匯入 Power BI
-1. 如果超連結在資料集中未以欄位形式存在，請使用 Power BI Desktop 將它新增為[自訂資料行](desktop-common-query-tasks.md)。
-2. 在 [資料] 檢視中，選取資料行，且在 [模型]  索引標籤中選擇 [資料類別]  的下拉式清單。
-   
-    ![資料類別下拉式清單](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
-3. 選取 [Web URL]  。
-4. 切換至 [報表] 檢視，並使用分類為 Web URL 的欄位建立資料表或矩陣。 超連結為藍色加底線。
+在 Power BI Desktop 中，您可以使用 URL 將欄位格式化為超連結，但是不能在 Power BI 服務中設定。 您也可以[在 Excel Power Pivot 中格式化超連結](#create-a-table-or-matrix-hyperlink-in-excel-power-pivot)，再將活頁簿匯入 Power BI。
 
-    ![藍色且加上底線的連結](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+1. 在 Power BI Desktop 中，如果含有超連結的欄位尚未存在於您的資料集內，請將其新增為[自訂資料行](desktop-common-query-tasks.md)。
 
     > [!NOTE]
-    > URL 的開頭必須是特定的前置詞。 如需完整清單，請參閱[考量與疑難排解](#considerations-and-troubleshooting)。
-    >
-   
-1. 如果您不想在表格中顯示完整的 URL，可以改為顯示超連結圖示  ![超連結圖示](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) 。 請注意，您無法在矩陣中顯示圖示。
-   
-    選取要使用的圖表。
+    > 您無法在 DirectQuery 模式中建立資料行。  但若資料已經包含 URL，您可以將它們轉換成超連結。
 
-    選取格式圖示 ![油漆滾筒圖示](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) 以開啟 [格式化] 索引標籤。
+2. 在 [資料] 檢視中，選取資料行。 
 
-    展開 [值]  ，找到 **URL 圖示**並將其**開啟**。
+3. 在 [模型]  索引標籤上，選取 [資料類別]   >  [Web URL]  。
+   
+    ![資料類別下拉式清單](media/power-bi-hyperlinks-in-tables/power-bi-format-web-url.png)
+
+    > [!NOTE]
+    > URL 的開頭必須是特定的前置詞。 如需完整清單，請參閱本文中的[考量與疑難排解](#considerations-and-troubleshooting)。
+
+## <a name="create-a-table-or-matrix-with-a-hyperlink"></a>建立具有超連結的資料表或矩陣
+
+1. 當您[將超連結格式化為 URL](#format-a-url-as-a-hyperlink-in-power-bi-desktop)之後，請切換至 [報表] 檢視。
+2. 使用您分類為 Web URL 的欄位，建立資料表或矩陣。 超連結為藍色加底線。
+
+    ![藍色且加上底線的連結](media/power-bi-hyperlinks-in-tables/power-bi-url-blue-underline.png)
+
+
+## <a name="display-a-hyperlink-icon-instead-of-a-url"></a>顯示超連結圖示，而不是 URL
+
+如果您不想在表格中顯示完整的 URL，可以改為顯示超連結圖示 ![超連結圖示](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) 。 
+
+> [!NOTE]
+> 您無法在矩陣中顯示圖示。
+   
+1. 首先，[建立含有超連結的資料表](#create-a-table-or-matrix-with-a-hyperlink)。
+
+2. 選取要使用的資料表。
+
+    選取 [格式]  圖示![油漆滾筒圖示](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png)以開啟 [格式化] 索引標籤。
+
+    展開 [值]  ，找到 **URL 圖示**並將其設定為 [開啟]  。
 
     ![開啟 URL 圖示](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
-1. (選擇性) [將報表從 Power BI Desktop 發佈到 Power BI 服務](/learn/modules/publish-share-power-bi/2-publish-reports)，然後在 Power BI 服務中開啟該報表。 超連結在該處也可以運作。
+1. (選擇性) 從 Power BI Desktop [發佈報表](desktop-upload-desktop-files.md)至 Power BI 服務。 當您在 Power BI 服務中開啟報表時，超連結也會在該處運作。
 
-### <a name="for-data-connected-with-directquery"></a>使用 DirectQuery 連接資料
-您無法在 DirectQuery 模式中建立新的資料行。  但若資料已經包含 URL，您可以將它們轉換成超連結。
+## <a name="format-link-text-as-a-hyperlink"></a>將連結文字格式化為超連結
 
-1. 在 [報表] 檢視中，使用包含 URL 的欄位建立資料表。
-2. 選取該資料行，且在 [模型]  索引標籤中選擇 [資料類別]  的下拉式清單。
-3. 選取 [Web URL]  。 超連結為藍色加底線。
-4. (選擇性) [將報表從 Power BI Desktop 發佈到 Power BI 服務](/learn/modules/publish-share-power-bi/2-publish-reports)，然後在 Power BI 服務中開啟該報表。 超連結在該處也可以運作。
+您也可以將資料表中的另一個欄位格式化為超連結，完全不具有該 URL 的資料行。 在此情況下，您不會將資料行格式化為 Web URL。
+
+> [!NOTE]
+> 您無法將另一個欄位格式化為矩陣中的超連結。
+
+1. 如果具有超連結的欄位已存在於資料集中，請使用 Power BI Desktop 將其新增為[自訂資料行](desktop-common-query-tasks.md)。 同樣地，您無法在 DirectQuery 模式中建立資料行。  但若資料已經包含 URL，您可以將它們轉換成超連結。
+
+2. 在 [報表] 檢視中，使用您要格式化為連結文字的資料行來建立資料表或矩陣。
+
+3. 選取資料表之後，選取 [格式]  圖示![油漆滾筒圖示](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png)以開啟 [格式化] 索引標籤。
+
+4. 展開 [條件式格式設定]  ，確定方塊中的名稱是您想要作為連結文字的資料行。 找到 **URL 圖示**，並將其設定為 [開啟]  。
+
+    ![條件式格式設定 Web URL](media/power-bi-hyperlinks-in-tables/power-bi-format-conditional-web-url.png)
+
+5. 在 [Web URL]  對話方塊中，選取在 [根據欄位]  方塊中包含 URL 的欄位 > [確定]  。
+
+    ![Web URL 對話方塊](media/power-bi-hyperlinks-in-tables/power-bi-format-web-url-dialog.png)
+
+    此時，該資料行中的文字會格式化為連結。
+
+    ![格式化為超連結的文字](media/power-bi-hyperlinks-in-tables/power-bi-url-link-text.png)
+
+1. (選擇性) 從 Power BI Desktop [發佈報表](desktop-upload-desktop-files.md)至 Power BI 服務。 當您在 Power BI 服務中開啟報表時，超連結也會在該處運作。
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-excel-power-pivot"></a>在 Excel Power Pivot 中建立資料表或矩陣超連結
+
 將超連結新增至 Power BI 資料表和矩陣的另一種方式，是先在資料集內建立超連結，然後才從 Power BI 匯入/連線至該資料集。 這個範例會使用 Excel 活頁簿。
 
 1. 請在 Excel 中開啟活頁簿。

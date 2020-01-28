@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ba911361ad2837a10f28358cbd1510effc1dd7eb
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837658"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76038559"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>重新整理 OneDrive 或 SharePoint Online 上儲存的資料集
 將檔案從 OneDrive 或 SharePoint Online 匯入至 Power BI 服務，是確定您在 Power BI Desktop中的工作與 Power BI 服務保持同步的好方法。
@@ -37,7 +37,7 @@ ms.locfileid: "75837658"
 Power BI 支援從 Power BI Desktop 檔案建立的資料集進行 [重新整理]  和 [排程重新整理]  ，這些檔案是從本機磁碟匯入，而您會在本機磁碟使用 [取得資料]  或 [查詢編輯器]  ，來連接至下列任何資料來源並載入其中資料。
 
 > [!NOTE]
-> 支援 OneDrive 上的匯入檔案，但不支援 OneDrive 中的即時連線資料集作為 OneDrive 重新整理案例。
+> 支援即時連線資料集的 Onedrive 重新整理。 不過，OneDrive 重新整理案例並不支援在已發行的報表中，將即時連線資料集從某個資料集變更為另一個。
 
 ### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 * Power BI Desktop 的 [取得資料]  和 [查詢編輯器]  都會顯示所有線上資料來源。
@@ -81,5 +81,5 @@ Power BI 支援從 Power BI Desktop 檔案建立的資料集進行 [重新整理
 
 [對 Power BI Gateway - Personal 進行疑難排解](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-有其他問題嗎？ [嘗試在 Power BI 社群詢問](https://community.powerbi.com/)。
+有其他問題嗎？ 請嘗試詢問 [Power BI 社群](https://community.powerbi.com/)。
 
