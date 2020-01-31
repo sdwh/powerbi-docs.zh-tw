@@ -82,7 +82,7 @@
               href: end-user-drill.md
             - name: 與 ArcGIS 地圖互動
               href: ../power-bi-visualizations-arcgis.md
-        - name: 一般工作
+        - name: 常見工作
           items:
             - name: 將資料匯出至 Excel
               href: end-user-export.md
@@ -176,13 +176,13 @@
               href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
             - name: 行動應用程式中的我的最愛
               href: mobile/mobile-apps-favorites.md
-            - name: 設定在行動裝置應用程式中的報告互動 (僅限手機)
-              href: mobile/mobile-app-single-tap.md
+            - name: 進行互動設定 (僅限電話)
+              href: mobile/mobile-app-interaction-settings.md
             - name: 在 Power BI 行動裝置應用程式中設定資料警示
               href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
             - name: 取得 Power BI 行動裝置應用程式中的通知
               href: mobile/mobile-apps-notification-center.md
-            - name: 建立可前往特定位置的深層連結
+            - name: 建立前往特定位置的深層連結
               href: mobile/mobile-apps-deep-link-specific-location.md
             - name: 在 Power BI 行動裝置應用程式依位置篩選報表
               href: mobile/mobile-apps-geographic-filtering.md

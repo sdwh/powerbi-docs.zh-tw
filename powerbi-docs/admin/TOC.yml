@@ -52,6 +52,8 @@
               href: service-security-enable-data-sensitivity-labels.md
             - name: 搭配 Power BI 使用 Microsoft Cloud App Security
               href: service-security-using-microsoft-cloud-app-security-controls.md
+            - name: 資料保護計量報表
+              href: service-security-data-protection-metrics-report.md
         - name: 資料列層級安全性
           href: ../service-admin-rls.md
         - name: 使用 Intune 設定行動應用程式
