@@ -1,179 +1,168 @@
 ---
 title: 在 Power BI Desktop 中從範例新增資料行
-description: 使用現有資料行，快速在 Power BI Desktop 中建立新資料行作為範例
+description: 使用現有資料行作為範例，快速在 Power BI Desktop 中建立新資料行。
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d07cfda18f44a0872c8c9567aa29ac49a98622a7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b10bbaa4158e6c5392cb6ed937c54bdbb5d555d2
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869450"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538459"
 ---
-# <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>在 Power BI Desktop 中從範例新增資料行
-自 **Power BI Desktop** 的 2017 年 4 月版本起，您只要為新資料行提供一或個範例值，就可以使用**查詢編輯器**將資料的新資料行新增到模型。 您可以從目前選取範圍建立新的資料行範例，也可以依據指定資料表中的所有 (或所選) 資料行提供輸入。
+# <a name="add-a-column-from-examples-in-power-bi-desktop"></a>在 Power BI Desktop 中從範例新增資料行
+透過在 Power Query 編輯器中「從範例新增資料行」  ，您只要為新的資料行提供一或多個範例值，就可以將資料行新增至資料模型。 您可以從選取範圍建立新的資料行範例，或根據資料表中所有現有的資料行來提供輸入。
 
 ![](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
-這個方法可協助您快速且輕鬆地建立新資料行，也很適合用於下列情況：
+使用「從範例新增資料行」  可讓您快速且輕鬆地建立新資料行，且非常適合用於下列情況：
 
-* 您知道想要的新資料行資料結果，但不確定哪種轉換 (或轉換的集合) 能得出該結果。
-* 您已經知道需要哪種轉換，但不確定在 UI 中點擊或選取哪裡可以進行轉換。
-* 您完全了解在 **M** 中使用 *Custom Column* 運算式所需要的轉換，但其中一個 (或多個) 運算式在 UI 中無法點選或新增。
+- 您知道想要的新資料行資料，但不確定哪種轉換或轉換的集合能得出該資料。
+- 您已經知道需要哪種轉換，但不確定在 UI 中選取哪個項目可以進行轉換。
+- 您完全了解在 *M* 語言中使用「自訂資料行」  運算式所需要的轉換，但在 UI 中無法使用其中一或多個運算式。
 
-[從範例新增資料行]  功能易用也易懂。 從接下來幾節，您會知道有多麼簡單。
+從範例新增資料行既容易又簡單。 接下來幾節將示範其簡易程度。
 
-## <a name="use-query-editor-to-add-a-new-column-from-examples"></a>使用查詢編輯器從範例新增新資料行
-若要從範例建立新資料行，請啟動 [查詢編輯器]  。 您也可以從 **Power BI Desktop** 的 [常用]  功能區選取 [編輯查詢]  以完成這個動作。
+## <a name="add-a-new-column-from-examples"></a>從範例新增資料行
 
-![](media/desktop-add-column-from-example/add-column-from-example_02.png)
+若要從維基百科取得範例資料，請從 Power BI Desktop 功能區的 [常用]  索引標籤中選取 [取得資料]   > [Web]  。 
 
-若要從網頁取得資料，請移至 [首頁]  索引標籤，按一下 [取得資料] > [Web]  ，然後將 URL 貼入出現的對話方塊。 本文使用 Wikipedia 文章中的資料。 您可以按一下下列連結為您自己取得資料，並遵循指示：
+![從 Web 取得資料](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-* [**美國州份和領地列表**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
+在出現的對話方塊中貼上下列 URL，然後選取 [確定]  ： 
 
-在**查詢編輯器**已啟動，而您也載入一些資料後，即可開始從範例新增資料行。 若要新增新資料行，請在 [查詢編輯器]  的功能區選取 [新增資料行]  索引標籤，再選取 [來自範例的資料行]  。 如果您選擇下拉式清單，可以選取 [來自所有資料行]\  (如果您直接選取按鈕而非下拉式清單，這會是預設選項) 或選取 [來自選取項目]  。 在本文中，我們會逐步執行選取 [來自所有資料行]  的步驟。
+*https:\//wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States*
 
-![](media/desktop-add-column-from-example/add-column-from-example_03.png)
+在 [導覽器]  對話方塊中，選取 [States of the United States of America] \(美國州別和領地列表\)  資料表，然後選取 [轉換資料]  。 該資料表會隨即在 Power Query 編輯器中開啟。
 
-## <a name="the-add-column-from-examples-pane"></a>[從範例新增資料行] 窗格
-在您進行選取，以從範例新增新資料行後，新的窗格隨即出現，顯示目前資料表中的資料行 (您可能必須捲動才能看到全部)。 新的 **Column1** 也會顯示在右側，這是 **Power BI Desktop** 依據您的範例所建立的資料行。 在新的 **Column1** 標頭下為空白儲存格，您可以在其中鍵入範例，讓 Power BI 用以建立規則及轉換，以符合您的範例。
+或者，若要從 Power BI Desktop 開啟已載入的資料，請從功能區的 [常用]  索引標籤中，選取 [編輯查詢]  。 該資料會隨即在 Power Query 編輯器中開啟。 
 
-請注意，這是 [查詢設定]  窗格中的 [Applied Step] \(套用的步驟\)  。 一如往常，**查詢編輯器**會記錄您的轉換步驟，並依序將其套用到查詢。
+![從 Power BI Desktop 選取 [編輯查詢]](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-![](media/desktop-add-column-from-example/add-column-from-example_04.png)
+在 Power Query 編輯器中開啟範例資料之後，請選取功能區上的 [新增資料行]  索引標籤，然後選取 [來自範例的資料行]  。 選取**來自範例的資料行**圖示本身，從所有現有的資料行建立資料行，或是選取下拉式箭號，在 [來自所有資料行]  或 [來自選取項目]  之間進行選擇。 在此逐步解說中，請使用 [來自所有資料行]  。
 
-這稱作 [從範例新增資料行]  窗格，其中包含四個主要區域：
+![選取 [從範例新增資料行]](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
-1. 包含功能或轉換之簡短描述的**命令列**。
-2. [傳送意見反應]  選項可協助 Power BI 改進這項功能。
-3. [確定]  和 [取消]  按鈕，可讓您認可轉換及新增資料行，或取消作業。
-4. 新資料行區域，您可以在這裡鍵入任何資料列中的範例值 (向 Power BI 提供您的範例)，與該資料列中的其他資料行相關。
+## <a name="add-column-from-examples-pane"></a>[從範例新增資料行] 窗格
+當您選取 [新增資料行]   > [從範例]  時，隨即會在資料表頂端開啟 [從範例新增資料行]  窗格。 新的 [資料行 1]  會出現在現有資料行右側 (您可能需要捲動才能看到所有資料行)。 當您在 [資料行 1]  的空白儲存格中輸入範例值時，Power BI 會建立規則和轉換以符合您的範例，並使用這些項目來填滿資料行的其餘部分。
 
-![](media/desktop-add-column-from-example/add-column-from-example_05.png)
+請注意，[來自範例的資料行]  也會顯示為 [查詢設定]  窗格中 [套用的步驟]  。 一如往常，Power Query 編輯器會記錄轉換步驟，並依序將其套用至查詢。
 
-當您在新資料行中鍵入範例時，Power BI 會依據偵測到的轉換，供您預覽其建立的資料行外觀。 例如，如果您在第一個資料列中鍵入 *Alabama*，它會對應到資料表第一個資料行中的 *Alabama* 值。 當您按下 *Enter* 時，Power BI 就會立即依據該值填入資料行。
+![[從範例新增資料行] 窗格](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
-但是，假設您移至包含 *Massachusetts[E]* 的資料列並刪除它最後的 *[E]* (因為您不再需要它)。 Power BI 會偵測到變更，並使用此範例建立轉換。 請注意中間上方窗格中的轉換說明。
+當您在新資料行中鍵入範例時，Power BI 會根據其所建立轉換來顯示資料行其餘部分外觀的預覽。 例如，如果您在第一個資料列中鍵入 **Alabama**，它會對應到資料表第一個資料行中的 *Alabama* 值。 當您按下 Enter 時，Power BI 即會根據第一個資料行的值填入新資料行其餘部分，並將資料行命名為 **Name & postal abbreviation[12] - Copy** (名稱與郵遞區號縮寫[12] - 複本)。
 
-![](media/desktop-add-column-from-example/add-column-from-example_06.png)
+現在，請移至新資料行的 **Massachusetts[E]** (麻塞諸塞州[E])資料列，並刪除該字串的 **[E]** 部分。 Power BI 會偵測到變更，並使用此範例建立轉換。 Power BI 會在 [從範例新增資料行]  窗格中描述轉換，並將資料行重新命名為 **Text Before Delimiter** (分隔符號前的文字)。 
 
-**查詢編輯器**會在您持續提供範例的同時，新增到轉換。 當您完成時，可以選取 [確定]  認可變更。
+![來自範例的已轉換資料行](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
-## <a name="see-add-column-from-examples-in-action"></a>查看 [從範例新增資料行] 實際運作情形
-想要看這項功能實際運作嗎？ 下方影片使用本範例稍早提供的資料來源，示範這項功能的實際運用情形。 請觀看，並自己跟著操作！
+Power Query 編輯器會在您持續提供範例的同時，新增到轉換。 當您完成時，請選取 [確定]  認可變更。 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-ykbVW9wQfw" frameborder="0" allowfullscreen></iframe>
+您可以按兩下資料行標題，或以滑鼠右鍵按一下新資料行，然後選取 [重新命名]  ，將新資料行重新命名為想要的任何名稱。 
 
-## <a name="considerations-and-limitations"></a>考量與限制
-使用 [從範例新增資料行]  時有多種轉換可用，但並非所有轉換都包含在內。 以下清單提供所有受支援的轉換。
+請觀看這段影片，以了解使用範例資料來源，**從範例新增資料行**的實際運作： 
 
-* **參考**
+[Power BI Desktop:Add Column From Examples](https://www.youtube.com/watch?v=-ykbVW9wQfw) (Power BI Desktop：從範例新增資料行)。 
+
+## <a name="list-of-supported-transformations"></a>支援的轉換清單
+使用 [從範例新增資料行]  時，可以使用許多但不是全部的轉換。 下列清單顯示支援的轉換：
+
+**一般**
+
+- 條件資料行
+
+**參考**
   
-  * 特定資料行的參考 (包括修剪、清除及大小寫轉換)
+- 特定資料行的參考，包括修剪、清除及大小寫轉換
 
-* **文字轉換**
-  
-  * 合併 (支援結合常值字串與整個資料行值)
-  * 取代
-  * 長度
-  * 擷取   
-    * 前幾個字元
-    * 後幾個字元
-    * 範圍
-    * 分隔符號前的文字
-    * 分隔符號後的文字
-    * 分隔符號之間的文字
-    * 長度
+**文字轉換**
 
-* 從 **Power BI Desktop** 的 2017 年 11 月版本開始支援下列**文字轉換**：
-    
-  * 移除字元
-  * 保留字元
+- 合併 (支援結合常值字串與整個資料行值)
+- 取代
+- 長度
+- 擷取   
+  - 前幾個字元
+  - 後幾個字元
+  - 範圍
+  - 分隔符號前的文字
+  - 分隔符號後的文字
+  - 分隔符號之間的文字
+  - 長度
+  - 移除字元
+  - 保留字元
 
 > [!NOTE]
 > 所有「文字」  轉換皆考量到欄位值可能需要的修剪、清除或套用大小寫轉換。
-> 
-> 
 
-* **日期轉換**
-  
-  * 日
-  * 週中的日
-  * 星期幾名稱
-  * 年中的日
-  * 月
-  * 月份名稱
-  * 年中的季度
-  * 月中的週
-  * 年中的週
-  * 年度
-  * 年齡
-  * 年初
-  * 年底
-  * 月初
-  * 月底
-  * 季初
-  * 月中日數
-  * 季末
-  * 一週開始
-  * 一週結束
-  * 月中的日
-  * 一日開始
-  * 一日結束
+**日期轉換**
 
+- 日
+- 週中的日
+- 星期幾名稱
+- 年中的日
+- Month
+- 月份名稱
+- 年中的季度
+- 月中的週
+- 年中的週
+- 年
+- 年齡
+- 年初
+- 年底
+- 月初
+- 月底
+- 季初
+- 月中日數
+- 季末
+- 一週開始
+- 一週結束
+- 月中的日
+- 一日開始
+- 一日結束
 
-* **時間轉換**
-  
-  * 小時
-  * 分鐘
-  * 秒  
-  * 當地時間
+**時間轉換**
+
+- Hour
+- 分鐘
+- Second  
+- 當地時間
 
 > [!NOTE]
 > ：請留意，所有「日期」  和「時間」  轉換都可能必須將資料行值轉換為「日期」  或「時間」  ，或「日期時間」  。
-> 
-> 
 
-* **數字轉換** 
+**數字轉換** 
 
-  * 絕對值
-  * 反餘弦值
-  * 反正弦值
-  * 反正切值
-  * 轉換成數字
-  * 餘弦值
-  * Cube
-  * 除
-  * 指數
-  * 階乘
-  * 整除
-  * 是偶數
-  * 是奇數
-  * 自然對數
-  * 以 10 為底數的對數
-  * 模數
-  * 乘
-  * 向下四捨五入
-  * 向上四捨五入
-  * 符號
-  * 正弦值
-  * 平方根
-  * 平方
-  * 減
-  * 加總
-  * 正切值
+- 絕對值
+- 反餘弦值
+- 反正弦值
+- 反正切值
+- 轉換成數字
+- 餘弦值
+- Cube
+- 除
+- 指數
+- 階乘
+- 整除
+- 是偶數
+- 是奇數
+- 自然對數
+- 以 10 為底數的對數
+- 模數
+- 乘
+- 向下四捨五入
+- 向上四捨五入
+- 符號
+- 正弦值
+- 平方根
+- 平方
+- 減
+- 加總
+- 正切值
+- 建立貯體/範圍
 
-* 從 **Power BI Desktop** 2017 年 11 月版本開始支援下列**數字轉換**：
-
-  * 建立貯體/範圍
-
-* **一般**
-  
-  * 條件資料行
