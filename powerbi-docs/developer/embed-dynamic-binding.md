@@ -7,30 +7,28 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: f797dd55202ff4cba87cc3a15601d85091e94823
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1f54ce3a6bfd69caa3f386b7684e3df7f725523d
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74164053"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709534"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>使用動態繫結連接報表與資料集 
 
-當報表連接到資料集時，您可以使用動態繫結。 報表與資料集之間的連接稱為*繫結*。 當繫結在內嵌時決定，而非預先決定時，該繫結便稱為[動態繫結](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0) (英文)。
- 
+當報表連接到資料集時，您可以使用動態繫結。 報表與資料集之間的連接稱為*繫結*。 當繫結在內嵌時決定 (而非預先決定) 時，該繫結即稱為動態繫結。
+
 當您使用*動態繫結*內嵌 Power BI 報表時，可以透過使用者的認證，將同一份報表連接到不同的資料集。
- 
+
 這表示您可以使用一份報表顯示不同的資訊，視其所連接的資料集而定。 例如顯示零售銷售值的報表，當連接到不同的零售商資料集時，就能產生不同的結果，取決於其所連接的零售商資料集。
- 
+
 報表和資料集不需要位於相同的工作區。 這兩個工作區 (一個包含報表，一個包含資料集) 必須指派給[容量](azure-pbie-create-capacity.md)。
 
 請在內嵌時，確定您*具備足夠的權限產生權杖*，而且能*調整設定物件*。
 
-
 ## <a name="generating-a-token-with-sufficient-permissions"></a>具備足夠的權限產生權杖
 
 *為組織內嵌*及*為客戶內嵌*兩種情境，皆支援動態繫結。 下表描述各情境的注意事項。
-
 
 |案例  |資料擁有權  |權杖  |需求  |
 |---------|---------|---------|---------|

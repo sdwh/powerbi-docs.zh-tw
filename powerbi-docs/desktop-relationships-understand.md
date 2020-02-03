@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 56ff7d09530030d1a1ae046a3439022cbf638b9d
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 124f373e7841cb899f0a26debb2bcc8302e8e970
+ms.sourcegitcommit: 7efbe508787029e960d6d535ac959a922c0846ca
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760564"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "76309117"
 ---
 # <a name="create-model-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中建立模型關聯性
 
@@ -227,4 +227,6 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 - [了解星型結構描述及其對 Power BI 的重要性](guidance/star-schema.md)
 - [多對多關聯性指引](guidance/relationships-many-to-many.md)
+- 影片：[The Do's and Don'ts of Power BI Relationships](https://youtu.be/78d6mwR8GtA) (Power BI 關聯性的建議事項和避免事項)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)

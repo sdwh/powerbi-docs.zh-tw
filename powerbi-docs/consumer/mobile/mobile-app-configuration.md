@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/07/2019
+ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: ccc7e3864590145309709d27774951c281b3ebdd
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622360"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538259"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>使用行動裝置管理 (MDM) 工具從遠端設定 Power BI 應用程式
 
@@ -21,8 +21,9 @@ ms.locfileid: "75622360"
 
 Power BI 行動裝置應用程式支援下列設定情節：
 
-- 報表伺服器設定 (iOS 和 Android)
-- 資料保護設定 (iOS)
+* 報表伺服器設定 (iOS 和 Android)
+* 資料保護設定 (iOS 和 Android)
+* 互動設定 (Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>報表伺服器設定 (iOS 和 Android)
 
@@ -37,11 +38,21 @@ Power BI 行動裝置應用程式支援下列設定情節：
 
 ## <a name="data-protection-settings-ios"></a>資料保護設定 (iOS)
 
-適用於 iOS 的 Power BI 應用程式可讓管理員自訂安全性和隱私權設定的預設設定。 您可以強制使用者在存取 Power BI 應用程式時提供其 Face ID、Touch ID 或密碼。
+適用於 iOS 和 Android 的 Power BI 應用程式可讓系統管理員自訂安全性和隱私權設定的預設設定。 您可以強制使用者在存取 Power BI 應用程式時提供其 Face ID、Touch ID 或密碼。
 
 | 索引鍵 | 類型 | 描述 |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | 布林值 | 預設值為 False。 <br><br>可能需要生物識別技術 (例如 TouchID 或 FaceID)，才能讓使用者存取其裝置上的應用程式。 如果需要，除了使用驗證，還會使用生物識別技術。<br><br>如果使用應用程式防護原則，Microsoft 建議停用此設定以防止雙重存取提示。 |
+
+## <a name="interaction-settings-android"></a>互動設定 (Android)
+
+如果決定要在組織中的使用者群組之間變更預設互動設定，則適用於 Android 的 Power BI 應用程式可讓系統管理員設定互動設定。 
+
+| 索引鍵 | 類型 | 值 | 描述 |
+|---|---|---|---|
+| com.microsoft.powerbi.mobile.ReportTapInteraction | 字串 |  <nobr>single-tap</nobr><br><nobr>double-tap</nobr> | 設定點選視覺效果是否也會選取資料點。 |
+| ccom.microsoft.powerbi.mobile.RefreshAction | 字串 |  <nobr>pull-to-refresh</nobr><br>按鈕 | 設定使用者會有按鈕可以重新整理報表，還是應該使用提取以重新整理。 |
+| com.microsoft.powerbi.mobile.FooterAppearance | 字串 |  docked<br>動態 | 設定報表頁尾要停駐在報表底部還是自動隱藏。 |
 
 ## <a name="deploying-app-configuration-settings"></a>部署應用程式組態設定
 

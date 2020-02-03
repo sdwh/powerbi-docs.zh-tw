@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866439"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709762"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>使用效能分析器檢查報表元素效能
 
@@ -58,6 +58,9 @@ ms.locfileid: "73866439"
 * **視覺效果顯示** - 視覺效果在螢幕上繪製所需的時間，包括擷取任何 Web 影像或地理編碼所需的時間。 
 * **其他** - 視覺效果準備查詢、等候其他視覺效果完成或執行其他背景處理所需的時間。
 
+[持續時間 (毫秒)]  值指出每項作業「開始」  和「結束」  時間戳記之間的差異。 大部分的畫布和視覺效果作業都會在單一使用者介面執行緒上依序執行，該執行緒由多個作業共用。 回報的持續時間，包含在其他作業完成時排入佇列所花費的時間。 GitHub 上的[效能分析器範例](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)和其相關聯的[文件](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)提供視覺效果如何查詢資料，以及如何轉譯的詳細資料。
+
+
 ![記錄資訊的元素](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
 當您與要使用效能分析器測量的報表元素互動之後，您可以選取 [停止]  按鈕。 在您選取 [停止]  以進行分析之後，效能資訊仍保留在窗格中。
@@ -89,3 +92,7 @@ ms.locfileid: "73866439"
 * [使用 Power BI Desktop 合併資料並使其成形](desktop-shape-and-combine-data.md)
 * [Power BI Desktop 中的常見查詢工作](desktop-common-query-tasks.md)   
 
+如需效能分析器範例的資訊，請參閱下列資源。
+
+* [效能分析器範例](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
+* [效能分析器範例文件](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

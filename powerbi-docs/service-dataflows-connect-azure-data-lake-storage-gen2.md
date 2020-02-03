@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c3f703bfe2685166ce575b37c053b2a9603a799f
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223867"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710181"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體
 
@@ -45,7 +45,7 @@ ms.locfileid: "75223867"
 1. 儲存體帳戶必須建立在與您 Power BI 租用戶相同的 AAD 租用戶中。
 2. 儲存體帳戶必須建立在與您 Power BI 租用戶相同的區域中。 若要判斷 Power BI 租用戶的所在位置，請參閱[我的 Power BI 租用戶位於何處](service-admin-where-is-my-tenant-located.md)。
 3. 儲存體帳戶必須啟用「階層命名空間」  功能。
-4. 必須將儲存體帳戶的「讀者」  角色授與 Power BI 服務。
+4. 必須將儲存體帳戶的「讀者」  和「資料存取」  角色授與 Power BI 服務。
 5. 必須建立名為 **powerbi** 的檔案系統。
 6. 必須授權讓 Power BI 服務存取您建立的 **powerbi** 檔案系統。
 
@@ -59,16 +59,13 @@ ms.locfileid: "75223867"
 2. 確定啟用階層命名空間功能
 3. 建議將複寫設定設為 [讀取權限異地備援儲存體 (RA-GRS)] 
 
-### <a name="grant-the-power-bi-service-a-reader-role"></a>將讀者角色授與 Power BI 服務
+### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>將讀者和資料存取角色授與 Power BI 服務
 
-接著，您必須將您所建立之儲存體帳戶中的讀者角色授與 Power BI 服務。 這是內建的角色，因此步驟相當直接。 
+接著，您必須將所建立儲存體帳戶中的讀者和資料存取角色授與 Power BI 服務。 這兩者都是內建的角色，因此步驟相當簡單。 
 
 請依照[指派內建的 RBAC 角色](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)中的步驟進行。
 
-在 [新增角色指派]  視窗中，選取 [讀者]  角色以指派給 Power BI 服務。 然後使用搜尋來尋找 **Power BI 服務**。 下圖顯示已指派給 Power BI 服務的 [讀者]  角色。
-
-![已指派 [讀者] 角色給 Power BI 服務](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
-
+在 [新增角色指派]  視窗中，選取 [讀者]  和 [資料存取]  角色以指派給 Power BI 服務。 然後使用搜尋來尋找 **Power BI 服務**。 
 
 > [!NOTE]
 > 允許至少 30分鐘，讓權限從入口網站傳播至 Power BI。 每當您在入口網站中變更權限時，請允許 30 分鐘，讓權限反映在 Power BI 中。 

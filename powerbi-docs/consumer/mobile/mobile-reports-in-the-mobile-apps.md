@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/18/2020
 ms.author: painbar
-ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220682"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538102"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -53,6 +53,13 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 ## <a name="interact-with-reports"></a>與報表互動
 在應用程式中開啟報表之後，您就可以開始使用報表。 您可以對報表及其資料執行許多動作。 在報表頁尾中，您會看到可在報表上執行的動作。 您也可以透過點選和長按報表中顯示的資料來並排顯示資料。
 
+### <a name="single-tap-versus-double-tap-interaction"></a>點一下與點兩下互動
+當您下載 Power BI 行動裝置應用程式時，應用程式會設定為點一下互動。 這表示當點選視覺效果以執行某些動作 (例如選取交叉分析篩選器項目、交叉醒目提示、按一下連結或按鈕等) 時，點選就會選取視覺效果並執行您想要的動作。
+
+如果您想要的話，也可以切換為點兩下互動。 藉由點兩下互動，您可以先點選視覺效果以將其選取，然後再次點選視覺效果以執行您想要的動作。
+
+若要切換為點兩下互動，或切換回點一下互動，請移至[應用程式互動設定](./mobile-app-interaction-settings.md)。
+
 ### <a name="using-tap-and-long-tap"></a>使用點選和長按
 點選等同於按一下滑鼠。 因此，如果您想要根據資料點來交叉醒目提示報表，請點選該資料點。
 當您點選交叉分析篩選器的值時，會選取該值，並根據該值來切割報表的其餘部分。
@@ -63,7 +70,6 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 ![視覺效果和功能表](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
 ### <a name="tooltip-and-drill-actions"></a>工具提示和切入動作
-
 當您長按 (按住不放) 資料點時，會出現一個工具提示，顯示該資料點代表的值：
 
 ![工具提示](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
@@ -126,6 +132,8 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 
 Power BI 行動裝置應用程式支援報表建立者定義的報表書籤，也支援可在 Power BI 服務中定義的個人書籤。 [書籤] 功能表位在 [[報表動作] 工具列](mobile-reports-in-the-mobile-apps.md#all-report-actions)的 [更多選項]  (...) 下。
 
+預設的書籤會以特殊圖示來表示。 針對個人書籤，藉由點選所要變更書籤旁的 [更多選項 (...)]  ，然後選擇 [設為預設]  或 [清除預設值]  ，即可設定、取消設定或變更預設設定。
+
 ![[書籤] 功能表](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 
 當報表的書籤檢視開啟時，書籤的名稱就會出現在報表頂端。
@@ -133,6 +141,15 @@ Power BI 行動裝置應用程式支援報表建立者定義的報表書籤，�
 ![書籤檢視](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
 [深入了解 Power BI 服務的書籤](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks)。
+
+## <a name="configure-your-experience-with-reports"></a>設定報表的體驗
+Power BI 行動裝置應用程式有許多設定，可讓您控制報表體驗。 目前，您可以設定
+* **與報表視覺效果的互動**：您可以選擇要使用點一下或點兩下互動。
+* **資料重新整理方法**：您可以選擇讓重新整理按鈕或下拉動作重新整理報表資料。
+* **報表頁尾可見度**：您可以選擇使用一律顯示的停駐頁尾，或是根據您的動作 (例如捲動) 而隱藏和重新顯示的動態頁尾。
+
+如需如何變更這些設定的資訊，請參閱[應用程式互動設定](./mobile-app-interaction-settings.md)。
+
 
 ## <a name="next-steps"></a>後續步驟
 * [檢視為您的手機最佳化的 Power BI 報表，並與其互動](mobile-apps-view-phone-report.md)

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/08/2019
 ms.author: painbar
-ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: caed3a107b8f7a57d2fb3da92073cb8a5f5331cd
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75220509"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538397"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -21,6 +21,27 @@ ms.locfileid: "75220509"
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
+
+## <a name="december-2019"></a>2019 年 12 月
+
+### <a name="docked-report-footer-and-a-refresh-button---new-experiences-for-interacting-with-reports-android"></a>停駐報表頁尾和重新整理按鈕 - 與報表互動的新體驗 (Android)
+
+我們曾聽過 Android 使用者表示使用報表的體驗並不理想，因為很難使用報表頁尾，且某些裝置上的拖動以重新整理太過敏感。 因此，在此版本中，我們已變更這些行為：
+* **停駐報表頁尾** - 現在，當您在手機上開啟報表時，您會發現報表頁尾停駐在報表頁面的底部，不論您在頁面上執行的動作為何，其一律會顯示且可供使用。 這可讓您輕鬆地使用報表頁尾提供的所有選項。
+* **報表標頭上的重新整理按鈕** - 您也會在報表標頭中找到重新整理按鈕，讓您能夠在想要的時候輕鬆地重新整理報表。
+
+偏好先前行為的使用者，可以使用行動裝置應用程式新擴充的[互動設定](./mobile-app-interaction-settings.md)來還原這些行為。
+
+此外，IT 系統管理員可以使用其選擇的 MDM 工具搭配應用程式設定檔，代表其使用者[遠端覆寫新的預設設定](./mobile-app-configuration.md#interaction-settings-android)。 如此一來，組織中的所有使用者都可以為應用程式設定相同為。
+
+> [!NOTE]
+> 重新整理按鈕和停駐報表頁尾的互動設定，目前不會影響報表伺服器報表。 這會在 1 月的報表伺服器版本中變更！
+
+### <a name="set-default-bookmarks-from-your-mobile-app"></a>從行動裝置應用程式設定預設書籤
+現在，您可以直接從 Power BI 行動裝置應用程式設定報表的預設書籤。 然後，在每次開啟報表時，就會自動套用其預設書籤。 [深入了解！](./mobile-reports-in-the-mobile-apps.md#bookmarks)
+
+### <a name="filtering-by-location-on-android-tablets"></a>在 Android 平板電腦上依位置篩選
+地區篩選可讓您根據目前的位置來篩選報表。 適用於 Android 平板電腦的 Power BI 應用程式現在也提供這項功能。 [深入了解！](./mobile-apps-geographic-filtering.md)
 
 ## <a name="november-2019"></a>2019 年 11 月
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/25/2019
+ms.date: 01/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1349d62d0400c0ad283f6e9e234c44ffce0d63b9
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73766456"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537201"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI 的資料保護 (預覽)
 
@@ -99,13 +99,13 @@ ms.locfileid: "73766456"
 * 敏感度標籤只能套用到儀表板、報表、資料集與資料流程。
 * 只有 Excel、PowerPoint 與 PDF 檔案才支援匯出檔案上所施行的標籤與保護控制。 若將資料匯出至 CSV 檔案、訂閱電子郵件、內嵌視覺效果及列印，將不會施行標籤與保護。
 * 從 Power BI 匯出檔案的使用者，有權根據敏感度標籤設定來存取與編輯該檔案。 但匯出資料的使用者不會取得檔案擁有者權限。 
-* 敏感度標籤目前不適用於[編頁報表]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)與活頁簿。 
-* 目前無法從已套用標籤的 Power BI 資產中刪除標籤。
+* 敏感度標籤目前不適用於[編頁報表]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)與活頁簿。
 * Power BI 資產的敏感度標籤只會顯示在工作區清單與歷程檢視中，目前不會顯示在 [我的最愛]、[與我共用]、[最近項目] 或 [應用程式檢視] 中。 但請注意，即使看不見套用至 Power BI 資產的標籤，其也一律保存在匯出至 Excel、PowerPoint 與 PDF 檔案的資料上。
 * [Microsoft 365 安全性中心](https://security.microsoft.com/)或 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)設定的敏感度標籤*檔案加密*設定，只會套用至從 Power BI *匯出*的檔案，而不會在 *Power BI* 中施行。
 * Power BI 中套用的標籤不支援 [HYOK 保護](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)。
 * 必須滿足[授權需求](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)，以在 Office 應用程式中檢視與套用標籤。
 * 只有全域 (公用) 雲端中的租用戶，才能使用敏感度標籤。 其他雲端中的租用戶無法使用敏感度標籤。
+* [外部使用者 (Azure Active Directory B2B 來賓使用者)](../service-admin-azure-ad-b2b.md) 不支援敏感度標籤。 這表示外部使用者無法檢視標籤，且遭到封鎖而無法將資料匯出至 Excel、PDF 和 PPTX 檔案。 [移除標籤](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels)可讓外部使用者將資料匯出至這些檔案類型。
 
 
 
@@ -116,3 +116,4 @@ ms.locfileid: "73766456"
 * [在 Power BI 中啟用資料敏感度標籤](service-security-enable-data-sensitivity-labels.md)
 * [在 Power BI 中套用資料敏感度標籤](../designer/service-security-apply-data-sensitivity-labels.md)
 * [在 Power BI 中使用 Microsoft Cloud App Security 控制項](service-security-using-microsoft-cloud-app-security-controls.md)
+* [資料保護計量報表](service-security-data-protection-metrics-report.md)

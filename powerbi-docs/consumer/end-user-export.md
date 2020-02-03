@@ -7,15 +7,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 01/22/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 0e8a3ce01356804aa5dcca21895fa01b5908ebd0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 27128618fc594a8b7259a3de3862c6766eaecd86
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851327"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537481"
 ---
 # <a name="export-data-from-a-visual"></a>匯出視覺效果的資料
 
@@ -31,15 +31,18 @@ ms.locfileid: "73851327"
 
 2. 將滑鼠暫留在視覺效果上方以顯示 [更多選項]  (...)，然後按一下以顯示動作功能表。
 
-    ![選取省略符號時出現的功能表](media/end-user-export/power-bi-action-menu.png)
+    ![選取省略符號時出現的功能表](media/end-user-export/power-bi-options-menu.png)
 
-3. 選取 [匯出至 Excel]  。
+3. 選取 [匯出至 .csv]  。
 
 4. 後續步驟取決於您使用的瀏覽器。 系統可能會提示您儲存檔案，或者您可能會在瀏覽器底部看到所匯出檔案的連結。 
 
     ![顯示匯出檔案連結的 Chrome 瀏覽器](media/end-user-export/power-bi-dashboard-exports.png)
 
-5. 以 Excel 開啟檔案。  
+5. 以 Excel 開啟檔案。 
+
+    > [!NOTE]
+    > 如果您沒有資料的權限，就無法以 Excel 匯出或開啟。  
 
     ![Excel 中的年初迄今單位總量](media/end-user-export/power-bi-excel.png)
 
@@ -53,27 +56,30 @@ ms.locfileid: "73851327"
 
     因為此圖格是從「銷售與行銷範例」  報表建立的，所以會開啟該報表。 而且，報表會開啟到包含所選圖格視覺效果的頁面。 
 
-2. 選取報表中的圖格。 請注意右邊的 [篩選]  窗格。 此視覺效果已套用篩選。 若要深入了解篩選，請參閱[在報表中使用篩選](end-user-report-filter.md)。
+2. 在報表中選取視覺效果。 請注意右邊的 [篩選]  窗格。 此視覺效果已套用篩選。 若要深入了解篩選，請參閱[在報表中使用篩選](end-user-report-filter.md)。
 
     ![已選取的篩選窗格](media/end-user-export/power-bi-export-filter.png)
 
 
-3. 選取視覺效果右上角的省略符號。 選擇 [匯出資料]  。
+3. 選取視覺效果右上角的 [更多選項 (...)]  。 選擇 [匯出資料]  。
 
     ![下拉式清單中已選取的 [匯出資料]](media/end-user-export/power-bi-export-report.png)
 
 4. 您會看到要匯出 [摘要的資料] 或 [基礎資料] 的選項。 如果您使用的是「銷售與行銷範例」  應用程式，將會停用 [基礎資料]  。 但是，您可能會遇到兩個選項都已啟用的報表。 以下是差異的說明。
 
-    **摘要的資料**：如果您想要匯出在該視覺效果中所看到內容的資料，請選取此選項。  此類型的匯出只會顯示用來建立視覺效果的資料。 如果視覺效果已套用篩選，則您匯出的資料也會經過篩選。 例如，針對此視覺效果，您的匯出只會包含 2014 年和中部區域的資料，且只有四個製造商的資料：VanArsdel、Natura、Aliqui 和 Pirum。
+    **摘要的資料**：如果您想要匯出在該視覺效果中目前所看到內容的資料，請選取此選項。  此類型匯出只會顯示用來建立視覺效果目前狀態的資料。 如果視覺效果已套用篩選，則您匯出的資料也會經過篩選。 例如，針對此視覺效果，您的匯出只會包含 2014 年和中部區域的資料，且只有四個製造商的資料：VanArsdel、Natura、Aliqui 和 Pirum。 如果您的視覺效果有彙總 (加總、平均值等)，則匯出也會彙總。 
   
 
-    **基礎資料**：如果您想要匯出視覺效果中所見的資料**和**來自基礎資料集的其他資料，請選取此選項。  這可能包括資料集所包含但未在視覺效果中使用的資料。 
+    **基礎資料**：如果您想要匯出視覺效果中所見的資料**和**來自基礎資料集的其他資料，請選取此選項。  這可能包括資料集所包含但未在視覺效果中使用的資料。 如果視覺效果已套用篩選，則您匯出的資料也會經過篩選。  如果您的視覺效果有彙總 (加總、平均值等)，則匯出將會移除彙總；基本上會將資料扁平化。 
 
-    ![選擇基礎或摘要的功能表](media/end-user-export/power-bi-export-option.png)
+    ![選擇基礎或摘要的功能表](media/end-user-export/power-bi-export-underlying.png)
 
 5. 後續步驟取決於您使用的瀏覽器。 系統可能會提示您儲存檔案，或者您可能會在瀏覽器底部看到所匯出檔案的連結。 
 
     ![在 Microsoft Edge 瀏覽器中顯示的匯出檔案](media/end-user-export/power-bi-export-edge-browser.png)
+
+    > [!NOTE]
+    > 如果您沒有資料的權限，就無法以 Excel 匯出或開啟。  
 
 
 6. 以 Excel 開啟檔案。 將資料數量與在儀表板上從相同視覺效果匯出的資料比較。 差別在於此匯出包含**基礎資料**。 

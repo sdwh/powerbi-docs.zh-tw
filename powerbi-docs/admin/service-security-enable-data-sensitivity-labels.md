@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 024e04bd309080b5b31e43bde7c783255bfc3dba
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851075"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537224"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>在 Power BI 中啟用資料敏感度標籤 (預覽)
 
@@ -62,14 +62,15 @@ Power BI 使用 Microsoft 資訊保護敏感度標籤。 因此，當您在嘗�
 
 ## <a name="licensing"></a>授權
 
-* 若要在 Power BI 中檢視或套用 Microsoft 資訊保護標籤，使用者必須具備 Azure 資訊保護 Premium P1 或 Premium P2 授權。 Microsoft Azure 資訊保護可以單獨選購，也可以透過任一種 Microsoft 授權套件購得。 如需詳細資訊，請參閱 [Azure 資訊保護定價](https://azure.microsoft.com/pricing/details/information-protection/)。
+* 若要在 Power BI 中檢視或套用 Microsoft 資訊保護標籤，使用者必須具備 Azure 資訊保護 Premium P1 或 Premium P2 授權。 您可單獨購買 Microsoft Azure 資訊保護，或透過其中一個 Microsoft 授權套件來購買。 如需詳細資訊，請參閱 [Azure 資訊保護定價](https://azure.microsoft.com/pricing/details/information-protection/)。
 * 使用者必須具備 Power BI Pro 授權，才能對 Power BI 資產套用標籤。
 
 
 ## <a name="next-steps"></a>後續步驟
 
-本文說明如何在 Power BI 中啟用資料敏感度標籤。 下列文章提供如何在 Power BI 中保護資料保護的更多詳細資料。 
+本文說明如何在 Power BI 中啟用資料敏感度標籤。 下列文章提供 Power BI 資料保護的詳細資料。 
 
 * [Power BI 中的資料保護概觀](service-security-data-protection-overview.md)
 * [在 Power BI 中套用資料敏感度標籤](../designer/service-security-apply-data-sensitivity-labels.md)
 * [在 Power BI 中使用 Microsoft Cloud App Security 控制項](service-security-using-microsoft-cloud-app-security-controls.md)
+* [資料保護計量報表](service-security-data-protection-metrics-report.md)

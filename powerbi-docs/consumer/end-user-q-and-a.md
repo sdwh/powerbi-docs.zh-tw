@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: cc20d981e1e774eed109c614e146415ec3813601
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218134"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709787"
 ---
-# <a name="qa-for-power-bi-consumers"></a>Power BI **取用者**問與答
+# <a name="qa-for-power-bi-consumers"></a>Power BI 取用者問與答
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -167,6 +167,10 @@ Power BI 協助您詢問問題的另一種方式為使用提示、自動完成�
 **解答**：選取連絡報表或儀表板擁有者的選項。 您可以直接從問與答儀表板頁面或問與答視覺效果執行這項操作。 或者，您可以從 Power BI 頁首查詢擁有者。  為了改善問與答的結果，設計工具可能會進行很多作業。 比方說，設計工具可能會重新命名資料集中的資料行，來使用較容易了解的詞彙 (例如以 `CustomerFirstName` 取代 `CustFN`)。 由於設計師十分了解資料集，因此設計師也可以提出有幫助的問題，並將其新增至問與答建議的問題。
 
 ![顯示連絡人資訊](media/end-user-q-and-a/power-bi-q-and-a-contact.png)
+
+## <a name="privacy"></a>隱私權
+
+Microsoft 可能會將您的問題用於改善 Power BI。 請檢閱 [Microsoft Azure 隱私權聲明](https://go.microsoft.com/fwlink/?LinkId=521839)以取得詳細資訊。
 
 ## <a name="next-steps"></a>後續步驟
 若要了解如何透過報表「設計師」  來建立和管理問與答視覺效果，請參閱[問與答視覺效果類型](../visuals/power-bi-visualization-q-and-a.md)。

@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 1/16/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9e00e68e0a5f6df62072a1d9744276bffbd3beb4
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 4570fea58a19acb4f35a5c24d0a5bfa93beba215
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791651"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537546"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>從 Power BI 將報表匯出至 PDF
 
@@ -63,6 +63,7 @@ ms.locfileid: "74791651"
 * 針對匯出選擇 [目前的值]  時，目前不適用 URL 篩選。
 * 具有異常自訂頁面大小的報表可能會在匯出案例中遇到問題。 為獲得最佳結果，請考慮切換到報表的標準頁面大小。
 * 匯出至 PDF 時，使用主題與自訂字型的報表會以預設字型取代自訂字型。
+* 雖然我們希望提供一致的體驗，但無法保證從 Power BI 服務匯出的 PDF 將一律符合從本機 Power BI Desktop 檔案匯出的 PDF。
 
 ## <a name="next-steps"></a>後續步驟
 [列印報表](end-user-print.md)

@@ -1,23 +1,24 @@
 ---
 title: Power BI 中的協助工具概觀
-description: 用於建立可存取之 Power BI Desktop 報告的功能和建議
+description: 用來建立具協助功能 Power BI Desktop 報表的功能和建議，包括 Web 內容無障礙指導方針 (WCAG)
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ef19c638f9c456364757576e21c303103a7f4e39
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 8604ed2c737b7d2a75b3af052878ecb157ffacf1
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761856"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538604"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI 中的協助工具概觀
-使用 Power BI 時，請務必考慮可能與報表互動的不同類型使用者。 建立和呈現鍵盤或螢幕助讀程式使用者可輕鬆瀏覽及了解的報表，讓可能具有視覺或身體障礙的使用者能夠接收相同的資訊。
+
+使用 Power BI 時，請考慮可能與報表互動的不同類型使用者。 您可以建立鍵盤或螢幕助讀程式使用者可輕鬆瀏覽及了解的報表。 這類報表讓可能具有視覺或身體障礙的使用者能夠受益於報表。
 
 ![高對比 Windows 設定](media/desktop-accessibility/accessibility-05b.png)
 
@@ -27,35 +28,34 @@ ms.locfileid: "75761856"
 
 通用設計是產品的設計，可讓合理數量的人員使用，而不需要進行特殊調整或特殊設計。 在 Power BI 中建立報表或體驗時，請務必考慮使用者的需求。 設計具協助功能的體驗，不僅能讓可能具有聽力、動作、認知或視覺障礙的終端使用者受益， 還可協助組織中的所有終端使用者。 Power BI 提供一些用來建立及取用具協助功能報表的工具。 身為報表建立者，您可以決定是否使用這些工具來改善每個人的體驗。
 
-
 ## <a name="accessibility-standards"></a>協助工具標準
 
-Power BI 致力於符合下列協助工具標準。 這有助於確保您的 Power BI 體驗可供最多人員存取。 Power BI 行動版應用程式已獲得協助工具等級 C 的認證，這表示當您建立可存取的報表或儀表板時，其也可供使用 Power BI 行動版進行檢視的任何人存取。 
+Power BI 致力於符合下列協助工具標準。 這些標準有助於確保您的 Power BI 體驗可供最多人員存取。 Power BI 行動版應用程式已通過協助工具等級 C 的認證。 當您建置具協助功能的報表或儀表板時，該內容便可供使用 Power BI 行動版進行檢視的任何人存取。
 
 ### <a name="wcag-21"></a>WCAG 2.1
-Web 內容無障礙指導方針 (WCAG) 協助讓 Web 內容可供具有身心障礙的人員存取。 有三個主要的 WCAG 原則：
 
-1. **可感知** - 資訊和使用者介面元件必須以使用者可以感知的方式呈現給使用者。
-2. **可操作** - 使用者介面元件和導覽必須為可操作。
-3. **可理解** - 資訊和使用者介面的操作必須為可理解。
+Web 內容無障礙指導方針 (WCAG) 協助讓 Web 內容可供具有身心障礙的人員存取。 下列為指導方針的主要原則：
+
+1. **可感知**。 資訊和使用者介面元件必須以使用者可以感知的方式呈現給使用者。
+2. **可操作**。 使用者介面元件和導覽必須為可操作。
+3. **可理解**。 資訊和使用者介面的操作必須為可理解。
 
 ### <a name="us-section-508"></a>美國第 508 節
 
 美國第 508 節是一項標準，要求政府和聯邦機關使其電子和資訊技術可供行動不便人士存取。
 
 ### <a name="en-301-549"></a>EN 301 549
+
 EN 301 549 是 ICT 產品和服務協助工具需求的統一歐洲標準。  
-
-
 
 ## <a name="next-steps"></a>後續步驟
 
-Power BI 協助工具的文章集合如下：
+如需 Power BI 協助工具的詳細資訊，請參閱下列資源：
 
-* [建立具協助功能的 Power BI 報表](desktop-accessibility-creating-reports.md) 
-* [使用協助工具來取用 Power BI 報表](desktop-accessibility-consuming-tools.md)
-* [使用協助工具來建立 Power BI 報表](desktop-accessibility-creating-tools.md)
-* [Power BI 報表的協助工具鍵盤快速鍵](desktop-accessibility-keyboard-shortcuts.md)
+* [針對協助工具設計 Power BI 報表](desktop-accessibility-creating-reports.md)
+* [使用協助工具功能來取用 Power BI 報表](desktop-accessibility-consuming-tools.md)
+* [使用協助工具在 Power BI 中建立報表](desktop-accessibility-creating-tools.md)
+* [Power BI Desktop 中的鍵盤快速鍵](desktop-accessibility-keyboard-shortcuts.md)
 * [報表協助工具檢查清單](desktop-accessibility-creating-reports.md#report-accessibility-checklist)
 
 

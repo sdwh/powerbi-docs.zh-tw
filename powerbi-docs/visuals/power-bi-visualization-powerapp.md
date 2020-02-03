@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 01/14/2020
+ms.date: 01/16/2020
 ms.author: mblythe
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d9549364f9129ee4ddc6e90fb973cb73c241e4a9
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: bbca812644b82f8a0b848dc16e450f880ccb596c
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76042110"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539892"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>教學課程：在 Power BI 報表中內嵌 Power Apps 視覺效果
 
 在此教學課程中，您會使用 Power Apps 視覺效果來建立新的應用程式，並內嵌至 Power BI 範例報表中。 此應用程式會與該報表中的其他視覺效果互動。
 
-如果您還沒有 Power Apps 訂用帳戶，請先[建立免費帳戶](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps)後再開始進行。
+如果您還沒有 Power Apps 訂用帳戶，請先[建立免費帳戶](https://web.powerapps.com/signup?redirect=marketing&email=)後再開始進行。
 
 在本教學課程中，您會了解如何：
 > [!div class="checklist"]
@@ -33,12 +33,12 @@ ms.locfileid: "76042110"
 
 * [Google Chrome](https://www.google.com/chrome/browser/) 或 [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) 瀏覽器
 * [Power BI 訂用帳戶](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)，並已安裝[商機分析範例](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)
-* 了解如何[在 Power Apps 中建立應用程式](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch.md)及如何[編輯 Power BI 報表](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
+* 了解如何[在 Power Apps 中建立應用程式](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch)及如何[編輯 Power BI 報表](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
 
 
 
 ## <a name="create-a-new-app"></a>建立新的應用程式
-當您將 Power Apps 視覺效果新增至報表時，它會啟動 Power Apps Studio，並建立 Power Apps 與 Power BI 之間的即時資料連線。
+當您將 Power Apps 視覺效果新增至報表時，即會啟動 Power Apps Studio，並建立 Power Apps 與 Power BI 之間的即時資料連線。
 
 1. 開啟商機分析範例報表，然後選取 [近期商機]  頁面。 
 

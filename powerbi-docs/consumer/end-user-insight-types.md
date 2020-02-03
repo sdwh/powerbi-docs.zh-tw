@@ -6,69 +6,80 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 01/15/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 75462c2414854d0848254a36b89bcdd1de365ec5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 184aeb1f26e54bb8b8935f2f06ec6cad2e282ecf
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863494"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537893"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI 支援的深入解析類型
 
-Power BI 服務可以自動在您的儀表板或報表中尋找見解。
+您可以要求 Power BI 查看您的資料，並尋找感興趣的趨勢和模式。 這些趨勢和模式會以稱為「見解」  的視覺效果形式呈現。 
+
+若要了解如何使用見解，請參閱 [Power BI 見解](end-user-insights.md)
+
+![一組見解](media/end-user-insight-types/power-bi-insight.png)
 
 ## <a name="how-does-insights-work"></a>深入解析如何運作？
-Power BI 可快速搜尋資料集的不同子集， 並在搜尋時套用一組複雜的演算法來探索潛在相關見解。 Power BI 會在分配的時間內盡可能掃描資料集。
+Power BI 可快速搜尋資料集的不同子集， 並在搜尋時套用一組複雜的演算法來探索潛在相關見解。 Power BI「取用者」  可以在儀表板磚上執行見解。
 
-您可以針對資料集或儀表板圖格執行深入解析。   
+## <a name="some-terminology"></a>一些術語
+Power BI 使用統計演算法來發掘見解。 這些演算法將在本文的下一節中列出並描述。 在了解演算法之前，以下是一些可能不熟悉的詞彙定義。 
 
-## <a name="what-types-of-insights-can-we-find"></a>我們可以尋找哪些類型的深入剖析資訊？
-以下是我們所使用的一些演算法：
+* **量值** - 量值是可用於執行計算的量化 (數值) 欄位。 常見的計算為加總、平均值和最小值。 例如，若我們的公司生產並銷售滑板，則量值可能是每年的滑板銷售數量和平均收益。  
+* **維度** - 維度是類別目錄 (文字) 資料。 維度可描述人員、物件、項目、產品、地點和時間。 在資料集中，維度是將「量值」  分組成有用類別的方式。 針對我們的滑板公司，某些維度可能包括依模型、色彩、國家/地區或行銷活動來查看銷售量 (量值)。   
+* **相互關聯** - 相互關聯會告訴我們項目的行為有何關聯。  如果項目的增加和減少模式很類似，則為正相關。 如果其模式相反，則為負相關。 例如，若每次執行電視行銷活動時我們的紅色滑板銷售量會增加，則紅色滑板的銷售量與電視活動為正相關。
+* **時間序列** - 時間序列是將時間顯示為連續資料點的一種方式。 這些資料點可能會遞增，例如秒、小時、月或年。  
+* **連續變數** - 連續變數可以是介於其下限和上限之間的任何值，否則其為離散變數。 範例包括溫度、體重、年齡和時間。 連續變數可以包含值的小數或一部分。 所銷售的藍色滑板總數是離散變數，因為我們無法銷售半個滑板。  
 
-## <a name="category-outliers-topbottom"></a>類別極端值 (上/下)
-針對模型中的量值，醒目提示維度的一或兩個成員值大於維度的其他成員值的情況。  
+## <a name="what-types-of-insights-can-you-find"></a>您可以找到哪些類型的見解？
+這些是 Power BI 使用的演算法。 
+
+### <a name="category-outliers-topbottom"></a>類別極端值 (上/下)
+醒目提示一或兩個類別其值比其他類別大很多的情況。  
 
 ![類別極端值範例](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
 
-## <a name="change-points-in-a-time-series"></a>變更時間序列中的點
+### <a name="change-points-in-a-time-series"></a>變更時間序列中的點
 醒目提示資料時間序列中的趨勢明顯變更的情況。
 
 ![變更時間序列中的點範例](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
-## <a name="correlation"></a>相互關聯
-偵測當根據資料集中的某個維度繪製多個量值時，多個量值彼此之間顯示相互關聯的情況。
+### <a name="correlation"></a>相互關聯
+偵測在根據資料集內的類別或值繪製時，多個量值會顯示類似模式或趨勢的情況。
 
 ![相互關聯範例](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
-## <a name="low-variance"></a>低變異數
+### <a name="low-variance"></a>低變異數
 偵測到資料點距離平均值不遠的情況。
 
 ![低差異範例](./media/end-user-insight-types/power-bi-low-variance.png)
 
-## <a name="majority-major-factors"></a>多數 (主要因素)
+### <a name="majority-major-factors"></a>多數 (主要因素)
 尋找當總值由另一個維度分解時，其多數可能歸因於單一因素的情況。  
 
 ![主要因素範例](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)
 
-## <a name="overall-trends-in-time-series"></a>時間序列中的整體趨勢
+### <a name="overall-trends-in-time-series"></a>時間序列中的整體趨勢
 偵測時間序列資料中的向上或向下趨勢。
 
 ![時間序列中的整體趨勢範例](./media/end-user-insight-types/pbi-auto-insight-types-trend.png)
 
-## <a name="seasonality-in-time-series"></a>時間序列中的季節性
+### <a name="seasonality-in-time-series"></a>時間序列中的季節性
 尋找時間序列資料中的週期模式，例如每週、每月或每年的季節性。
 
 ![季節性範例](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
-## <a name="steady-share"></a>穩定佔有率
+### <a name="steady-share"></a>穩定佔有率
 醒目提示子值的部分相對於跨連續變數的整體父值有父子相互關聯的情況。
 
 ![穩定佔有率範例](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 
-## <a name="time-series-outliers"></a>時間序列極端值
+### <a name="time-series-outliers"></a>時間序列極端值
 針對跨時間序列的資料，偵測特定日期或時間值明顯不同於其他日期/時間值的情況。
 
 ![時間序列極端值範例](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)

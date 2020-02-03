@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 632c1f1a9f0cba3f403cae4a471df6b7e699f481
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622443"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710156"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中撰寫範本應用程式的提示
 
@@ -134,6 +134,17 @@ Power BI Desktop 中的[參數](https://powerbi.microsoft.com/blog/deep-dive-int
 * 將 pbix 上傳到範本工作區之前，請務必卸載任何不必要的連線。
 * 遵循 Power BI [Best design practices for reports and visuals](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) (報表和視覺效果的最佳設計做法)，達到最大的使用者影響力並獲准散發。
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
+
+## <a name="create-a-download-link-for-the-app"></a>建立應用程式的下載連結
+
+在 AppSource 上發佈範本應用程式之後，請考慮從您的網站建立下載連結，以連至：
+* AppSource 下載頁面 - 可公開檢視，並從您的 AppSource 頁面取得連結。
+* Power BI - 可供 Power BI 使用者檢視。
+
+若要將使用者重新導向至 Power BI 中的應用程式下載連結，請參閱下列程式碼範例：[GitHub 存放庫](https://github.com/microsoft/Template-apps-examples/tree/master/src)。
+[![應用程式下載連結](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+
 
 ## <a name="known-limitations"></a>已知的限制
 

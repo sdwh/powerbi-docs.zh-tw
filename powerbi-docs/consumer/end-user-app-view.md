@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 1/22/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0b581b9c45cb75d12eea974c0895474015634eb1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 0733e726512ff52c5b51ba2d25cea18f8857f1e8
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73851297"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537573"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表安裝並使用應用程式
 
@@ -48,12 +48,13 @@ ms.locfileid: "73851297"
 1. 選取 [應用程式]    > [取得應用程式]  。 
    
     ![取得應用程式圖示](./media/end-user-app-view/power-bi-get-app2.png)    
-2. 在 AppSource 的 [我的組織]  下方，您可以進行搜尋以縮小結果範圍，並尋找您要尋找的應用程式。
+2. 在 AppSource 的 [我的組織]  下方搜尋以縮小結果範圍，並找到您在尋找的應用程式。
    
     ![在 AppSource 的 [我的組織] 下](./media/end-user-app-view/power-bi-opportunity-app.png)
 3. 選取 [立即取得]  ，將它新增至 [應用程式] 內容清單。 
 
-## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>從 Microsoft AppSource 網站 (https://appsource.microsoft.com) 取得應用程式
+## <a name="get-an-app-from-the-microsoft-appsource-website"></a>從 Microsoft AppSource 網站取得應用程式 
+
 在此範例中，我們會開啟其中一個 Microsoft 範例應用程式。 在 AppSource 上，您可以找到執行業務所用的多個服務應用程式。  例如 Salesforce、Microsoft Dynamics、Google Analytics、GitHub、Zendesk、Marketo 等服務。 若要深入了解，請瀏覽[搭配 Power BI 使用的服務應用程式](../service-connect-to-services.md)。 
 
 1. 在瀏覽器中開啟 https://appsource.microsoft.com ，然後選取 **Power BI 應用程式**。
@@ -92,12 +93,36 @@ ms.locfileid: "73851297"
     ![使用範例資料進行探索](./media/end-user-apps/power-bi-new-app.png)
 
 
-
-
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>與應用程式中的儀表板和報表互動
 請花一些時間探索組成應用程式的儀表板和報表中資料。 您可以進行所有標準 Power BI 互動，例如篩選、醒目提示、排序和向下切入。  還是有點分不清儀表板與報表之間的差異？  請參閱[儀表板](end-user-dashboards.md)和[報表](end-user-reports.md)的相關文章。  
 
+## <a name="update-an-app"></a>更新應用程式 
 
+應用程式建立者可能會不時發行其應用程式的新版本。 您取得新版本的方式取決於您先前如何收到原始版本。 
+
+* 如果您是從組織取得應用程式，則新版本的更新會完全透明，您不需要執行任何動作。 
+
+* 如果您是從 AppSource 取得應用程式，則下次開啟應用程式時，就會看到通知橫幅。 通知可讓您知道有新的版本可供使用。 
+
+    1. 選取 [取得]  進行更新。  
+
+        <!--![App update notification](./media/end-user-app-view/power-bi-new-app-version-notification.png) -->
+
+    2. 當系統提示您安裝更新的應用程式時，請選取 [安裝]  。 
+
+        ![安裝更新](./media/end-user-app-view/power-bi-install.png) 
+
+    3. 由於您已經有此應用程式的版本，請決定是要取代現有版本，還是要在新工作區中安裝已更新的應用程式。   
+
+        ![覆寫舊的應用程式版本](./media/end-user-app-view/power-bi-already-installed.png) 
+
+
+    > [!NOTE] 
+    > 安裝新版本會覆寫您對報表和儀表板所做的任何變更。 若要保留已更新的報表和儀表板，您可以在安裝之前以不同名稱或不同位置將其儲存。 
+
+    4. 安裝已更新的版本之後，請選取 [更新應用程式]  以完成更新處理程序。 
+
+    <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
 
 
 ## <a name="next-steps"></a>後續步驟

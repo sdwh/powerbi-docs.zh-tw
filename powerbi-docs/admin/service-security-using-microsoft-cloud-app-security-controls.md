@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7aa0fb1c8707c18e583d0de6bbd602ef43291146
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: 6d342773f35adef5f7b61953b06e526a42be75dc
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548496"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537385"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>在 Power BI 中使用 Microsoft Cloud App Security 控制項 (預覽)
 
@@ -144,3 +144,4 @@ Microsoft Cloud App Security 偵測可讓系統管理員監視受監視應用程
 * [為精選應用程式部署條件式存取應用程式控制](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)
 * [工作階段原則](https://docs.microsoft.com/cloud-app-security/session-policy-aad)
 * [敏感度標籤概觀](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
+* [資料保護計量報表](service-security-data-protection-metrics-report.md)

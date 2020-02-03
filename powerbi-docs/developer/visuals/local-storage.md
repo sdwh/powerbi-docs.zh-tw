@@ -3,17 +3,17 @@ title: Power BI 視覺效果中的本機存放區 API
 description: 本文描述如何使用 Power BI 視覺效果 API 取得瀏覽器本機存放區的存取權
 author: uve
 ms.author: v-grniki
-ms.reviewer: sranins
+ms.reviewer: KesemSharabi
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 10/31/2019
-ms.openlocfilehash: f69a3c8928b8079f79b8a6dd5f5b132235a7089c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 01/21/2019
+ms.openlocfilehash: 85517fcd7ec773f947135614c94c0c4e4638ea48
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879891"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539317"
 ---
 # <a name="local-storage-api"></a>本機存放區 API
 
@@ -59,4 +59,5 @@ export class Visual implements IVisual {
 
 ## <a name="known-limitations-and-issues"></a>已知限制及問題
 
-預設不針對自訂視覺效果啟動本機存放區 API。 如果想要針對自己的自訂視覺效果啟動它，請將要求傳送給 Power BI 自訂視覺效果支援 `pbicvsupport@microsoft.com`
+預設不針對自訂視覺效果啟動本機存放區 API。 如果想要針對自己的自訂視覺效果啟動該 API，請將要求傳送給 Power BI 自訂視覺效果支援 (`pbicvsupport@microsoft.com`)。  
+**請注意，您的視覺效果應該在 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) 中提供，且[經過認證](https://powerbi.microsoft.com/en-us/documentation/powerbi-custom-visuals-certified/)。**

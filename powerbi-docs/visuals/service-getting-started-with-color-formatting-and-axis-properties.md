@@ -1,27 +1,27 @@
 ---
-title: 開始使用色彩格式和軸屬性
-description: 開始使用色彩格式和軸屬性
+title: 開始使用格式化報表視覺效果
+description: 開始使用具有報表視覺效果的格式化選項
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b42d83b4cea6f5f5e8908244b2b298dc3f327468
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762247"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540608"
 ---
-# <a name="get-started-with-color-formatting-and-axis-properties"></a>開始使用色彩格式和軸屬性
-在 **Power BI** 中，您可以變更資料數列、資料點、甚至視覺效果背景的色彩。 您也可以變更 x 軸和 y 軸的顯示方式，讓您完全掌控儀表板和報表的顯示方式。
+# <a name="getting-started-with-the-formatting-pane"></a>開始使用格式化窗格
+如果您擁有報表的編輯權限，則有許多格式化選項可供您使用。 在 **Power BI** 報表中，您可以變更資料數列、資料點、甚至視覺效果背景的色彩。 您可以變更 X 軸和 Y 軸的呈現方式。 您甚至可以格式化視覺效果的字型屬性、圖形和標題，進而完全掌控報表的顯示方式。
 
-若要開始，請從 [我的工作區]  窗格選取 [報表]  。 然後從上方的功能表區域選取 [編輯報表]  。  
+請在 Power BI Desktop 或 Power BI 服務開啟報表以開始使用。 這兩者提供近乎相同的格式化選項。 在 Power BI 服務開啟報表時，請務必從功能表列選取 [編輯報表]  。  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
+![顯示 [編輯] 選項的功能表列](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
 當您編輯報表並選取了視覺效果時，[視覺效果]  窗格會隨即出現，讓您新增或變更視覺效果。 可用視覺效果的正下方有三個圖示：**欄位**圖示 (堆疊的橫條)、**格式**圖示 (滾筒筆刷) 和**分析**圖示 (放大鏡)。 在下圖中，選取了**欄位**圖示 (圖示下方黃色列所指出)。
 
