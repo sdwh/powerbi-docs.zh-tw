@@ -1,20 +1,20 @@
 ---
 title: 在 Power BI 視覺效果中使用資料檢視公用程式的簡介
 description: 本文描述如何使用 SVG 公用程式來簡化 Power BI 視覺效果的 DataView 物件剖析作業
-author: vtkalek
-ms.author: asander
-manager: asander
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 16dc3c6ec1125f85282670091bc41057ae5b1112
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 79ad33a632a1f4935f462bcde0d36f2ccc55a2bd
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308655"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76818977"
 ---
 # <a name="dataviewutils"></a>DataViewUtils
 

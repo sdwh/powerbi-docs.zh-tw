@@ -1,20 +1,20 @@
 ---
 title: 在 Power BI 視覺效果中使用格式化公用程式的簡介
 description: 本文描述如何使用格式化公用程式來格式化值，並將當地語系化套用至 Power BI 視覺效果中的值
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 manager: rkarlin
-ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 425a872c395df1b69297ae799e7059de687f8fb0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 9ae7e4b976cef2217c3742ef808a9a7063695cbc
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700332"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819460"
 ---
 # <a name="formatting-utils"></a>格式化公用程式
 

@@ -1,20 +1,20 @@
 ---
 title: 了解 Power BI 視覺效果中的資料檢視對應
 description: 此文章說明 Power BI 如何轉換資料，再將它傳入視覺效果。
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 85cfa292055f7db96dcb714ec8c4dd78fe75ee67
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ad63a1b97c744e8614e584874c4d896a85598e48
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700286"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819115"
 ---
 # <a name="add-the-locale-in-power-bi-for-custom-visuals"></a>在 Power BI 中為自訂視覺效果新增地區設定
 
