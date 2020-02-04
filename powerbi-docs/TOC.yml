@@ -457,6 +457,8 @@
           href: service-get-started.md
         - name: 連線到 GitHub 範例
           href: service-tutorial-connect-to-github.md
+        - name: 使用 Excel 分析
+          href: service-tutorial-analyze-in-excel.md
         - name: 使用認知服務
           href: service-tutorial-use-cognitive-services.md
         - name: 機器學習服務整合
