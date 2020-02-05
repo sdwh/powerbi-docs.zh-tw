@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73925815"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975025"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>使用 Power BI 連接到所用服務
 您可以使用 Power BI 連接到執行業務所用的多個服務，例如 Salesforce、Microsoft Dynamics 和 Google Analytics。 Power BI 首先會使用您的認證來連接至服務。 它會建立 Power BI「工作區」  ，內含儀表板和一組 Power BI 報表，可自動顯示資料並提供業務相關的視覺見解。
@@ -71,5 +71,4 @@ ms.locfileid: "73925815"
 * [散發應用程式給您的同事](service-create-distribute-apps.md)
 * [在 Power BI 中建立新的工作區](service-create-the-new-workspaces.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-* 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

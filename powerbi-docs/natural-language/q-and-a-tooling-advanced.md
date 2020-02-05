@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
 ms.openlocfilehash: 64a6294ca30901c61928eca068ab4ebbb3d39638
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74958509"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>編輯問與答語言結構描述和新增片語 - Power BI Desktop 
@@ -32,7 +32,7 @@ ms.locfileid: "74958509"
 
 語言結構描述以 .yaml 格式儲存。 此格式與熱門的 JSON 格式有關，但提供更有彈性也更容易閱讀的語法。 語言結構描述可以在 Power BI Desktop 中編輯、匯出及匯入。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 - 如果您尚未閱讀關於[改進問與答資料模型](q-and-a-best-practices.md)的文章，建議您先閱讀該文章。 該文包含了許多用於設計和改進資料模型的秘訣，以及有關新增同義字的重要章節。  
 - 下載範例 [.yaml 及 .pbix 檔案](https://go.microsoft.com/fwlink/?linkid=871858)。   
