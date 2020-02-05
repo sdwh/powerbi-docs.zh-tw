@@ -10,10 +10,10 @@ ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75761879"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>在 Power BI Desktop 中建立書籤來共用見解並建立故事
@@ -41,7 +41,7 @@ ms.locfileid: "75761879"
 * 視覺效果選取狀態 (例如交叉醒目提示篩選條件)
 * 排序次序
 * 鑽研位置
-* 物件的可見度 (透過使用 [選取範圍]  窗格)
+* 物件的可見度 (透過使用 [選取]  窗格)
 * 任何可見物件的焦點或**聚焦**模式
 
 以您想要在書籤中顯示的方式來設定報表頁面。 將報表頁面和視覺效果排列成您想要的方式之後，從 [書籤]  窗格中選取 [新增]  以新增書籤。 
@@ -87,7 +87,7 @@ Power BI Desktop 會建立書籤，並為其提供泛型名稱。 您可以選�
 ## <a name="visibility-using-the-selection-pane"></a>可見度：使用 [選取範圍] 窗格
 與 [書籤]  窗格相關，[選取範圍]  窗格提供目前頁面上的所有物件清單，可讓您選取物件並指定該物件是否為可見。 
 
-![啟用 [選取範圍] 窗格](media/desktop-bookmarks/bookmarks_08.png)
+![啟用 [選取] 窗格](media/desktop-bookmarks/bookmarks_08.png)
 
 在 [選取範圍]  窗格中，您可以選取物件，並藉由選取物件右側的眼睛圖示來切換物件目前是否可見。 
 
@@ -174,9 +174,9 @@ Power BI Desktop 會自動將群組命名為「群組 1」  。 您可以選取�
 如果在新增書籤時選取焦點或聚焦模式，則書籤中會保留該模式。
 
 ## <a name="bookmarks-in-the-power-bi-service"></a>Power BI 服務中的書籤
-當將至少含有一個書籤的報表發佈至 Power BI 服務時，您可以在 Power BI 服務中檢視這些書籤並與其互動。 當報表中有可用的書籤時，您可以藉由選取 [檢視]   > [選取範圍窗格]  或 [檢視]   > [書籤窗格]  來顯示 [選取]  和 [書籤]  窗格。 
+當將至少含有一個書籤的報表發佈至 Power BI 服務時，您可以在 Power BI 服務中檢視這些書籤並與其互動。 當報表中有可用的書籤時，您可以藉由選取 [檢視]   > [選取窗格]  或 [檢視]   > [書籤窗格]  來顯示 [選取]  和 [書籤]  窗格。 
 
-![在 Power BI 服務中檢視 [書籤窗格] 和 [選取範圍窗格]](media/desktop-bookmarks/bookmarks_14.png)
+![在 Power BI 服務中檢視 [書籤窗格] 和 [選取窗格]](media/desktop-bookmarks/bookmarks_14.png)
 
 在 Power BI 服務中，[書籤]  窗格的運作方式就像是在 Power BI Desktop 中一樣，包括能夠選取 [檢視]  以類似投影片放映的方式來依序顯示書籤。
 

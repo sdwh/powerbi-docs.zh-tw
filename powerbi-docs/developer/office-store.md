@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/02/2019
 ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999878"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>將 Power BI 視覺效果發佈至合作夥伴中心
@@ -51,7 +51,7 @@ ms.locfileid: "74999878"
 * description
 * supportUrl
 * 編寫
-* 名稱
+* name
 * 電子郵件
 
 在您的電子郵件中附加 **pbiviz 檔案**與**範例報告 pbix 檔案**。 Power BI 小組會回覆指示和要上傳的應用程式套件 XML 檔案。 需要有此 XML 應用程式套件，才能透過 Office 開發人員中心提交您的視覺效果。
