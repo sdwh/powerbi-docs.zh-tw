@@ -10,10 +10,10 @@ ms.date: 10/31/2019
 ms.author: kfollis
 LocalizationGroup: Get started
 ms.openlocfilehash: 13928bc39801cdaccf73450da64c4f84048fbce3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74791644"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>以個人身分註冊 Power BI
@@ -38,7 +38,7 @@ Power BI 可以是您的個人資料分析和視覺效果工具，也可以作�
 
 1. 請前往[註冊頁面](https://signup.microsoft.com/signup?sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235)。
 
-1. 輸入您的電子郵件地址，然後選取 [註冊]  。
+1. 輸入您的電子郵件地址，然後選取 [註冊]。
 
     ![開始使用](media/service-self-service-signup-for-power-bi/get-started.png)
 
@@ -50,7 +50,7 @@ Power BI 可以是您的個人資料分析和視覺效果工具，也可以作�
 
     ![現有帳戶](media/service-self-service-signup-for-power-bi/existing-account.png)
 
-1. 輸入您收到的代碼，然後選取 [註冊]  。
+1. 輸入您收到的代碼，然後選取 [註冊]。
 
     ![註冊](media/service-self-service-signup-for-power-bi/sign-up.png)
 
@@ -58,7 +58,7 @@ Power BI 可以是您的個人資料分析和視覺效果工具，也可以作�
 
     ![電子郵件驗證](media/service-self-service-signup-for-power-bi/email-verification.png)
 
-1. 在下一個畫面中，輸入您的資訊和電子郵件中的驗證碼。 選取區域，並檢閱從此畫面連結的原則，然後選取 [啟動]  。
+1. 在下一個畫面中，輸入您的資訊和電子郵件中的驗證碼。 選取區域，並檢閱從此畫面連結的原則，然後選取 [啟動]。
 
     ![建立帳戶](media/service-self-service-signup-for-power-bi/create-account.png)
 

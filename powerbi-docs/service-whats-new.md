@@ -10,10 +10,10 @@ ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
 ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265346"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
@@ -375,7 +375,7 @@ ms.locfileid: "74265346"
 ***儀表板***
 
 * 全螢幕模式︰不須先結束全螢幕模式也能列印
-* 全螢幕模式︰展開您要填滿整個畫布的磚，然後選取 [符合寬度]  來移除多餘的空白字元
+* 全螢幕模式︰展開您要填滿整個畫布的磚，然後選取 [符合寬度] 來移除多餘的空白字元
 * 使用磚流程將您的磚自動對齊畫布左上角。
 
 ***Quick Insights (深入資訊摘要)***

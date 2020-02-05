@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/04/2019
 ms.openlocfilehash: cac59a4689eecd75c53ca1c62d7b097438b2ae53
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74310826"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>為 Power BI 應用程式取得 Azure AD 存取權杖
@@ -172,7 +172,7 @@ protected void Page_Load(object sender, EventArgs e)
 
 ### <a name="access-token-with-service-principal"></a>搭配服務主體的存取權杖
 
-對於此方法，您可以使用[服務主體](embed-service-principal.md)，即「僅限應用程式」  權杖。 應用程式會使用服務主體來對 Azure AD 進行驗證。 下列顯示的範例程式碼來自 [App owns data 範例](https://github.com/guyinacube/PowerBI-Developer-Samples)
+對於此方法，您可以使用[服務主體](embed-service-principal.md)，即「僅限應用程式」權杖。 應用程式會使用服務主體來對 Azure AD 進行驗證。 下列顯示的範例程式碼來自 [App owns data 範例](https://github.com/guyinacube/PowerBI-Developer-Samples)
 
 #### <a name="embedservicecs"></a>EmbedService.cs
 
