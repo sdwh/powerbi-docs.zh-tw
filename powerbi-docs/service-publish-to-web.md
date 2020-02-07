@@ -1,24 +1,24 @@
 ---
 title: Power BI 的 [發行至 Web]
 description: 透過 Power BI 的 [發行至 Web]，您可以輕鬆地使用任何裝置，線上內嵌互動式 Power BI 視覺效果，例如內嵌至部落格文章、網站，或透過電子郵件、社交媒體傳送。
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/16/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1fd640922f132f56a03b37ed59a6267a5af83d00
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311715"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76913633"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
-透過 Power BI 的 [發佈至 Web]  選項，您可以輕鬆地使用任何裝置，線上內嵌互動式 Power BI 視覺效果，例如內嵌至部落格文章、網站，或透過電子郵件、社交媒體傳送。 您也可以輕鬆編輯、更新、重新整理或取消共用已發佈的視覺效果。
+透過 Power BI 的 [發佈至 Web]  選項，您可以輕鬆地從任何裝置透過電子郵件或社交媒體，線上內嵌互動式 Power BI 視覺效果，例如內嵌至部落格文章、網站。 您也可以輕鬆編輯、更新、重新整理或取消共用已發佈的視覺效果。
 
 > [!WARNING]
 > 使用 [發佈至 Web]  時，網際網路上的任何人都可以檢視您發佈的報表或視覺效果。 這不需要驗證，且包括檢視報表彙總的詳細資料等級資料。 發佈此報表之前，請確定您可以公開分享資料及視覺效果。 請勿發行機密或專屬資訊。 如有疑問，請先核查貴組織的原則再發行。
@@ -39,20 +39,24 @@ ms.locfileid: "74311715"
 1. 在工作區中開啟您可以編輯的報表，然後選取 [檔案]  > [發佈至 Web]  。
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
+   
+2. 如果您的 Power BI 系統管理員尚未允許您建立內嵌程式碼，請連絡他們
 
-2. 檢閱對話方塊內容，並選取 [建立內嵌程式碼]  。
+   ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
+3. 檢閱對話方塊內容，並選取 [建立內嵌程式碼]  。
 
    ![PtW2](media/service-publish-to-web/publish_to_web2_ga.png)
 
-3. 檢閱以下所顯示的警告，並確認資料是否可以內嵌在公開網站上。 如果可以，請選取 [發佈]  。
+4. 檢閱以下所顯示的警告，並確認資料是否可以內嵌在公開網站上。 如果可以，請選取 [發佈]  。
 
    ![PtW3](media/service-publish-to-web/publish_to_web3_ga.png)
 
-4. 隨即顯示內含連結的對話方塊。 您可以使用電子郵件來傳送此連結、將它內嵌在 iFrame 之類的程式碼中，或將它直接貼到網頁或部落格。
+5. 隨即顯示內含連結的對話方塊。 您可以使用電子郵件來傳送此連結、將它內嵌在 iFrame 之類的程式碼中，或將它直接貼到網頁或部落格。
 
    ![PtW4](media/service-publish-to-web/publish_to_web4.png)
 
-5. 如果您之前建立了報表的內嵌程式碼，並選取 [發佈至 Web]  ，則不會看到步驟 2-4 中的對話方塊。 而是隨即顯示 [內嵌程式碼]  對話方塊：
+6. 如果您之前建立了報表的內嵌程式碼，並選取 [發佈至 Web]  ，則不會看到步驟 2-4 中的對話方塊。 而是隨即顯示 [內嵌程式碼]  對話方塊：
 
    ![PtW5](media/service-publish-to-web/publish_to_web5.png)
 
@@ -73,7 +77,7 @@ ms.locfileid: "74311715"
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>iFrame 高度和寬度的秘訣和訣竅
 
-[發佈至 Web]  內嵌程式碼看起來如下所示：
+[發佈至 Web]  內嵌程式碼看起來如下列範例所示：
 
 ![PtW7](media/service-publish-to-web/publish_to_web7.png)
  
@@ -141,16 +145,27 @@ ms.locfileid: "74311715"
 
 ## <a name="tenant-setting"></a>租用戶設定
 
-Power BI 系統管理員可以啟用或停用 [發佈至 Web ]  功能。 他們也可以限制對特定群組的存取，這可能會影響您建立內嵌程式碼的能力。
+[發行至 Web]  設定能提供的選項，可讓您設定哪些使用者可以建立內嵌程式碼。
+
+![發行到 Web 設定](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+系統會要求您連絡 Power BI 管理員，以在 [選擇內嵌程式碼的運作方式]  選項設定為 [僅允許現有內嵌程式碼]  ，且 [發行至 Web]  設定為 [啟用]  的情況下建立內嵌程式碼。
+
+![[發行至 Web] 提示](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
+Power BI 系統管理員可以啟用或停用 [發佈至 Web ]  功能。 他們也可以限制對特定群組的存取，這可能會影響您建立內嵌程式碼的能力。 視 [發行至 Web]  設定而定，您會在 UI 中看到不同的選項。
 
 |特徵 |允許整個組織使用 |不允許整個組織使用 |特定安全性群組   |
 |---------|---------|---------|---------|
 |報告 [檔案]  功能表下的 [發佈至 Web] |針對全部啟用|並非所有人都可看到|只有經授權的使用者或群組才可看到。|
 |[設定]  下的 [管理內嵌程式碼] |針對全部啟用|針對全部啟用|針對全部啟用。<br><br>[刪除]*   選項僅適用於經授權的使用者或群組。<br>針對全部啟用 [取得驗證碼]*   。|
-|系統管理員入口網站內的 [內嵌程式碼] |狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態會顯示 [已停用] |狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者未以租用戶設定作為基礎加以授權，狀態會顯示成 [侵害]  。|
+|系統管理員入口網站內的 [內嵌程式碼] |狀態會反映下列其中一個狀態：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態會顯示 [已停用] |狀態會反映下列其中一個狀態：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者未以租用戶設定作為基礎加以授權，狀態會顯示成 [侵害]  。|
 |現有的已發佈報告|全部已啟用|全部已停用|報告會繼續針對全部項目呈現。|
 
 ## <a name="understanding-the-embed-code-status-column"></a>了解內嵌程式碼狀態欄
+
+>[!Note]
+>您應該定期檢閱您已發行的內嵌程式碼，並移除不再需要公開提供的任何內嵌程式碼。 
 
 [管理內嵌程式碼]  頁面包含狀態資料行。 根據預設，內嵌程式碼都是 [使用中]  ，但也可以是下列其中一種狀態。
 

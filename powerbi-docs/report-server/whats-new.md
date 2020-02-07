@@ -1,29 +1,174 @@
 ---
 title: Power BI 報表伺服器的新功能
-description: 了解 Power BI 報表伺服器的新功能。 其涵蓋主要功能範圍，並會隨著新項目發行而更新。
+description: 了解 Power BI 報表伺服器的新功能。 本文涵蓋主要功能範圍，並會隨著新項目發行而更新。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
-ms.openlocfilehash: 526a971817c50599bf77ae085f3d5ff07294b25b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 01/23/2020
+ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858750"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819552"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
-了解 Power BI 報表伺服器的新功能，以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop。 本文涵蓋主要功能範圍，且會隨著每個新版本而更新。
+了解 Power BI 報表伺服器中的新功能，以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop 中的新功能。 本文涵蓋主要功能範圍，且會隨著每個新版本而更新。
+
+下載 [Power BI 報表伺服器和針對 Power BI 報表伺服器最佳化的 Power BI Desktop](https://powerbi.microsoft.com/report-server/)。
 
 如需相關的 Power BI「新功能」資訊，請參閱︰
 
 * [Power BI 服務的新功能](../service-whats-new.md)
 * [Power BI Desktop 的新功能](../desktop-latest-update.md)
 * [Power BI 行動裝置 App 的新功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="january-2020"></a>2020 年 1 月
+
+如需詳細資訊，請參閱 Power BI 報表伺服器 2020 年 1 月的部落格文章。
+
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>針對 Power BI 報表伺服器最佳化的 Power BI Desktop
+
+此版本引進許多新功能，例如按鈕的條件式格式化、資料分析改善，以及 KPI 和表格視覺效果的更多格式設定。 以下是更新的摘要清單：
+
+**報告**
+
+- 將資料表資料行或矩陣值設定為自訂 URL
+- KPI 視覺效果格式設定
+- 篩選窗格體驗更新
+
+**分析**
+
+- 有條件地格式化按鈕
+- 載入更多分析見解
+- 新的 DAX 函式：季度
+
+**資料準備**
+
+- 資料分析改善
+
+**其他**
+
+- 新檔案格式：.pbids
+- 模型化作業的效能改善
+
+**報告**
+
+將資料表資料行或矩陣值設定為自訂 URL 
+
+您可以將資料表資料行或矩陣值設定為自訂 URL。 您可在 [格式化] 窗格中的 [設定格式化的條件] 卡片底下找到此新選項。
+
+KPI 視覺效果格式設定 
+
+在本月的版本中，KPI 有新的格式設定選項：
+
+- 指標文字格式設定 (字型家族、色彩和對齊)
+- 趨勢軸透明度
+- 目標和距離文字格式設定 (標籤文字、字型家族、色彩和大小)
+- 距離文字格式設定 (標籤文字、正方向、字型家族、色彩和大小)
+- 新增有格式設定的日期標籤 (字型家族、色彩和大小)
+
+您可以有條件地設定其中一些新的格式化選項：
+
+- 指標字型色彩
+- 目標字型色彩和目標距離字型色彩
+- 良好/不良/中性狀態色彩
+- 日期字型色彩
+
+篩選窗格體驗更新 
+
+我們已經簡化將目前報表轉換到新窗格的程序，作為[最新版本](https://powerbi.microsoft.com/blog/power-bi-report-server-september-2019-feature-summary/#filterPane)新篩選體驗公開推出的一部分。 當您第一次開啟 [Power BI 報表伺服器] 時，您會看到篩選窗格自動更新對話方塊。 在報表伺服器中，這些更新也包含橫幅，當報表必須移轉到新體驗時會顯示。
+
+**分析**
+
+按鈕的條件式格式設定 
+
+這些條件式格式設定更新全部都與按鈕相關。 您現在可以動態地設定下列屬性的格式設定：
+
+- 按鈕文字字型色彩
+- 按鈕文字
+- 圖示線條色彩
+- 外框色彩
+- 填滿色彩
+- 按鈕工具提示 (在動作卡片底下)
+
+載入更多分析見解 
+
+執行「分析」功能來尋找資料中的見解 (例如說明增加) 時，我們只會在一段時間內執行機器學習模型，以及時顯示見解。 如果有大量資料要分析，在初始逾時後，您現在可以選擇繼續執行分析。
+
+*新的 DAX 函式：Quarter*
+
+這個月，我們有新的 DAX 函式：Quarter。 Quarter 函式會傳回對應到指定日期的季度。
+
+**資料準備**
+
+資料分析改善 
+
+這個月，我們在 Power Query 編輯器中的資料分析功能引進幾個重要改善，包括：
+
+- 除了現有的 [依值] 準則外，[資料行設定檔] 窗格值散發視覺效果 (特定是依資料行類型) 的組成多重群組選項。
+- 文字：依文字長度 (字元數)。
+- 編號：依符號 (正/負) 和同位 (奇/偶)。
+- 日期/日期時間：依年、月、日、當年週次、當週的星期幾、上午/下午時間，以及一天內的小時。
+- 針對其他資料類型有更多，例如，邏輯 True/False。
+
+篩選選項 
+
+在 [資料行設定檔] 散發窗格中，您已經可以利用數種類型特定的群組準則。 現在，當群組準則已套用時，您也可以從分佈圖中每個值的圖說文字內篩選。 例如，您可以從日期/日期時間資料行的 [資料設定檔] 窗格中，排除落在指定月份的所有值。
+
+**其他**
+
+新檔案格式：.pbids 
+
+這個月，我們推出新檔案格式：.pbids，簡化組織中報表建立者的「取得資料」體驗。 我們建議系統管理員為常用的連線建立這些檔案。
+
+當報表建立者開啟 .pbids 檔案時，Power BI Desktop 會提示您進行驗證，以連線到檔案中指定的資料來源。 然後，使用者選取要載入模型中的資料表。 他們可能也需要選取資料庫 (如果檔案中未指定的話)。 報表建立者可以從該處開始建立視覺效果。
+
+《Power BI Desktop 中的資料來源》一文的[使用 .pbids 檔案來取得資料](../desktop-data-sources.md#using-pbids-files-to-get-data)小節中，可找到詳細資訊和範例。
+
+模型化作業的效能改善 
+
+我們已在 Analysis Services 引擎中改善效能，以加速模型化作業，例如，新增量值或計算結果欄，以及建立關聯性。 您所看到的改善數量取決於模型，但對於某些客戶，我們看到開啟檔案和新增量值等動作有 20 倍效能改進。
+
+這就是 2020 年 1 月 Power BI 報表伺服器版本的所有新功能。 請繼續傳送意見反應，別忘了[投票給您想要在 Power BI](https://ideas.powerbi.com/forums/265200-power-bi) \(英文\) 中看到的功能。
+
+### <a name="power-bi-report-server"></a>Power BI 報表伺服器
+
+#### <a name="export-to-excel-from-power-bi-reports"></a>從 Power BI 報表匯出至 Excel
+
+Power BI 報表伺服器中的從 Power BI 報表匯出至 Excel，現在的運作方式與從 Power BI 服務中的從 Power BI 報表匯出至 Excel 相同。 您可以直接匯出至 Excel .xlsx 格式，匯出限制為 150 K 個資料列。
+
+#### <a name="azure-sql-managed-instance-support"></a>Azure SQL 受控執行個體支援
+
+您現在可以在裝載於 VM 或資料中心的 Azure SQL 受控執行個體 (MI) 中，裝載用於 Power BI 報表伺服器的資料庫目錄。 僅支援使用資料庫認證來連線到 SQL MI。
+
+#### <a name="power-bi-premium-dataset-support"></a>Power BI Premium 資料集支援
+
+您可以使用 Microsoft 報表產生器或 SQL Server Data Tools (SSDT) 連線到 Power BI 資料集。 然後您可以使用 SQL Server Analysis Services 連線能力，將這些報表發佈到 Power BI 報表伺服器。 使用者必須使用預存 Windows 使用者名稱和密碼來啟用此情節。
+
+#### <a name="alttext-alternative-text-support-for-report-elements"></a>報表元素的 AltText (替代文字) 支援
+
+撰寫報表時，您可以使用工具提示來指定報表上每個元素的文字。 螢幕助讀程式技術將會使用這些工具提示。
+
+#### <a name="azure-active-directory-application-proxy-support"></a>Azure Active Directory 應用程式 Proxy 支援
+
+若使用 Azure Active Directory 應用程式 Proxy，您就不再需要管理自己的 Web 應用程式 Proxy，以允許透過 Web 或行動裝置應用程式進行安全存取。 如需詳細資訊，請參閱[透過 Azure Active Directory 的應用程式 Proxy 遠端存取內部部署應用程式](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy) \(部分機器翻譯\)。
+
+#### <a name="custom-headers"></a>自訂標頭
+
+針對符合所指定 RegEx 模式的 URL 設定標頭值。 使用者可以使用有效的 XML 來更新自訂標頭值，以設定所選要求 URL 的標頭值。 系統管理員可以在 XML 中新增任意數目的標頭。 如需詳細資訊，請參閱 Reporting Services **伺服器屬性進階頁面**一文中的[自訂標頭](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers)。
+
+#### <a name="transparent-database-encryption"></a>透明資料庫加密
+
+Power BI 報表伺服器現在支援 Power BI 報表伺服器目錄資料庫 (Enterprise 與標準版本) 的透明資料庫加密。
+
+#### <a name="microsoft-report-builder-update"></a>Microsoft 報表產生器更新
+
+新發行的報表產生器版本與 2016、2017 和 2019 版 Reporting Services 完全相容。 其也與所有已發行和支援的 Power BI 報表伺服器版本相容。
 
 ## <a name="september-2019"></a>2019 年 9 月
 
@@ -80,37 +225,39 @@ Power BI 報表伺服器的 2019 年 9 月更新包含了許多 Power BI 報表�
 - 從資料分析複製到剪貼簿
 
 
-## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>2019 年 5 月：適用於 Power BI 報表伺服器的 Power BI Desktop
+## <a name="may-2019"></a>2019 年 5 月
+
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>適用於 Power BI 報表伺服器的 Power BI Desktop
 
 如需所有新功能的詳細資料，請參閱 [Power BI Report Server May 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) (Power BI 報表伺服器 2019 年 5 月) 部落格文章。
 
 以下是此版本的一些重點：
 
-### <a name="performance-analyzer"></a>效能分析器 
+#### <a name="performance-analyzer"></a>效能分析器 
 
 如果您的報表執行速度比預期慢，請嘗試使用 Power BI Desktop 中的效能分析器。 當您予以啟動時，它會建立一個記錄檔，其中包含您在報表中所採取之每個動作的相關資訊。 深入了解[效能分析器](../desktop-performance-analyzer.md)。
 
-### <a name="new-modeling-view"></a>新的模型檢視
+#### <a name="new-modeling-view"></a>新的模型檢視
 
 在 Power BI Desktop 的新模型檢視中，您可以檢視並處理包含許多資料表的複雜資料集。 重點包括多個圖表配置，以及資料行、量值和資料表的大量編輯。 深入了解[模型檢視](../desktop-modeling-view.md)。
 
-### <a name="accessible-visual-interaction"></a>無障礙的視覺效果互動
+#### <a name="accessible-visual-interaction"></a>無障礙的視覺效果互動
 
 您現在可以使用鍵盤導覽來存取許多內建視覺效果上的資料點。 深入了解 [Power BI 報表的協助工具](../desktop-accessibility.md)。
 
-### <a name="conditional-formatting-titles-and-web-url-actions"></a>條件式格式設定標題和 Web URL 動作
+#### <a name="conditional-formatting-titles-and-web-url-actions"></a>條件式格式設定標題和 Web URL 動作
 
 Power BI 報表是互動式報表。 很明顯，報表中的標題會是動態的，用來反映報表的目前狀態。 您可以使用相同的運算式繫結格式設定，讓按鈕、圖形與影像的 URL 成為動態項目。 深入了解[以運算式為基礎的標題](../desktop-conditional-format-visual-titles.md)。
 
-### <a name="cross-highlight-by-axis-labels"></a>依軸標籤的交叉醒目提示
+#### <a name="cross-highlight-by-axis-labels"></a>依軸標籤的交叉醒目提示
 
 選取視覺效果中的軸類別標籤，以交叉醒目提示頁面上的其他項目，就像您在視覺效果中選取資料點一樣。 深入了解[交叉醒目提示](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)。
 
-### <a name="all-the-new-features"></a>所有新功能
+#### <a name="all-the-new-features"></a>所有新功能
 
 以下是所有新功能的清單：
 
-### <a name="reporting"></a>報告
+#### <a name="reporting"></a>報告
 
 - 折線圖單一點上的交叉醒目提示 
 - 標題的自動換行 
@@ -131,24 +278,24 @@ Power BI 報表是互動式報表。 很明顯，報表中的標題會是動態�
 - 程式行資料標籤位置控制項
 - KPI 視覺效果指示器文字大小控制項
 
-### <a name="analytics"></a>分析
+#### <a name="analytics"></a>分析
 
 - 將日期顯示為階層的功能現已正式推出  
 
-### <a name="modeling"></a>模型化
+#### <a name="modeling"></a>模型化
 
 - 新的模型檢視現已正式推出
 - 新的 DAX 函數
 - ALLSELECTED DAX 函式的更新
 - 停用新報表的自動日期資料表
 
-## <a name="may-2019-power-bi-report-server"></a>2019 年 5 月：Power BI 報表伺服器
+### <a name="power-bi-report-server"></a>Power BI 報表伺服器
 
-### <a name="support-for-trusted-visuals"></a>受信任視覺效果的支援
+#### <a name="support-for-trusted-visuals"></a>受信任視覺效果的支援
 
 我們已將受信任視覺效果的支援新增至 Power BI 報表伺服器。 目前我們支援 Mapbox 和 PowerOn 視覺效果。 此版本不支援 ESRI、Visio 和 PowerApps。)
 
-### <a name="improved-security-features"></a>改善的安全性功能
+#### <a name="improved-security-features"></a>改善的安全性功能
 
 **RestrictedResourceMimeTypeForUpload**，系統管理員可用來指定以逗號分隔的禁用 mime 類型清單，例如 text/html。
 
@@ -176,7 +323,7 @@ Power BI 報表中支援下列功能：
 
 **AllowedResourceExtensionsForUpload**：設定可上傳到報表伺服器之資源的延伸模組。 內建檔案類型 (像是 &ast;.rdl 和 &ast;.pbix) 的延伸模組不需要包含在內。 預設為「&ast;、&ast;.xml、&ast;.xsd、&ast;.xsl、&ast;.png、&ast;.gif、&ast;.jpg、&ast;.tif、&ast;.jpeg、&ast;.tiff、&ast;.bmp、&ast;.pdf、&ast;.svg、&ast;.rtf、&ast;.txt、&ast;.doc、&ast;.docx、&ast;.pps、&ast;.ppt、&ast;.pptx」。 
 
-**SupportedHyperlinkSchemes**：設定允許對可轉譯超連結動作定義的 URI 配置逗點分隔清單，或設定 "&ast;" 啟用所有超連結配置。 例如，設定 “http,https” 會允許 “https://www contoso.com” 的超連結， 但是會移除 “mailto:bill@contoso.com” 或 “javascript:window.open(‘www.contoso.com’, ‘_blank’)” 的超連結。 預設為 "&ast;"。
+**SupportedHyperlinkSchemes**：設定允許對可轉譯超連結動作定義的 URI 配置逗點分隔清單，或設定 "&ast;" 啟用所有超連結配置。 例如，設定 "http, https" 會允許 "https://www.contoso.com" 的超連結， 但是會移除 “mailto:bill@contoso.com” 或 “javascript:window.open(‘ www.contoso.com’, ‘_blank’)” 的超連結。 預設為 "&ast;"。
 
 ## <a name="august-2018"></a>2018 年 8 月
 
@@ -388,11 +535,11 @@ Power BI 報表伺服器中的 Power BI 報表可以連線到各種資料來源�
 
 ### <a name="scheduled-data-refresh-for-imported-data"></a>針對匯入的資料排程資料重新整理
 
-在 Power BI 報表伺服器中，您可以設定排程資料重新整理，讓 Power BI 報表中的資料保持與內嵌模型的最新狀態，而不是即時連線或 DirectQuery。 您使用內嵌模型來匯入資料，所以會與原始資料來源中斷連線。 它必須更新以將資料保持在最新狀態，排程重新整理是執行此作業的一種方式。 深入了解「Power BI 報表伺服器中 Power BI 報表的排程重新整理」。
+在 Power BI 報表伺服器中，您可以設定排程資料重新整理，讓 Power BI 報表中的資料保持與內嵌模型的最新狀態，而不是即時連線或 DirectQuery。 若使用內嵌模型，您會匯入資料，所以會與原始資料來源中斷連線。 它必須更新以將資料保持在最新狀態，排程重新整理是執行此作業的一種方式。 深入了解「Power BI 報表伺服器中 Power BI 報表的排程重新整理」。
 
 ### <a name="editing-power-bi-reports-from-the-server"></a>編輯來自伺服器的 Power BI 報表
 
-您可以從伺服器開啟和編輯 Power BI 報表 (.pbix) 檔案，但是您會回到您上傳的原始檔案。  這表示**如果資料已由伺服器重新整理，當您第一次開啟檔案時，不會重新整理資料**。 您必須手動在本機重新整理，才能看到變更。
+您可以從伺服器開啟和編輯 Power BI 報表 (.pbix) 檔案，但是您會回到您上傳的原始檔案。 **如果資料已由伺服器重新整理，當您第一次開啟檔案時，不會重新整理資料**。 您必須手動在本機重新整理，才能看到變更。
 
 ### <a name="large-file-uploaddownload"></a>大型檔案上傳/下載
 
@@ -404,7 +551,7 @@ Power BI 報表伺服器中的 Power BI 報表可以連線到各種資料來源�
 
 ### <a name="scale-out"></a>相應放大
 
-這個版本支援相應放大。使用負載平衡器並設定伺服器親和性，以獲得最佳體驗。 請注意，案例尚未針對相應放大最佳化，因此您會看到模型可能會在多個節點之間複寫。 沒有網路負載平衡器和黏性工作階段，案例也能夠運作。 不過，您不只會看到因為模型載入 N 次導致記憶體跨節點過度使用，也會看到因為每次模型在要求之間觸及新節點都會串流，導致連線之間的效能變慢。  
+這個版本支援相應放大。使用負載平衡器並設定伺服器親和性，以獲得最佳體驗。 案例尚未針對相應放大最佳化，因此您會看到模型可能會在多個節點之間複寫。 沒有網路負載平衡器和黏性工作階段，案例也能夠運作。 不過，您不只會看到因為模型載入 N 次導致各節點記憶體過度使用，也會看到因為每次模型在要求之間觸及新節點都會串流，導致連線之間的效能變慢。  
 
 ### <a name="administrator-settings"></a>系統管理員設定
 
@@ -416,7 +563,7 @@ Power BI 報表伺服器中的 Power BI 報表可以連線到各種資料來源�
 * MaxFileSizeMb：預設值現在為 1000
 * ModelCleanupCycleMinutes：檢查並從記憶體收回模型的頻率
 * ModelExpirationMinutes：模型到期並收回的時間長度 (根據最後一次使用)
-* ScheduleRefreshTimeoutMinutes：模型的資料重新整理可以花多長的時間。 預設為兩小時。  沒有硬性上限。
+* ScheduleRefreshTimeoutMinutes：模型的資料重新整理可以花多長的時間。 預設為 2 小時。  沒有硬性上限。
 
 **設定檔 rsreportserver.config**
 
@@ -434,7 +581,7 @@ Power BI 報表伺服器中的 Power BI 報表可以連線到各種資料來源�
 
 針對 SSRS 2017 引進的開發人員 API (REST API) 已針對 Power BI 報表伺服器擴充，以與 Excel 檔案和 .pbix 檔案搭配運作。 一個可能的使用案例是以程式設計方式從伺服器下載檔案、重新整理，然後重新發佈。 舉例來說，這是重新整理 Excel 活頁簿與 PowerPivot 模型的唯一方式。
 
-請注意，對於大型檔案有一個新的個別 API，它會在 Power BI 報表伺服器版本的 Swagger 中更新。 
+有適用於大型檔案的個別新 API，它會在 Power BI 報表伺服器版本的 Swagger 中更新。 
 
 ### <a name="sql-server-analysis-services-ssas-and-the-power-bi-report-server-memory-footprint"></a>SQL Server Analysis Services (SSAS) 和 Power BI 報表伺服器記憶體使用量
 
@@ -472,7 +619,6 @@ Power BI 報表伺服器現在支援新的 Power BI 資料表和矩陣視覺效�
 請查看下列來源掌握 Power BI 報表伺服器新功能的最新消息。
 
 * [Microsoft Power BI 部落格](https://powerbi.microsoft.com/blog/)
-* [SQL Server Reporting Services 小組部落格](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
 * [Guy in a Cube YouTube 頻道](https://aka.ms/guyinacube)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 2d564b22ecf02c0d8593ed5676e46f2eb4168964
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836710"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913559"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -33,7 +33,7 @@ ms.locfileid: "75836710"
 
 透過參數，您可以篩選報表以取得一或多個值，即使這些值包含空格或特殊字元也一樣。 基本語法相當簡單；只要從報表 URL 著手、新增問號，然後新增您的篩選語法即可。
 
-URL?filter=***資料表***/***欄位*** eq '***值***'
+*URL*?filter=*資料表*/*欄位* eq '*值*'
 
 ![具篩選的 URL](media/service-url-filters/power-bi-filter-urls7b.png)
 
@@ -84,6 +84,18 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 ![針對北卡羅來納州篩選的報表](media/service-url-filters/power-bi-report4.png)
 
+## <a name="filter-on-more-than-one-value-in-a-field"></a>依欄位中多個值篩選
+
+若要在單一欄位中篩選多個值，您可以使用 **in** 運算子，而不是 **and** 運算子。 語法為：
+
+*URL*?filter=*資料表*/*Field* **in** ('*值1*', '*值2*')
+
+使用相同的範例，若要篩選報表，使其只顯示 "NC" (北卡羅萊納州) 或 "TN" (田納西州) 門市的資料，請將下列內容加到 URL 後；
+
+?filter=Store/Territory in ('NC', 'TN')
+
+如需其他有用運算子的清單，請參閱本文稍後的[運算子](#operators)表格。
+
 ## <a name="filter-on-multiple-fields"></a>篩選多個欄位
 
 您也可以將額外參數新增至 URL，以篩選多個欄位。 讓我們回到原始的篩選參數。
@@ -97,8 +109,6 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 ```
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/0sDGKxOaC8w?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="operators"></a>運算子
 

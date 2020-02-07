@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 444a6978b0fcf841f0d0a3b2d50cc70062389cba
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222010"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888354"
 ---
 # <a name="get-power-bi-desktop"></a>取得 Power BI Desktop
 Power BI Desktop 可讓您建立進階查詢、模型，以及將資料視覺化的報表。 透過 Power BI Desktop，您可以建置資料模型、建立報表，並將成果發佈到 Power BI 服務與他人共用。 Power BI Desktop 為免費下載。
@@ -132,6 +132,8 @@ Power BI Desktop 可讓您建立進階查詢、模型，以及將資料視覺化
 |INSTALLLOCATION     |您想要安裝它的檔案路徑         |
 |LANGUAGE     |地區設定代碼 (例如 en-US、de-DE、pr-BR)，強制執行應用程式的預設語言。 如不指定語言，則 Power BI Desktop 會顯示 Windows 作業系統的語言。 您可以在 [選項]  對話方塊中變更此設定。         |
 |REG_SHOWLEADGENDIALOG     |值為 0 會停止顯示登入 Power BI Desktop 之前出現的對話方塊。         |
+|DISABLE_UPDATE_NOTIFICATION     |值為 1 時，會停用更新通知。         |
+
 
 例如，您可以使用德文以下列選項和參數執行 Power BI Desktop，在沒有任何使用者介面的狀況下執行安裝作業： 
 

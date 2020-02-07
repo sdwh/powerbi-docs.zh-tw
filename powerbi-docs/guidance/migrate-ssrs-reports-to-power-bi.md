@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ce8644decb758775c0bbff87df7975a64692a2
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75886105"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889228"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>將 SQL Server Reporting Services 報表移轉到 Power BI
 
@@ -104,6 +104,8 @@ ms.locfileid: "75886105"
 
 如果 RDL 報表依賴 [Power BI 編頁報表尚未支援](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)的功能，您可以計劃將其重新開發為 [Power BI 報表](../consumer/end-user-reports.md)。 即使您的 RDL 報表可以遷移，我們還是建議您考慮將其現代化為 Power BI 報表 (若有意義的話)。
 
+如果您的 RDL 報表需要從內部部署資料來源  擷取資料，其無法使用單一登入 (SSO)。 目前，從這些來源進行的所有資料擷取都會使用閘道資料來源使用者帳戶  的安全性內容來完成。 SQL Server Analysis Services (SSAS) 無法以每個使用者為基礎來強制執行資料列層級安全性 (RLS)。
+
 一般而言，Power BI 編頁報表已針對**列印**或 **PDF 產生**進行最佳化。 Power BI 報表已針對**探索和互動**進行最佳化。 如需詳細資訊，請參閱[何時使用 Power BI 中的編頁報表](report-paginated-or-power-bi.md)。
 
 ### <a name="prepare"></a>準備
@@ -116,6 +118,8 @@ ms.locfileid: "75886105"
 1. 熟悉 Power BI 共用，並透過發佈 [Power BI 應用程式](../service-create-distribute-apps.md)來規劃散發內容的方式。
 1. 請考慮使用[共用 Power BI 資料集](../service-datasets-build-permissions.md)取代 SSRS 共用資料來源。
 1. 使用 [Power BI Desktop](../desktop-what-is-desktop.md) 來開發行動裝置最佳化的報表，有可能使用 [Power KPI 自訂視覺效果](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)取代您的 SSRS 行動報表和 KPI。
+1. 重新評估您的報表中 **UserID** 內建欄位的使用方式。 如果您依賴 **UserID** 來保護報表資料，請了解其會針對編頁報表 (裝載於 Power BI 服務時)，傳回使用者主體名稱 (UPN)。 因此，內建欄位會傳回類似 _m.blythe&commat;adventureworks.com_ 的內容，而不是傳回 NT 帳戶名稱，例如 _AW\mblythe_。 您將需要修改資料集定義，也可能需要修改來源資料。 修改並發佈之後，建議您徹底測試報表，以確定資料權限如預期般運作。
+1. 重新評估您的報表中 **ExecutionTime** 內建欄位的使用方式。 針對編頁報表 (裝載於 Power BI 服務時)，內建欄位會以國際標準時間 (或 UTC)  傳回日期/時間。 它可能會影響報表參數的預設值，以及報表的執行時間標籤 (通常會加入至報表頁尾)。
 1. 請確定您的報表作者已安裝 [Power BI 報表產生器](../report-builder-power-bi.md)，而且可在貴組織內輕鬆地散發之後的版本。
 
 ## <a name="migration-stage"></a>移轉階段

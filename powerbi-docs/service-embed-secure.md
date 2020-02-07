@@ -1,20 +1,20 @@
 ---
 title: 在安全入口網站或網站中內嵌報告
 description: Power BI 內嵌功能可讓使用者輕鬆且安全地在內部入口網站中內嵌報表。
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565743"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913598"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全入口網站或網站中內嵌報告
 
@@ -129,7 +129,11 @@ report.src = newUrl;
 
 * 在登入之後，某些瀏覽器會要求您重新整理頁面，特別是使用 InPrivate 或無痕模式時。
 
-* 為獲得單一登入體驗，請使用 [內嵌在 SharePoint Online 中] 選項，或使用[使用者擁有資料](developer/embed-sample-for-your-organization.md)內嵌方法來建置自訂整合。 
+* 如果使用不支援的瀏覽器版本，您可能會遇到問題。 Power BI 支援[下列瀏覽器](power-bi-browsers.md)。
+
+* 不支援傳統 SharePoint Server，因為其需要早於 11 的 Internet Explorer 版本，或啟用相容性檢視模式。
+
+* 為獲得單一登入體驗，請使用[內嵌在 SharePoint Online 中](service-embed-report-spo.md)選項，或使用[使用者擁有資料](developer/embed-sample-for-your-organization.md)內嵌方法來建置自訂整合。 
 
 * 隨著 [內嵌]  選項提供的自動驗證功能無法搭配 Power BI JavaScript API 使用。 針對 Power BI JavaScript API，請使用[使用者擁有資料](developer/embed-sample-for-your-organization.md)內嵌方法。 
 

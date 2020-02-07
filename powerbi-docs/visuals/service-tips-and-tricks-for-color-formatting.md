@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 006288cd380a56ba57697ed285b04b38985b69db
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831582"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76894944"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>在 Power BI 中色彩格式化的秘訣和訣竅
 Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 本文詳細說明一系列秘訣，讓您的 Power BI 視覺效果更吸引人、更加有趣，且視您的需求自訂。
@@ -23,13 +23,15 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 
 * 將主題套用至整個報表
 * 變更單一資料點的色彩
+* 條件式格式設定
 * 根據數值設定圖表的色彩
 * 根據欄位值設定資料點的色彩
 * 自訂色階中所使用的色彩
 * 使用發散色階
+* 將色彩新增至資料表資料列
 * 如何在 Power BI 中復原
 
-若要進行任何變更，您必須正在編輯報表。 開啟報表並從功能表列選取 [編輯報表]  ，如下圖所示。
+若要做出任何變更，您必須要有報表的編輯權限。 在 Power BI Desktop 中，於 [報表]  檢視中開啟報表。 在 Power BI 服務中，這代表您需要開啟報表並在功能表列中選取 [編輯]  ，如下圖所示。
 
 ![哪裡可以找到 [編輯] 功能表](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-report.png)
 
@@ -47,7 +49,7 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 ![已套用 [創新] 主題](media/service-tips-and-tricks-for-color-formatting/power-bi-theme-innovate.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>變更單一資料點的色彩
-有時候您會想要醒目顯示一個特定的資料點。 可能是新產品上市的銷售數字，或推行新計畫之後提升的品質分數。 您可以使用 Power BI 來變更其色彩，進而醒目顯示特定資料點。
+有時候您會想要醒目顯示一個特定的資料點。 這可能是新產品上市的銷售數字，或推行新計畫之後提升的品質分數。 您可以使用 Power BI 來變更其色彩，進而醒目顯示特定資料點。
 
 下列視覺效果會依產品區段來排列單位銷售的次序。 
 
@@ -55,7 +57,7 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 
 假設您想要使用色彩來凸顯 [Convenience]  \(方便\) 區段，以強調這個全新區段的良好表現。 以下是步驟：
 
-展開 [資料色彩]  區段並開啟 [全部顯示]  的滑桿。 這會顯示視覺效果中每個資料項目的色彩。 修改任何資料點。
+展開 [資料色彩]  卡片並開啟 [全部顯示]  的滑桿。 這會顯示視覺效果中每個資料項目的色彩。 您現在可以修改任何資料點。
 
 ![](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
 
@@ -71,7 +73,7 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 
 ![含有綠色、黃色和藍色橫條的橫條圖](media/service-tips-and-tricks-for-color-formatting/power-bi-corporate.png)
 
-有各式各樣可以用色彩變出的花樣。 在下一節，我們要來看看漸層。
+有各式各樣可以用色彩變出的花樣。 在下一節，我們要來看看設定格式化的條件。
 
 ## <a name="conditional-formatting-for-visualizations"></a>視覺效果的條件式格式設定
 根據欄位數值來動態設定色彩，對於視覺效果用途很大。 這樣一來，除了用於設定橫條大小之外，您還可以顯示不同的值，並在單一圖表上顯示兩個值。 或者，您可以使用這個，醒目顯示超過 (或低於) 某個值的資料點 - 也許可以醒目顯示獲利率較低的區域。
@@ -79,7 +81,7 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 下列章節將說明不同的方式，用來依據數值設定色彩。
 
 ### <a name="base-the-color-of-data-points-on-a-value"></a>根據值設定資料點的色彩
-若要根據值變更色彩，請選取要啟用的視覺效果。 選取油漆滾筒圖示並展開 [資料色彩]  卡片，來開啟 [格式化] 窗格。 將滑鼠停留在卡片上，並選取出現的三個垂直點，然後選擇 [條件式格式設定]  。  
+若要根據值變更色彩，請選取要啟用的視覺效果。 選取油漆滾筒圖示來開啟 [格式化] 窗格，然後開啟 [資料色彩]  卡片。 將滑鼠停留在卡片上，並選取出現的三個垂直點，然後選擇 [條件式格式設定]  。  
 
 ![按一下三個垂直點以選取 [條件式格式設定] 選項](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting.gif)
 
@@ -103,9 +105,9 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 
 ![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
 
-現在讓我們來看看，如果在 [最小值]  和 [最大值]  方塊中提供數值會發生什麼事。 針對 [最小值]  和 [最大值]  ，從下拉式方塊選取 [數字]  ，然後將 [最小值]  設定為 3,500，並將 [最大值]  設定為 6,000。
+現在讓我們來看看，如果在 [最小值]  和 [最大值]  方塊中提供數值會發生什麼事。 針對 [最小值]  和 [最大值]  ，從下拉式方塊選取 [自訂]  ，然後將 [最小值]  設定為 3,500，並將 [最大值]  設定為 6,000。
 
-![依據數字的條件式格式設定](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting-number.png)
+![依據數字的條件式格式設定](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting-numbers.png)
 
 藉由設定這些值，漸層不再套用至 **最小值** 以下或 **最大值**以上的圖表；任何超過 **最大值** 的長條色彩皆以綠色顯示，而任何低於 **最小值** 的長條皆以紅色顯示。
 
@@ -116,22 +118,36 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 
 若要使用發散色階，請選取 [發散]  核取方塊。 當 [發散]  設為開啟後，另一個色彩選取器隨即出現，稱為 [中心]  ，如下圖所示。
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging2.png)
+![已選取色階的預設色彩對話方塊](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging-colors.png)
 
 當 [發散]  滑桿設為開啟後，您可以分別設定 [最小值]  、[最大值]  和 [中心]  的色彩。 在下圖中，[中心]  針對 [市佔率 SPLY YTD]  設為 .2，因此值超過 .2 的列是綠色漸層，而低於 1 的長條是紅色。
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging.png)
+![具有紅色和綠色直條的直條圖](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging.png)
+
+## <a name="add-color-to-table-rows"></a>將色彩新增至資料表資料列
+資料表和矩陣針對色彩格式化提供許多選項。 
+
+![預設資料表](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
+
+將色彩套用到資料表或矩陣的其中一個最快方式，是開啟 [格式化] 索引標籤，然後選取 [樣式]  。  在下圖中，我們已選取 [粗體標頭亮色資料列]  。
+
+![預設資料表](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
+
+使用其他色彩格式化選項進行實驗。 在此圖中，我們已在 [資料行標題]  底下變更背景色彩，並變更 [值]  (資料列) 的 [背景色彩]  和 [變更背景色彩]  。
+
+![預設資料表](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>如何在 Power BI 中復原
 如同許多其他 Microsoft 服務和軟體，Power BI 提供簡單的方法，用來復原您的上一個命令。 例如，讓我們假設您變更資料點或一系列資料點的色彩，但您不喜歡視覺效果中出現的色彩。 您不記得之前所用的色彩了，但知道您想要回復該色彩！
 
 若要**復原**上一個動作，或最後幾個動作，您只需要鍵入 CTRL+Z。
 
+若要捨棄您在 [格式化] 卡片上所做的所有變更，請選取 [還原為預設值]  。
+
+![在底部顯示 [還原為預設值] 的 [格式化] 卡片](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
+
 ## <a name="feedback"></a>意見反應
 您有想要分享的秘訣嗎？ 請寄給我們，我們會考慮將您的秘訣加入這裡。
-
->[!NOTE]
->當選取 [格式]  圖示時，Power BI Desktop 也會提供這些可用的色彩、軸和相關的自訂項目。
 
 ## <a name="next-steps"></a>後續步驟
 [開始使用色彩格式和軸屬性](service-getting-started-with-color-formatting-and-axis-properties.md)

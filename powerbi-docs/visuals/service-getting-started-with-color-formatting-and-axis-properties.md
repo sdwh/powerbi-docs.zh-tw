@@ -6,32 +6,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/14/2019
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b42d83b4cea6f5f5e8908244b2b298dc3f327468
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 2433f030f00ec8cd337d97c4402b83ed6c4c5a00
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540608"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895159"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>開始使用格式化窗格
-如果您擁有報表的編輯權限，則有許多格式化選項可供您使用。 在 **Power BI** 報表中，您可以變更資料數列、資料點、甚至視覺效果背景的色彩。 您可以變更 X 軸和 Y 軸的呈現方式。 您甚至可以格式化視覺效果的字型屬性、圖形和標題，進而完全掌控報表的顯示方式。
+如果您擁有報表的編輯權限，則有許多格式化選項可供您使用。 在 Power BI 報表中，您可以變更資料數列、資料點，甚至視覺效果背景的色彩。 您可以變更 X 軸和 Y 軸的呈現方式。 您甚至可以格式化視覺效果、圖形和標題的字型屬性。 Power BI 能讓您完全控制報表的顯示方式。
 
-請在 Power BI Desktop 或 Power BI 服務開啟報表以開始使用。 這兩者提供近乎相同的格式化選項。 在 Power BI 服務開啟報表時，請務必從功能表列選取 [編輯報表]  。  
+請在 Power BI Desktop 或 Power BI 服務開啟報表以開始使用。 這兩者提供近乎相同的格式化選項。 在 Power BI 服務中開啟報表時，請務必從功能表列選取 [編輯]  。 
 
 ![顯示 [編輯] 選項的功能表列](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
-當您編輯報表並選取了視覺效果時，[視覺效果]  窗格會隨即出現，讓您新增或變更視覺效果。 可用視覺效果的正下方有三個圖示：**欄位**圖示 (堆疊的橫條)、**格式**圖示 (滾筒筆刷) 和**分析**圖示 (放大鏡)。 在下圖中，選取了**欄位**圖示 (圖示下方黃色列所指出)。
+當您在編輯報表期間選取視覺效果時，[視覺效果]  窗格會隨即出現。 使用此窗格來變更視覺效果。 [視覺效果]  窗格的正下方有三個圖示：[欄位]  圖示 (堆疊的橫條)、[格式]  圖示 (滾筒筆刷) 和 [分析]  圖示 (放大鏡)。 在下圖中，已選取 [欄位]  圖示 (由圖示下方的黃色列所指出)。
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
+![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
-當您選取 [格式]  時，圖示下的區域會顯示目前所選視覺效果可用的色彩及軸自訂內容。  
+當您選取 [格式]  時，圖示下的區域會顯示目前所選視覺效果可用的自訂。  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_3a.png)
+![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
-您可以自訂每個視覺效果的許多項目：
+您可以針對每個視覺效果自訂許多項目。 可用的選項取決於選取的視覺效果。 其中一些選項如下：
 
 * 圖例
 * X 軸
@@ -44,6 +44,12 @@ ms.locfileid: "76540608"
 * 背景
 * 鎖定外觀比例
 * 框線
+* 工具提示
+* 視覺效果標題
+* 圖形
+* 位置    
+不勝枚舉。
+
 
 > [!NOTE]
 >  
@@ -51,49 +57,101 @@ ms.locfileid: "76540608"
 
 另請注意，如果未選取任何視覺效果，圖示的位置上就會出現 [篩選]  ，讓您將篩選套用至頁面上的所有視覺效果。
 
-讓我們看看一些範例：一個使用色彩，另一個變更軸屬性。 從這裡開始，您應該有準備一整天要自訂色彩、軸和標籤。
+了解如何使用 [格式化] 選項的最好方式便是實際試試看。您一律可以復原變更或是還原為預設值。 有相當大量的選項可供使用，且隨時都會新增新的選項。 我們不可能在一篇文章中描述所有格式化選項。 但為了協助您開始，讓我們一起檢閱其中幾個。 
+
+1. 變更視覺效果中使用的色彩   
+2. 套用樣式    
+3. 變更軸屬性    
+4. 新增資料標籤    
+
+
+
 
 ## <a name="working-with-colors"></a>使用色彩
 
-讓我們一步步完成自訂圖表色彩的必要步驟。
+讓我們一步步完成自訂視覺效果色彩的必要步驟。
 
-1. 我從報表畫布中選擇了 [群組直條圖]  。
-2. 接下來，我選擇 **格式** 圖示來顯示可用的自訂項目。
-3. 然後選取 [資料色彩]  自訂左邊的小型向下箭號。 這會顯示我自訂 [資料色彩] 的方式，以及我選取的視覺效果的特定選項。
-4. 向下展開 [資料色彩]  會顯示其可用的自訂項目。  
-   ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_4a.png)
+1. 選取要啟用的視覺效果。
 
-讓我們進行一些變更。 我可以選取色彩旁邊的向下箭號，變更每個可用的資料數列。 [Cost of living]\(生活花費)  我想用黃色，[Weather]\(天氣)  我想變橙色，而 [Community well-being]\(社區幸福感)  就用綠色。 下列畫面顯示我在最後一個步驟中變更 [生活花費]  。  
+2. 選取油漆滾筒圖示來開啟 [格式化] 索引標籤。[格式化] 索引標籤會顯示選取視覺效果的所有可用格式化元素。
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_5a.png)
+    ![已選取 [格式化] 索引標籤的圖表](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-formatting.png)
 
-下圖顯示這些變更。 哇，多鮮亮的圖表啊。 以下是使用色彩時值得注意的幾個有用的項目。 接下來的畫面也會顯示下列清單中的數字，指出可以存取或變更這些有用項目的位置。
+3. 選取 [資料色彩]  來展開其可用的自訂。  
 
-1. 不喜歡這些色彩嗎？ 沒問題，只要選取 [還原為預設值]  ，所有選項就會還原為預設的設定。 您可針對一種色彩或整個視覺效果這麼做。
-2. 想要調色盤中沒有的色彩嗎？ 只要選取 [自訂色彩]  ，然後從色譜中選擇即可。  
-   ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_6a.png)
+    ![已開啟 [格式化] 索引標籤並展開 [資料色彩] 的圖表](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-data-colors.png)
+
+4. 將 [全部顯示]  變更為 [開啟]，並為直條選取不同的色彩。
+
+    ![已將新色彩套用至某些直條的圖表](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-change-colors.png)
+
+以下是一些處理色彩上的有用提示。 接下來的畫面也會顯示下列清單中的數字，指出可以存取或變更這些有用項目的位置。
+
+1. 不喜歡那個色彩嗎？ 沒問題，只要選取 [還原為預設值]  ，所有選項就會還原為預設的設定。 
+
+2. 所有的色彩變更都不喜歡嗎？ 從 [資料色彩]  區段底部選取 [還原為預設值]  ，您的色彩便會還原為預設設定。 
+
+3. 想要調色盤中沒有的色彩嗎？ 只要選取 [自訂色彩]  ，然後從色譜中選擇即可。  
+
+   ![已開啟色彩調色盤的 [資料色彩] 區段](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-color-extras.png)
 
 對剛才的變更不興奮激動？ 請使用 **CTRL+Z** 復原，就像您以前習慣的。
+
+## <a name="applying-a-style-to-a-table"></a>將樣式套用到資料表
+某些 Power BI 視覺效果會有 [樣式]  選項。 只要按一下，系統便會將一組完整的格式化選項同時套用到您的視覺效果。 
+
+1. 選取資料表或矩陣以使其成為作用中。   
+1. 開啟 [格式化] 索引標籤，然後選取 [樣式]  。
+
+   ![從 [格式化] 索引標籤選取 [樣式]](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-style.png)
+
+
+1. 從下拉式清單選取某個樣式。 
+
+   ![已套用 [粗體標頭亮色資料列] 的相同資料表](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-style-flashy.png)
+
+即使在您套用樣式之後，您還是可以繼續為該視覺效果格式化屬性 (包括色彩)。
+
 
 ## <a name="changing-axis-properties"></a>變更軸屬性
 
 修改 X 軸或 Y 軸通常很有用。 其方法與處理色彩類似，您可以選取要變更的軸左邊的向下箭號圖示來修改座標軸，如下圖所示。  
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
+![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
 
-如果想要摺疊 [X 軸]  選項，只要選取 [X 軸]  旁邊的向上箭號圖示即可。
+在下列範例中，我們已將 Y 軸格式化為：
+- 將標籤移至視覺效果的右側
 
-您可以切換 [X 軸]  旁邊的選項按鈕，將 X 軸標籤整個移除。 也可以選取 [標題]  旁邊的選項按鈕，選擇開啟或關閉軸標題。  
+- 將起始值變更為零。
 
-有各種色彩可供選擇，還有更多自訂項目可以套用至您的 Power BI 報表和儀表板。
+- 將標籤字型色彩變更為黑色
 
-> [!NOTE]
->  
-> 當選取**格式**圖示時，Power BI Desktop 也會提供這些可用的色彩、軸和相關的自訂項目。
+- 將標籤字型大小增加至 12
 
-## <a name="setting-color-from-text-values"></a>從文字值設定色彩
+- 新增 Y 軸標題
 
-從 2018 年 8 月的 **Power BI Desktop** 更新開始，您可以為指定的報表項目，依文字值或十六進位碼設定色彩。 如需詳細資訊，請參閱[設定資料表格式化的條件](../desktop-conditional-table-formatting.md)。
 
+    ![相同的直條圖，但對 Y 軸做出許多格式化](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-axis-changes.png)
+
+您可以切換 **X 軸**或 **Y 軸**旁的選項按鈕，將軸標籤整個移除。 也可以選取 [標題]  旁邊的選項按鈕，選擇開啟或關閉軸標題。  
+
+
+
+## <a name="adding-data-labels"></a>新增資料標籤    
+
+這是我們在您開始自行探索之前，所會提供的最後一個格式化範例。  讓我們將資料標籤新增至區域圖。 
+
+以下是「之前」  的圖片。 
+
+![未格式化的區域圖](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-area-chart.png)
+
+
+以下是「之後」  的圖片。
+
+![已格式化的區域圖](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-data-labels.png)
+
+我們已選取視覺效果來使其成為作用中，並開啟 [格式化] 索引標籤。我們已選取 [資料標籤]  並將其設定為 [開啟]。 然後我們將字型增加至 12，將字型系列變更為 Arial Black，將 [顯示背景]  設定為 [開啟]，然後將背景色彩設定為白色且透明度為 5%。
+
+這只是其中幾個可能的格式化工作。 在 [編輯] 模式中開啟報表並盡情探索 [格式化] 窗格，以建立美麗且富有資訊的視覺效果。
 
 ## <a name="next-steps"></a>後續步驟
 如需詳細資訊，請參閱下列文章：  

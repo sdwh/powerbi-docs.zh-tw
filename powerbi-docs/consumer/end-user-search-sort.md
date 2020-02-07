@@ -1,66 +1,57 @@
 ---
-title: 在 Power BI 服務中搜尋並排序您的內容
-description: 在 Power BI 我的工作區中搜尋和排序內容的文件
+title: 搜尋並尋找您的內容
+description: 針對在 Power BI 服務中搜尋、尋找和瀏覽內容的文件
 author: mihart
 ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 01/27/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a7848cb5931d983ab434a19c934c9e9cb464724
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64570b23700e125e9040f493630317c0c6350d0e
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861745"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889056"
 ---
-# <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>瀏覽：搜尋、尋找和排序 Power BI 服務中的內容
+# <a name="navigation-for-power-bi-consumers-sorting-content"></a>適用於 Power BI 取用者的導覽：排序內容
+
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-有許多方法可以在 Power BI 服務中瀏覽到您的內容。 您工作區內的內容會依類型加以組織：儀表板和報表。  而內容也會依使用情況加以組織：我的最愛、最近、應用程式、與我共用及精選。 為了讓導覽可在一處完成，Power BI「首頁」  會將內容整理在同一個頁面上。 這些通往您內容的不同路徑，可讓您在 Power BI 服務中快速找出您所需的內容。  
 
-## <a name="navigation-within-workspaces"></a>在工作區內瀏覽
+開始使用 Power BI 服務時，您只會有一些內容 (儀表板、報表、應用程式)。 但當同事開始與您共用內容，而您開始下載應用程式時，您可能就會有多內容。 這就是您發現搜尋和排序非常有幫助的時候了。
 
-Power BI「取用者」  通常只會有一個工作區：**我的工作區**。 如果您已經下載 Microsoft 範例，或已建立或下載您自己的儀表板、報表或應用程式，[我的工作區]  將會包含內容。  
+## <a name="searching-for-content"></a>搜尋內容
+ Power BI 服務的幾乎每個部分都可以使用搜尋。 只要尋找 [搜尋] 方塊或 [搜尋] 圖示 ![放大鏡圖示](./media/end-user-search-sort/power-bi-search-icon.png).
 
-在 [我的工作區]  內，Power BI 服務會依類型來劃分您的內容：儀表板、報表、活頁簿和資料集。 當您選取工作區時，您將會看到此組織方式。 在此範例中，[我的工作區]  包含一個儀表板、一個報表、零個活頁簿和一個資料集。
+ 在 [搜尋] 欄位中，輸入儀表板、報表、活頁簿、應用程式或擁有者的全部或部分名稱。 Power BI 會搜尋您的所有內容。 
 
-![影片](./media/end-user-search-sort/myworkspace/myworkspace.gif)
+ ![搜尋報表](./media/end-user-search-sort/power-bi-search-field.png) 
 
-________________________________________
-## <a name="navigation-using-the-search-field"></a>使用 [搜尋] 欄位進行瀏覽
-使用 [我的工作區]  內容檢視來搜尋、篩選及排序您的內容。 在 [搜尋] 欄位中，輸入儀表板、報表、活頁簿或擁有者的全部或部分名稱。  
+ 在某些 Power BI 的區域 (例如工作區) 中，您會發現兩個不同的搜尋欄位。 功能表列中的 [搜尋] 欄位會搜尋您的所有內容，而工作區畫布上的 [搜尋] 欄位只會搜尋該工作區。
 
-因為您只有少數幾個內容，所以不需要搜尋和排序。  但當您擁有許多儀表板和報表時，就會發現搜尋和排序十分有幫助。 例如，下列的報表清單具有 83 個項目。 
+ ![在工作區內搜尋](./media/end-user-search-sort/power-bi-search-fields.png) 
 
-![搜尋報表](./media/end-user-experience/power-bi-search.png)
+## <a name="sorting-content-lists"></a>排序內容清單
 
-您也可以依名稱或擁有者排序內容。 請注意 [名稱]  右邊的向上箭號。 我們目前正在依名稱字母順序遞增排序 83 個項目。 若要變更排序順序為遞減，請選取 [名稱]  。 向上箭號會變更為向下箭號。
+如果您只有少量內容，則可能不需要排序。  但是，如果您有許多儀表板與報告，排序將可協助您找出所需的內容。 例如，此 [與我共用]  內容清單有 63 個項目。 
 
-![排序內容](./media/end-user-experience/power-bi-sort-new.png)
+![[與我共用] 內容清單](./media/end-user-search-sort/power-bi-long-lists.png)
+
+目前，此內容清單會依日期排序，從最新到最舊。 若要變更排序準則，請選取 [日期 (最新)]  右邊的箭號。
+
+![[排序] 下拉式功能表](./media/end-user-search-sort/power-bi-sort-date.png)
+
+
+排序也適用於工作區。 在此範例中，內容是依 [重新整理]  日期來排序。 若要設定工作區的排序準則，請選取欄標頭，然後選取一次來選取該標題，然後再次選取以變更排序方向。 
+
+![搜尋報表](./media/end-user-search-sort/power-bi-workspace-sort.png)
 
 並非所有資料行都可以進行排序。 將滑鼠游標暫留在資料行標題，以探索哪些項目可以進行排序。
-
-___________________________________________________________________
-## <a name="navigation-using-the-nav-pane"></a>使用導覽窗格進行瀏覽
-導覽窗格會以可讓以您更快速地找到需要內容的方式來將內容分類。  
-
-![導覽窗格](./media/end-user-search-sort/power-bi-nav pane.png)
-
-
-- 與您共用的內容可在**與我共用**中取得。
-- 您上次檢視的內容會在**最近**中提供。 
-- 您可以選取 [應用程式]  來找出您的應用程式。
-- **首頁**讓您可從一處檢視最重要的內容、建議的內容及學習資源。
-
-此外，您可以將內容標記為[我的最愛](end-user-favorite.md)和[精選](end-user-featured.md)。 挑選您預期會最常檢視的儀表板或報表，並將它設為 [精選]  內容。 每次開啟 Power BI 服務時，都會先顯示您的精選儀表板。 您有一些經常瀏覽的儀表板和應用程式嗎？ 將它們設為「我的最愛」，即一律可在導覽窗格中看到它們。
-
-![[我的最愛] 飛出視窗](./media/end-user-search-sort/power-bi-favorite.png).
-
 
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解

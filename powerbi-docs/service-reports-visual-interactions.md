@@ -7,15 +7,15 @@ featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 2485d9120b10b41d193189de383a1a92b15378d5
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 116ff1df7ddc75df79e6f2f28296543449498599
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74011090"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894701"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>變更 Power BI 報表中的視覺效果互動方式
 如果您有報表的編輯權限，可以使用 [視覺效果互動]  變更報表頁面上視覺效果相互影響的方式。 
@@ -52,7 +52,7 @@ ms.locfileid: "74011090"
 
         ![[視覺互動] 下拉式清單](media/service-reports-visual-interactions/power-bi-service.png)
 
-3. 若要顯示視覺效果互動控制項，請選取 [編輯互動]  。 Power BI 會將篩選及醒目提示圖示新增至報表頁面上所有其他視覺效果。 您現在可以變更選取的視覺效果與報表頁面上其他視覺效果的互動方式。
+3. 若要顯示視覺效果互動控制項，請選取 [編輯互動]  。 Power BI 會將篩選及醒目提示圖示新增至報表頁面上所有其他視覺效果。 我們可以看到樹狀圖會交叉篩選折線圖和地圖，並會交叉醒目提示直條圖。 您現在可以變更選取的視覺效果與報表頁面上其他視覺效果的互動方式。
    
     ![開啟 [視覺互動] 的報表](media/service-reports-visual-interactions/power-bi-turn-on.png)
 
@@ -61,25 +61,32 @@ ms.locfileid: "74011090"
 藉由在報表頁面上一次選取一個視覺效果，熟悉視覺效果的互動方式。  選取資料點或橫條圖或圖形，並監看對其他視覺效果的影響。 如果您所看到的行為不是您想要的，您可以變更互動。 這些變更會與報表一起儲存，因此您和您的報表取用者將會有相同的視覺效果互動體驗。
 
 
-決定**所選視覺效果**對其他視覺效果的影響。  並也對報表頁面上所有其他視覺效果重複執行動作 (選用)。
+一開始請選取視覺效果來加以啟用。  請注意，頁面上所有其他視覺效果現在都會顯示互動圖示。 粗體圖示是要套用的項目。 接下來，請決定**所選視覺效果**會對其他視覺效果產生什麼影響。  並也對報表頁面上所有其他視覺效果重複執行動作 (選用)。
+
+如果選取的視覺效果應該要：
    
-   * 如應交叉篩選視覺效果，請選取**篩選**圖示 ![篩選圖示](media/service-reports-visual-interactions/power-bi-filter-icon.png)。
-   * 如應交叉醒目提示視覺效果，請選取**醒目提示**圖示 ![醒目提示圖示](media/service-reports-visual-interactions/power-bi-highlight-icon.png)。
-   * 若不應有任何影響，請選取**無影響**圖示 ![無影響圖示](media/service-reports-visual-interactions/power-bi-no-impact.png)。
+   * 交叉篩選頁面上的其中一個其他視覺效果，請選取該視覺效果右上角的**篩選**圖示 ![篩選圖示](media/service-reports-visual-interactions/power-bi-filter-icon.png)。
+   * 交叉醒目提示頁面上的其中一個其他視覺效果，請選取**醒目提示**圖示 ![醒目提示圖示](media/service-reports-visual-interactions/power-bi-highlight-icon.png)。
+   * 不影響頁面上的其中一個其他視覺效果，請選取**沒有影響**圖示 ![沒有影響圖示](media/service-reports-visual-interactions/power-bi-no-impact.png)。
 
 ## <a name="change-the-interactions-of-drillable-visualizations"></a>變更可切入視覺效果的互動
 [某些 Power BI 視覺效果可以切入](consumer/end-user-drill.md)。 根據預設，當您切入視覺效果時，不會影響報表頁面上的其他視覺效果。 但是，您可以變更該行為。 
-
-1. 選取可切入的視覺效果，使其成為作用中狀態。 
 
 > [!TIP]
 > 請使用 [人力資源範例 PBIX 檔案](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)自行嘗試。 有一個直條圖，其中包含 [新進員工]  索引標籤上的向下切入。
 >
 
+1. 選取可切入的視覺效果，使其成為作用中狀態。 
+
+2. 選取向下切入圖示來開啟向下切入。
+
+    ![開啟切入](media/service-reports-visual-interactions/power-bi-drill-down.png)
 
 2. 從功能表列中，選取 [格式]   > [切入篩選其他視覺效果]  。  現在當您向下 (和向上) 切入視覺效果時，報表頁面上的其他視覺效果會變更，以反映目前的切入選取項目。 
 
-    ![開啟切入篩選其他視覺效果](media/service-reports-visual-interactions/power-bi-drill.png).
+    ![開啟切入篩選其他視覺效果](media/service-reports-visual-interactions/power-bi-drill.png)
+
+3. 如果您所看到的行為不是您想要的，您可以[以上述方式](#change-the-interaction-behavior)變更互動。
     
 ## <a name="next-steps"></a>後續步驟
 [在 Power BI 報表中進行篩選和醒目提示](power-bi-reports-filters-and-highlighting.md)

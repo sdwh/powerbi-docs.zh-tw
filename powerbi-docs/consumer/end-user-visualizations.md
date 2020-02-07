@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c182639e97bcaf272c656d2ee2e002e7470efc40
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860973"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888516"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>在報表、儀表板和應用程式中與視覺效果互動
 
@@ -37,32 +37,32 @@ ms.locfileid: "73860973"
 
 
 > [!IMPORTANT]
-> 但是首先，讓我們談談問與答。 問與答是 Power BI 的自然語言搜尋工具。 您可以使用自然語言來鍵入問題，而問與答會以視覺效果形式來回答問題。 取用者可以透過問與答來建立自己的視覺效果。 然而，您使用問與答所建立的視覺效果無法儲存。 但是，如果您想要從資料中知道特定資訊，而設計者未在報表或儀表板中包含該資訊，問與答便是絕佳的選項。 若要深入了解問與答，請參閱[取用者的問與答](end-user-q-and-a.md)。
+> 但是首先，讓我們談談問與答。 問與答是 Power BI 的自然語言搜尋工具。 您可以使用自然語言來鍵入問題，而問與答會以視覺效果形式來回答問題。 取用者可以透過問與答來即時建立自己的視覺效果。 然而，您使用問與答所建立的視覺效果無法儲存。 但是，如果您想要從資料中知道特定資訊，而設計者未在報表或儀表板中包含該資訊，問與答便是絕佳的選項。 若要深入了解問與答，請參閱[取用者的問與答](end-user-q-and-a.md)。
 
 
 
 |工作  |在儀表板中  |在報表中  | 在問與答中
 |---------|---------|---------|--------|
-|[替自己新增視覺效果的註解，或與同事展開關於視覺效果的對話](end-user-comment.md)。     |  可以       |   可以      |  不可以  |
-|[開啟並探索要建立視覺效果的報表](end-user-tiles.md)。     |    可以     |   na      |  不可以 |
-|[檢視影響視覺效果的篩選條件和交叉分析篩選器清單](end-user-report-filter.md)。     |    不可以     |   是      |  可以 |
-|[開啟並探索問與答中的視覺效果 (若「設計師」  使用了問與答來建立視覺效果)](end-user-q-and-a.md)。     |   可以      |   na      |  na  |
-|[在問與答中建立視覺效果 (其用於瀏覽而無法儲存)](end-user-q-and-a.md)。     |   可以      |   如果設計師已將問與答新增至報表      |  可以  |
-|在視覺效果的資料內[要求 Power BI 替您尋找有趣的事物或趨勢](end-user-insights.md)。  這些自動產生的視覺效果稱為「見解」  。     |    可以     |  針對整個報表，而不是個別視覺效果       | 不可以   |
-|[使用「焦點」  模式，一次檢視一個視覺效果](end-user-focus.md)。     | 可以        |   可以      | na  |
-|[查閱上次視覺效果更新的時間](end-user-fresh.md)。     |  可以       |    可以     | na  |
-|[使用*全螢幕模式*或*焦點模式*，一次檢視一個視覺效果，並去除邊界與導覽窗格。](end-user-focus.md)     |   可以      |  可以       | 根據預設  |
-|[列印](end-user-print.md)。     |  可以       |   可以      | 不可以  |
-|[透過新增和修改視覺效果篩選，深入挖掘視覺效果](end-user-report-filter.md)。     |    不可以     |   可以      | 不可以  |
-|將滑鼠暫留於視覺效果，以顯示其他詳細資料和工具提示。     |    可以     |   是      | 可以  |
-|[交叉篩選和交叉醒目提示頁面上的其他視覺效果](end-user-interactions.md)。    |   不可以      |   可以      | na  |
-|[顯示用來建立視覺效果的資料](end-user-show-data.md)。     |  不可以       |   可以      | 不可以  |
-| [變更視覺效果的排序方式](end-user-change-sort.md)。 | 不可以  | 可以  | 可以改寫問題來變更排序  |
-| 為視覺效果新增焦點。 | 不可以  | 可以  |  不可以 |
-| [匯出至 Excel。](end-user-export.md) | 可以 | 可以 | 不可以|
-| [建立警示](end-user-alerts.md)，以在任何值超過所設閾值時通知您。  | 可以  | 不可以  | 不可以 |
-| [交叉篩選和交叉醒目提示頁面上的其他視覺效果](end-user-report-filter.md)。  | 不可以      | 可以  | 不可以  |
-| [切入具有階層的視覺效果](end-user-drill.md)。  | 不可以  | 可以   | 不可以 |
+|[替自己新增視覺效果的註解，或與同事展開關於視覺效果的對話](end-user-comment.md)。     |  是       |   是      |  不可以  |
+|[開啟並探索要建立視覺效果的報表](end-user-tiles.md)。     |    是     |   na      |  不可以 |
+|[檢視影響視覺效果的篩選條件和交叉分析篩選器清單](end-user-report-filter.md)。     |    如果您以焦點模式開啟     |   是      |  不可以 |
+|[開啟並探索問與答中的視覺效果 (若「設計師」  使用了問與答來建立視覺效果)](end-user-q-and-a.md)。     |   是      |   na      |  na  |
+|[在問與答中建立視覺效果 (其用於瀏覽而無法儲存)](end-user-q-and-a.md)。     |   是      |   如果設計師已將問與答新增至報表      |  是  |
+|在視覺效果的資料內[要求 Power BI 替您尋找有趣的事物或趨勢](end-user-insights.md)。  這些自動產生的視覺效果稱為「見解」  。     |    是，適用於磚    |  不可以       | 不可以   |
+|[使用「焦點」  模式，一次檢視一個視覺效果](end-user-focus.md)。     | 是，適用於磚        |   是，適用於視覺效果      | na  |
+|[查閱上次視覺效果更新的時間](end-user-fresh.md)。     |  是       |    是     | na  |
+|[使用全螢幕模式模式，一次檢視一個視覺效果，並去除邊界或瀏覽窗格](end-user-focus.md)  。     |   是      |  是       | 根據預設  |
+|[列印](end-user-print.md)。     |  是       |   是      | 不可以  |
+|[透過新增和修改視覺效果篩選，深入挖掘視覺效果](end-user-report-filter.md)。     |    不可以     |   是      | 不可以  |
+|將滑鼠暫留於視覺效果，以顯示其他詳細資料和工具提示。     |    是     |   是      | 是  |
+|[交叉篩選和交叉醒目提示頁面上的其他視覺效果](end-user-interactions.md)。    |   不可以      |   是      | na  |
+|[顯示用來建立視覺效果的資料](end-user-show-data.md)。     |  不可以       |   是      | 不可以  |
+| [變更視覺效果的排序方式](end-user-change-sort.md)。 | 不可以  | 是  | 可以改寫問題來變更排序  |
+| 為視覺效果新增焦點。 | 不可以  | 是  |  不可以 |
+| [匯出至 Excel。](end-user-export.md) | 是 | 是 | 不可以|
+| [建立警示](end-user-alerts.md)，以在任何值超過所設閾值時通知您。  | 是  | 不可以  | 不可以 |
+| [交叉篩選和交叉醒目提示頁面上的其他視覺效果](end-user-report-filter.md)。  | 不可以      | 是  | na |
+| [切入具有階層的視覺效果](end-user-drill.md)。  | 不可以  | 是   | 不可以 |
 
 ## <a name="next-steps"></a>後續步驟
 回到[取用者的基本概念](end-user-basic-concepts.md)    

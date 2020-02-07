@@ -1,26 +1,26 @@
 ---
 title: 要列入允許清單的 Power BI URL
-description: 本文描述使用 Power BI 的客戶應該可連線的端點。
+description: 此文章列出應列於安全清單以連線到 Power BI 的 URL 端點和連接埠。
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: cd13e36ca7216036a22db332a508e3c825fecf4b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 48406a8c68237d182960b46de67f91dbd2717922
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698777"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894652"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>要列入允許清單的 Power BI URL
 
 **Power BI 線上服務**也稱為 Power BI SaaS (軟體即服務) 應用程式，需要連線到網際網路。 使用 Power BI 線上服務的客戶，應可使用下列端點。
 
-若要使用 Power BI 線上服務，您必須具備連線到下表中標記為**必要**端點的存取權，以及具備在連結網站上標記為**必要**之任一端點的存取權。 若外部網站的連結是某個特定區域，您就只需要檢閱該區段中的端點。
+若要使用 Power BI 線上服務，您必須能連線到下表中標記為**必要**的端點，以及在連結的網站上標記為**必要**的所有端點。 若外部網站的連結是某個特定區域，您就只需要檢閱該區段中的端點。
 
 標記為**選擇性**的端點，也可**列入允許清單**，讓特定功能得以運作。
 
@@ -46,16 +46,17 @@ Power BI 需要仰賴 Office 365 驗證與身分識別區段中的必要端點�
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
 | 1 | **必要：** 後端 API | *.analysis.windows.net | TCP 443 |
-| 2 | **必要：** Office 365 整合 | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/A |
-| 3 | **必要：** 入口網站 | app.powerbi.com | TCP 443 |
-| 4 | **必要：** 服務遙測 | dc.services.visualstudio.com | TCP 443 |
-| 5 | **選擇性：** 資訊訊息 | dynmsg.modpim.com | TCP 443 |
-| 6 | **選擇性：** NPS 問卷 | nps.onyx.azure.net | TCP 443 |
+| 2 | **必要：** 後端 API | *.pbidedicated.windows.net | TCP 443 |
+| 3 | **必要：** Office 365 整合 | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/A |
+| 4 | **必要：** 入口網站 | app.powerbi.com | TCP 443 |
+| 5 | **必要：** 服務遙測 | dc.services.visualstudio.com | TCP 443 |
+| 6 | **選擇性：** 資訊訊息 | dynmsg.modpim.com | TCP 443 |
+| 7 | **選擇性：** NPS 問卷 | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>系統管理
 
-若要在 Power BI 內執行系統管理功能，必須要可連線到以下連結網站中的端點。
+若要在 Power BI 中執行系統管理功能，必須要可連線到以下連結網站中的端點。
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
@@ -64,7 +65,7 @@ Power BI 需要仰賴 Office 365 驗證與身分識別區段中的必要端點�
 
 ## <a name="getting-data"></a>取得資料
 
-若要從例如 OneDrive 等特定資料來源取得資料，必須要能連線到下表中的端點。 組織內使用的特定資料來源可能需要存取其他網際網路網域和 URL。
+若要從例如 OneDrive 等特定資料來源取得資料，必須要能連線到下表中的端點。 組織中使用的特定資料來源可能需要存取其他網際網路網域和 URL。
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
@@ -77,7 +78,7 @@ Power BI 需要仰賴 Office 365 驗證與身分識別區段中的必要端點�
 
 ## <a name="dashboard-and-report-integration"></a>儀表板與報表整合
 
-Power BI 需要特定端點能夠支援您的儀表板與報表。 您必須可連線到以下所列資料表與連結網站中的端點。
+Power BI 需要特定端點以支援您的儀表板與報表。 您必須可連線到以下所列資料表與連結網站中的端點。
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
@@ -86,7 +87,7 @@ Power BI 需要特定端點能夠支援您的儀表板與報表。 您必須可�
 
 ## <a name="custom-visuals"></a>自訂視覺效果
 
-Power BI 需要特定端點能夠檢視及存取自訂的視覺效果。 您必須可連線到以下所列資料表與連結網站中的端點。
+Power BI 需要特定端點以檢視及存取自訂的視覺效果。 您必須可連線到以下所列資料表與連結網站中的端點。
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
@@ -98,7 +99,7 @@ Power BI 需要特定端點能夠檢視及存取自訂的視覺效果。 您必�
 
 ## <a name="related-external-sites"></a>相關的外部網站
 
-Power BI 連結至其他相關網站。 這些網站包括文件、支援、新的功能要求等網站。 這些網站不會影響 Power BI 的功能，因此如有需要，可以選擇性地列入允許清單中。
+Power BI 連結至其他相關網站。 這些網站會裝載文件、支援、新功能要求等。 存取這些網站不會影響 Power BI 的功能，因此列入允許清單是選擇性的。
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |

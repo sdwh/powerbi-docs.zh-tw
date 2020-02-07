@@ -1,6 +1,6 @@
 ---
-title: PDF 轉譯延伸模組符合 ISO 14289-1 - Power BI 報表伺服器
-description: 本文件說明 Power BI 報表伺服器和 SQL Reporting Services PDF 轉譯延伸模組是否符合 ISO 14289-1 (PDF/UA) 規格。
+title: PDF 轉譯延伸模組符合 ISO 14289-1 - Power BI 報表伺服器與 SSRS
+description: 本文件描述 Power BI 報表伺服器和 SQL Server Reporting Services PDF 轉譯延伸模組是否符合 ISO 14289-1 (PDF/UA) 規格。
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,18 +8,18 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: maggies
-ms.openlocfilehash: c800ee995bc3c03b3cbcda91503e6dea9495f6b5
-ms.sourcegitcommit: 721cf375627b010e8ad12c4c668295f38d450a17
+ms.openlocfilehash: bfefcef18b8cd92a5c3b15c2dcbd4653a6c7c9cd
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73638072"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819506"
 ---
-# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server"></a>PDF 轉譯延伸模組符合 ISO 14289-1 - Power BI 報表伺服器 
+# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server--ssrs"></a>PDF 轉譯延伸模組符合 ISO 14289-1 - Power BI 報表伺服器與 SSRS
 
-適用於︰Power BI 報表伺服器和 SQL Reporting Services
+適用於︰Power BI 報表伺服器和 SQL Server Reporting Services (SSRS)
 
-本文件說明 Power BI 報表伺服器和 SQL Reporting Services PDF 轉譯延伸模組是否符合 [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/) 規格。
+本文件描述 Power BI 報表伺服器和 SQL Server Reporting Services PDF 轉譯延伸模組是否符合 [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/) \(英文\) 規格。
 
 > [!NOTE]
 > 您可選取瀏覽器的 [列印]  ，然後選取 [儲存為 PDF]  來儲存或列印本白皮書。

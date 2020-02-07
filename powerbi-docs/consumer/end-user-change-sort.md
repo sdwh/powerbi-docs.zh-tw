@@ -6,40 +6,40 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/01/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: fdd43320fec2b96aa708cb5bb1a21e269a117d2a
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 76370e2b633e21674ba878e70b5ecfc333453c96
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74830662"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76889205"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>變更 Power BI 報表中的圖表排序方式
+
+
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 
 > [!IMPORTANT]
-> **本文適用於不具有報表或資料集編輯權限的 Power BI 使用者。如需排序的詳細指示，請參閱 [Power BI Desktop 中的依資料行排序](../desktop-sort-by-column.md)** 。
+> **此文章適用於沒有報表或資料集編輯權限，且僅使用 Power BI 線上版本 (Power BI 服務) 的 Power BI 使用者。如果您是報表「設計師」  或「系統管理員」  或「擁有者」  ，此文章可能不包含您所需的所有資訊。相反地，請參閱[在 Power BI Desktop 中依資料行排序](../desktop-sort-by-column.md)** 。
 
-在 Power BI 服務中，您可以依不同資料欄位進行排序來變更視覺效果外觀。 您可以藉由變更視覺效果的排序方式來強調所要傳達的資訊。
+在 Power BI 服務中，您可以依不同資料欄位進行排序來變更視覺效果外觀。 您可以藉由變更視覺效果的排序方式來強調所要傳達的資訊。 無論您是使用數值資料 (例如銷售數字) 或文字資料 (例如州名稱)，都能以想要的方式來排序視覺效果。 Power BI 提供更多的排序彈性，以及可供您使用的快速功能表。 
 
 您無法排序儀表板上的視覺效果，但可以在 Power BI 報表中排序大部分視覺效果 
 
-無論您是使用數值資料 (例如銷售數字) 或文字資料 (例如州名稱)，都能以想要的方式來排序視覺效果。 Power BI 提供更多的排序彈性，以及可供您使用的快速功能表。 
-
 ## <a name="get-started"></a>開始使用
 
-若要開始使用，請選取任何視覺效果，然後選擇 [其他動作]  (...)。有三個排序選項：[遞減排序]  、[遞增排序]  和 [排序依據]  。 
+若要開始使用，請選取任何報表視覺效果，然後選擇 [其他動作]  (...)。有三個排序選項：[遞減排序]  、[遞增排序]  和 [排序依據]  。 
     
 
 ![依 X 軸以英文字母排序的橫條圖](media/end-user-change-sort/power-bi-more-actions.png)
 
 ### <a name="sort-alphabetically-or-numerically"></a>依字母或數值順序排序
 
-您可以依視覺效果類別名稱的字母順序來排序視覺效果，或依每個類別的數值排序。 例如，此圖表是依 X 軸商店**名稱**類別的字母順序排序。
+您可以依視覺效果類別文字名稱的字母順序來排序視覺效果，或依每個類別的數值來排序。 例如，此圖表是依 X 軸商店**名稱**類別的字母順序排序。
 
 ![依 X 軸以英文字母排序的橫條圖](media/end-user-change-sort/powerbi-sort-category.png)
 
@@ -55,7 +55,7 @@ ms.locfileid: "74830662"
 > 並非所有的視覺效果都可以排序。 例如，下列視覺效果無法排序：樹狀圖、地圖、區域分布圖、散佈圖、量表圖、卡片、瀑布圖。
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>儲存您對排序次序的變更
-Power BI 報表保留篩選、交叉分析篩選器、排序和您進行的的其他資料檢視變更。 因此如果您離開報表並稍後返回，則會儲存您的排序變更。  如果您想要將所做的變更還原至報表設計師的設定，請從頂端功能表列選取 [重設為預設值]  。 
+Power BI 報表會保留您所做的篩選、交叉分析篩選器、排序與其他資料檢視變更 -- 即使您是在[閱讀檢視](end-user-reading-view.md)中工作也一樣。 因此如果您離開報表並稍後返回，系統會儲存您的排序變更。  如果您想要將所做的變更還原至報表設計師  的設定，請從頂端功能表列選取 [重設為預設值]  。 
 
 ![永續性排序](media/end-user-change-sort/power-bi-reset.png)
 
@@ -65,7 +65,11 @@ Power BI 報表保留篩選、交叉分析篩選器、排序和您進行的的�
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
 ### <a name="sorting-using-other-criteria"></a>使用其他準則排序
-有時候，您會想要使用不同欄位 (未包含在視覺效果中的欄位) 或其他準則來排序視覺效果。  例如，您可能想要依月份循序 (而不是依字母順序) 排序，或您可能想要依整個數值而不是數字排序 (例如 0、1、9、20，而不是 0、1、20、9)。  只有設計報表的人員可以為您進行這些變更。 從標頭列選取報表名稱，即可找到「設計師」  的連絡資訊。
+有時候，您會想要使用不同欄位 (未包含在視覺效果中的欄位) 或其他準則來排序視覺效果。  例如，您可能想要依月份循序 (而不是依字母順序) 排序，或您可能想要依整個數值而不是數字排序 (例如 0、1、9、20，而不是 0、1、20、9)。  
+
+只有設計報表的人員可以為您進行這些變更。 從標頭列選取報表名稱，即可找到「設計師」  的連絡資訊。
+
+如果您是設計師  並擁有內容的編輯權限，請閱讀 [Power BI Desktop 中的依資料行排序](../desktop-sort-by-column.md)，以了解如何更新資料集並啟用此類型的排序。
 
 ![顯示連絡資訊的下拉式清單](media/end-user-change-sort/power-bi-contact.png)
 

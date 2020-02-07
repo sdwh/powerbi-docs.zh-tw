@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 1/22/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0733e726512ff52c5b51ba2d25cea18f8857f1e8
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08a58bd725b8a8da3ff54b5bb670eb70af458dc7
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537573"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819253"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表安裝並使用應用程式
 
@@ -57,7 +57,7 @@ ms.locfileid: "76537573"
 
 在此範例中，我們會開啟其中一個 Microsoft 範例應用程式。 在 AppSource 上，您可以找到執行業務所用的多個服務應用程式。  例如 Salesforce、Microsoft Dynamics、Google Analytics、GitHub、Zendesk、Marketo 等服務。 若要深入了解，請瀏覽[搭配 Power BI 使用的服務應用程式](../service-connect-to-services.md)。 
 
-1. 在瀏覽器中開啟 https://appsource.microsoft.com ，然後選取 **Power BI 應用程式**。
+1. 在瀏覽器中開啟 [https://appsource.microsoft.com](https://appsource.microsoft.com)，然後選取 [Power BI 應用程式]  。
 
     ![已選取 Power BI 應用程式的 AppSource 網站  ](./media/end-user-apps/power-bi-appsource.png)
 

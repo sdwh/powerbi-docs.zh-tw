@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 01/29/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 37107c1092b12a8efc230718c624f104aa31520f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 07fd9a00034a210dfbcc6cae4aa721e3b09bd37a
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74958555"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76889389"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -223,7 +223,7 @@ P1-P3 和 A4_A6 SKU 支援的編頁報表採用 SQL Server Reporting Services �
 
 ![內容共用](media/service-premium-what-is/premium-sharing.png)
 
-Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並不需要 Pro 授權。 內容建立者需要 Pro 授權。 建立者可以連線到資料來源、建立資料模型，然後建立封裝成工作區應用程式的報表和儀表板。 
+Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並不需要 Pro 授權。 內容建立者需要 Pro 授權。 建立者可以連線到資料來源、建立資料模型，然後建立封裝成工作區應用程式的報表和儀表板。 只要 Power BI Premium 容量中的工作區有檢視者角色，沒有 Pro 授權的使用者就仍然可以加以存取。 
 
 若要深入了解，請參閱 [Power BI 授權](service-admin-licensing-organization.md)。
 
