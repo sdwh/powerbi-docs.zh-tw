@@ -7,19 +7,44 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/25/2019
-ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/27/2020
+ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73874282"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819529"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
 此變更記錄適用於 Power BI 報表伺服器，並列出新的項目，以及每個發行組建的 Bug 修正。
 
 如需新功能的詳細資訊，請參閱 [Power BI 報表伺服器的新增功能](whats-new.md)。 
+
+
+## <a name="january-2020"></a>2020 年 1 月
+- **Power BI 報表伺服器**
+    - *版本：1.6.7327.3007 (組建 15.0.1102.759)，發行日期：2020 年 1 月 23 日*
+         - 功能
+            -  從 Power BI 報表匯出至 Excel。
+           -  Power BI Premium 資料集的分頁報表支援。
+           -  分頁報表元素的 AltText (替代文字) 支援。
+           -  自訂標頭的支援。
+           -  Azure SQL 受控執行個體作為目錄的支援。
+           -  目錄的透明資料庫加密。
+        - 安全性更新
+        - Bug 修正
+            - 已修正螢幕閱讀程式、報表轉譯和鍵盤導覽的協助工具。
+            - 儲存多位元組報表標題的修正。
+            - 詳細資訊記錄 (影響報表伺服器可靠性) 的修正。
+          - 確保行動裝置上 Power BI 報表中即時資料的修正。
+          - 當視覺效果在已篩選的 Power BI 報表匯出中時，套用跨視覺效果整體醒目提示的修正。
+          - 針對使用運算式匯出至 Word 時，分頁報表可見性的修正。 
+     
+- **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
+    - *版本：2.76.5678.1521 (2020 年 1 月)，發行日期：2020 年 1 月 23 日* (新的組建和新版本)
+        - 包含與 Power BI 報表伺服器連線所需的變更 (2020 年 1 月)        
+
 
 ## <a name="september-2019"></a>2019 年 9 月
 - **Power BI 報表伺服器**

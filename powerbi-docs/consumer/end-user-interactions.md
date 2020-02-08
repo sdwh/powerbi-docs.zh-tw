@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 512ef5058fdb586a893c5ff9406abf6902ccc4e2
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75303818"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888492"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>如何在 Power BI 報表中相互進行視覺效果交叉篩選
 Power BI 的其中一項絕佳功能，是報表頁面上所有視覺效果互連的方式。 如果您選取其中一個視覺效果的資料點，頁面上包含該資料的其他視覺效果就會全部根據該選取項目而變更。 
@@ -45,7 +45,8 @@ Power BI 的其中一項絕佳功能，是報表頁面上所有視覺效果互�
 
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-- 如果報表所含的視覺效果支援[切入](end-user-drill.md)，則根據預設，當您切入某個視覺效果時，不會影響報表頁面上的其他視覺效果。     
+- 如果報表所含的視覺效果支援[切入](end-user-drill.md)，則根據預設，當您切入某個視覺效果時，不會影響報表頁面上的其他視覺效果。 不過，報表設計師  可以變更此行為，因此請檢查可鑽研的視覺效果，以查看報表設計師  是否已啟用 [鑽研篩選其他視覺效果]  。
+    
 - 交叉篩選和交叉醒目提示報表頁面上的其他視覺效果時，會保留視覺效果層級篩選。 因此，如果 VisualA 具有報表設計師或您所套用的視覺效果層級篩選，且您使用 visualA 與 visualB 互動，則來自 visualA 的視覺效果層級篩選即會套用至 visualB。
 
     ![選取環圈圖 [審核] 區段後的報表頁面](media/end-user-interactions/power-bi-visual-filters.png)
