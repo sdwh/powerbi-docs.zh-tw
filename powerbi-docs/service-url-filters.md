@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913559"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076625"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -193,7 +193,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 使用查詢字串參數時，有幾件點事項要注意。
 
 * 使用 *in* 運算子時，*in* 右方的值必須是前後加上括弧的逗點分隔清單。    
-* 在 Power BI 報表伺服器，[傳遞報表參數](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)的方法可以是將其包含在報表 URL 中。 這些 URL 參數不會有前置詞，因為會直接傳遞到報表處理引擎。
+* Power BI 報表伺服器也支援使用 “filter” URL 參數來指定額外篩選的能力。  例如，在 Power BI 報表伺服器中，URL 看起來可能會像下面這樣： https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 * 查詢字串篩選不適用於[發佈至 Web](service-publish-to-web.md) 或[匯出為 PDF](consumer/end-user-pdf.md)。
 * [在 SharePoint Online 中內嵌報表 Web 組件](service-embed-report-spo.md)不支援 URL 篩選。
 * 由於 JavaScript 限制，Long 資料類型為 (2^53-1)。

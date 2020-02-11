@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/06/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a9417e7de98e0fa1867aa0561743c1ed6c5b63e2
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76913633"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076714"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
-透過 Power BI 的 [發佈至 Web]  選項，您可以輕鬆地從任何裝置透過電子郵件或社交媒體，線上內嵌互動式 Power BI 視覺效果，例如內嵌至部落格文章、網站。 您也可以輕鬆編輯、更新、重新整理或取消共用已發佈的視覺效果。
+透過 Power BI 的 [發佈至 Web]  選項，您可以輕鬆地從任何裝置透過電子郵件或社交媒體，線上內嵌互動式 Power BI 視覺效果，例如內嵌至部落格文章、網站。 您也可以輕鬆編輯、更新、重新整理或停止共用已發佈的視覺效果。
 
 > [!WARNING]
 > 使用 [發佈至 Web]  時，網際網路上的任何人都可以檢視您發佈的報表或視覺效果。 這不需要驗證，且包括檢視報表彙總的詳細資料等級資料。 發佈此報表之前，請確定您可以公開分享資料及視覺效果。 請勿發行機密或專屬資訊。 如有疑問，請先核查貴組織的原則再發行。
@@ -40,9 +40,11 @@ ms.locfileid: "76913633"
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
    
-2. 如果您的 Power BI 系統管理員尚未允許您建立內嵌程式碼，請連絡他們
+2. 如果您的 [Power BI 管理員](service-admin-role.md)尚未允許您建立內嵌程式碼，請與其連絡
 
    ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+   
+   如需尋找您組織中可啟用 [發佈至 Web] 之人員的協助，請[查看這些提示](#how-to-find-your-power-bi-administrator)。
 
 3. 檢閱對話方塊內容，並選取 [建立內嵌程式碼]  。
 
@@ -71,9 +73,9 @@ ms.locfileid: "76913633"
 
 | 檢視模式 | 內嵌時的外觀 |
 | --- | --- |
-| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |[符合一頁大小]  會遵循報表頁面的高度與寬度。 如果頁面設定為 16:9 或 4:3 之類的「動態」  外觀比例，您的內容就會調整成適合 iFrame 大小。 當內嵌在 iFrame 中時，使用 [符合一頁大小]  會造成「上下黑邊」  ，當內容調整成符合 iFrame 大小後，iFrame 區域會出現灰色背景。 若要將上下黑邊縮到最小，請正確設定 iFrame 的高度及寬度。 |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |[符合一頁大小]  會遵循報表頁面的高度與寬度。 如果頁面設定為 16:9 或 4:3 之類的「動態」  外觀比例，您的內容就會調整成適合 iFrame 大小。 當內嵌在 iFrame 中時，使用 [符合一頁大小]  會造成「上下黑邊」  ，當內容調整成符合 iFrame 大小後，iFrame 區域會出現灰色背景。 若要將上下黑邊縮到最小，請適當地設定 iFrame 的高度與寬度。 |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |[實際大小]  可確保報表維持您在報表頁面上設定的大小。 這會導致 iFrame 中出現捲軸。 設定 iFrame 的高度和寬度以避免出現捲軸。 |
-| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |[符合寬度]  可確保內容符合 iFrame 的水平寬度。 框線仍會顯示，但是內容會調整為使用所有的可用水平空間。 |
+| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |[符合寬度]  可確保內容能填滿 iFrame 的水平區域。 框線仍會顯示，但是內容會調整為使用所有的可用水平空間。 |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>iFrame 高度和寬度的秘訣和訣竅
 
@@ -83,7 +85,7 @@ ms.locfileid: "76913633"
  
 您可以手動編輯寬度與高度，以確保其大小適合您在其中內嵌它的頁面。
 
-若要達到更理想的符合狀態，您可以嘗試在 iFrame 的高度中新增 56 個像素，以配合下方列的目前大小。 如果報表頁面使用動態大小，下表提供一些您可以使用而不會出現上下黑邊的大小。
+若要達到更理想的符合狀態，您可以嘗試為 iFrame 的高度新增 56 個像素，以容納底部列的目前大小。 如果報表頁面使用動態大小，下表提供一些您可以使用而不會出現上下黑邊的大小。
 
 | 外觀比例 | 大小 | 尺寸 (寬度 x 高度) |
 | --- | --- | --- |
@@ -194,6 +196,21 @@ Power BI 系統管理員可以啟用或停用 [發佈至 Web ]  功能。 他們
 使用 [發佈至 Web]  建立內嵌程式碼後，任何網際網路使用者都可以檢視報表。 報表可以公開取得，因此，您可以預期檢視人員日後透過社交媒體輕鬆共用報表。 使用者直接開啟公用 URL 或在內嵌的網頁或部落格中檢視報表時，Power BI 會快取報表定義和檢視報表所需的查詢結果。 這可確保數千名並行使用者能夠檢視報表，而不會影響效能。
 
 系統會長時間保留快取，所以如果您更新報表定義 (例如變更檢視模式)，或重新整理報表資料，系統需要大約一小時，才會在使用者檢視的報表版本上反映變更。 因此建議您預先準備要進行的工作，並且只在對設定滿意後再建立 [ **發佈至網路** ] 內嵌程式碼。
+
+## <a name="how-to-find-your-power-bi-administrator"></a>如何尋找您的 Power BI 管理員
+
+若要變更 [[發佈至 Web] 租用戶設定](#tenant-setting)，您必須與您組織的 [Power BI 管理員](service-admin-role.md)合作。
+
+針對註冊 Power BI 的小型組織或個人，您可能還沒有 Power BI 管理員。 您必須遵循我們的[租用戶管理員接管程序](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover) \(部分機器翻譯\)。 在您有 Power BI 管理員之後，他們便能為您啟用建立內嵌程式碼的能力。
+
+已建立的組織通常已經有 Power BI 管理員。 擔任下列任一角色的人員都可以作為 Power BI 管理員：
+
+- Office 365 系統管理員
+- Azure Active Directory 系統管理員
+- 在 Azure Active Directory 中具有 Power BI 服務管理員角色的使用者
+
+您必須找到您組織中的[其中一個上述人員](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) \(部分機器翻譯\)，讓他們可以為您更新設定。
+
 
 ## <a name="next-steps"></a>後續步驟
 

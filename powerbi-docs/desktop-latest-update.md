@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 016b83e983f2b3139eb040a1f1d8d48d70b44a52
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: c6f1a04f7178719eb68bcd54674ea0312c97ef3e
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953492"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076579"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop 的新功能
 
@@ -31,9 +31,9 @@ ms.locfileid: "75953492"
 
 Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯：
 
-* [blog]: Most features are explained in a section in the monthly update blog post.
-* [video]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
-* [article]: Some features have an article that provides more detail.
+* \[部落格\]：大多數功能都會在每月更新之部落格文章中的某一節中說明。
+* \[影片\]：某些功能會有討論該功能的影片摘錄，這會在新的瀏覽器索引標籤中播放。
+* \[文章\]：某些功能會有能提供詳細資料的文章。
 * 剩下的功能一目了然，不需要文章或影片加以說明。
 
 您也可以觀看完整的 [Power BI Desktop 每月更新影片](#power-bi-desktop-monthly-update-video)。

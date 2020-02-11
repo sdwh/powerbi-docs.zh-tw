@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: e3154e5a143de63300e7f5dc87cec518188a3442
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 3063d75123069e93baa8159cddf7c551922aa2b2
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75837598"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076678"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -36,6 +36,10 @@ ms.locfileid: "75837598"
 **Microsoft 正在如何改變 BI 資料保護**
 <br>由 Anton Fritz 和 Adi Regev 主持
 <br>[報名並立即觀看](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**如何成為由見解所驅動的公司**
+<br>由來自 Microsoft 的 Amir Netz 與來自 Forrester 的 Boris Evelson 主持
+<br>[報名並立即觀看](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html?lcid=en-us)
 
 **三種 AI 正在改變 BI 的方式**
 <br>由 Justyna Lucznik 主持

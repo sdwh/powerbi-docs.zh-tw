@@ -7,15 +7,15 @@ featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/04/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 116ff1df7ddc75df79e6f2f28296543449498599
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 1d723f3dd67eb5e096622c882b5f538a77666d9e
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76894701"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "77036691"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>變更 Power BI 報表中的視覺效果互動方式
 如果您有報表的編輯權限，可以使用 [視覺效果互動]  變更報表頁面上視覺效果相互影響的方式。 
@@ -87,6 +87,11 @@ ms.locfileid: "76894701"
     ![開啟切入篩選其他視覺效果](media/service-reports-visual-interactions/power-bi-drill.png)
 
 3. 如果您所看到的行為不是您想要的，您可以[以上述方式](#change-the-interaction-behavior)變更互動。
+
+## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
+如果您使用來自不同資料表的欄位建置矩陣，當您嘗試在階層中的不同層級選取多個項目來交叉醒目提示時，系統將會在其他視覺效果上顯示錯誤。 
+
+![嘗試在階層中的不同層級進行篩選時所會遇到之錯誤的影片](media/service-reports-visual-interactions/cross-highlight.gif)
     
 ## <a name="next-steps"></a>後續步驟
 [在 Power BI 報表中進行篩選和醒目提示](power-bi-reports-filters-and-highlighting.md)
