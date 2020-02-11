@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/23/2020
-ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819552"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026707"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
@@ -160,7 +160,7 @@ Power BI 報表伺服器中的從 Power BI 報表匯出至 Excel，現在的運�
 
 #### <a name="custom-headers"></a>自訂標頭
 
-針對符合所指定 RegEx 模式的 URL 設定標頭值。 使用者可以使用有效的 XML 來更新自訂標頭值，以設定所選要求 URL 的標頭值。 系統管理員可以在 XML 中新增任意數目的標頭。 如需詳細資訊，請參閱 Reporting Services **伺服器屬性進階頁面**一文中的[自訂標頭](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers)。
+針對符合所指定 RegEx 模式的 URL 設定標頭值。 使用者可以使用有效的 XML 來更新自訂標頭值，以設定所選要求 URL 的標頭值。 系統管理員可以在 XML 中新增任意數目的標頭。 如需詳細資訊，請參閱 Reporting Services＜伺服器屬性進階頁面＞  一文中的[CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders)。
 
 #### <a name="transparent-database-encryption"></a>透明資料庫加密
 

@@ -10,10 +10,10 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265538"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客戶獲利率範例：觀看導覽
@@ -111,7 +111,7 @@ ms.locfileid: "74265538"
 
     ![Carlos 的結果](media/sample-customer-profitability/power-bi-carlos.png)
 
-4. 繼續探索。 如果發現感興趣的項目，請選取右上角的 [釘選]  ![釘選圖示](media/sample-customer-profitability/power-bi-excel-pin.png) 將它[釘選到儀表板](service-dashboard-pin-tile-from-excel.md)。
+4. 繼續探索。 如果發現感興趣的項目，請選取右上角的 [釘選]  ![釘選圖示](media/sample-customer-profitability/power-bi-excel-pin.png) [將其釘選到儀表板](service-dashboard-pin-tile-from-excel.md)。
 
 5. 使用瀏覽器的上一頁箭頭來返回儀表板。
 

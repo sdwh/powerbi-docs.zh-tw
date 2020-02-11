@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2019
-ms.openlocfilehash: 04954397a16fecddabca63067c903dee742873ef
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925585"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026661"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>取得 Power BI 視覺效果認證
 
@@ -45,7 +45,7 @@ Power BI 視覺效果一旦經過認證，便能提供更多的功能。 例如�
 
 存放庫必須只包含一個 Power BI 視覺效果的程式碼。 不能包含多個 Power BI 視覺效果或不相關的程式碼。
 
-存放庫必須包含名為**認證**的分支。 此分支中的原始程式碼必須符合已提交的套件。 如果您要重新提交 Power BI 視覺效果，則只能在下一次提交程序期間更新此程式碼。
+存放庫必須包含名為 **certification** (必須是小寫) 的分支。 此分支中的原始程式碼必須符合已提交的套件。 如果您要重新提交 Power BI 視覺效果，則只能在下一次提交程序期間更新此程式碼。
 
 如果您的 Power BI 視覺效果使用私人 npm 套件或 git 子模組，您必須提供其他存放庫 (包含此程式碼) 的存取權。
 

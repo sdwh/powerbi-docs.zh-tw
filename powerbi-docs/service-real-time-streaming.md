@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74699078"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的即時串流
@@ -82,7 +82,7 @@ ms.locfileid: "74699078"
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>使用 Power BI REST API 推送資料
 **Power BI REST API** 可用來建立及傳送資料到**推送**資料集和**串流**資料集。 當您使用 Power BI REST API 建立資料集時，<預設模式>  旗標會指定資料集是推送還是或串流。 如果未設定 <預設模式>  旗標，資料集預設為**推送**資料集。
 
-如果 <預設模式>  值設為 *pushStreaming*，則資料集同時為**推送***和***串流**資料集，其提供兩種資料集類型的優點。 
+如果 <預設模式>  值設為 *pushStreaming*，則資料集同時為**推送**「和」  **串流**資料集，其提供兩種資料集類型的優點。 
 
 > [!NOTE]
 > 使用資料集並將 <預設模式>  旗標設為 pushStreaming  時，如果要求超過**串流**資料集 15 KB 的大小限制，但小於**推送**資料集 16 MB 的大小限制，要求將會成功，而且會在推送資料集中更新資料。 不過，任何串流磚會暫時失敗。

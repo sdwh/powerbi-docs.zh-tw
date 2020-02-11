@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74958420"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>從內部部署 SQL Server 資料庫重新整理資料
@@ -30,7 +30,7 @@ ms.locfileid: "74958420"
 > * 檢閱重新整理歷程記錄，分析過去重新整理循環的結果。
 > * 刪除在本教學課程中建立的成品來清除資源。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 - 若您尚未擁有 Power BI，請在開始前先註冊[免費 Power BI 試用版](https://app.powerbi.com/signupredirect?pbi_source=web)。
 - 在本機電腦上[安裝 Power BI Desktop](https://powerbi.microsoft.com/desktop/)。
@@ -134,7 +134,7 @@ ms.locfileid: "74958420"
 
 現在您已將 Power BI 中的資料集透過資料閘道連線到 SQL Server 資料庫內部部署，請遵循這些步驟來設定重新整理排程。 以排程作為基礎重新整理您的資料集，可協助確保您的報表和儀表板皆具備最新資料。
 
-1. 在導覽窗格中，開啟 [我的工作區]  \> [資料集]  。 選取 **AdventureWorksProducts** 資料集的省略符號 ( **. . .** )，然後選取 [排程重新整理]  。
+1. 在瀏覽窗格中，開啟 [我的工作區]  \> [資料集]  。 選取 **AdventureWorksProducts** 資料集的省略符號 ( **. . .** )，然後選取 [排程重新整理]  。
 
     > [!NOTE]
     > 確認您選取的是 **AdventureWorksProducts** 資料集的省略符號，而非具備相同名稱報表的省略符號。 **AdventureWorksProducts** 報表的操作功能表不包含 [排程重新整理]  選項。
