@@ -37,7 +37,7 @@ Office 365 為政府機關提供不同的環境，以符合不同的合規性需
 
 * [Office 365 政府社群雲端 (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) 是針對聯邦、州和地方政府所設計。
 
-* [Office 365 政府社群雲端高 (GCC-High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) 是針對聯邦機關、國防產業、航太產業和其他持有受控制非機密資訊的組織所設計。 此環境適用於具有國際武器貿易條例 (ITAR) 資料或國防聯邦採購條例補充 (DFARS) 需求的國家安全性組織和公司。
+* [Office 365 政府社群雲端高 (GCC-High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) 是針對聯邦機關、國防產業、航太產業和其他持有受控制非機密資訊的組織所設計。 此環境適用於具有國際武器貿易條例 (ITAR) 資料或國防聯邦採購條例補充 (DFARS) 需求的國家/地區安全性組織和公司。
 
 * [Office 365 DoD 環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)是專門針對美國國防部所設計。 
 
