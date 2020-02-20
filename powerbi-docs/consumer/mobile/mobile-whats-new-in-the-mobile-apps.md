@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 01/29/2020
 ms.author: painbar
-ms.openlocfilehash: caed3a107b8f7a57d2fb3da92073cb8a5f5331cd
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 7aa31d9c6eadd4c7c9c88c9006a360a6089f28e2
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538397"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259824"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -21,6 +21,12 @@ ms.locfileid: "76538397"
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
+
+## <a name="january-2020"></a>2020 年 1 月
+
+### <a name="share-annotations-created-in-presentation-mode-windows"></a>共用在簡報模式中建立的註釋 (Windows)
+
+您在簡報期間所建立註釋會成為簡報不可或缺的部分，以及討論的關鍵要素。 現在，當您在簡報模式中標註報表時，可以與同事共用報表頁面的快照。 [深入了解](./mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
 
 ## <a name="december-2019"></a>2019 年 12 月
 

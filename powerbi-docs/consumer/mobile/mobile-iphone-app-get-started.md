@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: e3bfdf7fd53e71a4582a1f3e3ba08f55f2e9a290
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ba39718a5a458ec18af976806bc634d32843afb2
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220307"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259723"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>開始在 iOS 裝置上使用 Power BI 行動裝置應用程式
 iPhone 和 iPad 的 iOS 版 Microsoft Power BI 應用程式會傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 透過 [Apple Watch](mobile-apple-watch.md)，隨時掌握最即時的資料。  
@@ -40,12 +40,12 @@ iPhone 和 iPad 的 iOS 版 Microsoft Power BI 應用程式會傳遞 Power BI、
 
 ## <a name="get-started-with-the-power-bi-app"></a>開始使用 Power BI 應用程式
 1. 在您的 iOS 裝置中，開啟 Power BI 應用程式。
-2. 若要檢視您的 Power BI 儀表板，請點選 [Power BI]  。  
-   若要檢視 Reporting Services 行動報表和 KPI，請點選 [報表伺服器]  。
+2. 若要登入 Power BI，請點選 [Power BI]  索引標籤並填寫您的登入詳細資料。  
+   若要登入 Reporting Services 行動報表和 KPI，請點選 [報表伺服器]  索引標籤並填寫您的登入詳細資料。
    
    ![登入 Power BI 行動裝置應用程式](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
-   當您在應用程式中時，只要點選畫面左上角的帳戶設定檔影像，即可在兩者間切換。 
+   當您在應用程式中時，只要點選畫面左上角的帳戶設定檔影像，即可在 Power BI 和報表伺服器之間切換。 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>試用 Power BI 和 Reporting Services 範例
 即使未註冊，您也可以檢視 Power BI 和 Reporting Services 範例並與其互動。

@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24e5a06d3e835f7ff5114cbf17b772bc7efd00bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852232"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77260119"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI 服務取用者的基本概念
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-此文章假設您已閱讀 [Power BI 概觀](../fundamentals/power-bi-overview.md)，並將自已識別為 [Power BI ***取用者***](end-user-consumer.md)。 取用者可從同事收到 Power BI 內容，例如儀表板和報表。 取用者會使用 Power BI 服務，也就是 Power BI 的網站版本。
+本文假設您已閱讀 [Power BI 概觀](../fundamentals/power-bi-overview.md)，並將自已識別為 [Power BI **取用者**  ](end-user-consumer.md)。 取用者可從同事收到 Power BI 內容，例如儀表板和報表。 取用者會使用 Power BI 服務，也就是 Power BI 的網站版本。
 
 您一定會聽到字詞 "Power BI Desktop"，或只聽到 "Desktop"。 它是供「設計者」  使用的獨立工具，而設計師會組建儀表板和報表，並與您共用它們。 請務必知道當中有其他 Power BI 工具。 只要您是取用者，只會使用 Power BI 服務。 本文僅適用於 Power BI 服務。
 
@@ -54,13 +54,13 @@ _______________________________________________________
 
 ### <a name="introduction-to-building-blocks"></a>建置組塊簡介
 
-Power BI 取用者的五個建置區塊如下：視覺效果、儀表板、報表、應用程式和資料集。 這些有時稱為「Power BI 內容」  。 「內容」  存在於「工作區」中。 一般工作流程涉及所有建置區塊：Power BI 的「設計者」  (下圖中的黃色) 會收集「資料集」  中的資料，將其帶入 Power BI 中進行分析、建立充滿「視覺效果」  (醒目提示感興趣的事實和見解) 的「報表」  ，將報表中的視覺效果釘選到儀表板，並與像您一樣 (下圖中的黑色) 的「取用者」  共用報表與儀表板。 「設計者」  會以「應用程式」  或其他類型共用內容的形式共用它們。
+Power BI 取用者的五個建置組塊如下：「視覺效果」  、「儀表板」  、「報表」  、「應用程式」  和「資料集」  。 這些有時稱為「Power BI 內容」   。 「內容」  存在於「工作區」  。 一般工作流程涉及所有建置區塊：Power BI 的「設計者」  (下圖中的黃色) 會收集「資料集」  中的資料，將其帶入 Power BI 中進行分析、建立充滿「視覺效果」  (醒目提示感興趣的事實和見解) 的「報表」  ，將報表中的視覺效果釘選到儀表板，並與像您一樣 (下圖中的黑色) 的「取用者」  共用報表與儀表板。 「設計者」  會以「應用程式」  或其他類型共用內容的形式共用它們。
 
 ![基本 Power BI 工作流程圖。](media/end-user-basic-concepts/power-bi-workflow.png)
 
 最基本概念：
 
-- ![視覺效果圖示的螢幕擷取畫面。](media/end-user-basic-concepts/visual.png) 「視覺效果」  是 Power BI「設計者」  建置的圖表類型。 視覺效果顯示「報表」  和「資料集」  中的資料。 「設計工具」  通常會在 Power BI Desktop 中建置視覺效果。
+- ![視覺效果圖示的螢幕擷取畫面。](media/end-user-basic-concepts/visual.png) 「視覺效果」   是 Power BI「設計者」  建置的圖表類型。 視覺效果顯示「報表」  和「資料集」  中的資料。 「設計工具」  通常會在 Power BI Desktop 中建置視覺效果。
 
     如需詳細資訊，請參閱[在報表、儀表板和應用程式中與視覺效果互動](end-user-visualizations.md)。
 
@@ -148,7 +148,7 @@ _______________________________________________________
 
   ![範例儀表板的螢幕擷取畫面](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-圖格是視覺效果的呈現，例如，「設計工具」  可將其從報表「釘選」  到儀表板。 每個已釘選圖格會顯示設計工具從某個資料集建立並釘選到該儀表板的[視覺效果](end-user-visualizations.md)。 圖格也可以包含整份報表頁面，而且可以包含即時串流資料或影片。 「設計者」  有許多方法可將圖格新增至儀表板。 有太多內容無法在此概觀文章中討論。 若要深入了解，請參閱 [Power BI 的儀表板磚](end-user-tiles.md).
+磚是視覺效果的呈現，例如，「設計工具」  可將其從報表「釘選」  到儀表板。 每個已釘選圖格會顯示設計工具從某個資料集建立並釘選到該儀表板的[視覺效果](end-user-visualizations.md)。 圖格也可以包含整份報表頁面，而且可以包含即時串流資料或影片。 「設計者」  有許多方法可將圖格新增至儀表板。 有太多內容無法在此概觀文章中討論。 若要深入了解，請參閱 [Power BI 的儀表板磚](end-user-tiles.md).
 
 取用者無法編輯儀表板。 不過，您可以新增註解、檢視相關資料、將它設為我的最愛、訂閱等。
 

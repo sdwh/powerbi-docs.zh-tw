@@ -1,19 +1,19 @@
 ---
 title: 在 Surface Hub 和 Windows 10 上檢視簡報模式 - Power BI
 description: 閱讀在 Surface Hub 上顯示 Power BI 報表，以及在 Windows 10 裝置上以全螢幕模式顯示 Power BI 儀表板、報表和磚。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/10/2018
-ms.author: mshenhav
-ms.openlocfilehash: abd7fd34cf2dbdc2f8f12a7f3c6de6228941af5a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/08/2020
+ms.author: painbar
+ms.openlocfilehash: f900a329ccbfa2a6e80883baec9694ddeaf3833a
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869531"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259992"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Surface Hub 和 Windows 10 裝置上，以簡報模式檢視報表和儀表板
 您可以在 Windows 10 裝置和 Surface Hub 中，使用簡報模式以全螢幕顯示報表和儀表板。 
@@ -37,14 +37,17 @@ ms.locfileid: "73869531"
 
 ![全螢幕模式中的報表與側邊工具列](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
-您可以從工具列中執行下列動作：
+您可以在工具列中點選以執行下列動作：
 
-1. 點選上一頁圖示 ![上一頁圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) 返回上一頁。 長按圖示時會顯示階層連結視窗，以讓您瀏覽至報表或儀表板所含的資料夾。
-2. 墨水圖示 ![墨水圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) 可讓您在使用 Surface 畫筆繪圖與在報表頁面上新增註解時，選擇色彩。 
-3. 使用頁面圖示 ![分頁圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) 取代您目前呈現的報表頁面。
-4. 播放圖示  ![播放圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) 會隱藏動作列並開始投影片放映，而應用程式會在報表頁面之間自動輪替。 
-5. 點選搜尋圖示 ![搜尋圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) 尋找 Power BI 中的其他成品。
-6. 若要結束簡報模式，請點選兩個向內箭號的圖示 ![結束全螢幕模式](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) (位於工具列)。
+1. **返回** ![[返回] 圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) 上一頁。 長按圖示時會顯示階層連結視窗，以讓您巡覽至包含報表或儀表板的資料夾。
+2. **選擇筆跡色彩** ![[] 圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) 可讓您在使用 Surface 畫筆在報表頁面上繪圖及標註時選擇色彩。
+3. **清除筆跡標記** ![[橡皮擦] 圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-eraser-icon.png) 可清除您使用 Surface 畫筆在報表頁面上繪圖及標註的標記。  
+4. **切換頁面** ![[分頁] 圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) 可切換至簡報報表的另一頁。
+5. **播放投影片** ![[播放] 圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) 會隱藏動作列並開始投影片放映；應用程式會在報表頁面之間自動輪替。 
+6. **搜尋** ![[搜尋] 圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) Power BI 中的其他成品。
+7. **重新整理** ![[重新整理] 圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png) 報表。
+8. **結束** ![[結束全螢幕] 模式](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) 簡報模式。
+8. **共用** ![[共用] 圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png) 可讓您與同事共用簡報檢視的影像。 影像將包含您在簡報期間使用 Surface 畫筆所做的註釋。
 
 您可以卸除工具列，並將它拖曳到螢幕上任一處使用。 使用大型的螢幕時，若您希望專注於報表中的特定區域，且需要工具隨時在旁預備，此功能就很實用。 只要將手指放在工具列上，將其撥動到報表畫布中即可。
 

@@ -52,15 +52,19 @@
               href: dax-column-measure-references.md
             - name: 避免使用 FILTER 作為篩選引數
               href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: Power BI 報表
+          items:
             - name: 展開報表頁面之視覺效果的工具提示
               href: report-page-tooltips.md
             - name: 使用報表頁面鑽研
               href: report-drillthrough.md
-            - name: 何時使用 Power BI 中的編頁報表
+        - name: Power BI 編頁報表
+          items:
+            - name: 何時使用編頁報表
               href: report-paginated-or-power-bi.md
-            - name: 在分頁報表中使用串聯參數
+            - name: 使用串聯參數
               href: paginated-report-cascading-parameter.md
-            - name: 避免在列印編頁報表時出現空白頁面
+            - name: 避免在列印時出現空白頁面
               href: report-paginated-blank-page.md
             - name: 將 SSRS 報表移轉至 Power BI
               href: migrate-ssrs-reports-to-power-bi.md

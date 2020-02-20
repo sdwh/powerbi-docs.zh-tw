@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548576"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115254"
 ---
 # <a name="what-is-power-bi-administration"></a>什麼是 Power BI 管理？
 
@@ -80,10 +80,9 @@ Power BI 服務系統管理員角色不會將指派授權的能力授與使用�
 
 我們希望本文能提供您對 Power BI 系統管理員工作，以及相關特定角色、工作與工具的快速深入剖析。 我們推薦以下兩個文章主題，讓您更深入了解。
 
-[使用 Power BI 管理入口網站](service-admin-portal.md)
-
-[使用 PowerShell Cmdlet](/powershell/power-bi/overview)
-
-[Power BI 管理常見問題集](service-admin-faq.md)
-
-有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- [使用 Power BI 管理入口網站](service-admin-portal.md)
+- [租用戶系統管理設定指導](guidance/admin-tenant-settings.md)
+- [使用 PowerShell Cmdlet](/powershell/power-bi/overview)
+- [Power BI 管理常見問題集](service-admin-faq.md)
+- 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

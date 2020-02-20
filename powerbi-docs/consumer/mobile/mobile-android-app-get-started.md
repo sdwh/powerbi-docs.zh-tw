@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: f0ffcdabf1fea090cff769fa35c8346812b37896
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220174"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259784"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>開始在 Android 裝置上使用 Power BI 行動裝置應用程式
 Microsoft Power BI for Android 應用程式傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 
@@ -52,11 +52,11 @@ Power BI 可以在多種不同的 Android 裝置 (執行 Android 5.0 作業系�
 1. 在您的 Android 裝置上，從開始畫面開啟 Power BI for Android 應用程式。
    
    ![Power BI 圖示](./media/mobile-android-app-get-started/power-bi-logo-android.png)
-2. 若要檢視您的 Power BI 儀表板和報表，請點選 [Power BI]  。  
-   
-   如果您收到一則訊息指出 Power BI 無法讓您登入，請參閱[「由於您的公司 SSL 憑證不受信任，因此無法驗證」](mobile-android-app-error-corporate-ssl-account-is-untrusted.md)，取得如何解決此問題的詳細資訊。
+2. 若要登入 Power BI，請點選 [Power BI]  索引標籤並填寫您的登入詳細資料。
 
-   若要檢視您的 Power BI 報表伺服器和 Reporting Services 報表與 KPI，請點選 [報表伺服器]  。
+    如果您收到一則訊息指出 Power BI 無法讓您登入，請參閱[「由於您的公司 SSL 憑證不受信任，因此無法驗證」](mobile-android-app-error-corporate-ssl-account-is-untrusted.md)，取得如何解決此問題的詳細資訊。
+
+   若要登入 Reporting Services 行動報表和 KPI，請點選 [報表伺服器]  索引標籤並填寫您的登入詳細資料。
    
    ![登入 Power BI](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 

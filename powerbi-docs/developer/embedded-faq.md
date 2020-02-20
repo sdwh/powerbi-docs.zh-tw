@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/27/2019
-ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/11/2020
+ms.openlocfilehash: 3561d122dde324f1d383d40a152bccc193a2afbe
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539041"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259711"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -55,37 +55,11 @@ Microsoft 建議企業購買 Power BI Premium，企業級的自助雲端 BI 解�
 
 ## <a name="technical"></a>技術
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure 中的 A SKU 和 Office 365 中的 EM SKU 有何差異？
+### <a name="where-can-i-learn-more-about-capacity-and-skus-in-power-bi-embedded-analytics"></a>我可以在哪裡深入了解 Power BI 內嵌式分析中的容量和 SKU？
 
-PowerBI.com 是企業軟體即服務 (SaaS) 解決方案，其中包括社群共同作業、電子郵件訂閱和其他功能。 PowerBI.com 可協助 ISV 管理他們的內嵌分析解決方案內容與租用戶層級設定。
+請參閱 [Power BI 內嵌式分析中的容量和 SKU](embedded-capacity.md) 一文。
 
-Power BI Embedded 是一組 API 的平台即服務 (Paas)，可供開發人員用來建立內嵌分析解決方案。
-
-以下是功能差異的部分清單。
-
-| 特徵 | Power BI Embedded | Power BI Premium 容量 | Power BI Premium 容量 |
-|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
-|   | SKU-Azure 容量 | EM SKU-O365 容量 | P SKU-O365 容量 |
-| 從 Power BI 工作區內嵌成品 | 是 | 是 | 是 |
-| 在內嵌應用程式中為組織取用 Power BI 報表  | 否 | 是 | 是 |
-| 在內嵌應用程式中為客戶取用 Power BI 報表 | 是 | 是 | 是 |
-| 在 SharePoint 中取用 Power BI 報表 | 否 | 是 | 是 |
-| 在 Dynamics 中取用 Power BI 報表 | 否 | 是 | 是 |
-| 在 Teams 中取用 Power BI 報表 (行動裝置應用程式除外) | 否 | 是 | 是 |
-| 使用 Powerbi.com 和 Power BI 行動版中的免費 Power BI 授權存取內容 | 否 | 否 | 是 |
-| 使用內嵌在 MS Office 應用程式中的免費 Power BI 授權存取內容 | 否 | 是 | 是 |
-
-### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Power BI 現在提供三種 SKU 以供內嵌：A SKU、EM SKU 及 P SKU。 我該為案例購買哪一種？
-
-|  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
-|---------|---------|---------|---------|
-|購買  |Azure 入口網站 |Office |Office |
-|使用案例 | 在您自己的應用程式中內嵌內容 | <li> 在您自己的應用程式中內嵌內容 <br><br><br> <li> 在 MS Office 應用程式中內嵌內容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (行動裝置應用程式除外)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 在您自己的應用程式中內嵌內容 <br><br><br> <li> 在 MS Office 應用程式中內嵌內容： <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (行動裝置應用程式除外)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> 透過 [Power BI 服務](https://powerbi.microsoft.com/)與 Power BI 使用者共用內容  |
-|計費 |每小時 |每月 |每月 |
-|承諾用量  |無承諾用量 |每年  |每月/每年 |
-|差異 |完整彈性 - 可以在 Azure 入口網站中，或透過 API 相應增加/減少、暫停/繼續資源  |您可用於在 SharePoint Online 與 Microsoft Teams 中內嵌內容 (行動裝置應用程式除外) |在相同容量中結合應用程式內嵌及使用 Power BI 服務 |
-
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>在 Azure 中建立 PBIE 容量的必要條件為何？
+### <a name="what-are-the-prerequisites-for-creating-a-pbie-capacity-in-azure"></a>在 Azure 中建立 PBIE 容量的必要條件為何？
 
 * 登入您組織的目錄 (不支援 Microsoft 帳戶)。
 * 您須有 Power BI 租用戶，也就是您目錄中至少須有一位使用者已註冊 Power BI。 
@@ -323,7 +297,7 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 ### <a name="in-what-regions-can-i-create-a-pbi-workspace-collection"></a>我可以在哪些區域建立 PBI 工作區集合？
 
-可用的區域包括：澳大利亞東南部、巴西南部、加拿大中部、美國東部 2、日本東部、美國中北部、北歐、美國中南部、東南亞、英國南部、西歐、印度西部及美國西部。
+可用的區域包括：澳大利亞東南部、巴西南部、加拿大中部、美國東部 2、日本東部、美國中北部、 北歐、美國中南部、東南亞、英國南部、西歐、印度西部及美國西部。
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>為何我應該從「Power BI 工作區集合」移轉至 Power BI Embedded？
 

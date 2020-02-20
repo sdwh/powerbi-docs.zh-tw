@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 160812521939d505612e0725e678dcf985f0d03a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75761833"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154204"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>在 Power BI Desktop 中套用自動日期/時間
 
@@ -24,6 +24,7 @@ ms.locfileid: "75761833"
 啟用此選項時，假設下列所有條件皆為 true，則 Power BI Desktop 為每個日期資料行建立隱藏的自動日期/時間資料表：
 
 - 資料表儲存模式為匯入
+- 資料行不是計算結果欄
 - 資料行資料類型是日期或日期/時間
 - 資料行不是模型關聯性的「多」端
 
@@ -44,6 +45,8 @@ Power BI Desktop 也會在自動日期/時間資料表的 [資料]  資料行與
 
 > [!NOTE]
 > 自動日期/時間資料表會永久隱藏，即使是來自模型製作人員也一樣。 在 [欄位]  窗格或 [模型檢視] 圖表中看不到它們，也無法在資料檢視中看到其資料列。 此外，DAX 運算式不能直接參考該資料表和其資料行。
+>
+> 此外，如果您以[使用 Excel 分析](service-analyze-in-excel.md)或 Power BI 以外的報表設計工具來連線至模型時，您將無法使用這些項目。
 
 資料表也會定義階層，提供視覺效果，並具有透過年、季、月和日層級的向下切入路徑。
 
@@ -87,7 +90,7 @@ Date Count = COUNT(Sales[OrderDate].[Date])
 > [!CAUTION]
 > 關閉目前檔案選項時請小心，因為這會移除自動日期/時間資料表。 請務必修正並中斷已設定為使用它們的任何報表篩選或視覺效果。
 
-在 Power BI Desktop 中，您可以選取 [檔案] > [選項及設定] > [選項]  ，然後選取 [全域]  或 [目前檔案]  頁面。 在任一頁面上，該選項會存在於 [時間智慧]  區段中。
+在 Power BI Desktop 中，選取 [檔案] > [選項及設定] > [選項]  ，然後選取 [全域]  或 [目前檔案]  頁面。 在任一頁面上，該選項會存在於 [時間智慧]  區段中。
 
 ![設定 Power BI Desktop 選項。 已選取來自 GLOBAL 群組的 [資料載入] 頁面。 在 [時間智慧] 區段中，會勾選 [自動為新檔案建立日期/時間] 選項。](media/desktop-auto-date-time/auto-date-time-configure-global-options.png)
 
@@ -98,3 +101,4 @@ Date Count = COUNT(Sales[OrderDate].[Date])
 - [Power BI Desktop 中的自動日期/時間指導方針](guidance/auto-date-time.md)
 - [在 Power BI Desktop 中設定和使用日期資料表](desktop-date-tables.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

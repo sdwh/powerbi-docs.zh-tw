@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74830865"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154235"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 報表和儀表板中的資料表
 
@@ -98,22 +98,19 @@ ms.locfileid: "74830865"
 
 ### <a name="conditional-formatting"></a>條件式格式設定
 
-「條件式格式設定」  是某種類型的格式化。 Power BI 會將條件式格式設定套用至 [視覺效果]  窗格 [值]  區中的欄位。
+「條件式格式設定」  是某種類型的格式化。 Power BI 可以將條件式格式設定套用至您新增至 [視覺效果]  窗格中 [值]  區的任何欄位。
 
-設定資料表格式化的條件時，您可以根據資料格值指定自訂資料格背景色彩和字型色彩，包括使用漸層色彩。
+![[視覺效果] 窗格](media/power-bi-visualization-tables/power-bi-table-values.png)
 
-1. 在 [視覺效果]  窗格中，選取 [欄位]  圖示 ![欄位圖示](media/power-bi-visualization-tables/power-bi-fields-icon.png)。
+使用資料表的條件式格式設定，您可以根據資料格值來指定圖示、URL、資料格背景色彩和字型色彩，包括使用漸層色彩。
 
-1. 選取您要格式化的 [值]  區中，值旁邊的向下箭號 (或以滑鼠右鍵按一下欄位)。
+1. 在 [格式]  窗格中，開啟 [條件式格式設定]  卡片。
 
-    > [!NOTE]
-    > 您只能管理 [欄位]  集區之 [值]  區域中的欄位條件式格式設定。
+    ![[條件式格式設定] 卡片](media/power-bi-visualization-tables/power-bi-conditional.png)
 
-    ![背景色階的路徑](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
+1. 選取要格式化的欄位，然後將 [背景色彩]  的滑桿切換為 [開啟]。 Power BI 會根據資料行中的值來套用漸層。 若要變更預設色彩，請選取 [進階控制項]  。
 
-1. 選取 [背景色彩]  。
-
-1. 在出現的對話方塊中，您可以設定色彩、[最小值]  和 [最大值]  。 如果選取 [發散]  方塊，您也可以設定選擇性的 [中心]  值。
+    如果選取 [發散]  方塊，您也可以設定選擇性的 [中心]  值。
 
     ![背景色階畫面](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
@@ -124,11 +121,11 @@ ms.locfileid: "74830865"
 
     ![在最右側顯示新的欄位](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
 
-1. 透過選取 [總銷售額差異]  旁邊的向下箭頭，並選擇 [條件式格式設定] > [資料橫條]  來新增資料橫條條件式格式設定。
+1. 將 [資料橫條]  的滑桿切換為 [開啟] 來新增資料橫條條件式格式設定。  
 
-    ![選取資料橫條的路徑](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
+    ![將資料橫條設為 [開啟] 的 [條件式格式設定] 卡片](media/power-bi-visualization-tables/power-bi-data-bar-matrix.png)
 
-1. 在出現的對話方塊中，設定 [正值橫條]  與 [負值橫條]  的色彩、選取 [只顯示橫條]  選項，並進行您想要的任何其他變更。
+1. 若要自訂資料橫條，請選取 [進階控制項]  。 在出現的對話方塊中，設定 [正值橫條]  與 [負值橫條]  的色彩、選取 [只顯示橫條]  選項，並進行您想要的任何其他變更。
 
     ![只顯示橫條的核取記號](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
@@ -138,10 +135,10 @@ ms.locfileid: "74830865"
 
     ![相同的資料表，但在最後一個資料行中有橫條](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 
-如果想要從視覺效果中移除條件式格式設定，請再次以滑鼠右鍵按一次欄位，然後選取 [移除條件式格式設定]  。
+1. 使用「條件式圖示」  將視覺提示新增至您的資料表。  從 [條件式格式設定]  卡片的下拉式清單中選取 [本年度銷售額]  。 將 [圖示]  滑桿切換為 [開啟]  。  若要自訂圖示，請選取 [進階控制項]  。
 
-> [!TIP]
-> 您也可以從 [格式]  窗格中使用條件式格式設定。 選取要設定格式的值，然後將 [色階]  或 [資料橫條]  設定為 [開啟]  ，以套用預設的設定；或者，您也可以透過選取 [進階控制項]  來自訂設定。
+    ![已新增圖示的資料表](media/power-bi-visualization-tables/power-bi-table-icons.png)
+
 
 ## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>複製 Power BI 資料表中的值，以用於其他應用程式
 
@@ -175,12 +172,13 @@ ms.locfileid: "74830865"
 
 ![調整資料行大小的影片特寫](media/power-bi-visualization-tables/resizetable.gif)
 
+
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
 套用資料行的格式設定時，您只能為每個資料行選擇一個對齊選項：[自動]  、[靠左]  、[置中]  、[靠右]  。 通常，一個資料行包含所有文字或所有數字，並不混用。 在資料行同時包含數字和文字的情況下，[自動]  會將文字靠左對齊、將數字靠右對齊。 此行為支援從左到右閱讀的語言。
 
 ## <a name="next-steps"></a>後續步驟
 
-* [Power BI 中的矩形式樹狀結構圖](power-bi-visualization-treemaps.md)
+* [Power BI 中的樹狀圖](power-bi-visualization-treemaps.md)
 
 * [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)

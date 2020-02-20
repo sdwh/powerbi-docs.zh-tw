@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76895446"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154353"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中建立矩陣視覺效果
 
@@ -136,17 +136,32 @@ ms.locfileid: "76895446"
 
 如果您關閉 [分層式配置]，Power BI 會將子類別顯示在另一個資料行中，而不是縮排在父系類別之下。
 
-## <a name="subtotals-with-matrix-visuals"></a>矩陣視覺效果的小計
+## <a name="subtotals-and-grand-totals-with-matrix-visuals"></a>矩陣視覺效果的小計和總計
 
-您可以在矩陣視覺效果中，開啟或關閉資料列和資料行的小計。 如下圖所示，資料列小計已設定為 [開啟]  。
+您可以在矩陣視覺效果中，開啟或關閉資料列和資料行的小計。 如下圖所示，資料列小計已設為 [開啟]  ，並設為在底部顯示。
 
-![顯示總和與小計的矩陣](media/desktop-matrix-visual/matrix-visual_20.png)
+![顯示總和與小計的矩陣](media/desktop-matrix-visual/power-bi-subtotals.png)
 
-在 [視覺效果] 窗格的 [格式] 區段中，展開 [小計]  卡片，然後將 [資料列小計] 滑桿移至 [關閉]  。 當您這樣做時，不會顯示小計。
+當您開啟 [小計]  並新增標籤時，Power BI 也會為總計值新增資料列與相同的標籤。 若要將您的總計格式化，請選取 [總計]  的格式選項。 
 
-![已關閉小計的矩陣](media/desktop-matrix-visual/matrix-visual_21.png)
+![顯示總計卡片的矩陣](media/desktop-matrix-visual/power-bi-grand-total.png)
+
+如果您希望關閉 [小計] 和 [總計]，請在 [視覺效果] 窗格的 [格式] 區段中，展開 [小計]  卡片。 然後將 [資料列小計] 滑桿切換為 [關閉]  。 當您這樣做時，不會顯示小計。
+
+![已關閉小計的矩陣](media/desktop-matrix-visual/power-bi-no-subtotals.png)
 
 相同程序適用於資料行小計。
+
+## <a name="add-conditional-icons"></a>新增條件式圖示
+使用「條件式圖示」  將視覺提示新增至資料表或矩陣。 
+
+在 [視覺效果] 窗格的 [格式] 區段中，展開 [條件式格式設定]  卡片。 將 [圖示]  滑桿切換為 [開啟]  ，然後選取 [進階控制項]  。
+
+![顯示圖示畫面的矩陣](media/desktop-matrix-visual/power-bi-icons.png)
+
+調整矩陣的條件、圖示和色彩，然後選取 [確定]  。 在此範例中，我們使用了紅色旗標來表示低值、紫色圓圈來表示高值、黃色三角形來表示所有介於其間的項目。 
+
+![顯示圖示的矩陣](media/desktop-matrix-visual/power-bi-icons-applied.png)
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>矩陣視覺效果的交叉醒目提示
 
