@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9c181deb4e36624fa714242583e3fe209abdfb47
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: c166f2d72b170dfb76e3c1f7f6d50052083df6a2
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889320"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427384"
 ---
 # <a name="create-measures-for-data-analysis-in-power-bi-desktop"></a>在 Power BI Desktop 中建立資料分析的量值
 
@@ -49,7 +49,7 @@ Jan 注意到雖然未指定計算方式，但系統已自動提供一個方式�
 
 但是，Jan 需要能夠計算來年銷售預測的量值，其依據是將去年銷售額乘以 1.06，以代表預期業務會增加 6%。 針對這項計算，Jan 將建立一個量值。 Jan 可以使用 [新增量值]  功能建立新的量值，然後再輸入下列 DAX 公式：
 
-```sql
+```dax
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 ```
 

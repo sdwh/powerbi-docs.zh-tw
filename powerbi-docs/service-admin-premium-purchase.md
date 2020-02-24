@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/10/2019
+ms.date: 02/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a97f30f75b8bf720d735944589e671392c47237
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1bf7cc85411fef27e626c330cc07207187302bfc
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75224031"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427729"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何購買 Power BI Premium
 
 本文描述如何為貴組織購買 Power BI Premium 容量。 本文包含兩個案例：
 
-- 使用 P SKU 處理一般生產案例。 P SKU 需要每月或每年履約承諾，按月計費。 P SKU 在 [Microsoft 365 系統管理中心](https://admmin.microsoft.com)內購買。
+- 使用 P SKU 處理一般生產案例。 P SKU 需要每月或每年履約承諾，按月計費。
 
 - 測試案例及無必要權限可購買 P SKU 的情況 (Microsoft 365 全域管理員角色或計費管理員角色)，請使用 A SKU。 A SKU 不需要任何時限的履約承諾，按小時計費。 A SKU 在 [Azure 入口網站](https://portal.azure.com)中購買。
 

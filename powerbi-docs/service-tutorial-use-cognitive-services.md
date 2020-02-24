@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 03/12/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e9b34d79a70207e175c873a88ec4d5dfe5417747
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 6ffce8b209d78f5297812f2345f454aa94ac1c9a
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75224218"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527809"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>教學課程：在 Power BI 中使用認知服務
 
@@ -56,7 +56,7 @@ Power BI 會提供存取權，可存取一組來自 Azure 認知服務的功能�
 
 ![建立資料流程](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
-在上方功能區中，選取 [轉換資料表]  ，然後選擇 [使用第一個資料列作為標頭]  。 資料現在已經就緒，可用於進行文字分析，而且我們可以在客戶註解資料行中使用情感評分和關鍵片語擷取。
+資料現在已經就緒，可用於進行文字分析，而且我們可以在客戶註解資料行中使用情感評分和關鍵片語擷取。
 
 在 Power Query 編輯器中，選取 [AI 見解] 
 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b90357aa6d8f66612857e8247a8b48dc2c2c369
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 83cf7517fac569f8439f1debcdf621a786835d2c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539561"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427361"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>在 Analysis Services 表格式模型中實作資料列層級安全性
 
@@ -82,7 +82,7 @@ ms.locfileid: "76539561"
 
 1. `LOOKUPVALUE` 函式會傳回資料行的值，其中 Windows 使用者名稱與 `USERNAME` 函式所傳回的使用者名稱相同。 然後，您可以將查詢限制在 `LOOKUPVALUE` 傳回值符合相同或相關資料表中值的位置。 在 [DAX 篩選]  資料行中，輸入下列公式︰
 
-    ```sql
+    ```dax
         =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     ```
 
@@ -95,7 +95,7 @@ ms.locfileid: "76539561"
 
 1. 針對 `DimUserSecurity` 表格，請於 [DAX 篩選]  資料行中新增下列公式：
 
-    ```sql
+    ```dax
         =FALSE()
     ```
 
@@ -175,7 +175,7 @@ Grace 發佈報表之後，下一步就是根據該報表在 Power BI 服務中�
 
 您也可以在下方看到正在執行以開始填入報表資料的 DAX 查詢。
    
-   ```sql
+   ```dax
    EVALUATE
      ROW(
        "SumEmployeeKey", CALCULATE(SUM(Employee[EmployeeKey]))
