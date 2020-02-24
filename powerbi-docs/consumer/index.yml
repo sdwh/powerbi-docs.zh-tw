@@ -1,0 +1,101 @@
+### YamlMime:Landing
+title: Power BI 取用者文件
+summary: 身為取用者，您會收到來自同事的儀表板和報表。 您可以使用 Power BI 來檢閱並與此內容互動，以制定商務決策。
+metadata:
+  title: 適用於取用者的 Power BI
+  description: 準備好開始使用 Power BI 了嗎？ 認識 Power BI 服務的特色與功能，並了解 Power BI 取用者或終端使用者如何妥善運用它們。
+  ms.service: powerbi
+  ms.subservice: powerbi-consumer
+  ms.topic: landing-page
+  author: mihart
+  ms.author: mihart
+  ms.date: 01/10/2020
+  ms.openlocfilehash: d08520a7ee3526323111de91c4dfb67e139a8813
+  ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+  ms.translationtype: HT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 02/20/2020
+  ms.locfileid: "77497785"
+landingContent:
+- title: 關於取用者適用的 Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 什麼是 Power BI 取用者？
+      url: end-user-consumer.md
+    - text: 導覽 Power BI 服務
+      url: end-user-reading-view.md
+    - text: 檢閱概念和內容
+      url: end-user-basic-concepts.md
+- title: 開始使用
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: 登入
+      url: end-user-sign-in.md
+  - linkListType: concept
+    links:
+    - text: 深入了解報表
+      url: end-user-reports.md
+    - text: 深入了解儀表板
+      url: end-user-dashboards.md
+    - text: 深入了解應用程式
+      url: end-user-apps.md
+- title: 檢視內容
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 檢視報表
+      url: end-user-report-view.md
+    - text: 顯示較大或單獨的內容
+      url: end-user-focus.md
+    - text: 顯示用來建立視覺效果的資料
+      url: end-user-show-data.md
+    - text: 將資料匯出至 Excel
+      url: end-user-export.md
+- title: 互動與分析
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 瀏覽 Power BI
+      url: end-user-experience.md
+    - text: 在視覺效果中向下切入
+      url: end-user-drill.md
+    - text: 變更視覺效果的排序方式
+      url: end-user-change-sort.md
+    - text: 使用報表篩選
+      url: end-user-report-filter.md
+    - text: 使用自然語言詢問問題
+      url: end-user-q-and-a.md
+- title: 共同作業和共用
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 將報表發佈至 PowerPoint
+      url: end-user-powerpoint.md
+    - text: 將報表匯出至 PDF
+      url: end-user-pdf.md
+    - text: 訂閱內容
+      url: end-user-subscribe.md
+- title: 進階主題
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 建立和使用書籤
+      url: end-user-bookmarks.md
+    - text: 檢視自動見解
+      url: end-user-insights.md
+    - text: 檢視編頁報表
+      url: paginated-reports-view-power-bi-service.md
+- title: 資源
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: 字彙
+      url: end-user-glossary.md
+    - text: 常見問題集
+      url: end-user-faq.md
+    - text: 見解類型
+      url: end-user-insight-types.md
+    - text: 視覺效果的類型
+      url: end-user-visual-type.md

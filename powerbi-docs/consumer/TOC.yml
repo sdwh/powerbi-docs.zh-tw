@@ -8,24 +8,24 @@
           href: end-user-consumer.md
         - name: 適用於 Power BI 取用者的基本概念和術語
           href: end-user-basic-concepts.md
+        - name: 導覽 Power BI 服務
+          href: end-user-reading-view.md
+    - name: 開始使用
+      items:
+        - name: 了解 Power BI
+          href: end-user-experience.md
         - name: 使用您的首頁登陸頁面尋找內容
           href: end-user-home.md
+        - name: 了解如何使用自然語言詢問問題
+          href: end-user-q-and-a.md
+        - name: 第一次登入
+          href: end-user-sign-in.md
+        - name: 查閱您的授權類型
+          href: end-user-license.md
         - name: 瀏覽「新外觀」
           href: ../service-new-look.md
         - name: 「新外觀」：動作跑到哪裡了？
           href: ../service-new-look-where-actions.md
-    - name: 快速入門
-      items:
-        - name: 了解 Power BI
-          href: end-user-experience.md
-        - name: Power BI 可以做什麼？
-          href: end-user-reading-view.md
-        - name: 第一次登入
-          href: end-user-sign-in.md
-    - name: 教學課程
-      items:
-        - name: 建立儀表板警示
-          href: end-user-alerts.md
     - name: 如何
       items:
         - name: 儀表板
@@ -40,6 +40,10 @@
               href: end-user-tiles.md
             - name: 新增註解或開始交談
               href: end-user-comment.md
+            - name: 檢視儀表板磚的自動見解
+              href: end-user-insights.md
+            - name: 建立儀表板警示
+              href: end-user-alerts.md
         - name: 報表
           items:
             - name: 報表
@@ -78,7 +82,7 @@
               href: end-user-visual-type.md
             - name: 顯示用於建立視覺效果的資料
               href: end-user-show-data.md
-            - name: 向下鑽研 Power BI 的視覺效果
+            - name: 在視覺效果中向下切入
               href: end-user-drill.md
             - name: 與 ArcGIS 地圖互動
               href: ../power-bi-visualizations-arcgis.md
@@ -104,8 +108,6 @@
               href: end-user-subscribe.md
             - name: 在 Power BI 中搜尋及排序內容
               href: end-user-search-sort.md
-            - name: 檢視儀表板磚的自動見解
-              href: end-user-insights.md
             - name: 開啟預覽功能
               href: end-user-preview-features.md
             - name: 取得 Power BI 服務中的通知
@@ -134,7 +136,7 @@
           href: end-user-faq.md
         - name: 支援的瀏覽器
           href: end-user-browsers.md
-        - name: Power BI 支援的快速深入剖析類型
+        - name: 快速見解的類型
           href: end-user-insight-types.md
 - name: Power BI 行動應用程式
   items:
