@@ -579,6 +579,8 @@
           items:
             - name: 設定排程的重新整理
               href: refresh-scheduled-refresh.md
+            - name: 設定累加式重新整理
+              href: service-premium-incremental-refresh.md
             - name: 從本機 Power BI Desktop 檔案重新整理資料集
               href: refresh-desktop-file-local-drive.md
             - name: 從雲端 Power BI Desktop 檔案重新整理資料集
@@ -701,6 +703,8 @@
               href: service-url-filters.md
             - name: 訂閱自己及其他人
               href: service-report-subscribe.md
+            - name: 在 Microsoft Teams 中內嵌報表
+              href: service-embed-report-microsoft-teams.md
             - name: 在 SharePoint Online 內嵌報表
               href: service-embed-report-spo.md
             - name: 在安全入口網站或網站中內嵌報告
@@ -885,8 +889,6 @@
           href: service-premium-metrics-app.md
         - name: 在系統管理入口網站中監視容量
           href: service-admin-premium-monitor-portal.md
-        - name: 設定累加式重新整理
-          href: service-premium-incremental-refresh.md
         - name: 設定大型模型 (預覽)
           href: service-premium-large-models.md
         - name: 設定 Multi-Geo
