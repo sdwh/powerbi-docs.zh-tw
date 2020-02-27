@@ -1,37 +1,37 @@
 ---
-title: Power BI Premium 中的累加式重新整理
-description: 了解如何啟用 Power BI Premium 服務中的極大型資料集。
+title: Power BI 中的累加式重新整理
+description: 了解如何啟用 Power BI 中的極大型資料集。
 author: davidiseminger
-ms.reviewer: kayu
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: cc2b005ef72700891a603162a281fbba23aa5120
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 852bdcdeb71f6dae555c37467145bad6b584e324
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699283"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527608"
 ---
-# <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium 中的累加式重新整理
+# <a name="incremental-refresh-in-power-bi"></a>Power BI 中的累加式重新整理
 
-累加式重新整理可啟用 Power BI Premium 服務中的極大型資料集，且具有下列優勢：
+累加式重新整理可啟用 Power BI 中的極大型資料集，且具有下列優點：
 
 > [!div class="checklist"]
 > * **重新整理會變快** - 只需要重新整理已變更的資料。 例如，只重新整理 10 年資料集的過去 5 天。
 > * **重新整理更可靠** - 不需要再維護長時間執行的連線，即可變更來源系統。
 > * **減少資源耗用量** - 要重新整理的資料較少可減少記憶體和其他資源的整體耗用。
 
+> [!NOTE]
+> 累加式重新整理現在可供 Power BI Pro、Premium 及共用訂用帳戶與資料集使用。 
+
 ## <a name="configure-incremental-refresh"></a>設定累加式重新整理
 
 累加式重新整理原則定義於 Power BI Desktop，並在發佈至 Power BI 服務時套用。
 
-若要開始，請在**預覽功能**中啟用累加式重新整理。
-
-![選項 - 預覽功能](media/service-premium-incremental-refresh/preview-features.png)
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>在 Power BI Desktop 中篩選大型資料集
 
@@ -49,12 +49,12 @@ ms.locfileid: "74699283"
 
 ![自訂篩選](media/service-premium-incremental-refresh/custom-filter.png)
 
-確定已篩選資料列，其中，資料行值「晚於或等於」  **RangeStart** 並「早於」  **RangeEnd**。 其他篩選組合可能會導致重複計算資料列數目。
+確定已篩選資料列，其中資料行值「之後或等於」  **RangeStart** 並「早於」  **RangeEnd**。 其他篩選組合可能會導致重複計算資料列數目。
 
 ![篩選資料列](media/service-premium-incremental-refresh/filter-rows.png)
 
 > [!IMPORTANT]
-> 確認查詢在 **RangeStart** 或 **RangeEnd** 上具有等號 (=)，而非兩者都有。 如果這兩個參數上都存在等號 (=)，資料列可能會滿足兩個分割的條件，而導致模型中的資料重複。 例如：  
+> 確認查詢在 **RangeStart** 或 **RangeEnd** 上具有等號 (=)，而非兩者都有。 如果這兩個參數上都存在等號 (=)，資料列可能會滿足兩個分割的條件，而導致模型中的資料重複。 例如，  
 > \#"Filtered Rows" = Table.SelectRows(dbo_Fact, each [OrderDate] **>= RangeStart** and [OrderDate] **<= RangeEnd**) 可能會導致資料重複。
 
 > [!TIP]
@@ -72,7 +72,7 @@ ms.locfileid: "74699283"
 
 針對重新整理作業提交查詢時，務必將分割區篩選推送到來源系統。 向下推送篩選條件表示資料來源應該支援查詢摺疊功能。 大部分支援 SQL 查詢的資料來源都支援查詢摺疊， 但一般檔案、Blob、Web 和 OData 摘要等資料來源通常不支援。 如果資料來源後端不支援篩選條件，則其無法向下推送。 在此情況下，交互式引擎可在本機補償並套用篩選，這可能需要從資料來源擷取完整的資料集。 這會導致累加式重新整理非常緩慢，而且在使用時，該程序可能會用盡 Power BI 服務或內部部署資料閘道中的資源。
 
-每個資料來源都有不同的查詢摺疊層級支援，因此建議執行驗證，以確認篩選條件邏輯已包含在來源查詢中。 為了簡化起見，Power BI Desktop 會嘗試為您執行這項驗證。 如果無法驗證，則定義累加式重新整理原則時會在累加式重新整理對話方塊中顯示警告。 SQL 基礎資料來源，例如 SQL、Oracle 和 Teradata 可能會依賴這項警告。 其他資料來源可能必須追蹤查詢才能驗證。 如果 Power BI Desktop 無法確認，則會顯示下列警告。
+每個資料來源都有不同的查詢摺疊層級支援，因此建議執行驗證，以確認篩選條件邏輯已包含在來源查詢中。 為了簡化起見，Power BI Desktop 會嘗試為您執行這項驗證。 如果無法驗證，則定義累加式重新整理原則時會在累加式重新整理對話方塊中顯示警告。 SQL 基礎資料來源，例如 SQL、Oracle 和 Teradata 可能會依賴這項警告。 其他資料來源可能必須追蹤查詢才能驗證。 如果 Power BI Desktop 無法確認，則會顯示下列警告。 如果您看到此警告而想要檢查是否發生了必要的查詢折疊，則可使用查詢診斷功能，或追蹤來源資料庫所接收的查詢。
 
  ![查詢摺疊](media/service-premium-incremental-refresh/query-folding.png)
 
@@ -93,7 +93,7 @@ ms.locfileid: "74699283"
 
 標頭文字說明下列資訊：
 
-- 只有 Premium 容量上的工作區才支援累加式重新整理。 重新整理原則定義於 Power BI Desktop 中，且由服務中的重新整理作業套用。
+- 重新整理原則定義於 Power BI Desktop 中，且由服務中的重新整理作業套用。
 
 - 如果您可以從 Power BI 服務下載包含累加式重新整理原則的 PBIX 檔案，則無法在 Power BI Desktop 中開啟該檔案。 雖然這可能會在未來受到支援，但請記住這些資料集可能會成長到很大，因此不適合在典型桌上型電腦下載並開啟它們。
 
@@ -110,6 +110,13 @@ ms.locfileid: "74699283"
 Power BI 服務中的第一次重新整理可能需要較長的時間才能匯入全部 5 個完整日曆年度。 後續重新整理只需要較短的時間就能完成。
 
 ![重新整理範圍](media/service-premium-incremental-refresh/refresh-ranges.png)
+
+
+#### <a name="current-date"></a>目前日期
+
+「目前日期」  是以重新整理時的系統日期為基礎。 如果已為 Power BI 服務中的資料集啟用排程重新整理，則在判斷目前日期時，會將指定的時區納入考量。 手動叫用及排程的重新整理都會遵守時區 (如果有的話)。 例如，以指定時區在太平洋時間 (美國和加拿大) 下午 8 點發生的重新整理，將會根據太平洋時間 (而非 GMT) 來判斷目前日期。
+
+![時區](media/service-premium-incremental-refresh/time-zone2.png)
 
 > [!NOTE]
 > 您可能只需要這些範圍的定義，在此情況下，您可以直接前往下面的發佈步驟。 其他下拉式清單是針對進階功能。
@@ -143,10 +150,6 @@ Power BI 服務中的第一次重新整理可能需要較長的時間才能匯�
 > 服務中的重新整理作業會在 UTC 時間下執行。 這可以判斷有效日期並影響完整週期。 我們計劃新增覆寫重新整理作業有效日期的能力。
 
 ## <a name="publish-to-the-service"></a>發佈至服務
-
-因為累加式重新整理是只有 Premium 才有的功能，所以發佈對話方塊只允許選取 Premium 容量上的工作區。
-
-![發佈至服務](media/service-premium-incremental-refresh/publish.png)
 
 您現在可以重新整理模型。 第一次重新整理可能需要較長的時間才能匯入歷程資料。 後續重新整理可能更快，因為它們使用累加式重新整理。
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: ba39718a5a458ec18af976806bc634d32843afb2
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: c766393c9a4c81c484afe6f934e1ebb8314d0fb9
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259723"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426625"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>開始在 iOS 裝置上使用 Power BI 行動裝置應用程式
 iPhone 和 iPad 的 iOS 版 Microsoft Power BI 應用程式會傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 透過 [Apple Watch](mobile-apple-watch.md)，隨時掌握最即時的資料。  

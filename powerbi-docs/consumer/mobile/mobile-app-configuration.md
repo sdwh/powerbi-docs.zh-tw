@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538259"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496763"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>使用行動裝置管理 (MDM) 工具從遠端設定 Power BI 應用程式
 
@@ -51,7 +51,7 @@ Power BI 行動裝置應用程式支援下列設定情節：
 | 索引鍵 | 類型 | 值 | 描述 |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | 字串 |  <nobr>single-tap</nobr><br><nobr>double-tap</nobr> | 設定點選視覺效果是否也會選取資料點。 |
-| ccom.microsoft.powerbi.mobile.RefreshAction | 字串 |  <nobr>pull-to-refresh</nobr><br>按鈕 | 設定使用者會有按鈕可以重新整理報表，還是應該使用提取以重新整理。 |
+| com.microsoft.powerbi.mobile.RefreshAction | 字串 |  <nobr>pull-to-refresh</nobr><br>按鈕 | 設定使用者會有按鈕可以重新整理報表，還是應該使用提取以重新整理。 |
 | com.microsoft.powerbi.mobile.FooterAppearance | 字串 |  docked<br>動態 | 設定報表頁尾要停駐在報表底部還是自動隱藏。 |
 
 ## <a name="deploying-app-configuration-settings"></a>部署應用程式組態設定

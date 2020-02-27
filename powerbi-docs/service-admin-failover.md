@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 02/20/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 24867d231cca0135c09119f4b885b393cb2b8dd8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699053"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527330"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 的高可用性、容錯移轉和災害復原常見問題集
 
@@ -53,7 +53,10 @@ Power BI 支援頁面 ([https://powerbi.microsoft.com/support/](https://powerbi.
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>Power BI 需要多久時間進行容錯移轉？
 
-決定進行容錯移轉之後，可能需要 60 分鐘的時間，容錯移轉執行個體才可供使用。
+在確認需要容錯移轉後，Power BI 需要約 15 分鐘時間才會再次運作。 確認是否需要容錯移轉的時間會根據中斷情況而有所不同。 
+
+一旦執行了容錯移轉，Power BI 會使用 Azure 儲存體異地複寫來執行容錯移轉。 不過，這類複寫通常會有 15 分鐘的傳回點，[Azure 儲存體不保證此時間範圍](https://docs.microsoft.com/azure/storage/common/storage-redundancy)適用 SLA，因此 Power BI 也無法保證時間範圍。 
+
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>我的 Power BI 執行個體何時返回至原始區域？
 
@@ -68,4 +71,4 @@ Power BI 支援頁面 ([https://powerbi.microsoft.com/support/](https://powerbi.
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>閘道是否會在容錯移轉模式下運作？
 
-否。 來自內部部署資料來源 (根據 Direct Query 和 Live Connect 的任何報表與儀表板) 的所需資料，在容錯移轉期間都無法運作。 然而閘道器設定不會變更：當 Power BI 執行個體返回其原始狀態時，閘道就會回復為其正常功能。
+不會。 來自內部部署資料來源 (根據 Direct Query 和 Live Connect 的任何報表與儀表板) 的所需資料，在容錯移轉期間都無法運作。 然而閘道器設定不會變更：當 Power BI 執行個體返回其原始狀態時，閘道就會回復為其正常功能。

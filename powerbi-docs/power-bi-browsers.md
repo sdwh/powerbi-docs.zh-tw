@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/27/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d81e9e7142a05ac49969e98dbada0e0edf2fe3ba
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ec93e1575ec5429a3ca4c790150973a23224d97b
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875244"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427775"
 ---
 # <a name="supported-browsers-for-power-bi"></a>支援 Power BI 的瀏覽器
 Power BI 可在這些瀏覽器中執行：
@@ -26,6 +26,9 @@ Power BI 可在這些瀏覽器中執行：
 - Firefox 桌面最新版本。 Firefox 可能會變更 Power BI 所使用的字型 
 
 所有適用的平台都支援這些瀏覽器。
+
+> [!NOTE]
+> Power BI 不會在 iOS10 或舊版的任何瀏覽器中執行。
 
 ### <a name="next-steps"></a>後續步驟
 * [Power BI 是什麼？](power-bi-overview.md)

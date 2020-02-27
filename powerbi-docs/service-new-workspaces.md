@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925656"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426556"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 中組織新工作區中的工作
 
@@ -68,15 +68,16 @@ Power BI 管理入口網站中[提供工作區清單](service-admin-portal.md#wo
 | 新增/移除人員，包括其他系統管理員。  | X  |   |   |   |
 | 新增具有較低權限的成員或其他人。  |  X | X  |   |   |
 | 發佈和更新應用程式。 |  X | X  |   |   |
-| 共用項目或共用應用程式。 |  X | X  |   |   |
-| 允許其他人再次共用項目。 |  X | X  |   |   |
+| 共用項目或共用應用程式。<sup>1</sup> |  X | X  |   |   |
+| 允許其他人再次共用項目。<sup>1</sup> |  X | X  |   |   |
 | 建立、編輯和刪除工作區中的內容。  |  X | X  | X  |   |
 | 將報表發佈至工作區、刪除內容。  |  X | X  | X  |   |
 | 根據此工作區中的資料集，在另一個工作區中建立報表。<sup>1</sup> |  X | X  | X  |   |
-| 複製報表。<sup>1</sup> | X | X | X |  |
-| 檢視項目並與其互動。<sup>2</sup> |  X | X  | X  | X  |
+| 複製報表。<sup>2</sup> | X | X | X |  |
+| 檢視項目並與其互動。<sup>3</sup> |  X | X  | X  | X  |
 
-1. 若要複製報表，並根據此工作區中的資料集在另一個工作區中建立報表，則必須符合其他條件：
+1. 如果參與者和檢視者都有再次共用權限，即可在工作區中共用項目。
+2. 若要複製報表，並根據此工作區中的資料集在另一個工作區中建立報表，則必須符合其他條件：
     - 需要 Power BI Pro 授權。 請參閱下一節[授權](#licensing)以取得詳細資訊。
     - 需具備資料集的建置權限。 針對此工作區中的資料集，具有「系統管理員」、「成員」和「參與者」角色的使用者可透過其工作區角色取得建置權限。
 2. 如果項目位於 Premium 容量的工作區中，則即使沒有 Power BI Pro 授權，您也可以在 Power BI 服務中檢視項目並與其互動。

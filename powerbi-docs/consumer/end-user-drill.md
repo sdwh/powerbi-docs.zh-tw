@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851448"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496386"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI 視覺效果中的切入模式
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -32,6 +34,7 @@ ms.locfileid: "73851448"
 不確定哪些 Power BI 視覺效果包含階層？ 請將游標停留在視覺效果上。 如果您在頂端看到這些切入控制項的組合，則表示此視覺效果有階層。
 
 ![切入圖示的螢幕擷取畫面。](./media/end-user-drill/power-bi-drill-icons.png)  
+
 
 ## <a name="learn-how-to-drill-down-and-up"></a>了解如何向下切入和向上切入
 
@@ -141,7 +144,9 @@ ms.locfileid: "73851448"
 
 
 ## <a name="considerations-and-limitations"></a>考量與限制
-根據預設，切入不會篩選報表中的其他視覺效果。 不過，報表設計師可以變更此預設行為。 當您切入時，請查看頁面上的其他視覺效果是否為交叉篩選或交叉醒目提示。
+- 根據預設，切入不會篩選報表中的其他視覺效果。 不過，報表設計師可以變更此預設行為。 當您切入時，請查看頁面上的其他視覺效果是否為交叉篩選或交叉醒目提示。
+
+- 檢視與您共用的報表需有 Power BI Pro 或 Premium 授權。 [我有哪些授權？](end-user-license.md)
 
 
 ## <a name="next-steps"></a>後續步驟

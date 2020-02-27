@@ -1,18 +1,18 @@
 ---
 title: 使用 Power BI 共用資料集建立編頁報表 - Power BI Report Builder
 description: 根據 Power BI 共用資料集，在 Power BI Report Builder 中建立編頁報表。
-ms.date: 01/03/2020
+ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 4a46f0aae642b42cd797940e0b0991cfa77a077e
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691476"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427824"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>建立以 Power BI 共用資料集為基礎的編頁報表
 
@@ -27,6 +27,7 @@ ms.locfileid: "75691476"
 以下是您在 Power BI 報表產生器中使用共用資料集時，需要和不需要的項目清單。
 
 - Power BI 報表產生器。 [下載及安裝 Power BI 報表產生器](https://go.microsoft.com/fwlink/?linkid=2086513)。
+- Power BI Desktop。 [下載及安裝 Power BI Desktop](https://powerbi.microsoft.com/desktop/)。
 - 若要存取 Power BI 資料集，您需要有該資料集的建置權限。 請參閱[建置權限](service-datasets-build-permissions.md)。
 - 您不需要 Power BI Pro 授權，即可在報表產生器中建立編頁報表。 
 - 您需要有 Power BI Pro 授權，才能發佈編頁報表。 針對 Premium 容量中的工作區，您還需要至少一個「參與者」角色。 
@@ -57,12 +58,26 @@ ms.locfileid: "75691476"
     請記住，您可以在相同的編頁報表中連接到多個 Power BI 資料集和其他資料來源。
 
 
-## <a name="get-the-query-for-the-dataset"></a>取得資料集的查詢
+## <a name="get-the-dax-query-for-the-dataset"></a>取得資料集的 DAX 查詢
 
 您想要 Power BI 報表和報表產生器報表中的資料都相同時，連接到資料集並不足夠。 您還需要建置在該資料集基礎之上的查詢。
 
+### <a name="video-get-the-dax-query"></a>影片：取得 DAX 查詢
+
+在下列影片中，Chris Finlan 會示範如何為編頁報表取得所需的 DAX。
+
+<iframe width="400" height="450" src="https://www.youtube.com/embed/NfoOK4QRkhI" frameborder="0" allowfullscreen></iframe>
+
+### <a name="steps-to-get-the-dax-query"></a>取得 DAX 查詢的步驟
+
+以下是取得查詢的步驟。
+
 1. 在 Power BI Desktop 中開啟 Power BI 報表 (.pbix)。
-1. 確定您的報表中有一個資料表，其中包含您在編頁報表中所需的所有資料。
+1. 確定您的報表中有一個資料表，其中包含您在編頁報表中所需的所有資料。 資料表必須符合這兩項需求：
+    - 必須是二維資料表，而不是矩陣或其他視覺效果。 如果不是資料表，請立即將其轉換成資料表，逐一完成後列的效能分析器步驟，再將其轉換回所要的視覺效果。
+    - 您必須在數值欄位使用「預先定義的量值」  。 其旁邊有一個計算機符號。 深人了解[建立量值](desktop-measures.md)。 
+
+        ![量值圖示](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 
 1. 在 [檢視]  功能區中，選取 [效能分析器]  。
 
@@ -204,6 +219,7 @@ ms.locfileid: "75691476"
 
 - 對於使用即時連線連接到 Analysis Services 的資料集，您可以使用基礎 Analysis Services 連線 (而不是共用資料集) 來直接連接。
 - 具有已升級或已認證簽署的資料集會出現在可用資料集清單中，但不會將其標記為可用資料集。 
+- 您無法在「應用程式擁有資料」案例中，內嵌以 Power BI 共用資料集為基礎的編頁報表。
 
 ## <a name="next-steps"></a>後續步驟
 

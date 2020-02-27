@@ -6,20 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dcfc695d0371cce21a827ddfe71b3b4b05863935
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 882cddf7728a27e78056a35c14fde20f00678e33
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762408"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527694"
 ---
 # <a name="use-the-facebook-connector-for-power-bi-desktop"></a>使用適用於 Power BI Desktop 的 Facebook 連接器
 **Power BI Desktop** 中的 Facebook 連接器依賴 Facebook 圖形 API。 因此，功能與可用性可能會隨著時間而變化。
 
 您可以看到[適用於 Power BI Desktop 的 Facebook 連接器相關教學課程](desktop-tutorial-facebook-analytics.md).
+
+> [!IMPORTANT]
+> **Facebook 資料連接器的淘汰通知：** 自 2020 年 4 月起，在 Excel 中從 Facebook 匯入和重新整理資料功能，將無法正常運作。 在此之前您仍可以使用 Facebook「取得 & 轉換 (Power Query)」  連接器， 而在該日期之後，您將會無法連線至 Facebook，且會收到錯誤訊息。 我們建議您儘快修改或移除所有仍在使用 Facebook 連接器的「取得 & 轉換 (Power Query)」  查詢，以避免非預期的結果。
+
 
 Facebook 的 Graph API v1.0 已於 2015 年 4 月 30 日過期。 Power BI 針對 Facebook 連接器在幕後使用圖形 API，可讓您連接到資料並進行分析。
 

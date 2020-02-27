@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: a6d949f95f463cb988958551d825a4eae824fb70
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73865836"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427246"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 中建立報表的秘訣和訣竅
 為了充分利用您的資料，有時您需要一些額外的協助。 我們集結了一些秘訣與技巧，可供您在 Microsoft Power BI Desktop 中，*以及*在啟用 Power Pivot 增益集與安裝並啟用 Power Query 的 Microsoft Excel 2016 或 Microsoft Excel 2013 Pro-Plus 版本中，用來建立報表。 
@@ -36,7 +36,7 @@ Power BI Desktop 中的查詢編輯器與 Excel 2013 中的 Power Query 增益�
 
 * 當您使用檔案做為查詢的資料來源時，檔案的絕對路徑會儲存在查詢中。 共用或移動 Power BI Desktop 檔案或 Excel 活頁簿時，只需更新一次而無須更新所有路徑，藉此節省更新路徑的時間。
 
-根據預設，所有查詢會載入至 Excel 工作表或資料模型 (或兩者)。 某些查詢是中繼步驟，不適合使用者使用。 當參考上述查詢時，通常會是這種情況。 您可以控制查詢載入行為，方法是以滑鼠右鍵按一下導覽器中的查詢，然後切換 [啟用載入] 選項。 如果 [啟用載入]  旁沒有核取記號，您仍可從 [查詢] 索引標籤使用查詢，並可搭配其他查詢使用。 它特別適合搭配「合併」、「附加」和「參考」轉換使用。 不過，由於不會將查詢結果載入至資料模型，因此查詢不會造成報表欄位清單或資料模型紊亂的情況。 
+根據預設，所有查詢都會載入至資料模型。 某些查詢是中繼步驟，不適合使用者使用。 當參考上述查詢時，通常會是這種情況。 您可以控制查詢載入行為，方法是以滑鼠右鍵按一下導覽器中的查詢，然後切換 [啟用載入] 選項。 如果 [啟用載入]  旁沒有核取記號，您仍可從 [查詢] 索引標籤使用查詢，並可搭配其他查詢使用。 它特別適合搭配「合併」、「附加」和「參考」轉換使用。 不過，由於不會將查詢結果載入至資料模型，因此查詢不會造成報表欄位清單或資料模型紊亂的情況。 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>散佈圖需要點識別元
 以簡單的溫度表為例，並計時閱讀所花的時間。 如果您直接在散佈圖上繪製，Power BI 會將所有值彙總成一點。 若要顯示個別資料點，您必須將一個欄位加入欄位區中的 [詳細資料] 貯體。 在 Power BI Desktop 中這麼做的一個簡單方法，便是在查詢索引標籤上使用 [新增資料行] 功能區上的 [新增索引資料行] 選項。 
@@ -132,7 +132,7 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 > 
 > 
 
-當我們想要追蹤與特定 CustomerName 相關的所有事件和工作項目時，不可以直接建立這兩個資料集之間的關聯性。 有些 WorkItems 可能與 CustomerName 無關，因此該欄位會是空白或 NULL。 如果您的 CustomerNames 資料表中有任何空白值或 Null，您可能仍然無法建立關聯性；請參閱＜資料包含 Null 或空白值時建立關聯性＞。 一個 CustomerName 可能會有多個 WorkItems 和 CustomerIncidents。 
+當我們想要追蹤所有與特定 CustomerName 相關的事件和工作項目時，不能僅是建立這兩個資料集之間的關聯性。 有些 WorkItems 可能與 CustomerName 無關，因此該欄位會是空白或 NULL。 如果您的 CustomerNames 資料表中有任何空白值或 Null，您可能仍然無法建立關聯性；請參閱＜資料包含 Null 或空白值時建立關聯性＞。 一個 CustomerName 可能會有多個 WorkItems 和 CustomerIncidents。 
 
 若要在這種情況下建立關聯性，則需要跨兩個資料集建立所有 CustomerNames 的邏輯資料集。 您可以在 [查詢] 索引標籤中，依下列順序建立邏輯資料集：
 

@@ -3,21 +3,22 @@ title: 什麼是 Power BI 應用程式？
 description: Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處。
 author: mihart
 ms.reviewer: lukaszp
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 784c0ed368a12951220ccf719c70ac7d8d3db040
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851010"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496697"
 ---
 # <a name="apps-in-power-bi"></a>Power BI 的應用程式
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -29,9 +30,9 @@ ms.locfileid: "73851010"
 ![Power BI 的應用程式](./media/end-user-apps/power-bi-apps.png)
 
 > [!NOTE]
-> 使用應用程式功能需要有 Power BI Pro 授權。 <!-- add link to how to figure out your license -->
+> 使用應用程式功能需要有 Power BI Pro 授權。 [查閱您的授權類型](end-user-license.md)
 
-## <a name="app-designers-and-app-consumers"></a>應用程式「設計師」和應用程式「取用者」
+## <a name="app-designers-and-app-consumers"></a>應用程式「設計師」  和應用程式「取用者」 
 視您的角色而定，您可能是建立應用程式供自己使用，或與同事共用的人 (「設計師」  )。 或者，您可能是接收並下載其他人所建立應用程式的人 (「取用者」  )。 本文適用於應用程式「取用者」  。
 
 ## <a name="advantages-of-apps"></a>應用程式的優點
@@ -49,7 +50,7 @@ ms.locfileid: "73851010"
 - 您可以在 [AppSource](https://appsource.microsoft.com) 中搜尋應用程式。 AppSource 包含報表設計師在公司內外部所發佈的應用程式。 例如，您可能會在 AppSource 上發現適用於已使用服務 (例如 Google Analytics、GitHub 或 Microsoft Dynamics) 的應用程式。 您也會找到可用於了解 Power BI 的範例應用程式。  
 
 
-## <a name="next-step"></a>下一個步驟
+## <a name="next-step"></a>下一步
 * [開啟應用程式並與其互動](end-user-app-view.md)
 * [共用內容的其他方式](end-user-shared-with-me.md)
 

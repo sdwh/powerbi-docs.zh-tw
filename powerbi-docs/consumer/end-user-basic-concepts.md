@@ -8,21 +8,25 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/16/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 2c8a8356fe20136d0325efe51934a7db3d4b113e
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77260119"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496889"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI 服務取用者的基本概念
+
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 本文假設您已閱讀 [Power BI 概觀](../fundamentals/power-bi-overview.md)，並將自已識別為 [Power BI **取用者**  ](end-user-consumer.md)。 取用者可從同事收到 Power BI 內容，例如儀表板和報表。 取用者會使用 Power BI 服務，也就是 Power BI 的網站版本。
+
+需有 Power BI Pro 使用者授權或 Power BI Premium 容量授權才能接收其他人的內容。 [查閱您的授權類型](end-user-license.md)
 
 您一定會聽到字詞 "Power BI Desktop"，或只聽到 "Desktop"。 它是供「設計者」  使用的獨立工具，而設計師會組建儀表板和報表，並與您共用它們。 請務必知道當中有其他 Power BI 工具。 只要您是取用者，只會使用 Power BI 服務。 本文僅適用於 Power BI 服務。
 
@@ -38,7 +42,7 @@ ms.locfileid: "77260119"
 
 ![歡迎使用 Power BI 服務畫面的螢幕擷取畫面。](media/end-user-basic-concepts/power-bi-home.png)
 
-當您使用 Power BI 時，您會將每次開啟網站時所看到的內容個人化。 例如，有些人想要將 Power BI 開啟至 [首頁]  ，而有些則有想要先查看他們的最愛儀表板。 別擔心，本文將教導您如何將您的體驗個人化。
+當您使用 Power BI 時，您會將每次開啟網站時所看到的內容個人化。 例如，有些人希望在 [常用]  畫面上開啟 Power BI，有些人則有自己最想先看到的儀表板。 別擔心，本文將教導您如何將您的體驗個人化。
 
 - [介紹 Power BI 首頁和全域搜尋](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)
 
@@ -179,6 +183,9 @@ _______________________________________________________
 ## <a name="apps"></a>應用程式
 
 這些儀表板和報表的集合會將相關內容一起組織成單一套件。 Power BI 的「設計工具」  可建置它們，並將其與個人、群組、整個組織或大眾共用。 身為取用者，您可以確信您和您的同事正在使用相同的資料；這是事實的單一受信任版本。
+
+> [!NOTE]
+> 使用應用程式需有 Power BI Pro 或 Premium 授權。 
 
 ![Power BI 左窗格中所選取應用程式的螢幕擷取畫面。](media/end-user-basic-concepts/power-bi-apps.png)
 

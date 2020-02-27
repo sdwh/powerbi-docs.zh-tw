@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
-ms.openlocfilehash: 602c6a00f773147072b97ecf8c11588bc981eb05
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: f8f7d3b43cfc2d5a51b686598c1657ec21b44130
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75954000"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527261"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Power BI 報表產生器中的報表資料
 
@@ -60,3 +60,4 @@ ms.locfileid: "75954000"
 ## <a name="next-steps"></a>後續步驟
 
 - [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)  
+- [編頁報表的資料擷取指引](guidance/report-paginated-data-retrieval.md)

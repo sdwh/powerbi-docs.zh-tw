@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f7debd49541679b2ec5d41eaa2307c50bf170ce
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016127"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527389"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>使用 Power BI Desktop 中已更新的功能區 (預覽)
 
@@ -51,7 +51,18 @@ Power BI 中的已更新功能區是預覽功能，必須啟用。 若要啟用�
 
 * **單行功能區折疊後可為您節省空間** - 已更新功能區的另一個優點，是能夠將功能區本身折疊成單行，以動態方式顯示以您的內容為基礎的功能區項目。 
 
-    ![更好的佈景主題](media/desktop-ribbon/desktop-ribbon-06.png)
+    ![摺疊功能區](media/desktop-ribbon/desktop-ribbon-06.png)
+
+* **瀏覽和選取按鈕的按鍵提示** - 您可以按 **Alt + Windows 鍵**來啟用按鍵提示，以便於瀏覽功能區。 啟用之後，您可以按鍵盤上顯示的按鍵進行瀏覽。
+
+    ![按鍵提示](media/desktop-ribbon/desktop-ribbon-07.png)
+
+* **自訂格式字串** - 除了可在 [屬性]  窗格中設定自訂格式字串之外，您也可以在功能區中進行設定。 選取您想要自訂的量值或資料行，即會根據您的選擇來顯示 [量值工具]  或 [資料行工具]  內容索引標籤。 在該索引標籤的格式區段中，您可以直接在下拉式方塊中鍵入自訂格式字串。
+
+    ![自訂格式字串](media/desktop-ribbon/desktop-ribbon-08.png)
+
+* **協助工具** - 可完整存取標題列、功能區和檔案功能表。 按 Ctrl + F6 巡覽至功能區區段。 在功能區區段，您可以使用 **Tab** 鍵在頂端列和底部列之間移動，並使用方向鍵在項目之間移動。
+
 
 除了那些可見的變更之外，已更新功能區也可以讓我們對 Power BI Desktop 及其功能區進行後續更新，如下所示：
 

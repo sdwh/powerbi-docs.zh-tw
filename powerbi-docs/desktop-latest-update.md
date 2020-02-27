@@ -6,22 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 02/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c6f1a04f7178719eb68bcd54674ea0312c97ef3e
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 4fc4144b5436fd451280e7189484d9cc01ce69b5
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076579"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496676"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop 的新功能
 
+## <a name="february-2020-update-2785740642"></a>2020 年 2 月更新 (2.78.5740.642)
 
-## <a name="december-2019-update-2765678661"></a>2019 年 12 月更新 (2.76.5678.661)
-
-我們的 12 月更新和滑雪一樣有趣。 
+我們喜歡二月的更新，且相信新功能比心形盒裝的巧克力更好。 
 
 您可以從[下載中心](https://www.microsoft.com/download/details.aspx?id=58494)取得最新版本的 Power BI Desktop。 如果您執行的是 Windows 10，您也可以從 [Microsoft Store](https://aka.ms/pbidesktopstore) 取得 Power BI Desktop。 無論您用何種方式安裝 Power BI Desktop，雖然版本編號各不相同，但每月版本都相同。 如需下載與安裝 Power BI Desktop 的詳細資訊，請參閱[取得 Power BI Desktop](desktop-get-the-desktop.md)。 
 
@@ -40,48 +39,39 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 以下是本月 Power BI Desktop 新增的更新：
 
+### <a name="data-management"></a>資料管理
+* 累加式重新整理現已正式推出 [[影片]](https://youtu.be/TN61JvbUAxk?t=16) [[文章]](service-premium-incremental-refresh.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Incremental_refresh) 
 
 ### <a name="reporting"></a>報告
-* 自訂目前的主題 (預覽) [[影片]](https://youtu.be/eCEwgZsVUOs?t=10)  [[文章]](desktop-report-themes.md#create-and-customize-a-theme-in-power-bi-desktop-preview)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
-* 匯出目前的主題 (預覽) [[影片]](https://youtu.be/eCEwgZsVUOs?t=242)  [[文章]](desktop-report-themes.md#export-report-themes-preview)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
-* 將目錄或矩陣值設定為自訂的 URL [[影片]](https://youtu.be/eCEwgZsVUOs?t=277) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
-* KPI 視覺效果格式設定 [[影片]](https://youtu.be/eCEwgZsVUOs?t=354) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
-* 新的分解樹狀結構格式 [[影片]](https://youtu.be/eCEwgZsVUOs?t=442) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 
-* 新功能區中的篩選窗格切換按鈕 [[影片]](https://youtu.be/eCEwgZsVUOs?t=599) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#filterToggle) 
-* 自動頁面重新整理查詢詳細資料 [[影片]](https://youtu.be/eCEwgZsVUOs?t=717) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#APR) 
+* 階層式交叉分析篩選器 (預覽) [[影片]](https://youtu.be/TN61JvbUAxk?t=207) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Hierarchical_slicer) 
+* 新功能區的更新 (預覽) [[影片]](https://youtu.be/TN61JvbUAxk?t=424) [[文章]](desktop-ribbon.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Ribbon) 
 
 
-### <a name="analytics"></a>分析
-* 載入更多分析見解 [[影片]](https://youtu.be/eCEwgZsVUOs?t=831) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#moreAI) 
-* 新的 DAX 函式：季度 [[影片]](https://youtu.be/eCEwgZsVUOs?t=855) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#quarter) 
-
+### <a name="modeling"></a>模型化
+* 新的 DAX 函式：FirstNonBlankValue、LastNonBlankValue [[影片]](https://youtu.be/TN61JvbUAxk?t=716) [[文章]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_New_DAX_Functions) 
 
 ### <a name="visuals"></a>視覺效果
-* 個人化視覺效果窗格 (正式推出) [[影片]](https://youtu.be/eCEwgZsVUOs?t=865) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#personalizeViz) 
-* 新的自訂視覺效果 [[影片]](https://youtu.be/eCEwgZsVUOs?t=886) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
-
-
-### <a name="data-connectivity"></a>資料連線
-* Azure Data Lake Storage Gen2 連接器 (正式推出) [[影片]](https://youtu.be/eCEwgZsVUOs?t=2151)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/) 
-* Power Platform 資料流程連接器 (正式推出) [[影片]](https://youtu.be/eCEwgZsVUOs?t=2180) [[文章]](service-edit-sap-variables.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ADLS) 
-* PostgreSQL 連接器現在包含 Npgsql 提供者 [[影片]](https://youtu.be/eCEwgZsVUOs?t=2220) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#PostgreSQL) 
-* AtScale 連接器 (正式推出) [[影片]](https://youtu.be/eCEwgZsVUOs?t=2245) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AtScale) 
-* Azure 時間序列見解連接器 [[影片]](https://youtu.be/eCEwgZsVUOs?t=2261) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ATS) 
-* Data Virtuality 連接器 [[影片]](https://youtu.be/eCEwgZsVUOs?t=2294) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#DataVirt) 
-* Zucchetti HR Infinity 連接器 [[影片]](https://youtu.be/eCEwgZsVUOs?t=2345) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Zucchetti) 
-
-
-### <a name="data-preparation"></a>資料準備
-* AI 見解函式更新 (預覽) [[影片]](https://youtu.be/eCEwgZsVUOs?t=2366) [[文章]](desktop-ai-insights.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AIfunc) 
+* 新的自訂視覺效果 [[影片]](https://youtu.be/TN61JvbUAxk?t=835) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Visualizations) 
 
 
 ### <a name="template-apps"></a>範本應用程式
-* Dynamics 365 的全通路見解 [[影片]](https://youtu.be/eCEwgZsVUOs?t=2416) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Omni) 
-* Dynamics 365 的客戶服務分析 [[影片]](https://youtu.be/eCEwgZsVUOs?t=2500) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#CS)
-* 適用於客戶服務的 Microsoft Forms Pro [[影片]](https://youtu.be/eCEwgZsVUOs?t=2525) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Forms) 
+* Microsoft 365 使用情況分析 [[影片]](https://youtu.be/TN61JvbUAxk?t=910) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Microsoft_365_usage) 
+* P3 提供的 NFL 分析 [[影片]](https://youtu.be/TN61JvbUAxk?t=928) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_NFL)
+* Acterys for Quickbooks、Xero 和 WorkflowMax [[影片]](https://youtu.be/TN61JvbUAxk?t=932) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Acterys) 
 
 
-如需這些新功能各自的詳細資訊，請參閱 [Power BI Desktop 2019 年 11 月的功能摘要](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/)。
+### <a name="data-preparation"></a>資料準備
+* 查詢診斷 - 支援非為系統管理員的使用者 [[影片]](https://youtu.be/TN61JvbUAxk?t=938) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_non_admin_support) 
+
+
+### <a name="data-connectivity"></a>資料連線
+* MicroStrategy 連接器 (已正式推出) [[影片]](https://youtu.be/TN61JvbUAxk?t=962) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_MicroStrategy_connector) 
+* FHIR 連接器 (已正式推出) [[影片]](https://youtu.be/TN61JvbUAxk?t=962) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_FHIR) 
+* 其他連接器：Factset、TIBCO、Jamf Pro、Asana [[影片]](https://youtu.be/TN61JvbUAxk?t=978) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Factset_connector) 
+
+
+
+如需這些新功能各自的詳細資訊，請參閱 [Power BI Desktop 功能摘要部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/)。
 
 請查看 [Power BI 服務新功能](service-whats-new.md)及 [Power BI 行動裝置應用程式新功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
@@ -92,7 +82,8 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 ## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 每月更新影片
 下列影片會分別描述這些更新。 您也可以在部落格文章中觀賞這段影片：
 
-> [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
+> [!VIDEO https://www.youtube.com/embed/TN61JvbUAxk]
+
 
 
 ## <a name="more-videos"></a>更多影片

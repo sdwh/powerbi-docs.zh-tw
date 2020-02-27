@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 02/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3a2b06071986b6994c68bde06e87c5ae7f5e7360
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: f22b235ddb1918bda5284f72759485d01c4ceab9
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953730"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496737"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -32,6 +32,89 @@ ms.locfileid: "75953730"
 您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
 
 下列章節說明 **Power BI Desktop** 前幾個月的更新。
+
+
+## <a name="december-2019-update-2765678661"></a>2019 年 12 月更新 (2.76.5678.661)
+
+我們的 12 月更新和滑雪一樣有趣。 
+
+> [!IMPORTANT]
+> 從 2019 年 9 月版本開始，Power BI Desktop 僅發行為單一 .exe 檔案，其中包含所有支援的語言。 .msi 版本已不再發行。
+
+Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯：
+
+* [部落格]: Most features are explained in a section in the monthly update blog post.
+* [影片]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
+* [文章]: Some features have an article that provides more detail.
+* 剩下的功能一目了然，不需要文章或影片加以說明。
+
+下列是本月 Power BI Desktop 新增的更新：
+
+### <a name="reporting"></a>報告
+* 佈景主題更新 (預覽) [[影片]](https://youtu.be/eCEwgZsVUOs?t=10) [[文章]](desktop-report-themes.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
+* 匯出目前的佈景主題 (預覽) [[影片]](https://youtu.be/eCEwgZsVUOs?t=242) [[文章]](desktop-report-themes.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
+* 將目錄或矩陣值設定為自訂的 URL [[影片]](https://youtu.be/eCEwgZsVUOs?t=277) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
+* KPI 視覺效果格式設定 [[影片]](https://youtu.be/eCEwgZsVUOs?t=354) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
+* 新的分解樹狀結構格式 [[影片]](https://youtu.be/eCEwgZsVUOs?t=442) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 
+* 新功能區中的篩選窗格切換按鈕 [[影片]](https://youtu.be/eCEwgZsVUOs?t=599) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#filterToggle) 
+* 自動頁面重新整理查詢詳細資料 [[影片]](https://youtu.be/eCEwgZsVUOs?t=717) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#APR) 
+
+
+### <a name="analytics"></a>分析
+* 載入更多分析見解 [[影片]](https://youtu.be/eCEwgZsVUOs?t=831) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#moreAI) 
+* 新的 DAX 函式：季度 [[影片]](https://youtu.be/eCEwgZsVUOs?t=855) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#quarter) 
+
+
+### <a name="visuals"></a>視覺效果
+* 個人化視覺效果窗格 (正式推出) [[影片]](https://youtu.be/eCEwgZsVUOs?t=865) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#personalizeViz) 
+* 新的自訂視覺效果 [[影片]](https://youtu.be/eCEwgZsVUOs?t=886) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
+
+
+### <a name="data-connectivity"></a>資料連線
+* Azure Data Lake Storage Gen2 連接器 (正式推出) [[影片]](https://youtu.be/eCEwgZsVUOs?t=2151)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/) 
+* Power Platform 資料流程連接器 (正式推出) [[影片]](https://youtu.be/eCEwgZsVUOs?t=2180) [[文章]](service-edit-sap-variables.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ADLS) 
+* PostgreSQL 連接器現在包含 Npgsql 提供者 [[影片]](https://youtu.be/eCEwgZsVUOs?t=2220) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#PostgreSQL) 
+* AtScale 連接器 (正式推出) [[影片]](https://youtu.be/eCEwgZsVUOs?t=2245) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AtScale) 
+* Azure 時間序列見解連接器 [[影片]](https://youtu.be/eCEwgZsVUOs?t=2261) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ATS) 
+* Data Virtuality 連接器 [[影片]](https://youtu.be/eCEwgZsVUOs?t=2294) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#DataVirt) 
+* Zucchetti HR Infinity 連接器 [[影片]](https://youtu.be/eCEwgZsVUOs?t=2345) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Zucchetti) 
+
+
+### <a name="data-preparation"></a>資料準備
+* AI 見解函式更新 (預覽) [[影片]](https://youtu.be/eCEwgZsVUOs?t=2366) [[文章]](desktop-ai-insights.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AIfunc) 
+
+
+### <a name="template-apps"></a>範本應用程式
+* Dynamics 365 的全通路見解 [[影片]](https://youtu.be/eCEwgZsVUOs?t=2416) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Omni) 
+* Dynamics 365 的客戶服務分析 [[影片]](https://youtu.be/eCEwgZsVUOs?t=2500) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#CS)
+* 適用於客戶服務的 Microsoft Forms Pro [[影片]](https://youtu.be/eCEwgZsVUOs?t=2525) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Forms) 
+
+
+如需這些新功能各自的詳細資訊，請參閱 [Power BI Desktop 2019 年 12 月的功能摘要](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/)。
+
+請查看 [Power BI 服務新功能](service-whats-new.md)及 [Power BI 行動裝置應用程式新功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
+
+> [!NOTE]
+> 請參閱 [Power BI Desktop 可用的資料來源](desktop-data-sources.md)。 我們的清單會持續增加，因此請經常回來查看。
+
+
+## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 每月更新影片
+下列影片會分別描述這些更新。 您也可以在部落格文章中觀賞這段影片：
+
+> [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
+
+如果組織需要，您也可以下載先前版本的 Power BI Desktop。 強烈建議您使用最新版的 Power BI Desktop，不要使用舊版本。 所有舊版本都有下列限制：
+
+* 不針對舊版 Power BI Desktop 提供服務 - 您應該一律採用最新版本以獲得最新功能和更新。
+* 可能無法使用舊版 Power BI Desktop 開啟使用較新版 Power BI Desktop 建立或儲存的檔案。 
+* 如果您在載入使用較新版 Power BI Desktop 儲存的報表時收到一則警告，然後使用舊版儲存該報表，您將會遺失任何與新功能有關的資訊。
+* 我們只會封存英文版 Power BI Desktop。
+
+請選取下列連結以下載這個較早的版本： 
+
+* [Power BI Desktop - 32 位元 2019 年 12 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-12.exe)
+* [Power BI Desktop - 64 位元 2019 年 12 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-12_x64.exe)
+
 
 
 ## <a name="november-2019-update-2755649341"></a>2019 年 11 月更新 (2.75.5649.341)

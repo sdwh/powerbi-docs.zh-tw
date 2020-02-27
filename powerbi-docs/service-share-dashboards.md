@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e6e66a4459abefbc66ec4e70b882cddc4771facf
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 96f78ff87dc4f955e134815e6237e4fb5a1ca1e7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565665"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426671"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用 Power BI 儀表板和報表
 「共用」  是讓一些人存取您儀表板和報表的一種好方法。 Power BI 還提供[數種其他方式可進行共同作業及散發您的儀表板和報表](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -37,7 +37,7 @@ ms.locfileid: "74565665"
 
 ## <a name="share-a-dashboard-or-report"></a>共用儀表板或報表
 
-1. 在儀表板或報表清單中，或是在開放的儀表板或報表中，選取 [共用]  ![共用圖示](media/service-share-dashboards/power-bi-share-icon.png)。
+1. 在儀表板或報表清單中，或是在開啟的儀表板或報表中，選取 [共用]  ![共用圖示](media/service-share-dashboards/power-bi-share-icon.png)。
 
 2. 在頂端的方塊中，輸入個人、通訊群組或安全性群組的完整電子郵件地址。 您無法共用動態通訊清單。 
    
@@ -70,7 +70,7 @@ ms.locfileid: "74565665"
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>查看誰可以存取儀表板或報表
 有時您需要查看您已共用內容的人員，以及這些人已共用內容的其他人員。
 
-1. 在儀表板或報表清單中，或是儀表板或報表本身當中，選取 [共用]  ![共用圖示](media/service-share-dashboards/power-bi-share-icon.png)。 
+1. 在儀表板或報表清單中，或在儀表板或報表本身中，選取 [共用]  ![共用圖示](media/service-share-dashboards/power-bi-share-icon.png)。 
 2. 在 [共用儀表板]  或 [共用報表]  對話方塊中，選取 [存取]  。
    
     ![[共用儀表板] 對話方塊的 [存取] 索引標籤](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -90,6 +90,8 @@ ms.locfileid: "74565665"
 
 如果內部部署的 Analysis Services 表格式模型實作角色或資料列層級安全性，則組織外部人員就完全看不到任何資料。
 
+使用安全性群組與包含具有外部電子郵件地址人員的群組共用，不要使用通訊群組。 在通訊群組中具有外部電子郵件的人員，除非是 Azure Active Directory (Azure AD) B2B 的來賓使用者，否則看不到您共用的內容。 深入了解 [Azure AD B2B 來賓使用者](service-admin-azure-ad-b2b.md)。
+
 如果您從 Power BI 行動裝置應用程式傳送連結給組織外部的人員，按一下連結便會在瀏覽器中開啟儀表板，而不是在 Power BI 行動裝置應用程式中開啟。
 
 ### <a name="allow-external-users-to-edit-content"></a>允許外部使用者編輯內容
@@ -103,7 +105,7 @@ Power BI 系統管理員可以允許外部來賓使用者編輯和管理組織�
 * 在傳送邀請之前，清除邀請底部的 [允許收件者共用您的儀表板 (或報表)]  核取方塊。
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>如果您已共用儀表板或報表
-1. 在儀表板或報表清單中，或是儀表板或報表本身當中，選取 [共用]  ![共用圖示](media/service-share-dashboards/power-bi-share-icon.png)。 
+1. 在儀表板或報表清單中，或在儀表板或報表本身中，選取 [共用]  ![共用圖示](media/service-share-dashboards/power-bi-share-icon.png)。 
 2. 在 [共用儀表板]  或 [共用報表]  對話方塊中，選取 [存取]  。
    
     ![[共用儀表板] 對話方塊的 [存取] 索引標籤](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -127,7 +129,7 @@ Power BI 系統管理員可以允許外部來賓使用者編輯和管理組織�
 * 每個人都可以手動[重新整理資料](refresh-data.md)。
 * 如果電子郵件使用 Office 365，您可以輸入與通訊群組相關聯的電子郵件地址來與通訊群組的成員共用。
 * 與您共用電子郵件網域的同事，以及與不同網域但在相同租用戶中註冊的同事，可以與其他人共用儀表板。 例如，假設網域 contoso.com 和 contoso2.com 都註冊在相同的租用戶中，而您的電子郵件地址為 konrads@contoso.com。 ravali@contoso.com 和 gustav@contoso2.com 都可以共用您的儀表板，只要您將共用的權限授與這兩個電子郵件地址即可。
-* 如果您的同事已能存取特定儀表板或報表，則當你在儀表板或報表上時，您只要複製 URL 即可將其傳送為直接連結。 例如： `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`。
+* 如果您的同事已能存取特定儀表板或報表，則當你在儀表板或報表上時，您只要複製 URL 即可將其傳送為直接連結。 例如：`https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`。
 * 同樣地，如果您的同事已能存取特定儀表板，您可以[傳送基礎報表的直接連結](service-share-reports.md)。 
 
 ### <a name="share-with-more-than-100-separate-users"></a>與超過 100 個不同的使用者共用
@@ -163,7 +165,7 @@ Power BI 系統管理員可以允許外部來賓使用者編輯和管理組織�
     ![新增電子郵件地址](media/service-share-dashboards/power-bi-add-user-dataset.png)
 
 
-1. 選取 [加入]  。
+1. 選取 [新增]  。
 
 ### <a name="i-cant-share-a-dashboard-or-report"></a>我無法共用儀表板或報表
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 924be90a8598c561a12ed87872bdfbd4681831c8
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889366"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427706"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>設定 Premium 容量中的工作負載
 
@@ -170,7 +170,7 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 | **最大記憶體 (%)** | 編頁報表可在容量中使用的可用記憶體百分比上限。 |
 |  |  |
 
-編頁報表可讓您在轉譯報表時執行自訂程式碼。 例如，根據內容動態變更文字色彩，這可能需要額外的記憶體。 Power BI Premium 在容量內的包含空間中執行編頁報表。 
+編頁報表現在可提供與 SQL Server Reporting Services (SSRS) 報表相同的功能，包括報表作者新增自訂程式碼的功能。  這可讓作者動態變更報表，例如根據程式碼運算式變更文字色彩。  為確保適當的距離，編頁報表會依容量在受保護的沙箱中執行。 以相同容量執行的報表，彼此間可能會產生副作用。 就像您限制可將內容發佈至 SSRS 執行個體的作者一樣，我們建議您對編頁報表也採取類似的作法。 確保將內容發佈至容量的作者是組織所信任作者。 您可以佈建多個容量並為其指派不同的作者，以進一步保護環境。 
 
 在某些情況下，編頁報表工作負載可能會變成無法使用。 此時，工作負載會在管理入口網站中顯示錯誤狀態，且使用者會看到報表轉譯逾時。 若要緩解此問題，請停用工作負載，然後再次啟用它。
 

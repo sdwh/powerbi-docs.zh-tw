@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 58c226fd66c2551565f85ee75bd06469a46c4128
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925527"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427062"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 視覺效果專案結構
 
@@ -115,7 +115,7 @@ Power BI 視覺效果工具會使用此檔案作為 [Power BI 視覺效果] 窗�
 在 `pbiviz.json` 檔案中，下列程式碼標題中的註解會描述中繼資料項目。
 
 > [!NOTE]
-> * 從 **pbiciz** 工具 3.x 版開始，`externalJS` 不再受到支援。
+> * **pbiciz** 工具從 3.x.x 版開始，不再支援 `externalJS`。
 > * 如需當地語系化的支援，[請將 Power BI 地區設定新增至您的視覺效果](./localization.md)。
 
 ```json

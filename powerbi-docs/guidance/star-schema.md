@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 241789dc6255dd461ef6cc62425b732788d7c63d
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 85db7414fc476f2a62368d150e068a71c13d41cb
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410853"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527514"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>了解星型結構描述及其對 Power BI 的重要性
 
@@ -71,9 +71,10 @@ ms.locfileid: "74410853"
 
 ![欄位清單中的圖示範例](media/star-schema/field-list-example.png)
 
-不過，即使是簡單的資料行層級摘要，還是有兩個必須建立量值的理由：
+不過，即使是簡單的資料行層級摘要，還是有三個必須建立量值的理由：
 
 - 當知道報表作者將使用[多維度運算式 (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) 來查詢模型時，則模型必須包含「明確量值」  。 明確量值是使用 DAX 運算式來定義。 這種設計方法在使用 MDX 查詢 Power BI 資料集時高度相關，因為 MDX 無法達成資料行值的摘要。 值得注意的是，執行[使用 Excel 分析](https://docs.microsoft.com/power-bi/service-analyze-in-excel) (樞紐分析表會發出 MDX 查詢) 時，將會使用 MDX。
+- 當知道報表作者將使用 MDX 查詢設計工具來建立 Power BI 編頁報表時，則模型必須包含明確量值。 只有 MDX 查詢設計工具支援[伺服器彙總](/sql/reporting-services/report-design/report-builder-functions-aggregate-function)。 因此，如果報表作者需要以 Power BI (而非由編頁報表引擎評估) 來評估量值 ，則必須使用 MDX 查詢設計工具。
 - 如果需要確保報表作者只能以特定方式摘要資料行。 例如，轉售商銷售的 [單價]  資料行 (代表每個單位費率) 可進行摘要，但只能透過使用特定彙總函式。 一律不應該進行加總，但適合使用其他彙總函式 (min、max、average 等) 進行摘要。 在此情況下，模型製作人員可以隱藏 [單價]  資料行，並為所有適當的彙總函式建立量值。
 
 請注意，這種設計方法相當適用於在 Power BI 服務中撰寫的報表，以及問與答。 不過，Power BI Desktop 即時連接可讓報表作者在 [欄位]  窗格中顯示隱藏的欄位，進而規避這種設計方法。

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 53432a0b3e6f09a558a189ef152c9d10645db546
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 9998604bf3f0211490dee87596e2a0692072807c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259692"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427269"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教學課程：針對國家/地區雲端將 Power BI 內容內嵌到您的應用程式
 
@@ -54,7 +54,7 @@ Power BI 也支援[國家/地區雲端](https://docs.microsoft.com/azure/active-
 * 政府社群雲端 (GCC)：
 
     > [!NOTE]
-    > 您只能利用 Office 356 SKU 從政府社群雲端 (GCC) 內嵌 Power BI 內容。 其他國家/地區的雲端客戶可以使用 [Office 365 或 Azure SKU](embedded-capacity.md)。
+    > 您只能使用 Office 356 SKU 從政府社群雲端 (GCC) 內嵌 Power BI 內容。 其他國家/地區的雲端客戶可以使用 [Office 365 或 Azure SKU](embedded-faq.md)。
 
 1. 以 GCCCloud.config 內容覆寫 Cloud.config 檔案。
 

@@ -1,22 +1,24 @@
 ---
 title: 檢視 Power BI 儀表板
-description: 儀表板是 Power BI 服務的重要功能，了解如何開啟及檢視儀表板。
+description: 儀表板是 Power BI 服務的重要功能，請了解如何開啟及檢視儀表板。
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f250d380fc8938f7b5d7723b5b8becb65f27d79d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852613"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496302"
 ---
 # <a name="view-a-dashboard"></a>檢視儀表板
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -25,7 +27,7 @@ Power BI「取用者」  花費大量時間檢視儀表板。 儀表板的目的
 ![儀表板](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
 
-需要 Power BI Pro 才能共用儀表板和檢視共用的儀表板。
+需有 Power BI Pro 或 Premium 授權才能共用儀表板和檢視共用的儀表板。 [我有哪些授權？](end-user-license.md) 
 
 ## <a name="open-a-dashboard"></a>開啟儀表板
 
@@ -33,7 +35,7 @@ Power BI「取用者」  花費大量時間檢視儀表板。 儀表板的目的
 
 |              |         |
 |------------|--------------------------------|
-|![儀表板圖示](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |您可以從 Power BI 服務中的許多位置開啟儀表板。 <br> 只尋找此儀表板圖示。 一旦找到 <br>儀表板，要開啟它很簡單 - 只要選取它，儀表板就會填滿 <br>您的 Power BI 畫布。 |
+|![儀表板圖示](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |您可以從 Power BI 服務中的許多位置開啟儀表板。 <br> 只尋找此儀表板圖示。 一旦找到 <br>開啟儀表板很簡單 - 只要選取儀表板，其就會填滿您的 Power BI 畫布。 |
 |                    |          |
 
 
@@ -52,5 +54,5 @@ Power BI「取用者」  花費大量時間檢視儀表板。 儀表板的目的
 
 
 ## <a name="next-steps"></a>後續步驟
-* 使用[範例儀表板](../sample-tutorial-connect-to-the-samples.md)其中一項教學課程來熟悉儀表板。
+* 使用[範例儀表板](../sample-tutorial-connect-to-the-samples.md)其中一項教學課程來熟悉儀表板。    
 * 深入了解[儀表板磚](end-user-tiles.md)以及選取一個磚時會發生什麼情況。

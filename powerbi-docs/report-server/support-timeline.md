@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/03/2020
-ms.openlocfilehash: 204e1cdb83c02582e6181cf6addcbfdf8355054d
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 3546254c8bff56ac4caefbdd0b5f8df901256a59
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691440"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527560"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>支援 Power BI 報表伺服器的時間軸
 
@@ -34,9 +34,10 @@ Power BI 報表伺服器每年發行數次。 下個版本正式推出 (GA) 後�
 | 2017年 10 月 |2017 年 10 月 31 日 | 不再支援 |
 | 2018 年 3 月 | 2018 年 3 月 19 日 | 不再支援 |
 | 2018 年 8 月 | 2018 年 8 月 15日 | 不再支援 |
-| 2019 年 1 月 | 2019 年 1 月 23 日 | 2020 年 1 月 23 日 |
+| 2019 年 1 月 | 2019 年 1 月 23 日 | 不再支援 |
 | 2019 年 5 月 | 2019 年 5 月 22 日 | 2020 年 5 月 22 日 |
 | 2019 年 9 月 | 2019 年 9 月 | 2020 年 9 月 
+| 2020 年 1 月 | 2020 年 1 月 | 2021 年 1 月
 
 若要下載 Power BI 報表伺服器，以及針對 Power BI 報表伺服器最佳化的 Power BI Desktop，請移至[使用 Power BI 報表伺服器的內部部署報表](https://powerbi.microsoft.com/report-server/)。
 

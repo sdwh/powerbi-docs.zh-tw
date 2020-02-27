@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a62d1cf6d21df822265c3c41d4e74e74181b7051
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: e7534fd0da2039a2dafaf3ca80ee6957fa8d8754
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885201"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464293"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>在 Power BI Desktop 中連接至 Snowflake 計算倉庫
 在 Power BI Desktop 中，您可以連接至 **Snowflake** 運算倉儲並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。 
@@ -27,11 +27,11 @@ ms.locfileid: "75885201"
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>連接至 Snowflake 運算倉儲
 若要連接到 **Snowflake** 運算倉儲，請從 Power BI Desktop 的 [首頁]  功能區選取 [取得資料]  。 從左側類別中選取 [資料庫]  ，然後您會看到 **Snowflake**。
 
-![](media/desktop-connect-snowflake/connect_snowflake_2b.png)
+![](media/desktop-connect-snowflake/connect-snowflake-2b.png)
 
-在顯示的 [Snowflake]  視窗中，將您的 Snowflake 伺服器名稱鍵入或貼上方塊中，然後選取 [確定]  。 請注意，您可以選擇直接將資料 [匯入]  Power BI 中，也可以使用 [DirectQuery]  。 您可以深入了解[如何使用 DirectQuery](desktop-use-directquery.md)。
+在顯示的 [Snowflake]  視窗中，將您的 Snowflake 伺服器名稱鍵入或貼上方塊中，然後選取 [確定]  。 請注意，您可以選擇直接將資料 [匯入]  Power BI 中，也可以使用 [DirectQuery]  。 您可以深入了解[如何使用 DirectQuery](desktop-use-directquery.md)。 請注意，AAD SSO 僅支援 DirectQuery。
 
-![](media/desktop-connect-snowflake/connect_snowflake_3.png)
+![](media/desktop-connect-snowflake/connect-snowflake-3.png)
 
 收到提示時，請放入您的使用者名稱和密碼。
 
@@ -42,14 +42,14 @@ ms.locfileid: "75885201"
 > 
 > 
 
-如果想要使用 [Microsoft 帳戶] 選項，請讓您的 Snowflake 系統管理員連線到 Snowflake 以加入此功能的私人預覽。
+如果您想要使用 [Microsoft 帳戶] 選項，則 Snowflake 端必須設定 Snowflake AAD 整合。 若要這麼做，請閱讀 [Snowflake 文件有關該主題](https://docs.snowflake.net/manuals/user-guide/oauth-powerbi.html#power-bi-sso-to-snowflake)的 "Getting Started" 一節。
 
 ![Snowflake 連接器中的 Microsoft 帳戶驗證類型。](media/desktop-connect-snowflake/connect-snowflake-6.png)
 
 
 成功連接後，[導覽器]  視窗隨即出現，並顯示伺服器上可用的資料，您可以從中選取一或多個要匯入 **Power BI Desktop** 並在其中使用的項目。
 
-![ODBC 錯誤 28000 導致連線失敗。](media/desktop-connect-snowflake/connect_snowflake_5.png)
+![ODBC 錯誤 28000 導致連線失敗。](media/desktop-connect-snowflake/connect-snowflake-5.png)
 
 您可以**載入**選取的資料表，將整個資料表帶入 **Power BI Desktop** 中，也可以**編輯**查詢以開啟**查詢編輯器**，以便您篩選並縮小搜尋範圍到一組您想要使用的資料，然後將該組精簡的資料載入 **Power BI Desktop** 中。
 

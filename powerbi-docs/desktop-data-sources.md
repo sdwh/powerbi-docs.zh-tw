@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0cf9d6acd4fe5f729dafb575a2ab736b9e8db7bb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039797"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427545"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 
@@ -89,8 +89,8 @@ ms.locfileid: "76039797"
 * Vertica
 * Snowflake
 * Essbase
-* AtScale cube 搶鮮版 (Beta)
-* BI 連接器
+* AtScale Cube
+* BI Connector Data Virtuality LDW (搶鮮版 (Beta))
 * Denodo
 * Dremio
 * Exasol
@@ -162,7 +162,6 @@ ms.locfileid: "76039797"
 * Adobe Analytics
 * appFigures (搶鮮版 (Beta))
 * Data.World - 取得資料集 (搶鮮版 (Beta))
-* Facebook
 * GitHub (Beta)
 * LinkedIn Sales Navigator (搶鮮版 (Beta))
 * MailChimp (搶鮮版 (Beta))
@@ -182,6 +181,7 @@ ms.locfileid: "76039797"
 * Dynamics 365 Customer Insights (搶鮮版 (Beta))
 * Emigo 資料來源
 * Entersoft 商務套件 (搶鮮版 (Beta))
+* FactSet Analytics (搶鮮版 (Beta))
 * 企業 App Store
 * Intune 資料倉儲 (搶鮮版 (Beta))
 * Microsoft Graph 安全性 搶鮮版 (Beta)
@@ -210,7 +210,10 @@ ms.locfileid: "76039797"
 * ODBC
 * OLE DB
 * BI360 - Budgeting & Financial Reporting (搶鮮版 (Beta))
+* FHIR
 * Information Grid (搶鮮版 (Beta))
+* Jamf Pro (搶鮮版 (Beta))
+* MicroStrategy for Power BI
 * Paxata
 * QubolePresto (搶鮮版 (Beta))
 * Roamler (搶鮮版 (Beta))
@@ -219,6 +222,7 @@ ms.locfileid: "76039797"
 * Tenforce (Smart)List (搶鮮版 (Beta))
 * Vena (搶鮮版 (Beta))
 * Workforce Dimensions (搶鮮版 (Beta))
+* Zucchetti HR Infinity (搶鮮版 (Beta))
 * 空白查詢
 
 下圖顯示 [其他]  的 [取得資料]  視窗。

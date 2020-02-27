@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: d8432ae10afab6cbf12c017a8f315fd55825212d
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889274"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427223"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 有了 *Power BI Desktop*，當連線到資料來源時，隨時可將資料的複本匯入 Power BI Desktop。 對於某些資料來源，可用的替代方式是：使用 DirectQuery 直接連線到資料來源。
@@ -46,8 +46,6 @@ ms.locfileid: "76889274"
 
 ## <a name="limitations-of-directquery"></a>DirectQuery 的限制
 目前使用 DirectQuery 會有一些限制：
-
-- 除非使用[複合模型](desktop-composite-models.md)，否則所有資料表都必須都來自單一資料庫。
 
 - 如果 [查詢編輯器]  查詢過於複雜，則會發生錯誤。 若要修正錯誤，請在 [查詢編輯器]  中刪除有問題的步驟，或「匯入」  資料，而不要使用 DirectQuery。 針對 SAP Business Warehouse 之類的多維度來源，不存在 [查詢編輯器]  。
 
@@ -94,7 +92,7 @@ ms.locfileid: "76889274"
 
 4. 新增認證。 否則，當您開啟已發佈的報表或探索以 DirectQuery 連線所建立資料集時，就會發生錯誤。
 
-若要針對 **Azure SQL Database**、**Azure SQL 資料倉儲**及 **Redshift** 以外使用 DirectQuery 的其他資料來源建立資料連線，請安裝**內部部署資料閘道**，並註冊資料來源。 如需詳細資訊，請參閱[什麼是內部部署資料閘道？](service-gateway-onprem.md)
+若要在使用 DirectQuery 的 **Azure SQL Database**、**Azure SQL 資料倉儲**、**Redshift** 或 **Snowflake 資料倉儲**之外建立其他資料來源的資料連線，請安裝**內部部署資料閘道**，並註冊資料來源。 如需詳細資訊，請參閱[什麼是內部部署資料閘道？](service-gateway-onprem.md)
 
 ## <a name="next-steps"></a>後續步驟
 如需 DirectQuery 的詳細資訊，請參閱下列資源：

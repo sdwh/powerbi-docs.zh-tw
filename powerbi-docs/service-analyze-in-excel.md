@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: f72d29e7f5bc7f93abd43f4c14cf0e53ef18f8d3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a142b950375014c4d1adba917cceb2c6d9af4825
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75223736"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427683"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中進行分析
 有時候您可能會想要使用 Excel 來檢視您在 Power BI 中的資料集，並與其互動。 有了 [使用 EXCEL 分析]  ，您可以做到，並以存在於 Power BI 中的資料集為基礎來存取 Excel 的樞紐分析表、 圖表和交叉分析篩選器的功能。
@@ -25,17 +25,17 @@ ms.locfileid: "75223736"
 
 * Microsoft Excel 2010 SP1 和更新版本支援 [使用 EXCEL 分析]  。
 
-* Excel 樞紐分析表不支援數值欄位的拖放功能彙總。 您在 Power BI 中的資料集 *必須有預先定義的量值* 。
+* Excel 樞紐分析表不支援數值欄位的拖放功能彙總。 您在 Power BI 中的資料集 *必須有預先定義的量值* 。 深人了解[建立量值](desktop-measures.md)。
 * 某些組織可能會有防止安裝 [使用 EXCEL 分析]  必要更新的群組原則規則。 如果您無法安裝更新，請洽詢您的系統管理員。
 * **使用 Excel 分析**需要資料集位於 Power BI Premium 中，或使用者具有 Power BI Pro 授權。 若要深入了解授權類型之間的功能差異，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing/)的「Power BI 功能比較」  一節。
-* 若使用者有權讀取基礎資料集，就能透過 [使用 Excel 分析] 連線到資料集。  使用者可以透過下列數種方式來執行此操作，例如成為包含資料集之工作空間的成員、具有與其共用的報表或儀表板 (該報表或儀表板使用資料集)、或擁有包含資料集之應用程式的使用權限。
+* 使用者若有基礎資料集的權限，就能透過 [使用 Excel 分析] 連線到資料集。  使用者有多種方式可取得此權限，例如在包含資料集的工作空間擁有成員角色、與使用資料集的人共用報表或儀表板，或在包含該資料集的工作空間或應用程式中擁有資料集建置權限。 深入了解資料集的[建置權限](service-datasets-build-permissions.md)。
 * [使用 Excel 分析]  是 Power BI 服務的功能，Power BI 報表伺服器或 Power BI Embedded 不提供此功能。 
 * 只有執行 Microsoft Windows 的電腦才支援 [使用 Excel 分析]  。
 
 ## <a name="how-does-it-work"></a>運作方式
-當您從省略符號功能表 (...) 相關聯的資料集或報表中的 **Power BI** 選取 [使用 EXCEL 分析]  ，Power BI 會建立 .ODC 檔案，並從瀏覽器下載到您的電腦。
+當您在 **Power BI** 中，從與資料集或報表建立關聯的 [更多選項]  功能表 (...) 中選取 [使用 EXCEL 分析]  時，Power BI 會建立 .ODC 檔案，並將此檔案從瀏覽器下載到您的電腦。
 
-![](media/service-analyze-in-excel/power-bi-analyze-in-excel.png)
+![在 Excel 中進行分析](media/service-analyze-in-excel/power-bi-analyze-in-excel.png)
 
 當您在 Excel 中開啟檔案時，您會看到一個空白**樞紐分析表**，以及內含 Power BI 資料集中所有資料表、欄位和量值的**欄位**清單。 如同您可以在 Excel 中使用本機資料集工作一樣，您可以建立樞紐分析表、 圖表和分析該資料集。
 
@@ -44,9 +44,9 @@ ms.locfileid: "75223736"
 [使用 Excel 分析]  對於連接到「Analysis Services 表格式」  或「多維度」  資料庫的資料集和報表非常有用，或是從 Power BI Desktop 檔案或 Excel 活頁簿連接的資料集和報表，其中的資料模型具有使用資料分析運算式 (DAX) 建立的模型量值。
 
 ## <a name="get-started-with-analyze-in-excel"></a>開始使用 [使用 EXCEL 分析]
-在 Power BI 中，選取報表或資料集旁邊的省略符號功能表 (報表或資料集名稱旁邊的 …)，然後從出現的功能表，選取 [使用 EXCEL 分析]  。
+在 Power BI 中，選取報表或資料集旁邊的 [更多選項]  功能表 (即報表或資料集名稱旁的 …)，然後從出現的功能表中選取 [使用 EXCEL 分析]  。
 
-![](media/service-analyze-in-excel/power-bi-analyze-menu.png)
+![在 Excel 中進行分析](media/service-analyze-in-excel/power-bi-analyze-menu.png)
 
 ### <a name="install-excel-updates"></a>安裝 Excel 更新
 當您第一次使用 [使用 EXCEL 分析]  ，您需要將更新安裝至 Excel 文件庫。 系統會提示您下載並執行 Excel 更新 (這會啟動安裝 *SQL_AS_OLEDDB.msi* Windows 安裝程式套件)。 此套件會安裝 **Microsoft AS OLE DB Provider for SQL Server 2016 RC0 (Preview)** 。
@@ -56,11 +56,11 @@ ms.locfileid: "75223736"
 > 
 > 
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_dontshow.png)
+![[不要再顯示此訊息] 核取方塊](media/service-analyze-in-excel/pbi_anlz_excel_dontshow.png)
 
 如果您需要為 [使用 EXCEL 分析]  再次安裝 Excel 更新，您可以從 Power BI 中的**下載**圖示下載更新，如下圖所示。
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_download_again.png)
+![安裝 更新](media/service-analyze-in-excel/pbi_anlz_excel_download_again.png)
 
 ### <a name="sign-in-to-power-bi"></a>登入 Power BI
 即使您已經在瀏覽器中登入 Power BI，第一次在 Excel 中開啟新的 .ODC 檔案時，可能會要求您使用 Power BI 帳戶登入 Power BI。 這會驗證從 Excel 到 Power BI 的連線。
@@ -70,12 +70,12 @@ ms.locfileid: "75223736"
 
 您將有機會再次登入，屆時您可以使用用於 [使用 EXCEL 分析] 所存取之資料集的 Power BI 帳戶登入。 您也可以從 Excel 中的 **Power BI** 功能區索引標籤選取**設定檔**，其會識別您目前登入的帳戶，並提供一個連結讓您登出 (接著即可使用不同的帳戶登入)。 如果您尚未安裝，您可以[下載 Power BI Publisher for Excel](https://www.microsoft.com/download/details.aspx?id=50729)；這是在 Excel 中安裝 Power BI 功能區的方式。
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
+![檢視您的設定檔](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
 
 ### <a name="enable-data-connections"></a>啟用資料連線
 若要在 Excel 中分析您的 Power BI 資料，系統會提示您確認 .odc 檔案的路徑與檔案名稱，然後選取 [啟用]  。
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_enable.png)
+![啟用資料連線](media/service-analyze-in-excel/pbi_anlz_excel_enable.png)
 
 > [!NOTE]
 > Power BI 租用戶的管理員可以使用 Power BI 管理入口網站  ，禁止位於 Analysis Services (AS) 資料庫中的內部部署資料集使用 [在 Excel 中進行分析]  。 停用該選項時，AS 資料庫即無法使用 [在 Excel 中進行分析]  ，但其他資料集仍可使用者該功能。
@@ -85,7 +85,7 @@ ms.locfileid: "75223736"
 ## <a name="analyze-away"></a>分析為離開
 已開啟 Excel 且您有空白的樞紐分析表，則您已準備好使用您的 Power BI 資料集進行各種分析。 如同其他本機活頁簿，您可以使用 [使用 EXCEL 分析] 來建立樞紐分析表、圖表、從其他來源新增資料等等。 當然，您可以使用資料的各種檢視來建立不同的工作表。
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_chart.png)
+![Excel 的樞紐分析表及樞紐分析圖](media/service-analyze-in-excel/pbi_anlz_excel_chart.png)
 
 > [!NOTE]
 > 請務必了解使用**在 Excel 中進行分析**會將所有詳細等級的資料公開給任何具有資料集權限的使用者。

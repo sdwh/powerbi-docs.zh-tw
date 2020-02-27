@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/03/2019
+ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: aacab1541f336ed12c36dab8243d0096c9a6ed19
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75000104"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558635"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>設定從 Power BI 服務到內部部署資料來源的 Kerberos 架構 SSO
 
@@ -246,11 +246,17 @@ SAP HANA 和 SAP BW 有您需要先符合的額外資料來源特定設定需求
 
 ## <a name="run-a-power-bi-report"></a>執行 Power BI 報表
 
-完成所有設定步驟之後，請在 Power BI 中使用 [管理閘道]  頁面來設定您將用於 SSO 的資料來源。 如果您有多個閘道，請務必選取為 Kerberos SSO 設定的閘道。 然後，在資料來源的 [進階設定]  底下，確定已選取 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢]  。
+完成所有設定步驟之後，請在 Power BI 中使用 [管理閘道]  頁面來設定您將用於 SSO 的資料來源。 如果您有多個閘道，請務必選取為 Kerberos SSO 設定的閘道。 然後，在資料來源的 [進階設定]  中，確認已為以 DirectQuery 為基礎的報表選取 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢]  或 [透過 Kerberos 使用 SSO 進行 DirectQuery 和匯入查詢]  ；且已為以重新整理為基礎的報表設定 [透過 Kerberos 使用 SSO 進行 DirectQuery 和匯入查詢]  。
 
-![進階設定選項](media/service-gateway-sso-kerberos/advanced-settings.png)
+![進階設定選項](media/service-gateway-sso-kerberos/advanced-settings-02.png)
 
- 從 Power BI Desktop 發佈以 DirectQuery 為基礎的報表。 此報表必須使用可供使用者存取的資料，而該使用者已對應至登入 Power BI 服務的 (Azure) Active Directory 使用者。 因為重新整理的運作方式，所以您必須使用 DirectQuery 而不是匯入。 閘道重新整理以匯入為基礎的報表時，會使用您建立資料來源時，在 [使用者名稱]  和 [密碼]  欄位輸入的認證。 換句話說，*不會*使用 Kerberos SSO。 在發佈時，如果您有多個閘道，請選取為 SSO 設定的閘道。 在 Power BI 服務中，您現在可以重新整理報表，或根據已發佈的資料集建立新報表。
+如果您從 Power BI Desktop 發佈以 DirectQuery 為基礎的報表，並將其對應至已選取 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢]  或 [透過 Kerberos 使用 SSO 進行 DirectQuery 和匯入查詢]  的資料來源，則此報表會使用對應至登入 Power BI 服務的 (Azure) Active Directory 使用者可存取的資料。
+
+同樣地，如果您從 Power BI Desktop 發佈以重新整理為基礎的報表，並將其對應至已選取 [透過 Kerberos 使用 SSO 進行 DirectQuery 和匯入查詢]  的資料來源，則不需要提供任何認證。 重新整理會在資料集擁有者的 Active Directory 內容底下執行。
+
+不過，如果您將其對應至未選取 [透過 Kerberos 使用 SSO 進行 DirectQuery 和匯入查詢]  的資料來源，則重新整理會在建立該資料來源時，使用您在 [使用者名稱]  與 [密碼]  欄位中所輸入的認證。 換句話說，*不會*使用 Kerberos SSO。 
+
+ 在發佈時，如果您有多個閘道，請選取為 SSO 設定的閘道。 
 
 此設定在大部分情況下都能運作。 不過，使用 Kerberos 會有不同的設定，根據您的環境而異。 如果無法載入報表，請連絡網域系統管理員，以便進一步調查。 如果您的資料來源是 SAP BW，請視選擇的 SNC 程式庫而定，參閱適用於 [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) 和 [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting) 資料來源特定設定頁面的疑難排解章節。
 

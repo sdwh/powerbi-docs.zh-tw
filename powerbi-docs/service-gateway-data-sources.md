@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 02/21/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2665e33d5f268bf8037634406aca819c23f3513c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698179"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558700"
 ---
 # <a name="manage-data-sources"></a>管理資料來源
 
@@ -45,11 +45,24 @@ Power BI 支援許多的[內部部署資料來源](power-bi-data-sources.md)，�
 
 5. 針對 SQL Server，您可以選擇 [Window]**s** 或 [基本]  (SQL 驗證) **驗證方法**。 如果您選擇**基本**，請輸入資料來源的認證。
 
-6. 在 [進階設定]  下方，選擇性地為您的資料來源設定[隱私權等級](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) (不適用於 [DirectQuery](desktop-directquery-about.md))。
+6. 您可以在 [進階設定]  中，為資料來源設定[單一登入 (SSO)](service-gateway-sso-overview.md)。 
+
+    ![進階設定](media/service-gateway-data-sources/advanced-settings-02.png)
+
+您可以針對以 DirectQuery 為基礎的報表，設定 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢]  或 [透過 Kerberos 使用 SSO 進行 DirectQuery 和匯入查詢]  ；或針對以重新整理為基礎的報表，設定 [透過 Kerberos 使用 SSO 進行 DirectQuery 和匯入查詢]  。
+
+如果您使用 [透過 Kerberos 使用 SSO 進行 DirectQuery 查詢]  ，並將此資料來源用於以 DirectQuery 為基礎的報表，則其會使用對應至登入 Power BI 服務的 (Azure) Active Directory 使用者。 針對以重新整理為基礎的報表，其會使用您在 [使用者名稱]  與 [密碼]  欄位中所輸入的認證。
+
+如果您使用 [透過 Kerberos 使用 SSO 進行 DirectQuery 和匯入查詢]  ，則不需要提供任何認證。 如果此資料來源用於以 DirectQuery 為基礎的報表，則其會使用對應至登入 Power BI 服務的 (Azure) Active Directory 使用者。  針對以重新整理為基礎的報表，其會使用資料集擁有者的安全性內容
+
+> [!NOTE]
+>匯入查詢的 SSO 僅適用於使用 [Kerberos 限制委派](service-gateway-sso-kerberos.md)的 SSO 資料來源清單。
+
+7. 在 [進階設定]  下方，選擇性地為您的資料來源設定[隱私權等級](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) (不適用於 [DirectQuery](desktop-directquery-about.md))。
 
     ![進階設定](media/service-gateway-data-sources/advanced-settings.png)
 
-7. 選取 [加入]  。 如果程序成功，您會看到 [連線成功]  。
+8. 選取 [新增]  。 如果程序成功，您會看到 [連線成功]  。
 
     ![連線成功](media/service-gateway-data-sources/connection-successful.png)
 

@@ -9,16 +9,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfa4534b625a965226dfced17403a7e2da7a7f84
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b5ef7e99edbf862891811047ea5f1f961aaea348
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699191"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527583"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI 中閘道的單一登入 (SSO) 概觀
 
-您可以藉由設定內部部署資料閘道，以取得順暢的單一登入連線，讓 Power BI 報表和儀表板能夠從內部部署資料進行即時更新。 您可以選擇使用 [Kerberos](service-gateway-sso-kerberos.md) 限制委派或安全性聲明標記語言 ([SAML](service-gateway-sso-saml.md)) 來設定閘道。 內部部署資料閘道會使用可連線到內部部署資料來源的 [DirectQuery](desktop-directquery-about.md) 支援 SSO。
+您可以藉由設定內部部署資料閘道，以取得順暢的單一登入連線，讓 Power BI 報表和儀表板能夠從內部部署資料進行即時更新。 您可以選擇使用 [Kerberos](service-gateway-sso-kerberos.md) 限制委派或安全性聲明標記語言 ([SAML](service-gateway-sso-saml.md)) 來設定閘道。 內部部署資料閘道會使用可連線到內部部署資料來源的 [DirectQuery](desktop-directquery-about.md) 或重新整理，以支援 SSO。 
 
 Power BI 支援下列資料來源：
 
@@ -33,7 +33,9 @@ Power BI 支援下列資料來源：
 
 我們目前不支援 [M-extensions](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md) 的 SSO。
 
-當使用者與 Power BI 服務中的 DirectQuery 報表互動時，每個交叉篩選、配量、排序和報表編輯作業都可能會導致查詢針對基礎內部部署資料來源即時執行。 當您針對資料來源設定 SSO 時，查詢會在使用者用來與 Power BI 互動的身分識別下執行 (亦即，透過 Web 體驗或 Power BI 行動裝置應用程式)。 因此，每位使用者都能明確看到其在基礎資料來源中具有權限的資料。 設定單一登入之後，不同使用者之間就不會有共用的資料快取。
+當使用者與 Power BI 服務中的 DirectQuery 報表互動時，每個交叉篩選、配量、排序和報表編輯作業都可能會導致查詢針對基礎內部部署資料來源即時執行。 當您針對資料來源設定 SSO 時，查詢會在使用者用來與 Power BI 互動的身分識別下執行 (亦即，透過 Web 體驗或 Power BI 行動裝置應用程式)。 因此，每位使用者都能明確看到其在基礎資料來源中具有權限的資料。 
+
+您也可以設定報表 (其在 Power BI 服務中設定為重新整理)，以使用 SSO。 當您為此資料來源設定 SSO 時，查詢會在 Power BI 內資料集擁有者的身分識別下執行。 因此，會根據資料集擁有者在基礎資料來源上的權限進行重新整理。 使用 SSO 進行重新整理目前僅適用於使用 [Kerberos](service-gateway-sso-kerberos.md) 限制委派的資料來源 
 
 ## <a name="query-steps-when-running-sso"></a>執行 SSO 時的查詢步驟
 

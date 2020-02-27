@@ -1,5 +1,5 @@
 ---
-title: 攜帶您自己的加密金鑰以用於 Power BI (預覽)
+title: 攜帶您自己的加密金鑰以用於 Power BI
 description: 了解如何在 Power BI Premium 中使用您自己的加密金鑰。
 author: davidiseminger
 ms.author: davidi
@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 02/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 133d807d26ba6571eeb614852f3f651a749a369f
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75762109"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527763"
 ---
-# <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>攜帶您自己的加密金鑰以用於 Power BI (預覽)
+# <a name="bring-your-own-encryption-keys-for-power-bi"></a>攜帶您自己的加密金鑰以用於 Power BI
 
 Power BI 會加密「待用」  與「處理中」  的資料。 根據預設，Power BI 會使用 Microsoft 管理的金鑰來為您加密資料。 在 Power BI Premium 中，您也可以為匯入資料集之待用資料使用您自己的金鑰 (請參閱[資料來源和儲存考量](#data-source-and-storage-considerations)以取得詳細資訊)。 這種方法通常稱為_攜帶您自己的金鑰_ (BYOK)。
 
 ## <a name="why-use-byok"></a>為何要使用 BYOK？
 
-BYOK 可更輕鬆地滿足透過雲端服務提供者 (在此案例中為 Microsoft) 指定金鑰排列的合規性需求。 使用 BYOK，您可以在應用程式層級提供並控制待用 Power BI 資料的加密金鑰。 如此一來，如果您決定結束服務，您可以控制並撤銷組織的金鑰。 撤銷金鑰後，服務即無法讀取資料。
+BYOK 可更輕鬆地滿足透過雲端服務提供者 (在此案例中為 Microsoft) 指定金鑰排列的合規性需求。 使用 BYOK，您可以在應用程式層級提供並控制待用 Power BI 資料的加密金鑰。 如此一來，如果您決定結束服務，您可以控制並撤銷組織的金鑰。 撤銷金鑰後，服務在 30 分鐘內便會無法讀取資料。
 
 ## <a name="data-source-and-storage-considerations"></a>資料來源和儲存體考量
 
@@ -34,7 +34,12 @@ BYOK 可更輕鬆地滿足透過雲端服務提供者 (在此案例中為 Micros
 - [串流資料集](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [大型模型](service-premium-large-models.md)
 
-BYOK 僅適用於與 PBIX 檔案關聯的資料集，而不適用於圖格與視覺效果的查詢結果快取。
+BYOK 僅適用於資料集。 使用者可以上傳至服務的推送資料集、Excel 檔案和 CSV 檔案不會使用您自己的金鑰進行加密。 如要識別哪些成品儲存在您的工作區中，請使用下列 PowerShell 命令：
+
+```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
+
+> [!NOTE]
+> 此 Cmdlet 需要 Power BI 管理模組 v1.0.840。 您可以透過執行 Get-InstalledModule -Name MicrosoftPowerBIMgmt 來查看所擁有的版本。 透過執行 Install-Module -Name MicrosoftPowerBIMgmt 來安裝最新版本。 您可以在 [Power BI PowerShell Cmdlet 模組](https://docs.microsoft.com/powershell/power-bi/overview)中取得更多 Power BI Cmdlet 及其參數的資訊。
 
 ## <a name="configure-azure-key-vault"></a>設定 Azure Key Vault
 
@@ -53,7 +58,7 @@ BYOK 僅適用於與 PBIX 檔案關聯的資料集，而不適用於圖格與視
 
 ### <a name="add-the-service-principal"></a>新增服務主體
 
-1. 在 Azure 入口網站您的金鑰保存庫中，在 [存取原則]  下方選取 [新增]  。
+1. 在 Azure 入口網站中，於您的金鑰保存庫內，選取位於 [存取原則]  下方的 [新增]  。
 
 1. 在 [選取主體]  下方搜尋並選取 Microsoft.Azure.AnalysisServices。
 
@@ -183,3 +188,17 @@ Power BI 也提供其他的 Cmdlet 以協助您管理租用戶中的 BYOK：
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
     ```
+
+
+
+## <a name="next-steps"></a>後續步驟
+
+* [Power BI PowerShell Cmdlet 模組](https://docs.microsoft.com/powershell/power-bi/overview) 
+
+* [在 Power BI 中共用成品的方式](service-how-to-collaborate-distribute-dashboards-reports.md)
+
+* [在 URL 中使用查詢字串參數來篩選報表](service-url-filters.md)
+
+* [在 SharePoint Online 中嵌入報表網頁組件](service-embed-report-spo.md)
+
+* [從 Power BI 發佈至 Web](service-publish-to-web.md)

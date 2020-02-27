@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4b17ed5458a6245ab5796edcf15f6dee5f885358
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871372"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77497151"
 ---
 # <a name="update-delete-and-extract-template-app"></a>更新、刪除及擷取範本應用程式
 
@@ -36,15 +36,21 @@ ms.locfileid: "73871372"
 
    您會看到您現在有兩個版本：生產階段中的版本，加上測試階段中的新版本。
 
-    ![範本應用程式的兩個版本](media/service-template-apps-update-extract-delete/power-bi-template-app-update.png)
+    ![範本應用程式的兩個版本](media/service-template-apps-update-extract-delete/power-bi-template-app-update1.png)
 
-5. 當您準備好要將應用程式升階至生產階段前，以進一步於租用戶外部測試時，請返回 [發行管理] 窗格，並選取 [測試]  旁邊的 [升階應用程式]  。
-6. 您的連結現已正式運作。 請遵循 [Power BI 應用程式供應項目更新](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)的步驟，將其再次提交至 Cloud Partner 入口網站 (CPP)。
-7. 在 Cloud Partner 入口網站中，您必須再次 [發佈]  供應項目，並再次加以驗證。
+1. 當您準備好要將應用程式升階至生產階段前，以進一步於租用戶外部測試時，請返回 [發行管理] 窗格，並選取 [測試]  旁邊的 [升階應用程式]  。
 
-   >[!NOTE]
-   >請僅在 Cloud Partner 入口網站核准您的應用程式，且您已將其發佈之後，再將應用程式升階至生產階段。
+   您現在擁有生產階段的版本，以及生產階段前的版本。
 
+   ![兩個版本的範本應用程式升階呈現灰色](media/service-template-apps-update-extract-delete/power-bi-template-app-update2.png)
+
+   您的連結現已正式運作。 **請注意，生產階段前的 [升階應用程式] 按鈕會呈現灰色**。這是為了避免在 Cloud Partner 入口網站驗證並核准新的應用程式版本之前，不小心覆寫目前應用程式版本的即時生產連結。
+
+1. 請遵循 [Power BI 應用程式供應項目更新](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)的步驟，將您的連結再次提交至 Cloud Partner 入口網站 (CPP)。 在 Cloud Partner 入口網站中，您必須再次 [發佈]  供應項目並加以驗證及核准。
+
+   當您的供應項目獲得核准時，[升階應用程式] 按鈕將會再次啟用。 
+1. 將應用程式升階至生產階段。
+   
 ### <a name="update-behavior"></a>更新行為
 
 1. 更新應用程式可讓範本應用程式的安裝程式在已安裝工作區中[更新範本應用程式](service-template-apps-install-distribute.md#update-a-template-app)，而不會遺失連線設定。

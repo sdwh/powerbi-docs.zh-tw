@@ -5,21 +5,23 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5816c4080340b3ff5f29f6000fd203e1a2dedfd
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852269"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496661"
 ---
 # <a name="what-are-bookmarks"></a>什麼是書籤？
 
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-書籤會擷取目前設定的報表頁面檢視，包括篩選、交叉分析篩選器，以及視覺效果的狀態。 當您選取書籤時，Power BI 會將您帶回到該檢視。 有兩種類型的書籤：您自行建立的書籤和由報表「設計師」  建立的書籤。
+書籤會擷取目前設定的報表頁面檢視，包括篩選、交叉分析篩選器，以及視覺效果的狀態。 當您選取書籤時，Power BI 會將您帶回到該檢視。 有兩種類型的書籤：您自行建立的書籤和由報表「設計師」  建立的書籤。 所有的 Power BI 使用者皆可建立個人書籤。 但需有 Power BI Pro 或 Premium 授權才能使用其他人建立的書籤。 [我有哪些授權？](end-user-license.md)
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>在 Power BI 中使用書籤來共用深入解析並建立故事 
 書籤有許多用途。 假設您發現一個有趣的見解，且想要加以保留，請建立一個書籤，讓您可以稍後返回。 必須離開且想要保留目前的工作，請建立書籤。 您甚至可以將書籤設為報表的預設檢視，因此每次返回時，都會先開啟報表頁面的此檢視。 
@@ -33,6 +35,9 @@ ms.locfileid: "73852269"
 
 ### <a name="report-bookmarks"></a>報表書籤
 如果報表「設計師」  包含報表書籤，則您會在 [報表書籤]  標題底下找到這些書籤。 此報表頁面有兩個書籤 (B1 和 B2)。 
+
+> [!NOTE]
+> 您需要有 Power BI Pro 或 Premium 才能檢視共用報表。 
 
 ![顯示報表書籤。](media/end-user-bookmarks/power-bi-report.png)
 

@@ -7,23 +7,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: da941de8b44f3833a5f80bba648f4a185f35b36e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 59ba4d0e62613ed25569efd0602815e3d98aec4d
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852020"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496500"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>將註解新增至儀表板或報表
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 新增個人註解，或是和您的同事開始儀表板或報表相關交談。 **註解**功能只是「取用者」  可與其他人共同作業的其中一種方法。 
 
 ![註解影片](media/end-user-comment/comment.gif)
+
+> [!NOTE]
+> 需有 Power BI Pro 或 Premium 授權才可與其他人共同作業 (包括在共用報表新增留言)。 [我有哪種授權類型？](end-user-license.md)
 
 ## <a name="how-to-use-the-comments-feature"></a>如何使用註解功能
 可以新增註解至整個儀表板、儀表板上的個別視覺效果、報表頁面、編頁報表，以及報表頁面上的個別視覺效果。 請新增一般註解或鎖定特定同事的註解。  
@@ -34,7 +39,7 @@ ms.locfileid: "73852020"
 
 為什麼這很重要？ 假設有一位同事套用了篩選，以顯示他們想要與小組共用的有趣見解。 若未選取該篩選，註解可能沒有意義。
 
-如果您使用編頁報表，則只能留下有關報表的一般註解。  不提供對個別報表視覺效果留下註解的支援。
+如果您使用編頁報表，則只能留下有關報表的一般註解。  不提供對個別編頁報表視覺效果留言的支援。
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>將一般註解新增至儀表板或報表
 將註解新增至儀表板或報表的處理程序很類似。  在本例中，我們使用儀表板。 

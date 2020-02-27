@@ -1,31 +1,31 @@
 ---
-title: 教學課程：使用 [使用 Excel 分析]
-description: 在此教學課程中，您會使用 Power BI [資料集] 頁面來將資料集匯入 Excel。
+title: 教學課程：使用 Power BI 的 [使用 EXCEL 分析]，從 Excel 開始
+description: 在本教學課程中，您會從 Excel 開始，然後連線至 Power BI 的 [資料集] 頁面，以將資料集匯入至 Excel。
 author: tejaskulkarni
 ms.reviewer: davidiseminger
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 01/27/2020
+ms.date: 02/13/2020
 ms.author: tekulkar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a68adccec019e64e554d199d23d7dddd782f56a2
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: d3795c34e477c593af4afefbe5cc01040026bfa4
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76921477"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426533"
 ---
-# <a name="tutorial-use-analyze-in-excel"></a>教學課程：使用 [使用 Excel 分析]
+# <a name="tutorial-use-power-bi-analyze-in-excel-starting-in-excel"></a>教學課程：使用 Power BI 的 [使用 EXCEL 分析]，從 Excel 開始
 
-您的組織使用 Power BI 來共用資料存取權。 使用 [使用 Excel 分析] 功能來建立樞紐分析表和樞紐分析圖，以為分析提供額外的內容，或是減少尋找並匯入相關資料集所需花費的時間。
+您的組織使用 Power BI 來共用資料存取權。 從 Excel 啟動 Power BI 的 [使用 EXCEL 分析] 功能，以建立 Excel 的樞紐分析表和樞紐分析圖。 其可將額外內容帶入您的分析，或縮短尋找和匯入相關資料集的時間。
 
-若要開始選取資料集，請選取 [使用 Excel 分析]。 系統會引導您建立使用該資料的樞紐分析表。  
+若要開始使用 Power BI 資料集，請在 Excel 中選取 [使用 EXCEL 分析]。 系統會引導您建立使用該資料的樞紐分析表。  
 
 您可以返回 [資料集] 頁面來找到您組織所共用的其他資料集。
 
-如果您在任何時間點遇到問題，請在下列流程中的適當步驟選取 [否]，並在連結的表單中提供意見反應。  
+如果您在任何時間點遇到問題，請在下列流程中的適當步驟選取 [否]  ，並在連結的表單中提供意見反應。  
 
 在本教學課程中，您會了解如何：
 

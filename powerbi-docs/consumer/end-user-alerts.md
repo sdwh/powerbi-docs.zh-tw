@@ -7,17 +7,19 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 10/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f7ebc459379dbf292603a605db8d3f9c7162e92f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851266"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496529"
 ---
-# <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>教學課程：為 Power BI 儀表板上的資料設定警示
+# <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>教學課程：設定 Power BI 儀表板的警示
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -112,6 +114,7 @@ ms.locfileid: "73851266"
 * 只有量測計、KPI 及卡片可以設定警示。
 * 若無法為量測計、KPI 或卡片設定警示，請連絡您的系統管理員尋求協助。 有時儀表板或特定類型儀表板磚的警示可能會關閉或無法使用。
 * 警示只對重新整理的資料有作用。 警示對靜態資料毫無作用。 Microsoft 大多提供靜態範例。 
+* 「取用者」  不會建立自己的儀表板，「設計者」  會建立儀表板並與取用者共用。 需有 Power BI Pro 或 Premium 授權才能接收及檢視共用的內容。 如需詳細資訊，請參閱[我有哪些授權？](end-user-license.md) 
 
 
 ## <a name="clean-up-resources"></a>清除資源

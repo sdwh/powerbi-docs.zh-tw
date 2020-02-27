@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/19/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 26dabde3846ec33e2f5910de75fb8165cce6513a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76160757"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496936"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 本文適用於將 Power BI 部署為 Office 365 政府方案一部分的美國政府客戶。 政府方案是針對必須符合美國合規性和安全性標準的組織獨特需求而設計。 為美國政府客戶設計的 Power BI 服務，與 Power BI 服務的商業版本不同。 下列各節說明這些功能差異和功能。
@@ -37,7 +37,7 @@ Office 365 為政府機關提供不同的環境，以符合不同的合規性需
 
 * [Office 365 政府社群雲端 (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) 是針對聯邦、州和地方政府所設計。
 
-* [Office 365 政府社群雲端高 (GCC-High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) 是針對聯邦機關、國防產業、航太產業和其他持有受控制非機密資訊的組織所設計。 此環境適用於具有國際武器貿易條例 (ITAR) 資料或國防聯邦採購條例補充 (DFARS) 需求的國家/地區安全性組織和公司。
+* [Office 365 政府社群雲端進階版 (GCC-High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) 是專為聯邦機關、國防產業、航太產業和其他持有受控制非機密資訊的組織所設計。 此環境適用於有國際武器貿易條例 (ITAR) 資料或國防聯邦採購條例補充 (DFARS) 需求的國家/地區安全性組織和公司。
 
 * [Office 365 DoD 環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)是專門針對美國國防部所設計。 
 
@@ -89,12 +89,12 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |報表建立|建立和檢視儀表板和報表|可用|可用|可用|
 |  |排定的資料重新整理|可用|可用|可用|
 |  |可重新整理的小組儀表板|可用|可用|可用|
-|  |編頁報表|僅適用於 USGov 德州和 USGov 維吉尼亞 |可用|在藍圖上|
+|  |編頁報表|可用|可用|在藍圖上|
 |  |範本應用程式|無法使用|無法使用|無法使用|
 |連線至資料|從 Excel 匯入資料和報表|可用|可用|可用|
 |  |從 CSV 檔案匯入資料|可用|可用|可用|
 |  |從 Power BI desktop 檔案匯入資料|可用|可用|可用|
-|  |CDS 的連線|無法使用|無法使用|無法使用|
+|  |CDS 的連線|可用|無法使用|無法使用|
 |  |Azure Data Lake Storage Gen2 連接器|無法使用|無法使用|無法使用|
 |資料管理|資料管理閘道|可用|可用|可用|
 |  |Azure SQL 中的資料加密|可用|可用|可用|
@@ -103,15 +103,14 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |  |使用內嵌網頁組件內嵌在 SharePoint Online 中|可用|可用|可用|
 |  |資料流程和 AI 函式|無法使用|無法使用|無法使用|
 |  |適用於資料驅動警示的 Power Automate 連線能力|無法使用|無法使用|無法使用|
-|  |Teams 中的 Power BI 索引標籤|無法使用|無法使用|無法使用|
+|  |Teams 中的 Power BI 索引標籤|可用|無法使用|無法使用|
 |  |自動化 Machine Learning|無法使用|無法使用|無法使用|
 |  |認知服務|無法使用|無法使用|無法使用|
 |  |Azure ML|無法使用|無法使用|無法使用|
 
 ## <a name="next-steps"></a>後續步驟
 
-* [針對美國政府註冊 Power BI](service-govus-signup.md)
-* <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI 美國政府示範</a>
-* [開始使用 Power BI 服務](service-get-started.md)
-* [Power BI Desktop 是什麼？](desktop-what-is-desktop.md)
-
+* [針對 US Gov 註冊 Power BI](service-govus-signup.md)
+* [Microsoft Power Apps 美國政府](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
+* [Power Automate 美國政府](https://docs.microsoft.com/power-automate/us-govt)
+* <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI US Gov 示範</a>

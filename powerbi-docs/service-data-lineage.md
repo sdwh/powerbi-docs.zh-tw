@@ -8,17 +8,17 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 774b8b19f8b199e1d98b2bd5e079b35f1a9a6935
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64f6f4afc6e940f7169d45e5d9c4428cbaccbb98
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877354"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427614"
 ---
 # <a name="data-lineage-preview"></a>資料譜系 (預覽)
 在新式商業智慧 (BI) 專案中，了解從資料來源到其目的地的資料流程，可能是一項挑戰。 如果您已建置跨多個資料來源、成品和相依性的進階分析專案，挑戰就會更加艱鉅。  「如果我變更此資料會發生什麼事？」 或「為什麼這份報表不是最新的？」 之類的問題，可能會變得難以回答。 您可能會需要一組專家或是進行深入調查，才能回答這些問題。 我們設計了資料譜系檢視來協助您回答這些問題。
 
-[ ![Power BI 譜系檢視](media/service-data-lineage/power-bi-lineage-view-cropped.png) ](media/service-data-lineage/power-bi-lineage-view-full-size.png#lightbox)
+[![Power BI 歷程檢視](media/service-data-lineage/power-bi-lineage-view-cropped.png) ](media/service-data-lineage/power-bi-lineage-view-full-size.png#lightbox)
  
 Power BI 有數個成品類型，例如儀表板、報表、資料集和資料流程。 許多資料集和資料流程會連線到外部資料來源 (例如 SQL Server) 和其他工作區中的外部資料集。 當資料集不位於您所擁有的工作區內時，則可能位於 IT 人員或其他分析師所擁有的工作區內。 最後，外部資料來源和資料集會讓您更難得知資料的來源。 針對複雜的專案，我們引入了譜系檢視。 
 
@@ -30,7 +30,7 @@ Power BI 有數個成品類型，例如儀表板、報表、資料集和資料�
 
 - 若要存取譜系檢視，請前往工作區清單檢視。 按一下 [清單檢視]  旁的箭號，然後選取 [譜系檢視]  。
 
-    [ ![切換至譜系檢視](media/service-data-lineage/power-bi-lineage-list-view-cropped.png) ](media/service-data-lineage/power-bi-lineage-list-view.png#lightbox)
+    [![切換至歷程檢視](media/service-data-lineage/power-bi-lineage-list-view-cropped.png) ](media/service-data-lineage/power-bi-lineage-list-view.png#lightbox)
 
     您會在此檢視中看到所有工作區成品，以及資料如何從某個成品流向另一個成品。
 
@@ -66,7 +66,7 @@ Power BI 有數個成品類型，例如儀表板、報表、資料集和資料�
 
 - 選取成品下方的雙箭號。
 
-    [ ![醒目提示特定成品的譜系](media/service-data-lineage/power-bi-lineage-highlight-cropped.png) ](media/service-data-lineage/power-bi-lineage-highlight-full-size.png#lightbox)
+    [![醒目提示特定成品的歷程](media/service-data-lineage/power-bi-lineage-highlight-cropped.png)](media/service-data-lineage/power-bi-lineage-highlight-full-size.png#lightbox)
 
     Power BI 會醒目提示與該成品相關的所有成品，並讓其他的專案變暗。 
 
@@ -84,7 +84,7 @@ Power BI 有數個成品類型，例如儀表板、報表、資料集和資料�
 
 - 您需要 Power BI Pro 授權才能查看譜系檢視。
 - 譜系檢視僅適用於具有工作區存取權的使用者。
-- 使用者必須具有工作區中的系統管理員、成員或參與者角色。 具有檢視者角色的使用者，無法切換到譜系檢視。
+- 使用者必須具有工作區中的系統管理員、成員或參與者角色。 具有檢視者角色的使用者無法切換到歷程檢視。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 

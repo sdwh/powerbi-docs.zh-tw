@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76538702"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427640"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>在 Power BI Desktop 中使用彙總
 
@@ -185,6 +185,10 @@ AVERAGE 函式可以受益於彙總。 下列查詢會叫用彙總，因為 AVER
 在某些情況下，DISTINCTCOUNT 函式可受益於彙總。 下列查詢會叫用彙總，因為 **CustomerKey** 有 GroupBy 項目，可維護彙總資料表中 **CustomerKey** 的差異。 有 2 百萬以上至 5 百萬個相異值會影響查詢效能，這項技術可能仍會達到此效能閾值。 不過，對於詳細資料資料表有數十億筆資料列，但資料行中有 2 百萬至 5 百萬個相異值的案例，這項技術很有幫助。 在此情況下，DISTINCTCOUNT 執行速度會比掃描具有數十億筆資料列的資料表快，即使該資料表已快取到記憶體中也一樣。
 
 ![DISTINCTCOUNT 彙總查詢](media/desktop-aggregations/aggregations-code_07.jpg)
+
+DAX 時間智慧函式為彙總感知。 下列查詢會叫用彙總，因為 DATESYTD 函式會產生 **CalendarDay** 值的資料表，而彙總資料表所產生的資料表，其細微性達到由 **Date** 資料表群組依據資料行所涵蓋的內容。 這是可使用彙總的 CALCULATE 函式資料表值篩選範例。
+
+![SUMMARIZECOLUMNS 彙總查詢](media/desktop-aggregations/aggregations-code-07b.jpg)
 
 ## <a name="aggregation-based-on-groupby-columns"></a>以 GroupBy 資料行為基礎的彙總 
 

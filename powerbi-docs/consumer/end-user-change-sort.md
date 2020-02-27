@@ -6,21 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 76370e2b633e21674ba878e70b5ecfc333453c96
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76889205"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496487"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>變更 Power BI 報表中的圖表排序方式
 
-
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 
 > [!IMPORTANT]
@@ -32,7 +30,7 @@ ms.locfileid: "76889205"
 
 ## <a name="get-started"></a>開始使用
 
-若要開始使用，請選取任何報表視覺效果，然後選擇 [其他動作]  (...)。有三個排序選項：[遞減排序]  、[遞增排序]  和 [排序依據]  。 
+首先，請開啟任一與您共用的報表。 選取一項 (可以排序的) 視覺效果，然後選擇 [更多選項]  (...)。有三個排序選項：[遞減排序]  、[遞增排序]  和 [排序依據]  。 
     
 
 ![依 X 軸以英文字母排序的橫條圖](media/end-user-change-sort/power-bi-more-actions.png)
@@ -69,9 +67,9 @@ Power BI 報表會保留您所做的篩選、交叉分析篩選器、排序與�
 
 只有設計報表的人員可以為您進行這些變更。 從標頭列選取報表名稱，即可找到「設計師」  的連絡資訊。
 
-如果您是設計師  並擁有內容的編輯權限，請閱讀 [Power BI Desktop 中的依資料行排序](../desktop-sort-by-column.md)，以了解如何更新資料集並啟用此類型的排序。
-
 ![顯示連絡資訊的下拉式清單](media/end-user-change-sort/power-bi-contact.png)
+
+如果您是設計師  並擁有內容的編輯權限，請閱讀 [Power BI Desktop 中的依資料行排序](../desktop-sort-by-column.md)，以了解如何更新資料集並啟用此類型的排序。
 
 ## <a name="next-steps"></a>後續步驟
 深入了解 [Power BI 報表中的視覺效果](end-user-visualizations.md)。

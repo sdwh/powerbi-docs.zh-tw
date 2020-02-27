@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: e65dd42e8ec787d0c6edba534f79cdb06e5ba14c
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889228"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527284"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>將 SQL Server Reporting Services 報表移轉到 Power BI
 
@@ -41,16 +41,16 @@ ms.locfileid: "76889228"
 
 ### <a name="supported-versions"></a>支援的版本
 
-您可以遷移在內部部署執行，或在雲端提供者 (例如 Azure) 所裝載的虛擬機器上執行的 SSRS 執行個體。 
+您可以遷移在內部部署執行，或在雲端提供者 (例如 Azure) 所裝載的虛擬機器上執行的 SSRS 執行個體。
 
 下列清單說明支援遷移至 Power BI 的 SQL Server 版本：
 
 > [!div class="checklist"]
-> * SQL Server 2012
-> * SQL Server 2014
-> * SQL Server 2016
-> * SQL Server 2017
-> * SQL Server 2019
+> - SQL Server 2012
+> - SQL Server 2014
+> - SQL Server 2016
+> - SQL Server 2017
+> - SQL Server 2019
 
 也可以從 Power BI 報表伺服器進行移轉。
 
@@ -60,11 +60,11 @@ ms.locfileid: "76889228"
 
 此工具會將下列工作自動化：
 
-* 檢查[不支援的資料來源](../paginated-reports-data-sources.md)和[不支援的報表功能](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
-* 將任何「共用」  資源轉換為「內嵌」  資源：
-  * 共用**資料來源**成為內嵌資料來源
-  * 共用**資料集**成為內嵌資料集
-* 將報表 (通過檢查) 以編頁報表形式發佈至指定的 Power BI 工作區 (在 Premium 容量上)
+- 檢查[不支援的資料來源](../paginated-reports-data-sources.md)和[不支援的報表功能](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
+- 將任何「共用」  資源轉換為「內嵌」  資源：
+  - 共用**資料來源**成為內嵌資料來源
+  - 共用**資料集**成為內嵌資料集
+- 將報表 (通過檢查) 以編頁報表形式發佈至指定的 Power BI 工作區 (在 Premium 容量上)
 
 其不會修改或移除現有的報表。 完成時，此工具會輸出所有已完成動作 (成功或失敗) 的摘要。
 
@@ -92,13 +92,13 @@ ms.locfileid: "76889228"
 
 不過，下列 SSRS 項目類型無法遷移至 Power BI：
 
-* 共用資料來源 <sup>1</sup>
-* 共用資料集 <sup>1</sup>
-* 資源，例如影像檔案
-* KPI (SSRS 2016 或更新版本 - 僅限 Enterprise Edition)
-* 行動報表 (SSRS 2016 或更新版本 - 僅限 Enterprise Edition)
-* 報表模型 (已淘汰)
-* 報表組件 (已淘汰)
+- 共用資料來源 <sup>1</sup>
+- 共用資料集 <sup>1</sup>
+- 資源，例如影像檔案
+- KPI (SSRS 2016 或更新版本 - 僅限 Enterprise Edition)
+- 行動報表 (SSRS 2016 或更新版本 - 僅限 Enterprise Edition)
+- 報表模型 (已淘汰)
+- 報表組件 (已淘汰)
 
 <sup>1</sup> [RDL 移轉工具](https://github.com/microsoft/RdlMigration)會自動轉換共用資料來源和共用資料集 (假設其使用支援的資料來源)。
 
@@ -120,6 +120,7 @@ ms.locfileid: "76889228"
 1. 使用 [Power BI Desktop](../desktop-what-is-desktop.md) 來開發行動裝置最佳化的報表，有可能使用 [Power KPI 自訂視覺效果](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)取代您的 SSRS 行動報表和 KPI。
 1. 重新評估您的報表中 **UserID** 內建欄位的使用方式。 如果您依賴 **UserID** 來保護報表資料，請了解其會針對編頁報表 (裝載於 Power BI 服務時)，傳回使用者主體名稱 (UPN)。 因此，內建欄位會傳回類似 _m.blythe&commat;adventureworks.com_ 的內容，而不是傳回 NT 帳戶名稱，例如 _AW\mblythe_。 您將需要修改資料集定義，也可能需要修改來源資料。 修改並發佈之後，建議您徹底測試報表，以確定資料權限如預期般運作。
 1. 重新評估您的報表中 **ExecutionTime** 內建欄位的使用方式。 針對編頁報表 (裝載於 Power BI 服務時)，內建欄位會以國際標準時間 (或 UTC)  傳回日期/時間。 它可能會影響報表參數的預設值，以及報表的執行時間標籤 (通常會加入至報表頁尾)。
+1. 如果您的資料來源是 SQL Server (內部部署)，請確認報表並未使用地圖視覺效果。 地圖視覺效果取決於空間資料類型，而這些不受閘道支援。 如需詳細資訊，請參閱[編頁報表的資料擷取指引 (SQL Server 複雜資料類型)](report-paginated-data-retrieval.md#sql-server-complex-data-types)。
 1. 請確定您的報表作者已安裝 [Power BI 報表產生器](../report-builder-power-bi.md)，而且可在貴組織內輕鬆地散發之後的版本。
 
 ## <a name="migration-stage"></a>移轉階段
@@ -146,8 +147,8 @@ ms.locfileid: "76889228"
 
 自動化移轉有兩個選項。 您可以使用：
 
-* RDL 移轉工具
-* 適用於 SSRS 和 Power BI 的公開可用 API
+- RDL 移轉工具
+- 適用於 SSRS 和 Power BI 的公開可用 API
 
 本文已說明 [RDL 移轉工具](#migration-tool)。
 
@@ -155,8 +156,8 @@ ms.locfileid: "76889228"
 
 如需 API 的詳細資訊，請參閱：
 
-* [Power BI REST API 參考](../developer/rest-api-reference.md)
-* [SQL Server Reporting Services REST API](/sql/reporting-services/developer/rest-api)
+- [Power BI REST API 參考](../developer/rest-api-reference.md)
+- [SQL Server Reporting Services REST API](/sql/reporting-services/developer/rest-api)
 
 ## <a name="post-migration-stage"></a>移轉後階段
 
@@ -182,20 +183,21 @@ ms.locfileid: "76889228"
 
 如需這些問題的詳細資訊，包括了解和減輕這些問題的特定步驟，請參閱下列文章：
 
-* [最佳化 Premium 容量](../service-premium-capacity-optimize.md)
-* [使用應用程式監視 Premium 容量](../service-admin-premium-monitor-capacity.md)
+- [最佳化 Premium 容量](../service-premium-capacity-optimize.md)
+- [使用應用程式監視 Premium 容量](../service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>後續步驟
 
 如需本文的詳細資訊，請參閱下列資源︰
 
-* [什麼是 Power BI Premium 中的編頁報表？](../paginated-reports-report-builder-power-bi.md)
-* Guy in a Cube 影片：[Power BI 中的編頁報表簡介](https://www.youtube.com/watch?v=wfqn45XNK3M)
-* [何時使用 Power BI 中的編頁報表](report-paginated-or-power-bi.md)
-* [Power BI 中的編頁報表：常見問題](../paginated-reports-faq.md)
-* [Power BI Premium 常見問題集](../service-premium-faq.md)
-* [RDL 移轉工具](https://github.com/microsoft/RdlMigration)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-* 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)
+- [什麼是 Power BI Premium 中的編頁報表？](../paginated-reports-report-builder-power-bi.md)
+- [編頁報表的資料擷取指引](report-paginated-data-retrieval.md)
+- Guy in a Cube 影片：[Power BI 中的編頁報表簡介](https://www.youtube.com/watch?v=wfqn45XNK3M)
+- [何時使用 Power BI 中的編頁報表](report-paginated-or-power-bi.md)
+- [Power BI 中的編頁報表：常見問題](../paginated-reports-faq.md)
+- [Power BI Premium 常見問題集](../service-premium-faq.md)
+- [RDL 移轉工具](https://github.com/microsoft/RdlMigration)
+- 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)
 
 Power BI 合作夥伴可協助貴組織成功進行遷移程序。 若要與 Power BI 合作夥伴交流，請造訪 [Power BI 合作夥伴入口網站](https://powerbi.microsoft.com/partners/)。

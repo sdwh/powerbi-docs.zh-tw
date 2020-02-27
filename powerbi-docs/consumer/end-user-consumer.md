@@ -3,20 +3,21 @@ title: 什麼是 Power BI「取用者」？
 description: 適用於取用者 (也稱為終端使用者或企業用戶) 的 Power BI 概觀。
 author: mihart
 ms.service: powerbi
-ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863818"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496178"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>適用於取用者的 Power BI 服務
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 您活在資料文化中，其會根據事實來制訂商務決策，而不是根據想法。 您需要資料來制訂這些決策，而您的同事並未讓您失望。     
  
@@ -43,6 +44,8 @@ Power BI 可同時讓您的工作更輕鬆且更具影響力。 所有資料都�
 身為取用者，您將無法存取 Power BI 的完整功能，但沒關係，因為您的作業不是建置儀表板和報表。 您將會使用 Power BI 服務進行分析、監視、探索和決策制訂。 
 
 您一定會聽到 "Power BI Desktop" 或只是 "Desktop" 一詞，這是一種獨立工具，供建置儀表板和與您共用儀表板與報表的「設計師」  使用。  請務必了解還有其他的 Power BI 工具，但如果您是取用者，就只能使用 Power BI 服務。 
+
+而因為您使用的是「共用」  內容，所以需要有 Power BI Pro 或 Premium 授權。 [我有哪些授權？](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>安全地與內容互動 
