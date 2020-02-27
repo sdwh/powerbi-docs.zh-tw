@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d56e329d5331403c0ed0ce4da28bf73aea65d9a6
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819575"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427867"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -233,14 +233,14 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ### <a name="export-data"></a>匯出資料
 
-組織中的使用者可以從磚或視覺效果匯出資料。 [深入了解](visuals/power-bi-visualization-export-data.md)
+組織中的使用者可以從磚或視覺效果匯出資料。 深入了解[從磚或視覺效果匯出資料](visuals/power-bi-visualization-export-data.md)。
 
 下圖顯示從圖格匯出資料的選項。
 
 ![從圖格匯出資料](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
-> 停用 [匯出資料]  會讓使用者無法使用「在 Excel 中進行分析」  功能，也無法使用 Power BI 服務即時連線。
+> 停用 [匯出資料]  會讓使用者無法使用[「在 Excel 中進行分析」](service-analyze-in-excel.md)功能，也無法使用 Power BI 服務即時連線。
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>將報表匯出成 PowerPoint 簡報或 PDF 文件
 

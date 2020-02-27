@@ -1,26 +1,32 @@
 ---
 title: 共用資料集的建置權限 (預覽)
-description: 了解如何使用建置權限控制誰可以存取資料。
+description: 了解如何使用建置權限控制資料存取權。
 author: maggiesMSFT
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872550"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426602"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>共用資料集的建置權限 (預覽)
 
-身為 Power BI Desktop 中的「資料模型」  建立者，您可以共用這些模型，作為 Power BI 服務中的「資料集」  。 接著，報表建立者可以輕鬆探索並重複使用您共用的資料集。 了解如何使用建置權限控制誰可以存取資料。
+當您在 Power BI Desktop 中建立報表時，該報表中資料會儲存在「資料模型」  中。 當您將報表發佈至 Power BI 服務時，也會將資料發佈為「資料集」  。 您可以將該報表的「建置權限」  授與其他人，以便其可探索並重複使用您共用的資料集。 本文會說明如何使用建置權限控制資料存取權。
 
-建置權限只與資料集相關。 當您為使用者賦予建置權限時，他們可以在資料集上建置新內容，例如問與答中的報表、儀表板、釘選磚，以及見解探索。 也可以在 Power BI 外部的資料集建置新內容，例如透過使用 Excel 分析的 Excel 工作表、XMLA 和匯出基礎資料。
+建置權限適用資料集。 當您將建置權限授與使用者時，其可在您的資料集中建置新內容，例如報表、儀表板、從問與答釘選的磚，以及見解探索。 
+
+使用者也需要有建置權限，才能在 Power BI「外」  使用資料：
+
+- 匯出基礎資料。
+- 利用 [[使用 EXCEL 分析]](service-analyze-in-excel.md) 等工具在資料集中建置新的內容。
+- 透過 XMLA 端點存取資料。
 
 ## <a name="ways-to-give-build-permission"></a>賦予建置權限的方式
 

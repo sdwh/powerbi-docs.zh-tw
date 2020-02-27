@@ -7,6 +7,8 @@
       items:
         - name: 概觀
           href: overview.md
+        - name: Power BI 最佳化指南
+          href: power-bi-optimization.md
     - name: 概念
       expanded: true
       items:
@@ -78,6 +80,8 @@
               href: admin-tenant-settings.md
             - name: 內部部署的資料閘道大小調整
               href: gateway-onprem-sizing.md
+            - name: 監視報表效能
+              href: monitor-report-performance.md
     - name: 白皮書
       items:
         - name: 白皮書概觀
