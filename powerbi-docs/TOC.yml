@@ -757,8 +757,8 @@
               href: admin/service-security-data-protection-overview.md
             - name: 套用敏感度標籤
               href: designer/service-security-apply-data-sensitivity-labels.md
-        - name: 資料譜系
-          href: service-data-lineage.md
+        - name: 檢視資料譜系
+          href: designer/service-data-lineage.md
         - name: 範本應用程式
           items:
             - name: 範本應用程式概觀
