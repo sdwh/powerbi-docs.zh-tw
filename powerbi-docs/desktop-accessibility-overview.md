@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 02/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8604ed2c737b7d2a75b3af052878ecb157ffacf1
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a8bf446174cc16d95842022416352f538dca69ec
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538604"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609859"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI 中的協助工具概觀
 
@@ -30,7 +30,7 @@ ms.locfileid: "76538604"
 
 ## <a name="accessibility-standards"></a>協助工具標準
 
-Power BI 致力於符合下列協助工具標準。 這些標準有助於確保您的 Power BI 體驗可供最多人員存取。 Power BI 行動版應用程式已通過協助工具等級 C 的認證。 當您建置具協助功能的報表或儀表板時，該內容便可供使用 Power BI 行動版進行檢視的任何人存取。
+Power BI 致力於符合下列協助工具標準。 這些標準有助於確保您的 Power BI 體驗可供最多人員存取。 當您建置具協助功能的報表或儀表板時，該內容便可供使用 Power BI 行動版進行檢視的任何人存取。
 
 ### <a name="wcag-21"></a>WCAG 2.1
 

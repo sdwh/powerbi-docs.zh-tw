@@ -655,8 +655,6 @@
               href: service-export-to-pbix.md
             - name: 編輯 SAP 變數
               href: service-edit-sap-variables.md
-            - name: 在 Power BI 中建置快速可靠之報表的最佳做法
-              href: power-bi-reports-performance.md
         - name: 詢問資料相關的問題
           items:
             - name: 使用問與答探索您的資料
