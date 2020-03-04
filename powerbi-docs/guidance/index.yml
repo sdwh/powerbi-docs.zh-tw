@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 28fc951ecdfdf31b7319047caae2b5807aadf704
-  ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+  ms.openlocfilehash: 9bb2835003d774bcc878114dbcc669a0bff7ff89
+  ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 02/26/2020
-  ms.locfileid: "77609754"
+  ms.lasthandoff: 03/03/2020
+  ms.locfileid: "78237768"
 landingContent:
 - title: Power BI 指導
   linkLists:
@@ -85,6 +85,16 @@ landingContent:
       url: report-page-tooltips.md
     - text: 使用報表頁面鑽研
       url: report-drillthrough.md
+    - text: 管理座標軸的祕訣
+      url: report-design-tips-axes.md
+    - text: 控制圖表格線的祕訣
+      url: report-tips-chart-gridlines.md
+    - text: 將標籤的使用最佳化的祕訣
+      url: report-tips-labels.md
+    - text: 格式化及實作圖例的祕訣
+      url: report-tips-legends.md
+    - text: 最佳化視覺效果色彩的祕訣
+      url: report-tips-visual-colors.md
 - title: Power BI 編頁報表
   linkLists:
   - linkListType: concept

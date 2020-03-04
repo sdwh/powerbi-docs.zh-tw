@@ -60,6 +60,16 @@
               href: report-page-tooltips.md
             - name: 使用報表頁面鑽研
               href: report-drillthrough.md
+            - name: 管理座標軸的祕訣
+              href: report-design-tips-axes.md
+            - name: 控制圖表格線的祕訣
+              href: report-tips-chart-gridlines.md
+            - name: 將標籤的使用最佳化的祕訣
+              href: report-tips-labels.md
+            - name: 格式化及實作圖例的祕訣
+              href: report-tips-legends.md
+            - name: 最佳化視覺效果色彩的祕訣
+              href: report-tips-visual-colors.md
         - name: Power BI 編頁報表
           items:
             - name: 何時使用編頁報表
