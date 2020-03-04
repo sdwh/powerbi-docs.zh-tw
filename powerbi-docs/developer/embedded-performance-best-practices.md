@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c3e2327131ae82fa025236c9242476466b6d9074
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a0f4808aaf267e3cdb822e8778005c2eca247cb5
+ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73864067"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78198996"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 效能最佳做法
 
 本文提供能更快速轉譯應用程式中的報表、儀表板及磚的建議。
 
 > [!Note]
-> 請記住，載入時間主要取決於與報表相關的元素和資料本身，包括視覺效果、資料大小，以及查詢及導出量值的複雜度。 如需詳細資訊，請參閱 [Power BI 效能最佳做法](../power-bi-reports-performance.md)。
+> 請記住，載入時間主要取決於與報表相關的元素和資料本身，包括視覺效果、資料大小，以及查詢及導出量值的複雜度。 如需詳細資訊，請參閱 [Power BI 最佳化指南](../guidance/power-bi-optimization.md)。
 
 ## <a name="update-tools-and-sdk-packages"></a>更新工具和 SDK 套件
 
@@ -106,6 +106,6 @@ ms.locfileid: "73864067"
 
 ## <a name="next-steps"></a>後續步驟
 
-* [Power BI 報表效能最佳做法](../power-bi-reports-performance.md)
+* [Power BI 最佳化指南](../guidance/power-bi-optimization.md)
 * [如何針對 Power BI Embedded 的問題進行疑難排解](embedded-troubleshoot.md)
 * [Power BI Embedded 常見問題集](embedded-faq.md)

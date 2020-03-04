@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c9e0658eb277ae25b3a418dd80fb9323be6f6ab0
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: e97d2301a77bb3fe4a7a8f4e50f6da73a68842d0
+ms.sourcegitcommit: 30ed21cca2125001f2f992dc6c5f546f4956631c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758391"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77652534"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>在 Power BI Desktop 中建立 ArcGIS 地圖
 
@@ -26,6 +26,9 @@ ms.locfileid: "75758391"
 ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到了全新境界。 從基礎地圖、位置類型、佈景主題、符號樣式及參考圖層中選擇，以建立具有豐富資訊的優異地圖視覺效果。 地圖上的官方資料圖層與空間分析結合之後，能讓人更深入了解視覺效果中的資料。
 
  雖然您無法在行動裝置上建立 ArcGIS Maps for Power BI 地圖，但可以檢視地圖並與其互動。 請參閱[與 ArcGIS 地圖互動](power-bi-visualizations-arcgis.md)。
+
+> [!NOTE]
+> ArcGIS Maps for Power BI 目前無法供 Power BI 報表伺服器使用。
 
 > [!TIP]
 > GIS 是 Geographic Information System (地理資訊系統) 的縮寫。

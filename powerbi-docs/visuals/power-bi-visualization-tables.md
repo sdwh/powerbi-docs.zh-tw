@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: de0328a35922279082c93a9a2d2a4948f1af7dc5
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154235"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576825"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 報表和儀表板中的資料表
 
@@ -175,7 +175,10 @@ ms.locfileid: "77154235"
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
-套用資料行的格式設定時，您只能為每個資料行選擇一個對齊選項：[自動]  、[靠左]  、[置中]  、[靠右]  。 通常，一個資料行包含所有文字或所有數字，並不混用。 在資料行同時包含數字和文字的情況下，[自動]  會將文字靠左對齊、將數字靠右對齊。 此行為支援從左到右閱讀的語言。
+* 套用資料行的格式設定時，您只能為每個資料行選擇一個對齊選項：[自動]  、[靠左]  、[置中]  、[靠右]  。 通常，一個資料行包含所有文字或所有數字，並不混用。 在資料行同時包含數字和文字的情況下，[自動]  會將文字靠左對齊、將數字靠右對齊。 此行為支援從左到右閱讀的語言。
+
+* 如果資料表的儲存格或標題中的文字資料包含新行字元，除非您在元素的相關聯格式窗格卡片中切換 [自動換行] 選項，否則會忽略那些字元。 
+
 
 ## <a name="next-steps"></a>後續步驟
 

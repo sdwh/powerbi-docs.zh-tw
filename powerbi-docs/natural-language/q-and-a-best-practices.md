@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: e18579d654cb2ab17ed0dbff73fba95f5f9a64ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875070"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609954"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>將 Power BI 問與答最佳化的最佳做法
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 如果您的資料能夠回答，就更厲害了，而 Power BI 的問與答就有這樣的能耐。
@@ -197,4 +197,4 @@ Power BI 預設會積極地彙總數值資料行，因此「年度總銷售額�
 
 ![問與答屬性窗格的同義字](media/qna-modelling-pane-synonyms.png)
 
- 新增同義字時請小心。 將相同的同義字新增至多個資料行或資料表會造成模稜兩可。 如果可行，問與答會使用內容以在模稜兩可的同義字之間進行選擇，但並非所有問題都有足夠的內容。 例如，當使用者詢問「計算客戶數」時，如果模型中有三個具有同義字「客戶」的項目，則客戶可能無法取得所要的解答。 在這些情況下，請確定主要同義字是唯一的，因為這是用於重新陳述的同義字。 它可以警告使用者發生模稜兩可 (例如重新陳述「顯示已封存客戶記錄的數目」)，以提示他們可能想要以不同的方式詢問。
+ 新增同義字時請小心。 將相同的同義字新增至多個資料行或資料表會造成模稜兩可。 如果可行，問與答會使用內容以在模稜兩可的同義字之間進行選擇，但並非所有問題都有足夠的內容。 例如，當使用者詢問「計算客戶數」時，如果模型中有三個具有同義字「客戶」的項目，則使用者可能無法取得所要的解答。 在這些情況下，請確定主要同義字是唯一的，因為這是用於重新陳述的同義字。 它可以警告使用者發生模稜兩可 (例如重新陳述「顯示已封存客戶記錄的數目」)，以提示他們可能想要以不同的方式詢問。

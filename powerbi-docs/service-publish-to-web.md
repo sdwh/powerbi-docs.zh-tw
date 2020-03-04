@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/06/2020
+ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: a9417e7de98e0fa1867aa0561743c1ed6c5b63e2
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076714"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609935"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -118,7 +118,7 @@ ms.locfileid: "77076714"
 
 ## <a name="updates-to-reports-and-data-refresh"></a>報表更新和資料重新整理
 
-建立 [發佈至 Web]  內嵌程式碼並加以共用後，報表將依據您進行的任何變更更新，而內嵌程式碼連結則會立即啟用。 開啟連結的任何人都可以進行檢視。 不過，在這個初始動作之後，報表或視覺效果的更新可能需要大約一小時，才能讓您的使用者看見。 若要深入了解，請參閱本文稍後的[**運作方式**](#howitworks)一節。 
+建立 [發佈至 Web]  內嵌程式碼並加以共用後，報表將依據您進行的任何變更更新，而內嵌程式碼連結則會立即啟用。 開啟連結的任何人都可以進行檢視。 不過，在這個初始動作之後，報表或視覺效果的更新可能需要二至三小時，您的使用者才會看到。 若要深入了解，請參閱本文稍後的[**運作方式**](#howitworks)一節。 
 
 ## <a name="data-refresh"></a>資料重新整理
 

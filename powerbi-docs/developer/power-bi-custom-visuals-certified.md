@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 01/12/2019
-ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/17/2020
+ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026661"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782419"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>取得 Power BI 視覺效果認證
 
@@ -43,11 +43,13 @@ Power BI 視覺效果一旦經過認證，便能提供更多的功能。 例如�
 
 雖然您不需要在 GitHub 中公開共用程式碼，但是程式碼存放庫必須可供 Power BI 小組檢閱。 執行此動作的最佳方式是在 GitHub 中提供原始程式碼 (JavaScript 或 TypeScript)。
 
-存放庫必須只包含一個 Power BI 視覺效果的程式碼。 不能包含多個 Power BI 視覺效果或不相關的程式碼。
-
-存放庫必須包含名為 **certification** (必須是小寫) 的分支。 此分支中的原始程式碼必須符合已提交的套件。 如果您要重新提交 Power BI 視覺效果，則只能在下一次提交程序期間更新此程式碼。
+存放庫必須包含下列項目：
+* 僅限一個 Power BI 視覺效果的程式碼。 不能包含多個 Power BI 視覺效果或不相關的程式碼。
+* 名為 **certification** 的分支 (必須是小寫)。 此分支中的原始程式碼必須符合已提交的套件。 如果您要重新提交 Power BI 視覺效果，則只能在下一次提交程序期間更新此程式碼。
 
 如果您的 Power BI 視覺效果使用私人 npm 套件或 git 子模組，您必須提供其他存放庫 (包含此程式碼) 的存取權。
+
+若要了解 Power BI 視覺效果存放庫的外觀，請檢閱 GitHub 存放庫中的 [Power BI 視覺效果範例橫條圖](https://github.com/microsoft/PowerBI-visuals-sampleBarChartgi) \(英文\)。
 
 ### <a name="file-requirements"></a>檔案需求
 
@@ -113,6 +115,18 @@ Power BI 視覺效果一旦經過認證，便能提供更多的功能。 例如�
 
 >[!NOTE]
 > 如果您處於 Power BI 視覺效果提交過程期間，而且需要使用[賣方儀表板](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) \(英文\) (舊的管理工具)，請檢閱[賣方儀表板認證提交程序](seller-dashboard.md#seller-dashboard-certification-submission-process)指示。
+
+### <a name="private-repository-submission-process"></a>私人存放庫提交程序
+
+如果您使用 GitHub 之類的私人存放庫來提交您的 Power BI 視覺效果進行認證，請遵循此節中的指示。
+1. 針對驗證小組建立新的帳戶。
+2. 針對您的帳戶設定[雙因素驗證](https://help.github.com/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa) \(英文\)。
+3. [產生一組新的復原碼](https://help.github.com/github/authenticating-to-github/configuring-two-factor-authentication-recovery-methods#generating-a-new-set-of-recovery-codes) \(英文\)。
+4. 提交您的 Power BI 視覺效果時，請提供下列項目：
+    * 存放庫的連結
+    * 登入認證 (包括密碼)
+    * 復原碼
+    * 我們帳戶 ([pbicvsupport](https://github.com/pbicvsupport) 的唯讀權限
 
 ## <a name="certified-power-bi-visuals"></a>經認證的 Power BI 視覺效果
 

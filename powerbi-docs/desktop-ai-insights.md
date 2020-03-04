@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2985f0281274adcdbde737c0f3b00688a401df7
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ecb377ccabf3b94f37c3fcc69b24c4437c42281b
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221267"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609805"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop-preview"></a>使用 Power BI Desktop 中的 AI 見解 (預覽)
 
@@ -153,7 +153,7 @@ Power Query 和 Power Query Online 中使用的文字分析和視覺函式都相
 
 若要使用此功能，資料科學家可以使用 Azure 入口網站將對 Azure ML 模型的存取權授與 BI 分析師。 接著，在每個工作階段開頭，Power Query 會探索使用者有權存取的所有 Azure ML 模型並將它們公開為動態 Power Query 函式。 使用者接著可以透過從 Power Query 編輯器中的功能區存取函式，或透過直接叫用 M 函式，來叫用那些函式。 Power BI 也會在針對一組資料列叫用 Azure ML 模型時自動分存取要求分批，以獲得更好的效能。
 
-目前只有 Power BI 資料流程與 Power BI 服務中的 Power Query Online 支援此功能。
+Power BI Desktop、Power BI 資料流程與 Power BI 服務中的 Power Query Online 都支援此功能。
 
 若要深入了解資料流程，請參閱 [Power BI 中的自助資料準備](service-dataflows-overview.md)。
 

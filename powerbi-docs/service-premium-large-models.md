@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 02/25/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223715"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609897"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium 中的大型模型 (預覽)
 
-Power BI 資料集可以將資料儲存在高度壓縮的記憶體內部快取中，以獲得最佳的查詢效能。 這讓使用者可以與大型資料集快速互動。 「大型模型」功能可讓 Power BI Premium 中的資料集成長到超過 10 GB 的大小。 資料集的大小會變成受到 Power BI Premium 容量大小的限制。 這類似於 Azure Analysis Services 在模型大小限制方面的運作。 如需 Power BI Premium 中容量大小的詳細資訊，請參閱容量節點。 您可以為所有 Premium P SKU 和 Embedded A SKU 設定大型模型，但它們僅適用於[新的工作區](service-create-the-new-workspaces.md)。
+Power BI 資料集可以將資料儲存在高度壓縮的記憶體內部快取中，以獲得最佳化的查詢效能，讓使用者能夠在大型資料集上快速互動。 「大型模型」功能可讓 Power BI Premium 中的資料集成長到超過 10 GB 的大小。 資料集的大小會改為受到 Power BI Premium 容量大小限制，這類似於 Azure Analysis Services 在模型大小限制方面的運作方式。 如需 Power BI Premium 中容量大小的詳細資訊，請參閱容量節點。 您可以為所有 Premium P SKU 和 Embedded A SKU 設定大型模型，但它們僅適用於[新的工作區](service-create-the-new-workspaces.md)。
 
 大型模型不會影響 .PBIX 上傳大小 (限制為 10 GB)， 反而是在重新整理時，服務的資料集會成長到超過 10 GB。 您可以使用累加式重新整理來設定資料集，使其成長至超過 10 GB。
 
@@ -30,7 +30,7 @@ Power BI 資料集可以將資料儲存在高度壓縮的記憶體內部快取�
 
 1. 將資料集發佈至 Power BI Premium 服務。
 
-1. 藉由執行下列 PowerShell Cmdlet，啟用大型模型的資料集。 這些 Cmdlet 會讓 Power BI 將資料集儲存在 Azure Premium 檔案上，且不會強制執行 10 GB 的限制。
+1. 藉由執行下列 PowerShell Cmdlet，啟用大型模型的資料集。 這些 Cmdlet 會讓 Power BI 將資料集儲存在 Azure Premium 檔案上，而不會強制執行 10 GB 的限制。
 
 1. 根據累加式重新整理原則，叫用重新整理來載入歷程記錄資料。 第一次重新整理可能需要一段時間來載入歷程記錄。 後續重新整理可能較快，因為是累加式。
 
@@ -110,7 +110,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
  [DATABASE_NAME] = '<Dataset Name>') //Sum USED_SIZE (bytes)
 ```
 
-## <a name="current-feature-restrictions"></a>目前功能的限制
+## <a name="limitations-and-considerations"></a>限制與考量
 
 使用大型模型時，請記住下列限制：
 
@@ -118,4 +118,46 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 - **多地理位置支援**：啟用 Premium 檔案的資料集，在也啟用了[多地理位置](service-admin-premium-multi-geo.md)的容量上會失敗。
 
 - **下載至 Power BI Desktop**：如果資料集儲存在 Premium 檔案上，[下載為 .pbix](service-export-to-pbix.md) 檔案將會失敗。
-- **支援的區域**：大型模型在支援進階檔案儲存體的所有 Azure 區域中受到支援。 若要深入了解，請參閱[依區域提供的產品](https://azure.microsoft.com/global-infrastructure/services/?products=storage)。
+- **支援的區域**：大型模型在支援進階檔案儲存體的所有 Azure 區域中受到支援。 若要深入了解，請參閱[依區域提供的產品](https://azure.microsoft.com/global-infrastructure/services/?products=storage)，並參閱下一節中的表格。
+
+
+## <a name="availability-in-regions"></a>區域中的可用性
+
+在提供 Power BI 的所有區域中，都無法使用大型模型。 Power BI 中的大型模型僅適用於支援 [Azure Premium 檔案儲存體](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers) \(部分機器翻譯\) 的 Azure 區域。
+
+下列清單提供可以在 Power BI 中使用大型模型的區域。 大型模型不支援下列清單中的區域：
+
+
+|Azure 區域  |Azure 區域縮寫  |
+|---------|---------|
+|澳大利亞東部     | australiaeast        |
+|澳大利亞東南部     | australiasoutheast        |
+|美國中部     | centralus        |
+|東亞     | eastasia        |
+|美國東部     | eastus        |
+|美國東部 2     | eastus2        |
+|日本東部     | japaneast        |
+|日本西部     | japanwest        |
+|南韓中部     | koreacentral        |
+|南韓南部     | koreasouth        |
+|美國中北部     | northcentralus        |
+|北歐     | northeurope        |
+|美國中南部     | southcentralus        |
+|東南亞     | southeastasia        |
+|英國南部     | uksouth        |
+|英國西部     | ukwest        |
+|西歐     | westeurope        |
+|美國西部     | westus        |
+|美國西部 2     | westus2        |
+
+
+
+## <a name="next-steps"></a>後續步驟
+
+下列連結提供的資訊有助於處理大型模型：
+
+* [Azure Premium 檔案儲存體](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers) \(部分機器翻譯\)
+* [設定 Power BI Premium 的多地理位置支援](service-admin-premium-multi-geo.md)
+* [攜帶您自己的加密金鑰以用於 Power BI](service-encryption-byok.md)
+* [容量的運作方式](service-premium-what-is.md#how-capacities-function)
+* [累加式重新整理](service-premium-incremental-refresh.md)。

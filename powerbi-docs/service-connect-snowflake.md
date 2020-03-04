@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 03e6e8efae5cd4a5f61e3d07bc0b3c524b3b0a46
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77429341"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576860"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>連線到 Power BI 服務中的 Snowflake
 
@@ -49,7 +49,7 @@ ms.locfileid: "77429341"
 
 * 如果您只在資料模型中使用 Snowflake 來源，則若選擇不使用內部部署資料閘道，您就可以使用 SSO
 * 如果您同時使用 Snowflake 來源和其他來源，則若所有來源都不使用內部部署資料閘道，您就可以使用 SSO
-* 如果您透過內部部署資料閘道使用 Snowflake 來源，則可以使用 AAD 認證，而不是 SSO。 如果您嘗試從已安裝閘道的單一 IP 存取 VNet，而不是從整個 Power BI IP 範圍存取 VNet，這就可能是相關的。
+* 如果您透過內部部署資料閘道使用 Snowflake 來源，則目前不支援 AAD 認證。 如果您嘗試從已安裝閘道的單一 IP 存取 VNet，而不是從整個 Power BI IP 範圍存取 VNet，這就可能是相關的。
 * 如果您同時使用 Snowflake 來源與需要閘道的其他來源，則將必須透過內部部署資料閘道來使用 Snowflake，且無法使用 SSO。
 
 如需如何使用內部部署資料閘道的詳細資訊，請參閱 [什麼是內部部署資料閘道](https://docs.microsoft.com/power-bi/service-gateway-onprem)一文

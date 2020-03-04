@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9b21b733dd673c1b672a4590032808a174ecda1f
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76161585"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609845"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>使用 Python 建立 Power BI 視覺效果
 
@@ -170,7 +170,7 @@ plt.show()
 
 Power BI Desktop 中的 Python 視覺效果有一些限制：
 
-- 資料大小限制。 Python 視覺效果用於繪製的資料限制為 150,000 個資料列。 如果選取超過 150,000 個資料列，則只會使用前 150,000 個資料列，而且影像上會顯示訊息。
+- 資料大小限制。 Python 視覺效果用於繪製的資料限制為 150,000 個資料列。 如果選取超過 150,000 個資料列，則只會使用前 150,000 個資料列，而且影像上會顯示訊息。 此外，輸入資料的限制為 250 MB。 
 - 解決方法。 所有 Python 視覺效果都會以 72 DPI 顯示。
 - 計算時間限制。 如果 Python 視覺效果計算超過五分鐘，執行時間會逾時並導致錯誤。
 - 關聯性。 如同其他 Power BI Desktop 視覺效果，如果選取來自不同資料表的資料欄位，而其之間沒有定義關聯性，即會發生錯誤。

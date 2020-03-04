@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154353"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576830"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中建立矩陣視覺效果
 
@@ -218,6 +218,10 @@ ms.locfileid: "77154353"
 選取 [進階控制項]  以顯示對話方塊，讓您進行調整。 此範例顯示 [資料橫條]  的對話方塊。
 
 ![[資料橫條] 窗格](media/desktop-matrix-visual/power-bi-data-bars.png)
+
+## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
+
+* 如果矩陣的儲存格或標題中的文字資料包含新行字元，除非您在元素的相關聯格式窗格卡片中切換 [自動換行] 選項，否則會忽略那些字元。 
 
 ## <a name="next-steps"></a>後續步驟
 

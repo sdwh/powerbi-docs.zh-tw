@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 12/02/2019
-ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.date: 02/13/2020
+ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74999878"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576793"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>將 Power BI 視覺效果發佈至合作夥伴中心
 
@@ -39,7 +39,7 @@ ms.locfileid: "74999878"
 | 螢幕擷取畫面 |是 |提供至少一張螢幕擷取畫面。 格式可以是 .png、.jpg、.jpeg 或 .gif。 尺寸必須剛好為 1366 px (寬度) x 768 px (高度)。 檔案大小不能大於 1024 kb。<br>若要提供更好的使用體驗，請新增文字泡泡以表達每張螢幕擷取畫面所顯示重要功能的價值定位。 |
 | 支援下載連結 |是 |為您的客戶提供支援 URL。 系統會輸入此連結作為您賣方儀表板清單的一部分；當使用者在 AppSource 上存取您視覺效果的清單時便會看到它。 URL 的格式應該包含 https:// 或 http:// 。 |
 | 隱私權文件連結 |是 |提供視覺效果隱私權原則的連結。 系統會輸入此連結作為您賣方儀表板清單的一部分；當使用者在 AppSource 上存取您視覺效果的清單時便會看到它。 連結的格式應該包含 https:// 或 http:// 。 |
-| 使用者授權合約 (EULA) |是 |您必須上傳 EULA 檔案。 您可以使用自己的 EULA，或使用 Office 市集內適用於 Power BI 視覺效果的預設 EULA。 若要使用預設的 EULA，請將下列 URL 貼至賣方儀表板的 [使用者授權合約] 檔案上傳對話方塊中。 [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) \(英文\)。 |
+| 使用者授權合約 (EULA) |是 |您必須為您的 Power BI 視覺效果提供 EULA 檔案。 |
 | 影片連結 |否 |為提高使用者對您自訂視覺效果的興趣，請提供有關視覺效果的影片連結。 URL 的格式應該包含 https:// 或 http:// 。 |
 | GitHub 儲存機制 |否 |共用具有您 Power BI 視覺效果及範例資料之 [GitHub](https://www.github.com) \(英文\) 存放庫的公用連結。 這可讓其他開發人員有機會提供意見反應，並為您的程式碼提出改進。 |
 

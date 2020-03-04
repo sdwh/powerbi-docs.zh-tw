@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 1/16/2020
+ms.date: 2/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4570fea58a19acb4f35a5c24d0a5bfa93beba215
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: afc14e4d1ebd1e68045c2aa38a43e9d7cbc0f1c1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76537546"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576718"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>從 Power BI 將報表匯出至 PDF
 
@@ -50,8 +50,9 @@ ms.locfileid: "76537546"
 ## <a name="limitations-and-considerations"></a>限制與考量
 當您使用 [匯出至 PDF]  功能時，需牢記幾項考量與限制。
 
-* 目前不支援 R 視覺效果。 在 PDF 中，這些視覺效果會是空白，並顯示錯誤訊息。 
-* 目前支援經認證的自訂視覺效果。 如需認證自訂視覺效果 (包括如何使自訂視覺效果獲得認證) 的詳細資訊，請參閱[讓自訂視覺效果獲得認證](../developer/power-bi-custom-visuals-certified.md)。 不支援未經認證的自訂視覺效果。 在 PDF 中，將會顯示它們並出現錯誤訊息。 
+* 目前不支援 R 視覺效果與 Python 視覺效果。 在 PDF 中，這些視覺效果會是空白，並顯示錯誤訊息。 
+* 目前支援經認證的自訂視覺效果。 如需認證自訂視覺效果 (包括如何使自訂視覺效果獲得認證) 的詳細資訊，請參閱[讓自訂視覺效果獲得認證](../developer/power-bi-custom-visuals-certified.md)。 不支援未經認證的自訂視覺效果。 在 PDF 中，將會顯示它們並出現錯誤訊息。
+* 不支援 ESRI 視覺效果
 * 目前無法匯出超過 30 頁的報表。
 * 將報表匯出至 PDF 的程序可能需時數分鐘，請耐心等候。 影響所需時間的因素，包括報表結構及 Power BI 服務目前的負載。
 * 如果 Power BI 服務中沒有 [匯出至 PDF]  功能表項目，可能是因為租用戶系統管理員停用了此功能。 如需詳細資訊，請連絡您的租用戶系統管理員。
