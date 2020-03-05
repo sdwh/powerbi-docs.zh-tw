@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a0127a6ffa0d698a94e368532c44d0f83c362b42
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75002389"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290559"
 ---
 # <a name="referencing-power-query-queries"></a>參考 Power Query 查詢
 
@@ -54,5 +54,5 @@ ms.locfileid: "75002389"
 
 - [Power BI 中的自助資料準備](../service-dataflows-overview.md)
 - [在 Power BI 中建立及使用資料流程](../service-dataflows-create-use.md)
-- Guy in a Cube 影片：[適用於 Power BI 與 Excel 的 Power Query 內參考查詢](https://www.youtube.com/watch?v=3uKNNZqBIkg) \(英文\)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e65dd42e8ec787d0c6edba534f79cdb06e5ba14c
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: f8b7cc302cd4a26aa099f723f47865723dccb7c9
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527284"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290628"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>將 SQL Server Reporting Services 報表移轉到 Power BI
 
@@ -192,7 +192,6 @@ ms.locfileid: "77527284"
 
 - [什麼是 Power BI Premium 中的編頁報表？](../paginated-reports-report-builder-power-bi.md)
 - [編頁報表的資料擷取指引](report-paginated-data-retrieval.md)
-- Guy in a Cube 影片：[Power BI 中的編頁報表簡介](https://www.youtube.com/watch?v=wfqn45XNK3M)
 - [何時使用 Power BI 中的編頁報表](report-paginated-or-power-bi.md)
 - [Power BI 中的編頁報表：常見問題](../paginated-reports-faq.md)
 - [Power BI Premium 常見問題集](../service-premium-faq.md)

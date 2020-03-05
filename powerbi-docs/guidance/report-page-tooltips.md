@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040348"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290605"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>展開報表頁面之視覺效果的工具提示
 
@@ -88,5 +88,5 @@ ms.locfileid: "76040348"
 - [在 Power BI Desktop 中根據報表頁面建立工具提示](../desktop-tooltips.md)
 - [在 Power BI Desktop 中自訂工具提示](../desktop-custom-tooltips.md)
 - [使用視覺效果元素強化 Power BI 報表](../desktop-visual-elements-for-reports.md)
-- Guy in a Cube 影片：[Power BI report page tooltip - How to create one in Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw) (Power BI 報表頁面工具提示 - 如何在 Power BI Desktop 中建立)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

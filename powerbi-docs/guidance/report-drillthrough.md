@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 48942b30b84706c933ccef455129c84a67ac5a1b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040377"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290570"
 ---
 # <a name="use-report-page-drillthrough"></a>使用報表頁面鑽研
 
@@ -70,5 +70,5 @@ ms.locfileid: "76040377"
 如需本文的詳細資訊，請參閱下列資源：
 
 - [在 Power BI Desktop 中使用鑽研](../desktop-drillthrough.md)
-- Guy in a Cube 影片：[Drilling into drillthrough in Power BI Desktop](https://www.youtube.com/watch?v=2x9lLHDbtDk) (在 Power BI Desktop 中切入鑽研)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)
