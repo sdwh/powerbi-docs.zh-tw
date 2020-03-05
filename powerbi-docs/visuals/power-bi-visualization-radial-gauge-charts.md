@@ -46,7 +46,7 @@ ms.locfileid: "73880893"
 
 * 顯示可快速掃描和了解的資訊。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 本教學課程使用[財務範例 Excel 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
@@ -146,7 +146,7 @@ ms.locfileid: "73880893"
 
 ![最終量測計圖表的螢幕擷取畫面。](media/power-bi-visualization-radial-gauge-charts/power-bi-final.png)
 
-## <a name="next-step"></a>下一個步驟
+## <a name="next-step"></a>下一步
 
 * [關鍵效能指標 (KPI) 視覺效果](power-bi-visualization-kpi.md)
 

@@ -19,7 +19,7 @@ ms.locfileid: "74265524"
 
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
-在＜將資料推送至資料集＞的**步驟 3** [在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)中，您呼叫了[建立資料集](https://docs.microsoft.com/rest/api/power-bi/datasets)作業，以在 Power BI 中建立資料集。 在此步驟中，您會使用[取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)作業和 Newtonsoft.Json 來取得資料集識別碼。您使用步驟 4 中的資料集識別碼將資料列加入資料集。 
+在＜將資料推送至資料集＞的**步驟 3**[在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)中，您呼叫了[建立資料集](https://docs.microsoft.com/rest/api/power-bi/datasets)作業，以在 Power BI 中建立資料集。 在此步驟中，您會使用[取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)作業和 Newtonsoft.Json 來取得資料集識別碼。您使用步驟 4 中的資料集識別碼將資料列加入資料集。 
 
 若要將資料推送至 Power BI 資料集，您需要參考資料集中的資料表。 若要參考資料集中的資料表，您首先需要取得 **資料集識別碼**。 使用[取得資料集](/rest/api/power-bi/datasets/getdatasets)作業將能取得**資料集識別碼**。 **取得資料集**作業會傳回 JSON 字串，它包含 Power BI 中所有資料集的清單。 建議使用 [Newtonsoft.Json](https://www.newtonsoft.com/json) 還原序列化 JSON 字串。
 
@@ -31,7 +31,7 @@ ms.locfileid: "74265524"
 
 1. 在步驟 2：推送資料逐步解說建立的主控台應用程式專案中，[取得驗證存取權杖](walkthrough-push-data-get-token.md)，安裝 Newtonsoft.Json NuGet 套件。 安裝套件的方法如下：
 
-     a. 在 Visual Studio 2015 中，選擇 **工具**  > **NuGet 套件管理員**  >  **套件管理器主控台**。
+     a. 在 Visual Studio 2015 中，選擇 **工具** > **NuGet 套件管理員** > **套件管理器主控台**。
 
      b. 在 [套件管理器主控台]  中，輸入 Install-Package Newtonsoft.Json。
 2. 安裝套件之後，將 **using Newtonsoft.Json;** 加入 Program.cs。

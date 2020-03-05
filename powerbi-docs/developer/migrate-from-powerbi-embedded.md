@@ -145,7 +145,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 
 #### <a name="push-dataset--report"></a>推送資料集和報表
 
-下載 PBIX 不支援「推送 API」資料集。 無法將「推送 API」資料集資料從 PaaS 移植至 SaaS。
+下載 PBIX 不支援「推送 API」  資料集。 無法將「推送 API」資料集資料從 PaaS 移植至 SaaS。
 
 **流程**
 

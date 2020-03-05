@@ -23,7 +23,7 @@ ms.locfileid: "74264089"
 
 ### <a name="fiddler-trace"></a>Fiddler 追蹤
 
-[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 提供的免費工具，可用來監視 HTTP 流量。  您可以從用戶端電腦使用 Power BI API 來查看流量。 此工具可能會顯示錯誤與其他相關資訊。
+[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 所提供的免費工具，可監視 HTTP 流量。  您可以從用戶端電腦使用 Power BI API 來查看流量。 此工具可能會顯示錯誤與其他相關資訊。
 
 ![Fiddler 追蹤](media/embedded-troubleshoot/fiddler.png)
 
@@ -251,7 +251,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 您可以完成[內嵌安裝工具](https://aka.ms/embedsetup)以快速下載應用程式範例。 之後，您可以比較自己的應用程式與範例。
 
-### <a name="prerequisites"></a>先決條件
+### <a name="prerequisites"></a>必要條件
 
 使用內嵌安裝工具之前，請驗證您具備所有適當的必要條件。 您需要 **Power BI Pro** 帳戶和 **Microsoft Azure** 訂用帳戶。
 
