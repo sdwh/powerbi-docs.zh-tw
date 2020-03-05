@@ -73,6 +73,8 @@
               href: visuals/high-contrast-support.md
             - name: 啟用同步交叉分析篩選器
               href: visuals/enable-sync-slicers.md
+            - name: 對視覺效果進行偵錯
+              href: visuals/visuals-how-to-debug.md
             - name: 疑難排解 Power BI 視覺效果
               href: power-bi-custom-visuals-troubleshoot.md
         - name: 參考
@@ -101,6 +103,8 @@
                   href: visuals/utils-svg.md
                 - name: 類型公用程式
                   href: visuals/utils-type.md
+                - name: 工具提示公用程式
+                  href: visuals/utils-tooltip.md
                 - name: 資料檢視公用程式
                   href: visuals/utils-dataview.md
         - name: 資源
@@ -156,6 +160,8 @@
           items:
             - name: 從應用程式內嵌
               href: embed-from-apps.md
+            - name: 將報告匯出至檔案
+              href: export-to.md
             - name: 自動安裝應用程式
               href: embed-auto-install-app.md
             - name: 建立 Azure Active Directory 租用戶
@@ -257,8 +263,6 @@
           items:
             - name: 設定認證
               href: configure-credentials.md
-            - name: 加密認證
-              href: encrypt-credentials.md
         - name: 參考
           items:
             - name: REST API
