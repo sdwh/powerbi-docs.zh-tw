@@ -1,6 +1,6 @@
 ---
 title: Include 檔案
-description: 包含檔案
+description: Include 檔案
 services: powerbi
 author: eross-msft
 ms.service: powerbi
@@ -16,4 +16,4 @@ ms.lasthandoff: 01/09/2020
 ms.locfileid: "75772904"
 ---
 >[!Note]
->如果您想要檢視或刪除個人資料，請檢閱 [GDPR 的 Windows 資料主體要求](/microsoft-365/compliance/manage-gdpr-data-subject-requests-with-the-dsr-case-tool)網站中的 Microsoft 指引。 如果您正在尋找有關 GDPR 的一般資訊，請參閱[服務信任入口網站的 GDPR 一節](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)。
+>如果您想要檢視或刪除個人資料，請檢閱 Microsoft 在[適用於 GDPR 的 Windows 資料主體要求](/microsoft-365/compliance/manage-gdpr-data-subject-requests-with-the-dsr-case-tool)網站中的指引。 如果您正在尋找有關 GDPR 的一般資訊，請參閱[服務信任入口網站的 GDPR 一節](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)。
