@@ -310,7 +310,7 @@ ms.locfileid: "74265161"
     }
 ```
 
-雖然我們在上列程式碼中指定了  **_//Get the first id_** ，但正確的作法應是依名稱搜尋資料集。
+雖然我們在上列程式碼中指定了 **_//Get the first id_** ，但正確的作法應是依名稱搜尋資料集。
 
 ## <a name="next-steps"></a>後續步驟
 [將資料推送至 Power BI 儀表板](walkthrough-push-data.md)  

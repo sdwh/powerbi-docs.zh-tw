@@ -37,7 +37,7 @@ ms.locfileid: "74834601"
 
     ![Power BI 服務中的編頁報表](media/paginated-reports-view-power-bi-service/power-bi-paginated-report-in-service.png)
 
-2. 如果報表含有參數 (就像這一個所做的)，您可能就不會第一次開啟此報表時看見它。 選取參數，然後選取 [檢視報表]。 
+2. 如果報表含有參數 (就像這一個所做的)，您可能就不會第一次開啟此報表時看見它。 選取參數，然後選取 [檢視報表]  。 
 
      ![選取要檢視報表的參數](media/paginated-reports-view-power-bi-service/power-bi-paginated-select-parameters.png)
 
@@ -47,7 +47,7 @@ ms.locfileid: "74834601"
     
    ![逐頁檢視報表](media/paginated-reports-view-power-bi-service/power-bi-paginated-page-thru-report.png)
 
-4. 選取 [匯出]，以尋找要用以匯出編頁報表的格式。
+4. 選取 [匯出]  ，以尋找要用以匯出編頁報表的格式。
 
     ![選取匯出格式](media/paginated-reports-view-power-bi-service/power-bi-paginated-export.png)
 

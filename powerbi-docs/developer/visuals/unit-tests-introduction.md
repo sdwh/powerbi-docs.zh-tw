@@ -23,7 +23,7 @@ ms.locfileid: "73879967"
 * 使用 powerbi-visuals-utils-testutils 套件。
 * 使用模擬和假功能集協助簡化 Power BI 視覺效果的單元測試。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 * 已安裝 Power BI 視覺效果專案
 * 已設定 Node.js 環境

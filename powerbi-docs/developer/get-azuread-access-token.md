@@ -172,7 +172,7 @@ protected void Page_Load(object sender, EventArgs e)
 
 ### <a name="access-token-with-service-principal"></a>搭配服務主體的存取權杖
 
-對於此方法，您可以使用[服務主體](embed-service-principal.md)，即「僅限應用程式」權杖。 應用程式會使用服務主體來對 Azure AD 進行驗證。 下列顯示的範例程式碼來自 [App owns data 範例](https://github.com/guyinacube/PowerBI-Developer-Samples)
+對於此方法，您可以使用[服務主體](embed-service-principal.md)，即「僅限應用程式」  權杖。 應用程式會使用服務主體來對 Azure AD 進行驗證。 下列顯示的範例程式碼來自 [App owns data 範例](https://github.com/guyinacube/PowerBI-Developer-Samples)
 
 #### <a name="embedservicecs"></a>EmbedService.cs
 

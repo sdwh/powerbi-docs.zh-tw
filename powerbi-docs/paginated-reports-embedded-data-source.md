@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 06/06/2019
-ms.openlocfilehash: 7cfc52557d9dcce03dd2e42818bb04f4754c190d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 03/02/2020
+ms.openlocfilehash: 1d7b355987163ede2c70a4052e98ec02522db751
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75304314"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237883"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料來源
 
@@ -53,9 +53,7 @@ ms.locfileid: "75304314"
   
     -   直接在 [連接字串]  文字方塊中輸入連接字串。 
   
-    -   選取運算式 (**fx)** 按鈕來建立能評估為連接字串的運算式。 在 [運算式]  對話方塊中，於 [運算式] 窗格中輸入運算式。 選取 [確定]  。 
-  
-    -   選取 [建置]  以開啟適用於您在步驟 2 中所選擇之資料來源的 [連接屬性]  對話方塊。  
+     -   選取 [建置]  以開啟適用於您在步驟 2 中所選擇之資料來源的 [連接屬性]  對話方塊。  
   
         在 [連接屬性]  對話方塊的欄位中，填入適用於該資料來源類型的內容。 連接屬性包括資料來源的類型、資料來源的名稱，以及要使用的認證。 在您於此對話方塊中指定值之後，請選取 [測試連接]  以確認資料來源可用，且您所指定的認證是正確的。  
   
@@ -75,7 +73,7 @@ ms.locfileid: "75304314"
 
 - 與資料集相同之工作區中的 .rdl (相同擁有者)：支援
 - 與資料集不同之工作區中的 .rdl (相同擁有者)：支援
-- 共用 .rdl：您需要指派讀取權限，每位使用者才能在資料集層級檢視報表
+- 共用 .rdl：您必須為在資料集層級檢視報表的每位使用者指派讀取權限
 - 共用應用程式：您必須為在資料集層級檢視報表的每位使用者指派讀取權限
 - 與資料集相同之工作區中的 .rdl (不同使用者)：支援
 - 與資料集不同工作區的 .rdl (不同使用者)：您必須為在資料集層級檢視報表的每位使用者指派讀取權限

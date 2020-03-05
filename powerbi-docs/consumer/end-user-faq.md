@@ -41,9 +41,9 @@ Power BI Desktop 是免費應用程式，您可直接在自己的電腦上安裝
 
 ## <a name="what-do-i-need-to-use-the-power-bi-service"></a>使用 Power BI 服務需要準備什麼？
 
-只要有網頁瀏覽器和工作電子郵件地址即可。 您也可以使用 *.gov* 和 *.mil* 電子郵件地址來註冊。 如需詳細資訊，請參閱[在 Power BI 服務中註冊美國政府組織](../service-govus-signup.md)。
+只要有網頁瀏覽器和工作電子郵件地址即可。 您也可以使用 *.gov* 和 *.mil* 電子郵件地址來註冊。 如需詳細資訊，請參閱[在 Power BI 服務中註冊 US Gov 組織](../service-govus-signup.md)。
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>為什麼必須使用我的公司電子郵件註冊？
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>為什麼必須註冊我的公司電子郵件？
 
 Power BI 不支援消費者電子郵件服務或電信提供者所提供的電子郵件地址。 深入了解 [Power BI 自助式註冊程序](../service-self-service-signup-for-power-bi.md)。
 

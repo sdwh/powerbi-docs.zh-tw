@@ -18,7 +18,7 @@ ms.locfileid: "74264976"
 # <a name="step-3-create-a-dataset-in-power-bi"></a>步驟 3：在 Power BI 中建立資料集
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
-在將資料推送至資料集的**步驟 2** [取得驗證存取權杖](walkthrough-push-data-get-token.md)中，您取得了向 **Azure AD** 驗證的權杖。 在此步驟中，您會使用權杖來呼叫 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 作業。
+在將資料推送至資料集的**步驟 2**[取得驗證存取權杖](walkthrough-push-data-get-token.md)中，您取得了向 **Azure AD** 驗證的權杖。 在此步驟中，您會使用權杖來呼叫 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 作業。
 
 若要呼叫 REST 資源，您可使用用以定位資源的 URL，以及將 JavaScript 物件標記法 (JSON) 字串 (其中描述資料集) 傳送到 Power BI 服務資源。 REST 資源會識別您想要使用的 Power BI 服務之部分。 若要將資料推送至資料集，則目標資源是**資料集**。 識別資料集的 URL 是 https://api.PowerBI.com/v1.0/myorg/datasets 。 如果您要在群組中推送資料，則 URL 會是 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets 。
 
