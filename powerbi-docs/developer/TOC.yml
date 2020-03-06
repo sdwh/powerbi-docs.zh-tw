@@ -140,6 +140,8 @@
           items:
             - name: Power BI embedded 分析中的容量和 SKU
               href: embedded-capacity.md
+            - name: 容量規劃
+              href: embedded-capacity-planning.md
             - name: 效能最佳做法
               href: embedded-performance-best-practices.md
             - name: 服務主體
