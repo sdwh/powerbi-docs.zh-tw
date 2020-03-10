@@ -93,12 +93,18 @@
               href: visuals/localization.md
             - name: Power BI 視覺效果公用程式
               items:
+                - name: 新增外部程式庫
+                  href: visuals/adding-external-libraries.md
                 - name: 互動功能公用程式
                   href: visuals/utils-interactivity-selections.md
                 - name: 格式化公用程式
                   href: visuals/utils-formatting.md
+                - name: 資料檢視公用程式
+                  href: visuals/utils-dataview.md
                 - name: 圖表公用程式
                   href: visuals/utils-chart.md
+                - name: 色彩公用程式
+                  href: visuals/utils-color.md
                 - name: SVG 公用程式
                   href: visuals/utils-svg.md
                 - name: 類型公用程式

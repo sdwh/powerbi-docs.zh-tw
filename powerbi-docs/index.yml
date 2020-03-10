@@ -1,0 +1,243 @@
+### YamlMime:Hub
+title: Power BI 文件
+summary: Power BI 會放大您的深入剖析資訊和資料的價值。 不論您是如何使用 Power BI，都可透過 Power BI 文件來獲得專業資訊與解答以解決需求。
+brand: power-bi
+metadata:
+  title: Power BI 文件
+  description: Power BI 會放大您的深入剖析資訊和資料的價值。 不論您是如何使用 Power BI，都可在這裡獲得專業資訊與解答。
+  services: service
+  ms.service: powerbi
+  ms.subservice: subservice
+  ms.topic: hub-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: ad1e273947744f2d7611f6a4a03940e52f2a64fa
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924291"
+highlightedContent:
+  items:
+  - title: 開始使用 Power BI Desktop
+    itemType: get-started
+    url: desktop-getting-started.md
+  - title: 註冊 Power BI 服務
+    itemType: how-to-guide
+    url: service-self-service-signup-for-power-bi.md
+  - title: 共同作業和共用方式
+    itemType: concept
+    url: service-how-to-collaborate-distribute-dashboards-reports.md
+conceptualContent:
+  items:
+  - title: Power BI：開始使用
+    links:
+    - url: power-bi-overview.md
+      itemType: overview
+      text: Power BI 是什麼？
+    - url: desktop-what-is-desktop.md
+      itemType: overview
+      text: Power BI Desktop 是什麼？
+    - url: power-bi-service-overview.md
+      itemType: overview
+      text: 什麼是 Power BI 服務？
+    footerLink:
+      url: fundamentals/index.yml
+      text: 查看更多
+  - title: 適用於取用者的 Power BI
+    links:
+    - url: consumer/end-user-consumer.md
+      itemType: get-started
+      text: 我是 Power BI 取用者嗎？
+    - url: consumer/end-user-experience.md
+      itemType: get-started
+      text: 瀏覽 Power BI 服務
+    - url: consumer/end-user-dashboards.md
+      itemType: concept
+      text: 什麼是儀表板？
+    footerLink:
+      url: consumer/index.yml
+      text: 查看更多
+  - title: 管理 Power BI
+    links:
+    - url: service-admin-administering-power-bi-in-your-organization.md
+      itemType: overview
+      text: 什麼是 Power BI 管理？
+    - url: service-admin-licensing-organization.md
+      itemType: concept
+      text: 組織中的授權
+    - url: service-admin-portal.md
+      itemType: concept
+      text: 管理入口網站
+    footerLink:
+      url: admin/index.yml
+      text: 查看更多
+  - title: 在 Power BI 中進行開發
+    links:
+    - url: developer/what-can-you-do.md
+      itemType: overview
+      text: 開發人員可以執行的工作
+    - url: power-bi-custom-visuals.md
+      itemType: overview
+      text: 開發人員與視覺效果​​
+    - url: developer/embedding.md
+      itemType: overview
+      text: 內嵌式分析
+    footerLink:
+      url: developer/index.yml
+      text: 查看更多
+  - title: 連線至資料
+    links:
+    - url: desktop-quickstart-connect-to-data.md
+      itemType: tutorial
+      text: 連線至資料
+    - url: service-gateway-onprem.md
+      itemType: concept
+      text: 內部部署資料閘道
+    - url: refresh-data.md
+      itemType: concept
+      text: 資料重新整理
+    footerLink:
+      url: connect-data/index.yml
+      text: 查看更多
+  - title: 轉換與塑造資料
+    links:
+    - url: desktop-analytics-pane.md
+      itemType: how-to-guide
+      text: 使用 [分析] 窗格
+    - url: desktop-common-query-tasks.md
+      itemType: concept
+      text: 一般查詢工作
+    - url: desktop-shape-and-combine-data.md
+      itemType: tutorial
+      text: 資料成形及合併
+    footerLink:
+      url: transform-model/index.yml
+      text: 查看更多
+  - title: 模型資料
+    links:
+    - url: desktop-add-custom-column.md
+      itemType: how-to-guide
+      text: 新增自訂資料行
+    - url: desktop-tutorial-create-calculated-columns.md
+      itemType: tutorial
+      text: 建立計算結果欄
+    - url: desktop-create-and-manage-relationships.md
+      itemType: how-to-guide
+      text: 建立與管理關聯性
+    footerLink:
+      url: transform-model/index.yml
+      text: 查看更多
+  - title: 建立報表和儀表板
+    links:
+    - url: desktop-report-themes.md
+      itemType: concept
+      text: 報表主題
+    - url: desktop-conditional-table-formatting.md
+      itemType: concept
+      text: 什麼是編頁報表？
+    - url: paginated-reports/paginated-reports-report-builder-power-bi.md
+      itemType: how-to-guide
+      text: 建立儀表板
+    footerLink:
+      url: create-reports/index.yml
+      text: 查看更多
+  - title: 共同作業和共用
+    links:
+    - url: service-share-dashboards.md
+      itemType: concept
+      text: 共用儀表板和報表
+    - url: service-create-the-new-workspaces.md
+      itemType: how-to-guide
+      text: 建立新的工作區
+    - url: service-datasets-across-workspaces.md
+      itemType: concept
+      text: 共用資料集簡介
+    footerLink:
+      url: collaborate-share/index.yml
+      text: 查看更多
+  - title: 跨產品整合
+    links:
+    - url: service-azure-and-power-bi.md
+      itemType: concept
+      text: Azure 和 Power BI
+    - url: service-analyze-in-excel.md
+      itemType: concept
+      text: 在 Excel 中進行分析
+    - url: service-embed-report-spo.md
+      itemType: concept
+      text: 內嵌於 SharePoint Online 中
+    footerLink:
+      url: collaborate-share/index.yml
+      text: 查看更多
+  - title: 行動裝置應用程式中的 Power BI
+    links:
+    - url: consumer/mobile/mobile-apps-for-mobile-devices.md
+      itemType: get-started
+      text: 什麼是行動裝置應用程式？
+    - url: consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md
+      itemType: quickstart
+      text: 探索儀表板和報表
+    - url: consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      itemType: how-to-guide
+      text: 檢視內部部署報表
+    footerLink:
+      url: consumer/mobile/index.yml
+      text: 查看更多
+  - title: 企業
+    links:
+    - url: service-premium-what-is.md
+      itemType: overview
+      text: 什麼是 Power BI Premium？
+    - url: service-admin-power-bi-security.md
+      itemType: concept
+      text: 安全性
+    - url: admin/service-security-data-protection-overview.md
+      itemType: concept
+      text: 資料保護
+    footerLink:
+      url: admin/index.yml
+      text: 查看更多
+  - title: 最佳做法指導方針
+    links:
+    - url: guidance/overview.md
+      itemType: overview
+      text: 指引概觀
+    - url: guidance/star-schema.md
+      itemType: concept
+      text: 星狀結構描述
+    - url: guidance/import-modeling-data-reduction.md
+      itemType: concept
+      text: 縮小資料模型大小
+    footerLink:
+      url: guidance/index.yml
+      text: 查看更多
+  - title: 學習
+    links:
+    - url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/
+      itemType: learn
+      text: 探索 Power BI 的功能
+    - url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/
+      itemType: learn
+      text: 分析資料
+    - url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/
+      itemType: learn
+      text: 開始建置
+    footerLink:
+      url: guided-learning/index.yml
+      text: 查看更多
+additionalContent:
+  sections:
+  - title: 相關工具
+  - items:
+    - title: Power BI 報表伺服器
+      summary: 探索 Power BI 報表伺服器，這是具有入口網站的內部部署報表伺服器，您可在該入口網站中顯示和管理 Power BI 報表、編頁報表以及 KPI。
+      url: report-server/index.yml
+    - title: Power BI REST API
+      summary: Power BI REST API 可為內嵌、管理和使用者資源提供服務端點。
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - title: Power Platform 文件
+      summary: 了解 Power BI、Power Apps、Power Automate 以及 Power Virtual Agents 如何搭配運作。
+      url: https://docs.microsoft.com/power-platform/

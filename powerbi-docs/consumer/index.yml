@@ -1,5 +1,5 @@
 ### YamlMime:Landing
-title: Power BI 取用者文件
+title: 適用於取用者的 Power BI 文件
 summary: 身為取用者，您會收到來自同事的儀表板和報表。 您可以使用 Power BI 來檢閱並與此內容互動，以制定商務決策。
 metadata:
   title: 適用於取用者的 Power BI
@@ -9,13 +9,13 @@ metadata:
   ms.topic: landing-page
   author: mihart
   ms.author: mihart
-  ms.date: 01/10/2020
-  ms.openlocfilehash: d08520a7ee3526323111de91c4dfb67e139a8813
-  ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 3f6431f2011b4b6a75ea766d6051b02ce2abe947
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 02/20/2020
-  ms.locfileid: "77497785"
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78919321"
 landingContent:
 - title: 關於取用者適用的 Power BI
   linkLists:
@@ -85,8 +85,8 @@ landingContent:
       url: end-user-bookmarks.md
     - text: 檢視自動見解
       url: end-user-insights.md
-    - text: 檢視編頁報表
-      url: paginated-reports-view-power-bi-service.md
+    - text: 使用問與答的秘訣
+      url: end-user-q-and-a-tips.md
 - title: 資源
   linkLists:
   - linkListType: reference

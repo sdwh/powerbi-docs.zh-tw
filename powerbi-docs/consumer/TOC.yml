@@ -1,8 +1,9 @@
-- name: 適用於取用者的 Power BI
-  href: power-bi-consumer-landing.md
 - name: 適用於取用者的 Power BI 服務
+  href: index.yml
+  expanded: true
   items:
     - name: 概觀
+      expanded: true
       items:
         - name: 什麼是 Power BI 取用者？
           href: end-user-consumer.md
@@ -11,6 +12,7 @@
         - name: 導覽 Power BI 服務
           href: end-user-reading-view.md
     - name: 開始使用
+      expanded: true
       items:
         - name: 了解 Power BI
           href: end-user-experience.md
@@ -20,7 +22,7 @@
           href: end-user-q-and-a.md
         - name: 第一次登入
           href: end-user-sign-in.md
-        - name: 查閱您的授權類型
+        - name: 我有哪些 Power BI 授權？
           href: end-user-license.md
         - name: 瀏覽「新外觀」
           href: ../service-new-look.md
@@ -138,109 +140,3 @@
           href: end-user-browsers.md
         - name: 快速見解的類型
           href: end-user-insight-types.md
-- name: Power BI 行動應用程式
-  items:
-    - name: 概觀
-      items:
-        - name: 什麼是行動裝置應用程式？
-          href: mobile/mobile-apps-for-mobile-devices.md
-        - name: 認識首頁
-          href: mobile/mobile-apps-home-page.md
-    - name: 快速入門
-      items:
-        - name: 探索儀表板和報表
-          href: mobile/mobile-apps-quickstart-view-dashboard-report.md
-    - name: 教學課程
-      items:
-        - name: 在 iOS 行動裝置應用程式中詢問問題
-          href: mobile/tutorial-mobile-apps-ios-qna.md
-    - name: 概念
-      items:
-        - name: 行動應用程式的新功能
-          href: mobile/mobile-whats-new-in-the-mobile-apps.md
-        - name: 使用行動裝置應用程式取得實際的資料
-          href: mobile/mobile-apps-data-in-real-world-context.md
-        - name: 在行動應用程式中離線檢視您的資料
-          href: mobile/mobile-apps-offline-data.md
-        - name: Power BI for Mixed Reality 應用程式 (預覽)
-          href: mobile/mobile-mixed-reality-app.md
-    - name: 如何
-      items:
-        - name: 所有行動裝置應用程式
-          items:
-            - name: 行動 Power BI 的儀表板
-              href: mobile/mobile-apps-view-dashboard.md
-            - name: 行動應用程式中的報表
-              href: mobile/mobile-reports-in-the-mobile-apps.md
-            - name: 與行動裝置應用程式中的磚互動
-              href: mobile/mobile-tiles-in-the-mobile-apps.md
-            - name: 從 Power BI mobile apps 共用儀表板
-              href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
-            - name: 行動應用程式中的我的最愛
-              href: mobile/mobile-apps-favorites.md
-            - name: 進行互動設定 (僅限電話)
-              href: mobile/mobile-app-interaction-settings.md
-            - name: 在 Power BI 行動裝置應用程式中設定資料警示
-              href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
-            - name: 取得 Power BI 行動裝置應用程式中的通知
-              href: mobile/mobile-apps-notification-center.md
-            - name: 建立前往特定位置的深層連結
-              href: mobile/mobile-apps-deep-link-specific-location.md
-            - name: 在 Power BI 行動裝置應用程式依位置篩選報表
-              href: mobile/mobile-apps-geographic-filtering.md
-            - name: 使用 OAuth 連接至 Reporting Services
-              href: mobile/mobile-oauth-ssrs.md
-        - name: iOS 與 Android
-          items:
-            - name: 檢視為手機最佳化的報表
-              href: mobile/mobile-apps-view-phone-report.md
-            - name: 在行動應用程式中檢視內部部署報表
-              href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-            - name: 存取來自外部組織的內容 (B2B)
-              href: mobile/mobile-apps-b2b.md
-            - name: 從手機掃描 Power BI QR 代碼
-              href: mobile/mobile-apps-qr-code.md
-            - name: 在行動裝置應用程式中標註及共用
-              href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: 從 Power BI 行動裝置應用程式掃描條碼
-              href: mobile/mobile-apps-scan-barcode-iphone.md
-            - name: 使用行動裝置管理的設定
-              href: mobile/mobile-app-configuration.md
-        - name: iOS
-          items:
-            - name: 開始使用 iOS 應用程式
-              href: mobile/mobile-iphone-app-get-started.md
-            - name: 使用 Face ID、Touch ID 或密碼保護
-              href: mobile/mobile-ios-native-secure-access.md
-            - name: iOS 行動裝置應用程式的問與答虛擬分析師
-              href: mobile/mobile-apps-ios-qna.md
-            - name: 使用 Siri 捷徑的 Power BI 行動應用程式整合
-              href: mobile/mobile-apps-iOS-siri-Shortcuts.md
-            - name: iOS 裝置搜尋整合
-              href: mobile/mobile-apps-iOS-search-integration.md
-            - name: Power BI Apple Watch 應用程式
-              href: mobile/mobile-apple-watch.md
-        - name: Android 裝置
-          items:
-            - name: 開始使用 Android 應用程式
-              href: mobile/mobile-android-app-get-started.md
-            - name: 修正「您的公司 SSL 憑證不受信任」
-              href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
-            - name: 修正「需要更新 Android System Webview」
-              href: mobile/mobile-android-error-update-android-system-webview.md
-        - name: 適用於 Windows 10 裝置的 Power BI 應用程式
-          items:
-            - name: 開始使用 Windows 10 應用程式
-              href: mobile/mobile-windows-10-phone-app-get-started.md
-            - name: 將儀表板釘選到開始畫面
-              href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: 檢視 Reporting Services 行動報表和 KPI
-              href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: 在 Surface Hub 上檢視 Power BI
-              href: mobile/mobile-windows-10-app-presentation-mode.md
-            - name: 在 Windows 應用程式中進行單一登入
-              href: mobile/mobile-windows-10-app-single-sign-on-sso.md
-    - name: 資源
-      items:
-        - name: 行動應用程式支援的語言
-          href: mobile/mobile-apps-supported-languages.md

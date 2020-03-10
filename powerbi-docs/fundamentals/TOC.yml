@@ -1,0 +1,55 @@
+- name: 開始使用 Power BI - 文件
+  href: index.yml
+  expanded: true
+  items:
+    - name: 概觀
+      expanded: true
+      items:
+        - name: Power BI 是什麼？
+          href: ../power-bi-overview.md
+        - name: Power BI Desktop 是什麼？
+          href: ../desktop-what-is-desktop.md
+        - name: 什麼是 Power BI 服務？
+          href: ../power-bi-service-overview.md
+        - name: Power BI Desktop 與服務的比較
+          href: ../service-service-vs-desktop.md
+    - name: 概念
+      items:
+        - name: 最新的 Power BI Desktop 中有什麼新功能？
+          href: ../desktop-latest-update.md
+        - name: Power BI 服務的新功能
+          href: ../service-whats-new.md
+        - name: 了解 Power BI 服務
+          href: ../service-basic-concepts.md
+        - name: 協助您取得協助的十個祕訣
+          href: ../service-tips-for-finding-help.md
+        - name: 授權
+          items:
+            - name: 註冊 Power BI
+              href: ../service-self-service-signup-for-power-bi.md
+            - name: 依授權類型排列的功能
+              href: ../service-features-license-type.md
+    - name: 操作指南
+      items:
+        - name: 取得 Power BI Desktop
+          href: ../desktop-get-the-desktop.md
+        - name: 開始使用 Power BI Desktop
+          href: ../desktop-getting-started.md
+    - name: 參考
+      items:
+        - name: 支援的語言和國家 (地區)
+          href: ../supported-languages-countries-regions.md
+        - name: 支援的瀏覽器
+          href: ../power-bi-browsers.md
+    - name: 資源
+      items:
+        - name: 影片
+          href: ../videos.md
+        - name: 研討會
+          href: ../webinars.md
+        - name: Power BI Desktop 影片
+          href: ../desktop-videos.md
+        - name: Power BI Desktop 更新封存
+          href: ../desktop-latest-update-archive.md
+        - name: Power BI Desktop 傳送笑臉隱私權聲明
+          href: ../desktop-send-smile-privacy-statement.md

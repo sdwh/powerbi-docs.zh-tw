@@ -1,0 +1,87 @@
+### YamlMime:Landing
+title: Power BI 報表伺服器文件
+summary: 不論您是如何使用 Power BI，都可透過 Power BI 報表伺服器文件來獲得專業資訊與解答以解決需求。
+metadata:
+  title: Power BI 報表伺服器文件
+  description: 不論您是如何使用 Power BI，都可透過 Power BI 報表伺服器文件來獲得專業資訊與解答以解決需求。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: f727b8832c29c4bfca448a03898620c183eb13a2
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924613"
+landingContent:
+- title: 關於 Power BI 報表伺服器
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 什麼是 Power BI 報表伺服器？
+      url: get-started.md
+  - linkListType: concept
+    links:
+    - text: 比較報表伺服器與服務
+      url: compare-report-server-service.md
+    - text: Power BI 報表伺服器的新功能
+      url: whats-new.md
+- title: 開始使用
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 探索 VM 中的 Power BI 報表伺服器
+      url: tutorial-explore-report-server-web-portal.md
+  - linkListType: concept
+    links:
+    - text: 系統管理員概觀
+      url: admin-handbook-overview.md
+    - text: 開發人員概觀
+      url: developer-handbook-overview.md
+  - linkListType: how-to-guide
+    links:
+    - text: 安裝 Power BI Desktop
+      url: install-powerbi-desktop.md
+    - text: 安裝報表產生器
+      url: install-report-builder.md
+- title: 系統管理員的報表伺服器
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 硬體和軟體需求
+      url: system-requirements.md
+  - linkListType: how-to-guide
+    links:
+    - text: 安裝報表伺服器
+      url: install-report-server.md
+    - text: 尋找報表伺服器產品金鑰
+      url: find-product-key.md
+    - text: 移轉報表伺服器安裝
+      url: migrate-report-server.md
+    - text: 設定 Kerberos
+      url: configure-kerberos-powerbi-reports.md
+- title: 報表建立者的報表伺服器
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI 報表的重新整理排程
+      url: scheduled-refresh.md
+    - text: Power BI 報表資料來源
+      url: data-sources.md
+    - text: 分頁報表資料來源
+      url: connect-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: 建立 Power BI 報表
+      url: quickstart-create-powerbi-report.md
+    - text: 管理入口網站中的內容
+      url: getting-around.md
+    - text: 存取共用資料集作為 OData 摘要
+      url: access-dataset-odata.md
+    - text: 資料列層級安全性
+      url: row-level-security-report-server.md

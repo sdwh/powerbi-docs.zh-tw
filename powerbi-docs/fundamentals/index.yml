@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Power BI 開始使用文件
+summary: 不論您是如何使用 Power BI，都可透過 Power BI 文件來獲得專業資訊與解答以解決需求。
+metadata:
+  title: Power BI 開始使用文件
+  description: 不論您是如何使用 Power BI，都可透過 Power BI 文件來獲得專業資訊與解答以解決需求。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/05/2020
+  ms.openlocfilehash: ec79ce7ca7d7e50f5a3a806ad14de50b786483f5
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924360"
+landingContent:
+- title: Power BI 是什麼？
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI 是什麼？
+      url: ../power-bi-overview.md
+    - text: Power BI Desktop 是什麼？
+      url: ../desktop-what-is-desktop.md
+    - text: 什麼是 Power BI 服務？
+      url: ../power-bi-service-overview.md
+    - text: Power BI Desktop 與服務的比較
+      url: ../service-service-vs-desktop.md
+- title: 新增功能？
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI Desktop 的新功能
+      url: ../desktop-latest-update.md
+    - text: 此服務有哪些新功能？
+      url: ../service-whats-new.md
+- title: 開始學習
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 建立和使用分析報告
+      url: https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/
+    - text: 在 Power BI Desktop 中取得資料
+      url: https://docs.microsoft.com/power-bi/guided-learning/gettingdata?tutorial-step=1
+- title: 授權
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 註冊 Power BI
+      url: ../service-self-service-signup-for-power-bi.md
+    - text: 依授權類型排列的功能
+      url: ../service-features-license-type.md
+- title: 資源
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI 影片
+      url: ../videos.md
+    - text: Power BI Desktop 影片
+      url: ../desktop-videos.md
+    - text: 研討會
+      url: ../webinars.md

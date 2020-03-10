@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: 在 Power BI 中連線至資料 - 文件
+summary: 不論您是如何使用 Power BI，都可透過 Power BI 文件來獲得專業資訊與解答以解決需求。
+metadata:
+  title: 在 Power BI 中連線至資料 - 文件
+  description: 不論您是如何使用 Power BI，都可透過 Power BI 文件來獲得專業資訊與解答以解決需求。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924130"
+landingContent:
+- title: 連線至 Power BI 中的資料
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 資料來源
+      url: ../desktop-data-sources.md
+    - text: Power BI Desktop 中的資料檢視
+      url: ../desktop-data-view.md
+  - linkListType: tutorial
+    links:
+    - text: 從網頁匯入資料
+      url: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+- title: 閘道
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 內部部署資料閘道
+      url: ../service-gateway-onprem.md
+  - linkListType: tutorial
+    links:
+    - text: 連線至內部部署 SQL Server 資料
+      url: ../service-gateway-sql-tutorial.md
+  - linkListType: how-to-guide
+    links:
+    - text: 使用個人閘道
+      url: ../service-gateway-personal-mode.md
+- title: 範本應用程式
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 什麼是範本應用程式？
+      url: ../service-template-apps-overview.md
+  - linkListType: concept
+    links:
+    - text: 建立範本應用程式
+      url: ../service-template-apps-create.md
+    - text: 在組織中散發範本應用程式
+      url: ../service-template-apps-install-distribute.md
+- title: 重新整理資料
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 資料重新整理
+      url: ../refresh-data.md
+    - text: Power BI Premium 中的累加式重新整理
+      url: ../service-premium-incremental-refresh.md
+  - linkListType: how-to-guide
+    links:
+    - text: 設定排程的重新整理
+      url: ../refresh-scheduled-refresh.md

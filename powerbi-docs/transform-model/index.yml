@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: 在 Power BI 中轉換、塑造以及模型化資料 - 文件
+summary: 不論您是如何使用 Power BI，都可透過 Power BI 文件來獲得專業資訊與解答以解決需求。
+metadata:
+  title: 在 Power BI 中轉換、塑造以及模型化資料 - 文件
+  description: 不論您是如何使用 Power BI，都可透過 Power BI 文件來獲得專業資訊與解答以解決需求。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: 738bc26097120b0075f3ca1ffb0787f241aec982
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924521"
+landingContent:
+- title: 轉換與塑造資料
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 查詢編輯器概觀
+      url: ../desktop-query-overview.md
+  - linkListType: tutorial
+    links:
+    - text: 資料成形及合併
+      url: ../desktop-shape-and-combine-data.md
+  - linkListType: concept
+    links:
+    - text: 一般查詢工作
+      url: ../desktop-common-query-tasks.md
+  - linkListType: how-to-guide
+    links:
+    - text: 合併檔案 (二進位檔)
+      url: ../desktop-combine-binaries.md
+- title: 模型資料
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 模型檢視
+      url: ../desktop-modeling-view.md
+    - text: 多對多關聯性
+      url: ../desktop-many-to-many-relationships.md
+  - linkListType: how-to-guide
+    links:
+    - text: 建立與管理關聯性
+      url: ../desktop-create-and-manage-relationships.md
+    - text: 套用資料分類
+      url: ../desktop-data-categorization.md
+- title: 計算
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 了解 DAX 基本概念
+      url: ../desktop-quickstart-learn-dax-basics.md
+    - text: 建立計算結果欄
+      url: ../desktop-tutorial-create-calculated-columns.md
+  - linkListType: concept
+    links:
+    - text: 計算資料表
+      url: ../desktop-calculated-tables.md
+  - linkListType: how-to-guide
+    links:
+    - text: 使用快速量值
+      url: ../desktop-quick-measures.md
+- title: 自助資料準備
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI 中的自助資料準備
+      url: ../desktop-quickstart-connect-to-data.md
+  - linkListType: concept
+    links:
+    - text: 資料流程：自助資料準備
+      url: ../service-dataflows-overview.md
+    - text: 建立及使用資料流程
+      url: ../service-dataflows-create-use.md

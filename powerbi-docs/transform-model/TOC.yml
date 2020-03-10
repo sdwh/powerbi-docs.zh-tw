@@ -1,0 +1,115 @@
+- name: 在 Power BI 中轉換、塑造以及模型化資料
+  href: index.yml
+  expanded: true
+  items:
+    - name: 概觀
+      expanded: true
+      items:
+        - name: 查詢編輯器概觀
+          href: ../desktop-query-overview.md
+        - name: 使用資料流程的自助資料準備
+          href: ../service-dataflows-overview.md
+    - name: 教學課程
+      expanded: true
+      items:
+        - name: 建立自己的量值
+          href: ../desktop-tutorial-create-measures.md
+        - name: 建立計算結果欄
+          href: ../desktop-tutorial-create-calculated-columns.md
+    - name: 概念
+      expanded: true
+      items:
+        - name: 建立模型關聯性
+          href: ../desktop-relationships-understand.md
+        - name: 使用模型檢視
+          href: ../desktop-modeling-view.md
+        - name: 管理彙總
+          href: ../desktop-aggregations.md
+        - name: 使用複合模型
+          href: ../desktop-composite-models.md
+        - name: 套用多對多關聯性
+          href: ../desktop-many-to-many-relationships.md
+        - name: 管理儲存模式
+          href: ../desktop-storage-mode.md
+        - name: 啟用雙向交叉篩選
+          href: ../desktop-bidirectional-filtering.md
+        - name: 使用 Power BI 中的多維度模型
+          href: ../desktop-default-member-multidimensional-models.md
+    - name: 操作指南
+      items:
+        - name: 執行一般查詢工作
+          href: ../desktop-common-query-tasks.md
+        - name: 建立與管理關聯性
+          href: ../desktop-create-and-manage-relationships.md
+        - name: '使用 [分析] 窗格'
+          href: ../desktop-analytics-pane.md
+        - name: 使用資料檢視
+          href: ../desktop-data-view.md
+        - name: 套用 DAX 基本概念
+          href: ../desktop-quickstart-learn-dax-basics.md
+        - name: 使用關聯性檢視
+          href: ../desktop-relationship-view.md
+        - name: 轉換與塑造資料
+          items:
+            - name: 合併檔案 (二進位檔)
+              href: ../desktop-combine-binaries.md
+            - name: 使用 AI 見解 (預覽)
+              href: ../desktop-ai-insights.md
+        - name: 製作資料模型
+          items:
+            - name: 建立快速量值以執行常用的計算
+              href: ../desktop-quick-measures.md
+            - name: 建立並使用假設參數來視覺化變數
+              href: ../desktop-what-if.md
+            - name: 在 Power BI Desktop 中指定資料類別
+              href: ../desktop-data-categorization.md
+            - name: 在 Power BI 中為行動裝置應用程式標記條碼欄位
+              href: ../desktop-mobile-barcodes.md
+            - name: 在 Power BI 中為行動裝置應用程式設定地理篩選
+              href: ../desktop-mobile-geofiltering.md
+            - name: 建立計算結果欄
+              href: ../desktop-calculated-columns.md
+            - name: 建立導出的資料表
+              href: ../desktop-calculated-tables.md
+            - name: 建立資料分析的量值
+              href: ../desktop-measures.md
+            - name: 匯入和顯示 KPI
+              href: ../desktop-import-and-display-kpis.md
+        - name: 自助資料準備
+          items:
+            - name: 建立及使用資料流程
+              href: ../service-dataflows-create-use.md
+            - name: 使用具有資料流程的強化計算引擎
+              href: ../service-dataflows-enhanced-compute-engine.md
+            - name: 使用 Power BI Premium 的計算實體
+              href: ../service-dataflows-computed-entities-premium.md
+            - name: 透過資料流程連線到資料來源
+              href: ../service-dataflows-data-sources.md
+            - name: 搭配內部部署資料來源使用資料流程
+              href: ../service-dataflows-on-premises-gateways.md
+            - name: 在資料流程之間連結實體
+              href: ../service-dataflows-linked-entities.md
+            - name: 搭配資料流程使用累加式重新整理
+              href: ../service-dataflows-incremental-refresh.md
+            - name: 資料流程的開發人員資源
+              href: ../service-dataflows-developer-resources.md
+            - name: 在 Power BI Desktop 中連線到資料流程
+              href: ../desktop-connect-dataflows.md
+            - name: 資料流程與 Azure Data Lake 整合 (預覽)
+              href: ../service-dataflows-azure-data-lake-integration.md
+            - name: 連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體
+              href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
+            - name: 設定工作區資料流程設定 (預覽)
+              href: ../service-dataflows-configure-workspace-storage-settings.md
+            - name: 將 CDM 資料夾作為資料流程新增到 Power BI (預覽)
+              href: ../service-dataflows-add-cdm-folder.md
+            - name: 在 Power BI 中整合機器學習服務
+              href: ../service-machine-learning-integration.md
+            - name: 在 Power BI 中使用認知服務
+              href: ../service-cognitive-services.md
+            - name: Power BI 中的自動化機器學習
+              href: ../service-machine-learning-automated.md
+    - name: 參考
+      items:
+        - name: 公式編輯器快速鍵
+          href: ../desktop-formula-editor.md

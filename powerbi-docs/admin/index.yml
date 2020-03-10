@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Power BI 系統管理文件
-summary: 無論您如何使用 Power BI，Power BI 文件都能提供專業資訊與解答來滿足您的需求。
+title: Power BI 系統管理員與企業文件
+summary: 不論您是如何使用 Power BI，都可透過 Power BI 系統管理員與企業文件來獲得專業資訊與解答以解決需求。
 metadata:
-  title: Power BI 系統管理文件
-  description: 無論您如何使用 Power BI，Power BI 文件都能提供專業資訊與解答來滿足您的需求。
+  title: Power BI 系統管理員與企業文件
+  description: 不論您是如何使用 Power BI，都可透過 Power BI 系統管理員與企業文件來獲得專業資訊與解答以解決需求。
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -11,15 +11,15 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/25/2019
-  ms.openlocfilehash: 533b8dc4ccc800e3120f3a01c6069e224c2df27e
-  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
+  ms.date: 03/03/2020
+  ms.openlocfilehash: b419ba38a28d3f4a05ea7c6db2b595af86df288d
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 10/26/2019
-  ms.locfileid: "72959511"
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78919439"
 landingContent:
-- title: 關於適用於系統管理員的 Power BI
+- title: 適用於系統管理員與企業的 Power BI
   linkLists:
   - linkListType: overview
     links:
@@ -46,6 +46,20 @@ landingContent:
     - text: 使用 Office 365 合作夥伴新增 Power BI
       url: ../service-admin-syndication-partner.md
 - title: 租用戶
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 我的租用戶位在何處？
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: 尋找已登入的使用者
+      url: ../service-admin-access-usage.md
+    - text: 稽核 Power BI
+      url: ../service-admin-auditing.md
+    - text: 追蹤服務健康情況
+      url: ../service-admin-health.md
+    - text: 關閉 Power BI 帳戶
+      url: ../service-admin-closing-your-account.md
+- title: Power BI Premium
   linkLists:
   - linkListType: how-to-guide
     links:
