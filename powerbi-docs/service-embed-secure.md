@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913598"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78919800"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全入口網站或網站中內嵌報告
 
@@ -119,7 +119,7 @@ report.src = newUrl;
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-* 安全內嵌案例支援編頁報表，也支援具有 URL 參數的編頁報表。 深入了解[在編頁報表的 URL 中傳遞報表參數](report-builder-url-pass-parameters.md)。
+* 安全內嵌案例支援編頁報表，也支援具有 URL 參數的編頁報表。 深入了解[在編頁報表的 URL 中傳遞報表參數](paginated-reports/report-builder-url-pass-parameters.md)。
 
 * Azure 企業對企業 (B2B) 不支援外部使用者。
 

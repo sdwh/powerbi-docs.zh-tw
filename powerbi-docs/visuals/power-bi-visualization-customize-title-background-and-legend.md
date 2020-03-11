@@ -7,15 +7,15 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1e2465273368c6b76e602e5ffbdf4ec3a1d121a3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75757822"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78893435"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>自訂視覺效果標題、背景和圖例
 
@@ -56,8 +56,8 @@ ms.locfileid: "75757822"
 1. 將 [字型色彩]  變更為白色，並將 [背景色彩]  變更為藍色。    
 
     a. 選取下拉式清單，並從 [佈景主題色彩]  、[最近使用的色彩]  ，或 [自訂色彩]  選擇色彩。
-
-        ![Screenshot of the Font color and Background color options.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
+    
+    ![字型色彩和背景色彩選項的螢幕擷取畫面。](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
     b. 選取下拉式清單來關閉色彩視窗。
 

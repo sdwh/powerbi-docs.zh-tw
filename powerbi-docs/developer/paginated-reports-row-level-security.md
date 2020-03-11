@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: 09471cdacacc8d0b1067598cefac41915b0ef0d7
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953778"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920918"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>在內嵌的編頁報表中實作資料列層級安全性 (預覽)
 
@@ -26,13 +26,13 @@ ms.locfileid: "75953778"
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>設定參數以篩選資料集
 
-將資料列層級安全性套用至 Power BI 分頁報表時，您需要指派[參數](../report-builder-parameters.md)給 **UserID** 屬性。 在報表內嵌之前，這個參數將限制從資料集提取出來的資料。
+將資料列層級安全性套用至 Power BI 分頁報表時，您需要指派[參數](../paginated-reports/report-builder-parameters.md)給 **UserID** 屬性。 在報表內嵌之前，這個參數將限制從資料集提取出來的資料。
 
 將參數指派給 **UserID** 之後，請使用 [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API 來取得內嵌權杖。
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>在報表或查詢層級使用 UserID 作為篩選
 
-您可以使用 **UserId** 作為「篩選」  ，或是用在對 [Power BI Report Builder](../report-builder-power-bi.md) 中資料來源的「查詢」  中。
+您可以使用 **UserId** 作為「篩選」  ，或是用在對 [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md) 中資料來源的「查詢」  中。
 
 ### <a name="using-the-filter"></a>使用篩選條件
 

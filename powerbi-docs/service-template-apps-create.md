@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871479"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041715"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>在 Power BI 中建立範本應用程式
 
@@ -23,7 +23,7 @@ ms.locfileid: "73871479"
 
 Power BI 租用戶系統管理員可管理並控制其組織中可以建立及安裝範本應用程式的人員。 獲授權使用者可以安裝您的範本應用程式，加以修改並散發給其組織中的 Power BI 使用者。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 以下為建立範本應用程式的需求：  
 
@@ -58,7 +58,7 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
 
 如同使用一般的 Power BI 工作區，下一步是要在工作區中建立內容。  
 
-- 在工作區中[建立您的 Power BI 內容](power-bi-creator-landing.md)。
+- 在工作區中[建立您的 Power BI 內容](index.yml)。
 
 如果您使用 Power Query 中的參數，請確認它們具有正確定義的類型 (例如 Text)。 不支援 Any 及 Binary 類型。
 

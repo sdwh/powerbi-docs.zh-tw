@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74265346"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920973"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
@@ -41,11 +41,11 @@ ms.locfileid: "74265346"
 * Power BI Premium 的新容量設定。
 * 組織的[自訂商標](https://powerbi.microsoft.com/blog/announcing-custom-branding-for-your-organization/)。
 * 具有建置權限的摘要資料匯出。
-* 支援[編頁報表](paginated-reports-report-builder-power-bi.md)的 URL 參數。
+* 支援[編頁報表](paginated-reports/paginated-reports-report-builder-power-bi.md)的 URL 參數。
 * 支援每月電子郵件訂閱。 
 
 ### <a name="july-2019"></a>2019 年 7 月
-* 支援[編頁報表](paginated-reports-report-builder-power-bi.md)的非 Premium 資料集。
+* 支援[編頁報表](paginated-reports/paginated-reports-report-builder-power-bi.md)的非 Premium 資料集。
 * 正式推出 Power BI [彙總](desktop-aggregations.md)。
 * 將重新整理通知傳送給其他人。
 * Power BI Premium 容量的[測試工具](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/)。
@@ -57,7 +57,7 @@ ms.locfileid: "74265346"
 * [共用和認證資料集](service-datasets-across-workspaces.md)的公開預覽。
 * [Premium 容量計量應用程式](service-admin-premium-monitor-capacity.md)中提供的 AI 計量。
 * 正式推出 Power BI [範本應用程式](service-template-apps-overview.md)。
-* 正式推出 Power BI 中的[編頁報表](paginated-reports-report-builder-power-bi.md)。
+* 正式推出 Power BI 中的[編頁報表](paginated-reports/paginated-reports-report-builder-power-bi.md)。
 * Power BI Premium 自備金鑰 ([BYOK](service-encryption-byok.md)) 的公開預覽。
 * [新工作區體驗](service-new-workspaces.md)的檢視者角色。
 
@@ -71,7 +71,7 @@ ms.locfileid: "74265346"
 * 新工作區體驗的正式推出。
 * 法國和南韓的新 Power BI 區域。
 * 已更新儀表板的問與答體驗。
-* [編頁報表](paginated-reports-report-builder-power-bi.md)中 Azure Analysis Services 的支援。
+* [編頁報表](paginated-reports/paginated-reports-report-builder-power-bi.md)中 Azure Analysis Services 的支援。
 * Power BI 應用程式中的編頁報表支援。
 * 編頁報表 PDF 附件的[電子郵件訂閱](https://powerbi.microsoft.com/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)。
 * 管理入口網站中的 Power BI Premium 摘要和工作負載計量支援
@@ -108,7 +108,7 @@ ms.locfileid: "74265346"
 
 ### <a name="november-2018"></a>2018 年 11 月
 * [資料流程](service-dataflows-overview.md)公開預覽提供 Power BI 資料準備。
-* Power BI Premium 中的[編頁報表](paginated-reports-report-builder-power-bi.md)公開預覽。
+* Power BI Premium 中的[編頁報表](paginated-reports/paginated-reports-report-builder-power-bi.md)公開預覽。
 * [容量監視應用程式](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)記憶體中的資料大小和資料集計數。
 
 ### <a name="october-2018"></a>2018 年 10 月
@@ -375,7 +375,7 @@ ms.locfileid: "74265346"
 ***儀表板***
 
 * 全螢幕模式︰不須先結束全螢幕模式也能列印
-* 全螢幕模式︰展開您要填滿整個畫布的磚，然後選取 [符合寬度] 來移除多餘的空白字元
+* 全螢幕模式︰展開您要填滿整個畫布的磚，然後選取 [符合寬度]  來移除多餘的空白字元
 * 使用磚流程將您的磚自動對齊畫布左上角。
 
 ***Quick Insights (深入資訊摘要)***

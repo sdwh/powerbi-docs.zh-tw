@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 09fd2197cca31e083c0242b187d7e242244235eb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: d2f3f36911c72df1b95ceb5bd90043870559cc62
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530364"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920714"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>編頁報表的影像使用指導
 
-本文適用於設計 Power BI [分頁報表](../paginated-reports-report-builder-power-bi.md)的報表作者。 本指導提供使用影像時的建議。 通常，報表配置中的影像可以顯示公司標誌或圖片等圖形。
+本文適用於設計 Power BI [分頁報表](../paginated-reports/paginated-reports-report-builder-power-bi.md)的報表作者。 本指導提供使用影像時的建議。 通常，報表配置中的影像可以顯示公司標誌或圖片等圖形。
 
 影像可以儲存在三個不同位置：
 
@@ -53,6 +53,6 @@ ms.locfileid: "77530364"
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [什麼是 Power BI Premium 中的編頁報表？](../paginated-reports-report-builder-power-bi.md)
+- [什麼是 Power BI Premium 中的編頁報表？](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

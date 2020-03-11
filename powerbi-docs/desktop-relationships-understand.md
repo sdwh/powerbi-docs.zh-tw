@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7be55c8b44a89ad5b317743b62e033cf34a01ef9
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 991f8b47337ba563ecfd223d69d687269a44ed78
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290674"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041600"
 ---
-# <a name="create-model-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中建立模型關聯性
+# <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop 中的模型關聯性
 
 本文的目標為使用 Power BI Desktop 匯入資料的模型製作人員。 這是要提供直覺式、準確和最佳模型的重要模型設計主題。
 

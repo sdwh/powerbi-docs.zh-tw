@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2a8dca43077fe12e4903585e3926cc67fe864136
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76162403"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920773"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>在分頁報表中使用串聯參數
 
-本文適用於設計 Power BI [分頁報表](../paginated-reports-report-builder-power-bi.md)的報表作者。 其中會提供設計串聯參數的案例。 串聯參數是具有相依性的報表參數。 當報表使用者選取參數值時，這些值會用來設定另一個參數的可用值。
+本文適用於設計 Power BI [分頁報表](../paginated-reports/paginated-reports-report-builder-power-bi.md)的報表作者。 其中會提供設計串聯參數的案例。 串聯參數是具有相依性的報表參數。 當報表使用者選取參數值時，這些值會用來設定另一個參數的可用值。
 
 > [!NOTE]
 > 本文並未介紹串聯參數及其設定方式。 如果您尚未完全熟悉串聯參數，建議您先閱讀[將串聯參數加入至報表 (報表產生器及 SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)。
@@ -281,7 +281,7 @@ WHERE
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [Power BI Report Builder 中的報表參數](../report-builder-parameters.md)
+- [Power BI Report Builder 中的報表參數](../paginated-reports/report-builder-parameters.md)
 - [將串聯參數加入至報表 (報表產生器及 SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)

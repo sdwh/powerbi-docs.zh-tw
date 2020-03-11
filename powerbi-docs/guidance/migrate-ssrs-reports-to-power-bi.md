@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f8b7cc302cd4a26aa099f723f47865723dccb7c9
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: cf11b98d7eacd7b1e245fb0aed62d0f14e7f4c4c
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290628"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041304"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>將 SQL Server Reporting Services 報表移轉到 Power BI
 
@@ -60,11 +60,11 @@ ms.locfileid: "78290628"
 
 此工具會將下列工作自動化：
 
-- 檢查[不支援的資料來源](../paginated-reports-data-sources.md)和[不支援的報表功能](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
-- 將任何「共用」  資源轉換為「內嵌」  資源：
-  - 共用**資料來源**成為內嵌資料來源
-  - 共用**資料集**成為內嵌資料集
-- 將報表 (通過檢查) 以編頁報表形式發佈至指定的 Power BI 工作區 (在 Premium 容量上)
+* 檢查[不支援的資料來源](../paginated-reports/paginated-reports-data-sources.md)和[不支援的報表功能](../paginated-reports/paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
+* 將任何「共用」  資源轉換為「內嵌」  資源：
+  * 共用**資料來源**成為內嵌資料來源
+  * 共用**資料集**成為內嵌資料集
+* 將報表 (通過檢查) 以編頁報表形式發佈至指定的 Power BI 工作區 (在 Premium 容量上)
 
 其不會修改或移除現有的報表。 完成時，此工具會輸出所有已完成動作 (成功或失敗) 的摘要。
 
@@ -102,7 +102,7 @@ ms.locfileid: "78290628"
 
 <sup>1</sup> [RDL 移轉工具](https://github.com/microsoft/RdlMigration)會自動轉換共用資料來源和共用資料集 (假設其使用支援的資料來源)。
 
-如果 RDL 報表依賴 [Power BI 編頁報表尚未支援](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)的功能，您可以計劃將其重新開發為 [Power BI 報表](../consumer/end-user-reports.md)。 即使您的 RDL 報表可以遷移，我們還是建議您考慮將其現代化為 Power BI 報表 (若有意義的話)。
+如果 RDL 報表依賴 [Power BI 編頁報表尚未支援](../paginated-reports/paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)的功能，您可以計劃將其重新開發為 [Power BI 報表](../consumer/end-user-reports.md)。 即使您的 RDL 報表可以遷移，我們還是建議您考慮將其現代化為 Power BI 報表 (若有意義的話)。
 
 如果您的 RDL 報表需要從內部部署資料來源  擷取資料，其無法使用單一登入 (SSO)。 目前，從這些來源進行的所有資料擷取都會使用閘道資料來源使用者帳戶  的安全性內容來完成。 SQL Server Analysis Services (SSAS) 無法以每個使用者為基礎來強制執行資料列層級安全性 (RLS)。
 
@@ -113,7 +113,7 @@ ms.locfileid: "78290628"
 「準備」  階段的目標牽涉到備妥一切。 其中涵蓋設定 Power BI 環境、規劃如何保護和發佈報表，以及重新開發不會遷移之 SSRS 項目的想法。
 
 1. 確定已為您的 Power BI Premium 容量啟用[編頁報表工作負載](../service-admin-premium-workloads.md#paginated-reports)，而且有足夠的記憶體。
-1. 確認您報表[資料來源](../paginated-reports-data-sources.md)的支援，並設定 [Power BI Gateway](../service-gateway-onprem.md)，以允許與任何內部部署資料來源進行連線。
+1. 確認您報表[資料來源](../paginated-reports/paginated-reports-data-sources.md)的支援，並設定 [Power BI Gateway](../service-gateway-onprem.md)，以允許與任何內部部署資料來源進行連線。
 1. 熟悉 Power BI 安全性，並使用 [Power BI 工作區和工作區角色](../service-new-workspaces.md)規劃[如何重現您的 SSRS 資料夾和權限](/sql/reporting-services/security/secure-folders)。
 1. 熟悉 Power BI 共用，並透過發佈 [Power BI 應用程式](../service-create-distribute-apps.md)來規劃散發內容的方式。
 1. 請考慮使用[共用 Power BI 資料集](../service-datasets-build-permissions.md)取代 SSRS 共用資料來源。
@@ -121,7 +121,7 @@ ms.locfileid: "78290628"
 1. 重新評估您的報表中 **UserID** 內建欄位的使用方式。 如果您依賴 **UserID** 來保護報表資料，請了解其會針對編頁報表 (裝載於 Power BI 服務時)，傳回使用者主體名稱 (UPN)。 因此，內建欄位會傳回類似 _m.blythe&commat;adventureworks.com_ 的內容，而不是傳回 NT 帳戶名稱，例如 _AW\mblythe_。 您將需要修改資料集定義，也可能需要修改來源資料。 修改並發佈之後，建議您徹底測試報表，以確定資料權限如預期般運作。
 1. 重新評估您的報表中 **ExecutionTime** 內建欄位的使用方式。 針對編頁報表 (裝載於 Power BI 服務時)，內建欄位會以國際標準時間 (或 UTC)  傳回日期/時間。 它可能會影響報表參數的預設值，以及報表的執行時間標籤 (通常會加入至報表頁尾)。
 1. 如果您的資料來源是 SQL Server (內部部署)，請確認報表並未使用地圖視覺效果。 地圖視覺效果取決於空間資料類型，而這些不受閘道支援。 如需詳細資訊，請參閱[編頁報表的資料擷取指引 (SQL Server 複雜資料類型)](report-paginated-data-retrieval.md#sql-server-complex-data-types)。
-1. 請確定您的報表作者已安裝 [Power BI 報表產生器](../report-builder-power-bi.md)，而且可在貴組織內輕鬆地散發之後的版本。
+1. 請確定您的報表作者已安裝 [Power BI 報表產生器](../paginated-reports/report-builder-power-bi.md)，而且可在貴組織內輕鬆地散發之後的版本。
 
 ## <a name="migration-stage"></a>移轉階段
 
@@ -137,7 +137,7 @@ ms.locfileid: "78290628"
 1. 下載每個報表定義並將 .rdl 檔案儲存在本機。
 1. 開啟「最新版」的  Power BI 報表產生器，然後使用您的 Azure AD 認證連線到 Power BI 服務。
 1. 在 Power BI 報表產生器中開啟每分報表，然後：
-   1. 確認所有資料來源和資料集都內嵌在報表定義中，而且是[支援的資料來源](../paginated-reports-data-sources.md)。
+   1. 確認所有資料來源和資料集都內嵌在報表定義中，而且是[支援的資料來源](../paginated-reports/paginated-reports-data-sources.md)。
    1. 預覽報表以確保其正確轉譯。
    1. 選擇 [另存新檔]  選項，然後選取 [Power BI 服務]  。
    1. 選取將包含報表的工作區。
@@ -156,7 +156,7 @@ ms.locfileid: "78290628"
 
 如需 API 的詳細資訊，請參閱：
 
-- [Power BI REST API 參考](../developer/rest-api-reference.md)
+- [Power BI REST API 參考](../developer/automation/rest-api-reference.md)
 - [SQL Server Reporting Services REST API](/sql/reporting-services/developer/rest-api)
 
 ## <a name="post-migration-stage"></a>移轉後階段
@@ -165,7 +165,7 @@ ms.locfileid: "78290628"
 
 ### <a name="configure-data-sources"></a>設定資料來源
 
-將報表遷移至 Power BI 後，您必須確保其資料來源已正確設定。 其可能涉及指派給閘道資料來源，以及[安全地儲存資料來源認證](../paginated-reports-data-sources.md#azure-sql-database-authentication)。 這些動作不是由 RDL 移轉工具完成。
+將報表遷移至 Power BI 後，您必須確保其資料來源已正確設定。 其可能涉及指派給閘道資料來源，以及[安全地儲存資料來源認證](../paginated-reports/paginated-reports-data-sources.md#azure-sql-database-authentication)。 這些動作不是由 RDL 移轉工具完成。
 
 ### <a name="review-report-performance"></a>檢閱報表效能
 
@@ -190,13 +190,13 @@ ms.locfileid: "78290628"
 
 如需本文的詳細資訊，請參閱下列資源︰
 
-- [什麼是 Power BI Premium 中的編頁報表？](../paginated-reports-report-builder-power-bi.md)
+- [什麼是 Power BI Premium 中的編頁報表？](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - [編頁報表的資料擷取指引](report-paginated-data-retrieval.md)
 - [何時使用 Power BI 中的編頁報表](report-paginated-or-power-bi.md)
-- [Power BI 中的編頁報表：常見問題](../paginated-reports-faq.md)
+- [Power BI 中的編頁報表：常見問題](../paginated-reports/paginated-reports-faq.md)
 - [Power BI Premium 常見問題集](../service-premium-faq.md)
 - [RDL 移轉工具](https://github.com/microsoft/RdlMigration)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)
 
 Power BI 合作夥伴可協助貴組織成功進行遷移程序。 若要與 Power BI 合作夥伴交流，請造訪 [Power BI 合作夥伴入口網站](https://powerbi.microsoft.com/partners/)。

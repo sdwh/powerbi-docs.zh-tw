@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3838c0b487be7faace2e58dd706aa7d172841215
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290490"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920743"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>何時使用 Power BI 中的編頁報表
 
-本文適用於設計 Power BI 報表的報表作者。 其中提供建議來協助您選擇何時開發 [Power BI 編頁報表](../paginated-reports-report-builder-power-bi.md)。
+本文適用於設計 Power BI 報表的報表作者。 其中提供建議來協助您選擇何時開發 [Power BI 編頁報表](../paginated-reports/paginated-reports-report-builder-power-bi.md)。
 
 > [!NOTE]
 > 需有 Power BI Premium 訂用帳戶才能發佈 Power BI 編頁報表。 只有當報表位於專用容量上[已啟用編頁報表工作負載](../service-admin-premium-workloads.md#paginated-reports)的工作區時，才會轉譯。
@@ -49,7 +49,7 @@ Power BI 編頁報表已針對**列印**或 **PDF 產生**進行最佳化。 其
 - **精確版面配置**：您可以設計高度格式化、細節完美的版面配置—達到以英吋或公分為單位設定的確切大小和位置。
 - **動態版面配置**：您可設定許多報表屬性來使用 VB.NET 運算式，以產生高度回應的版面配置。 運算式可以存取許多核心 .NET Framework 程式庫。
 - **轉譯特定的版面配置**：您可以根據套用的轉譯格式，使用運算式來修改報表版面配置。 例如，您可以設計報表，以在使用非互動式格式 (例如 PDF) 轉譯時，停用可見度切換 (以達成向下切入和向上切入)。
-- **原生查詢**：您不需要先開發 Power BI 資料集。 您可針對任何[支援的資料來源](../paginated-reports-data-sources.md)，撰寫原生查詢 (或使用預存程序)。 查詢可以包含參數化。
+- **原生查詢**：您不需要先開發 Power BI 資料集。 您可針對任何[支援的資料來源](../paginated-reports/paginated-reports-data-sources.md)，撰寫原生查詢 (或使用預存程序)。 查詢可以包含參數化。
 - **圖形查詢設計工具**：Power BI 報表產生器包含圖形查詢設計工具，可協助您撰寫和測試資料集查詢。
 - **靜態資料集**：您可以定義資料集，並將資料直接輸入報表定義中。 這項功能特別適用於支援示範，或提供概念證明 (POC)。
 - **資料整合**：您可以結合來自不同資料來源的資料，或搭配靜態資料集。 其做法是使用 VB.NET 運算式建立自訂欄位。
@@ -70,7 +70,7 @@ Power BI 編頁報表已針對**列印**或 **PDF 產生**進行最佳化。 其
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [什麼是 Power BI Premium 中的編頁報表？](../paginated-reports-report-builder-power-bi.md)
+- [什麼是 Power BI Premium 中的編頁報表？](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - [將 SQL Server Reporting Services 報表遷移到 Power BI](migrate-ssrs-reports-to-power-bi.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

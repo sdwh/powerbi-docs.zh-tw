@@ -3,19 +3,18 @@ title: 選取當您開啟 Power BI 服務時要顯示的儀表板
 description: 如何在 Power BI 服務中建立精選儀表板的相關文件
 author: mihart
 ms.reviewer: ''
-featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/14/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 412bcf397d550e002957e7379bf41381e8e3eea8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 27a7bdce79d0cf39a15b3350d06fd01d7d9e13c2
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852541"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040015"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI 服務中的精選儀表板
 
@@ -33,9 +32,6 @@ ms.locfileid: "73852541"
 如果您尚未設定精選儀表板，則 Power BI 將會開啟到您上次使用的儀表板或 Power BI [首頁]  。 
 
 ### <a name="set-a-dashboard-as-featured"></a>將儀表板設定為精選
-在影片中觀看 Amanda 如何建立精選儀表板。 然後遵循這些步驟，親自嘗試。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
 
 1. 開啟您想要設為精選的儀表板。 
@@ -51,7 +47,6 @@ ms.locfileid: "73852541"
 
 1. 遵循先前的步驟 1 和步驟 2。
    
-    ![變更精選儀表板視窗](./media/end-user-featured/power-bi-change-feature.png)
 2. 選取 [設為精選儀表板]  。 將儀表板移除精選並不會將其從 Power BI 中移除。 
    
     ![成功訊息](./media/end-user-featured/power-bi-unfeature-new.png)
@@ -62,9 +57,9 @@ ms.locfileid: "73852541"
 1. 開啟目前的精選儀表板。
 2. 在頂端功能表列中，選取 [更多選項]  (...)，然後選取 [停用精選儀表板]  。
 
-    ![已選取 [停用精選儀表板]](./media/end-user-featured/power-bi-unfeature-newer.png)
+    ![已選取 [停用精選儀表板]](./media/end-user-featured/power-bi-unfeature.png)
    
 ## <a name="next-steps"></a>後續步驟
-- [將儀表板設為最愛](end-user-favorite.md)
+- [將儀表板設為最愛](end-user-favorite.md)    
 - 有其他問題嗎？ 試試 [Power BI 社群](https://community.powerbi.com/)。
 

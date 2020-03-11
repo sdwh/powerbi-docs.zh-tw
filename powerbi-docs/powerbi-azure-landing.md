@@ -9,18 +9,18 @@ ms.author: willthom
 author: MI77
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: c2eeca81cb3c43c04ef649fb1228be7e25073069
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.openlocfilehash: f5b2de4f7da2ac7af368d969b2f2fef2d9ae7678
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75522996"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041692"
 ---
 # <a name="power-bi-for-microsoft-azure-users"></a>適用於 Microsoft Azure 使用者的 Power BI 
 
 您會在 Microsoft Azure 中處理資料、管理基礎結構或建置應用程式嗎？ 您要使用 Power BI 從您的資料或應用程式取得值嗎？ 這些資源將可協助您快速上手。 歡迎使用！
 
-您其實是 Power BI 取用者嗎？ 也歡迎您使用！ 建議您從[適用於取用者的 Power BI 開始](consumer/power-bi-consumer-landing.md)。
+您其實是 Power BI 取用者嗎？ 也歡迎您使用！ 建議您從[適用於取用者的 Power BI 開始](consumer/index.yml)。
 
 <ul class="panelContent cardsF"> 
             <li> 

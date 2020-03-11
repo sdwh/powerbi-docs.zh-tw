@@ -8,23 +8,23 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 76d1631b95c30d5ae56ced5d64e5174f6f9db759
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76041857"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920797"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>避免在列印編頁報表時出現空白頁面
 
-本文適用於設計 Power BI [分頁報表](../paginated-reports-report-builder-power-bi.md)的報表作者。 其中提供的建議可協助您在將報表匯出成強制分頁格式 (例如 PDF 或 Microsoft Word) 或列印時避免出現空白頁面。
+本文適用於設計 Power BI [分頁報表](../paginated-reports/paginated-reports-report-builder-power-bi.md)的報表作者。 其中提供的建議可協助您在將報表匯出成強制分頁格式 (例如 PDF 或 Microsoft Word) 或列印時避免出現空白頁面。
 
 ## <a name="page-setup"></a>版面設定
 
 報表頁面的大小屬性會決定頁面方向、維度和邊界。 存取這些報表屬性的方式：
 
 - 使用報表的**屬性頁面**：以滑鼠右鍵按一下報表畫布外部的暗灰色區域，然後選取 [報表屬性]  。
-- 使用 [[屬性]  ](../paginated-reports-report-design-view.md#4-properties-pane) 窗格：按一下報表畫布外部的暗灰色區域以選取報表屬性。 確認 [屬性]  窗格已開啟。
+- 使用 [[屬性]  ](../paginated-reports/paginated-reports-report-design-view.md#4-properties-pane) 窗格：按一下報表畫布外部的暗灰色區域以選取報表屬性。 確認 [屬性]  窗格已開啟。
 
 在報表的 [屬性]  頁面中，[版面設定]  頁面會提供一個容易使用的介面，供您查看及更新版面設定屬性。
 
@@ -91,7 +91,7 @@ ms.locfileid: "76041857"
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [什麼是 Power BI Premium 中的編頁報表？](../paginated-reports-report-builder-power-bi.md)
-- [Power BI 分頁報表中的分頁](../paginated-reports-pagination.md)
+- [什麼是 Power BI Premium 中的編頁報表？](../paginated-reports/paginated-reports-report-builder-power-bi.md)
+- [Power BI 分頁報表中的分頁](../paginated-reports/paginated-reports-pagination.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)

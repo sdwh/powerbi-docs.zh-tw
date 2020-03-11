@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: 007ff786fcee5d2a7b7237ad578a202cfcf25b69
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260868"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401924"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium 中的大型模型 (預覽)
 
@@ -123,7 +123,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="availability-in-regions"></a>區域中的可用性
 
-Power BI 中的大型模型僅適用於支援 [Azure Premium 檔案儲存體](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers) \(部分機器翻譯\) 的特定 Azure 區域。
+Power BI 中的大型模型僅適用於支援 [Azure Premium 檔案儲存體](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers) \(部分機器翻譯\) 的特定 Azure 區域。
 
 下列清單提供可以在 Power BI 中使用大型模型的區域。 大型模型不支援下列清單中的區域：
 
@@ -156,7 +156,7 @@ Power BI 中的大型模型僅適用於支援 [Azure Premium 檔案儲存體](ht
 
 下列連結提供的資訊有助於處理大型模型：
 
-* [Azure Premium 檔案儲存體](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers) \(部分機器翻譯\)
+* [Azure Premium 檔案儲存體](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers) \(部分機器翻譯\)
 * [設定 Power BI Premium 的多地理位置支援](service-admin-premium-multi-geo.md)
 * [攜帶您自己的加密金鑰以用於 Power BI](service-encryption-byok.md)
 * [容量的運作方式](service-premium-what-is.md#how-capacities-function)

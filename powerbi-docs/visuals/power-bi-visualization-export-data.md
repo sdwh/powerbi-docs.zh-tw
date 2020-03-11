@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539701"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946867"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>匯出用於建立視覺效果的資料
 
@@ -166,7 +166,7 @@ Power BI 系統管理員和設計人員應使用幾個 Power BI 策略來保護�
 
 - 資料集擁有者可以設定資料列層級安全性 (RLS)。 RLS 會限制唯讀使用者的存取權。 但如果您已將應用程式工作區設定為讓成員具有編輯權限，則 RLS 角色不會套用至成員。 如需詳細資訊，請參閱[資料列層級安全性](../service-admin-rls.md)。
 
-- 報表設計師可以隱藏資料行，使其不顯示於 [欄位]  清單中。 如需詳細資訊，請參閱[資料集屬性](../developer/api-dataset-properties.md)
+- 報表設計師可以隱藏資料行，使其不顯示於 [欄位]  清單中。 如需詳細資訊，請參閱[資料集屬性](../developer/automation/api-dataset-properties.md)
 
 - Power BI 系統管理員可以將[敏感度標籤](../admin/service-security-data-protection-overview.md)新增至儀表板、報表、資料集和資料流程。 系統管理員即可在匯出資料時施行保護設定，例如加密或浮水印。 
 
