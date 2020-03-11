@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 124f373e7841cb899f0a26debb2bcc8302e8e970
-ms.sourcegitcommit: 7efbe508787029e960d6d535ac959a922c0846ca
+ms.openlocfilehash: 7be55c8b44a89ad5b317743b62e033cf34a01ef9
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "76309117"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290674"
 ---
 # <a name="create-model-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中建立模型關聯性
 
@@ -23,12 +23,12 @@ ms.locfileid: "76309117"
 
 ## <a name="relationship-purpose"></a>關聯性目的
 
-簡單地說，Power BI 關聯性會將對模型資料表的資料行套用的篩選傳播到其他模型資料表。 只要有可遵循的關聯性路徑，篩選就會傳播，這可能會牽涉傳播到多個資料表。
+簡單地說，Power BI 關聯性會將對模型資料表的資料行套用的篩選條件傳播到其他模型資料表。 只要有可遵循的關聯性路徑，篩選就會傳播，這可能會牽涉傳播到多個資料表。
 
-關聯性路徑具有決定性，這表示篩選一律會以相同方式傳播，而不會隨機變化。 不過，您可以停用關聯性，或讓篩選內容由使用特定 DAX 函數的模型計算修改。 如需詳細資訊，請參閱本文稍後的[相關的 DAX 函數](#relevant-dax-functions)主題。
+關聯性路徑具有決定性，這表示篩選一律會以相同方式傳播，而不會隨機變化。 不過，您可以停用關聯性，或讓篩選內容由使用特定 DAX 函數的模型計算修改。 如需詳細資訊，請參閱此文章稍後的[相關的 DAX 函式](#relevant-dax-functions)主題。
 
 > [!IMPORTANT]
-> 請務必了解模型關聯性不會強制執行資料完整性。 如需詳細資訊，請參閱本文稍後的[關聯性評估](#relationship-evaluation)主題。 本主題說明當您的資料有資料完整性問題時，模型關聯性的行為方式。
+> 請務必了解模型關聯性不會強制執行資料完整性。 如需詳細資訊，請參閱此文章稍後的[關聯性評估](#relationship-evaluation)主題。 本主題說明當您的資料有資料完整性問題時，模型關聯性的行為方式。
 
 讓我們透過動畫範例來看看關聯性如何傳播篩選。
 
@@ -36,17 +36,17 @@ ms.locfileid: "76309117"
 
 在此範例中，模型包含四個資料表：**Category**、**Product**、**Year** 和 **Sales**。 **Category** 資料表與 **Product** 資料表相關，而 **Product** 資料表與 **Sales** 資料表相關。 **Year** 資料表也與 **Sales** 資料表相關。 所有關聯性都是一對多 (本文稍後會描述其詳細資料)。
 
-查詢 (可能是由 Power BI 卡片視覺效果所產生) 要求針對單一類別 **Cat-A** 於一年 **CY2018** 所提出銷售訂單的總銷售數量。 這就是為何您看到在 **Category** 和 **Year** 資料表上套用了篩選。 對 **Category** 資料表的篩選傳播至 **Product** 資料表，以隔離指派給類別 **Cat-A** 的兩個產品。 然後，**Product** 資料表篩選會傳播至 **Sales** 資料表，以便只將這些產品的兩個銷售資料列隔離。 這兩個銷售資料列代表指派給類別 **Cat-A** 的產品銷售。 其合併數量為 14 個單位。 同時，**Year** 資料表篩選會傳播以進一步篩選 **Sales** 資料表，產生一個銷售資料列，針對僅指派給類別 **Cat-A** 並以年 **CY2018** 排序的產品。 此查詢所傳回的數量值為 11 個單位。 請注意，將多個篩選套用至資料表時 (例如此範例中的 **Sales** 資料表)，它一律是 AND 作業，要求所有條件必須為 true。
+查詢 (可能是由 Power BI 卡片視覺效果所產生) 要求針對單一類別 **Cat-A** 於一年 **CY2018** 所提出銷售訂單的總銷售數量。 這就是為何您看到在 **Category** 與 **Year** 資料表上已套用篩選條件。 對 **Category** 資料表的篩選傳播至 **Product** 資料表，以隔離指派給類別 **Cat-A** 的兩個產品。 然後，**Product** 資料表篩選會傳播至 **Sales** 資料表，以便只將這些產品的兩個銷售資料列隔離。 這兩個銷售資料列代表指派給類別 **Cat-A** 的產品銷售。 其合併數量為 14 個單位。 同時，**Year** 資料表篩選會傳播以進一步篩選 **Sales** 資料表，產生一個銷售資料列，針對僅指派給類別 **Cat-A** 並以年 **CY2018** 排序的產品。 此查詢所傳回的數量值為 11 個單位。 請注意，將多個篩選套用至資料表時 (例如此範例中的 **Sales** 資料表)，它一律是 AND 作業，要求所有條件必須為 true。
 
 ### <a name="disconnected-tables"></a>已中斷連線的資料表
 
-模型資料表未與另一個模型資料表相關聯是不正常的。 在有效的模型設計中，這類資料表可以描述為「已中斷連線的資料表」  。 已中斷連線的資料表不是用來將篩選傳播到其他模型資料表。 相反地，它是用來接受「使用者輸入」(或許是使用交叉分析篩選器視覺效果)，讓模型計算能夠以有意義的方式使用輸入值。 例如，假設有一個已中斷連線的資料表，載入了某個範圍的貨幣匯率值。 假設已套用一個篩選以依據單一匯率值進行篩選，則量值運算式可使用該值來轉換銷售值。
+模型資料表未與另一個模型資料表相關聯是不正常的。 在有效的模型設計中，這類資料表可以描述為「已中斷連線的資料表」  。 已中斷連線的資料表不是用來將篩選傳播到其他模型資料表。 相反地，它是用來接受「使用者輸入」(或許是使用交叉分析篩選器視覺效果)，讓模型計算能夠以有意義的方式使用輸入值。 例如，假設有一個已中斷連線的資料表，載入了某個範圍的貨幣匯率值。 只要已套用一個篩選條件以依據單一匯率值進行篩選，量值運算式就可使用該值來轉換銷售值。
 
 Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如需詳細資訊，請參閱[在 Power BI Desktop 中建立及使用模擬參數來視覺化變數](desktop-what-if.md)一文。
 
 ## <a name="relationship-properties"></a>關聯性屬性
 
-一個模型關聯性會將資料表中的一個資料行與另一個資料表中的一個資料行產生關聯。 (其中有一個特殊案例，其中此需求未滿足，而這僅適用 DirectQuery 模型中的多重資料行關聯性。 如需詳細資訊，請參閱 [COMBINEVALUES](/dax/combinevalues-function-dax) DAX 函數一文)。
+一個模型關聯性會將資料表中的一個資料行與另一個資料表中的一個資料行產生關聯。 (有一個特殊案例，其中此需求未滿足，而其僅適用 DirectQuery 模型中的多重資料行關聯性。 如需詳細資訊，請參閱 [COMBINEVALUES](/dax/combinevalues-function-dax) DAX 函式一文)。
 
 > [!NOTE]
 > 您無法將某個資料行與_相同資料表_中的不同資料行相關聯。 這有時會與定義資料表自我參考的關聯式資料庫外部索引鍵條件約束的功能混淆。 此關聯式資料庫概念可以用來儲存父子式關聯性 (例如，每個員工記錄會與某個「主管」員工相關聯)。 根據此類型的關聯性產生的模型階層，無法透過建立模型關聯性解析。 若要達成此目的，請參閱 [Parent 和 Child 函數](/dax/parent-and-child-functions-dax)一文。
@@ -65,13 +65,13 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 - 一對一 (1:1)
 - 多對多 (\*:\*)
 
-在 Power BI Desktop 中建立關聯性時，設計工具會自動偵測並設定基數類型。 設計工具可以執行此動作，因為它會查詢模型來知道哪些資料行包含唯一的值。 針對「匯入」模型，它會使用內部儲存體統計資料；針對 DirectQuery 模型，它會將分析查詢傳送至資料來源。 不過，有時候可能會出錯。 發生這種情況是因為資料表尚未載入資料，或是因為您預期包含重複值的資料行目前包含唯一的值。 不論是哪一種情況，您都可以更新基數類型，提供包含唯一值 (或是資料表還未載入資料列) 的任何「一」端資料行。
+在 Power BI Desktop 中建立關聯性時，設計工具會自動偵測並設定基數類型。 設計工具會查詢模型以得知哪些資料行包含唯一值。 「匯入」模型會使用內部儲存體統計資料，而 DirectQuery 模型會將分析查詢傳送至資料來源。 不過，有時候可能會出錯。 發生這種情況是因為資料表尚未載入資料，或是因為您預期包含重複值的資料行目前包含唯一的值。 不論是哪一種情況，只要任「一端」資料行包含唯一值 (或是資料表還未載入資料列)，您就可以更新基數類型。
 
 「一對多」  和「多對一」  基數選項基本上是相同的，而且它們也是最常見的基數類型。
 
 設定一對多或多對一關聯性時，您會選擇符合您與資料行相關聯之順序的關聯性。 考慮如何使用在每個資料表中找到的 **ProductID** 資料行，設定從 **Product** 資料表到 **Sales** 資料表的關聯性。 此基數類型會是「一對多」  ，因為 **Product** 資料表中的 **ProductID** 資料行包含唯一的值。 如果您以相反方向來關聯資料表，將 **Sales** 關聯至 **Product**，則基數會是「多對一」  。
 
-「一對一」  關聯性表示兩個資料行都包含唯一的值。 此基數類型並不常見，且可能代表非最佳的模型設計，因為它會儲存多餘的資料。<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
+「一對一」  關聯性表示兩個資料行都包含唯一的值。 此基數類型並不常見，且可能代表非最佳的模型設計，因為它會儲存多餘的資料。 如需使用此基數類型的詳細資訊，請參閱[一對一關聯性指導方針](guidance/relationships-one-to-one.md)。
 
 「多對多」  關聯性表示兩個資料行都可以包含重複的值。 此基數類型不常使用。 在設計複雜的模型需求時，這通常很有用。 如需使用此基數類型的指引，請參閱[多對多關聯性指引](guidance/relationships-many-to-many.md)。
 
@@ -95,13 +95,13 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 針對一對多關聯性，交叉篩選方向一律來自「一」端，並可選擇性地來自「多」端 (雙向)。 針對一對一關聯性，交叉篩選方向一律來自兩個資料表。 最後，針對多對多關聯性，交叉篩選方向可以來自其中一個資料表，或來自兩個資料表。 請注意，當基數類型包含「一」端時，該篩選一律會從該端傳播。
 
-將交叉篩選方向設定為 [兩者]  ，當強制執行資料列層級安全性 (RLS) 規則時，有一個額外的屬性可用來套用雙向篩選。 如需有關 RLS 的進一步資訊，請參閱[使用 Power BI Desktop 的資料列層級安全性 (RLS)](desktop-rls.md) 一文。
+當交叉篩選方向設定為 [兩者]  時，可以使用額外屬性。 當強制執行資料列層級安全性 (RLS) 規則時，其可套用雙向篩選。 如需 RLS 的詳細資訊，請參閱[使用 Power BI Desktop 的資料列層級安全性 (RLS)](desktop-rls.md) 一文。
 
-修改關聯性交叉篩選方向 (包括停用篩選傳播) 也可以透過模型計算來完成。 您可以使用 [CROSSFILTER](/dax/crossfilter-function) DAX 函數來達成此目的。
+修改關聯性交叉篩選方向 (包括停用篩選傳播) 也可以透過模型計算來完成。 您可以使用 [CROSSFILTER](/dax/crossfilter-function) DAX 函式來達成此目的。
 
 雙向關聯性對效能可能會有負面影響。 此外，嘗試設定雙向關聯性可能會導致不明確的篩選傳播路徑。 在此情況下，Power BI Desktop 可能無法認可關聯性變更，並會發出錯誤訊息來警示您。 不過，有時候 Power BI Desktop 可能會允許您在資料表之間定義不明確的關聯性路徑。 本文稍後的[優先順序規則](#precedence-rules)主題中會描述影響不明確偵測和路徑解析的優先順序規則。
 
-建議您只在必要時才使用雙向篩選。<!-- For guidance on bi-directional filtering, see the [Cross filter relationship guidance](guidance/relationships-bidirectional-filtering) article.-->
+建議您只在必要時才使用雙向篩選。 如需詳細資訊，請參閱[雙向關聯性指導方針](guidance/relationships-bidirectional-filtering.md)。
 
 > [!TIP]
 > 在 Power BI Desktop 模型檢視中，您可以藉由留意關聯線的箭頭來解讀關聯性的交叉篩選方向。 單箭頭代表箭頭方向的單向篩選；雙箭頭代表雙向關聯性。
@@ -110,7 +110,7 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 兩個模型資料表之間只能有一個作用中的篩選傳播路徑。 但您可以引進其他關聯性路徑，不過這些關聯性必須全設定為「非作用中」  。 非作用中的關聯性只能在模型計算評估期間變成作用中。 您可以使用 [USERELATIONSHIP](/dax/userelationship-function-dax) DAX 函數來達成此目的。
 
-<!--For guidance on defining inactive relationships, see the [Active vs inactive relationship guidance](guidance/relationships-active-inactive) article.-->
+如需詳細資訊，請參閱[作用中與非作用中關聯性指導方針](guidance/relationships-active-inactive.md)。
 
 > [!TIP]
 > 在 Power BI Desktop 模型檢視中，您可以解讀關聯性的作用中與非作用中狀態。 作用中關聯性會以實線表示；非作用中關聯性則以虛線表示。
@@ -119,12 +119,12 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 「採用參考完整性」  屬性僅適用於以相同資料來源為基礎之兩個 DirectQuery 儲存模式資料表之間的一對多和一對一關聯性。 啟用時，傳送至資料來源的原生查詢會使用 INNER JOIN 而不是 OUTER JOIN，將兩個資料表聯結在一起。 啟用此屬性一般可改善查詢效能，不過會取決於資料來源的詳細資料。
 
-當這兩個資料表之間存在資料庫外部索引鍵條件約束時，應該一律啟用此屬性。 如果外部索引鍵條件約束不存在，若您的特定資料完整性存在，則仍可以啟用該屬性。
+當這兩個資料表之間存在資料庫外部索引鍵條件約束時，請一律啟用此屬性。 當外部索引鍵條件約束不存在時，只要您的特定資料完整性存在，就仍可以啟用該屬性。
 
 > [!IMPORTANT]
 > 如果資料完整性遭到危害，則內部聯結可消除資料表之間不符的資料列。 例如，假設有一個模型 **Sales** 資料表，而該資料行的 **ProductID** 資料行值於相關的 **Product** 資料表中不存在。 從 **Product** 資料表傳播到 **Sales** 資料表的篩選，將會排除銷售資料列中的未知產品。 這會導致銷售結果被輕描淡寫。
 >
-> 如需進一步資訊，請參閱 [Power BI Desktop 中的採用參考完整性設定](desktop-assume-referential-integrity.md)文章。
+> 如需詳細資訊，請參閱 [Power BI Desktop 中的採用參考完整性設定](desktop-assume-referential-integrity.md)一文。
 
 ## <a name="relevant-dax-functions"></a>相關的 DAX 函數
 
@@ -146,7 +146,7 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 「匯入」或 DirectQuery 模型會從 Vertipaq 快取或來源資料庫提供其所有資料。 在這兩個執行個體中，Power BI 都能夠判斷關聯性的「一」端存在。
 
-不過，「複合」模型可由使用不同儲存模式 (匯入、DirectQuery 或雙重) 的資料表，或多個 DirectQuery 來源組成。 每個來源，包括匯入資料的 Vertipaq 快取，都會被視為「資料島」  。 然後，可以將模型關聯性分類為「島內」  或「跨島」  。 「島內」關聯性是在資料島內的兩個資料表建立關聯性，而「跨島」關聯性則會將來自不同資料島的資料表相關聯。 請注意，Import 或 DirectQuery 模型中的關聯性一律為島內。
+不過，「複合」模型包含的資料表可以使用不同儲存模式 (匯入、DirectQuery 或雙重) 或多個 DirectQuery 來源。 每個來源，包括匯入資料的 Vertipaq 快取，都會被視為「資料島」  。 然後，可以將模型關聯性分類為「島內」  或「跨島」  。 「島內」關聯性是在資料島內的兩個資料表建立關聯性，而「跨島」關聯性則會將來自不同資料島的資料表相關聯。 請注意，Import 或 DirectQuery 模型中的關聯性一律為島內。
 
 讓我們看看「複合」模型範例。
 
@@ -164,7 +164,7 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 針對「匯入」模型，其中的所有資料都儲存在 Vertipaq 快取中，則會在資料重新整理時，為每個強關聯性建立資料結構。 資料結構是由所有資料行對資料行值的索引對應所組成，而其目的是在查詢時加速聯結資料表。
 
-在查詢時，強關聯性會允許進行「資料表展開」  。 資料表展開會藉由包含基底資料表的原生資料行，然後展開到相關資料表來建立虛擬資料表。 針對「匯入」資料表，這會在查詢引擎中完成；針對 DirectQuery 資料表，則會在傳送至來源資料庫的原生查詢中完成 (前提是「採用參考完整性」未啟用)。 然後，查詢引擎會在展開的資料表上採取動作，套用篩選，並依展開的資料表資料行中的值進行分組。
+在查詢時，強關聯性會允許進行「資料表展開」  。 資料表展開會藉由包含基底資料表的原生資料行，然後展開到相關資料表來建立虛擬資料表。 針對「匯入」資料表，這會在查詢引擎中完成；針對 DirectQuery 資料表，則會在傳送至來源資料庫的原生查詢中完成 (只要未啟用**採用參考完整性**屬性)。 然後，查詢引擎會在展開的資料表上採取動作，套用篩選，並依展開的資料表資料行中的值進行分組。
 
 > [!NOTE]
 > 也會展開非作用中的關聯性，即使關聯性未由計算使用也一樣。 雙向關聯性對資料表展開沒有任何影響。
@@ -194,7 +194,7 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 針對「匯入」模型，永不會為弱關聯性建立資料結構。 這表示必須在查詢時解析資料表聯結。
 
-資料表展開永遠不會對弱關聯性發生。 資料表聯結是藉由使用 INNER JOIN 語義來達成，而且基於此原因，不會將空白的虛擬資料列加入來補償參考完整性違規。
+資料表展開永遠不會對弱關聯性發生。 資料表聯結是藉由使用 INNER JOIN 語意來達成，基於此原因，系統不會為了補償參考完整性違規而加入空白虛擬資料列。
 
 與弱關聯性相關的其他限制如下：
 
@@ -210,7 +210,7 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 
 1. 多對一和一對一關聯性，包括弱關聯性
 2. 多對多關聯性
-3. 雙向關聯性，相反方向 (也就是從「多」端)
+3. 雙向關聯性，相反方向 (也就是從「多」方)
 
 ### <a name="performance-preference"></a>效能喜好設定
 
@@ -221,12 +221,16 @@ Power BI Desktop 模擬參數是可建立中斷連線資料表的功能。 如�
 3. 透過中繼資料表達成的多對多模型關聯性，且牽涉到至少一個雙向關聯性
 4. 跨島關聯性
 
-<!--For further information and guidance on many-to-many relationships, see the [Cross filter relationship guidance](guidance/relationships-bidirectional-filtering) article.-->
-
 ## <a name="next-steps"></a>後續步驟
 
+如需本文的詳細資訊，請參閱下列資源︰
+
 - [了解星型結構描述及其對 Power BI 的重要性](guidance/star-schema.md)
+- [一對一關聯性指導方針](guidance/relationships-one-to-one.md)
 - [多對多關聯性指引](guidance/relationships-many-to-many.md)
-- 影片：[The Do's and Don'ts of Power BI Relationships](https://youtu.be/78d6mwR8GtA) (Power BI 關聯性的建議事項和避免事項)
+- [作用中與非作用中關聯性指導方針](guidance/relationships-active-inactive.md)
+- [雙向關聯性指導方針](guidance/relationships-bidirectional-filtering.md)
+- [關聯性疑難排解指導方針](guidance/relationships-troubleshoot.md)
+- 影片：[The Do's and Don'ts of Power BI Relationships](https://www.youtube.com/watch?v=78d6mwR8GtA) (Power BI 關聯性的建議事項和避免事項)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

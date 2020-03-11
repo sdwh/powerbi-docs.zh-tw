@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/27/2020
-ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.date: 03/02/2020
+ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819529"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237952"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -24,6 +24,14 @@ ms.locfileid: "76819529"
 
 ## <a name="january-2020"></a>2020 年 1 月
 - **Power BI 報表伺服器**
+    - *版本：1.6.7364.4075 (組建 15.0.1102.777)，發行日期：2020 年 3 月 2 日*
+         - Bug 修正
+           -  針對特定資料來源無法上傳 Power BI 報表的修正
+           -  入口網站中 Power BI 報表伺服器桌面連結下載位置的修正
+           -  適用於 Excel 轉譯之 DynamicImageDPI 的修正
+           -  Oracle 連線在特定多使用者案例中使用不正確的執行緒文化特性的修正
+           -  CustomHeaders 預設值導致報表內嵌失敗的修正
+           -  在某些情況下不正確地產生之 SQL 參數名稱的修正
     - *版本：1.6.7327.3007 (組建 15.0.1102.759)，發行日期：2020 年 1 月 23 日*
          - 功能
             -  從 Power BI 報表匯出至 Excel。

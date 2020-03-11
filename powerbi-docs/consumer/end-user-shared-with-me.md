@@ -42,11 +42,11 @@ ms.locfileid: "73861680"
 
 ### <a name="actions-available-from-the-shared-with-me-container"></a>可從 [與我共用]  容器執行的動作
 可供您使用的動作將取決於內容「設計師」  所指派設定。 您的某些選項可能包括：
-* 選取星號圖示，以[將儀表板或報表設為我的最愛](end-user-favorite.md) ![星號圖示](./media/end-user-shared-with-me/power-bi-star-icon.png)。
+* 選取星號圖示，以[將儀表板或報表設為我的最愛](end-user-favorite.md) ![星星圖示](./media/end-user-shared-with-me/power-bi-star-icon.png)。
 * 移除儀表板或報表  ![垃圾桶圖示](./media/end-user-shared-with-me/power-bi-delete-icon.png).
 * 有些儀表板和報表可以重複共用  ![共用圖示](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
 * [以 Excel 開啟報表](end-user-export.md) ![匯出至 Excel 圖示](./media/end-user-shared-with-me/power-bi-excel.png) 
-* [檢視 Power BI 在資料中找到的見解](end-user-insights.md) ![見解圖示](./media/end-user-shared-with-me/power-bi-insights.png)。
+* [檢視 Power BI 在資料中找到的見解](end-user-insights.md)![見解圖示](./media/end-user-shared-with-me/power-bi-insights.png)。
   
   > [!NOTE]
   > 如需 EGRC 分類的資訊，請選取 [分類]  按鈕，或[瀏覽儀表板資料分類](../service-data-classification.md)。

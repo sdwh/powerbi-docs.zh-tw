@@ -8,24 +8,24 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 85db7414fc476f2a62368d150e068a71c13d41cb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527514"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260408"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>了解星型結構描述及其對 Power BI 的重要性
 
 本文適用於 Power BI Desktop 資料模型製作人員。 其中描述星型結構描述設計，以及其與開發針對效能和可用性最佳化的 Power BI 資料模型有何關聯。
 
-本文不會針對星型結構描述設計提供完整討論。 如需詳細資料，請直接參閱已發佈的內容，例如 Ralph Kimball 等人所著的 "The Data Warehouse Toolkit:  The Complete Guide to Dimensional Modeling" (2002 年第 2 版)。
+此文章不會針對星型結構描述設計提供完整討論。 如需詳細資料，請直接參閱已發佈的內容，例如 Ralph Kimball 等人所著的 "The Data Warehouse Toolkit:  The Complete Guide to Dimensional Modeling" (2002 年第 2 版)。
 
 ## <a name="star-schema-overview"></a>星型結構描述概觀
 
 **星型結構描述**是關聯式資料倉儲普遍採用的成熟模型化方法。 模型製作人員必須將其模型資料表分類為「維度」  或「事實」  。
 
-**維度資料表**會描述商務實體，也就是您模型化的「事物」。 這些實體可以包含產品、人員、地點和概念 (包括時間本身)。 您會在星型結構描述中找到的最一致資料表是日期維度資料表。 維度資料表包含一或多個作為唯一識別碼的索引鍵資料行，以及描述性資料行。
+**維度資料表**會描述商務實體，也就是您模型化的「事物」  。 這些實體可以包含產品、人員、地點和概念 (包括時間本身)。 您會在星型結構描述中找到的最一致資料表是日期維度資料表。 維度資料表包含一或多個作為唯一識別碼的索引鍵資料行，以及描述性資料行。
 
 **事實資料**會儲存觀測或事件，且可以是銷售訂單、存貨餘額、匯率、溫度等。事實資料表包含與維度資料表相關的維度索引鍵資料行，以及數值量值資料行。 維度索引鍵資料行會決定事實資料表的「維度」  ，而維度索引鍵值則決定事實資料表的「資料粒度」  。 例如，假設有一個事實資料表，其設計目的是為了儲存具有兩個維度索引鍵資料行 **Date** 和 **ProductKey** 的銷售目標。 您輕易就能了解資料表具有兩個維度。 不過，如果不考慮維度索引鍵值，就無法判斷資料粒度。 在此範例中，請考慮 **Date** 資料行中所儲存值是每個月的第一天。 在此案例中，資料粒度是在每月產品層級。
 
@@ -42,11 +42,11 @@ ms.locfileid: "77527514"
 - 維度資料表支援「篩選」  和「群組」 
 - 事實資料表支援「摘要」 
 
-雖然沒有可讓模型製作人員用來設定資料表類型 (維度或事實) 的資料表屬性，但可由模型關聯性來決定。 模型關聯性會建立兩個資料表之間的篩選傳播路徑，而關聯性的**基數**屬性會決定資料表類型。 常見的關聯性基數包括「一對多」或相反的「多對一」。 「一」端一律是維度類型資料表，而「多」端一律是事實類型資料表。
+沒有可供模型製作人員設定來將資料表類型設定為維度或事實的資料表屬性。 事實上，這是由模型關聯性決定的。 模型關聯性會建立兩個資料表之間的篩選傳播路徑，而關聯性的**基數**屬性會決定資料表類型。 常見的關聯性基數包括「一對多」  或相反的「多對一」  。 「一」端一律是維度類型資料表，而「多」端一律是事實類型資料表。 如需關聯性的詳細資訊，請參閱 [Power BI Desktop 中的模型關聯性](../desktop-relationships-understand.md)。
 
 ![概念性星型結構描述](media/star-schema/star-schema-example2.png)
 
-結構良好模型設計應該包含全部是維度類型資料表或事實類型資料表的資料表。 您應該避免將這兩種類型混合成單一資料表。 此外，建議您應盡力提供正確的資料表數目，並備妥正確的關聯性。 事實類型資料表一律以一致的資料粒度載入資料也很重要。
+結構良好模型設計應該包含全部是維度類型資料表或事實類型資料表的資料表。 請避免將這兩種類型混合成單一資料表。 此外，建議您應盡力提供正確的資料表數目，並備妥正確的關聯性。 事實類型資料表一律以一致的資料粒度載入資料也很重要。
 
 最後，請務必了解最佳模型設計既是一門科學，也是一門藝術。 有時您可以在合理情況下背離良好的指引。
 
@@ -73,17 +73,17 @@ ms.locfileid: "77527514"
 
 不過，即使是簡單的資料行層級摘要，還是有三個必須建立量值的理由：
 
-- 當知道報表作者將使用[多維度運算式 (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) 來查詢模型時，則模型必須包含「明確量值」  。 明確量值是使用 DAX 運算式來定義。 這種設計方法在使用 MDX 查詢 Power BI 資料集時高度相關，因為 MDX 無法達成資料行值的摘要。 值得注意的是，執行[使用 Excel 分析](https://docs.microsoft.com/power-bi/service-analyze-in-excel) (樞紐分析表會發出 MDX 查詢) 時，將會使用 MDX。
+- 當知道報表作者將使用[多維度運算式 (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) 來查詢模型時，則模型必須包含「明確量值」  。 明確量值是使用 DAX 運算式來定義。 這種設計方法在使用 MDX 查詢 Power BI 資料集時高度相關，因為 MDX 無法達成資料行值的摘要。 值得注意的是，執行[使用 Excel 分析](https://docs.microsoft.com/power-bi/service-analyze-in-excel)時，將會使用 MDX，因為樞紐分析表會發出 MDX 查詢。
 - 當知道報表作者將使用 MDX 查詢設計工具來建立 Power BI 編頁報表時，則模型必須包含明確量值。 只有 MDX 查詢設計工具支援[伺服器彙總](/sql/reporting-services/report-design/report-builder-functions-aggregate-function)。 因此，如果報表作者需要以 Power BI (而非由編頁報表引擎評估) 來評估量值 ，則必須使用 MDX 查詢設計工具。
 - 如果需要確保報表作者只能以特定方式摘要資料行。 例如，轉售商銷售的 [單價]  資料行 (代表每個單位費率) 可進行摘要，但只能透過使用特定彙總函式。 一律不應該進行加總，但適合使用其他彙總函式 (min、max、average 等) 進行摘要。 在此情況下，模型製作人員可以隱藏 [單價]  資料行，並為所有適當的彙總函式建立量值。
 
-請注意，這種設計方法相當適用於在 Power BI 服務中撰寫的報表，以及問與答。 不過，Power BI Desktop 即時連接可讓報表作者在 [欄位]  窗格中顯示隱藏的欄位，進而規避這種設計方法。
+這種設計方法相當適用於在 Power BI 服務中撰寫的報表，以及問與答。 不過，Power BI Desktop 即時連接可讓報表作者在 [欄位]  窗格中顯示隱藏的欄位，進而規避這種設計方法。
 
 ## <a name="surrogate-keys"></a>Surrogate 索引鍵
 
 **Surrogate 索引鍵**是您新增至資料表以支援星型結構描述模型的唯一識別碼。 根據定義，它不會定義或儲存在來源資料中。 Surrogate 索引鍵通常會新增至關聯式資料倉儲維度資料表，來為每個維度資料表資料列提供唯一識別碼。
 
-Power BI 模型關聯性是根據一個資料表中單一不重複的資料行，這會將篩選傳播至不同資料表中的單一資料行。 當模型中維度類型資料表不包含單一不重複的資料行時，您必須新增唯一識別碼，使其成為關聯性的「一」端。 在 Power BI Desktop 中，您可以藉由建立 [Power Query 索引資料行](https://docs.microsoft.com/powerquery-m/table-addindexcolumn)來輕鬆達成此目的。
+Power BI 模型關聯性是根據一個資料表中單一不重複的資料行，這會將篩選傳播至不同資料表中的單一資料行。 當模型中維度類型資料表不包含單一不重複的資料行時，您必須新增唯一識別碼，使其成為關聯性的「一」端。 在 Power BI Desktop 中，您可以透過建立 [Power Query 索引資料行](https://docs.microsoft.com/powerquery-m/table-addindexcolumn)來輕鬆達成此需求。
 
 ![在 Power Query 工具列中建立索引資料行](media/star-schema/toolbar-index.png)
 
@@ -91,7 +91,7 @@ Power BI 模型關聯性是根據一個資料表中單一不重複的資料行�
 
 ## <a name="snowflake-dimensions"></a>雪花式維度
 
-**雪花式維度**是單一商務實體的一組正規化資料表。 例如，Adventure Works 會依類別和子類別來分類產品。 類別會指派給子類別，而產品會轉而指派給子類別。 在 Adventure Works 關聯式資料倉儲中，產品維度會正規化並儲存在三個相關資料表中：**DimProductCategory**、**DimProductSubcategory** 和 **DimProduct**。
+**雪花式維度**是單一商務實體的一組正規化資料表。 例如，Adventure Works 會依類別和子類別來分類產品。 類別會指派給子類別，而產品會轉而指派給子類別。 在 Adventure Works 關聯式資料倉儲中，產品維度會正規化並儲存在三個相關資料表中：**DimProductCategory**、**DimProductSubcategory** 與 **DimProduct**。
 
 如果您運用想像力，可以想像正規化資料表是從事實資料表朝外形成雪花式設計。
 
@@ -118,13 +118,13 @@ Power BI 模型關聯性是根據一個資料表中單一不重複的資料行�
 
 ### <a name="type-1-scd"></a>類型 1 SCD
 
-**類型 1** **SCD** 一律會反映最新的值；當偵測到來源資料中的變更時，只會覆寫維度資料表資料。 此設計方法常見於儲存補充值的資料行，例如客戶的電子郵件地址或電話號碼。 當客戶的電子郵件地址或電話號碼變更時，維度資料表會以新的值更新客戶資料列。 就像客戶總是擁有此連絡人資訊一樣。
+**類型 1** **SCD** 一律會反映最新的值；當偵測到來源資料中的變更時，將會覆寫維度資料表資料。 此設計方法常見於儲存補充值的資料行，例如客戶的電子郵件地址或電話號碼。 當客戶的電子郵件地址或電話號碼變更時，維度資料表會以新的值更新客戶資料列。 就像客戶總是擁有此連絡人資訊一樣。
 
 Power BI 模型維度類型資料表非累加式重新整理會達成類型 1 SCD 的結果。 它會重新整理資料表資料，以確保載入最新的值。
 
 ### <a name="type-2-scd"></a>類型 2 SCD
 
-**類型 2** **SCD** 支援維度成員的版本設定。 如果來源系統不會儲存版本，則通常會由資料倉儲載入處理序來偵測變更，並適當地管理維度資料表中的變更。 在此情況下，維度資料表必須使用 Surrogate 索引鍵來提供維度成員「版本」  的唯一參考。 它也包含定義版本有效日期範圍的資料行 (例如 **StartDate** 和 **EndDate**)，以及 (如果可能的話) 用於輕鬆依目前維度成員進行篩選的旗標資料行 (例如 **IsCurrent**)。
+**類型 2** **SCD** 支援維度成員的版本設定。 如果來源系統不會儲存版本，則通常會由資料倉儲載入處理序來偵測變更，並適當地管理維度資料表中的變更。 在此情況下，維度資料表必須使用 Surrogate 索引鍵來提供維度成員「版本」  的唯一參考。 它也包含定義版本有效日期範圍的資料行 (例如 **StartDate** 與 **EndDate**)，而且也可能包含用來輕鬆依目前維度成員進行篩選的旗標資料行 (例如 **IsCurrent**)。
 
 例如，Adventure Works 會將銷售人員指派給銷售區域。 當銷售人員變換區域時，必須建立新的銷售人員版本，以確保歷程記錄事實與先前的區域保持關聯。 為了支援對銷售人員銷售量進行準確的歷程記錄分析，維度資料表必須儲存銷售人員的版本及其相關聯的區域。 資料表也應該包含開始和結束日期值，以定義有效期間。 目前的版本可以定義空白結束日期 (或 12/31/9999)，其表示資料列是目前的版本。 資料表也必須定義 Surrogate 索引鍵，因為商務索引鍵 (在本例中為員工識別碼) 不是唯一的。
 
@@ -166,6 +166,8 @@ Power BI 模型應該支援查詢成員的歷程記錄資料 (不論是否有變
 - 確定資料行名稱是自我描述的。 雖然所有日期資料表中都可能會有 [年份]  資料行 (資料行名稱在其資料表中是唯一的)，但這不是預設視覺效果標題的自我描述。 請考慮重新命名每個維度角色資料表中的資料行，讓 [出貨日期]  資料表具有一個名為 [出貨年份]  等的年份資料行。
 - 如果相關，請確定資料表描述會提供關於如何設定篩選傳播的意見反應給報表作者 (透過 [欄位]  窗格工具提示)。 當模型包含一般名稱的資料表 (例如 [日期]  ) 時，此明確性會很重要，這可用來篩選多個事實類型資料表。 如果此資料表與轉售商銷售訂單日期資料行有作用中的關聯性，請考慮提供「依訂單日期篩選轉售商銷售」之類的資料表描述。
 
+如需詳細資訊，請參閱[作用中與非作用中關聯性指導方針](relationships-active-inactive.md) \(英文\)。
+
 ## <a name="junk-dimensions"></a>雜項維度
 
 **雜項維度**適用於有許多維度 (特別是由幾個屬性或可能一個屬性所組成)，且這些屬性有幾個值的情況。 良好的候選項目包括訂單狀態資料行，或客戶人口統計資料行 (性別、年齡群組等)。
@@ -182,9 +184,11 @@ Power BI 模型應該支援查詢成員的歷程記錄資料 (不論是否有變
 
 **變質維度**是指篩選所需的事實資料表屬性。 在 Adventure Works，轉售商銷售訂單號碼就是一個很好的例子。 在此案例中，建立只包含這個資料行的獨立資料表不算是良好模型設計，因為它會增加模型儲存空間大小並導致 [欄位]  窗格雜亂。
 
-在 Power BI 模型中，您可以適當地將銷售訂單號碼資料行新增至事實類型資料表，以允許依銷售訂單號碼進行篩選或群組。 這是先前所介紹不應該混合資料表類型 (也就是模型資料表通常應該全部是維度類型或事實類型) 規則的例外。
+在 Power BI 模型中，您可以適當地將銷售訂單號碼資料行新增至事實類型資料表，以允許依銷售訂單號碼進行篩選或群組。 這是先前所介紹不應該混合資料表類型規則的例外 (一般來說，模型資料表通常應該全部是維度類型或事實類型)。
 
 ![變質維度範例](media/star-schema/degenerate-dimension.png)
+
+如需詳細資訊，請參閱[一對一關聯性指導方針 (變質維度)](relationships-one-to-one.md#degenerate-dimensions)。
 
 ## <a name="factless-fact-tables"></a>非事實資料表
 
@@ -198,7 +202,7 @@ Power BI 模型應該支援查詢成員的歷程記錄資料 (不論是否有變
 
 ![非事實資料表範例](media/star-schema/factless-fact.png)
 
-此多對多設計方法已妥善記載，且可以在沒有橋接資料表的情況下達成。 不過，橋接資料表方法被視為關聯兩個維度時的最佳做法。 如需詳細資訊，請參閱 [Power BI Desktop 中的多對多基數關聯性](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)。
+此多對多設計方法已妥善記載，且可以在沒有橋接資料表的情況下達成。 不過，橋接資料表方法被視為關聯兩個維度時的最佳做法。 如需詳細資訊，請參閱[多對多關聯性指導方針 (建立兩個維度類型資料表的關聯)](relationships-many-to-many.md#relate-many-to-many-dimensions)。
 
 ## <a name="next-steps"></a>後續步驟
 
@@ -206,6 +210,9 @@ Power BI 模型應該支援查詢成員的歷程記錄資料 (不論是否有變
 
 - [Dimensional modeling (維度模型) Wikipedia 文章](https://go.microsoft.com/fwlink/p/?linkid=246459)
 - [Create and manage relationships in Power BI Desktop](../desktop-create-and-manage-relationships.md) (在 Power BI Desktop 中建立和管理關聯性)
-- [Relationships with a many-many cardinality in Power BI Desktop](../desktop-many-to-many-relationships.md) (Power BI Desktop 中的多對多基數關聯性)
-- [模型引導式學習體驗](/learn/modules/model-data-power-bi/)
+- [一對一關聯性指導方針](relationships-one-to-one.md)
+- [多對多關聯性指引](relationships-many-to-many.md)
+- [雙向關聯性指導方針](relationships-bidirectional-filtering.md)
+- [作用中與非作用中關聯性指導方針](relationships-active-inactive.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

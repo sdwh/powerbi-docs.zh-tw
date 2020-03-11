@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b5ef7e99edbf862891811047ea5f1f961aaea348
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 5eab21418eb1028d94ba2e50ffd6e736e6226018
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527583"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237906"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI 中閘道的單一登入 (SSO) 概觀
 
@@ -25,8 +25,8 @@ Power BI 支援下列資料來源：
 * SQL Server (Kerberos)
 * SAP HANA (Kerberos 和 SAML)
 * SAP BW 應用程式伺服器 (Kerberos)
-* SAP BW 訊息伺服器 (Kerberos) - 公開預覽
-* Oracle (Kerberos) - 公開預覽
+* SAP BW 訊息伺服器 (Kerberos) 
+* Oracle (Kerberos) 
 * Teradata (Kerberos)
 * Spark (Kerberos)
 * Impala (Kerberos)

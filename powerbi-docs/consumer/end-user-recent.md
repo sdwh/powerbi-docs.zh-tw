@@ -40,10 +40,10 @@ ms.locfileid: "73862436"
 
 ## <a name="actions-available-from-the-recent-content-list"></a>可從 [最近]  內容清單中取得的動作
 可供您使用的動作將取決於內容「設計師」  所指派設定。 您的某些選項可能包括：
-* 選取星號圖示，以[將儀表板、報表或應用程式設為我的最愛](end-user-favorite.md) ![星號圖示](./media/end-user-shared-with-me/power-bi-star-icon.png)。
+* 選取星星圖示，以[將儀表板、報表或應用程式設為我的最愛](end-user-favorite.md) ![星號圖示](./media/end-user-shared-with-me/power-bi-star-icon.png)。
 * 有些儀表板和報表可以重複共用  ![共用圖示](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
 * [以 Excel 開啟報表](end-user-export.md) ![匯出至 Excel 圖示](./media/end-user-shared-with-me/power-bi-excel.png) 
-* [檢視 Power BI 在資料中找到的見解](end-user-insights.md) ![見解圖示](./media/end-user-shared-with-me/power-bi-insights.png)。
+* [檢視 Power BI 在資料中找到的見解](end-user-insights.md)![見解圖示](./media/end-user-shared-with-me/power-bi-insights.png)。
 * 此外，如果您的清單太長，請[使用搜尋欄位和排序找出您需要的內容](end-user-search-sort.md)。 若要了解是否可以排序資料行，請將游標停留其上以查看是否出現箭號。 在此範例中，將游標停留在 [上次存取]  上方會顯示箭號 -- 您最近的內容可以依存取日期排序。 
 
     ![排序所有最近內容](./media/end-user-recent/power-bi-recent-sort.png)

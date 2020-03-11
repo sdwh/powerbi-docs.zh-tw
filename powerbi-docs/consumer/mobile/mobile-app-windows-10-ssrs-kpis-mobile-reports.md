@@ -45,7 +45,7 @@ Power BI for Windows 10 行動裝置應用程式提供 SQL Server 2016 Reporting
 瀏覽與 KPI 和行動報表互動的範例。
 
 ## <a name="connect-to-a-reporting-services-report-server"></a>連線到 Reporting Services 報表伺服器
-1. 在導覽窗格的底部，點選 [設定]  ![[設定] 圖示](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
+1. 在導覽窗格的底部，點選 [設定]  ![設定圖示](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
 2. 點選 [連線到伺服器]  。
 3. 請填入伺服器位址以及使用者名稱和密碼。 請使用此格式的伺服器位址︰
    
@@ -95,7 +95,7 @@ Reporting Services KPI 和行動報表皆顯示在 Reporting Services 入口網�
 ## <a name="remove-a-connection-to-a-report-server"></a>移除報表伺服器的連接
 您只能一次性從 Power BI 行動裝置應用程式連接到一部報表伺服器。 如果您要連接到其他伺服器，則必須先從目前伺服器中斷連接。
 
-1. 在導覽窗格的底部，點選 [設定]  ![[設定] 圖示](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)。
+1. 在導覽窗格的底部，點選 [設定]  ![設定圖示](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)。
 2. 點選並按住您不要連接的伺服器名稱。
 3. 點選 [移除伺服器]  。
    

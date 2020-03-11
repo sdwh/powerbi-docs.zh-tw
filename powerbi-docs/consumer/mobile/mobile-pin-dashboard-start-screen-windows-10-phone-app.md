@@ -22,7 +22,7 @@ ms.locfileid: "73869854"
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-live-tile"></a>將儀表板釘選到開始畫面成為動態磚
 1. 開啟儀表板。
-2. 點選 [釘選到開始]  ![釘選到開始圖示](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png)。
+2. 點選 [釘選到開始]  ![[釘選到開始] 圖示](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png)。
    
    ![Windows 10 行動裝置應用程式頂端列](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start.png)
    

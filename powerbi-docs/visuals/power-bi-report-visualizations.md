@@ -27,7 +27,7 @@ ms.locfileid: "74099083"
 
 ![具有每個視覺效果類型圖示的窗格](media/power-bi-report-visualizations/power-bi-icons.png)
 
-如需更多的選擇，請前往 [Microsoft AppSource 社群網站](https://appsource.microsoft.com)以尋找並[下載](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) \(英文\) Microsoft 和社群所提供的[自訂視覺效果](../developer/visuals/custom-visual-develop-tutorial.md)。
+如需更多的選擇，請前往 [Microsoft AppSource 社群網站](https://appsource.microsoft.com)以尋找並[下載](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) Microsoft 與社群所提供的[自訂視覺效果](../developer/visuals/custom-visual-develop-tutorial.md)。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 

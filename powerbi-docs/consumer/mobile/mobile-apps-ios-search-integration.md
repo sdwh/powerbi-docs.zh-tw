@@ -44,7 +44,7 @@ ms.locfileid: "73879220"
 
 >[!NOTE]
 >
->若要停用裝置搜尋和 Siri 建議，請移至 [裝置設定]  > [Power BI 設定]  > [Siri & Search] \(Siri 與搜尋\)  ，然後停用 [Siri & suggestions] \(Siri 與建議\)  設定。
+>若要停用裝置搜尋與 Siri 建議，請移至 [裝置設定]  > [Power BI 設定]  > [Siri 與搜尋]  ，然後停用 [Siri 與建議]  設定。
 >
 
 ## <a name="next-steps"></a>後續步驟

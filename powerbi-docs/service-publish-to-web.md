@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609935"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237975"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -134,6 +134,7 @@ ms.locfileid: "77609935"
 
 - 使用資料列層級安全性的報表。
 - 使用任何即時連線資料來源的報表，包括裝載於內部部署 的 Analysis Services 表格式、Analysis Service 多維度和 Azure Analysis Services。
+- 使用[共用資料集](service-datasets-across-workspaces.md)的報表 (儲存在與報表不同的工作區中)。
 - 直接或透過組織內容套件與您共用的報表。
 - 位在您非屬編輯成員之群組中的報表。
 - [發佈至 Web]  報表目前不支援 "R" 視覺效果。

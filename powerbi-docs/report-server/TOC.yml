@@ -1,4 +1,5 @@
-- name: Power BI 報表伺服器
+- name: Power BI 報表伺服器文件
+  href: index.yml
   expanded: true
   items:
     - name: 概觀

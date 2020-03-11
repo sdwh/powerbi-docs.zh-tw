@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 02/17/2020
-ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.date: 03/01/2020
+ms.openlocfilehash: 8aea9041665de69b2c5be954dc8f13a6402a06e0
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782419"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260753"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>取得 Power BI 視覺效果認證
 
@@ -56,10 +56,14 @@ Power BI 視覺效果一旦經過認證，便能提供更多的功能。 例如�
 使用最新版本的 API 來撰寫 Power BI 視覺效果。
 
 存放庫必須包含下列檔案：
-* **.gitignore** - 將 `node_modules` 新增至此檔案。 程式碼不能包含 node_modules  資料夾。
+* **.gitignore** - 將 `node_modules`、`.tmp`、`dist` 新增至此檔案。 程式碼不能包含 *node_modules*、 *.tmp* 或 *dist* 資料夾。
 * **capabilities.json** - 如果您要提交較新版本的 Power BI 視覺效果，並變更此檔案中的屬性，請確認它們不會中斷現有使用者的報告。
-* **pbiviz.json**
-* **package.json**
+* **pbiviz.json** 
+* **package.json**. 視覺效果必須已安裝下列套件：
+   * ["tslint"](https://www.npmjs.com/package/tslint)："5.18.0" 或更高版本
+   * ["typescript"](https://www.npmjs.com/package/typescript)："3.0.0" 或更高版本
+   * ["tslint-microsoftcontrib"](https://www.npmjs.com/package/tslint-microsoft-contrib)："6.2.0" 或更高版本
+   * 檔案必須包含用於執行 linter 的命令："lint"："tslint -c tslint.json -p tsconfig.json"
 * **package-lock.json**
 * **tsconfig.json**
 
@@ -70,7 +74,7 @@ Power BI 視覺效果一旦經過認證，便能提供更多的功能。 例如�
 * `npm install`
 * `pbiviz package`
 * `npm audit` - 不得傳回任何層級為高或中的警告。
-* [TSlint from Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib)，不具任何已覆寫的設定。 此命令不得傳回任何 lint 錯誤。
+* [Microsoft 提供的 TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib)，且必須具有[必要設定](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/master/tslint.json)。 此命令不得傳回任何 lint 錯誤。
 
 ### <a name="compiling-requirements"></a>編譯需求
 

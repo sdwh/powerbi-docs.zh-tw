@@ -26,7 +26,7 @@ ms.locfileid: "73871065"
 
 1. 從空白報表頁面開始。 如果您使用 Power BI 服務，請務必在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報表。
 
-2. 從 [欄位] 窗格，選取 [SalesFact]  \> [單位總量]  ，然後選取 [日期]   > [月份]  。  Power BI 會在您的報表畫布上建立一個直條圖。
+2. 從 [欄位] 窗格，選取 [SalesFact]  \> [Total units]  \(單位總量\)，然後選取 [Date]  \(日期\) > [Month]  \(月份\)。  Power BI 會在您的報表畫布上建立一個直條圖。
 
     ![從 [欄位] 窗格選取](media/power-bi-line-charts/power-bi-step1.png)
 
@@ -35,7 +35,7 @@ ms.locfileid: "73871065"
     ![轉換成折線圖](media/power-bi-line-charts/power-bi-convert-to-line.png)
    
 
-4. 篩選您的折線圖，顯示 2012-2014 年的資料。 如果您的 [篩選] 窗格已摺疊，請立即展開。 從 [欄位] 窗格，選取 [日期]  \> [年份]  ，然後將它拖曳至 [篩選] 窗格。 將它置放在標題 [此視覺效果上的篩選]  下。 
+4. 篩選您的折線圖，顯示 2012-2014 年的資料。 如果您的 [篩選] 窗格已摺疊，請立即展開。 從 [欄位] 窗格，選取 [Date]  \(日期\) \> [Year]  \(年份\)，然後將它拖曳至 [篩選] 窗格。 將它置放在標題 [此視覺效果上的篩選]  下。 
      
     ![[欄位] 窗格旁的線條](media/power-bi-line-charts/power-bi-year-filter.png)
 
