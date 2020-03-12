@@ -19,7 +19,7 @@
     - name: 概念
       expanded: true
       items:
-        - name: 建立模型關聯性
+        - name: 了解模型關聯性
           href: ../desktop-relationships-understand.md
         - name: 使用模型檢視
           href: ../desktop-modeling-view.md

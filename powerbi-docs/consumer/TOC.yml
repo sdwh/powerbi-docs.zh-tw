@@ -66,6 +66,8 @@
               href: end-user-powerpoint.md
             - name: 將書籤新增至報表
               href: end-user-bookmarks.md
+            - name: 將焦點新增至報表
+              href: end-user-spotlight.md
             - name: Power BI 中的編頁報表
               items:
                 - name: 編頁報表
@@ -116,6 +118,8 @@
               href: end-user-notification-center.md
         - name: 取得資料
           items:
+            - name: Power BI 中的工作區
+              href: end-user-workspaces.md
             - name: Power BI 的應用程式
               href: end-user-apps.md
             - name: 安裝及使用應用程式
