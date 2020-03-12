@@ -313,8 +313,6 @@
               href: ../desktop-accessibility-consuming-tools.md
             - name: Power BI Desktop 中的鍵盤快速鍵
               href: ../desktop-accessibility-keyboard-shortcuts.md
-        - name: 資料譜系
-          href: ../service-data-lineage.md
         - name: 編頁報表
           items:
             - name: 直接在分頁報表中輸入資料
