@@ -7,17 +7,20 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/24/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 80c11aef2e985304c824fe1948a6bec867e6cb33
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f59d83823ee14648cb8c3d3fe740074d057d3425
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862436"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114367"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Power BI 服務中的 [最近]  內容
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 [最近] 內容是您在 Power BI 服務中最後瀏覽的項目，最多 20 個。  這些包括︰儀表板、報表、應用程式和活頁簿。
 
 ![最近內容視窗](./media/end-user-recent/power-bi-recent.png)

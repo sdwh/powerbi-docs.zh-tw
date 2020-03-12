@@ -7,17 +7,20 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ad7e2133d531abcbb2165dc2be9846a6a70f4fc0
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 1ce2445e0b2d92551a5554f32dc3b9e2a751e7b6
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537410"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113519"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>選擇加入 Power BI 服務預覽功能
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
+
 ## <a name="what-are-preview-features"></a>什麼是「預覽功能」  ？
 當我們改善 Power BI 服務時，會以「預覽功能」  的形式發行一些新功能。 您可以開啟或關閉預覽功能，以獲得試用機會。
 

@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039143"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114168"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的視覺效果類型
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
+
 您會在報表、儀表板及問與答中看見視覺效果。 其中一些視覺效果類型是隨 Power BI 一同封裝，而某些則是「自訂視覺效果」  。 自訂視覺效果是在 Power BI 外部建立，且其建立方式允許報表「設計師」  將它們新增至 Power BI 報表和儀表板。 
 
 此文章概述隨 Power BI 服務一同封裝的視覺效果。  這些是您最常會遇到的視覺效果。 如需這些視覺效果的深入資訊，請參閱[關於視覺效果類型的 Power BI 報表「設計師」  文件](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)

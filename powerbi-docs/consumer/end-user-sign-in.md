@@ -7,17 +7,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5f48ae801944e3f27045a038c13d394c21225468
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 753458b4db621fff5a4bba4aebb96543284013ff
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77153974"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114113"
 ---
 # <a name="sign-in-to-power-bi-service"></a>登入 Power BI 服務
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 ## <a name="power-bi-accounts"></a>Power BI 帳戶
 在您登入 Power BI 之前，您需要一個帳戶。 有兩種方式可取得 Power BI 帳戶。 第一種是當您的公司為其員工購買 Power BI 授權時。 而第二種是當個人註冊免費試用版或個人授權時。 本文涵蓋第一種狀況。

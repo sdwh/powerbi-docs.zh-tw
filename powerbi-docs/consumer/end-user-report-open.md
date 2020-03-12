@@ -6,16 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/14/2019
+ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: a4b8dd876cfaca3fa4ad91bf5b4d94aa5b4be311
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 6ffdc73e5e9ef9ccd416378c19da587986c80b55
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75217979"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114343"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>在適用於「取用者」  的 Power BI 服務中檢視報表
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 

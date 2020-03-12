@@ -6,17 +6,20 @@ ms.reviewer: chris finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/02/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a66189707bc6b688be012eeb59881ce4a8517ea1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 0ab2ececd4ede03a10094be53a2c08617463cc53
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74830483"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113104"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI 服務中的編頁報表
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 您已了解 [Power BI 報表](end-user-reports.md)，這些是您最可能遇到的報表類型。 不過，還有另一種類型的報表，稱為「編頁報表」  。 報表「設計師」  可以在 Premium 容量的工作區或該工作區的應用程式中與您共用編頁報表。 
 
 ## <a name="what-is-a-paginated-report"></a>什麼是編頁報表？

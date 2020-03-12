@@ -1,19 +1,19 @@
 ---
 title: 在 Power BI 行動裝置應用程式中設定資料警示
 description: 了解如何在 Power BI 行動裝置應用程式中設定警示，以在儀表板中的資料變更超出您設定的限制時通知您。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 7668df00d63fc1bdb8bb0e113fa9ad7e0f029147
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 3af0470e29b4f71cf8948bff4c1b317304533ac8
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221324"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114659"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中設定資料警示
 適用於︰
