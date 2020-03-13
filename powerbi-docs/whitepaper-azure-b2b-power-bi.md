@@ -10,11 +10,11 @@ ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
 ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870901"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79213595"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>使用 Azure Active Directory B2B 將 Power BI 內容散發給外部來賓使用者
 
@@ -38,7 +38,7 @@ Power BI 與[Azure Active Directory 的企業對企業（AZURE AD B2B）](https:
 > [!NOTE]
 > 在此白皮書中，我們將 Azure Active Directory 稱為 Azure AD，並 Azure Active Directory 企業對企業 Azure AD B2B。
 
-## <a name="scenarios"></a>場景
+## <a name="scenarios"></a>案例
 
 Contoso 是一家汽車製造商，可與許多不同的供應商合作，以提供執行其製造作業所需的所有元件、材質和服務。 Contoso 想要簡化其供應鏈物流，並計畫使用 Power BI 來監視其供應鏈的關鍵效能計量。 Contoso 想要以安全且可管理的方式與外部供應鏈合作夥伴分析分享。
 
@@ -218,7 +218,7 @@ Power BI 與 Azure AD B2B 的整合提供了一種順暢且輕鬆的方式，讓
 
 - Contoso 的 BI 小組會在 Power BI 中建立工作區
 
-    ![區域](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
+    ![workspace](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
     
 
 - 其他作者會新增至工作區
@@ -283,7 +283,7 @@ Power BI 與 Azure AD B2B 的整合提供了一種順暢且輕鬆的方式，讓
     > 只有第一次邀請外部使用者加入您的組織時，才需要邀請。
 
 
-3. 散發內容
+3. 發佈內容
 
     既然 Contoso 的 BI 小組已建立 BI 入口網站和受邀的來賓使用者，他們就可以提供來賓使用者對應用程式的存取權並加以發佈，將其入口網站散發給他們的使用者。 Power BI 自動完成先前已新增至 Contoso 租使用者之來賓使用者的名稱。 您也可以在此時新增其他來賓使用者的臨機操作邀請。
 
@@ -586,7 +586,7 @@ Contoso 的另一個選項是使用自訂驗證（「[應用程式擁有資料](
 
 在 web 應用程式內，會從 Power BI Embedded 部署內嵌 Power BI 報表。 Web 應用程式會以一致的體驗，簡化對報表和任何相關服務的存取，目的在於讓供應商能夠輕鬆與 Contoso 互動。 此入口網站環境會與 Contoso 內部 AAD 和 Contoso 的內部 Power BI 環境隔離，以確保供應商無法存取這些資源。 一般而言，資料會儲存在個別的合作夥伴資料倉儲中，以確保資料的隔離。 這項隔離有其優點，因為它會限制可直接存取您組織資料的外部使用者數目、限制外部使用者可能可以使用的資料，以及限制不小心與外部使用者共用。
 
-使用 Power BI Embedded，入口網站可以利用有利的授權、使用應用程式權杖或主要使用者加上在 Azure 模型中購買的 premium 容量，這可簡化將授權指派給使用者的疑慮，並可根據預期相應增加/減少實例. 入口網站可以提供整體高品質和一致的體驗，因為合作夥伴會存取單一入口網站，並將其設計為所有合作夥伴的需求。 最後，由於以 Power BI Embedded 為基礎的解決方案通常是設計為多租使用者，因此可讓您更輕鬆地確保夥伴組織之間的隔離。
+使用 Power BI Embedded，入口網站可以利用有利的授權、使用應用程式權杖或主要使用者加上在 Azure 模型中購買的 premium 容量，這可簡化將授權指派給使用者的疑慮，並可根據預期的使用量相應增加/減少。 入口網站可以提供整體高品質和一致的體驗，因為合作夥伴會存取單一入口網站，並將其設計為所有合作夥伴的需求。 最後，由於以 Power BI Embedded 為基礎的解決方案通常是設計為多租使用者，因此可讓您更輕鬆地確保夥伴組織之間的隔離。
 
 選擇此替代方法的理由：
 
@@ -616,7 +616,7 @@ Contoso 的另一個選項是使用自訂驗證（「[應用程式擁有資料](
 
 **如果來賓使用者的夥伴沒有多重要素驗證，Contoso 是否可以強制執行多重要素驗證？**
 
-是。 如需詳細資訊，請參閱 B2B 共同作業[使用者的條件式存取](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)。
+是的。 如需詳細資訊，請參閱 B2B 共同作業[使用者的條件式存取](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)。
 
 **當受邀的合作夥伴使用同盟來新增自己的內部部署驗證時，B2B 共同作業如何運作？**
 
