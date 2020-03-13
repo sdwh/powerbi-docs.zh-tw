@@ -46,6 +46,8 @@
           href: ../power-bi-data-sources.md
         - name: Power BI 資料來源必要條件
           href: ../desktop-data-source-prerequisites.md
+        - name: 使用 Power BI Desktop (預覽) 中的增強型資料集中繼資料
+          href: ../desktop-enhanced-dataset-metadata.md
         - name: 使用 Power BI 中的多維度模型
           href: ../desktop-default-member-multidimensional-models.md
         - name: 如何在 Power BI 中使用 DirectQuery
