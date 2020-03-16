@@ -129,6 +129,8 @@
               href: ../desktop-insights-find-where-different.md
             - name: 建立按鈕
               href: ../desktop-buttons.md
+            - name: 建立鑽研按鈕
+              href: ../desktop-drill-through-buttons.md
             - name: 建立書籤以儲存並共用見解
               href: ../desktop-bookmarks.md
             - name: 使用報表主題
