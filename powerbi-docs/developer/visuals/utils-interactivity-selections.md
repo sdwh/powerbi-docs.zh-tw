@@ -7,279 +7,284 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
-ms.date: 06/18/2019
-ms.openlocfilehash: be7a708dfcc6ebc40c62a1a9075e2cbf134363b1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.topic: how-to
+ms.date: 02/24/2020
+ms.openlocfilehash: 3614505cec185779bce3f63c6e7a565a5ef39443
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818678"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920888"
 ---
-# <a name="microsoft-power-bi-visuals-interactivity-utils"></a>Microsoft Power BI 視覺效果互動功能公用程式
+# <a name="power-bi-visuals-interactivity-utils"></a>Power BI 互動功能公用程式
 
-InteractivityUtils 是一組函式和類別，可簡化 Power BI 自訂視覺效果的交叉選取和交叉篩選實作。
+Interactivity 公用程式 (`InteractivityUtils`) 是一組函式與類別，可用來簡化交叉選取和交叉篩選實作。
+
+> [!NOTE]
+> 互動功能公用程式的新更新僅支援最新版本的工具 (3.x.x 與更新版本)。
 
 ## <a name="installation"></a>安裝
 
-> [!NOTE]
-> 如果您繼續使用舊版本的 powerbi-visuals-tools (版本號碼小於 3.x.x)，則請安裝新版工具 (3.x.x)。
+1. 若要安裝套件，請在具有目前 Power BI 視覺效果專案的目錄中執行下列命令。
 
-> [!IMPORTANT]
-> 互動功能公用程式的新更新僅支援最新版本的工具。 [深入了解如何更新視覺效果程式碼以搭配最新的工具使用](migrate-to-new-tools.md)
+    ```bash
+    npm install powerbi-visuals-utils-interactivityutils --save
+    ```
 
-若要安裝套件，您應該在具有目前自訂視覺效果的目錄中執行下列命令：
+2. 如果您使用的是 3.0 版或更新版本或工具，請安裝 `powerbi-models` 以解決相依性。
 
-```bash
-npm install powerbi-visuals-utils-interactivityutils --save
-```
+    ```bash
+    npm install powerbi-models --save
+    ```
 
-從 3.0 版或更新版本，您也需要安裝 ```powerbi-models``` 來解析相依性。
+3. 若要使用互動功能公用程式，請在 Power BI 視覺效果原始程式碼中匯入必要元件。
 
-```bash
-npm install powerbi-models --save
-```
+    ```typescript
+    import { interactivitySelectionService } from "powerbi-visuals-utils-interactivityutils";
+    ```
 
-針對使用者互動功能公用程式，您必須在視覺效果原始程式碼中匯入必要的元件。
+### <a name="including-the-css-files"></a>包含 CSS 檔案
 
-```typescript
-import { interactivitySelectionService } from "powerbi-visuals-utils-interactivityutils";
-```
-
-### <a name="including-css-artifacts-to-the-custom-visual"></a>將 CSS 成品包含在自訂視覺效果中
-
-若要將套件與您的自訂視覺效果搭配使用，您應該將下列 CSS 檔案匯入 `your.less` 檔案：
+若要將套件與您的 Power BI 視覺效果搭配使用，請將下列 CSS 檔案匯入您的 `.less` 檔案。
 
 `node_modules/powerbi-visuals-utils-interactivityutils/lib/index.css`
 
-因此，您將會有下列檔案結構：
+將 CSS 檔案作為 `.less` 檔案匯入，因為 Power BI 視覺效果工具會包裝外部 CSS 規則。
 
 ```less
 @import (less) "node_modules/powerbi-visuals-utils-interactivityutils/lib/index.css";
 ```
 
-> [!NOTE]
-> 您應該將 .css 檔案匯入為 .less 檔案，因為 Power BI 視覺效果工具會包裝外部 CSS 規則。
+## <a name="selectabledatapoint-properties"></a>SelectableDataPoint 屬性
 
-## <a name="usage"></a>使用量
+通常資料點會包含選取項目和值。 該介面會擴充 `SelectableDataPoint` 介面。
 
-### <a name="define-interface-for-data-points"></a>定義資料點的介面
-
-通常資料點會包含選取項目和值。 該介面會擴充 `SelectableDataPoint` 介面。 `SelectableDataPoint` 已包含屬性：
+`SelectableDataPoint` 已包含屬性，如下所述。
 
 ```typescript
-  /** Flag for identifying that data point was selected */
+  /** Flag for identifying that a data point was selected */
   selected: boolean;
+
   /** Identity for identifying the selectable data point for selection purposes */
   identity: powerbi.extensibility.ISelectionId;
-  /**
+
+  /*
    * A specific identity for when data points exist at a finer granularity than
-   * selection is performed.  For example, if your data points should select based
-   * only on series even if they exist as category/series intersections.
+   * selection is performed.  For example, if your data points select based
+   * only on series, even if they exist as category/series intersections.
    */
+
   specificIdentity?: powerbi.extensibility.ISelectionId;
 ```
 
-使用互動功能公用程式的第一個步驟是建立互動功能公用程式的執行個體，並將物件另存為視覺效果的屬性
+## <a name="defining-an-interface-for-data-points"></a>定義資料點的介面
 
-```typescript
-export class Visual implements IVisual {
-  // ...
-  private interactivity: interactivityBaseService.IInteractivityService<VisualDataPoint>;
-  // ...
-  constructor(options: VisualConstructorOptions) {
+1. 建立互動功能公用程式的執行個體，並將物件另存為視覺效果的屬性
+
+    ```typescript
+    export class Visual implements IVisual {
       // ...
-      this.interactivity = interactivitySelectionService.createInteractivitySelectionService(this.host);
+      private interactivity: interactivityBaseService.IInteractivityService<VisualDataPoint>;
       // ...
-  }
-}
-```
+      constructor(options: VisualConstructorOptions) {
+          // ...
+          this.interactivity = interactivitySelectionService.createInteractivitySelectionService(this.host);
+          // ...
+      }
+    }
+    ```
 
-```typescript
-import { interactivitySelectionService } from "powerbi-visuals-utils-interactivityutils";
+    ```typescript
+    import { interactivitySelectionService } from "powerbi-visuals-utils-interactivityutils";
 
-export interface VisualDataPoint extends interactivitySelectionService.SelectableDataPoint {
-    value: powerbi.PrimitiveValue;
-}
-```
+    export interface VisualDataPoint extends interactivitySelectionService.SelectableDataPoint {
+        value: powerbi.PrimitiveValue;
+    }
+    ```
 
-第二個步驟是擴充基底行為類別：
+2. 延伸基底行為類別。
 
-> [!NOTE]
-> [互動功能公用程式的 5.6.x 版本](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0) \(英文\) 中引入了 BaseBehavior。 如果您使用舊版本，則請從下列範例建立行為類別 (`BaseBehavior` 類別相同)：
+    > [!NOTE]
+    > [互動功能公用程式的 5.6.x 版本](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0) \(英文\) 中引進了 `BaseBehavior`。 如果您使用舊版本，請從下列範例建立行為類別。
 
-定義行為類別的選項介面：
+3. 定義行為類別選項的介面。
 
-```typescript
-import { SelectableDataPoint } from "./interactivitySelectionService";
+    ```typescript
+    import { SelectableDataPoint } from "./interactivitySelectionService";
 
-import {
-    IBehaviorOptions,
-    BaseDataPoint
-} from "./interactivityBaseService";
+    import {
+        IBehaviorOptions,
+        BaseDataPoint
+    } from "./interactivityBaseService";
 
-export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoint> extends IBehaviorOptions<SelectableDataPointType> {
-    /** D3 selection object of main elements on the chart */
+    export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoint> extends IBehaviorOptions<SelectableDataPointType> {
+
+    /** d3 selection object of the main elements on the chart */
     elementsSelection: Selection<any, SelectableDataPoint, any, any>;
-    /** D3 selection object of some element on backgroup to hadle click of reset selection */
+
+    /** d3 selection object of some elements on backgroup, to hadle click of reset selection */
     clearCatcherSelection: d3.Selection<any, any, any, any>;
-}
-```
+    }
+    ```
 
-定義 `visual behavior` 的類別。 負責處理 `click`、`contextmenu` 滑鼠事件的類別。
-當使用者按一下資料元素時，視覺效果接著會呼叫選取項目處理常式來選取資料點。 如果使用者按一下視覺效果的背景元素，則會呼叫清除選取項目處理常式。 且類別有對應的方法：`bindClick`、`bindClearCatcher`、`bindContextMenu`。
+4. 定義 `visual behavior` 的類別。 或者，擴充 `BaseBehavior` 類別。
 
-```typescript
-export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
-    /** D3 selection object of main elements on the chart */
-    protected options: BaseBehaviorOptions<SelectableDataPointType>;
-    protected selectionHandler: ISelectionHandler;
+    **定義 `visual behavior` 的類別**
 
+    該類別負責處理 `click` `contextmenu` 滑鼠事件。
+
+    當使用者按一下資料元素時，視覺效果會呼叫選取項目處理常式來選取資料點。 如果使用者按一下視覺效果的背景元素，則會呼叫清除選取項目處理常式。
+
+    類別有下列對應的方法：
+    * `bindClick`
+    * `bindClearCatcher`
+    * `bindContextMenu`.
+
+    ```typescript
+    export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
+
+        /** d3 selection object of main elements in the chart */
+        protected options: BaseBehaviorOptions<SelectableDataPointType>;
+        protected selectionHandler: ISelectionHandler;
+    
+        protected bindClick() {
+          // ...
+        }
+    
+        protected bindClearCatcher() {
+          // ...
+        }
+    
+        protected bindContextMenu() {
+          // ...
+        }
+    
+        public bindEvents(
+            options: BaseBehaviorOptions<SelectableDataPointType>,
+            selectionHandler: ISelectionHandler): void {
+          // ...
+        }
+    
+        public renderSelection(hasSelection: boolean): void {
+          // ...
+        }
+    }
+    ```
+
+    **擴充 `BaseBehavior` 類別**
+
+    ```typescript
+    import powerbi from "powerbi-visuals-api";
+    import { interactivitySelectionService, baseBehavior } from "powerbi-visuals-utils-interactivityutils";
+
+    export interface VisualDataPoint extends interactivitySelectionService.SelectableDataPoint {
+        value: powerbi.PrimitiveValue;
+    }
+
+    export class Behavior extends baseBehavior.BaseBehavior<VisualDataPoint> {
+      // ...
+    }
+    ```
+
+5. 若要處理元素上的點擊，請呼叫 *d3* 選取項目物件 `on` 方法。 這也適用於 `elementsSelection` 與 `clearCatcherSelection`。
+
+    ```typescript
     protected bindClick() {
-      // ...
+      const {
+          elementsSelection
+      } = this.options;
+    
+      elementsSelection.on("click", (datum) => {
+          const mouseEvent: MouseEvent = getEvent() as MouseEvent || window.event as MouseEvent;
+          mouseEvent && this.selectionHandler.handleSelection(
+              datum,
+              mouseEvent.ctrlKey);
+      });
     }
+    ```
 
-    protected bindClearCatcher() {
-      // ...
-    }
+6. 為 `contextmenu` 事件新增類似的處理常式，以呼叫選取項目管理員的 `showContextMenu` 方法。
 
+    ```typescript
     protected bindContextMenu() {
-      // ...
+        const {
+            elementsSelection
+        } = this.options;
+    
+        elementsSelection.on("contextmenu", (datum) => {
+            const event: MouseEvent = (getEvent() as MouseEvent) || window.event as MouseEvent;
+            if (event) {
+                this.selectionHandler.handleContextMenu(
+                    datum,
+                    {
+                        x: event.clientX,
+                        y: event.clientY
+                    });
+                event.preventDefault();
+            }
+        });
     }
+    ```
 
-    public bindEvents(
-        options: BaseBehaviorOptions<SelectableDataPointType>,
-        selectionHandler: ISelectionHandler): void {
-      // ...
-    }
+7. 為將函式指派給處理常式，互動功能公用程式會呼叫 `bindEvents` 方法。 將下列呼叫新增至 `bindEvents` 方法︰
+    * `bindClick`
+    * `bindClearCatcher`
+    * `bindContextMenu`
 
+    ```typescript
+      public bindEvents(
+          options: BaseBehaviorOptions<SelectableDataPointType>,
+          selectionHandler: ISelectionHandler): void {
+
+          this.options = options;
+          this.selectionHandler = selectionHandler;
+
+          this.bindClick();
+          this.bindClearCatcher();
+          this.bindContextMenu();
+      }
+    ```
+
+8. `renderSelection` 方法負責更新圖表中元素的視覺效果狀態。 以下是 `renderSelection` 的範例實作。
+
+    ```typescript
     public renderSelection(hasSelection: boolean): void {
-      // ...
+        this.options.elementsSelection.style("opacity", (category: any) => {
+            if (category.selected) {
+                return 0.5;
+            } else {
+                return 1;
+            }
+        });
     }
-}
-```
+    ```
 
-或者，您也可以擴充 `BaseBehavior` 類別：
+9. 最後一個步驟是建立 `visual behavior` 的執行個體，以及呼叫互動功能公用程式執行個體的 `bind` 方法。
 
-```typescript
-import powerbi from "powerbi-visuals-api";
-import { interactivitySelectionService, baseBehavior } from "powerbi-visuals-utils-interactivityutils";
-
-export interface VisualDataPoint extends interactivitySelectionService.SelectableDataPoint {
-    value: powerbi.PrimitiveValue;
-}
-
-export class Behavior extends baseBehavior.BaseBehavior<VisualDataPoint> {
-  // ...
-}
-```
-
-若要處理按一下元素，請呼叫 D3 選取項目物件的 `on` 方法 (也適用於 elementsSelection 和 clearCatcherSelection)：
-
-```typescript
-protected bindClick() {
-  const {
-      elementsSelection
-  } = this.options;
-
-  elementsSelection.on("click", (datum) => {
-      const mouseEvent: MouseEvent = getEvent() as MouseEvent || window.event as MouseEvent;
-      mouseEvent && this.selectionHandler.handleSelection(
-          datum,
-          mouseEvent.ctrlKey);
-  });
-}
-```
-
-為 `contextmenu` 事件新增類似的處理常式，以呼叫選取項目管理員的 `showContextMenu` 方法：
-
-```typescript
-protected bindContextMenu() {
-    const {
-        elementsSelection
-    } = this.options;
-
-    elementsSelection.on("contextmenu", (datum) => {
-        const event: MouseEvent = (getEvent() as MouseEvent) || window.event as MouseEvent;
-        if (event) {
-            this.selectionHandler.handleContextMenu(
-                datum,
-                {
-                    x: event.clientX,
-                    y: event.clientY
-                });
-            event.preventDefault();
-        }
+    ```typescript
+    this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
+        behavior: this.behavior,
+        dataPoints: this.categories,
+        clearCatcherSelection: select(this.target),
+        elementsSelection: selectionMerge
     });
-}
-```
+    ```
 
-互動功能公用程式會呼叫 `bindEvents` 方法，將函式指派給處理常式、將 `bindClick`、`bindClearCatcher`和 `bindContextMenu` 的呼叫新增至 `bindEvents` 方法中：
+    * `selectionMerge` 是 *d3* 選取項目物件，代表視覺效果所有可選取的元素。
+    * `select(this.target)` 是 *d3* 選取項目物件，代表視覺效果的主要 DOM 元素。
+    * `this.categories` 是具有元素的資料點，其中介面為 `VisualDataPoint` 或 `categories: VisualDataPoint[];`。
+    * `this.behavior` 是新的 `visual behavior` 執行個體，這是在視覺效果的建構函式中建立的，如下所示。
 
-```typescript
-  public bindEvents(
-      options: BaseBehaviorOptions<SelectableDataPointType>,
-      selectionHandler: ISelectionHandler): void {
-
-      this.options = options;
-      this.selectionHandler = selectionHandler;
-
-      this.bindClick();
-      this.bindClearCatcher();
-      this.bindContextMenu();
-  }
-```
-
-`renderSelection` 方法負責更新圖表中元素的視覺效果狀態。
-
-`renderSelection` 方法實作範例：
-
-```typescript
-public renderSelection(hasSelection: boolean): void {
-    this.options.elementsSelection.style("opacity", (category: any) => {
-        if (category.selected) {
-            return 0.5;
-        } else {
-            return 1;
-        }
-    });
-}
-```
-
-最後一個步驟是建立 `visual behavior` 的執行個體，以及互動功能公用程式執行個體 `bind` 方法的呼叫：
-
-```typescript
-this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
-    behavior: this.behavior,
-    dataPoints: this.categories,
-    clearCatcherSelection: select(this.target),
-    elementsSelection: selectionMerge
-});
-```
-
-* `selectionMerge` 是 D3 選取項目物件，代表視覺效果上所有可選取的元素。
-
-* `select(this.target)` 是 D3 選取項目物件，代表視覺效果的主要 DOM 元素。
-
-* `this.categories` 是包含元素的資料點，其中介面為 `VisualDataPoint` (或 `categories: VisualDataPoint[];`)
-
-* `this.behavior` 是 `visual behavior` 的新執行個體
-
-  在視覺效果的建構函式中建立：
-
-  ```typescript
-  export class Visual implements IVisual {
-    // ...
-    constructor(options: VisualConstructorOptions) {
+      ```typescript
+      export class Visual implements IVisual {
         // ...
-        this.behavior = new Behavior();
-    }
-    // ...
-  }
-  ```
-
-現在，您的視覺效果已準備好處理選取項目。
-
+        constructor(options: VisualConstructorOptions) {
+            // ...
+            this.behavior = new Behavior();
+        }
+        // ...
+      }
+      ```
 ## <a name="next-steps"></a>後續步驟
 
 * [了解如何處理書籤切換上的選擇](bookmarks-support.md#visuals-with-selection)

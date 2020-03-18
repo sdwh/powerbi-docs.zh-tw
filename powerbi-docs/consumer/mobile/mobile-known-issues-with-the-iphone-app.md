@@ -1,19 +1,19 @@
 ---
 title: 修正 iOS 行動裝置應用程式中的「通訊失敗」- Power BI
 description: 如果您看到下列訊息，本文可能有所幫助：「發生通訊失敗。 這些失敗可能與您 Wi-Fi 連線的 Proxy 設定相關。」
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
-ms.author: mshenhav
-ms.openlocfilehash: 14745d1f2b62845ca0eac549b100bf3e06f8f814
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 0162d78fd4358f415ac52ea70bd3460d3c28b722
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879104"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114911"
 ---
 # <a name="fixing-communication-failures-in-ios-mobile-apps---power-bi"></a>修正 iOS 行動裝置應用程式中的「通訊失敗」- Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "73879104"
 | iPhone |iPad |
 
 ## <a name="we-encountered-communication-failures"></a>「我們遭遇通訊失敗」
-「我們遭遇通訊失敗。 這種失敗可能與 Wi-Fi 連線的 Proxy 設定有關。 切換到不同的 Wi-Fi 連線或可解決此問題。」
+「發生通訊失敗。 這種失敗可能與 Wi-Fi 連線的 Proxy 設定有關。 切換到不同的 Wi-Fi 連線或可解決此問題。」
 
 如果 iPhone 或 iPad 網際網路連線需要手動或自動強制明確設定 HTTP Proxy，您就有可能看到此訊息。 在此情況下，Power BI 應用程式將不會在您的 iOS 裝置上運作。
 

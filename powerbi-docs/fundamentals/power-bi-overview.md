@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9da9465bea8512b541d3f1af3983df70d184ac26
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875668"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114983"
 ---
 # <a name="what-is-power-bi"></a>Power BI 是什麼？
 **Power BI** 是軟體服務、應用程式和連接器的集合，它們搭配使用來將不相關的資料來源轉換成相關、視覺上融入的互動式深入剖析。 不論您的資料是簡單的 Excel 試算表，或是一組雲端和內部部署混合式資料倉儲， Power BI 可讓您輕鬆地連線到資料來源、以視覺化方式檢視及探索重要資料，以及與任何人或您想要的任何人共用該資料。
@@ -37,9 +37,9 @@ Power BI 的使用方式可能取決於您在專案或小組中的角色。 其�
 
 如果您是開發人員，便可以使用 Power BI API 將資料推送至資料集，或將儀表板和報表內嵌至您自己的自訂應用程式。 有新視覺效果的構想嗎？ 您可以自行建置並與其他人分享。  
 
-您也可能會根據您嘗試達成的目標或您在指定專案中角色，在不同時間使用 Power BI 的每個項目。
+您也可能會根據您嘗試達成的目標或您在給定專案中角色，在不同時間使用 Power BI 的每個元素。
 
-Power BI 的使用方式取決於 Power BI 的哪些功能或服務是最適合您解決方案的工具。 例如，您可以使用 Power BI Desktop 來為自有小組建立客戶參與統計資料的報表，且您可以在 Power BI 服務中的儀表板上即時檢視庫存和製造進度。 您可以使用 Power BI 的每個部分，這就是它如此具有彈性且吸引人的原因。
+Power BI 的使用方式取決於 Power BI 的哪些功能或服務是最適合您解決方案的工具。 例如，您可以使用 Power BI Desktop 來為自有小組建立客戶參與統計資料的報表，且您可以在 Power BI 服務中的儀表板上即時檢視庫存和製造進度。 您可以使用 Power BI 的每個部分，這就是其如此具有彈性且吸引人的原因。
 
 探索與您角色相關的文件：
 - 適用於[*設計師*](../desktop-what-is-desktop.md)的 Power BI Desktop
@@ -51,9 +51,9 @@ Power BI 的使用方式取決於 Power BI 的哪些功能或服務是最適合�
 Power BI 中的一般工作流程是從在 Power BI Desktop 中連線至資料來源並建置報表開始。 接著，您會將該報表從 Power BI Desktop 發佈至 Power BI 服務並加以共用，讓 Power BI 服務和行動裝置中的終端使用者可以檢視報表及與報表互動。
 此工作流程是常見的情況，並示範三個主要 Power BI 元素如何彼此互補。
 
-以下是詳細的 [Power BI Desktop 與 Power BI 服務的比較](../designer/service-service-vs-desktop.md)。
+以下是詳細的 [Power BI Desktop 與 Power BI 服務的比較](../fundamentals/service-service-vs-desktop.md)。
 
-## <a name="on-premises-reporting-with-power-bi-report-server"></a>使用 Power BI 報表伺服器的內部部署報表
+## <a name="on-premises-reporting-with-power-bi-report-server"></a>使用 Power BI 報表伺服器進行內部部署報告
 
 但如果您尚未做好移至雲端的準備，而需要將報表保留在公司防火牆後方，該怎麼辦？  請繼續閱讀。
 
@@ -61,7 +61,7 @@ Power BI 中的一般工作流程是從在 Power BI Desktop 中連線至資料�
 
 ![內部部署的圖表](media/power-bi-overview/power-bi-report-server2.png)
 
-「Power BI 報表伺服器」是一項解決方案，您會將其部署在防火牆後方，然後以各種不同方式 (不論是在網頁瀏覽器中、行動裝置上還是以電子郵件形式檢視) 將報表傳遞給正確的使用者。 而由於「Power BI 報表伺服器」與雲端 Power BI 相容，因此您可以在準備就緒後就移至雲端。 
+「Power BI 報表伺服器」是一個解決方案，您會將其部署在防火牆後方，然後以各種不同方式 (不論是在網頁瀏覽器中、行動裝置上還是以電子郵件形式檢視) 將報表傳遞給正確的使用者。 而由於「Power BI 報表伺服器」與雲端 Power BI 相容，因此您可以在準備就緒後就移至雲端。 
 
 深入了解 [Power BI 報表伺服器](../report-server/get-started.md)。
 

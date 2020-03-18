@@ -1,19 +1,19 @@
 ---
 title: 建立 Power BI 行動裝置應用程式中的特定位置連結
 description: 了解如何使用統一資源識別項 (URI)，建立 Power BI 行動裝置應用程式中特定儀表板、磚或報表的深層連結。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/24/2019
-ms.author: mshenhav
-ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: f0a72cf315c8ad911414274daae11b712971b305
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879284"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114504"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>建立 Power BI 行動裝置應用程式中的特定位置連結
 您可以使用連結直接存取 Power BI 中的特定項目：報表、儀表板和磚。
@@ -112,7 +112,7 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 閱讀更多[如何建置查詢參數來篩選報表](https://docs.microsoft.com/power-bi/service-url-filters)相關資訊。
 
 ## <a name="next-steps"></a>後續步驟
-您的意見反應可協助我們決定要在未來實作的項目，因此別忘了對您想在 Power BI 行動應用程式中看到的其他功能進行投票。 
+您的意見反應可協助我們決定未來要實作的項目，因此別忘了對您想在 Power BI 行動應用程式中看到的其他功能進行投票。 
 
 * [行動裝置的 Power BI 應用程式](mobile-apps-for-mobile-devices.md)
 * 請在 Twitter 上關注 @MSPowerBI

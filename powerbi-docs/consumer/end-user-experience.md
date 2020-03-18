@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fbd629ea7d2c5bb71471ac8073a5a823f1b2c192
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76975090"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040136"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入門 - 瀏覽 Power BI 服務
 
@@ -72,7 +72,7 @@ ms.locfileid: "76975090"
 
 ![我的工作區 ](./media/end-user-experience/power-bi-workspaces.png)
 
-[我的工作區]  會儲存您擁有並建立的所有內容。 請將它視為您專屬內容的個人沙箱或工作區域。 對於許多 Power BI「取用者」  ，[我的工作區]  會保持空白，因為您的工作不會牽涉到建立新內容。  根據定義，「取用者」  會取用其他人所建立的資料，並使用該資料來制定商務決策。 如果您發現正在建立內容，請考慮改為閱讀[適用於「設計師」  的 Power BI 文章](../power-bi-creator-landing.md)。
+[我的工作區]  會儲存您擁有並建立的所有內容。 請將它視為您專屬內容的個人沙箱或工作區域。 對於許多 Power BI「取用者」  ，[我的工作區]  會保持空白，因為您的工作不會牽涉到建立新內容。  根據定義，「取用者」  會取用其他人所建立的資料，並使用該資料來制定商務決策。 如果您發現正在建立內容，請考慮改為閱讀[適用於「報表建立者」  的 Power BI 文章](../index.yml)。
 
 [應用程式工作區]  包含特定應用程式的所有內容。  當「設計師」  建立應用程式時，會將該應用程式所需的所有內容組合在一起，以供使用。  選取銷售與行銷工作區，以查看「設計師」  包含在應用程式中的內容。 
 

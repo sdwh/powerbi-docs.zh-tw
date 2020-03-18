@@ -1,29 +1,28 @@
 ---
-title: 在 Windows 10 行動裝置應用程式中檢視 SSRS 行動報表和 KPI - Power BI
+title: 在 Power BI Windows 應用程式中檢視內部部署報表與 KPI
 description: Power BI for Windows 10 行動裝置應用程式提供重要內部部署商務資訊的即時觸控式行動存取。
-author: mshenhav
-ms.reviewer: ''
+author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: 4666e7c0e4901a99867ea72ab404df4cbffe110b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/09/2020
+ms.author: painbar
+ms.openlocfilehash: 010513ec8ca908167bbc99255a6fd207ca0ccfba
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879364"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040835"
 ---
-# <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>在 Windows 10 Power BI 行動裝置應用程式中檢視 Reporting Services (SSRS) 行動報表和 KPI
-Power BI for Windows 10 行動裝置應用程式提供 SQL Server 2016 Reporting Services 中重要內部部署商務資訊的即時觸控式行動存取。 
+# <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>在 Power BI Windows 應用程式中檢視內部部署報表與 KPI
+適用於 Windows 10 的 Power BI 應用程式提供 SQL Server 2016 Reporting Services 中重要內部部署商務資訊的即時觸控式行動存取。 
 
 ![Reporting Services 行動報表](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="first-things-first"></a>最重要的第一件事
 使用 SQL Server 2016 Enterprise Edition 行動報表發行工具[建立 Reporting Services 行動報表](https://msdn.microsoft.com/library/mt652547.aspx)，並將其發行至 [Reporting Services 入口網站](https://msdn.microsoft.com/library/mt637133.aspx)。 在入口網站中建立 KPI 權限。 在資料夾中整理並標示我的最愛，讓您可以輕鬆地找到它們。 
 
-然後在 Power BI for Windows 10 行動裝置應用程式中，檢視資料夾中整理或收集於我的最愛的行動報表及 KPI。 
+然後在適用於 Windows 10 的 Power BI 應用程式中，檢視資料夾中整理或收集於我的最愛的 KPS、行動報表與 Power BI 報表。 
 
 > [!NOTE]
 > 您的裝置必須執行 Windows 10。 應用程式最適合與具有至少 1 GB RAM 與 8 GB 內部儲存空間的裝置搭配使用。
@@ -68,7 +67,7 @@ Power BI for Windows 10 行動裝置應用程式提供 SQL Server 2016 Reporting
    > 
 
 ## <a name="view-reporting-services-kpis-and-mobile-reports-in-the-power-bi-app"></a>在 Power BI 應用程式中檢視 Reporting Services 的 KPI 和行動報表
-Reporting Services KPI 和行動報表皆顯示在 Reporting Services 入口網站的同一個資料夾中。
+Reporting Service、行動報表與 Power BI 報表 (預覽) 皆顯示在 Reporting Services 入口網站的同一個資料夾中。
 
 ![報表資料夾](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-folders.png)
 
@@ -80,7 +79,7 @@ Reporting Services KPI 和行動報表皆顯示在 Reporting Services 入口網�
     ![Reporting Services 行動報表](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="view-your-favorite-kpis-and-reports"></a>檢視您最愛的 KPI 和報表
-您可以在 Reporting Services 入口網站中，將 KPI 和行動報表標示為 [我的最愛]，然後將其與您 Power BI 最愛的儀表板和報表放置在 Windows 10 裝置方便存取的資料夾中，加以檢視。
+您可以在 Reporting Services 入口網站中，將 KPI、行動報表與 Power BI 報表標示為 [我的最愛]，然後將其與您 Power BI 最愛的儀表板和報表放置在 Windows 10 裝置方便存取的資料夾中，加以檢視。
 
 * 點選 [我的最愛]  。
   
@@ -88,8 +87,6 @@ Reporting Services KPI 和行動報表皆顯示在 Reporting Services 入口網�
   
    入口網站上的我的最愛皆在此頁面。
   
-   ![我的最愛頁面](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-favorites.png)
-
 閱讀更多以了解 [Power BI 行動裝置應用程式中的我的最愛](mobile-apps-favorites.md)。
 
 ## <a name="remove-a-connection-to-a-report-server"></a>移除報表伺服器的連接

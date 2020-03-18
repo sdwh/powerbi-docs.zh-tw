@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f6f534b71ba6d8e8798418275c4758a95fc6fb5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851237"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114238"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的報表
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -41,7 +43,7 @@ Power BI 根據單一資料集建立報表。 報表「設計師」  會建立�
 在您探索並透過篩選、配量、訂閱和匯出等方式與內容互動時，您都不會破壞報表。 您的工作不會影響基礎資料集或原始共用內容。 這適用於儀表板、報表和應用程式。
 
 > [!NOTE]
-> 請記住，您不可傷害資料。 Power BI 是進行探索和實驗而無須擔心破壞任何項目的絕佳方式。
+> 請記住，您不會對資料造成傷害。 Power BI 是進行探索及實驗而無須擔心破壞某些項目的絕佳方式。
 
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>儲存您的變更或還原至預設設定
 

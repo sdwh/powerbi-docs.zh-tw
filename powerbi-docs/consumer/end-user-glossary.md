@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: e5c3f8b327d6899d83e2304e56e5813a47fc4698
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537799"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040100"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」  及其連線方式的高階概觀。
@@ -22,7 +22,9 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 ## <a name="a"></a>A
 
-**account (帳戶)** ：有不同類型的 Power BI 帳戶。  Power BI Pro 帳戶是付費的每月訂閱。  Power BI 免費帳戶可讓您檢視託管於 Power BI Premium 容量上的內容。  
+**account (帳戶)** 有不同類型的 Power BI 帳戶，也稱為「授權」  。  帳戶可以是：每個使用者或組織。 每個使用者帳戶以「免費」  或 *Pro* 提供。  Power BI「免費」  使用者可以使用獨立 Power BI Desktop 或在 Premium 組織帳戶內使用 Power BI 服務。 Power BI 每個使用者 *Pro* 帳戶是付費的每月訂用帳戶，可讓您與其他 *Pro* 使用者共同作業及共用內容。 
+
+組織 *Premium* (也稱為「Premium 容量」  ) 帳戶會在每個使用者授權之上加上一層功能。 例如，在擁有 *Premium* 授權之組織中的「免費」  每個使用者帳戶持有人，與沒有 *Premium* 的「免費」  使用者相比，可以使用 Power BI 做更多的事情。 例如，*Premium* 組織帳戶中的「免費」  使用者，可以與同事共同作業，而且可以檢視 Power BI Premium 容量上所裝載的內容。  
 
 **admin portal (管理入口網站)** ：Power BI 系統管理員管理組織中 Power BI 使用者、功能及設定的位置。 (注意︰Office 365、Azure 和 PowerApps 使用系統管理中心。)
 
@@ -170,6 +172,8 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 第一次出現：導覽窗格 (navigation pane)，後續提及或空間狹小時：導覽窗格 (nav pane)
 
+**license (授權)** 請參閱「帳戶」  。
+
 **list page (清單頁面)** 或**內容清單**：導覽窗格中其中一個項目區段頁面。 例如：我的最愛、最近項目、我的工作區等。
 
 ## <a name="m"></a>M
@@ -226,15 +230,17 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **Power BI Embedded**：由開發人員使用的產品，用於將 Power BI 儀表板和報表內嵌到其應用程式、網站和工具。
 
-**Power BI Premium**：Power BI Pro 授權的附加元件，可讓組織透過購買專用硬體，預測性的調整 BI 解決方案的大小。
+**Power BI Premium**：Power BI Pro 授權的附加元件，可讓組織透過購買專用硬體，預測性的調整 BI 解決方案的大小。 請參閱「帳戶」  。
 
-**Power BI Pro license (Power BI Pro 授權)** ：一種每月使用者授權，可提供建置儀表板、在共用資料上共同作業、自動將資料保持在最新狀態、稽核和管理資料存取及使用方式，以及封裝內容以進行散發 (Power BI 應用程式) 的能力。
+**Power BI Pro** 一種每月每個使用者授權，可提供建置報表與儀表板、在共用資料上共同作業、自動將資料保持在最新狀態、稽核和治理資料存取及使用方式，以及封裝內容以進行散發 (Power BI 應用程式) 的能力。 請參閱「帳戶」  。
 
 **Power BI Report Server (Power BI 報表伺服器)** ：新推出的 SSRS 品牌化供應項目，與 Power BI Premium 一同啟動，可允許組織建置分散式、混合式 BI 系統 (一種雲端與內部部署的混合)。 內嵌式提供已當地語系化的方式以儲存及管理 Power BI 報表。
 
 **Power BI service (Power BI 服務)** ：線上 SaaS (軟體即服務) 服務。 如需詳細資訊，請參閱[什麼是 Power BI](../fundamentals/power-bi-overview.md)。
 
 **Premium workspace (Premium 工作區)** ：在專用容量中執行的工作區，並會以鑽石圖示向客戶表示。  
+
+**Pro** 授權或 **Pro** 帳戶 請參閱「帳戶」  。
 
 **publish (發佈)** ：Power BI 服務報表「設計師」  會組合 Power BI 工作區的內容，使其可作為 Power BI 應用程式供其他人使用。 Power BI Desktop 報表「設計師」  使用發佈代表將 .pbix 格式的 Power BI Desktop 報表傳送至 Power BI 服務，讓他們可以根據該報表建置儀表板並輕鬆與其他人共用。 
 

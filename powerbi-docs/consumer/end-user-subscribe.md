@@ -8,16 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/30/2020
-rLocalizationGroup: Common tasks
-ms.openlocfilehash: 267a1e8b2f45198059e5acfcdf0233445babbd14
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.date: 03/09/2020
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888569"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114034"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>訂閱 Power BI 服務中的報表或儀表板 
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -63,7 +65,7 @@ ms.locfileid: "76888569"
 
 3. 如果一切看起來都沒有問題，請選取 [儲存並關閉]  來儲存訂用帳戶。 您會按照所設定的排程，收到儀表板或報表的電子郵件和快照集。 所有已將頻率設定為 [在資料重新整理後]  的訂用帳戶，只會在那一天第一次排程重新整理之後傳送一封電子郵件。
    
-   ![儀表板的電子郵件快照集](media/end-user-subscribe/power-bi-subscribe-email.png)
+   ![儀表板的電子郵件快照集](media/end-user-subscribe/power-bi-email.png)
    
     重新整理報表頁面不會重新整理資料集。 只有資料集擁有者可以手動重新整理資料集。 若要查看底層資料集的擁有者名稱，請從功能表列選取下拉式清單，或查看原始訂閱電子郵件。
    
@@ -73,11 +75,12 @@ ms.locfileid: "76888569"
 ## <a name="manage-your-subscriptions"></a>管理您的訂閱
 只有您可以管理您建立的訂閱。 再次選取 [訂閱]  ，然後選擇左下角的 [管理所有訂用帳戶]  (請參閱上方的螢幕擷取畫面)。 
 
-![查看 [我的工作區] 中的所有訂閱](./media/end-user-subscribe/power-bi-manage.png)
+![查看 [我的工作區] 中的所有訂閱](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 
 如果 Pro 授權過期、擁有者刪除儀表板或報表，或是用來建立訂閱的使用者帳戶遭到刪除，則訂閱將會終止。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
+* 若要避免訂閱電子郵件傳送到您的垃圾郵件資料夾，請將 Power Platform 電子郵件別名 (PowerPlat-noreply@microsoft.com) 新增至您的連絡人。 如果您使用的是 Microsoft Outlook，請在別名上按一下滑鼠右鍵，然後選取 [新增至 Outlook 連絡人]  。 
 * 傳送給使用者的訂閱電子郵件中，釘選磚超過 25 個，或是有四個以上釘選即時報表頁面的儀表板可能不會完整呈現。 我們建議您連絡儀表板設計人員，並請他們將釘選磚減少到 25 個以下，以及將釘選的即時報表減少到四個以下，以確保電子郵件會正確呈現。  
 * 針對儀表板電子郵件訂用帳戶，如果有任何圖格套用資料列層級安全性 (RLS)，則不會顯示這些圖格。  針對報表電子郵件訂用帳戶，如果資料集使用 RLS，則您無法建立訂用帳戶。
 * 如果您電子郵件中的 (內容) 連結停止運作，可能是內容已遭刪除。 在電子郵件的螢幕擷取畫面下方，您可以查看是否自我訂閱，或否有其他人訂閱您。 如果有其他人訂閱您，請要求同事取消電子郵件或重新訂閱您。

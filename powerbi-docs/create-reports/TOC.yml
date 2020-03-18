@@ -145,7 +145,7 @@
               href: ../desktop-grouping-and-binning.md
             - name: 使用 R 建立 Power BI 視覺效果
               href: ../desktop-r-visuals.md
-            - name: 下載並使用 R 支援的自訂視覺效果
+            - name: 下載並使用 R 支援的 Power BI 視覺效果
               href: ../desktop-r-powered-custom-visuals.md
             - name: 套用格線與貼齊格線
               href: ../desktop-gridlines-snap-to-grid.md

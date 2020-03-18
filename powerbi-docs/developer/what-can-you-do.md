@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 9f9383e5cdb4b4690ef75294f7ff8c17fb643d9a
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4e8ce6d9a892abf3e24ecae6dee1e3ea23504d31
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265012"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041347"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>開發人員可如何利用 Power BI？
 
@@ -37,7 +37,7 @@ Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 A
 
 ## <a name="developing-custom-visuals"></a>開發自訂視覺效果
 
-您可以透過 Power BI 使用自訂視覺效果，為自己或貴公司量身打造，建立獨特的視覺效果類型。 通常是由開發人員建立這些自訂視覺效果。 當隨附於 Power BI 的眾多視覺效果不符合您的需求時，就會建置這些視覺效果。
+您可以透過 Power BI 使用自訂視覺效果，為自己或貴公司量身打造，建立獨特的視覺效果類型。 通常是由開發人員建立這些自訂視覺效果。 當隨附於 Power BI 的眾多視覺效果不符合您的需求時，就可以建置這些視覺效果。
 
 自訂視覺效果可讓您建立自己的視覺效果，以用於 Power BI 報表內。 自訂視覺效果會以 TypeScript 撰寫，這是 JavaScript 的超集。 TypeScript 支援一些進階功能，並可優先存取 ES6/ES7 功能。 系統會使用階層式樣式表 (CSS) 來處理視覺效果樣式。 為了您的方便，我們會使用可支援一些進階功能 (例如巢狀結構、變數、條件、迴圈，以及其他功能) 的 Less 預先編譯器。 如果您不想使用上述任何功能，則可以在 Less 檔案中撰寫一般 CSS。
 
@@ -53,7 +53,7 @@ Power BI 顯示互動式儀表板，可即時從不同的資料來源建立及�
 
 ![推送資料範例](media/what-can-you-do/powerbi-push-data.png)
 
-若要查看您可以使用 Power BI API 執行的一些作業，請參閱[開發人員可如何使用 Power BI API](overview-of-power-bi-rest-api.md)？
+若要查看您可以使用 Power BI API 執行的一些作業，請參閱[開發人員可如何使用 Power BI API](automation/overview-of-power-bi-rest-api.md)？
 
 ## <a name="next-steps"></a>後續步驟
 
@@ -61,6 +61,6 @@ Power BI 顯示互動式儀表板，可即時從不同的資料來源建立及�
 
 [Developing a Power BI custom visual](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/) (開發 Power BI 自訂視覺效果)
 
-[開發人員可如何利用 Power BI API？](overview-of-power-bi-rest-api.md)
+[開發人員可如何利用 Power BI API？](automation/overview-of-power-bi-rest-api.md)
 
 [Power BI 開發人員中心](https://powerbi.microsoft.com/developers/)

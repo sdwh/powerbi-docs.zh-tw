@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 1d61723b08c26197d94b53188b741fd01d47a620
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888354"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401190"
 ---
 # <a name="get-power-bi-desktop"></a>取得 Power BI Desktop
 Power BI Desktop 可讓您建立進階查詢、模型，以及將資料視覺化的報表。 透過 Power BI Desktop，您可以建置資料模型、建立報表，並將成果發佈到 Power BI 服務與他人共用。 Power BI Desktop 為免費下載。
@@ -88,7 +88,7 @@ Power BI Desktop 可讓您建立進階查詢、模型，以及將資料視覺化
 
 如果您是第一次使用 Power BI Desktop (即此安裝不是升級)，系統會提示您填寫表單或登入 Power BI 服務，才能繼續作業。
 
-在這裡，您可以開始建立資料模型或報表，然後在 Power BI 服務上與其他人共用。 請參閱[後續步驟](#next-steps)一節，以取得協助您開始使用 Power BI Desktop 的指引連結。
+在這裡，您可以開始建立資料模型或報表，然後與其他人在 Power BI 服務上共用它們。 請參閱[後續步驟](#next-steps)一節，以取得協助您開始使用 Power BI Desktop 的指引連結。
 
 ## <a name="minimum-requirements"></a>最低需求
 下列清單提供執行 Power BI Desktop 的最低需求：
@@ -158,6 +158,7 @@ Power BI Desktop 可讓您建立進階查詢、模型，以及將資料視覺化
 
     輸出資料夾包含名為 *AttachedContainer* 的資料夾，其包含 .msi 檔案。
 
+不支援將您從 .exe 解壓縮的安裝從 .exe 升級為 .msi。   為了進行此升級，您必須先將您有的舊版 Power BI Desktop 解除安裝。
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>使用舊版 Power BI Desktop 時的問題
 
@@ -173,11 +174,11 @@ Power BI Desktop 可讓您建立進階查詢、模型，以及將資料視覺化
 1. 在登錄編輯器中巡覽至 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop** 機碼。
 2. 使用下列名稱，在機碼中建立新的 **REG_DWORD** 項目：**DisableUpdateNotification**。
 3. 將新項目的值設為 **1**。
-4. 將電腦重新開機，使變更生效。
+4. 重新開機電腦，使變更生效。
 
 ### <a name="power-bi-desktop-loads-with-a-partial-screen"></a>Power BI Desktop 載入部分畫面
 
-在某些情況下 (包括特定的螢幕解析度設定)，某些使用者可能會看到 Power BI Desktop 轉譯的內容有大型黑色區域。 當作業系統的最新更新影響了項目的轉譯方式時，往往就會導致這個問題，而與 Power BI Desktop 呈現內容的方式沒有直接關係。 請遵循下列步驟解決此問題：
+在某些情況下 (包括特定的螢幕解析度設定)，某些使用者可能會看到 Power BI Desktop 轉譯的內容有大型黑色區域。 此問題通常是因為最新的作業系統更新影響項目轉譯方式所導致，並非是 Power BI Desktop 呈現內容的直接結果。 請遵循下列步驟解決此問題：
 
 1. 按 [開始]  鍵，在顯示的搜尋列中輸入 *blurry*。
 2. 在出現的對話方塊中，選取選項：[讓 Windows 修正模糊的應用程式]  。

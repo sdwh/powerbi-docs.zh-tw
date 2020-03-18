@@ -6,30 +6,34 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/21/2020
+ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: fee89c65328b70e1f312b39fbad75d7148bd92f2
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: c7280b2b6bb34b070e7ced3785959d61c74cd165
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76542281"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041237"
 ---
 # <a name="configure-report-interaction-settings"></a>設定報表互動設定
 
 ## <a name="overview"></a>概觀
 
-Power BI 行動應用程式有數個可設定的「互動」設定，可讓您控制與資料互動的方式，並定義 Power BI 行動應用程式中的某些項目如何運作。 目前的設定可進行下列項目
-* [對報表視覺效果的點一下與點兩下互動](#single-tap)
-* [停駐與動態報表頁尾](#docked-report-footer-android-phones) (Android)
-* [按鈕起始的報表重新整理與拖動以重新整理](#report-refresh-android-phones) (Android)
+Power BI 行動應用程式有數個可設定的「互動」設定，可讓您控制與資料互動的方式，並定義 Power BI 行動應用程式中的某些項目如何運作。 下表顯示目前可用的互動設定，以及具有這些設定的的裝置。
+
+|| Android 手機 | iPhone | Android 平板電腦  | iPad |
+|-|:-:|:-:|:-:|:-:|
+| [對報表視覺效果的點一下與點兩下互動](#single-tap) |✔|✔|||
+| [在報表視覺效果上選取多個資料點與選取單一資料點的比較](#multi-select) |✔|✔|✔|✔|
+| [固定與動態報表頁尾](#docked-report-footer) |✔|✔|||
+| [按鈕起始的報表重新整理與拖動以重新整理](#report-refresh) |✔||||
+|
 
 若要前往互動設定，請點選您的個人資料圖片以開啟 [側面板](./mobile-apps-home-page.md#header)，選擇 [設定]  ，然後尋找 [互動]  區段。
 
 ![互動設定](./media/mobile-app-interaction-settings/powerbi-mobile-app-interactions-section.png)
 
->[!NOTE]
->重新整理按鈕和停駐報表頁尾的互動設定，目前不會影響報表伺服器報表。 這會在 2020 年 1 月的報表伺服器版本中變更。
+下列各節說明互動設定。
 
 ## <a name="interaction-settings"></a>互動設定
 
@@ -38,13 +42,24 @@ Power BI 行動應用程式有數個可設定的「互動」設定，可讓您�
 
 如果您想要的話，您可以關閉點一下互動。 您即可使用點兩下互動。 藉由點兩下互動，您可以先點選視覺效果以將其選取，然後再次點選視覺效果以執行您想要的動作。
 
-### <a name="docked-report-footer-android-phones"></a>停駐的報表頁尾 (Android 手機)
+### <a name="multi-select"></a>複選
+
+多重選取選項可讓您在報表頁面上選取多個資料點。 當多重選取開啟時，您點選的每個資料點都會加入至其他選取的資料點，並在頁面上的所有視覺效果中自動反白顯示合併的結果。 當多重選取關閉時，當您點選以選取資料點時，新的選取範圍會取代目前的選取範圍。
+
+若要取消選取資料點，請再次加以點選。
+
+>[!NOTE]
+>自訂視覺效果中不支援多重選取。
+>
+>在下一個報表伺服器版本中，將於 Power BI 報表伺服器上支援多重選取模式。
+
+### <a name="docked-report-footer"></a>固定的報表頁尾
 
 停駐的報表頁尾設定決定報表頁尾是否在報表底部維持停駐 (意即固定且一律顯示)，或根據您在報表中的動作 (例如捲動) 來隱藏及重新顯示。
 
 在 Android 手機上，停駐的報表頁尾設定預設為 [開啟]  ，表示報表頁尾會停駐，且一律顯示於報表的底部。 如果您較喜歡會顯示並消失的動態報表頁尾 (視您對報表的動作而定)，請將設定切換為 [關閉]  。
 
-### <a name="report-refresh-android-phones"></a>報表重新整理 (Android 手機)
+### <a name="report-refresh"></a>報表重新整理
 
 報表重新整理設定定義您起始報表重新整理的方式。 您可以選擇在所有報表首新增重新整理按鈕，或在報表頁面上使用「拖動以重新整理」動作 (稍微從上往下拉) 來重新整理報表。 下圖說明這兩種替代方式。 
 

@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
-ms.author: pashah
-ms.openlocfilehash: ad657da4e0a81c6b3b9845d9c130755334f5a97f
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.author: parshah
+ms.openlocfilehash: ecb4f9540651b52f28626f8baa88854ff133b9d0
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565723"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401995"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI 報表伺服器的容量規劃指引
 Power BI 報表伺服器是客戶可以在其防火牆後方內部部署的自助 BI 和企業報告解決方案。 它結合 Power BI Desktop 的互動式報表功能與 SQL Server Reporting Services 的內部部署伺服器平台。 隨著企業內的分析和報告使用量愈來愈大，估算所需的硬體基礎結構和軟體授權以依照企業使用者總數來調整規模會是項挑戰。 本文旨在提供 Power BI 報表伺服器容量規劃的相關指引，文中並共用對報表伺服器的各種工作負載所執行的多項負載測試結果。 雖然組織的報表、查詢和使用模式差異很大，但本文中所呈現的結果，以及所使用的實際測試及其執行方式的詳細描述，可作為任何人在部署 Power BI 報表伺服器之初期規劃程序的參考點。
@@ -84,7 +84,7 @@ Power BI 報表伺服器部署是由下列虛擬機器所組成：
 | **編頁報表 (大量)** |100 位並行使用者 |160 位並行使用者 |
 
 ### <a name="total-user-capacity"></a>總使用者產能
-在 Microsoft，我們有幾個小組所使用的 Power BI 報表伺服器生產環境部署。 當我們分析此環境的實際使用量時，我們觀察到任何指定時間 (即使在每日尖峰負載期間) 的並行使用者數目通常不會超過使用者總數的 5%。 使用此 5% 並行率作為基準，我們可以推測 Power BI 報表伺服器在 99% 可靠性下所能處理的使用者總數。
+在 Microsoft，我們有幾個小組所使用的 Power BI 報表伺服器生產環境部署。 當我們分析此環境的實際使用量時，我們觀察到任何給定時間 (即使在每日尖峰負載期間) 的並行使用者數目通常不會超過使用者總數的 5%。 使用此 5% 並行率作為基準，我們可以推測 Power BI 報表伺服器在 99% 可靠性下所能處理的使用者總數。
 
 | 工作負載 | 8 核心/32 GB | 16 核心/64 GB |
 | --- | --- | --- |
@@ -110,13 +110,13 @@ Power BI 報表伺服器部署是由下列虛擬機器所組成：
 ## <a name="summary"></a>摘要
 對於每個負載測試回合，CPU 是 Power BI 報表伺服器機器上尖峰負載時負荷最高的資源。 因此，第一個應該增加的資源是核心數。 或者，您可以考慮在拓撲中新增更多裝載 Power BI 報表伺服器的伺服器來相應放大。
 
-本文中呈現的結果是從執行一組特定報表衍生而來，該報表以特定方式重複取用一組特定資料。 它是有用的參考點，但請記住，您的使用將決於報表、查詢、使用模式和 Power BI 報表伺服器的部署。
+本文中呈現的結果是從執行一組特定報表衍生而來，該報表以特定方式重複取用一組特定資料。 這是有用的參考點，但請記住，您的使用將取決於報表、查詢、使用模式與 Power BI 報表伺服器的部署。
 
 ## <a name="appendix"></a>附錄
 ### <a name="1-topology"></a>1 拓撲
 **1.1 Power BI 報表伺服器拓撲**
 
-為了只專注於不同設定下的 Power BI 報表伺服器行為，已修正每種機器類型的 VM 設定 (裝載 Power BI 報表伺服器的機器除外)。 每部機器已根據第二代 (v2) D 系列機器佈建進階儲存體磁碟。 您可以在 https://azure.microsoft.com/pricing/details/virtual-machines/windows/ 的「一般用途」區段找到有關每個 VM 大小的詳細資訊。
+為了只專注於不同設定下的 Power BI 報表伺服器行為，已修正每種機器類型的 VM 設定 (裝載 Power BI 報表伺服器的機器除外)。 每部機器已根據第二代 (v2) D 系列機器佈建進階儲存體磁碟。 您可以在 https://azure.microsoft.com/pricing/details/virtual-machines/windows/ 的 [一般目的] 區段下找到有關每個 VM 大小的詳細資訊。
 
 | 虛擬機器類型 | 處理器 | 記憶體 | Azure VM 大小 |
 | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ Power BI 報表伺服器部署是由下列虛擬機器所組成：
 
 **1.2 Power BI 報表伺服器虛擬機器設定** 
 
-裝載 Power BI 報表伺服器的虛擬機器使用不同的處理器和記憶體組態。 不同於其他 VM，此機器已根據第三代 (v3) D 系列機器佈建進階儲存體磁碟。 您可以在 https://azure.microsoft.com/pricing/details/virtual-machines/windows/ 的「一般用途」區段找到有關此 VM 大小的詳細資訊。
+裝載 Power BI 報表伺服器的虛擬機器使用不同的處理器和記憶體組態。 不同於其他 VM，此機器已根據第三代 (v3) D 系列機器佈建進階儲存體磁碟。 您可以在 https://azure.microsoft.com/pricing/details/virtual-machines/windows/ 的 [一般目的] 區段下找到有關此 VM 大小的詳細資訊。
 
 | 虛擬機器 | 處理器 | 記憶體 | Azure VM 大小 |
 | --- | --- | --- | --- |
@@ -143,4 +143,3 @@ Power BI 報表伺服器部署是由下列虛擬機器所組成：
 5. 完成部署環境後，請按照 https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution 上列出的指示執行測試。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

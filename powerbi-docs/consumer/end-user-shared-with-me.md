@@ -7,17 +7,19 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/25/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6fdb336faaceee21347f426beb6fdefc0bdb70f4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d97727969ed48c50a86be032835b237d293a1d96
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861680"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114151"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>顯示與我共用的報表與儀表板
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -25,7 +27,7 @@ ms.locfileid: "73861680"
 
 ![共用圖示](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-觀看 Amanda 說明 [與我共用]  內容清單，並示範如何瀏覽和篩選清單。 然後遵循影片下方的逐步指示親自試試看。 為了讓您檢視與您共用的儀表板，您需要有 Power BI Pro 授權。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](../service-premium-what-is.md)。
+觀看 Amanda 說明 [與我共用]  內容清單，並示範如何瀏覽和篩選清單。 然後遵循影片下方的逐步指示親自試試看。 為了讓您檢視與您共用的儀表板，您需要有 Power BI Pro 授權。 閱讀[我擁有哪些授權？](end-user-license.md)，以取得詳細資料。
     
 
 > [!NOTE]

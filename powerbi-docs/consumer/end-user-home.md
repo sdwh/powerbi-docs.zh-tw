@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/28/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dd83388c00b2415c43355bb57c271b430a9abc53
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888770"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113291"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>尋找您的儀表板、報表和應用程式
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 在 Power BI 中，「內容」  一詞指的是應用程式、儀表板和報表。 內容是由 Power BI 的「設計師」  所建立，這些人員會與像您一樣的同事共用該內容。 您的內容可以在 Power BI 服務中存取及檢視，而且 Power BI **首頁**是開始使用 Power BI 的最佳位置。
 
 ## <a name="explore-power-bi-home"></a>探索 Power BI 首頁

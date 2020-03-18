@@ -1,19 +1,19 @@
 ---
 title: 使用 OAuth 連線至 Power BI 報表伺服器和 SSRS
 description: 了解如何設定您的環境以使用 Power BI 行動裝置應用程式支援 OAuth 驗證，才能連線至 SQL Server Reporting Services 2016 或更新版本。
-author: maggiesMSFT
-ms.author: maggies
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2019
-ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220600"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114952"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 連線至 Power BI 報表伺服器和 SSRS
 
@@ -124,7 +124,7 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 您需要確定具�
    ![ADFS 應用程式群組精靈 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. 選取 [下一步]  。
 
-10. 選擇符合組織需求的 [存取控制原則]  。
+10. 選擇符合您組織需求的**存取控制原則**。
 
     ![ADFS 應用程式群組精靈 04](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
@@ -207,7 +207,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 新增 WAP 應用程式之後，需要設定 BackendServerAuthenticationMode 使用 IntegratedWindowsAuthentication。 若要進行這項設定，您需要來自 WAP 應用程式的識別碼。
 
 ```powershell
-Get-WebApplicationProxyApplication “Contoso Reports” | fl
+Get-WebApplicationProxyApplication "Contoso Reports" | fl
 ```
 
 ![新增應用程式群組](media/mobile-oauth-ssrs/wap-application-id.png)

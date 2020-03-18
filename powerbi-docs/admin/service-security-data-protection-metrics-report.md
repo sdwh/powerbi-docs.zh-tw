@@ -3,19 +3,18 @@ title: 資料保護計量報表
 description: 了解資料保護計量報表
 author: paulinbar
 manager: rkarlin
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 03/11/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 952f47f60e14932ce4b22dbd01bf60d9d7243c62
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: d2bd3308de21aa6064765b820745201efd8b23ab
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76542143"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79112490"
 ---
 # <a name="data-protection-metrics-report-preview"></a>資料保護計量報表 (預覽)
 
@@ -46,12 +45,13 @@ ms.locfileid: "76542143"
 
 ## <a name="report-updates"></a>報表更新
 
-改善的資料保護計量報表版本會定期發行。 如果在您開啟報表時有新版本可用，則系統會詢問您是否要開啟新版本。 如果您回答「是」，則會載入新版本的報表並覆寫舊版本。 您對舊報表和/或資料集所做的任何變更都會遺失。 您可以選擇不開啟新版本，但在此情況下，您將無法利用新版本的改善功能。 
+改善的資料保護計量報表版本會定期發行。 如果在您開啟報表時有新版本可用，則系統會詢問您是否要開啟新版本。 如果您回答「是」，則會載入新版本的報表並覆寫舊版本。 您對舊報表和/或資料集所做的任何變更都會遺失。 您可以選擇不開啟新版本，但在該情況下，您將無法利用新版本的改善功能。 
 ## <a name="notes-and-considerations"></a>注意事項與考量
 * 為了成功產生資料保護計量報表，您必須在租用戶上啟用[資訊保護](./service-security-enable-data-sensitivity-labels.md)，並[應套用敏感度標籤](../designer/service-security-apply-data-sensitivity-labels.md)。 
 * 為了存取 Cloud App Security 資訊，您組織必須具有適當的 [Cloud App Security 授權](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing)。
 * 如果您決定與非 Power BI 系統管理員的使用者共用資料保護計量報表資訊，請注意，這份報表包含組織的敏感性資訊。
-* 資料保護計量報表是一種特殊的報表，不會顯示在 [與我共用]、[最近項目] 和 [我的最愛] 清單中。
+* 資料保護計量報表是一種特殊的報表，而且不會顯示在 [與我共用]、[最近項目] 與 [我的最愛] 清單中。
+* 資料保護計量報表無法供[外部使用者 (Azure Active Directory B2B 來賓使用者)](../service-admin-azure-ad-b2b.md)使用。
 ## <a name="next-steps"></a>後續步驟
 * [Power BI 的資料保護 (預覽)](./service-security-data-protection-overview.md)
 * [在 Power BI 中使用 Microsoft Cloud App Security 控制項 (預覽)](./service-security-using-microsoft-cloud-app-security-controls.md)

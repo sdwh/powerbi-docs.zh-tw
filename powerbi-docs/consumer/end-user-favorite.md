@@ -7,24 +7,25 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bb69d1ecc4e91912b947a2120607e1a0502d8162
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852642"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040496"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Power BI 服務中的常用儀表板、報告和應用程式
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 當您將內容設為 [我的最愛]  時，您可以從 [我的最愛]  內容清單，並從 [Power BI 首頁]   > [我的最愛和常用項目]  快速存取該內容。 [我的最愛] 通常是您經常瀏覽的內容，並以黃色星號識別。
 
    ![我的最愛圖示](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![我的最愛和常用項目](./media/end-user-favorite/power-bi-home.png)
-
-您也可以選取單一儀表板作為 Power BI 服務中的[精選儀表板](end-user-featured.md)。
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>將儀表板或報表新增為我的最愛
 
@@ -67,7 +68,7 @@ ms.locfileid: "73852642"
 2. 選取您要移除最愛的內容旁黃色星號。
 
 > [!NOTE]
-> 您也可以從我的最愛中移除儀表板、報表或應用程式。 只要開啟並取消選取黃色圖示即可。 
+> 您也可以從我的最愛中移除儀表板、報表或應用程式。 只要開啟並選取黃色星號，將其重新轉換回白色星號。 
 > 
 > 
 ## <a name="limitations-and-considerations"></a>限制與考量

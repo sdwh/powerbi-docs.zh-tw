@@ -13,6 +13,9 @@
             - name: 取用者
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
+            - name: 行動
+              tocHref: /power-bi/consumer/mobile/
+              topicHref: /power-bi/consumer/mobile/index
             - name: 開發人員
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
@@ -31,7 +34,7 @@
             - name: 建立報表和儀表板
               tocHref: /power-bi/create-reports/
               topicHref: /power-bi/create-reports/index
-            - name: 連線至資料
+            - name: 連接到資料
               tocHref: /power-bi/connect-data/
               topicHref: /power-bi/connect-data/index
             - name: 開始使用

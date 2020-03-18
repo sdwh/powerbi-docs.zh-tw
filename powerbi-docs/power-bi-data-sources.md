@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: 261d800dac9b65747e648bc76944a0b8a5077b73
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427085"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041669"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 資料來源
 
@@ -43,7 +43,7 @@ ms.locfileid: "77427085"
 | Azure HDInsight (HDFS) | 是 | 是 | 否 | 否 | 否 |
 | Azure HDInsight Spark | 是 | 是 | 是 | 否 | 否 |
 | Azure SQL Database | 是 | 是 | 是 | 是 <sup>2</sup> | 否 |
-| Azure SQL 資料倉儲 | 是 | 是 | 是 | 否 | 否 |
+| Azure SQL 資料倉儲 | 是 | 是 | 是 | 是 <sup>2</sup> | 否 |
 | Azure 表格儲存體 | 是 | 是 | 否 | 是 | 否 |
 | BI 連接器 | 是 | 是 | 是 | 是 | 是 |
 | BI360 - Budgeting & Financial Reporting | 是 | 是 | 否 | 否 | 否 |
@@ -134,7 +134,7 @@ ms.locfileid: "77427085"
 | Twilio | 是 | 是 | 否 | 否 | 否 |
 | tyGraph | 是 | 是 | 否 | 否 | 否 |
 | Vertica | 是 | 是 | 是 | 是 | 是 |
-| Web | 是 | 是 | 否 | 是 | 是 |
+| Web | 是 | 是 | 否 | 是 | 是 <sup>6</sup> |
 | Webtrends | 是 | 是 | 否 | 否 | 否 |
 | Workforce Dimensions | 是 | 是 | 否 | 是 | 否 |
 | XML | 是 | 是 | 否 | 是 | 否 <sup>4</sup> |
@@ -143,13 +143,15 @@ ms.locfileid: "77427085"
 
 <sup>1</sup> 支援 [ACE OLEDB 提供者](https://www.microsoft.com/download/details.aspx?id=54920)，其與閘道安裝在同一部電腦上。
 
-<sup>2</sup> 支援與內部部署版本相同的 M 函式。
+<sup>2</sup> 支援與內部部署版本相同的 M 函式，造成受限的驗證選項 (閘道不支援 OAuth)。
 
 <sup>3</sup> Excel 1997-2003 檔案 (.xls) 需要 [ACE OLEDB 提供者](https://www.microsoft.com/download/details.aspx?id=54920)。
 
 <sup>4</sup> 技術的內部部署版本所需。
 
 <sup>5</sup> 僅支援[個人閘道](service-gateway-personal-mode.md)。
+
+<sup>6</sup> .html、.xls 與 Access 資料庫需要
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery 來源的單一登入 (SSO)
 

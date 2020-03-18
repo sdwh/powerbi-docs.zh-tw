@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 7aa31d9c6eadd4c7c9c88c9006a360a6089f28e2
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259824"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041537"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -21,6 +21,29 @@ ms.locfileid: "77259824"
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
 * [Power BI 服務的新功能](../../service-whats-new.md)  
+
+## <a name="february-2020"></a>2020 年 2 月
+
+### <a name="multi-select-mode-android-and-ios"></a>多重選取模式 (Android 與 iOS)
+
+我們已新增在報表頁面上選取多個資料點的功能。 當多重選取開啟時，您點選的每個資料點都會加入至其他選取的資料點，並在頁面上的所有視覺效果中自動反白顯示合併的結果。 若要開啟多重選取模式，請移至[行動應用程式設定](./mobile-app-interaction-settings.md)頁面。
+
+>[!NOTE]
+>在下一個報表伺服器版本中，將於 Power BI 報表伺服器上支援多重選取模式。
+
+### <a name="report-footer-can-now-always-be-visible-in-the-mobile-app-for-iphones"></a>現在，報表頁尾可在 iPhone 的行動應用程式中一律顯示
+
+在您的 iPhone 上，就像在您的 Android 上一樣，現在您可以決定是否要讓報表頁尾固定在報表頁面底部，以便一律顯示並可供使用，不論您在頁面上執行的動作為何。 這可讓您輕鬆地使用報表頁尾提供的所有選項。 若要固定頁尾，請切換[行動應用程式設定](./mobile-app-interaction-settings.md)頁面上的 [固定的報表頁尾]  切換開關。
+
+### <a name="support-for-pbirs-reports-preview-windows"></a>支援 PBIRS 報表 (預覽) (Windows)
+
+您現在可以在 Power BI 應用程式中開啟 Power BI 報表伺服器 (PBIRS) 報表。
+
+### <a name="quickly-access-your-recent-items-windows"></a>快速存取最近使用的項目 (Windows)
+
+在 Windows 工作列中的 Power BI 應用程式圖示上按一下滑鼠右鍵，以取得所有最近檢視的項目清單。 按一下清單上的任何項目，即可快速再次檢視。
+
+![工作列快速存取功能表](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-windows-taskbar-quick-access.png)
 
 ## <a name="january-2020"></a>2020 年 1 月
 
@@ -38,7 +61,7 @@ ms.locfileid: "77259824"
 
 偏好先前行為的使用者，可以使用行動裝置應用程式新擴充的[互動設定](./mobile-app-interaction-settings.md)來還原這些行為。
 
-此外，IT 系統管理員可以使用其選擇的 MDM 工具搭配應用程式設定檔，代表其使用者[遠端覆寫新的預設設定](./mobile-app-configuration.md#interaction-settings-android)。 如此一來，組織中的所有使用者都可以為應用程式設定相同為。
+此外，IT 系統管理員可以使用其選擇的 MDM 工具搭配應用程式設定檔，代表其使用者[遠端覆寫新的預設設定](./mobile-app-configuration.md#interaction-settings-ios-and-android)。 如此一來，組織中的所有使用者都可以為應用程式設定相同為。
 
 > [!NOTE]
 > 重新整理按鈕和停駐報表頁尾的互動設定，目前不會影響報表伺服器報表。 這會在 1 月的報表伺服器版本中變更！
@@ -104,7 +127,7 @@ Power BI 行動裝置應用程式現支援在 Power BI 中建立的書籤。 當
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>保護 Azure Active Directory (AD) 應用程式 Proxy 的存取安全 (iOS 和 Android)
 
-我們與 Azure Active Directory 團隊合作，整合了 Power BI 行動應用程式與 Azure Active Directory (AAD) 應用程式 Proxy。 使用此設定，您就能從 Power BI 行動裝置應用程式，連線到企業範圍內部裝載的報表伺服器，省去設定複雜內部部署麻煩。 請參閱 [Power BI mobile and Azure AD Application Proxy integration](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) (Power BI 行動應用程式與 Azure AD 應用程式 Proxy 整合) 中的詳細資訊。 了解[如何設定 Azure AD 應用程式 Proxy 與 Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
+我們與 Azure Active Directory 團隊合作，將 Power BI 行動應用程式與 Azure Active Directory (AAD) 應用程式 Proxy 整合。 使用此設定，您就能從 Power BI 行動裝置應用程式，連線到企業範圍內部裝載的報表伺服器，省去設定複雜內部部署麻煩。 請參閱 [Power BI mobile and Azure AD Application Proxy integration](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) (Power BI 行動應用程式與 Azure AD 應用程式 Proxy 整合) 中的詳細資訊。 了解[如何設定 Azure AD 應用程式 Proxy 與 Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
 
 ## <a name="july-2019"></a>2019 年 7 月
 
@@ -210,7 +233,7 @@ Power BI 行動裝置應用程式現支援在 Power BI 中建立的書籤。 當
 
 ### <a name="modern-visual-header"></a>新式視覺效果標題 
 
-使用新的「新式視覺效果標題」的報表不會再配置空間給標題，所以空白空間會變少，而您視覺效果能使用的空間會變多。
+使用新「新式視覺效果標題」的報表不會再配置空間給標題，所以空白空間會變少，而您視覺效果能使用的空間會變多。
 
 ### <a name="enhance-presentation-mode-windows"></a>加強簡報模式 (Windows)
 
@@ -264,7 +287,7 @@ Power BI 行動裝置應用程式現支援在 Power BI 中建立的書籤。 當
 
 ### <a name="dashboard-commenting-ios-and-android"></a>儀表板註解 (iOS 和 Android) 
 
-您可以將註解直接新增到儀表板和特定磚來討論您的資料，且所有檢視儀表板的人都可以看見您的註解。 您也可以透過 @mentioning 他們，將您組織中的其他人員拉進交談。 這些您 @mentioned 的人員會在他們的手機上收到附帶您訊息的推播通知。
+您可以將註解直接新增到儀表板和特定磚來討論您的資料，且所有檢視儀表板的人都可以看見您的註解。 您也可以透過 @mentioning 他們，將您組織中的其他人員拉進交談。 那些您 @mentioned 的人員會在其手機上收到附帶您訊息的推播通知。
 
 目前可在 iOS 和 Android 裝置上使用。 Windows 支援即將推出。
 
@@ -383,11 +406,11 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 
 #### <a name="improved-security-management"></a>改進的安全性管理 
 
-我們在 Android 裝置上新增了條件式存取 (CA) 及 Microsoft Intune 行動裝置管理 (MDM) 的支援，以加強保護您組織中的資料。 iOS 上已可使用。
+我們在 Android 裝置上新增了條件式存取 (CA) 與 Microsoft Intune 行動裝置管理 (MDM) 的支援，以加強保護您組織中的資料。 iOS 上已可使用。
 
 #### <a name="improved-permission-management"></a>改善的權限管理
 
-我們做了一些變更，讓您在管理資料集、儀表板及報表的使用者權限時能夠更加精確。
+我們做了一些變更，讓您在管理資料集、儀表板與報表的使用者權限時能夠更加精確。
 
 #### <a name="auto-installed-apps"></a>自動安裝的應用程式
 
@@ -398,7 +421,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 ### <a name="november-2017"></a>2017 年 11 月
 #### <a name="iphone-x-optimization"></a>iPhone X 最佳化
 
-我們已最佳化 iPhone X 的應用程式配置，因此您可以在每部裝置上時髦地瀏覽資料。
+我們已最佳化 iPhone X 的應用程式版面配置，因此您可以在每部裝置上時髦地瀏覽資料。
 
 ### <a name="october-2017"></a>2017年 10 月
 #### <a name="filters-for-phone-reports-in-android"></a>Android 中手機報表的篩選
@@ -521,7 +544,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 #### <a name="all-devices"></a>所有裝置
 **離線背景重新整理**
 
-為了確定您可以在離線時存取最新的資料，我們會在應用程式背景執行重新整理，讓您的商務資訊為最新版本，即使您有一段時間沒有存取它。 若要確保某些儀表板一律為最新狀態，只要將它們標示為 [我的最愛]。 深入了解 [Power BI 行動裝置應用程式中的離線功能](mobile-apps-offline-data.md)。
+為了確定您可以在離線時存取最新的資料，我們會在應用程式背景執行重新整理，讓您的商務資訊為最新版本，即使您有一段時間沒有加以存取也一樣。 若要確保某些儀表板一律為最新狀態，只要將它們標示為 [我的最愛]。 深入了解 [Power BI 行動裝置應用程式中的離線功能](mobile-apps-offline-data.md)。
 
 #### <a name="ios-devices"></a>iOS 裝置
 **標註並共用**
@@ -573,7 +596,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 閱讀 [October 2016 Power BI mobile apps feature summary](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-october-2016/) (2016 年 10 月的 Power BI 行動裝置應用程式功能摘要)。
 
 #### <a name="all-devices"></a>所有裝置
-**將登陸頁面設為我的最愛**：如果您已將任何儀表板標記為 [我的最愛]，則登陸頁面將會成為 [我的最愛] 項目。 
+**將登陸頁面設為我的最愛**：如果您已將任何儀表板標示為 [我的最愛]，則登陸頁面將會是您的 [我的最愛] 項目。 
 
 **改進導覽**：主要導覽有了全新的面貌，而且群組導覽已移至群組目錄。 
 
@@ -625,7 +648,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 
 **改進安全性管理**：為特定儀表板中顯示的商務資料選取風險分類。
 
-**改進警告與橫幅**：我們改進了行動裝置應用程式的警告與橫幅。
+**改進警告與橫幅**：我們改進了行動應用程式的警告與橫幅。
 
 **報表頁面的 QR 代碼**：服務中產生的 QR 代碼將會連結至特定頁面，而不是整份報表。
 
@@ -638,16 +661,16 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 
 **改進手動重新整理**：您現在可以手動重新整理儀表板磚。 針對以直接查詢為基礎的磚，此動作會從資料模型擷取最新的資料。
 
-**改進警告與橫幅**：我們改進了行動裝置應用程式的警告與橫幅。
+**改進警告與橫幅**：我們改進了行動應用程式的警告與橫幅。
 
 **報表頁面的 QR 代碼**：服務中產生的 QR 代碼將會連結至特定頁面，而不是整份報表。
 
-**一般增強功能**：我們改進了行動裝置應用程式中磚的錯誤訊息。
+**一般增強功能**：我們改進了行動應用程式中磚的錯誤訊息。
 
 #### <a name="windows-10-devices"></a>Windows 10 裝置
 **改進安全性管理**：為特定儀表板中顯示的商務資料選取風險分類。
 
-**改進警告與橫幅**：我們改進了行動裝置應用程式的警告與橫幅。
+**改進警告與橫幅**：我們改進了行動應用程式的警告與橫幅。
 
 ### <a name="june-2016"></a>2016 年 6 月
 如需詳細資料，請參閱[六月 Power BI 行動裝置應用程式部落格文章](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-june-2016/)。
@@ -699,11 +722,11 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 
 **iOS 9.0 和更新版本**：為了保障 Power BI 的最佳體驗和新功能，目前僅支援執行 iOS 9.0 及更新版本的裝置。
 
-**全域搜尋** 加入了新的 [最近檢視] 清單和全域搜尋，以便您快速找到需要的資料。
+**全域搜尋**：加入了新的 [最近檢視] 清單與全域搜尋，以便您快速找到需要的資料。
 
 **報表庫**：直接在報表庫中開啟報表。
 
-**離線時的新資料** 新的背景重新整理會在您上線時自動更新快取的資料，所以[即使離線時](mobile-apps-offline-data.md)也會有最新的資料。 
+**離線時的新資料**：新的背景重新整理會在您上線時自動更新快取的資料，所以[即使離線時](mobile-apps-offline-data.md)也會有最新的資料。 
 
 **Bing 和 R 磚**：在焦點模式中開啟 Bing 和 R 磚。​
 
@@ -712,10 +735,10 @@ Power BI 行動裝置應用程式中的通知中心，會顯示新資料、或�
 
 **檢視報表**從儀表板上的磚開啟報表。
 
-**離線時的新資料** 新的背景重新整理會在您上線時自動更新快取的資料，所以[即使離線時](mobile-apps-offline-data.md)也會有最新的資料。 
+**離線時的新資料**：新的背景重新整理會在您上線時自動更新快取的資料，所以[即使離線時](mobile-apps-offline-data.md)也會有最新的資料。 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>適用於 Windows 10 裝置的 Power BI 應用程式
-**快速存取** 使用新的 [最近檢視] 清單和全域搜尋快速存取您的儀表板、報表和群組，以便找到您需要的資料。
+**快速存取**：使用新的 [最近檢視] 清單與全域搜尋快速存取您的儀表板、報表與群組，以便找到您需要的資料。
 
 **Bing 和 R 磚**：在焦點模式中開啟 Bing 和 R 磚。​
 
@@ -812,7 +835,7 @@ Power BI 行動裝置應用程式改善 -- Android、iOS (iPhone 和 iPad) 及 W
 
 #### <a name="android"></a>Android
 * 支援群組工作區：與同事在群組工作區中共同作業。 
-* 支援未驗證使用者：針對使用者失敗或無法登入應用程式之少數案例，我們加入了快速而簡便的方式，方便連絡支援部門並傳送意見反應。
+* 支援未驗證使用者：針對使用者失敗或無法登入應用程式的少數案例，我們加入了快速而簡便的方式，方便連絡客戶支援並傳送意見反應。
 * 改善使用者以角色型安全性存取儀表板的使用者經驗。          
 * 改善圖表資料格式和所有儀表板圖格的對齊方式。 
 
@@ -825,11 +848,10 @@ Power BI 行動裝置應用程式改善 -- Android、iOS (iPhone 和 iPad) 及 W
 * 矩陣圖圖格的觸控最佳化改進：現在可以輕鬆地捲動矩陣資料，以輕鬆且直覺的方式檢視所有資料。
 * 改善圖表資料格式和儀表板圖格的對齊方式。 
 * 移除 iOS 7 支援：為維持最高的 Power BI 安全性標準，我們不再支援安裝 iOS 7 的裝置。 需要 iOS 8 及更新版本。 
-* 在應用程式中加入傳送意見反應與評分功能：加入應用程式內功能，以傳送意見反應及提供評分，增加社群對我們藍圖的影響力，並輕鬆地直接從應用程式中升級問題。
+* 在應用程式中加入傳送意見反應與評分功能：已加入應用程式內功能，以傳送意見反應及提供評分，增加社群對我們藍圖的影響力，並輕鬆地直接從應用程式中提高問題層級。
 
 #### <a name="windows"></a>Windows
 * 改善地圖底圖在聚焦模式的轉譯，以最大化螢幕使用空間。
 * 改善使用者以角色型安全性存取儀表板的使用者經驗。 
 * 新功能可讓您來回瀏覽儀表板圖格，直接在聚焦模式中探索它們，不必返回儀表板來選取下一個圖格。
 * 其他的穩定性和效能增強功能。 
-
