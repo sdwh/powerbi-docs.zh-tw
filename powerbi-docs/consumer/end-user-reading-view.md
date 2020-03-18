@@ -10,31 +10,34 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2019
+ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eeffb4c0fb7db57eacf18818275716db42679f6e
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862677"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206025"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>快速入門：了解適用於*取用者*的 Power BI 功能
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+
 在此快速入門中，您會了解如何與 Power BI 互動，探索資料驅動商務見解。 本文不適合用於深入了解，而是快速探索 Power BI **取用者**可用的許多動作。
 
 如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
 
 ## <a name="what-is-power-bi"></a>Power BI 是什麼？ 
-Power BI 是軟體服務、應用程式和連接器的集合，它們會搭配使用來將不相關的資料來源轉換成相關、視覺融入且具互動性的見解。 不論您的資料是簡單的 Excel 試算表，還是來自不同資料來源的資料集合，Power BI 都可讓您輕鬆地連線到資料來源，以視覺方式檢視 (或探索) 重要資料，並與任何人或所有人共用該資料。 
+Power BI 是軟體服務、應用程式和連接器的集合，它們會搭配使用來將不相關的資料來源轉換成相關、視覺融入且具互動性的見解。 不論您的資料是簡單的 Excel 試算表，還是來自不同資料來源的資料集合，Power BI 都可讓您輕鬆地連線到資料來源、以視覺方式檢視 (或探索) 重要資料，並與任何人或所有人共用該資料。 
 
 ![取得應用程式圖示](./media/end-user-reading-view/power-bi-conceptual.png)
 
 ## <a name="reading-view"></a>閱讀檢視
-Power BI 服務中的 [閱讀] 檢視可供報表「取用者」  使用。 當同事與您共用報表、儀表板或應用程式時，[閱讀] 檢視是您探索報表並與之互動的方式。 
+Power BI 服務中的 [閱讀] 檢視可供報表「取用者」 ** 使用。 當同事與您共用報表、儀表板或應用程式時，[閱讀] 檢視是您探索報表並與之互動的方式。 
 
-只要在瀏覽器或行動裝置中開啟 Power BI 服務即可。 您和同事可以從相同的受信任應用程式、儀表板和報表執行作業；它們會自動更新和重新整理，因此您一律會使用最新的內容。   
+只要在瀏覽器或行動裝置中開啟 Power BI 服務即可。 您和同事可以從相同的受信任應用程式、儀表板與報表執行作業；其會自動更新及重新整理，因此您一律會使用最新的內容。   
 
-由於內容不是靜態的，因此您可以深入探索以尋找趨勢、見解和其他商業智慧。 對內容進行分析，甚至用您自己的話來詢問問題。 或者，放心讓資料為您探索有趣的見解、在資料變更時傳送警示給您，並依照您設定的排程以電子郵件傳送報表給您。 這包括您來自任何裝置、不分時間的所有資料，無論它是位於雲端或內部部署中。 
+由於內容不是靜態的，因此您可以深入探索以尋找趨勢、見解與其他商業智慧。 對內容進行分析，甚至用您自己的話來詢問問題。 或者，放心讓資料為您探索有趣的見解、在資料變更時傳送警示給您，並依照您設定的排程以電子郵件傳送報表給您。 這包括您來自任何裝置、不分時間的所有資料，無論它是位於雲端或內部部署中。 
 
 繼續閱讀以深入了解更多。
 
@@ -47,9 +50,9 @@ Power BI 服務中的 [閱讀] 檢視可供報表「取用者」  使用。 當�
 
 ###  <a name="apps"></a>應用程式
 
-「應用程式」  是將相關儀表板和報表全都結合到同一處的 Power BI 內容類型。 應用程式可以有一或多個儀表板和一或多個報表，所有儀表板和報表都會組合在一起。 應用程式是由 Power BI「設計師」  所建立，這些設計師會散發應用程式並與像您一樣的「取用者」  共用。 
+「應用程式」 ** 是將相關儀表板和報表全都結合到同一處的 Power BI 內容類型。 應用程式可以有一或多個儀表板和一或多個報表，所有儀表板和報表都會組合在一起。 應用程式是由 Power BI「設計師」 ** 所建立，這些設計師會散發應用程式並與像您一樣的「取用者」 ** 共用。 
 
-檢視應用程式的其中一種方法是從導覽窗格選取 [應用程式]  ，然後選取要開啟的應用程式。
+檢視應用程式的其中一種方法是從導覽窗格選取 [應用程式] **** ，然後選取要開啟的應用程式。
 
 ![取得應用程式圖示](./media/end-user-reading-view/power-bi-apps.png)
 
@@ -57,7 +60,7 @@ Power BI 服務中的 [閱讀] 檢視可供報表「取用者」  使用。 當�
 
 ### <a name="reports"></a>報表
 
-Power BI 報表是一種資料集的多角度檢視，可透過視覺效果表示該資料集不同的尋找結果和見解。 報表可以具備單一視覺效果，或是充滿視覺效果的頁面。 報表是由 Power BI「設計師」  所建立，這些設計師會散發報表，並與像您一樣的「取用者」  共用。
+Power BI 報表是一種資料集的多角度檢視，可透過視覺效果表示該資料集不同的尋找結果和見解。 報表可以具備單一視覺效果，或是充滿視覺效果的頁面。 報表是由 Power BI「設計師」 ** 所建立，這些設計師會散發報表，並與像您一樣的「取用者」 ** 共用。
 
 ![取得應用程式圖示](./media/end-user-reading-view/power-bi-report-phone.png)
 
@@ -67,7 +70,7 @@ Power BI 報表是一種資料集的多角度檢視，可透過視覺效果表�
 
 Power BI 儀表板是使用視覺效果來訴說故事的單一頁面，通常稱為畫布。 因為受限於一張頁面，所以設計良好的儀表板只包含故事最重要的項目。
 
-您在儀表板上看到的視覺效果稱為磚，由報表「設計師」  釘選在儀表板上。 在大部分的情況下，選取磚會帶您前往建立視覺效果的報表頁面。 
+您在儀表板上看到的視覺效果稱為磚，由報表「設計師」 ** 釘選在儀表板上。 在大部分的情況下，選取磚會帶您前往建立視覺效果的報表頁面。 
 
 ![取得應用程式圖示](./media/end-user-reading-view/power-bi-dashboard-phone.png)
 
@@ -115,20 +118,20 @@ Power BI 會在值的增加或減少程度超過所設定的限制時，傳送�
 ![游標暫留以查看詳細資料](media/end-user-reading-view/power-bi-hover.gif)
 
 ### <a name="favorite-a-dashboard"></a>將儀表板設為我的最愛
-當您將內容設為「我的最愛」  時，便可從導覽窗格加以存取。 Power BI 中幾乎每一個區域都能看到導覽窗格。 我的最愛通常是儀表板、報表頁面，以及您最常前往的應用程式。
+當您將內容設為「我的最愛」 ** 時，便可從導覽窗格加以存取。 Power BI 中幾乎每一個區域都能看到導覽窗格。 我的最愛通常是儀表板、報表頁面，以及您最常前往的應用程式。
 
-從 Power BI 服務的右上角，選取 [我的最愛]  ；如果看不到，請選取 [更多選項]  (...)，並從下拉式清單選取 [我的最愛]  。 
+從 Power BI 服務的右上角，選取 [我的最愛] **** ；如果看不到，請選取 [更多選項] **** (...)，並從下拉式清單選取 [我的最愛] **** 。 
    
 ![[我的最愛] 圖示](./media/end-user-reading-view/power-bi-favorites.png)
 
-查看下拉式清單中可供使用的其他動作。  我們不會在此文章中涵蓋所有這些動作，但會在其他文章中加以討論。  使用 Power BI 目錄或 [搜尋]  欄位來深入了解。 
+查看下拉式清單中可供使用的其他動作。  我們不會在此文章中涵蓋所有這些動作，但會在其他文章中加以討論。  使用 Power BI 目錄或 [搜尋] **** 欄位來深入了解。 
 
 深入了解[我的最愛和精選](end-user-favorite.md)
 
 ### <a name="adjust-the-display-dimensions"></a>調整顯示尺寸
 報表可在許多不同的裝置上檢視，這些裝置的螢幕大小和外觀比例有所不同。  預設呈現方式可能不是您要在裝置上查看的方式。  
 
-若要調整，請從右上角的功能表列中選取 [檢視]  ，然後選擇其中一個顯示選項。 
+若要調整，請從右上角的功能表列中選取 [檢視] **** ，然後選擇其中一個顯示選項。 
 
 ![報告檢視功能表](media/end-user-reading-view/power-bi-view-menu.png)
 
@@ -167,35 +170,35 @@ Easily navigate between the visualizations on the report page.
 ### <a name="sort-a-visualization"></a>排序視覺效果
 報表頁面上的視覺效果可進行排序，並儲存您套用的變更。 
 
-將游標暫留在視覺效果上來予以啟用，並選取 [更多選項]  (...) 來開啟排序選項。
+將游標暫留在視覺效果上來予以啟用，並選取 [更多選項] **** (...) 來開啟排序選項。
 
 ![排序圖表](media/end-user-reading-view/sort.gif) 
 
 深入了解[對視覺效果進行排序](end-user-search-sort.md)
 
 ### <a name="show-the-data-used-to-create-a-visualization"></a>顯示用來建立視覺效果的資料
-Power BI 視覺效果是使用基礎資料集中的資料所建構。 如果您對背景資料有興趣，Power BI 可讓您「顯示」  用來建立視覺效果的資料。 當您選取 [顯示資料]  時，Power BI 會在視覺效果下方 (或旁邊) 顯示資料。
+Power BI 視覺效果是使用基礎資料集中的資料所建構。 如果您對背景資料有興趣，Power BI 可讓您「顯示」 ** 用來建立視覺效果的資料。 當您選取 [顯示資料] **** 時，Power BI 會在視覺效果下方 (或旁邊) 顯示資料。
 
-在視覺效果啟用的情況下，選取 [更多選項]  (...) 並選擇 [顯示資料]  。
+在視覺效果啟用的情況下，選取 [更多選項] **** (...) 並選擇 [顯示資料] **** 。
    
    ![選取 [顯示資料]](./media/end-user-show-data/power-bi-explore-show-data.png)
 
 
 ### <a name="export-data-to-excel"></a>將資料匯出至 Excel
-除了顯示用來建立視覺效果的資料之外，您也可以匯出該資料並在 Microsoft Excel 中檢視它。 當您匯出至 Excel 時，您會建立個別的文件，也就是不屬於 Power BI 的試算表。 您在該 Excel 檔案中所做的任何變更都不會影響到 Power BI 中的資料。 無論您是想要仔細查看資料，或是想要在另一個應用程式中或針對其他用途使用該資料，Power BI 都能為您提供該彈性。
+除了顯示用來建立視覺效果的資料之外，您也可以匯出該資料並在 Microsoft Excel 中檢視它。 當您匯出至 Excel 時，您會建立個別的文件，也就是不屬於 Power BI 的試算表。 您在該 Excel 檔案中所做的任何變更都不會影響 Power BI 中的資料。 無論您是想要仔細查看資料，或是想要在另一個應用程式中或針對其他用途使用該資料，Power BI 都能為您提供該彈性。
 
 ![匯出至 Excel 的資料](./media/end-user-reading-view/power-bi-export-powerpoint.png)
 
-<!-- Exporting isn’t limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
+<!-- Exporting isn't limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
 
 ![data exported to PowerPoint](./media/end-user-reading-view/power-bi-export-powerpoint.png) -->
 
-這是針對「取用者」  可搭配 Power BI 服務執行之一部分工作的快速概觀。  
+這是針對「取用者」 ** 可搭配 Power BI 服務執行之一部分工作的快速概觀。  
 
 ## <a name="clean-up-resources"></a>清除資源
-- 若您連線到應用程式，請從導覽窗格選取 [應用程式]  以開啟應用程式內容清單。 在要刪除的應用程式上暫留，然後選取垃圾桶圖示。
+- 若您連線到應用程式，請從導覽窗格選取 [應用程式] **** 以開啟應用程式內容清單。 在要刪除的應用程式上暫留，然後選取垃圾桶圖示。
 
-- 若您匯入或連線至 Power BI 範例報表，請從導覽窗格開啟 [我的工作區]  。 使用頂端的索引標籤，找到儀表板、報表和資料集，然後為每個項目選取垃圾桶圖示。
+- 若您匯入或連線至 Power BI 範例報表，請從導覽窗格開啟 [我的工作區] **** 。 使用頂端的索引標籤，找到儀表板、報表和資料集，然後為每個項目選取垃圾桶圖示。
 
 ## <a name="next-steps"></a>後續步驟
 [取用者適用的 Power BI](end-user-consumer.md)
