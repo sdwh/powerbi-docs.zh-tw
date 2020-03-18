@@ -6,28 +6,28 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/31/2019
-ms.openlocfilehash: 0c1263760157371f9f4d9fc0f122d6e37d73d720
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d406396db64b52326bbd8ea2aa485cd3d7451294
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819161"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379996"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>在 Power BI 視覺效果中醒目提示資料點
 
 根據預設，每當選取一個元素時，都會篩選 `dataView` 物件中的 `values` 陣列只顯示選取的值。 這會導致頁面上所有其他視覺效果只顯示選取的資料。
 
-![醒目提示 `dataview` 預設行為](./media/highlight-dataview.png)
+![醒目提示 `dataview` 預設行為](media/highlight/highlight-dataview.png)
 
 如果您將 `capabilities.json` 中的 `supportsHighlight` 屬性設定為 `true`，則會收到未篩選的完整 `values` 陣列及 `highlights` 陣列。 `highlights` 陣列的長度會與 values 陣列相同，且任何非選取的值都會設定為 `null`。 啟用此屬性時，視覺效果會負責將 `values` 陣列與 `highlights` 陣列進行比較，以醒目提示適當的資料。
 
-![`dataview` 支援醒目提示](./media/highlight-dataview-supports.png)
+![`dataview` 支援醒目提示](media/highlight/highlight-dataview-supports.png)
 
 在此範例中，您會注意到選取了 1 個直條。 這是 highlights 陣列中唯一的值。 另請務必注意，可能會有多個選取項目和部分醒目提示。 醒目提示的值將會呈現在資料檢視中。
 
-> [!Note]
+> [!NOTE]
 > 資料表資料檢視對應不支援醒目提示功能。
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>使用類別資料檢視對應來醒目提示資料點
@@ -187,7 +187,7 @@ public update(options: VisualUpdateOptions) {
 
 其中 `categoryValues` 是類別值的陣列，`measureValues` 是量值的陣列，而 `measureHighlights` 則是值的醒目提示部分。
 
-> [!Note]
+> [!NOTE]
 > `measureHighlights` 屬性的值可能小於 `categoryValues` 屬性的值。
 > 這表示值已部分醒目提示。
 
@@ -271,7 +271,7 @@ div.value {
 
 在結果中，您應該會看到下列視覺效果檢視。
 
-![內含類別資料檢視對應和醒目提示的視覺效果](./media/dev-categorical-visual-highlight-demo.gif)
+![內含類別資料檢視對應和醒目提示的視覺效果](media/highlight/dev-categorical-visual-highlight-demo.gif)
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>使用矩陣資料檢視對應來醒目提示資料點
 
@@ -582,7 +582,7 @@ JSON.stringify(options.dataViews[0].matrix.rows.root.children[0].children[0].chi
 
 其中 `value` 屬性代表節點的值，但未套用其他視覺效果的選取項目，而 highlight 屬性則表示已醒目提示的資料部分。
 
-> [!Note]
+> [!NOTE]
 > `highlight` 屬性的值可能小於 `value` 屬性的值。
 > 這表示值已部分醒目提示。
 
@@ -643,7 +643,7 @@ public update(options: VisualUpdateOptions) {
 
 如此一來，您就會看到具有按鈕和值 `highlighted value/default value` 的視覺效果
 
-![具有矩陣資料檢視對應和醒目提示的視覺效果](./media/dev-matrix-visual-highlight-demo.gif)
+![具有矩陣資料檢視對應和醒目提示的視覺效果](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
 ## <a name="next-steps"></a>後續步驟
 

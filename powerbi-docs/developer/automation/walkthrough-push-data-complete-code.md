@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 1b927bcca087e832138e4ac02c555e34915febd9
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 4745935e618f47f6092f6a33d879dd95d59b9963
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079316"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488284"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>將資料推送至資料集的完整程式碼清單
 
@@ -225,7 +225,7 @@ ms.locfileid: "79079316"
 ## <a name="next-steps"></a>後續步驟
 
 * [將資料推送至 Power BI 資料集](walkthrough-push-data.md)
-* [使用 Azure AD 註冊應用程式](../register-app.md)  
+* [使用 Azure AD 註冊應用程式](../embedded/register-app.md)  
 * [取得驗證存取權杖](walkthrough-push-data-get-token.md)  
 * [在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)  
 * [取得資料集，以便將資料列新增至 Power BI 資料表](walkthrough-push-data-get-datasets.md)  

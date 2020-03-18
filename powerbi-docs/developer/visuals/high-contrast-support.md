@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 021040706ff34f43c6a7772849f2e27181041bc9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 56ebfeb8c1c52b83f5be0ca9e9db6f312986dd57
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880059"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380109"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Power BI 視覺效果中的高對比模式支援
 
@@ -82,9 +82,9 @@ Power BI 原生視覺效果會遵循這些指導方針：
 
 例如在下列範例橫條圖中，所有橫條都會以兩個像素的粗前景外框和背景填滿來繪製。 請比較它使用預設色彩與使用幾個高對比主題的外觀：
 
-![使用標準色彩的範例橫條圖](./media/hc-samplebarchart-standard.png)
-![使用*深色 #2* 色彩主題的範例橫條圖](./media/hc-samplebarchart-dark2.png)
-![使用*白色*色彩主題的範例橫條圖](./media/hc-samplebarchart-white.png)
+![使用標準色彩的範例橫條圖](media/high-contrast-support/hc-samplebarchart-standard.png)
+![使用*深色 #2* 色彩主題的範例橫條圖](media/high-contrast-support/hc-samplebarchart-dark2.png)
+![使用*白色*色彩主題的範例橫條圖](media/high-contrast-support/hc-samplebarchart-white.png)
 
 下一節會說明 `visualTransform` 函式中為了支援高對比而變更的一個地方。 它會作為更新期間轉譯的一部分進行呼叫。
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496763"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205542"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>使用行動裝置管理 (MDM) 工具從遠端設定 Power BI 應用程式
 
@@ -22,8 +22,8 @@ ms.locfileid: "77496763"
 Power BI 行動裝置應用程式支援下列設定情節：
 
 * 報表伺服器設定 (iOS 和 Android)
-* 資料保護設定 (iOS 和 Android)
-* 互動設定 (Android)
+* 資料保護設定 (iOS)
+* 互動設定 (iOS 與 Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>報表伺服器設定 (iOS 和 Android)
 
@@ -38,20 +38,24 @@ Power BI 行動裝置應用程式支援下列設定情節：
 
 ## <a name="data-protection-settings-ios"></a>資料保護設定 (iOS)
 
-適用於 iOS 和 Android 的 Power BI 應用程式可讓系統管理員自訂安全性和隱私權設定的預設設定。 您可以強制使用者在存取 Power BI 應用程式時提供其 Face ID、Touch ID 或密碼。
+適用於 iOS 的 Power BI 應用程式可讓管理員自訂安全性和隱私權設定的預設設定。 您可以強制使用者在存取 Power BI 應用程式時提供其 Face ID、Touch ID 或密碼。
 
 | 索引鍵 | 類型 | 描述 |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | 布林值 | 預設值為 False。 <br><br>可能需要生物識別技術 (例如 TouchID 或 FaceID)，才能讓使用者存取其裝置上的應用程式。 如果需要，除了使用驗證，還會使用生物識別技術。<br><br>如果使用應用程式防護原則，Microsoft 建議停用此設定以防止雙重存取提示。 |
 
-## <a name="interaction-settings-android"></a>互動設定 (Android)
+## <a name="interaction-settings-ios-and-android"></a>互動設定 (iOS 與 Android)
 
-如果決定要在組織中的使用者群組之間變更預設互動設定，則適用於 Android 的 Power BI 應用程式可讓系統管理員設定互動設定。 
+如果決定要在組織中的使用者群組之間變更預設互動設定，則適用於 iOS 與 Android 的 Power BI 應用程式可讓系統管理員設定互動設定。
+
+>[!NOTE]
+>並非所有裝置上目前都支援所有互動。 如需顯示目前跨裝置可用性的圖表，請參閱[設定報表互動設定](mobile-app-interaction-settings.md)。
 
 | 索引鍵 | 類型 | 值 | 描述 |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | 字串 |  <nobr>single-tap</nobr><br><nobr>double-tap</nobr> | 設定點選視覺效果是否也會選取資料點。 |
-| com.microsoft.powerbi.mobile.RefreshAction | 字串 |  <nobr>pull-to-refresh</nobr><br>按鈕 | 設定使用者會有按鈕可以重新整理報表，還是應該使用提取以重新整理。 |
+| com.microsoft.powerbi.mobile.EnableMultiSelect | 布林值 |  <nobr>True</nobr><br><nobr>False</nobr> | 設定點選資料點會取代目前的選取範圍或新增到目前的選取範圍。 |
+| com.microsoft.powerbi.mobile.RefreshAction | 字串 |  <nobr>pull-to-refresh</nobr><br>按鈕 | 設定使用者會有按鈕可以重新整理報表，還是應該使用拖動以重新整理。 |
 | com.microsoft.powerbi.mobile.FooterAppearance | 字串 |  docked<br>動態 | 設定報表頁尾要停駐在報表底部還是自動隱藏。 |
 
 ## <a name="deploying-app-configuration-settings"></a>部署應用程式組態設定

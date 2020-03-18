@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: c39c7234ec4bc1b632355f92bdfdec9dc2b21ae4
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079270"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488192"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>將資料推送至 Power BI 資料集
 
 Power BI API 可讓您將資料推送到 Power BI 資料集。 在此文章中，我們將說明如何將包含「產品」資料表的「銷售行銷」資料集推送到現有的資料集。
 
-開始之前，您需要 Azure Active Directory (Azure AD) 與 [Power BI 帳戶](../create-an-azure-active-directory-tenant.md)。
+開始之前，您需要 Azure Active Directory (Azure AD) 與 [Power BI 帳戶](../embedded/create-an-azure-active-directory-tenant.md)。
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>將資料推送至資料集的步驟
 
-* 步驟 1：[使用 Azure AD 註冊應用程式](../register-app.md)
+* 步驟 1：[使用 Azure AD 註冊應用程式](../embedded/register-app.md)
 * 步驟 2：[取得驗證存取權杖](walkthrough-push-data-get-token.md)
 * 步驟 3：[在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)
 * 步驟 4：[取得資料集，以便將資料列新增至 Power BI 資料表](walkthrough-push-data-get-datasets.md)
@@ -111,11 +111,11 @@ Power BI API 可讓您將資料推送到 Power BI 資料集。 在此文章中�
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>深入了解如何將資料推送至 Power BI
 
-若要開始將資料推送至資料集，請參閱左側導覽窗格中的[步驟 1：在導覽窗格中，使用 Azure AD 註冊應用程式](../register-app.md)。
+若要開始將資料推送至資料集，請參閱左側導覽窗格中的[步驟 1：在導覽窗格中，使用 Azure AD 註冊應用程式](../embedded/register-app.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
-* [註冊 Power BI](../create-an-azure-active-directory-tenant.md)  
+* [註冊 Power BI](../embedded/create-an-azure-active-directory-tenant.md)  
 * [JSON 簡介](https://json.org/)  
 * [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
 

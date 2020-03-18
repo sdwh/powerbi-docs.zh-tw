@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74696600"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380782"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>了解 Power BI 視覺效果中的資料檢視對應
 
@@ -185,7 +185,7 @@ export class Visual implements IVisual {
 
 因此，視覺效果會顯示來自 Power BI 的單一值：
 
-![單一資料檢視對應的視覺效果範例](./media/visual-simple-dataview-mapping.png)
+![單一資料檢視對應的視覺效果範例](media/dataview-mappings/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>類別目錄資料對應
 
@@ -493,7 +493,7 @@ export class Visual implements IVisual {
 
 視覺效果的結果：
 
-![內含類別資料檢視對應的視覺效果](./media/categorical-data-view-mapping-visual.png)
+![內含類別資料檢視對應的視覺效果](media/dataview-mappings/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>資料表資料對應
 
@@ -508,7 +508,7 @@ export class Visual implements IVisual {
     {
         "displayName": "Column",
         "name": "column",
-        "kind": "Measure"
+        "kind": "Grouping"
     },
     {
         "displayName": "Value",
@@ -557,7 +557,7 @@ export class Visual implements IVisual {
 
 資料繫結：
 
-![資料表資料檢視對應的資料繫結](./media/table-dataview-mapping-data.png)
+![資料表資料檢視對應的資料繫結](media/dataview-mappings/table-dataview-mapping-data.png)
 
 Power BI 會將您的資料顯示為資料表資料檢視。 您不應該假設資料已排序。
 
@@ -603,7 +603,7 @@ Power BI 會將您的資料顯示為資料表資料檢視。 您不應該假設�
 
 您可以選取所需的欄位，然後選取 [加總]，來彙總資料。  
 
-![資料彙總](./media/data-aggregation.png)
+![資料彙總](media/dataview-mappings/data-aggregation.png)
 
 處理資料表資料檢視對應的程式碼範例。
 
@@ -686,7 +686,7 @@ td {
 }
 ```
 
-![內含資料表資料檢視對應的視覺效果](./media/table-dataview-mapping-visual.png)
+![內含資料表資料檢視對應的視覺效果](media/dataview-mappings/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>矩陣資料對應
 
@@ -767,7 +767,7 @@ Power BI 會建立階層式資料結構。 樹狀結構階層的根包含 `Categ
 
 Power BI 的核心矩陣視覺效果會將資料以表格呈現。
 
-![矩陣視覺效果](./media/matrix-visual-smaple.png)
+![矩陣視覺效果](media/dataview-mappings/matrix-visual-smaple.png)
 
 下列程式碼描述視覺效果的資料結構 (這裡只顯示前兩個表格列)：
 

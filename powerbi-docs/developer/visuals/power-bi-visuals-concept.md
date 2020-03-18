@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 96f1fd217a59ee95aed05b790800024dc9f72be9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75925599"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378127"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 的視覺效果
 
@@ -22,7 +22,7 @@ ms.locfileid: "75925599"
 
 下圖說明使用者常採取的視覺效果動作 (例如選取書籤) 如何在 Power BI 中處理。
 
-![Power BI 視覺效果動作圖表](./media/visual-concept.svg)
+![Power BI 視覺效果動作圖表](media/power-bi-visuals-concept/visual-concept.svg)
 
 ## <a name="visuals-get-updates-from-power-bi"></a>視覺效果會從 Power BI 取得更新
 
@@ -131,4 +131,4 @@ Power BI 視覺效果中的動作和後續更新會以下列三種模式之一�
 您想建立視覺效果並將其新增到 Microsoft AppSource 嗎？ 請參閱以下文章：
 
 * [開發 Power BI 視覺效果](./custom-visual-develop-tutorial.md)
-* [將 Power BI 視覺效果發佈至合作夥伴中心](../office-store.md)
+* [將 Power BI 視覺效果發佈至合作夥伴中心](office-store.md)

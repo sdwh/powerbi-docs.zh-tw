@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427798"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381253"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>將超連結 (URL) 新增至資料表或矩陣
 本主題會指導如何將超連結 (URL) 新增至資料表。 您會使用 Power BI Desktop 來將超連結 (URL) 新增至資料集。 然後，在 Power BI Desktop 或 Power BI 服務中，您可以將那些超連結新增至您的報表資料表和矩陣。 接著，您可以顯示 URL 或連結圖示，或將另一個資料行格式化為連結文字。
@@ -125,7 +125,7 @@ ms.locfileid: "77427798"
    
    ![Excel 中的資料類別下拉式清單](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
 
-6. 從 Power BI 服務或 Power BI Desktop 連線至或匯入此活頁簿。
+6. 從 Power BI 服務或 Power BI Desktop，連接至或匯入此活頁簿。
 7. 建立包含 [URL] 欄位的資料表視覺效果。
    
    ![在 Power BI 中建立包含 URL 欄位的資料表](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)

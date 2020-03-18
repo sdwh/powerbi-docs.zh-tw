@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b32eee568ba560e95899cf0965a11f3bb037aed6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 719c07abdcdb42916db8a01a7fab28d3f6c98fba
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222277"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133333"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>開始使用 Power BI Desktop
 歡迎使用 Power BI Desktop 使用者入門指南。 此導覽說明 Power BI Desktop 的運作方式和功能，並說明如何建置穩固的資料模型和令人讚嘆的報表，來增強您的商業智慧。
 
 若要快速概要了解 Power BI Desktop 的運作方式和使用方式，只要花幾分鐘時間掃視本指南中的螢幕擷取畫面即可。 若要更深入了解，您可以閱讀每一個章節、執行所有步驟，然後建立您自己的 Power BI Desktop 檔案，以張貼到 [Power BI 服務](https://app.powerbi.com/)並與其他人共用。
 
-![Power BI Desktop 報表](media/desktop-getting-started/hero.png)
+![Power BI Desktop 報表](media/desktop-getting-started/hero-02.png)
 
 您也可以觀看 [Getting Started with the Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA) (開始使用 Power BI Desktop) 影片，並下載 [Financial Sample](https://go.microsoft.com/fwlink/?LinkID=521962) (財務範例) Excel 活頁簿以跟著影片進行。
 

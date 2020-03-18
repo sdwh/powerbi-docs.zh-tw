@@ -1,19 +1,19 @@
 ---
 title: 在 Power BI 行動裝置應用程式中檢視儀表板和報表
 description: 建立或連線到 Power BI 服務中的儀表板和報表。 然後在 Power BI 行動裝置應用程式中檢視。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/05/2019
-ms.author: mshenhav
-ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218310"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205519"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視儀表板和報表
 適用於︰
@@ -74,7 +74,7 @@ ms.locfileid: "75218310"
 
 ![儀表板橫向](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
 
-您可以使用「捏合」手勢，放大和縮小儀表板的不同區域，平移以巡覽。 您也可以[點選磚](mobile-tiles-in-the-mobile-apps.md)，並在焦點模式中開啟，然後與您的資料互動。
+您可以使用「捏合」手勢放大及縮小儀表板的不同區域，平移以巡覽。 您也可以[點選磚](mobile-tiles-in-the-mobile-apps.md)，並在焦點模式中開啟，然後與您的資料互動。
 
 ## <a name="view-dashboards-on-your-ipad"></a>在 iPad 上檢視儀表板
 1. 開啟 Power BI App。
@@ -138,12 +138,12 @@ ms.locfileid: "75218310"
    ![省略符號功能表](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. 上下撥動，即可查看[儀表板中的所有磚](mobile-tiles-in-the-mobile-apps.md)。 
    
-   您可以使用「捏合」手勢，放大和縮小儀表板的不同區域，平移以巡覽。 您也可以[點選磚](mobile-tiles-in-the-mobile-apps.md)，並在焦點模式中開啟，然後與您的資料互動。
+   您可以使用「捏合」手勢放大及縮小儀表板的不同區域，平移以巡覽。 您也可以[點選磚](mobile-tiles-in-the-mobile-apps.md)，並在焦點模式中開啟，然後與您的資料互動。
 5. 若要返回儀表板首頁，請點選儀表板名稱開啟追蹤，然後點選 [我的工作區]  ：
    
     ![階層連結](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
-    您可以使用「捏合」手勢，放大和縮小儀表板的不同區域，平移以巡覽。 您也可以[點選磚](mobile-tiles-in-the-mobile-apps.md)，並在焦點模式中開啟，然後與您的資料互動。
+    您可以使用「捏合」手勢放大及縮小儀表板的不同區域，平移以巡覽。 您也可以[點選磚](mobile-tiles-in-the-mobile-apps.md)，並在焦點模式中開啟，然後與您的資料互動。
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>在 Power BI 服務中建立儀表板的手機檢視
 如果您是儀表板的擁有者，在 Power BI 服務中，您可以建立專供手機在直向模式中使用的儀表板檢視。  

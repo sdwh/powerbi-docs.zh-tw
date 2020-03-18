@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 3ff7eb4a771ed8c65d18262f61170f312049a898
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079408"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488424"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>開發人員可如何利用 Power BI API？
 
@@ -25,10 +25,10 @@ ms.locfileid: "79079408"
 
 | **深入了解** | **參考這項資訊** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| 內嵌適用於 Power BI 使用者和非 Power BI 使用者的報表、儀表板和圖格。 | [如何內嵌 Power BI 儀表板、報表和磚](../embed-sample-for-customers.md) |
+| 內嵌適用於 Power BI 使用者和非 Power BI 使用者的報表、儀表板和圖格。 | [如何內嵌 Power BI 儀表板、報表和磚](../embedded/embed-sample-for-customers.md) |
 | 在 Power BI 物件上執行管理工作。 | [Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/) |
 | 擴充現有商務工作流程，將關鍵資料推送至 Power BI 儀表板。 | [將資料推入儀表板中](walkthrough-push-data.md) |
-| 向 Power BI 驗證。 | [向 Power BI 驗證](../get-azuread-access-token.md) |
+| 向 Power BI 驗證。 | [向 Power BI 驗證](../embedded/get-azuread-access-token.md) |
 
 > [!NOTE]
 > Power BI API 仍然將工作區稱為群組。 任何對群組的引述都表示您正在使用工作區。

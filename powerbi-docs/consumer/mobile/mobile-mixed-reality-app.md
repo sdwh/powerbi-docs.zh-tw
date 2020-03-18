@@ -1,19 +1,19 @@
 ---
 title: Power BI for Mixed Reality 應用程式 (預覽)
 description: 您可以透過 Power BI for Mixed Reality 應用程式 (預覽) 來檢視您的儀表板和報表，沉浸在虛擬世界或您的環境內容中。
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
-ms.author: mshenhav
-ms.openlocfilehash: 04a77aa9a5a464baf0ce1c9a88604d84ad0feb53
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879135"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205910"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI for Mixed Reality 應用程式 (預覽)
 您可以在沉浸於虛擬世界的同時，透過 Power BI for Mixed Reality 應用程式 (預覽) 來檢視您的儀表板和報表，或將這些項目放在您環境內容中的特定位置。 
@@ -60,7 +60,7 @@ Power BI for Mixed Reality 是以 Power BI Windows 行動裝置應用程式為�
 
 **"Dock"** 
 
-使用 “dock” 命令可將成品放在您的 Power BI 停駐列，讓它在您的主要視野外也會跟著您，以方便存取。
+使用 "dock" 命令可將成品放在您的 Power BI 停駐列，讓其在您的主要視野外也會跟著您，以方便存取。
 
 **"Place here"**
 
@@ -70,7 +70,7 @@ Power BI for Mixed Reality 是以 Power BI Windows 行動裝置應用程式為�
 
 **"Go home"**
 
-說 “go home” 可返回 Power BI 傳統 Windows 檢視。 
+說 "go home" 可返回 Power BI 傳統 Windows 檢視。 
 
 **"Remove"**
 

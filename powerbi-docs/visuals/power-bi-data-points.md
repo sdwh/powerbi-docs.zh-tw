@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885247"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381437"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>依視覺效果類型套用資料點限制與策略
 
@@ -74,7 +74,7 @@ ms.locfileid: "75885247"
 ### <a name="combo-chart"></a>組合圖
  使用與直條圖相同的策略。 請注意，**組合圖**中的線路並不會使用**折線圖**所使用的高密度演算法。
 
-### <a name="custom-visuals"></a>自訂視覺效果
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
 最多 30,000 個，但需由視覺效果作者指示要使用的策略。 預設限制為 1000，但視覺效果建立者可加以變更，其上限為 30000。
 
 ### <a name="doughnut"></a>環圈圖

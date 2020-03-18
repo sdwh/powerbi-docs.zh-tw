@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6854dad244636854cc8b77ddf1ffc15342281771
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a631e6f5baf7942b81ce22a238d80f4aea40d022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818885"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379671"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>透過 Power BI 視覺效果選取項目，將互動功能新增至視覺效果中
 
@@ -179,11 +179,11 @@ export interface ISelectionIdBuilder {
 | Nissan | **進口車輛** | 5485 |
 | Toyota | **進口車輛** | 20799 |
 
-![具有類別和數列之選取項目的視覺效果](media/visual-selections-sample.png)
+![具有類別和數列之選取項目的視覺效果](media/selection-api/visual-selections-sample.png)
 
 必須填滿視覺效果資料籃。
 
-![包含選取項目的視覺效果資料籃](media/visual-selections-databuckets.png)
+![包含選取項目的視覺效果資料籃](media/selection-api/visual-selections-databuckets.png)
 
 `Manufacturer` 作為類別 (資料行)、`Type` 作為數列 (資料列)，而 `Value` 作為數列的 `Values`。
 

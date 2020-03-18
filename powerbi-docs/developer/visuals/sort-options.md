@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 546480ae863c63d6517fde7c98e7c9787c022ab6
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3cb8f5af63960667dc46cab1d818ba48943fd582
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875533"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378058"
 ---
 # <a name="sorting-options-for-power-bi-visuals"></a>Power BI 視覺效果的排序選項
 
@@ -31,7 +31,7 @@ ms.locfileid: "73875533"
     }
 ```
 
-![操作功能表中的排序選項](./media/sorting.png)
+![操作功能表中的排序選項](media/sort-options/sorting.png)
 
 ## <a name="implicit-sorting"></a>隱含排序
 

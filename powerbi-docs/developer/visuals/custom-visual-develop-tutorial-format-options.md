@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
-ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
+ms.openlocfilehash: 3d0dc39fbf6d1daf978292d0e5e43129e66376c7
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/27/2019
-ms.locfileid: "75498491"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381000"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>教學課程：將格式設定選項新增到 Power BI 視覺效果
 
@@ -287,4 +287,4 @@ ms.locfileid: "75498491"
 
 ## <a name="next-steps"></a>後續步驟
 
-您可以透過將新開發的視覺效果提交至 **AppSource**，以將其列出供他人使用。 如需此程序的詳細資訊，請參閱[將自訂視覺效果發佈至 AppSource](../office-store.md)。
+您可以透過將新開發的視覺效果提交至 **AppSource**，以將其列出供他人使用。 如需此程序的詳細資訊，請參閱[將 Power BI 視覺效果發佈至 AppSource](office-store.md)。

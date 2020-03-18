@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 183ce11457069612f84bb834d7060a047cae1866
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 71a727d1d7e39661ed86a4fdf574e3f1fa8fb595
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875079"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488859"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>使用 Power BI 問與答來探索您的資料及建立視覺效果
 
 有時若要從您的資料獲得解答，最快的方法是使用自然語言詢問問題。 Power BI 中的問與答功能可讓您使用您自己的用語來探索資料。  本文的第一個部分說明如何在 Power BI 服務的儀表板中使用「問與答」。 第二個部分說明在 Power BI 服務或 Power BI Desktop 中建立報表時，您可以使用「問與答」進行的動作。 如需更多背景，請參閱[取用者問與答](consumer/end-user-q-and-a.md)文章。 
 
-[Power BI 行動應用程式的問與答](consumer/mobile/mobile-apps-ios-qna.md)和 [Power BI Embedded 的問與答](developer/qanda.md)會在不同的文章中說明。 
+[Power BI 行動應用程式的問與答](consumer/mobile/mobile-apps-ios-qna.md)和 [Power BI Embedded 的問與答](developer/embedded/qanda.md)會在不同的文章中說明。 
 
 問與答易於互動，甚至充滿樂趣。 通常，一個問題會帶來更多其他問題，原因在於視覺效果會顯示可探索的有趣路徑。 觀看 Amanda 示範使用問與答來建立視覺效果、深入探討這些視覺效果，以及將其釘選至儀表板。
 

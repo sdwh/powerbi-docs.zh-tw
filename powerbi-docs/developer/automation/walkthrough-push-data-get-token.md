@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: 4b1c890a69863f3e05dee052efe9529b174f0874
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079109"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488261"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>步驟 2：取得驗證存取權杖
 
 本文是[將資料推送至 Power BI 資料集](walkthrough-push-data.md)系列的第二個步驟。
 
-在步驟 1 中，[您已在 Azure AD 中註冊了用戶端應用程式](../register-app.md)。 在此步驟中，您會收到驗證存取權杖。 Power BI 應用程式會與 Azure Active Directory 整合，以提供應用程式的安全登入和授權。 您的應用程式使用者可以使用權杖來進行 Azure AD 驗證，並取得 Power BI 資源的存取權。
+在步驟 1 中，[您已在 Azure AD 中註冊了用戶端應用程式](../embedded/register-app.md)。 在此步驟中，您會收到驗證存取權杖。 Power BI 應用程式會與 Azure Active Directory 整合，以提供應用程式的安全登入和授權。 您的應用程式使用者可以使用權杖來進行 Azure AD 驗證，並取得 Power BI 資源的存取權。
 
 ## <a name="get-an-authentication-access-token"></a>取得驗證存取權杖
 
-開始之前，請確認您已完成[將資料推送至 Power BI 資料集](walkthrough-push-data.md)系列的[上一個步驟](../register-app.md)。 
+開始之前，請確認您已完成[將資料推送至 Power BI 資料集](walkthrough-push-data.md)系列的[上一個步驟](../embedded/register-app.md)。 
 
 此程序需要 Visual Studio 2015 或更新版本。
 
@@ -39,7 +39,7 @@ ms.locfileid: "79079109"
 
 3. 完成這些步驟之後，將所列的範例程式碼新增至 Program.cs。
 
-4. 將 "{ClientID}" 取代為您在註冊應用程式時 ([上一篇系列文章](../register-app.md)) 取得的**用戶端識別碼**。
+4. 將 "{ClientID}" 取代為您在註冊應用程式時 ([上一篇系列文章](../embedded/register-app.md)) 取得的**用戶端識別碼**。
 
 5. 執行主控台應用程式，然後登入您的 Power BI 帳戶。 
 

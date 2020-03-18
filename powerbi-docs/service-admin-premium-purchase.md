@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1bf7cc85411fef27e626c330cc07207187302bfc
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: aed0d1e4dec6f6efe49dd39cd5b6fc60f8977e44
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427729"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488606"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>如何購買 Power BI Premium
 
@@ -112,7 +112,7 @@ ms.locfileid: "77427729"
 
 A SKU 可透過 Azure Power BI Embedded 服務取得。 您可以透過下列方式使用 A SKU︰
 
-- 將 Power BI 內嵌在協力廠商應用程式中。 如需詳細資訊，請參閱 [Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md)。
+- 將 Power BI 內嵌在協力廠商應用程式中。 如需詳細資訊，請參閱 [Power BI Embedded](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)。
 
 - 購買 P SKU 之前，請先測試 Premium 功能。
 

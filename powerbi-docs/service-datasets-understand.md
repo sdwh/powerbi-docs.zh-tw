@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: eaa4354ed7355c0e01d9f75675cb7fed4bdc9d96
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 6170217119e443a2eb24aac056623dce5070303e
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74133719"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79208003"
 ---
 # <a name="datasets-in-the-power-bi-service"></a>Power BI 服務中的資料集
 
@@ -26,7 +26,7 @@ Power BI 資料集代表可供用於報告及視覺效果的資料來源。 有�
 - 連線至未裝載在 Power BI 容量中的現有資料模型
 - 上傳包含模型的 Power BI Desktop 檔案
 - 上傳 Excel 活頁簿 (包含一或多個 Excel 資料表和/或活頁簿資料模型)，或是上傳 CSV (逗點分隔值) 檔案
-- 使用 Power BI 服務來建立[推送資料集](developer/walkthrough-push-data.md)
+- 使用 Power BI 服務來建立[推送資料集](developer/automation/walkthrough-push-data.md)
 - 使用 Power BI 服務來建立[串流或混合式串流資料集](service-real-time-streaming.md)
 
 串流資料集以外的資料集會代表資料模型，它能利用 [Analysis Services](/analysis-services/analysis-services-overview) 的成熟模型化技術。

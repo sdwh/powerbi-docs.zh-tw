@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: de988442edf4c60841bac757bb67ea5ed5038b25
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427706"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207957"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>設定 Premium 容量中的工作負載
 
-本文描述如何啟用及設定 Power BI Premium 容量的工作負載。 根據預設，容量僅支援與執行 Power BI 查詢建立關聯的工作負載。 您也可以啟用及設定 **[AI (認知服務)](service-cognitive-services.md)** 、 **[資料流程](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** 和 **[分頁報表](paginated-reports-save-to-power-bi-service.md)** 的其他工作負載。
+本文描述如何啟用及設定 Power BI Premium 容量的工作負載。 根據預設，容量僅支援與執行 Power BI 查詢建立關聯的工作負載。 您也可以啟用及設定 **[AI (認知服務)](service-cognitive-services.md)** 、 **[資料流程](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** 和 **[分頁報表](paginated-reports/paginated-reports-save-to-power-bi-service.md)** 的其他工作負載。
 
 ## <a name="default-memory-settings"></a>預設記憶體設定
 
@@ -67,7 +67,7 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 | **中繼資料列集計數上限** | DirectQuery 傳回的中繼資料列數目上限。 預設值為 1000000，允許的範圍介於 100000 到 2147483647 之間。 |
 | **離線資料集大小上限 (GB)** | 記憶體中的離線資料集大小上限。 這是磁碟上的壓縮大小。 預設值是由 SKU 設定，允許的範圍介於 0.1 到 10 GB 之間。 |
 | **結果資料列集計數上限** | DAX 查詢中傳回的資料列數目上限。 預設值為 -1 (沒有限制)，且允許的範圍介於 100000 到 2147483647 之間。 |
-| **查詢記憶體限制 (%)** | 工作負載中可用於執行 MDX 或 DAX 查詢的可用記憶體百分比上限。 |
+| **查詢記憶體限制 (%)** | 工作負載中可用於執行 MDX 或 DAX 查詢的可用記憶體百分比上限。 預設值為 0，這會導致套用 SKU 特定的自動查詢記憶體限制。 |
 | **查詢逾時 (秒)** | 查詢逾時前的最大時間量。預設值為 3600 秒 (1 小時)。 值 0 指定查詢不會逾時。 |
 | **自動頁面重新整理 (預覽)** | 開啟/關閉開關以讓進階工作區具有含自動頁面重新整理的報表。 |
 | **最小重新整理間隔** | 若自動頁面重新整理已開啟，則為頁面重新整理間隔所允許的最小間隔。 預設值為 5 分鐘，而允許的下限為一秒。 |
@@ -102,6 +102,14 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 此設定會套用至 Power BI 報表所執行、在 Excel 報表中分析，以及可能透過 XMLA 端點連線的其他工具所執行的所有 DAX 和 MDX 查詢。
 
 請注意，當資料集中的資料重新整理之後，資料重新整理作業也可能執行 DAX 查詢，作為重新整理儀表板圖格和視覺效果快取的一部分。 這類查詢也可能因為此設定而潛在地失敗，此強況可能導致資料重新整理作業顯示為失敗狀態，即使資料集中的資料已成功地更新。
+
+預設設定為 0，這會導致套用下列 SKU 特定的自動查詢記憶體限制。
+
+|                              | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |   
+|------------------------------|----------|----------|----------|---------|---------|---------|
+| 自動查詢記憶體限制 | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
+|                              |          |          |          |         |         |         |
+
 
 #### <a name="query-timeout"></a>查詢逾時
 
@@ -200,7 +208,7 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 
 [將 Power BI Premium 容量最佳化](service-premium-capacity-optimize.md)     
 [Power BI 中的自助資料準備 (使用資料流程)](service-dataflows-overview.md)   
-[什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)   
+[什麼是 Power BI Premium 中的編頁報表？](paginated-reports/paginated-reports-report-builder-power-bi.md)   
 [Power BI Desktop 自動頁面重新整理 (預覽)](desktop-automatic-page-refresh.md)
 
 有其他問題嗎？ [詢問 Power BI 社群](https://community.powerbi.com/)

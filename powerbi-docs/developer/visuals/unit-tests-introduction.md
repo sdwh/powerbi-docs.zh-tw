@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879967"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379495"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>教學課程：新增 Power BI 視覺效果專案的單元測試
 
@@ -381,7 +381,7 @@ npm run test
 
 `karma.js` 會在 Chrome 瀏覽器中執行測試案例。
 
-![在 Chrome 中開啟的 Karma JavaScript](./media/karmajs-chrome.png)
+![在 Chrome 中開啟的 Karma JavaScript](media/unit-tests-introduction/karmajs-chrome.png)
 
 > [!NOTE]
 > 您必須在本機安裝 Google Chrome。
@@ -453,7 +453,7 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 
 當您將資料放入資料欄位值區時，Power BI 會產生以您資料為基礎的類別目錄 `dataview` 物件。
 
-![資料欄位值區](./media/fields-buckets.png)
+![資料欄位值區](media/unit-tests-introduction/fields-buckets.png)
 
 在單元測試中，您沒有 Power BI 核心函式可將資料重現。 但您必須將靜態資料對應至類別目錄 `dataview`。 `TestDataViewBuilder` 類別可協助您對應它。
 
@@ -596,23 +596,23 @@ Lines        : 52.83% ( 112/212 )
 
 您的視覺效果會在 Chrome 瀏覽器中開啟，如下所示：
 
-![UT 在 Chrome 中啟動](./media/karmajs-chrome-ut-runned.png)
+![UT 在 Chrome 中啟動](media/unit-tests-introduction/karmajs-chrome-ut-runned.png)
 
 摘要顯示涵蓋範圍已增加。 若要深入了解目前的程式碼涵蓋範圍，開啟 `coverage\index.html`。
 
-![UT 涵蓋範圍索引](./media/code-coverage-index.png)
+![UT 涵蓋範圍索引](media/unit-tests-introduction/code-coverage-index.png)
 
 或查看 `src` 資料夾的範圍：
 
-![[src] 資料夾的涵蓋範圍](./media/code-coverage-src-folder.png)
+![[src] 資料夾的涵蓋範圍](media/unit-tests-introduction/code-coverage-src-folder.png)
 
 在檔案範圍內，您可以檢視原始程式碼。 如果特定程式碼在單元測試中未執行，`Coverage` 公用程式會用紅色醒目提示該列。
 
-![visual.ts 檔案的程式碼涵蓋範圍](./media/code-coverage-visual-src.png)
+![visual.ts 檔案的程式碼涵蓋範圍](media/unit-tests-introduction/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
 > 程式碼涵蓋範圍並不表示您有很好的視覺效果功能涵蓋範圍。 一個簡單單元測試提供 `src\visual.ts` 中超過百分之 96 的涵蓋範圍。
 
 ## <a name="next-steps"></a>後續步驟
 
-當您的視覺效果就緒時，您可以提交它以供發佈。 如需詳細資訊，請參閱[在 AppSource 上發佈 Power BI 視覺效果](../office-store.md)。
+當您的視覺效果就緒時，您可以提交它以供發佈。 如需詳細資訊，請參閱[在 AppSource 上發佈 Power BI 視覺效果](office-store.md)。

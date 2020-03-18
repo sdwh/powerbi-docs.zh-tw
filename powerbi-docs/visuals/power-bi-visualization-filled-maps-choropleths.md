@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75757839"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436057"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>在 Power BI 中建立和使用區域分布圖 (分級著色圖)
 
@@ -63,7 +63,7 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
    > 
    > 
 
-[影片 https://www.youtube.com/embed/ajTPGNpthcg ]
+> [影片 https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>建立區域分布圖
 1. 從 [欄位] 窗格中，選取 [地理]  \> [州]  欄位。    
@@ -130,7 +130,7 @@ Power BI 提供您眾多對區域分布圖外觀的控制。 試試看這些資�
 
 如果您有權限可編輯 Power BI Desktop 中的資料集，請觀賞這段影片，以協助解決地圖模稜兩可的情況。
 
-[影片 https://www.youtube.com/embed/Co2z9b-s_yM ]
+> [影片 https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 如果您沒有經度和緯度資料的存取權，但有資料集的編輯存取權，請[遵循這些指示來更新您的資料集](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7)。
 

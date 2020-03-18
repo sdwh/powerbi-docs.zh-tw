@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9832948fdd25d1bd807e0ff5d916b08b55aea95
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77155011"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79487801"
 ---
 # <a name="tenant-admin-settings-guidance"></a>租用戶系統管理設定指導
 
@@ -128,7 +128,7 @@ ms.locfileid: "77155011"
 
 ### <a name="developer-settings"></a>開發人員設定
 
-[內嵌 Power BI 內容](../developer/embedding.md)有兩個相關的租用戶設定。 其中包括：
+[內嵌 Power BI 內容](../developer/embedded/embedding.md)有兩個相關的租用戶設定。 其中包括：
 
 - 在應用程式中內嵌內容 (預設為啟用)
 - 允許服務主體使用 Power BI API (預設為停用)

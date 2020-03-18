@@ -9,11 +9,11 @@ ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73853630"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207865"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
@@ -54,7 +54,7 @@ ms.locfileid: "73853630"
 
 3. 在 [安裝程式]  中，填寫名稱和描述，以利尋找應用程式。 您可以設定個人化的佈景主題色彩。 也可以新增支援網站的連結。
    
-     ![建置您的應用程式](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
+     ![建置應用程式](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
 4. 在 [瀏覽]  中，選取要發佈為應用程式一部分的內容。 然後，新增應用程式瀏覽，按節整理排列內容。 如需詳細資訊，請參閱本文中的[設計應用程式的瀏覽體驗](#design-the-navigation-experience)。
    

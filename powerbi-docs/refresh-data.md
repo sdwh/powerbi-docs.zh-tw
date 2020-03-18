@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039047"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488790"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 
@@ -76,7 +76,7 @@ Power BI 不會透過連接匯入在 DirectQuery/LiveConnect 模式中運作的�
 推送資料集不會包含資料來源的正式定義，因此您不需要在 Power BI 中執行資料重新整理。 您會透過外部服務或程序 (例如 Azure 串流分析) 將資料推送到資料集來重新整理。 這是使用 Power BI 進行即時分析的常見方法。 Power BI 仍可對推送資料集上所使用的任何磚執行快取重新整理。 如需詳細的逐步解說，請參閱[教學課程：串流分析及 Power BI：適用於串流資料的即時分析儀表板](/azure/stream-analytics/stream-analytics-power-bi-dashboard)。
 
 > [!NOTE]
-> 推送模式有幾項限制，如 [Power BI REST API 限制](developer/api-rest-api-limitations.md)中所述。
+> 推送模式有幾項限制，如 [Power BI REST API 限制](developer/automation/api-rest-api-limitations.md)中所述。
 
 ### <a name="power-bi-refresh-types"></a>Power BI 重新整理類型
 
@@ -317,7 +317,7 @@ in
 
 ## <a name="automatic-page-refresh"></a>自動重新整理頁面
 
-自動頁面重新整理會在報表頁面層級運作，並可讓報表作者設定頁面中視覺效果 (只有在取用頁面時才會是作用中) 的重新整理間隔。 自動頁面重新整理僅適用於 DirectQuery 資料來源。 最小重新整理間隔取決於發行報表的工作區類型，以及進階工作區和[內嵌工作區](developer/embedding.md)的容量管理員設定。
+自動頁面重新整理會在報表頁面層級運作，並可讓報表作者設定頁面中視覺效果 (只有在取用頁面時才會是作用中) 的重新整理間隔。 自動頁面重新整理僅適用於 DirectQuery 資料來源。 最小重新整理間隔取決於發行報表的工作區類型，以及進階工作區和[內嵌工作區](developer/embedded/embedding.md)的容量管理員設定。
 
 若要深入了解自動頁面重新整理，請參閱[自動頁面重新整理](desktop-automatic-page-refresh.md)一文。
 

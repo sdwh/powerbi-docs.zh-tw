@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758075"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436080"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>在 Power BI 中建立和使用組合圖
 
@@ -98,8 +98,7 @@ ms.locfileid: "75758075"
    ![叢集組合圖範例](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>將標題加入座標軸
-1. 選取油漆滾筒圖示 
-1. ![油漆滾筒圖示](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) 開啟 [格式化] 窗格。
+1. 選取油漆滾筒圖示 ![油漆滾筒圖示](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) 開啟 [格式化] 窗格。
 1. 選取向下箭號以展開 [Y 軸]  選項。
 1. 針對 [Y 軸 (欄)]  ，將 [位置]  設為 [左]  、[標題]  設為 [開啟]  、[樣式]  設為 [僅顯示標題]  ，且 [顯示單位]  設為 [百萬]  。
 
