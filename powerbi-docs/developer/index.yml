@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 10/25/2019
-  ms.openlocfilehash: 94800e2b5996b9b9fc6bf60c4c95dd72b0725b81
-  ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+  ms.openlocfilehash: b03678dba371ed26a8965c2ebbcd26453689cea2
+  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 03/14/2020
-  ms.locfileid: "79378240"
+  ms.lasthandoff: 03/18/2020
+  ms.locfileid: "79487755"
 landingContent:
 - title: 關於 Power BI 開發人員版
   linkLists:
@@ -26,9 +26,9 @@ landingContent:
     - text: 開發人員能執行的作業
       url: what-can-you-do.md
     - text: Power BI 的視覺效果
-      url: power-bi-custom-visuals.md
+      url: visuals/power-bi-custom-visuals.md
     - text: 什麼是內嵌
-      url: embedding.md
+      url: embedded/embedding.md
     - text: 什麼是 Power BI API
       url: automation/overview-of-power-bi-rest-api.md
   - linkListType: reference
@@ -52,42 +52,42 @@ landingContent:
   - linkListType: concept
     links:
     - text: 視覺效果常見問題集
-      url: power-bi-custom-visuals-faq.md
+      url: visuals/power-bi-custom-visuals-faq.md
     - text: 視覺效果方針
-      url: guidelines-powerbi-visuals.md
+      url: visuals/guidelines-powerbi-visuals.md
     - text: 視覺效果中的進階編輯模式
       url: visuals/advanced-edit-mode.md
   - linkListType: how-to-guide
     links:
     - text: 認證視覺效果
-      url: power-bi-custom-visuals-certified.md
+      url: visuals/power-bi-custom-visuals-certified.md
     - text: 在 AppSource 上發佈 Power BI 視覺效果
-      url: office-store.md
+      url: visuals/office-store.md
 - title: 內嵌式分析
   linkLists:
   - linkListType: tutorial
     links:
     - text: 內嵌客戶的內容
-      url: embed-sample-for-customers.md
+      url: embedded/embed-sample-for-customers.md
     - text: 內嵌組織的內容
-      url: embed-sample-for-your-organization.md
+      url: embedded/embed-sample-for-your-organization.md
   - linkListType: concept
     links:
     - text: 資料列層級安全性
-      url: embedded-row-level-security.md
+      url: embedded/embedded-row-level-security.md
     - text: 管理多個租用戶
-      url: embed-multi-tenancy.md
+      url: embedded/embed-multi-tenancy.md
     - text: Embedded 常見問題集
-      url: embedded-faq.md
+      url: embedded/embedded-faq.md
     - text: 權限
-      url: power-bi-permissions.md
+      url: embedded/power-bi-permissions.md
   - linkListType: how-to-guide
     links:
     - text: 從應用程式內嵌
-      url: embed-from-apps.md
+      url: embedded/embed-from-apps.md
     - text: 建立 Azure Active Directory 租用戶
-      url: create-an-azure-active-directory-tenant.md
+      url: embedded/create-an-azure-active-directory-tenant.md
     - text: 取得 Azure AD 存取權杖
-      url: get-azuread-access-token.md
+      url: embedded/get-azuread-access-token.md
     - text: Power BI Embedded 的問與答功能
-      url: qanda.md
+      url: embedded/qanda.md
