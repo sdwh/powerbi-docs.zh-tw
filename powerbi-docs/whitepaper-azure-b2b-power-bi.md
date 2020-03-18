@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79213595"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488583"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>使用 Azure Active Directory B2B 將 Power BI 內容散發給外部來賓使用者
 
@@ -576,7 +576,7 @@ Contoso 可以針對從 Contoso 租使用者存取內容的來賓使用者，強
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>替代選項2：使用自訂驗證建立自訂 Power BI Embedded 應用程式
 
-Contoso 的另一個選項是使用自訂驗證（「[應用程式擁有資料](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers)」）來建立自己的自訂內嵌 Power BI 應用程式。 雖然許多組織都沒有時間或資源來建立自訂應用程式，以將 Power BI 內容散發給其外部夥伴，但對於某些組織來說，這是最好的方法，而且值得認真考慮。
+Contoso 的另一個選項是使用自訂驗證（「[應用程式擁有資料](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers)」）來建立自己的自訂內嵌 Power BI 應用程式。 雖然許多組織都沒有時間或資源來建立自訂應用程式，以將 Power BI 內容散發給其外部夥伴，但對於某些組織來說，這是最好的方法，而且值得認真考慮。
 
 組織通常會有現有的合作夥伴入口網站，以集中存取合作夥伴的所有組織資源、提供與內部組織資源的隔離，並為合作夥伴提供簡化的體驗，以支援許多合作夥伴和其個別使用者。
 
