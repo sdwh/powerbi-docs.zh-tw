@@ -12,6 +12,8 @@
     - name: 教學課程
       expanded: true
       items:
+        - name: 線上課程
+          href: paginated-reports-online-course.md
         - name: 實作教室：建立編頁報表
           href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
         - name: 建立編頁報表並上傳
