@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/21/2020
 ms.author: maggies
-ms.openlocfilehash: 5cdf29c71ef3e5f8dc02799945cf76ccc518dabe
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: 02774bb495fb5a41dddf1c3fad43caaab339960c
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953738"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525882"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>在 PowerShell 報表中使用 PowerShell 變更資料來源連接字串 - Power BI 報表伺服器
 
