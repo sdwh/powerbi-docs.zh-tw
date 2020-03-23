@@ -11,8 +11,8 @@
     - name: 教學課程
       expanded: true
       items:
-        - name: 實作教室：建立編頁報表
-          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: 線上課程：編頁報表
+          href: ../paginated-reports/paginated-reports-online-course.md
         - name: 建立編頁報表並上傳
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: 範例
@@ -99,18 +99,6 @@
               href: ../paginated-reports/paginated-reports-faq.md
     - name: 操作指南
       items:
-        - name: 發佈資料集與報表
-          href: ../desktop-upload-desktop-files.md
-        - name: 將視覺效果新增至 Power BI 報表 (第 1 部分)
-          href: ../visuals/power-bi-report-add-visualizations-i.md
-        - name: 將視覺效果新增至 Power BI 報表 (第 2 部分)
-          href: ../visuals/power-bi-report-add-visualizations-ii.md
-        - name: 自訂視覺效果標題、背景和圖例
-          href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-        - name: 在 Power BI 中顯示沒有資料的項目
-          href: ../desktop-show-items-no-data.md
-        - name: 套用自動日期/時間
-          href: ../desktop-auto-date-time.md
         - name: Power BI 報表
           items:
             - name: 啟用自動頁面重新整理 (預覽)
@@ -211,12 +199,22 @@
               href: ../service-create-qr-code-for-report.md
             - name: 將報表匯出到 Power BI Desktop (預覽)
               href: ../service-export-to-pbix.md
+            - name: 發佈資料集與報表
+              href: ../desktop-upload-desktop-files.md
         - name: 視覺效果
           items:
+            - name: 將視覺效果新增至 Power BI 報表 (第 1 部分)
+              href: ../visuals/power-bi-report-add-visualizations-i.md
+            - name: 將視覺效果新增至 Power BI 報表 (第 2 部分)
+              href: ../visuals/power-bi-report-add-visualizations-ii.md
             - name: 將視覺效果新增至 Power BI 報表
               href: ../visuals/power-bi-report-visualizations.md
             - name: 變更 Power BI 報表中的視覺效果
               href: ../visuals/power-bi-report-change-visualization-type.md
+            - name: 自訂視覺效果標題、背景和圖例
+              href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
+            - name: 在 Power BI 中顯示沒有資料的項目
+              href: ../desktop-show-items-no-data.md
             - name: 依視覺效果類型套用資料點限制與策略
               href: ../visuals/power-bi-data-points.md
             - name: 顯示視覺效果的基礎資料
@@ -317,6 +315,8 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: 編頁報表
           items:
+            - name: 實作教室：建立編頁報表
+              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: 直接在分頁報表中輸入資料
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: 建立內嵌的資料來源
