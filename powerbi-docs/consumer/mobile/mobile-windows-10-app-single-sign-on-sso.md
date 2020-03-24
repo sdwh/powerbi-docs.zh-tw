@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 767ea586ce35d60c99742ada6f90fe342bd59313
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: e9156e539ee9f1a344b89f7814c148829498e5fc
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114717"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435919"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Power BI 行動版 Windows 應用程式的單一登入
 
@@ -21,7 +21,10 @@ ms.locfileid: "79114717"
 
 由於 Power BI 的 Windows 應用程式已整合到 Azure Active Directory 中，因此您不僅可以使用主要組織帳戶登入已加入網域的裝置，還可以登入 Power BI 服務。 如果您正在 Windows 手機上檢視 Power BI，請確定您用於 Power BI 之帳戶已設定為裝置設定中的工作或學校帳戶。  
 
-只有 Windows Azure Active Directory 所管理的 Windows 裝置才會啟用 SSO。 
+只有 Windows Azure Active Directory 所管理的 Windows 裝置才會啟用 SSO。
+
+>[!NOTE]
+>**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="sign-in-with-sso"></a>使用 SSO 登入
 

@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: d4e8ab0effef52071f592902a6c2fdb2649ff52d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114766"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435321"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中依地理位置篩選報表
 適用於︰
@@ -25,8 +25,9 @@ ms.locfileid: "79114766"
 
 > [!NOTE]
 > 只有在報表中的地理名稱是英文時 (例如 "New York City" 或 "Germany")，您才能依位置篩選報表。 Windows 10 平板電腦與電腦不支援地理篩選，但 Windows 10 手機支援。
-> 
-> 
+
+>[!NOTE]
+>**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="filter-your-report-by-your-geographic-location"></a>依地理位置篩選您的報表
 1. 在行動裝置的 Power BI 行動裝置應用程式中，開啟報表。

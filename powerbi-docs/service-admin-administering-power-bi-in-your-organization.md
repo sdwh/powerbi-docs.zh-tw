@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: cfe877d6fac96124badc19f6ab685523077132fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115254"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381276"
 ---
 # <a name="what-is-power-bi-administration"></a>什麼是 Power BI 管理？
 
@@ -59,7 +59,7 @@ Power BI 服務系統管理員角色不會將指派授權的能力授與使用�
 | 管理 Premium 容量 |<ul><li>取得及使用 Premium 容量<br><li>確保服務品質|
 | 管理 Embedded 容量 |<ul><li>取得 Embedded 容量以簡化 ISV 和開發人員使用 Power BI 功能的方式</ul>|
 | 確定對內部原則、法律和規定的合規性 | <ul><li>管理商務資料的分類<br><li>協助執行內容發佈和共用原則</ul>|
-| 管理 Power BI 資源 |<ul><li>管理工作區<br><li>發行自訂視覺效果<br><li>驗證用來在其他應用程式中嵌入 Power BI 的程式碼|
+| 管理 Power BI 資源 |<ul><li>管理工作區<br><li>發佈 Power BI 視覺效果<br><li>驗證用來在其他應用程式中嵌入 Power BI 的程式碼|
 | 為租用戶使用者提供說明和支援 |<ul><li>針對資料存取和其他問題進行疑難排解</ul>|
 | 其他工作 |<ul><li>部署 Power BI Desktop (例如：使用 Microsoft Endpoint Configuration Manager)<br><li>使用 Intune 管理 Power BI 行動應用程式部署<br><li>管理資料隱私權和安全性，例如來源資料安全性</ul>|
 
@@ -69,7 +69,7 @@ Power BI 服務系統管理員角色不會將指派授權的能力授與使用�
 
 | **工具** | **一般工作** |
 | --- | --- |
-| Power BI 管理入口網站 |<ul><li>取得及使用 Premium 容量</li><li>確保服務品質</li><li>管理商務資料的分類</li><li>協助執行內容發佈和共用原則</li><li>管理工作區<br><li>發行自訂視覺效果</li><li>驗證用來在其他應用程式中嵌入 Power BI 的程式碼</li><li>針對資料存取和其他問題進行疑難排解</li></ul>|
+| Power BI 管理入口網站 |<ul><li>取得及使用 Premium 容量</li><li>確保服務品質</li><li>管理商務資料的分類</li><li>協助執行內容發佈和共用原則</li><li>管理工作區<br><li>發佈 Power BI 視覺效果</li><li>驗證用來在其他應用程式中嵌入 Power BI 的程式碼</li><li>針對資料存取和其他問題進行疑難排解</li></ul>|
 | MIcrosoft 365 系統管理中心 |<ul><li>管理使用者註冊</li><li>購買及指派 Pro 授權</li><li>封鎖使用者對 Power BI 的存取</li></ul>|
 | Office 365 安全性與合規性中心 |<ul><li>檢閱及管理事件的稽核</li></ul>|
 | Azure 入口網站中的 Azure Active Directory (AAD) |<ul><li>透過 AAD 設定對 Power BI 的條件式存取</li><li>佈建 Power BI Embedded 容量</li></ul>|

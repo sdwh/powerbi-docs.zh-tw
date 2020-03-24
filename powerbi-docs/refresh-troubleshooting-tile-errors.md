@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 79f18faf56fba8afa85afd808f6faa1bd16811d8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699536"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381138"
 ---
 # <a name="troubleshooting-tile-errors"></a>圖格錯誤的疑難排解
 以下是您在使用圖格時可能發生的常見錯誤和說明。
@@ -31,13 +31,14 @@ ms.locfileid: "74699536"
 
 我們無法存取您的資料，因為無法連線到資料來源。 如果資料來源已移除、重新命名、移動、離線或變更權限，就會發生此問題。 請檢查來源是否仍處於我們所指向的位置，且您仍有存取權限。 如果這部分沒有問題，可能是來源速度較慢。 請等到來源上的負載較小時再試。 如果是內部部署來源，資料來源擁有者應可提供更詳細的資訊。
 
-**您不具權限，無法檢視此磚也無法開啟活頁簿。**
+**您無權檢視此磚或開啟活頁簿。**
 
 請連絡儀表板擁有者，確定您帳戶的資料來源與模型存在且可供存取。
 
-**自訂視覺效果已由系統管理員停用。**
+**Power BI 視覺效果已由系統管理員停用。**
 
-您的 Power BI 系統管理員已為貴組織或安全性群組停用自訂視覺效果。 您將無法使用 [Microsoft marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) 的自訂視覺效果，或從檔案匯入私人視覺效果。 您僅可以使用預先封裝的視覺效果集。
+Power BI 系統管理員已為組織或安全性群組停用 Power BI 視覺效果。
+您將無法使用 [Microsoft marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) 的 Power BI 視覺效果，或從檔案匯入私人視覺效果。 您僅可以使用預先封裝的視覺效果集。
 
 
 **資料圖形必須包含至少一個群組或輸出資料的計算。請連絡儀表板擁有者。**

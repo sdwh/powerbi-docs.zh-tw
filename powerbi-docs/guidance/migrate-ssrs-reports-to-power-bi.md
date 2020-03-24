@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: cf11b98d7eacd7b1e245fb0aed62d0f14e7f4c4c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041304"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525606"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>將 SQL Server Reporting Services 報表移轉到 Power BI
 
@@ -194,6 +194,7 @@ ms.locfileid: "79041304"
 - [編頁報表的資料擷取指引](report-paginated-data-retrieval.md)
 - [何時使用 Power BI 中的編頁報表](report-paginated-or-power-bi.md)
 - [Power BI 中的編頁報表：常見問題](../paginated-reports/paginated-reports-faq.md)
+- [線上課程：一天內完成編頁報表](../paginated-reports/paginated-reports-online-course.md)
 - [Power BI Premium 常見問題集](../service-premium-faq.md)
 - [RDL 移轉工具](https://github.com/microsoft/RdlMigration)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4459ae95ccd900b0592dbae1048800bcd4609307
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.openlocfilehash: d349e19e4f5cc73cadf2a281b07a220ff7c076bf
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "74178259"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376768"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>德國雲端客戶的 Power BI 常見問題集
 **Power BI 服務**為歐盟/歐洲自由貿易協定 (EU/EFTA) 客戶提供一個版本，通常稱為 Microsoft Cloud Deutschland (MCD)。 本文所討論的 **Power BI 服務**版本為 EU/EFTA 客戶專屬，獨立且不同於商用版本的 **Power BI 服務**，或提供給政府客戶的 Power BI 服務。
@@ -37,7 +37,7 @@ ms.locfileid: "74178259"
    是。 在註冊程序中，您可以選擇使用現有 Germany Cloud 租用戶管理帳戶登入，並將 Power BI Pro 服務授權新增到您在 Germany Cloud 中的現有租用戶。 請注意，Germany Cloud 租用戶和使用者帳戶與德國雲端的 Power BI 服務不同。
 4. **德國雲端的 Power BI 服務中有免費服務嗎？**
    
-   否。 我們未在德國雲端的 Power BI 服務中提供免費授權版本。 不過，如果您的業務需求與 Power BI 免費供應項目相符，我們也鼓勵您註冊[公用雲端中的 Power BI 免費供應項目](https://powerbi.microsoft.com/get-started/)。
+   不會。 我們未在德國雲端的 Power BI 服務中提供免費授權版本。 不過，如果您的業務需求與 Power BI 免費供應項目相符，我們也鼓勵您註冊[公用雲端中的 Power BI 免費供應項目](https://powerbi.microsoft.com/get-started/)。
 5. **我可以搭配德國雲端的 Power BI 服務，使用 Power BI Desktop、Power BI 行動版、內部部署資料閘道及 Publisher for Excel 嗎？**
    
    是。 我們更新了 Power BI 用戶端產品，以搭配德國雲端的 Power BI 服務順暢運作。 請使用您的德國雲端 Power BI 服務帳戶登入，開始使用與德國雲端 Power BI 服務相同的用戶端產品。 您可以從下列位置下載最新版本的用戶端產品：
@@ -65,7 +65,7 @@ ms.locfileid: "74178259"
 | Office 入口網站，供系統管理員進行使用者授權管理、服務健全狀態及支援要求 |[https://portal.office.de/](https://portal.office.de/) |[https://portal.office.com/](https://portal.office.com/) |
 | AAD 授權單位 URI |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
 | Power BI 服務資源 URI |[https://analysis.cloudapi.de/powerbi/api](https://analysis.cloudapi.de/powerbi/api) |[https://analysis.windows.net/powerbi/api](https://analysis.windows.net/powerbi/api) |
-| 自訂視覺效果資源庫 |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
+| Power BI 視覺效果程式庫 |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | 為 Power BI 註冊應用程式 (適用於 Embedded) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
 | Azure 入口網站 (適用於 Embedded) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
 | 社群 |[https://community.powerbi.com/](https://community.powerbi.com/) |[https://community.powerbi.com/](https://community.powerbi.com/) |

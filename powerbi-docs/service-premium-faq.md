@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: ff2f22620cf062dcc342323e71dc7401b5991cd7
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6b2876ca78e07cf7c3c2b778ef9c571745baa1e5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697029"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488652"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常見問題集
 
@@ -88,6 +88,6 @@ Power BI 報表伺服器是內部部署伺服器，允許在組織的整個防�
 [Microsoft Power BI Premium 白皮書](https://aka.ms/pbipremiumwhitepaper)
 [規劃 Power BI Enterprise 部署白皮書](https://aka.ms/pbienterprisedeploy)
 [延長的 Pro 試用版啟用](service-extended-pro-trial.md)
-[Power BI Embedded 常見問題集](developer/embedded-faq.md)
+[Power BI Embedded 常見問題集](developer/embedded/embedded-faq.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: c7280b2b6bb34b070e7ced3785959d61c74cd165
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 58ef9c6760194e3f11374bdb0663552fd11ce285
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041237"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377367"
 ---
 # <a name="configure-report-interaction-settings"></a>設定報表互動設定
 
@@ -49,7 +49,7 @@ Power BI 行動應用程式有數個可設定的「互動」設定，可讓您�
 若要取消選取資料點，請再次加以點選。
 
 >[!NOTE]
->自訂視覺效果中不支援多重選取。
+>Power BI 視覺效果中不支援多重選取。
 >
 >在下一個報表伺服器版本中，將於 Power BI 報表伺服器上支援多重選取模式。
 

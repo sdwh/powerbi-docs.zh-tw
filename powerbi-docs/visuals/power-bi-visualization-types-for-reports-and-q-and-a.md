@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8737a0e9b2dd8ba17d28962ed51e24ec0c5cefc4
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040500"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381414"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
 ## <a name="power-bi-visualizations"></a>Power BI 視覺效果
 近期將加入新的視覺效果，請密切注意！
 
-也請查看 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)，您會發現這裡有一份持續成長的[自訂視覺效果](../developer/power-bi-custom-visuals.md)清單，供您下載並用在自己的儀表板和報告中。 腦中充滿創造力嗎？ [了解如何建立您自己的視覺效果並新增至這個社群網站](../developer/office-store.md)。  
+另請查看 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)，您會發現這裡有一份持續成長的 [Power BI 視覺效果](../developer/visuals/power-bi-custom-visuals.md)清單，供您下載並用在自己的儀表板和報告中。 腦中充滿創造力嗎？ [了解如何建立您自己的視覺效果並新增至這個社群網站](../developer/visuals/office-store.md)。  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI 提供的視覺效果清單
 所有這些視覺效果皆可加入 Power BI 報表、在問與答中指定，並釘選到儀表板。

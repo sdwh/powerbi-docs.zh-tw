@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920973"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488836"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
 
-- Microsoft 商務應用程式集團推出的 [What's new in business intelligence October ‘18](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) (商業智慧最新功能 ‘18 年 10 月) 版本資訊：我們商務應用程式的最新更新。
+- Microsoft 商務應用程式集團所推出的 [2018 年 10 月商業智慧最新功能](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) (英文) 版本資訊：我們商務應用程式的最新更新。
 - [Power BI Desktop 的新功能](desktop-latest-update.md)  
 - [Power BI 行動裝置 App 的新功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI 小組部落格](https://powerbi.microsoft.com/blog/)
@@ -91,7 +91,7 @@ ms.locfileid: "78920973"
 * PPT 和 PDF 的已篩選匯出。
 * 管理入口網站中的[說明及支援設定](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/) \(英文\)。
 * [資料流程](service-dataflows-overview.md)的資料歷程體驗。
-* 管理入口網站中的認證自訂視覺效果設定。
+* 管理入口網站中認證的 Power BI 視覺效果設定。
 
 ### <a name="january-2019"></a>2019 年 1 月
 * 在內部入口網站或網站中[內嵌安全的 Power BI 報表](service-embed-secure.md)。
@@ -126,7 +126,7 @@ ms.locfileid: "78920973"
 * Power BI [報表 URL 篩選](service-url-filters.md)改進。
 
 ### <a name="july-2018"></a>2018 年 7 月
-* [永續性篩選](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)的自訂視覺效果支援。
+* [永續性篩選](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)的 Power BI 視覺效果支援。
 * 適用於 Power BI 系統管理員的 [API 和 PowerShell Cmdlet](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/)。
 * Power BI Premium 的[多地理位置支援](service-admin-premium-multi-geo.md)。
 
@@ -153,20 +153,20 @@ ms.locfileid: "78920973"
 ### <a name="february-2018"></a>2018 年 2 月
 * 自動為終端使用者安裝 [Power BI 應用程式](service-create-distribute-apps.md)。
 * Power BI Premium 上的 P4 與 P5 容量
-* [組織自訂視覺效果](developer/power-bi-custom-visuals-organization.md)的預覽。
+* [組織的 Power BI 視覺效果](developer/visuals/power-bi-custom-visuals-organization.md)預覽。
 
 ### <a name="january-2018"></a>2018 年 1 月
-*   共用 Power BI 報表並設為我的最愛。
-*   適用於 Azure SQL Database 和資料倉儲的 OAuth2 和 DirectQuery 單一登入支援 (SSO)。
-*   區域內稽核：稽核記錄現在將會儲存在與其租用戶相同的 Office 365 區域中。
-*   SharePoint Online [Power BI 報表網頁組件](https://go.microsoft.com/fwlink/p/?LinkId=825698)的 GA。
-*   針對租用戶中所有使用者關閉檢視自訂視覺效果的系統管理控制項。
-*   Azure Analysis Services (AAS) 排程的重新整理支援。
+*    共用 Power BI 報表並設為我的最愛。
+*    適用於 Azure SQL Database 和資料倉儲的 OAuth2 和 DirectQuery 單一登入支援 (SSO)。
+*    區域內稽核：稽核記錄現在將會儲存在與其租用戶相同的 Office 365 區域中。
+*    SharePoint Online [Power BI 報表網頁組件](https://go.microsoft.com/fwlink/p/?LinkId=825698)的 GA。
+*    針對租用戶中所有使用者關閉檢視 Power BI 視覺效果的系統管理控制項。
+*    Azure Analysis Services (AAS) 排程的重新整理支援。
 
 ## <a name="previous-months-2017"></a>前幾個月 (2017)
 ### <a name="october-and-november-2017"></a>2017 年 10 月和 11 月
-*   [Power BI 應用程式](service-create-distribute-apps.md)的選擇性發行內容。
-*   [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) 的外部使用者發佈。
+*    [Power BI 應用程式](service-create-distribute-apps.md)的選擇性發行內容。
+*    [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) 的外部使用者發佈。
 * 使用 AI 技術應用程式的建議。
 * 儀表板磚上 UI 更新。
 * 應用程式的電子郵件訂閱支援。 
@@ -183,8 +183,8 @@ ms.locfileid: "78920973"
 * 使用[每位使用者使用計量](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/)來了解您的對象。
 * 開始使用線上服務的 [Power BI 服務](service-connect-to-services.md)應用程式。
 * 使用內部部署資料閘道，透過匯入和 DirectQuery 連線模式，連線至 IBM Netezza。
-* [動態 RLS](developer/embedded-row-level-security.md) 現在支援 Power BI Embedded。
-* 進階[篩選 API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md)現在針對自訂視覺效果 API 1.7 版新增。
+* [動態 RLS](developer/embedded/embedded-row-level-security.md) 現在支援 Power BI Embedded。
+* 已為 Power BI 視覺效果 API 1.7 版新增進階[篩選 API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md)。
 
 ### <a name="july-2017"></a>2017 年 7 月
 * 支援儀表板上的[電子郵件訂閱](consumer/end-user-subscribe.md)。
@@ -197,7 +197,7 @@ ms.locfileid: "78920973"
 * [自動化排程重新整理](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)、[複製和重新繫結報表](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1)、[更新閘道繫結](https://msdn.microsoft.com/library/mt784650.aspx)等等許多功能的多個 API 改進
 * Power BI 應用程式中從儀表板圖格到其他儀表板和報表的相對連結。
 * [Impala 連接器](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)通常可以在 Power BI Desktop 上使用。
-* Power BI 與[互動式 R 自訂視覺效果](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)的擴充視覺效果功能。
+* Power BI 與[互動式 R Power BI 視覺效果](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)的擴充視覺效果功能。
 
 ### <a name="april-and-may-2017"></a>2017 年 4 月和 5 月
 * 透過[儀表板和報告建立者的使用計量](service-usage-metrics.md)來衡量和突顯您的影響力。
@@ -213,7 +213,7 @@ ms.locfileid: "78920973"
 * 改善 [DAX 查詢的疑難排解訊息](https://powerbi.microsoft.com/blog/power-bi-service-march-feature-summary/#DAXtroubleshooting)。
 * 使用[自訂快取重新整理排程](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/)以更充分掌控資料集。
 * 連接至 [Amazon Redshift](https://powerbi.microsoft.com/blog/announcing-support-for-amazon-redshift-reports-in-the-power-bi-service/)。
-* 瀏覽 [Office 市集的 Power BI 自訂視覺效果](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/)。
+* 瀏覽 [Office 市集的 Power BI 視覺效果](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/)。
 * 預覽：[訂閱報告頁面](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)來掌握您的資料。
 * 使用 Azure AD 內容套件來深入了解員工和合作夥伴使用 Azure AD 的情形。
 
@@ -225,7 +225,7 @@ ms.locfileid: "78920973"
 ### <a name="january-2017"></a>2017 年 1 月
 * 使用 [Power BI 系統管理員角色](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole)來管理 Power BI。
 * Office 365 稽核入口網站中的 [Power BI 稽核記錄](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs)全球通用。
-* 發行[開發人員工具和自訂視覺效果 API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) 1.4 版。
+* 已發行[開發人員工具和 Power BI 視覺效果 API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) 1.4 版。
 * [即時串流功能集](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)公開上市。
 * [使用 Power Automate 將資料發送至 Power BI](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)，而不需要撰寫任何程式碼。
 * 預覽：[訂閱報告頁面](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)來掌握您的資料。
@@ -506,7 +506,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
   1. SSAS 多維度支援 - 階層支援 (預覽功能)
   2. Stripe Connector
   3. Smartsheet Connector
-  4. [輸入資料]：貼上或輸入資料來建立資料表
+  4. 「輸入資料」：貼上或輸入資料來建立資料表
   5. DirectQuery 的改進：支援 T-SQL 和 SAP HANA 的所有資料類型，進而改進效能。
   6. ODBC 連接器；支援選取使用者/系統 DSN
   7. CSV 連接器：可在 [來源] 對話方塊中指定資料行分隔符號
@@ -594,7 +594,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 **2015 年 10 月 13 日**
 
 * 用以在大螢幕電視上展示儀表板和報表的全螢幕模式
-* 全螢幕模式的「符合螢幕」支援，以在可用空間中顯示您的整個報表
+* 全螢幕模式中的「調整成最適螢幕大小」支援可供在可用空間中顯示整個儀表板
 * 聚焦模式，以取得儀表板磚的更多詳細資料
 * 檢視每個磚上次更新時間的功能
 * 檢視每個磚來源的功能
@@ -604,16 +604,16 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 **2015 年 10 月 6 日**
 
-* 透過 Power BI 問與答，您可以使用簡單、直覺的問題來探索資料，並收到以互動式圖表和圖形呈現的回答。 在此版本中，我們加入了一項功能來協助您，即使您還不知道資料的任何內容，也能開始使用 Power BI 問與答。 若要開始使用此功能，請[導覽到任一個儀表板，然後按一下問與答問題方塊附近的 [如何發問] 連結](power-bi-tutorial-q-and-a.md)。 Power BI 隨即依據您的資料，為您呈現多項建議。
+* 透過 Power BI 問與答，您可以使用簡單、直覺的問題來探索資料，並收到以互動式圖表和圖形呈現的回答。 在此版本中，我們加入了一項功能來協助您，即使您還不知道資料的任何內容，也能開始使用 Power BI 問與答。 若要開始使用此功能，請[巡覽至任一儀表板，然後按一下問與答問題方塊附近的 [如何發問] 連結](power-bi-tutorial-q-and-a.md)。 Power BI 隨即依據您的資料，為您呈現多項建議。
 * 兩週前，我們開始支援在 Power BI Desktop 將圖形插入報表畫布中。 本週，我們很高興宣布，現在當您在 Power BI Web 應用程式中撰寫及 (或) 編輯報表時，也可以將圖形加入您的報表畫布中。
-* 我們加入了在共用儀表板時關閉電子郵件通知的選項。 只要在 Power BI 共用對話方塊中，取消核取 [傳送電子郵件通知給收件者] 核取方塊即可。 系統將會顯示一組 URL，複製此 URL 並分享給您的同事，他們就能存取儀表板。
+* 我們加入了在共用儀表板時關閉電子郵件通知的選項。 只要在 Power BI 共用對話方塊中，取消核取 [將電子郵件通知傳送給收件者] 核取方塊即可。 系統將會顯示一組 URL，複製此 URL 並分享給您的同事，他們就能存取儀表板。
 * Microsoft Dynamics NAV 是適用於中小型組織的商務管理解決方案。 此服務為客戶提供完整的解決方案，讓企業更有效控制財務和商務程序。 Power BI 內容套件為 Dynamics NAV 使用者提供現成報表，例如銷售和收益、商機管道、獲利率等。 這些計量都在可完全自訂的儀表板上組織，讓您能夠輕鬆連接並立即開始探索您的資料。
 
 如需詳細資訊，請查看[部落格](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-service-weekly-update-10-06.aspx)和[線上文件](service-get-started.md)。
 
 **2015 年 9 月 29 日**
 
-* 本週的服務更新讓您現在建立新的報表時，有多種頁面大小可選擇，也可以定義自己的頁面大小。 這會控制報表中每個頁面的大小和外觀比例。
+* 本週的服務更新現在可供在建立新報表時有多種頁面大小可選擇，也可以定義自己的頁面大小。 這會控制報表中每個頁面的大小和外觀比例。
 * 我們新增了影像和泡泡圖的其他視覺效果格式支援。 您可以在調整影像大小時鎖定外觀以避免影像扭曲，而散佈圖泡泡也可設定成填滿或不填滿。
 * 現在，Power BI 會將共用邀請傳送給備用電子郵件地址。 當有儀表板與您共用時，我們會將共用邀情連結傳送到您的原始電子郵件地址，也會傳送到您的備用電子郵件地址 (如有設定)。
 * 所有客戶都可使用 Power BI，包括 Dedicated on Multitenant (DonMT) O365 架構的客戶在內。 您將會使用 Power BI 作為多租用戶模式中的共用服務。 在大部分情況下，您可以遵循簡單的[自助註冊程序](https://powerbi.microsoft.com/)來註冊 Power BI，只要輸入您的工作電子郵件地址，然後輸入名稱和密碼，即可開始使用。 如果您是租用戶系統管理員，您可以使用[此處](https://go.microsoft.com/fwlink/?LinkId=627174)的指示，將授權指派給使用者。
@@ -626,7 +626,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 * 透過範圍從 1x1 到 5x5 的額外磚大小來自訂儀表板，讓您的儀表板更具彈性。
 * 您現在可以[從群組空間共用 (和取消共用) 儀表板](service-collaborate-power-bi-workspace.md)，方法就和在自己的空間中執行此動作一樣。 一旦同事接受您的共用邀請後，共用的儀表板 (及其相關聯報表) 就會以唯讀權限加入其本身空間中。
 * 我們將 5 個額外的[產業相關範例](sample-datasets.md)新增至 Power BI：客戶獲利率、人力資源、商機分析、採購分析和銷售與行銷範例。
-* Stripe 是線上商務的進階付款平台。 從新創企業到全球 500 強公司，數以千計的公司都使用 Stripe，接受來自世界各地 130 種以上的貨幣。 使用您現有 Stripe 帳戶連接 Power BI，即可[使用 Power BI 的 Stripe 內容套件來監視、探索及視覺化您的 Stripe 活動](service-connect-to-stripe.md).
+* Stripe 是線上商務的進階付款平台。 從新創企業到全球 500 強公司，數以千計的公司都使用 Stripe，接受來自世界各地 130 種以上的貨幣。 使用現有 Stripe 帳戶連線至 Power BI，即可[使用 Power BI 的 Stripe 內容套件來監視、探索及視覺化 Stripe 活動](service-connect-to-stripe.md).
 
 [在部落格中取得更多資訊](https://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx)。
 
@@ -654,7 +654,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 **2015 年 8 月 18 日**
 
-* Azure Mobile Engagement 是可讓開發人員追蹤應用程式效能的應用程式分析服務，以協助開發人員增加保留期和應用程式使用量。 使用 [Power BI Azure Mobile Engagement 內容套件](https://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx)，您可以快速地連接到現成可用的儀表板、一組報表和策劃資料集，並立即取得您的應用程式表現情況的深入解析。 如需詳細資訊，請參閱[適用於 Power BI 的 Azure Mobile Engagement 內容套件說明頁面](service-connect-to-azure-mobile.md)。
+* Azure Mobile Engagement 是可讓開發人員追蹤應用程式效能的應用程式分析服務，以協助開發人員增加保留期和應用程式使用方式。 使用 [Power BI Azure Mobile Engagement 內容套件](https://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx)，您可以快速地連接到現成可用的儀表板、一組報表和策劃資料集，並立即取得您的應用程式表現情況的深入解析。 如需詳細資訊，請參閱[適用於 Power BI 的 Azure Mobile Engagement 內容套件說明頁面](service-connect-to-azure-mobile.md)。
 
 **2015 年 8 月 11 日**
 
@@ -663,11 +663,11 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 **2015 年 8 月 4 日**
 
 * Power BI 現在讓 [Circuit ID](https://blogs.msdn.com/b/powerbi/archive/2015/08/04/circuit-id-data-with-power-bi.aspx) 使用者能夠追蹤和監視其所有的 Circuit ID 雲端通訊服務，讓他們能夠做出正確的商務決策。 如需如何開始使用的其他詳細資訊，請參閱[適用於 Power BI 的 Circuit ID 內容套件說明頁面](service-connect-to-circuit-id.md).
-* 現在我們已經發行共用儀表板功能的增強功能，讓它更容易使用。  如果您的組織使用 Office 365 處理電子郵件，您現在可以[共用到電子郵件通訊群組](https://blogs.msdn.com/b/powerbi/archive/2015/08/04/easier-dashboard-sharing-with-distribution-groups.aspx)，方式就如同在 Outlook 中傳送電子郵件。  只需要輸入通訊群組的位址，然後按一下 [共用]。  通訊群組的所有成員都會收到檢視儀表板的電子郵件邀請。
+* 現在我們已經發行 [共用儀表板] 功能的增強功能，使其更容易使用。  如果您的組織使用 Office 365 處理電子郵件，您現在可以[共用到電子郵件通訊群組](https://blogs.msdn.com/b/powerbi/archive/2015/08/04/easier-dashboard-sharing-with-distribution-groups.aspx)，方式就如同在 Outlook 中傳送電子郵件。  只需要輸入通訊群組的位址，然後按一下 [共用]。  通訊群組的所有成員都會收到檢視儀表板的電子郵件邀請。
 
 **2015 年 7 月 28 日**
 
-* 我們很高興宣佈，本週的 Power BI 更新現在藉由 [SQL Sentry 內容套件](https://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx)提供資料庫效能追蹤。 此內容套件包含儀表板和報表，可協助您使用 SQL Sentry 雲端，監視您追蹤的 SQL Server 部署。 如需如何開始使用的其他詳細資訊，請參閱[適用於 Power BI 的 SQL Sentry 內容套件說明頁面](service-connect-to-sql-sentry.md).
+* 我們很高興宣告，本週的 Power BI 更新現在藉由 [SQL Sentry 內容套件](https://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx)提供資料庫效能追蹤。 此內容套件包含儀表板和報表，可協助您使用 SQL Sentry 雲端，監視您追蹤的 SQL Server 部署。 如需如何開始使用的其他詳細資訊，請參閱[適用於 Power BI 的 SQL Sentry 內容套件說明頁面](service-connect-to-sql-sentry.md).
 
 **2015 年 7 月 24 日**
 
@@ -678,7 +678,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 * [帶入整個 Excel 檔案](service-excel-workbook-files.md)：您可以將儲存在商務用 OneDrive 的任何 Excel 活頁簿帶入 Power BI，並檢視整個活頁簿，方式就和在 Excel Online 完全一樣。
 * [帶入 CSV 檔案](service-get-data-from-files.md)：就像 Excel 或 Power BI Desktop 檔案一樣，逗號分隔值 (CSV) 文字檔也可以是您的 Power BI 儀表板和報表的資料集。
 * 取代 Excel、Power BI Desktop 和 CSV 檔案：您可以將檔案的更新版本上傳至 Power BI，以其取代現有的資料集。 所有連接到此資料集的報表和儀表板現在都會自動使用新的版本。
-* 我們很高興宣佈，本週的 Power BI 更新現在在 [Visual Studio Team Services 內容套件](https://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)中提供工作項目追蹤。 此更新包括新的儀表板、報表和更新的資料集，提供您工作項目的深入解析，以及初始版本所包含的 Git 儲存機制、提取要求和版本控制內容等重要度量。 如需如何開始使用的其他詳細資料，請參閱 [Power BI 的 Visual Studio Online 內容套件說明頁面](service-connect-to-quickbooks-online.md)。
+* 我們很高興宣告，本週的 Power BI 更新現在在 [Visual Studio Team Services 內容套件](https://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)中提供工作項目追蹤。 此更新包括新的儀表板、報表和更新的資料集，提供您工作項目的深入解析，以及初始版本所包含的 Git 儲存機制、提取要求和版本控制內容等重要度量。 如需如何開始使用的其他詳細資料，請參閱 [Power BI 的 Visual Studio Online 內容套件說明頁面](service-connect-to-quickbooks-online.md)。
 
 **2015 年 7 月 14 日**
 

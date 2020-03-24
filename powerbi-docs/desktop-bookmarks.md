@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 00ea3e70b34ecdaf2c5bd8b8728153bfb26f899b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75761879"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378976"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>在 Power BI Desktop 中建立書籤來共用見解並建立故事
 在 Power BI Desktop 中使用「書籤」  ，可協助您擷取目前設定的報表頁面檢視 (包括視覺效果的篩選和狀態)。 之後，您可藉由選取儲存的書籤來返回該狀態。 
@@ -198,7 +198,7 @@ Power BI Desktop 會自動將群組命名為「群組 1」  。 您可以選取�
 ## <a name="limitations-and-considerations"></a>限制與考量
 在本版的書籤功能中，有幾項限制和考量要留意。
 
-* 大部分的自訂視覺效果都可以和書籤搭配使用。 不過，如果在使用書籤和自訂視覺效果時遇到問題，請連絡該自訂視覺效果的建立者，並請他們將書籤的支援新增到其視覺效果。 
+* 大部分的 Power BI 視覺效果都可以和書籤搭配使用。 不過，如果在使用書籤和自訂視覺效果時遇到問題，請連絡該自訂視覺效果的建立者，並請他們將書籤的支援新增到其視覺效果。 
 * 如果在建立書籤之後將視覺效果新增至報表頁面，則視覺效果就會以其預設狀態顯示。 亦即，如果您在先前建立書籤的頁面中引進交叉分析篩選器，則交叉分析篩選器就會以其預設狀態運作。
 * 在建立書籤後移動視覺效果的結果會自動反映在書籤中。 
 

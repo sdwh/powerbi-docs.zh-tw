@@ -6,20 +6,20 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 8829cb8af41611fb29cd4fc22da7706e80ef3210
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4379fbfe051b69a2c9502a033ba462c1dded2022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880345"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380613"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Power BI 視覺效果中的工具提示
 
-視覺效果現在可以利用 Power BI 工具提示支援。 Power BI 工具提示會處理下列互動：
+視覺效果現在可以利用 Power BI 工具提示支援。 Power BI 工具提示會處理下列互動：'''
 
-* 顯示工具提示。
+* 顯示工具提示。'''
 * 隱藏工具提示。
 * 移動工具提示。
 
@@ -27,7 +27,7 @@ ms.locfileid: "73880345"
 
 下圖顯示位於範例橫條圖中的工具提示：
 
-![範例橫條圖工具提示](./media/tooltips-in-samplebarchart.png)
+![範例橫條圖工具提示](media/add-tooltips/tooltips-in-samplebarchart.png)
 
 上面的工具提示影像說明單一橫條的類別和值。 您可以擴充單一工具提示以顯示多個值。
 
@@ -209,7 +209,7 @@ BarChart 類別已搭配 `getTooltipData` 成員新增，該成員只會將資�
 
 您可以在 [格式]  窗格中定義報表頁面工具提示。
 
-![報表頁面工具提示](media/report-page-tooltip.png)
+![報表頁面工具提示](media/add-tooltips/report-page-tooltips.png)
 
 * `supportedTypes`：視覺效果所支援的工具提示設定，且會反映在欄位上。 
    * `default`：指定是否支援透過資料欄位的「自動」工具提示繫結。 

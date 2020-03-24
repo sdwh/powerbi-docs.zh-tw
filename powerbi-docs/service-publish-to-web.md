@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 0876d5ecd1d58c909242bbc05be213780d3aefdc
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237975"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488767"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -112,7 +112,7 @@ ms.locfileid: "78237975"
 
    ![PtW10](media/service-publish-to-web/publish_to_web10.png)
 
-4. 如果您選取 [刪除]  ，系統會要求您進行確認。
+4. 如果選取 [刪除]  ，系統會要求進行確認。
 
    ![PtW11](media/service-publish-to-web/publish_to_web11.png)
 
@@ -124,9 +124,9 @@ ms.locfileid: "78237975"
 
 資料重新整理會自動反映在您的內嵌報表或視覺效果中。 大約需要 1 小時，重新整理的資料才會顯示在內嵌程式碼中。 若要停用自動重新整理，請在報表使用的資料集排程上選取 [不重新整理]  。  
 
-## <a name="custom-visuals"></a>自訂視覺效果
+## <a name="power-bi-visuals"></a>Power BI 視覺效果
 
-[ **發佈至網路**] 支援自訂視覺效果。 使用 [發佈至 Web]  時，與您共用已發佈視覺效果的使用者不需要啟用自訂視覺效果，即可檢視報表。
+[發佈至網路]  支援 Power BI 視覺效果。 使用 [發佈至 Web]  時，與您共用已發佈視覺效果的使用者不需要啟用 Power BI 視覺效果，即可檢視報表。
 
 ## <a name="limitations"></a>限制
 
@@ -144,7 +144,7 @@ ms.locfileid: "78237975"
 - 單一登入資料查詢模型。
 - 安全的機密或專屬資訊。
 - [共用和認證的資料集](service-datasets-share.md)。
-- 隨著 [內嵌]  選項提供的自動驗證功能無法搭配 Power BI JavaScript API 使用。 針對 Power BI JavaScript API，請使用[使用者擁有資料](developer/embed-sample-for-your-organization.md)方式來內嵌。
+- 隨著 [內嵌]  選項提供的自動驗證功能無法搭配 Power BI JavaScript API 使用。 針對 Power BI JavaScript API，請使用[使用者擁有資料](developer/embedded/embed-sample-for-your-organization.md)方式來內嵌。
 
 ## <a name="tenant-setting"></a>租用戶設定
 
@@ -181,7 +181,7 @@ Power BI 系統管理員可以啟用或停用 [發佈至 Web ]  功能。 他們
 
 ## <a name="how-to-report-a-concern-with-publish-to-web-content"></a>如何回報 [發佈至網路] 內容的相關問題
 
-若要回報與內嵌在網站或部落格的 [發佈至 Web]  內容相關的問題，請使用下方列的**旗標**圖示，如下圖所示。 系統會要求您傳送電子郵件給 Microsoft 來說明您的問題。 Microsoft 會根據「Power BI 服務條款」來評估內容，並採取適當行動。
+若要回報與內嵌在網站或部落格的 [發佈至 Web]  內容相關的問題，請使用下方列的**旗標**圖示，如下圖所示。 系統會要求傳送電子郵件給 Microsoft 來說明問題。 Microsoft 會根據「Power BI 服務條款」來評估內容，並採取適當行動。
 
 若要回報問題，請選取您在 [發佈至 Web]  報表下方列上看到的**旗標**圖示。
 
@@ -196,7 +196,7 @@ Power BI 系統管理員可以啟用或停用 [發佈至 Web ]  功能。 他們
 
 使用 [發佈至 Web]  建立內嵌程式碼後，任何網際網路使用者都可以檢視報表。 報表可以公開取得，因此，您可以預期檢視人員日後透過社交媒體輕鬆共用報表。 使用者直接開啟公用 URL 或在內嵌的網頁或部落格中檢視報表時，Power BI 會快取報表定義和檢視報表所需的查詢結果。 這可確保數千名並行使用者能夠檢視報表，而不會影響效能。
 
-系統會長時間保留快取，所以如果您更新報表定義 (例如變更檢視模式)，或重新整理報表資料，系統需要大約一小時，才會在使用者檢視的報表版本上反映變更。 因此建議您預先準備要進行的工作，並且只在對設定滿意後再建立 [ **發佈至網路** ] 內嵌程式碼。
+系統會長時間保留快取，所以如果您更新報表定義 (例如變更檢視模式)，或重新整理報表資料，系統需要大約一小時，才會在使用者檢視的報表版本上反映變更。 因此建議預先準備要進行的工作，且只在對設定滿意後才建立**發佈至網路**內嵌程式碼。
 
 ## <a name="how-to-find-your-power-bi-administrator"></a>如何尋找您的 Power BI 管理員
 

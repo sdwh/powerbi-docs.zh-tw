@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114168"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377182"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的視覺效果類型
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-您會在報表、儀表板及問與答中看見視覺效果。 其中一些視覺效果類型是隨 Power BI 一同封裝，而某些則是「自訂視覺效果」  。 自訂視覺效果是在 Power BI 外部建立，且其建立方式允許報表「設計師」  將它們新增至 Power BI 報表和儀表板。 
+您會在報表、儀表板及問與答中看見視覺效果。 其中一些視覺效果類型是隨 Power BI 一同封裝，而某些則是「Power BI 視覺效果」  。 自訂視覺效果是在 Power BI 外部建立，且其建立方式允許報表「設計師」  將它們新增至 Power BI 報表和儀表板。 
 
 此文章概述隨 Power BI 服務一同封裝的視覺效果。  這些是您最常會遇到的視覺效果。 如需這些視覺效果的深入資訊，請參閱[關於視覺效果類型的 Power BI 報表「設計師」  文件](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 > [!NOTE]
-> 若要了解自訂視覺效果，請在 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 的＜**Power BI 視覺效果**＞一節中搜尋這些自訂視覺效果。 針對每個視覺效果，您可找到描述、建立者資訊，以及螢幕擷取畫面或影片。 
+> 若要了解自訂視覺效果，請在 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 的 **Power BI 視覺效果**一節中搜尋這些 Power BI 視覺效果。 針對每個視覺效果，您可找到描述、建立者資訊，以及螢幕擷取畫面或影片。 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Power BI 提供的視覺效果清單
 所有這些視覺效果都能在 Power BI 儀表板及報表中找到，並[於問與答中詳述](end-user-q-and-a.md)。 若要了解如何與視覺效果互動，請參閱[在報表、儀表板和應用程式中與視覺效果互動](end-user-visualizations.md)
@@ -237,7 +237,7 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 - 呈現貴公司一年的開始和結束人數
 - 以視覺化方式顯示您的每月收入與支出，以及帳戶的日常餘額
 
-## <a name="qna"></a>告訴問與答要使用的視覺效果
+## <a name="tell-qa-which-visual-to-use"></a><a name="qna"></a>告訴問與答要使用的視覺效果
 使用 Power BI 問與答輸入自然語言查詢時，您可以在查詢中指定視覺效果類型。  例如：
 
 

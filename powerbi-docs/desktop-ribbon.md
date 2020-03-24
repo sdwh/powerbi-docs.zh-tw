@@ -6,30 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 03/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: cbaf3244ce8e8aa2755b6b47bf6381c191293306
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527389"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133236"
 ---
-# <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>使用 Power BI Desktop 中已更新的功能區 (預覽)
+# <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>使用 Power BI Desktop 中已更新的功能區
 
-從 2019 年 11 月更新開始，Power BI Desktop 會修訂其功能區，使其外觀和體驗更能與其他 Microsoft 產品 (例如 Microsoft Office) 保持一致。
+從 2020 年 3 月更新開始，Power BI Desktop 會修訂其功能區，使其外觀和體驗更能與其他 Microsoft 產品 (例如 Microsoft Office) 保持一致。 已更新功能區會在 2019 年 11 月的每月更新開始顯示為預覽功能，且從 2020 年 3 月更新開始，新的功能區會成為預設體驗。
 
 ![Power BI Desktop 中的新功能區](media/desktop-ribbon/desktop-ribbon-02.png)
 
-已更新功能區處於預覽狀態，因此我們可以收集使用者和客戶的意見反應，並確定體驗是例外的。 在 Power BI Desktop 已更新功能區發行正式推出之前，我們預期會有幾個月的預覽、意見反應和改進。 
-
 ## <a name="how-to-enable-the-updated-ribbon"></a>如何啟用已更新功能區
 
-Power BI 中的已更新功能區是預覽功能，必須啟用。 若要啟用它，選取 [檔案] > [選項及設定] > [選項]  ，然後從左側資料行選取 [預覽功能]  。 右窗格中為 [已更新功能區]  選取項目。 核取 [已更新功能區]  旁的方塊，以啟用預覽功能。 您必須重新啟動 Power BI Desktop，預覽功能變更才會生效。
+從 2020 年 3 月更新開始，更新的功能區預設為開啟。 針對先前的 Power BI Desktop 版本 (從 2019 年 11 月更新開始)，Power BI 中的更新功能區是預覽功能且必須啟用。 若要在先前的更新中啟用，請選取 [檔案] > [選項及設定] > [選項]  ，然後從左側資料行選取 [預覽功能]  。 右窗格中為 [已更新功能區]  選取項目。 核取 [已更新功能區]  旁的方塊，以啟用預覽功能。 您必須重新啟動 Power BI Desktop，預覽功能變更才會生效。
 
 ![Power BI Desktop 中的已更新功能區選項](media/desktop-ribbon/desktop-ribbon-01.png)
 
+> [!NOTE]
+> 2020 年 3 月開始的 Power BI Desktop 版本不需要啟用更新的功能區，因為從 2020 年 3 月開始，新的功能區就是預設體驗。
 
 ## <a name="features-of-the-new-ribbon"></a>新功能區的特徵
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/17/2019
 ms.author: painbar
-ms.openlocfilehash: bfc6a32f7b6ef83e6e69351fb4d87d89c8c2806e
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427570"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376676"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什麼是 Power BI 範本應用程式？
 
@@ -102,7 +102,7 @@ Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，
 | 資料來源 | 允許針對雲端排程的資料重新整理支援的資料來源。 <br>不支援： <li> DirectQuery</li><li>即時連線 (非 Azure AS)</li> <li>內部部署資料來源 (不支援個人和企業閘道)</li> <li>即時 (不支援推送資料集)</li> <li>複合模型</li></ul> |
 | 資料集：跨工作區 | 不允許跨工作區資料集  |
 | 查詢參數 | 不支援：資料集類型區塊重新整理作業的 "Any" 和 "Binary" 類型參數 |
-| 自訂視覺效果 | 只支援公開可用的自訂視覺效果。 不支援[組織自訂視覺效果](developer/power-bi-custom-visuals-organization.md) |
+| Power BI 視覺效果 | 只支援公開可用的 Power BI 視覺效果。 不支援[組織 Power BI 視覺效果](developer/visuals/power-bi-custom-visuals-organization.md) |
 
 ## <a name="support"></a>支援
 如需在開發期間的支援，請使用 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)。 我們會主動監視及管理這個網站。 讓適當的小組可快速開始處理客戶事件。

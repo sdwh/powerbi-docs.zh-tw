@@ -8,17 +8,20 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 6abeb9244b4ced7cf0b56d4f01686f570c474989
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 2b77f2e2ce52d83a8eda56472d4a9a5dd1365e1f
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114921"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435735"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>從 Power BI 行動裝置應用程式將 Power BI 儀表板釘選到 Windows 10 的開始畫面
 您可以從適用於 Windows 10 的 Power BI 行動裝置應用程式，將 Power BI 儀表板釘選到 Windows 的 [開始] 畫面。 它們會變成「動態磚」  。 當您在 [開始] 畫面點選磚時，儀表板便會在適用於 Windows 10 的 Power BI 行動裝置應用程式中開啟。
 
 ![Windows 動態磚](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-screen.png)
+
+>[!NOTE]
+>**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-live-tile"></a>將儀表板釘選到開始畫面成為動態磚
 1. 開啟儀表板。

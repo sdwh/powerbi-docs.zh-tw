@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 8703bfa60116b7e60f1e6bec931b0f6183f7dd31
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 0313dc2014130ded9b9ed4ad112aa26803d92d28
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75218508"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435712"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>快速入門：在 Power BI 行動裝置應用程式中探索儀表板和報表
 在本快速入門中，您可快速瀏覽 Power BI 行動裝置應用程式，以及探索範例儀表板和報表。 您會看到 iOS 版 Power BI 應用程式，但在其他裝置上也可以輕鬆掌握。
@@ -23,6 +23,9 @@ ms.locfileid: "75218508"
 | ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Windows 10 裝置](./media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone | iPad | Android | Windows 10 |
+
+>[!NOTE]
+>**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 儀表板是您公司生命週期和流程的入口網站。 儀表板是總覽，用於監控企業目前狀態的單一位置。 報表是資料的互動式檢視，以視覺效果顯示資料的各種發現與見解及需要深入了解的事項。 
 

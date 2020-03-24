@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a15b309cd2e50eb47242895c808eaa4386c53a4b
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 360461a009187df5fdf2769e7c9a03e7d194b5ad
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401331"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378493"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -32,6 +32,81 @@ ms.locfileid: "78401331"
 您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
 
 下列章節說明 **Power BI Desktop** 前幾個月的更新。
+
+
+## <a name="february-2020-update-2785740642"></a>2020 年 2 月更新 (2.78.5740.642)
+
+我們愛死了二月的更新，且敢說新功能一定比心形盒裝巧克力更好。 
+
+> [!IMPORTANT]
+> 從 2019 年 9 月版本開始，Power BI Desktop 僅發行為單一 .exe 檔案，其中包含所有支援的語言。 .msi 版本已不再發行。
+
+Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯：
+
+* [部落格]: Most features are explained in a section in the monthly update blog post.
+* [影片]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
+* [文章]: Some features have an article that provides more detail.
+* 剩下的功能一目了然，不需要文章或影片加以說明。
+
+下列是本月 Power BI Desktop 新增的更新：
+
+
+### <a name="data-management"></a>資料管理
+* 累加式重新整理現已正式推出 [[影片]](https://youtu.be/TN61JvbUAxk?t=16) [[文章]](service-premium-incremental-refresh.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Incremental_refresh) 
+
+### <a name="reporting"></a>報告
+* 階層式交叉分析篩選器 (預覽) [[影片]](https://youtu.be/TN61JvbUAxk?t=207) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Hierarchical_slicer) 
+* 新功能區的更新 (預覽) [[影片]](https://youtu.be/TN61JvbUAxk?t=424) [[文章]](desktop-ribbon.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Ribbon) 
+
+
+### <a name="modeling"></a>模型化
+* 新的 DAX 函式：FirstNonBlankValue、LastNonBlankValue [[影片]](https://youtu.be/TN61JvbUAxk?t=716) [[文章]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_New_DAX_Functions) 
+
+### <a name="visuals"></a>視覺效果
+* 新的自訂視覺效果 [[影片]](https://youtu.be/TN61JvbUAxk?t=835) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Visualizations) 
+
+
+### <a name="template-apps"></a>範本應用程式
+* Microsoft 365 使用情況分析 [[影片]](https://youtu.be/TN61JvbUAxk?t=910) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Microsoft_365_usage) 
+* P3 提供的 NFL 分析 [[影片]](https://youtu.be/TN61JvbUAxk?t=928) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_NFL)
+* Acterys for Quickbooks、Xero 和 WorkflowMax [[影片]](https://youtu.be/TN61JvbUAxk?t=932) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Acterys) 
+
+
+### <a name="data-preparation"></a>資料準備
+* 查詢診斷 - 支援非為系統管理員的使用者 [[影片]](https://youtu.be/TN61JvbUAxk?t=938) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_non_admin_support) 
+
+
+### <a name="data-connectivity"></a>資料連線
+* MicroStrategy 連接器 (已正式推出) [[影片]](https://youtu.be/TN61JvbUAxk?t=962) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_MicroStrategy_connector) 
+* FHIR 連接器 (已正式推出) [[影片]](https://youtu.be/TN61JvbUAxk?t=962) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_FHIR) 
+* 其他連接器：Factset、TIBCO、Jamf Pro、Asana [[影片]](https://youtu.be/TN61JvbUAxk?t=978) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Factset_connector) 
+
+
+
+如需這些新功能各自的詳細資訊，請參閱 [Power BI Desktop 功能摘要部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/)。
+
+請查看 [Power BI 服務新功能](service-whats-new.md)及 [Power BI 行動裝置應用程式新功能](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
+
+> [!NOTE]
+> 請參閱 [Power BI Desktop 可用的資料來源](desktop-data-sources.md)。 我們的清單會持續增加，因此請經常回來查看。
+
+
+## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 每月更新影片
+下列影片會分別描述這些更新。 您也可以在部落格文章中觀賞這段影片：
+
+> [!VIDEO https://www.youtube.com/embed/TN61JvbUAxk]
+
+如果組織需要，您也可以下載先前版本的 Power BI Desktop。 強烈建議您使用最新版的 Power BI Desktop，不要使用舊版本。 所有舊版本都有下列限制：
+
+* 不針對舊版 Power BI Desktop 提供服務 - 您應該一律採用最新版本以獲得最新功能和更新。
+* 可能無法使用舊版 Power BI Desktop 開啟使用較新版 Power BI Desktop 建立或儲存的檔案。 
+* 如果您在載入使用較新版 Power BI Desktop 儲存的報表時收到一則警告，然後使用舊版儲存該報表，您將會遺失任何與新功能有關的資訊。
+* 我們只會封存英文版 Power BI Desktop。
+
+請選取下列連結以下載這個較早的版本： 
+
+* [Power BI Desktop - 32 位元 2020 年 2 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-02.exe)
+* [Power BI Desktop - 64 位元 2020 年 2 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-02_x64.exe)
 
 
 ## <a name="december-2019-update-2765678661"></a>2019 年 12 月更新 (2.76.5678.661)
@@ -67,7 +142,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="visuals"></a>視覺效果
 * 個人化視覺效果窗格 (正式推出) [[影片]](https://youtu.be/eCEwgZsVUOs?t=865) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#personalizeViz) 
-* 新的自訂視覺效果 [[影片]](https://youtu.be/eCEwgZsVUOs?t=886) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
+* 新的 Power BI 視覺效果 [[影片]](https://youtu.be/eCEwgZsVUOs?t=886)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
 
 
 ### <a name="data-connectivity"></a>資料連線
@@ -391,7 +466,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 
 ### <a name="visuals"></a>視覺效果
-* 新的自訂視覺效果和更新  [[影片]](https://youtu.be/sf4n7VXoQHY?t=956)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#xviz) 
+* 新的 Power BI 視覺效果與更新  [[影片]](https://youtu.be/sf4n7VXoQHY?t=956)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#xviz) 
 
 
 ### <a name="data-connectivity"></a>資料連線
@@ -457,7 +532,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="visuals"></a>視覺效果
 * PowerApps 視覺效果現已通過認證  [[影片]](https://youtu.be/l7OMRUF9UYg?t=894)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#powerapps) 
-* 三個新的自訂視覺效果和更新  [[影片]](https://youtu.be/l7OMRUF9UYg?t=932)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
+* 三個新的 Power BI 視覺效果與更新  [[影片]](https://youtu.be/l7OMRUF9UYg?t=932)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
 
 
 ### <a name="data-connectivity"></a>資料連線
@@ -531,7 +606,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="visuals"></a>視覺效果
 * 個人化的視覺效果窗格 (預覽)  [[影片]](https://youtu.be/7k-nP38uHyQ?t=1349)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#personalizedVizPane) 
-* 三個新的自訂視覺效果和更新 [[影片]](https://youtu.be/7k-nP38uHyQ?t=1391)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
+* 三個新的 Power BI 視覺效果與更新  [[影片]](https://youtu.be/7k-nP38uHyQ?t=1391)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
 
 
 ### <a name="data-connectivity"></a>資料連線
@@ -600,7 +675,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="visuals"></a>視覺效果
 * ArcGIS Maps for Power BI 更新 [[影片]](https://youtu.be/O8GlHDz8xUQ?t=1093)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#esri) 
-* 六個新的自訂視覺效果和更新    [[影片]](https://youtu.be/O8GlHDz8xUQ?t=1199)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#mapbox) 
+* 六個新的 Power BI 視覺效果與更新    [[影片]](https://youtu.be/O8GlHDz8xUQ?t=1199)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#mapbox) 
 
 
 ### <a name="data-connectivity"></a>資料連線
@@ -659,7 +734,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 ### <a name="modeling"></a>模型化
 * 新的 DAX 函式 - ALLCROSSFILTERED [[影片]](https://youtu.be/vih35kSrEHU?t=970)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dax) 
 
-### <a name="custom-visuals"></a>自訂視覺效果
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
 * 一個新的自訂視覺效果 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#rainbowGauge) 
 
 
@@ -737,9 +812,9 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 新的模型檢視現已正式推出 [[影片]](https://youtu.be/rBPGH6eYlT0?t=417)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
 * 新的 DAX 函式 [[影片]](https://youtu.be/rBPGH6eYlT0?t=560)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#DAX) 
 
-### <a name="custom-visuals"></a>自訂視覺效果
-* 管理入口網站中的新認證自訂視覺效果設定 [[影片]](https://youtu.be/rBPGH6eYlT0?t=624)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#certifiedAdminSetting) 
-* 兩個新的自訂視覺效果  [[影片]](https://youtu.be/rBPGH6eYlT0?t=693)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#customVisuals) 
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
+* 管理入口網站中的新認證 Power BI 視覺效果設定  [[影片]](https://youtu.be/rBPGH6eYlT0?t=624)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#certifiedAdminSetting) 
+* 兩個新的 Power BI 視覺效果  [[影片]](https://youtu.be/rBPGH6eYlT0?t=693)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#customVisuals) 
 
 
 ### <a name="data-connectivity"></a>資料連線
@@ -797,8 +872,8 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 問與答總管的自動產生建議問題 [[影片]](https://youtu.be/dMD25wfElLg?t=1121)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#autoSuggestions) 
 * 改善 Python 與 R 指令碼編輯器 [[影片]](https://youtu.be/dMD25wfElLg?t=1282)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#scriptEditor) 
 
-### <a name="custom-visuals"></a>自訂視覺效果
-* 十個新的自訂視覺效果、新的自訂視覺效果功能  [[影片]](https://youtu.be/dMD25wfElLg?t=1324)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#customVisuals) 
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
+* 十個新的 Power BI 視覺效果、新的 Power BI 視覺效果功能  [[影片]](https://youtu.be/dMD25wfElLg?t=1324)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>資料連線
 
@@ -873,7 +948,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 資料檢視協助工具支援 [[影片]](https://youtu.be/AHNlkjRFdYI?t=1253)  [[文章]](desktop-composite-models.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#dataView) 
 
 
-### <a name="custom-visuals"></a>自訂視覺效果
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
 * 一個新的自訂視覺效果  [[影片]](https://youtu.be/AHNlkjRFdYI?t=1370)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#customVisuals) 
 
@@ -934,9 +1009,9 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 模型化協助工具改善 [[影片]](https://youtu.be/1xsXXoyTxfk?t=2023)  [[文章]](desktop-accessibility.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
 * 新的 DAX 函式 [[影片]](https://youtu.be/1xsXXoyTxfk?t=2066)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
 
-### <a name="custom-visuals"></a>自訂視覺效果
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
-* 五個新的自訂視覺效果  [[影片]](https://youtu.be/1xsXXoyTxfk?t=2108)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+* 五個新的 Power BI 視覺效果  [[影片]](https://youtu.be/1xsXXoyTxfk?t=2108)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
 
 ### <a name="data-connectivity"></a>資料連線
 
@@ -981,9 +1056,9 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * Power BI 服務中的複合模型和彙總支援 (預覽) [[影片]](https://youtu.be/8E6UokaDtc0)  [[文章 - 彙總]](desktop-aggregations.md) [[文章 - 複合模型]](desktop-composite-models.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23compositeModels) 
 * 非加法量值的說明增加情形 [[影片]](https://youtu.be/8E6UokaDtc0?t=107)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23Insights) 
 
-### <a name="custom-visuals"></a>自訂視覺效果
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
-* 五個新的自訂視覺效果  [[影片]](https://youtu.be/ZfJSSG17SEY)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23customVisuals) 
+* 五個新的 Power BI 視覺效果  [[影片]](https://youtu.be/ZfJSSG17SEY)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23customVisuals) 
 
 ### <a name="data-connectivity"></a>資料連線
 
@@ -1036,9 +1111,9 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 * 彙總 (預覽) [[影片]](https://youtu.be/Rzw2WyI09kY?t=11m37s)  [[文章]](desktop-aggregations.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
 
-### <a name="custom-visuals"></a>自訂視覺效果
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
-* 五個新的自訂視覺效果  [[影片]](https://youtu.be/Rzw2WyI09kY?t=23m8s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
+* 五個新的 Power BI 視覺效果  [[影片]](https://youtu.be/Rzw2WyI09kY?t=23m8s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>資料連線
 
@@ -1091,9 +1166,9 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * Python 整合  [[影片]](https://youtu.be/dgv5HhHxxe8?t=11m14s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
 * 問與答改善  [[影片]](https://youtu.be/dgv5HhHxxe8?t=13m1s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
 
-### <a name="custom-visuals"></a>自訂視覺效果
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
-* 五個新的自訂視覺效果  [[影片]](https://youtu.be/dgv5HhHxxe8?t=19m48s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
+* 五個新的 Power BI 視覺效果  [[影片]](https://youtu.be/dgv5HhHxxe8?t=19m48s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>資料連線
 
@@ -1145,11 +1220,11 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 * 分佈因素的深入解析  [[影片]](https://youtu.be/Mtig3rmIUe0?t=37m)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
 
-### <a name="custom-visuals"></a>自訂視覺效果
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
 * Power BI 認證的類別  [[影片]](https://youtu.be/Mtig3rmIUe0?t=41m13s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
 * 停用特定組織視覺效果  [[影片]](https://youtu.be/Mtig3rmIUe0?t=42m32s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
-* 四個新的自訂視覺效果  [[影片]](https://youtu.be/Mtig3rmIUe0?t=44m)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
+* 四個新的 Power BI 視覺效果  [[影片]](https://youtu.be/Mtig3rmIUe0?t=44m)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
 
 ### <a name="data-connectivity"></a>資料連線
 
@@ -1187,9 +1262,9 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 為組合圖中的每個量值個別設定資料標籤格式  [[影片]](https://youtu.be/4VpGtWSrssE?t=9m29s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
 * 較長的手機報表  [[影片]](https://youtu.be/4VpGtWSrssE?t=11m26s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#phoneReports) 
 
-### <a name="custom-visuals"></a>自訂視覺效果
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
-* 兩個新的自訂視覺效果  [[影片]](https://youtu.be/4VpGtWSrssE?t=17m42s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
+* 兩個新的 Power BI 視覺效果  [[影片]](https://youtu.be/4VpGtWSrssE?t=17m42s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
 
 ### <a name="modeling"></a>模型化
 * 資料檢視中的篩選和排序  [[影片]](https://youtu.be/4VpGtWSrssE?t=13m11s)  [[文章]](desktop-data-view.md#filtering-in-data-view)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
@@ -1236,15 +1311,15 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="analytics"></a>分析
 
-* 量值鑽研  [[影片]](https://youtu.be/-_GMCE1TLvQ?t=2m9s)  [[文章]](desktop-drillthrough.md#pass-all-filters-in-drillthrough)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
+* 量值鑽研  [[影片]](https://youtu.be/-_GMCE1TLvQ?t=2m9s)  [[文章]](desktop-drillthrough.md#pass-all-filters-in-drill-through)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
 * 累加式重新整理 (預覽)  [[影片]](https://youtu.be/-_GMCE1TLvQ?t=7m42s)  [[文章]](service-premium-incremental-refresh.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#incrementalRefresh) 
 
-### <a name="custom-visuals"></a>自訂視覺效果
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
-* 許多新自訂視覺效果  [[影片]](https://youtu.be/-_GMCE1TLvQ?t=9m44s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
+* 許多新的 Power BI 視覺效果  [[影片]](https://youtu.be/-_GMCE1TLvQ?t=9m44s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>資料連線
 
@@ -1291,13 +1366,13 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="analytics"></a>分析
 
-* 更新您的語言結構描述  [[影片]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[文章]](developer/power-bi-custom-visuals-organization.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
+* 更新您的語言結構描述  [[影片]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[文章]](developer/visuals/power-bi-custom-visuals-organization.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * 新的 DAX 函式：COMBINEVALUES()  [[影片]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
-### <a name="custom-visuals"></a>自訂視覺效果
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
-* 組織視覺效果現已正式推出  [[影片]](https://youtu.be/W_Nb73Od_AI?t=26m11s)  [[文章]](developer/power-bi-custom-visuals-organization.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
-* 許多新自訂視覺效果  [[影片]](https://youtu.be/W_Nb73Od_AI?t=28m8s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
+* 組織視覺效果現已正式推出  [[影片]](https://youtu.be/W_Nb73Od_AI?t=26m11s)  [[文章]](developer/visuals/power-bi-custom-visuals-organization.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
+* 許多新的 Power BI 視覺效果  [[影片]](https://youtu.be/W_Nb73Od_AI?t=28m8s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
 
 ### <a name="data-connectivity"></a>資料連線
 
@@ -1334,9 +1409,9 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 關閉報表閱讀模式中的視覺效果標題  [[影片]](https://youtu.be/kuI6MMzDh34?t=12m25s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
 * 改善預設視覺效果放置  [[影片]](https://youtu.be/kuI6MMzDh34?t=14m45s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
 
-### <a name="custom-visuals"></a>自訂視覺效果
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
-* 許多新自訂視覺效果  [[影片]](https://youtu.be/kuI6MMzDh34?t=15m43s)  [[文章]](developer/power-bi-custom-visuals-organization.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
+* 許多新的 Power BI 視覺效果  [[影片]](https://youtu.be/kuI6MMzDh34?t=15m43s)  [[文章]](developer/visuals/power-bi-custom-visuals-organization.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>資料連線
 
@@ -1393,9 +1468,9 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 搜尋格式化和分析窗格  [[影片]](https://youtu.be/KeVB5RwMzJo?t=14m46s)  [[文章]](desktop-analytics-pane.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
 
 
-### <a name="custom-visuals"></a>自訂視覺效果
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
-* 組織自訂視覺效果 (預覽)  [[影片]](https://youtu.be/KeVB5RwMzJo?t=19m23s)  [[文章]](developer/power-bi-custom-visuals-organization.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
+* 組織 Power BI 視覺效果 (預覽)  [[影片]](https://youtu.be/KeVB5RwMzJo?t=19m23s)  [[文章]](developer/visuals/power-bi-custom-visuals-organization.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
 ### <a name="analytics"></a>分析
@@ -1455,7 +1530,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   分階層顯示日期 (預覽)  [[影片]](https://youtu.be/W8Pp5wuCXJw?t=7m41s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dateHierarchy) 
 -   新增相對日期交叉分析篩選器的錨點日期  [[影片]](https://youtu.be/W8Pp5wuCXJw?t=9m22s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate) 
 -   問與答中前 N 個選取項目  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
--   許多新自訂視覺效果  [[影片]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
+-   許多新的 Power BI 視覺效果  [[影片]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
 ### <a name="analytics"></a>分析
 
@@ -1505,7 +1580,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   來自 X 和 Y 軸群組的散佈圖視覺效果  [[影片]](https://youtu.be/ZPU8B-1BxjI?t=15m12s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
 -   根據緯度和經度的地圖高密度取樣  [[影片]](https://youtu.be/ZPU8B-1BxjI?t=17m3s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
 -   回應式交叉分析篩選器  [[影片]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
--   最近發行的自訂視覺效果  [[影片]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
+-   最近發行的 Power BI 視覺效果  [[影片]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>分析
@@ -1560,7 +1635,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   Esri Plus 訂閱可供 ArcGIS Maps for Power BI 使用  [[影片]](https://youtu.be/sI3yRjdnJ7w?t=10m31s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
 -   慢速資料來源的報表選項  [[影片]](https://youtu.be/sI3yRjdnJ7w?t=16m11s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
 -   篩選效能改善  [[影片]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
--   最近發行的自訂視覺效果  [[影片]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
+-   最近發行的 Power BI 視覺效果  [[影片]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>分析
@@ -1665,7 +1740,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
     -   鍵盤快速鍵協助程式對話方塊  [[影片]](https://youtu.be/moTQJlnClJw?t=28m50s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#shortcuts) [[文章]](desktop-accessibility.md)
 -   高密度散佈圖取樣  [[影片]](https://youtu.be/moTQJlnClJw?t=30m22s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#highDensityScatter) [[文章]](desktop-high-density-scatter-charts.md)
 -   格線樣式控制項  [[影片]](https://youtu.be/moTQJlnClJw?t=33m53s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#gridlines) [[文章]](desktop-gridlines-snap-to-grid.md)
--   新的自訂視覺效果  [[影片]](https://youtu.be/moTQJlnClJw?t=36m4s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#communityVisuals)
+-   新的 Power BI 視覺效果  [[影片]](https://youtu.be/moTQJlnClJw?t=36m4s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#communityVisuals)
     -   Tallan 行事曆  [[影片]](https://youtu.be/moTQJlnClJw?t=36m26s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#calendarByTallan)
     -   Enlighten Aquarium  [[影片]](https://youtu.be/moTQJlnClJw?t=38m11s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#enlightenAquarium)
     -   Visio 視覺效果 (預覽) [[影片]](https://youtu.be/moTQJlnClJw?t=40m15s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#visio)
@@ -1701,7 +1776,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   每個矩陣層級的自訂小計設定  [[影片]](https://youtu.be/ND8U0yXroaQ?t=4m29s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customSubtotal)
 -   線條樣式和圖例選項  [[影片]](https://youtu.be/ND8U0yXroaQ?t=6m54s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#lineStyles)
 -   散佈圖效能改善  [[影片]](https://youtu.be/ND8U0yXroaQ?t=13m59s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#scatterChartPerformance)
--   新的自訂視覺效果  [[影片]](https://youtu.be/ND8U0yXroaQ?t=14m32s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customVisuals)
+-   新的 Power BI 視覺效果  [[影片]](https://youtu.be/ND8U0yXroaQ?t=14m32s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customVisuals)
     -   由 MAQ 軟體提供的點圖  [[影片]](https://youtu.be/ND8U0yXroaQ?t=14m45s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#dotPlot)
     -   Power KPI  [[影片]](https://youtu.be/ND8U0yXroaQ?t=19m11s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#powerKPI)
     -   漏斗圖  [[影片]](https://youtu.be/ND8U0yXroaQ?t=21m55s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#funnelPlot)
@@ -1743,7 +1818,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 -   新的資料表和矩陣視覺效果現已正式推出 [[影片]](https://youtu.be/4X96ow7FnSY?t=1m27s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#tableAndMatrix)
 -   重新命名視覺效果中的欄位  [[影片]](https://youtu.be/4X96ow7FnSY?t=6m3s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#rename)
--   自訂視覺效果會儲存整合  [[影片]](https://youtu.be/4X96ow7FnSY?t=8m7s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisualsStore)
+-   Power BI 視覺效果市集整合  [[影片]](https://youtu.be/4X96ow7FnSY?t=8m7s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisualsStore)
 -   相對日期篩選  [[影片]](https://youtu.be/4X96ow7FnSY?t=10m46s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#relativeDateFilter)
 -   視覺效果的回應式配置 (預覽)  [[影片]](https://youtu.be/4X96ow7FnSY?t=12m14s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)
 -   新的瀑布圖選項 - 分解  [[影片]](https://youtu.be/4X96ow7FnSY?t=14m29s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#waterfall)
@@ -1751,7 +1826,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
     -   向下切入面量圖  [[影片]](https://youtu.be/4X96ow7FnSY?t=18m11s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownChoropleth)
     -   向下切入面積變量圖  [[影片]](https://youtu.be/4X96ow7FnSY?t=19m14s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownCartogram)
     -   向下切入播放程式  [[影片]](https://youtu.be/4X96ow7FnSY?t=20m17s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownPlayer)
-    -   認證的自訂視覺效果 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#certifiedCustomVisuals)
+    -   認證的 Power BI 視覺效果  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#certifiedCustomVisuals)
 
 
 ### <a name="analytics--modeling"></a>分析和模型化：
@@ -2123,7 +2198,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   量化 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#binning) [[影片]](https://youtu.be/UXEYSvgvMaQ?t=12m17s)
 -   前 N 項篩選條件 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#topN) [[影片]](https://youtu.be/UXEYSvgvMaQ?t=13m55s)
 -   包含/排除資料點 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#includeExclude) [[影片]](https://youtu.be/UXEYSvgvMaQ?t=15m36s)
--   R 提供技術的自訂視覺效果 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#rCustomVisuals)
+-   R 支援的 Power BI 視覺效果 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#rCustomVisuals)
 
 
 ### <a name="data-connectors"></a>資料連接器︰

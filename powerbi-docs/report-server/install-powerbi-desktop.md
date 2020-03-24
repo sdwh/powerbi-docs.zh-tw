@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426648"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381115"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 
@@ -70,7 +70,7 @@ Power BI 報表伺服器、Power BI 服務 (https://app.powerbi.com) ) 和 Power
 
 ### <a name="report-visuals-in-a-browser"></a>瀏覽器中的報表視覺效果
 
-Power BI 報表伺服器的報表支援幾乎所有視覺效果，包括自訂視覺效果。 Power BI 報表伺服器報表不支援：
+Power BI 報表伺服器的報表支援幾乎所有視覺效果，包括 Power BI 視覺效果。 Power BI 報表伺服器報表不支援：
 
 * R 視覺效果
 * ArcGIS 地圖
@@ -89,7 +89,7 @@ Power BI 報表伺服器報表不支援 Power BI 行動裝置應用程式中的�
 
 * R 視覺效果
 * ArcGIS 地圖
-* 自訂視覺效果
+* Power BI 視覺效果
 * 階層連結
 * 地區篩選或條碼
 

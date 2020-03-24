@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3063d75123069e93baa8159cddf7c551922aa2b2
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 83c0020549fd2bad939aa0876b82e58abcc88295
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076678"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381322"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 
@@ -206,7 +206,7 @@ ms.locfileid: "77076678"
 <br>由 Kasper de Jonge 主持
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**詢問合作夥伴：開發適用於 Power BI 的自訂視覺效果**
+**詢問合作夥伴：開發適用於 Power BI 的 Power BI 視覺效果**
 <br>由 Ted Pattison 主持
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 

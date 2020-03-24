@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e86e8c87ca7942e74ff2f16e299304f56f4a2aa3
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113100"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377275"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>使用 Power BI 在儀表板圖格上檢視資料見解
 
@@ -61,7 +61,7 @@ ms.locfileid: "79113100"
 若要返回您的報表，請選取左上角的 [結束焦點模式]  。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-- **檢視見解**並不適用於所有類型的儀表板磚。 例如，它不適用於自訂視覺效果。<!--[custom visuals](end-user-custom-visuals.md)-->
+- **檢視見解**並不適用於所有類型的儀表板磚。 例如，其不適用於 Power BI 視覺效果。<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>後續步驟

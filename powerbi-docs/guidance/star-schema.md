@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260408"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133245"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>了解星型結構描述及其對 Power BI 的重要性
 
 本文適用於 Power BI Desktop 資料模型製作人員。 其中描述星型結構描述設計，以及其與開發針對效能和可用性最佳化的 Power BI 資料模型有何關聯。
 
-此文章不會針對星型結構描述設計提供完整討論。 如需詳細資料，請直接參閱已發佈的內容，例如 Ralph Kimball 等人所著的 "The Data Warehouse Toolkit:  The Complete Guide to Dimensional Modeling" (2002 年第 2 版)。
+此文章不會針對星型結構描述設計提供完整討論。 如需詳細資料，請直接參閱已發佈的內容，例如 Ralph Kimball 等人所著的 "The Data Warehouse Toolkit:  The Definitive Guide to Dimensional Modeling" (2013 年第 3 版)。
 
 ## <a name="star-schema-overview"></a>星型結構描述概觀
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782442"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381299"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
@@ -317,7 +317,7 @@ Power BI 報表中支援下列功能：
 
 **協助工具功能**：要列出的協助工具功能非常多，例如[欄位清單窗格協助工具支援](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)。 欄位清單窗格完全可供存取。 您只需要使用鍵盤和螢幕助讀程式即可瀏覽窗格，並可使用操作功能表將欄位新增到報表頁面。
 
-#### <a name="custom-visuals"></a>自訂視覺效果
+#### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
 - 此版本隨附的 API 版本為 2.3。
 
@@ -381,11 +381,11 @@ SAP HANA SSO Direct Query 對 Kerberos 的支援現在於 Power BI 報表中正�
 >[!Note]
 >只有在將 SAP HANA 視為您已在 Power BI Desktop 中建立之報表的關聯式資料來源時，才支援此案例。  若要在 Power BI Desktop 中啟用這項功能，請在 DirectQuery 功能表的 [選項] 下，核取 [將 SAP HANA 視為關聯來源]，然後按一下 [確定]。
 
-#### <a name="custom-visuals"></a>自訂視覺效果
+#### <a name="power-bi-visuals"></a>Power BI 視覺效果
 
 - 此版本隨附的 API 版本為 1.13.0。
 
-- 現在，自訂視覺效果可以回復為與目前伺服器 API 版本相容的舊版 (如果有的話)。
+- 現在，Power BI 視覺效果可以回復為與目前伺服器 API 版本相容的舊版 (如果有的話)。
 
 ### <a name="reporting"></a>報告 
 
@@ -613,7 +613,7 @@ Power BI 報表伺服器現在支援新的 Power BI 資料表和矩陣視覺效�
 
 * Power BI 報表伺服器預覽版已正式運作
 * 可在內部發行 Power BI 報表
-  * 支援自訂視覺效果
+  * Power BI 視覺效果支援
   * **Analysis Services 即時連線**的支援必須等待更多資料來源。
   * Power BI 行動裝置應用程式已更新，以顯示 Power BI 報表伺服器裝載的 Power BI 報表
 * 增強報表中使用註解的共同作業

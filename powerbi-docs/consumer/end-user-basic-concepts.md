@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2c8a8356fe20136d0325efe51934a7db3d4b113e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496889"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377136"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI 服務取用者的基本概念
 
@@ -118,7 +118,7 @@ _______________________________________________________
 
 請參閱 [Power BI 包含的視覺效果完整清單](../power-bi-visualization-types-for-reports-and-q-and-a.md)。
 
-社群也會提供視覺效果，這些視覺效果稱為「自訂視覺效果」  。 如果您收到無法辨識具有視覺效果的報表時，它可能是自訂視覺效果。 如果您需要解譯自訂視覺效果方面的協助，請查閱報表或儀表板「設計者」  的名稱並連絡他們。
+社群也會提供視覺效果，這些視覺效果稱為「Power BI 視覺效果」  。 如果您收到無法辨識具有視覺效果的報表時，它可能是自訂視覺效果。 如果您需要解譯自訂視覺效果方面的協助，請查閱報表或儀表板「設計者」  的名稱並連絡他們。
 
 報表中的一個視覺效果...
 

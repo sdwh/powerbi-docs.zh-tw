@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 01/21/2019
-ms.openlocfilehash: 7665f0c8e3c909263f194a0fd54a54ed2a752c8c
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: e2cb11ea9be85916e6b5557e7933f6a6b5a7159a
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819092"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380586"
 ---
 # <a name="local-storage-api"></a>本機存放區 API
 
@@ -59,5 +59,5 @@ export class Visual implements IVisual {
 
 ## <a name="known-limitations-and-issues"></a>已知限制及問題
 
-預設不針對自訂視覺效果啟動本機存放區 API。 如果想要針對自己的自訂視覺效果啟動該 API，請將要求傳送給 Power BI 自訂視覺效果支援 (`pbicvsupport@microsoft.com`)。  
+根據預設，不會針對 Power BI 視覺效果啟動本機存放區 API。 如果想要針對自己的 Power BI 視覺效果啟動該 API，請將要求傳送給 Power BI 視覺效果支援 `pbicvsupport@microsoft.com`。  
 **請注意，您的視覺效果應該在 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) 中提供，且[經過認證](https://powerbi.microsoft.com/en-us/documentation/powerbi-custom-visuals-certified/)。**

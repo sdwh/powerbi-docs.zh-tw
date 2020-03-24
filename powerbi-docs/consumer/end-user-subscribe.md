@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 03/17/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 11e9bfb2c8dce526ad81395645165c2c7dd70a00
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114034"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525698"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>訂閱 Power BI 服務中的報表或儀表板 
 
@@ -65,7 +65,7 @@ ms.locfileid: "79114034"
 
 3. 如果一切看起來都沒有問題，請選取 [儲存並關閉]  來儲存訂用帳戶。 您會按照所設定的排程，收到儀表板或報表的電子郵件和快照集。 所有已將頻率設定為 [在資料重新整理後]  的訂用帳戶，只會在那一天第一次排程重新整理之後傳送一封電子郵件。
    
-   ![儀表板的電子郵件快照集](media/end-user-subscribe/power-bi-email.png)
+   ![儀表板的電子郵件快照集](media/end-user-subscribe/power-bi-email-old.png)
    
     重新整理報表頁面不會重新整理資料集。 只有資料集擁有者可以手動重新整理資料集。 若要查看底層資料集的擁有者名稱，請從功能表列選取下拉式清單，或查看原始訂閱電子郵件。
    
@@ -80,14 +80,14 @@ ms.locfileid: "79114034"
 如果 Pro 授權過期、擁有者刪除儀表板或報表，或是用來建立訂閱的使用者帳戶遭到刪除，則訂閱將會終止。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-* 若要避免訂閱電子郵件傳送到您的垃圾郵件資料夾，請將 Power Platform 電子郵件別名 (PowerPlat-noreply@microsoft.com) 新增至您的連絡人。 如果您使用的是 Microsoft Outlook，請在別名上按一下滑鼠右鍵，然後選取 [新增至 Outlook 連絡人]  。 
+* 若要避免訂閱電子郵件傳送到垃圾郵件資料夾，請將 Power BI 電子郵件別名 (no-reply-powerbi@microsoft.com) 新增至連絡人。 如果您使用的是 Microsoft Outlook，請在別名上按一下滑鼠右鍵，然後選取 [新增至 Outlook 連絡人]  。 
 * 傳送給使用者的訂閱電子郵件中，釘選磚超過 25 個，或是有四個以上釘選即時報表頁面的儀表板可能不會完整呈現。 我們建議您連絡儀表板設計人員，並請他們將釘選磚減少到 25 個以下，以及將釘選的即時報表減少到四個以下，以確保電子郵件會正確呈現。  
 * 針對儀表板電子郵件訂用帳戶，如果有任何圖格套用資料列層級安全性 (RLS)，則不會顯示這些圖格。  針對報表電子郵件訂用帳戶，如果資料集使用 RLS，則您無法建立訂用帳戶。
 * 如果您電子郵件中的 (內容) 連結停止運作，可能是內容已遭刪除。 在電子郵件的螢幕擷取畫面下方，您可以查看是否自我訂閱，或否有其他人訂閱您。 如果有其他人訂閱您，請要求同事取消電子郵件或重新訂閱您。
 * 報表頁面訂閱會繫結至報表頁面的名稱。 如果您訂閱報表頁面，而該頁面已重新命名，您就必須重新建立訂閱。
 * 如果您無法使用訂用帳戶功能，請連絡您的系統管理員。 您的組織可能已停用這項功能。  
-* 電子郵件訂閱不支援大部分[自訂視覺效果](../developer/power-bi-custom-visuals.md)。  例外是[經認證](../developer/power-bi-custom-visuals-certified.md)的自訂視覺效果。  
-* 電子郵件訂閱目前不支援 R 支援的自訂視覺效果。  
+* 電子郵件訂閱不支援大部分的 [Power BI 視覺效果](../developer/visuals/power-bi-custom-visuals.md)。  其中例外狀況是[經認證](../developer/visuals/power-bi-custom-visuals-certified.md)的 Power BI 視覺效果。  
+* 電子郵件訂閱目前不支援使用 R 的 Power BI 視覺效果。  
 * 尤其是儀表板訂閱，尚不支援某些類型的磚。  其中包括：資料流磚、影片磚、自訂 Web 內容磚。     
 * 由於電子郵件大小限制，儀表板或報表若含有非常大的影像，訂閱可能會失敗。    
 * 如果超過兩個月未瀏覽某些儀表板和報表，Power BI 會自動暫停重新整理與這些儀表板和報表建立關聯的資料集。  不過，如果您新增儀表板或報表的訂閱，即使有段時間未瀏覽也不會暫停。

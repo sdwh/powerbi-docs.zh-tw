@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cc5c40328955f54cb0f37567d7ff91d37a302ce
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 020967948e3f0551de50e4485be0dde450a4f18b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128241"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378677"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>在 Power BI 中使用 R 支援的 Power BI 視覺效果
 
@@ -129,7 +129,7 @@ Power BI 小組會在連絡您之前主動解決這些問題，下一版 Power B
 
    b.  從 R 主控台執行下列命令：
 
-       source(“C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R”)
+       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
 
    一般預設安裝位置如下所示：
 
@@ -149,7 +149,7 @@ Power BI 小組會在連絡您之前主動解決這些問題，下一版 Power B
 
 請看看下列有關 Power BI 中 R 的其他資訊。
 
-* [Power BI Power BI 視覺效果資源庫](https://app.powerbi.com/visuals/)
+* [Power BI 視覺效果資源庫](https://app.powerbi.com/visuals/)
 * [在 Power BI Desktop 中執行 R 指令碼](desktop-r-scripts.md)
 * [在 Power BI Desktop 中建立 R 視覺效果](desktop-r-visuals.md)
 * [在 Power BI 使用外部 R IDE](desktop-r-ide.md)

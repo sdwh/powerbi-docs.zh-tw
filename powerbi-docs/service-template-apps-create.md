@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041715"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436011"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>在 Power BI 中建立範本應用程式
 
@@ -30,7 +30,7 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
 - [Power BI Pro 授權](service-self-service-signup-for-power-bi.md)
 - [安裝 Power BI Desktop](desktop-get-the-desktop.md) (選用)
 - 熟悉 [Power BI 的基本概念](service-basic-concepts.md)
-- 公開共用範本應用程式的權限。 如需詳細資料，請參閱 Power BI [管理入口網站、範本應用程式設定](service-admin-portal.md#template-apps-settings)。
+- 公開共用範本應用程式的權限 (如需詳細資訊，請參閱 Power BI [管理入口網站、範本應用程式設定](service-admin-portal.md#template-apps-settings))
 
 ## <a name="create-the-template-workspace"></a>建立範本工作區
 
@@ -87,9 +87,9 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
 
     啟動 [新的瀏覽產生器]  ，您可以在其中定義應用程式的導覽窗格 (請參閱本文中的[設計瀏覽體驗](service-create-distribute-apps.md#design-the-navigation-experience)以取得詳細資料)。
 
-   ![設定應用程式登陸頁面](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+   ![設定應用程式登陸頁面](media/service-template-apps-create/power-bi-install-app-content.png)
     
-    **應用程式登陸頁面：** 如果您決定退出瀏覽產生器，您可以選擇選取應用程式登陸頁面。 定義要作為應用程式登陸頁面的報表或儀表板。 使用可提供正確印象的登陸頁面。
+    **應用程式登陸頁面：** 如果您決定退出瀏覽產生器，則可選擇選取應用程式登陸頁面。 定義要作為應用程式登陸頁面的報表或儀表板。 使用可提供正確印象的登陸頁面。
 
     **Control**
 
@@ -109,7 +109,7 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
     - **必要**：使用此項目要求安裝程式輸入使用者特定參數。
     - **鎖定**：鎖定功能可防止安裝程式更新參數。
 
-    **存取**：在測試階段中，決定您組織內哪些其他人員可以安裝並測試應用程式。 別擔心，您隨時可以返回，並於稍後變更這些設定 ([設定] 不會影響已散發範本應用程式的存取)。
+    **存取**：在測試階段中，決定您組織內哪些其他人員可以安裝並測試應用程式。 放心，您之後隨時可以回來變更這些設定。 此設定不會影響分散式範本應用程式的存取。
 
 2. 選取 [建立應用程式]  。
 

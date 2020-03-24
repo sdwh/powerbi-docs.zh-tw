@@ -3,19 +3,19 @@ title: 在 Power BI 報表中內嵌新的 Power App
 description: 內嵌使用相同資料來源並可像其他報表項目篩選的應用程式
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 02/03/2020
+ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 99869740eb20b14625e66ff50cb48b08e5cb3e15
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "77036668"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525928"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>教學課程：在 Power BI 報表中內嵌 Power Apps 視覺效果
 
@@ -106,4 +106,5 @@ ms.locfileid: "77036668"
 
 
 ## <a name="next-steps"></a>後續步驟
-[問與答視覺效果](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[問與答視覺效果](power-bi-visualization-types-for-reports-and-q-and-a.md)    
+[教學課程：在 Power BI 報表中內嵌 Power Apps 視覺效果](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)

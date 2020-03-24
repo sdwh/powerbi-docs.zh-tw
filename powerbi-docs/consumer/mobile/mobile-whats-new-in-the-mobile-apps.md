@@ -8,19 +8,22 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041537"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435965"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
 
 * [行動裝置應用程式的 Power BI 小組部落格](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop 的新功能](../../desktop-latest-update.md)  
-* [Power BI 服務的新功能](../../service-whats-new.md)  
+* [Power BI 服務的新功能](../../service-whats-new.md)
+
+>[!NOTE]
+>**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="february-2020"></a>2020 年 2 月
 
@@ -396,7 +399,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 
 #### <a name="improved-hyperlink-support"></a>改善的超連結支援
 
-您現在可以點選自訂視覺效果中的連結，以便在您的行動裝置瀏覽器中開啟它們。
+您現在可以點選 Power BI 視覺效果中的連結，以在行動裝置瀏覽器中開啟這些連結。
 
 #### <a name="intune-integration-android"></a>Intune 整合 (Android)
 
@@ -470,7 +473,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 #### <a name="all-devices"></a>所有裝置
 **手機報表的背景色彩** - 當您在 Power BI Desktop 中定義報表的背景色彩時，手機報表會有相同的背景色彩。 進一步了解[最佳化手機報表頁面](../../desktop-create-phone-report.md)。
 
-**開發適合行動裝置的自訂視覺效果** - 如需在行動裝置上建立好看又好用之自訂視覺效果的祕訣，請參閱此[開發人員指南](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)。
+**開發適合行動裝置的 Power BI 視覺效果** - 如需在行動裝置上建立好看又好用 Power BI 視覺效果的提示，請參閱此[開發人員指南](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) (英文)。
 
 #### <a name="ios-devices"></a>iOS 裝置
 **與資料對話︰語音發問** - 現在您可以用說的而非鍵入來[透過問與答詢問資料的相關問題](mobile-apps-ios-qna.md)。 

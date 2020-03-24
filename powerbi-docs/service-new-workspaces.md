@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 27ebe50030fbd06f65be5530ee2a2c0a7897f0f5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426556"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488721"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 中組織新工作區中的工作
 
@@ -54,7 +54,7 @@ Power BI 管理入口網站中[提供工作區清單](service-admin-portal.md#wo
 
 ## <a name="roles-in-the-new-workspaces"></a>新工作區中的角色
 
-若要授與新工作區的存取權，請將使用者群組或個人新增至其中一個工作區角色：檢視者、成員、參與者或系統管理員。 使用者群組中的每個人都會取得您已定義的角色。 如果個人在數個使用者群組中，他們會取得所指派角色提供的最高層級權限。
+若要授與新工作區的存取權，請將使用者群組或個人新增至其中一個工作區角色：系統管理員、成員、參與者或檢視者。 使用者群組中的每個人，都會取得已定義的角色。 如果個人在數個使用者群組中，他們會取得所指派角色提供的最高層級權限。
 
 角色可讓您管理誰可以在工作區中做什麼，因此小組可以共同作業。 新的工作區可讓您將角色指派給個人和使用者群組：安全性群組、Office 365 群組，以及通訊群組清單。 
 
@@ -70,11 +70,14 @@ Power BI 管理入口網站中[提供工作區清單](service-admin-portal.md#wo
 | 發佈和更新應用程式。 |  X | X  |   |   |
 | 共用項目或共用應用程式。<sup>1</sup> |  X | X  |   |   |
 | 允許其他人再次共用項目。<sup>1</sup> |  X | X  |   |   |
+| 在同事的首頁上精選應用程式 |  X | X  |   |   |
+| 在同事的首頁上精選儀表板和報表 |  X | X  | X |   |
 | 建立、編輯和刪除工作區中的內容。  |  X | X  | X  |   |
 | 將報表發佈至工作區、刪除內容。  |  X | X  | X  |   |
 | 根據此工作區中的資料集，在另一個工作區中建立報表。<sup>1</sup> |  X | X  | X  |   |
 | 複製報表。<sup>2</sup> | X | X | X |  |
 | 檢視項目並與其互動。<sup>3</sup> |  X | X  | X  | X  |
+| 讀取儲存在工作區資料流程中的資料 | X | X | X | X |
 
 1. 如果參與者和檢視者都有再次共用權限，即可在工作區中共用項目。
 2. 若要複製報表，並根據此工作區中的資料集在另一個工作區中建立報表，則必須符合其他條件：
@@ -140,7 +143,7 @@ Power BI 會稽核新工作區體驗工作區的下列活動。
 
 ## <a name="workspace-features-that-work-differently"></a>運作方式不同的工作區功能
 
-某些功能在新工作區的運作方式不同於目前工作區。 根據我們從客戶收到的意見反應，這些差異是刻意設計的，並會啟用更彈性方法，以便與工作區共同作業：
+某些功能在新工作區的運作方式不同於目前工作區。 根據從客戶收到的意見反應，這些差異是刻意設計的，並會啟用更彈性的方法來與工作區共同作業：
 
 - 授權強制執行：將報表發佈至新的工作區體驗會強制執行現有的授權規則，此規則需要在工作區中共同作業的使用者，或在 Power BI 服務中與其他人共用內容的使用者具有 Power BI Pro 授權。 如果使用者沒有 Pro 授權，即會看到錯誤：「只有具備 Power BI Pro 授權的使用者才能發佈至這個工作區」。
 - 成員可以或無法再次共用：取代為「參與者」角色

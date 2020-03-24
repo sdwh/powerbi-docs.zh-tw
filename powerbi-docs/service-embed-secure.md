@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78919800"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488813"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全入口網站或網站中內嵌報告
 
@@ -40,7 +40,7 @@ ms.locfileid: "78919800"
 
     ![內嵌報告](media/service-embed-secure/secure-embed-report.png)
 
-5. 使用 iFrame 時，您可能需要編輯**高度**和**寬度**，使其符合您入口網站中的網頁。
+5. 使用 iFrame 時，您可能需要編輯**高度**和**寬度**，使其符合入口網站中的網頁。
 
     ![設定高度與寬度](media/service-embed-secure/secure-embed-size.png)
 
@@ -81,7 +81,7 @@ ms.locfileid: "78919800"
 
 使用 **pageName** 與 [URL Filters](service-url-filters.md) 的組合功能強大。 您可以使用基本 HTML 與 JavaScript 來建置體驗。
 
-例如，以下是一個您可以新增至 HTML 頁面的按鈕：
+例如，以下是一個您可新增至 HTML 頁面的按鈕：
 
 ```html
 <button class="textLarge" onclick='show("ReportSection", "Energy");' style="display: inline-block;">Show Energy</button>
@@ -104,7 +104,7 @@ newUrl += "&$filter=Industries/Industry eq '" + filterValue + "'";
 
 }
 
-//Assumes there’s an iFrame on the page with id=”iFrame”
+//Assumes there's an iFrame on the page with id="iFrame"
 
 var report = document.getElementById("iFrame")
 
@@ -115,7 +115,7 @@ report.src = newUrl;
 
 ![篩選](media/service-embed-secure/secure-embed-filter.png)
 
-您可以視需要新增所要的按鈕數目，以建立不需要撰寫太多程式碼的自訂體驗。 
+您可視需要新增所要的按鈕數目，以建立不需要撰寫太多程式碼的自訂體驗。 
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
@@ -133,9 +133,9 @@ report.src = newUrl;
 
 * 不支援傳統 SharePoint Server，因為其需要早於 11 的 Internet Explorer 版本，或啟用相容性檢視模式。
 
-* 為獲得單一登入體驗，請使用[內嵌在 SharePoint Online 中](service-embed-report-spo.md)選項，或使用[使用者擁有資料](developer/embed-sample-for-your-organization.md)內嵌方法來建置自訂整合。 
+* 為獲得單一登入體驗，請使用[內嵌在 SharePoint Online 中](service-embed-report-spo.md)選項，或使用[使用者擁有資料](developer/embedded/embed-sample-for-your-organization.md)內嵌方法來建置自訂整合。 
 
-* 隨著 [內嵌]  選項提供的自動驗證功能無法搭配 Power BI JavaScript API 使用。 針對 Power BI JavaScript API，請使用[使用者擁有資料](developer/embed-sample-for-your-organization.md)內嵌方法。 
+* 隨著 [內嵌]  選項提供的自動驗證功能無法搭配 Power BI JavaScript API 使用。 針對 Power BI JavaScript API，請使用[使用者擁有資料](developer/embedded/embed-sample-for-your-organization.md)內嵌方法。 
 
 * 驗證權杖存留期會以您的 AAD 設定作為基礎進行控制。 驗證權杖過期時，使用者將需要重新整理瀏覽器來取得更新後的驗證權杖。 預設存留期是一個小時，但在您的組織中這段時間可以更短或是更長。
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79040100"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377228"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」  及其連線方式的高階概觀。
@@ -188,7 +188,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 ## <a name="n"></a>N
 
-**native (原生)** ：隨附於產品。 例如，Power BI 隨附一組「原生」  視覺效果類型。 但是，您也可以匯入其他類型 (像是自訂視覺效果)。
+**native (原生)** ：隨附於產品。 例如，Power BI 隨附一組「原生」  視覺效果類型。 但是，您也可以匯入其他類型 (例如 Power BI 視覺效果)。
 
 **navigation pane (導覽窗格)** 或 **nav pane (導覽窗格)** ：沿著 Power BI 服務左側邊緣的控制項。
 

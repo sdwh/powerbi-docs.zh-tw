@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 03/12/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537201"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205266"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI 的資料保護 (預覽)
 
@@ -23,7 +23,7 @@ ms.locfileid: "76537201"
 
 可以使用 Power BI 的資料保護執行下列作業：
 
-* 使用 Microsoft 的敏感度標籤，您可利用與分類及保護 Office 365 檔案相同的分類法來分類及標記 Power BI 服務中內容 (儀表板、報表、資料集和資料流程)。 
+* 使用 Microsoft 的敏感度標籤，以利用與分類及保護 Office 365 檔案相同的分類法來分類及標記 Power BI 服務中內容 (儀表板、報表、資料集和資料流程)。 
 
 * 套用內容的敏感度標籤和保護 (Excel、PowerPoint 和 PDF)，以在將 Power BI 服務中的資料匯出至檔案時，強制執行加密或浮水印等保護設定。 
 
@@ -105,9 +105,6 @@ ms.locfileid: "76537201"
 * Power BI 中套用的標籤不支援 [HYOK 保護](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)。
 * 必須滿足[授權需求](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)，以在 Office 應用程式中檢視與套用標籤。
 * 只有全域 (公用) 雲端中的租用戶，才能使用敏感度標籤。 其他雲端中的租用戶無法使用敏感度標籤。
-* [外部使用者 (Azure Active Directory B2B 來賓使用者)](../service-admin-azure-ad-b2b.md) 不支援敏感度標籤。 這表示外部使用者無法檢視標籤，且遭到封鎖而無法將資料匯出至 Excel、PDF 和 PPTX 檔案。 [移除標籤](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels)可讓外部使用者將資料匯出至這些檔案類型。
-
-
 
 ## <a name="next-steps"></a>後續步驟
 

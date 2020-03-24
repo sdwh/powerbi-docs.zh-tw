@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881328"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376745"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>在 Power BI 中共用成品的方式
 
@@ -23,10 +23,12 @@ ms.locfileid: "73881328"
 * 與同事共同作業，以在「工作區」  中建立有意義的報表和儀表板。
 * 將這些儀表板和報告結合為「應用程式」  ，並將它們散發給較大群組或您的整個組織。
 * 建立「共用資料集」  ，可讓同事在其工作區中用作為報表的基礎。
-* 建立可讓您透過 Microsoft AppSource 散發給外部 Power BI 使用者的「範本應用程式」  。
 * 從服務或 Power BI 行動裝置應用程式，與一些人員共用儀表板或報表。
+* 從 Power BI 行動裝置應用程式標註並共用。
+* 在 Microsoft Teams 中內嵌報表。
 * 列印報表。
 * 在安全的入口網站或公用網站中「內嵌」  報表。
+* 建立可讓您透過 Microsoft AppSource 散發給外部 Power BI 使用者的「範本應用程式」  。
 
 無論您選擇哪個選項，都必須具有 [Power BI Pro 授權](service-features-license-type.md)，或內容必須位於[進階容量](service-premium-what-is.md)中，才能共用您的內容。 根據您選擇的選項，檢視您內容的同事會有不同授權需求。 下列各節組說明詳細資料。 
 
@@ -97,6 +99,10 @@ Power BI 具有新的工作區體驗。 讀取[建立新的工作區](service-cr
 深入了解從 iOS 和 Android 的行動應用程式[標註並共用磚、報表和視覺效果](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
 
 您也可以從 Windows 10 裝置的 Power BI 應用程式[共用磚的快照集](consumer/mobile/mobile-windows-10-phone-app-get-started.md)。
+
+## <a name="embed-a-report-in-microsoft-teams"></a>在 Microsoft Teams 中內嵌報表
+
+藉由在 Microsoft Teams 中內嵌 Power BI 報表和 Power BI 編頁報表，即可增加組織中以資料導向的共同作業。 您可為每個個別報表新增不同的 Power BI 索引標籤，並為每個索引標籤提供報表的名稱或任何其他名稱。 同事可以在 Teams 的 Power BI 索引標籤上檢視報表。 他們也可以開啟 [交談] 視窗，並直接在 Teams 中對報表加上註解。 深入了解[在 Microsoft Teams 中內嵌報表](service-embed-report-microsoft-teams.md)。
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>列印或儲存為 PDF 或其他靜態檔案
 

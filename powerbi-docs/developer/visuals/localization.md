@@ -7,16 +7,16 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: ad63a1b97c744e8614e584874c4d896a85598e48
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819115"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379819"
 ---
-# <a name="add-the-locale-in-power-bi-for-custom-visuals"></a>在 Power BI 中為自訂視覺效果新增地區設定
+# <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>在 Power BI 中為 Power BI 視覺效果新增地區設定
 
 視覺效果可以擷取 Power BI 地區設定，用來將其內容當地語系化為相關語言。
 
@@ -24,7 +24,7 @@ ms.locfileid: "76819115"
 
 例如，在範例橫條圖視覺效果中取得地區設定。
 
-![範例橫條圖視覺效果中的當地語系化](media/locale-in-samplebarchart.png)
+![範例橫條圖視覺效果中的當地語系化](media/localization/locale-in-samplebarchart.png)
 
 這些橫條圖每一個都是以不同的地區設定 (英文、巴斯克文和印度文) 建立，並顯示在工具提示中。
 
@@ -95,13 +95,13 @@ zh-TW | 中國 (繁體中文)
 > [!NOTE]
 > 在 PowerBI Desktop 中，地區設定屬性會包含已安裝的 PowerBI Desktop 語言。
 
-## <a name="localizing-the-property-pane-for-custom-visuals"></a>將自訂視覺效果的屬性窗格當地語系化
+## <a name="localizing-the-property-pane-for-power-bi-visuals"></a>將 Power BI 視覺效果的屬性窗格當地語系化
 
 屬性窗格中的欄位可以進行當地語系化，以提供更多整合且一致的體驗。 這可讓自訂視覺效果的運作方式與其他 Power BI 核心視覺效果一樣。
 
 例如，使用 `pbiviz new` 命令建立的非當地語系化自訂視覺效果，將會在屬性窗格中顯示下列欄位：
 
-![屬性窗格中的當地語系化](media/property-pane.png)
+![屬性窗格中的當地語系化](media/localization/property-pane.png)
 
 類別資料和量值資料都會在 capabilities.json 檔案中定義為 `displayName`。
 
@@ -132,7 +132,7 @@ zh-TW | 中國 (繁體中文)
 
 在我們的範例中，假設要支援阿拉伯文和希伯來文。 我們需要以下列方式新增兩個 JSON 檔案：
 
-![將字串資源資料夾中的字串當地語系化](media/stringresources-files.png)
+![將字串資源資料夾中的字串當地語系化](media/localization/stringresources-files.png)
 
 每個 JSON 檔案都會定義單一地區設定 (此檔案必須是上述支援清單的其中一個地區設定)，並包含所需顯示名稱索引鍵的字串值。 在我們的範例中，希伯來文字串資源檔會如下所示：
 
@@ -161,15 +161,15 @@ zh-TW | 中國 (繁體中文)
 
 如果您在服務中使用網頁用戶端 (瀏覽器)，則請在 [設定] 中變更語言：
 
-![Web 服務中的當地語系化](media/webservice-settings.png)
+![Web 服務中的當地語系化](media/localization/webservice-settings.png)
 
 ## <a name="resource-file"></a>資源檔
 
-將 resources.resjson 檔案新增至以要在 stringResources 資料夾內使用的地區設定命名的資料夾中。 在我們的範例中是 en-US 和 ru-RU。
+將 resources.resjson 檔案新增至以要在 stringResources 資料夾內使用的地區設定所命名資料夾中。 在我們的範例中是 en-US 和 ru-RU。
 
-![新的 resjson 檔案](media/new-resjson.png)
+![新的 resjson 檔案](media/localization/new-resjson.png)
 
-之後，將要使用的所有當地語系化字串新增至您在上一個步驟中新增的 resources.resjson 檔案。
+之後，將要使用的所有當地語系化字串，新增至在上一個步驟中新增的 resources.resjson 檔案。
 
 ```json
 {
@@ -195,7 +195,7 @@ zh-TW | 中國 (繁體中文)
 }
 ```
 
-新的 localizationManager 執行個體會在視覺效果程式碼中建立 localizationManager 的執行個體，如下所示
+新 localizationManager 執行個體會在視覺效果程式碼中建立 localizationManager 的執行個體，如下所示
 
 ```typescript
 private localizationManager: ILocalizationManager;

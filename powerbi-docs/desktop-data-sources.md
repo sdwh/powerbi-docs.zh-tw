@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2020
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427545"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207244"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 
@@ -90,7 +90,8 @@ ms.locfileid: "77427545"
 * Snowflake
 * Essbase
 * AtScale Cube
-* BI Connector Data Virtuality LDW (搶鮮版 (Beta))
+* BI 連接器 
+* Data Virtuality LDW (搶鮮版 (Beta))
 * Denodo
 * Dremio
 * Exasol
@@ -124,9 +125,10 @@ ms.locfileid: "77427545"
 
 [Azure]  類別提供下列資料連線：
 
-* Azure SQL 資料庫
+* Azure SQL Database
 * Azure SQL 資料倉儲
 * Azure Analysis Services 資料庫
+* 適用於 PostgreSQL 的 Azure 資料庫
 * Azure Blob 儲存體
 * Azure 表格儲存體
 * Azure Cosmos DB
@@ -154,8 +156,8 @@ ms.locfileid: "77427545"
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (內部部署)
 * Microsoft Azure 使用量見解 (搶鮮版 (Beta))
-* Azure DevOps (Beta)
-* Azure DevOps Server (Beta)
+* Azure DevOps (僅限 Boards)
+* Azure DevOps Server (僅限 Boards)
 * Salesforce 物件
 * Salesforce 報表
 * Google Analytics
@@ -164,8 +166,7 @@ ms.locfileid: "77427545"
 * Data.World - 取得資料集 (搶鮮版 (Beta))
 * GitHub (Beta)
 * LinkedIn Sales Navigator (搶鮮版 (Beta))
-* MailChimp (搶鮮版 (Beta))
-* Merketo (Beta)
+* Merketo (搶鮮版 (Beta))
 * Mixpanel (搶鮮版 (Beta))
 * Planview Enterprise One - PRM (搶鮮版 (Beta))
 * Planview Projectplace (搶鮮版 (Beta))
@@ -178,6 +179,7 @@ ms.locfileid: "77427545"
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (搶鮮版 (Beta))
+* Asana (搶鮮版 (Beta))
 * Dynamics 365 Customer Insights (搶鮮版 (Beta))
 * Emigo 資料來源
 * Entersoft 商務套件 (搶鮮版 (Beta))
@@ -205,6 +207,7 @@ ms.locfileid: "77427545"
 * Microsoft Exchange
 * Hadoop 檔案 (HDFS)
 * Spark
+* Hive LLAP (搶鮮版 (Beta))
 * R 指令碼
 * Python 指令碼
 * ODBC
@@ -220,6 +223,7 @@ ms.locfileid: "77427545"
 * Siteimprove (搶鮮版 (Beta))
 * SurveyMonkey 搶鮮版 (Beta)
 * Tenforce (Smart)List (搶鮮版 (Beta))
+* TIBCO(R) Data Virtualization (搶鮮版 (Beta))
 * Vena (搶鮮版 (Beta))
 * Workforce Dimensions (搶鮮版 (Beta))
 * Zucchetti HR Infinity (搶鮮版 (Beta))

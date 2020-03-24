@@ -10,11 +10,11 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d6a36f8ef3ef5d668fe8d6021758b651cdbf7fd5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877808"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206761"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中將資料成形及合併
 
@@ -107,7 +107,7 @@ Power BI Desktop 中的查詢編輯器經常會用到快顯功能表，以及 [�
 1. 以滑鼠右鍵按一下步驟。 查詢編輯器會提供一個功能表，讓您執行下列工作： 
    - **重新命名**；重新命名步驟。
    - **刪除**：刪除步驟。
-   - **刪除到結尾**  ：移除目前步驟和所有後續步驟。
+   - **刪除** **到結尾**：移除目前步驟和所有後續步驟。
    - **上移**：在清單中向上移動步驟。
    - **下移**：在清單中向下移動步驟。
 

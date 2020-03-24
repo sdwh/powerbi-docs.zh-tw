@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/18/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538102"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435758"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -21,6 +21,9 @@ ms.locfileid: "76538102"
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android 手機](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Android 平板電腦](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Windows 10 裝置](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
 |:---: |:---: |:---: |:---: |:---: |
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
+
+>[!NOTE]
+>**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Power BI 報表是資料的互動式檢視，以視覺效果顯示資料的各種發現與見解。 在 Power BI 行動裝置應用程式中檢視報表是三步驟程序中的第三個步驟：
 
@@ -59,6 +62,14 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 如果您想要的話，也可以切換為點兩下互動。 藉由點兩下互動，您可以先點選視覺效果以將其選取，然後再次點選視覺效果以執行您想要的動作。
 
 若要切換為點兩下互動，或切換回點一下互動，請移至[應用程式互動設定](./mobile-app-interaction-settings.md)。
+
+### <a name="single-select-versus-multi-select-mode-for-data-point-selection"></a>資料點選取單一選取與多重選取模式的比較
+
+在報表中，您可以點選資料點加以選取。 您可以選擇要使用單一選取或多重選取模式。 在單一選取模式中，當您點選資料點加以選取時，該選取範圍會取代您先前所做的任何選取範圍。 在多重選取模式中，當您點選資料點加以選取時，您的選取範圍會「新增」  至您目前擁有的任何選取範圍，而且所有選取範圍的合併結果會在所有報表的視覺效果中反白顯示。
+
+若要取消選取所選的資料點，只要重新點選即可。
+
+若要在單一選取與多重選取模式之間切換，請移至[應用程式互動設定](./mobile-app-interaction-settings.md)。
 
 ### <a name="using-tap-and-long-tap"></a>使用點選和長按
 點選等同於按一下滑鼠。 因此，如果您想要根據資料點來交叉醒目提示報表，請點選該資料點。

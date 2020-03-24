@@ -11,11 +11,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877480"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207589"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>編輯或移除儀表板磚
 
@@ -38,7 +38,7 @@ ms.locfileid: "73877480"
   > 若要變更磚本身顯示的視覺效果，請刪除磚再新增新的[儀表板磚](consumer/end-user-tiles.md)。
 
   
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 若要跟著做，請開啟 Power BI 服務 (不是 Power BI Desktop) 並[下載 IT 費用分析範例](sample-it-spend.md)。 出現「成功」訊息時，請選取 [移至儀表板] 
 
 - - -

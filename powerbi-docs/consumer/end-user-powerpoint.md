@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4194afb71dec7b50d75def0677489d3ff009917e
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: f9e0288c91f65d10329aaac29df8eb6e7a81f297
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113751"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377149"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>從 Power BI 將報表匯出至 PowerPoint
 
@@ -78,7 +78,7 @@ ms.locfileid: "79113751"
 當您使用 [匯出至 PowerPoint]  功能時，需牢記幾項考量與限制。
 
 * 目前不支援 R 視覺效果與 Python 視覺效果。 任何這類的視覺效果都會作為空白影像匯出至 PowerPoint，並顯示一個錯誤訊息，指出目前並不支援該視覺效果。
-* 目前支援經認證的自訂視覺效果。 如需認證自訂視覺效果 (包括如何使自訂視覺效果獲得認證) 的詳細資訊，請參閱[讓自訂視覺效果獲得認證](../developer/power-bi-custom-visuals-certified.md)。 不支援未經認證的自訂視覺效果。 它們會作為空白影像匯出至 PowerPoint，並顯示一個錯誤訊息，指出目前並不支援該視覺效果。
+* 目前支援經認證的 Power BI 視覺效果。 如需認證自訂視覺效果 (包括如何使自訂視覺效果獲得認證) 的詳細資訊，請參閱[讓自訂視覺效果獲得認證](../developer/power-bi-custom-visuals-certified.md)。 不支援未經認證的自訂視覺效果。 它們會作為空白影像匯出至 PowerPoint，並顯示一個錯誤訊息，指出目前並不支援該視覺效果。
 * 不支援 ESRI 視覺效果
 * 目前無法匯出超過 30 頁的報表。
 * 具有捲軸的視覺效果會以其預設狀態匯出。 PowerPoint 中的視覺效果只會顯示資料的上半部。 無法在 PowerPoint 中捲動，因為每個投影片都是影像。 

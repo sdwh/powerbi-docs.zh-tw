@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 5208c72016a148f86a119bdddd2bbd1f69d3456b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74831120"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381023"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
@@ -95,10 +95,10 @@ ms.locfileid: "74831120"
 * 針對報表電子郵件訂閱，如果資料集使用 RLS，您可以為自己建立訂閱。 您無法將其他人訂閱到套用資料列層級安全性 (RLS) 的報表，除非您使用的是編頁報表，因為編頁報表可讓您使用安全性內容來傳送訂閱給其他人。 
 * 報表頁面訂閱會繫結至報表頁面的名稱。 如果您訂閱報表頁面，然後將它重新命名，您必須重新建立訂用帳戶。
 * 您的組織可能會在 Azure Active Directory 進行某些設定，而這可能會限制在 Power BI 中使用電子郵件訂閱的功能。  這些限制包括但不限於存取資源時的多重要素驗證或 IP 範圍限制。
-* 目前，在訂閱您之外的其他人時，不支援使用即時連線資料集的報表/儀表板電子郵件訂閱，除非您使用的是編頁報表，因為編頁報表可讓您使用安全性內容來傳送訂閱給其他人。 
-* 電子郵件訂用帳戶不支援大部分[自訂視覺效果](developer/power-bi-custom-visuals.md)。  其中一個例外是[「已認證」](developer/power-bi-custom-visuals-certified.md)的自訂視覺效果。  
-* 電子郵件訂用帳戶目前不支援 R 支援的自訂視覺效果。  
-* 電子郵件訂閱傳送時會使用報表的預設篩選器和交叉分析篩選器狀態。 在訂閱之後對預設值所做的所有變更，均不會顯示在電子郵件中。  編頁報表支援此功能，且可讓您針對每個訂閱設定特定參數值。   
+* 目前，在訂閱您之外的其他人時，不支援使用即時連線資料集的報表/儀表板電子郵件訂閱，除非您使用的是編頁報表，因為編頁報表可讓您使用安全性內容來傳送訂閱給其他人。
+* 電子郵件訂用帳戶不支援大部分 [Power BI 視覺效果](developer/visuals/power-bi-custom-visuals.md)。  其中一個例外狀況是[已認證](developer/visuals/power-bi-custom-visuals-certified.md)的 Power BI 視覺效果。  
+* 電子郵件訂用帳戶目前不支援 R 支援的 Power BI 視覺效果。  
+* 電子郵件訂閱傳送時會使用報表的預設篩選器和交叉分析篩選器狀態。 在訂閱之後對預設值所做的所有變更，均不會顯示在電子郵件中。  編頁報表支援此功能，且可讓您針對每個訂閱設定特定參數值。
 * 特別是針對儀表板訂閱，尚不支援某些磚類型。  其中包括：資料流磚、影片磚、自訂 Web 內容磚。     
 * 若您與租用戶外部的同事共用儀表板，您無法一併替該位同事建立訂閱。 因此，如果您是 aaron@xyz.com，則可與 anyone@ABC.com 共用，但尚無法為 anyone@ABC.com 訂閱，而他們也無法訂閱共用的內容。      
 * 如果超過兩個月未瀏覽某些儀表板和報表，Power BI 會自動暫停重新整理與這些儀表板和報表建立關聯的資料集。  不過，如果您新增儀表板或報表的訂閱，即使有段時間未瀏覽也不會暫停。    

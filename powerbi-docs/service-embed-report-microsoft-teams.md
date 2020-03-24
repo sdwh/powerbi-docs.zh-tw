@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 01/31/2020
-ms.openlocfilehash: fb4846a777dda4787e1ed0be7de869367a616ea5
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.date: 03/12/2020
+ms.openlocfilehash: fe8b5ed0e3cdf0003986ffe6eab18e97e83f3dec
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530479"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381188"
 ---
 # <a name="embed-report-with-the-power-bi-tab-for-microsoft-teams"></a>使用 Microsoft Teams 的 Power BI 索引標籤內嵌報表
 
@@ -68,6 +68,18 @@ ms.locfileid: "77530479"
 > 請務必檢閱可以看到 Power BI 服務內報表的成員，並將存取權授與未列出的成員。
 
 確保小組中所有人皆具備您所內嵌報表存取權限的一種方式是將所有人放置在 Power BI 中單一工作區內，並針對小組提供 Office 365 群組的工作區存取權。
+
+## <a name="start-a-conversation"></a>開始交談
+
+當將 Power BI 報表索引標籤新增至 Teams 時，Teams 會自動將索引標籤交談與報表一起建立。 
+
+- 選取右上角的 [顯示索引標籤交談]  。
+
+    ![顯示索引標籤交談圖示](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
+
+    第一個註解是報表的連結。 該 Teams 頻道中的每個人都可以在交談中查看及討論報表。
+
+    ![索引標籤交談](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-tab.png)
 
 ## <a name="known-issues-and-limitations"></a>已知的問題及限制
 

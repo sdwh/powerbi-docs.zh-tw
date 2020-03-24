@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 07ddf82b120e0e4b77b7545863b536282f849de3
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114436"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435781"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>從 Power BI 行動裝置應用程式共用儀表板或報表
 適用於︰
@@ -21,6 +21,9 @@ ms.locfileid: "79114436"
 | ![iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![Android 手機](./media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Android 平板電腦](./media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
+
+>[!NOTE]
+>**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 只要有 [Power BI Pro 授權](../../service-features-license-type.md)，您就可以從 Power BI 行動裝置應用程式共用連結，以邀請其他人檢視您的儀表板和報表。 您可以與任何人共用，不論對方是否在組織內，有無公司郵件帳戶都可以。 他們也必須具有 Power BI Pro 授權，否則內容便必須位於 [Premium 容量](../../service-premium-what-is.md)中。
 

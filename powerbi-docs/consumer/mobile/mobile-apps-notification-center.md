@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: d37e9530b56d577ae4f4a32780a46ba00ede8107
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 23291659a12bb08becf0d9a4f57a41a93eadbc5e
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114809"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435574"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>取得 Power BI 行動裝置應用程式中的通知
 適用於︰
@@ -21,6 +21,9 @@ ms.locfileid: "79114809"
 | ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Android 手機](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Android 平板電腦](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
+
+>[!NOTE]
+>**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 系統會將 Power BI 體驗的相關資訊，以通知形式傳送到 Power BI 服務或您的行動裝置中。 開啟 [通知] 時，您會看到下列項目的相關訊息摘要循序排列：[您設定的警示](mobile-set-data-alerts-in-the-mobile-apps.md)、與您共用的新儀表板、群組工作區的變更、Power BI 事件及會議的相關資訊等等。
 

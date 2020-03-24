@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 0f29b70a42375be945d206672116219b7d5a3b48
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609987"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378861"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Power BI 最佳化指南
 
@@ -69,7 +69,7 @@ Power BI 視覺效果可以是儀表板、Power BI 報表，或 Power BI 編頁�
 
 #### <a name="evaluate-custom-visual-performance"></a>評估自訂視覺效果效能
 
-請務必以其步調放入每個自訂視覺效果，以確保高效能。 最佳化不佳的自訂視覺效果可能會對整個報表的效能造成負面影響。
+請務必以其步調放入每個自訂視覺效果，以確保高效能。 最佳化不佳的 Power BI 視覺效果可能會對整個報表效能造成負面影響。
 
 ### <a name="power-bi-paginated-reports"></a>Power BI 編頁報表
 

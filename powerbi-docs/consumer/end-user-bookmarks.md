@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 7d1e355f2c28679f5c2101d250a9fc2d5c99a2bd
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496661"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205634"
 ---
 # <a name="what-are-bookmarks"></a>什麼是書籤？
 
@@ -157,7 +157,7 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 ## <a name="limitations-and-considerations"></a>限制與考量
 在本版的**書籤**中，有幾點限制和考量要留意。
 
-* 大部分的自訂視覺效果都可以和書籤搭配使用。 如果您在使用書籤和自訂視覺效果時遇到問題，請連絡該自訂視覺效果的建立者，並請他們將書籤的支援新增到其視覺效果。 
+* 大部分的 Power BI 視覺效果都可以和書籤搭配使用。 如果在使用書籤和 Power BI 視覺效果時遇到問題，請連絡該 Power BI 視覺效果的建立者，並請他們將書籤的支援新增到其視覺效果。
 * 如果您在建立書籤之後將視覺效果新增至報表頁面，視覺效果就會以其預設狀態顯示。 換句話說，如果您在先前建立書籤的頁面中引進交叉分析篩選器，交叉分析篩選器就會以其預設狀態運作。
 * 一般來說，如果報表「設計師」  更新或重新發佈報表，您的書籤不會受到影響。 不過，如果設計師對報表進行重大變更 (例如移除書籤所使用的欄位)，則您下次嘗試開啟該書籤時，將會收到錯誤訊息。 
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b7a45309c3bfad27cc3b26990ee148a9e44b8998
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75927106"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488675"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 計量應用程式
 
@@ -42,13 +42,13 @@ ms.locfileid: "75927106"
 
 ## <a name="the-active-memory-metric"></a>作用中記憶體計量
 
-**使用中記憶體**計量是「容量規劃」  類別的一部分，這是一個良好的健康情況指示器，可評估使用量的容量資源耗用量，因此您可以視需要調整容量以規劃容量規模。 
+**使用中記憶體**計量是「容量規劃」  類別的一部分，這是一個良好的健全狀況指示器，可評估使用量的容量資源耗用量，因此可視需要調整容量以規劃容量規模。 
 
 ![作用中記憶體 KPI](media/service-premium-metrics-app/premium-metrics-app-02.png)
 
 **作用中記憶體**是用來處理目前作用中資料集的記憶體，因此在需要記憶體時不會將其收回。 作用中記憶體計量會指出您的容量是否足以處理額外的負載，或目前是否已接近或已超過容量的負載能力。 目前正耗用的作用中記憶體代表可支援額外重新整理與查詢作業的記憶體容量會較小。 
 
-**作用中記憶體** KPI 可測量容量的作用中記憶體超過 70% 閾值 50 次的次數 (標記設定為過去七天的 30%)，這可以指出容量是否正接近可能會讓使用者開始感受到查詢效能出現問題的時間點。
+**作用中記憶體** KPI 可測量容量其作用中記憶體超過 70% 閾值 50 次的次數 (標記設定為過去七天的 30%)，這可以指出容量是否正接近可能會讓使用者開始感受到查詢效能出現問題的時間點。
 
 此節中顯示的量測計視覺效果會顯示自上次重新整理報表時算起的過去七天內，容量已超過 70% 閾值 4 次，並依每小時的貯體區隔。 量測計的最大值 168，代表過去七天小時數 (以小時為單位)。
 
@@ -138,7 +138,7 @@ ms.locfileid: "75927106"
 
 ## <a name="the-query-waits-metric"></a>查詢等候計量
 
-[查詢]  類別會指出使用者是否可能看到回應速度緩慢，或可能會變成沒有回應的報表視覺效果。 **查詢等候**是查詢作業從觸發到開始執行之間所需的時間。 此 KPI 會測量佔所選容量 25% 或更多的查詢，是否等候 100 毫秒或更長的時間才會執行。 當沒有足夠的可用 CPU 來執行所有擱置中的查詢時，就會發生查詢等候情況。 
+[查詢]  類別會指出使用者是否可能看到回應速度緩慢，或可能會變成沒有回應的報表視覺效果。 **查詢等候**是查詢作業從觸發到開始執行之間所需的時間。 此 KPI 會測量佔所選容量 25% 或更多的查詢是否等候 100 毫秒或更長時間才會執行。 當沒有足夠的可用 CPU 來執行所有擱置中的查詢時，就會發生查詢等候情況。 
 
 ![查詢等候量測計](media/service-premium-metrics-app/premium-metrics-app-09.png)
 
@@ -262,7 +262,7 @@ ms.locfileid: "75927106"
 
 若要診斷案例 1，請先判斷節流是否是因為記憶體不足所致。 判斷步驟如下所示。
 
-1.  從**資料表 A**按一下您想進一步了解的資料集來將它選取： 
+1.    從**資料表 A**按一下您想進一步了解的資料集來將它選取： 
 
     ![資料表 A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -305,7 +305,7 @@ ms.locfileid: "75927106"
 
 若要診斷第 2 個案例，請先判斷是否是因為同時執行的重新整理數達到上限而發生節流。 判斷步驟如下所示。
 
-1.  從**資料表 A**按一下您想進一步了解的資料集來將它選取： 
+1.    從**資料表 A**按一下您想進一步了解的資料集來將它選取： 
 
     ![資料表 A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -341,6 +341,6 @@ ms.locfileid: "75927106"
 * [Microsoft Power BI Premium 白皮書](https://aka.ms/pbipremiumwhitepaper)
 * [Planning a Power BI Enterprise Deployment (規劃 Power BI 企業部署) 技術白皮書](https://aka.ms/pbienterprisedeploy)
 * [Pro 延長試用版啟用](service-extended-pro-trial.md)
-* [Power BI Embedded 常見問題集](developer/embedded-faq.md)
+* [Power BI Embedded 常見問題集](developer/embedded/embedded-faq.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

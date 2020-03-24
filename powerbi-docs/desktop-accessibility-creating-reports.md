@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae13bc69d7049dc9cf5c9d71ce0961ec566252bf
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925680"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379091"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>針對協助工具設計 Power BI 報表
 您可以設計和建立具視覺吸引力的報表，同時針對協助工具進行設計。 建置報表時，無論您的對象為何都建議盡可能地將報表建置為可供更多人使用，而無須針對某種特殊設計進行調整。
@@ -55,7 +55,7 @@ Power BI 的產品中內建了協助工具功能，無須報表作者進行任�
 
 ### <a name="keyboard-navigation"></a>鍵盤導覽
 
-身為報表作者，您無須擔心您的取用者是否可以使用他們的鍵盤來巡覽報表。 Power BI 視覺效果全部都可以使用鍵盤進行巡覽，且您的報表取用者可以逐步檢視視覺效果中的資料點、在頁面索引標籤間切換，以及存取互動功能 (包括交叉醒目提示、篩選和切割)。
+身為報表作者，您無須擔心取用者是否可以使用其鍵盤來瀏覽報表。 Power BI 視覺效果全部都可以使用鍵盤進行巡覽，且您的報表取用者可以逐步檢視視覺效果中的資料點、在頁面索引標籤間切換，以及存取互動功能 (包括交叉醒目提示、篩選和切割)。
 
 報表取用者巡覽報表時，會顯示焦點指出使用者在報表中的位置。 取決於正在使用的瀏覽器，焦點模式可能會以不同方式顯示。
 
@@ -104,11 +104,11 @@ Power BI 的產品中內建了需要報表作者進行設定的協助工具功�
 
 ![替代文字文字方塊](media/desktop-accessibility/accessibility-creating-reports-05.png)
 
-替代文字應包含您希望報表取用者從視覺效果擷取的見解相關資訊。 由於螢幕助讀程式會讀出視覺效果的標題和類型，因此您只需要填入描述。 下列視覺效果的替代文字範例可以是：「根據所銷售產品的色彩，並以產品類別進一步細分的淨使用者滿意度。」 
+替代文字應包含您希望報表取用者從視覺效果擷取的見解資訊。 由於螢幕助讀程式會讀出視覺效果的標題和類型，因此您只需要填入描述。 下列視覺效果的替代文字範例可以是：「根據所銷售產品的色彩，並以產品類別進一步細分的淨使用者滿意度。」 
 
 ![使用描述性的替代文字](media/desktop-accessibility/accessibility-creating-reports-06.png)
 
-請注意，呼叫見解或特定資料點可能不是最適合放入靜態替代文字中的項目，因為 Power BI 中資料是動態的。 若您想要使用動態替代文字，請參閱描述替代文字條件式格式設定的下一節。
+請注意，呼叫見解或特定資料點可能不是最適合放入靜態替代文字中的項目，因為 Power BI 中資料是動態的。 若您想要使用動態替代文字，請參閱下一區段中描述的替代文字條件式格式設定。
 
 ### <a name="conditional-formatting-for-alt-text"></a>替代文字的條件式格式設定
 
@@ -123,7 +123,7 @@ Power BI 的產品中內建了需要報表作者進行設定的協助工具功�
 
 ![顯示 [選取] 窗格的 [檢視] 功能表](media/desktop-accessibility/accessibility-creating-reports-08.png)
 
-在 [選取窗格]  中，選取 [定位順序]  會顯示您報表目前的定位順序。 您可以選取物件，然後使用向上和向下鍵按鈕來在階層中移動物件，或您可以使用滑鼠來選取物件，並將該物件拖曳到清單中您想要的位置。 按一下物件旁邊的數字，即可在定位順序中隱藏物件。
+在 [選取窗格]  中，選取 [定位順序]  會顯示您報表目前的定位順序。 您可以選取物件，然後使用向上和向下鍵按鈕來在階層中移動物件，或可使用滑鼠來選取物件，並將該物件拖曳到清單中所要的位置。 按一下物件旁邊的數字，即可在定位順序中隱藏物件。
 
 ![[選取] 窗格中的定位順序](media/desktop-accessibility/accessibility-creating-reports-09.png)
 
@@ -140,7 +140,7 @@ Power BI 的產品中內建了需要報表作者進行設定的協助工具功�
 
 ![上方或下方的資料標籤](media/desktop-accessibility/accessibility-creating-reports-12.png)
 
-將資料標籤放置在系列的上方或下方可帶來幫助，特別是當您正在使用包含複數線條的折線圖時。 在進行一些調整後，資料標籤現在看起來好多了。
+將資料標籤放置在系列的上方或下方可帶來幫助，特別是當正在使用包含複數線條的折線圖時。 在進行一些調整後，資料標籤現在看起來好多了。
 
 ![調整後的資料標籤，現在更為清晰](media/desktop-accessibility/accessibility-creating-reports-13.png)
 
@@ -162,12 +162,12 @@ Power BI 的產品中內建了需要報表作者進行設定的協助工具功�
 
 ![在套用資料標籤時細心思考](media/desktop-accessibility/accessibility-creating-reports-16.png)
 
-若您不確定視覺效果或報表是否過於雜亂，請執行 [squint test](https://chrome.google.com/webstore/detail/the-squint-test/gppnipfbappicilfniaimcnagbpfflpg) (斜視測試) 來進行測試。  若您的眼睛相較於資料點更容易受到資料標籤吸引，請關閉您的資料標籤。
+若不確定視覺效果或報表是否過於雜亂，請執行 [Squint Test](https://chrome.google.com/webstore/detail/the-squint-test/gppnipfbappicilfniaimcnagbpfflpg) (斜視測試) 來進行測試。  若您的眼睛相較於資料點更容易受到資料標籤吸引，請關閉您的資料標籤。
 
 
 ### <a name="themes-contrast-and-colorblind-friendly-colors"></a>佈景主題、對比和方便色盲人士使用的色彩
 
-建議您確保報表在文字與任何背景色彩之間有足夠的對比。 WCAG 2.1 成功準則 1.4.3 描述文字和背景色彩應具備至少 4.5:1 的對比比例。 有數種工具，例如 [Color Contrast Analyzer](https://developer.paciellogroup.com/resources/contrastanalyser/) (色彩對比分析器)、[WebAIM](https://webaim.org/resources/contrastchecker/) 和 [Accessible Colors](https://accessible-colors.com/) (可存取色彩) 可讓您用來檢查報表的色彩。
+建議您確保報表在文字與任何背景色彩之間有足夠的對比。 WCAG 2.1 成功準則 1.4.3 描述文字和背景色彩應具備至少 4.5:1 的對比比例。 有數種工具 (例如 [Color Contrast Analyzer](https://developer.paciellogroup.com/resources/contrastanalyser/) (色彩對比分析器)、[WebAIM](https://webaim.org/resources/contrastchecker/) 和 [Accessible Colors](https://accessible-colors.com/) (可存取色彩) 可讓您用來檢查報表的色彩。
 
 建議您也考慮一部分報表檢視人員可能會有色彩視覺上的缺陷。 [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/) 和 [Vischeck](https://www.vischeck.com/vischeck/vischeckImage.php) 等工具可模擬具有不同色彩缺陷的報表檢視者所看見內容。  在報表中使用較少色彩或單色調色盤可協助降低建立無法存取報表的可能。
 
@@ -199,7 +199,7 @@ Power BI 的產品中內建了需要報表作者進行設定的協助工具功�
 
 盡可能地將報表保持簡單且一致。 許多人經常會嘗試在單一視覺效果中放入太多內容。 通常將其分成多個視覺效果可使其更為簡單且易於了解。 若視覺效果會顯示不同的資料面向，請考慮使用多個視覺效果，並使用篩選或視覺效果互動來建立豐富體驗。 同時，請將頁面上的視覺效果數量保持在最小數目。 請嘗試避免不必要的冗餘和頁面雜亂。 您不需要使用兩個視覺效果來顯示相同內容。 報表取用者可能會被太多視覺效果所給予的所有資訊淹沒，或其注意力期間可能會受限並容易分心。 這不僅會讓報表更容易取用，在頁面上包含太多視覺效果也會降低報表的效能。
 
-在報表中使用相同的字型色彩和視覺效果元素樣式，將報表保持一致。 針對所有視覺效果標題使用相同的字型大小，就跟您應針對資料標籤和軸標題所採取的動作相同。 若您正在多個報表頁面上使用交叉分析篩選器，請在報表的每個頁面上將其保持在相同的位置。
+在報表中使用相同的字型色彩和視覺效果元素樣式，將報表保持一致。 針對所有視覺效果標題使用相同的字型大小，就跟您應針對資料標籤和軸標題所採取的動作相同。 若正在多個報表頁面上使用交叉分析篩選器，請在報表的每個頁面上將篩選器保持在相同位置。
 
 ### <a name="test-for-low-vision"></a>針對視力不良進行測試
 
@@ -244,17 +244,17 @@ Power BI 的產品中內建了需要報表作者進行設定的協助工具功�
 * 為任何音訊提供文字記錄。
 
 ### <a name="shapes"></a>圖形
-* 確保任何裝飾性的圖形都在定位順序中標記為隱藏，使螢幕助讀程式不會唸出這些圖形。
+* 確保任何裝飾性的圖形都在定位順序中標記為隱藏，以避免螢幕助讀程式唸出這些圖形。
 * 避免使用太多裝飾性的圖形，造成分心。
 * 使用圖形來呼叫資料點時，請使用**替代文字**來解釋所呼叫的內容。
 
 ### <a name="images"></a>影像
 * 使用影像來呼叫資料點時，請使用**替代文字**來解釋所呼叫的內容。
-* 請確認任何裝飾性的影像都已在定位順序中標記為隱藏，使螢幕助讀程式不會唸出這些影像。
+* 請確認任何裝飾性的影像都已在定位順序中標記為隱藏，以避免螢幕助讀程式唸出這些影像。
 * 避免使用太多裝飾性的影像來造成分心。
 
-### <a name="custom-visuals"></a>自訂視覺效果
-* 檢查自訂視覺效果的可存取 [顯示資料]  表格。 若顯示的資訊不足，請尋找其他視覺效果。
+### <a name="power-bi-visuals"></a>Power BI 視覺效果
+* 檢查 Power BI 視覺效果的可存取 [顯示資料]  表格。 若顯示的資訊不足，請尋找其他視覺效果。
 * 若您正在使用*播放軸*自訂視覺效果，請確認其不會自動播放。 請明顯地讓使用者知道其必須按下 [播放/暫停] 按鈕才能開始/停止變更的值。
 
 ### <a name="across-visuals-on-the-page"></a>頁面上的視覺效果

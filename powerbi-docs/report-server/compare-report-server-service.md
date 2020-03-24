@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: 4c48b9c2695c7feab5897527c9ff2fbf2a2d0455
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 7762ace1da913713567b79a9650b3f07aa71146d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920952"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381046"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
 
@@ -52,7 +52,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 進階的 Office 365 共同作業 | 否 | 是 | 搭配 Office 365 [在工作區中共同作業](../service-collaborate-power-bi-workspace.md) |
 | R 視覺效果 | 否 | 是 | 在 Power BI Desktop 中[建立 R 視覺效果](../desktop-r-visuals.md)，並將其發佈至 Power BI 服務。 您無法將具有 R 視覺效果的 Power BI 報表，儲存至 Power BI 報表伺服器。  |
 | 預覽功能 | 否 | 是 | [選擇加入 Power BI 服務預覽](../consumer/end-user-preview-features.md)功能 |
-| 自訂視覺效果 | 是 | 是 | [Power BI 的自訂視覺效果](../developer/power-bi-custom-visuals.md) |
+| Power BI 視覺效果 | 是 | 是 | [Power BI 視覺效果](../developer/visuals/power-bi-custom-visuals.md) |
 | 複合模型 | 否 | 是 |
 | Power BI Desktop | 針對報表服務器進行了版本最佳化，可透過報表伺服器下載使用 | 針對 Power BI 服務進行了版本最佳化，可從 Windows 市集取得 | [適用於報表伺服器的 Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [適用於 Power BI 服務的 Power BI Desktop](https://aka.ms/pbidesktopstore) |
 

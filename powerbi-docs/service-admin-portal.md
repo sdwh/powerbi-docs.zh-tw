@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/25/2019
+ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: d56e329d5331403c0ed0ce4da28bf73aea65d9a6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427867"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488698"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -57,7 +57,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 只要載入儀表板，您就能看到兩個區段的圖格。 第一個區段包含個別使用者的使用量資料，第二個區段則是貴組織群組的類似資訊。
 
-以下是您可以在每個圖格中看到的內容明細︰
+以下是可在每個磚中看到的內容明細︰
 
 * 使用者工作區中所有儀表板、報表和資料集的相異計數。
   
@@ -104,7 +104,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ### <a name="per-user-data-in-usage-metrics"></a>使用計量中的個別使用者資料
 
-根據預設，會針對使用計量啟用個別使用者資料，而且會將內容取用者帳戶資訊包含在計量報表中。 如果您不想要針對部分或所有使用者包括這項資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」  。
+根據預設，會針對使用計量啟用個別使用者資料，而且會將內容取用者帳戶資訊包含在計量報表中。 如果您不想要針對部分或所有使用者納入這項資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」  。
 
 ![個別使用者使用量資料](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
 
@@ -277,6 +277,14 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ![啟用電子郵件訂閱](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
 
+### <a name="featured-content"></a>精選內容
+
+允許組織中部分或所有報表作者在 Power BI 首頁的 [精選] 區段上提供其內容。 新使用者會在其 Power BI 首頁頂端看到精選內容。 當使用者新增 [我的最愛]  、[常用項目]  和 [最近項目]  時，精選內容會將首頁向下移動。 
+
+建議先從一小組推廣者開始。 如果讓整個組織在首頁提供內容，可能會讓您難以追蹤所有推廣的內容。 
+
+啟用精選內容之後，您也可以在系統管理員入口網站中進行管理。 請參閱本文中的[管理精選內容](#manage-featured-content)，以了解如何在網域中控制精選內容。
+
 ## <a name="content-pack-and-app-settings"></a>內容套件及應用程式設定
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>將內容套件及應用程式發佈到整個組織
@@ -312,17 +320,16 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 組織中的使用者可以使用依賴 Azure 搜尋的外部搜尋功能。
 
-## <a name="custom-visuals-settings"></a>自訂視覺效果設定
+## <a name="power-bi-visuals-settings"></a>Power BI 視覺效果設定
 
-### <a name="add-and-use-custom-visuals"></a>新增並使用自訂視覺效果
+### <a name="add-and-use-power-bi-visuals"></a>新增和使用 Power BI 視覺效果
 
-組織中的使用者可以共用自訂視覺效果，並與其互動。 [深入了解](developer/power-bi-custom-visuals.md)
+組織中的使用者可以共用 Power BI 視覺效果，並與其互動。 [深入了解](developer/visuals/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > 這項設定可以套用於整個組織，也可以限於特定群組。
 
-
-Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組織的部署電腦無法使用自訂視覺效果。
+Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組織的部署電腦無法使用 Power BI 視覺效果。
 
 <table>
 <tr><th>屬性</th><th>值</th>
@@ -335,16 +342,16 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 </tr>
 </table>
 
-值為 1 (十進位) 會使 Power BI 中的自訂視覺效果可用 (此為預設)。
+值為 1 (十進位) 會使 Power BI 中的 Power BI 視覺效果可用 (此為預設)。
 
-值為 0 (十進位) 會使 Power BI 中的自訂視覺效果無法使用。
+值為 0 (十進位) 會使 Power BI 中的 Power BI 視覺效果無法使用。
 
 ### <a name="allow-only-certified-visuals"></a>僅允許認證的視覺效果
 
-組織中已獲得新增和使用自訂視覺效果權限的使用者 (由「新增和使用自訂視覺效果」設定表示)，將只能使用[受認證的自訂視覺效果](https://go.microsoft.com/fwlink/?linkid=2002010) (未經認證的視覺效果將遭封鎖，並在使用時顯示錯誤訊息)。 
+組織中已獲得新增和使用 Power BI 視覺效果權限的使用者 (由「新增和使用 Power BI 視覺效果」設定表示)，將只能使用[經認證的 Power BI 視覺效果](https://go.microsoft.com/fwlink/?linkid=2002010) (未經認證的視覺效果將遭封鎖，並在使用時顯示錯誤訊息)。 
 
 
-Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組織的部署電腦無法使用未經認證的自訂視覺效果。
+Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組織的部署電腦無法使用未經認證的 Power BI 視覺效果。
 
 <table>
 <tr><th>屬性</th><th>值</th>
@@ -357,9 +364,9 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 </tr>
 </table>
 
-值為 1 (十進位) 會使 Power BI 中未經認證的自訂視覺效果可用 (此為預設)。
+值為 1 (十進位) 會使 Power BI 中未經認證的 Power BI 視覺效果可用 (此為預設)。
 
-值為 0 (十進位) 會使 Power BI 中未經認證的自訂視覺效果無法使用 (此選項僅會使[經認證的自訂視覺效果可用](https://go.microsoft.com/fwlink/?linkid=2002010))。
+值為 0 (十進位) 會使 Power BI 中未經認證的 Power BI 視覺效果無法使用 (此選項僅會使[經認證的 Power BI 視覺效果可用](https://go.microsoft.com/fwlink/?linkid=2002010))。
 
 ## <a name="r-visuals-settings"></a>R 視覺效果設定
 
@@ -404,11 +411,11 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 ### <a name="embed-content-in-apps"></a>在應用程式中內嵌內容
 
-組織中的使用者可以在軟體即服務 (SaaS) 應用程式中內嵌 Power BI 儀表板和報告。 停用此設定會讓使用者無法使用 REST API 在其應用程式中內嵌 Power BI 內容。 [深入了解](developer/embedding.md)
+組織中的使用者可以在軟體即服務 (SaaS) 應用程式中內嵌 Power BI 儀表板和報告。 停用此設定會讓使用者無法使用 REST API 在其應用程式中內嵌 Power BI 內容。 [深入了解](developer/embedded/embedding.md)
 
 ### <a name="allow-service-principals-to-use-power-bi-apis"></a>允許服務主體使用 Power BI API
 
-在 Azure Active Directory (Azure AD) 中註冊的 Web 應用程式將使用指派的服務主體，在沒有已登入使用者的情況下存取 Power BI API。 若要允許應用程式使用服務主體驗證，其服務主體必須包含在允許的安全性群組內。 [深入了解](developer/embed-service-principal.md)
+在 Azure Active Directory (Azure AD) 中註冊的 Web 應用程式將使用指派的服務主體，在沒有已登入使用者的情況下存取 Power BI API。 若要允許應用程式使用服務主體驗證，其服務主體必須包含在允許的安全性群組內。 [深入了解](developer/embedded/embed-service-principal.md)
 
 > [!NOTE]
 > 服務主體會從其安全性群組繼承所有 Power BI 租用戶設定的使用權限。 若要限制使用權限，請建立服務主體專屬的安全性群組，並將它新增至相關已啟用 Power BI 設定的 [特定安全性群組除外] 清單。
@@ -456,9 +463,9 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-[Power BI Embedded]  索引標籤可讓您檢視您已為您的客戶購買的 Power BI Embedded (A SKU) 容量。 因為您只能從 Azure 購買 A SKU，您可以從 **Azure 入口網站**[管理 Azure 中的內嵌容量](developer/azure-pbie-create-capacity.md)。
+[Power BI Embedded]  索引標籤可讓您檢視您已為您的客戶購買的 Power BI Embedded (A SKU) 容量。 因為您只能從 Azure 購買 A SKU，您可以從 **Azure 入口網站**[管理 Azure 中的內嵌容量](developer/embedded/azure-pbie-create-capacity.md)。
 
-如需有關如何管理 Power BI Embedded (A SKU) 設定的詳細資訊，請參閱[什麼是 Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md)。
+如需有關如何管理 Power BI Embedded (A SKU) 設定的詳細資訊，請參閱[什麼是 Power BI Embedded](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)。
 
 ## <a name="embed-codes"></a>內嵌程式碼
 
@@ -466,14 +473,14 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 ![Power BI 管理入口網站中的內嵌程式碼](media/service-admin-portal/embed-codes.png)
 
- ## <a name="organizational-visuals">組織視覺效果</a> 
+ ## <a name=""></a><a name="organizational-visuals">組織視覺效果</a> 
 
-[組織視覺效果]  索引標籤可讓您部署及管理組織內的自訂視覺效果。 使用組織視覺效果時，您可以輕鬆地在您的組織中部署專屬視覺效果，供報表作者從 Power BI Desktop 探索並匯入到其報表。 [深入了解](developer/power-bi-custom-visuals-organization.md)
+[組織視覺效果]  索引標籤可供部署及管理組織內的 Power BI 視覺效果。 使用組織視覺效果時，您可以輕鬆地在您的組織中部署專屬視覺效果，供報表作者從 Power BI Desktop 探索並匯入到其報表。 [深入了解](developer/visuals/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > 自訂視覺效果可能包含具有安全性或隱私權風險的程式碼；在您將自訂視覺效果部署到組織存放庫之前，請確定您信任自訂視覺效果的作者與來源。
 
-下圖顯示目前部署在組織存放庫中的所有自訂視覺效果。
+下圖顯示目前部署在組織存放庫中的所有 Power BI 視覺效果。
 
 ![組織系統管理視覺效果](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
@@ -483,11 +490,11 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 1. 在右窗格中，選取 [新增自訂視覺效果]  。
 
-    ![自訂視覺效果表單](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+    ![Power BI 視覺效果表單](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
 
 1. 填寫 [新增自訂視覺效果]  表單：
 
-    * [選擇 .pbiviz 檔案]  (必要)：選取要上傳的自訂視覺效果。 僅支援版本化 API 自訂視覺效果 (請參閱此處以了解其意義)。
+    * [選擇 .pbiviz 檔案]  (必要)：選取要上傳的自訂視覺效果。 僅支援已建立版本的 API Power BI 視覺效果 (請參閱此處以了解其意義)。
 
     上傳自訂視覺效果之前，您應該先檢閱該視覺效果的安全性和隱私權，確定它符合組織的標準。
 
@@ -524,9 +531,9 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 確定視覺效果識別碼會維持不變。 新檔案會取代先前的檔案，供整個組織內的所有報表使用。 不過，如果新版的視覺效果可能會中斷舊版視覺效果的任何使用方式或資料結構，則不要取代舊版。 您應該改以為新版視覺效果建立新的清單。 例如，將新的版本號碼 (版本 X.X) 新增至最新列出的視覺效果標題中。 透過這種方法，可以很清楚地表示它只是具有更新版本號碼的相同視覺效果，讓現有的報表不會中斷其功能。 再次提醒，請確定視覺效果識別碼維持不變。 之後，當使用者下一次從 Power BI Desktop 進入組織存放庫時，就能匯入新版本，這會提示他們取代報表中的目前版本。
 
-如需詳細資訊，請前往[組織自訂視覺效果的常見問題集](/power-bi/developer/power-bi-custom-visuals-faq#organizational-power-bi-visuals)
+如需詳細資訊，請參閱[組織 Power BI 視覺效果的常見問題集](developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)
 
-## <a name="dataflowStorage">資料流程儲存體 (預覽)</a>
+## <a name=""></a><a name="dataflowStorage">資料流程儲存體 (預覽)</a>
 
 根據預設，搭配 Power BI 使用的資料儲存在 Power BI 提供的內部儲存體中。 透過整合資料流程與 Azure Data Lake Storage Gen2 (ADLS Gen2)，您可以在組織的 Azure Data Lake Storage Gen2 帳戶中儲存資料流程。 如需詳細資訊，請參閱[資料流程及 Azure Data Lake 整合 (預覽)](service-dataflows-azure-data-lake-integration.md)。
 
@@ -542,7 +549,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 |---------|---------|
 | 使用中 | 正常工作區。 它不會指出使用方式或其中內容的相關資訊，只表示工作區本身是「正常」的。 |
 | 孤立 | 沒有管理使用者的工作區。 |
-| 已刪除 | 已刪除的工作區。 如有需要，我們會維護足夠的中繼資料來還原工作區。 |
+| 已刪除 | 已刪除的工作區。 如有需要，我們會維護足夠的中繼資料 (最長保留 90 天) 來還原工作區。 |
 | 正在移除 | 在刪除程序中但尚未完成的工作區。 使用者可以刪除自己的工作區，使其進入「移除中」，最後進入「已刪除」。 |
 
 ## <a name="custom-branding"></a>自訂商標
@@ -561,6 +568,17 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 如需詳細資訊，請參閱[為貴組織自訂商標](https://aka.ms/orgBranding)。
 
 ![工作區清單](media/service-admin-portal/workspaces-list.png)
+
+## <a name="manage-featured-content"></a>管理精選內容
+
+身為租用戶系統管理員，您可以管理所有已推廣到組織中 Power BI 首頁精選區段的報表、儀表板和應用程式。
+
+- 在管理入口網站中，選取 [精選內容]  。
+
+在這裡，您會看到是誰精選了內容、精選時間及其所有相關中繼資料的概觀。 如果某項目看起來有問題，或您想要清除 [精選] 區段，則可視需要來刪除推廣的內容。
+
+如需啟用精選內容的資訊，請參閱本文中的[精選內容](#featured-content)。
+
 ## <a name="next-steps"></a>後續步驟
 
 [管理貴組織中的 Power BI](service-admin-administering-power-bi-in-your-organization.md)  

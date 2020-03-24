@@ -7,18 +7,18 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819230"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380353"
 ---
 # <a name="add-drill-down-support"></a>新增向下切入支援
 
-自訂視覺效果可以使用 Power BI 的向下切入。
+Power BI 視覺效果可以使用 Power BI 的向下切入。
 
 前往[這裡](./../../consumer/end-user-drill.md)深入閱讀 Power BI 向下切入
 
@@ -205,38 +205,38 @@ button {
 
 準備範例資料以測試視覺效果：
 
-|   H1  |   H2    | H3  |   值  |
+|   H1  |   H2    | H3  |   VALUES  |
 |-----|-----|------|-------|
-|   A   |   A1  |   A11 |   1   |
-|   A   |   A1  |   A12 |   2   |
-|   A   |   A2  |   A21 |   3   |
-|   A   |   A2  |   A22 |   4   |
-|   A   |   A3  |   A31 |   5   |
-|   A   |   A3  |   A32 |   6   |
-|   B   |   B1  |   B11 |   7   |
-|   B   |   B1  |   B12 |   8   |
-|   B   |   B2  |   B21 |   9   |
-|   B   |   B2  |   B22 |   10  |
-|   B   |   B3  |   B31 |   11  |
-|   B   |   B3  |   B32 |   12  |
+|   A   |    A1  |    A11 |    1   |
+|   A    |    A1    |    A12    |    2    |
+|   A    |    A2    |    A21    |    3    |
+|   A    |    A2    |    A22    |    4    |
+|   A    |    A3    |    A31    |    5    |
+|   A    |    A3    |    A32    |    6    |
+|   B    |    B1    |    B11    |    7    |
+|   B    |    B1    |    B12    |    8    |
+|   B    |    B2    |    B21    |    9    |
+|   B    |    B2    |    B22    |    10    |
+|   B    |    B3    |    B31    |    11    |
+|   B    |    B3    |    B32    |    12    |
 
 並在 Power BI Desktop 中建立階層：
 
-![建立新階層](./media/create-new-hierarchy.png)
+![建立新階層](media/drill-down-support/create-new-hierarchy.png)
 
 將所有類別目錄資料行 (H1、H2、H3) 包含至新的階層：
 
-![建立新階層](./media/new-hierarchy.png)
+![建立新階層](media/drill-down-support/new-hierarchy.png)
 
 執行這些步驟之後，您應該會看到下列視覺效果：
 
-![具有按鈕的開發視覺效果](./media/dev-visual-drilldown1.png)
+![具有按鈕的開發視覺效果](media/drill-down-support/dev-visual-drilldown1.png)
 
 ## <a name="add-context-menu-to-visual-elements"></a>將操作功能表新增至視覺效果元素
 
 在此步驟中，您會在視覺效果的按鈕上新增操作功能表：
 
-![視覺效果中的操作功能表](./media/dev-visual-drilldown-context-menu.png)
+![視覺效果中的操作功能表](media/drill-down-support/dev-visual-drilldown-context-menu.png)
 
 若要建立操作功能表，請將 `host` 物件儲存在視覺效果的屬性中，並呼叫 `createSelectionManager` 方法至建立選取項目管理員，以使用 Power BI 視覺效果 API 來顯示操作功能表。
 
@@ -305,11 +305,11 @@ export class Visual implements IVisual {
 
 將資料套用至視覺效果：
 
-![具有資料的視覺效果](./media/dev-visual-drilldown-data.png)
+![具有資料的視覺效果](media/drill-down-support/dev-visual-drilldown-data.png)
 
 在最後一個步驟中，您應該會取得具有選取項目與操作功能表的視覺效果：
 
-![具有向下切入支援的視覺效果](./media/dev-visual-drilldown-demo.gif)
+![具有向下切入支援的視覺效果](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>新增矩陣資料檢視對應的向下切入支援
 
@@ -389,7 +389,7 @@ export class Visual implements IVisual {
 
 將資料套用至視覺效果：
 
-![具有資料的視覺效果](./media/dev-matrix-visual-drilldown-data.png)
+![具有資料的視覺效果](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 匯入必要的介面，以處理矩陣資料檢視對應：
 
@@ -614,7 +614,7 @@ public update(options: VisualUpdateOptions) {
 
 在最後一個步驟中，您應該會取得具有操作功能表的視覺效果：
 
-![具有向下切入支援的視覺效果](./media/dev-matrix-visual-drilldown-demo.gif)
+![具有向下切入支援的視覺效果](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>後續步驟
 

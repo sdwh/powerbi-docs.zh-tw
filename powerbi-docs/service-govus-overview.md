@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/19/2020
+ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496936"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376716"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 本文適用於將 Power BI 部署為 Office 365 政府方案一部分的美國政府客戶。 政府方案是針對必須符合美國合規性和安全性標準的組織獨特需求而設計。 為美國政府客戶設計的 Power BI 服務，與 Power BI 服務的商業版本不同。 下列各節說明這些功能差異和功能。
@@ -25,10 +25,10 @@ ms.locfileid: "77496936"
 
 ### <a name="enroll-in-office-365-government-plan"></a>註冊 Office 365 政府方案
 
-如果您是新客戶，必須先驗證貴組織的資格，才能註冊政府方案。  從完成[政府用 Office 365 資格驗證表單](https://www.microsoft.com/microsoft-365/government/eligibility-validation)開始著手。 若要確保您為貴組織選取正確的方案，請參閱 [Office 365 美國政府服務說明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)。
+如果您是新客戶，則必須先驗證組織的資格，才能註冊政府方案。  從完成[政府用 Office 365 資格驗證表單](https://www.microsoft.com/microsoft-365/government/eligibility-validation)開始著手。 若要確保您為貴組織選取正確的方案，請參閱 [Office 365 美國政府服務說明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)。
 
 > [!NOTE]
-> 如果您已經將 Power BI 部署到商業環境，而且想要遷移到美國政府雲端，您必須將新的 Power BI Pro 訂用帳戶新增至您的 Office 365 政府方案。 接下來，將商業資料複寫到適用於美國政府的 Power BI 服務，移除使用者帳戶的商業授權指派，然後將 Power BI Pro 政府授權指派給使用者帳戶。
+> 如果已經將 Power BI 部署到商業環境，且想要移轉至美國政府雲端，則必須將新的 Power BI Pro 訂用帳戶新增至 Office 365 政府方案。 接下來，將商業資料複寫到適用於美國政府的 Power BI 服務，移除使用者帳戶的商業授權指派，然後將 Power BI Pro 政府授權指派給使用者帳戶。
 >
 >
 
@@ -46,7 +46,7 @@ Office 365 為政府機關提供不同的環境，以符合不同的合規性需
 部署 Office 365 之後，您可以新增 Power BI 訂用帳戶。 遵循[註冊您的美國政府組織](service-govus-signup.md#existing-office-government-cloud-customers)中的逐步指導方針，以購買 Power BI Pro 政府服務。 為需要使用 Power BI 的所有使用者購買足夠授權，然後將這些授權指派給個別使用者帳戶。
 
 > [!IMPORTANT]
-> Power BI 美國政府無法以免費授權的形式提供。 每位使用者都必須獲指派 Pro 授權，才能存取政府社群雲端。 如果使用者帳戶獲指派免費授權，他們就只能存取商業雲端，而且會遇到驗證和存取問題。 若要檢閱授權類型之間的差異，請參閱[依授權類型分類的 Power BI 服務功能](service-features-license-type.md)。
+> Power BI 美國政府無法以免費授權的形式提供。 每位使用者都必須獲指派 Pro 授權，才能存取政府社群雲端。 如果使用者帳戶獲指派免費授權，他們就只能存取商業雲端，且會遇到驗證和存取問題。 如果已購買 Power BI Premium，即無須指派 Pro 授權來啟用使用者存取。  只要將報表發佈至 Premium 容量，組織中任何使用者都可以存取共用的報表。 若要檢閱授權類型之間的差異，請參閱[依授權類型分類的 Power BI 服務功能](service-features-license-type.md)。
 >
 >
 

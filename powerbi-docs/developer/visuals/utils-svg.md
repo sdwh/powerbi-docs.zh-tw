@@ -1,24 +1,24 @@
 ---
 title: 在 Power BI 視覺效果中使用 SVG 公用程式的簡介
-description: 本文描述如何使用 SVG 公用程式簡化 Power BI 自訂視覺效果的 SVG 操作
+description: 本文描述如何使用 SVG 公用程式簡化 Power BI 視覺效果的 SVG 操作
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 612c253e53cdaec5819387548354595c8bd94fa0
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: aa1ac8074e842a51b369c48f57c4b5016a80140c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819299"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377964"
 ---
 # <a name="svg-utils"></a>SVG 公用程式
 
-SVG 公用程式是可簡化 Power BI 自訂視覺效果 SVG 操作的一組函式和類別
+SVG 公用程式是可簡化 Power BI 視覺效果 SVG 操作的一組函式和類別
 
 ## <a name="installation"></a>安裝
 

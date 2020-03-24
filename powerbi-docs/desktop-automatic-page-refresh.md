@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: e7e5e406a0a4c9cdcecfab5a5af681857600feb5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548575"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488514"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop 自動重新整理頁面 (預覽)
 
@@ -35,9 +35,9 @@ Power BI 中的「自動重新頁面整理 (APR)」功能可讓您的作用中�
 
 ![頁面重新整理卡片](media/desktop-automatic-page-refresh/automatic-page-refresh-02.png)
 
-1.  自動頁面重新整理滑桿 - 開啟或關閉頁面重新整理
-2.  頁面重新整理間隔值 - 重新整理間隔的數值
-3.  頁面重新整理間隔單位 - 頁面重新整理的間隔單位
+1.    自動頁面重新整理滑桿 - 開啟或關閉頁面重新整理
+2.    頁面重新整理間隔值 - 重新整理間隔的數值
+3.    頁面重新整理間隔單位 - 頁面重新整理的間隔單位
 
 您可以在這裡開啟頁面重新整理，並選取重新整理持續時間。 預設值為 30 分鐘，最小重新整理間隔為一秒)。 您的報表將會在您設定的間隔開始重新整理。 
 
@@ -52,7 +52,7 @@ Power BI 中的「自動重新頁面整理 (APR)」功能可讓您的作用中�
 * 如果新資料每秒抵達，則間隔應該設定為一秒。 
 
 
-針對低重新整理間隔 (例如一秒)，您也應該考慮直接查詢資料來源的類型、您的查詢在其上建立的負載、報表檢視者與容量資料中心之間的距離等等。 
+針對低重新整理間隔 (例如一秒)，您也應該考慮直接查詢資料來源的類型、查詢在其上建立的負載、報表檢視者與容量資料中心之間的距離等。 
 
 您可以使用 Power BI Desktop 中的效能分析器來預估此設定，這可讓您確認每個視覺查詢是否都有足夠的時間傳回來源的結果，以及時間花費在何處。 根據效能分析器的結果，您可以調整並變更資料來源，也可以在您的報表中試驗其他視覺效果和量值。
 
@@ -62,10 +62,10 @@ Power BI 中的「自動重新頁面整理 (APR)」功能可讓您的作用中�
 
 讓我們考慮一些關於此資料來源的其他特性。 
 
-1.  資料會以兩秒的速率抵達。 
-2.  效能分析器會顯示大約 4.9 秒 (4688 毫秒) 的最大查詢 + 顯示時間。 
-3.  資料來源設定為每秒處理大約 1000 個並行查詢。 
-4.  您預期會有大約 10 個使用者同時檢視報表。
+1.    資料會以兩秒的速率抵達。 
+2.    效能分析器會顯示大約 4.9 秒 (4688 毫秒) 的最大查詢 + 顯示時間。 
+3.    資料來源設定為每秒處理大約 1000 個並行查詢。 
+4.    您預期會有大約 10 個使用者同時檢視報表。
 
 因此，會產生下列結果：
 
@@ -83,13 +83,13 @@ Power BI 中的「自動重新頁面整理 (APR)」功能可讓您的作用中�
 
 您也可以為已在 Power BI Desktop 中撰寫的報表設定自動頁面重新整理間隔，並將其發行至 Power BI 服務。 
 
-Power BI 服務中報表的自動頁面重新整理是使用與 Power BI Desktop 中的設定類似的步驟所設定。 於 Power BI 服務中設定時，自動頁面重新整理也支援[內嵌的 Power BI](developer/embedding.md) 內容。 下圖顯示 Power BI 服務的 [頁面重新整理]  設定：
+Power BI 服務中報表的自動頁面重新整理是使用與 Power BI Desktop 中的設定類似的步驟所設定。 於 Power BI 服務中設定時，自動頁面重新整理也支援[內嵌的 Power BI](developer/embedded/embedding.md) 內容。 下圖顯示 Power BI 服務的 [頁面重新整理]  設定：
 
 ![Power BI 服務中的自動頁面重新整理](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 
-1.  自動頁面重新整理滑桿 - 開啟或關閉頁面重新整理
-2.  頁面重新整理間隔值 - 重新整理間隔的數值，必須是整數
-3.  頁面重新整理間隔單位 - 頁面重新整理的間隔單位
+1.    自動頁面重新整理滑桿 - 開啟或關閉頁面重新整理
+2.    頁面重新整理間隔值 - 重新整理間隔的數值，必須是整數
+3.    頁面重新整理間隔單位 - 頁面重新整理的間隔單位
 
 ### <a name="page-refresh-intervals"></a>頁面重新整理間隔
 

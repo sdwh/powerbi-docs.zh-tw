@@ -1,20 +1,20 @@
 ---
 title: Power BI 報表的全新篩選體驗
-description: Power BI 中的篩選條件有新功能和新設計。
+description: Power BI 中的篩選有新功能和新設計。
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 02/26/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e991b84dede16f35a732c54ff916ec02f5610783
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f4dbbdd30b403c8ac14db069b826f26af0bce24a
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762523"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201786"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>使用 Power BI 報表中的篩選
 
@@ -44,7 +44,7 @@ Power BI 中的篩選有新功能和新設計。 當您加入新的篩選體驗�
 
 1. 在 Power BI Desktop 中的現有報表中，選取 [檔案]   > [選項及設定]   > [選項] 
 2. 在導覽窗格的 [目前檔案]  底下，選取 [報表設定]  。
-3. 在 [篩選體驗]  下，選取 [啟用更新的篩選窗格，並在此報表的視覺效果標題中顯示篩選]  。
+3. 在 [篩選體驗]  下，選取 [Enable the updated Filters pane, and show filters in the visual header for this report] \(啟用更新的篩選窗格，並在此報表的視覺效果標題中顯示篩選\)  。
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>在服務中為現有報表開啟新的篩選
 
@@ -52,9 +52,12 @@ Power BI 中的篩選有新功能和新設計。 當您加入新的篩選體驗�
 
 如果您尚未開啟新外觀，您仍然可以透過執行下列步驟來查看新的篩選體驗。
 
-1. 在 Power BI 服務中，選取工作區內容清單中的 [報表]  索引標籤。
-2. 尋找您要啟用的報表，然後選取該報表的**設定**圖示 ![報表設定圖示](media/power-bi-report-filter/power-bi-settings-icon.png)。
-3. 在 [篩選體驗]  下，選取 [啟用更新的篩選窗格，並在此報表的視覺效果標題中顯示篩選]  。
+1. 在 Power BI 服務中，開啟工作區的內容清單。
+2. 尋找所要啟用的報表，選取 [其他選項 (...)]  ，然後選取該報表的 [設定]  。
+
+    ![報表設定](media/power-bi-report-filter/power-bi-filter-options.png)
+
+3. 在 [篩選體驗]  下，選取 [Enable the updated Filters pane, and show filters in the visual header for this report] \(啟用更新的篩選窗格，並在此報表的視覺效果標題中顯示篩選\)  。
 
     ![啟用更新的篩選窗格](media/power-bi-report-filter/power-bi-service-filter-enable.png)
 
@@ -82,11 +85,21 @@ Power BI 中的篩選有新功能和新設計。 當您加入新的篩選體驗�
 
 1. 根據預設，您的報表取用者可以看到 [篩選] 窗格。 如果您不想讓報表取用者看到，請選取 [篩選]  旁的眼睛圖示。
 
-    ![Power BI 篩選眼睛圖示](media/power-bi-report-filter/power-bi-filter-eye.png)
+    ![Power BI 篩選眼睛圖示](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
 
 2. 若要開始建置新的 [篩選] 窗格，請將感興趣的欄位拖曳至新的 [篩選] 窗格作為視覺效果、頁面或報表層級篩選。
 
 當您將視覺效果新增至報表畫布時，Power BI 會自動將篩選新增至視覺效果中每個欄位的 [篩選] 窗格。 
+
+## <a name="hide-the-filters-pane-while-editing"></a>編輯時隱藏 [篩選] 窗格
+
+Power BI Desktop 在預覽中有新的功能區。 在 [檢視]  索引標籤上，[篩選]  切換按鈕可供顯示或隱藏 [篩選] 窗格。 當未使用 [篩選] 窗格，且螢幕上需要額外空間時，這項功能就很有用。 這項新功能會將 [篩選] 窗格與可開啟和關閉的其他窗格對齊，例如 [書簽] 和 [選取] 窗格。 
+
+![編輯時顯示或隱藏 [篩選] 窗格](media/power-bi-report-filter/power-bi-filter-hide.png)
+
+此設定只會隱藏 Power BI Desktop 中的 [篩選] 窗格。 如果想要隱藏終端使用者的 [篩選] 窗格，請改為選取 [篩選]  旁的**眼睛**圖示。
+
+![眼睛圖示](media/power-bi-report-filter/power-bi-filter-eye.png) 
 
 ## <a name="lock-or-hide-filters"></a>鎖定或隱藏篩選條件
 
@@ -126,14 +139,14 @@ Power BI 中的篩選有新功能和新設計。 當您加入新的篩選體驗�
 
 1. 展開 [篩選窗格]  來設定背景、圖示和左框線的色彩，以搭配報表頁面。
 
-    ![展開 [篩選窗格]](media/power-bi-report-filter/power-bi-format-filter-pane.png)
+    ![展開 [篩選] 窗格](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. 展開 [篩選卡片]  來設定 [可用]  與 [已套用]  色彩和框線。 如果您讓可用和已套用卡片使用不同的色彩，已套用哪些篩選條件就很清楚。 
   
     ![展開篩選卡片](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
-## <a name="theming-for-filter-pane"></a>篩選窗格的佈景主題設定
-您現在可以使用佈景主題檔案，修改篩選窗格的預設設定。 以下是可協助您開始的範例佈景主題程式碼片段：
+## <a name="theming-for-filters-pane"></a>[篩選] 窗格的佈景主題設定
+您現在可以使用佈景主題檔案來修改 [篩選] 窗格的預設設定。 以下是可協助您開始的範例佈景主題程式碼片段：
 
  
 ```
@@ -204,7 +217,7 @@ Power BI 中的篩選有新功能和新設計。 當您加入新的篩選體驗�
 }] 
 ```
 
-## <a name="sort-the-filter-pane"></a>排序篩選窗格
+## <a name="sort-the-filters-pane"></a>排序 [篩選] 窗格
 
 自訂排序功能是新 [篩選] 窗格體驗的一部分。 報表建立者可以拖放篩選，以任何順序來重新排列這些篩選。
 
@@ -223,11 +236,25 @@ Power BI 中的篩選有新功能和新設計。 當您加入新的篩選體驗�
 
 ![重新命名篩選](media/power-bi-report-filter/power-bi-filter-rename.png)
 
+## <a name="filters-pane-search"></a>[篩選] 窗格搜尋
+
+[篩選] 窗格搜尋功能可供依標題在篩選卡之間搜尋。 如果 [篩選] 窗格中有數個不同的篩選卡，且需要協助尋找感興趣的資訊，則這項功能會很有幫助。
+
+![搜尋篩選](media/power-bi-report-filter/power-bi-filter-search.png)
+
+您也可以將搜尋方塊格式化，就像您可以將 [篩選] 窗格的其他項目格式化一樣。
+
+![將搜尋方塊格式化](media/power-bi-report-filter/power-bi-filter-format-search.png)
+
+雖然此 [篩選] 窗格搜尋功能預設為開啟，但您也可以從 [選項] 對話方塊的 [報表] 設定中選取 [Enable search for Filters pane] \(啟用搜尋篩選窗格\)  來選擇將其開啟或關閉。
+
+![開啟或關閉搜尋](media/power-bi-report-filter/power-bi-enable-search-filter.png)
+
 ## <a name="restrict-changes-to-filter-type"></a>限制變更篩選類型
 
 在報表設定的 [篩選體驗] 區段下有一個選項，可控制使用者是否可以變更篩選類型。
 
-![限制變更篩選類型](media/power-bi-report-filter/power-bi-filter-restrict-change.png)
+![限制變更篩選類型](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
 
 ## <a name="next-steps"></a>後續步驟
 

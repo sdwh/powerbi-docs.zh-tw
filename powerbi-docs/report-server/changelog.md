@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237952"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381092"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -200,7 +200,7 @@ ms.locfileid: "78237952"
         - 功能
             - SAP HANA SSO Direct Query 對 Kerberos 的支援現在於 Power BI 報表中正式運作
             - 此版本隨附自訂視覺效果 API - 1.13.0 版
-            - 自訂視覺效果將會回復為與目前伺服器 API 版本相容的舊版 (如果有的話)
+            - Power BI 視覺效果將會回復為與目前伺服器 API 版本相容的舊版 (如果有的話)
 
 - **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
     - *版本：2.61.5192.641 (2018 年 8 月)，發行日期：2018 年 8 月 15 日*
@@ -322,7 +322,7 @@ ms.locfileid: "78237952"
             - `{{UserId}}` 標記會解析成預存認證，而不是正在「Power BI 報表」中執行報表的使用者
             - 無法轉譯 Power BI 報表伺服器報表中的某些影像
             - 無法變更 Power BI 報表伺服器中 Power BI 報表的名稱
-            - 無法載入 Power BI 行動應用程式中的自訂視覺效果 (您可能需要重新安裝行動裝置應用程式，以清除本機快取)
+            - 無法載入 Power BI 行動應用程式中的 Power BI 視覺效果 (您可能需要重新安裝行動裝置應用程式，以清除本機快取)
 
     - *組建 14.0.600.271，發行日期：2017 年 6 月 12 日*
         - Power BI 報表伺服器初始版本

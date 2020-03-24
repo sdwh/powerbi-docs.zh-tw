@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099083"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381460"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 報表的視覺效果
 
@@ -27,7 +27,7 @@ ms.locfileid: "74099083"
 
 ![具有每個視覺效果類型圖示的窗格](media/power-bi-report-visualizations/power-bi-icons.png)
 
-如需更多的選擇，請前往 [Microsoft AppSource 社群網站](https://appsource.microsoft.com)以尋找並[下載](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) Microsoft 與社群所提供的[自訂視覺效果](../developer/visuals/custom-visual-develop-tutorial.md)。
+如需更多的選擇，請前往 [Microsoft AppSource 社群網站](https://appsource.microsoft.com)以尋找並[下載](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) Microsoft 與社群所提供的[ Power BI 視覺效果](../developer/visuals/custom-visual-develop-tutorial.md)。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -40,7 +40,7 @@ ms.locfileid: "74099083"
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>上傳自訂視覺效果並在 Power BI 中使用
 
-新增您自行建立或在 [Microsoft AppSource 社群網站](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)找到的自訂視覺效果。 腦中充滿創造力嗎？ 深入探索我們的原始程式碼，並使用我們的[開發人員工具](../developer/visuals/custom-visual-develop-tutorial.md)來建立新的視覺效果類型，然後[將其與社群共用](../developer/office-store.md)。 若要深入了解開發自訂視覺效果，請參閱[開發 Power BI 自訂視覺效果](../developer/visuals/custom-visual-develop-tutorial.md)。
+新增您自行建立或在 [Microsoft AppSource 社群網站](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)找到的自訂視覺效果。 腦中充滿創造力嗎？ 深入探索我們的原始程式碼，並使用我們的[開發人員工具](../developer/visuals/custom-visual-develop-tutorial.md)來建立新的視覺效果類型，然後[將其與社群共用](../developer/visuals/office-store.md)。 若要深入了解開發自訂視覺效果，請參閱[開發 Power BI 自訂視覺效果](../developer/visuals/custom-visual-develop-tutorial.md)。
 
 ## <a name="personalize-your-visualization-pane-preview"></a>個人化您的視覺效果窗格 (預覽)
 
@@ -70,4 +70,4 @@ ms.locfileid: "74099083"
 ## <a name="next-steps"></a>後續步驟
 
 * [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [自訂視覺效果](../developer/power-bi-custom-visuals.md)
+* [Power BI 視覺效果](../developer/visuals/power-bi-custom-visuals.md)

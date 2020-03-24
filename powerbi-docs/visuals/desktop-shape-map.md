@@ -2,19 +2,19 @@
 title: 在 Power BI Desktop (預覽) 中使用圖形地圖
 description: 在 Power BI Desktop 中使用圖形地圖建立區域的相對比較
 author: mihart
-ms.reviewer: amanda, justyna, sujata
+ms.reviewer: justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/14/2019
+ms.date: 03/18/2020
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762316"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525652"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>在 Power BI Desktop (預覽) 中建立圖形對應視覺效果
 
@@ -22,7 +22,7 @@ ms.locfileid: "75762316"
 
 建立**圖形地圖**視覺效果，使用色彩比較地圖上的區域。 不同於**地圖**視覺效果，**圖形地圖**無法在地圖上顯示資料點的確切地理位置。 相反地，其主要目的是要藉由不同的著色，在地圖上顯示區域的相對比較。
 
-**圖形地圖**視覺效果以 ESRI/TopoJSON 地圖為基礎，其具有使用您可建立之自訂地圖的強大能力。 自訂地圖的範例包括：地理位置、座位安排、樓面規劃等等。 此預覽版的**圖形地圖**無法使用自訂地圖。
+**圖形地圖**視覺效果以 TopoJSON 地圖為基礎，其具有使用您可建立自訂地圖的強大能力。 自訂地圖的範例包括：地理位置、座位安排、樓面規劃等等。 此預覽版的**圖形地圖**無法使用自訂地圖。
 
 ## <a name="creating-shape-maps"></a>建立圖形地圖
 您可以用此 Preview 版本隨附的地圖測試 [圖形地圖]  控制項，如果您自己的自訂地圖符合下一節**使用自訂地圖**中所述需求，也可加以使用。
@@ -79,7 +79,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ![德克薩斯州圖形對應](media/desktop-shape-map/shape-map-7b.png)
 
-如果您想要測試此資料集和視覺效果，您可以下載原始 PBIX 檔案，透過下列連結來產生此報表。
+如果您想要測試此資料集和視覺效果，則可使用下列連結來下載原先用於產生此報表的原始 PBIX 檔案。
 
 * [自訂圖形地圖示範 .PBIX 檔案](https://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
@@ -400,7 +400,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-ma |麻薩諸塞 |MA |
 | us-ia |愛荷華 |愛荷華 |
 | us-nh |新罕布夏 |NH |
-| us-or |奧勒崗 |或 |
+| us-or |奧勒崗 |OR |
 | us-mn |明尼蘇達 |明尼蘇達 |
 | us-vt |佛蒙特 |佛蒙特 |
 | us-id |愛達荷 |ID |

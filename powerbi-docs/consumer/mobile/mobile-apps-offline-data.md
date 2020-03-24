@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75219061"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435436"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中離線檢視資料
 適用於︰
@@ -21,6 +21,9 @@ ms.locfileid: "75219061"
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Android 手機](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Android 平板電腦](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
+
+>[!NOTE]
+>**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 在行動應用程式中 (而非行動瀏覽器中) 檢視 Power BI 的其中一個優點，就是即使未連接到網路，您仍可以查看資料。 
 
@@ -59,7 +62,7 @@ Power BI 提供您何時移入和移出離線模式的清楚指標，以及無�
 * 網路離線時，沒有可用的編頁報表 (RDL)。
 
 ## <a name="next-steps"></a>後續步驟
-您的意見反應可協助我們決定要在未來實作的項目，因此別忘了對您想在 Power BI 行動應用程式中看到的其他功能進行投票。 
+您的意見反應可協助我們決定未來要實作的項目，因此別忘了對您想在 Power BI 行動應用程式中看到的其他功能進行投票。 
 
 * [行動裝置的 Power BI 應用程式](mobile-apps-for-mobile-devices.md)
 * 請在 Twitter 上關注 @MSPowerBI

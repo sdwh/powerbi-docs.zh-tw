@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 9823e35fb2ddb99cf2932fa83e92598ba40f6690
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "78946867"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381368"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>匯出用於建立視覺效果的資料
 
@@ -252,7 +252,7 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
 
 - 如果視覺效果使用多個資料表中的資料，而且資料模型中的這些資料表沒有任何關聯性，則 Power BI 只會匯出第一個資料表的資料。
 
-- 目前不支援自訂視覺效果和 R 視覺效果。
+- 目前不支援 Power BI 視覺效果和 R 視覺效果。
 
 - 在 Power BI 中，您可以按兩下欄位和輸入新名稱來重新命名欄位 (資料行)。 Power BI 會將新名稱稱之為「別名」  。 Power BI 報表可具有重複的欄位名稱，但 Excel 不允許重複。 因此，當 Power BI 將資料匯出至 Excel 時，欄位別名會還原成原始的欄位 (資料行) 名稱。  
 

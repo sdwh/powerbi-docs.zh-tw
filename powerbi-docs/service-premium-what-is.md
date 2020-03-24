@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/12/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 07fd9a00034a210dfbcc6cae4aa721e3b09bd37a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76889389"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381161"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -88,7 +88,7 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 ### <a name="capacity-workloads"></a>容量工作負載
 
-容量工作負載是提供給使用者的服務。 根據預設，Premium 和 Azure 容量僅支援與執行 Power BI 查詢建立關聯的資料集工作負載。 不可停用資料集工作負載。 可為 [AI (認知服務)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/)、[資料流程](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)和[編頁報表](paginated-reports-save-to-power-bi-service.md)啟用額外的工作負載。 這些工作負載僅在 Premium 訂閱中支援。 
+容量工作負載是提供給使用者的服務。 根據預設，Premium 和 Azure 容量僅支援與執行 Power BI 查詢建立關聯的資料集工作負載。 不可停用資料集工作負載。 可為 [AI (認知服務)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/)、[資料流程](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)和[編頁報表](paginated-reports/paginated-reports-save-to-power-bi-service.md)啟用額外的工作負載。 這些工作負載僅在 Premium 訂閱中支援。 
 
 每個額外工作負載都可讓您設定工作負載所能使用的最大記憶體 (以總可用記憶體百分比表示)。 最大記憶體的預設值是由 SKU 決定。 您可以透過只在使用時才啟用這些額外的工作負載，最大限度地提高容量的可用資源。 此外，您可以只在已確定預設設定不符合您的容量資源需求時，才變更記憶體設定。 容量管理員可以使用[管理入口網站](service-admin-portal.md)中的**容量設定**或使用[容量 REST API](https://docs.microsoft.com/rest/api/power-bi/capacities)，為容量啟用和設定工作負載。  
 
@@ -209,7 +209,7 @@ P1-P3 和 A4_A6 SKU 支援的編頁報表採用 SQL Server Reporting Services �
 
 在 Power BI Premium 中，編頁報表是必須使用管理入口網站為容量啟用的工作負載。 容量管理員可以啟用，然後以容量的整體記憶體資源百分比來指定記憶體數量。 不同於其他類型的工作負載，Premium 會在容量內含空間中執行編頁報表。 無論工作負載是否為作用中，都會使用指定給此空間的最大記憶體。 預設值為 20%。 
 
-若要深入了解，請參閱 [Power BI Premium 中的編頁報表](paginated-reports-report-builder-power-bi.md)。 若要深入了解如何啟用編頁報表工作負載，請參閱[設定工作負載](service-admin-premium-workloads.md)。
+若要深入了解，請參閱 [Power BI Premium 中的編頁報表](paginated-reports/paginated-reports-report-builder-power-bi.md)。 若要深入了解如何啟用編頁報表工作負載，請參閱[設定工作負載](service-admin-premium-workloads.md)。
 
 ## <a name="power-bi-report-server"></a>Power BI 報表伺服器
  
@@ -227,7 +227,7 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 若要深入了解，請參閱 [Power BI 授權](service-admin-licensing-organization.md)。
 
-## <a name="tool-connectivity-preview"></a>工具連線 (預覽)
+## <a name="analysis-services-in-power-bi-premium-preview"></a>Power BI Premium 中的 Analysis Services (預覽)
 
 實際上，Power BI 資料集受到經企業實證的 Microsoft **Analysis Services Vertipaq 引擎**支援。 Analysis Services 透過支援開放標準 XMLA 通訊協定的用戶端程式庫和 API 來提供程式設計功能，以及用戶端應用程式和工具支援。 目前，Power BI Premium 資料集透過 **XMLA 端點**支援來自 Microsoft 和協力廠商用戶端應用程式與工具的「唯讀」  作業。 
 

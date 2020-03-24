@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 28116a4e2b89fe5f8fe719f8d6c0d9eca28310eb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6e468ac429c26f3b1880501914816ac60f8b7858
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867686"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378723"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>從 Power BI Desktop 將報表匯出為 PDF
 在 **Power BI Desktop** 或 Power BI 服務中，可將報表匯出為 PDF 檔案，因此可輕鬆地利用該 PDF 分享或列印報表。
@@ -34,7 +34,7 @@ ms.locfileid: "73867686"
 ## <a name="considerations-and-limitations"></a>考量與限制
 使用**匯出至 PDF** 功能時，請注意幾項考量：
 
-* 此功能會匯出自訂的視覺效果，但並*不會*匯出任何對報表套用的背景圖案。
+* 此功能會匯出 Power BI 視覺效果，但並「不會」  匯出任何對報表套用的背景圖案。
 
 因為背景圖案不會匯出至 PDF，所以請特別注意使用深色背景圖案的報表。 若您報表中的文字為淡色或是白色，以凸顯於深色的背景圖案上，即會因為背景圖案並不會與報表的其他部分一起匯出，而在匯出至 PDF 的程序中，發生不易閱讀或無法閱讀的情況。 
 

@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: d688e54607283a6bcb67f895a89ca991f68bc01b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922474"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379344"
 ---
 # <a name="color-utils"></a>色彩公用程式
 此文章將協助您安裝、匯入及使用色彩公用程式。 此文章說明如何使用色彩公用程式，簡化在 Power BI 視覺效果上的視覺效果資料點套用佈景主題與調色盤的程序。
@@ -40,7 +40,7 @@ npm install powerbi-visuals-utils-colorutils --save
 import { ColorHelper } from "powerbi-visuals-utils-colorutils";
 ```
 
-了解如何在您的自訂視覺效果中安裝及使用 ColorUtils：
+了解如何在 Power BI 視覺效果中安裝及使用 ColorUtils：
 
 * [使用指南]《使用指南》說明套件的公用 API。 您會發現套件每個公用介面的描述與一些範例。
 

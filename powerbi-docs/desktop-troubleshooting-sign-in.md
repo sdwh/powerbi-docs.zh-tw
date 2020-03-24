@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 50cb15e95f051dd6860112243514464dd80a8b1e
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401183"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133209"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>對 Power BI Desktop 的登入進行疑難排解
 當您嘗試登入 **Power BI Desktop** 時，有時可能會遇到錯誤。 登入問題有兩個主要原因：**Proxy 驗證錯誤**和**非 HTTPS URL 重新導向錯誤**。 
@@ -75,4 +75,37 @@ ms.locfileid: "78401183"
     `C:\Users/<user name>/AppData/Local/Microsoft/Power BI Desktop/Traces`
 
 該資料夾中可能有許多追蹤檔案。 請確定只傳送最近的檔案給您的系統管理員，這樣有助於他們快速識別錯誤。 
+
+
+## <a name="using-default-system-credentials-for-web-proxy"></a>使用 Web Proxy 的預設系統認證
+
+Power BI Desktop 發出的 Web 要求不會使用 Web Proxy 認證。 在使用 Proxy 伺服器的網路中，Power BI Desktop 可能無法成功提出 Web 要求。 
+
+從 2020 年 3 月的 Power BI Desktop 版本開始，系統或網路系統管理員可以允許使用預設系統認證來進行 Web Proxy 驗證。 系統管理員可以建立名為 **UseDefaultCredentialsForProxy** 的登錄項目，並將值設定為一 (1) 以允許使用預設系統認證進行 Web Proxy 驗證。
+
+登錄項目可以放在下列其中一個位置：
+
+`[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft Power BI Desktop]`
+`[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop]`
+
+登錄項目不一定要同時放在這兩個位置中。
+
+![使用預設系統認證的登錄機碼](media/desktop-troubleshooting-sign-in/desktop-tshoot-sign-in-03.png)
+
+建立登錄項目後 (可能需要重新開機)，當 Power BI Desktop 提出 Web 要求時，就會使用在 Internet Explorer 中定義的 Proxy 設定。 
+
+如同對 Proxy 或認證設定所做的任何變更一樣，建立此登錄項目時可能會影響安全性，因此系統管理員必須先確定其已正確設定 Internet Explorer Proxy，再啟用此功能。         
+
+### <a name="limitations-and-considerations-for-using-default-system-credentials"></a>使用預設系統認證的限制與考量
+
+在啟用這項功能之前，系統管理員應該考量的一系列安全性影響。 
+
+為用戶端啟用這項功能時，應遵循下列建議：
+
+* 僅使用**協商**作為 Proxy 伺服器上的驗證配置，以確保用戶端僅使用加入至 Active Directory 網路的 Proxy 伺服器。 
+* 請勿在使用這項功能的用戶端上使用 **NTLM 後援**。
+* 當此功能依照本節的建議啟用及設定時，如果使用者不在具有 Proxy 的網路上，則不會使用嘗試連至 Proxy 伺服器和使用預設系統認證的程序。
+
+
+[使用 Web Proxy 的預設系統認證](#using-default-system-credentials-for-web-proxy)
 

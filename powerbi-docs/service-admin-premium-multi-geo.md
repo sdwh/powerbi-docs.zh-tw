@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 27e4bbd1437f59b7cf213333d9df27019aaadcd4
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ad7c0dab0c4390326eea157351735802d12b3795
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698846"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488560"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>設定 Power BI Premium 的多地理位置支援
 
@@ -31,9 +31,9 @@ ms.locfileid: "74698846"
 - 澳洲
 - 非洲
 
-多地理位置不適用於 Power BI Germany、由 21Vianet 經營的 Power BI China 或美國政府的 Power BI。
+多地理位置不適用於 Power BI Germany、由 21Vianet 經營的 Power BI China 或 US Gov 的 Power BI。
 
-您現在也可以在 Power BI Embedded 中找到多地理位置功能。 如需詳細資訊，請參閱 [Power BI Embedded 中的多地理位置支援](developer/embedded-multi-geo.md)。
+您現在也可以在 Power BI Embedded 中找到多地理位置功能。 如需詳細資訊，請參閱 [Power BI Embedded 中的多地理位置支援](developer/embedded/embedded-multi-geo.md)。
 
 ## <a name="enable-and-configure"></a>啟用及設定
 
@@ -70,7 +70,7 @@ ms.locfileid: "74698846"
 
 ## <a name="view-capacity-regions"></a>檢視容量區域
 
-在管理入口網站中，可以檢視適用於您 Power BI 租用戶的所有容量，及其目前所在的區域。
+在管理入口網站中，可以檢視適用於 Power BI 租用戶的所有容量，以及其目前所在的區段。
 
 ![檢視 Premium 容量](media/service-admin-premium-multi-geo/power-bi-multi-geo-premium-capacities.png) 
 
@@ -99,6 +99,6 @@ ms.locfileid: "74698846"
 ## <a name="next-steps"></a>後續步驟
 
 - [什麼是 Power BI Premium？](service-premium-what-is.md)
-- [Power BI Embedded 容量的多地理位置](developer/embedded-multi-geo.md)
+- [Power BI Embedded 容量的多地理位置](developer/embedded/embedded-multi-geo.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
