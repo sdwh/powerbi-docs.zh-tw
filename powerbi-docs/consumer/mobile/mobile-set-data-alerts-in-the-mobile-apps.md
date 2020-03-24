@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 3af0470e29b4f71cf8948bff4c1b317304533ac8
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114659"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435804"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中設定資料警示
 適用於︰
@@ -103,6 +103,10 @@ ms.locfileid: "79114659"
 5. 若要一併刪除所有警示，請點選垃圾桶圖示 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png)。
 
 ## <a name="data-alerts-on-a-windows-device"></a>Windows 裝置上的資料警示
+
+>[!NOTE]
+>**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 ### <a name="set-data-alerts-on-a-windows-device"></a>在 Windows 裝置上設定資料警示
 1. 點選儀表板中的數字磚或量測計磚，以開啟該卡片與量測計。  
 2. 點選鐘圖示 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) 加入警示。  
