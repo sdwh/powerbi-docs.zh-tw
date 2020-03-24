@@ -143,7 +143,7 @@ ms.locfileid: "75762339"
 |callr|2.0.2|https://cran.r-project.org/web/packages/callr/index.html|
 |car|2.1-6|https://cran.r-project.org/web/packages/car/index.html|
 |carData|3.0-1|https://cran.r-project.org/web/packages/carData/index.html|
-|插入號|6.0-78|https://cran.r-project.org/web/packages/caret/index.html|
+|caret|6.0-78|https://cran.r-project.org/web/packages/caret/index.html|
 |catnet|1.15.3|https://cran.r-project.org/web/packages/catnet/index.html|
 |caTools|1.17.1|https://cran.r-project.org/web/packages/caTools/index.html|
 |cclust|0.6-21|https://cran.r-project.org/web/packages/cclust/index.html|
@@ -155,7 +155,7 @@ ms.locfileid: "75762339"
 |chron|2.3-52|https://cran.r-project.org/web/packages/chron/index.html|
 |circlize|0.4.3|https://cran.r-project.org/web/packages/circlize/index.html|
 |Ckmeans.1d.dp|4.2.1|https://cran.r-project.org/web/packages/Ckmeans.1d.dp/index.html|
-|類別|7.3-14|https://cran.r-project.org/web/packages/class/index.html|
+|class|7.3-14|https://cran.r-project.org/web/packages/class/index.html|
 |classInt|0.1-24|https://cran.r-project.org/web/packages/classInt/index.html|
 |cli|1.0.0|https://cran.r-project.org/web/packages/cli/index.html|
 |ClickClust|1.1.5|https://cran.r-project.org/web/packages/ClickClust/index.html|
@@ -197,8 +197,8 @@ ms.locfileid: "75762339"
 |d3r|0.8.0|https://cran.r-project.org/web/packages/d3r/index.html|
 |data.table|1.10.4-3|https://cran.r-project.org/web/packages/data.table/index.html|
 |data.tree|0.7.5|https://cran.r-project.org/web/packages/data.tree/index.html|
-|資料集|3.4.4|NA|
-|日期|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
+|datasets|3.4.4|NA|
+|date|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
 |DBI|0.8|https://cran.r-project.org/web/packages/DBI/index.html|
 |dbplyr|1.2.1|https://cran.r-project.org/web/packages/dbplyr/index.html|
 |dbscan|1.1-1|https://cran.r-project.org/web/packages/dbscan/index.html|
@@ -302,7 +302,7 @@ ms.locfileid: "75762339"
 |foreign|0.8-69|https://cran.r-project.org/web/packages/foreign/index.html|
 |formatR|1.5|https://cran.r-project.org/web/packages/formatR/index.html|
 |formattable|0.2.0.1|https://cran.r-project.org/web/packages/formattable/index.html|
-|公式|1.2-2|https://cran.r-project.org/web/packages/Formula/index.html|
+|Formula|1.2-2|https://cran.r-project.org/web/packages/Formula/index.html|
 |fpc|2.1-11|https://cran.r-project.org/web/packages/fpc/index.html|
 |fracdiff|1.4-2|https://cran.r-project.org/web/packages/fracdiff/index.html|
 |fTrading|3042.79|https://cran.r-project.org/web/packages/fTrading/index.html|
@@ -373,7 +373,7 @@ ms.locfileid: "75762339"
 |gower|0.1.2|https://cran.r-project.org/web/packages/gower/index.html|
 |GPArotation|2014.11-1|https://cran.r-project.org/web/packages/GPArotation/index.html|
 |gplots|3.0.1|https://cran.r-project.org/web/packages/gplots/index.html|
-|圖形|3.4.4|NA|
+|graphics|3.4.4|NA|
 |grDevices|3.4.4|NA|
 |grid|3.4.4|NA|
 |gridBase|0.4-7|https://cran.r-project.org/web/packages/gridBase/index.html|
@@ -401,7 +401,7 @@ ms.locfileid: "75762339"
 |hexbin|1.27.2|https://cran.r-project.org/web/packages/hexbin/index.html|
 |hflights|0.1|https://cran.r-project.org/web/packages/hflights/index.html|
 |HH|3.1-34|https://cran.r-project.org/web/packages/HH/index.html|
-|夏威夷|0.4|https://cran.r-project.org/web/packages/HI/index.html|
+|HI|0.4|https://cran.r-project.org/web/packages/HI/index.html|
 |highcharter|0.5.0|https://cran.r-project.org/web/packages/highcharter/index.html|
 |highr|0.6|https://cran.r-project.org/web/packages/highr/index.html|
 |HistData|0.8-2|https://cran.r-project.org/web/packages/HistData/index.html|
@@ -502,7 +502,7 @@ ms.locfileid: "75762339"
 |MasterBayes|2.55|https://cran.r-project.org/web/packages/MasterBayes/index.html|
 |Matching|4.9-5|https://cran.r-project.org/web/packages/Matching/index.html|
 |MatchIt|3.0.2|https://cran.r-project.org/web/packages/MatchIt/index.html|
-|矩陣圖|1.2-12|https://cran.r-project.org/web/packages/Matrix/index.html|
+|Matrix|1.2-12|https://cran.r-project.org/web/packages/Matrix/index.html|
 |matrixcalc|1.0-3|https://cran.r-project.org/web/packages/matrixcalc/index.html|
 |MatrixModels|0.4-1|https://cran.r-project.org/web/packages/MatrixModels/index.html|
 |matrixStats|0.54.0|https://cran.r-project.org/web/packages/matrixStats/index.html|
@@ -702,7 +702,7 @@ ms.locfileid: "75762339"
 |relimp|1.0-5|https://cran.r-project.org/web/packages/relimp/index.html|
 |rematch|1.0.1|https://cran.r-project.org/web/packages/rematch/index.html|
 |Renext|3.1-0|https://cran.r-project.org/web/packages/Renext/index.html|
-|報表|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
+|reports|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
 |reprex|0.1.2|https://cran.r-project.org/web/packages/reprex/index.html|
 |reshape|0.8.7|https://cran.r-project.org/web/packages/reshape/index.html|
 |reshape2|1.4.3|https://cran.r-project.org/web/packages/reshape2/index.html|
@@ -810,14 +810,14 @@ ms.locfileid: "75762339"
 |smoothSurv|2.0|https://cran.r-project.org/web/packages/smoothSurv/index.html|
 |sna|2.4|https://cran.r-project.org/web/packages/sna/index.html|
 |snakecase|0.9.1|https://cran.r-project.org/web/packages/snakecase/index.html|
-|雪白|0.4-2|https://cran.r-project.org/web/packages/snow/index.html|
+|snow|0.4-2|https://cran.r-project.org/web/packages/snow/index.html|
 |SnowballC|0.5.1|https://cran.r-project.org/web/packages/SnowballC/index.html|
 |snowFT|1.6-0|https://cran.r-project.org/web/packages/snowFT/index.html|
 |sourcetools|0.1.6|https://cran.r-project.org/web/packages/sourcetools/index.html|
 |sp|1.2-7|https://cran.r-project.org/web/packages/sp/index.html|
 |spacetime|1.2-1|https://cran.r-project.org/web/packages/spacetime/index.html|
 |spacyr|0.9.6|https://cran.r-project.org/web/packages/spacyr/index.html|
-|垃圾郵件|2.1-3|https://cran.r-project.org/web/packages/spam/index.html|
+|spam|2.1-3|https://cran.r-project.org/web/packages/spam/index.html|
 |SparseM|1.77|https://cran.r-project.org/web/packages/SparseM/index.html|
 |sparsepp|0.2.0|https://cran.r-project.org/web/packages/sparsepp/index.html|
 |spatial|7.3-11|https://cran.r-project.org/web/packages/spatial/index.html|
@@ -906,7 +906,7 @@ ms.locfileid: "75762339"
 |tools|3.4.4|NA|
 |topicmodels|0.2-7|https://cran.r-project.org/web/packages/topicmodels/index.html|
 |TraMineR|2.0-8|https://cran.r-project.org/web/packages/TraMineR/index.html|
-|轉譯|3.4.4|NA|
+|translations|3.4.4|NA|
 |tree|1.0-39|https://cran.r-project.org/web/packages/tree/index.html|
 |treemap|2.4-2|https://cran.r-project.org/web/packages/treemap/index.html|
 |trelliscopejs|0.1.18|https://cran.r-project.org/web/packages/trelliscopejs/index.html|
