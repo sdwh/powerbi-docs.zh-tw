@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 349b4d51c1649b714c67e61ac42ddcc49b2eeb12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376716"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114880"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 本文適用於將 Power BI 部署為 Office 365 政府方案一部分的美國政府客戶。 政府方案是針對必須符合美國合規性和安全性標準的組織獨特需求而設計。 為美國政府客戶設計的 Power BI 服務，與 Power BI 服務的商業版本不同。 下列各節說明這些功能差異和功能。
@@ -95,7 +95,7 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |  |從 CSV 檔案匯入資料|可用|可用|可用|
 |  |從 Power BI desktop 檔案匯入資料|可用|可用|可用|
 |  |CDS 的連線|可用|無法使用|無法使用|
-|  |Azure Data Lake Storage Gen2 連接器|無法使用|無法使用|無法使用|
+|  |Azure Data Lake Storage Gen2 連接器|可用|無法使用|無法使用|
 |資料管理|資料管理閘道|可用|可用|可用|
 |  |Azure SQL 中的資料加密|可用|可用|可用|
 |  |Power BI Blob 儲存體中的資料加密|可用|可用|可用|
