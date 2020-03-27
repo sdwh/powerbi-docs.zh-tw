@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: e7160505a720b6629067d7b1486f0dd227efd862
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311644"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273309"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散佈圖、泡泡圖與點圖
 
@@ -176,7 +176,7 @@ ms.locfileid: "74311644"
 
 ![已將 [RowNum] 新增至 [詳細資料] 部分的散佈圖螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi-scatter-tshoot.png)
 
-如果您的資料中沒有它，請建立一個欄位，將 X 與 Y 值串連成每個點的獨特內容：
+如果資料中沒有該項目，請建立一個欄位，將 X 與 Y 值串連成每個點的獨特內容：
 
 ![已將 [TempTime] 新增至 [詳細資料] 部分的散佈圖螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
@@ -184,8 +184,10 @@ ms.locfileid: "74311644"
 
 ## <a name="next-steps"></a>後續步驟
 
-* [Power BI 散佈圖中的高密度取樣](desktop-high-density-scatter-charts.md)
+您可能也會對下列文章感興趣：
 
+* [Power BI 散佈圖中的高密度取樣](desktop-high-density-scatter-charts.md)
 * [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [排序和散發 Power BI 報表中資料繪圖的提示](../guidance/report-tips-sort-distribute-data-plots.md)
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae33d7aac0eb42e925e78b8b76a9d7106cdf9d20
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b603ced5775d72c09419ea5e18b2eb03b2680e95
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867432"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273355"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 散佈圖中的高密度取樣
 從 **Power BI Desktop** 的 2017 年 9 月版和 **Power BI 服務**的更新開始，有新的取樣演算法可以改善散佈圖代表高密度資料的方式。
@@ -85,7 +85,8 @@ ms.locfileid: "73867432"
 * **高密度取樣**演算法只能搭配對以 Power BI 服務為基礎的模型、匯入的模型，或 DirectQuery 等的即時連線。
 
 ## <a name="next-steps"></a>後續步驟
-如需在其他圖表進行高密度取樣的詳細資訊，請參閱下列文章。
+
+如需高密度取樣的詳細資訊，請參閱下列文章：
 
 * [Power BI 中的高密度線路取樣](desktop-high-density-sampling.md)
-
+* [排序和散發 Power BI 報表中資料繪圖的提示](guidance/report-tips-sort-distribute-data-plots.md)

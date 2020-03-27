@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 02bea09bcd6400b4dc316a08ec74ed2780ad3363
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205266"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273171"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI 的資料保護 (預覽)
 
@@ -105,6 +105,8 @@ ms.locfileid: "79205266"
 * Power BI 中套用的標籤不支援 [HYOK 保護](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)。
 * 必須滿足[授權需求](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)，以在 Office 應用程式中檢視與套用標籤。
 * 只有全域 (公用) 雲端中的租用戶，才能使用敏感度標籤。 其他雲端中的租用戶無法使用敏感度標籤。
+* 範本應用程式不支援資料敏感度標籤。
+* Power BI 不支援**不可轉寄**和**臨機操作**保護類型的敏感度標籤。
 
 ## <a name="next-steps"></a>後續步驟
 

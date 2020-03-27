@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b90bfd9482e28faa8d9dfb0d089ca07656663b53
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762454"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273194"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>將文字方塊和圖形新增至 Power BI 報表
 您可以使用 Power BI 服務和 Power BI Desktop 將文字方塊和圖形新增至報表。 在這兩種情況下，您都必須要有報表的編輯權限。 如果報表已在 Power BI 服務中與您共用，則您不會有編輯權限。 
@@ -63,8 +63,10 @@ ms.locfileid: "75762454"
    > 
 
 ## <a name="next-steps"></a>後續步驟
-[將超連結新增至文字方塊](service-add-hyperlink-to-text-box.md)
 
-[Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
+您可能也會對下列文章感興趣：
 
-有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
+* [將超連結新增至文字方塊](service-add-hyperlink-to-text-box.md)
+* [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
+* [改善在 Power BI 報表中使用圖形、影像和圖示進行分析的提示](guidance/report-tips-shapes-images-icons.md)
+* 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

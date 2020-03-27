@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 08/29/2019
-ms.openlocfilehash: b8301ca17559b81d4db132fbeaa0955ce68a4c6e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 7a5ec7ef1f66a4a5b6ec80c80e9fd37e19bb2813
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922520"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113546"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>針對 Power BI 中的編頁報表在 URL 中傳遞報表參數 
 
@@ -64,8 +64,8 @@ rp:SalesOrderNumber:isnull=true
 
 > [!NOTE]
 > 如果報表包含具有預設值的報表參數，且 **Prompt** 屬性的值為 **false** (也就是未在報表管理員中選取 [提示使用者]  屬性)，則您無法在 URL 中傳遞該報表參數的值。 這可讓系統管理員選擇防止終端使用者新增或修改特定報表參數的值。
-
-> Power BI 不支援超過 900 個字元的查詢字串。  如果您使用 url 參數來檢視您的編頁報表，則可以超過此值。  如果您使用多重值參數，尤其如此。
+> 
+> Power BI 不支援超過 2,000 個字元的查詢字串。  如果您使用 url 參數來檢視您的編頁報表，則可以超過此值。  如果您使用多重值參數，尤其如此。
 
 ## <a name="additional-examples"></a>其他範例 
 

@@ -10,12 +10,12 @@ ms.date: 01/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6cf298f6fd4d6d99163b2c0f5674b40cfc14bbfc
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1102022edca3afad2a658facdf43da7b8bca547d
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75657182"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113776"
 ---
 # <a name="track-user-activities-in-power-bi"></a>追蹤 Power BI 中的使用者活動
 
@@ -49,7 +49,7 @@ ms.locfileid: "75657182"
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?startDateTime='2019-08-31T00:00:00'&endDateTime='2019-08-31T23:59:59'
 ```
 
-如果項目數很大，則 **ActivityEvents** API 只會傳回大約 5,000 到 10,000 個項目和一個接續權杖。 接著，您必須使用接續權杖再次呼叫 **ActivityEvents** API，以取得下一批項目，依此類推，直到您已擷取所有項目且不再收到接續權杖為止。 下列範例示範如何使用此接續權杖。
+如果項目數很大，則 **ActivityEvents** API 只會傳回大約 5,000 到 10,000 個項目和一個接續權杖。 使用接續權杖再次呼叫 **ActivityEvents** API，以取得下一批項目，依此類推，直到已擷取所有項目且不再收到接續權杖為止。 下列範例示範如何使用此接續權杖。
 
 ```
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?continuationToken='%2BRID%3ARthsAIwfWGcVAAAAAAAAAA%3D%3D%23RT%3A4%23TRC%3A20%23FPC%3AARUAAAAAAAAAFwAAAAAAAAA%3D'
@@ -68,12 +68,15 @@ while(response.ContinuationToken != null)
 }
 completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 ```
-
+> [!NOTE]
+> 所有事件最多可能需要 24 小時才會顯示，雖然完整的資料通常會更快提供使用。
+>
+>
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Get-PowerBIActivityEvent Cmdlet
 
-使用適用於 PowerShell 的 Power BI 管理 Cmdlet (其中包括會自動為您處理接續權杖的 **Get-PowerBIActivityEvent** Cmdlet)，即可直接下載活動事件。 **Get-PowerBIActivityEvent** Cmdlet 會採用 StartDateTime 和 EndDateTime 參數，其限制與 **ActivityEvents** REST API 相同。 換句話說，開始日期和結束日期必須參考相同的日期值，因為您一次只能擷取一天的活動資料。
+使用 PowerShell 的 Power BI 管理 Cmdlet 來下載活動事件。 **Get-PowerBIActivityEvent** Cmdlet 會自動處理接續權杖。 **Get-PowerBIActivityEvent** Cmdlet 會採用 StartDateTime 和 EndDateTime 參數，其限制與 **ActivityEvents** REST API 相同。 換句話說，開始日期和結束日期必須參考相同的日期值，因為您一次只能擷取一天的活動資料。
 
-下列指令碼示範如何下載所有 Power BI 活動。 此命令會將 JSON 的結果轉換成 .NET 物件，以便直接存取個別的活動屬性。
+下列指令碼示範如何下載所有 Power BI 活動。 此命令會將 JSON 的結果轉換成 .NET 物件，以便直接存取個別的活動屬性。 這些範例會顯示一天中最可能的最小和最大時間戳記，確保不會遺漏任何事件。
 
 ```powershell
 Login-PowerBI
@@ -111,15 +114,15 @@ $activities[0]
 
 - 您必須是全域管理員或已被指派 Exchange Online 中的「稽核記錄」或「僅供檢視稽核記錄」角色，才能存取稽核記錄。 根據預設，「法規遵循管理」和「組織管理」角色群組會隨附在 Exchange 系統管理中心的 [權限]  頁面上指派的這些角色。
 
-    若要提供可存取稽核記錄的非系統管理員帳戶，您必須將使用者新增為上述其中一個角色群組的成員。 如果您想要以另一種方式執行，則可以在 Exchange 系統管理中心建立自訂角色群組，將「稽核記錄」或「僅供檢視稽核記錄」角色指派給這個群組，然後將非系統管理員帳戶新增至新的角色群組。 如需詳細資訊，請參閱[在 Exchange Online 中管理角色群組](/Exchange/permissions-exo/role-groups)。
+    若要提供稽核記錄存取權給非系統管理員帳戶，請將使用者新增為這些角色群組中其中一個角色群組的成員。 如果您想要以另一種方式執行，則可以在 Exchange 系統管理中心建立自訂角色群組，將「稽核記錄」或「僅供檢視稽核記錄」角色指派給這個群組，然後將非系統管理員帳戶新增至新的角色群組。 如需詳細資訊，請參閱[在 Exchange Online 中管理角色群組](/Exchange/permissions-exo/role-groups)。
 
     如果您無法從 Microsoft 365 系統管理中心存取 Exchange 系統管理中心，請前往 https://outlook.office365.com/ecp 並使用您的認證登入。
 
-- 如果您有稽核記錄的存取權，但並不是全域管理員或 Power BI 服務管理員，您將無法存取 Power BI 管理入口網站。 在此情況下，您必須使用 [Office 365 安全性與合規性中心](https://sip.protection.office.com/#/unifiedauditlog) \(英文\) 的直接連結。
+- 若您有稽核記錄的存取權，但並非全域系統管理員或 Power BI 服務系統管理員，則無法進入 Power BI 管理入口網站。 在此情況下，請直接連結到 [Office 365 安全性與合規性中心](https://sip.protection.office.com/#/unifiedauditlog)。
 
 ### <a name="access-your-audit-logs"></a>存取您的稽核記錄
 
-若要存取記錄，請務必先在 Power BI 中啟用記錄功能。 如需詳細資訊，請參閱系統管理入口網站文件中的[稽核記錄](service-admin-portal.md#audit-logs)。 啟用稽核到能夠檢視稽核資料的時間之間，可能有最多 48 小時的延遲。 若您未立即看到資料，請稍候再查看稽核記錄。 取得檢視稽核記錄的權限，以及能夠存取記錄的延遲可能相近。
+若要存取記錄，請務必先在 Power BI 中啟用記錄功能。 如需詳細資訊，請參閱系統管理入口網站文件中的[稽核記錄](service-admin-portal.md#audit-logs)。 啟用稽核到能夠檢視稽核資料之間，可能有最多 48 小時的延遲。 若您未立即看到資料，請稍候再查看稽核記錄。 取得檢視稽核記錄的權限，以及能夠存取記錄的延遲可能相近。
 
 Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](https://sip.protection.office.com/#/unifiedauditlog)取得。 此外，也有 Power BI 管理入口網站的連結：
 
@@ -258,7 +261,7 @@ Remove-PSSession $Session
 | 已建立 Power BI 資料夾                           | CreateFolder                                |                                          |
 | 已建立 Power BI 閘道                          | CreateGateway                               |                                          |
 | 已建立 Power BI 群組                            | CreateGroup                                 |                                          |
-| 已建立 Power BI 報表                           | CreateReport                                |                                          |
+| 已建立 Power BI 報表                           | CreateReport <sup>1</sup>                                |                                          |
 | 已將資料流程移轉至外部儲存體帳戶     | DataflowMigratedToExternalStorageAccount    | 目前未使用                       |
 | 已新增資料流程權限                        | DataflowPermissionsAdded                    | 目前未使用                       |
 | 已移除資料流程權限                      | DataflowPermissionsRemoved                  | 目前未使用                       |
@@ -294,7 +297,7 @@ Remove-PSSession $Session
 | 已張貼 Power BI 註解                           | PostComment                                 |                                          |
 | 已列印 Power BI 儀表板                        | PrintDashboard                              |                                          |
 | 已列印 Power BI 報表頁面                      | PrintReport                                 |                                          |
-| 已將 Power BI 報表發佈到 Web                  | PublishToWebReport                          |                                          |
+| 已將 Power BI 報表發佈到 Web                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | 已從金鑰保存庫收到 Power BI 資料流程密碼  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | 已從 Power BI 閘道移除資料來源         | RemoveDatasourceFromGateway                 |                                          |
 | 已移除 Power BI 群組成員                    | DeleteGroupMembers                          |                                          |
@@ -333,6 +336,10 @@ Remove-PSSession $Session
 | 已檢視 Power BI 磚                              | ViewTile                                    |                                          |
 | 已檢視 Power BI 使用計量                     | ViewUsageMetrics                            |                                          |
 |                                                   |                                             |                                          |
+
+<sup>1</sup> 從 Power BI Desktop 發佈到服務是在服務中的 CreateReport 事件。
+
+<sup>2</sup> PublishtoWebReport 指的是[發佈至 Web](service-publish-to-web.md) 功能。
 
 ## <a name="next-steps"></a>後續步驟
 

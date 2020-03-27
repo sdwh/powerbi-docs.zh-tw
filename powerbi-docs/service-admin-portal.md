@@ -10,12 +10,12 @@ ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488698"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114426"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -233,7 +233,12 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ### <a name="export-data"></a>匯出資料
 
-組織中的使用者可以從磚或視覺效果匯出資料。 深入了解[從磚或視覺效果匯出資料](visuals/power-bi-visualization-export-data.md)。
+組織中的使用者可以從磚或視覺效果匯出資料。 這會控制使用 Excel 分析、匯出至 .csv、資料集下載 (.pbix) 和 Power BI 服務 Live Connect 功能。 深入了解[從磚或視覺效果匯出資料](visuals/power-bi-visualization-export-data.md)。
+
+>[!NOTE]
+> 在引進 [匯出至 Excel] 設定之前，這項設定也控制了將資料匯出至 Excel 檔案。 請參閱[匯出至 Excel 下方的備註](#export-to-excel)以取得詳細資料。
+
+![匯出資料設定](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
 
 下圖顯示從圖格匯出資料的選項。
 
@@ -241,6 +246,15 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 > [!NOTE]
 > 停用 [匯出資料]  會讓使用者無法使用[「在 Excel 中進行分析」](service-analyze-in-excel.md)功能，也無法使用 Power BI 服務即時連線。
+
+### <a name="export-to-excel"></a>匯出至 Excel
+
+組織中的使用者可以將資料從視覺效果匯出至 Excel 檔案。
+
+![匯出至 Excel 設定](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+
+>[!IMPORTANT]
+> 在引進 [匯出至 Excel] 設定之前，匯出至 Excel 檔案是由 [匯出資料] 設定所控制。 因此，在引進 [匯出至 Excel] 設定前已存在的租用戶上，當租用戶系統管理員第一次查看 [匯出至 Excel] 設定時，租用戶系統管理員將會看到其具有「未套用的變更」  。 租用戶系統管理員必須套用這些變更，才能使新設定生效。 否則，匯出至 Excel 檔案將會繼續由 [匯出資料] 設定控制。
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>將報表匯出成 PowerPoint 簡報或 PDF 文件
 

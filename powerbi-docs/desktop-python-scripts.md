@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5693e75ff186c3edb95eeaa92d26823e0e0d3a60
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039062"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273332"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中執行 Python 指令碼
 
@@ -109,6 +109,14 @@ print (df)
 如果尚未安裝或識別 Python，系統便會顯示警告。 如果您有多個本機電腦安裝，也可能會看見警告。 請重新瀏覽並檢閱先前的＜安裝 Python＞及＜啟用 Python 指令碼＞小節。
 
 ![未安裝 Python 的警告](media/desktop-python-scripts/python-scripts-3.png)
+
+#### <a name="using-custom-python-distributions"></a>使用自訂 Python 發佈版本
+
+Power BI 會以使用者所提供目錄 (透過設定頁面提供) 中的 python.exe 可執行檔來直接執行指令碼。 需要額外步驟來準備環境 (例如 Conda) 的發佈版本可能會在執行失敗時遇到問題。
+
+我們建議使用從 https://www.python.org/ 取得的正式 Python 發佈版本，以避免相關問題。
+
+作為其中一個可行的解決方案，您可以從自訂 Python 環境提示字元中啟動 Power BI Desktop。
 
 ### <a name="refresh"></a>重新整理
 

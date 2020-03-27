@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
+ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207865"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80147369"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
@@ -28,6 +28,7 @@ ms.locfileid: "79207865"
 - 他們可以從 Microsoft AppSource 尋找並安裝您的應用程式。
 - 您可以向他們傳送直接連結。
 - 如果 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。
+- 當散發或更新應用程式時，Power BI 不會傳送任何電子郵件給內部使用者。 若將其散發給外部使用者，則這些外部使用者即會收到包含直接連結的電子郵件。 
 
 您可以建立具備內建瀏覽功能的應用程式，讓使用者可以在您內容中輕鬆找到他們的方式。 他們無法修改應用程式的內容。 但可以在 Power BI 服務或其中一個行動裝置應用程式中與其互動 - 自行篩選、醒目提示和排序資料。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 您也可以提供他們建置權限，讓他們連線到底層資料集，並在應用程式中建立報表的複本。 深入了解[建置權限](service-datasets-build-permissions.md)。
 

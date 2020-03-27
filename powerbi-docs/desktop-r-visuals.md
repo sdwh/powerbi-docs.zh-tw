@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69295657702f995786379b18d3ad1ed3641bcbb8
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 729a50e251a9c2ae083375e187ff133022f3ce91
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729802"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114857"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 建立 Power BI 視覺效果
 有了 Power BI Desktop，您可以使用 *R* 將資料視覺化。 [R](https://mran.revolutionanalytics.com/documents/what-is-r) 是用於統計資料計算和圖形的語言及環境。
@@ -130,6 +130,8 @@ Power BI Desktop 中的 R 視覺效果有下列限制：
 * 資料大小：R 視覺效果用於繪製的資料限制為 150,000 個資料列。 如果選取超過 150,000 個資料列，則只會使用前 150,000 個資料列，而且影像上會顯示訊息。
 
 * 解析度：所有 R 視覺效果都會以 72 DPI 顯示。
+
+* 繪圖裝置：僅支援繪圖至預設裝置。 
 
 * 計算時間：如果 R 視覺效果計算時間超過五分鐘，則會造成逾時錯誤。
 

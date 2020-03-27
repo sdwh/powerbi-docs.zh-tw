@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 02/28/2020
-ms.openlocfilehash: d9d97715853ab87ac507ff41117ab176b8620e2e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.date: 03/18/2020
+ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205243"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113594"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -48,7 +48,7 @@ Office 365 稽核記錄會在下列事件下方，詳述此報表類型的使用
 - 建立 Power BI 報表
 - 下載 Power BI 報表
 
-相對於 Power BI 報表，ReportType 欄位含有可識別已編頁的值 “PaginatedReport”。
+相對於 Power BI 報表，ReportType 欄位含有可識別已編頁的值 "PaginatedReport"。
 
 此外，稽核記錄還會針對編頁報表提供下列事件：
 
@@ -68,13 +68,17 @@ Office 365 稽核記錄會在下列事件下方，詳述此報表類型的使用
 
 您會收到錯誤訊息，而且在重新開啟工作負載之前，將無法檢視報表。 您仍然可以從工作區刪除報表。
 
-### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-supported-for-paginated-reports"></a>針對編頁報表支援的每個 Premium SKU 的預設記憶體為何？
+### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-that-support-paginated-reports"></a>針對支援編頁報表的每個進階 SKU 預設記憶體為何？
 
 適用於編頁報表之每個 Premium SKU 中的預設記憶體：
 
 - **P1/A4**：20% 預設值；10% 最小值
 - **P2/A5**：20% 預設值；5% 最小值
 - **P3/A6**：20% 預設值；2.5% 最小值
+
+Power BI 租用戶系統管理員可在管理入口網站中修改預設的記憶體百分比上限。 請參閱 [容量設定]  索引標籤上 [Power BI Premium]  下方的 [編頁報表]  工作負載區段。
+
+:::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="[編頁報表容量設定] 索引標籤":::
 
 ## <a name="general"></a>一般
 
@@ -86,7 +90,7 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>此文件指出 Power BI 報表產生器是優先選用的編寫工具。 我可以在適用於 Power BI 的 SQL Server Data Tools 中建立編頁報表嗎？
 
-是，但 Power BI 服務僅允許您一次上傳單一項目，因此，尚不支援製作者搭配 SQL Server Data Tools (SSDT) 使用的許多案例。 請參閱稍後可在此常見問題集中取得的完整[不支援功能清單](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)。  
+是，但 Power BI 服務僅允許您一次上傳單一項目；因此，尚不支援作者搭配 SQL Server Data Tools (SSDT) 使用的許多案例。 請參閱稍後可在此常見問題集中取得的完整[不支援功能清單](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)。  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>您支援哪些版本的報表產生器？
 
@@ -160,7 +164,7 @@ SaaS 內嵌 (包括安全內嵌支援) 已可供使用。 對於 PaaS 內嵌，�
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Power BI 中的其他報表特有功能 (例如，將報表磚釘選到儀表板) 將能搭配編頁報表來運作嗎？
 
-我們計畫要讓報表盡可能地支援服務中相同的主要案例。  在理想的情況下，雖然用來製作它們的工具不同，但從取用者觀點來看，它只是他們在入口網站之清單中的另一份報表。 他們不在意建立它的方式，他們可以完成所需的作業。  此功能同位有個很好的範例就是計劃性的註解支援。 儘管功能本身針對每個報表類型的運作方式可能稍有不同，但您還是能夠針對這兩者使用註解。
+我們計畫要讓報表盡可能地支援服務中相同的主要案例。  在理想的情況下，雖然用來製作這些內容的工具不同，但從取用者觀點來看，這只是其在入口網站清單中的另一份報表。 取用者不在意建立報表的方式；其可完成所需的作業。  此功能同位有個很好的範例就是計劃性的註解支援。 儘管功能本身針對每個報表類型的運作方式可能稍有不同，但您還是能夠針對這兩者使用註解。
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI 服務中是否有適用於編頁報表的報表檢視器控制項？
 
