@@ -102,12 +102,12 @@
               href: end-user-favorite.md
             - name: 列印儀表板、列印儀表板磚、列印報表頁面
               href: end-user-print.md
+            - name: 檢視與我共用的內容
+              href: end-user-shared-with-me.md
             - name: 檢視相關內容
               href: end-user-related.md
             - name: 檢視最近的內容
               href: end-user-recent.md
-            - name: 在與我共用容器中檢視內容
-              href: end-user-shared-with-me.md
             - name: 訂閱報表或儀表板
               href: end-user-subscribe.md
             - name: 在 Power BI 中搜尋及排序內容
