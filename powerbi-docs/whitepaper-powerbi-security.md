@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 50c8416573b995c34d62129d11926e70d9d4242d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381391"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404566"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
@@ -63,11 +63,11 @@ Power BI 使用 Azure Active Directory (**AAD**) 來驗證與管理帳戶。 Pow
 
 ![後端叢集](media/whitepaper-powerbi-security/powerbi-security-whitepaper_03.png)
 
-**閘道角色** 擔任使用者要求與 Power BI 服務之間的閘道。 使用者不會與閘道角色以外的任何角色直接互動。
+**閘道角色**擔任使用者要求與 Power BI 服務之間的閘道。 使用者不會與閘道角色以外的任何角色直接互動。
 
 **重要事項：** 請務必注意，_只有_Azure API 管理（**APIM**）和閘道（**GW**）角色可透過公用網際網路存取。 這些角色提供驗證、授權、DDoS 保護、節流、負載平衡、路由及其他功能。
 
-上方**後端**叢集影像中的虛線清楚劃分使用者能夠存取的唯二角色 (虛線左側)，以及只有系統可以存取的角色。 當已驗證的使用者連線到 Power BI 服務時，用戶端的連線和任何要求 (由**閘道角色**和 **Azure API 管理**接受及管理) ，會代表使用者與 Power BI 服務的其餘部分互動。 例如，當用戶端嘗試檢視儀表板時， **閘道角色** 會接受該要求，然後另外傳送要求給 **簡報角色** ，以擷取瀏覽器呈現儀表板所需的資料。
+上方**後端**叢集影像中的虛線清楚劃分使用者能夠存取的唯二角色 (虛線左側)，以及只有系統可以存取的角色。 當已驗證的使用者連線到 Power BI 服務時，用戶端的連線和任何要求 (由**閘道角色**和 **Azure API 管理**接受及管理) ，會代表使用者與 Power BI 服務的其餘部分互動。 例如，當用戶端嘗試檢視儀表板時，**閘道角色**會接受該要求，然後另外傳送要求給**簡報角色**，以擷取瀏覽器呈現儀表板所需的資料。
 
 ![閘道角色](media/whitepaper-powerbi-security/powerbi-security-whitepaper_04.png)
 
@@ -135,7 +135,7 @@ Power BI 服務的使用者驗證包含一系列的要求、回應，並在使�
 
 Power BI 服務的使用者驗證順序如下列步驟中所述，請見下列圖示。
 
-1. 使用者可在 Power BI 位址的網址列 (例如 https://app.powerbi.com)) 中鍵入 Power BI 位址，或在 Power BI 登陸頁面 ( _) 選取 [登入]_ https://powerbi.microsoft.com)，以從瀏覽器起始對 Power BI 服務的連線。 連線是使用 TLS 1.2 和 HTTPS 來建立，而瀏覽器和 Power BI 服務之間所有後續的通訊則使用 HTTPS。 要求傳送至 **Azure 流量管理員**。
+1. 使用者可以在網址列中輸入 Power BI 位址（例如 `https://app.powerbi.com`），或從 Power BI 登陸頁面（ https://powerbi.microsoft.com)）選取 [登入]，以起始從瀏覽器到 Power BI 服務的_連線_。 連線是使用 TLS 1.2 和 HTTPS 來建立，而瀏覽器和 Power BI 服務之間所有後續的通訊則使用 HTTPS。 要求傳送至 **Azure 流量管理員**。
 
 2. **Azure 流量管理員**會檢查使用者的 DNS 記錄，以判斷已部署 Power BI 的最近資料中心，並以應傳送使用者之目標 WFE 叢集的 IP 位址來回應 DNS。
 
@@ -348,7 +348,7 @@ Power BI 行動版是針對三個主要行動平臺設計的應用程式集合�
 | **CBA 支援** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
 | **Power BI** (登入服務) | 支援 | 支援 | 不支援 |
-| **SSRS ADFS** (連線至 SSRS 伺服器) | 不支援 | 支援的 | 不支援 |
+| **SSRS ADFS** (連線至 SSRS 伺服器) | 不支援 | 支援 | 不支援 |
 
 Power BI 行動版應用程式會主動與 Power BI 服務通訊。 遙測用於收集行動應用程式使用量統計資料和類似資料，這些資料會傳輸至用於監視使用量和活動的服務；個人資料不會使用遙測資料傳送。
 
@@ -480,7 +480,7 @@ Power BI 中的資料儲存和資料處理，會根據是否使用 DirectQuery �
 - [開始使用 Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
 - [Power BI REST API - Overview](https://msdn.microsoft.com/library/dn877544.aspx) (Power BI REST API - 概觀)
 - [Power BI API reference](https://msdn.microsoft.com/library/mt147898.aspx) (Power BI API 參考)
-- [On-premises data gateway (內部部署資料閘道)](service-gateway-onprem.md)
+- [內部部署資料閘道](service-gateway-onprem.md)
 - [Power BI 國家/地區雲端](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [針對從 Power BI 到內部部署資料來源的 SSO 使用 Kerberos](service-gateway-sso-overview.md)
