@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 123dde6621cee901dc788476b3554fc9584ed0e5
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114351"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404017"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>註冊要與 Power BI 搭配使用的 Azure AD 應用程式
 
@@ -94,7 +94,7 @@ ms.locfileid: "80114351"
 
 ## <a name="how-to-get-the-service-principal-object-id"></a>如何取得服務主體物件識別碼
 
-使用 [Power BI API](https://docs.microsoft.com/rest/api/power-bi/) 時，請務必使用[服務主體物件識別碼](embed-service-principal.md#how-to-get-the-service-principal-object-id)定義作業，來參考服務主體 - 例如，以管理員身分將服務主體套用至工作區。
+使用 [Power BI API](https://docs.microsoft.com/rest/api/power-bi/) 時，請務必使用[服務主體物件識別碼](embed-service-principal.md)定義作業，來參考服務主體 - 例如，以管理員身分將服務主體套用至工作區。
 
 ## <a name="apply-permissions-to-your-application-within-azure-ad"></a>在 Azure AD 中將權限套用至應用程式
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 80b97757ab0ab8fefa23f4481abb2d8bc02de78d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 66a1253233ab623ff2332a7b112575a7509c0e3c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492483"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403701"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>搭配 Power BI Embedded 的資料列層級安全性
 
@@ -217,7 +217,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 7. 利用 Power BI API 在您的應用程式中使用 CustomData 功能。  使用自訂資料功能產生權杖時，您必須具有使用者名稱。 使用者名稱必須與主要使用者的 UPN 相等。 主要使用者必須為您所建立角色的成員。 若未指定任何角色，則會將主要使用者為成員的所有角色用於 RLS 評估。
 
-    使用[服務主體](embed-service-principal.md)時，您也需要執行上述步驟來代替使用主要帳戶。 產生內嵌權杖時，將[服務主體物件識別碼](embed-service-principal.md#how-to-get-the-service-principal-object-id)用作使用者名稱。
+    使用[服務主體](embed-service-principal.md)時，您也需要執行上述步驟來代替使用主要帳戶。 產生內嵌權杖時，將[服務主體物件識別碼](embed-service-principal.md)用作使用者名稱。
 
     > [!Note]
     > 當您準備將應用程式部署至生產環境時，終端使用者不應看到主要使用者帳戶欄位或選項。

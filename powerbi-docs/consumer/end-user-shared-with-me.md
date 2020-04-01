@@ -3,23 +3,22 @@ title: 顯示與我共用的報表與儀表板
 description: Power BI 中已與我共用的文件
 author: mihart
 ms.reviewer: ''
-featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d97727969ed48c50a86be032835b237d293a1d96
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114151"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302498"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>顯示與我共用的報表與儀表板
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -27,7 +26,7 @@ ms.locfileid: "79114151"
 
 ![共用圖示](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-觀看 Amanda 說明 [與我共用]  內容清單，並示範如何瀏覽和篩選清單。 然後遵循影片下方的逐步指示親自試試看。 為了讓您檢視與您共用的儀表板，您需要有 Power BI Pro 授權。 閱讀[我擁有哪些授權？](end-user-license.md)，以取得詳細資料。
+觀看 Amanda 說明 [與我共用]  內容清單，並示範如何瀏覽和篩選清單。 然後遵循影片下方的逐步指示親自試試看。 為了讓您檢視與您共用的儀表板，您需要有 Power BI Pro 授權。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](../service-premium-what-is.md)。
     
 
 > [!NOTE]

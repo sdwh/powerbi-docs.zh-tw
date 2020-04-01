@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 6dd5b7838a1f59971e11a4674853abead7af0b90
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 0042c7db70cac103d04d1c48d06c12b71634b541
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492782"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403655"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -96,7 +96,7 @@ Microsoft 建議企業購買 Power BI Premium，企業級的自助雲端 BI 解�
 
 您可以使用 PBI 入口網站尋找您的 PBI 租用戶區域。
 
-[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > 關於 Power BI
+[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > 關於 Power BI
 
 ![關於 Power BI](media/embedded-faq/about-01.png)
 ![租用戶區域](media/embedded-faq/tenant-location-01.png)
@@ -200,7 +200,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 **[應用程式識別碼](embed-sample-for-customers.md#application-id)** 用來在傳遞應用程式識別碼進行驗證時建立存取權杖。
 
-若要參考作業的服務主體或進行變更，請使用 **[服務主體物件識別碼](embed-service-principal.md#how-to-get-the-service-principal-object-id)** — 例如，以管理員身分將服務主體套用至工作區。
+若要參考作業的服務主體或進行變更，請使用 **[服務主體物件識別碼](embed-service-principal.md)** — 例如，以管理員身分將服務主體套用至工作區。
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>可以使用服務主體管理內部部署資料閘道嗎？
 

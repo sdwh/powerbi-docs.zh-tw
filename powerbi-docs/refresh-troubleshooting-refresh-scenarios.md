@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dcf8f3ca104e4caf749070b45cd47b0ca03f0dbd
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 62159b9dec4f82cfad3eecbc13b1d3a2c3b68f17
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699582"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404858"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>重新整理疑難排解案例
 
@@ -79,11 +79,11 @@ Microsoft 正在調查解決方案，以允許資料載入程序重新整理權�
 
 ## <a name="access-to-the-resource-is-forbidden"></a>禁止存取資源  
 
-此錯誤的發生原因可能是因為快取認證到期。 請登入 Power BI 並前往 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true 以清除網際網路瀏覽器快取。 這會強制更新認證。
+此錯誤的發生原因可能是因為快取認證到期。 請登入 Power BI 並前往 `https://app.powerbi.com?alwaysPromptForContentProviderCreds=true`以清除網際網路瀏覽器快取。 這會強制更新認證。
 
 ## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>因密碼變更或認證過期導致資料重新整理失敗
 
-資料重新整理可能會因為快取的認證到期而失敗。 請登入 Power BI 並前往 https://app.powerbi.com?alwaysPromptForContentProviderCreds=true 以清除網際網路瀏覽器快取。 這會強制更新認證。
+資料重新整理可能會因為快取的認證到期而失敗。 請登入 Power BI 並前往 `https://app.powerbi.com?alwaysPromptForContentProviderCreds=true`以清除網際網路瀏覽器快取。 這會強制更新認證。
 
 ## <a name="next-steps"></a>後續步驟
 
