@@ -1,93 +1,110 @@
-### YamlMime:Landing
+### YamlMime:Hub
 title: Power BI 開發人員文件
-summary: 不論您如何使用 Power BI，Power BI 文件都能提供專家資訊及答案解決您的需求。
+summary: 身為 Power BI 開發人員，您可以內嵌 Power BI 內容、開發 Power BI 的視覺效果，並將 Power BI 程序自動化。
+brand: power-bi
 metadata:
   title: Power BI 開發人員文件
-  description: 不論您如何使用 Power BI，Power BI 文件都能提供專家資訊及答案解決您的需求。
+  description: 身為 Power BI 開發人員，您可以內嵌 Power BI 內容、開發 Power BI 的視覺效果，並將 Power BI 程序自動化。
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-developer
-  ms.topic: landing-page
+  ms.topic: hub-page
   ms.collection: collection
-  author: maggiesMSFT
-  ms.author: maggies
-  ms.date: 10/25/2019
-  ms.openlocfilehash: b03678dba371ed26a8965c2ebbcd26453689cea2
-  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 03/18/2020
-  ms.locfileid: "79487755"
-landingContent:
-- title: 關於 Power BI 開發人員版
-  linkLists:
-  - linkListType: overview
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80487808"
+highlightedContent:
+  items:
+  - title: 搭配 Power BI 使用內嵌式分析
+    itemType: overview
+    url: embedded/embedding.md
+  - title: 什麼是 Azure Power BI Embedded？
+    itemType: overview
+    url: embedded/azure-pbie-what-is-power-bi-embedded.md
+  - title: Power BI 的視覺效果
+    itemType: overview
+    url: visuals/power-bi-custom-visuals.md
+  - title: 開發人員可如何利用 Power BI API？
+    itemType: overview
+    url: automation/overview-of-power-bi-rest-api.md
+conceptualContent:
+  items:
+  - title: 內嵌式分析
     links:
-    - text: 開發人員能執行的作業
-      url: what-can-you-do.md
-    - text: Power BI 的視覺效果
-      url: visuals/power-bi-custom-visuals.md
-    - text: 什麼是內嵌
-      url: embedded/embedding.md
-    - text: 什麼是 Power BI API
-      url: automation/overview-of-power-bi-rest-api.md
-  - linkListType: reference
+    - url: embedded/embedding.md
+      itemType: overview
+      text: 搭配 Power BI 使用內嵌式分析
+    - url: embedded/azure-pbie-what-is-power-bi-embedded.md
+      itemType: overview
+      text: 什麼是 Azure Power BI Embedded？
+    - url: embedded/embedded-capacity.md
+      itemType: concept
+      text: 容量與 SKU
+    footerLink:
+      url: embedded/index.yml
+      text: 查看更多
+  - title: Power BI 視覺效果
     links:
-    - text: 開發人員中心
-      url: https://powerbi.microsoft.com/developers/
-    - text: 開發人員範例
-      url: https://github.com/Microsoft/PowerBI-Developer-Samples
-    - text: JavaScript Wiki
-      url: https://github.com/Microsoft/powerbi-javascript/wiki
-    - text: REST API
+    - url: visuals/power-bi-custom-visuals.md
+      itemType: overview
+      text: Power BI 的視覺效果
+    - url: visuals/custom-visual-develop-tutorial.md
+      itemType: tutorial
+      text: 開發 Power BI 視覺效果
+    - url: visuals/office-store.md
+      itemType: how-to-guide
+      text: 將 Power BI 視覺效果發佈至合作夥伴中心
+    footerLink:
+      url: visuals/index.yml
+      text: 查看更多
+  - title: 自動化
+    links:
+    - url: automation/overview-of-power-bi-rest-api.md
+      itemType: overview
+      text: 開發人員可如何利用 Power BI API？
+    - url: automation/walkthrough-push-data.md
+      itemType: tutorial
+      text: 將資料推送至 Power BI 資料集
+    - url: automation/configure-credentials.md
+      itemType: how-to-guide
+      text: 設定認證
+    footerLink:
+      url: automation/index.yml
+      text: 查看更多
+additionalContent:
+  sections:
+  - title: 相關工具
+  - items:
+    - title: Power BI REST API
+      summary: Power BI REST API 可為內嵌、管理和使用者資源提供服務端點。
       url: https://docs.microsoft.com/rest/api/power-bi/
-    - text: Azure Resource Manager REST API
+    - title: Azure Resource Manager REST API
+      summary: 此 API 提供一組 RESTful 的 Web 服務，可讓您建立、擷取、更新及刪除 Power BI 專用容量。
       url: https://docs.microsoft.com/rest/api/power-bi-embedded/
-- title: 視覺效果
-  linkLists:
-  - linkListType: tutorial
-    links:
-    - text: 開發視覺效果
-      url: visuals/custom-visual-develop-tutorial.md
-  - linkListType: concept
-    links:
-    - text: 視覺效果常見問題集
-      url: visuals/power-bi-custom-visuals-faq.md
-    - text: 視覺效果方針
-      url: visuals/guidelines-powerbi-visuals.md
-    - text: 視覺效果中的進階編輯模式
-      url: visuals/advanced-edit-mode.md
-  - linkListType: how-to-guide
-    links:
-    - text: 認證視覺效果
-      url: visuals/power-bi-custom-visuals-certified.md
-    - text: 在 AppSource 上發佈 Power BI 視覺效果
-      url: visuals/office-store.md
-- title: 內嵌式分析
-  linkLists:
-  - linkListType: tutorial
-    links:
-    - text: 內嵌客戶的內容
-      url: embedded/embed-sample-for-customers.md
-    - text: 內嵌組織的內容
-      url: embedded/embed-sample-for-your-organization.md
-  - linkListType: concept
-    links:
-    - text: 資料列層級安全性
-      url: embedded/embedded-row-level-security.md
-    - text: 管理多個租用戶
-      url: embedded/embed-multi-tenancy.md
-    - text: Embedded 常見問題集
-      url: embedded/embedded-faq.md
-    - text: 權限
-      url: embedded/power-bi-permissions.md
-  - linkListType: how-to-guide
-    links:
-    - text: 從應用程式內嵌
-      url: embedded/embed-from-apps.md
-    - text: 建立 Azure Active Directory 租用戶
-      url: embedded/create-an-azure-active-directory-tenant.md
-    - text: 取得 Azure AD 存取權杖
-      url: embedded/get-azuread-access-token.md
-    - text: Power BI Embedded 的問與答功能
-      url: embedded/qanda.md
+    - title: Power Platform 文件
+      summary: 了解 Power BI、Power Apps、Power Automate 以及 Power Virtual Agents 如何搭配運作。
+      url: https://docs.microsoft.com/power-platform/
+    - title: Power BI 開發人員中心
+      summary: 使用 Power BI 來建置。
+      url: https://powerbi.microsoft.com/developers/
+    - title: Power BI 視覺效果範例
+      summary: Power BI 範例與其程式碼程式庫的集合。
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - title: Power BI 程式庫
+      summary: Power BI 程式庫 (NuGets)。
+      url: https://www.nuget.org/profiles/powerbi
+    - title: 內嵌安裝工具
+      summary: 設定您的 Power BI 內嵌環境。
+      url: https://app.powerbi.com/embedsetup
+    - title: 遊樂場
+      summary: 嘗試功能並探索 API。
+      url: https://aka.ms/pbieplayground
+    - title: JavaScript Wiki
+      summary: 探索 JavaScript 知識庫。
+      url: https://github.com/Microsoft/powerbi-javascript/wiki

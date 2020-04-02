@@ -1,0 +1,83 @@
+### YamlMime:Landing
+title: Power BI Embedded 分析文件
+summary: 了解如何使用兩個內嵌式分析解決方案、Power BI Embedded，以及使用 Power BI Premium 進行內嵌。
+metadata:
+  title: Power BI Embedded 分析文件
+  description: 了解如何使用兩個內嵌式分析解決方案、Power BI Embedded，以及使用 Power BI Premium 進行內嵌。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 3f7bf1ebb51e7f9e5916e16280a2e10d7339df73
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516253"
+landingContent:
+- title: 開始使用
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Power BI 的內嵌是什麼？
+      url: embedding.md
+    - text: 什麼是 Azure Power BI Embedded？
+      url: azure-pbie-what-is-power-bi-embedded.md
+    - text: 常見問題集
+      url: embedded-faq.md
+- title: 內嵌報表或儀表板
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 教學課程：將客戶的 Power BI 內容內嵌至應用程式
+      url: embed-sample-for-customers.md
+    - text: 教學課程：為組織將 Power BI 內容內嵌至應用程式
+      url: embed-sample-for-your-organization.md
+    - text: 教學課程：為客戶將 Power BI 編頁報表內嵌至您的應用程式
+      url: embed-paginated-reports-customers.md
+    - text: 教學課程：針對國家/地區雲端將 Power BI 內容內嵌到您的應用程式
+      url: embed-sample-for-customers-national-clouds.md
+  - linkListType: reference
+    links:
+    - text: 內嵌安裝工具
+      url: https://app.powerbi.com/embedsetup
+    - text: 開發人員範例與指令碼
+      url: https://github.com/Microsoft/PowerBI-Developer-Samples
+- title: 針對生產環境進行規劃
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: 容量與 SKU
+      url: embedded-capacity.md
+    - text: 容量規劃
+      url: embedded-capacity-planning.md
+  - linkListType: concept
+    links:
+    - text: 效能最佳做法
+      url: embedded-performance-best-practices.md
+    - text: Power BI 權限
+      url: power-bi-permissions.md
+    - text: 問題和回答
+      url: qanda.md
+    - text: 為您的內嵌應用程式進行疑難排解
+      url: embedded-troubleshoot.md
+- title: 參考與資源
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI REST API
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Power BI REST API 參考
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: 開發人員中心
+      url: https://powerbi.microsoft.com/developers/
+    - text: Power BI 程式庫
+      url: https://www.nuget.org/profiles/powerbi
+    - text: 遊樂場
+      url: https://microsoft.github.io/PowerBI-JavaScript/demo/v2-demo/index.html
+    - text: JavaScript Wiki
+      url: https://github.com/Microsoft/powerbi-javascript/wiki

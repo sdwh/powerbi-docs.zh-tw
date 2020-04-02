@@ -1,0 +1,59 @@
+### YamlMime:Landing
+title: Power BI 視覺效果文件
+summary: 開發自己的 Power BI 視覺效果，以供您、貴組織或整個 Power BI 社群使用。 我們的文件提供您所需的資訊。
+metadata:
+  title: Power BI 視覺效果文件
+  description: 開發自己的 Power BI 視覺效果，以供您、貴組織或整個 Power BI 社群使用。 我們的文件提供您所需的資訊。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516230"
+landingContent:
+- title: 開始使用
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Power BI 的視覺效果
+      url: power-bi-custom-visuals.md
+    - text: Power BI 視覺效果專案結構
+      url: visual-project-structure.md
+    - text: 常見問題集
+      url: power-bi-custom-visuals-faq.md
+- title: 開發 Power BI 視覺效果
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 教學課程：開發 Power BI 視覺效果
+      url: custom-visual-develop-tutorial.md
+    - text: 教學課程：將格式設定選項新增到 Power BI 視覺效果
+      url: custom-visual-develop-tutorial-format-options.md
+  - linkListType: concept
+    links:
+    - text: Power BI 視覺效果指南
+      url: guidelines-powerbi-visuals.md
+- title: 發佈 Power BI 視覺效果
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 將 Power BI 視覺效果發佈至合作夥伴中心
+      url: office-store.md
+    - text: 取得 Power BI 視覺效果認證
+      url: power-bi-custom-visuals-certified.md
+- title: 參考與資源
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI 視覺效果範例
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - text: Git 存放庫
+      url: https://github.com/Microsoft/PowerBI-visuals

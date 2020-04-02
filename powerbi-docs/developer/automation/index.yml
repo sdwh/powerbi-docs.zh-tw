@@ -1,0 +1,65 @@
+### YamlMime:Landing
+title: Power BI 自動化文件
+summary: 使用 Power BI 自動化，您可以在 Power BI 物件 (例如報表、資料集與工作區) 上執行管理工作。
+metadata:
+  title: Power BI 自動化文件
+  description: 使用 Power BI 自動化，您可以在 Power BI 物件 (例如報表、資料集與工作區) 上執行管理工作。
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 33f3caa20bc29c41b9d2c43f6727947ce9b7d446
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516391"
+landingContent:
+- title: 開始使用
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: 了解您可以使用 Power BI API 做什麼
+      url: overview-of-power-bi-rest-api.md
+  - linkListType: tutorial
+    links:
+    - text: 教學課程：將資料推送至資料集
+      url: walkthrough-push-data.md
+    - text: 教學課程：取得驗證存取權杖
+      url: walkthrough-push-data-get-token.md
+    - text: 教學課程：建立資料集
+      url: walkthrough-push-data-create-dataset.md
+    - text: 取得要加入資料列的資料集
+      url: walkthrough-push-data-get-datasets.md
+    - text: 將資料列加入 Power BI 資料表
+      url: walkthrough-push-data-add-rows.md
+- title: 使用資料
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 即時資料的自動保留原則
+      url: api-automatic-retention-policy-for-real-time-data.md
+    - text: Power BI REST API 限制
+      url: api-rest-api-limitations.md
+    - text: 資料集屬性
+      url: api-dataset-properties.md
+  - linkListType: how-to-guide
+    links:
+    - text: 設定認證
+      url: configure-credentials.md
+- title: 參考與資源
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI REST API
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Power BI REST API 參考
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: 開發人員中心
+      url: https://powerbi.microsoft.com/developers/
+    - text: Power BI 程式庫
+      url: https://www.nuget.org/profiles/powerbi
