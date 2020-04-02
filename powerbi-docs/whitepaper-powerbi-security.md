@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: a13e48e413f047812d9b00fe67c2ee2b69bbc2dc
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404566"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551103"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
@@ -33,7 +33,7 @@ ms.locfileid: "80404566"
 
 **Power BI** 是 Microsoft 提供的線上軟體服務 (稱為 _SaaS_ 或軟體即服務)，讓您輕鬆快速地建立自助商業智慧儀表板、報表、資料集和視覺效果。 使用 Power BI，您可以連線到許多不同的資料來源、結合與塑造來自這些連線的資料，然後建立與其他人共用的報表和儀表板。
 
-Power BI 服務受 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft 隱私權聲明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)制約管轄。 如需資料處理的位置，請參閱 Microsoft Online Services 條款中的資料處理位置條款。 [Microsoft 信任中心](https://www.microsoft.com/trustcenter)是 Power BI 有關合規性資訊的主要資源。 Power BI 小組致力於為客戶創造最新的創新和生產力。 Power BI 目前位於[Office 365 合規性架構](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)的第 D 層。
+Power BI 服務受 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft 隱私權聲明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)制約管轄。 如需資料處理的位置，請參閱 Microsoft Online Services 條款中的資料處理位置條款。 [Microsoft 信任中心](https://www.microsoft.com/trustcenter)是 Power BI 有關合規性資訊的主要資源。 Power BI 小組致力於為客戶創造最新的創新和生產力。 Power BI 目前位於[Office 365 合規性架構](https://www.microsoft.com/trust-center/compliance/compliance-overview)的第 D 層。
 
 本文透過 Power BI 架構的說明來描述 Power BI 安全性，並說明使用者如何向 Power BI 驗證以及建立資料連線，然後描述 Power BI 如何透過服務儲存及移動資料。 最後一節專門針對安全性相關問題，為每個問題提供答案。
 
@@ -348,7 +348,7 @@ Power BI 行動版是針對三個主要行動平臺設計的應用程式集合�
 | **CBA 支援** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
 | **Power BI** (登入服務) | 支援 | 支援 | 不支援 |
-| **SSRS ADFS** (連線至 SSRS 伺服器) | 不支援 | 支援 | 不支援 |
+| **SSRS ADFS** (連線至 SSRS 伺服器) | 不支援 | 支援的 | 不支援 |
 
 Power BI 行動版應用程式會主動與 Power BI 服務通訊。 遙測用於收集行動應用程式使用量統計資料和類似資料，這些資料會傳輸至用於監視使用量和活動的服務；個人資料不會使用遙測資料傳送。
 
