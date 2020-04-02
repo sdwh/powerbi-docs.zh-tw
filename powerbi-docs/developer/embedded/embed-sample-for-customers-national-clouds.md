@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: dc429e4147016df07d339468090ad50bb6f14842
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 52f840d5806c10de088838cf64187b953f36aa54
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493886"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550937"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教學課程：針對國家/地區雲端將 Power BI 內容內嵌到您的應用程式
 
@@ -116,7 +116,7 @@ Power BI 也支援[國家/地區雲端](https://docs.microsoft.com/azure/active-
 
 * 適用於中國雲端的 Power BI 參數
 
-1. 使用[適用於中國雲端的 Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) 內容覆寫 Cloud.config 檔案。
+1. 使用[適用於中國雲端的 Power BI](https://github.com/microsoft/PowerBI-Developer-Samples/blob/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) 內容覆寫 Cloud.config 檔案。
 
 2. 更新 Web.config 檔案中的應用程式識別碼 (原生應用程式的應用程式識別碼)、工作區識別碼、使用者 (您的主要使用者) 與密碼。
 
@@ -143,7 +143,7 @@ Power BI 也支援[國家/地區雲端](https://docs.microsoft.com/azure/active-
 
 * 適用於中國雲端的 Power BI - ```https://app.powerbi.cn/apps```
 
-若您已經下載[對客戶進行內嵌範例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)，就能使用取得的 **applicationId** 來設定範例，以向 Azure AD 驗證。 若要設定範例，請變更 *web.config* 檔案中的 **applicationId**。
+若您已經下載[對客戶進行內嵌範例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)，就能使用取得的 **applicationId** 來設定範例，以向 Azure AD 驗證。 若要設定範例，請變更 *web.config* 檔案中的 **applicationId**。
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>步驟 2 - 從 Azure AD 取得存取權杖
 
@@ -187,7 +187,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 使用 Power BI 用戶端物件，擷取您想要內嵌之項目的參考。 您可以內嵌儀表板、圖格或報表。 以下範例會示範如何從提供的工作區中擷取第一個儀表板、圖格或報表。
 
-您可以在[「應用程式擁有資料」範例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)的 **Controllers\HomeController.cs** 中找到範例。
+您可以在[「應用程式擁有資料」範例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)的 **Controllers\HomeController.cs** 中找到範例。
 
 #### <a name="reports"></a>報表
 
@@ -243,7 +243,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 > [!IMPORTANT]
 > 因為內嵌權杖只適用於開發人員測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數目有限。 [必須購買容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)才可進行生產環境內嵌案例。 購買容量後，內嵌權杖產生的數量就不受限制。
 
-您可以在[對組織進行內嵌範例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)的 **Controllers\HomeController.cs** 中找到範例。
+您可以在[對組織進行內嵌範例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)的 **Controllers\HomeController.cs** 中找到範例。
 
 這會針對 **EmbedConfig** 及 **TileEmbedConfig** 建立類別。 您可以在 **Models\EmbedConfig.cs** 及 **Models\TileEmbedConfig.cs** 中找到範例。
 
@@ -309,7 +309,7 @@ var embedConfig = new TileEmbedConfig()
 
 您可以使用 JavaScript 將儀表板載入到網頁上的 div 項目中。 此範例會使用 EmbedConfig/TileEmbedConfig 模型，以及儀表板、圖格或報表的檢視。 如需使用 JavaScript API 的完整範例，您可以使用 [Microsoft Power BI Embedded Sample](https://microsoft.github.io/PowerBI-JavaScript/demo) (Microsoft Power BI 內嵌範例)。
 
-您可以在[對組織進行內嵌範例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)中找到應用程式範例。
+您可以在[對組織進行內嵌範例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)中找到應用程式範例。
 
 ### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
@@ -436,7 +436,7 @@ var embedConfig = new TileEmbedConfig()
 
 ## <a name="next-steps"></a>後續步驟
 
-* GitHub 上有範例應用程式可供您檢閱。 上述範例皆以該範例為基礎。 如需詳細資訊，請參閱[對組織進行內嵌範例](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)。
+* GitHub 上有範例應用程式可供您檢閱。 上述範例皆以該範例為基礎。 如需詳細資訊，請參閱[對組織進行內嵌範例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)。
 
 * 如需 JavaScript API 的詳細資訊，請參閱 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) \(英文\)。
 

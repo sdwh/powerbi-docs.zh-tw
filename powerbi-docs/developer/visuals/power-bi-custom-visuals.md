@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 26b2cbfc8e57009b836b5ca650e16977de425f3a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 22c367dbc6160928541570bf2de37c51edcbfc14
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383474"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550874"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 的視覺效果
 
@@ -41,7 +41,7 @@ Microsoft 和社群成員貢獻出 Power BI 視覺效果以造福大眾，並將
 
 ### <a name="what-is-appsource"></a>什麼是 AppSource？
 
-[AppSource](office-store.md) 是 Microsoft 軟體的應用程式、增益集和延伸模組所在位置。 AppSource 為上百萬名 Office 365、Azure、Dynamics 365、Cortana 及 Power BI 等產品的使用者提供尋找解決方案的管道，讓使用者能夠以更有效率且切實地完成工作。
+[AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 是 Microsoft 軟體的應用程式、增益集和延伸模組所在位置。 AppSource 為上百萬名 Office 365、Azure、Dynamics 365、Cortana 及 Power BI 等產品的使用者提供尋找解決方案的管道，讓使用者能夠以更有效率且切實地完成工作。
 
 ### <a name="certified-power-bi-visuals"></a>經認證的 Power BI 視覺效果
 

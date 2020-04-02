@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: f357c3ee937c75afcbf2095c6cbd586f9748420e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: bfdac85b50851f840db04d2b3d8e88d434ab7b7e
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114190"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550896"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>將 Power BI 視覺效果發佈至合作夥伴中心
 
@@ -100,8 +100,6 @@ Power BI 小組必須檢查檔案中是否有新的 Power BI 視覺效果提交�
 10. 選取 [產品設定]  ，然後按一下 [檢閱並發佈]  。
 
 ## <a name="tracking-submission-status-and-usage"></a>追蹤提交狀態和使用方式
-
-您可以檢閱[驗證原則](https://dev.office.com/officestore/docs/validation-policies#13-power-bi-custom-visuals)。
 
 提交之後，您就能夠在[應用程式儀表板](https://sellerdashboard.microsoft.com/Application/Summary/)中檢視提交狀態。
 
