@@ -317,8 +317,6 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: 編頁報表
           items:
-            - name: 實作教室：建立編頁報表
-              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: 直接在分頁報表中輸入資料
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: 建立內嵌的資料來源
