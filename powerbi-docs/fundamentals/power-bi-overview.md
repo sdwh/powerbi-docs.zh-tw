@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114983"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487744"
 ---
 # <a name="what-is-power-bi"></a>Power BI 是什麼？
 **Power BI** 是軟體服務、應用程式和連接器的集合，它們搭配使用來將不相關的資料來源轉換成相關、視覺上融入的互動式深入剖析。 不論您的資料是簡單的 Excel 試算表，或是一組雲端和內部部署混合式資料倉儲， Power BI 可讓您輕鬆地連線到資料來源、以視覺化方式檢視及探索重要資料，以及與任何人或您想要的任何人共用該資料。
@@ -44,8 +44,12 @@ Power BI 的使用方式取決於 Power BI 的哪些功能或服務是最適合�
 探索與您角色相關的文件：
 - 適用於[*設計師*](../desktop-what-is-desktop.md)的 Power BI Desktop
 - 適用於[*取用者*](../consumer/end-user-consumer.md)的 Power BI
-- 適用於[*開發人員*](../developer/what-can-you-do.md)的 Power BI
 - 適用於[*系統管理員*](../service-admin-administering-power-bi-in-your-organization.md)的 Power BI
+- 適用於「開發人員」  的 Power BI
+    * [搭配 Power BI 使用內嵌式分析](../developer/embedded/embedding.md)
+    * [什麼是 Azure Power BI Embedded？](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
+    * [Power BI 中的視覺效果](../developer/visuals/power-bi-custom-visuals.md)
+    * [開發人員可如何利用 Power BI API？](../developer/automation/overview-of-power-bi-rest-api.md)
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Power BI 中的工作流程
 Power BI 中的一般工作流程是從在 Power BI Desktop 中連線至資料來源並建置報表開始。 接著，您會將該報表從 Power BI Desktop 發佈至 Power BI 服務並加以共用，讓 Power BI 服務和行動裝置中的終端使用者可以檢視報表及與報表互動。

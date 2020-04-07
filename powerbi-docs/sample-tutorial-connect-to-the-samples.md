@@ -1,37 +1,37 @@
 ---
-title: 連線至 Power BI 服務中的範例
-description: 了解如何安裝及探索 Power BI 服務中的範例。
+title: 探索零售分析範例
+description: 了解在 Power BI 服務和 Power BI Desktop 中安裝和探索零售分析範例。
 author: maggiesMSFT
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f18ec650167b7872cb332bc9ccd606f7ea1f7500
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762155"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404598"
 ---
-#  <a name="import-and-open-sample-packs-for-power-bi"></a>匯入和開啟 Power BI 的範例套件
+# <a name="explore-the-retail-analysis-sample"></a>探索零售分析範例
 
 本教學課程說明如何： 
-- 匯入範例內容套件，將它新增至 Power BI 服務，然後開啟內容。 「內容套件」  是一種範例類型，其中資料集會隨附在儀表板及報表中。 
-- 在 Power BI Desktop 中開啟範例.pbix 檔案。
+- 匯入零售分析範例內容套件，將其新增至 Power BI 服務，然後開啟內容。 「內容套件」  是一種範例類型，其中資料集會隨附在儀表板及報表中。 
+- 在 Power BI Desktop 中開啟零售分析範例 .pbix 檔案。
 
 如果您想要多了解一點背景，請參閱 [Power BI 的範例資料集](sample-datasets.md)。 在該文章中，您會了解範例的所有資訊：範例要如何取得、儲存、使用，以及各範例可提供的一些案例。 
 
 ## <a name="prerequisites"></a>必要條件
-這些範例適用於 Power BI 服務和 Power BI Desktop。 如果要跟著做，我們將會使用「零售分析」範例。
+這些範例適用於 Power BI 服務和 Power BI Desktop。 若要跟著做，我們是使用零售分析範例。
 
 本教學課程使用的「零售分析」  內容套件範例，包含儀表板、報表和資料集。
 若要熟悉此特定內容套件及其案例，請參閱[適用於 Power BI 的零售分析範例：觀看導覽](sample-retail-analysis.md)，再開始進行。
 
-## <a name="samples-in-the-power-bi-service"></a>Power BI 服務中的範例
+## <a name="import-the-sample-in-the-power-bi-service"></a>匯入 Power BI 服務中的範例
 
 1. 開啟 Power BI 服務 (app.powerbi.com) 並登入，然後開啟您要儲存範例的工作區。 
 
@@ -94,7 +94,7 @@ ms.locfileid: "75762155"
      
     ![見解報表](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
-## <a name="samples-in-power-bi-desktop"></a>Power BI Desktop 中的範例 
+## <a name="download-the-sample-in-power-bi-desktop"></a>下載 Power BI Desktop 中的範例 
 當您第一次在 Power BI Desktop 中開啟範例 .pbix 檔案時，它會在 [報表檢視] 中顯示，以供您搭配視覺效果探索、建立及修改任何數量的報表頁面。 [報表檢視] 所提供的設計體驗，幾乎與 Power BI 服務中報表的 [編輯檢視] 相同。 您可以在四處移動、複製及貼上、合併其中的視覺效果等等。 
 
 不同於在 Power BI 服務中編輯報表，在 Power BI Desktop 中，您也可以使用查詢及建立資料模型，確保資料在報表中能夠提供最透徹的見解。 然後，您可以將 Power BI Desktop 檔案儲存在任何位置，無論是本機磁碟機或雲端。

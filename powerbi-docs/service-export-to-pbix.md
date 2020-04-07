@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 15a4d88ac9de5d50caeb975afa8ad1758246031f
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881829"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551071"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>從 Power BI 服務將報表下載到 Power BI Desktop (預覽)
-在 Power BI Desktop 中，您可以將報表 ( *.pbix* 檔案) 從本機電腦發佈至 Power BI 服務。 Power BI 報表也可以移至另一個方向：您可以從 Power BI 服務將報表下載到 Power BI Desktop。 在任一情況下，Power BI 報表的副檔名都是 .pbix。
+在 Power BI Desktop 中，您可以將報表 *.pbix* 檔案) 從本機電腦發佈至 Power BI 服務。 Power BI 報表也可以移至另一個方向：您可以從 Power BI 服務將報表下載到 Power BI Desktop。 在任一情況下，Power BI 報表的副檔名都是 .pbix。
 
-有幾項需要注意的限制和考量，將在本文稍後討論。
+有幾項需要注意的限制，將在本文的[考量和疑難排解](#considerations-and-troubleshooting)一節中討論。
 
 ![[檔案] 下拉式清單](media/service-export-to-pbix/power-bi-file-export.png)
 
@@ -55,6 +55,7 @@ ms.locfileid: "73881829"
 * 開啟下載的檔案時，請一律使用最新版本的 Power BI Desktop。 下載的 .pbix 檔案可能無法在舊版 Power BI Desktop 中開啟。
 * 如果系統管理員已關閉下載資料的功能，在 Power BI 服務中就不會看到此功能。
 * 使用累加式重新整理的資料集不能下載為 .pbix 檔案。
+* 如果您根據某個工作區的資料建立 Power BI 報表，並且將其發佈至不同工作區，您與您的使用者就無法進行下載。 此案例目前不支援下載功能。
 
 ## <a name="next-steps"></a>後續步驟
 檢視 **Guy in a Cube** 關於此功能的一分鐘影片：

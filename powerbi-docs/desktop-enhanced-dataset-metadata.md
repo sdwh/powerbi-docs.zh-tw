@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3812f16489d304912ec9574352897e1effb29d4a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201393"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464619"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>使用增強型資料集中繼資料 (預覽)
 
@@ -24,6 +24,8 @@ ms.locfileid: "79201393"
 
 
 **增強型資料集中繼資料**功能是一種策略性及基礎功能，因為未來的 Power BI 功能都會以這項中繼資料為基礎建置。 其中一部分可獲益於增強型資料集中繼資料的額外功能，包括 Power BI 資料集管理的 [XMLA 讀取/寫入](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite)，以及將 Analysis Services 工作負載移轉至 Power BI，使其獲益於下一代的功能。
+
+
 
 ## <a name="enable-enhanced-dataset-metadata"></a>啟用增強型資料集中繼資料
 
@@ -36,6 +38,9 @@ ms.locfileid: "79201393"
 ![重新啟動提示](media/desktop-enhanced-dataset-metadata/enhanced-dataset-metadata-02.png)
 
 啟用預覽功能後，Power BI Desktop 即會嘗試升級使用先前中繼資料格式的 PBIX 和 PBIT 檔案。 
+
+> [!IMPORTANT]
+> 啟用**增強的資料集中繼資料**功能，會導致無法復原的報表升級。 當**增強的資料集中繼資料**啟用時，使用 Power BI Desktop 載入或建立的任何 Power BI 報表都會轉換為增強的資料集中繼資料格式，且無法復原。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5208c72016a148f86a119bdddd2bbd1f69d3456b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 0804650149f98d7f63315025ffe3f8a1771ac2ef
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381023"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302734"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
@@ -96,7 +96,7 @@ ms.locfileid: "79381023"
 * 報表頁面訂閱會繫結至報表頁面的名稱。 如果您訂閱報表頁面，然後將它重新命名，您必須重新建立訂用帳戶。
 * 您的組織可能會在 Azure Active Directory 進行某些設定，而這可能會限制在 Power BI 中使用電子郵件訂閱的功能。  這些限制包括但不限於存取資源時的多重要素驗證或 IP 範圍限制。
 * 目前，在訂閱您之外的其他人時，不支援使用即時連線資料集的報表/儀表板電子郵件訂閱，除非您使用的是編頁報表，因為編頁報表可讓您使用安全性內容來傳送訂閱給其他人。
-* 電子郵件訂用帳戶不支援大部分 [Power BI 視覺效果](developer/visuals/power-bi-custom-visuals.md)。  其中一個例外狀況是[已認證](developer/visuals/power-bi-custom-visuals-certified.md)的 Power BI 視覺效果。  
+* 針對電子郵件訂閱僅支援預設和[經認證的 Power BI 視覺效果](developer/visuals/power-bi-custom-visuals.md)。  
 * 電子郵件訂用帳戶目前不支援 R 支援的 Power BI 視覺效果。  
 * 電子郵件訂閱傳送時會使用報表的預設篩選器和交叉分析篩選器狀態。 在訂閱之後對預設值所做的所有變更，均不會顯示在電子郵件中。  編頁報表支援此功能，且可讓您針對每個訂閱設定特定參數值。
 * 特別是針對儀表板訂閱，尚不支援某些磚類型。  其中包括：資料流磚、影片磚、自訂 Web 內容磚。     

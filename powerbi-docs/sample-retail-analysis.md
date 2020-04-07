@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: eac1c22ba23f7a1a67b2cc120fe38d4c396d864a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207474"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404721"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的零售分析範例：觀看導覽
 
@@ -57,7 +57,7 @@ ms.locfileid: "79207474"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529778) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529778) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[在 Excel 中探索 Excel 範例](sample-datasets.md#explore-excel-samples-inside-excel)以了解詳情。
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>進入儀表板，然後開啟報表
 

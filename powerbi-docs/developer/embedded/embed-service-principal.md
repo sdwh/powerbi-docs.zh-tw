@@ -1,167 +1,191 @@
 ---
 title: 搭配 Power BI 的服務主體
-description: 了解如何在 Azure Active Directory 內使用服務主體來註冊應用程式，以與內嵌 Power BI 內容搭配使用。
+description: 了解如何在 Azure Active Directory 內使用服務主體和應用程式祕密來註冊應用程式，以與內嵌 Power BI 內容搭配使用。
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: nishalit
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 12/12/2019
-ms.openlocfilehash: ce72abc3f3b60423344c2b28f39d9bdbfbcee7cd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.date: 03/30/2020
+ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493495"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403549"
 ---
-# <a name="service-principal-with-power-bi"></a>搭配 Power BI 的服務主體
+# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>搭配服務主體和應用程式祕密內嵌 Power BI 內容
 
-有了「服務主體」  ，您就可以將 Power BI 內容內嵌至應用程式，並使用「僅限應用程式」  權杖，來使用自動化與 Power BI 搭配使用。 使用 **Power BI Embedded** 時，或**將 Power BI 工作和程序自動化**時，服務主體很有助益。
+服務主體是一種驗證方法，可用來讓 Azure AD 應用程式存取 Power BI 服務內容和 API。
 
-使用 Power BI Embedded 時，有使用服務主體時的優點。 主要優點是您不需要主帳戶 (Power BI Pro 授權，只是用來登入的使用者名稱和密碼)，即可驗證您的應用程式。 服務主體會使用應用程式識別碼和應用程式祕密來驗證應用程式。
+當您建立 Azure Active Directory (Azure AD) 應用程式時，會建立[服務主體物件](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)。 服務主體物件 (也稱為「服務主體」  ) 可讓 Azure AD 驗證您的應用程式。 經過驗證之後，應用程式就可以存取 Azure AD 租用戶資源。
 
-將 Power BI 工作自動化時，您也可以編寫如何相應處理和管理服務主體的指令碼。
+若要進行驗證，服務主體會使用 Azure AD 應用程式的「應用程式識別碼」  ，以及下列其中一項：
+* 應用程式祕密
+* 憑證
 
-## <a name="application-and-service-principal-relationship"></a>應用程式和服務主體關聯性
+本文說明使用「應用程式識別碼」  和「應用程式祕密」  來進行服務主體驗證。 若要使用服務主體搭配憑證進行驗證，請參閱 [Power BI 憑證型驗證]()。
 
-若要存取保護 Azure AD 租用戶的資源，需要存取的實體表示安全性主體。 此動作同時適用於使用者 (使用者主體) 和應用程式 (服務主體)。
+## <a name="method"></a>方法
 
-安全性主體會針對 Azure AD 租用戶中的使用者和應用程式定義存取原則和使用權限。 此存取原則會啟用核心功能，例如登入期間驗證使用者和應用程式，以及存取資源期間進行授權。 如需詳細資訊，請參考 [Azure Active Directory (AAD) 中的應用程式和服務主體](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)。
+若要使用服務主體和具有內嵌分析的應用程式識別碼，請遵循下列步驟：
 
-當您在 Azure 入口網站中註冊 Azure AD 應用程式時，即會在 Azure AD 租用戶中建立兩個物件：
+1. 建立 [Azure AD 應用程式](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management)。
 
-* [應用程式物件](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#application-object)
-* [服務主體物件](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)
+    1. 建立 Azure AD 應用程式的祕密。
+    
+    2. 取得應用程式的「應用程式識別碼」  和「應用程式祕密」  。
 
-將應用程式物件視為*全域*，表示您的應用程式用於所有租用戶，而將服務主體物件視為*本機*，表示用於特定租用戶。
+    >[!NOTE]
+    >**步驟 1**中描述這些步驟。 如需建立 Azure AD 應用程式的詳細資訊，請參閱[建立 Azure AD 應用程式](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal) (部分機器翻譯) 一文。
 
-應用程式物件可作為範本，常用和預設屬性*衍生*自這個範本，用於建立對應的服務主體物件。
+2. 建立 Azure AD 安全性群組。
 
-使用應用程式的每個租用戶都需要服務主體 — 這可讓它建立用於登入的身分識別，並存取租用戶保護的資源。 單一租用戶應用程式只有一個服務主體 (在其主租用戶中)，而此服務主體是在應用程式註冊期間建立並同意的。
+3. 啟用 Power BI 服務系統管理員設定。
 
-## <a name="service-principal-with-power-bi-embedded"></a>搭配 Power BI Embedded 的服務主體
+4. 將服務主體新增至您的工作區。
 
-有了服務主體，您就可以在應用程式中使用應用程式識別碼和應用程式祕密遮罩主帳戶資訊。 您不再需要將主帳戶寫入應用程式進行驗證。
+5. 內嵌內容。
 
-因為 **Power BI API** 和 **Power BI.NET SDK** 現在支援使用服務主體進行呼叫，所以您可以使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 與服務主體搭配。 比方說，您可以變更工作區，例如建立工作區、新增或移除工作區中的使用者，以及將內容匯入至工作區。
+> [!IMPORTANT]
+> 一旦您啟用要與 Power BI 搭配使用的服務主體，應用程式的 AD 使用權限就不再生效。 然後，應用程式的使用權限會透過 Power BI 系統管理入口網站管理。
 
-如果您的 Power BI 成品和資源儲存在[新的 Power BI 工作區](../../service-create-the-new-workspaces.md)中，則您只能使用服務主體。
+## <a name="step-1---create-an-azure-ad-app"></a>步驟 1 - 建立 Azure AD 應用程式
 
-## <a name="service-principal-vs-master-account"></a>服務主體與主帳戶
+使用下列其中一種方法來建立 Azure AD 應用程式：
+* 在 [Microsoft Azure 入口網站](https://ms.portal.azure.com/#allservices)中建立應用程式
+* 使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) 建立應用程式。
 
-使用服務主體和標準主帳戶 (Power BI Pro 授權) 進行驗證之間有差異。 下表反白顯示一些顯著的差異。
+### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>在 Microsoft Azure 入口網站中建立 Azure AD 應用程式
 
-| 函式 | 主使用者帳戶 <br> (Power BI Pro 授權) | 服務主體 <br> (僅限應用程式權杖) |
-|------------------------------------------------------|---------------------|-------------------|
-| 可以登入 Power BI 服務  | 是 | 否 |
-| 已在 Power BI 系統管理入口網站啟用 | 否 | 是 |
-| [使用工作區 (v1)](../../service-create-workspaces.md) | 是 | 否 |
-| [使用新的工作區 (v2)](../../service-create-the-new-workspaces.md) | 是 | 是 |
-| 若與 Power BI Embedded 搭配使用，需要是工作區管理員 | 是 | 是 |
-| 可以使用 Power BI REST API | 是 | 是 |
-| 需要全域管理員才能建立 | 是 | 否 |
-| 可在內部部署資料閘道上安裝和管理 | 是 | 否 |
+1. 登入 [Microsoft Azure](https://ms.portal.azure.com/#allservices)。
 
-## <a name="get-started-with-a-service-principal"></a>開始使用服務主體
+2. 搜尋 [應用程式註冊]  ，然後按一下 [應用程式註冊]  連結。
 
-與傳統使用的主帳戶相反，使用服務主體 (僅限應用程式權杖) 需要設定幾個不同的片段。 若要開始使用服務主體 (僅限應用程式權杖)，您需要設定正確的環境。
+    ![azure 應用程式註冊](media/embed-service-principal/azure-app-registration.png)
 
-1. 在 Azure Active Directory (AAD) 中[註冊伺服器端 Web 應用程式](register-app.md)，以與 Power BI 搭配使用。 在註冊應用程式之後，您可以擷取應用程式識別碼、應用程式祕密和服務主體物件識別碼來存取您的 Power BI 內容。 您可以使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) 建立服務主體。
+3. 按一下 [新增註冊]  。
 
-    以下是建立新 Azure Active Directory 應用程式的範例指令碼。
+    ![新增註冊](media/embed-service-principal/new-registration.png)
 
-    ```powershell
-    # The app id - $app.appid
-    # The service principal object id - $sp.objectId
-    # The app key - $key.value
+4. 填寫必要資訊：
+    * **名稱** - 輸入應用程式的名稱
+    * **支援的帳戶類型** - 選取支援的帳戶類型
+    * (選擇性) **重新導向 URI** - 必要時輸入 URI
 
-    # Sign in as a user that is allowed to create an app.
-    Connect-AzureAD
+5. 按一下 [註冊]  。
 
-    # Create a new AAD web application
-    $app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
+6. 註冊之後，您可以從 [概觀]  索引標籤取得「應用程式識別碼」  。複製並儲存「應用程式識別碼」  以供稍後使用。
 
-    # Creates a service principal
-    $sp = New-AzureADServicePrincipal -AppId $app.AppId
+    ![應用程式識別碼](media/embed-service-principal/application-id.png)
 
-    # Get the service principal key.
-    $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
-    ```
+7. 按一下 [憑證與祕密]  索引標籤。
 
-   > [!Important]
-   > 一旦您啟用要與 Power BI 搭配使用的服務主體，應用程式的 AD 使用權限就不再生效。 然後，應用程式的使用權限會透過 Power BI 系統管理入口網站管理。
+     ![應用程式識別碼](media/embed-service-principal/certificates-and-secrets.png)
 
-2.  **建議** - 在 Azure Active Directory (AAD) 中建立安全性群組，然後將您建立的[應用程式](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)新增至該安全性群組。 您可以使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) 建立 AAD 安全性群組。
+8. 按一下 [新增用戶端密碼] 
 
-    以下範例指令碼可建立新的安全性群組，並將應用程式新增至該安全性群組。
+    ![新增用戶端密碼](media/embed-service-principal/new-client-secret.png)
 
-    ```powershell
-    # Required to sign in as a tenant admin
-    Connect-AzureAD
+9. 在 [新增用戶端密碼]  視窗中，輸入描述，指定您要讓用戶端密碼到期的時間，然後按一下 [新增]  。
 
-    # Create an AAD security group
-    $group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
+10. 複製並儲存 [用戶端密碼]  值。
 
-    # Add the service principal to the group
-    Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
-    ```
+    ![用戶端密碼值](media/embed-service-principal/client-secret-value.png)
 
-3. 身為 Power BI 管理員，您必須在 Power BI 管理入口網站的 [開發人員設定]  中啟用服務主體。 將您在 Azure AD 中建立的安全性群組新增至 [開發人員設定]  中的特定安全性群組區段。 您也可以為整個組織啟用服務主體存取。 在該案例中，不需要步驟 2。
+    >[!NOTE]
+    >在您離開此視窗之後，用戶端密碼值將會隱藏，而且您將無法再次檢視或複製。
 
-   > [!Important]
-   > 服務主體可以存取為整個組織啟用的任何租用戶設定，或為具有服務主體作為群組一部分的安全性群組而啟用。 若要限制對特定租用戶設定的服務主體存取權，請僅允許對特定安全性群組的存取權，或為服務主體建立專用安全性群組並將其排除。
+### <a name="creating-an-azure-ad-app-using-powershell"></a>使用 PowerShell 建立 Azure AD 應用程式
 
-    ![管理入口網站](media/embed-service-principal/admin-portal.png)
+本節包含使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) 建立新 Azure AD 應用程式的範例指令碼。
 
-4. 設定您的 [Power BI 環境](embed-sample-for-customers.md#set-up-your-power-bi-environment)。
+```powershell
+# The app ID - $app.appid
+# The service principal object ID - $sp.objectId
+# The app key - $key.value
 
-5. 以「管理員」  身分將服務主體新增至您建立的新工作區。 您可以透過 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 或使用 Power BI 服務管理這項工作。
+# Sign in as a user that's allowed to create an app
+Connect-AzureAD
 
-    ![將服務主體作為管理員新增至工作區](media/embed-service-principal/add-service-principal-in-the-UI.png)
+# Create a new Azure AD web application
+$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
 
-6. 現在選擇在範例應用程式或您自己的應用程式中內嵌內容。
+# Creates a service principal
+$sp = New-AzureADServicePrincipal -AppId $app.AppId
 
-    * [使用範例應用程式來內嵌內容](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-    * [在應用程式中內嵌內容](embed-sample-for-customers.md#embed-content-within-your-application)
+# Get the service principal key
+$key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
+```
 
-7. 現在您已準備好[移至生產環境](embed-sample-for-customers.md#move-to-production)。
+## <a name="step-2---create-an-azure-ad-security-group"></a>步驟 2 - 建立 Azure AD 安全性群組
 
-## <a name="migrate-to-service-principal"></a>遷移至服務主體
+您的服務主體沒有任何 Power BI 內容和 API 的存取權。 若要給予服務主體存取權，請在 Azure AD 中建立安全性群組，並將您建立的服務主體新增至該安全性群組。
 
-如果您目前使用主帳戶與 Power BI 或 Power BI Embedded 搭配，則可以遷移來使用服務主體。
+有兩種方法可建立 Azure AD 安全性群組：
+* 手動 (在 Azure 中)
+* 使用 PowerShell
 
-完成[開始使用服務主體](#get-started-with-a-service-principal)一節中的前三個步驟，一旦完成，請遵循以下資訊。
+### <a name="create-a-security-group-manually"></a>手動建立安全性群組
 
-如果您已在 Power BI 中使用[新工作區](../../service-create-the-new-workspaces.md)，則以「管理員」  身分將服務主體新增至 Power BI 成品。 不過，如果您是使用[傳統工作區](../../service-create-workspaces.md)，請將 Power BI 成品與資源複製到或移至新工作區，然後以「管理員」  身分將服務主體新增至這些工作區。
+若要手動建立 Azure 安全性群組，請依照[使用 Azure Active Directory 建立基本群組並新增成員](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)一文中的指示進行。 
 
-沒有任何 UI 功能，可將 Power BI 成品和資源從某個工作區移至另一個工作區，因此您需要使用 [API](https://powerbi.microsoft.com/pt-br/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/) 來完成這項工作。 使用 API 與服務主體搭配時，您需要服務主體物件識別碼。
+### <a name="create-a-security-group-using-powershell"></a>使用 PowerShell 建立安全性群組
 
-### <a name="how-to-get-the-service-principal-object-id"></a>如何取得服務主體物件識別碼
+以下範例指令碼可建立新的安全性群組，並將應用程式新增至該安全性群組。
 
-若要將服務主體指派給新的工作區，請使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)。 若要參考作業的服務主體或進行變更，請使用**服務主體物件識別碼** — 例如，以管理員身分將服務主體套用至工作區。
+>[!NOTE]
+>如果您想要為整個組織啟用服務主體存取，請略過此步驟。
 
-以下是從 Azure 入口網站取得服務主體物件識別碼的步驟。
+```powershell
+# Required to sign in as a tenant admin
+Connect-AzureAD
 
-1. 在 Azure 入口網站中建立新的應用程式註冊。  
+# Create an Azure AD security group
+$group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
 
-2. 然後，在 [本機目錄中的受控應用程式]  下，選取您所建立的應用程式名稱。
+# Add the service principal to the group
+Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
+```
 
-   ![本機目錄中的受控應用程式](media/embed-service-principal/managed-application-in-local-directory.png)
+## <a name="step-3---enable-the-power-bi-service-admin-settings"></a>步驟 3 - 啟用 Power BI 服務系統管理員設定
 
-    > [!NOTE]
-    > 上圖中的物件識別碼不是與服務主體搭配使用的物件識別碼。
+若要讓 Azure AD 應用程式能夠存取 Power BI 內容和 API，Power BI 系統管理員必須在 Power BI 系統管理員入口網站中啟用服務主體存取權。
 
-3. 選取 [屬性]  來查看物件識別碼。
+將您在 Azure AD 中建立的安全性群組新增至 [開發人員設定]  中的特定安全性群組區段。
 
-    ![服務主體物件識別碼屬性](media/embed-service-principal/service-principal-object-id-properties.png)
+>[!IMPORTANT]
+>服務主體可以存取針對其啟用的任何租用戶設定。 根據您的系統管理員設定而定，這包括特定安全性群組或整個組織。
+>
+>若要將服務主體存取限制為特定的租用戶設定，僅允許存取特定安全性群組。 或者，您可以為服務主體建立專用的安全性群組，並將其從所需的租用戶設定中排除。
 
-以下是使用 PowerShell 擷取服務主體物件識別碼的範例指令碼。
+![管理入口網站](media/embed-service-principal/admin-portal.png)
 
-   ```powershell
-   Get-AzureADServicePrincipal -Filter "DisplayName eq '<application name>'"
-   ```
+## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>步驟 4 - 以管理員身分將服務主體新增至您的工作區
+
+若要啟用 Azure AD 應用程式存取成品 (例如 Power BI 服務中的報表、儀表板和資料集)，請將服務主體實體新增為您工作區的成員或系統管理員。
+
+>[!NOTE]
+>本節提供 UI 指示。 您也可以使用[群組 - 新增群組使用者 API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)，將服務主體新增至工作區。
+
+1. 捲動至您想要啟用存取權的工作區，然後從 [更多]  功能表中，選取 [工作區存取權]  。
+
+    ![工作區設定](media/embed-service-principal/workspace-access.png)
+
+2. 以**管理員**或**成員**身分將服務主體新增至工作區。
+
+    ![工作區管理員](media/embed-service-principal/add-service-principal-in-the-UI.png)
+
+## <a name="step-5---embed-your-content"></a>步驟 5 - 內嵌內容
+
+您可以在範例應用程式或您自己的應用程式中內嵌內容。
+
+* [使用範例應用程式來內嵌內容](embed-sample-for-customers.md#embed-content-using-the-sample-application)
+* [在應用程式中內嵌內容](embed-sample-for-customers.md#embed-content-within-your-application)
+
+您的內容內嵌之後，您就可以[移至生產環境](embed-sample-for-customers.md#move-to-production)。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
@@ -178,7 +202,8 @@ ms.locfileid: "79493495"
 
 ## <a name="next-steps"></a>後續步驟
 
-* [註冊應用程式](register-app.md)
 * [適用於您客戶的 Power BI Embedded](embed-sample-for-customers.md)
-* [Azure Active Directory 中的應用程式和服務主體物件](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
 * [搭配服務主體使用內部部署資料閘道的資料列層級安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+* [搭配服務主體和憑證內嵌 Power BI 內容]()

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 51c9b8a570abf2686abe9b26a4d9e111e8ef022a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858416"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404643"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的供應商品質分析範例：觀看導覽
 
@@ -62,7 +62,7 @@ ms.locfileid: "73858416"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529779) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529779) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[在 Excel 中探索 Excel 範例](sample-datasets.md#explore-excel-samples-inside-excel)以了解詳情。
 
 ## <a name="downtime-caused-by-defective-materials"></a>用料瑕疵所造成的停工時間
 讓我們來分析用料瑕疵所造成的停工時間並查看應由哪些廠商負責。  
@@ -108,8 +108,8 @@ ms.locfileid: "73858416"
 
     ![選取 [影響]](media/sample-supplier-quality/supplier7.png)  
 
-    請注意，泡泡圖中的 [物流]  是最糟糕的類別。 它在瑕疵品總數、瑕疵報表和停工時間分鐘數都位居最高位置。 讓我們來進一步瀏覽此類別目錄。  
-3. 在泡泡圖中選取 [物流]  泡泡，並觀察伊利諾州春田市和內珀維爾市的工廠。 內珀維爾市似乎在管理瑕疵供貨方面做得更好，因為它的退貨量較高，影響量也較小，而春田市的影響量就較大。  
+    請注意，泡泡圖中的 [物流]  是最糟糕的類別。 其在瑕疵品總數、瑕疵報表和停工時間分鐘數都位居最高位置。 讓我們來進一步瀏覽此類別目錄。  
+3. 在泡泡圖中選取 [物流]  泡泡，並觀察伊利諾州春田市和內珀維爾市的工廠。 內珀維爾市似乎在管理瑕疵供貨方面做得更好，因為其退貨量較高，影響量也較小，而春田市的影響量就較大。  
 
    ![選取 [物流]](media/sample-supplier-quality/supplier8.png)  
 4. 選取頂端導覽窗格的 [供應商品質分析範例]  ，以返回儀表板。

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d871fa15c999e5b6c83b0334d6c978b2ba3c9870
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4863bfe3d99a63fbf4ad49834e66ecb8fcaf5525
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858717"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404135"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的商機分析範例：觀看導覽
 
@@ -66,7 +66,7 @@ ms.locfileid: "73858717"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529782) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529782) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[在 Excel 中探索 Excel 範例](sample-datasets.md#explore-excel-samples-inside-excel)以了解詳情。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>儀表板告訴我們什麼？
 我們的銷售經理已建立儀表板來追蹤其最重要計量。 當他們看到值得關注的項目時，可以選取磚來深入探究資料：

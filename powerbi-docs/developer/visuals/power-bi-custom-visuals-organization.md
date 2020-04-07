@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ab2aa7f1771c09a7ec725f9cc533717e7daf11a0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383497"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464592"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI 中的組織視覺效果
 
@@ -35,7 +35,7 @@ ms.locfileid: "79383497"
 若要深入了解如何管理及部署組織內的組織 Power BI 視覺效果，請參閱下列文章：[深入了解組織 Power BI 視覺效果的部署和管理](https://go.microsoft.com/fwlink/?linkid=866790)。
 
 > [!WARNING]
-> 自訂視覺效果可能包含有安全性或隱私權風險的程式碼。 將任何自訂視覺效果部署到組織存放庫之前，請確定您信任其作者和來源。
+> 從檔案安裝的 Power BI 視覺效果，其程式碼可能會有安全性或隱私權風險。 將任何 Power BI 視覺效果檔案部署到組織存放庫之前，請確定您信任其作者和來源。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
@@ -45,7 +45,9 @@ ms.locfileid: "79383497"
 
 * 不支援舊版 Power BI 視覺效果 (例如並非基於新版本 API 所建立的 Power BI 視覺效果)
 
-* 如果從存放庫刪除某個自訂視覺效果，使用已刪除之視覺效果的任何現有報告將會停止轉譯。 存放庫的刪除作業是無法復原的。 若要暫時停用自訂視覺效果，請使用「停用」功能。
+* 如果從存放庫刪除來自 ApSource 或檔案的 Power BI 視覺效果，使用已刪除視覺效果的任何現有報表將會停止轉譯。 從存放庫刪除是無法復原的。 若要暫時停用來自 ApSource 或檔案的 Power BI 視覺效果，請使用「停用」功能。
+
+* Power BI 報表伺服器不支援組織 Power BI 視覺效果。
 
 使用者：
 

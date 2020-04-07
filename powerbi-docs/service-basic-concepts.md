@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 280e29d90e956ba47de6a0ff80b6f29bc0f00a18
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207911"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404074"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 服務中的設計工具基本概念
 
 此文章的目的是要協助您使用 Power BI 服務：有哪些不同的元素、如何搭配使用，及如何使用它們。 如果您已經[註冊 Power BI 服務](service-self-service-signup-for-power-bi.md)並已[新增一些資料](service-get-data.md)，將能更深入了解。 身為設計者，您的一般工作流程通常是從在 Power BI Desktop 中建立報表開始。 然後將它們發佈至 Power BI 服務，然後可以在服務中繼續修改。 也可以依據您在 Power BI 服務中的報表建立儀表板。 
 
-針對此文章，如果您還沒有自己的報表，請嘗試安裝 [Power BI 範例內容套件](sample-datasets.md#the-power-bi-samples-as-content-packs)。
+針對此文章，如果您還沒有自己的報表，請嘗試安裝其中一個 [Power BI 範例](sample-datasets.md)。
 
 ![瀏覽器中的 Power BI 服務首頁畫面](media/service-basic-concepts/power-bi-home-screen.png)
 
@@ -76,7 +76,7 @@ Power BI 包含五個主要的建構元素：*儀表板*、*報表*、*活頁簿
 ## <a name="datasets"></a>資料集
 「資料集」  是您要在其中「匯入」  或「連接」  之資料的集合。 Power BI 可讓您連接和匯入各式各樣的資料集，並將所有資料整合到一個位置。 資料集也是資料流程的來源資料。
 
-資料集與「工作區」  相關聯，而單一資料集可以是許多工作區的一部分。 當您開啟工作區時，相關聯的資料集會列在 [資料集]  索引標籤之下。每個列出的資料集代表單一來源的資料，例如 OneDrive 上的 Excel 活頁簿、內部部署的 SSAS 表格式資料集，或 Salesforce 資料集。 其支援許多不同的資料來源，同時我們會不停加入新的資料來源。 查看[可搭配 Power BI 使用的資料集類型](service-get-data.md)清單。
+資料集與「工作區」  相關聯，而單一資料集可以是許多工作區的一部分。 當您開啟工作區時，相關聯的資料集會列在 [資料集]  索引標籤之下。每個列出的資料集代表單一來源的資料，例如 OneDrive 上的 Excel 活頁簿、內部部署的 SSAS 表格式資料集，或 Salesforce 資料集。 其支援許多不同的資料來源，同時我們會不停新增新的資料來源。 查看[可搭配 Power BI 使用的資料集類型](service-get-data.md)清單。
 
 在以下範例中，我已選取「銷售與行銷」工作區，並按下了 [資料集]  的索引標籤。
 

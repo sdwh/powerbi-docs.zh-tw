@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f53f7a1e51ce1cb17c337569ba770ac2b5643d19
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381161"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329672"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
-Power BI Premium 可為組織提供專門用來執行 Power BI 服務的增強資源。 例如：
+您可以使用 Power BI Premium 為您的組織取得專用和增強的資源，讓您組織中的使用者可以使用 Power BI 服務，並且有更佳的效能和回應性。 例如，使用 Power BI Premium 訂用帳戶，您和貴組織的使用者可存取：
 
 > [!div class="checklist"]
 > * 提升規模和效能
@@ -29,13 +29,16 @@ Power BI Premium 可為組織提供專門用來執行 Power BI 服務的增強�
 > * 依區域 (多地理位置) 的資料落地支援
 > * 無須購買每個使用者的授權，就可與任何人共用資料
 
+
+![管理入口網站](media/service-premium-what-is/premium-admin-portal.png) 
+
 本文會介紹 Power BI Premium 中的重要功能。 如有需要，請連結到提供更詳細資訊的其他文章。 如需 Power BI Pro 與 Power BI Premium 的詳細資訊，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing/)的「Power BI 功能比較」  一節。
 
 ## <a name="subscriptions-and-licensing"></a>訂閱和授權
 
 Power BI Premium 是兩個 SKU (庫存單位) 系列的可用租用戶層級 Office 365 訂閱：
 
-- **P** SKU (P1-P3) 用於內嵌和企業功能、需要每月或年度履約承諾、按月計費，且包含在內部部署安裝 Power BI 報表伺服器的授權。
+- **P** SKU (P1-P5) 用於內嵌和企業功能、需要每月或年度履約承諾、按月計費，且包含在內部部署安裝 Power BI 報表伺服器的授權。
 
 - **EM** SKU (EM1-EM3) 用於「組織」  內嵌、需要年度履約承諾，且按月計費。 EM1 和 EM2 SKU 只能透過大量授權方案提供。 您無法直接購買。
 
@@ -81,6 +84,8 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 > [!NOTE]
@@ -229,13 +234,14 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 ## <a name="analysis-services-in-power-bi-premium-preview"></a>Power BI Premium 中的 Analysis Services (預覽)
 
-實際上，Power BI 資料集受到經企業實證的 Microsoft **Analysis Services Vertipaq 引擎**支援。 Analysis Services 透過支援開放標準 XMLA 通訊協定的用戶端程式庫和 API 來提供程式設計功能，以及用戶端應用程式和工具支援。 目前，Power BI Premium 資料集透過 **XMLA 端點**支援來自 Microsoft 和協力廠商用戶端應用程式與工具的「唯讀」  作業。 
+實際上，Power BI Premium 工作區和資料集受到經企業實證的 Microsoft **Analysis Services Vertipaq 引擎**支援。 Analysis Services 透過支援開放標準 XMLA 通訊協定的用戶端程式庫和 API 來提供程式設計功能，以及用戶端應用程式和工具支援。 根據預設，Power BI Premium 容量資料集工作負載透過 **XMLA 端點**支援來自 Microsoft 和第三方用戶端應用程式與工具的「唯讀」  作業。 容量管理員也可以選擇停用或允許透過端點的「讀取/寫入」  作業。
 
-Microsoft 工具 (例如 SQL Server Management Studio 和 SQL Server Profiler) 和協力廠商應用程式 (例如 DAX Studio 和資料視覺效果應用程式) 可以連線到 Premium 資料集，並使用 XMLA、DAX、MDX、DMV 和追蹤事件進行查詢。 
+具有唯讀存取權，Microsoft 工具 (例如 SQL Server Management Studio (SSMS) 和 SQL Server Profiler) 和第三方應用程式 (例如 DAX Studio 和資料視覺效果應用程式) 可以連線到 Premium 資料集，並使用 XMLA、DAX、MDX、DMV 和追蹤事件進行查詢。 具有讀取/寫入存取權，企業資料模型工具 (例如 Visual Studio 與 Analysis Services 專案延伸模組或開放原始碼表格式編輯器) 可以將表格式模型當做資料集部署至 Premium 工作區。 使用 SSMS 這類工具，系統管理員可以使用表格式模型指令碼語言 (TMSL) 來編寫中繼資料變更和進階資料重新整理案例的指令碼。 
+
+若要深入了解，請參閱[與 XMLA 端點的資料集連線能力](service-premium-connect-tools.md)。
 
 ![SSMS](media/service-premium-what-is/connect-tools-ssms-dax.png)
 
-若要深入了解，請參閱[使用用戶端應用程式與工具連線至資料集](service-premium-connect-tools.md)。
 
 ## <a name="next-steps"></a>後續步驟
 

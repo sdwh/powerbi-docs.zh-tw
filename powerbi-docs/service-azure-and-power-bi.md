@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: db988dfd360aae00fed1f6d917376a6ba54f9089
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6b2b457c2df8e37b4fac3108061a325261f5574b
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873226"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487787"
 ---
 # <a name="azure-and-power-bi"></a>Azure 和 Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "73873226"
 
 ![Azure](media/service-azure-and-power-bi/azure_1.png)
 
-Power BI 具有各種可用的 Azure 連接，而且您可以使用這些服務建立如同您的企業一般的獨特商業智慧方案，。 您可以最少只連接一個 Azure 資料來源，或連接幾項，然後塑造並精簡資料，用以建立自訂的報表。
+Power BI 具有各種可用的 Azure 連接，而且您可以使用這些服務建立如同您的企業一般的獨特商業智慧方案。 您可以最少只連接一個 Azure 資料來源，或連接幾項，然後塑造並精簡資料，用以建立自訂的報表。
 
 ## <a name="azure-sql-database-and-power-bi"></a>Azure SQL Database 和 Power BI
 
@@ -58,7 +58,7 @@ Power BI 具有各種可用的 Azure 連接，而且您可以使用這些服務�
 
 在 [Power BI 開發人員入口網站](https://dev.powerbi.com)中有許多 Power BI API 的相關資訊。
 
-如需詳細資訊，請參閱[開發人員可如何利用 Power BI？](developer/what-can-you-do.md)。
+如需詳細資訊，請參閱[Azure 中的 Power BI Embedded 是什麼？](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)。
 
 ## <a name="embed-your-power-bi-data-within-your-app"></a>在您的應用程式中內嵌 Power BI 資料
 

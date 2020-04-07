@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381115"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404190"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 
@@ -62,7 +62,7 @@ Power BI 服務的 Power BI Desktop 版本不會在標題列中顯示年份和�
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-Power BI 報表伺服器、Power BI 服務 (https://app.powerbi.com) ) 和 Power BI 行動裝置應用程式中的 Power BI 報表行為幾乎完全相同，但部分功能不同。
+Power BI 報表伺服器、Power BI 服務 (`https://app.powerbi.com`) 和 Power BI 行動裝置應用程式中的 Power BI 報表行為幾乎完全相同，但部分功能不同。
 
 ### <a name="selecting-a-language"></a>選取語言
 

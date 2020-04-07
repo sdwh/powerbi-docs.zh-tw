@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: parshah
-ms.openlocfilehash: ecb4f9540651b52f28626f8baa88854ff133b9d0
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 8b30089fe04c832734bd418cc58fabb7b574a082
+ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401995"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80361767"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI 報表伺服器的容量規劃指引
 Power BI 報表伺服器是客戶可以在其防火牆後方內部部署的自助 BI 和企業報告解決方案。 它結合 Power BI Desktop 的互動式報表功能與 SQL Server Reporting Services 的內部部署伺服器平台。 隨著企業內的分析和報告使用量愈來愈大，估算所需的硬體基礎結構和軟體授權以依照企業使用者總數來調整規模會是項挑戰。 本文旨在提供 Power BI 報表伺服器容量規劃的相關指引，文中並共用對報表伺服器的各種工作負載所執行的多項負載測試結果。 雖然組織的報表、查詢和使用模式差異很大，但本文中所呈現的結果，以及所使用的實際測試及其執行方式的詳細描述，可作為任何人在部署 Power BI 報表伺服器之初期規劃程序的參考點。
@@ -116,7 +116,7 @@ Power BI 報表伺服器部署是由下列虛擬機器所組成：
 ### <a name="1-topology"></a>1 拓撲
 **1.1 Power BI 報表伺服器拓撲**
 
-為了只專注於不同設定下的 Power BI 報表伺服器行為，已修正每種機器類型的 VM 設定 (裝載 Power BI 報表伺服器的機器除外)。 每部機器已根據第二代 (v2) D 系列機器佈建進階儲存體磁碟。 您可以在 https://azure.microsoft.com/pricing/details/virtual-machines/windows/ 的 [一般目的] 區段下找到有關每個 VM 大小的詳細資訊。
+為了只專注於不同設定下的 Power BI 報表伺服器行為，已修正每種機器類型的 VM 設定 (裝載 Power BI 報表伺服器的機器除外)。 每部機器已根據第二代 (v2) D 系列機器佈建進階儲存體磁碟。 您可以在 [[一般目的] 區段](https://azure.microsoft.com/pricing/details/virtual-machines/windows/)下找到有關每個 VM 大小的詳細資訊。
 
 | 虛擬機器類型 | 處理器 | 記憶體 | Azure VM 大小 |
 | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ Power BI 報表伺服器部署是由下列虛擬機器所組成：
 
 **1.2 Power BI 報表伺服器虛擬機器設定** 
 
-裝載 Power BI 報表伺服器的虛擬機器使用不同的處理器和記憶體組態。 不同於其他 VM，此機器已根據第三代 (v3) D 系列機器佈建進階儲存體磁碟。 您可以在 https://azure.microsoft.com/pricing/details/virtual-machines/windows/ 的 [一般目的] 區段下找到有關此 VM 大小的詳細資訊。
+裝載 Power BI 報表伺服器的虛擬機器使用不同的處理器和記憶體組態。 不同於其他 VM，此機器已根據第三代 (v3) D 系列機器佈建進階儲存體磁碟。 您可以在 [[一般目的] 區段](https://azure.microsoft.com/pricing/details/virtual-machines/windows/.)下找到有關此 VM 大小的詳細資訊
 
 | 虛擬機器 | 處理器 | 記憶體 | Azure VM 大小 |
 | --- | --- | --- | --- |

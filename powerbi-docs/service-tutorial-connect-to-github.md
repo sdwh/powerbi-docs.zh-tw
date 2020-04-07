@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871261"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403396"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>教學課程：使用 Power BI 連線到 GitHub 存放庫
 在本教學課程中，您使用 Power BI 連線接至 GitHub 服務中的實際資料，而且 Power BI 會自動建立儀表板和報表。 您會連線到 Power BI 內容的公用存放庫 (也稱為「存放庫」  )，並查看如下問題的解答：有多少人參與 Power BI 的公用內容？ 誰參與最多？ 哪個星期幾的參與最多？ 以及其他問題。 
@@ -35,7 +35,7 @@ ms.locfileid: "73871261"
 
 如果您尚未註冊 Power BI，請先進行[免費註冊](https://app.powerbi.com/signupredirect?pbi_source=web)再開始。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 若要完成本教學課程，您需要 GitHub 帳戶 (如果還沒有的話)。 
 
@@ -43,7 +43,7 @@ ms.locfileid: "73871261"
 
 
 ## <a name="how-to-connect"></a>如何連接
-1. 登入 Power BI 服務 (https://app.powerbi.com) 。 
+1. 登入 Power BI 服務 (`https://app.powerbi.com`)。 
 2. 在導覽窗格中，選取 [應用程式]  ，然後選取 [取得應用程式]  。
    
    ![Power BI Get 應用程式](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
@@ -64,7 +64,7 @@ ms.locfileid: "73871261"
 
 5. 輸入您所建立的 GitHub 認證。 如果您已在瀏覽器中登入 GitHub，則 Power BI 可能會略過此步驟。 
 
-6. 針對 [驗證方法]  ，將 [oAuth2]  保留為選取 \> [登入]  。
+6. 針對 [驗證方法]  ，保持選取 [oAuth2]  \> [登入]  。
 
 7. 遵循 GitHub 驗證畫面進行。 將 Power BI 權限授與 GitHub 資料。
    
@@ -114,7 +114,7 @@ ms.locfileid: "73871261"
 
     ![提取要求數 (依月份) 直條圖](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
 
-2. 在 [使用者的的總提取要求數]  圖表中，選取使用者名稱。 在此範例中，我們可以看到他們大多數的時數都集中在二月。
+2. 在 [使用者的總提取要求數]  圖表中，選取使用者名稱。 在此範例中，我們可以看到他們大多數的時數都集中在二月。
 
     ![Power BI GitHub 報表反白顯示](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-cross-filter-total-prs.png)
 

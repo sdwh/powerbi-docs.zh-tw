@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73872698"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404752"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>將 CDM 資料夾作為資料流程新增到 Power BI (預覽)
 
@@ -24,9 +24,10 @@ ms.locfileid: "73872698"
 
 從 CDM 資料夾建立資料流程有幾項需求，如下列清單所述：
 
+* 系統管理員必須先連結 Power BI 內的 ADLS Gen2 儲存體帳戶，才能加以使用。 請參閱[連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體](service-dataflows-connect-azure-data-lake-storage-gen2.md)，以了解如何將 ADLS Gen2 帳戶連結至 Power BI。
 * 從 CDM 資料夾建立資料流程的功能，「僅」  於[新的工作區體驗](service-create-the-new-workspaces.md)中提供。 
 * 若要將 CDM 資料夾新增到 Power BI，新增資料夾的使用者必須具有 [CDM 資料夾及其檔案的授權](https://go.microsoft.com/fwlink/?linkid=2029121) \(英文\)。
-* 您必須具有 CDM 資料夾中所有檔案和資料夾的讀取和執行權限，才能將它們新增到 Power BI。
+* 您必須具有 CDM 資料夾中所有檔案和資料夾的讀取和執行權限，才能將其新增到 Power BI。
 
 下列各節將說明如何從 CDM 資料夾建立資料流程。
 
@@ -73,11 +74,11 @@ Power BI Desktop：
 
 **Power BI Desktop** 客戶無法存取儲存在 Azure Data Lake Storage Gen2 中的資料流程，除非他們是該資料流程的擁有者，或已獲得資料流程之 CDM 資料夾的明確授權。 請考慮下列情況：
 
-1.  Anna 建立新的工作區，並加以設定以儲存來自 CDM 資料夾的資料流程。
-2.  Ben 是 Anna 所建立之工作區的成員，他想要使用 Power BI Desktop 和資料流程連接器，從 Anna 建立的資料流程取得資料。
-3.  Ben 會收到錯誤，因為 Ben 並未新增為該資料流程在 Data Lake 中 CDM 資料夾的授權使用者。
+1.    Anna 建立新的工作區，並加以設定以儲存來自 CDM 資料夾的資料流程。
+2.    Ben 是 Anna 所建立之工作區的成員，他想要使用 Power BI Desktop 和資料流程連接器，從 Anna 建立的資料流程取得資料。
+3.    Ben 會收到錯誤，因為 Ben 並未新增為該資料流程在 Data Lake 中 CDM 資料夾的授權使用者。
 
-    ![嘗試使用資料流程所產生的錯誤](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
+  ![嘗試使用資料流程所產生的錯誤](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
 若要解決此問題，Ben 必須被授與 CDM 資料夾及其檔案的讀者權限。 若要深入了解如何授與 CDM 資料夾的存取權，請參閱[此文章](https://go.microsoft.com/fwlink/?linkid=2029121) \(英文\)。
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cef0983479a4b63dd97c1f709d69d65172dea334
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205289"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404152"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI 的客戶獲利率範例：觀看導覽
 
@@ -56,7 +56,7 @@ ms.locfileid: "79205289"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529781) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529781) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[在 Excel 中探索 Excel 範例](sample-datasets.md#explore-excel-samples-inside-excel)以了解詳情。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>儀表板告訴我們什麼？
 
@@ -87,7 +87,7 @@ ms.locfileid: "79205289"
 藉由分析經理特定儀表板磚，我們可能會發現：
 
 - 除了 Carlos 以外的所有主管皆已超越其銷售目標。 不過，Carlos 的實際銷售額是最高的。
-- Annelie 的 GM% 最低，但我們可以看到它三月之後穩定增加。
+- Annelie 的 GM% 最低，但我們可以看到其在三月之後穩定增加。
 - 相反地，Valery 的 GM% 卻巨幅下滑。
 - Andrew 這一年的變動劇烈。
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8124a80f471e33ebbd140a30d6a49e2a762206ee
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858851"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404091"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的人力資源範例：觀看導覽
 
@@ -61,7 +61,7 @@ ms.locfileid: "73858851"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529780) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529780) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[在 Excel 中探索 Excel 範例](sample-datasets.md#explore-excel-samples-inside-excel)以了解詳情。
 
 ## <a name="new-hires"></a>新進員工
 首先，我們來探索新進員工。
@@ -78,8 +78,8 @@ ms.locfileid: "73858851"
 3. 查看以下感興趣的項目：
 
     * [新進員工、新進員工 SPLY 和依月份在職員工 YoY % 變更]  組合圖表顯示，比起去年，我們今年每個月份都雇用更多員工。 有幾個月更是大幅成長。
-    * 在 [ **依地區和民族的新進員工和在職員工**] 組合圖中，可以注意到我們在 **東部** 地區雇用的員工變少了。
-    * [ **依年齡群組的新進員工 YoY Var** ] 瀑布圖顯示我們雇用的主要是年輕員工。 此趨勢可能是因為這些工作大部分是兼職性質。
+    * 在 [ 依地區和民族的新進員工和在職員工]  組合圖中，可以注意到我們在**東部**地區雇用的員工變少了。
+    * [依年齡群組的新進員工 YoY Var]  瀑布圖顯示我們雇用的主要是年輕員工。 此趨勢可能是因為這些工作大部分是兼職性質。
     * [依性別的新進員工]  圓形圖顯示性別分配大略平均。
 
     您可以找到其他見解嗎？ 例如，哪個區域性別分配不均。 

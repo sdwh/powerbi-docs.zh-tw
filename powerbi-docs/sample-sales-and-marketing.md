@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 8085a6c8f5d0e7a2797ef6c5961b6083eb98f346
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: be4b51629eefe46cb1ecc528951fab9128874a6f
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873827"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404632"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的銷售與行銷範例：觀看導覽
 
@@ -59,7 +59,7 @@ VanArsdel 有許多競爭對手，但仍是該產業的市場領導者。 CMO �
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>取得此範例的 Excel 活頁簿
 
-如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529785) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[從 Excel 本身檢視 Excel 範例](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)以了解詳情。
+如果您想要檢視此範例的資料來源，其也有可用的 [Excel 活頁簿](https://go.microsoft.com/fwlink/?LinkId=529785) 格式。 活頁簿包含的 Power View 工作表可供您檢視及修改。 若要查看未經處理資料，請啟用「資料分析」增益集，然後選取 [Power Pivot] > [管理]  。 若要啟用 Power View 和 Power Pivot 增益集，請參閱[在 Excel 中探索 Excel 範例](sample-datasets.md#explore-excel-samples-inside-excel)以了解詳情。
 
 ## <a name="what-is-our-dashboard-telling-us"></a>儀表板告訴我們什麼？
 讓我們開始瀏覽儀表板並查看 CMO 已釘選的圖格。 我們可以看到我們的市場佔有率、銷售和人氣的相關資訊。 這些資料是依區域、時間和競爭對手細分。
@@ -126,7 +126,7 @@ VanArsdel 有許多競爭對手，但仍是該產業的市場領導者。 CMO �
 
 6. 查看 [每月 % 單位市場佔有率和 R12M 的 % 單位市場佔有率]  折線圖。 它會顯示每月市場佔有率和連續 12 個月的市場佔有率。 連續月份資料有助於緩和每個月的波動並顯示長期趨勢。 在 [依市場區隔的總類別銷售量]  橫條圖中，依序選取 [便利性]  和 [合適性]  ，以查看每個市場區隔的市場佔有率波動情況。 請注意，[合適性]  市場區隔顯示的市場佔有率波動更大。
 
-我們仍必須找出市場佔有率在 6 月份下滑的原因。 接下來，讓我們看看報表的 [人氣分析]  頁面。
+我們仍必須找出市場佔有率在 6 月份下滑的原因。 接下來，讓我們看看報表的 [情感分析]  頁面。
 
 ### <a name="sentiment-analysis-page"></a>人氣分析頁面
 報表的第三頁著重於消費者人氣。
