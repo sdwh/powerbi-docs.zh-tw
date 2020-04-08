@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 1db56c2844d217bf6bff633609893e5a97a6dae5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114893"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802112"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>檢視為手機最佳化的 Power BI 報表
 
@@ -39,10 +39,11 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
 ## <a name="filter-the-report-page-on-a-phone"></a>在電話上篩選報表頁面
 如果已為電話最佳化的報表定義篩選，則當您在電話上檢視報表時，就可以使用這些篩選。 在您手機上所開啟報表會篩選為網頁之報表中的已篩選值。 您會看到訊息指出頁面上有作用中的篩選器。 您可以在手機上變更篩選。
 
-1. 點選篩選圖示 ![手機篩選圖示](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) 在頁面底部。 
+1. 點選篩選圖示 ![手機篩選圖示](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) 在頁面底部。
+
 2. 使用基本或進階篩選，查看您感興趣的結果。
    
-    ![Power BI 電話報表進階篩選器](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
+    ![Power BI 電話報表進階篩選器](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.png)
 
 ## <a name="cross-highlight-visuals"></a>跨醒目提示視覺效果
 在直向檢視中交叉醒目提示的視覺效果，其運作方式與 Power BI 服務中的視覺效果相同，且在手機的橫向檢視中也是如此：當您在一個視覺效果中選取資料時，它會反白顯示該頁面上其他視覺效果中的相關資料。

@@ -9,18 +9,16 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 5ef6068135e8adcbfd242ca4a6491396101d214e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78923003"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621535"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 報表產生器
 
  Power BI Report Builder 是用於撰寫分頁報表的工具。  當您設計分頁報表時，您將建立報表定義來指定要擷取的資料、何處取得資料及如何顯示資料。 當您執行報表時，報表處理器會採用您所指定的報表定義、擷取資料，並結合報表配置來產生報表。 您會在報表產生器中預覽報表。 然後將報表發佈至 Power BI 服務。
-
-試用[Hands-on lab:Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (實作教室：建立 Microsoft Power BI 編頁報表)。
 
 想要從影片學習嗎？ 請觀看 Power BI 首席專案經理 Chris Finlan 在 YouTube 上提供的 Power BI 編頁報表影片系列。
 
@@ -30,13 +28,13 @@ ms.locfileid: "78923003"
 
 ![Power BI 服務中的編頁報表](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-##  <a name="JumpStartReptCreation"></a> 開始建立報表  
+##  <a name="jump-start-report-creation"></a><a name="JumpStartReptCreation"></a> 開始建立報表  
  
 -   **開始使用 [資料表精靈]、[矩陣精靈] 或 [圖表精靈]** 。 建立資料來源連線、拖放欄位以建立資料集查詢、選取配置和樣式，並自訂報表。  
   
 -   **開始使用 [地圖精靈]** ，以建立根據地理或幾何背景顯示彙總資料的報表。 地圖資料可以是來自 Transact-SQL 查詢或美國環境系統研究所公司(ESRI) 形狀檔的空間資料。 您還可以加入 Microsoft Bing 地圖底圖背景。  
 
-##  <a name="DesignRept"></a> 設計報表  
+##  <a name="design-your-report"></a><a name="DesignRept"></a> 設計報表  
   
 -   **使用資料表、矩陣、圖表及任意格式的報表配置建立分頁報表。** 針對以資料行為基礎的資料建立資料表報表，針對摘要資料建立矩陣報表 (例如交叉分析或樞紐分析表報表)，針對圖形化資料建立圖表報表，以及針對其他任何內容建立任意格式的報表。 報表可以內嵌其他報表和圖表，連同動態 Web 應用程式的清單、圖形和控制項。  
   
@@ -52,7 +50,7 @@ ms.locfileid: "78923003"
   
 -   **內嵌或參考影像**與其他資源，包括外部內容。  
   
-##  <a name="ManageRpt"></a> 管理報表  
+##  <a name="manage-your-report"></a><a name="ManageRpt"></a> 管理報表  
   
 -   **儲存報表的定義**至您的電腦或報表伺服器，以便您進行管理並與其他人共用。  
   
@@ -63,5 +61,4 @@ ms.locfileid: "78923003"
 ## <a name="next-steps"></a>後續步驟
 
 - [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)
-- 試用[Hands-on lab:Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (實作教室：建立 Microsoft Power BI 編頁報表)
 - 請觀看 Power BI 首席專案經理 Chris Finlan 在 YouTube 上提供的 [Power BI 編頁報表影片系列](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ)
