@@ -60,6 +60,8 @@
               href: mobile-apps-view-phone-report.md
             - name: 在行動應用程式中檢視內部部署報表
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: 使用 Face ID、Touch ID、密碼或指紋識別碼保護
+              href: mobile-native-secure-access.md
             - name: 存取來自外部組織的內容 (B2B)
               href: mobile-apps-b2b.md
             - name: 從手機掃描 Power BI QR 代碼
@@ -76,8 +78,6 @@
           items:
             - name: 開始使用 iOS 應用程式
               href: mobile-iphone-app-get-started.md
-            - name: 使用 Face ID、Touch ID 或密碼保護
-              href: mobile-ios-native-secure-access.md
             - name: iOS 行動裝置應用程式的問與答虛擬分析師
               href: mobile-apps-ios-qna.md
             - name: 使用 Siri 捷徑的 Power BI 行動應用程式整合
@@ -90,6 +90,10 @@
           items:
             - name: 開始使用 Android 應用程式
               href: mobile-android-app-get-started.md
+            - name: 使用 Android 應用程式捷徑
+              href: mobile-app-quick-access-shortcuts.md
+            - name: 使用 Google 搜尋尋找及存取內容
+              href: mobile-app-find-access-google-search.md
             - name: 修正「您的公司 SSL 憑證不受信任」
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
             - name: 修正「需要更新 Android System Webview」
