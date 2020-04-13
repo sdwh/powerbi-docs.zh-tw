@@ -49,15 +49,15 @@
           items:
             - name: 使用報表檢視
               href: ../desktop-report-view.md
-            - name: Power BI 報表中的篩選類型
+            - name: 報表中的篩選類型
               href: ../power-bi-report-filter-types.md
             - name: 在報表中進行篩選和醒目提示
               href: ../power-bi-reports-filters-and-highlighting.md
             - name: 高密度折線圖取樣
               href: ../desktop-high-density-sampling.md
-            - name: 關於 Power BI 問與答視覺效果
+            - name: 關於問與答視覺效果
               href: ../visuals/power-bi-visualization-q-and-a.md
-            - name: 關於 Power BI 協助工具
+            - name: 關於協助工具
               href: ../desktop-accessibility-overview.md
             - name: 自然語言問與答
               items:
@@ -125,7 +125,7 @@
               href: ../desktop-bookmarks.md
             - name: 使用報表主題
               href: ../desktop-report-themes.md
-            - name: 使用 Power BI 報表中的篩選
+            - name: 使用報表中的篩選
               href: ../power-bi-report-filter.md
             - name: 使用鑽研功能
               href: ../desktop-drillthrough.md
@@ -139,7 +139,7 @@
               href: ../desktop-r-powered-custom-visuals.md
             - name: 套用格線與貼齊格線
               href: ../desktop-gridlines-snap-to-grid.md
-            - name: 套用 Power BI 報表的頁面顯示設定
+            - name: 在報表中套用頁面顯示設定
               href: ../power-bi-report-display-settings.md
             - name: 從範例新增資料行
               href: ../desktop-add-column-from-example.md
@@ -147,12 +147,16 @@
               href: ../desktop-add-custom-column.md
             - name: 使用內嵌階層標籤
               href: ../desktop-inline-hierarchy-labels.md
-            - name: 使用數字範圍交叉分析篩選器
+            - name: 交叉分析篩選器
+              href: ../visuals/power-bi-visualization-slicers.md
+            - name: 數值範圍交叉分析篩選器
               href: ../desktop-slicer-numeric-range.md
-            - name: 使用相對日期交叉分析篩選器與篩選
-              href: ../desktop-slicer-filter-date-range.md
+            - name: 相對日期交叉分析篩選器與篩選
+              href: ../visuals/desktop-slicer-filter-date-range.md
             - name: 建立可以調整大小的交叉分析篩選器
               href: ../power-bi-slicer-filter-responsive.md
+            - name: 將多個欄位新增至交叉分析篩選器
+              href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: 使用資料列層級安全性來限制資料存取
               href: ../desktop-rls.md
             - name: 自訂工具提示
@@ -205,17 +209,17 @@
               href: ../desktop-upload-desktop-files.md
         - name: 視覺效果
           items:
-            - name: 將視覺效果新增至 Power BI 報表 (第 1 部分)
+            - name: 將視覺效果新增至報表 (第 1 部分)
               href: ../visuals/power-bi-report-add-visualizations-i.md
-            - name: 將視覺效果新增至 Power BI 報表 (第 2 部分)
+            - name: 將視覺效果新增至報表 (第 2 部分)
               href: ../visuals/power-bi-report-add-visualizations-ii.md
-            - name: 將視覺效果新增至 Power BI 報表
+            - name: 將視覺效果新增至報表
               href: ../visuals/power-bi-report-visualizations.md
-            - name: 變更 Power BI 報表中的視覺效果
+            - name: 變更報表中的視覺效果
               href: ../visuals/power-bi-report-change-visualization-type.md
             - name: 自訂視覺效果標題、背景和圖例
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-            - name: 在 Power BI 中顯示沒有資料的項目
+            - name: 顯示沒有資料的項目
               href: ../desktop-show-items-no-data.md
             - name: 依視覺效果類型套用資料點限制與策略
               href: ../visuals/power-bi-data-points.md
@@ -233,7 +237,7 @@
               href: ../visuals/power-bi-visualization-move-and-resize.md
             - name: 變更報表中的視覺效果互動方式
               href: ../service-reports-visual-interactions.md
-            - name: Power BI 地圖視覺效果的秘訣和訣竅
+            - name: 地圖視覺效果的提示與訣竅
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: 自訂 X 軸和 Y 軸屬性
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
@@ -241,47 +245,45 @@
               href: ../visuals/power-bi-visualizations-arcgis.md
             - name: 建立 ArcGIS maps for Power BI 視覺效果
               href: ../visuals/power-bi-visualization-arcgis.md
-            - name: 建立和使用基本區域圖
+            - name: 基本區域圖
               href: ../visuals/power-bi-visualization-basic-area-chart.md
             - name: 建立卡片視覺效果 (也稱為大數字磚)
               href: ../visuals/power-bi-visualization-card.md
-            - name: 建立和使用組合圖
+            - name: 組合圖
               href: ../visuals/power-bi-visualization-combo-chart.md
-            - name: 建立並使用分解樹狀結構視覺效果 (預覽)
+            - name: 分解樹狀結構視覺效果 (預覽)
               href: ../visuals/power-bi-visualization-decomposition-tree.md
-            - name: 建立和使用環圈圖
+            - name: 環圈圖
               href: ../visuals/power-bi-visualization-doughnut-charts.md
-            - name: 建立和使用區域分布圖 (分級著色圖)
+            - name: 區域分布圖 (分區著色圖)
               href: ../visuals/power-bi-visualization-filled-maps-choropleths.md
-            - name: 建立和使用漏斗圖
+            - name: 漏斗圖
               href: ../visuals/power-bi-visualization-funnel-charts.md
-            - name: 建立並使用關鍵影響因素視覺效果
+            - name: 關鍵影響因素視覺效果
               href: ../visuals/power-bi-visualization-influencers.md
-            - name: 建立並使用 KPI 視覺效果
+            - name: KPI 視覺效果
               href: ../visuals/power-bi-visualization-kpi.md
-            - name: 建立並使用矩陣視覺效果
+            - name: 矩陣視覺效果
               href: ../visuals/desktop-matrix-visual.md
-            - name: 建立及使用 Power Apps 視覺效果
+            - name: Power Apps 視覺效果
               href: ../visuals/power-bi-visualization-powerapp.md
-            - name: 建立並使用 R 視覺效果
+            - name: R 視覺效果
               href: ../visuals/service-r-visuals.md
-            - name: 建立和使用星形量測計圖表
+            - name: 星形量測計圖表
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
-            - name: 建立和使用功能區圖表
+            - name: 功能區圖表
               href: ../visuals/desktop-ribbon-charts.md
-            - name: 建立和使用散佈圖、泡泡圖與點圖
+            - name: 散佈圖、泡泡圖與點圖
               href: ../visuals/power-bi-visualization-scatter.md
             - name: 使用高密度散佈圖
               href: ../visuals/desktop-high-density-scatter-charts.md
-            - name: 建立和使用圖形對應視覺效果 (預覽)
+            - name: 圖形對應視覺效果 (預覽)
               href: ../visuals/desktop-shape-map.md
-            - name: 建立和使用交叉分析篩選器
-              href: ../visuals/power-bi-visualization-slicers.md
-            - name: 在 Power BI 報表與儀表板中建立和使用資料表
+            - name: 報表與儀表板中的資料表
               href: ../visuals/power-bi-visualization-tables.md
-            - name: 建立和使用矩形式樹狀結構圖
+            - name: 矩形式樹狀結構圖
               href: ../visuals/power-bi-visualization-treemaps.md
-            - name: 建立和使用瀑布圖
+            - name: 瀑布圖
               href: ../visuals/power-bi-visualization-waterfall-charts.md
         - name: 自然語言問與答
           items:
@@ -301,17 +303,17 @@
               href: ../service-q-and-a-create-featured-questions.md
             - name: 透過即時連線使用問與答
               href: ../service-q-and-a-direct-query.md
-            - name: Power BI 的快速深入剖析
+            - name: 深入資訊摘要
               href: ../service-insights.md
             - name: 針對快速見解將資料最佳化
               href: ../service-insights-optimize.md
         - name: 協助工具
           items:
-            - name: 設計具協助功能的 Power BI 報表
+            - name: 設計具有協助功能的報表
               href: ../desktop-accessibility-creating-reports.md
-            - name: 使用協助工具來建立 Power BI 報表
+            - name: 使用協助工具建立報表
               href: ../desktop-accessibility-creating-tools.md
-            - name: 使用協助工具功能以取用 Power BI 報表
+            - name: 使用協助工具功能取用報表
               href: ../desktop-accessibility-consuming-tools.md
             - name: Power BI Desktop 中的鍵盤快速鍵
               href: ../desktop-accessibility-keyboard-shortcuts.md
@@ -351,7 +353,7 @@
               href: ../service-dashboard-pin-tile-from-q-and-a.md
             - name: 將整個報表頁面釘選到儀表板
               href: ../service-dashboard-pin-live-tile-from-report.md
-            - name: Power BI 服務中的資料警示
+            - name: 服務中的資料警示
               href: ../service-set-data-alerts.md
             - name: 將影像、文字方塊、影片或程式碼新增至儀表板
               href: ../service-dashboard-add-widget.md
@@ -369,9 +371,9 @@
               href: ../service-dashboard-themes.md
         - name: 其他工作
           items:
-            - name: 重新命名 Power BI 中的內容
+            - name: 將內容重新命名
               href: ../service-rename.md
             - name: 設定項目連絡人
               href: ../service-item-contact.md
-            - name: 刪除 Power BI 中的大部分項目
+            - name: 刪除大部分項目
               href: ../service-delete.md
