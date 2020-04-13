@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
-ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.date: 04/08/2020
+ms.openlocfilehash: ff63e38e52a3c8970edfa5b6d9e2ccabeff2e16a
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381092"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979791"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -29,7 +29,7 @@ ms.locfileid: "79381092"
            -  針對特定資料來源無法上傳 Power BI 報表的修正
            -  入口網站中 Power BI 報表伺服器桌面連結下載位置的修正
            -  適用於 Excel 轉譯之 DynamicImageDPI 的修正
-           -  Oracle 連線在特定多使用者案例中使用不正確的執行緒文化特性的修正
+           -  Oracle 連線在特定多使用者案例中使用不正確執行緒文化特性的修正 (請參閱 [UseInstalledUICulture 文件] (https://docs.microsoft.com/power-bi/report-server/connect-data-sources) 以取得詳細資料)
            -  CustomHeaders 預設值導致報表內嵌失敗的修正
            -  在某些情況下不正確地產生之 SQL 參數名稱的修正
     - *版本：1.6.7327.3007 (組建 15.0.1102.759)，發行日期：2020 年 1 月 23 日*

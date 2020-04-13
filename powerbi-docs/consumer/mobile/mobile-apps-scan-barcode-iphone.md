@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ee3cfec0c735ad52f9a036e75f61c1ab0400567b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75217796"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802041"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>使用裝置從 Power BI 行動裝置應用程式掃描條碼
 掃描實際的條碼可直接前往 Power BI 行動裝置應用程式中篩選過的 BI 資訊。
@@ -21,9 +21,9 @@ ms.locfileid: "75217796"
 
 適用於︰
 
-| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | 
-|:--- |:--- |
-| iPhone | Android (手機、平板電腦) | 
+| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPad](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Android 手機](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Android 平板電腦](././media/mobile-apps-qr-code/android-logo-40-px.png) |
+|:--- |:--- |:--- |:--- |
+|iPhone |iPad |Android 手機 |Android 平板電腦 |
 
 假設有同事[在 Power BI Desktop 報表中標記了條碼欄位](../../desktop-mobile-barcodes.md)，然後與您共用報表。 
 
@@ -32,7 +32,7 @@ ms.locfileid: "75217796"
 當您使用裝置上 Power BI 應用程式中的掃描器掃描產品條碼時，您就會看到具有該條碼的報表 (或報表清單)。 您可以開啟篩選出該條碼的報表。
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>使用 Power BI 掃描器掃描條碼
-1. 在導覽列上，點選 [更多選項]  (...)，然後點選 [掃描器]  。
+1. 在導覽列上，點選 [更多選項] **** (...)，然後點選 [掃描器] **** 。
 
     ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
 
@@ -44,27 +44,27 @@ ms.locfileid: "75217796"
 在裝置上查看按條碼篩選的報表時，您可能想要用不同條碼篩選相同的報表。
 
 * 如果條碼圖示有篩選器 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png)，則篩選器為使用中，且報表已按條碼篩選。 
-* 如果圖示不含篩選器 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png)，則篩選器未使用，且報表未按條碼篩選。 
+* 如果圖示不含篩選器 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png)，則篩選器未使用且報表未按條碼篩選。 
 
 無論何種狀況，都請點選圖示以開啟有浮動掃描器的小功能表。
 
 * 將掃描器對焦到新項目，將報表的篩選條件變更為不同的條碼值。 
-* 選取 \[Clear barcode filter] \(清除條碼篩選)  回到未經篩選的報表。
-* 選取 \[Filter by recent barcodes] \(按最近的條碼篩選)  ，將報表篩選條件變更為目前工作階段內，您掃描過的其中一個條碼。
+* 選取 \[Clear barcode filter] \(清除條碼篩選) **** 回到未經篩選的報表。
+* 選取 \[Filter by recent barcodes] \(按最近的條碼篩選) **** ，將報表篩選條件變更為目前工作階段內，您掃描過的其中一個條碼。
 
 ## <a name="issues-with-scanning-a-barcode"></a>條碼掃描問題
 以下是掃描產品條碼時，可能會看到的一些訊息。
 
-### <a name="couldnt-filter-report"></a>「無法篩選報表......」
+### <a name="couldnt-filter-report"></a>「無法篩選報表...」
 您選擇要篩選的報表，其資料模型基礎不包含此條碼值。 例如，報表不包含產品「礦泉水」。  
 
 ### <a name="allsome-of-the-visuals-in-the-report-dont-contain-any-value"></a>報表的全部/某些視覺效果不包含任何值
 您掃描的條碼值位在模型中，但報表的全部/某些視覺效果不包含此值，因此篩選會傳回空白狀態。 請嘗試查詢其他報表頁面，或在 Power BI Desktop 中編輯報表使其包含此值。 
 
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>「您似乎沒有任何可供條碼篩選的報表。」
-這表示您沒有任何使用條碼的報表。 條碼掃描器只能篩選具有 [條碼]  資料行的報表。  
+這表示您沒有任何使用條碼的報表。 條碼掃描器只能篩選具有 [條碼] **** 資料行的報表。  
 
-請確定您或報表擁有者已在 Power BI Desktop 中將資料行標記為 [條碼]  。 深入了解[在 Power BI Desktop 中標記條碼欄位](../../desktop-mobile-barcodes.md)
+請確定您或報表擁有者已在 Power BI Desktop 中將資料行標記為 [條碼] **** 。 深入了解[在 Power BI Desktop 中標記條碼欄位](../../desktop-mobile-barcodes.md)
 
 ### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>「無法篩選報表，此條碼似乎不存在於報表資料中。」
 您選擇要篩選的報表，其資料模型基礎不包含此條碼值。 例如，報表不包含產品「礦泉水」。 您可以掃描不同的產品、選擇不同的報表 (如有多份報表可供選擇)，或檢視未經篩選的報表。 

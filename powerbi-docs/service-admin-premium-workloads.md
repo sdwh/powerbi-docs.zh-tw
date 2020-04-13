@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/24/2020
+ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: d468ab70f47edcd5487b548596f4aea4080cd994
-ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
+ms.openlocfilehash: aa44f0c8c11cb26ecfc7763ec127ca8a8505536a
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80329636"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979906"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>設定 Premium 容量中的工作負載
 
@@ -65,7 +65,7 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 | **最大記憶體 (%)** | 資料集可在容量中使用的可用記憶體百分比上限。 |
 | **XMLA 端點** | 指定從用戶端應用程式的連線，接受在工作區和應用程式層級設定的安全性群組成員資格。 如需詳細資訊，請參閱[使用用戶端應用程式與工具連線至資料集](service-premium-connect-tools.md)。 |
 | **中繼資料列集計數上限** | DirectQuery 傳回的中繼資料列數目上限。 預設值為 1000000，允許的範圍介於 100000 到 2147483647 之間。 |
-| **離線資料集大小上限 (GB)** | 記憶體中的離線資料集大小上限。 這是磁碟上的壓縮大小。 預設值是由 SKU 設定，允許的範圍介於 0.1 到 10 GB 之間。 |
+| **離線資料集大小上限 (GB)** | 記憶體中的離線資料集大小上限。 這是磁碟上的壓縮大小。 預設值為 0，這是由 SKU 定義的最高限制。 允許的範圍介於 0 與容量大小限制之間。 |
 | **結果資料列集計數上限** | DAX 查詢中傳回的資料列數目上限。 預設值為 -1 (沒有限制)，且允許的範圍介於 100000 到 2147483647 之間。 |
 | **查詢記憶體限制 (%)** | 工作負載中可用於執行 MDX 或 DAX 查詢的可用記憶體百分比上限。 預設值為 0，這會導致套用 SKU 特定的自動查詢記憶體限制。 |
 | **查詢逾時 (秒)** | 查詢逾時前的最大時間量。預設值為 3600 秒 (1 小時)。 值 0 指定查詢不會逾時。 |
@@ -203,6 +203,9 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 ## <a name="monitoring-workloads"></a>監視工作負載
 
 [Power BI Premium 容量計量應用程式](service-admin-premium-monitor-capacity.md)提供資料集、資料流程，以及分頁報表計量，以監視針對您的容量啟用的工作負載。 
+
+> [!IMPORTANT]
+> 如果 Power BI Premium 容量遇到高資源使用量，因而發生效能或可靠性問題，您可收到通知電子郵件以找出問題並加以解決。 如需詳細資訊，請參閱[容量和可靠性通知](service-interruption-notifications.md#capacity-and-reliability-notifications)。
 
 ## <a name="next-steps"></a>後續步驟
 

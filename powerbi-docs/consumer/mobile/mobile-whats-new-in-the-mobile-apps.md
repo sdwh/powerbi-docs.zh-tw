@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435965"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802087"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -24,6 +24,20 @@ ms.locfileid: "79435965"
 
 >[!NOTE]
 >**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="march-2020"></a>2020 年 3 月
+
+### <a name="use-shortcuts-and-google-search-to-launch-your-content-android"></a>使用捷徑與 Google 搜尋來啟動內容 (Android)
+我們已將捷徑和 Google 搜尋與 Power BI 應用程式整合，以供可更輕鬆地尋找及啟動資料。 建立捷徑以便直接從裝置主畫面輕鬆存取最常用的報表和儀表板。 並使用 Google 搜尋來快速搜尋並開啟 Power BI 內容。 深入了解 [Android 應用程式捷徑](mobile-app-quick-access-shortcuts.md)和 [Google 搜尋](mobile-app-find-access-google-search.md)！
+
+### <a name="enhanced-security-using-device-protection-preview-android"></a>使用裝置保護以增強安全性 (預覽) (Android)
+使用裝置內建保護功能來保護 Power BI 應用程式，並獲得所需的隱私權。 要求生物特徵辨識驗證 (指紋識別碼) 才能存取 Power BI 應用程式，可確保將資料保持隱私，只能由您自己看到。 [了解原生安全存取](mobile-native-secure-access.md)
+
+### <a name="scanning-is-now-available-on-ipad"></a>現在可用 iPad 掃描
+現在可直接從 iPad 掃描條碼來篩選報表，並使用 QR 代碼快速開啟報表。  
+
+### <a name="updated-filtering-experience"></a>已更新篩選體驗
+Power BI 應用程式中的篩選有新功能和新設計。 這項更新包含改善影響報表視覺效果的套用篩選可見度，以及鎖定 (甚至隱藏) 篩選的功能。 這些變更也提供與 Power BI 服務中篩選的較佳相容性。
 
 ## <a name="february-2020"></a>2020 年 2 月
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 60432c110df7c20aa13969d70ed7c2a90d0ef575
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114834"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979814"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>在 Power BI 中建立和使用 R 視覺效果
 R 視覺效果目前僅能在 **Power BI Desktop** 中建立，然後發行到 Power BI 服務。 如需如何建立 R 視覺效果的詳細資訊，請參閱 [使用 R 建立 Power BI 視覺效果](../desktop-r-visuals.md)。
@@ -93,7 +93,8 @@ Power BI 服務的 R 視覺效果有某些限制︰
 * R 視覺效果會在資料更新、篩選及反白顯示時進行重新整理。 不過，影像本身不會互動，也不支援工具提示。
 * R 視覺效果會回應反白顯示的其他視覺效果，但您不能點選 R 視覺效果中的項目，無法交叉篩選其他項目。
 * 「時間」  資料類型目前不支援 R 視覺效果。 請改用日期/時間。
-* 使用 [發行至 Web]  時不會顯示 R 視覺效果。
+* 使用 [發佈至 Web]  時不會顯示 R 視覺效果。
+* R 視覺效果不支援重新命名輸入資料行。 在指令碼執行期間，資料行會以其原始名稱來參考。
 * 儀表板和報表列印目前不會列印 R 視覺效果
 * Analysis Services 的 DirectQuery 模式目前不支援 R 視覺效果
 * R 視覺效果能夠將文字標籤轉換成圖形元素。 在 Power BI 服務中這麼做需要執行下列額外步驟：

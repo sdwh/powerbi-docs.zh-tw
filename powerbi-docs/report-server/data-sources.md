@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
+ms.date: 04/08/2020
 ms.author: maggies
-ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237515"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979837"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 報表伺服器中的 Power BI 報表資料來源
 Power BI 報表可以連接到數種資料來源。 根據使用資料的方式而定，可以使用不同的資料來源。 可以匯入資料，或者使用 DirectQuery 或與 SQL Server Analysis Services 的即時連線，直接查詢資料。
@@ -156,7 +156,7 @@ Power BI 報表伺服器對模型重新整理不支援 OAuth 型驗證。 例如
 | SharePoint Online 清單 |否 |否 |否 |否 |
 | Snowflake |否 |否 |否 |否 |
 | Sybase 資料庫 |否 |否 |是 |是 |
-| Teradata |否 |否 |是 |是 |
+| Teradata |否 |否 |是 |是** |
 | appFigures (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | Azure Analysis Services 資料庫 (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | Azure Cosmos DB (搶鮮版 (Beta)) |否 |否 |否 |否 |
@@ -189,6 +189,8 @@ Power BI 報表伺服器對模型重新整理不支援 OAuth 型驗證。 例如
 | Visual Studio Team Services (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | Webtrends (搶鮮版 (Beta)) |否 |否 |否 |否 |
 | Zendesk (搶鮮版 (Beta)) |否 |否 |否 |否 |
+
+**使用 LDAP 驗證搭配 Teradata (使用命令提示字元命令 'setx PBI_EnableTeradataLdap true' 在 Power BI Desktop 中啟用) 不支援模型重新整理。
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>DirectQuery 支援的驗證方法清單
 

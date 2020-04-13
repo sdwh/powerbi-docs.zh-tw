@@ -7,20 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a61288c9792d562e9a5efecd43d879d6df6d1782
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 268aa73506be5cc025645672f402b88646497b1c
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698869"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813067"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>使用應用程式監視 Premium 容量
 
 監視您的容量對於明智地決定如何最有效地利用 Premium 容量資源至關重要。 您可以在系統管理入口網站中或使用 **Power BI Premium 容量計量**應用程式來監視容量。 本文說明如何使用 Premium 容量計量應用程式。 此應用程式提供您容量如何執行的最深入資訊。 如需過去七天平均使用計量的更高階概觀，您可以使用系統管理入口網站。 若要深入了解入口網站中的監視，請參閱[在系統管理入口網站中監視 Premium 容量](service-admin-premium-monitor-portal.md)。
 
 應用程式會定期更新，加入新特性和功能。 請確定您執行的是最新版本。 如果您已安裝舊版應用程式，最好從您的應用程式中刪除它，然後按下 CTRL + F5 重新整理。
+
+> [!IMPORTANT]
+> 如果 Power BI Premium 容量遇到高資源使用量，因而發生效能或可靠性問題，您可收到通知電子郵件以找出問題並加以解決。 這是對超載容量進行疑難排解的簡單方式。 如需詳細資訊，請參閱[容量和可靠性通知](service-interruption-notifications.md#capacity-and-reliability-notifications)。
 
 ## <a name="install-the-app"></a>安裝應用程式
 
@@ -60,7 +63,7 @@ ms.locfileid: "74698869"
 
 #### <a name="top"></a>頂端
 
-| 計量 | 描述 |
+| Metric | 描述 |
 | --- | --- |
 | 版本 | 應用程式版本。 | 
 | 容量 | 您身為系統管理員所擁有的容量數目。 | 
@@ -69,7 +72,7 @@ ms.locfileid: "74698869"
 
 #### <a name="system-summary"></a>系統摘要
 
-| 計量 | 描述 |
+| Metric | 描述 |
 | --- | --- |
 | CPU 最高使用率容量 | 過去七天內 CPU 超過閾值 80% 最大次數的容量。 |
 | CPU 最高使用率計數 | 過去七天內 CPU 超出指定容量閾值 80% 的次數。 | 
@@ -79,7 +82,7 @@ ms.locfileid: "74698869"
 
 #### <a name="dataset-summary"></a>資料集摘要
 
-| 計量 | 描述 |
+| Metric | 描述 |
 | --- | --- |
 | 資料集 | 在您容量中所有工作區的資料集總數。|
 | 資料集平均大小 (MB) | 在您容量中所有工作區的資料集平均大小。|  
@@ -106,7 +109,7 @@ ms.locfileid: "74698869"
 
 #### <a name="dataflow-summary"></a>資料流程摘要
 
-| 計量 | 描述 |
+| Metric | 描述 |
 | --- | --- |
 | 資料流程 |  容量中所有工作區的資料流程總數。|
 | 重新整理總計 | 過去七天內的重新整理總數。|  
@@ -120,7 +123,7 @@ ms.locfileid: "74698869"
 
 #### <a name="paginated-report-summary"></a>編頁報表摘要
 
-| 計量 | 描述 |
+| Metric | 描述 |
 | --- | --- |
 | 編頁報表 |  容量中所有工作區的編頁報表總數。 |
 | 檢視總數 | 使用者檢視過所有報表的總次數。 | 
@@ -134,7 +137,7 @@ ms.locfileid: "74698869"
 
 #### <a name="ai-summary"></a>AI 摘要
 
-| 計量 | 描述 |
+| Metric | 描述 |
 | --- | --- |
 | AI 函式執行 | 過去七天內的執行總數。 |
 | AI 函式執行可靠性 (%) | 過去七天內成功執行數目除以執行總數。 |

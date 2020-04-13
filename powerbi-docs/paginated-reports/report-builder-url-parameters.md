@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 09/10/2019
-ms.openlocfilehash: 35df214da19d5f35130408ce8128643f52682428
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.date: 04/02/2020
+ms.openlocfilehash: df59d09a1e8557842904b46eded0a83c86448224
+ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922221"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80647701"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI 編頁報表中的 URL 參數
 
@@ -78,6 +78,14 @@ Power BI 租用戶的 Web 服務 URL。 例如：
 - CSV 
 - PDF 
 - XML 
+
+**參數面板狀態**：指定當載入報表時，要關閉或開啟參數面板，或一起隱藏。
+
+-   rdl:parameterPanelState
+
+    - 「摺疊」：在關閉參數面板的情況下載入報表。 參數按鈕會啟用，可供使用者按一下按鈕來展開；
+    - 「隱藏」：在關閉參數面板及停用參數按鈕的情況下載入報表；
+    - 「展開」(預設值)：在開啟參數面板及啟用參數按鈕的情況下載入報表；
 
 **裝置資訊** 您可以為下列匯出格式指定額外的輸出參數。 
 

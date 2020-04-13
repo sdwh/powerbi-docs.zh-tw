@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: e60aed5b538eab3b630f42a665d96256cc07879c
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2aa62197bc9af359962f25394d4f202a945d97d8
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74700088"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813090"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>設定及管理 Power BI Premium 中的容量
 
@@ -94,6 +94,10 @@ Power BI 管理員和 Office 365 全域管理員可以變更 Power BI Premium �
     系統管理員可隨意建立、調整大小和刪除節點，只要他們有必要的 V 核心數量。
 
     P SKU 無法降級為 EM SKU。 您可以將滑鼠暫留在任何已停用的選項上以查看說明。
+
+> [!IMPORTANT]
+> 如果 Power BI Premium 容量遇到高資源使用量，因而發生效能或可靠性問題，您可收到通知電子郵件以找出問題並加以解決。 如需詳細資訊，請參閱[容量和可靠性通知](service-interruption-notifications.md#capacity-and-reliability-notifications)。
+
 
 ### <a name="manage-user-permissions"></a>管理使用者權限
 

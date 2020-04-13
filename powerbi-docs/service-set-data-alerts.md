@@ -7,21 +7,21 @@ featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a67d983d11ae8fa2f82a540c0649c2da475d5249
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74163763"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621617"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 服務中的資料警示
 
 設定警示，以在儀表板中的資料變更時超出您所設定的限制時通知您。
 
-如果您有 Power BI Pro 授權，您可以在磚上設定警示。 如果有人共用位於 [Premium 容量](service-premium-what-is.md)中的儀表板，您也可以設定警示。 只可在從報表視覺效果釘選的磚上，為量測計、KPI 和卡片設定警示。 可以對您從報表釘選到儀表板的串流資料集上所建立視覺效果設定警示。 但不可對使用 [新增磚]   > [自訂串流資料]  直接在儀表板上所建立串流磚設定警示。
+您可在 [我的工作區] 中的磚上設定警示。 如果有人共用位於 [Premium 容量](service-premium-what-is.md)中的儀表板，您也可以設定警示。 如果有 Power BI Pro 授權，您也可以在任何其他工作區的磚上設定警示。 只可在從報表視覺效果釘選的磚上，為量測計、KPI 和卡片設定警示。 可以對您從報表釘選到儀表板的串流資料集上所建立視覺效果設定警示。 但不可對使用 [新增磚]   > [自訂串流資料]  直接在儀表板上所建立串流磚設定警示。
 
 即使將儀表板分享給他人共用，仍只有您才能查看您所設定的警示。 即使儀表板擁有者也看不到您在其儀表板檢視上設定的警示。 資料警示會在平台之間完全同步處理；請在 [ Power BI 行動裝置應用程式](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)和 Power BI 服務中設定和檢視資料警示。 其不適用於 Power BI Desktop。 您甚至可以使用 Power Automate 來自動化並整合警示。 您可以在 [Power Automate 和 Power BI](service-flow-integration.md) 一文中親身試用。
 

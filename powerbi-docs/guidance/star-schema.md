@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79133245"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751617"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>了解星型結構描述及其對 Power BI 的重要性
 
@@ -75,7 +75,7 @@ ms.locfileid: "79133245"
 
 - 當知道報表作者將使用[多維度運算式 (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) 來查詢模型時，則模型必須包含「明確量值」  。 明確量值是使用 DAX 運算式來定義。 這種設計方法在使用 MDX 查詢 Power BI 資料集時高度相關，因為 MDX 無法達成資料行值的摘要。 值得注意的是，執行[使用 Excel 分析](https://docs.microsoft.com/power-bi/service-analyze-in-excel)時，將會使用 MDX，因為樞紐分析表會發出 MDX 查詢。
 - 當知道報表作者將使用 MDX 查詢設計工具來建立 Power BI 編頁報表時，則模型必須包含明確量值。 只有 MDX 查詢設計工具支援[伺服器彙總](/sql/reporting-services/report-design/report-builder-functions-aggregate-function)。 因此，如果報表作者需要以 Power BI (而非由編頁報表引擎評估) 來評估量值 ，則必須使用 MDX 查詢設計工具。
-- 如果需要確保報表作者只能以特定方式摘要資料行。 例如，轉售商銷售的 [單價]  資料行 (代表每個單位費率) 可進行摘要，但只能透過使用特定彙總函式。 一律不應該進行加總，但適合使用其他彙總函式 (min、max、average 等) 進行摘要。 在此情況下，模型製作人員可以隱藏 [單價]  資料行，並為所有適當的彙總函式建立量值。
+- 當需要確保報表作者只能以特定方式摘要資料行時。 例如，轉售商銷售的 [單價]  資料行 (代表每個單位費率) 可進行摘要，但只能透過使用特定彙總函式。 一律不應該進行加總，但最好使用其他彙總函式 (min、max、average 等) 來進行摘要。在此情況下，模型製作人員可以隱藏 [單價]  資料行，並為所有適當的彙總函式建立量值。
 
 這種設計方法相當適用於在 Power BI 服務中撰寫的報表，以及問與答。 不過，Power BI Desktop 即時連接可讓報表作者在 [欄位]  窗格中顯示隱藏的欄位，進而規避這種設計方法。
 
@@ -188,7 +188,7 @@ Power BI 模型應該支援查詢成員的歷程記錄資料 (不論是否有變
 
 ![變質維度範例](media/star-schema/degenerate-dimension.png)
 
-如需詳細資訊，請參閱[一對一關聯性指導方針 (變質維度)](relationships-one-to-one.md#degenerate-dimensions)。
+不過，如果 Adventure Works 轉銷商銷售資料表具有訂單號碼「和」  明細行號碼資料行，且這兩者是篩選的必要項目，則變質維度資料表會是不錯的設計。 如需詳細資訊，請參閱[一對一關聯性指導方針 (變質維度)](relationships-one-to-one.md#degenerate-dimensions)。
 
 ## <a name="factless-fact-tables"></a>非事實資料表
 
@@ -196,7 +196,7 @@ Power BI 模型應該支援查詢成員的歷程記錄資料 (不論是否有變
 
 非事實資料表可以儲存維度索引鍵所定義的觀察。 例如，特定客戶在特定日期和時間登入您的網站。 您可以定義一個用於計算非事實資料表資料列數目的量值，來分析客戶的登入時間和登入人數。
 
-非事實資料表的一個更有趣使用方式，就是用來儲存維度之間的關聯性，這也是我們建議用於定義多對多維度關聯性的 Power BI 模型設計方法。 在多對多維度關聯性設計中，非事實資料表稱為「橋接資料表」  。
+非事實資料表的一個更有趣使用方式，就是用來儲存維度之間的關聯性，這也是我們建議用於定義多對多維度關聯性的 Power BI 模型設計方法。 在[多對多維度關聯性設計](relationships-many-to-many.md#relate-many-to-many-dimensions)中，非事實資料表稱為「橋接資料表」  。
 
 例如，假設銷售人員可以指派給一「或多個」  銷售區域。 橋接資料表設計成由兩個資料行所組成的非事實資料表：銷售人員索引鍵和區域索引鍵。 這兩個資料行中都可以儲存重複的值。
 

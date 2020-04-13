@@ -9,24 +9,18 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80403549"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751620"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>搭配服務主體和應用程式祕密內嵌 Power BI 內容
 
-服務主體是一種驗證方法，可用來讓 Azure AD 應用程式存取 Power BI 服務內容和 API。
+[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
-當您建立 Azure Active Directory (Azure AD) 應用程式時，會建立[服務主體物件](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)。 服務主體物件 (也稱為「服務主體」  ) 可讓 Azure AD 驗證您的應用程式。 經過驗證之後，應用程式就可以存取 Azure AD 租用戶資源。
-
-若要進行驗證，服務主體會使用 Azure AD 應用程式的「應用程式識別碼」  ，以及下列其中一項：
-* 應用程式祕密
-* 憑證
-
-本文說明使用「應用程式識別碼」  和「應用程式祕密」  來進行服務主體驗證。 若要使用服務主體搭配憑證進行驗證，請參閱 [Power BI 憑證型驗證]()。
+本文說明使用「應用程式識別碼」  和「應用程式祕密」  來進行服務主體驗證。
 
 ## <a name="method"></a>方法
 
@@ -55,12 +49,12 @@ ms.locfileid: "80403549"
 ## <a name="step-1---create-an-azure-ad-app"></a>步驟 1 - 建立 Azure AD 應用程式
 
 使用下列其中一種方法來建立 Azure AD 應用程式：
-* 在 [Microsoft Azure 入口網站](https://ms.portal.azure.com/#allservices)中建立應用程式
+* 在 [Microsoft Azure 入口網站](https://portal.azure.com/#allservices)中建立應用程式
 * 使用 [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) 建立應用程式。
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>在 Microsoft Azure 入口網站中建立 Azure AD 應用程式
 
-1. 登入 [Microsoft Azure](https://ms.portal.azure.com/#allservices)。
+1. 登入 [Microsoft Azure](https://portal.azure.com/#allservices)。
 
 2. 搜尋 [應用程式註冊]  ，然後按一下 [應用程式註冊]  連結。
 
@@ -72,7 +66,7 @@ ms.locfileid: "80403549"
 
 4. 填寫必要資訊：
     * **名稱** - 輸入應用程式的名稱
-    * **支援的帳戶類型** - 選取支援的帳戶類型
+    * **支援的帳戶類型** - 選取所需 Azure AD 帳戶
     * (選擇性) **重新導向 URI** - 必要時輸入 URI
 
 5. 按一下 [註冊]  。
@@ -205,5 +199,3 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 * [適用於您客戶的 Power BI Embedded](embed-sample-for-customers.md)
 
 * [搭配服務主體使用內部部署資料閘道的資料列層級安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
-* [搭配服務主體和憑證內嵌 Power BI 內容]()

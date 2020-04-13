@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: d28596aae776d9a0087895cae38fc2e8848297b6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218923"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802064"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>從行動裝置掃描 Power BI QR 代碼
 適用於︰
 
-| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Android 手機](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Android 平板電腦](././media/mobile-apps-qr-code/android-logo-40-px.png) |
+| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPad](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Android 手機](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Android 平板電腦](././media/mobile-apps-qr-code/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhone |Android 手機 |Android 平板電腦 |
+|iPhone |iPad |Android 手機 |Android 平板電腦 |
 
 Power BI 中的 QR 代碼可以將真實世界中的任何項目直接連接到相關的 BI 資訊，而不需要進行瀏覽或搜尋。
 

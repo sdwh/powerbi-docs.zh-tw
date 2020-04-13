@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 729a50e251a9c2ae083375e187ff133022f3ce91
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 061a2a99ad4cc812aac0d66ec4993001187179a0
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114857"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979883"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>使用 R 建立 Power BI 視覺效果
 有了 Power BI Desktop，您可以使用 *R* 將資料視覺化。 [R](https://mran.revolutionanalytics.com/documents/what-is-r) 是用於統計資料計算和圖形的語言及環境。
@@ -142,6 +142,8 @@ Power BI Desktop 中的 R 視覺效果有下列限制：
 * 醒目提示：如果您醒目提示其他視覺效果，則 R 視覺效果會回應，但您不能選取 R 視覺效果中的項目來交叉篩選其他項目。
 
 * 顯示裝置：只有繪製到 R 預設顯示裝置的繪圖才會在畫布上正確顯示。 避免明確地使用不同的 R 顯示裝置。
+
+* 資料行重新命名：R 視覺效果不支援重新命名輸入資料行。 在指令碼執行期間，資料行會以其原始名稱來參考。
 
 * RRO 安裝：在此版本中，32 位元版本的 Power BI Desktop 不會自動識別 RRO 安裝；您必須在 [選項及設定]   > [選項]   > [R 指令碼]  中手動提供 R 安裝目錄的路徑。
 

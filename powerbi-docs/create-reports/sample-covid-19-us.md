@@ -7,19 +7,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/31/2020
+ms.date: 04/06/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 432312b5ceb7632e0249d1d7dda6158bf97d0224
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80472052"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979768"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>適用於美國州和地方政府的 COVID-19 追蹤範例
 
-Power BI 小組已建立 COVID-19 追蹤範例，讓美國州和地方政府能夠發佈或自訂關於 COVID-19 的互動式報表。 使用 Power BI Desktop，他們可以分析 COVID-19 資料並加以視覺化，以在城市、郡/縣、州/省和國家層級保持社群資訊流通。 然後使用 Power BI 的發佈到 Web 功能，他們可以共用報表以通知公民。 本文提供三種不同的選項，可讓您在自己的公開案例、部落格或網站中使用 Power BI 的互動式視覺效果。
+Power BI 小組已建立 COVID-19 追蹤範例，讓美國州和地方政府能夠發佈或自訂關於 COVID-19 的互動式報表。 使用 Power BI Desktop，他們可以分析 COVID-19 資料並加以視覺化，以在城市、郡/縣、州/省和國家層級保持社群資訊流通。 然後使用 Power BI 的發佈到 Web 功能，他們可以共用報表以通知公民。 本文提供不同的選項，其可供在自己的公開案例、部落格或網站中使用 Power BI 的互動式視覺效果。
 
 :::image type="content" source="media/sample-covid-19-us/covid-19-us-tracking-sample.png" alt-text="具有美國資料的 COVID-19 範例":::
 
@@ -45,10 +45,10 @@ Microsoft 已發佈範例報表，並建立了發佈到 Web 內嵌程式碼。 �
 若要在您的網站上包含互動式圖形，請將下列內嵌程式碼複製並貼到您希望圖形顯示在網頁上的位置。  
 
 ```
-<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-內嵌程式碼是您可以插入至任何 HTML 網頁的 HTML iFrame 元素。 調整提供的 iFrame 寬度和高度，使其符合您的網站。 範例報表是以 16:9 的比例撰寫，因此請選擇保留此維度的大小。 正確實作時圖形會顯示，但不會有任何額外的灰色框線。 在進行這些變更時，[檢閱 iFrame 調整大小祕訣和訣竅](https://docs.microsoft.com/power-bi/service-publish-to-web#tips-and-tricks-for-iframe-height-and-width)會很有用。
+內嵌程式碼是您可以插入至任何 HTML 網頁的 HTML iFrame 元素。 調整提供的 iFrame 寬度和高度，使其符合您的網站。 範例報表是以 16:9 的比例撰寫，因此請選擇保留此維度的大小。 正確實作時圖形會顯示，但不會有任何額外的灰色框線。 在進行這些變更時，[檢閱 iFrame 調整大小祕訣和訣竅](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width)會很有用。
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>選項 2：自訂範例 Power BI 檔案
 
@@ -104,9 +104,9 @@ USAFacts 資料是以需要歸屬的「創用 CC 授權條款 (Creative Commons 
 1. 資料來源認證驗證方法：匿名
 2. 此資料來源的隱私權等級設定：公用
 
-若要測試您的重新整理設定，請選取[資料集項目的立即重新整理選項](../refresh-data.md#data-refresh)。
+若要測試重新整理設定，請選取資料集項目的 [[立即重新整理]](../refresh-data.md#data-refresh) 選項。
 
-每次執行排程時，就會載入重新整理的資料。 請注意，基礎資料是由 USAFacts 提供，而且可能不會像您的重新整理排程一樣頻繁更新。 檢查 [USAFacts 網站](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/) (英文)，以了解基礎資料上次更新的時間。 
+每次執行排程時，就會載入重新整理的資料。 基礎資料是由 USAFacts 提供，且可能不會像重新整理排程一樣頻繁更新。 檢查 [USAFacts 網站](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/) (英文)，以了解基礎資料上次更新的時間。 
 
 如果您想要在您的網站上發佈自訂報表，最好將排程重新整理設定為與 USAFacts 資料更新一樣的執行頻率。 由於 USAFacts 可能會在每天的不同時間重新整理其資料，因此您可能會想要設定每天數次重新整理。 
 
@@ -147,6 +147,11 @@ USAFacts 資料是以需要歸屬的「創用 CC 授權條款 (Creative Commons 
     
 然後，您可以使用 Power BI Desktop 將資料視覺化。 最後，使用**選項 2：** [將您的報表發佈至 Power BI 服務](#publish-your-report-to-the-power-bi-service)中的步驟，發佈報表並且建立自訂內嵌程式碼。 
 
+## <a name="option-4-use-the-covid-19-us-tracking-template-app"></a>選項 4：使用 COVID-19 美國追蹤報表範本應用程式
+
+還有一個選項，Power BI 小組建立了 COVID-19 美國追蹤「範本應用程式」  ，其有助立即開始使用。 範本應用程式是特定資料來源其報表、儀表板和資料集的組合。 您可從 AppSource 下載並使用範本應用程式，或加以修改以符合需求，然後將其散發給同事。 
+
+此 COVID-19 美國追蹤範本應用程式包含預先建置的 COVID-19 計量報表，可供直接使用、在 Power BI 服務中個人化或視需要下載以新增其他資料來源。 了解如何安裝 [COVID-19 美國追蹤範本應用程式](../connect-data/service-connect-to-covid-19-tracking.md)並立即開始使用。
 
 ## <a name="about-the-data-source-for-this-report"></a>關於此報表的資料來源
 此互動式報表會彙總來自美國疾病管制與預防中心 (CDC)、州和地方層級公共衛生機構的資料。 郡/縣層級的資料會透過直接參考州和地方機構來確認 (連結)。

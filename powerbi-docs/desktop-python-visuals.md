@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 04/03/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 72c285fd57af21fcb3d1a4568a5ff2e83016072f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609845"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979860"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>使用 Python 建立 Power BI 視覺效果
 
@@ -155,9 +155,9 @@ plt.show()
 > **Python 指令碼的安全性︰** Python 視覺效果是從 Python 指令碼建立，其中的程式碼可能具有安全性或隱私權風險。 初次嘗試檢視 Python 視覺效果或與其互動時，使用者會看到安全性警告訊息。 請在信任作者與來源，或已檢閱並了解 Python 指令碼之後，才啟用 Python 視覺效果。
 >  
 
-## <a name="more-information-about-plotting-with-matprolib-pandas-and-python"></a>搭配 Matprolib、Pandas 及 Python 進行繪製的詳細資訊
+## <a name="more-information-about-plotting-with-matplotlib-pandas-and-python"></a>搭配 Matplotlib、Pandas 及 Python 進行繪製的詳細資訊
 
-此教學課程是設計來協助您在 Power BI Desktop 中開始搭配 Python 建立視覺效果。 它只能稍微說明使用 Python、Pandas 及 Matprolib 程式庫來建立視覺效果報表的許多選項及功能。 還有許多等待您發掘的詳細資訊，而這裡有一些連結可供您開始探索。
+此教學課程是設計來協助您在 Power BI Desktop 中開始搭配 Python 建立視覺效果。 只能稍微說明使用 Python、Pandas 及 Matplotlib 程式庫來建立視覺效果報表的許多選項及功能。 還有許多等待您發掘的詳細資訊，而這裡有一些連結可供您開始探索。
 
 - [Matplotlib](https://matplotlib.org/) \(英文\) 網站上的文件。 
 - [Matplotlib 教學課程：搭配 Python 使用 Matplotlib 的基本指南](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) \(英文\) 
@@ -177,6 +177,7 @@ Power BI Desktop 中的 Python 視覺效果有一些限制：
 - Python 視覺效果會在資料更新、篩選及醒目提示時進行重新整理。 不過，影像本身不是互動式，因此不得為交叉篩選的來源。
 - Python 視覺效果會回應醒目提示其他視覺效果，但您不能按一下 Python 視覺效果中的元素來交叉篩選其他元素。
 - 只有繪製到 Python 預設顯示裝置的繪圖才會在畫布上正確顯示。 避免明確地使用不同的 Python 顯示裝置。
+- Python 視覺效果不支援重新命名輸入資料行。 在指令碼執行期間，資料行會以其原始名稱來參考。
 
 ## <a name="next-steps"></a>後續步驟
 
