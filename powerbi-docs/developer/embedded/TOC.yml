@@ -48,6 +48,8 @@
           href: embed-from-apps.md
         - name: 將報告匯出至檔案
           href: export-to.md
+        - name: 將編頁報表匯出至檔案
+          href: export-paginated-report.md
         - name: 自動安裝應用程式
           href: embed-auto-install-app.md
         - name: 建立 Azure Active Directory 租用戶

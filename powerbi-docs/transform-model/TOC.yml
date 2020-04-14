@@ -81,7 +81,9 @@
           items:
             - name: 建立及使用資料流程
               href: ../service-dataflows-create-use.md
-            - name: 使用具有資料流程的強化計算引擎
+            - name: 升階或認證資料流程
+              href: service-dataflows-promote-certify.md
+            - name: 將增強型計算引擎與資料流程搭配使用
               href: ../service-dataflows-enhanced-compute-engine.md
             - name: 使用 Power BI Premium 的計算實體
               href: ../service-dataflows-computed-entities-premium.md

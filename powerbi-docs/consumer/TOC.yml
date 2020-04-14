@@ -18,12 +18,14 @@
           href: end-user-experience.md
         - name: 使用您的首頁登陸頁面尋找內容
           href: end-user-home.md
-        - name: 了解如何使用自然語言詢問問題
-          href: end-user-q-and-a.md
+        - name: 可供取用者使用的功能清單
+          href: end-user-features.md
         - name: 第一次登入
           href: end-user-sign-in.md
         - name: 我有哪些 Power BI 授權？
           href: end-user-license.md
+        - name: 了解如何使用自然語言詢問問題
+          href: end-user-q-and-a.md
         - name: 瀏覽「新外觀」
           href: ../service-new-look.md
         - name: 「新外觀」：動作跑到哪裡了？
@@ -60,6 +62,8 @@
               href: end-user-report-filter.md
             - name: 了解報表視覺效果如何相互交叉篩選
               href: end-user-interactions.md
+            - name: 與報表交叉分析篩選器互動
+              href: end-user-slicer.md
             - name: 將報表匯出至 PDF
               href: end-user-pdf.md
             - name: 將報表匯出至 PowerPoint

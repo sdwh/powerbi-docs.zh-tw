@@ -1,0 +1,132 @@
+### YamlMime:Landing
+title: Power BI 學習目錄
+summary: 尋找 Power BI 的所有訓練選項
+metadata:
+  title: Power BI 學習目錄
+  description: 尋找適合您組織中角色的 Power BI 訓練選項。
+  ms.service: powerbi
+  ms.topic: landing-page
+  author: loreleishannonmsft
+  ms.author: v-lshann
+  ms.date: 04/08/2020
+  ms.openlocfilehash: aff1866616a10e5df124619261d8398bda5c51a3
+  ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+  ms.translationtype: HT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 04/13/2020
+  ms.locfileid: "81269033"
+landingContent:
+- title: 業務決策者
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 商務與技術決策者學習目錄
+      url: learning-catalog-bdm.md#
+- title: 取用者
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 取用者學習目錄
+      url: learning-catalog-consumer.md#
+- title: 報表建立者
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 報表建立者學習目錄
+      url: learning-catalog-report-creator.md#
+    - text: 開始使用
+      url: learning-catalog-report-creator.md#get-started
+    - text: 儀表板
+      url: learning-catalog-report-creator.md#dashboards
+    - text: 報表設計
+      url: learning-catalog-report-creator.md#report-design
+    - text: 視覺效果
+      url: learning-catalog-report-creator.md#visualization
+    - text: 整合
+      url: learning-catalog-report-creator.md#integration
+- title: 資料分析師
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 資料分析師學習目錄
+      url: learning-catalog-data-analyst.md#
+    - text: 開始使用
+      url: learning-catalog-data-analyst.md#get-started
+    - text: 最佳作法
+      url: learning-catalog-data-analyst.md#best-practices
+    - text: 案例研究
+      url: learning-catalog-data-analyst.md#case-studies
+    - text: 儀表板
+      url: learning-catalog-data-analyst.md#dashboards
+    - text: 視覺效果
+      url: learning-catalog-data-analyst.md#visualizations
+    - text: 治理與部署
+      url: learning-catalog-data-analyst.md#governance-deployment
+    - text: 整合
+      url: learning-catalog-data-analyst.md#integration
+    - text: 安全性
+      url: learning-catalog-data-analyst.md#security
+- title: Administrators
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 系統管理員學習目錄
+      url: learning-catalog-administrator.md
+    - text: 開始使用
+      url: learning-catalog-administrator.md#get-started
+    - text: 部署
+      url: learning-catalog-administrator.md#deploy
+- title: 開發人員
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 開發人員學習目錄
+      url: learning-catalog-developer.md
+    - text: 開始使用
+      url: learning-catalog-developer.md#get-started
+    - text: 內嵌
+      url: learning-catalog-developer.md#embedded
+    - text: DAX
+      url: learning-catalog-developer.md#dax
+    - text: 開發
+      url: learning-catalog-developer.md#development
+- title: 合作夥伴售前角色
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 合作夥伴售前學習目錄
+      url: learning-catalog-presales.md#
+- title: 功能顧問
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 功能性應用程式顧問學習目錄
+      url: learning-catalog-functional-consultant.md
+    - text: 開始使用
+      url: learning-catalog-functional-consultant.md#get-started
+    - text: 最佳作法
+      url: learning-catalog-functional-consultant.md#best-practices
+    - text: 案例研究
+      url: learning-catalog-functional-consultant.md#case-studies
+    - text: 儀表板
+      url: learning-catalog-functional-consultant.md#dashboards
+    - text: 治理與部署
+      url: learning-catalog-functional-consultant.md#governance-deployment
+    - text: 整合
+      url: learning-catalog-functional-consultant.md#integration
+    - text: 安全性
+      url: learning-catalog-functional-consultant.md#security
+    - text: 視覺效果
+      url: learning-catalog-functional-consultant.md#visualizations
+- title: 解決方案結構設計師
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 解決方案結構設計師學習目錄
+      url: learning-catalog-solution-architect.md
+    - text: 開始使用
+      url: learning-catalog-solution-architect.md#get-started
+    - text: 案例研究
+      url: learning-catalog-solution-architect.md#case-studies
+    - text: 效能
+      url: learning-catalog-solution-architect.md#performance
