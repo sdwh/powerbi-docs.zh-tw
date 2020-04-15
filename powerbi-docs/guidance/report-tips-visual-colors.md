@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fbd0915eebca6024c6545b84b49c6d2a23744552
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 8f2698d37c306451ccd73f2b1dd3017933077a0c
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237998"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006472"
 ---
 # <a name="tips-to-optimize-visual-colors-in-power-bi-reports"></a>在 Power BI 報表中將視覺效果色彩最佳化的提示
 
@@ -22,7 +22,7 @@ ms.locfileid: "78237998"
 
 觀賞示範在 Power BI 報表中將視覺效果色彩最佳化之八大提示的影片。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RhYcEsdPqJg" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/RhYcEsdPqJg]
 
 ## <a name="tips"></a>祕訣
 
@@ -41,7 +41,7 @@ ms.locfileid: "78237998"
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [建立令人驚豔之報表的祕訣](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [建立絕佳報表的提示](../power-bi-reports-tips-and-tricks-for-creating.md)
 - biDezine 影片：[在 Power BI 中將視覺效果色彩最佳化的 8 大提示](https://www.youtube.com/watch?v=RhYcEsdPqJg) \(英文\)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)

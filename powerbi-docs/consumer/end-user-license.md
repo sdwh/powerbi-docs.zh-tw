@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/25/2020
+ms.date: 03/27/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 42417f272f1331c2ca5144978bb92ca189a13f93
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 4615bae84ddeb3d3e0b3c471a6b9d6bcf7eda406
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302364"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267288"
 ---
 # <a name="types-of-power-bi-licenses"></a>Power BI 授權的類型
 
@@ -60,7 +60,7 @@ Premium 是**組織**訂用帳戶。 您可以將其想成是在組織中的所�
 
 當組織購買 Premium 授權時，管理員通常會將 Pro 授權指派給將會建立及共用內容的員工。 並且，系統管理員會將免費授權指派給將會使用該內容的每個人。 Pro 使用者會建立[工作區](end-user-workspaces.md)，並將內容 (儀表板、報表、應用程式) 新增至那些工作區。 為了讓免費使用者能夠在這些工作區中共同作業，系統管理員或 Pro 使用者會將工作區儲存在「Premium 容量」  中。 
 
-當組織購買 Premium 授權時，其會在專門配置給組織的 Power BI 服務中收到容量。 不會由其他組織共用。 此容量支援 Microsoft 完全受控的專用硬體。 組織可以選擇廣泛地套用其專用容量，或將其配置給特定工作區。 組織可能會有容量中的所有工作區，或只有部分。 您可以依其鑽石圖示識別 Premium 容量中的工作區 ![鑽石圖示](media/end-user-license/power-bi-diamond.png).  Premium 容量中的工作區是一種空間，其中 Pro 使用者可以與免費使用者共用及共同作業，而不需要免費的使用者擁有 Pro 帳戶。 
+當組織購買 Premium 授權時，其會在專門配置給組織的 Power BI 服務中收到容量。 不會由其他組織共用。 此容量支援 Microsoft 完全受控的的專用硬體。 組織可以選擇廣泛地套用其專用容量，或將其配置給特定工作區。 組織可能會有容量中的所有工作區，或只有部分。 您可以依其鑽石圖示識別 Premium 容量中的工作區 ![鑽石圖示](media/end-user-license/power-bi-diamond.png).  Premium 容量中的工作區是一種空間，其中 Pro 使用者可以與免費使用者共用及共同作業，而不需要免費的使用者擁有 Pro 帳戶。 
 
 在 Premium 容量中，內容設計師仍然需要 Pro 授權。 設計師可以建立應用程式工作區、連線到資料來源、建立資料模型，然後建立直接共用或以應用程式形式封裝及共用的報表與儀表板。 沒有 Pro 授權的使用者仍然可以存取 Power BI Premium 中的應用程式工作區，只要該工作區是在 Premium 容量  中，而且只要工作區擁有者授與他們權限。
 

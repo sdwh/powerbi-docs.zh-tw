@@ -96,7 +96,7 @@ Microsoft 建議企業購買 Power BI Premium，企業級的自助雲端 BI 解�
 
 您可以使用 PBI 入口網站尋找您的 PBI 租用戶區域。
 
-[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > 關於 Power BI
+`https://app.powerbi.com/` > ? > 關於 Power BI
 
 ![關於 Power BI](media/embedded-faq/about-01.png)
 ![租用戶區域](media/embedded-faq/tenant-location-01.png)

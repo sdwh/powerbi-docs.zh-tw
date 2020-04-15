@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1b5d90ac539f22f53f17ce0c6d4b2d1a354d3476
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 2c0d7c90c92a0a20fb7acf2985707c2bc99a69bc
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78238021"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006587"
 ---
 # <a name="tips-to-manage-axes-in-power-bi-reports"></a>在 Power BI 報表中管理軸的提示
 
@@ -22,7 +22,7 @@ ms.locfileid: "78238021"
 
 觀賞示範在 Power BI 報表中有效管理軸之八個提示的影片。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3t9W7Xvpzo0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/3t9W7Xvpzo0]
 
 ## <a name="tips"></a>祕訣
 
@@ -41,7 +41,7 @@ ms.locfileid: "78238021"
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [建立令人驚豔報表的祕訣](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [建立絕佳報表的提示](../power-bi-reports-tips-and-tricks-for-creating.md)
 - biDezine 影片：[在 Power BI 中有效管理軸的 8 大提示](https://www.youtube.com/watch?v=3t9W7Xvpzo0) \(英文\)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)
