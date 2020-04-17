@@ -108,6 +108,8 @@
               href: gateway-onprem-sizing.md
             - name: 監視報表效能
               href: monitor-report-performance.md
+            - name: 疑難排解報表效能
+              href: report-performance-troubleshoot.md
     - name: 白皮書
       items:
         - name: 白皮書概觀
