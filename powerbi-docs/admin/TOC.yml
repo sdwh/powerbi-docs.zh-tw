@@ -16,14 +16,24 @@
       items:
         - name: Microsoft 365 中的系統管理員角色
           href: ../service-admin-role.md
+        - name: 為組織獲得授權
+          href: ../service-admin-licensing-organization.md
+        - name: 美國政府適用的 Power BI
+          items:
+            - name: 美國政府適用的 Power BI
+              href: ../service-govus-overview.md
+            - name: 註冊美國政府組織
+              href: ../service-govus-signup.md
+        - name: 區域雲端中的 Power BI
+          items:
+            - name: 移轉至 Go Local 德國地區
+              href: service-admin-migrate-data-germany.md
+            - name: 德國雲端客戶的常見問題集
+              href: ../service-govde-faq.md
         - name: 常見問題集 (FAQ)
           href: ../service-admin-faq.md
         - name: 高可用性及容錯移轉常見問題集
           href: ../service-admin-failover.md
-        - name: 移轉至 Go Local 德國地區
-          href: service-admin-migrate-data-germany.md
-        - name: 德國雲端客戶的常見問題集
-          href: ../service-govde-faq.md
         - name: Power BI Premium
           items:
             - name: 管理 Premium 容量
@@ -38,14 +48,14 @@
       items:
         - name: 授權及註冊
           items:
-            - name: 為組織獲得授權
-              href: ../service-admin-licensing-organization.md
+            - name: 為您的組織取得 Power BI
+              href: service-admin-org-subscription.md
             - name: 購買 Power BI Pro
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: 美國政府適用的 Power BI
-              href: ../service-govus-overview.md
-            - name: 註冊美國政府組織
-              href: ../service-govus-signup.md
+            - name: 停用自助式註冊
+              href: service-admin-disable-self-service.md
+            - name: 檢視與管理使用者授權
+              href: service-admin-manage-licenses.md
             - name: 註冊 Microsoft 365 試用版
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: 新增由 Microsoft 365 合作夥伴供應的 Power BI

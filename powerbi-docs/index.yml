@@ -13,12 +13,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/31/2020
-  ms.openlocfilehash: ac6ecb181cd5b06e54ab611976532638d43359f6
-  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.openlocfilehash: 0ad39302737284ecbde50a8810b740d68706c809
+  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 04/01/2020
-  ms.locfileid: "80487701"
+  ms.lasthandoff: 04/16/2020
+  ms.locfileid: "81439382"
 highlightedContent:
   items:
   - title: 使用美國資料建立 COVID-19 報表
@@ -217,19 +217,19 @@ conceptualContent:
     footerLink:
       url: guidance/index.yml
       text: 查看更多
-  - title: 學習
+  - title: 學習目錄
     links:
-    - url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/
+    - url: learning-catalog/learning-catalog-bdm.md
       itemType: learn
-      text: 探索 Power BI 的功能
-    - url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/
+      text: 業務決策者
+    - url: guided-learning/introductiontodax.yml?tutorial-step=1
       itemType: learn
-      text: 分析資料
-    - url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/
+      text: 開始使用 DAX
+    - url: learning-catalog/learning-catalog-solution-architect.md
       itemType: learn
-      text: 開始建置
+      text: 解決方案結構設計師
     footerLink:
-      url: guided-learning/index.yml
+      url: learning-catalog/index.yml
       text: 查看更多
 additionalContent:
   sections:
