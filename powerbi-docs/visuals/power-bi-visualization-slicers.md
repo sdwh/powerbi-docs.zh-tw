@@ -1,31 +1,35 @@
 ---
 title: Power BI 中的交叉分析篩選器
 description: Power BI 交叉分析篩選器是一種替代的篩選方式，可縮小報表內其他視覺效果中顯示的資料集部分。
-author: v-thepet
+author: maggiesMSFT
 ms.reviewer: ''
-featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
-ms.date: 11/04/2019
-ms.author: mihart
+ms.topic: conceptual
+ms.date: 04/06/2020
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97ad95346715cd5ad38f41d6e7b9df3cc7493f40
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265445"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006774"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的交叉分析篩選器
 
-[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-假設您希望報表讀者能夠查看整體銷售計量，且還能夠醒目提示個別區經理和不同時間範圍的績效。 您可以建立個別的報告或比較圖表。 或者，您可以使用交叉分析篩選器。 交叉分析篩選器是一種替代的篩選方式，可縮小報表內其他視覺效果中顯示的資料集部分。 
-
-本教學課程使用免費的[零售分析範例](../sample-retail-analysis.md)，可逐步引導您建立清單和日期範圍交叉分析篩選器、設定其格式及使用此篩選器。 享受探索格式化及使用交叉分析篩選器的樂趣。 
+假設您希望報表讀者能夠查看整體銷售計量，且還能夠醒目提示個別區經理和不同時間範圍的績效。 您可以建立個別的報告或比較圖表。 或者，您可使用「交叉分析篩選器」  。 交叉分析篩選器是一種替代的篩選方式，可縮小報表內其他視覺效果中顯示的資料集部分。 
 
 ![交叉分析篩選器動畫](media/power-bi-visualization-slicers/slicer2.gif)
+
+本文會逐步說明如何使用免費的[零售分析範例](../sample-retail-analysis.md)來建立和格式化基本交叉分析篩選器。 也會示範如何控制哪些視覺效果受到交叉分析篩選器影響，以及如何與其他頁面上的交叉分析篩選器同步。 以下是一些其他文章，其說明如何製作特定類型的交叉分析篩選器：
+
+- [數值範圍交叉分析篩選器](../desktop-slicer-numeric-range.md)。
+- [相對日期交叉分析篩選器](desktop-slicer-filter-date-range.md)。
+- 回應式且[可調整大小的交叉分析篩選器](../power-bi-slicer-filter-responsive.md)。
+- 具有多個欄位的[階層交叉分析篩選器](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md)。
 
 ## <a name="when-to-use-a-slicer"></a>使用交叉分析篩選器的時機
 當您想要執行下列作業時，交叉分析篩選器是很棒的選擇：
@@ -40,14 +44,11 @@ Power BI 交叉分析篩選器不支援：
 - 輸入欄位
 - 向下鑽研
 
+## <a name="create-a-slicer"></a>建立交叉分析篩選器
 
-## <a name="create-slicers"></a>建立交叉分析篩選器
+這個交叉分析篩選器會依區經理篩選資料。 如果想要遵循此程序，請下載[零售分析範例 PBIX 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-**建立新的交叉分析篩選器以依區經理篩選資料**
-
-1. 下載[零售分析範例 PBIX 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
-
-1. 從 Power BI Desktop 功能表列中，選取 [檔案]   > [開啟]  。
+1. 開啟 Power BI Desktop，並從功能表列中選取 [檔案]   > [開啟]  。
    
 1. 瀏覽至**零售分析範例 PBIX.pbix** 檔案，然後選取 [開啟]  。
 
@@ -73,36 +74,6 @@ Power BI 交叉分析篩選器不支援：
 
    >[!TIP]
    >交叉分析篩選器的清單項目預設會依遞增順序排序。 若要依遞減順序排序，請選取交叉分析篩選器右上角的省略符號 ( **...** )，然後選擇 [遞減排序]  。
-
-**建立新的交叉分析篩選器以依日期範圍篩選資料**
-
-1. 選取報表的 [概觀]  頁面。 在報表畫布上未選取任何項目的情況下，於 [欄位]  窗格中，選取 [Store] \(商店\)   >  [OpenDate] \(開幕日期\)  。
-
-    此動作會在 [視覺效果]  窗格的 [值]  方塊中填入資料，以建立新的視覺效果。
-
-1. 在報表中選取新的視覺效果後，於 [視覺效果]  窗格中選取**交叉分析篩選器**圖示，以將新的視覺效果轉換成交叉分析篩選器。 這個 [OpenDate] \(開幕日期\)  交叉分析篩選器是一個已填入日期範圍的滑桿控制項。
-    
-    ![建立 OpenDate 視覺效果](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
-
-1. 針對交叉分析篩選器及畫布上的其他項目調整大小並進行拖曳，以騰出空間給交叉分析篩選器。 雖然滑桿大小會隨著交叉分析篩選器大小調整，但如果將交叉分析篩選器的大小調整成太小，日期就會被截斷。 
-
-1. 使用滑桿來選取不同的日期範圍，或選取一個日期欄位來輸入日期，或顯示行事曆快顯視窗來進行更精確的選取。 請注意對頁面上其他視覺效果造成的影響。
-    
-    >[!NOTE]
-    >數值和日期/時間資料類型預設會產生範圍滑桿交叉分析篩選器。 從 2018 年 2 月的 Power BI 更新開始，整數資料類型範圍滑桿現在會貼齊整數值，而不會顯示小數位數。 
-
-1. 若要變更交叉分析篩選器類型，請選取交叉分析篩選器，將滑鼠游標暫留在交叉分析篩選器的右上方區域，選取出現的插入號 (^)，然後選擇其中一個選項，例如 [清單]  或 [之前]  。 請注意交叉分析篩選器外觀和選取項目如何變化。 
- 
-    ![交叉分析篩選器的新範圍](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
-
-
-如需建立日期和數值範圍交叉分析篩選器的詳細資訊，請觀看下列影片並參閱[在 Power BI Desktop 中使用數值範圍交叉分析篩選器](../desktop-slicer-numeric-range.md)。
-   > [!NOTE]
-   > 這部影片使用舊版的 Power BI Desktop。
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
 
 ## <a name="control-which-page-visuals-are-affected-by-slicers"></a>控制受交叉分析篩選器影響的頁面視覺效果
 根據預設，報表頁面上的交叉分析篩選器會影響該頁面上的所有其他視覺效果，包括彼此。 當您選擇剛建立清單和日期滑桿中的值時，請注意對其他視覺效果造成的影響。 篩選出的資料是在兩個交叉分析篩選器中所選值的交集。 
@@ -208,7 +179,7 @@ Power BI 交叉分析篩選器不支援：
 
 ### <a name="title-options"></a>標題選項
 [標題]  預設為 [開啟]  。 此選項會在交叉分析篩選器的頂端顯示資料欄位名稱。 
-- 在本教學課程中，請將標題文字格式化，如下所示： 
+- 在本文中，請將標題文字格式化，如下所示： 
    - **字型色彩**：紅色
    - **文字大小**：**14 pt**
    - **對齊方式**：**置中**
@@ -216,7 +187,7 @@ Power BI 交叉分析篩選器不支援：
 
 
 ### <a name="items-options-list-slicers-only"></a>項目選項 (僅適用於清單交叉分析篩選器)
-1. 在本教學課程中，請將 [項目]  選項格式化，如下所示：
+1. 在本文中，請將 [項目]  選項格式化，如下所示：
     - **字型色彩**：黑色
     - **背景**：淺紅色
     - **文字大小**：**10 pt**

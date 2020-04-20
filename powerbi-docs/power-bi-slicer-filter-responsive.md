@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/04/2018
+ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877595"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006495"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>在 Power BI 中建立可以調整大小的回應式交叉分析篩選器
 
-您可以將回應式交叉分析篩選器調整成報表上的任何空間大小。 使用回應式交叉分析篩選器時，您可以將它們調整成不同大小和形狀；可以從水平改成正方形和垂直排列，而且交叉分析篩選器中的值也會自動重新排列。 在 Power BI Desktop 和 Power BI 服務中，您可以將水平交叉分析篩選器和日期/範圍交叉分析篩選器設為回應式。 此外，日期/範圍交叉分析篩選器也改善了觸控區域，您可以輕鬆用手指對其進行變更。 您可以視需要將回應式交叉分析篩選器調小或調大；它們也會自動調整成 Power BI 服務和 Power BI 行動版應用程式中的報表大小。 
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
+
+您可以將回應式交叉分析篩選器調整成報表上的任何空間大小。 使用回應式交叉分析篩選器時，您可以將它們調整成不同大小和形狀；可以從水平改成正方形和垂直排列，而且交叉分析篩選器中的值也會自動重新排列。 在 Power BI Desktop 和 Power BI 服務中，您可以將水平交叉分析篩選器和日期/範圍交叉分析篩選器設為回應式。 此外，日期/範圍交叉分析篩選器也改善了觸控區域，您可輕鬆用手指對其進行變更。 您可以視需要將回應式交叉分析篩選器調小或調大；它們也會自動調整成 Power BI 服務和 Power BI 行動版應用程式中的報表大小。 
 
 ![回應式交叉分析篩選器可以是各種形狀](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer.gif)
 
@@ -73,7 +75,7 @@ ms.locfileid: "73877595"
 您可以遵循相同的步驟，將時間或範圍交叉分析篩選器設為回應式。 將 [回應式]  設為 [開啟]  之後，請注意下列事項：
 
 - 視覺效果會依據畫布允許的大小，將輸入方塊的順序最佳化。 
-- 系統即會依據畫布允許的大小，最佳化資料元素的顯示，讓交叉分析篩選器盡可能地適用。 
+- 系統即會依據畫布允許的大小來最佳化資料項目的顯示，讓交叉分析篩選器盡可能地適用。 
 - 滑桿上新增的圓形把手可最佳化觸控互動。 
 - 當某個視覺效果變得太小而無法使用時，即會就地變成代表該視覺效果類型的圖示。 若要與磚互動，請點兩下磚，並在焦點模式中開啟。 這可以節省報表頁面的寶貴空間，而不會遺失任何功能。
 

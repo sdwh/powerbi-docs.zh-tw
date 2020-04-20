@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: be8716cebb091dafcc927b4bd1ecd0942ad88b47
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cd2086facbeb581a4418a3358a79cca0e80140ff
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79208049"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267334"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Power BI 服務中的資料集模式
 
@@ -77,18 +77,9 @@ _DirectQuery_ 模式是匯入模式的替代方案。 在 DirectQuery 模式中�
 - 可以使用[自動重新整理頁面](desktop-automatic-page-refresh.md)功能來開發即時報表
 - 儀表板磚在搭配 DirectQuery 模型時，能以最短 15 分鐘的間隔自動更新
 
-不過，DirectQuery 模型有許多相關聯的缺點和限制：
+不過，DirectQuery 模型有一些關聯限制：
 
-- 該模型必須以支援的單一資料來源為基礎。 這就是為何任何資料整合都必須預先在資料來源中達成。 支援的資料來源為關聯式和分析系統，並支援許多熱門的資料存放區。
-
-    > [!TIP]
-    > 支援許多 Microsoft 資料來源。 Microsoft 資料來源包含 SQL Server、Azure Data Bricks、Azure HDInsight Spark (Beta)、Azure SQL Database，以及 Azure SQL 資料倉儲。 如需詳細資訊，請參閱 [Power BI 中 DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)一文。
-
-- 效能可能會很慢，並可能會對 Power BI 服務造成負面影響。 此問題可能會因為某些查詢使 Power BI 服務需要大量 CPU 而產生。 它也可能會因為資料來源未針對 Power BI 傳送的查詢進行最佳化而產生。
-- Power Query 查詢必須可進行摺疊。 此需求表示 Power Query 邏輯不能過為複雜。 此外，該邏輯只能使用可以轉換成資料來源所能理解之原生查詢的 M 運算式和函式。
-- DAX 公式只能使用可以轉換成資料來源所能理解之原生查詢的函式。 此外，並不支援計算資料表或 DAX 時間智慧函式。
-- 需要擷取超過一百萬個資料列的模型查詢將會失敗
-- 具有多個視覺效果的報表和儀表板可能會顯示不一致的結果，特別是在資料來源為揮發性的情況下
+- DAX 公式只能使用可以轉換成資料來源所能理解之原生查詢的函式。 不支援計算資料表。
 - 不支援問與答及快速見解功能
 
 從 Power BI 服務資源的觀點來看，DirectQuery 模型需要：

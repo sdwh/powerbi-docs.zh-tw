@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
-ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
+ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80147369"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006297"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
@@ -30,7 +30,7 @@ ms.locfileid: "80147369"
 - 如果 Power BI 系統管理員賦予您權限，您可以在您同事的 Power BI 帳戶中自動安裝應用程式。
 - 當散發或更新應用程式時，Power BI 不會傳送任何電子郵件給內部使用者。 若將其散發給外部使用者，則這些外部使用者即會收到包含直接連結的電子郵件。 
 
-您可以建立具備內建瀏覽功能的應用程式，讓使用者可以在您內容中輕鬆找到他們的方式。 他們無法修改應用程式的內容。 但可以在 Power BI 服務或其中一個行動裝置應用程式中與其互動 - 自行篩選、醒目提示和排序資料。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 您也可以提供他們建置權限，讓他們連線到底層資料集，並在應用程式中建立報表的複本。 深入了解[建置權限](service-datasets-build-permissions.md)。
+您可以建立具備內建瀏覽功能的應用程式，讓使用者可以在您內容中輕鬆找到他們的方式。 其無法修改應用程式的內容。 但可以在 Power BI 服務或其中一個行動裝置應用程式中與其互動 - 自行篩選、醒目提示和排序資料。 他們會自動取得更新，而且您可以控制資料重新整理的頻率。 您也可以提供他們建置權限，讓他們連線到底層資料集，並在應用程式中建立報表的複本。 深入了解[建置權限](service-datasets-build-permissions.md)。
 
 ## <a name="licenses-for-apps"></a>應用程式的授權
 您需要 Power BI Pro 授權才能建立或更新應用程式。 應用程式「取用者」  有兩個選項。
@@ -43,25 +43,26 @@ ms.locfileid: "80147369"
 
 1. 在 [工作區] 清單檢視中，決定您想要**包含在應用程式中**的儀表板和報表。
 
-     ![選取要發佈的儀表板](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
+    ![選取要發佈的儀表板](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
 
-     如果您選擇不包含相關儀表板的報表，您會在報表旁看到警告。 您仍然可以發佈應用程式，但相關儀表板不會有該報表的磚。
+    如果您選擇不包含相關儀表板的報表，您會在報表旁看到警告。 您仍然可以發佈應用程式，但相關儀表板不會有該報表的磚。
 
-     ![相關儀表板的警告](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
+    ![相關儀表板的警告](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
 2. 選取右上角的 [發佈應用程式]  按鈕，啟動在工作區中建立和發佈應用程式的程序。
    
-     ![發佈應用程式](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
+    ![發佈應用程式](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
 3. 在 [安裝程式]  中，填寫名稱和描述，以利尋找應用程式。 您可以設定個人化的佈景主題色彩。 也可以新增支援網站的連結。
    
-     ![建置應用程式](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
+    ![建置應用程式](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
 4. 在 [瀏覽]  中，選取要發佈為應用程式一部分的內容。 然後，新增應用程式瀏覽，按節整理排列內容。 如需詳細資訊，請參閱本文中的[設計應用程式的瀏覽體驗](#design-the-navigation-experience)。
    
-     ![應用程式瀏覽](media/service-create-distribute-apps/power-bi-apps-navigation.png)
+    ![應用程式瀏覽](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 5. 在 [權限]  上，決定誰可以存取應用程式，以及他們可以用它做什麼。 
+
     - 在[傳統工作區](service-create-workspaces.md)中：您組織中的每個人、特定人員或 Azure Active Directory (AAD) 安全性群組。
     - 在[新體驗工作區](service-create-the-new-workspaces.md)中：特定人員、AAD 安全性群組和通訊群組清單，以及 Office 365 群組。 系統會自動為所有工作區使用者授與對工作區應用程式的存取權。
     - 您可以透過授與建置權限，讓應用程式使用者連線到應用程式的基礎資料集。 他們會在搜尋共用資料集時看到這些資料集。 在本文中深入了解[允許使用者連線到應用程式的資料集](#allow-users-to-connect-to-datasets)。
@@ -73,24 +74,24 @@ ms.locfileid: "80147369"
 
 6. 如果您的 Power BI 管理員已在 Power BI 管理入口網站中為您啟用此設定，您就可以為收件者自動安裝應用程式。 深入了解本文中的[自動安裝應用程式](#automatically-install-apps-for-end-users)。
 
-     ![應用程式權限](media/service-create-distribute-apps/power-bi-apps-permissions.png)
+    ![應用程式權限](media/service-create-distribute-apps/power-bi-apps-permissions.png)
 
-7. 當您選取 [發佈應用程式]  時，會看到確認它已準備好要發佈的訊息。 在 [共用此應用程式]  對話方塊中，您可以複製此應用程式直接連結的 URL。
+7. 當選取 [發佈應用程式]  時，會看到確認其已準備好要發佈的訊息。 在 [共用此應用程式]  對話方塊中，您可複製此應用程式其直接連結的 URL。
    
-     ![應用程式完成](media/service-create-distribute-apps/power-bi-apps-success.png)
+    ![應用程式完成](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-您可以將該直接連結傳送給已共用的對象，或他們可以移至 [從 AppSource 下載和探索更多應用程式]  ，在 [應用程式] 索引標籤中找到您的應用程式。 深入了解[商務使用者的應用程式體驗](consumer/end-user-apps.md)。
+您可將該直接連結傳送給已共用的對象，也可以前往 [Download and explore more apps from AppSource] \(從 AppSource 下載和探索更多應用程式\)  ，在 [應用程式] 索引標籤中找到應用程式。 深入了解[商務使用者的應用程式體驗](consumer/end-user-apps.md)。
 
 ## <a name="change-your-published-app"></a>變更已發佈的應用程式
-在您發佈應用程式之後，可能想要進行變更或更新。 如果您是新工作區的管理員或成員，就可以輕鬆更新它。 
+在您發佈應用程式之後，可能想要進行變更或更新。 如果您是系統管理員或新工作區成員，就可以輕鬆更新。 
 
 1. 開啟對應至應用程式的工作區。 
    
-     ![開啟工作區](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
+    ![開啟工作區](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
 
 2. 對儀表板或報表執行您想要的任何變更。
  
-     工作區是暫存區域；因此，您的變更在重新發佈之前不會在應用程式中生效。 這可讓您進行變更，而不影響已發佈的應用程式。  
+    工作區是暫存區域；因此，您的變更在重新發佈之前不會在應用程式中生效。 這可讓您進行變更，而不影響已發佈的應用程式。  
  
     > [!IMPORTANT]
     > 如果您移除報表並更新應用程式，即使您將報表新增回應用程式，您的應用程式取用者仍會遺失所有自訂項目，例如書籤、註解等。  
@@ -99,7 +100,7 @@ ms.locfileid: "80147369"
    
 1. 更新 [安裝程式]  、[瀏覽]  和 [權限]  (如有需要)，然後選取 [更新應用程式]  。
    
-您已對其發佈應用程式的人員會自動看到應用程式的已更新版本。 
+您已對其發佈應用程式的人員會自動看到應用程式更新版本。 
 
 ## <a name="design-the-navigation-experience"></a>設計導覽體驗
 [新瀏覽產生器]  選項可讓您建置應用程式的自訂瀏覽。 自訂瀏覽可讓使用者更容易尋找及使用應用程式中內容。 現有的應用程式已關閉此選項，而新的應用程式預設開啟此選項。
@@ -111,6 +112,7 @@ ms.locfileid: "80147369"
 ![應用程式瀏覽](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 您可以進一步自訂應用程式瀏覽，藉由：
+
 * 使用向上/向下鍵重新排列項目。 
 * 重新命名 [報告詳細資料]  、[儀表板詳細資料]  和 [活頁簿詳細資料]  中的項目。
 * 隱藏瀏覽中的特定項目。
@@ -121,16 +123,20 @@ ms.locfileid: "80147369"
 
 ### <a name="considerations-for-using-the-new-navigation-builder-option"></a>使用 [新瀏覽產生器] 選項的考量
 使用 [新瀏覽產生器] 時，請牢記以下一般事項：
-* 報表頁面會顯示在應用程式的瀏覽區域，為可展開的區段
-* 如果您關閉 [新瀏覽產生器]，然後發佈或更新您的應用程式，您會遺失已建立的自訂內容。 例如，瀏覽項目的區段、排序、連結和自訂名稱全都會遺失。
+
+* 報表頁面會在應用程式瀏覽區域中顯示為可展開的區段。 當報表有一張可見頁面時，就只會顯示報表名稱。 按一下導覽中的報表名稱，就會開啟報表的第一頁。 
+
+    > [!NOTE]
+    > 報表可能只有一張可見頁面，因為您已使用按鈕或鑽研動作來設定瀏覽其餘頁面。
+
+* 如果關閉新的瀏覽產生器，然後發佈或更新應用程式，則會遺失已建立的自訂內容。 例如，瀏覽項目的區段、排序、連結和自訂名稱全都會遺失。
+* 有不使用應用程式產生器的選項可用。
 
 當您將連結新增至應用程式瀏覽並選取 [內容區域] 選項時：
 * 請確定連結可內嵌。 某些服務會在第三方網站中封鎖內嵌其內容，例如 Power BI。
 * 在不支援的其他工作區中內嵌 Power BI 服務內容，例如報表或儀表板。 
 * 從內部部署的部署，透過其原生內嵌 URL 內容內嵌 Power BI 報表伺服器內容。 使用[建立 Power BI 報表伺服器 URL](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) 中的這些步驟取得 URL。 請注意，因為適用一般驗證規則，所以檢視內容需要 VPN 連線到內部部署伺服器。 
 * 在內嵌內容的頂端會顯示安全性警告，表示此非 Power BI 的內容。
-
-
 
 ## <a name="automatically-install-apps-for-end-users"></a>自動為終端使用者安裝應用程式
 如果管理員授與您權限，您可以自動安裝應用程式，將它們「推播」  給終端使用者。 這項推播功能，可讓您更容易向適當的人員或群組散發正確應用程式。 應用程式會自動出現在您終端使用者的應用程式內容清單中。 他們不必從 Microsoft AppSource 中尋找，或追蹤安裝連結。 請參閱 Power BI 管理入口網站文章，了解管理員如何[向終端使用者推播應用程式](service-admin-portal.md#push-apps-to-end-users)。
@@ -152,9 +158,9 @@ ms.locfileid: "80147369"
 
 * 重新整理瀏覽器。 使用者可能需要重新整理，或關閉並重新開啟其瀏覽器，才能在 [應用程式] 清單中看到推送的應用程式。
 
-* 如果使用者不能立即在 [應用程式] 清單中看到應用程式，他們應該重新整理，或關閉並重新開啟其瀏覽器。
+* 如果使用者在 [應用程式] 清單中不能立即看到應用程式，則應該重新整理或關閉後重新開啟瀏覽器。
 
-* 盡量不要造成使用者太多負擔。 請小心不要推送太多應用程式，這樣使用者才能認定預先安裝的應用程式對他們有用。 為調配時間，最好控制誰可以將應用程式推送給終端使用者。 建立連絡點，將組織中的應用程式推播給使用者。
+* 盡量不要造成使用者太多負擔。 請小心不要推送太多應用程式，這樣使用者才能認定預先安裝的應用程式對他們有用。 為調配時間，最好能控制誰可以將應用程式推送給終端使用者。 建立連絡點，將組織中的應用程式推播給使用者。
 
 * 不會為未接受邀請的來賓使用者自動安裝應用程式。  
 
@@ -181,22 +187,28 @@ ms.locfileid: "80147369"
 
 * 在工作區中，選取右上角的省略符號 ( **...** ) > [解除發佈應用程式]  。
   
-     ![解除發佈應用程式](media/service-create-distribute-apps/power-bi-app-unpublish.png)
+    ![解除發佈應用程式](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 
 這個動作會解除安裝您發佈給每個人的應用程式，而且他們將無法再存取該應用程式。 它不會刪除工作區或其內容。
 
 ## <a name="view-your-published-app"></a>檢視已發佈的應用程式
 
-當您的應用程式取用者開啟應用程式時，他們會看到您建立的導覽窗格，而不是標準的 Power BI 導覽窗格。 應用程式瀏覽會列出已定義區段中的報表和儀表板。 它也會列出每份報表的個別頁面，而不僅是報表名稱。
+當您的應用程式取用者開啟應用程式時，他們會看到您建立的導覽窗格，而不是標準的 Power BI 導覽窗格。 應用程式瀏覽會列出已定義區段中的報表和儀表板。 它也會列出每份報表的個別頁面，而不僅是報表名稱。 您可使用功能表列中的箭號來展開和摺疊左側導覽。
 
 ![具有瀏覽的應用程式](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+在全螢幕模式中，您可選取角落的選項來顯示或隱藏導覽。
+
+![全螢幕導覽](media/service-create-distribute-apps/full-screen-app-show-navigation.png)
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 發佈應用程式時的重要事項：
 
+* 權限頁面不會變更其他工作區的資料集權限。 您會看到一則警告，提醒您單獨授與這些資料集的存取權。 最佳做法是先連絡資料集擁有者，再開始建置應用程式，以確保應用程式的所有使用者都能存取這些資料集。 
 * 在應用程式的存取清單中，您最多可以有 100 個使用者或群組。 不過，您可以讓超過 100 個使用者存取該應用程式。 若要這麼做，請使用一或多個包含所有所需使用者的使用者群組。
 * 針對新的工作區體驗，如果新增至應用程式存取清單的使用者已經可以透過工作區存取應用程式，他們就不會顯示在應用程式的存取清單中。  
-
+* 使用 Power BI 服務的新外觀時，項目資訊卡會顯示支援的網站 URL。 深入了解 [Power BI 的「新外觀」](service-new-look.md)。
+* 應用程式可選擇是否允許使用者使用共用權限來共用應用程式及應用程式的基礎資料集。 根據預設，新應用程式會關閉此選項。 建議關閉現有應用程式的這個選項，並更新基礎資料集的權限。 現有的應用程式之所以啟用此選項，是因為應用程式一開始即是設計來取代具有此行為的內容套件。
 
 ## <a name="next-steps"></a>後續步驟
 * [建立工作區](service-create-workspaces.md)

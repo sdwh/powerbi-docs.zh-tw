@@ -1,22 +1,24 @@
 ---
-title: 在 Power BI Desktop 中使用相對日期交叉分析篩選器或篩選條件
-description: 深入了解如何在 在 Power BI Desktop 中使用交叉分析篩選器或篩選條件限制相對日期範圍
+title: 在 Power BI 中使用相對日期交叉分析篩選器或篩選條件
+description: 深入了解如何在 在 Power BI 中使用交叉分析篩選器或篩選條件限制相對日期範圍。
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9d7173225cc52df5d7221b32a6fad81617afa422
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876810"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006773"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>在 Power BI Desktop 中使用相對日期交叉分析篩選器與篩選條件
+# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>在 Power BI 中使用相對日期交叉分析篩選器與篩選條件
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
 利用**相對日期交叉分析篩選器**或**相對日期篩選條件**，可以將時間篩選條件套用到資料模型中的任何日期資料行。 舉例來說，您可以使用**相對日期交叉分析篩選器**，只顯示過去 30 天 (或月、日曆月份等) 內產生的銷售資料。 當您重新整理資料時，相對時段會自動套用適當的相對日期限制式。
 

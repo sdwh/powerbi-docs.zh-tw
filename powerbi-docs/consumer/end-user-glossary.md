@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377228"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267219"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」  及其連線方式的高階概觀。
@@ -24,7 +24,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **account (帳戶)** 有不同類型的 Power BI 帳戶，也稱為「授權」  。  帳戶可以是：每個使用者或組織。 每個使用者帳戶以「免費」  或 *Pro* 提供。  Power BI「免費」  使用者可以使用獨立 Power BI Desktop 或在 Premium 組織帳戶內使用 Power BI 服務。 Power BI 每個使用者 *Pro* 帳戶是付費的每月訂用帳戶，可讓您與其他 *Pro* 使用者共同作業及共用內容。 
 
-組織 *Premium* (也稱為「Premium 容量」  ) 帳戶會在每個使用者授權之上加上一層功能。 例如，在擁有 *Premium* 授權之組織中的「免費」  每個使用者帳戶持有人，與沒有 *Premium* 的「免費」  使用者相比，可以使用 Power BI 做更多的事情。 例如，*Premium* 組織帳戶中的「免費」  使用者，可以與同事共同作業，而且可以檢視 Power BI Premium 容量上所裝載的內容。  
+組織 *Premium* (也稱為「Premium 容量」  ) 帳戶會在每個使用者授權之上加上一層功能。 例如，在擁有 *Premium* 授權之組織中的「免費」  每個使用者帳戶持有人，與沒有 *Premium* 的「免費」  使用者相比，可以使用 Power BI 做更多的事情。 例如，*Premium* 組織帳戶中的「免費」  使用者可與同事共同作業，並可檢視 Power BI Premium 容量中所託管的內容。  
 
 **admin portal (管理入口網站)** ：Power BI 系統管理員管理組織中 Power BI 使用者、功能及設定的位置。 (注意︰Office 365、Azure 和 PowerApps 使用系統管理中心。)
 
@@ -36,8 +36,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **annotate (標註)** ：在適用於 iOS 及 Android 裝置的 Power BI 行動裝置應用程式上，在圖格、報表或視覺效果的快照集複本上撰寫行、文字或戳記。
 
-**app, apps (應用程式)** 
-
+**應用程式**：儀表板、報表和資料集的套件組合。 也可以表示取用內容的行動應用程式，例如 iOS 版的 Power BI 應用程式。
 
 **AppSource**：集中式線上存放庫，您可以在其中瀏覽、探索及下載儀表板、報表、資料集，以及應用程式。
 
@@ -203,7 +202,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 **OneDrive for Business (商務用 OneDrive)** 和 **OneDrive**：OneDrive 是個人帳戶，商務用 OneDrive 則適合公司帳戶。  
 
-**On-premises (內部部署)** ：用來區分本機運算 (其中運算資源位在客戶自己的設備上) 與雲端運算的詞彙。
+**內部部署**：用來區別本機運算 (運算資源位在客戶自己的設備上) 與雲端運算的字詞。
 
 
 ## <a name="p"></a>P

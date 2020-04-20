@@ -9,16 +9,16 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 4df77ee94ee72e2104b7964f1835b446bde6b676
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621477"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267587"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>線上課程：一天中的 Power BI 編頁報表
 
-**一天中的 Power BI 編頁報表**線上課程可讓身為報表作者的您，具備建立、發佈及散發 Power BI 編頁報表所需的技術知識。 這堂課程包含將近 4 小時 20 分鐘的可檢視內容，可隨選使用，免費提供。
+**一天中的 Power BI 編頁報表**線上課程可讓身為報表作者的您，具備建立、發佈及散發 Power BI 編頁報表所需的技術知識。 這堂課程包含將近 4 小時 20 分鐘的可檢視內容，可隨選使用，免費提供。 另外還有[自我研究套件](#self-study-kit)，您可下載並用來完成 8 個實作教室。
 
 具體而言，本課程的適合對象是：
 
@@ -39,7 +39,7 @@ ms.locfileid: "80621477"
 
 觀看歡迎和簡介影片來開始課程。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DN1t5p9aui0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/DN1t5p9aui0]
 
 ## <a name="course-outline"></a>課程大綱
 
@@ -79,9 +79,32 @@ ms.locfileid: "80621477"
   - 影片 23：[奬勵內容：編頁報告的演進](https://www.youtube.com/watch?v=pevpai65MvY&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
   - 影片 24：[奬勵內容：降低進入的門檻](https://www.youtube.com/watch?v=vu32LfckCt8&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
 
-## <a name="additional-content"></a>其他內容
+## <a name="self-study-kit"></a>自我研究套件
 
-不久後的將來，我們會將 PowerPoint 簡報和實作教室發佈為自修套件。 之後請返回本文來尋找下載連結。
+您可下載並設定包含簡報內容和 8 個實作教室的自我研究套件：
+
+1. 使用[這個連結](https://aka.ms/priad-ilt-student)將自我研究套件 (.zip) 下載至電腦本機。
+1. 開啟檔案屬性，然後核取 [解除封鎖] (Windows 會將檔案標示為可能不受信任)。
+1. 將檔案內容解壓縮至檔案系統的資料夾。 建議建立容易尋找的資料夾，可將其命名為 **Training**。 實驗室文件會將此位置參考為 **&lt;CourseFolder&gt;** 。
+
+解壓縮之後，您就會有 **PowerBIPRIAD** 資料夾，並在其中找到下列資料夾：
+
+- **Lab01A** (及所有其他實驗室資料夾)。 此實驗室資料夾包含實驗室文件和實驗室資源，可能還包括資產和方案檔。
+- **MySolution**：這個資料夾儲存方案檔。 實驗室指示會指示使用的時機。
+- **Presentation**：這個資料夾包含課程簡報檔案，以 PDF 文件的形式提供。
+
+### <a name="getting-started"></a>開始使用
+
+建議先觀看線上課程。 您可開啟 **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf** 檔案來回顧簡報理論。 此簡報包含 8 張實驗室投影片，其指出實踐理論的時機。 另包含許多資源連結，其有助尋找相關內容。
+
+當準備好開始第一個實驗室時，請開啟 **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** 檔案。 本文件會引導登入 Power BI 服務、上傳資料集，然後安裝 [Power BI Report Builder](report-builder-power-bi.md)。
+
+> [!NOTE]
+> 您必須自行建立自己的 Power BI 帳戶。 如果還沒有帳戶，請參閱[以個人身分註冊 Power BI](../service-self-service-signup-for-power-bi.md)。
+>
+> 您必須登入 Power BI，才能將 Power BI Desktop 檔案發佈至工作區。 發行集會產生作為報表資料來源使用的資料集。 您不需要 Power BI Pro 授權或 Power BI Premium 訂閱，就能使用資料集作為報表資料來源。
+>
+> 不過，有些實驗室工作需要將編頁報表發佈至工作區。 只有當編頁報表儲存在已啟用編頁報表工作負載的[專用容量](../service-premium-what-is.md#dedicated-capacities)工作區後，您才可以開啟該編頁報表。 如果無法存取合適的工作區，我們會改提供您一個連結來觀看示範報表發佈的影片。
 
 ## <a name="next-steps"></a>後續步驟
 
