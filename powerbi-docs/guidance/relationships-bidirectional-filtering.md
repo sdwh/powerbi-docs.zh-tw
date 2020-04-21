@@ -102,7 +102,7 @@ Total Quantity = SUM(Sales[Quantity])
 使用此文章中的範例模型，請思考如何回答下列問題：
 
 - 向澳洲客戶銷售了多少種顏色？
-- 有幾個國家購買了牛仔褲？
+- 有幾個國家/地區購買了牛仔褲？
 
 這兩個問題都可以回答，而「無需」  在橋接事實類型資料表中摘要資料。 不過，其會要求篩選條件從一個維度類型資料表傳播到另一個維度類型資料表。 當篩選條件透過事實類型資料表傳播之後，可以使用 [DISTINCTCOUNT](/dax/distinctcount-function-dax) DAX 函式 (很可能是 [MIN](/dax/min-function-dax) 與 [MAX](/dax/max-function-dax) DAX 函式) 來達成維度類型資料表資料行的摘要。
 
