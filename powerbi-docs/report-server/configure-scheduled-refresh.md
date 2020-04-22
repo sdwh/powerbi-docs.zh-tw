@@ -1,19 +1,19 @@
 ---
 title: 如何設定 Power BI 報表排程的重新整理
 description: 若要重新整理 Power BI 報表中的資料，必須建立排程的重新整理計劃。
-author: maggiesMSFT
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maggies
-ms.openlocfilehash: 2b4bcf0734f7bec85d2d152c4745d373c63dc230
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.author: davidi
+ms.openlocfilehash: cab64bdcd5707cfd0b1578e82334de4b5c84495c
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699513"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439955"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>如何設定 Power BI 報表排程的重新整理
 若要重新整理 Power BI 報表中的資料，必須建立排程的重新整理計劃。 這是在 Power BI 報表的「管理」  區域內完成的。
@@ -34,7 +34,7 @@ ms.locfileid: "74699513"
 ## <a name="creating-a-schedule-refresh-plan"></a>建立排程重新整理計劃
 請遵循下列步驟以建立排程的重新整理計劃。
 
-1. 在 Web 入口網站中，以滑鼠右鍵按一下 Power BI 報表，然後選取 [管理]  。
+1. 在入口網站中，以滑鼠右鍵按一下 Power BI 報表，然後選取 [管理]  。
    
     ![從 Power BI 報表操作功能表選取管理](media/configure-scheduled-refresh/manage-power-bi-report.png)
 2. 在左側功能表中，選取 [排程的重新整理]  索引標籤。

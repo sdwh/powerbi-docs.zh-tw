@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 268aa73506be5cc025645672f402b88646497b1c
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 86a3c1ce2bbd678a2030fc4a3bc256424f7c8ad8
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813067"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637722"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>使用應用程式監視 Premium 容量
 
@@ -22,8 +22,9 @@ ms.locfileid: "80813067"
 
 應用程式會定期更新，加入新特性和功能。 請確定您執行的是最新版本。 如果您已安裝舊版應用程式，最好從您的應用程式中刪除它，然後按下 CTRL + F5 重新整理。
 
-> [!IMPORTANT]
-> 如果 Power BI Premium 容量遇到高資源使用量，因而發生效能或可靠性問題，您可收到通知電子郵件以找出問題並加以解決。 這是對超載容量進行疑難排解的簡單方式。 如需詳細資訊，請參閱[容量和可靠性通知](service-interruption-notifications.md#capacity-and-reliability-notifications)。
+
+
+
 
 ## <a name="install-the-app"></a>安裝應用程式
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a6dd3040fd765010c5d6baaf76991f7d1be4cfa7
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877059"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637905"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>從 Excel 活頁簿檔案取得資料
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -63,7 +63,7 @@ Power BI 支援下列資料類型：整數、十進位數字、貨幣、日期�
 
 ![](media/service-excel-workbook-files/excel_import_connect.png)
 
-### <a name="import-excel-data-into-power-bi"></a>將 Excel 資料匯入 Power BI
+### <a name="import-excel-data-into-power-bi"></a>將 Excel 資料匯入至 Power BI
 當您選擇 [匯入]  時，資料表及/或資料模型中任何支援的資料都會匯入 Power BI 中的新資料集。 如果您有任何 Power View 工作表，則會在 Power BI 中重新建立為報表。
 
 您可以繼續編輯活頁簿。 當您儲存變更後，這些變更通常會在一小時內與 Power BI 中的資料集同步處理。 如果您需要立即同步處理，您可以直接再按一次 [發佈] 立即匯出變更。 您在報表和儀表板中的任何視覺效果也會更新。
@@ -124,8 +124,6 @@ Power BI 支援下列資料類型：整數、十進位數字、貨幣、日期�
 **排程重新整理** - 如果您的 Excel 活頁簿檔案連接到外部資料來源，或是從本機磁碟匯入，您可以設定排定的重新整理，確保資料集或報表一律為最新狀態。 在大多數情況下，設定排定的重新整理相當容易，但細節部分則不在本文的討論範圍內。 如需深入了解，請參閱 [Power BI 的資料重新整理](refresh-data.md)。
 
 [從 Excel 2016 發佈至 Power BI](service-publish-from-excel.md)
-
-[Power BI publisher for Excel](publisher-for-excel.md)
 
 [Power BI 的資料重新整理](refresh-data.md)
 

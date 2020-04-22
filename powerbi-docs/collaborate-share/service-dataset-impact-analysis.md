@@ -1,5 +1,5 @@
 ---
-title: 資料集影響分析 (預覽)
+title: 資料集影響分析
 description: 視覺化並分析對資料集進行變更的下游影響。
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 016c555c6df65a45a9d429c25db93110022d9d8f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268021"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525322"
 ---
-# <a name="dataset-impact-analysis-preview"></a>資料集影響分析 (預覽)
+# <a name="dataset-impact-analysis"></a>資料集影響分析
 
 當對資料集進行變更，或考慮進行變更時，務必要能夠評定這些變更對相依於該資料集的下游報表和儀表板所造成影響。 **資料集影響分析**提供有助進行這項評定的資訊。
 * 其顯示有多少工作區、報表和儀表板可能會受到變更影響，並可供輕鬆巡覽至受影響報表和儀表板所在的工作區，以便能夠進一步調查。

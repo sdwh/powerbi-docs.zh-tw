@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 03/18/2020
-ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.date: 04/21/2020
+ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
+ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113594"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "81766281"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -88,6 +88,8 @@ Power BI 租用戶系統管理員可在管理入口網站中修改預設的記�
 
 Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不同的銷售人員針對其特定區域/產業/客戶，在同一份報表中為資料進行配量，並查看數字如何變化，而此報表最好透過 Power BI 報表來提供。
 
+如需詳細資訊，請參閱[何時使用 Power BI 中的編頁報表](../guidance/report-paginated-or-power-bi.md)。
+
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>此文件指出 Power BI 報表產生器是優先選用的編寫工具。 我可以在適用於 Power BI 的 SQL Server Data Tools 中建立編頁報表嗎？
 
 是，但 Power BI 服務僅允許您一次上傳單一項目；因此，尚不支援作者搭配 SQL Server Data Tools (SSDT) 使用的許多案例。 請參閱稍後可在此常見問題集中取得的完整[不支援功能清單](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)。  
@@ -110,10 +112,8 @@ GitHub 上的專案現在支援將內容從 SQL Server Reporting Services 移轉
 
 - 共用資料來源
 - 共用資料集
-- 子報表
 - 鑽研並按一下以連結到其他報表
 - 連結的報表
-- Bing 地圖圖層
 - 自訂字型
 
 如果您嘗試上傳的檔案具有 Power BI 服務中不支援的功能 (切換/排序以外的功能)，就會收到錯誤訊息。

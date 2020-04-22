@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efa5acbe70ea4541c2f9819d5260cb662ca0adac
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872795"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637866"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 設計工具的儀表板磚簡介
 
@@ -41,7 +41,6 @@ ms.locfileid: "73872795"
 * [報表](service-dashboard-pin-tile-from-report.md)
 * [其他儀表板](service-pin-tile-to-another-dashboard.md)
 * [商務用 OneDrive 上的 Excel 活頁簿](service-dashboard-pin-tile-from-excel.md)
-* [Power BI Publisher for Excel](publisher-for-excel.md)
 * [Quick Insights (深入資訊摘要)](service-insights.md)
 * [Power BI 報表伺服器或 SQL Server Reporting Services 中的內部部署編頁報表](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 

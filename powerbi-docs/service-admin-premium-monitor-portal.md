@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 7f300cca6614f638f88886a913b30a93d0f52cfd
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 18ae8828ce5811b4f06038b18ff6b423562c335b
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80812998"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637695"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>在系統管理入口網站中監視容量
 
@@ -24,8 +24,9 @@ ms.locfileid: "80812998"
 
 如果您需要更完整的計量，請使用 [Power BI Premium 容量計量](service-admin-premium-monitor-capacity.md)應用程式。 應用程式會提供向下切入和篩選，以及會影響容量效能、近乎每個層面的最詳細計量。 若要深入了解，請參閱[使用應用程式監視 Premium 容量](service-admin-premium-monitor-capacity.md)。
 
-> [!IMPORTANT]
-> 如果 Power BI Premium 容量遇到高資源使用量，因而發生效能或可靠性問題，您可收到通知電子郵件以找出問題並加以解決。 如需詳細資訊，請參閱[容量和可靠性通知](service-interruption-notifications.md#capacity-and-reliability-notifications)。
+
+
+
 
 ## <a name="system-metrics"></a>系統計量
 

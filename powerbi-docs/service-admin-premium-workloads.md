@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a252c10b247ad5fc06565139bc69fc43a9add467
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 6350c67835c097de6f065ba61c0b49b555551952
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267472"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637742"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>設定 Premium 容量中的工作負載
 
@@ -202,8 +202,9 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 
 [Power BI Premium 容量計量應用程式](service-admin-premium-monitor-capacity.md)提供資料集、資料流程，以及分頁報表計量，以監視針對您的容量啟用的工作負載。 
 
-> [!IMPORTANT]
-> 如果 Power BI Premium 容量遇到高資源使用量，因而發生效能或可靠性問題，您可收到通知電子郵件以找出問題並加以解決。 如需詳細資訊，請參閱[容量和可靠性通知](service-interruption-notifications.md#capacity-and-reliability-notifications)。
+
+
+
 
 ## <a name="next-steps"></a>後續步驟
 

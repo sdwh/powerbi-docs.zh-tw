@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 5628a114b872b7c0d92d5079198616a20fe85b87
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79525928"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637777"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>教學課程：在 Power BI 報表中內嵌 Power Apps 視覺效果
 
@@ -53,7 +53,7 @@ ms.locfileid: "79525928"
 
 3. 在 [欄位]  窗格中，選取 [名稱]  、[產品代碼]  和 [銷售階段]  。 
 
-    ![選取欄位](media/power-bi-visualization-powerapp/power-bi-fields.jpg)
+    ![選取欄位](media/power-bi-visualization-powerapp/power-bi-fields.png)
 
 4. 在 Power Apps 視覺效果上，選取您要建立應用程式的 Power Apps 環境，然後選取 [建立新的]  。
 
