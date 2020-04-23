@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5c026e2b7625a2306092f04e11aa77cb275c1f5f
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 098c01aacca7fca0621efe12367f2f66cd0d9d96
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006081"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066099"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>在 Power BI 報表中格式化及實作圖例的提示
 
@@ -39,7 +39,7 @@ ms.locfileid: "81006081"
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [建立絕佳報表的提示](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [建立絕佳報表的提示](../desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine 影片：[在 Power BI 中進行圖例格式化及實作的 6 大提示](https://www.youtube.com/watch?v=r9XnHmuWkZQ) \(英文\)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)
