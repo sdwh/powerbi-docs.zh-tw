@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 014e3963c0297adb4b77a71f1267f7f132944094
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488836"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439840"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
@@ -29,11 +29,41 @@ ms.locfileid: "79488836"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+### <a name="april-2020"></a>2020 年 4 月
+* Power BI 服務中工作區「新外觀」的公開預覽。
+* 正式推出 [Power BI 應用程式](service-create-distribute-apps.md)設定自訂導覽的功能。
+
+## <a name="previous-months-2020"></a>前幾個月 (2020)
+### <a name="march-2020"></a>2020 年 3 月
+* 使用 Power BI REST API 將報表匯出為 PDF、PPTX 及 PNG 檔案。
+* Power BI 服務中改造過的新全域搜尋體驗。
+* 對[多地理位置 Premium 功能](service-admin-premium-multi-geo.md)的效能改善。
+* Power BI Premium 中[讀取/寫入 XMLA 端點](service-premium-connect-tools.md)的公開預覽。
+
+### <a name="february-2020"></a>2020 年 2 月
+* 在 Power BI 首頁推廣儀表板、報表及應用程式的功能。
+* 可在 Microsoft Teams 中內嵌報表的新 [Power BI 索引標籤](service-embed-report-microsoft-teams.md)。
+* 正式推出[累加式重新整理](service-premium-incremental-refresh.md)且支援 Power BI Pro 使用者。
+* 支援外部電子郵件地址的電子郵件訂閱。
+* 針對 Power BI Premium 正式推出[攜帶您自己的金鑰 (BYOK)](service-encryption-byok.md) 功能。
+
+### <a name="january-2020"></a>2020 年 1 月
+* Power BI 工作區體驗之新的且已改良的[使用計量](service-usage-metrics.md)。
+
+## <a name="2019"></a>8 月 27 日
+### <a name="december-2019"></a>2019 年 12 月
+* 可讓 Power BI 服務管理員追蹤其租用戶內使用者與管理活動的新活動記錄 API。
+
+### <a name="november-2019"></a>2019 年 11 月
+* [Power BI Premium 中的大型模型](service-premium-large-models.md) 的公開預覽。
+* 在 Power BI 中使用 Microsoft Cloud App Security 控制項的公開預覽。
+
 ### <a name="october-2019"></a>2019 年 10 月
 * 可重新整理 Power BI 資料集的新 Power Automate 動作。
 * Power BI 服務中報表和儀表板的[連絡人清單](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/)。
+* 正式推出 [自動化機器學習](service-machine-learning-automated)
+* Power BI 資料譜系檢視的公開預覽。
 
-## <a name="previous-months-2019"></a>前幾個月 (2019)
 ### <a name="september-2019"></a>2019 年 9 月
 * [範本應用程式](service-template-apps-overview.md)的連線設定更新。
 
