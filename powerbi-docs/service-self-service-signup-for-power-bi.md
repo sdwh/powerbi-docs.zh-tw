@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/31/2019
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 13928bc39801cdaccf73450da64c4f84048fbce3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: fcbafe3a66052971a725d1354fe5d12e22fabc63
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74791644"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439886"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>以個人身分註冊 Power BI
 
@@ -30,7 +30,7 @@ Power BI 可以是您的個人資料分析和視覺效果工具，也可以作�
 
 * 登入之後，您可以[邀請來賓使用者](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)，使用任何電子郵件地址 (包括個人帳戶) 查看您的 Power BI 內容。
 
-* 您可以使用 .gov 或 .mil 地址註冊 Power BI ，但這需要不同的程序。 如需詳細資訊，請參閱[在 Power BI 服務中註冊您的美國政府組織](service-govus-signup.md)。
+* 您可以使用 .gov 或 .mil 地址註冊 Power BI ，但這需要不同的程序。 如需詳細資訊，請參閱[在 Power BI 服務中註冊您的 US Gov 組織](service-govus-signup.md)。
 
 ## <a name="sign-up-for-a-power-bi-account"></a>註冊 Power BI 帳戶
 
@@ -78,8 +78,8 @@ Power BI 可以是您的個人資料分析和視覺效果工具，也可以作�
 
 | 徵兆/錯誤訊息 | 原因和解決方法 |
 | ----------------------- | -------------------- |
-| <strong>個人電子郵件地址 (例如 nancy@gmail.com)</strong> 您會在註冊期間收到類似於以下內容訊息： <br /><br /> *您已輸入個人電子郵件地址：請輸入您的公司電子郵件地址，讓我們可以安全地儲存貴公司的資料。* <br /><br /> 或 <br /><br /> *這似乎是個人電子郵件地址。請輸入您的公司地址，以便我們可以將您與公司內的其他人連接。而且別擔心。我們不會向任何人洩漏您的地址。* | Power BI 不支援消費者電子郵件服務或電信提供者所提供的電子郵件地址。 <br /><br /> 請使用公司或學校指派給您的電子郵件地址再試一次，以完成註冊。 <br /><br /> 如果您仍然無法註冊，但是可以完成更進階的安裝程序，您可以[註冊新的 Office 365 試用訂閱和使用該電子郵件地址來註冊](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 <br /><br /> 您也可以讓現有使用者[邀請您作為來賓](service-admin-azure-ad-b2b.md)。 |
-| **自助式註冊已停用**：您會在註冊期間收到類似以下內容的訊息︰ <br /><br /> *我們無法完成您的註冊。您的 IT 部門已經關閉 Microsoft Power BI 註冊。請與他們連絡來完成註冊。* <br /><br /> 或 <br /><br /> *這似乎是個人電子郵件地址。請輸入您的公司地址，以便我們可以將您與公司內的其他人連接。而且別擔心。我們不會向任何人洩漏您的地址。* | 組織的 IT 系統管理員已停用 Power BI 自助式註冊。 <br /><br /> 請連絡 IT 系統管理員，請其[遵循指示啟用註冊](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)，以完成註冊。 <br/><br/> 如果您[透過合作夥伴註冊 Office 365](service-admin-syndication-partner.md)，可能也會遇到這個問題。 |
+| <strong>個人電子郵件地址 (例如 nancy@gmail.com)</strong> 您會在註冊期間收到類似於以下內容訊息： <br /><br /> *您已輸入個人電子郵件地址：請輸入您的公司電子郵件地址，讓我們可以安全地儲存貴公司的資料。* <br /><br /> 或 <br /><br /> *這似乎是個人電子郵件地址。請輸入您的公司地址，以便我們可以將您與公司內的其他人連接。而且別擔心。我們不會將您的地址分享給任何人。* | Power BI 不支援消費者電子郵件服務或電信提供者所提供的電子郵件地址。 <br /><br /> 請使用公司或學校指派給您的電子郵件地址再試一次，以完成註冊。 <br /><br /> 如果您仍然無法註冊，但是可以完成更進階的安裝程序，您可以[註冊新的 Office 365 試用訂閱和使用該電子郵件地址來註冊](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 <br /><br /> 您也可以讓現有使用者[邀請您作為來賓](service-admin-azure-ad-b2b.md)。 |
+| **自助式註冊已停用**：您會在註冊期間收到類似以下內容的訊息︰ <br /><br /> *我們無法完成您的註冊。您的 IT 部門已經關閉 Microsoft Power BI 註冊。請與他們連絡來完成註冊。* <br /><br /> 或 <br /><br /> *這似乎是個人電子郵件地址。請輸入您的公司地址，以便我們可以將您與公司內的其他人連接。而且別擔心。我們不會將您的地址分享給任何人。* | 您組織的 IT 管理員已停用 Power BI 自助式註冊。 <br /><br /> 請連絡 IT 系統管理員，請其[遵循指示啟用註冊](admin/service-admin-disable-self-service.md)，以完成註冊。 <br/><br/> 如果您[透過合作夥伴註冊 Office 365](service-admin-syndication-partner.md)，可能也會遇到這個問題。 |
 | **電子郵件地址不是 Office 365 識別碼** - 您會在註冊期間收到類似如下內容的訊息︰ <br /><br /> *我們在 contoso.com 找不到您。您在公司或學校使用不同的 ID 嗎？<br /><br />請嘗試以該 ID 登入，如果沒有作用，請連絡您的 IT 部門。* | 貴組織用來登入 Office 365 和其他 Microsoft 服務的 ID 與您的電子郵件地址不同。  例如，您的電子郵件地址可能是 Nancy.Smith@contoso.com，但您的 ID 是 nancys@contoso.com。 <br /><br /> 請使用組織指派給您登入 Office 365 或其他 Microsoft 服務的識別碼來完成註冊。  如果您不知道這個識別碼是什麼，請連絡 IT 系統管理員。 <br /><br /> 如果您仍然無法註冊，但是可以完成更進階的安裝程序，您可以[註冊新的 Office 365 試用訂閱和使用該電子郵件地址來註冊](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)。 |
 
 ## <a name="next-steps"></a>後續步驟

@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267587"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675655"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>線上課程：一天中的 Power BI 編頁報表
 
@@ -83,7 +83,7 @@ ms.locfileid: "81267587"
 
 您可下載並設定包含簡報內容和 8 個實作教室的自我研究套件：
 
-1. 使用[這個連結](https://aka.ms/priad-ilt-student)將自我研究套件 (.zip) 下載至電腦本機。
+1. 使用[這個連結](https://aka.ms/priad-student)將自我研究套件 (.zip) 下載至電腦本機。
 1. 開啟檔案屬性，然後核取 [解除封鎖] (Windows 會將檔案標示為可能不受信任)。
 1. 將檔案內容解壓縮至檔案系統的資料夾。 建議建立容易尋找的資料夾，可將其命名為 **Training**。 實驗室文件會將此位置參考為 **&lt;CourseFolder&gt;** 。
 
@@ -105,6 +105,10 @@ ms.locfileid: "81267587"
 > 您必須登入 Power BI，才能將 Power BI Desktop 檔案發佈至工作區。 發行集會產生作為報表資料來源使用的資料集。 您不需要 Power BI Pro 授權或 Power BI Premium 訂閱，就能使用資料集作為報表資料來源。
 >
 > 不過，有些實驗室工作需要將編頁報表發佈至工作區。 只有當編頁報表儲存在已啟用編頁報表工作負載的[專用容量](../service-premium-what-is.md#dedicated-capacities)工作區後，您才可以開啟該編頁報表。 如果無法存取合適的工作區，我們會改提供您一個連結來觀看示範報表發佈的影片。
+
+## <a name="instructor-kit"></a>講師套件
+
+請使用[這個連結](https://aka.ms/priad-instructor)將講師套件 (.zip) 下載到您的電腦本機。
 
 ## <a name="next-steps"></a>後續步驟
 

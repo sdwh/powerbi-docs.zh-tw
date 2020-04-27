@@ -6,24 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 04/16/2020
 ms.author: painbar
-ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376676"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066317"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什麼是 Power BI 範本應用程式？
 
 新的 Power BI「範本應用程式」  讓 Power BI 合作夥伴撰寫少量程式碼或不用撰寫程式碼，即可建置 Power BI 應用程式，再將應用程式部署至所有 Power BI 客戶。  本文為 Power BI 範本應用程式的概觀。
 
-範本應用程式取代目前的服務內容套件。 身為 Power BI 合作夥伴，您可以為客戶建立一組現成可用的內容並自行發佈。  
+身為 Power BI 合作夥伴，您可以為客戶建立一組現成可用的內容並自行發佈。  
 
 您可以建置範本應用程式，讓客戶連線並在自己的帳戶內具現化。 身為領域專家，他們可將資料解除鎖定，讓其商務使用者都能輕鬆使用。  
 
-您可以將您的範本應用程式提交至 Cloud Partner 入口網站。 然後，這些應用程式將可在 [Power BI 應用程式市集](https://app.powerbi.com/getdata/services)與 [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi) 中公開取得。 以下為公用範本應用程式建立體驗的高階說明。
+將您的範本應用程式提交至合作夥伴中心。 然後，這些應用程式將可在 [Power BI 應用程式市集](https://app.powerbi.com/getdata/services)與 [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi) 中公開取得。 以下為公用範本應用程式建立體驗的高階說明。
 
 ## <a name="power-bi-apps-marketplace"></a>Power BI 應用程式市集
 
@@ -38,7 +38,7 @@ Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，
 開發並提交範本應用程式的一般程序牽涉到多個步驟。 某些階段可能包含同時進行的多項活動。
 
 
-| 階段 | Power BI Desktop |  |Power BI 服務  |  |Cloud Partner 入口網站  |
+| 階段 | Power BI Desktop |  |Power BI 服務  |  |合作夥伴中心  |
 |---|--------|--|---------|---------|---------|
 | **One** | 以 .pbix 檔案建置資料模型及報表 |  | 建立工作區。 匯入 .pbix 檔案。 建立互補儀表板  |  | 註冊為合作夥伴 |
 | **Two** |  |  | 建立測試套件並執行內部驗證        |  | |
@@ -49,7 +49,7 @@ Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，
 
 若要建立範本應用程式，您需有建立權限。 如需詳細資料，請參閱 Power BI 管理入口網站、範本應用程式設定。 
 
-若要將範本應用程式發佈至 Power BI 服務及 AppSource，您必須符合[成為雲端市集發行者](https://docs.microsoft.com/azure/marketplace/become-publisher)的需求。
+若要將範本應用程式發佈至 Power BI 服務及 AppSource，您必須符合[成為合作夥伴中心發行者](https://docs.microsoft.com/azure/marketplace/become-publisher)的要求。
  
 ## <a name="high-level-steps"></a>高階步驟
 
@@ -67,7 +67,7 @@ Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，
 
 6. 將測試應用程式提升至生產階段前，以提交該應用程式至 AppSource 進行驗證，以及在您自己的租用戶外測試。 
 
-7. 將內容提交至雲端合作夥伴平台以發佈。 
+7. 將內容提交至[合作夥伴中心](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)進行發佈。 
 
 8. 讓您的供應項目在 AppSource 中「正式運作」，並在 Power BI 中將應用程式移至生產階段。
 
@@ -75,11 +75,11 @@ Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，
 
 ## <a name="requirements"></a>需求
 
-若要建立範本應用程式，您需有建立權限。 如需詳細資料，請參閱 Power BI [管理入口網站、範本應用程式設定](service-admin-portal.md#template-apps-settings)。 
+若要建立範本應用程式，您需有建立權限。 如需詳細資料，請參閱 Power BI [管理入口網站、範本應用程式設定](service-admin-portal.md#template-apps-settings)。
 
-若要將範本應用程式發佈至 Power BI 服務及 AppSource，您必須符合[成為雲端市集發行者](https://docs.microsoft.com/azure/marketplace/become-publisher)的需求。
+若要將範本應用程式發佈至 Power BI 服務及 AppSource，您必須符合[成為合作夥伴中心發行者](https://docs.microsoft.com/azure/marketplace/become-publisher)的要求。
  > [!NOTE] 
- > 範本應用程式提交是在 [Cloud Partner 入口網站](https://cloudpartner.azure.com)中管理的。 使用相同的 Microsoft 開發人員中心註冊帳戶來登入。 您應該只有一個 AppSource 供應項目的 Microsoft 帳戶。 帳戶不應該適用於個別服務或供應項目。
+ > 範本應用程式提交在[合作夥伴中心](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)中進行管理。 使用相同的 Microsoft 開發人員中心註冊帳戶來登入。 您應該只有一個 AppSource 供應項目的 Microsoft 帳戶。 帳戶不應該適用於個別服務或供應項目。
 
 ## <a name="tips"></a>祕訣 
 

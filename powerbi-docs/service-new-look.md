@@ -6,19 +6,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c69e0247ecde7d6bd1cf158761a2ff9efd31d2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: de30da9c5cf6ad2046a99fb327cdad825725a14d
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881374"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637833"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 服務的「新外觀」
 
-Power BI 服務 (app.powerbi.com) 有新的外觀，可讓您更輕鬆地檢視報表並與其互動。 新外觀更簡潔，而且建構在您熟悉的其他 Microsoft 產品基礎之上。 在 Power BI 服務中，我們藉由切換至較淺的色彩主題並更新圖示，讓報表內容成為主要焦點。 以下概述新外觀中的變更項目。 如需詳細資料，請參閱編號章節：
+Power BI 服務 (app.powerbi.com) 有新的外觀，可讓您更輕鬆地檢視報表並與其互動。 新外觀更簡潔，而且建構在您熟悉的其他 Microsoft 產品基礎之上。 在 Power BI 服務中，我們藉由切換至較淺的色彩主題並更新圖示，讓報表內容成為主要焦點。 
+
+要尋找 **Power BI Desktop** 中新外觀的相關資訊嗎？ 請參閱[使用 Power BI Desktop 中已更新的功能區](desktop-ribbon.md)。
+
+以下概述新外觀中的變更項目。 如需詳細資料，請參閱編號章節：
 
 ![新外觀的變更總覽](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -36,7 +40,7 @@ Power BI 服務 (app.powerbi.com) 有新的外觀，可讓您更輕鬆地檢視�
 
 ![選擇使用新外觀](media/service-new-look/power-bi-new-look-off.png)
 
-如果您需要返回舊外觀，只要將其滑動回到**關閉** ![新外觀開啟](media/service-new-look/power-bi-new-look-toggle-on.png) 即可。 如果您沒有看到此項目，請選取右上角的省略符號功能表。
+如果您需要回復舊外觀，只要將其滑動回到 [關閉]  ![新外觀開啟](media/service-new-look/power-bi-new-look-toggle-on.png) 即可。 如果您沒有看到此項目，請選取右上角的省略符號功能表。
 
 ![選擇退出新外觀](media/service-new-look/power-bi-new-look-on.png)
 
@@ -87,4 +91,6 @@ Power BI 服務 (app.powerbi.com) 有新的外觀，可讓您更輕鬆地檢視�
 
 ## <a name="next-steps"></a>後續步驟
 
-[取用者適用的 Power BI](consumer/end-user-consumer.md)
+- [使用 Power BI Desktop 中已更新的功能區](desktop-ribbon.md)
+- [加入工作區「新外觀」](collaborate-share/service-workspaces-new-look.md)
+- [取用者適用的 Power BI](consumer/end-user-consumer.md)

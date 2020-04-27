@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: cc47820e5903426d4f3635c78e0dc108049f897e
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404752"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439334"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>將 CDM 資料夾作為資料流程新增到 Power BI (預覽)
 
@@ -30,6 +30,12 @@ ms.locfileid: "80404752"
 * 您必須具有 CDM 資料夾中所有檔案和資料夾的讀取和執行權限，才能將其新增到 Power BI。
 
 下列各節將說明如何從 CDM 資料夾建立資料流程。
+
+## <a name="authorizing-users-for-cdm-folders-to-create-a-dataflow"></a>授權 CDM 資料夾的使用者建立資料流程
+
+為了從 CDM 資料夾建立資料流程，必須新增下列權限：
+* 將透過 Power BI 存取 CDM 資料夾的使用者必須列在儲存體帳戶的 [儲存體 Blob 資料擁有者]  角色底下。
+* 將透過 Power BI 存取 CDM 資料夾的使用者必須具有 CDM 資料夾本身及其內部任何檔案或資料夾的「讀取權限」  和「執行權限」  ACL。 
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>從 CDM 資料夾建立資料流程
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: a142b950375014c4d1adba917cceb2c6d9af4825
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: df905c4174c366f64b58d257786f002c607f3edb
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427683"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675671"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中進行分析
 有時候您可能會想要使用 Excel 來檢視您在 Power BI 中的資料集，並與其互動。 有了 [使用 EXCEL 分析]  ，您可以做到，並以存在於 Power BI 中的資料集為基礎來存取 Excel 的樞紐分析表、 圖表和交叉分析篩選器的功能。
@@ -68,9 +68,7 @@ ms.locfileid: "77427683"
 ### <a name="users-with-multiple-power-bi-accounts"></a>使用多個 Power BI 帳戶的使用者
 某些使用者有多個 Power BI 帳戶，這些使用者可能會遇到的情況是：他們用某個帳戶登入 Power BI，但該帳戶與使用於 [使用 EXCEL 分析] 所存取的資料集的帳戶是不同的。 在這些情況下，若您嘗試存取用於 [使用 EXCEL 分析] 活頁簿中的資料集，可能會出現**禁止**錯誤或登入失敗。
 
-您將有機會再次登入，屆時您可以使用用於 [使用 EXCEL 分析] 所存取之資料集的 Power BI 帳戶登入。 您也可以從 Excel 中的 **Power BI** 功能區索引標籤選取**設定檔**，其會識別您目前登入的帳戶，並提供一個連結讓您登出 (接著即可使用不同的帳戶登入)。 如果您尚未安裝，您可以[下載 Power BI Publisher for Excel](https://www.microsoft.com/download/details.aspx?id=50729)；這是在 Excel 中安裝 Power BI 功能區的方式。
-
-![檢視您的設定檔](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
+您將有機會再次登入，屆時您可以使用用於 [使用 EXCEL 分析] 所存取之資料集的 Power BI 帳戶登入。 您也可以在 Excel 頂端的功能區中選取您的姓名，以識別您目前使用的登入帳戶。 登出再使用其他帳戶登入。
 
 ### <a name="enable-data-connections"></a>啟用資料連線
 若要在 Excel 中分析您的 Power BI 資料，系統會提示您確認 .odc 檔案的路徑與檔案名稱，然後選取 [啟用]  。

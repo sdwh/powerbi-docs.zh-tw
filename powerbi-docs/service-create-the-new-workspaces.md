@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/02/2019
+ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 02f6bc83c7d939bd54c5c9a06067185ab0618183
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207819"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675626"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>在 Power BI 中建立新工作區
 
@@ -127,7 +127,7 @@ Power BI 不會同步處理使用者或群組的權限，而這些使用者或�
 
     ![工作區內容清單](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
-1. 在這些工作區中，將安全性群組、通訊群組清單、Office 365 群組或個人新增為成員、參與者或系統管理員。 請參閱[新工作區中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)，以取得不同角色的說明。
+1. 在這些工作區中，將安全性群組、通訊群組清單、Office 365 群組或個人新增為檢視者、成員、參與者或管理員。 請參閱[新工作區中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)，以取得不同角色的說明。
 
     ![工作區新增成員、系統管理員、參與者](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 

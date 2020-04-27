@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/24/2020
 ms.author: tebercov
-ms.openlocfilehash: 92d5a5177b0fa03af583e9e89ce574c0197f3f7a
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273217"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066274"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中撰寫範本應用程式的提示
 
@@ -128,7 +128,7 @@ Power BI Desktop 中的[參數](https://powerbi.microsoft.com/blog/deep-dive-int
 * 備妥驗證小組須遵循的指示，其中包含連接到資料所需的認證和參數。
 * 應用程式必須在 Power BI 和您的 CPP 供應項目中包含應用程式圖示。 [深入了解](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * 已設定登陸頁面。 [深入了解](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* 確定遵循 [Power BI App offer](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) (Power BI 應用程式供應項目) 上的文件。
+* 請隨時關注 [合作夥伴中心 -> Power BI App 供應項目](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) 上的文件。
 * 如果儀表板屬於應用程式，請確定儀錶板不是空白。
 * 在提交應用程式之前，請使用應用程式連結安裝應用程式，確保您能如預期連接資料集和應用程式體驗。
 * 將 pbix 上傳到範本工作區之前，請務必卸載任何不必要的連線。

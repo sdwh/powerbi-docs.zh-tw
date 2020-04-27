@@ -1,128 +1,79 @@
 ---
-title: 適用於美國政府客戶的 Power BI 註冊
-description: 對於美國政府客戶，深入了解如何針對美國政府組織註冊 Power BI 美國政府服務
+title: 美國政府機關客戶如何註冊 Power BI
+description: 美國政府機關的客戶可以透過政府社群雲端，了解如何註冊 Power BI。
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
-ms.author: davidi
+ms.date: 04/07/2020
+ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 7edfe46173b1d9b2537c5fd980b245af09fd1f53
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 3f001c91c89b18b43c953669272b4d5be37dd154
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74178276"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81436247"
 ---
-# <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服務中註冊美國政府組織
-**Power BI 服務**在 **Office 365 美國政府社群**訂閱中具有適用於美國政府客戶的版本。 本文所討論的 **Power BI 服務**版本是為美國政府客戶而設計，獨立且不同於商用版本的 **Power BI 服務**。
+# <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>在 Power BI 服務中，註冊您的美國政府組織
 
-如需適用於美國政府的 **Power BI 服務**詳細資訊，包括其功能與限制，請參閱[適用於美國政府客戶的 Power BI - 概觀](service-govus-overview.md)。
+[Office 365 政府版方案](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans?rtc=1)中有一版 Power BI 服務。 本文專為美國政府客戶設計。此處所述的註冊程序，不同於商業版的 Power BI 服務。
+
+如需適用於美國政府之 Power BI 服務的詳細資訊，請參閱[適用於美國政府客戶的 Power BI - 概觀](service-govus-overview.md)。
 
 > [!NOTE]
-> 本文旨在提供給有權為其美國政府組織註冊 Power BI 的系統管理員。 如果您是使用者，請連絡您的系統管理員，取得美國政府的 Power BI 訂閱。
+> 本文的對象是有權為其美國政府組織註冊 Power BI 的系統管理員。 您若是終端使用者，請洽詢您的系統管理員，了解如何訂閱適用於美國政府的 Power BI。
 > 
 > 
 
-![](media/service-govus-signup/service_govus_signup_1.png)
+## <a name="select-the-right-sign-up-process-for-your-us-government-organization"></a>為您的美國政府組織選取正確的註冊程序
 
-## <a name="select-the-right-sign-up-process-for-your-us-government-organization"></a>選取美國政府組織的正確註冊程序
-您的美國政府組織可能新接觸 **Office Government cloud**，或可能已經有訂閱。 下列各節將詳細說明根據您所在的 Government Cloud 的 Power BI 註冊步驟，且會根據您的現有訂閱而不同。
+您的美國政府組織可能是第一次加入美國政府雲端社群，也可能已有訂閱。 下列各節將根據您使用的 Office 365 政府版方案與 Power BI 內容，詳述其註冊步驟。 這些步驟會隨您目前的註冊而不同。
 
-一旦您已註冊適用於美國政府的 Power BI，某些功能可能無法運作，直到您的業務或支援代表完成您的上架程序。 若要了解這些功能，請參閱[適用於美國政府客戶的 Power BI - 概觀](service-govus-overview.md)。 若要完成上架程序來啟用這些功能，請連絡您的業務或支援代表。
+當您註冊 Power BI 美國政府版之後，請與您的帳戶小組合作，開始本文所述的[「允許清單」  程序](#additional-signup-information)。 您必須完成此步驟，您的組織才能在政府社群雲端中執行作業。
 
-### <a name="us-government-organizations-that-are-new-office-cloud-customers"></a>美國政府組織是新的 Office Cloud 客戶
-如果您的組織是新的 **Office Government Cloud** 客戶，請遵循下列步驟︰
+## <a name="sign-up-for-a-new-office-365-government-plan"></a>如何註冊新的 Office 365 政府版方案
+
+若您的組織第一次使用政府雲端社群，請遵循下列步驟註冊 Office 365 政府版方案：
 
 > [!NOTE]
-> 應該由入口網站的系統管理員執行這些步驟。
+> 這些步驟應由全域管理員執行。
 >
 
-1. 前往 [https://products.office.com/government/office-365-web-services-for-government](https://products.office.com/government/office-365-web-services-for-government)。
+1. 前往 [Office 365 政府版方案](https://products.office.com/government/office-365-web-services-for-government)。
+2. 選取 [開始免費試用]  。
+3. 填寫表單描述您的組織。 使用下拉式清單選取您的組織類型。
 
->[!NOTE]
->如果您目前不想註冊 Government Cloud，請連絡您的業務代表。
->
+   ![請在註冊試用版時選取組織類型](media/service-govus-signup/gcc-trial-signup.png)
 
-2. 選取 Office G3 並完成 Office 試用版的表單
-3. 一旦您是 Office Cloud 客戶，請繼續執行下列「現有 Office Government Cloud 客戶」的步驟
+4. 提交表單，以開始啟用程序。 您的 Microsoft 代表或 Microsoft 合作夥伴可以協助您任何問題。
 
-### <a name="existing-office-government-cloud-customers"></a>現有 Office Government Cloud 客戶
-如果您的組織是現有的 **Office Government Cloud** 客戶，但您沒有 **Power BI** 訂閱 (Free 或其他)，請遵循下列步驟︰
+完成此程序之後，請遵循現有 Office 365 政府版客戶應執行的步驟，新增 Power BI 訂閱。
+
+## <a name="add-power-bi-to-an-office-365-government-plan"></a>將 Power BI 新增至您的 Office 365 政府版方案
+
+您的組織若已在使用 Office 365 政府版方案，請遵循下列步驟新增 Power BI 訂閱：
 
 > [!NOTE]
-> 應該由入口網站的系統管理員執行這些步驟。
+> 這些步驟應由全域管理員執行。
 > 
 > 
 
-1. 登入現有的 Office Government Cloud 帳戶並前往管理入口網站
-2. 選取 [計費]  。
-3. 選取 [購買服務]  。
-4. 選取 [Power BI Pro 政府] 選項，然後選擇 [嘗試]  或 [立即購買] 
-5. 完成訂單
-6. 指派使用者給帳戶。
-   
-   ![](media/service-govus-signup/service_govus_signup_5.png)
-7. 在 [https://app.powerbigov.us](https://app.powerbigov.us) 登入適用於美國政府客戶的 **Power BI 服務**
+1. 使用您的全域管理員或計費系統管理員認證，登入 Microsoft 365 系統管理中心。
+2. 選取 [計費]   > [購買服務]  。
+4. 搜尋或捲動頁面，找出 Power BI Pro 政府版供應項目，然後選擇 [試用]  或 [立即購買]  。
+5. 完成訂單。
+6. 將授權指派給使用者帳戶。
 
-## <a name="additional-signup-information"></a>其他的註冊資訊
-以下是在不同授權移轉案例中註冊 **Power BI 美國政府**的詳細資訊。
+## <a name="additional-signup-information"></a>其他註冊資訊
 
-### <a name="direct-power-bi-trial-to-pro-customer-onboarding"></a>Power BI Trial 到 Pro 的直接客戶上架
-* 按一下並跟隨 Billing > Purchase Service > PowerBI Pro Gov，然後選取購買且非為試用版
-* 填寫必要資訊然後取得授權
-* 移除 Power BI Pro 試用版或舊的授權，然後指派新的授權給使用者
-* 登入 [https://app.powerbigov.us](https://app.powerbigov.us)
+在您可以使用美國政府 Power BI 服務之前，必須先與您的 Microsoft 帳戶小組合作，為您的組織起始「允許清單」  。 Power BI 工程小組透過「允許清單」程序，將客戶從商用雲端環境，移至安全的政府社群雲端。 此步驟可確保美國政府雲端中的功能如預期般運作。 
 
-### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>Power BI Trial 到 Pro 的轉銷商客戶上架
-移至 [計費] > [訂閱]  ，然後選取 [Power BI Pro for Government]  訂閱。 您會看到︰
+若要開始允許清單程序，請連絡您的 Microsoft 帳戶小組尋求協助。 只有系統管理員才能要求允許清單。 此程序大約需要三週的時間。 在此期間內，Power BI 工程小組將會進行適當的變更，以確保您的租用戶在美國政府雲端中能夠正常地運作。
 
-* 可用
-* 已指派
-* 指派給使用者連結
-* 如果您仍有指派的試用版︰
-  * 按一下試用版訂閱下的 [已指派]  ，然後移除您想要新增至付費的使用者
-  * 移至付費訂用帳戶，並指派這些使用者
-
-### <a name="whitelisting-instructions"></a>設為允許清單指示
-「設為允許清單」  是 Power BI 工程小組用來將客戶從商用雲端環境移至安全政府雲端環境的程序。 這可確保美國政府雲端中可用的功能如預期般運作。 第一次購買美國政府 **Power BI** 服務的所有現有 (或新的) 美國政府客戶，「必須」  起始下列允許清單處理。 處理必須在安裝或移轉至美國政府 **Power BI** 服務之前完成。 
-
-若要將您的租用戶加入美國政府雲端的「允許名單」  ，請連絡 Microsoft 帳戶小組，協助您加入允許名單。 只有系統管理員能提出此要求。 「設為允許清單」  程序大約需要三週，在此期間，Power BI 工程小組會進行適當變更，確保租用戶在美國政府雲端正確操作。
-
-從 Power BI **免費**授權移轉至 **Power BI 美國政府**的客戶 (而且，根據定義，如本文前面所述移轉至相關聯 **Pro** 授權功能)，將會遇到本文的下節中所述的問題，直到 Power BI 工程小組將其租用戶「設為允許清單」  。
-
-### <a name="mixed-free-and-pro-licenses-in-us-government-tenants"></a>在美國政府租用戶中混合使用免費和 Pro 授權
-如果您的租用戶內同時具有免費和美國政府 Pro 授權，則免費和 (美國政府) Pro 授權仍然會存在，但其中一個或其他授權類型將無法正常運作。 如果您的租用戶成功通過「設為允許清單」  程序，則會發生下列情況：
-
-* 任何免費授權使用者都無法再使用 **Power BI Desktop** 登入 Power BI，並且會有功能缺漏，如下節所述。
-* 所有指派給美國政府 Pro 授權的用戶端都可以正常運作，包括使用閘道、Power BI Desktop 和行動裝置應用程式。
-
-如果在美國政府租用戶中混合使用免費和 Pro 授權，並且通過「設為允許清單」  程序，則預期會發生下列情況：
-
-**「設為允許清單」_之前_** ：
-
-* 具有免費授權的使用者是在商用雲端中執行
-* Pro 美國政府授權會顯示在入口網站中，而且系統管理員可以將這些授權指派給使用者。 在系統管理員指派美國政府 Pro 授權之後，Pro 美國政府使用者將不會遺失其免費授權的資料。 已指派的使用者可以存取美國政府客戶的 Power BI Pro 功能，但除非租用戶已成功「設為允許清單」  ，否則下列項目符號清單功能會有缺漏：
-  
-  * 無法驗證閘道、行動裝置和 Power BI Desktop
-  * 您無法存取 Azure 商業資料來源
-  * PBIX 檔案必須手動從商用 Power BI 服務進行上傳
-  * 沒有 Power BI mobile apps
-
-**「設為允許清單」之後**  ：
-
-* 商用 Power BI 服務中執行的免費使用者可以繼續執行，但會如預期般停止驗證。
-* 在美國政府雲端中執行的 Pro 使用者，可以如預期使用**適用於美國政府客戶的 Power BI** 服務。
-
-若要找出租用戶中執行 Power BI 免費授權的使用者，系統管理員可以執行授權報表，在此之後，免費授權使用者會顯示為 **Power BI 標準**。
 
 ## <a name="next-steps"></a>後續步驟
-您可以使用 Power BI 執行各種作業。 如需詳細資訊和學習，包括說明如何註冊服務的文章，請參閱下列資源︰
 
 * [適用於美國政府的 Power BI 概觀](service-govus-overview.md)
-* [引導式學習 Power BI](guided-learning/index.yml)
-* [開始使用 Power BI 服務](service-get-started.md)
-* [Power BI Desktop 是什麼？](desktop-what-is-desktop.md)
-
+- [如何購買 Microsoft 365 政府版？](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/microsoft-365-government-how-to-buy#how-do-i-buy-microsoft-365-government)(機器翻譯)

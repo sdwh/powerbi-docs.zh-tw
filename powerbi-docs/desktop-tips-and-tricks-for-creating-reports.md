@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2020
+ms.date: 04/22/2020
 ms.author: davidi
-ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 95492b8561c37b52e77fbd8b16ce5e1e2ec4e4e1
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427246"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066211"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 中建立報表的秘訣和訣竅
 為了充分利用您的資料，有時您需要一些額外的協助。 我們集結了一些秘訣與技巧，可供您在 Microsoft Power BI Desktop 中，*以及*在啟用 Power Pivot 增益集與安裝並啟用 Power Query 的 Microsoft Excel 2016 或 Microsoft Excel 2013 Pro-Plus 版本中，用來建立報表。 
@@ -87,7 +87,7 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 
 定義支援筆刷繪製的長條圖 – 筆刷繪製是指將視覺效果連結在一起，以便使用者選取某個視覺效果中的資料點時，報表頁面上的其他視覺效果會醒目提示或篩選與所選資料點相關的資料點。 由於我們要在查詢期間操作資料，因此需要建立資料表之間的關聯性，並確保知道哪個詳細資料項目與長條圖中的值區相關，反之亦然。
 
-在具有您想要建立長條圖之欄位的查詢上，使用 [參考] 選項開始進行這個程序。 將新的查詢命名為 "Buckets"。 在本例中，我們將原始查詢稱為 "Details"。 接著移除所有資料行，只留下要做為長條圖值區使用的資料行。 現在，在查詢中使用 [移除重複項目] 功能，如此留在資料行中的值便是唯一的值；您可以選取資料行，然後在快顯功能表中找到這項功能。 如果您有十進位數字，您可以先使用定義值區的秘訣來建立長條圖，以取得一組可管理的值區。 現在，檢查查詢預覽中顯示的資料。 如果您看到空白值或 Null，則必須先修正這些問題，再建立關聯性。 請參閱＜資料包含 Null 或空白值時建立關聯性＞。 使用這個方法時，由於需要排序，因此可能會造成問題。 若要讓值區正確排序，請參閱＜排列順序：以我想要的順序來顯示類別＞。 
+在具有您想要建立長條圖之欄位的查詢上，使用 [參考] 選項開始進行這個程序。 將新的查詢命名為 "Buckets"。 在此範例中，我們將原始查詢稱為 "Details"。 接著移除所有資料行，只留下要做為長條圖值區使用的資料行。 現在，在查詢中使用 [移除重複項目] 功能，如此留在資料行中的值便是唯一的值；您可以選取資料行，然後在快顯功能表中找到這項功能。 您若是使用十進位數字，可以先應用定義貯體的祕訣來建立長條圖，以產生一組可以管理的貯體。 現在，檢查查詢預覽中顯示的資料。 若您發現空白值或 null，必須先修正這些問題，然後再建立關係。 請參閱＜資料包含 Null 或空白值時建立關聯性＞。 使用這個方法時，由於需要排序，因此可能會造成問題。 若要讓值區正確排序，請參閱＜排列順序：以我想要的順序來顯示類別＞。 
 
 >[!NOTE]
 >在建立任何視覺效果前先考慮排序次序會很有幫助。 
@@ -116,7 +116,7 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 > 
 > 
 
-當我們想要追蹤所有與特定 CustomerName 相關的事件和工作項目時，不能僅是建立這兩個資料集之間的關聯性。 有些 WorkItems 可能與 CustomerName 無關，因此該欄位會是空白或 NULL。 任何指定 CustomerName 的 WorkItems 和 CustomerIncidents 中可能會有多筆記錄。 
+當我們想要追蹤所有與特定 CustomerName 相關的事件與工作項目時，不能只是建立這兩個資料集之間的關係。 有些 WorkItems 可能與 CustomerName 無關，因此該欄位會是空白或 NULL。 任何指定 CustomerName 的 WorkItems 和 CustomerIncidents 中可能會有多筆記錄。 
 
 ### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-null-or-blank-values"></a>在 Power BI Desktop 中，於資料包含 Null 或空白值時建立關聯性
 資料集通常包含具有 Null 或空白值的資料行。 當您嘗試使用關聯性時，這會造成問題。 基本上有兩個選項可解決問題。 您可以移除具有 Null 或空白值的資料列。 您可以在查詢中使用 [篩選] 功能來執行這項操作，或者如果您想要合併查詢，請選取 [僅保留相符的資料列] 選項。 或者，您可以將 Null 或空白值取代成關聯性適用的值，通常是 "NULL" 和 "(Blank)" 等字串。 沒有絕對正確的方法；篩選出查詢階段的資料列會移除資料列，並可能會影響摘要統計資料和計算。 而第二種方法雖然可以保留資料列，但可能會使無關的資料列在模型中顯示為相關，而導致計算不正確。 如果您採用第二種解決方法，請確保適時在檢視/圖表中使用篩選條件，以確保取得精確的結果。 請務必評估保留/移除了哪些資料列，並了解分析的整體影響。 
@@ -144,14 +144,14 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 
 現在您會有一個維度資料表，可用來與 CustomerIncidents 和 WorkItems 建立關聯，其中包含這兩者的所有值。 
 
-## <a name="patterns-to-jump-start-your-use-of-the-query-editor"></a>用以開始使用查詢編輯器的模式
+## <a name="patterns-to-jump-start-your-use-of-the-query-editor"></a>可以協助您快速開始使用查詢編輯器的模式
 查詢編輯器的功能很強大，它可以操作資料使其成形，並加以整理，以供視覺化檢視或建立模型使用。 請注意以下幾個模式。
 
 ### <a name="temporary-columns-can-be-deleted-after-computing-a-result"></a>計算結果之後便可刪除暫存資料行
-通常您需要在 Power BI Desktop 中建立計算，以便將來自多個資料行的資料轉換成單一的新資料行。 這會相當複雜。 解決這個問題的一項簡單方法是將作業分成幾個步驟。 首先複製初始資料行。 再為步驟建立暫存資料行。 然後為最終結果建立資料行。 接著您可以刪除暫存資料行，以確保最終資料集有條不紊。 由於 [查詢] 索引標籤會依序執行步驟，因此可以這麼做。 
+通常您需要在 Power BI Desktop 中建立計算，以便將來自多個資料行的資料轉換成單一的新資料行。 這會相當複雜。 解決這個問題的一項簡單方法是將作業分成幾個步驟。 首先複製初始資料行。 接著建立暫存資料行， 再為最終結果建立資料行。 接著您可以刪除暫存資料行，以確保最終資料集有條不紊。 由於 [查詢] 索引標籤會依序執行步驟，因此可以這麼做。 
 
 ### <a name="duplicate-or-reference-queries-followed-by-merge-to-original-query"></a>複製或參考查詢，再合併到原始查詢
-有時候，計算資料集的摘要統計資料會很有幫助。 執行這項操作的簡單做法是在 [查詢] 索引標籤中複製或參考查詢。然後使用 [群組依據]  來計算摘要統計資料。 摘要統計資料可協助您標準化原始資料中的資料，以便更容易進行比較。 這特別適用於進行個別值與整體的比較。 若要執行這項操作，請移至原始查詢並選取 [合併] 選項。 然後合併符合適當識別項之摘要統計資料查詢中的資料。 現在您已準備好視分析所需來標準化資料。
+有時候，計算資料集的摘要統計資料會很有幫助。 執行這項操作的簡單做法是在 [查詢] 索引標籤中複製或參考查詢。然後使用 [群組依據]  來計算摘要統計資料。 摘要統計資料可協助您標準化原始資料中的資料，讓資料更容易進行比較。 這特別適用於進行個別值與整體的比較。 若要執行這項操作，請移至原始查詢並選取 [合併] 選項。 然後合併符合適當識別項之摘要統計資料查詢中的資料。 現在您已準備好視分析所需來標準化資料。
 
 ## <a name="using-dax-for-the-first-time"></a>第一次使用 DAX
 DAX 是 Power BI Desktop 的計算公式語言， 並已針對 BI 分析最佳化。 如果您只用過類似 SQL 的查詢語言，則這與您熟悉的語言稍有不同。 如需了解 DAX，網路上和文獻中均提供相當實用的資源。 
@@ -161,3 +161,64 @@ DAX 是 Power BI Desktop 的計算公式語言， 並已針對 BI 分析最佳�
 [資料分析運算式 (DAX) 參考](https://msdn.microsoft.com/library/gg413422.aspx)
 
 [DAX 資源中心](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+
+## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 服務和  Power BI Desktop
+
+### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>閱讀並/或觀賞「如何在 Power BI 中設計令人驚豔的報表 (和儀表板)」
+社群成員 Miguel Myers 是資料科學家暨圖形設計人員。
+
+![Power BI 報表](media/desktop-tips-and-tricks-for-creating-reports/power-bi-reports.png)
+
+* [閱讀部落格](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
+* [觀賞網路研討會](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
+
+### <a name="consider-your-audience"></a>請考慮您的對象
+什麼關鍵度量能幫助他們做出決策？ 報表使用的方式為何？ 哪些已了解的或文化特性的假設可能會影響設計選擇？ 哪些資訊是您的對象邁向成功所需？
+
+報表在何處顯示？ 如果儀表板位於大型監視器上，您可以在上面放置更多的內容。 如果讀者會在平板電腦上檢視報表，則較少的視覺效果可提高可讀性。
+
+### <a name="tell-a-story-and-keep-it-to-one-screen"></a>說個故事並保存到一個畫面
+每個報表頁面都應該簡單清楚地呈現故事。 是否可以避免頁面上出現卷軸？ 報表是否太雜亂無章或太複雜？  移除必要資訊以外的所有內容，可以更加輕鬆地讀取和解譯。
+
+### <a name="make-the-most-important-information-biggest"></a>將最重要的資訊大小調整為最大
+如果報表頁面上的文字和視覺效果大小都一樣，則讀者會很難專注於最重要的內容。 例如，卡片視覺效果是凸顯重要數字的好方法：  
+![卡片視覺效果](media/service-dashboards-design-tips/pbi_card.png)
+
+### <a name="but-be-sure-to-provide-context"></a>但請務必提供內容脈絡  
+
+使用文字方塊和工具提示等功能，將內容脈絡加入您的視覺效果。
+
+### <a name="put-the-most-important-information-in-the-upper-corner"></a>將最重要的資訊放在左上角
+大部分的人從上往下讀取，所以將最高層級的詳細資料放置在頂端，並且當您順著對象閱讀的方向移動時，會顯示更多的詳細資料 (由左到右、由右到左)。
+
+### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>為資料使用正確的視覺效果，並將其格式化以方便閱讀
+請不要只是為了不同而讓視覺效果不同。  視覺效果應該要能繪製圖片，且應該要很容易「閱讀」及解譯。  對某些資料和視覺效果而言，簡單的圖形視覺效果已經綽綽有餘。 但是其他資料可能需要更複雜的視覺效果 - 請務必使用標題和標籤，以及使用其他自訂項目，以協助讀者。  
+
+* 請謹慎使用會導致事實失真的圖表，例如 3D 圖表與不是從零開始的圖表。 請記住，圓形的圖形會較難理解。 圓形圖、環圈圖、量測計和其他圓形的圖表類型可能很好看，但是否有可以使用的其他圖表？    
+* 軸的圖表刻度、圖表維度次序，以及在圖表內維度值所用的色彩務必保持一致。    
+* 請務必小心地編碼量化資料。 顯示數字時，不要超過三或四個數字。 量值應在小數點、千位數、百萬等左邊顯示為一或兩個數字，亦即可以將量值顯示為 3.4 百萬，而不要顯示為 3,400,000。    
+* 避免混用精確度和時間的層級。 請確定時間框架可讓人充分了解。  不要讓上個月的圖表緊鄰從該年度指定月份篩選出的圖表。    
+* 此外，也請避免在同一個刻度尺上混合大量值和小量值，例如在折線圖或橫條圖上。  例如，一個量值可能數以百萬計，而其他量值以千為單位。  如果刻度太大，會很難看到以千為單位之量值的差異。  如果您需要混合，請選擇可使用第二個軸的視覺效果，例如組合圖。    
+* 避免使用不必要的資料標籤，而造成圖表雜亂無章。 橫條圖中的值 (***如果夠大***) 通常很容易理解，而不用顯示實際值。   
+* 請注意[圖表如何排序](consumer/end-user-change-sort.md)。 如果您想要強調最高或最低數字，請依量值排序。 如果您想要在許多其他類別目錄內，能夠快速尋找特定分類，請依軸排序。  
+* 圓形圖最適合具有少於八個類別目錄的量值。 因為您無法以並排方式比較值，所以在圓形圖中比較值，會比在橫條圖和直條圖中比較值更困難。 圓形圖適於檢視部分與整體的關聯性，而不是用於部分比較。 量表圖非常適合用來在目標內容中顯示目前狀態。    
+
+如需更多特定視覺效果的指引，請參閱[ Power BI 中的視覺效果類型](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
+
+### <a name="learn-more-about-best-practice-dashboard-design"></a>深入了解儀表板設計的最佳做法
+幾本我們最喜愛的書籍包括：
+
+* *Storytelling with Data*，Cole Nussbaumer Knafic 著
+* *Data points*，Nathan Yau 著
+* *The truthful Art*，Alberto Cairo 著
+* *Now You See It* ，作者：Stephen Few  
+* *Envisioning Information* ，作者：Edward Tufte  
+* *Advanced Presentations Design*，Andrew Abela 著   
+
+## <a name="next-steps"></a>後續步驟
+* [Power BI 服務中的設計工具基本概念](service-basic-concepts.md)
+* [Power BI 中的報表](consumer/end-user-reports.md)
+
+有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
+
+

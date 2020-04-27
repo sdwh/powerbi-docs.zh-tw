@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576830"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637857"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中建立矩陣視覺效果
 
@@ -57,7 +57,8 @@ ms.locfileid: "77576830"
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-
+> [!NOTE]
+> 如果您要在 Analysis Services 多維度模型上建立報表，當該模型使用「預設成員」功能時，有幾個針對展開/摺疊的特殊考量。 如需詳細資訊，請參閱[使用 Power BI 中的多維度模型](../desktop-default-member-multidimensional-models.md)
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>使用矩陣視覺效果的向下切入
 透過矩陣視覺效果，您可以執行各式各樣有趣的向下切入活動，是之前還沒有的。 這包括使用資料列、資料行，甚至是個別區段和資料格向下切入的功能。 讓我們來看看上述每項的運作方式。

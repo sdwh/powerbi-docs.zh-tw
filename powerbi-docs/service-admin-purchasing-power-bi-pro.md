@@ -6,33 +6,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: eefae2b230bf087635b79ed4645a9297b7194edd
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 410058cad59fdf134b54b45754ef06c0d382c4ef
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79525629"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439932"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>購買及指派 Power BI Pro 使用者授權
 
 >[!IMPORTANT]
->您是否為已準備好升級至 Power BI Pro 授權的使用者？ 直接前往[開始使用 Power BI Pro](https://go.microsoft.com/fwlink/?LinkId=2106428&clcid=0x409&cmpid=pbidocs-purchasing-power-bi-pro) 以設定您的帳戶。
+>此文章適用於管理員。 您是否為已準備好升級至 Power BI Pro 授權的使用者？ 直接前往[開始使用 Power BI Pro](https://go.microsoft.com/fwlink/?LinkId=2106428&clcid=0x409&cmpid=pbidocs-purchasing-power-bi-pro) 以設定您的帳戶。
 
-Power BI Pro 是一種個別使用者授權，可讓使用者讀取其他使用者在 Power BI 服務中發佈的報表與儀表板，以及與它們互動。 擁有此授權類型的使用者可以與其他 Power BI Pro 使用者共用內容和共同作業。 只有 Power BI Pro 使用者才能發佈或和其他使用者共用內容，或取用由其他使用者建立的內容，除非是由 Power BI Premium 容量裝載該內容。 如需詳細資訊，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing/)的「Power BI 功能比較」  一節。
+Power BI Pro 是一種個別使用者授權，可讓使用者讀取其他使用者在 Power BI 服務中發佈的報表與儀表板，以及與它們互動。 擁有此授權類型的使用者可以與其他 Power BI Pro 使用者共用內容和共同作業。 只有 Power BI Pro 使用者才能發佈或和其他使用者共用內容，或取用由其他使用者建立的內容，除非是由 Power BI Premium 容量裝載該內容。 如需有關可用之授權與訂用帳戶類型的詳細資訊，請參閱[組織中的 Power BI 授權](service-admin-licensing-organization.md)。
 
 ## <a name="purchase-power-bi-pro-user-licenses"></a>購買 Power BI Pro 使用者授權
 
 此文章說明如何在 Microsoft 365 系統管理中心內購買 Power BI Pro 使用者授權。 購買授權之後，您可以在 Microsoft 365 系統管理中心或 Azure 入口網站中將其指派給使用者。
 
 > [!NOTE]
-> 自 2020 年 1 月 14 日起，商業雲端客戶可使用 Power Platform 產品 (Power BI、Power Apps 和 Power Automate) 的自助式購買、訂閱和授權管理功能。 如需詳細資訊 (包括在您的組織中啟用或停用自助式購買的步驟)，請參閱[自助購買常見問題](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq)。
+> 自 2020 年 1 月 14 日起，商業雲端客戶可使用 Power Platform 產品 (Power BI、Power Apps 和 Power Automate) 的自助式購買、訂閱和授權管理功能。 如需詳細資訊，請參閱[自助式購買常見問題集](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) \(部分機器翻譯\)。 若要啟用或停用自助式購買功能，請參閱[啟用或停用自助式註冊與購買](admin/service-admin-disable-self-service.md)。
 
 ### <a name="prerequisites"></a>必要條件
 
-若要在 Microsoft 365 系統管理中心內購買和指派授權，您必須是 Microsoft 365 中 **[全域管理員或計費管理員](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)** 角色的成員。
+若要在 Microsoft 365 系統管理中心內購買和指派授權，您必須是 Microsoft 365 中[全域管理員或計費管理員](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)角色的成員。
 
 若要在 Azure 入口網站中指派授權，您必須是 Power BI 針對 Azure Active Directory 查閱所使用 Azure 訂用帳戶的擁有者。
 
@@ -80,10 +80,10 @@ Power BI Pro 是一種個別使用者授權，可讓使用者讀取其他使用�
 
 ## <a name="next-steps"></a>後續步驟
 
-您現在已經指派授權，接著可以深入了解 Power BI Pro。
+- [組織中的 Power BI 授權](service-admin-licensing-organization.md)
 
-[組織中的 Power BI 授權](service-admin-licensing-organization.md)
+ - [尋找已登入的 Power BI 使用者](service-admin-access-usage.md)
 
-[尋找已登入的 Power BI 使用者](service-admin-access-usage.md)
+ - [以個人身分註冊 Power BI](service-self-service-signup-for-power-bi.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

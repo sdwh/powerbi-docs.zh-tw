@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 278aa4c28db97c348e683b759e8a7f9415f19c3e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 1312e56edfb17c57334af263b9f38c3dd97c1894
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79206830"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525414"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>從 Power BI Desktop 連線到 Power BI 服務中的資料集
 
@@ -91,7 +91,7 @@ Anna 可以從該處選擇報表和資料集要發佈的工作區目的地。 �
 
 如果您尚未登入，Power BI 會提示您登入。 登入之後，Power BI 會顯示您所隸屬的工作區。 您可以選取哪個工作區包含您要建立 Power BI 服務即時連線所在的資料集。
 
-清單中資料集是您在任何工作區中具備「建置」權限的所有共用資料集。 您可以搜尋特定資料集並查看其名稱、擁有者、所在的工作區，以及最後重新整理的時間。 您也會在清單頂端看到資料集的「保證」  ，認證或宣傳。
+清單中資料集是您在任何工作區中具備「建置」權限的所有共用資料集。 您可以搜尋特定資料集並查看其名稱、擁有者、所在的工作區，以及最後重新整理的時間。 在清單的頂端，也會為經過認證或升階的資料集顯示**簽署**。
 
 ![可用資料集的清單](media/desktop-report-lifecycle-datasets/desktop-select-shared-dataset.png)
 

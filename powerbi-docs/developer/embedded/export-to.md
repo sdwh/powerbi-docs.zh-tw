@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267495"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525460"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>將 Power BI 報表匯出至檔案 (預覽)
 
@@ -106,6 +106,7 @@ ms.locfileid: "81267495"
 * 具有敏感度標籤的報表無法使用[服務主體](embed-service-principal.md)匯出為 .pdf 或 .pptx。
 * 匯出報表中可以包含的頁數為 30。 如果報表包含更多頁面，則 API 會傳回錯誤並取消匯出作業。
 * 不支援[個人書籤](../../consumer/end-user-bookmarks.md#personal-bookmarks)與[永續性篩選](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) \(英文\)。
+* 主權雲端不予支援。
 * 不支援下面所列的 Power BI 視覺效果。 匯出包含這些視覺效果的報表時，包含這些視覺效果的報表部分將不會轉譯，而且會顯示錯誤符號。
     * 未經認證的 Power BI 視覺效果
     * R 視覺效果

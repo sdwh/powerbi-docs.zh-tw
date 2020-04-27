@@ -1,158 +1,106 @@
 ---
 title: 組織中的 Power BI 授權
-description: 了解 Power BI 提供的不同授權類型：免費授權、Power BI Pro 和 Power BI Premium。
+description: 概述 Power BI 中可用的各種不同授權類型，以及管理員如何為其組織購買和管理授權。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 7a2cc9a1deb87e94c0887b1ae00174d6791cf712
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a41e9453158c38a208fe7f4ac937b4e86a515f4b
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74700019"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81436314"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>組織中的 Power BI 授權
 
-[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
+使用者能夠在 Power BI 服務中執行的動作取決於他們所具備的個別使用者授權，以及他們所操作的內容是否位於指派給 Power BI Premium 容量的工作區中。 Power BI 服務的所有使用者都必須具備授權。
 
-本文著重於從系統管理員觀點的每位使用者授權。
+使用者可透過兩種方式取得授權。 使用者可以使用自助式註冊功能及其工作或學校帳戶，來取得自己的免費或 Pro 授權。 或是管理員可以取得 Power BI 訂用帳戶，然後將授權指派給使用者。
 
-## <a name="manage-power-bi-pro-licenses"></a>管理 Power BI Pro 授權
+此文章著重於從管理員觀點購買服務和個別使用者授權。 如需有關使用者如何取得自己授權的詳細資訊，請參閱[以個人身分註冊 Power BI](service-self-service-signup-for-power-bi.md)。
 
-身為系統管理員，您可以購買和指派 Power BI Pro 授權，也可以為您的組織註冊 Power BI Pro 試用版。 個人也可以註冊 Power BI Pro 試用版。
+## <a name="who-can-purchase-and-assign-licenses"></a>誰可以購買及指派授權？
 
-### <a name="purchase-power-bi-pro-licenses"></a>購買 Power BI Pro 授權
+您必須獲指派管理員角色，才能為您的組織購買或指派授權。 指派管理員角色時，會使用 Azure Active Directory 管理中心或 Microsoft 365 系統管理中心來指派。 下表顯示執行購買和授權相關工作所需的角色。 如需有關 Azure Active Directory 中管理員角色的詳細資訊，請參閱[在 Azure Active Directory 中檢視和指派管理員角色](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal) \(部分機器翻譯\)。 若要深入了解 Microsoft 365 中的系統管理員角色 (包括最佳做法)，請參閱[關於系統管理員角色](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)。
 
-身為系統管理員，您會透過 Microsoft Office 365 或認證的 Microsoft 合作夥伴來購買 Power BI Pro 授權。 購買授權之後，請將它們指派給個別使用者。 如需詳細資訊，請參閱[購買及指派 Power BI Pro 授權](service-admin-purchasing-power-bi-pro.md)。
+| 誰可以購買服務和授權？ | 誰可以管理使用者授權？ |
+| --------------- | --------------- |
+| 計費管理員 | 授權管理員 |
+| 全域管理員 | 使用者管理員 |
+|  | 全域管理員 |
+
+這些角色可管理組織。 如需有關 Power BI 服務管理員角色的資訊，請參閱[了解 Power BI 服務管理員角色](service-admin-role.md)。
+
+## <a name="get-power-bi-for-your-organization"></a>為您的組織取得 Power BI
+
+全域管理員或計費管理員可以註冊 Power BI 服務，並為其組織中的使用者購買授權。 如果您尚未做好購買準備，請選取 Power BI Pro 試用版。 您將獲得 25 個可使用一個月的授權。 如需有關如何註冊的逐步指示，請參閱[為組織取得 Power BI 訂用帳戶](admin/service-admin-org-subscription.md)。
+
+## <a name="about-self-service-sign-up"></a>關於自助式註冊
+
+個別使用者可以使用其工作或學校帳戶來進行註冊，以取得自己的 Power BI 授權。 使用免費授權時，使用者可以使用 [我的工作區] 來探索 Power BI 以檢視個人資料分析和視覺效果，但無法起始與其他使用者的共同作業。 必要具備 Power BI Pro 授權，才能共用內容。 如果組織使用商務雲端，則使用者可將其授權類型升級至 Pro 或直接註冊 Pro。 直接購買或升級至 Pro 並不適用於教育組織，或部署至政府或主權雲端執行個體的組織。
+
+如果您不想讓組織中的使用者使用自助式註冊，請參閱[啟用或停用自助式註冊](admin/service-admin-disable-self-service.md)，以了解如何關閉此功能。
+
+如果您想要查看組織中哪些使用者可能已經具備授權，請參閱[檢視和管理使用者授權](admin/service-admin-manage-licenses.md)以了解做法。
+
+## <a name="license-types-and-capabilities"></a>授權類型與功能
+
+Power BI 個別使用者授權有兩種：免費和 Pro。 使用者需要哪種類型的授權，取決於內容的儲存位置及他們將與該內容互動的方式。 內容可儲存在哪裡，取決於您組織的[訂用帳戶類型](#subscription-types)。
+
+其中一種訂用帳戶類型 [Power BI Premium](service-admin-premium-purchase.md) 可讓具備免費授權的使用者操作已指派給 Premium 容量之工作區中的內容。 在 Premium 容量之外，具備免費授權的使用者則只能使用 Power BI 服務來連線到資料，然後在個人工作區中建立報表和儀表板。 他們無法與其他人共用內容，或將內容發佈至應用程式工作區。
+
+標準 Power BI 訂用帳戶會使用共用容量。 當內容儲存在共用容量中時，獲指派 Power BI Pro 授權的使用者只能與其他 Power BI Pro 使用者共同作業。 他們可以取用其他使用者所共用的內容、將內容發佈到應用程式工作區、共用儀表板，以及訂閱儀表板和報表。  當工作區在 Premium 容量中時，Pro 使用者可將內容散發給沒有 Power BI Pro 授權的使用者。
+
+下表摘要說明每個授權類型的基本功能。 如需每一授權類型的詳細功能可用性明細，請參閱[依授權類型排列的功能](service-features-license-type.md)。
+
+| 授權類型 | 工作區在共用容量中時的功能 | 工作區在 Premium 容量中時的額外功能 |
+| --------- | ----------- | ----------- |
+| Power BI (免費) | 存取我的工作區中的內容 | 取用與其共用的內容 |
+| Power BI Pro | 將內容發佈到應用程式工作區、共用儀表板、訂閱儀表板和報表、與具備 Pro 授權的使用者共用 | 將內容散發給具備免費授權的使用者 |
+
+## <a name="subscription-types"></a>訂用帳戶類型
+
+所有來自 Microsoft 的使用者型商業授權訂用帳戶都是以 Azure Active Directory 身分識別為基礎。 這意謂著您必須使用 Azure Active Directory 支援的商業授權身分識別來進行登入。 您可以將 Power BI 訂用帳戶新增至任何使用 Azure Active Directory 作為身分識別服務的 Microsoft 訂用帳戶。 某些訂用帳戶 (例如 Office 365 E5) 包含 Power BI Pro 授權，因此無須個別註冊 Power BI。
+
+有兩種適用於組織的 Power BI 訂用帳戶：自助 BI 搭配的是 Power BI Pro，進階分析則搭配 Power BI Premium。
+
+使用標準自助 Power BI Pro 訂用帳戶時，管理員可以指派個別使用者授權。 Power BI Pro 授權有個別使用者月費，可啟用共同作業、發佈、共用及臨機操作分析。 內容會儲存到完全由 Microsoft 管理的共用儲存體容量。
+
+Power BI Premium 訂用帳戶會為組織配置專用容量。 Premium 適用於企業 BI、巨量資料分析及雲端與內部部署報告，可提供進階的管理和部署控制。 專用計算與儲存體資源是由您組織中的容量管理員所管理。 此專用環境有每月費用。 除了其他 Premium 優點之外，儲存在 Premium 容量中的內容還可供沒有 Power BI Pro 授權的使用者存取，以及散發給這些使用者。 必須至少有一位使用者獲指派 Power BI Pro 授權，才能使用 Premium，而內容建立者與開發人員則仍然需要 Power BI Pro 授權。
+
+這兩種訂用帳戶類型並不互斥。 您可以同時具備 Power BI Premium 和 Power BI Pro。 在此組態中，儲存在 Premium 容量中的內容可以與所有使用者共用，且共用容量也可供使用。 如需有關容量限制的資訊，請參閱[管理 Power BI 工作區中的資料儲存體](service-admin-manage-your-data-storage-in-power-bi.md)。
+
+若要比較產品功能與定價，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing)。
+
+## <a name="guest-user-access"></a>來賓使用者存取權
+
+您可能會想要將內容散發給組織外的使用者。 您可以透過邀請外部使用者以來賓身分檢視內容，與他們共用內容。 透過 Azure Active Directory 企業對企業 (Azure AD B2B) 可與外部來賓使用者進行共用。 若要與外部使用者共用，必須符合下列先決條件：
+
+- 必須啟用與外部使用者共用內容的功能
+
+- 來賓使用者必須具備可檢視共用內容的適當授權
+
+如需有關來賓使用者存取權的詳細資訊，請參閱[使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者](service-admin-azure-ad-b2b.md)。
+
+## <a name="purchase-power-bi-pro-licenses"></a>購買 Power BI Pro 授權
+
+身為管理員，您可以透過 Microsoft Office 365 或 Microsoft 合作夥伴購買 Power BI Pro 授權。 購買授權之後，您可以將它們指派給個別使用者。 如需詳細資訊，請參閱[購買及指派 Power BI Pro 授權](service-admin-purchasing-power-bi-pro.md)。
 
 ### <a name="power-bi-pro-license-expiration"></a>Power BI Pro 授權到期
 
-在 Power BI Pro 授權到期後有寬限期。 若是屬於大量授權購買的授權，寬限期為 90 天。 如果您直接購買授權，則寬限期會是 30 天。
+在 Power BI Pro 授權到期後有一段寬限期。 若是屬於大量授權購買的授權，寬限期為 90 天。 如果您直接購買授權，則寬限期為 30 天。
 
 Power BI Pro 具有與 Office 365 相同的訂用帳戶生命週期。 如需詳細資訊，請參閱[當商務用 Office 365 訂閱結束時，我的資料與存取權會發生什麼情況？](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3) \(部分機器翻譯\)。
 
-### <a name="power-bi-pro-trial-for-individuals"></a>Power BI Pro 個人試用版
-
-在您組織中的個人可以註冊 Power BI Pro 試用。 如需詳細資訊，請參閱[以個人身分註冊 Power BI](service-self-service-signup-for-power-bi.md)。
-
-利用產品中 Power BI Pro 試用版的個人使用者，不會在 Microsoft 365 系統管理中心顯示為 Power BI Pro 試用版使用者 (其會顯示為 Power BI 免費版使用者)。 不過在 Power BI [管理儲存體] 頁面中會顯示為 Power BI Pro 試用版使用者。
-
-### <a name="power-bi-pro-trial-for-organizations"></a>Power BI Pro 組織試用版
-
-如果想要取得並部署 Power BI 試用版授權至組織中的多個使用者，而不需要讓個別使用者個別接受試用版條款，請註冊 Power BI Pro 組織試用版。
-
-遵循註冊步驟之前，請記住下列事項：
-
-* 若要註冊，您必須是 Microsoft 365 中[**全域管理員**或**計費管理員**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)角色的成員。
-
-* 每個租用戶只限使用一個組織試用版。 這表示，如果有人已將 Power BI Pro 試用版套用至您的租用戶，您就無法再次套用。 如果您需要這方面的協助，請連絡 [Office 365 帳單支援](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671)。
-
-1. 巡覽至 [MIcrosoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)。
-
-1. 在導覽窗格中，依序選取 [帳單]  、[訂閱]  。
-
-   ![帳單及訂閱](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-05.png)
-
-1. 在右邊，選取 [新增訂閱]  。
-
-   ![新增訂用帳戶](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-06.png)
-
-1. 在 [其他方案]  下，將滑鼠停留在 Power BI Pro 的省略符號 ( **. . .** )，然後選取 [開始免費試用]  。
-
-   ![開始免費試用](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-07.png) 
-
-1. 在 [訂單確認] 畫面上，選取 [立即試用]  。
-
-1. 在 [訂單收據] 上，選取 [繼續]  。
-
-現在您可以[在 Office 365 中指派授權](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)。
-
-## <a name="manage-power-bi-free-licenses"></a>管理 Power BI 免費授權
-
-組織中的使用者可以使用兩種不同方式存取 Power BI 免費授權：
-
-* 您可以在 Microsoft 365 系統管理中心內，為他們指派 Power BI 授權。
-
-* 如果使用者[註冊 Power BI Pro 帳戶](service-self-service-signup-for-power-bi.md)，即會獲指派免費授權。
-
-### <a name="requesting-and-assigning-free-licenses"></a>要求及指派免費授權
-
-如果您打算集中管理授權要求和指派，請先檢查是否已擁有租用戶的無限制 Power BI (免費) 授權區塊。
-
-在首次有人以個人身分註冊 Power BI 之後，便可使用此區塊的授權。 在此過程中，這個授權區塊會附加到您的組織，並將授權指派給註冊的使用者。
-
-1. 在 Microsoft 365 系統管理中心的 [帳單]   > [授權]  底下，檢查是否為**無限制**。
-
-    ![無限制的免費授權區塊](media/service-admin-licensing-organization/unlimited-licenses.png)
-
-1. 如果有可用的區塊，您現在可以[在 Office 365 中指派授權](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)。 如果沒有可用的區塊，您會有兩個選擇：
-
-    * 讓組織的成員以個人身分註冊，這樣會觸發無限制區塊的建立。
-
-    * 移至下一個程序，您可以在該處註冊固定數目的授權。
-
-如果無法使用無限制的 Power BI (免費) 授權區塊，而且您不想要進行個人註冊，請遵循此程序。
-
-1. 巡覽至 [MIcrosoft 365 系統管理中心](https://portal.office.com/admin/default.aspx)。
-
-1. 在導覽窗格中，依序選取 [帳單]   > [訂閱]  。
-
-1. 在右邊，選取 [新增訂閱 +]  。
-
-1. 在 [其他方案]  下，將滑鼠停留在 Power BI (免費) 的省略符號 ( **. . .** )，然後選取 [立即購買]  。
-
-    ![立即購買 - Power BI (免費)](media/service-admin-licensing-organization/buy-powerbi-free.png)
-
-1. 輸入您想要新增的授權數量，然後選取 [立即結帳]  或 [新增至購物車]  。
-
-1. 在結帳流程中，輸入所需的資訊。
-
-    使用這種方法時，不會購買任何產品，但是您必須輸入信用卡帳單資訊，或選擇開立發票。
-
-1. 現在您可以[在 Office 365 中指派授權](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)。
-
-1. 如果您稍後決定您想要新增更多授權，您可以移回至 \[新增訂閱]  ，然後對 Power BI \(免費) 選取 \[Change license quantity]  \(變更授權數量)。
-
-    ![變更授權數量](media/service-admin-licensing-organization/change-license-quantity.png)
-
-### <a name="enable-or-disable-individual-user-sign-up-in-azure-active-directory"></a>在 Azure Active Directory 中啟用或停用個人使用者註冊
-
-身為系統管理員，您可以選擇透過 Azure Active Directory (AAD) 啟用或停用個人使用者註冊。 文章的本節會示範如何使用 PowerShell 命令管理註冊。 如需 Azure PowerShell 的詳細資訊，請參閱 [Azure PowerShell 概觀](/powershell/azure/overview)。
-
-控制註冊的 Azure Active Directory 設定為 **AllowAdHocSubscriptions**。 在大多數的租用戶，此會設定為 *true*，表示已啟用此設定。 如果您透過合作夥伴取得 Power BI，這可能設為 *false*，表示已停用此設定。 如果您將設定從 *true* 變更為 *false*，則組織中的新使用者會遭到封鎖，無法以個人身分註冊。 在設定變更前已註冊 Power BI 的使用者，會保留其授權。 請注意，設定為 *false* 時，Power BI (免費) 授權的使用者仍可註冊個人 Power BI Pro 試用版。
-
-1. 使用 Microsoft 365 認證登入 Azure Active Directory。 下列 PowerShell 指令碼的第一行會提示您輸入您的認證。 第二行連接到 Azure Active Directory。
-
-    ```powershell
-     $msolcred = get-credential
-     connect-msolservice -credential $msolcred
-    ```
-
-   ![Azure Active Directory 登入](media/service-admin-licensing-organization/azure-ad-sign-in.png)
-
-1. 當您登入之後，請執行下列命令，查看租用戶目前的設定情形。 (請注意，下面的 'fl' 使用字母 'l'，不是數字 1。)
-
-    ```powershell
-     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 
-    ```
-1. 請執行下列命令啟用 ($true) 或停用 ($false) **AllowAdHocSubscriptions**。
-
-    ```powershell
-     Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-    ```
-
-> [!NOTE]
-> AllowAdHocSubscriptions 旗標可用以控制貴組織的數個使用者功能，包括使用者註冊 Azure Rights Management Service 的能力。 變更此旗標會影響所有這些功能。
 
 ## <a name="next-steps"></a>後續步驟
 
-[Power BI 的自助式註冊](service-self-service-signup-for-power-bi.md)  
-
-[購買及指派 Power BI Pro 授權](service-admin-purchasing-power-bi-pro.md)
-
-有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- [購買及指派 Power BI Pro 授權](service-admin-purchasing-power-bi-pro.md)
+- [Microsoft 365 商務訂閱與計費文件](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide)
+- [尋找已登入的 Power BI 使用者](service-admin-access-usage.md)
+- 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

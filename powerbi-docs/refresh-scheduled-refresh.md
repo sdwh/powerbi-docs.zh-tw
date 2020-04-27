@@ -1,20 +1,20 @@
 ---
 title: 設定排程的重新整理
 description: 這包含選取閘道並設定排定的重新整理步驟。
-author: maggiesMSFT
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.author: maggies
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: cc0527d093118fdb585800d0038f824223098119
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74958394"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675682"
 ---
 # <a name="configure-scheduled-refresh"></a>設定排程的重新整理
 
@@ -32,17 +32,17 @@ ms.locfileid: "74958394"
 
 ## <a name="gateway-connection"></a>閘道連線
 
-根據線上可使用的個人或企業閘道，您可在此處看到不同選項。
+依據您是否有個人或企業閘道在線上且可供使用而定，您會在此處看到不同選項。
 
-如果沒有可用的閘道，您會看到 [閘道連線]  為停用。 您也會看到一則訊息說明如何安裝個人閘道。
+如果沒有可用的閘道，您就會看到 [閘道連線]  為停用。 您也會看到一則指出如何安裝個人閘道的訊息。
 
 ![閘道未設定](media/refresh-scheduled-refresh/gateway-not-configured.png)
 
-如果您已設定個人閘道，且該閘道為上線狀態，即可供選取。 如果無法使用，它會顯示為離線。
+如果您已設定個人閘道且閘道在線上，該閘道便可供選取。 如果無法使用，則會顯示為離線。
 
 ![閘道連線](media/refresh-scheduled-refresh/gateway-connection.png)
 
-如果適用的話，您也可以選取企業閘道。 如果針對指定閘道所設定資料來源 [使用者]  索引標籤中列出您的帳戶，就只會顯示企業閘道。
+如果適用的話，您也可以選取企業閘道。 如果在針對指定閘道設定之資料來源的 [使用者]  索引標籤中列出您的帳戶，您就只會看到企業閘道。
 
 ## <a name="data-source-credentials"></a>資料來源認證
 
@@ -52,12 +52,12 @@ ms.locfileid: "74958394"
 
 ![資料來源認證](media/refresh-scheduled-refresh/data-source-credentials-pgw.png)
 
-只有第一次在該資料集上進行重新整理時，才需要登入資料來源。 進入之後，這些認證會隨資料集保留。
+您只有在第一次對該資料集使用重新整理時，才需要登入資料來源。 進入之後，這些認證會隨資料集保留。
 
 > [!NOTE]
-> 對於某些驗證方法，如果您用以登入資料來源的密碼過期或已變更，就必須同時對 [資料來源認證]  中的資料來源加以變更。
+> 就某些驗證方法而言，如果您用來登入資料來源的密碼到期或已變更，您就必須也在 [資料來源認證]  中為資料來源變更密碼。
 
-如果發生錯誤，問題通常起因於閘道無法登入 Windows 啟動服務而處於離線，或 Power BI 無法登入資料來源以查詢更新的資料。 如果重新整理失敗，請檢查資料集的設定。 如果閘道服務離線，您可以在 [狀態]  查看錯誤。 如果 Power BI 無法登入資料來源，您可以在 [資料來源認證] 查看錯誤。
+如果發生錯誤，問題通常起因於閘道無法登入 Windows 並啟動服務而導致離線，或 Power BI 無法登入資料來源以查詢已更新的資料。 如果重新整理失敗，請檢查資料集設定。 如果閘道服務離線，您可以在 [狀態]  查看錯誤。 如果 Power BI 無法登入資料來源，您可以在 [資料來源認證] 查看錯誤。
 
 ### <a name="on-premises-data-gateway"></a>內部部署的資料閘道
 
@@ -82,7 +82,11 @@ ms.locfileid: "74958394"
 > [!NOTE]
 > 閒置兩個月之後，就會暫停資料集重新整理排程。 當沒有使用者瀏覽以資料集建置的任何儀表板或報表時，資料集會視為非使用中。 屆時，資料集擁有者會收到電子郵件，指出暫停已排程的重新整理。 然後，該資料集的重新整理排程會顯示為 [停用]  。 若要繼續已排程的重新整理，只需重新瀏覽以該資料集建置的任何儀表板或報表即可。
 
-## <a name="whats-supported"></a>支援的項目有哪些？
+## <a name="whats-supported"></a>支援的項目？
+
+
+> [!NOTE]
+> 已排定的重新整理在連續四次錯誤之後也會自動停用。
 
 針對不同的閘道，有些特定資料集可支援排定的重新整理。 下列參考可讓您了解哪些項目適用。
 
@@ -90,8 +94,8 @@ ms.locfileid: "74958394"
 
 **Power BI Desktop**
 
-* Power BI Desktop 的 [取得資料]  和查詢編輯器都會顯示所有線上資料來源。
-* Power BI Desktop 的 [取得資料]  和查詢編輯器都會顯示所有內部部署資料來源，但 Hadoop 檔案 (HDFS) 與 Microsoft Exchange 除外。
+* Power BI Desktop 的 [取得資料]  和 [查詢編輯器] 中顯示的所有線上資料來源。
+* Power BI Desktop 的 [取得資料]  和 [查詢編輯器] 中顯示的所有內部部署資料來源，但 Hadoop 檔案 (HDFS) 與 Microsoft Exchange 除外。
 
 **Excel**
 
