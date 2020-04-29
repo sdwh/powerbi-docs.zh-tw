@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 27ebe50030fbd06f65be5530ee2a2c0a7897f0f5
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 40bbec8a6a28def6cde9128b51c8919fd4f493de
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488721"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120336"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 中組織新工作區中的工作
 
@@ -60,30 +60,7 @@ Power BI 管理入口網站中[提供工作區清單](service-admin-portal.md#wo
 
 當您將角色指派給使用者群組時，群組中的個人可以存取內容。 如果巢狀處理使用者群組，則所有包含的使用者都具有權限。
 
-以下是四種角色的功能：系統管理員、成員、參與者和檢視者。 除了檢視和互動功能以外，所有這些功能都需要 Power BI Pro 授權。
-
-|功能   | 系統管理員  | 成員  | 參與者  | 檢視者 |
-|---|---|---|---|---|
-| 更新和刪除工作區。  | X  |   |   |   | 
-| 新增/移除人員，包括其他系統管理員。  | X  |   |   |   |
-| 新增具有較低權限的成員或其他人。  |  X | X  |   |   |
-| 發佈和更新應用程式。 |  X | X  |   |   |
-| 共用項目或共用應用程式。<sup>1</sup> |  X | X  |   |   |
-| 允許其他人再次共用項目。<sup>1</sup> |  X | X  |   |   |
-| 在同事的首頁上精選應用程式 |  X | X  |   |   |
-| 在同事的首頁上精選儀表板和報表 |  X | X  | X |   |
-| 建立、編輯和刪除工作區中的內容。  |  X | X  | X  |   |
-| 將報表發佈至工作區、刪除內容。  |  X | X  | X  |   |
-| 根據此工作區中的資料集，在另一個工作區中建立報表。<sup>1</sup> |  X | X  | X  |   |
-| 複製報表。<sup>2</sup> | X | X | X |  |
-| 檢視項目並與其互動。<sup>3</sup> |  X | X  | X  | X  |
-| 讀取儲存在工作區資料流程中的資料 | X | X | X | X |
-
-1. 如果參與者和檢視者都有再次共用權限，即可在工作區中共用項目。
-2. 若要複製報表，並根據此工作區中的資料集在另一個工作區中建立報表，則必須符合其他條件：
-    - 需要 Power BI Pro 授權。 請參閱下一節[授權](#licensing)以取得詳細資訊。
-    - 需具備資料集的建置權限。 針對此工作區中的資料集，具有「系統管理員」、「成員」和「參與者」角色的使用者可透過其工作區角色取得建置權限。
-2. 如果項目位於 Premium 容量的工作區中，則即使沒有 Power BI Pro 授權，您也可以在 Power BI 服務中檢視項目並與其互動。
+[!INCLUDE [power-bi-workspace-roles-table](includes/power-bi-workspace-roles-table.md)]
 
 ## <a name="licensing"></a>授權
 新增至共用容量中工作區的每個人都必須有 Power BI Pro 授權。 在工作區中，這些使用者皆可在儀表板和報表上共同作業，以準備發佈給更多對象，甚至整個組織。 

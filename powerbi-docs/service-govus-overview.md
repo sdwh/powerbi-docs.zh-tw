@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a6351c96a2d2bef596cbdd693b4b7035fc16e14
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: a9a5f3fd5304e64209b6069741dffcc3fa9b07c8
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81436337"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256157"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 本文適用於將 Power BI 部署為 Office 365 政府方案一部分的美國政府客戶。 政府方案是針對必須符合美國合規性和安全性標準的組織獨特需求而設計。 為美國政府客戶設計的 Power BI 服務與商業版 Power BI 服務不同。 下列各節說明這些功能差異和功能。
@@ -88,7 +88,7 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |報表建立|建立和檢視儀表板和報表|可用|可用|可用|
 |  |排定的資料重新整理|可用|可用|可用|
 |  |可重新整理的小組儀表板|可用|可用|可用|
-|  |編頁報表|可用|可用|在藍圖上|
+|  |編頁報表|可用|在藍圖上|在藍圖上|
 |  |範本應用程式|無法使用|無法使用|無法使用|
 |連線至資料|從 Excel 匯入資料和報表|可用|可用|可用|
 |  |從 CSV 檔案匯入資料|可用|可用|可用|
