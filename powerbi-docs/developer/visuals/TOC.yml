@@ -26,6 +26,8 @@
           href: power-bi-custom-visuals-organization.md
         - name: Power BI 視覺效果指南
           href: guidelines-powerbi-visuals.md
+        - name: 效能秘訣
+          href: performance-tips.md
         - name: 視覺效果常見問題集
           href: power-bi-custom-visuals-faq.md
         - name: 使用功能
@@ -70,6 +72,8 @@
           href: enable-sync-slicers.md
         - name: 對視覺效果進行偵錯
           href: visuals-how-to-debug.md
+        - name: 行動裝置開發
+          href: mobile-development.md
         - name: 疑難排解 Power BI 視覺效果
           href: power-bi-custom-visuals-troubleshoot.md
     - name: 參考
@@ -104,6 +108,8 @@
               href: utils-svg.md
             - name: 類型公用程式
               href: utils-type.md
+            - name: 測試公用程式
+              href: utils-test.md
             - name: 工具提示公用程式
               href: utils-tooltip.md
             - name: 資料檢視公用程式
