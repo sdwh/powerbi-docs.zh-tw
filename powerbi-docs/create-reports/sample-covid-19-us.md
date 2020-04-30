@@ -2,20 +2,20 @@
 title: 適用於美國州和地方政府的 COVID-19 追蹤範例
 description: 下載並修改具有 COVID-19 全球大流行美國州和地方資料的範例報表。
 author: LukaszPawlowski-MS
-ms.reviewer: ''
+ms.reviewer: maggies
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979768"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584916"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>適用於美國州和地方政府的 COVID-19 追蹤範例
 
@@ -48,7 +48,7 @@ Microsoft 已發佈範例報表，並建立了發佈到 Web 內嵌程式碼。 �
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-內嵌程式碼是您可以插入至任何 HTML 網頁的 HTML iFrame 元素。 調整提供的 iFrame 寬度和高度，使其符合您的網站。 範例報表是以 16:9 的比例撰寫，因此請選擇保留此維度的大小。 正確實作時圖形會顯示，但不會有任何額外的灰色框線。 在進行這些變更時，[檢閱 iFrame 調整大小祕訣和訣竅](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width)會很有用。
+內嵌程式碼是您可以插入至任何 HTML 網頁的 HTML iFrame 元素。 調整提供的 iFrame 寬度和高度，使其符合您的網站。 範例報表是以 16:9 的比例撰寫，因此請選擇保留此維度的大小。 正確實作時圖形會顯示，但不會有任何額外的灰色框線。 在進行這些變更時，[檢閱 iFrame 調整大小祕訣和訣竅](../service-publish-to-web.md#tips-for-iframe-height-and-width)會很有用。
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>選項 2：自訂範例 Power BI 檔案
 
@@ -112,7 +112,7 @@ USAFacts 資料是以需要歸屬的「創用 CC 授權條款 (Creative Commons 
 
 ### <a name="create-a-publish-to-web-embed-code"></a>建立發佈到 Web 內嵌程式碼 
 
-若要在您自己的網站中內嵌您的自訂報表，請遵循如何[建立您自己的發佈到 Web 內嵌程式碼](../service-publish-to-web.md#how-to-use-publish-to-web)指示。
+若要在您自己的網站中內嵌您的自訂報表，請遵循如何[建立您自己的發佈到 Web 內嵌程式碼](../service-publish-to-web.md#create-embed-codes-with-publish-to-web)指示。
 
 發行內嵌程式碼之後，您可以使用 [確認] 對話方塊上的 iFrame 來內嵌至您的網站。
 
