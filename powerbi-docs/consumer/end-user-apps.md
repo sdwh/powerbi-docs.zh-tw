@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/19/2020
+ms.date: 04/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1b23f76425fdf7ceb245b25bcc2b7551dabf0600
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496697"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120226"
 ---
 # <a name="apps-in-power-bi"></a>Power BI 的應用程式
 
@@ -29,8 +29,8 @@ ms.locfileid: "77496697"
 
 ![Power BI 的應用程式](./media/end-user-apps/power-bi-apps.png)
 
-> [!NOTE]
-> 使用應用程式功能需要有 Power BI Pro 授權。 [查閱您的授權類型](end-user-license.md)
+
+使用應用程式功能需要有 Power BI Pro 授權，或應用程式儲存在 Premium 容量中。 若要深入了解授權和 Premium 容量，請參閱[取用者授權](end-user-license.md)。
 
 ## <a name="app-designers-and-app-consumers"></a>應用程式「設計師」  和應用程式「取用者」 
 視您的角色而定，您可能是建立應用程式供自己使用，或與同事共用的人 (「設計師」  )。 或者，您可能是接收並下載其他人所建立應用程式的人 (「取用者」  )。 本文適用於應用程式「取用者」  。
@@ -44,8 +44,8 @@ ms.locfileid: "77496697"
 ## <a name="get-a-new-app"></a>取得新的應用程式
 您可以透過一些不同的方式取得應用程式。 以下列出一些方式。  但如需取得和探索應用程式的詳細逐步指示，請參閱[開啟應用程式並與其互動](end-user-app-view.md)。
 
-- 應用程式設計師可以在您的 Power BI 帳戶中自動安裝應用程式，因此您下一次開啟 Power BI 時，就會在您的 [應用程式]  內容清單中看到新應用程式。 
-- 應用程式設計師可以將應用程式的直接連結以電子郵件傳送給您。 選取連結即會在 Power BI 中開啟應用程式。
+- 應用程式設計工具可在 Power BI 帳戶中自動安裝應用程式，因此下次開啟 Power BI 服務時，即會在 [應用程式]  內容清單中看到新的應用程式。 
+- 應用程式設計師可以將應用程式的直接連結以電子郵件傳送給您。 選取連結即會在 Power BI 服務中開啟應用程式。
 - 在行動裝置上的 Power BI 中，您只能從直接連結安裝應用程式，而不能從 AppSource 安裝。 如果應用程式作者自動安裝應用程式，您就會在您的應用程式清單中看到它。
 - 您可以在 [AppSource](https://appsource.microsoft.com) 中搜尋應用程式。 AppSource 包含報表設計師在公司內外部所發佈的應用程式。 例如，您可能會在 AppSource 上發現適用於已使用服務 (例如 Google Analytics、GitHub 或 Microsoft Dynamics) 的應用程式。 您也會找到可用於了解 Power BI 的範例應用程式。  
 

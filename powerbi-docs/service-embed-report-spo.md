@@ -1,23 +1,23 @@
 ---
 title: 在 SharePoint Online 中嵌入報表網頁組件
 description: 你可以使用 SharePoint Online 的 Power BI 新報表網頁組件，輕鬆地在 SharePoint Online 的網頁中內嵌互動式 Power BI 報表。
-author: KesemSharabi
-ms.author: kesharab
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 12/18/2019
-ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/27/2020
+ms.openlocfilehash: 5b726137fae0087701833b2d713cf7b5a329f899
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221704"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585221"
 ---
-# <a name="embed-with-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
+# <a name="embed-a-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
 你可以使用 SharePoint Online 的 Power BI 新報表網頁組件，輕鬆地在 SharePoint Online 的網頁中內嵌互動式 Power BI 報表。
 
@@ -38,9 +38,9 @@ ms.locfileid: "75221704"
 
 1. 在 Power BI 內檢視報表。
 
-2. 選取 [檔案]  下拉式功能表，然後選取 [內嵌在 SharePoint Online 中]  。
+2. 在 [更多選項 (...)]  下拉式功能表中，選取 [內嵌]   > [SharePoint Online]  。
 
-    ![[檔案] 功能表](media/service-embed-report-spo/powerbi-file-menu.png)
+    ![[更多選項] 功能表，SharePoint Online](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
 3. 從對話方塊複製報表 URL。
 

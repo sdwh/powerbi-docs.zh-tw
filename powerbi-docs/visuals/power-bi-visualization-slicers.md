@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006774"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585053"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的交叉分析篩選器
 
@@ -131,6 +131,11 @@ Power BI 交叉分析篩選器不支援：
     >[!NOTE]
     >如果您將交叉分析篩選器同步至某個頁面，但未讓其顯示在該頁面上，則在其他頁面上選取交叉分析篩選器時，仍然會篩選該頁面上的資料。
  
+## <a name="filtering-slicers"></a>篩選交叉分析篩選器
+您可將視覺效果層級的篩選套用至交叉分析篩選器，以減少交叉分析篩選器所顯示的值清單。 例如，您可從清單交叉分析篩選器中篩選出空白值，或從範圍交叉分析篩選器中篩選出特定的日期。 當這樣做時，選項只會影響「交叉分析篩選器所顯示的值」  ，而不是「交叉分析篩選器套用至其他視覺效果的篩選」  。 例如，假設您對範圍交叉分析篩選器套用只顯示特定日期的篩選。 交叉分析篩選器上選項只會顯示該範圍的第一個和最後一個日期，但您仍會在其他視覺效果中看到其他日期。 一旦變更交叉分析篩選器的選取範圍，即會看到其他視覺效果隨之更新。 清除交叉分析篩選器會再次顯示所有日期。
+
+如需視覺效果層級篩選的詳細資訊，請參閱[篩選類型](../power-bi-report-filter-types.md)。
+
 ## <a name="format-slicers"></a>格式交叉分析篩選器
 視交叉分析篩選器類型而定，會提供不同的格式設定選項。 藉由使用 [水平]  方向、[回應式]  版面配置及 [項目]  著色，您可以產生按鈕或磚而不是標準清單項目，然後讓交叉分析篩選器項目調整大小，以符合不同的螢幕大小和版面配置。  
 

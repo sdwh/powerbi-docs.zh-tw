@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c4db4d659c64fba8b7a79e6e36a5f27d8dd5d34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 986c09e404e0190a3efee8480d413d49cbd49186
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869364"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584817"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Power BI Desktop 中的鍵盤快速鍵
 
@@ -56,6 +56,7 @@ ms.locfileid: "73869364"
 | 複選 | **Ctrl + Enter** 或 **Ctrl + 空格鍵** |
 | 以滑鼠右鍵按一下 | <ul><li>Windows 鍵盤：**Windows 內容索引鍵 + F10**。 Windows 操作功能表鍵在左 ALT 鍵與向左鍵之間</li><li>其他鍵盤：**Shift + F10**</li></ul> |
 | 清除選取範圍 | **Ctrl + Shift + C** |
+| 顯示或隱藏工具提示 | **Ctrl + H** |
 
 ## <a name="table-and-matrix-navigation"></a>資料表和矩陣導覽
 | 要進行的動作          | 按                |

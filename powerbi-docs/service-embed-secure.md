@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4be8a1ce88d50461ca51bb65278b823046459e30
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488813"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585014"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全入口網站或網站中內嵌報告
 
@@ -22,11 +22,13 @@ ms.locfileid: "79488813"
 
 [內嵌]  選項支援 [URL 篩選](service-url-filters.md)及 URL 設定。 它可以讓您幾乎不使用任何程式碼來與入口網站整合，而只需要基本的 HTML 和 JavaScript 知識。
 
-## <a name="how-to-embed-power-bi-reports-into-portals"></a>如何將 Power BI 報告**內嵌**到入口網站
+## <a name="how-to-embed-power-bi-reports-into-portals"></a>如何將 Power BI 報告內嵌到入口網站
 
-1. 您可以在 Power BI 服務之報告中的 [檔案]  功能表找到新的 [內嵌]  選項。
+1. 開啟 Power BI 服務中的報表。
 
-    ![[安全內嵌] 選項下拉式選項](media/service-embed-secure/secure-embed-drop-down-menu.png)
+2. 在 [更多選項 (...)]  功能表中，選取 [內嵌]   >  [網站或入口網站]  。
+
+    ![網站或入口網站選項](media/service-embed-secure/power-bi-more-options-website.png)
 
 2. 選取 [內嵌]  選項來開啟對話方塊，該對話方塊會提供您可以安全地用來內嵌報表的連結和 iFrame。
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/21/2020
-ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
-ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
+ms.date: 04/29/2020
+ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "81766281"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585002"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -173,6 +173,11 @@ SaaS 內嵌 (包括安全內嵌支援) 已可供使用。 對於 PaaS 內嵌，�
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>您可以從 Power BI 服務中的新 [常用] 體驗搜尋編頁報表嗎？
 
 可以，您目前可以從 [首頁] 搜尋編頁報表。  您也可以在新 [首頁] 體驗的其他部分中看見它們。
+
+## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
+使用分頁報表的日期時間欄位時，請記住以下事項。
+
+- 目前有一些與日期時間參數相關的全球化限制。 無論您在 Power BI 報表產生器中如何設計日期時間，都會以美國格式 (MM/DD/YYYY) 來擷取 Power BI 服務中的所有日期時間參數。
 
 ## <a name="next-steps"></a>後續步驟
 

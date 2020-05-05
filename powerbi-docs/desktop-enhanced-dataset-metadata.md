@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 301d6397e4a3ae4498234bae3ad8a49aa7552722
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80464619"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584681"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>使用增強型資料集中繼資料 (預覽)
 
@@ -46,6 +46,7 @@ ms.locfileid: "80464619"
 
 在預覽版本中，當啟用預覽功能時即適用下列限制。
 
+### <a name="unsupported-features-and-connectors"></a>不支援的功能和連接器
 在開啟尚未升級的現有 PBIX 和 PBIT 檔案時，若資料集包含任何下列功能或連接器，升級將會失敗。 若發生這類錯誤，應不會對使用者體驗造成立即的影響，且 Power BI Desktop 會繼續使用先前的中繼資料格式。
 
 * Python 指令碼
@@ -67,6 +68,8 @@ ms.locfileid: "80464619"
 
 此外，已成功升級至使用**增強型資料集中繼資料**的 PBIX 和 PBIT 檔案「無法」  在目前版本中使用上述功能或連接器。
 
+### <a name="lineage-view"></a>譜系檢視
+使用新中繼資料格式的資料集目前不會在 Power BI 服務內譜系檢視中顯示資料流程的連結。
 
 ## <a name="next-steps"></a>後續步驟
 

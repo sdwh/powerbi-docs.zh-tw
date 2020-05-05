@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8dfc6e872b67605a262c7390b91703649a2cfb0f
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 548c76e2d344e996d367cba810bf42442af8d27d
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114015"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120310"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>使用 Power BI 報表中的篩選
 
@@ -257,6 +257,10 @@ Power BI Desktop 在預覽中有新的功能區。 在 [檢視]  索引標籤上
 在報表設定的 [篩選體驗] 區段下有一個選項，可控制使用者是否可以變更篩選類型。
 
 ![限制變更篩選類型](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
+
+## <a name="considerations-and-limitations"></a>考量與限制
+
+發佈至 Web 不會顯示 [篩選] 窗格。 如果您打算將報表發佈至 Web，請考慮新增交叉分析篩選器以供篩選。
 
 ## <a name="next-steps"></a>後續步驟
 

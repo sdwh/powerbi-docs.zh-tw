@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9823e35fb2ddb99cf2932fa83e92598ba40f6690
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f82bde423d910cb5622e5e709890502e96daab36
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381368"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585389"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>匯出用於建立視覺效果的資料
 
@@ -242,7 +242,7 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
 
 - 如果您針對 Power BI 正要匯出的視覺效果啟用 [顯示沒有資料的項目]  選項，則使用「基礎資料」  匯出將無法運作。
 
-- 使用 DirectQuery 時，Power BI 可匯出的最大資料量為 16 MB 未壓縮資料。 非預期的結果可能是您匯出的資料列數小於資料列數上限。 可能原因如下：
+- 使用 DirectQuery 時，Power BI 可匯出的最大資料量為 16 MB 未壓縮資料。 非預期結果可能是所匯出資料列數小於 150,000 筆的資料列數上限。 可能原因如下：
 
     - 有許多資料行。
 

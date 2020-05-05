@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 01/30/2020
-ms.openlocfilehash: b4ed632d6106fa552cebf9837ba238bdc7a4d3f1
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.date: 04/24/2020
+ms.openlocfilehash: cbf30e3479629533faea73465362c378d4b73848
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404820"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82255773"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 編頁報表支援的資料來源
 
@@ -26,7 +26,7 @@ ms.locfileid: "80404820"
 | 資料來源 | 驗證 | 備忘稿 |
 | --- | --- | --- |
 | Azure SQL Database <br>Azure SQL 資料倉儲 | 基本、單一登入 (SSO)、OAuth2 |   |
-| Azure SQL 受控執行個體 | 基本 | 透過使用 Azure SQL Database 延伸模組的公用端點  |
+| Azure SQL 受控執行個體 | 基本 | 透過公用或私人端點 (私人端點必須透過企業閘道路由)  |
 | Azure Analysis Services | SSO, OAuth2 | 必須停用 AAS 防火牆或加以設定以允許所有 IP 範圍。|
 | Power BI 資料集 | SSO | Premium 和非 Premium Power BI 資料集。 需要讀取權限 |
 | Premium Power BI 資料集 (XMLA) | SSO |   |

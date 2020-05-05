@@ -5,15 +5,15 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 02/24/2020
+ms.date: 04/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fb1209103c88e78148f746321d5ff8d8bd6e1a20
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: b3f23b85d048a4ca4232152e5d2252c522a036ac
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79039921"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120221"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>適用於取用者的 Power BI 服務
 
@@ -45,7 +45,7 @@ Power BI 可同時讓您的工作更輕鬆且更具影響力。 所有資料都�
 
 您一定會聽到 "Power BI Desktop" 或只是 "Desktop" 一詞，這是一種獨立工具，供建置儀表板和與您共用儀表板與報表的「設計師」  使用。  請務必了解還有其他的 Power BI 工具，但如果您是取用者，就只能使用 Power BI 服務。 
 
-此外，由於您使用「共用」  內容，因此您需要標準**免費**授權，並在使用 **Premium** 容量的組織中工作。 [我有哪些授權？](end-user-license.md)
+而且因為您正在使用「共用」  內容，又是在使用 **Premium** 容量的組織中工作，所以只需要**免費**授權即可。 [我有哪些授權？](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>安全地與內容互動 

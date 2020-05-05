@@ -1,21 +1,22 @@
 ---
 title: Power BI 網路研討會
 description: Power BI 網路研討會
-author: v-tatero
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/01/2019
+ms.date: 04/23/2020
 ms.author: kfollis
-ms.openlocfilehash: 08e1303d0f1a5ee9e0e3e4e778e3f81e0a183df5
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: cfdb4f380cd8ad9655593798f591a4c915988c43
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267541"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120083"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
+[//]: # "Tatevik Tatero 是 Chauncy Freels 的合作廠商，其協助維護網路研討會清單"
 
 註冊參加我們即將舉行的即時網路研討會，或隨需觀賞我們錄製下來的會議實況。
 
@@ -85,11 +86,11 @@ ms.locfileid: "81267541"
 <br>由 Nimrod Shalit 主持
 <br>[報名並立即觀看](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
-**Power BI、Excel 及 Office 365：將企業資料最佳化**
+**Power BI、Excel 與 Office 365：將企業資料最佳化**
 <br>由 Olaf Hubel 和 Miguel Martinez 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
-**亮眼吸睛 – 讓視覺效果設計更臻完美的秘訣**
+**亮眼吸睛：強化視覺設計的祕訣**
 <br>由 Miranda Li 主持
 <br>[報名並立即觀看](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
@@ -156,17 +157,13 @@ ms.locfileid: "81267541"
 <br>由 Thorogood 的 Liz McCreesh 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
-**透過 Power BI 將客戶資料轉換成零售成功**
+**使用 Power BI 將客戶資料轉換成零售業績**
 <br>由 Hitachi Solutions 的 Angad Soni 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
 
 **可同時改進病人結果與獲利的經實證醫療保健解決方案**
 <br>由來自 US Medical IT 的 Stephen Cracknell 與 Stuart Macanliss 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
-
-**銷售與服務的應用智慧**
-<br>由來自 Avanade 的 Ed Bobrin 主持
-<br>[報名並立即觀看](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
 **製造商：您所處的產業正在經歷數位轉型 - 利用分析功能獲得最大利益以維持領導地位**
 <br>由來自 Blue Margin 的 Jon Thompson 與 Elgin Fastener Group 的 Jim Pastor 主持
@@ -210,14 +207,14 @@ ms.locfileid: "81267541"
 <br>由 Ted Pattison 主持
 <br>[立即觀看](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
-### <a name="advanced-topics"></a>進階主題 ###
+### <a name="advanced-topics"></a>進階主題
 
 **使用 Excel 與 Power BI 進行進階分析**
 <br>由 Nagasaikiran Kambhampati 與 Miguel Martinez 主持
 <br>[註冊觀看](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website) \(英文\)
 <br>[下載進階分析入門套件開始追蹤](https://aka.ms/pbiaawebinar)
 
-**[Power BI 採用架構網路研討會系列](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)** \(英文\)
+**Power BI 採用架構網路研討會系列**
 <br>由 Manu Kanwarpal 與 Paul Henwood 主持
 <br>[報名並立即觀看 - 第 1 部分 - 採用：採用資料驅動的文化特性](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) \(英文\)
 <br>[報名並立即觀看 - 第 2 部分 - 控管：控管 Power BI 的使用方式](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) \(英文\)
@@ -225,36 +222,13 @@ ms.locfileid: "81267541"
 <br>[報名並立即觀看 - 第 4 部分 - 安全性：使用 Power BI 確保資料的安全性](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) \(英文\)
 <br>[報名並立即觀看 - 第 5 部分 - 推出：成功推出 Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) \(英文\)
 
-**Office 365 財務專業人員網路研討會系列**
-<br>主講人：Mark Traverso、Carlos Otero、Johnnie Thomas、Amanda Cofsky 與 Miguel Martinez
-<br>了解祕訣、訣竅與最佳做法，進而使用 Office 365 在日常工作中達成更多目標。
-<br>[報名並立即觀看](https://aka.ms/Office365FinanceProsPBI)
-
 **成為完整堆疊 Power BI 絕地武士 - 透過「星際大戰」資料逐步解說 Power BI 最先進的功能**
 <br>由 Gil Raviv 主持
 <br>[立即觀看](https://www.youtube.com/watch?v=r0Qk5V8dvgg)
 
-**如何實作成功的資料控管策略好讓組織更加安全**
-<br>由 Ajay Anandan 主持
-<br>[報名並立即觀看](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
-
-**使用 Power BI Premium 加速採用新式 BI**
-<br>由 Sirui Sun 與 Miguel Martinez 主持
-<br>[報名並立即觀看](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
-
-**Power BI 報表伺服器中有什麼令人興奮的新功能**
-<br>由 Riccardo Muti、Chris Finlan 與 Chinmay Joshi 主持
-<br>[報名並立即觀看](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
-
-**Microsoft 如何執行 Power BI**
-<br>由 Kirkland Barrett 主持
-<br>[報名並立即觀看](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
-
 ## <a name="see-also"></a>另請參閱
 
 - [Power BI 白皮書](whitepapers.md)
-
-- [Microsoft Data Insights Summit 2017 隨選會議實況](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
 - [Power BI 是什麼？](fundamentals/power-bi-overview.md)
 

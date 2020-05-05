@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 218a05c41c3befed8f8600f6a584560f5be92a1f
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 4ce9946672514d3d3f181c573789b256888a4372
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709570"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584835"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>在 Power BI Desktop 中指定資料類別
 在 Power BI Desktop 中，您可以指定資料行的「資料類別」  ，讓 Power BI Desktop 知道如何在視覺效果中處理其值。
@@ -33,7 +33,7 @@ Power BI Desktop 是否應該顯示已醒目提示國家/地區的世界圖片�
 **指定資料類別**
 
 1. 在 [報表]  檢視或 [資料]  檢視的 [欄位]  清單中，選取您要依不同分類排序的欄位。
-2. 在功能區 [模型]  索引標籤的 [屬性]  區域中，選取 [資料類別]  旁的下拉式箭號。  此清單會顯示您可以為資料行選擇的資料類別。 如果某些選項不適用於資料行的目前資料類型，則可能會停用這些選項。  例如，如果資料行是二進位資料類型，Power BI Desktop 將無法讓您選擇地理資料類別。 
+2. 在功能區 [模型]  索引標籤的 [屬性]  區域中，選取 [資料類別]  旁的下拉式箭號。  此清單會顯示您可以為資料行選擇的資料類別。 如果某些選項不適用於資料行的目前資料類型，則可能會停用這些選項。  例如，如果資料行是日期或時間資料類型，則 Power BI Desktop 將無法供選擇地理資料類別。 
 3. 選取您想要的類別。
 
    ![](media/desktop-data-categorization/desktop-data-categorization.png)

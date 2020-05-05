@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/16/2020
+ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: e44a50a6e44006c0b23b0d57917f16260fdbe2f8
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114426"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585398"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -203,32 +203,30 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ### <a name="publish-to-web"></a>發行至 Web
 
-組織中的使用者可以將報表發行到網路。 [深入了解](service-publish-to-web.md)。 這會讓報表及其中所包含的資料可供網路上所有人使用。
+身為 Power BI 租用戶的系統管理員，[發行至 Web]  設定可讓您選擇可以建立內嵌程式碼，將報表發行至 Web 的使用者。 這個功能可將報表及其資料提供網上所有人使用。 深入了解[發行至 Web](service-publish-to-web.md)。
 
 > [!NOTE]
-> Power BI 管理員必須允許建立新的 [發行至 Web] 內嵌程式碼。 組織可能會有現有的內嵌程式碼，請使用[內嵌程式碼](service-admin-portal.md#embed-codes)頁面來檢閱目前已發佈的報表。
+> 僅 Power BI 系統管理員可允許建立新的 [發行至 Web] 內嵌程式碼。 組織可能擁有現有的內嵌程式碼。 請參閱系統管理員入口網站的[內嵌程式碼](service-admin-portal.md#embed-codes)一節，以檢閱目前發行的報表。
 
-下圖顯示當啟用 [發行到 Web]  設定時，報表的 [檔案]  功能表。
+下圖顯示當啟用 [發佈至 Web]  設定時，報表的 [更多選項 (...)]  功能表。
 
-![檔案功能表中的 [發行至 Web]](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![[更多選項] 功能表中的 [發行至 Web]](media/service-admin-portal/power-bi-more-options-publish-web.png)
 
-[發行至 Web]  設定能提供可讓使用者建立內嵌程式碼的選項。
+系統管理員入口網站中的 [發行至 Web]  設定，讓您選擇可以建立內嵌程式碼的使用者。
 
 ![發行到 Web 設定](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-
-系統會要求使用者連絡 Power BI 管理員，以允許他們在 [選擇內嵌程式碼的運作方式]  選項設定為 [僅允許現有內嵌程式碼]  ，且 [發行至 Web]  設定為 [啟用]  的情況下建立內嵌程式碼。
+系統管理員可以將 [發行至 Web]  設定為 [啟用]  ，將 [選擇內嵌程式碼的運作方式]  設定為 [Allow only existing embed codes] \(僅允許現有的內嵌程式碼\)  。 在此狀態下，使用者就可以建立內嵌程式碼，但必須先連絡 Power BI 系統管理員獲得執行權限。
 
 ![[發行至 Web] 提示](media/service-publish-to-web/publish_to_web_admin_prompt.png)
-
 
 視 [發行到 Web]  設定而定，使用者會在 UI 中看到不同的選項。
 
 |特徵 |允許整個組織使用 |不允許整個組織使用 |特定安全性群組   |
 |---------|---------|---------|---------|
-|報告 [檔案]  功能表下的 [發佈至 web]  。|針對全部啟用|並非所有人都可看到|只有經授權的使用者或群組才可看到。|
+|報表 [更多選項 (...)]  功能表下的 [發行至 Web] |針對全部啟用|並非所有人都可看到|只有經授權的使用者或群組才可看到。|
 |[設定]  下的 [管理內嵌程式碼] |針對全部啟用|針對全部啟用|針對全部啟用<br><br>[刪除]*   選項僅適用於經授權的使用者或群組。<br>針對全部啟用 [取得驗證碼]*   。|
-|系統管理員入口網站內的 [內嵌程式碼] |狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態顯示「已停用」 |狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者不是依租用戶設定獲得授權，狀態會顯示成「侵害」  。|
+|系統管理員入口網站內的 [內嵌程式碼] |狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖|狀態顯示「已停用」 |狀態會反映下列其中一項：<br>* 使用中<br>* 不支援<br>* 已封鎖<br><br>如果使用者不是依租用戶設定獲得授權，狀態會顯示為**受到侵害**。|
 |現有的已發佈報告|全部已啟用|全部已停用|報告會繼續針對全部項目呈現。|
 
 ### <a name="export-data"></a>匯出資料

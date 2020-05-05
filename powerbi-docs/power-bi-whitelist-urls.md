@@ -9,14 +9,15 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: 6844d09c04759f0cdb780b3c1805698f1b1b519f
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 1426cb2926641ca93bcbff3e55ea151f829f290a
+ms.sourcegitcommit: 1059c6222458f189fb5301dcb689dad2b2c00bc1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401907"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "82191606"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>要列入允許清單的 Power BI URL
+[//]: # "suparnap 和 miwehnia 是維護這份清單的連絡人"
 
 **Power BI 線上服務**也稱為 Power BI SaaS (軟體即服務) 應用程式，需要連線到網際網路。 使用 Power BI 線上服務的客戶，應可使用下列端點。
 
@@ -52,6 +53,7 @@ Power BI 需要仰賴 Office 365 驗證與身分識別區段中的必要端點�
 | 5 | **必要：** 服務遙測 | dc.services.visualstudio.com | TCP 443 |
 | 6 | **選擇性：** 資訊訊息 | dynmsg.modpim.com | TCP 443 |
 | 7 | **選擇性：** NPS 問卷 | nps.onyx.azure.net | TCP 443 |
+| 8 | **選擇性：** 內容傳遞網路 (CDN) | content.powerapps.com | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>系統管理

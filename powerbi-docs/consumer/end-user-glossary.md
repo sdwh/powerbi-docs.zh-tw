@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 101cdbc7ad7ea5d07edf182765d305ad2f1fa8c7
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267219"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120106"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」  及其連線方式的高階概觀。
@@ -22,9 +22,9 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 ## <a name="a"></a>A
 
-**account (帳戶)** 有不同類型的 Power BI 帳戶，也稱為「授權」  。  帳戶可以是：每個使用者或組織。 每個使用者帳戶以「免費」  或 *Pro* 提供。  Power BI「免費」  使用者可以使用獨立 Power BI Desktop 或在 Premium 組織帳戶內使用 Power BI 服務。 Power BI 每個使用者 *Pro* 帳戶是付費的每月訂用帳戶，可讓您與其他 *Pro* 使用者共同作業及共用內容。 
+**帳戶**：Power BI 帳戶有許多不同類型，也稱為「授權」  或「訂閱」  。  帳戶可以是每個使用者帳戶或組織帳戶。 每個使用者帳戶以「免費」  或 *Pro* 提供。  Power BI 其「免費」  使用者正在使用的為獨立 Power BI Desktop、或獨立 Power BI 服務，或具有 Premium 組織訂閱的組織內 Power BI 服務。 Power BI 每個使用者 *Pro* 帳戶是付費的每月訂用帳戶，可讓您與其他 *Pro* 使用者共同作業及共用內容。 
 
-組織 *Premium* (也稱為「Premium 容量」  ) 帳戶會在每個使用者授權之上加上一層功能。 例如，在擁有 *Premium* 授權之組織中的「免費」  每個使用者帳戶持有人，與沒有 *Premium* 的「免費」  使用者相比，可以使用 Power BI 做更多的事情。 例如，*Premium* 組織帳戶中的「免費」  使用者可與同事共同作業，並可檢視 Power BI Premium 容量中所託管的內容。  
+組織的 *Premium* (也稱為「Premium 容量」  ) 訂閱會在每個使用者授權上新增一層功能。 例如，在組織內擁有 *Premium* 訂閱的「免費」  每個使用者帳戶持有人，能夠使用 Power BI 做的事，比沒有 *Premium* 的「免費」  使用者更多。 例如，*Premium* 組織帳戶中的「免費」  使用者可與同事共同作業，並可檢視 Power BI Premium 容量中所託管的內容。 
 
 **admin portal (管理入口網站)** ：Power BI 系統管理員管理組織中 Power BI 使用者、功能及設定的位置。 (注意︰Office 365、Azure 和 PowerApps 使用系統管理中心。)
 

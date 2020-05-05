@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729705"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584761"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的資料類型
 本文描述 Power BI Desktop 與資料分析運算式 (DAX) 支援的資料類型。 
@@ -35,6 +35,8 @@ ms.locfileid: "75729705"
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 [查詢編輯器] 中的 [資料類型] 下拉式清單有兩個資料類型目前未在 [資料檢視] 或 [報表檢視] 檢視中呈現：[日期/時間/時區]  和 [持續時間]  。 當您將具有這些資料類型的資料行載入模型，再於 [資料檢視] 或 [報表檢視] 中進行檢視時，具有 [日期/時間/時區] 資料類型的資料行會轉換成 [日期/時間]，而具有 [持續時間] 資料類型的資料行則會轉換成 [十進位數字]。
+
+目前不支援查詢編輯器以外的**二進位**資料類型。 如果您先將二進位資料檔案轉換成其他資料類型，才載入 Power BI 模型，則在查詢編輯器中，您可以在載入這些檔案時使用此類型。 為與舊版相容，[資料檢視] 與 [報表檢視] 功能表保存此選項，但如果您嘗試將二進位資料行載入 Power BI 模型，可能會發生錯誤。  
 
 ### <a name="number-types"></a>數字類型
 Power BI Desktop 支援三種數字類型：
@@ -72,8 +74,18 @@ Power BI Desktop 支援 [查詢檢視] 中的五種 [日期/時間] 資料類型
 ### <a name="blanksnulls-type"></a>空白/Null 類型
 **空白** - 這是 DAX 中表示和取代 SQL Null 的資料類型。 您可以使用 [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) 函數來建立空白，並使用 [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 邏輯函數來測試空白。
 
+### <a name="binary-data-type"></a>二進位資料類型
+
+二進位資料類型可用以表示任何其他使用二進位格式的資料。 如果您先將二進位資料檔案轉換成其他資料類型，才載入 Power BI 模型，則在查詢編輯器中，您可以在載入這些檔案時使用此類型。 Power BI 資料模型不支援二進位資料行。 為與舊版相容，[資料檢視] 與 [報表檢視] 功能表保存此選項，但如果您嘗試將二進位資料行載入 Power BI 模型，可能會發生錯誤。
+
+
+> [!NOTE]
+>  若二進位資料行出現在查詢步驟的輸出中，嘗試透過閘道重新整理資料可能會導致錯誤。 建議您在查詢的最後一個步驟中，明確移除所有二進位資料行。    
+> 
+>
+
 ### <a name="table-data-type"></a>資料表資料類型
-DAX 會在許多函數中使用資料表資料類型，例如彙總與時間智慧計算。 某些函數需要資料表的參考，其他函數則會傳回之後可當做其他函數輸入使用的資料表。 在需要資料表當做輸入的部分函數中，您可以指定評估為資料表的運算式；對於某些函數，則需要基底資料表的參考。 如需特定函數需求的相關資訊，請參閱 [DAX 函數參考](https://msdn.microsoft.com/library/ee634396.aspx)。
+DAX 會在許多函數中使用資料表資料類型，例如彙總與時間智慧計算。 某些函數需要資料表的參考，其他函數則會傳回之後可當做其他函數輸入使用的資料表。 在需要資料表當做輸入的部分函數中，您可以指定評估為資料表的運算式；對於某些函數，則需要基底資料表的參考。 如需特定函數需求的相關資訊，請參閱 [DAX 函數參考](https://msdn.microsoft.com/library/ee634396.aspx).
 
 ## <a name="implicit-and-explicit-data-type-conversion-in-dax-formulas"></a>DAX 公式中隱含與明確的資料類型轉換
 每個 DAX 函數對於當做輸入與輸出使用之資料的類型都有特定需求。 例如，某些函數需要整數做為部分引數並需要日期做為其他引數，其他函數則需要文字或資料表。
@@ -102,7 +114,7 @@ DAX 會在許多函數中使用資料表資料類型，例如彙總與時間智�
 | REAL |REAL |REAL |REAL |日期/時間 |
 | 日期/時間 |日期/時間 |日期/時間 |日期/時間 |日期/時間 |
 
-例如，如果在加法運算中使用實數搭配貨幣資料，兩個值都會轉換為 REAL，因此傳回的結果為 REAL。
+例如，如果在加法運算中使用實數搭配貨幣資料，兩個值都會轉換為 REAL，因此傳回的結果為 REAL
 
 **減 (-)**
 

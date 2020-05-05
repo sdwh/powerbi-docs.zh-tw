@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42455033a0853cc9a962d3167ed8a69a0f42c4e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496916"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120267"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表安裝並使用應用程式
 
@@ -28,6 +28,11 @@ ms.locfileid: "77496916"
 有數種方式可取得新的應用程式。 報表設計師同事可以在您的 Power BI 帳戶中自動安裝應用程式，或向您傳送應用程式的直接連結。 而您可以前往 AppSource，並搜尋您公司內外應用程式設計師提供給您的應用程式。 
 
 在行動裝置上的 Power BI 中，您只能從直接連結安裝應用程式，而不能從 AppSource 安裝。 如果應用程式設計工具自動安裝應用程式，您就會在應用程式清單中看到它。
+
+## <a name="apps-and-licenses"></a>應用程式和授權
+並非所有的 Power BI 使用者都可檢視應用程式並與其互動。 
+- 如有免費授權，即可開啟儲存在 Premium 容量工作區中與您共用的應用程式。
+- 如有 Pro 授權，即可開啟與您共用的應用程式。
 
 ## <a name="install-an-app-from-a-direct-link"></a>透過直接連結安裝應用程式
 自行安裝新應用程式的最簡單方式，是以電子郵件向應用程式設計師取得直接連結。  
@@ -45,7 +50,10 @@ ms.locfileid: "77496916"
 ![行動裝置上的應用程式內容清單](./media/end-user-app-view/power-bi-ios.png)
 
 ## <a name="get-the-app-from-microsoft-appsource"></a>從 Microsoft AppSource 取得應用程式
-您也可以從 Microsoft AppSource 尋找並安裝應用程式。 只有可存取的應用程式 (亦即，應用程式作者已將權限授與您或所有人) 才會顯示。
+您也可以從 Microsoft AppSource 尋找並安裝應用程式。 只有可存取的應用程式 (亦即，應用程式作者已將權限授與您或所有人) 才會顯示。 
+
+> [!NOTE]
+> 如果使用免費的使用者授權，即可下載但不能檢視應用程式，除非您升級至 Power BI Pro 帳戶，或此應用程式儲存在 Premium 容量中。 如需詳細資訊，請參閱[取用者授權](end-user-license.md)。
 
 1. 選取 [應用程式]    > [取得應用程式]  。 
    
@@ -79,7 +87,12 @@ ms.locfileid: "77496916"
 
 5. 安裝應用程式之後，Power BI 服務會顯示成功訊息。 選取 [前往應用程式]  以開啟應用程式。 根據設計師建立應用程式的方式，會顯示應用程式儀表板或應用程式報表。
 
+
+
     ![已成功安裝應用程式 ](./media/end-user-apps/power-bi-app-ready.png)
+
+    > [!NOTE]
+    > 如果使用免費的使用者授權，即可下載但不能檢視應用程式，除非您升級至 Power BI Pro 帳戶。 
 
     您也可以選取 [應用程式]  ，然後選擇 [銷售與行銷]  ，直接從您的應用程式內容清單中開啟應用程式。
 
@@ -122,9 +135,7 @@ ms.locfileid: "77496916"
     > [!NOTE] 
     > 安裝新版本會覆寫您對報表和儀表板所做的任何變更。 若要保留已更新的報表和儀表板，您可以在安裝之前以不同名稱或不同位置將其儲存。 
 
-    4. 安裝已更新的版本之後，請選取 [更新應用程式]  以完成更新處理程序。 
-
-    <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
+    4. 安裝好更新版本之後，請選取 [更新應用程式]  以完成更新處理程序。 
 
 
 ## <a name="next-steps"></a>後續步驟
