@@ -11,10 +11,10 @@ ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 00b7c98236f37505fbb0ddec81a45b65bf3e3ee6
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871182"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI 中的 SQL Server Analysis Services 即時資料
@@ -58,7 +58,7 @@ Power BI 有兩種方式可以連接到即時 SQL Server Analysis Services 伺�
 
 ## <a name="next-steps"></a>後續步驟
 
-* [On-premises data gateway (內部部署資料閘道)](service-gateway-onprem.md)  
+* [內部部署資料閘道](service-gateway-onprem.md)  
 * [管理 Analysis Services 資料來源](service-gateway-enterprise-manage-ssas.md)  
 * [為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)  
 

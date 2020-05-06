@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 31ce44059ec2abd5a2615267311ba651993342ba
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207980"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841886"
 ---
 # <a name="power-bi-security"></a>Power BI 安全性
 
-如需 Power BI 安全性的詳細說明，請[閱讀 Power BI 安全性技術白皮書](whitepaper-powerbi-security.md)。
+如需 Power BI 安全性的詳細說明，請[閱讀 Power BI 安全性技術白皮書](guidance/whitepaper-powerbi-security.md)。
 
 Power BI 服務是建置在 Microsoft 的雲端運算基礎結構和平台 **Azure**之上。 Power BI 服務架構的基礎包含兩個叢集：Web 前端 (**WFE**) 叢集和**後端** 叢集。 WFE 叢集會管理 Power BI 服務的初始連線和驗證；驗證後，便會由後端來處理所有後續使用者互動。 Power BI 分別使用 Azure Active Directory (AAD) 來儲存及管理使用者身分識別，以及使用 Azure BLOB 和 Azure SQL Database 來管理資料和中繼資料的儲存。
 
@@ -30,7 +30,7 @@ Power BI 服務是建置在 Microsoft 的雲端運算基礎結構和平台 **Azu
 
 ![](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 
-**後端**叢集是驗證過的用戶端與 Power BI 服務互動的方式。 **後端**叢集會管理視覺效果、使用者儀表板、資料集、報表、資料儲存體、資料連線、資料重新整理，以及與 Power BI 服務互動的其他層面。 **閘道角色** 擔任使用者要求與 Power BI 服務之間的閘道。 使用者無法與 **閘道角色**以外的任何角色直接互動。 最終會由 **Azure API 管理**來操控**閘道角色**。
+**後端**叢集是驗證過的用戶端與 Power BI 服務互動的方式。 **後端**叢集會管理視覺效果、使用者儀表板、資料集、報表、資料儲存體、資料連線、資料重新整理，以及與 Power BI 服務互動的其他層面。 **閘道角色**擔任使用者要求與 Power BI 服務之間的閘道。 使用者無法與 **閘道角色**以外的任何角色直接互動。 最終會由 **Azure API 管理**來操控**閘道角色**。
 
 ![](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
 
@@ -41,7 +41,7 @@ Power BI 服務是建置在 Microsoft 的雲端運算基礎結構和平台 **Azu
 
 Power BI 使用兩個主要的儲存機制來儲存及管理資料：使用者上傳的資料通常會傳送至 **Azure BLOB** 儲存體，而所有中繼資料及系統本身的成品則會儲存在 **Azure SQL Database**中。
 
-上方**後端**叢集圖片中的虛線清楚劃分了使用者能夠存取的唯二元件 (虛線左側)，以及只有系統可以存取的角色。 當已驗證的使用者連接到 Power BI 服務時，會由 **閘道角色** (最終由 **Azure API 管理**來操控) 接受及管理用戶端所進行的連接和任何要求，該角色接著會代表使用者與 Power BI 服務的其餘部分互動。 例如，當用戶端嘗試檢視儀表板時， **閘道角色** 會接受該要求，然後另外傳送要求給 **簡報角色** ，以擷取瀏覽器呈現儀表板所需的資料。
+上方**後端**叢集圖片中的虛線清楚劃分了使用者能夠存取的唯二元件 (虛線左側)，以及只有系統可以存取的角色。 當已驗證的使用者連接到 Power BI 服務時，會由 **閘道角色** (最終由 **Azure API 管理**來操控) 接受及管理用戶端所進行的連接和任何要求，該角色接著會代表使用者與 Power BI 服務的其餘部分互動。 例如，當用戶端嘗試檢視儀表板時，**閘道角色**會接受該要求，然後另外傳送要求給**簡報角色**，以擷取瀏覽器呈現儀表板所需的資料。
 
 ## <a name="user-authentication"></a>使用者驗證
 

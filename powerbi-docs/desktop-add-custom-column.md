@@ -10,10 +10,10 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878886"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>在 Power BI Desktop 中新增自訂資料行
@@ -38,7 +38,7 @@ ms.locfileid: "73878886"
 
 2. 從功能區的 [新增資料行]  索引標籤，選取 [自訂資料行]  。
 
-   ![選取 [自訂資料行]](media/desktop-add-custom-column/add-custom-column_02.png)
+   ![選取自訂資料行](media/desktop-add-custom-column/add-custom-column_02.png)
 
    [新增自訂資料行]  視窗隨即出現。
 
@@ -79,7 +79,7 @@ ms.locfileid: "73878886"
 
 ## <a name="use-the-advanced-editor-for-custom-columns"></a>在自訂資料行使用進階編輯器
 
-建立查詢之後，您也可以使用 [進階編輯器]  來修改查詢的任何步驟。 請遵循下列步驟執行此項作業：
+建立查詢之後，您也可以使用 [進階編輯器]  來修改查詢的任何步驟。 若要這樣做，請遵循下列步驟進行︰
 
 1. 在 [查詢編輯器]  視窗中，選取功能區上的 [檢視]  索引標籤。 
 

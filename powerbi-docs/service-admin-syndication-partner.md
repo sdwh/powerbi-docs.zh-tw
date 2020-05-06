@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: cc85fb07f50a42952e9b293908a797b1cbac023f
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958348"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>無法將 Power BI 加入 Office 365 合作夥伴訂閱
@@ -52,7 +52,7 @@ Office 365 可讓公司將 Office 365 與其自有的解決方案進行搭配整
 
 ### <a name="enable-ad-hoc-subscriptions"></a>啟用特定訂閱
 
-根據預設，系統會停用個人註冊 (又稱為特定訂閱)。 在此情況下，您會在嘗試註冊時看到下列訊息：「您的 IT 部門已經關閉 Microsoft Power BI 的註冊功能。」 
+根據預設，系統會停用個人註冊 (又稱為特定訂閱)。 在此情況下，當您嘗試註冊時，您會看到下列訊息：您的 IT 部門已關閉「Microsoft Power BI」的註冊功能  。
 
 ![[很抱歉] 影像](media/service-admin-syndication-partner/sorry.png)
 
@@ -65,7 +65,7 @@ Office 365 可讓公司將 Office 365 與其自有的解決方案進行搭配整
     connect-msolservice -credential $msolcred
     ```
 
-    ![輸入您的認證](media/service-admin-syndication-partner/aad-signin.png)
+    ![輸入認證](media/service-admin-syndication-partner/aad-signin.png)
 
 1. 登入之後，請執行下列命令來檢查 `AllowAdHocSubscriptions` 的目前設定。
 

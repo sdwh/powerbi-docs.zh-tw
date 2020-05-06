@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872671"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>連線到 Power BI 資料流程的資料來源
@@ -51,7 +51,7 @@ ms.locfileid: "73872671"
 * 所有類別
 * 檔案
 * 資料庫
-* Power BI
+* Azure 使用狀況
 * Azure
 * 線上服務
 * 其他
@@ -60,7 +60,7 @@ ms.locfileid: "73872671"
 
 [檔案]  類別包含資料流程的下列可用資料連線：
 
-* 存取權
+* 存取
 * Excel
 * JSON
 * 文字/CSV
@@ -70,7 +70,7 @@ ms.locfileid: "73872671"
 
 * IBM DB2 資料庫
 * MySQL 資料庫
-* Oracle Database
+* Oracle 資料庫
 * PostgreSQL 資料庫
 * SQL Server 資料庫
 * Sybase 資料庫
@@ -92,7 +92,7 @@ ms.locfileid: "73872671"
 [線上服務]  包含資料流程的下列可用資料連線：
 
 * Amazon Redshift
-* Common Data Service for Apps
+* 應用程式的常見資料服務
 * Microsoft Exchange Online
 * Salesforce 物件
 * Salesforce 報表
@@ -175,7 +175,7 @@ ms.locfileid: "73872671"
 本文說明您可以連線到資料流程的資料來源。 下列文章將更詳細討論資料流程的常見使用案例。 
 
 * [Power BI 中的自助資料準備](service-dataflows-overview.md)
-* [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
+* [建立 Power BI 中的資料流程](service-dataflows-create-use.md)
 * [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
 * [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
