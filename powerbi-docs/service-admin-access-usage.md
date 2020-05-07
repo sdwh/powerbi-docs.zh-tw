@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 32ca01d06f4fc8c3f90f73bf8137349eed0220a6
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698823"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>尋找已登入的 Power BI 使用者
@@ -23,7 +23,7 @@ ms.locfileid: "74698823"
 > [!NOTE]
 > **登入**報告可提供有用的資訊，但它無法識別每個使用者擁有的授權類型。 請使用 Microsoft 365 系統管理中心來檢視授權。
 
-## <a name="requirements"></a>需求
+## <a name="requirements"></a>要求
 
 任何使用者 (包括非系統管理員) 都能看到他們自己的登入報告，但您必須符合下列要求，才能看到所有使用者的報告。
 

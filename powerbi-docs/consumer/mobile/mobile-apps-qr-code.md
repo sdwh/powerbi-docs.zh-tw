@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
 ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802064"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>從行動裝置掃描 Power BI QR 代碼
-適用於︰
+適用於：
 
 | ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPad](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Android 手機](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Android 平板電腦](././media/mobile-apps-qr-code/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
@@ -78,5 +78,5 @@ Power BI 中的 QR 代碼可以將真實世界中的任何項目直接連接到�
 * [為 Power BI 服務的磚建立 QR 代碼](../../service-create-qr-code-for-tile.md)
 * [為 Power BI 服務的報表建立 QR 代碼](../../service-create-qr-code-for-report.md)
 * 您也可以[使用 Power BI for Mixed Reality 應用程式掃描 QR 代碼](mobile-mixed-reality-app.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+* 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

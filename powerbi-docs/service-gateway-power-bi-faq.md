@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 8ed8b148f857aa4cac85ccbf0ad725d2e644a973
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697377"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>內部部署資料閘道常見問題集 - Power BI
@@ -50,7 +50,7 @@ ms.locfileid: "74697377"
 
 **問：** 是否可以使用 msdmpump.dll 為 Analysis Services 建立自訂的有效使用者名稱對應？ 
 
-**答：** 否。 目前不支援這種使用方式。
+**答：** 不會。 目前不支援這種使用方式。
 
 **問：** 是否可以使用閘道來連線至多維度 (OLAP) 執行個體？ 
 
