@@ -10,10 +10,10 @@ ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871757"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>匯入資料集以在 Power BI 服務中建立報表
@@ -55,10 +55,10 @@ ms.locfileid: "73871757"
 1. 在 [欄位] 窗格中，選取 [銷售]   > [This Year Sales]\(本年度銷售額)   > [值]  。
    
     ![報表編輯器中的橫條圖](media/service-report-create-new/power-bi-report-step1.png)
-2. 從 [視覺效果]  窗格選取量測計範本 ![量測計圖示](media/service-report-create-new/powerbi-gauge-icon.png)，將視覺效果轉換成量測計。
+2. 從 [視覺效果]![](media/service-report-create-new/powerbi-gauge-icon.png) 窗格選取量測計範本 **量測計圖示**，將視覺效果轉換成量測計。
    
     ![報表編輯器中的量測計視覺效果](media/service-report-create-new/power-bi-report-step2.png)
-3. 將 \[銷售]   > \[This Year Sales]\(本年度銷售額)   > \[目標]  拖曳至 \[目標值]  庫。 看起來我們非常接近我們的目標。
+3. 將 \[銷售]   > \[This Year Sales] \(本年度銷售額)   > \[目標]  拖曳至 \[目標值]  庫。 看起來我們非常接近我們的目標。
    
     ![目標為目標值的量測計視覺效果](media/service-report-create-new/power-bi-report-step3.png)
 4. 現在是儲存報表的好時機。
@@ -72,7 +72,7 @@ ms.locfileid: "73871757"
 2. 取消選取量測計。 在 [欄位] 窗格中，選取 [銷售]   > [This Year Sales]\(本年度銷售額)   > [值]  ，然後選取 [銷售]   > [Last Year Sales]\(去年度銷售額)  。
    
     ![具有量測計和橫條圖的報表編輯器](media/service-report-create-new/power-bi-report-step4.png)
-3. 從 [視覺效果]  窗格選取區域圖範本 ![圖表圖示](media/service-report-create-new/power-bi-areachart-icon.png)，以將視覺效果轉換成區域圖。
+3. 從 [視覺效果]![](media/service-report-create-new/power-bi-areachart-icon.png) 窗格選取區域圖範本 **圖表圖示**，以將視覺效果轉換成區域圖。
 4. 選取 [時間]   > [期間]  以將它新增至 [軸]  井。
    
     ![具有作用中區域圖的報表編輯器](media/service-report-create-new/power-bi-report-step5.png)

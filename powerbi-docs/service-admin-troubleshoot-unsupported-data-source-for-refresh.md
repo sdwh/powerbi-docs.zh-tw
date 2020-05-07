@@ -11,10 +11,10 @@ ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74791993"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>不支援重新整理的資料來源疑難排解
@@ -31,7 +31,7 @@ ms.locfileid: "74791993"
    ![Desktop 報表窗格](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
 2. 從功能區列選取 [編輯查詢]  。  
    ![編輯查詢](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
-3. 選取 [進階編輯器] 。  
+3. 選取 [進階編輯器]  。  
    ![進階編輯器](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. 記下所列的來源提供者。  在本例中，提供者為 ActiveDirectory。  
    ![資料來源提供者](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
@@ -40,7 +40,7 @@ ms.locfileid: "74791993"
 ## <a name="next-steps"></a>後續步驟
 [資料重新整理](refresh-data.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[On-premises data gateway (內部部署資料閘道)](service-gateway-onprem.md)  
+[內部部署資料閘道](service-gateway-onprem.md)  
 [為內部部署資料閘道進行疑難排解](service-gateway-onprem-tshoot.md)  
 [對 Power BI Gateway - Personal 進行疑難排解](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

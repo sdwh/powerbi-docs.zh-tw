@@ -10,10 +10,10 @@ ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 143851013679dd0356c1ea5036c3d724b1dc436d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73875183"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>將篩選加入 Power BI 報表
@@ -29,7 +29,7 @@ ms.locfileid: "73875183"
 Power BI 提供許多不同種類的篩選條件，從手動和自動到鑽研和傳遞。 閱讀[各種不同的篩選類型](power-bi-report-filter-types.md)。
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>編輯檢視或閱讀檢視中的篩選
-您可以在兩個不同檢視中與報表互動：[閱讀] 檢視和 [編輯] 檢視。 篩選功能會依據您使用的檢視來提供。 如需詳細資料，請參閱[在 Power BI 報表中進行篩選和醒目提示的相關事項](power-bi-reports-filters-and-highlighting.md)。
+您可以透過兩種不同檢視來與報表互動：閱讀檢視和編輯檢視。 篩選功能會依據您使用的檢視來提供。 如需詳細資料，請參閱[在 Power BI 報表中進行篩選和醒目提示的相關事項](power-bi-reports-filters-and-highlighting.md)。
 
 本文將說明如何在報表的 [編輯檢視]  中建立篩選。  如需 [閱讀檢視] 中篩選的資訊，請參閱[在報表的閱讀檢視中與篩選互動](consumer/end-user-report-filter.md)。
 
@@ -175,7 +175,7 @@ Power BI 提供許多不同種類的篩選條件，從手動和自動到鑽研�
 ## <a name="next-steps"></a>後續步驟
 [報表 [篩選] 窗格概觀](consumer/end-user-report-filter.md)
 
-[報表的篩選和醒目提示](power-bi-reports-filters-and-highlighting.md)
+[在報表中進行篩選和醒目提示](power-bi-reports-filters-and-highlighting.md)
 
 [Power BI 中各種不同的篩選類型](power-bi-report-filter-types.md)
 

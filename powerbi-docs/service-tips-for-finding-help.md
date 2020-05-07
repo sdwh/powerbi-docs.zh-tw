@@ -10,10 +10,10 @@ ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 10540ed49064b9e28543ce46b43d8bb2d9ca6cf7
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74178237"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>取得 Power BI 問題說明的 10 個祕訣
@@ -29,7 +29,7 @@ ms.locfileid: "74178237"
 Power BI 小組持續更新及改進 Power BI 文件與訓練。 您可以許多很好的內容，包括網路研討會錄影、白皮書、引導式學習，以及所有最新功能的部部落格貼文連結。
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3 閱讀 Power BI 部落格中的最新消息
-Power BI 小組會在他們的定期 [Power BI 部落格文章](https://powerbi.microsoft.com/blog/)中解說所有新功能。 您可以從中了解各項新功能，從 Power BI Desktop 到 Power BI 行動裝置應用程式的均涵蓋在內。 請養成經常返回以查看新功能的習慣：每週都花上幾分鐘來迅速閱讀部落格。 您永遠不會知道您什麼時候會用到您在數月前看到的資訊。
+Power BI 小組會在他們的定期 [Power BI 部落格文章](https://powerbi.microsoft.com/blog/)中解說所有新功能。 您可以從中了解各項新功能，從 Power BI Desktop 到 Power BI 行動裝置應用程式的均涵蓋在內。 建議您養成每週花幾分鐘瀏覽這些部落格的習慣，時常回來看看有什麼新功能。 您永遠不會知道您什麼時候會用到您在數月前看到的資訊。
 
 ## <a name="4-try-twitter"></a>4 嘗試 Twitter
 許多 Power BI 客戶及專家都在 Twitter 上。 在推文中提問。 新增主題標籤 #powerbi 和 #powerbihelp 讓知道的人可看到您的推文。

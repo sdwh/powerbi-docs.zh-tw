@@ -10,10 +10,10 @@ ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c96b4ebae574a3b6a6fa54c5f5dc99b5bc948a90
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874410"
 ---
 # <a name="types-of-filters-in-power-bi-reports"></a>Power BI 報表中的篩選類型
@@ -76,7 +76,7 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 下表比較作者可以利用不同類型的篩選條件做什麼。
 
-| 篩選類型 | 編輯 | 清除 | 刪除 | 隱藏 | 鎖定 | 排序 | 重新命名 |
+| 篩選類型 | 編輯 | Clear | 刪除 | 隱藏 | 鎖定 | Sort | 重新命名 |
 |----|----|----|----|----|----|----|----|
 | 手動篩選 | Y | Y | Y | Y | Y | Y | Y |
 | 自動篩選 | Y | Y | N | Y | Y | Y | Y |
@@ -96,7 +96,7 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 [報表 [篩選] 窗格概觀](consumer/end-user-report-filter.md)
 
-[報表的篩選和醒目提示](power-bi-reports-filters-and-highlighting.md)
+[在報表中進行篩選和醒目提示](power-bi-reports-filters-and-highlighting.md)
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

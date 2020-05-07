@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 21b7b93b4e522a8e6a49d22b54c9ddd83cb5e042
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699613"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>重新整理建立自 OneDrive 或 SharePoint Online 上 Excel 活頁簿的資料集
@@ -86,7 +86,7 @@ ms.locfileid: "74699613"
 
 ![[關閉並載入至...] 命令](media/refresh-excel-file-onedrive/refresh_loadtodm_2.png)
 
-接著請確定在 [載入至]  中已選取 [將此資料加入資料模型]  。  
+接著請確定在 [載入至]  中已選取 [將這個資料加入資料模型]  。  
 
 ![[將此資料新增至今資料模型] 核取方塊](media/refresh-excel-file-onedrive/refresh_loadtodm_3.png)
 

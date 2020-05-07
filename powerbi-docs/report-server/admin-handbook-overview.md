@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73860213"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>系統管理員概觀：Power BI 報表伺服器
@@ -25,7 +25,7 @@ ms.locfileid: "73860213"
 
 請先參閱報表伺服器的[系統需求](system-requirements.md)，再開始安裝、升級或移轉至 Power BI 報表伺服器。
 
-### <a name="installing"></a>安裝中
+### <a name="installing"></a>安裝
 如果您要部署新的「Power BI 報表伺服器」，可以使用下列協助文件。 
 
 [安裝 Power BI 報表伺服器](install-report-server.md)

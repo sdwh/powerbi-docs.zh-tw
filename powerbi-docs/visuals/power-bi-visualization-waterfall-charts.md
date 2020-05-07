@@ -11,10 +11,10 @@ ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74907598"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI 中的瀑布圖
@@ -42,7 +42,7 @@ ms.locfileid: "74907598"
 
 * 藉由顯示營收的各種來源來標示貴公司的年度收益，並達到總收益 (或虧損)。
 
-* 呈現貴公司一年的開始和結束人數。
+* 說明公司在一年期間的初始和結束員工人數。
 
 * 以視覺化方式顯示您的每月收入與支出，以及帳戶的日常餘額。
 
@@ -54,9 +54,9 @@ ms.locfileid: "74907598"
    
 2. 尋找您的**零售分析範例 PBIX 檔案**複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+1. 在報表檢視 **報表檢視圖示的螢幕擷取畫面** 中開啟![零售分析範例 PBIX 檔案](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+1. Select ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
 
 ## <a name="create-a-waterfall-chart"></a>建立瀑布圖
@@ -73,7 +73,7 @@ ms.locfileid: "74907598"
 
     ![視覺效果範本](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
-1. 選取 [時間]   > [FiscalMonth]  將其新增至 [類別]  部分。
+1. 選取 [時間]   >  [會計月份]  將其加入 [類別]  部分。
 
     ![瀑布圖](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 

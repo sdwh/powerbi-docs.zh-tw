@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
 ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859489"
 ---
 # <a name="manage-content-in-the-web-portal"></a>管理入口網站中的內容 
@@ -22,8 +22,8 @@ Power BI 報表伺服器入口網站是可檢視、儲存和管理您的 Power B
 
 您可在任何新式瀏覽器中檢視入口網站。 在入口網站中，報表和 KPI 是以資料夾組織，您可將它們標示為 [我的最愛]。 您也可以在此儲存 Excel 活頁簿。 您可以從入口網站啟動建立報表所需要的工具︰
 
-* 使用 Power BI Desktop 建立的 **Power BI 報表**：在入口網站和 Power BI 行動裝置應用程式中檢視報表。
-* 在 [報表產生器] 中建立的**編頁報表**：現代化外觀、固定版面配置且針對列印最佳化的文件。
+* 以 Power BI Desktop 建立的 **Power BI 報表**：在入口網站及 Power BI 行動裝置應用程式中檢視它們。
+* 以報表產生器建立的**編頁報表**：具有現代化外觀、適合列印的最佳化固定配置文件。
 * 直接在入口網站中建立 **KPI**。
 
 您可以在入口網站中瀏覽報表伺服器資料夾或搜尋特定的報表。 您可以檢視報表、其一般屬性，以及報表記錄中擷取的舊報表複本。 依據您的權限，您也可以訂閱報表，傳遞至您的電子郵件收件匣或檔案系統的共用資料夾。
@@ -39,7 +39,7 @@ Power BI 報表伺服器入口網站是可檢視、儲存和管理您的 Power B
    
     預設的 URL 是 <em>https://[電腦名稱]/reports</em>。
    
-    報表伺服器可能設定使用特定的連接埠。 例如，<em>https://[電腦名稱]:80/reports</em> 或 <em>https://[電腦名稱]:8080/reports</em>
+    報表伺服器可能會設定為使用特定的通訊埠。 例如，<em>https://[電腦名稱]:80/reports</em> 或 <em>https://[電腦名稱]:8080/reports</em>
    
     您會看到入口網站將項目分組為下列類別︰
    
@@ -61,7 +61,7 @@ Power BI 報表伺服器會提供您儲存在入口網站之項目的詳細控�
 2. 選擇您想要設定的屬性或其他功能。
    
     ![選取屬性](media/getting-around/report-server-web-portal-manage-properties.png)
-3. 選取 [ **套用**]。
+3. 選取 [套用]  。
 
 深入了解[在入口網站中使用訂閱](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)。
 

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
 ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873946"
 ---
 # <a name="upgrade-power-bi-report-server"></a>升級 Power BI 報表伺服器
@@ -38,7 +38,7 @@ ms.locfileid: "73873946"
 
 * 使用完整復原模式備份 **reportserver** 資料庫。
 * 使用簡單復原模式來備份 **reportservertempdb** 資料庫。
-* 您可以對每個資料庫使用不同的備份排程。 備份 **reportservertempdb** 的唯一理由是為了避免在硬體失敗時必須重新建立。 如果發生硬體故障，不需要復原 **reportservertempdb** 中的資料，但您需要資料表結構。 如果您遺失 **reportservertempdb**，找回它的唯一方法是重新建立報表伺服器資料庫。 如果您重新建立 **reportservertempdb**，它的名稱必須與主要報表伺服器資料庫的名稱相同。
+* 您可以對每個資料庫使用不同的備份排程。 備份 **reportservertempdb** 的唯一理由，是避免在發生硬體故障時必須重新建立資料庫。 如果發生硬體故障，不需要復原 **reportservertempdb** 中的資料，但您需要資料表結構。 如果您遺失 **reportservertempdb**，找回它的唯一方法是重新建立報表伺服器資料庫。 如果您重新建立 **reportservertempdb**，它的名稱必須與主要報表伺服器資料庫的名稱相同。
 
 如需 SQL Server 關聯式資料庫之備份和復原的詳細資訊，請參閱 [SQL Server 資料庫的備份與還原](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases)。
 

@@ -10,10 +10,10 @@ ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877415"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>設計絕佳 Power BI 儀表板的秘訣
@@ -75,8 +75,8 @@ ms.locfileid: "73877415"
 
 * *Information Dashboard Design* ，作者：Stephen Few  
 * *Show Me the Numbers* ，作者：Stephen Few  
-* *Now You See It* ，作者：Stephen Few  
-* *Envisioning Information* ，作者：Edward Tufte  
+* 《現在看到了吧？量化分析視覺化訣竅》(*Now You See It*)，作者：Stephen Few  
+* 《資訊圖像化設計》(*Envisioning Information*)，作者：Edward Tufte  
 * *Advanced Presentations by Design* ，作者：Andrew Abela   
 
 ## <a name="next-steps"></a>後續步驟

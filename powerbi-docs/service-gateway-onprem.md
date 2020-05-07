@@ -1,5 +1,5 @@
 ---
-title: 內部部署的資料閘道
+title: 內部部署資料閘道
 description: 本文是 Power BI 的內部部署資料閘道概觀。 您可以使用此閘道處理 DirectQuery 資料來源。 您也可以使用此閘道以內部部署資料重新整理雲端資料集。
 author: arthiriyer
 ms.author: arthii
@@ -10,10 +10,10 @@ ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
 ms.openlocfilehash: 96a006f60e08d35ef6bbe13a2033d866814ec5b2
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697535"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>什麼是內部部署的資料閘道？
@@ -22,7 +22,7 @@ ms.locfileid: "74697535"
 
 內部部署的資料閘道可作為橋接器，在內部部署資料 (不在雲端中的資料) 和數種 Microsoft 雲端服務之間提供快速且安全的資料傳輸。 這些雲端服務包括 Power BI、PowerApps、Power Automate、Azure Analysis Services 和 Azure Logic Apps。 使用閘道，組織便能將資料庫和其他資料來源保留在它們的內部部署網路上，同時安全地在雲端服務中使用內部部署資料。
 
-## <a name="how-the-gateway-works"></a>閘道的運作方式
+## <a name="how-the-gateway-works"></a>閘道運作方式
 
 ![閘道概觀](media/service-gateway-onprem/on-premises-data-gateway.png)
 
