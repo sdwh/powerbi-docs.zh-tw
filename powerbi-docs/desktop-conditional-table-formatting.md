@@ -10,10 +10,10 @@ ms.date: 12/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c79a8ddd68fa64b0a16663500a3f02e9a991835b
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75730220"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>在資料表中使用條件式格式設定 
@@ -63,13 +63,13 @@ ms.locfileid: "75730220"
 
 ![具有發散字型色階的範例資料表](media/desktop-conditional-table-formatting/table-formatting-2-table.png)
 
-## <a name="color-by-rules"></a>依規則上色
+## <a name="color-by-rules"></a>色彩 (依規則)
 
 若要依規則格式化儲存格背景或字型色彩，請在 [背景色彩]  或 [字型色彩]  對話方塊的 [格式化依據]  欄位中，選取 [規則]  。 同樣地，[依據欄位]  會顯示要作為格式設定依據的欄位，而 [摘要]  會顯示欄位的彙總類型。 
 
 在 [規則]  下，輸入一或多個值範圍，並為每個範圍設定一個色彩。 每個值範圍都有「如果值」  條件、「和」  值條件以及一個色彩。 每個值範圍中的儲存格背景或字型都會以指定的色彩上色。 下列範例具有三個規則：
 
-![依規則上色](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-if-value.png)
+![色彩 (依規則)](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-if-value.png)
 
 在 [可負擔性]  資料行上使用規則型背景色彩格式設定的範例資料表如下所示：
 

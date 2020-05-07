@@ -1,5 +1,5 @@
 ---
-title: 與 Power BI 搭配使用外部 Python IDE
+title: 搭配 Power BI 使用外部 Python IDE
 description: 您可以透過 Power BI 啟動並使用外部的 IDE
 author: otarb
 ms.reviewer: ''
@@ -10,13 +10,13 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: dbdd4076c9944cf0335ed1f6b6aa43a2a3887189
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73865977"
 ---
-# <a name="use-an-external-python-ide-with-power-bi"></a>與 Power BI 搭配使用外部 Python IDE
+# <a name="use-an-external-python-ide-with-power-bi"></a>搭配 Power BI 使用外部 Python IDE
 透過 **Power BI Desktop**，您可以使用您的外部 Python IDE (整合式開發環境) 來建立並精簡 Python 指令碼，然後在 Power BI 中使用這些指令碼。
 
 ![](media/desktop-python-ide/python-ide-1.png)
@@ -26,7 +26,7 @@ ms.locfileid: "73865977"
 
 您可以指定您要使用哪個 Python IDE，並讓它從 **Power BI Desktop** 中自動啟動。
 
-### <a name="requirements"></a>需求
+### <a name="requirements"></a>要求
 若要使用這項功能，您需要在本機電腦上安裝 **Python IDE**。 **Power BI Desktop** 不會包含、部署或安裝 Python 引擎，所以您必須在本機電腦上個別安裝 **Python**。 您可以使用下列選項選擇要使用哪個 Python IDE：
 
 * 您可以安裝您最喜愛的 Python IDE，其中有許多為免費使用，例如 [Visual Studio Code 下載頁面](https://code.visualstudio.com/download/)。
@@ -73,7 +73,7 @@ ms.locfileid: "73865977"
    > **Power BI Desktop** 新增會指令碼的前三行，以便在您執行指令碼之後從 **Power BI Desktop** 匯入您的資料。
    > 
    > 
-7. 您在 **Power BI Desktop** [Python 指令碼編輯器]  窗格中建立的任何指令碼，會從 Python IDE 的第 4 行開始出現。 此時，您可以在 Python IDE 中建立 Python 指令碼。 在 Python IDE 中完成 Python 指令碼之後，您需要將其複製並貼回 **Power BI Desktop** 的 [Python 指令碼編輯器]  窗格中，**Power BI Desktop** 自動產生的前三行指令碼「除外」  。 請勿將指令碼前三行複製回 **Power BI Desktop**，這幾行只用於將資料從 **Power BI Desktop** 匯入 Python IDE 中。
+7. 您在 **Power BI Desktop** [Python 指令碼編輯器]  窗格中建立的任何指令碼，會從 Python IDE 的第 4 行開始出現。 此時，您可以在 Python IDE 中建立 Python 指令碼。 在 Python IDE 中完成 Python 指令碼之後，您需要將其複製並貼回 **Power BI Desktop** 的 [Python 指令碼編輯器]  窗格中，*Power BI Desktop* 自動產生的前三行指令碼「除外」  。 請勿將指令碼前三行複製回 **Power BI Desktop**，這幾行只用於將資料從 **Power BI Desktop** 匯入 Python IDE 中。
 
 ### <a name="known-limitations"></a>已知的限制
 從 Power BI Desktop 直接啟動 Python IDE 有一些限制：

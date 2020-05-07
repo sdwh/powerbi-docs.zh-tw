@@ -11,10 +11,10 @@ ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
 ms.openlocfilehash: 9b3e06172d29f218f9234cf1f3d7e1f623495001
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697259"
 ---
 # <a name="premium-capacity-scenarios"></a>Premium 容量案例
@@ -141,7 +141,7 @@ CPU 飽和會表現在作業花費的時間比所需的更長，因為 CPU 嘗�
 
 在某些情況下，Power BI 管理員可以藉由建立儀表板 (會以任何資料集重新整理定期查詢快取的圖格) 而不是報表，來要求資料集擁有者建立較穩定的查詢工作負載。 這有助於避免儀表板載入時的尖峰。 對於指定的商務需求，此解決方案可能不一定可行，不過，它可以是不需要變更資料集就避免 CPU 飽和的有效方式。
 
-## <a name="acknowledgements"></a>致謝
+## <a name="acknowledgements"></a>通知
 
 本文是由資料平台 MVP 暨 [Bitwise Solutions](https://www.bitwisesolutions.com.au/) 的獨立 BI 專家 Peter Myers 所撰寫。
 

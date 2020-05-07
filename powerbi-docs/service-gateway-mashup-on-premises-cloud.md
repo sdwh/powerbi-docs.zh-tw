@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 10aec8659fcb643c5b0511360ba798c7b4873c77
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697880"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>合併或附加內部部署與雲端資料來源
@@ -25,7 +25,7 @@ ms.locfileid: "74697880"
 >[!NOTE]
 >本文僅適用於已將雲端和內部部署資料來源合併或附加至單一查詢的資料集。 如果是包含個別查詢 (一個連接到內部部署，另一個連接到雲端資料來源) 的資料集，閘道不會針對雲端資料來源執行查詢。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 - [安裝在本機電腦上的閘道](/data-integration/gateway/service-gateway-install)。
 - 具有結合內部部署和雲端資料來源之查詢的 Power BI Desktop 檔案。

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4440db5888eeeab638eab4ea3819107d37bdbdbd
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75223460"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>搭配使用外部 R IDE 與 Power BI
@@ -27,7 +27,7 @@ ms.locfileid: "75223460"
 
 自 2016 年 9 月發行的 **Power BI Desktop** (版本 2.39.4526.362) 起，您可以指定想要使用的 R IDE，並使其自動從 **Power BI Desktop**啟動。
 
-### <a name="requirements"></a>需求
+### <a name="requirements"></a>要求
 若要使用這項功能，您需要在本機電腦上安裝 **R IDE**。 **Power BI Desktop** 不會包含、部署或安裝 R 引擎，所以您必須在本機電腦上個別安裝 **R**。 您可以使用下列選項選擇要使用哪項 R IDE︰
 
 * 您可以安裝您最喜愛的 R IDE，其中有許多為免費使用，例如 [Revolution Open 下載頁面](https://mran.revolutionanalytics.com/download/) 及 [CRAN Repository](https://cran.r-project.org/bin/windows/base/)。
@@ -74,7 +74,7 @@ ms.locfileid: "75223460"
    > **Power BI Desktop** 新增會指令碼的前三行，以便在您執行指令碼之後從 **Power BI Desktop** 匯入您的資料。
    > 
    > 
-7. 您在 **Power BI Desktop** **R 指令碼編輯器窗格**中建立的任何指令碼，會從 R IDE 的第 4 行開始出現。 此時，您可以在 R IDE 中建立 R 指令碼。 在 R IDE 中完成 R 指令碼之後，您需要將其複製並貼回 **Power BI Desktop** 的 [R 指令碼編輯器]  窗格中，**Power BI Desktop** 自動產生的前三行指令碼「除外」  。 請勿將指令碼前三行複製回 **Power BI Desktop**，這幾行只用於將資料從 **Power BI Desktop** 匯入 R IDE 中。
+7. 您在 **Power BI Desktop** **R 指令碼編輯器窗格**中建立的任何指令碼，會從 R IDE 的第 4 行開始出現。 此時，您可以在 R IDE 中建立 R 指令碼。 在 R IDE 中完成 R 指令碼之後，您需要將其複製並貼回 **Power BI Desktop** 的 [R 指令碼編輯器]  窗格中，*Power BI Desktop* 自動產生的前三行指令碼「除外」  。 請勿將指令碼前三行複製回 **Power BI Desktop**，這幾行只用於將資料從 **Power BI Desktop** 匯入 R IDE 中。
 
 ### <a name="known-limitations"></a>已知的限制
 從 Power BI Desktop 直接啟動 R IDE 有一些限制︰

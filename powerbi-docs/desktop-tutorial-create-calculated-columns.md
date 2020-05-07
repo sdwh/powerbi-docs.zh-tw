@@ -1,6 +1,6 @@
 ---
-title: 教學課程：在 Power BI Desktop 中建立計算結果欄
-description: 教學課程：在 Power BI Desktop 中建立計算結果欄
+title: 教學課程：在 Power BI Desktop 中建立您自己的導出資料行
+description: 教學課程：在 Power BI Desktop 中建立您自己的導出資料行
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: cdd4f4f5058b57cbf59a3a0b35286243bd8c8f37
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75731637"
 ---
-# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中建立計算結果欄
+# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中建立您自己的導出資料行
 
 有時，您分析中的資料並未包含需要取得結果的特定欄位。 這就是「計算結果欄」  派上用場的地方。 計算結果欄會使用「資料分析運算式」(DAX) 公式來定義資料行的值，從將來自一些不同資料行的文字值組合在一起，到從其他值計算出一個數值，都包含在內。 例如，假設您的資料具有 [城市]  和 [州別]  欄位，但您想要一個包含兩者的單一 [位置]  欄位，例如「佛羅里達州邁阿密」。 這正是計算結果欄的目的。
 

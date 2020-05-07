@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: db86fee2303759d30b2ff64dc59b56314f220474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73867342"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>在 Power BI Desktop 中使用內嵌階層標籤
@@ -32,7 +32,7 @@ ms.locfileid: "73867342"
 > [!NOTE]
 > 除了以滑鼠右鍵按一下列之外，您也可在視覺效果的左上方選取 [展開]  按鈕。
 
-  ![展開按鈕](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
+  ![[展開] 按鈕](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
 
 
 選取 [Expand to next level] \(展開至下一個層級\)  之後，該視覺效果會展開從 [年]  至  [季] 的日期階層，如下圖所示。
@@ -71,7 +71,7 @@ ms.locfileid: "73867342"
 1. 啟用**內嵌階層標籤**功能
 2. 您建立具有階層的視覺效果
 3. 然後 [全部展開]  並儲存檔案
-4. 接著 *停用* **內嵌階層標籤** 功能，並重新啟動 Power BI Desktop
+4. 接著 *停用***內嵌階層標籤** 功能，並重新啟動 Power BI Desktop
 5. 然後重新開啟檔案
 
 如果您不巧執行了這些步驟，而且視覺效果卡在展開的模式，您可以採取以下動作來針對這些錯誤進行疑難排解：

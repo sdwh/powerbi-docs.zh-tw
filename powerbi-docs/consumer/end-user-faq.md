@@ -10,10 +10,10 @@ ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79039970"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>關於 Power BI 的常見問題集
@@ -60,7 +60,7 @@ Power BI 不支援消費者電子郵件服務或電信提供者所提供的電�
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI 支援行動裝置嗎？
 
-是。 Power BI 備有 Android 手機與平板裝置、iOS 裝置及 Windows 10 裝置的原生應用程式。 從個別的市集下載其中一種 [Power BI 行動應用程式](https://powerbi.microsoft.com/mobile)：  
+有。 Power BI 備有 Android 手機與平板裝置、iOS 裝置及 Windows 10 裝置的原生應用程式。 從個別的市集下載其中一種 [Power BI 行動應用程式](https://powerbi.microsoft.com/mobile)：  
 
 * [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
 * [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
@@ -89,7 +89,7 @@ Power BI 不支援消費者電子郵件服務或電信提供者所提供的電�
 
 ## <a name="what-browsers-does-power-bi-support"></a>Power BI 支援哪些瀏覽器？
 
-以下是 [Power BI 支援的瀏覽器](../service-browser-support.md)完整清單。
+以下是 [Power bi 支援的瀏覽器](../service-browser-support.md) 完整清單。
 
 ## <a name="what-regions-and-languages-does-power-bi-support"></a>Power BI 支援哪些區域及語言？
 

@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 2f2c0b2c6ba4d991dd6293b435acc07659013f5b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698501"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>使用 Microsoft Intune 設定行動裝置應用程式
@@ -95,7 +95,7 @@ Microsoft Intune 可以與行動裝置管理 (MDM) 同時存在 Office 365 中�
 
 1. 選取 [上傳]  。
 
-1. 如果您在清單中沒有看到應用程式，請重新整理頁面：移至 [概觀]  然後返回 [應用程式]  。
+1. 若沒有在清單中看到應用程式，請重新整理頁面：移至 [概觀]  ，然後返回 [應用程式]  。
 
     ![[應用程式] 索引標籤](media/service-admin-mobile-intune/intune-add-software-ios2.png)
 
@@ -111,7 +111,7 @@ Microsoft Intune 可以與行動裝置管理 (MDM) 同時存在 Office 365 中�
 
 1. 選取 [上傳]  。
 
-1. 如果您在清單中沒有看到應用程式，請重新整理頁面：移至 [概觀]  然後返回 [應用程式]  。
+1. 若沒有在清單中看到應用程式，請重新整理頁面：移至 [概觀]  ，然後返回 [應用程式]  。
 
     ![[應用程式] 索引標籤](media/service-admin-mobile-intune/intune-add-software-android2.png)
 

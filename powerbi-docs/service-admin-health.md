@@ -1,5 +1,5 @@
 ---
-title: 在 Office 365 中追蹤 Power BI 服務健康狀態
+title: 在 Office 365 中追蹤 Power BI 服務健康情況
 description: 了解如何在 Microsoft 365 系統管理中心中檢視目前和歷史服務健全狀況。
 author: kfollis
 ms.reviewer: ''
@@ -10,13 +10,13 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 9d0ed841da3f398b8e0a8dc0a35ed040ccf3cab6
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699996"
 ---
-# <a name="track-power-bi-service-health-in-office-365"></a>在 Office 365 中追蹤 Power BI 服務健康狀態
+# <a name="track-power-bi-service-health-in-office-365"></a>在 Office 365 中追蹤 Power BI 服務健康情況
 
 Microsoft 365 系統管理中心提供適用於 Power BI 系統管理員的重要工具。 這些工具包含有關服務健康狀態的目前和歷程記錄資訊。 若要存取服務健康狀態資訊，您必須是下列角色之一：
 

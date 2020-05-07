@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958420"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>從內部部署 SQL Server 資料庫重新整理資料
@@ -38,7 +38,7 @@ ms.locfileid: "74958420"
 - 在相同的本機電腦上[安裝內部部署資料閘道](service-gateway-onprem.md)作為 SQL Server (在生產環境中，其通常是另一部電腦)。
 
 > [!NOTE]
-> 若您不是閘道管理員，且不想要自行安裝閘道，請連絡您組織中的閘道管理員。 他們可以建立將您資料集連線到 SQL Server 資料庫時所需要的資料來源定義。
+> 若您不是閘道管理員，且不想要自行安裝閘道，請連絡您組織中的閘道管理員。 他們可以建立將您資料集連線到 SQL Server 資料庫時所需的資料來源定義。
 
 ## <a name="create-and-publish-a-power-bi-desktop-file"></a>建立及發佈 Power BI Desktop 檔案
 
@@ -174,7 +174,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
     請注意右上角，Power BI 正在準備執行所要求的重新整理。
 
-3. 選取 [我的工作區 \> 報表 \> AdventureWorksProducts]  。 查看更新資料流經的方式，且現在定價最高的產品為 **Road-250 Red, 58**。
+3. 選取 [我的工作區  **報表 \> AdventureWorksProducts]\>** 。 查看更新資料流經的方式，且現在定價最高的產品為 **Road-250 Red, 58**。
 
     ![更新直條圖](./media/service-gateway-sql-tutorial/updated-column-chart.png)
 

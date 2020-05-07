@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637912"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>設定及管理 Power BI Premium 中的容量
@@ -126,14 +126,14 @@ Power BI 管理員和 Office 365 全域管理員可以變更 Power BI Premium �
 
     ![指派工作區](media/service-admin-premium-manage/assign-workspaces.png)
 
-   | 選取項目 | 描述 |
+   | Selection | 描述 |
    | --- | --- |
    | **依使用者選取工作區** | 當您指派使用者或群組的工作區時，會將這些使用者所擁有的所有工作區都指派給進階容量，包括使用者的個人工作區。 就是使用者會自動取得工作區指派權限。<br>這包括已指派給不同容量的工作區。 |
    | **特定工作區** | 輸入要指派給所選取容量的特定工作區名稱。 |
    | **The entire organization's workspaces (整個組織的工作區)** | 將整個組織的工作區指派給 Premium 容量，會將組織中的所有工作區和「我的工作區」指派給這個 Premium 容量。 此外，所有目前和未來使用者都有權將個別工作區重新指派給這個容量。 |
    | | |
 
-1. 選取 [ **套用**]。
+1. 選取 [套用]  。
 
 ### <a name="assign-from-workspace-settings"></a>從工作區設定進行指派
 

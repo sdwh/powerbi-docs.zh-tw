@@ -10,10 +10,10 @@ ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 0e870163552e64594e574669ed8dea6937633282
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75757707"
 ---
 # <a name="create-and-use-doughnut-charts-in-power-bi"></a>在 Power BI 中建立和使用環圈圖
@@ -30,9 +30,9 @@ ms.locfileid: "75757707"
    
 2. 尋找您的**零售分析範例 PBIX 檔案**複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+1. 在報表檢視 **報表檢視圖示的螢幕擷取畫面** 中開啟![零售分析範例 PBIX 檔案](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+1. Select ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
 
 ## <a name="create-a-doughnut-chart"></a>建立環圈圖

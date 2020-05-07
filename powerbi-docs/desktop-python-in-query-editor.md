@@ -10,10 +10,10 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 82a03731ffea49f7e41fc8582155fe09734d475b
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760834"
 ---
 # <a name="use-python-in-query-editor"></a>在查詢編輯器中使用 Python
@@ -76,7 +76,7 @@ ms.locfileid: "75760834"
 一旦完成該視覺效果以及其他要使用 **Power BI Desktop** 建立的任何視覺效果，您就可以儲存 **Power BI Desktop** 檔案 (儲存為 .pbix 檔案)，然後在 Power BI 服務中使用資料模型，包括屬於其中的 Python 指令碼。
 
 > [!NOTE]
-> 想查看完成這些步驟後的完成後 .pbix 檔案嗎？ 幸運的是，您可以在[這裡](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix)下載這些範例中使用的完成後 **Power BI Desktop** 檔案。
+> 想查看完成這些步驟後的完成後 .pbix 檔案嗎？ 幸運的是，您可以在**這裡**下載這些範例中使用的完成後 [Power BI Desktop](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix) 檔案。
 
 一旦將 .pbix 檔案上傳到 Power BI 服務，就必須再執行幾個步驟以 (在服務中) 啟用資料重新整理，並讓視覺效果在服務中保持更新 (資料需要 Python 存取權以更新視覺效果)。 其他步驟如下：
 

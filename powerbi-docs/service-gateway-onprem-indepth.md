@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: c277c21ffd3546307f9c38dfc06364324702986f
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699375"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>深入了解內部部署資料閘道
@@ -22,7 +22,7 @@ ms.locfileid: "74699375"
 
 我們已將本文中資訊移動到 Power BI 和一般文件中的數篇文章。請前往每個標題下方的連結來尋找相關內容。
 
-## <a name="how-the-gateway-works"></a>閘道運作方式
+## <a name="how-the-gateway-works"></a>閘道的運作方式
 
 請參閱[內部部署資料閘道架構](/data-integration/gateway/service-gateway-onprem-indepth)。
 
@@ -58,7 +58,7 @@ ms.locfileid: "74699375"
 
 請參閱[對應 Analysis Services 資料來源的使用者名稱](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources)。
 
-## <a name="synchronize-an-on-premises-active-directory-with-azure-active-directory"></a>同步處理內部部署 Active Directory 和 Azure Active Directory
+## <a name="synchronize-an-on-premises-active-directory-with-azure-active-directory"></a>同步處理內部部署 Active Directory 和 Azure Active Directory 
 
 請參閱[同步內部部署 Active Directory 和 Azure Active Directory](/data-integration/gateway/service-gateway-onprem-indepth#synchronize-an-on-premises-active-directory-with-azure-active-directory)。
 

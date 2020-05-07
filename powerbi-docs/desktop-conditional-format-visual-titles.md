@@ -10,10 +10,10 @@ ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f3c1f047e3be7520005458294381877d1198ee21
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878621"
 ---
 # <a name="expression-based-titles-in-power-bi-desktop"></a>Power BI Desktop 中以運算式為基礎的標題
@@ -56,7 +56,7 @@ SWITCH (
 
 若要選取欄位並加以套用，請移至 [視覺效果]  窗格。 在 [格式]  區域中，選取 [標題]  以顯示視覺效果的標題選項。 
 
-當您以滑鼠右鍵按一下**標題文字**時，即會出現可讓您選取 [<em>fx</em>條件式格式設定]  的操作功能表。 當您選取該功能表項目時，[標題文字]  對話方塊隨即出現。 
+當您以滑鼠右鍵按一下**標題文字**時，即會出現可讓您選取 [**fx<em>條件式格式設定]</em>** 的操作功能表。 當您選取該功能表項目時，[標題文字]  對話方塊隨即出現。 
 
 ![[標題文字] 對話方塊的螢幕擷取畫面](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 

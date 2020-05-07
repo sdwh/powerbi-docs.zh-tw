@@ -10,13 +10,13 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 5b13fdc1f65fe2650ea0fb4fee1be20611ac3e8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877303"
 ---
-# <a name="dataflows-and-azure-data-lake-integration-preview"></a>資料流程與 Azure Data Lake 整合 (預覽)
+# <a name="dataflows-and-azure-data-lake-integration-preview"></a>Dataflows and Azure Data Lake 整合 (預覽)
 
 根據預設，搭配 Power BI 使用的資料儲存在 Power BI 提供的內部儲存體中。 透過整合資料流程與 Azure Data Lake Storage Gen2 (ADLS Gen2)，您可以在組織的 Azure Data Lake Storage Gen2 帳戶中儲存資料流程。 
 
@@ -78,11 +78,11 @@ Power BI 外部的人員或服務也可以利用授權替代形式，這些替�
 
 * [設定工作區資料流程設定 (預覽)](service-dataflows-configure-workspace-storage-settings.md)
 * [新增 CDM 資料夾成為 Power BI 資料流程 (預覽)](service-dataflows-add-cdm-folder.md)
-* [連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體 (預覽)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
+* [連接 Azure Data Lake Storage Gen2 來儲存資料流程 (預覽)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 如需有關資料流程的整體資訊，請參閱這些文章：
 
-* [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
+* [建立 Power BI 中的資料流程](service-dataflows-create-use.md)
 * [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
 * [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)

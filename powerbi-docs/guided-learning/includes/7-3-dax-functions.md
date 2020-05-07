@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73799730"
 ---
 使用 DAX，有許多函數可用於形成、塑造，或分析您的資料。 這些函數可分為數個類別︰
@@ -52,8 +52,8 @@ DAX 中常用的**計算**函數包括下列︰
 ## <a name="logical-functions"></a>邏輯函數
 DAX 中的**邏輯**函數集合包括︰
 
-* AND
-* OR
+* 和
+* 或
 * NOT
 * IF
 * IFERROR
