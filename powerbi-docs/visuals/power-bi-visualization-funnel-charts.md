@@ -11,17 +11,17 @@ ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762431"
 ---
 # <a name="create-and-use-funnel-charts"></a>建立和使用漏斗圖
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-漏斗圖幫您將有循序連接階段的線性程序視覺化。 例如，會分階段追蹤客戶的銷售漏斗圖：潛在客戶 (Lead) \> 合格的潛在客戶 (Lead) \> 潛在客戶 (Prospect) \> 合約 \> 關閉。  漏斗圖的圖形一看就能表達出您追蹤中程序的健全狀況。
+漏斗圖幫您將有循序連接階段的線性程序視覺化。 例如，銷售漏斗圖透過以下階段追蹤客戶：潛在客戶 \> 合格的潛在客戶 \> 期望 \> 合約 \> 結案。  漏斗圖的圖形一看就能表達出您追蹤中程序的健全狀況。
 
 漏斗圖的每個階段代表總數中所佔的百分比。 因此，在大部分情況下，漏斗圖形狀像漏斗 -- 第一階段最大，然後每個後續階段比前一階段小。  梨狀的漏斗圖也很實用，能識別出程序中的問題。  但通常第一階段，也就是「引入」階段佔最大部分。
 
@@ -58,9 +58,9 @@ ms.locfileid: "75762431"
    
 2. 尋找您的**商機分析範例 PBIX 檔案**複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**商機分析範例 PBIX 檔案**。
+1. 在報表檢視 **報表檢視圖示的螢幕擷取畫面** 中開啟![商機分析範例 PBIX 檔案](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+1. Select ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
 
 ## <a name="create-a-basic-funnel-chart"></a>建立基本漏斗圖
@@ -92,7 +92,7 @@ ms.locfileid: "75762431"
 6. [儲存報表](../service-report-save.md)。
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
-如需使用 [篩選] 窗格的資訊，請參閱[將篩選加入報表](../power-bi-report-add-filter.md)。
+如需使用 [篩選] 窗格的資訊，請參閱[將篩選新增至報表](../power-bi-report-add-filter.md)。
 
 在漏斗圖中反白顯示列，會篩選報表頁面上的其他視覺效果，反之亦然。 如果要跟著做，請將其他一些視覺效果加入包含漏斗圖的報表頁面中。
 

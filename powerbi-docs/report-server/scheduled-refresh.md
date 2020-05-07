@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
 ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75837604"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI 報表伺服器中 Power BI 報表排程的重新整理
@@ -28,7 +28,7 @@ Power BI 報表的排程重新整理可讓報表的資料保持在最新狀態�
 針對 Power BI 報表使用排程的重新整理時，會牽涉到數個元件。
 
 * SQL Server Agent 作為計時器來產生排程的事件。
-* 排程的作業會新增至事件佇列和報表伺服器資料庫中的通知。 在相應放大部署中，會在部署中的所有報表伺服器之間共用佇列。
+* 排程的作業會新增至事件佇列和報表伺服器資料庫中的通知。 在向外延展部署中，佇列會在部署中的所有報表伺服器間共用。
 * 因為排程的事件而發生的所有報表處理會以背景處理程序執行。
 * 資料模型會在 Analysis Services 執行個體中載入。
 * 對於某些資料來源，Power Query 混搭引擎是用來連線至資料來源，並且轉換資料。 其他資料來源可能會直接從用來裝載 Power BI 報表伺服器資料模型的 Analysis Services 服務連線。
@@ -36,7 +36,7 @@ Power BI 報表的排程重新整理可讓報表的資料保持在最新狀態�
 * 在向外延展設定中，資料模型可以跨節點複寫。
 * Analysis Services 會處理資料，並執行任何所需的計算。
 
-Power BI 報表伺服器會為所有排程的作業維護事件佇列。 它會定期輪詢佇列以檢查是否有新的事件。 根據預設，佇列會以 10 秒鐘的間隔進行掃描。 您可以藉由修改 RSReportServer.config 檔案中的 **PollingInterval**、**IsNotificationService** 和**IsEventService** 組態設定，來變更間隔。 **IsDataModelRefreshService** 也可以用來設定報表伺服器是否處理排程的事件。
+Power BI 報表伺服器會為所有排程的作業維護事件佇列。 也會定期輪詢此佇列，以檢查是否有新的事件。 根據預設，佇列會以 10 秒鐘的間隔進行掃描。 您可以藉由修改 RSReportServer.config 檔案中的 **PollingInterval**、**IsNotificationService** 和**IsEventService** 組態設定，來變更間隔。 **IsDataModelRefreshService** 也可以用來設定報表伺服器是否處理排程的事件。
 
 ### <a name="analysis-services"></a>Analysis Services
 轉譯 Power BI 報表，以及執行排程的重新整理，需要在 Analysis Services 中載入 Power BI 報表的資料模型。 Analysis Services 處理程序將會與 Power BI 報表伺服器執行。
@@ -51,7 +51,7 @@ Power BI 報表伺服器會為所有排程的作業維護事件佇列。 它會�
 
 除了上述清單，在「匯入」  模式中還有資料來源的特定案例，您無法為其建立重新整理計劃。
 
-* 如果使用「檔案」  或「資料夾」  資料來源，且檔案路徑是本機路徑 (例如 C:\Users\user\Documents)，則無法建立重新整理計劃。 路徑必須是報表伺服器可以連線的路徑，例如網路共用。 例如，\\myshare\Documents  。
+* 如果使用「檔案」  或「資料夾」  資料來源，且檔案路徑是本機路徑 (例如 C:\Users\user\Documents)，則無法建立重新整理計劃。 路徑必須是報表伺服器可以連線的路徑，例如網路共用。 例如，*myshare\Documents\\* 。
 * 如果資料來源只能使用 OAuth (例如，Facebook、Google Analytics、Salesforce 等) 來連線，則無法建立快取重新整理計劃。 目前，RS 不支援任何資料來源 (無論是分頁、行動或 Power BI 報表) 的 OAuth 驗證。
 
 ### <a name="memory-limits"></a>記憶體限制

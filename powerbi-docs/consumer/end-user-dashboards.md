@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b0e52ebf4f529c7da75e79becf30c74d6e2c0248
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496324"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Power BI 服務取用者的儀表板
@@ -53,7 +53,7 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 | 篩選 |無法篩選或配量 |有多種不同方法可篩選、反白顯示及配量 |
 | 設定警示 |可以建立警示於達到特定條件時發送電子郵件 |否 |
 | 精選 |可將一個儀表板設定為「精選」儀表板 |無法建立精選報表 |
-| 可以看到基礎資料集的資料表和欄位 |不會。 可以匯出資料，但看不到儀表板本身的資料表和欄位。 |是。 可以看到資料集資料表和欄位以及值。 |
+| 可以看到基礎資料集的資料表和欄位 |否。 可以匯出資料，但看不到儀表板本身的資料表和欄位。 |有。 可以看到資料集資料表和欄位以及值。 |
 
 
 ## <a name="dashboard-designers-and-dashboard-consumers"></a>儀表板設計師和儀表板取用者

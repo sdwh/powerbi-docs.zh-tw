@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/16/2020
 ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160596"
 ---
 # <a name="install-power-bi-report-server"></a>安裝 Power BI 報表伺服器
@@ -105,7 +105,7 @@ ms.locfileid: "76160596"
 
 `System.Data.SqlClient.SqlException (0x80131904): Windows NT user or group '(null)' not found. Check the name again.`
 
-為暫時避開錯誤，您可以將服務帳戶變更為網路服務或網域帳戶。 將服務帳戶變更為網路服務，會套用報表伺服器電腦帳戶內容中的權限。
+若要解決錯誤，您可以將服務帳戶變更成網路服務或網域帳戶。 將服務帳戶變更為網路服務，會套用報表伺服器電腦帳戶內容中的權限。
 
 ![設定報表伺服器服務帳戶](media/install-report-server/pbireportserver-configure-account.png)
 
@@ -113,7 +113,7 @@ ms.locfileid: "76160596"
 
 ## <a name="windows-service"></a>Windows 服務
 
-Windows 服務會建立為安裝的一部分。 它會顯示為 **Power BI 報表伺服器**。 服務名稱是 **PowerBIReportServer**。
+安裝時會建立 Windows 服務。 它會顯示為 **Power BI 報表伺服器**。 服務名稱是 **PowerBIReportServer**。
 
 ![報表伺服器 Windows 服務](media/install-report-server/pbireportserver-windows-service.png)
 
@@ -125,15 +125,15 @@ URL 保留項目是由前置詞、主機名稱、連接埠及虛擬目錄所組�
 
 | 組件 | 描述 |
 | --- | --- |
-| 前置詞 |預設的前置詞是 HTTP。 如果之前安裝的是安全通訊端層 (SSL) 憑證，安裝程式會嘗試建立使用 HTTPS 前置詞的 URL 保留項目。 |
-| 主機名稱 |預設的主機名稱是強式萬用字元 (+)。 它會指定報表伺服器接受解析為電腦的任何主機名稱的指定連接埠上的任何 HTTP 要求，包括 `https://<computername>/reportserver`、`https://localhost/reportserver` 或 `https://<IPAddress>/reportserver.`。 |
+| 前置詞 |預設的前置詞是 HTTP。 如果您之前安裝了安全通訊端層 (SSL) 憑證，安裝程式會嘗試建立使用 HTTPS 前置詞的 URL 保留項目。 |
+| 主機名稱 |預設的主機名稱是強式萬用字元 (+)。 它會指定報表伺服器接受解析為電腦任何主機名稱之指定連接埠上的任何 HTTP 要求，包括 `https://<computername>/reportserver`、`https://localhost/reportserver` 或 `https://<IPAddress>/reportserver.` |
 | 連接埠 |預設連接埠為 80。 如果使用連接埠 80 以外的任何連接埠，您必須在瀏覽器視窗中開啟入口網站時，明確將它新增至 URL。 |
 | 虛擬目錄 |根據預設，虛擬目錄是以報表伺服器 Web 服務和入口網站報告的 ReportServer 格式建立。 報表伺服器 Web 服務的預設虛擬目錄是 **reportserver**。 入口網站的預設虛擬目錄是 **reports**。 |
 
 完整的 URL 字串範例可能如下︰
 
 * `https://+:80/reportserver` 可以存取報表伺服器。
-* `https://+:80/reports` 可以存取入口網站。
+* `https://+:80/reports`，提供入口網站的存取權。
 
 ## <a name="firewall"></a>防火牆
 
@@ -144,7 +144,7 @@ URL 保留項目是由前置詞、主機名稱、連接埠及虛擬目錄所組�
 ## <a name="additional-configuration"></a>額外設定
 
 * 若要設定與 Power BI 服務整合，以便將報表項目釘選至 Power BI 儀表板，請參閱[與 Power BI 服務整合](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager)。
-* 若要設定電子郵件以處理訂用帳戶，請參閱[電子郵件設定](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager)和[在報表伺服器中傳遞電子郵件](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)。
+* 若要設定處理訂用帳戶的電子郵件，請參閱[電子郵件設定](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager)和[報表伺服器的電子郵件傳遞](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)。
 * 若要設定入口網站可在報表電腦上存取，以便檢視和管理報表，請參閱[設定防火牆以存取報表伺服器](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access)和[設定報表伺服器進行遠端管理](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration)。
 * 如需在 SQL Server Management Studio 中設定報表伺服器系統屬性的詳細資訊，請參閱[伺服器屬性進階頁面](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services)。 除非另有指定，否則選項同時適用於 Power BI 報表伺服器和 SQL Server Reporting Services。
 

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4b279ebb1ae4ae34f1b9832883ddde5d804a7ace
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762385"
 ---
 # <a name="use-the-google-analytics-connector-for-power-bi-desktop"></a>使用 Power BI Desktop 的 Google Analytics 連接器
@@ -46,5 +46,5 @@ ms.locfileid: "75762385"
 ## <a name="changes-to-the-api"></a>應用程式開發介面的變更
 雖然我們嘗試一有變更即發行更新，但是應用程式開發介面變更的方式可能會影響我們產生查詢的結果。 在某些情況下，可能不再支援某些查詢。 由於這種相依性，我們無法保證您使用這個連接器的查詢結果。
 
-如需 Google Analytics (分析) API 變更的詳細資訊，請參閱其[變更記錄](https://developers.google.com/analytics/devguides/changelog)。
+如需 Google Analytics (分析) API 變更的詳細資訊，請參閱其[變更記錄](https://developers.google.com/analytics/devguides/changelog).
 

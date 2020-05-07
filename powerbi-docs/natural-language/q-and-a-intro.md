@@ -1,6 +1,6 @@
 ---
 title: 透過 Power BI 問與答使用自然語言探索資料
-description: 如何使用 Power BI 問與答探索資料
+description: 如何使用 Power BI 問與答探索您的資料
 author: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874959"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867775"
 ---
 # <a name="intro-to-power-bi-qa"></a>Power BI 問與答簡介
 
@@ -65,10 +65,10 @@ Power BI 問與答完全免費，並可供所有使用者使用。 在 Power BI 
 當您鍵入問題時，問與答會嘗試立即解譯答案並將其視覺化。 在最新的更新中，問與答現在會嘗試解譯問題，並自動將欄位繪製到正確的座標軸。 例如，如果您鍵入「依年份的銷售額」，問與答會偵測到該年份是日期欄位，並一律優先將此欄位放在 X 軸上。 如果您想要變更視覺效果類型，請在問題後面鍵入「以圖表類型  顯示」。 問與答目前支援下列視覺效果類型：
 
 - 折線圖
-- 橫條圖
-- 矩陣圖
-- 資料表
-- card
+- 長條圖
+- 矩陣
+- Table
+- 卡片
 - 區域
 - 圓形圖
 - 散佈圖/泡泡圖
@@ -99,7 +99,7 @@ Power BI 問與答完全免費，並可供所有使用者使用。 在 Power BI 
 
 ## <a name="next-steps"></a>後續步驟
 
-您可以透過各種方式將自然語言整合至報表中。 如需詳細資訊，請參閱下列文章：
+您可以透過各種方式將自然語言整合至報表中。 如需詳細資訊，請參閱這些文章：
 
 * [問與答視覺效果](../visuals/power-bi-visualization-q-and-a.md)
 * [問與答最佳做法](q-and-a-best-practices.md)

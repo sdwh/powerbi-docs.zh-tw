@@ -10,10 +10,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4d478396f88a1443c0d23d64199d84f0b615b1da
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761810"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>在 Power BI Desktop 中套用 [採用參考完整性] 設定
@@ -37,7 +37,7 @@ ms.locfileid: "75761810"
 1. 下圖顯示 **Orders** 資料表和 **Products** 資料表，請注意 **Orders[ProductID]** 和 **Products[ProductID]** 之間存在參考完整性。 **Orders** 資料表中的 **[ProductID]** 資料行永遠不可為 *Null* ，而且每個值也都會出現在 **Products** 資料表中。 因此，您應該設定 [採用參考完整性]  ，以取得更有效率的查詢 (使用此設定不會變更以視覺化方式顯示的值)。
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. 在下圖中，請注意 **Orders[DepotID]** 和 **Depots[DepotID]** 之間不存在參考完整性，因為某些 *Orders* 的 **DepotID** 為 *Null*。 因此，您「不」  應該設定 [採用參考完整性]  。
+2. 在下圖中，請注意 **Orders[DepotID]** 和 **Depots[DepotID]** 之間不存在參考完整性，因為某些 **Orders** 的 *DepotID* 為 *Null*。 因此，您「不」  應該設定 [採用參考完整性]  。
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. 最後，下列資料表中的 **Orders[CustomerID]** 和 **Customers[CustID]** 之間不存在參考完整性；**CustomerID** 包含 *Customers* 資料表中不存在的某些值 (在本例中為 *CustX*)。 因此，您「不」  應該設定 [採用參考完整性]  。

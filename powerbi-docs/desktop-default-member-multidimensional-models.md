@@ -10,10 +10,10 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: ea60400a4522dd496e19d508f13760581c0b2620
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761241"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>使用 Power BI 中的多維度模型
@@ -58,11 +58,11 @@ ms.locfileid: "75761241"
 
 現在讓我們看看在 Power BI 中使用每個資料行時會發生什麼事。 當視覺效果在下列資料行上進行群組時，會產生下列結果：
 
-* **City** \(縣/市\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\)、[Country]  \(國家/地區\) 的所有**預設成員**，但保留 [Population]  \(人口\) 的**預設成員**來顯示所有縣/市；Power BI 會清除 [City]  \(縣/市\) 的整個 ARP。
+* **City** \(縣/市\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\)、[Country]  \(國家/地區\) 的所有*預設成員*，但保留 [Population]  \(人口\) 的*預設成員*來顯示所有縣/市；Power BI 會清除 [City]  \(縣/市\) 的整個 ARP。
     > [!NOTE]
     > [Population]  \(人口\) 並沒有位於 [City]  \(縣/市\) 的 ARP 路徑中，它單純只與 [State]  \(州/省\) 相關，因此 Power BI 不會清除它。
-* **State** \(州/省\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\)、[Country]  \(國家/地區\) 和 [Population]  \(人口\) 的所有**預設成員**，來顯示所有「州/省」  。
-* **Country** \(國家/地區\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\) 和 [Country]  \(國家/地區\) 的所有**預設成員**，但保留 [Population]  \(人口\) 的**預設成員**來顯示所有縣/市。
+* **State** \(州/省\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\)、[Country]  \(國家/地區\) 和 [Population]  \(人口\) 的所有*預設成員*，來顯示所有「州/省」  。
+* **Country** \(國家/地區\)：Power BI 會透過清除 [City]  \(縣/市\)、[State]  \(州/省\) 和 [Country]  \(國家/地區\) 的所有*預設成員*，但保留 [Population]  \(人口\) 的*預設成員*來顯示所有縣/市。
 * **City and State** \(縣/市和州/省\)：Power BI 會清除所有資料行的所有**預設成員**。
 
 針對顯示於視覺效果中的群組，系統會清除它們的整個 ARP 路徑。 

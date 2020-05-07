@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
 ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859186"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI 報表伺服器中的資料列層級安全性 (RLS)
@@ -57,7 +57,7 @@ ms.locfileid: "73859186"
 
 1. 以使用者名稱格式 (網域\使用者) 在文字方塊中輸入使用者或群組，並選取您要指派給他們的角色。 這個成員必須在您組織中。   
 
-    ![將成員新增到角色](media/row-level-security-report-server/power-bi-report-server-add-members.png)
+    ![將成員新增至角色](media/row-level-security-report-server/power-bi-report-server-add-members.png)
 
     您也可以在這裡輸入使用者主體名稱，視您設定 Active Directory 的方式而定。 在此情況下，報表伺服器會在清單中顯示相對應的使用者名稱。
 

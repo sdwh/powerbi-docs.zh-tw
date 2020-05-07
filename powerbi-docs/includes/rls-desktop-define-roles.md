@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 27d6db6cf8ad8ebd7b2c957954ceec34b83681d0
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464335"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>在 Power BI Desktop 中定義角色和規則
@@ -25,7 +25,7 @@ ms.locfileid: "77464335"
    ![選取 [建立]](./media/rls-desktop-define-roles/powerbi-desktop-security-create-role.png)
 4. 在 [角色]  下提供角色名稱。 
 5. 在 [資料表]  下選取要套用 DAX 規則的資料表。
-6. 在 [資料表篩選 DAX 運算式]  方塊中，輸入 DAX 運算式。 這個運算式會傳回 true 或 false 的值。 例如：```[Entity ID] = “Value”```。
+6. 在 [資料表篩選 DAX 運算式]  方塊中，輸入 DAX 運算式。 這個運算式會傳回 true 或 false 的值。 例如： ```[Entity ID] = “Value”``` 。
       
    ![[管理角色] 視窗](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 

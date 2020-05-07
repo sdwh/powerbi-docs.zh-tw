@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761172"
 ---
 # <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>在 Power BI 中使用 DirectQuery 連線到 SAP Business Warehouse
@@ -32,23 +32,23 @@ ms.locfileid: "75761172"
 在 Power BI 中使用 DirectQuery 連線到 SAP BW 時的其他主要模型限制如下：
 
 * **不支援計算結果欄：** 已停用建立計算結果欄的功能。 也就是說，建立計算結果欄的群組和叢集將無法使用。
-* **量值的其他限制：** 在可於量值中使用的 DAX 運算式上有其他限制，用以反映 SAP BW 所提供的支援層級。
+* **量值的其他限制：** 可用於量值的 DAX 運算式上還有其他限制，以反映 SAP BW 所提供的支援層級。
 * **不支援定義關聯性：** 無法在模型中定義外部 SAP 來源固有的關聯性及其他關聯性。
-* **沒有資料檢視：** [資料檢視]  通常會顯示資料表中的詳細等級資料。 根據 SAP BW 等 OLAP 來源的本質，無法透過 SAP BW 使用此檢視。
-* **資料行和量值的詳細資料是固定的：** 欄位清單中出現的資料行和量值清單由基礎來源決定，清單是固定的而且無法修改。 例如，您無法刪除資料行，也無法變更其資料類型 (不過可以重新命名)。
+* **沒有資料檢視：[資料檢視]**  通常會顯示資料表中的詳細等級資料。 根據 SAP BW 等 OLAP 來源的本質，無法透過 SAP BW 使用此檢視。
+* **資料行和量值詳細資料是固定的：** 欄位清單中所示的資料行和量值因基礎來源已固定，而且無法修改。 例如，您無法刪除資料行，也無法變更其資料類型 (不過可以重新命名)。
 * **DAX 中的其他限制：** 可用於量值定義的 DAX 上還有其他限制，以反映來源中的限制。 例如，您無法對資料表使用彙總函式。
 
 ## <a name="additional-visualization-restrictions"></a>其他視覺效果限制
 在 Power BI 中使用 DirectQuery 連接到 SAP BW 時的其他主要視覺效果限制如下：
 
-* **沒有資料行彙總：** 您無法變更視覺效果上資料行的彙總，它一律為「不摘要」 
+* **沒有資料行彙總：** 您無法變更視覺效果的資料行彙總；一律為「不摘要」 
 * **已停用量值篩選：** 已停用量值篩選，以反映 SAP BW 所提供的支援。
 * **複選及包含/排除：** 如果視覺效果上的資料點代表多個資料行的值，則會停用複選這些點的功能。 例如，假設有依國家/地區顯示銷售量的橫條圖並在圖例中含有類別，您無法選取 (USA, Bikes) 和 (France, Clothes) 點。 同樣地，您無法選取 (USA, Bikes) 點並將它從視覺效果中排除。 這兩項限制是為了反映 SAP BW 所提供的支援。
 
 ## <a name="support-for-sap-bw-features"></a>SAP BW 功能的支援
 下表列出未完全支援或使用 Power BI 時會有不同行為的所有 SAP BW 功能。   
 
-| 特徵 | 描述 |
+| 功能 | 描述 |
 | --- | --- |
 | 本機計算 |BEx 查詢中所定義的本機計算，會變更透過 BEx Analyzer 等工具顯示的數字。 不過，這些計算不會反映在 SAP 透過公用 MDX 介面所傳回的數字中。 <br/> <br/> **因此，Power BI 視覺效果中所示的數字，不一定符合 SAP 工具中對應視覺效果中的數字。**<br/> <br/>  例如，從 BEx 查詢連接到查詢 Cube 以設定要累積的彙總 (也就是變動總合) 時，Power BI 會取得基底數字，並略過該設定。  分析師接著當然可在 Power BI 本機套用變動總合計算，但請務必小心謹慎處理未完成時的數字解譯方式。 |
 | 彙總 |在某些情況下 (特別是處理多種貨幣時)，SAP 公用介面所傳回的彙總數字與 SAP 工具所示的數字不符。 <br/> <br/> **因此，Power BI 視覺效果中所示的數字，不一定符合 SAP 工具中對應視覺效果中的數字。** <br/> <br/> 例如，不同貨幣的總計在 BEx Analyzer 中會顯示為 "*"，但 SAP 公用介面會傳回該總計，而不會有任何資訊指出這是無意義的彙總數字。 因此，Power BI 會顯示此數字 (彙總 $、EUR 和 AUD 等)。 |

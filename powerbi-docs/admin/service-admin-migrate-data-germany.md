@@ -10,10 +10,10 @@ ms.date: 12/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: aa05ffa7ba07ea1daf162f8ebb2baa3d18f64b29
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75256348"
 ---
 # <a name="migrate-your-subscription-to-the-new-go-local-german-regions"></a>將您的訂閱移轉至新的「前往當地」德文地區
@@ -24,6 +24,6 @@ ms.locfileid: "75256348"
 
 移轉您的訂閱之後，我們會降低定價使符合公用雲端定價。 直接客戶會看到有新年度續訂日期的新訂閱。 下列服務會隨此方法移轉：
 
-* Power BI
+* Azure 使用狀況
 
 我們會在接下來的幾個月內繼續更新本文，以新增有關必要條件、逐步程序及移轉對組織影響的詳細資訊。

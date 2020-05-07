@@ -10,10 +10,10 @@ ms.date: 06/04/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 63d49a439d10acc5d7cda10b76b04a26fcdb085a
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698800"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>重新整理建立自本機磁碟上 Power BI Desktop 檔案的資料集
@@ -37,7 +37,7 @@ ms.locfileid: "74698800"
 
 您可以選取 [首頁] 功能區的 [重新整理]  ，在 Power BI Desktop 手動執行一次性的重新整理。 當您在這裡選取 [重新整理]  時，就會使用原始資料來源的更新資料重新整理「檔案」  模型中的資料。 這類的重新整理，完全位於 Power BI Desktop 應用程式本身，不同於 Power BI 中的手動或排程重新整理，所以請務必了解此差異。
 
-![重新整理](media/refresh-desktop-file-local-drive/pbix-refresh.png)
+![Refresh](media/refresh-desktop-file-local-drive/pbix-refresh.png)
 
 當您從本機磁碟機匯入 Power BI Desktop 檔案時，模型資料和其他相關資訊都會載入 Power BI 服務的資料集內。 在 Power BI 服務 (而非 Power BI Desktop) 中，因為 Power BI 服務中的報表是以該資料集為基礎，所以您會想要重新整理該資料集的資料。 因為資料來源位於外部，所以您可以使用 [立即重新整理]  手動重新整理資料集，或您可以使用 [排程重新整理]  設定重新整理排程。
 

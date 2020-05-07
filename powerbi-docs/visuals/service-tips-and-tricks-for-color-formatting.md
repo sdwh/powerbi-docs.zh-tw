@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76894944"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>在 Power BI 中色彩格式化的秘訣和訣竅
@@ -23,7 +23,7 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 
 * 將主題套用至整個報表
 * 變更單一資料點的色彩
-* 條件式格式設定
+* 設定格式化的條件
 * 根據數值設定圖表的色彩
 * 根據欄位值設定資料點的色彩
 * 自訂色階中所使用的色彩
@@ -99,7 +99,7 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 如您所見，雖然我們針對 [生產力]  和 [極端]  皆售出更多單位 (其直條較高)，但 [仲裁]  仍具有較大的 [市佔率 SPLY YTD]  (其直條色彩更加飽和)。
 
 ### <a name="customize-the-colors-used-in-the-color-scale"></a>自訂色階中所使用的色彩
-您也可以變更這些值對應至這些色彩的方式。 在下圖中， **最小值** 和 **最大值** 的色彩分別設定為橙色和綠色。
+您也可以變更這些值對應至這些色彩的方式。 在下圖中，**最小值**和**最大值**的色彩分別設定為橙色和綠色。
 
 在第一張影像中，請注意圖表中的長條如何反映在列中的漸層；最大值為綠色，最小值為橙色，且兩者之間的每個長條顏色深淺介於綠色和橙色。
 

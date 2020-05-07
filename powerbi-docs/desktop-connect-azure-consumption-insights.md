@@ -11,10 +11,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c6987c5849fd2f971c1d7bdc7fe6130dcd09ce59
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761718"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>在 Power BI Desktop 中連線到 Azure 使用量見解資料
@@ -192,7 +192,7 @@ Azure 入口網站資料行和詳細資料名稱在 API 和連接器中非常相
 | ConsumedServiceId |consumedServiceId | |是 |
 | 成本 |cost |ExtendedCost |否 |
 | Cost Center |costCenter |Cost Center |否 |
-| 日期 |日期 |日期 |否 |
+| 日期 |date |日期 |否 |
 | 日 | |日 |否 |
 | DepartmentName |departmentName |部門名稱 |否 |
 | DepartmentID |departmentId | |是 |

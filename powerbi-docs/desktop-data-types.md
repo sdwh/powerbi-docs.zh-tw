@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: f689ba79f9cce7d6ee815e0712491e7d00647fe8
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82584761"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841656"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的資料類型
 本文描述 Power BI Desktop 與資料分析運算式 (DAX) 支援的資料類型。 
@@ -79,10 +79,11 @@ Power BI Desktop 支援 [查詢檢視] 中的五種 [日期/時間] 資料類型
 二進位資料類型可用以表示任何其他使用二進位格式的資料。 如果您先將二進位資料檔案轉換成其他資料類型，才載入 Power BI 模型，則在查詢編輯器中，您可以在載入這些檔案時使用此類型。 Power BI 資料模型不支援二進位資料行。 為與舊版相容，[資料檢視] 與 [報表檢視] 功能表保存此選項，但如果您嘗試將二進位資料行載入 Power BI 模型，可能會發生錯誤。
 
 
+
+
 > [!NOTE]
 >  若二進位資料行出現在查詢步驟的輸出中，嘗試透過閘道重新整理資料可能會導致錯誤。 建議您在查詢的最後一個步驟中，明確移除所有二進位資料行。    
 > 
->
 
 ### <a name="table-data-type"></a>資料表資料類型
 DAX 會在許多函數中使用資料表資料類型，例如彙總與時間智慧計算。 某些函數需要資料表的參考，其他函數則會傳回之後可當做其他函數輸入使用的資料表。 在需要資料表當做輸入的部分函數中，您可以指定評估為資料表的運算式；對於某些函數，則需要基底資料表的參考。 如需特定函數需求的相關資訊，請參閱 [DAX 函數參考](https://msdn.microsoft.com/library/ee634396.aspx).

@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: ab629c15f1e1e998c3870b95993cdf7348cb15ff
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872832"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>在 Power BI 服務中建立儀表板的複本
@@ -47,7 +47,7 @@ ms.locfileid: "73872832"
 
 
 ## <a name="next-steps"></a>後續步驟
-* [設計絕佳儀表板的秘訣](service-dashboards-design-tips.md) 
+* [設計絕佳 Power BI 儀表板的秘訣](service-dashboards-design-tips.md) 
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

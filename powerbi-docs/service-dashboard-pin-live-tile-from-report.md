@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853067"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>將整份報表頁面釘選到 Power BI 儀表板上，做為動態磚
@@ -37,13 +37,13 @@ ms.locfileid: "73853067"
 2. 未選取任何視覺效果時，請從功能表列中選取 [動態釘選] 頁面  。
    
    ![[動態釘選] 頁面圖示](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. 將磚釘選至現有的儀表板或新的儀表板上。 請注意反白顯示的文字：[[動態釘選] 頁面可讓報表的變更在頁面重新整理時，顯示在儀表板磚上。] 
+3. 將磚釘選至現有的儀表板或新的儀表板上。 請注意醒目提示的文字： *「[動態釘選] 頁面可在重新整理頁面時，讓報告的變更出現在儀表板磚中。」*
    
    * 現有儀表板：從下拉式清單中選取儀表板的名稱。 已與您共用的儀表板，不會出現在下拉式清單中。
    * 新儀表板：輸入新儀表板的名稱。
      
      ![[釘選到儀表板] 對話方塊](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)
-4. 選取 [ **動態釘選**]。 您可利用靠近右上角所出現的成功訊息，知道該頁面已加入儀表板成為磚。
+4. 選取 [動態釘選]  。 您可利用靠近右上角所出現的成功訊息，知道該頁面已加入儀表板成為磚。
 
 ## <a name="open-the-dashboard-to-see-the-pinned-live-tile"></a>開啟儀表板以查看釘選的動態磚
 1. 從導覽窗格選取具有新動態磚的儀表板。 您可以在該處對釘選的報表頁面進行[重新命名、調整大小、連結和移動](service-dashboard-edit-tile.md)等操作。  
