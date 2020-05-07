@@ -11,10 +11,10 @@ ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79436080"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>在 Power BI 中建立和使用組合圖
@@ -41,9 +41,9 @@ ms.locfileid: "79436080"
    
 2. 尋找您的**零售分析範例 PBIX 檔案**複本
 
-1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
+1. 在報表檢視 **報表檢視圖示的螢幕擷取畫面** 中開啟![零售分析範例 PBIX 檔案](media/power-bi-visualization-kpi/power-bi-report-view.png)。
 
-1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+1. Select ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
 
 
@@ -68,7 +68,7 @@ ms.locfileid: "79436080"
     ![組合教學課程範例](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. 選取視覺效果右上角的 [更多選項]  (...)，然後選取 [排序依據] > [FiscalMonth]  。 若要變更排序次序，請再次選取省略符號，並選擇 [遞增排序]  或 [遞減排序]  。 範例將使用 [遞增排序]  。
 
-6. 將直條圖轉換成組合圖。 有兩個組合圖可用：[折線與堆疊直條圖]  和 [折線與群組直條圖]  。 選取直條圖後，從 [視覺效果]  窗格中，選取 [折線與群組直條圖]  。
+6. 將直條圖轉換成組合圖。 有兩個可用的組合圖：[折線與堆疊直條圖]  和 [折線與群組直條圖]  。 選取直條圖後，從 [視覺效果]  窗格中，選取 [折線與群組直條圖]  。
 
     ![轉換組合圖範例](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
 7. 從 [欄位]  窗格中，將 [銷售額]  \> [去年度銷售額]  拖曳到 [折線圖值]  貯體。

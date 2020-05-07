@@ -10,10 +10,10 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d6a36f8ef3ef5d668fe8d6021758b651cdbf7fd5
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79206761"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中將資料成形及合併

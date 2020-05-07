@@ -10,10 +10,10 @@ ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79496255"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>為同事的 Power BI [首頁] 頁面添加精選內容
@@ -60,5 +60,5 @@ Power BI 租用戶系統管理員可以決定是否授與為租用戶精選內�
 
 * [應該如何共同作業和共用儀表板和報表？](../service-how-to-collaborate-distribute-dashboards-reports.md)
 * [在管理入口網站中管理精選內容](../service-admin-portal.md#manage-featured-content)
-* 有問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
+* 有任何問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

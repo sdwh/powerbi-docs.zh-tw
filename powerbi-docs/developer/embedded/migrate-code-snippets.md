@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114473"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>從 Power BI 工作區集合遷移內容的程式碼片段
@@ -127,7 +127,7 @@ using System.Threading.Tasks;
 
 ## <a name="set-directquery-credentials-in-saas-workspace"></a>在 SaaS 工作區中設定 DirectQuery 認證
 
-在此程式碼片段中，為了簡單起見，我們使用未加密的認證，但也支援傳送加密的認證。
+在此程式碼片段中，為了簡單起見，我們使用未加密的認證，也支援傳送加密的認證。
 
 ```csharp
     public class ConnectionString
@@ -232,7 +232,7 @@ using System.Threading.Tasks;
 [Power BI Embedded 移轉工具](migrate-tool.md)  
 [內嵌在 Power BI 之中](embedding.md)  
 [如何將 Power BI Embedded 工作區集合內容移轉至 Power BI](migrate-from-powerbi-embedded.md)  
-[如何內嵌 Power BI 儀表板、報告和圖格](embed-sample-for-your-organization.md)  
+[如何內嵌 Power BI 儀表板、報表和磚](embed-sample-for-your-organization.md)  
 [何謂 Power BI Premium](../../service-premium-what-is.md)  
 [JavaScript API Git 存放庫](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 存放庫](https://github.com/Microsoft/PowerBI-CSharp)  

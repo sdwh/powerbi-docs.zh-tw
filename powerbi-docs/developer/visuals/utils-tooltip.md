@@ -9,16 +9,16 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
 ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379160"
 ---
 # <a name="tooltip-utils"></a>工具提示公用程式
 此文章將協助您安裝、匯入及使用工具提示公用程式。 此公用程式適用於 Power BI 視覺效果中的任何工具提示自訂。
 
-## <a name="requirements"></a>需求
+## <a name="requirements"></a>要求
 若要使用該套件，您應該具有下列項目：
 * [node.js](https://nodejs.org) (我們建議使用最新的 LTS 版本)
 * [npm](https://www.npmjs.com/) (支援的最低版本為 3.0.0)
@@ -61,7 +61,7 @@ npm install powerbi-visuals-utils-colorutils --save
 function createTooltipServiceWrapper(tooltipService: ITooltipService, rootElement: Element, handleTouchDelay?: number,  getEventMethod?: () => MouseEvent): ITooltipServiceWrapper;
 ```
 
-您可以在 [IVisualHost](https://github.com/microsoft/PowerBI-visuals-tools/blob/master/templates/visuals/.api/v2.6.0/PowerBI-visuals.d.ts#L1335) 中找到 ```ITooltipService```。
+您可以在 ```ITooltipService```IVisualHost[ 中找到 ](https://github.com/microsoft/PowerBI-visuals-tools/blob/master/templates/visuals/.api/v2.6.0/PowerBI-visuals.d.ts#L1335)。
 
 **範例**
 

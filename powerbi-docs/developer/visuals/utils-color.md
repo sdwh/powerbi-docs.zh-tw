@@ -9,16 +9,16 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
 ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379344"
 ---
 # <a name="color-utils"></a>色彩公用程式
 此文章將協助您安裝、匯入及使用色彩公用程式。 此文章說明如何使用色彩公用程式，簡化在 Power BI 視覺效果上的視覺效果資料點套用佈景主題與調色盤的程序。
 
-## <a name="requirements"></a>需求
+## <a name="requirements"></a>要求
 若要使用該套件，您應該具有下列項目：
 * [node.js](https://nodejs.org) (我們建議使用最新的 LTS 版本)
 * [npm](https://www.npmjs.com/) (支援的最低版本為 3.0.0)

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
 ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79487801"
 ---
 # <a name="tenant-admin-settings-guidance"></a>租用戶系統管理設定指導
@@ -76,7 +76,7 @@ ms.locfileid: "79487801"
 
 ![顯示 [建立工作區] 設定。](media/admin-tenant-settings/create-workspaces.png)
 
-### <a name="share-content-with-external-users"></a>與外部使用者共用內容
+### <a name="share-content-with-external-users"></a>將內容共用給外部使用者
 
 使用者可以與組織外部人員共用報表和儀表板。
 
@@ -86,7 +86,7 @@ ms.locfileid: "79487801"
 
 ![顯示 [與外部使用者共用內容] 設定。](media/admin-tenant-settings/share-content-with-external-users.png)
 
-### <a name="publish-to-web"></a>發行至 Web
+### <a name="publish-to-web"></a>發佈至 Web
 
 [[發佈至 Web]](../service-publish-to-web.md) 功能可讓您在 Web 上發佈公用報表。 如果使用不當，可能會有將機密資訊即時暴露於 Web 上的風險。
 
@@ -143,5 +143,5 @@ ms.locfileid: "79487801"
 
 - [什麼是 Power BI 管理？](../service-admin-administering-power-bi-in-your-organization.md)
 - [在系統管理入口網站中管理 Power BI](../service-admin-portal.md)
-- 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)

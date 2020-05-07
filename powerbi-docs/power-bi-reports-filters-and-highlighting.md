@@ -10,10 +10,10 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: f1722690ff974a9d4fac6e94243e1024bfbfc12e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207060"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>在 Power BI 報表中進行篩選和醒目提示
@@ -52,7 +52,7 @@ ms.locfileid: "79207060"
 如果篩選旁邊有 **All** 這個字詞，表示欄位中的所有值都包含在篩選中。  例如，下方螢幕擷取畫面中的 **Chain(All)** 表示此報表頁面包含所有連鎖店的相關資料。  相反地，[FiscalYear is 2013 or 2014]  的報表層級篩選表示報表只包含 2013 年及 2014 年會計年度的資料。
 
 ## <a name="filters-in-reading-or-editing-view"></a>[閱讀檢視] 或 [編輯檢視] 中的篩選
-有兩種模式可與報表互動：[[閱讀] 檢視](consumer/end-user-reading-view.md)和 [編輯] 檢視。 系統會依據您使用的模式提供篩選功能。
+您可使用下列兩種模式與報表互動：[閱讀檢視](consumer/end-user-reading-view.md)和編輯檢視。 系統會依據您使用的模式提供篩選功能。
 
 * 在 [編輯檢視] 中，您可以新增報表、頁面、鑽研和視覺效果篩選。 當您儲存報表時，篩選會與報表一起儲存，即使您在行動裝置應用程式中開啟它亦然。 在 [閱讀檢視] 中檢視報表的人員可以與您新增的篩選互動，但無法新增篩選。
 * 在 [閱讀檢視] 中，您可以與報表中已存在的任何篩選互動，並儲存您做的選擇。 您無法新增新的篩選。
