@@ -11,10 +11,10 @@ ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76974979"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>建立關鍵效能指標 (KPI) 視覺效果
@@ -23,7 +23,7 @@ ms.locfileid: "76974979"
 
 關鍵效能指標 (KPI) 是一種視覺提示，指出對於可測量目標已達成的進度。 如需 KPI 的詳細資訊，請參閱 [PowerPivot 中的關鍵效能指標 (KPI)](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110))。
 
-請觀看 Will 說明如何建立單一計量的視覺效果︰量測計、卡片及 KPI。
+觀看 Will 說明如何建立單一計量的視覺效果︰量測計、卡片及 KPI。
    > [!NOTE]
    > 這部影片使用舊版的 Power BI Desktop。
    > 
@@ -97,7 +97,7 @@ KPI 資料集必須包含 KPI 目標值。 如果您的資料集未包含目標�
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
-若您的 KPI 看起來不像上述的 KPI，可能是因為您未依 **FiscalMonth** 排序。 Kpi 沒有排序選項。 您必須重新開始，且在將視覺效果轉換為 KPI「之前」  ，必須先依 **FiscalMonth** 排序。
+若您的 KPI 看起來不像上述的 KPI，可能是因為您未依 **FiscalMonth** 排序。 Kpi 沒有排序選項。 您必須重新開始，且在將視覺效果轉換為 KPI「之前」  ，必須先依 *FiscalMonth* 排序。
 
 ## <a name="next-steps"></a>後續步驟
 

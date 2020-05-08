@@ -69,11 +69,11 @@
               href: ../service-share-dashboard-that-links-to-excel-onedrive.md
         - name: 擴充 Power BI
           items:
-            - name: 在 Excel 中進行分析
+            - name: 在 Excel 中分析
               href: ../service-analyze-in-excel.md
             - name: '對 [使用 Excel 分析] 進行疑難排解'
               href: ../desktop-troubleshooting-analyze-in-excel.md
-            - name: 錯誤：在您的 Excel 活頁簿中找不到任何資料
+            - name: 錯誤：在此 Excel 活頁簿中找不到任何資料。
               href: ../service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate 與 Power BI
               href: ../service-flow-integration.md

@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
 ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404017"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>註冊要與 Power BI 搭配使用的 Azure AD 應用程式
@@ -54,7 +54,7 @@ ms.locfileid: "80404017"
 
 5. 如果您選取了**伺服器端 Web 應用程式**作為應用程式類型，則繼續輸入 [首頁 URL]  和 [重新導向 URL]  的值。 [重新導向 URL]  可使用任何有效的 URL，且應與您已建立的應用程式對應。 如果您選取了 [原生]  ，則繼續進行步驟 6。
 
-6. 選擇您應用程式需要的 Power BI API。 如需 Power BI 存取權限的詳細資訊，請參閱 [Power BI Permissions (Power BI 權限)](power-bi-permissions.md)。 然後，選取 [註冊]  。
+6. 選擇您應用程式需要的 Power BI API。 如需 Power BI 存取權限的詳細資訊，請參閱 [Power BI 權限](power-bi-permissions.md)。 接著，選取 [註冊]  。
 
     ![選擇要註冊的 API](media/register-app/register-app-new-app-registration-apis-register.png)
 
@@ -84,7 +84,7 @@ ms.locfileid: "80404017"
 
 4. 在左側導覽窗格中，前往 [所有服務]  ，選取 [應用程式註冊]  ，然後選取 [新增註冊]  。
 
-5. 遵循提示並建立新的應用程式。
+5. 遵照提示進行，並建立新的應用程式。
 
    如需如何在 Azure Active Directory 中註冊應用程式的詳細資訊，請參閱[向 Azure Active Directory 註冊應用程式](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app)
 
@@ -112,11 +112,11 @@ ms.locfileid: "80404017"
 
     ![應用程式權限 03](media/register-app/powerbi-embedded-azuread-app-permissions03.png)
 
-4. 在 [委派權限]  的下方，選取您需要的特定權限。 逐一選取它們，以儲存選取項目。 完成時，請選取 [儲存]  。
+4. 在 [委派權限]  的下方，選取您需要的特定權限。 逐一選取它們，以儲存選取項目。 完成時選取 [儲存]  。
 
 5. 選取 [授與同意]  。
 
-    *主帳戶*需要**授與同意**動作，才不會收到需要 Azure AD 同意的提示。 若執行此動作的帳戶為全域管理員，您可將此應用程式的權限授與組織中的所有使用者。 若執行此動作的帳戶為「主帳戶」  而非全域管理員，您只可將此應用程式的權限授與「主帳戶」  。
+    **主帳戶**需要*授與同意*動作，才不會收到需要 Azure AD 同意的提示。 若執行此動作的帳戶為全域管理員，您可將此應用程式的權限授與組織中的所有使用者。 若執行此動作的帳戶為「主帳戶」  而非全域管理員，您只可將此應用程式的權限授與「主帳戶」  。
 
 ### <a name="applying-permissions-programmatically"></a>以程式設計方式套用權限
 

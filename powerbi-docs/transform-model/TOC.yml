@@ -14,7 +14,7 @@
       items:
         - name: 建立自己的量值
           href: ../desktop-tutorial-create-measures.md
-        - name: 建立計算結果欄
+        - name: 建立導出資料行
           href: ../desktop-tutorial-create-calculated-columns.md
     - name: 概念
       expanded: true
@@ -67,7 +67,7 @@
               href: ../desktop-mobile-barcodes.md
             - name: 在 Power BI 中為行動裝置應用程式設定地理篩選
               href: ../desktop-mobile-geofiltering.md
-            - name: 建立計算結果欄
+            - name: 建立導出資料行
               href: ../desktop-calculated-columns.md
             - name: 建立導出的資料表
               href: ../desktop-calculated-tables.md
@@ -83,7 +83,7 @@
               href: ../service-dataflows-create-use.md
             - name: 升階或認證資料流程
               href: service-dataflows-promote-certify.md
-            - name: 將增強型計算引擎與資料流程搭配使用
+            - name: 使用具有資料流程的強化計算引擎
               href: ../service-dataflows-enhanced-compute-engine.md
             - name: 使用 Power BI Premium 的計算實體
               href: ../service-dataflows-computed-entities-premium.md
@@ -99,7 +99,7 @@
               href: ../service-dataflows-developer-resources.md
             - name: 在 Power BI Desktop 中連線到資料流程
               href: ../desktop-connect-dataflows.md
-            - name: 資料流程與 Azure Data Lake 整合 (預覽)
+            - name: Dataflows and Azure Data Lake 整合 (預覽)
               href: ../service-dataflows-azure-data-lake-integration.md
             - name: 連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體
               href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md

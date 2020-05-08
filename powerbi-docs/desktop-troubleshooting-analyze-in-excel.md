@@ -10,13 +10,13 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 8f4ed049fad2739ef8cc5cd307c06100f68419bd
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889297"
 ---
-# <a name="troubleshooting-analyze-in-excel"></a>[使用 EXCEL 分析] 的疑難排解
+# <a name="troubleshooting-analyze-in-excel"></a>為 [使用 Excel 分析] 疑難排解
 
 有時候使用 [使用 EXCEL 分析] 可能會取得非預期的結果，或功能無法如您預期般運作。 此頁面可提供使用 [使用 EXCEL 分析] 時的常見問題解決方案。
 
@@ -97,7 +97,7 @@ Excel 文件庫必須在位元層級方面符合您的 Windows 版本。 如果�
 ## <a name="next-steps"></a>後續步驟
 [使用 Excel 分析](service-analyze-in-excel.md)
 
-[教學課程：在 Power BI Desktop 中建立您自己的量值](desktop-tutorial-create-measures.md)
+[教學課程：在 Power BI Desktop 中建立自己的量值](desktop-tutorial-create-measures.md)
 
 [PowerPivot 中的量值](https://msdn.microsoft.com/library/gg399077.aspx)
 

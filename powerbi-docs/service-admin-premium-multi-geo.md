@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: 4b30e2fbf4ec3607b3ee155749a1ddeeb9f76cad
-ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80147346"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>設定 Power BI Premium 的多地理位置支援
 
 多地理位置是一項 Power BI Premium 功能，可協助跨國客戶滿足區域性、產業特有或組織的資料落地需求。 身為 Power BI Premium 客戶，您可以將內容部署到 Power BI 租用戶主要區域以外區域內的資料中心。 一個地理位置可以包含多個區域。 例如，美國是一個地理位置，而美國中西部和美國中南部是美國境內的區域。 您可以選擇將內容部署到下列任何地理位置：
 
-- 美國
-- 加拿大
+- United States
+- Canada
 - 英國
 - 巴西
 - 歐洲
@@ -43,7 +43,7 @@ ms.locfileid: "80147346"
 
 建立容量之後，它會保留在該區域中，而所建立的任何工作區都會將其內容儲存於該區域中。 您可以透過工作區設定畫面上的下拉式清單，將工作區從某個區域遷移至另一個區域。
 
-![編輯工作區：選擇可用容量。 Power BI 多地理位置](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
+![編輯工作區：選擇可用的容量。 Power BI 多地理位置](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
 
 您會看到此確認變更的訊息。
 
