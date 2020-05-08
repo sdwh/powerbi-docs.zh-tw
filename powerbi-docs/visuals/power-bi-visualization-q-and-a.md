@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
 ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762270"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI 問與答視覺效果簡介
@@ -45,7 +45,7 @@ ms.locfileid: "75762270"
 
 1. 在報表檢視中開啟檔案 ![報表檢視圖示的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+1. Select ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
 
 如果您在建立問與答視覺效果時看到錯誤，請務必參閱[限制](../natural-language/q-and-a-limitations.md)一節，以了解是否支援資料來源設定。

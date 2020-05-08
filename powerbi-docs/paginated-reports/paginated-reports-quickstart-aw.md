@@ -1,5 +1,5 @@
 ---
-title: 教學課程：建立分頁報表並將其上傳至 Power BI 服務
+title: 教學課程：建立分頁報表並將它上傳至 Power BI 服務
 description: 在此教學課程中，您將會連線到範例 Azure SQL Database。 接著會使用報表產生器中的精靈來建立編頁報表。 隨後會在 Power BI 服務中，將編頁報表上傳至 Premium 容量中的工作區。
 author: maggiesMSFT
 ms.author: maggies
@@ -9,13 +9,13 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404872"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教學課程：建立分頁報表並將其上傳至 Power BI 服務
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教學課程：建立分頁報表並將它上傳至 Power BI 服務
 
 在此教學課程中，您將會連線到範例 Azure SQL Database。 接著會使用 Power BI 報表產生器中的精靈來建立分頁報表，其中包含要自動分成多頁的資料表。 隨後會在 Power BI 服務中，將編頁報表上傳至 Premium 容量中的工作區。
 

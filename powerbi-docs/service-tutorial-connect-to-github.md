@@ -11,10 +11,10 @@ ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80403396"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>教學課程：使用 Power BI 連線到 GitHub 存放庫
@@ -114,7 +114,7 @@ ms.locfileid: "80403396"
 
     ![提取要求數 (依月份) 直條圖](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
 
-2. 在 [使用者的總提取要求數]  圖表中，選取使用者名稱。 在此範例中，我們可以看到他們大多數的時數都集中在二月。
+2. 在 [使用者的的總提取要求數]  圖表中，選取使用者名稱。 在此範例中，我們可以看到他們大多數的時數都集中在二月。
 
     ![Power BI GitHub 報表反白顯示](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-cross-filter-total-prs.png)
 

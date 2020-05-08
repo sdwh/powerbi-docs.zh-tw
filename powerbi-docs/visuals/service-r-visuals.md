@@ -7,16 +7,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/14/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: eee7b67fcfaed987170baa8cb5a0b3c8cba86350
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80979814"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866397"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>在 Power BI 中建立和使用 R 視覺效果
+
+[!INCLUDE[consumer-appliesto-nnyn](../includes/consumer-appliesto-nnyn.md)]
+
 R 視覺效果目前僅能在 **Power BI Desktop** 中建立，然後發行到 Power BI 服務。 如需如何建立 R 視覺效果的詳細資訊，請參閱 [使用 R 建立 Power BI 視覺效果](../desktop-r-visuals.md)。
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>在 Power BI 服務中檢視 R 視覺效果
