@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 498636d61f61764cfaef29db32454f55f1328243
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78401228"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI 資料來源必要條件
@@ -22,7 +22,7 @@ ms.locfileid: "78401228"
 | 資料來源 | 提供者 | 最低提供者版本 | 最低資料來源版本 | 支援的資料來源物件 | 下載連結 |
 | --- | --- | --- | --- | --- | --- |
 | SQL Server |ADO.net (內建於 .Net Framework) |.NET Framework 3.5 (僅限) |SQL Server 2005+ |資料表/檢視、純量函數、資料表函數 |包含在 .NET Framework 3.5 或更新版本中 |
-| 存取權 |Microsoft Access 資料庫引擎 (ACE) |ACE 2010 SP1 |沒有限制 |資料表/檢視 |[下載連結](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
+| 存取 |Microsoft Access 資料庫引擎 (ACE) |ACE 2010 SP1 |沒有限制 |資料表/檢視 |[下載連結](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Excel (僅限 .xls 檔案) (請參閱附註 1) |Microsoft Access 資料庫引擎 (ACE) |ACE 2010 SP1 |沒有限制 |資料表、工作表 |[下載連結](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Oracle (請參閱附註 2) |ODP.NET |ODAC 11.2 版本 5 (11.2.0.3.20) |9.x + |資料表/檢視 |[下載連結](https://go.microsoft.com/fwlink/?linkid=272376&clcid=0x409) |
 | | System.Data.OracleClient (內建於 .NET Framework) |.NET framework 3.5 |9.x + |資料表/檢視 |包含在 .NET Framework 3.5 或更新版本中 |

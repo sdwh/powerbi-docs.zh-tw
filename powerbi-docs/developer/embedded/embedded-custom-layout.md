@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 12/19/2017
 ms.openlocfilehash: e114c208093c9f3401c43e9ea44502e65d6d84fd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79493196"
 ---
 # <a name="custom-layouts"></a>自訂配置
@@ -62,7 +62,7 @@ enum DisplayOption {
 ```
 
 - `pageSize`：使用頁面大小來控制畫布區域大小 (也就是報告白色區域)。
-- `displayOptions`：可能的值為：可能的值為：FitToWidth、FitToPage 或 ActualSize。 這可控制如何縮放畫布以符合 iframe。
+- `displayOptions`：可能的值為：FitToWidth、FitToPage 或 ActualSize。 這可控制如何縮放畫布以符合 iframe。
 - `pagesLayout`：控制每個視覺效果的配置。 如需詳細資料，請參閱 PagesLayout。
 
 ## <a name="pages-layout"></a>頁面配置
@@ -170,7 +170,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>請參閱
 
 [內嵌 Power BI 儀表板、報告和圖格](embed-sample-for-customers.md)   
 [詢問 Power BI 社群](https://community.powerbi.com/)

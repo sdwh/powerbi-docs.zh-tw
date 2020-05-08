@@ -10,14 +10,14 @@ ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79133209"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>對 Power BI Desktop 的登入進行疑難排解
-當您嘗試登入 **Power BI Desktop** 時，有時可能會遇到錯誤。 登入問題有兩個主要原因：**Proxy 驗證錯誤**和**非 HTTPS URL 重新導向錯誤**。 
+當您嘗試登入 **Power BI Desktop** 時，有時可能會遇到錯誤。 登入問題的主要原因有兩個：**Proxy 驗證錯誤**和**非 HTTPS URL 重新導向錯誤**。 
 
 若要判斷造成您登入問題的原因，首先請連絡您的系統管理員並提供診斷資訊，以便他們判斷問題的原因。 藉由追蹤與您登入問題相關聯的問題，系統管理員可以判斷適用於您的錯誤是以下哪一個。 
 
@@ -33,7 +33,7 @@ ms.locfileid: "79133209"
 *Power BI Desktop* 追蹤檔案中的以下例外狀況與此錯誤相關聯：
 
 * *Microsoft.PowerBI.Client.Windows.Services.PowerBIWebException*
-* *HttpStatusCode:ProxyAuthenticationRequired*
+* *HttpStatusCode: ProxyAuthenticationRequired*
 
 當此錯誤發生時，最可能的原因是您網路上的 Proxy 驗證伺服器封鎖 **Power BI Desktop** 發出的 Web 要求。 
 
@@ -55,7 +55,7 @@ ms.locfileid: "79133209"
 
 *Power BI Desktop* 追蹤檔案中的以下例外狀況與此錯誤相關聯：
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException:WebView 中不支援非 HTTPS URL 重新導向*
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: Webview 中不支援非 HTTPS URL 重新導向*
 * *ErrorCode: non_https_redirect_failed*
 
 如果發生 *ErrorCode: non_https_redirect_failed*，表示重新導向鏈結中的一或多個重新導向頁面或提供者不是 HTTPS 保護的端點，或者一或多個重新導向的憑證簽發者不屬於裝置的信任根憑證。 登入重新導向鏈結中的所有提供者都必須使用 HTTPS URL。 若要解決此問題，請連絡您的系統管理員，並要求其驗證網站使用安全的 URL。 

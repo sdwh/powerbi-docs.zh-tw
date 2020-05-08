@@ -9,10 +9,10 @@ ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76975025"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>使用 Power BI 連接到所用服務
@@ -70,5 +70,5 @@ ms.locfileid: "76975025"
 ## <a name="next-steps"></a>後續步驟
 * [散發應用程式給您的同事](service-create-distribute-apps.md)
 * [在 Power BI 中建立新的工作區](service-create-the-new-workspaces.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+* 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

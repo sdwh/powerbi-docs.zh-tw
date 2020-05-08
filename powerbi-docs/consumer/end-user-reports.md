@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114238"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的報表
@@ -61,8 +61,8 @@ Power BI 根據單一資料集建立報表。 報表「設計師」  會建立�
 | 資料來源 |每個儀表板一或多份報表以及一或多個資料集 |每份報表單一資料集 |
 | 篩選 |無法篩選或配量 |有多種不同方法可篩選、反白顯示及配量 |
 | 設定警示 |可以在儀表板滿足特定條件時，建立電子郵件警示 |否 |
-| 特徵 |可將一個儀表板設為您的「精選」儀表板 |無法建立精選報表 |
-| 可以看到基礎資料集的資料表和欄位 |不會。 可以匯出資料，但看不到儀表板本身的資料集資料表和欄位 |是。 可以看到您有查看權限的資料集資料表和欄位 |
+| 功能 |可將一個儀表板設為您的「精選」儀表板 |無法建立精選報表 |
+| 可以看到基礎資料集的資料表和欄位 |否。 可以匯出資料，但看不到儀表板本身的資料集資料表和欄位 |有。 可以看到您有查看權限的資料集資料表和欄位 |
 | 自訂 |否  |可以篩選、匯出、檢視相關內容、新增書籤、產生 QR 代碼、在 Excel 中分析等 |
 
 <!--| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |

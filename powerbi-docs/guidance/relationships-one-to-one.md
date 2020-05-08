@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 92aa2c5d8da91590f5d491090761a6a6b1501061
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78263798"
 ---
 # <a name="one-to-one-relationship-guidance"></a>一對一關聯性指導方針
@@ -71,8 +71,8 @@ ms.locfileid: "78263798"
 下列項目符號清單描述這兩個資料表的資料列詳細資料：
 
 - **Product** (產品) 資料表有三個資料列：
-  - **SKU** CL-01、**Product** (產品) T-shirt (T 恤)、**Color** (色彩) Green (綠色)
-  - **SKU** CL-02、**Product** (產品) Jeans (牛仔褲)、**Color** (色彩) Blue (藍色)
+  - **SKU** CL-01、**Product** T 恤、**Color** 綠色
+  - **SKU** CL-02、**Product** 牛仔褲、**Color** 藍色
   - **SKU** AC-01、**Product** (產品) Hat (帽子)、**Color** (色彩) Blue (藍色)
 - **Product Category** (產品類別) 有兩個資料列：
   - **SKU** CL-01、**Category** (類別) Clothing (服飾)

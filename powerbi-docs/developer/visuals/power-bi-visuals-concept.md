@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 96f1fd217a59ee95aed05b790800024dc9f72be9
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378127"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 的視覺效果
@@ -128,7 +128,7 @@ Power BI 視覺效果中的動作和後續更新會以下列三種模式之一�
 
 ## <a name="next-steps"></a>後續步驟
 
-您想建立視覺效果並將其新增到 Microsoft AppSource 嗎？ 請參閱以下文章：
+您想建立視覺效果並將其新增到 Microsoft AppSource 嗎？  請參閱以下文章：
 
 * [開發 Power BI 視覺效果](./custom-visual-develop-tutorial.md)
 * [將 Power BI 視覺效果發佈至合作夥伴中心](office-store.md)

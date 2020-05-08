@@ -9,10 +9,10 @@ ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: f637bb10ed7ec27dcb3da07fc04cae39328ffebe
-ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80752249"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>連線至危機通訊狀態報表
@@ -25,7 +25,7 @@ ms.locfileid: "80752249"
 
 本文示範如何安裝應用程式及如何連線至資料來源。 如需危機通訊應用程式的詳細資訊，請參閱[設定及了解 Power Apps 中的危機通訊範例範本](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app) (機器翻譯)
 
-在安裝範本應用程式並連線至資料來源後，即可依照需求來自訂報表。 然後即可將報表當作應用程式散發給組織中的同事。
+在安裝範本應用程式並連線至資料來源後，即可依照需求來自訂報表。 然後您即可將報表當作應用程式散發給組織中的同事。
 
 ## <a name="prerequisites"></a>必要條件
 

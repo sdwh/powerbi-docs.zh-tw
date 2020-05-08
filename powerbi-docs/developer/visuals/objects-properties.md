@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205864"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI 視覺效果的物件和屬性
@@ -50,7 +50,7 @@ ms.locfileid: "79205864"
 > [!NOTE]
 > `show` 是啟用參數來切換物件的特殊屬性。
 
-範例：
+範例︰
 
 ```json
 "properties": {
@@ -136,9 +136,9 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-請注意 *fill* 和 *fillRule* 屬性。 第一個是色彩選擇器，而第二個則是漸層的替代規則，其會在符合規則條件時 `visually` 取代「fill 屬性」  。
+請注意 *fill* 和 *fillRule* 屬性。 第一個是色彩選擇器，而第二個則是漸層的替代規則，其會在符合規則條件時  *取代「fill 屬性」* `visually`。
 
-*fill* 屬性與替代規則之間的這個連結，是在 *fillRule* 屬性的 `"rule"`>`"output"` 區段中設定。
+*fill* 屬性與替代規則之間的這個連結，是在 `"rule"`fillRule> 屬性的 `"output"` 區段中設定。
 
 `"Rule"`>`"InputRole"` 屬性會設定哪一個資料角色會觸發規則 (條件)。 在此範例中，如果資料角色 `"Gradient"` 包含資料，則會針對 `"fill"` 屬性套用規則。
 
@@ -233,7 +233,7 @@ for (let dataPoint in dataPoints) {
 
 #### <a name="scope-identity"></a>範圍識別
 
-此物件會繫結到群組交集處的特定值。 例如，如果您有類別 `["Jan", "Feb", "March", ...]` 和序列 `["Small", "Medium", "Large"]`，您可能想要在符合 `Large` 和 `Feb` 的值交集處有一個物件。 為了達到這個目的，您可以取得這兩個資料行的 `DataViewScopeIdentity`，將它們推送至 `identities` 變數，並將此語法與選取器搭配使用。
+此物件會繫結到群組交集處的特定值。 例如，如果您有類別 `["Jan", "Feb", "March", ...]` 和序列 `["Small", "Medium", "Large"]`，您可能想要在符合 `Feb` 和 `Large` 的值交集處有一個物件。 為了達到這個目的，您可以取得這兩個資料行的 `DataViewScopeIdentity`，將它們推送至 `identities` 變數，並將此語法與選取器搭配使用。
 
 ```typescript
 selector: {

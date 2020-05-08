@@ -12,10 +12,10 @@ ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040136"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入門 - 瀏覽 Power BI 服務
@@ -127,12 +127,12 @@ ms.locfileid: "79040136"
 若要深入了解，請參閱 [Power BI 中的最近項目](end-user-recent.md)。
 
 ### <a name="search-and-sort-content"></a>搜尋和排序內容
-開始使用 Power BI 服務時，您只會有一些內容。 但當同事開始與您共用內容，而您開始下載應用程式時，您可能會得到冗長的內容清單。 這就是您發現搜尋和排序非常有幫助的時候了。
+開始使用 Power BI 服務時，您只會有一些內容。 但當同事開始與您共用內容，而您開始下載應用程式時，您可能就會有多內容。 這就是您發現搜尋和排序非常有幫助的時候了。
 
 Power BI 服務的幾乎每個部分都可以使用搜尋。 只要尋找搜尋方塊或搜尋放大鏡圖示即可。    
 ![放大鏡圖示](./media/end-user-experience/power-bi-search-icon.png)
 
-在 [搜尋] 欄位中，鍵入儀表板、報表、活頁簿、應用程式或擁有者的全部或部分名稱。 Power BI 會搜尋您的所有內容。
+在 [搜尋] 欄位中，輸入儀表板、報表、活頁簿、應用程式或擁有者的全部或部分名稱。 Power BI 會搜尋您的所有內容。
 
 ![搜尋報表](./media/end-user-experience/power-bi-search-field.png)
 

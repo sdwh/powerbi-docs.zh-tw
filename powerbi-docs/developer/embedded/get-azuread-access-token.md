@@ -9,13 +9,13 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/04/2019
 ms.openlocfilehash: cac59a4689eecd75c53ca1c62d7b097438b2ae53
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114512"
 ---
-# <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>為 Power BI 應用程式取得 Azure AD 存取權杖
+# <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>取得 Power BI 應用程式的 Azure AD 存取權杖
 
 本文說明如何在 Power BI 應用程式中驗證使用者，以及如何擷取存取權杖以與 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 搭配使用。
 
@@ -99,7 +99,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 一旦 **Azure AD** 重新導向回您的 Web 應用程式並提供**授權碼**之後，您就可使用它來取得存取權杖。 以下是 C# 範例，可用於重新導向頁面及 default.aspx 的 `Page_Load` 事件。
 
-您可以從 [Active Directory 驗證程式庫](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) NuGet 套件中擷取 **Microsoft.IdentityModel.Clients.ActiveDirectory** 命名空間。
+您可以從 **Active Directory 驗證程式庫** NuGet 套件中擷取 [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) 命名空間。
 
 ```powershell
 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory

@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
 ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488424"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>開發人員可如何利用 Power BI API？

@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: cf08f984e98b1497b04d1e19bd870ebcdda010b3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877216"
 ---
 # <a name="developer-resources-for-power-bi-dataflows"></a>Power BI 資料流程的開發人員資源
@@ -36,7 +36,7 @@ ms.locfileid: "73877216"
 此文章提供了適用於資料流程之開發人員資源的相關資訊。 如需資料流程的詳細資訊，下列文章可能很實用：
 
 * [使用資料流程的自助資料準備](service-dataflows-overview.md)
-* [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
+* [建立 Power BI 中的資料流程](service-dataflows-create-use.md)
 * [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
 * [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 

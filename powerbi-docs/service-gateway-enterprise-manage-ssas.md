@@ -10,13 +10,13 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: ea6d4186d2f02665201f2161f50e06ad8f0f45a6
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699398"
 ---
-# <a name="manage-your-data-source---analysis-services"></a>管理您的資料來源─Analysis Services
+# <a name="manage-your-data-source---analysis-services"></a>管理您的資料來源 ─ Analysis Services
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
@@ -27,7 +27,7 @@ ms.locfileid: "74699398"
 > [!NOTE]
 > 如果您有 Analysis Services 資料來源，則需要在與 Analysis Services 伺服器加入同一個樹系/網域的電腦上安裝閘道器。
 
-## <a name="add-a-data-source"></a>加入資料來源
+## <a name="add-a-data-source"></a>新增資料來源
 
 如需如何新增資料來源的資訊，請參閱[新增資料來源](service-gateway-data-sources.md#add-a-data-source)。 若您要連線到多維度或表格式伺服器，請針對 [資料來源類型]  選取 [Analysis Services]  。
 

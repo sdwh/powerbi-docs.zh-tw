@@ -10,10 +10,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 8e0c598d02b808e997bf0c1f47322e132860100c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881228"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>將儀表板的圖格釘選到另一個儀表板
@@ -24,7 +24,7 @@ ms.locfileid: "73881228"
 
 ## <a name="pin-a-tile-to-another-dashboard"></a>將磚釘選到另一個儀表板
 1. [取得資料](service-get-data.md). 本範例使用 [IT 費用分析範例](sample-it-spend.md)。
-2. 開啟[儀表板](consumer/end-user-dashboards.md).
+2. 開啟[儀表板](consumer/end-user-dashboards.md)。
 3. 將滑鼠暫留在要釘選的磚上、選取 [更多選項]  (...)，然後選擇 [釘選磚]  。  
    
    ![省略符號功能表](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
