@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: painbar
 ms.openlocfilehash: ce7b3c3bc667023ef36650d8c551caaceab04c02
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802793"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>使用 Face ID、Touch ID、密碼或生物特徵辨識資料來保護 Power BI 應用程式 
@@ -20,7 +20,7 @@ ms.locfileid: "80802793"
 
 適用於 iOS 和 Android 的 Power BI 應用程式可供設定額外識別來保護資料。 然後，在應用程式每次啟動或進入前景時，都會需要識別。 在 iOS 上，代表提供 Face ID、Touch ID 或密碼。 在 Android 上，代表提供生物特徵辨識資料 (指紋識別碼)。
 
-適用於︰
+適用於：
 
 | ![iPhone](./media/mobile-native-secure-access/ios-logo-40-px.png) | ![iPad](./media/mobile-native-secure-access/ios-logo-40-px.png) | ![Android 手機](././media/mobile-native-secure-access/android-logo-40-px.png) | ![Android 平板電腦](././media/mobile-native-secure-access/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |

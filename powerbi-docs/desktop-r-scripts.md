@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 358a61c13418bd29a9e83ed7029e8b90f9a5988e
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76161501"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中執行 R 指令碼
@@ -61,7 +61,7 @@ ms.locfileid: "76161501"
 
 ![[R 指令碼] 選項，[選項] 對話方塊，Power BI Desktop](media/desktop-r-scripts/r-scripts-4.png)
 
-### <a name="refresh"></a>重新整理
+### <a name="refresh"></a>Refresh
 
 您可以在 Power BI Desktop 中重新整理 R 指令碼。 當您重新整理的 R 指令碼時，Power BI Desktop 會在 Power BI Desktop 環境中再次執行 R 指令碼。
 

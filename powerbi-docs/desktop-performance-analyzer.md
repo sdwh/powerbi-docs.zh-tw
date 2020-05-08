@@ -10,10 +10,10 @@ ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76709762"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>使用效能分析器檢查報表元素效能
@@ -38,7 +38,7 @@ ms.locfileid: "76709762"
 
 若要讓效能分析器開始錄製，只需選取 [開始錄製] 
 
-![開始記錄](media/desktop-performance-analyzer/performance-analyzer-03.png)
+![開始錄製](media/desktop-performance-analyzer/performance-analyzer-03.png)
 
 您在報表中所採取的任何動作都會以 Power BI 載入視覺效果的順序，顯示並記錄在 [效能分析器] 窗格中。 例如，您可能有一份報表，使用者表示該報表重新整理耗費很長的時間。 或者，調整滑桿時，報表中的某些視覺效果耗費很長的時間才顯示。 效能分析器可以告訴您有哪個視覺效果是原因，並識別視覺效果中的哪些層面耗費最長的持續期間來處理。 
 

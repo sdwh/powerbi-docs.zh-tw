@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 828736dac528a8ba8c77b90162309236f5bc7018
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.openlocfilehash: d17c6bbe5ddf6cd39626ac0038595543cd2fecfb
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "77558609"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841058"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者
 
 Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與外部來賓使用者共用內容。
 藉由使用 Azure AD B2B，組織就能在中央位置啟用並控管與外部使用者共用的功能。 根據預設，外部來賓僅具有使用體驗。 此外，您可以允許外部來賓使用者編輯和管理組織中的內容。
 
-本文提供 Power BI 中 Azure AD B2B 的基本簡介。 如需詳細資訊，請參閱[使用 Azure Active Directory B2B 將 Power BI 內容散發給外部來賓使用者](whitepaper-azure-b2b-power-bi.md)。
+本文提供 Power BI 中 Azure AD B2B 的基本簡介。 如需詳細資訊，請參閱[使用 Azure Active Directory B2B 將 Power BI 內容散發給外部來賓使用者](guidance/whitepaper-azure-b2b-power-bi.md)。
 
 ## <a name="enable-access"></a>啟用存取
 

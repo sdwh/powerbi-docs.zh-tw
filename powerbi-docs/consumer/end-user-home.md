@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113291"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>尋找您的儀表板、報表和應用程式
