@@ -45,7 +45,7 @@
       items:
         - name: 影片
           href: ../videos.md
-        - name: 研討會
+        - name: 網路研討會
           href: ../webinars.md
         - name: Power BI Desktop 影片
           href: ../desktop-videos.md

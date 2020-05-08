@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 82005eb448164b863811ab78a8f76ed954da60a2
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114530"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>修正「需要更新 Android System Webview」
@@ -22,13 +22,13 @@ ms.locfileid: "79114530"
 
 如果您的 Android 裝置執行的是 Android 7 或更新版本，您可能會再次收到要更新 Android System Webview 的訊息。 
 
-## <a name="solution-upgrade-your-version-of-the-chrome-app"></a>解決方案：升級 Chrome 應用程式版本
+## <a name="solution-upgrade-your-version-of-the-chrome-app"></a>解決方案︰升級 Chrome 應用程式版本
 結果卻是需要升級 Chrome 應用程式。 
 
 * 返回 Google Play 商店，搜尋 Chrome 並升級。
 
 ## <a name="next-steps"></a>後續步驟
-* 從 Android App Store [下載 Android 應用程式](https://go.microsoft.com/fwlink/?LinkID=544867)。
+* 從 Android App 市集[下載 Android App](https://go.microsoft.com/fwlink/?LinkID=544867)。
 * [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+* 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

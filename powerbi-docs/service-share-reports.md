@@ -11,10 +11,10 @@ ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 16041ebc9ba293ab166178e008b12277d94e89c3
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/31/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76894765"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>篩選並共用 Power BI 報表
@@ -51,7 +51,7 @@ Power BI 還提供[可進行共同作業及散發您報表的其他方式](servi
  
 ![報表篩選窗格](media/service-share-reports/power-bi-share-report-filter.png)
 
-儲存報表。
+請儲存報表。
 
 ## <a name="share-the-filtered-report"></a>共用篩選過的報表
 

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: a68644c63d3d5eaeb54a71683629af01817d62a7
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114614"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>修正「公司 SSL 憑證不受信任」- Power BI
@@ -43,6 +43,6 @@ ms.locfileid: "79114614"
 如果您使用自訂驗證伺服器，公司驗證伺服器在的 SSL 憑證可能無效。 請與您組織的 IT 合作，依照[此文章](https://support.microsoft.com/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce)中的指導方針測試公司驗證伺服器設定。
 
 ## <a name="next-steps"></a>後續步驟
-* 從 Android App Store [下載 Android 應用程式](https://go.microsoft.com/fwlink/?LinkID=544867)。
-* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/) 
+* 從 Android App 市集[下載 Android App](https://go.microsoft.com/fwlink/?LinkID=544867)。
+* 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/) 
 

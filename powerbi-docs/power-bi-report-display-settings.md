@@ -11,10 +11,10 @@ ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 6aefe879e6d5871c8f88ac15407038aa600bf980
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762500"
 ---
 # <a name="apply-page-display-settings-in-a-power-bi-report"></a>在 Power BI 報表中套用頁面顯示設定
@@ -53,7 +53,7 @@ ms.locfileid: "75762500"
 * **顯示格線**：開啟格線可協助您在報表畫布上放置物件。
 * **貼齊格線**：搭配 **[顯示格線]** 使用，可在報表畫布上精確地放置和對齊物件。 
 * **鎖定物件**：鎖定畫布上的所有物件，使其無法移動或調整大小。
-* **選取範圍窗格**： **[選取範圍]** 窗格會列出畫布上的所有物件。 您可以決定要顯示和隱藏的物件。
+* **選取範圍窗格**： **[選取]** 窗格會列出畫布上的所有物件。 您可以決定要顯示和隱藏的物件。
 
     ![選取窗格](media/power-bi-report-display-settings/power-bi-selection-pane.png)
 

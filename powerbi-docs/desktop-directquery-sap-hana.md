@@ -10,10 +10,10 @@ ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 86307a871503dd42e565099b810cb82efa109417
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761218"
 ---
 # <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>在 Power BI 中使用 DirectQuery 以連線到 SAP HANA 資料來源
@@ -63,11 +63,11 @@ ms.locfileid: "75761218"
 
 使用 DirectQuery 來連線到 SAP HANA 時，其他主要的模型化限制如下： 
 
-* **不支援導出資料行：** 已停用建立計算結果欄的功能。 也就是說，建立計算結果欄的群組和叢集將無法使用。
+* **不支援計算結果欄：** 已停用建立計算結果欄的功能。 也就是說，建立計算結果欄的群組和叢集將無法使用。
 * **量值的其他限制：** 在可於量值中使用的 DAX 運算式上有其他限制，用以反映 SAP HANA 所提供的支援層級。
-* **不支援定義關聯性：** 報表內只能查詢單一檢視，因此不支援定義關聯性。
-* **資料檢視：** [資料檢視]  通常會顯示資料表中的詳細等級資料。 由於 SAP HANA 等 OLAP 來源本質的緣故，因此無法透過 SAP HANA 使用此檢視。
-* **資料行和量值的詳細資料是固定的：** 欄位清單中出現的資料行和量值清單由基礎來源決定，清單是固定的而且無法修改。 例如，您無法刪除資料行，也無法變更其資料類型 (不過可以重新命名)。
+* **不支援定義關聯性：** 只能查詢報表內的單一檢視，因此不支援定義關聯性。
+* **沒有資料檢視：[資料檢視]**  通常會顯示資料表中的詳細等級資料。 由於 SAP HANA 等 OLAP 來源本質的緣故，因此無法透過 SAP HANA 使用此檢視。
+* **資料行和量值詳細資料是固定的：** 欄位清單中所示的資料行和量值因基礎來源已固定，而且無法修改。 例如，您無法刪除資料行，也無法變更其資料類型 (不過可以重新命名)。
 * **DAX 中的其他限制：** 可用於量值定義的 DAX 上還有其他限制，以反映來源中的限制。 例如，您無法對資料表使用彙總函式。
 
 ### <a name="additional-visualization-restrictions"></a>其他視覺效果限制
@@ -110,7 +110,7 @@ ms.locfileid: "75761218"
 
 * 在 [取得資料]  或 [查詢編輯器]  中，只應該包括必要資料行來擷取必要資料，並反映結果將是查詢的事實，而查詢必須是可傳送至 SAP HANA 的合理查詢。 例如，如果選取許多資料行，但考量到後續視覺效果上可能需要這些資料行，則甚至針對 DirectQuery，簡單視覺效果將表示部分選取中所使用的彙總查詢將會包含這幾個資料行，而這樣的執行效果一般會很差。
   
-以下舉例說明。 在下列範例中，於 [取得資料] 對話方塊中選取五個資料行 (**CalendarQuarter** **Color** **LastName** **ProductLine** **SalesOrderNumber**)  以及量值 *OrderQuantity* 意謂著稍後建立包含 Min OrderQuantity 的簡單視覺效果將會導致對 SAP HANA 進行下列 SQL 查詢。 陰影部分是子選擇，其中包含來自 [取得資料]   / [查詢編輯器]  的查詢。 如果這個部分選取提供相當高的基數結果，則產生的 SAP HANA 效能可能不佳。  
+以下舉例說明。 在下列範例中，於 [取得資料]  對話方塊中選取五個資料行 (**CalendarQuarter** **Color** **LastName** **ProductLine** **SalesOrderNumber**) 以及量值 *OrderQuantity* 意謂著稍後建立包含 Min OrderQuantity 的簡單視覺效果將會導致對 SAP HANA 進行下列 SQL 查詢。 陰影部分是子選擇，其中包含來自 [取得資料]   / [查詢編輯器]  的查詢。 如果這個部分選取提供相當高的基數結果，則產生的 SAP HANA 效能可能不佳。  
 
 ![](media/desktop-directquery-sap-hana/directquery-sap-hana_03.png)
 
@@ -148,5 +148,5 @@ ms.locfileid: "75761218"
 * [Power BI 中的 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery 支援的資料來源](desktop-directquery-data-sources.md)
 * [DirectQuery 和 SAP BW](desktop-directquery-sap-bw.md)
-* [On-premises data gateway (內部部署資料閘道)](service-gateway-onprem.md)
+* [內部部署資料閘道](service-gateway-onprem.md)
 

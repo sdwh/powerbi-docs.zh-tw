@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 4f135a411d69835e925cf97b418bda6ae80adc1a
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113191"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Power BI 行動裝置應用程式中支援的語言
@@ -53,12 +53,12 @@ Power BI 行動裝置應用程式目前支援這些語言：
 * 烏克蘭文 - українська
 * 越南文 - Tiếng Việt
 
-## <a name="notes"></a>備忘稿
+## <a name="notes"></a>注意
 * Power BI 會使用與行動裝置地區設定對應的語言。 您無法設定不同的語言。
 * 通知只有英文版。 例如，如果有人與您共用儀表板，通知將會是英文。 
 
 ## <a name="next-steps"></a>後續步驟
 * [Power BI 支援的語言和國家/地區](../../supported-languages-countries-regions.md)
-* 有問題嗎？ 請嘗試詢問 [Power BI 社群](https://community.powerbi.com/)。
+* 有任何問題嗎？ 請嘗試詢問 [Power BI 社群](https://community.powerbi.com/)。
 * 仍有問題嗎？ 瀏覽 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)。
 

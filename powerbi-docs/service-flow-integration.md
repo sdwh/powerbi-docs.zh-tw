@@ -11,10 +11,10 @@ ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: aafba825c5bd4ece3c8b97256d5943f91b456cd7
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609706"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate 與 Power BI
@@ -47,7 +47,7 @@ ms.locfileid: "77609706"
     ![搜尋結果](media/service-flow-integration/power-bi-flow-alert.png)
 
 
-### <a name="build-the-flow"></a>組建應用程式
+### <a name="build-the-flow"></a>建置流程
 此範本有一個觸發程序 (愛爾蘭獲得新奧運獎牌的 Power BI 資料警示) 和一個動作 (傳送電子郵件)。 在您選取欄位時，Power Automate 會顯示可以包含的動態內容。  在此範例中，我們在訊息本文中包含了圖格值與圖格 URL。
 
 ![流程範本](media/service-flow-integration/power-bi-template1.png)
@@ -81,12 +81,12 @@ ms.locfileid: "77609706"
 在此工作中，我們將從頭建立由 Power BI 資料警示 (通知) 觸發的簡單流程。
 
 1. 登入 Power Automate。
-2. 選取 [我的流程]   > [從空白建立]  。
+2. 選取 [我的流程]   >  **[從空白建立]** 。
    
    ![Power Automate 頂端功能表列](media/service-flow-integration/power-bi-my-flows.png)
 3. 使用 [搜尋] 方塊尋找 Power BI 觸發程序，然後選取[Power BI - 觸發資料驅動警示時]  。
 
-### <a name="build-your-flow"></a>建立流程
+### <a name="build-your-flow"></a>建置您的流程
 1. 從下拉式清單中，選取您的警示名稱。  若要了解如何建立警示，請參閱 [Power BI 中的資料警示](service-set-data-alerts.md)。
    
     ![選取警示的名稱](media/service-flow-integration/power-bi-totalstores2.png)
