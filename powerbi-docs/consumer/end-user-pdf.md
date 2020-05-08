@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: e45d3e109d072984d6c01b2cbdfdd9b53e936a3b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377205"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>從 Power BI 將報表匯出至 PDF
@@ -36,7 +36,7 @@ ms.locfileid: "79377205"
     
     另外，還會出現核取方塊供您選取是否要匯出報表的隱藏索引標籤。 如果您只要在瀏覽器中匯出可看見的報表索引標籤，請選取此核取方塊。 如果您希望在匯出過程中取得所有隱藏索引標籤，則可以不要選取此核取方塊。 如果核取方塊呈現灰色，即代表報表中沒有任何隱藏索引標籤。 在您選取完成後，請選取 [匯出]  繼續。
     
-    進度列會顯示在右上角。 匯出可能需要幾分鐘的時間。 您可以在報表匯出時繼續使用 Power BI 工作。
+    進度列會顯示在右上角。 匯出可能需要幾分鐘的時間。 您可以在正在匯出報表時繼續使用 Power BI 工作。
 
     ![匯出進度訊息](media/end-user-pdf/power-bi-export-progress.png)
 
@@ -62,7 +62,7 @@ ms.locfileid: "79377205"
 * Power BI 租用戶網域外部使用者擁有的報表 (例如，組織外部某人所擁有並與您共用的報表) 無法發佈至 PDF。
 * 如果您與組織外部的某人 (也就是不在您 Power BI 租用戶中的使用者) 共用儀表板，則該使用者無法將共用儀表板的相關聯報表匯出至 PDF。 例如，如果您是 aaron@contoso.com，您可以與 cassie@cohowinery.com 共用。 但是 cassie@cohowinery.com 無法將相關聯報表匯出至 PDF。
 * 將包含背景影像的報表匯出成 PDF 時，如果使用 [頁面背景]  中的 [標準]  或 [填滿]  選項，您可能會在匯出中看到扭曲的影像。 為得到最佳結果，請使用 [最適大小]  選項，以免匯出的文件發生問題。
-* Power BI 服務會使用您的 Power BI 語言設定作為 PDF 的輸出語言。 若要查看或設定語言喜好設定，請選取齒輪圖示![齒輪圖示](media/end-user-powerpoint/power-bi-settings-icon.png) > [設定]   > [一般]   > [語言]  。
+* Power BI 服務會使用您的 Power BI 語言設定作為 PDF 的輸出語言。 若要查看或設定語言喜好設定，請選取齒輪圖示 ![齒輪圖示](media/end-user-powerpoint/power-bi-settings-icon.png) > [設定]   > [一般]   > [語言]  。
 * 針對匯出選擇 [目前的值]  時，目前不適用 URL 篩選。
 * 具有異常自訂頁面大小的報表可能會在匯出案例中遇到問題。 為獲得最佳結果，請考慮切換到報表的標準頁面大小。
 * 匯出至 PDF 時，使用主題與自訂字型的報表會以預設字型取代自訂字型。

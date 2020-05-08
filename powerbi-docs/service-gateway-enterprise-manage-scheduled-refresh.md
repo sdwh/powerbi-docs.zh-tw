@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 13d8cd9838cdcb035e7dd30a1180ac77957441ea
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207405"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>管理您的資料來源 - 匯入/排程重新整理
@@ -22,7 +22,7 @@ ms.locfileid: "79207405"
 
 在您[安裝內部部署資料閘道](/data-integration/gateway/service-gateway-install)後，您需要[新增資料來源](service-gateway-data-sources.md#add-a-data-source)，其可與閘道搭配使用。 本文將探討相對於 DirectQuery 或即時連線，如何使用可用於已排程重新整理的閘道和資料來源。
 
-## <a name="add-a-data-source"></a>加入資料來源
+## <a name="add-a-data-source"></a>新增資料來源
 
 如需如何新增資料來源的詳細資訊，請參閱[新增資料來源](service-gateway-data-sources.md#add-a-data-source)。 選取資料來源類型。
 
@@ -63,7 +63,7 @@ ms.locfileid: "79207405"
 ![顯示使用者](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-gateway-enterprise-schedule-refresh.png)
 
 > [!WARNING]
-> 如果您的資料集包含多個資料來源，每個資料來源都必須新增至閘道中。 如果有一或多個資料來源未新增至閘道，您便無法看見可供已排程重新整理使用的閘道。
+> 如果您的資料集包含多個資料來源，每個資料來源都必須新增至閘道中。 如果有一或多個資料來源未新增至閘道，您便無法選擇針對排程重新整理使用閘道。
 
 ## <a name="limitations"></a>限制
 

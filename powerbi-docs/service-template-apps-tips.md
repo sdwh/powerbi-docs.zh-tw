@@ -1,19 +1,19 @@
 ---
 title: 在 Power BI 中撰寫範本應用程式的提示
 description: 有關如何撰寫查詢、資料模型、報表和儀表板，來製作高品質範本應用程式的提示
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 03/24/2020
-ms.author: tebercov
-ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.date: 05/04/2020
+ms.author: painbar
+ms.openlocfilehash: 266e44b5e5ecff2f86bcd3d43ce91368cc57b9e1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066274"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781286"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中撰寫範本應用程式的提示
 
@@ -142,22 +142,8 @@ Power BI Desktop 中的[參數](https://powerbi.microsoft.com/blog/deep-dive-int
 * Power BI - 可供 Power BI 使用者檢視。
 
 若要將使用者重新導向至 Power BI 中的應用程式下載連結，請參閱下列程式碼範例：[GitHub 存放庫](https://github.com/microsoft/Template-apps-examples/tree/master/src)。
+
 [![應用程式下載連結](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
-
-
-
-## <a name="known-limitations"></a>已知的限制
-
-| 特徵 | 已知的限制 |
-|---------|---------|
-|內容：資料集   | 只應剛好出現一個資料集。 只允許 Power BI Desktop (.pbix 檔案) 中建置的資料集。 <br>不支援：來自其他範本應用程式的資料集、跨工作區資料集、編頁報表 (.rdl 檔案)、Excel 活頁簿、增強式資料集中繼資料 |
-|內容：儀表板 | 不允許即時磚 (也就是指不支援推送或串流資料集) |
-|內容：資料流程 | 不支援：資料流程 |
-|來自檔案的內容 | 只允許 PBIX 檔案。 <br>不支援：.rdl 檔案 (編頁報表)、Excel 活頁簿   |
-| 資料來源 | 允許針對雲端排程的資料重新整理支援的資料來源。 <br>不支援： <li> DirectQuery</li><li>即時連線 (非 Azure AS)</li> <li>內部部署資料來源 (不支援個人和企業閘道)</li> <li>即時 (不支援推送資料集)</li> <li>複合模型</li></ul> |
-| 資料集：跨工作區 | 不允許跨工作區資料集  |
-| 查詢參數 | 不支援：資料集類型區塊重新整理作業的 "Any" 和 "Binary" 類型參數 |
-| Power BI 視覺效果 | 只支援公開可用的 Power BI 視覺效果。 不支援[組織 Power BI 視覺效果](developer/visuals/power-bi-custom-visuals-organization.md) |
 
 ## <a name="next-steps"></a>後續步驟
 

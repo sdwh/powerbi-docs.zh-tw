@@ -9,10 +9,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7d1e355f2c28679f5c2101d250a9fc2d5c99a2bd
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205634"
 ---
 # <a name="what-are-bookmarks"></a>什麼是書籤？
@@ -50,7 +50,7 @@ ms.locfileid: "79205634"
 當您建立書籤時，下列項目會與書籤一起儲存：
 
 * 目前頁面
-* 篩選
+* 篩選器
 * 交叉分析篩選器，包括交叉分析篩選器類型 (例如，下拉式清單或清單) 和交叉分析篩選器狀態
 * 視覺效果選取狀態 (例如交叉醒目提示篩選條件)
 * 排序次序

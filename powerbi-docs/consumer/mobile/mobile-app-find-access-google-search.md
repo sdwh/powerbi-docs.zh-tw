@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 ms.openlocfilehash: 177f029073320c8db68b532fdb282b745c69a408
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802632"
 ---
 # <a name="find-and-access-your-content-with-google-search"></a>使用 Google 搜尋來尋找及存取內容
 
-適用於︰
+適用於：
 
 | ![Android 手機](./media/mobile-app-find-access-google-search/android-logo-40-px.png) | ![Android 平板電腦](./media/mobile-app-find-access-google-search/android-logo-40-px.png) |
 |:--- |:--- |
@@ -28,7 +28,7 @@ ms.locfileid: "80802632"
 
 ## <a name="search-using-google-search"></a>使用 Google 搜尋來搜尋
 
-在 [Google 搜尋] 方塊中，使用「在 Power BI 中搜尋 &lt;搜尋項目&gt;」格式來搜尋。 例如，**在 Power BI 中搜尋銷售**。
+在 [Google 搜尋] 方塊中，使用「在 Power BI 中搜尋 ***搜尋項目&lt;」&gt;*** 格式來搜尋。 例如，**在 Power BI 中搜尋銷售**。
 
 * 如果只找到了一個相符項目，則 Power BI 行動裝置應用程式會開啟s所尋找的項目。
 * 如果找到了超過一個相符項目，則 Power BI 會開啟至搜尋畫面，並根據要求進行篩選。

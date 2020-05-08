@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006773"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>在 Power BI 中使用相對日期交叉分析篩選器與篩選條件
@@ -42,9 +42,9 @@ ms.locfileid: "81006773"
 
 ![叫出第一項設定的相對設定選項螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* 最後一個
+* 前
 
-* 下一步
+* 下一頁
 
 * 此
 
@@ -52,11 +52,11 @@ ms.locfileid: "81006773"
 
 ![叫出第二項設定的相對設定選項螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04a.png)
 
-第三個設定可讓您選取日期度量。 您有下列選項：
+第三個設定可讓您選取日期度量。 您有下列選擇：
 
 ![叫出第二項設定的相對設定選項螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
-* 天
+* Days
 
 * 週
 

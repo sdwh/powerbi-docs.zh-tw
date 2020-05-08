@@ -10,10 +10,10 @@ ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77426602"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>共用資料集的建置權限 (預覽)
@@ -108,4 +108,4 @@ Power BI 於 2019 年 6 月推出建置權限，作為現有權限、讀取和�
 ## <a name="next-steps"></a>後續步驟
 
 - [跨工作區使用資料集 (預覽)](service-datasets-across-workspaces.md)
-- 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

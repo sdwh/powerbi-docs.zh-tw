@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205496"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中標註並共用磚、報表或視覺效果。
-適用於︰
+適用於：
 
 | ![iPhone](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/ipad-logo-50-px.png) | ![Android 手機](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Android 平板電腦](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手機 |Android 平板電腦 |
 
-您可以從 Power BI for iOS 和 Android 裝置的行動裝置應用程式標註並共用圖格、報告或視覺效果的快照集。 收件者看到的外觀與送出郵件加上連結時完全相同。 您可以將磚的快照集傳送給任何人，不只是在相同電子郵件網域的同事而已。 您可以新增註解 (線條、文字或戳記) 然後共用它。
+您可以從 Power BI for iOS 和 Android 裝置的行動裝置應用程式標註並共用圖格、報告或視覺效果的快照集。 收件者看到的外觀與送出郵件加上連結時完全相同。 您可以將圖格的快照集傳送給任何人，不只是在相同電子郵件網域的同事而已。 您可以新增註解 (線條、文字或戳記) 然後共用它。
 
 ![包含註解的報表](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-iphone-annotate.png)
 
@@ -73,5 +73,5 @@ ms.locfileid: "79205496"
 
 ## <a name="next-steps"></a>後續步驟
 * [從 Power BI 行動裝置應用程式共用儀表板](mobile-share-dashboard-from-the-mobile-apps.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+* 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

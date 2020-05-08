@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5bf1c79aa411788fdb3275b938e7eaad7d6014a1
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: aed8317c36cdd118b03bff2db93788f493ac9ad2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380517"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>新增 Power BI 視覺效果的書籤支援
@@ -29,7 +29,7 @@ ms.locfileid: "79380517"
 
 1. 安裝 (或更新) 必要的公用程式，[powerbi-visuals-utils-interactivityutils](https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) \(英文\) 3.0.0 版或更新版本。 它包含要使用狀態選取項目或篩選進行操作的其他類別。 篩選視覺效果和任何使用 `InteractivityService` 的視覺效果都需要它。
 
-2. 將視覺效果 API 更新為 1.11.0 版，以在 `SelectionManager` 的執行個體中使用 `registerOnSelectCallback`。 使用一般 `SelectionManager` 而不是 `InteractivityService` 的非篩選視覺效果需要這麼做。
+2. 將視覺效果 API 更新為 1.11.0 版，以在 `registerOnSelectCallback` 的執行個體中使用 `SelectionManager`。 使用一般 `SelectionManager` 而不是 `InteractivityService` 的非篩選視覺效果需要這麼做。
 
 ### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>Power BI 視覺效果如何在報表書籤中與 Power BI 互動
 
@@ -51,7 +51,7 @@ ms.locfileid: "79380517"
 
 * 如果視覺效果尚未使用 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) \(英文\)，您可以使用 `FilterManager.restoreSelectionIds` 方法。
 
-* 如果視覺效果已經使用 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) \(英文\) 來管理選取項目，您應該使用 `InteractivityService` 執行個體中的 `applySelectionFromFilter` 方法。
+* 如果視覺效果已經使用 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) \(英文\) 來管理選取項目，您應該使用 `applySelectionFromFilter` 執行個體中的 `InteractivityService` 方法。
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>使用 ISelectionManager.registerOnSelectCallback
 
@@ -187,7 +187,7 @@ if (jsonFilters
 
 `filterState` 屬性可讓屬性成為篩選的一部分。 視覺效果可以在書籤中儲存各種值。
 
-若要將屬性值儲存為篩選狀態，請在 *capabilities.json* 檔案中，將物件屬性標示為 `"filterState": true`。
+若要將屬性值儲存為篩選狀態，請在 `"filterState": true`capabilities.json*檔案中，將物件屬性標示為*。
 
 例如，時間軸交叉分析篩選器會將 `Granularity` 屬性值儲存在篩選中。 它能讓目前的細微性，隨著您變更書籤而變更。
 

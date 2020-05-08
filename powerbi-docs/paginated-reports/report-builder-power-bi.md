@@ -10,10 +10,10 @@ ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621535"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 報表產生器
@@ -32,13 +32,13 @@ ms.locfileid: "80621535"
  
 -   **開始使用 [資料表精靈]、[矩陣精靈] 或 [圖表精靈]** 。 建立資料來源連線、拖放欄位以建立資料集查詢、選取配置和樣式，並自訂報表。  
   
--   **開始使用 [地圖精靈]** ，以建立根據地理或幾何背景顯示彙總資料的報表。 地圖資料可以是來自 Transact-SQL 查詢或美國環境系統研究所公司(ESRI) 形狀檔的空間資料。 您還可以加入 Microsoft Bing 地圖底圖背景。  
+-   **開始使用 [地圖精靈]** ，以建立根據地理或幾何背景顯示彙總資料的報表。 地圖資料可以是來自 Transact-SQL 查詢或美國環境系統研究所公司 (ESRI) 形狀檔的空間資料。 您還可以加入 Microsoft Bing 地圖底圖背景。  
 
 ##  <a name="design-your-report"></a><a name="DesignRept"></a> 設計報表  
   
--   **使用資料表、矩陣、圖表及任意格式的報表配置建立分頁報表。** 針對以資料行為基礎的資料建立資料表報表，針對摘要資料建立矩陣報表 (例如交叉分析或樞紐分析表報表)，針對圖形化資料建立圖表報表，以及針對其他任何內容建立任意格式的報表。 報表可以內嵌其他報表和圖表，連同動態 Web 應用程式的清單、圖形和控制項。  
+-   **建立含有資料表、矩陣、圖表和自由形式報表配置的分頁報表。** 針對以資料行為基礎的資料建立資料表報表，針對摘要資料建立矩陣報表 (例如交叉分析或樞紐分析表報表)，針對圖形化資料建立圖表報表，以及針對其他任何內容建立任意格式的報表。 報表可以內嵌其他報表和圖表，連同動態 Web 應用程式的清單、圖形和控制項。  
   
--   **來自各種資料來源的報表。** 您可以建立報表，使用來自 SQL Server 和 Analysis Services、Oracle、Power BI 資料集以及其他資料庫的關聯式和多維度資料。  
+-   **從各種資料來源建立報表。** 您可以建立報表，使用來自 SQL Server 和 Analysis Services、Oracle、Power BI 資料集以及其他資料庫的關聯式和多維度資料。  
   
 -   **修改現有的報表。** 藉由使用報表產生器，您可以自訂及更新在 SQL Server Data Tools (SSDT) 報表設計工具中建立的報表。  
   

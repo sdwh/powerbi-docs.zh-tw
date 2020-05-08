@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
 ms.openlocfilehash: 18267f06bd43166cb1958d3aff73913a31189953
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80550753"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 視覺效果專案結構
@@ -102,7 +102,7 @@ Power BI 視覺效果工具會使用此檔案作為 [Power BI 視覺效果] 窗�
 
 [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) 的組態檔。
 
-此檔案必須包含 **\*.ts** 檔案的路徑，也就是視覺效果主要類別 (在 `pbiviz.json` 檔案 `visualClassName` 屬性中指定) 的所在位置。
+此檔案必須包含 **\*.ts** 檔案的路徑，也就是視覺效果主要類別 (在 `visualClassName` 檔案 `pbiviz.json` 屬性中指定) 的所在位置。
 
 ### <a name="tslintjson"></a>tslint.json
 

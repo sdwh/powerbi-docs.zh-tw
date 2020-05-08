@@ -10,10 +10,10 @@ ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 28be15b1f62f410c14faaa5d3e8c36060596c466
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79208118"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Power BI 中的自助資料準備
@@ -106,7 +106,7 @@ Power BI 也可以連線到含有 Common Data Service 格式且已結構描述�
 
 此文章提供適用於 Power BI 中巨量資料的自助資料準備概觀，以及您可使用它的許多方式。 下列文章將更詳細討論資料流程的常見使用案例。 
 
-* [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
+* [建立 Power BI 中的資料流程](service-dataflows-create-use.md)
 * [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
 * [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)

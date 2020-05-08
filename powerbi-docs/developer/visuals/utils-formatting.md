@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: dc2d036ab1e3e3dab551269163ced2f066a71626
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378016"
 ---
 # <a name="formatting-utils"></a>格式化公用程式
@@ -127,7 +127,7 @@ textMeasurementService.measureSvgTextHeight(textProperties);
 function estimateSvgTextBaselineDelta(textProperties: TextProperties): number;
 ```
 
-範例：
+範例︰
 
 ```typescript
 import { textMeasurementService } from "powerbi-visuals-utils-formattingutils";
@@ -402,7 +402,7 @@ stringExtensions.startsWith("Power BI", "Power");
 // returns: true
 ```
 
-### <a name="contains"></a>包含
+### <a name="contains"></a>contains
 
 此函式會檢查字串是否包含指定子字串。
 

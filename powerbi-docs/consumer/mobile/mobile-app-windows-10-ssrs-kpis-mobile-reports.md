@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
 ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435367"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>在 Power BI Windows 應用程式中檢視內部部署報表與 KPI
@@ -46,8 +46,8 @@ ms.locfileid: "79435367"
 
 ## <a name="connect-to-a-reporting-services-report-server"></a>連線到 Reporting Services 報表伺服器
 1. 在導覽窗格的底部，點選 [設定]  ![設定圖示](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
-2. 點選 [連線到伺服器]  。
-3. 請填入伺服器位址以及使用者名稱和密碼。 請使用此格式的伺服器位址︰
+2. 點選 [連接至伺服器]  。
+3. 請填入伺服器位址以及使用者名稱和密碼。 請使用此格式的伺服器位址：
    
      `https://<servername>/reports` 或   `https://<servername>/reports`
    
@@ -75,7 +75,7 @@ Reporting Service、行動報表與 Power BI 報表 (預覽) 皆顯示在 Report
 * 點選 KPI，以焦點模式查看。
   
     ![焦點模式下的 KPI](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-kpis.png)
-* 點選行動報表加以開啟，並在 Power BI 中與之互動。
+* 點選行動報表以在 Power BI 應用程式中開啟它並與之互動。
   
     ![Reporting Services 行動報表](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
@@ -88,9 +88,9 @@ Reporting Service、行動報表與 Power BI 報表 (預覽) 皆顯示在 Report
   
    入口網站上的我的最愛皆在此頁面。
   
-閱讀更多以了解 [Power BI 行動裝置應用程式中的我的最愛](mobile-apps-favorites.md)。
+深入了解 [Power BI 行動裝置應用程式中的我的最愛](mobile-apps-favorites.md)。
 
-## <a name="remove-a-connection-to-a-report-server"></a>移除報表伺服器的連接
+## <a name="remove-a-connection-to-a-report-server"></a>移除報表伺服器的連線
 您只能一次性從 Power BI 行動裝置應用程式連接到一部報表伺服器。 如果您要連接到其他伺服器，則必須先從目前伺服器中斷連接。
 
 1. 在導覽窗格的底部，點選 [設定]  ![設定圖示](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)。
@@ -100,13 +100,13 @@ Reporting Service、行動報表與 Power BI 報表 (預覽) 皆顯示在 Report
     ![移除伺服器](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-remove-server-menu.png)
 
 ## <a name="create-reporting-services-mobile-reports-and-kpis"></a>建立 Reporting Services 行動報表和 KPI
-您無法在 Power BI 行動裝置應用程式中建立 Reporting Services KPI 和行動報表。 請在 SQL Server 行動報表發行工具和 SQL Server 2016 Reporting Services 入口網站加以建立。
+您無法在 Power BI 行動裝置應用程式中建立 Reporting Services KPI 和行動報表。 請您以 SQL Server 行動報表發行工具與 SQL Server 2016 Reporting Services 入口網站建立之。
 
 * [建立您自己的 Reporting Services 行動報表](https://msdn.microsoft.com/library/mt652547.aspx)，並將其發行至 Reporting Services 入口網站。
 * [在 Reporting Services 入口網站上建立 KPI](https://msdn.microsoft.com/library/mt683632.aspx)
 
 ## <a name="next-steps"></a>後續步驟
-* [開始使用 Power BI for Windows 10 行動裝置 App](mobile-windows-10-phone-app-get-started.md)  
+* [開始使用 Power BI for Windows 10 行動裝置應用程式](mobile-windows-10-phone-app-get-started.md)  
 * [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)  
-* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+* 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

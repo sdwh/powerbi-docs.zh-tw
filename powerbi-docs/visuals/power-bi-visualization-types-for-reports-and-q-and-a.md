@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381414"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
@@ -194,7 +194,7 @@ ms.locfileid: "79381414"
 如需詳細資訊，請參閱 [Power BI 中的高密度散佈圖](desktop-high-density-scatter-charts.md)。
 
 ### <a name="slicers"></a>交叉分析篩選器
-![slicer](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+![交叉分析篩選器](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 如需詳細資訊，請參閱 [Power BI 中的交叉分析篩選器](power-bi-visualization-slicers.md)。
 
@@ -212,7 +212,7 @@ ms.locfileid: "79381414"
 如需詳細資訊，請參閱[在 Power BI 中使用資料表](power-bi-visualization-tables.md)。
 
 ### <a name="treemaps"></a>矩形式樹狀結構圖
-![treemap](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![矩形式樹狀結構圖](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 如需詳細資訊，請參閱 [Power BI 中的矩形式樹狀結構圖](power-bi-visualization-treemaps.md)。
 
@@ -228,7 +228,7 @@ ms.locfileid: "79381414"
 如需詳細資訊，請參閱 [Power BI 中的瀑布圖](power-bi-visualization-waterfall-charts.md)。
 
 ## <a name="tell-qa-which-visualization-to-use"></a>告訴問與答要使用的視覺效果
-在 Power BI 問與答輸入自然語言查詢時，您可以在查詢中指定視覺效果的類型。  例如：
+在 Power BI 問與答輸入自然語言查詢時，您可以在查詢中指定視覺效果的類型。  範例︰
 
 ***依州以矩形式樹狀結構圖顯示銷售額***.
 
