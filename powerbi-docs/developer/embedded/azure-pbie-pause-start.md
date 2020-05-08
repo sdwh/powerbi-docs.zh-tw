@@ -1,5 +1,5 @@
 ---
-title: 在 Azure 入口網站中暫停和啟動您的 Power BI Embedded 容量 | Microsoft Docs
+title: 在 Azure 入口網站中暫停並啟動您的 Power BI Embedded 容量 | Microsoft Docs
 description: 本文逐步解說如何在 Microsoft Azure 中暫停和啟動 Power BI Embedded 容量。
 services: power-bi-embedded
 author: KesemSharabi
@@ -10,10 +10,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 09/28/2017
 ms.openlocfilehash: 07c9c12366b100936e03fe07358ee180e026dfc5
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114742"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 入口網站中暫停和啟動您的 Power BI Embedded 容量
@@ -43,7 +43,7 @@ ms.locfileid: "80114742"
 
     ![暫停您的容量](media/azure-pbie-pause-start/azure-portal-pause-capacity.png)
 
-5. 選取 [是]  確認您要暫停容量。
+5. 選取 [是]  ，以確認您需要暫停容量。
 
     ![確認暫停](media/azure-pbie-pause-start/azure-portal-confirm-pause.png)
 
@@ -57,7 +57,7 @@ ms.locfileid: "80114742"
 
     ![Azure 入口網站中的所有服務](media/azure-pbie-pause-start/azure-portal-more-services.png)
 
-3. 選取您要啟動的容量。
+3. 選取您需要啟動的容量。
 
     ![Azure 入口網站中的 Power BI Embedded 容量清單](media/azure-pbie-pause-start/azure-portal-capacity-list.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "80114742"
 
     ![啟動您的容量](media/azure-pbie-pause-start/azure-portal-start-capacity.png)
 
-5. 選取 [是]  確認您要啟動容量。
+5. 選取 [是]  ，以確認您需要啟動容量。
 
     ![確認啟動](media/azure-pbie-pause-start/azure-portal-confirm-start.png)
 
