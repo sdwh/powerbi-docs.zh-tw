@@ -11,10 +11,10 @@ ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 0e7d46711502b75c9d0fedb8b1a0792a11f102bd
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040182"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>顯示更詳細的內容：焦點模式與全螢幕模式

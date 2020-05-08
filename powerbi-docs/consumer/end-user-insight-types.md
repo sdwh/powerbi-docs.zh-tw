@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4870fac504f36600c13af49c5798d896eeb59261
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113165"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI 支援的深入解析類型
@@ -51,7 +51,7 @@ Power BI 使用統計演算法來發掘見解。 這些演算法將在本文的�
 
 ![變更時間序列中的點範例](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
-### <a name="correlation"></a>相互關聯
+### <a name="correlation"></a>Correlation
 偵測在根據資料集內的類別或值繪製時，多個量值會顯示類似模式或趨勢的情況。
 
 ![相互關聯範例](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
