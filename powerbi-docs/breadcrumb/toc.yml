@@ -13,7 +13,7 @@
             - name: 取用者
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
-            - name: 行動裝置
+            - name: 行動
               tocHref: /power-bi/consumer/mobile/
               topicHref: /power-bi/consumer/mobile/index
             - name: 開發人員
@@ -29,7 +29,7 @@
                 - name: 自動化
                   tocHref: /power-bi/developer/automation/
                   topicHref: /power-bi/developer/automation/
-            - name: 導引式學習
+            - name: 引導式學習
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
             - name: 學習目錄
@@ -47,7 +47,7 @@
             - name: 建立報表和儀表板
               tocHref: /power-bi/create-reports/
               topicHref: /power-bi/create-reports/index
-            - name: 連線至資料
+            - name: 連接到資料
               tocHref: /power-bi/connect-data/
               topicHref: /power-bi/connect-data/index
             - name: 開始使用

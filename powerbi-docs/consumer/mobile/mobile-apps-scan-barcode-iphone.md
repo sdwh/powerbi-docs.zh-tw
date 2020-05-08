@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
 ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802041"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>使用裝置從 Power BI 行動裝置應用程式掃描條碼
@@ -32,7 +32,7 @@ ms.locfileid: "80802041"
 當您使用裝置上 Power BI 應用程式中的掃描器掃描產品條碼時，您就會看到具有該條碼的報表 (或報表清單)。 您可以開啟篩選出該條碼的報表。
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>使用 Power BI 掃描器掃描條碼
-1. 在導覽列上，點選 [更多選項] **** (...)，然後點選 [掃描器] **** 。
+1. 在導覽列上，點選 [更多選項]  (...)，然後點選 [掃描器]  。
 
     ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
 
@@ -49,8 +49,8 @@ ms.locfileid: "80802041"
 無論何種狀況，都請點選圖示以開啟有浮動掃描器的小功能表。
 
 * 將掃描器對焦到新項目，將報表的篩選條件變更為不同的條碼值。 
-* 選取 \[Clear barcode filter] \(清除條碼篩選) **** 回到未經篩選的報表。
-* 選取 \[Filter by recent barcodes] \(按最近的條碼篩選) **** ，將報表篩選條件變更為目前工作階段內，您掃描過的其中一個條碼。
+* 選取 \[Clear barcode filter] \(清除條碼篩選)  回到未經篩選的報表。
+* 選取 \[Filter by recent barcodes] \(按最近的條碼篩選)  ，將報表篩選條件變更為目前工作階段內，您掃描過的其中一個條碼。
 
 ## <a name="issues-with-scanning-a-barcode"></a>條碼掃描問題
 以下是掃描產品條碼時，可能會看到的一些訊息。
@@ -62,9 +62,9 @@ ms.locfileid: "80802041"
 您掃描的條碼值位在模型中，但報表的全部/某些視覺效果不包含此值，因此篩選會傳回空白狀態。 請嘗試查詢其他報表頁面，或在 Power BI Desktop 中編輯報表使其包含此值。 
 
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>「您似乎沒有任何可供條碼篩選的報表。」
-這表示您沒有任何使用條碼的報表。 條碼掃描器只能篩選具有 [條碼] **** 資料行的報表。  
+這表示您沒有任何使用條碼的報表。 條碼掃描器只能篩選具有 [條碼]  資料行的報表。  
 
-請確定您或報表擁有者已在 Power BI Desktop 中將資料行標記為 [條碼] **** 。 深入了解[在 Power BI Desktop 中標記條碼欄位](../../desktop-mobile-barcodes.md)
+請確定您或報表擁有者已在 Power BI Desktop 中將資料行標記為 [條碼]  。 深入了解[在 Power BI Desktop 中標記條碼欄位](../../desktop-mobile-barcodes.md)
 
 ### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>「無法篩選報表，此條碼似乎不存在於報表資料中。」
 您選擇要篩選的報表，其資料模型基礎不包含此條碼值。 例如，報表不包含產品「礦泉水」。 您可以掃描不同的產品、選擇不同的報表 (如有多份報表可供選擇)，或檢視未經篩選的報表。 
