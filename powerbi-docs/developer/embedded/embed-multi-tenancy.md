@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
 ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79494944"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 內嵌式分析管理多租用戶
@@ -104,7 +104,7 @@ Power BI Embedded 支援多地理位置部署 (預覽功能)。 [Multi-Geo](embe
 
 ### <a name="cost"></a>成本
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) 具有以資源為基礎的購買模型，像是 **Power BI Premium**。 您購買一或多個具有固定運算能力和記憶體的容量。 使用 **Power BI Embedded** 時，此容量是主要成本項目。 使用容量的使用者數目沒有限制。 唯一的限制是容量的效能。 每個*主要*使用者或需要存取 Power BI 入口網站的特定使用者都需要 [Power BI Pro 授權](../../service-admin-licensing-organization.md)。
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) 具有以資源為基礎的購買模型，像是 **Power BI Premium**。 您購買一或多個具有固定運算能力和記憶體的容量。 使用 **Power BI Embedded** 時，此容量是主要成本項目。 使用容量的使用者數目沒有限制。 唯一的限制是容量的效能。 每個[主要](../../service-admin-licensing-organization.md)使用者或需要存取 Power BI 入口網站的特定使用者都需要 *Power BI Pro 授權*。
 
 我們建議您透過模擬實際環境和使用方式來測試和測量容量的預期負載，並對容量進行負載測試。 您可以使用 Azure 容量或[進階容量計量應用程式](../../service-admin-premium-monitor-capacity.md)中提供的各種計量來測量負載和效能。
 
@@ -131,7 +131,7 @@ SaaS 應用程式有兩種方法，讓使用者能夠編輯和建立報告，或
 
 如果 SaaS 應用程式存放區為每個租用戶保留個別的資料庫，那麼自然的選擇是在 Power BI 中使用單一租用戶的資料集，並為每個指向相符資料庫的資料集使用連接字串。
 
-如果 SaaS 應用程式存放區使用所有租用戶的多租用戶資料庫，則可以輕鬆地依工作區區隔租用戶。 您可以使用僅擷取相關租用戶資料的參數化資料庫查詢，以設定 Power BI 資料集的資料庫連線。 您可以使用 [Power BI Desktop](../../desktop-query-overview.md) 或使用查詢時具有[參數](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)的 [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) 來更新連接。
+如果 SaaS 應用程式存放區使用所有租用戶的多租用戶資料庫，則可以輕鬆地依工作區區隔租用戶。 您可以使用僅擷取相關租用戶資料的參數化資料庫查詢，以設定 Power BI 資料集的資料庫連線。 您可以使用 [Power BI Desktop](../../desktop-query-overview.md) 或使用查詢時具有[參數](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup)的 [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) 來更新連接。
 
 ### <a name="data-isolation"></a>資料隔離
 

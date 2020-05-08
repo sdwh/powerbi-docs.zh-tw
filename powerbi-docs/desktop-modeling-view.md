@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: b9df4398c410f52e3d5cdd51a99a40de107f5867
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760874"
 ---
 # <a name="work-with-modeling-view-in-power-bi-desktop"></a>在 Power BI Desktop 中使用模型化檢視
@@ -29,7 +29,7 @@ ms.locfileid: "75760874"
 
 ## <a name="creating-separate-diagrams"></a>建立個別圖表
 
-透過使用模型檢視，您可以針對模型建立僅包含模型中一部分資料表的圖表。 這可以協助更清楚地顯示您想要處理的資料表，並簡化處理複雜資料集的工作。 若要建立僅包含一部分資料表的新圖表，請按一下位於 Power BI Desktop 視窗底部之 [所有資料表]  索引標籤旁邊的 **+** 符號。
+透過使用模型檢視，您可以針對模型建立僅包含模型中一部分資料表的圖表。 這可以協助更清楚地顯示您想要處理的資料表，並簡化處理複雜資料集的工作。 若要建立僅包含一部分資料表的新圖表，請按一下位於 Power BI Desktop 視窗底部之 [所有資料表] **+ 索引標籤旁邊的**  符號。
 
 ![按一下索引標籤區段中的 + 符號來建立新圖表](media/desktop-modeling-view/modeling-view_03.png)
 

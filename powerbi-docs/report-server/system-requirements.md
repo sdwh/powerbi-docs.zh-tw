@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/20/2020
 ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77558554"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>安裝 Power BI 報表伺服器的硬體和軟體需求
@@ -25,8 +25,8 @@ ms.locfileid: "77558554"
 | --- | --- |
 | .NET Framework |4.7<br><br>您可以從 [Windows 的 Microsoft .NET Framework 4.7 (Web 安裝程式)](https://support.microsoft.com/en-us/kb/3186500) 手動安裝 .NET Framework。<br/><br/> 如需 .NET Framework 4.7 的詳細資訊、建議和指導，請參閱[開發人員的 .NET Framework 部署手冊](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers)。<br/><br/>Windows 8.1 和 Windows Server 2012 R2 需要有 [KB2919355](https://support.microsoft.com/kb/2919355) 才能安裝 .NET Framework 4.7。 |
 | 硬碟 |Power BI 報表伺服器至少需要 1 GB 的可用硬碟空間。<br><br>裝載報表伺服器資料庫的資料庫伺服器則需要額外的空間。 |
-| 記憶體 |**最低：** 1 GB<br/><br/> **建議︰** 至少 4 GB |
-| 處理器速度 |**最低︰** x64 處理器︰1.4 GHz<br/><br/> **建議︰** 2.0 GHz 或更快 |
+| 記憶體 |**最小值：** 1 GB<br/><br/> **建議值︰** 至少 4 GB |
+| 處理器速度 |**最小值︰** x64 處理器︰1.4 GHz<br/><br/> **建議值：** 2.0 GHz 或更快 |
 | 處理器類型 |x64 處理器︰AMD Opteron、AMD Athlon 64、具有 Intel EM64T 支援的 Intel Xeon、具有 EM64T 支援的 Intel Pentium IV |
 | 作業系統 |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
 
@@ -49,7 +49,7 @@ SQL Server 可用來裝載報表伺服器資料庫。 SQL Server 資料庫引擎
 
 ## <a name="considerations"></a>考量
 
-Power BI 報表伺服器會安裝預設值，以設定讓報表伺服器運作所需的核心設定。 它有下列需求︰
+Power BI 報表伺服器會安裝預設值，以設定讓報表伺服器運作所需的核心設定。 它的需求如下：
 
 * Power BI 報表伺服器支援的語言包括：英文、德文、西班牙文、日文、義大利文、法文、俄文、簡體中文、繁體中文、葡萄牙文 (巴西)、韓文
 * 在您設定報表伺服器資料庫前，SQL Server 資料庫引擎必須已安裝且可用。 資料庫引擎執行個體裝載 Reporting Services 設定管理員會建立的報表伺服器資料庫。 實際的安裝體驗不需要資料庫引擎。
@@ -60,7 +60,7 @@ Power BI 報表伺服器會安裝預設值，以設定讓報表伺服器運作�
 
 ## <a name="read-only-domain-controller-rodc"></a>唯讀網域控制站 (RODC)
 
- 您可以在具有唯讀網域控制站 (RODC) 的環境中安裝報表伺服器。 不過，Reporting Services 需要存取讀寫網域控制站的權限，才能正常運作。 如果 Reporting Services 只能存取 RODC，您在嘗試管理服務時可能會發生錯誤。
+ 您可以在具有唯讀網域控制站 (RODC) 的環境中安裝報表伺服器。 不過，Reporting Services 需要存取讀寫網域控制站的權限，才能正常運作。 如果 Reporting Services 只能存取 RODC，嘗試管理服務時可能會發生錯誤。
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Power BI 報表和 Analysis Services 即時連線
 

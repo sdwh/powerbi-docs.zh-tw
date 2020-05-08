@@ -10,10 +10,10 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4ad843078e452502a94aa7d60b3304528fd25496
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76038669"
 ---
 # <a name="use-the-analytics-pane-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 [分析] 窗格
@@ -59,7 +59,7 @@ ms.locfileid: "76038669"
 
     ![[平均值線] 方塊，[分析] 窗格，[視覺效果]，Power BI Desktop](media/desktop-analytics-pane/analytics-pane_3.png)
 
-3. 若要建立新的線，請選取 [+&nbsp;新增]  。 然後您可以為參考線命名。 按兩下文字方塊並輸入您要的名稱。
+3. 若要建立新的線，請選取 [ **+新增]&nbsp;** 。 然後您可以為參考線命名。 按兩下文字方塊並輸入您要的名稱。
 
     現在您可以設定參考線的各種選項了。 您可以指定其 [色彩]  、[透明度]  百分比、[線條樣式]  與 [位置]  \(相較於視覺效果的資料元素\)。 您也可以選擇是否要包含 [資料標籤]  。 若要依據您的參考線指定視覺效果量值，請選取 [量值]  下拉式清單，其中已自動填入視覺效果中的資料元素。 這裡我們選取 [文化特性]  作為量值，加上「文化特性平均值」  標籤，然後自訂其他幾個選項。
 

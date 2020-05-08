@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
 ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78919834"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>安裝報表產生器 - Power BI 報表伺服器
@@ -46,7 +46,7 @@ ms.locfileid: "78919834"
     ![[新報表或資料集] 畫面](media/quickstart-create-paginated-report/reportserver-paginated-new-report-screen.png)
  
 
-##  <a name="download"></a> 從下載中心安裝報表產生器  
+##  <a name="install-report-builder-from-the-download-center"></a><a name="download"></a> 從下載中心安裝報表產生器  
   
 1.  在 [Microsoft 下載中心的報表產生器頁面](https://go.microsoft.com/fwlink/?LinkID=734968)，選取 [下載]  。  
   

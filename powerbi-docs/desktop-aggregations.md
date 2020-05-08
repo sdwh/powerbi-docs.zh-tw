@@ -10,10 +10,10 @@ ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77427640"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>在 Power BI Desktop 中使用彙總
@@ -46,11 +46,11 @@ Power BI 中的「彙總」  可讓您減少資料表大小，以便能夠專注
 [管理彙總]  對話方塊會顯示資料表的每個資料行都有一筆資料列，您可以在此指定彙總行為。 在下列範例中，對 **Sales** 詳細資料資料表的查詢會在內部重新導向至 **Sales Agg** 彙總資料表。 
 
 [管理彙總]  對話方塊中的 [摘要]  下拉式清單提供下列值：
-- 計數
+- Count
 - GroupBy
 - 最大值
-- 最小值
-- 加總
+- Min
+- Sum
 - 計數表格列
 
 ![[管理彙總] 對話方塊](media/desktop-aggregations/aggregations_07.jpg)
@@ -114,7 +114,7 @@ Power BI 中的「彙總」  可讓您減少資料表大小，以便能夠專注
 
 請改為建立 **Sales Agg** 彙總資料表。 在 **Sales Agg** 資料表中，資料列數目應該等於 **SalesAmount** 的總和，而 SalesAmount 是 **CustomerKey**、**DateKey** 以及 **ProductSubcategoryKey** 的組合。 **Sales Agg** 資料表的資料粒度比 **Sales** 還高，因此該資料表可能包含數百萬個資料列，而不是數十億，如此更易於管理。
 
-如果下列維度資料表最常用於具有高度商業價值的查詢，則可以使用「一對多」  或「多對一」  關聯性來篩選 **Sales Agg**。
+如果下列維度資料表最常用於具有高度商業價值的查詢，則可以使用「一對多」  或「多對一」  關聯性來篩選 *Sales Agg*。
 
 - 地理位置
 - 客戶

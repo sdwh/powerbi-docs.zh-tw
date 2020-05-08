@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: d349e19e4f5cc73cadf2a281b07a220ff7c076bf
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79376768"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>德國雲端客戶的 Power BI 常見問題集

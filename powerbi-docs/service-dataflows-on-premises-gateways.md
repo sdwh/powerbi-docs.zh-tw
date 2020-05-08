@@ -10,10 +10,10 @@ ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: efd110ad73b1bd72813d418a1f641613c88dc0d5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762569"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>搭配內部部署資料來源使用資料流程
@@ -76,7 +76,7 @@ ms.locfileid: "75762569"
 此文章提供了如何針對資料流程使用內部部署資料來源，以及如何使用和設定閘道來存取這類資料的相關資訊。 下列文章可能也很實用
 
 * [使用資料流程的自助資料準備](service-dataflows-overview.md)
-* [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
+* [建立 Power BI 中的資料流程](service-dataflows-create-use.md)
 * [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 
