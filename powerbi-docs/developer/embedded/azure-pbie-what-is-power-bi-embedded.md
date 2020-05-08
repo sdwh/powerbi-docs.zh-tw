@@ -11,13 +11,13 @@ ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
 ms.openlocfilehash: f04621fdfe7e6055d84fa4d2672c874837ff5ea4
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495266"
 ---
-# <a name="what-is-power-bi-embedded-in-azure"></a>什麼是 Azure Power BI Embedded？
+# <a name="what-is-power-bi-embedded-in-azure"></a>Azure 中的 Power BI Embedded 是什麼？
 
 Power BI Embedded 旨在透過內嵌式分析簡化 ISV 和開發人員使用 Power BI 功能的方式。 Power BI Embedded 可協助您快速地將令人讚嘆的視覺效果、報表和儀表板新增至您的應用程式，藉以簡化 Power BI 功能。 類似於 Microsoft Azure 上使用如機器學習服務和 IoT 之類的服務來建置應用程式的方式。 透過在其應用程式中啟用輕鬆巡覽資料探勘，ISV 可讓其客戶在內容中進行快速、明智的決策。
 
@@ -25,9 +25,9 @@ Power BI Embedded 旨在透過內嵌式分析簡化 ISV 和開發人員使用 Po
 
 在 2017 年 5 月，我們已宣告將 Power BI 與 Power BI Embedded 服務聚合。 此聚合提供一個 API 介面、一組一致的功能，並可存取這兩種服務中的最新功能。 此外，我們還引進了以容量為基礎的定價模型，簡化 Power BI 的使用方式。
 
-使用 Power BI Embedded，ISV 和開發人員可獲得額外的彈性，供他們使用 Power BI API 在其應用程式中內嵌智慧。 ISV 和開發人員可以利用最少的開發工作來加快應用程式上市的速度，並藉由在其應用程式中導入 Microsoft 的世界級分析引擎，讓自己脫穎而出。 同樣地，開發人員可以花時間投注在其解決方案以滿足客戶需求，而不是開發視覺分析功能。 此外，Power BI Embedded 可讓您在已使用的熟悉開發環境 (Visual Studio 與 Azure) 中工作。
+使用 Power BI Embedded，ISV 和開發人員可獲得額外的彈性，供他們使用 Power BI API 在其應用程式中內嵌智慧。 ISV 和開發人員可以利用最少的開發工作來加快應用程式上市的速度，並藉由在其應用程式中導入 Microsoft 的世界級分析引擎，讓自己脫穎而出。 同樣地，開發人員可以花時間專注於其解決方案，以滿足客戶需求，而不是開發視覺化的分析功能。 此外，Power BI Embedded 可讓您在已使用的熟悉開發環境 (Visual Studio 與 Azure) 中工作。
 
-您是否有使用 Power BI Premium 內嵌 Power BI 內容的現有應用程式？ 如果您是提供應用程式的 ISV 或開發人員，或是使用它們的組織，則不需要採取任何動作。 您和您的客戶可以在不中斷的情況下繼續使用這些應用程式。 如果您有在 Power BI 工作區集合上建置的現有應用程式，並想要利用聚合的 API 介面和以容量為基礎的新型 Azure SKU，請瀏覽文件以取得移轉指導方針。
+您是否有使用 Power BI Premium 內嵌 Power BI 內容的現有應用程式？ 如果您是提供應用程式的 ISV 或開發人員，或是使用它們的組織，則不需要採取任何動作。 您和您的客戶可以在不中斷的情況下繼續使用這些應用程式。 如果您有 Power BI 工作區集合上所建置的現有應用程式，並需要利用聚合的 API 介面和以容量作為基礎的新型 Azure SKU，請瀏覽文件以取得移轉指導方針。
 
 ## <a name="comparing-power-bi-embedded-with-power-bi-premium"></a>比較 Power BI Embedded 與 Power BI Premium
 
@@ -47,9 +47,9 @@ Power BI Embedded 可讓您專注於拿手項目：建置絕佳的應用程式�
 
 ## <a name="engage-with-the-power-bi-engineering-team"></a>洽詢 Power BI 工程小組
 
-* [社群](https://community.powerbi.com/) \(英文\)：詢問 Power BI 問題
-* [Power BI Ideas](https://ideas.powerbi.com) \(英文\)：要求及票選功能
-* [Reddit](https://www.reddit.com/r/PowerBI/) \(英文\)：討論 Power BI
+* [社群](https://community.powerbi.com/)：提出 Power BI 問題
+* [Power BI 想法](https://ideas.powerbi.com)：要求並票選功能
+* [Reddit](https://www.reddit.com/r/PowerBI/)：討論 Power BI
 
 ## <a name="next-steps"></a>後續步驟
 

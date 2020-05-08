@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207589"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>編輯或移除儀表板磚
@@ -117,7 +117,7 @@ ms.locfileid: "79207589"
 
     ![[功能] 對話方塊](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
-3. 選取 [ **套用**]。
+3. 選取 [套用]  。
 
 4. 新的標題會顯示在磚上。  此外，當您選取磚時，Power BI 會開啟 [人力資源] 儀表板。 
 

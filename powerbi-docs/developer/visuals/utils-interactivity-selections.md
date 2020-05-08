@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/24/2020
 ms.openlocfilehash: f4d47347c98d19afdfbf07615842bfb4649dc1b9
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379252"
 ---
 # <a name="power-bi-visuals-interactivity-utils"></a>Power BI 互動功能公用程式
@@ -105,7 +105,7 @@ Interactivity 公用程式 (`InteractivityUtils`) 是一組函式與類別，可
 2. 延伸基底行為類別。
 
     > [!NOTE]
-    > [互動功能公用程式的 5.6.x 版本](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0) \(英文\) 中引進了 `BaseBehavior`。 如果您使用舊版本，請從下列範例建立行為類別。
+    > `BaseBehavior`互動功能公用程式的 5.6.x 版本[ \(英文\) 中引進了 ](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0)。 如果您使用舊版本，請從下列範例建立行為類別。
 
 3. 定義行為類別選項的介面。
 

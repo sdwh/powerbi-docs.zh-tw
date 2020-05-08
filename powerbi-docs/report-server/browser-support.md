@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874298"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI 報表伺服器的瀏覽器支援
@@ -71,11 +71,11 @@ ms.locfileid: "73874298"
 
 | **瀏覽器類型** | **支援** | **瀏覽器預設** | **伺服器預設** |
 | --- | --- | --- | --- |
-| **Microsoft Edge** (+) |交涉, Kerberos, NTLM, 基本 |交涉 |是。 預設驗證設定適用於 Microsoft Edge。 |
-| **Microsoft Internet Explorer** |交涉, Kerberos, NTLM, 基本 |交涉 |是。 預設驗證設定適用於Internet Explorer。 |
-| **Google Chrome**(+) |交涉, NTLM, 基本 |交涉 |是。 預設驗證設定適用於 Chrome。 |
-| **Mozilla Firefox**(+) |NTLM, 基本 |NTLM |是。 預設驗證設定適用於 Firefox。 |
-| **Apple Safari**(+) |NTLM, 基本 |基本 |是。 預設驗證設定適用於 Safari。 |
+| **Microsoft Edge** (+) |交涉, Kerberos, NTLM, 基本 |交涉 |有。 預設驗證設定適用於 Microsoft Edge。 |
+| **Microsoft Internet Explorer** |交涉, Kerberos, NTLM, 基本 |交涉 |有。 預設驗證設定適用於Internet Explorer。 |
+| **Google Chrome**(+) |交涉, NTLM, 基本 |交涉 |有。 預設驗證設定適用於 Chrome。 |
+| **Mozilla Firefox**(+) |NTLM，基本 |NTLM |有。 預設驗證設定適用於 Firefox。 |
+| **Apple Safari**(+) |NTLM，基本 |基本 |有。 預設驗證設定適用於 Safari。 |
 
  **(+)** 最新公開發行的版本
 
@@ -88,10 +88,10 @@ ms.locfileid: "73874298"
 Your browser does not support scripts or has been configured to not allow scripts to run. Click here to view this report without scripts
 ```
 
- 如果您選擇在無指令碼支援的情況下檢視報表，報表就會以 HTML 轉譯且不含報表檢視器功能，例如報表工具列和文件引導模式等。
+ 如果您選擇檢視不含指令碼支援的報表，報表會以 HTML 轉譯，且不含報表檢視器功能 (例如，報表工具列和文件引導模式)。
 
 > [!NOTE]
-> 報表工具列屬於 HTML 檢視器元件。 根據預設，工具列會出現在瀏覽器視窗中轉譯的每份報表的頂端。 報表檢視器會提供功能，包括搜尋報表中的資訊、捲動至特定頁面，以及調整頁面大小以供檢視等功能。 如需報表工具列或 HTML 檢視器的詳細資訊，請參閱[HTML 檢視器和報表工具列](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar)。
+> 報表工具列屬於 HTML 檢視器元件的一部分。 根據預設，此工具列會出現在瀏覽器視窗中轉譯的每個報表上方。 報表檢視器會提供功能，包括搜尋報表中的資訊、捲動至特定頁面，以及調整頁面大小以供檢視等功能。 如需有關報表工具列或 HTML 檢視器的詳細資訊，請參閱＜ [HTML Viewer and the Report Toolbar](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar)＞。
 > 
 > 
 

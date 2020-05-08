@@ -9,19 +9,19 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
 ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114144"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>在 Power BI 視覺效果中醒目提示資料點
 
-根據預設，每當選取一個元素時，都會篩選 `dataView` 物件中的 `values` 陣列只顯示選取的值。 這會導致頁面上所有其他視覺效果只顯示選取的資料。
+根據預設，每當選取一個元素時，都會篩選 `values` 物件中的 `dataView` 陣列只顯示選取的值。 這會導致頁面上所有其他視覺效果只顯示選取的資料。
 
 ![醒目提示 `dataview` 預設行為](media/highlight/highlight-dataview.png)
 
-如果您將 `capabilities.json` 中的 `supportsHighlight` 屬性設定為 `true`，則會收到未篩選的完整 `values` 陣列及 `highlights` 陣列。 `highlights` 陣列的長度會與 values 陣列相同，且任何非選取的值都會設定為 `null`。 啟用此屬性時，視覺效果會負責將 `values` 陣列與 `highlights` 陣列進行比較，以醒目提示適當的資料。
+如果您將 `supportsHighlight` 中的 `capabilities.json` 屬性設定為 `true`，則會收到未篩選的完整 `values` 陣列及 `highlights` 陣列。 `highlights` 陣列的長度會與 values 陣列相同，且任何非選取的值都會設定為 `null`。 啟用此屬性時，視覺效果會負責將 `values` 陣列與 `highlights` 陣列進行比較，以醒目提示適當的資料。
 
 ![`dataview` 支援醒目提示](media/highlight/highlight-dataview-supports.png)
 
@@ -32,7 +32,7 @@ ms.locfileid: "80114144"
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>使用類別資料檢視對應來醒目提示資料點
 
-內含類別資料檢視對應之視覺效果具有包含 `"supportsHighlight": true` 參數的 `capabilities.json`。 例如：
+內含類別資料檢視對應之視覺效果具有包含 `capabilities.json` 參數的 `"supportsHighlight": true`。 範例︰
 
 ```json
 {
@@ -275,7 +275,7 @@ div.value {
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>使用矩陣資料檢視對應來醒目提示資料點
 
-內含矩陣資料檢視對應的視覺效果具有包含 `"supportsHighlight": true` 參數的 `capabilities.json`。 例如：
+內含矩陣資料檢視對應的視覺效果具有包含 `capabilities.json` 參數的 `"supportsHighlight": true`。 範例︰
 
 ```json
 {
@@ -323,7 +323,7 @@ div.value {
 
 針對矩陣資料檢視對應建立階層的範例資料：
 
-|   Row1   |   Row2   |   Row3   |   Column1   |   Column2   |   資料行3   |   值   |
+|   Row1   |   Row2   |   Row3   |   資料行1   |   資料行2   |   Column3   |   值   |
 |-----|-----|------|-------|-------|-------|-------|
 |   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |

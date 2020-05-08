@@ -10,16 +10,16 @@ ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 6e468ac429c26f3b1880501914816ac60f8b7858
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378723"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>從 Power BI Desktop 將報表匯出為 PDF
 在 **Power BI Desktop** 或 Power BI 服務中，可將報表匯出為 PDF 檔案，因此可輕鬆地利用該 PDF 分享或列印報表。
 
-![匯出為 PDF](media/desktop-export-to-pdf/export-to-pdf_01.png)
+![匯出至 PDF](media/desktop-export-to-pdf/export-to-pdf_01.png)
 
 將您的報表從 **Power BI Desktop** 匯出為 PDF 的程序，您如此即可列印 PDF 或與其他人分享該 PDF 文件，用法相當直接。 只要從 Power BI Deskop 選取 [檔案]> [匯出至 PDF]  即可。
 

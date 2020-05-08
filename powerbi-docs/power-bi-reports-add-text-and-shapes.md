@@ -11,10 +11,10 @@ ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273194"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>將文字方塊和圖形新增至 Power BI 報表
@@ -30,7 +30,7 @@ ms.locfileid: "80273194"
 
 2. 將游標置於報表畫布上任何空白的位置，然後從頂端功能表選取 [文字方塊]  。
    
-   ![選取 [文字方塊]](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
+   ![選取文字方塊](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
 3. 在文字方塊中鍵入您的文字，並選擇性地設定格式字型、色彩和文字對齊方式。 
    
    ![輸入文字](media/power-bi-reports-add-text-and-shapes/pbi_textbox2new.png)

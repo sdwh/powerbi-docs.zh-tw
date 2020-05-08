@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/23/2020
 ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114765"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>以程式設計的方式為 Power BI 設定認證
@@ -61,7 +61,7 @@ ms.locfileid: "80114765"
 
     # <a name="net-sdk-v2"></a>[.NET SDK v2](#tab/sdk2)
 
-    以步驟 2 中的閘道公開金鑰加密認證字串。 不同閘道版本可能有不同的公開金鑰大小。 請參閱 SDK 程式碼中的下列範例 (可在 [PowerBI-CSharp GitHub 存放庫](https://github.com/microsoft/PowerBI-CSharp/tree/master/sdk/PowerBI.Api/Extensions) \(英文\) 中找到)：
+    以步驟 2 中的閘道公開金鑰加密認證字串。 不同的閘道版本可能有不同的公用金鑰大小。 請參閱 SDK 程式碼中的下列範例 (可在 [PowerBI-CSharp GitHub 存放庫](https://github.com/microsoft/PowerBI-CSharp/tree/master/sdk/PowerBI.Api/Extensions) \(英文\) 中找到)：
     * [AsymmetricKeyEncryptor.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/AsymmetricKeyEncryptor.cs)
     * [Asymmetric1024KeyEncryptionHelper.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/Asymmetric1024KeyEncryptionHelper.cs)
     * [AsymmetricHigherKeyEncryptionHelper.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/AsymmetricHigherKeyEncryptionHelper.cs)
@@ -115,7 +115,7 @@ ms.locfileid: "80114765"
     var gateway = gateways.First();
     ```
 
-3. 使用**步驟 2** 中擷取的閘道公開金鑰，以[為資料來源更新認證流程](#update-credentials-flow-for-data-sources)中所述的相同方式建置認證詳細資料。
+3. 使用[步驟 2](#update-credentials-flow-for-data-sources) 中擷取的閘道公開金鑰，以**為資料來源更新認證流程**中所述的相同方式建置認證詳細資料。
 
 4. 建置要求本文。
 
@@ -135,7 +135,7 @@ ms.locfileid: "80114765"
 
 ## <a name="credential-types"></a>認證類型
 
-當您在**企業內部部署閘道**下使用 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) 呼叫[建立資料來源](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource)或[更新資料來源](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)時，需要使用閘道的公用金鑰來加密認證值。
+當您在[企業內部部署閘道](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource)下使用 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) 呼叫**建立資料來源**或[更新資料來源](https://docs.microsoft.com/rest/api/power-bi/)時，需要使用閘道的公用金鑰來加密認證值。
 
 >[!NOTE]
 >.NET SDK v3 也可以執行下面所列的 .NET SDK v2 範例。

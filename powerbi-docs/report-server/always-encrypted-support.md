@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
 ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76710198"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Power BI 報表伺服器中的 Always Encrypted
@@ -29,7 +29,7 @@ ms.locfileid: "76710198"
 
 |儲存體  |支援  |
 |---------|---------|
-|Windows 憑證存放區 | 是 |
+|Windows 憑證存放區 | 有 |
 |Azure Key Vault | 否 |
 | 新一代的密碼編譯 (CNG) | 否 |
 
@@ -46,10 +46,10 @@ ms.locfileid: "76710198"
 
 |使用  |具決定性  |隨機化  |
 |---------|---------|---------|
-|可以在查詢結果中以原狀讀取，例如 SELECT 陳述式。 | 是  | 是  |
-|可以用作查詢內的 Group By 實體。 | 是 | 否 |
+|可以在查詢結果中以原狀讀取，例如 SELECT 陳述式。 | 有  | 有  |
+|可以用作查詢內的 Group By 實體。 | 有 | 否 |
 |除了 COUNT和 DISTINCT 以外，可以用作彙總欄位。 | 否，但是 COUNT 和 DISTINCT 除外 | 否 |
-|可以用作報表參數 | 是 | 否 |
+|可以用作報表參數 | 有 | 否 |
 
 深入了解[決定性與隨機加密](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption)。
 
@@ -69,16 +69,16 @@ ms.locfileid: "76710198"
 
 ## <a name="datatype-support"></a>資料類型支援
 
-| SQL 資料類型 | 支援讀取欄位 | 支援用作為 Group By 元素 | 支援的彙總 (COUNT、DISTINCT、MAX、MIN、SUM 等) | 支援使用參數透過相等來進行篩選 | 備忘稿 |
+| SQL 資料類型 | 支援讀取欄位 | 支援用作為 Group By 元素 | 支援的彙總 (COUNT、DISTINCT、MAX、MIN、SUM 等) | 支援使用參數透過相等來進行篩選 | 注意 |
 | --- | --- | --- | --- | --- | --- |
-| int | 是 | 是 | COUNT、DISTINCT | 是，以整數形式 |   |
-| FLOAT | 是 | 是 | COUNT、DISTINCT | 是，以浮點數形式 |   |
-| NVARCHAR | 是 | 是 | COUNT、DISTINCT | 是，以文字形式 | 確定性加密必須針對字元資料行使用 binary2 排序次序的資料行定序。 如需詳細資料，請參閱 SQL Server [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) 一文。  |
-| varchar | 是 | 是 | COUNT、DISTINCT | 否 |   |
-| decimal | 是 | 是 | COUNT、DISTINCT | 否 |   |
-| NUMERIC | 是 | 是 | COUNT、DISTINCT | 否 |   |
-| 日期時間 | 是 | 是 | COUNT、DISTINCT | 否 |   |
-| datetime2 | 是 | 是 | COUNT、DISTINCT | 是，以日期/時間形式 | 如果資料行沒有毫秒有效位數，則受支援 (換句話說，沒有 datetime2(0)) |
+| int | 有 | 有 | COUNT、DISTINCT | 是，以整數形式 |   |
+| FLOAT | 有 | 有 | COUNT、DISTINCT | 是，以浮點數形式 |   |
+| NVARCHAR | 有 | 有 | COUNT、DISTINCT | 是，以文字形式 | 確定性加密必須針對字元資料行使用 binary2 排序次序的資料行定序。 如需詳細資料，請參閱 SQL Server [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) 一文。  |
+| varchar | 有 | 有 | COUNT、DISTINCT | 否 |   |
+| decimal | 有 | 有 | COUNT、DISTINCT | 否 |   |
+| NUMERIC | 有 | 有 | COUNT、DISTINCT | 否 |   |
+| datetime | 有 | 有 | COUNT、DISTINCT | 否 |   |
+| datetime2 | 有 | 有 | COUNT、DISTINCT | 是，以日期/時間形式 | 如果資料行沒有毫秒有效位數，則受支援 (換句話說，沒有 datetime2(0)) |
 
 ## <a name="aggregation-alternatives"></a>彙總替代項目
 

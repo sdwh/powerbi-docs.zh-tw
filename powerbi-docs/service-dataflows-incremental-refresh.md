@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: de65fed27260f3e93c4e91fcb680d2e5190543b0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698202"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>搭配 Power BI 資料流程使用累加式重新整理
@@ -154,7 +154,7 @@ ms.locfileid: "74698202"
 
 
 * [使用資料流程的自助資料準備](service-dataflows-overview.md)
-* [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
+* [建立 Power BI 中的資料流程](service-dataflows-create-use.md)
 * [搭配內部部署資料來源使用資料流程](service-dataflows-on-premises-gateways.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 

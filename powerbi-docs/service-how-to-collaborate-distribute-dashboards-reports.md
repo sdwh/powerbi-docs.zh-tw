@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
 ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79376745"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>在 Power BI 中共用成品的方式
@@ -106,7 +106,7 @@ Power BI 具有新的工作區體驗。 讀取[建立新的工作區](service-cr
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>列印或儲存為 PDF 或其他靜態檔案
 
-您可以從 Power BI 服務列印整份儀表板、儀表板磚、報表頁面或視覺效果，或將其儲存為 PDF (或其他靜態檔案格式)。 一次只能列印一頁報表 - 您無法一次列印整份報表。 深入了解[列印或儲存為靜態檔案](consumer/end-user-print.md)。
+您可以從 Power BI 服務列印整份儀表板、儀表板磚、報表頁面或視覺效果，或將其儲存為 PDF (或其他靜態檔案格式)。 一次只能列印一頁報表 -- 您無法一次列印整份報表。 [列印及儲存為靜態檔案](consumer/end-user-print.md)的詳細資訊。
 
 ## <a name="embed-reports-in-secure-portals-or-public-web-sites"></a>在安全的入口網站或公用網站中內嵌報表
 
@@ -122,7 +122,7 @@ Power BI 服務中的 [在 SharePoint Online 內嵌]  和 [內嵌]  選項可讓
 
 ### <a name="publish-to-public-web-sites"></a>發佈到公用網站
 
-您可以透過 [發佈到 Web]  將 Power BI 報表發佈到整個網際網路，方法是在任何裝置上將互動式視覺效果內嵌到部落格文章、網站、社交媒體和其他線上通訊。 網際網路上的任何人都可以檢視您的報表，而且您無法控制誰可以查看您的發行內容。 他們不需要 Power BI 授權。 您只能在可編輯的報表中使用發行至網站。 如果報表是與您共用，或報表是在應用程式中，則您無法將報表發行至網站。 深入了解[發行至網站](service-publish-to-web.md).
+您可以透過 [發佈到 Web]  將 Power BI 報表發佈到整個網際網路，方法是在任何裝置上將互動式視覺效果內嵌到部落格文章、網站、社交媒體和其他線上通訊。 網際網路上的任何人都可以檢視您的報表，而且您無法控制誰可以查看您的發行內容。 他們不需要 Power BI 授權。 您只能在可編輯的報表中使用發行至網站。 如果報表是與您共用，或報表是在應用程式中，則您無法將報表發行至網站。 深入了解[發行至 Web](service-publish-to-web.md).
 
 >[!Warning]
 >僅使用 [發佈至網路](service-publish-to-web.md) 來公開共用內容，而不是內部共用。

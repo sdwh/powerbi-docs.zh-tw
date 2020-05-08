@@ -10,13 +10,13 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 5aed52ec232d3e603d69bfe93640187401279ff6
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75885226"
 ---
-# <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>快速入門：連接至 Power BI Desktop 中的資料
+# <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>快速入門：在 Power BI Desktop 中連線至資料
 
 在本快速入門中，您會使用 Power BI Desktop 連線到資料，這是建置資料模型和建立報表的第一步。
 
@@ -38,7 +38,7 @@ ms.locfileid: "75885226"
 
 ![具有空白畫布的 Power BI Desktop](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 
-## <a name="connect-to-data"></a>連線至資料
+## <a name="connect-to-data"></a>連接到資料
 
 使用 Power BI Desktop，您可以連線到各種不同類型的資料。 這些來源包含基本資料來源，例如 Microsoft Excel 檔案。 您可以連線到包含各式各樣資料的線上服務，例如 Salesforce、Microsoft Dynamics、Azure Blob 儲存體等。
 

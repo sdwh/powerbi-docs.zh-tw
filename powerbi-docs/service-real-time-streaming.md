@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381069"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的即時串流
@@ -43,7 +43,7 @@ ms.locfileid: "79381069"
 * 視覺效果釘選到儀表板之後，您可以使用**問與答**，以自然語言提問推送資料集問題。 進行**問與答**查詢之後，您可以將結果產生的視覺效果釘選回儀表板，該儀表板「也會」  即時更新。
 
 ### <a name="streaming-dataset"></a>串流資料集
-使用**串流資料集**時，資料也會被發送到 Power BI 服務，不過有一個重要的差異：Power BI 只會將資料儲存到暫時快取，且該快取很快就會到期。 暫存快取只用來顯示具有短暫歷史感的視覺效果，例如具有一小時時間期間的折線圖。
+使用**串流資料集**，資料也會推送到 Power BI 服務，但有重要的差異︰Power BI 只會將資料儲存到暫存的快取，其很快就會到期。 暫存快取只用來顯示具有短暫歷史感的視覺效果，例如具有一小時時間期間的折線圖。
 
 使用**串流資料集**時，「沒有」  基礎資料庫，因此您「無法」  使用從資料流流入的資料來建置報表視覺效果。 因此，您不能使用報表功能，例如篩選、Power BI 視覺效果和其他報表功能。
 

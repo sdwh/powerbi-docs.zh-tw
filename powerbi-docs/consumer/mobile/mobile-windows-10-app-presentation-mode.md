@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 02/08/2020
 ms.author: painbar
 ms.openlocfilehash: 3be0ab1eb45716d0b9b7736d3e5bf5b8bfc25891
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435988"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Surface Hub 和 Windows 10 裝置上，以簡報模式檢視報表和儀表板
@@ -57,5 +57,5 @@ ms.locfileid: "79435988"
 
 ## <a name="next-steps"></a>後續步驟
 * [從 Power BI 服務以全螢幕模式顯示儀表板和報表](../end-user-focus.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+* 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 

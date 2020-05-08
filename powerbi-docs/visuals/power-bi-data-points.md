@@ -10,10 +10,10 @@ ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381437"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>依視覺效果類型套用資料點限制與策略
@@ -115,7 +115,7 @@ ms.locfileid: "79381437"
 - 圖例、緯度、經度、大小：前 233 個圖例、前 15 個緯度和經度 (可使用統計資料或動態限制)
 - 位置、圖例、緯度、經度的彙總 (+/-大小)：前 233 個位置、前 15 個圖例 (可使用統計資料或動態限制)
 
-### <a name="matrix"></a>矩陣圖
+### <a name="matrix"></a>Matrix
 - 資料列：使用一次顯示 500 個資料列的視窗進行虛擬化
 - 資料行：前 100 個群組資料行 
 - 值：有多個值不會計入資料縮減

@@ -11,10 +11,10 @@ ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
 ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207451"
 ---
 # <a name="manage-data-sources"></a>管理資料來源
@@ -25,7 +25,7 @@ Power BI 支援許多的[內部部署資料來源](power-bi-data-sources.md)，�
 
 大多數的資料來源管理作業也都可以使用 API 來執行。 如需詳細資訊，請參閱 [REST API (閘道)](/rest/api/power-bi/gateways)。
 
-## <a name="add-a-data-source"></a>加入資料來源
+## <a name="add-a-data-source"></a>新增資料來源
 
 1. 在 Power BI 服務的右上角，選取齒輪圖示 ![設定齒輪圖示](media/service-gateway-data-sources/icon-gear.png) > [管理閘道]  。
 
@@ -33,7 +33,7 @@ Power BI 支援許多的[內部部署資料來源](power-bi-data-sources.md)，�
 
 2. 選取閘道，然後選取 [新增資料來源]  。 或者，前往 [閘道]   > [新增資料來源]  。
 
-    ![加入資料來源](media/service-gateway-data-sources/add-data-source.png)
+    ![新增資料來源](media/service-gateway-data-sources/add-data-source.png)
 
 3. 選取 [資料來源類型]  。
 
@@ -62,7 +62,7 @@ Power BI 支援許多的[內部部署資料來源](power-bi-data-sources.md)，�
 
     ![進階設定](media/service-gateway-data-sources/advanced-settings.png)
 
-8. 選取 [新增]  。 如果程序成功，您會看到 [連線成功]  。
+8. 選取 [加入]  。 如果程序成功，您會看到 [連線成功]  。
 
     ![連線成功](media/service-gateway-data-sources/connection-successful.png)
 

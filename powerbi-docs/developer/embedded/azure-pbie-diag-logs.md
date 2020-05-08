@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495795"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure 中 Power BI Embedded 的診斷記錄
@@ -36,12 +36,12 @@ ms.locfileid: "79495795"
 
     * **名稱** - 輸入要建立之診斷設定的名稱。
 
-    * **封存至儲存體帳戶** - 若要使用此選項，您需要連線到現有的儲存體帳戶。 請參閱[建立儲存體帳戶](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)，並依照指示建立儲存體帳戶。 接著，透過在入口網站中返回此頁面來選取您的儲存體帳戶。 新建立的儲存體帳戶可能需要幾分鐘之後才會出現在下拉式功能表中。 記錄檔儲存體是 JSON 格式。
+    * **封存至儲存體帳戶** - 若要使用此選項，您需要連線到現有的儲存體帳戶。 請參閱[建立儲存體帳戶](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)，並依照指示建立儲存體帳戶。 接著，透過在入口網站中返回此頁面來選取您的儲存體帳戶。 新建立的儲存體帳戶可能在數分鐘後才會出現在下拉式功能表中。 記錄檔儲存體是 JSON 格式。
     * **串流至事件中樞** - 若要使用此選項，您需要連線到現有的「事件中樞」命名空間和事件中樞。 若要深入了解，請參閱[使用 Azure 入口網站來建立事件中樞命名空間和事件中樞](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)。
     * **傳送至 Log Analytics** - 若要使用此選項，請使用現有的工作區，或依照下列步驟在入口網站中[建立新的工作區](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace)以建立新的 Log Analytics 工作區。 這利用 [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview)，它提供內建分析、儀表板管理和通知功能。 您可以使用 Log Analytics 來連線到其他資源的更多資料，並取得跨所有您的應用程式資源的單一、完整資料檢視。 您也可以將它[一鍵連結到 Power BI](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi)。
     如需在 Log Analytics 中檢視記錄的詳細資訊，請參閱[檢視 Log Analytics 中的記錄檔](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity)。
     * **引擎** - 選取此選項來記錄下面[列出的一組引擎事件](#whats-logged)。
-    * **AllMetrics** - 選取此選項來儲存[計量](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)中的詳細資訊資料。 如果您是封存到儲存體帳戶，您可以選取診斷記錄檔的保留期間。 保留期間到期之後，系統會自動刪除記錄檔。
+    * **AllMetrics** - 選取此選項來儲存[計量](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)中的詳細資訊資料。 如果您要封存至儲存體帳戶，可以為診斷記錄選取保留期限。 保留期限過後，就會自動刪除記錄。
 
 3. 選取 [儲存]  。
 
@@ -53,7 +53,7 @@ ms.locfileid: "79495795"
 
 若要透過使用 PowerShell 來啟用計量和診斷記錄，請使用下列命令：
 
-* 若要將診斷記錄檔儲存在儲存體帳戶中，請使用此命令：
+* 若要啟用儲存體帳戶中診斷記錄的儲存體，請使用下列命令：
 
     ```powershell
     Set-AzureRmDiagnosticSetting -ResourceId [your resource id] -StorageAccountId [your storage account id] -Enabled $true
@@ -65,7 +65,7 @@ ms.locfileid: "79495795"
     ```powershell
     Set-AzureRmDiagnosticSetting -ResourceId [your resource id] -ServiceBusRuleId [your service bus rule id] -Enabled $true
     ```
-* Azure 服務匯流排規則識別碼是此格式的字串：
+* Azure 服務匯流排規則識別碼是此格式的字串︰
 
     ```powershell
     {service bus resource ID}/authorizationrules/{key name}
@@ -77,7 +77,7 @@ ms.locfileid: "79495795"
         Set-AzureRmDiagnosticSetting -ResourceId [your resource id] -WorkspaceId [resource id of the log analytics workspace] -Enabled $true
     ```
 
-* 您可以使用下列命令取得您 Log Analytics 工作區的資源識別碼：
+* 您可以使用下列命令取得 Log Analytics 工作區的資源識別碼：
 
     ```powershell
     (Get-AzureRmOperationalInsightsWorkspace).ResourceId
@@ -101,7 +101,7 @@ ms.locfileid: "79495795"
 
 引擎類別會指示資源記錄下列事件，且每個事件上都有屬性：
 
-|     事件名稱     |     事件描述     |
+|     活動名稱     |     事件描述     |
 |----------------------------|----------------------------------------------------------------------------------|
 |    稽核登入    |    記錄自開始追蹤以來連線到引擎事件的所有新連線。    |
 |    工作階段初始化    |    記錄自開始追蹤以來的所有工作階段初始化事件。    |
@@ -110,7 +110,7 @@ ms.locfileid: "79495795"
 |    查詢結束    |    記錄自開始追蹤以來的所有查詢結束事件。    |
 |    Vertipaq 查詢結束    |    記錄自開始追蹤以來的所有 Vertipaq 查詢結束事件。    |
 |    稽核登出    |    記錄自開始追蹤以來的所有從引擎中斷連線事件。    |
-|    Error    |    記錄自開始追蹤以來的所有引擎錯誤事件。    |
+|    錯誤    |    記錄自開始追蹤以來的所有引擎錯誤事件。    |
 
 <br>
 <br>
@@ -118,7 +118,7 @@ ms.locfileid: "79495795"
 | 屬性名稱 | Vertipaq 查詢結束範例 | 屬性描述 |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass | XM_SEQUERY_END | 「事件類別」是用來將事件分類。 |
-| EventSubclass | 0 | 「事件子類別」提供有關每個事件類別的額外資訊。 (例如 0:VertiPaq Scan) |
+| EventSubclass | 0 | 「事件子類別」提供有關每個事件類別的額外資訊。 (例如，0: VertiPaq 掃描) |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | 根活動識別碼。 |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | 事件開始的時間 (當可用時)。 |
 | StartTime | 2018-04-06T18:30:11.9137358Z | 事件開始的時間 (當可用時)。 |
@@ -126,13 +126,13 @@ ms.locfileid: "79495795"
 | ObjectID | 464 | 物件識別碼 |
 | ObjectType | 802012 | ObjectType |
 | EndTime | 2018-04-06T18:30:11.9137358Z | 事件結束的時間。 |
-| Duration | 0 | 事件花費的時間量 (毫秒)。 |
+| 持續時間 | 0 | 事件花費的時間量 (毫秒)。 |
 | SessionType | 使用者 | 工作階段類型 (引發作業的實體)。 |
 | ProgressTotal | 0 | 整體進度。 |
 | IntegerData | 0 | 整數資料。 |
-| Severity | 0 | 例外狀況的嚴重性層級。 |
+| 嚴重性 | 0 | 例外狀況的嚴重性層級。 |
 | Success | 1 | 1 = 成功。 0 = 失敗 (例如，1 表示權限檢查成功，而 0 表示該檢查失敗)。 |
-| Error | 0 | 給定事件的錯誤號碼。 |
+| 錯誤 | 0 | 給定事件的錯誤號碼。 |
 | ConnectionID | 3 | 唯一的連線識別碼。 |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | 資料集 (使用者的陳述式在其中執行) 的識別碼。 |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | 工作階段 GUID。 |
@@ -152,7 +152,7 @@ ms.locfileid: "79495795"
 
 記錄檔通常在設定記錄之後的幾個小時內就可用。 您可以選擇在儲存體帳戶中管理記錄檔：
 
-* 使用標準 Azure 存取控制方法，透過限制可存取的人來保護您的記錄檔。
+* 請使用標準的 Azure 存取控制方法限制可存取記錄的人員，藉此來保護記錄。
 * 刪除您不想再保留在儲存體帳戶中的記錄檔。
 * 請務必設定保留期限，以將舊的記錄檔從儲存體帳戶刪除。
 
@@ -168,11 +168,11 @@ ms.locfileid: "79495795"
 
 ![所有已收集的資料](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-all-collected-data.png)
 
-在 [類型]  中，選取 [AzureDiagnostics]  ，然後選取 [套用]  。 AzureDiagnostics 包含引擎事件。 請留意，系統隨即建立一個 Log Analytics 查詢。
+在 [類型]  中，選取 [AzureDiagnostics]  ，然後選取 [套用]  。 AzureDiagnostics 包含引擎事件。 請注意，Log Analytics 查詢是即時建立的。
 
 ![Azure 診斷](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-azure-diagnostics.png)
 
-請選取 [EventClass\_s]  或其中一個事件名稱，Log Analytics 就會繼續建構查詢。 請務必儲存您的查詢，以供日後重複使用。
+請選取 [EventClass**s]\_** 或其中一個事件名稱，Log Analytics 就會繼續建構查詢。 請務必儲存您的查詢，以供日後重複使用。
 
 請務必查看 [Log Analytics](https://docs.microsoft.com/azure/log-analytics/)，它提供的網站可讓您針對收集的資料進行增強查詢、儀表板管理和警示功能。
 

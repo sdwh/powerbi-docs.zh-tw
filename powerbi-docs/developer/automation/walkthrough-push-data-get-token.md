@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
 ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488261"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>步驟 2：取得驗證存取權杖
@@ -23,7 +23,7 @@ ms.locfileid: "79488261"
 
 ## <a name="get-an-authentication-access-token"></a>取得驗證存取權杖
 
-開始之前，請確認您已完成[將資料推送至 Power BI 資料集](walkthrough-push-data.md)系列的[上一個步驟](../embedded/register-app.md)。 
+開始之前，請確認您已完成[將資料推送至 Power BI 資料集](../embedded/register-app.md)系列的[上一個步驟](walkthrough-push-data.md)。 
 
 此程序需要 Visual Studio 2015 或更新版本。
 
@@ -39,7 +39,7 @@ ms.locfileid: "79488261"
 
 3. 完成這些步驟之後，將所列的範例程式碼新增至 Program.cs。
 
-4. 將 "{ClientID}" 取代為您在註冊應用程式時 ([上一篇系列文章](../embedded/register-app.md)) 取得的**用戶端識別碼**。
+4. 將 "{ClientID}" 取代為您在註冊應用程式時 (**上一篇系列文章**) 取得的[用戶端識別碼](../embedded/register-app.md)。
 
 5. 執行主控台應用程式，然後登入您的 Power BI 帳戶。 
 

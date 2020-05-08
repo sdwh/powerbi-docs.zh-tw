@@ -10,10 +10,10 @@ ms.date: 07/16/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 6c944b52deb72e556506d88f4358af2c816b46fc
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698156"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>管理您的資料來源 - SAP HANA
@@ -22,7 +22,7 @@ ms.locfileid: "74698156"
 
 在您[安裝內部部署資料閘道](/data-integration/gateway/service-gateway-install)後，您需要[新增資料來源](service-gateway-data-sources.md#add-a-data-source)，其可與閘道搭配使用。 本文會探討如何搭配閘道和 SAP HANA 資料來源來用於排程重新整理或 DirectQuery。
 
-## <a name="add-a-data-source"></a>加入資料來源
+## <a name="add-a-data-source"></a>新增資料來源
 
 如需如何新增資料來源的詳細資訊，請參閱[新增資料來源](service-gateway-data-sources.md#add-a-data-source)。 在 [資料來源類型]  下選取 [SAP HANA]  。
 

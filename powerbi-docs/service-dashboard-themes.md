@@ -10,10 +10,10 @@ ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: e2793fe56df462fd5f1bd1c266b75ad14fd9b375
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877461"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>在 Power BI 服務中使用儀表板佈景主題
@@ -24,7 +24,7 @@ ms.locfileid: "73877461"
 變更儀表板上的報表視覺效果色彩，並不會影響報表中的視覺效果。 而且，當您從[已套用報表佈景主題](desktop-report-themes.md)的報表釘選磚時，也可以選擇要保留目前的佈景主題，或使用儀表板的佈景主題。
 
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 * 如果要跟著做，[請開啟 [銷售與行銷範例] 儀表板](sample-datasets.md)。
 
 

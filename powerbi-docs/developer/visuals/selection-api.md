@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113684"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>透過 Power BI 視覺效果選取項目，將互動功能新增至視覺效果中
@@ -159,7 +159,7 @@ export interface ISelectionIdBuilder {
 
 而且視覺效果應該也可以藉由 `Manufacturer` 和 `Type` 來配量資料。
 
-例如，當使用者依 `Manufacturer` 選取 `Chrysler` 時，其他視覺效果應顯示下列資料：
+例如，當使用者依 `Chrysler` 選取 `Manufacturer` 時，其他視覺效果應顯示下列資料：
 
 | 製造商 | 類型 | 值 |
 | - | - | - |
@@ -168,7 +168,7 @@ export interface ISelectionIdBuilder {
 | **克萊斯勒** | 進口車輛 | 0 |
 | **克萊斯勒** | 進口卡車 | 6362 |
 
-當使用者依 `Type` 選取 `Import Car` (依數列選取資料) 時，其他視覺效果應顯示下列資料：
+當使用者依 `Import Car` 選取 `Type` (依數列選取資料) 時，其他視覺效果應顯示下列資料：
 
 | 製造商 | 類型 | 值 |
 | - | - | - |
@@ -229,7 +229,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
 }
 ```
 
-在範例程式碼中，您可以看到我們逐一查看所有類別。 而在每次反覆運算中，我們透過呼叫選取項目產生器的 `withCategory` 方法，呼叫 `createSelectionIdBuilder` 來建立每個類別的下一個選取項目。 方法 `createSelectionId` 是用來作為傳回所產生 `selection` 物件的最後方法。
+在範例程式碼中，您可以看到我們逐一查看所有類別。 而在每次反覆運算中，我們透過呼叫選取項目產生器的 `createSelectionIdBuilder` 方法，呼叫 `withCategory` 來建立每個類別的下一個選取項目。 方法 `createSelectionId` 是用來作為傳回所產生 `selection` 物件的最後方法。
 
 在 `withCategory` 方法中，我們會傳遞 `category` 的資料行，範例中其為 `Manufacturer` 和類別元素的索引。
 
