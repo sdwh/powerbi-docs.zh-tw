@@ -62,7 +62,7 @@
             - name: 自然語言問與答
               items:
                 - name: 問與答簡介
-                  href: ../natural-language/q-and-a-tooling-intro.md
+                  href: ../natural-language/q-and-a-intro.md
                 - name: 問與答工具簡介
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: 問與答工具進階
@@ -99,6 +99,14 @@
               href: ../paginated-reports/report-builder-previewing-reports.md
             - name: 編頁報表常見問題集
               href: ../paginated-reports/paginated-reports-faq.md
+        - name: 部署管線
+          items:
+            - name: 部署管線的簡介
+              href: deployment-pipelines-overview.md
+            - name: 了解部署程序
+              href: deployment-pipelines-process.md
+            - name: 最佳作法
+              href: deployment-pipelines-best-practices.md
     - name: 操作指南
       items:
         - name: Power BI 報表
@@ -121,22 +129,20 @@
               href: ../desktop-buttons.md
             - name: 建立鑽研按鈕
               href: ../desktop-drill-through-buttons.md
+            - name: 使用鑽研功能
+              href: ../desktop-drillthrough.md
+            - name: 使用跨報表鑽研功能
+              href: ../desktop-cross-report-drill-through.md
             - name: 建立書籤以儲存並共用見解
               href: ../desktop-bookmarks.md
             - name: 使用報表主題
               href: ../desktop-report-themes.md
             - name: 使用報表中的篩選
               href: ../power-bi-report-filter.md
-            - name: 使用鑽研功能
-              href: ../desktop-drillthrough.md
-            - name: 使用跨報表鑽研功能
-              href: ../desktop-cross-report-drill-through.md
+            - name: 新增報表篩選
+              href: ../power-bi-report-add-filter.md
             - name: 套用分組與量化
               href: ../desktop-grouping-and-binning.md
-            - name: 使用 R 建立 Power BI 視覺效果
-              href: ../desktop-r-visuals.md
-            - name: 下載並使用 R 支援的 Power BI 視覺效果
-              href: ../desktop-r-powered-custom-visuals.md
             - name: 套用格線與貼齊格線
               href: ../desktop-gridlines-snap-to-grid.md
             - name: 在報表中套用頁面顯示設定
@@ -153,6 +159,8 @@
               href: ../desktop-slicer-numeric-range.md
             - name: 相對日期交叉分析篩選器與篩選
               href: ../visuals/desktop-slicer-filter-date-range.md
+            - name: 相對時間交叉分析篩選器與篩選
+              href: slicer-filter-relative-time.md
             - name: 建立可以調整大小的交叉分析篩選器
               href: ../power-bi-slicer-filter-responsive.md
             - name: 將多個欄位新增至交叉分析篩選器
@@ -189,8 +197,6 @@
               href: ../desktop-templates.md
             - name: 從資料集建立報表
               href: ../service-report-create-new.md
-            - name: 新增報表篩選
-              href: ../power-bi-report-add-filter.md
             - name: 儲存報表
               href: ../service-report-save.md
             - name: 與編輯檢視的報表互動
@@ -201,6 +207,8 @@
               href: ../service-aggregates.md
             - name: 建立報表的 QR 代碼
               href: ../service-create-qr-code-for-report.md
+            - name: 讓消費者自訂視覺效果 (預覽)
+              href: power-bi-personalize-visuals.md
             - name: 將報表匯出到 Power BI Desktop (預覽)
               href: ../service-export-to-pbix.md
             - name: 發佈資料集與報表
@@ -267,6 +275,10 @@
               href: ../visuals/power-bi-visualization-powerapp.md
             - name: R 視覺效果
               href: ../visuals/service-r-visuals.md
+            - name: 使用 R 建立 Power BI 視覺效果
+              href: ../desktop-r-visuals.md
+            - name: 下載並使用 R 支援的 Power BI 視覺效果
+              href: ../desktop-r-powered-custom-visuals.md
             - name: 星形量測計圖表
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: 功能區圖表
@@ -371,6 +383,12 @@
               href: ../service-data-classification.md
             - name: 儀表板佈景主題
               href: ../service-dashboard-themes.md
+        - name: 部署管線
+          items:
+            - name: 開始使用
+              href: deployment-pipelines-get-started.md
+            - name: 疑難排解
+              href: deployment-pipelines-troubleshooting.md
         - name: 其他工作
           items:
             - name: 將內容重新命名

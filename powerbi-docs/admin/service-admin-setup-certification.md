@@ -9,10 +9,10 @@ ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1fc33b48613335f4fba97921e3d528175eb2a47f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81267837"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>設定資料集與資料流程認證 (預覽)
@@ -36,7 +36,7 @@ ms.locfileid: "81267837"
 
 1. 切換設定為 [啟用]  。
 1. 對於資料集認證，如果組織有已發佈的認證原則，則可在這裡提供其 URL。 在[資料流程簽署設定對話方塊](../service-datasets-promote.md#request-dataset-certification)的 [憑證] 區段中，此處會變為**深入了解**連結 
-1. 指定已獲授權可認證資料集與資料流程的使用者或群組。 這些授權的認證者可使用 [資料集](../service-datasets-promote.md#request-dataset-certification) 或 [資料流程](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow) 背書設定對話方塊中 [認證] 區段的 [認證] 按鈕。
+1. 指定已獲授權可認證資料集與資料流程的使用者或群組。 這些授權的認證者可使用 [[資料集]](../service-datasets-promote.md#request-dataset-certification) 或 [[資料流程]](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow) 背書設定對話方塊中 [認證] 區段的 [認證] 按鈕。
 1. 按一下 [套用]  。
 
 ## <a name="next-steps"></a>後續步驟
