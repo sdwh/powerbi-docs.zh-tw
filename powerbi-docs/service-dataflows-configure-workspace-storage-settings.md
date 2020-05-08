@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 516d3a682b669400a015aaec101c7e79c14dbb44
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889343"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>設定工作區資料流程設定 (預覽)
@@ -40,7 +40,7 @@ ms.locfileid: "76889343"
 
 在 [建立工作區] 對話方塊中，可能會出現標題為 [預覽改善的工作區]  的黃色方塊。 在該區域中，選取 [立即試用]  。
 
-![預覽改進的工作區](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
+![預覽改善的工作區](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
 在出現的對話方塊中，您可以給予新的工作區一個唯一的名稱。 請先不要選取 [儲存]  ，因為您還需要設定進階設定。
 
@@ -116,12 +116,12 @@ Power BI Pro、Premium 和 Embedded 工作區：
 如需有關資料流程、CDM 和 Azure Data Lake Storage Gen2 的詳細資訊，請參閱下列文章：
 
 * [資料流程與 Azure Data Lake 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)
-* [將 CDM 資料夾作為資料流程新增到 Power BI (預覽)](service-dataflows-add-cdm-folder.md)
-* [連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體 (預覽)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
+* [新增 CDM 資料夾成為 Power BI 資料流程 (預覽)](service-dataflows-add-cdm-folder.md)
+* [連接 Azure Data Lake Storage Gen2 來儲存資料流程 (預覽)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 如需有關資料流程的整體資訊，請參閱這些文章：
 
-* [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
+* [建立 Power BI 中的資料流程](service-dataflows-create-use.md)
 * [在 Power BI Premium 中使用計算實體 (預覽)](service-dataflows-computed-entities-premium.md)
 * [搭配內部部署資料來源使用資料流程 (預覽)](service-dataflows-on-premises-gateways.md)
 * [適用於 Power BI 資料流程的開發人員資源 (預覽)](service-dataflows-developer-resources.md)
