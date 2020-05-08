@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/23/2020
 ms.author: kfollis
-ms.openlocfilehash: cfdb4f380cd8ad9655593798f591a4c915988c43
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.openlocfilehash: 11e6e1b1359841ea85bcb65b384abab926f003e0
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "82120083"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841932"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 [//]: # "Tatevik Tatero 是 Chauncy Freels 的合作廠商，其協助維護網路研討會清單"
@@ -228,7 +228,7 @@ ms.locfileid: "82120083"
 
 ## <a name="see-also"></a>另請參閱
 
-- [Power BI 白皮書](whitepapers.md)
+- [Power BI 白皮書](guidance/whitepapers.md)
 
 - [Power BI 是什麼？](fundamentals/power-bi-overview.md)
 

@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
 ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205657"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>行動裝置應用程式 [首頁] 頁面的快速導覽
 在本教學課程中，您將熟悉 Power BI 行動裝置應用程式 [首頁] 頁面，以及可讓您快速找到所需內容的導覽輔助工具。
 
-適用於︰
+適用於：
 
 | ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) |
 |:--- |:--- |:--- |

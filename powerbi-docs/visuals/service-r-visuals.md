@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979814"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>在 Power BI 中建立和使用 R 視覺效果
@@ -116,7 +116,7 @@ R 套件是以定義完善的格式所合併的 R 函式、資料和已編譯程
 
 **Power BI Desktop** 可以使用任意類型的 R 套件，沒有任何限制。 您可以自行安裝 R 套件，以用於 **Power BI Desktop** (例如，使用 [RStudio IDE](https://www.rstudio.com/))。
 
-[這篇文章](../service-r-packages-support.md)中**支援的套件**一節列出的套件支援 **Power BI 服務**中的 R 視覺效果。 如果您在支援的套件清單中找不到感興趣的套件，則可以要求支援套件。 如需如何要求支援的相關資訊，請參閱 [Power BI 服務中的 R 套件](../service-r-packages-support.md)。
+**這篇文章**中**支援的套件**一節列出的套件支援 [Power BI 服務](../service-r-packages-support.md)中的 R 視覺效果。 如果您在支援的套件清單中找不到感興趣的套件，則可以要求支援套件。 如需如何要求支援的相關資訊，請參閱 [Power BI 服務中的 R 套件](../service-r-packages-support.md)。
 
 ### <a name="requirements-and-limitations-of-r-packages"></a>R 套件的需求和限制
 有少數 R 套件的需求和限制：

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
 ms.openlocfilehash: 1602743230f1a369fe3da48fa37a313b9d9bbea4
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435873"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 視覺效果指南
@@ -54,7 +54,7 @@ IAP Power BI 視覺效果是提供「免費功能」  的「免費」  視覺效
 
 在 Power BI 視覺效果經過驗證及核准之後，IAP Power BI 視覺效果的 Microsoft AppSource 清單會在定價選項下方指出「可能需要個別購買」。
 
-## <a name="context-menu"></a>操作功能表
+## <a name="context-menu"></a>捷徑功能表
 操作功能表是當使用者將滑鼠停留在視覺效果上時所顯示的右鍵功能表。
 所有 Power BI 視覺效果都應該啟用操作功能表，以提供一致的體驗。
 請參閱[本文](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md)了解如何新增內容功能表。

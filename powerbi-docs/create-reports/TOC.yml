@@ -62,7 +62,7 @@
             - name: 自然語言問與答
               items:
                 - name: 問與答簡介
-                  href: ../natural-language/q-and-a-intro.md
+                  href: ../natural-language/q-and-a-tooling-intro.md
                 - name: 問與答工具簡介
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: 問與答工具進階

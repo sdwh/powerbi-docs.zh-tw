@@ -10,10 +10,10 @@ ms.date: 01/02/2020
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: c72387d40ddf4b193481a37dbcb40695668eab66
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75837354"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>在 Power BI Desktop 中建立計算資料表
@@ -55,7 +55,7 @@ Western Region Employees = UNION('Northwest Employees', 'Southwest Employees')
 
 ## <a name="functions-for-calculated-tables"></a>導出資料表的函數
 
-您可以透過任何傳回資料表的 DAX 運算式來定義計算資料表，包括另一個資料表的簡單參照。 例如：
+您可以透過任何傳回資料表的 DAX 運算式來定義計算資料表，包括另一個資料表的簡單參照。 範例︰
 
 ```dax
 New Western Region Employees = 'Western Region Employees'
@@ -64,7 +64,7 @@ New Western Region Employees = 'Western Region Employees'
 本文只提供計算資料表的快速簡介。 您可以搭配 DAX 使用導出資料表，來解決許多分析問題。 以下是您可能使用的一些較常見的 DAX 資料表函式：
 
 * DISTINCT
-* 值
+* VALUES
 * CROSSJOIN
 * UNION
 * NATURALINNERJOIN

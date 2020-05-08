@@ -10,10 +10,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 77be727de3cda1d3b6fd5c34b6e572b1d505fc54
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76282013"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>從問與答將磚釘選到儀表板
@@ -28,7 +28,7 @@ ms.locfileid: "76282013"
 1. 開啟[儀表板](consumer/end-user-dashboards.md)，其中至少有一個從報表釘選的磚。 當您提問時，Power BI 會在具有釘選到該儀表板之磚的任何資料集中尋找解答。  若要深入了解，請參閱[取得資料](service-get-data.md)。
 2. 在儀表板頂端的問題方塊中，開始輸入您想要知道的資料相關問題。  
    ![問與答的問題方塊](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
-3. 例如，當您輸入「去年各月份和地區的銷售額」...  
+3. 例如，當您輸入「去年各月份和地區的銷售額」...   
    ![鍵入問題](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
 
    問題方塊可提供您建議。

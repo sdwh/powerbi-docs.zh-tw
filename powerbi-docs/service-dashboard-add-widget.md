@@ -11,10 +11,10 @@ ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76282022"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>將影像、影片和其他項目新增至儀表板
@@ -62,7 +62,7 @@ ms.locfileid: "76282022"
 
       同事按一下此影像或標題時，即會前往此 URL。
 
-   d. 選取 [ **套用**]。 
+   d. 選取 [套用]  。 
 
       ![[新增影像磚] 視窗](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
 
@@ -84,7 +84,7 @@ ms.locfileid: "76282022"
 
    c. 或者設定標題的自訂連結。 自訂連結可以是外部網站或您的工作區中的儀表板或報告。 不過在此範例中，我們已在文字方塊內新增超連結，因此會將 [設定自訂連結]  保持為未選取狀態。
 
-   d. 選取 [ **套用**]。 
+   d. 選取 [套用]  。 
 
      ![[新增文字方塊磚] 視窗](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
@@ -104,7 +104,7 @@ ms.locfileid: "76282022"
 
    c. 新增 [標題]  和 [子標題] **的超連結，讓您的同事在觀賞內嵌影片之後，可以在 YouTube 上檢視整個播放清單。** 若要這麼做，請在 [ 功能]  下，選取 [設定自訂連結]  ，然後輸入播放清單的 [URL]  。
 
-   d. 選取 [ **套用**]。  
+   d. 選取 [套用]  。  
 
    ![[新增影片磚] 視窗](media/service-dashboard-add-widget/power-bi-add-video-new.png)
 
@@ -181,7 +181,7 @@ ms.locfileid: "76282022"
 
    b. 輸入內嵌程式碼。 我們在這個範例會複製並貼上 Twitter 摘要。
 
-   c. 選取 [ **套用**]。
+   c. 選取 [套用]  。
 
    ![[新增 Web 內容磚] 視窗](media/service-dashboard-add-widget/power-bi-add-web-content.png)
    

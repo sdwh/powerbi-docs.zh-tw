@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609954"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841909"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>將 Power BI 問與答最佳化的最佳做法
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 如果您的資料能夠回答，就更厲害了，而 Power BI 的問與答就有這樣的能耐。
@@ -194,6 +194,8 @@ Power BI 預設會積極地彙總數值資料行，因此「年度總銷售額�
 此步驟專用於問與答，而且一般不適用於 Power BI 報表。 使用者通常會有用來參考相同事物的各種詞彙，例如總銷售額、淨銷售額、總淨銷售額。 您可以將這些同義字新增至 Power BI 模型中的資料表和資料行。 
 
 這個步驟非常重要。 即使使用明顯易懂的資料表和資料行名稱，問與答使用者會使用首次出現的詞彙來詢問問題。 使用者不會從預先定義的資料行清單中進行選擇。 您新增的同義字越有意義，報表的使用者體驗就會越好。 若要新增同義字，請在 Power BI Desktop 中移至模型檢視，選取 [模型] 索引標籤，然後選取一個欄位或資料表。 [屬性] 窗格會顯示 [同義字]  方塊，您可以在其中新增同義字。
+
+
 
 ![問與答屬性窗格的同義字](media/qna-modelling-pane-synonyms.png)
 

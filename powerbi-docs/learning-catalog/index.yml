@@ -10,10 +10,10 @@ metadata:
   ms.author: v-lshann
   ms.date: 04/08/2020
   ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
-  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 04/16/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "81439288"
 landingContent:
 - title: 業務決策者
@@ -66,7 +66,7 @@ landingContent:
       url: learning-catalog-data-analyst.md#integration
     - text: 安全性
       url: learning-catalog-data-analyst.md#security
-- title: Administrators
+- title: 系統管理員
   linkLists:
   - linkListType: overview
     links:
@@ -88,7 +88,7 @@ landingContent:
       url: learning-catalog-developer.md#embedded
     - text: DAX
       url: learning-catalog-developer.md#dax
-    - text: 開發
+    - text: 部署
       url: learning-catalog-developer.md#development
 - title: 合作夥伴售前角色
   linkLists:

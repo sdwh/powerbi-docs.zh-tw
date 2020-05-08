@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: davidi
 ms.openlocfilehash: cab64bdcd5707cfd0b1578e82334de4b5c84495c
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439955"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>如何設定 Power BI 報表排程的重新整理
@@ -34,7 +34,7 @@ ms.locfileid: "81439955"
 ## <a name="creating-a-schedule-refresh-plan"></a>建立排程重新整理計劃
 請遵循下列步驟以建立排程的重新整理計劃。
 
-1. 在入口網站中，以滑鼠右鍵按一下 Power BI 報表，然後選取 [管理]  。
+1. 在 Web 入口網站中，以滑鼠右鍵按一下 Power BI 報表，然後選取 [管理]  。
    
     ![從 Power BI 報表操作功能表選取管理](media/configure-scheduled-refresh/manage-power-bi-report.png)
 2. 在左側功能表中，選取 [排程的重新整理]  索引標籤。
@@ -49,7 +49,7 @@ ms.locfileid: "81439955"
 ## <a name="modifying-a-schedule-refresh-plan"></a>修改排程重新整理計劃
 修改排程的重新整理計劃類似於建立。
 
-1. 在入口網站中，以滑鼠右鍵按一下 Power BI 報表，然後選取 [管理]  。
+1. 在 Web 入口網站中，以滑鼠右鍵按一下 Power BI 報表，然後選取 [管理]  。
    
     ![從 Power BI 報表操作功能表選取管理](media/configure-scheduled-refresh/manage-power-bi-report.png)
 2. 在左側功能表中，選取 [排程的重新整理]  索引標籤。
@@ -64,7 +64,7 @@ ms.locfileid: "81439955"
 ## <a name="viewing-the-status-of-schedule-refresh-plan"></a>檢視排程重新整理計劃的狀態
 在入口網站中檢視排程重新整理計劃的狀態。
 
-1. 在入口網站中，以滑鼠右鍵按一下 Power BI 報表，然後選取 [管理]  。
+1. 在 Web 入口網站中，以滑鼠右鍵按一下 Power BI 報表，然後選取 [管理]  。
    
     ![從 Power BI 報表操作功能表選取管理](media/configure-scheduled-refresh/manage-power-bi-report.png)
 2. 在左側功能表中，選取 [排程的重新整理]  索引標籤。

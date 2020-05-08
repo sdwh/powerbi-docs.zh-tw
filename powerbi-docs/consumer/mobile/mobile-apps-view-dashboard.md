@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205519"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視儀表板和報表
-適用於︰
+適用於：
 
 | ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android 手機](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android 平板電腦](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
@@ -79,7 +79,7 @@ ms.locfileid: "79205519"
 ## <a name="view-dashboards-on-your-ipad"></a>在 iPad 上檢視儀表板
 1. 開啟 Power BI App。
    
-   需要先從 Apple App Store [下載 iPad 應用程式](https://go.microsoft.com/fwlink/?LinkId=522062)嗎？
+   需要先從 Apple App Store [下載 iPad App](https://go.microsoft.com/fwlink/?LinkId=522062) 嗎？
 2. 點選應用程式頂端的 [儀表板]  。  
    
    ![儀表板首頁](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -94,7 +94,7 @@ ms.locfileid: "79205519"
    * [點選磚與其互動](mobile-tiles-in-the-mobile-apps.md)。
    * [開啟磚後方的報表](mobile-reports-in-the-mobile-apps.md)。
    * [邀請其他人檢視儀表板](mobile-share-dashboard-from-the-mobile-apps.md)。
-   * [標註並共用磚的快照集](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
+   * [標註並共用圖格快照集](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
 5. 若要返回 [我的工作區]，請點選左上角的儀表板名稱，然後點選 [我的工作區]  。
    
    ![階層連結](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
@@ -154,7 +154,7 @@ ms.locfileid: "79205519"
 
 ## <a name="next-steps"></a>後續步驟
 * 從 Google Play [下載 Android 應用程式](https://go.microsoft.com/fwlink/?LinkID=544867)  
-* [開始使用 Power BI 的 Android 應用程式](mobile-android-app-get-started.md)  
+* [開始使用適用於 Power BI 的 Android App](mobile-android-app-get-started.md)  
 * [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)
-* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+* 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 
