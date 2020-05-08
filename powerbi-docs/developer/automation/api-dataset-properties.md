@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79079661"
 ---
 # <a name="dataset-properties"></a>資料集屬性
@@ -32,7 +32,7 @@ name     | 字串        | 使用者定義的資料集名稱。        | False  
 關聯性     | Relationship[]        | 資料表之間的關聯性集合。        | False        |  False  
 defaultMode     | 字串        | 用 "Push" 和 "Streaming" 值，決定要對資料集執行推送、串流或兩者。         | False        |  False
 
-## <a name="table"></a>資料表
+## <a name="table"></a>Table
 
 名稱  |類型  |描述  |唯讀  |必要
 ---------|---------|---------|---------|---------
@@ -49,7 +49,7 @@ name     |  字串        | 使用者定義的資料行名稱。        |  False
 dataType     |  字串       |  支援的 [EDM 資料類型](https://msdn.microsoft.com/library/ee382832.aspx)與限制。 請參閱[資料類型](#data-type-restrictions)限制。      |  False       | True        
 formatString     | 字串        | 描述顯示值時應如何設定其格式的字串。 若要深入了解字串格式設定，請參閱 [FORMAT_STRING 內容](https://msdn.microsoft.com/library/ms146084.aspx)。      | False        | False        
 sortByColumn    | 字串        |   要用以排序目前資料行的相同資料表中，資料行的字串名稱。     | False        | False       
-dataCategory     | 字串        |  用於描述此資料行內資料之資料類別的字串值。 常見的值包括：Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
+dataCategory     | 字串        |  用於描述此資料行內資料之資料類別的字串值。 幾個常用的值有：Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
 isHidden    |  布林值       |  指出資料行是否從檢視隱藏的屬性。 預設為 false。       | False        | False        
 summarizeBy     | 字串        |  資料行的預設彙總方法。 值包括：default、none、sum、min、max、count、average、distinctCount     |  False       | False
 
@@ -67,7 +67,7 @@ isHidden     | 字串        |  若為 true，資料表會從用戶端工具隱�
 名稱  |類型  |描述  |唯讀  |必要 
 ---------|---------|---------|---------|---------
 name     | 字串        | 使用者定義的關聯性名稱。 其也用作關聯性的識別碼。        | False       | True        
-crossFilteringBehavior     | 字串        |    篩選關聯性的方向：OneDirection (預設)、BothDirections、Automatic       | False        | False        
+crossFilteringBehavior     | 字串        |    關聯性的篩選方向：OneDirection (預設)、BothDirections、Automatic       | False        | False        
 fromTable     | 字串        | 外部索引鍵資料表的名稱。        | False        | True         
 fromColumn    | 字串        | 外部索引鍵資料行的名稱。        | False        | True         
 toTable    | 字串        | 主索引鍵資料表的名稱。        | False        | True         

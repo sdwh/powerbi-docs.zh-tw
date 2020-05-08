@@ -10,10 +10,10 @@ ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: ab171f81224c3c6cf90070bf221e6b93285d8caa
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006403"
 ---
 # <a name="apply-data-sensitivity-labels-in-power-bi-preview"></a>在 Power BI 中啟用資料敏感度標籤 (預覽)
@@ -34,7 +34,7 @@ ms.locfileid: "81006403"
 * 您的組織必須已在 [Microsoft 365 安全性中心](https://security.microsoft.com/) 或 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)中定義了敏感度標籤。
 * 如同[在 Power BI 中啟用資料敏感度標籤 (預覽)](../admin/service-security-enable-data-sensitivity-labels.md#enable-data-sensitivity-labels) 一文所述，您必須屬於有權套用資料敏感度標籤的安全性群組。
 * 您必須擁有 Power BI Pro 授權與編輯權限，才能對您想要標示的資源套用敏感度標籤。 
-* 您必須具備 Azure 資訊保護進階 P1 或進階 P2 授權。 Microsoft Azure 資訊保護可以單獨選購，也可以透過任一種 Microsoft 授權套件購得。 如需詳細資訊，請參閱 [Azure 資訊保護定價](https://azure.microsoft.com/pricing/details/information-protection/)。
+* 您必須具備 Azure 資訊保護進階 P1 或進階 P2 授權。 Microsoft Azure 資訊保護可以單獨選購，也可以透過任一種 Microsoft 授權套件購得。 如需詳細資訊，請參閱 [Azure 資訊保護價格](https://azure.microsoft.com/pricing/details/information-protection/)。
 
 若要對報表套用或變更敏感度標籤，請按一下工作區清單項目上的報表設定圖示，然後移至 [設定] 側邊窗格中的 [資料敏感度] 區段。 選擇適當的敏感度標籤，然後儲存設定。
 
@@ -71,13 +71,13 @@ ms.locfileid: "81006403"
 
 套用資料敏感度標籤時，必須需要考量下列條件：
 
-* 若要在 Power BI 中檢視或套用 Microsoft 資訊保護敏感度標籤，必須具備 Azure 資訊保護進階 P1 或進階 P2 授權。 您可單獨購買 Microsoft Azure 資訊保護，或透過其中一個 Microsoft 授權套件來購買。 如需詳細資訊，請參閱 [Azure 資訊保護定價](https://azure.microsoft.com/pricing/details/information-protection/)。
+* 在 Power BI 中套用及檢視 Microsoft 資訊保護敏感度標籤，需有 Azure 資訊保護進階 P1 或進階 P2 授權。 Microsoft Azure 資訊保護可以單獨選購，也可以透過任一種 Microsoft 授權套件購得。 如需詳細資訊，請參閱 [Azure 資訊保護價格](https://azure.microsoft.com/pricing/details/information-protection/)。
 * 敏感度標籤只能套用到儀表板、報表、資料集與資料流程。
 * 只有 Excel、PowerPoint 與 PDF 檔案才支援匯出檔案上所施行的標籤與保護控制。 若將資料匯出至 CSV 檔案、訂閱電子郵件、內嵌視覺效果及列印，將不會施行標籤與保護。
 * 從 Power BI 匯出檔案的使用者，有權根據敏感度標籤設定來存取與編輯該檔案。 但匯出資料的使用者不會取得檔案擁有者權限。 
 * 敏感度標籤目前不適用於[編頁報表]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)與活頁簿。 
 * Power BI 資產的敏感度標籤只會顯示在工作區清單與歷程檢視中，目前不會顯示在 [我的最愛]、[與我共用]、[最近項目] 或 [應用程式檢視] 中。 但請注意，即使看不見套用至 Power BI 資產的標籤，其也一律保存在匯出至 Excel、PowerPoint 與 PDF 檔案的資料上。
-* [Microsoft 365 安全性中心](https://security.microsoft.com/)或 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)設定的敏感度標籤*檔案加密*設定，只會套用至從 Power BI *匯出*的檔案，而不會在 *Power BI* 中施行。
+* *Microsoft 365 安全性中心*或 [Microsoft 365 合規性中心](https://security.microsoft.com/)設定的敏感度標籤[檔案加密](https://compliance.microsoft.com/)設定，只會套用至從 Power BI *匯出*的檔案，而不會在 *Power BI* 中施行。
 * Power BI 中套用的標籤不支援 [HYOK 保護](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)。
 * 必須滿足[授權需求](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels)，以在 Office 應用程式中檢視與套用標籤。
 * 只有全域 (公用) 雲端中的租用戶，才能使用敏感度標籤。 其他雲端中的租用戶無法使用敏感度標籤。
@@ -87,6 +87,6 @@ ms.locfileid: "81006403"
 
 本文說明如何在 Power BI 中啟用資料敏感度標籤。 下列文章提供如何在 Power BI 中保護資料保護的更多詳細資料。 
 
-* [Power BI 資料保護概觀](../admin/service-security-data-protection-overview.md)
+* [Power BI 的資料保護概觀](../admin/service-security-data-protection-overview.md)
 * [在 Power BI 中啟用資料敏感度標籤](../admin/service-security-enable-data-sensitivity-labels.md)
 * [在 Power BI 中使用 Microsoft Cloud App Security 控制項](../admin/service-security-using-microsoft-cloud-app-security-controls.md)

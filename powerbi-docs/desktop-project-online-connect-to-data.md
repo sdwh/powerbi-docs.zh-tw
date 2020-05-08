@@ -11,10 +11,10 @@ ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80550932"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>透過 Power BI Desktop 連線到 Project Online 資料
