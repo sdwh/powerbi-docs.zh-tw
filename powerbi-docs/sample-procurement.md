@@ -1,6 +1,6 @@
 ---
-title: 採購分析範例：觀看導覽
-description: 適用於 Power BI 的採購分析範例：觀看導覽
+title: 採購分析範例：導覽。
+description: Power BI 的採購分析範例：導覽
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404671"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的採購分析範例：觀看導覽
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的採購分析範例：導覽
 
 採購分析範例內容套件包含儀表板、報表和資料集，用於依類別及地點分析製造公司在廠商上的支出。 本範例會探討以下幾方面：
 
@@ -87,7 +87,7 @@ ms.locfileid: "80404671"
    ![在 [支出概觀] 頁面中選取 [墨西哥]](media/sample-procurement/pbi_procsample_spendmexico.png)
 2. 向下鑽研**間接貨物與服務**資料行：
 
-   * 在 [依子類別劃分的發票總計]![](media/sample-procurement/pbi_drilldown_icon.png) 圖表中，選取圖表右上角的向下鑽研箭號 (**向下鑽研箭號**)。
+   * 在 [依子類別劃分的發票總計]  圖表中，選取圖表右上角的向下鑽研箭號 (![向下鑽研箭號](media/sample-procurement/pbi_drilldown_icon.png))。
    * 選取**間接貨物與服務**資料行。
 
       如您所見，到目前為止最高的支出是 [銷售與行銷]  子類別。
@@ -138,7 +138,7 @@ ms.locfileid: "80404671"
 * 變更圖表的視覺效果類型，例如將樹狀圖變更為環圈圖。
 * 將圖表釘選到您的儀表板。
 
-## <a name="next-steps-connect-to-your-data"></a>後續步驟：連線到您的資料
+## <a name="next-steps-connect-to-your-data"></a>下一步：連接到您的資料
 您可以在此環境盡情嘗試，因為您可以選擇不儲存您的變更。 但如果儲存了變更，您也可以隨時選取 [取得資料]  以取得此範例的新複本。
 
 希望此教學已讓您了解 Power BI 儀表板、問與答和報表能夠如何提供範例資料的見解。 現在輪到您了，請連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 若要深入了解，請參閱[開始使用 Power BI 服務](service-get-started.md)。

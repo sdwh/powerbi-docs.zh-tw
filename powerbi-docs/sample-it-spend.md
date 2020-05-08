@@ -1,6 +1,6 @@
 ---
-title: 適用於 Power BI 的 IT 支出分析範例：觀看導覽
-description: 適用於 Power BI 的 IT 支出分析範例：觀看導覽
+title: Power BI 的 IT 支出分析範例教學
+description: Power BI 的 IT 支出分析範例教學
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 00effa1838327a9463671cf9be2f5764be71deb4
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404690"
 ---
-# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>適用於 Power BI 的 IT 支出分析範例：觀看導覽
+# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI 的 IT 支出分析範例教學
 
 IT 支出分析範例內容套件包含儀表板、報表和資料集，用來分析 IT 部門的計劃與實際成本。 這項比較可幫助我們了解公司的年度計畫是否得當，並可針對大大偏離計畫的領域進行調查。 此範例中的公司，會經歷一年一度的計畫週期，然後按季產出新的最新估計 (LE) 來協助分析 IT 支出於會計年度的變化。
 
@@ -126,7 +126,7 @@ IT 支出分析範例內容套件包含儀表板、報表和資料集，用來�
 * 變更每個圖表的視覺效果類型。
 * 將感興趣的圖表釘選至儀表板。
 
-## <a name="next-steps-connect-to-your-data"></a>後續步驟：連線到您的資料
+## <a name="next-steps-connect-to-your-data"></a>下一步：連接到您的資料
 您可以在此環境盡情嘗試，因為您可以選擇不儲存您的變更。 但如果儲存了變更，您也可以隨時選取 [取得資料]  以取得此範例的新複本。
 
 希望此教學已讓您了解 Power BI 儀表板、問與答和報表能夠如何提供範例資料的見解。 現在輪到您了，請連接到您自己的資料。 您可以透過 Power BI 連接到各式各樣的資料來源。 若要深入了解，請參閱[開始使用 Power BI 服務](service-get-started.md)。
