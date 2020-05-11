@@ -7,10 +7,10 @@ ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: 0a0964f82c80017b53feb668cca8399b18a72cfc
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268504"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>功能性應用程式顧問學習目錄
@@ -28,7 +28,7 @@ ms.locfileid: "81268504"
 | [開始使用 Power BI](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)  | 想知道如何開始使用 Power BI 嗎？ 一開始要如何連線到資料，並將其轉換成圖表？ 了解如何迅速開始使用 Power BI，以及即時取得您的商務資料見解。  | Webinar       |                   |
 | [如何成為由見解所驅動的公司](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html) | 對於企業與大型組織而言，分析及應用其資料，建立可供採取應變措施的見解十分重要。 根據 Forrester Research 的研究顯示，這些功能是協助公司利用見解輔助營運的關鍵。 觀看這場網路研討會，了解為什麼要利用見解來推動營運成果。  | Webinar |                   |
 | [20 分鐘內了解如何瀏覽 Power BI 儀表板](https://info.microsoft.com/powerbi-dashboard-in-20-min-ondemand.html)  | 您是否曾在開啟 Power BI 儀表板後，卻不知道該從何著手嗎？  我該如何瀏覽此儀表板，才能找到重要的資料？ 您是否會因為害怕「把東西弄壞」而在篩取器與交叉分析器的使用上投鼠忌器呢？  別擔心，跟著我們的腳步就能在 Power BI 儀表板上找到方向。 | Webinar       |                   |
-| [Microsoft Power BI 的 YouTube 頻道](https://www.youtube.com/user/mspowerbi/videos)  | 包含 Microsoft Power BI 產品小組提供之內容的 YouTube 頻道  | 影片        |                   |
+| [Microsoft Power BI 的 YouTube 頻道](https://www.youtube.com/user/mspowerbi/videos)  | Microsoft Power BI 產品小組提供內容的 YouTube 頻道  | 影片        |                   |
 | [塑造巨量資料分析未來的九個趨勢](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics-OnDemand.html)  | 報名這場網路研討會，從眾多 CIO 及其他 IT 領導人的經驗，了解巨量資料的九大趨勢與挑戰。 應用他們的見解，改進您組織的巨量資料問題。  | Webinar       |                   |
 | [Power BI 以及現代化和企業 BI 的未來](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html)   | 觀看這場網路研討會，了解最新的 Power BI 功能。 Power BI 工程總監 Arun Ulagaratchagan 與 Power BI 技術主管 Amir Netz 將展示這些功能，並討論下一步發展。 您也能了解 Power BI 對於將來整合現代化與企業 BI，以及將自助 BI 擴及巨量資料的願景。 探索 Power BI 如何協助分析師及發揮敏捷式企業 BI 的能力，讓您可以在您的組織中建立資料文化。 | Webinar       |                   |
 | [Power BI：以正確方式完成分析](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_02OnDemandRegistration-ForminBody.html)  | 呼叫所有分析與 Excel 愛好者：了解如何製作人們會想要使用的精美報告、分享易於了解的動人見解，以及安全地細分複雜資料以便輕鬆存取。 我們將會分享新產品創新與我們對於現代化企業 BI 與自助 BI 的願景，讓您的組織能夠建置資料驅動文化。   | Webinar       |                   |

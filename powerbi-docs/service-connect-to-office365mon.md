@@ -10,10 +10,10 @@ ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 8e9563d10d80290a48e20cd2d6a889831d34924b
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74548578"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>使用 Power BI 連接到 Office365Mon
@@ -25,7 +25,7 @@ ms.locfileid: "74548578"
 >Office365Mon 系統管理帳戶是連接及載入 Power BI 範本應用程式的必備項目。
 
 ## <a name="how-to-connect"></a>如何連接
-1. 選取導覽窗格底端的 [取得資料]  。
+1. 在導覽窗格的底部，選取 [取得資料]  。
    
    ![](media/service-connect-to-office365mon/pbi_getdata.png)
 2. 在 [服務]  方塊中，選取 [取得]  。
@@ -34,7 +34,7 @@ ms.locfileid: "74548578"
 3. 選取 [Office365Mon]  \> [取得]  。
    
    ![](media/service-connect-to-office365mon/o365mon.png)
-4. 針對 [驗證方法] 選取 [oAuth2]  \> [登入]  。
+4. 針對 [驗證方法]，選取 [oAuth2]  \> [登入]  。
    
    出現提示時，輸入 Office365Mon 管理認證，並遵循驗證程序。
    

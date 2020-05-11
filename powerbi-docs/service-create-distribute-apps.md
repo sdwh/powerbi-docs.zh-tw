@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c2e68b894c7f3e259fd2236d655d562257383433
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006297"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866556"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
@@ -63,8 +63,8 @@ ms.locfileid: "81006297"
 
 5. 在 [權限]  上，決定誰可以存取應用程式，以及他們可以用它做什麼。 
 
-    - 在[傳統工作區](service-create-workspaces.md)中：您組織中的每個人、特定人員或 Azure Active Directory (AAD) 安全性群組。
-    - 在[新體驗工作區](service-create-the-new-workspaces.md)中：特定人員、AAD 安全性群組和通訊群組清單，以及 Office 365 群組。 系統會自動為所有工作區使用者授與對工作區應用程式的存取權。
+    - 在[典型工作區](service-create-workspaces.md)中：您組織中的每個人、特定人員或 Azure Active Directory (Azure AD) 安全性群組。
+    - 在[新體驗工作區](service-create-the-new-workspaces.md)中：特定人員、Azure AD 安全性群組和通訊群組清單，以及 Office 365 群組。 系統會自動為所有工作區使用者授與對工作區應用程式的存取權。
     - 您可以透過授與建置權限，讓應用程式使用者連線到應用程式的基礎資料集。 他們會在搜尋共用資料集時看到這些資料集。 在本文中深入了解[允許使用者連線到應用程式的資料集](#allow-users-to-connect-to-datasets)。
     - 具備建置權限的使用者也可以擁有從此應用程式將報表複製到另一個工作區的權限。 在本文中深入了解[允許使用者複製應用程式中的報表](#allow-users-to-copy-reports)。
     

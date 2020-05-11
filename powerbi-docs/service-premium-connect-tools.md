@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: fe349e9eb29f85315e568d5851ce8206186cb61b
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 776ef09de58c2bb3b47a6d55ae5e8cf2be0cf228
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302644"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613646"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>使用 XMLA 端點連線至資料集 (預覽)
 
@@ -231,7 +231,20 @@ Analysis Services [DMV](https://docs.microsoft.com/analysis-services/instances/u
 
 ### <a name="power-bi-desktop-in-live-connect-mode"></a>即時連線模式中的 Power BI Desktop
 
-Power BI Desktop 可以連線到 Power BI Premium 資料集，就如其為部署至 Azure Analysis Services 或 SQL Server Analysis Services 的模型資料庫一樣。 在此情況下，Power BI Desktop 會使用 XMLA 端點。 不過，建議 Power BI Desktop 使用者改為使用專為 Power BI 資料集所建立的即時連線功能。 使用即時連線可提供改良的探索體驗，其中顯示資料集的簽署層級，而且使用者不需要追蹤工作區 URL；他們可以直接輸入資料集的名稱。 若要深入了解，請參閱[從 Power BI Desktop 連線到 Power BI 服務中的資料集](desktop-report-lifecycle-datasets.md)。
+Power BI Desktop 可使用即時連線來連線到 Power BI Premium 資料集。 使用即時連線時，不需要在本機複寫資料，這讓使用者更容易取用語意模型。 使用者可使用兩種方式連線：
+
+選取 [Power BI 資料集]  ，然後選取資料集來建立報表。 **建議**使用者以此方式即時連線到資料集。 這個方法提供改善的探索體驗，可顯示資料集的簽署層級。 使用者不需要尋找及追蹤工作區 URL。 若要尋找資料集，使用者只需要鍵入資料集名稱，或捲動尋找所要尋找的資料集。
+
+![即時連線到資料集](media/service-premium-connect-tools/dataset-live-connect.png)
+
+使用者可使用的另一種連線方式，是使用 [取得資料]   > [Analysis Services]  ，將 Power BI Premium 工作區名稱指定為 URL，選取 [連接即時資料]  ，然後在導覽器中選取資料集。 在此情況下，Power BI Desktop 會使用 XMLA 端點即時連線到資料集，就像是 Analysis Services 的資料模型一樣。 
+
+![即時連線到 Analysis Services 資料集](media/service-premium-connect-tools/as-live-connect.png)
+
+現有報表已即時連線到 Analysis Services 資料模型的組織，若要移轉至 Power BI Premium 資料集，只需要在 [轉換資料]   > [資料來源設定]  中變更伺服器名稱 URL 即可。
+
+> [!NOTE]
+> 在 XMLA 讀寫公用預覽期間，使用 Power BI Desktop 連線到 Power BI Premium 資料集時，尚不支援使用 [取得資料]   > [Analysis Services]  ，然後選取 [連接即時資料]  選項將報表發佈至 Power BI 服務。
 
 ## <a name="audit-logs"></a>稽核記錄
 

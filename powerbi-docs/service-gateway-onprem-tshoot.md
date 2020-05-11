@@ -10,10 +10,10 @@ ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 73e2c923500a2d78072a711bc7662a5923811bba
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699329"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>針對閘道進行疑難排解 - Power BI
@@ -240,7 +240,7 @@ ImpersonationLevel 與 SPN 設定或本機原則設定有關。
 
 ## <a name="fiddler-trace"></a>Fiddler 追蹤
 
-[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 提供的免費工具，可用來監視 HTTP 流量。 您可以從用戶端電腦使用 Power BI 服務來回查看。 此流量清單可能會顯示錯誤與其他相關資訊。
+[Fiddler](https://www.telerik.com/fiddler) 是 Telerik 所提供的免費工具，可監視 HTTP 流量。 您可以從用戶端電腦使用 Power BI 服務來反覆查看。 此流量清單可能會顯示錯誤與其他相關資訊。
 
 ![使用 Fiddler 追蹤](media/service-gateway-onprem-tshoot/fiddler.png)
 

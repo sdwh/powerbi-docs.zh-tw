@@ -1,5 +1,5 @@
 ---
-title: 在 Power BI 中使用矩陣視覺效果
+title: 在 Power BI 中建立矩陣視覺效果
 description: 了解矩陣視覺效果如何在 Power BI 中提供分層式配置和細微的醒目提示。
 author: mihart
 ms.reviewer: ''
@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637857"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866579"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中建立矩陣視覺效果
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,6 +30,8 @@ ms.locfileid: "81637857"
 
 矩陣有許多相關的功能，我們將在本文的下列各節中逐一介紹。
 
+> [!NOTE]
+> 要與 Power BI 同事共用您的報表，必須雙方都擁有個人的 Power BI Pro 授權，或者將報表儲存在 Premium 容量中。
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>了解 Power BI 如何計算總和
 

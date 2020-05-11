@@ -1,18 +1,18 @@
 ---
 title: 用於訓練 Power BI 問與答 (預覽) 的問與答工具簡介
 description: Power BI 問與答工具簡介
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
-ms.author: mohaali
-ms.openlocfilehash: 17d0a68782f34c09286be5ebe020668a15061ee4
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/17/2020
+ms.author: maggies
+ms.openlocfilehash: 6178c9f157578110a09abf3fcbebccba54339f13
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73874942"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865997"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>用於訓練 Power BI 問與答 (預覽) 的問與答工具簡介
 
@@ -36,29 +36,44 @@ ms.locfileid: "73874942"
 1. 開啟 Power BI Desktop 並使用問與答來建立視覺效果。 
 2. 選取視覺效果角落的齒輪圖示。 
 
-    ![問與答視覺效果齒輪](media/qna-visual-gear.png)
+    ![問與答視覺效果齒輪](media/q-and-a-tooling-intro/qna-visual-gear.png)
 
     [開始使用] 頁面隨即開啟。  
 
-    ![問與答的 [開始使用]](media/qna-tooling-dialog.png)
+    ![問與答的 [開始使用]](media/q-and-a-tooling-intro/qna-tooling-dialog.png)
 
 ### <a name="review-questions"></a>檢閱問題
 
 選取 [檢閱問題]  以查看租用戶 Power BI 服務中所使用的資料集清單。 [檢閱問題]  頁面也會顯示資料集擁有者、工作區和上次重新整理日期。 您可以從這裡選取資料集，然後查看使用者已詢問的問題。 此資料也會顯示無法辨識的字組。 這裡顯示的所有資料都是過去 28 天內資料。
 
-![問與答的 [檢閱問題]](media/qna-tooling-review-questions.png)
+![問與答的 [檢閱問題]](media/q-and-a-tooling-intro/qna-tooling-review-questions.png)
 
 ### <a name="teach-qa"></a>教導問與答
 
 [教學 Q&A]  區段可讓您訓練問與答來辨識字組。 若要開始進行，請鍵入一個問題，其中包含問與答無法辨識的一或多個字組。 問與答會提示您輸入該字詞的定義。 請輸入對應至該字組所代表內容的篩選條件或欄位名稱。 然後，問與答會重新解譯原始問題。 如果您對結果感到滿意，您可以儲存輸入。 若要深入了解，請參閱[教學 Q&A](q-and-a-tooling-teach-q-and-a.md)
 
-![Q&A 教學同義字預覽](media/qna-tooling-teach-fixpreview.png)
+![Q&A 教學同義字預覽](media/q-and-a-tooling-intro/qna-tooling-teach-fixpreview.png)
 
 ### <a name="manage-terms"></a>管理字詞
 
 您從 [教學 Q&A] 區段儲存的任何內容都會顯示在這裡，因此您可以檢閱或刪除已定義的字詞。 您目前無法編輯現有的定義，因此若要重新定義字詞，您必須刪除並重新建立該字詞。
 
-![問與答的 [管理字詞]](media/qna-manage-terms.png)
+![問與答的 [管理字詞]](media/q-and-a-tooling-intro/qna-manage-terms.png)
+
+### <a name="suggest-questions"></a>建議問題
+
+在不進行任何設定下，問與答視覺效果會建議幾個問題，以協助您開始使用。 這些問題是根據資料模型所自動產生的。 在 [建議問題]  中，您可使用自有問題來覆寫自動產生的問題。 
+
+若要開始，請在文字方塊中鍵入所要新增的問題。 在預覽區段中，您可看到結果在問與答視覺效果中的外觀。 
+
+:::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-suggest-questions.png" alt-text="建議的問與答問題":::
+ 
+選取 [新增]  按鈕來將此問題新增到 [您的建議問題]  。 每個新增的問題都會新增到清單結尾。 問題在問與答視覺效果中顯示的順序都會與其在清單中順序相同。 
+
+:::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-save-suggest-questions.png" alt-text="儲存建議的問題":::
+ 
+請務必選取 [儲存]  來在問與答視覺效果中顯示建議的問題清單。 
+
 
 ## <a name="other-qa-settings"></a>其他問與答設定
 
@@ -70,7 +85,7 @@ Power BI Desktop 的 [模型]  索引標籤有更多選項可以改善問與答�
 
 2. 選取一個欄位或資料表以顯示 [屬性]  窗格。  此窗格會顯示在畫布的右側，並列出數個問與答動作。 其中一個選項是 [同義字]  。 在 [同義字]  方塊中，您可以快速定義所選資料表或欄位的替代項目。 您也可以在 [工具] 對話方塊的 [教學 Q&A]  區段中定義同義字，但在這裡為資料表中的多個欄位定義同義字通常會更快。
 
-    ![問與答 [模型] 窗格的同義字](media/qna-modelling-pane-synonyms.png)
+    ![問與答 [模型] 窗格的同義字](media/q-and-a-tooling-intro/qna-modelling-pane-synonyms.png)
 
 3. 若要為單一欄位定義多個同義字，請使用逗號來表示下一個同義字。
 
@@ -100,6 +115,4 @@ Power BI Desktop 的 [模型]  索引標籤有更多選項可以改善問與答�
 
 ## <a name="next-steps"></a>後續步驟
 
-有一些最佳做法可以改善自然語言引擎。 如需詳細資訊，請參閱下列文章：
-
-* [問與答最佳做法](q-and-a-best-practices.md)
+有一些最佳做法可以改善自然語言引擎。 如需詳細資訊，請參閱[問與答最佳做法](q-and-a-best-practices.md)。

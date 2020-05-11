@@ -8,16 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/05/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79436057"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865452"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>在 Power BI 中建立和使用區域分布圖 (分級著色圖)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -55,15 +57,8 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
-
-## <a name="create-a-basic-filled-map"></a>建立基本的區域分布圖
-在這段影片中，Kim 會建立一個基本地圖，並將其轉換成區域分布圖。
-   > [!NOTE]
-   > 此影片使用舊版的 Power BI Desktop。
-   > 
-   > 
-
-> [影片 https://www.youtube.com/embed/ajTPGNpthcg ]
+> [!NOTE]
+> 要與 Power BI 同事共用您的報表，必須雙方都擁有個人的 Power BI Pro 授權，或者將報表儲存在 Premium 容量中。    
 
 ### <a name="create-a-filled-map"></a>建立區域分布圖
 1. 從 [欄位] 窗格中，選取 [地理]  \> [州]  欄位。    

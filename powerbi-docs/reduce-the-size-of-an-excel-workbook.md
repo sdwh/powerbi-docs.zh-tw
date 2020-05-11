@@ -10,10 +10,10 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 8c58c85ea46f9884586e1ff73f1ef9f7b1db9cdd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73860553"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>減少 Excel 活頁簿的大小以在 Power BI 中檢視
@@ -50,7 +50,7 @@ ms.locfileid: "73860553"
 * **在 Power Query 中**：取消選取 [載入至工作表]  方塊。
   
   資料會只匯入資料模型，Excel 工作表中沒有任何資料。
-* **從 [Excel 資料] 索引標籤**，如果您先前在匯入精靈中選取了 [資料表]  ：移至 [現有連線]  \>按一下連線 \> [只建立連線]  。 刪除於初始匯入期間建立的原始資料表。
+* **從 [Excel 資料] 索引標籤**，如果您先前在匯入精靈中選取了 [資料表]  ：移至 [現有連線]  \> 按一下連線 \> [只建立連線]  。 刪除於初始匯入期間建立的原始資料表。
 * **從 [Excel 資料] 索引標籤**：不要核取 [匯入資料]  方塊中的 [資料表]  。
 
 ## <a name="workbook-size-optimizer"></a>活頁簿大小最佳化工具

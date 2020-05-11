@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: ee93635abdff63c98eeaaca24640ac229a4dc97c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699260"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>在 Power BI 中使用個人閘道
@@ -79,7 +79,7 @@ ms.locfileid: "74699260"
 
 **問：** 我能以服務形式執行內部部署資料閘道 (個人模式) 嗎？
   
-**答：** 否。 內部部署資料閘道 (個人模式) 只能以應用程式形式執行。 如果您需要以服務形式或系統管理員模式執行閘道，請考慮使用[內部部署資料閘道](/data-integration/gateway/service-gateway-onprem) (先前稱為「企業閘道」)。
+**答：** 不會。 內部部署資料閘道 (個人模式) 只能以應用程式形式執行。 如果您需要以服務形式或系統管理員模式執行閘道，請考慮使用[內部部署資料閘道](/data-integration/gateway/service-gateway-onprem) (先前稱為「企業閘道」)。
 
 **問：** 內部部署資料閘道 (個人模式) 的更新頻率為何？
   

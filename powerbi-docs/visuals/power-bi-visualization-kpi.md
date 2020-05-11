@@ -3,32 +3,28 @@ title: 關鍵效能指標 (KPI) 視覺效果
 description: 在 Power BI 中建立關鍵效能指標 (KPI) 視覺效果
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6EpqaO0
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/30/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7f865c53a1a47ad53137f0e7659917689243b914
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76974979"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865156"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>建立關鍵效能指標 (KPI) 視覺效果
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 關鍵效能指標 (KPI) 是一種視覺提示，指出對於可測量目標已達成的進度。 如需 KPI 的詳細資訊，請參閱 [PowerPivot 中的關鍵效能指標 (KPI)](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110))。
 
-觀看 Will 說明如何建立單一計量的視覺效果︰量測計、卡片及 KPI。
-   > [!NOTE]
-   > 這部影片使用舊版的 Power BI Desktop。
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>使用 KPI 的時機
 
@@ -55,6 +51,9 @@ KPI 資料集必須包含 KPI 目標值。 如果您的資料集未包含目標�
 1. 在報表檢視中開啟**零售分析範例 PBIX 檔案**。 ![報表檢視圖示的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
 1. 選取 **+** 以新增頁面。 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
+
+> [!NOTE]
+> 要與 Power BI 同事共用您的報表，必須雙方都擁有個人的 Power BI Pro 授權，或者將報表儲存在 Premium 容量中。    
 
 ## <a name="how-to-create-a-kpi"></a>如何建立 KPI
 
@@ -97,7 +96,7 @@ KPI 資料集必須包含 KPI 目標值。 如果您的資料集未包含目標�
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
-若您的 KPI 看起來不像上述的 KPI，可能是因為您未依 **FiscalMonth** 排序。 Kpi 沒有排序選項。 您必須重新開始，且在將視覺效果轉換為 KPI「之前」  ，必須先依 *FiscalMonth* 排序。
+若您的 KPI 看起來不像上述的 KPI，可能是因為您未依 **FiscalMonth** 排序。 Kpi 沒有排序選項。 您必須重新開始，且在將視覺效果轉換為 KPI「之前」  ，必須先依 **FiscalMonth** 排序。
 
 ## <a name="next-steps"></a>後續步驟
 

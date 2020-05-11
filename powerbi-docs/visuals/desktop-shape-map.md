@@ -7,22 +7,27 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/18/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5717d543d5c70bbbe7c25ed3e55778639d777170
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525652"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866533"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>在 Power BI Desktop (預覽) 中建立圖形對應視覺效果
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 建立**圖形地圖**視覺效果，使用色彩比較地圖上的區域。 不同於**地圖**視覺效果，**圖形地圖**無法在地圖上顯示資料點的確切地理位置。 相反地，其主要目的是要藉由不同的著色，在地圖上顯示區域的相對比較。
 
 **圖形地圖**視覺效果以 TopoJSON 地圖為基礎，其具有使用您可建立自訂地圖的強大能力。 自訂地圖的範例包括：地理位置、座位安排、樓面規劃等等。 此預覽版的**圖形地圖**無法使用自訂地圖。
+
+> [!NOTE]
+> 若要與 Power BI 同事共用報表，必須兩人都擁有個人的 Power BI Pro 授權，或將報表儲存在 Premium 容量中。
 
 ## <a name="creating-shape-maps"></a>建立圖形地圖
 您可以用此 Preview 版本隨附的地圖測試 [圖形地圖]  控制項，如果您自己的自訂地圖符合下一節**使用自訂地圖**中所述需求，也可加以使用。
@@ -113,12 +118,12 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 使用此預覽版本的下列**區域索引鍵** 來測試**圖形地圖**。
 
-### <a name="australia-states"></a>澳洲︰州
+### <a name="australia-states"></a>澳洲：州
 
-| ID | abbr | iso | name | 郵遞區號 |
+| 識別碼 | abbr | iso | name | 郵遞區號 |
 | --- | --- | --- | --- | --- |
-| au-wa |華盛頓 |AU-WA |西澳洲 |華盛頓 |
-| au-vic |Vic |AU-VIC |Victoria |VIC |
+| au-wa |WA |AU-WA |西澳洲 |WA |
+| au-vic |Vic |AU-VIC |維多利亞 |VIC |
 | au-tas |Tas |AU-TAS |塔斯馬尼亞 |TAS |
 | au-sa |SA |AU-SA |澳洲南部 |SA |
 | au-qld |Qld |AU-QLD |昆士蘭 |QLD |
@@ -126,23 +131,23 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | au-nsw |NSW |AU-NSW |新南威爾斯 |NSW |
 | au-act |ACT |AU-ACT |澳洲首都特區 |ACT |
 
-### <a name="austria-states"></a>奧地利︰邦
+### <a name="austria-states"></a>奧地利：州
 
-| ID | iso | name | 名稱 - 繁體中文 | 郵遞區號 |
+| 識別碼 | iso | name | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |維也納 |WI |
-| at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
+| at-vo |AT-8 |Vorarlberg |福拉爾貝格 |VO |
 | at-tr |AT-7 |Tirol |提洛 |TR |
 | at-st |AT-6 |Steiermark |史泰爾馬克 |ST |
-| at-sz |AT-5 |Salzburg |Salzburg |SZ |
+| at-sz |AT-5 |Salzburg |薩爾斯堡 |SZ |
 | at-oo |AT-4 |Oberösterreich |上奧地利 |OO |
-| at-no |AT-3 |Niederösterreich |下奧地利 |否 |
+| at-no |AT-3 |Niederösterreich |下奧地利 |NO |
 | at-ka |AT-2 |Kärnten |克恩頓 |KA |
-| at-bu |AT-1 |Burgenland |Burgenland |BU |
+| at-bu |AT-1 |Burgenland |布根蘭 |BU |
 
-### <a name="brazil-states"></a>巴西︰州
+### <a name="brazil-states"></a>巴西：州
 
-| ID |
+| 識別碼 |
 | --- |
 | 托坎廷斯 |
 | 伯南布科 |
@@ -176,9 +181,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 訴訟區域 3 |
 | 訴訟區域 4 |
 
-### <a name="canada-provinces"></a>加拿大︰省
+### <a name="canada-provinces"></a>加拿大：省
 
-| ID | iso | name | 郵遞區號 |
+| 識別碼 | iso | name | 郵遞區號 |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |努納福特 |NU |
 | ca-nt |CA-NT |西北領地 |NT |
@@ -192,16 +197,16 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ca-nb |CA-NB |新布藍茲維 |NB |
 | ca-mb |CA-MB |曼尼托巴 |MB |
 | ca-bc |CA-BC |不列顛哥倫比亞 |BC |
-| ca-ab |CA-AB |Alberta |AB |
+| ca-ab |CA-AB |亞伯達 |AB |
 
-### <a name="france-regions"></a>法國︰大區
+### <a name="france-regions"></a>法國：區
 
-| ID | name | 名稱 - 繁體中文 |
+| 識別碼 | name | 名稱 - 繁體中文 |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
 | Bretagne |Bretagne |布列塔尼 |
-| Centre-Val de Loire |Centre-Val de Loire |Centre-Val de Loire |
+| 中央-羅亞爾河谷 |Centre-Val de Loire |中央-羅亞爾河谷 |
 | Corse |Corse |科西嘉島 |
 | Grand Est |  |  |
 | 哥德洛普 | |   |
@@ -216,30 +221,30 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
 |  |  |  |
 
-### <a name="germany-states"></a>德國︰邦
+### <a name="germany-states"></a>德國：州
 
-| ID | iso | name | 名稱 - 繁體中文 | 郵遞區號 |
+| 識別碼 | iso | name | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- |
-| de-be |DE-BE |柏林 |柏林 |BE |
+| de-be |DE-BE |Berlin |柏林 |BE |
 | de-th |DE-TH |Thüringen |圖林根 |TH |
 | de-st |DE-ST |Sachsen Anhalt |薩克森─安哈特 |ST |
 | de-sn |DE-SN |Sachsen |薩克森 |SN |
-| de-mv |DE-MV |Mecklenburg Vorpommern |Mecklenburg Vorpommern |MV |
-| de-bb |DE-BB |Brandenburg |Brandenburg |BB |
-| de-sh |DE-SH |Schleswig Holstein |Schleswig Holstein |SH |
-| de-sl |DE-SL |Saarland |Saarland |SL |
+| de-mv |DE-MV |Mecklenburg Vorpommern |梅克倫堡─前波莫瑞 |MV |
+| de-bb |DE-BB |Brandenburg |布蘭登堡 |BB |
+| de-sh |DE-SH |Schleswig Holstein |什列斯威─好斯敦 |SH |
+| de-sl |DE-SL |Saarland |薩爾蘭 |SL |
 | de-rp |DE-RP |Rheinland Pfalz |萊茵蘭─普法茲 |RP |
 | de-nw |DE-NW |Nordrhein Westfalen |北萊茵─西發利亞 |NW |
 | de-ni |DE-NI |Niedersachsen |下薩克森 |NI |
 | de-he |DE-HE |Hessen |黑森 |HE |
-| de-hh |DE-HH |Hamburg |Hamburg |HH |
-| de-hb |DE-HB |不萊梅 |不萊梅 |HB |
+| de-hh |DE-HH |Hamburg |漢堡 |HH |
+| de-hb |DE-HB |Bremen |不萊梅 |HB |
 | de-by |DE-BY |Bayern |巴伐利亞 |BY |
 | de-bw |DE-BW |Baden-Württemberg |巴登─符登堡 |BW |
 
-### <a name="ireland-counties"></a>愛爾蘭︰郡
+### <a name="ireland-counties"></a>愛爾蘭：郡
 
-| ID |
+| 識別碼 |
 | --- |
 | 威克洛 |
 | 韋克斯福德 |
@@ -268,99 +273,99 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | 卡文 |
 | 卡洛 |
 
-### <a name="italy-regions"></a>義大利︰大區
+### <a name="italy-regions"></a>義大利：區
 
-| ID | iso | name | 名稱 - 繁體中文 | 郵遞區號 |
+| 識別碼 | iso | name | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- |
-| it-vn |IT-34 |威尼托 |威尼托 |VN |
+| it-vn |IT-34 |Veneto |威尼托 |VN |
 | it-vd |IT-23 |Valle d'Aosta |瓦萊達奧斯塔 |VD |
-| it-um |IT-55 |溫布利亞 |溫布利亞 |UM |
+| it-um |IT-55 |Umbria |溫布利亞 |UM |
 | it-tt |IT-32 |Trentino Alto Adige |特倫提諾─上阿迪傑 |TT |
 | it-tc |IT-52 |Toscana |托斯卡尼 |TC |
 | it-sc |IT-82 |Sicilia |西西里 |SC |
 | it-sd |IT-88 |Sardegna |薩丁尼亞 |SD |
-| it-pm |IT-21 |Piemonte |皮埃蒙特 |下午 |
-| it-ml |IT-67 |Molise |Molise |ML |
-| it-mh |IT-57 |馬爾凱 |馬爾凱 |MH |
+| it-pm |IT-21 |Piemonte |皮埃蒙特 |PM |
+| it-ml |IT-67 |Molise |莫利塞 |ML |
+| it-mh |IT-57 |Marche |馬爾凱 |MH |
 | it-lm |IT-25 |Lombardia |倫巴底 |LM |
-| it-lg |IT-42 |Liguria |Liguria |LG |
-| it-lz |IT-62 |Lazio |Lazio |LZ |
-| it-fv |IT-36 |Friuli-Venezia Giulia |Friuli-Venezia Giulia |FV |
-| it-er |IT-45 |Emilia-Romagna |Emilia-Romagna |ER |
-| it-cm |IT-72 |坎帕尼亞 |坎帕尼亞 |CM |
-| it-lb |IT-78 |Calabria |Calabria |LB |
-| it-bc |IT-77 |巴西利卡塔 |巴西利卡塔 |BC |
+| it-lg |IT-42 |Liguria |利古里亞 |LG |
+| it-lz |IT-62 |Lazio |拉吉歐 |LZ |
+| it-fv |IT-36 |Friuli-Venezia Giulia |佛里烏利─威尼斯朱利亞 |FV |
+| it-er |IT-45 |Emilia-Romagna |艾米利亞─羅馬涅 |ER |
+| it-cm |IT-72 |Campania |坎帕尼亞 |CM |
+| it-lb |IT-78 |Calabria |卡拉布里亞 |LB |
+| it-bc |IT-77 |Basilicata |巴西利卡塔 |BC |
 | it-pu |IT-75 |Apulia |普利亞 |PU |
-| it-ab |IT-65 |Abruzzo |Abruzzo |AB |
+| it-ab |IT-65 |Abruzzo |阿布魯佐 |AB |
 
-### <a name="mexico-states"></a>墨西哥︰州
+### <a name="mexico-states"></a>墨西哥：州
 
-| ID | abreviatura | iso | name | 名稱 - 繁體中文 | 郵遞區號 |
+| 識別碼 | abreviatura | iso | name | 名稱 - 繁體中文 | 郵遞區號 |
 | --- | --- | --- | --- | --- | --- |
-| mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
+| mx-zac |Zac. |MX-ZAC |Zacatecas |薩卡特卡斯 |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |猶加敦 |YU |
-| mx-ver |Ver. |MX-VER |Veracruz |Veracruz |VE |
-| mx-tla |Tlax. |MX-TLA |特拉斯卡拉 |特拉斯卡拉 |TL |
-| mx-tam |Tamps. |MX-TAM |Tamaulipas |Tamaulipas |TM |
-| mx-tab |Tab. |MX-TAB |塔巴斯科 |塔巴斯科 |TB |
-| mx-son |Son. |MX-SON |Sonora |Sonora |SO |
-| mx-sin |Sin. |MX-SIN |Sinaloa |Sinaloa |SI |
+| mx-ver |Ver. |MX-VER |Veracruz |維拉克魯斯 |VE |
+| mx-tla |Tlax. |MX-TLA |Tlaxcala |特拉斯卡拉 |TL |
+| mx-tam |Tamps. |MX-TAM |Tamaulipas |塔毛利帕斯 |TM |
+| mx-tab |Tab. |MX-TAB |Tabasco |塔巴斯科 |TB |
+| mx-son |Son. |MX-SON |Sonora |索諾拉 |SO |
+| mx-sin |Sin. |MX-SIN |Sinaloa |錫那羅亞 |SI |
 | mx-slp |S.L.P. |MX-SLP |San Luis Potosí |聖路易斯波托西 |SL |
-| mx-roo |Q.R. |MX-ROO |Quintana Roo |Quintana Roo |QR |
+| mx-roo |Q.R. |MX-ROO |Quintana Roo |金塔納羅奧 |QR |
 | mx-que |Qro. |MX-QUE |Querétaro |克雷塔羅 |QE |
-| mx-pue |Pue. |MX-PUE |Puebla |Puebla |PU |
-| mx-oax |Oax. |MX-OAX |瓦哈卡 |瓦哈卡 |OA |
+| mx-pue |Pue. |MX-PUE |Puebla |普埃布拉 |PU |
+| mx-oax |Oax. |MX-OAX |Oaxaca |瓦哈卡 |OA |
 | mx-nle |N.L. |MX-NLE |Nuevo León |新萊昂 |NL |
-| mx-nay |Nay. |MX-NAY |納亞里特 |納亞里特 |NA |
-| mx-mor |Mor. |MX-MOR |莫雷洛斯 |莫雷洛斯 |MR |
+| mx-nay |Nay. |MX-NAY |Nayarit |納亞里特 |NA |
+| mx-mor |Mor. |MX-MOR |Morelos |莫雷洛斯 |MR |
 | mx-mic |Mich. |MX-MIC |Michoacán |米卻肯 |MC |
 | mx-mex |Méx. |MX-MEX |Estado de México |墨西哥州 |MX |
-| mx-jal |Jal. |MX-JAL |哈利斯科 |哈利斯科 |JA |
-| mx-hid |Hgo. |MX-HID |伊達爾戈 |伊達爾戈 |HI |
-| mx-gro |Gro. |MX-GRO |Guerrero |Guerrero |GR |
-| mx-gua |Gto. |MX-GUA |瓜納華托 |瓜納華托 |GT |
-| mx-dur |Dgo. |MX-DUR |Durango |Durango |DU |
+| mx-jal |Jal. |MX-JAL |Jalisco |哈利斯科 |JA |
+| mx-hid |Hgo. |MX-HID |Hidalgo |伊達爾戈 |HI |
+| mx-gro |Gro. |MX-GRO |Guerrero |格雷羅 |GR |
+| mx-gua |Gto. |MX-GUA |Guanajuato |瓜納華托 |GT |
+| mx-dur |Dgo. |MX-DUR |Durango |杜蘭戈 |DU |
 | mx-dif |CDMX. |MX-DIF |Ciudad de México |墨西哥城 |DF |
-| mx-col |Col. |MX-COL |科利馬 |科利馬 |CL |
-| mx-coa |Coah. |MX-COA |科阿韋拉 |科阿韋拉 |CA |
-| mx-chh |Chih. |MX-CHH |契瓦瓦 |契瓦瓦 |CH |
-| mx-chp |Chis. |MX-CHP |恰帕斯 |恰帕斯 |CP |
-| mx-cam |Camp. |MX-CAM |Campeche |Campeche |CM |
-| mx-bcs |B.C.S. |MX-BCS |南下加利福尼亞 |南下加利福尼亞 |BS |
-| mx-bcn |B.C. |MX-BCN |下加利福尼亞 |下加利福尼亞 |BN |
-| mx-agu |Ags. |MX-AGU |阿瓜斯卡連特斯 |阿瓜斯卡連特斯 |AG |
+| mx-col |Col. |MX-COL |Colima |科利馬 |CL |
+| mx-coa |Coah. |MX-COA |Coahuila |科阿韋拉 |加利福尼亞 |
+| mx-chh |Chih. |MX-CHH |Chihuahua |契瓦瓦 |CH |
+| mx-chp |Chis. |MX-CHP |Chiapas |恰帕斯 |CP |
+| mx-cam |Camp. |MX-CAM |Campeche |坎佩切 |CM |
+| mx-bcs |B.C.S. |MX-BCS |Baja California Sur |南下加利福尼亞 |BS |
+| mx-bcn |B.C. |MX-BCN |Baja California |下加利福尼亞 |BN |
+| mx-agu |Ags. |MX-AGU |Aguascalientes |阿瓜斯卡連特斯 |AG |
 
-### <a name="netherlands-provinces"></a>荷蘭︰省
+### <a name="netherlands-provinces"></a>荷蘭：省
 
-| ID | iso | name | 名稱 - 繁體中文 |
+| 識別碼 | iso | name | 名稱 - 繁體中文 |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |南荷蘭 |
-| nl-ze |NL-ZE |Zeeland |Zeeland |
-| nl-ut |NL-UT |Utrecht |Utrecht |
-| nl-ov |NL-OV |上愛塞 |上愛塞 |
+| nl-ze |NL-ZE |Zeeland |澤蘭 |
+| nl-ut |NL-UT |Utrecht |烏特勒支 |
+| nl-ov |NL-OV |Overijssel |上愛塞 |
 | nl-nh |NL-NH |Noord-Holland |北荷蘭 |
 | nl-nb |NL-NB |Noord-Brabant |北布拉邦 |
-| nl-li |NL-LI |林堡 |林堡 |
-| nl-gr |NL-GR |Groningen |Groningen |
-| nl-ge |NL-GE |吉德蘭 |吉德蘭 |
+| nl-li |NL-LI |Limburg |林堡 |
+| nl-gr |NL-GR |Groningen |格羅寧根 |
+| nl-ge |NL-GE |Gelderland |吉德蘭 |
 | nl-fr |NL-FR |Fryslân |菲士蘭 |
-| nl-fl |NL-FL |夫利佛蘭 |夫利佛蘭 |
-| nl-dr |NL-DR |Drenthe |Drenthe |
+| nl-fl |NL-FL |Flevoland |夫利佛蘭 |
+| nl-dr |NL-DR |Drenthe |德倫特 |
 
-### <a name="uk-countries"></a>英國：構成國
+### <a name="uk-countries"></a>英國：國家/地區
 
-| ID | iso | name |
+| 識別碼 | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |威爾斯 |
 | gb-sct |GB-SCT |蘇格蘭 |
 | gb-nir |GB-NIR |北愛爾蘭 |
 | gb-eng |GB-ENG |英格蘭 |
 
-### <a name="usa-states"></a>美國︰州
+### <a name="usa-states"></a>美國：州
 
-| ID | name | 郵遞區號 |
+| 識別碼 | name | 郵遞區號 |
 | --- | --- | --- |
-| us-mi |密西根 |密西根 |
+| us-mi |密西根 |MI |
 | us-ak |阿拉斯加 |AK |
 | us-hi |夏威夷 |HI |
 | us-fl |佛羅里達 |FL |
@@ -373,21 +378,21 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-nm |新墨西哥 |NM |
 | us-tx |德克薩斯 |TX |
 | us-tn |田納西 |TN |
-| us-nc |北卡羅來納 |NC |
-| us-ok |Oklahoma |確定 |
-| us-az |亞歷桑那 |AZ |
+| us-nc |北卡羅來那州 |NC |
+| us-ok |奧克拉荷馬 |OK |
+| us-az |亞歷桑那 |亞利桑那 |
 | us-mo |密蘇里 |MO |
-| us-va |維吉尼亞州 |VA |
-| us-ks |堪薩斯 |KS |
+| us-va |維吉尼亞 |維吉尼亞 |
+| us-ks |堪薩斯 |堪薩斯 |
 | us-ky |肯塔基 |KY |
 | us-co |科羅拉多 |CO |
-| us-md |Maryland |馬里蘭 |
+| us-md |馬里蘭 |MD |
 | us-wv |西維吉尼亞 |WV |
-| us-de |德拉瓦 |德拉瓦 |
+| us-de |德拉瓦 |DE |
 | us-dc |哥倫比亞特區 |DC |
-| us-il |伊利諾州 |IL |
+| us-il |伊利諾 |IL |
 | us-oh |俄亥俄 |OH |
-| us-ca |加利福尼亞 |CA |
+| us-ca |加利福尼亞 |加利福尼亞 |
 | us-ut |猶他 |UT |
 | us-nv |內華達 |NV |
 | us-in |印第安納 |IN |
@@ -398,19 +403,19 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-ny |紐約 |NY |
 | us-ne |內布拉斯加 |NE |
 | us-ma |麻薩諸塞 |MA |
-| us-ia |愛荷華 |IA |
+| us-ia |愛荷華 |愛荷華 |
 | us-nh |新罕布夏 |NH |
-| us-or |奧勒崗 |或 |
-| us-mn |明尼蘇達 |MN |
-| us-vt |佛蒙特 |VT |
+| us-or |奧勒崗 |OR |
+| us-mn |明尼蘇達 |明尼蘇達 |
+| us-vt |佛蒙特 |佛蒙特 |
 | us-id |愛達荷 |ID |
 | us-wi |威斯康辛 |WI |
-| us-wy |懷俄明 |懷俄明州 |
+| us-wy |懷俄明 |WY |
 | us-sd |南達科他 |SD |
 | us-nd |北達科他 |ND |
-| us-me |Maine |ME |
-| us-mt |Montana |MT |
-| us-wa |華盛頓 |華盛頓 |
+| us-me |緬因 |ME |
+| us-mt |蒙大拿 |蒙大拿 |
+| us-wa |華盛頓 |WA |
 
 ## <a name="next-steps"></a>後續步驟
 

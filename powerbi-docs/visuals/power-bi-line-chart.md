@@ -2,27 +2,35 @@
 title: Power BI 中的折線圖
 description: Power BI 中的折線圖
 author: mihart
-ms.reviewer: amac
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871065"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867016"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI 中的折線圖
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 折線圖是一連串以點表示並由直線連接的資料點。 折線圖可以有一或多個線條。 折線圖有 X 軸和 Y 軸。 
 
 ![簡單折線圖](media/power-bi-line-charts/power-bi-line.png)
 
+
+
 ## <a name="create-a-line-chart"></a>建立折線圖
 這些指示會使用「銷售與行銷範例」應用程式來建立折線圖，依類別顯示今年度銷售額。 若要跟著做，請從 appsource.com 取得範例應用程式。
+
+> [!NOTE]
+> 若要與 Power BI 同事共用報表，必須兩人都擁有個人的 Power BI Pro 授權，或將報表儲存在 Premium 容量中。
 
 1. 從空白報表頁面開始。 如果您使用 Power BI 服務，請務必在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報表。
 

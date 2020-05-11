@@ -10,12 +10,12 @@ ms.date: 01/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 1102022edca3afad2a658facdf43da7b8bca547d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c2a8372a5c31e41b49746ebbea3ba4801eeac493
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80113776"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866648"
 ---
 # <a name="track-user-activities-in-power-bi"></a>追蹤 Power BI 中的使用者活動
 
@@ -243,7 +243,7 @@ Remove-PSSession $Session
 | 已新增 Power BI 群組成員                      | AddGroupMembers                             |                                          |
 | 系統管理員已將資料流程儲存體帳戶連結至租用戶 | AdminAttachedDataflowStorageAccountToTenant | 目前未使用                       |
 | 已分析 Power BI 資料集                         | AnalyzedByExternalApplication               |                                          |
-| 已分析 Power BI 報表                          | AnalyzeInExcel                              |                                          |
+| 已分析 Power BI 報表                          | AnalyzeInExcel                              | 當使用者與服務互動時產生。 下載 `*.odc` 檔案不會建立稽核事件                                         |
 | 已附加資料流程儲存體帳戶                 | AttachedDataflowStorageAccount              |                                          |
 | 已將 Power BI 資料集繫結至閘道                | BindToGateway                               |                                          |
 | 已取消資料流程重新整理                        | CancelDataflowRefresh                       |                                          |

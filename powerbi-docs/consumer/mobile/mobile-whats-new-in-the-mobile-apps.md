@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802087"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841702"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -24,6 +24,14 @@ ms.locfileid: "80802087"
 
 >[!NOTE]
 >**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="april-2020"></a>2020 年 4 月
+
+### <a name="sharing-from-workspaces-is-now-available"></a>現已推出從工作區共用
+我們新增了從工作區共用報表和儀表板的功能。 現在只要工作區擁有者允許，您就可以如同在 Power BI 服務中一樣，從 [我的工作區] 及其他工作區共用內容。 
+
+### <a name="dashboards-now-support-full-screen-mode-ios-and-android"></a>儀表板現已支援全螢幕模式 (iOS 和 Android)
+您現在可使用全螢幕模式來檢視儀表板，其提供用以檢視儀表板內容的更大空間。 
 
 ## <a name="march-2020"></a>2020 年 3 月
 
@@ -871,4 +879,4 @@ Power BI 行動裝置應用程式改善 -- Android、iOS (iPhone 和 iPad) 及 W
 * 改善地圖底圖在聚焦模式的轉譯，以最大化螢幕使用空間。
 * 改善使用者以角色型安全性存取儀表板的使用者經驗。 
 * 新功能可讓您來回瀏覽儀表板圖格，直接在聚焦模式中探索它們，不必返回儀表板來選取下一個圖格。
-* 其他的穩定性和效能增強功能。 
+* 其他的穩定性和效能增強功能。

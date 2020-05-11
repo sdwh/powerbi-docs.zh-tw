@@ -4,16 +4,16 @@ description: 本文為 Power BI 範本應用程式的概觀。 了解如何撰�
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.openlocfilehash: 466e7cb842244104b004c4f65f82dafe13dc9725
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066317"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781309"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什麼是 Power BI 範本應用程式？
 
@@ -103,6 +103,7 @@ Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，
 | 資料集：跨工作區 | 不允許跨工作區資料集  |
 | 查詢參數 | 不支援：資料集類型區塊重新整理作業的 "Any" 和 "Binary" 類型參數 |
 | Power BI 視覺效果 | 只支援公開可用的 Power BI 視覺效果。 不支援[組織 Power BI 視覺效果](developer/visuals/power-bi-custom-visuals-organization.md) |
+| 主權雲端 | 範本應用程式無法在主權雲端中使用 |
 
 ## <a name="support"></a>支援
 如需在開發期間的支援，請使用 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)。 我們會主動監視及管理這個網站。 讓適當的小組可快速開始處理客戶事件。

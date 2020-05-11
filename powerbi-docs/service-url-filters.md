@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/25/2020
+ms.date: 05/04/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 79f3fa8c9c175b698cb91784f95d3bb9d8ca0cc5
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 2c9b7a5d13f2bc0f74d82dd2ad78efdb76ff6a14
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273240"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781410"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -156,7 +156,9 @@ V3 和 V4 之間還有其他差異。 OData V3 不支援日期，只有 DateTime
 
 ## <a name="special-characters-in-url-filters"></a>URL 篩選中的特殊字元
 
-特殊字元和空格需要一些額外的格式設定。 當您的查詢包含空格、破折號或其他非 ASCII 字元時，請在這些特殊字元前面加上「逸出代碼」  ，開頭為底線，並加上一個 X ( **_x**) 和四位數 **Unicode**，再接上另一個底線。 如果 Unicode 少於四個字元，您必須以零填補。 以下是一些範例。
+### <a name="special-characters-in-table-and-column-names"></a>資料表和資料行名稱中的特殊字元
+
+資料表和資料行名稱中的特殊字元和空格需要一些額外格式設定。 當您的查詢包含空格、破折號或其他非 ASCII 字元時，請在這些特殊字元前面加上「逸出代碼」  ，開頭為底線，並加上一個 X ( **_x**) 和四位數 **Unicode**，再接上另一個底線。 如果 Unicode 少於四個字元，您必須以零填補。 以下是一些範例。
 
 |識別碼  |Unicode  | 適用於 Power BI 的編碼  |
 |---------|---------|---------|
@@ -169,6 +171,24 @@ Table_x0020_Name/Column_x002B_Plus eq 3 ![呈現特殊字元的資料表視覺�
 
 
 Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![呈現特殊字元的資料表視覺效果](media/service-url-filters/power-bi-special-characters2.png)
+
+### <a name="special-characters-in-values"></a>值中的特殊字元
+
+除單引號 (') 外，URL 篩選早已支援欄位值中的所有特殊字元。 這是您唯一需要逸出的字元。 若要搜尋單引號字元，請使用兩個單引號 ('')。 
+
+例如：
+
+- `?filter=Table/Name eq 'O''Brien'` 會變成： 
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-obrien.png" alt-text="名稱為 O'Brien":::
+
+- `?filter=Table/Name eq 'Lee''s Summit'` 會變成：
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee's Summit":::
+
+- `in` 運算子也支援此逸出：`?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` 會變成：
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee's Summit 或 O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>使用 DAX 篩選多個值
 

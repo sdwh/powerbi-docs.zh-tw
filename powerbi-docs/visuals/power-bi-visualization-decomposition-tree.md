@@ -8,16 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75885282"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865560"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>在 Power BI 中建立和檢視分解樹狀結構視覺效果 (預覽)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Power BI 中的分解樹狀結構視覺效果可讓您將多個維度上的資料視覺化。 它會自動彙總資料，並且能夠以任何順序向下切入到您的維度。 這也是一種人工智慧 (AI) 視覺效果，因此，您可以要求它根據特定準則來尋找下一個要向下切入到其中的維度。 這讓它成為特定探索和進行根本原因分析的重要工具。
@@ -29,6 +32,8 @@ Power BI 中的分解樹狀結構視覺效果可讓您將多個維度上的資�
 - 一個供應鏈案例，可分析公司延期交貨 (缺貨) 的產品百分比。  
 - 一個銷售案例，可依多種因素來細分視訊遊戲銷售量，例如遊戲類型和發行者。
 
+> [!NOTE]
+> 若要與 Power BI 同事共用報表，必須兩人都擁有個人的 Power BI Pro 授權，或將報表儲存在 Premium 容量中。    
 
 ## <a name="get-started"></a>開始使用
 從 [視覺效果] 窗格中選取分解樹狀結構圖示。

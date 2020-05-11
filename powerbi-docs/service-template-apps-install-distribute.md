@@ -4,16 +4,16 @@ description: 了解如何在 Power BI 中於您的組織內安裝、自訂和散
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
-ms.date: 03/15/2020
+ms.subservice: powerbi-template-apps
+ms.topic: conceptual
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 86fe618508504faebc920c77a1f9605da59040d9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436103"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781658"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>在組織中安裝並散發範本應用程式
 
@@ -65,9 +65,9 @@ ms.locfileid: "79436103"
 
 1. 按一下 [連線]  。
     
-    此動作將開啟一或數個對話方塊，您可以在其中將範例資料中資料來源變更為您自己的資料來源。 這通常表示重新定義資料集參數與資料來源認證。 請參閱[已知的限制](service-template-apps-tips.md#known-limitations)。
+    此動作將開啟一或數個對話方塊，您可以在其中將範例資料中資料來源變更為您自己的資料來源。 這通常表示重新定義資料集參數與資料來源認證。 請參閱[已知的限制](service-template-apps-overview.md#known-limitations)。
     
-    在下列範例中，連線至資料會涉及兩個對話方塊。
+    在以下範例中，連線至資料會涉及兩個對話方塊。
 
    ![連線至資料對話方塊](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
@@ -95,16 +95,20 @@ ms.locfileid: "79436103"
 
 範本應用程式建立者時不時會透過 AppSource 或直接連結 (或兩者) 來發行改善的範本應用程式新版本。
 
-如果原本是透過 AppSource 下載應用程式，則當新版的範本應用程式可供使用時，Power BI 服務中會出現更新通知橫幅，通知有新的應用程式版本可供使用。
+如果您一開始是從 AppSource 下載應用程式，則當有新版的範本應用程式可用時，會以兩種方式收到通知：
+* Power BI 服務會顯示更新橫幅，以通知有新的應用程式版本可供使用。
+  ![範本應用程式更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+* 您會在 Power BI 的 [通知] 窗格中收到通知。
 
-  ![範本應用程式更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
+
+  ![範本應用程式更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >如果原本是透過直接連結而非 AppSource 來取得應用程式，則必須與範本應用程式建立者取得聯繫，才能得知新版本的推出時間。
 
-  若要安裝更新，請按一下通知橫幅上的 [取得]  ，或在 AppSource 中再次尋找該應用程式，然後選擇 [立即取得]  。 如果您已從範本應用程式建立者取得更新的直接連結，只要按一下連結即可。
+  若要安裝更新，請按一下通知橫幅或通知中心的 [取得]  ，或在 AppSource 中再次尋找該應用程式，然後選擇 [立即取得]  。 如果您已從範本應用程式建立者取得更新的直接連結，只要按一下連結即可。
   
-  系統會詢問您是否要覆寫目前的版本，或在新的工作區中安裝新版本。 預設會選取「覆寫」。
+  系統會詢問所要覆寫目前的版本，還是在新的工作區中安裝新版本。 預設會選取「覆寫」。
 
   ![更新範本應用程式](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
 

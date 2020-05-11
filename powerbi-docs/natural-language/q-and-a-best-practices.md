@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: b5865219d84c8fa388f297824550fd715f0c2923
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841909"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866834"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>將 Power BI 問與答最佳化的最佳做法
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 如果您的資料能夠回答，就更厲害了，而 Power BI 的問與答就有這樣的能耐。
@@ -195,8 +195,10 @@ Power BI 預設會積極地彙總數值資料行，因此「年度總銷售額�
 
 這個步驟非常重要。 即使使用明顯易懂的資料表和資料行名稱，問與答使用者會使用首次出現的詞彙來詢問問題。 使用者不會從預先定義的資料行清單中進行選擇。 您新增的同義字越有意義，報表的使用者體驗就會越好。 若要新增同義字，請在 Power BI Desktop 中移至模型檢視，選取 [模型] 索引標籤，然後選取一個欄位或資料表。 [屬性] 窗格會顯示 [同義字]  方塊，您可以在其中新增同義字。
 
-
-
-![問與答屬性窗格的同義字](media/qna-modelling-pane-synonyms.png)
+![問與答屬性窗格的同義字](media/q-and-a-best-practices/qna-modelling-pane-synonyms.png)
 
  新增同義字時請小心。 將相同的同義字新增至多個資料行或資料表會造成模稜兩可。 如果可行，問與答會使用內容以在模稜兩可的同義字之間進行選擇，但並非所有問題都有足夠的內容。 例如，當使用者詢問「計算客戶數」時，如果模型中有三個具有同義字「客戶」的項目，則使用者可能無法取得所要的解答。 在這些情況下，請確定主要同義字是唯一的，因為這是用於重新陳述的同義字。 它可以警告使用者發生模稜兩可 (例如重新陳述「顯示已封存客戶記錄的數目」)，以提示他們可能想要以不同的方式詢問。
+
+## <a name="next-steps"></a>後續步驟
+
+[Power BI Q&A 簡介](q-and-a-intro.md)

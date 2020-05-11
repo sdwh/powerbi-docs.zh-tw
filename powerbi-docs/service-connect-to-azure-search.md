@@ -10,10 +10,10 @@ ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 511fb6674d84cc0d206fdb1807fcb9ebf9e41d30
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873113"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>使用 Power BI 連接到 Azure 搜尋服務
@@ -24,7 +24,7 @@ Azure 搜尋服務流量分析可讓您監視及了解 Azure 搜尋服務的流�
 連接到 Power BI 的 [Azure 搜尋服務內容套件](https://app.powerbi.com/getdata/services/azure-search)。
 
 ## <a name="how-to-connect"></a>如何連接
-1. 選取導覽窗格底端的 [取得資料]  。
+1. 在導覽窗格的底部，選取 [取得資料]  。
    
    ![](media/service-connect-to-azure-search/pbi_getdata.png) 
 2. 在 [服務]  方塊中，選取 [取得]  。

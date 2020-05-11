@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621469"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613549"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>將 Power BI 視覺效果發佈至合作夥伴中心
 
@@ -101,9 +101,11 @@ Power BI 小組必須檢查檔案中是否有新的 Power BI 視覺效果提交�
 
 ## <a name="tracking-submission-status-and-usage"></a>追蹤提交狀態和使用方式
 
-您可檢閱[驗證原則](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)。
+* 您可檢閱[驗證原則](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)。
 
-提交之後，您就能夠在[應用程式儀表板](https://sellerdashboard.microsoft.com/Application/Summary/)中檢視提交狀態。
+* 提交之後，您就能夠在[應用程式儀表板](https://sellerdashboard.microsoft.com/Application/Summary/)中檢視提交狀態。
+
+* 若想要知道何時可從 AppSource 下載您的 Power BI 視覺效果，請查看 Power BI 視覺效果 [發行集時間軸](power-bi-custom-visuals-certified.md#publication-timeline)。
 
 ## <a name="certify-your-visual"></a>認證您的視覺效果
 

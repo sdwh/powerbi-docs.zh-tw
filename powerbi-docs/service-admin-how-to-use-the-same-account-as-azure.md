@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 4f1f8947827500ec89d189e17f8ab2189caaff93
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698570"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>針對 Power BI 和 Azure 使用相同的帳戶
@@ -30,7 +30,7 @@ Power BI 使用與您的公司或學校電子郵件地址相關聯的組織帳�
 
 1. 登入 [Azure 入口網站](https://portal.azure.com/)。 如果您是多個 Azure 目錄中的使用者，請選取 [訂用帳戶]  ，然後透過篩選方式只檢視您想要編輯的目錄與訂用帳戶。
 
-1. 在導覽窗格中，選取 [存取控制 (IAM)]  ，然後選取 [新增]  \> [新增共同管理員]  。
+1. 在功能窗格中，選取 [存取控制 (IAM)]  ，然後選取 [新增]  \> [新增共同管理員]  。
 
     ![在 Azure 入口網站中新增共同管理員](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 2dee596648c9921cefab6903167e780bfacb122e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b759d19046ddb375646743a50025689ab9a566c0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113892"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613526"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>取得 Power BI 視覺效果認證
 
@@ -82,8 +82,6 @@ Power BI 視覺效果必須由合作夥伴中心核准。 我們建議您的 Pow
 
 您必須使用 `pbiviz package` 來編譯您的 Power BI 視覺效果。 如果您要使用自己的組建指令碼，請提供 `npm run package` 自訂組建命令。
 
-
-
 ### <a name="source-code-requirements"></a>原始程式碼需求
 
 確認您遵循 [Power BI 視覺效果其他認證](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification)原則清單。 如果您的提交未遵循這些指導方針，合作夥伴中心的拒絕電子郵件將會包含此連結中所列的原則號碼。
@@ -150,6 +148,25 @@ Power BI 視覺效果必須由合作夥伴中心核准。 我們建議您的 Pow
     ![Power BI 介面經認證的 Power BI 視覺效果](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
 * 您可以透過選取 [Power BI 認證]  篩選選項，只顯示經認證的 Power BI 視覺效果。
+
+## <a name="publication-timeline"></a>發行集時間軸
+
+部署至 AppSource 的程序可能略為耗時。 在此程序完成後，您即可從 AppSource 下載 Power BI 視覺效果。
+
+### <a name="when-will-users-be-able-to-download-my-visual"></a>使用者何時能夠下載我的視覺效果？
+
+* 如果您是第一次提交 Power BI 視覺效果，則使用者可在您收到 AppSource 電子郵件後幾小時下載。
+
+* 如果是提交現有 Power BI 視覺效果的更新，則使用者將可在您提交的一個月內下載。
+
+    >[!NOTE]
+    > AppSource 中的「版本」  欄位會更新為 AppSource 核准您 Power BI 的日期，大約是在您提交視覺效果後一週。 使用者可下載更新的視覺效果，但更新的功能不會生效。 您的視覺效果新功能約在一個月後才會影響使用者的報表。 
+
+### <a name="when-will-my-power-bi-visual-display-a-certification-badge"></a>我的 Power BI 視覺效果何時會顯示認證徽章？
+
+* 如果您是第一次提交 Power BI 視覺效果，則認證徽章會在您收到 AppSource 核准電子郵件的一天內出現。
+
+* 如果要求現有 Power BI 視覺效果的認證，則認證徽章會在您提交的一個月內出現。
 
 ## <a name="next-steps"></a>後續步驟
 

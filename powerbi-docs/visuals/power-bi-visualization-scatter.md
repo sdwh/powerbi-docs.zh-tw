@@ -3,32 +3,27 @@ title: Power BI 中的散佈圖、泡泡圖與點圖
 description: Power BI 中的散佈圖、點圖與泡泡圖
 author: mihart
 ms.reviewer: amac
-featuredvideoid: PVcfPoVE3Ys
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/21/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7160505a720b6629067d7b1486f0dd227efd862
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80273309"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866901"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散佈圖、泡泡圖與點圖
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 散佈圖一律會有兩個值座標軸：沿著水平軸顯示一組數值資料，沿著垂直軸顯示另一組數值。 此圖表顯示 x 與 y 數交集處的點，結合這些值可形成單一的資料點。 Power BI 可以在水平軸上平均或不平均地分佈這些資料點。 這會依圖表所代表的資料而定。
-
-觀賞這段影片來了解 Will 如何建立散佈圖，然後依照下列步驟自行建立一個散佈圖。
-   > [!NOTE]
-   > 這部影片使用舊版的 Power BI Desktop。
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 您可以設定資料點數目，最多 10,000 個。  
 
@@ -87,6 +82,8 @@ ms.locfileid: "80273309"
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
+> [!NOTE]
+> 要與 Power BI 同事共用您的報表，必須雙方都擁有個人的 Power BI Pro 授權，或者將報表儲存在 Premium 容量中。    
 
 ## <a name="create-a-scatter-chart"></a>建立散佈圖
 

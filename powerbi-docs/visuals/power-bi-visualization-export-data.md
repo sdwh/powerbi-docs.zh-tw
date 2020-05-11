@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f82bde423d910cb5622e5e709890502e96daab36
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82585389"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781723"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>匯出用於建立視覺效果的資料
 
@@ -265,6 +265,8 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
   1. 選取 [取得外部資料]   >  [從文字]  。
   
   1. 移至儲存檔案的本機資料夾，然後選取 *.csv*。
+
+- 匯出至 *.csv* 時，會使用前置的 **'** 來逸出特定字元。
 
 - Power BI 系統管理員可以停用匯出資料。
 

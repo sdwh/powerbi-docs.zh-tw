@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435758"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841725"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -45,7 +45,7 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 * ![手機報表圖示](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) 表示至少具有一個電話最佳化頁面的報表，以直向顯示。
 
 > [!NOTE]
-> 當您將手機保持在橫向時，即使報表頁面處於手機版面配置，也一律會以橫向版面配置顯示。
+> 當橫向持握手機時，即使報表頁面為手機版面配置，也一律會以橫向版面配置顯示。
 
 若要從儀表板取得報表，請點選磚右上角的 [更多選項]  (...)，然後點選 [開啟報表]  ：
   

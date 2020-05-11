@@ -1,19 +1,19 @@
 ---
 title: 教學 Q&A 以了解 Power BI 問與答中的問題和字詞
 description: 如何使用 Power BI 問與答探索您的資料
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2019
-ms.author: mohaali
+ms.date: 04/21/2020
+ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 695ad9143aa7074e079ae8606a9ad0eb6f6c964f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e5b870201943b93bfdaec2881005785c2f3c470b
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874910"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865740"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>教學 Q&A 以了解 Power BI 問與答中的問題和字詞
 
@@ -26,7 +26,7 @@ ms.locfileid: "73874910"
 
 1. 在 Power BI Desktop 的 [模型]  功能區上，選取 [問與答安裝程式]   > [教學 Q&A]  。
 
-    ![Q&A 教學同義字以紅色顯示](media/qna-tooling-teach-synonym-red.png)
+    ![Q&A 教學同義字以紅色顯示](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-synonym-red.png)
 
 2. 鍵入一個句子，其中包含問與答無法辨識的字詞，然後選取 [提交]  。
 
@@ -36,7 +36,7 @@ ms.locfileid: "73874910"
     
 3. 在 [Define the terms Q&A didn't understand] \(定義問與答不了解的字詞\)  下，提供定義。
 
-    ![Q&A 教學同義字預覽](media/qna-tooling-teach-fixpreview.png)
+    ![Q&A 教學同義字預覽](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-fixpreview.png)
 
 4. 選取 [儲存]  以預覽更新的視覺效果。
 
@@ -57,11 +57,11 @@ ms.locfileid: "73874910"
 
 問與答會使用來自 Microsoft Office 的知識，自動偵測無法辨識字組為名詞的情況。 如果問與答偵測到名詞，則會下列列方式提示您：
 
-- <your term> **參照至** 
+- <your term>**參照至** 
 
 您會在方塊中填入來自資料的字詞。
 
-![Q&A 教學同義字提示](media/qna-tooling-synonym-prompt.png)
+![Q&A 教學同義字提示](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 如果您提供的內容不同於資料模型中欄位，則可能會獲得不想要的結果。
 
@@ -69,21 +69,30 @@ ms.locfileid: "73874910"
 
 有時您可能想要定義字詞作為基礎資料的條件。 其中一個例子可能是「優秀的發行者」。 「優秀的」可能是一項條件，表示只會選取已發佈 X 項產品的發行者。 問與答會嘗試偵測形容詞，並顯示不同的提示：
 
-- <field name> **具有**  
+- <field name>**具有**  
 
 您會在方塊中填入條件。
 
-![Q&A 教學同義字提示](media/qna-tooling-adjectives.png)
+![Q&A 教學同義字提示](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 您可以定義的一些範例條件如下：
 
-- 「國家/地區」是「美國」
-- 「國家/地區」不是「美國」
-- 「重量」> 2000
-- 「重量」= 2000
-- 「重量」< 2000
+- 國家/地區是美國
+- 國家/地區不是美國
+- Products > 100
+- Products 大於 100
+- Products = 100
+- Products 等於 100
+- Products < 100
+- Products 小於 100
 
-您只能在工具中定義單一條件。 若要定義更複雜的條件，請使用 DAX 建立計算結果欄，然後使用工具區段為該計算結果欄建立單一條件。 不支援量值。 請改用計算結果欄。
+在這些範例中， 'Products' 可以是資料行名稱或量值。 
+
+您也可以在問與答運算式本身指定彙總。 例如，如果「熱門產品」為銷售超過 100 單位的產品，則可將「銷售的單位總和 > 100」定義為熱門產品。  
+
+:::image type="content" source="media/q-and-a-tooling-teach-q-and-a/power-bi-qna-popular-products.png" alt-text="定義「熱門產品」":::
+
+您只能在工具中定義單一條件。 若要定義更複雜的條件，請使用 DAX 來建立計算結果欄或量值，然後使用工具區段為該資料行或量值建立單一條件。
 
 ## <a name="manage-terms"></a>管理字詞
 
@@ -93,10 +102,8 @@ ms.locfileid: "73874910"
 
 2. 刪除您不再需要的任何字詞。 您目前無法編輯字詞。 若要重新定義字詞，請刪除該字詞，再加以定義。
 
-    ![問與答的 [管理字詞]](media/qna-manage-terms.png)
+    ![問與答的 [管理字詞]](media/q-and-a-tooling-teach-q-and-a/qna-manage-terms.png)
 
 ## <a name="next-steps"></a>後續步驟
 
-有一些最佳做法可以改善自然語言引擎。 如需詳細資訊，請參閱下列文章：
-
-* [問與答最佳做法](q-and-a-best-practices.md)
+有一些最佳做法可以改善自然語言引擎。 如需詳細資訊，請參閱[問與答最佳做法](q-and-a-best-practices.md)。

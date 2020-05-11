@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 04/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5247b2c990c8c0cfd29da0e8a30cdc8691000106
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207244"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866809"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 
@@ -139,7 +139,7 @@ ms.locfileid: "79207244"
 * HDInsight 互動式查詢
 * Azure 資料總管 (Kusto)
 * Azure 成本管理
-* Azure 時間序列深入解析 (Beta)
+
 
 下圖顯示 [Azure]  的 [取得資料]  視窗。
 
@@ -191,6 +191,9 @@ ms.locfileid: "79207244"
 * Quick Base
 * TeamDesk (搶鮮版 (Beta))
 * 工作場所分析 (搶鮮版 (Beta))
+* Power BI 的 Projectspace (搶鮮版 (Beta))
+* Webtrends 分析 (搶鮮版 (Beta))
+* Zoho Creator (搶鮮版 (Beta))
 
 下圖顯示 [線上服務]  的 [取得資料]  視窗。
 
@@ -213,6 +216,7 @@ ms.locfileid: "79207244"
 * ODBC
 * OLE DB
 * BI360 - Budgeting & Financial Reporting (搶鮮版 (Beta))
+* Cognite Data Fusion (搶鮮版 (Beta))
 * FHIR
 * Information Grid (搶鮮版 (Beta))
 * Jamf Pro (搶鮮版 (Beta))
@@ -222,11 +226,13 @@ ms.locfileid: "79207244"
 * Roamler (搶鮮版 (Beta))
 * Siteimprove (搶鮮版 (Beta))
 * SurveyMonkey 搶鮮版 (Beta)
-* Tenforce (Smart)List (搶鮮版 (Beta))
 * TIBCO(R) Data Virtualization (搶鮮版 (Beta))
 * Vena (搶鮮版 (Beta))
 * Workforce Dimensions (搶鮮版 (Beta))
 * Zucchetti HR Infinity (搶鮮版 (Beta))
+* Tenforce (Smart)List
+* Shortcuts 商業見解 (搶鮮版 (Beta))
+* Vessel 見解 (搶鮮版 (Beta))
 * 空白查詢
 
 下圖顯示 [其他]  的 [取得資料]  視窗。

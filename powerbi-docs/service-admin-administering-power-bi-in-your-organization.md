@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: cfe877d6fac96124badc19f6ab685523077132fc
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f7e21f5b9f2ac01fec19a7113cf595464619a0e0
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381276"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841978"
 ---
 # <a name="what-is-power-bi-administration"></a>什麼是 Power BI 管理？
 
@@ -50,7 +50,7 @@ Power BI 服務系統管理員角色不會將指派授權的能力授與使用�
 
 ## <a name="administrative-tasks"></a>管理工作
 
-系統管理員會執行許多工作，以支援其組織的 Power BI 租用戶，下表包含這些工作。
+系統管理員會為其組織執行下表列出的許多工作，以支援 Power BI。
 
 | **工作區域** | **一般工作** |
 | --- | --- |
@@ -78,7 +78,7 @@ Power BI 服務系統管理員角色不會將指派授權的能力授與使用�
 
 ## <a name="next-steps"></a>後續步驟
 
-我們希望本文能提供您對 Power BI 系統管理員工作，以及相關特定角色、工作與工具的快速深入剖析。 我們推薦以下兩個文章主題，讓您更深入了解。
+我們希望本文能提供您對 Power BI 系統管理員工作，以及相關特定角色、工作與工具的快速深入剖析。 建議參閱下列文章，以深入了解。
 
 - [使用 Power BI 管理入口網站](service-admin-portal.md)
 - [租用戶系統管理設定指導](guidance/admin-tenant-settings.md)

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802112"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841771"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>檢視為手機最佳化的 Power BI 報表
 
@@ -131,7 +131,7 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
 
 
 ## <a name="next-steps"></a>後續步驟
-* [建立為 Power BI 手機應用程式最佳化的報表](../../desktop-create-phone-report.md)
+* [建立為 Power BI 行動應用程式最佳化的報表](../../desktop-create-phone-report.md)
 * [在 Power BI 中建立儀表板的手機檢視](../../service-create-dashboard-mobile-phone-view.md)
 * [建立適用於任何大小的回應式視覺效果](../../visuals/desktop-create-responsive-visuals.md)
 * 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

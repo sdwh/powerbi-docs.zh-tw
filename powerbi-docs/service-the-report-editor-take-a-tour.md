@@ -11,10 +11,10 @@ ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871349"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的報表編輯器導覽
@@ -60,11 +60,11 @@ Power BI 報表編輯器分成數個主要區段：
 
 **[視覺效果] 窗格底部**有三個索引標籤：
 
-![視覺效果中的欄位](media/service-the-report-editor-take-a-tour/power-bi-fields-visualization-pane.png) **欄位**會顯示視覺效果中的欄位。 您可能必須向下捲動才能查看所有詳細資料。 此圖表使用 [StoreNumberName] 和 [今年銷售額]。
+![視覺效果中的欄位](media/service-the-report-editor-take-a-tour/power-bi-fields-visualization-pane.png) [欄位]  會顯示視覺效果中的欄位。 您可能必須向下捲動才能查看所有詳細資料。 此圖表使用 [StoreNumberName] 和 [今年銷售額]。
 
-![油漆滾筒圖示](media/service-the-report-editor-take-a-tour/power-bi-paint-roller.png) **格式** 若要顯示格式窗格，請針對選取的視覺效果，選取油漆滾筒圖示。
+![油漆滾筒圖示](media/service-the-report-editor-take-a-tour/power-bi-paint-roller.png)[格式]  若要顯示所選視覺效果的 [格式] 窗格，請選取油漆滾筒圖示。
 
-![放大鏡圖示](media/service-the-report-editor-take-a-tour/power-bi-magnifying-glass.png) **分析** 選取放大鏡圖示，即可顯示 [分析] 窗格。
+![放大鏡圖示](media/service-the-report-editor-take-a-tour/power-bi-magnifying-glass.png) [分析]  若要顯示 [分析] 窗格，請選取放大鏡圖示。
 
 **[欄位] 窗格**會列出資料模型中所有可用的資料表。 當您展開資料表時，您會看到該資料表中的欄位。 黃色核取記號可讓您了解該資料表至少有一個欄位位於視覺效果中。
 

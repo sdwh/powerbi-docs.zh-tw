@@ -3,21 +3,23 @@ title: Power BI 中的星形量測計圖表
 description: Power BI 中的星形量測計圖表
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6Epqa
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e783b4357d4db39e09aabbb1df39e1bb5c84532e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7c6c4dbe9f17464483f5b44542ffbe04f715d4bd
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880893"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866924"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的星形量測計圖表
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -27,12 +29,8 @@ ms.locfileid: "73880893"
 
 在此範例中，您是汽車零售商，正在追蹤銷售小組每個月的平均銷售量。 指針代表汽車銷售量目標為 140。 最小的可能平均銷售量為 0，最大值為 200。  藍色陰影顯示小組這個月的銷售量平均約為 120。 幸好距離目標達成還有一週的時間。
 
-請觀看 Will 說明如何建立單一計量的視覺效果︰量測計、卡片及 KPI。
-   > [!NOTE]
-   > 這部影片使用舊版的 Power BI Desktop。
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+> [!NOTE]
+> 要與 Power BI 同事共用您的報表，必須雙方都擁有個人的 Power BI Pro 授權，或者將報表儲存在 Premium 容量中。
 
 ## <a name="when-to-use-a-radial-gauge"></a>使用星形量測計的時機
 

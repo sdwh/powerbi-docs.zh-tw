@@ -3,21 +3,22 @@ title: Power BI 中的矩形式樹狀結構圖
 description: Power BI 中的矩形式樹狀結構圖
 author: mihart
 ms.reviewer: ''
-featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b70e9611b22f1df20d39cdbd338fd5b6bfe1b43d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880730"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866878"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI 中的矩形式樹狀結構圖
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -39,14 +40,6 @@ ms.locfileid: "73880730"
 
 您可以藉由比較每個分葉節點的大小和陰影，去比較其他服裝類別的售出項目數；矩形越大且顏色越深，表示值越高。
 
-想要先觀賞其他人建立矩形式樹狀結構圖嗎？ 請跳至這段影片的 2:10 處，觀看 Amanda 建立矩形式樹狀結構圖。
-
-   > [!NOTE]
-   > 這部影片使用舊版的 Power BI Desktop。
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-treemap"></a>使用矩形式樹狀結構圖的時機
 
@@ -75,6 +68,10 @@ ms.locfileid: "73880730"
 1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+
+> [!NOTE]
+> 要與 Power BI 同事共用您的報表，必須雙方都擁有個人的 Power BI Pro 授權，或者將報表儲存在 Premium 容量中。    
+
 
 
 取得 [零售分析範例]  資料集之後，您就可以開始進行。

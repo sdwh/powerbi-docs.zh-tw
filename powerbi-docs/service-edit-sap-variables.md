@@ -9,16 +9,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a05b677a3a6c826c8207af29e965a7cd76149fbe
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74010860"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841035"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>在 Power BI 服務中編輯 SAP 變數
 
-報表作者現在在搭配使用 DirectQuery 與 SAP Business Warehouse 或 SAP HANA 時，可以允許終端使用者在 **Power BI 服務**中，編輯 Premium 及共用工作區的 SAP 變數。 請注意，此功能不適用於 [我的工作區] 的 [與我共用] 索引標籤中的報表。 
+報表作者現在在搭配使用 DirectQuery 與 SAP Business Warehouse 或 SAP HANA 時，可以允許終端使用者在 **Power BI 服務**中，編輯 Premium 及共用工作區的 SAP 變數。 請注意，此功能「不適用」[我的工作區] 的 [與我共用] 索引標籤中的報表，也「不適用」從 V1 工作區建立的應用程式。 
 
 ![[編輯變數] 對話方塊](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 

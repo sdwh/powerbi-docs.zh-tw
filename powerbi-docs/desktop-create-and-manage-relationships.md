@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6f71cf9b8325441fe3827a259daf3bcbe15765a5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 373ad0d230b3d9d7b9d35909d086b0611637f0e2
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76709962"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866326"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中建立和管理關聯性
 當匯入多個資料表時，您可能想要使用所有資料表中的資料來進行一些分析。 這些資料表之間必須有關聯性才能正確地計算結果，並在報表中顯示正確資訊。 Power BI Desktop 可讓您輕鬆地建立這些關聯性。 事實上，在大多數情況下，您不必執行任何動作，[自動偵測] 功能會為您完成這項作業。 不過，有時候，您可能必須自行建立關聯性，或需要對關聯性進行變更。 不論是哪種情況，請務必了解 Power BI Desktop 中的關聯性，以及如何建立和編輯關聯性。
@@ -271,7 +271,7 @@ Power BI 進行這些設定的原因是因為，對 Power BI Desktop 而言，�
 
  ![交叉篩選方向](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
-篩選規格會從 [公司專案]  流向 [公司員工]  (如下圖所示)，但不會往上流向 [公司員工]  。 
+篩選規格會從 **CompanyProject** 流向至 **ProjectHours** (如下圖所示)，但不會往上流向至 **CompanyEmployee**。 
 
  ![交叉篩選範例](media/desktop-create-and-manage-relationships/candmrel_singledircrossfiltering.png)
 

@@ -7,10 +7,10 @@ ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: 6262b7ba0f3d01db6f9f5ff24f411de6ec4f35cb
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268596"
 ---
 # <a name="developer-learning-catalog"></a>開發人員學習目錄
@@ -22,8 +22,8 @@ ms.locfileid: "81268596"
 ## <a name="get-started"></a>開始使用<a name="get-started"></a>
 | 內容 | 描述 | 格式  | 長度      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
-| [Microsoft Power BI YouTube 頻道](https://www.youtube.com/user/mspowerbi/videos)  | 包含 Microsoft Power BI 產品小組所提供內容的 YouTube 頻道   | 影片  |             |
-| [Microsoft 正在如何改變 BI 資料保護](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection-OnDemand.html) | 報名此網路研討會，了解如何協助保護 BI 資料，即使匯出亦然。 啟用敏感度分類和即時風險分析，以定義存取權限。 | Webinar | 18 分鐘 49 秒 |
+| [Microsoft Power BI YouTube 頻道](https://www.youtube.com/user/mspowerbi/videos)  | Microsoft Power BI 產品小組提供內容的 YouTube 頻道   | 影片  |             |
+| [Microsoft 正在如何改變 BI 資料保護](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection-OnDemand.html) | 報名這場網路研討會，了解如何保護您的 BI 資料，而且在匯出之後仍能繼續提供保護。 允許使用敏感度分類與即時風險分析來界定存取權限。 | Webinar | 18 分鐘 49 秒 |
 ## <a name="embedded"></a>內嵌<a name="embedded"></a>
 | 內容 | 描述 | 格式  | 長度      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|

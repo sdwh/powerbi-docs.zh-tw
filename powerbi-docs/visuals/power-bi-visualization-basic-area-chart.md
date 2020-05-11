@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/11/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5fda121af151e787c444b928c320b7f33fe1405c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75757868"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866948"
 ---
 # <a name="create-and-use-basic-area-charts"></a>建立和使用基本區域圖
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -25,6 +27,9 @@ ms.locfileid: "75757868"
 區域圖強調隨著時間的變化大小，而且可用來強調跨趨勢的總計值。 例如，代表收益隨時間變化的資料，可以在區域圖中繪製，藉此強調總收益。
 
 ![](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
+
+> [!NOTE]
+> 要與 Power BI 同事共用您的報表，必須雙方都擁有個人的 Power BI Pro 授權，或者將報表儲存在 Premium 容量中。
 
 ## <a name="when-to-use-a-basic-area-chart"></a>使用基本區域圖的時機
 基本區域圖極適合：
@@ -39,9 +44,9 @@ ms.locfileid: "75757868"
    
 2. 尋找您的**零售分析範例 PBIX 檔案**複本
 
-1. 在報表檢視 **報表檢視圖示的螢幕擷取畫面** 中開啟![零售分析範例 PBIX 檔案](media/power-bi-visualization-kpi/power-bi-report-view.png)。
+1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**零售分析範例 PBIX 檔案**。
 
-1. Select ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
 
 ## <a name="create-a-basic-area-chart"></a>建立基本區域圖
@@ -49,7 +54,7 @@ ms.locfileid: "75757868"
 
 1. 這些步驟將可協助您建立依月份顯示本年度和去年度銷售額的區域圖。
    
-   a. 從 [欄位] 窗格中選取 [銷售]  **[去年銷售]\>** ，以及 [今年銷售] > [值]  。
+   a. 從 [欄位] 窗格中選取 [銷售] \> [去年銷售]  ，以及 [今年銷售] > [值]  。
 
    ![區域圖資料值](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
@@ -63,7 +68,7 @@ ms.locfileid: "75757868"
    d.  若要依照月份顯示圖表，請選取省略符號 \(視覺效果的右上角)，並選擇 \[Sort by month] \(按月份排序)  。 若要變更排序次序，請再次選取省略符號，並選取 [遞增排序]  或 [遞減排序]  。
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
-如需使用 [篩選] 窗格的資訊，請參閱[將篩選新增至報表](../power-bi-report-add-filter.md)。
+如需使用 [篩選] 窗格的資訊，請參閱[將篩選加入報表](../power-bi-report-add-filter.md)。
 
 若要反白顯示圖表中的一個特定區域，請選取該區域或其上框線。  不同於其他視覺效果類型，如果在相同的頁面上有其他視覺效果，反白顯示基本區域圖並不會交叉篩選報表頁面上的其他視覺效果。 不過，對報表頁面上的其他視覺效果來說，區域圖是觸發交叉篩選的目標。 
 
@@ -80,6 +85,6 @@ ms.locfileid: "75757868"
 * [使報表讓行動不便人士易於存取](../desktop-accessibility.md)
 * 基本區域圖不適用於比較值，原因是多層次區域會受阻擋。 Power BI 使用透明效果來表示重疊的區域。 不過，它只適用於兩個或三個不同的區域。 當您需要比較三個以上量值的趨勢時，請試著使用折線圖。 當您需要比較三個以上量值的數量時，請試著使用樹狀圖。
 
-## <a name="next-step"></a>後續步驟
+## <a name="next-step"></a>下一步
 [Power BI 中的報表](power-bi-visualization-card.md)  
 

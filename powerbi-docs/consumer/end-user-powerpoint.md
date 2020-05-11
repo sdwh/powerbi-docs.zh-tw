@@ -3,18 +3,19 @@ title: 從 Power BI 將報表匯出至 PowerPoint
 description: 了解如何將 Power BI 報表匯出至 PowerPoint。
 author: mihart
 ms.reviewer: ''
+ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/21/2020
+ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f9e0288c91f65d10329aaac29df8eb6e7a81f297
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 4a93bbc0d5d8014e11fb59129b22b5493def0ac2
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377149"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841086"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>從 Power BI 將報表匯出至 PowerPoint
 
@@ -22,7 +23,9 @@ ms.locfileid: "79377149"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-有了 Power BI，您就可以將報表發佈至 Microsoft PowerPoint，並根據 Power BI 報表輕鬆地建立投影片組。 當您匯出至 PowerPoint 時，會發生下列狀況：
+![顯示 Power BI 標誌和 PowerPoint 標誌的美工圖案](media/end-user-powerpoint/logos.png)
+
+使用 Power BI 服務 (app.powerbi.com)，即可將報表發佈至 Microsoft PowerPoint，並根據 Power BI 報表輕鬆建立投影片組。 當您匯出至 PowerPoint 時，會發生下列狀況：
 
 * Power BI 報表中每個頁面都會變成 PowerPoint 的個別投影片。
 * Power BI 報表中每個頁面都會匯出成 PowerPoint 中的單一高解析度影像。
@@ -30,6 +33,10 @@ ms.locfileid: "79377149"
 * PowerPoint 中會建立連結至 Power BI 報表的連結。
 
 將 **Power BI 報表**匯出到 **PowerPoint** 的程序非常簡單快速。 請遵循下一節中概述的步驟。
+
+您也可以複製 Power BI 服務的特定視覺效果，並將其貼入 PowerPoint。 選取**複製成影像**圖示，將視覺效果複製到剪貼簿。 然後，開啟 PowerPoint 並貼上視覺效果。
+
+![選取複製成影像圖示](media/end-user-powerpoint/power-bi-copy.png)
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>將 Power BI 報表匯出至 PowerPoint
 在 **Power BI 服務**中，選取要顯示在畫布上的報表。 您也可以從瀏覽窗格的 [首頁]  、[應用程式]  或任何其他容器中選取報表。
@@ -77,12 +84,13 @@ ms.locfileid: "79377149"
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 當您使用 [匯出至 PowerPoint]  功能時，需牢記幾項考量與限制。
 
-* 目前不支援 R 視覺效果與 Python 視覺效果。 任何這類的視覺效果都會作為空白影像匯出至 PowerPoint，並顯示一個錯誤訊息，指出目前並不支援該視覺效果。
+
+* 將報表匯出至 PowerPoint 的程序可能需時數分鐘，請耐心等候。 影響所需時間的因素，包括報表結構及 Power BI 服務目前的負載。
 * 目前支援經認證的 Power BI 視覺效果。 如需認證自訂視覺效果 (包括如何使自訂視覺效果獲得認證) 的詳細資訊，請參閱[讓自訂視覺效果獲得認證](../developer/power-bi-custom-visuals-certified.md)。 不支援未經認證的自訂視覺效果。 它們會作為空白影像匯出至 PowerPoint，並顯示一個錯誤訊息，指出目前並不支援該視覺效果。
-* 不支援 ESRI 視覺效果
+* 針對匯出選擇 [目前的值]  時，目前不適用 URL 篩選。
+* 不支援 [ESRI ArcGIS 視覺效果](../visuals/power-bi-visualizations-arcgis.md)
 * 目前無法匯出超過 30 頁的報表。
 * 具有捲軸的視覺效果會以其預設狀態匯出。 PowerPoint 中的視覺效果只會顯示資料的上半部。 無法在 PowerPoint 中捲動，因為每個投影片都是影像。 
-* 將報表匯出至 PowerPoint 的程序可能需時數分鐘，請耐心等候。 影響所需時間的因素，包括報表結構及 Power BI 服務目前的負載。
 * 如果 Power BI 服務中沒有 [匯出至 PowerPoint]  功能表項目，可能是因為租用戶系統管理員停用了此功能。 如需詳細資訊，請連絡您的租用戶系統管理員。
 * 背景影像會按圖表的周框區域剪裁。 我們建議您先移除背景影像，再匯出至 PowerPoint。
 * PowerPoint 中的頁面一律會以標準的 9:16 大小建立，而不論 Power BI 報表中的原始頁面大小或維度為何。
@@ -93,7 +101,10 @@ ms.locfileid: "79377149"
 * Power BI 服務會使用您的 Power BI 語言設定作為 PowerPoint 的輸出語言。 若要查看或設定語言喜好設定，請選取齒輪圖示 ![齒輪圖示](media/end-user-powerpoint/power-bi-settings-icon.png) > [設定]   > [一般]   > [語言]  。
 * 匯出的 PowerPoint 檔案，其封面投影片上的**下載於**時間，會設定為匯出當時您電腦的時區。
 * 匯出至 PPTX 時，若報表使用的佈景主題具有自訂字型，則系統會使用預設字型取代自訂字型。
-* 針對匯出選擇 [目前的值]  時，目前不適用 URL 篩選。
+* 目前不支援使用 R 和 Python 建立的視覺效果。 任何這類的視覺效果都會作為空白影像匯出至 PowerPoint，並顯示一個錯誤訊息，指出目前並不支援該視覺效果。
+
+
 
 ## <a name="next-steps"></a>後續步驟
+[將視覺效果複製為靜態影像](../power-bi-visualization-copy-paste.md)    
 [列印報表](end-user-print.md)
