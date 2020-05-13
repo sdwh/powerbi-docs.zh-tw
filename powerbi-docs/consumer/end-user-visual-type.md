@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377182"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279426"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的視覺效果類型
 
@@ -152,7 +152,7 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 ![問與答視覺效果](media/end-user-visual-type/power-bi-q-and-a.png)
 
 >[!TIP]
->問與答視覺效果類似於[儀表板上的問與答體驗](../power-bi-tutorial-q-and-a.md)，可讓您使用自然語言來詢問資料的相關問題。 
+>問與答視覺效果類似於[儀表板上的問與答體驗](../create-reports/power-bi-tutorial-q-and-a.md)，可讓您使用自然語言來詢問資料的相關問題。 
 
 如需詳細資訊，請參閱 [Power BI 中的問與答視覺效果](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
 
@@ -248,3 +248,4 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 ## <a name="next-steps"></a>後續步驟
 [在報表、儀表板和應用程式中與視覺效果互動](end-user-visualizations.md)    
 [來自 sqlbi.com 的正確視覺效果參考](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

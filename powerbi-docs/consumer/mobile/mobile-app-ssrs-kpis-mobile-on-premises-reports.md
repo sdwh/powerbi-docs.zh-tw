@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 387f0cd4ecea59fd55af0a9eceff2272ddd8097b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75220017"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278851"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視內部部署報表伺服器報表和 KPI
 
@@ -107,7 +107,7 @@ Power BI 報表、Reporting Services 行動報表和 KPI 皆顯示在 Reporting 
   > 在 Power BI 報表伺服器上，目前未啟用 Power BI 報表中的向下切入和向上切入。
   
     ![Power BI 報表](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
-* 在 Power BI Desktop 中，報表擁有者可以為 Power BI 行動裝置應用程式[最佳化報表](../../desktop-create-phone-report.md)。 在您的行動電話上，最佳化的報表會有特殊圖示![最佳化的 Power BI 報表圖示](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png)和配置。
+* 在 Power BI Desktop 中，報表擁有者可以為 Power BI 行動裝置應用程式[最佳化報表](../../create-reports/desktop-create-phone-report.md)。 在您的行動電話上，最佳化的報表會有特殊圖示![最佳化的 Power BI 報表圖示](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png)和配置。
   
     ![針對行動最佳化的 Power BI 報表](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-report.png)
 * 點選 KPI，以焦點模式查看。
@@ -133,4 +133,3 @@ Power BI 報表、Reporting Services 行動報表和 KPI 皆顯示在 Reporting 
 ## <a name="next-steps"></a>後續步驟
 * [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)  
 * 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

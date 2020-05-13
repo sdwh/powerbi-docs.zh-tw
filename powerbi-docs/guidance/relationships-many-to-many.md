@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8718c67c592bf96d50efed475c0d27b4ec80ca04
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260434"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278322"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多對多關聯性指導
 
@@ -161,7 +161,7 @@ ms.locfileid: "78260434"
 
 ### <a name="relate-many-to-many-facts-guidance"></a>建立多對多事實的關聯指導
 
-一般而言，不建議使用多對多基數來直接建立兩個事實類型資料表的關聯。 主要原因是因為該模型的彈性不如您報告視覺效果篩選或分組的方式。 在此範例中，視覺效果只能依 [訂單]  資料表 [訂單識別碼]  資料行進行篩選或分組。 另一個原因與您資料的品質有關。 如果您的資料有完整性問題，在查詢期間可能會因「弱式關聯性」  的本質，而省略一些資料列。 如需詳細資訊，請參閱 [Power BI Desktop 中的模型關聯性 (關聯性評估)](../desktop-relationships-understand.md#relationship-evaluation)。
+一般而言，不建議使用多對多基數來直接建立兩個事實類型資料表的關聯。 主要原因是因為該模型的彈性不如您報告視覺效果篩選或分組的方式。 在此範例中，視覺效果只能依 [訂單]  資料表 [訂單識別碼]  資料行進行篩選或分組。 另一個原因與您資料的品質有關。 如果您的資料有完整性問題，在查詢期間可能會因「弱式關聯性」  的本質，而省略一些資料列。 如需詳細資訊，請參閱 [Power BI Desktop 中的模型關聯性 (關聯性評估)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
 
 建議您採用[星型結構描述](star-schema.md)設計原則，而不是直接建立事實類型資料表的關聯。 做法是新增兩個維度類型資料表。 然後使用一對多關聯性，將維度類型資料表關聯到事實類型資料表。 這種設計方法強大之處在於提供彈性的報告選項。 這讓您可以使用任何維度類型資料行來進行篩選或分組，以及摘要任何相關事實類型資料表。
 
@@ -184,7 +184,7 @@ ms.locfileid: "78260434"
 - 您的報表視覺效果可依維度類型資料表中任何可見資料行進行「篩選或分組」 
 - 您的報表視覺效果可「摘要」  事實類型資料表中任何可見資料行
 - 套用至 [訂單明細]  、[訂單日期]  或 [產品]  資料表的篩選會傳播至這兩個事實類型資料表
-- 所有關聯性都是一對多的，且每個關聯性都是「強式關聯性」  。 資料完整性問題不會被隱藏。 如需詳細資訊，請參閱 [Power BI Desktop 中的模型關聯性 (關聯性評估)](../desktop-relationships-understand.md#relationship-evaluation)。
+- 所有關聯性都是一對多的，且每個關聯性都是「強式關聯性」  。 資料完整性問題不會被隱藏。 如需詳細資訊，請參閱 [Power BI Desktop 中的模型關聯性 (關聯性評估)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
 
 ## <a name="relate-higher-grain-facts"></a>建立更高資料粒度事實的關聯
 
@@ -209,7 +209,7 @@ ms.locfileid: "78260434"
 
 不過，為了確保月份或日期層級篩選產生有意義的結果，請務必謹慎。 若沒有任何特殊計算邏輯，則報表視覺效果可能會報告目標日期就是每年的第一天。 所有其他日期 (及一月以外的所有月份) 都會將目標數量摘要為空白。
 
-下列矩陣視覺效果顯示當報表使用者從某一年份鑽研到其月份時所發生的情況。 此視覺效果將會摘要 [目標數量]  資料行 (已啟用矩陣資料列的 [顯示沒有資料的項目](../desktop-show-items-no-data.md) 選項)。
+下列矩陣視覺效果顯示當報表使用者從某一年份鑽研到其月份時所發生的情況。 此視覺效果將會摘要 [目標數量]  資料行 (已啟用矩陣資料列的 [顯示沒有資料的項目](../create-reports/desktop-show-items-no-data.md) 選項)。
 
 ![此矩陣視覺效果顯示 2020 年的目標數量為 270。 當展開以顯示 2020 年的月份時，1 月為 270，而所有其他月份層級的目標數量則為空白。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
@@ -295,7 +295,7 @@ IF(
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [Power BI Desktop 中的模型關聯性](../desktop-relationships-understand.md)
+- [Power BI Desktop 中的模型關聯性](../transform-model/desktop-relationships-understand.md)
 - [了解星型結構描述及其對 Power BI 的重要性](star-schema.md)
 - [關聯性疑難排解指導方針](relationships-troubleshoot.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

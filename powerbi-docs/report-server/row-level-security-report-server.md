@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d94e9696ee41e8bd76f7d11aab794ccd2dc701b3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859186"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277977"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI 報表伺服器中的資料列層級安全性 (RLS)
 
@@ -33,7 +33,7 @@ ms.locfileid: "73859186"
 
 請在根據使用者名稱或登入識別碼實作[動態資料列層級安全性](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters)時，選取此方塊。 
 
-如需詳細資訊，請參閱[在 Power BI Desktop 中使用 DirectQuery 雙向交叉篩選](../desktop-bidirectional-filtering.md)和[保護表格式 BI 語意模型](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)技術白皮書。
+如需詳細資訊，請參閱[在 Power BI Desktop 中使用 DirectQuery 雙向交叉篩選](../transform-model/desktop-bidirectional-filtering.md)和[保護表格式 BI 語意模型](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)技術白皮書。
 
 [!INCLUDE [rls-desktop-view-as-roles](../includes/rls-desktop-view-as-roles.md)]
 
@@ -84,7 +84,7 @@ ms.locfileid: "73859186"
 
 具有使用 username() DAX 函式之報表的使用者現在將會發現有新行為，當以整合式安全性使用 DirectQuery 時，使用者主體名稱 (UPN) 會傳回 EXCEPT。  因為該案例中不採用 RLS，所以該案例中的行為不會變更。
 
-您只能在使用 Power BI Desktop 建立的資料集上定義 RLS。 如果您想要針對以 Excel 建立的資料集啟用 RLS，必須先將檔案轉換成 Power BI Desktop (PBIX) 檔案。 深入了解[轉換 Excel 檔案](../desktop-import-excel-workbooks.md)。
+您只能在使用 Power BI Desktop 建立的資料集上定義 RLS。 如果您想要針對以 Excel 建立的資料集啟用 RLS，必須先將檔案轉換成 Power BI Desktop (PBIX) 檔案。 深入了解[轉換 Excel 檔案](../connect-data/desktop-import-excel-workbooks.md)。
 
 僅支援使用所儲存認證的擷取、轉換、載入 (ETL) 及 DirectQuery 連線。 使用整合式驗證對 Analysis Services 和 DirectQuery 連線的即時連線會在基礎資料來源中處理。 
 
@@ -122,3 +122,4 @@ ms.locfileid: "73859186"
 [管理員手冊](admin-handbook-overview.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 28af5cd89e918fad7fc7064479ac95c67ca3cee3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114238"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277448"
 ---
 # <a name="reports-in-power-bi"></a>Power BI 中的報表
 
@@ -76,7 +76,7 @@ Power BI 根據單一資料集建立報表。 報表「設計師」  會建立�
 
 * 請從 [Power BI 服務導覽](end-user-basic-concepts.md)開始，了解可在何處找到報表和報表工具。
 * 了解如何[開啟報表](end-user-report-open.md)，以及[取用者可用的所有互動](end-user-reading-view.md)。
-* 使用其中一個的[範例](../sample-tutorial-connect-to-the-samples.md)導覽來熟悉報表。  
+* 使用其中一個的[範例](../create-reports/sample-tutorial-connect-to-the-samples.md)導覽來熟悉報表。  
 * 若要查看報表正在使用哪些資料集，以及哪些儀表板顯示來自報的視覺效果 (「釘選」  )，請參閱[在 Power BI 服務中檢視相關內容](end-user-related.md)。
 
 > [!TIP]
@@ -86,3 +86,4 @@ Power BI 根據單一資料集建立報表。 報表「設計師」  會建立�
 
 [開啟並檢視報表](end-user-report-open.md)    
 [Power BI 服務中的儀表板](end-user-dashboards.md)
+

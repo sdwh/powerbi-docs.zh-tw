@@ -9,16 +9,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525529"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279012"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>在 Power BI 中監視報表效能
 
-使用 [Power BI Premium 計量應用程式](../service-premium-metrics-app.md)在 Power BI Desktop 中監視報表效能、了解瓶頸所在，以及了解如何改善報表效能。
+使用 [Power BI Premium 計量應用程式](../admin/service-premium-metrics-app.md)在 Power BI Desktop 中監視報表效能、了解瓶頸所在，以及了解如何改善報表效能。
 
 監視效能與下列情況有關：
 
@@ -39,7 +39,7 @@ ms.locfileid: "81525529"
 
 ## <a name="use-performance-analyzer"></a>使用效能分析器
 
-在 Power BI Desktop 中，使用[效能分析器](../desktop-performance-analyzer.md)了解每個報表元素 (例如視覺效果和 DAX 公式) 執行的情況。 其特別適合用來判斷導致效能問題的原因是查詢還是視覺呈現。
+在 Power BI Desktop 中，使用[效能分析器](../create-reports/desktop-performance-analyzer.md)了解每個報表元素 (例如視覺效果和 DAX 公式) 執行的情況。 其特別適合用來判斷導致效能問題的原因是查詢還是視覺呈現。
 
 ## <a name="use-sql-server-profiler"></a>使用 SQL Server Profiler
 
@@ -77,15 +77,15 @@ ms.locfileid: "81525529"
 
 ## <a name="monitor-premium-metrics"></a>監視 Premium 計量
 
-針對 Power BI Premium 容量，可以使用 **Power BI Premium 計量應用程式**來監視 Power BI Premium 訂用帳戶的健康情況與容量。 如需詳細資訊，請參閱 [Power BI Premium 計量應用程式](../service-premium-metrics-app.md)。
+針對 Power BI Premium 容量，可以使用 **Power BI Premium 計量應用程式**來監視 Power BI Premium 訂用帳戶的健康情況與容量。 如需詳細資訊，請參閱 [Power BI Premium 計量應用程式](../admin/service-premium-metrics-app.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
 如需本文的詳細資訊，請參閱下列資源︰
 
 - [查詢診斷](/power-query/QueryDiagnostics)
-- [效能分析器](../desktop-performance-analyzer.md)
+- [效能分析器](../create-reports/desktop-performance-analyzer.md)
 - [針對 Power BI 中的報表效能問題進行疑難排解](report-performance-troubleshoot.md)
-- [Power BI Premium 計量應用程式](../service-premium-metrics-app.md)
+- [Power BI Premium 計量應用程式](../admin/service-premium-metrics-app.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

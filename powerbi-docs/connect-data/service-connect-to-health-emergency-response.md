@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b951e96a5d81603dc91e4fc47a2b412d4140f85d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 65f1246185584b5887d97bb9188b43e016e78e8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752042"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279242"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>連線至醫院緊急回應決策支援儀表板
 醫院緊急回應決策支援儀表板範本應用程式，是 [Microsoft Power Platform 醫療保健緊急回應解決方案](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/)的報表元件。 儀表板會向緊急狀況管理員顯示其醫療系統的彙總資料，以協助其做出及時且正確的決策。
@@ -86,21 +86,21 @@ ms.locfileid: "80752042"
 
 ## <a name="schedule-report-refresh"></a>排程報表重新整理
 
-當資料重新整理完成時，請[設定重新整理排程](../refresh-scheduled-refresh.md)以將報表資料保持在最新狀態。
+當資料重新整理完成時，請[設定重新整理排程](../connect-data/refresh-scheduled-refresh.md)以將報表資料保持在最新狀態。
 
 1. 在頂端標題列中，選取 [Power BI]  。
 
    ![Power BI 階層連結](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-powerbi-breadcrumb.png)
 
-1. 在左側瀏覽窗格的 [工作區]  下尋找醫院緊急回應決策支援儀表板工作區，並遵循[設定排程的重新整理](../refresh-scheduled-refresh.md)一文中所述指示。
+1. 在左側瀏覽窗格的 [工作區]  下尋找醫院緊急回應決策支援儀表板工作區，並遵循[設定排程的重新整理](../connect-data/refresh-scheduled-refresh.md)一文中所述指示。
 
 ## <a name="customize-and-share"></a>自訂和共用
 
-如需詳細資訊，請參閱[自訂和共用應用程式](../service-template-apps-install-distribute.md#customize-and-share-the-app)。 在發佈或散發應用程式前，請務必先檢閱[報告免責聲明](../create-reports/sample-covid-19-us.md#disclaimers)。
+如需詳細資訊，請參閱[自訂和共用應用程式](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)。 在發佈或散發應用程式前，請務必先檢閱[報告免責聲明](../create-reports/sample-covid-19-us.md#disclaimers)。
 
 ## <a name="next-steps"></a>後續步驟
 * [了解醫院緊急回應應用報表](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
 * [設定及了解 Power Apps 中的危機通訊範例範本](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app) (機器翻譯)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-* [什麼是 Power BI 範本應用程式？](../service-template-apps-overview.md)
-* [在組織中安裝並散發範本應用程式](../service-template-apps-install-distribute.md)
+* [什麼是 Power BI 範本應用程式？](../connect-data/service-template-apps-overview.md)
+* [在組織中安裝並散發範本應用程式](../connect-data/service-template-apps-install-distribute.md)

@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 853f6d7f5cd6696be55edeea101bc0ca51922ad3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290570"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278069"
 ---
 # <a name="use-report-page-drillthrough"></a>使用報表頁面鑽研
 
-本文適用於設計 Power BI 報表的報表作者。 其提供建立[報表頁面鑽研](../desktop-drillthrough.md)時的相關建議。
+本文適用於設計 Power BI 報表的報表作者。 其提供建立[報表頁面鑽研](../create-reports/desktop-drillthrough.md)時的相關建議。
 
 建議您設計報表，以允許報表使用者完成下列流程：
 
@@ -58,8 +58,8 @@ ms.locfileid: "78290570"
 - **鑽研篩選：** 設定鑽研篩選，讓您可以在設計鑽研頁面時預覽實際的結果。 發行報表之前，請務必移除這些篩選。
 - **其他功能：** 鑽研頁面就像任何報表頁面。 您甚至可以使用其他互動功能予以增強，包括交叉分析篩選器或篩選。
 - **空白：** 避免新增在套用鑽研篩選之後可能顯示空白或產生錯誤的視覺效果。
-- **頁面可見度：** 請考慮隱藏鑽研頁面。 如果您決定將鑽研頁面保持可見，請務必新增一個按鈕，讓使用者清除任何先前設定的鑽研篩選。 針對按鈕指派一個[書籤](../desktop-bookmarks.md)。 該書籤應設定為移除所有篩選。
-- **[上一頁] 按鈕：** 當您指派鑽研篩選時，會自動新增 [上一頁] [按鈕](../desktop-buttons.md)。 建議予以保留。 如此一來，報表使用者就可以輕鬆地返回來源頁面。
+- **頁面可見度：** 請考慮隱藏鑽研頁面。 如果您決定將鑽研頁面保持可見，請務必新增一個按鈕，讓使用者清除任何先前設定的鑽研篩選。 針對按鈕指派一個[書籤](../create-reports/desktop-bookmarks.md)。 該書籤應設定為移除所有篩選。
+- **[上一頁] 按鈕：** 當您指派鑽研篩選時，會自動新增 [上一頁] [按鈕](../create-reports/desktop-buttons.md)。 建議予以保留。 如此一來，報表使用者就可以輕鬆地返回來源頁面。
 - **探索：** 您可以設定視覺效果標題圖示文字，或將指示新增至文字方塊，以協助提升鑽研頁面的感知能力。 您也可以設計重疊，如[此部落格文章](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/)中所述。
 
 > [!TIP]
@@ -69,6 +69,6 @@ ms.locfileid: "78290570"
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [在 Power BI Desktop 中使用鑽研](../desktop-drillthrough.md)
+- [在 Power BI Desktop 中使用鑽研](../create-reports/desktop-drillthrough.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

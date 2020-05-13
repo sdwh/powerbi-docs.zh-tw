@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377734"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277839"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>展開報表頁面之視覺效果的工具提示
 
-本文適用於設計 Power BI 報表的報表作者。 其提供建立[報表頁面工具提示](../desktop-tooltips.md)時的相關建議。
+本文適用於設計 Power BI 報表的報表作者。 其提供建立[報表頁面工具提示](../create-reports/desktop-tooltips.md)時的相關建議。
 
 ## <a name="suggestions"></a>建議
 
@@ -29,7 +29,7 @@ ms.locfileid: "79377734"
 > [!NOTE]
 > 報表視覺效果只會在工具提示頁面篩選與視覺效果的設計相容時，才顯示頁面工具提示。 例如，依「產品」  分組的視覺效果，與依「產品」  篩選的工具提示頁面相容。
 >
-> 頁面工具提示不支援互動功能。 如果您想要讓報表使用者進行互動，請改為建立[鑽研頁面](../desktop-drillthrough.md)。
+> 頁面工具提示不支援互動功能。 如果您想要讓報表使用者進行互動，請改為建立[鑽研頁面](../create-reports/desktop-drillthrough.md)。
 >
 > Power BI 視覺效果不支援頁面工具提示。
 
@@ -65,7 +65,7 @@ ms.locfileid: "79377734"
 
 有趣的是，按鈕、影像、文字方塊和圖形也可以顯示視覺效果標題頁面工具提示。
 
-下列範例顯示當報表使用者將游標暫留在[視覺效果標頭圖示](../desktop-visual-elements-for-reports.md)上時所發生的情況。
+下列範例顯示當報表使用者將游標暫留在[視覺效果標頭圖示](../create-reports/desktop-visual-elements-for-reports.md)上時所發生的情況。
 
 ![報表使用者已將游標停留在視覺效果標題圖示 (問號圖示) 上。 豐富的格式化工具提示已顯示。](media/report-page-tooltips/suggestion-add-help.png)
 
@@ -85,8 +85,8 @@ ms.locfileid: "79377734"
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [在 Power BI Desktop 中根據報表頁面建立工具提示](../desktop-tooltips.md)
-- [在 Power BI Desktop 中自訂工具提示](../desktop-custom-tooltips.md)
-- [使用視覺效果元素強化 Power BI 報表](../desktop-visual-elements-for-reports.md)
+- [在 Power BI Desktop 中根據報表頁面建立工具提示](../create-reports/desktop-tooltips.md)
+- [在 Power BI Desktop 中自訂工具提示](../create-reports/desktop-custom-tooltips.md)
+- [使用視覺效果元素強化 Power BI 報表](../create-reports/desktop-visual-elements-for-reports.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

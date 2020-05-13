@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e532c78254dffc9a3f95a165f509f8cc0553f09b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 639999044da94c3f31abdf63737a876b63dc83c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065931"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278897"
 ---
 # <a name="tips-to-sort-and-distribute-data-plots-in-power-bi-reports"></a>排序和散發 Power BI 報表中資料繪圖的提示
 
@@ -42,7 +42,8 @@ ms.locfileid: "82065931"
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [建立絕佳報表的提示](../desktop-tips-and-tricks-for-creating-reports.md)
+- [建立絕佳報表的提示](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine 影片：[排序和散發 Power BI 報表中資料繪圖的前 9 個提示](https://www.youtube.com/watch?v=BnhA4qa-9Jk)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)
+

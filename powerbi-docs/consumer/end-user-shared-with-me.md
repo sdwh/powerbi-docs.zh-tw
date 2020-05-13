@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e54fbf7c521d057b6cc9fe1dde6c66358a9c349d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80302498"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277517"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>顯示與我共用的報表與儀表板
 
@@ -26,7 +26,7 @@ ms.locfileid: "80302498"
 
 ![共用圖示](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-觀看 Amanda 說明 [與我共用]  內容清單，並示範如何瀏覽和篩選清單。 然後遵循影片下方的逐步指示親自試試看。 為了讓您檢視與您共用的儀表板，您需要有 Power BI Pro 授權。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](../service-premium-what-is.md)。
+觀看 Amanda 說明 [與我共用]  內容清單，並示範如何瀏覽和篩選清單。 然後遵循影片下方的逐步指示親自試試看。 為了讓您檢視與您共用的儀表板，您需要有 Power BI Pro 授權。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](../admin/service-premium-what-is.md)。
     
 
 > [!NOTE]
@@ -50,7 +50,7 @@ ms.locfileid: "80302498"
 * [檢視 Power BI 在資料中找到的見解](end-user-insights.md)![見解圖示](./media/end-user-shared-with-me/power-bi-insights.png)。
   
   > [!NOTE]
-  > 如需 EGRC 分類的資訊，請選取 [分類]  按鈕，或[瀏覽儀表板資料分類](../service-data-classification.md)。
+  > 如需 EGRC 分類的資訊，請選取 [分類]  按鈕，或[瀏覽儀表板資料分類](../create-reports/service-data-classification.md)。
   > 
 
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: e7d3d19bdef1b19d397ac7db13cdec2317f8ab42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 512d9f5662a87b3819b7151eb0fc3a4d6a540dd6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114581"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278506"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>使用 Power BI 行動裝置應用程式取得實際資料
 Power BI 行動裝置應用程式可以數種不同的方法，將現實生活直接連接至相關的 BI 資訊。 
@@ -25,14 +25,14 @@ Power BI 行動裝置應用程式可以數種不同的方法，將現實生活�
 
 進一步了解：
 
-* [在 Power BI 中建立磚的 QR 代碼](../../service-create-qr-code-for-tile.md)
+* [在 Power BI 中建立磚的 QR 代碼](../../create-reports/service-create-qr-code-for-tile.md)
 * [從行動裝置掃描 Power BI QR 代碼](mobile-apps-qr-code.md)
 * [使用 Power BI for Mixed Reality 應用程式掃描 QR 代碼](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)。
 
 ## <a name="qr-codes-for-reports"></a>報表的 QR 代碼
 建立報表的 QR 代碼。  當您的同事以其 iPhone 掃描代碼時 (Android 手機即將推出)，他們會看到與該 QR 代碼相關聯的報表。 
 
-進一步了解[在 Power BI 中建立報表的 QR 代碼](../../service-create-qr-code-for-report.md)
+進一步了解[在 Power BI 中建立報表的 QR 代碼](../../create-reports/service-create-qr-code-for-report.md)
 
 ## <a name="barcodes"></a>條碼
 標記您的報表中的條碼資料，使您的同事可以掃描產品上的條碼並透過該產品的篩選，直接前往該報表。
@@ -41,7 +41,7 @@ Power BI 行動裝置應用程式可以數種不同的方法，將現實生活�
 
 進一步了解：
 
-* [在報表中標記條碼資料](../../desktop-mobile-barcodes.md)
+* [在報表中標記條碼資料](../../transform-model/desktop-mobile-barcodes.md)
 * [在您的 iPhone 上以 Power BI 應用程式掃描條碼](mobile-apps-scan-barcode-iphone.md)
 
 ## <a name="filter-by-location"></a>依位置篩選
@@ -50,6 +50,5 @@ Power BI 行動裝置應用程式可以數種不同的方法，將現實生活�
 進一步了解[依位置篩選](mobile-apps-geographic-filtering.md)。
 
 ## <a name="next-steps"></a>後續步驟
-* [為 Power BI 中的磚建立 QR 代碼](../../service-create-qr-code-for-tile.md)
-* [為 Power BI 中的報表建立 QR 代碼](../../service-create-qr-code-for-report.md)
-
+* [為 Power BI 中的磚建立 QR 代碼](../../create-reports/service-create-qr-code-for-tile.md)
+* [為 Power BI 中的報表建立 QR 代碼](../../create-reports/service-create-qr-code-for-report.md)

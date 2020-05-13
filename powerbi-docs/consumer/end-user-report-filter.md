@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: cb3947ec7aaf6d67a22eb1d7543a57e66e87f5f3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 029970885070fad34e38697aa4c81fce316b7410
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114454"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277655"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>報表 [篩選] 窗格概觀
 
@@ -25,7 +25,7 @@ ms.locfileid: "79114454"
 
 本文深入探討 Power BI 服務中的報表 [篩選條件]  窗格。 使用篩選條件來探索資料中新見解。
 
-Power BI 中有許多不同的方式可篩選資料。 如需篩選條件的詳細資訊，請參閱 [Power BI 報表中的篩選條件和醒目提示](../power-bi-reports-filters-and-highlighting.md)。
+Power BI 中有許多不同的方式可篩選資料。 如需篩選條件的詳細資訊，請參閱 [Power BI 報表中的篩選條件和醒目提示](../create-reports/power-bi-reports-filters-and-highlighting.md)。
 
 ![瀏覽器中箭號指向 [篩選條件] 選項的報表螢幕擷取畫面。](media/end-user-report-filter/power-bi-report.png)
 

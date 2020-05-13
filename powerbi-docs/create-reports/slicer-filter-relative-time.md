@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4f0bfdbf3eb3856f872c872fbe0880ad39839e07
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 31563e5bb5b91468b8913c3204e9d27607716c77
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867591"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279196"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>在 Power BI 中使用相對時間交叉分析篩選器與篩選條件
 
@@ -24,7 +24,7 @@ ms.locfileid: "82867591"
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="相對時間範例":::
 
-您不需要搭配[自動頁面重新整理](../desktop-automatic-page-refresh.md)功能來使用此功能。 但是，許多相對時間案例相當適合與自動頁面重新整理功能搭配使用。  
+您不需要搭配[自動頁面重新整理](../create-reports/desktop-automatic-page-refresh.md)功能來使用此功能。 但是，許多相對時間案例相當適合與自動頁面重新整理功能搭配使用。  
 
 > [!NOTE]
 > 當在頁面或報表層級套用相對時間篩選條件或交叉分析篩選器時，所有該頁面上視覺效果或報表都會使用共用「錨點」  時間來篩選到完全一致的相同時間範圍。 因為視覺效果的執行時間可能會有些許不同，這個共用錨點時間可確保視覺效果在頁面或整個報表上都會同步。 如需詳細資訊，請閱讀本文的[錨點時間](#understanding-anchor-time)。
@@ -107,4 +107,3 @@ ms.locfileid: "82867591"
 
 - [在 Power BI 中使用相對日期交叉分析篩選器和篩選條件](../visuals/desktop-slicer-filter-date-range.md)
 - [Power BI 中的交叉分析篩選器](../visuals/power-bi-visualization-slicers.md)
-

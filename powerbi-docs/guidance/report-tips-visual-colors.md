@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 007f91a0f220ce7482600ac284336a3ac1cbfa0f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7e8526e5e8acf45afe125495cf8eca4628b70a06
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065493"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278874"
 ---
 # <a name="tips-to-optimize-visual-colors-in-power-bi-reports"></a>在 Power BI 報表中將視覺效果色彩最佳化的提示
 
@@ -41,7 +41,8 @@ ms.locfileid: "82065493"
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [建立絕佳報表的提示](../desktop-tips-and-tricks-for-creating-reports.md)
+- [建立絕佳報表的提示](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine 影片：[在 Power BI 中將視覺效果色彩最佳化的 8 大提示](https://www.youtube.com/watch?v=RhYcEsdPqJg) \(英文\)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)
+

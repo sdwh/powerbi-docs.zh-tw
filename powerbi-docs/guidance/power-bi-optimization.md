@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f189ea2944f86a3caabfbc51ae5b2887bc7c89bb
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378861"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278599"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Power BI 最佳化指南
 
@@ -26,7 +26,7 @@ ms.locfileid: "79378861"
 
 ## <a name="optimizing-the-data-model"></a>最佳化資料模型
 
-資料模型支援整個視覺效果體驗。 資料模型可能是外部裝載或內部裝載，而在 Power BI 中其稱為「資料集」  。 請務必了解您的選項，並為您的解決方案選擇適當的資料集類型。 資料集模式有三種：匯入、DirectQuery 及複合。 如需詳細資訊，請參閱 [Power BI 服務中的資料集](../service-datasets-understand.md)以及 [Power BI 服務中的資料集模式](../service-dataset-modes-understand.md)。
+資料模型支援整個視覺效果體驗。 資料模型可能是外部裝載或內部裝載，而在 Power BI 中其稱為「資料集」  。 請務必了解您的選項，並為您的解決方案選擇適當的資料集類型。 資料集模式有三種：匯入、DirectQuery 及複合。 如需詳細資訊，請參閱 [Power BI 服務中的資料集](../connect-data/service-datasets-understand.md)以及 [Power BI 服務中的資料集模式](../connect-data/service-dataset-modes-understand.md)。
 
 如需特定的資料集模式指導方針，請參閱：
 
@@ -40,7 +40,7 @@ Power BI 視覺效果可以是儀表板、Power BI 報表，或 Power BI 編頁�
 
 ### <a name="dashboards"></a>儀表板
 
-請務必了解，Power BI 會維護儀表板圖格的快取，但動態報表圖格與串流圖格除外。 如需詳細資訊，請參閱 [Power BI 中的資料重新整理 (圖格重新整理)](../refresh-data.md#tile-refresh)。 如果您的資料集強制執行動態[資料列層級安全性 (RLS)](../service-admin-rls.md)，請務必了解效能方面的影響，因為圖格會以每個使用者為基礎進行快取。
+請務必了解，Power BI 會維護儀表板圖格的快取，但動態報表圖格與串流圖格除外。 如需詳細資訊，請參閱 [Power BI 中的資料重新整理 (圖格重新整理)](../connect-data/refresh-data.md#tile-refresh)。 如果您的資料集強制執行動態[資料列層級安全性 (RLS)](../admin/service-admin-rls.md)，請務必了解效能方面的影響，因為圖格會以每個使用者為基礎進行快取。
 
 當您將動態報表圖格釘選到儀表板時，其內容不是由查詢快取提供。 相反地，其行為就像報表一樣，而且會即時對後端核心進行查詢。
 
@@ -75,7 +75,7 @@ Power BI 視覺效果可以是儀表板、Power BI 報表，或 Power BI 編頁�
 
 Power BI 編頁報表設計可以透過將最佳做法設計套用至報表的資料擷取來進行最佳化。 如需詳細資訊，請參閱[編頁報表的資料擷取指導方針](report-paginated-data-retrieval.md)。
 
-此外，請確定您的容量有足夠的記憶體配置給[編頁報表工作負載](../service-admin-premium-workloads.md#paginated-reports)。
+此外，請確定您的容量有足夠的記憶體配置給[編頁報表工作負載](../admin/service-admin-premium-workloads.md#paginated-reports)。
 
 ## <a name="optimizing-the-environment"></a>將環境最佳化
 
@@ -83,11 +83,11 @@ Power BI 編頁報表設計可以透過將最佳做法設計套用至報表的�
 
 ### <a name="capacity-settings"></a>容量設定
 
-使用 Power BI Premium (P SKU) 或 Power BI Embedded (A SKU，A4-A6) 提供的專用容量時，您可以管理容量設定。 如需詳細資訊，請參閱[管理 Premium 容量](../service-premium-capacity-manage.md)。 如需如何最佳化容量的指導方針，請參閱[最佳化 Premium 容量](../service-premium-capacity-optimize.md)。
+使用 Power BI Premium (P SKU) 或 Power BI Embedded (A SKU，A4-A6) 提供的專用容量時，您可以管理容量設定。 如需詳細資訊，請參閱[管理 Premium 容量](../admin/service-premium-capacity-manage.md)。 如需如何最佳化容量的指導方針，請參閱[最佳化 Premium 容量](../admin/service-premium-capacity-optimize.md)。
 
 ### <a name="gateway-sizing"></a>閘道大小調整
 
-每當 Power BI 必須存取無法直接透過網際網路存取的資料時，就需要閘道。 您可以在內部部署伺服器或 VM 裝載的基礎結構即服務 (IaaS) 上安裝[內部部署資料閘道](../service-gateway-onprem.md)。
+每當 Power BI 必須存取無法直接透過網際網路存取的資料時，就需要閘道。 您可以在內部部署伺服器或 VM 裝載的基礎結構即服務 (IaaS) 上安裝[內部部署資料閘道](../connect-data/service-gateway-onprem.md)。
 
 若要了解閘道工作負載與大小調整建議，請參閱[內部部署的資料閘道大小調整](gateway-onprem-sizing.md)。
 
@@ -96,7 +96,7 @@ Power BI 編頁報表設計可以透過將最佳做法設計套用至報表的�
 網路延遲可能會因要求到達 Power BI 服務所需時間增加以及傳遞回應所需時間增加而影響報表效能。 Power BI 中的租用戶會指派給特定區域。
 
 > [!TIP]
-> 若要判斷租用戶的所在位置，請參閱[我的 Power BI 租用戶位於何處？](../service-admin-where-is-my-tenant-located.md)
+> 若要判斷租用戶的所在位置，請參閱[我的 Power BI 租用戶位於何處？](../admin/service-admin-where-is-my-tenant-located.md)
 
 租用戶中的使用者存取 Power BI 服務時，他們的要求一律會路由至此區域。 例如，當要求到達 Power BI 服務之後，服務可能會將其他要求傳送至底層資料來源或資料閘道，而這些要求也受限於網路延遲。
 
@@ -115,3 +115,7 @@ Power BI 編頁報表設計可以透過將最佳做法設計套用至報表的�
 - 白皮書：[規劃 Power BI 企業部署](https://go.microsoft.com/fwlink/?linkid=2057861)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)
+
+
+
+

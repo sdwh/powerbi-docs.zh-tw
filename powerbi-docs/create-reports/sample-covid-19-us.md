@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aca7fc70bc70de553eee070ce5e1522b96c94880
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584916"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277885"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>適用於美國州和地方政府的 COVID-19 追蹤範例
 
@@ -48,7 +48,7 @@ Microsoft 已發佈範例報表，並建立了發佈到 Web 內嵌程式碼。 �
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-內嵌程式碼是您可以插入至任何 HTML 網頁的 HTML iFrame 元素。 調整提供的 iFrame 寬度和高度，使其符合您的網站。 範例報表是以 16:9 的比例撰寫，因此請選擇保留此維度的大小。 正確實作時圖形會顯示，但不會有任何額外的灰色框線。 在進行這些變更時，[檢閱 iFrame 調整大小祕訣和訣竅](../service-publish-to-web.md#tips-for-iframe-height-and-width)會很有用。
+內嵌程式碼是您可以插入至任何 HTML 網頁的 HTML iFrame 元素。 調整提供的 iFrame 寬度和高度，使其符合您的網站。 範例報表是以 16:9 的比例撰寫，因此請選擇保留此維度的大小。 正確實作時圖形會顯示，但不會有任何額外的灰色框線。 在進行這些變更時，[檢閱 iFrame 調整大小祕訣和訣竅](../collaborate-share/service-publish-to-web.md#tips-for-iframe-height-and-width)會很有用。
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>選項 2：自訂範例 Power BI 檔案
 
@@ -93,18 +93,18 @@ USAFacts 資料是以需要歸屬的「創用 CC 授權條款 (Creative Commons 
 
 ### <a name="publish-your-report-to-the-power-bi-service"></a>將報表發佈至 Power BI 服務
 
-一旦您根據自己的喜好自訂報表，請[依照這裡所述的步驟發佈報表](../desktop-upload-desktop-files.md)至 Power BI 服務。
+一旦您根據自己的喜好自訂報表，請[依照這裡所述的步驟發佈報表](../create-reports/desktop-upload-desktop-files.md)至 Power BI 服務。
 
 ### <a name="configure-scheduled-refresh"></a>設定排程的重新整理
 
-若要將報表中的資料保持在最新狀態，您可以在發佈報表之後[設定排程重新整理](../refresh-scheduled-refresh.md)。
+若要將報表中的資料保持在最新狀態，您可以在發佈報表之後[設定排程重新整理](../connect-data/refresh-scheduled-refresh.md)。
 
 當您遵循這些步驟時，請選擇下列選項：
 
 1. 資料來源認證驗證方法：匿名
 2. 此資料來源的隱私權等級設定：公用
 
-若要測試重新整理設定，請選取資料集項目的 [[立即重新整理]](../refresh-data.md#data-refresh) 選項。
+若要測試重新整理設定，請選取資料集項目的 [[立即重新整理]](../connect-data/refresh-data.md#data-refresh) 選項。
 
 每次執行排程時，就會載入重新整理的資料。 基礎資料是由 USAFacts 提供，且可能不會像重新整理排程一樣頻繁更新。 檢查 [USAFacts 網站](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/) (英文)，以了解基礎資料上次更新的時間。 
 
@@ -112,7 +112,7 @@ USAFacts 資料是以需要歸屬的「創用 CC 授權條款 (Creative Commons 
 
 ### <a name="create-a-publish-to-web-embed-code"></a>建立發佈到 Web 內嵌程式碼 
 
-若要在您自己的網站中內嵌您的自訂報表，請遵循如何[建立您自己的發佈到 Web 內嵌程式碼](../service-publish-to-web.md#create-embed-codes-with-publish-to-web)指示。
+若要在您自己的網站中內嵌您的自訂報表，請遵循如何[建立您自己的發佈到 Web 內嵌程式碼](../collaborate-share/service-publish-to-web.md#create-embed-codes-with-publish-to-web)指示。
 
 發行內嵌程式碼之後，您可以使用 [確認] 對話方塊上的 iFrame 來內嵌至您的網站。
 
@@ -143,7 +143,7 @@ USAFacts 資料是以需要歸屬的「創用 CC 授權條款 (Creative Commons 
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-load-data.png" alt-text="從 Web 載入資料":::
 
-    本文[從 Power BI Desktop 連線到網頁](../desktop-connect-to-web.md)，提供從 Web 載入資料的詳細資訊。
+    本文[從 Power BI Desktop 連線到網頁](../connect-data/desktop-connect-to-web.md)，提供從 Web 載入資料的詳細資訊。
     
 然後，您可以使用 Power BI Desktop 將資料視覺化。 最後，使用**選項 2：** [將您的報表發佈至 Power BI 服務](#publish-your-report-to-the-power-bi-service)中的步驟，發佈報表並且建立自訂內嵌程式碼。 
 
@@ -168,4 +168,8 @@ USAFacts 資料在「創用 CC 授權條款」之下提供。 若要進行使用
 
 ## <a name="next-steps"></a>後續步驟
 
-[取得 Power BI 範例](../sample-datasets.md)
+[取得 Power BI 範例](../create-reports/sample-datasets.md)
+
+
+
+

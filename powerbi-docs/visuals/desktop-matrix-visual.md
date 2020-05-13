@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866579"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279173"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中建立矩陣視覺效果
 
@@ -62,7 +62,7 @@ ms.locfileid: "82866579"
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
-> 如果您要在 Analysis Services 多維度模型上建立報表，當該模型使用「預設成員」功能時，有幾個針對展開/摺疊的特殊考量。 如需詳細資訊，請參閱[使用 Power BI 中的多維度模型](../desktop-default-member-multidimensional-models.md)
+> 如果您要在 Analysis Services 多維度模型上建立報表，當該模型使用「預設成員」功能時，有幾個針對展開/摺疊的特殊考量。 如需詳細資訊，請參閱[使用 Power BI 中的多維度模型](../connect-data/desktop-default-member-multidimensional-models.md)
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>使用矩陣視覺效果的向下切入
 透過矩陣視覺效果，您可以執行各式各樣有趣的向下切入活動，是之前還沒有的。 這包括使用資料列、資料行，甚至是個別區段和資料格向下切入的功能。 讓我們來看看上述每項的運作方式。
@@ -211,7 +211,7 @@ ms.locfileid: "82866579"
 
 將 [Web URL]  開啟，然後選取某個欄位以作為資料行的 URL 使用。 套用之後，該欄位 (資料行) 中的值將會變成作用中的連結。 將滑鼠暫留在其上方以查看連結，然後選取來跳至該頁面。 
 
-如需詳細資訊，請參閱[條件式表格格式設定](../desktop-conditional-table-formatting.md)
+如需詳細資訊，請參閱[條件式表格格式設定](../create-reports/desktop-conditional-table-formatting.md)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>矩陣視覺效果的網底和字型色彩
 透過矩陣視覺效果，[條件式格式設定] \(色彩、網底和資料橫條\) 可以套用至資料格背景，甚至也能套用至文字和值本身。
@@ -233,3 +233,5 @@ ms.locfileid: "82866579"
 [適用於 Power BI 的 Power Apps 視覺效果](power-bi-visualization-powerapp.md)
 
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

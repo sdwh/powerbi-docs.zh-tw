@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290559"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278667"
 ---
 # <a name="referencing-power-query-queries"></a>參考 Power Query 查詢
 
@@ -42,7 +42,7 @@ ms.locfileid: "78290559"
 
 一般來說，我們建議您參考查詢，以避免在整個查詢中重複邏輯。 不過，如此文章所述，此設計方法可能造成資料重新整理變慢，且使資料來源負擔過重。
 
-我們建議您改為建立[資料流程](../service-dataflows-overview.md)。 使用資料流程可以改善資料重新整理時間，並降低對資料來源的影響。
+我們建議您改為建立[資料流程](../transform-model/service-dataflows-overview.md)。 使用資料流程可以改善資料重新整理時間，並降低對資料來源的影響。
 
 您可以設計資料流程來封裝來源資料和轉換。 因為資料流程是 Power BI 服務中的持續性資料存放區，所以其資料擷取速度很快。 因此，即使參考查詢導致多個資料流程要求，資料重新整理時間仍可獲得改善。
 
@@ -52,7 +52,7 @@ ms.locfileid: "78290559"
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [Power BI 中的自助資料準備](../service-dataflows-overview.md)
-- [在 Power BI 中建立及使用資料流程](../service-dataflows-create-use.md)
+- [Power BI 中的自助資料準備](../transform-model/service-dataflows-overview.md)
+- [在 Power BI 中建立及使用資料流程](../transform-model/service-dataflows-create-use.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/28/2020
-ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82692877"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279150"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 編頁報表支援的資料來源
 
@@ -38,7 +38,7 @@ ms.locfileid: "82692877"
 
 ## <a name="other-data-sources"></a>其他資料來源
 
-除了上述原生支援的資料來源之外，您還可以透過 [Power BI 資料閘道](../service-gateway-onprem.md)來存取下列資料來源：
+除了上述原生支援的資料來源之外，您還可以透過 [Power BI 資料閘道](../connect-data/service-gateway-onprem.md)來存取下列資料來源：
 
 - SQL Server
 - SQL Server Analysis Services
@@ -74,3 +74,4 @@ ms.locfileid: "82692877"
 [檢視 Power BI 服務中的編頁報表](../consumer/paginated-reports-view-power-bi-service.md)
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
+

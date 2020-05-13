@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e2854d82d858bb1963b691d32d561c7b3bbfc11a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7ccff80391ed0625aac063af3bf7a86b83cd7e85
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263637"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278115"
 ---
 # <a name="relationship-troubleshooting-guidance"></a>關聯性疑難排解指導方針
 
@@ -44,18 +44,18 @@ ms.locfileid: "78263637"
 
 |問題|可能的原因|
 |---------|---------|
-|視覺效果未顯示任何結果|- 模型尚未載入資料<br />- 篩選內容中不存在任何資料<br />- 已強制執行資料列層級安全性<br />- 未在資料表之間傳播關聯性；請「遵循上述的檢查清單」 <br />- 已強制執行資料列層級安全性，但未啟用雙向關聯性的傳播；請參閱[使用 Power BI Desktop 的資料列層級安全性 (RLS)](../desktop-rls.md)|
+|視覺效果未顯示任何結果|- 模型尚未載入資料<br />- 篩選內容中不存在任何資料<br />- 已強制執行資料列層級安全性<br />- 未在資料表之間傳播關聯性；請「遵循上述的檢查清單」 <br />- 已強制執行資料列層級安全性，但未啟用雙向關聯性的傳播；請參閱[使用 Power BI Desktop 的資料列層級安全性 (RLS)](../create-reports/desktop-rls.md)|
 |視覺效果針對每個群組都顯示相同的值 |- 不存在關聯性<br />- 未在資料表之間傳播關聯性；請「遵循上述的檢查清單」 |
 |視覺效果會顯示結果，但結果不正確|- 視覺效果的設定不正確<br />- 測量邏輯不正確<br />- 需要重新整理模型資料<br />- 來源資料不正確<br />- 關聯性資料行的關聯性不正確 (例如，將 **ProductID** 資料行對應至 **CustomerID**)<br />- 其為兩個 DirectQuery 資料表之間的關聯性，且關聯性的「單」端資料行包含重複的值|
-|出現空白群組或交叉分析篩選器/篩選項目，且來源資料行沒有包含空白|- 其為強式關聯性，且「多」端資料行包含未儲存在「單」端資料行中的值；請參閱 [Power BI Desktop 中的模型關聯性 (強式關聯性)](../desktop-relationships-understand.md#strong-relationships)<br />- 其為強式一對一關聯性，且相關聯的資料行包含空白；請參閱 [Power BI Desktop 中的模型關聯性 (強式關聯性)](../desktop-relationships-understand.md#strong-relationships)<br />- 非作用中關聯性「多」端資料行存有空白，或具有未儲存在「單」端上的值|
-|視覺效果遺漏資料|- 已套用不正確/未預期的篩選<br />- 已強制執行資料列層級安全性<br />- 其為弱式關聯性，且相關聯的資料行中具有空白，或是資料完整性問題；請參閱 [Power BI Desktop 中的模型關聯性 (弱式關聯性)](../desktop-relationships-understand.md#weak-relationships)<br />- 其為兩個 DirectQuery 資料表之間的關聯性；關聯性已設定為[採用參考完整性](../desktop-relationships-understand.md#assume-referential-integrity)，但有資料完整性問題 (相關聯的資料行中具有不相符的值)|
-|未正確強制執行資料列層級安全性|- 未在資料表之間傳播關聯性；請「遵循上述的檢查清單」 <br />- 已強制執行資料列層級安全性，但未啟用雙向關聯性的傳播；請參閱[使用 Power BI Desktop 的資料列層級安全性 (RLS)](../desktop-rls.md)|
+|出現空白群組或交叉分析篩選器/篩選項目，且來源資料行沒有包含空白|- 其為強式關聯性，且「多」端資料行包含未儲存在「單」端資料行中的值；請參閱 [Power BI Desktop 中的模型關聯性 (強式關聯性)](../transform-model/desktop-relationships-understand.md#strong-relationships)<br />- 其為強式一對一關聯性，且相關聯的資料行包含空白；請參閱 [Power BI Desktop 中的模型關聯性 (強式關聯性)](../transform-model/desktop-relationships-understand.md#strong-relationships)<br />- 非作用中關聯性「多」端資料行存有空白，或具有未儲存在「單」端上的值|
+|視覺效果遺漏資料|- 已套用不正確/未預期的篩選<br />- 已強制執行資料列層級安全性<br />- 其為弱式關聯性，且相關聯的資料行中具有空白，或是資料完整性問題；請參閱 [Power BI Desktop 中的模型關聯性 (弱式關聯性)](../transform-model/desktop-relationships-understand.md#weak-relationships)<br />- 其為兩個 DirectQuery 資料表之間的關聯性；關聯性已設定為[採用參考完整性](../transform-model/desktop-relationships-understand.md#assume-referential-integrity)，但有資料完整性問題 (相關聯的資料行中具有不相符的值)|
+|未正確強制執行資料列層級安全性|- 未在資料表之間傳播關聯性；請「遵循上述的檢查清單」 <br />- 已強制執行資料列層級安全性，但未啟用雙向關聯性的傳播；請參閱[使用 Power BI Desktop 的資料列層級安全性 (RLS)](../create-reports/desktop-rls.md)|
 |||
 
 ## <a name="next-steps"></a>後續步驟
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [Power BI Desktop 中的模型關聯性](../desktop-relationships-understand.md)
+- [Power BI Desktop 中的模型關聯性](../transform-model/desktop-relationships-understand.md)
 - 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

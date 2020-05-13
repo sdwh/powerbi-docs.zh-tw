@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 6ffdc73e5e9ef9ccd416378c19da587986c80b55
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 661277337c00f160c010351ba5f827b6e0fc2f8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114343"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277609"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>在適用於「取用者」  的 Power BI 服務中檢視報表
 
@@ -99,14 +99,14 @@ Power BI「設計師」  可以透過電子郵件中的連結與您直接共用�
     ![在 [閱讀檢視] 中開啟報表](./media/end-user-report-open/power-bi-report-tabs.png)
 
 > [!NOTE]
-> 並非所有的磚都會帶您前往報表。 如果您選取的磚是[使用問與答建立](end-user-q-and-a.md)，問與答畫面將會開啟。 如果您選取的磚是[使用儀表板 [新增磚]  小工具所建立](../service-dashboard-add-widget.md)，則可能會發生數件不同的事：影片可能會播放、網站會開啟等。  
+> 並非所有的磚都會帶您前往報表。 如果您選取的磚是[使用問與答建立](end-user-q-and-a.md)，問與答畫面將會開啟。 如果您選取的磚是[使用儀表板 [新增磚]  小工具所建立](../create-reports/service-dashboard-add-widget.md)，則可能會發生數件不同的事：影片可能會播放、網站會開啟等。  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>仍然有更多方法來開啟報表
 當您更熟悉巡覽 Power BI 服務之後，便會找出最適合您的工作流程。 還有一些其他方法可存取報表：
 - 從導覽窗格使用 [我的最愛](end-user-favorite.md) 和 [最近](end-user-recent.md)    
 - 使用[檢視相關項目](end-user-related.md)    
-- 在電子郵件中，當有人[與您共用](../service-share-reports.md)或您[設定警示](end-user-alerts.md)時。    
+- 在電子郵件中，當有人[與您共用](../collaborate-share/service-share-reports.md)或您[設定警示](end-user-alerts.md)時。    
 - 從您的[通知中心](end-user-notification-center.md)    
 - 從工作區
 - 以及更多

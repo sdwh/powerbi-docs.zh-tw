@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6af8568dc39544ce064643c8dfb80fa2932cf13a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82149662"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279219"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>連線到區域緊急狀況回應儀表板
 區域緊急狀況回應儀表板是 [Microsoft Power Platform 區域緊急狀況回應解決方案](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview)的報告元件。 區域組織系統管理員可在其 Power BI 租用戶中檢視儀表板，以快速檢視有利於做出有效率決策的重要資料和計量。
@@ -82,21 +82,21 @@ ms.locfileid: "82149662"
 
 ## <a name="schedule-report-refresh"></a>排程報表重新整理
 
-當資料重新整理完成時，請[設定重新整理排程](../refresh-scheduled-refresh.md)以將報表資料保持在最新狀態。
+當資料重新整理完成時，請[設定重新整理排程](../connect-data/refresh-scheduled-refresh.md)以將報表資料保持在最新狀態。
 
 1. 在頂端標題列中，選取 [Power BI]  。
 
    ![Power BI 階層連結](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-powerbi-breadcrumb.png)
 
-1. 在左側功能窗格的 [工作區]  下尋找區域緊急狀況回應儀表板工作區，並遵循[設定排程的重新整理](../refresh-scheduled-refresh.md)一文中所述的指示作業。
+1. 在左側功能窗格的 [工作區]  下尋找區域緊急狀況回應儀表板工作區，並遵循[設定排程的重新整理](../connect-data/refresh-scheduled-refresh.md)一文中所述的指示作業。
 
 ## <a name="customize-and-share"></a>自訂和共用
 
-如需詳細資訊，請參閱[自訂和共用應用程式](../service-template-apps-install-distribute.md#customize-and-share-the-app)。 在發佈或散發應用程式前，請務必先檢閱[報告免責聲明](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)。
+如需詳細資訊，請參閱[自訂和共用應用程式](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)。 在發佈或散發應用程式前，請務必先檢閱[報告免責聲明](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)。
 
 ## <a name="next-steps"></a>後續步驟
 * [了解區域緊急狀況回應儀表板](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
 * [設定及了解 Power Apps 中的危機通訊範例範本](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app) (機器翻譯)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-* [什麼是 Power BI 範本應用程式？](../service-template-apps-overview.md)
-* [在組織中安裝並散發範本應用程式](../service-template-apps-install-distribute.md)
+* [什麼是 Power BI 範本應用程式？](../connect-data/service-template-apps-overview.md)
+* [在組織中安裝並散發範本應用程式](../connect-data/service-template-apps-install-distribute.md)

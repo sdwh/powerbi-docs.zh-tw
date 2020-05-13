@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 7284532d95cce780f4022477faab9033adcd764a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492598"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279380"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 效能最佳做法
 
@@ -59,7 +59,7 @@ ms.locfileid: "79492598"
 
 具備 Power BI Premium 容量或 Power BI Embedded 容量的組織，可以利用查詢快取，加速與資料集建立關聯的報表。
 
-[深入了解 Power BI 中的查詢快取](../../power-bi-query-caching.md)。
+[深入了解 Power BI 中的查詢快取](../../connect-data/power-bi-query-caching.md)。
 
 ## <a name="preload"></a>預先載入
 
@@ -99,7 +99,7 @@ ms.locfileid: "79492598"
 若要檢查報表元素的效能，您可以使用 Power BI Desktop 中的效能分析器。
 效能分析器可讓您查看和記錄記錄檔，測量您每個報表元素的執行效能。
 
-[深入了解效能分析器](../../desktop-performance-analyzer.md)。
+[深入了解效能分析器](../../create-reports/desktop-performance-analyzer.md)。
 
 > [!NOTE]
 > 請務必記得將內嵌報表效能與 powerbi.com 上的效能進行比較。 這有助您了解效能問題的來源

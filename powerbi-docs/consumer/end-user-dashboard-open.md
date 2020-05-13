@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8f71eab47aba9621805891b10874ea9e501ed0bf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496302"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277908"
 ---
 # <a name="view-a-dashboard"></a>檢視儀表板
 
@@ -49,10 +49,10 @@ Power BI「取用者」  花費大量時間檢視儀表板。 儀表板的目的
 - **最近** - 若您最近瀏覽過儀表板
 - **應用程式** - 大部分的應用程式同時包含儀表板和報表
 - **與我共用** - 若您的同事已經[與您共用儀表板](end-user-shared-with-me.md)
-- **我的工作區** - 若您已經下載任何 [Power BI 範例](../sample-datasets.md)
+- **我的工作區** - 若您已經下載任何 [Power BI 範例](../create-reports/sample-datasets.md)
 
 
 
 ## <a name="next-steps"></a>後續步驟
-* 使用[範例儀表板](../sample-tutorial-connect-to-the-samples.md)其中一項教學課程來熟悉儀表板。    
+* 使用[範例儀表板](../create-reports/sample-tutorial-connect-to-the-samples.md)其中一項教學課程來熟悉儀表板。    
 * 深入了解[儀表板磚](end-user-tiles.md)以及選取一個磚時會發生什麼情況。
