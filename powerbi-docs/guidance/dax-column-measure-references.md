@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 3ca49008639f7e3e084c8d045bc911aff57b7b21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 42d99c7139586a78565198b59bc74716261537e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75498729"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279610"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX：資料行和量值參考
 
@@ -43,7 +43,7 @@ Profit = Orders[Sales] - Orders[Cost]
 
 ## <a name="measures"></a>量值
 
-量值是模型層級物件。 基於這個理由，量值名稱在模型內必須是唯一的。 不過，在 [欄位]  窗格中，報表作者會看到每個與單一模型資料表建立關聯的量值。 此關聯是基於外觀原因而設定，您可以透過設定量值的 [主資料表]  屬性來進行設定。 如需詳細資訊，請參閱 [Power BI Desktop 中的量值 (組織您的量值)](../desktop-measures.md#organizing-your-measures)。
+量值是模型層級物件。 基於這個理由，量值名稱在模型內必須是唯一的。 不過，在 [欄位]  窗格中，報表作者會看到每個與單一模型資料表建立關聯的量值。 此關聯是基於外觀原因而設定，您可以透過設定量值的 [主資料表]  屬性來進行設定。 如需詳細資訊，請參閱 [Power BI Desktop 中的量值 (組織您的量值)](../transform-model/desktop-measures.md#organizing-your-measures)。
 
 您可以在運算式中使用完整的量值。 DAX Intellisense 甚至會提供建議。 不過，這並非必要，也不是建議的做法。 如果您變更量值的主資料表，任何使用其完整量值參考的運算式都會中斷。 接著，您必須編輯每個中斷的公式，以移除 (或更新) 量值參考。
 
@@ -68,3 +68,4 @@ Profit = Orders[Sales] - Orders[Cost]
 
 - [資料分析運算式 (DAX) 參考](/dax/)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+

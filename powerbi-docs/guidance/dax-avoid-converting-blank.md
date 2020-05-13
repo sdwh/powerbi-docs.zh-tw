@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2f70b98ed540a2e5b87e5a949e30b0c1c02069d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700378"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279633"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX：避免將 BLANK 轉換成值
 
@@ -66,7 +66,7 @@ DIVIDE([Profit], [Sales])
 ![相同的資料表視覺效果現在會顯示四個資料列。 每個資料列都適用於具有銷售額值的客戶，而 Profit Margin 值為非零。](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
-> 如有必要，您可以藉由啟用 [[顯示沒有資料的項目]](../desktop-show-items-no-data.md) 選項，將視覺效果設定為顯示篩選內容中的所有群組 (傳回值或 BLANK)。
+> 如有必要，您可以藉由啟用 [[顯示沒有資料的項目]](../create-reports/desktop-show-items-no-data.md) 選項，將視覺效果設定為顯示篩選內容中的所有群組 (傳回值或 BLANK)。
 
 ## <a name="recommendation"></a>建議
 
@@ -80,3 +80,4 @@ DIVIDE([Profit], [Sales])
 
 - [資料分析運算式 (DAX) 參考](/dax/)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+

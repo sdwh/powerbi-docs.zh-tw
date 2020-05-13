@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 811e0513c1b4a16a731e6d9bd90cbc0689ca76e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496487"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279771"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>變更 Power BI 報表中的圖表排序方式
 
@@ -22,7 +22,7 @@ ms.locfileid: "77496487"
 
 
 > [!IMPORTANT]
-> **此文章適用於沒有報表或資料集編輯權限，且僅使用 Power BI 線上版本 (Power BI 服務) 的 Power BI 使用者。如果您是報表「設計師」  或「系統管理員」  或「擁有者」  ，此文章可能不包含您所需的所有資訊。相反地，請參閱[在 Power BI Desktop 中依資料行排序](../desktop-sort-by-column.md)** 。
+> **此文章適用於沒有報表或資料集編輯權限，且僅使用 Power BI 線上版本 (Power BI 服務) 的 Power BI 使用者。如果您是報表「設計師」  或「系統管理員」  或「擁有者」  ，此文章可能不包含您所需的所有資訊。相反地，請參閱[在 Power BI Desktop 中依資料行排序](../create-reports/desktop-sort-by-column.md)** 。
 
 在 Power BI 服務中，您可以依不同資料欄位進行排序來變更視覺效果外觀。 您可以藉由變更視覺效果的排序方式來強調所要傳達的資訊。 無論您是使用數值資料 (例如銷售數字) 或文字資料 (例如州名稱)，都能以想要的方式來排序視覺效果。 Power BI 提供更多的排序彈性，以及可供您使用的快速功能表。 
 
@@ -69,7 +69,7 @@ Power BI 報表會保留您所做的篩選、交叉分析篩選器、排序與�
 
 ![顯示連絡資訊的下拉式清單](media/end-user-change-sort/power-bi-contact.png)
 
-如果您是設計師  並擁有內容的編輯權限，請閱讀 [Power BI Desktop 中的依資料行排序](../desktop-sort-by-column.md)，以了解如何更新資料集並啟用此類型的排序。
+如果您是設計師  並擁有內容的編輯權限，請閱讀 [Power BI Desktop 中的依資料行排序](../create-reports/desktop-sort-by-column.md)，以了解如何更新資料集並啟用此類型的排序。
 
 ## <a name="next-steps"></a>後續步驟
 深入了解 [Power BI 報表中的視覺效果](end-user-visualizations.md)。
