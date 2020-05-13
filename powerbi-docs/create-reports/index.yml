@@ -12,27 +12,27 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/30/2020
-  ms.openlocfilehash: 7c31ca6f71f4dad0d7ee6f94908cc89a17cd9799
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 4c8b301e95dddbfc80f1a4b3c4a7a464da267dfc
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80464666"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275976"
 landingContent:
 - title: 開始使用
   linkLists:
   - linkListType: get-started
     links:
     - text: 使用已更新的功能區
-      url: ../desktop-ribbon.md
+      url: desktop-ribbon.md
     - text: 協助工具概觀
-      url: ../desktop-accessibility-overview.md
+      url: desktop-accessibility-overview.md
     - text: 取得範例資料
-      url: ../sample-datasets.md
+      url: sample-datasets.md
   - linkListType: tutorial
     links:
     - text: 匯入和開啟範例套件
-      url: ../sample-tutorial-connect-to-the-samples.md
+      url: sample-tutorial-connect-to-the-samples.md
   - linkListType: sample
     links:
     - text: COVID-19 範例：美國資料
@@ -58,33 +58,33 @@ landingContent:
   - linkListType: concept
     links:
     - text: 報表主題
-      url: ../desktop-report-themes.md
+      url: desktop-report-themes.md
     - text: 文字方塊與圖形
-      url: ../power-bi-reports-add-text-and-shapes.md
+      url: power-bi-reports-add-text-and-shapes.md
   - linkListType: how-to-guide
     links:
     - text: 條件式表格格式設定
-      url: ../desktop-conditional-table-formatting.md
+      url: desktop-conditional-table-formatting.md
     - text: 使用分組與收納
-      url: ../desktop-grouping-and-binning.md
+      url: desktop-grouping-and-binning.md
     - text: 新增書籤至報表
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
 - title: 設計報表互動
   linkLists:
   - linkListType: concept
     links:
     - text: Power BI Desktop 中的報表檢視
-      url: ../desktop-report-view.md
+      url: desktop-report-view.md
   - linkListType: how-to-guide
     links:
     - text: 使用問與答探索資料
-      url: ../power-bi-tutorial-q-and-a.md
+      url: power-bi-tutorial-q-and-a.md
     - text: 在報表中使用鑽研
-      url: ../desktop-drillthrough.md
+      url: desktop-drillthrough.md
     - text: 新增書籤至報表
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
     - text: 新增篩選至報表
-      url: ../power-bi-report-filter.md
+      url: power-bi-report-filter.md
 - title: Power BI 編頁報表
   linkLists:
   - linkListType: overview
@@ -110,12 +110,12 @@ landingContent:
   - linkListType: concept
     links:
     - text: 儀表板簡介
-      url: ../service-dashboards.md
+      url: service-dashboards.md
   - linkListType: how-to-guide
     links:
     - text: 建立儀表板
-      url: ../service-dashboard-create.md
+      url: service-dashboard-create.md
     - text: 將磚釘選至儀表板
-      url: ../service-dashboard-pin-tile-from-report.md
+      url: service-dashboard-pin-tile-from-report.md
     - text: 新增映像或影片至儀表板
-      url: ../service-dashboard-add-widget.md
+      url: service-dashboard-add-widget.md

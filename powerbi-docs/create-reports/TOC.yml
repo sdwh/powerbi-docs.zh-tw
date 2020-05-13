@@ -5,7 +5,7 @@
       expanded: true
       items:
         - name: 報表編輯器導覽
-          href: ../service-the-report-editor-take-a-tour.md
+          href: service-the-report-editor-take-a-tour.md
         - name: 什麼是編頁報表？
           href: ../paginated-reports/paginated-reports-report-builder-power-bi.md
     - name: 教學課程
@@ -19,46 +19,46 @@
       expanded: true
       items:
         - name: 取得 Power BI 範例
-          href: ../sample-datasets.md
+          href: sample-datasets.md
         - name: COVID-19 美國範例
           href: sample-covid-19-us.md
         - name: 客戶獲利率範例
-          href: ../sample-customer-profitability.md
+          href: sample-customer-profitability.md
         - name: IT 費用分析範例
-          href: ../sample-it-spend.md
+          href: sample-it-spend.md
         - name: 人力資源範例
-          href: ../sample-human-resources.md
+          href: sample-human-resources.md
         - name: 商機分析範例
-          href: ../sample-opportunity-analysis.md
+          href: sample-opportunity-analysis.md
         - name: 採購分析範例
-          href: ../sample-procurement.md
+          href: sample-procurement.md
         - name: 零售分析範例
-          href: ../sample-retail-analysis.md
+          href: sample-retail-analysis.md
         - name: 探索零售分析範例
-          href: ../sample-tutorial-connect-to-the-samples.md
+          href: sample-tutorial-connect-to-the-samples.md
         - name: 銷售與行銷範例
-          href: ../sample-sales-and-marketing.md
+          href: sample-sales-and-marketing.md
         - name: 供應商品質分析範例
-          href: ../sample-supplier-quality.md
+          href: sample-supplier-quality.md
         - name: 下載財務範例活頁簿
-          href: ../sample-financial-download.md
+          href: sample-financial-download.md
     - name: 概念
       expanded: true
       items:
         - name: Power BI 報表
           items:
             - name: 使用報表檢視
-              href: ../desktop-report-view.md
+              href: desktop-report-view.md
             - name: 報表中的篩選類型
-              href: ../power-bi-report-filter-types.md
+              href: power-bi-report-filter-types.md
             - name: 在報表中進行篩選和醒目提示
-              href: ../power-bi-reports-filters-and-highlighting.md
+              href: power-bi-reports-filters-and-highlighting.md
             - name: 高密度折線圖取樣
-              href: ../desktop-high-density-sampling.md
+              href: desktop-high-density-sampling.md
             - name: 關於問與答視覺效果
               href: ../visuals/power-bi-visualization-q-and-a.md
             - name: 關於協助工具
-              href: ../desktop-accessibility-overview.md
+              href: desktop-accessibility-overview.md
             - name: 自然語言問與答
               items:
                 - name: 問與答簡介
@@ -112,107 +112,107 @@
         - name: Power BI 報表
           items:
             - name: 啟用自動頁面重新整理 (預覽)
-              href: ../desktop-automatic-page-refresh.md
+              href: desktop-automatic-page-refresh.md
             - name: 使用效能分析器檢查報表項目
-              href: ../desktop-performance-analyzer.md
+              href: desktop-performance-analyzer.md
             - name: 將視覺元素新增至報表
-              href: ../desktop-visual-elements-for-reports.md
+              href: desktop-visual-elements-for-reports.md
             - name: 新增報表工具提示以增強視覺效果
-              href: ../desktop-tooltips.md
+              href: desktop-tooltips.md
             - name: 將報表匯出至 PDF 檔案
-              href: ../desktop-export-to-pdf.md
+              href: desktop-export-to-pdf.md
             - name: 套用見解以說明視覺效果中的波動 (預覽)
-              href: ../desktop-insights.md
+              href: desktop-insights.md
             - name: 使用見解來探索散發的差異 (預覽)
-              href: ../desktop-insights-find-where-different.md
+              href: desktop-insights-find-where-different.md
             - name: 建立按鈕
-              href: ../desktop-buttons.md
+              href: desktop-buttons.md
             - name: 建立鑽研按鈕
-              href: ../desktop-drill-through-buttons.md
+              href: desktop-drill-through-buttons.md
             - name: 使用鑽研功能
-              href: ../desktop-drillthrough.md
+              href: desktop-drillthrough.md
             - name: 使用跨報表鑽研功能
-              href: ../desktop-cross-report-drill-through.md
+              href: desktop-cross-report-drill-through.md
             - name: 建立書籤以儲存並共用見解
-              href: ../desktop-bookmarks.md
+              href: desktop-bookmarks.md
             - name: 使用報表主題
-              href: ../desktop-report-themes.md
+              href: desktop-report-themes.md
             - name: 使用報表中的篩選
-              href: ../power-bi-report-filter.md
+              href: power-bi-report-filter.md
             - name: 新增報表篩選
-              href: ../power-bi-report-add-filter.md
+              href: power-bi-report-add-filter.md
             - name: 套用分組與量化
-              href: ../desktop-grouping-and-binning.md
+              href: desktop-grouping-and-binning.md
             - name: 套用格線與貼齊格線
-              href: ../desktop-gridlines-snap-to-grid.md
+              href: desktop-gridlines-snap-to-grid.md
             - name: 在報表中套用頁面顯示設定
-              href: ../power-bi-report-display-settings.md
+              href: power-bi-report-display-settings.md
             - name: 從範例新增資料行
-              href: ../desktop-add-column-from-example.md
+              href: desktop-add-column-from-example.md
             - name: 新增自訂資料行
-              href: ../desktop-add-custom-column.md
+              href: desktop-add-custom-column.md
             - name: 使用內嵌階層標籤
-              href: ../desktop-inline-hierarchy-labels.md
+              href: desktop-inline-hierarchy-labels.md
             - name: 交叉分析篩選器
               href: ../visuals/power-bi-visualization-slicers.md
             - name: 數值範圍交叉分析篩選器
-              href: ../desktop-slicer-numeric-range.md
+              href: desktop-slicer-numeric-range.md
             - name: 相對日期交叉分析篩選器與篩選
               href: ../visuals/desktop-slicer-filter-date-range.md
             - name: 相對時間交叉分析篩選器與篩選
               href: slicer-filter-relative-time.md
             - name: 建立可以調整大小的交叉分析篩選器
-              href: ../power-bi-slicer-filter-responsive.md
+              href: power-bi-slicer-filter-responsive.md
             - name: 將多個欄位新增至交叉分析篩選器
               href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: 使用資料列層級安全性來限制資料存取
-              href: ../desktop-rls.md
+              href: desktop-rls.md
             - name: 自訂工具提示
-              href: ../desktop-custom-tooltips.md
+              href: desktop-custom-tooltips.md
             - name: 將文字方塊和圖形新增至報表
-              href: ../power-bi-reports-add-text-and-shapes.md
+              href: power-bi-reports-add-text-and-shapes.md
             - name: 將超連結加入文字方塊
-              href: ../service-add-hyperlink-to-text-box.md
+              href: service-add-hyperlink-to-text-box.md
             - name: 將超連結新增至資料表
-              href: ../power-bi-hyperlinks-in-tables.md
+              href: power-bi-hyperlinks-in-tables.md
             - name: 在資料表、矩陣或交叉分析篩選器中顯示映像
-              href: ../power-bi-images-tables.md
+              href: power-bi-images-tables.md
             - name: 顯示自訂格式字串
-              href: ../desktop-custom-format-strings.md
+              href: desktop-custom-format-strings.md
             - name: 套用條件式表格格式設定
-              href: ../desktop-conditional-table-formatting.md
+              href: desktop-conditional-table-formatting.md
             - name: 建立以運算式為基礎的動態標題
-              href: ../desktop-conditional-format-visual-titles.md
+              href: desktop-conditional-format-visual-titles.md
             - name: 依資料行排序
-              href: ../desktop-sort-by-column.md
+              href: desktop-sort-by-column.md
             - name: 為行動裝置應用程式最佳化報表
-              href: ../desktop-create-phone-report.md
+              href: desktop-create-phone-report.md
             - name: '套用 [查看資料] 與 [查看記錄] 選項'
-              href: ../desktop-see-data-see-records.md
+              href: desktop-see-data-see-records.md
             - name: 建立報表的祕訣和訣竅
-              href: ../desktop-tips-and-tricks-for-creating-reports.md
+              href: desktop-tips-and-tricks-for-creating-reports.md
             - name: 為報表中的視覺效果分組
-              href: ../desktop-grouping-visuals.md
+              href: desktop-grouping-visuals.md
             - name: 建立報表範本
-              href: ../desktop-templates.md
+              href: desktop-templates.md
             - name: 從資料集建立報表
-              href: ../service-report-create-new.md
+              href: service-report-create-new.md
             - name: 儲存報表
-              href: ../service-report-save.md
+              href: service-report-save.md
             - name: 與編輯檢視的報表互動
-              href: ../service-interact-with-a-report-in-editing-view.md
+              href: service-interact-with-a-report-in-editing-view.md
             - name: 在 Excel 中進行分析
-              href: ../service-analyze-in-excel.md
+              href: ../collaborate-share/service-analyze-in-excel.md
             - name: 在服務中進行彙總
-              href: ../service-aggregates.md
+              href: service-aggregates.md
             - name: 建立報表的 QR 代碼
-              href: ../service-create-qr-code-for-report.md
+              href: service-create-qr-code-for-report.md
             - name: 讓消費者自訂視覺效果 (預覽)
               href: power-bi-personalize-visuals.md
             - name: 將報表匯出到 Power BI Desktop (預覽)
-              href: ../service-export-to-pbix.md
+              href: service-export-to-pbix.md
             - name: 發佈資料集與報表
-              href: ../desktop-upload-desktop-files.md
+              href: desktop-upload-desktop-files.md
         - name: 視覺效果
           items:
             - name: 將視覺效果新增至報表 (第 1 部分)
@@ -226,7 +226,7 @@
             - name: 自訂視覺效果標題、背景和圖例
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
             - name: 顯示沒有資料的項目
-              href: ../desktop-show-items-no-data.md
+              href: desktop-show-items-no-data.md
             - name: 依視覺效果類型套用資料點限制與策略
               href: ../visuals/power-bi-data-points.md
             - name: 顯示視覺效果的基礎資料
@@ -242,7 +242,7 @@
             - name: 在報表中移動視覺效果、調整視覺效果大小，以及彈出視覺效果
               href: ../visuals/power-bi-visualization-move-and-resize.md
             - name: 變更報表中的視覺效果互動方式
-              href: ../service-reports-visual-interactions.md
+              href: service-reports-visual-interactions.md
             - name: 地圖視覺效果的提示與訣竅
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: 自訂 X 軸和 Y 軸屬性
@@ -276,9 +276,9 @@
             - name: R 視覺效果
               href: ../visuals/service-r-visuals.md
             - name: 使用 R 建立 Power BI 視覺效果
-              href: ../desktop-r-visuals.md
+              href: desktop-r-visuals.md
             - name: 下載並使用 R 支援的 Power BI 視覺效果
-              href: ../desktop-r-powered-custom-visuals.md
+              href: desktop-r-powered-custom-visuals.md
             - name: 星形量測計圖表
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: 功能區圖表
@@ -304,29 +304,29 @@
             - name: 問與答最佳做法
               href: ../natural-language/q-and-a-best-practices.md
             - name: 使用問與答探索您的資料
-              href: ../power-bi-tutorial-q-and-a.md
+              href: power-bi-tutorial-q-and-a.md
             - name: 使用問與答建立視覺效果
-              href: ../power-bi-visualization-introduction-to-q-and-a.md
+              href: power-bi-visualization-introduction-to-q-and-a.md
             - name: 讓 Excel 資料在問與答中完美運作
-              href: ../service-prepare-data-for-q-and-a.md
+              href: service-prepare-data-for-q-and-a.md
             - name: 為問與答建立特色問題
-              href: ../service-q-and-a-create-featured-questions.md
+              href: service-q-and-a-create-featured-questions.md
             - name: 透過即時連線使用問與答
-              href: ../service-q-and-a-direct-query.md
+              href: service-q-and-a-direct-query.md
             - name: 深入資訊摘要
-              href: ../service-insights.md
+              href: service-insights.md
             - name: 針對快速見解將資料最佳化
-              href: ../service-insights-optimize.md
+              href: service-insights-optimize.md
         - name: 協助工具
           items:
             - name: 設計具有協助功能的報表
-              href: ../desktop-accessibility-creating-reports.md
+              href: desktop-accessibility-creating-reports.md
             - name: 使用協助工具建立報表
-              href: ../desktop-accessibility-creating-tools.md
+              href: desktop-accessibility-creating-tools.md
             - name: 使用協助工具功能取用報表
-              href: ../desktop-accessibility-consuming-tools.md
+              href: desktop-accessibility-consuming-tools.md
             - name: Power BI Desktop 中的鍵盤快速鍵
-              href: ../desktop-accessibility-keyboard-shortcuts.md
+              href: desktop-accessibility-keyboard-shortcuts.md
         - name: 編頁報表
           items:
             - name: 直接在分頁報表中輸入資料
@@ -350,39 +350,39 @@
         - name: 儀表板
           items:
             - name: 儀表板簡介
-              href: ../service-dashboards.md
+              href: service-dashboards.md
             - name: 儀表板圖格
-              href: ../service-dashboard-tiles.md
+              href: service-dashboard-tiles.md
             - name: 從報表建立儀表板
-              href: ../service-dashboard-create.md
+              href: service-dashboard-create.md
             - name: 建立儀表板複本
-              href: ../service-dashboard-copy.md
+              href: service-dashboard-copy.md
             - name: 從報表將磚釘選到儀表板
-              href: ../service-dashboard-pin-tile-from-report.md
+              href: service-dashboard-pin-tile-from-report.md
             - name: 將磚從一個儀表板釘選至另一個儀表板
-              href: ../service-pin-tile-to-another-dashboard.md
+              href: service-pin-tile-to-another-dashboard.md
             - name: 將磚從 Excel 釘選至儀表板
-              href: ../service-dashboard-pin-tile-from-excel.md
+              href: service-dashboard-pin-tile-from-excel.md
             - name: 從問與答將磚釘選到儀表板
-              href: ../service-dashboard-pin-tile-from-q-and-a.md
+              href: service-dashboard-pin-tile-from-q-and-a.md
             - name: 將整個報表頁面釘選到儀表板
-              href: ../service-dashboard-pin-live-tile-from-report.md
+              href: service-dashboard-pin-live-tile-from-report.md
             - name: 服務中的資料警示
-              href: ../service-set-data-alerts.md
+              href: service-set-data-alerts.md
             - name: 將影像、文字方塊、影片或程式碼新增至儀表板
-              href: ../service-dashboard-add-widget.md
+              href: service-dashboard-add-widget.md
             - name: 編輯磚
-              href: ../service-dashboard-edit-tile.md
+              href: service-dashboard-edit-tile.md
             - name: 設計絕佳 Power BI 儀表板的秘訣
-              href: ../service-dashboards-design-tips.md
+              href: service-dashboards-design-tips.md
             - name: 為手機最佳化儀表板
-              href: ../service-create-dashboard-mobile-phone-view.md
+              href: service-create-dashboard-mobile-phone-view.md
             - name: 為磚建立 QR 代碼
-              href: ../service-create-qr-code-for-tile.md
+              href: service-create-qr-code-for-tile.md
             - name: 儀表板資料分類
-              href: ../service-data-classification.md
+              href: service-data-classification.md
             - name: 儀表板佈景主題
-              href: ../service-dashboard-themes.md
+              href: service-dashboard-themes.md
         - name: 部署管線
           items:
             - name: 開始使用
@@ -392,8 +392,8 @@
         - name: 其他工作
           items:
             - name: 將內容重新命名
-              href: ../service-rename.md
+              href: service-rename.md
             - name: 設定項目連絡人
-              href: ../service-item-contact.md
+              href: service-item-contact.md
             - name: 刪除大部分項目
-              href: ../service-delete.md
+              href: service-delete.md

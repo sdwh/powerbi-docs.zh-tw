@@ -12,33 +12,33 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/05/2020
-  ms.openlocfilehash: 04ce4ce2ec0038ff6e79a2e65de8279a3a73dcad
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: cbe4b08f84dcd4246bceb83933366d1086d27bd0
+  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439587"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83348773"
 landingContent:
 - title: Power BI 是什麼？
   linkLists:
   - linkListType: overview
     links:
     - text: Power BI 是什麼？
-      url: ../power-bi-overview.md
+      url: power-bi-overview.md
     - text: Power BI Desktop 是什麼？
-      url: ../desktop-what-is-desktop.md
+      url: desktop-what-is-desktop.md
     - text: 什麼是 Power BI 服務？
-      url: ../power-bi-service-overview.md
+      url: power-bi-service-overview.md
     - text: Power BI Desktop 與服務的比較
-      url: ../service-service-vs-desktop.md
-- title: 新功能
+      url: service-service-vs-desktop.md
+- title: 新增功能？
   linkLists:
   - linkListType: concept
     links:
     - text: Power BI Desktop 的新功能
-      url: ../desktop-latest-update.md
+      url: desktop-latest-update.md
     - text: 此服務有哪些新功能？
-      url: ../service-whats-new.md
+      url: service-whats-new.md
 - title: 開始學習
   linkLists:
   - linkListType: learn
@@ -52,16 +52,16 @@ landingContent:
   - linkListType: concept
     links:
     - text: 註冊 Power BI
-      url: ../service-self-service-signup-for-power-bi.md
+      url: service-self-service-signup-for-power-bi.md
     - text: 依授權類型排列的功能
-      url: ../service-features-license-type.md
+      url: service-features-license-type.md
 - title: 資源
   linkLists:
   - linkListType: reference
     links:
     - text: Power BI 影片
-      url: ../videos.md
+      url: videos.md
     - text: Power BI Desktop 影片
-      url: ../desktop-videos.md
-    - text: 網路研討會
-      url: ../webinars.md
+      url: desktop-videos.md
+    - text: 研討會
+      url: webinars.md
