@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487744"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349601"
 ---
 # <a name="what-is-power-bi"></a>Power BI 是什麼？
 **Power BI** 是軟體服務、應用程式和連接器的集合，它們搭配使用來將不相關的資料來源轉換成相關、視覺上融入的互動式深入剖析。 不論您的資料是簡單的 Excel 試算表，或是一組雲端和內部部署混合式資料倉儲， Power BI 可讓您輕鬆地連線到資料來源、以視覺化方式檢視及探索重要資料，以及與任何人或您想要的任何人共用該資料。
@@ -42,9 +42,9 @@ Power BI 的使用方式可能取決於您在專案或小組中的角色。 其�
 Power BI 的使用方式取決於 Power BI 的哪些功能或服務是最適合您解決方案的工具。 例如，您可以使用 Power BI Desktop 來為自有小組建立客戶參與統計資料的報表，且您可以在 Power BI 服務中的儀表板上即時檢視庫存和製造進度。 您可以使用 Power BI 的每個部分，這就是其如此具有彈性且吸引人的原因。
 
 探索與您角色相關的文件：
-- 適用於[*設計師*](../desktop-what-is-desktop.md)的 Power BI Desktop
+- 適用於[*設計師*](desktop-what-is-desktop.md)的 Power BI Desktop
 - 適用於[*取用者*](../consumer/end-user-consumer.md)的 Power BI
-- 適用於[*系統管理員*](../service-admin-administering-power-bi-in-your-organization.md)的 Power BI
+- 適用於[*系統管理員*](../admin/service-admin-administering-power-bi-in-your-organization.md)的 Power BI
 - 適用於「開發人員」  的 Power BI
     * [搭配 Power BI 使用內嵌式分析](../developer/embedded/embedding.md)
     * [什麼是 Azure Power BI Embedded？](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
@@ -71,5 +71,5 @@ Power BI 中的一般工作流程是從在 Power BI Desktop 中連線至資料�
 
 ## <a name="next-steps"></a>後續步驟
 - [快速入門：學習使用 Power BI 服務](../service-the-new-power-bi-experience.md)   
-- [教學課程：開始使用 Power BI 服務](../service-get-started.md)
-- [快速入門：在 Power BI Desktop 中連線至資料](../desktop-quickstart-connect-to-data.md)
+- [教學課程：開始使用 Power BI 服務](service-get-started.md)
+- [快速入門：在 Power BI Desktop 中連線至資料](../connect-data/desktop-quickstart-connect-to-data.md)

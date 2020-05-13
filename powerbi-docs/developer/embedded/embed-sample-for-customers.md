@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
-ms.openlocfilehash: 4eca0a799440da57cdb37a603447ba2b0d0c99c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7eef6c7522bc364bc4b66c9567189dd7aec72239
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403816"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349831"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教學課程：將客戶的 Power BI 內容內嵌至應用程式
 
@@ -31,7 +31,7 @@ ms.locfileid: "80403816"
 
 若要開始，您必須具備：
 
-* [Power BI Pro 帳戶](../../service-self-service-signup-for-power-bi.md) (主帳戶，即用來登入 Power BI Pro 帳戶的使用者名稱和密碼)，或[服務主體 (僅限應用程式權杖)](embed-service-principal.md)。
+* [Power BI Pro 帳戶](../../fundamentals/service-self-service-signup-for-power-bi.md) (主帳戶，即用來登入 Power BI Pro 帳戶的使用者名稱和密碼)，或[服務主體 (僅限應用程式權杖)](embed-service-principal.md)。
 * 您必須設定自己的 [Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)。
 
 如果您尚未註冊 **Power BI Pro**，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)，再開始進行。
@@ -58,7 +58,7 @@ ms.locfileid: "80403816"
 
 ### <a name="create-a-workspace"></a>建立工作區
 
-如果要為客戶內嵌報表、儀表板或磚，就必須將您的內容放在工作區內。 有不同類型的工作區可供您設定：[傳統工作區](../../service-create-workspaces.md)或[新工作區](../../service-create-the-new-workspaces.md)。 如果您是使用*主要*帳戶，則您使用哪種類型的工作區都無所謂。 不過，如果您使用「[服務主體](embed-service-principal.md)」  來登入應用程式，則需要使用新的工作區。 在任一案例中，「主」  帳戶或「服務主體」  都必須是應用程式隨附的工作區管理員。
+如果要為客戶內嵌報表、儀表板或磚，就必須將您的內容放在工作區內。 有不同類型的工作區可供您設定：[傳統工作區](../../collaborate-share/service-create-workspaces.md)或[新工作區](../../collaborate-share/service-create-the-new-workspaces.md)。 如果您是使用*主要*帳戶，則您使用哪種類型的工作區都無所謂。 不過，如果您使用「[服務主體](embed-service-principal.md)」  來登入應用程式，則需要使用新的工作區。 在任一案例中，「主」  帳戶或「服務主體」  都必須是應用程式隨附的工作區管理員。
 
 ### <a name="create-and-publish-your-reports"></a>建立並發佈報表
 
@@ -409,7 +409,7 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 ### <a name="create-a-dedicated-capacity"></a>建立專用容量
 
 建立專用容量，您的客戶即可用到專用資源。 有兩種類型的容量可供選擇：
-* **Power BI Premium** - 兩個 SKU 系列 (*EM* 和 *P*) 中可用的租用戶層級 Office 356 訂用帳戶。內嵌 Power BI 內容時，此解決方案稱為「Power BI 內嵌」  。 如需此訂用帳戶的詳細資訊，請參閱[什麼是 Power BI Premium？](../../service-premium-what-is.md)
+* **Power BI Premium** - 兩個 SKU 系列 (*EM* 和 *P*) 中可用的租用戶層級 Office 356 訂用帳戶。內嵌 Power BI 內容時，此解決方案稱為「Power BI 內嵌」  。 如需此訂用帳戶的詳細資訊，請參閱[什麼是 Power BI Premium？](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded** - 您可以在 [Microsoft Azure 入口網站](https://portal.azure.com)中購買專用容量。 此訂用帳戶會使用 *A* SKU。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
 > [!NOTE]
 > 在 A SKU 中，您無法使用免費的 Power BI 授權存取 Power BI 內容。
