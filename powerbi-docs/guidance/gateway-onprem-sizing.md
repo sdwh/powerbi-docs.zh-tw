@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4f289bf319bf29de8f8765d55bf3400048420af5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76829044"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279518"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>內部部署的資料閘道大小調整
 
-此文章適用於需要安裝及管理[內部部署資料閘道](../service-gateway-onprem.md)的 Power BI 系統管理員。
+此文章適用於需要安裝及管理[內部部署資料閘道](../connect-data/service-gateway-onprem.md)的 Power BI 系統管理員。
 
 每當 Power BI 必須存取無法直接透過網際網路存取的資料時，就需要閘道。 其可以安裝在內部部署伺服器或 VM 裝載的基礎結構即服務 (IaaS) 上。
 
@@ -39,8 +39,8 @@ ms.locfileid: "76829044"
 
 即時連線與 DirectQuery  工作負載主要是以傳遞模式運作。 Power BI 服務會傳送查詢，而閘道會以查詢結果回應。 一般而言，查詢結果的大小很小。
 
-- 如需即時連線的詳細資訊，請參閱 [Power BI 服務中的資料集 (外部裝載模型)](../service-datasets-understand.md#external-hosted-models)。
-- 如需 DirectQuery 的詳細資訊，請參閱 [Power BI 服務中的資料集模式 (DirectQuery 模式)](../service-dataset-modes-understand.md#directquery-mode)。
+- 如需即時連線的詳細資訊，請參閱 [Power BI 服務中的資料集 (外部裝載模型)](../connect-data/service-datasets-understand.md#external-hosted-models)。
+- 如需 DirectQuery 的詳細資訊，請參閱 [Power BI 服務中的資料集模式 (DirectQuery 模式)](../connect-data/service-dataset-modes-understand.md#directquery-mode)。
 
 此工作負載需要 CPU 資源來路由傳送查詢與查詢結果。 CPU 的需求通常會比快取資料工作負載所需的要少得多，特別是在需要轉換資料以進行快取時。
 
@@ -62,13 +62,13 @@ ms.locfileid: "76829044"
   - 並行報表使用者的數目
   - 報表頁面上的視覺效果數目 (每個視覺效果至少傳送一個查詢)
   - Power BI 儀表板查詢快取更新的頻率
-  - 使用[自動重新整理頁面](../desktop-automatic-page-refresh.md)功能的即時報表數目
-  - 資料集是否強制執行[資料列層級安全性 (RLS)](../desktop-rls.md)
+  - 使用[自動重新整理頁面](../create-reports/desktop-automatic-page-refresh.md)功能的即時報表數目
+  - 資料集是否強制執行[資料列層級安全性 (RLS)](../create-reports/desktop-rls.md)
 
 一般而言，即時連線與 DirectQuery 工作負載需要足夠的 CPU，而快取資料工作負載需要更多的 CPU 與記憶體。 這兩個工作負載都取決於與 Power BI 服務以及資料來源的良好連線能力。
 
 > [!NOTE]
-> Power BI 容量會限制模型重新整理平行處理原則，以及即時連線與 DirectQuery 輸送量。 調整閘道的大小以提供超過 Power BI 服務所支援的功能是沒有意義的。 限制會因進階 SKU (以及相當大小的 A SKU) 而有所不同。 如需詳細資訊，請參閱[什麼是 Power BI Premium？(容量節點)](../service-premium-what-is.md#capacity-nodes)。
+> Power BI 容量會限制模型重新整理平行處理原則，以及即時連線與 DirectQuery 輸送量。 調整閘道的大小以提供超過 Power BI 服務所支援的功能是沒有意義的。 限制會因進階 SKU (以及相當大小的 A SKU) 而有所不同。 如需詳細資訊，請參閱[什麼是 Power BI Premium？(容量節點)](../admin/service-premium-what-is.md#capacity-nodes)。
 
 ## <a name="recommendations"></a>建議
 
@@ -84,9 +84,9 @@ ms.locfileid: "76829044"
 
 - 力求可靠性、速度快，以及低且一致的延遲
 - 消除 (或減少) 閘道與資料來源之間的電腦躍點數
-- 移除防火牆 Proxy 層所加諸的任何網路節流。 如需 Power BI 端點的詳細資訊，請參閱[適用於允許清單的 Power BI URL](../power-bi-whitelist-urls.md)。
+- 移除防火牆 Proxy 層所加諸的任何網路節流。 如需 Power BI 端點的詳細資訊，請參閱[適用於允許清單的 Power BI URL](../admin/power-bi-whitelist-urls.md)。
 - 設定 [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) 以建立對 Power BI 的私人受控連線
-- 針對 Azure VM 中的資料來源，請確定 VM [與 Power BI 服務共置](../service-admin-where-is-my-tenant-located.md)
+- 針對 Azure VM 中的資料來源，請確定 VM [與 Power BI 服務共置](../admin/service-admin-where-is-my-tenant-located.md)
 - 針對涉及動態 RLS 的 SQL Server Analysis Services (SSAS) 即時連線工作負載，請確定閘道電腦與內部部署 Active Directory 之間有良好的連線能力
 
 ### <a name="clustering"></a>叢集
@@ -105,17 +105,17 @@ ms.locfileid: "76829044"
 針對匯入資料集：
 
 - 設定較不頻繁的資料重新整理
-- 設定[累加式重新整理](../service-premium-incremental-refresh.md)，以將傳輸的資料量降到最低
+- 設定[累加式重新整理](../admin/service-premium-incremental-refresh.md)，以將傳輸的資料量降到最低
 - 盡可能確保進行[查詢摺疊](power-query-folding.md)
-- 特別是針對大量資料或低延遲結果的需求，請將設計轉換成 DirectQuery 或[複合](../service-dataset-modes-understand.md#composite-mode)模型
+- 特別是針對大量資料或低延遲結果的需求，請將設計轉換成 DirectQuery 或[複合](../connect-data/service-dataset-modes-understand.md#composite-mode)模型
 
 針對 DirectQuery 資料集：
 
 - 最佳化資料來源、模型與報表設計 — 如需詳細資訊，請參閱 [Power BI Desktop 中的 DirectQuery 模型指南](directquery-model-guidance.md)
-- 建立[彙總](../desktop-aggregations.md)以快取較高層級的結果，以減少 DirectQuery 要求的數目
-- 限制報表設計與容量設定中的[自動頁面重新整理](../desktop-automatic-page-refresh.md)間隔
+- 建立[彙總](../transform-model/desktop-aggregations.md)以快取較高層級的結果，以減少 DirectQuery 要求的數目
+- 限制報表設計與容量設定中的[自動頁面重新整理](../create-reports/desktop-automatic-page-refresh.md)間隔
 - 特別是在強制執行動態 RLS 時，請限制儀表板快取更新頻率
-- 特別是針對較小量的資料或非揮發性資料，請將設計轉換成匯入或[複合](../service-dataset-modes-understand.md#composite-mode)模型
+- 特別是針對較小量的資料或非揮發性資料，請將設計轉換成匯入或[複合](../connect-data/service-dataset-modes-understand.md#composite-mode)模型
 
 針對即時連線資料集：
 
@@ -125,10 +125,10 @@ ms.locfileid: "76829044"
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [適用於為 Power BI 部署資料閘道的指引](../service-gateway-deployment-guidance.md)
+- [適用於為 Power BI 部署資料閘道的指引](../connect-data/service-gateway-deployment-guidance.md)
 - [設定內部部署資料閘道的 Proxy 設定](/data-integration/gateway/service-gateway-proxy)
 - [監視並最佳化內部部署資料閘道效能](/data-integration/gateway/service-gateway-performance)
-- [針對閘道進行疑難排解 - Power BI](../service-gateway-onprem-tshoot.md)
+- [針對閘道進行疑難排解 - Power BI](../connect-data/service-gateway-onprem-tshoot.md)
 - [針對內部部署的資料閘道進行疑難排解](/data-integration/gateway/service-gateway-tshoot)
 - [查詢摺疊的重要性](power-query-folding.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

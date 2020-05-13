@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 48b13b73455d39eb7dc8cbf9df3e95408592f7f5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841725"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279495"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -27,7 +27,7 @@ ms.locfileid: "82841725"
 
 Power BI 報表是資料的互動式檢視，以視覺效果顯示資料的各種發現與見解。 在 Power BI 行動裝置應用程式中檢視報表是三步驟程序中的第三個步驟：
 
-1. [在 Power BI Desktop 中建立報表](../../desktop-report-view.md)。 您甚至還可以在 Power BI Desktop 中[為手機最佳化報表](mobile-apps-view-phone-report.md)。
+1. [在 Power BI Desktop 中建立報表](../../create-reports/desktop-report-view.md)。 您甚至還可以在 Power BI Desktop 中[為手機最佳化報表](mobile-apps-view-phone-report.md)。
 2. 將那些報表發行到 Power BI 服務 [(https://powerbi.com)](https://powerbi.com) 或 [Power BI 報表伺服器](../../report-server/get-started.md)。  
 3. 在 Power BI 行動裝置應用程式中與報表互動。
 
@@ -100,7 +100,7 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 當您點選視覺效果的特定部分，然後點選「鑽研」  選項時，Power BI 會將您帶往報表中的其他頁面，篩選至您所點選的值。 報表作者可定義一或多個鑽研選項，每項都能將您帶往不同頁面。 在此情況下，您可以選擇想要鑽研的選項。 [上一頁] 按鈕可讓您回到上一頁。
 
 
-如需詳細資訊，請參閱如何[在 Power BI Desktop 中新增鑽研](../../desktop-drillthrough.md)。
+如需詳細資訊，請參閱如何[在 Power BI Desktop 中新增鑽研](../../create-reports/desktop-drillthrough.md)。
    
    > [!IMPORTANT]
    > 在 Power BI 行動裝置應用程式中，矩陣和資料表視覺效果中的切入動作只會透過資料格值而不是資料行和資料列標頭來啟用。
@@ -164,6 +164,5 @@ Power BI 行動裝置應用程式有許多設定，可讓您控制報表體驗�
 
 ## <a name="next-steps"></a>後續步驟
 * [檢視為您的手機最佳化的 Power BI 報表，並與其互動](mobile-apps-view-phone-report.md)
-* [建立為手機最佳化的報表版本](../../desktop-create-phone-report.md)
+* [建立為手機最佳化的報表版本](../../create-reports/desktop-create-phone-report.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

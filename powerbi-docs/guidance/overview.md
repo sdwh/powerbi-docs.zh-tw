@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: asaxton
-ms.openlocfilehash: e3aeff47e585d9a54edf46f7001f4686e9a76c3a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 441400a5d32ea776288f976aa1d2155a971f3c72
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73875556"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278989"
 ---
 # <a name="guidance-for-power-bi"></a>Power BI 指導方針
 
@@ -36,6 +36,6 @@ ms.locfileid: "73875556"
 
 | 指引 | 描述 |
 | --- | --- |
-| [資料流程最佳做法](../service-dataflows-best-practices.md) | 描述在 Power BI 中設計資料流程的最佳做法。 |
+| [資料流程最佳做法](../transform-model/service-dataflows-best-practices.md) | 描述在 Power BI 中設計資料流程的最佳做法。 |
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

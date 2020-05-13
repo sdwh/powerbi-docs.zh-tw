@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80464592"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278805"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI 中的組織視覺效果
 
@@ -42,8 +42,6 @@ ms.locfileid: "80464592"
 有數個考量和限制是您必須留意的。
 
 系統管理員：
-
-* 不支援舊版 Power BI 視覺效果 (例如並非基於新版本 API 所建立的 Power BI 視覺效果)
 
 * 如果從存放庫刪除來自 ApSource 或檔案的 Power BI 視覺效果，使用已刪除視覺效果的任何現有報表將會停止轉譯。 從存放庫刪除是無法復原的。 若要暫時停用來自 ApSource 或檔案的 Power BI 視覺效果，請使用「停用」功能。
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 811eaa9769a099122597d7132de80cbc2d22a51b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6f653bd14f71d0d8409dbb8c3653515198cc6c40
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79040128"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279449"
 ---
 # <a name="export-data-from-a-visual"></a>匯出視覺效果的資料
 
@@ -28,7 +28,8 @@ ms.locfileid: "79040128"
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>從 Power BI 儀表板上的視覺效果
 
-1. 從 Power BI 儀表板上開始。 在這裡，我們使用來自「行銷與銷售範例」應用程式的儀表板。 您可以[從 AppSource.com 下載此應用程式](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282)。
+1. 從 Power BI 儀表板上開始。 在這裡，我們使用來自「行銷與銷售範例」應用程式的儀表板。 您可以[從 AppSource.com 下載此應用程式](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
+)。
 
     ![應用程式儀表板](media/end-user-export/power-bi-dashboards.png)
 

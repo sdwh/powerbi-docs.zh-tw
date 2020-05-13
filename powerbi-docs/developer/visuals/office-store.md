@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1aa682a71fe7469f8a9c7d5415fb843400e5d312
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613549"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148317"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>將 Power BI 視覺效果發佈至合作夥伴中心
 
@@ -27,7 +27,7 @@ ms.locfileid: "82613549"
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>準備提交您的 Power BI 視覺效果
 
-將 Power BI 視覺效果提交至 AppSource 之前，請確定您已閱讀 [Power BI 視覺效果指導方針](guidelines-powerbi-visuals.md)，而且[已測試您的自訂視覺效果](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) \(英文\)。
+將 Power BI 視覺效果提交至 AppSource 之前，請確定您已閱讀 [Power BI 視覺效果指導方針](guidelines-powerbi-visuals.md)，而且[已測試您的自訂視覺效果](./submission-testing.md) \(英文\)。
 
 當您準備好要提交 Power BI 視覺效果時，請確認您的視覺效果符合以下所列的所有需求。
 
@@ -99,9 +99,10 @@ Power BI 小組必須檢查檔案中是否有新的 Power BI 視覺效果提交�
 
 10. 選取 [產品設定]  ，然後按一下 [檢閱並發佈]  。
 
+
 ## <a name="tracking-submission-status-and-usage"></a>追蹤提交狀態和使用方式
 
-* 您可檢閱[驗證原則](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)。
+您可以檢閱[驗證原則](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)。
 
 * 提交之後，您就能夠在[應用程式儀表板](https://sellerdashboard.microsoft.com/Application/Summary/)中檢視提交狀態。
 

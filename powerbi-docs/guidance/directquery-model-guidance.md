@@ -8,26 +8,26 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ace93dfe358c85e54863dece0303c889c6a766b2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75223648"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279587"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型指南
 
 本文針對使用 Power BI Desktop 或 Power BI 服務所開發 Power BI DirectQuery 模型來加以開發的資料製造模型者。 其中描述 DirectQuery 使用案例、限制和指導。 具體而言，本指導旨在協助判斷 DirectQuery 是否是您模型的適當模式，並根據 DirectQuery 模型改善報表效能。 本文適用於裝載在 Power BI 服務或 Power BI 報表伺服器的 DirectQuery 模型。
 
-本文並不旨在提供 DirectQuery 模型設計的完整討論。 如需簡介，請參閱 [Power BI Desktop 中的 DirectQuery 模型](../desktop-directquery-about.md)一文。 如需更深入的討論，請直接參閱 [SQL Server 2016 Analysis Services 中的 DirectQuery](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf) 技術白皮書。 請記住，技術白皮書描述在 SQL Server Analysis Services 中使用 DirectQuery。 但是大部分的內容仍然適用 Power BI DirectQuery 模型。
+本文並不旨在提供 DirectQuery 模型設計的完整討論。 如需簡介，請參閱 [Power BI Desktop 中的 DirectQuery 模型](../connect-data/desktop-directquery-about.md)一文。 如需更深入的討論，請直接參閱 [SQL Server 2016 Analysis Services 中的 DirectQuery](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf) 技術白皮書。 請記住，技術白皮書描述在 SQL Server Analysis Services 中使用 DirectQuery。 但是大部分的內容仍然適用 Power BI DirectQuery 模型。
 
-本文並不直接涵蓋複合模型。 複合模型將會由至少一個 DirectQuery 來源 (可能更多) 組成。 本文中描述的指導至少有些部分仍然與複合模型設計相關。 但是，將匯入資料表與 DirectQuery 資料表合併的隱含式並不在本文範圍內。 如需詳細資訊，請參閱[在 Power BI Desktop 中使用複合模型](../desktop-composite-models.md)。
+本文並不直接涵蓋複合模型。 複合模型將會由至少一個 DirectQuery 來源 (可能更多) 組成。 本文中描述的指導至少有些部分仍然與複合模型設計相關。 但是，將匯入資料表與 DirectQuery 資料表合併的隱含式並不在本文範圍內。 如需詳細資訊，請參閱[在 Power BI Desktop 中使用複合模型](../transform-model/desktop-composite-models.md)。
 
 請務必了解 DirectQuery 模型會在 Power BI 環境 (Power BI 服務或 Power BI 報表伺服器) 及基礎資料來源上施加不同的工作負載。 若您判斷 DirectQuery 是適當的設計方法，則建議您在專案上與適當的人員接洽。 我們經常會發現成功的 DirectQuery 模型部署都是 IT 專業人員小組緊密合作的結果。 小組通常都是由模型開發人員和來源資料庫管理員組成。 其中也可以涉及資料架構師、資料倉儲和 ETL 開發人員。 通常，最佳化需要直接套用至資料來源以取得良好的效能結果。
 
 ## <a name="design-in-power-bi-desktop"></a>在 Power BI Desktop 中設計
 
-Azure SQL 資料倉儲和 Azure HDInsight Spark 資料來源都可以直接進行連線，無需使用 Power BI Desktop。 在 Power BI 服務中透過「取得資料」及選擇資料庫標題即可達成此目的。 如需詳細資訊，請參閱[具有 DirectQuery 的 Azure SQL 資料倉儲](../service-azure-sql-data-warehouse-with-direct-connect.md)。
+Azure SQL 資料倉儲和 Azure HDInsight Spark 資料來源都可以直接進行連線，無需使用 Power BI Desktop。 在 Power BI 服務中透過「取得資料」及選擇資料庫標題即可達成此目的。 如需詳細資訊，請參閱[具有 DirectQuery 的 Azure SQL 資料倉儲](../connect-data/service-azure-sql-data-warehouse-with-direct-connect.md)。
 
 雖然直接連接相當方便，但不建議您使用這種方法。 主要原因是萬一基礎資料來源的結構描述產生變更，即無法重新整理模型結構。
 
@@ -77,8 +77,8 @@ DirectQuery 模型可以透過許多方式進行最佳化，如下列項目符�
     本指導有一項例外，與使用 [COMBINEVALUES](/dax/combinevalues-function-dax) DAX 函式有關。 此函式的目的是支援多資料行模型關聯性。 這個函式會產生多資料行 SQL 聯結述詞，而非產生關聯性使用的運算式。
 - **避免在「唯一識別碼」資料行上包含關聯性：** Power BI 並不原生支援唯一識別碼 (GUID) 資料類型。 在此類型的資料行間定義關聯性時，Power BI 將會使用涉及轉換的聯結來產生來源查詢。 此查詢時間資料轉換經常導致效能不佳。 在此案例經過最佳化之前，唯一因應措施是將資料行具體化為基礎資料庫中的替代資料類型。
 - **隱藏關聯性的單側資料行：** 關聯性的單側資料行應進行隱藏。 (這通常是維度類型資料表的主索引鍵資料行。)隱藏時，即無法在 [欄位]  窗格中使用，因此無法用來設定視覺效果。 若可以使用多側資料行來根據資料行的值分組或篩選報表，即可以將多側資料行維持在可見狀態。 例如，考慮在 **Sales** 和 **Product** 資料表間存在關聯性的模型。 關聯性資料行包含產品的 SKU (庫存單位) 值。 若必須將產品的 SKU 新增至視覺效果，該 SKU 便應只在 **Sales** 資料表中可見。 當使用此資料行來篩選或在視覺效果中進行分組時，Power BI 將會產生不需要將 **Sales** 和 **Product** 資料表進行聯結的查詢。
-- **設定關聯性來強制實行完整性：** DirectQuery 關聯性的**假設參考完整性**屬性會決定 Power BI 是否將會使用內部聯結，而非外部聯結來產生來源查詢。 這通常可以改善查詢效能，不過其確實取決於關聯式資料庫來源的詳細規格。 如需詳細資訊，請參閱 [Power BI Desktop 中的採用參考完整性設定](../desktop-assume-referential-integrity.md)。
-- **避免使用雙向關聯性篩選：** 使用雙向關聯性篩選可能會導致執行效能不佳的查詢陳述式。 只有在必要時才使用此關聯性功能，這通常是跨橋接資料表實作多對多關聯性的情況。 如需詳細資訊，請參閱 [Power BI Desktop 中的多對多基數關聯性](../desktop-many-to-many-relationships.md)。
+- **設定關聯性來強制實行完整性：** DirectQuery 關聯性的**假設參考完整性**屬性會決定 Power BI 是否將會使用內部聯結，而非外部聯結來產生來源查詢。 這通常可以改善查詢效能，不過其確實取決於關聯式資料庫來源的詳細規格。 如需詳細資訊，請參閱 [Power BI Desktop 中的採用參考完整性設定](../connect-data/desktop-assume-referential-integrity.md)。
+- **避免使用雙向關聯性篩選：** 使用雙向關聯性篩選可能會導致執行效能不佳的查詢陳述式。 只有在必要時才使用此關聯性功能，這通常是跨橋接資料表實作多對多關聯性的情況。 如需詳細資訊，請參閱 [Power BI Desktop 中的多對多基數關聯性](../transform-model/desktop-many-to-many-relationships.md)。
 - **限制平行查詢：** 您可以設定 DirectQuery 為每個基礎資料來源開啟的連線數量上限。 這會控制同時傳送到資料來源的查詢數。
 
     ![Power BI Desktop 視窗已開啟，並已選取 [目前檔案 DirectQuery] 頁面。 [每個資料來源的連線數量上限] 屬性已醒目提示。](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
@@ -121,9 +121,9 @@ DirectQuery 模型可以透過許多方式進行最佳化，如下列項目符�
 
 ## <a name="convert-to-a-composite-model"></a>轉換成複合模型
 
-匯入及 DirectQuery 模型的優點可以透過設定模型資料表儲存模式，來合併成單一模型。 資料表儲存模式可以是 [匯入] 或 [DirectQuery]，或兩者皆是 (稱為「雙重」)。 當模型取得具有不同儲存模式的資料表時，稱為複合模型。 如需詳細資訊，請參閱[在 Power BI Desktop 中使用複合模型](../desktop-composite-models.md)。
+匯入及 DirectQuery 模型的優點可以透過設定模型資料表儲存模式，來合併成單一模型。 資料表儲存模式可以是 [匯入] 或 [DirectQuery]，或兩者皆是 (稱為「雙重」)。 當模型取得具有不同儲存模式的資料表時，稱為複合模型。 如需詳細資訊，請參閱[在 Power BI Desktop 中使用複合模型](../transform-model/desktop-composite-models.md)。
 
-您可以透過將 DirectQuery 模型轉換成複合模型來達成許多功能和效能上的強化。 複合模型的整合程度比單一 DirectQuery 來源更高，也可以包含彙總。 彙總資料表可以新增至 DirectQuery 資料表來匯入資料表的摘要表示。 這可以在視覺效果查詢較高層級的彙總時大幅強化效能。 如需詳細資訊，請參閱 [Power BI Desktop 中的彙總](../desktop-aggregations.md)。
+您可以透過將 DirectQuery 模型轉換成複合模型來達成許多功能和效能上的強化。 複合模型的整合程度比單一 DirectQuery 來源更高，也可以包含彙總。 彙總資料表可以新增至 DirectQuery 資料表來匯入資料表的摘要表示。 這可以在視覺效果查詢較高層級的彙總時大幅強化效能。 如需詳細資訊，請參閱 [Power BI Desktop 中的彙總](../transform-model/desktop-aggregations.md)。
 
 ## <a name="educate-users"></a>教育使用者
 
@@ -137,7 +137,7 @@ DirectQuery 模型可以透過許多方式進行最佳化，如下列項目符�
 
 如需 DirectQuery 的詳細資訊，請參閱下列資源：
 
-- [Power BI Desktop 中的 DirectQuery 模型](../desktop-directquery-about.md)
-- [在 Power BI Desktop 中使用 DirectQuery](../desktop-use-directquery.md)
-- [在 Power BI Desktop 中針對 DirectQuery 模型進行疑難排解](../desktop-directquery-troubleshoot.md)
+- [Power BI Desktop 中的 DirectQuery 模型](../connect-data/desktop-directquery-about.md)
+- [在 Power BI Desktop 中使用 DirectQuery](../connect-data/desktop-use-directquery.md)
+- [在 Power BI Desktop 中針對 DirectQuery 模型進行疑難排解](../connect-data/desktop-directquery-troubleshoot.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

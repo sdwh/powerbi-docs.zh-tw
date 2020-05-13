@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 288ac6620af03c49d0a7f96e219e88d855381caf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435804"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279541"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中設定資料警示
 適用於︰
@@ -29,7 +29,7 @@ ms.locfileid: "79435804"
 > [!WARNING]
 > 資料驅動的警示通知會提供資料的相關資訊。 如果您的裝置被偷，建議您前往 Power BI 服務關閉所有資料驅動的警示規則。 
 > 
-> 深入了解[管理 Power BI 服務中的資料警示](../../service-set-data-alerts.md)。
+> 深入了解[管理 Power BI 服務中的資料警示](../../create-reports/service-set-data-alerts.md)。
 > 
 > 
 
@@ -58,7 +58,7 @@ ms.locfileid: "79435804"
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>在 iPhone 或 iPad 上管理警示
-您可以在行動裝置上管理個別的警示，或[在 Power BI 服務中管理所有警示](../../service-set-data-alerts.md)。
+您可以在行動裝置上管理個別的警示，或[在 Power BI 服務中管理所有警示](../../create-reports/service-set-data-alerts.md)。
 
 1. 在儀表板中，點選出現警示的數字磚或量測計磚。  
    
@@ -92,7 +92,7 @@ ms.locfileid: "79435804"
 8. 點選 [儲存]  。
 
 ### <a name="manage-alerts-on-an-android-device"></a>在 Android 裝置上管理警示
-您可以使用 Power BI 行動應用程式管理個別的警示，或[使用 Power BI 服務管理所有的警示](../../service-set-data-alerts.md)。
+您可以使用 Power BI 行動應用程式管理個別的警示，或[使用 Power BI 服務管理所有的警示](../../create-reports/service-set-data-alerts.md)。
 
 1. 在儀表板中，點選出現警示的卡片磚或量測計磚。  
 2. 點選實心鈴鐺圖示 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png)。  
@@ -131,7 +131,7 @@ ms.locfileid: "79435804"
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>在 Windows 裝置上管理警示
-您可以使用 Power BI 行動應用程式管理個別的警示，或[使用 Power BI 服務管理所有的警示](../../service-set-data-alerts.md)。
+您可以使用 Power BI 行動應用程式管理個別的警示，或[使用 Power BI 服務管理所有的警示](../../create-reports/service-set-data-alerts.md)。
 
 1. 在儀表板中，點選出現警示的卡片磚或量測計磚。  
 2. 點選鈴鐺圖示 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png)。  
@@ -172,7 +172,6 @@ ms.locfileid: "79435804"
 * 警示不適用於包含串流資料的磚。
 
 ## <a name="next-steps"></a>後續步驟
-* [使用 Power BI 服務管理您的警示](../../service-set-data-alerts.md)
+* [使用 Power BI 服務管理您的警示](../../create-reports/service-set-data-alerts.md)
 * [Power BI 行動通知中心](mobile-apps-notification-center.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

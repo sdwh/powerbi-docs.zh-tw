@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7816fd6e75c9b8925ba0d707f6a63f58af546fcf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205772"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279472"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>匯入模型的資料減少技術
 
@@ -23,8 +23,8 @@ ms.locfileid: "79205772"
 
 除了 VertiPaq 儲存引擎所能實驗的效率外，您也必須努力減少載入模型的資料大小。 對於大型模型或是您預期大小會隨著時間逐步成長的模型來說更是如此。 四個吸引人的理由包括：
 
-- 您的容量可能無法支援較大模型。 共用容量可裝載最大 1 GB 的模型，Premium 容量則可以裝載最大 13 GB 的模型。 如需詳細資訊，請參閱 [Power BI Premium 的大型資料集支援](../service-premium-large-datasets.md)一文。
-- 較小模型可以減少在容量資源上的競爭，特別是記憶體。 其可讓您更長時間地同時載入更多模型，以降低收回率。 如需詳細資訊，請參閱[管理 Premium 容量](../service-premium-capacity-manage.md)。
+- 您的容量可能無法支援較大模型。 共用容量可裝載最大 1 GB 的模型，Premium 容量則可以裝載最大 13 GB 的模型。 如需詳細資訊，請參閱 [Power BI Premium 的大型資料集支援](../admin/service-premium-what-is.md)一文。
+- 較小模型可以減少在容量資源上的競爭，特別是記憶體。 其可讓您更長時間地同時載入更多模型，以降低收回率。 如需詳細資訊，請參閱[管理 Premium 容量](../admin/service-premium-capacity-manage.md)。
 - 較小的模型可以更快地進行資料重新整理，降低延遲報告、提高資料集重新整理輸送量，並降低對來源系統和容量資源造成的壓力。
 - 較小的資料表資料列計數可以更快地進行計算評估，其可提高整體的查詢效能。
 
@@ -88,7 +88,7 @@ VertiPaq 儲存引擎會儲存模型計算結果欄 (定義在 DAX 中)，如同
 
 ## <a name="disable-auto-datetime"></a>停用自動日期/時間
 
-Power BI Desktop 包含一個稱為「自動日期/時間」  的選項。 啟用時，該選項會為日期資料行建立隱藏的自動日期/時間資料表，以便在為行事曆時間週期設定篩選、群組和向下鑽研時支援報表作者。 隱藏的資料表事實上是會增加模型大小的計算資料表。 如需使用此選項的相關指引，請參閱 [Power BI Desktop 中的自動日期/時間指引](../desktop-auto-date-time.md)文章。
+Power BI Desktop 包含一個稱為「自動日期/時間」  的選項。 啟用時，該選項會為日期資料行建立隱藏的自動日期/時間資料表，以便在為行事曆時間週期設定篩選、群組和向下鑽研時支援報表作者。 隱藏的資料表事實上是會增加模型大小的計算資料表。 如需使用此選項的相關指引，請參閱 [Power BI Desktop 中的自動日期/時間指引](../transform-model/desktop-auto-date-time.md)文章。
 
 ## <a name="switch-to-mixed-mode"></a>切換到混合模式
 
@@ -96,12 +96,13 @@ Power BI Desktop 包含一個稱為「自動日期/時間」  的選項。 啟�
 
 減少模型大小的其中一種有效技術是將較大事實類型資料表 [儲存模式] 屬性設為 [DirectQuery]。 這種設計方法可以搭配先前介紹的[分組依據及摘要](#group-by-and-summarize)技術使用且運作良好。 例如，經摘要後的銷售資料可以用來取得高效能「摘要」報告。 鑽研頁面可以顯示特定 (且經過限縮) 篩選內容的細微銷售資料，顯示所有內容中的銷售訂單。 在此範例中，鑽研頁面會包含視覺效果，這些視覺效果是以擷取銷售訂單資料的 DirectQuery 資料表為基礎。
 
-但是複合模型仍有許多與安全性和效能相關的隱含問題。 如需詳細資訊，請參閱[在 Power BI Desktop 中使用複合模型](../desktop-composite-models.md)一文。
+但是複合模型仍有許多與安全性和效能相關的隱含問題。 如需詳細資訊，請參閱[在 Power BI Desktop 中使用複合模型](../transform-model/desktop-composite-models.md)一文。
 
 ## <a name="next-steps"></a>後續步驟
 
 如需 Power BI 匯入模型設計的詳細資訊，請參閱下列文章：
 
-- [在 Power BI Desktop 中使用複合模型](../desktop-composite-models.md)
-- [Power BI Desktop 中的儲存模式](../desktop-storage-mode.md)
+- [在 Power BI Desktop 中使用複合模型](../transform-model/desktop-composite-models.md)
+- [Power BI Desktop 中的儲存模式](../transform-model/desktop-storage-mode.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+
