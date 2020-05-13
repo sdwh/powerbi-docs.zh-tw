@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 19abcd84809f0bf8d3560fd8734d30fcf31b9ecb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80550956"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277011"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>搭配 Power BI Embedded 的資料列層級安全性
 
@@ -21,7 +21,7 @@ ms.locfileid: "80550956"
 
 如果您要為非 Power BI 使用者內嵌 (應用程式擁有資料)，這通常是 ISV 案例，則本文很適合您！ 為使用者和角色設定帳戶的內嵌權杖。
 
-如果您要內嵌至組織內的 Power BI 使用者 (使用者擁有資料)，RLS 的運作方式會像是直接在 Power BI 服務中運作一樣。 您不需要在應用程式中執行其他動作。 如需詳細資訊，請參閱 [Power BI 的資料列層級安全性 (RLS)](../../service-admin-rls.md)。
+如果您要內嵌至組織內的 Power BI 使用者 (使用者擁有資料)，RLS 的運作方式會像是直接在 Power BI 服務中運作一樣。 您不需要在應用程式中執行其他動作。 如需詳細資訊，請參閱 [Power BI 的資料列層級安全性 (RLS)](../../admin/service-admin-rls.md)。
 
 ![資料列層級安全性的相關項目。](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
@@ -29,7 +29,7 @@ ms.locfileid: "80550956"
 
 **使用者**– 檢視成品 (儀表板、圖格、報表或資料集) 的終端使用者。 在 Power BI Embedded 中，使用者是由內嵌權杖中的使用者名稱屬性所識別。
 
-**角色** – 使用者會有隸屬的角色。 角色是規則的容器，可以命名為「銷售經理」  或「銷售代表」  等。您會在 Power BI Desktop 中建立角色。 如需詳細資訊，請參閱 [Power BI Desktop 的資料列層級安全性 (RLS)](../../desktop-rls.md)。
+**角色** – 使用者會有隸屬的角色。 角色是規則的容器，可以命名為「銷售經理」  或「銷售代表」  等。您會在 Power BI Desktop 中建立角色。 如需詳細資訊，請參閱 [Power BI Desktop 的資料列層級安全性 (RLS)](../../create-reports/desktop-rls.md)。
 
 **規則** – 角色擁有規則，而這些規則是將套用至資料的實際篩選。 規則可以是簡單的「國家/地區 = 美國」，或更動態的項目。
 本文的其他部分有提供範例，示範如何在撰寫 RLS 後再於內嵌應用程式中加以取用。 我們的範例使用[零售分析範例](https://go.microsoft.com/fwlink/?LinkID=780547) PBIX 檔案。
@@ -135,7 +135,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 ### <a name="on-premises-data-gateway-configuration"></a>內部部署資料閘道設定
 
-使用 Analysis Services 即時連線時，會用到[內部部署資料閘道](../../service-gateway-onprem.md)。 使用所列的身分識別產生內嵌權杖時，主帳戶必須列為閘道的系統管理員。 如果未列出主帳戶，就不會將資料列層級安全性套用至資料屬性。 非閘道的系統管理員可以提供角色，但必須指定自己的使用者名稱以作為有效的身分識別。
+使用 Analysis Services 即時連線時，會用到[內部部署資料閘道](../../connect-data/service-gateway-onprem.md)。 使用所列的身分識別產生內嵌權杖時，主帳戶必須列為閘道的系統管理員。 如果未列出主帳戶，就不會將資料列層級安全性套用至資料屬性。 非閘道的系統管理員可以提供角色，但必須指定自己的使用者名稱以作為有效的身分識別。
 
 ### <a name="use-of-roles"></a>使用角色
 
@@ -235,9 +235,9 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 決定篩選報表中的資料時，可使用**資料列層級安全性 (RLS)** 或 **JavaScript 篩選**。
 
-[資料列層級安全性](../../service-admin-rls.md)是篩選位於資料模型層級之資料的功能。 您的後端資料來源會控制 RLS 的設定。 依據您的資料模型，產生內嵌權杖會為工作階段設定使用者名稱和角色。 用戶端程式碼無法將其覆寫、移除或控制，這也是人們認為 RLS 安全的原因。 我們建議使用 RLS 來安全地篩選資料。 您可以利用下列其中一種方式來使用 RLS 篩選資料。
+[資料列層級安全性](../../admin/service-admin-rls.md)是篩選位於資料模型層級之資料的功能。 您的後端資料來源會控制 RLS 的設定。 依據您的資料模型，產生內嵌權杖會為工作階段設定使用者名稱和角色。 用戶端程式碼無法將其覆寫、移除或控制，這也是人們認為 RLS 安全的原因。 我們建議使用 RLS 來安全地篩選資料。 您可以利用下列其中一種方式來使用 RLS 篩選資料。
 
-* [設定 Power BI 報表中的角色](../../desktop-rls.md)。
+* [設定 Power BI 報表中的角色](../../create-reports/desktop-rls.md)。
 * 設定資料來源層級的角色 (僅限 Analysis Services 即時連線)。
 * 以程式設定的方式搭配 [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) (內嵌權杖) 使用 `EffectiveIdentity`。 使用內嵌權杖時，實際的篩選會透過特定工作階段的內嵌權杖傳遞。
 

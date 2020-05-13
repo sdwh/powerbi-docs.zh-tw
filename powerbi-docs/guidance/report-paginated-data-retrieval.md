@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 067171f7ec74beccdb5a312c1cac5bbc6c87541f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 511dc42a3090f838654cda84f596d34f02bb3439
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377642"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275079"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>編頁報表的資料擷取指導
 
@@ -101,14 +101,14 @@ MDX 查詢設計工具會要求您的模型包含量值。 該設計工具具備
 
 ## <a name="non-native-data-sources"></a>非原生資料來源
 
-若您需要開發以資料來源為基礎的編頁報表，但是這些資料來源[並未受到編頁報表的原生支援](../paginated-reports/paginated-reports-data-sources.md)，則可先開發 Power BI Desktop 資料模型。 透過這種方式，您可以連線到最多 100 個 [Power BI 資料來源](../power-bi-data-sources.md)。 一旦發佈至 Power BI 服務，您接著便可以開發連線到 Power BI 資料集的編頁報表。
+若您需要開發以資料來源為基礎的編頁報表，但是這些資料來源[並未受到編頁報表的原生支援](../paginated-reports/paginated-reports-data-sources.md)，則可先開發 Power BI Desktop 資料模型。 透過這種方式，您可以連線到最多 100 個 [Power BI 資料來源](../connect-data/power-bi-data-sources.md)。 一旦發佈至 Power BI 服務，您接著便可以開發連線到 Power BI 資料集的編頁報表。
 
 ## <a name="data-integration"></a>資料整合
 
 如果需要合併來自不同資料來源的資料，則您有兩個選項：
 
 - **合併報表資料集**：若資料來源是[編頁報表原生支援的資料來源](../paginated-reports/paginated-reports-data-sources.md)，則可考慮建立使用 [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) 或 [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) 報表產生器函式的導出欄位。
-- **開發 Power BI Desktop 模型**：但是，在 Power BI Desktop 中開發資料模型可能會更有效率。 您可以使用 Power Query 以根據任何[支援的資料來源](../power-bi-data-sources.md)來合併查詢。 一旦發佈至 Power BI 服務，您接著便可以開發連線到 Power BI 資料集的編頁報表。
+- **開發 Power BI Desktop 模型**：但是，在 Power BI Desktop 中開發資料模型可能會更有效率。 您可以使用 Power Query 以根據任何[支援的資料來源](../connect-data/power-bi-data-sources.md)來合併查詢。 一旦發佈至 Power BI 服務，您接著便可以開發連線到 Power BI 資料集的編頁報表。
 
 ## <a name="sql-server-complex-data-types"></a>SQL Server 複雜資料類型
 

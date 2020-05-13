@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cd30727e6329ca91413f2023f7dc3bd715bcbca6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79494944"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275999"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 內嵌式分析管理多租用戶
 
@@ -40,7 +40,7 @@ ms.locfileid: "79494944"
 
 **Power BI 租用戶** - 是一組與單一 AAD 租用戶相關聯的 Power BI 資源。
 
-**[Power BI workspace](../../service-create-workspaces.md)** - Power BI 中內容的容器。
+**[Power BI workspace](../../collaborate-share/service-create-workspaces.md)** - Power BI 中內容的容器。
 
 **Power BI 成品** - Power BI 工作區中有數個 Power BI 成品，例如儀表板、報表、資料集和資料流程。
 
@@ -52,11 +52,11 @@ ms.locfileid: "79494944"
 
 **AAD 應用程式使用者 (服務主體)** - 表示 Power BI 中 SaaS 應用程式的識別，以及 SaaS 應用程式在呼叫 Power BI API 時所使用的識別。 必須是 AAD Web 應用程式。 可取代使用*主要*使用者對 Power BI 進行驗證。
 
-**容量** - 一組專門用來執行 Power BI 服務的資源。 [Power BI Premium 容量](../../service-premium-what-is.md) 適用於內部使用 Power BI 的企業公司，而 [Power BI Embedded 容量](azure-pbie-create-capacity.md)旨在讓應用程式開發人員為第三方開發 SaaS 應用程式。
+**容量** - 一組專門用來執行 Power BI 服務的資源。 [Power BI Premium 容量](../../admin/service-premium-what-is.md) 適用於內部使用 Power BI 的企業公司，而 [Power BI Embedded 容量](azure-pbie-create-capacity.md)旨在讓應用程式開發人員為第三方開發 SaaS 應用程式。
 
-**[Power BI Pro 授權](../../service-admin-purchasing-power-bi-pro.md)** - 以使用者為基礎的授權，可授與權限將內容發佈至工作區、使用無 Premium 容量的應用程式、共用儀表板以及訂閱儀表板和報表。
+**[Power BI Pro 授權](../../admin/service-admin-purchasing-power-bi-pro.md)** - 以使用者為基礎的授權，可授與權限將內容發佈至工作區、使用無 Premium 容量的應用程式、共用儀表板以及訂閱儀表板和報表。
 
-**[資料連線模式](../../desktop-directquery-about.md)** - 將資料來源連接到可以在不同模式中完成的 Power BI：
+**[資料連線模式](../../connect-data/desktop-directquery-about.md)** - 將資料來源連接到可以在不同模式中完成的 Power BI：
 
    * 匯入 - 這是取得資料最常見的方法。
    * DirectQuery - 直接連接到其來源存放庫中的資料。
@@ -104,9 +104,9 @@ Power BI Embedded 支援多地理位置部署 (預覽功能)。 [Multi-Geo](embe
 
 ### <a name="cost"></a>成本
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) 具有以資源為基礎的購買模型，像是 **Power BI Premium**。 您購買一或多個具有固定運算能力和記憶體的容量。 使用 **Power BI Embedded** 時，此容量是主要成本項目。 使用容量的使用者數目沒有限制。 唯一的限制是容量的效能。 每個[主要](../../service-admin-licensing-organization.md)使用者或需要存取 Power BI 入口網站的特定使用者都需要 *Power BI Pro 授權*。
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) 具有以資源為基礎的購買模型，像是 **Power BI Premium**。 您購買一或多個具有固定運算能力和記憶體的容量。 使用 **Power BI Embedded** 時，此容量是主要成本項目。 使用容量的使用者數目沒有限制。 唯一的限制是容量的效能。 每個[主要](../../admin/service-admin-licensing-organization.md)使用者或需要存取 Power BI 入口網站的特定使用者都需要 *Power BI Pro 授權*。
 
-我們建議您透過模擬實際環境和使用方式來測試和測量容量的預期負載，並對容量進行負載測試。 您可以使用 Azure 容量或[進階容量計量應用程式](../../service-admin-premium-monitor-capacity.md)中提供的各種計量來測量負載和效能。
+我們建議您透過模擬實際環境和使用方式來測試和測量容量的預期負載，並對容量進行負載測試。 您可以使用 Azure 容量或[進階容量計量應用程式](../../admin/service-admin-premium-monitor-capacity.md)中提供的各種計量來測量負載和效能。
 
 ### <a name="content-customization-and-authoring"></a>內容的自訂和撰寫
 
@@ -131,7 +131,7 @@ SaaS 應用程式有兩種方法，讓使用者能夠編輯和建立報告，或
 
 如果 SaaS 應用程式存放區為每個租用戶保留個別的資料庫，那麼自然的選擇是在 Power BI 中使用單一租用戶的資料集，並為每個指向相符資料庫的資料集使用連接字串。
 
-如果 SaaS 應用程式存放區使用所有租用戶的多租用戶資料庫，則可以輕鬆地依工作區區隔租用戶。 您可以使用僅擷取相關租用戶資料的參數化資料庫查詢，以設定 Power BI 資料集的資料庫連線。 您可以使用 [Power BI Desktop](../../desktop-query-overview.md) 或使用查詢時具有[參數](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup)的 [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) 來更新連接。
+如果 SaaS 應用程式存放區使用所有租用戶的多租用戶資料庫，則可以輕鬆地依工作區區隔租用戶。 您可以使用僅擷取相關租用戶資料的參數化資料庫查詢，以設定 Power BI 資料集的資料庫連線。 您可以使用 [Power BI Desktop](../../transform-model/desktop-query-overview.md) 或使用查詢時具有[參數](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup)的 [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) 來更新連接。
 
 ### <a name="data-isolation"></a>資料隔離
 
@@ -193,7 +193,7 @@ SaaS 應用程式有兩種方法，讓使用者能夠編輯和建立報告，或
 
 ### <a name="scalability"></a>延展性
 
-使用資料列層級安全性為基礎的隔離，資料需要符合資料集的大小限制，目前為 10 GB。 隨著[累加式重新整理](../../service-premium-incremental-refresh.md)的引進以及即將發行的 Power BI 資料集的 XMLA 端點，預期資料集大小限制將會大幅增加。 但是，資料仍然需要符合容量的記憶體，並有足夠的剩餘記憶體來執行資料重新整理。 大規模部署需要大容量，以避免使用者因記憶體超過目前的容量限制而發生問題。 處理擴展的替代方式包括使用[彙總](../../desktop-aggregations.md)或直接使用 DirectQuery 或即時連線來連接到資料來源，而不是快取 Power BI 容量中的所有資料。
+使用資料列層級安全性為基礎的隔離，資料需要符合資料集的大小限制，目前為 10 GB。 隨著[累加式重新整理](../../admin/service-premium-incremental-refresh.md)的引進以及即將發行的 Power BI 資料集的 XMLA 端點，預期資料集大小限制將會大幅增加。 但是，資料仍然需要符合容量的記憶體，並有足夠的剩餘記憶體來執行資料重新整理。 大規模部署需要大容量，以避免使用者因記憶體超過目前的容量限制而發生問題。 處理擴展的替代方式包括使用[彙總](../../transform-model/desktop-aggregations.md)或直接使用 DirectQuery 或即時連線來連接到資料來源，而不是快取 Power BI 容量中的所有資料。
 
 ### <a name="automation--operational-complexity"></a>自動化與操作複雜度
 
@@ -244,17 +244,17 @@ Power BI 還沒有用於修改或建立 RLS 角色和規則的 API。 新增或�
 
 **Power BI 容量考量與限制：**
 
-* 根據[購買的 SKU](../../service-premium-what-is.md)，每個容量只能使用其配置的記憶體和 V 核心。
-* 針對每個 SKU 的建議資料集大小，請參考[進階大型資料集](../../service-premium-what-is.md#large-datasets)。
+* 根據[購買的 SKU](../../admin/service-premium-what-is.md)，每個容量只能使用其配置的記憶體和 V 核心。
+* 針對每個 SKU 的建議資料集大小，請參考[進階大型資料集](../../admin/service-premium-what-is.md#large-datasets)。
 * 專用容量中的最大資料集大小為 10 GB。
 * 一天中*匯入模式*資料集的排程重新整理次數為 48。
 * *匯入模式*資料集的排程重新整理之間的時間為 30 分鐘。
-* 針對可以在容量上同時執行的重新整理次數，請參考[資源管理和最佳化](../../service-premium-what-is.md#capacity-nodes)。
+* 針對可以在容量上同時執行的重新整理次數，請參考[資源管理和最佳化](../../admin/service-premium-what-is.md#capacity-nodes)。
 * 調整容量的平均時間在 1-2 分鐘之間。 在這段時間內，容量無法使用。 我們建議使用橫向擴展方法來[避免停機時間](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script)。
 
 ## <a name="next-steps"></a>後續步驟
 
 * [搭配 Power BI 使用內嵌式分析](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)
-* [Power BI Premium](../../service-premium-what-is.md)
+* [Power BI Premium](../../admin/service-premium-what-is.md)
 * [資料列層級安全性](embedded-row-level-security.md)

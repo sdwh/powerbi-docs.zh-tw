@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525322"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274849"
 ---
 # <a name="dataset-impact-analysis"></a>資料集影響分析
 
@@ -54,7 +54,7 @@ ms.locfileid: "81525322"
 
 ## <a name="notify-contacts"></a>通知連絡人
 
-如果您對資料集進行了變更，或想要進行變更，則建議連絡相關使用者來告知相關資訊。 當通知連絡人時，便會將電子郵件傳送給所有受影響工作區的[連絡人清單](../service-create-the-new-workspaces.md#workspace-contact-list)。 您的名稱會出現在電子郵件中，以便連絡人能夠找到您並以新的電子郵件對話來進行回覆。 
+如果您對資料集進行了變更，或想要進行變更，則建議連絡相關使用者來告知相關資訊。 當通知連絡人時，便會將電子郵件傳送給所有受影響工作區的[連絡人清單](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list)。 您的名稱會出現在電子郵件中，以便連絡人能夠找到您並以新的電子郵件對話來進行回覆。 
 
 1. 按一下 [影響分析] 側邊窗格中的 [通知連絡人]  。 [通知連絡人] 對話方塊隨即出現。
 
@@ -89,5 +89,6 @@ ms.locfileid: "81525322"
 
 ## <a name="next-steps"></a>後續步驟
 
-* [跨工作區的資料集簡介 (預覽)](../service-datasets-across-workspaces.md)
+* [跨工作區的資料集簡介 (預覽)](../connect-data/service-datasets-across-workspaces.md)
 * [資料譜系](service-data-lineage.md)
+

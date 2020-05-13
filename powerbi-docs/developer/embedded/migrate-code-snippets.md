@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2976511577dc6e83aa17c83c6c6c560f0755d15
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114473"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141208"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>從 Power BI 工作區集合遷移內容的程式碼片段
 
@@ -233,7 +233,7 @@ using System.Threading.Tasks;
 [內嵌在 Power BI 之中](embedding.md)  
 [如何將 Power BI Embedded 工作區集合內容移轉至 Power BI](migrate-from-powerbi-embedded.md)  
 [如何內嵌 Power BI 儀表板、報表和磚](embed-sample-for-your-organization.md)  
-[何謂 Power BI Premium](../../service-premium-what-is.md)  
+[何謂 Power BI Premium](../../admin/service-premium-what-is.md)  
 [JavaScript API Git 存放庫](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 存放庫](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 內嵌示範](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

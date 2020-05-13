@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 60b7c858a98a105454efe0233484120ad4319f62
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76537224"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131904"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>在 Power BI 中啟用資料敏感度標籤 (預覽)
 
 下列情況適用於在 Power BI 中啟用 [Microsoft 資訊保護資料敏感度標籤](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) 時：
 
-* 組織中的特定使用者與安全性群組可以分類及[敏感度標籤，並將其套用](../designer/service-security-apply-data-sensitivity-labels.md)至 Power BI 儀表板、報表、資料集與資料流程 (以下統稱為*資產*)。
+* 組織中的特定使用者與安全性群組可以分類及[敏感度標籤，並將其套用](../collaborate-share/service-security-apply-data-sensitivity-labels.md)至 Power BI 儀表板、報表、資料集與資料流程 (以下統稱為*資產*)。
 * 組織的所有成員都能看到這些標籤。
 
 資料敏感度標籤一方面可讓 Power BI 的作者與取用者了解資料的敏感度，一方面可提供分類代表的意義，以及每種分類資料的處理方式等資訊。
@@ -71,6 +71,6 @@ Power BI 使用 Microsoft 資訊保護敏感度標籤。 因此，當您在嘗�
 本文說明如何在 Power BI 中啟用資料敏感度標籤。 下列文章提供如何在 Power BI 中保護資料保護的更多詳細資料。 
 
 * [Power BI 的資料保護概觀](service-security-data-protection-overview.md)
-* [在 Power BI 中套用資料敏感度標籤](../designer/service-security-apply-data-sensitivity-labels.md)
+* [在 Power BI 中套用資料敏感度標籤](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [在 Power BI 中使用 Microsoft Cloud App Security 控制項](service-security-using-microsoft-cloud-app-security-controls.md)
 * [資料保護計量報表](service-security-data-protection-metrics-report.md)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/05/2018
 ms.author: maggies
-ms.openlocfilehash: 49fe816e4920443ca101fc2f463fa23eae1ce765
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a831c73f098458d769f389916b83ca8152c1f43d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73860549"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272779"
 ---
 # <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>在 Power BI 報表伺服器中存取共用資料集作為 OData 摘要
 您可以從 Power BI Desktop 使用 OData 摘要存取共用資料集。
@@ -30,7 +30,8 @@ ms.locfileid: "73860549"
 
 務必使用 [進階選項]  ，以便開啟 [開啟類型資料行]，並且據以在 Power Query 中格式化資料行以符合您的需求。
 
-深入了解[在 Power BI Desktop 中連線到 OData 摘要](../desktop-connect-odata.md)。
+深入了解[在 Power BI Desktop 中連線到 OData 摘要](../connect-data/desktop-connect-odata.md)。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+
 

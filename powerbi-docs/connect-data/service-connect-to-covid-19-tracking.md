@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 90d5e48ca200a6817338ae6c44595905cc76bfed
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 97e0a4f6e522997e6f132d1c3dbc493188ba66ba
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752663"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275470"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>連線至 COVID-19 美國追蹤報表
 本文示範如何安裝 COVID-19 追蹤報表的範本應用程式，以及如何連線至資料來源。
@@ -54,14 +54,14 @@ ms.locfileid: "80752663"
 
 ## <a name="schedule-report-refresh"></a>排程報表重新整理
 
-當資料重新整理完成時，您會位於與應用程式建立關聯的工作區中。 [設定重新整理排程](../refresh-scheduled-refresh.md)以將報表資料保持在最新狀態。
+當資料重新整理完成時，您會位於與應用程式建立關聯的工作區中。 [設定重新整理排程](../connect-data/refresh-scheduled-refresh.md)以將報表資料保持在最新狀態。
 
 ## <a name="customize-and-share"></a>自訂和共用
 
-如需詳細資訊，請參閱[自訂和共用應用程式](../service-template-apps-install-distribute.md#customize-and-share-the-app)。 在發佈或散發應用程式前，請務必先檢閱[報告免責聲明](../create-reports/sample-covid-19-us.md#disclaimers)。
+如需詳細資訊，請參閱[自訂和共用應用程式](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)。 在發佈或散發應用程式前，請務必先檢閱[報告免責聲明](../create-reports/sample-covid-19-us.md#disclaimers)。
 
 ## <a name="next-steps"></a>後續步驟
 * [適用於美國州政府和地方政府的 COVID-19 追蹤範例](../create-reports/sample-covid-19-us.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-* [什麼是 Power BI 範本應用程式？](../service-template-apps-overview.md)
-* [在組織中安裝並散發範本應用程式](../service-template-apps-install-distribute.md)
+* [什麼是 Power BI 範本應用程式？](../connect-data/service-template-apps-overview.md)
+* [在組織中安裝並散發範本應用程式](../connect-data/service-template-apps-install-distribute.md)

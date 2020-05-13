@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 49e4653152e8981222d3a2589781546eb25bcd0e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781723"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273009"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>匯出用於建立視覺效果的資料
 
@@ -54,7 +54,7 @@ ms.locfileid: "82781723"
 
 ## <a name="export-data-from-a-report"></a>從報表匯出資料
 
-若要跟著做，請在 [編輯] 檢視中開啟 Power BI 服務中的[採購分析範例報表](../sample-procurement.md)。 新增空白的報表頁面。 然後遵循以下步驟來新增彙總、階層和視覺效果層級篩選。
+若要跟著做，請在 [編輯] 檢視中開啟 Power BI 服務中的[採購分析範例報表](../create-reports/sample-procurement.md)。 新增空白的報表頁面。 然後遵循以下步驟來新增彙總、階層和視覺效果層級篩選。
 
 ### <a name="create-a-stacked-column-chart"></a>建立堆疊直條圖
 
@@ -94,7 +94,7 @@ ms.locfileid: "82781723"
 
     - **基礎資料**
 
-    如需了解彙總的協助，請參閱 [Power BI 中的彙總](../service-aggregates.md)。
+    如需了解彙總的協助，請參閱 [Power BI 中的彙總](../create-reports/service-aggregates.md)。
 
 
     > [!NOTE]
@@ -133,7 +133,7 @@ ms.locfileid: "82781723"
 
     - **基礎資料**
 
-    如需了解彙總的協助，請參閱 [Power BI 中的彙總](../service-aggregates.md)。
+    如需了解彙總的協助，請參閱 [Power BI 中的彙總](../create-reports/service-aggregates.md)。
 
 
     > [!NOTE]
@@ -164,7 +164,7 @@ Power BI 系統管理員和設計人員應使用幾個 Power BI 策略來保護�
 
 - Power BI 系統管理員可以為組織關閉資料匯出。 
 
-- 資料集擁有者可以設定資料列層級安全性 (RLS)。 RLS 會限制唯讀使用者的存取權。 但如果您已將應用程式工作區設定為讓成員具有編輯權限，則 RLS 角色不會套用至成員。 如需詳細資訊，請參閱[資料列層級安全性](../service-admin-rls.md)。
+- 資料集擁有者可以設定資料列層級安全性 (RLS)。 RLS 會限制唯讀使用者的存取權。 但如果您已將應用程式工作區設定為讓成員具有編輯權限，則 RLS 角色不會套用至成員。 如需詳細資訊，請參閱[資料列層級安全性](../admin/service-admin-rls.md)。
 
 - 報表設計師可以隱藏資料行，使其不顯示於 [欄位]  清單中。 如需詳細資訊，請參閱[資料集屬性](../developer/automation/api-dataset-properties.md)
 

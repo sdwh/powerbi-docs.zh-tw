@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 502e37cda5533fe6d9b1ce45faa67f809dbeec78
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9c883b32d03362e5d0e0d6d5ed074cb627fabaf1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263683"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273173"
 ---
 # <a name="bi-directional-relationship-guidance"></a>雙向關聯性指導方針
 
@@ -134,10 +134,11 @@ CALCULATE(
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [Power BI Desktop 中的模型關聯性](../desktop-relationships-understand.md)
+- [Power BI Desktop 中的模型關聯性](../transform-model/desktop-relationships-understand.md)
 - [了解星型結構描述及其對 Power BI 的重要性](star-schema.md)
 - [一對一關聯性指導方針](relationships-one-to-one.md)
 - [多對多關聯性指引](relationships-many-to-many.md)
 - [關聯性疑難排解指導方針](relationships-troubleshoot.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)
+

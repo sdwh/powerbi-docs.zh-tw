@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a874875c470cd85720570e57b7c6d7cf50dabca1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381437"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274159"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>依視覺效果類型套用資料點限制與策略
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
 
 在 Power BI 中呈現視覺效果時，視覺化作業必須既快速又精確。 這需要針對每個視覺效果類型設定底層的演算法。 Power BI 中的視覺效果必須有足夠的彈性來處理不同大小的資料集。 有些資料集只有少數幾個資料點，而其他資料集則會有數 PB 的資料點。 本文說明 Power BI 用來呈現視覺效果的策略。
 
@@ -57,7 +59,7 @@ ms.locfileid: "79381437"
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>依視覺效果類型區分的策略和資料點限制
 
 ### <a name="area-chart"></a>區域圖
-請參閱[線路取樣的運作方式](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+請參閱[線路取樣的運作方式](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="barcolumn-chart"></a>橫條圖/直條圖
 - 在類別目錄模式下時
@@ -97,10 +99,10 @@ ms.locfileid: "79381437"
 - 最後 3,500 個
 
 ### <a name="line-chart"></a>折線圖
-請參閱[線路取樣的運作方式](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+請參閱[線路取樣的運作方式](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="line-chart-high-density"></a>折線圖 (高密度)
-請參閱[高密度取樣](../desktop-high-density-sampling.md)
+請參閱[高密度取樣](../create-reports/desktop-high-density-sampling.md)
 
 ### <a name="map"></a>地圖 
 - 點數上限：3,500
@@ -109,9 +111,9 @@ ms.locfileid: "79381437"
 - 位置：前 3,500 個
 - 位置、大小：前 3,500 個
 - 位置、緯度、經度的彙總 (+/-大小)：前 3,500 個
-- 緯度、經度：請參閱[高密度散佈圖](desktop-high-density-scatter-charts.md)
+- 緯度、經度：請參閱[高密度散佈圖](../create-reports/desktop-high-density-scatter-charts.md)
 - 緯度、經度、大小：前 3,500 個
-- 圖例、緯度、經度：請參閱[高密度散佈圖](desktop-high-density-scatter-charts.md)
+- 圖例、緯度、經度：請參閱[高密度散佈圖](../create-reports/desktop-high-density-scatter-charts.md)
 - 圖例、緯度、經度、大小：前 233 個圖例、前 15 個緯度和經度 (可使用統計資料或動態限制)
 - 位置、圖例、緯度、經度的彙總 (+/-大小)：前 233 個位置、前 15 個圖例 (可使用統計資料或動態限制)
 

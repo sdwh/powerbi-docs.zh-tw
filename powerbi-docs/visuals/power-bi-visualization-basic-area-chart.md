@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866948"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277149"
 ---
 # <a name="create-and-use-basic-area-charts"></a>建立和使用基本區域圖
 
@@ -68,7 +68,7 @@ ms.locfileid: "82866948"
    d.  若要依照月份顯示圖表，請選取省略符號 \(視覺效果的右上角)，並選擇 \[Sort by month] \(按月份排序)  。 若要變更排序次序，請再次選取省略符號，並選取 [遞增排序]  或 [遞減排序]  。
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
-如需使用 [篩選] 窗格的資訊，請參閱[將篩選加入報表](../power-bi-report-add-filter.md)。
+如需使用 [篩選] 窗格的資訊，請參閱[將篩選加入報表](../create-reports/power-bi-report-add-filter.md)。
 
 若要反白顯示圖表中的一個特定區域，請選取該區域或其上框線。  不同於其他視覺效果類型，如果在相同的頁面上有其他視覺效果，反白顯示基本區域圖並不會交叉篩選報表頁面上的其他視覺效果。 不過，對報表頁面上的其他視覺效果來說，區域圖是觸發交叉篩選的目標。 
 
@@ -78,7 +78,7 @@ ms.locfileid: "82866948"
 
     ![篩選範例](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
-若要進一步了解，請參閱[報表中的視覺效果互動](../service-reports-visual-interactions.md)
+若要進一步了解，請參閱[報表中的視覺效果互動](../create-reports/service-reports-visual-interactions.md)
 
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解   
@@ -87,4 +87,6 @@ ms.locfileid: "82866948"
 
 ## <a name="next-step"></a>下一步
 [Power BI 中的報表](power-bi-visualization-card.md)  
+
+
 

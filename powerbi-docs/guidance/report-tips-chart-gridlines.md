@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c40d93cc06204ee7a935727c3b38494fdeb71256
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1a8dba63b0832886ce550cb2ed02249317e7240e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065517"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272756"
 ---
 # <a name="tips-to-control-chart-gridlines-in-power-bi-reports"></a>在 Power BI 報表中控制圖表格線的提示
 
@@ -36,7 +36,8 @@ ms.locfileid: "82065517"
 
 如需本文的詳細資訊，請參閱下列資源：
 
-- [建立絕佳報表的提示](../desktop-tips-and-tricks-for-creating-reports.md)
+- [建立絕佳報表的提示](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine 影片：[在 Power BI 中控制圖表格線的 3 大熱門提示](https://www.youtube.com/watch?v=Y-igshes2LI)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)
+

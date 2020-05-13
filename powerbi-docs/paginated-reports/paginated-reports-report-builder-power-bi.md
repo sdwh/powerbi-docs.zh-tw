@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 924c2850efe1e9e09a8f6f350be616695ab061ea
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 55e74809b47b2906edac9a06f701aa30b3498f80
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621563"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83144739"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>什麼是 Power BI Premium 中的編頁報表？
 
@@ -23,7 +23,7 @@ ms.locfileid: "80621563"
 
 ![分頁](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-您可以在報表產生器中預覽報表，然後將其發佈至 Power BI 服務 (`https://app.powerbi.com`) 中。 您需要 Power BI Pro 授權，才能將報表發佈至服務。 只要工作區位於 Power BI Premium 容量，即可在 [我的工作區] 或工作區中發佈及共用編頁報表。 此外，Power BI 系統管理員需要在 Power BI 管理入口網站的 [Premium 容量區段](../service-admin-premium-workloads.md#paginated-reports)中啟用分頁報表。 
+您可以在報表產生器中預覽報表，然後將其發佈至 Power BI 服務 (`https://app.powerbi.com`) 中。 您需要 Power BI Pro 授權，才能將報表發佈至服務。 只要工作區位於 Power BI Premium 容量，即可在 [我的工作區] 或工作區中發佈及共用編頁報表。 此外，Power BI 系統管理員需要在 Power BI 管理入口網站的 [Premium 容量區段](../admin/service-admin-premium-workloads.md#paginated-reports)中啟用分頁報表。 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>在 Power BI 報表產生器中建立報表
 

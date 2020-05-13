@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b60a4c14873427bd06d2b6abce48c9d3d3008859
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 6eee86423fdfc1e1a9338aa4fecfd5eae0c0d111
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865245"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272848"
 ---
 # <a name="create-and-use-funnel-charts"></a>建立和使用漏斗圖
 
@@ -94,20 +94,23 @@ ms.locfileid: "82865245"
      
      ![提案列的詳細資料](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
 
-6. [儲存報表](../service-report-save.md)。
+6. [儲存報表](../create-reports/service-report-save.md)。
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
-如需使用 [篩選] 窗格的資訊，請參閱[將篩選加入報表](../power-bi-report-add-filter.md)。
+如需使用 [篩選] 窗格的資訊，請參閱[將篩選加入報表](../create-reports/power-bi-report-add-filter.md)。
 
 在漏斗圖中反白顯示列，會篩選報表頁面上的其他視覺效果，反之亦然。 如果要跟著做，請將其他一些視覺效果加入包含漏斗圖的報表頁面中。
 
 1. 在漏斗圖中選取 [提案]  列。 這會交叉醒目提示頁面上的其他視覺效果。 使用 CTRL 進行多重選取。
    
    ![顯示視覺效果互動的短片](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. 若要設定視覺效果互相交叉醒目提示及交叉篩選之方式的喜好設定，請參閱[在 Power BI 中與視覺效果互動](../service-reports-visual-interactions.md)
+2. 若要設定視覺效果互相交叉醒目提示及交叉篩選之方式的喜好設定，請參閱[在 Power BI 中與視覺效果互動](../create-reports/service-reports-visual-interactions.md)
 
 ## <a name="next-steps"></a>後續步驟
 
 [Power BI 中的量測計](power-bi-visualization-radial-gauge-charts.md)
 
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+

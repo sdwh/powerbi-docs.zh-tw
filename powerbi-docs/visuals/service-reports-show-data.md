@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758615"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276551"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>顯示視覺效果的基礎資料
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 ## <a name="show-data"></a>顯示資料
 Power BI 視覺效果是使用您資料集中的資料所建構的。 如果您對背景資料有興趣，Power BI 可讓您「顯示」  用來建立視覺效果的資料。 當您選取 [顯示資料]  時，Power BI 會在視覺效果下方 (或旁邊) 顯示資料。
@@ -24,7 +26,7 @@ Power BI 視覺效果是使用您資料集中的資料所建構的。 如果您�
 您也可以將用來建立視覺效果的資料匯出為 .xlsx 或 .csv 檔案，並在 Excel 中檢視。 如需詳細資訊，請參閱[從 Power BI 視覺效果匯出資料](power-bi-visualization-export-data.md)。
 
 > [!NOTE]
-> [顯示資料]  和 [匯出資料]  在 Power BI 服務和 Power BI Desktop 中均可使用。 但是，Power BI Desktop 提供額外一層的詳細資料。顯示記錄 [會顯示來自資料集的實際資料列  ](../desktop-see-data-see-records.md)。
+> [顯示資料]  和 [匯出資料]  在 Power BI 服務和 Power BI Desktop 中均可使用。 但是，Power BI Desktop 提供額外一層的詳細資料。顯示記錄 [會顯示來自資料集的實際資料列  ](../create-reports/desktop-see-data-see-records.md)。
 > 
 > 
 
@@ -75,4 +77,5 @@ Power BI 視覺效果是使用您資料集中的資料所建構的。 如果您�
 [從 Power BI 視覺效果匯出資料](power-bi-visualization-export-data.md)    
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
+
 

@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8d4145e1fdfdd6c1e9409dc305a5767eec8ace53
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404057"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148533"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何將 Power BI 工作區集合內容遷移至 Power BI Embedded
 
@@ -200,7 +200,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 [Power BI 工作區集合遷移工具](migrate-tool.md)  
 [從 Power BI 工作區集合遷移內容的程式碼片段](migrate-code-snippets.md)  
 [如何內嵌 Power BI 儀表板、報表和磚](embed-sample-for-your-organization.md)  
-[何謂 Power BI Premium](../../service-premium-what-is.md)  
+[何謂 Power BI Premium](../../admin/service-premium-what-is.md)  
 [JavaScript API Git 存放庫](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 存放庫](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 內嵌示範](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

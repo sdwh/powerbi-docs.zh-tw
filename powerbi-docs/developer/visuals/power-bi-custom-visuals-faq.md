@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d70d1357af3309ddd9584b11ccf79115cde095c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a66b0fc1a984e0905fba209ca59afb3a02696b2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79383290"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131297"
 ---
 # <a name="power-bi-visuals-faq"></a>Power BI 視覺效果常見問題集
 
@@ -24,7 +24,7 @@ ms.locfileid: "79383290"
 
 ### <a name="how-can-the-admin-manage-organizational-power-bi-visuals"></a>系統管理員如何管理組織 Power BI 視覺效果？
 
-在管理入口網站中的 [組織視覺效果]  索引標籤底下，系統管理員可以查看並[管理企業中的所有組織 Power BI 視覺效果](../../service-admin-portal.md#organizational-visuals)。 這包括新增、停用、啟用及刪除 Power BI 視覺效果。
+在管理入口網站中的 [組織視覺效果]  索引標籤底下，系統管理員可以查看並[管理企業中的所有組織 Power BI 視覺效果](../../admin/service-admin-portal.md#organizational-visuals)。 這包括新增、停用、啟用及刪除 Power BI 視覺效果。
 
 組織中的使用者可以輕鬆地找到 Power BI 視覺效果，然後直接從 Power BI Desktop 或服務將它們匯入其報表中。
 

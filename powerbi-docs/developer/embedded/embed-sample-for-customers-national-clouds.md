@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3277bba0a4351f17d671adf9a70aae4adb7ddbac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d30dfaa36bc55e8da769d4eaf0f7c2d1b9be0724
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525368"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145206"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教學課程：針對國家/地區雲端將 Power BI 內容內嵌到您的應用程式
 
@@ -38,7 +38,7 @@ Power BI 也支援[國家/地區雲端](https://docs.microsoft.com/azure/active-
 
 ![內嵌的儀表板](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-若要開始使用此逐步解說，您需要一個 **Power BI** 帳戶。 如未設定帳戶，則可以根據政府或國家/地區的類型，選擇正確的國家/地區雲端。 您可以註冊一個[美國政府 Power BI 帳戶](../../service-govus-signup.md)、一個[適用於德國雲端的 Power BI 帳戶](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)或一個[適用於中國雲端的 Power BI 帳戶](https://www.21vbluecloud.com/powerbi/)。
+若要開始使用此逐步解說，您需要一個 **Power BI** 帳戶。 如未設定帳戶，則可以根據政府或國家/地區的類型，選擇正確的國家/地區雲端。 您可以註冊一個[美國政府 Power BI 帳戶](../../admin/service-govus-signup.md)、一個[適用於德國雲端的 Power BI 帳戶](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)或一個[適用於中國雲端的 Power BI 帳戶](https://www.21vbluecloud.com/powerbi/)。
 
 > [!NOTE]
 > 想要改為內嵌組織的內容嗎？ 請參閱[將儀表板整合到應用程式中](embed-sample-for-your-organization.md)。

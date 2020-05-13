@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 05/04/2020
-ms.openlocfilehash: 3e7e1590adbf953db4232ddffa5f26778e5670c2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a634844093f103c942b70cd81d93822ca240cf0a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781608"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272020"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>將編頁報表發佈至 Power BI 服務
 
@@ -105,7 +105,7 @@ ms.locfileid: "82781608"
 
    ![管理編頁報表](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 
-1. 如需詳細資料和後續步驟，請參閱 Power BI 服務文章：[什麼是內部部署資料閘道](../service-gateway-onprem.md)。
+1. 如需詳細資料和後續步驟，請參閱 Power BI 服務文章：[什麼是內部部署資料閘道](../connect-data/service-gateway-onprem.md)。
 
 
 
@@ -114,4 +114,5 @@ ms.locfileid: "82781608"
 - [檢視 Power BI 服務中的編頁報表](../consumer/paginated-reports-view-power-bi-service.md)
 - [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)
 - [教學課程：為客戶將 Power BI 編頁報表內嵌至應用程式](../developer/embed-paginated-reports-customers.md)
+
 

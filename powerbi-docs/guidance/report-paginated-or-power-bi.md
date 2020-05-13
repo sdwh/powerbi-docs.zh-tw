@@ -8,19 +8,19 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f1608fd2511e38758b5bf05041d625cf524fff34
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920743"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83127820"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>何時使用 Power BI 中的編頁報表
 
 本文適用於設計 Power BI 報表的報表作者。 其中提供建議來協助您選擇何時開發 [Power BI 編頁報表](../paginated-reports/paginated-reports-report-builder-power-bi.md)。
 
 > [!NOTE]
-> 需有 Power BI Premium 訂用帳戶才能發佈 Power BI 編頁報表。 只有當報表位於專用容量上[已啟用編頁報表工作負載](../service-admin-premium-workloads.md#paginated-reports)的工作區時，才會轉譯。
+> 需有 Power BI Premium 訂用帳戶才能發佈 Power BI 編頁報表。 只有當報表位於專用容量上[已啟用編頁報表工作負載](../admin/service-admin-premium-workloads.md#paginated-reports)的工作區時，才會轉譯。
 
 Power BI 編頁報表已針對**列印**或 **PDF 產生**進行最佳化。 其也能讓您產生高度格式化、細節完美的版面配置。 因此，編頁報表很適合用於營運報表，例如銷售發票。
 
@@ -36,7 +36,7 @@ Power BI 編頁報表已針對**列印**或 **PDF 產生**進行最佳化。 其
 
 當您已經有 SQL Server Reporting Services (SSRS) [報表定義語言 (RDL)](/sql/reporting-services/reports/report-definition-language-ssrs) 報表時，您可以選擇將其重新開發為 [Power BI 報表](../consumer/end-user-reports.md)，或將其當作編頁報表遷移至 Power BI。 如需詳細資訊，請參閱[將 SQL Server Reporting Services 報表遷移到 Power BI](migrate-ssrs-reports-to-power-bi.md)。
 
-發佈至 Power BI 工作區之後，編頁報表可與 Power BI 報表並存使用。 然後其可使用 [Power BI 應用程式](../service-create-distribute-apps.md)輕鬆地散發。
+發佈至 Power BI 工作區之後，編頁報表可與 Power BI 報表並存使用。 然後其可使用 [Power BI 應用程式](../collaborate-share/service-create-distribute-apps.md)輕鬆地散發。
 
 您可以考慮重新開發 SSRS 報表，而不是進行遷移。 對於旨在提供分析體驗的報表而言，更是如此。 在這些情況下，Power BI 報表可能會提供更好的報表使用者體驗。
 

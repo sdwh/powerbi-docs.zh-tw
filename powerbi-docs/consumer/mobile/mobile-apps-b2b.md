@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 711c920f5b0b7feeeeb2297e0f93714e1e89f1a2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75219825"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148194"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>檢視從外部組織與您共用的 Power BI 內容
 
@@ -28,7 +28,7 @@ Power BI 會與 Azure Active Directory 企業對企業 (Azure AD B2B) 整合，�
 
 ## <a name="accessing-shared-content"></a>存取共用內容
 
-**首先，您需要外部組織的某個人與您共用項目。** 當有人[與您共用項目](../../service-share-dashboards.md)時 (不論是從相同的組織或從外部組織)，您都會收到一封電子郵件，其中包含該共用項目的連結。 在行動裝置中進入該連結，即會開啟 Power BI 行動裝置應用程式。 如果應用程式辨識出項目是從外部組織共用，應用程式就會使用您的身分識別重新連接到該組織。 然後，應用程式會從該組織載入與您共用的所有項目。
+**首先，您需要外部組織的某個人與您共用項目。** 當有人[與您共用項目](../../collaborate-share/service-share-dashboards.md)時 (不論是從相同的組織或從外部組織)，您都會收到一封電子郵件，其中包含該共用項目的連結。 在行動裝置中進入該連結，即會開啟 Power BI 行動裝置應用程式。 如果應用程式辨識出項目是從外部組織共用，應用程式就會使用您的身分識別重新連接到該組織。 然後，應用程式會從該組織載入與您共用的所有項目。
 
 ![Power BI 從電子郵件開啟共用項目 ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 

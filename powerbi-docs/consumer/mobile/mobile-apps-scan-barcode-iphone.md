@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: dfe5e6350d0209f836900a921aadc5347b181766
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802041"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276160"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>使用裝置從 Power BI 行動裝置應用程式掃描條碼
 掃描實際的條碼可直接前往 Power BI 行動裝置應用程式中篩選過的 BI 資訊。
@@ -25,7 +25,7 @@ ms.locfileid: "80802041"
 |:--- |:--- |:--- |:--- |
 |iPhone |iPad |Android 手機 |Android 平板電腦 |
 
-假設有同事[在 Power BI Desktop 報表中標記了條碼欄位](../../desktop-mobile-barcodes.md)，然後與您共用報表。 
+假設有同事[在 Power BI Desktop 報表中標記了條碼欄位](../../transform-model/desktop-mobile-barcodes.md)，然後與您共用報表。 
 
 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
 
@@ -64,13 +64,12 @@ ms.locfileid: "80802041"
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>「您似乎沒有任何可供條碼篩選的報表。」
 這表示您沒有任何使用條碼的報表。 條碼掃描器只能篩選具有 [條碼]  資料行的報表。  
 
-請確定您或報表擁有者已在 Power BI Desktop 中將資料行標記為 [條碼]  。 深入了解[在 Power BI Desktop 中標記條碼欄位](../../desktop-mobile-barcodes.md)
+請確定您或報表擁有者已在 Power BI Desktop 中將資料行標記為 [條碼]  。 深入了解[在 Power BI Desktop 中標記條碼欄位](../../transform-model/desktop-mobile-barcodes.md)
 
 ### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>「無法篩選報表，此條碼似乎不存在於報表資料中。」
 您選擇要篩選的報表，其資料模型基礎不包含此條碼值。 例如，報表不包含產品「礦泉水」。 您可以掃描不同的產品、選擇不同的報表 (如有多份報表可供選擇)，或檢視未經篩選的報表。 
 
 ## <a name="next-steps"></a>後續步驟
-* [在 Power BI Desktop 中標記條碼欄位](../../desktop-mobile-barcodes.md)
+* [在 Power BI Desktop 中標記條碼欄位](../../transform-model/desktop-mobile-barcodes.md)
 * [Power BI 的儀表板磚](../end-user-tiles.md)
 * [Power BI 中的儀表板](../end-user-dashboards.md)
-

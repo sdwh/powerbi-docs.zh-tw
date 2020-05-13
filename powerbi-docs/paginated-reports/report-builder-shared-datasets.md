@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 717627e171df6a0843453a72b54ec591a7fd5a19
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78923187"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276620"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>建立以 Power BI 共用資料集為基礎的編頁報表
 
@@ -20,14 +20,14 @@ ms.locfileid: "78923187"
 
 ![Power BI Desktop 到報表產生器編頁報表](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-此資料集不一定要位於 Premium 容量的工作區中，因此您不需要是該工作區的成員。 您只需要擁有資料集的[建置權限](../service-datasets-build-permissions.md)。 若要發佈編頁報表，您需要 Power BI Pro 授權。 針對 Premium 容量中的工作區，您還需要至少一個「參與者」角色。
+此資料集不一定要位於 Premium 容量的工作區中，因此您不需要是該工作區的成員。 您只需要擁有資料集的[建置權限](../connect-data/service-datasets-build-permissions.md)。 若要發佈編頁報表，您需要 Power BI Pro 授權。 針對 Premium 容量中的工作區，您還需要至少一個「參與者」角色。
 
 ## <a name="what-you-need"></a>必要條件
 
 以下是您在 Power BI 報表產生器中使用共用資料集時，需要和不需要的項目清單。
 
 - Power BI 報表產生器。 [下載及安裝 Power BI 報表產生器](https://go.microsoft.com/fwlink/?linkid=2086513)。
-- 若要存取 Power BI 資料集，您需要有該資料集的建置權限。 請參閱[建置權限](../service-datasets-build-permissions.md)。
+- 若要存取 Power BI 資料集，您需要有該資料集的建置權限。 請參閱[建置權限](../connect-data/service-datasets-build-permissions.md)。
 - 您不需要 Power BI Pro 授權，即可在報表產生器中建立編頁報表。 
 - 您需要有 Power BI Pro 授權，才能發佈編頁報表。 針對 Premium 容量中的工作區，您還需要至少一個「參與者」角色。 
 - 選擇性：如果您想要遵循本文的指示進行，請下載 Power BI Desktop [零售分析範例 .pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) 檔案，在 Power BI Desktop 中開啟該檔案，然後新增包含許多資料行的資料表。 在 [格式]  窗格中，關閉 [總計]  。 然後將它發佈到 Power BI 服務中的工作區。
@@ -74,7 +74,7 @@ ms.locfileid: "78923187"
 1. 在 Power BI Desktop 中開啟 Power BI 報表 (.pbix)。
 1. 確定您的報表中有一個資料表，其中包含您在編頁報表中所需的所有資料。 資料表必須符合這兩項需求：
     - 必須是二維資料表，而不是矩陣或其他視覺效果。 如果不是資料表，請立即將其轉換成資料表，逐一完成後列的效能分析器步驟，再將其轉換回所要的視覺效果。
-    - 您必須在數值欄位使用「預先定義的量值」  。 其旁邊有一個計算機符號。 深人了解[建立量值](../desktop-measures.md)。 
+    - 您必須在數值欄位使用「預先定義的量值」  。 其旁邊有一個計算機符號。 深人了解[建立量值](../transform-model/desktop-measures.md)。 
 
         ![量值圖示](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5f4fc253fbb7427de8adb21305f66769abcd428
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435896"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273078"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的磚
 適用於︰
@@ -52,7 +52,7 @@ ms.locfileid: "79435896"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
    
-    開啟連結即可前往其他 Power BI 儀表板或外部 URL。 您可以[點選連結](../../service-dashboard-edit-tile.md#hyperlink)在 Power BI 應用程式內加以開啟。 如果是外部網站，Power BI 會要求您允許該連結。
+    開啟連結即可前往其他 Power BI 儀表板或外部 URL。 您可以[點選連結](../../create-reports/service-dashboard-edit-tile.md#hyperlink)在 Power BI 應用程式內加以開啟。 如果是外部網站，Power BI 會要求您允許該連結。
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -77,7 +77,7 @@ ms.locfileid: "79435896"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
-    開啟連結即可前往其他 Power BI 儀表板或外部 URL。 您可以[點選連結](../../service-dashboard-edit-tile.md#hyperlink)在 Power BI 應用程式內加以開啟。 如果是外部網站，Power BI 會要求您允許該連結。
+    開啟連結即可前往其他 Power BI 儀表板或外部 URL。 您可以[點選連結](../../create-reports/service-dashboard-edit-tile.md#hyperlink)在 Power BI 應用程式內加以開啟。 如果是外部網站，Power BI 會要求您允許該連結。
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -98,7 +98,7 @@ ms.locfileid: "79435896"
    
     點選 [開啟報表]  ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) 以[檢視基礎報表](mobile-reports-in-the-mobile-apps.md)。
    
-    如果報表包含連結的話，請[開啟連結](../../service-dashboard-edit-tile.md#hyperlink)。 開啟連結即可前往 Power BI 儀表板或外部 URL。
+    如果報表包含連結的話，請[開啟連結](../../create-reports/service-dashboard-edit-tile.md#hyperlink)。 開啟連結即可前往 Power BI 儀表板或外部 URL。
 3. 點選 [展開磚]  ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png)。 它會在焦點模式中開啟，更容易檢視及瀏覽圖格資料。 在此模式中您可以：
    
    微調圓形圖可在圓形上方顯示配量的值。  
@@ -130,4 +130,3 @@ ms.locfileid: "79435896"
 ## <a name="next-steps"></a>後續步驟
 * [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

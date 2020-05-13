@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c72863407fea0cf550643e5193a8b514b2bb51bd
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82585053"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276321"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI 中的交叉分析篩選器
 
@@ -24,11 +24,11 @@ ms.locfileid: "82585053"
 
 ![交叉分析篩選器動畫](media/power-bi-visualization-slicers/slicer2.gif)
 
-本文會逐步說明如何使用免費的[零售分析範例](../sample-retail-analysis.md)來建立和格式化基本交叉分析篩選器。 也會示範如何控制哪些視覺效果受到交叉分析篩選器影響，以及如何與其他頁面上的交叉分析篩選器同步。 以下是一些其他文章，其說明如何製作特定類型的交叉分析篩選器：
+本文會逐步說明如何使用免費的[零售分析範例](../create-reports/sample-retail-analysis.md)來建立和格式化基本交叉分析篩選器。 也會示範如何控制哪些視覺效果受到交叉分析篩選器影響，以及如何與其他頁面上的交叉分析篩選器同步。 以下是一些其他文章，其說明如何製作特定類型的交叉分析篩選器：
 
-- [數值範圍交叉分析篩選器](../desktop-slicer-numeric-range.md)。
+- [數值範圍交叉分析篩選器](../create-reports/desktop-slicer-numeric-range.md)。
 - [相對日期交叉分析篩選器](desktop-slicer-filter-date-range.md)。
-- 回應式且[可調整大小的交叉分析篩選器](../power-bi-slicer-filter-responsive.md)。
+- 回應式且[可調整大小的交叉分析篩選器](../create-reports/power-bi-slicer-filter-responsive.md)。
 - 具有多個欄位的[階層交叉分析篩選器](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md)。
 
 ## <a name="when-to-use-a-slicer"></a>使用交叉分析篩選器的時機
@@ -92,7 +92,7 @@ Power BI 交叉分析篩選器不支援：
 
    現在，當選取交叉分析篩選器中的名稱和日期範圍時，[Total Sales Variance by FiscalMonth and District Manager] \(依會計月份和區經理的總銷售額差異\)  圖表會保持不變。
 
-如需編輯互動的詳細資訊，請參閱[變更 Power BI 報表中的視覺效果互動方式](../service-reports-visual-interactions.md)。
+如需編輯互動的詳細資訊，請參閱[變更 Power BI 報表中的視覺效果互動方式](../create-reports/service-reports-visual-interactions.md)。
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>將交叉分析篩選器同步至其他頁面上使用
 從 2018 年 2 月版的 Power BI 更新開始，您可以同步交叉分析篩選器並在報表的任何或所有頁面上使用它。 
@@ -134,7 +134,7 @@ Power BI 交叉分析篩選器不支援：
 ## <a name="filtering-slicers"></a>篩選交叉分析篩選器
 您可將視覺效果層級的篩選套用至交叉分析篩選器，以減少交叉分析篩選器所顯示的值清單。 例如，您可從清單交叉分析篩選器中篩選出空白值，或從範圍交叉分析篩選器中篩選出特定的日期。 當這樣做時，選項只會影響「交叉分析篩選器所顯示的值」  ，而不是「交叉分析篩選器套用至其他視覺效果的篩選」  。 例如，假設您對範圍交叉分析篩選器套用只顯示特定日期的篩選。 交叉分析篩選器上選項只會顯示該範圍的第一個和最後一個日期，但您仍會在其他視覺效果中看到其他日期。 一旦變更交叉分析篩選器的選取範圍，即會看到其他視覺效果隨之更新。 清除交叉分析篩選器會再次顯示所有日期。
 
-如需視覺效果層級篩選的詳細資訊，請參閱[篩選類型](../power-bi-report-filter-types.md)。
+如需視覺效果層級篩選的詳細資訊，請參閱[篩選類型](../create-reports/power-bi-report-filter-types.md)。
 
 ## <a name="format-slicers"></a>格式交叉分析篩選器
 視交叉分析篩選器類型而定，會提供不同的格式設定選項。 藉由使用 [水平]  方向、[回應式]  版面配置及 [項目]  著色，您可以產生按鈕或磚而不是標準清單項目，然後讓交叉分析篩選器項目調整大小，以符合不同的螢幕大小和版面配置。  
@@ -169,7 +169,7 @@ Power BI 交叉分析篩選器不支援：
 
     ![水平選項](media/power-bi-visualization-slicers/6-buttons.png)
 
-如需水平方向和回應式配置的詳細資訊，請參閱[在 Power BI 中建立可以調整大小的回應式交叉分析篩選器](../power-bi-slicer-filter-responsive.md)。
+如需水平方向和回應式配置的詳細資訊，請參閱[在 Power BI 中建立可以調整大小的回應式交叉分析篩選器](../create-reports/power-bi-slicer-filter-responsive.md)。
 
 ### <a name="selection-controls-options-list-slicers-only"></a>選取控制項選項 (僅適用於清單交叉分析篩選器)
 1. 在 [選取控制項]  下，將 [顯示 [全選] 選項]  切換至 [開啟]  ，將 [全選]  項目新增至交叉分析篩選器。 
@@ -222,4 +222,3 @@ Power BI 交叉分析篩選器不支援：
 - [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 - [Power BI 中的資料表](power-bi-visualization-tables.md)
-

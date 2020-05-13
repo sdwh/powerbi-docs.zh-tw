@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751620"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275953"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>搭配服務主體和應用程式祕密內嵌 Power BI 內容
 
@@ -183,14 +183,14 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-* 服務主體只會使用[新的工作區](../../service-create-the-new-workspaces.md)。
+* 服務主體只會使用[新的工作區](../../collaborate-share/service-create-the-new-workspaces.md)。
 * 使用服務主體時，不支援 [我的工作區]  。
 * 需要專用容量才能移至生產環境。
 * 您無法使用服務主體登入 Power BI 入口網站。
 * 需有 Power BI 管理員權限，才能在 Power BI 管理入口網站的開發人員設定中啟用服務主體。
 * 您無法使用服務主體安裝或管理內部部署資料閘道。
 * [為組織內嵌](embed-sample-for-your-organization.md)應用程式無法使用服務主體。
-* 不支援[資料流程](../../service-dataflows-overview.md)管理。
+* 不支援[資料流程](../../transform-model/service-dataflows-overview.md)管理。
 * 服務主體目前不支援任何管理員 API。
 * 搭配 [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 資料來源使用服務主體時，服務主體本身必須具有 Azure Analysis Services 執行個體權限。 基於此目的使用包含服務主體的安全性群組將無法正常運作。
 

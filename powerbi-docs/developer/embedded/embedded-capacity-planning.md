@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: f437b1d1fbfc1e905878fbb99875f1fc455e7b14
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79493242"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145137"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI 內嵌式分析中的容量規劃
 
@@ -51,7 +51,7 @@ ms.locfileid: "79493242"
 
 若要在測試執行後查看計量應用程式中負載測試的效果，請遵循下列指示。 在測試開始產生負載的時間內，最多預期會有 15 分鐘的延遲，直到計量中顯示負載為止。
 
-1. 展開[計量應用程式](../../service-admin-premium-monitor-capacity.md)登陸頁面的 [資料集]  索引標籤。
+1. 展開[計量應用程式](../../admin/service-admin-premium-monitor-capacity.md)登陸頁面的 [資料集]  索引標籤。
 2. 透過按一下 [立即重新整理]  ，以起始隨選重新整理。 管理員應該這麼做。
 
     ![Power BI Premium 容量計量](media/embedded-capacity-planning/embedded-capacity-planning.png)

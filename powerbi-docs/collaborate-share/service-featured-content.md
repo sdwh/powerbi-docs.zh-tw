@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4d8b3d48828840920b6bbd792c9fe9da40308b39
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79496255"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83142296"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>為同事的 Power BI [首頁] 頁面添加精選內容
 
@@ -24,9 +24,9 @@ ms.locfileid: "79496255"
 
 ## <a name="who-can-feature-content"></a>可精選內容的人員
 
-Power BI 租用戶系統管理員可以決定是否授與為租用戶精選內容的權利。 系統管理員也可以選擇能夠精選內容的人員。 如需詳細資料，請參閱[管理入口網站](../service-admin-portal.md#featured-content)一文。
+Power BI 租用戶系統管理員可以決定是否授與為租用戶精選內容的權利。 系統管理員也可以選擇能夠精選內容的人員。 如需詳細資料，請參閱[管理入口網站](../admin/service-admin-portal.md#featured-content)一文。
 
-如為組織中負責此工作的選取群組人員，則您必須擁有 Power BI Pro 授權。 若要精選儀表板與報表，則必須為工作區中的系統管理員、成員或參與者角色。 若要精選應用程式，則必須在工作區中具有系統管理員或成員角色。 如需詳細資料，請參閱[新工作區中的角色](../service-new-workspaces.md#roles-in-the-new-workspaces)。
+如為組織中負責此工作的選取群組人員，則您必須擁有 Power BI Pro 授權。 若要精選儀表板與報表，則必須為工作區中的系統管理員、成員或參與者角色。 若要精選應用程式，則必須在工作區中具有系統管理員或成員角色。 如需詳細資料，請參閱[新工作區中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)。
 
 ## <a name="who-sees-featured-content"></a>誰會看到精選的內容
 
@@ -58,7 +58,6 @@ Power BI 租用戶系統管理員可以決定是否授與為租用戶精選內�
 
 ## <a name="next-steps"></a>後續步驟
 
-* [應該如何共同作業和共用儀表板和報表？](../service-how-to-collaborate-distribute-dashboards-reports.md)
-* [在管理入口網站中管理精選內容](../service-admin-portal.md#manage-featured-content)
+* [應該如何共同作業和共用儀表板和報表？](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
+* [在管理入口網站中管理精選內容](../admin/service-admin-portal.md#manage-featured-content)
 * 有任何問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
-

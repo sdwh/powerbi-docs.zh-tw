@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ae73f2e32d34c3e1b37991358545997c4b4bb961
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865452"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272894"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>在 Power BI 中建立和使用區域分布圖 (分級著色圖)
 
@@ -92,12 +92,12 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 7. 區域分布圖會呈綠色，並以紅色代表人氣指數較低，而綠色代表人氣較高、較為正向。  若要顯示額外的詳細資料，請一併將欄位拖曳到 [工具提示]。  在這裡，我們新增了 [SalesFact]   > [人氣落差]  。 醒目提示愛達荷州 (ID) 來顯示人氣落差很低，只有 6。
    ![顯示愛達荷州工具提示的已填滿地圖](media/power-bi-visualization-filled-maps-choropleths/power-bi-idaho-filled-map.png)
 
-10. [儲存報表](../service-report-save.md)。
+10. [儲存報表](../create-reports/service-report-save.md)。
 
 Power BI 提供您眾多對區域分布圖外觀的控制。 試試看這些資料色彩控制項，直到獲得您想要的外觀。 
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
-如需使用 [篩選] 窗格的資訊，請參閱[將篩選加入報表](../power-bi-report-add-filter.md)。
+如需使用 [篩選] 窗格的資訊，請參閱[將篩選加入報表](../create-reports/power-bi-report-add-filter.md)。
 
 在區域分布圖中醒目提示位置，會交叉篩選報表頁面上的其他視覺效果，反之亦然。
 
@@ -136,3 +136,5 @@ Power BI 提供您眾多對區域分布圖外觀的控制。 試試看這些資�
 [圖形地圖](desktop-shape-map.md)
 
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

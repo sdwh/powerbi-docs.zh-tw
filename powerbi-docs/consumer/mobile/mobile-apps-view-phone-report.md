@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841771"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273515"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>檢視為手機最佳化的 Power BI 報表
 
@@ -48,7 +48,7 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
 ## <a name="cross-highlight-visuals"></a>跨醒目提示視覺效果
 在直向檢視中交叉醒目提示的視覺效果，其運作方式與 Power BI 服務中的視覺效果相同，且在手機的橫向檢視中也是如此：當您在一個視覺效果中選取資料時，它會反白顯示該頁面上其他視覺效果中的相關資料。
 
-深入了解 [Power BI 中進行篩選和醒目提示](../../power-bi-reports-filters-and-highlighting.md)的相關事項。
+深入了解 [Power BI 中進行篩選和醒目提示](../../create-reports/power-bi-reports-filters-and-highlighting.md)的相關事項。
 
 ## <a name="select-visuals"></a>選取視覺效果
 在手機報表中，當您選取視覺效果時，手機報表會醒目提示該視覺效果並聚焦於其上，抵銷畫布筆勢。
@@ -131,8 +131,7 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
 
 
 ## <a name="next-steps"></a>後續步驟
-* [建立為 Power BI 行動應用程式最佳化的報表](../../desktop-create-phone-report.md)
-* [在 Power BI 中建立儀表板的手機檢視](../../service-create-dashboard-mobile-phone-view.md)
+* [建立為 Power BI 行動應用程式最佳化的報表](../../create-reports/desktop-create-phone-report.md)
+* [在 Power BI 中建立儀表板的手機檢視](../../create-reports/service-create-dashboard-mobile-phone-view.md)
 * [建立適用於任何大小的回應式視覺效果](../../visuals/desktop-create-responsive-visuals.md)
 * 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 269fe87a61df3470a8d11e4934ff1fca4bde7e86
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114650"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149246"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded 的多地理位置支援
 
 針對使用 Power BI Embedded 建置應用程式，並將分析功能內嵌到其應用程式的 ISV 與組織，**Power BI Embedded 的多地理位置支援**意謂著他們現在可以在全球的不同區域部署其資料。
 
-現在使用 **Power BI Embedded** 的客戶可以使用**多地理位置**選項設定 **A 容量** (以 [Power BI Premium 使用多地理位置來支援的相同功能與限制](../../service-admin-premium-Multi-Geo.md)為基礎)。
+現在使用 **Power BI Embedded** 的客戶可以使用**多地理位置**選項設定 **A 容量** (以 [Power BI Premium 使用多地理位置來支援的相同功能與限制](../../admin/service-admin-premium-Multi-Geo.md)為基礎)。
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>使用多地理位置建立新的 Power BI Embedded 容量資源
 
@@ -89,6 +89,6 @@ ms.locfileid: "80114650"
 
 * [建立 Power BI Embedded 容量](azure-pbie-create-capacity.md)
 
-* [Power BI Premium 容量中的多地理位置](../../service-admin-premium-multi-geo.md)
+* [Power BI Premium 容量中的多地理位置](../../admin/service-admin-premium-multi-geo.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

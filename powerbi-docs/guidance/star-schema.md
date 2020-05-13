@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751617"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273446"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>了解星型結構描述及其對 Power BI 的重要性
 
@@ -42,7 +42,7 @@ ms.locfileid: "80751617"
 - 維度資料表支援「篩選」  和「群組」 
 - 事實資料表支援「摘要」 
 
-沒有可供模型製作人員設定來將資料表類型設定為維度或事實的資料表屬性。 事實上，這是由模型關聯性決定的。 模型關聯性會建立兩個資料表之間的篩選傳播路徑，而關聯性的**基數**屬性會決定資料表類型。 常見的關聯性基數包括「一對多」  或相反的「多對一」  。 「一」端一律是維度類型資料表，而「多」端一律是事實類型資料表。 如需關聯性的詳細資訊，請參閱 [Power BI Desktop 中的模型關聯性](../desktop-relationships-understand.md)。
+沒有可供模型製作人員設定來將資料表類型設定為維度或事實的資料表屬性。 事實上，這是由模型關聯性決定的。 模型關聯性會建立兩個資料表之間的篩選傳播路徑，而關聯性的**基數**屬性會決定資料表類型。 常見的關聯性基數包括「一對多」  或相反的「多對一」  。 「一」端一律是維度類型資料表，而「多」端一律是事實類型資料表。 如需關聯性的詳細資訊，請參閱 [Power BI Desktop 中的模型關聯性](../transform-model/desktop-relationships-understand.md)。
 
 ![概念性星型結構描述](media/star-schema/star-schema-example2.png)
 
@@ -209,10 +209,12 @@ Power BI 模型應該支援查詢成員的歷程記錄資料 (不論是否有變
 如需星型結構描述設計或 Power BI 模型設計的詳細資訊，請參閱下列文章：
 
 - [Dimensional modeling (維度模型) Wikipedia 文章](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Create and manage relationships in Power BI Desktop](../desktop-create-and-manage-relationships.md) (在 Power BI Desktop 中建立和管理關聯性)
+- [Create and manage relationships in Power BI Desktop](../transform-model/desktop-create-and-manage-relationships.md) (在 Power BI Desktop 中建立和管理關聯性)
 - [一對一關聯性指導方針](relationships-one-to-one.md)
 - [多對多關聯性指引](relationships-many-to-many.md)
 - [雙向關聯性指導方針](relationships-bidirectional-filtering.md)
 - [作用中與非作用中關聯性指導方針](relationships-active-inactive.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)
+
+

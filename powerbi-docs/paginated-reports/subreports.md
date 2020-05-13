@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 65d1401a66f8e670df1af3097f0e99fb6b647022
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82615695"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272802"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI 分頁報表中的子報表
 
@@ -74,7 +74,7 @@ Power BI Report Builder 可處理電腦上的分頁報表 (也稱為本機報表
   
  子報表可放在報表主體或資料區域中。 如果將子報表放在資料區域中，子報表就會在資料區域中重複群組或資料列的每一個執行個體。 您可將群組或資料列中的值傳遞至子報表。 在子報表值屬性中，對包含要傳遞給子報表參數的值欄位使用欄位運算式。  
   
- 如需使用參數和子報表的詳細資訊，請參閱 SQL Server Reporting Services 文件的[新增子報表和參數](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs.md)。  
+ 如需使用參數和子報表的詳細資訊，請參閱 SQL Server Reporting Services 文件的[新增子報表和參數](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs)。  
 
 ## <a name="preview-paginated-reports-in-report-builder"></a>在 Report Builder 中預覽分頁報表
 

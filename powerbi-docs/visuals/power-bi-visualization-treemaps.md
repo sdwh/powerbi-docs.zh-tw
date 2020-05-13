@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: afc18fa33ec1612900cecc0a34eb50851804fb62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866878"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276689"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI 中的矩形式樹狀結構圖
 
@@ -120,10 +120,11 @@ ms.locfileid: "82866878"
 1. 在 [依鏈結的去年銷售額]  圓形圖中，選取 [Fashion Direct]  配量，對矩形式樹狀結構圖進行交叉篩選。
    ![交叉篩選功能的 GIF 示範。](media/power-bi-visualization-treemaps/treemapnoowl.gif)
 
-1. 若要管理圖表互相交叉醒目提示及交叉篩選的方式，請參閱[變更 Power BI 報表中的視覺效果互動方式](../service-reports-visual-interactions.md)。
+1. 若要管理圖表互相交叉醒目提示及交叉篩選的方式，請參閱[變更 Power BI 報表中的視覺效果互動方式](../create-reports/service-reports-visual-interactions.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
 * [Power BI 中的瀑布圖](power-bi-visualization-waterfall-charts.md)
 
 * [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+

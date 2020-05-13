@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637592"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83132051"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI 的資料保護 (預覽)
 
@@ -113,6 +113,6 @@ ms.locfileid: "81637592"
 本文提供 Power BI 資料保護概觀。 下列文章提供 Power BI 資料保護的詳細資料。 
 
 * [在 Power BI 中啟用資料敏感度標籤](service-security-enable-data-sensitivity-labels.md)
-* [在 Power BI 中套用資料敏感度標籤](../designer/service-security-apply-data-sensitivity-labels.md)
+* [在 Power BI 中套用資料敏感度標籤](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [在 Power BI 中使用 Microsoft Cloud App Security 控制項](service-security-using-microsoft-cloud-app-security-controls.md)
 * [資料保護計量報表](service-security-data-protection-metrics-report.md)

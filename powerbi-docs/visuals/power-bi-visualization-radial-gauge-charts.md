@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7c6c4dbe9f17464483f5b44542ffbe04f715d4bd
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866924"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276344"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的星形量測計圖表
 
@@ -116,7 +116,7 @@ ms.locfileid: "82866924"
 
 ### <a name="step-5-save-your-report"></a>步驟 5：儲存報表
 
-1. [儲存報表](../service-report-save.md)。
+1. [儲存報表](../create-reports/service-report-save.md)。
 
 ## <a name="use-manual-format-options-to-set-minimum-maximum-and-target-values"></a>使用手動格式選項來設定最小值、最大值與目標值
 
@@ -151,3 +151,4 @@ ms.locfileid: "82866924"
 * [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
+

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 23291659a12bb08becf0d9a4f57a41a93eadbc5e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e317b9205878ca9a22a652a7ffb1f4718ab63efc
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435574"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276091"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>取得 Power BI 行動裝置應用程式中的通知
 適用於：
@@ -72,8 +72,7 @@ ms.locfileid: "79435574"
     ![選擇 [通知]](./media/mobile-apps-notification-center/power-bi-notifications-windows10-settings.png)
 
 ## <a name="next-steps"></a>後續步驟
-* [Power BI 服務中的資料警示](../../service-set-data-alerts.md)
+* [Power BI 服務中的資料警示](../../create-reports/service-set-data-alerts.md)
 * [在 iPhone App (Power BI for iOS) 中設定資料警示](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [在 Power BI for Windows 10 行動裝置 App 中設定資料警示](mobile-set-data-alerts-in-the-mobile-apps.md)
 * 針對行動裝置，[下載最新版本的 Power BI 應用程式](https://powerbi.microsoft.com/mobile/)
-

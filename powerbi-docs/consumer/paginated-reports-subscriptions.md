@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: d3813636010dcbf5c866248111755beb0dca99b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c7f377c1295d4cd8f0d226331fcb6db697786e5a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74834624"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141256"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的分頁報表 
 
@@ -39,7 +39,6 @@ ms.locfileid: "74834624"
 
 ## <a name="next-steps"></a>後續步驟
 
-[為您自己和其他人訂閱 Power BI 服務中的報表和儀表板](../service-report-subscribe.md)
+[為您自己和其他人訂閱 Power BI 服務中的報表和儀表板](../collaborate-share/service-report-subscribe.md)
 
 [Power BI 服務中的編頁報表](end-user-paginated-report.md)
-

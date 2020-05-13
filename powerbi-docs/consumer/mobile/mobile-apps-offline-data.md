@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cfb5e4f1f75437db6235ece0d8661bab3f008649
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435436"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148423"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中離線檢視資料
 適用於：
@@ -44,7 +44,7 @@ ms.locfileid: "79435436"
 > [!NOTE]
 > 您的組織設定 Microsoft Intune MAM 之後，如果您在 iOS 裝置上使用 Power BI 行動裝置應用程式，則背景的資料重新整理會關閉。 下次進入應用程式時，Power BI 會從網路上的 Power BI 服務重新整理資料。
 > 
-> 深入了解[使用 Microsoft Intune 設定 Power BI 行動裝置應用程式](../../service-admin-mobile-intune.md)。 
+> 深入了解[使用 Microsoft Intune 設定 Power BI 行動裝置應用程式](../../admin/service-admin-mobile-intune.md)。 
 > 
 > 
 

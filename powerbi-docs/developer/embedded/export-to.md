@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1d51c16502d3217e0158add2126d0b5726d87ff1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525460"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83144721"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>將 Power BI 報表匯出至檔案 (預覽)
 
@@ -34,7 +34,7 @@ ms.locfileid: "81525460"
 
 ## <a name="using-the-api"></a>使用 API
 
-使用 API 之前，請確認已啟用下列[系統管理租用戶設定](../../service-admin-portal.md#tenant-settings)：
+使用 API 之前，請確認已啟用下列[系統管理租用戶設定](../../admin/service-admin-portal.md#tenant-settings)：
 * **將報表匯出成 PowerPoint 簡報或 PDF 文件** - 預設為啟用。
 * **將報表匯出為影像檔** - 只有 *.png* 才需要，預設停用。
 

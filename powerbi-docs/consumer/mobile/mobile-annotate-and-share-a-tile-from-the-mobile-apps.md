@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31a899001b5a821a38a3de01db0357c26f2e58dc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205496"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149194"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中標註並共用磚、報表或視覺效果。
 適用於：
@@ -28,7 +28,7 @@ ms.locfileid: "79205496"
 
 包含註解的報表 
 
-具有圖格、報告或視覺效果快照集的郵件也包括 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 上實際物件的連結。 如果您和您的收件者都具有 Power BI Pro 授權或內容位於 [Premium 容量](../../service-premium-what-is.md)中，且您已經與收件者共用項目，收件者只需按一下連結就能直接前往圖格、報表或視覺效果。 
+具有圖格、報告或視覺效果快照集的郵件也包括 Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 上實際物件的連結。 如果您和您的收件者都具有 Power BI Pro 授權或內容位於 [Premium 容量](../../admin/service-premium-what-is.md)中，且您已經與收件者共用項目，收件者只需按一下連結就能直接前往圖格、報表或視覺效果。 
 
 您也可以[從 Power BI for Windows 10 裝置的行動裝置應用程式共用圖格](mobile-windows-10-phone-app-get-started.md)，但不能標註磚。
 
@@ -74,4 +74,3 @@ ms.locfileid: "79205496"
 ## <a name="next-steps"></a>後續步驟
 * [從 Power BI 行動裝置應用程式共用儀表板](mobile-share-dashboard-from-the-mobile-apps.md)
 * 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

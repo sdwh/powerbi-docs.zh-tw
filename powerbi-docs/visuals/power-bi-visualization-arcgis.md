@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c296e202dccf814fcb9e1a4c6ee0620185723248
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 34c0287c8a4df296e41826f32de95b0c050c8d08
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865682"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277287"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>在 Power BI Desktop 中建立 ArcGIS 地圖
 
@@ -73,7 +73,7 @@ ArcGIS Maps for Power BI 由 Esri (https://www.esri.com) 提供。 因此，您�
    
 ## <a name="create-an-arcgis-maps-for-power-bi-map-visualization"></a>建立 ArcGIS Maps for Power BI 地圖視覺效果
 
-觀看影片中 Will 如何建立幾個不同的視覺效果，然後使用以下步驟，以[零售分析範例 .PBIX 檔案](../sample-datasets.md)親自試試看。
+觀看影片中 Will 如何建立幾個不同的視覺效果，然後使用以下步驟，以[零售分析範例 .PBIX 檔案](../create-reports/sample-datasets.md)親自試試看。
     
 
    > [!NOTE]
@@ -368,4 +368,5 @@ ArcGIS Maps for Power BI 會自動偵測國家/地區、州/省和郵遞區號�
 [宣布 ArcGIS maps for Power BI 正式運作的部落格文章](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+
 

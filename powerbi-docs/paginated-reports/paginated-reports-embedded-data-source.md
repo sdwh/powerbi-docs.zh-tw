@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 83fadfe5f690a87563d20b9c6385b9a37193b9c9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b70db42732143d5db938ad793be8aa3997ecdd8c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921761"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276896"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料來源
 
@@ -27,11 +27,11 @@ ms.locfileid: "78921761"
 - Oracle 
 - Teradata 
 
-針對下列資料來源，使用 [SQL Server Analysis Services 連線](../service-premium-connect-tools.md)選項：
+針對下列資料來源，使用 [SQL Server Analysis Services 連線](../admin/service-premium-connect-tools.md)選項：
 
 - Power BI Premium 資料集
 
-分頁報表會透過 [Power BI 閘道](../service-gateway-onprem.md)連線至內部部署資料來源。 您會在將報表發行至 Power BI 服務之後設定閘道。
+分頁報表會透過 [Power BI 閘道](../connect-data/service-gateway-onprem.md)連線至內部部署資料來源。 您會在將報表發行至 Power BI 服務之後設定閘道。
 
 請參閱 [Power BI 報表產生器中的報表資料](report-builder-data.md)以取得詳細資訊。
 
@@ -93,3 +93,4 @@ ms.locfileid: "78921761"
 
 - [在 Power BI 服務中建立適用於編頁報表的內嵌資料集](paginated-reports-create-embedded-dataset.md)
 - [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)
+

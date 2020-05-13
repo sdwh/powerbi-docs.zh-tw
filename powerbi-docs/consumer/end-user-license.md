@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 8610f5c0efbc3da394e4de7c263a88aad813eae2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 14e3b0f2956252e0b09abcf314d6e14b9a9709ad
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065992"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83129490"
 ---
 # <a name="using-the-power-bi-service-as-a-consumer"></a>以「取用者」  身分使用 Power BI 服務
 
@@ -47,7 +47,7 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 在這些工作區中，設計師會指派角色 (例如**檢視者**、**參與者**、**成員**與**系統管理員**)，以決定每位同事能與內容互動的範圍。 如需詳細資訊，請參閱[工作區權限與角色。](end-user-workspaces.md) 
 
-如需 Premium 容量的詳細資訊，請參閱[什麼是 Microsoft Power BI Premium？](../service-premium-what-is.md)。
+如需 Premium 容量的詳細資訊，請參閱[什麼是 Microsoft Power BI Premium？](../admin/service-premium-what-is.md)。
 
 
 ## <a name="find-out-which-licenses-you-have"></a>了解您擁有的授權

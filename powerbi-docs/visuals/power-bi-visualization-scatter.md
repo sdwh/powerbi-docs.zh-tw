@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866901"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276827"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散佈圖、泡泡圖與點圖
 
@@ -177,13 +177,13 @@ ms.locfileid: "82866901"
 
 ![已將 [TempTime] 新增至 [詳細資料] 部分的散佈圖螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
-若要建立新的欄位，請[使用 Power BI Desktop 查詢編輯器新增索引資料行](../desktop-add-custom-column.md)至資料集。 然後將此資料行新增至您視覺效果的 [詳細資料]  部分。
+若要建立新的欄位，請[使用 Power BI Desktop 查詢編輯器新增索引資料行](../create-reports/desktop-add-custom-column.md)至資料集。 然後將此資料行新增至您視覺效果的 [詳細資料]  部分。
 
 ## <a name="next-steps"></a>後續步驟
 
 您可能也會對下列文章感興趣：
 
-* [Power BI 散佈圖中的高密度取樣](desktop-high-density-scatter-charts.md)
+* [Power BI 散佈圖中的高密度取樣](../create-reports/desktop-high-density-scatter-charts.md)
 * [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
 * [排序和散發 Power BI 報表中資料繪圖的提示](../guidance/report-tips-sort-distribute-data-plots.md)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0481a09aaeac4f6c76c49d3a816ac880cdb9d60b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e82c82430b42874e512265b9dae113b86925a51d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114066"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273262"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 的儀表板圖格
 
@@ -69,7 +69,7 @@ ms.locfileid: "79114066"
 3. 若要關閉動作功能表，選取畫布中的空白區域。
 
 ### <a name="select-click-a-tile"></a>選取 (按一下) 圖格
-當您選取磚時，接下來的情況取決於該磚的建立方式，以及其是否有[自訂連結](../service-dashboard-edit-tile.md)。 如果有自訂連結，則選取圖格會帶您前往該連結。 否則，選取磚會帶您前往建立此磚所使用的報表、Excel Online 活頁簿、內部部署 SSRS 報表或問與答。
+當您選取磚時，接下來的情況取決於該磚的建立方式，以及其是否有[自訂連結](../create-reports/service-dashboard-edit-tile.md)。 如果有自訂連結，則選取圖格會帶您前往該連結。 否則，選取磚會帶您前往建立此磚所使用的報表、Excel Online 活頁簿、內部部署 SSRS 報表或問與答。
 
 > [!NOTE]
 > 使用 [新增磚]  直接在儀表板上建立的影片圖格為例外。 選取影片磚 (以此方式建立) 會直接在儀表板上播放視訊。   
@@ -85,6 +85,8 @@ ms.locfileid: "79114066"
 * 如果用來建立圖格的原始視覺效果有了變更，也不會改變圖格。  例如，如果「設計工具」  已從報表釘選折線圖，然後將折線圖變更為長條圖，則儀表板圖格仍會顯示折線圖。 資料會重新整理，但視覺效果類型不會。
 
 ## <a name="next-steps"></a>後續步驟
-[資料重新整理](../refresh-data.md)
+[資料重新整理](../connect-data/refresh-data.md)
 
 [Power BI - 基本概念](end-user-basic-concepts.md)
+
+

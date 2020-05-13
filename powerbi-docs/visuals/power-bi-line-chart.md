@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867016"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274182"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI 中的折線圖
 
@@ -32,7 +32,7 @@ ms.locfileid: "82867016"
 > [!NOTE]
 > 若要與 Power BI 同事共用報表，必須兩人都擁有個人的 Power BI Pro 授權，或將報表儲存在 Premium 容量中。
 
-1. 從空白報表頁面開始。 如果您使用 Power BI 服務，請務必在[編輯檢視](../service-interact-with-a-report-in-editing-view.md)中開啟報表。
+1. 從空白報表頁面開始。 如果您使用 Power BI 服務，請務必在[編輯檢視](../create-reports/service-interact-with-a-report-in-editing-view.md)中開啟報表。
 
 2. 從 [欄位] 窗格，選取 [SalesFact]  \> [Total units]  \(單位總量\)，然後選取 [Date]  \(日期\) > [Month]  \(月份\)。  Power BI 會在您的報表畫布上建立一個直條圖。
 
@@ -74,7 +74,7 @@ ms.locfileid: "82867016"
    ![高度發散的值](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
-如需使用 [篩選] 窗格的資訊，請參閱[將篩選加入報表](../power-bi-report-add-filter.md)。
+如需使用 [篩選] 窗格的資訊，請參閱[將篩選加入報表](../create-reports/power-bi-report-add-filter.md)。
 
 在折線圖上選取一個資料點會交叉醒目提示和交叉篩選報表頁面上的其他視覺效果，反之亦然。 若要跟著做，請開啟 [市場佔有率]  索引標籤。  
 
@@ -86,7 +86,7 @@ ms.locfileid: "82867016"
 
 注意直條圖交叉醒目提示的方式，以及量測計交叉篩選的方式。
 
-若要管理圖表互相交叉醒目提示及交叉篩選的方式，請參閱[在 Power BI 報表中與視覺效果互動](../service-reports-visual-interactions.md)
+若要管理圖表互相交叉醒目提示及交叉篩選的方式，請參閱[在 Power BI 報表中與視覺效果互動](../create-reports/service-reports-visual-interactions.md)
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 * 一個折線圖不能有兩個 Y 軸。  您必須改用組合圖。
@@ -95,5 +95,8 @@ ms.locfileid: "82867016"
 ## <a name="next-steps"></a>後續步驟
 
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+
 
 
