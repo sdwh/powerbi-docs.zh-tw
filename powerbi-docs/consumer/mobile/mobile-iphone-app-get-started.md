@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: c766393c9a4c81c484afe6f934e1ebb8314d0fb9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 56b3a4f67f5bc6dda777ea7c94b92c65abb4f3b0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77426625"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349394"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>開始在 iOS 裝置上使用 Power BI 行動裝置應用程式
 iPhone 和 iPad 的 iOS 版 Microsoft Power BI 應用程式會傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 透過 [Apple Watch](mobile-apple-watch.md)，隨時掌握最即時的資料。  
@@ -22,7 +22,7 @@ iPhone 和 iPad 的 iOS 版 Microsoft Power BI 應用程式會傳遞 Power BI、
 
 在 Power BI Desktop 中建立 Power BI 報表，並發行報表：
 
-* [將它們發行至 Power BI 服務](../../service-get-started.md)，並建立儀表板。
+* [將它們發行至 Power BI 服務](../../fundamentals/service-get-started.md)，並建立儀表板。
 * [將內部部署的報表發佈至 Power BI 報表伺服器](../../report-server/quickstart-create-powerbi-report.md)。
 
 然後在 Power BI for iOS 行動裝置應用程式中，與您內部部署或雲端中的儀表板和報表互動。
@@ -79,11 +79,9 @@ Microsoft Intune 讓組織可以控制像是要求存取 PIN、控制應用程�
 > 如果您在 iOS 裝置上使用 Power BI 行動裝置應用程式，而且您的組織已設定 Microsoft Intune MAM，則會關閉背景資料重新整理。 下次進入應用程式時，Power BI 會從網路上的 Power BI 服務重新整理資料。
 > 
 
-深入了解[使用 Microsoft Intune 設定 Power BI 行動裝置應用程式](../../service-admin-mobile-intune.md)。 
+深入了解[使用 Microsoft Intune 設定 Power BI 行動裝置應用程式](../../admin/service-admin-mobile-intune.md)。 
 
 ## <a name="next-steps"></a>後續步驟
 
 * [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-
-

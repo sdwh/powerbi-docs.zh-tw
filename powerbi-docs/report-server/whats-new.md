@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381299"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348152"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
@@ -23,8 +23,8 @@ ms.locfileid: "79381299"
 
 如需相關的 Power BI「新功能」資訊，請參閱︰
 
-* [Power BI 服務的新功能](../service-whats-new.md)
-* [Power BI Desktop 的新功能](../desktop-latest-update.md)
+* [Power BI 服務的新功能](../fundamentals/service-whats-new.md)
+* [Power BI Desktop 的新功能](../fundamentals/desktop-latest-update.md)
 * [Power BI 行動裝置 App 的新功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="january-2020"></a>2020 年 1 月
@@ -128,7 +128,7 @@ KPI 視覺效果格式設定
 
 當報表建立者開啟 .pbids 檔案時，Power BI Desktop 會提示您進行驗證，以連線到檔案中指定的資料來源。 然後，使用者選取要載入模型中的資料表。 他們可能也需要選取資料庫 (如果檔案中未指定的話)。 報表建立者可以從該處開始建立視覺效果。
 
-《Power BI Desktop 中的資料來源》一文的[使用 .pbids 檔案來取得資料](../desktop-data-sources.md#using-pbids-files-to-get-data)小節中，可找到詳細資訊和範例。
+《Power BI Desktop 中的資料來源》一文的[使用 .pbids 檔案來取得資料](../connect-data/desktop-data-sources.md#using-pbids-files-to-get-data)小節中，可找到詳細資訊和範例。
 
 模型化作業的效能改善 
 
@@ -239,11 +239,11 @@ Power BI 報表伺服器的 2019 年 9 月更新包含了許多 Power BI 報表�
 
 #### <a name="performance-analyzer"></a>效能分析器 
 
-如果您的報表執行速度比預期慢，請嘗試使用 Power BI Desktop 中的效能分析器。 當您予以啟動時，它會建立一個記錄檔，其中包含您在報表中所採取之每個動作的相關資訊。 深入了解[效能分析器](../desktop-performance-analyzer.md)。
+如果您的報表執行速度比預期慢，請嘗試使用 Power BI Desktop 中的效能分析器。 當您予以啟動時，它會建立一個記錄檔，其中包含您在報表中所採取之每個動作的相關資訊。 深入了解[效能分析器](../create-reports/desktop-performance-analyzer.md)。
 
 #### <a name="new-modeling-view"></a>新的模型檢視
 
-在 Power BI Desktop 的新模型檢視中，您可以檢視並處理包含許多資料表的複雜資料集。 重點包括多個圖表配置，以及資料行、量值和資料表的大量編輯。 深入了解[模型檢視](../desktop-modeling-view.md)。
+在 Power BI Desktop 的新模型檢視中，您可以檢視並處理包含許多資料表的複雜資料集。 重點包括多個圖表配置，以及資料行、量值和資料表的大量編輯。 深入了解[模型檢視](../transform-model/desktop-modeling-view.md)。
 
 #### <a name="accessible-visual-interaction"></a>無障礙的視覺效果互動
 
@@ -251,11 +251,11 @@ Power BI 報表伺服器的 2019 年 9 月更新包含了許多 Power BI 報表�
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>條件式格式設定標題和 Web URL 動作
 
-Power BI 報表是互動式報表。 很明顯，報表中的標題會是動態的，用來反映報表的目前狀態。 您可以使用相同的運算式繫結格式設定，讓按鈕、圖形與影像的 URL 成為動態項目。 深入了解[以運算式為基礎的標題](../desktop-conditional-format-visual-titles.md)。
+Power BI 報表是互動式報表。 很明顯，報表中的標題會是動態的，用來反映報表的目前狀態。 您可以使用相同的運算式繫結格式設定，讓按鈕、圖形與影像的 URL 成為動態項目。 深入了解[以運算式為基礎的標題](../create-reports/desktop-conditional-format-visual-titles.md)。
 
 #### <a name="cross-highlight-by-axis-labels"></a>依軸標籤的交叉醒目提示
 
-選取視覺效果中的軸類別標籤，以交叉醒目提示頁面上的其他項目，就像您在視覺效果中選取資料點一樣。 深入了解[交叉醒目提示](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)。
+選取視覺效果中的軸類別標籤，以交叉醒目提示頁面上的其他項目，就像您在視覺效果中選取資料點一樣。 深入了解[交叉醒目提示](../create-reports/power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)。
 
 #### <a name="all-the-new-features"></a>所有新功能
 

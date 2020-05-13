@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8a3a80ea7bb318944961a57ac6fdac695aa46253
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205519"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349440"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視儀表板和報表
 適用於：
@@ -29,8 +29,8 @@ ms.locfileid: "79205519"
 
 若要在您的行動裝置上查看儀表板和報表，您需要在網頁瀏覽器中建立或連線到該儀表板和報表。 
 
-1. 前往 Power BI 服務 ([https://www.powerbi.com](https://www.powerbi.com))，然後[註冊帳戶](../../service-self-service-signup-for-power-bi.md)。
-2. [建立您自己的 Power BI 儀表板和報表](../../service-get-started.md)，或連線到現有的 [Power BI 應用程式](../../service-connect-to-services.md)來取得各項服務，例如 [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md)。
+1. 前往 Power BI 服務 ([https://www.powerbi.com](https://www.powerbi.com))，然後[註冊帳戶](../../fundamentals/service-self-service-signup-for-power-bi.md)。
+2. [建立您自己的 Power BI 儀表板和報表](../../fundamentals/service-get-started.md)，或連線到現有的 [Power BI 應用程式](../../connect-data/service-connect-to-services.md)來取得各項服務，例如 [Microsoft Dynamics CRM](../../connect-data/service-connect-to-services.md)。
 
 這是 Power BI 服務中的其中一個 Power BI 儀表板：
 
@@ -45,14 +45,14 @@ ms.locfileid: "79205519"
     ![點選儀表板](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
    * 黃色星星 ![我的最愛星星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 會顯示您最愛的儀表板。 
-   * 每個儀表板名稱下的標記法 (在此例中為 "MBI") ![資料分類](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)會顯示每個儀表板中資料的分類方式。 深入了解 [Power BI 的資料分類](../../service-data-classification.md)。
+   * 每個儀表板名稱下的標記法 (在此例中為 "MBI") ![資料分類](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)會顯示每個儀表板中資料的分類方式。 深入了解 [Power BI 的資料分類](../../create-reports/service-data-classification.md)。
    
    Power BI 儀表板預設在 iPhone 上看起來會略有不同。 所有圖格會以相同的大小出現，且其排列方式為從上到下逐一排列。
    
     ![儀表板直向檢視](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
-   > 如果您是儀表板的擁有者，在 Power BI 服務中，您可以[建立手機直向模式專用的儀表板檢視](../../service-create-dashboard-mobile-phone-view.md)。 
+   > 如果您是儀表板的擁有者，在 Power BI 服務中，您可以[建立手機直向模式專用的儀表板檢視](../../create-reports/service-create-dashboard-mobile-phone-view.md)。 
    > 
    > 
    
@@ -85,7 +85,7 @@ ms.locfileid: "79205519"
    ![儀表板首頁](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * 黃色星星 ![我的最愛星星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 會顯示您最愛的儀表板。 
-   * 每個儀表板名稱下的標記法 (在此例中為 "MBI") ![資料分類](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)會顯示每個儀表板中資料的分類方式。 深入了解 [Power BI 的資料分類](../../service-data-classification.md)。
+   * 每個儀表板名稱下的標記法 (在此例中為 "MBI") ![資料分類](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)會顯示每個儀表板中資料的分類方式。 深入了解 [Power BI 的資料分類](../../create-reports/service-data-classification.md)。
 3. 您可以從工作區中共用儀表板。 點選儀表板磚右下角的省略符號 ( **...** )，然後點選 [邀請其他人]  。
    
    ![邀請圖示](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
@@ -109,13 +109,13 @@ ms.locfileid: "79205519"
 
     黃色星形 ![我的最愛星星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 會顯示您最愛的儀表板。 
 
-    每個儀表板名稱下的標記法 (在此例中為 "MBI") ![資料分類](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)顯示每個儀表板中資料的分類方式。 深入了解 [Power BI 的資料分類](../../service-data-classification.md)。
+    每個儀表板名稱下的標記法 (在此例中為 "MBI") ![資料分類](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)顯示每個儀表板中資料的分類方式。 深入了解 [Power BI 的資料分類](../../create-reports/service-data-classification.md)。
 
     Power BI 儀表板在您的 Android 手機上看起來稍有不同。 所有圖格會以相同的寬度出現，且其排列方式為從上到下逐一排列。
 
     ![儀表板直向檢視](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-    如果您是儀表板的擁有者，在 Power BI 服務中，您可以[建立手機直向模式專用的儀表板檢視](../../service-create-dashboard-mobile-phone-view.md)。 
+    如果您是儀表板的擁有者，在 Power BI 服務中，您可以[建立手機直向模式專用的儀表板檢視](../../create-reports/service-create-dashboard-mobile-phone-view.md)。 
 
 1. 在儀表板中時，您可以點選名稱旁邊的垂直 [更多選項]  (...) 按鈕來邀請同事、重新整理，或取得儀表板的相關資訊：
    
@@ -132,7 +132,7 @@ ms.locfileid: "79205519"
    ![儀表板首頁](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * 黃色星星 ![我的最愛星星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 顯示您最愛的儀表板。 
-   * 每個儀表板名稱下的標記法 (在此例中為 "MBI") ![資料分類](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)會顯示每個儀表板中資料的分類方式。 深入了解 [Power BI 的資料分類](../../service-data-classification.md)。
+   * 每個儀表板名稱下的標記法 (在此例中為 "MBI") ![資料分類](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)會顯示每個儀表板中資料的分類方式。 深入了解 [Power BI 的資料分類](../../create-reports/service-data-classification.md)。
 3. 在儀表板中時，您可以點選名稱旁邊的垂直 [更多選項]  (...) 按鈕來邀請同事、重新整理，或取得儀表板的相關資訊：
    
    ![省略符號功能表](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -150,11 +150,10 @@ ms.locfileid: "79205519"
 
 ![儀表板手機檢視](./media/mobile-apps-view-dashboard/power-bi-phone-dashboard-in-progress.png)
 
-深入了解[建立儀表板的手機檢視](../../service-create-dashboard-mobile-phone-view.md)。
+深入了解[建立儀表板的手機檢視](../../create-reports/service-create-dashboard-mobile-phone-view.md)。
 
 ## <a name="next-steps"></a>後續步驟
 * 從 Google Play [下載 Android 應用程式](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [開始使用適用於 Power BI 的 Android App](mobile-android-app-get-started.md)  
 * [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)
 * 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: efc316e93bea9cfc1b3f429657ac2810e13f4e63
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76975002"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349463"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>建立 Power BI 報表伺服器的 Power BI 報表
 您可在 Power BI 報表伺服器入口網站儲存和管理內部部署 Power BI 報表，如同您可在 Power BI 服務 (https://powerbi.com) ) 中將 Power BI 報表儲存於雲端一樣。 在 Power BI Desktop 中建立和編輯報表，並將其發行至入口網站。 接著您組織的報表讀者就可在瀏覽器，或在行動裝置上的 Power BI 行動裝置應用程式中加以檢視。
@@ -79,7 +79,7 @@ ms.locfileid: "76975002"
 2. 將要計算的欄位拖曳至 [值]  。 如果不是數值欄位，Power BI Desktop 會自動將其轉為「計數」  值。
 3. 將要分組的欄位拖曳至 [群組]  。
 
-閱讀更多有關[設計 Power BI 報表](../desktop-report-view.md)的內容。
+閱讀更多有關[設計 Power BI 報表](../create-reports/desktop-report-view.md)的內容。
 
 ## <a name="step-4-save-your-report-to-the-report-server"></a>步驟 4：將報表儲存至報表伺服器
 當您的報表就緒時，就將其儲存到您在步驟 2 中選擇的 Power BI 報表伺服器。
@@ -98,7 +98,7 @@ ms.locfileid: "76975002"
 ### <a name="power-bi-desktop"></a>Power BI Desktop
 有許多絕佳的資源可用來在 Power BI Desktop 中建立報表。 此連結是不錯的起點。
 
-* [開始使用 Power BI Desktop](../desktop-getting-started.md)
+* [開始使用 Power BI Desktop](../fundamentals/desktop-getting-started.md)
 * 引導式學習：[探索 Power BI Desktop](/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop)
 
 ### <a name="power-bi-report-server"></a>Power BI 報表伺服器

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a22bba65b44446e7027627a24ebcf316f8f073d4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79039970"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348382"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>關於 Power BI 的常見問題集
 
@@ -42,21 +42,21 @@ Power BI Premium 提供專用容量，以提供更一致的效能。 它也在 P
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>對 Power BI Premium 有疑問時該怎麼辦？
 
-有關 Power BI Premium 的問題，請參閱 [Power BI Premium 常見問題集](../service-premium-faq.md)。
+有關 Power BI Premium 的問題，請參閱 [Power BI Premium 常見問題集](../admin/service-premium-faq.md)。
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop 是什麼？
 
-Power BI Desktop 是免費應用程式，您可以直接在自己的電腦上安裝。 Power BI Desktop 與 Power BI 服務密切合作。  資料科學家、報表設計師、管理員與開發人員可以使用 Power BI Desktop 產生報表，並提供給 Power BI 服務「取用者」  ，就像您。 閱讀更多有關[什麼是 Power BI Desktop](../desktop-what-is-desktop.md) 的內容。
+Power BI Desktop 是免費應用程式，您可以直接在自己的電腦上安裝。 Power BI Desktop 與 Power BI 服務密切合作。  資料科學家、報表設計師、管理員與開發人員可以使用 Power BI Desktop 產生報表，並提供給 Power BI 服務「取用者」  ，就像您。 閱讀更多有關[什麼是 Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) 的內容。
 
 ## <a name="what-do-i-need-to-use-the-power-bi-service-as-a-consumer"></a>以「取用者」  身分使用 Power BI 服務需要準備什麼？
 
 如果您的公司已購買 Power BI 授權或 Premium 容量帳戶，您只需要網頁瀏覽器與認證。 若要登入，您將會使用您的公司電子郵件地址與密碼 (由您的 Power BI 管理員所設定)。  
 
-您也能以個人身分註冊 Power BI 服務。 請參閱 [Power BI 自助式註冊程序](../service-self-service-signup-for-power-bi.md)
+您也能以個人身分註冊 Power BI 服務。 請參閱 [Power BI 自助式註冊程序](../fundamentals/service-self-service-signup-for-power-bi.md)
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>為什麼必須註冊我的公司電子郵件？
 
-Power BI 不支援消費者電子郵件服務或電信提供者所提供的電子郵件地址。 深入了解 [Power BI 自助式註冊程序](../service-self-service-signup-for-power-bi.md)。
+Power BI 不支援消費者電子郵件服務或電信提供者所提供的電子郵件地址。 深入了解 [Power BI 自助式註冊程序](../fundamentals/service-self-service-signup-for-power-bi.md)。
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI 支援行動裝置嗎？
 
@@ -80,12 +80,12 @@ Power BI 不支援消費者電子郵件服務或電信提供者所提供的電�
 
 下列資源可用來幫助您開始使用：
 
-* [Power BI 部落格](https://blogs.msdn.com/b/powerbi/)
-* [網路研討會](../webinars.md)
+* [Power BI 部落格](https://powerbi.microsoft.com/blog/)
+* [網路研討會](../fundamentals/webinars.md)
 * 我們 [YouTube 頻道](https://www.youtube.com/user/mspowerbi)上的使用者入門影片
 * [以「取用者」  身分開始使用 Power BI](index.yml) 一文
 * [加入我們的社群](https://community.powerbi.com/)和提出問題
-* 請參閱[取得協助的 10 個訣竅](../service-tips-for-finding-help.md)來得到更多的建議。
+* 請參閱[取得協助的 10 個訣竅](../fundamentals/service-tips-for-finding-help.md)來得到更多的建議。
 
 ## <a name="what-browsers-does-power-bi-support"></a>Power BI 支援哪些瀏覽器？
 
@@ -93,7 +93,7 @@ Power BI 不支援消費者電子郵件服務或電信提供者所提供的電�
 
 ## <a name="what-regions-and-languages-does-power-bi-support"></a>Power BI 支援哪些區域及語言？
 
-以下是 [Power BI 支援的區域和語言](../supported-languages-countries-regions.md)完整清單。
+以下是 [Power BI 支援的區域和語言](../fundamentals/supported-languages-countries-regions.md)完整清單。
 
 ## <a name="where-can-i-learn-more-about-security"></a>我可以在哪裡深入了解安全性？
 
@@ -101,7 +101,7 @@ Power BI 不支援消費者電子郵件服務或電信提供者所提供的電�
 
 * 此份 [Power BI 安全性](https://go.microsoft.com/fwlink/?LinkId=829185)白皮書
 
-* 這篇 [Power BI 安全性支援](../service-admin-power-bi-security.md)文章
+* 這篇 [Power BI 安全性支援](../admin/service-admin-power-bi-security.md)文章
 
 ## <a name="how-do-i-undo-in-power-bi"></a>在 Power BI 中如何復原？
 

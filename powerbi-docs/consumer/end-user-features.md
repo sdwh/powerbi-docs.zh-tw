@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 088844ccf52a67cfd67590e62a2dd8cab83add66
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065706"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348405"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>「取用者」  與其他免費授權使用者可使用的 Power BI 功能清單
 
@@ -23,7 +23,7 @@ ms.locfileid: "82065706"
 
 身為「取用者」  ，您可以使用 Power BI 服務來探索報表和儀表板，以制定商業決策。 這些報表與儀表板是由具有 Power BI *Pro* 授權的「設計者」  所建立。 Pro 使用者能夠與同事共用內容，並限制同事可以和不能對該內容採取的動作。 有時候，設計者會藉由傳送連結來共用內容，有時內容會自動安裝，並顯示於 Power BI 中的 [應用程式]  或 [與我共用]  下。
 
-設計者有各種不同的方式可以共用內容。 但本文適用於 Power BI「取用者」  ，因此只會描述取用者如何接收內容並與其互動。 如需其他共用內容方式的詳細資訊，請參閱[在 Power BI 中共用成品的方式](../service-how-to-collaborate-distribute-dashboards-reports.md)。
+設計者有各種不同的方式可以共用內容。 但本文適用於 Power BI「取用者」  ，因此只會描述取用者如何接收內容並與其互動。 如需其他共用內容方式的詳細資訊，請參閱[在 Power BI 中共用成品的方式](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)。
 
 ![Power BI 瀏覽窗格](media/end-user-features/power-bi-share.png)
 
@@ -47,7 +47,7 @@ ms.locfileid: "82065706"
 ### <a name="licenses"></a>授權 
 每個 Power BI 服務使用者都有免費授權或 Pro 授權。 「取用者」  擁有免費授權。
 
-- **免費授權** - 通常會指派給組織內的「取用者」  (見下圖一)。 任何要以個人身分註冊 Power BI 服務，並想要[在獨立模式中試用 Power BI 服務](../service-self-service-signup-for-power-bi.md)的使用者，也會指派以免費授權 (見下圖二)。 
+- **免費授權** - 通常會指派給組織內的「取用者」  (見下圖一)。 任何要以個人身分註冊 Power BI 服務，並想要[在獨立模式中試用 Power BI 服務](../fundamentals/service-self-service-signup-for-power-bi.md)的使用者，也會指派以免費授權 (見下圖二)。 
 
     ![顯示免費使用者的畫面](media/end-user-features/power-bi-free-organization.png)
 

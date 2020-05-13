@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 557334ed8aecccd646fde92a6d2cfa7852aff36b
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77259784"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347209"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>開始在 Android 裝置上使用 Power BI 行動裝置應用程式
 Microsoft Power BI for Android 應用程式傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 
@@ -46,7 +46,7 @@ Power BI 可以在多種不同的 Android 裝置 (執行 Android 5.0 作業系�
 如果您尚未註冊，請前往 [Power BI 服務](https://powerbi.com/)來註冊您用來建立及儲存儀表板和報表的專屬帳戶，並將您的資料匯聚在一起。 然後從您的 Android 裝置登入 Power BI，藉此可從任何地方查看您自己的儀表板。
 
 1. 在 Power BI 服務中，點選 [註冊](https://go.microsoft.com/fwlink/?LinkID=513879) 來建立 Power BI 帳戶。
-2. 開始[建立您自己的儀表板和報表](../../service-get-started.md)。
+2. 開始[建立您自己的儀表板和報表](../../fundamentals/service-get-started.md)。
 
 ## <a name="get-started-with-the-power-bi-app-on-your-device"></a>開始在您的裝置上使用 Power BI 應用程式
 1. 在您的 Android 裝置上，從開始畫面開啟 Power BI for Android 應用程式。
@@ -94,17 +94,17 @@ Microsoft Intune 讓組織可以控制像是要求存取 PIN、控制應用程�
 > 
 > 
 
-深入了解[使用 Microsoft Intune 設定 Power BI 行動裝置應用程式](../../service-admin-mobile-intune.md)。 
+深入了解[使用 Microsoft Intune 設定 Power BI 行動裝置應用程式](../../admin/service-admin-mobile-intune.md)。 
 
 ## <a name="next-steps"></a>後續步驟
 您還可以在適用於 Power BI 的 Android 裝置應用程式中，運用 Power BI 中的儀表板和報表，以及 Power BI 報表伺服器或 Reporting Services 入口網站中的報表與 KPI 來執行其他作業。
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 儀表板和報表
-* 檢視[應用程式](../../service-create-distribute-apps.md)。
+* 檢視[應用程式](../../collaborate-share/service-create-distribute-apps.md)。
 * 檢視您的[儀表板](../../mobile-apps-view-dashboard.md)。
 * 探索[儀表板上的磚](../../mobile-tiles-in-the-mobile-apps.md)。
 * 開啟 [Power BI 報表](../../mobile-reports-in-the-mobile-apps.md)。
-* 檢視[您的應用程式](../../service-create-distribute-apps.md)。
+* 檢視[您的應用程式](../../collaborate-share/service-create-distribute-apps.md)。
 * [標註並共用磚](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
 * 共用[儀表板](../../mobile-share-dashboard-from-the-mobile-apps.md)。
 * 使用 Android 手機[掃描 Power BI QR 代碼](../../mobile-apps-qr-code.md)，以開啟相關儀表板圖格或報表。 
@@ -119,5 +119,3 @@ Microsoft Intune 讓組織可以控制像是要求存取 PIN、控制應用程�
 * 從 Android App Store [下載 Android 應用程式](https://go.microsoft.com/fwlink/?LinkID=544867)。
 * [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-
-

@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 53a4ae78fa996c1e48ed0c16e0caf15e4f687697
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81638517"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347922"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>加入工作區「新外觀」(預覽)
 
-工作區有與 Power BI 服務[新外觀](../service-new-look.md)一致的新外觀。 任何使用 Power BI 服務 (app.powerbi.com) 的人都可以加入。 當您開啟黑色標題列中的 [新外觀]  時，即會加入報表和工作區的新外觀。 所有工作區 (傳統工作區與新工作區) 都能因新外觀受益。
+工作區有與 Power BI 服務[新外觀](../consumer/service-new-look.md)一致的新外觀。 任何使用 Power BI 服務 (app.powerbi.com) 的人都可以加入。 當您開啟黑色標題列中的 [新外觀]  時，即會加入報表和工作區的新外觀。 所有工作區 (傳統工作區與新工作區) 都能因新外觀受益。
 
-要尋找 **Power BI Desktop** 中新外觀的相關資訊嗎？ 請參閱[使用 Power BI Desktop 中已更新的功能區](../desktop-ribbon.md)。
+要尋找 **Power BI Desktop** 中新外觀的相關資訊嗎？ 請參閱[使用 Power BI Desktop 中已更新的功能區](../create-reports/desktop-ribbon.md)。
 
 ## <a name="features-of-the-new-look"></a>新外觀的功能
 
@@ -50,7 +50,6 @@ ms.locfileid: "81638517"
 
 ## <a name="next-steps"></a>後續步驟
 
-- [使用 Power BI Desktop 中已更新的功能區](../desktop-ribbon.md)
-- [Power BI 服務的「新外觀」](../service-new-look.md)
+- [使用 Power BI Desktop 中已更新的功能區](../create-reports/desktop-ribbon.md)
+- [Power BI 服務的「新外觀」](../consumer/service-new-look.md)
 - 有問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
-

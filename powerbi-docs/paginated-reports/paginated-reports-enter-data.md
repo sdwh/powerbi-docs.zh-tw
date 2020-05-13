@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 074bc95a9e259df84211d3f922831db323d506cc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922083"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348658"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>直接在報表產生器的編頁報表中輸入資料 - Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "78922083"
 ## <a name="prerequisites"></a>必要條件
 
 - 若要在編頁報表中直接輸入資料，請[從 Microsoft 下載中心](https://www.microsoft.com/download/details.aspx?id=53613)安裝新版的報表產生器。 
-- 若要將編頁報表儲存至 Power BI 服務，您需要 [Power BI Pro 帳戶](../service-self-service-signup-for-power-bi.md)以及 [Power BI Premium 容量](../service-premium-what-is.md)中工作區的寫入權限。
+- 若要將編頁報表儲存至 Power BI 服務，您需要 [Power BI Pro 帳戶](../fundamentals/service-self-service-signup-for-power-bi.md)以及 [Power BI Premium 容量](../admin/service-premium-what-is.md)中工作區的寫入權限。
 - 若要將編頁報表儲存至報表伺服器，您需要[編輯 RsReportServer.config 檔案](#upload-the-paginated-report-to-a-report-server)的權限。
 
 ## <a name="get-started"></a>開始使用

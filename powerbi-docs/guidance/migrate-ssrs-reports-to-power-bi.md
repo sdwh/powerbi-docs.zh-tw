@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d9fd23a0cf5c3ed26c78e4c53ae600bf74daca91
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525606"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348175"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>將 SQL Server Reporting Services 報表移轉到 Power BI
 
@@ -37,7 +37,7 @@ ms.locfileid: "79525606"
 
 ### <a name="preparing-for-migration"></a>準備進行移轉
 
-當您準備將報表遷移至 Power BI 時，請先確認貴組織具有 [Power BI Premium](../service-premium-what-is.md) 訂用帳戶。 需要有此訂用帳戶，才能裝載和執行 Power BI 編頁報表。
+當您準備將報表遷移至 Power BI 時，請先確認貴組織具有 [Power BI Premium](../admin/service-premium-what-is.md) 訂用帳戶。 需要有此訂用帳戶，才能裝載和執行 Power BI 編頁報表。
 
 ### <a name="supported-versions"></a>支援的版本
 
@@ -112,12 +112,12 @@ ms.locfileid: "79525606"
 
 「準備」  階段的目標牽涉到備妥一切。 其中涵蓋設定 Power BI 環境、規劃如何保護和發佈報表，以及重新開發不會遷移之 SSRS 項目的想法。
 
-1. 確定已為您的 Power BI Premium 容量啟用[編頁報表工作負載](../service-admin-premium-workloads.md#paginated-reports)，而且有足夠的記憶體。
-1. 確認您報表[資料來源](../paginated-reports/paginated-reports-data-sources.md)的支援，並設定 [Power BI Gateway](../service-gateway-onprem.md)，以允許與任何內部部署資料來源進行連線。
-1. 熟悉 Power BI 安全性，並使用 [Power BI 工作區和工作區角色](../service-new-workspaces.md)規劃[如何重現您的 SSRS 資料夾和權限](/sql/reporting-services/security/secure-folders)。
-1. 熟悉 Power BI 共用，並透過發佈 [Power BI 應用程式](../service-create-distribute-apps.md)來規劃散發內容的方式。
-1. 請考慮使用[共用 Power BI 資料集](../service-datasets-build-permissions.md)取代 SSRS 共用資料來源。
-1. 使用 [Power BI Desktop](../desktop-what-is-desktop.md) 來開發行動裝置最佳化的報表，有可能使用 [Power KPI 自訂視覺效果](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)取代您的 SSRS 行動報表和 KPI。
+1. 確定已為您的 Power BI Premium 容量啟用[編頁報表工作負載](../admin/service-admin-premium-workloads.md#paginated-reports)，而且有足夠的記憶體。
+1. 確認您報表[資料來源](../paginated-reports/paginated-reports-data-sources.md)的支援，並設定 [Power BI Gateway](../connect-data/service-gateway-onprem.md)，以允許與任何內部部署資料來源進行連線。
+1. 熟悉 Power BI 安全性，並使用 [Power BI 工作區和工作區角色](../collaborate-share/service-new-workspaces.md)規劃[如何重現您的 SSRS 資料夾和權限](/sql/reporting-services/security/secure-folders)。
+1. 熟悉 Power BI 共用，並透過發佈 [Power BI 應用程式](../collaborate-share/service-create-distribute-apps.md)來規劃散發內容的方式。
+1. 請考慮使用[共用 Power BI 資料集](../connect-data/service-datasets-build-permissions.md)取代 SSRS 共用資料來源。
+1. 使用 [Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) 來開發行動裝置最佳化的報表，有可能使用 [Power KPI 自訂視覺效果](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)取代您的 SSRS 行動報表和 KPI。
 1. 重新評估您的報表中 **UserID** 內建欄位的使用方式。 如果您依賴 **UserID** 來保護報表資料，請了解其會針對編頁報表 (裝載於 Power BI 服務時)，傳回使用者主體名稱 (UPN)。 因此，內建欄位會傳回類似 _m.blythe&commat;adventureworks.com_ 的內容，而不是傳回 NT 帳戶名稱，例如 _AW\mblythe_。 您將需要修改資料集定義，也可能需要修改來源資料。 修改並發佈之後，建議您徹底測試報表，以確定資料權限如預期般運作。
 1. 重新評估您的報表中 **ExecutionTime** 內建欄位的使用方式。 針對編頁報表 (裝載於 Power BI 服務時)，內建欄位會以國際標準時間 (或 UTC)  傳回日期/時間。 它可能會影響報表參數的預設值，以及報表的執行時間標籤 (通常會加入至報表頁尾)。
 1. 如果您的資料來源是 SQL Server (內部部署)，請確認報表並未使用地圖視覺效果。 地圖視覺效果取決於空間資料類型，而這些不受閘道支援。 如需詳細資訊，請參閱[編頁報表的資料擷取指引 (SQL Server 複雜資料類型)](report-paginated-data-retrieval.md#sql-server-complex-data-types)。
@@ -171,9 +171,9 @@ ms.locfileid: "79525606"
 
 我們強烈建議您完成下列動作，以確保可能達到最佳的報表使用者體驗：
 
-1. 在 [Power BI 支援的每個瀏覽器](../power-bi-browsers.md)中測試報表，以確認報表正確轉譯。
+1. 在 [Power BI 支援的每個瀏覽器](../fundamentals/power-bi-browsers.md)中測試報表，以確認報表正確轉譯。
 1. 執行測試來比較 SSRS 和 Power BI 中的報表轉譯時間。 檢查 Power BI 報表會在可接受的時間內轉譯。
-1. 如果 Power BI 報表因記憶體不足而無法轉譯，請將[額外的資源配置給 Power BI Premium 容量](../service-admin-premium-workloads.md#paginated-reports)。
+1. 如果 Power BI 報表因記憶體不足而無法轉譯，請將[額外的資源配置給 Power BI Premium 容量](../admin/service-admin-premium-workloads.md#paginated-reports)。
 1. 對於長時間轉譯的報表，請考慮讓 Power BI 將其以[含報表附件的電子郵件訂閱](../consumer/paginated-reports-subscriptions.md)形式，傳遞給您的報表使用者。
 1. 對於以 Power BI 資料集為依據的 Power BI 報表，請檢閱模型設計以確保其已完全最佳化。
 
@@ -183,8 +183,8 @@ ms.locfileid: "79525606"
 
 如需這些問題的詳細資訊，包括了解和減輕這些問題的特定步驟，請參閱下列文章：
 
-- [最佳化 Premium 容量](../service-premium-capacity-optimize.md)
-- [使用應用程式監視 Premium 容量](../service-admin-premium-monitor-capacity.md)
+- [最佳化 Premium 容量](../admin/service-premium-capacity-optimize.md)
+- [使用應用程式監視 Premium 容量](../admin/service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>後續步驟
 
@@ -195,7 +195,7 @@ ms.locfileid: "79525606"
 - [何時使用 Power BI 中的編頁報表](report-paginated-or-power-bi.md)
 - [Power BI 中的編頁報表：常見問題](../paginated-reports/paginated-reports-faq.md)
 - [線上課程：一天內完成編頁報表](../paginated-reports/paginated-reports-online-course.md)
-- [Power BI Premium 常見問題集](../service-premium-faq.md)
+- [Power BI Premium 常見問題集](../admin/service-premium-faq.md)
 - [RDL 移轉工具](https://github.com/microsoft/RdlMigration)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)

@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ada695b2a568358f96010feb320226437beeb075
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81675655"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349164"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>線上課程：一天中的 Power BI 編頁報表
 
@@ -100,11 +100,11 @@ ms.locfileid: "81675655"
 當準備好開始第一個實驗室時，請開啟 **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** 檔案。 本文件會引導登入 Power BI 服務、上傳資料集，然後安裝 [Power BI Report Builder](report-builder-power-bi.md)。
 
 > [!NOTE]
-> 您必須自行建立自己的 Power BI 帳戶。 如果還沒有帳戶，請參閱[以個人身分註冊 Power BI](../service-self-service-signup-for-power-bi.md)。
+> 您必須自行建立自己的 Power BI 帳戶。 如果還沒有帳戶，請參閱[以個人身分註冊 Power BI](../fundamentals/service-self-service-signup-for-power-bi.md)。
 >
 > 您必須登入 Power BI，才能將 Power BI Desktop 檔案發佈至工作區。 發行集會產生作為報表資料來源使用的資料集。 您不需要 Power BI Pro 授權或 Power BI Premium 訂閱，就能使用資料集作為報表資料來源。
 >
-> 不過，有些實驗室工作需要將編頁報表發佈至工作區。 只有當編頁報表儲存在已啟用編頁報表工作負載的[專用容量](../service-premium-what-is.md#dedicated-capacities)工作區後，您才可以開啟該編頁報表。 如果無法存取合適的工作區，我們會改提供您一個連結來觀看示範報表發佈的影片。
+> 不過，有些實驗室工作需要將編頁報表發佈至工作區。 只有當編頁報表儲存在已啟用編頁報表工作負載的[專用容量](../admin/service-premium-what-is.md#dedicated-capacities)工作區後，您才可以開啟該編頁報表。 如果無法存取合適的工作區，我們會改提供您一個連結來觀看示範報表發佈的影片。
 
 ## <a name="instructor-kit"></a>講師套件
 

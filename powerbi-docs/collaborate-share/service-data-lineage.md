@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 101217023576783a32491b21ba254d54736b27db
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525391"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348198"
 ---
 # <a name="data-lineage"></a>資料譜系
 在新式商業智慧 (BI) 專案中，了解從資料來源到其目的地的資料流程，可能是一項挑戰。 如果您已建置跨多個資料來源、成品和相依性的進階分析專案，挑戰就會更加艱鉅。 「如果我變更此資料會發生什麼事？」 或「為什麼這份報表不是最新的？」 之類的問題，可能會變得難以回答。 您可能會需要一組專家或是進行深入調查，才能回答這些問題。 我們設計了資料譜系檢視來協助您回答這些問題。
@@ -88,9 +88,9 @@ Power BI 有數個成品類型，例如儀表板、報表、資料集和資料�
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
-- 譜系檢視不適用於 Internet Explorer。 請參閱[支援 Power BI 的瀏覽器](../power-bi-browsers.md)以取得詳細資料。
+- 譜系檢視不適用於 Internet Explorer。 請參閱[支援 Power BI 的瀏覽器](../fundamentals/power-bi-browsers.md)以取得詳細資料。
 
 ## <a name="next-steps"></a>後續步驟
 
-* [跨工作區的資料集簡介 (預覽)](../service-datasets-across-workspaces.md)
+* [跨工作區的資料集簡介 (預覽)](../connect-data/service-datasets-across-workspaces.md)
 * [資料集影響分析](service-dataset-impact-analysis.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79126251"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349210"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop 與 Power BI 服務的比較
 
@@ -23,7 +23,7 @@ ms.locfileid: "79126251"
 
 ![Power BI Desktop 和服務的文氏圖](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
-**Power BI Desktop** 是您在本機電腦上為免費應用程式安裝的完整資料分析和報表建立工具。 其中包含查詢編輯器，您可以在其中連接到許多不同的資料來源，並將它們合併 (通常稱為「模型化」) 成為一個資料模型。 然後，您可以根據該資料模型來設計報表。 [Power BI Desktop 使用者入門指南](../desktop-getting-started.md)會逐步介紹此程序。
+**Power BI Desktop** 是您在本機電腦上為免費應用程式安裝的完整資料分析和報表建立工具。 其中包含查詢編輯器，您可以在其中連接到許多不同的資料來源，並將它們合併 (通常稱為「模型化」) 成為一個資料模型。 然後，您可以根據該資料模型來設計報表。 [Power BI Desktop 使用者入門指南](desktop-getting-started.md)會逐步介紹此程序。
 
 **Power BI 服務**是雲端式服務。 它支援小組與組織的輕量型報表編輯和共同作業。 您也可以連線到 Power BI 服務中的資料來源，但模型化會受到限制。 
 
@@ -50,19 +50,18 @@ Power BI Desktop 和服務中的報表編輯器很類似。 它們由三個區�
 ### <a name="collaborating"></a>共同作業
 
 
-建立報表之後，您可以將它們儲存到 [Power BI 服務]  中的「工作區」  ，您和同事可以在該處共同作業。 您在那些報表之上建置「儀表板」  。 然後，您可以與組織內外的報表取用者共用這些儀表板和報表。 報表取用者會在 Power BI 服務的「讀取檢視」  而非「編輯檢視」中檢視它們。 他們無法存取報表建立者可用的所有功能。  您也可以共用資料集，並讓其他人從中建置自己的報表。 深入了解 [Power BI 服務中的共同作業](../service-new-workspaces.md)。
+建立報表之後，您可以將它們儲存到 [Power BI 服務]  中的「工作區」  ，您和同事可以在該處共同作業。 您在那些報表之上建置「儀表板」  。 然後，您可以與組織內外的報表取用者共用這些儀表板和報表。 報表取用者會在 Power BI 服務的「讀取檢視」  而非「編輯檢視」中檢視它們。 他們無法存取報表建立者可用的所有功能。  您也可以共用資料集，並讓其他人從中建置自己的報表。 深入了解 [Power BI 服務中的共同作業](../collaborate-share/service-new-workspaces.md)。
 
 ### <a name="self-service-data-prep-with-dataflows"></a>使用資料流程的自助資料準備
 
-資料流程可協助組織整合來自不同來源的資料，並為模型化做好準備。 分析師可以使用熟悉的自助工具，輕鬆地建立資料流程。 分析師可以使用資料流程，藉由定義資料來源連接、ETL 邏輯、重新整理排程及更多項目，來內嵌、轉換、整合及擴充巨量資料。 深入了解[使用資料流程的自助資料準備](../service-dataflows-overview.md)。
+資料流程可協助組織整合來自不同來源的資料，並為模型化做好準備。 分析師可以使用熟悉的自助工具，輕鬆地建立資料流程。 分析師可以使用資料流程，藉由定義資料來源連接、ETL 邏輯、重新整理排程及更多項目，來內嵌、轉換、整合及擴充巨量資料。 深入了解[使用資料流程的自助資料準備](../transform-model/service-dataflows-overview.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
-[Power BI Desktop 是什麼？](../desktop-what-is-desktop.md)
+[Power BI Desktop 是什麼？](desktop-what-is-desktop.md)
 
-在 Power BI 服務中[建立報表](../service-report-create-new.md)
+在 Power BI 服務中[建立報表](../create-reports/service-report-create-new.md)
 
-[報表設計師的基本概念](../service-basic-concepts.md)
+[報表設計師的基本概念](service-basic-concepts.md)
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
-

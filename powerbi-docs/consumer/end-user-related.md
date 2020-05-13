@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3dcd968d00d98106a8b717e635b8a7fdf958dc70
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114375"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347324"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>檢視 Power BI 服務中的相關內容
 
@@ -47,12 +47,12 @@ ms.locfileid: "79114375"
 
 ![[相關內容] 窗格](./media/end-user-related/power-bi-view-related-dashboard.png)
 
-您可以從這裡直接對相關內容採取動作。  例如，選取報表或儀表板名稱加以開啟。  針對列出的報表，選取圖示即可[使用 Excecl 分析](../service-analyze-in-excel.md)或[取得見解](end-user-insights.md)。 針對資料集，您可以查看上次重新整理的日期和時間、[使用 Excecl 分析](../service-analyze-in-excel.md)或[取得見解](end-user-insights.md)。  
+您可以從這裡直接對相關內容採取動作。  例如，選取報表或儀表板名稱加以開啟。  針對列出的報表，選取圖示即可[使用 Excecl 分析](../collaborate-share/service-analyze-in-excel.md)或[取得見解](end-user-insights.md)。 針對資料集，您可以查看上次重新整理的日期和時間、[使用 Excecl 分析](../collaborate-share/service-analyze-in-excel.md)或[取得見解](end-user-insights.md)。  
 
 
 
 ## <a name="view-related-content-for-a-dataset"></a>檢視資料集相關內容
-您至少必須有資料集的「檢視」  權限，才能開啟 [相關內容]  窗格。 在此範例中，我們使用的是[採購分析範例](../sample-procurement.md)。
+您至少必須有資料集的「檢視」  權限，才能開啟 [相關內容]  窗格。 在此範例中，我們使用的是[採購分析範例](../create-reports/sample-procurement.md)。
 
 從導覽窗格中，找出 [工作區]  標題，並從清單中選取工作區。 如果您的工作區中有內容，則其會顯示在右側的畫布中。 
 
@@ -67,7 +67,7 @@ ms.locfileid: "79114375"
 
 ![[相關內容] 窗格會在 Power BI 內容檢視上開啟](media/end-user-related/power-bi-dataset.png)
 
-您可以從這裡直接對相關內容採取動作。 例如選取儀表板或報表名稱加以開啟。  針對清單中的儀表板，選取圖示即可[與他人共用儀表板](../service-share-dashboards.md)，或開啟儀表板的 [設定]  視窗。 若是報表，選取圖示即可[使用 Excecl 分析](../service-analyze-in-excel.md)、[重新命名](../service-rename.md)或[取得深入資訊](end-user-insights.md)。  
+您可以從這裡直接對相關內容採取動作。 例如選取儀表板或報表名稱加以開啟。  針對清單中的儀表板，選取圖示即可[與他人共用儀表板](../collaborate-share/service-share-dashboards.md)，或開啟儀表板的 [設定]  視窗。 若是報表，選取圖示即可[使用 Excecl 分析](../collaborate-share/service-analyze-in-excel.md)、[重新命名](../create-reports/service-rename.md)或[取得深入資訊](end-user-insights.md)。  
 
 ## <a name="limitations-and-troubleshooting"></a>限制與疑難排解
 * 如果您沒有看到 [檢視相關項目]，請改為尋找圖示 ![檢視相關項目圖示](./media/end-user-related/power-bi-view-related-icon-new.png)。 選取圖示以開啟 [相關內容]  窗格。
@@ -75,6 +75,5 @@ ms.locfileid: "79114375"
 * 「相關內容」功能不適用於串流資料集。
 
 ## <a name="next-steps"></a>後續步驟
-* [開始使用 Power BI 服務](../service-get-started.md)
+* [開始使用 Power BI 服務](../fundamentals/service-get-started.md)
 * 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
-

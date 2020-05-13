@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379819"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349279"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>在 Power BI 中為 Power BI 視覺效果新增地區設定
 
 視覺效果可以擷取 Power BI 地區設定，用來將其內容當地語系化為相關語言。
 
-深入了解 [Power BI 支援的語言和國家/地區](./../../supported-languages-countries-regions.md)
+深入了解 [Power BI 支援的語言和國家/地區](./../../fundamentals/supported-languages-countries-regions.md)
 
 例如，在範例橫條圖視覺效果中取得地區設定。
 
