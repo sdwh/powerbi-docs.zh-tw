@@ -1,6 +1,6 @@
-- name: 探索 Power BI (取用者)
+- name: 探索 Power BI (../取用者)
   href: 'https://docs.microsoft.com/learn/modules/explore-power-bi-service'
-- name: 分析 Power BI 中的資料 (取用者)
+- name: 分析 Power BI 中的資料 (../取用者)
   href: 'https://docs.microsoft.com/learn/modules/analyze-data-power-bi'
 - name: 開始使用 Power BI 來建置
   href: 'https://docs.microsoft.com/learn/modules/get-started-with-power-bi'

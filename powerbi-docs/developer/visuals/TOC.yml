@@ -12,6 +12,10 @@
       items:
         - name: 開發 Power BI 視覺效果
           href: custom-visual-develop-tutorial.md
+        - name: 建立回應式視覺效果
+          href: create-react-visual.md
+        - name: 建置橫條圖
+          href: create-bar-chart.md
         - name: 新增格式化選項
           href: custom-visual-develop-tutorial-format-options.md
         - name: 新增 Visual 專案的單元測試
@@ -38,14 +42,20 @@
           href: objects-properties.md
         - name: 進階編輯模式
           href: advanced-edit-mode.md
+        - name: supportsKeyboardFocus 功能
+          href: supportskeyboardfocus-feature.md
+        - name: supportsMultiVisualSelection-feature.md
+          href: supportsmultivisualselection-feature.md
     - name: 如何
       items:
         - name: 取得 Power BI 視覺效果認證
           href: power-bi-custom-visuals-certified.md
         - name: 在 AppSource 上發佈 Power BI 視覺效果
           href: office-store.md
+        - name: 測試 Power BI 視覺效果
+          href: submission-testing.md
         - name: 在 Power BI 中使用 R 支援的 Power BI 視覺效果
-          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+          href: ../../create-reports/desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
         - name: 視覺效果互動
           href: visuals-interactions.md
         - name: 新增選取項目
@@ -64,6 +74,8 @@
           href: context-menu.md
         - name: 新增向下切入支援
           href: drill-down-support.md
+        - name: 將色彩新增至您的視覺效果
+          href: add-colors-power-bi-visual.md
         - name: 在視覺效果中醒目提示資料
           href: highlight.md
         - name: 新增高對比模式支援
@@ -78,10 +90,14 @@
           href: power-bi-custom-visuals-troubleshoot.md
     - name: 參考
       items:
+        - name: 變更記錄
+          href: changelog.md
         - name: 登陸頁面
           href: landing-page.md
         - name: 啟動 URL
           href: launch-url.md
+        - name: 視覺效果 API
+          href: visual-api.md
         - name: 本機存放區 API
           href: local-storage.md
         - name: 轉譯事件
@@ -119,8 +135,8 @@
         - name: 開發人員中心
           href: 'https://powerbi.microsoft.com/developers/'
         - name: Power BI 視覺效果範例
-          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-        - name: Power BI 視覺效果 Git 存放庫
+          href: samples.md
+        - name: 自訂視覺效果 Git 存放庫
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
         - name: 正在建立 SSL 憑證
           href: create-ssl-certificate.md
