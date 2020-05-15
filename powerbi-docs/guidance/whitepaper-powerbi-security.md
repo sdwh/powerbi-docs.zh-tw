@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: ff8b6a139d0088b2ff2acc8f73b75431e500ba51
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279081"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407520"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
@@ -263,7 +263,7 @@ Power BI 以下列方式提供資料完整性監視：
 
     &ensp;&ensp;答： 使用 Office 365 Excel 建立的報表，不快取任何內容。
 
-    &ensp;&ensp;b。 Power BI 報表中顯示的視覺效果資料會在 Azure SQL Database 中快取加密。
+    &ensp;&ensp;b。 針對 Power BI 報表，會快取所顯示報表視覺效果的資料，並將其儲存在下列章節所述的 Visual Data Cache 中。
  
 
 4. 發佈到 Power BI 的原始 Power BI Desktop (.pbix) 或 Excel (.xlsx) 檔案
@@ -272,11 +272,20 @@ Power BI 以下列方式提供資料完整性監視：
 
 #### <a name="dashboards-and-dashboard-tiles"></a>儀表板和儀表板磚
 
-1. 快取 – 儀表板視覺效果所需要的資料，通常是在 Azure SQL Database 中快取及儲存加密。 其他磚，例如從 Excel 或 SQL Server Reporting Services (SSRS) 釘選的視覺效果，則儲存在 Azure Blob 作為映像，也會加密。
+1. 快取–儀表板上的視覺效果所需的資料通常會被快取並儲存在下一節所述的 Visual Data Cache 中。 其他磚，例如從 Excel 或 SQL Server Reporting Services (SSRS) 釘選的視覺效果，則儲存在 Azure Blob 作為映像，也會加密。
 
 2. 靜態資料–包含背景影像，以及在 Azure Blob 儲存體中儲存、加密的 Power BI 視覺效果。
 
-不論使用何種加密方法，Microsoft 會代客戶管理祕密存放區或 Azure Key Vault 中的金鑰加密作業。
+不論使用何種加密方法，Microsoft 都會代表客戶管理金鑰加密。
+
+#### <a name="visual-data-cache"></a>視覺效果資料快取
+
+視覺效果資料會根據資料集是否裝載于 Power BI Premium 容量，在不同的位置進行快取。 對於未裝載于容量的資料集，會以 Azure SQL Database 的方式來快取和儲存視覺資料。 對於裝載在容量上的資料集，可以在下列任何位置快取視覺資料：
+
+* Azure Blob 儲存體
+* Azure Premium 檔案
+* Power BI Premium 容量節點
+
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>暫時存放在靜態裝置上的資料
 
@@ -347,7 +356,7 @@ Power BI 行動版是針對三個主要行動平臺設計的應用程式集合�
 
 | **CBA 支援** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
-| **Power BI** (登入服務) | 支援 | 支援 | 不支援 |
+| **Power BI** (登入服務) | 支援 | 支援 | 不受支援 |
 | **SSRS ADFS** (連線至 SSRS 伺服器) | 不支援 | 支援 | 不支援 |
 
 Power BI 行動版應用程式會主動與 Power BI 服務通訊。 遙測用於收集行動應用程式使用量統計資料和類似資料，這些資料會傳輸至用於監視使用量和活動的服務；個人資料不會使用遙測資料傳送。
