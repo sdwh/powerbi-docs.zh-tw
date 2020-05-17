@@ -136,9 +136,9 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-請注意 *fill* 和 *fillRule* 屬性。 第一個是色彩選擇器，而第二個則是漸層的替代規則，其會在符合規則條件時  *取代「fill 屬性」* `visually`。
+請注意 *fill* 和 *fillRule* 屬性。 第一個是色彩選擇器，而第二個則是漸層的替代規則，其會在符合規則條件時 `visually` 取代「fill 屬性」  。
 
-*fill* 屬性與替代規則之間的這個連結，是在 `"rule"`fillRule> 屬性的 `"output"` 區段中設定。
+*fill* 屬性與替代規則之間的這個連結，是在 *fillRule* 屬性的 `"rule"`>`"output"` 區段中設定。
 
 `"Rule"`>`"InputRole"` 屬性會設定哪一個資料角色會觸發規則 (條件)。 在此範例中，如果資料角色 `"Gradient"` 包含資料，則會針對 `"fill"` 屬性套用規則。
 
@@ -233,7 +233,7 @@ for (let dataPoint in dataPoints) {
 
 #### <a name="scope-identity"></a>範圍識別
 
-此物件會繫結到群組交集處的特定值。 例如，如果您有類別 `["Jan", "Feb", "March", ...]` 和序列 `["Small", "Medium", "Large"]`，您可能想要在符合 `Feb` 和 `Large` 的值交集處有一個物件。 為了達到這個目的，您可以取得這兩個資料行的 `DataViewScopeIdentity`，將它們推送至 `identities` 變數，並將此語法與選取器搭配使用。
+此物件會繫結到群組交集處的特定值。 例如，如果您有類別 `["Jan", "Feb", "March", ...]` 和序列 `["Small", "Medium", "Large"]`，您可能想要在符合 `Large` 和 `Feb` 的值交集處有一個物件。 為了達到這個目的，您可以取得這兩個資料行的 `DataViewScopeIdentity`，將它們推送至 `identities` 變數，並將此語法與選取器搭配使用。
 
 ```typescript
 selector: {

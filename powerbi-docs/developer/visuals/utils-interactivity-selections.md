@@ -105,7 +105,7 @@ Interactivity 公用程式 (`InteractivityUtils`) 是一組函式與類別，可
 2. 延伸基底行為類別。
 
     > [!NOTE]
-    > `BaseBehavior`互動功能公用程式的 5.6.x 版本[ \(英文\) 中引進了 ](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0)。 如果您使用舊版本，請從下列範例建立行為類別。
+    > [互動功能公用程式的 5.6.x 版本](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0) \(英文\) 中引進了 `BaseBehavior`。 如果您使用舊版本，請從下列範例建立行為類別。
 
 3. 定義行為類別選項的介面。
 
@@ -138,7 +138,7 @@ Interactivity 公用程式 (`InteractivityUtils`) 是一組函式與類別，可
     類別有下列對應的方法：
     * `bindClick`
     * `bindClearCatcher`
-    * `bindContextMenu`.
+    * `bindContextMenu`第 1 課：建立 Windows Azure 儲存體物件`bindContextMenu`。
 
     ```typescript
     export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {

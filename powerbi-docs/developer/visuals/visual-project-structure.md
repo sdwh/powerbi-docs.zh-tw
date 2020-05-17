@@ -102,7 +102,7 @@ Power BI 視覺效果工具會使用此檔案作為 [Power BI 視覺效果] 窗�
 
 [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) 的組態檔。
 
-此檔案必須包含 **\*.ts** 檔案的路徑，也就是視覺效果主要類別 (在 `visualClassName` 檔案 `pbiviz.json` 屬性中指定) 的所在位置。
+此檔案必須包含 **\*.ts** 檔案的路徑，也就是視覺效果主要類別 (在 `pbiviz.json` 檔案 `visualClassName` 屬性中指定) 的所在位置。
 
 ### <a name="tslintjson"></a>tslint.json
 

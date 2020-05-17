@@ -19,7 +19,7 @@ ms.locfileid: "80114098"
 
 視覺效果篩選 API 可讓您篩選 Power BI 視覺效果中的資料。 與其他選取項目的主要差異在於，儘管其他視覺效果支援醒目提示，其他視覺效果仍會以任何方式進行篩選。
 
-若要啟用視覺效果的篩選，它應在 `filter`capabilities.json`general` 程式碼的 *區段中包含* 物件。
+若要啟用視覺效果的篩選，它應在 *capabilities.json* 程式碼的 `general` 區段中包含 `filter` 物件。
 
 ```json
 "objects": {
@@ -120,7 +120,7 @@ visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 
 此篩選是在視覺效果 API 1.7.0 中引進。
 
-進階篩選 API 也需要具有 `target` 和 `table` 名稱的 `column`。 但是進階篩選 API 運算子為 *And* 和 *Or*。 
+進階篩選 API 也需要具有 `table` 和 `column` 名稱的 `target`。 但是進階篩選 API 運算子為 *And* 和 *Or*。 
 
 此外，篩選會搭配介面使用條件，而不是值：
 

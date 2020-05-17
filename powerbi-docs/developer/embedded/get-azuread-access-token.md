@@ -99,7 +99,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 一旦 **Azure AD** 重新導向回您的 Web 應用程式並提供**授權碼**之後，您就可使用它來取得存取權杖。 以下是 C# 範例，可用於重新導向頁面及 default.aspx 的 `Page_Load` 事件。
 
-您可以從 **Active Directory 驗證程式庫** NuGet 套件中擷取 [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) 命名空間。
+您可以從 [Active Directory 驗證程式庫](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) NuGet 套件中擷取 **Microsoft.IdentityModel.Clients.ActiveDirectory** 命名空間。
 
 ```powershell
 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory

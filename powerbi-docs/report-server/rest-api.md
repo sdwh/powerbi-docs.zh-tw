@@ -27,7 +27,7 @@ REST API 提供以程式設計方式存取 Power BI 報表伺服器目錄中的�
 
 REST API 要求/回應配對可以分成五個元件：
 
-* **要求 URI**，它包含：`{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`。 雖然要求 URI 包含在要求訊息標頭中，我們在這裡會單獨呼叫，因為大部分語言或架構需要您從要求訊息單獨傳遞它。
+* 由 `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}` 所組成的**要求 URI**。 雖然要求 URI 包含在要求訊息標頭中，我們在這裡會單獨呼叫，因為大部分語言或架構需要您從要求訊息單獨傳遞它。
   
   * URI 配置：指出用來傳送要求的通訊協定。 例如：`http` 或 `https`。
   * URI 主機：指定網域名稱或伺服器的 IP 位址，在其中裝載 REST 服務端點，例如 `myserver.contoso.com`。

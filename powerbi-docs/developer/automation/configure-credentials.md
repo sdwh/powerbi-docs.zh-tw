@@ -115,7 +115,7 @@ ms.locfileid: "80114765"
     var gateway = gateways.First();
     ```
 
-3. 使用[步驟 2](#update-credentials-flow-for-data-sources) 中擷取的閘道公開金鑰，以**為資料來源更新認證流程**中所述的相同方式建置認證詳細資料。
+3. 使用**步驟 2** 中擷取的閘道公開金鑰，以[為資料來源更新認證流程](#update-credentials-flow-for-data-sources)中所述的相同方式建置認證詳細資料。
 
 4. 建置要求本文。
 
@@ -135,7 +135,7 @@ ms.locfileid: "80114765"
 
 ## <a name="credential-types"></a>認證類型
 
-當您在[企業內部部署閘道](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource)下使用 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) 呼叫**建立資料來源**或[更新資料來源](https://docs.microsoft.com/rest/api/power-bi/)時，需要使用閘道的公用金鑰來加密認證值。
+當您在**企業內部部署閘道**下使用 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) 呼叫[建立資料來源](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource)或[更新資料來源](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)時，需要使用閘道的公用金鑰來加密認證值。
 
 >[!NOTE]
 >.NET SDK v3 也可以執行下面所列的 .NET SDK v2 範例。

@@ -177,7 +177,7 @@ ms.locfileid: "78921140"
   
      如果文字方塊只包含日期或數字，則您應該使用文字方塊的 Format 屬性來套用格式，而不是使用文字方塊內的 **Format** 函式。  
   
--   **Right**、**Len** 和 **InStr** 函式可用於傳回子字串，例如將 *DOMAIN*\\*username* 修剪為只有使用者名稱。 下列運算式會從名為 \\User *的參數傳回反斜線 (* ) 字元右側的字串部分：  
+-   **Right**、**Len** 和 **InStr** 函式可用於傳回子字串，例如將 *DOMAIN*\\*username* 修剪為只有使用者名稱。 下列運算式會從名為 *User* 的參數傳回反斜線 (\\) 字元右側的字串部分：  
   
     ```  
     =Right(Parameters!User.Value, Len(Parameters!User.Value) - InStr(Parameters!User.Value, "\"))  
@@ -202,7 +202,7 @@ ms.locfileid: "78921140"
   
     ```  
   
--   來自 .NET Framework **的**Regex`xref:System.Text.RegularExpressions` 函式可用於變更現有字串的格式，例如設定電話號碼格式。 下列運算式會使用 **Replace** 函式，將欄位中的十位數電話號碼格式從 "*nnn*-*nnn*-*nnnn*" 變更為 "(*nnn*) *nnn*-*nnnn*"：  
+-   來自 .NET Framework `xref:System.Text.RegularExpressions` 的 **Regex** 函式可用於變更現有字串的格式，例如設定電話號碼格式。 下列運算式會使用 **Replace** 函式，將欄位中的十位數電話號碼格式從 "*nnn*-*nnn*-*nnnn*" 變更為 "(*nnn*) *nnn*-*nnnn*"：  
   
     ```  
     =System.Text.RegularExpressions.Regex.Replace(Fields!Phone.Value, "(\d{3})[ -.]*(\d{3})[ -.]*(\d{4})", "($1) $2-$3")  
@@ -244,7 +244,7 @@ ms.locfileid: "78921140"
   
 ###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> 決策函式  
   
--   **Iif** 函式會根據運算式是否為 true 傳回兩個值的其中一個。 下列運算式會使用 **Iif** 函式，在 **的值超過 100 時傳回布林值**True`LineTotal`。 否則會傳回 **False**：  
+-   **Iif** 函式會根據運算式是否為 true 傳回兩個值的其中一個。 下列運算式會使用 **Iif** 函式，在 `LineTotal` 的值超過 100 時傳回布林值 **True**。 否則會傳回 **False**：  
   
     ```  
     =IIF(Fields!LineTotal.Value > 100, True, False)  
@@ -482,7 +482,7 @@ ms.locfileid: "78921140"
  您可以將特定群組範圍的群組區域變數值初始化，然後在運算式中包含該變數的參考。 您可以搭配自訂程式碼使用群組變數的方式之一是實作自訂彙總。 
   
 ## <a name="suppressing-null-or-zero-values-at-run-time"></a>在執行階段隱藏 Null 或零值  
- 運算式中的某些值可能會在報表處理時評估為 Null 或未定義。 這可能會產生執行階段錯誤，導致文字方塊中顯示 **#Error**，而不是評估的運算式。 **IIF** 函數對於這種行為特別敏感，因為不像 If-Then-Else 陳述式， **IIF** 陳述式的每部分都會先進行評估 (包括函數呼叫)，才會傳遞至測試 **true** 或 **false**的常式。 如果 `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` 為 NOTHING，陳述式 **會在轉譯報表中產生**#Error`Fields!Sales.Value`。  
+ 運算式中的某些值可能會在報表處理時評估為 Null 或未定義。 這可能會產生執行階段錯誤，導致文字方塊中顯示 **#Error**，而不是評估的運算式。 **IIF** 函數對於這種行為特別敏感，因為不像 If-Then-Else 陳述式， **IIF** 陳述式的每部分都會先進行評估 (包括函數呼叫)，才會傳遞至測試 **true** 或 **false**的常式。 如果 `Fields!Sales.Value` 為 NOTHING，陳述式 `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` 會在轉譯報表中產生 **#Error**。  
   
  若要避免這種情況，請使用下列策略之一：  
   
@@ -512,7 +512,7 @@ ms.locfileid: "78921140"
     =Code.GetDeltaPercentage(Previous(Sum(Fields!Sales.Value),"ColumnGroupByYear"), Sum(Fields!Sales.Value))  
     ```  
   
-     這有助於避免執行階段例外狀況。 您現在可以在文字方塊的 `=IIF(Me.Value < 0, "red", "black")`Color**屬性中使用** 等運算式，根據值大於或小於 0 有條件地顯示文字。  
+     這有助於避免執行階段例外狀況。 您現在可以在文字方塊的 **Color** 屬性中使用 `=IIF(Me.Value < 0, "red", "black")` 等運算式，根據值大於或小於 0 有條件地顯示文字。  
   
 ## <a name="next-steps"></a>後續步驟
 

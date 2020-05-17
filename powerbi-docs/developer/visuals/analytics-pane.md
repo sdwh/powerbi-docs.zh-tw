@@ -25,7 +25,7 @@ ms.locfileid: "79380933"
 
 ## <a name="manage-the-analytics-pane"></a>管理 [分析] 窗格
 
-如同您在 [[格式]  窗格](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options) \(部分機器翻譯\) 中管理屬性，您藉由在物件的 **capabilities.json** 檔案中定義視覺效果，來管理 [分析]  窗格。
+如同您在 [[格式]  窗格](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options) \(部分機器翻譯\) 中管理屬性，您藉由在物件的 *capabilities.json* 檔案中定義視覺效果，來管理 [分析]  窗格。
 
 [分析]  窗格的差異如下：
 
@@ -37,8 +37,8 @@ ms.locfileid: "79380933"
     > 如果未指定值，`objectCategory` 預設為 "Formatting"。
 
 * 物件必須有下列兩個屬性：
-    * `show` 類型的 `bool`，其預設值為 `false`。
-    * `displayName` 類型的 `text`。 您選擇的預設值會變成執行個體的初始顯示名稱。
+    * `bool` 類型的 `show`，其預設值為 `false`。
+    * `text` 類型的 `displayName`。 您選擇的預設值會變成執行個體的初始顯示名稱。
 
 ```json
 {
