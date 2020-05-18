@@ -339,6 +339,8 @@
               href: ../paginated-reports/report-builder-shared-datasets.md
             - name: 建立參數
               href: ../paginated-reports/paginated-reports-parameters.md
+            - name: 設定報表檢視
+              href: ../paginated-reports/page-view.md
             - name: 子報表
               href: ../paginated-reports/subreports.md
             - name: 對子報表進行疑難排解
