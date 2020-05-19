@@ -7,18 +7,24 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/18/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 59685b4c3ceab4b60cba92ec1d3924b902c1426a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5783df071830cdb19ef124ebb908f53955823c69
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77115300"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83130965"
 ---
 # <a name="interact-with-arcgis-maps-in-power-bi"></a>在 Power BI 中與 ArcGIS 地圖互動
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
+
 本主題是從在 Power BI 服務、Power BI Desktop 或 Power BI Mobile 中「使用」ArcGIS 地圖的人員觀點來撰寫。 一旦設計師與您共用 ArcGIS Map for Power BI 視覺效果，即可利用許多方法與該視覺效果互動。  若要深入了解如何建立 ArcGIS 地圖，請參閱[由 Esri 提供的 ArcGIS 地圖教學課程](../visuals/power-bi-visualization-arcgis.md)。
+
+> [!NOTE]
+> 若要與 Power BI 同事共用報表，必須兩人都擁有個人的 Power BI Pro 授權，或將報表儲存在 Premium 容量中。 請參閱[共用報告](../collaborate-share/service-share-reports.md)。
 
 ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到了全新境界。 報表設計師會從地圖開始，並將人口統計資料的圖層附加至該地圖。 地圖上的位置型資料圖層 (例如人口普查資料) 與空間分析結合之後，能讓人更深入了解視覺效果中的資料。
 
@@ -60,26 +66,26 @@ ArcGIS Maps for Power BI 視覺效果可能有數種不同類型的人口統計�
 
 ### <a name="reference-layers"></a>參考圖層
 
-報表「設計師」  可以新增一個參考圖層。 參考圖層是由 Esri 所裝載，並提供與位置有關的額外人口統計資訊圖層。 下列範例具有人口密度的參考圖層。 較暗色彩表示較高的密度。
+報表「設計師」可以新增一個參考圖層。 參考圖層是由 Esri 所裝載，並提供與位置有關的額外人口統計資訊圖層。 下列範例具有人口密度的參考圖層。 較暗色彩表示較高的密度。
 
 ![顯示人口密度的奧蘭多區域地圖](media/power-bi-visualizations-arcgis/power-bi-reference.png)  
 
 ### <a name="infographics"></a>資訊圖
 
-報表「設計師」  可以新增許多資訊圖圖層。 資訊圖是顯示在視覺化畫布右側的快速視覺效果指示器。 資訊圖是由 Esri 所裝載，並提供與位置有關的額外人口統計資訊圖層。 以下範例已套用三個資訊圖。 資訊圖不會顯示在地圖本身，而是顯示在卡片上。 當縮放、移動瀏覽及選取地圖上的區域時，資訊圖卡片即會更新。
+報表「設計師」可以新增許多資訊圖圖層。 資訊圖是顯示在視覺化畫布右側的快速視覺效果指示器。 資訊圖是由 Esri 所裝載，並提供與位置有關的額外人口統計資訊圖層。 以下範例已套用三個資訊圖。 資訊圖不會顯示在地圖本身，而是顯示在卡片上。 當縮放、移動瀏覽及選取地圖上的區域時，資訊圖卡片即會更新。
 
 ![放大的奧蘭多區域地圖和畫布右側資訊圖卡片](media/power-bi-visualizations-arcgis/power-bi-infographics.png)  
 
 ### <a name="pins"></a>圖釘
 
-圖釘代表精確的位置，例如城市或地址。 有時報表「設計師」  會使用具有行車時間半徑的圖釘。 這個範例會顯示北卡羅來納州夏洛特在 50 英哩半徑範圍內的商店。
+圖釘代表精確的位置，例如城市或地址。 有時報表「設計師」會使用具有行車時間半徑的圖釘。 這個範例會顯示北卡羅來納州夏洛特在 50 英哩半徑範圍內的商店。
 
 
 ![圍繞北卡羅來納州夏洛特的行車時間](media/power-bi-visualizations-arcgis/power-bi-drive-times.png) 
 
 
 ## <a name="interact-with-an-arcgis-maps-for-power-bi-visual"></a>與 ArcGIS Maps for Power BI 視覺效果互動
-您可以使用的功能取決於報表共用方式，以及您的 Power BI 帳戶類型。 如有任何疑問，請洽詢系統管理員。 ArcGIS Maps for Power BI 視覺效果的表現與報表中其他視覺效果很類似。 您能夠[顯示用來建立視覺效果的資料](../consumer/end-user-show-data.md)、查看[焦點模式和全螢幕模式](../consumer/end-user-focus.md)中的地圖、[新增註解](../consumer/end-user-comment.md)、[與篩選互動](../consumer/end-user-report-filter.md) (篩選是由報表「設計師」  所設定) 等。 ArcGIS 視覺效果可以交叉篩選報表頁面上的其他視覺效果，反之亦然。
+您可以使用的功能取決於報表共用方式，以及您的 Power BI 帳戶類型。 如有任何疑問，請洽詢系統管理員。 ArcGIS Maps for Power BI 視覺效果的表現與報表中其他視覺效果很類似。 您能夠[顯示用來建立視覺效果的資料](../consumer/end-user-show-data.md)、查看[焦點模式和全螢幕模式](../consumer/end-user-focus.md)中的地圖、[新增註解](../consumer/end-user-comment.md)、[與篩選互動](../consumer/end-user-report-filter.md) (篩選是由報表「設計師」所設定) 等。 ArcGIS 視覺效果可以交叉篩選報表頁面上的其他視覺效果，反之亦然。
 
 將游標停留在基本地圖位置 (例如，泡泡) 上方可顯示工具提示。 此外，請使用 ArcGIS 視覺效果選取工具來顯示其他工具提示，並在基本地圖或參考圖層上進行特定選取。  
 
@@ -103,7 +109,7 @@ ArcGIS Maps for Power BI 具有五個選取模式。 一次最多可以選取 25
 
 ![棕色泡泡工具提示的螢幕擷取畫面](media/power-bi-visualizations-arcgis/power-bi-single-selects.png)
 
-如果地圖有參考圖層，則選取位置即會在工具提示中顯示詳細資料。 在這裡，我們選取了 Seneca County，並查看報表「設計師」  新增至地圖的參考圖層 (人口密度) 中資料。 在此範例中，資料點包含兩個不同郡，所以工具提示有兩個頁面。 每個頁面都有一個圖表。 選取圖表上的橫條可顯示其他詳細資料。 
+如果地圖有參考圖層，則選取位置即會在工具提示中顯示詳細資料。 在這裡，我們選取了 Seneca County，並查看報表「設計師」新增至地圖的參考圖層 (人口密度) 中資料。 在此範例中，資料點包含兩個不同郡，所以工具提示有兩個頁面。 每個頁面都有一個圖表。 選取圖表上的橫條可顯示其他詳細資料。 
 
 ![Seneca County 工具提示的螢幕擷取畫面](media/power-bi-visualizations-arcgis/power-bi-single-select-ref.png)
 

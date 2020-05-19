@@ -1,20 +1,23 @@
 ---
 title: 使用 Power BI 問與答視覺效果
 description: 如何設定 Power BI 問與答視覺效果
-author: mihart
+author: rien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e94b27945f277c352773e7f9eaa3979fa8bc7451
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762270"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148355"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI 問與答視覺效果簡介
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -26,7 +29,7 @@ ms.locfileid: "75762270"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-問與答視覺效果可以作為工具，讓「取用者」  快速獲得其資料的解答，也可以供「設計師」  使用，只要在報表的任何位置按兩下，然後使用自然語言開始進行，即可在報表中建立視覺效果。 由於其行為就像任何其他視覺效果一樣，因此問與答視覺效果可交叉篩選/交叉醒目顯示，也支援書籤。 問與答視覺效果也支援佈景主題，以及 Power BI 中可用的其他預設格式化選項。
+問與答視覺效果可以作為工具，讓「取用者」快速獲得其資料的解答，也可以供「設計師」使用，只要在報表的任何位置按兩下，然後使用自然語言開始進行，即可在報表中建立視覺效果。 由於其行為就像任何其他視覺效果一樣，因此問與答視覺效果可交叉篩選/交叉醒目顯示，也支援書籤。 問與答視覺效果也支援佈景主題，以及 Power BI 中可用的其他預設格式化選項。
 
 問與答視覺效果是由四個核心元件所組成：
 
@@ -39,16 +42,18 @@ ms.locfileid: "75762270"
 
 1. 本教學課程使用[銷售與行銷範例 PBIX 檔案](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)。 
 
-1. 從 Power BI Desktop 功能表列的左上方區段，選取 [檔案]   > [開啟] 
+1. 從 Power BI Desktop 功能表列的左上方區段，選取 [檔案] > [開啟]
    
 2. 尋找**銷售與行銷範例 PBIX 檔案**複本
 
 1. 在報表檢視中開啟檔案 ![報表檢視圖示的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Select ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
+1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
+如果您在建立問與答視覺效果時看到錯誤，請務必參閱[限制](../natural-language/q-and-a-limitations.md)一節，以了解是否支援資料來源設定。    
 
-如果您在建立問與答視覺效果時看到錯誤，請務必參閱[限制](../natural-language/q-and-a-limitations.md)一節，以了解是否支援資料來源設定。
+> [!NOTE]
+> 若要與 Power BI 同事共用報表，必須兩人都擁有個人的 Power BI Pro 授權，或將報表儲存在 Premium 容量中。 請參閱[共用報告](../collaborate-share/service-share-reports.md)。
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>使用建議的問題來建立問與答視覺效果
 在此練習中，我們將選取其中一個建議的問題來建立問與答視覺效果。 
@@ -61,7 +66,7 @@ ms.locfileid: "75762270"
 
     ![報表畫布上的問與答視覺效果](media/power-bi-visualization-q-and-a/power-bi-qna.png)
 
-3. 若要建立視覺效果，請選取其中一個建議的問題，或開始在問題方塊中鍵入。 在此範例中，我們選取了 [top geo states by sum of revenue] \(依收益總和的前幾州地區\)  。 Power BI 會竭盡所能選取要使用的視覺效果類型。 在此案例中是地圖。
+3. 若要建立視覺效果，請選取其中一個建議的問題，或開始在問題方塊中鍵入。 在此範例中，我們選取了 [top geo states by sum of revenue] \(依收益總和的前幾州地區\)。 Power BI 會竭盡所能選取要使用的視覺效果類型。 在此案例中是地圖。
 
     ![問與答視覺效果地圖](media/power-bi-visualization-q-and-a/power-bi-map.png)
 
@@ -72,7 +77,7 @@ ms.locfileid: "75762270"
 ## <a name="create-a-qa-visual-using-a-natural-language-query"></a>使用自然語言查詢來建立問與答視覺效果
 在上述範例中，我們選取了其中一個建議的問題來建立問與答視覺效果。  在此練習中，我們將鍵入自己的問題。 當我們鍵入問題時，Power BI 會使用自動完成、建議和意見反應來協助我們。
 
-如果您不確定所要詢問問題類型或要使用的術語，請展開 [顯示所有建議]  或查看 [欄位] 窗格 (可在畫布右側找到)。 這可協助您熟悉銷售與行銷資料集的字詞和內容。
+如果您不確定所要詢問問題類型或要使用的術語，請展開 [顯示所有建議] 或查看 [欄位] 窗格 (可在畫布右側找到)。 這可協助您熟悉銷售與行銷資料集的字詞和內容。
 
 ![已框選 [顯示所有建議] 和 [欄位] 窗格的畫布](media/power-bi-visualization-q-and-a/power-bi-terminology.png)
 
@@ -104,13 +109,13 @@ ms.locfileid: "75762270"
 ### <a name="apply-a-theme"></a>套用佈景主題
 當您選取佈景主題時，該佈景主題會套用至整個報表頁面。 有許多佈景主題可供選擇，因此請試試看，直到您滿意外觀為止。 
 
-1. 在功能表列中，選取 [首頁]  索引標籤，然後選擇 [切換佈景主題]  。 
+1. 在功能表列中，選取 [首頁] 索引標籤，然後選擇 [切換佈景主題]。 
 
     ![已選取 [切換佈景主題] 的桌面](media/power-bi-visualization-q-and-a/power-bi-themes.png)
 
     
     
-2. 在此範例中，我們選取了 [更多佈景主題]   > [方便色盲人士辨識]  。
+2. 在此範例中，我們選取了 [更多佈景主題] > [方便色盲人士辨識]。
 
     ![已套用色盲佈景主題的問與答視覺效果](media/power-bi-visualization-q-and-a/power-bi-color-blind.png)
 

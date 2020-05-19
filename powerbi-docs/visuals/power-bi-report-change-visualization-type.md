@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 12/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 33511dd5a61882de77d6089a5f77e70361f3cbed
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871033"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277586"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>變更 Power BI 報表的視覺效果類型
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -29,10 +31,12 @@ ms.locfileid: "73871033"
 3. 在 [視覺效果] 窗格中選取新的視覺效果類型。 
    
    ![顯示從直條圖變更為折線圖的影片](media/power-bi-report-change-visualization-type/change-viz/change-viz.gif).
-4. (選用) [將您的視覺效果釘選](../service-dashboard-pin-tile-from-report.md)到儀表板作為圖格。 
+4. (選用) [將您的視覺效果釘選](../create-reports/service-dashboard-pin-tile-from-report.md)到儀表板作為圖格。 
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 如果在您將視覺效果釘選到儀表板後，變更報表中的視覺效果類型，該儀表板圖格並不會自動更新。 因此，如果您使用 Power BI 服務將視覺效果釘選為折線圖，然後在報表中變更為橫條圖，則這個資料的已釘選版本仍然保持為折線圖。 釘選橫條圖讓它也顯示在儀表板上。
+
+若要與 Power BI 同事共用報表，必須兩人都擁有個人的 Power BI Pro 授權，或將報表儲存在 Premium 容量中。 請參閱[共用報告](../collaborate-share/service-share-reports.md)。
 
 ## <a name="next-steps"></a>後續步驟
 深入了解 [Power BI 報表中的視覺效果](power-bi-report-visualizations.md)
