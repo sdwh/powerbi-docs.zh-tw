@@ -12,7 +12,7 @@
       expanded: true
       items:
         - name: 線上課程：編頁報表
-          href: ../paginated-reports/paginated-reports-online-course.md
+          href: ../learning-catalog/paginated-reports-online-course.md
         - name: 建立編頁報表並上傳
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: 範例

@@ -7,9 +7,11 @@
       href: learning-catalog-consumer.md
     - name: 報表建立者
       href: learning-catalog-report-creator.md
+    - name: 線上課程：編頁報表
+      href: paginated-reports-online-course.md
     - name: 資料分析師
       href: learning-catalog-data-analyst.md
-    - name: 系統管理員
+    - name: Administrators
       href: learning-catalog-administrator.md
     - name: 開發人員
       href: learning-catalog-developer.md

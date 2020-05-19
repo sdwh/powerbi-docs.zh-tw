@@ -89,7 +89,7 @@
             - name: Azure 資源管理 REST API
               href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
             - name: Power BI REST API
-              href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+              href: 'https://docs.microsoft.com/rest/api/power-bi/'
         - name: Power BI 程式庫
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: 將自訂配置內嵌到應用程式中
