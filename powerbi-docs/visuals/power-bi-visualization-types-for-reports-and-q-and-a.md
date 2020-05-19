@@ -7,14 +7,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7210e2f2f6fa3581744a5400bcdeb795d8883120
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381414"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276804"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
 ## <a name="power-bi-visualizations"></a>Power BI 視覺效果
@@ -53,7 +53,7 @@ ms.locfileid: "79381414"
 ![組合圖](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
->組合圖結合了直條圖和折線圖。 選擇「折線圖加堆疊直條圖」  及「折線圖加群組直條圖」  。
+>組合圖結合了直條圖和折線圖。 選擇「折線圖加堆疊直條圖」  及「折線圖加群組直條圖」 。
 
 如需詳細資訊，請參閱 [Power BI 中的組合圖](power-bi-visualization-combo-chart.md)。
 
@@ -132,7 +132,7 @@ ms.locfileid: "79381414"
 如需詳細資訊，請參閱 [Power BI 中的圖形地圖](desktop-shape-map.md)。
 
 
-### <a name="matrix"></a>矩陣圖
+### <a name="matrix"></a>Matrix
 ![矩陣](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
@@ -157,7 +157,7 @@ ms.locfileid: "79381414"
 ![問與答視覺效果](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
 
 >[!TIP]
->問與答視覺效果類似於[儀表板上的問與答體驗](../power-bi-tutorial-q-and-a.md)，可讓您使用自然語言來詢問資料的相關問題。 
+>問與答視覺效果類似於[儀表板上的問與答體驗](../create-reports/power-bi-tutorial-q-and-a.md)，可讓您使用自然語言來詢問資料的相關問題。 
 
 如需詳細資訊，請參閱 [Power BI 中的問與答視覺效果](power-bi-visualization-q-and-a.md)。
 
@@ -165,7 +165,7 @@ ms.locfileid: "79381414"
 ![R 視覺效果](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
 
 >[!TIP]
->以 R 指令碼建立的視覺效果通常稱為「R 視覺效果」  ，可以使用 R 豐富的分析和視覺效果功能，呈現進階的資料成形和分析，例如預測。R 視覺效果可以在 Power BI Desktop 建立，然後發佈到 Power BI 服務。   
+>以 R 指令碼建立的視覺效果通常稱為「R 視覺效果」，可以使用 R 豐富的分析和視覺效果功能，呈現進階的資料成形和分析，例如預測。R 視覺效果可以在 Power BI Desktop 建立，然後發佈到 Power BI 服務。   
 
 如需詳細資訊，請參閱 [Power BI 中的 R 視覺效果](service-r-visuals.md)。
 
@@ -191,17 +191,17 @@ ms.locfileid: "79381414"
 >[!TIP]
 >視覺效果上有太多資料點可能會導致停滯，所以使用了複雜的取樣演算法來確保視覺效果的精確度。
 
-如需詳細資訊，請參閱 [Power BI 中的高密度散佈圖](desktop-high-density-scatter-charts.md)。
+如需詳細資訊，請參閱 [Power BI 中的高密度散佈圖](../create-reports/desktop-high-density-scatter-charts.md)。
 
 ### <a name="slicers"></a>交叉分析篩選器
-![交叉分析篩選器](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+![slicer](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 如需詳細資訊，請參閱 [Power BI 中的交叉分析篩選器](power-bi-visualization-slicers.md)。
 
 ### <a name="standalone-images"></a>獨立映像
 ![獨立影像視覺效果](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
-如需詳細資訊，請參閱[將影像 Widget 加入儀表板中](../service-dashboard-add-widget.md).
+如需詳細資訊，請參閱[將影像 Widget 加入儀表板中](../create-reports/service-dashboard-add-widget.md).
 
 ### <a name="tables"></a>資料表
 ![資料表視覺效果](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
@@ -212,7 +212,7 @@ ms.locfileid: "79381414"
 如需詳細資訊，請參閱[在 Power BI 中使用資料表](power-bi-visualization-tables.md)。
 
 ### <a name="treemaps"></a>矩形式樹狀結構圖
-![矩形式樹狀結構圖](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![treemap](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 如需詳細資訊，請參閱 [Power BI 中的矩形式樹狀結構圖](power-bi-visualization-treemaps.md)。
 
@@ -228,12 +228,15 @@ ms.locfileid: "79381414"
 如需詳細資訊，請參閱 [Power BI 中的瀑布圖](power-bi-visualization-waterfall-charts.md)。
 
 ## <a name="tell-qa-which-visualization-to-use"></a>告訴問與答要使用的視覺效果
-在 Power BI 問與答輸入自然語言查詢時，您可以在查詢中指定視覺效果的類型。  範例︰
+在 Power BI 問與答輸入自然語言查詢時，您可以在查詢中指定視覺效果的類型。  例如：
 
 ***依州以矩形式樹狀結構圖顯示銷售額***.
+
+如果您的儀表板沒有 Q&A 欄位，則表示租用戶系統管理員可能已將其停用。 
 
 ![顯示指定視覺效果類型的問與答問題方塊](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 報表中的視覺效果](power-bi-report-visualizations.md)    
 [來自 sqlbi.com 的正確視覺效果參考](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+
