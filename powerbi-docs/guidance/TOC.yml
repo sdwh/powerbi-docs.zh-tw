@@ -110,6 +110,8 @@
               href: monitor-report-performance.md
             - name: 疑難排解報表效能
               href: report-performance-troubleshoot.md
+            - name: 部署管線最佳做法
+              href: ../create-reports/deployment-pipelines-best-practices.md
     - name: 白皮書
       items:
         - name: 白皮書概觀
