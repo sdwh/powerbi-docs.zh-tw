@@ -136,7 +136,7 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-請注意 *fill* 和 *fillRule* 屬性。 第一個是色彩選擇器，而第二個則是漸層的替代規則，其會在符合規則條件時 `visually` 取代「fill 屬性」  。
+請注意 *fill* 和 *fillRule* 屬性。 第一個是色彩選擇器，而第二個則是漸層的替代規則，其會在符合規則條件時 `visually` 取代「fill 屬性」。
 
 *fill* 屬性與替代規則之間的這個連結，是在 *fillRule* 屬性的 `"rule"`>`"output"` 區段中設定。
 

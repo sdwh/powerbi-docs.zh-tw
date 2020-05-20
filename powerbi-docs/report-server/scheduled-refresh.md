@@ -51,7 +51,7 @@ Power BI 報表伺服器會為所有排程的作業維護事件佇列。 也會�
 
 除了上述清單，在「匯入」  模式中還有資料來源的特定案例，您無法為其建立重新整理計劃。
 
-* 如果使用「檔案」  或「資料夾」  資料來源，且檔案路徑是本機路徑 (例如 C:\Users\user\Documents)，則無法建立重新整理計劃。 路徑必須是報表伺服器可以連線的路徑，例如網路共用。 例如，\\myshare\Documents  。
+* 如果使用「檔案」  或「資料夾」  資料來源，且檔案路徑是本機路徑 (例如 C:\Users\user\Documents)，則無法建立重新整理計劃。 路徑必須是報表伺服器可以連線的路徑，例如網路共用。 例如，\\myshare\Documents。
 * 如果資料來源只能使用 OAuth (例如，Facebook、Google Analytics、Salesforce 等) 來連線，則無法建立快取重新整理計劃。 目前，RS 不支援任何資料來源 (無論是分頁、行動或 Power BI 報表) 的 OAuth 驗證。
 
 ### <a name="memory-limits"></a>記憶體限制

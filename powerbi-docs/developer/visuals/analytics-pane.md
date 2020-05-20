@@ -25,7 +25,7 @@ ms.locfileid: "79380933"
 
 ## <a name="manage-the-analytics-pane"></a>管理 [分析] 窗格
 
-如同您在 [[格式]  窗格](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options) \(部分機器翻譯\) 中管理屬性，您藉由在物件的 *capabilities.json* 檔案中定義視覺效果，來管理 [分析]  窗格。
+如同您在 [[格式] 窗格](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options) \(部分機器翻譯\) 中管理屬性，您藉由在物件的 *capabilities.json* 檔案中定義視覺效果，來管理 [分析] 窗格。
 
 [分析]  窗格的差異如下：
 

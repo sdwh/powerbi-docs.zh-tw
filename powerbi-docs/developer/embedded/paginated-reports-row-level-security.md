@@ -32,7 +32,7 @@ ms.locfileid: "79491724"
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>在報表或查詢層級使用 UserID 作為篩選
 
-您可以使用 **UserId** 作為「篩選」  ，或是用在對 [Power BI Report Builder](../../paginated-reports/report-builder-power-bi.md) 中資料來源的「查詢」  中。
+您可以使用 **UserId** 作為「篩選」，或是用在對 [Power BI Report Builder](../../paginated-reports/report-builder-power-bi.md) 中資料來源的「查詢」中。
 
 ### <a name="using-the-filter"></a>使用篩選條件
 

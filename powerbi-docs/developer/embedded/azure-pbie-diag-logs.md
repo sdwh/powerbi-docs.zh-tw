@@ -172,7 +172,7 @@ ms.locfileid: "79495795"
 
 ![Azure 診斷](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-azure-diagnostics.png)
 
-請選取 [EventClass\_s]  或其中一個事件名稱，Log Analytics 就會繼續建構查詢。 請務必儲存您的查詢，以供日後重複使用。
+請選取 [EventClass\_s] 或其中一個事件名稱，Log Analytics 就會繼續建構查詢。 請務必儲存您的查詢，以供日後重複使用。
 
 請務必查看 [Log Analytics](https://docs.microsoft.com/azure/log-analytics/)，它提供的網站可讓您針對收集的資料進行增強查詢、儀表板管理和警示功能。
 
