@@ -26,7 +26,7 @@ ms.locfileid: "79435873"
 
 ### <a name="what-is-a-power-bi-visual-with-iap-features"></a>什麼是具有 IAP 功能的 Power BI 視覺效果？
 
-IAP Power BI 視覺效果是提供「免費功能」  的「免費」  視覺效果。 IAP Power BI 視覺效果也有一些進階功能，但這些功能可能必須另外付費。 在 Power BI 視覺效果的描述中，開發人員必須告知使用者需要另行購買才能使用的功能。 目前，Microsoft 不提供原生 API 以支援購買應用程式與增益集。
+IAP Power BI 視覺效果是提供「免費功能」的「免費」視覺效果。 IAP Power BI 視覺效果也有一些進階功能，但這些功能可能必須另外付費。 在 Power BI 視覺效果的描述中，開發人員必須告知使用者需要另行購買才能使用的功能。 目前，Microsoft 不提供原生 API 以支援購買應用程式與增益集。
 
 對於這些購買項目，開發人員可以使用任何第三方付款系統。 如需詳細資訊，請參閱[我們的市集原則](https://docs.microsoft.com/legal/marketplace/certification-policies#11002-displaying-ads) \(英文\)。
 

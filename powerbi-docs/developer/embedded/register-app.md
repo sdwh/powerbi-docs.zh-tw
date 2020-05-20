@@ -106,7 +106,7 @@ ms.locfileid: "80404017"
 
 1. 瀏覽至 Azure 入口網站內的[應用程式註冊](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType//sourceType/)，然後選取您要用於內嵌的應用程式。
 
-2. 選取 [管理]  下方的 [API 權限]  。
+2. 選取 [管理] 下方的 [API 權限]。
 
 3. 在 [API 權限]  中，選取 [新增權限]  ，然後選取 [Power BI 服務]  。
 

@@ -76,7 +76,7 @@ ms.locfileid: "79040105"
     ![加寬後的瀏覽器會顯示上次重新整理日期](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="dashboards-and-reports"></a>儀表板和報表
-查詢上次重新整理日期的另一個方法是使用 [檢視相關項目]  。  從 Power BI 上方功能表列選取 [更多選項]  (...)，即可取得 [檢視相關項目]  。
+查詢上次重新整理日期的另一個方法是使用 [檢視相關項目]  。  從 Power BI 上方功能表列選取 [更多選項] (...)，即可取得 [檢視相關項目]。
 
 ![從功能表選取 [檢視相關項目]](media/end-user-fresh/power-bi-view-related-dropdown.png)
 
