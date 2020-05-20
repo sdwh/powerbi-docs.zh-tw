@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 858ecc07deabf5b91295220c2b92791b998ecf3a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e5394a9ac7b7dbfc9edcfac53ea87d061e306a47
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349233"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565825"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中建立您自己的導出資料行
 
@@ -46,7 +46,7 @@ ms.locfileid: "83349233"
 
 2. 新的計算結果欄名稱預設為**資料行**。 如果您未將其重新命名，則額外的新資料行將會命名為**資料行 2**、**資料行 3**，依此類推。 您會想要讓資料行更容易識別，因此當公式列中已經醒目提示**資料行**名稱時，請鍵入 **ProductFullCategory** 將其重新命名，然後鍵入一個等號 ( **=** )。
 
-3. 您想要讓新資料行中的值以 **ProductCategory** 欄位中名稱作為開頭。 由於這個資料行在不同但相關的資料表中，因此您可以使用 [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) 函數來幫助您取得它。
+3. 您想要讓新資料行中的值以 **ProductCategory** 欄位中名稱作為開頭。 由於這個資料行在不同但相關的資料表中，因此您可以使用 [RELATED](/dax/related-function-dax) 函數來幫助您取得它。
 
    在等號後面，輸入 **r**。 下拉式建議清單會顯示所有開頭為字母 R 的 DAX 函數。選取每個函數便會顯示其效果的描述。 在您輸入時，建議清單會調整成越來越接近您所需的函數。 選取 **RELATED**，然後按 **Enter**鍵。
 
@@ -97,7 +97,7 @@ ms.locfileid: "83349233"
 
 「Contoso 銷售範例」包含營運中和非營運中商店的銷售資料。 您想要藉由建立 **Active StoreName** 欄位，確保在報表中將營運中門市銷售額與非營運中門市銷售額清楚分隔。 在新的 **Active StoreName** 計算結果欄中，每個營運中門市會以門市全名顯示，而非營運中門市銷售額則會一起分組到一個稱為 **Inactive** 的明細項目中。
 
-幸好，**Stores** 資料表有名為 **Status** 的資料行，如果門市為營運中，其值會是 "On"；如果門市為非營運中，則其值為 "Off"，我們可以使用這些值來為新的 **Active StoreName** 資料行建立值。 DAX 公式將會使用邏輯 [IF](https://msdn.microsoft.com/library/ee634824.aspx) 函式來測試每個門市的**狀態**，然後根據結果傳回特定的值。 如果門市的**狀態**是 "On"，公式就會傳回門市的名稱。 如果是 "Off"，公式就會將其 **Active StoreName** 指派為 "Inactive"。
+幸好，**Stores** 資料表有名為 **Status** 的資料行，如果門市為營運中，其值會是 "On"；如果門市為非營運中，則其值為 "Off"，我們可以使用這些值來為新的 **Active StoreName** 資料行建立值。 DAX 公式將會使用邏輯 [IF](/dax/if-function-dax) 函式來測試每個門市的**狀態**，然後根據結果傳回特定的值。 如果門市的**狀態**是 "On"，公式就會傳回門市的名稱。 如果是 "Off"，公式就會將其 **Active StoreName** 指派為 "Inactive"。
 
 1. 在 **Stores** 資料表中建立新的計算結果欄，並在公式列中將其命名為 **Active StoreName**。
 
@@ -133,4 +133,4 @@ ms.locfileid: "83349233"
 
 如果您想要深入剖析 DAX 公式，並使用更進階的公式來建立計算結果欄，請參閱 [Power BI Desktop 的 DAX 基本概念](desktop-quickstart-learn-dax-basics.md)。 本文著重在 DAX 中的基本概念，例如語法、函數，並且更徹底了解內容。
 
-請務必將[資料分析運算式(DAX) 參考](https://msdn.microsoft.com/library/gg413422.aspx)加入我的最愛中。 您可以在此找到 DAX 語法、運算子和超過 200 種 DAX 函式的詳細資訊。
+請務必將[資料分析運算式(DAX) 參考](/dax/)加入我的最愛中。 您可以在此找到 DAX 語法、運算子和超過 200 種 DAX 函式的詳細資訊。

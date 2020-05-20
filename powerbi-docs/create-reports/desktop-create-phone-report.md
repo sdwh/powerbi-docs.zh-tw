@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 593847d229dcd4e2081843523a0a988415a9ef81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cab4accfa11a4c92c1672314e2157659ef68f21a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297967"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564738"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>為行動裝置應用程式最佳化 Power BI 報表
 您可以透過建立直向版面配置，改善在行動裝置應用程式中檢視報表的體驗。 在 Power BI Desktop 和 Power BI 服務中，您可以重新排列和重新調整報表視覺效果的大小，來取得直向模式中的最佳體驗。  
@@ -58,7 +58,7 @@ ms.locfileid: "83297967"
 
 ![調整回應式視覺效果大小](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-您可以選擇是否要開啟各個視覺效果的回應能力。 請參閱[最佳化視覺效果](../visuals/desktop-create-responsive-visuals.md)。
+您可以選擇是否要開啟各個視覺效果的回應能力。 請參閱[最佳化視覺效果](../visuals/power-bi-report-visualizations.md)。
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>建立手機報表版面配置的注意事項
 * 若是多頁報表，您可以將所有頁面最佳化，也可以只對幾頁執行。 
@@ -108,5 +108,5 @@ ms.locfileid: "83297967"
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI 中建立儀表板的手機檢視](service-create-dashboard-mobile-phone-view.md)。
 * [檢視針對手機最佳化的 Power BI 報表](../consumer/mobile/mobile-apps-view-phone-report.md)。
-* [建立適用於任何大小的回應式視覺效果](../visuals/desktop-create-responsive-visuals.md)。
+* [建立適用於任何大小的回應式視覺效果](../visuals/power-bi-report-visualizations.md)。
 * 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)。

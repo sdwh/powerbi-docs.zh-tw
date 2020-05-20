@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 05/04/2020
-ms.openlocfilehash: a634844093f103c942b70cd81d93822ca240cf0a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 39609d0bf3681de2b01f433143556ac102ee0662
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272020"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565475"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>將編頁報表發佈至 Power BI 服務
 
@@ -113,6 +113,4 @@ ms.locfileid: "83272020"
 
 - [檢視 Power BI 服務中的編頁報表](../consumer/paginated-reports-view-power-bi-service.md)
 - [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)
-- [教學課程：為客戶將 Power BI 編頁報表內嵌至應用程式](../developer/embed-paginated-reports-customers.md)
-
-
+- [教學課程：為客戶將 Power BI 編頁報表內嵌至應用程式](../developer/embedded/embed-paginated-reports-customers.md)

@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349601"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564441"
 ---
 # <a name="what-is-power-bi"></a>Power BI 是什麼？
 **Power BI** 是軟體服務、應用程式和連接器的集合，它們搭配使用來將不相關的資料來源轉換成相關、視覺上融入的互動式深入剖析。 不論您的資料是簡單的 Excel 試算表，或是一組雲端和內部部署混合式資料倉儲， Power BI 可讓您輕鬆地連線到資料來源、以視覺化方式檢視及探索重要資料，以及與任何人或您想要的任何人共用該資料。
@@ -70,6 +70,6 @@ Power BI 中的一般工作流程是從在 Power BI Desktop 中連線至資料�
 深入了解 [Power BI 報表伺服器](../report-server/get-started.md)。
 
 ## <a name="next-steps"></a>後續步驟
-- [快速入門：學習使用 Power BI 服務](../service-the-new-power-bi-experience.md)   
+- [快速入門：學習使用 Power BI 服務](../consumer/end-user-experience.md)   
 - [教學課程：開始使用 Power BI 服務](service-get-started.md)
 - [快速入門：在 Power BI Desktop 中連線至資料](../connect-data/desktop-quickstart-connect-to-data.md)

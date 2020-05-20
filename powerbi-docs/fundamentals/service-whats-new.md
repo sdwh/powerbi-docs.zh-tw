@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b89c64caa7a4f8fe846cca488164758550a4869a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361190"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566055"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
@@ -224,7 +224,7 @@ ms.locfileid: "83361190"
 
 ### <a name="june-2017"></a>2017 年 6 月
 * [Power BI Premium](https://powerbi.microsoft.com/blog/power-bi-premium-generally-available/) 已上市。
-* [自動化排程重新整理](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)、[複製和重新繫結報表](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1)、[更新閘道繫結](https://msdn.microsoft.com/library/mt784650.aspx)等等許多功能的多個 API 改進
+* [自動化排程重新整理](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)、[複製和重新繫結報表](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1)、[更新閘道繫結](/rest/api/power-bi/)等等許多功能的多個 API 改進
 * Power BI 應用程式中從儀表板圖格到其他儀表板和報表的相對連結。
 * [Impala 連接器](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)通常可以在 Power BI Desktop 上使用。
 * Power BI 與[互動式 R Power BI 視覺效果](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)的擴充視覺效果功能。

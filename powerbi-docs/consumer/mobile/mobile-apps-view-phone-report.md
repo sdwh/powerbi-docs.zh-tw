@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 380057c2c65db3ea659adc39d692d8955201483b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273515"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565115"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>檢視為手機最佳化的 Power BI 報表
 
@@ -60,7 +60,7 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
 
 * 在手機報表中，點選視覺效果右上角的省略符號 ( **...** ) > [展開為焦點模式]  。
   
-    ![展開為焦點模式](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![展開為焦點模式](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
 您在焦點模式所執行的動作會沿用至報表畫布，反之亦然。 例如，如果您將視覺效果中的值醒目提示，然後返回整份報表，該報表就會篩選至您在視覺效果中醒目提示的值。
 
@@ -72,7 +72,7 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
   
     若要清除視覺效果中的所有探索，請點選省略符號 ( **...** ) > [還原]  。
   
-    ![還原](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![還原](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
     報表層級可進行還原，進而清除所有視覺效果的探索；而視覺效果層級的還原，可清除選定視覺效果的探索。   
 
@@ -86,14 +86,14 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
 2. 系統會顯示工具提示，如果已定義階層，則工具提示頁尾會顯示切入的向下和向上箭號。
 3. 點選向下箭號以向下切入
 
-    ![點選向下切入](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![點選向下切入](media/mobile-apps-view-phone-report/report-drill-down.png)
     
 4. 點選向上箭號以向上切入。
 
 ### <a name="drill-to-next-level"></a>切入至下一個層級
 1. 在手機上報表中，點選右上角的省略符號 ( **...** ) > [展開為焦點模式]  。
    
-    ![展開為焦點模式](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![展開為焦點模式](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     在本例中，橫條會顯示各州的值。
 2. 點選左下角的 ![探索圖示](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) 。
@@ -111,7 +111,7 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
     ![保持展開至較低層級](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
 5. 若要回到原本層級，請再次點選省略符號 ( **...** ) > [還原]  。
    
-    ![還原](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![還原](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
 ## <a name="drill-through-from-a-value"></a>從值鑽研
 鑽研會將某個報表頁面中的值與其他報表頁面連接。 當您從資料點鑽研至另一個報表頁面時，資料點值會用來篩選已鑽研的頁面，或者它會在所選取資料的內容中。
@@ -121,11 +121,11 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
 2. 系統會顯示工具提示，如果已定義鑽研，則工具提示頁尾會顯示鑽研箭號。
 3. 點選箭號以進行鑽研
 
-    ![點選鑽研](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![點選鑽研](media/mobile-apps-view-phone-report/report-drill-through1.png)
 
 4. 選擇要鑽研的報表頁面
 
-    ![選擇報表頁面](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![選擇報表頁面](media/mobile-apps-view-phone-report/report-drill-through2.png)
 
 5. 使用應用程式標頭的上一頁按鈕，返回您開始的頁面。
 
@@ -133,5 +133,5 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
 ## <a name="next-steps"></a>後續步驟
 * [建立為 Power BI 行動應用程式最佳化的報表](../../create-reports/desktop-create-phone-report.md)
 * [在 Power BI 中建立儀表板的手機檢視](../../create-reports/service-create-dashboard-mobile-phone-view.md)
-* [建立適用於任何大小的回應式視覺效果](../../visuals/desktop-create-responsive-visuals.md)
+* [建立適用於任何大小的回應式視覺效果](../../visuals/power-bi-report-visualizations.md)
 * 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

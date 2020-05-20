@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1dbb35ab45a1172044cedb7fbe484ed4da6c43db
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f70c41e40ff2da385b2f63798b93dec3fcd7b7c5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348359"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565733"
 ---
 # <a name="export-reports-to-powerpoint"></a>將報表匯出至 PowerPoint
 
@@ -31,7 +31,7 @@ ms.locfileid: "83348359"
 
 將 **Power BI 報表**匯出到 **PowerPoint** 的程序非常簡單快速。 請遵循下一節中概述的步驟。
 
-您也可以從 Power BI 服務一次複製一個視覺效果並貼入至 PowerPoint (或支援貼上的任何其他程式)。 選取**複製成影像**圖示，將視覺效果複製到剪貼簿。 然後，開啟 PowerPoint 並貼上視覺效果。 如需詳細資訊，請參閱[將視覺效果複製為靜態影像](../power-bi-visualization-copy-paste.md)。
+您也可以從 Power BI 服務一次複製一個視覺效果並貼入至 PowerPoint (或支援貼上的任何其他程式)。 選取**複製成影像**圖示，將視覺效果複製到剪貼簿。 然後，開啟 PowerPoint 並貼上視覺效果。 如需詳細資訊，請參閱[將視覺效果複製為靜態影像](../visuals/power-bi-visualization-copy-paste.md)。
 
 ![選取複製成影像圖示](media/end-user-powerpoint/power-bi-copy.png)
 
@@ -87,12 +87,12 @@ ms.locfileid: "83348359"
 當您使用 [匯出至 PowerPoint] 功能時，需牢記幾項考量與限制。
  
 
-* 當您針對匯出選擇 [目前的值] 時，目前不適用 [URL 篩選](../service-url-filters.md)。
+* 當您針對匯出選擇 [目前的值] 時，目前不適用 [URL 篩選](../collaborate-share/service-url-filters.md)。
 
 * 匯出至 PowerPoint 時，如果報表使用自訂字型，則會使用預設字型來取代該字型。
 
 * 下列視覺效果類型不受支援，且將不會匯出至 PowerPoint：
-   - 不支援[未經認證的自訂視覺效果](../developer/power-bi-custom-visuals-certified.md))。 
+   - 不支援[未經認證的自訂視覺效果](../developer/visuals/power-bi-custom-visuals-certified.md))。 
    - 不支援 [ESRI ArcGIS 視覺效果](../visuals/power-bi-visualizations-arcgis.md)
    - 不支援 R 和 Python 視覺效果。
    - 背景影像會按圖表的周框區域剪裁。 我們建議您先移除背景影像，再匯出至 PowerPoint。
@@ -109,5 +109,5 @@ ms.locfileid: "83348359"
 
 
 ## <a name="next-steps"></a>後續步驟
-[將視覺效果複製為靜態影像](../power-bi-visualization-copy-paste.md)    
+[將視覺效果複製為靜態影像](../visuals/power-bi-visualization-copy-paste.md)    
 [列印報表](end-user-print.md)

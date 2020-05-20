@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: deb72b1b66d4cbc87c2e317bb1fe1428c079cfea
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c71f26949f19ed1beb29a162c18dc36ed689c21
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83308938"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565338"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理您的資料來源 ─ Analysis Services
 
@@ -29,7 +29,7 @@ ms.locfileid: "83308938"
 
 ## <a name="add-a-data-source"></a>新增資料來源
 
-如需如何新增資料來源的資訊，請參閱[新增資料來源](service-gateway-data-sources.md#add-a-data-source)。 若您要連線到多維度或表格式伺服器，請針對 [資料來源類型]  選取 [Analysis Services]  。
+如需如何新增資料來源的資訊，請參閱[新增資料來源](service-gateway-data-sources.md#add-a-data-source)。 若您要連線到多維度或表格式伺服器，請針對 [資料來源類型] 選取 [Analysis Services]。
 
 ![新增 Analysis Services 資料來源](media/service-gateway-enterprise-manage-ssas/datasourcesettings2-ssas.png)
 
@@ -54,9 +54,9 @@ ms.locfileid: "83308938"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qb5EEjkHoLg" frameborder="0" allowfullscreen></iframe>
 
-每次使用者和連接至 Analysis Services 的報表互動時，會將有效使用者名稱傳遞至閘道器，然後傳遞給內部部署 Analysis Services 伺服器。 您用來登入 Power BI 的電子郵件地址會當作有效使用者傳遞給 Analysis Services。 傳遞此內容時是使用連接屬性 [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth)。 
+每次使用者和連接至 Analysis Services 的報表互動時，會將有效使用者名稱傳遞至閘道器，然後傳遞給內部部署 Analysis Services 伺服器。 您用來登入 Power BI 的電子郵件地址會當作有效使用者傳遞給 Analysis Services。 傳遞此內容時是使用連接屬性 [EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services#bkmk_auth)。 
 
-電子郵件地址必須和本機 Active Directory 網域內定義的使用者主體名稱 (UPN) 相符。 UPN 是 Active Directory 帳戶的屬性。 Windows 帳戶必須出現在 Analysis Services 角色中。 若在 Active Directory 中找不到任何相符項目，登入便不成功。 若要深入了解 Active Directory 和使用者命名，請參閱[使用者命名屬性](https://msdn.microsoft.com/library/ms677605.aspx)。
+電子郵件地址必須和本機 Active Directory 網域內定義的使用者主體名稱 (UPN) 相符。 UPN 是 Active Directory 帳戶的屬性。 Windows 帳戶必須出現在 Analysis Services 角色中。 若在 Active Directory 中找不到任何相符項目，登入便不成功。 若要深入了解 Active Directory 和使用者命名，請參閱[使用者命名屬性](/windows/win32/ad/naming-properties)。
 
 您也可以[將您的 Power BI 登入名稱與本機目錄 UPN 對應](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources)。
 
@@ -203,7 +203,7 @@ Analysis Services 也可以提供根據此帳戶進行篩選。 可以根據角�
 - 他們 Windows 使用者帳戶隸屬為其成員的角色。
 - 動態資料列層級安全性，如果已設定的話。
 
-在模型中實作角色和動態資料列層級安全性已超出本文的範圍。 若要深入了解，請參閱 MSDN 上的[角色 (SSAS 表格式)](https://msdn.microsoft.com/library/hh213165.aspx) 和[安全性角色 (Analysis Services - 多維度資料)](https://msdn.microsoft.com/library/ms174840.aspx)。 為了徹底了解表格式模型安全性，請下載並閱讀[保護表格式 BI 語意模型技術白皮書](https://msdn.microsoft.com/library/jj127437.aspx)。
+在模型中實作角色和動態資料列層級安全性已超出本文的範圍。 若要深入了解，請參閱 MSDN 上的[角色 (SSAS 表格式)](/analysis-services/tabular-models/roles-ssas-tabular) 和[安全性角色 (Analysis Services - 多維度資料)](/analysis-services/multidimensional-models/olap-logical/security-roles-analysis-services-multidimensional-data)。 為了徹底了解表格式模型安全性，請下載並閱讀[保護表格式 BI 語意模型技術白皮書](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)。
 
 ## <a name="what-about-azure-ad"></a>那麼 Azure AD 呢？
 

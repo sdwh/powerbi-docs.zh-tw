@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 35e5d3b93305f8f2271db6343164cad8b57a4bfd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c687486af1293660af5496e27ea707bb1afeec80
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348842"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564544"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 設計工具的儀表板簡介
 
@@ -22,7 +22,7 @@ Power BI 「儀表板」是透過視覺效果來說故事的單一頁面，通�
 
 ![儀表板](media/service-dashboards/power-bi-dashboard2.png)
 
-儀表板功能僅限於 Power BI 服務。 它們在 Power BI Desktop 中無法使用。 雖然您無法在行動裝置上建立儀表板，但可以在該處[檢視及共用]../consumer/mobile/mobile-apps-view-dashboard.md)儀表板。
+儀表板功能僅限於 Power BI 服務。 它們在 Power BI Desktop 中無法使用。 雖然您無法在行動裝置上建立儀表板，但可以在該處[檢視和共用](../consumer/mobile/mobile-apps-view-dashboard.md)儀表板。
 
 ## <a name="dashboard-basics"></a>儀表板的基本概念 
 

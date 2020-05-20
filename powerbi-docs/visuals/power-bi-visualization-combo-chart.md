@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 036343df0a9af678b5a88c261a60ce603483a1cc
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 34d539af94f2bcbe03a2c9d6b870887e371a1a6e
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277172"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563912"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>在 Power BI 中建立和使用組合圖
 
@@ -123,7 +123,7 @@ ms.locfileid: "83277172"
 
 * [將組合圖加入為儀表板圖格](../create-reports/service-dashboard-tiles.md)。
 * [儲存報表](../create-reports/service-report-save.md)。
-* [使報表讓行動不便人士易於存取](../desktop-accessibility.md)。
+* [使報表讓行動不便人士易於存取](../create-reports/desktop-accessibility-overview.md)。
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>交叉反白顯示和交叉篩選
 
@@ -134,6 +134,3 @@ ms.locfileid: "83277172"
 [Power BI 中的環圈圖](power-bi-visualization-doughnut-charts.md)
 
 [Power BI 中的視覺效果類型](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-
-

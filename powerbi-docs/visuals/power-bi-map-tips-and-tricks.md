@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8a7b5785712aeac318b3d8a2bbd14ab7170a435f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277816"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565894"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI 地圖視覺效果的秘訣和訣竅
 
@@ -55,7 +55,7 @@ Power BI 服務和 Power BI Desktop 會將 Bing 建立地圖視覺效果所需�
 **2.使用多個位置資料行。**     
  有時候，即使設定了地圖的資料分類，也不夠讓 Bing 正確猜出您的意圖。 某些指定由於位置存在於多個國家或地區而模稜兩可。 例如，英國、賓夕法尼亞州和紐約州都有「南安普敦」。
 
-Power BI 會使用 Bing 的[非結構化 URL 範本服務](https://msdn.microsoft.com/library/ff701714.aspx)，以根據任何國家/地區的地址值集合來取得緯度和經度座標。 如果您的資料未包含足夠的位置資料，請新增這些資料行並適當地分類。
+Power BI 會使用 Bing 的[非結構化 URL 範本服務](/bingmaps/rest-services/locations/find-a-location-by-address)，以根據任何國家/地區的地址值集合來取得緯度和經度座標。 如果您的資料未包含足夠的位置資料，請新增這些資料行並適當地分類。
 
  例如：如果您只有 [鄉/鎮/市/區] 資料行，Bing 可能很難進行地理編碼。 新增其他地理資料行，讓位置更明確。  有時只需要再將一個位置資料行新增至資料集，在本例中為州/省。 此外，別忘了將它正確分類，如上面第一項所述。
 
@@ -97,5 +97,3 @@ Power BI 會使用 Bing 的[非結構化 URL 範本服務](https://msdn.microsof
 [Power BI 視覺效果](power-bi-report-visualizations.md)
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
-
-

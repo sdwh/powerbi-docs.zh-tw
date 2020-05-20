@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3f3b5f8967890a3bb0cda3464b8d122d40938f62
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 283b43ef60d88df64b66812956e79bdcce1f16e9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322002"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565779"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>從 Excel 將磚釘選到 Power BI 儀表板
 您要先連接活頁簿和 Power BI 服務 (app.powerbi.com)，才可以從 Excel 活頁簿釘選磚。 連接活頁簿其實就是將該活頁簿的連結唯讀版本帶入 Power BI 服務，且讓您將範圍釘選到儀表板。 您甚至可以將整份工作表釘選到儀表板。  
@@ -80,7 +80,7 @@ ms.locfileid: "83322002"
  ![影片](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-不支援的功能：Power BI 使用 Excel Services 來擷取活頁簿圖格。 因此，因為 Excel Services REST API 不支援 Excel 的某些功能，所以在 Power BI 中的磚上不會看到它們。 例如：走勢圖、設定條件式格式的圖示和時間交叉分析篩選器。 如需不支援功能的完整清單，請參閱 [Unsupported Features in Excel Services REST API](https://msdn.microsoft.com/library/office/ff394477.aspx) (Excel Services REST API 中不支援的功能)
+不支援的功能：Power BI 使用 Excel Services 來擷取活頁簿圖格。 因此，因為 Excel Services REST API 不支援 Excel 的某些功能，所以在 Power BI 中的磚上不會看到它們。 例如：走勢圖、設定條件式格式的圖示和時間交叉分析篩選器。 如需不支援功能的完整清單，請參閱 [Unsupported Features in Excel Services REST API](/sharepoint/dev/general-development/unsupported-features-in-excel-services-rest-api) (Excel Services REST API 中不支援的功能)
 
 ## <a name="next-steps"></a>後續步驟
 [共用可連結至 Excel 活頁簿的儀表板](../collaborate-share/service-share-dashboard-that-links-to-excel-onedrive.md)

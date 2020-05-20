@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: fb7bf439cdf2f7ebd6058aba6b147f800b9cf258
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 45f3aa4ccf92237085db0c7517c291fe8d0f0428
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79113043"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564875"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>如何在 Power BI 報表中相互進行視覺效果交叉篩選
 
@@ -55,7 +55,7 @@ Power BI 的其中一項絕佳功能，是報表頁面上所有視覺效果互�
     ![選取環圈圖 [審核] 區段後的報表頁面](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>後續步驟
-[如何使用報表篩選](../power-bi-how-to-report-filter.md)    
+[如何使用報表篩選](../consumer/end-user-report-filter.md)
 
 
-[關於篩選及醒目提示](end-user-report-filter.md)。 
+[關於篩選及醒目提示](end-user-report-filter.md)。

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f36b0a92d09330b4efec078ae5bc767fed434393
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 835feb7c7535a50a10c736464d8366f1f7bf910a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325636"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565871"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>Power BI Desktop 內的公式編輯器
 
@@ -62,5 +62,4 @@ ms.locfileid: "83325636"
 
 * [Power BI Desktop 中的 DAX 基本概念](desktop-quickstart-learn-dax-basics.md)
 * [了解 Power BI 的DAX](https://docs.microsoft.com/power-bi/guided-learning/introductiontodax?tutorial-step=1)
-* [DAX 參考](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)
-
+* [DAX 參考](/dax/)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7816fd6e75c9b8925ba0d707f6a63f58af546fcf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c92fb47f576b750aa4815b56fabece2b5bc1de5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279472"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565963"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>匯入模型的資料減少技術
 
@@ -105,4 +105,3 @@ Power BI Desktop 包含一個稱為「自動日期/時間」  的選項。 啟�
 - [在 Power BI Desktop 中使用複合模型](../transform-model/desktop-composite-models.md)
 - [Power BI Desktop 中的儲存模式](../transform-model/desktop-storage-mode.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

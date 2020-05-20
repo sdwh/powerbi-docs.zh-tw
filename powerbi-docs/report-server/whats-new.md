@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f4585e4c1eb629b4676b74157c0520d70540da7b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348152"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565138"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
@@ -58,11 +58,11 @@ ms.locfileid: "83348152"
 
 **報告**
 
-將資料表資料行或矩陣值設定為自訂 URL 
+將資料表資料行或矩陣值設定為自訂 URL
 
 您可以將資料表資料行或矩陣值設定為自訂 URL。 您可在 [格式化] 窗格中的 [設定格式化的條件] 卡片底下找到此新選項。
 
-KPI 視覺效果格式設定 
+KPI 視覺效果格式設定
 
 在本月的版本中，KPI 有新的格式設定選項：
 
@@ -79,13 +79,13 @@ KPI 視覺效果格式設定
 - 良好/不良/中性狀態色彩
 - 日期字型色彩
 
-篩選窗格體驗更新 
+篩選窗格體驗更新
 
 我們已經簡化將目前報表轉換到新窗格的程序，作為[最新版本](https://powerbi.microsoft.com/blog/power-bi-report-server-september-2019-feature-summary/#filterPane)新篩選體驗公開推出的一部分。 當您第一次開啟 [Power BI 報表伺服器] 時，您會看到篩選窗格自動更新對話方塊。 在報表伺服器中，這些更新也包含橫幅，當報表必須移轉到新體驗時會顯示。
 
 **分析**
 
-按鈕的條件式格式設定 
+按鈕的條件式格式設定
 
 這些條件式格式設定更新全部都與按鈕相關。 您現在可以動態地設定下列屬性的格式設定：
 
@@ -96,7 +96,7 @@ KPI 視覺效果格式設定
 - 填滿色彩
 - 按鈕工具提示 (在動作卡片底下)
 
-載入更多分析見解 
+載入更多分析見解
 
 執行「分析」功能來尋找資料中的見解 (例如說明增加) 時，我們只會在一段時間內執行機器學習模型，以及時顯示見解。 如果有大量資料要分析，在初始逾時後，您現在可以選擇繼續執行分析。
 
@@ -106,7 +106,7 @@ KPI 視覺效果格式設定
 
 **資料準備**
 
-資料分析改善 
+資料分析改善
 
 這個月，我們在 Power Query 編輯器中的資料分析功能引進幾個重要改善，包括：
 
@@ -116,13 +116,13 @@ KPI 視覺效果格式設定
 - 日期/日期時間：依年、月、日、當年週次、當週的星期幾、上午/下午時間，以及一天內的小時。
 - 針對其他資料類型有更多，例如，邏輯 True/False。
 
-篩選選項 
+篩選選項
 
 在 [資料行設定檔] 散發窗格中，您已經可以利用數種類型特定的群組準則。 現在，當群組準則已套用時，您也可以從分佈圖中每個值的圖說文字內篩選。 例如，您可以從日期/日期時間資料行的 [資料設定檔] 窗格中，排除落在指定月份的所有值。
 
 **其他**
 
-新檔案格式：.pbids 
+新檔案格式：.pbids
 
 這個月，我們推出新檔案格式：.pbids，簡化組織中報表建立者的「取得資料」體驗。 我們建議系統管理員為常用的連線建立這些檔案。
 
@@ -130,7 +130,7 @@ KPI 視覺效果格式設定
 
 《Power BI Desktop 中的資料來源》一文的[使用 .pbids 檔案來取得資料](../connect-data/desktop-data-sources.md#using-pbids-files-to-get-data)小節中，可找到詳細資訊和範例。
 
-模型化作業的效能改善 
+模型化作業的效能改善
 
 我們已在 Analysis Services 引擎中改善效能，以加速模型化作業，例如，新增量值或計算結果欄，以及建立關聯性。 您所看到的改善數量取決於模型，但對於某些客戶，我們看到開啟檔案和新增量值等動作有 20 倍效能改進。
 
@@ -160,7 +160,7 @@ Power BI 報表伺服器中的從 Power BI 報表匯出至 Excel，現在的運�
 
 #### <a name="custom-headers"></a>自訂標頭
 
-針對符合所指定 RegEx 模式的 URL 設定標頭值。 使用者可以使用有效的 XML 來更新自訂標頭值，以設定所選要求 URL 的標頭值。 系統管理員可以在 XML 中新增任意數目的標頭。 如需詳細資訊，請參閱 Reporting Services＜伺服器屬性進階頁面＞  一文中的[CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders)。
+針對符合所指定 RegEx 模式的 URL 設定標頭值。 使用者可以使用有效的 XML 來更新自訂標頭值，以設定所選要求 URL 的標頭值。 系統管理員可以在 XML 中新增任意數目的標頭。 如需詳細資訊，請參閱 Reporting Services＜伺服器屬性進階頁面＞一文中的[CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders)。
 
 #### <a name="transparent-database-encryption"></a>透明資料庫加密
 
@@ -247,7 +247,7 @@ Power BI 報表伺服器的 2019 年 9 月更新包含了許多 Power BI 報表�
 
 #### <a name="accessible-visual-interaction"></a>無障礙的視覺效果互動
 
-您現在可以使用鍵盤導覽來存取許多內建視覺效果上的資料點。 深入了解 [Power BI 報表的協助工具](../desktop-accessibility.md)。
+您現在可以使用鍵盤導覽來存取許多內建視覺效果上的資料點。 深入了解 [Power BI 報表的協助工具](../create-reports/desktop-accessibility-overview.md)。
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>條件式格式設定標題和 Web URL 動作
 
@@ -343,7 +343,7 @@ Power BI 報表中支援下列功能：
 
 #### <a name="report-theming"></a>報表佈景主題
 
-Power BI 報表伺服器的 2018 年 8 月版本已新增報表佈景主題，可讓您快速以色彩標示整個報表，以符合某個佈景主題或公司商標。 當您匯入佈景主題時，您所有的圖表都會自動更新以使用佈景主題色彩，而且您可以從調色盤存取佈景主題色彩。 您可以使用 [切換佈景主題]  按鈕下的 [匯入佈景主題]  選項來上傳佈景主題檔案。
+Power BI 報表伺服器的 2018 年 8 月版本已新增報表佈景主題，可讓您快速以色彩標示整個報表，以符合某個佈景主題或公司商標。 當您匯入佈景主題時，您所有的圖表都會自動更新以使用佈景主題色彩，而且您可以從調色盤存取佈景主題色彩。 您可以使用 [切換佈景主題] 按鈕下的 [匯入佈景主題] 選項來上傳佈景主題檔案。
 
 佈景主題檔案是 JSON 檔案，其中包含您想要我們在您的報表中使用的所有色彩，以及您想要套用至視覺效果的任何預設格式。
 以下是簡單的範例 JSON 佈景主題，只會更新報表的預設色彩：
@@ -364,7 +364,7 @@ Power BI 報表伺服器的 2018 年 8 月版本已新增報表佈景主題，�
 
 #### <a name="conditional-formatting-by-values"></a>依據值的條件式格式設定
 
-另一個新的條件式格式設定類型是 [依欄位值格式化]  。 [依欄位值格式化] 可讓您使用指定色彩的量值或資料行，透過十六進位碼或名稱，將該色彩套用至背景或字型色彩。
+另一個新的條件式格式設定類型是 [依欄位值格式化]。 [依欄位值格式化] 可讓您使用指定色彩的量值或資料行，透過十六進位碼或名稱，將該色彩套用至背景或字型色彩。
 
 #### <a name="report-page-tooltips"></a>報表頁面工具提示
 
@@ -603,7 +603,7 @@ Excel 和 Power BI 包含產業中特有的工具組合。 此外，它們可讓
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>新資料表和矩陣視覺效果的支援
 
-Power BI 報表伺服器現在支援新的 Power BI 資料表和矩陣視覺效果。 若要使用這些視覺效果來建立報表，您需要 2017 年 10 月版本的已更新 Power BI Desktop 版本。 它無法與 Power BI Desktop (2017 年 6 月) 版本並存安裝。 如需最新版本的 Power BI Desktop，請在 [Power BI 報表伺服器下載分頁](https://powerbi.microsoft.com/report-server/)上選取 [進階下載選項]  。
+Power BI 報表伺服器現在支援新的 Power BI 資料表和矩陣視覺效果。 若要使用這些視覺效果來建立報表，您需要 2017 年 10 月版本的已更新 Power BI Desktop 版本。 它無法與 Power BI Desktop (2017 年 6 月) 版本並存安裝。 如需最新版本的 Power BI Desktop，請在 [Power BI 報表伺服器下載分頁](https://powerbi.microsoft.com/report-server/)上選取 [進階下載選項]。
 
 ## <a name="june-2017"></a>2017 年 6 月
 

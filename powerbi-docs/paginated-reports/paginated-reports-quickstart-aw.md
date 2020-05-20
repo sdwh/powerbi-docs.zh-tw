@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 45edb3695acdcc5519fb0b62cebc853ff25ce97a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 81e293f4dbf15a21c2546a54f140b163ebc93c05
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145212"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565641"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教學課程：建立分頁報表並將它上傳至 Power BI 服務
 
@@ -42,7 +42,7 @@ ms.locfileid: "83145212"
 
 以下是將編頁報表上傳至 Power BI 服務的必要條件：
 
-- 您需要 [Power BI Pro 授權](../service-admin-power-bi-pro-in-your-organization.md)。
+- 您需要 [Power BI Pro 授權](../admin/service-admin-licensing-organization.md)。
 - 您需要在 [Power BI Premium 容量](../admin/service-premium-what-is.md)中的服務上具備工作區。 它在工作區名稱旁邊有一個鑽石圖示 ![Premium 鑽石圖示](media/paginated-reports-quickstart-aw/premium-diamond.png)。
 
 ## <a name="create-the-matrix-with-a-wizard"></a>使用精靈建立矩陣

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4a6ba7f171f462fe6fe0d386305c82b486db5ed4
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276827"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565018"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散佈圖、泡泡圖與點圖
 
@@ -128,7 +128,7 @@ ms.locfileid: "83276827"
     > [!NOTE]
     > 資料點越多，載入時間可能越久。 如果您選擇發佈限制規模較高的報表，請務必在 Web 及行動裝置上測試您的報表。 您想要確認圖表的效能符合使用者的期望。
 
-1. 繼續將視覺效果色彩、標籤、標題、背景等項目格式化。 若要[改善協助工具](../desktop-accessibility.md)，請考慮在每一行新增標記圖形。 若要選取標記圖形，請展開 [圖形]  ，然後依序選取 [標記圖形]  和一個圖形。
+1. 繼續將視覺效果色彩、標籤、標題、背景等項目格式化。 若要[改善協助工具](../create-reports/desktop-accessibility-overview.md)，請考慮在每一行新增標記圖形。 若要選取標記圖形，請展開 [圖形]  ，然後依序選取 [標記圖形]  和一個圖形。
 
     ![標示出 [標記圖形] 選項的 [圖形] 下拉式清單螢幕擷取畫面。](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 

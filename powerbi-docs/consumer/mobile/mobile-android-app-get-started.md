@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: 557334ed8aecccd646fde92a6d2cfa7852aff36b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 105cef5b9df49d076491057d73f6929d46216a8b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347209"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564852"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>開始在 Android 裝置上使用 Power BI 行動裝置應用程式
 Microsoft Power BI for Android 應用程式傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 
@@ -27,7 +27,7 @@ Microsoft Power BI for Android 應用程式傳遞 Power BI、Power BI 報表伺�
 
 然後在 Android 的 Power BI 應用程式中，與您內部部署或雲端中的儀表板和報表互動。
 
-了解 [Power BI 行動裝置應用程式的新功能](../../mobile-whats-new-in-the-mobile-apps.md)。
+了解 [Power BI 行動裝置應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="prerequisites"></a>必要條件
 
@@ -40,7 +40,7 @@ Power BI 可以在多種不同的 Android 裝置 (執行 Android 5.0 作業系�
 **開啟應用程式時啟動**    
 即使您沒有註冊或登入，只要開啟應用程式，便可以翻閱登入頁面，並快速概覽可以利用 Power BI 應用程式在 Android 裝置上執行的事項。 點選 [跳過]  可檢視及探索範例，並取得應用程式的實際操作體驗。 您隨時可以從儀表板首頁[返回範例](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples)。
 
-了解 [Power BI 行動裝置應用程式的新功能](../../mobile-whats-new-in-the-mobile-apps.md)。
+了解 [Power BI 行動裝置應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>在網路上註冊 Power BI 服務
 如果您尚未註冊，請前往 [Power BI 服務](https://powerbi.com/)來註冊您用來建立及儲存儀表板和報表的專屬帳戶，並將您的資料匯聚在一起。 然後從您的 Android 裝置登入 Power BI，藉此可從任何地方查看您自己的儀表板。
@@ -101,14 +101,14 @@ Microsoft Intune 讓組織可以控制像是要求存取 PIN、控制應用程�
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 儀表板和報表
 * 檢視[應用程式](../../collaborate-share/service-create-distribute-apps.md)。
-* 檢視您的[儀表板](../../mobile-apps-view-dashboard.md)。
-* 探索[儀表板上的磚](../../mobile-tiles-in-the-mobile-apps.md)。
-* 開啟 [Power BI 報表](../../mobile-reports-in-the-mobile-apps.md)。
+* 檢視您的[儀表板](mobile-apps-view-dashboard.md)。
+* 探索[儀表板上的磚](mobile-tiles-in-the-mobile-apps.md)。
+* 開啟 [Power BI 報表](mobile-reports-in-the-mobile-apps.md)。
 * 檢視[您的應用程式](../../collaborate-share/service-create-distribute-apps.md)。
 * [標註並共用磚](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
-* 共用[儀表板](../../mobile-share-dashboard-from-the-mobile-apps.md)。
-* 使用 Android 手機[掃描 Power BI QR 代碼](../../mobile-apps-qr-code.md)，以開啟相關儀表板圖格或報表。 
-* 檢視 [Power BI 帳戶更新的相關通知](../../mobile-apps-notification-center.md)，例如同事與您共用的儀表板。
+* 共用[儀表板](mobile-share-dashboard-from-the-mobile-apps.md)。
+* 使用 Android 手機[掃描 Power BI QR 代碼](mobile-apps-qr-code.md)，以開啟相關儀表板圖格或報表。 
+* 檢視 [Power BI 帳戶更新的相關通知](mobile-apps-notification-center.md)，例如同事與您共用的儀表板。
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Power BI 報表伺服器和 Reporting Services 入口網站的報表與 KPI
 * 在 Power BI for Android 行動裝置應用程式中[檢視入口網站的報表和 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。

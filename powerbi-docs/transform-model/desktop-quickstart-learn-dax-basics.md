@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9ff04510a786fa89e1e461e6eefee1af90e58a8e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 783a9bdce34345afd87be379aff7e073ff8c548d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83313377"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565848"
 ---
 # <a name="apply-dax-basics-in-power-bi-desktop"></a>在 Power BI Desktop 中套用 DAX 基本概念
 本文適用對象為剛開始使用 Power BI Desktop 的使用者。 您將以快速且容易了解的方式，了解如何使用資料分析運算式 (DAX)，以便解決一些基本計算和資料分析問題。 我們將逐一探討一些概念性資訊、一系列您可以完成的工作，以及用來測試所學內容的知識檢定。 完成本文之後，您便可充分了解 DAX 最重要的基本概念。
@@ -66,7 +66,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 
 您可能會想：「這個量值的功能，不是與直接將 SalesAmount 欄位新增至我的報表中一樣嗎？ 」 沒錯。 不過，我們有充分的理由建立自己的量值，以加總來自 SalesAmount 欄位的值：我們可以在其他函式中將它當作引數。 雖然現在可能有點難以理解，但隨著您愈來愈熟練於 DAX 公式，了解這個量值可讓公式和模型更有效率。 事實上，您稍後將會看到 Total Sales 量值如何顯示為其他公式中的引數。
 
-接著我們將探討這個公式的其他幾點。 我們將特別介紹 [SUM](https://msdn.microsoft.com/library/ee634387.aspx) 函數。 函數是預先撰寫的公式，以便簡化數值、日期、時間、文字等複雜的計算和操作。 稍後您將進一步了解函式。
+接著我們將探討這個公式的其他幾點。 我們將特別介紹 [SUM](/dax/sum-function-dax) 函數。 函數是預先撰寫的公式，以便簡化數值、日期、時間、文字等複雜的計算和操作。 稍後您將進一步了解函式。
 
 您也會看到資料行名稱 [SalesAmount] 前面加上資料行所屬的 Sales 資料表 。 這就是所謂的完整資料行名稱，因為其中包含資料行名稱，且前面加上了資料表名稱。 相同資料表中所參考的資料行不需要在公式中包含資料表名稱，這麼一來可能會讓參考許多資料行的冗長公式較短且較容易閱讀。 不過，最好能夠在量值公式中包含資料表名稱，即使在同一個資料表中亦然。
 
@@ -121,7 +121,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 
 以上為您介紹了 DAX 公式的幾個重要層面： 
 
-- 這個公式包含兩個函式。 [PREVIOUSQUARTER](https://msdn.microsoft.com/library/ee634385.aspx) 時間智慧函式會以巢狀引數形式傳遞至 [CALCULATE](https://msdn.microsoft.com/library/ee634825.aspx) 篩選函式。 
+- 這個公式包含兩個函式。 [PREVIOUSQUARTER](/dax/previousquarter-function-dax) 時間智慧函式會以巢狀引數形式傳遞至 [CALCULATE](/dax/calculate-function-dax) 篩選函式。 
 
    DAX 公式最多可以包含 64 個巢狀函數。 一個公式不大可能會包含這麼多的巢狀函數。 事實上，這類公式可能難以建立及偵錯，且可能也不會太快。
 
@@ -142,7 +142,7 @@ DAX 是公式或運算式中，可用來計算並傳回一或多個值的函數�
 ### <a name="functions"></a>函數
 函數是預先定義的公式，使用特定值和呼叫的引數，依特定順序或結構來執行計算。 引數可以是其他函數、另一個公式、運算式、資料行參考、數值、文字、TRUE 或 FALSE 等邏輯值，或常數。
 
-DAX 包含下列函數類別：[日期和時間](https://msdn.microsoft.com/library/ee634786.aspx) \(英文\)、[時間智慧](https://msdn.microsoft.com/library/ee634763.aspx) \(英文\)、[資訊](https://msdn.microsoft.com/library/ee634552.aspx) \(英文\)、[邏輯](https://msdn.microsoft.com/library/ee634365.aspx) \(英文\)、[數學](https://msdn.microsoft.com/library/ee634241.aspx) \(英文\)、[統計](https://msdn.microsoft.com/library/ee634822.aspx) \(英文\)、[文字](https://msdn.microsoft.com/library/ee634938.aspx) \(英文\)、[父子式](https://msdn.microsoft.com/library/mt150102.aspx) \(英文\) 和[其他](https://msdn.microsoft.com/library/mt150101.aspx) \(英文\) 函式。 如果您熟悉 Excel 公式中的函數，DAX 中的許多函數看起來會很類似；不過，DAX 函數在下列方面是獨一無二的：
+DAX 包含下列函數類別：[日期和時間](/dax/date-and-time-functions-dax) \(英文\)、[時間智慧](/dax/time-intelligence-functions-dax) \(英文\)、[資訊](/dax/information-functions-dax) \(英文\)、[邏輯](/dax/logical-functions-dax) \(英文\)、[數學](/dax/math-and-trig-functions-dax) \(英文\)、[統計](/dax/statistical-functions-dax) \(英文\)、[文字](/dax/text-functions-dax) \(英文\)、[父子式](/dax/parent-and-child-functions-dax) \(英文\) 和[其他](/dax/other-functions-dax) \(英文\) 函式。 如果您熟悉 Excel 公式中的函數，DAX 中的許多函數看起來會很類似；不過，DAX 函數在下列方面是獨一無二的：
 
 * DAX 函數一律會參考完整的資料行或資料表。 如果您只想使用某個資料表或資料行中的特定值，您可以將篩選條件加入公式。
 * 如果您需要逐列自訂計算，DAX 提供函數，讓您使用目前的資料列值或相關值做為一種引數，以執行因內容而異的計算。 稍後您將進一步了解內容。
@@ -150,7 +150,7 @@ DAX 包含下列函數類別：[日期和時間](https://msdn.microsoft.com/libr
 * DAX 包含各種時間智慧函數。 這些函數可讓您定義或選取日期範圍，並以此為依據來執行動態計算。 例如，您可以比較不同平行區間的總和。
 * Excel 有一個常用的函式 VLOOKUP。 不同於 Excel 的 VLOOKUP，DAX 函數不會以資料格或資料格範圍做為參考。 DAX 函數會以資料行或資料表做為參考。 請記住，在 Power BI Desktop 中，您會使用關聯式資料模型。 查閱另一個資料表中的值很簡單，且在大多數情況下，您完全不需要建立任何公式。
   
-  如您所見，DAX 函式可協助建立強大的公式。 我們其實只接觸到函數的基本概念。 隨著您愈來愈熟練 DAX，將會使用許多不同的函式來建立公式。 [DAX 函式參考](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)是您進一步了解每個 DAX 函數的最佳地點之一。
+  如您所見，DAX 函式可協助建立強大的公式。 我們其實只接觸到函數的基本概念。 隨著您愈來愈熟練 DAX，將會使用許多不同的函式來建立公式。 [DAX 函式參考](/dax/)是您進一步了解每個 DAX 函數的最佳地點之一。
 
 ### <a name="functions-quickquiz"></a>函數快速測驗
 1. 函數一律會參考的項目為何？
@@ -210,7 +210,7 @@ DAX 包含下列函數類別：[日期和時間](https://msdn.microsoft.com/libr
 本文結尾將提供解答。
 
 ## <a name="summary"></a>摘要
-在您對 DAX 中最重要的概念有了基本了解之後，即可開始建立 DAX 公式來處理自己的量值。 DAX 確實有點難了解，但有許多資源可供您使用。 讀完本文並實驗幾個自己的公式之後，您可以進一步了解可協助您解決自身商務問題的其他 DAX 概念和公式。 有許多 DAX 資源可供您使用；最重要的是[資料分析運算式 (DAX) 參考](https://msdn.microsoft.com/library/gg413422.aspx)。
+在您對 DAX 中最重要的概念有了基本了解之後，即可開始建立 DAX 公式來處理自己的量值。 DAX 確實有點難了解，但有許多資源可供您使用。 讀完本文並實驗幾個自己的公式之後，您可以進一步了解可協助您解決自身商務問題的其他 DAX 概念和公式。 有許多 DAX 資源可供您使用；最重要的是[資料分析運算式 (DAX) 參考](/dax/)。
 
 因為 DAX 在 Power Pivot 和 Analysis Services 表格式模型等其他 Microsoft BI 工具中已行之有年，所以有許多可用的實用資訊。 您可以在 Microsoft 和領先 BI 專業人員所提供的書籍、技術白皮書和部落格中找到更多資訊。 [TechNet 上的 DAX 資源中心 Wiki](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) 也是很好的起點。
 
@@ -224,11 +224,10 @@ DAX 包含下列函數類別：[日期和時間](https://msdn.microsoft.com/libr
 
 1. 資料表和資料行。
 2. 是。 公式最多可以包含 64 個巢狀函數。
-3. [文字函數](https://msdn.microsoft.com/library/ee634938.aspx)。
+3. [文字函數](/dax/text-functions-dax)。
 
 內容：
 
 1. 資料列內容和篩選內容。
 2. 計算中用來決定單一值的一或多個篩選條件。
 3. 目前的資料列。
-
