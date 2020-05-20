@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 65f1246185584b5887d97bb9188b43e016e78e8f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a585c78de4a95981ff157413e857b48fd35c14
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279242"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407572"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>連線至醫院緊急回應決策支援儀表板
 醫院緊急回應決策支援儀表板範本應用程式，是 [Microsoft Power Platform 醫療保健緊急回應解決方案](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/)的報表元件。 儀表板會向緊急狀況管理員顯示其醫療系統的彙總資料，以協助其做出及時且正確的決策。
@@ -32,11 +32,11 @@ ms.locfileid: "83279242"
 
 ## <a name="install-the-app"></a>安裝應用程式
 
-1. 按一下下列連結以取得應用程式：[醫院緊急回應決策支援儀表板範本應用程式](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+1. 按一下下列連結以取得應用程式：[醫院緊急回應決策支援儀表板範本應用程式](https://aka.ms/AppSource_Hospital_offer)
 
-1. 在應用程式的 [AppSource][ **頁面上選取 [立即取得]** ](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)。
+1. 在應用程式的 [AppSource][ **頁面上選取 [立即取得]** ](https://aka.ms/AppSource_Hospital_offer)。
 
-    [![AppSource 中的醫院緊急回應決策支援儀表板應用程式](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+    [![AppSource 中的醫院緊急回應決策支援儀表板應用程式](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://aka.ms/AppSource_Hospital_offer)
 
 1. 閱讀 [還有一件事]  中的資訊，然後選取 [繼續]  。
 

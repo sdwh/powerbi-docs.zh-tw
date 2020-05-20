@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 45395fbb9d815580132ea254812fddec4cec4ba5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 555d203cfa8bd00e745c0dcff5de7f7e8d48f06c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275263"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563176"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>為 [使用 Excel 分析] 疑難排解
 
@@ -84,7 +84,7 @@ Excel 文件庫必須在位元層級方面符合您的 Windows 版本。 如果�
 如果您正在嘗試存取已連接至內部部署 Analysis Services 資料的資料集，您可能會收到錯誤訊息。 **使用 Excel 分析**支援使用連接字串連接至內部部署 **Analysis Services** 上的資料集和報表，只要您的電腦與 **Analysis Services** 伺服器位於相同的網域，且您的帳戶可存取該 **Analysis Services** 伺服器即可。
 
 ## <a name="cant-drag-anything-to-the-pivottable-values-area-no-measures"></a>無法將任何項目拖曳到樞紐分析表值區域 (沒有任何量值)
-當 [使用 Excel 分析]  連線到外部 OLAP 模型 (這是 Excel 連線到 Power BI 的方式) 時，「樞紐分析表」  [需要在外部模型中定義**量值**](https://support.microsoft.com/kb/234700)，因為所有計算都是在伺服器上執行。 這不同於您使用本機資料來源時 (例如 Excel 中的資料表，或是您在使用 **Power BI Desktop** 或 **Power BI 服務**中的資料集時)，在此情況下表格式模型可以在本機使用，且[您可以使用隱含量值](https://msdn.microsoft.com/library/gg399077.aspx)，這是動態產生的量值，並不會儲存在資料模型中。 在這些情況下，在 Excel 中的行為與 **Power BI Desktop** 或 **Power BI 服務**中的行為不同：資料中可能有資料行在 Power BI 中視為量值，但無法在 Excel 中作為值 (量值) 來使用。
+當 [使用 Excel 分析]  連線到外部 OLAP 模型 (這是 Excel 連線到 Power BI 的方式) 時，「樞紐分析表」  [需要在外部模型中定義**量值**](https://support.microsoft.com/kb/234700)，因為所有計算都是在伺服器上執行。 這不同於您使用本機資料來源時 (例如 Excel 中的資料表，或是您在使用 **Power BI Desktop** 或 **Power BI 服務**中的資料集時)，在此情況下表格式模型可以在本機使用，且[您可以使用隱含量值](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4)，這是動態產生的量值，並不會儲存在資料模型中。 在這些情況下，在 Excel 中的行為與 **Power BI Desktop** 或 **Power BI 服務**中的行為不同：資料中可能有資料行在 Power BI 中視為量值，但無法在 Excel 中作為值 (量值) 來使用。
 
 若要解決此問題，您有幾個選項︰
 
@@ -99,7 +99,7 @@ Excel 文件庫必須在位元層級方面符合您的 Windows 版本。 如果�
 
 [教學課程：在 Power BI Desktop 中建立自己的量值](../transform-model/desktop-tutorial-create-measures.md)
 
-[PowerPivot 中的量值](https://msdn.microsoft.com/library/gg399077.aspx)
+[PowerPivot 中的量值](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4)
 
 [在 PowerPivot 中建立量值](https://support.office.com/article/Create-a-Measure-in-Power-Pivot-d3cc1495-b4e5-48e7-ba98-163022a71198)
 

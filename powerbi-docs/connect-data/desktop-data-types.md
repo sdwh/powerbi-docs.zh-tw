@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 27509d42b09b9524b204da5ab0ce76f3d180a057
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293160"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561562"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop 中的資料類型
 本文描述 Power BI Desktop 與資料分析運算式 (DAX) 支援的資料類型。 
@@ -72,7 +72,7 @@ Power BI Desktop 支援 [查詢檢視] 中的五種 [日期/時間] 資料類型
 **True/False** - True 或 False 布林值。
 
 ### <a name="blanksnulls-type"></a>空白/Null 類型
-**空白** - 這是 DAX 中表示和取代 SQL Null 的資料類型。 您可以使用 [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) 函數來建立空白，並使用 [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 邏輯函數來測試空白。
+**空白** - 這是 DAX 中表示和取代 SQL Null 的資料類型。 您可以使用 [BLANK](/dax/blank-function-dax) 函數來建立空白，並使用 [ISBLANK](/dax/isblank-function-dax) 邏輯函數來測試空白。
 
 ### <a name="binary-data-type"></a>二進位資料類型
 
@@ -86,7 +86,7 @@ Power BI Desktop 支援 [查詢檢視] 中的五種 [日期/時間] 資料類型
 > 
 
 ### <a name="table-data-type"></a>資料表資料類型
-DAX 會在許多函數中使用資料表資料類型，例如彙總與時間智慧計算。 某些函數需要資料表的參考，其他函數則會傳回之後可當做其他函數輸入使用的資料表。 在需要資料表當做輸入的部分函數中，您可以指定評估為資料表的運算式；對於某些函數，則需要基底資料表的參考。 如需特定函數需求的相關資訊，請參閱 [DAX 函數參考](https://msdn.microsoft.com/library/ee634396.aspx).
+DAX 會在許多函數中使用資料表資料類型，例如彙總與時間智慧計算。 某些函數需要資料表的參考，其他函數則會傳回之後可當做其他函數輸入使用的資料表。 在需要資料表當做輸入的部分函數中，您可以指定評估為資料表的運算式；對於某些函數，則需要基底資料表的參考。 如需特定函數需求的相關資訊，請參閱 [DAX 函數參考](/dax/dax-function-reference).
 
 ## <a name="implicit-and-explicit-data-type-conversion-in-dax-formulas"></a>DAX 公式中隱含與明確的資料類型轉換
 每個 DAX 函數對於當做輸入與輸出使用之資料的類型都有特定需求。 例如，某些函數需要整數做為部分引數並需要日期做為其他引數，其他函數則需要文字或資料表。
@@ -197,4 +197,3 @@ DAX 會在許多函數中使用資料表資料類型，例如彙總與時間智�
 | TRUE AND BLANK |FALSE |TRUE |
 | BLANK OR BLANK |BLANK |Error |
 | BLANK AND BLANK |BLANK |Error |
-

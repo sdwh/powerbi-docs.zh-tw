@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079661"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561493"
 ---
 # <a name="dataset-properties"></a>資料集屬性
 
@@ -46,8 +46,8 @@ isHidden     | 布林值        | 若為 true，資料表會從用戶端工具�
 名稱  |類型  |描述  |唯讀  |必要
 ---------|---------|---------|---------|---------
 name     |  字串        | 使用者定義的資料行名稱。        |  False       | True       
-dataType     |  字串       |  支援的 [EDM 資料類型](https://msdn.microsoft.com/library/ee382832.aspx)與限制。 請參閱[資料類型](#data-type-restrictions)限制。      |  False       | True        
-formatString     | 字串        | 描述顯示值時應如何設定其格式的字串。 若要深入了解字串格式設定，請參閱 [FORMAT_STRING 內容](https://msdn.microsoft.com/library/ms146084.aspx)。      | False        | False        
+dataType     |  字串       |  支援的 [EDM 資料類型](/dotnet/framework/data/adonet/entity-data-model-primitive-data-types)與限制。 請參閱[資料類型](#data-type-restrictions)限制。      |  False       | True        
+formatString     | 字串        | 描述顯示值時應如何設定其格式的字串。 若要深入了解字串格式設定，請參閱 [FORMAT_STRING 內容](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents)。      | False        | False        
 sortByColumn    | 字串        |   要用以排序目前資料行的相同資料表中，資料行的字串名稱。     | False        | False       
 dataCategory     | 字串        |  用於描述此資料行內資料之資料類別的字串值。 幾個常用的值有：Address、City、Continent、Country、Image、ImageUrl、Latitude、Longitude、Organization、Place、PostalCode、StateOrProvince、WebUrl       |  False       | False        
 isHidden    |  布林值       |  指出資料行是否從檢視隱藏的屬性。 預設為 false。       | False        | False        
@@ -59,7 +59,7 @@ summarizeBy     | 字串        |  資料行的預設彙總方法。 值包括�
 ---------|---------|---------|---------|---------
 name     | 字串        |  使用者定義的量值名稱。       |  False       | True        
 運算式     | 字串        | 有效的 DAX 運算式。        | False        |  True       
-formatString     | 字串        |  描述顯示值時應如何設定其格式的字串。 若要深入了解字串格式設定，請參閱 [FORMAT_STRING 內容](https://msdn.microsoft.com/library/ms146084.aspx)。       | False        | False        
+formatString     | 字串        |  描述顯示值時應如何設定其格式的字串。 若要深入了解字串格式設定，請參閱 [FORMAT_STRING 內容](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents)。       | False        | False        
 isHidden     | 字串        |  若為 true，資料表會從用戶端工具隱藏。       |  False       | False       
 
 ## <a name="relationship"></a>關聯性

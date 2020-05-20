@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e03a453b95a797b281f789e8aed40b3879b54e02
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277149"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563865"
 ---
 # <a name="create-and-use-basic-area-charts"></a>建立和使用基本區域圖
 
@@ -82,11 +82,8 @@ ms.locfileid: "83277149"
 
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解   
-* [使報表讓行動不便人士易於存取](../desktop-accessibility.md)
+* [使報表讓行動不便人士易於存取](../create-reports/desktop-accessibility-overview.md)
 * 基本區域圖不適用於比較值，原因是多層次區域會受阻擋。 Power BI 使用透明效果來表示重疊的區域。 不過，它只適用於兩個或三個不同的區域。 當您需要比較三個以上量值的趨勢時，請試著使用折線圖。 當您需要比較三個以上量值的數量時，請試著使用樹狀圖。
 
 ## <a name="next-step"></a>下一步
 [Power BI 中的報表](power-bi-visualization-card.md)  
-
-
-

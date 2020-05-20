@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cf937ea36727ec036e3799cb0ac48dfbb5740325
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dfd44b7130c1c7e4e1d2d7a9c9f15208cb0d9b0c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292907"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563279"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>如何在 Power BI 中使用 DirectQuery
 
@@ -371,7 +371,7 @@ DirectQuery 依預設可開啟最大並行連線數目為 10 個。 您可以在
 
 該資料夾內會有 *\\Data* 資料夾。 其中包含目前 Power BI 工作階段的追蹤檔案 *FlightRecorderCurrent.trc*。 當相關聯的 Power BI Desktop 工作階段結束時，即會刪除對應的工作區資料夾。
 
-追蹤檔案可使用 *SQL Server Profiler* 工具來讀取。 您可以經由 [SQL Server Management Studio](https://msdn.microsoft.com/library/mt238290.aspx) 的免費下載加以取得。
+追蹤檔案可使用 *SQL Server Profiler* 工具來讀取。 您可以經由 [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms) 的免費下載加以取得。
 
 下載並安裝 SQL Server Management Studio 之後，請執行 SQL Server Profiler。
 

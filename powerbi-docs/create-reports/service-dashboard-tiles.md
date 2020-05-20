@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0b0bf61672d383900dad50e5fe7404f7f4a7f0bc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 96a780d7d7b100acb283623107d4ec841666bb8f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348911"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561654"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 設計工具的儀表板磚簡介
 
@@ -23,7 +23,7 @@ ms.locfileid: "83348911"
 
 ![Power BI 儀表板](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-儀表板和儀表板磚是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 您無法在行動裝置上建立儀表板，但可以在該處[檢視及共用]../consumer/mobile/mobile-apps-view-dashboard.md)儀表板。
+儀表板和儀表板磚是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 您無法在行動裝置上建立儀表板，但可以在該處[檢視和共用](../consumer/mobile/mobile-apps-view-dashboard.md)儀表板。
 
 除了釘選磚，您也可以使用[新增磚](service-dashboard-add-widget.md)控制項直接在儀表板上建立獨立的磚。 獨立磚包括：文字方塊、影像、視訊、串流資料和 Web 內容。
 
@@ -98,6 +98,6 @@ ms.locfileid: "83348911"
 - [Power BI 的資料重新整理](../connect-data/refresh-data.md)
 - [Power BI 服務中的設計工具基本概念](../fundamentals/service-basic-concepts.md)
 - [Integrating Power BI tiles into Office documents](https://powerbi.microsoft.com/blog/integrating-power-bi-tiles-into-office-documents/) (將 Power BI 磚整合到 Office 文件中)
-- [將 Reporting Services 項目釘選到 Power BI 儀表板](https://msdn.microsoft.com/library/mt604784.aspx)
+- [將 Reporting Services 項目釘選到 Power BI 儀表板](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)。
