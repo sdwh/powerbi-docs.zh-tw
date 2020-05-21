@@ -118,6 +118,8 @@
           href: whitepapers.md
         - name: Power BI 安全性白皮書
           href: whitepaper-powerbi-security.md
+        - name: Power BI 企業部署白皮書
+          href: whitepaper-powerbi-enterprise-deployment.md
         - name: Power BI Premium 部署
           href: whitepaper-powerbi-premium-deployment.md
         - name: 使用 Azure Active Directory B2B 在外部散發 Power BI

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82843633"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565429"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>使用 Azure Active Directory B2B 將 Power BI 內容散發給外部來賓使用者
 
@@ -415,7 +415,7 @@ Power BI 與 Azure AD B2B 的整合，可讓 Contoso 在來賓使用者受邀至
 
 另一個有趣的主題是瞭解動態資料列層級安全性（RLS）如何與 Azure AD B2B 搭配使用。
 
-簡單地說，動態資料列層級安全性的運作方式，是根據連接到 Power BI 之人員的使用者名稱，篩選模型中的資料。 您不需要為使用者群組新增多個角色，而是在模型中定義使用者。 我們不會在此詳細說明此模式。 Kasper de Jong 在[Power BI Desktop 動態安全性](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)功能提要和[本白皮書](https://msdn.microsoft.com/library/jj127437.aspx)中提供所有資料列層級安全性的詳細資訊。
+簡單地說，動態資料列層級安全性的運作方式，是根據連接到 Power BI 之人員的使用者名稱，篩選模型中的資料。 您不需要為使用者群組新增多個角色，而是在模型中定義使用者。 我們不會在此詳細說明此模式。 Kasper de Jong 在[Power BI Desktop 動態安全性](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)功能提要和[本白皮書](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)中提供所有資料列層級安全性的詳細資訊。
 
 讓我們看一個小範例-Contoso 有一個依群組分組的簡單報告：
 
@@ -504,7 +504,7 @@ Power BI 系統管理員入口網站會在 [租使用者設定] 中提供 [**允
 
 - 從 Power BI Desktop 直接發佈至 Power BI 服務
 - 來賓使用者無法使用 Power BI Desktop 連接到 Power BI 服務中的服務資料集
-- 與 Office 365 群組系結的傳統工作區：來賓使用者無法建立或管理這些工作區的系統管理員。 他們可以是成員。
+- 與 Microsoft 365 群組系結的傳統工作區：來賓使用者無法建立或成為這些工作區的管理員。 他們可以是成員。
 - 工作區的存取清單不支援傳送臨時邀請
 - Power BI Publisher for Excel 不支援來賓使用者
 - 來賓使用者無法安裝 Power BI Gateway，並將它連接到您的組織

@@ -208,8 +208,8 @@
               href: refresh-data.md
             - name: 設定排程的重新整理
               href: refresh-scheduled-refresh.md
-            - name: 重新整理中心
-              href: refresh-center.md
+            - name: 重新整理摘要
+              href: refresh-summaries.md
             - name: 設定累加式重新整理
               href: ../admin/service-premium-incremental-refresh.md
             - name: 從本機 Power BI Desktop 檔案重新整理資料集

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407520"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565269"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
@@ -33,7 +33,7 @@ ms.locfileid: "83407520"
 
 **Power BI**是 Microsoft 提供的線上軟體服務（_SaaS_或軟體即服務），可讓您輕鬆快速地建立自助商業智慧儀表板、報表、資料集和視覺效果。 使用 Power BI，您可以連線到許多不同的資料來源、結合與塑造來自這些連線的資料，然後建立與其他人共用的報表和儀表板。
 
-Power BI 服務受 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft 隱私權聲明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)制約管轄。 如需資料處理的位置，請參閱 Microsoft Online Services 條款中的資料處理位置條款。 [Microsoft 信任中心](https://www.microsoft.com/trustcenter)是 Power BI 有關合規性資訊的主要資源。 Power BI 小組致力於為客戶創造最新的創新和生產力。 Power BI 目前位於[Office 365 合規性架構](https://www.microsoft.com/trust-center/compliance/compliance-overview)的第 D 層。
+Power BI 服務受 [Microsoft Online Services 條款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)和 [Microsoft 隱私權聲明](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)制約管轄。 如需資料處理的位置，請參閱 Microsoft Online Services 條款中的資料處理位置條款。 [Microsoft 信任中心](https://www.microsoft.com/trustcenter)是 Power BI 有關合規性資訊的主要資源。 Power BI 小組致力於為客戶創造最新的創新和生產力。 Power BI 目前位於 Microsoft 365 合規性架構的第 D 層。 深入瞭解[Microsoft 信任中心](https://www.microsoft.com/trust-center/compliance/compliance-overview)的合規性。
 
 本文透過 Power BI 架構的說明來描述 Power BI 安全性，並說明使用者如何向 Power BI 驗證以及建立資料連線，然後描述 Power BI 如何透過服務儲存及移動資料。 最後一節專門針對安全性相關問題，為每個問題提供答案。
 
@@ -87,13 +87,13 @@ Power BI 使用兩個主要的存放庫來存放及管理資料：使用者上�
 
 例如，當使用者將 Excel 活頁簿匯入 Power BI 服務時，會建立記憶體內部的 Analysis Services 表格式資料庫，而資料存放在記憶體內部不超過一小時 (或直到系統發生記憶體不足的壓力)。 資料也會傳送至 **Azure BLOb** 儲存體。
 
-有關使用者 Power BI 訂用帳戶的中繼資料，例如儀表板、報表、最近使用的資料來源、工作區、 組織資訊，租用戶資訊，以及有關系統的其他中繼資料，都存放在 **Azure SQL Database** 中並予以更新。 存放在 Azure SQL Database 中的所有資訊，使用 [Azure SQL 的透明資料加密](https://msdn.microsoft.com/library/dn948096.aspx) (TDE) 技術完整加密。 所有存放在 Azure BLOb 儲存體中的資料也予以加密。 如需載入、存放及移動資料的程序詳細資訊，請參閱＜資料儲存和移動＞**** 一節。
+有關使用者 Power BI 訂用帳戶的中繼資料，例如儀表板、報表、最近使用的資料來源、工作區、 組織資訊，租用戶資訊，以及有關系統的其他中繼資料，都存放在 **Azure SQL Database** 中並予以更新。 存放在 Azure SQL Database 中的所有資訊，使用 [Azure SQL 的透明資料加密](/azure/sql-database/transparent-data-encryption-azure-sql) (TDE) 技術完整加密。 所有存放在 Azure BLOb 儲存體中的資料也予以加密。 如需載入、存放及移動資料的程序詳細資訊，請參閱＜資料儲存和移動＞**** 一節。
 
 ## <a name="tenant-creation"></a>建立租用戶
 
 租用戶是 Azure AD 服務的專用執行個體，而該服務則是組織在註冊 Azure、Microsoft Intune、Power BI 或 Office 365 等 Microsoft 雲端服務時所收到並擁有的。 每個 Azure AD 租用戶都不同，並與其他 Azure AD 租用戶分開。
 
-租用戶可裝載公司中的使用者及其相關資訊 (密碼、使用者設定檔資料、權限等)。 它還包含群組、應用程式和關於組織及其安全性的其他資訊。 如需詳細資訊，請參閱[什麼是 Azure AD 的租](https://msdn.microsoft.com/library/azure/jj573650.aspx#BKMK_WhatIsAnAzureADTenant)使用者。
+租用戶可裝載公司中的使用者及其相關資訊 (密碼、使用者設定檔資料、權限等)。 它還包含群組、應用程式和關於組織及其安全性的其他資訊。 如需詳細資訊，請參閱[什麼是 Azure AD 的租](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)使用者。
 
 Power BI 租用戶是建立在視為最接近國家/地區 (或區域)，並在 Azure Active Directory 中提供租用戶狀態資訊的資料中心內，此資訊是在 Office 365 或 Power BI 服務一開始佈建時所提供。 目前，Power BI 租用戶不會從該資料中心位置移出。
 
@@ -198,7 +198,7 @@ DirectQuery 和其他查詢之間的差異決定 Power BI 服務處理待用資�
 
 以修復金鑰為基礎的閘道加密金鑰絕不能離開內部部署基礎結構。 Power BI 無法存取加密的內部部署認證值，也無法攔截這些認證；Web 用戶端使用與其通訊所用之特定閘道建立關聯的公開金鑰來加密認證。
 
-針對雲端式資料來源，資料移動角色使用 [Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx) 方法加密加密金鑰。 您可以深入了解 [Always Encrypted 資料庫功能](https://msdn.microsoft.com/library/mt163865.aspx)。
+針對雲端式資料來源，資料移動角色使用 [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine) 方法加密加密金鑰。 您可以深入了解 [Always Encrypted 資料庫功能](/sql/relational-databases/security/encryption/always-encrypted-database-engine)。
 
 #### <a name="datasets"></a>資料集
 
@@ -381,7 +381,7 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **使用 Power BI 時，使用者如何連線至資料來源並存取？**
 
-* **Power BI 認證和網域認證：** 使用者使用電子郵件地址登入 Power BI;當使用者嘗試連線到資料資源時，Power BI 會傳遞 Power BI 登入電子郵件地址作為認證。 針對網域連線資源 (內部部署或雲端式)，目錄服務會將登入電子郵件與「使用者主體名稱」__ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) 比對，以判斷是否有足夠的認證允許存取。 對於使用以工作為基礎的電子郵件地址登入 Power BI 的組織（例如，他們用來登入工作資源的電子郵件 _david@contoso.com_ ），可能會順暢地進行對應; 針對未使用工作型電子郵件地址的組織（例如 _david@contoso.onmicrosoft.com_ ），必須建立目錄對應，才能使用 Power BI 登入認證來存取內部部署資源。
+* **Power BI 認證和網域認證：** 使用者使用電子郵件地址登入 Power BI;當使用者嘗試連線到資料資源時，Power BI 會傳遞 Power BI 登入電子郵件地址作為認證。 針對網域連線資源 (內部部署或雲端式)，目錄服務會將登入電子郵件與「使用者主體名稱」__ ([UPN](/windows/win32/secauthn/user-name-formats)) 比對，以判斷是否有足夠的認證允許存取。 對於使用以工作為基礎的電子郵件地址登入 Power BI 的組織（例如，他們用來登入工作資源的電子郵件 _david@contoso.com_ ），可能會順暢地進行對應; 針對未使用工作型電子郵件地址的組織（例如 _david@contoso.onmicrosoft.com_ ），必須建立目錄對應，才能使用 Power BI 登入認證來存取內部部署資源。
 
 * **SQL Server Analysis Services 和 Power BI：** 針對使用內部部署 SQL Server Analysis Services 的組織，Power BI 提供 Power BI 內部部署資料閘道（這是**閘道**，如上一節中所述）。  Power BI 內部部署資料閘道可以對資料來源 (RLS) 實施角色層級安全性。 如需 RLS 的詳細資訊，請參閱本文件稍早所述的**資料來源的使用者驗證**。 如需閘道的詳細資訊，請參閱內部[部署資料閘道](../connect-data/service-gateway-onprem.md)。
 
@@ -449,14 +449,14 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **針對 Power BI 視覺效果，Microsoft 是否會在將專案發行至資源庫之前，先執行自訂視覺效果程式碼的任何安全性或隱私權評估？**
 
-* 否。 客戶應負責檢閱自訂視覺效果程式碼，並判斷程式碼是否可靠。 因為所有自訂視覺效果程式碼都會在沙箱環境內執行，所以自訂視覺效果中的不當程式碼並不會對 Power BI 服務的其他部分造成影響。
+* 不會。 客戶應負責檢閱自訂視覺效果程式碼，並判斷程式碼是否可靠。 因為所有自訂視覺效果程式碼都會在沙箱環境內執行，所以自訂視覺效果中的不當程式碼並不會對 Power BI 服務的其他部分造成影響。
 
 **有其他 Power BI 視覺效果會在客戶網路外傳送資訊嗎？**
 
 * 是。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。
 
 **針對範本應用程式，Microsoft 是否會在將專案發行至資源庫之前，先執行範本應用程式的任何安全性或隱私權評估？**
-* 否。 應用程式發行者負責內容，而客戶必須負責審查並判斷是否信任範本應用程式發行者。 
+* 不會。 應用程式發行者負責內容，而客戶必須負責審查並判斷是否信任範本應用程式發行者。 
 
 **是否有可將資訊傳送至客戶網路外的範本應用程式？**
 * 是。 客戶必須負責審查發行者的隱私權原則，並決定是否要在租使用者上安裝範本應用程式。 此外，發行者也會負責通知應用程式的行為和功能。
@@ -487,9 +487,9 @@ Power BI 中的資料儲存和資料處理，會根據是否使用 DirectQuery �
 
 - [Power BI 中的群組](https://support.powerbi.com/knowledgebase/articles/654247)
 - [開始使用 Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Power BI REST API - Overview](https://msdn.microsoft.com/library/dn877544.aspx) (Power BI REST API - 概觀)
-- [Power BI API reference](https://msdn.microsoft.com/library/mt147898.aspx) (Power BI API 參考)
-- [內部部署資料閘道](../connect-data/service-gateway-onprem.md)
+- [Power BI REST API - Overview](/rest/api/power-bi/) (Power BI REST API - 概觀)
+- [Power BI API reference](/rest/api/power-bi/) (Power BI API 參考)
+- [On-premises data gateway (內部部署資料閘道)](../connect-data/service-gateway-onprem.md)
 - [Power BI 國家/地區雲端](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [針對從 Power BI 到內部部署資料來源的 SSO 使用 Kerberos](../connect-data/service-gateway-sso-overview.md)
