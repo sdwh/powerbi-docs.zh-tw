@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5cc566798d53a29ef1f205c34d7e97d9331a164d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8959e703da2587b7633df4313606bdb11a8c983b
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347968"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407505"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>在 Power BI Desktop 中連線到 Azure 使用量見解資料
 
@@ -28,19 +28,19 @@ ms.locfileid: "83347968"
 
 Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶。
 
-在本節中，您會了解如何使用 Azure 企業版連接器取得您需要遷移的資料。 您也可以在 **ACI** (Azure 使用量見解) API 中找到可用的「使用量詳細資料資料行」  對應。
+在本節中，您會了解如何使用 Azure 企業版連接器取得您需要遷移的資料。 您也可以在 **ACI** (Azure 使用量見解) API 中找到可用的「使用量詳細資料資料行」對應。
 
 若要成功使用 **Azure 使用量見解**連接器，您需要存取 Azure 入口網站企業版的功能。
 
 在 **Power BI Desktop** 中使用 **Azure 使用量見解**連接器： 
 
-1. 從 [常用]  功能區選取 [取得資料]  。
+1. 從 [常用] 功能區選取 [取得資料]。
 
-1. 從左側的類別中選取 [線上服務]  。  
+1. 從左側的類別中選取 [線上服務]。  
 
-1. 選取 [Microsoft Azure 使用量見解 (搶鮮版 (Beta))]  。 
+1. 選取 [Microsoft Azure 使用量見解 (搶鮮版 (Beta))]。 
 
-1. 選取 [連接]  。
+1. 選取 [連接]。
 
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
@@ -54,7 +54,7 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 
    此連接器版本只支援來自 https://ea.azure.com 的 Enterprise 註冊。 中國目前不支援註冊。
 
-   接下來，提供連接用的「存取金鑰」  。
+   接下來，提供連接用的「存取金鑰」。
 
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
@@ -62,7 +62,7 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-在您提供「存取金鑰」  並選取 [連線]  後，隨即會出現一個 [導覽器]  視窗，顯示九個可用的資料表：
+在您提供「存取金鑰」並選取 [連線] 後，隨即會出現一個 [導覽器] 視窗，顯示九個可用的資料表：
 
 | 資料表        | 描述 |
 |------------- | -------------------------------------------------------------|
@@ -76,7 +76,7 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 | **Summaries** | 餘額、新購買、Azure Marketplace 服務費用、調整和超額費用的每月摘要。 |
 | **UsageDetails** | 取用量明細和估計註冊費用。 |
 
-您可以選取任何資料表旁邊的核取方塊，以便查看預覽。 您可以藉由核取名稱旁邊的方塊，選取一或多個資料表，然後選擇 [載入]  。
+您可以選取任何資料表旁邊的核取方塊，以便查看預覽。 您可以藉由核取名稱旁邊的方塊，選取一或多個資料表，然後選擇 [載入]。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
@@ -85,32 +85,32 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 >
 >
 
-當您選取 [載入]  時，資料會載入 **Power BI Desktop**。
+當您選取 [載入] 時，資料會載入 **Power BI Desktop**。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
-您選取的資料載入後，可以在 [欄位]  窗格看到您所選取的資料表和欄位。
+您選取的資料載入後，可以在 [欄位] 窗格看到您所選取的資料表和欄位。
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
 
 ## <a name="using-azure-consumption-insights"></a>使用 Azure 使用深入解析
 若要使用 **Azure 使用量見解**連接器，您可以存取 Azure 入口網站企業版的功能。
 
-使用 **Azure 使用量見解**連接器成功載入資料後，您可以使用 [查詢編輯器]  建立您自己的自訂量值和資料行。 您也可以建立視覺效果、報表和儀表板，以在 **Power BI 服務**中共用。
+使用 **Azure 使用量見解**連接器成功載入資料後，您可以使用 [查詢編輯器] 建立您自己的自訂量值和資料行。 您也可以建立視覺效果、報表和儀表板，以在 **Power BI 服務**中共用。
 
 使用空白查詢，您可以擷取範例 Azure 自訂查詢集合。 您可以透過兩種方式進行此種擷取： 
 
 在 **Power BI Desktop** 中： 
 
-1. 選取 [常用]  功能區 
-2. 選取 [取得資料]   > [空白查詢]  
+1. 選取 [常用] 功能區 
+2. 選取 [取得資料] > [空白查詢] 
 
-或者，在 [查詢編輯器]  中： 
+或者，在 [查詢編輯器] 中： 
 
-1. 在左側的 [查詢]  窗格中以滑鼠右鍵按一下 
-2. 在出現的功能表中選取 [新查詢] > [空白查詢] 
+1. 在左側的 [查詢] 窗格中以滑鼠右鍵按一下 
+2. 在出現的功能表中選取 [新查詢] > [空白查詢]
 
-在 [公式列]  中，鍵入：
+在 [公式列] 中，鍵入：
 
     = MicrosoftAzureConsumptionInsights.Contents
 
@@ -127,7 +127,7 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 
 ## <a name="migrate-from-the-azure-enterprise-connector"></a>從 Azure 企業版連接器遷移
 
-有些客戶已使用「Azure 企業版連接器 (搶鮮版 (Beta))」  來建立視覺效果。 該連接器最終會由 **Azure 使用量見解**連接器取代。 新的連接器具備的功能和加強功能包括：
+有些客戶已使用「Azure 企業版連接器 (搶鮮版 (Beta))」來建立視覺效果。 該連接器最終會由 **Azure 使用量見解**連接器取代。 新的連接器具備的功能和加強功能包括：
 
 * 適用於 *Balance Summary* 和 *Marketplace Purchases* 的其他資料來源
 * 新參數和進階參數，例如 *startBillingDataWindow* 和 *endBillingDataWindow*
@@ -136,10 +136,10 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 接下來的步驟會示範如何轉換到 **Azure 使用量見解**連接器。 這些步驟可以保留您在建立自訂儀表板或報表時已完成的工作。
 
 ### <a name="step-1-connect-to-azure-using-the-new-connector"></a>步驟 1：使用新的連接器連線到 Azure
-第一個步驟是使用本文稍早所詳述的 **Azure 使用量見解**。 在此步驟中，從 **Power BI Desktop** 的 [首頁]  功能區選取 **[取得資料] > [空的查詢]** 。
+第一個步驟是使用本文稍早所詳述的 **Azure 使用量見解**。 在此步驟中，從 **Power BI Desktop** 的 [首頁] 功能區選取 **[取得資料] > [空的查詢]** 。
 
 ### <a name="step-2-create-a-query-in-advanced-editor"></a>步驟 2：在進階查詢器中建立查詢
-在 [查詢編輯器]  中，從 [常用]  功能區的 [查詢]  區段選取 [進階編輯器]  。 在出現的 [進階編輯器]  視窗中，輸入此查詢：
+在 [查詢編輯器] 中，從 [常用] 功能區的 [查詢] 區段選取 [進階編輯器]。 在出現的 [進階編輯器] 視窗中，輸入此查詢：
 
     let    
         enrollmentNumber = "100",
@@ -152,22 +152,22 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 
 您需要將 *enrollmentNumber* 值替換成您的註冊號碼。 您可以從 [Azure 企業版入口網站](https://ea.azure.com)取得您的號碼。 *numberOfMonth* 參數是您要傳回幾個月的資料，從目前的日期起算。 使用零 (0) 代表目前的月份。
 
-在 [進階編輯器]  視窗中選取 [完成]  之後，預覽會重新整理，且資料表中會出現指定月份範圍的資料。 選取 [關閉並套用]  然後返回。
+在 [進階編輯器] 視窗中選取 [完成] 之後，預覽會重新整理，且資料表中會出現指定月份範圍的資料。 選取 [關閉並套用] 然後返回。
 
 ### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>步驟 3：將量值和自訂資料行移至新的報表
 接下來，您必須將任何自訂資料行或您所建立量值移至新的詳細資料資料表。 以下是步驟。
 
 1. 開啟 [記事本] \(或其他文字編輯器)。
-2. 選取您想要移動的量值，並從 [公式]  欄位複製文字且放在 [記事本] 中。
+2. 選取您想要移動的量值，並從 [公式] 欄位複製文字且放在 [記事本] 中。
 
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. 將 *Query1* 重新命名為原始的詳細資料資料表名稱。
-4. 若要建立新的資料表量值和自訂資料行，請以滑鼠右鍵按一下資料表，然後選擇 [新量值]  。 然後，請剪下並貼上您儲存的量值和資料行，直到全部完成為止。
+4. 若要建立新的資料表量值和自訂資料行，請以滑鼠右鍵按一下資料表，然後選擇 [新量值]。 然後，請剪下並貼上您儲存的量值和資料行，直到全部完成為止。
 
 ### <a name="step-4-relink-tables-that-had-relationships"></a>步驟 4：重新連結具有關聯性的資料表
 許多儀表板有其他用來查閱或篩選的資料表，例如日期資料表或用於自訂專案的資料表。 重新建立這些關聯性，可以解決大部分剩餘的問題。 以下說明如何執行這項作業。
 
-- 在 **Power BI Desktop**的 [模型]  索引標籤中，選取 [管理關聯性]  ，以顯示視窗讓您管理模型內的關聯性。 視需要重新連結您的資料表。
+- 在 **Power BI Desktop**的 [模型] 索引標籤中，選取 [管理關聯性]，以顯示視窗讓您管理模型內的關聯性。 視需要重新連結您的資料表。
 
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
@@ -184,7 +184,7 @@ Azure 入口網站資料行和詳細資料名稱在 API 和連接器中非常相
 | --- | --- | --- | --- |
 | AccountName |accountName |帳戶名稱 |否 |
 | AccountId |accountId | |是 |
-| AcccountOwnerId |accountOwnerEmail |AccountOwnerId |否 |
+| AccountOwnerId |accountOwnerEmail |AccountOwnerId |否 |
 | AdditionalInfo |additionalInfo |AdditionalInfo |否 |
 | AdditionalInfold | | |是 |
 | Consumed Quantity |consumedQuantity |Consumed Quantity |否 |
