@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a80870963cf045730fff18413884d9871354b169
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565269"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792925"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
@@ -91,11 +91,11 @@ Power BI 使用兩個主要的存放庫來存放及管理資料：使用者上�
 
 ## <a name="tenant-creation"></a>建立租用戶
 
-租用戶是 Azure AD 服務的專用執行個體，而該服務則是組織在註冊 Azure、Microsoft Intune、Power BI 或 Office 365 等 Microsoft 雲端服務時所收到並擁有的。 每個 Azure AD 租用戶都不同，並與其他 Azure AD 租用戶分開。
+租使用者是組織在註冊 Microsoft 雲端服務（例如 Azure、Microsoft Intune、Power BI 或 Microsoft 365）時所收到和擁有之 Azure AD 服務的專用實例。 每個 Azure AD 租用戶都不同，並與其他 Azure AD 租用戶分開。
 
 租用戶可裝載公司中的使用者及其相關資訊 (密碼、使用者設定檔資料、權限等)。 它還包含群組、應用程式和關於組織及其安全性的其他資訊。 如需詳細資訊，請參閱[什麼是 Azure AD 的租](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)使用者。
 
-Power BI 租用戶是建立在視為最接近國家/地區 (或區域)，並在 Azure Active Directory 中提供租用戶狀態資訊的資料中心內，此資訊是在 Office 365 或 Power BI 服務一開始佈建時所提供。 目前，Power BI 租用戶不會從該資料中心位置移出。
+Power BI 租使用者會在最接近國家（或地區）的資料中心內建立，而在 Azure Active Directory 中為租使用者提供的狀態資訊（在一開始布建 Microsoft 365 或 Power BI 服務時提供）。 目前，Power BI 租用戶不會從該資料中心位置移出。
 
 ### <a name="multiple-geographies-multi-geo"></a>多地理位置 (Multi-Geo)
 
@@ -129,7 +129,7 @@ Microsoft 也為各國政府提供資料中心。 如需國家/地區雲端的 P
 
 ## <a name="user-authentication"></a>使用者驗證
 
-Power BI 服務的使用者驗證包含一系列的要求、回應，並在使用者的瀏覽器和 Power BI 服務或 Power BI 所使用的 Azure 服務之間重新導向。 該順序描述 Power BI 中的使用者驗證程序。 如需組織使用者驗證模型 (登入模型) 選項的詳細資訊，請參閱 [Choosing a sign-in model for Office 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/)(選擇 Office 365 的登入模型)。
+Power BI 服務的使用者驗證包含一系列的要求、回應，並在使用者的瀏覽器和 Power BI 服務或 Power BI 所使用的 Azure 服務之間重新導向。 該順序描述 Power BI 中的使用者驗證程序。 如需有關組織的使用者驗證模型（登入模型）之選項的詳細資訊，請參閱[選擇 Microsoft 365 的登入模型](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/)。
 
 ### <a name="authentication-sequence"></a>驗證順序
 
@@ -245,9 +245,9 @@ Power BI 以下列方式提供資料完整性監視：
 
 1. 中繼資料 (報表定義)
 
-   a. 報表可以是 Office 365 的 Excel 報表或 Power BI 報表。 下列適用於以報表類型為基礎的中繼資料：
+   a. 報表可以是 Excel Microsoft 365 報表或 Power BI 報表。 下列適用於以報表類型為基礎的中繼資料：
         
-    &ensp;&ensp;答： Excel 報表中繼資料會以加密方式儲存在 SQL Azure 中。 中繼資料也會儲存在 Office 365 中。
+    &ensp;&ensp;答： Excel 報表中繼資料會以加密方式儲存在 SQL Azure 中。 中繼資料也會儲存在 Microsoft 365 中。
 
     &ensp;&ensp;b。 Power BI 報表會以加密方式儲存在 Azure SQL database 中。
 
@@ -255,13 +255,13 @@ Power BI 以下列方式提供資料完整性監視：
 
    靜態資料包括背景影像和 Power BI 視覺效果等成品。
 
-    &ensp;&ensp;答： 使用 Office 365 Excel 建立的報表，不儲存任何內容。
+    &ensp;&ensp;答： 針對使用 Excel 建立的報表 Microsoft 365，不會儲存任何內容。
 
     &ensp;&ensp;b。 Power BI 報表的靜態資料會在 Azure Blob 儲存體中儲存加密。
 
 3. 快取
 
-    &ensp;&ensp;答： 使用 Office 365 Excel 建立的報表，不快取任何內容。
+    &ensp;&ensp;答： 針對使用 Excel 建立的報表 Microsoft 365，不會快取任何內容。
 
     &ensp;&ensp;b。 針對 Power BI 報表，會快取所顯示報表視覺效果的資料，並將其儲存在下列章節所述的 Visual Data Cache 中。
  
@@ -449,17 +449,17 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **針對 Power BI 視覺效果，Microsoft 是否會在將專案發行至資源庫之前，先執行自訂視覺效果程式碼的任何安全性或隱私權評估？**
 
-* 不會。 客戶應負責檢閱自訂視覺效果程式碼，並判斷程式碼是否可靠。 因為所有自訂視覺效果程式碼都會在沙箱環境內執行，所以自訂視覺效果中的不當程式碼並不會對 Power BI 服務的其他部分造成影響。
+* 不可以。 客戶應負責檢閱自訂視覺效果程式碼，並判斷程式碼是否可靠。 因為所有自訂視覺效果程式碼都會在沙箱環境內執行，所以自訂視覺效果中的不當程式碼並不會對 Power BI 服務的其他部分造成影響。
 
 **有其他 Power BI 視覺效果會在客戶網路外傳送資訊嗎？**
 
-* 是。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。
+* 可以。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。
 
 **針對範本應用程式，Microsoft 是否會在將專案發行至資源庫之前，先執行範本應用程式的任何安全性或隱私權評估？**
-* 不會。 應用程式發行者負責內容，而客戶必須負責審查並判斷是否信任範本應用程式發行者。 
+* 不可以。 應用程式發行者負責內容，而客戶必須負責審查並判斷是否信任範本應用程式發行者。 
 
 **是否有可將資訊傳送至客戶網路外的範本應用程式？**
-* 是。 客戶必須負責審查發行者的隱私權原則，並決定是否要在租使用者上安裝範本應用程式。 此外，發行者也會負責通知應用程式的行為和功能。
+* 可以。 客戶必須負責審查發行者的隱私權原則，並決定是否要在租使用者上安裝範本應用程式。 此外，發行者也會負責通知應用程式的行為和功能。
 
 **那麼資料主權呢？我們可以在位於特定地理位置的資料中心布建租使用者，以確保資料不會離開國家/地區框線嗎？**
 
