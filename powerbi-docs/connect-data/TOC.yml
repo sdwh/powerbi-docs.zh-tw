@@ -174,7 +174,7 @@
           items:
             - name: 跨工作區使用資料集
               href: service-datasets-across-workspaces.md
-            - name: 共用資料集 (預覽)
+            - name: 共用資料集
               href: service-datasets-share.md
             - name: 共用資料集的建置權限
               href: service-datasets-build-permissions.md
