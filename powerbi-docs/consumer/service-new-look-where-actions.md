@@ -4,17 +4,17 @@ description: Power BI 服務 (app.powerbi.com) 有新的外觀，而且許多動
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 1f8a771fec64d7206ac544269108f8ba14842e03
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 779c480cd029f6f2bb4ef7d52d49115ff348eb11
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361788"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813845"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>「新外觀」：動作跑到哪裡了？
 
