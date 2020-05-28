@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: 1426cb2926641ca93bcbff3e55ea151f829f290a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f74bfb92508564a01422729eefc251acc124baea
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129664"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83692719"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>要列入允許清單的 Power BI URL
 [//]: # "suparnap 和 miwehnia 是維護這份清單的連絡人"
@@ -34,11 +34,11 @@ Power BI 線上服務只需要為所列出的端點，開啟 TCP 連接埠 443�
 
 ## <a name="authentication"></a>驗證
 
-Power BI 需要仰賴 Office 365 驗證與身分識別區段中的必要端點。 若要使用 Power BI，必須要可以連線到以下所連結的網站中之端點。
+Power BI 需要仰賴 Microsoft 365 驗證與身分識別區段中的必要端點。 若要使用 Power BI，必須要可以連線到以下所連結的網站中之端點。
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
-| 1 | **必要：** 驗證及身分識別 | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)  | N/A |
+| 1 | **必要：** 驗證及身分識別 | 請參閱 [Microsoft 365 Common 與 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文件  | N/A |
 
 ## <a name="general-site-usage"></a>一般網站使用方式
 
@@ -48,12 +48,12 @@ Power BI 需要仰賴 Office 365 驗證與身分識別區段中的必要端點�
 | --- | --- | --- | --- |
 | 1 | **必要：** 後端 API | *.analysis.windows.net | TCP 443 |
 | 2 | **必要：** 後端 API | *.pbidedicated.windows.net | TCP 443 |
-| 3 | **必要：** Office 365 整合 | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/A |
-| 4 | **必要：** 入口網站 | app.powerbi.com | TCP 443 |
-| 5 | **必要：** 服務遙測 | dc.services.visualstudio.com | TCP 443 |
-| 6 | **選擇性：** 資訊訊息 | dynmsg.modpim.com | TCP 443 |
-| 7 | **選擇性：** NPS 問卷 | nps.onyx.azure.net | TCP 443 |
-| 8 | **選擇性：** 內容傳遞網路 (CDN) | content.powerapps.com | TCP 443 |
+| 3 | **必要：** 內容傳遞網路 (CDN) | content.powerapps.com | TCP 443 |
+| 4 | **必要：** Microsoft 365 整合 | 請參閱 [Microsoft 365 Common 與 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文件 | N/A |
+| 5 | **必要：** 入口網站 | app.powerbi.com | TCP 443 |
+| 6 | **必要：** 服務遙測 | dc.services.visualstudio.com | TCP 443 |
+| 7 | **選擇性：** 資訊訊息 | dynmsg.modpim.com | TCP 443 |
+| 8 | **選擇性：** NPS 問卷 | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>系統管理
@@ -62,7 +62,7 @@ Power BI 需要仰賴 Office 365 驗證與身分識別區段中的必要端點�
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
-| 1 | **必要：** 供管理使用者及檢視稽核記錄檔 | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/A |
+| 1 | **必要：** 供管理使用者及檢視稽核記錄檔 | 請參閱 [Microsoft 365 Common 與 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文件 | N/A |
 | | | |
 
 ## <a name="getting-data"></a>取得資料
@@ -84,7 +84,7 @@ Power BI 需要特定端點以支援您的儀表板與報表。 您必須可連�
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
-| 1 | **必要：** Excel 整合 | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/A |
+| 1 | **必要：** Excel 整合 | 請參閱 [Microsoft 365 Common 與 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文件 | N/A |
 | | | |
 
 ## <a name="power-bi-visuals"></a>Power BI 視覺效果
@@ -96,7 +96,7 @@ Power BI 仰賴特定端點以檢視及存取 Power BI 視覺效果。 您必須
 | 1 | **必要：** 從 Marketplace 介面或檔案匯入自訂視覺效果 | *.azureedge.net <br> *.blob.core.windows.net <br> *.osi.office.net <br> *.msecnd.net <br> store.office.com <br> web.vortex.data.microsoft.com <br> store-images.s-microsoft.com | TCP 443 |
 | 2 | **選擇性：** Bing 地圖服務 | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **選擇性：** PowerApps | 請參閱 PowerApps 系統需求網站的[必要服務區段](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) | N/A |
-| 4 | **選擇性：** Visio | 請參閱 Office 365 文件以了解 [Office Online 和一般 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)，以及 [SharePoint Online 和商務用 OneDrive](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/A |
+| 4 | **選擇性：** Visio | 請參閱 [Microsoft 365 Common 與 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 的文件，以及 [SharePoint Online 和商務用 OneDrive](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) 文件 | N/A |
 | | | |
 
 ## <a name="related-external-sites"></a>相關的外部網站

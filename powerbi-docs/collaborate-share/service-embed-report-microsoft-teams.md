@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: c424572cf222e4b2f65354e7b9a0959b60a56fca
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7034bd544ee9c14dd5f32df9335faefd4221e4ac
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143781"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693902"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>使用 Power BI 索引標籤在 Microsoft Teams 中內嵌報表
 
@@ -28,11 +28,12 @@ ms.locfileid: "83143781"
 - 您擁有 Power BI Pro 授權，或報表包含於具備 Power BI 授權的 [Power BI Premium 容量 (EM 或 P SKU)](../admin/service-premium-what-is.md) 中。
 - Microsoft Teams 必須具有 Power BI 索引標籤。
 - 使用者必須登入 Power BI 服務，才能啟用 Power BI 授權並取用報表。
-- 使用者必須具備檢視報表的權限。
+- 若要在具備 Power BI 索引標籤的 Microsoft Teams 中新增報表，則您在裝載報表的工作區中至少必須具備 Viewer (檢視人員) 角色。 請參閱[新工作區中角色](service-new-workspaces.md#roles-in-the-new-workspaces)以取得不同角色的資訊。
+- 若要在 Microsoft Teams 中的 Power BI 索引標籤內查看報表，則使用者必須具備檢視報表的權限。
 
 此外，若要讓**連結預覽**能夠正常運作，請確定：
 - 使用者符合使用 Microsoft Teams 的 Power BI 索引標籤需求。
-- 使用者已經登入 Power BI Bot Service。 
+- 使用者已經登入 Power BI 服務。 
 
 
 ## <a name="embed-your-report"></a>內嵌報表
@@ -53,7 +54,7 @@ ms.locfileid: "83143781"
 
 4. 索引標籤名稱會自動更新以符合報表名稱的名稱，但您可以變更該名稱。 
 
-5. 按下 [儲存]  。
+5. 按下 [儲存] 。
 
 ## <a name="supported-reports-for-embedding-the-power-bi-tab"></a>支援內嵌 Power BI 索引標籤的報表
 您可在 Power BI 索引標籤中內嵌下列類型的報表：
@@ -90,12 +91,12 @@ ms.locfileid: "83143781"
 
 ## <a name="grant-access-to-reports"></a>授與報告存取權
 
-在 Microsoft Teams 中內嵌報表，或為項目建立連結並不會自動提供使用者檢視報表的權限。您需要[允許使用者檢視 Power BI 中的報表](service-share-dashboards.md)。 您可以針對小組使用 Office 365 群組來讓這項工作變得更加容易。 
+在 Microsoft Teams 中內嵌報表，或為項目建立連結並不會自動提供使用者檢視報表的權限。您需要[允許使用者檢視 Power BI 中的報表](service-share-dashboards.md)。 針對小組，您可使用 Microsoft 365 群組讓這項過程更簡單。
 
 > [!IMPORTANT]
 > 請務必檢閱可以看到 Power BI 服務內報表的成員，並將存取權授與未列出的成員。
 
-確保小組中所有人員皆具備報表存取權限的一種方式是將所有報表放置於 Power BI 中單一工作區內，並為小組提供 Office 365 群組的工作區存取權。
+確保您小組中每一名成員都具備報表存取權限的其中一種方式是將報表放在 Power BI 中單一工作區內，並授與您小組 Microsoft 365 群組工作區的存取權。
 
 ## <a name="link-previews"></a>連結預覽 
 
@@ -110,7 +111,7 @@ Power BI 中的下列項目可擁有連結預覽：
 
 當將 Power BI 報表索引標籤新增至 Teams 時，Teams 會自動為報表建立索引標籤交談。 
 
-- 選取右上角的 [顯示索引標籤交談]  。
+- 選取右上角的 [顯示索引標籤交談]。
 
     ![顯示索引標籤交談圖示](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
 
@@ -123,7 +124,7 @@ Power BI 中的下列項目可擁有連結預覽：
 - Power BI 不支援 Microsoft Teams 所支援的相同當地語系化語言。 因此，您可能會在內嵌報表中看到未適當當地語系化的內容。
 - Power BI 儀表板無法內嵌在 Microsoft Teams 的 Power BI 索引標籤中。
 - 沒有 Power BI 授權或報表權限的使用者會看到「無法使用內容」的訊息。
-- 若使用 Internet Explorer 10，則可能會遇到問題。 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+- 若使用 Internet Explorer 10，則可能會遇到問題。 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - Microsoft Teams 的 Power BI 索引標籤不支援 [URL 篩選](service-url-filters.md)。
 - 在全國性雲端中，新的 Power BI 索引標籤無法使用。 較舊的版本可能會無法在 Power BI 應用程式中支援全新工作區體驗工作區或報表。 
 - 儲存索引標籤之後，即無法透過索引標籤設定來變更索引標籤名稱。 請使用重新命名選項來進行變更。

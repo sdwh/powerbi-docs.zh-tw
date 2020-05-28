@@ -6,30 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 05/19/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5fb1b96f46761bf0c724abb8e36de8bb93634fdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f84fcc4b32468ab8ffddbb593ae97ea8fb20442a
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347636"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693620"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 
 有了 Power BI Desktop，您可以從許多不同來源連接至資料。 如需可用資料來源的完整清單，請參閱 [Power BI 資料來源](power-bi-data-sources.md)。
 
-您可以使用 [首頁]  功能區連接到資料。 若要顯示 [最常見]  資料類型功能表，請選取 [取得資料]  按鈕標籤或向下箭號。
+您可以使用 [首頁] 功能區連接到資料。 若要顯示 [最常見] 資料類型功能表，請選取 [取得資料] 按鈕標籤或向下箭號。
 
 ![[最常見] 資料類型功能表，Power BI Desktop 中的 [取得資料]](media/desktop-data-sources/data-sources-01.png)
 
-若要移至 [取得資料]  對話方塊，請顯示 [最常見]  資料類型功能表，然後選取 [更多]  。 您也可以透過直接選取 [取得資料]  圖示，叫出 [取得資料]  對話方塊 (並略過 [最常見]  功能表)。
+若要移至 [取得資料] 對話方塊，請顯示 [最常見] 資料類型功能表，然後選取 [更多]。 您也可以透過直接選取 [取得資料] 圖示，叫出 [取得資料] 對話方塊 (並略過 [最常見] 功能表)。
 
 ![[取得資料] 按鈕，Power BI Desktop](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Power BI 小組會持續將可用的資料來源擴充到 Power BI Desktop 與 Power BI 服務。 因此，您經常會看到舊版工作進行中的資料來源標示為 **Beta** 或「預覽」  。 任何標示為「搶鮮版 (Beta)」  或「預覽」  的資料來源，受到的支援與功能都有限制，而且不應該用在生產環境。 此外，任何為 Power BI Desktop 標記為「搶鮮版 (Beta)」  或「預覽」  的資料來源都無法在公開推出 (GA) 前於 Power BI 服務或其他 Microsoft 服務中使用。
+> Power BI 小組會持續將可用的資料來源擴充到 Power BI Desktop 與 Power BI 服務。 因此，您經常會看到舊版工作進行中的資料來源標示為 **Beta** 或「預覽」。 任何標示為「搶鮮版 (Beta)」 或「預覽」的資料來源，受到的支援與功能都有限制，而且不應該用在生產環境。 此外，任何為 Power BI Desktop 標記為「搶鮮版 (Beta)」或「預覽」的資料來源都無法在公開推出 (GA) 前於 Power BI 服務或其他 Microsoft 服務中使用。
 
 > [!NOTE]
 > Power BI Desktop 有許多資料連接器需要 Internet Explorer 10 (或更新版本) 才能進行驗證。 
@@ -37,7 +37,7 @@ ms.locfileid: "83347636"
 
 ## <a name="data-sources"></a>資料來源
 
-[取得資料]  對話方塊會組織下列類別中的資料類型：
+[取得資料] 對話方塊會組織下列類別中的資料類型：
 
 * 全部
 * 檔案
@@ -61,7 +61,7 @@ ms.locfileid: "83347636"
 * PDF
 * SharePoint 資料夾
 
-下圖顯示 [檔案]  的 [取得資料]  視窗。
+下圖顯示 [檔案]  的 [取得資料] 視窗。
 
 ![檔案資料來源，[取得資料] 對話方塊，Power BI Desktop](media/desktop-data-sources/data-sources-03.png)
 
@@ -99,12 +99,13 @@ ms.locfileid: "83347636"
 * InterSystems IRIS (搶鮮版 (Beta))
 * Jethro (搶鮮版 (Beta))
 * Kyligence
+* Linkar PICK Style / MultiValue Databases (搶鮮版 (Beta))
 * MarkLogic
 
 > [!NOTE]
-> 某些資料庫連接器的啟用方式為選取 **[檔案] > [選項和設定] > [選項]** ，然後選取 [預覽功能]  並啟用該連接器。 如果您沒有看到上述連接器，但想要加以使用，請檢查您的 [預覽功能]  設定。 亦請注意，任何標示為 *Beta* 或「預覽」  的資料來源，受到的支援和功能都有限制，不應該用在生產環境。
+> 某些資料庫連接器的啟用方式為選取 **[檔案] > [選項和設定] > [選項]** ，然後選取 [預覽功能] 並啟用該連接器。 如果您沒有看到上述連接器，但想要加以使用，請檢查您的 [預覽功能] 設定。 亦請注意，任何標示為 *Beta* 或「預覽」的資料來源，受到的支援和功能都有限制，不應該用在生產環境。
 
-下圖顯示 [資料庫]  的 [取得資料]  視窗。
+下圖顯示 [資料庫]  的 [取得資料] 視窗。
 
 ![資料庫資料來源，[取得資料] 對話方塊，Power BI Desktop](media/desktop-data-sources/data-sources-04.png)
 
@@ -117,7 +118,7 @@ ms.locfileid: "83347636"
 * Common Data Service
 * Power Platform 資料流程
 
-下圖顯示 **Power Platform** 的 [取得資料]  視窗。
+下圖顯示 **Power Platform** 的 [取得資料] 視窗。
 
 ![Power Platform 資料來源，[取得資料] 對話方塊，Power BI Desktop](media/desktop-data-sources/data-sources-05.png)
 
@@ -139,15 +140,16 @@ ms.locfileid: "83347636"
 * HDInsight 互動式查詢
 * Azure 資料總管 (Kusto)
 * Azure 成本管理
+* Azure 時間序列深入解析 (Beta)
 
 
-下圖顯示 [Azure]  的 [取得資料]  視窗。
+下圖顯示 [Azure]  的 [取得資料] 視窗。
 
 ![Azure 資料來源，[取得資料] 對話方塊，Power BI Desktop](media/desktop-data-sources/data-sources-06.png)
 
 ### <a name="online-services-data-sources"></a>線上服務資料來源
 
-[線上服務]  類別提供下列資料連線：
+[線上服務] 類別提供下列資料連線：
 
 * SharePoint Online 清單
 * Microsoft Exchange Online
@@ -187,15 +189,16 @@ ms.locfileid: "83347636"
 * 企業 App Store
 * Intune 資料倉儲 (搶鮮版 (Beta))
 * Microsoft Graph 安全性 搶鮮版 (Beta)
+* Power BI 的 Projectspace (搶鮮版 (Beta))
 * Product Insights (搶鮮版 (Beta))
 * Quick Base
 * TeamDesk (搶鮮版 (Beta))
-* 工作場所分析 (搶鮮版 (Beta))
-* Power BI 的 Projectspace (搶鮮版 (Beta))
 * Webtrends 分析 (搶鮮版 (Beta))
+* Witivio (搶鮮版 (Beta))
+* 工作場所分析 (搶鮮版 (Beta))
 * Zoho Creator (搶鮮版 (Beta))
 
-下圖顯示 [線上服務]  的 [取得資料]  視窗。
+下圖顯示 [線上服務] 的 [取得資料] 視窗。
 
 ![線上服務資料來源，[取得資料] 對話方塊，Power BI Desktop](media/desktop-data-sources/data-sources-07.png)
 
@@ -215,7 +218,7 @@ ms.locfileid: "83347636"
 * Python 指令碼
 * ODBC
 * OLE DB
-* BI360 - Budgeting & Financial Reporting (搶鮮版 (Beta))
+* Solver
 * Cognite Data Fusion (搶鮮版 (Beta))
 * FHIR
 * Information Grid (搶鮮版 (Beta))
@@ -224,18 +227,17 @@ ms.locfileid: "83347636"
 * Paxata
 * QubolePresto (搶鮮版 (Beta))
 * Roamler (搶鮮版 (Beta))
+* Shortcuts 商業見解 (搶鮮版 (Beta))
 * Siteimprove (搶鮮版 (Beta))
 * SurveyMonkey 搶鮮版 (Beta)
+* Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (搶鮮版 (Beta))
 * Vena (搶鮮版 (Beta))
 * Workforce Dimensions (搶鮮版 (Beta))
 * Zucchetti HR Infinity (搶鮮版 (Beta))
-* Tenforce (Smart)List
-* Shortcuts 商業見解 (搶鮮版 (Beta))
-* Vessel 見解 (搶鮮版 (Beta))
 * 空白查詢
 
-下圖顯示 [其他]  的 [取得資料]  視窗。
+下圖顯示 [其他]  的 [取得資料] 視窗。
 
 ![其他資料來源，[取得資料] 對話方塊，Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
@@ -244,7 +246,7 @@ ms.locfileid: "83347636"
 
 ## <a name="connecting-to-a-data-source"></a>連線到資料來源
 
-若要連接至資料來源，請從 [取得資料]  視窗選取資料來源，然後選取 [連接]  。 在下圖中，從 [其他]  資料連線類別選取了 [Web]  。
+若要連接至資料來源，請從 [取得資料]  視窗選取資料來源，然後選取 [連接] 。 在下圖中，從 [其他]  資料連線類別選取了 [Web]  。
 
 ![連線到網路，[取得資料] 對話方塊，Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
@@ -252,11 +254,11 @@ ms.locfileid: "83347636"
 
 ![輸入 URL，[從 Web] 對話方塊，Power BI Desktop](media/desktop-data-sources/datasources-fromwebbox.png)
 
-輸入 URL 或資源連線資訊，然後選取 [確定]  。 Power BI Desktop 會建立資料來源的連線，並在 [導覽器]  中呈現可用的資料來源。
+輸入 URL 或資源連線資訊，然後選取 [確定]。 Power BI Desktop 會建立資料來源的連線，並在 [導覽器] 中呈現可用的資料來源。
 
 ![[群組] 對話方塊，Power BI Desktop](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
-若要載入資料，請從 [導覽器]  窗格底端選取 [載入]  按鈕。 若要在載入資料之前先轉換或編輯 Power Query 編輯器中的查詢，請選取 [轉換資料]  按鈕。
+若要載入資料，請從 [導覽器] 窗格底端選取 [載入] 按鈕。 若要在載入資料之前先轉換或編輯 Power Query 編輯器中的查詢，請選取 [轉換資料] 按鈕。
 
 這就是連接到 Power BI Desktop 中資料來源的全部資訊！ 嘗試連接到我們持續增加的資料來源，並經常回來查看，我們隨時會增加新的來源。
 
@@ -266,19 +268,19 @@ PBIDS 檔案是具有特定結構的 Power BI Desktop 檔案，而且它們具�
 
 您可以建立 PBIDS 檔案以簡化組織中報表建立者的**取得資料**體驗。 為了讓新的報表作者能夠更輕鬆地使用 PBIDS 檔案，我們建議系統管理員為常用的連線建立這些檔案。
 
-當作者開啟 PBIDS 檔案時，Power BI Desktop 會開啟並提示使用者提供認證來進行驗證，並連線到檔案中指定的資料來源。 [瀏覽]  對話方塊隨即出現，而且使用者必須從該資料來源選取要載入至模型的資料表。 如果未在 PBIDS 檔案中指定的話，使用者可能也需要選取資料庫。
+當作者開啟 PBIDS 檔案時，Power BI Desktop 會開啟並提示使用者提供認證來進行驗證，並連線到檔案中指定的資料來源。 [瀏覽] 對話方塊隨即出現，而且使用者必須從該資料來源選取要載入至模型的資料表。 如果未在 PBIDS 檔案中指定的話，使用者可能也需要選取資料庫。
 
-之後，使用者可以開始建置視覺效果，或選取 [最近的來源]  以將一組新的資料表載入模型中。
+之後，使用者可以開始建置視覺效果，或選取 [最近的來源] 以將一組新的資料表載入模型中。
 
 PBIDS 檔案目前在一個檔案中只支援一個資料來源。 指定一個以上的資料來源會導致錯誤。
 
-若要建立 PBIDS 檔案，系統管理員必須指定單一連線所需的輸入。 他們也可以將連線模式指定為 DirectQuery 或 Import。 若檔案中缺少 **mode** 或為 Null，則會提示在 Power BI Desktop 中開啟檔案的使用者選取 [DirectQuery]  或 [匯入]  。
+若要建立 PBIDS 檔案，系統管理員必須指定單一連線所需的輸入。 他們也可以將連線模式指定為 DirectQuery 或 Import。 若檔案中缺少 **mode** 或為 Null，則會提示在 Power BI Desktop 中開啟檔案的使用者選取 [DirectQuery] 或 [匯入]。
 
 ### <a name="pbids-file-examples"></a>PBIDS 檔案範例
 
 此節提供一些來自常用資料來源的範例。 PBIDS 檔案類型只支援 Power BI Desktop 中也支援的資料連線，但有兩個例外：Live Connect 與空白查詢。
 
-PBIDS 檔案不  包含驗證資訊與資料表和結構描述資訊。  
+PBIDS 檔案不包含驗證資訊與資料表和結構描述資訊。  
 
 下列程式碼片段顯示數個常見的 PBIDS 檔案範例，但它們並不完整。 針對其他資料來源，您可以參考[資料來源參考 (DSR) 格式，以取得通訊協定和位址資訊 ](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) \(部分機器翻譯\)。
 

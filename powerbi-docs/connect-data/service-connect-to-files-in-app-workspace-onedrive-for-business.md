@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4995671fe5a3a4af0e74ce97d3227f73f005dc3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 62d0282af47b0d57a0b9ac307b422191b440b45c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348520"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564079"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>連線到儲存在 Power BI 工作區 OneDrive 中的檔案
 [在 Power BI 中建立工作區](../collaborate-share/service-create-distribute-apps.md)後，即可將 Excel、CSV 及 Power BI Desktop 檔案儲存至 Power BI 工作區的商務用 OneDrive。 您可以繼續更新儲存在 OneDrive 中的檔案。 這些更新會自動反映到以這些檔案為基礎的 Power BI 報表和儀表板中。 
 
 > [!NOTE]
-> 新工作區體驗會變更 Power BI 工作區與 Office 365 群組之間的關聯性。 每次建立一個新的工作區時，不會自動建立 Office 365 群組。 了解如何[建立新的工作區](../collaborate-share/service-create-the-new-workspaces.md)
+> 新工作區體驗會變更 Power BI 工作區與 Microsoft 365 群組之間的關係。 每次建立一個新的工作區時，不會自動建立 Microsoft 365 群組。 了解如何[建立新的工作區](../collaborate-share/service-create-the-new-workspaces.md)
 
 將檔案新增至工作區是兩步驟的程序： 
 
@@ -34,13 +34,13 @@ ms.locfileid: "83348520"
 1. 在 Power BI 服務中，選取工作區旁的箭號 > 選取工作區名稱旁邊的省略符號 ( **...** )。 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
-2. 選取 [檔案]  開啟 Office 365 工作區的商務用 OneDrive。
+2. 選取 [檔案] 以開啟 Microsoft 365 上工作區的商務用 OneDrive。
    
    > [!NOTE]
-   > 如果在工作區功能表上看不到 [檔案]  ，請選取 [成員]  以開啟工作區的商務用 OneDrive。 在該處選取 [檔案]  。 Office 365 會設定應用程式群組工作區檔案的 OneDrive 儲存位置。 此程序可能需要一些時間。 
+   > 如果在工作區功能表上看不到 [檔案]，請選取 [成員] 以開啟工作區的商務用 OneDrive。 在該處選取 [檔案] 。 Microsoft 365 會設定應用程式群組工作區檔案的 OneDrive 儲存位置。 此程序可能需要一些時間。
    > 
    > 
-3. 您可以在這裡將檔案上傳至工作區的商務用 OneDrive。 選取 [上傳]  ，並瀏覽至您的檔案。
+3. 您可以在這裡將檔案上傳至工作區的商務用 OneDrive。 選取 [上傳] ，並瀏覽至您的檔案。
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
 
@@ -52,26 +52,26 @@ ms.locfileid: "83348520"
 
 ### <a name="import-or-connect-to-the-files-in-your-workspace"></a>匯入或連線至工作區中的檔案
 1. 在 Power BI 中，切換至工作區，讓工作區名稱顯示於左上角。 
-2. 選取導覽窗格底部的 [取得資料]  。 
+2. 選取導覽窗格底部的 [取得資料]。 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
-3. 在 [檔案]  方塊中選取 [取得]  。
+3. 在 [檔案]  方塊中選取 [取得] 。
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
-4. 選取 [OneDrive **<工作區名稱>]**  -   。
+4. 選取 [OneDrive - <工作區名稱>]。
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
-5. 選取您想要的檔案 > [連接]  。
+5. 選取您想要的檔案 > [連接]。
    
     此時您需決定是要[從 Excel 活頁簿匯入資料](service-get-data-from-files.md)，或[連線至整個 Excel 活頁簿](service-excel-workbook-files.md)。
-6. 選取 [匯入]  或 [連接]  。
+6. 選取 [匯入]  或 [連接] 。
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
-7. 如果您選取 [匯入]  ，則活頁簿會出現在 [資料集]  索引標籤中。 
+7. 如果您選取 [匯入]，則活頁簿會出現在 [資料集] 索引標籤中。 
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-import.png)
    
-    如果您選取 [連線]  ，則活頁簿會出現在 [活頁簿]  索引標籤中。
+    如果您選取 [連線]，則活頁簿會出現在 [活頁簿] 索引標籤中。
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
