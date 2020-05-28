@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: b6b84d9e6c5f0dee912ccf80cf6949618b16d8c5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5df9ddd44bdc8952dab14809ce3facd74e5d3753
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148999"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564161"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 移轉工具
 
@@ -40,25 +40,25 @@ ms.locfileid: "83148999"
 
 您會想要從建立新的移轉計劃開始。 若要建立新的移轉計劃，請執行下列動作。
 
-1. 選取 [檔案]   >  **[New Migration Plan ]** (新增移轉計劃)。
+1. 選取 [檔案] >  **[New Migration Plan ]** (新增移轉計劃)。
 
     ![工具計劃](media/migrate-tool/migrate-tool-plan.png)
 
-2. 在 [選取 Power BI Embedded 資源群組]  對話方塊中，您會想要選取 [環境] 下拉式清單，並選取 [生產環境]。
+2. 在 [選取 Power BI Embedded 資源群組] 對話方塊中，您會想要選取 [環境] 下拉式清單，並選取 [生產環境]。
 
 3. 系統將提示您登入。 您將使用 Azure 訂用帳戶登入。
 
    > [!IMPORTANT]
-   > 這「不」  是您用來登入 Power BI 的 Office 365 組織帳戶。
+   > 這**不是**用來登入 Power BI 的組織帳戶。
 
 4. 選取 Azure 訂用帳戶，以儲存您的 Power BI Embedded 工作區集合。
 
     ![資源群組](media/migrate-tool/migrate-tool-select-resource-group.png)
-5. 在訂用帳戶清單下方，選取包含您工作區集合的 [資源群組]  ，然後選取 [選取]  。
+5. 在訂用帳戶清單下方，選取包含您工作區集合的 [資源群組]，然後選取 [選取]。
 
     ![選取資源群組](media/migrate-tool/migrate-tool-select-resource-group2.png)
 
-6. 選取 [分析]  。 這會取得 Azure 訂用帳戶內項目的清查，以讓您開始您的計劃。
+6. 選取 [分析]。 這會取得 Azure 訂用帳戶內項目的清查，以讓您開始您的計劃。
 
     ![分析群組](media/migrate-tool/migrate-tool-analyze-group.png)
 
@@ -75,11 +75,11 @@ ms.locfileid: "83148999"
 
 若要儲存移轉計劃，請執行下列動作。
 
-1. 選取 [檔案]   > [Save Migration Plan ] \(儲存移轉計劃)  。
+1. 選取 [檔案] > [Save Migration Plan ] \(儲存移轉計劃)。
 
     ![儲存計劃](media/migrate-tool/migrate-tool-save-plan.png)
 
-2. 提供您檔案的名稱，或使用產生的檔案名稱，然後選取 [儲存]  。
+2. 提供您檔案的名稱，或使用產生的檔案名稱，然後選取 [儲存]。
 
 ### <a name="open-an-existing-migration-plan"></a>開啟現有移轉計劃
 
@@ -87,15 +87,15 @@ ms.locfileid: "83148999"
 
 若要開啟現有移轉計劃，請執行下列動作。
 
-1. 選取 [檔案]   > [Open Existing Migration Plan] \(開啟現有移轉計劃)  。
+1. 選取 [檔案] > [Open Existing Migration Plan] \(開啟現有移轉計劃)。
 
     ![開啟計劃](media/migrate-tool/migrate-tool-open-plan.png)
 
-2. 選取您的移轉檔案，然後選取 [開啟]  。
+2. 選取您的移轉檔案，然後選取 [開啟]。
 
 ## <a name="step-1-analyze--plan-migration"></a>步驟 1：分析和規劃移轉
 
-[Analyze & Plan Migration] \(分析和規劃移轉\)  索引標籤可供檢視 Azure 訂用帳戶資源群組中的目前內容。
+[Analyze & Plan Migration] \(分析和規劃移轉\) 索引標籤可供檢視 Azure 訂用帳戶資源群組中的目前內容。
 
 ![分析與規劃移轉索引標籤](media/migrate-tool/migrate-tool-step1.png)
 
@@ -103,7 +103,7 @@ ms.locfileid: "83148999"
 
 ### <a name="paas-topology"></a>PaaS 拓撲
 
-這會列出 [資源群組] > [工作區集合] > [工作區]  。 資源群組和工作區集合將會顯示易記名稱。 工作區將會顯示 GUID。
+這會列出 [資源群組] > [工作區集合] > [工作區]。 資源群組和工作區集合將會顯示易記名稱。 工作區將會顯示 GUID。
 
 清單中的項目也會以 (#/#) 格式顯示色彩和數字。 這指出可下載的報表數目。
 黑色表示可以下載所有報表。
@@ -124,7 +124,7 @@ ms.locfileid: "83148999"
 
 #### <a name="download-plan"></a>下載方案
 
-會自動為您建立路徑。 您可以視需要變更此路徑。 若您變更路徑，則需要選取 [更新路徑]  。
+會自動為您建立路徑。 您可以視需要變更此路徑。 若您變更路徑，則需要選取 [更新路徑]。
 
 > [!NOTE]
 > 這不會實際執行下載。 這只會指定報表下載目標位置的結構。
@@ -138,39 +138,39 @@ ms.locfileid: "83148999"
 > [!NOTE]
 > 這不會實際在 Power BI 服務內建立群組。 這只會定義群組的命名結構。
 
-如果您變更前置詞，則需要選取 [Generate Upload Plan] (產生上傳計劃)  。
+如果您變更前置詞，則需要選取 [Generate Upload Plan] (產生上傳計劃)。
 
 您可以在群組上按一下滑鼠右鍵，然後選擇直接重新命名上傳計劃內的群組 (如有需要)。
 
 ![上傳報表並重新命名項目](media/migrate-tool/migrate-tool-upload-report-rename-item.png)
 
 > [!NOTE]
-> 「群組」  的名稱不得包含空格或無效字元。
+> 「群組」的名稱不得包含空格或無效字元。
 
 ## <a name="step-2-download"></a>步驟 2：下載
 
-在 [下載]  索引標籤上，您會看到報表和相關聯中繼資料的清單。 您可以看到匯出狀態與先前匯出狀態。
+在 [下載] 索引標籤上，您會看到報表和相關聯中繼資料的清單。 您可以看到匯出狀態與先前匯出狀態。
 
 ![](media/migrate-tool/migrate-tool-download-tab.png)
 
 您有兩個選項。
 
-* 選取特定報表，然後選取 [Download Selected] (下載選取的項目)  。
-* 選取 [Download All] \(全部下載)  。
+* 選取特定報表，然後選取 [Download Selected] (下載選取的項目)。
+* 選取 [Download All] \(全部下載)。
 
 ![下載選項](media/migrate-tool/migrate-tool-download-options.png)
 
-若是成功下載，您會看到 [完成]  狀態，而且它會反映 PBIX 檔案是否存在。
+若是成功下載，您會看到 [完成] 狀態，而且它會反映 PBIX 檔案是否存在。
 
-下載完成之後，請選取 [建立群組]  索引標籤。
+下載完成之後，請選取 [建立群組] 索引標籤。
 
 ## <a name="step-3-create-groups"></a>步驟 3：建立群組
 
-在您下載可用的報表之後，可以移至 [建立群組]  索引標籤。此索引標籤將根據您建立的移轉計劃，在 Power BI 服務內建立工作區。 這會使用您在 [分析和規劃移轉]  內 [上傳]  索引標籤上提供的名稱來建立工作區。
+在您下載可用的報表之後，可以移至 [建立群組] 索引標籤。此索引標籤將根據您建立的移轉計劃，在 Power BI 服務內建立工作區。 這會使用您在 [分析和規劃移轉] 內 [上傳] 索引標籤上提供的名稱來建立工作區。
 
 ![建立群組](media/migrate-tool/migrate-tool-create-groups.png)
 
-若要建立工作區，您可以選取 [建立選取的群組]  或 [建立所有缺少的群組]  。
+若要建立工作區，您可以選取 [建立選取的群組] 或 [建立所有缺少的群組]。
 
 當您選取其中一個選項時，系統會提示您登入。 *您想要將認證用於要在其上建立工作區的 Power BI 服務。*
 
@@ -182,17 +182,17 @@ ms.locfileid: "83148999"
 
 ![工作區](media/migrate-tool/migrate-tool-app-workspace.png)
 
-建立工作區之後，您可以移至 [上傳]  索引標籤。
+建立工作區之後，您可以移至 [上傳] 索引標籤。
 
 ## <a name="step-4-upload"></a>步驟 4：上傳
 
-在 [上傳]  索引標籤上，這會將報表上傳至 Power BI 服務。 您會在 [下載] 索引標籤上看到我們已下載的報表清單，以及根據您移轉計劃的目標群組名稱。
+在 [上傳] 索引標籤上，這會將報表上傳至 Power BI 服務。 您會在 [下載] 索引標籤上看到我們已下載的報表清單，以及根據您移轉計劃的目標群組名稱。
 
 ![上傳索引標籤](media/migrate-tool/migrate-tool-upload-tab.png)
 
 您可以上傳選取的報表，或上傳所有報表。 您也可以重設上傳狀態來重新上傳項目。
 
-您也可以選擇選取在有同名的報表時要怎麼處理。 您可以選擇 [中止]  、[忽略]  和 [覆寫]  。
+您也可以選擇選取在有同名的報表時要怎麼處理。 您可以選擇 [中止]、[忽略] 和 [覆寫]。
 
 ![上傳相同名稱的報表](media/migrate-tool/migrate-tool-upload-report-same-name.png)
 

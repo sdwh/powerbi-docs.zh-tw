@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/21/2018
-ms.openlocfilehash: 907e65635424b709ec2c0850e4d0d759f4ba6dd3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/14/2020
+ms.openlocfilehash: 8d2efebcfd2d4bc4289f0c8136ef060507fe0a86
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73874096"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438261"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>使用 Office Online Server (OOS) 設定報表伺服器來裝載 Excel 活頁簿
 
@@ -55,12 +55,12 @@ ms.locfileid: "73874096"
 
 1. 從 [Volume Licensing Service Center (VLSC)](https://go.microsoft.com/fwlink/p/?LinkId=256561) 下載 Office Online Server。 下載位於 VLSC 入口網站的這些 Office 產品下方。 基於開發目的，您可以從 MSDN 訂閱者下載中下載 OOS。
 2. 執行 Setup.exe。
-3. 在 [閱讀 Microsoft 軟體授權條款]  頁面上，選取 [我接受這份合約]  ，然後選取 [繼續]  。
-4. 在 [選擇檔案位置]  頁面上，選取您要安裝 Office Online Server 檔案的資料夾 (例如 C:\Program Files\Microsoft Office Web Apps\*)，然後選取 [立即安裝]  。 如果您指定的資料夾不存在，則安裝程式會建立它。
+3. 在 [閱讀 Microsoft 軟體授權條款] 頁面上，選取 [我接受這份合約]，然後選取 [繼續]。
+4. 在 [選擇檔案位置] 頁面上，選取您要安裝 Office Online Server 檔案的資料夾 (例如 C:\Program Files\Microsoft Office Web Apps\*)，然後選取 [立即安裝]。 如果您指定的資料夾不存在，則安裝程式會建立它。
 
     建議您在系統磁碟機上安裝 Office Online Server。
 
-5. 安裝程式完成安裝 Office Online Server 時，請選取 [關閉]  。
+5. 安裝程式完成安裝 Office Online Server 時，請選取 [關閉]。
 
 ### <a name="install-language-packs-for-office-web-apps-server-optional"></a>安裝 Office Web Apps Server 的語言套件 (選擇性)
 
@@ -70,8 +70,8 @@ Office Online Server Language Pack 可讓使用者以多國語言檢視網頁 Of
 
 1. 從 [Microsoft 下載中心](https://go.microsoft.com/fwlink/p/?LinkId=798136)下載 Office Online Server Language Pack。
 2. 執行 **wacserverlanguagepack.exe**。
-3. 在 [Office Online Server Language Pack 精靈] 的 [閱讀 Microsoft 軟體授權條款]  頁面上，選取 [我接受這份合約]  ，然後選取 [繼續]  。
-4. 安裝程式完成安裝 Office Online Server 時，請選取 [關閉]  。
+3. 在 [Office Online Server Language Pack 精靈] 的 [閱讀 Microsoft 軟體授權條款] 頁面上，選取 [我接受這份合約]，然後選取 [繼續]。
+4. 安裝程式完成安裝 Office Online Server 時，請選取 [關閉]。
 
 ## <a name="deploy-office-online-server"></a>部署 Office Online Server
 
@@ -167,19 +167,20 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 ## <a name="configure-power-bi-report-server-to-use-the-oos-server"></a>設定 Power BI 報表伺服器以使用 OOS 伺服器
 
-在 [網站設定]  的 [一般]  頁面上，輸入 OOS 探索 URL。 OOS 探索 URL 是 *InternalUrl*，在部署 OOS 伺服器時使用，後接 */hosting/discovery*。 例如，`https://servername/hosting/discovery` 是針對 HTTP。 而 `https://server.contoso.com/hosting/discovery` 是針對 HTTPS。
+在 [網站設定]的 [一般] 頁面上，輸入 OOS 探索 URL。 OOS 探索 URL 是 *InternalUrl*，在部署 OOS 伺服器時使用，後接 */hosting/discovery*。 例如，`https://servername/hosting/discovery` 是針對 HTTP。 而 `https://server.contoso.com/hosting/discovery` 是針對 HTTPS。
 
-若要到達 [網站設定]  ，請選取右上方的**齒輪圖示**，然後選取 [網站設定]  。
+若要到達 [網站設定]，請選取右上方的**齒輪圖示**，然後選取 [網站設定]。
 
-只有具有 [系統管理員]  角色的使用者才會看到 Office Online Server 探索 URL 設定。
+只有具有 [系統管理員] 角色的使用者才會看到 Office Online Server 探索 URL 設定。
 
 ![Power BI 報表伺服器的網站設定。](media/excel-oos/reportserver-site-settings.png)
 
-輸入探索 URL 並選取 [套用]  之後，在入口網站內選取 Excel 活頁簿時應該會在入口網站內顯示入口網站。
+輸入探索 URL 並選取 [套用] 之後，在入口網站內選取 Excel 活頁簿時應該會在入口網站內顯示入口網站。
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 
-* 您會有活頁簿的唯讀功能。
+- 您會有活頁簿的唯讀功能。
+- Power BI 報表伺服器中的 Excel 活頁簿不支援排定的重新整理。
 
 ## <a name="next-steps"></a>後續步驟
 

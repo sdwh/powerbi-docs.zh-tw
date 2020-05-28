@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349256"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565292"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -58,7 +58,7 @@ Power BI 應用程式中的篩選有新功能和新設計。 這項更新包含�
 
 ### <a name="report-footer-can-now-always-be-visible-in-the-mobile-app-for-iphones"></a>現在，報表頁尾可在 iPhone 的行動應用程式中一律顯示
 
-在您的 iPhone 上，就像在您的 Android 上一樣，現在您可以決定是否要讓報表頁尾固定在報表頁面底部，以便一律顯示並可供使用，不論您在頁面上執行的動作為何。 這可讓您輕鬆地使用報表頁尾提供的所有選項。 若要固定頁尾，請切換[行動應用程式設定](./mobile-app-interaction-settings.md)頁面上的 [固定的報表頁尾]  切換開關。
+在您的 iPhone 上，就像在您的 Android 上一樣，現在您可以決定是否要讓報表頁尾固定在報表頁面底部，以便一律顯示並可供使用，不論您在頁面上執行的動作為何。 這可讓您輕鬆地使用報表頁尾提供的所有選項。 若要固定頁尾，請切換[行動應用程式設定](./mobile-app-interaction-settings.md)頁面上的 [固定的報表頁尾] 切換開關。
 
 ### <a name="support-for-pbirs-reports-preview-windows"></a>支援 PBIRS 報表 (預覽) (Windows)
 
@@ -274,7 +274,7 @@ Power BI 行動裝置應用程式現支援在 Power BI 中建立的書籤。 當
 
 ### <a name="shared-credentials-now-in-android"></a>共用認證 (現在位於 Android 中)
 
-從您的行動裝置應用程式登入 Power BI，從未如此簡單。 使用共用認證，我們透過使用裝置上的其他 Office 365 應用程式認證，在 Power BI 服務中對您進行驗證，來簡化登入程序。
+從您的行動裝置應用程式登入 Power BI，從未如此簡單。 使用共用認證，我們透過使用裝置上的其他 Microsoft 365 應用程式認證，在 Power BI 服務中對您進行驗證以簡化登入流程。
 
 ### <a name="in-app-urls-now-in-android"></a>應用程式內 URL (現在位於 Android 中) 
 
@@ -294,7 +294,7 @@ Power BI 行動裝置應用程式現支援在 Power BI 中建立的書籤。 當
 
 ### <a name="shared-credentials-ios"></a>共用認證 (iOS)
 
-從您的行動裝置應用程式登入 Power BI，從未如此簡單。 使用共用認證，我們透過使用裝置上的其他 Office 365 應用程式認證，在 Power BI 服務中對您進行驗證，來簡化登入程序。
+從您的行動裝置應用程式登入 Power BI，從未如此簡單。 使用共用認證，我們透過使用裝置上的其他 Microsoft 365 應用程式認證，在 Power BI 服務中對您進行驗證以簡化登入流程。
 
 ### <a name="in-app-urls-ios"></a>應用程式內的 URL (iOS) 
 
@@ -413,11 +413,11 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 
 #### <a name="report-favorites"></a>我的最愛報表
 
-將報表標記為我的最愛，即可讓它們顯示在 [我的最愛]  頁面上。 閱讀更多以了解 [Power BI 行動裝置應用程式中的我的最愛](mobile-apps-favorites.md)。
+將報表標記為我的最愛，即可讓它們顯示在 [我的最愛] 頁面上。 閱讀更多以了解 [Power BI 行動裝置應用程式中的我的最愛](mobile-apps-favorites.md)。
 
 #### <a name="view-shared-reports"></a>檢視共用報表
 
-現在當有人與您共用報表時，它會與儀表板一起在 [與我共用]  頁面上列出。
+現在當有人與您共用報表時，它會與儀表板一起在 [與我共用] 頁面上列出。
 
 #### <a name="improved-hyperlink-support"></a>改善的超連結支援
 
@@ -439,7 +439,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 
 #### <a name="auto-installed-apps"></a>自動安裝的應用程式
 
-您完全不需要在 Power BI 中安裝某些應用程式。 在您組織中的 Power BI 應用程式建立者可以建立包含儀表板和報表集合的「應用程式」  。 然後他們可以發行應用程式，並將它設定為自動安裝在 Power BI 服務和 Power BI 行動應用程式中。 當應用程式設定好為您安裝時，它會自動出現在您的 [應用程式]  功能表：
+您完全不需要在 Power BI 中安裝某些應用程式。 在您組織中的 Power BI 應用程式建立者可以建立包含儀表板和報表集合的「應用程式」。 然後他們可以發行應用程式，並將它設定為自動安裝在 Power BI 服務和 Power BI 行動應用程式中。 當應用程式設定好為您安裝時，它會自動出現在您的 [應用程式] 功能表：
 
 ![Power BI 行動裝置應用程式中的應用程式](./media/mobile-whats-new-in-the-mobile-apps/power-bi-apps-mobile-apps.png)
 
@@ -472,7 +472,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 **新的 iOS 問與答體驗 (預覽)** ：您現在除了能取得問題的解答之外，還能使用自然語言來取得相關深入解析。 即使您不太確定要尋找的項目，問與答也會主動顯示與您資料相關的深入解析。 新的行動裝置問與答體驗是與 Microsoft Research 小組共同作業研發而成，展現了我們產品的強大技術。 試用此教學課程，[詢問 iOS 行動裝置應用程式資料的相關問題](mobile-apps-ios-qna.md)。
 
 ### <a name="responsive-visuals"></a>回應式視覺效果
-適用於手機報表與儀表板的**回應式視覺效果**：您可以將儀表版或報表中的視覺效果設定為「回應式」  ，不管是什麼樣的螢幕大小，都能以動態方式變更，顯示最多的資料與深入解析。 閱讀[關於回應式視覺效果的部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)。
+適用於手機報表與儀表板的**回應式視覺效果**：您可以將儀表版或報表中的視覺效果設定為「回應式」，不管是什麼樣的螢幕大小，都能以動態方式變更，顯示最多的資料與深入解析。 閱讀[關於回應式視覺效果的部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)。
 
 ### <a name="june-2107"></a>2017 年 6 月
 #### <a name="all-devices"></a>所有裝置

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c206e35651ef28c03151c6c5af8e5bae453d5d2b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274366"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438238"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -32,7 +32,7 @@ ms.locfileid: "83274366"
 
 ![管理入口網站](media/service-premium-what-is/premium-admin-portal.png) 
 
-本文會介紹 Power BI Premium 中的重要功能。 如有需要，請連結到提供更詳細資訊的其他文章。 如需 Power BI Pro 與 Power BI Premium 的詳細資訊，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing/)的「Power BI 功能比較」  一節。
+本文會介紹 Power BI Premium 中的重要功能。 如有需要，請連結到提供更詳細資訊的其他文章。 如需 Power BI Pro 與 Power BI Premium 的詳細資訊，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing/)的「Power BI 功能比較」一節。
 
 ## <a name="subscriptions-and-licensing"></a>訂閱和授權
 
@@ -40,7 +40,7 @@ Power BI Premium 是兩個 SKU (庫存單位) 系列的可用租用戶層級 Off
 
 - **P** SKU (P1-P5) 用於內嵌和企業功能、需要每月或年度履約承諾、按月計費，且包含在內部部署安裝 Power BI 報表伺服器的授權。
 
-- **EM** SKU (EM1-EM3) 用於「組織」  內嵌、需要年度履約承諾，且按月計費。 EM1 和 EM2 SKU 只能透過大量授權方案提供。 您無法直接購買。
+- **EM** SKU (EM1-EM3) 用於「組織」內嵌、需要年度履約承諾，且按月計費。 EM1 和 EM2 SKU 只能透過大量授權方案提供。 您無法直接購買。
 
 另一種方法是在 Azure 中購買 **Power BI Embedded** 訂用帳戶。 單一 **A** (A1-A6) SKU 系列不需要承諾用量，且在應用程式、入口網站與網站中使用貼牌 Power BI，或作為測試 P 或 EM 容量的方式都是按小時計費。 所有 SKU 都提供 V 核心來建立容量，但 EM SKU 僅能用於較小的規模內嵌。 若 EM1、EM2、A1 和 A2 SKU 所具備的 V 核心不到四個，便無法在專用基礎結構上執行。
 
@@ -50,25 +50,26 @@ Azure Power BI Embedded 遠遠超過本文討論範圍，但在＜Premium 功能
 
 ### <a name="purchasing"></a>購買
 
-Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買。 具體而言，只有 Office 365 全域管理員或計費管理員可以購買 SKU。 購買時，租用戶會收到指派給容量的對應 V 核心數目，稱為「V 核心共用」  。 例如，購買 P3 SKU 可提供租用戶 32 個 V 核心。 若要深入了解，請參閱[如何購買 Power BI Premium](service-admin-premium-purchase.md)。
+Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買。 具體而言，只有 Office 365 全域管理員或計費管理員可以購買 SKU。 購買時，租用戶會收到指派給容量的對應 V 核心數目，稱為「V 核心共用」。 例如，購買 P3 SKU 可提供租用戶 32 個 V 核心。 若要深入了解，請參閱[如何購買 Power BI Premium](service-admin-premium-purchase.md)。
 
 ## <a name="dedicated-capacities"></a>專用容量
 
-透過 Power BI Premium，您可以取得「專用容量」  。 相對於共用容量 (其中工作負載是在與其他客戶共用的計算資源上執行)，專用容量僅供組織使用。 它與專用計算資源一起隔離，為所裝載內容提供可靠且一致的效能。 請注意，下列資源是儲存在共用容量中，而不是在您的專用容量中：
+透過 Power BI Premium，您可以取得「專用容量」。 相對於共用容量 (其中工作負載是在與其他客戶共用的計算資源上執行)，專用容量僅供組織使用。 它與專用計算資源一起隔離，為所裝載內容提供可靠且一致的效能。 請注意，下列資源是儲存在共用容量中，而不是在您的專用容量中：
 
 * Excel 活頁簿 (除非資料先匯入 Power BI Desktop)
 * [推送資料集](/rest/api/power-bi/pushdatasets)
 * [串流資料集](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
+* [問與答](../create-reports/power-bi-tutorial-q-and-a.md)
 
 工作區存放在容量中。 每個 Power BI 使用者都有個人工作區，稱為**我的工作區**。 可建立額外的工作區 (稱為**工作區**) 來啟用共同作業。 根據預設，工作區 (包括個人工作區) 是在共用容量中建立。 當具有 Premium 容量時，即可將「我的工作區」和工作區指派給 Premium 容量。
 
 ### <a name="capacity-nodes"></a>容量節點
 
-如[訂閱和授權](#subscriptions-and-licensing)一節中所述，有兩個 Power BI Premium SKU 系列：**EM** 和 **P**。所有 Power BI Premium SKU 都會當成容量「節點」  來提供，每個節點代表由處理器、記憶體和儲存體組成的固定數量資源。 除了資源之外，每個 SKU 對於每秒 DirectQuery 和即時連線數目，以及平行模型重新整理數目具有作業限制。
+如[訂閱和授權](#subscriptions-and-licensing)一節中所述，有兩個 Power BI Premium SKU 系列：**EM** 和 **P**。所有 Power BI Premium SKU 都會當成容量「節點」來提供，每個節點代表由處理器、記憶體和儲存體組成的固定數量資源。 除了資源之外，每個 SKU 對於每秒 DirectQuery 和即時連線數目，以及平行模型重新整理數目具有作業限制。
 
 處理是透過在後端與前端之間平均分配的固定數目 V 核心來完成。
 
-**後端 V 核心**負責核心 Power BI 功能，包括查詢處理、快取管理、執行 R 服務、模型重新整理、自然語言處理 (問與答)，以及在伺服器端轉譯報表和影像。 後端 V 核心會獲指派固定數量的記憶體，主要用於裝載模型，也稱為使用中資料集。
+**後端 V 核心**負責核心 Power BI 功能，包括查詢處理、快取管理、執行 R 服務、模型重新整理，以及在伺服器端轉譯報表和影像。 後端 V 核心會獲指派固定數量的記憶體，主要用於裝載模型，也稱為使用中資料集。
 
 **前端 V 核心**負責 Web 服務、儀表板和報表文件管理、存取權限管理、排程、API、上傳和下載，大致上就是與使用者體驗相關的所有作業。
 
@@ -105,7 +106,7 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 不論任何時候，Power BI 服務都會在不超過容量限制的情況下充分利用容量資源。
 
-容量作業可分類為「互動式」  或「背景」  。 互動式作業包括轉譯要求及回應使用者互動 (篩選、問與答查詢等)。 一般而言，匯入模型查詢會耗用大量記憶體資源，而查詢 DirectQuery 和即時連線模型會耗用大量 CPU。 背景作業包括資料流程和匯入模型重新整理，以及儀表板查詢快取。
+容量作業可分類為「互動式」或「背景」。 互動式作業包括轉譯要求及回應使用者互動 (篩選、問與答查詢等)。 一般而言，匯入模型查詢會耗用大量記憶體資源，而查詢 DirectQuery 和即時連線模型會耗用大量 CPU。 背景作業包括資料流程和匯入模型重新整理，以及儀表板查詢快取。
 
 請務必了解互動式作業一律會優先於背景作業，以盡可能確保最佳使用者體驗。 如果資源不足，背景作業會新增至佇列，等到資源釋放後再處理。 Power BI 服務可以在程序中停止背景作業 (例如資料集重新整理)，並將其新增至佇列。
 
@@ -113,7 +114,7 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 因此，會根據使用量將匯入模型載入至記憶體及從中移除。 匯入模型會在查詢 (互動式作業) 但不在記憶體時載入，或在需要重新整理 (背景作業) 時載入。
 
-從記憶體移除模型稱為「收回」  。 視模型的大小而定，Power BI 可能會快速執行此作業。 如果容量未發生任何記憶體壓力，則模型會直接載入至記憶體並保留在其中。 不過，當記憶體不足而無法載入模型時，Power BI 服務必須先釋放記憶體。 釋放記憶體方式是藉由尋找過去三分鐘未使用的模型，來偵測哪些模型已成為非使用中 \[[1](#endnote-1)\]，然後收回這些模型。 如果沒有要收回的非使用中模型，Power BI 服務會試圖收回已針對背景作業載入的模型。 最後的手段是在嘗試失敗過了 30 秒後 \[[1](#endnote-1)\]，判定互動式作業失敗。 在此情況下，報表使用者會收到失敗通知及稍後再試一次的建議。 在某些情況下，模型可能會由於服務作業而從記憶體卸載。
+從記憶體移除模型稱為「收回」。 視模型的大小而定，Power BI 可能會快速執行此作業。 如果容量未發生任何記憶體壓力，則模型會直接載入至記憶體並保留在其中。 不過，當記憶體不足而無法載入模型時，Power BI 服務必須先釋放記憶體。 釋放記憶體方式是藉由尋找過去三分鐘未使用的模型，來偵測哪些模型已成為非使用中 \[[1](#endnote-1)\]，然後收回這些模型。 如果沒有要收回的非使用中模型，Power BI 服務會試圖收回已針對背景作業載入的模型。 最後的手段是在嘗試失敗過了 30 秒後 \[[1](#endnote-1)\]，判定互動式作業失敗。 在此情況下，報表使用者會收到失敗通知及稍後再試一次的建議。 在某些情況下，模型可能會由於服務作業而從記憶體卸載。
 
 請注意，資料集收回是正常且符合預期的行為。 它會透過載入和卸載總大小可能超過可用記憶體的模型，盡可能最大限度地提高記憶體使用量。 這是刻意的，且會對報表使用者透明呈現。 高收回率不一定代表提供給容量的資源不足。 不過，如果查詢或重新整理回應由於高收回率而變慢，則可能會成為問題。
 
@@ -192,7 +193,7 @@ Power BI Embedded A4 SKU 等同於 P1 SKU、A5 = P2 及 A6 = P3。 將資料集�
 
 如果您在資料集上啟用[大型模型](service-premium-large-models.md)，.pbix 檔案大小限制仍適用於檔案上傳或發行。 不過，隨著累加重新整理和大型模型結合，資料集可能會成長為比這些限制還大。 若使用大型模型，則資料集大小只受限於 Power BI Premium 容量大小。
 
-.pbix 檔案以「高度壓縮狀態」  呈現資料。 載入至記憶體時，資料可能會展開，而且從該處，在資料重新整理期間，資料可能會再展開幾次。
+.pbix 檔案以「高度壓縮狀態」呈現資料。 載入至記憶體時，資料可能會展開，而且從該處，在資料重新整理期間，資料可能會再展開幾次。
 
 排程重新整理大型資料集可能需要很長的時間，且會耗用大量資源。 請務必不要排程太多重疊重新整理。 建議設定[累加式重新整理](service-premium-incremental-refresh.md)，因為其更快速可靠，且耗用較少的資源。
 
@@ -218,7 +219,7 @@ P1-P3 和 A4_A6 SKU 支援的編頁報表採用 SQL Server Reporting Services �
 
 ## <a name="power-bi-report-server"></a>Power BI 報表伺服器
  
-隨附於 Power BI Premium 的 Power BI 報表伺服器是具有入口網站的「內部部署」  報表伺服器。 您可以建置內部部署 BI 環境並在組織防火牆之後散發報表。 報表伺服器可讓使用者存取 SQL Server Reporting Services 中豐富的互動式企業報告功能。 使用者可以探索視覺效果資料，並快速找出模式以制訂更好且更快速的決策。 報表伺服器會根據您的條件提供治理。 一旦時機成熟，Power BI 報表伺服器可讓您輕鬆地移轉至雲端，讓您的組織可以充分利用所有的 Power BI Premium 功能。
+隨附於 Power BI Premium 的 Power BI 報表伺服器是具有入口網站的「內部部署」報表伺服器。 您可以建置內部部署 BI 環境並在組織防火牆之後散發報表。 報表伺服器可讓使用者存取 SQL Server Reporting Services 中豐富的互動式企業報告功能。 使用者可以探索視覺效果資料，並快速找出模式以制訂更好且更快速的決策。 報表伺服器會根據您的條件提供治理。 一旦時機成熟，Power BI 報表伺服器可讓您輕鬆地移轉至雲端，讓您的組織可以充分利用所有的 Power BI Premium 功能。
 
 若要深入了解，請參閱 [Power BI 報表伺服器](../report-server/get-started.md)。
 
@@ -234,7 +235,7 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 ## <a name="analysis-services-in-power-bi-premium-preview"></a>Power BI Premium 中的 Analysis Services (預覽)
 
-實際上，Power BI Premium 工作區和資料集受到經企業實證的 Microsoft **Analysis Services Vertipaq 引擎**支援。 Analysis Services 透過支援開放標準 XMLA 通訊協定的用戶端程式庫和 API 來提供程式設計功能，以及用戶端應用程式和工具支援。 根據預設，Power BI Premium 容量資料集工作負載透過 **XMLA 端點**支援來自 Microsoft 和第三方用戶端應用程式與工具的「唯讀」  作業。 容量管理員也可以選擇停用或允許透過端點的「讀取/寫入」  作業。
+實際上，Power BI Premium 工作區和資料集受到經企業實證的 Microsoft **Analysis Services Vertipaq 引擎**支援。 Analysis Services 透過支援開放標準 XMLA 通訊協定的用戶端程式庫和 API 來提供程式設計功能，以及用戶端應用程式和工具支援。 根據預設，Power BI Premium 容量資料集工作負載透過 **XMLA 端點**支援來自 Microsoft 和第三方用戶端應用程式與工具的「唯讀」作業。 容量管理員也可以選擇停用或允許透過端點的「讀取/寫入」 作業。
 
 具有唯讀存取權，Microsoft 工具 (例如 SQL Server Management Studio (SSMS) 和 SQL Server Profiler) 和第三方應用程式 (例如 DAX Studio 和資料視覺效果應用程式) 可以連線到 Premium 資料集，並使用 XMLA、DAX、MDX、DMV 和追蹤事件進行查詢。 具有讀取/寫入存取權，企業資料模型工具 (例如 Visual Studio 與 Analysis Services 專案延伸模組或開放原始碼表格式編輯器) 可以將表格式模型當做資料集部署至 Premium 工作區。 使用 SSMS 這類工具，系統管理員可以使用表格式模型指令碼語言 (TMSL) 來編寫中繼資料變更和進階資料重新整理案例的指令碼。 
 

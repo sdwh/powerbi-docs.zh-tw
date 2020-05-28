@@ -10,22 +10,22 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 60232b81633542d28b4cd52baf171557e95074c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 046ebacc69642c1e7f399f0a44d7c5a32e411cb1
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143562"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693865"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
 你可以使用 SharePoint Online 的 Power BI 新報表網頁組件，輕鬆地在 SharePoint Online 的網頁中內嵌互動式 Power BI 報表。
 
-當使用新的 [內嵌在 SharePoint Online 中]  選項時，內嵌的報表受會到全面性防護，所以您可以輕鬆地建立安全的內部入口網站。
+當使用新的 [內嵌在 SharePoint Online 中] 選項時，內嵌的報表受會到全面性防護，所以您可以輕鬆地建立安全的內部入口網站。
 
 ## <a name="requirements"></a>需求
 
-為了讓 [內嵌在 SharePoint Online 中]  報表運作，需要滿足下列條件：
+為了讓 [內嵌在 SharePoint Online 中] 報表運作，需要滿足下列條件：
 
 * Power BI Pro 授權，或是具有 Power BI 授權的 [Power BI Premium 容量 (EM 或 P SKU)](../admin/service-premium-what-is.md)。
 * SharePoint Online 的 Power BI Web 組件需要[新式網頁](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)。
@@ -38,7 +38,7 @@ ms.locfileid: "83143562"
 
 1. 在 Power BI 內檢視報表。
 
-2. 在 [更多選項 (...)]  下拉式功能表中，選取 [內嵌]   > [SharePoint Online]  。
+2. 在 [更多選項 (...)] 下拉式功能表中，選取 [內嵌] > [SharePoint Online]。
 
     ![[更多選項] 功能表，SharePoint Online](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
@@ -48,19 +48,19 @@ ms.locfileid: "83143562"
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>將 Power BI 報表新增至 SharePoint Online 頁面
 
-1. 在 SharePoint Online 中開啟目標頁面，然後選取 [編輯]  。
+1. 在 SharePoint Online 中開啟目標頁面，然後選取 [編輯]。
 
     ![SP 編輯頁面](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
-    或者在 SharePoint Online 中選取 [+ 新增]  ，以建立新的現代化網站頁面。
+    或者在 SharePoint Online 中選取 [+ 新增]，以建立新的現代化網站頁面。
 
     ![SP 新增頁面](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
-2. 選取 [+]  下拉式清單，然後選取 [Power BI]  Web 組件。
+2. 選取 [+] 下拉式清單，然後選取 [Power BI] Web 組件。
 
     ![SP 新增網頁組件](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
-3. 選取 [新增報告]  。
+3. 選取 [新增報告] 。
 
     ![SP 新報表](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)  
 
@@ -68,7 +68,7 @@ ms.locfileid: "83143562"
 
     ![SP 新增網頁組件屬性](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
-5. 選取 [發佈]  ，讓 SharePoint Online 使用者能看見您所做的變更。
+5. 選取 [發佈]，讓 SharePoint Online 使用者能看見您所做的變更。
 
     ![載入的 SP 報表](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
@@ -79,15 +79,15 @@ ms.locfileid: "83143562"
 > [!IMPORTANT]
 > 請務必檢閱可以看到 Power BI 服務內報表的成員，並將存取權授與未列出的成員。
 
-有兩種方式可提供 Power BI 的報表存取權。 如果您使用 Office 365 群組來建置 SharePoint Online 小組網站，第一種方式是要將使用者列為 **Power BI 服務內工作區**及 **SharePoint 頁面**的成員。 如需詳細資訊，請參閱如何[管理工作區](service-manage-app-workspace-in-power-bi-and-office-365.md)。
+有兩種方式可提供 Power BI 的報表存取權。 如果使用 Microsoft 365 群組來建置 SharePoint Online 小組網站，第一種方式是將使用者列為 **Power BI 服務內工作區**及 **SharePoint 頁面**的成員。 如需詳細資訊，請參閱如何[管理工作區](service-manage-app-workspace-in-power-bi-and-office-365.md)。
 
 第二種方式是在應用程式中內嵌報表，並將其直接與使用者共用：  
 
-1. 必須為 Pro 使用者的作者才可在工作區中建立報表。 若要與「Power BI 免費使用者」  共用，您需要將該工作區設為「Premium 工作區」  。
+1. 必須為 Pro 使用者的作者才可在工作區中建立報表。 若要與「Power BI 免費使用者」共用，您需要將該工作區設為「Premium 工作區」。
 
 2. 作者會發佈應用程式，然後加以安裝。 作者必須安裝應用程式，使其可以存取用於在 SharePoint Online 中進行內嵌的報表 URL。
 
-3. 現在，所有使用者也都需要安裝應用程式。 您也可以使用 [自動安裝應用程式]  功能 (您可以在 [Power BI 管理入口網站](../admin/service-admin-portal.md) 中啟用此功能)，為終端使用者預先安裝應用程式。
+3. 現在，所有使用者也都需要安裝應用程式。 您也可以使用 [自動安裝應用程式] 功能 (您可以在 [Power BI 管理入口網站](../admin/service-admin-portal.md) 中啟用此功能)，為終端使用者預先安裝應用程式。
 
    ![自動安裝應用程式](media/service-embed-report-spo/install-app-automatically.png)
 
@@ -157,7 +157,7 @@ ms.locfileid: "83143562"
 
 * Power BI 與 SharePoint Online 支援的當地語系化語言不盡相同。 因此，您可能會在內嵌報表中看到未適當當地語系化的內容。
 
-* 您若使用 Internet Explorer 10，可能會遇到問題。 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+* 您若使用 Internet Explorer 10，可能會遇到問題。 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * [國家/地區雲端](https://powerbi.microsoft.com/clouds/)不提供 Power BI Web 組件。
 

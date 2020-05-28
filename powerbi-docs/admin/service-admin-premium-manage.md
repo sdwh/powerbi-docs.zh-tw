@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: f4bf863d7d87bd908165976940b868be55e367f9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6155453f00ae64eee2cf74db7426b36248def796
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138735"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564401"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>設定及管理 Power BI Premium 中的容量
 
@@ -24,11 +24,11 @@ ms.locfileid: "83138735"
 
 ![Power BI 的容量設定畫面](media/service-admin-premium-manage/premium-capacity-management.png)
 
-「容量」  是 Power BI Premium 和 Power BI Embedded 供應項目的中心。 它是一組專門保留供組織使用的資源集。 擁有專用容量可讓您將儀表板、報表和資料集發佈給整個組織的使用者，而不必購買其個別使用者授權。 它也會為容量中所裝載內容提供可靠且一致的效能。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](../service-premium.md)。
+「容量」是 Power BI Premium 和 Power BI Embedded 供應項目的中心。 它是一組專門保留供組織使用的資源集。 擁有專用容量可讓您將儀表板、報表和資料集發佈給整個組織的使用者，而不必購買其個別使用者授權。 它也會為容量中所裝載內容提供可靠且一致的效能。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](service-premium-what-is.md)。
 
 ## <a name="manage-capacity"></a>管理容量
 
-在 Office 365 中購買容量節點之後，請在 Power BI 管理入口網站中設定容量。 您可以在入口網站的 [容量設定]  區段中管理 Power BI Premium 容量。
+在 Microsoft 365 中購買容量節點之後，請在 Power BI 管理入口網站中設定容量。 您可以在入口網站的 [容量設定] 區段中管理 Power BI Premium 容量。
 
 ![管理入口網站內的容量設定](media/service-admin-premium-manage/admin-portal-premium.png)
 
@@ -40,13 +40,13 @@ ms.locfileid: "83138735"
 
 ### <a name="setting-up-a-new-capacity-power-bi-premium"></a>設定新的容量 (Power BI Premium)
 
-管理入口網站會顯示您已使用和您仍然可用的「虛擬核心」  (V 核心) 數目。 V 核心總數是根據您購買的進階 SKU 數。 例如，購買 P3 和 P2 會得到 48 個可用的核心，P3 有 32 個，P2 有 16 個。
+管理入口網站會顯示您已使用和您仍然可用的「虛擬核心」(V 核心) 數目。 V 核心總數是根據您購買的進階 SKU 數。 例如，購買 P3 和 P2 會得到 48 個可用的核心，P3 有 32 個，P2 有 16 個。
 
 ![Power BI Premium 已使用和可使用的 V 核心](media/service-admin-premium-manage/admin-portal-v-cores.png)
 
 如有可用的 V 核心，請執行下列步驟來設定新容量。
 
-1. 選取 [設定新的容量]  。
+1. 選取 [設定新的容量]。
 
 1. 提供您容量的名稱。
 
@@ -56,15 +56,15 @@ ms.locfileid: "83138735"
 
     ![可用的 Premium 容量大小](media/service-admin-premium-manage/premium-capacity-size.png)
 
-1. 選取 [設定]  。
+1. 選取 [設定]。
 
     ![設定新的容量](media/service-admin-premium-manage/set-up-capacity.png)
 
-容量管理員以及 Power BI 管理員和 Office 365 全域管理員，接著會看到管理入口網站中所列的容量。
+容量管理員以及 Power BI 管理員和 Microsoft 365 全域管理員，接著會看到管理入口網站中所列的容量。
 
 ### <a name="capacity-settings"></a>容量設定
 
-1. 在 Premium 容量管理畫面的 [動作]  下方，選取**齒輪圖示**以檢閱和更新設定。 
+1. 在 Premium 容量管理畫面的 [動作] 下方，選取**齒輪圖示**以檢閱和更新設定。 
 
     ![容量管理區中的容量動作](media/service-admin-premium-manage/capacity-actions.png)
 
@@ -81,13 +81,13 @@ ms.locfileid: "83138735"
 
 ### <a name="change-capacity-size"></a>變更容量大小
 
-Power BI 管理員和 Office 365 全域管理員可以變更 Power BI Premium 容量。 不是 Power BI 管理員或 Office 365 全域管理員的容量管理員沒有此選項。
+Power BI 管理員和 Microsoft 365 全域管理員可變更 Power BI Premium 容量。 不是 Power BI 管理員或 Microsoft 365 全域管理員的容量管理員沒有此選項。
 
-1. 選取 [變更容量大小]  。
+1. 選取 [變更容量大小]。
 
     ![變更 Power BI Premium 容量大小](media/service-admin-premium-manage/change-capacity-size.png)
 
-1. 在 [變更容量大小]  畫面上，視情況升級或降級您的容量。
+1. 在 [變更容量大小] 畫面上，視情況升級或降級您的容量。
 
     ![變更 Power BI Premium 容量大小下拉式清單](media/service-admin-premium-manage/change-capacity-size2.png)
 
@@ -103,12 +103,12 @@ Power BI 管理員和 Office 365 全域管理員可以變更 Power BI Premium �
 
 ### <a name="manage-user-permissions"></a>管理使用者權限
 
-您可以指派其他容量管理員，以及指派具有「容量指派」  權限的使用者。 如果具有指派權限的使用者是該工作區系統管理員，則其可將工作區指派給容量。 他們也可以將其個人的「我的工作區」  指派給容量。 具有指派權限的使用者無法存取管理入口網站。
+您可以指派其他容量管理員，以及指派具有「容量指派」權限的使用者。 如果具有指派權限的使用者是該工作區系統管理員，則其可將工作區指派給容量。 他們也可以將其個人的「我的工作區」指派給容量。 具有指派權限的使用者無法存取管理入口網站。
 
 > [!NOTE]
 > 針對 Power BI Embedded，容量管理員是在 Microsoft Azure 入口網站中定義。
 
-在 [使用者權限]  下方，展開 [具有指派權限的使用者]  ，然後視情況新增使用者或群組。
+在 [使用者權限] 下方，展開 [具有指派權限的使用者]，然後視情況新增使用者或群組。
 
 ![容量使用者權限](media/service-admin-premium-manage/capacity-user-permissions2.png)
 
@@ -118,13 +118,13 @@ Power BI 管理員和 Office 365 全域管理員可以變更 Power BI Premium �
 
 ### <a name="assign-from-the-admin-portal"></a>從管理入口網站指派
 
-容量管理員以及 Power BI 管理員和 Office 365 全域管理員，可以在管理入口網站的 Premium 容量管理區段中大量指派工作區。 當您管理容量時，會看到可讓您指派工作區的 [工作區]  區段。
+容量管理員以及 Power BI 管理員和 Microsoft 365 全域管理員，可在管理入口網站的 Premium 容量管理區段中大量指派工作區。 當您管理容量時，會看到可讓您指派工作區的 [工作區] 區段。
 
 ![容量管理的工作區指派區域](media/service-admin-premium-manage/capacity-manage-workspaces.png)
 
-1. 選取 [指派工作區]  。 此選項可以在多個位置中使用。
+1. 選取 [指派工作區]。 此選項可以在多個位置中使用。
 
-1. 選取 [套用對象]  的選項。
+1. 選取 [套用對象] 的選項。
 
     ![指派工作區](media/service-admin-premium-manage/assign-workspaces.png)
 
@@ -141,27 +141,27 @@ Power BI 管理員和 Office 365 全域管理員可以變更 Power BI Premium �
 
 您也可以從該工作區的設定中，將工作區指派給 Premium 容量。 若要將工作區移至容量，您必須具有該工作區的管理員權限，同時具有該容量的容量指派權限。 請注意，工作區管理員一律可以從 Premium 容量中移除工作區。
 
-1. 選取省略符號 **(. . .)** ，然後選取 [編輯工作區]  來編輯工作區。
+1. 選取省略符號 **(. . .)** ，然後選取 [編輯工作區] 來編輯工作區。
 
     ![從省略符號操作功能表編輯工作區](media/service-admin-premium-manage/edit-app-workspace.png)
 
-1. 在 [編輯工作區]  下方，展開 [進階]  。
+1. 在 [編輯工作區] 下方，展開 [進階]。
 
 1. 選取您想要將這個工作區指派至其中的容量。
 
     ![容量選項下拉式清單](media/service-admin-premium-manage/app-workspace-advanced.png)
 
-1. 選取 [儲存]  。
+1. 選取 [儲存]。
 
 儲存之後，工作區和其所有內容都會移至 Premium 容量，而不會干擾終端使用者的任何體驗。
 
 ## <a name="power-bi-report-server-product-key"></a>Power BI 報表伺服器產品金鑰
 
-在 Power BI 管理入口網站的 [容量設定]  索引標籤上，您可以存取 Power BI 報表伺服器產品金鑰。 這只適用於全域管理員，或已獲指派 Power BI 服務系統管理員角色的使用者，如已購買 Power BI Premium SKU。
+在 Power BI 管理入口網站的 [容量設定] 索引標籤上，您可以存取 Power BI 報表伺服器產品金鑰。 這只適用於全域管理員，或已獲指派 Power BI 服務系統管理員角色的使用者，如已購買 Power BI Premium SKU。
 
 ![[容量設定] 內的 Power BI 報表伺服器金鑰](media/service-admin-premium-manage/pbirs-product-key.png)
 
-選取 [Power BI 報表伺服器金鑰]  會顯示一個包含產品金鑰的對話方塊。 您可以複製金鑰，並在安裝時使用。
+選取 [Power BI 報表伺服器金鑰] 會顯示一個包含產品金鑰的對話方塊。 您可以複製金鑰，並在安裝時使用。
 
 ![Power BI 報表伺服器產品金鑰](media/service-admin-premium-manage/pbirs-product-key-dialog.png)
 

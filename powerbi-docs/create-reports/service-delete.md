@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3fdb969888d023ca9683c2460086f2fb8157c3c3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a48d83223ab02d2f9f043dde2facebd6ad73c27a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83304545"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565664"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>刪除 Power BI 服務中的絶大部分所有項目
 本文會教導您如何刪除 Power BI 服務中的儀表板、報告、活頁簿、資料集、應用程式、視覺效果和工作區。
@@ -27,7 +27,7 @@ ms.locfileid: "83304545"
 * 如果儀表板屬於[組織內容套件](../collaborate-share/service-organizational-content-pack-disconnect.md)，則移除相關聯的資料集將是移除它的唯一方法。
 
 ### <a name="to-delete-a-dashboard"></a>刪除儀表板
-1. 在工作區中，選取 [儀表板]  索引標籤。
+1. 在工作區中，選取 [儀表板] 索引標籤。
 2. 找到要刪除的儀表板，然後選取刪除圖示 ![刪除圖示](media/service-delete/power-bi-delete-icon.png).
 
     ![影片](media/service-delete/power-bi-delete-dash.gif)
@@ -36,7 +36,7 @@ ms.locfileid: "83304545"
 別擔心，刪除報表不會刪除報表所依據的資料集。  您從報表釘選的所有視覺效果也安全無虞：它們會保留在儀表板上，直到您個別加以刪除。
 
 ### <a name="to-delete-a-report"></a>刪除報表
-1. 在工作區中，選取 [報表]  索引標籤。
+1. 在工作區中，選取 [報表] 索引標籤。
 2. 找到要刪除的報表，然後選取刪除圖示   ![刪除圖示](media/service-delete/power-bi-delete-icon.png).   
 
     ![工作區的報表索引標籤](media/service-delete/power-bi-delete-reportnew.png)
@@ -55,7 +55,7 @@ ms.locfileid: "83304545"
 如果活頁簿儲存在商務用 OneDrive 上，則從 Power BI 中刪除它並不會從 OneDrive 予以刪除。
 
 ### <a name="to-delete-a-workbook"></a>刪除活頁簿
-1. 在工作區中，選取 [活頁簿]  索引標籤。
+1. 在工作區中，選取 [活頁簿] 索引標籤。
 2. 找到要刪除的活頁簿，然後選取刪除 ![刪除圖示](media/service-delete/power-bi-delete-report2.png) 圖示。
 
     ![[活頁簿] 索引標籤](media/service-delete/power-bi-delete-workbooknew.png)
@@ -69,11 +69,11 @@ ms.locfileid: "83304545"
 如果資料集是一或多個[組織內容套件](../collaborate-share/service-organizational-content-pack-disconnect.md)的一部分，則刪除它的唯一方式是從正在使用它的內容套件中予以移除，並等待處理，然後再嘗試進行刪除。
 
 ### <a name="to-delete-a-dataset"></a>刪除資料集
-1. 在工作區中，選取 [資料集]  索引標籤。
-2. 找到要刪除的資料集，然後選取 [更多選項]  (…)。  
+1. 在工作區中，選取 [資料集] 索引標籤。
+2. 找到要刪除的資料集，然後選取 [更多選項] (…)。  
 
     ![[資料集] 索引標籤](media/service-delete/power-bi-delete-datasetnew.png)
-3. 從下拉式清單中，選取 [刪除]  。
+3. 從下拉式清單中，選取 [刪除]。
 
    ![省略符號功能表](media/service-delete/power-bi-delete-datasetnew2.png)
 4. 確認刪除。
@@ -82,20 +82,20 @@ ms.locfileid: "83304545"
 
 ## <a name="delete-a-workspace"></a>刪除工作區
 > [!WARNING]
-> 當建立工作區時，您會建立 Office 365 群組。 當刪除工作區時，您會刪除該 Office 365 群組。 這表示該群組也會從其他 O365 產品 (例如 SharePoint 和 Microsoft Teams) 中予以刪除。
+> 建立工作區時，您會建立 Microsoft 365 群組。 刪除工作區時，您會刪除該 Microsoft 365 群組。 這表示該群組也會從其他 Microsoft 365 產品 (例如 SharePoint 和 Microsoft Teams) 中刪除。
 >
 >
 
 身為工作區作者，您可以將其刪除。 如果您已將應用程式發佈到整個組織，則刪除它時，也會刪除所有群組成員的相關聯應用程式，並從 AppSource 中予以移除。 刪除工作區與離開工作區不同。
 
 ### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>刪除工作區 - 如果您是系統管理員
-1. 從導覽窗格中選取 [工作區] 
+1. 從導覽窗格中選取 [工作區]
 
-2. 選取所要刪除工作區右側的 [更多選項]  (…)，然後選擇 [編輯工作區]  。
+2. 選取所要刪除工作區右側的 [更多選項] (…)，然後選擇 [編輯工作區]。
 
     ![工作區](media/service-delete/power-bi-delete-workspace.png)
 
-3. 在 [編輯工作區]  視窗中，選取 [刪除工作區]   > [刪除]  。
+3. 在 [編輯工作區] 視窗中，選取 [刪除工作區] > [刪除]。
 
     ![刪除工作區](media/service-delete/power-bi-delete-workspace2.png)
 
@@ -109,7 +109,7 @@ ms.locfileid: "83304545"
 
 1. 從您要移除的工作區開始。
 
-2. 在右上角選取 [更多選項]  (…)，並選擇 [離開工作區]   > [離開]  。
+2. 在右上角選取 [更多選項] (…)，並選擇 [離開工作區] > [離開]。
 
       ![離開工作區](media/service-delete/power-bi-leave-workspace.png)
 
@@ -124,7 +124,7 @@ ms.locfileid: "83304545"
 ### <a name="remove-an-app-from-your-app-list-page"></a>從應用程式清單頁面中移除應用程式
 從應用程式清單頁面中刪除應用程式，並不會刪除其他成員的應用程式。
 
-1. 在導覽窗格中，選取 [應用程式]  以開啟應用程式清單頁面。
+1. 在導覽窗格中，選取 [應用程式] 以開啟應用程式清單頁面。
 2. 將滑鼠游標移至要刪除的應用程式上方，然後選取刪除 ![](media/service-delete/power-bi-delete-report2.png) 圖示。
 
    ![選取 [應用程式]](media/service-delete/power-bi-delete-app.png)
