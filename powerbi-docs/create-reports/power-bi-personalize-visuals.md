@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/09/2020
+ms.date: 05/09/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: abc936c6ea4b61e4837e05fbde110e5159296815
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ab232d4e5b6d17e7f20ed8a41875ca47693eb285
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867108"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407604"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>讓使用者個人化報表中的視覺效果
 
@@ -26,7 +26,7 @@ ms.locfileid: "82867108"
  
 ## <a name="what-report-consumers-can-change"></a>報表取用者可以變更的內容
 
-這項功能允許取用者透過臨機操作探索 Power BI 報表視覺效果，獲取深入見解。 此功能非常適合想讓報表讀者探索基本情況的報表建立者。 以下是報表讀者可以進行的修改：
+這項功能允許取用者透過臨機操作探索 Power BI 報表視覺效果，獲取深入見解。 若要了解如何以取用者身分使用這項功能，請參閱[在報表中將視覺效果個人化](../consumer/end-user-personalize-visuals.md)。 此功能非常適合想讓報表讀者研究基本案例的報表建立者。 以下是報表讀者可以進行的修改：
 
 - 變更視覺效果類型
 - 切換量值或維度
@@ -44,7 +44,7 @@ ms.locfileid: "82867108"
 
 ## <a name="turn-on-the-preview-feature"></a>開啟預覽功能
 
-因為這是預覽版的功能，所以您必須先開啟功能切換。 請移至 [檔案]   > [選項及設定]   > [選項]  。 確認選取 [全域]  設定 > [預覽功能]  中的 [個人化視覺效果]  。
+因為這是預覽版的功能，所以您必須先開啟功能切換。 請移至 [檔案] > [選項及設定] > [選項]。 確認選取 [全域] 設定 > [預覽功能] 中的 [個人化視覺效果]。
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-preview-personalize-visual.png" alt-text="開啟個人化視覺效果":::
 
@@ -58,17 +58,17 @@ ms.locfileid: "82867108"
 
 ### <a name="in-power-bi-desktop"></a>在 Power BI Desktop 中
 
-若要在 Power BI Desktop 中啟用此功能，請前往 [檔案]   > [選項及設定]   > [選項]   > [目前檔案]   > [報表設定]  。 確認開啟 [個人化視覺效果 (預覽)]  。
+若要在 Power BI Desktop 中啟用此功能，請前往 [檔案] > [選項及設定] > [選項] > [目前檔案] > [報表設定]。 確認開啟 [個人化視覺效果 (預覽)]。
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-settings-personalize-visual.png" alt-text="在報表中啟用個人化":::
 
 ### <a name="in-the-power-bi-service"></a>在 Power BI 服務中
 
-若要改在 Power BI 服務中啟用此功能，請前往您報表的 [設定]  。
+若要改在 Power BI 服務中啟用此功能，請前往您報表的 [設定]。
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Power BI 服務中的報表設定":::
 
-開啟 [個人化視覺效果 (預覽)]   > [儲存]  。
+開啟 [個人化視覺效果 (預覽)] > [儲存]。
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-personalize-visual.png" alt-text="在服務中開啟個人化視覺效果":::
 
@@ -76,77 +76,14 @@ ms.locfileid: "82867108"
 
 根據預設，當您為指定的報表啟用此設定時，您可以個人化該報表中的所有視覺效果。 若不想將所有視覺效果都設為個人化，您可以逐一開啟或關閉視覺效果的設定。
 
-選取該視覺效果 > 選取 [視覺效果]  窗格中的 [格式]  > 展開 [視覺效果標頭]  。
+選取該視覺效果 > 選取 [視覺效果] 窗格中的 [格式] > 展開 [視覺效果標頭]。
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="選取視覺效果標頭":::
  
-滑動 [個人化視覺效果]   >  [開啟]  或 [關閉]  。
+滑動 [個人化視覺效果] >  [開啟] 或 [關閉]。
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="個人化視覺效果":::
 
-## <a name="personalize-visuals-in-the-power-bi-service"></a>Power BI 服務中的個人化視覺效果
-
-透過個人化視覺效果，您的取用者無須離開報表閱讀檢視，就可以利用許多方式探索資料。 下列範例顯示使用者使用不同方式修改視覺效果以符合其需求。 
-
-1. 在 Power BI 服務中，以閱讀檢視開啟報表。
-
-2. 在視覺效果的右上角，選取 **Personalize this visual** \(個人化此視覺效果\) ![Personalize this visua \(個人化此視覺效果\) 圖示](media/power-bi-personalize-visuals/power-bi-personalize-visual-icon.png)圖示。 
-
-### <a name="change-the-visualization-type"></a>變更視覺效果類型
-
-您可以變更 [視覺效果類型]  ，檢視以不同方示呈現的視覺效果。
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="變更視覺效果類型":::
- 
-### <a name="swap-out-a-measure-or-dimension"></a>切換量值或維度
-您可以選取想要替換的欄位，然後選取另一個量值或維度，來取代 X 軸上的量值或維度。
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="變更軸":::
- 
-### <a name="add-or-remove-a-legend"></a>新增或移除圖例
-您可以透過新增圖例，根據類別建立視覺效果色彩代碼。 您可以清除 [個人化]  窗格中的 [圖例]  方塊，刪除類別的色彩代碼。 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="新增或移除圖例":::
-
-### <a name="compare-two-or-more-different-measures"></a>比較兩個或多個不同的量值
-您可以使用 + 圖示為視覺效果新增多個量值，以比較及對比不同量值的值。
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="比較量值":::
-
-### <a name="change-aggregations"></a>變更彙總
-您可以透過變更 [個人化]  窗格中的彙總，變更量值的計算方式。
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="變更彙總":::
-
-### <a name="capture-changes"></a>擷取變更 
-使用個人書籤擷取您的變更，以回到個人化檢視。 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="建立書籤":::
- 
-您也可以將書籤設為預設檢視。
-
-### <a name="share-changes"></a>共用變更 
-您若擁有讀取及再次共用的權限，即可在共用報表時，選擇包含您的變更。
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="共用變更":::
- 
-### <a name="reset-all-your-changes-to-a-report"></a>重設報表的所有變更
-
-選取 [重設為預設]  ，以移除報表中的所有變更，並設回作者上次儲存的報表檢視。
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="重設所有變更":::
- 
-### <a name="reset-all-your-changes-to-a-visual"></a>重設視覺效果的所有變更
-
-選取 [Reset this visual] \(重設這個視覺效果\)  ，以移除特定視覺效果的所有變更，並設回作者上次儲存的視覺效果檢視。
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="重設所有視覺效果變更":::
- 
-### <a name="clear-recent-changes"></a>清除最近的變更
-
-選取橡皮擦圖示，清除您在開啟 [個人化]  窗格之後的所有最近變更。  
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="清除最近的變更":::
 
 ## <a name="limitations-and-known-issues"></a>限制與已知問題
 
@@ -160,11 +97,12 @@ ms.locfileid: "82867108"
 
 - 不支援新增階層，您必須新增個別的子項目。
 - 您無法將日期階層變更為日期，反之亦然。 
-- 使用個人書籤時，結果會因選取的序列略有不同。 因為我們不擷取報表的完整狀態，只擷取修改過的部分，所以可能有差別。 因應措施為選取 [重設為預設]  ，然後選取您想要檢視的書籤。 
+- 使用個人書籤時，結果會因選取的序列略有不同。 因為我們不擷取報表的完整狀態，只擷取修改過的部分，所以可能有差別。 因應措施為選取 [重設為預設]，然後選取您想要檢視的書籤。 
 
 ## <a name="next-steps"></a>後續步驟
+
+[在報表中將視覺效果個人化](../consumer/end-user-personalize-visuals.md)。     
 
 試試看新的視覺效果個人化體驗。 請在 [Power BI Ideas 網站](https://ideas.powerbi.com/forums/265200-power-bi)上，針對此功能及如何繼續改善此體驗，提供意見反應給我們。 
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
-

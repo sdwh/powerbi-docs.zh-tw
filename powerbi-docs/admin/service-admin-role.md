@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: fc1a0c524a3cb4a713cbaf049c259a4b96714131
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a5a956f65943f557d21a942bde4be1de40a84692
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136396"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438192"
 ---
 # <a name="understanding-power-bi-service-administrator-roles"></a>了解 Power BI 服務管理員角色
 
-若要管理 Power BI 租用戶，您必須是下列其中一種角色：Power BI 系統管理員、Power Platform 系統管理員或 Microsoft 365 全域管理員。Microsoft 365 使用者管理管理員，可在 Microsoft 365 系統管理中心內或使用 PowerShell 指令碼，將使用者指派為 Power BI 系統管理員角色或 Power Platform 系統管理員角色。 如需詳細資訊，請參閱[使用 Office 365 PowerShell 指派角色給使用者帳戶](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)。
+若要管理 Power BI 租用戶，您必須是下列其中一種角色：Power BI 系統管理員、Power Platform 系統管理員或 Microsoft 365 全域管理員。Microsoft 365 使用者管理管理員，可在 Microsoft 365 系統管理中心內或使用 PowerShell 指令碼，將使用者指派為 Power BI 系統管理員角色或 Power Platform 系統管理員角色。 如需詳細資訊，請參閱[使用 PowerShell 指派角色給使用者帳戶](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)。
 
 Power BI 系統管理員角色和 Power Platform 系統管理員角色的使用者，對 Power BI 租用戶和其系統管理功能 (除了授權以外) 有完整的控制權。 使用者獲派角色之後，就能存取 [Power BI 管理入口網站](service-admin-portal.md)。 在那裡，他們能存取整個租用戶的使用計量，並可控制整個租用戶使用 Power BI 功能的方式。 這些系統管理員角色適用於需要存取 Power BI 管理入口網站的使用者，但不會同時授與那些使用者完整的 Microsoft 365 系統管理存取權。
 
@@ -39,21 +39,21 @@ Power BI 服務管理員角色和 Power Platform 系統管理員角色不提供�
 
 若要在 Microsoft 365 系統管理中心內將使用者指派為管理員角色，請遵偱下列步驟。
 
-1. 在 [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)內，選取 [使用者]   > [作用中使用者]  。
+1. 在 [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home#/homepage)內，選取 [使用者] > [作用中使用者]。
 
     ![MIcrosoft 365 系統管理中心](media/service-admin-role/powerbi-admin-users.png)
 
 1. 選取您想要指派角色的使用者。
 
-1. 在 [角色]  下方，選取 [管理角色]  。
+1. 在 [角色] 下方，選取 [管理角色]。
 
     ![管理角色](media/service-admin-role/powerbi-admin-edit-roles.png)
 
-1. 展開 [依類別顯示全部]  ，然後選取 [Power BI 系統管理員]  或 [Power Platform 系統管理員]  。
+1. 展開 [依類別顯示全部]，然後選取 [Power BI 系統管理員] 或 [Power Platform 系統管理員]。
 
     ![選取管理員角色](media/service-admin-role/powerbi-admin-role.png)
 
-1. 選取 [儲存變更]  。
+1. 選取 [儲存變更]。
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>使用 PowerShell 將使用者指派為系統管理員角色
 
