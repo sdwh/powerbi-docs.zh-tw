@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 459eaf6ba8b4f6e09b2df5f55956dc77adee9667
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ce18b3cb077e0fee2eea4d0d31327329f405a51a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344380"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563760"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
@@ -81,7 +81,7 @@ Microsoft 365 系統管理員可以透過 [Power BI 網站](https://powerbi.micr
 
 ### <a name="how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant"></a>如何才能禁止使用者加入我現有的 Microsoft 365 租用戶？
 
-Microsoft 365 全域管理員可以採取幾個步驟，禁止使用者加入現有的 Microsoft 365 租用戶。 如果您封鎖存取，則使用者嘗試註冊會失敗，且會出現訊息，將他們導向至連絡組織系統管理員。如果您已停用自動授權發佈 (例如透過學生用、教職員用 Office 365 教育版)，就不需要重複此程序。
+全域管理員可採取幾項步驟，以禁止使用者加入現有的 Microsoft 365 租用戶。 如果您封鎖存取，則使用者嘗試註冊會失敗，且會出現訊息，將他們導向至連絡組織系統管理員。如果您已停用自動授權發佈 (例如透過學生用、教職員用 Office 365 教育版)，就不需要重複此程序。
 
 您可以使用下列 PowerShell 指令碼來防止新使用者加入受控租用戶。 ([深入了解 PowerShell][1]。)
 
@@ -175,16 +175,16 @@ Power BI 提供 Power BI 管理入口網站，供 Microsoft 365 全域管理員�
 
 當自助使用者註冊使用 Azure AD 的雲端服務時，服務會根據他們的電子郵件網域將他們新增到非受控 Azure AD 目錄。 您可以要求或管理他人使用*系統管理員接管*流程所建立的租用戶。 如需詳細資訊，請參閱[使用 Azure Active Directory 中的系統管理員身分接管非受控目錄](/azure/active-directory/users-groups-roles/domains-admin-takeover)。 您所執行接管類型取決於是否有與您網域建立關聯的現有受控租用戶：
 
-* Power BI 支援內部系統管理員接管。 當您執行非受控 Azure 目錄的「內部」  系統管理員接管時，系統會將您新增為非受控目錄的全域管理員。 系統不會將任何使用者、網域或服務方案移轉至您所管理的其他目錄。
+* Power BI 支援內部系統管理員接管。 當您執行非受控 Azure 目錄的「內部」系統管理員接管時，系統會將您新增為非受控目錄的全域管理員。 系統不會將任何使用者、網域或服務方案移轉至您所管理的其他目錄。
 
-* Power BI 不再支援外部系統管理員接管。 當您執行非受控 Azure 目錄的「外部」  系統管理員接管時，您會將非受控目錄的 DNS 網域名稱新增至受控 Azure 目錄。 外部接管將導致無法存取原始未受控之租用戶上的所有 Power BI 內容。 Power BI 報表必須重新發佈給新的租用戶，並須在新的租用戶中重新建立 Power BI 儀表板與應用程式。
+* Power BI 不再支援外部系統管理員接管。 當您執行非受控 Azure 目錄的「外部」系統管理員接管時，您會將非受控目錄的 DNS 網域名稱新增至受控 Azure 目錄。 外部接管將導致無法存取原始未受控之租用戶上的所有 Power BI 內容。 Power BI 報表必須重新發佈給新的租用戶，並須在新的租用戶中重新建立 Power BI 儀表板與應用程式。
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-microsoft-365-tenant-that-users-get-added-to"></a>我如有多個網域，可以控制使用者所要加入的 Microsoft 365 租用戶嗎？
 
 如果不執行任何動作，服務會為每個使用者電子郵件網域和子網域建立租用戶。 如果不論電子郵件地址擴充功能為何，希望所有使用者都在相同的租用戶中︰預先建立目標租用戶，或使用現有的租用戶。 然後新增您想要在該租用戶內彙總的所有現有網域和子網域。 電子郵件地址結尾是那些網域與子網域的所有使用者，都會在他們註冊時自動加入目標租用戶。
 
 > [!IMPORTANT]
-> 建立使用者後，支援的自動化機制沒有在租用戶之間移動使用者。 若要深入了解如何將網域新增至單一 Microsoft 365 租用戶，請參閱[將您的使用者與網域新增至 Microsoft 365](/office365/admin/setup/add-domain/)。
+> 建立使用者後，支援的自動化機制沒有在租用戶之間移動使用者。 若要深入了解如何將網域新增至單一 Microsoft 365 租用戶，請參閱[將使用者與網域新增至 Microsoft 365](/office365/admin/setup/add-domain/)。
 
 ### <a name="how-do-i-remove-power-bi-for-users-that-already-signed-up"></a>如何移除已註冊使用者的 Power BI？
 
@@ -192,17 +192,17 @@ Power BI 提供 Power BI 管理入口網站，供 Microsoft 365 全域管理員�
 
 1. 移至 [MIcrosoft 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
-1. 請在瀏覽窗格中選取 [使用者]   > [作用中使用者]  。
+1. 請在瀏覽窗格中選取 [使用者] > [作用中使用者]。
 
 1. 找到您要移除授權的使用者，然後選取其名稱。
 
-    您也可以對使用者執行大量授權管理。 若要這樣做，請選取多個使用者，然後選取 [編輯產品授權]  。
+    您也可以對使用者執行大量授權管理。 若要這樣做，請選取多個使用者，然後選取 [編輯產品授權]。
 
-1. 在使用者詳細資料頁面上的 [產品授權]  旁邊，選取 [編輯]  。
+1. 在使用者詳細資料頁面上的 [產品授權] 旁邊，選取 [編輯]。
 
-1. 視您對帳戶套用的授權而定，將 [Power BI (免費)]  或 [Power BI Pro]  設定為 [關閉]  。
+1. 視您對帳戶套用的授權而定，將 [Power BI (免費)] 或 [Power BI Pro] 設定為 [關閉]。
 
-1. 選取 [儲存]  。
+1. 選取 [儲存]。
 
 ### <a name="how-do-i-know-when-new-users-have-joined-my-tenant"></a>我怎麼知道有新的使用者加入我的租用戶？
 
@@ -210,17 +210,17 @@ Power BI 提供 Power BI 管理入口網站，供 Microsoft 365 全域管理員�
 
 1. 巡覽至 [MIcrosoft 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
-1. 請在瀏覽窗格中選取 [使用者]   > [作用中使用者]  。
+1. 請在瀏覽窗格中選取 [使用者] > [作用中使用者]。
 
-1. 在 [檢視]  功能表上，選取 [新增自訂檢視]  。
+1. 在 [檢視] 功能表上，選取 [新增自訂檢視]。
 
-1. 為新的檢視命名，然後在 [已指派的產品授權]  下選取 [Power BI (免費)]  或 [Power BI Pro]  。
+1. 為新的檢視命名，然後在 [已指派的產品授權] 下選取 [Power BI (免費)] 或 [Power BI Pro]。
 
-    每個檢視只能選取一個授權。 如果您的組織同時有 [Power BI (免費)]  與 [Power BI Pro]  授權，則您可以建立兩個檢視。
+    每個檢視只能選取一個授權。 如果您的組織同時有 [Power BI (免費)] 與 [Power BI Pro] 授權，則您可以建立兩個檢視。
 
-1. 輸入您想要的任何其他條件，然後選取 [新增]  。
+1. 輸入您想要的任何其他條件，然後選取 [新增]。
 
-1. 建立新檢視之後，即可在 [檢視]  功能表中取得該檢視。
+1. 建立新檢視之後，即可在 [檢視] 功能表中取得該檢視。
 
 ### <a name="are-there-any-additional-things-i-should-prepare-for"></a>我還應該準備什麼？
 
@@ -259,9 +259,9 @@ Microsoft Power BI 以 Microsoft 365 為建置基礎上，而 Microsoft 365 則�
 [什麼是 Power BI Premium？](service-premium-what-is.md)  
 [如何購買 Power BI Premium](service-admin-premium-purchase.md)  
 [Power BI Premium 技術白皮書](https://aka.ms/pbipremiumwhitepaper)  
-[管理 Power BI 和 Office 365 中的群組](../collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365.md)  
-[Office 365 使用者帳戶管理](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
-[Office 365 群組管理](/office365/admin/email/create-edit-or-delete-a-security-group/)  
+[管理 Power BI 和 Microsoft 365 中的群組](../collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365.md)  
+[公司或學校帳戶管理](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
+[Microsoft 365 群組管理](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 
