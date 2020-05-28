@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 96f1fd217a59ee95aed05b790800024dc9f72be9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: af3bf93469887a449f60fa051b7e7b5fb85060df
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378127"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407689"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 的視覺效果
 
@@ -42,7 +42,7 @@ Power BI 視覺效果中的動作和後續更新會以下列三種模式之一�
 
 * 使用者開啟視覺屬性面板。
 
-    當使用者開啟視覺效果的屬性面板時，Power BI 會從視覺效果的 capabilities.json  檔案提取支援的物件和屬性。 若要接收屬性的實際值，Power BI 會呼叫視覺效果的 `enumerateObjectInstances` 方法。 視覺效果會傳回屬性的實際值。
+    當使用者開啟視覺效果的屬性面板時，Power BI 會從視覺效果的 capabilities.json 檔案提取支援的物件和屬性。 若要接收屬性的實際值，Power BI 會呼叫視覺效果的 `enumerateObjectInstances` 方法。 視覺效果會傳回屬性的實際值。
 
     如需詳細資訊，請參閱 [Power BI 視覺效果的功能和屬性](capabilities.md)。
 
@@ -128,7 +128,7 @@ Power BI 視覺效果中的動作和後續更新會以下列三種模式之一�
 
 ## <a name="next-steps"></a>後續步驟
 
-您想建立視覺效果並將其新增到 Microsoft AppSource 嗎？  請參閱以下文章：
+您想建立視覺效果並將其新增到 Microsoft AppSource 嗎？ 請參閱以下文章：
 
 * [開發 Power BI 視覺效果](./custom-visual-develop-tutorial.md)
 * [將 Power BI 視覺效果發佈至合作夥伴中心](office-store.md)

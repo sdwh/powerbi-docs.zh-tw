@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 18267f06bd43166cb1958d3aff73913a31189953
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ce0f22c17ed718d3e2ad4e4fa9d9514edd315583
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80550753"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407424"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 視覺效果專案結構
 
@@ -82,7 +82,7 @@ Power BI 視覺效果工具會使用此檔案作為 [Power BI 視覺效果] 窗�
 
 ### <a name="package-lockjson"></a>package-lock.json
 
-此檔案會針對 npm  修改 `node_modules` 樹狀結構或 `package.json` 檔案的任何作業自動產生。
+此檔案會針對 npm 修改 `node_modules` 樹狀結構或 `package.json` 檔案的任何作業自動產生。
 
 如需此檔案的詳細資訊，請參閱官方 [npm-package-lock.json](https://docs.npmjs.com/files/package-lock.json) 文件。
 

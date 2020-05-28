@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: b65cf23e37773861d41b037b0f45c430224f1930
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ec9848f71aa8ba69089de5222dfa9f63703f43c5
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129965"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438008"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>對 Power BI 的登入問題進行疑難排解
 
@@ -26,7 +26,7 @@ ms.locfileid: "83129965"
 
 首先，嘗試透過 [Power BI 支援頁面](https://powerbi.microsoft.com/support/) 來建立支援票證。
 
-如果您無法瀏覽 Power BI 支援頁面，請嘗試透過 [Office 365 支援頁面](https://support.office.com/home/contact)建立票證。
+如果無法瀏覽 Power BI 支援頁面，請嘗試透過 [Office 支援](https://support.office.com/home/contact)建立票證。
 
 如果您無法透過任一頁面來建立票證，請嘗試透過電話連絡支援人員：
 
@@ -34,7 +34,7 @@ ms.locfileid: "83129965"
 * 歐洲、中東及亞洲 (EMEA) 的客戶請撥：+44-844-800-2400
 * 印度的客戶請撥：+1-800-419-5666
 
-您還可以購買 [Microsoft Azure 頂級支援](https://support.microsoft.com/premier)，來連絡 Microsoft 支援服務以尋求協助。 如果您知道組織已購買 Microsoft 頂級支援，但仍無法從任何 Power BI 或 O365 管道建立案例，則可透過電話連絡頂級支援：
+您還可以購買 [Microsoft Azure 頂級支援](https://support.microsoft.com/premier)，來連絡 Microsoft 支援服務以尋求協助。 如果您知道組織已購買 Microsoft 頂級支援，但仍無法從任何 Power BI 通道或 Office 支援建立案例，則可透過電話連絡頂級支援：
 
 * 美國 (US) 及美洲其他國家/地區的客戶請撥：+1-800-936-3100
 * 歐洲、中東及亞洲 (EMEA) 的客戶請撥：+44-844-800-8338
