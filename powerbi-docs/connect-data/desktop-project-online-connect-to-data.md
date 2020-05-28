@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291918"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563044"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>透過 Power BI Desktop 連線到 Project Online 資料
 您可以透過 Power BI Desktop 連接到 Project Online 中的資料。
@@ -25,8 +25,8 @@ ms.locfileid: "83291918"
 
 ## <a name="step-2-connect-to-project-online-with-odata"></a>步驟 2：透過 OData 連接到 Project Online
 1. 開啟 **Power BI Desktop**。
-2. 在 [歡迎使用]  畫面上，選取 [取得資料]  。
-3. 選擇 [OData 摘要]  ，然後選取 [連接]  。
+2. 在 [歡迎使用] 畫面上，選取 [取得資料]。
+3. 選擇 [OData 摘要]，然後選取 [連接]。
 4. 在 [URL] 方塊中，輸入您的 OData 摘要位址，然後按一下 [確定]。
    
    如果您的 Project Web App 網站位址類似 *https://\<租用戶名稱\>.sharepoint.com/sites/pwa*，您所輸入的 OData 摘要位址會是 *https://\<租用戶名稱\>.sharepoint.com/sites/pwa/\_api/Projectdata*。
@@ -35,7 +35,7 @@ ms.locfileid: "83291918"
 
     `https://contoso.sharepoint.com/sites/pwa/default.aspx`
 
-5. Power BI Desktop 會提示您驗證 Office 365 帳戶。 請選取組織帳戶，然後輸入您的認證。
+5. Power BI Desktop 會提示驗證公司或學校帳戶。 請選取組織帳戶，然後輸入您的認證。
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 

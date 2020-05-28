@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d70b291b4ff2b157c15967d602cfbee8e12965a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1d37225e1de1ffdf0617a84c3b0514d32494c563
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144270"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693939"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>在 Power BI 中建立傳統工作區
 
@@ -22,30 +22,30 @@ ms.locfileid: "83144270"
 
 **您知道嗎？** Power BI 提供新的工作區體驗，而這種體驗也是目前的預設值。 請參閱[在新的工作區中組織工作](service-new-workspaces.md)來取得新工作區詳細資料。 準備好移轉傳統工作區了嗎？ 如需詳細資訊，請參閱[將傳統工作區升級至 Power BI 中的新工作區](service-upgrade-workspaces.md)。
 
-當您建立傳統工作區時，即會建立基礎的相關聯 Office 365 群組。 所有工作區管理都是在 Office 365 中進行管理。 您可以將同事新增至這些工作區，作為成員或系統管理員。 在工作區中，您們全都可以共同處理儀表板、報表和其他文章，以準備發佈給更多對象。 新增至工作區的每個人都必須有 Power BI Pro 授權。 
+當建立傳統工作區時，即會建立基礎的相關聯 Microsoft 365 群組。 所有工作區管理都是在 Microsoft 365 中進行管理。 您可以將同事新增至這些工作區，作為成員或系統管理員。 在工作區中，您們全都可以共同處理儀表板、報表和其他文章，以準備發佈給更多對象。 新增至工作區的每個人都必須有 Power BI Pro 授權。
 
 ## <a name="video-apps-and-workspaces"></a>影片：應用程式與工作區
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-workspace-based-on-an-office-365-group"></a>以 Office 365 群組為基礎建立典型工作區
+## <a name="create-a-classic-workspace-based-on-a-microsoft-365-group"></a>以 Microsoft 365 群組為基礎建立傳統工作區
 
-當您建立工作區時，它會建置在 Office 365 群組上。
+當建立工作區時，其會建置於 Microsoft 365 群組上。
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
 
-首次建立需要等候一小時左右，工作區才會散佈到 Office 365。 
+首次建立需要等候一小時左右，工作區才會散佈至 Microsoft 365。
 
-### <a name="add-an-image-to-your-office-365-workspace-optional"></a>將影像新增至 Office 365 工作區 (選擇性)
+### <a name="add-an-image-to-your-microsoft-365-workspace-optional"></a>將影像新增至 Microsoft 365 工作區 (選擇性)
 Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用程式的縮寫。 但是，您可能會想要使用影像來進行自訂。 若要新增影像，您需要有 Exchange Online 的授權。
 
 1. 選取 [工作區]，並選取工作區名稱旁邊的 [更多選項] (...)，然後選取 [成員]。 
    
      ![選取工作區成員](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
-    工作區的 Office 365 Outlook 帳戶會在新的瀏覽器視窗中開啟。
+    工作區的 Microsoft 365 Outlook 帳戶會在新瀏覽器視窗中開啟。
 2. 選取 [編輯] 鉛筆。
    
-     ![Office 365 鉛筆圖示](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
+     ![Microsoft 365 鉛筆圖示](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
 3. 選取相機影像，然後尋找您要使用的影像。
    
      ![選取相機影像](media/service-create-workspaces/power-bi-workspace-old-camera.png)
@@ -54,7 +54,7 @@ Power BI 預設會為您的應用程式建立一些彩色圓形，以及應用�
 
 4. 選取 [確定]，然後 [儲存]。
    
-    此影像會取代 Office 365 Outlook 視窗中的彩色圖形。 
+    此影像會取代 Microsoft 365 Outlook 視窗中的彩色圓形。
    
      ![自訂影像](media/service-create-workspaces/power-bi-workspace-old-new-image.png)
    

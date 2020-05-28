@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
-ms.openlocfilehash: 0a0964f82c80017b53feb668cca8399b18a72cfc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8d7642dfbac40b3a31190bc02835a4132ee12e11
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268504"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564077"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>功能性應用程式顧問學習目錄
 
@@ -82,7 +82,7 @@ ms.locfileid: "81268504"
 | [相得益彰：Excel 使用者透過使用 Power BI 所能獲得的 5 個好處](https://info.microsoft.com/excel-powerbi-better-together-ondemand.html)  | Excel 是全球最受歡迎的程式之一。 數以百萬計的個人與企業，都使用此程式處理各種作業，從簡單的資料輸入與會計，到進階的統計與資料分析。 不過，很多人都不知道，當 Excel 搭配另一項 Microsoft 程式之後，就能大幅擴充其功能，不僅省時，還能提高效率：Power BI。 我們將探討五個您與您公司因搭配使用 Excel 與 Power BI 時而得益的原因。 最後，您應具備所有讓組織能夠開始根據資料進行分析、解譯及運用資料所需的知識。 | Webinar |   |
 | [不僅僅是試算表](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_02OnDemandRegistration-ForminBody.html)  | 所有 Excel 使用者與分析師請注意：更有效率的完成工作、提供更多價值，並專注於重要的事物。 了解如何製作出眾人想要使用的精美報表；如何以圖表方式提供無須說明，同事便能理解的資料；以及讓所有需要了解資訊的人，無論身在何處，都能存取見解。 加入這場線上研討會，了解 Microsoft Power BI 如何運作。  | Webinar |   |
 | [藉由 Power BI 和 Visio 獲得正確的見解](https://info.microsoft.com/ww-ondemand-powerbi-and-visio.html) | 參與我們的這個網路研討會，以了解如何結合 Power BI 儀表板和 Microsoft Visio 圖表來建立強大的視覺見解。 Visio 和 Power BI 皆高度視覺化並自然互補。 Visio 可讓您建立說明圖表，例如互連式工作流程和真實世界版面配置。 Power BI 可使用圖表和地圖來協助您建置直覺式儀表板，以評估關鍵效能指標及追蹤目標。| Webinar |   |
-| [Power BI、Excel 與 Office 365：將企業資料最佳化](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | 這場研討會提供豐富的示範，協助您了解如何在 Power BI 中應用 Microsoft Excel 獨一無二的強項，提升您商務分析與見解的價值。  | Webinar |   |
+| [Power BI、Excel 和 Microsoft 365：將企業資料最佳化](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | 這場研討會提供豐富的示範，協助您了解如何在 Power BI 中應用 Microsoft Excel 獨一無二的強項，提升您商務分析與見解的價值。  | Webinar |   |
 | [搭配 Dynamics 365 Finance and Operations 使用 Power BI](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations-OnDemand.html)   | 報名這場網路研討會，了解如何使用 Azure Data Lake，在 Dynamics 365 Finance and Operations 中嵌入及管理 Power BI 報告解決方案。 了解如何使用 Power BI，在不中斷服務的情況下，快速提供可提供應變措施的見解，以及如何為企業提供分析解決方案。  | Webinar |   |
 ## <a name="security"></a>安全性<a name="security"></a>
 | 內容   | 描述  | 格式   | 長度   |

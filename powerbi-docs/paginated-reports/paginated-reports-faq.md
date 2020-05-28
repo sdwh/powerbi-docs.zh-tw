@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82585002"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565618"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -41,7 +41,7 @@ ms.locfileid: "82585002"
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>如何在租用戶中監視編頁報表的使用情況？
 
-Office 365 稽核記錄會在下列事件下方，詳述此報表類型的使用情況： 
+稽核記錄檔會在下列事件下方詳述此報表類型的使用方式：
 
 - 檢視 Power BI 報表
 - 刪除 Power BI 報表
@@ -76,7 +76,7 @@ Office 365 稽核記錄會在下列事件下方，詳述此報表類型的使用
 - **P2/A5**：20% 預設值；5% 最小值
 - **P3/A6**：20% 預設值；2.5% 最小值
 
-Power BI 租用戶系統管理員可在管理入口網站中修改預設的記憶體百分比上限。 請參閱 [容量設定]  索引標籤上 [Power BI Premium]  下方的 [編頁報表]  工作負載區段。
+Power BI 租用戶系統管理員可在管理入口網站中修改預設的記憶體百分比上限。 請參閱 [容量設定] 索引標籤上 [Power BI Premium] 下方的 [編頁報表] 工作負載區段。
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="[編頁報表容量設定] 索引標籤":::
 
@@ -152,7 +152,7 @@ GitHub 上的專案現在支援將內容從 SQL Server Reporting Services 移轉
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>我可以使用 Power BI Embedded，將編頁報表內嵌到我代管的應用程式嗎？
 
-SaaS 內嵌 (包括安全內嵌支援) 已可供使用。 對於 PaaS 內嵌，請參閱[為客戶將 Power BI 編頁報表內嵌至應用程式](../developer/embed-paginated-reports-customers.md)教學課程。
+SaaS 內嵌 (包括安全內嵌支援) 已可供使用。 對於 PaaS 內嵌，請參閱[為客戶將 Power BI 編頁報表內嵌至應用程式](../developer/embedded/embed-paginated-reports-customers.md)教學課程。
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>我可以從 Power BI 報表鑽研至編頁報表嗎？
 

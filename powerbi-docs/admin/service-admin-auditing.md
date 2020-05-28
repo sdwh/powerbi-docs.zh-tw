@@ -10,22 +10,22 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8fc1f2a668a0dfff4418749e7f3de7e0379b603f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129021"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564607"
 ---
 # <a name="track-user-activities-in-power-bi"></a>追蹤 Power BI 中的使用者活動
 
-了解誰正在對 Power BI 租用戶的哪個項目採取什麼動作，可能對於幫助貴組織符合其需求 (如符合法規合規性與記錄管理) 而言極為重要。 透過 Power BI，您有兩個選項可用來追蹤使用者活動：[Power BI 活動記錄](#use-the-activity-log)和[整合 Office 365 稽核記錄](#use-the-audit-log)。 這些記錄檔都包含 [Power BI 審核資料](#operations-available-in-the-audit-and-activity-logs)的完整複本，但有幾個主要差異，如下表摘要所示。
+了解誰正在對 Power BI 租用戶的哪個項目採取什麼動作，可能對於幫助貴組織符合其需求 (如符合法規合規性與記錄管理) 而言極為重要。 透過 Power BI，您有兩個選項可用來追蹤使用者活動：[Power BI 活動記錄檔](#use-the-activity-log)與[整合稽核記錄檔](#use-the-audit-log)。 這些記錄檔都包含 [Power BI 審核資料](#operations-available-in-the-audit-and-activity-logs)的完整複本，但有幾個主要差異，如下表摘要所示。
 
-| **整合 Office 365 審核記錄** | **Power BI 活動記錄** |
+| **整合稽核記錄檔** | **Power BI 活動記錄** |
 | --- | --- |
 | 除了 Power BI 審核事件以外，還包含來自 SharePoint Online、Exchange Online、Dynamics 365 和其他服務的事件。 | 只包含 Power BI 審核事件。 |
 | 只有具備僅限檢視稽核記錄權限或稽核記錄權限的使用者才能存取，例如全域管理員和稽核員。 | 全域管理員和 Power BI 服務管理員可以存取。 |
-| 全域管理員和稽核員可以使用 Office 365 安全性與合規性中心、Microsoft 365 資訊安全中心和 Microsoft 365 合規性中心，來搜尋整合的稽核記錄。 | 目前沒有任何使用者介面可搜尋活動記錄。 |
+| 全域管理員和稽核員可使用 Microsoft 365 資訊安全中心以及 Microsoft 365 合規性中心來搜尋整合稽核記錄檔。 | 目前沒有任何使用者介面可搜尋活動記錄。 |
 | 全域管理員和稽核員可以使用 Office 365 管理 API 和 Cmdlet 來下載稽核記錄項目。 | 全域管理員和 Power BI 服務管理員可以使用 Power BI REST API 和管理 Cmdlet 來下載活動記錄項目。 |
 | 將審核資料保留 90 天 | 將活動資料保留 30 天 (公開預覽)。 |
 | 即使將租用戶移至不同的 Azure 區域，仍會保留稽核資料。 | 將租用戶移至不同的 Azure 區域時，不會保留活動資料。 |
@@ -105,7 +105,7 @@ $activities[0]
 
 ## <a name="use-the-audit-log"></a>使用稽核記錄
 
-如果您的工作是要追蹤 Power BI 和 Office 365 之間的使用者活動，則可在 Office 365 安全性與合規性中心內進行審核，或使用 PowerShell 來執行。 稽核需仰賴 Exchange Online 的功能，其會自動佈建以支援 Power BI。
+如果工作是要追蹤 Power BI 和 Microsoft 365 之間的使用者活動，則可在 Office 365 安全性與合規性中心內進行審核，或使用 PowerShell 來執行。 稽核需仰賴 Exchange Online 的功能，其會自動佈建以支援 Power BI。
 
 您可以依日期範圍、使用者、儀表板、報表、資料集和活動類型來篩選稽核資料。 您也可以用 csv (逗號分隔值) 檔案來下載活動以便離線分析。
 
@@ -184,7 +184,7 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 #### <a name="view-the-details-for-an-event"></a>檢視事件的詳細資料
 
-若要檢視事件的詳細資料，請選取搜尋結果清單中的事件記錄。 [詳細資料] 頁面隨即出現，其中包含事件記錄的詳細屬性。 [詳細資料] 頁面所顯示屬性取決於發生事件的 Office 365 服務。
+若要檢視事件的詳細資料，請選取搜尋結果清單中的事件記錄。 [詳細資料] 頁面隨即出現，其中包含事件記錄的詳細屬性。 [詳細資料] 頁面所顯示屬性取決於發生事件的 Microsoft 365 服務。
 
 若要顯示這些詳細資料，請選取 [更多資訊]。 所有 Power BI 項目的 RecordType 屬性值都是 20。 如需有關其他屬性的詳細資訊，請參閱[稽核記錄中的詳細屬性](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/)。
 

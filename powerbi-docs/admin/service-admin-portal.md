@@ -10,22 +10,22 @@ ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8ff022c09fc58f5ebeadbb869039c00c6dd28533
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275585"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564464"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
 系統管理入口網站可讓您管理您組織的 Power BI 租用戶。 入口網站包含項目如使用計量、存取 Microsoft 365 系統管理中心及設定等。
 
-Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理員角色的所有使用者，都可以存取整個系統管理入口網站。 若您不屬於任何這些角色，您只會看到入口網站中的 [容量設定]。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。
+全域系統管理員或已獲指派 Power BI 服務系統管理員角色的所有使用者，都可存取整個管理入口網站。 若您不屬於任何這些角色，您只會看到入口網站中的 [容量設定]。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。
 
 ## <a name="how-to-get-to-the-admin-portal"></a>如何取得管理入口網站
 
-您的帳戶必須在 Office 365或 Azure Active Directory (Azure AD) 中標示為**全域管理員**，或已指派 Power BI 服務管理員角色，才能存取 Power BI 管理入口網站。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。 若要取得 Power BI 管理入口網站，請執行下列步驟。
+帳戶必須在 Microsoft 365 或 Azure Active Directory (Azure AD) 中標記為**全域系統管理員**，或已獲指派 Power BI 服務系統管理員角色，才能存取 Power BI 管理入口網站。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。 若要取得 Power BI 管理入口網站，請執行下列步驟。
 
 1. 選取 Power BI 服務右上角的設定齒輪。
 
@@ -85,7 +85,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ## <a name="control-usage-metrics"></a>控制使用計量
 
-使用計量報表是 Power BI 或 Office 365 系統管理員可以開啟或關閉的功能。 系統管理員可以更精細地控制有哪些使用者可以存取使用計量。 它們針對組織中的所有使用者預設為 [開啟]。
+使用計量報表是 Power BI 或 Microsoft 365 系統管理員可開啟或關閉的功能。 系統管理員可以更精細地控制有哪些使用者可以存取使用計量。 它們針對組織中的所有使用者預設為 [開啟]。
 
 系統管理員也可以決定內容建立者是否能在使用計量中看見個別使用者資料。 
 
@@ -178,21 +178,21 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ## <a name="workspace-settings"></a>工作區設定
 
-在 [租用戶設定] 中，管理入口網站有兩個可控制工作區的區段：
+在 [租用戶設定] 中，系統管理入口網站有兩個可控制工作區的區段：
 
 - 建立新的工作區體驗。
 - 跨工作區使用資料集。
 
 ### <a name="create-the-new-workspaces"></a>建立新的工作區
 
-工作區是使用者可在儀表板、報表和其他內容上共同作業的地方。 管理員可以使用 [建立工作區 (新的工作區體驗)] 設定，來指出組織中哪些使用者可以建立工作區。 管理員可讓組織中的所有人或不讓任何人建立新的工作區體驗工作區。 他們也可以限制只有特定安全性群組的成員才能建立。 深入了解[工作區](../collaborate-share/service-new-workspaces.md)。
+工作區是使用者可在儀表板、報表與其他內容上共同作業的地方。 系統管理員可以使用 [建立工作區 (新的工作區體驗)] 設定來指出組織中哪些使用者可以建立工作區。 系統管理員可讓組織中的所有人或不讓任何人建立新的工作區體驗工作區。 他們也可以限制只有特定安全性群組的成員才能建立。 深入了解[工作區](../collaborate-share/service-new-workspaces.md)。
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="建立新的工作區體驗":::
 
-對於以 Office 365 群組為基礎的傳統工作區，可在 Office 365 管理入口網站和 Azure Active Directory 中繼續進行管理。
+針對以 Microsoft 365 群組為基礎的典型工作區，可在管理入口網站和 Azure Active Directory 中繼續進行管理。
 
 > [!NOTE]
-> [建立工作區 (新的工作區體驗)] 設定預設為只允許可建立 Office 365 群組的使用者建立新的 Power BI 工作區。 請務必在 Power BI 管理入口網站中設定值，以確保適當的使用者可以建立工作區。
+> 根據預設，[建立工作區 (新的工作區體驗)] 設定只允許可建立 Microsoft 365 群組的使用者建立新 Power BI 工作區。 請務必在 Power BI 系統管理入口網站中設定值，以確保適當的使用者可以建立工作區。
 
 **工作區清單**
 
@@ -204,7 +204,7 @@ Office 365 的全域系統管理員或已獲指派 Power BI 服務系統管理�
 
 ### <a name="use-datasets-across-workspaces"></a>跨工作區使用資料集
 
-管理員可以控制組織中的哪些使用者能夠跨工作區使用資料集。 啟用此設定時，使用者仍然需要特定資料集所需的建置權限。
+系統管理員可以控制組織中的哪些使用者能夠跨工作區使用資料集。 啟用此設定時，使用者仍然需要特定資料集的必要建置權限。
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="跨工作區使用資料集":::
 
@@ -334,7 +334,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ### <a name="create-template-apps-and-organizational-content-packs"></a>建立範本應用程式和組織內容套件
 
-組織中的使用者可建立範本應用程式和組織內容套件，其中使用建基於 Power BI Desktop 中一個資料來源的資料集。 深入了解[範本應用程式](../template-content-pack-authoring.md)。
+組織中的使用者可建立範本應用程式和組織內容套件，其中使用建基於 Power BI Desktop 中一個資料來源的資料集。 深入了解[範本應用程式](../connect-data/service-template-apps-create.md)。
 
 ### <a name="push-apps-to-end-users"></a>將應用程式推送給終端使用者
 
@@ -578,7 +578,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 作為系統管理員，您可以檢視存在於租用戶中的工作區。 您可以排序和篩選工作區的清單，及顯示各工作區的詳細資料。 資料表資料行對應到工作區 [Power BI 管理 Rest API](/rest/api/power-bi/admin) 傳回的屬性。 個人工作區的類型為 **PersonalGroup**，傳統工作區的類型為 **Group**，新工作區體驗工作區的類型為 **Workspace**。 如需詳細資訊，請參閱[在新的工作區中組織工作](../collaborate-share/service-new-workspaces.md)。
 
-管理員也可以使用管理入口網站或 PowerShell Cmdlet 來管理及復原工作區。 
+系統管理員也可以使用系統管理入口網站或 PowerShell Cmdlet 來管理及復原工作區。 
 
 ![工作區清單](media/service-admin-portal/workspaces-list.png)
 
@@ -625,7 +625,3 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 [稽核貴組織的 Power BI](service-admin-auditing.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-
-
-
-

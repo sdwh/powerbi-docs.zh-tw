@@ -9,32 +9,32 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2b7c442ef39bba58b7ac7f8224928d29ea56d9c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348129"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693819"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全入口網站或網站中內嵌報告
 
-使用 Power BI 報表的全新 [內嵌]  選項，您可以輕鬆且安全地在內部入口網站中內嵌報表。 這些入口網站可以是**雲端式**或**託管內部部署**，例如 SharePoint 2019。 內嵌報表會透過[資料列層級安全性 (RLS)](../admin/service-admin-rls.md) 遵守所有項目權限和資料安全性。 它們會提供不使用程式碼內嵌至任何接受 URL 或 iFrame 入口網站的功能。 
+使用 Power BI 報表的全新 [內嵌] 選項，您可以輕鬆且安全地在內部入口網站中內嵌報表。 這些入口網站可以是**雲端式**或**託管內部部署**，例如 SharePoint 2019。 內嵌報表會透過[資料列層級安全性 (RLS)](../admin/service-admin-rls.md) 遵守所有項目權限和資料安全性。 它們會提供不使用程式碼內嵌至任何接受 URL 或 iFrame 入口網站的功能。 
 
-[內嵌]  選項支援 [URL 篩選](service-url-filters.md)及 URL 設定。 它可以讓您幾乎不使用任何程式碼來與入口網站整合，而只需要基本的 HTML 和 JavaScript 知識。
+[內嵌] 選項支援 [URL 篩選](service-url-filters.md)及 URL 設定。 它可以讓您幾乎不使用任何程式碼來與入口網站整合，而只需要基本的 HTML 和 JavaScript 知識。
 
 ## <a name="how-to-embed-power-bi-reports-into-portals"></a>如何將 Power BI 報告內嵌到入口網站
 
 1. 開啟 Power BI 服務中的報表。
 
-2. 在 [更多選項 (...)]  功能表中，選取 [內嵌]   >  [網站或入口網站]  。
+2. 在 [更多選項 (...)] 功能表中，選取 [內嵌] >  [網站或入口網站]。
 
     ![網站或入口網站選項](media/service-embed-secure/power-bi-more-options-website.png)
 
-2. 選取 [內嵌]  選項來開啟對話方塊，該對話方塊會提供您可以安全地用來內嵌報表的連結和 iFrame。
+2. 選取 [內嵌] 選項來開啟對話方塊，該對話方塊會提供您可以安全地用來內嵌報表的連結和 iFrame。
 
     ![[內嵌] 選項對話方塊](media/service-embed-secure/secure-embed-code-dialog.png)
 
-3. 無論使用者是直接開啟報表 URL，還是開啟入口網站中的內嵌項目，報表存取都需要進行驗證。 若使用者尚未在其瀏覽器工作階段登入 Power BI，即會出現下列畫面。 當他們選取 [登入]  時，即會開啟一個新的瀏覽器視窗或索引標籤。 若他們並未收到登入提示，請讓他們檢查快顯封鎖程式。
+3. 無論使用者是直接開啟報表 URL，還是開啟入口網站中的內嵌項目，報表存取都需要進行驗證。 若使用者尚未在其瀏覽器工作階段登入 Power BI，即會出現下列畫面。 當他們選取 [登入] 時，即會開啟一個新的瀏覽器視窗或索引標籤。 若他們並未收到登入提示，請讓他們檢查快顯封鎖程式。
 
     ![登入以檢視此報告](media/service-embed-secure/secure-embed-sign-in.png)
 
@@ -48,9 +48,9 @@ ms.locfileid: "83348129"
 
 ## <a name="granting-report-access"></a>授與報表存取權
 
-[內嵌]  選項不會自動允許使用者檢視報表。 您可以在 Power BI 服務中設定檢視權限。
+[內嵌] 選項不會自動允許使用者檢視報表。 您可以在 Power BI 服務中設定檢視權限。
 
-在 Power BI 服務中，您可以與需要存取的使用者共用內嵌報表。 若您正在使用 Office 365 群組，您可將使用者列為工作區的成員。 如需詳細資訊，請參閱如何[在 Power BI 和 Office 365 中管理工作區](service-manage-app-workspace-in-power-bi-and-office-365.md)。
+在 Power BI 服務中，您可以與需要存取的使用者共用內嵌報表。 若您使用 Microsoft 365 群組，則可將使用者列為工作區的成員。 如需詳細資訊，請參閱如何[在 Power BI 和 Microsoft 365 中管理工作區](service-manage-app-workspace-in-power-bi-and-office-365.md)。
 
 ## <a name="licensing"></a>授權
 
@@ -137,7 +137,7 @@ report.src = newUrl;
 
 * 為獲得單一登入體驗，請使用[內嵌在 SharePoint Online 中](service-embed-report-spo.md)選項，或使用[使用者擁有資料](../developer/embedded/embed-sample-for-your-organization.md)內嵌方法來建置自訂整合。 
 
-* 隨著 [內嵌]  選項提供的自動驗證功能無法搭配 Power BI JavaScript API 使用。 針對 Power BI JavaScript API，請使用[使用者擁有資料](../developer/embedded/embed-sample-for-your-organization.md)內嵌方法。 
+* 隨著 [內嵌] 選項提供的自動驗證功能無法搭配 Power BI JavaScript API 使用。 針對 Power BI JavaScript API，請使用[使用者擁有資料](../developer/embedded/embed-sample-for-your-organization.md)內嵌方法。 
 
 * 驗證權杖存留期會以您的 AAD 設定作為基礎進行控制。 驗證權杖過期時，使用者將需要重新整理瀏覽器來取得更新後的驗證權杖。 預設存留期是一個小時，但在您的組織中這段時間可以更短或是更長。
 

@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4fd350ae5d4a916e6753f7cd66e1fca52137efd5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2657580a27eb1be42c96ffad5881555df168d459
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83288652"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83562119"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>在 SharePoint 清單上建立報表
 
@@ -27,50 +27,50 @@ ms.locfileid: "83288652"
 ## <a name="part-1-connect-to-your-sharepoint-list"></a>第 1 部分：連線至 SharePoint 清單
 
 1. 如果還沒有 SharePoint 清單，您可以下載並安裝 [Power BI Desktop](https://powerbi.microsoft.com/desktop/)。
-2. 開啟 Power BI Desktop，然後在功能區的 [首頁] 索引標籤中選取 [取得資料]   > [其他]  。
-3. 依次選取 [線上服務]  、[SharePoint Online 清單]  。  
+2. 開啟 Power BI Desktop，然後在功能區的 [首頁] 索引標籤中選取 [取得資料] > [其他]。
+3. 依次選取 [線上服務]、[SharePoint Online 清單]。  
 
     <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="get data" width="350"/>
 
-4. 選取 [連接]  。
-4. 尋找包含您清單的 SharePoint Online 網站位址 (也稱為 URL)。  您通常可以在 SharePoint Online 的頁面從瀏覽窗格選取 [首頁]  (或頂端的網站圖示)，然後從網頁瀏覽器的網址列複製位址來取得網站位址。
+4. 選取 [連接]。
+4. 尋找包含您清單的 SharePoint Online 網站位址 (也稱為 URL)。  您通常可以在 SharePoint Online 的頁面從瀏覽窗格選取 [首頁] (或頂端的網站圖示)，然後從網頁瀏覽器的網址列複製位址來取得網站位址。
 
    觀看此步驟的說明影片：
    <iframe width="400" height="300" src="https://www.youtube.com/embed/OZO3x2NF8Ak?start=48&end=90" frameborder="0" allowfullscreen></iframe>
 
-5. 在 Power BI Desktop 中，將位址貼入 [開啟] 對話方塊中的 [網站 URL]  欄位。
+5. 在 Power BI Desktop 中，將位址貼入 [開啟] 對話方塊中的 [網站 URL] 欄位。
 
-6. 您不一定會看到如下圖所示的 SharePoint 存取畫面。  如果沒有看到此畫面，請跳至步驟 10。  如果看到了此畫面，請選取頁面左側的 [Microsoft 帳戶]  。
+6. 您不一定會看到如下圖所示的 SharePoint 存取畫面。  如果沒有看到此畫面，請跳至步驟 10。  如果看到了此畫面，請選取頁面左側的 [Microsoft 帳戶]。
 
     <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-auth1.png" alt="choose Microsoft account" width="500"/>
 
-7. 選取 [登入]  ，然後輸入用來登入 Microsoft Office 365 的使用者名稱和密碼。
+7. 選取 [登入]，然後輸入用來登入 Microsoft 365 的使用者名稱和密碼。
 
     <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-auth2.png" alt="sign in" width="500"/>
 
-8. 完成登入後，請選取 [連線]  。
+8. 完成登入後，請選取 [連線]。
 
 9. 在 [導覽器] 左側，在想要連線的 SharePoint 清單旁選取核取方塊。
 
     <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="get data" width="450"/>
 
-10. 選取 [載入]  。  Power BI 會將清單資料載入至新的報表。
+10. 選取 [載入]。  Power BI 會將清單資料載入至新的報表。
 
 ## <a name="part-2-create-a-report"></a>第 2 部分：建立報表
 
 1. 在左側選取**資料**圖示，以查看 SharePoint 清單資料是否已載入。
 
-2. 在右側的 [欄位]  窗格中，確認包含數字的清單資料行顯示總和或 Sigma 圖示。  針對任何未顯示總和或 Sigma 圖示的清單資料行，請選取 [資料表] 檢視中的資料行標頭、[模型]  索引標籤，然後視資料而定，將 [資料類型]  變更為 [十進位數]  或 [整數]  。  如果系統提示您確認變更，請選取 [是]  。  如果數字是特殊格式 (例如貨幣)，您也可以設定 [格式]  來加以選擇。
+2. 在右側的 [欄位] 窗格中，確認包含數字的清單資料行顯示總和或 Sigma 圖示。  針對任何未顯示總和或 Sigma 圖示的清單資料行，請選取 [資料表] 檢視中的資料行標頭、[模型] 索引標籤，然後視資料而定，將 [資料類型] 變更為 [十進位數] 或 [整數]。  如果系統提示您確認變更，請選取 [是]。  如果數字是特殊格式 (例如貨幣)，您也可以設定 [格式] 來加以選擇。
 
    觀看此步驟的說明影片：
    <iframe width="400" height="300" src="https://www.youtube.com/embed/OZO3x2NF8Ak?start=147&end=204" frameborder="0" allowfullscreen></iframe>
 
 3. 選取左側的**報表**圖示。
-4. 選取要進行視覺化的資料行，方法是在右側 [欄位]  窗格中選取這些資料行旁的核取方塊。
+4. 選取要進行視覺化的資料行，方法是在右側 [欄位] 窗格中選取這些資料行旁的核取方塊。
 
    觀看此步驟的說明影片：
    <iframe width="400" height="300" src="https://www.youtube.com/embed/OZO3x2NF8Ak?start=215&end=252" frameborder="0" allowfullscreen></iframe>
 
 5. 如有需要，您可以變更視覺效果類型。
-6. 您可以取消選取現有的視覺效果，然後在 [欄位]  窗格中選取其他資料行的核取方塊，以在相同報表中建立多個視覺效果。
-7. 選取 [儲存]  以儲存報表。
+6. 您可以取消選取現有的視覺效果，然後在 [欄位] 窗格中選取其他資料行的核取方塊，以在相同報表中建立多個視覺效果。
+7. 選取 [儲存] 以儲存報表。

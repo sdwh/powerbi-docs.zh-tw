@@ -7,47 +7,43 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/11/2020
+ms.date: 05/18/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 84ce61c98048690c1560a2c49aed07591a22119f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8bea8c2fc59deeb6aec4817f27d10371518f523e
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83137612"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564294"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>使用應用程式監視 Premium 容量
 
 監視您的容量對於明智地決定如何最有效地利用 Premium 容量資源至關重要。 您可以在系統管理入口網站中或使用 **Power BI Premium 容量計量**應用程式來監視容量。 本文說明如何使用 Premium 容量計量應用程式。 此應用程式提供您容量如何執行的最深入資訊。 如需過去七天平均使用計量的更高階概觀，您可以使用系統管理入口網站。 若要深入了解入口網站中的監視，請參閱[在系統管理入口網站中監視 Premium 容量](service-admin-premium-monitor-portal.md)。
 
-應用程式會定期更新，加入新特性和功能。 請確定您執行的是最新版本。 如果您已安裝舊版應用程式，最好從您的應用程式中刪除它，然後按下 CTRL + F5 重新整理。
+應用程式會定期更新，加入新特性和功能。 請確定您執行的是最新版本。 當新的版本推出時，您會收到[通知](../connect-data/service-template-apps-install-distribute.md#update-a-template-app)。
 
 > [!IMPORTANT]
 > 如果 Power BI Premium 容量遇到高資源使用量，因而發生效能或可靠性問題，您可收到通知電子郵件以找出問題並加以解決。 這是對超載容量進行疑難排解的簡單方式。 如需詳細資訊，請參閱[容量和可靠性通知](service-interruption-notifications.md#capacity-and-reliability-notifications)。
 
 ## <a name="install-the-app"></a>安裝應用程式
 
-您可以直接移至 [Premium 容量計量應用程式](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics)，或在 Power BI 中如同安裝其他應用程式一樣安裝它。
-
-1. 在 Power BI 中，按一下 [應用程式]  。
-
-    ![移至 [應用程式]](media/service-admin-premium-monitor-capacity/apps.png)
-
-2. 在右側，按一下 [取得應用程式]  。
-3. 在 [應用程式]  類別中，搜尋 **Power BI Premium 容量計量應用程式**。
-4. 訂閱以安裝該應用程式。
-
-請耐心等候。 需要幾分鐘的時間來安裝和重新整理計量。 如果應用程式顯示空白計量，請按 F5 重新整理您的瀏覽器。
+前往[連線至 Power BI Premium 容量計量](../connect-data/service-connect-to-pbi-premium-capacity-metrics.md)，以了解如何安裝應用程式並與資料連線。 或者，您可[直接前往應用程式](https://go.microsoft.com/fwlink/?linkid=2114036)。
 
 ## <a name="get-app-refresh-history"></a>取得應用程式重新整理記錄
 
-若要檢查您上次重新整理 Premium 計量應用程式的時間，請按一下 [設定]   > [資料集]   > [Power BI Premium 容量計量]   > [重新整理記錄]  。 
+若要檢查 Premium 容量計量應用程式的上一次重新整理：
 
-![重新整理設定中的記錄](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
+1. 請前往與應用程式一起安裝的工作區。
 
-即會顯示上次重新整理，或按一下 [重新整理記錄]  ，來查看已排定的重新整理和隨選重新整理。
+   ![前往應用程式工作區](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
-![上次重新整理](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
+1. 按一下資料集行上的**排程重新整理**按鈕。
+
+   ![排程重新整理按鈕](media/service-admin-premium-monitor-capacity/schedule-refresh.png)
+
+   即會顯示上次重新整理。 或按一下 [重新整理記錄] 來查看已排定的重新整理和隨選重新整理。
+
+   ![上次重新整理](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
 
 ## <a name="monitor-capacities-with-the-app"></a>使用應用程式監視容量
 
@@ -55,7 +51,7 @@ ms.locfileid: "83137612"
 
 ### <a name="dashboard"></a>儀表板
 
-若要查看您是系統管理員之功能的摘述主要計量，請在 [儀表板]  中按一下 [Power BI Premium 容量計量]  。 隨即出現儀表板。
+若要查看您是系統管理員之功能的摘述主要計量，請在 [儀表板] 中按一下 [Power BI Premium 容量計量]。 隨即出現儀表板。
 
 ![度量應用程式儀表板](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
@@ -151,7 +147,7 @@ ms.locfileid: "83137612"
 
 ### <a name="reports"></a>報表
 
-報告提供更多詳細計量。 若要查看報告以了解您為其系統管理員的容量，請在 [報告]  中按一下 [Power BI Premium 容量計量]  。 或者，從儀表板按一下計量儲存格以移至底層報告。 
+報告提供更多詳細計量。 若要查看報告以了解您為其系統管理員的容量，請在 [報告] 中按一下 [Power BI Premium 容量計量]。 或者，從儀表板按一下計量儲存格以移至底層報告。 
 
 報告底部有五個*索引標籤*：
 
@@ -166,7 +162,7 @@ ms.locfileid: "83137612"
 
 ### <a name="datasets"></a>資料集
 
-[資料集] 頁面有不同的「區域」  ，包括 [重新整理]  、[查詢持續時間]  、[查詢等候]  與 [資料集]  。 使用頁面頂端的按鈕來瀏覽不同的區域。
+[資料集] 頁面有不同的「區域」，包括 [重新整理]、[查詢持續時間]、[查詢等候] 與 [資料集]。 使用頁面頂端的按鈕來瀏覽不同的區域。
 
 #### <a name="refreshes-area"></a>[重新整理] 區域
 
@@ -205,7 +201,7 @@ ms.locfileid: "83137612"
 | **報表區段** | **計量** |
 | --- | --- |
 | 資料集大小  |  大小上限：所顯示的期間內的資料集大小上限 (MB)。 |
-| 資料集撤出計數 |  總計：每個容量的資料集「收回」  總數。 當容量面臨記憶體壓力時，節點就會從記憶體「收回」一或多個資料集。 非使用中的資料集 (沒有任何正在執行的查詢/重新整理作業) 會優先收回。 然後，依據「最近最少使用的」(LRU) 量值來決定收回的順序。|
+| 資料集撤出計數 |  總計：每個容量的資料集「收回」總數。 當容量面臨記憶體壓力時，節點就會從記憶體「收回」一或多個資料集。 非使用中的資料集 (沒有任何正在執行的查詢/重新整理作業) 會優先收回。 然後，依據「最近最少使用的」(LRU) 量值來決定收回的順序。|
 | 每小時載入的資料集計數 |  載入記憶體中資料集的數目，以及分割為一小時的貯體時，以 UTC 時間回報的耗用記憶體 (GB)。 |
 | 每小時資料集撤出和記憶體耗用量 |  資料集收回與記憶體耗用量 (以 GB 為單位) (分割為一小時的貯體) 會以 UTC 時間回報。 |
 | 耗用記憶體百分比 |  記憶體中的作用中資料集總數，以總記憶體百分比表示。 作用中資料集和可收回的所有定義資料集之間的差異。 針對過去七天每小時顯示。 |
@@ -252,7 +248,7 @@ ms.locfileid: "83137612"
 
 ### <a name="ids-and-info"></a>識別碼和資訊
 
-[識別碼與資訊]  索引標籤包含 [容量]  、[工作區]  、[資料集]  、[分頁報表]  與 [資料流程]  區域。
+[識別碼與資訊] 索引標籤包含 [容量]、[工作區]、[資料集]、[分頁報表] 與 [資料流程] 區域。
 
 #### <a name="capacities-area"></a>容量區域
 
@@ -296,7 +292,7 @@ ms.locfileid: "83137612"
 
 1. 在 Azure 入口網站中開啟您的容量。
 
-1. 按一下 [存取控制 (IAM)]  ，然後將 **Power BI Premium** 應用程式新增到讀者角色。 若您無法依名稱找到該應用程式，您也可以透過用戶端識別碼來加以新增：`cb4dc29f-0bf4-402a-8b30-7511498ed654`。
+1. 按一下 [存取控制 (IAM)]，然後將 **Power BI Premium** 應用程式新增到讀者角色。 若您無法依名稱找到該應用程式，您也可以透過用戶端識別碼來加以新增：`cb4dc29f-0bf4-402a-8b30-7511498ed654`。
 
     ![Power BI Embedded 的權限](media/service-admin-premium-monitor-capacity/embedded-permissions.png)
 

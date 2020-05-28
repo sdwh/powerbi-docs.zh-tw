@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/23/2020
+ms.date: 05/18/2020
 ms.author: kfollis
-ms.openlocfilehash: 7ed9f22f262e03885681cf2fdc36867533837cdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1a90a9826d794f84933a75213043c31a9a67a4b5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83360914"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566032"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 [//]: # "Tatevik Tatero 是 Chauncy Freels 的合作廠商，其協助維護網路研討會清單"
@@ -22,13 +22,20 @@ ms.locfileid: "83360914"
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
-沒有已排定的網路研討會。 請稍後再回來查看近期的活動。
+**分析和 BI 之間的差異為何？**
+<br>Microsoft 的 Nate Findley 和 Charles Feddersen
+<br>[註冊以在 2020 年 6 月 3 日上午 10:00 到上午 11:00 (太平洋日光節約時間) 之間觀看]( https://info.microsoft.com/ww-landing-What-is-the-difference-between-analytics-and-business-intelligence.html?lcid=en-u)
+
 
 >[來自 Power BI 社群，即將舉行的網路研討會](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>精選的網路研討會
 
 開始使用這些熱門的隨選網路研討會
+
+**探索 Microsoft Power BI 的整體經濟影響**
+<br>Microsoft 的 Megan Tomlin 和 Forrester Consulting 的 Jonathan Lipsitz
+<br>[立即觀看]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
 
 **Azure 虛擬活動中的分析：使用 Azure Synapse Analytics 來加快取得見解的速度**
 <br>由 Gayle Sheppard 和 John Macintyre 主持
@@ -86,7 +93,7 @@ ms.locfileid: "83360914"
 <br>由 Nimrod Shalit 主持
 <br>[報名並立即觀看](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
-**Power BI、Excel 與 Office 365：將企業資料最佳化**
+**Power BI、Excel 與 Microsoft 365：將企業資料最佳化**
 <br>由 Olaf Hubel 和 Miguel Martinez 主持
 <br>[報名並立即觀看](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 

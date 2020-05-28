@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdb6ee8f50eaf70c9180e2c5a01cefef1143aa0d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 183fceb6877109960ea1fb7e6f36bd74588f8f10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83142635"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693861"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>在新的工作區體驗中監視使用計量
 
@@ -39,7 +39,7 @@ ms.locfileid: "83142635"
 只有具備系統管理員、成員或參與者權限的使用者才能檢視改良的使用計量報表。 檢視人員權限不足。 如果您至少是報表所在新式工作區上的參與者，您可以使用下列程序來顯示改良的使用計量：
 
 1. 開啟包含您要分析其使用計量之報表的工作區。
-2. 從工作區內容清單中，開啟報表的操作功能表，然後選取 [檢視使用計量報表]  。 或者，開啟報表，然後開啟命令列上的操作功能表，然後選取 [使用計量]  。
+2. 從工作區內容清單中，開啟報表的操作功能表，然後選取 [檢視使用計量報表]。 或者，開啟報表，然後開啟命令列上的操作功能表，然後選取 [使用計量]。
 
     ![選取 [使用計量]](media/service-modern-usage-metrics/power-bi-modern-view-usage-metrics.png)
 
@@ -47,8 +47,8 @@ ms.locfileid: "83142635"
 
     ![使用計量報表已就緒](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-ready.png)
 
-1. 若要查看結果，請選取 [檢視使用計量]  。
-2. 如果這是您第一次執行此動作，Power BI 可能會開啟舊的使用計量報表。 若要顯示改良的使用計量報表，請在右上角，將 [關閉新使用量報表] 開關切換至 [開啟]  。
+1. 若要查看結果，請選取 [檢視使用計量]。
+2. 如果這是您第一次執行此動作，Power BI 可能會開啟舊的使用計量報表。 若要顯示改良的使用計量報表，請在右上角，將 [關閉新使用量報表] 開關切換至 [開啟]。
 
     ![切換至新式使用計量報表](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-on.png)
 
@@ -102,11 +102,11 @@ ms.locfileid: "83142635"
 使用下列程序來接管使用計量報表資料集，並更新認證。
 
 1. 開啟包含您要更新其使用計量報表資料集之報表的工作區。
-2. 在頂端的黑色標題列中，選取 [設定]  圖示，然後選取 [設定]  。
+2. 在頂端的黑色標題列中，選取 [設定] 圖示，然後選取 [設定]。
 
     ![選取 [設定]](media/service-modern-usage-metrics/power-bi-settings-settings.png)
 
-3. 切換至 [資料集]  索引標籤。
+3. 切換至 [資料集] 索引標籤。
 
 1. 選取 [使用計量報表] 資料集 
 
@@ -114,13 +114,13 @@ ms.locfileid: "83142635"
     
     如果您不是目前的資料集擁有者，您必須接管擁有權，才能更新資料來源認證。 
     
-5. 選取 [接管]  按鈕，然後在 [接管資料集設定]  對話方塊中，再次選取 [接管]  。
+5. 選取 [接管] 按鈕，然後在 [接管資料集設定] 對話方塊中，再次選取 [接管]。
 
-1. 在 [資料來源認證]  下，選取 [編輯認證]  。
+1. 在 [資料來源認證] 下，選取 [編輯認證]。
 
     ![編輯認證](media/service-modern-usage-metrics/power-bi-usage-metrics-edit-credentials.png)
 
-2. 在 [設定使用計量報表]  對話方塊中，選取 [登入]  。
+2. 在 [設定使用計量報表] 對話方塊中，選取 [登入]。
 
     ![選取 [登入]](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-configure.png)
 
@@ -132,7 +132,7 @@ ms.locfileid: "83142635"
 
 ## <a name="disable-usage-metrics-reports"></a>停用使用計量報表
 
-使用計量報表是 Power BI 或 Office 365 系統管理員可以開啟或關閉的功能。 系統管理員可以更精細地控制哪些使用者可以存取使用計量；針對組織中的所有使用者，它們預設為「開啟」。 請參閱管理入口網站文章中的[控制使用計量](../admin/service-admin-portal.md#control-usage-metrics)來取得這些設定的詳細資料。
+使用計量報表是 Power BI 或 Microsoft 365 系統管理員可開啟或關閉的功能。 系統管理員可以更精細地控制哪些使用者可以存取使用計量；針對組織中的所有使用者，它們預設為「開啟」。 請參閱管理入口網站文章中的[控制使用計量](../admin/service-admin-portal.md#control-usage-metrics)來取得這些設定的詳細資料。
 
 > [!NOTE]
 > 只有 Power BI 租用戶的系統管理員可以看見管理入口網站並編輯設定。
@@ -141,9 +141,9 @@ ms.locfileid: "83142635"
 
 根據預設，會針對使用計量啟用個別使用者資料，而且會將內容取用者帳戶資訊包含在計量報表中。 如果系統管理員不想向部分或所有使用者公開此資訊，則可以透過針對特定安全性群組或整個組織，在 Power BI 管理入口網站租用戶設定中，針對內容建立者停用使用計量中的個別使用者資料，從您的使用量報表中排除使用者資訊。
 
-1. 在管理入口網站的 [租用戶設定]  索引標籤中，於 [稽核與使用量設定]  下，展開 [內容建立者之使用計量內每位使用者的資料]  並選取 [停用]  。
+1. 在管理入口網站的 [租用戶設定] 索引標籤中，於 [稽核與使用量設定] 下，展開 [內容建立者之使用計量內每位使用者的資料] 並選取 [停用]。
 
-2. 決定是否 [刪除目前使用計量內容中所有現有的每位使用者資料]  ，並選取 [套用]  。
+2. 決定是否 [刪除目前使用計量內容中所有現有的每位使用者資料]，並選取 [套用]。
 
     ![停用每位使用者的計量](media/service-modern-usage-metrics/power-bi-admin-disable-per-user-metrics.png)
 
@@ -158,7 +158,7 @@ ms.locfileid: "83142635"
 
 若要深入鑽研報表資料，或針對底層資料集建置自己的報表，您有幾個選項：
 
-- **在 Power BI 服務中[建立報表複本](#create-a-copy-of-the-usage-report)。**   使用 [儲存複本]  來建立個別的使用計量報表執行個體，並根據您的特定需求加以自訂。
+- **在 Power BI 服務中[建立報表複本](#create-a-copy-of-the-usage-report)。**   使用 [儲存複本] 來建立個別的使用計量報表執行個體，並根據您的特定需求加以自訂。
 - **使用新的報表[連線到資料集](#create-a-new-usage-report-in-power-bi-desktop)。**   針對每個工作區，資料集的名稱都是「使用計量報表」，如先前在[使用計量報表資料集](#usage-metrics-report-dataset)一節中所述。 您也可以使用 Power BI Desktop 來根據底層資料集建置自訂使用計量報表。
 - **[使用 [在 Excel 中進行分析]](#analyze-usage-data-in-excel)。**   您也可以利用 Microsoft Excel 2010 SP1 或更新版本中的樞紐分析表、圖表與交叉分析篩選器功能來分析 Power BI 使用方式資料。 深入了解[在 Excel 中進行分析](service-analyze-in-excel.md)功能。
 
@@ -166,15 +166,15 @@ ms.locfileid: "83142635"
 
 當您建立唯讀且預先建置之使用量報表的複本時，Power BI 會建立該報表的可編輯執行個體。 乍看之下，它們是完全相同的。 不過，您現在可以在 [編輯] 檢視中開啟該報表；新增視覺效果、篩選和頁面；修改或刪除現有的視覺效果等。 Power BI 會將新報表儲存在目前的工作區中。
 
-1. 在新的使用計量報表中，選取 [較多選項]  功能表 (...)，然後選取 [儲存複本]  。
+1. 在新的使用計量報表中，選取 [較多選項] 功能表 (...)，然後選取 [儲存複本]。
 
     ![儲存報表的複本](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-save.png)
 
-2. 在 [儲存您的報表]  對話方塊中，輸入名稱，然後選取 [儲存]  。
+2. 在 [儲存您的報表] 對話方塊中，輸入名稱，然後選取 [儲存]。
 
     Power BI 會建立可編輯的 Power BI 報表、將它儲存在目前的工作區中，並開啟報表複本。 
 
-3. 選取 [較多選項]  功能表 (...)，然後選取 [編輯]  以切換到 [編輯] 檢視。 
+3. 選取 [較多選項] 功能表 (...)，然後選取 [編輯] 以切換到 [編輯] 檢視。 
 
     例如，您可以變更篩選條件、新增新的頁面，以及建置新的視覺效果、設定字型與色彩格式等等。
 
@@ -188,17 +188,17 @@ ms.locfileid: "83142635"
 
 1. 開啟 Power BI Desktop。
 
-2. 如果您未登入 Power BI 服務，請在 [檔案]  功能表上，選取 [登入]  。
+2. 如果您未登入 Power BI 服務，請在 [檔案] 功能表上，選取 [登入]。
 
-1. 若要連線到使用計量報表資料集，請在 [常用]  功能區中選取 [取得資料]  。
+1. 若要連線到使用計量報表資料集，請在 [常用] 功能區中選取 [取得資料]。
 
-4. 在左窗格中，選取 [Power Platform]  ，然後選取 [Power BI 資料集]   > [連線]  。
+4. 在左窗格中，選取 [Power Platform]，然後選取 [Power BI 資料集] > [連線]。
 
     ![[取得資料] > [Power Platform]](media/service-modern-usage-metrics/power-bi-desktop-get-data.png)
 
-1. 在 [搜尋] 方塊中，瀏覽至所需的資料集，或輸入「使用計量報表」  。 
+1. 在 [搜尋] 方塊中，瀏覽至所需的資料集，或輸入「使用計量報表」。 
 
-6. 在 [工作區] 欄中確認您選取了正確的資料集，然後選取 [建立]  。 
+6. 在 [工作區] 欄中確認您選取了正確的資料集，然後選取 [建立]。 
 
     ![選取 [使用計量報表] 資料集](media/service-modern-usage-metrics/power-bi-desktop-select-usage-metrics.png)
 
@@ -214,22 +214,22 @@ ms.locfileid: "83142635"
 
 1. 首先，如果您尚未這麼做，請[建立使用計量報表的複本](#create-a-copy-of-the-usage-report)。 
 
-2. 開啟新的使用計量報表，選取 [較多選項]  功能表 (…)，然後選取 [在 Excel 中進行分析]  。
+2. 開啟新的使用計量報表，選取 [較多選項] 功能表 (…)，然後選取 [在 Excel 中進行分析]。
 
     ![在 Excel 中進行分析](media/service-modern-usage-metrics/power-bi-export-excel.png)
 
-1. 如果您看到 [首先，您需要一些 Excel 更新]  對話方塊，請選取 [下載]  並安裝最新的 Power BI 連線能力更新，或選取 [我已安裝這些更新]  。
+1. 如果您看到 [首先，您需要一些 Excel 更新] 對話方塊，請選取 [下載] 並安裝最新的 Power BI 連線能力更新，或選取 [我已安裝這些更新]。
 
     ![Excel 更新](media/service-modern-usage-metrics/power-bi-excel-updates.png)
 
     > [!NOTE]
     > 某些組織可能會有防止安裝 [在 Excel 中進行分析] 必要更新的群組原則規則。 如果您無法安裝更新，請洽詢您的系統管理員。
 
-1. 在詢問您想要對使用計量報表 .odc 檔案執行之動作的瀏覽器對話方塊中，選取 [開啟]  。
+1. 在詢問您想要對使用計量報表 .odc 檔案執行之動作的瀏覽器對話方塊中，選取 [開啟]。
 
     ![開啟 .odc 檔案](media/service-modern-usage-metrics/power-bi-open-odc-file.png)
 
-1. Power BI 會啟動 Excel。 確認 .odc 檔案的檔案名稱和路徑，然後選取 [啟用]  。
+1. Power BI 會啟動 Excel。 確認 .odc 檔案的檔案名稱和路徑，然後選取 [啟用]。
 
     ![Excel 安全性注意事項](media/service-modern-usage-metrics/power-bi-excel-security-notice.png)
 
@@ -334,11 +334,11 @@ Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供和 Po
 
 1. 開啟包含您要重設其使用計量報表資料集之報表的工作區。
 
-2. 在頂端的黑色標題列中，選取 [設定]  圖示，然後選取 [設定]  。
+2. 在頂端的黑色標題列中，選取 [設定] 圖示，然後選取 [設定]。
 
     ![選取 [設定]](media/service-modern-usage-metrics/power-bi-settings-settings.png)
 
-3. 切換至 [資料集]  索引標籤，然後選取 [使用計量報表資料集]。 
+3. 切換至 [資料集] 索引標籤，然後選取 [使用計量報表資料集]。 
 
     ![使用計量資料集](media/service-modern-usage-metrics/power-bi-settings-usage-report-dataset.png)
 
@@ -346,15 +346,15 @@ Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供和 Po
 
     ![使用計量資料集 URL](media/service-modern-usage-metrics/power-bi-usage-metrics-url.png)
 
-1. 在您的瀏覽器中，移至 [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup)，然後選取 [試試看]  按鈕。
+1. 在您的瀏覽器中，移至 [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup)，然後選取 [試試看] 按鈕。
 
     ![刪除資料集 [試試看]](media/service-modern-usage-metrics/power-bi-delete-dataset-try-it.png)
 
-1. 登入 Power BI，將工作區識別碼貼到 [groupId]  文字方塊中，並將資料集識別碼貼到 [datasetId]  文字方塊中，然後選取 [執行]  。 
+1. 登入 Power BI，將工作區識別碼貼到 [groupId] 文字方塊中，並將資料集識別碼貼到 [datasetId] 文字方塊中，然後選取 [執行]。 
 
     ![試用 REST API](media/service-modern-usage-metrics/power-bi-rest-api-try-it.png)
 
-1. 在 [執行]  按鈕下，確認服務傳回回應碼 **200**。 該代碼表示已成功刪除資料集及其相關聯的使用計量報表。
+1. 在 [執行] 按鈕下，確認服務傳回回應碼 **200**。 該代碼表示已成功刪除資料集及其相關聯的使用計量報表。
 
     ![回應碼 200](media/service-modern-usage-metrics/power-bi-response-code-200.png)
 

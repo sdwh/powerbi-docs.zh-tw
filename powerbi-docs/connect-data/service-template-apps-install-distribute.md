@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 05/04/2020
+ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: 762d88789bb68777886a126589802b9e8d854879
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347439"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693027"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>在組織中安裝並散發範本應用程式
 
@@ -34,15 +34,15 @@ ms.locfileid: "83347439"
 
 ## <a name="install-a-template-app"></a>安裝範本應用程式
 
-1. 在 Power BI 服務的導覽窗格中選取 [應用程式]   > [取得應用程式]  。
+1. 在 Power BI 服務的導覽窗格中選取 [應用程式] > [取得應用程式]。
 
     ![取得應用程式](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-1. 在出現的 [AppSource] 視窗中，選取 [應用程式]  。 瀏覽或搜尋所需的應用程式，然後選取 [立即取得]  。
+1. 在出現的 [AppSource] 視窗中，選取 [應用程式]。 瀏覽或搜尋所需的應用程式，然後選取 [立即取得]。
 
     ![在 AppSource 中搜尋](media/service-template-apps-install-distribute/power-bi-appsource.png)
 
-1. 在出現的對話方塊中，選取 [安裝]  。
+1. 在出現的對話方塊中，選取 [安裝]。
 
     ![安裝應用程式](media/service-template-apps-install-distribute/power-install-dialog.png)
     
@@ -59,11 +59,19 @@ ms.locfileid: "83347439"
 
 ## <a name="connect-to-data"></a>連線至資料
 
-1. 選取 [前往應用程式]  。 接著會出現 [開始使用您的新應用程式]  視窗。
+1. 選取 [前往應用程式]。
 
-   ![開始使用新的應用程式](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+1. 在 [開始使用新應用程式] 視窗中，選取 [探索]。
 
-1. 按一下 [連線]  。
+   ![範本應用程式啟動顯示畫面](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+
+   應用程式隨即開啟，其中顯示範例資料。
+
+1. 在頁面頂端的橫幅中，選取 [連線至資料] 連結。
+
+   ![GitHub 應用程式 [連線至資料] 連結](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
+
+
     
     此動作將開啟一或數個對話方塊，您可以在其中將範例資料中資料來源變更為您自己的資料來源。 這通常表示重新定義資料集參數與資料來源認證。 請參閱[已知的限制](service-template-apps-overview.md#known-limitations)。
     
@@ -71,19 +79,20 @@ ms.locfileid: "83347439"
 
    ![連線至資料對話方塊](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
-    當完成填寫連線對話方塊之後，即會開始連線程序。 一則橫幅會通知您正在查看範例資料。
+    當完成填寫連線對話方塊之後，即會開始連線程序。 橫幅會通知資料正在重新整理，同時您也會看到範例資料。
 
     ![查看範例資料](media/service-template-apps-install-distribute/power-bi-template-app-viewing-sample-data.png)
 
-    等待資料完成連線和更新。 若要知道此程序完成的時間，請留意資料集列 (新外觀) 或索引標籤 (舊外觀) 上的進度指標。
-
-   當連線與資料重新整理完成時，請重新整理瀏覽器；一則橫幅會通知您需要更新應用程式，以套用對應用程式所做的任何變更並加以共用。
-
-    ![自訂和共用應用程式](media/service-template-apps-install-distribute/power-bi-template-app-customize-share.png)
+   報表資料會每天自動重新整理一次，除非您在登入流程期間停用此功能。 您也可以視需要[設定自己的重新整理排程](./refresh-scheduled-refresh.md)，以將報表資料保持在最新狀態。
 
 ## <a name="customize-and-share-the-app"></a>自訂和共用應用程式
 
-當完成連線至資料與資料重新整理，並重新整理瀏覽器之後，您現在會看到與應用程式建立關聯的工作區。 此時，如同其他任何工作區，您可以在其中編輯任何成品。 不過，請記住，當使用新版本來更新應用程式時，將會覆寫您所做的所有變更，除非將變更的項目儲存在不同名稱之下。 [請參閱關於覆寫的詳細資料](#overwrite-behavior)。
+當連線至資料並完成資料重新整理之後，您可自訂應用程式所包含的任何報表和儀表板，並與同事共用應用程式。 但請注意，當使用新版本來更新應用程式時，將會覆寫您所做的全部變更，除非將變更的項目儲存在不同名稱之下。 [請參閱關於覆寫的詳細資料](#overwrite-behavior)。
+
+若要自訂和共用應用程式，請選取頁面右上角的鉛筆圖示。
+
+![編輯應用程式](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
 
 如需在工作區中編輯成品的詳細資訊，請參閱
 * [Power BI 中的報表編輯器導覽](../create-reports/service-the-report-editor-take-a-tour.md)
@@ -106,7 +115,7 @@ ms.locfileid: "83347439"
 >[!NOTE]
 >如果原本是透過直接連結而非 AppSource 來取得應用程式，則必須與範本應用程式建立者取得聯繫，才能得知新版本的推出時間。
 
-  若要安裝更新，請按一下通知橫幅或通知中心的 [取得]  ，或在 AppSource 中再次尋找該應用程式，然後選擇 [立即取得]  。 如果您已從範本應用程式建立者取得更新的直接連結，只要按一下連結即可。
+  若要安裝更新，請按一下通知橫幅或通知中心的 [取得]，或在 AppSource 中再次尋找該應用程式，然後選擇 [立即取得]。 如果您已從範本應用程式建立者取得更新的直接連結，只要按一下連結即可。
   
   系統會詢問所要覆寫目前的版本，還是在新的工作區中安裝新版本。 預設會選取「覆寫」。
 
@@ -132,4 +141,4 @@ ms.locfileid: "83347439"
 
 ## <a name="next-steps"></a>後續步驟
 
-[與同事在 Power BI 中建立工作區](../collaborate-share/service-create-workspaces.md)
+[與同事在 Power BI 中建立工作區](../collaborate-share/service-create-the-new-workspaces.md)

@@ -6,33 +6,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 05/19/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d3cb3c8093446d4417a59c5f64ab6b85a765e3c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 562e011bf280930fdcaf19cc87edc97b2bec131b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301509"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694040"
 ---
-# <a name="create-a-drill-through-button-in-power-bi-preview"></a>在 Power BI 中建立鑽研按鈕 (預覽)
+# <a name="create-a-drill-through-button-in-power-bi"></a>在 Power BI 中建立鑽研按鈕
 
-當在 Power BI 中建立按鈕時，您可選取 [鑽研 (預覽)]  動作。 這個動作類型會建立按鈕，其會鑽研至焦點頁面以取得篩選至特定內容的詳細資料。
+在 Power BI 中建立按鈕時，您可選取 [鑽研] 動作。 這個動作類型會建立按鈕，其會鑽研至焦點頁面以取得篩選至特定內容的詳細資料。
 
 鑽研按鈕在您想要增加報表中重要鑽研案例的發現性時相當實用。
 
-在此範例中，在使用者選取圖表中的 [文字] 列後，即會啟用 [查看詳細資料]  按鈕。
+在此範例中，在使用者選取圖表中的 [文字] 列後，即會啟用 [查看詳細資料] 按鈕。
 
 ![請參閱詳細資料按鈕](media/desktop-drill-through-buttons/power-bi-drill-through-visual-button.png)
 
-在選取 [查看詳細資料]  按鈕時，使用者會鑽研至 [購物籃分析] 頁面。 正如同可在左側看見的視覺效果，鑽研頁面現在會為文字進行篩選。
+在選取 [查看詳細資料] 按鈕時，使用者會鑽研至 [購物籃分析] 頁面。 正如同可在左側看見的視覺效果，鑽研頁面現在會為文字進行篩選。
 
 ![已篩選的視覺效果](media/desktop-drill-through-buttons/power-bi-drill-through-destination.png)
 
 ## <a name="set-up-a-drill-through-button"></a>設定鑽研按鈕
 
-若要設定鑽研按鈕，您需要先在報表中[設定有效的鑽研頁面](desktop-drillthrough.md)。 然後，您需要使用 [鑽研]  作為動作類型來建立按鈕，然後選取鑽研頁面作為 [目的地]  。
+若要設定鑽研按鈕，您需要先在報表中[設定有效的鑽研頁面](desktop-drillthrough.md)。 然後，您需要使用 [鑽研] 作為動作類型來建立按鈕，然後選取鑽研頁面作為 [目的地]。
 
 因為鑽研按鈕有兩種狀態 (鑽研已啟用與已停用)，所以會看到有兩個工具提示選項。
 
@@ -62,7 +62,7 @@ ms.locfileid: "83301509"
 String_for_button = If(SELECTEDVALUE('Product'[Product], 0) == 0), "See product details", "See details for " & SELECTEDVALUE('Product'[Product]))
 ```
 
-建立此量值後，您即可為按鈕文字選取 [條件式格式設定]  選項：
+建立此量值後，您即可為按鈕文字選取 [條件式格式設定] 選項：
 
 ![選取 [條件式格式設定]](media/desktop-drill-through-buttons/power-bi-button-conditional-tooltip.png)
 
@@ -105,7 +105,7 @@ String_for_button = If(SELECTEDVALUE('Product'[Product], 0) == 0), "See product 
 - 此按鈕不允許針對多個目的地使用單一按鈕。
 - 此按鈕只支援相同報表內的鑽研；換句話說，其不支援跨報表鑽研。
 - 按鈕的停用狀態格式設定會與報表佈景主題中色彩類別繫結。 深入了解[色彩類別](desktop-report-themes.md#setting-structural-colors)。
-- 鑽研動作適用於所有內建視覺效果，且適用於從 AppSource 匯入的「部分」  視覺效果。 但是，鑽研動作不保證適用於「所有」  從 AppSource 匯入的視覺效果。
+- 鑽研動作適用於所有內建視覺效果，且適用於從 AppSource 匯入的「部分」視覺效果。 但是，鑽研動作不保證適用於「所有」從 AppSource 匯入的視覺效果。
 
 ## <a name="next-steps"></a>後續步驟
 如需類似功能或與按鈕互動的詳細資訊，請參閱下列文章：

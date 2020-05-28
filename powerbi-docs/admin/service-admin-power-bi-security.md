@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 4524e7c6cb8297f3c9bf71284140ddc31b38e33f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275401"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564378"
 ---
 # <a name="power-bi-security"></a>Power BI 安全性
 
@@ -30,7 +30,7 @@ Power BI 服務是建置在 Microsoft 的雲端運算基礎結構和平台 **Azu
 
 ![](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 
-**後端**叢集是驗證過的用戶端與 Power BI 服務互動的方式。 **後端**叢集會管理視覺效果、使用者儀表板、資料集、報表、資料儲存體、資料連線、資料重新整理，以及與 Power BI 服務互動的其他層面。 **閘道角色**擔任使用者要求與 Power BI 服務之間的閘道。 使用者無法與 **閘道角色**以外的任何角色直接互動。 最終會由 **Azure API 管理**來操控**閘道角色**。
+**後端**叢集是驗證過的用戶端與 Power BI 服務互動的方式。 **後端**叢集會管理視覺效果、使用者儀表板、資料集、報表、資料儲存體、資料連線、資料重新整理，以及與 Power BI 服務互動的其他層面。 **閘道角色** 擔任使用者要求與 Power BI 服務之間的閘道。 使用者無法與 **閘道角色**以外的任何角色直接互動。 最終會由 **Azure API 管理**來操控**閘道角色**。
 
 ![](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
 
@@ -41,13 +41,13 @@ Power BI 服務是建置在 Microsoft 的雲端運算基礎結構和平台 **Azu
 
 Power BI 使用兩個主要的儲存機制來儲存及管理資料：使用者上傳的資料通常會傳送至 **Azure BLOB** 儲存體，而所有中繼資料及系統本身的成品則會儲存在 **Azure SQL Database**中。
 
-上方**後端**叢集圖片中的虛線清楚劃分了使用者能夠存取的唯二元件 (虛線左側)，以及只有系統可以存取的角色。 當已驗證的使用者連接到 Power BI 服務時，會由 **閘道角色** (最終由 **Azure API 管理**來操控) 接受及管理用戶端所進行的連接和任何要求，該角色接著會代表使用者與 Power BI 服務的其餘部分互動。 例如，當用戶端嘗試檢視儀表板時，**閘道角色**會接受該要求，然後另外傳送要求給**簡報角色**，以擷取瀏覽器呈現儀表板所需的資料。
+上方**後端**叢集圖片中的虛線清楚劃分了使用者能夠存取的唯二元件 (虛線左側)，以及只有系統可以存取的角色。 當已驗證的使用者連接到 Power BI 服務時，會由 **閘道角色** (最終由 **Azure API 管理**來操控) 接受及管理用戶端所進行的連接和任何要求，該角色接著會代表使用者與 Power BI 服務的其餘部分互動。 例如，當用戶端嘗試檢視儀表板時， **閘道角色** 會接受該要求，然後另外傳送要求給 **簡報角色** ，以擷取瀏覽器呈現儀表板所需的資料。
 
 ## <a name="user-authentication"></a>使用者驗證
 
-Power BI 使用 Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) 來驗證登入 Power BI 服務的使用者，而 Azure Active Directory 則會在每次使用者嘗試存取需要驗證的資源時使用 Power BI 登入認證。 如果使用者以用來建立 Power BI 帳戶的電子郵件地址登入 Power BI 服務，Power BI 會使用該登入電子郵件作為「有效的使用者名稱」  ，並在每次使用者嘗試連線到資料時，將該名稱傳遞給資源。 「有效的使用者名稱」  接著會對應到「使用者主體名稱」  ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx))，並依據所套用的驗證，解析為相關聯的 Windows 網域帳戶。
+Power BI 使用 Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) 來驗證登入 Power BI 服務的使用者，而 Azure Active Directory 則會在每次使用者嘗試存取需要驗證的資源時使用 Power BI 登入認證。 如果使用者以用來建立 Power BI 帳戶的電子郵件地址登入 Power BI 服務，Power BI 會使用該登入電子郵件作為「有效的使用者名稱」，並在每次使用者嘗試連線到資料時，將該名稱傳遞給資源。 「有效的使用者名稱」接著會對應到[「使用者主體名稱」(UPN)](/windows/win32/secauthn/user-name-formats)，並依據所套用的驗證，解析為相關聯的 Windows 網域帳戶。
 
-針對使用公司電子郵件 (例如 <em>david@contoso.com</em>) 登入 Power BI 的組織，「有效的使用者名稱」  與 UPN 的對應相當直接。 針對未使用公司電子郵件(例如 <em>david@contoso.onmicrosoft.com</em>) 登入 Power BI 的組織，AAD 與內部部署認證之間的對應需要[目錄同步作業](https://technet.microsoft.com/library/jj573653.aspx)才能正常運作。
+針對使用公司電子郵件 (例如 <em>david@contoso.com</em>) 登入 Power BI 的組織，「有效的使用者名稱」與 UPN 的對應相當直接。 針對未使用公司電子郵件(例如 <em>david@contoso.onmicrosoft.com</em>) 登入 Power BI 的組織，AAD 與內部部署認證之間的對應需要[目錄同步作業](/azure/active-directory-domain-services/synchronization)才能正常運作。
 
 Power BI 的平台安全性還包括多租用戶環境安全性、網路安全性，以及增加其他以 AAD 為基礎之安全性措施的能力。
 
@@ -68,4 +68,3 @@ Power BI 的平台安全性還包括多租用戶環境安全性、網路安全�
 **Power BI Desktop** 會遵循這些文章中說明的登錄機碼設定，並依據這些登錄設定，只使用允許的 TLS 版本來建立連線 (如果這些設定存在)。
 
 如需如何設定這些登錄機碼的詳細資訊，請參閱 [TLS 登錄設定](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)文章。
-

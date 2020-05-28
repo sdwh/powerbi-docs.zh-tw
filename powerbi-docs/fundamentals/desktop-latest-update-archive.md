@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/17/2020
+ms.date: 05/19/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 529417823db75d2add192e71e540242f68f420d1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5203f2676409de28cfa9faf9442beaeb324b6f54
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361719"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812879"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -29,9 +29,103 @@ ms.locfileid: "83361719"
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 下列章節說明 **Power BI Desktop** 前幾個月的更新。
+
+
+## <a name="april-2020-update-2805803282"></a>2020 年 4 月更新 (2.80.5803.282)
+
+我們非常感謝能與全球社群分享 4 月的 Power BI Desktop。 
+
+您可以從[下載中心](https://www.microsoft.com/download/details.aspx?id=58494)取得最新版本的 Power BI Desktop。 如果您執行的是 Windows 10，您也可以從 [Microsoft Store](https://aka.ms/pbidesktopstore) 取得 Power BI Desktop。 無論您用何種方式安裝 Power BI Desktop，雖然版本編號各不相同，但每月版本都相同。 如需下載與安裝 Power BI Desktop 的詳細資訊，請參閱[取得 Power BI Desktop](desktop-get-the-desktop.md)。 
+
+> [!IMPORTANT]
+> 從 2019 年 9 月版本開始，Power BI Desktop 僅發行為單一 .exe 檔案，其中包含所有支援的語言。 .msi 版本已不再發行。
+
+
+Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯：
+
+* \[部落格\]：大多數功能都會在每月更新之部落格文章中的某一節中說明。
+* \[影片\]：某些功能會有討論該功能的影片摘錄，這會在新的瀏覽器索引標籤中播放。
+* \[文章\]：某些功能會有能提供詳細資料的文章。
+* 剩下的功能一目了然，不需要文章或影片加以說明。
+
+您也可以觀看完整的 [Power BI Desktop 每月更新影片](#power-bi-desktop-monthly-update-video)。
+
+以下是本月 Power BI Desktop 新增的更新：
+
+
+### <a name="reporting"></a>報告
+* 個人化視覺效果 (預覽) [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=54) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Personalize_visuals) (英文) 
+* 變更頁面重新整理的偵測 (預覽) [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=447) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Change_detection) (英文) 
+* 相對時間篩選 (預覽) [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=744) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Relative_time_filter) (英文) 
+* 矩形套索選取多個視覺效果 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=1016) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Lasso_select) (英文) 
+* 設定資料表與矩陣之總計及小計的格式化條件 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=1075) [[文章]](../create-reports/desktop-conditional-table-formatting.md#totals-and-subtotals) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Conditional_formatting) (英文) 
+* 自訂佈景主題對話方塊現已正式推出 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=1250) [[文章]](../create-reports/desktop-report-themes.md#customize-report-themes) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Customize_theme_GA) (英文) 
+* 提高設定格式化條件的搜尋機率 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=1479) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Improved_discoverability) (英文) 
+
+
+
+### <a name="analytics"></a>分析
+* 適用於 AI 視覺效果的 DirectQuery 支援 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=1498) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Direct_Query_AI) (英文) 
+* 分解樹狀結構現在支援工具提示 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=1550) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Decomp_tree_tooltips) (英文) 
+* Q&A 更新 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=1606) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_QA_updates) (英文) 
+
+
+### <a name="visuals"></a>視覺效果
+* 新的視覺效果圖示 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=1946) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_New_Visualization_icons) (英文) 
+* 新的 Power BI 視覺效果 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=1833) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Visualizations)
+
+
+### <a name="template-apps"></a>範本應用程式
+* 最佳入門套件的 Power Platform 系統管理中心 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=1969) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_CoE_StartKit) (英文) 
+* Azure 認知搜尋：分析記錄檔與計量 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=1969) (英文) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Azure_Cognitive_Search) (英文)
+* 新型冠狀病毒 (COVID-19) 應用程式 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=1969) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_COVID) (英文)
+
+
+### <a name="data-preparation"></a>資料準備
+* 查詢診斷的增強功能 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=2011) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Enhancements_to_Query) (英文) 
+
+
+### <a name="data-connectivity"></a>資料連線
+* Azure Data Lake Storage Gen2 的 CDM 資料夾檢視 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=2124) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_CDM_Folder_view) (英文) 
+
+
+### <a name="other-features"></a>其他功能
+* 新的導學型訓練 [[影片]](https://youtu.be/q2Hfn_Rhb3E?t=2147) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_New_instructor-led_training) (英文) 
+
+
+如需這些新功能各自的詳細資訊，請參閱 [Power BI Desktop 功能摘要部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/)。
+
+請查看 [Power BI 服務新功能](service-whats-new.md)及 [Power BI 行動裝置應用程式新功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
+
+> [!NOTE]
+> 請參閱 [Power BI Desktop 可用的資料來源](../connect-data/desktop-data-sources.md)。 我們的清單會持續增加，因此請經常回來查看。
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 每月更新影片
+下列影片會分別描述這些更新。 您也可以在部落格文章中觀賞這段影片：
+
+> [!VIDEO https://www.youtube.com/embed/q2Hfn_Rhb3E]
+
+
+如果組織需要，您也可以下載先前版本的 Power BI Desktop。 強烈建議您使用最新版的 Power BI Desktop，不要使用舊版本。 所有舊版本都有下列限制：
+
+* 不針對舊版 Power BI Desktop 提供服務 - 您應該一律採用最新版本以獲得最新功能和更新。
+* 可能無法使用舊版 Power BI Desktop 開啟使用較新版 Power BI Desktop 建立或儲存的檔案。 
+* 如果您在載入使用較新版 Power BI Desktop 儲存的報表時收到一則警告，然後使用舊版儲存該報表，您將會遺失任何與新功能有關的資訊。
+* 我們只會封存英文版 Power BI Desktop。
+
+請選取下列連結以下載這個較早的版本： 
+
+* [Power BI Desktop - 32 位元 2020 年 4 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-04.exe)
+* [Power BI Desktop - 64 位元 2020 年 4 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-04_x64.exe)
+
+
+
+
+
 
 
 ## <a name="march-2020-update-2795768562"></a>2020 年 3 月更新 (2.79.5768.562)
@@ -68,7 +162,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 
 ### <a name="modeling"></a>模型化
-* 新的 DAX 函式：COALESCE [[影片]](https://youtu.be/DMjvJGGB_LQ?t=830) [[文章]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_DAX_function
+* 新的 DAX 函式：COALESCE [[影片]](https://youtu.be/DMjvJGGB_LQ?t=830) [[文章]](https://docs.microsoft.com/dax/coalesce-function-dax) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_DAX_function
 ) 
 
 ### <a name="visuals"></a>視覺效果
@@ -351,19 +445,6 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 > [!VIDEO https://www.youtube.com/embed/kVli3Vm_kDo]
 
-如果組織需要，您也可以下載先前版本的 Power BI Desktop。 強烈建議您使用最新版的 Power BI Desktop，不要使用舊版本。 所有舊版本都有下列限制：
-
-* 不針對舊版 Power BI Desktop 提供服務 - 您應該一律採用最新版本以獲得最新功能和更新。
-* 可能無法使用舊版 Power BI Desktop 開啟使用較新版 Power BI Desktop 建立或儲存的檔案。 
-* 如果您在載入使用較新版 Power BI Desktop 儲存的報表時收到一則警告，然後使用舊版儲存該報表，您將會遺失任何與新功能有關的資訊。
-* 我們只會封存英文版 Power BI Desktop。
-
-請選取下列連結以下載這個較早的版本： 
-
-* [Power BI Desktop - 32 位元 2019 年 11 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-11.exe)
-* [Power BI Desktop - 64 位元 2019 年 11 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-11_x64.exe)
-
-
 
 
 ## <a name="october-2019-update-2745619621"></a>2019 年 10 月更新 (2.74.5619.621)
@@ -383,7 +464,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
@@ -461,7 +542,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
@@ -522,7 +603,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
@@ -585,7 +666,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
@@ -650,7 +731,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
@@ -721,7 +802,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
@@ -786,7 +867,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
@@ -858,7 +939,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是 3 月 **Power BI Desktop** 新增的更新：
 
@@ -927,7 +1008,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
@@ -994,7 +1075,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 每月更新的 **[部落格]** 文章中則說明大多數功能。
 * 最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
@@ -1005,7 +1086,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 * 欄位清單協助工具支援 [[影片]](https://youtu.be/AHNlkjRFdYI?t=464)  [[文章]](../create-reports/desktop-report-view.md#copy-and-paste-between-reports)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
 * 為頁面上的物件設定定位順序 [[影片]](https://youtu.be/AHNlkjRFdYI?t=643)   [[文章]](../create-reports/power-bi-reports-filters-and-highlighting.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
 * 按鈕視覺效果的工具提示 [[影片]](https://youtu.be/AHNlkjRFdYI?t=884)  [[文章]](../create-reports/desktop-accessibility-overview.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)
-* 「視覺效果互動」  的已更新圖示  [[影片]](https://youtu.be/AHNlkjRFdYI?t=974)  [[文章]](../create-reports/desktop-accessibility-overview.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#icons)
+* 「視覺效果互動」的已更新圖示  [[影片]](https://youtu.be/AHNlkjRFdYI?t=974)  [[文章]](../create-reports/desktop-accessibility-overview.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#icons)
 
 
 
@@ -1395,7 +1476,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="data-connectivity"></a>資料連線
 
-* 新的 [從 Web]  連接器 - 透過範例資料擷取 (預覽)  [[影片]](https://youtu.be/-_GMCE1TLvQ?t=10m17s) [[文章]](../connect-data/desktop-connect-to-web-by-example.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#FromWebConnector) 
+* 新的 [從 Web] 連接器 - 透過範例資料擷取 (預覽)  [[影片]](https://youtu.be/-_GMCE1TLvQ?t=10m17s) [[文章]](../connect-data/desktop-connect-to-web-by-example.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#FromWebConnector) 
 * Common Data Service for Apps 連接器 (搶鮮版 (Beta))  [[影片]](https://youtu.be/-_GMCE1TLvQ?t=12m9s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#cdsApps) 
 * Azure KustoDB 連接器 (搶鮮版 (Beta)) [[影片]](https://youtu.be/-_GMCE1TLvQ?t=12m9s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#kustoDB) 
 * Google BigQuery 和 Azure HDInsight Spark 連接器現已正式推出 [[影片]](https://youtu.be/-_GMCE1TLvQ?t=12m9s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#googleBigQueryAzureHDInsightSpark) 
@@ -1558,7 +1639,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 * DirectQuery 效能改善  [[影片]](https://youtu.be/KeVB5RwMzJo?t=32m24s)  [[文章]](../connect-data/desktop-directquery-about.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
 * 開啟和儲存效能改善  [[影片]](https://youtu.be/KeVB5RwMzJo?t=33m40s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
-* 「顯示沒有資料的項目」  改善  [[影片]](https://youtu.be/KeVB5RwMzJo?t=34m6s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
+* 「顯示沒有資料的項目」改善  [[影片]](https://youtu.be/KeVB5RwMzJo?t=34m6s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData) 
 * 即將推出 **Power BI 服務**的持續篩選控制功能  [[影片]](https://youtu.be/KeVB5RwMzJo?t=34m56s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#persistentFilters) 
 
 
@@ -1639,7 +1720,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   每月更新的 **[部落格]** 文章中則說明大多數功能。
 -   最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是 12 月 **Power BI Desktop** 新增的更新：
 
@@ -1694,7 +1775,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   每月更新的 **[部落格]** 文章中則說明大多數功能。
 -   最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是 11 月 **Power BI Desktop** 新增的更新：
 
@@ -1753,7 +1834,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   每月更新的 **[部落格]** 文章中則說明大多數功能。
 -   最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 **Power BI Desktop** 新增的更新：
 
@@ -1915,7 +1996,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="query-editing"></a>查詢編輯：
 
--   「從範例新增資料行」  改善  [[影片]](https://youtu.be/4X96ow7FnSY?t=27m54s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#addColumnFromExamples)
+-   「從範例新增資料行」改善  [[影片]](https://youtu.be/4X96ow7FnSY?t=27m54s)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#addColumnFromExamples)
 
 
 
@@ -1960,7 +2041,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="query-editing"></a>查詢編輯：
 
--   「從範例新增資料行」  改善 [[影片]](https://youtu.be/YlNVE5dgcSI?t=28m38s) [[文章]](../create-reports/desktop-add-column-from-example.md)   [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#addColumn)
+-   「從範例新增資料行」改善 [[影片]](https://youtu.be/YlNVE5dgcSI?t=28m38s) [[文章]](../create-reports/desktop-add-column-from-example.md)   [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#addColumn)
 
 
 
@@ -2000,7 +2081,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="data-connectivity"></a>資料連接：
 
--   組合檔案 - 能夠將「第一個檔案」  當作範例參考 [[影片]](https://youtu.be/CKISVNHcHVA?t=21m30s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#combineFiles)
+-   組合檔案 - 能夠將「第一個檔案」當作範例參考 [[影片]](https://youtu.be/CKISVNHcHVA?t=21m30s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#combineFiles)
 -   新的資料連接器︰
     -  Dynamics 365 for Customer Insights [[影片]](https://youtu.be/CKISVNHcHVA?t=21m2s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/#customerInsights)
 
@@ -2131,7 +2212,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 ### <a name="data-connectivity"></a>資料連接：
 
 -   新增或增強型資料連接器 [[影片]](https://youtu.be/mn75-LOPxMA?t=9m23s)：
-    -   ODBC 與 OLE DB 連接器 - 支援「選取相關的資料表」  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#relatedTables)
+    -   ODBC 與 OLE DB 連接器 - 支援「選取相關的資料表」[[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#relatedTables)
     -   增強資料夾連接器 - 支援合併 [預覽] 對話方塊中的二進位檔 [[影片]](https://youtu.be/mn75-LOPxMA?t=10m1s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#folder)
     -   結合文字與 CSV 連接器 [[影片]](https://youtu.be/mn75-LOPxMA?t=11m9s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#textConnector)
     -   **新功能** - PowerApps Common Data Service 連接器 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#cds)
@@ -2139,8 +2220,8 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="query-editing-improvements"></a>查詢編輯器改進
 
--   新 [Column headers type] \(資料行標頭類型\)  功能表中的 [使用地區設定]  選項可快速變更資料行的資料類型及地區設定 [[影片]](https://youtu.be/mn75-LOPxMA?t=11m42s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#columnType)
--   使用新的 [在此步驟後插入步驟]  選項即時連線可輕鬆在現有查詢中插入步驟  [[影片]](https://youtu.be/mn75-LOPxMA?t=12m36s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#stepsPane)
+-   新 [Column headers type] \(資料行標頭類型\) 功能表中的 [使用地區設定] 選項可快速變更資料行的資料類型及地區設定 [[影片]](https://youtu.be/mn75-LOPxMA?t=11m42s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#columnType)
+-   使用新的 [在此步驟後插入步驟] 選項即時連線可輕鬆在現有查詢中插入步驟  [[影片]](https://youtu.be/mn75-LOPxMA?t=12m36s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#stepsPane)
 
 ### <a name="other-improvements"></a>其他功能改進
 
@@ -2226,14 +2307,14 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   新的資料連接器 [[影片]](https://youtu.be/kERJ_WOLuLk?t=14m10s)：
     -   Spark DirectQuery [[影片]](https://youtu.be/kERJ_WOLuLk?t=14m12s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#spark)
     -   OData 連接器改善 [[影片]](https://youtu.be/kERJ_WOLuLk?t=15m44s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#oData)
-    -   增強「合併二進位檔」  體驗 [[影片]](https://youtu.be/kERJ_WOLuLk?t=15m44s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#combineBinaries)
+    -   增強「合併二進位檔」體驗 [[影片]](https://youtu.be/kERJ_WOLuLk?t=15m44s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#combineBinaries)
     -   Azure Analysis Services [[影片]](https://youtu.be/kERJ_WOLuLk?t=17m3s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#azureAnalysisServices)
 
 ### <a name="query-editing-improvements"></a>查詢編輯器改進
 
--   改善「函式撰寫」  體驗 [[影片]](https://youtu.be/kERJ_WOLuLk?t=18m3s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#functionAuthoring)
--   支援「百分比」  資料類型 [[影片]](https://youtu.be/kERJ_WOLuLk?t=18m36s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#percentage)
--   在 [導覽器]  和 [查詢相依性]  中新增 [最大化]  和 [還原]  按鈕 [[影片]](https://youtu.be/kERJ_WOLuLk?t=19m16s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#maximize)
+-   改善「函式撰寫」體驗 [[影片]](https://youtu.be/kERJ_WOLuLk?t=18m3s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#functionAuthoring)
+-   支援「百分比」資料類型 [[影片]](https://youtu.be/kERJ_WOLuLk?t=18m36s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#percentage)
+-   在 [導覽器] 和 [查詢相依性] 中新增 [最大化] 和 [還原] 按鈕 [[影片]](https://youtu.be/kERJ_WOLuLk?t=19m16s) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#maximize)
 
 
 > [!NOTE]
@@ -2282,11 +2363,11 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="query-editing-improvements"></a>查詢編輯器改進
 
--   在 [叫用函式]  對話方塊中支援「資料表參數」  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#invokeFunction) [[影片]](https://youtu.be/UXEYSvgvMaQ?t=18m12s)
+-   在 [叫用函式] 對話方塊中支援「資料表參數」[[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#invokeFunction) [[影片]](https://youtu.be/UXEYSvgvMaQ?t=18m12s)
 
 ### <a name="other-improvements"></a>其他功能改進
 
--   [關於]  對話方塊中的診斷資訊 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#diagnostics) [[影片]](https://youtu.be/UXEYSvgvMaQ?t=19m16s)
+-   [關於] 對話方塊中的診斷資訊 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#diagnostics) [[影片]](https://youtu.be/UXEYSvgvMaQ?t=19m16s)
 
 
 > [!NOTE]
@@ -2326,7 +2407,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
     -   ProjectPlace 連接器 [[文章]](../connect-data/desktop-connect-impala.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 -   改進現有的連接器︰
     -   Oracle 連接器 - 改善的 Navigator 預覽效能 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
-    -   OData 連接器 - 支援 [選取的相關資料表]  選項 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+    -   OData 連接器 - 支援 [選取的相關資料表] 選項 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
     -   SAP Business Warehouse 和 SAP HANA 連接器 - 參數輸入介面的改善 [[文章]](../connect-data/desktop-sap-bw-connector.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
     -   Web 連接器 - 支援在對話方塊內指定 HTTP 要求標頭 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[影片]](https://youtu.be/pcUr6E8g_KI?t=8m5s)
 
@@ -2337,9 +2418,9 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   顯示錯誤體驗 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 -   純量值的查詢編輯器功能區支援 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 -   新增函式引動過程資料行 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
--   展開和彙總資料行 - 支援 [載入更多]  值[[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+-   展開和彙總資料行 - 支援 [載入更多] 值[[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 -   新轉換 - 將資料表資料行轉換為清單 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
--   鍵盤輸入 - 支援下拉式功能表中的「智慧鍵入」  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+-   鍵盤輸入 - 支援下拉式功能表中的「智慧鍵入」[[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 
 
 ### <a name="other-improvements"></a>其他功能改進
@@ -2370,7 +2451,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   每月更新的 **[部落格]** 文章中則說明大多數功能。
 -   最後，有些功能一目瞭然，因此不需要文章或影片。
 
-您也可以從頭開始觀賞 [最新更新]  視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放]  圖示。
+您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 以下是本月 Power BI Desktop 新增的更新：
 
@@ -2385,7 +2466,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="analytics-new"></a>分析 (新功能！)
 
--   全新的 [分析]  窗格 [[文章]](../transform-model/desktop-analytics-pane.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[影片]](https://youtu.be/0VvG7Eqoke8?t=8m22s)
+-   全新的 [分析] 窗格 [[文章]](../transform-model/desktop-analytics-pane.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[影片]](https://youtu.be/0VvG7Eqoke8?t=8m22s)
 -   動態參考線 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-feature-summary/) [[影片]](https://youtu.be/0VvG7Eqoke8?t=9m40s)
 
 
@@ -2447,7 +2528,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 -   在查詢編輯器中使用 **R** 指令碼 [[文章]](../connect-data/desktop-r-in-query-editor.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
 -   加強查詢參數︰
-    -   將查詢輸出列為參數「允許的值」  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
+    -   將查詢輸出列為參數「允許的值」[[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
 -   覆寫現有的使用者定義函數 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)
 
 
@@ -2488,11 +2569,11 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
     -   允許變數/參數值的多重選取
     -   支援 SAP BW 中的階層
 -   增強的 OData 連接器 - 匯入 Open Type 資料行 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
--   增強的 Access DB 連接器 - [導覽]  對話方塊中的 [選取相關資料表]  按鈕 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+-   增強的 Access DB 連接器 - [導覽] 對話方塊中的 [選取相關資料表] 按鈕 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 
 ### <a name="data-connectors"></a>資料連接器︰
 
--   範本 - [載入]  或 [編輯]  的選項 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
+-   範本 - [載入] 或 [編輯] 的選項 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   查詢參數的功能加強︰[[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
     -   一律允許參數規格的選項
     -   直接在內容中建立新的參數
@@ -2548,16 +2629,16 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   Text/CSV 連接器會在預覽對話方塊中公開可編輯設定 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   使用顯示結構描述資訊改善的關聯式資料庫連接器
 -   資料來源設定增強功能 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
--   進階的 [篩選資料列]  對話方塊模式 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   進階的 [篩選資料列] 對話方塊模式 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   **查詢編輯器**中函式引動過程的內嵌輸入控制項 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   查詢參數︰[[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
     -   轉換查詢至參數的能力 (反之亦然)
     -   支援 **Web** 連接器中的 URL 參數化和多部分 URL
-    -   支援 [條件式資料行]  對話方塊中的參數化
--   能夠 [另存新檔]  Power BI 範本 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+    -   支援 [條件式資料行] 對話方塊中的參數化
+-   能夠 [另存新檔] Power BI 範本 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   使用拖放支援重新排序查詢步驟 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
--   [條件式資料行]  對話方塊輸入日期欄位中的日期選擇器支援 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
--   從 [查詢]  窗格中用來建立新查詢的新內容功能表項目 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   [條件式資料行] 對話方塊輸入日期欄位中的日期選擇器支援 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   從 [查詢] 窗格中用來建立新查詢的新內容功能表項目 [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 
 
 > [!NOTE]
@@ -2597,7 +2678,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 -   查詢參數
 -   Power BI 範本檔案
--   [取得資料] 對話方塊中的新 [線上服務]  類別
+-   [取得資料] 對話方塊中的新 [線上服務] 類別
 -   新的連接器：
     -   SharePoint 資料夾
     -   Webtrends
@@ -2632,7 +2713,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 ### <a name="report-view"></a>報表檢視：
 
 -   將報表發佈至 Power BI 服務的群組空間
--   使用 KPI 趨勢的報表現在採用 SSAS MD 的 [不摘要]  模型設定
+-   使用 KPI 趨勢的報表現在採用 SSAS MD 的 [不摘要] 模型設定
 -   資料點警告現在不會造成干擾
 
 
@@ -2655,13 +2736,13 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
     -   將工期值轉換成年
     -   保留重複項目
 -   支援查詢編輯器預覽中的空白字元和換行字元
--   在 [變更含地區設定的類型]  對話方塊中包含「範例輸入值」  的提示
--   [導覽]  視窗的增強功能：
+-   在 [變更含地區設定的類型] 對話方塊中包含「範例輸入值」的提示
+-   [導覽] 視窗的增強功能：
     -   新增結構描述資訊至 ODBC 來源的導覽階層
-    -   能夠從 [導覽]  停用預覽
+    -   能夠從 [導覽] 停用預覽
     -   技術名稱支援
 -   載入：自動載入步驟，可釐清衝突的資料行名稱 (比較時不區分大小寫)
--   您現在可以直接從 [查詢]  窗格重新命名查詢
+-   您現在可以直接從 [查詢] 窗格重新命名查詢
 
 
 需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-march-update-feature-summary/)，您可以從中取得每項新功能的詳細資訊。
@@ -2685,15 +2766,15 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 ### <a name="report-view"></a>報表檢視：
 
--   查看視覺效果背後的資料 (包括將資料匯出至 CSV  )
+-   查看視覺效果背後的資料 (包括將資料匯出至 CSV )
 -   地圖改善 – 只以經緯度繪製地圖
 -   KPI 耗用量版本支援 (包括 SSAS MD 的瀏覽階層支援及 KPI 趨勢)
 -   SSAS 探勘模式：支援 [欄位]  窗格中的 [顯示]  資料夾
--   功能區配置改進：[報表工具]  的內容功能區索引標籤
+-   功能區配置改進：[報表工具] 的內容功能區索引標籤
 -   新的 KPI 視覺效果
 -   在儲存報表時，取得開啟至可見之相同頁面的報表
--   [欄位] 窗格中資料表內容功能表的 [編輯查詢]  選項 ([報表]   &  和 [資料]  檢視)
--   功能區的 [複製頁面] 
+-   [欄位] 窗格中資料表內容功能表的 [編輯查詢] 選項 ([報表] &  和 [資料] 檢視)
+-   功能區的 [複製頁面]
 
 
 ### <a name="data-modeling"></a>資料模型化：
@@ -2713,13 +2794,13 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 -   SharePoint 清單連接器 – URL 驗證
 -   資料庫連接器 – 能夠在 [查詢] 預覽中停用瀏覽資料行 (效能最佳化)
 -   Web 連接器 – 更細緻的認證範圍
--   [輸入資料]  對話方塊 UX 增強功能
+-   [輸入資料] 對話方塊 UX 增強功能
 -   SAP HANA – 支援使用 Windows 驗證的單一登入 (僅限 Power BI Desktop)
 -   SAP HANA – 支援 [欄位]  標籤
 -   在 [選擇資料行]  產生器中將資料行按字母順序排序
 -   重新命名/移除/重新排列資料行的效能改進
--   [查詢編輯器]  中的虛擬化預覽
--   [查詢編輯器]  中卸載查詢的視覺指標
+-   [查詢編輯器] 中的虛擬化預覽
+-   [查詢編輯器] 中卸載查詢的視覺指標
 -   按一下即可進行百分比轉換
 
 需要這些更新的詳細資訊嗎？ 請參閱[部落格文章](https://powerbi.microsoft.com/blog/power-bi-update-lots-of-new-authoring-features-and-a-new-power-bi-desktop-update/)，您可以從中取得每項新功能的詳細資訊。
@@ -2781,7 +2862,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
     - 變更視覺效果中顯示的小數位數
     - 變更視覺效果中的文字大小
     - 更精確的視覺效果配置：對齊方式、相等間距、大小、位置
-    - 透過 [複製格式]  跨多個視覺效果設定樣式
+    - 透過 [複製格式] 跨多個視覺效果設定樣式
     - 將 **首頁** 功能區配置最佳化
 
 
