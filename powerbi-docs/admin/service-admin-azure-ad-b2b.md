@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 09b2f8afd78eda244a6862459a85558efa0fa1c2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 25b136bfa15b00333400b80781d968d0b40d9779
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129233"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564487"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者
 
@@ -34,7 +34,7 @@ Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與�
 
 ## <a name="who-can-you-invite"></a>您可以邀請哪些人？
 
-您可以將大多數電子郵件地址的來賓使用者邀請到組織中，包括 gmail.com、outlook.com 以及 hotmail.com 等個人帳戶。 Azure AD B2B 會將這些地址稱為「社交身分識別」  。
+您可以將大多數電子郵件地址的來賓使用者邀請到組織中，包括 gmail.com、outlook.com 以及 hotmail.com 等個人帳戶。 Azure AD B2B 會將這些地址稱為「社交身分識別」。
 
 您無法邀請與政府雲端建立關聯的使用者，例如[適用於美國政府的 Power BI](service-govus-overview.md)。
 
@@ -54,21 +54,21 @@ Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與�
 
 請遵循下列步驟，以在 Azure 入口網站中傳送邀請。
 
-1. 在 [Azure 入口網站](https://portal.azure.com) 中，選取 [Azure Active Directory]  。
+1. 在 [Azure 入口網站](https://portal.azure.com) 中，選取 [Azure Active Directory]。
 
-1. 在 [管理]  底下，選取 [使用者]   > [所有使用者]   > [新增來賓使用者]  。
+1. 在 [管理] 底下，選取 [使用者] > [所有使用者] > [新增來賓使用者]。
 
     ![顯示 [新增來賓使用者] 選項的 Azure 入口網站螢幕擷取畫面。](media/service-admin-azure-ad-b2b/azure-ad-portal-new-guest-user.png)
 
-1. 輸入 [電子郵件地址]  和 [個人訊息]  。
+1. 輸入 [電子郵件地址] 和 [個人訊息]。
 
     ![Azure AD 入口網站 [新增來賓使用者] 對話方塊的螢幕擷取畫面。](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
 
-1. 選取 [邀請]  。
+1. 選取 [邀請]。
 
 若要邀請多位來賓使用者，請使用 PowerShell。 如需詳細資訊，請參閱 [Azure AD B2B 共同作業程式碼和 PowerShell 範例](/azure/active-directory/b2b/code-samples/)。
 
-來賓使用者必須在其收到的電子郵件邀請中選取 [開始使用]  。 系統便會將來賓使用者新增至租用戶。
+來賓使用者必須在其收到的電子郵件邀請中選取 [開始使用]。 系統便會將來賓使用者新增至租用戶。
 
 ![來賓使用者電子郵件邀請的螢幕擷取畫面。](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
 
@@ -115,9 +115,9 @@ Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與�
  
 若要協助授權的來賓登入 Power BI，請提供其租用戶 URL。 若要尋找租用戶 URL，請遵循下列步驟。
 
-1. 在 Power BI 服務的頂端功能表中，選取說明 ( **?** )，然後選取 [關於 About Power BI]  。
+1. 在 Power BI 服務的頂端功能表中，選取說明 ( **?** )，然後選取 [關於 About Power BI]。
 
-2. 尋找 [租用戶 URL]  旁邊的值。 與您所授權的來賓使用者共用租用戶 URL。
+2. 尋找 [租用戶 URL] 旁邊的值。 與您所授權的來賓使用者共用租用戶 URL。
 
     ![顯示來賓使用者租用戶 URL 的 [關於 Power BI] 對話方塊螢幕擷取畫面。](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
 
@@ -130,7 +130,7 @@ Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與�
 * 某些體驗無法供[可編輯和管理組織中內容的來賓使用者](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)使用。 若要更新或發佈報表，他們需要使用 Power BI 服務 Web UI，包括 [取得資料] 以上傳 Power BI Desktop 檔案。  不支援下列體驗：
     * 從 Power BI Desktop 直接發佈至 Power BI 服務
     * 來賓使用者無法使用 Power BI Desktop 來連線至 Power BI 服務中的服務資料集
-    * 繫結至 Office 365 群組的典型工作區：
+    * 繫結至 Microsoft 365 群組的典型工作區：
         * 來賓使用者無法建立這些工作區，或是成為這些工作區的管理員
         * 來賓使用者可以成為成員
     * 工作區的存取清單不支援傳送臨時邀請

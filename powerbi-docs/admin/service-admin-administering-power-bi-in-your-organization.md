@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9e9ed930cc557250a9e1702d6010536ed069cd7b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: afa8513267be4ec2de18a9adda7995c88f4f2aa8
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129537"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438031"
 ---
 # <a name="what-is-power-bi-administration"></a>什麼是 Power BI 管理？
 
@@ -36,17 +36,17 @@ Power BI 是針對自助商業智慧而設計，而系統管理員是 Power BI �
 
 | **系統管理員的類型** | **管理範圍** | **Power BI 範圍** |
 | --- | --- | --- |
-| Office 365 全域管理員 | Office 365 | 可管理 Power BI 租用戶的各個層面及其他服務。 |
-| Office 365 計費管理員 | Office 365 | 可透過 Office 365 訂閱取得 Power BI 授權。 |
+| 全域管理員 | Microsoft 365 | 可管理 Power BI 租用戶的各個層面及其他服務。 |
+| 計費管理員 | Microsoft 365 | 可透過 Office 365 訂閱取得 Power BI 授權。 |
 | Power BI 服務管理員 | Power BI 租用戶 | 對 Power BI 租用戶和其系統管理功能 (除了授權以外) 有完整的控制權。 |
 | Power BI Premium 容量管理員 | 單一 Premium 容量 | 對於 Premium 容量和其系統管理功能有完整的控制權。 |
 | Power BI Embedded 容量管理員 | 單一 Embedded 容量 | 對於 Embedded 容量和其系統管理功能有完整的控制權。 |
 
-Office 365 或 Azure Active Directory 中的全域管理員，在 Power BI 中有系統管理員權限。 Office 365 全域管理員可以將 Power BI 服務系統管理員角色指派給其他使用者，這樣只會授與 Power BI 的系統管理權限。
+Microsoft 365 或 Azure Active Directory 中的全域管理員在 Power BI 中有系統管理員權限。 Microsoft 365 全域管理員可將 Power BI 服務系統管理員角色指派給其他使用者，這樣只會授與 Power BI 的系統管理權限。
 
 Power BI 服務系統管理員可以存取 Power BI 管理入口網站，其中包含有關功能、安全性和監視等各種租用戶層級的設定。 服務系統管理員擁有 Power BI 租用戶所有資源的完整存取權。 在大部分情況下，服務系統管理員會識別問題，然後追蹤資源擁有者以採取更正動作。
 
-Power BI 服務系統管理員角色不會將指派授權的能力授與使用者，或在 Office 365 中檢視稽核記錄的能力。 因此，僅是 Power BI 服務系統管理員角色的使用者，目前無法執行管理 Power BI 的工作。
+Power BI 服務系統管理員角色不會將指派授權的能力，或在 Microsoft 365 中檢視稽核記錄檔的能力授與使用者。 因此，僅是 Power BI 服務系統管理員角色的使用者，目前無法執行管理 Power BI 的工作。
 
 ## <a name="administrative-tasks"></a>管理工作
 

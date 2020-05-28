@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3f0d60bb780b980d3840072568e30d6b4e09da34
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5330b4c42794f0fa3110cef57f6d62ead0381e52
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348996"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561780"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服務中設定報表與儀表板的連絡人資訊
 此文章說明如何在 Power BI 服務中為報表與儀表板設定連絡人資訊。
@@ -24,11 +24,11 @@ ms.locfileid: "83348996"
 
 您可以將更多使用者或群組新增到項目的連絡人。 他們可以是：
 * 個人
-* Office 365 群組
+* Microsoft 365 群組
 * 已啟用電子郵件的安全性群組
 * 通訊群組清單
 
-根據預設，建立新報表或儀表板的人是它的連絡人。 若設定某值，它會覆寫預設值。 您當然可以將所有人或群組從連絡人清單移除。 當您這樣做時，針對傳統工作區，將會顯示該工作區的 Office 365 群組。 針對新工作區體驗工作區，將會使用[工作區連絡人清單](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list)。 若未設定工作區連絡人清單，則會顯示工作區系統管理員。
+根據預設，建立新報表或儀表板的人是它的連絡人。 若設定某值，它會覆寫預設值。 您當然可以將所有人或群組從連絡人清單移除。 當這樣做時，針對傳統工作區，將會顯示該工作區的 Microsoft 365 群組。 針對新工作區體驗工作區，將會使用[工作區連絡人清單](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list)。 若未設定工作區連絡人清單，則會顯示工作區系統管理員。
 
 連絡人資訊會顯示給檢視項目的人。 
 
@@ -44,16 +44,16 @@ ms.locfileid: "83348996"
 > 發行應用程式時，個別項目上的連絡人資訊會設定為發行或更新應用程式的人。 您可以設定應用程式支援 URL，以便應用程式使用者可以在需要時取得協助。
 
 ## <a name="set-contact-information-for-a-report"></a>為報表設定連絡人資訊
-1. 在工作區中，選取 [報表]  索引標籤。
-2. 找到想要的報表，然後選取 [設定]  圖示。
-3. 找到 [連絡人]  輸入欄位並設定值。
+1. 在工作區中，選取 [報表] 索引標籤。
+2. 找到想要的報表，然後選取 [設定] 圖示。
+3. 找到 [連絡人] 輸入欄位並設定值。
 
      ![服務報表連絡人設定](media/service-item-contact/service-report-contact-setting.png)
 
 ## <a name="set-contact-information-for-a-dashboard"></a>設定儀表板的連絡人資訊
-1. 在工作區中，選取 [儀表板]  索引標籤。
-2. 找到想要的儀表板，然後選取 [設定]  圖示
-3. 找到 [連絡人]  輸入欄位並設定值。
+1. 在工作區中，選取 [儀表板] 索引標籤。
+2. 找到想要的儀表板，然後選取 [設定] 圖示
+3. 找到 [連絡人] 輸入欄位並設定值。
 
      ![服務儀表板連絡人設定](media/service-item-contact/service-dashboard-contact-setting.png)
 
