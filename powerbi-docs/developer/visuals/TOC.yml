@@ -52,6 +52,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: 在 AppSource 上發佈 Power BI 視覺效果
           href: office-store.md
+        - name: 建立 R 支援的視覺效果
+          href: create-r-based-power-bi-desktop.md
         - name: 測試 Power BI 視覺效果
           href: submission-testing.md
         - name: 在 Power BI 中使用 R 支援的 Power BI 視覺效果
