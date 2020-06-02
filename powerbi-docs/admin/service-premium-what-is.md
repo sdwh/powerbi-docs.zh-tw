@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 7c9f198ac15311948e1789173851a6c85debc856
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438238"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812442"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -50,7 +50,7 @@ Azure Power BI Embedded 遠遠超過本文討論範圍，但在＜Premium 功能
 
 ### <a name="purchasing"></a>購買
 
-Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買。 具體而言，只有 Office 365 全域管理員或計費管理員可以購買 SKU。 購買時，租用戶會收到指派給容量的對應 V 核心數目，稱為「V 核心共用」。 例如，購買 P3 SKU 可提供租用戶 32 個 V 核心。 若要深入了解，請參閱[如何購買 Power BI Premium](service-admin-premium-purchase.md)。
+Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買。 具體而言，只有全域管理員或計費管理員可以購買 SKU。 購買時，租用戶會收到指派給容量的對應 V 核心數目，稱為「V 核心共用」。 例如，購買 P3 SKU 可提供租用戶 32 個 V 核心。 若要深入了解，請參閱[如何購買 Power BI Premium](service-admin-premium-purchase.md)。
 
 ## <a name="dedicated-capacities"></a>專用容量
 
@@ -127,13 +127,13 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 ### <a name="regional-support"></a>區域支援
 
-建立新容量時，Office 365 全域管理員和 Power BI 服務管理員可以為指派給容量的工作區指定存放區域。 這稱為**多地理位置**。 透過多地理位置，組織可以將內容部署到位於特定區域的資料中心來符合資料落地需求，即使該區域不同於 Office 365 訂閱所在區域也一樣。 若要深入了解，請參閱 [Power BI Premium 的多地理位置支援](service-admin-premium-multi-geo.md)。
+建立新容量時，全域管理員和 Power BI 服務管理員可以為指派給容量的工作區指定存放區域。 這稱為**多地理位置**。 透過多地理位置，組織可以將內容部署到位於特定區域的資料中心來符合資料落地需求，即使該區域不同於 Office 365 訂閱所在區域也一樣。 若要深入了解，請參閱 [Power BI Premium 的多地理位置支援](service-admin-premium-multi-geo.md)。
 
 ### <a name="capacity-management"></a>容量管理
 
 管理 Premium 容量牽涉到建立或刪除容量、指派管理員、指派工作區、設定工作負載、監視，以及進行調整將容量效能最佳化。 
 
-Office 365 全域管理員和 Power BI 服務管理員可以從可用的 V 核心建立 Premium 容量，或修改現有的 Premium 容量。 建立一個容量時，會指定容量大小和地理區域，並指派至少一個容量管理員。 
+全域管理員和 Power BI 服務管理員可以從可用的 V 核心建立 Premium 容量，或修改現有的 Premium 容量。 建立一個容量時，會指定容量大小和地理區域，並指派至少一個容量管理員。 
 
 建立多個容量時，會在[管理入口網站](service-admin-portal.md)中完成大部分的管理工作。
 

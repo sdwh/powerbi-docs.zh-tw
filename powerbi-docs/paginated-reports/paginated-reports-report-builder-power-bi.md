@@ -4,26 +4,39 @@ description: 編頁報表，SQL Server Reporting Services 中長期以來的標�
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/14/2020
-ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 05/19/2020
+ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565498"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733408"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>什麼是 Power BI Premium 中的編頁報表？
 
-編頁報表，SQL Server Reporting Services 中長期以來的標準報表格式，現在可在 Power BI 服務中使用。 這些報表可以被列印或共用。 它們稱為「編頁」，因為已將它們格式化，使其可適當地符合頁面。 即使資料表跨越多個頁面，它們也會在資料表中顯示所有資料。 它們有時被稱為「完美像素」，因為您可以完全控制其報表頁面配置。 編頁報表是以 SQL Server Reporting Services 中的 RDL 報表技術為基礎。 報表產生器是用於撰寫編頁報表的獨立工具。 
+*編頁報表*是設計用來進行列印或共用。 這些報表稱為「編頁」，因為已將其格式化，可適當地符合頁面。 即使資料表跨越多個頁面，它們也會在資料表中顯示所有資料。 它們亦稱為「完美像素」，因為您可以完全控制其報表頁面配置。 Power BI 報表產生器是用於撰寫編頁報表的獨立工具。 編頁報表中長期以來是以 SQL Server Reporting Services 中的 RDL 報表技術為基礎。 
 
-編頁報表可以有許多頁面。 例如，此報表有 563 頁。 每頁都有精確的版面配置，每個發票一頁並重複頁首和頁尾。
+編頁報表通常會有許多頁面。 例如，此報表有 563 頁。 每頁都有精確的版面配置，每個發票一頁並重複頁首和頁尾。
 
 ![分頁](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 您可以在報表產生器中預覽報表，然後將其發佈至 Power BI 服務 (`https://app.powerbi.com`) 中。 您需要 Power BI Pro 授權，才能將報表發佈至服務。 只要工作區位於 Power BI Premium 容量，即可在 [我的工作區] 或工作區中發佈及共用編頁報表。 此外，Power BI 系統管理員需要在 Power BI 管理入口網站的 [Premium 容量區段](../admin/service-admin-premium-workloads.md#paginated-reports)中啟用分頁報表。 
+
+## <a name="compare-power-bi-reports-and-paginated-reports"></a>比較 Power BI 報表和編頁報表
+
+編頁報表的主要優點是能夠列印資料表中的所有資料 (不論多久)。 您在 Power BI 報表中放置資料表的圖片。 您會在頁面的資料表中看到其部分資料列，且可以使用捲軸來查看其餘部分。 如果列印該頁面或將其匯出成 PDF，則唯一列印的資料列就是在頁面上看到的。 
+
+現在假設將相同的資料表放在編頁報表中。 將其列印或匯出成 PDF 時，編頁報表會有所需的所有頁數，可列印該資料表中的每個資料列。 
+
+在下列影片中，Microsoft 最具價值的專家 - 資料平台 Peter Myers，以及主要專案經理 Chris Finlan 會示範如何以這兩種報表格式來列印類似的資料表。 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jXTiYJKw1Rs?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT" frameborder="0" allowfullscreen></iframe>
+
+這段影片是以八個模組為基礎的影片課程一部分，[一天中的 Power BI 編頁報表](../learning-catalog/paginated-reports-online-course.md)。 這堂課程的設計旨在讓您 (報表作者) 具備建立、發佈及散發 Power BI 編頁報表所需的技術知識。
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>在 Power BI 報表產生器中建立報表
 

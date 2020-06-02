@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ce18b3cb077e0fee2eea4d0d31327329f405a51a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 25b5665aa531c347d43a197b53938aec569b9d2d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563760"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812166"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>管理 Power BI - 常見問題集 (FAQ)
 
@@ -27,8 +27,8 @@ ms.locfileid: "83563760"
 * [使用 PowerShell](#using-powershell)
 * [使用者如何註冊 Power BI？](#how-do-users-sign-up-for-power-bi)
 * [個人使用者如何在我的組織中註冊？](#how-do-individual-users-in-my-organization-sign-up)
-* [我該如何防止使用者加入現有的 Office 365 租用戶？](#how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant)
-* [我該如何允許使用者加入現有的 Office 365 租用戶？](#how-can-i-allow-users-to-join-my-existing-microsoft-365-tenant)
+* [我該如何防止使用者加入現有的組織？](#how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant)
+* [我該如何允許使用者加入現有的組織？](#how-can-i-allow-users-to-join-my-existing-microsoft-365-tenant)
 * [我該如何檢查租用戶是否開啟了封鎖？](#how-do-i-check-if-i-have-the-block-on-in-the-tenant)
 * [我該如何不讓現有的使用者開始使用 Power BI？](#how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi)
 * [我要如何允許現有的使用者註冊 Power BI？](#how-can-i-allow-my-existing-users-to-sign-up-for-power-bi)

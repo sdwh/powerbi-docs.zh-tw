@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/12/2020
+ms.date: 05/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1a6cf5cad4fe4b76d44dcfaecd81324003687b10
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: aa8b457dfd33cff40dbd651f0e07811e361e52d9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407878"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120962"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>使用服務主體將 Premium 工作區與資料集工作自動化
 
@@ -29,7 +29,7 @@ Power BI Premium 使用與 Power BI Embedded 相同的服務主體功能。 若�
 - Azure Logic Apps
 - 自訂用戶端應用程式
 
-服務主體只能與 XMLA 端點搭配使用於[新的工作區](../collaborate-share/service-new-workspaces.md)， 傳統工作區則不受支援。 服務主體只有在為其指派的工作區中執行工作時，才具有所需的權限。 權限是透過工作區存取權來指派，非常類似於一般的 UPN 帳戶。
+只有[新的工作區](../collaborate-share/service-new-workspaces.md)支援使用服務主體的 XMLA 端點連線。 傳統工作區則不受支援。 服務主體只有在為其指派的工作區中執行工作時，才具有所需的權限。 權限是透過工作區存取權來指派，非常類似於一般的 UPN 帳戶。
 
 若要執行寫入作業，則容量的 [資料集工作負載] 必須[啟用 XMLA 端點以進行讀寫](service-premium-connect-tools.md#enable-xmla-read-write)。 從 Power BI Desktop 發佈的資料集應啟用[增強型中繼資料格式](../connect-data/desktop-enhanced-dataset-metadata.md)功能。
 
@@ -91,7 +91,7 @@ $PWord = ConvertTo-SecureString -String $AppSecret -AsPlainText -Force
 
 $Credential = New-Object -TypeName "System.Management.Automation.PSCredential" -ArgumentList $AppId, $PWord
 
-Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -Database "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
+Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -DatabaseName "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
 ```
 
 ### <a name="amo-and-adomd"></a>AMO 和 ADOMD

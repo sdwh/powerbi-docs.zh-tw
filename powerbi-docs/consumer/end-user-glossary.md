@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: ebdd84dd4de054df08ac79dc2d28f7862cbb284b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 8426b9461b55ae6c29d5adc71f8073ec48731855
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564887"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794075"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」及其連線方式的高階概觀。
@@ -22,9 +22,7 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 ## <a name="a"></a>A
 
-**帳戶**：Power BI 帳戶有許多不同類型，也稱為「授權」或「訂閱」。  帳戶可以是每個使用者帳戶或組織帳戶。 每個使用者帳戶以「免費」或 *Pro* 提供。  Power BI 其「免費」使用者正在使用的為獨立 Power BI Desktop、或獨立 Power BI 服務，或具有 Premium 組織訂閱的組織內 Power BI 服務。 Power BI 每個使用者 *Pro* 帳戶是付費的每月訂用帳戶，可讓您與其他 *Pro* 使用者共同作業及共用內容。 
-
-組織的 *Premium* (也稱為「Premium 容量」) 訂閱會在每個使用者授權上新增一層功能。 例如，在組織內擁有 *Premium* 訂閱的「免費」每個使用者帳戶持有人，能夠使用 Power BI 做的事，比沒有 *Premium* 的「免費」使用者更多。 例如，*Premium* 組織帳戶中的「免費」使用者可與同事共同作業，並可檢視 Power BI Premium 容量中所託管的內容。 
+**帳戶**使用公司或學校帳戶來登入 Power BI。 系統管理員會管理 Azure Active Directory 中的公司或學校帳戶。 您的存取層級取決於與該帳戶相關聯的 Power BI 授權和儲存內容的容量類型。 請參閱下面的 [授權] 和 [Premium]。 
 
 **admin portal (管理入口網站)** ：Power BI 系統管理員管理組織中 Power BI 使用者、功能及設定的位置。 (注意︰Microsoft 365、Azure 和 PowerApps 使用系統管理中心。)
 
@@ -171,7 +169,11 @@ Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查�
 
 第一次出現：導覽窗格 (navigation pane)，後續提及或空間狹小時：導覽窗格 (nav pane)
 
-**license (授權)** 請參閱「帳戶」。
+**授權**您的存取層級取決於與您帳戶相關聯的 Power BI 授權和儲存內容的容量類型。 例如，在共用容量中，擁有 Power BI Pro 授權的使用者只能與也獲指派 Pro 授權的使用者共同作業。 在共用容量中，免費授權僅允許存取使用者的個人工作區。 不過，當內容為 Premium 容量時，擁有 Pro 授權的使用者可以與獲指派免費授權的使用者共用該內容。 
+
+授權會指派給使用者，且可以是免費或 Pro 授權。 根據取得授權的方式而定，可能為已付費或未付款。 帳戶可以是每個使用者帳戶或組織帳戶。 每個使用者帳戶以「免費」或 *Pro* 提供。  Power BI 其「免費」使用者正在使用的為獨立 Power BI Desktop、或獨立 Power BI 服務，或具有 Premium 組織訂閱的組織內 Power BI 服務。 Power BI 每個使用者 *Pro* 帳戶是付費的每月訂用帳戶，可讓您與其他 *Pro* 使用者共同作業及共用內容。 
+
+組織的 *Premium* (也稱為「Premium 容量」) 訂閱會在每個使用者授權上新增一層功能。 例如，在組織內擁有 *Premium* 訂閱的「免費」每個使用者帳戶持有人，能夠使用 Power BI 做的事，比沒有 *Premium* 的「免費」使用者更多。 例如，*Premium* 組織帳戶中的「免費」使用者可與同事共同作業，並可檢視 Power BI Premium 容量中所託管的內容。 
 
 **list page (清單頁面)** 或**內容清單**：導覽窗格中其中一個項目區段頁面。 例如：我的最愛、最近項目、我的工作區等。
 

@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564607"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812419"
 ---
 # <a name="track-user-activities-in-power-bi"></a>追蹤 Power BI 中的使用者活動
 
@@ -26,7 +26,7 @@ ms.locfileid: "83564607"
 | 除了 Power BI 審核事件以外，還包含來自 SharePoint Online、Exchange Online、Dynamics 365 和其他服務的事件。 | 只包含 Power BI 審核事件。 |
 | 只有具備僅限檢視稽核記錄權限或稽核記錄權限的使用者才能存取，例如全域管理員和稽核員。 | 全域管理員和 Power BI 服務管理員可以存取。 |
 | 全域管理員和稽核員可使用 Microsoft 365 資訊安全中心以及 Microsoft 365 合規性中心來搜尋整合稽核記錄檔。 | 目前沒有任何使用者介面可搜尋活動記錄。 |
-| 全域管理員和稽核員可以使用 Office 365 管理 API 和 Cmdlet 來下載稽核記錄項目。 | 全域管理員和 Power BI 服務管理員可以使用 Power BI REST API 和管理 Cmdlet 來下載活動記錄項目。 |
+| 全域管理員和稽核員可以使用 Microsoft 365 管理 API 和 Cmdlet 來下載稽核記錄項目。 | 全域管理員和 Power BI 服務管理員可以使用 Power BI REST API 和管理 Cmdlet 來下載活動記錄項目。 |
 | 將審核資料保留 90 天 | 將活動資料保留 30 天 (公開預覽)。 |
 | 即使將租用戶移至不同的 Azure 區域，仍會保留稽核資料。 | 將租用戶移至不同的 Azure 區域時，不會保留活動資料。 |
 
@@ -239,6 +239,7 @@ Remove-PSSession $Session
 
 | 易記名稱                                     | 作業名稱                              | 備忘稿                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| Excel 中存取 Power BI 的精選資料表 | AnalyzedByExternalApplication |    |
 | 已將資料來源新增至 Power BI 閘道             | AddDatasourceToGateway                      |                                          |
 | 已新增 Power BI 資料夾存取權                      | AddFolderAccess                             | 目前未使用                       |
 | 已新增 Power BI 群組成員                      | AddGroupMembers                             |                                          |
@@ -299,6 +300,7 @@ Remove-PSSession $Session
 | 已列印 Power BI 儀表板                        | PrintDashboard                              |                                          |
 | 已列印 Power BI 報表頁面                      | PrintReport                                 |                                          |
 | 已將 Power BI 報表發佈到 Web                  | PublishToWebReport <sup>2</sup>                         |                                          |
+| 已發佈或更新的精選資料表 | UpdateFeaturedTables <sup>3</sup>   | |
 | 已從金鑰保存庫收到 Power BI 資料流程密碼  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | 已從 Power BI 閘道移除資料來源         | RemoveDatasourceFromGateway                 |                                          |
 | 已移除 Power BI 群組成員                    | DeleteGroupMembers                          |                                          |
@@ -341,6 +343,8 @@ Remove-PSSession $Session
 <sup>1</sup> 從 Power BI Desktop 發佈到服務是在服務中的 CreateReport 事件。
 
 <sup>2</sup> PublishtoWebReport 指的是[發佈至 Web](../collaborate-share/service-publish-to-web.md) 功能。
+
+<sup>3</sup> UpdateFeaturedTables 指的是 [Excel 中的 Power BI 精選資料表](../collaborate-share/service-excel-featured-tables.md)。
 
 ## <a name="next-steps"></a>後續步驟
 

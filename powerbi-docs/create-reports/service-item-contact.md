@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5330b4c42794f0fa3110cef57f6d62ead0381e52
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 08a05a266dd505dd991d90738b81a2e7d413f090
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561780"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119880"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服務中設定報表與儀表板的連絡人資訊
 此文章說明如何在 Power BI 服務中為報表與儀表板設定連絡人資訊。
@@ -28,7 +28,7 @@ ms.locfileid: "83561780"
 * 已啟用電子郵件的安全性群組
 * 通訊群組清單
 
-根據預設，建立新報表或儀表板的人是它的連絡人。 若設定某值，它會覆寫預設值。 您當然可以將所有人或群組從連絡人清單移除。 當這樣做時，針對傳統工作區，將會顯示該工作區的 Microsoft 365 群組。 針對新工作區體驗工作區，將會使用[工作區連絡人清單](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list)。 若未設定工作區連絡人清單，則會顯示工作區系統管理員。
+根據預設，建立新報表或儀表板的人是它的連絡人。 若設定某值，它會覆寫預設值。 您當然可以將所有人或群組從連絡人清單移除。 當您這樣做時，針對傳統工作區，將會顯示該工作區的 Microsoft 365 群組。 針對新工作區體驗工作區，將會使用[工作區連絡人清單](../collaborate-share/service-create-the-new-workspaces.md#create-a-contact-list)。 若未設定工作區連絡人清單，則會顯示工作區系統管理員。
 
 連絡人資訊會顯示給檢視項目的人。 
 

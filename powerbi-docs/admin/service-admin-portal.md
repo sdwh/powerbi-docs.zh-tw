@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/27/2020
+ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 605d35d55f3191b230d9c4a8d118e2c238283ff2
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564464"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733572"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -356,6 +356,16 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 ### <a name="use-global-search-for-power-bi-preview"></a>為 Power BI 使用全域搜尋 (預覽)
 
 組織中的使用者可以使用依賴 Azure 搜尋的外部搜尋功能。
+
+## <a name="featured-tables-settings"></a>精選資料表設定
+
+在 [租用戶設定] 下，[允許連線至精選資料表] 租用戶設定可讓 Power BI 系統管理員控制組織中哪些人員可以使用 Excel 資料類型資源庫中的精選資料表。 
+
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="精選資料表的所有連線":::
+
+如果 [匯出資料] 租用戶設定設為 [停用]，則也會停用對精選資料表的連線。
+
+深入閱讀 [Excel 中的 Power BI 精選資料表](../collaborate-share/service-excel-featured-tables.md)。
 
 ## <a name="power-bi-visuals-settings"></a>Power BI 視覺效果設定
 

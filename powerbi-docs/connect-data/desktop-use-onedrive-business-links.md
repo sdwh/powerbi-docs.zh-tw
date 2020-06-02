@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5effe6f397dd53fe6347708774118e9c491abc1
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 71acc85ecd74b2606d00c4e3b63b6f7532c9487c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564140"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120005"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>在 Power BI Desktop 中使用商務用 OneDrive
 許多人都將 Excel 活頁簿儲存在可與 Power BI Desktop 完美搭配的商務用 OneDrive 中。 有了 Power BI Desktop，您可以使用儲存在商務用 OneDrive 中的 Excel 檔案線上連結來建立報表和視覺效果。 您可以使用商務用 OneDrive 群組帳戶，或您個人的商務用 OneDrive 帳戶。
@@ -26,11 +26,10 @@ ms.locfileid: "83564140"
    
    > [!NOTE]
    > 您的瀏覽器介面看起來可能不完全與下圖相同。 您可以透過許多方法，針對在您商務用 OneDrive 瀏覽器介面中的檔案選取 [在 Excel 中開啟]。 您可以使用可讓您在 Excel 中開啟檔案的任何選項。
-   > 
-   > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. 在 Excel 中，選取 [檔案] > [資訊]，然後選取 [保護活頁簿] 上方的 [複製路徑]。
+
+2. 在 Excel 中，選取 [檔案] > [資訊]，然後選取 [複製路徑] 按鈕，如下圖所示。
    
    ![](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
 

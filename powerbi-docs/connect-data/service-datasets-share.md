@@ -1,22 +1,22 @@
 ---
-title: 共用資料集 (預覽)
+title: 共用資料集
 description: 身為資料集擁有者，您可以建立和共用您的資料集，讓其他人也可以使用。 了解如何共用它們。
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565452"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794095"
 ---
-# <a name="share-a-dataset-preview"></a>共用資料集 (預覽)
+# <a name="share-a-dataset"></a>共用資料集
 
 身為 Power BI Desktop 中的「資料模型」建立者，您會建立可在 Power BI 服務中發佈的「資料集」。 其他報表建立者可以使用您的資料集作為其自有報表的基礎。 在此文章中，您將了解如何共用您的資料集。 若要了解如何授與及移除您資料集的存取權，請參閱[建置權限](service-datasets-build-permissions.md)。
 
@@ -26,7 +26,7 @@ ms.locfileid: "83565452"
 
     最佳做法是將 .pbix 檔案儲存至 Microsoft 365 群組。
 
-1. 將 .pbix 檔案發佈到 Power BI 服務中的[新體驗工作區](../collaborate-share/service-create-the-new-workspaces.md)。
+1. 將 .pbix 檔案發佈到 Power BI 服務中的[新工作區體驗](../collaborate-share/service-create-the-new-workspaces.md)。
     
     此工作區的其他成員，已經可以根據此資料集在其他工作區中建立報表。
 
@@ -53,5 +53,5 @@ ms.locfileid: "83565452"
 
 ## <a name="next-steps"></a>後續步驟
 
-- [跨工作區使用資料集 (預覽)](service-datasets-across-workspaces.md)
+- [跨工作區使用資料集](service-datasets-across-workspaces.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

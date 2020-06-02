@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/19/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9de8c9611b24eaa627b3ddf044f13d36d7b9a3d4
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 469b8b13f77c56f9371ae8c1c81dcb94278c62e0
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83694565"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794005"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>在 Power BI 中使用資料流程的 DirectQuery 功能 (預覽)
 
@@ -22,7 +22,7 @@ ms.locfileid: "83694565"
 
 搭配資料流程使用 DirectQuery 可為 Power BI 和資料流程處理序帶來下列增強功能：
 
-* **避免個別的重新整理排程** - DirectQuery 會直接連線到資料流程，移除建立資料集的需求。 因此，搭配資料流程使用 DirectQuery 表示您不再需要針對資料流程和資料集具備個別的重新整理流程來確保資料同步。
+* **避免個別的重新整理排程** - DirectQuery 會直接連線到資料流程，移除建立匯入資料集的需求。 因此，搭配資料流程使用 DirectQuery 表示您不再需要針對資料流程和資料集具備個別的重新整理流程來確保資料同步。
 
 * **篩選資料** - 在資料流程內部使用篩選資料檢視時，DirectQuery 相當實用。 若想要篩選資料，並因此在資料流程內使用較小部分的資料，您可使用 DirectQuery (以及計算引擎) 來篩選資料流程資料及使用所需的篩選子集。
 
@@ -38,7 +38,7 @@ ms.locfileid: "83694565"
 
 ## <a name="enable-directquery-for-dataflows"></a>針對資料流程啟用 DirectQuery
 
-為了確保資料流程可供 DirectQuery 存取使用，增強型計算引擎必須處於最佳化狀態。 若要針對資料流程啟用 DirectQuery，請將新的 [增強型計算引擎設定] 選項設為 [最佳化]。 下圖顯示設定已適當選取。
+為了確保資料流程可供 DirectQuery 存取使用，增強型計算引擎必須處於最佳化狀態。 若要針對資料流程啟用 DirectQuery，請將新的 [增強型計算引擎設定] 選項設為 [開啟]。 下圖顯示設定已適當選取。
 
 ![為資料流程啟用增強型計算引擎](media/service-dataflows-directquery/dataflows-directquery-01.png)
 
@@ -50,7 +50,15 @@ ms.locfileid: "83694565"
 DirectQuery 和資料流程有些已知限制，這些限制會在下列清單中解釋。
 
 * 資料流程的 DirectQuery 無法搭配啟用的**增強型中繼資料預覽**功能使用。 這項排除預期會在之後的每月 Power BI Desktop 版本中移除。
+
 * 在此功能的預覽期間，有些客戶可能會在搭配資料流程使用 DirectQuery 時遇到逾時或效能問題。 我們正在這段預覽期間積極解決這些問題。
+
+* 目前不支援具有匯入和 DirectQuery 資料來源的複合/混合模式。
+
+* 大型資料流程在觀賞視覺效果時，可能會遇到逾時問題。 此項功能正式發行時，會將此限制移除。 同時，遇到逾時問題的大型資料流程應該使用 [匯入] 模式。
+
+* 在資料來源設定底下，如果您要使用 DirectQuery，資料流程連接器會顯示無效認證。 這不會影響行為，且資料集會正常運作。 此問題將會在我們接近正式發行時移除。
+
 
 
 ## <a name="next-steps"></a>後續步驟
