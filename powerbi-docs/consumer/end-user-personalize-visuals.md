@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/09/2020
+ms.date: 05/21/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83f040fd021a3d3e1cd6ce344c84051c7ff58bb0
-ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
+ms.openlocfilehash: 9599d9b96b98feed4a8751c6bd028ca8b3f77ed3
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83383149"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793570"
 ---
 # <a name="personalize-visuals-in-a-report"></a>個人化報表中的視覺效果
 
@@ -117,7 +117,7 @@ ms.locfileid: "83383149"
 
 - [個人化此視覺效果] 可以針對整個報表或特定視覺效果關閉。 如果您沒有可個人化視覺效果的選項，請洽詢您的租用戶管理員或報表擁有者。 若要顯示報表擁有者的連絡人資訊，請從 Power BI 功能表列中選取報表的名稱。
 - 不會自動保存使用者的探索。 您需要將檢視儲存為個人書籤，才能擷取您的變更。
-- 使用 Power BI 行動裝置應用程式時無法變更視覺效果。 但使用 Power BI 服務儲存在個人書籤中的任何視覺效果變更，都會呈現在行動裝置應用程式中。
+- 適用於 iOS 和 Android 平板電腦的 Power BI 行動裝置應用程式，以及 Power BI Windows 應用程式都支援這項功能；手機的 Power BI 行動裝置應用程式不支援此功能。 但使用 Power BI 服務儲存在個人書籤中的任何視覺效果變更，都會呈現在所有 Power BI 行動裝置應用程式中。
 
 另外還有一些正在處理的已知問題：
 

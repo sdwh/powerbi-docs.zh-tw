@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9e3527d4e32143a3bc261226a5f10c371bcaaef4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 004c62c6f99460a9f54a7b055dffe2c8b1adb340
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131976"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120966"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>在 Power BI 中使用 Microsoft Cloud App Security 控制項 (預覽)
 
@@ -34,7 +34,7 @@ ms.locfileid: "83131976"
 您必須擁有下列其中一項授權，租用戶才能擁有 Microsoft Cloud App Security：
 * MCAS：針對所有支援的應用程式提供 OCAS 功能，為 EMS E5 和 M365 E5 套件的一部分。
 * CAS-D：僅提供 MCAS 探索。
-* OCAS：僅提供適用於 Office 365 的 MCAS 功能，為 Office E5 套件的一部分。
+* OCAS：僅提供適用於 Office 365 的 MCAS 功能，其為 Office 365 E5 套件的一部分。
 * 選擇性：AAD P1 和 AIP P1，以得益於主要 Microsoft Cloud App Security 功能。
 
 以下各節描述在 Power BI 中使用 Microsoft Cloud App Security 的步驟。
@@ -84,52 +84,52 @@ Microsoft Cloud App Security 偵測可讓系統管理員監視受監視應用程
 * 工作階段控制適用於任何作業系統上任何主要平台的所有瀏覽器。 我們建議使用 Internet Explorer 11、Microsoft Edge (最新版本)、Google Chrome (最新版本)、Mozilla Firefox (最新版本) 或 Apple Safari (最新版本)。 Microsoft Cloud App Security 工作階段控制中不支援 Power BI 公用 API 呼叫和其他非瀏覽器型工作階段。 [查看更多詳細資料](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients)。
 
 > [!CAUTION]
-> * 套用 Excel 檔案原則時，Power BI 目前暫不提供 Microsoft Cloud App Security 的 [內容檢查]  原則，因此請勿在 Power BI 設定此原則。
+> * 套用 Excel 檔案原則時，Power BI 目前暫不提供 Microsoft Cloud App Security 的 [內容檢查] 原則，因此請勿在 Power BI 設定此原則。
 > * 在工作階段原則的「動作」部分，只有當項目沒有任何標籤時，「保護」功能才會運作。 如已有標籤，則不套用「保護」動作；您無法覆寫已套用至 Power BI 項目的現有標籤。
 
 ## <a name="example"></a>範例
 
 下列範例示範如何使用 Microsoft Cloud App Security 搭配 Power BI 建立新的工作階段原則。
 
-首先，建立新的工作階段原則。 從 **Cloud App Security** 入口網站左側的功能表中，選取 [原則]  。
+首先，建立新的工作階段原則。 從 **Cloud App Security** 入口網站左側的功能表中，選取 [原則]。
 
 ![建立新的工作階段原則](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-02.png)
 
-在出現的視窗中，選取 [建立原則]  下拉式功能表。
+在出現的視窗中，選取 [建立原則] 下拉式功能表。
 
 ![選取 [建立原則]](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-03.png)
 
-從選項下拉式清單中，選取 [工作階段原則]  。
+從選項下拉式清單中，選取 [工作階段原則]。
 
 ![選取 [工作階段原則]](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-04.png)
 
 在出現的視窗中，建立工作階段原則。 已編號步驟會描述下圖的設定。
 
-  1. 在 [原則範本]  下拉式功能表中，選擇 [沒有範本]  。
-  2. 在 [原則名稱]  方塊中，提供工作階段原則的相關名稱。
-  3. 針對 [工作階段控制類型]  ，選取 [Control file downloaded (with DLP)] \(控制檔案下載 (具 DLP)\)  。
+  1. 在 [原則範本] 下拉式功能表中，選擇 [沒有範本]。
+  2. 在 [原則名稱] 方塊中，提供工作階段原則的相關名稱。
+  3. 針對 [工作階段控制類型]，選取 [Control file downloaded (with DLP)] \(控制檔案下載 (具 DLP)\)。
 
-      針對 [活動來源]  區段，選擇相關的封鎖原則。 建議封鎖非受控及不相容的裝置。 當工作階段在 Power BI 中時，選擇封鎖下載。
+      針對 [活動來源] 區段，選擇相關的封鎖原則。 建議封鎖非受控及不相容的裝置。 當工作階段在 Power BI 中時，選擇封鎖下載。
 
         ![建立工作階段原則](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-05.png)
 
         向下捲動會看到更多選項。 下圖顯示這些選項以及其他範例。 
 
-  4. 選擇「機密性標籤」  為「高機密性」  或任何適合組織的分類。
-  5. 將 [檢查方法]  變更為 [無]  。
-  6. 選擇適合需求的 [封鎖]  選項。
+  4. 選擇「機密性標籤」為「高機密性」或任何適合組織的分類。
+  5. 將 [檢查方法] 變更為 [無]。
+  6. 選擇適合需求的 [封鎖] 選項。
   7. 請務必建立此等動作的警示。
 
         ![選取 [工作階段原則] 設定](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-06.png)
 
         
 
-  8. 最後，請務必選取 [建立]  按鈕以建立工作階段原則。
+  8. 最後，請務必選取 [建立] 按鈕以建立工作階段原則。
 
         ![建立工作階段原則](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-07.png)
 
 > [!CAUTION]
-> 請確定您未對 Power BI Excel 檔案建立 [內容檢查]  原則。 這是本「預覽」  版本的已知限制。
+> 請確定您未對 Power BI Excel 檔案建立 [內容檢查] 原則。 這是本「預覽」版本的已知限制。
 
 ## <a name="next-steps"></a>後續步驟
 本文描述 Microsoft Cloud App Security 如何為 Power BI 提供資料和內容保護。 您可能也對下列描述 Power BI 資料保護，以及啟用 Azure 服務之支援內容的文章感興趣。

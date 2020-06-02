@@ -1,6 +1,6 @@
 ---
 title: 無法將 Power BI 加入 O365 合作夥伴中
-description: 無法將 Power BI 加入 Office 365 同步發行合作夥伴中。 同步發行模型是 Office 365 使用的購買模型。
+description: 無法將 Power BI 新增至 Microsoft 365 新聞訂閱合作夥伴。 聯合模型是 Microsoft 365 使用的購買模型。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 5907f23bb5bf1bcdc5a4ca3412e5331a09d145c9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344932"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812327"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>無法將 Power BI 加入 Office 365 合作夥伴訂閱
 
-Office 365 可讓公司將 Office 365 與其自有的解決方案進行搭配整合並轉售，讓客戶只需透過一個連絡窗口，就能處理購買、帳單和支援等事宜。
+Microsoft 365 可讓公司將 Microsoft 365 與其自有的解決方案進行搭配整合並轉售，讓客戶只需透過一個連絡窗口，就能處理購買、帳單和支援等事宜。
 
 如果您想在購買 Office 365 訂閱時一併取得 Power BI，我們建議您連絡您的合作夥伴來選購。 如果您的合作夥伴目前不提供 Power BI，您有可以購買 Power BI 的其他選項。
 
@@ -36,13 +36,13 @@ Office 365 可讓公司將 Office 365 與其自有的解決方案進行搭配整
 
 1. 移至 [MIcrosoft 365 系統管理中心](https://admin.microsoft.com/AdminPortal/Home#/homepage)。
 
-1. 在左側功能表中，開啟 [計費]  ：
+1. 在左側功能表中，開啟 [計費]：
 
-    * 如果您看到 [訂閱]  ，您可以直接向 Microsoft 取得服務，您也可以連絡提供 Power BI 的其他合作夥伴。
+    * 如果您看到 [訂閱]，您可以直接向 Microsoft 取得服務，您也可以連絡提供 Power BI 的其他合作夥伴。
 
         ![[計費] - 顯示 [訂閱]](media/service-admin-syndication-partner/billingsub.png)
 
-    * 如果您沒有看到 [訂閱]  ，則您無法直接向 Microsoft 或其他合作夥伴購買。
+    * 如果您沒有看到 [訂閱]，則您無法直接向 Microsoft 或其他合作夥伴購買。
 
 如果您的合作夥伴不提供 Power BI，且您無法直接向 Microsoft 或其他合作夥伴購買，請考慮註冊免費試用版。
 
@@ -52,20 +52,20 @@ Office 365 可讓公司將 Office 365 與其自有的解決方案進行搭配整
 
 ### <a name="enable-ad-hoc-subscriptions"></a>啟用特定訂閱
 
-根據預設，系統會停用個人註冊 (又稱為特定訂閱)。 在此情況下，當您嘗試註冊時，您會看到下列訊息：您的 IT 部門已關閉「Microsoft Power BI」的註冊功能  。
+根據預設，系統會停用個人註冊 (又稱為特定訂閱)。 在此情況下，您會在嘗試註冊時看到下列訊息：「您的 IT 部門已經關閉 Microsoft Power BI 的註冊功能。」
 
 ![[很抱歉] 影像](media/service-admin-syndication-partner/sorry.png)
 
 若要啟用特定訂閱，您可以連絡合作夥伴，請他們開啟。 如果您是租用戶系統管理員，而且知道如何使用 Azure Active Directory PowerShell 命令，您可以自行啟用特定訂閱。 [適用於 Graph 的 Azure Active Directory PowerShell](/powershell/azure/active-directory/install-adv2/)
 
-1. 使用 Office 365 認證登入 Azure Active Directory。 以下指令碼的第一行會提示您輸入認證。 第二行連接到 Azure Active Directory。
+1. 使用 Microsoft 365 認證登入 Azure Active Directory。 以下指令碼的第一行會提示您輸入認證。 第二行連接到 Azure Active Directory。
 
     ```powershell
     $msolcred = get-credential
     connect-msolservice -credential $msolcred
     ```
 
-    ![輸入認證](media/service-admin-syndication-partner/aad-signin.png)
+    ![輸入您的認證](media/service-admin-syndication-partner/aad-signin.png)
 
 1. 登入之後，請執行下列命令來檢查 `AllowAdHocSubscriptions` 的目前設定。
 

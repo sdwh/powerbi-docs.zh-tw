@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566055"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813339"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
@@ -174,7 +174,7 @@ ms.locfileid: "83566055"
 
 ### <a name="april-2018"></a>2018 年 4 月
 * [Power BI 資料保護技術白皮書](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-* 預設會針對 Office 365 租用戶開啟 Power BI 服務[稽核記錄](../admin/service-admin-auditing.md)。
+* 預設會針對組織開啟 Power BI 服務[稽核記錄](../admin/service-admin-auditing.md)。
 
 ### <a name="march-2018"></a>2018 年 3 月
 * Power BI 服務中的[永續性篩選](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) \(英文\)。
@@ -188,7 +188,7 @@ ms.locfileid: "83566055"
 ### <a name="january-2018"></a>2018 年 1 月
 *    共用 Power BI 報表並設為我的最愛。
 *    適用於 Azure SQL Database 和資料倉儲的 OAuth2 和 DirectQuery 單一登入支援 (SSO)。
-*    區域內稽核：稽核記錄現在將會儲存在與其租用戶相同的 Office 365 區域中。
+*    區域內稽核：稽核記錄現在將會儲存在與其租用戶相同的 Microsoft 365 區域中。
 *    SharePoint Online [Power BI 報表網頁組件](https://go.microsoft.com/fwlink/p/?LinkId=825698)的 GA。
 *    針對租用戶中所有使用者關閉檢視 Power BI 視覺效果的系統管理控制項。
 *    Azure Analysis Services (AAS) 排程的重新整理支援。
@@ -254,7 +254,7 @@ ms.locfileid: "83566055"
 
 ### <a name="january-2017"></a>2017 年 1 月
 * 使用 [Power BI 系統管理員角色](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole)來管理 Power BI。
-* Office 365 稽核入口網站中的 [Power BI 稽核記錄](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs)全球通用。
+* 稽核入口網站中的 [Power BI 稽核記錄](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs)全球通用。
 * 已發行[開發人員工具和 Power BI 視覺效果 API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) 1.4 版。
 * [即時串流功能集](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)公開上市。
 * [使用 Power Automate 將資料發送至 Power BI](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)，而不需要撰寫任何程式碼。
@@ -277,7 +277,7 @@ ms.locfileid: "83566055"
 * 利用 [Power BI 與新 Microsoft 小組的整合](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)。
 * 在 Power BI 設計 [R 視覺效果](https://powerbi.microsoft.com/blog/r-powered-custom-visuals/)，而不需要了解 R。
 * 預覽：使用 [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/)，BI 專業人員可以根據位於雲端或在內部部署的資料建立 BI 語意模型，為商務使用者提供簡化的資料檢視。
-* 新的 [Power BI 服務系統管理員角色](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/)可以指派給應該能存取 Power BI 系統管理員入口網站，但沒有其他 Office 365 系統管理存取權的使用者。
+* 新的 [Power BI 服務系統管理員角色](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/)可指派給應該能存取 Power BI 系統管理員入口網站，但沒有其他系統管理存取權的使用者。
 * 瀏覽您的 [MYOB 進階資料，使用 Power BI](https://powerbi.microsoft.com/blog/explore-your-myob-advanced-data-with-power-bi/)。
 * 非系統管理員如何檢閱 [Power BI 稽核記錄檔](https://powerbi.microsoft.com/blog/tech-tip-thursday-power-bi-auditing-for-a-non-administrator/)
 * 顯示[文字資料行作為工具提示](https://powerbi.microsoft.com/blog/tech-tip-thursday-displaying-text-columns-in-tool-tips/)。
@@ -693,7 +693,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 **2015 年 8 月 4 日**
 
 * Power BI 現在讓 [Circuit ID](https://powerbi.microsoft.com/blog/circuit-id-data-with-power-bi/) 使用者能夠追蹤和監視其所有的 Circuit ID 雲端通訊服務，讓他們能夠做出正確的商務決策。 如需如何開始使用的其他詳細資訊，請參閱[適用於 Power BI 的 Circuit ID 內容套件說明頁面](../connect-data/service-connect-to-services.md).
-* 現在我們已經發行 [共用儀表板] 功能的增強功能，使其更容易使用。  如果您的組織使用 Office 365 處理電子郵件，您現在可以[共用到電子郵件通訊群組](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/)，方式就如同在 Outlook 中傳送電子郵件。  只需要輸入通訊群組的位址，然後按一下 [共用]。  通訊群組的所有成員都會收到檢視儀表板的電子郵件邀請。
+* 現在我們已經發行 [共用儀表板] 功能的增強功能，使其更容易使用。  如果組織使用 Microsoft 365 處理電子郵件，則現在可[共用到電子郵件通訊群組](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/)，其方式如同在 Outlook 中傳送電子郵件。  只需要輸入通訊群組的位址，然後按一下 [共用]。  通訊群組的所有成員都會收到檢視儀表板的電子郵件邀請。
 
 **2015 年 7 月 28 日**
 
@@ -703,7 +703,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 * 我們很高興宣布 Power BI 的「正式發行」(GA) 版本。 立即註冊 [Power BI Pro](service-self-service-signup-for-power-bi.md)。 在 GA 版本中，我們提供一些很棒的新功能：
 * 新的視覺效果和報表建立體驗：新的報表畫布上有更多的視覺效果選項，更能充分掌控標題、圖例、軸、色彩、背景等更多格式設定。
-* [Power BI 群組](../collaborate-share/service-create-distribute-apps.md)：群組提供建置在 Office 365 群組上的強大共同作業體驗。
+* [Power BI 群組](../collaborate-share/service-create-distribute-apps.md)：群組提供建置在 Microsoft 365 群組上的強大共同作業體驗。
 * [組織內容套件](../collaborate-share/service-organizational-content-pack-introduction.md)：Power BI 使得建立儀表板和報表非常簡單，而且使用者現在可以將此內容發佈到組織內容資源庫。
 * [帶入整個 Excel 檔案](../connect-data/service-excel-workbook-files.md)：您可以將儲存在商務用 OneDrive 的任何 Excel 活頁簿帶入 Power BI，並檢視整個活頁簿，方式就和在 Excel Online 完全一樣。
 * [帶入 CSV 檔案](../connect-data/service-get-data-from-files.md)：就像 Excel 或 Power BI Desktop 檔案一樣，逗號分隔值 (CSV) 文字檔也可以是您的 Power BI 儀表板和報表的資料集。
@@ -714,7 +714,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 * Acumatica Cloud ERP 提供一套完全整合的商務管理應用程式，例如財務、配銷、CRM 和專案會計，並且採用強大且富彈性的平台。 使用 Power BI [Acumatica 內容套件](https://powerbi.microsoft.com/blog/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi/)，可讓您快速連接並立即取得商機資料的深入解析。 此內容包含現成可用的儀表板、一組報告，和策劃資料集，以瀏覽並提供詳細資料，例如依日期統計的成交商機總計。 您可以在[這裡](../connect-data/service-connect-to-services.md)深入了解. 
 * [Azure HDInsight](https://powerbi.microsoft.com/blog/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight/) 現在提供管理完善的 Spark 服務。 這項功能允許反覆的機器學習和互動式資料分析等案例。 Power BI 可讓您直接連接到在 HDInsight 上的 Spark 中的資料，其中提供簡單且即時的瀏覽。 如需詳細資訊，請閱讀我們的[說明文件](../connect-data/power-bi-data-sources.md)。
-* [Office 365 導覽和應用程式啟動器整合](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher)。 只要按一下，您現在便可以導覽到所有 Office 365 應用程式。
+* [Microsoft 365 導覽和應用程式啟動器整合](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher)。 只要按一下，現在即可巡覽至所有 Microsoft 365 應用程式。
 * [指定自訂 URL](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#url)，以便使用者使用者按一下磚時導覽至該處。 您現在能夠完全控制使用者的去向：特定報表、另一個儀表板、SSRS 報表，或是外部網站。 
 * 您在 Power BI 耗用的[儲存體可見度與管理](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#storage)
 * [設定問答集顯示的視覺效果和欄位](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#visual)

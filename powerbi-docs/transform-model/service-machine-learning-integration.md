@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 1004549c37f4bff92e4a8b1d31b3844b7cdd0f2d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5562271eebc10789e27f7e65c7ff96b72de43aae
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83330397"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121075"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI 中的 Azure Machine Learning 整合
 
@@ -31,6 +31,9 @@ ms.locfileid: "83330397"
 - 概觀：[什麼是 Azure Machine Learning 服務？](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
 - Azure Machine Learning 的快速入門與教學課程：[Azure Machine Learning 文件](https://docs.microsoft.com/azure/machine-learning/)
 
+> [!NOTE]
+> 需要 Power BI Premium 訂閱，才能使用 Azure Machine Learning 整合。
+
 ## <a name="granting-access-to-the-azure-ml-model-to-a-power-bi-user"></a>將對 Azure ML 模型的存取權授與 Power BI 使用者
 
 若要從 Power BI 存取 Azure ML 模型，使用者必須有對 Azure 訂用帳戶的**讀取**存取權。  此外：
@@ -42,7 +45,7 @@ ms.locfileid: "83330397"
 
 1. 登入 [Azure 入口網站](https://portal.azure.com)。
 
-2. 移至 [訂用帳戶]  頁面。 您可以透過 Azure 入口網站導覽窗格功能表中的 [所有服務]  清單找到 [訂用帳戶]  頁面。
+2. 移至 [訂用帳戶] 頁面。 您可以透過 Azure 入口網站導覽窗格功能表中的 [所有服務] 清單找到 [訂用帳戶] 頁面。
 
     ![Azure 訂用帳戶頁面](media/service-machine-learning-integration/machine-learning-integration_01.png)
 
@@ -50,17 +53,17 @@ ms.locfileid: "83330397"
 
     ![選取您的訂用帳戶](media/service-machine-learning-integration/machine-learning-integration_02.png)
 
-4. 選取 [存取控制 (IAM)]  ，然後選取 [新增]  按鈕。
+4. 選取 [存取控制 (IAM)]，然後選取 [新增] 按鈕。
 
     ![存取控制 AIM](media/service-machine-learning-integration/machine-learning-integration_03.png)
 
-5. 選取 [讀者]  做為 [角色]。 選取您希望為其授與對 Azure ML 模型之存取權的 Power BI 使用者。
+5. 選取 [讀者] 做為 [角色]。 選取您希望為其授與對 Azure ML 模型之存取權的 Power BI 使用者。
 
     ![選取 [讀者] 做為 [角色]](media/service-machine-learning-integration/machine-learning-integration_04.png)
 
-6. 選取 [儲存]  。
+6. 選取 [儲存]。
 
-7. 重複步驟三到六以將**讀者**存取權授與特定 Machine Learning Studio (傳統) Web 服務或  裝載模型的 Machine Learning 工作區使用者。
+7. 重複步驟三到六以將**讀者**存取權授與特定 Machine Learning Studio (傳統) Web 服務或裝載模型的 Machine Learning 工作區使用者。
 
 
 ## <a name="schema-discovery-for-machine-learning-models"></a>針對 Machine Learning 模型的結構描述探索
@@ -78,21 +81,21 @@ ms.locfileid: "83330397"
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>在 Power BI 中叫用 Azure ML 模型
 
-您可以直接從您資料流程中的 Power Query 編輯器叫用任何您已獲授與存取權的 Azure ML 模型。 若要存取 Azure ML 模型，請針對您要從您的 Azure ML 模型豐富見解的實體選取 [編輯]  按鈕，如下列影像所示。
+您可以直接從您資料流程中的 Power Query 編輯器叫用任何您已獲授與存取權的 Azure ML 模型。 若要存取 Azure ML 模型，請針對您要從您的 Azure ML 模型豐富見解的實體選取 [編輯] 按鈕，如下列影像所示。
 
 ![Power BI 服務 - 編輯實體](media/service-machine-learning-integration/machine-learning-integration_05.png)
 
-選取 [編輯]  按鈕以針對您資料流程中的實體開啟 Power Query 編輯器。
+選取 [編輯] 按鈕以針對您資料流程中的實體開啟 Power Query 編輯器。
 
 ![Power Query 編輯器](media/service-machine-learning-integration/machine-learning-integration_06.png)
 
-選取功能區中的 [AI 見解]  按鈕，然後從導覽窗格功能表選取 [Azure Machine Learning 模型]  資料夾。 您擁有存取權的所有 Azure ML 模型會在這裡列為 Power Query 函式。 此外，Azure ML 模型的輸入參數會自動對應為對應之 Power Query 函式的參數。
+選取功能區中的 [AI 見解] 按鈕，然後從導覽窗格功能表選取 [Azure Machine Learning 模型] 資料夾。 您擁有存取權的所有 Azure ML 模型會在這裡列為 Power Query 函式。 此外，Azure ML 模型的輸入參數會自動對應為對應之 Power Query 函式的參數。
 
 若要叫用 Azure ML 模型，您可以從下拉式清單中指定任何所選實體的資料行作為輸入。 您也可以將資料行圖示切換至 [輸入] 對話方塊的左側，以指定要當作輸入使用的常數值。
 
 ![選取資料行](media/service-machine-learning-integration/machine-learning-integration_07.png)
 
-選取 [叫用]  來檢視 Azure ML 模型的輸出作為實體資料表中新資料行的預覽。 您也將看到模型叫用作為查詢套用的步驟。
+選取 [叫用] 來檢視 Azure ML 模型的輸出作為實體資料表中新資料行的預覽。 您也將看到模型叫用作為查詢套用的步驟。
 
 ![選取叫用](media/service-machine-learning-integration/machine-learning-integration_08.png)
 

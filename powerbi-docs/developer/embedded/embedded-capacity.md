@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/11/2020
-ms.openlocfilehash: 66ef36f669b5f34c19f283cf9ebc8be2b12332ec
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/17/2020
+ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148661"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813615"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI embedded 分析中的容量和 SKU
 
@@ -64,74 +64,22 @@ Power BI Premium 提供兩種 SKU：*P* 和 *EM*。
 
 ### <a name="which-sku-should-i-use"></a>我該使用哪種 SKU？
 
-下表提供功能摘要、所需容量，以及每項功能所需的特定 SKU。 
+下表提供功能摘要、所需容量，以及每項功能所需的特定 SKU。
 
-</br>
-<table>
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<tbody>
-<tr>
-<td style="text-align: center"; colspan="2"><p><b>功能</b></p></td>
-<td style="text-align: center">
-<p><b>Power BI Embedded</b></p>
-</td>
-<td style="text-align: center"; colspan="2">
-<p><b>Power BI Premium</b></p>
-</td>
-</tr>
-<tr>
-<td><p><em>取用了什麼？</em><p></td>
-<td><p><em>正在取用什麼？</em><p></td>
-<td style="text-align: center"><p><em>A SKU</br>(Azure)</em></p></td>
-<td style="text-align: center"><p><em>EM SKU</br>(Office)</em></p></td>
-<td style="text-align: center"><p><em>P SKU</br>(Office)</em></p></td>
-</tr>
-<tr>
-<td>從 Power BI 工作區內嵌成品</td>
-<td>
-</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td rowspan="2">Power BI 報表</td>
-<td>您組織的內嵌應用程式</br>(使用者擁有資料)</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>您客戶的內嵌應用程式</br>(應用程式擁有資料)</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td rowspan="3">Power BI 內容<br>(免費 Power BI 授權)</td>
-<td>Power BI 服務</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>Power BI 行動版</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>MS Office 應用程式</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-</tbody>
-</table>
+在此表格中，自訂應用程式是指使用內嵌分析所建立的 Web 應用程式。 當以開發人員的身分 (使用 JavaScript 或 .NET SDK 或 REST API) 內嵌至自訂 Web 應用程式時，可控制和自訂 UX。 當使用其他內嵌選項 (例如 Power BI 服務和 Power BI 行動版) 時，無法使用此功能。
+
+
+|         |         |         |
+|---------|---------|---------|
+|**案例**</br><p></p>|**Azure**</br>(A SKU)|**Office**</br>(P 和 EM SKU)|
+|[對客戶進行內嵌](embed-sample-for-customers.md)</br>(應用程式擁有資料)     |✔        |✔        |
+|[為組織內嵌](embed-sample-for-your-organization.md)</br>(使用者擁有資料)     |✖        |✔         |
+|Microsoft 365 應用程式</br>(先前稱為 Office 365 應用程式)<ul><li>[內嵌在 Teams 中](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[內嵌於 SharePoint 中](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |
+|[安全的 URL 內嵌](../../collaborate-share/service-embed-secure.md)</br>(從 Power BI 服務內嵌)     |✖        |✔        |
+
+>[!NOTE]
+>* 將內容發佈至 Power BI 應用程式工作區時，需要 [Power BI Pro 授權](../../admin/service-admin-purchasing-power-bi-pro.md)。
+>* 只有 **P SKU** 允許免費的 Power BI 使用者在 Power BI 服務中取用 Power BI 應用程式和共用內容。
 
 ### <a name="capacity-considerations"></a>容量考量
 
@@ -147,33 +95,33 @@ Power BI Premium 提供兩種 SKU：*P* 和 *EM*。
 </tr>
 <tr>
 <td><p><strong>供應項目</strong></p></td>
-<td style="text-align: center;"><p>Azure</p></td>
-<td style="text-align: center;" colspan="2"><p>Office</p></td>
+<td style="text-align: center"><p>Azure</p></td>
+<td style="text-align: center" colspan="2"><p>Office</p></td>
 </tr>
 <tr>
 <td><p><strong>SKU</strong></p></td>
-<td style="text-align: center;"><p>A</p></td>
-<td style="text-align: center;"><p>EM</p></td>
-<td style="text-align: center;"><p>P</p></td>
+<td style="text-align: center"><p>A</p></td>
+<td style="text-align: center"><p>EM</p></td>
+<td style="text-align: center"><p>P</p></td>
 </tr>
 <tr>
 <td><p><strong>Billing</strong></td>
-<td style="text-align: center;">每小時</td>
-<td style="text-align: center;">每月</td>
-<td style="text-align: center;">每月</td>
+<td style="text-align: center">每小時</td>
+<td style="text-align: center">每月</td>
+<td style="text-align: center">每月</td>
 </tr>
 <tr>
 <td><p><strong>履約承諾</strong></td>
-<td style="text-align: center;">None</td>
-<td style="text-align: center;">每年</td>
-<td style="text-align: center;">每月或每年</td>
+<td style="text-align: center">無</td>
+<td style="text-align: center">每年</td>
+<td style="text-align: center">每月或每年</td>
 </tr>
 <tr>
 <td valign="top"><p><strong>使用量</strong></td>
-<td style="text-align: center;">Azure 資源可以：</br>- <a href="azure-pbie-scale-capacity.md">相應增加或減少</a></br>- <a href="azure-pbie-pause-start.md">暫停和繼續</a>
-</td>
-<td style="text-align: center;">內嵌於應用程式和</br> Microsoft 應用程式</td>
-<td style="text-align: center;">內嵌於應用程式和</br> Power BI 服務</td>
+<td style="text-align: center">Azure 資源可以：<li><a href="azure-pbie-scale-capacity.md">相應增加或減少</a></li><li><a href="azure-pbie-pause-start.md">暫停和繼續</a>
+</td></li>
+<td style="text-align: center">內嵌於應用程式和</br> Microsoft 應用程式</td>
+<td style="text-align: center">內嵌於應用程式和</br> Power BI 服務</td>
 </tr>
 </tbody>
 </table>

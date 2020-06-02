@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4a763b31333004a8cdecda5262967473817bc983
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a797547562a8968591ca6551f85a56e0da98d680
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136040"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793273"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>我的 Power BI 租用戶位於何處？
 
@@ -26,15 +26,15 @@ ms.locfileid: "83136040"
 
 若要尋找您租用戶的所在區域，請遵循這些步驟。
 
-1. 在 Power BI 服務的頂端功能表中，選取說明 ( **?** )，然後選取 [關於 About Power BI]  。
+1. 在 Power BI 服務的頂端功能表中，選取說明 ( **?** )，然後選取 [關於 About Power BI]。
 
-1. 查看 [您的資料儲存位置]  旁邊的值。 這是您租用戶的所在區域。 此值也是存放資料所在的區域，除非工作區使用不同區域中的專用容量。
+1. 查看 [您的資料儲存位置] 旁邊的值。 這是您租用戶的所在區域。 此值也是存放資料所在的區域，除非工作區使用不同區域中的專用容量。
 
     ![資料區域](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
 
 ## <a name="how-the-data-region-is-selected"></a>資料區域的選取方式
 
-資料區域是取決於您建立租用戶時所選取的國家/地區。 因為此資訊是共用的，所以此選取項目也適用於註冊 Office 365 和 Power BI。 如果這是新的租用戶，當您註冊時請從清單中選取最適當的國家/地區。
+資料區域是取決於您建立租用戶時所選取的國家/地區。 因為此資訊是共用的，所以此選取項目也適用於註冊 Microsoft 365 和 Power BI。 如果這是新的租用戶，當您註冊時請從清單中選取最適當的國家/地區。
 
 ![國家/地區選取項目](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 49465556d7b11b911e24df06ab6598bb2dbe9707
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349785"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794126"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 內容內嵌至應用程式
 
@@ -54,7 +54,7 @@ ms.locfileid: "83349785"
 
 您必須繼續註冊**伺服器端 Web 應用程式**應用程式。 您註冊伺服器端 Web 應用程式，以建立應用程式祕密。
 
-在 Azure 中建立應用程式之後，請開啟 Azure 中的應用程式，巡覽至 [驗證]  並在 [重新導向 URI]  中將 **/Redirect** 新增至 [重新導向 URI]  。
+在 Azure 中建立應用程式之後，請開啟 Azure 中的應用程式，巡覽至 [驗證] 並在 [重新導向 URI] 中將 **/Redirect** 新增至 [重新導向 URI]。
 
 ## <a name="set-up-your-power-bi-environment"></a>設定您的 Power BI 環境
 
@@ -119,13 +119,13 @@ ms.locfileid: "83349785"
 
 1. 登入[Azure 入口網站](https://portal.azure.com)。
 
-2. 在左側的瀏覽窗格中，選取 [所有服務]  ，然後選取 [應用程式註冊]  。
+2. 在左側的瀏覽窗格中，選取 [所有服務]，然後選取 [應用程式註冊]。
 
 3. 選取需要 **applicationId** 的應用程式。
 
     ![選擇應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. 有一個以 GUID 形式列出的「應用程式識別碼」  。 請使用此**應用程式識別碼**作為應用程式的 **applicationId**。
+4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此**應用程式識別碼**作為應用程式的 **applicationId**。
 
     ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
@@ -176,11 +176,11 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 ### <a name="run-the-application"></a>執行應用程式
 
-1. 在 **Visual Studio** 中選取 [執行]  。
+1. 在 **Visual Studio** 中選取 [執行]。
 
     ![執行應用程式](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-2. 接著，選取 [內嵌報表]  。 視您選擇要進行測試之內容的不同 (報表、儀表板或磚)，接著在應用程式中選取該選項。
+2. 接著，選取 [內嵌報表]。 視您選擇要進行測試之內容的不同 (報表、儀表板或磚)，接著在應用程式中選取該選項。
 
     ![選取內容](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
@@ -383,7 +383,7 @@ function updateEmbedReport() {
 
 藉由建立專用容量，您工作區中的內容即可享有專用資源。 針對編頁報表，您必須使用至少 P1 容量來支援工作區。 您可以使用 [Power BI Premium](../../admin/service-premium-what-is.md) 建立專用容量。
 
-下表列出 [Microsoft Office 365](../../admin/service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
+下表列出 [Microsoft 365](../../admin/service-admin-premium-purchase.md) 中可用的 Power BI Premium SKU：
 
 | 容量節點 | V 核心總數<br/>(後端 + 前端) | 後端 V 核心數 | 前端 V 核心數 | DirectQuery/即時連線限制 |
 | --- | --- | --- | --- | --- | --- |
@@ -404,15 +404,15 @@ function updateEmbedReport() {
 
 建立專用容量之後，您可以將工作區指派至該專用容量。 若要完成此處理序，請遵循下列步驟：
 
-1. 在 Power BI 服務中，展開工作區，然後選取用於內嵌內容工作區的省略符號。 然後選取 [編輯工作區]  。
+1. 在 Power BI 服務中，展開工作區，然後選取用於內嵌內容工作區的省略符號。 然後選取 [編輯工作區]。
 
     ![編輯工作區](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
 
-2. 展開 [進階]  ，然後啟用 [專用容量]  。 選取您建立的專用容量。 接著，選取 [儲存]  。
+2. 展開 [進階]，然後啟用 [專用容量]。 選取您建立的專用容量。 接著，選取 [儲存]。
 
     ![指派專用容量](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. 在您選取 [儲存]  後，應該會在工作區名稱的旁邊看到一個鑽石。
+3. 在您選取 [儲存] 後，應該會在工作區名稱的旁邊看到一個鑽石。
 
     ![繫結至容量的工作區](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 

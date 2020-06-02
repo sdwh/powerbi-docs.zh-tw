@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/28/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 49e4653152e8981222d3a2589781546eb25bcd0e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 01f2d8add417b1d1d37ef043ccb3c48c2609162d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273009"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813592"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>匯出用於建立視覺效果的資料
 
@@ -25,12 +25,12 @@ ms.locfileid: "83273009"
 
 ## <a name="who-can-export-data"></a>誰可以匯出資料
 
-如果您有資料的權限，您就可以查看並匯出 Power BI 用來建立視覺效果的資料。 資料通常為保密，或僅限於特定使用者。 在此情況下，您無法查看或匯出該資料。 如需詳細資料，請參閱本文件結尾的＜限制和考量＞  一節。 
+如果您有資料的權限，您就可以查看並匯出 Power BI 用來建立視覺效果的資料。 資料通常為保密，或僅限於特定使用者。 在此情況下，您無法查看或匯出該資料。 如需詳細資料，請參閱本文件結尾的＜限制和考量＞一節。 
 
 
 ## <a name="viewing-and-exporting-data"></a>檢視和匯出資料
 
-如果想要查看 Power BI 用來建立視覺效果的資料，[您可以在 Power BI 中顯示該資料](service-reports-show-data.md)。 您也可以將該資料匯出至 Excel，作為 *.xlsx* 或 *.csv* 檔案。 匯出資料的選項需要 Pro 或 Premium 授權，以及資料集和報表的編輯權限。 <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
+如果想要查看 Power BI 用來建立視覺效果的資料，[您可以在 Power BI 中顯示該資料](service-reports-show-data.md)。 您也可以將該資料匯出至 Excel，作為 *.xlsx* 或 *.csv* 檔案。 匯出資料的選項需要 Pro 或 Premium 授權，以及資料集和報表的編輯權限。 如果可存取儀表板或報表，但資料分類為「高度機密」，則 Power BI 不允許匯出資料。
 
 觀看 Will 從其報表的其中一個視覺效果中匯出資料、將資料儲存為 *.xlsx* 檔案，並在 Excel 中開啟它。 然後遵循影片下方的逐步指示親自試試看。 請注意，這部影片使用舊版的 Power BI。
 
@@ -42,7 +42,7 @@ ms.locfileid: "83273009"
 
     ![箭號指向省略符號按鈕的視覺效果螢幕擷取畫面。](media/power-bi-visualization-export-data/pbi-export-tile3.png)
 
-1. 選擇 [匯出至 .csv]  選項。
+1. 選擇 [匯出至 .csv] 選項。
 
     ![標示 [匯出資料] 選項的省略符號下拉式清單螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-export-data.png)
 
@@ -58,24 +58,24 @@ ms.locfileid: "83273009"
 
 ### <a name="create-a-stacked-column-chart"></a>建立堆疊直條圖
 
-1. 建立新的 [堆疊直條圖]  。
+1. 建立新的 [堆疊直條圖]。
 
     ![群組直條圖範本的螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-clustered.png)
 
-1. 從 [欄位]  窗格，選取 [位置] > [城市]  、[位置] > [國家/地區]  和 [發票] > [折扣百分比]  。  您可能必須將 [折扣百分比]  移到 [值]  區。
+1. 從 [欄位] 窗格，選取 [位置] > [城市]、[位置] > [國家/地區] 和 [發票] > [折扣百分比]。  您可能必須將 [折扣百分比] 移到 [值] 區。
 
     ![利用所標示 [城市] 和 [折扣百分比計數] 建置的視覺效果螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-build.png)
 
-1. 將 [折扣百分比]  的彙總從 [計數]  變更為 [平均]  。 在 [值]  區中，選取 [折扣百分比]  右邊的箭號 (可能是 [折扣百分比計數]  )，然後選擇 [平均]  。
+1. 將 [折扣百分比] 的彙總從 [計數] 變更為 [平均]。 在 [值] 區中，選取 [折扣百分比] 右邊的箭號 (可能是 [折扣百分比計數])，然後選擇 [平均]。
 
     ![已標示 [平均] 選項的彙總清單螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-export-data6.png)
 
-1. 將篩選條件新增至 [城市]  、選取所有城市，然後移除 [亞特蘭大]  。
+1. 將篩選條件新增至 [城市]、選取所有城市，然後移除 [亞特蘭大]。
 
     ![已標示所清除 [喬治亞州亞特蘭大] 核取方塊的城市篩選條件螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-filter.png)
 
    
-1. 在階層中向下切入一個層級。 開啟切入，並向下切入至 [城市]  層級。 
+1. 在階層中向下切入一個層級。 開啟切入，並向下切入至 [城市] 層級。 
 
     ![向下切入至城市層級視覺效果的螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-drill.png)
 
@@ -84,11 +84,11 @@ ms.locfileid: "83273009"
 ### <a name="export-summarized-data"></a>匯出「摘要」資料
 如果您想要匯出在該視覺效果中所看到內容的資料，請選取此**摘要資料**的選項。  此類型匯出只會顯示用於建立視覺效果的資料 (資料行和量值)。  如果視覺效果具有彙總，則您會匯出彙總的資料。 例如，如果您有顯示四個橫條的橫條圖，就會取得四列 Excel 資料。 Power BI 服務以 *.xlsx* 和 *.csv* 提供摘要資料，Power BI Desktop 則以 .csv 提供。
 
-1. 選取視覺效果右上角的省略符號。 選取 [匯出資料]  。
+1. 選取視覺效果右上角的省略符號。 選取 [匯出資料]。
 
     ![右上角已標示省略符號按鈕和 [匯出資料] 選項的螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-export-data2.png)
 
-    在 Power BI 服務中，由於視覺效果具有彙總 (您已將 [計數]  變更為 [平均]  )，因此您有兩個選項：
+    在 Power BI 服務中，由於視覺效果具有彙總 (您已將 [計數] 變更為 [平均])，因此您有兩個選項：
 
     - **摘要資料**
 
@@ -101,11 +101,11 @@ ms.locfileid: "83273009"
     > 在 Power BI Desktop 中，您只能將摘要資料匯出為 .csv 檔案。 
     
     
-1. 從 [匯出資料]  中，選取 [摘要資料]  、選擇 *.xlsx* 或 *.csv*，然後選取 [匯出]  . Power BI 會匯出資料。
+1. 從 [匯出資料] 中，選取 [摘要資料]、選擇 *.xlsx* 或 *.csv*，然後選取 [匯出]. Power BI 會匯出資料。
 
     ![已標示 [摘要資料]、 xlsx 和 [匯出] 選項的 [匯出資料] 螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
-1. 當您選取 [匯出]  時，瀏覽器會提示您儲存檔案。 儲存之後，請在 Excel 中開啟檔案。
+1. 當您選取 [匯出] 時，瀏覽器會提示您儲存檔案。 儲存之後，請在 Excel 中開啟檔案。
 
     ![Excel 輸出的螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-export-data9.png)
 
@@ -119,15 +119,15 @@ ms.locfileid: "83273009"
 
 ### <a name="export-underlying-data"></a>匯出「基礎」資料
 
-如果您想要查看視覺效果中的資料「和」資料集中其他資料，請選取此選項 (如需詳細資料，請參閱以下圖表)。 如果您的視覺效果具有彙總，選取 [基礎資料]  會移除彙總。 在此範例中，Excel 匯出會為資料集裡的每個城市資料列顯示一個資料列，以及該單一項目的折扣百分比。 Power BI 會將資料扁平化，而不會將資料彙總。  
+如果您想要查看視覺效果中的資料「和」資料集中其他資料，請選取此選項 (如需詳細資料，請參閱以下圖表)。 如果您的視覺效果具有彙總，選取 [基礎資料] 會移除彙總。 在此範例中，Excel 匯出會為資料集裡的每個城市資料列顯示一個資料列，以及該單一項目的折扣百分比。 Power BI 會將資料扁平化，而不會將資料彙總。  
 
-當您選取 [匯出]  時，Power BI 會將資料匯出到 *.xlsx* 檔案，且您的瀏覽器會提示您儲存檔案。 儲存之後，請在 Excel 中開啟檔案。
+當您選取 [匯出] 時，Power BI 會將資料匯出到 *.xlsx* 檔案，且您的瀏覽器會提示您儲存檔案。 儲存之後，請在 Excel 中開啟檔案。
 
-1. 選取視覺效果右上角的省略符號。 選取 [匯出資料]  。
+1. 選取視覺效果右上角的省略符號。 選取 [匯出資料]。
 
     ![右上角已標示省略符號按鈕和 [匯出資料] 選項的螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-export-data2.png)
 
-    在 Power BI 服務中，由於視覺效果具有彙總 (您已將 [計數]  變更為 [平均]  )，因此您有兩個選項：
+    在 Power BI 服務中，由於視覺效果具有彙總 (您已將 [計數] 變更為 [平均])，因此您有兩個選項：
 
     - **摘要資料**
 
@@ -140,11 +140,11 @@ ms.locfileid: "83273009"
     > 在 Power BI Desktop 中，您只會有匯出摘要資料的選項。 
     
     
-1. 從 [匯出資料]  選取 [基礎資料]  ，然後選取 [匯出]  。 Power BI 會匯出資料。
+1. 從 [匯出資料] 選取 [基礎資料]，然後選取 [匯出]。 Power BI 會匯出資料。
 
     ![已呼叫出基礎資料的 [匯出資料] 螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-underlying.png)
 
-1. 當您選取 [匯出]  時，瀏覽器會提示您儲存檔案。 儲存之後，請在 Excel 中開啟檔案。
+1. 當您選取 [匯出] 時，瀏覽器會提示您儲存檔案。 儲存之後，請在 Excel 中開啟檔案。
 
     ![顯示所匯出資料的 .xlsx 檔案螢幕擷取畫面。](media/power-bi-visualization-export-data/power-bi-excel.png)
     
@@ -160,13 +160,13 @@ ms.locfileid: "83273009"
 
 Power BI 系統管理員和設計人員應使用幾個 Power BI 策略來保護專屬資料。 
 
-- 設計人員可以[決定使用者可使用哪些「匯出選項」  ](#set-the-export-options)。  
+- 設計人員可以[決定使用者可使用哪些「匯出選項」](#set-the-export-options)。  
 
 - Power BI 系統管理員可以為組織關閉資料匯出。 
 
 - 資料集擁有者可以設定資料列層級安全性 (RLS)。 RLS 會限制唯讀使用者的存取權。 但如果您已將應用程式工作區設定為讓成員具有編輯權限，則 RLS 角色不會套用至成員。 如需詳細資訊，請參閱[資料列層級安全性](../admin/service-admin-rls.md)。
 
-- 報表設計師可以隱藏資料行，使其不顯示於 [欄位]  清單中。 如需詳細資訊，請參閱[資料集屬性](../developer/automation/api-dataset-properties.md)
+- 報表設計師可以隱藏資料行，使其不顯示於 [欄位] 清單中。 如需詳細資訊，請參閱[資料集屬性](../developer/automation/api-dataset-properties.md)
 
 - Power BI 系統管理員可以將[敏感度標籤](../admin/service-security-data-protection-overview.md)新增至儀表板、報表、資料集和資料流程。 系統管理員即可在匯出資料時施行保護設定，例如加密或浮水印。 
 
@@ -175,7 +175,7 @@ Power BI 系統管理員和設計人員應使用幾個 Power BI 策略來保護�
 
 ## <a name="export-underlying-data-details"></a>匯出基礎資料詳細資料
 
-選取 [基礎資料]  時可看到的內容會不同。 了解這些詳細資料可能需要您系統管理員或 IT 部門的協助。 
+選取 [基礎資料] 時可看到的內容會不同。 了解這些詳細資料可能需要您系統管理員或 IT 部門的協助。 
 
 
 >
@@ -184,15 +184,15 @@ Power BI 系統管理員和設計人員應使用幾個 Power BI 策略來保護�
 
 | 視覺效果包含 | 匯出時將看到的內容  |
 |---------------- | ---------------------------|
-| 彙總 | 「第一個」  彙總以及該彙總之整個資料表中的非隱藏資料 |
+| 彙總 | 「第一個」彙總以及該彙總之整個資料表中的非隱藏資料 |
 | 彙總 | 相關資料 - 如果視覺效果使用之其他資料表中的資料與包含彙總的資料表 *有關* (只要該關聯性是 \*:1 或 1:1) |
-| 量值* | 視覺效果中的所有量值，「和」  包含視覺效果中所使用量值之任何資料表的所有量值 |
+| 量值* | 視覺效果中的所有量值，「和」包含視覺效果中所使用量值之任何資料表的所有量值 |
 | 量值* | 來自資料表 (其中包含該量值) 的所有非隱藏資料 (只要該關聯性是 \*:1 或 1:1) |
 | 量值* | 所有資料表中與透過 \*:1 或 1:1 鏈結包含量值的資料表相關的所有資料 |
 | 僅限量值 | 所有相關資料表中的所有非隱藏資料行 (用來展開量值) |
 | 僅限量值 | 針對模型量值的任何重複資料列的摘要資料 |
 
-\* 在 Power BI Desktop 或服務的報表檢視中，「量值」  會顯示在 [欄位]  清單中，且具有計算機圖示![顯示圖示](media/power-bi-visualization-export-data/power-bi-calculator-icon.png)。 量值可以在 Power BI Desktop 中建立。
+\* 在 Power BI Desktop 或服務的報表檢視中，「量值」會顯示在 [欄位] 清單中，且具有計算機圖示![顯示圖示](media/power-bi-visualization-export-data/power-bi-calculator-icon.png)。 量值可以在 Power BI Desktop 中建立。
 
 ### <a name="set-the-export-options"></a>設定匯出選項
 
@@ -211,13 +211,13 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
 
 1. 在 Power BI Desktop 開始。
 
-1. 從左上角，選取 [檔案]   > [選項和設定]   > [選項]  。
+1. 從左上角，選取 [檔案] > [選項和設定] > [選項]。
 
-1. 在 [目前檔案]  底下，選取 [報表設定]  。
+1. 在 [目前檔案] 底下，選取 [報表設定]。
 
     ![Desktop 報表設定](media/power-bi-visualization-export-data/desktop-report-settings.png)
 
-1. 從 [匯出資料]  區段中選取項目。
+1. 從 [匯出資料] 區段中選取項目。
 
 您也可以從 Power BI 服務中更新這項設定。
 
@@ -228,11 +228,11 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
 
 - 若要從視覺效果匯出資料，您需要具有[基礎資料集的建置權限](https://docs.microsoft.com/power-bi/service-datasets-build-permissions)。
 
--  **Power BI Desktop** 和 **Power BI 服務**可以從 [匯入模式報表]  匯出至 *.csv* 的資料列數上限為 30,000。
+-  **Power BI Desktop** 和 **Power BI 服務**可以從 [匯入模式報表] 匯出至 *.csv* 的資料列數上限為 30,000。
 
-- 應用程式可以從 [匯入模式報表]  匯出至 *.xlsx* 檔案的資料列數上限為 150,000。
+- 應用程式可以從 [匯入模式報表] 匯出至 *.xlsx* 檔案的資料列數上限為 150,000。
 
-- 若為下列情況，使用「基礎資料」  匯出將無法運作：
+- 若為下列情況，使用「基礎資料」匯出將無法運作：
 
   - 版本早於 2016 年。
 
@@ -240,11 +240,11 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
     
   -  管理員或報表設計者已停用這項功能。
 
-- 如果您針對 Power BI 正要匯出的視覺效果啟用 [顯示沒有資料的項目]  選項，則使用「基礎資料」  匯出將無法運作。
+- 如果您針對 Power BI 正要匯出的視覺效果啟用 [顯示沒有資料的項目] 選項，則使用「基礎資料」匯出將無法運作。
 
 - 使用 DirectQuery 時，Power BI 可匯出的最大資料量為 16 MB 未壓縮資料。 非預期結果可能是所匯出資料列數小於 150,000 筆的資料列數上限。 可能原因如下：
 
-    - 有許多資料行。
+    - 資料行過多。 請嘗試減少資料行數目，再匯出一次。
 
     - 有難以壓縮的資料。
 
@@ -254,15 +254,15 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
 
 - 目前不支援 Power BI 視覺效果和 R 視覺效果。
 
-- 在 Power BI 中，您可以按兩下欄位和輸入新名稱來重新命名欄位 (資料行)。 Power BI 會將新名稱稱之為「別名」  。 Power BI 報表可具有重複的欄位名稱，但 Excel 不允許重複。 因此，當 Power BI 將資料匯出至 Excel 時，欄位別名會還原成原始的欄位 (資料行) 名稱。  
+- 在 Power BI 中，您可以按兩下欄位和輸入新名稱來重新命名欄位 (資料行)。 Power BI 會將新名稱稱之為「別名」。 Power BI 報表可具有重複的欄位名稱，但 Excel 不允許重複。 因此，當 Power BI 將資料匯出至 Excel 時，欄位別名會還原成原始的欄位 (資料行) 名稱。  
 
 - 如果 *.csv* 檔案中有 Unicode 字元，Excel 中的文字可能無法正常顯示。 Unicode 的範例包括貨幣符號和外文。 您可以在 [記事本] 中開啟檔案，Unicode 即會正確顯示。 如果您想要在 Excel 中開啟檔案，因應措施是匯入 *.csv*。 若要將檔案匯入至 Exce：
 
   1. 開啟 Excel。
 
-  1. 移至 [資料]  索引標籤。
+  1. 移至 [資料] 索引標籤。
   
-  1. 選取 [取得外部資料]   >  [從文字]  。
+  1. 選取 [取得外部資料] >  [從文字]。
   
   1. 移至儲存檔案的本機資料夾，然後選取 *.csv*。
 

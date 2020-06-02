@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b0ee72fdfdf504537073b0de22e5c386ca2572ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8e991a8696ac35ed0a7d4b448bb4dd83d9a19c42
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83327936"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793450"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的即時串流
 您可以使用 Power BI 即時串流，即時串流資料及更新儀表板。 您也可以建立可在 Power BI 中建立的任何視覺效果或儀表板，進而顯示及更新即時資料和視覺效果。 串流資料的裝置和來源可以是 Factory 感應器、社交媒體來源、服務使用計量，以及可從中收集或傳送即時資料的任何其他項目。
@@ -52,7 +52,7 @@ ms.locfileid: "83327936"
 實際上，串流資料集和其隨附的串流視覺效果最適合使用的情況為，必須在推送與視覺化資料時將兩者之間的延遲降到最低。 此外，最佳做法是讓資料以可以依現狀視覺化的格式推送，而不需要任何額外的彙總。 依現狀即已就緒的資料範例包括溫度，以及預先計算出的平均值。
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub 串流資料集
-使用 **PubNub** 串流資料集，Power BI Web 用戶端會使用 PubNub SDK 讀取現有的 PubNub 資料流，而且 Power BI 服務不會儲存任何資料。 由於此呼叫會直接從 Web 用戶端進行，因此，如果您只允許將來自您網路的輸出流量列入白名單，您就必須將流向 PubNub 的流量列入白名單。 請參閱支援文章中[將 PubNub 的輸出流量列入白名單](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-) \(英文\) 的相關指示。
+使用 **PubNub** 串流資料集，Power BI Web 用戶端會使用 PubNub SDK 讀取現有的 PubNub 資料流，而且 Power BI 服務不會儲存任何資料。 因為此呼叫會直接從 Web 用戶端進行，所以如果只允許來自網路的白名單輸出流量，則必須將流向 PubNub 的流量列為允許。 請參閱支援文章中[將 PubNub 的輸出流量列入白名單](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-) \(英文\) 的相關指示。
 
 如同**串流資料集**，**PubNub 串流資料集**在 Power BI 沒有基礎資料庫，因此無法對流入的資料建立報表視覺效果，且無法利用報表功能，例如篩選、Power BI 視覺效果等。 這麼一來，**PubNub 串流資料集**也只能藉由新增磚至儀表板，並設定 PubNub 資料流作為來源的方式來進行視覺化。
 
@@ -215,7 +215,7 @@ Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流
 針對推送資料集，假設您在結構描述有時間戳記，則可以嘗試使用最後的 N 個篩選來建立報表視覺效果。
 
 #### <a name="can-i-connect-to-push-or-streaming-datasets-in-power-bi-desktop"></a>我可以在 Power BI Desktop 中連接到推送或串流資料集嗎？
-不幸的是，目前無法使用此功能。
+推送和混合式資料集可在 Power BI Desktop 中即時連線，但無法在 Power BI Desktop 中連線其他串流資料集。
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>就上一個問題，如何對即時資料集執行任何模型？
 無法對串流資料集使用模型，因為資料不會永久儲存。 對於推送資料集，您可以使用更新資料集/資料表 REST API 來新增量值和關聯性。 

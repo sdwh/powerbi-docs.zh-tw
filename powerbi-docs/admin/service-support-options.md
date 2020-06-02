@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: kfollis
-ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3ec6e3f060b495efd6b961a7a16d8e1cf68f44c9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131600"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120633"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro 和 Power BI Premium 支援選項
 
@@ -24,11 +24,11 @@ ms.locfileid: "83131600"
 | **社群支援**：網路論壇可供使用者取得 Power BI 專家和 Microsoft 員工所提供的對等支援、指引與最佳做法的解答。 | X |   |   | 無，參與是以盡力提供為基礎。 | [Power BI 社群](https://community.powerbi.com) |
 | **Power BI Pro 使用者支援**：針對使用者在 Power BI 中建立和使用內容的基本技術支援。 | X |   |   | 一個工作天。 | [Power BI 支援網站](https://support.powerbi.com)  |
 | **Power BI Premium 系統管理員支援**：針對系統管理員部署和操作 Power BI Premium 功能的技術支援。 | X |   |   | 一個工作天或一小時，視案例嚴重性而定。\* | [Power BI 支援網站](https://support.powerbi.com)<br>OR<br>[Microsoft 365 系統管理中心](https://portal.office.com/adminportal)<br>OR<br> 手機 |
-| **Power BI 系統管理員支援**：針對組織內 Power BI 部署之系統管理員的技術及帳單支援。  若要使用此選項，您必須是 Azure Active Directory 公司系統管理員、Office 365 全域系統管理員、Office 365 服務系統管理員或 Power BI 服務系統管理員。 | X | X |   | 一個工作天或一小時，視案例嚴重性而定。\* | [Microsoft 365 系統管理中心](https://portal.office.com/adminportal)<br>OR<br> 手機 |
+| **Power BI 系統管理員支援**：針對組織內 Power BI 部署之系統管理員的技術及帳單支援。  若要使用此選項，您必須是公司管理員、全域管理員、服務管理員或 Power BI 服務管理員。 | X | X |   | 一個工作天或一小時，視案例嚴重性而定。\* | [Microsoft 365 系統管理中心](https://portal.office.com/adminportal)<br>OR<br> 手機 |
 | **Microsoft 頂級支援**：企業級的支援方法，包含客戶管理、到場支援選項和主動式服務 (例如訓練和資料模型效能最佳化)。 | X | X | X | 不一定，取決於供應項目和案例嚴重性。\* | 技術客戶經理 <br>OR<br> [Microsoft 365 系統管理中心](https://portal.office.com/adminportal) |
 | | | | | | |
 
-\* 只有在「嚴重性 A 案例」  才適用一小時 SLA，其必須在現有產品報告中證明停止運作造成立即、直接的業務影響。
+\* 只有在「嚴重性 A 案例」才適用一小時 SLA，其必須在現有產品報告中證明停止運作造成立即、直接的業務影響。
 
 ## <a name="power-bi-benefits-for-microsoft-premier-support"></a>Microsoft 頂級支援的 Power BI 權益
 

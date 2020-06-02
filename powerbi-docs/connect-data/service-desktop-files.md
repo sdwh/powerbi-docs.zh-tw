@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5368370cc25e12fdeab333b42a064ec4db66c301
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8db571d3635ad224c293a4d2ab86f4bcb9197fe0
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347370"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120069"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>從 Power BI Desktop 檔案取得資料
 ![](media/service-desktop-files/pbid_file_icon.png)
@@ -24,9 +24,9 @@ ms.locfileid: "83347370"
 當您將資料放入 **Power BI Desktop**，並建立一些報表後，您就能夠將儲存的檔案放入 **Power BI 服務**。
 
 ## <a name="where-your-file-is-saved-makes-a-difference"></a>檔案的儲存位置會形成差異
-**本機** - 如果您將檔案儲存到電腦上的本機磁碟或組織中的其他位置，您可以「匯入」  檔案或從 Power BI Desktop「發佈」  ，以將其資料和報表放入 Power BI。 您的檔案實際上會保留在本機磁碟，因此不是真的將整個檔案移至 Power BI。 真正發生的情況是在 Power BI 中建立新的資料集，並將資料和資料模型從 Power BI Desktop 檔案載入資料集。 如果您的檔案有任何報表，這些報表會顯示在 Power BI 網站的 [報表] 下。
+**本機** - 如果您將檔案儲存到電腦上的本機磁碟或組織中的其他位置，您可以「匯入」檔案或從 Power BI Desktop「發佈」，以將其資料和報表放入 Power BI。 您的檔案實際上會保留在本機磁碟，因此不是真的將整個檔案移至 Power BI。 真正發生的情況是在 Power BI 中建立新的資料集，並將資料和資料模型從 Power BI Desktop 檔案載入資料集。 如果您的檔案有任何報表，這些報表會顯示在 Power BI 網站的 [報表] 下。
 
-**OneDrive - 商務** - 如果您有商務用 OneDrive，並使用與用來登入 Power BI 相同的帳戶進行登入，這樣做可以有效地讓 Power BI Desktop 中的工作，與 Power BI 中的資料集、報表和儀表板保持同步。由於 Power BI 和 OneDrive 都在雲端，因此 Power BI 每隔約一小時就會「連接」  到您在 OneDrive 上的檔案。 如果發現任何變更，便會自動更新 Power BI 中的資料集、報表和儀表板。
+**OneDrive - 商務** - 如果您有商務用 OneDrive，並使用與用來登入 Power BI 相同的帳戶進行登入，這樣做可以有效地讓 Power BI Desktop 中的工作，與 Power BI 中的資料集、報表和儀表板保持同步。由於 Power BI 和 OneDrive 都在雲端，因此 Power BI 每隔約一小時就會「連接」到您在 OneDrive 上的檔案。 如果發現任何變更，便會自動更新 Power BI 中的資料集、報表和儀表板。
 
 **OneDrive - 個人** - 如果您將檔案儲存到自己的 OneDrive 帳戶，則可以利用許多與使用商務用 OneDrive 相同的優點。 最大的差異是當您第一次連接到檔案時 (使用 [取得資料] > [檔案] > [OneDrive - 個人])，需要使用 Microsoft 帳戶登入 OneDrive，這通常與用來登入 Power BI 的帳戶不同。 當您使用 Microsoft 帳戶登入 OneDrive 時，請務必選取 [讓我保持登入] 選項。 如此一來，Power BI 每隔約一小時就會連接到您的檔案，以確保您在 Power BI 中的資料集保持同步。
 
@@ -39,7 +39,7 @@ ms.locfileid: "83347370"
 1. 在 Power BI 的導覽器窗格中，按一下 [取得資料]。
    
    ![](media/service-desktop-files/pbid_get_data_button.png)
-2. 在 [檔案]  中，按一下 [取得]  。
+2. 在 [檔案] 中，按一下 [取得]。
    
    ![](media/service-desktop-files/pbid_files_get.png)
 3. 尋找您的檔案。 Power BI Desktop 檔案的副檔名為 .PBIX。
@@ -47,9 +47,11 @@ ms.locfileid: "83347370"
    ![](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>將檔案從 Power BI Desktop 發佈至您的 Power BI 網站
-使用 Power BI Desktop 的 [發佈]，實際上就是使用 Power BI 的 [取得資料] 從本機磁碟匯入檔案或連接到 OneDrive 上的檔案。  以下是快速操作說明，但您可以參閱[從 Power BI Desktop 發佈](../create-reports/desktop-upload-desktop-files.md)以深入了解。
+使用 Power BI Desktop 的 [發佈]，在一開始從本機磁碟機匯入檔案資料或連線到 OneDrive 上的檔案方面，類似於使用 Power BI 的 [取得資料]。 不過，有一些差異：如果從本機磁碟機上傳，則會想要經常重新整理該資料，以確保資料的線上和本機複本彼此都是最新的。 
 
-1. 在 Power BI Desktop 中，按一下 [檔案]   > [發佈]   > [發佈至 Power BI]  ，或在功能區上按一下 [發佈]  。
+以下是快速操作說明，但您可以參閱[從 Power BI Desktop 發佈](../create-reports/desktop-upload-desktop-files.md)以深入了解。
+
+1. 在 Power BI Desktop 中，按一下 [檔案] > [發佈] > [發佈至 Power BI]，或在功能區上按一下 [發佈]。
    
    ![](media/service-desktop-files/pbid_publish.png)
 2. 登入 Power BI。 只有第一次才需要執行這項作業。
@@ -59,6 +61,6 @@ ms.locfileid: "83347370"
    ![](media/service-desktop-files/pbid_publishing.png)
 
 ## <a name="next-steps"></a>後續步驟
-**瀏覽您的資料** - 將檔案中的資料和報表匯入 Power BI 後，您就可以開始瀏覽。 如果您的檔案已經有報表，即會顯示在導覽器窗格的 [報表]  中。 如果檔案只有資料，您可以建立新報表；請直接以滑鼠右鍵按一下新資料集，然後按一下 [瀏覽]  。
+**瀏覽您的資料** - 將檔案中的資料和報表匯入 Power BI 後，您就可以開始瀏覽。 如果您的檔案已經有報表，即會顯示在導覽器窗格的 [報表] 中。 如果檔案只有資料，您可以建立新報表；請直接以滑鼠右鍵按一下新資料集，然後按一下 [瀏覽]。
 
 **重新整理外部資料來源** - 如果您的 Power BI Desktop 檔案連接到外部資料來源，您可以設定排定的重新整理，確保資料集一律為最新狀態。 在大多數情況下，設定排定的重新整理相當容易，但細節部分則不在本文的討論範圍內。 如需深入了解，請參閱 [Power BI 的資料重新整理](refresh-data.md)。

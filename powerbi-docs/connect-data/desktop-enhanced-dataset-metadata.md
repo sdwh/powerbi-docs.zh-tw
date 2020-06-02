@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/31/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 87b4be55b1b811f63dbb7fe271bc3c3fa4af2755
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42e3f36689e62b196f5d8cb82bd4dd5ee118bf8b
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347416"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793396"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>使用增強型資料集中繼資料 (預覽)
 
@@ -29,7 +29,7 @@ ms.locfileid: "83347416"
 
 ## <a name="enable-enhanced-dataset-metadata"></a>啟用增強型資料集中繼資料
 
-**增強型資料集中繼資料**功能目前處於預覽階段。 若要啟用增強型資料集中繼資料，請在 Power BI Desktop 中選取 [檔案] > [選項和設定] > [選項] > [預覽功能]  ，然後選取 [Store datasets using enhanced metadata format] \(使用增強型中繼資料格式儲存資料集\)  核取方塊，如下圖所示。 
+**增強型資料集中繼資料**功能目前處於預覽階段。 若要啟用增強型資料集中繼資料，請在 Power BI Desktop 中選取 [檔案] > [選項和設定] > [選項] > [預覽功能]，然後選取 [Store datasets using enhanced metadata format] \(使用增強型中繼資料格式儲存資料集\) 核取方塊，如下圖所示。 
 
 ![啟用預覽功能](media/desktop-enhanced-dataset-metadata/enhanced-dataset-metadata-01.png)
 
@@ -42,6 +42,23 @@ ms.locfileid: "83347416"
 > [!IMPORTANT]
 > 啟用**增強的資料集中繼資料**功能，會導致無法復原的報表升級。 當**增強的資料集中繼資料**啟用時，使用 Power BI Desktop 載入或建立的任何 Power BI 報表都會轉換為增強的資料集中繼資料格式，且無法復原。
 
+## <a name="report-backup-files"></a>報表備份檔案
+
+更新報表以使用**增強型資料集中繼資料**功能無法復原。 不過，在更新期間，會建立報表備份檔案，以便以原始 (更新前) 格式儲存一個版本的報表。 備份檔案會在 30 天後移除。 
+
+若要找出備份報表檔案，請執行下列動作：
+
+1. 巡覽至下列位置：```C:\Users\<user>\AppData\Local\Microsoft\Power BI Desktop\TempSaves\Backup```。 若使用 Microsoft Store 版本的 Power BI Desktop，請使用下列位置：```C:\Users\<user>\Microsoft\Power BI Desktop Store App\TempSaves\Backups``` 
+
+2. 以原始檔案的名稱和時間戳記來尋找報表複本。
+
+3. 將檔案複製到偏好的位置，以便保留。
+
+4. 如果選擇開啟或使用該原始檔案，請確定 Power BI Desktop 中的 [Enhanced metadata format] \(增強型中繼資料格式\) 預覽功能已停用。 
+
+備份檔案會在升級報表時建立，因此不會包含升級之後所做的任何變更。 啟用 [Enhanced metadata format] \(增強型中繼資料格式\) 功能時所建立的新報表沒有備份檔案。
+
+
 ## <a name="considerations-and-limitations"></a>考量與限制
 
 在預覽版本中，當啟用預覽功能時即適用下列限制。
@@ -49,6 +66,7 @@ ms.locfileid: "83347416"
 ### <a name="unsupported-features-and-connectors"></a>不支援的功能和連接器
 在開啟尚未升級的現有 PBIX 和 PBIT 檔案時，若資料集包含任何下列功能或連接器，升級將會失敗。 若發生這類錯誤，應不會對使用者體驗造成立即的影響，且 Power BI Desktop 會繼續使用先前的中繼資料格式。
 
+* 所有自訂連接器
 * Python 指令碼
 * 自訂連接器
 * Azure DevOps Server
@@ -66,7 +84,16 @@ ms.locfileid: "83347416"
 * 包含特定字元組合的 (例如在資料行名稱中包含 “\\n”) M 運算式
 * 在啟用**增強型資料集中繼資料**功能並使用資料集時，無法在 Power BI 服務中設定單一登入 (SSO) 資料來源
 
-此外，已成功升級至使用**增強型資料集中繼資料**的 PBIX 和 PBIT 檔案「無法」  在目前版本中使用上述功能或連接器。
+使用這些所列連接器的報表將不會升級為新格式。 已經升級或在啟用這項新功能之後所建立的報表，將不支援新增所列出不支援的功能或連接器。 
+
+不支援具有動態資料來源的查詢。 具有動態資料來源的報表將不會升級為新格式，且已升級或新建立的報表若已啟用功能，將不支援新增動態資料來源。 如果來源根據參數、函式輸入或動態函式而變更，則查詢具有動態資料來源。 
+
+不支援上游步驟或分支中發生錯誤的查詢。 
+
+此外，已成功升級至使用**增強型資料集中繼資料**的 PBIX 和 PBIT 檔案「無法」在目前版本中使用上述功能或連接器。
+
+
+
 
 ### <a name="lineage-view"></a>譜系檢視
 使用新中繼資料格式的資料集目前不會在 Power BI 服務內譜系檢視中顯示資料流程的連結。

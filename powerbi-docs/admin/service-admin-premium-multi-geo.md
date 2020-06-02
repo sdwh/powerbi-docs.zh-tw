@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 05/26/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 45229edbc6ed2c9e9c4618d44b4b74e42d0037b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9df00079488b248f2e5bab52395a637e37045a24
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274596"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119982"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>設定 Power BI Premium 的多地理位置支援
 
 多地理位置是一項 Power BI Premium 功能，可協助跨國客戶滿足區域性、產業特有或組織的資料落地需求。 身為 Power BI Premium 客戶，您可以將內容部署到 Power BI 租用戶主要區域以外區域內的資料中心。 一個地理位置可以包含多個區域。 例如，美國是一個地理位置，而美國中西部和美國中南部是美國境內的區域。 您可以選擇將內容部署到下列任何地理位置：
 
-- United States
-- Canada
+- 美國
+- 加拿大
 - 英國
 - 巴西
 - 歐洲
@@ -43,7 +43,7 @@ ms.locfileid: "83274596"
 
 建立容量之後，它會保留在該區域中，而所建立的任何工作區都會將其內容儲存於該區域中。 您可以透過工作區設定畫面上的下拉式清單，將工作區從某個區域遷移至另一個區域。
 
-![編輯工作區：選擇可用的容量。 Power BI 多地理位置](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
+![編輯工作區：選擇可用容量。 Power BI 多地理位置](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
 
 您會看到此確認變更的訊息。
 
@@ -67,6 +67,8 @@ ms.locfileid: "83274596"
 - 適用於閘道查詢或已排程重新整理作業的服務匯流排
 - 權限
 - 資料集認證
+
+
 
 ## <a name="view-capacity-regions"></a>檢視容量區域
 
@@ -93,6 +95,7 @@ ms.locfileid: "83274596"
 - 初始資料轉送之前，請確認在區域之間開始進行的任何移動都會遵循所有公司與政府的合規性需求。
 - 儲存於遠端區域中的快取查詢會在該區域中保持待用狀態。 不過，傳輸過程中的其他資料可能會往返於多個地理位置之間。
 - 在多地理位置的環境中，將資料從某個區域移至另一個區域時，來源資料可能會在已移動資料的區域中最多保留 30 天。 在該段期間內，使用者無法存取該資料。 系統會在 30 天的期間內，將資料從這個區域中移除並加以銷毀。
+- 所匯入資料模型的查詢文字和查詢結果流量不會透過主區域進行傳輸。 報表中繼資料仍然來自遠端區域，而某些 DNS 路由狀態可能會將流量從區域中取出。 
 
 - 目前多地理位置不支援[資料流程](../transform-model/service-dataflows-overview.md)功能。
 

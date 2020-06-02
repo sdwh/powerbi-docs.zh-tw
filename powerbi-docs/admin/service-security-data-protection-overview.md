@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d70262908df5568066533d1b638c7a1495a3f30b
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83132051"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733224"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI 的資料保護 (預覽)
 
@@ -23,7 +23,7 @@ ms.locfileid: "83132051"
 
 可以使用 Power BI 的資料保護執行下列作業：
 
-* 使用 Microsoft 的敏感度標籤，以利用與分類及保護 Office 365 檔案相同的分類法來分類及標記 Power BI 服務中內容 (儀表板、報表、資料集和資料流程)。 
+* 使用 Microsoft 的敏感度標籤，以利用與分類及保護 Microsoft 365 檔案相同的分類法來分類及標記 Power BI 服務中內容 (儀表板、報表、資料集和資料流程)。
 
 * 套用內容的敏感度標籤和保護 (Excel、PowerPoint 和 PDF)，以在將 Power BI 服務中的資料匯出至檔案時，強制執行加密或浮水印等保護設定。 
 
@@ -35,7 +35,7 @@ ms.locfileid: "83132051"
 
 敏感度標籤是在 [Microsoft 365 安全性中心](https://security.microsoft.com/)或 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)建立及管理。
 
-若要存取任一中心的敏感度標籤，請巡覽至 [分類] > [敏感度標籤]  。 這些敏感度標籤可供多項 Microsoft 服務使用，例如 Azure 資訊保護、Office 應用程式和 Office 365 服務。
+若要存取任一中心的敏感度標籤，請巡覽至 [分類] > [敏感度標籤]。 這些敏感度標籤可供多項 Microsoft 服務使用，例如 Azure 資訊保護、Office 應用程式和 Microsoft 365 服務。
 
 > [!IMPORTANT]
 > Azure 資訊保護的客戶必須將標籤移轉至前列服務之一，才能在 Power BI 中使用敏感度標籤。 此外，僅公用雲端支援敏感度標籤，主權雲端等雲端租用戶則不支援此功能。
@@ -44,7 +44,7 @@ ms.locfileid: "83132051"
 
 ## <a name="how-sensitivity-labels-work"></a>敏感度標籤的運作方式
 
-當將敏感度標籤套用至 Power BI 的儀表板、報表、資料集或資料流程時，即類似於將「標記」  套用至該資源，這會帶來下列優點：
+當將敏感度標籤套用至 Power BI 的儀表板、報表、資料集或資料流程時，即類似於將「標記」套用至該資源，這會帶來下列優點：
 * **可自訂** - 您可以在組織中建立不同等級機密內容的類別，例如個人、公用、一般、機密和高度機密。
 * **純文字** - 因為標籤是純文字，所以使用者很容易就能根據敏感度標籤的指導方針，了解如何處理內容。
 * **持續性** - 將敏感度標籤套用至內容後，會隨著內容一起匯出至下列支援的檔案類型：Excel、PowerPoint 和 PDF。 

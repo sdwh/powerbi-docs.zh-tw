@@ -9,36 +9,36 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: aeaaf0e1e8baa70b5159d908ce1e27bb937de372
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9f94d6a1b99bce40d3f901dd71877da3f6b236af
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344702"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792896"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
-本文適用於將 Power BI 部署為 Office 365 政府方案一部分的美國政府客戶。 政府方案是針對必須符合美國合規性和安全性標準的組織獨特需求而設計。 為美國政府客戶設計的 Power BI 服務與商業版 Power BI 服務不同。 下列各節說明這些功能差異和功能。
+本文適用於要在 Microsoft 365 政府方案中部署 Power BI 的美國政府客戶。 政府方案是針對必須符合美國合規性和安全性標準的組織獨特需求而設計。 為美國政府客戶設計的 Power BI 服務與商業版 Power BI 服務不同。 下列各節說明這些功能差異和功能。
 
-## <a name="add-power-bi-to-your-office-365-government-plan"></a>將 Power BI 新增至您的 Office 365 政府方案
+## <a name="add-power-bi-to-your-microsoft-365-government-plan"></a>將 Power BI 新增至 Microsoft 365 政府方案
 
-您必須先註冊 Office 365 政府方案，才能取得 Power BI 美國政府訂用帳戶，並將授權指派給使用者。 如果貴組織已經有 Office 365 政府方案，請直接跳至[購買適用於政府客戶的 Power BI Pro 訂用帳戶](#buy-a-power-bi-pro-subscription-for-government-customers)。
+您必須先註冊 Microsoft 365 政府方案，才能取得 Power BI 美國政府訂閱，並將授權指派給使用者。 如果組織已有 Microsoft 365 政府方案，請直接跳至[購買適用於政府客戶的 Power BI Pro 訂閱](#buy-a-power-bi-pro-subscription-for-government-customers)。
 
-### <a name="enroll-in-an-office-365-government-plan"></a>註冊 Office 365 政府方案
+### <a name="enroll-in-a-microsoft-365-government-plan"></a>註冊 Microsoft 365 政府方案
 
-如果您是新客戶，則必須先驗證組織的資格，才能註冊 Office 365 政府方案。  從完成[政府用 Office 365 資格驗證表單](https://www.microsoft.com/microsoft-365/government/eligibility-validation)開始著手。 若要確保您會為貴組織選取正確的方案，請參閱 [Office 365 美國政府服務說明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) \(部分機器翻譯\)。
+如果是新客戶，即必須先驗證組織的資格，才能註冊 Microsoft 365 政府方案。  從填寫 [Microsoft 365 政府版資格驗證表單](https://www.microsoft.com/microsoft-365/government/eligibility-validation)開始。 為確保選取適用於組織的正確方案，請參閱 [Microsoft 365 美國政府服務說明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) (機器翻譯)。
 
 > [!NOTE]
-> 如果已經將 Power BI 部署到商業環境，且想要移轉至美國政府雲端，則必須將新的 Power BI Pro 訂用帳戶新增至 Office 365 政府方案。 接下來，將商業資料複寫到適用於美國政府的 Power BI 服務，從使用者帳戶中移除商業授權指派，然後將 Power BI Pro 政府授權指派給使用者帳戶。
+> 如果已經將 Power BI 部署到商業環境，且想要移轉至美國政府雲端，則必須將新的 Power BI Pro 訂閱新增至 Microsoft 365 政府方案。 接下來，將商業資料複寫到適用於美國政府的 Power BI 服務，從使用者帳戶中移除商業授權指派，然後將 Power BI Pro 政府授權指派給使用者帳戶。
 >
 >
 ## <a name="government-cloud-instances"></a>政府雲端執行個體
-Office 365 為政府機關提供不同的環境，以符合不同的合規性需求。 如需每個環境的詳細資訊，請參閱：
+Microsoft 365 為政府機關提供不同環境，以符合不同的合規性需求。 如需每個環境的詳細資訊，請參閱：
 
-* [Office 365 政府社群雲端 (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) 是針對聯邦、州和地方政府所設計。
+* [Microsoft 365 政府社群雲端 (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) (機器翻譯) 是專為聯邦、州和地方政府所設計。
 
-* [Office 365 政府社群雲端進階版 (GCC High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) \(部分機器翻譯\) 是專為聯邦機關、國防產業、航太產業和其他持有受控制非機密資訊的組織所設計。 此環境適用於有國際武器貿易條例 (ITAR) 資料或國防聯邦採購條例補充 (DFARS) 需求的國家/地區安全性組織和公司。
+* [Microsoft 365 政府社群雲端進階版 (GCC High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) (機器翻譯) 是專為各聯邦機關、國防產業、航太產業和其他持有管控非機密資訊的組織所設計。 此環境適用於有國際武器貿易條例 (ITAR) 資料或國防聯邦採購條例補充 (DFARS) 需求的國家/地區安全性組織和公司。
 
-* [Office 365 DoD 環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)是專門針對美國國防部所設計。 
+* [Microsoft 365 DoD 環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) (機器翻譯) 是專為美國國防部所設計。 
 
 ## <a name="connect-to-power-bi-for-us-government"></a>連線到 Power BI for US Government
 
@@ -52,7 +52,7 @@ Office 365 為政府機關提供不同的環境，以符合不同的合規性需
 
 ## <a name="buy-a-power-bi-pro-subscription-for-government-customers"></a>購買適用於政府客戶的 Power BI Pro 訂用帳戶
 
-當您部署 Office 365 之後，可以新增 Power BI Pro 訂用帳戶。 請依照[註冊美國政府組織](service-govus-signup.md)中的逐步指導方針來購買 Power BI Pro 政府服務。 為需要使用 Power BI 的所有使用者購買足夠授權，然後將這些授權指派給個別使用者帳戶。
+當部署 Microsoft 365 之後，即可新增 Power BI Pro 訂閱。 請依照[註冊美國政府組織](service-govus-signup.md)中的逐步指導方針來購買 Power BI Pro 政府服務。 為需要使用 Power BI 的所有使用者購買足夠授權，然後將這些授權指派給個別使用者帳戶。
 
 > [!IMPORTANT]
 > Power BI 美國政府版本並未以「免費」授權形式提供。 若要存取政府社群雲端，就必須為每位使用者指派 *Pro* 授權。 如果已為使用者帳戶指派免費授權，則只授權該使用者存取商業雲端，而且將會遇到驗證和存取問題。 如果已購買 Power BI Premium，即無須指派 Pro 授權來啟用使用者存取。  只要將報表發佈至 Premium 容量，組織中的使用者就可以存取共用的報表。 若要檢閱授權類型之間的差異，請參閱[依授權類型分類的 Power BI 服務功能](../fundamentals/service-features-license-type.md)。

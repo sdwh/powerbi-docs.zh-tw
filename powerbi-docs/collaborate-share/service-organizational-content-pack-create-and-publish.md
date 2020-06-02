@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 4e1fd6a3f6db4ec58fc5eafa1033175edebd82fa
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141783"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733500"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>教學課程：建立及發佈 Power BI 組織內容套件
 
@@ -31,23 +31,23 @@ ms.locfileid: "83141783"
 
 假設您是 Contoso 發佈經理，而且您正在為新產品上市作準備。  您已建立儀表板，其中包含您想要共用的報表。 其他管理上市的員工可能會發現它們很有用。 您需要有方法將儀表板及報表作為解決方案封裝，供您的同事使用。
 
-想要跟著做嗎？ 在 [Power BI 服務](https://powerbi.com)中，移至 [我的工作區]  。 然後移至 [取得資料]   > [範例]   > [商機分析範例]   > [連接]  ，取得自己的複本。
+想要跟著做嗎？ 在 [Power BI 服務](https://powerbi.com)中，移至 [我的工作區]。 然後移至 [取得資料] > [範例] > [商機分析範例] > [連接]，取得自己的複本。
 
-1. 在導覽窗格中，選取 [工作區]   >  [我的工作區]  。
+1. 在導覽窗格中，選取 [工作區] >  [我的工作區]。
 
-1. 從頂端導覽窗格，選取齒輪圖示 ![齒輪圖示的螢幕擷取畫面](media/service-organizational-content-pack-create-and-publish/cog.png)。 > [建立內容套件]  。
+1. 從頂端導覽窗格，選取齒輪圖示 ![齒輪圖示的螢幕擷取畫面](media/service-organizational-content-pack-create-and-publish/cog.png)。 > [建立內容套件]。
 
    ![焦點在齒輪圖示和 [建立內容套件] 選項的 UI 螢幕擷取畫面。](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 
-1. 在 [建立內容套件]  視窗中，輸入下列資訊。  
+1. 在 [建立內容套件] 視窗中，輸入下列資訊。  
 
    請記住，您組織的內容套件庫可能很快就會填滿。 套件庫最後可能會含有用於發佈給組織或群組的上百個內容套件。 花點時間來提供內容套件有意義的名稱、新增合適的描述，以及選取適當的對象。  使用的文字必須讓內容套件可輕易透過搜尋找到。 這可讓您日後更輕鬆地尋找。
 
       ![完整 [建立內容套件] 表單的螢幕擷取畫面。](media/service-organizational-content-pack-create-and-publish/cpwindow.png)
 
-    1. 選取 [特定群組]  。
+    1. 選取 [特定群組]。
 
-    1. 輸入個人、[Office 365 群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)、通訊群組或安全性群組的完整電子郵件地址。 例如：salesmgrs@contoso.com、sales@contoso.com
+    1. 輸入個人、[Microsoft 365 群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)、通訊群組或安全性群組的完整電子郵件地址。 例如：salesmgrs@contoso.com、sales@contoso.com
 
         在本教學課程中，請試著使用您群組的電子郵件地址。
 
@@ -60,16 +60,16 @@ ms.locfileid: "83141783"
 
     1. 上傳影像或標誌，讓群組成員更輕鬆地找到內容套件。
 
-        掃描影像的速度會比掃描文字更快。 此螢幕擷取畫面顯示 [商機計數]  直條圖磚的影像。
+        掃描影像的速度會比掃描文字更快。 此螢幕擷取畫面顯示 [商機計數] 直條圖磚的影像。
 
-    1. 選取 [商機分析範例]  儀表板，將它加入內容套件。
+    1. 選取 [商機分析範例] 儀表板，將它加入內容套件。
 
         Power BI 會自動加入相關聯的報表和資料集。 如果您要的話，您可以新增其他項目。
 
        > [!NOTE]
        > Power BI 只會列出可以編輯的儀表板、報表、資料集和活頁簿。 因此，應用程式不會顯示任何已與您共用的資源。
 
-   1. 如果您有 Excel 活頁簿，這些活頁簿會顯示在 [報表]  下方，並有 Excel 圖示。 您也可以將它們加入內容套件中。
+   1. 如果您有 Excel 活頁簿，這些活頁簿會顯示在 [報表] 下方，並有 Excel 圖示。 您也可以將它們加入內容套件中。
 
       ![報表區段及可選取報表的螢幕擷取畫面。](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
 
@@ -80,14 +80,14 @@ ms.locfileid: "83141783"
 
    成功發佈之後，您可以看到成功訊息。
 
-1. 當您的群組成員移至 [取得資料]   > [組織內容套件]  時，他們會看到您的內容套件。
+1. 當您的群組成員移至 [取得資料] > [組織內容套件] 時，他們會看到您的內容套件。
 
    ![[AppSource] 對話方塊中 [銷售商機] 內容套件的螢幕擷取畫面。](media/service-organizational-content-pack-create-and-publish/powerbi-find-content-pack-organization.png)
 
    > [!TIP]
    > 您的瀏覽器中顯示的 URL 是此內容套件的專屬位址。  想通知同事這個新的內容套件？  您可以將 URL 貼入電子郵件。
 
-1. 當您的群組成員選取 [連接]  時，他們可以[檢視和使用您的內容套件](service-organizational-content-pack-copy-refresh-access.md)。
+1. 當您的群組成員選取 [連接] 時，他們可以[檢視和使用您的內容套件](service-organizational-content-pack-copy-refresh-access.md)。
 
 ## <a name="next-steps"></a>後續步驟
 

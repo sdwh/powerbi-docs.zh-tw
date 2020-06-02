@@ -6,18 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/20/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a67c36b2594696e1c576693cc5808eb0227c1c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83333479"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733456"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>從 Power BI Desktop 發佈資料集和報表
-當將 Power BI Desktop 檔案發佈至 Power BI 服務時，您會將模型中的資料發佈至 Power BI 工作區。 您在 [報表]  檢視中所建立的任何報表也是如此。 您會看到新的資料集具有相同名稱，以及在工作區導覽器中的所有報表。
+當將 Power BI Desktop 檔案發佈至 Power BI 服務時，您會將模型中的資料發佈至 Power BI 工作區。 您在 [報表] 檢視中所建立的任何報表也是如此。 您會看到新的資料集具有相同名稱，以及在工作區導覽器中的所有報表。
 
 從 Power BI Desktop 發佈，以及在 Power BI 中使用 **Get Data** 連接並上傳 Power BI Desktop 檔案，兩者效果相同。
 
@@ -27,7 +27,7 @@ ms.locfileid: "83333479"
 > 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>發佈 Power BI Desktop 資料集和報表
-1. 在 Power BI Desktop 中，選擇 [檔案]  \> [發佈]  \> [發佈至 Power BI]  ，或選取功能區上的 [發佈]  。  
+1. 在 Power BI Desktop 中，選擇 [檔案] \> [發佈] \> [發佈至 Power BI]，或選取功能區上的 [發佈]。  
 
    ![發佈按鈕](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
@@ -49,5 +49,9 @@ ms.locfileid: "83333479"
 * 如果您重新命名或刪除資料行或量值，任何已存在於 Power BI 且具有該欄位的視覺效果都可能會無法使用。 
 * Power BI 會忽略現有資料行的某些格式變更。 例如，如果您將資料行的格式從 0.25% 變更為 25%。
 * 假設您在 Power BI 中有針對現有資料集設定的重新整理排程。 當將新的資料來源新增至檔案然後重新發佈時，您必須在下一次排程重新整理之前登入。
-* 當您重新發佈已從 Power BI Desktop 發佈的資料集並定義重新整理排程時，則會在重新發佈之後立即開始資料集重新整理。 
+* 當您重新發佈已從 Power BI Desktop 發佈的資料集並定義重新整理排程時，則會在重新發佈之後立即開始資料集重新整理。
+* 當對資料集進行變更，然後將其重新發佈時，會顯示一則訊息，說明變更可能會影響多少個工作區、報表和儀表板，並要求確認是否要以所修改資料集來取代目前已發佈的資料集。 此訊息也提供 Power BI 服務中完整資料集影響分析的連結，您可用以查看詳細資訊，並採取動作來降低變更的風險。
 
+   ![重新發佈資料集的影響警告](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
+
+   [深入了解資料集影響分析](../collaborate-share/service-dataset-impact-analysis.md)。

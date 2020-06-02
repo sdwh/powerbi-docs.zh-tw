@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 2e32a61891cee2fb5e2a80167d5283962dc164bb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fdb3db1db1fe82743658f6a6073386701e7fe961
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83134863"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121004"
 ---
 # <a name="managing-premium-capacities"></a>管理 Premium 容量
 
@@ -23,7 +23,7 @@ ms.locfileid: "83134863"
 
 ## <a name="creating-and-managing-capacities"></a>建立和管理容量
 
-Power BI 管理入口網站的 [容量設定]  頁面會顯示已購買的 V 核心數目和可用的 Premium 容量。 此頁面可讓 Office 365 全域管理員或 Power BI 服務管理員從可用的 V 核心建立 Premium 容量，或修改現有的 Premium 容量。
+Power BI 管理入口網站的 [容量設定] 頁面會顯示已購買的 V 核心數目和可用的 Premium 容量。 此頁面可供全域管理員或 Power BI 服務管理員從可用的 V 核心建立 Premium 容量，或修改現有的 Premium 容量。
 
 建立 Premium 容量時，系統管理員必須定義：
 
@@ -47,7 +47,7 @@ Power BI 管理入口網站的 [容量設定]  頁面會顯示已購買的 V 核
 
 Premium 容量可以指派給 Power BI 租用戶主要區域以外的區域，稱為多地理位置。 多地理位置可讓您控制已定義地理區域中 Power BI 內容所在的資料中心。 進行多地理位置部署的原因通常是為了公司或政府的合規性，而不是效能和規模。 報表與儀表板載入等動作，仍然牽涉到向主要區域要求中繼資料。 若要深入了解，請參閱 [Power BI Premium 的多地理位置支援](service-admin-premium-multi-geo.md)。
 
-Power BI 服務管理員和 Office 365 全域管理員可以修改 Premium 容量。 具體來說，他們可以：
+Power BI 服務管理員和全域管理員可修改 Premium 容量。 具體來說，他們可以：
 
 - 將容量大小變更為相應增加或相應減少資源。
 - 新增或移除容量管理員。
@@ -65,16 +65,16 @@ Power BI 服務管理員和 Office 365 全域管理員可以修改 Premium 容�
 
 ### <a name="assigning-workspaces-to-capacities"></a>將工作區指派給容量
 
-您可以在 Power BI 管理入口網站中將工作區指派給 Premium 容量，或針對工作區，在 [工作區]  窗格中進行指派。
+您可以在 Power BI 管理入口網站中將工作區指派給 Premium 容量，或針對工作區，在 [工作區] 窗格中進行指派。
 
-容量管理員以及 Office 365 全域管理員或 Power BI 服務管理員，都可以在 Power BI 管理入口網站中大量指派工作區。 大量指派可套用至：
+容量管理員以及全域管理員或 Power BI 服務管理員都可在 Power BI 管理入口網站中大量指派工作區。 大量指派可套用至：
 
 - **依使用者選取工作區** - 這些使用者擁有的所有工作區 (包括個人工作區) 都會指派給 Premium 容量。 當工作區已指派給不同的 Premium 容量時，這會包含工作區的重新指派。 此外，也會將工作區指派權限指派給使用者。
 
 - **特定工作區**
 - **整個組織的工作區** - 所有工作區 (包括個人工作區) 都會指派給 Premium 容量。 所有目前和未來的使用者都會獲指派工作區指派權限。 不建議使用此方法。 慣用方法是更具針對性的方法。
 
-如果使用者是工作區管理員又具有指派許可權，就可以使用 [工作區]  窗格，將工作區新增至 Premium 容量。
+如果使用者是工作區管理員又具有指派許可權，就可以使用 [工作區] 窗格，將工作區新增至 Premium 容量。
 
 ![使用 [工作區] 窗格將工作區指派給 Premium 容量](media/service-premium-capacity-manage/assign-workspace-capacity.png)
 
@@ -90,14 +90,14 @@ Power BI 服務管理員和 Office 365 全域管理員可以修改 Premium 容�
 
 ### <a name="power-bi-admin-portal"></a>Power BI 管理入口網站
 
-在管理入口網站中，針對每個容量，[健康情況]  索引標籤會提供容量和每個已啟用工作負載的摘要計量。 計量顯示過去七天的平均值。  
+在管理入口網站中，針對每個容量，[健康情況] 索引標籤會提供容量和每個已啟用工作負載的摘要計量。 計量顯示過去七天的平均值。  
 
 在容量層級上，計量是所有已啟用工作負載的累計。 提供下列計量：
 
 - **CPU 使用率** - 提供平均 CPU 使用率，以容量的總可用 CPU 百分比表示。  
 - **記憶體使用量** - 提供平均記憶體使用量 (以 GB 為單位)，以容量的可用記憶體總計表示。 
 
-針對每個已啟用的工作負載，會提供 CPU 使用率和記憶體使用量，以及一些工作負載特定計量。 例如，針對資料流程工作負載，[總計數]  會顯示每個資料流程的重新整理總數，而 [平均持續時間]  則會顯示資料流程重新整理的平均持續時間。
+針對每個已啟用的工作負載，會提供 CPU 使用率和記憶體使用量，以及一些工作負載特定計量。 例如，針對資料流程工作負載，[總計數] 會顯示每個資料流程的重新整理總數，而 [平均持續時間] 則會顯示資料流程重新整理的平均持續時間。
 
 ![入口網站中的 [容量健康情況] 索引標籤](media/service-premium-capacity-manage/admin-portal-health-dataflows.png)
 

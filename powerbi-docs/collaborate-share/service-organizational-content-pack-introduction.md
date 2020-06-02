@@ -9,25 +9,25 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ad60e65406ee69bed4e544486c955765203ddc5c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a2c4925e03a0e356ca44556fa7e545459c487dac
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347991"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733385"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的組織內容套件簡介
 > [!NOTE]
 > 您無法在新的工作區體驗中建立組織內容套件或加以安裝。 如果您尚未開始，現在是將您的內容套件升級為應用程式的好時機。 深入了解[新的工作區體驗](service-create-the-new-workspaces.md)。
 > 
 
-您有透過電子郵件向小組定期發佈報表嗎？ 您可以改成封裝的儀表板、報表、Excel 活頁簿與資料集，然後將其發行到您的小組作為組織內容套件。  因為建立的內容套件全部都在 AppSource 內，所以您的小組很容易就可以找到。 因為它們是 Power BI 的一部分，所以能使用 Power BI 的所有功能，包括互動式資料瀏覽、新的視覺效果、問與答、與其他資料來源整合、資料重新整理等等。
+您有透過電子郵件向小組定期發佈報表嗎？ 改為嘗試：封裝您的儀表板、報表、Excel 活頁簿與資料集，然後將其發行到您的小組作為「組織內容套件」。 因為建立的內容套件全部都在 AppSource 內，所以您的小組很容易就可以找到。 因為它們是 Power BI 的一部分，所以能使用 Power BI 的所有功能，包括互動式資料瀏覽、新的視覺效果、問與答、與其他資料來源整合、資料重新整理等等。
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
 建立內容套件與共用儀表板或在工作區中於儀表板上進行共同作業不同。 閱讀[應該如何共同作業和共用儀表板和報表？](service-how-to-collaborate-distribute-dashboards-reports.md)，來為您的情況決定最佳選項。 
 
-在 AppSource 中，您可以瀏覽或搜尋發行給整個組織、通訊群組或安全性群組以及[您所屬 Office 365 群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)的內容套件。 如果您不是某特定群組的成員，就看不到與該群組分享的內容套件。 所有的群組成員都有相同的權限，可以唯讀存取內容套件資料、報表、活頁簿和儀表板 (除了 SQL Server Analysis Services (SSAS) 資料來源以外，其權限是繼承自資料來源)。
+在 AppSource 中，您可瀏覽或搜尋發佈給整個組織、通訊群組或安全性群組以及[所屬 Microsoft 365 群組](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)的內容套件。 如果您不是某特定群組的成員，就看不到與該群組分享的內容套件。 所有的群組成員都有相同的權限，可以唯讀存取內容套件資料、報表、活頁簿和儀表板 (除了 SQL Server Analysis Services (SSAS) 資料來源以外，其權限是繼承自資料來源)。
 
 儀表板、報表、Excel 活頁簿均為唯讀，但您可以從複製及使用儀表板與報表入手，開始建立您自己的個人化版本內容套件。
 
@@ -39,7 +39,7 @@ ms.locfileid: "83347991"
 ## <a name="what-is-appsource"></a>什麼是 *AppSource*？
 發行組織內容套件會將其新增至 AppSource。  這個集中式儲存機制讓成員輕鬆瀏覽及探索為他們發行的儀表板、報表和資料集。  
 
-* 若要檢視 AppSource，請選取 [取得資料]   > [我的組織]   > [取得]  。
+* 若要檢視 AppSource，請選取 [取得資料] > [我的組織] > [取得]。
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>組織內容套件的生命週期
 任何 Power BI Pro 的使用者都可以建立、發行並存取組織內容套件。 只有內容套件建立者才能修改活頁簿和資料集、排定重新整理，以及刪除。

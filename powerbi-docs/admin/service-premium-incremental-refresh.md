@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 73aade0ee10fe47ff669ccd6bd8c8ab0482f1f78
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: eb9a10c715a03adc9149ca8793ff248a23b9914d
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274481"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121010"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI 中的累加式重新整理
 
@@ -41,15 +41,15 @@ ms.locfileid: "83274481"
 
 針對累加式重新整理，資料集會使用 Power Query 日期/時間參數與保留的區分大小寫名稱 **RangeStart** 和 **RangeEnd** 來進行篩選。 這些參數用來篩選匯入至 Power BI Desktop 的資料，也用來在發佈至 Power BI 服務之後以動態方式將資料分割成範圍。 服務會取代參數值以篩選每個分割區。 不需要在服務中的資料集設定中進行設定。 發佈之後，Power BI 服務會自動覆寫參數值。
 
-若要使用預設值定義參數，請在 [Power Query 編輯器] 中，選取 [管理參數]  。
+若要使用預設值定義參數，請在 [Power Query 編輯器] 中，選取 [管理參數]。
 
 ![管理參數](media/service-premium-incremental-refresh/manage-parameters.png)
 
-定義參數時，您可以選取資料行的 [自訂篩選]  功能表選項，來套用篩選。
+定義參數時，您可以選取資料行的 [自訂篩選] 功能表選項，來套用篩選。
 
 ![自訂篩選](media/service-premium-incremental-refresh/custom-filter.png)
 
-確定已篩選資料列，其中資料行值「之後或等於」  **RangeStart** 並「早於」  **RangeEnd**。 其他篩選組合可能會導致重複計算資料列數目。
+確定已篩選資料列，其中資料行值「之後或等於」**RangeStart** 並「早於」**RangeEnd**。 其他篩選組合可能會導致重複計算資料列數目。
 
 ![篩選資料列](media/service-premium-incremental-refresh/filter-rows.png)
 
@@ -62,7 +62,7 @@ ms.locfileid: "83274481"
 >
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
-從 Power Query 編輯器中，選取 [Close and Apply] \(關閉並套用\)  。 您在 Power BI Desktop 中應該有資料集的子集。
+從 Power Query 編輯器中，選取 [Close and Apply] \(關閉並套用\)。 您在 Power BI Desktop 中應該有資料集的子集。
 
 #### <a name="filter-date-column-updates"></a>篩選日期資料行更新
 
@@ -114,7 +114,7 @@ Power BI 服務中的第一次重新整理可能需要較長的時間才能匯�
 
 #### <a name="current-date"></a>目前日期
 
-「目前日期」  是以重新整理時的系統日期為基礎。 如果已為 Power BI 服務中的資料集啟用排程重新整理，則在判斷目前日期時，會將指定的時區納入考量。 手動叫用及排程的重新整理都會遵守時區 (如果有的話)。 例如，以指定時區在太平洋時間 (美國和加拿大) 下午 8 點發生的重新整理，將會根據太平洋時間 (而非 GMT) 來判斷目前日期。
+「目前日期」是以重新整理時的系統日期為基礎。 如果已為 Power BI 服務中的資料集啟用排程重新整理，則在判斷目前日期時，會將指定的時區納入考量。 手動叫用及排程的重新整理都會遵守時區 (如果有的話)。 例如，以指定時區在太平洋時間 (美國和加拿大) 下午 8 點發生的重新整理，將會根據太平洋時間 (而非 GMT) 來判斷目前日期。
 
 ![時區](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -125,7 +125,7 @@ Power BI 服務中的第一次重新整理可能需要較長的時間才能匯�
 
 #### <a name="detect-data-changes"></a>偵測資料變更
 
-10 天的累加式重新整理會比 5 年的完整重新整理更具效率。 不過，還可以更好。 如果您選取 [偵測資料變更]  核取方塊，則可以選取用來找出並僅重新整理資料已變更之日期的日期/時間資料行。 這假設這類資料行存在於來源系統中，這通常用於稽核用途。 **這不應該與使用 RangeStart/RangeEnd 參數來分割資料的資料行相同。** 會評估此資料行在累加式範圍之每個週期的最大值。 如果自上次重新整理後尚未進行變更，則不需要重新整理週期。 在範例中，這可能會進一步將累加式重新整理天數從 10 天減少為大約 2 天。
+10 天的累加式重新整理會比 5 年的完整重新整理更具效率。 不過，還可以更好。 如果您選取 [偵測資料變更] 核取方塊，則可以選取用來找出並僅重新整理資料已變更之日期的日期/時間資料行。 這假設這類資料行存在於來源系統中，這通常用於稽核用途。 **這不應該與使用 RangeStart/RangeEnd 參數來分割資料的資料行相同。** 會評估此資料行在累加式範圍之每個週期的最大值。 如果自上次重新整理後尚未進行變更，則不需要重新整理週期。 在範例中，這可能會進一步將累加式重新整理天數從 10 天減少為大約 2 天。
 
 ![偵測變更](media/service-premium-incremental-refresh/detect-changes.png)
 
@@ -172,17 +172,13 @@ Premium 容量中資料集的 [XMLA 端點](service-premium-connect-tools.md)可
 
 ### <a name="refresh-management-with-sql-server-management-studio-ssms"></a>使用 SQL Server Management Studio (SSMS) 的重新整理管理
 
-在啟用 XMLA 端點讀寫功能的情況下，可以使用 SSMS 來檢視和管理累加式重新整理原則應用程式所產生的資料分割。
+在啟用 XMLA 端點讀寫功能的情況下，可以使用 SSMS 來檢視和管理累加式重新整理原則應用程式所產生的資料分割。 例如，這可讓您重新整理不在累加式範圍中的特定歷程記錄資料分割，以執行回溯日期更新，而不需要重新整理所有歷程記錄資料。 您也可以使用 SSMS，以批次累加的方式新增/重新整理歷程記錄資料分割，以載入非常大型資料集的歷程記錄資料。
 
 ![SSMS 中的資料分割](media/service-premium-incremental-refresh/ssms-partitions.png)
 
-#### <a name="refresh-historical-partitions"></a>重新整理歷程記錄資料分割
-
-例如，這可讓您重新整理不在累加式範圍中的特定歷程記錄資料分割，以執行回溯日期更新，而不需要重新整理所有歷程記錄資料。
-
 #### <a name="override-incremental-refresh-behavior"></a>覆寫累加式重新整理行為
 
-使用 SSMS，您也可以更充分地控制如何使用[表格式模型指令碼語言 (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) (部分機器翻譯) 和[表格式物件模型 (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) (部分機器翻譯)，叫用累加式重新整理。 例如，在 SSMS 的「物件總管」中，以滑鼠右鍵按一下資料表，然後選取 [處理資料表]  功能表選項。 然後按一下 [指令碼]  按鈕，以產生 TMSL 重新整理命令。
+使用 SSMS，您也可以更充分地控制如何使用[表格式模型指令碼語言 (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) (部分機器翻譯) 和[表格式物件模型 (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) (部分機器翻譯)，叫用累加式重新整理。 例如，在 SSMS 的「物件總管」中，以滑鼠右鍵按一下資料表，然後選取 [處理資料表] 功能表選項。 然後按一下 [指令碼] 按鈕，以產生 TMSL 重新整理命令。
 
 ![[處理資料表] 對話方塊中的 [指令碼] 按鈕](media/service-premium-incremental-refresh/ssms-process-table.png)
 

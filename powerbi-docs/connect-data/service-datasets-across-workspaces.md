@@ -1,28 +1,28 @@
 ---
-title: 跨工作區的資料集簡介 (預覽)
+title: 跨工作區的資料集簡介
 description: 了解如何與整個組織的使用者共用資料集。 然後他們可以您的資料集為基礎，在自己的工作區中建置報表。
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fe0478a7fa570b4d88f4493c4b27fec083041ae
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0458498b5677f20bac3a2e50f884d820ef1c3648
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285455"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793619"
 ---
-# <a name="intro-to-datasets-across-workspaces-preview"></a>跨工作區的資料集簡介 (預覽)
+# <a name="intro-to-datasets-across-workspaces"></a>跨工作區的資料集簡介
 
 商業智慧是一項共同作業活動。 建立可成為「真實單一來源」的標準化資料集非常重要。 然後關鍵便是探索並重複使用這些標準化資料集。 當組織中的專業資料模型製作者建立並共用最佳化資料集時，報表建立者可以從這些資料集開始建置精確的報表。 然後，組織會擁有一致的資料以進行決策，並擁有健全的資料文化特性。
 
 ![選取共用資料集](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-在 Power BI 中，資料集建立者可以使用[建置權限](service-datasets-build-permissions.md)，控制誰可以存取其資料。 資料集建立者也可以「認證」  資料集或將其「升階」  ，以利其他人探索。 那樣一來，報表作者便知道有哪些資料集是高品質且正式的，並可以在 Power BI 中撰寫時使用那些資料集。 租用戶系統管理員具有[跨工作區管理資料集使用方式](service-datasets-admin-across-workspaces.md)的新租用戶設定。
+在 Power BI 中，資料集建立者可以使用[建置權限](service-datasets-build-permissions.md)，控制誰可以存取其資料。 資料集建立者也可以「認證」資料集或將其「升階」，以利其他人探索。 那樣一來，報表作者便知道有哪些資料集是高品質且正式的，並可以在 Power BI 中撰寫時使用那些資料集。 租用戶系統管理員具有[跨工作區管理資料集使用方式](service-datasets-admin-across-workspaces.md)的新租用戶設定。
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>資料集共用和新的工作區體驗
 
@@ -33,9 +33,9 @@ ms.locfileid: "83285455"
 - 在 Power BI Desktop 中，只要 Live Connect 報表的資料集位於新體驗工作區中，您即可將其發佈至不同的工作區。
 - 跨工作區複製報表時，目標工作區必須是新體驗工作區。
 
-## <a name="discover-datasets-preview"></a>探索資料集 (預覽)
+## <a name="discover-datasets"></a>探索資料集
 
-在現有資料集上建置報表時，第一個步驟是連線至 Power BI 服務或 Power BI Desktop 中的資料集。 閱讀[探索不同工作區的資料集 (預覽)](service-datasets-discover-across-workspaces.md)
+在現有資料集上建置報表時，第一個步驟是連線至 Power BI 服務或 Power BI Desktop 中的資料集。 閱讀[探索不同工作區的資料集](service-datasets-discover-across-workspaces.md)
 
 ## <a name="copy-a-report"></a>複製報表
 
