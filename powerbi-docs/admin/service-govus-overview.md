@@ -6,15 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/07/2020
+ms.date: 05/27/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 9f94d6a1b99bce40d3f901dd71877da3f6b236af
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f4f0bc5de0480748344fa029c774c4d262facc08
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83792896"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159689"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 本文適用於要在 Microsoft 365 政府方案中部署 Power BI 的美國政府客戶。 政府方案是針對必須符合美國合規性和安全性標準的組織獨特需求而設計。 為美國政府客戶設計的 Power BI 服務與商業版 Power BI 服務不同。 下列各節說明這些功能差異和功能。
@@ -97,7 +98,7 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |資料管理|資料管理閘道|可用|可用|可用|
 |  |Azure SQL Database 中的資料加密|可用|可用|可用|
 |  |Power BI Blob 儲存體中的資料加密|可用|可用|可用|
-|跨產品整合|使用 Power BI 網頁組件內嵌在 SharePoint Online 中|無法使用|無法使用|無法使用|
+|跨產品整合|使用 Power BI 網頁組件內嵌在 SharePoint Online 中|可用|無法使用|無法使用|
 |  |使用內嵌網頁組件內嵌在 SharePoint Online 中|可用|可用|可用|
 |  |資料流程和 AI 函式|無法使用|無法使用|無法使用|
 |  |適用於資料驅動警示的 Power Automate 連線能力|無法使用|無法使用|無法使用|

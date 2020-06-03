@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/10/2020
+ms.date: 06/01/2020
 ms.author: kfollis
-ms.openlocfilehash: 2aa12ec3d55e491535d12107fc70709f9d41c3f0
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 7fcd5b5f7a6365aac597186618ce2b18fcc44d7f
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438077"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273383"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 資料來源
 
@@ -31,7 +31,7 @@ ms.locfileid: "83438077"
 | Amazon Redshift | 有 | 有 | 有 | 有 | 否 |
 | appFigures | 有 | 有 | 否 | 否 | 否 |
 | AtScale Cube | 有 | 有 | 有 | 有 | 否 |
-| Azure Analysis Services | 有 | 有 | 有 | 是 <sup>2</sup> | 否 |
+| Azure Analysis Services | 有 | 有 | 有 | 否 | 否 |
 | Azure Blob 儲存體 | 有 | 有 | 否 | 有 | 否 |
 | Azure Cosmos DB | 有 | 有 | 否 | 否 | 否 |
 | Azure 成本管理 | 有 | 有 | 否 | 否 | 否 |
