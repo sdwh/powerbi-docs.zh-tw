@@ -35,10 +35,10 @@ Microsoft Power BI for Android 應用程式傳遞 Power BI、Power BI 報表伺�
 
 從 Google Play [下載 Power BI for Android 應用程式](https://go.microsoft.com/fwlink/?LinkID=544867)。
   
-Power BI 可以在多種不同的 Android 裝置 (執行 Android 5.0 作業系統或更新版本) 上執行。 若要檢查您的裝置，請前往 [設定]   > [關於裝置]   > [Android 版本]  。 
+Power BI 可以在多種不同的 Android 裝置 (執行 Android 5.0 作業系統或更新版本) 上執行。 若要檢查您的裝置，請前往 [設定] > [關於裝置] > [Android 版本]。 
 
 **開啟應用程式時啟動**    
-即使您沒有註冊或登入，只要開啟應用程式，便可以翻閱登入頁面，並快速概覽可以利用 Power BI 應用程式在 Android 裝置上執行的事項。 點選 [跳過]  可檢視及探索範例，並取得應用程式的實際操作體驗。 您隨時可以從儀表板首頁[返回範例](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples)。
+即使您沒有註冊或登入，只要開啟應用程式，便可以翻閱登入頁面，並快速概覽可以利用 Power BI 應用程式在 Android 裝置上執行的事項。 點選 [跳過] 可檢視及探索範例，並取得應用程式的實際操作體驗。 您隨時可以從儀表板首頁[返回範例](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples)。
 
 了解 [Power BI 行動裝置應用程式的新功能](mobile-whats-new-in-the-mobile-apps.md)。
 
@@ -52,18 +52,18 @@ Power BI 可以在多種不同的 Android 裝置 (執行 Android 5.0 作業系�
 1. 在您的 Android 裝置上，從開始畫面開啟 Power BI for Android 應用程式。
    
    ![Power BI 圖示](./media/mobile-android-app-get-started/power-bi-logo-android.png)
-2. 若要登入 Power BI，請點選 [Power BI]  索引標籤並填寫您的登入詳細資料。
+2. 若要登入 Power BI，請點選 [Power BI] 索引標籤並填寫您的登入詳細資料。
 
     如果您收到一則訊息指出 Power BI 無法讓您登入，請參閱[「由於您的公司 SSL 憑證不受信任，因此無法驗證」](mobile-android-app-error-corporate-ssl-account-is-untrusted.md)，取得如何解決此問題的詳細資訊。
 
-   若要登入 Reporting Services 行動報表和 KPI，請點選 [報表伺服器]  索引標籤並填寫您的登入詳細資料。
+   若要登入 Reporting Services 行動報表和 KPI，請點選 [報表伺服器] 索引標籤並填寫您的登入詳細資料。
    
    ![登入 Power BI](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>試用 Power BI 和 Reporting Services 範例
 即使未註冊，您也可以檢視 Power BI 和 Reporting Services 範例並與其互動。
 
-若要存取範例，請點選導覽列上的 [更多選項]  (...)，然後選擇 [範例]  。
+若要存取範例，請點選導覽列上的 [更多選項] (...)，然後選擇 [範例]。
 
 幾個 Power BI 範例後面接著幾個報表伺服器範例。
    
@@ -80,7 +80,7 @@ Power BI 可以在多種不同的 Android 裝置 (執行 Android 5.0 作業系�
 請點選標頭中的放大鏡，開始搜尋您的 Power BI 內容。
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>檢視您最愛的儀表板和報表
-點選導覽列上的 [我的最愛]  (![](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png))，檢視 [我的最愛] 頁面。 
+點選導覽列上的 [我的最愛] (![](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png))，檢視 [我的最愛] 頁面。 
 
 閱讀更多以了解 [Power BI 行動裝置應用程式中的我的最愛](mobile-apps-favorites.md)。
 

@@ -39,7 +39,7 @@ ms.locfileid: "83279541"
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
 2. 點選鐘圖示 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) 加入警示。  
-3. 點選 [加入警示規則]  。
+3. 點選 [加入警示規則]。
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
 4. 選擇要在高於值或低於值時收到警示，然後設定該值。
@@ -52,8 +52,8 @@ ms.locfileid: "83279541"
    > 
    > 
 6. 您也可變更警示的標題。
-7. 點選 [儲存]  。
-8. 同一個磚可同時設定高於臨界值的值及低於臨界值的值。 在 [管理警示]  中，點選 [加入警示規則]  。
+7. 點選 [儲存] 。
+8. 同一個磚可同時設定高於臨界值的值及低於臨界值的值。 在 [管理警示] 中，點選 [加入警示規則]。
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
@@ -81,7 +81,7 @@ ms.locfileid: "83279541"
 4. 選擇要在高於值或低於值時收到警示，然後輸入該值。
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tablet-set-alert-condition.png)
-5. 點選 [完成]  。
+5. 點選 [完成]。
 6. 決定要每小時或每天收到一次警示，以及是否要在發出警示的同時，也收到一封電子郵件。
    
    > [!NOTE]
@@ -89,7 +89,7 @@ ms.locfileid: "83279541"
    > 
    > 
 7. 您也可變更警示的標題。
-8. 點選 [儲存]  。
+8. 點選 [儲存] 。
 
 ### <a name="manage-alerts-on-an-android-device"></a>在 Android 裝置上管理警示
 您可以使用 Power BI 行動應用程式管理個別的警示，或[使用 Power BI 服務管理所有的警示](../../create-reports/service-set-data-alerts.md)。
@@ -126,7 +126,7 @@ ms.locfileid: "83279541"
    > 
 6. 您也可變更警示的標題。
 7. 點選核取記號。
-8. 同一個磚可同時設定高於臨界值的值及低於臨界值的值。 在 [管理警示]  中點選加號 (+)。
+8. 同一個磚可同時設定高於臨界值的值及低於臨界值的值。 在 [管理警示] 中點選加號 (+)。
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
@@ -140,7 +140,7 @@ ms.locfileid: "83279541"
 3. 點選警示可變更值或關閉警示。
    
     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
-4. 若要一併刪除警示，請在警示上按一下滑鼠右鍵，或點住 [> 刪除]  。
+4. 若要一併刪除警示，請在警示上按一下滑鼠右鍵，或點住 [> 刪除]。
 
 ## <a name="receiving-alerts"></a>接收警示
 您會從行動裝置的 Power BI [通知中心](mobile-apps-notification-center.md)或 Power BI 服務收到警示，以及有人分享新儀表板給您的通知。
