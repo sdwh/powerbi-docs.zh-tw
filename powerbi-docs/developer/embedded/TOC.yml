@@ -28,8 +28,6 @@
           href: embedded-capacity-planning.md
         - name: 效能最佳做法
           href: embedded-performance-best-practices.md
-        - name: 服務主體
-          href: embed-service-principal.md
         - name: 資料列層級安全性
           href: embedded-row-level-security.md
         - name: 編頁報表資料列層級安全性
@@ -40,10 +38,12 @@
           href: azure-pbie-diag-logs.md
         - name: 內嵌常見問題集
           href: embedded-faq.md
-        - name: Power BI 權限
-          href: power-bi-permissions.md
     - name: 如何
       items:
+        - name: 使用具有憑證的服務主體進行內嵌
+          href: embed-service-principal-certificate.md
+        - name: 使用具有應用程式祕密的服務主體進行內嵌
+          href: embed-service-principal.md
         - name: 從應用程式內嵌
           href: embed-from-apps.md
         - name: 將報告匯出至檔案
