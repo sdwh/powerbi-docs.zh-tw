@@ -16,7 +16,7 @@ ms.lasthandoff: 05/13/2020
 ms.locfileid: "83349440"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視儀表板和報表
-適用於：
+適用於︰
 
 | ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android 手機](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android 平板電腦](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
@@ -63,9 +63,9 @@ ms.locfileid: "83349440"
    
    * [點選磚](mobile-tiles-in-the-mobile-apps.md)在焦點模式中開啟，並與其互動。
    * 點選星星![我的最愛星星](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png)[使其成為我的最愛](mobile-apps-favorites.md)。
-   * 點選 [邀請]  ![邀請圖示](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) 以[邀請同事](mobile-share-dashboard-from-the-mobile-apps.md)檢視您的儀表板。
+   * 點選 [邀請] ![邀請圖示](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) 以[邀請同事](mobile-share-dashboard-from-the-mobile-apps.md)檢視您的儀表板。
    * [同步處理儀表板與您的 Apple Watch](mobile-apple-watch.md)。
-4. 若要回到儀表板清單，請點選儀表板標題旁的箭號，然後點選 [我的工作區]  。
+4. 若要回到儀表板清單，請點選儀表板標題旁的箭號，然後點選 [我的工作區]。
    
    ![階層連結](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
 
@@ -79,14 +79,14 @@ ms.locfileid: "83349440"
 ## <a name="view-dashboards-on-your-ipad"></a>在 iPad 上檢視儀表板
 1. 開啟 Power BI App。
    
-   需要先從 Apple App Store [下載 iPad App](https://go.microsoft.com/fwlink/?LinkId=522062) 嗎？
-2. 點選應用程式頂端的 [儀表板]  。  
+   需要先從 Apple App Store [下載 iPad 應用程式](https://go.microsoft.com/fwlink/?LinkId=522062)嗎？
+2. 點選應用程式頂端的 [儀表板]。  
    
    ![儀表板首頁](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * 黃色星星 ![我的最愛星星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 會顯示您最愛的儀表板。 
    * 每個儀表板名稱下的標記法 (在此例中為 "MBI") ![資料分類](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)會顯示每個儀表板中資料的分類方式。 深入了解 [Power BI 的資料分類](../../create-reports/service-data-classification.md)。
-3. 您可以從工作區中共用儀表板。 點選儀表板磚右下角的省略符號 ( **...** )，然後點選 [邀請其他人]  。
+3. 您可以從工作區中共用儀表板。 點選儀表板磚右下角的省略符號 ( **...** )，然後點選 [邀請其他人]。
    
    ![邀請圖示](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. 您也可以點選儀表板，以開啟並查看該儀表板中的磚。 您可在儀表板中與其互動：
@@ -94,8 +94,8 @@ ms.locfileid: "83349440"
    * [點選磚與其互動](mobile-tiles-in-the-mobile-apps.md)。
    * [開啟磚後方的報表](mobile-reports-in-the-mobile-apps.md)。
    * [邀請其他人檢視儀表板](mobile-share-dashboard-from-the-mobile-apps.md)。
-   * [標註並共用圖格快照集](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
-5. 若要返回 [我的工作區]，請點選左上角的儀表板名稱，然後點選 [我的工作區]  。
+   * [標註並共用磚的快照集](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)。
+5. 若要返回 [我的工作區]，請點選左上角的儀表板名稱，然後點選 [我的工作區]。
    
    ![階層連結](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
 
@@ -117,11 +117,11 @@ ms.locfileid: "83349440"
 
     如果您是儀表板的擁有者，在 Power BI 服務中，您可以[建立手機直向模式專用的儀表板檢視](../../create-reports/service-create-dashboard-mobile-phone-view.md)。 
 
-1. 在儀表板中時，您可以點選名稱旁邊的垂直 [更多選項]  (...) 按鈕來邀請同事、重新整理，或取得儀表板的相關資訊：
+1. 在儀表板中時，您可以點選名稱旁邊的垂直 [更多選項] (...) 按鈕來邀請同事、重新整理，或取得儀表板的相關資訊：
    
    ![省略符號功能表](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. 上下撥動，即可查看[儀表板中的所有磚](mobile-tiles-in-the-mobile-apps.md)。 
-3. 若要返回儀表板首頁，請點選儀表板名稱以開啟軌跡，然後點選 [我的工作區]  ：   
+3. 若要返回儀表板首頁，請點選儀表板名稱以開啟軌跡，然後點選 [我的工作區]：   
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>在 Android 平板電腦上檢視儀表板
 1. 在您的 Android 平板電腦上開啟 Power BI 應用程式並登入。
@@ -133,20 +133,20 @@ ms.locfileid: "83349440"
    
    * 黃色星星 ![我的最愛星星](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 顯示您最愛的儀表板。 
    * 每個儀表板名稱下的標記法 (在此例中為 "MBI") ![資料分類](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)會顯示每個儀表板中資料的分類方式。 深入了解 [Power BI 的資料分類](../../create-reports/service-data-classification.md)。
-3. 在儀表板中時，您可以點選名稱旁邊的垂直 [更多選項]  (...) 按鈕來邀請同事、重新整理，或取得儀表板的相關資訊：
+3. 在儀表板中時，您可以點選名稱旁邊的垂直 [更多選項] (...) 按鈕來邀請同事、重新整理，或取得儀表板的相關資訊：
    
    ![省略符號功能表](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. 上下撥動，即可查看[儀表板中的所有磚](mobile-tiles-in-the-mobile-apps.md)。 
    
    您可以使用「捏合」手勢放大及縮小儀表板的不同區域，平移以巡覽。 您也可以[點選磚](mobile-tiles-in-the-mobile-apps.md)，並在焦點模式中開啟，然後與您的資料互動。
-5. 若要返回儀表板首頁，請點選儀表板名稱開啟追蹤，然後點選 [我的工作區]  ：
+5. 若要返回儀表板首頁，請點選儀表板名稱開啟追蹤，然後點選 [我的工作區]：
    
     ![階層連結](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     您可以使用「捏合」手勢放大及縮小儀表板的不同區域，平移以巡覽。 您也可以[點選磚](mobile-tiles-in-the-mobile-apps.md)，並在焦點模式中開啟，然後與您的資料互動。
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>在 Power BI 服務中建立儀表板的手機檢視
-如果您是儀表板的擁有者，在 Power BI 服務中，您可以建立專供手機在直向模式中使用的儀表板檢視。  
+如果您是儀表板的擁有者，在 Power BI 服務中，您可以建立專供手機在直向模式中使用的儀表板檢視。 
 
 ![儀表板手機檢視](./media/mobile-apps-view-dashboard/power-bi-phone-dashboard-in-progress.png)
 
@@ -154,6 +154,6 @@ ms.locfileid: "83349440"
 
 ## <a name="next-steps"></a>後續步驟
 * 從 Google Play [下載 Android 應用程式](https://go.microsoft.com/fwlink/?LinkID=544867)  
-* [開始使用適用於 Power BI 的 Android App](mobile-android-app-get-started.md)  
+* [開始使用 Power BI 的 Android 應用程式](mobile-android-app-get-started.md)  
 * [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)
-* 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

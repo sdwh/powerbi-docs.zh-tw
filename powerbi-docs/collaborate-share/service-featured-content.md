@@ -36,28 +36,28 @@ Power BI 租用戶系統管理員可以決定是否授與為租用戶精選內�
 
 精選儀表板或報表的步驟很類似。
 
-1. 在工作區的 [儀表板]  或 [報表]  清單中，選取**設定**圖示。
+1. 在工作區的 [儀表板] 或 [報表] 清單中，選取**設定**圖示。
 
     :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="報表設定圖示":::
 
-2. 在 [設定]  窗格中，檢查或變更名稱。 如果需要，請新增 [描述]  並上傳 [快照]  。 描述與快照有助使用者找到您的內容。
+2. 在 [設定] 窗格中，檢查或變更名稱。 如果需要，請新增 [描述] 並上傳 [快照]。 描述與快照有助使用者找到您的內容。
 
-3. 選取 [精選]  。
+3. 選取 [精選]。
 
     :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="精選內容設定":::
 
-4. 選取 [儲存]  。
+4. 選取 [儲存]。
 
-    現在，所有具有儀表板或報表存取權的使用者，都會在 [首頁]  的 [精選]  區段中看到精選內容。
+    現在，所有具有儀表板或報表存取權的使用者，都會在 [首頁] 的 [精選] 區段中看到精選內容。
 
 ## <a name="feature-an-app"></a>精選應用程式
 
-- 若要精選應用程式，請開啟應用程式的工作區，選取 [選項]  功能表 ([...]  ) > [在首頁上將此應用程式列為精選]  。
+- 若要精選應用程式，請開啟應用程式的工作區，選取 [選項] 功能表 ([...]) > [在首頁上將此應用程式列為精選]。
 
-現在，所有具有此應用程式存取權的使用者，都會在 [首頁]  的 [精選]  區段中看到該應用程式。
+現在，所有具有此應用程式存取權的使用者，都會在 [首頁] 的 [精選] 區段中看到該應用程式。
 
 ## <a name="next-steps"></a>後續步驟
 
 * [應該如何共同作業和共用儀表板和報表？](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 * [在管理入口網站中管理精選內容](../admin/service-admin-portal.md#manage-featured-content)
-* 有任何問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
+* 有問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

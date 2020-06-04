@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: f4f0bc5de0480748344fa029c774c4d262facc08
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: 8be103d01b5f46c510a1e3658d5a5e29d566a5ff
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159689"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336536"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 本文適用於要在 Microsoft 365 政府方案中部署 Power BI 的美國政府客戶。 政府方案是針對必須符合美國合規性和安全性標準的組織獨特需求而設計。 為美國政府客戶設計的 Power BI 服務與商業版 Power BI 服務不同。 下列各節說明這些功能差異和功能。
@@ -83,12 +83,12 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |  |使用 Active Directory 群組進行共用和存取控制|可用|可用|可用|
 |  |透過 Office 365 安全性與合規性系統管理中心進行稽核|可用|可用|可用|
 |  |外部使用者共用|可用|可用|可用|
-|  |報表和儀表板的使用計量|無法使用|無法使用|無法使用|
+|  |報表和儀表板的使用計量|可用|可用|可用|
 |  |GCC 與商業雲端之間的 Azure B2B|無法使用|無法使用|無法使用|
 |報表建立|建立和檢視儀表板和報表|可用|可用|可用|
 |  |排定的資料重新整理|可用|可用|可用|
 |  |可重新整理的小組儀表板|可用|可用|可用|
-|  |編頁報表|可用|在藍圖上|在藍圖上|
+|  |編頁報表|可用|可用|可用|
 |  |範本應用程式|無法使用|無法使用|無法使用|
 |連線至資料|從 Excel 匯入資料和報表|可用|可用|可用|
 |  |從 CSV 檔案匯入資料|可用|可用|可用|

@@ -51,8 +51,8 @@ ms.locfileid: "83145137"
 
 若要在測試執行後查看計量應用程式中負載測試的效果，請遵循下列指示。 在測試開始產生負載的時間內，最多預期會有 15 分鐘的延遲，直到計量中顯示負載為止。
 
-1. 展開[計量應用程式](../../admin/service-admin-premium-monitor-capacity.md)登陸頁面的 [資料集]  索引標籤。
-2. 透過按一下 [立即重新整理]  ，以起始隨選重新整理。 管理員應該這麼做。
+1. 展開[計量應用程式](../../admin/service-admin-premium-monitor-capacity.md)登陸頁面的 [資料集] 索引標籤。
+2. 透過按一下 [立即重新整理]，以起始隨選重新整理。 管理員應該這麼做。
 
     ![Power BI Premium 容量計量](media/embedded-capacity-planning/embedded-capacity-planning.png)
 

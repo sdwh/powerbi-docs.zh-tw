@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: f74bfb92508564a01422729eefc251acc124baea
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: c3a3bd98dc65e3b73ffe04b95fa9001c90af1d53
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83692719"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315917"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>要列入允許清單的 Power BI URL
 [//]: # "suparnap 和 miwehnia 是維護這份清單的連絡人"
@@ -46,14 +46,15 @@ Power BI 需要仰賴 Microsoft 365 驗證與身分識別區段中的必要端�
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
-| 1 | **必要：** 後端 API | *.analysis.windows.net | TCP 443 |
-| 2 | **必要：** 後端 API | *.pbidedicated.windows.net | TCP 443 |
-| 3 | **必要：** 內容傳遞網路 (CDN) | content.powerapps.com | TCP 443 |
-| 4 | **必要：** Microsoft 365 整合 | 請參閱 [Microsoft 365 Common 與 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文件 | N/A |
-| 5 | **必要：** 入口網站 | app.powerbi.com | TCP 443 |
-| 6 | **必要：** 服務遙測 | dc.services.visualstudio.com | TCP 443 |
-| 7 | **選擇性：** 資訊訊息 | dynmsg.modpim.com | TCP 443 |
-| 8 | **選擇性：** NPS 問卷 | nps.onyx.azure.net | TCP 443 |
+| 1 | **必要：** 後端 API | api.powerbi.com | TCP 443 |
+| 2 | **必要：** 後端 API | *.analysis.windows.net | TCP 443 |
+| 3 | **必要：** 後端 API | *.pbidedicated.windows.net | TCP 443 |
+| 4 | **必要：** 內容傳遞網路 (CDN) | content.powerapps.com | TCP 443 |
+| 5 | **必要：** Microsoft 365 整合 | 請參閱 [Microsoft 365 Common 與 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文件 | N/A |
+| 6 | **必要：** 入口網站 | app.powerbi.com | TCP 443 |
+| 7 | **必要：** 服務遙測 | dc.services.visualstudio.com | TCP 443 |
+| 8 | **選擇性：** 資訊訊息 | dynmsg.modpim.com | TCP 443 |
+| 9 | **選擇性：** NPS 問卷 | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>系統管理

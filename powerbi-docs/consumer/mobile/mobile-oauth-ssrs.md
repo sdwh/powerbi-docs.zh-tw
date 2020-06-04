@@ -7,28 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
-ms.openlocfilehash: 40bbf09e684b4fd3f86564c9b469c6ff248954a6
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 06/01/2020
+ms.openlocfilehash: 3ca896512103aa285170eadc8435003257e57ac3
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565710"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316078"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>使用 OAuth 連線至 Power BI 報表伺服器和 SSRS
 
 您可以使用 OAuth 連線至 Power BI 報表伺服器和 Reporting Services，以顯示行動報表或 KPI。 了解如何設定您的環境以使用 Power BI 行動裝置應用程式支援 OAuth 驗證，才能連線至 Power BI 報表伺服器和 SQL Server Reporting Services 2016 或更新版本。
 
-看 Adam 使用 OAuth 從 Power BI 行動版連線到 SSRS：
-
-
-<iframe width="560" height="350" src="https://www.youtube.com/embed/okzPAI2uUek" frameborder="0" allowfullscreen></iframe>
-
-
 > [!NOTE]
 > 現在 iOS 和 Android 應用程式支援使用 WAP 驗證，檢視裝載於 Power BI 報表伺服器的 Power BI 報表。
 
-## <a name="requirements"></a>要求
+## <a name="requirements"></a>需求
 
 Web 應用程式 Proxy (WAP) 和 Active Directory Federation Services (ADFS) 伺服器需要 Windows Server 2016。 您不需要有 Windows 2016 功能等級網域。
 
@@ -86,19 +80,19 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 您需要確定具�
 
 您可以使用下列步驟來建立應用程式群組。
 
-1. 在 [AD FS 管理] 應用程式內，以滑鼠右鍵按一下 [應用程式群組]  ，然後選取 [新增應用程式群組]  。
+1. 在 [AD FS 管理] 應用程式內，以滑鼠右鍵按一下 [應用程式群組]，然後選取 [新增應用程式群組]。
 
    ![ADFS 新增應用程式](media/mobile-oauth-ssrs/adfs-add-application-group.png)
 
-2. 在 [新增應用程式群組精靈] 內，提供應用程式群組的**名稱**，然後選取 [存取 Web API 的原生應用程式]  。
+2. 在 [新增應用程式群組精靈] 內，提供應用程式群組的**名稱**，然後選取 [存取 Web API 的原生應用程式]。
 
    ![ADFS 應用程式群組精靈 01](media/mobile-oauth-ssrs/adfs-application-group-wizard1.png)
 
-3. 選取 [下一步]  。
+3. 選取 [下一步]。
 
 4. 提供所新增應用程式的**名稱**。 
 
-5. 自動產生**用戶端識別碼**時，請針對 iOS 和 Android 輸入 484d54fc-b481-4eee-9505-0258a1913020。 
+5. 自動產生**用戶端識別碼**時，請針對 iOS 和 Android 輸入 484d54fc-b481-4eee-9505-0258a1913020。
 
 6. 您要新增下列**重新導向 URL**：
 
@@ -112,7 +106,7 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 您需要確定具�
    urn:ietf:wg:oauth:2.0:oob
 
    ![ADFS 應用程式群組精靈 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
-7. 選取 [下一步]  。
+7. 選取 [下一步]。
 
 8. 提供報表伺服器的 URL。 此 URL 是將會叫用您 Web 應用程式 Proxy 的外部 URL。 它的格式應該如下。
 
@@ -122,19 +116,19 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 您需要確定具�
    *https://< 報表伺服器 URL >/*
 
    ![ADFS 應用程式群組精靈 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
-9. 選取 [下一步]  。
+9. 選取 [下一步]。
 
 10. 選擇符合您組織需求的**存取控制原則**。
 
     ![ADFS 應用程式群組精靈 04](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
-11. 選取 [下一步]  。
+11. 選取 [下一步]。
 
-12. 選取 [下一步]  。
+12. 選取 [下一步] 。
 
-13. 選取 [下一步]  。
+13. 選取 [下一步]。
 
-14. 選取 [關閉]  。
+14. 選取 [關閉]。
 
 完成時，您應該會看到應用程式群組的內容，如下所示。
 
@@ -152,40 +146,40 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 您需要確定具�
 
 若要設定限制委派，您要執行下列步驟。
 
-1. 在已安裝 Active Directory 工具的電腦上，啟動 [Active Directory 使用者和電腦]  。
+1. 在已安裝 Active Directory 工具的電腦上，啟動 [Active Directory 使用者和電腦]。
 
 2. 尋找 WAP 伺服器的電腦帳戶。 根據預設，它將會在電腦容器中。
 
-3. 以滑鼠右鍵按一下 WAP 伺服器，並移至 [內容]  。
+3. 以滑鼠右鍵按一下 WAP 伺服器，並移至 [內容]。
 
-4. 選取 [委派]  索引標籤。
+4. 選取 [委派] 索引標籤。
 
-5. 選取 [信任這台電腦，但只委派指定的服務]  ，然後選取 [使用任何驗證通訊協定]  。
+5. 選取 [信任這台電腦，但只委派指定的服務]，然後選取 [使用任何驗證通訊協定]。
 
    ![限制的 WAP](media/mobile-oauth-ssrs/wap-contrained-delegation1.png)
 
    這會設定此 WAP 伺服器電腦帳戶的限制委派。 接著，我們需要指定允許委派此電腦的服務。
 
-6. 選取 [新增...]\  (位於 [服務] 方塊下)。
+6. 選取 [新增...]\ (位於 [服務] 方塊下)。
 
    ![限制的 WAP 02](media/mobile-oauth-ssrs/wap-contrained-delegation2.png)
 
-7. 選取 [使用者或電腦...]  。
+7. 選取 [使用者或電腦...]。
 
 8. 輸入您要用於 Reporting Services 的服務帳戶。 此帳戶是您在 Reporting Services 設定內新增 SPN 的帳戶。
 
-9. 選取 Reporting Services 的 SPN，然後選取 [確定]  。
+9. 選取 Reporting Services 的 SPN，然後選取 [確定]。
 
    > [!NOTE]
    > 您只能看到 NetBIOS SPN。 它實際會選取 NetBIOS 和 FQDN SPN (如果兩者都存在)。
 
    ![限制的 WAP 03](media/mobile-oauth-ssrs/wap-contrained-delegation3.png)
 
-10. 核取 [展開]  核取方塊時，結果應該與下列類似。
+10. 核取 [展開] 核取方塊時，結果應該與下列類似。
 
     ![限制的 WAP 04](media/mobile-oauth-ssrs/wap-contrained-delegation4.png)
 
-11. 選取 [確定]  。
+11. 選取 [確定]。
 
 ### <a name="add-wap-application"></a>新增 WAP 應用程式
 
@@ -195,7 +189,7 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 您需要確定具�
 Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl https://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
-| 參數 | 回應 |
+| 參數 | 註解 |
 | --- | --- |
 | **ADFSRelyingPartyName** |您建立為 ADFS 內應用程式群組一部分的 Web API 名稱。 |
 | **ExternalCertificateThumbprint** |用於外部使用者的憑證。 憑證在行動裝置上必須是有效的，並且來自受信任的憑證授權單位。 |
@@ -226,11 +220,11 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ![輸入伺服器位址](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
 
-選取 [連線]  時，系統會將您導向至 ADFS 登入頁面。 請輸入您網域的有效認證。
+選取 [連線] 時，系統會將您導向至 ADFS 登入頁面。 請輸入您網域的有效認證。
 
 ![登入 ADFS](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
-選取 [登入]  後，您會看到來自 Reporting Services 伺服器的元素。
+選取 [登入] 後，您會看到來自 Reporting Services 伺服器的元素。
 
 ## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
@@ -254,5 +248,5 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 [Active Directory Federation Services](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Web Application Proxy in Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) (Windows Server 2016 中的 Web 應用程式 Proxy)  
 [Publishing Applications using AD FS Preauthentication](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app) (使用 AD FS 預先驗證發行應用程式)  
-[設定 AD FS 2016 和 Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[Configure AD FS 2016 and Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa) (設定 AD FS 2016 和 Azure MFA)  
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

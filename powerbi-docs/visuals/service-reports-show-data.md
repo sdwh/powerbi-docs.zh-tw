@@ -21,19 +21,19 @@ ms.locfileid: "83276551"
 [!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 ## <a name="show-data"></a>顯示資料
-Power BI 視覺效果是使用您資料集中的資料所建構的。 如果您對背景資料有興趣，Power BI 可讓您「顯示」  用來建立視覺效果的資料。 當您選取 [顯示資料]  時，Power BI 會在視覺效果下方 (或旁邊) 顯示資料。
+Power BI 視覺效果是使用您資料集中的資料所建構的。 如果您對背景資料有興趣，Power BI 可讓您「顯示」用來建立視覺效果的資料。 當您選取 [顯示資料] 時，Power BI 會在視覺效果下方 (或旁邊) 顯示資料。
 
 您也可以將用來建立視覺效果的資料匯出為 .xlsx 或 .csv 檔案，並在 Excel 中檢視。 如需詳細資訊，請參閱[從 Power BI 視覺效果匯出資料](power-bi-visualization-export-data.md)。
 
 > [!NOTE]
-> [顯示資料]  和 [匯出資料]  在 Power BI 服務和 Power BI Desktop 中均可使用。 但是，Power BI Desktop 提供額外一層的詳細資料。顯示記錄 [會顯示來自資料集的實際資料列  ](../create-reports/desktop-see-data-see-records.md)。
+> [顯示資料] 和 [匯出資料] 在 Power BI 服務和 Power BI Desktop 中均可使用。 但是，Power BI Desktop 提供額外一層的詳細資料。顯示記錄 [會顯示來自資料集的實際資料列](../create-reports/desktop-see-data-see-records.md)。
 > 
 > 
 
-## <a name="using-show-data"></a>使用顯示資料  
+## <a name="using-show-data"></a>使用顯示資料 
 1. 在 Power BI Desktop 中，選取要啟用的視覺效果。
 
-2. 選取 [其他動作]  (...)，然後選擇 [顯示資料]  。 
+2. 選取 [其他動作] (...)，然後選擇 [顯示資料]。 
     ![顯示 [顯示資料] 選項](media/service-reports-show-data/power-bi-more-action.png)
 
 
@@ -44,19 +44,19 @@ Power BI 視覺效果是使用您資料集中的資料所建構的。 如果您�
 4. 若要變更方向，請從視覺效果的右上角，選取垂直版面配置 ![圖示的小型螢幕擷取畫面，用來變更為垂直版面配置](media/service-reports-show-data/power-bi-vertical-icon-new.png) 。
    
    ![視覺效果與資料水平顯示](media/service-reports-show-data/power-bi-show-data-side.png)
-5. 若要將資料匯出為 .csv 檔案，請選取省略符號並選擇 [匯出資料]  。
+5. 若要將資料匯出為 .csv 檔案，請選取省略符號並選擇 [匯出資料]。
    
     ![選取 [匯出資料]](media/service-reports-show-data/power-bi-export-data-new.png)
    
     如需將資料匯出到 Excel 的詳細資訊，請參閱[從 Power BI 視覺效果匯出資料](power-bi-visualization-export-data.md)。
-6. 若要隱藏資料，請取消選取 [探索]   > [顯示資料]  。
+6. 若要隱藏資料，請取消選取 [探索] > [顯示資料]。
 
 ## <a name="using-show-records"></a>使用顯示記錄
 您也可以將焦點放在視覺效果中的一個資料記錄，然後鑽研到它背後的資料。 
 
-1. 若要使用 [查看記錄]  ，選取要啟用的視覺效果。 
+1. 若要使用 [查看記錄]，選取要啟用的視覺效果。 
 
-2. 在桌面功能區中，依序選取 [視覺效果工具]  索引標籤  >  [資料/切入]   >  [查看記錄]  。 
+2. 在桌面功能區中，依序選取 [視覺效果工具] 索引標籤  >  [資料/切入] >  [查看記錄] 。 
 
     ![已選取 [查看記錄] 的螢幕擷取畫面。](media/service-reports-show-data/power-bi-see-record.png)
 
@@ -64,11 +64,11 @@ Power BI 視覺效果是使用您資料集中的資料所建構的。 如果您�
 
     ![資料集中單一記錄的螢幕擷取畫面。](media/service-reports-show-data/power-bi-row.png)
 
-4. 選取 [回到報表]  返回桌面報表畫布。 
+4. 選取 [回到報表] 返回桌面報表畫布。 
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
-- 如果功能區中的 [查看記錄]  按鈕已停用呈灰色，表示所選取的視覺效果不支援 [查看記錄]。
+- 如果功能區中的 [查看記錄] 按鈕已停用呈灰色，表示所選取的視覺效果不支援 [查看記錄]。
 - 您無法在 [查看記錄] 檢視中變更資料並儲存回報表。
 - 當視覺效果使用導出量值時，您無法使用 [查看記錄]。
 - 當您連接到即時多維度模型 (MD) 時，不能使用 [查看記錄]。  

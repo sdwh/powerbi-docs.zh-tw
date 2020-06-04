@@ -17,20 +17,20 @@ ms.locfileid: "77464335"
    > 您不能在 Power BI Desktop 中定義 Analysis Services 即時連線的角色。 您必須在 Analysis Services 模型中進行此動作。
    > 
    > 
-2. 在 [模型]  索引標籤中，選取 [管理角色]  。
+2. 在 [模型] 索引標籤中，選取 [管理角色]。
    
    ![選取 [管理角色]](./media/rls-desktop-define-roles/powerbi-desktop-security.png)
-3. 從 [管理角色]  視窗中，選取 [建立]  。
+3. 從 [管理角色] 視窗中，選取 [建立]。
    
    ![選取 [建立]](./media/rls-desktop-define-roles/powerbi-desktop-security-create-role.png)
-4. 在 [角色]  下提供角色名稱。 
-5. 在 [資料表]  下選取要套用 DAX 規則的資料表。
-6. 在 [資料表篩選 DAX 運算式]  方塊中，輸入 DAX 運算式。 這個運算式會傳回 true 或 false 的值。 例如： ```[Entity ID] = “Value”``` 。
+4. 在 [角色] 下提供角色名稱。 
+5. 在 [資料表] 下選取要套用 DAX 規則的資料表。
+6. 在 [資料表篩選 DAX 運算式] 方塊中，輸入 DAX 運算式。 這個運算式會傳回 true 或 false 的值。 例如：```[Entity ID] = “Value”```。
       
    ![[管理角色] 視窗](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 
    > [!NOTE]
-   > 這個運算式中可以使用 *username()* 。 請注意，*username()* 在 Power BI Desktop 中的格式為「網域\使用者名稱」  。 在 Power BI 服務和 Power BI 報表伺服器中，格式則為使用者的使用者主體名稱 (UPN)。 或者，您可以使用 *userprincipalname()* ，這一律會以使用者主體名稱的格式 (*username\@contoso.com*) 傳回使用者。
+   > 這個運算式中可以使用 *username()* 。 請注意，*username()* 在 Power BI Desktop 中的格式為「網域\使用者名稱」。 在 Power BI 服務和 Power BI 報表伺服器中，格式則為使用者的使用者主體名稱 (UPN)。 或者，您可以使用 *userprincipalname()* ，這一律會以使用者主體名稱的格式 (*username\@contoso.com*) 傳回使用者。
    > 
    > 
 
@@ -43,7 +43,7 @@ ms.locfileid: "77464335"
    >
    >
    
-8. 選取 [儲存]  。
+8. 選取 [儲存]。
 
 您無法在 Power BI Desktop 中指派使用者給角色。 請在 Power BI 服務中指派他們。 在 Power BI Desktop 內，您可以使用 *username()* 或 *userprincipalname()* DAX 函式，並設定合適的關聯性，以啟用動態安全性。 
 
