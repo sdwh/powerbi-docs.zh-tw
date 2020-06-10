@@ -6,12 +6,12 @@ metadata:
   ms.service: powerbi
   ms.author: davidiseminger
   ms.date: 09/20/2019
-  ms.openlocfilehash: bd094c8a4568c7fb05ca49996fb0c8f409c668d3
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: e358b7b78b4c87b500e6d749bee39fcdc9b2fd02
+  ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "74178321"
+  ms.lasthandoff: 06/08/2020
+  ms.locfileid: "84532595"
 title: Microsoft Power BI 引導式學習
 summary: 透過這個循序漸進的系列課程開始您的學習之旅，從而了解 Microsoft Power BI 豐富而強大的功能。
 landingContent:
@@ -83,7 +83,7 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/3-create-calculated-columns
     - text: 最佳化資料模型 - 8 分鐘
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4-optimize-data-models
-    - text: 建立導出量值 - 15 分鐘
+    - text: 建立量值 - 15 分鐘
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4b-create-calculated-measures
     - text: 建立導出資料表 - 4 分鐘
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/5-create-calculated-tables
