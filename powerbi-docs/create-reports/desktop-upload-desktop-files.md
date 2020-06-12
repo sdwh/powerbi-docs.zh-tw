@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 417d5a03ed45897896db15f2fd31d3badae837c5
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733456"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273452"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>從 Power BI Desktop 發佈資料集和報表
 當將 Power BI Desktop 檔案發佈至 Power BI 服務時，您會將模型中的資料發佈至 Power BI 工作區。 您在 [報表] 檢視中所建立的任何報表也是如此。 您會看到新的資料集具有相同名稱，以及在工作區導覽器中的所有報表。
@@ -23,13 +23,12 @@ ms.locfileid: "83733456"
 
 > [!NOTE]
 > 您對 Power BI 中報表所做任何變更都不會儲存回原始的 Power BI Desktop 檔案。 包括在您新增、刪除或變更報表中的視覺效果時。
-> 
-> 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>發佈 Power BI Desktop 資料集和報表
 1. 在 Power BI Desktop 中，選擇 [檔案] \> [發佈] \> [發佈至 Power BI]，或選取功能區上的 [發佈]。  
 
    ![發佈按鈕](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
+
 
 2. 登入 Power BI。
 3. 選取目的地。
@@ -55,3 +54,7 @@ ms.locfileid: "83733456"
    ![重新發佈資料集的影響警告](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
 
    [深入了解資料集影響分析](../collaborate-share/service-dataset-impact-analysis.md)。
+
+> [!NOTE]
+> Power BI 報表中的某些資料連線可能包含資料連結，而非將資料包含在匯入 Power BI 服務的資料集中。 例如，DirectQuery 連線會在有更新或互動時連結至資料，而不是匯入資料本身。 如果報表中的連結資料來源位於內部部署，您可能需要閘道才能透過 Power BI 加以存取。 如需詳細資訊，請參閱[什麼是內部部署的資料閘道？](../connect-data/service-gateway-onprem.md)
+> 

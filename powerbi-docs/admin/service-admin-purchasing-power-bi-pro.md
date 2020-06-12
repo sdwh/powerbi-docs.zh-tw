@@ -8,13 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: cce546b489e0f49ff87af22f4955af1922f628e5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fc0bfea05449b3169e7a5f73a4c096d28579b35c
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344955"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159666"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>購買及指派 Power BI Pro 使用者授權
 
@@ -38,25 +39,29 @@ Power BI Pro 是一種個別使用者授權，可讓使用者讀取其他使用�
 
 ### <a name="purchase-licenses-in-microsoft-365"></a>在 Microsoft 365 中購買授權
 
+> [!NOTE]
+> 如果您通常是透過大量授權合約 (例如 Enterprise 合約) 購買授權，並且想要收到發票，而不是使用信用卡或銀行帳戶購買，則必須以不同的方式提交訂單。 請與您的 Microsoft 轉銷商合作，或透過大量授權服務中心來新增或移除授權。 如需詳細資訊，請參閱[管理訂閱授權](https://docs.microsoft.com/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide)。
+
 請遵循下列步驟以在 Microsoft 365 系統管理中心內購買 Power BI Pro 授權：
 
 1. 登入 [MIcrosoft 365 系統管理中心](https://admin.microsoft.com)。
 
-2. 在導覽功能表上，選取 [計費]   > [購買服務]  。
+2. 在導覽功能表上，選取 [計費] > [購買服務]。
 
-3. 搜尋或捲動以找出您想要購買的訂用帳戶。 您會在靠近頁面底部的 [您可能會有興趣的其他類別]  底下看到 [Power BI]  。 選取連結以檢視可供您的組織使用的 Power BI 訂用帳戶。
+3. 搜尋或捲動以找出您想要購買的訂用帳戶。 您會在靠近頁面底部的 [您可能會有興趣的其他類別] 底下看到 [Power BI]。 選取連結以檢視可供您的組織使用的 Power BI 訂用帳戶。
 
-4. 選取 [Power BI Pro]  。
+4. 選取 [Power BI Pro]。
 
-5. 在 [購買服務]  頁面上，選取 [購買]  。
+5. 在 [購買服務] 頁面上，選取 [購買]。
 
-6. 根據您希望使用的付款方式，選擇 [按月支付]  或 [支付全年費用]  。
+6. 根據您希望使用的付款方式，選擇 [按月支付] 或 [支付全年費用]。
 
-7. 在 [您想要多少使用者?]  底下，輸入要購買的授權數目，然後選取 [立即結帳]  以完成交易。
+7. 在 [您想要多少使用者?] 底下，輸入要購買的授權數目，然後選取 [立即結帳] 以完成交易。
 
-8. 若要確認您的購買，請前往 [計費]   > [產品與服務]  並尋找 [Power BI Pro]  。
+8. 若要確認您的購買，請前往 [計費] > [產品與服務] 並尋找 [Power BI Pro]。
 
-9. 之後若要新增更多授權，請在 [產品與服務]  頁面上找出 [Power BI Pro]  ，然後選取 [新增/移除授權]  。
+9. 之後若要新增更多授權，請在 [產品與服務] 頁面上找出 [Power BI Pro]，然後選取 [新增/移除授權]。
+
 
 ## <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>在 Microsoft 365 系統管理中心內指派授權
 
@@ -70,13 +75,13 @@ Power BI Pro 是一種個別使用者授權，可讓使用者讀取其他使用�
 
 1. 登入 [Azure 入口網站](https://portal.azure.com/)。
 
-2. 搜尋並選取 [Azure Active Directory]  。
+2. 搜尋並選取 [Azure Active Directory]。
 
-3. 在 [Azure Active Directory]  資源功能表中的 [管理]  ，選取 [授權]  。
+3. 在 [Azure Active Directory] 資源功能表中的 [管理]，選取 [授權]。
 
-4. 從 [授權 - 概觀]  資源功能表中選取 [所有產品]  ，然後選取 [Power BI Pro]  ，以顯示授權使用者的清單。
+4. 從 [授權 - 概觀] 資源功能表中選取 [所有產品]，然後選取 [Power BI Pro]，以顯示授權使用者的清單。
 
-5. 從命令列選取 [+ 指派]  。 在 [指派授權]  頁面上，先選擇使用者，然後選取 [指派選項]  開啟所選使用者帳戶的 Power BI Pro 授權。
+5. 從命令列選取 [+ 指派]。 在 [指派授權] 頁面上，先選擇使用者，然後選取 [指派選項] 開啟所選使用者帳戶的 Power BI Pro 授權。
 
 ## <a name="next-steps"></a>後續步驟
 

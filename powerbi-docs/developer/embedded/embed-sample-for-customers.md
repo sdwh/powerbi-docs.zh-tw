@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 12/12/2019
-ms.openlocfilehash: 7eef6c7522bc364bc4b66c9567189dd7aec72239
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 06/02/2020
+ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349831"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337065"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教學課程：將客戶的 Power BI 內容內嵌至應用程式
 
@@ -46,7 +46,7 @@ ms.locfileid: "83349831"
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>在 Azure Active Directory (Azure AD) 中註冊應用程式
 
-請向 Azure Active Directory [註冊您的應用程式](register-app.md)，以允許該應用程式存取 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。 註冊您的應用程式可讓您為應用程式建立身分識別，並指定對 Power BI REST 資源的權限。 根據您想要使用主帳戶還是[服務主體](embed-service-principal.md)，決定如何開始註冊應用程式。
+請向 Azure Active Directory [註冊您的應用程式](register-app.md)，以允許該應用程式存取 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。 當您註冊應用程式時，即可為應用程式建立身分識別，並指定[對 Power BI REST 資源的權限](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)。 根據您想要使用主帳戶還是[服務主體](embed-service-principal.md)，決定如何開始註冊應用程式。
 
 根據您採取的方法，這會影響您在 Azure 中註冊的應用程式類型。
 
@@ -58,7 +58,7 @@ ms.locfileid: "83349831"
 
 ### <a name="create-a-workspace"></a>建立工作區
 
-如果要為客戶內嵌報表、儀表板或磚，就必須將您的內容放在工作區內。 有不同類型的工作區可供您設定：[傳統工作區](../../collaborate-share/service-create-workspaces.md)或[新工作區](../../collaborate-share/service-create-the-new-workspaces.md)。 如果您是使用*主要*帳戶，則您使用哪種類型的工作區都無所謂。 不過，如果您使用「[服務主體](embed-service-principal.md)」  來登入應用程式，則需要使用新的工作區。 在任一案例中，「主」  帳戶或「服務主體」  都必須是應用程式隨附的工作區管理員。
+如果要為客戶內嵌報表、儀表板或磚，就必須將您的內容放在工作區內。 有不同類型的工作區可供您設定：[傳統工作區](../../collaborate-share/service-create-workspaces.md)或[新工作區](../../collaborate-share/service-create-the-new-workspaces.md)。 如果您是使用*主要*帳戶，則您使用哪種類型的工作區都無所謂。 不過，如果您使用「[服務主體](embed-service-principal.md)」來登入應用程式，則需要使用新的工作區。 在任一案例中，「主」帳戶或「服務主體」都必須是應用程式隨附的工作區管理員。
 
 ### <a name="create-and-publish-your-reports"></a>建立並發佈報表
 
@@ -119,7 +119,7 @@ ms.locfileid: "83349831"
 
 1. 登入[Azure 入口網站](https://portal.azure.com)。
 
-2. 在左側的瀏覽窗格中，選取 [所有服務]  ，然後選取 [應用程式註冊]  。
+2. 在左側的瀏覽窗格中，選取 [所有服務]，然後選取 [應用程式註冊]。
 
     ![應用程式註冊搜尋](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -127,7 +127,7 @@ ms.locfileid: "83349831"
 
     ![選擇應用程式](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-4. 有一個以 GUID 形式列出的「應用程式識別碼」  。 請使用此**應用程式識別碼**作為應用程式的 **applicationId**。
+4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此**應用程式識別碼**作為應用程式的 **applicationId**。
 
     ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
@@ -135,37 +135,37 @@ ms.locfileid: "83349831"
 
 這兩個 AuthenticationType (主帳戶和[服務主體](embed-service-principal.md)) 都需要此屬性。
 
-在 **workspaceId** 資訊中，填入來自 Power BI 的工作區 (群組) GUID。 您可以在登入 Power BI 服務時從 URL，或使用 Powershell 取得這項資訊。
+在 **workspaceId** 資訊中，填入來自 Power BI 的工作區 (群組) GUID。 您可以在登入 Power BI 服務時從 URL，或使用 PowerShell 取得此資訊。
 
 URL <br>
 
 ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-Powershell <br>
+PowerShell <br>
 
 ```powershell
 Get-PowerBIworkspace -name "App Owns Embed Test"
 ```
 
-   ![來自 powershell 的 workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031-ps.png)
+   ![來自 PowerShell 的 workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031-ps.png)
 
 ### <a name="report-id"></a>報表識別碼
 
 這兩個 AuthenticationType (主帳戶和[服務主體](embed-service-principal.md)) 都需要此屬性。
 
-在 **reportId** 資訊中，填入來自 Power BI 的報表 GUID。 您可以在登入 Power BI 服務時從 URL，或使用 Powershell 取得這項資訊。
+在 **reportId** 資訊中，填入來自 Power BI 的報表 GUID。 您可以在登入 Power BI 服務時從 URL，或使用 PowerShell 取得此資訊。
 
 URL<br>
 
 ![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
-Powershell <br>
+PowerShell <br>
 
 ```powershell
 Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 ```
 
-![來自 powershell 的 reportId](media/embed-sample-for-customers/embed-sample-for-customers-032-ps.png)
+![來自 PowerShell 的 reportId](media/embed-sample-for-customers/embed-sample-for-customers-032-ps.png)
 
 ### <a name="power-bi-username-and-password"></a>Power BI 使用者名稱及密碼
 
@@ -180,13 +180,13 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 僅[服務主體](embed-service-principal.md) AuthenticationType 需要此屬性。
 
-在 **Azure** 之 [應用程式註冊]  區段的 [金鑰]  區段中，填入 **ApplicationSecret** 資訊。  使用[服務主體](embed-service-principal.md)時，此屬性即會運作。
+在 **Azure** 之 [應用程式註冊] 區段的 [金鑰] 區段中，填入 **ApplicationSecret** 資訊。  使用[服務主體](embed-service-principal.md)時，此屬性即會運作。
 
 若要取得 **ApplicationSecret**，請遵循下列步驟：
 
 1. 登入 [Azure 入口網站](https://portal.azure.com)。
 
-2. 在左側瀏覽窗格中，選取 [所有服務]  ，然後選取 [應用程式註冊]  。
+2. 在左側瀏覽窗格中，選取 [所有服務]，然後選取 [應用程式註冊]。
 
     ![應用程式註冊搜尋](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -194,11 +194,11 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
     ![選擇應用程式](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
 
-4. 選取 [管理]  底下的 [憑證及祕密]  。
+4. 選取 [管理] 底下的 [憑證及祕密]。
 
-5. 選取 [新增用戶端祕密]  。
+5. 選取 [新增用戶端祕密]。
 
-6. 在 [描述]  方塊中輸入名稱，並選取期間。 然後選取 [儲存]  來取得您應用程式的**值**。 當您在儲存金鑰值後關閉 [金鑰]  窗格時，[值] 欄位只會以隱藏方式顯示。 此時，您即無法擷取金鑰值。 如果您遺失金鑰值，就必須在 Azure 入口網站中建立一個新的。
+6. 在 [描述] 方塊中輸入名稱，並選取期間。 然後選取 [儲存] 來取得您應用程式的**值**。 當您在儲存金鑰值後關閉 [金鑰] 窗格時，[值] 欄位只會以隱藏方式顯示。 此時，您即無法擷取金鑰值。 如果您遺失金鑰值，就必須在 Azure 入口網站中建立一個新的。
 
     ![金鑰值](media/embed-sample-for-customers/embed-sample-for-customers-042.png)
 
@@ -206,15 +206,15 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 僅[服務主體](embed-service-principal.md) AuthenticationType 需要此屬性。
 
-在 **tenant** 資訊中，填入您的 azure 租用戶識別碼。 您可以在登入 Power BI 服務時從 [Azure AD 系統管理中心](/onedrive/find-your-office-365-tenant-id)，或使用 Powershell 取得此資訊。
+在**租用戶**資訊中，填入您的 Azure 租用戶識別碼。 您可以在登入 Power BI 服務時從 [Azure AD 系統管理中心](/onedrive/find-your-office-365-tenant-id)，或使用 Powershell 取得此資訊。
 
 ### <a name="run-the-application"></a>執行應用程式
 
-1. 在 **Visual Studio** 中選取 [執行]  。
+1. 在 **Visual Studio** 中選取 [執行]。
 
     ![執行應用程式](media/embed-sample-for-customers/embed-sample-for-customers-033.png)
 
-2. 接著，選取 [內嵌報表]  。 視您選擇要進行測試之內容的不同 (報表、儀表板或磚)，接著在應用程式中選取該選項。
+2. 接著，選取 [內嵌報表]。 視您選擇要進行測試之內容的不同 (報表、儀表板或磚)，接著在應用程式中選取該選項。
 
     ![選取內容](media/embed-sample-for-customers/embed-sample-for-customers-034.png)
 
@@ -409,7 +409,7 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 ### <a name="create-a-dedicated-capacity"></a>建立專用容量
 
 建立專用容量，您的客戶即可用到專用資源。 有兩種類型的容量可供選擇：
-* **Power BI Premium** - 兩個 SKU 系列 (*EM* 和 *P*) 中可用的租用戶層級 Office 356 訂用帳戶。內嵌 Power BI 內容時，此解決方案稱為「Power BI 內嵌」  。 如需此訂用帳戶的詳細資訊，請參閱[什麼是 Power BI Premium？](../../admin/service-premium-what-is.md)
+* **Power BI Premium** - 兩個 SKU 系列 (*EM* 和 *P*) 中可用的租用戶層級 Office 356 訂用帳戶。內嵌 Power BI 內容時，此解決方案稱為「Power BI 內嵌」。 如需此訂用帳戶的詳細資訊，請參閱[什麼是 Power BI Premium？](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded** - 您可以在 [Microsoft Azure 入口網站](https://portal.azure.com)中購買專用容量。 此訂用帳戶會使用 *A* SKU。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
 > [!NOTE]
 > 在 A SKU 中，您無法使用免費的 Power BI 授權存取 Power BI 內容。
@@ -442,15 +442,15 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 請遵循下列步驟，使用**主帳戶**將專用容量指派給工作區，。
 
-1. 在 **Power BI 服務**中，展開 工作區，然後選取用於內嵌內容之工作區的省略符號。 然後選取 [編輯工作區]  。
+1. 在 **Power BI 服務**中，展開 工作區，然後選取用於內嵌內容之工作區的省略符號。 然後選取 [編輯工作區]。
 
     ![編輯工作區](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
 
-2. 展開 [進階]  ，接著啟用 [專用容量]  ，然後選取您所建立的專用容量」。 接著，選取 [儲存]  。
+2. 展開 [進階]，接著啟用 [專用容量]，然後選取您所建立的專用容量」。 接著，選取 [儲存]。
 
     ![指派專用容量](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. 在選取 [儲存]  後，應該會在工作區名稱的旁邊看到一個**鑽石**。
+3. 在選取 [儲存] 後，應該會在工作區名稱的旁邊看到一個**鑽石**。
 
     ![繫結至容量的工作區](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 

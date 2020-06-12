@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 01f2d8add417b1d1d37ef043ccb3c48c2609162d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b0fc91eab8c377f5571e66eb7baaf55234fafa97
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813592"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337019"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>匯出用於建立視覺效果的資料
 
@@ -154,24 +154,26 @@ ms.locfileid: "83813592"
 
     - 由於我們已將篩選條件套用至視覺效果，因此匯出的資料會匯出為已篩選。 請注意，第一個資料列會顯示**套用的篩選條件：城市不是喬治亞州亞特蘭大**。 
 
-## <a name="protecting-proprietary-data"></a>保護專屬資料
+## <a name="customize-the-export-data-user-experience"></a>自訂匯出資料使用者體驗
 
-資料集可能具有所有使用者都看不到的內容。 如果您不予以留意，則匯出基礎資料可能可讓使用者查看該視覺效果的所有詳細資料，也就是資料中的每個資料行和每個資料列。 
+除非[資料列層級安全性 (RLS)](../admin/service-admin-rls.md)有所限制，否則獲得報表存取權的使用者即**獲得整個基礎資料集的存取權**。 報表作者和 Power BI 系統管理員可以使用下述功能自訂使用者體驗。
 
-Power BI 系統管理員和設計人員應使用幾個 Power BI 策略來保護專屬資料。 
+- 報表作者可以[決定使用者可使用哪些「匯出選項」](#set-the-export-options)。  
 
-- 設計人員可以[決定使用者可使用哪些「匯出選項」](#set-the-export-options)。  
-
-- Power BI 系統管理員可以為組織關閉資料匯出。 
+- Power BI 系統管理員可以為組織關閉部分或所有資料匯出選項。  
 
 - 資料集擁有者可以設定資料列層級安全性 (RLS)。 RLS 會限制唯讀使用者的存取權。 但如果您已將應用程式工作區設定為讓成員具有編輯權限，則 RLS 角色不會套用至成員。 如需詳細資訊，請參閱[資料列層級安全性](../admin/service-admin-rls.md)。
 
-- 報表設計師可以隱藏資料行，使其不顯示於 [欄位] 清單中。 如需詳細資訊，請參閱[資料集屬性](../developer/automation/api-dataset-properties.md)
+- 報表作者可以隱藏資料行，使其不顯示於 [欄位] 清單中。 如需詳細資訊，請參閱[資料集屬性](../developer/automation/api-dataset-properties.md)
 
-- Power BI 系統管理員可以將[敏感度標籤](../admin/service-security-data-protection-overview.md)新增至儀表板、報表、資料集和資料流程。 系統管理員即可在匯出資料時施行保護設定，例如加密或浮水印。 
 
-- Power BI 系統管理員可以使用 [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) 來監視使用者的存取和活動、執行即時的風險分析，以及設定標籤特定的控制項。 例如，組織可以使用 Microsoft Cloud App Security 設定原則，防止使用者將 Power BI 的敏感性資料從下載到非受控裝置。 
+**這些自訂的使用者體驗，不會限制使用者在資料集中可以存取的資料。請在資料集內使用[資料列層級安全性 (RLS)](../admin/service-admin-rls.md)，讓每個人的認證判斷可以存取的資料。**
 
+## <a name="protect-data-when-it-is-exported-out-of-power-bi"></a>從 Power BI 匯出資料時加以保護
+
+- 報表作者可以將[敏感度標籤](../admin/service-security-data-protection-overview.md)套用至報表。  這些標籤會判斷誰可以存取報表資料，以及該資料如何匯出至 Excel、PowerPoint 和 PDF。 某些敏感度等級包含匯出資料時所套用的保護設定 (例如權限、加密)。 如果敏感度等級包含保護設定，當您將資料匯出至 Excel、PowerPoint 和 PDF 時，就會套用這些設定。 只有具有適當權限的人員才能匯出、檢視、儲存及共用報表資料。 
+
+- 安全性與 Power BI 系統管理員可以使用 [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) 來監視使用者的存取和活動、執行即時的風險分析，以及設定標籤專屬的控制措施。 例如，組織可以使用 Microsoft Cloud App Security 設定原則，防止使用者將 Power BI 的敏感性資料從下載到非受控裝置。
 
 ## <a name="export-underlying-data-details"></a>匯出基礎資料詳細資料
 

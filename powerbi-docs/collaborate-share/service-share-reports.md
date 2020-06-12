@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 636aaf59a3a949b5b3571012d12cecc234e9763b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e91698413df11a2f593128a616948935b65c0c4e
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347945"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272900"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>篩選並共用 Power BI 報表
-「共用」  是讓一些人存取您儀表板和報表的一種好方法。 如果要共用報表的篩選版本呢？ 您可能想讓報表僅顯示特定城市、銷售人員或年份的資料。 此文章說明如何篩選報表，以及共用已篩選版本的報表。 另一個共用已篩選報表的方式，是[將查詢參數新增到報表 URL](service-url-filters.md)。 在這兩種情況下，當收件者第一次開啟報表時，系統便會篩選該報表。 他們可以清除報表中的篩選選項。
+「共用」是讓一些人存取您儀表板和報表的一種好方法。 如果要共用報表的篩選版本呢？ 您可能想讓報表僅顯示特定城市、銷售人員或年份的資料。 此文章說明如何篩選報表，以及共用已篩選版本的報表。 另一個共用已篩選報表的方式，是[將查詢參數新增到報表 URL](service-url-filters.md)。 在這兩種情況下，當收件者第一次開啟報表時，系統便會篩選該報表。 他們可以清除報表中的篩選選項。
 
 ![已篩選報表](media/service-share-reports/power-bi-share-filter-pane-report.png)
 
@@ -29,7 +29,7 @@ Power BI 還提供[可進行共同作業及散發您報表的其他方式](servi
 此文章使用行銷與銷售範例範本應用程式。 想要試用嗎？ 
 
 1. 安裝[安裝行銷與銷售範例範本應用程式](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview) \(英文\)。
-2. 選取應用程式，並選取 [探索應用程式]  。
+2. 選取應用程式，並選取 [探索應用程式]。
 
    ![探索範例資料](media/service-share-reports/power-bi-sample-explore-data.png)
 
@@ -37,7 +37,7 @@ Power BI 還提供[可進行共同作業及散發您報表的其他方式](servi
 
     ![應用程式編輯鉛筆](media/service-share-reports/power-bi-edit-pencil-app.png)
 
-4. 在工作區內容清單中，選取 [報表]  ，然後選取 [銷售與行銷範例 PBIX]  報表。
+4. 在工作區內容清單中，選取 [報表]，然後選取 [銷售與行銷範例 PBIX] 報表。
 
     ![開啟範例報表](media/service-share-reports/power-bi-open-sample-report.png)
 
@@ -47,36 +47,40 @@ Power BI 還提供[可進行共同作業及散發您報表的其他方式](servi
 
 在 [[編輯] 檢視](../consumer/end-user-reading-view.md)中開啟報表並套用篩選。
 
-在此範例中，我們要篩選行銷與銷售範例範本應用程式的 [YTD Category] \(YTD 類別\) 頁面，只顯示 [Region] \(區域\)  等於 [Central] \(中部\)  的值。 
+在此範例中，我們要篩選行銷與銷售範例範本應用程式的 [YTD Category] \(YTD 類別\) 頁面，只顯示 [Region] \(區域\) 等於 [Central] \(中部\) 的值。 
  
 ![報表篩選窗格](media/service-share-reports/power-bi-share-report-filter.png)
 
-請儲存報表。
+儲存報表。
 
 ## <a name="share-the-filtered-report"></a>共用篩選過的報表
 
-1. 選取 [共用]  。
+1. 選取 [共用] 。
 
    ![選取 [共用]](media/service-share-reports/power-bi-share.png)
 
-2. 清除 [將電子郵件通知傳送給收件者]  來改為傳送已篩選的連結，選取 [共用報表 (包含目前的篩選與交叉分析篩選器)]  ，然後選取 [共用]  。
+2. 清除 [將電子郵件通知傳送給收件者] 來改為傳送已篩選的連結，選取 [共用報表 (包含目前的篩選與交叉分析篩選器)]，然後選取 [共用]。
 
     ![搭配篩選共用報表](media/service-share-reports/power-bi-share-with-filters.png)
 
-4. 再次選取 [共用]  。
+4. 再次選取 [共用]。
 
    ![選取 [共用]](media/service-share-reports/power-bi-share.png)
 
-5. 選取 [存取]  索引標籤，然後選取 [管理共用的報表檢視]  。
+5. 選取 [存取] 索引標籤，然後選取 [管理共用的報表檢視]。
 
     ![管理共用的報表檢視](media/service-share-reports/power-bi-manage-shared-report-views.png)
 
-6. 以滑鼠右鍵按一下所需的 URL，然後選取 [複製連結]  。
+6. 以滑鼠右鍵按一下所需的 URL，然後選取 [複製連結]。
 
     ![複製已篩選的連結](media/service-share-reports/power-bi-copy-filtered-link.png)
 
 7. 當您共用此連結時，收件者將會看到已篩選的報表。 
 
+## <a name="limitations-and-considerations"></a>限制與考量
+共用報表時的重要事項︰
+
+* 當您透過管理權限、共用報表或儀表板，或透過發行應用程式來共用資料集時，除非[資料列層級安全性 (RLS)](../admin/service-admin-rls.md) 限制其存取權，否則您會授與整個資料集的存取權。 報表作者可以使用相關功能，來自訂使用者的報表檢視或報表互動體驗，例如隱藏資料行、限制對視覺效果的動作等。 這些自訂的使用者體驗，不會限制使用者在資料集中可以存取的資料。 您可以在資料集內使用[資料列層級安全性 (RLS)](../admin/service-admin-rls.md)，根據每個人的認證來判斷其可以存取哪些資料。
 
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI 中共用成品的方式](service-how-to-collaborate-distribute-dashboards-reports.md)

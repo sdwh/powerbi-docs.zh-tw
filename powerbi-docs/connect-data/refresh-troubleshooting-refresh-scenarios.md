@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 09/13/2019
+ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 38f3b9e40001b5cc3d90d35ed56e768237345e5d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: f28182b8ecfcadae92f64a725622493ebd7a6c61
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84119808"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160241"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>重新整理疑難排解案例
 
@@ -23,7 +23,14 @@ ms.locfileid: "84119808"
 > [!NOTE]
 > 如果您遇到下列以外的案例且發生問題，您可以在[社群網站](https://community.powerbi.com/)上要求進一步協助，也可以建立[支援票證](https://powerbi.microsoft.com/support/)。
 >
->
+
+您應該時時確保達到重新整理的基本需求並經過驗證。 這些基本需求包括：
+
+* 驗證閘道版本為最新狀態
+* 確認報表已選取閘道 - 若未選取，可能表示資料來源已變更或遺失
+
+一旦您確認符合這些需求之後，請參閱下列各節，以深入了解疑難排解內容。 
+
 
 ## <a name="email-notifications"></a>電子郵件通知
 

@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 605d35d55f3191b230d9c4a8d118e2c238283ff2
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 460ab380798975065eb90bf904b2b5bacd1edd2c
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733572"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315963"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -85,7 +85,7 @@ ms.locfileid: "83733572"
 
 ## <a name="control-usage-metrics"></a>控制使用計量
 
-使用計量報表是 Power BI 或 Microsoft 365 系統管理員可開啟或關閉的功能。 系統管理員可以更精細地控制有哪些使用者可以存取使用計量。 它們針對組織中的所有使用者預設為 [開啟]。
+使用計量報表是 Power BI 系統管理員或全域管理員可以開啟或關閉的功能。 系統管理員可以更精細地控制有哪些使用者可以存取使用計量。 它們針對組織中的所有使用者預設為 [開啟]。
 
 系統管理員也可以決定內容建立者是否能在使用計量中看見個別使用者資料。 
 
@@ -132,6 +132,9 @@ ms.locfileid: "83733572"
 ## <a name="tenant-settings"></a>租用戶設定
 
 [租用戶設定] 索引標籤可讓您更精細地控制為您的組織提供的功能。 如果您對敏感性資料有疑慮、我們的某些功能可能不適合您的組織，或您可能希望特定群組只能使用特定功能。
+
+> [!NOTE]
+> 控制 Power BI 使用者介面中功能可用性的租用戶設定，有助於建立控管原則，但並不是安全性措施。 例如，[匯出資料] 設定不會限制 Power BI 使用者對資料集的權限。 具有資料集讀取權限的 Power BI 使用者即有權查詢此資料集，而且不必使用 Power BI 使用者介面中的 [匯出資料] 功能就能保存結果。
 
 下圖顯示 [租用戶設定] 索引標籤的數個設定。
 

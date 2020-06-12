@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 02/27/2020
-ms.openlocfilehash: f4585e4c1eb629b4676b74157c0520d70540da7b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 05/27/2020
+ms.openlocfilehash: ee725457475f1bccd593e2331d9e62c85ef08762
+ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565138"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84126288"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
@@ -23,9 +23,56 @@ ms.locfileid: "83565138"
 
 如需相關的 Power BI「新功能」資訊，請參閱︰
 
-* [Power BI 服務的新功能](../fundamentals/service-whats-new.md)
-* [Power BI Desktop 的新功能](../fundamentals/desktop-latest-update.md)
-* [Power BI 行動裝置 App 的新功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+- [Power BI 服務的新功能](../fundamentals/service-whats-new.md)
+- [Power BI Desktop 的新功能](../fundamentals/desktop-latest-update.md)
+
+## <a name="may-2020"></a>2020 年 5 月
+
+這項更新的重點在於階層式交叉分析篩選器和分解樹狀結構視覺效果，以及查詢診斷。 接下來是新增和更新功能的完整清單。 如需詳細資料，請參閱 [Power BI 報表伺服器 2020 年 5 月的部落格文章](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/) \(英文\)。 
+
+### <a name="reporting"></a>報告
+
+- 階層式交叉分析篩選器
+- 按鈕的新動作類型：
+
+    - 頁面瀏覽
+    - 鑽研
+
+- 按鈕現在支援填滿影像
+- 資料表的多資料行排序
+- 折線圖的雙軸
+- 視覺效果的矩形選取
+- 資料表與矩陣之總計及小計的條件式格式設定
+- 自訂佈景主題對話方塊
+- 條件式格式設定的發現性
+- 分解樹狀結構
+- 篩選窗格更新：
+
+    - 新的篩選窗格體驗
+    - 篩選窗格搜尋
+    
+### <a name="modeling"></a>模型化
+
+- 新的 DAX 函式：
+
+    - FirstNonBlankValue
+    - LastNonBlankValue
+    - Coalesce
+
+- 標準 DAX 分隔符號
+
+### <a name="visualizations"></a>視覺效果
+
+- 新的視覺效果圖示
+- 視覺效果延伸陰影
+
+### <a name="data-preparation"></a>資料準備
+
+- 查詢診斷
+
+### <a name="other"></a>其他
+
+- 使用 Web Proxy 的預設系統認證
 
 ## <a name="january-2020"></a>2020 年 1 月
 
@@ -561,13 +608,13 @@ Power BI 報表伺服器中的 Power BI 報表可以連線到各種資料來源�
 
 系統管理員可以在伺服器陣列的 SSMS 進階屬性中設定下列屬性：
 
-* EnableCustomVisuals：True/False
-* EnablePowerBIReportEmbeddedModels：True/False
-* EnablePowerBIReportExportData：True/False
-* MaxFileSizeMb：預設值現在為 1000
-* ModelCleanupCycleMinutes：檢查並從記憶體收回模型的頻率
-* ModelExpirationMinutes：模型到期並收回的時間長度 (根據最後一次使用)
-* ScheduleRefreshTimeoutMinutes：模型的資料重新整理可以花多長的時間。 預設為 2 小時。  沒有硬性上限。
+- EnableCustomVisuals：True/False
+- EnablePowerBIReportEmbeddedModels：True/False
+- EnablePowerBIReportExportData：True/False
+- MaxFileSizeMb：預設值現在為 1000
+- ModelCleanupCycleMinutes：檢查並從記憶體收回模型的頻率
+- ModelExpirationMinutes：模型到期並收回的時間長度 (根據最後一次使用)
+- ScheduleRefreshTimeoutMinutes：模型的資料重新整理可以花多長的時間。 預設為 2 小時。  沒有硬性上限。
 
 **設定檔 rsreportserver.config**
 
@@ -597,9 +644,9 @@ Excel 和 Power BI 包含產業中特有的工具組合。 此外，它們可讓
 
 我們已發佈[如何將 Office Online Server (OOS) 新增至 Power BI 報表伺服器 Preview 環境的逐步解說](excel-oos.md)。 具有大量授權帳戶的客戶可以免費從大量授權服務中心下載 OOS，並且具有僅限檢視功能。 設定之後，使用者可以檢視 Excel 活頁簿，並與之互動，而 Excel 活頁簿：
 
-* 沒有任何外部資料來源相依性
-* 即時連線至外部 SQL Server Analysis Services 資料來源
-* 具有 PowerPivot 資料模型
+- 沒有任何外部資料來源相依性
+- 即時連線至外部 SQL Server Analysis Services 資料來源
+- 具有 PowerPivot 資料模型
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>新資料表和矩陣視覺效果的支援
 
@@ -607,22 +654,21 @@ Power BI 報表伺服器現在支援新的 Power BI 資料表和矩陣視覺效�
 
 ## <a name="june-2017"></a>2017 年 6 月
 
-* Power BI 報表伺服器正式推出 (GA)。
+- Power BI 報表伺服器正式推出 (GA)。
 
 ## <a name="may-2017"></a>2017 年 5 月
 
-* Power BI 報表伺服器預覽版已正式運作
-* 可在內部發行 Power BI 報表
-  * Power BI 視覺效果支援
-  * **Analysis Services 即時連線**的支援必須等待更多資料來源。
-  * Power BI 行動裝置應用程式已更新，以顯示 Power BI 報表伺服器裝載的 Power BI 報表
-* 增強報表中使用註解的共同作業
+- Power BI 報表伺服器預覽版已正式運作
+- 可在內部發行 Power BI 報表
+  - Power BI 視覺效果支援
+  - 「Analysis Services 即時連線」的支援必須等待更多資料來源。
+  - Power BI 行動裝置應用程式已更新，以顯示 Power BI 報表伺服器裝載的 Power BI 報表
+- 增強報表中使用註解的共同作業
 
 ## <a name="next-steps"></a>後續步驟
 
 請查看下列來源掌握 Power BI 報表伺服器新功能的最新消息。
 
-* [Microsoft Power BI 部落格](https://powerbi.microsoft.com/blog/)
-* [Guy in a Cube YouTube 頻道](https://aka.ms/guyinacube)
+- [Microsoft Power BI 部落格](https://powerbi.microsoft.com/blog/)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

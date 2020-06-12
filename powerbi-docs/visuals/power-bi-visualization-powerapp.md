@@ -7,15 +7,15 @@ ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 03/29/2020
+ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04e2092b3651fd3339706582001f37fc855ddbad
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: aead027780ad1e7887b172cba328c0c4e97675b5
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841955"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273429"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>教學課程：在 Power BI 報表中內嵌 Power Apps 視覺效果
 
@@ -40,7 +40,7 @@ ms.locfileid: "82841955"
 ## <a name="create-a-new-app"></a>建立新的應用程式
 當您將 Power Apps 視覺效果新增至報表時，即會啟動 Power Apps Studio，並建立 Power Apps 與 Power BI 之間的即時資料連線。
 
-1. 開啟商機分析範例報表，然後選取 [近期商機]  頁面。 
+1. 開啟商機分析範例報表，然後選取 [近期商機] 頁面。 
 
 
 2. 移動並調整某些報表圖格的大小，以挪出空間給新的視覺效果。
@@ -51,21 +51,21 @@ ms.locfileid: "82841955"
 
     ![已選取 Power Apps 圖示的 [視覺效果] 窗格](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
-3. 在 [欄位]  窗格中，選取 [名稱]  、[產品代碼]  和 [銷售階段]  。 
+3. 在 [欄位] 窗格中，選取 [名稱]、[產品代碼] 和 [銷售階段]。 
 
     ![選取欄位](media/power-bi-visualization-powerapp/power-bi-fields.png)
 
-4. 在 Power Apps 視覺效果上，選取您要建立應用程式的 Power Apps 環境，然後選取 [建立新的]  。
+4. 在 Power Apps 視覺效果上，選取您要建立應用程式的 Power Apps 環境，然後選取 [建立新的]。
 
     ![建立新的應用程式](media/power-bi-visualization-powerapp/power-bi-create-new-powerapp.png)
 
-    在 PowerApps Studio 中，您會看到已建立基本應用程式，且其「資源庫」  顯示您在 Power BI 中選取的其中一個欄位。
+    在 PowerApps Studio 中，您會看到已建立基本應用程式，且其「資源庫」顯示您在 Power BI 中選取的其中一個欄位。
 
     ![Power Apps 開啟](media/power-bi-visualization-powerapp/power-bi-power-app.png)
 
 5.  調整資源庫的大小，讓其佔用螢幕的一半。 
 
-6. 在左窗格中，選取 [Screen1]  ，然後將螢幕的 **Fill** 屬性設定為 "LightBlue" (以在報表中更清楚地顯示)。
+6. 在左窗格中，選取 [Screen1]，然後將螢幕的 **Fill** 屬性設定為 "LightBlue" (以在報表中更清楚地顯示)。
 
     ![調色盤](media/power-bi-visualization-powerapp/power-bi-powerapps-fill.png)
 
@@ -74,7 +74,7 @@ ms.locfileid: "82841955"
     ![變更資源庫維度](media/power-bi-visualization-powerapp/power-bi-powerapps-gallery.png)
 
 
-8. 在 [資源庫]  下，插入文字標籤控制項。
+8. 在 [資源庫] 下，插入文字標籤控制項。
 
    ![標籤控制項](media/power-bi-visualization-powerapp/power-bi-label.png)
 
@@ -104,6 +104,8 @@ ms.locfileid: "82841955"
 ## <a name="clean-up-resources"></a>清除資源
 如果您不想再使用商機分析範例，您可以刪除儀表板、報表和資料集。
 
+## <a name="limitations-and-considerations"></a>限制與考量
+如需疑難排解資訊，請參閱[適用於 Power BI 的 Power Apps 視覺效果](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visualbranch=pr-en-us-2943#limitations-of-the-power-apps-visual) (機器翻譯)
 
 ## <a name="next-steps"></a>後續步驟
 [問與答視覺效果](power-bi-visualization-types-for-reports-and-q-and-a.md)    

@@ -6,34 +6,34 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/23/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: e16acffd683b14eb48a6e21ddc456caeac25efc3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fdc246d1edb487ce7280ceee8a3727d2faeb0252
+ms.sourcegitcommit: 12f26ae9a2615cb287fee9046b0dc713af764c04
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83132008"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "84228998"
 ---
-# <a name="data-protection-metrics-report-preview"></a>資料保護計量報表 (預覽)
+# <a name="data-protection-metrics-report"></a>資料保護計量報表
 
 ## <a name="what-is-the-data-protection-metrics-report"></a>什麼是資料保護計量報表？
-資料保護計量報表，是可讓 [Power BI 系統管理員](../admin/service-admin-role.md)用來監視並追蹤其租用戶中資料敏感度標籤使用量和採用情形的專用報表。
+資料保護計量報表，是可讓 [Power BI 系統管理員](../service-admin-role.md)用來監視並追蹤其租用戶中資料敏感度標籤使用量和採用情形的專用報表。
 
 ![資料保護計量報表](./media/service-security-data-protection-metrics-report/protection-metrics-seven-days-1.png)
  
 報表功能：
 * 顯示租用戶中過去 7 天、30 天或 90 天每日敏感度標籤使用量的 100% 堆疊直條圖。 此圖表可讓您輕鬆追蹤不同標籤類型在一段時間內的相對使用量。
 * 顯示租用戶中儀表板、報表、資料集和資料流程敏感度標籤使用量目前狀態的環圈圖。
-* Cloud App Security 入口網站的連結，提供 Power BI 警示、有風險的使用者、活動記錄和其他資訊。 如需詳細資訊，請參閱[在 Power BI 中使用 Microsoft Cloud App Security 控制項 (預覽)](./service-security-using-microsoft-cloud-app-security-controls.md)。
+* Cloud App Security 入口網站的連結，提供 Power BI 警示、有風險的使用者、活動記錄和其他資訊。 如需詳細資訊，請參閱[在 Power BI 中使用 Microsoft Cloud App Security 控制項](./service-security-using-microsoft-cloud-app-security-controls.md)。
 
 報表每隔 24 小時重新整理一次。
 
 ## <a name="viewing-the-data-protection-metrics-report"></a>檢視資料保護計量報表
 
-您必須擁有 [Power BI 系統管理員角色](../admin/service-admin-role.md)，才能開啟和檢視報表。
-若要檢視報表，請前往 [設定] > [系統管理員入口網站]  ，並選擇 [保護計量 (預覽)]  。
+您必須擁有 [Power BI 系統管理員角色](../service-admin-role.md)，才能開啟和檢視報表。
+若要檢視報表，請前往 [設定] > [系統管理員入口網站]，並選擇 [保護計量]。
 
 ![保護計量系統管理入口網站](./media/service-security-data-protection-metrics-report/protection-metrics-admin-portal.png)
  
@@ -51,9 +51,9 @@ ms.locfileid: "83132008"
 * 為了存取 Cloud App Security 資訊，您組織必須具有適當的 [Cloud App Security 授權](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing)。
 * 如果您決定與非 Power BI 系統管理員的使用者共用資料保護計量報表資訊，請注意，這份報表包含組織的敏感性資訊。
 * 資料保護計量報表是一種特殊的報表，而且不會顯示在 [與我共用]、[最近項目] 與 [我的最愛] 清單中。
-* 資料保護計量報表無法供[外部使用者 (Azure Active Directory B2B 來賓使用者)](../admin/service-admin-azure-ad-b2b.md)使用。
+* 資料保護計量報表無法供[外部使用者 (Azure Active Directory B2B 來賓使用者)](../service-admin-azure-ad-b2b.md)使用。
 ## <a name="next-steps"></a>後續步驟
-* [Power BI 的資料保護 (預覽)](./service-security-data-protection-overview.md)
-* [在 Power BI 中使用 Microsoft Cloud App Security 控制項 (預覽)](./service-security-using-microsoft-cloud-app-security-controls.md)
-* [了解 Power BI 服務管理員角色](../admin/service-admin-role.md)
-* [在 Power BI 中啟用資料敏感度標籤](./service-security-enable-data-sensitivity-labels.md)
+* [Power BI 的資料保護](./service-security-data-protection-overview.md)
+* [在 Power BI 中使用 Microsoft Cloud App Security 控制項](service-security-using-microsoft-cloud-app-security-controls.md)
+* [了解 Power BI 服務管理員角色](service-admin-role.md)
+* [在 Power BI 中啟用資料敏感度標籤](service-security-enable-data-sensitivity-labels.md)

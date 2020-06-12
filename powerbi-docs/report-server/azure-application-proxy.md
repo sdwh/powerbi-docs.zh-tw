@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/06/2020
+ms.date: 05/27/2020
 ms.author: maggies
-ms.openlocfilehash: 548e66685c7b460829e171d097d18640cd5b0f57
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3bd792c585f42add6652205a6e4a99fe116ad20f
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922589"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159781"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>使用 Azure 應用程式 Proxy 設定 Power BI 報表伺服器
 
@@ -33,7 +33,7 @@ ms.locfileid: "78922589"
 
 1. 在 VM 防火牆上針對連接埠 80 建立連入與連出規則 (如果您已設定 https URL，則為連接埠 443)。 此外，也從 Azure 入口網站建立 Azure VM 的 TCP 通訊協定 (連接埠 80) 連入與連出規則。
 2. 為我們環境中的 VM 所設定的 DNS 名稱是 `pbirsazureapp.eastus.cloudapp.azure.com`。
-3. 透過選取 [進階]  索引標籤 > [新增]  按鈕 > **選擇主機標頭名稱**並新增主機名稱 (DNS 名稱) 來設定 Power BI 報表伺服器外部 Web 服務與入口網站 URL，如下所示。
+3. 透過選取 [進階] 索引標籤 > [新增] 按鈕 > **選擇主機標頭名稱**並新增主機名稱 (DNS 名稱) 來設定 Power BI 報表伺服器外部 Web 服務與入口網站 URL，如下所示。
 
     ![報表伺服器組態管理員](media/azure-application-proxy/report-server-configuration-manager.png)
 
@@ -108,18 +108,18 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 1. 開啟 [Active Directory 使用者和電腦]。
 2. 開啟 [Active Directory 使用者和電腦] 內的報表伺服器服務帳戶內容。
 3. 我們想要使用通訊協定傳輸來設定限制委派。 使用限制委派時，我們必須明確指出要委派的目標服務。
-4. 以滑鼠右鍵按一下**報表伺服器服務帳戶**，然後選取 [內容]  。
-5. 選取 [委派]  索引標籤。
-6. 選取 [信任這台電腦，但只委派指定的服務]  。
-7. 選取 [使用任何驗證通訊協定]  。
-8. 在 [這個帳戶可以呈送委派認證的服務:]  下方，選取 [新增]  。
-9. 在新的對話方塊中，選取 [使用者或電腦]  。
-10. 輸入 **SQL 伺服器服務的服務帳戶**，然後選取 [確定]  。
+4. 以滑鼠右鍵按一下**報表伺服器服務帳戶**，然後選取 [內容]。
+5. 選取 [委派] 索引標籤。
+6. 選取 [信任這台電腦，但只委派指定的服務]。
+7. 選取 [使用任何驗證通訊協定]。
+8. 在 [這個帳戶可以呈送委派認證的服務:] 下方，選取 [新增]。
+9. 在新的對話方塊中，選取 [使用者或電腦]。
+10. 輸入 **SQL 伺服器服務的服務帳戶**，然後選取 [確定]。
 
     其開頭為 MSSQLSVC。
 
 1. 新增 SPN。
-2. 選取 [確定]  。 您現在應該會在清單中看到 SPN。
+2. 選取 [確定]。 您現在應該會在清單中看到 SPN。
 
 這些步驟有助於設定 Power BI 報表伺服器以搭配 Kerberos 驗證機制使用，並讓本機電腦上資料來源的測試連線能運作。
 
@@ -137,14 +137,14 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 若要設定 KCD，請針對每部連接器機器重複下列步驟。
 
-1. 以網域系統管理員身分登入網域控制站，然後開啟 [Active Directory 使用者和電腦]  。
+1. 以網域系統管理員身分登入網域控制站，然後開啟 [Active Directory 使用者和電腦]。
 2. 尋找連接器執行所在的電腦。
-3. 按兩下該電腦，然後選取 [委派]  索引標籤。
-4. 將委派設定為 [信任這台電腦，但只委派指定的服務]  。 然後，選取 [使用任何驗證通訊協定]  。
-5. 選取 [新增]  ，然後選取 [使用者或電腦]  。
+3. 按兩下該電腦，然後選取 [委派] 索引標籤。
+4. 將委派設定為 [信任這台電腦，但只委派指定的服務]。 然後，選取 [使用任何驗證通訊協定]。
+5. 選取 [新增]，然後選取 [使用者或電腦]。
 6. 輸入您要用於 Power BI 報表伺服器的服務帳戶。 此帳戶是您在報表伺服器設定內新增 SPN 的帳戶。
-7. 按一下 [確定]  。 
-8. 若要儲存變更，請按一下 [確定]  。
+7. 按一下 [確定]。 
+8. 若要儲存變更，請按一下 [確定]。
 
 ## <a name="publish-through-azure-ad-application-proxy"></a>透過 Azure AD 應用程式 Proxy 發佈
 
@@ -166,7 +166,10 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 ![預設連接器群組](media/azure-application-proxy/report-server-application-proxy-1.png)
 
-我們尚未在 [其他設定]  區段中進行任何變更。 其設定為使用預設選項：
+我們尚未在 [其他設定] 區段中進行任何變更。 因此，其設定為使用預設選項。
+
+> [!IMPORTANT]
+> 設定應用程式 Proxy 時，請注意，**後端應用程式逾時**屬性會設為 [預設] (85 秒)。 如果您的報表執行時間超過 85 秒，請將此屬性設定為 [長] (180 秒)，這是最高的逾時值上限。 當設定為 [長] 時，所有報表都必須在 180 秒內完成，否則就會逾時導致錯誤。
 
 ![其他設定](media/azure-application-proxy/report-server-application-proxy-1.png)
 
@@ -174,37 +177,37 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 發佈您的應用程式之後，請按照下列步驟設定單一登入設定：
 
-1. 在入口網站的應用程式頁面上，選取 [單一登入]  。
-2. 針對 [單一登入模式]  ，選取 [整合式 Windows 驗證]  。
+1. 在入口網站的應用程式頁面上，選取 [單一登入]。
+2. 針對 [單一登入模式]，選取 [整合式 Windows 驗證]。
 3. 將**內部應用程式 SPN** 設定為您先前設定的值。 您可以使用下列步驟來識別此值：
 
     - 請嘗試執行報表，或執行資料來源的測試連線，以建立 Kerberos 票證。
     - 成功執行報表/測試連線之後，請開啟命令提示字元，並執行命令：`klist`。 在結果區段中，您應該會看到具有 `http/` SPN 的票證。 如果其與您已用於設定 Power BI 報表伺服器的 SPN 相同，請在此區段中使用該 SPN。
 
-1. 針對要代表使用者使用的連接器選擇 [委派的登入身分識別]  。 如需詳細資訊，請參閱[使用不同的內部部署和雲端身分識別](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities) \(部分機器翻譯\)。
+1. 針對要代表使用者使用的連接器選擇 [委派的登入身分識別]。 如需詳細資訊，請參閱[使用不同的內部部署和雲端身分識別](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities) \(部分機器翻譯\)。
 
-    我們建議使用使用者主體名稱。 在我們的範例中，我們已將其設定為使用 [使用者主體名稱]  選項：
+    我們建議使用使用者主體名稱。 在我們的範例中，我們已將其設定為使用 [使用者主體名稱] 選項：
 
     ![設定整合式 Windows 驗證](media/azure-application-proxy/report-server-configure-iwa.png)
 
-1. 按一下 [確定]  儲存變更。
+1. 按一下 [確定] 儲存變更。
 
 ### <a name="finish-setting-up-your-application"></a>完成設定您的應用程式
 
-若要完成您的應用程式設定，請移至 [使用者和群組]  區段，並指派使用者存取此應用程式。
+若要完成您的應用程式設定，請移至 [使用者和群組]區段，並指派使用者存取此應用程式。
 
-1. 針對 [重新導向 URL]  與 [進階設定]  ，為 Power BI 報表伺服器應用程式設定應用程式註冊的 [驗證]  區段，如下所示：
+1. 針對 [重新導向 URL] 與 [進階設定]，為 Power BI 報表伺服器應用程式設定應用程式註冊的 [驗證] 區段，如下所示：
 
     - 建立新的重新導向 URL，並使用 **Type** = **Web** 與 **Redirect URI** = `https://pbirsazureapp-umacontoso2410.msappproxy.net/` 加以設定
-    - 在 [進階設定]  區段中，將 [登出 URL]  設定為 `https://pbirsazureapp-umacontoso2410.msappproxy.net/?Appproxy=logout`
+    - 在 [進階設定] 區段中，將 [登出 URL] 設定為 `https://pbirsazureapp-umacontoso2410.msappproxy.net/?Appproxy=logout`
 
     ![驗證設定](media/azure-application-proxy/azure-report-server-authentication-1.png)
 
-1. 針對 [隱含授與]  、[預設用戶端類型]  和 [支援的帳戶類型]  繼續為 Power BI 報表伺服器應用程式設定應用程式註冊的 [驗證]  區段，如下所示：
+1. 針對 [隱含授與]、[預設用戶端類型] 和 [支援的帳戶類型] 繼續為 Power BI 報表伺服器應用程式設定應用程式註冊的 [驗證] 區段，如下所示：
 
-    - 將 [隱含授與]  設定為 [識別碼權杖]  。
-    - 將 [預設用戶端類型]  設定為 [否]  。
-    - 將 [支援的帳戶類型]  變更為 [僅此組織目錄中的帳戶 (僅 UmaContoso - 單一租用戶)]  。
+    - 將 [隱含授與] 設定為 [識別碼權杖]。
+    - 將 [預設用戶端類型] 設定為 [否]。
+    - 將 [支援的帳戶類型] 變更為 [僅此組織目錄中的帳戶 (僅 UmaContoso - 單一租用戶)]。
 
     ![驗證設定](media/azure-application-proxy/azure-report-server-authentication-2.png)
 
@@ -215,7 +218,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
     如需參考，請參閱[教學課程：將現有的自訂 DNS 名稱對應至 Azure App Service](https://docs.microsoft.com/Azure/app-service/app-service-web-tutorial-custom-domain) \(部分機器翻譯\) 一文。
 
-1. 成功驗證自訂網域的 DNS 項目之後，您應該能夠從入口網站看到對應網域的狀態為 [已驗證]  。
+1. 成功驗證自訂網域的 DNS 項目之後，您應該能夠從入口網站看到對應網域的狀態為 [已驗證]。
 
     ![網域名稱](media/azure-application-proxy/azure-ad-custom-domain-names.png)
 
@@ -231,11 +234,11 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 1. 新增 UPN 之後，您應該能夠使用 UPN 來設定使用者帳戶，以連接 Azure AD 帳戶與內部部署 AD 帳戶，並在驗證期間辨識權杖。
 
-    執行上一個步驟之後，AD 網域名稱會列在 [使用者登入名稱]  區段的下拉式清單中。 設定使用者名稱，然後從 AD 使用者屬性的 [使用者登入名稱]  區段的下拉式清單中選取網域。
+    執行上一個步驟之後，AD 網域名稱會列在 [使用者登入名稱] 區段的下拉式清單中。 設定使用者名稱，然後從 AD 使用者屬性的 [使用者登入名稱] 區段的下拉式清單中選取網域。
 
     ![Active Directory 屬性](media/azure-application-proxy/active-directory-user-properties.png)
 
-1. AD 同步處理成功之後，您會看到內部部署 AD 帳戶出現在 Azure 入口網站中該應用程式的 [使用者和群組]  區段下。 帳戶的來源是 **Windows Server AD。**
+1. AD 同步處理成功之後，您會看到內部部署 AD 帳戶出現在 Azure 入口網站中該應用程式的 [使用者和群組] 區段下。 帳戶的來源是 **Windows Server AD。**
 2. 使用 `umasm@umacontoso.com` 登入相當於使用 Windows 認證 `Umacontoso\umasm`。
 
     如果您已設定內部部署 AD，而且打算將其與 Azure AD 同步處理，則適用這些先前步驟。
@@ -258,9 +261,9 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 在 Power BI 的行動裝置應用程式可以連線並存取 Power BI 報表伺服器之前，您必須先設定自動為您建立的應用程式註冊，如此文章稍早的[透過 Azure AD 應用程式 Proxy 發佈](#publish-through-azure-ad-application-proxy)中所述。
 
-1. 在 Azure Active Directory [概觀]  頁面上，選取 [應用程式註冊]  。
-2. 在 [所有應用程式]  索引標籤上，搜尋您為 Power BI 報表伺服器建立的應用程式。
-3. 選取應用程式，然後選取 [驗證]  。
+1. 在 Azure Active Directory [概觀] 頁面上，選取 [應用程式註冊]。
+2. 在 [所有應用程式] 索引標籤上，搜尋您為 Power BI 報表伺服器建立的應用程式。
+3. 選取應用程式，然後選取 [驗證]。
 4. 根據您所使用的平台，新增下列重新導向 URI。
 
     設定 Power BI 行動版 **iOS** 的應用程式時，請新增下列公用用戶端 (行動裝置和電腦) 類型的重新導向 URI：
@@ -286,9 +289,9 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 ### <a name="connect-from-the-power-bi-mobile-apps"></a>從 Power BI 行動裝置應用程式連線
 
-1. 在 Power BI 行動裝置應用程式中，連線到您的報表伺服器執行個體。 若要連線，請輸入您透過應用程式 Proxy 發佈之應用程式的 [外部 URL]  。
-2. 選取 [連接]  。 系統會將您導向至 Azure Active Directory 登入頁面。
-3. 輸入使用者的有效認證，然後選取 [登入]  。 您會看到來自您報表伺服器的元素。
+1. 在 Power BI 行動裝置應用程式中，連線到您的報表伺服器執行個體。 若要連線，請輸入您透過應用程式 Proxy 發佈之應用程式的 [外部 URL]。
+2. 選取 [連接]。 系統會將您導向至 Azure Active Directory 登入頁面。
+3. 輸入使用者的有效認證，然後選取 [登入]。 您會看到來自您報表伺服器的元素。
 
 ## <a name="next-steps"></a>後續步驟
 

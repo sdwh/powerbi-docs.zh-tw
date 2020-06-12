@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276045"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337111"
 ---
-# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>教學課程：為客戶將 Power BI 編頁報表內嵌至您的應用程式中 (預覽)
+# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>教學課程：為客戶將 Power BI 編頁報表內嵌至您的應用程式
 
 使用 **Azure 中的 Power BI Embedded** 或**內嵌在 Office 的 Power BI**，可利用應用程式擁有的資料，將編頁報表內嵌至應用程式。 **應用程式擁有的資料**即是應用程式使用 Power BI 作為其內嵌的分析平台。 身為 **ISV** 或**開發人員**，您可以建立會顯示應用程式 (完全整合且互動) 中編頁報表的 Power BI 內容，而使用者完全不需要有 Power BI 授權。 本教學課程示範如何使用 Power BI .NET SDK 搭配 Power BI JavaScript API，將編頁報表整合至應用程式。
 
@@ -40,7 +40,7 @@ ms.locfileid: "83276045"
 
 > [!IMPORTANT]
 > * 您必須使用**服務主體**。 不支援主要使用者。
-> * 不支援需要單一登入 (SSO) 的資料來源。
+> * 不支援需要單一登入 (SSO) 的資料來源。 如需支援的資料集和驗證方法清單，請參閱 [Power BI 編頁報表支援的資料來源](../../paginated-reports/paginated-reports-data-sources.md)。 
 > * 不支援將 Power BI 資料集作為[資料來源](../../connect-data/service-get-data.md)。
 
 ## <a name="set-up-your-power-bi-environment"></a>設定您的 Power BI 環境

@@ -1,6 +1,6 @@
 ---
-title: 組織中的 Power BI 授權
-description: 概述 Power BI 中可用的各種不同授權類型，以及管理員如何為其組織購買和管理授權。
+title: 將 Power BI 授權提供給組織中的使用者
+description: 概述 Power BI 中可用的各種不同使用者授權類型，以及管理員如何為其組織使用者購買和管理授權。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,15 +8,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/14/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a0ce3eab2992c59c5b887db1f0838f88db7ad2da
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563480"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159988"
 ---
-# <a name="power-bi-licensing-in-your-organization"></a>組織中的 Power BI 授權
+# <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>將 Power BI 服務授權提供給組織中的使用者
 
 使用者可在 Power BI 服務中執行的動作取決於每位使用者所擁有授權類型。 其授權所提供的存取等級取決於所要存取工作區是否已指派給 Power BI Premium 容量。 Power BI 服務的所有使用者都必須具備授權。
 

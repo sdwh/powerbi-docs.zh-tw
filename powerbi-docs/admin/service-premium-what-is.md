@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.custom: seodec18
+ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 7c9f198ac15311948e1789173851a6c85debc856
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 1c72507759a69dc03f3d8b1510aef0e3ad369dd2
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812442"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272739"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -36,7 +36,7 @@ ms.locfileid: "83812442"
 
 ## <a name="subscriptions-and-licensing"></a>訂閱和授權
 
-Power BI Premium 是兩個 SKU (庫存單位) 系列的可用租用戶層級 Office 365 訂閱：
+Power BI Premium 是可供兩個 SKU (庫存單位) 系列使用的租用戶層級 Microsoft 365 訂閱：
 
 - **P** SKU (P1-P5) 用於內嵌和企業功能、需要每月或年度履約承諾、按月計費，且包含在內部部署安裝 Power BI 報表伺服器的授權。
 
@@ -127,7 +127,7 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 ### <a name="regional-support"></a>區域支援
 
-建立新容量時，全域管理員和 Power BI 服務管理員可以為指派給容量的工作區指定存放區域。 這稱為**多地理位置**。 透過多地理位置，組織可以將內容部署到位於特定區域的資料中心來符合資料落地需求，即使該區域不同於 Office 365 訂閱所在區域也一樣。 若要深入了解，請參閱 [Power BI Premium 的多地理位置支援](service-admin-premium-multi-geo.md)。
+建立新容量時，全域管理員和 Power BI 服務管理員可以為指派給容量的工作區指定存放區域。 這稱為**多地理位置**。 透過多地理位置，組織可藉由將內容部署到位於特定區域的資料中心以符合資料落地需求，即使該區域不同於 Microsoft 365 訂閱所在區域也可行。 若要深入了解，請參閱 [Power BI Premium 的多地理位置支援](service-admin-premium-multi-geo.md)。
 
 ### <a name="capacity-management"></a>容量管理
 

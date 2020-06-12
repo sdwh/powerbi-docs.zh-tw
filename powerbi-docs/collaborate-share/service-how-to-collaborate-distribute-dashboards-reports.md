@@ -9,26 +9,26 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: c71467a279ed3a2304d6af82f7493dac97425c4f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 68ead14063c290c8ec9db5cb24814b93e493ea6b
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348083"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272946"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>在 Power BI 中共用成品的方式
 
 您已建立儀表板和報表。 或許您也已透過它們與同事共同作業。 現在，您希望其他人可以存取它們。 散發它們的最佳方式為何？ 在本文中，我們會比較在 Power BI 內共同作業與共用的以下選項：
 
-* 與同事共同作業，以在「工作區」  中建立有意義的報表和儀表板。
-* 將這些儀表板和報告結合為「應用程式」  ，並將它們散發給較大群組或您的整個組織。
-* 建立「共用資料集」  ，可讓同事在其工作區中用作為報表的基礎。
+* 與同事共同作業，以在「工作區」中建立有意義的報表和儀表板。
+* 將這些儀表板和報告結合為「應用程式」，並將它們散發給較大群組或您的整個組織。
+* 建立「共用資料集」，可讓同事在其工作區中用作為報表的基礎。
 * 從服務或 Power BI 行動裝置應用程式，與一些人員共用儀表板或報表。
 * 從 Power BI 行動裝置應用程式標註並共用。
 * 在 Microsoft Teams 中內嵌報表。
 * 列印報表。
-* 在安全的入口網站或公用網站中「內嵌」  報表。
-* 建立可讓您透過 Microsoft AppSource 散發給外部 Power BI 使用者的「範本應用程式」  。
+* 在安全的入口網站或公用網站中「內嵌」報表。
+* 建立可讓您透過 Microsoft AppSource 散發給外部 Power BI 使用者的「範本應用程式」。
 
 無論您選擇哪個選項，都必須具有 [Power BI Pro 授權](../fundamentals/service-features-license-type.md)，或內容必須位於[進階容量](../admin/service-premium-what-is.md)中，才能共用您的內容。 根據您選擇的選項，檢視您內容的同事會有不同授權需求。 下列各節組說明詳細資料。 
 
@@ -50,13 +50,13 @@ ms.locfileid: "83348083"
 
 - 如果您的同事需要將儀表板保持在最新狀態，或需要存取工作區中的所有內容，請考慮將他們新增至工作區。 
 - 如果同事只需要查看該儀表板而不是工作區中的所有內容，您也有替代方案。 如果幾位人員只需要一個儀表板，那麼共用儀表板可能是最好的解決方案。
-- 然而，如果儀表板是您必須散發給許多同事之更大內容集的一部分，則發佈「應用程式」  可能是最佳選擇。
+- 然而，如果儀表板是您必須散發給許多同事之更大內容集的一部分，則發佈「應用程式」可能是最佳選擇。
 
 Power BI 具有新的工作區體驗。 讀取[建立新的工作區](service-create-the-new-workspaces.md)以查看工作區有哪些變更。 
 
 ## <a name="distribute-insights-in-an-app"></a>在應用程式中散發見解
 
-假設您想要將自己的儀表板散發給組織內廣大群眾。 您和同事已建立「工作區」  ，接著在工作區中建立並調整了儀表板、報表和資料集。 現在，您可以選取您要的儀表板和報表，並將它們發佈為應用程式，以供群組或整個組織使用。
+假設您想要將自己的儀表板散發給組織內廣大群眾。 您和同事已建立「工作區」，接著在工作區中建立並調整了儀表板、報表和資料集。 現在，您可以選取您要的儀表板和報表，並將它們發佈為應用程式，以供群組或整個組織使用。
 
 ![發佈應用程式圖示](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-publish-app.png)
 
@@ -66,11 +66,11 @@ Power BI 具有新的工作區體驗。 讀取[建立新的工作區](service-cr
 
 若要讓使用者檢視您的應用程式，他們也必須有 Power BI Pro 授權，否則，應用程式必須儲存在 Power BI Premium 容量中。 如需詳細資訊，請參閱[什麼是 Power BI Premium？](../admin/service-premium-what-is.md)。
 
-您也可以將應用程式發佈給組織外部的人員。 他們可以檢視應用程式內容並與其互動，但不能與其他人共用應用程式內容。 現在您可以建立「範本應用程式」  ，將其部署至任何 Power BI 客戶。
+您也可以將應用程式發佈給組織外部的人員。 他們可以檢視應用程式內容並與其互動，但不能與其他人共用應用程式內容。 現在您可以建立「範本應用程式」，將其部署至任何 Power BI 客戶。
 
 ## <a name="share-a-dataset"></a>共用資料集
 
-讓我們面對現實吧，有些人比別人更擅長在報表中建立設計完善的高品質資料模型。 或許就是您。 您整個組織都可以受益於這些設計完善的資料模型。 「共用資料集」  適合擔任該角色。 當您以每個人都應使用的資料模型建立報表時，可以將該報表儲存至 Power BI 服務，並將其使用權限提供給合適的人員。 然後他們就可以在您的資料集上建立報表。 如此一來，每個人的報告都會基於相同資料，並可看到相同的「真實版本」。
+讓我們面對現實吧，有些人比別人更擅長在報表中建立設計完善的高品質資料模型。 或許就是您。 您整個組織都可以受益於這些設計完善的資料模型。 「共用資料集」適合擔任該角色。 當您以每個人都應使用的資料模型建立報表時，可以將該報表儲存至 Power BI 服務，並將其使用權限提供給合適的人員。 然後他們就可以在您的資料集上建立報表。 如此一來，每個人的報告都會基於相同資料，並可看到相同的「真實版本」。
 
 ![尋找共用資料集](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-shared-datasets.png)
 
@@ -78,11 +78,11 @@ Power BI 具有新的工作區體驗。 讀取[建立新的工作區](service-cr
 
 ## <a name="share-dashboards-and-reports"></a>共用儀表板和報表
 
-假設您已在自己的 [我的工作區] 或在工作區中完成儀表板和報表，而且希望一些其他人可加以存取。 其中一項存取方法是「共用」  它。 
+假設您已在自己的 [我的工作區] 或在工作區中完成儀表板和報表，而且希望一些其他人可加以存取。 其中一項存取方法是「共用」它。 
 
 ![共用報表](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
-您和內容的共用人員都必須具有 Power BI Pro 授權，或內容必須位於 [Premium 容量](../admin/service-premium-what-is.md)的工作區中，才能共用內容。 當您共用儀表板或報表時，接受者可以檢視此儀表板或報表並與其互動，但是無法編輯此儀表板或報表。 除非資料列層級安全性 (RLS) 套用至基礎資料集，否則他們會看到您在儀表板和報表中看到的相同資料。 如果您允許的話，您與其共用的同事可以與他們的同事共用。 
+您和內容的共用人員都必須具有 Power BI Pro 授權，或內容必須位於 [Premium 容量](../admin/service-premium-what-is.md)的工作區中，才能共用內容。 當您共用儀表板或報表時，接受者可以檢視此儀表板或報表並與其互動，但是無法編輯此儀表板或報表。 除非您為基礎資料集套用[資料列層級安全性 (RLS)](../admin/service-admin-rls.md)，否則他們可以看到您儀表板或報表中的相同資料，亦可存取基礎資料集中的所有資料。 如果您允許的話，您與其共用的同事可以與他們的同事共用。 
 
 您也可以與組織外部人員共用。 他們也可以檢視儀表板或報表並其互動，但不能共用儀表板或報表。 
 
@@ -106,30 +106,30 @@ Power BI 具有新的工作區體驗。 讀取[建立新的工作區](service-cr
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>列印或儲存為 PDF 或其他靜態檔案
 
-您可以從 Power BI 服務列印整份儀表板、儀表板磚、報表頁面或視覺效果，或將其儲存為 PDF (或其他靜態檔案格式)。 一次只能列印一頁報表 -- 您無法一次列印整份報表。 [列印及儲存為靜態檔案](../consumer/end-user-print.md)的詳細資訊。
+您可以從 Power BI 服務列印整份儀表板、儀表板磚、報表頁面或視覺效果，或將其儲存為 PDF (或其他靜態檔案格式)。 一次只能列印一頁報表 - 您無法一次列印整份報表。 深入了解[列印或儲存為靜態檔案](../consumer/end-user-print.md)。
 
 ## <a name="embed-reports-in-secure-portals-or-public-web-sites"></a>在安全的入口網站或公用網站中內嵌報表
 
 ### <a name="embed-in-secure-portals"></a>在安全的入口網站中內嵌
 
 您可在使用者想要看到 Power BI 報表的入口網站或網站中，予以內嵌。  
-Power BI 服務中的 [在 SharePoint Online 內嵌]  和 [內嵌]  選項可讓您為內部使用者內嵌報表，而且安全無虞。 
+Power BI 服務中的 [在 SharePoint Online 內嵌] 和 [內嵌] 選項可讓您為內部使用者內嵌報表，而且安全無虞。 
 
-- [在 SharePoint Online 內嵌]  可與 SharePoint Online 的 Power BI Web 組件搭配使用。 可提供單一登入體驗，掌控如何內嵌報表。 
-- 只要是支援使用 URL 或 iFrame 內嵌內容的入口網站或網站，則皆可使用 [內嵌]  選項。 
+- [在 SharePoint Online 內嵌] 可與 SharePoint Online 的 Power BI Web 組件搭配使用。 可提供單一登入體驗，掌控如何內嵌報表。 
+- 只要是支援使用 URL 或 iFrame 內嵌內容的入口網站或網站，則皆可使用 [內嵌] 選項。 
 
 無論您選擇哪種選項，Power BI 都會在使用者查看內容之前強制執行所有權限和資料安全性。 檢視報表的人必須有適當授權。 深入了解 Power BI 的[在 SharePoint Online 內嵌](service-embed-report-spo.md)和[內嵌](service-embed-secure.md)選項。
 
 ### <a name="publish-to-public-web-sites"></a>發佈到公用網站
 
-您可以透過 [發佈到 Web]  將 Power BI 報表發佈到整個網際網路，方法是在任何裝置上將互動式視覺效果內嵌到部落格文章、網站、社交媒體和其他線上通訊。 網際網路上的任何人都可以檢視您的報表，而且您無法控制誰可以查看您的發行內容。 他們不需要 Power BI 授權。 您只能在可編輯的報表中使用發行至網站。 如果報表是與您共用，或報表是在應用程式中，則您無法將報表發行至網站。 深入了解[發行至 Web](service-publish-to-web.md).
+您可以透過 [發佈到 Web] 將 Power BI 報表發佈到整個網際網路，方法是在任何裝置上將互動式視覺效果內嵌到部落格文章、網站、社交媒體和其他線上通訊。 網際網路上的任何人都可以檢視您的報表，而且您無法控制誰可以查看您的發行內容。 他們不需要 Power BI 授權。 您只能在可編輯的報表中使用發行至網站。 如果報表是與您共用，或報表是在應用程式中，則您無法將報表發行至網站。 深入了解[發行至網站](service-publish-to-web.md).
 
 >[!Warning]
 >僅使用 [發佈至網路](service-publish-to-web.md) 來公開共用內容，而不是內部共用。
 
 ## <a name="create-and-deploy-template-apps"></a>建立及部署範本應用程式
 
-「範本應用程式」  設計用於公開散發，通常是在 Microsoft AppSource 中。 當您建置應用程式，甚至不必撰寫程式碼，就可以將其部署至任何 Power BI 客戶。 您的客戶連線到他們自有資料，並將他們自己的帳戶具現化。 深入閱讀 [Power BI 範本應用程式](../connect-data/service-template-apps-overview.md)。
+「範本應用程式」設計用於公開散發，通常是在 Microsoft AppSource 中。 當您建置應用程式，甚至不必撰寫程式碼，就可以將其部署至任何 Power BI 客戶。 您的客戶連線到他們自有資料，並將他們自己的帳戶具現化。 深入閱讀 [Power BI 範本應用程式](../connect-data/service-template-apps-overview.md)。
 
 
 ## <a name="next-steps"></a>後續步驟

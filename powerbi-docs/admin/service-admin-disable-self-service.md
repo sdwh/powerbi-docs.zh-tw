@@ -1,6 +1,6 @@
 ---
 title: 啟用或停用自助式註冊與購買
-description: 管理員如何關閉使用者註冊 Power BI 和購買授權之功能的做法資訊。
+description: 系統管理員如何關閉使用者註冊 Power BI 服務和購買或升級授權之功能的做法資訊。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,13 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 561d8b6cd0e17e885ced984315a04376400a2a58
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 751db634ceb9e7d6349b35f7348b09e0c0d648ed
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81447502"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160057"
 ---
 # <a name="enable-or-disable-self-service-sign-up-and-purchasing"></a>啟用或停用自助式註冊與購買
 
@@ -27,7 +28,7 @@ ms.locfileid: "81447502"
 
 您需使用 PowerShell 命令來變更控制自助式註冊與購買的設定。 有兩個控制組織中使用者是否能夠進行自助式註冊或自助式購買的設定。
 
-- 如果您想要停用所有自助式註冊，請使用 Azure AD PowerShell 命令來變更 Azure Active Directory 中名為 **AllowAdHocSubscriptions** 的設定。 請依照此文章中的步驟來[啟用或停用自助式註冊](#enable-or-disable-self-service-signup)。 此選項會關閉「所有」  Microsoft 雲端式應用程式與服務的自助式註冊功能。
+- 如果您想要停用所有自助式註冊，請使用 Azure AD PowerShell 命令來變更 Azure Active Directory 中名為 **AllowAdHocSubscriptions** 的設定。 請依照此文章中的步驟來[啟用或停用自助式註冊](#enable-or-disable-self-service-signup)。 此選項會關閉「所有」Microsoft 雲端式應用程式與服務的自助式註冊功能。
 
 - 如果您想要防止使用者購買自己的 Pro 授權，請使用 MSCommerce PowerShell 命令來變更 **AllowSelfServicePurchase** 設定。 此設定可讓您關閉特定產品的自助式購買功能。 請依照此文章中的步驟來[啟用或停用 Power BI Pro 授權的自助式購買](#enable-or-disable-self-service-purchase)。
 

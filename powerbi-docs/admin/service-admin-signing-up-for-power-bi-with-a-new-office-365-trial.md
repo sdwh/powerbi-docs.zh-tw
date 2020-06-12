@@ -8,21 +8,23 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/17/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 9c13f29b29742e62cb08c973e5444a7879e6222a
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: bab0eba6e2ae3d0ec8ede57f9875385dbb26a60a
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812208"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159850"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>使用新的 Microsoft 365 試用版註冊 Power BI
 
-本文描述沒有工作或學校電子郵件帳戶時，註冊 Power BI 的另一種方式。
+本文說明如何在沒有工作或學校電子郵件帳戶的情況下，使用替代方法來註冊 Power BI 服務。
 
 如果使用電子郵件地址註冊 Power BI 時發生問題，請先確定其為[可用於 Power BI 的電子郵件地址](../fundamentals/service-self-service-signup-for-power-bi.md#supported-email-addresses)。 如果不成功，請註冊 Microsoft 365 試用版，並建立工作帳戶。 然後，使用此新的工作帳戶來註冊 Power BI 服務。 Microsoft 365 試用版到期後，您仍然可以使用 Power BI。
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>註冊 Office 的 Microsoft 365 試用版
+
 請在 [Microsoft 365 網站](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)上註冊 Microsoft 365 試用版。 若還沒有帳戶，Microsoft 將會帶您逐步進行建立帳戶的步驟。 由於商業電子郵件帳戶 (例如 Hotmail 和 Gmail) 無法搭配 Microsoft 365 運作，因此您將需要建立新的帳戶以搭配 Microsoft 365 運作。  該電子郵件帳戶看起來會像是 *zalan@onmicrosoft.com* 。
 
 ![選取 [免費試用]](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)

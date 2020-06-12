@@ -10,18 +10,21 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aa1ae57d928633ce61ab66a8e0e905118c3a7877
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: aa4f07e32d66e7f9bdb2da7d210b2cc8c178b172
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302153"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316032"
 ---
 # <a name="azure-sql-database-with-directquery"></a>具有 DirectQuery 的 Azure SQL Database
 
 了解如何直接連線至 Azure SQL Database 及建立使用即時資料的報表。 您可以將您的資料保留在來源，而不是在 Power BI 中。
 
 藉由 DirectQuery，當您瀏覽報表檢視中的資料時，會將查詢傳送至您的 Azure SQL Database。 對於熟悉所連接資料庫與實體的使用者，會推薦這種做法。
+
+> [!Important]
+> 此描述假設 Azure SQL Database 不在 VNET 後方，或已啟用私人連結端點。
 
 **注意：**
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d094e3411bd5b8bef9b4a8f488412d903723a703
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: cf971de1a60636def852080a523c227f08b4f888
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733546"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272923"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用 Power BI 儀表板和報表
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 還提供[數種其他方式可進行共同作業及散發您的儀表板和報表](service-how-to-collaborate-distribute-dashboards-reports.md)。
@@ -26,7 +26,7 @@ ms.locfileid: "83733546"
 
 您可以從 Power BI 服務中的大部分位置共用儀表板和報表：我的最愛、最近項目、我的工作區、與我共用 (如果擁有者允許的話)。 如果擁有工作區中的[系統管理員、成員或參與者角色](service-new-workspaces.md#roles-in-the-new-workspaces)，您也可以從其他工作區共用。 
 
-當您與他人共用儀表板或報表時，其可檢視該儀表板或報表並與之互動，但無法編輯它們。 除非套用[資料列層級安全性 (RLS)](../admin/service-admin-rls.md)，否則他們將能看到和您在儀表板或報表中可看見的相同資料。 如果您允許的話，您與其共用儀表板或報表的同事，也可以與他們的同事共用。 組織外部人員可以檢視儀表板或報表並與其互動，但不能共用。 
+當您與他人共用儀表板或報表時，其可檢視該儀表板或報表並與之互動，但無法編輯它們。 除非您為基礎資料集套用資料列層級安全性 (RLS)，否則他們可以看到您儀表板和報表中的相同資料，並可以存取整個基礎資料集。  如果您允許的話，您與其共用儀表板或報表的同事，也可以與他們的同事共用。 組織外部人員可以檢視儀表板或報表並與其互動，但不能共用。 
 
 您無法直接從 Power BI Desktop 「共用」。 您必須[將 Power BI Desktop 的報表發佈至](../create-reports/desktop-upload-desktop-files.md) Power BI 服務。 不過，您可以[從 Power BI 行動裝置應用程式共用儀表板](../consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)。  
 
@@ -123,7 +123,7 @@ Power BI 系統管理員可以允許外部來賓使用者編輯和管理組織�
 ## <a name="limitations-and-considerations"></a>限制與考量
 共用儀表板和報表時的重要事項︰
 
-* 一般來說，您和您的同事會在儀表板或報表中看到相同的資料。 因此，如果您具有可看到較多資料的權限，則您的同事能在儀表板或報表中看到您所有資料。 不過，如果已將[資料列層級安全性 (RLS)](../admin/service-admin-rls.md) 套用至儀表板或報表的基礎資料集，則每個人的認證會決定其可以存取的資料。
+* 當您與同事共用儀表板時，也會與其共用基礎資料集。 除非您利用[資料列層級安全性 (RLS)](../admin/service-admin-rls.md) 來限制同事的存取權，不然他們可以存取整個資料集。 報表作者可以使用相關功能，來自訂使用者的報表檢視或報表互動體驗，例如隱藏資料行、限制對視覺效果的動作等。 這些自訂的使用者體驗，不會限制使用者在資料集中可以存取哪些資料。 您可以在資料集內使用[資料列層級安全性 (RLS)](../admin/service-admin-rls.md)，根據每個人的認證來判斷其可存取哪些資料。
 * 共用您儀表板的每個人都可以看到此儀表板，並在[閱讀檢視](../consumer/end-user-reading-view.md#reading-view)中與相關的報表互動。 一般來說，組織外部人員無法建立報表，或在現有的報表中儲存變更。 不過，如果您選取 [允許使用者使用基礎資料集建置新的內容]，則組織外部人員可以根據此儀表板或報表的資料集在其他工作區中建立自有報表。
 * 雖然沒有人可以看到或下載資料集，但他們可以使用 [在 Excel 中進行分析] 功能直接存取資料集。 系統管理員可以限制群組中的每個人能否使用 [在 Excel 中進行分析]。 不過，此限制適用於該群組中的每個人，以及群組所屬的每個工作區。
 * 每個人都可以手動[重新整理資料](../connect-data/refresh-data.md)。

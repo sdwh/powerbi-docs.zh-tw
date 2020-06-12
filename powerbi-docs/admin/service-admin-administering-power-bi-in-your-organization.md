@@ -1,88 +1,86 @@
 ---
 title: 什麼是 Power BI 管理？
-description: 了解 Power BI 控管原則的設定、使用狀況監控，以及授權容量及組織資源的佈建。
+description: 了解用來管理 Power BI 的系統管理員角色、工作及工具。
 author: kfollis
 ms.reviewer: ''
+ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: overview
-ms.date: 09/09/2019
+ms.date: 05/29/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: afa8513267be4ec2de18a9adda7995c88f4f2aa8
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 7628106c29be75c4eb01bc9d7d52a3c9ededb9e8
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438031"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272534"
 ---
-# <a name="what-is-power-bi-administration"></a>什麼是 Power BI 管理？
+# <a name="what-is-power-bi-administration"></a>什麼是 Power BI 管理
 
-Power BI 管理是 Power BI 租用戶的管理，包括控管原則的設定、使用狀況監控，以及授權、容量及組織資源的佈建。 本文提供管理角色、工作、工具的概觀，以及深入探討細節的文章連結。
+Power BI 管理是在管理用來控制 Power BI 運作方式的全組織設定。 指派給系統管理員角色的使用者可設定、監視及佈建組織資源。 本文提供管理角色、工作及工具的概觀，以協助您開始使用。
 
 ![Power BI 管理入口網站](media/service-admin-administering-power-bi-in-your-organization/admin-portal.png)
 
-Power BI 是針對自助商業智慧而設計，而系統管理員是 Power BI 租用戶中資料、程序和原則的守護者。 針對包含 BI 開發人員、分析師和其他角色的小組，Power BI 系統管理員是小組中的重要成員。 系統管理員可協助組織，確保達成重要目標：
-
-- 了解使用者_實際_需要的 KPI 和計量
-- 減少傳送 IT 導向公司報告的時間
-- 增加採用並從 Power BI 部署獲得投資報酬
-
-該工作是負責提升商務使用者的生產力，並確保安全性和對法律與規定的合規性。 責任可能包括說明及支援，在許多情況下，還要協助商務使用者做正確的事。
-
 ## <a name="administrator-roles-related-to-power-bi"></a>與 Power BI 相關的系統管理員角色
 
-有數個角色與 Power BI 管理相關，如下表所示。
+有數個角色可共同合作，為您的組織管理 Power BI。 大部分的系統管理員角色都是在 Microsoft 365 的系統管理中心或使用 PowerShell 來指派。 建立容量時，會指派 Power BI Premium 容量和 Power BI Embedded 容量系統管理員角色。 若要深入了解每個系統管理員角色，請參閱[關於系統管理員角色](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)。 若要了解如何指派系統管理員角色，請參閱[指派系統管理員角色](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide) (機器翻譯)。
 
-| **系統管理員的類型** | **管理範圍** | **Power BI 範圍** |
+| **系統管理員的類型** | **管理範圍** | **Power BI 工作** |
 | --- | --- | --- |
-| 全域管理員 | Microsoft 365 | 可管理 Power BI 租用戶的各個層面及其他服務。 |
-| 計費管理員 | Microsoft 365 | 可透過 Office 365 訂閱取得 Power BI 授權。 |
-| Power BI 服務管理員 | Power BI 租用戶 | 對 Power BI 租用戶和其系統管理功能 (除了授權以外) 有完整的控制權。 |
-| Power BI Premium 容量管理員 | 單一 Premium 容量 | 對於 Premium 容量和其系統管理功能有完整的控制權。 |
-| Power BI Embedded 容量管理員 | 單一 Embedded 容量 | 對於 Embedded 容量和其系統管理功能有完整的控制權。 |
+| 全域管理員 | Microsoft 365 | 具有組織所有管理功能的無限制存取權 |
+| | | 將角色指派給其他使用者 |
+| 帳務管理員 | Microsoft 365 | 管理訂用帳戶 |
+| | | 購買授權 |
+| 授權管理員 | Microsoft 365 | 指派或移除使用者的授權 |
+| 使用者管理員 | Microsoft 365 | 建立及管理使用者和群組 |
+| | | 重設使用者密碼 |
+| Power BI 系統管理員 | Power BI 服務 | Power BI 管理工作的完整存取權|
+| | | 啟用及停用 Power BI 功能 |
+| | | 報告使用狀況和效能 |
+| | | 檢閱及管理稽核 |
+| Power BI Premium 容量系統管理員 | 單一 Premium 容量 | 將工作區指派給容量|
+| | | 管理使用者對容量的權限 |
+| | | 管理工作負載以設定記憶體使用量 |
+| | | 重新啟動容量 |
+| Power BI Embedded 容量系統管理員 | 單一 Embedded 容量 | 將工作區指派給容量|
+| | | 管理使用者對容量的權限 |
+| | | 管理工作負載以設定記憶體使用量 |
+| | | 重新啟動容量 |
 
-Microsoft 365 或 Azure Active Directory 中的全域管理員在 Power BI 中有系統管理員權限。 Microsoft 365 全域管理員可將 Power BI 服務系統管理員角色指派給其他使用者，這樣只會授與 Power BI 的系統管理權限。
+## <a name="administrative-tasks-and-tools"></a>管理工作和工具
 
-Power BI 服務系統管理員可以存取 Power BI 管理入口網站，其中包含有關功能、安全性和監視等各種租用戶層級的設定。 服務系統管理員擁有 Power BI 租用戶所有資源的完整存取權。 在大部分情況下，服務系統管理員會識別問題，然後追蹤資源擁有者以採取更正動作。
-
-Power BI 服務系統管理員角色不會將指派授權的能力，或在 Microsoft 365 中檢視稽核記錄檔的能力授與使用者。 因此，僅是 Power BI 服務系統管理員角色的使用者，目前無法執行管理 Power BI 的工作。
-
-## <a name="administrative-tasks"></a>管理工作
-
-系統管理員會為其組織執行下表列出的許多工作，以支援 Power BI。
-
-| **工作區域** | **一般工作** |
-| --- | --- |
-| 管理 Power BI 租用戶 |<ul><li>啟用和停用 Power BI 重要功能<br><li>報告使用狀況和效能<br><li>檢閱及管理事件的稽核</ul>|
-| 取得及指派 Power BI 授權 |<ul><li>管理使用者註冊<br><li>購買及指派 Pro 授權<br><li>封鎖使用者對 Power BI 的存取</ul>|
-| 管理 Premium 容量 |<ul><li>取得及使用 Premium 容量<br><li>確保服務品質|
-| 管理 Embedded 容量 |<ul><li>取得 Embedded 容量以簡化 ISV 和開發人員使用 Power BI 功能的方式</ul>|
-| 確定對內部原則、法律和規定的合規性 | <ul><li>管理商務資料的分類<br><li>協助執行內容發佈和共用原則</ul>|
-| 管理 Power BI 資源 |<ul><li>管理工作區<br><li>發佈 Power BI 視覺效果<br><li>驗證用來在其他應用程式中嵌入 Power BI 的程式碼|
-| 為租用戶使用者提供說明和支援 |<ul><li>針對資料存取和其他問題進行疑難排解</ul>|
-| 其他工作 |<ul><li>部署 Power BI Desktop (例如：使用 Microsoft Endpoint Configuration Manager)<br><li>使用 Intune 管理 Power BI 行動應用程式部署<br><li>管理資料隱私權和安全性，例如來源資料安全性</ul>|
-
-## <a name="administrative-tools"></a>系統管理工具
-
-有數個工具與 Power BI 管理相關，如下表所示。 系統管理員通常將大部分時間花在 Power BI 管理入口網站中，並視需要使用其他工具。
+Power BI 系統管理員的工作大多在 Power BI 管理入口網站進行。 不過，您應該熟悉相關的工具和系統管理中心。 請查看上表，判斷須具備什麼角色才能使用此處列出的工具來執行工作。
 
 | **工具** | **一般工作** |
 | --- | --- |
-| Power BI 管理入口網站 |<ul><li>取得及使用 Premium 容量</li><li>確保服務品質</li><li>管理商務資料的分類</li><li>協助執行內容發佈和共用原則</li><li>管理工作區<br><li>發佈 Power BI 視覺效果</li><li>驗證用來在其他應用程式中嵌入 Power BI 的程式碼</li><li>針對資料存取和其他問題進行疑難排解</li></ul>|
-| MIcrosoft 365 系統管理中心 |<ul><li>管理使用者註冊</li><li>購買及指派 Pro 授權</li><li>封鎖使用者對 Power BI 的存取</li></ul>|
-| Office 365 安全性與合規性中心 |<ul><li>檢閱及管理事件的稽核</li></ul>|
-| Azure 入口網站中的 Azure Active Directory (AAD) |<ul><li>透過 AAD 設定對 Power BI 的條件式存取</li><li>佈建 Power BI Embedded 容量</li></ul>|
-| PowerShell Cmdlet |<ul><li>透過指令碼管理工作區和 Power BI 的其他層面</li></ul>|
-| 系統管理 API 和 SDK |<ul><li>建置自訂的系統管理工具，以協助 Power BI 系統管理員的工作。例如，Power BI Desktop 可以使用這些 API 來建立以系統管理相關資料為基礎的報表</li></ul>|
+| [Power BI 管理入口網站](https://app.powerbi.com/admin-portal) | 取得及使用 Premium 容量 |
+| | 確保服務品質 |
+| | 管理工作區 |
+| | 發佈 Power BI 視覺效果 |
+| | 驗證用來在其他應用程式中嵌入 Power BI 的程式碼 |
+| | 針對資料存取和其他問題進行疑難排解 |
+| [Microsoft 365 系統管理中心](https://admin.microsoft.com) | 管理使用者和群組 |
+| | 購買及指派授權 |
+| | 封鎖使用者對 Power BI 的存取 |
+| [Microsoft 365 安全性與合規性中心](https://protection.office.com) | 檢閱及管理稽核 |
+| | 資料分類和追蹤 |
+| | 資料外洩防護原則 |
+| | 資訊控管 |
+| [Azure 入口網站中的 Azure Active Directory (AAD)](https://aad.portal.azure.com) | 設定對 Power BI 資源的條件式存取 |
+| | 佈建 Power BI Embedded 容量 |
+| [PowerShell Cmdlet](https://docs.microsoft.com/powershell/power-bi/overview) | 透過指令碼管理工作區和 Power BI 的其他層面 |
+| [系統管理 API 和 SDK](service-admin-reference.md) | 建置自訂管理工具。 例如，Power BI Desktop 可以使用這些 API 來建置以管理相關資料為基礎的報表。 |
 
 ## <a name="next-steps"></a>後續步驟
 
-我們希望本文能提供您對 Power BI 系統管理員工作，以及相關特定角色、工作與工具的快速深入剖析。 建議參閱下列文章，以深入了解。
+現在您已經知道 Power BI 管理涉及的基本概念，若要深入了解，請參閱下列文章：
 
 - [使用 Power BI 管理入口網站](service-admin-portal.md)
 - [租用戶系統管理設定指導](../guidance/admin-tenant-settings.md)
-- [使用 PowerShell Cmdlet](/powershell/power-bi/overview)
+- [使用 PowerShell Cmdlet](https://docs.microsoft.com/powershell/power-bi/overview)
 - [Power BI 管理常見問題集](service-admin-faq.md)
+- [為組織中的使用者授權 Power BI 服務](service-admin-licensing-organization.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1816fb7926ed378cdb70ce2e0ade08893828ce4c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1d0dcc80c358fa4c6f0768d515c399a3f381bfe7
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301325"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273360"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>針對 Power BI Desktop 中的 Access 和 Excel .xls 檔案匯入問題進行疑難排解
 
-在 Power BI Desktop 中，Access 資料庫和舊版的 Excel 活頁簿 (Excel 97-2003 的 .XLS 檔案類型) 都使用「Access 資料庫引擎」  。 有三種常見的狀況會妨礙 Access 資料庫引擎正常運作。
+在 Power BI Desktop 中，Access 資料庫和舊版的 Excel 活頁簿 (Excel 97-2003 的 .XLS 檔案類型) 都使用「Access 資料庫引擎」。 有三種常見的狀況會妨礙 Access 資料庫引擎正常運作。
 
 ## <a name="situation-1-no-access-database-engine-is-installed"></a>狀況 1：未安裝 Access 資料庫引擎
 
@@ -30,7 +30,7 @@ ms.locfileid: "83301325"
 
 ## <a name="situation-2-the-access-database-engine-bit-version-32-bit-or-64-bit-is-different-from-your-power-bi-desktop-bit-version"></a>狀況 2：Access 資料庫引擎位元版本 (32 位元或 64 位元) 和 Power BI Desktop 的位元版本不同
 
-這種情況通常發生在安裝的 Microsoft Office 版本是 32 位元，而安裝的 Power BI Desktop 版本是 64 位元。 相反的情況也可能發生，無論哪一種都會發生位元版本不符的情況。 如果您使用 Office 365 訂閱，請參閱[狀況 3](#situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription) 以了解不同的問題和解決方法。 下列解決方案的任何一項，都可以解決位元版本不符的錯誤︰
+這種情況通常發生在安裝的 Microsoft Office 版本是 32 位元，而安裝的 Power BI Desktop 版本是 64 位元。 相反的情況也可能發生，無論哪一種都會發生位元版本不符的情況。 如果您使用 Microsoft 365 訂用帳戶，請參閱[狀況 3](#situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription) 以了解不同的問題和解決方法。 下列解決方案的任何一項，都可以解決位元版本不符的錯誤︰
 
 ### <a name="solution-1"></a>解決方案 1
 
@@ -38,7 +38,7 @@ ms.locfileid: "83301325"
 
 1. 若要變更 Power BI Desktop 的位元版本，請解除安裝 Power BI Desktop，然後再安裝符合 Office 安裝的 Power BI Desktop 版本。 
 
-1. 若要選取 Power BI Desktop 版本，請在 Power BI Desktop 下載頁面上選取 [進階下載選項]  。
+1. 若要選取 Power BI Desktop 版本，請在 Power BI Desktop 下載頁面上選取 [進階下載選項]。
    
    ![Power BI Desktop 下載頁面上的 [進階下載選項]](media/desktop-access-database-errors/desktop-access-errors-1.png)
    
@@ -46,7 +46,7 @@ ms.locfileid: "83301325"
  
 1. 在出現的畫面上，如需 32 位元版本請選取 PBIDesktop.msi 旁邊的核取方塊，如需 64 位元版本請選取 PBIDesktop_x64.msi 旁邊的核取方塊。 
 
-   在下列螢幕擷取畫面中選取了 64 位元版本。
+   下列螢幕擷取畫面中選取了 64 位元版本。
    
    ![選擇 Power BI Desktop 下載類型](media/desktop-access-database-errors/desktop-access-errors-2.png)
    
@@ -79,9 +79,9 @@ ms.locfileid: "83301325"
    
        c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
 
-## <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>狀況 3︰無法搭配 Office 365 訂閱使用 Access 或 .XLS 檔案
+## <a name="situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription"></a>狀況 3︰無法搭配 Microsoft 365 訂閱使用 Access 或 .XLS 檔案
 
-如果您使用 Office 365 訂閱，則不論是 **Office 2013** 或 **Office 2016**，Access 資料庫引擎提供者都註冊於虛擬登錄位置中，其「僅」  能由 Microsoft Office 處理序存取。 因此，混搭引擎 (負責執行非 Office 365 Excel 和 Power BI Desktop 且不是 Office 處理序) 無法使用 Access 資料庫引擎提供者。
+如果您使用 Microsoft 365 訂閱，不論是 **Office 2013** 或 **Office 2016**，Access 資料庫引擎提供者都是註冊在虛擬登錄位置中，而「只能」由 Microsoft Office 處理序存取。 因此，混搭引擎 (負責執行非 Office 365 Excel 和 Power BI Desktop 且不是 Office 處理序) 無法使用 Access 資料庫引擎提供者。
 
 若要解決這種狀況，請[下載並安裝 Access 資料庫引擎可轉散發套件](https://www.microsoft.com/download/details.aspx?id=13255)，其與 Power BI Desktop 安裝的位元版本相符。 如需位元版本的詳細資訊，請參閱本文稍早的章節。
 

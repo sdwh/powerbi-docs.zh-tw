@@ -7,19 +7,48 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/08/2020
-ms.openlocfilehash: abe0b97a4c4f593f8bb22be8b72c12295d0f656c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/31/2020
+ms.openlocfilehash: 0391f0f2e4340b01c1f1ad7a3bce860487daabc9
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006449"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272647"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
 此變更記錄適用於 Power BI 報表伺服器，並列出新的項目，以及每個發行組建的 Bug 修正。
 
 如需新功能的詳細資訊，請參閱 [Power BI 報表伺服器的新增功能](whats-new.md)。 
+
+
+## <a name="may-2020"></a>2020 年 5 月
+- **Power BI 報表伺服器**
+    - *版本：1.8.7450.37410 (組建 15.0.1103.227)，發行日期：2020 年 5 月 27 日*
+         - 功能
+            -  已新增可自訂目錄連線集區大小的支援 (請參閱 [MaxCatalogConnectionPoolSizePerProcess 設定](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service)以取得詳細資訊)。
+            -  已改善在重新整理作業期間檢視報表的行為。
+        - 安全性更新
+        - Bug 修正
+            - 已修正兩個與資料夾和報表名稱中單引號相關的問題。
+            - 已修正與特定瀏覽器和查看記錄功能水平捲動相關的問題。
+            - 已修正在報表開啟時排程重新整理，有時可能會導致基礎模型中結構描述錯誤的問題。
+            - 已修正 PDF 匯出替代文字未正確編碼為多位元組字元的問題。
+            - 已修正自訂應用程式執行 LoadReport 時錯誤地收到 TrustedHeader 錯誤的問題。
+            - 已修正排程重新整理負載過重可能導致重新整理失敗的問題。
+            - 已修正在報表名稱符合資料夾名稱的情況下，報表會儲存到錯誤位置的問題。
+            - 已修正文件引導模式中的 Tab 鍵問題。
+            - 已修正資料驅動訂閱在使用 DAX 查詢時失敗的問題。
+            - 已修正 URL 存取中導致 FindString 找不到相符項目的問題。
+            - 已修正移動報表時會中斷內嵌資料來源的問題。
+            - 已修正造成某些資料來源排程重新整理失敗的問題。
+            - 已將驗證新增至報表排程，以減少無效要求的機會。
+
+
+- **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
+    - *版本：2.81.5831.941 (2020 年 5 月) 發行日期：2020 年 5 月 27 日* (新組建及新版本)
+        - 包含與 Power BI 報表伺服器連接所需的變更 (2020 年 5 月)        
+
 
 
 ## <a name="january-2020"></a>2020 年 1 月

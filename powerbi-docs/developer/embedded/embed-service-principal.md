@@ -1,6 +1,6 @@
 ---
-title: 搭配 Power BI 的服務主體
-description: 了解如何在 Azure Active Directory 內使用服務主體和應用程式祕密來註冊應用程式，以與內嵌 Power BI 內容搭配使用。
+title: 使用服務主體和應用程式祕密內嵌 Power BI 內容
+description: 了解如何使用 Azure Active Directory 應用程式服務主體和應用程式祕密，驗證內嵌的分析。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,19 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/30/2020
-ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.date: 05/12/2020
+ms.openlocfilehash: da7db691628b0fbcfd42d6a35f99b18b4cfdcc88
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121195"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315750"
 ---
-# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>搭配服務主體和應用程式祕密內嵌 Power BI 內容
+# <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>使用服務主體和應用程式祕密內嵌 Power BI 內容
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 本文說明使用「應用程式識別碼」和「應用程式祕密」來進行服務主體驗證。
+
+>[!NOTE]
+>建議您使用憑證來保護您的後端服務，而不使用祕密金鑰。
+>* [深入了解如何使用祕密金鑰或憑證從 Azure AD 取得存取權杖](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion)。
+>* [使用服務主體和憑證內嵌 Power BI 內容](embed-service-principal-certificate.md)。
 
 ## <a name="method"></a>方法
 
@@ -54,30 +59,12 @@ ms.locfileid: "84121195"
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>在 Microsoft Azure 入口網站中建立 Azure AD 應用程式
 
-1. 登入 [Microsoft Azure](https://portal.azure.com/#allservices)。
-
-2. 搜尋 [應用程式註冊]，然後按一下 [應用程式註冊] 連結。
-
-    ![azure 應用程式註冊](media/embed-service-principal/azure-app-registration.png)
-
-3. 按一下 [新增註冊]。
-
-    ![新增註冊](media/embed-service-principal/new-registration.png)
-
-4. 填寫必要資訊：
-    * **名稱** - 輸入應用程式的名稱
-    * **支援的帳戶類型** - 選取所需 Azure AD 帳戶
-    * (選擇性) **重新導向 URI** - 必要時輸入 URI
-
-5. 按一下 [註冊] 。
-
-6. 註冊之後，您可以從 [概觀] 索引標籤取得「應用程式識別碼」。複製並儲存「應用程式識別碼」以供稍後使用。
-
-    ![應用程式識別碼](media/embed-service-principal/application-id.png)
+[!INCLUDE[service create app](../../includes/service-principal-create-app.md)]
 
 7. 按一下 [憑證與祕密] 索引標籤。
 
      ![應用程式識別碼](media/embed-service-principal/certificates-and-secrets.png)
+
 
 8. 按一下 [新增用戶端密碼]
 
@@ -157,7 +144,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 ![管理入口網站](media/embed-service-principal/admin-portal.png)
 
-## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>步驟 4 - 以管理員身分將服務主體新增至您的工作區
+## <a name="step-4---add-the-service-principal-to-your-workspace"></a>步驟 4 - 將服務主體新增至您的工作區
 
 若要啟用 Azure AD 應用程式存取成品 (例如 Power BI 服務中的報表、儀表板和資料集)，請將服務主體實體新增為您工作區的成員或系統管理員。
 
@@ -181,20 +168,21 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 您的內容內嵌之後，您就可以[移至生產環境](embed-sample-for-customers.md#move-to-production)。
 
-## <a name="considerations-and-limitations"></a>考量與限制
-
-* 服務主體只會使用[新的工作區](../../collaborate-share/service-create-the-new-workspaces.md)。
-* 使用服務主體時，不支援 [我的工作區]。
-* 需要專用容量才能移至生產環境。
-* 您無法使用服務主體登入 Power BI 入口網站。
-* 需有 Power BI 管理員權限，才能在 Power BI 管理入口網站的開發人員設定中啟用服務主體。
-* [為組織內嵌](embed-sample-for-your-organization.md)應用程式無法使用服務主體。
-* 不支援[資料流程](../../transform-model/service-dataflows-overview.md)管理。
-* 服務主體目前不支援任何管理員 API。
-* 搭配 [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 資料來源使用服務主體時，服務主體本身必須具有 Azure Analysis Services 執行個體權限。 基於此目的使用包含服務主體的安全性群組將無法正常運作。
+[!INCLUDE[service principal limitations](../../includes/service-principal-limitations.md)]
 
 ## <a name="next-steps"></a>後續步驟
 
-* [適用於您客戶的 Power BI Embedded](embed-sample-for-customers.md)
+>[!div class="nextstepaction"]
+>[註冊應用程式](register-app.md)
 
-* [搭配服務主體使用內部部署資料閘道的資料列層級安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+> [!div class="nextstepaction"]
+>[適用於您客戶的 Power BI Embedded](embed-sample-for-customers.md)
+
+>[!div class="nextstepaction"]
+>[Azure Active Directory 中的應用程式和服務主體物件](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
+>[!div class="nextstepaction"]
+>[搭配服務主體使用內部部署資料閘道的資料列層級安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+>[!div class="nextstepaction"]
+>[使用服務主體和憑證內嵌 Power BI 內容](embed-service-principal-certificate.md)

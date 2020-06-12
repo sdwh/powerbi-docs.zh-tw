@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
+ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279748"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273891"
 ---
 # <a name="tenant-admin-settings-guidance"></a>租用戶系統管理設定指導
 
@@ -29,7 +29,7 @@ ms.locfileid: "83279748"
 
 我們鼓勵您使用 [Microsoft Teams](/microsoftteams) 或其他共同作業平台來設定內部 Power BI 相關網站。 這些網站可用於儲存訓練文件、主持討論、提出授權要求或回應協助。
 
-如果您這麼做，則建議接著為「整個組織」  啟用 [發佈「取得協助」資訊]  設定。 此設定位於 [說明及支援設定]  群組中。 您可以為下列項目設定 URL：
+如果您這麼做，則建議接著為「整個組織」啟用 [發佈「取得協助」資訊] 設定。 此設定位於 [說明及支援設定] 群組中。 您可以為下列項目設定 URL：
 
 - 訓練文件
 - 討論論壇
@@ -44,12 +44,12 @@ ms.locfileid: "83279748"
 ![顯示 [發佈「取得協助」資訊] 設定。](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>管理風險
-
+設定管理風險有助您在 Power BI 租用戶中建立治理原則。 不過，請注意，這些治理設定並不是安全性措施。 例如，若您停用 [匯出資料] 設定，Power BI 使用者介面即會移除此功能，以透過這種方式協助 Power BI 使用者在工作時遵循組織的治理原則，但這無法防止執意操作的使用者透過其他選項匯出資料。 從安全角度來看，不論 Power BI 使用者介面中是否提供這些功能，具有資料集讀取權限的 Power BI 使用者即有權查詢此資料集，並可以保存結果。
 ### <a name="receive-email-notification-service-outages-or-incidents"></a>接收服務中斷或事件的電子郵件通知
 
 您可以選擇在租用戶受到服務中斷或事件的影響時收到電子郵件通知。 如此一來，您就可以主動回應事件。
 
-建議您啟用 [接收電子郵件通知服務中斷或事件]  設定。 此設定位於 [說明及支援設定]  群組中。 指派一或多個「擁有郵件功能」  的安全性群組。
+建議您啟用 [接收電子郵件通知服務中斷或事件] 設定。 此設定位於 [說明及支援設定] 群組中。 指派一或多個「擁有郵件功能」的安全性群組。
 
 ![顯示 [接收服務中斷或事件的電子郵件通知] 設定。](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
 
@@ -68,33 +68,33 @@ ms.locfileid: "83279748"
 > [!NOTE]
 > 目前，在舊工作區體驗與新工作區體驗之間有轉換週期。 此租用戶設定僅適用於新的體驗。
 
-根據預設，[建立工作區]  設定已針對整個組織啟用。 此設定位於 [工作區設定]  群組中。
+根據預設，[建立工作區] 設定已針對整個組織啟用。 此設定位於 [工作區設定] 群組中。
 
-建議您指派一或多個安全性群組。 您可以授與「或拒絕」  這些群組建立工作區的權限。
+建議您指派一或多個安全性群組。 您可以授與「或拒絕」這些群組建立工作區的權限。
 
 請務必在您的文件中包含指示，讓不具有工作區建立權限的使用者知道應如何要求新工作區。
 
 ![顯示 [建立工作區] 設定。](media/admin-tenant-settings/create-workspaces.png)
 
-### <a name="share-content-with-external-users"></a>將內容共用給外部使用者
+### <a name="share-content-with-external-users"></a>與外部使用者共用內容
 
 使用者可以與組織外部人員共用報表和儀表板。
 
-根據預設，[與外部使用者共用內容]  設定已為整個組織啟用。 此設定位於 [匯出和共用設定]  群組中。
+根據預設，[與外部使用者共用內容] 設定已為整個組織啟用。 此設定位於 [匯出和共用設定] 群組中。
 
-建議您指派一或多個安全性群組。 您可以授與「或拒絕」  這些群組與外部使用者共用內容的權限。
+建議您指派一或多個安全性群組。 您可以授與「或拒絕」這些群組與外部使用者共用內容的權限。
 
 ![顯示 [與外部使用者共用內容] 設定。](media/admin-tenant-settings/share-content-with-external-users.png)
 
-### <a name="publish-to-web"></a>發佈至 Web
+### <a name="publish-to-web"></a>發行至 Web
 
 [[發佈至 Web]](../collaborate-share/service-publish-to-web.md) 功能可讓您在 Web 上發佈公用報表。 如果使用不當，可能會有將機密資訊即時暴露於 Web 上的風險。
 
-根據預設，[發佈至 Web]  設定已為整個組織啟用，但會限制非管理員使用者建立內嵌程式碼。 此設定位於 [匯出和共用設定]  群組中。
+根據預設，[發佈至 Web] 設定已為整個組織啟用，但會限制非管理員使用者建立內嵌程式碼。 此設定位於 [匯出和共用設定] 群組中。
 
-如果啟用此設定，建議您指派一或多個安全性群組。 您可以授與「或拒絕」  這些群組發佈報表的權限。
+如果啟用此設定，建議您指派一或多個安全性群組。 您可以授與「或拒絕」這些群組發佈報表的權限。
 
-此外，還有一個選項可以選擇內嵌程式碼的運作方式。 根據預設，此選項會設為 [只允許現有的程式碼]  。 這表示系統會要求使用者與 Power BI 管理員連絡，才能建立內嵌程式碼。
+此外，還有一個選項可以選擇內嵌程式碼的運作方式。 根據預設，此選項會設為 [只允許現有的程式碼]。 這表示系統會要求使用者與 Power BI 管理員連絡，才能建立內嵌程式碼。
 
 ![顯示 [發佈至 Web] 設定。](media/admin-tenant-settings/publish-to-web.png)
 
@@ -104,9 +104,9 @@ ms.locfileid: "83279748"
 
 您可以限制使用者從儀表板磚或報表視覺效果匯出資料。
 
-根據預設，[匯出資料]  設定已為整個組織啟用。 此設定位於 [匯出和共用設定]  群組中。
+根據預設，[匯出資料] 設定已為整個組織啟用。 此設定位於 [匯出和共用設定] 群組中。
 
-建議您指派一或多個安全性群組。 您可以授與「或拒絕」  這些群組發佈報表的權限。
+建議您指派一或多個安全性群組。 您可以授與「或拒絕」這些群組發佈報表的權限。
 
 > [!IMPORTANT]
 > 如果停用此設定，也會限制使用 [[使用 Excel 分析]](../collaborate-share/service-analyze-in-excel.md) 和 Power BI 服務 [[即時連線]](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) 功能。
@@ -120,9 +120,9 @@ ms.locfileid: "83279748"
 
 您可以允許外部來賓使用者編輯和管理 Power BI 內容。 如需詳細資訊，請參閱[使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者](../admin/service-admin-azure-ad-b2b.md)。
 
-根據預設，[允許外部來賓使用者編輯和管理組織中的內容]  設定已為整個組織停用。 此設定位於 [匯出和共用設定]  群組中。
+根據預設，[允許外部來賓使用者編輯和管理組織中的內容] 設定已為整個組織停用。 此設定位於 [匯出和共用設定] 群組中。
 
-如果需要授權外部使用者來編輯和管理內容，建議您指派一或多個安全性群組。 您可以授與「或拒絕」  這些群組發佈報表的權限。
+如果需要授權外部使用者來編輯和管理內容，建議您指派一或多個安全性群組。 您可以授與「或拒絕」這些群組發佈報表的權限。
 
 ![顯示 [允許外部來賓使用者編輯和管理組織中的內容] 設定。](media/admin-tenant-settings/allow-external-guest-users.png)
 
@@ -143,6 +143,6 @@ ms.locfileid: "83279748"
 
 - [什麼是 Power BI 管理？](../admin/service-admin-administering-power-bi-in-your-organization.md)
 - [在系統管理入口網站中管理 Power BI](../admin/service-admin-portal.md)
-- 有任何問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)
 

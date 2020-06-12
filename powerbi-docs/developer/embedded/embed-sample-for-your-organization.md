@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 49465556d7b11b911e24df06ab6598bb2dbe9707
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 38db00f51a333b754267d52aaf3e3eabccc3e6b6
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794126"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273015"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 內容內嵌至應用程式
 
@@ -387,8 +387,8 @@ function updateEmbedReport() {
 
 | 容量節點 | V 核心總數<br/>(後端 + 前端) | 後端 V 核心數 | 前端 V 核心數 | DirectQuery/即時連線限制 |
 | --- | --- | --- | --- | --- | --- |
-| EM1 |1 個 V 核心 |0.5 個 V 核心，10 GB RAM |0.5 個 V 核心 |每秒 3.75 個 |
-| EM2 |2 個 V 核心 |1 個 V 核心，10 GB RAM |1 個 V 核心 |每秒 7.5 個 |
+| EM1 |1 個 V 核心 |0.5 個 vCore，3 GB RAM |0.5 個 V 核心 |每秒 3.75 個 |
+| EM2 |2 個 V 核心 |1 個 vCore，5 GB RAM |1 個 V 核心 |每秒 7.5 個 |
 | EM3 |4 個 V 核心 |2 個 V 核心，10 GB RAM |2 個 V 核心 |每秒 15 個 |
 | P1 |8 個 V 核心 |4 個 V 核心，25 GB RAM |4 個 V 核心 |每秒 30 個 |
 | P2 |16 個 V 核心 |8 個 V 核心，50 GB RAM |8 個 V 核心 |每秒 60 個 |

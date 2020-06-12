@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 06/02/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2792c5b35d68dd38554209fe8fe065710c339381
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291412"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336835"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>在 Power BI Desktop 中執行 Python 指令碼
 
@@ -42,15 +42,15 @@ pip install matplotlib
 
 啟用 Python 指令碼：
 
-1. 在 Power BI Desktop 中，選取 [檔案]   > [選項及設定]   > [選項]   > [Python 指令碼]  。 [Python 指令碼選項]  頁面隨即出現。
+1. 在 Power BI Desktop 中，選取 [檔案] > [選項及設定] > [選項] > [Python 指令碼]。 [Python 指令碼選項] 頁面隨即出現。
 
    ![Power BI Desktop 的 Python 指令碼選項](media/desktop-python-scripts/python-scripts-7.png)
 
-1. 如有需要，請在 [偵測到的 Python 主目錄]  中指定您的本機 Python 安裝路徑。
+1. 如有需要，請在 [偵測到的 Python 主目錄] 中指定您的本機 Python 安裝路徑。
 
    在上圖中，Python 的安裝本機路徑是 *C:\Python*。 請確認該路徑是您希望 Power BI Desktop 使用之本機 Python 安裝的路徑。
 
-1. 選取 [確定]  。
+1. 選取 [確定]。
 
 指定 Python 安裝後，您就可以開始在 Power BI Desktop 中執行 Python 指令碼。
 
@@ -83,24 +83,24 @@ print (df)
 * 只有 Pandas 資料框架會匯入，因此請確定您要匯入至 Power BI 的資料都位於資料框架中
 * 任何 Python 指令碼若執行時間超過 30 分鐘就會逾時
 * 在 Python 指令碼中的互動式呼叫 (例如等待使用者輸入) 會中止指令碼執行
-* 在 Python 指令碼中設定工作目錄時，您「必須」  定義工作目錄的完整路徑，而非相對路徑
+* 在 Python 指令碼中設定工作目錄時，您「必須」定義工作目錄的完整路徑，而非相對路徑
 * 目前不支援巢狀資料表
 
 ### <a name="run-your-python-script-and-import-data"></a>執行 Python 指令碼並匯入資料
 
 在 Power BI Desktop 中執行 Python 指令碼：
 
-1. 在 [首頁] 功能區中，選取 [取得資料]   > [其他]  。
+1. 在 [首頁] 功能區中，選取 [取得資料] > [其他]。
 
-1. 選取 [其他]   > [Python 指令碼]  ，如下圖所示：
+1. 選取 [其他] > [Python 指令碼]，如下圖所示：
 
    ![取得資料選取 Python 指令碼](media/desktop-python-scripts/python-scripts-1.png)
 
-1. 選取 [連接]  。 系統會選取本機所安裝的最新 Python 版本作為 Python 引擎。 將指令碼複製到隨即顯示的 [Python 指令碼]  對話方塊中。 在這裡，我們會輸入先前所示的簡單 Python 指令碼。
+1. 選取 [連接]。 系統會選取本機所安裝的最新 Python 版本作為 Python 引擎。 將指令碼複製到隨即顯示的 [Python 指令碼] 對話方塊中。 在這裡，我們會輸入先前所示的簡單 Python 指令碼。
 
    ![範例 Python 指令碼](media/desktop-python-scripts/python-scripts-6.png)
 
-1. 選取 [確定]  。 如果該指令碼能成功執行，[導覽器]  便會出現，而您將能載入資料並使用它。 針對此範例，請選取 [df]  \(如影像中所示\)，然後選取 [載入]  。
+1. 選取 [確定]。 如果該指令碼能成功執行，[導覽器] 便會出現，而您將能載入資料並使用它。 針對此範例，請選取 [df] \(如影像中所示\)，然後選取 [載入]。
 
    ![顯示要載入並使用之資料的導覽器](media/desktop-python-scripts/python-scripts-5.png) 
 
@@ -118,9 +118,13 @@ Power BI 會以使用者所提供目錄 (透過設定頁面提供) 中的 python
 
 作為其中一個可行的解決方案，您可以從自訂 Python 環境提示字元中啟動 Power BI Desktop。
 
-### <a name="refresh"></a>Refresh
+### <a name="refresh"></a>重新整理
 
-您可以在 Power BI Desktop 中重新整理 Python 指令碼。 若要重新整理，請移至 [常用]  功能區並選取 [重新整理]  。 當您重新整理 Python 指令碼時，Power BI Desktop 會再次執行 Python 指令碼。
+您可以在 Power BI Desktop 中重新整理 Python 指令碼。 若要重新整理，請移至 [常用] 功能區並選取 [重新整理]。 當您重新整理 Python 指令碼時，Power BI Desktop 會再次執行 Python 指令碼。
+
+## <a name="known-limitations"></a>已知的限制
+
+目前您無法在已啟用**增強型中繼資料 (預覽)** 功能的報表中使用 Python 指令碼。 現有的報表將會繼續運作。 如需詳細資訊，請參閱[使用增強型資料集中繼資料 (預覽)](desktop-enhanced-dataset-metadata.md)。 
 
 ## <a name="next-steps"></a>後續步驟
 

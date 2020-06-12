@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a26a93851d3914527bbb61275d763f95f21d7603
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693582"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336812"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
@@ -209,6 +209,7 @@ ms.locfileid: "83693582"
 * 針對新的工作區體驗，如果新增至應用程式存取清單的使用者已經可以透過工作區存取應用程式，他們就不會顯示在應用程式的存取清單中。  
 * 使用 Power BI 服務的新外觀時，項目資訊卡會顯示支援的網站 URL。 深入了解 [Power BI 的「新外觀」](../consumer/service-new-look.md)。
 * 應用程式可選擇是否允許使用者使用共用權限來共用應用程式及應用程式的基礎資料集。 根據預設，新應用程式會關閉此選項。 建議關閉現有應用程式的這個選項，並更新基礎資料集的權限。 現有的應用程式之所以啟用此選項，是因為應用程式一開始即是設計來取代具有此行為的內容套件。
+* 應用程式最多可以有 200 個儀表板。 
 
 ## <a name="next-steps"></a>後續步驟
 * [建立工作區](service-create-workspaces.md)

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 7034bd544ee9c14dd5f32df9335faefd4221e4ac
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 5d0c9fcfbd35b8b42e8196f6f014c96803f6ffc5
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693902"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159528"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>使用 Power BI 索引標籤在 Microsoft Teams 中內嵌報表
 
@@ -48,7 +48,7 @@ ms.locfileid: "83693902"
 
     ![顯示 Power BI 的 Microsoft Teams 索引標籤清單](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-tab.png)
 
-3. 使用提供的選項來從 [工作區]、[與我共用] 或 Power BI 應用程式中挑選報表。
+3. 使用提供的選項，從工作區或 Power BI 應用程式中挑選報表。
 
     ![Microsoft Teams Power BI 索引標籤設定](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-tab-settings.png)
 

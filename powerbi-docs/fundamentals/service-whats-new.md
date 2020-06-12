@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813339"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273061"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
@@ -646,7 +646,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 * 本週的服務更新現在可供在建立新報表時有多種頁面大小可選擇，也可以定義自己的頁面大小。 這會控制報表中每個頁面的大小和外觀比例。
 * 我們新增了影像和泡泡圖的其他視覺效果格式支援。 您可以在調整影像大小時鎖定外觀以避免影像扭曲，而散佈圖泡泡也可設定成填滿或不填滿。
 * 現在，Power BI 會將共用邀請傳送給備用電子郵件地址。 當有儀表板與您共用時，我們會將共用邀情連結傳送到您的原始電子郵件地址，也會傳送到您的備用電子郵件地址 (如有設定)。
-* 所有客戶都可使用 Power BI，包括 Dedicated on Multitenant (DonMT) O365 架構的客戶在內。 您將會使用 Power BI 作為多租用戶模式中的共用服務。 在大部分情況下，您可以遵循簡單的[自助註冊程序](https://powerbi.microsoft.com/)來註冊 Power BI，只要輸入您的工作電子郵件地址，然後輸入名稱和密碼，即可開始使用。 如果您是租用戶系統管理員，您可以使用[此處](https://go.microsoft.com/fwlink/?LinkId=627174)的指示，將授權指派給使用者。
+* 所有客戶都可使用 Power BI，包括 Dedicated on Multitenant (DonMT) Microsoft 365 架構的客戶在內。 您將會使用 Power BI 作為多租用戶模式中的共用服務。 在大部分情況下，您可以遵循簡單的[自助註冊程序](https://powerbi.microsoft.com/)來註冊 Power BI，只要輸入您的工作電子郵件地址，然後輸入名稱和密碼，即可開始使用。 如果您是租用戶系統管理員，您可以使用[此處](https://go.microsoft.com/fwlink/?LinkId=627174)的指示，將授權指派給使用者。
 * Azure 稽核記錄檔可讓您檢視 Azure 訂用帳戶中的控制平面作業記錄。 Power BI 稽核記錄檔內容套件可協助您輕鬆分析及視覺化這些記錄所包含的豐富資訊。 此內容套件可讓您透過現成的儀表板和報表連接到您的資料，並開始探索深入資料。 如需詳細資訊，請閱讀我們的[部落格](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/)和[線上文件](../connect-data/service-connect-to-services.md)。
 
 [在部落格中取得更多資訊](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/)。

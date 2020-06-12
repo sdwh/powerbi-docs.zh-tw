@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e126451bf016bf4e9dcce7b7a4df51db9ed20386
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ec0d12ddf91b04654b90c5a3e7cdfda24bc04604
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320507"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315894"
 ---
 # <a name="the-enhanced-compute-engine"></a>增強型計算引擎
 
 Power BI 中增強型計算引擎可讓 Power BI Premium 訂閱者使用其容量來最佳化資料流程的使用。 使用增強型計算引擎可提供下列優點：
 
-* 大幅減少長時間執行的 ETL 步驟在計算實體上所需重新整理時間，例如執行「聯結」  、「相異」  、「篩選」  和「分組方式」 
+* 大幅減少長時間執行的 ETL 步驟在計算實體上所需重新整理時間，例如執行「聯結」、「相異」、「篩選」和「分組方式」
 * 在實體上執行 DirectQuery 查詢 (在 2020 年 2 月)
 
 下列各節描述如何啟用增強型計算引擎，並回答常見問題。
@@ -28,11 +28,14 @@ Power BI 中增強型計算引擎可讓 Power BI Premium 訂閱者使用其容�
 
 ## <a name="using-the-enhanced-compute-engine"></a>使用增強型計算引擎
 
-增強型計算引擎可從 Power BI 服務內 [容量設定]  頁面的 [資料流程]  區段中啟用。 增強型計算引擎預設為 [關閉]  。 若要開啟增強型計算引擎，請將切換按鈕切換為 [開啟]  (如下圖所示)，然後儲存您的設定。 
+增強型計算引擎可從 Power BI 服務內 [容量設定] 頁面的 [資料流程] 區段中啟用。 增強型計算引擎預設為 [關閉]。 若要開啟增強型計算引擎，請將切換按鈕切換為 [開啟] (如下圖所示)，然後儲存您的設定。 
 
 ![開啟增強型計算引擎](media/service-dataflows-enhanced-compute-engine/enhanced-compute-engine-01.png)
 
-當您開啟增強型計算引擎之後，請返回資料流程，您應該會在任何針對資料流程 (從相同容量的現有連結實體建立) 執行複雜作業 (例如「聯結」  或「分組方式」  作業) 的計算實體中看到效能改善。 
+> [!IMPORTANT]
+> 增強型計算引擎僅適用於 A3 以上的 Power BI 容量。
+
+當您開啟增強型計算引擎之後，請返回資料流程，您應該會在任何針對資料流程 (從相同容量的現有連結實體建立) 執行複雜作業 (例如「聯結」或「分組方式」作業) 的計算實體中看到效能改善。 
 
 若要充分利用計算引擎，您應該以下列方式將 ETL 階段分割成兩個不同的資料流程：
 

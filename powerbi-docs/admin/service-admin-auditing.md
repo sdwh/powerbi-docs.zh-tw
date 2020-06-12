@@ -8,14 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/11/2020
 ms.author: kfollis
-ms.custom: seodec18
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: f479bb865a11de57587a0302738411327327ed33
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812419"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272670"
 ---
 # <a name="track-user-activities-in-power-bi"></a>追蹤 Power BI 中的使用者活動
 
@@ -133,9 +133,9 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 1. 選取 [稽核記錄]。
 
-1. 選取 [前往 O365 系統管理中心]。
+1. 選取 [前往 Microsoft 365 系統管理中心]。
 
-   ![[管理入口網站] 已標示 [稽核記錄] 選項和 [移至 Microsoft O365 系統管理中心] 選項的螢幕擷取畫面。](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![已標示 [稽核記錄] 選項和 [前往 Microsoft 365 系統管理中心] 選項的管理入口網站螢幕擷取畫面。](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ### <a name="search-only-power-bi-activities"></a>僅搜尋 Power BI 活動
 

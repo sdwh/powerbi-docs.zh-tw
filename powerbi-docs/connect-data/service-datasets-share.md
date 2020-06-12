@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: b6e45113662117d5c6c793211644c4895f666a40
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794095"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273337"
 ---
 # <a name="share-a-dataset"></a>共用資料集
 
@@ -28,7 +28,7 @@ ms.locfileid: "83794095"
 
 1. 將 .pbix 檔案發佈到 Power BI 服務中的[新工作區體驗](../collaborate-share/service-create-the-new-workspaces.md)。
     
-    此工作區的其他成員，已經可以根據此資料集在其他工作區中建立報表。
+    此工作區的其他成員，已經可以根據此資料集在其他工作區中建立報表。 您可以使用工作區內容清單中資料集上的 [管理權限] 選項，將資料集存取權提供給其他使用者。 
 
 1. 您也可以從此工作區[發佈應用程式](../collaborate-share/service-create-distribute-apps.md)。 當您這麼做時，您可以在 [權限] 頁面上指定誰具有權限來進行哪些項目。
 
@@ -50,6 +50,11 @@ ms.locfileid: "83794095"
 1. [相關內容] 對話方塊會顯示所有相關項目。 在此清單中，您會看到此工作區與 [其他工作區] 中的相關項目。
  
     ![[相關內容] 對話方塊](media/service-datasets-build-permissions/power-bi-dataset-related-workspaces.png)
+
+## <a name="limitations-and-considerations"></a>限制與考量
+共用資料集的注意事項︰
+
+* 當您透過管理權限、共用報表/儀表板，或發佈應用程式來共用資料集時，即會授與整個資料集的存取權 (除非您利用[資料列層級安全性 (RLS)](../admin/service-admin-rls.md) 來限制其存取權)。 報表作者可以使用相關功能，來自訂使用者的報表檢視或報表互動體驗，例如隱藏資料行、限制對視覺效果的動作等。 這些自訂的使用者體驗，不會限制使用者在資料集中可以存取哪些資料。 您可以在資料集內使用[資料列層級安全性 (RLS)](../admin/service-admin-rls.md)，根據每個人的認證來判斷其可存取哪些資料。
 
 ## <a name="next-steps"></a>後續步驟
 

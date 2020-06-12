@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 183fceb6877109960ea1fb7e6f36bd74588f8f10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693861"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316055"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>在新的工作區體驗中監視使用計量
 
@@ -132,7 +132,7 @@ ms.locfileid: "83693861"
 
 ## <a name="disable-usage-metrics-reports"></a>停用使用計量報表
 
-使用計量報表是 Power BI 或 Microsoft 365 系統管理員可開啟或關閉的功能。 系統管理員可以更精細地控制哪些使用者可以存取使用計量；針對組織中的所有使用者，它們預設為「開啟」。 請參閱管理入口網站文章中的[控制使用計量](../admin/service-admin-portal.md#control-usage-metrics)來取得這些設定的詳細資料。
+使用計量報表是 Power BI 系統管理員或全域管理員可以開啟或關閉的功能。 系統管理員可以更精細地控制哪些使用者可以存取使用計量；針對組織中的所有使用者，它們預設為「開啟」。 請參閱管理入口網站文章中的[控制使用計量](../admin/service-admin-portal.md#control-usage-metrics)來取得這些設定的詳細資料。
 
 > [!NOTE]
 > 只有 Power BI 租用戶的系統管理員可以看見管理入口網站並編輯設定。

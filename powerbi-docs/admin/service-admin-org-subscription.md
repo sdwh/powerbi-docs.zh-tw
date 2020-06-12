@@ -1,5 +1,5 @@
 ---
-title: 為組織取得 Power BI 訂用帳戶
+title: 為組織取得 Power BI 服務訂用帳戶
 description: 如何以管理員身分註冊 Power BI 服務訂用帳戶並大量購買授權。
 author: kfollis
 ms.reviewer: ''
@@ -8,17 +8,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/13/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bb8abab7d3f8430037b31e2797d62ce8d7b03e1
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 39ecda08527e0805b1ce26ebd9a1c83ceb57187b
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438106"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160034"
 ---
-# <a name="get-a-power-bi-subscription-for-your-organization"></a>為組織取得 Power BI 訂用帳戶
+# <a name="get-a-power-bi-service-subscription-for-your-organization"></a>為組織取得 Power BI 服務訂用帳戶
 
-系統管理員可透過 Microsoft 365 系統管理中心的 [購買服務] 頁面來註冊 Power BI。 當管理員註冊 Power BI 時，他們可以將授權指派給應該有存取權的使用者。
+系統管理員可透過 Microsoft 365 系統管理中心的 [購買服務] 頁面來註冊 Power BI 服務。 當管理員註冊 Power BI 時，他們可以將授權指派給應該有存取權的使用者。
 
 您組織中的使用者可透過 Power BI 網站來註冊 Power BI。 當組織中的使用者註冊 Power BI 時，便會自動指派 Power BI 授權給使用者。 若您想要關閉自助功能，請遵循[啟用或停用自助式註冊和購買](service-admin-disable-self-service.md)中的步驟。
 

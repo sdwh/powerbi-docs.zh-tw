@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28e19c750819b883adc2319c171ef1cb7b3125f1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 136376da9d00e5f40397f0d4152e83d17a171168
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273883"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272969"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -169,8 +169,7 @@ Power BI 系統管理員入口網站有控制誰可發行至 Web 的設定。 �
 
 已建立的組織通常已經有 Power BI 管理員。 擔任下列任一角色的人員都可以作為 Power BI 管理員：
 
-- Office 365 系統管理員
-- Azure Active Directory 系統管理員
+- 全域管理員
 - 在 Azure Active Directory 中具有 Power BI 服務管理員角色的使用者
 
 您要在組織中[找到這群人的其中一員](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business)，要求其在系統管理員入口網站中更新 [發行至 Web 租用戶設定](../admin/service-admin-portal.md#publish-to-web)。

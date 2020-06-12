@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/26/2019
+ms.date: 06/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7c9ba490a2cc30d42fee4f2317dbf5d4026ab59a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1ff21d0508889fecda5022edb0e48714c8be3ed6
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83299692"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337088"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop 自動重新整理頁面 (預覽)
 
@@ -25,13 +25,13 @@ Power BI 中的「自動重新頁面整理 (APR)」功能可讓您的作用中�
 
 ## <a name="using-automatic-page-refresh"></a>使用自動頁面重新整理
 
-針對此預覽版本，您必須啟用 Power BI Desktop 中的自動頁面重新整理功能。 請前往 [檔案] > [選項及設定]  > [選項]  ，然後從左側窗格選取 [預覽功能]  。 選取 [自動頁面重新整理]  旁的核取方塊以啟用此功能。 自動頁面重新整理僅適用於 DirectQuery 資料來源。
+針對此預覽版本，您必須啟用 Power BI Desktop 中的自動頁面重新整理功能。 請前往 [檔案] > [選項及設定] > [選項]，然後從左側窗格選取 [預覽功能]。 選取 [自動頁面重新整理] 旁的核取方塊以啟用此功能。 自動頁面重新整理「僅」適用於 DirectQuery 資料來源。
 
-若要使用自動頁面重新整理，請選取您想要啟用重新整理的報表頁面。 在 [視覺效果]  窗格中，選取 [格式化]  圖示 (油漆滾筒)，然後在窗格底部附近尋找 [頁面重新整理]  。 
+若要使用自動頁面重新整理，請選取您想要啟用重新整理的報表頁面。 在 [視覺效果] 窗格中，選取 [格式化] 圖示 (油漆滾筒)，然後在窗格底部附近尋找 [頁面重新整理]。 
 
 ![頁面重新整理位置](media/desktop-automatic-page-refresh/automatic-page-refresh-01.png)
 
-下圖顯示 [頁面重新整理]  卡片。 接下來的幾個段落會說明編號元素的解釋：
+下圖顯示 [頁面重新整理] 卡片。 接下來的幾個段落會說明編號元素的解釋：
 
 ![頁面重新整理卡片](media/desktop-automatic-page-refresh/automatic-page-refresh-02.png)
 
@@ -77,13 +77,13 @@ Power BI 中的「自動重新頁面整理 (APR)」功能可讓您的作用中�
 
 為考慮查詢與重新整理計時，Power BI 只會在所有剩餘的重新整理查詢都完成時才執行下一個重新整理查詢。 因此，即使您的重新整理間隔比查詢處理所需的時間短，Power BI 也只會在剩餘的查詢完成後再次重新整理。 
 
-接下來，讓我們看看您可以如何以容量管理員身分偵測並診斷效能問題。 您也可以參閱此文章稍後的＜自動頁面重新整理常見問題集＞  一節，以取得有關效能與疑難排解的進一步問題與解答。
+接下來，讓我們看看您可以如何以容量管理員身分偵測並診斷效能問題。 您也可以參閱此文章稍後的＜自動頁面重新整理常見問題集＞ 一節，以取得有關效能與疑難排解的進一步問題與解答。
 
 ## <a name="automatic-page-refresh-in-the-power-bi-service"></a>Power BI 服務中的自動頁面重新整理
 
 您也可以為已在 Power BI Desktop 中撰寫的報表設定自動頁面重新整理間隔，並將其發行至 Power BI 服務。 
 
-Power BI 服務中報表的自動頁面重新整理是使用與 Power BI Desktop 中的設定類似的步驟所設定。 於 Power BI 服務中設定時，自動頁面重新整理也支援[內嵌的 Power BI](../developer/embedded/embedding.md) 內容。 下圖顯示 Power BI 服務的 [頁面重新整理]  設定：
+Power BI 服務中報表的自動頁面重新整理是使用與 Power BI Desktop 中的設定類似的步驟所設定。 於 Power BI 服務中設定時，自動頁面重新整理也支援[內嵌的 Power BI](../developer/embedded/embedding.md) 內容。 下圖顯示 Power BI 服務的 [頁面重新整理] 設定：
 
 ![Power BI 服務中的自動頁面重新整理](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 
@@ -109,7 +109,7 @@ Power BI Desktop 沒有重新整理間隔的限制；其重新整理間隔可以
 
 **容量**是核心 Power BI 概念，代表用來裝載及傳遞 Power BI 內容的一組資源 (儲存體、處理器與記憶體)。 容量為「共用」或「專用」。 **共用的容量**會與其他 Microsoft 客戶共用，而**專用容量**完全認可給單一客戶。 專用容量會在[管理 Premium 容量](../admin/service-premium-capacity-manage.md)一文中說明。
 
-在共用的容量中，工作負載是在與其他客戶共用的計算資源上執行。 由於容量必須共用資源，因此會有限制，以確保公平使用  ，例如設定最大模型大小 (1 GB) 與每日重新整理頻率上限 (每天 8 次)。
+在共用的容量中，工作負載是在與其他客戶共用的計算資源上執行。 由於容量必須共用資源，因此會有限制，以確保公平使用，例如設定最大模型大小 (1 GB) 與每日重新整理頻率上限 (每天 8 次)。
 
 Power BI **工作區**位於容量內，而且它們代表安全性、共同作業和部署容器。 每個 Power BI 使用者都有個人工作區，稱為**我的工作區**。 可建立額外的工作區來啟用共同作業和部署，這些額外的工作區稱為**工作區**。 根據預設，工作區 (包括個人工作區) 是在**共用容量**中建立的。
 
@@ -121,15 +121,15 @@ Power BI **工作區**位於容量內，而且它們代表安全性、共同作�
 
  1. *功能開啟/關閉* ：如果您的容量管理員已決定停用此功能，您將無法在已發行的報表中設定任何類型的頁面重新整理。
 
- 2. *最小重新整理間隔*：啟用此功能時，您的容量管理員必須設定最小的重新整理間隔。 如果您的間隔低於最小值，則 Power BI 服務會覆寫您的間隔，以遵循容量管理員所設定的最小間隔。
+ 2. *最小重新整理間隔*：啟用此功能時，您的容量管理員必須設定最小的重新整理間隔。 如果您的間隔低於最小值，則 Power BI 服務會「覆寫」您的間隔，以遵循容量系統管理員所設定的最小間隔。 在下表中，該覆寫稱為「容量系統管理員覆寫」。 
 
-下表描述可使用此功能的更多詳細資料，以及每個容量類型與[儲存模式](../connect-data/service-dataset-modes-understand.md)的限制
+下表描述可使用此功能的更多詳細資料，以及每個容量類型與[儲存模式](../connect-data/service-dataset-modes-understand.md)的限制：
 
 | 儲存模式 | 專用容量 | 共用容量 |
 | --- | --- | --- |
 | 直接查詢 | **支援** – 是。 <br>**最小重新整理間隔** – 1 秒 <br>**容量管理員覆寫** – 是。 | **支援** – 是。 <br>**最小重新整理間隔** – 30 分鐘 <br>**容量管理員覆寫** – 否。 |
 | 匯入 | **支援** – 否。 <br>**最小重新整理間隔** – N/A。 <br>**容量管理員覆寫** – N/A。 | **支援** – 否。 <br>**最小重新整理間隔** – N/A。 <br>**容量管理員覆寫** – N/A。 |
-| 混合模式 (DQ + 其他) | **支援** – 是。 <br>**最小重新整理間隔** – 1 秒 <br>**容量管理員覆寫** – 是。 | **支援** – 是。 <br>**最小重新整理間隔** – 30 分鐘 <br>**容量管理員覆寫** – 否。 |
+| 混合模式 (DirectQuery + 其他資料來源) | **支援** – 是。 <br>**最小重新整理間隔** – 1 秒 <br>**容量管理員覆寫** – 是。 | **支援** – 是。 <br>**最小重新整理間隔** – 30 分鐘 <br>**容量管理員覆寫** – 否。 |
 | Live Connect AS | **支援** – 否。 <br>**最小重新整理間隔** – N/A。 <br>**容量管理員覆寫** – N/A。 | **支援** – 否。 <br>**最小重新整理間隔** – N/A。 <br>**容量管理員覆寫** – N/A。 |
 | Live Connect PBI | **支援** – 否。 <br>**最小重新整理間隔** – N/A。 <br>**容量管理員覆寫** – N/A。 | **支援** – 否。 <br>**最小重新整理間隔** – N/A。 <br>**容量管理員覆寫** – N/A。 |
 
@@ -186,7 +186,7 @@ Power BI **工作區**位於容量內，而且它們代表安全性、共同作�
     * 在容量管理 UI 中進行的自動頁面重新整理設定變更，最多需要 5 分鐘的時間才能傳播至報表。
     * 除了開啟容量的自動頁面重新整理之外，您還需要為您要看到它的報表頁面開啟它。
 
-3. 我的報表是以混合模式 (DQ + 匯入) 運作。 並非所有視覺效果都會重新整理。
+3. 我的報表正在混合模式中運作 (混合模式表示報表具有 DirectQuery 連線和匯入資料來源)。 並非所有視覺效果都會重新整理。
 
     * 若您的視覺效果參考匯入資料表，這就是預期的情況。 匯入不支援自動頁面重新整理。
     * 請參閱此節中的問題 1。
@@ -211,6 +211,7 @@ Power BI **工作區**位於容量內，而且它們代表安全性、共同作�
 如需詳細資訊，請參閱下列文章：
 
 * [使用 Power BI 中的 DirectQuery](../connect-data/desktop-directquery-about.md)
+* [在 Power BI Desktop 中使用複合模型](../transform-model/desktop-composite-models.md)
 * [使用效能分析器檢查報表元素效能](desktop-performance-analyzer.md)
 * [部署及管理 Power BI Premium 容量](../guidance/whitepaper-powerbi-premium-deployment.md)
 * [Power BI Desktop 中的資料來源](../connect-data/desktop-data-sources.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 7a363af0bb8d6db9f0fd370b7c4b987b51c88221
-ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
+ms.openlocfilehash: 74ea78bf9f5e845eb86a38bad54ebde5e99ffbb0
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83382730"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219572"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>使用 XMLA 端點連線至資料集 (預覽)
 
@@ -98,11 +98,14 @@ Power BI Premium 資料集尚未支援物件層級安全性 (OLS)。
 
 在相同租用戶 (非 B2B) 中具有 UPN 的使用者，可以使用 `myorg` 來取代租用戶名稱。 例如， `powerbi://api.powerbi.com/v1.0/myorg/Sales Workspace`。
 
+B2B 使用者必須在租用戶名稱中指定其組織 UPN。 例如， `powerbi://api.powerbi.com/v1.0/fabrikam.com/Sales Workspace`。
+
 ### <a name="to-get-the-workspace-connection-url"></a>若要取得工作區連線 URL
 
 在工作區 [設定]  >  [Premium]  >  [工作區連線] 中，按一下 [複製]。
 
 ![工作區連接字串](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
+
 
 ## <a name="connection-requirements"></a>連線需求
 
