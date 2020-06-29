@@ -24,7 +24,7 @@
               href: service-govus-overview.md
             - name: 註冊美國政府組織
               href: service-govus-signup.md
-        - name: 區域雲端中的 Power BI
+        - name: 國家/地區雲端中的 Power BI
           items:
             - name: 移轉至 Go Local 德國地區
               href: service-admin-migrate-data-germany.md
@@ -116,6 +116,8 @@
               href: service-premium-connect-tools.md
             - name: 使用服務主體進行自動化
               href: service-premium-service-principal.md
+            - name: 針對 XMLA 端點連線能力進行疑難排解
+              href: troubleshoot-xmla-endpoint.md
     - name: 參考
       items:
         - name: PowerShell、REST API 和 .NET SDK

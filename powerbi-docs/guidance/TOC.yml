@@ -28,6 +28,8 @@
               href: star-schema.md
             - name: 縮小資料模型大小
               href: import-modeling-data-reduction.md
+            - name: 建立運算列表
+              href: model-date-tables.md
             - name: 自動日期/時間指引
               href: auto-date-time.md
             - name: 一對一關聯性
@@ -44,6 +46,8 @@
               href: directquery-model-guidance.md
             - name: 複合模型指導方針
               href: composite-model-guidance.md
+            - name: 資料列層級安全性 (RLS) 指引
+              href: rls-guidance.md
         - name: DAX
           items:
             - name: DIVIDE 函式與除法運算子 (/) 的比較

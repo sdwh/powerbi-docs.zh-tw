@@ -49,8 +49,12 @@
           items:
             - name: 共用儀表板和報表
               href: service-share-dashboards.md
+            - name: 要求存取報表或儀表板
+              href: service-request-access.md
             - name: 篩選並共用報表
               href: service-share-reports.md
+            - name: 針對共用報表或儀表板進行疑難排解
+              href: service-troubleshoot-sharing.md
             - name: 在 URL 中使用的參數篩選報表
               href: service-url-filters.md
             - name: 訂閱自己及其他人

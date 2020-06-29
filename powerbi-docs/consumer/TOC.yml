@@ -74,6 +74,8 @@
               href: end-user-spotlight.md
             - name: 個人化視覺效果
               href: end-user-personalize-visuals.md
+            - name: 分析視覺效果中的波動
+              href: end-user-analyze-visuals.md
             - name: Power BI 中的編頁報表
               items:
                 - name: 編頁報表
@@ -92,6 +94,8 @@
               href: end-user-visual-type.md
             - name: 顯示用於建立視覺效果的資料
               href: end-user-show-data.md
+            - name: 複製視覺效果並貼到其他位置
+              href: end-user-copy-paste.md
             - name: 在視覺效果中向下切入
               href: end-user-drill.md
             - name: 與 ArcGIS 地圖互動

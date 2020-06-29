@@ -84,6 +84,8 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: iOS 裝置搜尋整合
               href: mobile-apps-iOS-search-integration.md
+            - name: 深色模式
+              href: mobile-apps-dark-mode.md
             - name: Power BI Apple Watch 應用程式
               href: mobile-apple-watch.md
         - name: Android 裝置
@@ -106,7 +108,7 @@
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
             - name: 檢視內部部署報表與 KPI
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: 在 Surface Hub 上檢視 Power BI
+            - name: Surface Hub 與 Windows 10 裝置上的簡報模式
               href: mobile-windows-10-app-presentation-mode.md
             - name: 在 Windows 應用程式中進行單一登入
               href: mobile-windows-10-app-single-sign-on-sso.md

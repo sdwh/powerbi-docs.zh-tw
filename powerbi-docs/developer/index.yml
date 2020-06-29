@@ -13,18 +13,18 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 57dbd3c64265ba532167db806d714054767bc506
+  ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80487808"
+  ms.lasthandoff: 06/16/2020
+  ms.locfileid: "84795039"
 highlightedContent:
   items:
-  - title: 使用 Power BI 的內嵌式分析
+  - title: 搭配 Power BI 使用內嵌式分析
     itemType: overview
     url: embedded/embedding.md
-  - title: Azure 中的 Power BI Embedded 是什麼？
+  - title: 什麼是 Azure Power BI Embedded？
     itemType: overview
     url: embedded/azure-pbie-what-is-power-bi-embedded.md
   - title: Power BI 的視覺效果
@@ -39,10 +39,10 @@ conceptualContent:
     links:
     - url: embedded/embedding.md
       itemType: overview
-      text: 使用 Power BI 的內嵌式分析
+      text: 搭配 Power BI 使用內嵌式分析
     - url: embedded/azure-pbie-what-is-power-bi-embedded.md
       itemType: overview
-      text: Azure 中的 Power BI Embedded 是什麼？
+      text: 什麼是 Azure Power BI Embedded？
     - url: embedded/embedded-capacity.md
       itemType: concept
       text: 容量與 SKU
@@ -95,7 +95,7 @@ additionalContent:
       url: https://powerbi.microsoft.com/developers/
     - title: Power BI 視覺效果範例
       summary: Power BI 範例與其程式碼程式庫的集合。
-      url: https://microsoft.github.io/PowerBI-visuals/samples/
+      url: visuals/samples.md
     - title: Power BI 程式庫
       summary: Power BI 程式庫 (NuGets)。
       url: https://www.nuget.org/profiles/powerbi

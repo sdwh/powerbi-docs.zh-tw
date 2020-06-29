@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 02/11/2020
-  ms.openlocfilehash: 96881ecb03132579643517679aaab3c87b7a977f
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 2d15b3e6bf3ab2c097353ecf7647c244db8cdcdc
+  ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "78923900"
+  ms.lasthandoff: 06/11/2020
+  ms.locfileid: "84681874"
 landingContent:
 - title: 關於 Power BI 行動裝置應用程式
   linkLists:
@@ -43,7 +43,7 @@ landingContent:
     links:
     - text: 探索儀表板與報表
       url: mobile-apps-quickstart-view-dashboard-report.md
-- title: 瀏覽
+- title: 探索
   linkLists:
   - linkListType: tutorial
     links:
@@ -55,8 +55,8 @@ landingContent:
       url: mobile-apps-offline-data.md
     - text: 共用儀表板或報表
       url: mobile-share-dashboard-from-the-mobile-apps.md
-    - text: 設定資料警示
-      url: mobile-set-data-alerts-in-the-mobile-apps.md
+    - text: 為行動裝置應用程式最佳化報表
+      url: ../../create-reports/desktop-create-phone-report.md
 - title: 內部部署報表
   linkLists:
   - linkListType: how-to-guide

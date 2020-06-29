@@ -18,6 +18,8 @@
           href: embed-sample-for-your-organization.md
         - name: 內嵌客戶的編頁報表
           href: embed-paginated-reports-customers.md
+        - name: 為組織內嵌分頁報表
+          href: embed-paginated-reports-organization.md
         - name: 為國家/地區雲端內嵌內容
           href: embed-sample-for-customers-national-clouds.md
     - name: 概念
