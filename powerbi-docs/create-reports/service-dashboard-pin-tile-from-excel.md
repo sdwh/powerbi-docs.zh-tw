@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 283b43ef60d88df64b66812956e79bdcce1f16e9
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e2e47a09437bacfc905258bd6e23e82ff5554225
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565779"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219290"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>從 Excel 將磚釘選到 Power BI 儀表板
 您要先連接活頁簿和 Power BI 服務 (app.powerbi.com)，才可以從 Excel 活頁簿釘選磚。 連接活頁簿其實就是將該活頁簿的連結唯讀版本帶入 Power BI 服務，且讓您將範圍釘選到儀表板。 您甚至可以將整份工作表釘選到儀表板。  
@@ -34,7 +34,7 @@ ms.locfileid: "83565779"
 
 1. 將活頁簿上傳至您的商務用 OneDrive。
 
-2. 從 Power BI 選取 [取得資料] > [檔案] > [OneDrive - 商務]  ，然後瀏覽至您儲存 Excel 檔案的位置，以[連接到該活頁簿](../connect-data/service-excel-workbook-files.md)。 選取檔案並選擇 [連接] > [連接]  。
+2. 從 Power BI 選取 [取得資料] > [檔案] > [OneDrive - 商務]，然後瀏覽至您儲存 Excel 檔案的位置，以[連接到該活頁簿](../connect-data/service-excel-workbook-files.md)。 選取檔案並選擇 [連接] > [連接]  。
 
     ![[商務用 OneDrive] 對話方塊](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 

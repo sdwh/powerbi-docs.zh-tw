@@ -6,15 +6,15 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 4b75e0058c1624040ab037d5f64ac0275788576d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 18fae9e7bca385ee10fed90649430a8062054b2e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349555"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219566"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>從報表建立 Power BI 儀表板
 您已閱讀 [Power BI 的儀表板簡介](service-dashboards.md)，現在想要建立自己的儀表板。 建立儀表板的方式有很多種。 例如，您可以建立儀表板：從報表、從頭建立、從資料集、或複製現有的儀表板。  

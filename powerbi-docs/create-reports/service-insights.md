@@ -7,16 +7,16 @@ featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4178d9cc5ce6f8e671c0d996bb64ee9a1389acdb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5523c08b81a129bab70f1c087e8895dedf83621f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83306592"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85221084"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>使用 Power BI 自動產生資料見解
 您有新資料集，但不太確定要從何處著手？  需要快速建置儀表板嗎？  想要尋找您可能錯失的深入解析嗎？

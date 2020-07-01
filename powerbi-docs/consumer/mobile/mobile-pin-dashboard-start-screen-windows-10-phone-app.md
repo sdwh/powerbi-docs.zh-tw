@@ -4,15 +4,15 @@ description: 了解如何從 Power BI 行動裝置應用程式，將 Power BI �
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/25/2020
 ms.author: painbar
-ms.openlocfilehash: 2377505586aea70b8bedd62f22e7716ce870749e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f72117dfab77893dd48be7e939c07a1a8c2bea90
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82255734"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219842"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>從 Power BI 行動裝置應用程式將 Power BI 儀表板釘選到 Windows 10 的開始畫面
 您可以從適用於 Windows 10 的 Power BI 行動裝置應用程式，將 Power BI 儀表板釘選到 Windows 的 [開始] 畫面。 當您在 [開始] 畫面點選磚時，儀表板便會在適用於 Windows 10 的 Power BI 行動裝置應用程式中開啟。
