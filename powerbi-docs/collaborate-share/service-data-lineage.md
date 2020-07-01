@@ -4,16 +4,17 @@ description: 在新式商業智慧 (BI) 專案中，了解從資料來源到其�
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
-ms.date: 02/27/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 101217023576783a32491b21ba254d54736b27db
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 697aa38a08acb561cca9b0ccba5656281157237e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348198"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226426"
 ---
 # <a name="data-lineage"></a>資料譜系
 在新式商業智慧 (BI) 專案中，了解從資料來源到其目的地的資料流程，可能是一項挑戰。 如果您已建置跨多個資料來源、成品和相依性的進階分析專案，挑戰就會更加艱鉅。 「如果我變更此資料會發生什麼事？」 或「為什麼這份報表不是最新的？」 之類的問題，可能會變得難以回答。 您可能會需要一組專家或是進行深入調查，才能回答這些問題。 我們設計了資料譜系檢視來協助您回答這些問題。

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 020416836fadf29b55ea2e1b1044d68f097fa93e
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: d4bfb6de39f0a8dee678e8224cca1cb03646abca
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120880"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226983"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中進行分析
 透過 [使用 Excel 分析]，即可將 Power BI 資料集帶入 Excel 中，然後使用樞紐分析表、圖表、交叉分析篩選器和其他 Excel 功能加以查看並進行互動。 若要使用 [使用 Excel 分析]，則必須先從 Power BI 下載此功能、加以安裝，然後選取要在 Excel 中使用的一或多個資料集。 

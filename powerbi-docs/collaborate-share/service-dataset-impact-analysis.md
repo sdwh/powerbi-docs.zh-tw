@@ -4,16 +4,17 @@ description: 視覺化並分析對資料集進行變更的下游影響。
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
-ms.date: 04/13/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: dd7387bcb008d10ec8887ac777431b5423d43f4c
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 01d67262ed06d230b389d2122f8a5e12fb6343d1
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120334"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226303"
 ---
 # <a name="dataset-impact-analysis"></a>資料集影響分析
 

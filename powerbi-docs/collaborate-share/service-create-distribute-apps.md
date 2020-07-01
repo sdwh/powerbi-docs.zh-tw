@@ -4,16 +4,16 @@ description: 了解如何發佈新的應用程式，亦即儀表板與內建瀏�
 author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a26a93851d3914527bbb61275d763f95f21d7603
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: d12e64b98e2282e4446565ebd17a6222ba6276d2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84336812"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226669"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
