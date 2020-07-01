@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b98e99191363c6a33aa4ee99adff2ab72f48641
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 55b08d608e30b8a1f4b06319f1de835a12f7ca77
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344817"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234815"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>將超連結 (URL) 新增至資料表或矩陣
 本主題會指導如何將超連結 (URL) 新增至資料表。 您會使用 Power BI Desktop 來將超連結 (URL) 新增至資料集。 然後，在 Power BI Desktop 或 Power BI 服務中，您可以將那些超連結新增至您的報表資料表和矩陣。 接著，您可以顯示 URL 或連結圖示，或將另一個資料行格式化為連結文字。
@@ -92,7 +92,7 @@ ms.locfileid: "83344817"
     ![條件式格式設定 Web URL](media/power-bi-hyperlinks-in-tables/power-bi-format-conditional-web-url.png)
 
     > [!NOTE]
-    > 如果找不到 [Web URL]  選項，請確定在 [資料類別]  下拉式方塊中，包含超連結的資料行「未」  格式化為 [Web URL]  。
+    > 如果找不到 [Web URL] 選項，請確定在 [資料類別] 下拉式方塊中，包含超連結的資料行「未」格式化為 [Web URL]。
 
 5. 在 [Web URL]  對話方塊中，選取在 [根據欄位]  方塊中包含 URL 的欄位 > [確定]  。
 

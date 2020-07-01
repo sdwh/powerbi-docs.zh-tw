@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f4e70bdcd877c29063a73cc24111d4dc04aa39b9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 94d55f92a6be47d6a53cbdaad4d9ff657d572957
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83280970"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235872"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>在 Power BI 中建立可以調整大小的回應式交叉分析篩選器
 
@@ -28,7 +28,7 @@ ms.locfileid: "83280970"
 
 若要建立動態交叉分析篩選器，第一個步驟是先建立基本的交叉分析篩選器。 
 
-1. 在 [視覺效果]  窗格中，選取![交叉分析篩選器](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png)圖示 **交叉分析篩選器圖示**。
+1. 在 [視覺效果] 窗格中，選取**交叉分析篩選器**圖示 ![交叉分析篩選器圖示](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png)。
 2. 將您想要篩選的欄位拖曳至 [欄位]  。
 
     ![將欄位新增至交叉分析篩選器](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
@@ -48,7 +48,7 @@ ms.locfileid: "83280970"
 
 這個步驟很容易。 
 
-1. 在 [格式]  索引標籤上，[一般]  區段正下方的 [方向]  中，將 [Responsive] (回應式)  滑動至 [開啟]  。  
+1. 在 [格式] 索引標籤上，[一般] 區段正下方的 [方向] 中，將 [Responsive] (回應式) 滑動至 [開啟]。  
 
     ![交叉分析篩選器現在已是回應式](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-4-responsive-on.png)
 

@@ -6,15 +6,15 @@ ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 698765cd71873de3badfce45ef546ed61220b323
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 0fd6e2d9a05c07ae5ed74a4f3f35af5267a68a87
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565315"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236199"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>針對閘道進行疑難排解 - Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "83565315"
 
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>錯誤：無法連線。 詳細資料:[連接認證無效]
 
-在 [顯示詳細資料]  中，會顯示從資料來源收到的錯誤訊息。 若是 SQL Server，您會看到類似如下的訊息：
+在 [顯示詳細資料] 中，會顯示從資料來源收到的錯誤訊息。 若是 SQL Server，您會看到類似如下的訊息：
 
     Login failed for user 'username'.
 
@@ -42,7 +42,7 @@ ms.locfileid: "83565315"
 
 您可以連線到伺服器，但無法連線到提供的資料庫。 請確認資料庫的名稱，以及使用者認證具有存取該資料庫的適當權限。
 
-在 [顯示詳細資料]  中，會顯示從資料來源收到的錯誤訊息。 若是 SQL Server，您會看到類似如下的訊息：
+在 [顯示詳細資料] 中，會顯示從資料來源收到的錯誤訊息。 若是 SQL Server，您會看到類似如下的訊息：
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
@@ -50,15 +50,15 @@ ms.locfileid: "83565315"
 
 這個錯誤可能有數個不同的發生原因。 請務必驗證您可以從裝載閘道的電腦連線到資料來源。 這種情況可能是由於無法存取伺服器所致。
 
-在 [顯示詳細資料]  中，您可能會看到錯誤碼 **DM_GWPipeline_UnknownError**。
+在 [顯示詳細資料] 中，您可能會看到錯誤碼 **DM_GWPipeline_UnknownError**。
 
-您也可以查看 [事件記錄檔]   > [應用程式及服務記錄檔]   > [內部部署資料閘道服務]  ，以取得詳細資訊。
+您也可以查看 [事件記錄檔] > [應用程式及服務記錄檔] > [內部部署資料閘道服務]，以取得詳細資訊。
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>錯誤：嘗試連線至 \<伺服器\> 時發生錯誤。 詳細資料:[已連線到資料閘道，但該閘道無法存取內部部署資料來源。]
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>錯誤：[嘗試連接到 \<server\> 時發生錯誤]。 詳細資料:[已連線到資料閘道，但該閘道無法存取內部部署資料來源。]
 
 您無法連線到指定的資料來源。 請務必驗證為該資料來源提供的資訊。
 
-在 [顯示詳細資料]  中，您可能會看到錯誤碼 **DM_GWPipeline_Gateway_DataSourceAccessError**。
+在 [顯示詳細資料] 中，您可能會看到錯誤碼 **DM_GWPipeline_Gateway_DataSourceAccessError**。
 
 如果出現類似下列的基礎錯誤訊息，則表示為此資料來源所使用的帳戶不是該 Analysis Services 執行個體的伺服器管理員。 如需詳細資訊，請參閱 [Grant server admin rights to an Analysis Services instance](https://docs.microsoft.com/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance) (將伺服器管理員許可權授與 Analysis Services 執行個體)。
 
@@ -93,11 +93,11 @@ ms.locfileid: "83565315"
 
 #### <a name="unable-to-see-the-data-gateway-data-sources-in-the-get-data-experience-for-analysis-services-from-the-power-bi-service"></a>無法從 Power BI 服務查看 Analysis Services「取得資料」體驗中的資料閘道資料來源
 
-請確定閘道設定內資料來源的 [使用者]  索引標籤中已列出您的帳戶。 若您沒有閘道存取權，請洽詢閘道管理員並請求驗證。 只有**使用者**清單中的帳戶才能查看 Analysis Services 清單所列出的資料來源。
+請確定閘道設定內資料來源的 [使用者] 索引標籤中已列出您的帳戶。 若您沒有閘道存取權，請洽詢閘道管理員並請求驗證。 只有**使用者**清單中的帳戶才能查看 Analysis Services 清單所列出的資料來源。
 
 ### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>錯誤：您尚未為此資料集中的資料資源安裝或設定任何閘道。
 
-請確認您已將一或多個資料來源新增至閘道，如[新增資料來源](service-gateway-data-sources.md#add-a-data-source)中所述。 若閘道未在管理入口網站中的 [管理閘道]  下出現，請清除您的瀏覽器快取或登出服務，然後重新登入。
+請確認您已將一或多個資料來源新增至閘道，如[新增資料來源](service-gateway-data-sources.md#add-a-data-source)中所述。 若閘道未在管理入口網站中的 [管理閘道] 下出現，請清除您的瀏覽器快取或登出服務，然後重新登入。
 
 ## <a name="datasets"></a>資料集
 
@@ -114,7 +114,7 @@ ms.locfileid: "83565315"
 有幾個不同的案例可能造成此錯誤：
 
 - 在 Power BI Desktop 中輸入的伺服器和資料庫名稱，不符合針對閘道設定的資料來源。 這些名稱必須相同。 它們不區分大小寫。
-- 帳戶未列於閘道設定內資料來源的 [使用者]  索引標籤中。 您必須由閘道的系統管理員新增至該清單。
+- 帳戶未列於閘道設定內資料來源的 [使用者] 索引標籤中。 您必須由閘道的系統管理員新增至該清單。
 - 您的 Power BI Desktop 檔案中有多個資料來源，但並非所有資料來源都是使用閘道設定。 您必須使用閘道來定義每個資料來源，才能在排程的重新整理期間顯示閘道。
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>錯誤：閘道用戶端上所收到未經壓縮的資料超過限制。
@@ -144,7 +144,7 @@ ms.locfileid: "83565315"
 您可以選擇性地查看 Power BI 從 Azure Active Directory 取得哪些項目。
 
 1. 瀏覽至 [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer)。
-2. 在右上角選取 [登入]  。
+2. 在右上角選取 [登入]。
 3. 執行下列查詢。 您會看到相當大的 JSON 回應。
 
         https://graph.windows.net/me?api-version=1.5
@@ -224,13 +224,13 @@ ImpersonationLevel 與 SPN 設定或本機原則設定有關。
 
 ## <a name="refresh-history"></a>重新整理歷程記錄
 
-當您使用閘道進行排程的重新整理時，[重新整理記錄]  可以協助您查看發生了哪些錯誤。 如果您需要建立支援要求，它也可以提供有用的資料。 您可以檢視已排程及隨選的重新整理。 下列步驟顯示取得重新整理記錄的方式。
+當您使用閘道進行排程的重新整理時，[重新整理記錄] 可以協助您查看發生了哪些錯誤。 如果您需要建立支援要求，它也可以提供有用的資料。 您可以檢視已排程及隨選的重新整理。 下列步驟顯示取得重新整理記錄的方式。
 
-1. 在 Power BI 導覽窗格的 [資料集]  中，選取資料集。 開啟功能表，然後選取 [排程重新整理]  。
+1. 在 Power BI 導覽窗格的 [資料集] 中，選取資料集。 開啟功能表，然後選取 [排程重新整理]。
 
     ![如何選取排程重新整理](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 
-2. 在 [設定...]  中&gt; [排程重新整理]  ，選取 [重新整理記錄]  。
+2. 在 [設定...]  中&gt; [排程重新整理]，選取 [重新整理記錄]。
 
     ![選取重新整理記錄](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
 
