@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e91698413df11a2f593128a616948935b65c0c4e
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 2988f02b8207eafe5155073af9acc60dcb0a81cf
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272900"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225321"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>篩選並共用 Power BI 報表
 「共用」是讓一些人存取您儀表板和報表的一種好方法。 如果要共用報表的篩選版本呢？ 您可能想讓報表僅顯示特定城市、銷售人員或年份的資料。 此文章說明如何篩選報表，以及共用已篩選版本的報表。 另一個共用已篩選報表的方式，是[將查詢參數新增到報表 URL](service-url-filters.md)。 在這兩種情況下，當收件者第一次開啟報表時，系統便會篩選該報表。 他們可以清除報表中的篩選選項。

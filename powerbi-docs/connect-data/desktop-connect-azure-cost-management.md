@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5529b0ff31d3301161ab7a8ed4ff4bc002af6fe
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 53606f52752bcc6f7c790b5e2cccaf26f0d10006
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347853"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85224715"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 Azure 成本管理連接器建立視覺效果和報表
 

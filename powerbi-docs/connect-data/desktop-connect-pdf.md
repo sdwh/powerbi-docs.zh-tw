@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8897ee6979a3d6402999fe88520d5102914a96ed
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e68d860800f2265923189e470bc633589e612c11
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347692"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85224155"
 ---
 # <a name="connect-to-pdf-files-in-power-bi-desktop"></a>連線至 Power BI Desktop 中的 PDF 檔案
 在 Power BI Desktop 中，您可以連線至 **PDF 檔案**並使用此檔案內附的資料，如同使用 Power BI Desktop 中的任何其他資料來源。

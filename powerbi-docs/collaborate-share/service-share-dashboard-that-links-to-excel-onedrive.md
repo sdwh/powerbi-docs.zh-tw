@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fcf15d7179c86b2c6859fe3c5704ac2cf1b9ce5
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 997a96346a82d9f8c0edf0f19f45e5dc0a030d15
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733063"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225217"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>在 OneDrive 中共用連結到 Excel 檔案的 Power BI 儀表板
 在 Power BI 中，您可以[連接到商務用 OneDrive 的 Excel 活頁簿](../connect-data/service-excel-workbook-files.md)，並從該活頁簿將磚釘選至儀表板。 當您共用儀表板，或建立包含該儀表板的內容組件時：

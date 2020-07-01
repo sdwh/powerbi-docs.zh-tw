@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f628b4d2163a52582e2089671c5394be2ddcc740
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3857478e972caef0a53c1de82f6dcc96650a7386
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273722"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225692"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>管理、更新和刪除組織內容套件
 > [!NOTE]
@@ -78,7 +78,7 @@ ms.locfileid: "83273722"
 > 
 
 1. 若要從 AppSource 中刪除內容套件，請前往您建立該內容套件的工作區，選取齒輪圖示 ![](media/service-organizational-content-pack-manage-update-delete/cog.png) 並選擇 [檢視內容套件]  。
-2. 選取 [刪除] \> [刪除]  。 
+2. 選取 [刪除] \> [刪除]。 
    
    * 如果群組成員尚未自訂內容套件，將會自動移除與該內容套件相關聯的儀表板和報表。 再也無法取得這些儀表板和報表，該內容套件不會出現於導覽窗格格中。
    * 已自訂了內容套件的群組成員，下次開啟自訂儀表板時，所有來自原始內容套件的磚都會消失。  不過仍然會轉譯從其他報表釘選的圖格。 再也無法取得原始內容套件報表和資料集，該內容套件不會出現於導覽窗格中。   

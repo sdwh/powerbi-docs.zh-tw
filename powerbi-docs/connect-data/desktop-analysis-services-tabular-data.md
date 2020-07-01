@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ac15a732f3d388fd5dafa61d33eec1d82022da54
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6f9661b6cda8782e83e64e30f55ae4b0d8bf6fa2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301302"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85224864"
 ---
 # <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Analysis Services 表格式資料
 使用 Power BI Desktop 時，有兩種方式可以連線到 SQL Server Analysis Services 表格式模型並從中取得資料：使用即時連線瀏覽，或選取項目並將其匯入至 Power BI Desktop。
