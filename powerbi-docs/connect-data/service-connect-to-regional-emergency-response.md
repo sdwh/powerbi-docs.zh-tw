@@ -4,16 +4,16 @@ description: 如何取得及安裝區域緊急狀況回應範本應用程式的�
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279219"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229682"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>連線到區域緊急狀況回應儀表板
 區域緊急狀況回應儀表板是 [Microsoft Power Platform 區域緊急狀況回應解決方案](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview)的報告元件。 區域組織系統管理員可在其 Power BI 租用戶中檢視儀表板，以快速檢視有利於做出有效率決策的重要資料和計量。

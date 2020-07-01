@@ -4,16 +4,16 @@ description: 如何取得及安裝 Power BI Premium 容量計量範本應用程�
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fe54cedf7f8432d4a5e621256b9b77029f6b38a5
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 612c54a201c947309394c442ba8b8ec1ed567879
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83692896"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229946"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>連線到 Power BI Premium 容量計量
 監視您的容量對於明智地決定如何最有效地利用 Premium 容量資源至關重要。 Power BI Premium 容量計量應用程式提供您容量執行方式的最深入資訊。

@@ -4,16 +4,16 @@ description: 如何取得並安裝醫療保健緊急狀況範本應用程式的 
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 40a585c78de4a95981ff157413e857b48fd35c14
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: e10f2144e987f8fdc7ea9dbfd18d4581889ae8bf
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407572"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230134"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>連線至醫院緊急回應決策支援儀表板
 醫院緊急回應決策支援儀表板範本應用程式，是 [Microsoft Power Platform 醫療保健緊急回應解決方案](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/)的報表元件。 儀表板會向緊急狀況管理員顯示其醫療系統的彙總資料，以協助其做出及時且正確的決策。

@@ -4,16 +4,16 @@ description: 適用於 Power BI 的 Microsoft Sustainability Calculator
 author: joshthor3222
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/06/2020
 ms.author: v-tikid
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8ab3dbb500faf072b87ba398b16b820c164cdefa
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cffb7ecc195f5ce803ec2dfc81c794bac75c9448
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83337596"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230028"
 ---
 # <a name="connect-the-microsoft-sustainability-calculator"></a>連線 Microsoft Sustainability Calculator
 取得 IT 基礎結構的碳排放量見解，以作出更永續性的運算決策

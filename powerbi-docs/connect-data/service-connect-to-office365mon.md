@@ -5,16 +5,16 @@ author: paulinbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0ea51e76e9637c78b4f8e18f8a38b35e29f00eee
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 471522e0f66fe4bf03a8c1616d1a24221149f2e0
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83337435"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229902"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>使用 Power BI 連接到 Office365Mon
 使用 Power BI 與 Office365Mon 範本應用程式，輕鬆分析您 Office 365 的中斷問題與健康狀態效能資料。 Power BI 會擷取您的資料 (包括中斷與健康狀況探查)，然後根據該資料建置現成的儀表板與報表。
