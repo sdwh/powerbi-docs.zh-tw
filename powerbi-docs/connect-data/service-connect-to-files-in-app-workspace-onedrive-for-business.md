@@ -4,16 +4,16 @@ description: 了解如何儲存和連線到 Power BI 工作區 OneDrive 上的 E
 author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62d0282af47b0d57a0b9ac307b422191b440b45c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: fdbb571a30f530ddeba37a7eaf490718b6c8116d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564079"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230357"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>連線到儲存在 Power BI 工作區 OneDrive 中的檔案
 [在 Power BI 中建立工作區](../collaborate-share/service-create-distribute-apps.md)後，即可將 Excel、CSV 及 Power BI Desktop 檔案儲存至 Power BI 工作區的商務用 OneDrive。 您可以繼續更新儲存在 OneDrive 中的檔案。 這些更新會自動反映到以這些檔案為基礎的 Power BI 報表和儀表板中。 

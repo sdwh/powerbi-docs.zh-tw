@@ -4,16 +4,16 @@ description: 適用於 GitHub 的 Power BI
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2d5a2f319753323dd391cf6f5dceb970de1720b5
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 56e0c3c6dde3a745448092ad118275ed847506fa
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693399"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230221"
 ---
 # <a name="connect-to-github-with-power-bi"></a>使用 Power BI 連接到 GitHub
 本文將逐步引導您使用 Power BI 範本應用程式從 GitHub 帳戶提取資料。 範本應用程式會產生由儀表板、一組報表與資料集組成的工作區，可讓您探索 GitHub 資料。 適用於 Power BI 的 GitHub 應用程式會顯示 GitHub 存放庫 (也稱為 repo) 中的見解，以及參與、問題、提取要求和作用中使用者的相關資料。

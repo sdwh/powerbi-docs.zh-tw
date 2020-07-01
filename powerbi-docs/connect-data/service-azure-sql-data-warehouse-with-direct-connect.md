@@ -3,19 +3,19 @@ title: 具有 DirectQuery 的 Azure SQL 資料倉儲
 description: 具有 DirectQuery 的 Azure SQL 資料倉儲
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/03/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: cde97805519a800fc98668cb523db92f0276b06d
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: ae7d19858feaf30c8263c0fc24c180781783d851
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84336893"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230665"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>具有 DirectQuery 的 Azure SQL 資料倉儲
 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2aa75d1cbe04f33197bf8941fd101c66384142dd
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: d4d01c7c8b57dda6667ffcd744a7d914ff936b09
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565802"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231050"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>為行動電話最佳化儀表板 - Power BI 
 當您在手機上以直向模式檢視儀表板時，會注意到儀表板磚的版面配置是並排排列而成，而且大小完全相同。 在 Power BI 服務中，您可以為儀表板建立專供手機直向模式使用的自訂檢視。 即使您建立了手機檢視，當您旋轉手機時，您還是會看到儀表板在服務中的版面配置方式。

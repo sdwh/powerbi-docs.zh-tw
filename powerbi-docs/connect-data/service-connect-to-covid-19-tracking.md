@@ -4,16 +4,16 @@ description: 如何取得並安裝 COVID-19 美國案例範本應用程式，以
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 97e0a4f6e522997e6f132d1c3dbc493188ba66ba
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5487d9f0eb5d8b172cc3e29ea24e88704267cd85
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275470"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230236"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>連線至 COVID-19 美國追蹤報表
 本文示範如何安裝 COVID-19 追蹤報表的範本應用程式，以及如何連線至資料來源。
