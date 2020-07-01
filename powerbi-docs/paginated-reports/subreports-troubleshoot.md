@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 04/29/2020
-ms.openlocfilehash: 6de85f6dda69e902a98d6ee63d1fc4b86fb4180b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 49a4143fe3dbf55b31b4d30473fe6af3c047dda4
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82615626"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485913"
 ---
 # <a name="troubleshoot-subreports-in-power-bi-paginated-reports"></a>針對 Power BI 分頁報表中的子報表進行疑難排解
 

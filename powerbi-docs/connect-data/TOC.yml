@@ -94,6 +94,8 @@
                   href: desktop-python-ide.md
                 - name: 使用 Python 建立視覺效果
                   href: desktop-python-visuals.md
+                - name: 了解支援哪些 Python 套件
+                  href: service-python-packages-support.md
             - name: 執行 R 指令碼
               href: desktop-r-scripts.md
             - name: 在查詢編輯器中使用 R

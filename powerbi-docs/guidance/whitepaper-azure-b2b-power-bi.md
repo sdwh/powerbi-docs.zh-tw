@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2783f434e2bb1d6d45ed1a9442c60da7b09e7ae4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565429"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782787"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>使用 Azure Active Directory B2B 將 Power BI 內容散發給外部來賓使用者
 
@@ -71,7 +71,7 @@ Contoso 會與轉包商合作，以執行 radiators 的可靠性分析。 轉包
 
 
 
-1. IT 系統管理員以手動方式或透過提供的 API 來邀請來賓使用者的程式星星 Azure Active Directory
+1. 此程式是由 IT 系統管理員以手動方式或透過提供的 API 來邀請來賓使用者 Azure Active Directory
 2. 使用者接受組織的邀請。
 3. 使用者接受邀請之後，Power BI 中的使用者就可以與外部使用者或他們所在的安全性群組共用報表或儀表板。 就像在中 Power BI 一般共用一樣，外部使用者會收到包含專案連結的電子郵件。
 4. 當外部使用者存取連結時，其目錄中的驗證會傳遞至 Contoso 的 Azure AD，並用來取得 Power BI 內容的存取權。

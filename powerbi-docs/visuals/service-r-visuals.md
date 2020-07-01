@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/14/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 722516004a454f970b7a88e2bf4c48d1d0176b6b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 91ca05a144166abbc903d42ba30a5c70b839987d
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237363"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782819"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>在 Power BI 中建立和使用 R 視覺效果
 
@@ -104,15 +104,19 @@ Power BI 服務的 R 視覺效果有某些限制︰
   
   * 在 R 指令碼的開頭新增下行：
     
-        powerbi_rEnableShowText =  1
+```powerbi_rEnableShowText =  1```
+
 * 中文、日文與韓文字型必須執行下列所有額外步驟，才能在 Power BI 服務中正常運作︰
   
   * 首先，請安裝 R 套件 *showtext* 和其所有其相依性。 做法是執行下列指令碼︰
     
-        *install.packages("showtext")*
+```install.packages("showtext")```
+
   * 接下來，在 R 指令碼的開頭新增下行︰
     
-        powerbi_rEnableShowTextForCJKLanguages =  1
+```R script
+powerbi_rEnableShowTextForCJKLanguages =  1
+```
 
 ## <a name="overview-of-r-packages"></a>R 套件概觀
 R 套件是以定義完善的格式所合併的 R 函式、資料和已編譯程式碼集合。 R 在安裝時隨附一組標準套件，並且有其他套件可供下載和安裝。 安裝之後，必須將 R 套件載入要使用的工作階段。 可用 R 套件的主要來源是 CRAN，即 [Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html)。
