@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8326d68408b083a606730355538d2aae7fe2ad4c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 37687ab23d44821a51779d4e03663bd79189865f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322738"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239983"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>連結 Power BI 中資料流程之間的實體
 
@@ -44,7 +44,7 @@ ms.locfileid: "83322738"
 
 ![Power BI 中的連結實體](media/service-dataflows-linked-entities/linked-entities_00.png)
 
-您也可以從 Power BI 服務中的 [新增實體]  功能表項目選取 [新增已連結實體]  。
+您也可以從 Power BI 服務中的 [新增實體] 功能表項目選取 [新增已連結實體]。
 
 ![Power BI 中的連結實體](media/service-dataflows-linked-entities/linked-entities_01.png)
 

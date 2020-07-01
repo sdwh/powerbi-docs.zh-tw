@@ -3,18 +3,18 @@ title: 針對編頁報表在 URL 中傳遞報表參數 - Power BI 報表產生�
 description: 本主題描述如何藉由將報表參數包含在報表 URL 中，來將其傳遞至報表。
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 05/01/2020
-ms.openlocfilehash: e6e4187f89bb0ae6e6772f29b19782ee7fbfad25
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c26f9c8f219517e3039b62cdbc89af24ba1af288
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82692876"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239557"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>針對 Power BI 中的編頁報表在 URL 中傳遞報表參數 
 

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6c86467d821a93853a82920c5b85eab60578c42e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b4d1b969e82ef4f6a911f7adc79bf0d9308e7560
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83311675"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240118"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>連線到 Power BI 資料流程的資料來源
 
@@ -112,7 +112,7 @@ ms.locfileid: "83311675"
 
 ## <a name="connecting-to-a-data-source"></a>連線到資料來源
 
-若要連線到資料來源，請選取資料來源。 我們將使用一個範例來示範此程序的運作方式，但資料流程的每個資料連線程序類似。 不同的連接器可能需要特定的認證或其他資訊，但流程類似。 在本例中，您會在下列影像看到已從 [線上服務]  資料連線類別選取 [Common Data Service for Apps]  。
+若要連線到資料來源，請選取資料來源。 我們將使用一個範例來示範此程序的運作方式，但資料流程的每個資料連線程序類似。 不同的連接器可能需要特定的認證或其他資訊，但流程類似。 在本例中，您會在下列影像看到已從 [線上服務] 資料連線類別選取 [Common Data Service for Apps]。
 
 ![選取 Common Data Service for Apps](media/service-dataflows-data-sources/dataflows-data-sources_05.png)
 
@@ -126,7 +126,7 @@ ms.locfileid: "83311675"
 
 ![[導覽] 視窗顯示資料來源中的資料表](media/service-dataflows-data-sources/dataflows-data-sources_07.png)
 
-您可以在左窗格中每個要載入的資料表和資料旁選取其核取方塊。 若要載入資料，請從 [導覽]  窗格底端選取 [確定]  。 Power Query Online 對話方塊隨即出現，您可以在此編輯查詢，並執行想要對所選取資料執行的任何其他轉換。
+您可以在左窗格中每個要載入的資料表和資料旁選取其核取方塊。 若要載入資料，請從 [導覽] 窗格底端選取 [確定]。 Power Query Online 對話方塊隨即出現，您可以在此編輯查詢，並執行想要對所選取資料執行的任何其他轉換。
 
 ![在 Power Query 編輯器編輯查詢並轉換](media/service-dataflows-data-sources/dataflows-data-sources_08.png)
 

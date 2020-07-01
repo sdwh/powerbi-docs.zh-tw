@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 06/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b0e52ebf4f529c7da75e79becf30c74d6e2c0248
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 64fa13f3e95f43813c657eb9be195fb03e57a06b
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496324"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354907"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Power BI 服務取用者的儀表板
 
@@ -32,7 +32,6 @@ Power BI 「儀表板」是使用視覺效果說故事的單一頁面，通常�
 > 儀表板可以[在行動裝置上檢視及共用](mobile/mobile-apps-view-dashboard.md)。
 >
 > 檢視已與您共用的儀表板需要 Power BI Pro。
-> 
 
 儀表板上的視覺效果來自報表，而每份報表都是以一個資料集為基礎。 事實上，您可以將儀表板想成是進入基礎報表和資料集的方法。 選取視覺效果會帶您前往建立效果的報表 (和資料集)。
 

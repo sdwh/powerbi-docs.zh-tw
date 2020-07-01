@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7c34403f4e729696034a94999280b799ebbf0b90
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e43edb3241140024241ab78af1236d9551a35f1a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83341253"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239772"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>設定工作區資料流程設定 (預覽)
 
@@ -46,7 +46,7 @@ ms.locfileid: "83341253"
 
 ![命名您的新工作區](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
 
-接下來，請展開 [建立工作區]  對話方塊的 [進階]  區域，您可在那裡開啟 [資料流程儲存體 (預覽)]  設定。)
+接下來，請展開 [建立工作區] 對話方塊的 [進階] 區域，您可在那裡開啟 [資料流程儲存體 (預覽)] 設定。)
 
 ![適用於新工作區的 [進階] 設定](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
@@ -71,7 +71,7 @@ ms.locfileid: "83341253"
 
 當您在指派至您組織 Azure Data Lake 帳戶的工作區中建立資料流程之後，您便可以直接存取其定義和資料檔案。 它們的位置可在 [資料流程設定]  頁面中取得。 若要前往那裡，請遵循下列步驟：
 
-選取在工作區中列於 [資料流程]  底下之資料流程旁邊的省略符號 **(...)** 。 在顯示的功能表中，選取 [設定]  。
+選取在工作區中列於 [資料流程] 底下之資料流程旁邊的省略符號 **(...)** 。 在顯示的功能表中，選取 [設定]  。
 
 ![取得資料流程檔案的 URI](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_07.jpg)
 

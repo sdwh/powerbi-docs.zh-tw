@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 5df9ddd44bdc8952dab14809ce3facd74e5d3753
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 60e80311ff12da2bc79b7f844c81c7b5c8f4c3ac
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564161"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354861"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 移轉工具
 
@@ -151,7 +151,7 @@ ms.locfileid: "83564161"
 
 在 [下載] 索引標籤上，您會看到報表和相關聯中繼資料的清單。 您可以看到匯出狀態與先前匯出狀態。
 
-![](media/migrate-tool/migrate-tool-download-tab.png)
+![下載](media/migrate-tool/migrate-tool-download-tab.png)
 
 您有兩個選項。
 

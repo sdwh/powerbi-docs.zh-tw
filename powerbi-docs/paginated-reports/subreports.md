@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9ced88289b2170d503a8394d5b83175659178e85
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272802"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239579"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI 分頁報表中的子報表
 
@@ -23,7 +23,7 @@ ms.locfileid: "83272802"
   
  在此圖中，[銷售訂單] 主報表中顯示的連絡資訊實際上來自 [連絡人] 子報表。  
   
-您可在 Power BI Report Builder 中建立及修改分頁報表定義 (.rdl) 檔。 您可將儲存在 SQL Server Reporting Services 中子報表上傳至 Power BI 服務的 Premium 工作區。 主要報表和子報表必須發佈至同一工作區。 安裝 [Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513)。
+您可在 Power BI Report Builder 中建立及修改分頁報表定義 (.rdl) 檔。 您可將儲存在 SQL Server Reporting Services 中子報表上傳至 Power BI 服務的 Premium 工作區。 主要報表和子報表必須發佈至同一工作區。 安裝 [Power BI Report Builder](https://aka.ms/pbireportbuilder)。
   
 ## <a name="work-with-report-builder-and-the-power-bi-service"></a>使用 Report Builder 和 Power BI 服務
 

@@ -4,15 +4,15 @@ description: 如何將 Power BI 問與答最佳化並改善其運作方式
 author: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: b5865219d84c8fa388f297824550fd715f0c2923
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: a94f4bda1f7ebc4a612da65623f539e820c8c333
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866834"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240439"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>將 Power BI 問與答最佳化的最佳做法
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 如果您的資料能夠回答，就更厲害了，而 Power BI 的問與答就有這樣的能耐。

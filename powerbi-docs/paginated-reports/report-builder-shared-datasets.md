@@ -4,15 +4,15 @@ description: 根據 Power BI 共用資料集，在 Power BI Report Builder 中�
 ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276620"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239790"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>建立以 Power BI 共用資料集為基礎的編頁報表
 
@@ -26,7 +26,7 @@ ms.locfileid: "83276620"
 
 以下是您在 Power BI 報表產生器中使用共用資料集時，需要和不需要的項目清單。
 
-- Power BI 報表產生器。 [下載及安裝 Power BI 報表產生器](https://go.microsoft.com/fwlink/?linkid=2086513)。
+- Power BI 報表產生器。 [下載及安裝 Power BI 報表產生器](https://aka.ms/pbireportbuilder)。
 - 若要存取 Power BI 資料集，您需要有該資料集的建置權限。 請參閱[建置權限](../connect-data/service-datasets-build-permissions.md)。
 - 您不需要 Power BI Pro 授權，即可在報表產生器中建立編頁報表。 
 - 您需要有 Power BI Pro 授權，才能發佈編頁報表。 針對 Premium 容量中的工作區，您還需要至少一個「參與者」角色。 

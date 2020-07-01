@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/07/2020
-ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0c71a2e6c7c21dc7dc447de804e7f771cebb5369
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78919834"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239297"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>安裝報表產生器 - Power BI 報表伺服器
 
@@ -31,32 +31,32 @@ ms.locfileid: "78919834"
   
 您可以從 Power BI 報表伺服器入口網站安裝報表產生器。 您可能已安裝報表產生器，可建立 SSRS 伺服器的報表。 您可以使用相同版本或報表產生器來建立 Power BI 報表伺服器的報表。 如果您尚未安裝，此程序很簡單。
 
-1. 在 Power BI 報表伺服器入口網站中，選取 [新增]   >  [編頁報表]  。
+1. 在 Power BI 報表伺服器入口網站中，選取 [新增] >  [編頁報表]。
    
     ![[新增編頁報表] 功能表](media/quickstart-create-paginated-report/reportserver-new-paginated-report-menu.png)
    
     如果您尚未安裝報表產生器，則會啟動 Microsoft 報表產生器精靈。  
   
-3.  [我接受授權合約中的條款] > [下一步]  。  
+3.  [我接受授權合約中的條款] > [下一步]。  
  
-5.  選取 [安裝]  以完成報表產生器的安裝作業。  
+5.  選取 [安裝] 以完成報表產生器的安裝作業。  
 
-2. 安裝完畢後，報表產生器會開啟到 [新報表或資料集]  畫面。
+2. 安裝完畢後，報表產生器會開啟到 [新報表或資料集] 畫面。
    
     ![[新報表或資料集] 畫面](media/quickstart-create-paginated-report/reportserver-paginated-new-report-screen.png)
  
 
 ##  <a name="install-report-builder-from-the-download-center"></a><a name="download"></a> 從下載中心安裝報表產生器  
   
-1.  在 [Microsoft 下載中心的報表產生器頁面](https://go.microsoft.com/fwlink/?LinkID=734968)，選取 [下載]  。  
+1.  在 [Microsoft 下載中心的報表產生器頁面](https://go.microsoft.com/fwlink/?LinkID=734968)，選取 [下載]。  
   
-2.  在報表產生器完成下載之後，請選取 [執行]  。  
+2.  在報表產生器完成下載之後，請選取 [執行]。  
   
      Microsoft 報表產生器精靈隨即啟動。  
   
-3.  [我接受授權合約中的條款] > [下一步]  。  
+3.  [我接受授權合約中的條款] > [下一步]。  
  
-5.  選取 [安裝]  以完成報表產生器的安裝作業。  
+5.  選取 [安裝] 以完成報表產生器的安裝作業。  
  
 
 ## <a name="next-steps"></a>後續步驟
