@@ -1,17 +1,17 @@
 ---
 title: 資料分析師學習目錄
 description: 尋找 Power BI 的所有訓練選項
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 97ecff0abf13ff72d7794b06085be077efbe9027
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.author: margoc
+ms.openlocfilehash: 4664966098089d564e82207eb7aac923bc626b77
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565756"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532181"
 ---
 # <a name="data-analyst-learning-catalog"></a>資料分析師學習目錄
 
@@ -54,7 +54,12 @@ ms.locfileid: "83565756"
 | [亮眼吸睛—讓視覺效果設計更臻完美的祕訣](https://info.microsoft.com/ww-ondemand-powerbi-tips-for-better-visualization-design.html) (英文)  | 人類的視覺系統有其規則，對於需要透過特定方式才能看到的模式，只要使用其他方法就看不到。 因此，我們可以在顯示資訊時套用規則來突顯重要的資訊模式。這場研討會將逐步解說一系列套用前後的比較案例研究，並告訴您如何利用視覺認知來影響受眾對於資料視覺效果設計的注意力。 | Webinar |             |
 | [將 Power BI 資料視覺化：核心圖表類型及其使用方式](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-OnDemandRegistration.html)  | 圖表類型是視覺分析中最基本的建置基礎之一。 只要使用圖表的方式正確，就能建立正確的模式與清晰的傳達能力，為使用者提供正確的答案。  | Webinar |             |
 | [使用新的 Power BI 和 data.world 連接器將公用或私用資料集視覺化](https://info.microsoft.com/data-world-connector-powerbi-ondemand.html)  | Microsoft 已和 data.world 合作推出新的資料連接器可讓您將 data.world 資料集匯入 Power BI Desktop 中。 我們很高興來到 Data.World，協助資料迷們更快收集、管理、探索見解，並加以視覺化，與他人一起分享。  | Webinar |             |
-| [在 Power BI 儀表板中使用真實世界的視覺效果，獲得可採取動作的見解](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/8-10-18-Webinar-Get-actionable-insights-using-real-world/td-p/480242) (英文) | 加入 Charles Sterling 與 Shakun Grover，觀看他們逐步解說 Power BI 儀表板中真實世界的視覺效果。  Microsoft Visio 提供完美的畫布，可用於視覺化內容相關的資料，以及描述處理程序流程。 您可以使用 Visio 專為 Power BI 設計的新視覺效果，輕鬆將 Visio 強大生動的視覺效果功能，帶入 Power BI 儀表板中來傳達見解與行動。                              | Webinar | 34 分鐘 19 秒 |
+| [在 Power BI 儀表板中使用真實世界的視覺效果，獲得可採取動作的見解](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/8-10-18-Webinar-Get-actionable-insights-using-real-world/td-p/480242) (英文) | 加入 Charles Sterling 與 Shakun Grover，觀看他們逐步解說 Power BI 儀表板中真實世界的視覺效果。  Microsoft Visio 提供完美的畫布，可用於視覺化內容相關的資料，以及描述處理程序流程。 您可以使用 Visio 專為 Power BI 設計的新視覺效果，輕鬆將 Visio 強大生動的視覺效果功能，帶入 Power BI 儀表板中來傳達見解與行動。                              | Webinar | 34分 19 秒 |
+## <a name="dax"></a>DAX<a name="dax"></a>
+| 內容 | 描述 | 格式  | 長度      |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+| [Power BI 的實際 DAX (由 Phil Seamark 主持)](https://www.youtube.com/watch?v=1fGfqzS37qs) (英文)  | 伴隨著 Phil Seamark 的新書籍，其將逐步解說 Power BI 中實際 DAX 的一些最佳做法   | YouTube 影片 | 59 分鐘 41 秒 |
+| [Philip Seamark 的創意 DAX 解決方案](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) (英文) | 您知道 DAX 語言的功能遠比只是對資料行執行 SUM，或計算資料表中的資料列還多嗎？ DAX 位於其中一個最快資料庫之上。 加入 Charles Sterling 與 Philip Seamark，探索一些您可能認為不可行的不尋常和創意案例。 | Webinar       | 58 分鐘 12 秒 |
 ## <a name="governance-and-deployment"></a>治理與部署<a name="governance-deployment"></a>
 | 內容  | 描述   | 格式  | 長度 |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------|

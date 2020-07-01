@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 0313dc2014130ded9b9ed4ad112aa26803d92d28
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3b0fba18250853eec7eef85b5cfc9161290bacb
+ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435712"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84685280"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>快速入門：在 Power BI 行動裝置應用程式中探索儀表板和報表
 在本快速入門中，您可快速瀏覽 Power BI 行動裝置應用程式，以及探索範例儀表板和報表。 您會看到 iOS 版 Power BI 應用程式，但在其他裝置上也可以輕鬆掌握。
@@ -42,13 +42,11 @@ ms.locfileid: "79435712"
 ## <a name="view-a-dashboard-on-your-mobile-device"></a>在行動裝置上檢視儀表板
 1. 在裝置上開啟 Power BI 應用程式並使用 Power BI 帳戶認證登入，這與您在瀏覽器的 Power BI 服務中所使用認證相同。
  
-1. 現在，點選**工作區**圖示 ![工作區圖示](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-workspaces-button.png)，選擇 [我的工作區]  ，然後點選開啟 [零售分析範例]。
+1. 現在，點選**工作區**圖示 ![工作區圖示](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-workspaces-button.png)，選擇 [我的工作區]，然後點選開啟 [零售分析範例]。
 
     ![[我的工作區] 中的儀表板](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-dashboard.png)
    
     Power BI 儀表板在行動裝置上和在 Power BI 服務中看起來稍有不同。 所有圖格會以相同的寬度出現，且其排列方式為從上到下逐一排列。
-
-5. 點選標題列中的星號圖示 ![[我的最愛] 星號圖示](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) 在底部的工具列中，使其成為我的最愛儀表板。 當在行動裝置應用程式中設定我的最愛項目時，該項目也會成為 Power BI 服務中我的最愛項目，反之亦然。
 
 6. 向下捲動並點選「本年度銷售額，去年的銷售額」區域分布折線圖。
 
@@ -56,7 +54,7 @@ ms.locfileid: "79435712"
 
     它會在焦點模式中開啟。
 
-7. 在焦點模式中，點選圖表中的 [4 月]  。 4 月的值即會出現在圖表最上方。
+7. 在焦點模式中，點選圖表中的 [4 月]。 4 月的值即會出現在圖表最上方。
 
     ![焦點模式中的圖格](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tile-focus.png)
 
@@ -68,12 +66,12 @@ ms.locfileid: "79435712"
 
     ![醒目提示報表中的值](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-cross-highlight.png)
 
-10. 向上滑動以查看底部的工具列，然後點選 [更多選項 (...)]  。
+10. 向上滑動以查看底部的工具列，然後點選 [更多選項 (...)]。
 
     ![點選鉛筆](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil.png)
 
 
-11. 向下捲動清單，並選取 [標註]  。
+11. 向下捲動清單，並選取 [標註]。
 
     ![點選鉛筆](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil2.png)
 
@@ -81,7 +79,7 @@ ms.locfileid: "79435712"
  
     ![標註頁面](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-annotate.png)
 
-13. 現在點選右上角的 [共用]  。
+13. 現在點選右上角的 [共用]。
 
 14. 選擇您想要共用報表的方式。  
 
@@ -95,7 +93,7 @@ ms.locfileid: "79435712"
 
 1. 開啟 Power BI 服務 ([Power BI 服務](https://app.powerbi.com)) 並登入。
 
-2. 在導覽窗格中，選取 [我的工作區]  。
+2. 在導覽窗格中，選取 [我的工作區]。
 
 3. 選取 [儀表板] 索引標籤，然後按一下 [垃圾桶]。
 
@@ -103,7 +101,7 @@ ms.locfileid: "79435712"
 
     現在，按一下 [報表] 索引標籤，然後執行相同的動作。
 
-4. 現在選取 [資料集] 索引標籤，按一下 [更多選項]  (...)，然後選擇 [刪除]  。 
+4. 現在選取 [資料集] 索引標籤，按一下 [更多選項] (...)，然後選擇 [刪除]。 
 
 
     ![選取 [刪除資料集]](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-delete-retail-datasets.png)

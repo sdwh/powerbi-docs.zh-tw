@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6e3d44c9871332842ed0e3f3d9b9fb5fc64a5a65
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 65ed1806491f281bcc4d8adc365e5d286b6204ec
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121108"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218830"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>建立 Power BI 問與答的精選問題
 如果您擁有自己的資料集，則可將自己的精選問題新增至該資料集。 Power BI 問與答會向取用根據該資料集之報表的同事顯示這些問題。  精選問題可讓您的同事有些概念，知道要針對資料集詢問哪類問題。 您可自行決定要新增什麼精選問題 -- 新增熱門問題、會顯示有趣結果的問題，或難以簡短說明的問題。

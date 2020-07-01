@@ -5,16 +5,16 @@ author: LukaszPawlowski-MS
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 08a05a266dd505dd991d90738b81a2e7d413f090
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 6e8f605f7c0d9e66d8931a0420e356c38f9083c4
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84119880"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219060"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>在 Power BI 服務中設定報表與儀表板的連絡人資訊
 此文章說明如何在 Power BI 服務中為報表與儀表板設定連絡人資訊。

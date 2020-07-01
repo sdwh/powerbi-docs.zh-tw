@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f14a9222021a38616b872679a2d8798c15b4c666
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dab2e4b7bdc3da8278db6765e7233d98d7dba473
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83321243"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218715"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 服務中的資料警示
 
@@ -89,7 +89,7 @@ ms.locfileid: "83321243"
 
 ### <a name="from-the-dashboard-tile"></a>從儀表板磚
 
-1. 如果您需要變更或移除磚的警示，請選取鈴鐺圖示 **警示圖示**，以重新開啟 [管理警示]![](media/service-set-data-alerts/power-bi-bell-icon.png) 視窗。
+1. 如果您需要變更或移除磚的警示，請選取鈴鐺圖示 ![警示圖示](media/service-set-data-alerts/power-bi-bell-icon.png)，以重新開啟 [管理警示] 視窗。
 
     Power BI 會顯示您為該磚設定的警示。
 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 332b179c1eb097883592d1d1df531b525df585c2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: baf48e1cfa2bc37652880c9ab4201f2f49ff3c32
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323267"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218646"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>將儀表板的圖格釘選到另一個儀表板
 加入新[儀表板磚](../consumer/end-user-tiles.md)的一種方法是從另一個儀表板複製過來。 每個圖格都是一個連結，按一下就會返回其建立位置，問與答或報表。 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 66a690f9ee786747e59a55d498dfd206ecbcb992
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 74a0238d39d778641d1906271fd478463ee4a95a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349739"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218931"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>匯入資料集以在 Power BI 服務中建立報表
 您已閱讀 [Power BI 中的報表](../consumer/end-user-reports.md)，現在想要建立自己的報表。 有很多方式可以建立報表。 在本文中，我們將透過在 Power BI 服務中從 Excel 資料集建立基礎報表開始。 了解建立報表的基本概念之後，請查看底部的[後續步驟](#next-steps)以取得更進階的報表主題。  
@@ -55,7 +55,7 @@ ms.locfileid: "83349739"
 1. 在 [欄位] 窗格中，選取 [銷售]   > [This Year Sales]\(本年度銷售額)   > [值]  。
    
     ![報表編輯器中的橫條圖](media/service-report-create-new/power-bi-report-step1.png)
-2. 從 [視覺效果]![](media/service-report-create-new/powerbi-gauge-icon.png) 窗格選取量測計範本 **量測計圖示**，將視覺效果轉換成量測計。
+2. 從 [視覺效果] 窗格選取量測計範本 ![量測計圖示](media/service-report-create-new/powerbi-gauge-icon.png)，將視覺效果轉換成量測計。
    
     ![報表編輯器中的量測計視覺效果](media/service-report-create-new/power-bi-report-step2.png)
 3. 將 \[銷售]   > \[This Year Sales] \(本年度銷售額)   > \[目標]  拖曳至 \[目標值]  庫。 看起來我們非常接近我們的目標。
@@ -72,7 +72,7 @@ ms.locfileid: "83349739"
 2. 取消選取量測計。 在 [欄位] 窗格中，選取 [銷售]   > [This Year Sales]\(本年度銷售額)   > [值]  ，然後選取 [銷售]   > [Last Year Sales]\(去年度銷售額)  。
    
     ![具有量測計和橫條圖的報表編輯器](media/service-report-create-new/power-bi-report-step4.png)
-3. 從 [視覺效果]![](media/service-report-create-new/power-bi-areachart-icon.png) 窗格選取區域圖範本 **圖表圖示**，以將視覺效果轉換成區域圖。
+3. 從 [視覺效果] 窗格選取區域圖範本 ![圖表圖示](media/service-report-create-new/power-bi-areachart-icon.png)，以將視覺效果轉換成區域圖。
 4. 選取 [時間]   > [期間]  以將它新增至 [軸]  井。
    
     ![具有作用中區域圖的報表編輯器](media/service-report-create-new/power-bi-report-step5.png)

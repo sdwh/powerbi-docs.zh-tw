@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565618"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427561"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -96,7 +96,7 @@ Power BI 報表已針對探索和互動進行最佳化。  銷售報表可讓不
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>您支援哪些版本的報表產生器？
 
-我們發行了 Power BI Report Builder，作為 Power BI 服務中編頁報表的主要編寫工具。 從 Microsoft 下載中心安裝 [Power BI 報表產生器](https://go.microsoft.com/fwlink/?linkid=2086513)。
+我們發行了 Power BI Report Builder，作為 Power BI 服務中編頁報表的主要編寫工具。 從 Microsoft 下載中心安裝 [Power BI 報表產生器](https://aka.ms/pbireportbuilder)。
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>如何將已儲存於 SQL Server Reporting Services 中的現有報表移至 Power BI？
 
@@ -181,5 +181,5 @@ SaaS 內嵌 (包括安全內嵌支援) 已可供使用。 對於 PaaS 內嵌，�
 
 ## <a name="next-steps"></a>後續步驟
 
-- [從 Microsoft 下載中心安裝 Power BI 報表產生器](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [從 Microsoft 下載中心安裝 Power BI 報表產生器](https://aka.ms/pbireportbuilder)
 - [教學課程：建立編頁報表](paginated-reports-quickstart-aw.md)

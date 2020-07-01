@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 81e293f4dbf15a21c2546a54f140b163ebc93c05
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 5243f80fea732e01fee600d738ae6e6cde56e261
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83565641"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427713"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教學課程：建立分頁報表並將它上傳至 Power BI 服務
 
@@ -36,7 +36,7 @@ ms.locfileid: "83565641"
 
 以下是建立編頁報表的必要條件：
 
-- [從 Microsoft 下載中心安裝 Power BI 報表產生器](https://go.microsoft.com/fwlink/?linkid=2086513)。 
+- [從 Microsoft 下載中心安裝 Power BI 報表產生器](https://aka.ms/pbireportbuilder)。 
 
 - 遵循快速入門：[在 Azure 入口網站中建立 Azure SQL Database 範例](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal)。 複製並儲存 [概觀]  索引標籤上 [伺服器名稱]  方塊中的值。請記住您在 Azure 中建立的使用者名稱和密碼。
 

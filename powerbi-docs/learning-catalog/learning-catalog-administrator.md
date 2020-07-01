@@ -1,17 +1,17 @@
 ---
 title: 系統管理員學習目錄
 description: 尋找 Power BI 的所有訓練選項
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: b5a3abd76cd8dd09c89ac62831b3389091ae3bd3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.author: margoc
+ms.openlocfilehash: 80dbc5f0a16760a9612a9c885466157dc97cbb9b
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268527"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532779"
 ---
 # <a name="administrators-learning-catalog"></a>系統管理員學習目錄
 
