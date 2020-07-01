@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f92ce45cd739072dcb7056eb0be6696b4cab32e4
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 7597d135bc05783d0d43bb481e24fc197abd9d4b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813385"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85222387"
 ---
 # <a name="use-buttons-in-power-bi"></a>在 Power BI 中使用按鈕
 在 Power BI 中使用**按鈕**可以供建立像應用程式般運作的報表，進而打造出互動式環境，讓使用者能夠暫留、按一下及和 Power BI 內容更進一步互動。 您可以在 **Power BI Desktop** 和 **Power BI 服務**中將按鈕新增到報表。 當在 Power BI 服務中共用報表時，報表會為使用者提供與應用程式相似的體驗。

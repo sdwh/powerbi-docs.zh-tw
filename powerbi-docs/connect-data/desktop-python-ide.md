@@ -5,16 +5,16 @@ author: otarb
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dbdd4076c9944cf0335ed1f6b6aa43a2a3887189
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 902b2580dbdd454b5a0eec234ba11e59cc5eb666
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291711"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85223405"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>搭配 Power BI 使用外部 Python IDE
 透過 **Power BI Desktop**，您可以使用您的外部 Python IDE (整合式開發環境) 來建立並精簡 Python 指令碼，然後在 Power BI 中使用這些指令碼。
