@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 27f71da8a8396de30254c1a02307aa48281db5a8
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 0fdee37f682774e1dac2b1ac6a4fc7a6e8dabe91
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793609"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238097"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>讓使用者個人化報表中的視覺效果
 

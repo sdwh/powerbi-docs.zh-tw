@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2ccf0d7566cb1ffd2b3b12295c0667885bf30ef0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b8fddd6b88effac3375840dd6034ca93cec52f12
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349578"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238316"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>從 Power BI 服務將報表下載到 Power BI Desktop (預覽)
 在 Power BI Desktop 中，您可以將報表 *.pbix* 檔案) 從本機電腦發佈至 Power BI 服務。 Power BI 報表也可以移至另一個方向：您可以從 Power BI 服務將報表下載到 Power BI Desktop。 在任一情況下，Power BI 報表的副檔名都是 .pbix。

@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f268809cc7296660501c6b11ab02bc0d3b80c357
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: bf7fad8195f28303ae0ab73fb957db87861755e6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83340080"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237383"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>將篩選加入 Power BI 報表
 
@@ -62,7 +62,7 @@ Power BI 提供許多不同種類的篩選條件，從手動和自動到鑽研�
 2. 開啟 [視覺效果和篩選] 窗格和 [欄位] 窗格 (如果尚未開啟的話)。
    
    ![[視覺效果]、[篩選] 和 [欄位] 窗格](media/power-bi-report-add-filter/power-bi-display-panes.png)
-3. 選取要啟用的視覺效果。 視覺效果所使用的所有欄位都是位在 [視覺效果層級篩選]  標題下的 [欄位]  窗格中，也會列在 [篩選]  窗格中。
+3. 選取要啟用的視覺效果。 視覺效果所使用的所有欄位都是位在 [視覺效果層級篩選] 標題下的 [欄位] 窗格中，也會列在 [篩選] 窗格中。
    
    ![選取視覺效果層級篩選條件](media/power-bi-report-add-filter/power-bi-default-visual-filter.png)
 4. 目前，我們會將篩選新增至已由視覺效果使用的欄位。 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 1e1e56981d40c30d589ff39e561acf97ddca5ca2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6bd68f5db12367e6c98b6fe61461b89047d8eb56
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83280579"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237228"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>使用 Power BI 問與答建立視覺效果
 
@@ -61,7 +61,7 @@ ms.locfileid: "83280579"
 1. 選取 [編輯報表]  ，在 [編輯檢視] 中開啟報表。  如果您不是報表的擁有者，就不會有在 [編輯] 檢視中開啟報表的選項。
    
     ![[編輯報表] 按鈕](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
-4. 選取區域圖，然後在 [欄位]  窗格中檢閱設定。  報表建立者建立了此圖表，方法是選取這三個值 (來自 [銷售額]  資料表的 [去年銷售量]  和 [本年度銷售額 > 值]  ，以及來自 [時間]  資料表的 [FiscalMonth]  )，然後在 [軸]  與 [值]  庫中組織這些值。
+4. 選取區域圖，然後在 [欄位]  窗格中檢閱設定。  報表建立者建立了此圖表，方法是選取這三個值 (來自 [銷售額] 資料表的 [去年銷售量] 和 [本年度銷售額 > 值]，以及來自 [時間] 資料表的 [FiscalMonth])，然後在 [軸] 與 [值] 庫中組織這些值。
    
     ![[視覺效果] 窗格](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
 

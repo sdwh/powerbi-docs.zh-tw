@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c006d35baa14e68cca7009aabf79438321396802
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0d388127ab42c4f60d1e08efea6b3fdbbbf7045b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83303096"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238822"
 ---
 # <a name="consume-power-bi-reports-by-using-accessibility-features"></a>使用協助工具功能來取用 Power BI 報表
 Power BI 有許多內建功能，可協助行動不便人士更輕鬆地取用 Power BI 報表並與其互動。 這些工具可協助使用者從報表中取得的資訊，與未使用輔助技術的人員相同。

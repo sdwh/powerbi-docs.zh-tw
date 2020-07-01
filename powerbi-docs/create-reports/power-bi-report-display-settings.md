@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 601e23fae6579344afa83799b04fbcba3f81a6b4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c08d4959b8e3958651282ac0fd52e6ed80a6b345
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344564"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237260"
 ---
 # <a name="apply-page-display-settings-in-a-power-bi-report"></a>在 Power BI 報表中套用頁面顯示設定
 我們了解保持報表版面配置像素完美的重要性。 有時候這會有點困難，因為您和您的同事可能會使用外觀比例和大小不同的螢幕來檢視這些報表。 

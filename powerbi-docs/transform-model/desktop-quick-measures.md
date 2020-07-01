@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2bb48ad44c1f1d440fb5741fc55cc4a83f315dc8
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83306224"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237154"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>使用快速量值以執行常用的計算
 您可以使用「快速量值」  來快速輕鬆執行常用及功能強大的計算。 快速量值會在幕後執行一組資料分析運算式 (DAX) 命令，然後顯示結果供您在報表中使用。 您不需要撰寫 DAX，這會根據您在對話方塊中提供的輸入來幫您完成。 計算有多種可用的分類，也有多種方式可以修改各項計算，以符合您的需求。 或許最棒的是，您可以查看快速量值所執行的 DAX，以啟發或拓展 DAX 知識。

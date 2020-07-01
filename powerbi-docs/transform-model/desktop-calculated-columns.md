@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 425bf50ad6eb4da9b50f7d9cdc760ef71cb7bff2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 90a8cf81c2dd0dae3a31a15197785e64432f1a01
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83338999"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237895"
 ---
 # <a name="create-calculated-columns-in-power-bi-desktop"></a>在 Power BI Desktop 中建立計算結果欄
 透過導出資料行，您可以將新資料加入模型中已有的資料表。 您會建立定義資料行值的資料分析運算式 (DAX) 公式，而不是從資料來源查詢值並將其載入新的資料行。 在 Power BI Desktop 中，計算結果欄是使用 [報表]  檢視中的 [新增資料行] 功能來建立。

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/30/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: db5bc2566e4711873629522d08a2d0c818071b81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d8aea8cf850a2f44ed9786701c33fbf35e8e6e6f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334031"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238556"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Power BI Desktop 中的依資料行排序
 在 Power BI Desktop 和 Power BI 服務中，您可以按不同資料欄位排序來變更視覺效果的外觀。 變更視覺效果的排序方式，即可反白顯示您想要傳達的資訊，並確定視覺效果反映出該趨勢 (或強調)。
