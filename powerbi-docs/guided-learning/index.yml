@@ -1,18 +1,18 @@
 ### YamlMime:Landing
 metadata:
-  title: Microsoft Power BI 引導式學習
+  title: Microsoft Power BI 自學型學習
   description: 透過這個循序漸進的系列課程開始您的學習之旅，從而了解 Microsoft Power BI 豐富而強大的功能。
   layout: LandingPage
   ms.service: powerbi
   ms.author: davidiseminger
-  ms.date: 09/20/2019
-  ms.openlocfilehash: e358b7b78b4c87b500e6d749bee39fcdc9b2fd02
-  ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+  ms.date: 06/23/2020
+  ms.openlocfilehash: 05fa98c9c2c2aa242f8068ee1792eef87638aec0
+  ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 06/08/2020
-  ms.locfileid: "84532595"
-title: Microsoft Power BI 引導式學習
+  ms.lasthandoff: 07/02/2020
+  ms.locfileid: "85836916"
+title: Microsoft Power BI 自學型學習
 summary: 透過這個循序漸進的系列課程開始您的學習之旅，從而了解 Microsoft Power BI 豐富而強大的功能。
 landingContent:
 - title: 探索 Power BI 的功能
