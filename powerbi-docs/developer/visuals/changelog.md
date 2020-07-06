@@ -8,36 +8,39 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: fa8759d7edb519240140263bcd01bfdddd9c7d86
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141063"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739176"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI 視覺效果 API 變更記錄
 此頁面包含 API 版本的快速摘要。 此處所列的版本會視為穩定，且不會變更。
 
-## <a name="api-v26"></a>API 2.6 版
+## <a name="api-v320"></a>API v3.2.0
+  * 支援 **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)**
+
+## <a name="api-v260"></a>API v2.6.0
   * 加入 **isInFocus** 以更新選項，並將 **switchFocusModeState** 方法加入至視覺效果主機
   * 支援**小計**自訂
 
-## <a name="api-v25"></a>API 2.5 版
+## <a name="api-v250"></a>API v2.5.0
   * 支援[分析窗格](./analytics-pane.md)
   * 支援 `SelectionIdBuilder` **withMatrixNode** 與 **withTable** 方法
   * 不再支援 `DataRepetitionSelector` 介面，已由 `data.CustomVisualOpaqueIdentity` 介面取代
 
-## <a name="api-v23"></a>API 2.3 版
+## <a name="api-v230"></a>API v2.3.0
   * **[登陸頁面 API](./landing-page.md)**
   * **[本機儲存體 API](./local-storage.md)**
   * **[Tuple 篩選 API (多個資料行篩選)](./filter-api.md#the-tuple-filter-api-multi-column-filter)**
   * **[轉譯事件 API](./event-service.md#render-events-in-power-bi-visuals)**
 
-## <a name="api-v22"></a>API 2.2 版
+## <a name="api-v220"></a>API v2.2.0
   * 支援 **[從 DataView 還原 JSON 篩選](./filter-api.md#restore-the-json-filter-from-the-data-view)**
   * **[ContextMenu API](./context-menu.md)**
 
-## <a name="api-v21"></a>API 2.1 版
+## <a name="api-v210"></a>API v2.1.0
   * 效能增強功能：
     * 載入時間更快
     * 較小的記憶體使用量
@@ -58,32 +61,32 @@ ms.locfileid: "83141063"
    ```
 * `proto` 屬性不會再將隱藏的 metadata\data 儲存在 dataView 內。 透過 `proto` 存取屬性的視覺效果，可能因此更新而中斷。
 
-## <a name="api-v113"></a>API 1.13 版
+## <a name="api-v1130"></a>API v1.13.0
 * 支援 **[同步處理交叉分析篩選器](./enable-sync-slicers.md)** ，請注意，由於 PBI 目前程式碼狀態，這僅適用於單一欄位交叉分析篩選器，[深入了解](/power-bi/desktop-slicers)。
 * 協助工具：[高對比支援](./high-contrast-support.md) 
 * 協助工具：允許鍵盤焦點旗標
 
-## <a name="api-v112"></a>API 1.12 版
+## <a name="api-v1120"></a>API v1.12.0
 * 支援佈景主題
 * 支援 **[fetchMoreData](./fetch-more-data.md)** ，請注意，**擷取更多資料 API** 克服了 30K 個資料點的硬限制
 * **[畫布工具提示 API](./add-tooltips.md#add-report-page-tooltips)**
 
-## <a name="api-v111"></a>API 1.11 版
+## <a name="api-v1110"></a>API v1.11.0
 * **[FilterManager API](./filter-api.md)**
 * 支援 **[書籤](./bookmarks-support.md)** 
 
-## <a name="api-v110"></a>API 1.10 版
+## <a name="api-v1100"></a>API v1.10.0
 * 加入 `ILocalizationManager`
 * **驗證 API**
 
-## <a name="api-v19"></a>API 1.9 版
+## <a name="api-v190"></a>API v1.9.0
 * **[launchUrl API](./launch-url.md)**
 
-## <a name="api-v18"></a>API 1.8 版
+## <a name="api-v180"></a>API v1.8.0
 * 支援功能結構描述中的新類型 **fillRule** (漸層)
 * 支援物件屬性之功能結構描述中的**規則**屬性
 
-## <a name="api-v17"></a>API 1.7 版
+## <a name="api-v170"></a>API v1.7.0
 * 支援 **[RESJSON](./localization.md#resource-file)**
 
 ## <a name="api-v162"></a>API 1.6.2 版

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6456d6126245ac6416dd7f50e705a0c731d98623
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 178a2f2037a52b1b08e1006123c30eff1af18af6
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325820"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393741"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>在 Power BI Desktop 中設定和使用日期資料表
 
@@ -28,11 +28,11 @@ ms.locfileid: "83325820"
 
 ## <a name="setting-your-own-date-table"></a>設定您自己的日期資料表
 
-若要設定**日期資料表**，請在 [欄位]  窗格中選取您要用來作為日期資料表的資料表，接著以滑鼠右鍵按一下該資料表，並在顯示的功能表中選取 [標記為日期資料表] > [標記為日期資料表]  ，如下面的影像所示。
+若要設定**日期資料表**，請在 [欄位] 窗格中選取您要用來作為日期資料表的資料表，接著以滑鼠右鍵按一下該資料表，並在顯示的功能表中選取 [標記為日期資料表] > [標記為日期資料表]，如下面的影像所示。
 
 ![](media/desktop-date-tables/date-tables_02.png)
 
-您也可以選取資料表，然後從 [模型]  功能區選取 [標記為日期資料表]  ，如下所示。
+您也可以選取資料表，然後從 [模型] 功能區選取 [標記為日期資料表]，如下所示。
 
 ![](media/desktop-date-tables/date-tables_02b.png)
 
@@ -49,7 +49,7 @@ ms.locfileid: "83325820"
 
 * 第二個案例是您使用來自 Analysis Services 的資料表，例如具有您要用來作為日期資料表之 *dim date* 欄位的資料表。 
 
-一旦您指定日期資料表後，您就可以選取該資料表中哪個資料行是日期資料行。 您可以透過在 [欄位]  窗格中選取資料表，然後以滑鼠右鍵按一下該資料表並選取 [標記為日期資料表] > [日期資料表設定]  ，以指定要使用的資料行。 下列視窗隨即出現，您可以在其中的下拉式方塊中選取要用來作為日期資料表的資料行。
+一旦您指定日期資料表後，您就可以選取該資料表中哪個資料行是日期資料行。 您可以透過在 [欄位] 窗格中選取資料表，然後以滑鼠右鍵按一下該資料表並選取 [標記為日期資料表] > [日期資料表設定]，以指定要使用的資料行。 下列視窗隨即出現，您可以在其中的下拉式方塊中選取要用來作為日期資料表的資料行。
 
 ![](media/desktop-date-tables/date-tables_03.png)
 
@@ -59,13 +59,13 @@ ms.locfileid: "83325820"
 
 ## <a name="marking-your-date-table-as-the-appropriate-data-type"></a>將日期資料表標記為適當的資料類型
 
-當您指定您自己的**日期資料表**，您務必確定設定正確的資料類型。 您可以將 [資料類型]  設定為**日期/時間**或**日期**。 若要這樣做，請採取下列步驟：
+當您指定您自己的**日期資料表**，您務必確定設定正確的資料類型。 您可以將 [資料類型] 設定為**日期/時間**或**日期**。 若要這樣做，請採取下列步驟：
 
-1. 從 [欄位]  窗格選取您的**日期資料表** (如有需要請將它展開)，然後選取要用來作為日期的資料行。
+1. 從 [欄位] 窗格選取您的**日期資料表** (如有需要請將它展開)，然後選取要用來作為日期的資料行。
    
     ![](media/desktop-date-tables/date-tables_04.png) 
 
-2. 在 [模型]  索引標籤上，選取 [資料類型:]  ，然後按一下下拉式箭號以顯示可用的資料類型。
+2. 在 [模型] 索引標籤上，選取 [資料類型:]，然後按一下下拉式箭號以顯示可用的資料類型。
 
     ![](media/desktop-date-tables/date-tables_05.png)
 
@@ -74,7 +74,10 @@ ms.locfileid: "83325820"
 
 ## <a name="next-steps"></a>後續步驟
 
-您可能也會對下列文章感興趣：
+如需本文的詳細資訊，請參閱下列資源：
 
 * [Power BI Desktop 中的自動日期/時間](desktop-auto-date-time.md)
+* [在 Power BI Desktop 中建立日期資料表](../guidance/model-date-tables.md)
 * [Power BI Desktop 中的資料類型](../connect-data/desktop-data-types.md)
+* 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+* 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

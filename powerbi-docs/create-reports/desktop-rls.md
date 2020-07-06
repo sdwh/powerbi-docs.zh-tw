@@ -6,16 +6,16 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: ''
 ms.date: 01/31/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 89c33de2ef7319c6dcbeace0df79786128e16cd9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9036967c826dee83847c3bc3d4a903bbe749b2ce
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334307"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238631"
 ---
 # <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>使用 Power BI Desktop 的資料列層級安全性 (RLS) 來限制資料存取
 
@@ -36,6 +36,9 @@ ms.locfileid: "83334307"
 
 ## <a name="next-steps"></a>後續步驟
 
-[使用 Power BI 服務的資料列層級安全性 (RLS)](../admin/service-admin-rls.md)  
+如需本文的詳細資訊，請參閱下列資源：
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)。
+- [Power BI 的資料列層級安全性 (RLS)](../admin/service-admin-rls.md)
+- [Power BI Desktop 中的資料列層級安全性 (RLS) 指導方針](../guidance/rls-guidance.md)
+- 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

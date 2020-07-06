@@ -1,20 +1,20 @@
 ---
 title: 在 Power BI 服務中安裝和使用「銷售與行銷」應用程式
-description: Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處。 從 AppSource 安裝「銷售與行銷」應用程式。
+description: Power BI 的應用程式會將相關的儀表板和報表全都帶到同一處。 從 Power BI 應用程式市集安裝「銷售與行銷」應用程式。
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 02/19/2020
+ms.topic: how-to
+ms.date: 06/09/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 65584772a60be1a784828226fbac48458ded7be8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: df22baeae8acb09ac9b7f071c16ec8697203f8fa
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496875"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236565"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>在 Power BI 服務中安裝和使用範例「銷售與行銷」應用程式
 
@@ -23,43 +23,42 @@ ms.locfileid: "77496875"
 既然您已[基本了解如何取得 Power BI 的內容](end-user-app-view.md)，讓我們從 Microsoft AppSource (appsource.com) 取得「銷售與行銷」應用程式。 
 
 
-## <a name="microsoft-appsource-appsourcecom"></a>Microsoft AppSource (appsource.com)
-以下是應用程式的連結：[行銷與銷售應用程式](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview)。 當您選取此連結時，即可在 Microsoft AppSource 上開啟此應用程式的下載頁面。 
+## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>從 Power BI 應用程式市集取得應用程式
 
-1. 系統可能會要求您登入，以取得應用程式。 請使用您 Power BI 所用的相同電子郵件地址登入。 
+1. 如果您還沒有登入，請[登入 Power BI 服務](./end-user-sign-in.md)。 
 
-    ![AppSource 登入畫面  ](./media/end-user-app-marketing/power-bi-sign-in.png)
+1. 當您位於 Power BI 之後，選取 [應用程式] > [取得應用程式]。 
 
-2. 選取 [立即取得]  。 
+    ![取得應用程式  ](./media/end-user-app-marketing/power-bi-get-apps.png)
 
-    ![已選取 Power BI 應用程式的 AppSource 網站  ](./media/end-user-app-marketing/power-bi-get-now.png)
+1. Power BI 應用程式市集隨即開啟。 尋找「銷售與行銷」應用程式。 如果您沒有看到此應用程式，請嘗試在搜尋方塊中輸入「銷售」。
 
+    ![Power BI 應用程式市集  ](./media/end-user-app-marketing/power-bi-apps-marketplace.png)
 
-3. 如果這是您第一次登入 AppSource，您必須同意使用規定。 
+1. 按一下應用程式磚。 AppSource 上的應用程式供應項目隨即開啟。 按一下 [立即取得]。
 
-    ![AppSource 使用規定畫面  ](./media/end-user-app-marketing/power-bi-term.png)
+   ![AppSource 中的應用程式供應項目](./media/end-user-app-marketing/power-bi-apps-app-offering.png)
 
+1. 確認您想要安裝此應用程式。
 
-4. 隨即開啟 Power BI 服務。 確認您想要安裝此應用程式。
+   ![要安裝此應用程式嗎？](./media/end-user-app-marketing/power-bi-app-install.png)
 
-    ![要安裝此應用程式嗎？  ](./media/end-user-apps/power-bi-app-install.png)
+5. Power BI 服務會在安裝應用程式之後顯示成功訊息。 選取 [前往應用程式] 以開啟應用程式。 根據設計師建立應用程式的方式，會顯示應用程式儀表板或應用程式報表。
 
-5. 安裝應用程式之後，Power BI 服務會顯示成功訊息。 選取 [前往應用程式]  以開啟應用程式。 根據設計師建立應用程式的方式，會顯示應用程式儀表板或應用程式報表。
+    ![已成功安裝應用程式 ](./media/end-user-app-marketing/power-bi-app-ready.png)
 
-    ![已成功安裝應用程式 ](./media/end-user-apps/power-bi-app-ready.png)
+    您也可以選取 [應用程式]，然後選擇 [銷售與行銷]，直接從您的應用程式內容清單中開啟應用程式。
 
-    您也可以選取 [應用程式]  ，然後選擇 [銷售與行銷]  ，直接從您的應用程式內容清單中開啟應用程式。
-
-    ![Power BI 的應用程式](./media/end-user-apps/power-bi-apps.png)
+    ![Power BI 的應用程式](./media/end-user-app-marketing/power-bi-apps-sales-marketing.png)
 
 
 6. 選擇是否要探索或自訂並共用您的新應用程式。 由於我們已選取 Microsoft 範例應用程式，讓我們開始探索。 
 
-    ![使用範例資料進行探索](./media/end-user-apps/power-bi-explore.png)
+    ![使用範例資料進行探索](./media/end-user-app-marketing/power-bi-explore.png)
 
-7.  您的新應用程式會以儀表板開啟。 不過，應用程式「設計師」  可能會將應用程式改設定為開啟報表。  
+7.  您的新應用程式會以儀表板開啟。 不過，應用程式「設計師」可能會將應用程式改設定為開啟報表。  
 
-    ![使用範例資料進行探索](./media/end-user-apps/power-bi-new-app.png)
+    ![使用範例資料進行探索](./media/end-user-app-marketing/power-bi-new-app.png)
 
 
 

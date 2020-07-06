@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 24f69255ae12400c23cd9ca506e5b103e14e7ffb
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276344"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354884"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI 中的星形量測計圖表
 
@@ -23,7 +23,7 @@ ms.locfileid: "83276344"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-星形量測計圖表具有圓弧線段，並且會顯示針對某一目標或關鍵效能指標 (KPI) 測量進度的單一值。 線條 (或「指針」  ) 代表目標或目標值。 陰影代表該目標的達成進度。 弧線內的值代表進度值。 Power BI 會將所有可能的值從最小 (最左邊的值) 到最大 (最右邊的值) 平均分散在弧線上。
+星形量測計圖表具有圓弧線段，並且會顯示針對某一目標或關鍵效能指標 (KPI) 測量進度的單一值。 線條 (或「指針」) 代表目標或目標值。 陰影代表該目標的達成進度。 弧線內的值代表進度值。 Power BI 會將所有可能的值從最小 (最左邊的值) 到最大 (最右邊的值) 平均分散在弧線上。
 
 ![星形量測計的螢幕擷取畫面。](media/power-bi-visualization-radial-gauge-charts/gauge-m.png)
 
@@ -48,15 +48,15 @@ ms.locfileid: "83276344"
 
 本教學課程使用[財務範例 Excel 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-1. 從功能表列的左上方區段中，選取 [取得資料]   > [Excel] 
+1. 從功能表列的左上方區段中，選取 [取得資料] > [Excel]
    
 2. 尋找**財務範例 Excel 檔案**的複本
 
 1. 在報表檢視 ![報表檢視圖示的螢幕擷取畫面](media/power-bi-visualization-kpi/power-bi-report-view.png) 中開啟**財務範例 Excel 檔案**。
 
-1. 選取 [財務]  和 [工作表 1] 
+1. 選取 [財務] 和 [工作表 1]
 
-1. 按一下 [載入] 
+1. 按一下 [載入]
 
 1. 選取 ![黃色索引標籤的螢幕擷取畫面。](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 新增頁面。
 
@@ -68,11 +68,11 @@ ms.locfileid: "83276344"
 
 1. 從空白報表頁面開始
 
-1. 從 [欄位]  窗格，選取 [總銷售額]  。
+1. 從 [欄位] 窗格，選取 [總銷售額]。
 
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
+   ![財務資料表已展開，且已選取 [總銷售額]](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
-1. 將彙總變更為 [平均]  。
+1. 將彙總變更為 [平均] 。
 
    ![標示出 [總銷售額] 和 [平均] 彙總的 [欄位] 窗格螢幕擷取畫面。](media/power-bi-visualization-radial-gauge-charts/changetoaverage-new.png)
 
@@ -83,13 +83,13 @@ ms.locfileid: "83276344"
     由於下載**財務範例**檔案的時間點不同，您可能會看到不一樣的數字。
 
     > [!TIP]
-    > 根據預設，Power BI 會建立量測計圖表，其中假設目前值 (在此案例中為 [平均總銷售額]  ) 位於量測計的中點。 由於 [平均總銷售額]  值是美金 $182.76K 元，開始值 (最小值) 設定為 0 且結束值 (最大值) 設定為目前值的兩倍。
+    > 根據預設，Power BI 會建立量測計圖表，其中假設目前值 (在此案例中為 [平均總銷售額]) 位於量測計的中點。 由於 [平均總銷售額] 值是美金 $182.76K 元，開始值 (最小值) 設定為 0 且結束值 (最大值) 設定為目前值的兩倍。
 
 ### <a name="step-3-set-a-target-value"></a>步驟 3：設定目標值
 
-1. 將 [COGS]  從 [欄位]  窗格拖曳至 [目標值]  部分。
+1. 將 [COGS] 從 [欄位] 窗格拖曳至 [目標值] 部分。
 
-1. 將彙總變更為 [平均]  。
+1. 將彙總變更為 [平均] 。
 
    Power BI 會加入指針來代表我們的目標值： **$145.48K**。
 
@@ -102,11 +102,11 @@ ms.locfileid: "83276344"
 
 ### <a name="step-4-set-a-maximum-value"></a>步驟 4：設定最大值
 
-在步驟 2 中，Power BI 會使用 [值]  欄位來自動設定最小值與最大值。 如果您想自行設定最大值該怎麼做？ 假設您不想使用目前值的兩倍作為最大的可能值，想設定為資料集中最高的總銷售額數字。
+在步驟 2 中，Power BI 會使用 [值] 欄位來自動設定最小值與最大值。 如果您想自行設定最大值該怎麼做？ 假設您不想使用目前值的兩倍作為最大的可能值，想設定為資料集中最高的總銷售額數字。
 
-1. 將 [總銷售額]  從 [欄位]  窗格拖曳至 [最大值]  部分。
+1. 將 [總銷售額] 從 [欄位] 窗格拖曳至 [最大值] 部分。
 
-1. 將彙總變更為 [最大值]  。
+1. 將彙總變更為 [最大值] 。
 
    ![標示出 [總銷售額] 和 [最大值] 彙總的 [欄位] 窗格螢幕擷取畫面。](media/power-bi-visualization-radial-gauge-charts/setmaximum-new.png)
 
@@ -122,19 +122,19 @@ ms.locfileid: "83276344"
 
 1. 將 [銷售額的最大值]  從 [最大值]  部分移除。
 
-1. 選取油漆滾筒圖示，開啟 [格式]  窗格。
+1. 選取油漆滾筒圖示，開啟 [格式] 窗格。
 
    ![標示出量測計圖表及油漆滾筒圖示的 [格式] 窗格螢幕擷取畫面。](media/power-bi-visualization-radial-gauge-charts/power-bi-roller.png)
 
-1. 展開 [量測計軸]  並輸入 [最小]  與 [最大]  的值。
+1. 展開 [量測計軸] 並輸入 [最小] 與 [最大] 的值。
 
     ![[量測計軸] 選項的螢幕擷取畫面。](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-axis.png)
 
-1. 清除 [欄位]  窗格中的 [COGS]  選項，移除目標值。
+1. 清除 [欄位] 窗格中的 [COGS] 選項，移除目標值。
 
     ![已清除 [COGS] 選項的螢幕擷取畫面。](media/power-bi-visualization-radial-gauge-charts/pbi-remove-target.png)
 
-1. 當 [量測計軸]  下出現 [目標]  欄位時，請輸入值。
+1. 當 [量測計軸]  下出現 [目標] 欄位時，請輸入值。
 
      ![標示出 [目標] 的 [量測計軸] 選項螢幕擷取畫面。](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 

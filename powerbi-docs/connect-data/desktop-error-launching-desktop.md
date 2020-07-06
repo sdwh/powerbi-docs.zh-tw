@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 67c83f2cc0eb81e90f447961ed178a04e97e050e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba59a08ee1b50e44af71312a25d77fb67c8fca2d
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292079"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485430"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>針對 Power BI Desktop 的開啟問題進行疑難排解
 
@@ -36,7 +36,7 @@ ms.locfileid: "83292079"
 
 您可以改為以系統管理員身分成功啟動 Power BI Desktop，這樣也可以成功開啟 Power BI Desktop。 但仍建議您如先前所述，安裝最新版的 Power BI 內部部署資料閘道。
 
-Power BI Desktop 經過程式設計成多處理序架構，且這些處理序中有數個使用 Windows 具名管道來通訊。 可能會有其他處理序影響那些具名管道。 這種影響最常見的原因是安全性，包括的情況如防毒軟體或防火牆可能會封鎖管道或將流量重新導向至特定連接埠。 以系統管理員權限開啟 Power BI Desktop 可以解決該問題。 如果您無法以系統管理員權限開啟，請洽詢您的系統管理員，以判斷哪些安全性規則導致具名管道無法正確通訊。 然後將 Power BI Desktop 和其各自的子處理序列入白名單。
+Power BI Desktop 經過程式設計成多處理序架構，且這些處理序中有數個使用 Windows 具名管道來通訊。 可能會有其他處理序影響那些具名管道。 這種影響最常見的原因是安全性，包括的情況如防毒軟體或防火牆可能會封鎖管道或將流量重新導向至特定連接埠。 以系統管理員權限開啟 Power BI Desktop 可以解決該問題。 如果您無法以系統管理員權限開啟，請洽詢您的系統管理員，以判斷哪些安全性規則導致具名管道無法正確通訊。 然後將 Power BI Desktop 及其各自的子處理序新增至允許清單。
 
 ## <a name="resolve-issues-when-connecting-to-sql-server"></a>解決連線至 SQL Server 時的問題
 
@@ -56,4 +56,4 @@ Power BI Desktop 經過程式設計成多處理序架構，且這些處理序中
 
 如果開啟 Power BI Desktop 時發生的問題與內部部署資料閘道無關，或上述解決方法無法解決問題，您可以將支援事件提交給 *Power BI 支援* (<https://support.powerbi.com>) 以協助找出並解決問題。
 
-如果您未來使用 Power BI Desktop 時發生其他問題，開啟追蹤並收集記錄檔會有所幫助， 記錄檔可能有助於隔離並識別問題。 若要開啟追蹤功能，請選擇 [檔案]   > [選項及設定]   > [選項]  、選取 [診斷]  ，然後選取 [啟用追蹤]  。 Power BI Desktop 必須在執行中才能設定此選項，但這有助於解決未來與開啟 Power BI Desktop 有關的問題。
+如果您未來使用 Power BI Desktop 時發生其他問題，開啟追蹤並收集記錄檔會有所幫助， 記錄檔可能有助於隔離並識別問題。 若要開啟追蹤功能，請選擇 [檔案] > [選項及設定] > [選項]、選取 [診斷]，然後選取 [啟用追蹤]。 Power BI Desktop 必須在執行中才能設定此選項，但這有助於解決未來與開啟 Power BI Desktop 有關的問題。

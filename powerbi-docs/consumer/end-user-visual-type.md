@@ -5,27 +5,29 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/24/2020
 ms.author: mihart
+ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 605b3fbc49d9a9dbf60b6963a89487ca15284b29
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279426"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393833"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的視覺效果類型
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-您會在報表、儀表板及問與答中看見視覺效果。 其中一些視覺效果類型是隨 Power BI 一同封裝，而某些則是「Power BI 視覺效果」  。 自訂視覺效果是在 Power BI 外部建立，且其建立方式允許報表「設計師」  將它們新增至 Power BI 報表和儀表板。 
+視覺效果 (也稱為「圖表」 ) 是資料的圖片表示法。 一些常見範例包括直條圖、地圖、散佈圖和星形量測計。 您會在報表、儀表板及問與答中看見視覺效果。
 
-此文章概述隨 Power BI 服務一同封裝的視覺效果。  這些是您最常會遇到的視覺效果。 如需這些視覺效果的深入資訊，請參閱[關於視覺效果類型的 Power BI 報表「設計師」  文件](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)
+此頁面所述的視覺效果都是以 Power BI 封裝的視覺效果。 這些是您最常遇到的視覺效果類型。 此頁面可讓您快速瀏覽這些預先封裝的視覺效果。 如需這些視覺效果的深入資訊，請參閱[關於視覺效果類型的 Power BI 報表「設計師」文件](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)。
 
-> [!NOTE]
-> 若要了解自訂視覺效果，請在 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) 的 **Power BI 視覺效果**一節中搜尋這些 Power BI 視覺效果。 針對每個視覺效果，您可找到描述、建立者資訊，以及螢幕擷取畫面或影片。 
+Power BI 未自動包含的視覺效果稱為「自訂視覺效果」。 自訂視覺效果可以從外部網站 (例如 Microsoft AppSource) 或內部來源 (例如您的組織存放區) 匯入到 Power BI。 匯入自訂視覺效果，需要具備報表的編輯權限。 若要了解這些增益集視覺效果，請參閱 [Power BI 中的視覺效果](../developer/visuals/power-bi-custom-visuals.md)。
+
+
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Power BI 提供的視覺效果清單
 所有這些視覺效果都能在 Power BI 儀表板及報表中找到，並[於問與答中詳述](end-user-q-and-a.md)。 若要了解如何與視覺效果互動，請參閱[在報表、儀表板和應用程式中與視覺效果互動](end-user-visualizations.md)
@@ -65,6 +67,12 @@ ms.locfileid: "83279426"
 - 當您要檢查量值是否符合另一個量值所定義的目標
 - 當您要節省畫布的空間
 
+
+### <a name="decomposition-tree"></a>分解樹狀結構
+![分解樹狀結構](media/end-user-visual-type/power-bi-decomposition.png)
+
+分解樹狀結構視覺效果可讓您將多個維度上的資料視覺化。 它會自動彙總資料，並且能夠以任何順序向下切入到您的維度。 這也是一種人工智慧 (AI) 視覺效果，因此，您可以要求它根據特定準則來尋找下一個要向下切入到其中的維度。 這讓它成為特定探索和進行根本原因分析的重要工具。
+
 ### <a name="doughnut-charts"></a>環圈圖
 ![環圈圖](media/end-user-visual-type/donut-small.png)
 
@@ -97,7 +105,7 @@ ms.locfileid: "83279426"
 
 關鍵影響因素圖表顯示出所選結果或值的主要成因。
 
-關鍵影響因素是協助您了解影響關鍵計量之因素的最佳選擇。 例如，什麼原因讓客戶簽下第二張訂單 **，或者為什麼去年六月的銷售額如此亮眼** 。 
+關鍵影響因素是協助您了解影響關鍵計量之因素的最佳選擇。 例如，什麼原因讓客戶簽下第二張訂單**，或者為什麼去年六月的銷售額如此亮眼**。 
 
 ### <a name="kpis"></a>KPI
 ![KPI](media/end-user-visual-type/power-bi-kpi.png)
@@ -210,12 +218,12 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 - 以表格格式顯示資料
 - 依類別顯示數值資料
 
-### <a name="treemaps"></a>矩形式樹狀結構圖
-![矩形式樹狀結構圖](media/end-user-visual-type/pbi-nancy-viz-tree.png)
+### <a name="tree-maps"></a>樹狀圖
+![樹狀圖](media/end-user-visual-type/pbi-nancy-viz-tree.png)
 
-矩形式樹狀結構圖是彩色矩形圖，值以矩形大小表示。  它們可以是階層式，各矩形可以巢嵌在主要矩形內。 每個矩形內的空間配置是根據測量中的值。 矩形會依大小從左上角 (最大) 排列到右下角 (最小)。
+樹狀圖是彩色矩形圖，值會以矩形大小表示。  它們可以是階層式，各矩形可以巢嵌在主要矩形內。 每個矩形內的空間配置是根據測量中的值。 矩形會依大小從左上角 (最大) 排列到右下角 (最小)。
 
-矩形式樹狀結構圖極適合：
+樹狀圖極適合：
 - 顯示大量的階層式資料
 - 橫條圖無法有效處理大量值的時候
 - 顯示各部分與整體之間的比例
@@ -241,7 +249,7 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 使用 Power BI 問與答輸入自然語言查詢時，您可以在查詢中指定視覺效果類型。  例如：
 
 
-***依州以矩形式樹狀結構圖顯示銷售額***.
+「以樹狀圖依州顯示銷售量」
 
 ![問與答工作階段](media/end-user-visual-type/qa-treemap.png)
 

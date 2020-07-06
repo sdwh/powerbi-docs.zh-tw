@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/14/2020
+ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159988"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85484924"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>將 Power BI 服務授權提供給組織中的使用者
 
@@ -39,6 +39,8 @@ ms.locfileid: "84159988"
 
 ## <a name="get-power-bi-for-your-organization"></a>為您的組織取得 Power BI
 
+如需價格的詳細資訊，請參閱[定價與產品比較](https://powerbi.microsoft.com/pricing/)。
+
 全域管理員或計費管理員可以註冊 Power BI 服務，並為其組織中的使用者購買授權。 如果尚未做好購買準備，請選取 Power BI Pro 試用版。 您將獲得 25 個可使用一個月的授權。 如需有關如何註冊的逐步指示，請參閱[為組織取得 Power BI 訂用帳戶](service-admin-org-subscription.md)。
 
 ## <a name="about-self-service-sign-up"></a>關於自助式註冊
@@ -46,6 +48,16 @@ ms.locfileid: "84159988"
 個別使用者可以使用其工作或學校帳戶來進行註冊，以取得自己的 Power BI 授權。 使用免費授權時，使用者可使用 [我的工作區] 來探索 Power BI 以檢視個人資料分析和視覺效果，但無法與其他使用者共用。 必要具備 Power BI Pro 授權，才能共用內容。 如果組織使用商務雲端，則使用者可將其授權類型升級至 Pro 或直接註冊 Pro。 直接購買或升級至 Pro 並不適用於教育組織，或部署至 Azure Government、Azure 德國，或 Azure China 21Vianet 雲端的組織。
 
 如果不想讓組織中的使用者使用自助式註冊，請參閱[啟用或停用自助式註冊](service-admin-disable-self-service.md)，以了解如何關閉此功能。
+
+關閉自助式註冊，讓使用者無法瀏覽 Power BI 以進行資料視覺化和分析。 如果您封鎖個別註冊，則您可以為組織取得 Power BI (免費) 授權，並指派給所有使用者。 請遵循這些步驟，自動將 Power BI (免費) 授權指派給所有現有使用者：
+
+1. 使用全域管理員或帳單管理員認證，登入 [Microsoft 365 系統管理中心](https://admin.microsoft.com)。
+1. 從左側的側邊欄功能表中，選取 [帳單] > [購買服務]。
+1. 搜尋或捲動以尋找 Power BI (免費) 供應項目。 選取該供應項目，然後選取 [立即取得]。
+1. 輸入涵蓋您所有使用者所需的授權數目。
+1. 選取 [自動將所有使用者指派為沒有授權的使用者]，然後簽出。
+
+  ![Power BI 免費自動指派的訂用帳戶](media/service-admin-licensing-organization/m365-auto-assign.png) 
 
 如果您想要查看組織中哪些使用者可能已經具備授權，請參閱[檢視和管理使用者授權](service-admin-manage-licenses.md)以了解做法。
 

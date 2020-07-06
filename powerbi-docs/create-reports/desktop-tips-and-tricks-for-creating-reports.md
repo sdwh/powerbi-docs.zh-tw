@@ -6,15 +6,15 @@ ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: ae9a3695c8db084d9c65871314edfef34cde1cb6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564567"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238471"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 中建立報表的秘訣和訣竅
 為了充分利用您的資料，有時您需要一些額外的協助。 我們集結了一些秘訣與技巧，可供您在 Microsoft Power BI Desktop 中，*以及*在啟用 Power Pivot 增益集與安裝並啟用 Power Query 的 Microsoft Excel 2016 或 Microsoft Excel 2013 Pro-Plus 版本中，用來建立報表。 
@@ -99,11 +99,11 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 ## <a name="histograms"></a>長條圖
 在 Power BI Desktop 中，您可以使用導出欄位來定義長條圖。 指定您要建立長條圖的資料表和資料行。 在計算區域中，輸入下列公式：
 
-> Frequency:=COUNTROWS(\<資料行名稱\>)
+> Frequency:=COUNTROWS(\<Column Name\>)
 > 
 > 
 
-儲存您的變更並返回報表。 將 \<資料行名稱\> 和 Frequency 加入資料表，然後轉換成橫條圖。 確定 \<資料行名稱\> 位於 X 軸上，而導出欄位 Frequency 位於 Y 軸上。
+儲存您的變更並返回報表。 將 \<Column Name\> 和 Frequency 加入資料表，然後轉換成橫條圖。 確定 \<Column Name\> 位於 X 軸上，而導出欄位 Frequency 位於 Y 軸上。
 
 ## <a name="tips-and-tricks-for-creating-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中建立關聯性的祕訣和訣竅
 通常從多個來源載入詳細資料集時，Null 值、空白值或重複值等問題會使您無法建立關聯性。 

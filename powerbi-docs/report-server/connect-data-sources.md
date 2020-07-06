@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 06/26/2020
 ms.author: maggies
-ms.openlocfilehash: 7cb5772e6ccdc1e4036d70f65a3a28210a4f6df1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 531c0ab2bb797e1ad5aaa4d974e51963f7c3e2ad
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260707"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485384"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Power BI 報表伺服器中的分頁報表資料來源
 Power BI 報表伺服器中的 Reporting Services 分頁報表所支援的資料來源，和 SQL Server Reporting Services 中支援的資料來源相同。 請參閱 [Reporting Services 支援的資料來源](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)清單。
@@ -25,7 +25,7 @@ Power BI 報表伺服器中的 Reporting Services 分頁報表所支援的資料
 根據預設，報表伺服器會使用第一個用戶端的 UI 文化特性來載入 ODP.NET。  因此，在服務重新啟動之前，所有從報表伺服器連線到 Oracle 的後續連線都會使用該初始 UI 文化特性。  此方法可能造成轉譯報表的問題，因為 UI 文化特性格式不相符。
 
 為了在 Power BI 報表伺服器中提供更好的體驗，我們已引進名為 UseInstalledUICulture 的組態設定。 當 UseInstalledUICulture 設定為 true 時，報表伺服器一律使用伺服器的 UI 文化特性載入 ODP.NET，而不是第一個用戶端的文化特性。
-Power BI 報表伺服器從「二月服務版本」開始提供此設定
+Power BI 報表伺服器從「2020 年 3 月服務版本」開始提供此設定。
 
 若要啟用此功能，請修改 rsreportserver.config 檔案中的 ORACLE 延伸模組項目，如下所示。
 ```xml

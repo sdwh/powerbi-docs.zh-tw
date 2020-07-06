@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 95e661e81e7753d0a28806cca5d652f8e92666a8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 24e8ac32fb89db2fdc0d1f4ad3fbaffdadaf57bb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114098"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237425"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI 視覺效果中的視覺效果篩選 API
 
@@ -261,7 +261,7 @@ SELECT * FROM DataTable WHERE ( Team = "Team1" AND Value = 5 ) OR ( Team = "Team
 
 ## <a name="restore-the-json-filter-from-the-data-view"></a>從資料檢視還原 JSON 篩選
 
-從 API 2.2 版開始，您可以從 *VisualUpdateOptions* 還原 JSON 篩選，如下列程式碼所示：
+從 API 2.2.0 版開始，您可以從 *VisualUpdateOptions* 還原 JSON 篩選，如下列程式碼所示：
 
 ```typescript
 export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
@@ -285,7 +285,7 @@ export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
 
 ### <a name="clear-the-json-filter"></a>清除 JSON 篩選
 
-篩選 API 會將篩選的 `null` 值接受為「重設」  或「清除」  。
+篩選 API 會將篩選的 `null` 值接受為「重設」或「清除」。
 
 ```typescript
 // invoke the filter

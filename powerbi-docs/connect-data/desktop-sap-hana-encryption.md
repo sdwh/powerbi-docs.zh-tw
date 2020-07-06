@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 364736ae8f4cf800c9c63282feb07f8e081aeb42
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 83e1725b7ce7d38a00d0564702977c3a8eef7c1d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83289204"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85222874"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>啟用 SAP HANA 的加密
 
@@ -38,7 +38,7 @@ ms.locfileid: "83289204"
 
 為 HANA 伺服器建立 X509 憑證簽署要求。
 
-1. 使用 SSH 以 \<sid\>adm 身分連線到執行 HANA 伺服器的 Linux 機器。
+1. 使用 SSH，以 \<sid\>adm 身分連線到 HANA 伺服器執行所在的 Linux 機器。
 
 1. 移至主目錄 _/__usr/sap/\<sid\>/home_。
 
@@ -82,7 +82,7 @@ ms.locfileid: "83289204"
 
     用戶端必須信任用來簽署 HANA 伺服器 X509 憑證的 CA，才能從用戶端的電腦對 HANA 伺服器建立加密連線。
 
-    有各種方式可以使用 Microsoft Management Console (mmc) 或命令列來確保存在此信任關係。 您可以將 CA X509 憑證 (trust.pem) 匯入即將建立連線的使用者 [信任的根憑證授權單位]  資料夾中，或是匯入用戶端電腦本身的相同資料夾中 (想要的話)。
+    有各種方式可以使用 Microsoft Management Console (mmc) 或命令列來確保存在此信任關係。 您可以將 CA X509 憑證 (trust.pem) 匯入即將建立連線的使用者 [信任的根憑證授權單位] 資料夾中，或是匯入用戶端電腦本身的相同資料夾中 (想要的話)。
 
     ![信任的根憑證授權單位資料夾](media/desktop-sap-hana-encryption/trusted-root-certification.png)
 
@@ -98,7 +98,7 @@ ms.locfileid: "83289204"
 
 在 Power BI Desktop 或 Power BI 服務中測試連線。
 
-1. 在 Power BI Desktop 或 Power BI 服務的 [管理閘道]  頁面中，確定已啟用 [驗證伺服器憑證]  ，然後嘗試建立與 SAP HANA 伺服器的連線。 針對 [SSL 密碼編譯提供者]  ，如果您已遵循 OpenSSL 安裝步驟，請選取 mscrypto；如果您已將 commoncrypto 程式庫設定為密碼編譯提供者，請選取 commoncrypto。 將 [SSL 金鑰存放區] 和 [SSL 信任存放區] 欄位保留為空白。
+1. 在 Power BI Desktop 或 Power BI 服務的 [管理閘道] 頁面中，確定已啟用 [驗證伺服器憑證]，然後嘗試建立與 SAP HANA 伺服器的連線。 針對 [SSL 密碼編譯提供者]，如果您已遵循 OpenSSL 安裝步驟，請選取 mscrypto；如果您已將 commoncrypto 程式庫設定為密碼編譯提供者，請選取 commoncrypto。 將 [SSL 金鑰存放區] 和 [SSL 信任存放區] 欄位保留為空白。
 
     - Power BI Desktop
 
@@ -108,4 +108,4 @@ ms.locfileid: "83289204"
 
         ![驗證伺服器憑證 - 桌面](media/desktop-sap-hana-encryption/validate-server-certificate-desktop.png)
 
-1. 藉由在 Power BI Desktop 中載入資料，或在 Power BI 服務中重新整理已發佈的報表，確認您可以成功地建立與伺服器的加密連線，且已啟用 [驗證伺服器憑證]  選項。
+1. 藉由在 Power BI Desktop 中載入資料，或在 Power BI 服務中重新整理已發佈的報表，確認您可以成功地建立與伺服器的加密連線，且已啟用 [驗證伺服器憑證] 選項。

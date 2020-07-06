@@ -5,16 +5,16 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: da21acf2c37136b70bdb7ab70060422655ac879c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323865"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231073"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>針對 Power BI 閘道進行疑難排解 (個人模式)
 
@@ -47,25 +47,25 @@ ms.locfileid: "83323865"
 ## <a name="schedule-refresh"></a>排程重新整理
 **錯誤：遺漏儲存在雲端中的認證。**
 
-若您在具有已排程重新整理的情況下解除安裝並重新安裝閘道 (個人模式)，您便可能會在 \<dataset\> 的設定中遇到此錯誤。 當您解除安裝閘道 (個人模式) 時，即會從 Power BI 服務中移除針對重新整理而設定的資料集資料來源認證。
+如果您已排程重新整理，然後解除安裝並重新安裝了閘道 (個人模式)，則您可能會在 \<dataset\> 的設定中遇到此錯誤。 當您解除安裝閘道 (個人模式) 時，即會從 Power BI 服務中移除針對重新整理而設定的資料集資料來源認證。
 
-**解決方案：** 在 Power BI 中，移至資料集的重新整理設定。 在 [管理資料來源]  中，針對任何發生錯誤的資料來源，選取 [編輯認證]  。 然後再次登入資料來源。
+**解決方案：** 在 Power BI 中，移至資料集的重新整理設定。 在 [管理資料來源] 中，針對任何發生錯誤的資料來源，選取 [編輯認證]。 然後再次登入資料來源。
 
 **錯誤：為此資料集提供的認證不正確。請更新重新整理過程中或在 [資料來源設定] 對話方塊中的認證以繼續。**
 
 **解決方案：** 如果您收到認證訊息，可能表示：
 
-* 您用來登入資料來源的使用者名稱和密碼並非處於最新狀態。 在 Power BI 中，移至該資料集的 [重新整理] 設定。 在 [管理資料來源]  中，選取 [編輯認證]  來更新資料來源的認證。
+* 您用來登入資料來源的使用者名稱和密碼並非處於最新狀態。 在 Power BI 中，移至該資料集的 [重新整理] 設定。 在 [管理資料來源] 中，選取 [編輯認證] 來更新資料來源的認證。
 * 若其中一個來源使用 OAuth 進行驗證，則單一查詢內雲端來源和內部部署來源的混搭便無法在閘道 (個人模式) 中重新整理。 此問題的範例為：CRM Online 和本機 SQL Server 執行個體之間的混搭。 由於 CRM Online 需要 OAuth，因此混搭會失敗。
   
   這項錯誤是已知問題，且我們正在進行調查。 若要針對此問題採取因應措施，請針對雲端來源和內部部署來源使用不同的查詢。 然後使用合併或附加查詢合併它們。
 
 **錯誤：不支援的資料來源。**
 
-**解決方案：** 若您在 [排程重新整理]  設定中看到不支援資料來源的訊息，這可能表示： 
+**解決方案：** 若您在 [排程重新整理] 設定中看到不支援資料來源的訊息，這可能表示： 
 
 * 資料來源目前不支援在 Power BI 中重新整理。 
-* Excel 活頁簿不包含資料模型，僅包含工作表資料。 目前僅當上傳的 Excel 活頁簿包含資料模型時，Power BI 才支援重新整理。 當您使用 Power Query 匯入 Excel 中的資料時，請選擇 [載入]  選項來將資料載入資料模型。 此選項可確保將該資料匯入資料模型。 
+* Excel 活頁簿不包含資料模型，僅包含工作表資料。 目前僅當上傳的 Excel 活頁簿包含資料模型時，Power BI 才支援重新整理。 當您使用 Power Query 匯入 Excel 中的資料時，請選擇 [載入] 選項來將資料載入資料模型。 此選項可確保將該資料匯入資料模型。 
 
 **錯誤：[無法合併資料] &lt;查詢部分&gt;/&lt;…&gt;/&lt;…&gt;正在存取具有隱私權等級的資料來源，而其無法一起使用。請重建這個資料組合。**
 
@@ -101,7 +101,7 @@ ms.locfileid: "83323865"
 
 Power BI 目前針對使用 ACE OLEDB 提供者的資料來源不支援 Windows 驗證。
 
-**解決方案：** 若要因應處理此錯誤，請選取 [匿名驗證]  。 針對舊版 ACE OLE DB 提供者，匿名認證與 Windows 認證相同。
+**解決方案：** 若要因應處理此錯誤，請選取 [匿名驗證]。 針對舊版 ACE OLE DB 提供者，匿名認證與 Windows 認證相同。
 
 ## <a name="tile-refresh"></a>磚重新整理
 若您在儀表板磚重新整理時收到錯誤，請參閱[針對磚錯誤進行疑難排解](refresh-troubleshooting-tile-errors.md)。
@@ -110,17 +110,17 @@ Power BI 目前針對使用 ACE OLEDB 提供者的資料來源不支援 Windows 
 ### <a name="refresh-history"></a>重新整理歷程記錄
 透過**重新整理歷程記錄**，您可以查看發生的錯誤並在您需要建立支援要求時尋找有用資料。 您可以檢視排程及隨選重新整理。 以下是取得**重新整理歷程記錄**的方法。
 
-1. 在 Power BI 導覽窗格的 [資料集]  中，選取資料集。 開啟功能表，然後選取 [排程重新整理]  。
+1. 在 Power BI 導覽窗格的 [資料集] 中，選取資料集。 開啟功能表，然後選取 [排程重新整理]。
 
    ![選取 [排程重新整理]](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)
-1. 在 [設定...]  中，選取 [重新整理歷程記錄]  。 
+1. 在 [設定...] 中，選取 [重新整理歷程記錄]。 
 
    ![選取 [重新整理歷程記錄]](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh-2.png)
    
    ![重新整理歷程記錄資訊](media/service-admin-troubleshooting-power-bi-personal-gateway/refresh-history.png)
 
 ### <a name="event-logs"></a>事件記錄檔
-有數個事件記錄檔可以提供資訊。 若您是電腦的系統管理員，前兩個是**資料管理閘道**和 **PowerBIGateway**。 若您不是系統管理員，且若您正在使用資料閘道 (個人模式)，您會在 [應用程式]  記錄中看到記錄項目。
+有數個事件記錄檔可以提供資訊。 若您是電腦的系統管理員，前兩個是**資料管理閘道**和 **PowerBIGateway**。 若您不是系統管理員，且若您正在使用資料閘道 (個人模式)，您會在 [應用程式] 記錄中看到記錄項目。
 
 **Data Management Gateway** 和 **PowerBIGateway** 記錄檔位於 **Application and Services Logs**下。
 

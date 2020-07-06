@@ -6,16 +6,16 @@ ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114119"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782552"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>適用於 Power BI 取用者的導覽：全域搜尋
 
@@ -39,16 +39,16 @@ ms.locfileid: "79114119"
 
 ## <a name="sorting-content-lists"></a>排序內容清單
 
-如果您只有少量內容，則可能不需要排序。  但是，如果您有許多儀表板與報告，排序將可協助您找出所需的內容。 例如，此 [與我共用]  內容清單有 63 個項目。 
+如果您只有少量內容，則可能不需要排序。  但是，如果您有許多儀表板與報告，排序將可協助您找出所需的內容。 例如，這個 [與我共用] 內容清單有 257 個項目。 
 
-![[與我共用] 內容清單](./media/end-user-search-sort/power-bi-long-lists.png)
+![[與我共用] 內容清單](./media/end-user-search-sort/power-bi-all-shared.png)
 
-目前，此內容清單會依日期排序，從最新到最舊。 若要變更排序準則，請選取 [日期 (最新)]  右邊的箭號。
+目前，這個內容清單會依名稱字母順序 (從 A 到 Z) 排序。若要變更排序準則，請選取 [名稱 (A-Z)] 右邊的箭號。
 
 ![[排序] 下拉式功能表](./media/end-user-search-sort/power-bi-sort-date.png)
 
 
-排序也適用於工作區。 在此範例中，內容是依 [重新整理]  日期來排序。 若要設定工作區的排序準則，請選取欄標頭，然後選取一次來選取該標題，然後再次選取以變更排序方向。 
+排序也適用於工作區。 在此範例中，內容是依 [重新整理] 日期來排序。 若要設定工作區的排序準則，請選取欄標頭，然後選取一次來選取該標題，然後再次選取以變更排序方向。 
 
 ![搜尋報表](./media/end-user-search-sort/power-bi-workspace-sort.png)
 
@@ -60,5 +60,7 @@ ms.locfileid: "79114119"
 
 ## <a name="next-steps"></a>後續步驟
 [在報表中將視覺效果排序](end-user-change-sort.md)
+
+[在視覺效果中排序資料](end-user-change-sort.md)
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

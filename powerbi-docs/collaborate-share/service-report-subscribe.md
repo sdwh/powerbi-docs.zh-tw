@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c43b0710c15fcc77a08aa789a92d840d2425f5ab
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: d7e1365ce1328e529d056a80b46230b97febc446
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315940"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485660"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>為您自己和其他人訂閱 Power BI 服務中的報表和儀表板
 
@@ -109,7 +109,7 @@ Power BI 系統管理員可使用 Power BI 的稽核記錄來檢視訂閱詳細�
 
 ### <a name="general"></a>一般
 
-- 如同其他 BI 產品，您為訂閱所設定時間就是訂閱開始處理的時間。  當報表處理完成時，訂閱會排入佇列並傳送給電子郵件收件者。  我們致力於盡快處理和傳遞所有的訂閱。 但是，有時候在尖峰需求時，由於 Power BI 一次能傳送的訂閱數量有限，因此您可能會察覺到較長的延遲。 針對處理和傳送報表，大多數客戶都不會遇到延遲超過 15 分鐘的情況。 但針對特定時間和使用量龐大的租用戶，延遲最長可達 30 分鐘。  我們從不預期在排程訂閱之後，於傳遞上的延遲超過 60 分鐘。  若您發現延遲長達 60 分鐘，請先確認 `no-reply-powerbi@microsoft.com` 已在電子郵件提供者的白名單上。  若該電子郵件地址已在白名單上，請連絡 Power BI 支援以取得協助。
+- 如同其他 BI 產品，您為訂閱所設定時間就是訂閱開始處理的時間。  當報表處理完成時，訂閱會排入佇列並傳送給電子郵件收件者。  我們致力於盡快處理和傳遞所有的訂閱。 但是，有時候在尖峰需求時，由於 Power BI 一次能傳送的訂閱數量有限，因此您可能會察覺到較長的延遲。 針對處理和傳送報表，大多數客戶都不會遇到延遲超過 15 分鐘的情況。 但針對特定時間和使用量龐大的租用戶，延遲最長可達 30 分鐘。  我們從不預期在排程訂閱之後，於傳遞上的延遲超過 60 分鐘。  若您遇到長時間的延遲，請先確認 `no-reply-powerbi@microsoft.com` 地址位於您的安全寄件者清單中，而且未遭到電子郵件提供者封鎖。  如果電子郵件並未遭到封鎖，請連絡 Power BI 支援人員尋求協助。
 - 目前，訂閱自己以外的使用者時，除編頁報表外，不支援使用即時連線資料集的報表和儀表板電子郵件訂閱。 您可使用自己的安全性內容來為其他人訂閱編頁報表。 深入了解[訂閱編頁報表](../consumer/paginated-reports-subscriptions.md)。
 - 如果超過兩個月未瀏覽某些儀表板和報表，Power BI 會自動暫停重新整理與這些儀表板和報表建立關聯的資料集。 不過，如果您新增儀表板或報表的訂閱，即使有段時間未瀏覽也不會暫停。
 - 若您未收到訂閱電子郵件，請確認您的使用者主體名稱 (UPN) 能夠接收電子郵件。
@@ -134,6 +134,7 @@ Power BI 系統管理員可使用 Power BI 的稽核記錄來檢視訂閱詳細�
 - 電子郵件訂用帳戶不支援大部分[自訂視覺效果](../developer/power-bi-custom-visuals.md)。 其中一個例外是[「已認證」](../developer/power-bi-custom-visuals-certified.md)的自訂視覺效果。
 - 電子郵件訂用帳戶目前不支援 R 支援的自訂視覺效果。
 - 電子郵件訂閱傳送時會使用報表的預設篩選器和交叉分析篩選器狀態。 在訂閱之後對預設值所做的所有變更，均不會顯示在電子郵件中。 編頁報表支援此功能，且可供針對每個訂閱設定特定參數值。
+- 假設您的報表會與 Analysis Services 即時連線，而且您已將訂閱設定為在資料重新整理之後執行。 其將會在輪詢 Analysis Services 執行個體，且 Power BI 服務首次於您的內部部署模型中偵測到變更時執行。  Power BI 每小時都會在 Analysis Services 資料模型中檢查一次變更，以判斷何時傳送訂閱。
 
 ## <a name="next-steps"></a>後續步驟
 

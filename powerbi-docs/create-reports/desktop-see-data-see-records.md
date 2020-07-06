@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d1aca2499ecf2be3e38fe36bd00f5ff5b2c17cc7
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793795"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238617"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>使用 Power BI Desktop 中的視覺效果資料表和資料點資料表
 在 **Power BI Desktop** 中，您可以向下鑽研到視覺效果的詳細資料，並查看所選視覺效果基底資料的文字表示或個別資料記錄。 這些功能有時稱為「按一下」，或「鑽研」或「鑽研到詳細資料」。
@@ -82,7 +82,7 @@ ms.locfileid: "83793795"
 > [!NOTE]
 >[資料點資料表] 有下列限制：
 > - 您無法在 [資料點資料表] 檢視中變更資料並將其儲存回報表。
-> - 當視覺效果使用導出量值時，即無法使用 [資料點資料表]。
+> - 當視覺效果使用 (多維度) 計量群組中的導出量值時，您無法使用 [資料點資料表]。
 > - 當連接到即時多維度模型 (MD) 時，即無法使用 [資料點資料表]。
 
 ## <a name="next-steps"></a>後續步驟

@@ -5,15 +5,15 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 002df4e6c3eec7095258647a0015042efb98257f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 54091175b49a0465a56a689190965429715a4754
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292493"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485545"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>針對 Power BI Desktop 中的 DirectQuery 模型開發問題進行疑難排解
 
@@ -42,13 +42,13 @@ ms.locfileid: "83292493"
 - Teradata
 - SAP HANA
 
-追蹤檔案可能位於目前使用者的 **AppData** 資料夾中： _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
+您可以在目前使用者的 **AppData** 資料夾中找到追蹤檔案： _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
 
-以下是移至此資料夾的簡單方法：在 Power BI Desktop 中，選取 [檔案] > [選項及設定] > [選項]  ，然後選取 [診斷]  頁面。 下列對話方塊視窗隨即出現：
+以下是移至此資料夾的簡單方法：在 Power BI Desktop 中，選取 [檔案] > [選項及設定] > [選項]，然後選取 [診斷] 頁面。 下列對話方塊視窗隨即出現：
 
 ![[Power BI Desktop] 視窗會隨即開啟，並選取 [全域診斷] 頁面。 [診斷選項] 區段包含兩個屬性：[啟用追蹤] 及 [略過地理編碼快]，。 並會啟用 [啟用追蹤] 選項。 [損毀傾印集合] 區段中包含 [立即啟用] 按鈕，以及用來開啟損毀傾印/追蹤資料夾的連結。](media/desktop-directquery-troubleshoot/desktop-directquery-troubleshoot-desktop-file-options-diagnostics.png)
 
-當您選取 [開啟損毀傾印/追蹤資料夾]  連結時，會在 [損毀傾印集合] 下開啟下列資料夾： _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
+當您選取 [開啟損毀傾印/追蹤資料夾] 連結時，會在 [損毀傾印集合] 底下開啟下列資料夾： _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
 
 當您瀏覽至該資料夾的父資料夾時，會顯示包含 _AnalysisServicesWorkspaces_ 的資料夾，而其中另有一個工作區子資料夾，包含每一個已經開啟的 Power BI Desktop 執行個體。 這些子資料夾會在名稱後面加上整數來命名，例如 _AnalysisServicesWorkspace2058279583_。
 
@@ -62,13 +62,13 @@ ms.locfileid: "83292493"
 
 若要開啟追蹤檔案，請執行下列步驟：
 
-1. 在 SQL Server Profiler 中，選取 [檔案] > [開啟] > [追蹤檔案] 
+1. 在 SQL Server Profiler 中，選取 [檔案] > [開啟] > [追蹤檔案]
 2. 輸入目前開啟之 Power BI 工作階段的追蹤檔案路徑，例如： _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_
 3. 開啟 _FlightRecorderCurrent.trc_
 
 目前工作階段中的所有事件會隨即顯示。 以下顯示註解的範例，其中醒目提示多組事件。 每個群組具有下列各項：
 
-- 「查詢開始」  和「查詢結束」  事件，分別代表 UI (例如從視覺效果或透過在篩選 UI 中填入值清單) 所產生之 DAX 查詢的開始和結束
+- 「查詢開始」和「查詢結束」事件，分別代表 UI (例如從視覺效果或透過在篩選 UI 中填入值清單) 所產生之 DAX 查詢的開始和結束
 - 當有一或多組的 _DirectQuery Begin_ 與 _DirectQuery End_ 事件配對時，表示在評估 DAX 查詢過程中，傳送了查詢至基礎資料來源
 
 請注意，多個 DAX 查詢可以平行執行，因此可以交錯來自不同群組的事件。 ActivityID 的值可以用來判斷哪些事件是屬於相同的群組。

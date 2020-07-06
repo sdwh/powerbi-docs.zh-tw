@@ -3,37 +3,34 @@ title: 與同事和其他人共用 Power BI 儀表板和報表
 description: 如何與組織內外的同事共用 Power BI 儀表板與報表，以及需要了解的共用相關資訊。
 author: maggiesMSFT
 ms.reviewer: lukaszp
-featuredvideoid: 0tUwn8DHo3s
+ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 11/26/2019
+ms.topic: how-to
+ms.date: 06/26/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cf971de1a60636def852080a523c227f08b4f888
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: d09ebee0cc22c7037db437e1c7a46a3d19ff36fd
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272923"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485570"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用 Power BI 儀表板和報表
-「共用」是讓一些人存取您儀表板和報表的一種好方法。 Power BI 還提供[數種其他方式可進行共同作業及散發您的儀表板和報表](service-how-to-collaborate-distribute-dashboards-reports.md)。
-
-![儀表板清單中的共用圖示](media/service-share-dashboards/power-bi-share-new-look.png)
-
-不論是與組織內部或外部共用內容，您都會需要 [Power BI Pro 授權](../fundamentals/service-features-license-type.md)。 您的收件者也必須具有 Power BI Pro 授權，除非內容位於 [Premium 容量](../admin/service-premium-what-is.md)中。 
-
-您可以從 Power BI 服務中的大部分位置共用儀表板和報表：我的最愛、最近項目、我的工作區、與我共用 (如果擁有者允許的話)。 如果擁有工作區中的[系統管理員、成員或參與者角色](service-new-workspaces.md#roles-in-the-new-workspaces)，您也可以從其他工作區共用。 
+「共用」是讓使用者在 Power BI 服務中存取您儀表板和報表的最簡單方式。 您可以與組織內部或外部人員共用。
 
 當您與他人共用儀表板或報表時，其可檢視該儀表板或報表並與之互動，但無法編輯它們。 除非您為基礎資料集套用資料列層級安全性 (RLS)，否則他們可以看到您儀表板和報表中的相同資料，並可以存取整個基礎資料集。  如果您允許的話，您與其共用儀表板或報表的同事，也可以與他們的同事共用。 組織外部人員可以檢視儀表板或報表並與其互動，但不能共用。 
 
+![儀表板清單中的共用圖示](media/service-share-dashboards/power-bi-share-new-look.png)
+
+您可以從 Power BI 服務中的許多位置共用儀表板和報表：我的最愛、最近、我的工作區。 如果擁有工作區中的[系統管理員、成員或參與者角色](service-new-workspaces.md#roles-in-the-new-workspaces)，您也可以從其他工作區共用。 而且，如果擁有者允許，您就能共用 [與我共用] 中的儀表板和報表。 
+
+Power BI 服務還會提供其他方式，來對您的儀表板和報表進行共同作業及散發。 請參閱[在 Power BI 中共同作業及共用的方式](service-how-to-collaborate-distribute-dashboards-reports.md)，以查看哪種方式最適合您的情況。 
+
+不論是與組織內部或外部共用內容，您都會需要 [Power BI Pro 授權](../fundamentals/service-features-license-type.md)。 您的收件者也必須具有 Power BI Pro 授權，除非內容位於 [Premium 容量](../admin/service-premium-what-is.md)中。 
+
 您無法直接從 Power BI Desktop 「共用」。 您必須[將 Power BI Desktop 的報表發佈至](../create-reports/desktop-upload-desktop-files.md) Power BI 服務。 不過，您可以[從 Power BI 行動裝置應用程式共用儀表板](../consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)。  
-
-## <a name="video-share-a-dashboard"></a>影片：共用儀表板
-觀看 Amanda 與 Amanda 公司內外的同事共用儀表板。 然後遵循影片下方的逐步指示親自試試看。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0tUwn8DHo3s?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="share-a-dashboard-or-report"></a>共用儀表板或報表
 
@@ -98,6 +95,14 @@ ms.locfileid: "84272923"
 
 Power BI 系統管理員可以允許外部來賓使用者編輯和管理組織中的內容。 若是如此，您的外部使用者就不僅限於取用。 組織外部人員可以編輯和管理您組織內的內容。 深入了解[使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者](../admin/service-admin-azure-ad-b2b.md)。
 
+## <a name="share-with-more-than-100-separate-users"></a>與超過 100 個不同的使用者共用
+
+在單一的共用動作中，您最多可以與 100 個使用者或群組共用。 不過，您可以讓超過 500 個使用者存取某個項目。 以下為一些建議：
+
+- 個別指定使用者來多次共用。
+- 與包含所有使用者的使用者群組共用。 
+- 在工作區中建立報表或儀表板，然後從工作區建立應用程式。 您可以與其他更多人共用應用程式。 深入了解如何[在 Power BI 中發佈應用程式](service-create-distribute-apps.md)。
+
 ## <a name="stop-or-change-sharing"></a>停止或變更共用
 只有儀表板或報表擁有者可以開啟和關閉再次共用。
 
@@ -132,50 +137,10 @@ Power BI 系統管理員可以允許外部來賓使用者編輯和管理組織�
 * 如果您的同事已能存取特定儀表板或報表，則當你在儀表板或報表上時，您只要複製 URL 即可將其傳送為直接連結。 例如：`https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`。
 * 同樣地，如果您的同事已能存取特定儀表板，您可以[傳送基礎報表的直接連結](service-share-reports.md)。 
 
-### <a name="share-with-more-than-100-separate-users"></a>與超過 100 個不同的使用者共用
-
-在單一的共用動作中，您最多可以與 100 個使用者或群組共用。 不過，您可以讓超過 500 個使用者存取某個項目。 以下為一些建議：
-
-- 個別指定使用者來多次共用。
-- 與包含所有使用者的使用者群組共用。 
-- 在工作區中建立報表或儀表板，然後從工作區建立應用程式。 您可以與其他更多人共用應用程式。 深入了解如何[在 Power BI 中發佈應用程式](service-create-distribute-apps.md)。
-
-## <a name="troubleshoot-sharing"></a>針對共用問題進行疑難排解
-
-### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>我的儀表板收件者看到磚中出現鎖定圖示或「需要權限」的訊息
-
-與您共用的人員在嘗試檢視報告時，可以看到儀表板中鎖定的圖格或「需要權限」訊息。
-
-![Power BI 鎖定的圖格](media/service-share-dashboards/power-bi-locked_tile_small.png)
-
-若是如此，您需要授與他們基礎資料集的權限。
-
-1. 前往內容清單中的 [資料集] 索引標籤。
-
-1. 選取資料集旁的省略符號 ( **...** )，然後選取 [管理權限]。
-
-    ![管理權限](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
-
-1. 選取 [新增使用者]。
-
-    ![選取 [新增使用者]](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
-
-1. 輸入個人、通訊群組或安全性群組的完整電子郵件地址。 您無法共用動態通訊清單。
-
-    ![新增電子郵件地址](media/service-share-dashboards/power-bi-add-user-dataset.png)
-
-
-1. 選取 [新增]。
-
-### <a name="i-cant-share-a-dashboard-or-report"></a>我無法共用儀表板或報表
-
-若要共用儀表板或報表，您必須具備再次共用基礎內容 (亦即，任何相關報表和資料集) 的權限。 如果您看到無法共用的訊息，可請報表作者提供再次共用這些報表和資料集的權限。
-
-![「無法共用」訊息](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
-
-
 ## <a name="next-steps"></a>後續步驟
 
-* [應該如何共同作業和共用儀表板和報表？](service-how-to-collaborate-distribute-dashboards-reports.md)
-* [共用已篩選的 Power BI 報表](service-share-reports.md)
-* 有問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
+- [應該如何共同作業和共用儀表板和報表？](service-how-to-collaborate-distribute-dashboards-reports.md)
+- [針對共用儀表板和報表進行疑難排解](service-troubleshoot-sharing.md)
+- [要求或授與共用儀表板或報表的存取權](service-request-access.md)
+- [共用已篩選的 Power BI 報表](service-share-reports.md)
+- 有問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

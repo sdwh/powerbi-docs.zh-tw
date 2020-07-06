@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/24/2020
 ms.author: painbar
-ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 9655783decee99bc90071cdfbd66a8b58d8272f4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565292"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782581"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -24,6 +24,20 @@ ms.locfileid: "83565292"
 
 >[!NOTE]
 >**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="june-2020"></a>2020 年 6 月
+### <a name="show-your-bookmarks-in-slideshows-windows"></a>在投影片中顯示您的書籤 (Windows)
+現在，您可以在投影片中加入報表與個人書籤，其會自動成為簡報的一部分，以在資料中醒目提示特定見解。
+[立即了解！](mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
+
+## <a name="may-2020"></a>2020 年 5 月
+### <a name="weve-added-dark-mode-to-power-bi-mobile-ios"></a>Power BI 行動版新增了深色模式 (iOS)
+在適用於 iOS13 的 Power BI 行動應用程式中試用新的深色模式。 在深色模式中，您將在深色背景中看到淺色文字，降低螢幕亮度，讓您能夠更輕鬆地查看內容。 您可以在應用程式外觀設定中切換主題。 [深入了解](mobile-apps-dark-mode.md)
+
+![Power BI 行動應用程式中的深色模式](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode.png)
+
+### <a name="apply-bookmarks-in-presentation-mode-windows"></a>在簡報模式中套用書籤 (Windows)
+現在，您可以在使用簡報模式展示報表時，將個人及報表書籤套用至報表頁面，以顯示資料的內容。 [立即了解！](mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
 
 ## <a name="april-2020"></a>2020 年 4 月
 

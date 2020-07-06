@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e24888d4be0a527bd7af6a28fd28795b516b2020
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d6301b4eea49ab4ae5714446e051290cb254c324
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309260"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354746"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體
 
@@ -45,7 +45,7 @@ ms.locfileid: "83309260"
 1. 您必須是 ADLS 儲存體帳戶的擁有者。 這必須在資源層級指派，而不是從訂用帳戶層級繼承。
 2. 儲存體帳戶必須建立在與您 Power BI 租用戶相同的 AAD 租用戶中。
 3. 儲存體帳戶必須建立在與您 Power BI 租用戶相同的區域中。 若要判斷 Power BI 租用戶的所在位置，請參閱[我的 Power BI 租用戶位於何處](../admin/service-admin-where-is-my-tenant-located.md)。
-4. 儲存體帳戶必須啟用「階層命名空間」  功能。
+4. 儲存體帳戶必須啟用「階層命名空間」功能。
 
 下列各節將詳細逐步解說設定 Azure Data Lake Storage Gen2 帳戶所需的步驟。
 
@@ -53,9 +53,9 @@ ms.locfileid: "83309260"
 
 請依照[建立 Azure Data Lake Storage Gen2 儲存體帳戶](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account) \(英文\) 一文中的步驟進行操作。
 
-1. 確定所選取的位置與您的 Power BI 租用戶相同，並將儲存體設定為 [StorageV2 (一般用途 v2)] 
+1. 確定所選取的位置與您的 Power BI 租用戶相同，並將儲存體設定為 [StorageV2 (一般用途 v2)]
 2. 確定啟用階層命名空間功能
-3. 建議將複寫設定設為 [讀取權限異地備援儲存體 (RA-GRS)] 
+3. 建議將複寫設定設為 [讀取權限異地備援儲存體 (RA-GRS)]
 
 ### <a name="grant-permissions-to-power-bi-services"></a>將權限授與 Power BI 服務
 
@@ -63,30 +63,30 @@ ms.locfileid: "83309260"
 
 請依照[指派內建的 RBAC 角色](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)中的步驟進行。
 
-在 [新增角色指派]  視窗中，選取 [讀者和資料存取]  角色。 然後使用搜尋找到 **Power BI 服務**應用程式。
-針對 [儲存體 Blob 資料擁有者]  角色重複相同的步驟，然後將角色指派給 **Power BI 服務**和 **Power BI Premium** 應用程式。
+在 [新增角色指派] 視窗中，選取 [讀者和資料存取] 角色。 然後使用搜尋找到 **Power BI 服務**應用程式。
+針對 [儲存體 Blob 資料擁有者] 角色重複相同的步驟，然後將角色指派給 **Power BI 服務**和 **Power BI Premium** 應用程式。
 
 > [!NOTE]
 > 允許至少 30分鐘，讓權限從入口網站傳播至 Power BI。 每當您在入口網站中變更權限時，請允許 30 分鐘，讓權限反映在 Power BI 中。 
 
 ## <a name="connect-your-azure-data-lake-storage-gen2-to-power-bi"></a>將 Azure Data Lake Storage Gen2 連線至 Power BI
 
-在 Azure 入口網站中設定好 Azure Data Lake Storage Gen2 帳戶之後，您需在 **Power BI 管理入口網站**中將它連線至 Power BI。 您還需在 Power BI 管理入口網站的 [資料流程儲存體]  設定區段中管理 Power BI 資料流程。 如需有關啟動和基本使用方面的指引，請參閱[如何取得管理入口網站](../admin/service-admin-portal.md)，以了解詳細資訊。
+在 Azure 入口網站中設定好 Azure Data Lake Storage Gen2 帳戶之後，您需在 **Power BI 管理入口網站**中將它連線至 Power BI。 您還需在 Power BI 管理入口網站的 [資料流程儲存體] 設定區段中管理 Power BI 資料流程。 如需有關啟動和基本使用方面的指引，請參閱[如何取得管理入口網站](../admin/service-admin-portal.md)，以了解詳細資訊。
 
 您可以透過下列步驟連線您的 **Azure Data Lake Storage Gen2** 帳戶：
 
-1. 巡覽至 **Power BI 管理入口網站**的 [資料流程設定]  索引標籤
+1. 巡覽至 **Power BI 管理入口網站**的 [資料流程設定] 索引標籤
 
     ![Power BI 管理入口網站](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-08b.png) 
 
-2. 選取 [連線您的 Azure Data Lake Storage Gen2]  按鈕。 下列視窗隨即出現。
+2. 選取 [連線您的 Azure Data Lake Storage Gen2] 按鈕。 下列視窗隨即出現。
 
     ![Azure Data Lake Storage Gen2](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_09.jpg) 
 
-3. 提供「儲存體帳戶」的 [訂用帳戶識別碼]  。
-4. 提供儲存體帳戶建立所在的 [資源群組名稱]  。
-5. 提供 [儲存體帳戶名稱]  。
-6. 選取 [連接]  。
+3. 提供「儲存體帳戶」的 [訂用帳戶識別碼]。
+4. 提供儲存體帳戶建立所在的 [資源群組名稱]。
+5. 提供 [儲存體帳戶名稱]。
+6. 選取 [連接]。
 
 成功完成那些步驟之後，您的 Azure Data Lake Storage Gen2 帳戶便會連線到 Power BI。 
 
@@ -100,7 +100,7 @@ ms.locfileid: "83309260"
 
 資料流程定義和資料檔案預設會儲存在 Power BI 所提供的儲存體中。 若要存取您自己儲存體帳戶中的資料流程檔案，工作區系統管理員必須先設定工作區，以允許將資料流程指派及儲存在新的儲存體帳戶中。 您必須先在 **Power BI 管理入口網站**中將儲存體指派權限授與工作區系統管理員，該系統管理員才能設定資料流程儲存體設定。
 
-若要授與儲存體指派權限，請前往 **Power BI 管理入口網站**中的 [資料流程設定]  索引標籤。 您必須將 [允許工作區系統管理員將工作區指派給此儲存體帳戶]  的選項按鈕設定為 [允許]  。 啟用該滑桿之後，請選取 [套用]  按鈕以讓變更生效。 
+若要授與儲存體指派權限，請前往 **Power BI 管理入口網站**中的 [資料流程設定] 索引標籤。 您必須將 [允許工作區系統管理員將工作區指派給此儲存體帳戶] 的選項按鈕設定為 [允許]。 啟用該滑桿之後，請選取 [套用] 按鈕以讓變更生效。 
 
 ![允許系統管理員指派工作區](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_10.jpg) 
 

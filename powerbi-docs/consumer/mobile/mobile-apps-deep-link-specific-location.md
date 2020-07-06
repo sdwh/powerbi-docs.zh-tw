@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: f0a72cf315c8ad911414274daae11b712971b305
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 2590e5fad227027f7cc2fddf2f93a18b92f39ae3
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114504"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393768"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>建立 Power BI 行動裝置應用程式中的特定位置連結
 您可以使用連結直接存取 Power BI 中的特定項目：報表、儀表板和磚。
@@ -68,7 +68,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 
 #### <a name="links-of-apps-and-items-in-app"></a>應用程式和應用程式中項目的連結
 
-針對**應用程式及屬於應用程式一部分的報表和儀表板**，取得連結最簡單的方法是移至工作區，然後選擇 [更新應用程式]。 這會開啟 [發佈應用程式] 體驗，且在 [存取] 索引標籤中，您會找到 [連結]  區段。 展開該區段，您就會看到應用程式及其所有內容連結的清單，這些連結可用來進行直接存取。
+針對**應用程式及屬於應用程式一部分的報表和儀表板**，取得連結最簡單的方法是移至工作區，然後選擇 [更新應用程式]。 這會開啟 [發佈應用程式] 體驗，且在 [存取] 索引標籤中，您會找到 [連結] 區段。 展開該區段，您就會看到應用程式及其所有內容連結的清單，這些連結可用來進行直接存取。
 
 ![Power BI 的發佈應用程式連結 ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 

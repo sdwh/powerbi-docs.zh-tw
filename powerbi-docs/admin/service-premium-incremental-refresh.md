@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
-ms.date: 05/26/2020
+ms.topic: how-to
+ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 2257e38183d87ef7fd4fdd12546c2a191a7acf74
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: a9045c5c088926b24bb9f71e2adf558da6ffa597
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159873"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227438"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI 中的累加式重新整理
 
@@ -114,7 +114,7 @@ Power BI 服務中的第一次重新整理可能需要較長的時間才能匯�
 
 #### <a name="current-date"></a>目前日期
 
-「目前日期」是以重新整理時的系統日期為基礎。 如果已為 Power BI 服務中的資料集啟用排程重新整理，則在判斷目前日期時，會將指定的時區納入考量。 手動叫用及排程的重新整理都會遵守時區 (如果有的話)。 例如，以指定時區在太平洋時間 (美國和加拿大) 下午 8 點發生的重新整理，將會根據太平洋時間 (而非 GMT) 來判斷目前日期。
+「目前日期」是以重新整理時的系統日期為基礎。 如果已為 Power BI 服務中的資料集啟用排程重新整理，則在判斷目前日期時，會將指定的時區納入考量。 透過 Power BI 服務手動叫用及排程的重新整理都會遵守時區 (如果有的話)。 例如，以指定時區在太平洋時間 (美國和加拿大) 下午 8 點發生的重新整理，將會根據太平洋時間 (而非 GMT) 來判斷目前日期。 未透過 Power BI 服務 (例如 [TMSL Refresh 命令](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) \(部分機器翻譯\)) 叫用的重新整理作業，將不會考慮排程的重新整理時區
 
 ![時區](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -186,7 +186,7 @@ Premium 容量中資料集的 [XMLA 端點](service-premium-connect-tools.md)可
 
 - **applyRefreshPolicy** - 如果資料表已定義累加式重新整理原則，applyRefreshPolicy 會判斷是否已套用此原則。 如果未套用此原則，則處理完整作業會將資料分割定義保留不變，而且會完整重新整理資料表中的所有資料分割。 預設值為 true。
 
-- **effectiveDate** - 如果套用累加式重新整理原則，其必須知道目前的日期，以判斷歷程記錄範圍和累加式範圍的滾動時段範圍。 effectiveDate 參數可讓您覆寫目前的日期。 這適用於測試、示範和商務案例，其中資料會以累加方式重新整理至過去或未來的日期 (例如，未來的預算)。 預設值是[目前日期](#current-date)。
+- **effectiveDate** - 如果套用累加式重新整理原則，其必須知道目前的日期，以判斷歷程記錄範圍和累加式範圍的滾動時段範圍。 effectiveDate 參數可讓您覆寫目前的日期。 這適用於測試、示範和商務案例，其中資料會以累加方式重新整理至過去或未來的日期 (例如，未來的預算)。 預設值是目前日期。
 
 ```json
 { 
@@ -205,6 +205,8 @@ Premium 容量中資料集的 [XMLA 端點](service-premium-connect-tools.md)可
   }
 }
 ```
+
+若要深入了解如何使用 TMSL 覆寫預設的累加式重新整理行為，請參閱 [Refresh 命令](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) \(部分機器翻譯\)。
 
 ### <a name="custom-queries-for-detect-data-changes"></a>偵測資料變更的自訂查詢
 

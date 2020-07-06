@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b74c0948ba8d22f1917f9750f86e899c8a99a904
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276551"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239383"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>顯示視覺效果的基礎資料
 
@@ -70,7 +70,7 @@ Power BI 視覺效果是使用您資料集中的資料所建構的。 如果您�
 
 - 如果功能區中的 [查看記錄] 按鈕已停用呈灰色，表示所選取的視覺效果不支援 [查看記錄]。
 - 您無法在 [查看記錄] 檢視中變更資料並儲存回報表。
-- 當視覺效果使用導出量值時，您無法使用 [查看記錄]。
+- 當視覺效果在多維度模型中使用導出量值時，您無法使用 [查看記錄]。
 - 當您連接到即時多維度模型 (MD) 時，不能使用 [查看記錄]。  
 
 ## <a name="next-steps"></a>後續步驟

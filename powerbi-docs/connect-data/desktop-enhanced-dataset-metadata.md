@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/21/2020
+ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 42e3f36689e62b196f5d8cb82bd4dd5ee118bf8b
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 0a09311c5fdb1a8b2e008996d993015f33ee9b5f
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793396"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739245"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>使用增強型資料集中繼資料 (預覽)
 
@@ -64,11 +64,13 @@ ms.locfileid: "83793396"
 在預覽版本中，當啟用預覽功能時即適用下列限制。
 
 ### <a name="unsupported-features-and-connectors"></a>不支援的功能和連接器
+
+適用下列限制：
+
 在開啟尚未升級的現有 PBIX 和 PBIT 檔案時，若資料集包含任何下列功能或連接器，升級將會失敗。 若發生這類錯誤，應不會對使用者體驗造成立即的影響，且 Power BI Desktop 會繼續使用先前的中繼資料格式。
 
-* 所有自訂連接器
+* 所有自訂連接器 (2020 年 5 月版本限制)
 * Python 指令碼
-* 自訂連接器
 * Azure DevOps Server
 * BI 連接器
 * Denodo
@@ -84,16 +86,15 @@ ms.locfileid: "83793396"
 * 包含特定字元組合的 (例如在資料行名稱中包含 “\\n”) M 運算式
 * 在啟用**增強型資料集中繼資料**功能並使用資料集時，無法在 Power BI 服務中設定單一登入 (SSO) 資料來源
 
-使用這些所列連接器的報表將不會升級為新格式。 已經升級或在啟用這項新功能之後所建立的報表，將不支援新增所列出不支援的功能或連接器。 
+如果您使用的是 **2020 年 6 月**版本的 Power BI Desktop (或更新版本)，則 Power BI Desktop 和 Power BI 服務支援所有自訂連接器和所有內建連接器。 在使用 2020 年 6 月版本或更新版本時的發佈程序期間，如果閘道遇到問題，則資料集將會成功發佈，但使用者必須重新發佈報表，才能重新整理資料。 [資料來源設定] 對話方塊是發佈程序發生問題的唯一指標。
+
+若報表使用不支援的連接器或功能，則其將不會升級為新格式。 已經升級或在啟用這項新功能之後所建立的報表，將不支援新增所列出不支援的功能或連接器。 
 
 不支援具有動態資料來源的查詢。 具有動態資料來源的報表將不會升級為新格式，且已升級或新建立的報表若已啟用功能，將不支援新增動態資料來源。 如果來源根據參數、函式輸入或動態函式而變更，則查詢具有動態資料來源。 
 
 不支援上游步驟或分支中發生錯誤的查詢。 
 
-此外，已成功升級至使用**增強型資料集中繼資料**的 PBIX 和 PBIT 檔案「無法」在目前版本中使用上述功能或連接器。
-
-
-
+此外，已經成功升級為使用**增強型資料集中繼資料**的 PBIX 和 PBIT 檔案「無法」使用上述功能 (或任何不支援的連接器)。
 
 ### <a name="lineage-view"></a>譜系檢視
 使用新中繼資料格式的資料集目前不會在 Power BI 服務內譜系檢視中顯示資料流程的連結。

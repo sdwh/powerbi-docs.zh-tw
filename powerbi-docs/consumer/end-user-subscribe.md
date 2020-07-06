@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: dfb307a53ac4fd75188965618a08bb4bdee5689b
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: e82dde5022bf0ad28d37e0ed9a8ac9553fbbd75d
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794183"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485890"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>訂閱 Power BI 服務中的報表或儀表板 
 
@@ -93,7 +93,7 @@ ms.locfileid: "83794183"
 * 尤其是儀表板訂閱，尚不支援某些類型的磚。  其中包括：資料流磚、影片磚、自訂 Web 內容磚。     
 * 由於電子郵件大小限制，儀表板或報表若含有非常大的影像，訂閱可能會失敗。    
 * 如果超過兩個月未瀏覽某些儀表板和報表，Power BI 會自動暫停重新整理與這些儀表板和報表建立關聯的資料集。  不過，如果您新增儀表板或報表的訂閱，即使有段時間未瀏覽也不會暫停。
-* 請記住，如同其他 BI 產品，您為訂閱所設定時間就是訂閱開始處理的時間。  報表處理完成之後，訂閱會排入佇列並傳送給電子郵件收件者。  雖然我們致力於儘快處理和提供所有訂閱，但有些時候可能會有尖峰需求，可能會因為一次可傳送的訂閱數目而看到較長的延遲。  對大部分的客戶而言，其在處理和傳送其報表時不應該看到超過 15 分鐘時間的延遲，不過在特定時間以及具有大量使用量的租用戶，可能需要最多 30 分鐘的時間。  我們從不預期在排程訂閱之後，於傳遞上的延遲超過 60 分鐘。  萬一有任何客戶看到該長度的延遲，其應該先確定位址 no-reply-powerbi@microsoft.com 由其電子郵件提供者列入允許清單。  若該電子郵件地址已在白名單上，則應連絡 Power BI 支援以取得協助。
+* 請記住，如同其他 BI 產品，您為訂閱所設定時間就是訂閱開始處理的時間。  報表處理完成之後，訂閱會排入佇列並傳送給電子郵件收件者。  雖然我們致力於儘快處理和提供所有訂閱，但有些時候可能會有尖峰需求，可能會因為一次可傳送的訂閱數目而看到較長的延遲。  對大部分的客戶而言，其在處理和傳送其報表時不應該看到超過 15 分鐘時間的延遲，不過在特定時間以及具有大量使用量的租用戶，可能需要最多 30 分鐘的時間。  我們從不預期在排程訂閱之後，於傳遞上的延遲超過 60 分鐘。  如果有任何客戶遇到該時間長度的延遲，則其應先確認 no-reply-powerbi@microsoft.com 地址位於您的安全寄件者清單中，而且未遭到電子郵件提供者封鎖。  如果電子郵件並未遭到封鎖，客戶就應該連絡 Power BI 支援人員尋求協助。
 
 ## <a name="next-steps"></a>後續步驟
 

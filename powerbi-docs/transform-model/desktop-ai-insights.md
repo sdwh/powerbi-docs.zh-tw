@@ -1,24 +1,24 @@
 ---
-title: 連線至 Power BI Desktop 中的 AI 見解 (預覽)
+title: 連線至 Power BI Desktop 中的 AI 見解
 description: 輕鬆連線並使用 Power BI Desktop 中的 AI 見解
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
-ms.date: 11/12/2019
+ms.topic: how-to
+ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fec1a1a632244ef0c1923e2d68f76a7364d3c7b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7f067e87bf155b45be1d4c34f27d41649b6247df
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83311721"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237966"
 ---
-# <a name="use-ai-insights-in-power-bi-desktop-preview"></a>使用 Power BI Desktop 中的 AI 見解 (預覽)
+# <a name="use-ai-insights-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 AI 見解
 
-在 Power BI 中，您可以使用 AI 見解來存取預先定型的機器學習模型集合，以增強您的資料準備工作。 您可以在 [Power Query 編輯器]  中存取 AI 見解，其相關聯的特徵和功能可通過 [Power Query 編輯器]  中的 [首頁]  和 [加入資料行]  索引標籤存取。 
+在 Power BI 中，您可以使用 AI 見解來存取預先定型的機器學習模型集合，以增強您的資料準備工作。 您可以在 [Power Query 編輯器] 中存取 AI 見解，其相關聯的特徵和功能可通過 [Power Query 編輯器] 中的 [首頁] 和 [加入資料行] 索引標籤存取。 
 
 ![功能區中的 AI 見解位置](media/desktop-ai-insights/ai-insights-00.png)
 
@@ -26,7 +26,10 @@ ms.locfileid: "83311721"
 
 ## <a name="how-to-enable-ai-insights"></a>如何啟用 AI 見解
 
-Power BI 中的 AI 見解是預覽功能，必須啟用。 若要啟用它，選取 [檔案] > [選項及設定] > [選項]  ，然後從左側資料行選取 [預覽功能]  。 右窗格中為 [AI 見解函式瀏覽器]  選取項目。 核取 [AI 見解函式瀏覽器]  旁的方塊，以啟用預覽功能。 您必須重新啟動 Power BI Desktop，預覽功能變更才會生效。
+AI 見解已在 2020 年 6 月版本的 Power BI Desktop 中公開推出。 針對舊版的 Power BI Desktop，Power BI 中的 AI 見解必須透過選取 [檔案] > [選項及設定] > [選項]，然後從左欄選取 [預覽功能] 來啟用。 右窗格中為 [AI 見解函式瀏覽器] 選取項目。 核取 [AI 見解函式瀏覽器] 旁的方塊，以啟用預覽功能。 您必須重新啟動 Power BI Desktop，預覽功能變更才會生效。
+
+> [!NOTE]
+> AI 見解已公開推出，可在從 2020 年 6 月版本起的所有 Power BI Desktop 版本中使用，而且針對那些版本，不需要啟用為預覽功能。
 
 ![適用于 Power BI Desktop 的 AI 見解選項](media/desktop-ai-insights/ai-insights-01.png)
 
@@ -80,7 +83,7 @@ Premium 容量節點 EM2、A2 或 P1 和更新版本支援認知服務。 容量
 
 #### <a name="tag-images"></a>標記影像
 
-**標記影像**函式會根據超過兩千個可辨識的物體、生物、景象及動作，傳回標記。 當標記模稜兩可或不是常識時，輸出會提供「提示」  ，以釐清標記在已知設定前後關聯中的意涵。 標記不是按照分類組織的，而且不存在任何繼承階層。 一系列的內容標記會形成影像「描述」  的基礎，以完整句子的格式，顯示為人類可讀取的語言。
+**標記影像**函式會根據超過兩千個可辨識的物體、生物、景象及動作，傳回標記。 當標記模稜兩可或不是常識時，輸出會提供「提示」，以釐清標記在已知設定前後關聯中的意涵。 標記不是按照分類組織的，而且不存在任何繼承階層。 一系列的內容標記會形成影像「描述」的基礎，以完整句子的格式，顯示為人類可讀取的語言。
 
 上傳影像或指定影像 URL 之後，電腦視覺演算法會根據物體、生物和影像中識別的動作，輸出標記。 標記不限於主體 (例如在前景的人)，但也包含環境 (室內或戶外)、傢俱、工具、植物、動物、配件、小工具等等。
 
@@ -88,9 +91,9 @@ Premium 容量節點 EM2、A2 或 P1 和更新版本支援認知服務。 容量
 
 ### <a name="invoking-text-analytics-or-vision-functions-in-power-query"></a>叫用 Power Query 中的文字分析或視覺函式
 
-若要使用文字分析或視覺函式豐富您的資料，請開啟 [Power Query 編輯器]  。 這個範例會逐步解說如何評分文字的情感。 您可以使用相同的步驟來擷取關鍵片語、偵測語言，以及標記影像。
+若要使用文字分析或視覺函式豐富您的資料，請開啟 [Power Query 編輯器]。 這個範例會逐步解說如何評分文字的情感。 您可以使用相同的步驟來擷取關鍵片語、偵測語言，以及標記影像。
 
-選取 [首頁]  或 [加入資料行]  功能區中的 [文字分析]  按鈕。 系統將提示您登入。
+選取 [首頁] 或 [加入資料行] 功能區中的 [文字分析] 按鈕。 系統將提示您登入。
 
 ![文字分析](media/desktop-ai-insights/ai-insights-02.png)
 
@@ -102,7 +105,7 @@ Power BI 會選取要在其中執行函式的 Premium 容量，並將結果傳�
 
 ![選取要使用的 Premium 容量](media/desktop-ai-insights/ai-insights-04.png)
 
-**Cultureinfo** 是選擇性的輸入，可指定文字的語言。 此欄位為 ISO 代碼。 您可以使用資料行作為 Cultureinfo 的輸入，或靜態欄位。 在此範例中，整個資料行的語言指定為英文 (en)。 如果您將此欄位留空，Power BI 會先自動偵測語言，然後再套用函式。 接下來，選取 [套用]  。
+**Cultureinfo** 是選擇性的輸入，可指定文字的語言。 此欄位為 ISO 代碼。 您可以使用資料行作為 Cultureinfo 的輸入，或靜態欄位。 在此範例中，整個資料行的語言指定為英文 (en)。 如果您將此欄位留空，Power BI 會先自動偵測語言，然後再套用函式。 接下來，選取 [套用]。
 
 第一次在新的資料來源上使用 AI 見解時，系統會提示您設定資料的隱私權等級。
 
@@ -172,12 +175,12 @@ Power BI Desktop、Power BI 資料流程與 Power BI 服務中的 Power Query On
 本節中的步驟說明如何將對 Azure ML 上裝載之模型的存取權授與 Power BI 使用者，以便他們能以 Power Query 函式形式存取此模型。 如需進一步的詳細資料，請參閱[使用 RBAC 與 Azure 入口網站管理存取權](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)。
 
 1. 登入 [Azure 入口網站](https://portal.azure.com/)。
-2. 移至 [訂用帳戶]  頁面。 您可以透過 Azure 入口網站左側瀏覽功能表中的 [所有服務]  清單找到 [訂用帳戶]  頁面。
+2. 移至 [訂用帳戶] 頁面。 您可以透過 Azure 入口網站左側瀏覽功能表中的 [所有服務] 清單找到 [訂用帳戶] 頁面。
 3. 選取您的訂用帳戶
-4. 選取 [存取控制 (IAM)]  ，然後選取 [新增]  按鈕。
-5. 選取 [讀者]  做為 [角色]。 選取您希望為其授與對 Azure ML 模型之存取權的 Power BI 使用者。
-6. 選取 [儲存] 
-7. 重複步驟三到六，將**讀者**存取權授與特定 Machine Learning Studio (傳統) Web 服務「或」  託管模型的 Machine Learning 工作區使用者。
+4. 選取 [存取控制 (IAM)]，然後選取 [新增] 按鈕。
+5. 選取 [讀者] 做為 [角色]。 選取您希望為其授與對 Azure ML 模型之存取權的 Power BI 使用者。
+6. 選取 [儲存]
+7. 重複步驟三到六，將**讀者**存取權授與特定 Machine Learning Studio (傳統) Web 服務「或」託管模型的 Machine Learning 工作區使用者。
 
 ### <a name="schema-discovery-for-machine-learning-models"></a>針對 Machine Learning 模型的結構描述探索
 
@@ -194,7 +197,7 @@ Power BI Desktop、Power BI 資料流程與 Power BI 服務中的 Power Query On
 > 
 ### <a name="invoking-an-azure-ml-model-in-power-query"></a>在 Power Query 中叫用 Azure ML 模型
 
-您可以直接從 Power Query 編輯器叫用任何您已獲授與存取權的 Azure ML 模型。 若要存取 Azure ML 模型，請選取 Power Query 編輯器中 [首頁]  或 [加入資料行]  功能區中的 [Azure Machine Learning]  按鈕。
+您可以直接從 Power Query 編輯器叫用任何您已獲授與存取權的 Azure ML 模型。 若要存取 Azure ML 模型，請選取 Power Query 編輯器中 [首頁] 或 [加入資料行] 功能區中的 [Azure Machine Learning] 按鈕。
 
 ![Azure Machine Learning](media/desktop-ai-insights/ai-insights-06.png)
 
@@ -204,7 +207,7 @@ Power BI Desktop、Power BI 資料流程與 Power BI 服務中的 Power Query On
 
 ![Azure Machine Learning](media/desktop-ai-insights/ai-insights-07.png)
 
-選取 [確定]  來檢視 Azure ML 模型的輸出作為實體資料表中新資料行的預覽。 您也將看到模型叫用作為查詢套用的步驟。
+選取 [確定] 來檢視 Azure ML 模型的輸出作為實體資料表中新資料行的預覽。 您也將看到模型叫用作為查詢套用的步驟。
 
 若模型傳回多個輸出參數，它們會分組為輸出資料行中的記錄。 您可以展開資料行，在不同的資料行中產生個別的輸出參數。
 

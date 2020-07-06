@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693027"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235687"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>在組織中安裝並散發範本應用程式
 
@@ -38,15 +38,19 @@ ms.locfileid: "83693027"
 
     ![取得應用程式](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-1. 在出現的 [AppSource] 視窗中，選取 [應用程式]。 瀏覽或搜尋所需的應用程式，然後選取 [立即取得]。
+1. 在出現的 Power BI 應用程式市集中，選取 [範本應用程式]。 隨即顯示 AppSource 中所有可用的範本應用程式。 瀏覽以找到您正在尋找的範本應用程式，或使用搜尋方塊來取得篩選出的選取項目。 輸入部分範本應用程式名稱或類別名稱 (例如財務、分析、行銷等)，將能更輕鬆地找到您正在尋找的項目。
 
     ![在 AppSource 中搜尋](media/service-template-apps-install-distribute/power-bi-appsource.png)
+
+1. 找到您正在尋找的範本應用程式時，按一下該範本應用程式。 範本應用程式供應項目隨即顯示。 按一下 [立即取得]。
+
+   ![範本應用程式供應項目](media/service-template-apps-install-distribute/power-bi-template-app-offer.png)
 
 1. 在出現的對話方塊中，選取 [安裝]。
 
     ![安裝應用程式](media/service-template-apps-install-distribute/power-install-dialog.png)
     
-    應用程式會與相關聯的工作區一併安裝。 **如果決定要自訂應用程式，您將會在此相關聯的工作區中執行此動作**。
+    應用程式會連同相同名稱的工作區一起安裝，其中包含進一步[自訂](#customize-and-share-the-app)所需的所有成品。
 
     > [!NOTE]
     > 若使用未列於 AppSource 上的應用程式安裝連結，則會出現驗證對話方塊要求您確認選擇。

@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/31/2020
-ms.openlocfilehash: 0391f0f2e4340b01c1f1ad7a3bce860487daabc9
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.date: 06/30/2020
+ms.openlocfilehash: 0339dd4a8fa7b429db01715060bfd146db115e46
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272647"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782724"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -21,9 +21,15 @@ ms.locfileid: "84272647"
 
 如需新功能的詳細資訊，請參閱 [Power BI 報表伺服器的新增功能](whats-new.md)。 
 
-
 ## <a name="may-2020"></a>2020 年 5 月
 - **Power BI 報表伺服器**
+    - *版本：1.8.7485.35104 (組建 15.0.1103.234)，發行日期：2020 年 6 月 30 日*
+        - Bug 修正
+            - 已修正擴增案例中，報表在上傳後不會立即反映伺服器中之編輯的問題。
+    - *版本：1.8.7468.41510 (組建 15.0.1103.232)，發行日期：2020 年 6 月 15 日*
+        - Bug 修正
+            - 已修正報表在上傳後不會立即反映伺服器中之編輯的問題。
+            - 已修正使用模糊比對來合併查詢時，重新整理失敗的問題。
     - *版本：1.8.7450.37410 (組建 15.0.1103.227)，發行日期：2020 年 5 月 27 日*
          - 功能
             -  已新增可自訂目錄連線集區大小的支援 (請參閱 [MaxCatalogConnectionPoolSizePerProcess 設定](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service)以取得詳細資訊)。

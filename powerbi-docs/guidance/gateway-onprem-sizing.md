@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279518"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485936"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>內部部署的資料閘道大小調整
 
@@ -27,17 +27,17 @@ ms.locfileid: "83279518"
 
 ### <a name="cached-data-workload"></a>快取的資料工作負載
 
-快取的資料  工作負載會擷取並轉換來源資料，以載入 Power BI 資料集。 它會以三個步驟執行：
+快取的資料工作負載會擷取並轉換來源資料，以載入 Power BI 資料集。 它會以三個步驟執行：
 
 1. **連線**：閘道連線到來源資料
-1. **資料擷取及轉換**：擷取資料，並在必要時進行轉換。 如果可能的話，Power Query 混搭引擎會將轉換步驟推送至資料來源，也就是[查詢摺疊](power-query-folding.md)  。 如果不可行，則必須由閘道完成轉換。 在此情況下，閘道將會耗用更多 CPU 與記憶體資源。
+1. **資料擷取及轉換**：擷取資料，並在必要時進行轉換。 如果可能的話，Power Query 混搭引擎會將轉換步驟推送至資料來源，也就是[查詢摺疊](power-query-folding.md)。 如果不可行，則必須由閘道完成轉換。 在此情況下，閘道將會耗用更多 CPU 與記憶體資源。
 1. **傳輸**：資料會傳輸到 Power BI 服務 — 可靠且快速的網際網路連線很重要，尤其是針對大量資料
 
 ![圖表顯示連線到內部部署來源的內部部署資料閘道：關聯式資料庫、Excel 活頁簿與 CSV 檔案。 閘道會擷取及轉換資料。](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
 
 ### <a name="live-connection-and-directquery-workloads"></a>即時連線與 DirectQuery 工作負載
 
-即時連線與 DirectQuery  工作負載主要是以傳遞模式運作。 Power BI 服務會傳送查詢，而閘道會以查詢結果回應。 一般而言，查詢結果的大小很小。
+即時連線與 DirectQuery 工作負載主要是以傳遞模式運作。 Power BI 服務會傳送查詢，而閘道會以查詢結果回應。 一般而言，查詢結果的大小很小。
 
 - 如需即時連線的詳細資訊，請參閱 [Power BI 服務中的資料集 (外部裝載模型)](../connect-data/service-datasets-understand.md#external-hosted-models)。
 - 如需 DirectQuery 的詳細資訊，請參閱 [Power BI 服務中的資料集模式 (DirectQuery 模式)](../connect-data/service-dataset-modes-understand.md#directquery-mode)。
@@ -84,7 +84,7 @@ ms.locfileid: "83279518"
 
 - 力求可靠性、速度快，以及低且一致的延遲
 - 消除 (或減少) 閘道與資料來源之間的電腦躍點數
-- 移除防火牆 Proxy 層所加諸的任何網路節流。 如需 Power BI 端點的詳細資訊，請參閱[適用於允許清單的 Power BI URL](../admin/power-bi-whitelist-urls.md)。
+- 移除防火牆 Proxy 層所加諸的任何網路節流。 如需 Power BI 端點的詳細資訊，請參閱[將 Power BI URL 新增至允許清單](../admin/power-bi-whitelist-urls.md)。
 - 設定 [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) 以建立對 Power BI 的私人受控連線
 - 針對 Azure VM 中的資料來源，請確定 VM [與 Power BI 服務共置](../admin/service-admin-where-is-my-tenant-located.md)
 - 針對涉及動態 RLS 的 SQL Server Analysis Services (SSAS) 即時連線工作負載，請確定閘道電腦與內部部署 Active Directory 之間有良好的連線能力

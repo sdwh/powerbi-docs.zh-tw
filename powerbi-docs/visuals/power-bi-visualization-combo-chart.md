@@ -7,15 +7,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/22/2020
+ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 34d539af94f2bcbe03a2c9d6b870887e371a1a6e
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 90c721f6c2f555bd632d6c8fff56d05994b1444b
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563912"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354769"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>在 Power BI 中建立和使用組合圖
 
@@ -42,7 +42,7 @@ ms.locfileid: "83563912"
 ### <a name="prerequisites"></a>必要條件
 本教學課程使用[零售分析範例 PBIX 檔案](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。
 
-1. 從功能表列的左上方區段中，選取 [檔案]   > [開啟] 
+1. 從功能表列的左上方區段中，選取 [檔案] > [開啟]
    
 2. 尋找您的**零售分析範例 PBIX 檔案**複本
 
@@ -64,21 +64,21 @@ ms.locfileid: "83563912"
 
 1. 從空白報表頁面開始建立依月份顯示本年度銷售額和毛利的直條圖。
 
-    a.  從 [欄位] 窗格中，選取 [銷售額]  \> [本年度銷售額]   > [值]  。
+    a.  從 [欄位] 窗格中，選取 [銷售額] \> [本年度銷售額] > [值]。
 
-    b.  將 [銷售額]  \> [本年度毛利]  拖曳到 [值]  區。
+    b.  將 [銷售額] \> [本年度毛利] 拖曳到 [值] 區。
 
-    c. 選取 [時間]  \> [會計月份]  以將其新增到 [軸]  區。
+    c. 選取 [時間] \> [會計月份] 以將其新增到 [軸] 區。
 
     ![組合教學課程範例](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. 選取視覺效果右上角的 [更多選項]  (...)，然後選取 [排序依據] > [FiscalMonth]  。 若要變更排序次序，請再次選取省略符號，並選擇 [遞增排序]  或 [遞減排序]  。 範例將使用 [遞增排序]  。
+5. 選取視覺效果右上角的 [更多選項] (...)，然後選取 [排序依據] > [FiscalMonth]。 若要變更排序次序，請再次選取省略符號，並選擇 [遞增排序] 或 [遞減排序]。 範例將使用 [遞增排序]。
 
-6. 將直條圖轉換成組合圖。 有兩個組合圖可用：[折線與堆疊直條圖]  和 [折線與群組直條圖]  。 選取直條圖後，從 [視覺效果]  窗格中，選取 [折線與群組直條圖]  。
+6. 將直條圖轉換成組合圖。 有兩個組合圖可用：[折線與堆疊直條圖] 和 [折線與群組直條圖]。 選取直條圖後，從 [視覺效果] 窗格中，選取 [折線與群組直條圖]。
 
     ![轉換組合圖範例](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
-7. 從 [欄位]  窗格中，將 [銷售額]  \> [去年度銷售額]  拖曳到 [折線圖值]  貯體。
+7. 從 [欄位] 窗格中，將 [銷售額] \> [去年度銷售額] 拖曳到 [折線圖值] 貯體。
 
-   ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
+   ![顯示 [去年銷售額] 的折線圖值區域](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 
    您的組合圖看起來應該像這樣：
 
@@ -87,31 +87,31 @@ ms.locfileid: "83563912"
 ## <a name="create-a-combo-chart-with-two-axes"></a>建立具有兩軸的組合圖
 在這項工作中，我們會比較毛利率與銷售額。
 
-1. 建立依**會計月份**追蹤**去年毛利率 %** 的新折線圖。 選取省略符號，依 [月份]  和 [遞增]  排序。  
+1. 建立依**會計月份**追蹤**去年毛利率 %** 的新折線圖。 選取省略符號，依 [月份] 和 [遞增] 排序。  
 一月的 GM% 為 35%，尖峰在 4 月為 45%，於 7 月下降並再次於 8 月達到尖峰。 我們去年和今年會看到類似的銷售模式嗎？
 
    ![組合圖範例銷售](media/power-bi-visualization-combo-chart/combo1-new.png)
-2. 將 [今年度銷售額 > 值]  和 [去年度銷售額]  新增至折線圖。 [去年毛利率 %]  的刻度遠小於 [銷售額]  的刻度，因此難以比較。      
+2. 將 [今年度銷售額 > 值] 和 [去年度銷售額] 新增至折線圖。 [去年毛利率 %] 的刻度遠小於 [銷售額] 的刻度，因此難以比較。      
 
    ![組合圖 flatline 範例](media/power-bi-visualization-combo-chart/flatline-new.png)
 3. 若要使視覺效果更容易閱讀及解譯，請將折線圖轉換成折線與堆疊直條圖。
 
    ![轉換成組合圖範例](media/power-bi-visualization-combo-chart/converttocombo-new.png)
 
-4. 將 [去年毛利率 %]  從 [資料行值]  拖曳到 [行值]  。 Power BI 會建立兩個軸，因此可用不同方式調整資料集；左邊的量值為銷售金額，而右邊的量值則為百分比。 我們看到我們問題的答案；是的，我們確實看到類似的模式。
+4. 將 [去年毛利率 %] 從 [資料行值] 拖曳到 [行值]。 Power BI 會建立兩個軸，因此可用不同方式調整資料集；左邊的量值為銷售金額，而右邊的量值則為百分比。 我們看到我們問題的答案；是的，我們確實看到類似的模式。
 
    ![叢集組合圖範例](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>將標題加入座標軸
 1. 選取油漆滾筒圖示 ![油漆滾筒圖示](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) 開啟 [格式化] 窗格。
 1. 選取向下箭號以展開 [Y 軸]  選項。
-1. 針對 [Y 軸 (欄)]  ，將 [位置]  設為 [左]  、[標題]  設為 [開啟]  、[樣式]  設為 [僅顯示標題]  ，且 [顯示單位]  設為 [百萬]  。
+1. 針對 [Y 軸 (欄)]，將 [位置] 設為 [左]、[標題] 設為 [開啟]、[樣式] 設為 [僅顯示標題]，且 [顯示單位] 設為 [百萬]。
 
    ![組合圖開啟 y 範例](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
-4. 在 [Y 軸 (資料行)]  下方，向下捲動直到您看到 [顯示次要]  。 因為 Y 軸有很多選項，所以您可能必須捲動兩次。 [顯示次要] 區段會顯示用於設定組合圖中折線圖部分格式的選項。
+4. 在 [Y 軸 (資料行)] 下方，向下捲動直到您看到 [顯示次要]。 因為 Y 軸有很多選項，所以您可能必須捲動兩次。 [顯示次要] 區段會顯示用於設定組合圖中折線圖部分格式的選項。
 
    ![組合圖次要範例](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
-5. 對於 [Y 軸 (行)]  ，保留 [位置]  為 [右]  ，將 [標題]  改為 [開啟]  ，並將 [樣式]  設為 [僅顯示標題]  。
+5. 對於 [Y 軸 (行)]，保留 [位置] 為 [右]，將 [標題] 改為 [開啟]，並將 [樣式] 設為 [僅顯示標題]。
 
    組合圖現在顯示兩個軸，而且都有標題。
 

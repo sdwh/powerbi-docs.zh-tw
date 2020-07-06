@@ -5,17 +5,17 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: edc06d7a46589c999e4bf18613c0c75f6d5bf983
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: c3a625dcdd58f881c9314e821753f66098e073f5
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120615"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354424"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>在 Power BI 中建立新工作區
 
@@ -144,6 +144,20 @@ Power BI 不會同步處理使用者或群組的權限，而這些使用者或�
 若您想要將正式內容散發至貴組織中較多的對象，可以從工作區發佈「應用程式」。  當內容就緒時，您可以選擇想要發佈的儀表板和報表，然後將其發佈為應用程式。 您可以從每個工作區建立一個應用程式。
 
 請閱讀如何[從新工作區發佈應用程式](service-create-distribute-apps.md)。
+
+## <a name="security-settings"></a>安全性設定
+
+[允許參與者更新此工作區的應用程式] 設定允許工作區管理員，將更新工作區應用程式的能力委派給參與者角色中的使用者。 根據預設，只有工作區管理員和成員可以發佈及更新工作區的應用程式。 
+
+啟用時，參與者可以：
+* 更新應用程式中繼資料，例如，名稱、圖示、描述、支援網站及色彩
+* 新增或移除應用程式中包含的項目，例如，新增報表或資料集
+* 變更應用程式導覽或應用程式開啟的預設項目
+
+但參與者無法：
+* 首次發佈應用程式
+* 變更具有應用程式權限的人員
+
 
 ## <a name="next-steps"></a>後續步驟
 * 請閱讀[在 Power BI 的新工作區體驗中組織工作](service-new-workspaces.md)

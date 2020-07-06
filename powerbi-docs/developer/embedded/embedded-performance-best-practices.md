@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279380"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299564"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 效能最佳做法
 
 本文提供能更快速轉譯應用程式中的報表、儀表板及磚的建議。
 
 > [!Note]
-> 請記住，載入時間主要取決於與報表相關的元素和資料本身，包括視覺效果、資料大小，以及查詢及導出量值的複雜度。 如需詳細資訊，請參閱 [Power BI 最佳化指南](../../guidance/power-bi-optimization.md)。
+> 請記住，載入時間主要取決於與報表相關聯的元素和資料本身，包括視覺效果、資料大小，以及查詢及量值的複雜度。 如需詳細資訊，請參閱 [Power BI 最佳化指南](../../guidance/power-bi-optimization.md)。
 
 ## <a name="update-tools-and-sdk-packages"></a>更新工具和 SDK 套件
 
@@ -40,7 +40,7 @@ ms.locfileid: "83279380"
 
 ### <a name="permissions"></a>權限
 
-如果您不想在編輯模式中內嵌報表，請提供 [檢視]  權限。 如此一來，內嵌程式碼就不會初始化用於編輯模式的元件。
+如果您不想在編輯模式中內嵌報表，請提供 [檢視] 權限。 如此一來，內嵌程式碼就不會初始化用於編輯模式的元件。
 
 ### <a name="filters-bookmarks-and-slicers"></a>篩選條件、書籤和交叉分析篩選器
 
@@ -53,7 +53,7 @@ ms.locfileid: "83279380"
 將多個報表內嵌至相同的 iframe 時，請不要為每個報表產生新的 iframe。 請改為搭配不同的設定使用 `powerbi.embed(element, config)` 來內嵌新報表。
 
 > [!NOTE]
-> 針對「應用程式擁有資料」案例，在報表間進行切換可能不會非常有效，因為需要產生新的內嵌權杖。
+> 為客戶進行內嵌 (也稱為「應用程式擁有資料」案例) 時，於報表之間切換需要使用具備所有報表和資料集權限的內嵌權仗。 如需詳細資訊，請參閱[產生權杖 API](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) \(英文\)。
 
 ## <a name="query-caching"></a>查詢快取
 
@@ -63,7 +63,7 @@ ms.locfileid: "83279380"
 
 ## <a name="preload"></a>預先載入
 
-使用 `powerbi.preload()` 來改善終端使用者效能。 方法 `powerbi.preload()` 會下載 javascript、css 檔案和其他成品，其稍後會用來內嵌報表。
+使用 `powerbi.preload()` 來改善終端使用者效能。 `powerbi.preload()` 方法會下載 JavaScript、css 檔案和其他成品，其稍後會用來內嵌報表。
 
 如果不想立即內嵌報表，請呼叫 `powerbi.preload()`。 舉例來說，如果 Power BI 內嵌的內容未顯示在首頁，請使用 `powerbi.preload()` 下載及快取用於內嵌內容的成品。
 

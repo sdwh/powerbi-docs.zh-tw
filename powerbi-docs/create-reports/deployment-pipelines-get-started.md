@@ -3,16 +3,16 @@ title: 開始使用部署管線
 description: 了解如何在 Power BI 中使用部署管線
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 8dc0dc97e2b4bca7154ea0f13273ee2dbaee1b61
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6e9ed3217a7ee589eaf1469ba179ef8c8bc474e9
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272825"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354723"
 ---
 # <a name="get-started-with-deployment-pipelines-preview"></a>開始使用部署管線 (預覽)
 
@@ -84,7 +84,7 @@ ms.locfileid: "83272825"
 
 選取要從中部署的階段，然後按一下 [部署] 按鈕。 部署程序會在目標階段中建立重複的工作區。 此工作區包含目前階段中現有的所有內容。
 
-[![](media/deployment-pipelines-get-started/deploy.png "Deploy all content")](media/deployment-pipelines-get-started/deploy.png#lightbox)
+[![部署](media/deployment-pipelines-get-started/deploy.png "部署所有內容")](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>選擇性部署
 
@@ -92,7 +92,7 @@ ms.locfileid: "83272825"
 
 由於儀表板、報表與資料集是相關聯且具有相依性的，因此您可以使用選取相關項目按鈕來選取那些項目相依的所有項目。 例如，如果您想要將報表部署到下一個階段，按一下選取相關項目按鈕將會標示報表所連線的資料集，這樣就會同時部署兩者，且報表不會損毀。
 
-[![](media/deployment-pipelines-get-started/selective-deploy.png "Selective deployment")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
+[![選擇性部署](media/deployment-pipelines-get-started/selective-deploy.png "選擇性部署")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
 
 >[!NOTE]
 > * 如果報表或儀表板所相依的項目不存在於您要部署至的階段中，您就無法將其部署至下一個階段。
@@ -104,7 +104,7 @@ ms.locfileid: "83272825"
 
 只有當先前階段的內容是空白時，才能部署到先前的階段。 當部署到先前階段時，您無法選取特定項目。 系統將會部署階段中的所有內容。
 
-[![](media/deployment-pipelines-get-started/deploy-back.png "Backwards deployment")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
+[![回溯部署](media/deployment-pipelines-get-started/deploy-back.png "回溯部署")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
 ## <a name="step-4---create-dataset-rules"></a>步驟 4 - 建立資料集規則
 
@@ -125,11 +125,11 @@ ms.locfileid: "83272825"
 
 2. 從 [部署設定] 窗格中，選取您想要為其建立規則的資料集。
 
-    [![](media/deployment-pipelines-get-started/dataset-rules.png "Select a dataset")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
+    [![資料集規則](media/deployment-pipelines-get-started/dataset-rules.png "選取資料集")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
 3. 選取您要建立的規則類型、展開清單，然後按一下 [新增規則]。
 
-     [![](media/deployment-pipelines-get-started/add-rule.png "Add a rule")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
+     [![新增規則](media/deployment-pipelines-get-started/add-rule.png "新增規則")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
 ### <a name="dataset-rule-types"></a>資料集規則類型
 
@@ -154,15 +154,14 @@ ms.locfileid: "83272825"
 * 如果規則中定義的資料來源或參數已變更或從來源資料集移除，此規則將會是無效的，且部署將會失敗。
 
 * 只能針對下列資料來源定義資料來源規則：
-    * Analysis Services
-    * Azure SQL Server
     * Azure Analysis 服務
+    * SQL Server Analysis Services (SSAS)
+    * Azure SQL Server
+    * SQL Server
     * OData 摘要
     * Oracle
-    * SapHana
+    * SapHana (僅支援匯入模式，不支援直接查詢模式)
     * SharePoint
-    * SQL Server
-    * SQL Server Analysis Services (SSAS)
     * Teradata
 
     針對其他資料來源，我們建議您[使用參數來設定您的資料來源](deployment-pipelines-best-practices.md#use-parameters-in-your-model)。
@@ -181,7 +180,7 @@ ms.locfileid: "83272825"
 
 當兩個連續階段有內容時，系統會根據內容項目中繼資料來比較內容。 此比較不包括比較各個階段之間的資料或重新整理時間。
 
- [![](media/deployment-pipelines-get-started/deployment-flow.png "Comparing stages")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
+ [![部署流程](media/deployment-pipelines-get-started/deployment-flow.png "比較階段")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
 
 為了讓您快速取得兩個連續階段之間差異的視覺化見解，兩者間會顯示比較圖示指標。 比較指標有兩種狀態：
 
@@ -202,7 +201,7 @@ ms.locfileid: "83272825"
     >[!NOTE]
     >部署不會影響「遺漏的位置」項目。
 
- [![](media/deployment-pipelines-get-started/compare.png "Compare view")](media/deployment-pipelines-get-started/compare.png#lightbox)
+ [![比較](media/deployment-pipelines-get-started/compare.png "比較檢視")](media/deployment-pipelines-get-started/compare.png#lightbox)
 
 ## <a name="overriding-content"></a>覆寫內容
 

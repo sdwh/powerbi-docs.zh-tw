@@ -4,15 +4,15 @@ description: 了解如何使用捷徑和 Google 搜尋來直接快速存取經�
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
-ms.openlocfilehash: 1aa2e80e7624fb50878c70e464aac7edd943e0a8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ec4763118360ea02362e3f49fe9776224e9c087a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802770"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229388"
 ---
 # <a name="use-android-app-shortcuts-in-the-power-bi-android-app"></a>在 Power BI Android 應用程式中使用 Android 應用程式捷徑
 
@@ -33,24 +33,23 @@ ms.locfileid: "80802770"
 
 您可建立任何報表或儀表板的捷徑。
 
-1. 在 [動作] 功能表上，按一下 [其他選項...]  然後選取 [新增捷徑]  。
+1. 從報表中，點選 [動作] 功能表上的 [更多選項...]，然後選取 [新增捷徑]。 從儀表板中，點選 [動作] 功能表上的 [新增捷徑]。
 
    ![新增捷徑動作功能表](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-action-menu.png)
 
    此外，如果 Power BI 應用程式發現您經常存取某個項目，也會建議建立該項目的捷徑。 此情況會以兩種方式發生：
-   * 在經常檢視的報表和儀表板上，當開啟項目時，[新增捷徑]  選項會在橫幅中顯示。
-   * 如果經常使用連結來取得報表 (例如從共用的電子郵件、註釋等)，在使用幾次此連結後，會開啟視窗詢問您是否要建立捷徑。 [是]  會開啟 [新增捷徑]  對話方塊 (如下所示)，[現在不要]  會繼續帶您到嘗試存取的項目。
+   * 在經常檢視的報表和儀表板上，當開啟項目時，[新增捷徑] 選項會在橫幅中顯示。
+   * 如果經常使用連結來取得報表 (例如從共用的電子郵件、註釋等)，在使用幾次此連結後，會開啟視窗詢問您是否要建立捷徑。 [是] 會開啟 [新增捷徑] 對話方塊 (如下所示)，[現在不要] 會繼續帶您到嘗試存取的項目。
    
    這兩種體驗如下所示。
 
    ![新增捷徑橫幅](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-banner.png)
 
-
- 1. [新增捷徑]  對話方塊會以項目名稱開啟。 您可自行編輯該名稱。 完成時，點選 [新增]  。
+ 1. [新增捷徑] 對話方塊會以項目名稱開啟。 您可自行編輯該名稱。 完成時，點選 [新增]。
 
     ![新增捷徑對話方塊](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-dialog.png)
 
-1. 系統會要求您確認是否要新增捷徑。 點選 [新增]  將捷徑新增至裝置的主畫面。
+1. 系統會要求您確認是否要新增捷徑。 點選 [新增] 將捷徑新增至裝置的主畫面。
 
    ![確認捷徑](media/mobile-app-quick-access-shortcuts/mobile-confirm-shortcut.png)
 
@@ -60,7 +59,7 @@ ms.locfileid: "80802770"
 
 ## <a name="edit-the-shortcut-name"></a>編輯捷徑名稱
 
-若要編輯捷徑的名稱，請在 [動作] 功能表上選取 [其他選項...]  ，然後選擇 [編輯捷徑名稱] 
+若要編輯捷徑的名稱，從報表中，點選 [動作] 功能表上的 [更多選項...]，然後選擇 [編輯捷徑名稱]。 從儀表板中，點選 [新增捷徑]。 [編輯捷徑名稱] 對話方塊隨即出現。
 
  ![編輯捷徑名稱](media/mobile-app-quick-access-shortcuts/mobile-edit-shortcut.png)
 

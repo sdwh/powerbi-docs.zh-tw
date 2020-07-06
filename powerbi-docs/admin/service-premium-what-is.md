@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/15/2020
+ms.date: 06/13/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 1c72507759a69dc03f3d8b1510aef0e3ad369dd2
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 83383b93d9f61c30c22afa30a5d092aa62ce3a10
+ms.sourcegitcommit: 94fc44928bff09d874793964b5d7443db40934cd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272739"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84754175"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -85,12 +85,10 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
-| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
-| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
-> [!NOTE]
-> 使用單一大型 SKU (例如一個 P2 SKU)，可能比結合小型 SKU (例如兩個 P1 SKU) 更好。 例如，若使用 P2，您可以使用大型模型，並達到更好的平行處理原則。
+>[!NOTE]
+>使用單一大型 SKU (例如一個 P2 SKU)，可能比結合小型 SKU (例如兩個 P1 SKU) 更好。 例如，若使用 P2，您可以使用大型模型，並達到更好的平行處理原則。
 
 ### <a name="capacity-workloads"></a>容量工作負載
 
@@ -179,17 +177,17 @@ Power BI REST API 包含[容量 API](https://docs.microsoft.com/rest/api/power-b
 
 ### <a name="size-considerations"></a>大小考量
 
-大型資料集可能會耗用大量資源。 任何大於 1 GB 的資料集都至少要有 P1 SKU。 雖然可將大型資料集發佈到 A SKU 支援的工作區 (最多到 A3)，但無法重新整理這些資料集。
+大型資料集可能會耗用大量資源。 任何大於 1 GB 的資料集都至少要有 P1 或 A4 SKU。 雖然可將大型資料集發佈到 A SKU 支援的工作區 (最多到 A3)，但無法重新整理這些資料集。
 
 下表顯示將 .pbix 檔案上傳或發行至 Power BI 服務的建議 SKU：
 
    |SKU  |.pbix 大小   |
    |---------|---------|
-   |P1    | < 3 GB        |
-   |P2    | < 6 GB        |
-   |P3、P4、P5    | 最多 10 GB   |
+   |P1/A4    | < 3 GB        |
+   |P2/A5    | < 6 GB        |
+   |P3/A6、P4、P5    | 最多 10 GB   |
 
-Power BI Embedded A4 SKU 等同於 P1 SKU、A5 = P2 及 A6 = P3。 將資料集發行到 A 和 EM SKU 可能會傳回錯誤，且為非專屬於共用容量中模型大小限制的錯誤。 A 和 EM SKU 中，資料集的重新整理錯誤，很可能指向逾時。
+Power BI Embedded A4 SKU 等同於 P1 SKU、A5 = P2 及 A6 = P3。
 
 如果您在資料集上啟用[大型模型](service-premium-large-models.md)，.pbix 檔案大小限制仍適用於檔案上傳或發行。 不過，隨著累加重新整理和大型模型結合，資料集可能會成長為比這些限制還大。 若使用大型模型，則資料集大小只受限於 Power BI Premium 容量大小。
 
@@ -211,7 +209,7 @@ Power BI Embedded A4 SKU 等同於 P1 SKU、A5 = P2 及 A6 = P3。 將資料集�
 
 ## <a name="paginated-reports"></a>編頁報表
 
-P1-P3 和 A4_A6 SKU 支援的編頁報表採用 SQL Server Reporting Services 中的報表定義語言 (RDL) 技術。 雖然採用 RDL 技術，但與 Power BI 報表伺服器不同，這是可供您下載並在內部部署安裝的報告平台，也隨附於 Power BI Premium。 編頁報表的格式設定為適當符合頁面大小以供列印或共用。 資料會以一個資料表顯示，即使資料表跨越多個頁面也一樣。 使用者可以使用免費的 [**Power BI 報表產生器**](https://go.microsoft.com/fwlink/?linkid=2086513) Windows 傳統型應用程式來撰寫編頁報表，並將其發佈到服務。
+P1-P3 和 A4_A6 SKU 支援的編頁報表採用 SQL Server Reporting Services 中的報表定義語言 (RDL) 技術。 雖然採用 RDL 技術，但與 Power BI 報表伺服器不同，這是可供您下載並在內部部署安裝的報告平台，也隨附於 Power BI Premium。 編頁報表的格式設定為適當符合頁面大小以供列印或共用。 資料會以一個資料表顯示，即使資料表跨越多個頁面也一樣。 使用者可以使用免費的 [**Power BI 報表產生器**](https://aka.ms/pbireportbuilder) Windows 傳統型應用程式來撰寫編頁報表，並將其發佈到服務。
 
 在 Power BI Premium 中，編頁報表是必須使用管理入口網站為容量啟用的工作負載。 容量管理員可以啟用，然後以容量的整體記憶體資源百分比來指定記憶體數量。 不同於其他類型的工作負載，Premium 會在容量內含空間中執行編頁報表。 無論工作負載是否為作用中，都會使用指定給此空間的最大記憶體。 預設值為 20%。 
 

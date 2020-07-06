@@ -6,18 +6,22 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
-ms.date: 02/23/2020
-ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.topic: how-to
+ms.date: 06/23/2020
+ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114765"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354999"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>以程式設計的方式為 Power BI 設定認證
 
-請遵循以下步驟來以程式設計的方式為 Power BI 設定認證。
+請遵循此文章中的步驟，來以程式設計的方式為 Power BI 設定認證。
+
+>[!NOTE]
+>* 呼叫的使用者必須是資料集擁有者，或閘道管理員。您也可以使用[服務主體](../embedded/embed-service-principal-certificate.md)。 例如，服務主體可以是資料集擁有者。
+>* 雲端資料來源及其對應的認證會在使用者層級進行管理。
 
 ## <a name="update-credentials-flow-for-data-sources"></a>為資料來源更新認證流程
 
@@ -61,7 +65,7 @@ ms.locfileid: "80114765"
 
     # <a name="net-sdk-v2"></a>[.NET SDK v2](#tab/sdk2)
 
-    以步驟 2 中的閘道公開金鑰加密認證字串。 不同的閘道版本可能有不同的公用金鑰大小。 請參閱 SDK 程式碼中的下列範例 (可在 [PowerBI-CSharp GitHub 存放庫](https://github.com/microsoft/PowerBI-CSharp/tree/master/sdk/PowerBI.Api/Extensions) \(英文\) 中找到)：
+    以步驟 2 中的閘道公開金鑰加密認證字串。 不同閘道版本可能有不同的公開金鑰大小。 請參閱 SDK 程式碼中的下列範例 (可在 [PowerBI-CSharp GitHub 存放庫](https://github.com/microsoft/PowerBI-CSharp/tree/master/sdk/PowerBI.Api/Extensions) \(英文\) 中找到)：
     * [AsymmetricKeyEncryptor.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/AsymmetricKeyEncryptor.cs)
     * [Asymmetric1024KeyEncryptionHelper.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/Asymmetric1024KeyEncryptionHelper.cs)
     * [AsymmetricHigherKeyEncryptionHelper.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/AsymmetricHigherKeyEncryptionHelper.cs)

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: ee5536f2c4026ceb019c5f89b6045afd44b35529
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84316055"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299610"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>在新的工作區體驗中監視使用計量
 
@@ -257,6 +257,7 @@ Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供和 Po
 - 使用巢狀群組時，使用者遮罩不會如預期般運作。 如果您的組織已在 Power BI 管理入口網站租用戶設定中，針對內容建立者停用使用計量中的個別使用者資料，則只會遮罩最上層的成員。 子群組的成員仍然可見。
 - 初始化使用計量報表資料集可能需要幾分鐘的時間，而導致顯示空白的使用計量報表，因為 Power BI 的使用者介面不會等待重新整理完成。 檢查使用計量報表資料集設定中的重新整理記錄，以確認重新整理作業已成功。
 - 初始化使用計量報表資料集可能會因為重新整理期間發生逾時而失敗。 若要解決此問題，請參閱下面的＜疑難排解＞一節。
+- 已針對使用計量報表停用「共用」。 若要為使用者授與報表的讀取權限，您必須先為其授與工作區的存取權。
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 

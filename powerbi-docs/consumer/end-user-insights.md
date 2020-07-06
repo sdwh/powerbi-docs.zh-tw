@@ -7,15 +7,15 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 06/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 111b2b5fe0ae4b341816becdb4baf0b96e057cdd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377275"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354493"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>使用 Power BI 在儀表板圖格上檢視資料見解
 
@@ -33,7 +33,7 @@ ms.locfileid: "79377275"
 當您對儀表板磚執行見解時，Power BI 只會搜尋用來建立這一個儀表板磚的資料。 
 
 1. [開啟儀表板](end-user-dashboards.md)。
-2. 將游標停留在磚上方， 選取 [更多選項]  (...)，然後選擇 [檢視見解]  。 
+2. 將游標停留在磚上方， 選取 [更多選項] (...)，然後選擇 [檢視見解]。 
 
     ![省略符號功能表](./media/end-user-insights/power-bi-hovers.png)
 
@@ -54,16 +54,18 @@ ms.locfileid: "79377275"
    
       ![展開 [篩選] 功能表的見解](./media/end-user-insights/power-bi-insight-card.png)
    
-   * 在右上角，選取燈泡圖示 ![取得見解圖示](./media/end-user-insights/power-bi-bulb-icon.png) 或 [取得見解]  。 深入解析會顯示於左側，而只以該單一深入解析資料為依據的新卡片則沿著右側顯示。
+   * 在右上角，選取燈泡圖示 ![取得見解圖示](./media/end-user-insights/power-bi-bulb-icon.png) 或 [取得見解]。 深入解析會顯示於左側，而只以該單一深入解析資料為依據的新卡片則沿著右側顯示。
      
      ![顯示取得深入資訊圖示的功能表列](./media/end-user-insights/power-bi-related.png)
      
-若要返回您的報表，請選取左上角的 [結束焦點模式]  。
+若要返回您的報表，請選取左上角的 [結束焦點模式]。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-- **檢視見解**並不適用於所有類型的儀表板磚。 例如，其不適用於 Power BI 視覺效果。<!--[Power BI visuals](end-user-custom-visuals.md)-->
+- **檢視見解**並不適用於所有類型的儀表板磚。 例如，其不適用於 Power BI 自訂視覺效果。<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>後續步驟
+
+[使用 [分析] 功能](end-user-analyze-visuals.md)  在報表視覺效果上執行見解  
 深入了解[可用深入資訊摘要類型](end-user-insight-types.md)
 

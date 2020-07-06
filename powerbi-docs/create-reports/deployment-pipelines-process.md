@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: c4a823b0b41def6c10cd8f932bb97e91eb977ecb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 06/25/2020
+ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148605"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782564"
 ---
 # <a name="understand-the-deployment-process-preview"></a>了解部署程序 (預覽)
 
@@ -60,7 +60,7 @@ ms.locfileid: "83148605"
 
 盡可能保留目標資料集中的資料。 如果沒有變更資料集，資料在部署之前會維持原狀。
 
-對於小型變更 (例如，新增資料表或導出量值)，Power BI 會保留原始資料，並將重新整理最佳化，以便只重新整理所需的內容。 對於中斷性結構描述變更，或資料來源連線中的變更，則需要完整的重新整理。
+對於小型變更 (例如，新增資料表或量值)，Power BI 會保留原始資料，並將重新整理最佳化，以便只重新整理所需的內容。 對於中斷性結構描述變更，或資料來源連線中的變更，則需要完整的重新整理。
 
 ### <a name="requirements-for-deploying-to-a-stage-with-an-existing-workspace"></a>使用現有工作區部署到階段的需求
 
@@ -152,11 +152,11 @@ ms.locfileid: "83148605"
 
 建立適用於每個部署管線階段的應用程式，讓您可以從使用者的觀點測試每個應用程式更新。 部署管線可讓您輕鬆管理此程序。 使用工作區卡片中的發佈或檢視按鈕，在特定管線階段中發佈或檢視應用程式。
 
-[![](media/deployment-pipelines-process/publish.png "Publish app")](media/deployment-pipelines-process/publish.png#lightbox)
+[![發佈應用程式](media/deployment-pipelines-process/publish.png "發佈應用程式")](media/deployment-pipelines-process/publish.png#lightbox)
 
 在生產階段，左下角的主要動作按鈕會在 Power BI 中開啟更新應用程式頁面，讓應用程式使用者能夠使用任何內容更新。
 
-[![](media/deployment-pipelines-process/update-app.png "Update app")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![更新應用程式](media/deployment-pipelines-process/update-app.png "更新應用程式")](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >部署程序不包含更新應用程式內容或設定。 若要將變更套用到內容或設定，您必須在必要的管線階段手動更新應用程式。
@@ -236,13 +236,23 @@ ms.locfileid: "83148605"
 
 * 無法部署 Power BI 項目 (例如，具有 Power BI [敏感度標籤](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)的報表與儀表板)。
 
-* 無法部署以[累加式重新整理](../admin/service-premium-incremental-refresh.md)設定的資料集。
+* 可在單一部署中部署的 Power BI 項目數目上限為 300 個。
 
 * 如需工作區限制的清單，請參閱[工作區指派限制](deployment-pipelines-get-started.md#workspace-assignment-limitations)。
 
-* 如需資料集規則限制的清單，請參閱[資料集規則限制](deployment-pipelines-get-started.md#dataset-rule-limitations)
-
 * 如需不支援的項目清單，請參閱[不支援的項目](#unsupported-items)。
+
+### <a name="dataset-limitations"></a>資料集限制
+
+* 無法部署以[累加式重新整理](../admin/service-premium-incremental-refresh.md)設定的資料集。
+
+* 無法部署使用即時資料連線能力的資料集。
+
+* 在部署期間，如果目標資料集使用[即時連線](../connect-data/desktop-report-lifecycle-datasets.md)，則來源資料集也必須使用此連線模式。
+
+* 部署之後，就不支援下載資料集 (從其部署至的階段)。
+
+* 如需資料集規則限制的清單，請參閱[資料集規則限制](deployment-pipelines-get-started.md#dataset-rule-limitations)。
 
 ## <a name="next-steps"></a>後續步驟
 

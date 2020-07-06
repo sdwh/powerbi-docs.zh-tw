@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9c99d48a0b9d50312d2ae5ce152826fcf1ab9319
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149246"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238784"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded 的多地理位置支援
 
@@ -80,6 +80,8 @@ ms.locfileid: "83149246"
 * 在多地理位置的環境中，將資料從某個區域移至另一個區域時，來源資料可能會在資料移動來源區域中保留最多 30 天。 在該期間內，使用者無法存取該資料。 系統會在 30 天的期間內，將資料從這個區域中移除並加以銷毀。
 
 * 多地理位置通常不會產生較佳的效能。 載入報表與儀表板等動作，仍然會向主區域要求中繼資料。
+
+* 在對客戶進行內嵌案例中，查詢文字和查詢結果會繼續透過主要租用戶傳輸。
 
 ## <a name="next-steps"></a>後續步驟
 

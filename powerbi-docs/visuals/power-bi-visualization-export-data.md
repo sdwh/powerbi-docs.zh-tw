@@ -7,16 +7,16 @@ ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0fc91eab8c377f5571e66eb7baaf55234fafa97
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: f4d1bb58093ed3c78330370d5a44a3f98ee4aae7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337019"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238954"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>匯出用於建立視覺效果的資料
 
@@ -156,7 +156,7 @@ ms.locfileid: "84337019"
 
 ## <a name="customize-the-export-data-user-experience"></a>自訂匯出資料使用者體驗
 
-除非[資料列層級安全性 (RLS)](../admin/service-admin-rls.md)有所限制，否則獲得報表存取權的使用者即**獲得整個基礎資料集的存取權**。 報表作者和 Power BI 系統管理員可以使用下述功能自訂使用者體驗。
+除非[資料列層級安全性 (RLS)](../admin/service-admin-rls.md) 有所限制，否則獲得報表存取權的使用者即**獲得整個基礎資料集的存取權**。 報表作者和 Power BI 系統管理員可以使用下述功能自訂使用者體驗。
 
 - 報表作者可以[決定使用者可使用哪些「匯出選項」](#set-the-export-options)。  
 
@@ -171,7 +171,7 @@ ms.locfileid: "84337019"
 
 ## <a name="protect-data-when-it-is-exported-out-of-power-bi"></a>從 Power BI 匯出資料時加以保護
 
-- 報表作者可以將[敏感度標籤](../admin/service-security-data-protection-overview.md)套用至報表。  這些標籤會判斷誰可以存取報表資料，以及該資料如何匯出至 Excel、PowerPoint 和 PDF。 某些敏感度等級包含匯出資料時所套用的保護設定 (例如權限、加密)。 如果敏感度等級包含保護設定，當您將資料匯出至 Excel、PowerPoint 和 PDF 時，就會套用這些設定。 只有具有適當權限的人員才能匯出、檢視、儲存及共用報表資料。 
+- 報表作者可以使用 Microsoft Azure 資訊保護[敏感度標籤](../admin/service-security-data-protection-overview.md)來分類及標示報表。 若敏感度標籤具有保護設定，當將報表資料匯出到 Excel、PowerPoint 或 PDF 檔案時，Power BI 將會套用這些保護設定。 只有授權的使用者可以開啟受保護的檔案。
 
 - 安全性與 Power BI 系統管理員可以使用 [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) 來監視使用者的存取和活動、執行即時的風險分析，以及設定標籤專屬的控制措施。 例如，組織可以使用 Microsoft Cloud App Security 設定原則，防止使用者將 Power BI 的敏感性資料從下載到非受控裝置。
 

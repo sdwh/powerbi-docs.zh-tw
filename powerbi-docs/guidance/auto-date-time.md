@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: b95eafbe797dcc28c54aa9781b0422820ccf1f4b
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565986"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393603"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的自動日期/時間指引
 
@@ -26,7 +26,7 @@ ms.locfileid: "83565986"
 
 下列項目符號清單會描述與 [自動日期/時間] 選項相關的考量，以及可能的限制。
 
-- **適用於全部或全部不適用：** 啟用 [自動日期/時間] 選項時，會套用至不屬於關聯性「眾多」端的匯入資料表中所有日期資料行 (計算結果欄除外)。 您無法以個別資料行為基礎來予以啟用或停用。
+- **適用於全部或全部不適用：** 啟用 [自動日期/時間] 選項時，它會套用至不是關聯性 &quot;眾多&quot; 端之匯入資料表中的所有日期資料行上。 您無法以個別資料行為基礎來予以啟用或停用。
 - **僅限行事曆週期：** [年] 和 [季] 資料行會與行事曆週期相關聯。 這代表年份會從 1 月 1 日開始，並於 12 月 31 日結束。 您無法自訂年份的開始 (或結束) 日期。
 - **自訂：** 您無法自訂用來描述時間週期的值。 此外，您也無法新增其他資料行來描述其他時間週期 (例如週)。
 - **年份篩選：** [季]、[月] 與 [日] 資料行值不會包含年份值。 例如，[月] 資料行只會包含月份名稱 (也就是一月、二月等)。 這些值並無法完全自我描述，且在某些報表設計中可能無法傳達年份篩選內容。
@@ -51,6 +51,7 @@ ms.locfileid: "83565986"
 
 如需本文的詳細資訊，請參閱下列資源：
 
+- [在 Power BI Desktop 中建立日期資料表](model-date-tables.md)
 - [Power BI Desktop 中的自動日期/時間](../transform-model/desktop-auto-date-time.md)
 - [在 Power BI Desktop 中設定和使用日期資料表](../transform-model/desktop-date-tables.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

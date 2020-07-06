@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/11/2020
 ms.author: kfollis
-ms.openlocfilehash: 344ce3b83bbb9922e0359e04e65c01a1a088bcb3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 43d78710e4b60ed57ac46f713ce7bc787e852f26
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135399"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485476"
 ---
 # <a name="service-interruption-notifications"></a>服務中斷通知
 
@@ -27,7 +27,7 @@ ms.locfileid: "83135399"
 - 模型重新整理可靠性
 - 查詢重新整理可靠性
 
-在開啟報表、資料集重新整理或查詢執行等作業中若遇到「延遲延長」  ，就會傳送通知。 在解決事件之後，您會收到後續的電子郵件。
+在開啟報表、資料集重新整理或查詢執行等作業中若遇到「延遲延長」，就會傳送通知。 在解決事件之後，您會收到後續的電子郵件。
 
 > [!NOTE]
 > 這項功能目前僅適用於 Power BI Premium 中的專用容量， 其不適用於共用或內嵌容量。
@@ -60,14 +60,14 @@ Power BI 租用戶系統管理員可在管理入口網站中啟用通知：
 
 1. 識別或建立應接收通知並已啟用電子郵件功能的安全性群組。
 
-1. 在管理入口網站中，選取 [租用戶設定]  。 在 [說明及支援設定]  下方，展開 [Receive email notifications for service outages or incidents] \(接收服務中斷或事件的電子郵件通知\)  。
+1. 在管理入口網站中，選取 [租用戶設定]。 在 [說明及支援設定] 下方，展開 [Receive email notifications for service outages or incidents] \(接收服務中斷或事件的電子郵件通知\)。
 
-1. 啟用通知，輸入安全性群組，然後選取 [套用]  。
+1. 啟用通知，輸入安全性群組，然後選取 [套用]。
 
     ![啟用服務通知](media/service-interruption-notifications/enable-notifications.png)
 
 > [!NOTE]
-> Power BI 會透過 no-reply-powerbi@microsoft.com 帳戶傳送通知。 請確認此帳戶已列入允許清單，以免通知被送入垃圾郵件或垃圾資料夾中。
+> Power BI 會透過 no-reply-powerbi@microsoft.com 帳戶傳送通知。 請確定已將此帳戶新增至您的安全寄件者清單，讓通知不會最終出現在垃圾郵件資料夾中。
 
 ## <a name="next-steps"></a>後續步驟
 

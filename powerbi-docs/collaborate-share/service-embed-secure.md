@@ -6,15 +6,15 @@ ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693819"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226193"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全入口網站或網站中內嵌報告
 
@@ -139,7 +139,7 @@ report.src = newUrl;
 
 * 隨著 [內嵌] 選項提供的自動驗證功能無法搭配 Power BI JavaScript API 使用。 針對 Power BI JavaScript API，請使用[使用者擁有資料](../developer/embedded/embed-sample-for-your-organization.md)內嵌方法。 
 
-* 驗證權杖存留期會以您的 AAD 設定作為基礎進行控制。 驗證權杖過期時，使用者將需要重新整理瀏覽器來取得更新後的驗證權杖。 預設存留期是一個小時，但在您的組織中這段時間可以更短或是更長。
+* 驗證權杖存留期會以您的 AAD 設定作為基礎進行控制。 驗證權杖過期時，使用者將需要重新整理瀏覽器來取得更新後的驗證權杖。 預設存留期是一個小時，但在您的組織中這段時間可以更短或是更長。  在此案例中，不能自動重新整理權杖。
 
 ## <a name="next-steps"></a>後續步驟
 

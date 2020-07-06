@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f592b7927d713e343f1d3ad11453cbbacc17fffd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794100"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354930"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>建立要搭配 Power BI 使用的 Azure Active Directory 租用戶
 
@@ -60,29 +60,29 @@ ms.locfileid: "83794100"
 
 1. 在 Azure 入口網站中，確定您在 Azure Active Directory 飛出窗格上。
 
-    ![](media/create-an-azure-active-directory-tenant/aad-flyout.png)
+    ![Azure AD 飛出](media/create-an-azure-active-directory-tenant/aad-flyout.png)
 
     如果不是，請從左側服務導覽選取 Azure Active Directory 圖示。
 
-    ![](media/create-an-azure-active-directory-tenant/aad-service.png)
+    ![Azure AD 圖示](media/create-an-azure-active-directory-tenant/aad-service.png)
 
 2. 在 [管理] 下，選取 [使用者]。
 
-    ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
+    ![Azure AD 使用者和群組](media/create-an-azure-active-directory-tenant/users-and-groups.png)
 
 3. 選取 [所有使用者]，然後選取 [+ 新增使用者]。
 
 4. 提供租用戶全域管理員的 [名稱] 和 [使用者名稱]。將 [目錄角色] 變更為 [全域管理員]。 您也可以顯示暫時密碼。 當您完成時，請選取 [建立]。
 
-    ![](media/create-an-azure-active-directory-tenant/global-admin.png)
+    ![Azure AD 全域管理員](media/create-an-azure-active-directory-tenant/global-admin.png)
 
 5. 對一般租用戶使用者重複相同的步驟。 您可以使用此帳戶作為主要內嵌帳戶。 這一次，讓 [目錄角色] 維持為 [使用者]。 記下密碼，然後選取 [建立]。
 
-    ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
+    ![Azure AD 使用者](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
 
 6. 使用您在步驟 5 中建立的使用者帳戶來註冊 Power BI。 前往 [powerbi.com](https://powerbi.microsoft.com/get-started/)，然後在 [Power BI - 雲端共同作業與共用] 下選取 [免費試用]。
 
-    ![](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
+    ![建立租用戶](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
 
     註冊時，系統會提示您免費試用 Power BI Pro 60 天。 您可以加入成為 Pro 使用者，這可讓您選擇[開始開發內嵌解決方案](embed-sample-for-customers.md)。
 

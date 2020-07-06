@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 06/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276574"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354585"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>開始使用格式化窗格
 
@@ -28,11 +28,11 @@ ms.locfileid: "83276574"
 
 當您在編輯報表期間選取視覺效果時，[視覺效果] 窗格會隨即出現。 使用此窗格來變更視覺效果。 [視覺效果] 窗格的正下方有三個圖示：[欄位] 圖示 (堆疊的橫條)、[格式] 圖示 (滾筒筆刷) 和 [分析] 圖示 (放大鏡)。 在下圖中，已選取 [欄位] 圖示 (由圖示下方的黃色列所指出)。
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
+![已選取 [欄位] 圖示的 [視覺效果] 窗格](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
 當您選取 [格式] 時，圖示下的區域會顯示目前所選視覺效果可用的自訂。  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
+![已選取 [格式] 圖示的 [視覺效果] 窗格](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
 您可以針對每個視覺效果自訂許多項目。 可用的選項取決於選取的視覺效果。 其中一些選項如下：
 
@@ -119,7 +119,7 @@ ms.locfileid: "83276574"
 ## <a name="changing-axis-properties"></a>變更軸屬性
 
 修改 X 軸或 Y 軸通常很有用。 其方法與處理色彩類似，您可以選取要變更的軸左邊的向下箭號圖示來修改座標軸，如下圖所示。  
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
+![具有指向 [Y 軸] 卡片之箭頭的 [格式] 窗格](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
 
 在下列範例中，我們已將 Y 軸格式化為：
 - 將標籤移至視覺效果的右側

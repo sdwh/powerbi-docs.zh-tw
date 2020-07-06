@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/29/2020
+ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c2800ab9d57732448db9e4fe647a0601a20a816c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276597"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354608"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>在 Power BI 中色彩格式化的秘訣和訣竅
 
@@ -62,11 +62,11 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 
 展開 [資料色彩] 卡片並開啟 [全部顯示] 的滑桿。 這會顯示視覺效果中每個資料項目的色彩。 您現在可以修改任何資料點。
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![[全部顯示] 已設定為 [開啟] 的 [格式] 窗格](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
 
 將 [Convenience] \(方便\) 設為橘色。 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
+![具有一個橙色直條的直條圖](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
 
 選取之後，[Convenience] \(方便\) 資料點便成為美觀的橘色，而且肯定會凸顯出來。
 
@@ -96,7 +96,7 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 
 您也可以使用不屬於視覺效果的欄位來格式化視覺效果色彩。 在下圖中，正在使用 [市佔率 SPLY YTD]。 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
+![具有多個藍色網底的直條圖](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
 
 
 如您所見，雖然我們針對 [生產力] 和 [極端] 皆售出更多單位 (其直條較高)，但 [仲裁] 仍具有較大的 [市佔率 SPLY YTD] (其直條色彩更加飽和)。
@@ -106,7 +106,7 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 
 在第一張影像中，請注意圖表中的長條如何反映在列中的漸層；最大值為綠色，最小值為橙色，且兩者之間的每個長條顏色深淺介於綠色和橙色。
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
+![顯示從綠色到橙色之色彩漸層的直條圖](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
 
 現在讓我們來看看，如果在 [最小值] 和 [最大值] 方塊中提供數值會發生什麼事。 針對 [最小值] 和 [最大值]，從下拉式方塊選取 [自訂]，然後將 [最小值] 設定為 3,500，並將 [最大值] 設定為 6,000。
 

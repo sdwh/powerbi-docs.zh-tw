@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83128542"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782339"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 的高可用性、容錯移轉和災害復原常見問題集
 
@@ -28,7 +28,7 @@ Power BI 是完全受控的軟體即服務 (SaaS)。  Microsoft 設計和操作�
 
 Power BI 會維護 Azure 資料中心 (也稱為區域) 內每個元件的多個執行個體，以確保商務持續性。 如果發生中斷或導致 Power BI 在某區域中無法存取或無法運作的問題，Power BI 就會使其在該區域中的所有元件失效轉移到備份執行個體。 容錯移轉可在新區域 (通常是在相同的地理位置，如 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)所註明) 中，還原 Power BI 服務執行個體的可用性和可操作性。
 
-容錯移轉 Power BI 服務執行個體僅支援「讀取作業」  ，這表示容錯移轉期間不支援下列作業：重新整理、報表發佈作業、儀表板或報表的修改，以及其他需要變更 Power BI 中繼資料 (例如，在報表中插入註解) 的作業。  顯示儀表板和報表等讀取作業 (並非根據對內部部署資料來源進行的 DirectQuery 或 Live Connect) 會繼續正常運作。
+容錯移轉 Power BI 服務執行個體僅支援「讀取作業」，這表示容錯移轉期間不支援下列作業：重新整理、報表發佈作業、儀表板或報表的修改，以及其他需要變更 Power BI 中繼資料 (例如，在報表中插入註解) 的作業。  顯示儀表板和報表等讀取作業 (並非根據對內部部署資料來源進行的 DirectQuery 或 Live Connect) 會繼續正常運作。
 
 ## <a name="how-are-backup-instances-kept-in-sync-with-my-data"></a>備份執行個體如何與我的資料保持同步？
 
@@ -38,7 +38,7 @@ Power BI 會維護 Azure 資料中心 (也稱為區域) 內每個元件的多個
 
 除非在 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)內另行註明，否則備份執行個體位於您在組織註冊 Power BI 時所選取的相同地理位置 (地區) 中。 地區可包含數個區域，Microsoft 可能會將資料複寫到指定地區內的任一區域以進行資料復原。 Microsoft 不會在地區外複寫或移動客戶資料。 如需 Power BI 所提供地區與其中區域的對應，請參閱 [Microsoft 信任中心](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)。
 
-## <a name="how-does-microsoft-decide-to-failover"></a>Microsoft 如何決定容錯移轉？
+## <a name="how-does-microsoft-decide-to-fail-over"></a>Microsoft 如何決定容錯移轉？
 
 有兩種不同的系統可指出何時可能需要容錯移轉：
 
@@ -57,6 +57,9 @@ Power BI 支援頁面 ([https://powerbi.microsoft.com/support/](https://powerbi.
 
 一旦執行了容錯移轉，Power BI 會使用 Azure 儲存體異地複寫來執行容錯移轉。 不過，這類複寫通常會有 15 分鐘的傳回點，[Azure 儲存體不保證此時間範圍](https://docs.microsoft.com/azure/storage/common/storage-redundancy)適用 SLA，因此 Power BI 也無法保證時間範圍。 
 
+## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>如果我的 Premium 容量變得無法使用，工作區和報表會發生什麼情況？ 
+
+如果 Premium 容量變得無法使用，工作區和報表會保持可存取狀態，而先前有權存取的所有 Power BI Pro 授權使用者都可看到這兩者。
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>我的 Power BI 執行個體何時返回至原始區域？
 

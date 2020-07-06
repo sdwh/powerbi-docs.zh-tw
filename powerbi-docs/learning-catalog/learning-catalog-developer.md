@@ -1,17 +1,17 @@
 ---
 title: 開發人員學習目錄
 description: 尋找 Power BI 的所有訓練選項
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 6262b7ba0f3d01db6f9f5ff24f411de6ec4f35cb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.author: margoc
+ms.openlocfilehash: edc2e40c219a8bbe1d57a5cfda774e7f9f87856d
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268596"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532618"
 ---
 # <a name="developer-learning-catalog"></a>開發人員學習目錄
 
@@ -27,17 +27,13 @@ ms.locfileid: "81268596"
 ## <a name="embedded"></a>內嵌<a name="embedded"></a>
 | 內容 | 描述 | 格式  | 長度      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+|[線上課程：Power BI 開發人員一日上手](developer-online-course.md)|影片式課程為您成為應用程式開發人員提供了內嵌 Power BI 內容所需的技術知識。 我們建議您以錄製的順序觀看影片，從影片 1 開始，並以影片 20 結束。|YouTube 播放清單和自我研究套件|3 小時 20 分鐘|
 | [用於多租用戶部署的管理 Power BI Embedded 分析最佳做法](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html) | Power BI Embedded 是一項功能強大的服務，可供在自己的應用程式中為 Power BI 貼上白色標籤。 觀看此網路研討會，了解如何管理 Power BI Embedded 部署。   | Webinar       |                |
 | [在 20 分鐘內深入了解 Power BI Embedded](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | 此網路研討會旨在介紹 Power BI Embedded。 此網路研討會結束時，使用者應該能夠了解什麼是 Power BI Embedded，後續的步驟是開始使用產品，以及在何處可以取得說明/資源。 | Webinar       |                |
 | [使用 Power BI 內嵌進行開發 (由 Ted Pattison 主持)– 2018 年 4 月更新](https://www.youtube.com/watch?v=swnGlrRy588) (英文)  | 在這個以開發人員為導向的網路研討會中，Ted Pattison 將討論 Power BI 內嵌平台的最新增強功能，以及 ISV 和企業開發人員運用這些功能的方式。 | YouTube 影片 | 59 分鐘 49 秒  |
 | [Power BI 內嵌第 2 版 – 完整案例](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527) (英文)    | 關鍵路徑訓練的 Power BI MVP Ted Pattison 於 2017 年 8 月 10 日舉辦了網路研討會。 此網路研討會涵蓋如何使用透過 Power BI Premium 提供的新 Power BI 內嵌功能進行開發。  | Webinar       | 1 小時 7 分鐘 23 秒 |
 | [教學課程：為您的客戶，將 Power BI 內容內嵌至應用程式](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers#step-1-setup-your-embedded-analytics-development-environment) | 使用 Azure 中 Power BI Embedded 或內嵌在 Office 的 Power BI，可使用應用程式擁有的資料，將報表、儀表板或磚內嵌至應用程式。  | 文件 |                |
 | [在 20 分鐘內深入了解 Power BI Embedded](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | 此網路研討會旨在介紹 Power BI Embedded。 此網路研討會結束時，使用者應該能夠了解什麼是 Power BI Embedded，後續的步驟是開始使用產品，以及在何處可以取得說明/資源。 | Webinar       |                |
-## <a name="dax"></a>DAX<a name="dax"></a>
-| 內容 | 描述 | 格式  | 長度      |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
-| [Power BI 的實際 DAX (由 Phil Seamark 主持)](https://www.youtube.com/watch?v=1fGfqzS37qs) (英文)  | 伴隨著 Phil Seamark 的新書籍，其將逐步解說 Power BI 中實際 DAX 的一些最佳做法   | YouTube 影片 | 59 分鐘 41 秒 |
-| [Philip Seamark 的創意 DAX 解決方案](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) (英文) | 您知道 DAX 語言的功能遠比只是對資料行執行 SUM，或計算資料表中的資料列還多嗎？ DAX 位於其中一個最快資料庫之上。 加入 Charles Sterling 與 Philip Seamark，探索一些您可能認為不可行的不尋常和創意案例。 | Webinar       | 58 分鐘 12 秒 |
 ## <a name="development"></a>開發<a name="development"></a>
 | 內容 | 描述 | 格式  | 長度      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|

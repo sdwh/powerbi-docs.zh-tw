@@ -1,6 +1,6 @@
 ---
 title: Power BI 編頁報表一日上手課程
-description: 這堂線上課程的目標，是要讓身為報表作者的您，具備建立、發佈及散發 Power BI 編頁報表所需的技術知識。
+description: 這堂影片式課程的目標，是要讓身為報表作者的您，具備建立、發佈及散發 Power BI 編頁報表所需的技術知識。
 author: peter-myers
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
@@ -9,16 +9,16 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3b6c3f79b6695c670b942253ddd2c2b158dc3acc
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693229"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427477"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Power BI 編頁報表一日上手課程
 
-**Power BI 編頁報表一日上手**影片課程可讓身為報表作者的您，具備建立、發佈及散發 Power BI 編頁報表所需的技術知識。 這堂課程包含將近 4 小時 20 分鐘的可檢視內容，可視需要免費取用。 另外還有可供下載並用來完成 8 個實習課程的[自我研究套件](#self-study-kit)。
+**Power BI 編頁報表一日上手**影片課程可讓身為報表作者的您，具備建立、發佈及散發 Power BI 編頁報表所需的技術知識。 這堂課程包含將近 4 小時 20 分鐘的可檢視內容，可視需要免費取用。 另外還有可供下載並用來完成八個實習課程的[自我研究套件](#self-study-kit)。
 
 具體而言，本課程的適合對象是：
 
@@ -93,11 +93,11 @@ ms.locfileid: "83693229"
 - **MySolution**：這個資料夾儲存方案檔。 實驗室指示會指示使用的時機。
 - **Presentation**：這個資料夾包含課程簡報檔案，以 PDF 文件的形式提供。
 
-### <a name="getting-started-with-the-kit"></a>開始使用套件
+### <a name="get-started-with-the-kit"></a>開始使用套件
 
 建議先觀看線上課程。 您可開啟 **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf** 檔案來回顧簡報理論。 此簡報包含 8 張實驗室投影片，其指出實踐理論的時機。 另包含許多資源連結，其有助尋找相關內容。
 
-當準備好開始第一個課程時，請開啟 **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** 檔案。 本文件會引導登入 Power BI 服務、上傳資料集，然後安裝 [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md)。
+當準備好開始第一個實驗室時，請開啟 **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** 檔案。 本文件會引導登入 Power BI 服務、上傳資料集，然後安裝 [Power BI Report Builder](https://aka.ms/pbireportbuilder)。
 
 > [!NOTE]
 > 您必須自行建立自己的 Power BI 帳戶。 如果還沒有帳戶，請參閱[以個人身分註冊 Power BI](../fundamentals/service-self-service-signup-for-power-bi.md)。

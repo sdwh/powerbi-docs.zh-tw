@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563044"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85223332"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>透過 Power BI Desktop 連線到 Project Online 資料
 您可以透過 Power BI Desktop 連接到 Project Online 中的資料。
@@ -29,7 +29,7 @@ ms.locfileid: "83563044"
 3. 選擇 [OData 摘要]，然後選取 [連接]。
 4. 在 [URL] 方塊中，輸入您的 OData 摘要位址，然後按一下 [確定]。
    
-   如果您的 Project Web App 網站位址類似 *https://\<租用戶名稱\>.sharepoint.com/sites/pwa*，您所輸入的 OData 摘要位址會是 *https://\<租用戶名稱\>.sharepoint.com/sites/pwa/\_api/Projectdata*。
+   如果您的 Project Web App 網站位址類似 *https://\<tenantname\>.sharepoint.com/sites/pwa*，則您將針對 OData 摘要輸入的位址會是 *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*。
    
    在本例中，我們使用：
 

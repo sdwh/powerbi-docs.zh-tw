@@ -5,17 +5,17 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6622bff6123ac6985a5275ec72be3a78b13908e6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 94a65a826cce3cdb0821e8127e45a1f983ad7d89
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274622"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227873"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI 的資料列層級安全性 (RLS)
 
@@ -25,7 +25,7 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 
 [!INCLUDE [include-short-name](../includes/rls-desktop-define-roles.md)]
 
-根據預設，資料列層級安全性篩選使用單一方向的篩選條件，不論關聯性設定為單向或雙向。 您可以手動啟用雙向交叉篩選與資料列層級安全性，方法是選取關聯性，並核取 [雙向套用安全性篩選]  核取方塊。 當您同時在伺服器層級實作動態資料列層級安全性 (其中的資料列層級安全性是以使用者名稱或登入識別碼為基礎) 時，也應該核取此方塊。
+根據預設，資料列層級安全性篩選使用單一方向的篩選條件，不論關聯性設定為單向或雙向。 您可以手動啟用雙向交叉篩選與資料列層級安全性，方法是選取關聯性，並核取 [雙向套用安全性篩選] 核取方塊。 當您同時在伺服器層級實作動態資料列層級安全性 (其中的資料列層級安全性是以使用者名稱或登入識別碼為基礎) 時，也應該核取此方塊。
 
 如需詳細資訊，請參閱[在 Power BI Desktop 中使用 DirectQuery 雙向交叉篩選](../transform-model/desktop-bidirectional-filtering.md)和[保護表格式 BI 語意模型](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)技術文件。
 
@@ -39,7 +39,7 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 若要管理資料模型的安全性，需要執行下列動作。
 
 1. 針對資料集選取**省略符號 (...)** 。
-2. 選取 [安全性]  。
+2. 選取 [安全性]。
    
    ![雙向套用安全性篩選](media/service-admin-rls/rls-security.png)
 
@@ -69,8 +69,8 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 
 您可以測試角色以驗證您定義的角色是否正常運作。 
 
-1. 選取角色旁邊的 [更多選項]  (...)。
-2. 選取 [以角色測試資料]  。
+1. 選取角色旁邊的 [更多選項] (...)。
+2. 選取 [以角色測試資料]。
 
 ![以角色測試](media/service-admin-rls/rls-test-role.png)
 
@@ -78,13 +78,13 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 
 ![目前檢視身分為 <角色>](media/service-admin-rls/rls-test-role2.png)
 
-您可以選取 \[Now viewing as]  \(現在檢視為) 來測試其他角色或角色組合。
+您可以選取 \[Now viewing as] \(現在檢視為) 來測試其他角色或角色組合。
 
 ![測試其他角色](media/service-admin-rls/rls-test-role3.png)
 
 您可以選擇以特定人員身分檢視資料，或者選取可用的角色組合來驗證它們是否作用。 
 
-若要返回正常檢視，請選取 [返回資料列層級安全性]  。
+若要返回正常檢視，請選取 [返回資料列層級安全性]。
 
 [!INCLUDE [include-short-name](../includes/rls-usernames.md)]
 
@@ -102,7 +102,10 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 [!INCLUDE [include-short-name](../includes/rls-faq.md)]
 
 ## <a name="next-steps"></a>後續步驟
-[使用 Power BI Desktop 的資料列層級安全性 (RLS)](../create-reports/desktop-rls.md)  
 
-有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+如需本文的詳細資訊，請參閱下列資源：
 
+- [使用 Power BI Desktop 的資料列層級安全性 (RLS) 來限制資料存取](../create-reports/desktop-rls.md)
+- [Power BI Desktop 中的資料列層級安全性 (RLS) 指導方針](../guidance/rls-guidance.md)
+- 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

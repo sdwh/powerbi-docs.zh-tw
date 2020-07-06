@@ -1,17 +1,17 @@
 ---
 title: 報表建立者學習目錄
 description: 尋找 Power BI 的所有訓練選項
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: f318aa59f33a9993b31787fcb3e0036286616608
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.author: margoc
+ms.openlocfilehash: ed36d045047215babb092eb074156c950af9d16f
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268803"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532273"
 ---
 # <a name="report-creator-learning-catalog"></a>報表建立者學習目錄
 
@@ -39,7 +39,8 @@ ms.locfileid: "81268803"
 ## <a name="report-design"></a>報表設計<a name="report-design"></a>
 | 內容 | 描述  | 格式 | 長度   |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|
-| [以 Power BI 進行資料故事分享 (由 Tristan Malherbe 主持)](https://www.youtube.com/watch?v=egk0suekwHo) (英文)  | 利用 Power BI 述說資料的故事 - Tristan Malherbe  | YouTube 影片 | 59 分鐘 54 秒    |
+|[線上課程：Power BI 編頁一日上手](paginated-reports-online-course.md)|影片式課程的目標，是要讓身為報表作者的您，具備建立、發佈及散發 Power BI 編頁報表所需的技術知識。 我們建議您以錄製的順序觀看影片，從影片 1 開始，並以影片 24 結束。|YouTube 播放清單和自我研究套件|4 小時 20 分鐘|
+| [利用 Power BI 述說資料的故事 - Tristan Malherbe](https://www.youtube.com/watch?v=egk0suekwHo) (英文)  | 利用 Power BI 述說資料的故事 - Tristan Malherbe  | YouTube 影片 | 59 分鐘 54 秒    |
 | [PowerBI.Tips 擁有者提供的 Power 技巧、祕訣與工具](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-Tricks-Tips-and-Tools-from-the-owners-of-PowerBI-Tips/td-p/382848) (英文) | PowerBI.Tips 擁有者提供的 Power 技巧、祕訣與工具。在這個非常特殊的使用者群組會議中，PowerBI.Tips 與 Power BI MVP 的擁有者 Seth Baur 和 Mike Carlo，將分享在過去 18 個月內，兩人發佈到 http://PowerBI.Tips 的大量 Power 技巧、祕訣與工具。 示範包含其佈景主題產生器、在查詢編輯器中新增資料類型，以及最新供應的 Power BI 版面配置 (以及最新的「冷藍色」版面配置導覽)。  | Webinar       | 1 小時 7 分鐘 4 秒 |
 | [2018 年 9 月 11 日網路研討會：新工具和新範本，包括色彩變更項目的逐步解說](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/9-11-18-Webinar-New-tools-and-new-templates-including-a/td-p/480220) | 加入 Charles Sterling 以及 PowerBI.Tips 與 Microsoft MVP 建立者的 Seth Bauer 和 Mike Carlo 會分享在過去 6 個月內，其發佈到 https://PowerBI.Tips 且不斷增加的 Power 工具、祕訣與工具。 示範將包含其最新的佈景主題產生器、祕訣與訣竅，以及最新的 Power BI 版面配置。  | Webinar       | 53 分鐘 34 秒    |
 | [Power BI：以正確方式完成分析](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_02OnDemandRegistration-ForminBody.html)  | 呼叫所有分析與 Excel 愛好者：了解如何製作人們會想要使用的精美報告、分享易於了解的動人見解，以及安全地細分複雜資料以便輕鬆存取。 我們將會分享新產品創新與我們對於現代化企業 BI 與自助 BI 的願景，讓您的組織能夠建置資料驅動文化。  | Webinar       |                |

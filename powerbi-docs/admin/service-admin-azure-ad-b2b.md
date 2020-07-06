@@ -5,52 +5,52 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
-ms.date: 09/09/2019
+ms.topic: how-to
+ms.date: 06/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 2bb54bf7340e89b86bfbfd56390b79a7051dd709
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 2782d639109b4901012e40ddb3d7c748bf063524
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812270"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393534"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者
 
-Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與外部來賓使用者共用內容。
-藉由使用 Azure AD B2B，組織就能在中央位置啟用並控管與外部使用者共用的功能。 根據預設，外部來賓僅具有使用體驗。 此外，您可以允許外部來賓使用者編輯和管理組織中的內容。
+Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與外部來賓使用者共用內容。 藉由使用 Azure AD B2B，組織就能在中央位置啟用並控管與外部使用者共用的功能。 根據預設，外部來賓僅具有使用體驗。 此外，您可以允許外部來賓使用者編輯和管理組織中的內容。
 
 本文提供 Power BI 中 Azure AD B2B 的基本簡介。 如需詳細資訊，請參閱[使用 Azure Active Directory B2B 將 Power BI 內容散發給外部來賓使用者](../guidance/whitepaper-azure-b2b-power-bi.md)。
 
 ## <a name="enable-access"></a>啟用存取
 
-在邀請來賓使用者之前，請務必確認已在 Power BI 管理入口網站中啟用[與外部使用者共用內容](service-admin-portal.md#export-and-sharing-settings)的功能。 即使已啟用此選項，使用者在 Azure Active Directory 中必須具有權限才能邀請來賓使用者 (透過來賓邀請者角色授與)。 
+邀請來賓使用者之前，請確定您已在 Power BI 管理入口網站中啟用[與外部使用者共用內容](service-admin-portal.md#export-and-sharing-settings)的功能。 即使已啟用此選項，還是必須在 Azure Active Directory 中為使用者授與「來賓邀請者」角色，才能邀請來賓使用者。
 
 [允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)選項，可讓您允許來賓使用者在工作區中查看和建立內容，包括瀏覽您組織的 Power BI。
 
 > [!NOTE]
-> [與外部使用者共用內容](service-admin-portal.md#export-and-sharing-settings)設定，可控制 Power BI 是否允許邀請外部使用者到您的組織。 當外部使用者接受邀請時，其即會成為您組織中的 Azure AD B2B 來賓使用者。 他們會出現在 Power BI 體驗中的所有人員選擇器中。 停用此設定時，您組織中的現有來賓使用者將能繼續存取他們先前可存取的所有項目，並繼續列在人員選擇器體驗中。 此外，如果您是透過[計劃性邀請](#planned-invites)方法新增來賓，則他們也會出現在人員選擇器中。 若要防止來賓使用者存取 Power BI，請使用 Azure AD 條件式存取原則。
+> [與外部使用者共用內容](service-admin-portal.md#export-and-sharing-settings)設定，可控制 Power BI 是否允許邀請外部使用者到您的組織。 當外部使用者接受邀請之後，其即會成為您組織中的 Azure AD B2B 來賓使用者。 在整個 Power BI 體驗中，這些使用者都會出現在人員選擇器中。 如果停用此設定，則您組織中的現有來賓使用者就能繼續存取其先前已經有權存取的所有項目，並繼續列在人員選擇器體驗中。 此外，如果您是透過[計劃性邀請](#planned-invites)方法新增來賓，則他們也會出現在人員選擇器中。 若要防止來賓使用者存取 Power BI，請使用 Azure AD 條件式存取原則。
 
 ## <a name="who-can-you-invite"></a>您可以邀請哪些人？
 
-您可以將大多數電子郵件地址的來賓使用者邀請到組織中，包括 gmail.com、outlook.com 以及 hotmail.com 等個人帳戶。 Azure AD B2B 會將這些地址稱為「社交身分識別」。
+來賓使用者邀請支援大多數電子郵件地址，包括 gmail.com、outlook.com 和 hotmail.com 等個人電子郵件帳戶。 Azure AD B2B 會將這些地址稱為「社交身分識別」。
 
-您無法邀請與政府雲端建立關聯的使用者，例如[適用於美國政府的 Power BI](service-govus-overview.md)。
+您無法邀請與政府雲端 (例如 [Power BI for US Government](service-govus-overview.md)) 相關聯的使用者。
 
 ## <a name="invite-guest-users"></a>邀請來賓使用者
 
 您只需在首次邀請來賓使用者存取您組織時傳送邀請給他們。 若要邀請使用者，請使用計劃性邀請或臨時邀請。
 
 若要使用臨時邀請，請使用下列功能：
+
 * 報表和儀表板共用
 * 應用程式存取清單
 
-工作區的存取清單不支援臨時邀請。 使用[計劃性邀請方法](#planned-invites)，以將這些使用者新增至您的組織。 一旦外部使用者成為您組織中的來賓，請將其新增至工作區存取清單。
+工作區存取清單不支援臨時邀請。 使用[計劃性邀請方法](#planned-invites)，以將這些使用者新增至您的組織。 當外部使用者成為您組織中的來賓之後，請將其新增至工作區存取清單。
 
 ### <a name="planned-invites"></a>計劃性邀請
 
-如果您知道要邀請哪些使用者，可以使用計劃性邀請。 您可以使用 Azure 入口網站或 PowerShell 來傳送邀請。 您必須是租用戶系統管理員才能邀請人員。
+如果您知道要邀請哪些使用者，可以使用計劃性邀請。 您可以使用 Azure 入口網站或 PowerShell 來傳送邀請。 您必須獲指派使用者管理員角色，才能邀請人員。
 
 請遵循下列步驟，以在 Azure 入口網站中傳送邀請。
 
@@ -66,30 +66,29 @@ Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與�
 
 1. 選取 [邀請]。
 
-若要邀請多位來賓使用者，請使用 PowerShell。 如需詳細資訊，請參閱 [Azure AD B2B 共同作業程式碼和 PowerShell 範例](/azure/active-directory/b2b/code-samples/)。
+若要邀請一位以上的來賓使用者，請使用 PowerShell 或在 Azure AD 中建立大量邀請。 若要使用 PowerShell 進行大量邀請，請遵循[教學課程：使用 PowerShell 大量邀請 Azure AD B2B 共同作業使用者](/azure/active-directory/b2b/bulk-invite-powershell/)中的步驟。 若要使用 Azure 入口網站進行大量邀請，請遵循[教學課程：大量邀請 Azure AD B2B 共同作業使用者](/azure/active-directory/b2b/tutorial-bulk-invite/)中的步驟。
 
-來賓使用者必須在其收到的電子郵件邀請中選取 [開始使用]。 系統便會將來賓使用者新增至租用戶。
+來賓使用者必須在收到的電子郵件邀請中選取 [開始使用]。 系統即會將該來賓使用者新增至組織。
 
 ![來賓使用者電子郵件邀請的螢幕擷取畫面。](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
 
 ### <a name="ad-hoc-invites"></a>臨時邀請
 
-若要隨時邀請外部使用者，請透過共用 UI 將他們新增至您的儀表板或報表，或透過存取頁面新增至您的應用程式。 以下範例是邀請外部使用者使用應用程式時該執行的作業。
+若要隨時邀請外部使用者，請透過共用功能將其新增至您的儀表板或報表，或透過存取頁面新增至您的應用程式。 以下範例是邀請外部使用者使用應用程式時該執行的作業。
 
 ![將外部使用者新增至 Power BI 中應用程式存取清單的螢幕擷取畫面。](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
-來賓使用者將會收到電子郵件，指出您已與他們共用應用程式。
+來賓使用者會收到電子郵件，指出您已與其共用應用程式。
 
 ![已與來賓使用者共用應用程式的電子郵件螢幕擷取畫面](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
 來賓使用者必須使用其組織電子郵件地址來登入。 系統會在他們登入之後提示他們接受邀請。 登入之後，系統會為來賓使用者開啟應用程式。 若要返回應用程式，則來賓使用者需將連結加入書籤，或儲存電子郵件。
 
-
 ## <a name="licensing"></a>授權
 
 來賓使用者必須有適當授權才能檢視您所共用的內容。 有三種選項可以確定使用者具有適當授權：使用 Power BI Premium、指派 Power BI Pro 授權，或使用來賓的 Power BI Pro 授權。
 
-[可以編輯和管理組織中內容的來賓使用者](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) 需要 Power BI Pro 授權才能將內容提供給工作區，或與其他人共用內容。
+[可以編輯和管理組織中內容的來賓使用者](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)需要 Power BI Pro 授權，才能將內容提供給工作區，或與其他人共用內容。
 
 ### <a name="use-power-bi-premium"></a>使用 Power BI Premium
 
@@ -99,23 +98,23 @@ Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與�
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>將 Power BI Pro 授權指派給來賓使用者
 
-將 Power BI Pro 授權指派給您租用戶中的來賓使用者，可讓該來賓使用者在租用戶中檢視內容。 如需指派授權的詳細資訊，請參閱[在 [授權] 頁面上將授權指派給使用者](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)。 將 Pro 授權指派給來賓使用者之前，請連絡您的 Microsoft 帳戶代表，以確保您符合 Microsoft 合約條款的規範。
+將組織的 Power BI Pro 授權指派給來賓使用者，讓該來賓使用者能夠檢視與其共用的內容。 如需指派授權的詳細資訊，請參閱[在 [授權] 頁面上將授權指派給使用者](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)。 將 Pro 授權指派給來賓使用者之前，請連絡您的 Microsoft 帳戶代表，以確保您符合 Microsoft 合約條款的規範。
 
 ![從您的租用戶指派 Pro 授權之來賓使用者體驗的圖表。](media/service-admin-azure-ad-b2b/license-approach-2.png)
 
 ### <a name="guest-user-brings-their-own-power-bi-pro-license"></a>來賓使用者帶來自己的 Power BI Pro 授權
 
-來賓使用者已在其租用戶內獲派 Power BI Pro 授權。
+來賓使用者可能已經擁有透過其自己組織獲得指派的 Power BI Pro 授權。
 
 ![來賓使用者攜帶自己的授權時之體驗的圖表。](media/service-admin-azure-ad-b2b/license-approach-3.png)
 
 ## <a name="guest-users-who-can-edit-and-manage-content"></a>可以編輯和管理內容的來賓使用者
 
-使用[允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)功能時，所指定來賓使用者將能取得您組織的 Power BI 額外存取權。 獲得授權的來賓可以查看所有授權內容、存取首頁、瀏覽工作區、安裝應用程式、查看自己在存取清單上的位置，並為工作區提供內容。 針對使用新工作區體驗的工作區，他們可以建立工作區管理員，或是成為工作區管理員。 適用某些限制。 ＜考量與限制＞一節會列出那些限制。
- 
+使用[允許外部來賓使用者編輯和管理組織中的內容](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)功能時，所指定來賓使用者將能取得您組織的 Power BI 額外存取權。 允許的來賓可以查看所有授權內容、存取首頁、瀏覽工作區、安裝應用程式、查看自己在存取清單上的位置，並為工作區提供內容。 這些來賓可以建立使用新工作區體驗的工作區，或是成為該工作區的管理員。 適用某些限制。 ＜考量與限制＞一節會列出那些限制。
+
 若要協助授權的來賓登入 Power BI，請提供其租用戶 URL。 若要尋找租用戶 URL，請遵循下列步驟。
 
-1. 在 Power BI 服務的頂端功能表中，選取說明 ( **?** )，然後選取 [關於 About Power BI]。
+1. 在 Power BI 服務的標題功能表中，選取說明 ( **?** )，然後選取 [關於 About Power BI]。
 
 2. 尋找 [租用戶 URL] 旁邊的值。 與您所授權的來賓使用者共用租用戶 URL。
 
@@ -127,35 +126,37 @@ Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與�
 
 * 若要邀請來賓使用者，則需要 Power BI Pro 授權。 Pro 試用版使用者無法在 Power BI 中邀請來賓使用者。
 
-* 某些體驗無法供[可編輯和管理組織中內容的來賓使用者](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)使用。 若要更新或發佈報表，他們需要使用 Power BI 服務 Web UI，包括 [取得資料] 以上傳 Power BI Desktop 檔案。  不支援下列體驗：
-    * 從 Power BI Desktop 直接發佈至 Power BI 服務
-    * 來賓使用者無法使用 Power BI Desktop 來連線至 Power BI 服務中的服務資料集
-    * 繫結至 Microsoft 365 群組的典型工作區：
-        * 來賓使用者無法建立這些工作區，或是成為這些工作區的管理員
-        * 來賓使用者可以成為成員
-    * 工作區的存取清單不支援傳送臨時邀請
-    * Power BI Publisher for Excel 不支援來賓使用者
-    * 來賓使用者無法安裝 Power BI Gateway，並將它連線至您的組織
-    * 來賓使用者無法安裝應用程式並發佈到整個組織
-    * 來賓使用者無法使用、建立、更新或安裝組織內容套件
-    * 來賓使用者無法使用 [使用 Excel 分析]
-    * 無法在註解中對來賓使用者進行 @mentioned
-    * 來賓使用者無法使用訂用帳戶
-    * 如果來賓使用者要使用這項功能，則應具備工作或學校帳戶。 
-    
-* 由於登入限制，使用個人帳戶的來賓使用者將會受到更多限制。
-    * 來賓使用者可以透過網頁瀏覽器來使用 Power BI 服務中的使用體驗
-    * 其無法使用 Power BI 行動版應用程式。
-    * 他們將無法登入來提供需要公司或學校帳戶的認證。
+* 某些體驗無法供[可編輯和管理組織中內容的來賓使用者](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)使用。 若要更新或發佈報表，來賓使用者需要使用 Power BI 服務，包括 [取得資料] 以上傳 Power BI Desktop 檔案。  不支援下列體驗：
+  * 從 Power BI Desktop 直接發佈至 Power BI 服務
+  * 來賓使用者無法使用 Power BI Desktop 來連線至 Power BI 服務中的服務資料集
+  * 繫結至 Microsoft 365 群組的傳統工作區
+    * 來賓使用者無法建立這些工作區，或是成為這些工作區的管理員
+    * 來賓使用者可以成為成員
+  * 工作區的存取清單不支援傳送臨時邀請
+  * Power BI Publisher for Excel 不支援來賓使用者
+  * 來賓使用者無法安裝 Power BI Gateway，並將它連線至您的組織
+  * 來賓使用者無法安裝應用程式並發佈到整個組織
+  * 來賓使用者無法使用、建立、更新或安裝組織內容套件
+  * 來賓使用者無法使用 [使用 Excel 分析]
+  * 無法在註解中對來賓使用者進行 @mentioned
+  * 來賓使用者無法使用訂用帳戶
+  * 如果來賓使用者要使用此功能，則應具備公司或學校帳戶
+
+* 由於登入限制，使用社交身分識別的來賓使用者將會受到更多限制。
+  * 來賓使用者可以透過網頁瀏覽器來使用 Power BI 服務中的使用體驗
+  * 其無法使用 Power BI 行動裝置應用程式
+  * 其將無法登入需要公司或學校帳戶的認證
 
 * Power BI SharePoint Online 報表網頁組件目前不提供此功能。
 
-* Active Directory 的設定可能會限制外部來賓使用者所能在整體組織內完成的作業。 那也適用於您的 Power BI 環境。 下列文件會討論這些設定：
-    * [管理外部共同作業設定](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
-    * [允許或封鎖對特定組織 B2B 使用者的邀請](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
-    * [使用條件式存取來允許或封鎖存取](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
-    
-* 全國性雲端不支援在組織外部共用。 相反地，請在組織中建立使用者帳戶，以供外部使用者用來存取內容。 
+* Azure Active Directory 設定可以限制外部來賓使用者能夠在整個組織內完成的作業。 那些設定也適用於您的 Power BI 環境。 下列文件會討論這些設定：
+  * [管理外部共同作業設定](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
+  * [允許或封鎖對特定組織 B2B 使用者的邀請](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
+  * [使用條件式存取來允許或封鎖存取](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
+
+* 您可以將政府雲端 (例如 GCC) 的內容與外部商業雲端使用者共用。 不過，來賓使用者無法使用自己的授權。 內容必須位於已指派給 Premium 的容量中，才能啟用存取。 或者，您可以將 Power BI Pro 授權指派給來賓帳戶。
+
+* 國家雲端 (例如，德國或中國雲端執行個體) 不支援在組織外部共用。 相反地，請在組織中建立使用者帳戶，以供外部使用者用來存取內容。
 
 * 如果您直接與來賓使用者共用，Power BI 會將附有連結的電子郵件傳送給他們。 若要避免傳送電子郵件，請將來賓使用者新增到安全性群組，並共用至安全性群組。  
 

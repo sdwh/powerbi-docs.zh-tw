@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: ecd5b71d0b64e235d69d2b6d3933d393cb684b04
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ba37d9fc79405518a59ff188fdb5890e6af8043c
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079247"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355022"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步驟 5：將資料列加入 Power BI 資料表
 
@@ -23,7 +23,7 @@ ms.locfileid: "79079247"
 
 呼叫 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 作業，以將資料列新增到資料集。
 
-![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
+![新增資料列](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
 以下是使用 Power BI API 將資料列加入資料集的方法。
 
@@ -310,7 +310,7 @@ ms.locfileid: "79079247"
     }
 ```
 
-雖然我們在上列程式碼中指定了 **_//Get the first id_** ，但正確的作法應是依名稱搜尋資料集。
+雖然我們在上列程式碼中指定了 **_//Get the first id_**，但正確的作法應是依名稱搜尋資料集。
 
 ## <a name="next-steps"></a>後續步驟
 [將資料推送至 Power BI 儀表板](walkthrough-push-data.md)  
