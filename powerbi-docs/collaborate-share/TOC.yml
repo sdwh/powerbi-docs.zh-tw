@@ -38,7 +38,7 @@
             - name: 資料集影響分析
               href: service-dataset-impact-analysis.md
             - name: 套用資料敏感度標籤
-              href: ../collaborate-share/service-security-apply-data-sensitivity-labels.md
+              href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: 連線到群組 OneDrive 上的檔案
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: 在傳統工作區共同作業
