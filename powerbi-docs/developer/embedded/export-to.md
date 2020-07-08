@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 546f712c87e67240fd15ee2563252d8f322212c7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220992"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034489"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>將 Power BI 報表匯出至檔案 (預覽)
 
@@ -73,7 +73,7 @@ ms.locfileid: "85220992"
 
 ### <a name="data-protection"></a>資料保護
 
-.pdf 和 .pptx 格式支援[敏感度標籤](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)。 如果將具有敏感度標籤的報表匯出為 .pdf 或 .pptx，則所匯出檔案會顯示有敏感度標籤的報表。
+.pdf 和 .pptx 格式支援[敏感度標籤](../../admin/service-security-sensitivity-label-overview.md)。 如果將具有敏感度標籤的報表匯出為 .pdf 或 .pptx，則所匯出檔案會顯示有敏感度標籤的報表。
 
 具有敏感度標籤的報表無法使用[服務主體](embed-service-principal.md)匯出為 .pdf 或 .pptx。
 
