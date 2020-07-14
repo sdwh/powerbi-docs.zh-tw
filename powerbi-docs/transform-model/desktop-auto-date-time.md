@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ae8121af4e3c16e7e8dd047284034fc95d0403fd
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 0c62e423bdf357a5eee4ef5b03daa7ec145310e7
+ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393810"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85943051"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>在 Power BI Desktop 中套用自動日期/時間
 
@@ -61,7 +61,7 @@ Power BI Desktop 也會在自動日期/時間資料表的 [資料] 資料行與�
 
 自動日期/時間產生的階層可用來以與一般階層可以使用的完全相同方式設定視覺效果。 您可以使用整個「日期階層」階層，或階層的特定層級來設定視覺效果。
 
-不過，一般階層並不支援其中一項新增的功能。 將自動日期/時間階層 (或來自階層的層級) 新增至視覺效果庫時，報表作者可以在使用階層或日期資料行之間切換。 此方法對某些視覺效果很有意義，前提是他們只需要日期資料行，而非是階層和其層級。 他們會從設定視覺效果欄位開始 (以滑鼠右鍵按一下視覺效果欄位，或按一下向下箭號)，然後使用操作功能表在日期資料行或日期階層之間切換。
+不過，一般階層並不支援其中一項新增的功能。 將自動日期/時間階層 (或來自階層的層級) 新增至視覺效果庫時，報表作者可在使用階層或日期資料行之間切換。 此方法對某些視覺效果很有意義，前提是他們只需要日期資料行，而非是階層和其層級。 他們會從設定視覺效果欄位開始 (以滑鼠右鍵按一下視覺效果欄位，或按一下向下箭號)，然後使用操作功能表在日期資料行或日期階層之間切換。
 
 ![OrderDate 階層視覺效果欄位設定的範例。 開啟內容功能表會顯示兩個選項，允許切換使用 OrderDate 資料行或「日期階層」。](media/desktop-auto-date-time/auto-date-time-configure-visuals-fields.png)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 6e006bc858ad9d82073ced7929c87920da6559ab
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564378"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034152"
 ---
 # <a name="power-bi-security"></a>Power BI 安全性
 
@@ -28,11 +28,11 @@ Power BI 服務是建置在 Microsoft 的雲端運算基礎結構和平台 **Azu
 
 **WFE** 叢集管理 Power BI 的初始連接和驗證程序，其使用 AAD 驗證用戶端並提供權杖，以便進行 Power BI 服務的後續用戶端連接。 Power BI 也會使用 **Azure 流量管理員** (ATM)，將使用者流量導向至由用戶端嘗試連接的 DNS 記錄所決定的最近資料中心，以便進行驗證程序及下載靜態內容和檔案。 Power BI 使用 **Azure 內容傳遞網路** (CDN)，以根據地區設定有效率地散發必要的靜態內容和檔案給使用者。
 
-![](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
+![顯示 Web 前端叢集 Power BI 結構的圖表。](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 
 **後端**叢集是驗證過的用戶端與 Power BI 服務互動的方式。 **後端**叢集會管理視覺效果、使用者儀表板、資料集、報表、資料儲存體、資料連線、資料重新整理，以及與 Power BI 服務互動的其他層面。 **閘道角色** 擔任使用者要求與 Power BI 服務之間的閘道。 使用者無法與 **閘道角色**以外的任何角色直接互動。 最終會由 **Azure API 管理**來操控**閘道角色**。
 
-![](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
+![顯示 Web 後端叢集 Power BI 結構的圖表。](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
 
 > [!IMPORTANT]
 > 請務必注意，只有 **Azure API 管理** (APIM) 和 **閘道** (GW) 角色可以透過公用網際網路存取。 這些角色提供驗證、授權、DDoS 保護、節流、負載平衡、路由及其他功能。

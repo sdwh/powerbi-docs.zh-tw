@@ -8,15 +8,15 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: cfb5e4f1f75437db6235ece0d8661bab3f008649
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b719dc72d9137ac1c3ffc3eee4669ad6bd61fc9f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148423"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034236"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中離線檢視資料
-適用於：
+適用於︰
 
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Android 手機](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Android 平板電腦](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
@@ -35,6 +35,9 @@ ms.locfileid: "83148423"
 當您離線時，可存取先前已從行動裝置應用程式存取的儀表板並與其互動。
 
 對於先前從行動裝置應用程式存取的任何 Power BI 報表，您也可以唯讀存取。 您可以查看完整的報表，但不能在其上篩選、交叉篩選、排序或使用交叉分析篩選器。
+
+>[!NOTE]
+> 以 DirectQuery 為基礎的報表不會進行快取，且無法在離線時使用。
 
 ## <a name="background-data-refresh"></a>背景的資料重新整理
 背景重新整理會使用 Power BI 服務 (而不是資料來源) 上的資料來更新您的最愛儀表板，以及您在過去兩週檢視的儀表板和報表。 如已連線到 Wi-Fi，背景重新整理會每隔 2 小時更新一次。 否則，如果您使用 3G 網路，Power BI 會每隔 24 小時更新內容一次。

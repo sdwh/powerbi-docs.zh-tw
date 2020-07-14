@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
+ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337065"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "86092231"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教學課程：將客戶的 Power BI 內容內嵌至應用程式
 
@@ -428,9 +428,12 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 ### <a name="development-testing"></a>開發測試
 
-使用具有 Pro 授權的內嵌權杖適用於開發測試，因此 Power BI 主帳戶或服務主體可產生的內嵌權杖數量有限。 需有專用容量，才可在生產環境中進行內嵌作業。 若有專用容量，即不會限制您可產生的內嵌權杖數量。 請移至 [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) (可用功能) 來檢查指出目前內嵌使用情況百分比的使用情況值。 使用量以每個主帳戶為基礎。
+若要進行開發測試，您可搭配 Pro 授權使用內嵌試用權杖。 若要在生產環境中進行內嵌，請使用專用容量。
 
-如需詳細資訊，請參閱[內嵌的分析容量規劃白皮書](https://aka.ms/pbiewhitepaper)。
+Power BI 服務主體或主帳戶可產生的內嵌試用權杖數有所限制。 請使用[可用功能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) API 來檢查目前內嵌使用量的百分比。 使用量會針對每個服務主體或主帳戶顯示。
+
+若在測試時用盡內嵌權杖，則需要購買 Power BI Embedded 或 Premium [容量](embedded-capacity.md)。 使用專用容量可產生的內嵌權杖數沒有限制。
+
 
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>將工作區指派給專用容量
 

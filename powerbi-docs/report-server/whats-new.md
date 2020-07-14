@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/27/2020
-ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.date: 07/06/2020
+ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739222"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034029"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI 報表伺服器的新功能
 
@@ -28,9 +28,11 @@ ms.locfileid: "84739222"
 
 ## <a name="may-2020"></a>2020 年 5 月
 
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>針對 Power BI 報表伺服器最佳化的 Power BI Desktop
+
 這項更新的重點在於階層式交叉分析篩選器和分解樹狀結構視覺效果，以及查詢診斷。 接下來是新增和更新功能的完整清單。 如需詳細資料，請參閱 [Power BI 報表伺服器 2020 年 5 月的部落格文章](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/) \(英文\)。 
 
-### <a name="reporting"></a>報告
+#### <a name="reporting"></a>報告
 
 - 階層式交叉分析篩選器
 - 按鈕的新動作類型：
@@ -51,7 +53,7 @@ ms.locfileid: "84739222"
     - 新的篩選窗格體驗
     - 篩選窗格搜尋
     
-### <a name="modeling"></a>模型化
+#### <a name="modeling"></a>模型化
 
 - 新的 DAX 函式：
 
@@ -61,18 +63,24 @@ ms.locfileid: "84739222"
 
 - 標準 DAX 分隔符號
 
-### <a name="visualizations"></a>視覺效果
+#### <a name="visualizations"></a>視覺效果
 
 - 新的視覺效果圖示
 - 視覺效果延伸陰影
 
-### <a name="data-preparation"></a>資料準備
+#### <a name="data-preparation"></a>資料準備
 
 - 查詢診斷
 
-### <a name="other"></a>其他
+#### <a name="other"></a>其他
 
 - 使用 Web Proxy 的預設系統認證
+
+### <a name="power-bi-report-server"></a>Power BI 報表伺服器
+
+#### <a name="power-bi-visuals-api"></a>Power BI 視覺效果 API
+
+此版本隨附的 API 版本為 3.2。
 
 ## <a name="january-2020"></a>2020 年 1 月
 

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: e1162ecfb9eee7d1a0bfaf5a7ef25244ec8935c0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3c36a2725748e2c701c65f1737c39f4d56128962
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226809"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034374"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>[使用 EXCEL 分析] 的疑難排解
 
@@ -45,22 +45,22 @@ Excel 文件庫必須在位元層級方面符合您的 Windows 版本。 如果�
 
 若要下載最新的 Excel 文件庫，請瀏覽 Power BI，然後選取 Power BI 服務右上角的**向下鍵**，然後選取 [在 Excel 更新中分析]。
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
+![螢幕擷取畫面，其中顯示位於右上角用以選取 [在 Excel 中進行分析] 更新的向下箭號功能表選項。](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
 
 在出現的對話方塊中，選取 [下載 (預覽)]。
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
+![螢幕擷取畫面，其中顯示用以選取 [下載] 或 [預覽] 按鈕的 [在 Excel 中進行分析] 更新對話方塊。](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
 
 ## <a name="determining-whether-you-need-to-update-your-excel-libraries"></a>判斷是否需要更新您的 Excel 文件庫
 您可以從上一節中的連結下載最新版本的 Excel OLE DB 提供者文件庫。 下載適當的 OLD DB 提供者文件庫並開始安裝後，系統會針對目前安裝的版本執行檢查。
 
 如果 Excel OLE DB 提供者用戶端文件庫處於最新狀態，則會看到下列對話方塊︰
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
+![對話方塊的螢幕擷取畫面，如果有較新版本的 Excel O L E D B 提供者用戶端程式庫，對話方塊便會要求更新。](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
 
 或者，如果您要安裝的新版本比電腦上的版本更新，則會出現下列對話方塊︰
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
+![螢幕擷取畫面，其中顯示用以在安裝 Excel O L E D B 提供者用戶端程式庫時確認升級的對話方塊。](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
 
 如果看到提示您升級的對話方塊，您應該繼續進行安裝，以取得在電腦中安裝之 OLE DB 提供者的最新版本。
 

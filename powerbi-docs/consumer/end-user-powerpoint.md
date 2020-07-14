@@ -7,19 +7,19 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1120b15974d0e747dc60cf2c56dff1135c9d29c
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 85dc7e9807e11114c4fb6abb988d10c583b9e56c
+ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782512"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "85837031"
 ---
 # <a name="export-reports-to-powerpoint"></a>將報表匯出至 PowerPoint
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 
 使用 Power BI 服務 (app.powerbi.com)，即可將報表發佈至 Microsoft PowerPoint，並根據 Power BI 報表輕鬆建立投影片組。 當您匯出至 PowerPoint 時，會發生下列狀況：
@@ -40,7 +40,7 @@ ms.locfileid: "85782512"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-當畫布上顯示您要匯出至 PowerPoint 的報表時，請從功能表列選取 [匯出] > [PowerPoint]。
+當畫布上顯示想要匯出至 PowerPoint 的報表時，請從功能表列選取 [檔案] > [匯出至 PowerPoint]。
 
 ![從功能表列選取 [匯出]](media/end-user-powerpoint/power-bi-export.png)
 
@@ -86,6 +86,10 @@ ms.locfileid: "85782512"
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 當您使用 [匯出至 PowerPoint] 功能時，需牢記幾項考量與限制。
  
+
+* 如果看不到 [匯出] 選項，請確定已開啟「新外觀」，且正在檢視報表 (而不是儀表板)。
+
+    ![[新外觀] 切換的螢幕擷取畫面](media/end-user-powerpoint/power-bi-new-look.png)
 
 * 當您針對匯出選擇 [目前的值] 時，目前不適用 [URL 篩選](../collaborate-share/service-url-filters.md)。
 

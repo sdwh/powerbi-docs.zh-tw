@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cac39407cac3af833656a4e94edf9a3c80bbc26
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e32824a58faa3a6a98e4d38f7362c62ab13b069e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231620"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034443"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>使用 Power BI 連接到 Zendesk
 
@@ -28,6 +28,9 @@ ms.locfileid: "85231620"
 
 >[!NOTE]
 >您需要具備 Zendesk 管理帳戶才能連線。 下方有[需求](#system-requirements)的詳細資訊。
+
+>[!WARNING]
+>在 2019 年 10 月 15 日之前，Zendesk 支援搜尋 API，允許透過分頁處理大型查詢收到總計 200000 個結果。 為了讓搜尋使用與其預期範圍相符，Zendesk 現在將傳回的結果數目上限限制為總共 1000 個結果，每頁最多 100 個結果。 不過，目前的 Power BI Zendesk 連接器仍然可建立超出這些新限制的 API 呼叫，因而導致可能產生誤導的結果。
 
 ## <a name="how-to-connect"></a>如何連接
 

@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 31a39d32e61ff82dcc9e451fbf1119938e5bb2e2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fb67243b14fc5a89de0efc6f8248aa2b37fb2bbf
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344863"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034075"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>德國雲端客戶的 Power BI 常見問題集
 **Power BI 服務**為歐盟/歐洲自由貿易協定 (EU/EFTA) 客戶提供一個版本，通常稱為 Microsoft Cloud Deutschland (MCD)。 本文所討論的 **Power BI 服務**版本為 EU/EFTA 客戶專屬，獨立且不同於商用版本的 **Power BI 服務**，或提供給政府客戶的 Power BI 服務。
 
-![](media/service-govde-faq/govde-faq_01.png)
+![Microsoft Power BI 德國首頁的螢幕擷取畫面。](media/service-govde-faq/govde-faq_01.png)
 
 ## <a name="questions-and-answers"></a>問題和回答
 

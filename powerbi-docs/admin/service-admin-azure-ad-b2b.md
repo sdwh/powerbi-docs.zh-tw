@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 06/02/2020
+ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 2782d639109b4901012e40ddb3d7c748bf063524
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 17c19fbdf1c5057d287f50531f2b679a19e3a30e
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393534"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939444"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者
 
@@ -98,7 +98,7 @@ Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與�
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>將 Power BI Pro 授權指派給來賓使用者
 
-將組織的 Power BI Pro 授權指派給來賓使用者，讓該來賓使用者能夠檢視與其共用的內容。 如需指派授權的詳細資訊，請參閱[在 [授權] 頁面上將授權指派給使用者](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)。 將 Pro 授權指派給來賓使用者之前，請連絡您的 Microsoft 帳戶代表，以確保您符合 Microsoft 合約條款的規範。
+將組織的 Power BI Pro 授權指派給來賓使用者，讓該來賓使用者能夠檢視與其共用的內容。 如需指派授權的詳細資訊，請參閱[在 [授權] 頁面上將授權指派給使用者](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)。 將 Pro 授權指派給來賓使用者之前，請參閱[授權條款網站](https://www.microsoft.com/licensing/terms)，以確保符合 Microsoft 授權合約的規範。
 
 ![從您的租用戶指派 Pro 授權之來賓使用者體驗的圖表。](media/service-admin-azure-ad-b2b/license-approach-2.png)
 

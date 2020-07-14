@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ace3b89051ee5f7b082979f2739cef71ceb05440
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84ecbb51663629b663373b884af86329f49e974f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225735"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034466"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI 中的組織內容套件簡介
 > [!NOTE]
@@ -23,7 +23,7 @@ ms.locfileid: "85225735"
 
 您有透過電子郵件向小組定期發佈報表嗎？ 改為嘗試：封裝您的儀表板、報表、Excel 活頁簿與資料集，然後將其發行到您的小組作為「組織內容套件」。 因為建立的內容套件全部都在 AppSource 內，所以您的小組很容易就可以找到。 因為它們是 Power BI 的一部分，所以能使用 Power BI 的所有功能，包括互動式資料瀏覽、新的視覺效果、問與答、與其他資料來源整合、資料重新整理等等。
 
-![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
+![顯示組織內容套件的儀表板螢幕擷取畫面。](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
 建立內容套件與共用儀表板或在工作區中於儀表板上進行共同作業不同。 閱讀[應該如何共同作業和共用儀表板和報表？](service-how-to-collaborate-distribute-dashboards-reports.md)，來為您的情況決定最佳選項。 
 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e499f6894890c379b76bfe0a11428715add30dfb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224894"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034420"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>在 Power BI Desktop 中連線到 Azure 使用量見解資料
 
@@ -42,25 +42,25 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 
 1. 選取 [連接]。
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
+   ![Microsoft Azure 使用量見解對話方塊的螢幕擷取畫面。 選取 [連線]。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
    在出現的對話方塊中，輸入您的 **Azure 註冊號碼**。
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
+   ![輸入 Azure 註冊號碼對話方塊的螢幕擷取畫面。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
    * 您可以從 [Azure 企業版入口網站](https://ea.azure.com)取得註冊號碼，位置如下圖所示：
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
+  ![Azure 企業入口網站以取得註冊號碼的螢幕擷取畫面。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
 
    此連接器版本只支援來自 https://ea.azure.com 的 Enterprise 註冊。 中國目前不支援註冊。
 
    接下來，提供連接用的「存取金鑰」。
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
+   ![輸入存取金鑰以連線到 Microsoft Azure 使用量見解對話方塊的螢幕擷取畫面。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
    * 您的註冊用存取金鑰可以在 [Azure 企業版入口網站](https://ea.azure.com)找到。
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
+  ![顯示註冊存取金鑰 Azure 企業入口網站的螢幕擷取畫面。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 在您提供「存取金鑰」並選取 [連線] 後，隨即會出現一個 [導覽器] 視窗，顯示九個可用的資料表：
 
@@ -78,7 +78,7 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 
 您可以選取任何資料表旁邊的核取方塊，以便查看預覽。 您可以藉由核取名稱旁邊的方塊，選取一或多個資料表，然後選擇 [載入]。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
+![顯示所有可用資料表 [導覽] 對話方塊的螢幕擷取畫面。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > *Summary* 和 *PriceSheet* 資料表只可供註冊層級 API 金鑰之用。 此外，這些資料表中的資料預設具有目前月份的 *Usage* 和 *PriceSheet* 資料。 *Summary* 和 *MarketPlace* 資料表不受限於目前月份。
@@ -87,11 +87,11 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 
 當您選取 [載入] 時，資料會載入 **Power BI Desktop**。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
+![載入資料時所顯示對話方塊的螢幕擷取畫面。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
 您選取的資料載入後，可以在 [欄位] 窗格看到您所選取的資料表和欄位。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
+![從 [導覽] 視窗載入資料表後欄位窗格的螢幕擷取畫面。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
 
 ## <a name="using-azure-consumption-insights"></a>使用 Azure 使用深入解析
 若要使用 **Azure 使用量見解**連接器，您可以存取 Azure 入口網站企業版的功能。
@@ -116,7 +116,7 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 
 下圖顯示隨即出現的範例集合。
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
+![範例集合的螢幕擷取畫面。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 使用報表和建立查詢時，您可以：
 
@@ -148,7 +148,7 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
     in     
         data
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
+![在 [進階編輯器] 中建立查詢對話方塊的螢幕擷取畫面。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 
 您需要將 *enrollmentNumber* 值替換成您的註冊號碼。 您可以從 [Azure 企業版入口網站](https://ea.azure.com)取得您的號碼。 *numberOfMonth* 參數是您要傳回幾個月的資料，從目前的日期起算。 使用零 (0) 代表目前的月份。
 
@@ -160,7 +160,7 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 1. 開啟 [記事本] \(或其他文字編輯器)。
 2. 選取您想要移動的量值，並從 [公式] 欄位複製文字且放在 [記事本] 中。
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
+   ![顯示資料行和量值公式欄位的螢幕擷取畫面。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. 將 *Query1* 重新命名為原始的詳細資料資料表名稱。
 4. 若要建立新的資料表量值和自訂資料行，請以滑鼠右鍵按一下資料表，然後選擇 [新量值]。 然後，請剪下並貼上您儲存的量值和資料行，直到全部完成為止。
 
@@ -169,7 +169,7 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 
 - 在 **Power BI Desktop**的 [模型] 索引標籤中，選取 [管理關聯性]，以顯示視窗讓您管理模型內的關聯性。 視需要重新連結您的資料表。
 
-    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
+    ![[建立關聯性] 對話方塊的螢幕擷取畫面。 選取 [管理關聯性]。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
 ### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>步驟 5：驗證視覺效果，然後視需要調整欄位格式設定
 此時，您大部分的原始視覺效果、資料表和向下鑽研應該都已正常運作。 但是您可能需要進行一些小幅度的調校，來精確地設定外觀及操作的格式。 請花費一些時間查看每個儀表板和視覺效果，確保它們看起來與您想要的外觀一致。

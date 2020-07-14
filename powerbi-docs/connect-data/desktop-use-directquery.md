@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 07/02/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcf774af00fe65c5f9708f85f6270cda8405896f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222567"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939493"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 有了 *Power BI Desktop*，當連線到資料來源時，隨時可將資料的複本匯入 Power BI Desktop。 對於某些資料來源，可用的替代方式是：使用 DirectQuery 直接連線到資料來源。
@@ -53,7 +53,7 @@ ms.locfileid: "85222567"
 
 - 系統對量值中允許的 DAX 運算式有所限制，這是為了確保傳送至基礎資料來源的查詢皆具有足夠效能。
 
-- 除非是使用 Premium 容量，否則使用 DirectQuery 傳回資料時，會有一百萬個資料列的限制。 這項限制不會影響使用 DirectQuery 傳回時，用來建立資料集的彙總或計算。 只會影響傳回的資料列。 Premium 容量可以設定資料列上限，如[這篇文章](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/) \(英文\) 所述。 
+- 針對雲端來源，有 1 百萬個資料列的限制，內部部署來源限制為每個資料列大約 4 MB 的已定義承載 (視專屬的壓縮演算法而定)，或整個視覺效果 16 MB 資料大小。 使用 Premium 容量時可能會引發某些限制。 這項限制不會影響使用 DirectQuery 傳回時，用來建立資料集的彙總或計算。 只會影響傳回的資料列。 Premium 容量可以設定資料列上限，如[這篇文章](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/) \(英文\) 所述。 
 
     例如，您可以使用在資料來源上執行的查詢來彙總 1 千萬個資料列。 如果傳回的 Power BI 資料小於1 百萬個資料列，則查詢會使用 DirectQuery 正確地將該彙總的結果傳回到 Power BI。 如果 DirectQuery 傳回超過 1 百萬個資料列，Power BI 會傳回錯誤 (除非是使用 Premium 容量，且資料列計數低於系統管理員所設定的限制)。
 
