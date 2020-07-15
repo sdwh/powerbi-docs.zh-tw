@@ -2,20 +2,20 @@
 title: 導覽報表 [篩選] 窗格
 description: 如何在 Power BI 服務中，為取用者將篩選條件新增至報表
 author: mihart
-ms.reviewer: ''
-ms.custom: seodec18
+ms.reviewer: mihart
+ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 3501860fbec668b53f0638145347a5058f3b9e93
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 831ab706e65755895f23d83e7e70e1692ed15869
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238294"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264369"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>報表 [篩選] 窗格概觀
 

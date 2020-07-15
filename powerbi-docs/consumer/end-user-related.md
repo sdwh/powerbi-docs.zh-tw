@@ -2,7 +2,7 @@
 title: 從儀表板、報表與資料集檢視相關內容
 description: 瀏覽變得更容易，檢視儀表板、報表及資料集中的相關內容
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0930b9b38694ddbb054449951ccb41e9148a8b2c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d8a024fe64accd873398437105bdcee701361b26
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234970"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264311"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>檢視 Power BI 服務中的相關內容
 
