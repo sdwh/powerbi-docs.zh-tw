@@ -2,7 +2,7 @@
 title: 教學課程：為 Power BI 服務儀表板上的資料設定警示
 description: 在此教學課程中，您將了解如何設定警示，在儀表板上的資料變更超出您在 Microsoft Power BI 服務中設定的限制時通知您。
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 15efacda18980c4e79d91f291e1714eec69fef59
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb6e874a0ed0c8ce67ff9349f21c5e752ec08b47
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221410"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162336"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>教學課程：設定 Power BI 儀表板的警示
 

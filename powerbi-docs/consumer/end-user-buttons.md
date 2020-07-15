@@ -2,19 +2,19 @@
 title: 了解按鈕在 Power BI 服務中的運作方式
 description: 按鈕可用來啟動各種動作，包括報表內瀏覽、鑽研，以及跨報表鑽研
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 14024a9c28da93cbe9e6e586ee66f634b63a70b8
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 51871e9653a1f3d0d48f25de33d4a72603695cf4
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939886"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161782"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI 服務中的按鈕
 在從同事收到的報表中，您可能會注意到其中包含按鈕，且會好奇如何使用這些按鈕。 有些按鈕包含單字，有些則包含箭號，其他則包含圖形，甚至有些還有下拉式功能表。 本文會教導您如何辨識按鈕，以及如何釐清這些按鈕的使用方式。
