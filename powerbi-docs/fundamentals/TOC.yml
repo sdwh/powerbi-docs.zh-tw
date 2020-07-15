@@ -33,6 +33,10 @@
               href: service-self-service-signup-for-power-bi.md
             - name: 依授權類型排列的功能
               href: service-features-license-type.md
+            - name: 取得購買 Power BI Pro 的協助
+              href: service-self-service-purchase-help.md
+            - name: 取得註冊 Power BI 的協助
+              href: service-self-service-sign-up-help.md
     - name: 操作指南
       items:
         - name: 取得 Power BI Desktop
