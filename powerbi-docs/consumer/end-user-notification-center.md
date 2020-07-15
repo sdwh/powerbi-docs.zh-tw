@@ -2,7 +2,7 @@
 title: 檢視通知中心的訊息
 description: 通知中心是按時間排列的 Power BI 體驗相關資訊摘要。
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fd6de43a05f6964a767758b6091c09043f9a0f34
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a947b872b56924f91e8cfadadcf474eae76ba018
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236441"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263630"
 ---
 # <a name="view-power-bi-notifications"></a>檢視 Power BI 通知
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5e7fe8a7c71927a1e89bd4e86209c580ae1f3b29
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225672"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216547"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -29,10 +29,6 @@ ms.locfileid: "85225672"
 ## <a name="create-embed-codes-with-publish-to-web"></a>使用 [發行至 Web] 建立內嵌程式碼
 
 您可以在個人和群組工作區中可編輯的報表使用 [發佈至 Web] 功能。  此功能不適用於與您共用的報表，也不適用於依賴資料列層級安全性保護資料的報表。 請參閱下面的[**限制**](#limitations)一節以取得不支援 [發佈至 Web] 的完整案例清單。 使用 [發佈至 Wb] 之前，請先檢閱本文中稍早的＜警告＞。
-
-下列短片會顯示這項功能的運作方式。 然後，請在下列步驟中親自試試看。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
 下列步驟說明如何使用 [ **發佈至網路**]。
 

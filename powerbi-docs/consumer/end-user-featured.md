@@ -2,19 +2,19 @@
 title: 選取當您開啟 Power BI 服務時要顯示的儀表板
 description: 如何在 Power BI 服務中建立精選儀表板的相關文件
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c91bcf3552f77edfeb9373604416c09015e5e062
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 022ce2c28ef41636c4530f93e7c2765784c24ff0
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220509"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215867"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI 服務中的精選儀表板
 

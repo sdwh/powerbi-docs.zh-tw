@@ -3,18 +3,19 @@ title: Power BI 如何確保您的內容是最新狀態
 description: 了解 Power BI 如何確保您正在使用最新版的資料、報表、儀表板和應用程式。
 author: mihart
 ms.service: powerbi
+ms.reviewer: mihart
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f03493ad6aef1b9ed8393ef684d4c18143085964
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 73affb07b137ee60fe00f7d344759ec2de1bcb85
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235019"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215919"
 ---
 # <a name="your-content-is-up-to-date"></a>您的內容是最新狀態
 
