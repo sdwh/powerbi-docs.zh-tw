@@ -47,6 +47,8 @@
       items:
         - name: Power BI 報表
           items:
+            - name: Power BI Desktop 及外部工具
+              href: desktop-external-tools.md
             - name: Power BI 新式功能區
               href: desktop-ribbon.md
             - name: 使用報表檢視
