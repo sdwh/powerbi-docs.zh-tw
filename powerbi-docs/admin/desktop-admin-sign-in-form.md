@@ -8,17 +8,17 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: davidi
-ms.openlocfilehash: 49b7d1129f73e146db1e34b1ec7d39a176cb37ed
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 44add6bf76e5bc4445df08a76859e05c8fa1638d
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228912"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86160862"
 ---
 # <a name="administrators-manage-the-power-bi-desktop-sign-in-form"></a>系統管理員：管理 Power BI Desktop 登入表單
 Power BI Desktop 第一次啟動時，會顯示登入表單。 您可以填入資訊，或登入 Power BI 以繼續。 系統管理員使用登錄機碼來管理此表單。 
 
-![Power BI desktop 的初始登入表單](media/desktop-admin-sign-in-form/sign-in-form.png)
+![Power B I Desktop 初始登入表單的螢幕擷取畫面。](media/desktop-admin-sign-in-form/sign-in-form.png)
 
 系統管理員使用下列登錄機碼停用登入表單。 這也可以使用全域原則推送到全組織。
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: bcd5713b2ee7f053448718bc5dd93c24b0d53de6
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: ca6ce7bde592c1153b0a553a906391c3a2c7d5be
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813868"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216642"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 服務中的設計工具基本概念
 
@@ -24,7 +24,7 @@ ms.locfileid: "83813868"
 
 針對此文章，如果您還沒有自己的報表，請嘗試安裝其中一個 [Power BI 範例](../create-reports/sample-datasets.md)。
 
-![瀏覽器中的 Power BI 服務首頁畫面](media/service-basic-concepts/power-bi-home-screen.png)
+![此圖顯示 Power B I 服務 [首頁] 畫面，包含如下所列出的編號區域瀏覽器。](media/service-basic-concepts/power-bi-home-screen.png)
 
 當您在瀏覽器中開啟 Power BI 服務時，會從看到首頁開始。 以下是您可能會看到的元素：
 
@@ -57,7 +57,8 @@ Power BI 包含五個主要的建構元素：*儀表板*、*報表*、*活頁簿
 
 有兩種類型的工作區：「我的工作區」和「工作區」。
 
-- [我的工作區] 是可供任何 Power BI 客戶處理自己的內容的個人工作區。 只有您可以存取您的 [我的工作區]。 您可以從 [我的工作區] 共用儀表板和報表。 如果您想要在儀表板和報表上共同作業，或建立應用程式，則應在工作區中工作。      
+- [我的工作區] 是可供任何 Power BI 客戶處理自己的內容的個人工作區。 只有您可以存取您的 [我的工作區]。 您可以從 [我的工作區] 共用儀表板和報表。 如果您想要在儀表板和報表上共同作業，或建立應用程式，則應在工作區中工作。
+
 -  *工作區*可用於共同作業，以及與同事共用內容。 您可以將同事新增至您的工作區，以及在儀表板、報告、活頁簿和資料集上共同作業。 但有一項例外，所有工作區成員都須具備 Power BI Pro 授權。 深入閱讀[新增工作區](../collaborate-share/service-create-the-new-workspaces.md)。 
 
     您也可以在工作區中為組織建立、發佈及管理*應用程式*。 您可以將工作區視為組成 Power BI 應用程式之內容的暫存區域與容器。 所以，何謂「應用程式」？ 應用程式集結了儀表板與報表，而建置這些儀表格與報表目的，則在提供關鍵計量給組織中的 Power BI 取用者。 應用程式皆能互動，但取用者無法編輯。 應用程式取用者 (可以存取應用程式的同事) 不一定需要 Pro 授權。  
@@ -80,7 +81,7 @@ Power BI 包含五個主要的建構元素：*儀表板*、*報表*、*活頁簿
 
 在以下範例中，我已選取「銷售與行銷」工作區，並按下了 [資料集] 的索引標籤。
 
-![選取資料集](media/service-basic-concepts/power-bi-datasets.png)
+![Power B I 的螢幕擷取畫面，其中顯示已選取 [資料集] 的範例工作區。](media/service-basic-concepts/power-bi-datasets.png)
 
 **一個** 資料集...
 
@@ -88,7 +89,7 @@ Power BI 包含五個主要的建構元素：*儀表板*、*報表*、*活頁簿
 * 可以用在許多不同的報表中。
 * 可在許多不同的儀表板中顯示該單一資料集的視覺效果。
 
-  ![資料集圖表](media/service-basic-concepts/drawing2.png)
+  ![此圖顯示 [報表] 和 [儀表板] 的 [資料集] 關聯性。](media/service-basic-concepts/drawing2.png)
 
 若要[連接資料集或匯入資料集](../connect-data/service-get-data.md)，請選取瀏覽窗格底部的 [取得資料]。 請遵循指示來連線到或匯入特定來源，並將資料集新增至作用中的工作區。 新的資料集會以黃色星號標示。 您在 Power BI 中執行的工作不會變更底層資料集。
 
@@ -108,7 +109,7 @@ Power BI 包含五個主要的建構元素：*儀表板*、*報表*、*活頁簿
 ## <a name="reports"></a>報表
 Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖及矩形式樹狀結構圖。 Virtualization 和 **_Visual_** 都是指視覺效果。 報表中的所有視覺效果都是來自單一資料集。 您可以在 Power BI 從頭開始建立報表、使用同事與您共用的儀表板進行匯入，或是 Power BI 可以在您從 Excel、Power BI Desktop、資料庫和 SaaS 應用程式連線到資料集時建立報表。  例如，當您連接到包含 Power View 工作表的 Excel 活頁簿時，Power BI 會根據這些工作表建立報表。 而當您連接至 SaaS 應用程式時，Power BI 則會匯入預先建立的報表。
 
-有兩種模式可以檢視報表並與其互動：「閱讀檢視」和「編輯檢視」。 當您開啟報表時，它會在閱讀檢視中開啟。 若您有編輯權限，您會在左上角看到 [編輯報表]，並且可以在編輯檢視中檢視報表。  若報表是在工作區中，每位具備 *admin*、*member* 或 *contributor* 角色的成員都可以編輯。 他們可以存取該報表編輯檢視的所有探索、設計、建置和共用功能。 與他們共用報表的人員，可以在閱讀檢視中探索和與報表進行互動。   
+有兩種模式可以檢視報表並與其互動：「閱讀檢視」和「編輯檢視」。 當您開啟報表時，它會在閱讀檢視中開啟。 若您有編輯權限，您會在左上角看到 [編輯報表]，並且可以在編輯檢視中檢視報表。  若報表是在工作區中，每位具備 *admin*、*member* 或 *contributor* 角色的成員都可以編輯。 他們可以存取該報表編輯檢視的所有探索、設計、建置和共用功能。 與他們共用報表的人員，可以在閱讀檢視中探索和與報表進行互動。
 
 當您開啟工作區時，相關聯的報告會列在 [報告] 索引標籤之下。每個列出的報告只會根據一個基礎資料集，呈現一或多個頁面的視覺效果。 若要開啟報表，請選取該報表。
 
@@ -118,7 +119,7 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
 
 在以下範例中，我已選取「銷售與行銷」工作區，並按下了 [報表] 的索引標籤。
 
-![選取報表](media/service-basic-concepts/power-bi-reports.png)
+![Power B I 的螢幕擷取畫面，其中顯示已選取 [報表] 的範例工作區。](media/service-basic-concepts/power-bi-reports.png)
 
 **一個** 報表...
 
@@ -126,7 +127,7 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
 * 可以與該工作區中的多個儀表板建立關聯。 從單一報表釘選的磚可以出現在多個儀表板上。
 * 可使用一個資料集的資料建立而成。 Power BI Desktop 可以將超過一個資料來源合併成報表中的單一資料集，且該報表可匯入至 Power BI。
 
-  ![報表圖表](media/service-basic-concepts/drawing3new.png)
+  ![此圖顯示 [報表] 和 [資料集] 的 [儀表板] 關聯性。](media/service-basic-concepts/drawing3new.png)
 
 ### <a name="dig-deeper"></a>深入瞭解
 - [匯入資料集以在 Power BI 服務中建立報表](../create-reports/service-report-create-new.md)
@@ -154,7 +155,7 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
 * 可顯示許多不同報表的視覺效果
 * 可以顯示從其他工具 (例如 Excel) 釘選的視覺效果
 
-  ![選取儀表板](media/service-basic-concepts/drawing1.png)
+  ![此圖顯示 [儀表板] 和 [資料集] 與 [報表] 的關聯性。](media/service-basic-concepts/drawing1.png)
 
 ### <a name="dig-deeper"></a>深入瞭解
 * [建立空白儀表板，然後取得一些資料](../create-reports/service-dashboard-create.md)。
@@ -177,15 +178,15 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
 ## <a name="a-dashboard-in-my-workspace"></a>[我的工作區] 中的儀表板
 我們已涵蓋工作區和建置組塊。 讓我們將它合在一起，並檢閱構成 Power BI 服務儀表板體驗的各部分。
 
-![瀏覽器中的 Power BI 服務](media/service-basic-concepts/completenewest.png)
+![瀏覽器中 Power B I 服務的螢幕擷取畫面，其中顯示如下所列出的編號功能。](media/service-basic-concepts/completenewest.png)
 
 ### <a name="1-navigation-pane"></a>1.**瀏覽窗格**
 使用瀏覽窗格在您的工作區與 Power BI 建構元素 (儀表板、報表、活頁簿和資料集) 之間尋找及移動。  
 
-  ![瀏覽窗格](media/service-basic-concepts/power-bi-navigation.png)
+  ![Power B I 服務的螢幕擷取畫面，其中顯示功能窗格。](media/service-basic-concepts/power-bi-navigation.png)
 
 * 選取 [取得資料]，[將資料集、報表和儀表板新增至 Power BI](../connect-data/service-get-data.md)。
-* 使用此圖示展開及摺疊瀏覽窗格 ![瀏覽窗格圖示](media/service-basic-concepts/expand-icon.png).
+* 使用此圖示展開及摺疊瀏覽窗格 ![Power B I 服務的螢幕擷取畫面，其中顯示功能窗格圖示。](media/service-basic-concepts/expand-icon.png).
 * 選取 [我的最愛] 以開啟或管理您最愛的內容。
 * 選取 [最近] 以檢視和開啟您最近瀏覽過的內容
 * 選取 [應用程式] 以檢視、開啟或刪除應用程式。
@@ -203,7 +204,7 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
 
 儀表板是由[磚](../create-reports/service-dashboard-tiles.md)所組成。  圖格可在報告的 [編輯檢視]、[問與答]、其他儀表板中建立，而且可以從 Excel、SSRS 等項目釘選。 一種稱為 [Widget](../create-reports/service-dashboard-add-widget.md) 的特殊磚類型會直接加入儀表板中。 出現在儀表板上的圖格，為報表建立者/擁有者特別放置於此的。  將圖格加入儀表板中的動作稱為「釘選」 。
 
-![Power BI 儀表板畫布](media/service-basic-concepts/canvas.png)
+![Power B I 服務的螢幕擷取畫面，其中顯示儀表板畫布。](media/service-basic-concepts/canvas.png)
 
 如需詳細資訊，請參閱 [[儀表板]](#dashboards)\(請見上方)。
 
@@ -212,36 +213,36 @@ Power BI 報表是一或多個頁面的視覺效果，例如折線圖、地圖�
 
 問與答會在連接到儀表板的資料集中尋找答案。  連接的資料集是指具有至少一個圖格釘選至該儀表板的資料集。
 
-![問與答的問題方塊](media/service-basic-concepts/power-bi-qna.png)
+![Power B I 服務的螢幕擷取畫面，其中顯示 [問與答] 的問題方塊。](media/service-basic-concepts/power-bi-qna.png)
 
 一旦您開始輸入問題，問與答就會帶您前往問與答的頁面。 您在輸入時，問與答會以修改措辭、自動填入、建議及更多方式，協助您詢問適當的問題並找尋最佳解答。 如果有您喜歡的視覺效果 (解答)，請予以釘選到您的儀表板中。 如需詳細資訊，請參閱 [Power BI 中的問與答](../consumer/end-user-q-and-a.md)。
 
 ### <a name="4-icons-in-the-black-header-bar"></a>4.**黑色標題列中的圖示**
 右上角的圖示為您的資源，可供您設定、通知、下載、取得說明、開啟或關閉**新外觀**，並將意見反應提供給 Power BI 小組。  
 
-![圖示按鈕](media/service-basic-concepts/power-bi-icons.png)
+![Power B I 服務的螢幕擷取畫面，其中顯示圖示按鈕。](media/service-basic-concepts/power-bi-icons.png)
 
 ### <a name="5-dashboard-title-navigation-path-or-breadcrumbs"></a>5.**儀表板標題** (導覽路徑，也稱為階層連結)
 您不一定能輕鬆地指出哪個工作區和儀表板為作用中，因此 Power BI 會為您建立導覽路徑。  在此範例中，我們看到工作區 (我的工作區) 和儀表板標題 (零售分析範例)。  如果我們開啟了報告，則報告的名稱會附加至導覽路徑的結尾。  路徑的每個部分都是作用中的超連結。  
 
 請注意儀表板標題之後的 "C" 圖示。 此儀表板具有「機密」[資料分類標籤](../create-reports/service-data-classification.md)。 此標籤可識別資料的敏感性和安全性層級。 如果您的系統管理員已開啟資料分類，則每個儀表板將會設定一個預設標籤。 儀表板擁有者應變更此標籤，以符合其儀表板的適當安全性層級。
 
-![資料分類圖示](media/service-basic-concepts/power-bi-title.png)
+![Power B I 服務的螢幕擷取畫面，其中顯示資料分類按鈕。](media/service-basic-concepts/power-bi-title.png)
 
 ### <a name="6-microsoft-365-app-launcher"></a>6.**Microsoft 365 應用程式啟動器**
 透過應用程式啟動器，按一下即可輕鬆取得所有的 Microsoft 365 應用程式。 您可以從這裡快速地啟動您的電子郵件、文件、行事曆等等。
 
-![Office 應用程式啟動器](media/service-basic-concepts/power-bi-waffle.png)
+![Power B I 服務的螢幕擷取畫面，其中顯示 Office 應用程式啟動器。](media/service-basic-concepts/power-bi-waffle.png)
 
 ### <a name="7-power-bi-home"></a>7.**Power BI 首頁**
 選取 [Power BI] 將帶您回到 Power BI 首頁。
 
-   ![服務中的「Power BI」](media/service-basic-concepts/version-new.png)
+   ![Power B I 服務的螢幕擷取畫面，其中顯示返回 Power B I 首頁的圖示。](media/service-basic-concepts/version-new.png)
 
 ### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8.**灰色功能表列中標示的圖示**
 螢幕的這個區域包含與內容互動 (在此例中，與儀表板互動) 的其他選項。  除了您可以看到之加上標籤的圖示，選取 [更多選項 (...)] 可顯示用於複製、列印、重新整理儀表板等選項。
 
-   ![加上標籤的圖示按鈕](media/service-basic-concepts/power-bi-labeled-icons.png)
+   ![Power B I 服務的螢幕擷取畫面，其中顯示已標籤的圖示按鈕。](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>後續步驟
 - [Power BI 是什麼？](power-bi-overview.md)  

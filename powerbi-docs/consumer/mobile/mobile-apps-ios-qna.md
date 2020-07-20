@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: de20bc743c582d42d81f2d4c2544e3acf5f1b99c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234505"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264918"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 應用程式中的問與答虛擬分析師 - Power BI
 
@@ -46,43 +46,43 @@ ms.locfileid: "85234505"
 
 2. 在頁面底部 (若是 iPad 則為頁面頂端) 的 [動作] 功能表中，點選問與答虛擬分析師圖示![問與答虛擬分析師圖示](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png)。
      問與答虛擬分析師提供了一些開始使用的建議。
-3. 鍵入 **show**，從建議清單中點選 [sales]  > [傳送]  ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+3. 鍵入 **show**，從建議清單中點選 [sales] > [傳送] ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![顯示銷售額](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. 從關鍵字中點選 **by**，然後從建議清單中點選 [item]  > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+4. 從關鍵字中點選 **by**，然後從建議清單中點選 [項目] > [傳送] ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![依項目的銷售額](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. 依序從關鍵字中點選 **as**、資料行圖表圖示 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png)，然後點選 [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
-6. 按住產出的圖表，然後點選 [展開]  。
+5. 依序從關鍵字中點選 **as**、資料行圖表圖示 ![圖表圖示](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png)，然後點選 [傳送] ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+6. 按住產出的圖表，然後點選 [展開]。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
+    ![直條圖的螢幕擷取畫面，其中顯示展開的指標。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
 
     圖表會在應用程式中以焦點模式開啟。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
+    ![直條圖的螢幕擷取畫面，其中顯示圖表的焦點模式。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. 點選左上角的箭號，可返回問與答虛擬分析師聊天視窗。
 8. 點選文字方塊右邊的 X 以刪除文字，然後重新開始。
-9. 嘗試新的提問︰從關鍵字點選 **top**，然後點選 [依單位平均銷售金額排序]   > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+9. 嘗試新的提問︰從關鍵字點選 **top**，然後點選 [依單位平均銷售金額排序]  >  [傳送] ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. 從關鍵字選擇 **by**，從頂端的建議清單點選 [time]  > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+    ![問題的螢幕擷取畫面，其中顯示每個單位平均數量的最高銷售。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
+10. 從關鍵字選擇 **by**，從頂端的建議清單點選 [時間] > [傳送] ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
-     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. 鍵入 **as**，然後從建議清單中選取折線圖圖示 ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) > [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+     ![圖表的螢幕擷取畫面，其中顯示依時間每個單位平均數量的最高銷售。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
+11. 鍵入 **as**，然後從建議清單中挑選折線圖圖示![圖表圖示](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) > [傳送] ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
+    ![直條圖與折線圖的螢幕擷取畫面，其中顯示從直條圖到折線圖的指標](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 
 ## <a name="try-saying-your-questions"></a>請說出您的問題
 您現在可以口說的方式來取代鍵入文字，詢問有關 Power BI 行動應用程式中資料的問題。
 
 1. 點選問與答虛擬分析師圖示 ![問與答虛擬分析師圖示](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) 點選問與答圖示。
-2. 點選麥克風圖示![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png)。
+2. 點選麥克風圖示 ![麥克風圖示](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
+    ![問題的螢幕擷取畫面，其中顯示麥克風處於作用中狀態。](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. 當麥克風圖示啟動時開始說話。 例如，說出「依時間計算的平均單價」，然後點選 [傳送]  ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+1. 當麥克風圖示啟動時開始說話。 例如，說出「依時間計算的平均單價」，然後點選 [傳送] ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
+    ![問題的螢幕擷取畫面，其中顯示語音已完成。](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 
 ### <a name="questions-about-privacy-when-using-speech-to-text"></a>在使用語音轉換文字時，有關於隱私權的問題嗎？
 請參閱 Apple iOS 開發人員指南之 [What's New in iOS](https://go.microsoft.com/fwlink/?linkid=845624) (iOS的新功能) 中的＜Speech Recognition＞(語音辨識) 一節。
@@ -91,7 +91,7 @@ ms.locfileid: "85234505"
 * 需要協助嗎？ 只需要說聲「嗨」或「求助」，您就可以提出新的問題來取得協助。
 * 要對結果提供意見反應嗎？ 請按住圖表或其他結果，然後點選笑臉或苦臉。
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
+    ![直條圖的螢幕擷取畫面，其中顯示具有笑臉指標的意見反應。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
 
     您的意見反應是匿名的，可協助我們改進問題的解答。
 

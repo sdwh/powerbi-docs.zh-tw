@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d6301b4eea49ab4ae5714446e051290cb254c324
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354746"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385944"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體
 
@@ -46,6 +46,7 @@ ms.locfileid: "85354746"
 2. 儲存體帳戶必須建立在與您 Power BI 租用戶相同的 AAD 租用戶中。
 3. 儲存體帳戶必須建立在與您 Power BI 租用戶相同的區域中。 若要判斷 Power BI 租用戶的所在位置，請參閱[我的 Power BI 租用戶位於何處](../admin/service-admin-where-is-my-tenant-located.md)。
 4. 儲存體帳戶必須啟用「階層命名空間」功能。
+5. 如果儲存體帳戶不是由目前的使用者所建立，則請確定目前的使用者已獲指派[儲存體 Blob 資料擁有者](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) (機器翻譯) 和[擁有者](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) (機器翻譯) 權限。 (因為擁有者不包含資料層級權限，所以必須要有 Blob 資料擁有者。)
 
 下列各節將詳細逐步解說設定 Azure Data Lake Storage Gen2 帳戶所需的步驟。
 

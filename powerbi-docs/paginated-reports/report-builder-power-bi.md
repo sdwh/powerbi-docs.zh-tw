@@ -1,7 +1,7 @@
 ---
 title: Power BI 報表產生器
 description: Power BI Report Builder 是用於撰寫分頁報表的工具。
-ms.date: 06/29/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a0c22be90b609e25a6403e33cb646b35e9467c07
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: f74fb596fb2a080922d0e62a4492ef6c8ccd4e0d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782751"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216746"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 報表產生器
 
@@ -22,9 +22,7 @@ ms.locfileid: "85782751"
  
 準備好開始撰寫了嗎？ 從 Microsoft 下載中心[安裝 Power BI 報表產生器](https://aka.ms/pbireportbuilder)。
 
-想要從影片學習嗎？ 請觀看 Power BI 首席專案經理 Chris Finlan 在 YouTube 上提供的 Power BI 編頁報表影片系列。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/78TZeiEhveY?list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ" frameborder="0" allowfullscreen></iframe>
+想要從影片學習嗎？ 請參閱[影音課程：Power BI 編頁報表一日上手](../learning-catalog/paginated-reports-online-course.md)。
 
 下列編頁報表提供一個矩陣，其中包含資料列和資料行群組、走勢圖、指標及邊角儲存格中的摘要圓形圖，並伴隨著由兩組地理資料 (以色彩和圓形大小表示) 組成的地圖。  
 
@@ -63,4 +61,4 @@ ms.locfileid: "85782751"
 ## <a name="next-steps"></a>後續步驟
 
 - [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)
-- 請觀看 Power BI 首席專案經理 Chris Finlan 在 YouTube 上提供的 [Power BI 編頁報表影片系列](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ)
+- [影音課程：Power BI 編頁報表一日上手](../learning-catalog/paginated-reports-online-course.md)

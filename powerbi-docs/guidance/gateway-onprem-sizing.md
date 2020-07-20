@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: e1a24d8d15881bf8a1948d91758c7592f75ea7ac
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485936"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214197"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>內部部署的資料閘道大小調整
 
@@ -33,7 +33,7 @@ ms.locfileid: "85485936"
 1. **資料擷取及轉換**：擷取資料，並在必要時進行轉換。 如果可能的話，Power Query 混搭引擎會將轉換步驟推送至資料來源，也就是[查詢摺疊](power-query-folding.md)。 如果不可行，則必須由閘道完成轉換。 在此情況下，閘道將會耗用更多 CPU 與記憶體資源。
 1. **傳輸**：資料會傳輸到 Power BI 服務 — 可靠且快速的網際網路連線很重要，尤其是針對大量資料
 
-![圖表顯示連線到內部部署來源的內部部署資料閘道：關聯式資料庫、Excel 活頁簿與 CSV 檔案。 閘道會擷取及轉換資料。](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
+![快取資料的圖表，其中顯示連線到內部部署來源的內部部署資料閘道。](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
 
 ### <a name="live-connection-and-directquery-workloads"></a>即時連線與 DirectQuery 工作負載
 
@@ -46,7 +46,7 @@ ms.locfileid: "85485936"
 
 可靠、快速且一致的連線能力非常重要，可確保報表使用者擁有快速回應體驗。
 
-![顯示連線到內部部署來源之內部部署資料閘道的圖表：Analysis Services 表格式資料庫與關聯式。 閘道主要是以傳遞模式運作。](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
+![即時連線和 DirectQuery 的圖表，其中顯示連線到內部部署來源的內部部署資料閘道。](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
 
 ## <a name="sizing-considerations"></a>大小調整考量
 

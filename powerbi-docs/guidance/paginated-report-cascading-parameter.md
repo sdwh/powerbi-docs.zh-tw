@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 35a62923ba69520c1197e7bb80114a22ec1d9a20
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920773"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214101"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>在分頁報表中使用串聯參數
 
@@ -26,8 +26,8 @@ ms.locfileid: "78920773"
 
 使用串聯參數的設計案例有兩種。 這些案例可以有效地用來執行下列動作：
 
-- 篩選「大型項目集合」 
-- 顯示「相關的」  項目
+- 篩選「大型項目集合」
+- 顯示「相關的」項目
 
 ### <a name="example-database"></a>資料庫範例
 
@@ -60,7 +60,7 @@ ms.locfileid: "78920773"
 
 在此範例中，報表使用者會與五個報表參數互動。 他們必須選取國家/地區、州/省、城市和郵遞區號。 然後最後一個參數會列出位於該地理位置的轉銷商。
 
-![影像中顯示五個報表參數：國家/地區、州/省、城市、郵遞區號和轉銷商。 前四個設定了值之後，轉銷商清單只篩選出四個項目。](media/paginated-report-cascading-parameter/filter-by-related-columns-example.png)
+![Power B I 分頁報表參數的螢幕擷取畫面，其中顯示依相關資料行進行篩選。](media/paginated-report-cascading-parameter/filter-by-related-columns-example.png)
 
 以下是您可以用來開發串聯參數的方法：
 
@@ -134,7 +134,7 @@ ms.locfileid: "78920773"
 
 在此範例中，報表使用者會與報表參數互動，以選取轉銷商的第一個字母。 第二個參數則會在名稱開頭為選取的字母時，列出轉銷商。
 
-![影像中顯示兩個報表參數：群組和轉銷商。 第一個參數值會設定為字母 A，而轉銷商清單會篩選出以該字母開頭的許多項目。](media/paginated-report-cascading-parameter/filter-by-grouping-column-example.png)
+![Power B I 分頁報表參數的螢幕擷取畫面，其中顯示依群組資料行進行篩選。](media/paginated-report-cascading-parameter/filter-by-grouping-column-example.png)
 
 以下是您可以用來開發串聯參數的方法：
 
@@ -173,7 +173,7 @@ ALTER TABLE [Reseller]
 ADD [ReportGroup] AS LEFT([ResellerName], 1) PERSISTED
 ```
 
-此技術可以提供更高的可能。 請考慮使用下列指令碼，以新增群組資料行來依據「預先定義的一組字母」  篩選轉銷商。 該指令碼也會建立索引，以有效率地擷取報表參數所需的資料。
+此技術可以提供更高的可能。 請考慮使用下列指令碼，以新增群組資料行來依據「預先定義的一組字母」篩選轉銷商。 該指令碼也會建立索引，以有效率地擷取報表參數所需的資料。
 
 ```sql
 ALTER TABLE [Reseller]
@@ -196,7 +196,7 @@ GO
 
 在此範例中，報表使用者會與報表參數互動，以輸入搜尋模式。 第二個參數則會在名稱包含該模式時，列出轉銷商。
 
-![影像中顯示兩個報表參數：搜尋和轉銷商。 第一個參數值會設定為文字 "red"，而轉銷商清單會篩選出包含該文字的多個項目。](media/paginated-report-cascading-parameter/filter-by-search-pattern-example.png)
+![Power B I 分頁報表參數的螢幕擷取畫面，其中顯示依搜尋模式進行篩選。](media/paginated-report-cascading-parameter/filter-by-search-pattern-example.png)
 
 以下是您可以用來開發串聯參數的方法：
 
@@ -218,7 +218,7 @@ GO
 3. 將 **Reseller** 資料集的查詢參數對應至相對應的報表參數。
 
 > [!TIP]
-> 您可以在此設計上做些改良，為您的報表使用者提供更多控制權。 此方法可讓他們定義自己的模式比對值。 例如，搜尋值 "red%" 將會篩選出名稱「開頭」  為 "red" 字元的轉銷商。
+> 您可以在此設計上做些改良，為您的報表使用者提供更多控制權。 此方法可讓他們定義自己的模式比對值。 例如，搜尋值 "red%" 將會篩選出名稱「開頭」為 "red" 字元的轉銷商。
 >
 > 如需詳細資訊，請參閱 [LIKE (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql?view=sql-server-ver15#using-the--wildcard-character)。
 
@@ -242,7 +242,7 @@ WHERE
 
 在此範例中，報表使用者會與三個報表參數互動。 前兩個會設定銷售訂單日期的日期範圍。 第三個參數接著會列出其訂單在該時段內建立的轉銷商。
 
-![影像中顯示三個報表參數：起始訂單日期、結束訂單日期和轉銷商。 這兩個日期參數設定在 2020 年 1 月的這整個月，而轉銷商清單會篩選出許多代表轉銷商在本月建立訂單的項目。](media/paginated-report-cascading-parameter/filter-relevant-items-example.png)
+![Power B I 分頁報表參數的螢幕擷取畫面，其中顯示三個報表參數：起始訂單日期、結束訂單日期和轉銷商。](media/paginated-report-cascading-parameter/filter-relevant-items-example.png)
 
 以下是您可以用來開發串聯參數的方法：
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/02/2020
 ms.author: maggies
-ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f82a3a9e1cf207a006319e6ac7e662baaf5d9d1f
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80647656"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216586"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI 報表伺服器的容量規劃指引
 Power BI 報表伺服器是客戶可以在其防火牆後方內部部署的自助 BI 和企業報告解決方案。 它結合 Power BI Desktop 的互動式報表功能與 SQL Server Reporting Services 的內部部署伺服器平台。 隨著企業內的分析和報告使用量愈來愈大，估算所需的硬體基礎結構和軟體授權以依照企業使用者總數來調整規模會是項挑戰。 本文旨在提供 Power BI 報表伺服器容量規劃的相關指引，文中並共用對報表伺服器的各種工作負載所執行的多項負載測試結果。 雖然組織的報表、查詢和使用模式差異很大，但本文中所呈現的結果，以及所使用的實際測試及其執行方式的詳細描述，可作為任何人在部署 Power BI 報表伺服器之初期規劃程序的參考點。
@@ -44,7 +44,7 @@ Power BI 報表伺服器部署是由下列虛擬機器所組成：
 * Power BI 報表伺服器
 * Power BI 報表伺服器資料庫。 此報表伺服器資料庫會與 Power BI 報表伺服器裝載在不同的機器上，因此不需要與 SQL Server 資料庫引擎競爭記憶體、CPU、網路和磁碟資源。
 
-![](media/capacity-planning/report-server-topology.png)
+![此圖表顯示 Power BI 報表伺服器、Active Directory 與相關聯資料庫之間的關聯性。](media/capacity-planning/report-server-topology.png)
 
 請參閱附錄 1.1＜Power BI 報表伺服器拓撲＞和附錄 1.2＜Power BI 報表伺服器虛擬機器設定＞，以完整設定拓撲中所使用的每部虛擬機器。
 

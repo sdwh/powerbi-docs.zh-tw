@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6b130016bf4514b817edbf8c91cfb24d2063e6f1
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279633"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215456"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX：避免將 BLANK 轉換成值
 
@@ -47,7 +47,7 @@ DIVIDE([Profit], [Sales], 0)
 
 讓我們看看當 **Profit Margin** 量值新增至資料表視覺效果 (依客戶進行分組) 時所發生的情況。
 
-![資料表視覺效果包含三個資料行：Customer、Sales 和 Profit Margin。 資料表會顯示大約 10 個資料列，但垂直捲軸表示有更多可以顯示的資料列。 Sales 資料行不會顯示任何值。 Profit Margin 資料行只會顯示零。](media/dax-avoid-converting-blank/table-visual-poor.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示每位客戶皆擁有一個資料列的資料其資料表視覺效果。 Sales 值為 BLANK，且 Profit Margin 值為零/美分。 ](media/dax-avoid-converting-blank/table-visual-poor.png)
 
 資料表視覺效果會顯示大量的資料列。 (事實上，此模型中有 18,484 位客戶，因此資料表會嘗試顯示所有客戶。)請注意，檢視中的客戶尚未達成任何銷售額。 不過，由於 **Profit Margin** 量值一律會傳回值，因此予以顯示。
 
@@ -63,7 +63,7 @@ DIVIDE([Profit], [Sales])
 
 資料表視覺效果現在只會顯示目前篩選內容中已進行銷售的客戶。 改善的量值可讓報表使用者擁有更有效率且更實用的體驗。
 
-![相同的資料表視覺效果現在會顯示四個資料列。 每個資料列都適用於具有銷售額值的客戶，而 Profit Margin 值為非零。](media/dax-avoid-converting-blank/table-visual-good.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示已篩選內容資料的資料表視覺效果。](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
 > 如有必要，您可以藉由啟用 [[顯示沒有資料的項目]](../create-reports/desktop-show-items-no-data.md) 選項，將視覺效果設定為顯示篩選內容中的所有群組 (傳回值或 BLANK)。
@@ -80,4 +80,3 @@ DIVIDE([Profit], [Sales])
 
 - [資料分析運算式 (DAX) 參考](/dax/)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

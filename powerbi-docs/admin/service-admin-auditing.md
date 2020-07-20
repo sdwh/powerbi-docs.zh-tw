@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782403"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161713"
 ---
 # <a name="track-user-activities-in-power-bi"></a>追蹤 Power BI 中的使用者活動
 
@@ -145,7 +145,7 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 2. 選取 [Power BI 活動]。
 
-   ![[審核記錄搜尋] 已標示 [Power BI 活動] 的螢幕擷取畫面。](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+   ![[審核記錄搜尋] 的螢幕擷取畫面，其中標示出 [Power BI 活動]。](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
 3. 在選取方塊之外的任何地方選取，將其關閉。
 
@@ -157,13 +157,13 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 如果選定的日期範圍超過 90 天，您會收到錯誤。 如果您使用最大的 90 天日期範圍，請選取目前時間作為 [開始日期]。 否則，您會收到錯誤，指出開始日期早於結束日期。 如果您已在過去 90 天內開啟稽核，日期範圍開始日期不能在開啟稽核的日期之前。
 
-![[審核記錄搜尋] 已標示 [開始日期] 和 [結束日期] 選項的螢幕擷取畫面。](media/service-admin-auditing/search-audit-log-by-date.png)
+![[審核記錄搜尋] 的螢幕擷取畫面，其中標示出 [開始日期] 和 [結束日期] 選項。](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ### <a name="search-the-audit-logs-by-users"></a>依使用者搜尋稽核記錄
 
 您可以搜尋特定使用者所執行活動的稽核記錄項目。 請在 [使用者] 欄位中輸入一或多個使用者名稱。 使用者名稱看起來像電子郵件地址。 這是使用者用來登入 Power BI 的帳戶。 將此方塊保留空白，可傳回貴組織所有使用者 (和服務帳戶) 的項目。
 
-![依使用者搜尋](media/service-admin-auditing/search-audit-log-by-user.png)
+![[審核記錄搜尋] 的螢幕擷取畫面，其中標示出 [使用者]。](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ### <a name="view-search-results"></a>檢視搜尋結果
 
@@ -198,7 +198,7 @@ Power BI 稽核記錄可直接透過 [Office 365 安全性與合規性中心](ht
 
 1. 選取 \[Save loaded results] \(儲存載入結果) 或 \[Download all results] \(下載所有結果)。
 
-    ![[匯出結果] 選項的螢幕擷取畫面。](media/service-admin-auditing/export-auditing-results.png)
+    ![[匯出結果] 選項的螢幕擷取畫面，其中標示出 [下載所有結果]。](media/service-admin-auditing/export-auditing-results.png)
 
 ### <a name="use-powershell-to-search-audit-logs"></a>使用 PowerShell 來搜尋稽核記錄
 

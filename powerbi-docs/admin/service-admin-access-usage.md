@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4f9b69e863b71fda0cece06df7065740bd55463e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 620e71ffa08a02dc0d0080b310fb0252388e1b10
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228896"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161184"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>尋找已登入的 Power BI 使用者
 
@@ -23,7 +23,7 @@ ms.locfileid: "85228896"
 > [!NOTE]
 > **登入**報告可提供有用的資訊，但它無法識別每個使用者擁有的授權類型。 請使用 Microsoft 365 系統管理中心來檢視授權。
 
-## <a name="requirements"></a>要求
+## <a name="requirements"></a>需求
 
 任何使用者 (包括非系統管理員) 都能看到他們自己的登入報告，但您必須符合下列要求，才能看到所有使用者的報告。
 
@@ -35,13 +35,13 @@ ms.locfileid: "85228896"
 
 若要檢視登入活動，請遵循這些步驟。
 
-1. 在 [Azure 入口網站]  中，選取 [Azure Active Directory]  。
+1. 在 [Azure 入口網站] 中，選取 [Azure Active Directory]。
 
-1. 在 [監視]  底下，選取 [登入]  。
+1. 在 [監視] 底下，選取 [登入]。
    
     ![醒目提示 [Azure Active Directory] 和 [登入] 選項的 Azure UI 螢幕擷取畫面。](media/service-admin-access-usage/azure-portal-sign-ins.png)
 
-1. 依 [Microsoft Power BI]  或 [Power BI Gateway]  來篩選應用程式，然後選取 [套用]  。
+1. 依 [Microsoft Power BI] 或 [Power BI Gateway] 來篩選應用程式，然後選取 [套用]。
 
     **Microsoft Power BI** 會篩選出與服務相關的登入活動，而 **Power BI Gateway** 會篩選出特定於內部部署資料閘道的登入活動。
    
@@ -51,13 +51,13 @@ ms.locfileid: "85228896"
 
 您可以[下載兩種格式的登入報告](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report)：CSV 檔案或 JSON 檔案。
 
-![[下載] 按鈕的螢幕擷取畫面。](media/service-admin-access-usage/download-sign-in-data-csv.png)
+![資料匯出的螢幕擷取畫面，其中醒目提示 [下載] 選項。](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
-在**登入**報告的頂端，選取 [下載]  ，然後選取下列選項之一：
+在**登入**報告的頂端，選取 [下載]，然後選取下列選項之一：
 
-* [CSV]  可下載目前篩選資料的 CSV 檔案。
+* [CSV] 可下載目前篩選資料的 CSV 檔案。
 
-* [JSON]  可下載目前篩選資料的 JSON 檔案。
+* [JSON] 可下載目前篩選資料的 JSON 檔案。
 
 ## <a name="data-retention"></a>資料保留
 

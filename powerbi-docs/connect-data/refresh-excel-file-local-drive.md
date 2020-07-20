@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 806fb9fffccaffee62d8cafb00dc94b5ad7b0def
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ef9c39f6c00738718d88dd485430b150ad95ec50
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220877"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216341"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>重新整理建立自本機磁碟上 Excel 活頁簿的資料集
 ## <a name="whats-supported"></a>支援的項目有哪些？
@@ -46,14 +46,14 @@ ms.locfileid: "85220877"
 > 
 > 
 
-在 [導覽]  中，按一下 [載入至...]  。  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
+在 [導覽] 中，按一下 [載入至...]。  
+    ![[導覽] 中的 [載入至] 螢幕擷取畫面，其中顯示 [載入至] 選項。](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
-或者，如果您在 [導覽] 中按一下 [編輯]  ，您就會開啟 [查詢編輯器]。 其中您可以按一下 [關閉並載入至...]  。  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
+或者，如果您在 [導覽] 中按一下 [編輯]  ，您就會開啟 [查詢編輯器]。 其中您可以按一下 [關閉並載入至...]。  
+    ![[導覽] 中 [首頁] 索引標籤的螢幕擷取畫面，其中顯示 [關閉] 和 [載入至] 選項。](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
-接著請確定在 [載入至]  中已選取 [將這個資料加入資料模型]  。  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
+接著請確定在 [載入至] 中已選取 [將此資料加入資料模型] 。  
+    ![[載入至] 對話方塊的螢幕擷取畫面，其中顯示已核取 [將此資料新增至資料模型] 方塊。](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>如果在 Power Pivot 中使用 [取得外部資料]？
 沒問題。 每當您使用 Power Pivot 連接和查詢來自內部部署或線上資料來源的資料時，資料就會自動載入至資料模型。
@@ -66,7 +66,7 @@ ms.locfileid: "85220877"
 ## <a name="when-things-go-wrong"></a>發生錯誤時
 如果發生錯誤，問題通常起因於 Power BI 無法登入資料來源，或資料集連接至內部部署資料來源時，閘道器離線。 請確認 Power BI 可以登入資料來源。 如果您用以登入資料來源的密碼已變更，或 Power BI 從資料來源登出，請務必嘗試在 [資料來源認證] 中再次登入您的資料來源。
 
-請務必核取 [傳送重新整理失敗通知電子郵件給我]  。 您會想要立刻知道排定的重新整理是否失敗。
+請務必核取 [傳送重新整理失敗通知電子郵件給我] 。 您會想要立刻知道排定的重新整理是否失敗。
 
 >[!IMPORTANT]
 >不支援重新整理連接至 Power Pivot 並從中查詢的 OData 摘要。 當使用 OData 摘要作為資料來源時，請使用 Power Query。

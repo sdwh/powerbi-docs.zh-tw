@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/19/2020
+ms.date: 07/01/2020
 ms.author: mihart
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: ed50045aca966face5d758c9036508bdfef81d5e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 22e044f11b62d3375eabd97545070caaa0bbcfd7
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236539"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161970"
 ---
 # <a name="apps-in-power-bi"></a>Power BI 的應用程式
 
@@ -28,10 +28,10 @@ ms.locfileid: "85236539"
 
 您的應用程式會在 [應用程式] 內容清單中加以組織。 只要選取 [應用程式] 即可顯示您的應用程式。 將滑鼠停留在應用程式上，以查看上次更新日期和擁有者。 
 
-![Power BI 的應用程式](./media/end-user-apps/power-bi-apps.png)
+![Power BI 的應用程式](./media/end-user-apps/power-bi-apps-red.png)
 
 
-使用應用程式功能需要有 Power BI Pro 授權，或應用程式儲存在 Premium 容量中。 若要深入了解授權和 Premium 容量，請參閱[取用者授權](end-user-license.md)。
+使用應用程式功能需要有 Power BI Pro 授權，才能讓應用程式儲存在 Premium 容量中，並與您共用。 若要深入了解授權和 Premium 容量，請參閱[取用者授權](end-user-license.md)。
 
 ## <a name="app-designers-and-app-consumers"></a>應用程式「設計師」和應用程式「取用者」
 視您的角色而定，您可能是建立應用程式供自己使用，或與同事共用的人 (「設計師」)。 或者，您可能是接收並下載其他人所建立應用程式的人 (「取用者」)。 本文適用於應用程式「取用者」。
@@ -43,7 +43,14 @@ ms.locfileid: "85236539"
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>取得新的應用程式
-取得新應用程式的最佳方式是從 [Power BI 應用程式市集](https://app.powerbi.com/groups/me/getapps/apps)。
+有數種不同方式可取得新的應用程式。 您可搜尋、尋找及安裝應用程式，且應用程式建立者可與您共用應用程式。 
+
+### <a name="find-and-install-apps-from-the-power-bi-apps-marketplace"></a>您可從 Power BI 應用程式 Marketplace 尋找並安裝應用程式
+尋找應用程式的一種方式是從 [Power BI 應用程式] 畫面中選取 [取得應用程式]。 
+
+![[應用程式] 畫面的螢幕擷取畫面，其中顯示取得應用程式圖示](./media/end-user-apps/power-bi-get-apps-icon.png)
+
+瀏覽 Power BI 應用程式 Marketplace 中的應用程式清單，直到找到其中一個來安裝。 從 [組織應用程式] (僅適用於公司中的人員)，或 [範本應用程式] (由 Microsoft 和該社區發佈，供任何 Power BI 使用者安裝) 選擇。 
 
 ![Power BI 應用程式市集](./media/end-user-apps/power-bi-app-marketplace.png)
 
@@ -51,7 +58,7 @@ ms.locfileid: "85236539"
 
 * 應用程式設計工具可在 Power BI 帳戶中自動安裝應用程式，因此下次開啟 Power BI 服務時，即會在 [應用程式] 內容清單中看到新的應用程式。 
 * 應用程式設計師可以將應用程式的直接連結以電子郵件傳送給您。 選取連結即會在 Power BI 服務中開啟應用程式。
-* 在行動裝置上的 Power BI 中，您只能從直接連結安裝應用程式，而不能從 AppSource 安裝。 如果應用程式作者自動安裝應用程式，您就會在您的應用程式清單中看到它。 
+* 在行動裝置上的 Power BI 中，您只能從直接連結安裝應用程式，而不能從應用程式 Marketplace 安裝。 如果應用程式作者自動安裝應用程式，您就會在您的應用程式清單中看到它。 
 
 ## <a name="next-steps"></a>後續步驟
 * [開啟應用程式並與其互動](end-user-app-view.md)

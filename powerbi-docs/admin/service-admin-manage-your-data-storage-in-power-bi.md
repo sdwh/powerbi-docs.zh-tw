@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: bd671e32167837a5b8b96388bb2687616e6cada5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 50d3adef65791c3fecd1a2125f67318fb8ab0298
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228577"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214260"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>管理 Power BI 工作區中的資料儲存體
 
@@ -48,40 +48,38 @@ ms.locfileid: "85228577"
 
 您所共用儀表板大小會因釘選到儀表板的內容而有所不同。 例如，如果您釘選屬於兩個不同資料集之兩份報表中的項目，則大小會包含這兩個資料集。
 
-<a name="manage"/>
-
 ## <a name="manage-items-you-own"></a>管理您擁有的項目
 
 查看您在 Power BI 帳戶中使用的資料儲存空間，並管理您的帳戶。
 
-1. 若要管理您自己的儲存空間，請移至瀏覽窗格中的 [我的工作區]  。
+1. 若要管理您自己的儲存空間，請移至瀏覽窗格中的 [我的工作區]。
    
-    ![我的工作區](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+    ![螢幕擷取畫面，其中為具有 [我的工作區] 呼叫的功能窗格。](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 
-2. 選取右上角的齒輪圖示 ![齒輪圖示](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> [管理個人儲存體]  。
+2. 選取右上角的齒輪圖示![齒輪圖示](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) [管理個人儲存體]。
    
     頂端列會顯示您已使用的儲存空間限制量。
    
-    ![管理儲存體限制](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
+    ![[管理儲存體限制] 的螢幕擷取畫面，其中顯示已使用的儲存體數量。](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
    
     資料集和報表會分成兩個索引標籤：
    
     **由我所擁有：** 您已將這些報表和資料集上傳至 Power BI 帳戶，包括 Salesforce 和 Dynamics CRM 等服務資料集。  
 
     **由他人所擁有：** 其他人已與您共用這些報表和資料集。
-1. 若要刪除資料集或報表，請選取垃圾桶圖示 ![垃圾桶圖示](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+1. 若要刪除資料集或報表，請選取垃圾桶圖示 ![垃圾筒圖示](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
 請記住，您或其他人可能會有依據某個資料集的報表和儀表板。 如果您刪除該資料集，這些報表和儀表板將無法再運作。
 
 ## <a name="manage-your-workspace"></a>管理工作區
-1. 選取 [工作區]  旁的箭號 \> 選取工作區的名稱。
+1. 選取 [工作區] 旁的箭號，然後選取工作區的名稱。
    
-    ![選取工作區](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. 選取右上角的齒輪圖示 ![齒輪圖示](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) \> [管理群組儲存體]  。
+    ![[工作區] 選取項目的螢幕擷取畫面，其中顯示 [銷售群組] 工作區。](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+2. 選取右上角的齒輪圖示![齒輪圖示](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) [管理群組儲存體]。
    
     頂端列會顯示已使用的群組儲存空間限制量。
    
-    ![管理工作區儲存體](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![[管理儲存體] 的螢幕擷取畫面，其中顯示銷售群組儲存體限制已使用的數量。](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     資料集和報表會分成兩個索引標籤：
    
@@ -89,7 +87,7 @@ ms.locfileid: "85228577"
 
     **由他人所擁有：** 其他人已與您的群組共用這些報表和資料集。
 
-3. 若要刪除資料集或報表，請選取垃圾桶圖示 ![垃圾桶圖示](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+3. 若要刪除資料集或報表，請選取垃圾桶圖示 ![垃圾筒圖示](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
    > 請記住，您或群組中的其他人可能會有依據某個資料集的報表和儀表板。 如果您刪除該資料集，這些報表和儀表板將無法再運作。
@@ -104,15 +102,15 @@ ms.locfileid: "85228577"
 
 當您選取齒輪圖示 ![齒輪圖示](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)時，您會看到一個紅色橫條，指出您已超出資料容量限制。
 
-![已達儲存體限制](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![儲存體容量的螢幕擷取畫面，其中顯示已達到限制。](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
-這項限制也會在 [管理個人儲存體]  中指出。
+這項限制也會在 [管理個人儲存體] 中指出。
 
- ![[管理個人儲存體]，已達儲存體限制](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
+ ![個人儲存體容量的螢幕擷取畫面，其中顯示已達到 Jane 的限制。](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
- 當您嘗試執行將會達到其中一個限制的動作時，您會看到訊息，指出您已超過限制。 您可以[管理](#manage)儲存體，以減少儲存體數量並通過限制。
+ 當您嘗試執行將會達到其中一個限制的動作時，您會看到訊息，指出您已超過限制。 您可[管理儲存體](#manage-items-you-own)，以減少儲存體數量，從而通過限制。
 
- ![超出您的儲存體限制](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+ ![[超過儲存體限制] 對話方塊的螢幕擷取畫面，其中顯示已達到限制。](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
  ## <a name="next-steps"></a>後續步驟
 

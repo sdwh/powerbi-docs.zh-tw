@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: fdbb571a30f530ddeba37a7eaf490718b6c8116d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0016c5af8d8e9e154abf3c9e94dc6330a73d358d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230357"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216252"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>連線到儲存在 Power BI 工作區 OneDrive 中的檔案
 [在 Power BI 中建立工作區](../collaborate-share/service-create-distribute-apps.md)後，即可將 Excel、CSV 及 Power BI Desktop 檔案儲存至 Power BI 工作區的商務用 OneDrive。 您可以繼續更新儲存在 OneDrive 中的檔案。 這些更新會自動反映到以這些檔案為基礎的 Power BI 報表和儀表板中。 
@@ -33,7 +33,7 @@ ms.locfileid: "85230357"
 ## <a name="1-upload-files-to-the-onedrive-for-business-for-your-workspace"></a>1 將檔案上傳至工作區的商務用 OneDrive
 1. 在 Power BI 服務中，選取工作區旁的箭號 > 選取工作區名稱旁邊的省略符號 ( **...** )。 
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
+   ![Power BI 工作區的螢幕擷取畫面，其中顯示所選取的工作區名稱。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
 2. 選取 [檔案] 以開啟 Microsoft 365 上工作區的商務用 OneDrive。
    
    > [!NOTE]
@@ -42,7 +42,7 @@ ms.locfileid: "85230357"
    > 
 3. 您可以在這裡將檔案上傳至工作區的商務用 OneDrive。 選取 [上傳] ，並瀏覽至您的檔案。
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
+   ![商務用 OneDrive 的螢幕擷取畫面，其中顯示如何巡覽以上傳檔案。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
 
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 將 Excel 檔案匯入為資料集或 Excel Online 活頁簿
 既然檔案已在工作區的商務用 OneDrive 中，即可進行選擇。 您可以： 
@@ -52,28 +52,28 @@ ms.locfileid: "85230357"
 
 ### <a name="import-or-connect-to-the-files-in-your-workspace"></a>匯入或連線至工作區中的檔案
 1. 在 Power BI 中，切換至工作區，讓工作區名稱顯示於左上角。 
-2. 選取導覽窗格底部的 [取得資料]。 
+2. 在導覽窗格的底部，選取 [取得資料]。 
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
+   ![[取得資料] 按鈕的螢幕擷取畫面，其中顯示該按鈕位於功能窗格中。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
 3. 在 [檔案]  方塊中選取 [取得] 。
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
+   ![[檔案] 對話方塊的螢幕擷取畫面，其中顯示 [取得] 按鈕。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
 4. 選取 [OneDrive - <工作區名稱>]。
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
+    ![三個磚的螢幕擷取畫面，該磚用來選取工作區，其中顯示本機檔案、OneDrive 與 SharePoint。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
 5. 選取您想要的檔案 > [連接]。
    
     此時您需決定是要[從 Excel 活頁簿匯入資料](service-get-data-from-files.md)，或[連線至整個 Excel 活頁簿](service-excel-workbook-files.md)。
 6. 選取 [匯入]  或 [連接] 。
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
+    ![[商務用 OneDrive] 對話方塊的螢幕擷取畫面，其中顯示 [從 Excel 匯入] 或 [連接到 Excel]。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
 7. 如果您選取 [匯入]，則活頁簿會出現在 [資料集] 索引標籤中。 
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-import.png)
+    ![Power BI 中工作區的螢幕擷取畫面，其中顯示 [資料集] 標籤索引。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-import.png)
    
     如果您選取 [連線]，則活頁簿會出現在 [活頁簿] 索引標籤中。
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
+    ![Power BI 中工作區的螢幕擷取畫面，其中顯示 [活頁簿] 索引標籤。](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI 中建立應用程式和工作區](../collaborate-share/service-create-distribute-apps.md)

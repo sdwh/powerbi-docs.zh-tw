@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: aee58d27eb75bbe14629235591065e236502588a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a9dd66d726a2417c936204898eb2cdfb749fcc94
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236121"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216509"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>設定 Kerberos 使用 Power BI 報表
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -31,14 +31,14 @@ Power BI 報表伺服器能夠裝載 Power BI 報表。 報表伺服器支援許
 
     Something went wrong.
 
-    We couldn’t run the report because we couldn’t connect to its data source. The report or data source might not be configured correctly. 
+    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
 
 在 [技術性詳細資料] 中您會看見下列訊息。
 
-    We couldn’t connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
-
+![Power B I 報表的螢幕擷取畫面，其中顯示與 Analysis Services 伺服器連線問題相關的錯誤訊息。](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
+ 
 ## <a name="configuring-kerberos-constrained-delegation"></a>設定 Kerberos 限制委派
 有數個項目必須設定，Kerberos 限制委派才能運作。 這包括服務帳戶的服務主體名稱 (SPN) 和委派設定。
 
@@ -186,30 +186,30 @@ FQDN 和 NetBIOS SPN 將 SPN 放在電腦帳戶上看起來如下。
 
 我們會想要使用通訊協定傳輸來設定限制委派。 使用限制委派，您需要明確讓我們委派的目標服務。 我們將要把 Analysis Services 服務 SPN 和 SQL Browser SPN 新增至 Power BI 報表伺服器可以委派的清單中。
 
-1. 以滑鼠右鍵按一下報表伺服器服務帳戶，然後選取 [內容]  。
-2. 選取 [委派]  索引標籤。
-3. 選取 [信任這台電腦，但只委派指定的服務]  。
-4. 選取 [使用任何驗證通訊協定]  。
-5. 在 [這個帳戶可以呈送委派認證的服務:]  下，選取 [新增]  。
-6. 在新的對話方塊中，選取 [使用者或電腦]  。
-7. 輸入 Analysis Services 服務的服務帳戶，然後選取 [確定]  。
+1. 以滑鼠右鍵按一下報表伺服器服務帳戶，然後選取 [內容]。
+2. 選取 [委派] 索引標籤。
+3. 選取 [信任這台電腦，但只委派指定的服務]。
+4. 選取 [使用任何驗證通訊協定]。
+5. 在 [這個帳戶可以呈送委派認證的服務:] 下，選取 [新增]。
+6. 在新的對話方塊中，選取 [使用者或電腦]。
+7. 輸入 Analysis Services 服務的服務帳戶，然後選取 [確定]。
 8. 選取您建立的 SPN。 它的開頭為 `MSOLAPSvc.3`。 如果您新增了 FQDN 與 NetBIOS SPN，它就會兩個都選取。 您可能只會看到一個。
-9. 選取 [確定]  。  您現在應該會在清單中看到 SPN。
-10. 或者，您可以選取 [展開]  來顯示清單中的 FQDN 和 NetBIOS SPN。
-11. 再次選取 [新增]  。 現在我們要新增 SQL Browser SPN。
-12. 在新的對話方塊中，選取 [使用者或電腦]  。
-13. 輸入 SQL Browser 服務所在電腦的電腦名稱，並選取 [確定]  。
+9. 選取 [確定]。  您現在應該會在清單中看到 SPN。
+10. 或者，您可以選取 [展開] 來顯示清單中的 FQDN 和 NetBIOS SPN。
+11. 再次選取 [新增]。 現在我們要新增 SQL Browser SPN。
+12. 在新的對話方塊中，選取 [使用者或電腦]。
+13. 輸入 SQL Browser 服務所在電腦的電腦名稱，並選取 [確定]。
 14. 選取您建立的 SPN。 它的開頭為 `MSOLAPDisco.3`。 如果您新增了 FQDN 與 NetBIOS SPN，它就會兩個都選取。 您可能只會看到一個。
-15. 選取 [確定]  。 如果選取 [展開]  ，對話方塊應該如下。
+15. 選取 [確定]。 如果選取 [展開]，對話方塊應該如下。
     
-    ![](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
-16. 選取 [確定]  。
+    ![Power B I 報表的螢幕擷取畫面，其中顯示 [屬性] 視窗的 [委派] 索引標籤。](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
+16. 選取 [確定]。
 17. 重新啟動 Power BI 報表伺服器。
 
 ## <a name="running-a-power-bi-report"></a>執行 Power BI 報表
 上述所有設定都就緒後，您的報表應該會正確顯示。 
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report.png)
+![Power B I 報表的螢幕擷取畫面，其中顯示範例 [儀表板] 檢視。](media/configure-kerberos-powerbi-reports/powerbi-report.png)
 
 雖然此設定在使用 Kerberos 的大多數情況下都可行，但您可根據環境使用不同的設定。 如果仍無法載入報表，請連絡您的網域系統管理員進一步調查，或連絡支援人員。
 

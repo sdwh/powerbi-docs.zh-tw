@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238617"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264730"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>使用 Power BI Desktop 中的視覺效果資料表和資料點資料表
 在 **Power BI Desktop** 中，您可以向下鑽研到視覺效果的詳細資料，並查看所選視覺效果基底資料的文字表示或個別資料記錄。 這些功能有時稱為「按一下」，或「鑽研」或「鑽研到詳細資料」。
@@ -74,7 +74,7 @@ ms.locfileid: "85238617"
 
 當選取資料項目的 [資料點資料表] 時，Power BI Desktop 畫布會顯示與所選項目建立關聯的所有資料。 
 
-![](media/desktop-see-data-see-records/visual-table-09.png)
+![畫布的螢幕擷取畫面，其中顯示當選取 [資料點資料表] 時，與所選項目建立關聯的所有資料。](media/desktop-see-data-see-records/visual-table-09.png)
 
 若要回到報表，請選取畫布左上角的 [< 返回報表]。
 

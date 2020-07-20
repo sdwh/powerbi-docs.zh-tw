@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 7dd6c812116d9ba196b157bd12d6362c19ac64ec
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273891"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216713"
 ---
 # <a name="tenant-admin-settings-guidance"></a>租用戶系統管理設定指導
 
@@ -41,7 +41,7 @@ ms.locfileid: "84273891"
 > [!NOTE]
 > 如果提供**授權要求** URL，則將會禁止個別使用者註冊 60 天免費的 Power BI Pro 試用版。 而是改為將使用者導向至您的內部網站，並提供其取得授權 (免費版或 Pro) 的資訊。
 
-![顯示 [發佈「取得協助」資訊] 設定。](media/admin-tenant-settings/publish-get-help-information.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示 [說明及支援] 設定。](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>管理風險
 設定管理風險有助您在 Power BI 租用戶中建立治理原則。 不過，請注意，這些治理設定並不是安全性措施。 例如，若您停用 [匯出資料] 設定，Power BI 使用者介面即會移除此功能，以透過這種方式協助 Power BI 使用者在工作時遵循組織的治理原則，但這無法防止執意操作的使用者透過其他選項匯出資料。 從安全角度來看，不論 Power BI 使用者介面中是否提供這些功能，具有資料集讀取權限的 Power BI 使用者即有權查詢此資料集，並可以保存結果。
@@ -51,7 +51,7 @@ ms.locfileid: "84273891"
 
 建議您啟用 [接收電子郵件通知服務中斷或事件] 設定。 此設定位於 [說明及支援設定] 群組中。 指派一或多個「擁有郵件功能」的安全性群組。
 
-![顯示 [接收服務中斷或事件的電子郵件通知] 設定。](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示 [接收服務中斷或事件的電子郵件通知] 設定。](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
 
 ### <a name="information-protection"></a>資訊保護
 
@@ -74,7 +74,7 @@ ms.locfileid: "84273891"
 
 請務必在您的文件中包含指示，讓不具有工作區建立權限的使用者知道應如何要求新工作區。
 
-![顯示 [建立工作區] 設定。](media/admin-tenant-settings/create-workspaces.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示 [建立工作區] 設定。](media/admin-tenant-settings/create-workspaces.png)
 
 ### <a name="share-content-with-external-users"></a>與外部使用者共用內容
 
@@ -84,7 +84,7 @@ ms.locfileid: "84273891"
 
 建議您指派一或多個安全性群組。 您可以授與「或拒絕」這些群組與外部使用者共用內容的權限。
 
-![顯示 [與外部使用者共用內容] 設定。](media/admin-tenant-settings/share-content-with-external-users.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示 [與外部使用者共用內容] 設定。](media/admin-tenant-settings/share-content-with-external-users.png)
 
 ### <a name="publish-to-web"></a>發行至 Web
 
@@ -96,7 +96,7 @@ ms.locfileid: "84273891"
 
 此外，還有一個選項可以選擇內嵌程式碼的運作方式。 根據預設，此選項會設為 [只允許現有的程式碼]。 這表示系統會要求使用者與 Power BI 管理員連絡，才能建立內嵌程式碼。
 
-![顯示 [發佈至 Web] 設定。](media/admin-tenant-settings/publish-to-web.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示 [發佈至 Web] 設定。](media/admin-tenant-settings/publish-to-web.png)
 
 我們也建議您定期檢閱[發佈至 Web 內嵌程式碼](https://app.powerbi.com/admin-portal/embedCodes)。 如果程式碼會導致發佈私人或機密資訊，請將其移除。
 
@@ -111,7 +111,7 @@ ms.locfileid: "84273891"
 > [!IMPORTANT]
 > 如果停用此設定，也會限制使用 [[使用 Excel 分析]](../collaborate-share/service-analyze-in-excel.md) 和 Power BI 服務 [[即時連線]](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) 功能。
 
-![顯示 [匯出資料] 設定。](media/admin-tenant-settings/export-data.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示 [匯出資料] 設定。](media/admin-tenant-settings/export-data.png)
 
 > [!NOTE]
 > 如果要允許使用者匯出資料，您可以實施[資料保護](../admin/service-security-data-protection-overview.md)來增加一層防護。 設定後，即會禁止未經授權使用者匯出包含敏感度標籤的內容。
@@ -124,7 +124,7 @@ ms.locfileid: "84273891"
 
 如果需要授權外部使用者來編輯和管理內容，建議您指派一或多個安全性群組。 您可以授與「或拒絕」這些群組發佈報表的權限。
 
-![顯示 [允許外部來賓使用者編輯和管理組織中的內容] 設定。](media/admin-tenant-settings/allow-external-guest-users.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示 [允許外部來賓使用者編輯和管理組織中的內容] 設定。](media/admin-tenant-settings/allow-external-guest-users.png)
 
 ### <a name="developer-settings"></a>開發人員設定
 
@@ -135,7 +135,7 @@ ms.locfileid: "84273891"
 
 如果不想使用開發人員 API 來內嵌內容，建議您將其停用。 或至少設定要執行此作業的特定安全性群組。
 
-![顯示開發人員設定。](media/admin-tenant-settings/developer-settings.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示開發人員設定。](media/admin-tenant-settings/developer-settings.png)
 
 ## <a name="next-steps"></a>後續步驟
 
@@ -145,4 +145,3 @@ ms.locfileid: "84273891"
 - [在系統管理入口網站中管理 Power BI](../admin/service-admin-portal.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)
-

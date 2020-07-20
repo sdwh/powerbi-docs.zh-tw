@@ -10,15 +10,15 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 40844f41483fa7c4ca66e831b0766d6f41fcd83a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7b886b5e0c21c77e0a5a6aca83fa0ae0751f435
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221314"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264124"
 ---
 # <a name="get-data-from-files-for-power-bi"></a>針對 Power BI 從檔案取得資料
-![](media/service-get-data-from-files/file_icons.png)
+![Excel、Power BI Desktop 與 CSV 圖示](media/service-get-data-from-files/file_icons.png)
 
 在 Power BI 中，您可以連接到或匯入三種檔案類型的資料和報表。
 
@@ -41,7 +41,7 @@ ms.locfileid: "85221314"
 > 
 
 ## <a name="where-your-file-is-saved-makes-a-difference"></a>檔案的儲存位置會形成差異
-**本機** - 如果您將檔案儲存到電腦上的本機磁碟或組織中的其他位置，您可以從 Power BI 將檔案「匯入」  Power BI。 您的檔案實際上會保留在本機磁碟，因此不是真的將整個檔案匯入 Power BI。 真正發生的情況是在 Power BI 網站中建立新的資料集，並將資料和資料模型 (在某些情況下) 載入資料集。 如果您的檔案有任何報表，這些報表會顯示在 Power BI 網站的 [報表] 下。
+**本機** - 如果您將檔案儲存到電腦上的本機磁碟或組織中的其他位置，您可以從 Power BI 將檔案「匯入」Power BI。 您的檔案實際上會保留在本機磁碟，因此不是真的將整個檔案匯入 Power BI。 真正發生的情況是在 Power BI 網站中建立新的資料集，並將資料和資料模型 (在某些情況下) 載入資料集。 如果您的檔案有任何報表，這些報表會顯示在 Power BI 網站的 [報表] 下。
 
 **OneDrive - 商務** - 如果您有商務用 OneDrive，並使用與用來登入 Power BI 相同的帳戶進行登入，這樣做可以有效地讓 Excel Power BI Desktop 中的工作或 .CSV 檔案，與 Power BI 中的資料集、報表和儀表板保持同步。由於 Power BI 和 OneDrive 都在雲端，因此 Power BI 每隔約一小時就會連接到您在 OneDrive 上的檔案。 如果發現任何變更，便會自動更新 Power BI 中的資料集、報表和儀表板。
 

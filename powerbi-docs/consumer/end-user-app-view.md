@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/26/2020
+ms.date: 07/08/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8040822453050b06f29ee8c6799e26d1d0a6dbea
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7362eb683dae6318dc0e64de68afb8a8b57d62c6
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238468"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162092"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表安裝並使用應用程式
 
@@ -28,10 +28,10 @@ ms.locfileid: "85238468"
 ## <a name="ways-to-get-a-new-app"></a>取得新應用程式的方式
 有數種方式可取得新的應用程式：
 * 您可以在 Power BI 中，從 Power BI 應用程式市集取得新的應用程式。
-* 您可以使用接收自應用程式建立者之應用程式的直接連結。 
-* 組織中的報表設計工具可以在您的 Power BI 帳戶中自動安裝應用程式。
+* 您可直接連結至從應用程式設計人員接收的應用程式。 
+* 組織中的應用程式設計人員可在 Power BI 帳戶中自動安裝應用程式。
 
-在您的 Power BI 行動應用程式中，您只能透過直接連結安裝應用程式。 如果應用程式設計工具自動安裝應用程式，您就會在應用程式清單中看到它。
+在 Power BI 行動版中，您只能透過直接連結來安裝應用程式。 如果應用程式設計工具自動安裝應用程式，您就會在應用程式清單中看到它。
 
 ## <a name="apps-and-licenses"></a>應用程式和授權
 並非所有的 Power BI 使用者都可檢視應用程式並與其互動。 
@@ -41,6 +41,9 @@ ms.locfileid: "85238468"
 ## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>從 Power BI 應用程式市集取得應用程式
 
 您可以從 Power BI 應用程式市集尋找並安裝應用程式。 在應用程式市集中，您可以取得組織應用程式和範本應用程式。
+
+- 「組織應用程式」可供組織中的 Power BI 使用者使用。 這些應用程式也包含預先建立的儀表板和報表供立即使用，或自訂並共用自己的儀表板和報表。 組織可能會使用應用程式來追蹤銷售、測量業績或分析人才雇用。
+- 「範本應用程式」包含預先建立的儀表板和報表，其可供連接到用於執行業務的各種服務，例如 SalesForce、Microsoft Dynamics 和 Google Analytics。
 
 1. 如果您還沒有登入，請[登入 Power BI 服務](./end-user-sign-in.md)。 
 
@@ -61,19 +64,19 @@ ms.locfileid: "85238468"
 
    搜尋方塊對您已開啟的索引標籤很敏感 - 將只會傳回所選類型的應用程式。 如果 [所有應用程式] 索引標籤為開啟狀態，即會傳回組織和範本應用程式。 當組織應用程式和範本應用程式具有相同名稱時，這可能會造成混淆。 只需記住，範本應用程式磚的右上角有一個購物袋圖示。
 
-當您找到想要的應用程式時，按一下 [立即取得] 進行安裝。
+當找到想要的應用程式時，選取 [立即取得] 進行安裝。
 * 如果您正在安裝組織應用程式，就會立即將其新增至您的應用程式清單。
-* 如果您正在安裝範本應用程式，即會將您帶往 AppSource 中的範本應用程式供應項目。 請參閱如何從 Power BI 應用程式市集下載並安裝範例範本應用程式的[範例](end-user-app-marketing.md)。 
+* 如果您正在安裝範本應用程式，即會將您帶往 AppSource 中的範本應用程式供應項目。 請參閱如何從 Power BI 應用程式市集下載並安裝範例範本應用程式的[範例](end-user-app-marketing.md)。 此應用程式會連同相同名稱的工作區一併安裝。
 
    > [!NOTE]
-   > 如果使用免費的使用者授權，即可下載但不能檢視應用程式，除非您升級至 Power BI Pro 帳戶，或此應用程式儲存在 Premium 容量中。 如需詳細資訊，請參閱[取用者授權](end-user-license.md)。
+   > 如果使用免費的使用者授權，您可下載但無法檢視應用程式，除非升級至 Power BI Pro 帳戶，或該應用程式儲存於 Premium 共用容量中。 如需詳細資訊，請參閱[取用者授權](end-user-license.md)。
 
 ## <a name="install-an-app-from-a-direct-link"></a>透過直接連結安裝應用程式
 您也可以從應用程式設計工具所提供之電子郵件中的直接連結安裝組織應用程式。  
 
 **在您的電腦上** 
 
-當您選取電子郵件中的連結時，Power BI 服務 ([https://powerbi.com](https://powerbi.com)) 會在您的瀏覽器中開啟應用程式。 
+當您選取電子郵件中的連結時，Power BI 服務 ([https://powerbi.com](https://app/powerbi.com)) 會在您的瀏覽器中開啟應用程式。 
 
 **在您的 iOS 或 Android 行動裝置上** 
 
@@ -82,9 +85,40 @@ ms.locfileid: "85238468"
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>與應用程式中的儀表板和報表互動
 請花一些時間探索組成應用程式的儀表板和報表中資料。 您可以進行所有標準 Power BI 互動，例如篩選、醒目提示、排序和向下切入。  還是有點分不清儀表板與報表之間的差異？  請參閱[儀表板](end-user-dashboards.md)和[報表](end-user-reports.md)的相關文章。  
 
+### <a name="open-an-app"></a>開啟應用程式
+
+您已安裝應用程式，或已從同事那裡收到了應用程式。 若要查看該應用程式，請從功能窗格中選取 [應用程式] 來開啟應用程式內容清單。
+
+![應用程式內容清單的螢幕擷取畫面](./media/end-user-app-view/power-bi-apps-list.png)
+
+將滑鼠暫留並選取要開啟的應用程式。 視應用程式而定，您可能會收到類似如下的提示：
+
+![三個選項的螢幕擷取畫面：[探索]、[連線] 和 [自訂]](./media/end-user-app-view/power-bi-customize.png)
+
+如需選取選項的指引，請參閱[安裝範本應用程式](../connect-data/service-template-apps-install-distribute.md)。
+
+將滑鼠暫留在應用程式上以查看詳細資料，然後選取應用程式卡來開啟該應用程式。
+
+![滑鼠暫留於應用程式的螢幕擷取畫面，其中顯示名稱、時間戳記、擁有者和動作。 ](./media/end-user-app-view/power-bi-apps-hover.png)
+
+應用程式隨即開啟。 每個應用程式看起來都不相同 - 不同的版面配置、視覺效果、色彩、選項。 但所有應用程式都具有幾項常用的功能。
+
+![銷售和行銷應用程式的螢幕擷取畫面，包含以數字識別的不同區域 ](./media/end-user-app-view/power-bi-app-numbered.png)
+
+1. 應用程式的名稱和上次更新時間。 選取下拉式箭號以查閱擁有者和說明連絡人。
+1. 選取 [Power BI] 以返回[首頁](end-user-home.md)。
+1. 動作列。 
+1. [報表] 頁面畫布。
+1. [應用程式瀏覽] 窗格。  應用程式的名稱底下是 [報表] 頁面的清單。 選取 [報表] 頁面名稱加以開啟。 我們目前已開啟 [傳回率] 頁面。 
+1. 選取箭號以展開 [篩選] 窗格。
+
+您也可以瀏覽相關的工作區。 [深入了解工作區](end-user-workspaces.md)
+
+![銷售與行銷工作區的螢幕擷取畫面，其中顯示一組報表與一個資料集。 ](./media/end-user-app-view/power-bi-new-workspace.png)
+
 ## <a name="update-an-app"></a>更新應用程式 
 
-應用程式建立者可能會不時發行其應用程式的新版本。 您取得新版本的方式取決於您先前如何收到原始版本。 
+應用程式設計人員可能會不時發行其應用程式的新版本。 您取得新版本的方式取決於您先前如何收到原始版本。 
 
 * 如果您是從組織取得應用程式，則新版本的更新會完全透明，您不需要執行任何動作。 
 
@@ -106,6 +140,11 @@ ms.locfileid: "85238468"
     > 安裝新版本會覆寫您對報表和儀表板所做的任何變更。 若要保留已更新的報表和儀表板，您可以在安裝之前以不同名稱或不同位置將其儲存。 
 
     4. 安裝好更新版本之後，請選取 [更新應用程式] 以完成更新處理程序。 
+
+## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
+
+- Power BI 系統管理員可開啟和關閉安裝應用程式的功能。 如果需要啟用這項功能，請洽詢 IT 部門或技術服務人員。    
+- 使用應用程式需要 Pro 授權，或將該應用程式儲存於 Premium 共用容量中。 [深入了解授權](end-user-license.md)。
 
 
 ## <a name="next-steps"></a>後續步驟

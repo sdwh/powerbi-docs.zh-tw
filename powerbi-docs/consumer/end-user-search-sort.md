@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 07/09/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 1ff7332bc71935cd6b679fa546dc2f1d37551436
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782552"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215756"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>適用於 Power BI 取用者的導覽：全域搜尋
 
@@ -29,7 +29,7 @@ ms.locfileid: "85782552"
 ## <a name="searching-for-content"></a>搜尋內容
  Power BI 服務的幾乎每個部分都可以使用搜尋。 只要尋找 [搜尋] 方塊或 [搜尋] 圖示 ![放大鏡圖示](./media/end-user-search-sort/power-bi-search-icon.png).
 
- 在 [搜尋] 欄位中，輸入儀表板、報表、活頁簿、應用程式或擁有者的全部或部分名稱。 Power BI 會搜尋您的所有內容。 
+ 在 [搜尋] 欄位中，鍵入儀表板、報表、活頁簿、工作區、應用程式或擁有者的全部或部分名稱。 Power BI 會搜尋您的所有內容。 
 
  ![搜尋報表](./media/end-user-search-sort/power-bi-search-field.png) 
 

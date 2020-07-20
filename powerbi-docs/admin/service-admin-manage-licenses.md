@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b110dceb7427e3aeefe8e7ef48e579943a7e6f3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228450"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161345"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>檢視及管理 Power BI 使用者授權
 
@@ -35,7 +35,7 @@ ms.locfileid: "85228450"
 
 您的有效 Power BI 訂閱，將會與您擁有的其他訂閱一併列出。 顯示的訂閱中，可能也會出現未預期的 Power BI 訂閱 (免費)，如下所示。
 
-  ![使用者啟用的免費 Power BI 訂閱](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
+  ![Power BI 訂閱的螢幕擷取畫面，其中顯示免費的訂閱。](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
 使用者如有使用自助式註冊，就會為您建立此類型的訂閱。 若要深入了解，請參閱[您組織的 Power BI](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide) (機器翻譯)。
 

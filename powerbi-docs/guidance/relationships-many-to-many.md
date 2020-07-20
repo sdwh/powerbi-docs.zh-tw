@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 971c2351fe5032ba91fa6c0f964bd844ef479b05
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532411"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216691"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多對多關聯性指導
 
@@ -35,20 +35,20 @@ ms.locfileid: "84532411"
 
 以下是這三個資料表的簡化模型圖表。
 
-![此模型圖表包含三個資料表。 下列段落會描述其設計。](media/relationships-many-to-many/bank-account-customer-model-example.png)
+![此圖顯示包含三個資料表的模型。 下列段落會描述其設計。](media/relationships-many-to-many/bank-account-customer-model-example.png)
 
 第一個資料表的名稱為 [帳戶]，其中包含兩個資料行：[帳戶識別碼] 和 [帳戶]。 第二個資料表的名稱為 [帳戶客戶]，其中包含兩個資料行：[帳戶識別碼] 和 [客戶識別碼]。 第三個資料表的名稱為 [客戶]，其中包含兩個資料行：[客戶識別碼] 和 [客戶]。 任何資料表之間都不存在關聯性。
 
 新增了兩個一對多關聯性來建立資料表的關聯。 以下是相關資料表的更新模型圖表。 新增了名為 [交易] 的事實類型資料表。 其記錄帳戶交易。 橋接資料表和所有識別碼資料行都已隱藏。
 
-![此模型圖表現在包含四個資料表。 新增了一對多關聯性來建立所有資料表的關聯。](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
+![此圖顯示模型現在包含四個資料表。 新增了一對多關聯性來建立所有資料表的關聯。](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
 
 為了協助描述關聯性篩選傳播的運作方式，此模型圖表已修改為顯示資料表資料列。
 
 > [!NOTE]
 > 您無法在 Power BI Desktop 模型圖表中顯示資料表資料列。 在本文中，為了以清楚的範例來支援討論，已事先完成。
 
-![此模型圖表現在顯示資料表資料列。 下列段落會描述資料列詳細資料。](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![此圖顯示模型現在會顯示資料表資料列。 下列段落會描述資料列詳細資料。](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 下列項目符號清單描述這四個資料表的資料列詳細資料：
 
@@ -71,7 +71,7 @@ ms.locfileid: "84532411"
 
 以下是摘要 [交易] 資料表中 [金額] 資料行的兩個視覺效果。 第一個視覺效果是依帳戶分組，因此 [金額] 資料行的總和表示「帳戶餘額」。 第二個視覺效果是依客戶分組，因此 [金額] 資料行的總和表示「客戶餘額」。
 
-![兩個報表視覺效果會並排顯示。 下列段落會描述這些視覺效果。](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
+![此圖顯示兩個並排的報表視覺效果。 下列段落會描述這些視覺效果。](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
 
 第一個視覺效果的標題為 [帳戶餘額]，其中包含兩個資料行：[帳戶] 和 [金額]。 其顯示下列結果：
 
@@ -91,9 +91,9 @@ ms.locfileid: "84532411"
 
 沿著 [客戶] 資料表到 [交易] 資料表的關聯性篩選方向。 [帳戶] 與 [帳戶客戶] 資料表之間的關聯性傳播方向明顯有誤。 此關聯性的篩選方向必須設定為 [雙向]。
 
-![此模型圖表已更新。 對 [帳戶] 與 [帳戶客戶] 資料表之間的關聯性做了一項變更。 現在會雙向篩選。](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
+![此圖顯示模型已更新。 現在會雙向篩選。](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
 
-![兩個相同的報表視覺效果會並排顯示。 第一個視覺效果並未變更。 第二個視覺效果會顯示不同的結果，如下列各段落所述。](media/relationships-many-to-many/bank-account-customer-model-queried-2.png)
+![此圖顯示兩個並排的相同報表視覺效果。 第一個視覺效果未變更，第二個視覺效果則已變更。](media/relationships-many-to-many/bank-account-customer-model-queried-2.png)
 
 如預期般，[帳戶餘額] 視覺效果並未進行任何變更。
 
@@ -131,13 +131,13 @@ ms.locfileid: "84532411"
 
 讓我們參考一個範例，其涉及兩個事實類型資料表：[訂單] 和 [履行]。 [訂單] 資料表會針對每個訂單明細各包含一個資料列，而 [履行] 資料表則會針對每個訂單明細各包含零個 (含) 以上的資料列。 [訂單] 資料表中的資料列表示銷售訂單。 [履行] 資料表中的資料列表示已出貨的訂單項目。 多對多關聯性會建立兩個 [訂單識別碼] 資料行的關聯，但只有來自 [訂單] 資料表的篩選傳播 ([訂單] 會篩選 [履行])。
 
-![此模型圖表包含兩個資料表：[訂單] 和 [履行]。 多對多關聯性會建立兩個 [訂單識別碼] 資料行的關聯，並從 [訂單] 篩選至 [履行]。](media/relationships-many-to-many/order-fulfillment-model-example.png)
+![此圖顯示包含兩個資料表的模型：[訂單] 和 [履行]。](media/relationships-many-to-many/order-fulfillment-model-example.png)
 
 關聯性基數會設定為多對多，以支援在這兩個資料表中儲存重複的 [訂單識別碼] 值。 在 [訂單] 資料表中，由於訂單可能會有多個明細，因此可能存在重複的 [訂單識別碼] 值。 在 [履行] 資料表中，由於訂單可能會有多個明細，且訂單明細可能會透過多次出貨來履行，因此可能存在重複的 [訂單識別碼] 值。
 
 現在讓我們看一下資料表資料列。 在 [履行] 資料表中，請注意訂單明細可能會透過多次出貨來履行 (沒有訂單明細表示訂單尚未履行)。
 
-![此模型圖表現在顯示資料表資料列。 下列段落會描述資料列詳細資料。](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![此圖顯示模型現在會顯示資料表資料列。 下列段落會描述資料列詳細資料。](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 下列項目符號清單描述這兩個資料表的資料列詳細資料：
 
@@ -155,7 +155,7 @@ ms.locfileid: "84532411"
 
 讓我們來看一下查詢模型時所發生的情況。 以下是依 [訂單] 資料表 [訂單識別碼] 資料行來比較訂單和履行數量的資料表視覺效果。
 
-![資料表視覺效果包含三個資料行：[訂單識別碼]、[訂單數量] 和 [履行數量]。 有三個資料列，每個訂單各一個。 [訂單識別碼] 2 和 3 並未完全履行。](media/relationships-many-to-many/order-fulfillment-model-queried.png)
+![此圖顯示包含三個資料行的資料表視覺效果：[訂單識別碼]、[訂單數量] 和 [履行數量]。](media/relationships-many-to-many/order-fulfillment-model-queried.png)
 
 此視覺效果會呈現正確的結果。 不過，模型的實用性會受到限制；您只能依 [訂單] 資料表 [訂單識別碼] 資料行進行篩選或分組。
 
@@ -167,7 +167,7 @@ ms.locfileid: "84532411"
 
 讓我們來看一個更好的解決方案。
 
-![此模型圖表包含六個資料表：[訂單明細]、[訂單日期]、[訂單]、[履行]、[產品] 和 [履行日期]。 所有資料表都是相關的。 下列段落會描述其設計。](media/relationships-many-to-many/order-fulfillment-model-improved.png)
+![此圖顯示包含六個資料表的模型：[訂單明細]、[訂單日期]、[訂單]、[履行]、[產品] 和 [履行日期]。](media/relationships-many-to-many/order-fulfillment-model-improved.png)
 
 請注意下列設計變更：
 
@@ -192,11 +192,11 @@ ms.locfileid: "84532411"
 
 讓我們參考一個範例，其涉及四個資料表：[日期]、[銷售量]、[產品] 和 [目標]。 [日期] 和 [產品] 是維度類型資料表，並使用一對多關聯性，將每個資料表關聯到 [銷售量] 事實類型資料表。 到目前為止，這是不錯的星型結構描述設計。 不過，[目標] 資料表尚未與其他資料表相關聯。
 
-![此模型圖表包含四個資料表：[日期]、[銷售量]、[產品] 和 [目標]。 [目標] 資料表並未與任何其他資料表相關聯。 下列段落會描述其設計。](media/relationships-many-to-many/sales-targets-model-example.png)
+![此圖顯示包含四個資料表的模型：[日期]、[銷售量]、[產品] 和 [目標]。](media/relationships-many-to-many/sales-targets-model-example.png)
 
 [目標] 資料表包含三個資料行：[類別]、[目標數量] 和 [目標年份]。 資料表資料列顯示年份和產品類別的資料粒度。 換句話說，目標 (用來測量銷售績效) 會每年針對每個產品類別進行設定。
 
-![[目標] 資料表包含三個資料行：[目標年份]、[類別] 和 [目標數量]。 六個資料列記錄 2019 年和 2020 年的目標，每個年份包含三種類別。](media/relationships-many-to-many/sales-targets-model-target-rows.png)
+![此圖顯示包含三個資料行的 [目標] 資料表：[目標年份]、[類別] 和 [目標數量]。](media/relationships-many-to-many/sales-targets-model-target-rows.png)
 
 由於 [目標] 資料表是以比維度類型資料表更高的層級來儲存資料，因此無法建立一對多關聯性。 沒錯，只有其中一個關聯性才適用。 讓我們來探索如何將 [目標] 資料表關聯到維度類型資料表。
 
@@ -211,7 +211,7 @@ ms.locfileid: "84532411"
 
 下列矩陣視覺效果顯示當報表使用者從某一年份鑽研到其月份時所發生的情況。 此視覺效果將會摘要 [目標數量] 資料行 (已啟用矩陣資料列的 [顯示沒有資料的項目](../create-reports/desktop-show-items-no-data.md) 選項)。
 
-![此矩陣視覺效果顯示 2020 年的目標數量為 270。 當展開以顯示 2020 年的月份時，1 月為 270，而所有其他月份層級的目標數量則為空白。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
+![此圖顯示矩陣視覺效果顯示 2020 年的目標數量為 270。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
 為了避免此行為，建議您使用量值來控制事實資料的摘要。 控制摘要其中一種方式是在查詢較低層級的時間週期時，傳回空白。 另一種方式 (使用一些複雜的 DAX 定義) 則是在較低層級的時間週期內分配值。
 
@@ -228,7 +228,7 @@ IF(
 
 下列矩陣視覺效果現在使用 [目標數量] 量值。 其顯示所有的每月目標數量都是空白。
 
-![此矩陣視覺效果顯示 2020 年的目標數量為 270。 當展開以顯示 2020 年的月份時，每月層級的目標數量為空白。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![此圖顯示矩陣視覺效果顯示 2020 年的目標數量為 270。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>建立更高資料粒度 (非日期) 的關聯
 
@@ -236,21 +236,21 @@ IF(
 
 [類別] 資料行 (來自 [產品] 和 [目標] 資料表) 包含重複的值。 因此，一對多關聯性沒有「一」端。 在此情況下，您必須建立多對多關聯性。 此關聯性應該是從維度類型資料表到事實類型資料表的單向傳播篩選。
 
-![模型圖表的片段顯示 [目標] 和 [產品] 資料表。 兩個資料表以多對多關聯性相關聯。 篩選方向是從 [產品] 到 [目標]。](media/relationships-many-to-many/sales-targets-model-relate-non-date.png)
+![此圖顯示 [目標] 和 [產品] 資料表的模型。 兩個資料表以多對多關聯性相關聯。](media/relationships-many-to-many/sales-targets-model-relate-non-date.png)
 
 現在讓我們看一下資料表資料列。
 
-![此模型圖表包含兩個資料表：[目標] 和 [產品]。 兩個 [類別] 資料行以多對多關聯性相關聯。 下列段落會描述資料列詳細資料。](media/relationships-many-to-many/sales-targets-model-relate-non-date-tables.png)
+![此圖顯示包含兩個資料表的模型：[目標] 和 [產品]。 兩個 [類別] 資料行以多對多關聯性相關聯。](media/relationships-many-to-many/sales-targets-model-relate-non-date-tables.png)
 
 在 [目標] 資料表中，有四個資料列：每個目標年份 (2019 和 2020) 各兩個資料列，分別包含兩個類別 ([服飾] 和 [配件])。 在 [產品] 資料表中，有三個產品。 其中兩個屬於 [服飾] 類別，另一個則屬於 [配件] 類別。 其中一個服飾色彩為綠色，其餘兩個則為藍色。
 
 依 [產品] 資料表中 [類別] 資料行分組的資料表視覺效果會產生下列結果。
 
-![資料表視覺效果包含兩個資料行：[類別] 和 [目標數量]。 [配件] 為 60、[服飾] 為 40，而總計為 100。](media/relationships-many-to-many/sales-targets-model-visual-category-targets.png)
+![此圖顯示包含兩個資料行的資料表視覺效果：[類別] 和 [目標數量]。 [配件] 為 60、[服飾] 為 40，而總計為 100。](media/relationships-many-to-many/sales-targets-model-visual-category-targets.png)
 
 此視覺效果會產生正確的結果。 現在讓我們來思考當使用 [產品] 資料表中 [色彩] 資料行來分組目標數量時所發生的情況。
 
-![資料表視覺效果包含兩個資料行：[色彩] 和 [目標數量]。 [藍色] 為 100、[綠色] 為 40，而總計為 100。](media/relationships-many-to-many/sales-targets-model-visual-color-targets-bad.png)
+![此圖顯示包含兩個資料行的資料表視覺效果：[色彩] 和 [目標數量]。 [藍色] 為 100、[綠色] 為 40，而總計為 100。](media/relationships-many-to-many/sales-targets-model-visual-color-targets-bad.png)
 
 此視覺效果會產生錯誤陳述的資料。 這是為什麼？
 
@@ -272,11 +272,11 @@ IF(
 
 下列資料表視覺效果現在使用 [目標數量] 量值。 其顯示所有的色彩目標數量都是空白。
 
-![資料表視覺效果包含兩個資料行：[色彩] 和 [目標數量]。 [藍色] 為空白、[綠色] 為空白，而總計為 100。](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
+![此圖顯示包含兩個資料行的資料表視覺效果：[色彩] 和 [目標數量]。 [藍色] 為空白、[綠色] 為空白，而總計為 100。](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
 
 最終的模型設計看起來如下所示。
 
-![此模型圖表顯示 [日期] 和 [目標] 資料表以一對多關聯性相關聯。 [產品] 和 [目標] 資料表以多對多關聯性相關聯，並從 [產品] 篩選至 [目標]。](media/relationships-many-to-many/sales-targets-model-example-final.png)
+![此圖顯示模型的 [日期] 和 [目標] 資料表以一對多關聯性相關聯。](media/relationships-many-to-many/sales-targets-model-example-final.png)
 
 ### <a name="relate-higher-grain-facts-guidance"></a>建立更高資料粒度事實的關聯指導
 

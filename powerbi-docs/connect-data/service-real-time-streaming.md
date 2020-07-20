@@ -5,21 +5,21 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8e991a8696ac35ed0a7d4b448bb4dd83d9a19c42
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 0472baffa765f1a1e7d39e365e40a1f596472a16
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793450"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264398"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的即時串流
 您可以使用 Power BI 即時串流，即時串流資料及更新儀表板。 您也可以建立可在 Power BI 中建立的任何視覺效果或儀表板，進而顯示及更新即時資料和視覺效果。 串流資料的裝置和來源可以是 Factory 感應器、社交媒體來源、服務使用計量，以及可從中收集或傳送即時資料的任何其他項目。
 
-![顯示即時環境感應器結果的螢幕擷取畫面。](media/service-real-time-streaming/real-time-streaming-10.png)
+![[環境感應器] 儀表板的螢幕擷取畫面，即時顯示資料的結果。](media/service-real-time-streaming/real-time-streaming-10.png)
 
 本文將說明如何在 Power BI 設定即時串流資料集。 但在這之前，請務必了解設計用來顯示於磚 (和儀表板) 中的即時資料集類型，以及這些資料集之間的差異。
 
@@ -61,7 +61,7 @@ ms.locfileid: "83793450"
 ### <a name="streaming-dataset-matrix"></a>串流資料集矩陣
 下列資料表 (或矩陣，如果您喜歡的話) 描述三種類型的即時串流資料集，並列出每一種的功能和限制。
 
-![](media/service-real-time-streaming/real-time-streaming_11.png)
+![資料表的螢幕擷取畫面，其中顯示串流資料集矩陣。](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
 > 請參閱[本文](../developer/automation/api-rest-api-limitations.md)，以取得可以推入多少資料的**推送**限制相關資訊。
@@ -92,11 +92,11 @@ ms.locfileid: "83793450"
 ### <a name="using-the-streaming-dataset-ui-to-push-data"></a>使用串流資料集 UI 推送資料
 在 Power BI 服務中，您可以選取 **API** 方法來建立資料集，如下圖所示。
 
-![](media/service-real-time-streaming/real-time-streaming_0b.png)
+![[新增串流資料集] 選項的螢幕擷取畫面，其中顯示 API 選取項目。](media/service-real-time-streaming/real-time-streaming_0b.png)
 
 在建立新的串流資料集時，您可以如下所示選取啟用 [歷史資料分析]，這會造成顯著影響。
 
-![](media/service-real-time-streaming/real-time-streaming_0c.png)
+![[新增串流資料集] 的螢幕擷取畫面，其中顯示已啟用的歷程資料分析。](media/service-real-time-streaming/real-time-streaming_0c.png)
 
 當 [歷史資料分析] 停用 (它預設為停用) 時，您會建立**串流資料集**，如本文稍早所述。 當 [歷史資料分析]為「啟用」時，建立的資料集變成同時為**串流資料集**和**推送資料集**。 這相當於使用 Power BI REST API 來建立資料集，並將其 <預設模式> 設為 *pushStreaming*，如本文稍早所述。
 
@@ -125,19 +125,19 @@ Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流
 
 不論使用哪種選項，您都必須在 Power BI 中設定**串流資料**。 若要執行這項操作，請在您的儀表板 (現有儀表板或新儀表板) 中，選取 [新增磚]，然後選取 [自訂串流資料]。
 
-![](media/service-real-time-streaming/real-time-streaming_1.png)
+![儀表板的螢幕擷取畫面，其中顯示 [新增磚] 區段中的 [自訂串流資料] 選取項目。](media/service-real-time-streaming/real-time-streaming_1.png)
 
 如果您尚未設定串流資料，別擔心 - 您可以選取 [管理資料] 來開始進行。
 
-![](media/service-real-time-streaming/real-time-streaming_2.png)
+![儀表板的螢幕擷取畫面，其中顯示 [新增自訂串流資料磚] 中的 [管理資料] 連結。](media/service-real-time-streaming/real-time-streaming_2.png)
 
 在此頁面上，如果您已經建立一個串流資料集，您可以在文字方塊中輸入其端點。 如果您還沒有串流資料集，請選取右上角的加號圖示 ( **+** )，以查看可用來建立串流資料集的選項。
 
-![](media/service-real-time-streaming/real-time-streaming_3.png)
+![儀表板的螢幕擷取畫面，其中顯示如何使用加號圖示的指標來輸入串流資料集的端點。](media/service-real-time-streaming/real-time-streaming_3.png)
 
 當您按一下 **+** 圖示時，您會看到兩個選項：
 
-![](media/service-real-time-streaming/real-time-streaming_4a.png)
+![[新增串流資料集] 選項的螢幕擷取畫面，其中顯示 API 和 PubNub 選項。](media/service-real-time-streaming/real-time-streaming_4a.png)
 
 下一節將描述這些選項，並深入說明如何從串流資料來源建立串流**磚**或**資料集**，以供稍後用來建立報表。
 
@@ -152,7 +152,7 @@ Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流
 ### <a name="using-the-power-bi-rest-api"></a>使用 POWER BI REST API
 **Power BI REST API** - Power BI REST API 的最新增強功能是為了讓開發人員更容易使用即時串流所設計。 當您從 [新增串流資料集] 視窗選取 [API] 時，您有幾個選項可讓 Power BI 連接並使用您的端點：
 
-![](media/service-real-time-streaming/real-time-streaming_5.png)
+![[新增串流資料集] 對話方塊的螢幕擷取畫面，其中顯示用於連線的 Power BI REST API 項目。](media/service-real-time-streaming/real-time-streaming_5.png)
 
 如果您想要讓 Power BI 儲存透過此資料流傳送的資料，請啟用 [歷程資料分析]，您將能夠對收集的資料流進行報告和分析。 您也可以[深入了解此 API](https://docs.microsoft.com/rest/api/power-bi/)。
 
@@ -163,7 +163,7 @@ Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流
 ### <a name="using-pubnub"></a>使用 PubNub
 透過 **PubNub** 串流與 Power BI 的整合，您可以使用低度延遲的 **PubNub** 資料流 (或建立新的資料流) 並將其用於 Power BI。 當您選取 [PubNub]，再選取 [下一步] 時，您會看到下列視窗：
 
-![](media/service-real-time-streaming/real-time-streaming_7.png)
+![[新增串流資料集] 對話方塊的螢幕擷取畫面，其中顯示用於連線的 PubNub 項目。](media/service-real-time-streaming/real-time-streaming_7.png)
 
 > [!WARNING]
 > 可以使用 PubNub 存取管理員 (PAM) 驗證金鑰來保護 PubNub 通道。 此金鑰將與具有儀表板存取權的所有使用者共用。 您可以[深入了解 PubNub 存取控制](https://www.pubnub.com/docs/web-javascript/pam-security)。
@@ -179,7 +179,7 @@ Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流
 
 1. 在 [Power BI 服務] 中，選取儀表板 (或建立新的儀表板)，然後選取 [新增磚] > [自訂串流資料]，再選取 [下一步] 按鈕。
    
-   ![](media/service-real-time-streaming/real-time-streaming_1.png)
+   ![儀表板的螢幕擷取畫面，其中顯示含有 [自訂串流資料] 區段的 [新增磚]。](media/service-real-time-streaming/real-time-streaming_1.png)
 2. 如果您還沒有串流資料來源，請選取 [管理資料] 連結 ([下一步] 按鈕的正上方)，然後從視窗右上方的連結選取 \[+ Add streaming data] \(+ 新增串流資料)。 選取 [PubNub]，然後選取 [下一步]。
 3. 建立您的資料集名稱，然後將下列值貼到出現的視窗中，再選取 [下一步]：
    
@@ -190,13 +190,13 @@ Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流
    
        pubnub-sensor-network
    
-   ![](media/service-real-time-streaming/real-time-streaming_8.png)
+   ![[新增串流資料集] 對話方塊的螢幕擷取畫面，其中顯示如何在 [訂閱機碼] 和 [通道名稱] 欄位中建立資料集名稱和項目。](media/service-real-time-streaming/real-time-streaming_8.png)
 4. 在下列視窗中，直接選取預設值 (這會自動填入)，然後選取 [建立]。
    
-   ![](media/service-real-time-streaming/real-time-streaming_9.png)
+   ![[新增串流資料集] 對話方塊的螢幕擷取畫面，其中顯示資料流欄位中資料集名稱和值的預設。](media/service-real-time-streaming/real-time-streaming_9.png)
 5. 回到 Power BI 工作區，建立新的儀表板，然後新增磚 (如果需要，請參閱上述步驟)。 當您建立磚並選取 [自訂串流資料] 時，這次會有可以使用的串流資料集。 現在就試試看。 將 [數目] 欄位新增至折線圖，然後新增其他磚，您可能會取得如下所示的即時儀表板：
    
-   ![顯示即時環境感應器結果的螢幕擷取畫面。](media/service-real-time-streaming/real-time-streaming-10.png)
+   ![[環境感應器] 儀表板的螢幕擷取畫面，其中即時顯示結果。](media/service-real-time-streaming/real-time-streaming-10.png)
 
 現在就利用範例資料集試試看。 接著建立您自己的資料集，並將即時資料串流到 Power BI。
 

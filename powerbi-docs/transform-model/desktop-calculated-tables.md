@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 3f23f18002ce12c3b6706469f36bde077e117941
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8c22b040a1767d616ce1f4d0e4e7fa26e55bfe19
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237863"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214293"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>在 Power BI Desktop 中建立計算資料表
 大多時候，您會從外部資料來源將資料匯入模型中，以建立資料表。 但是「計算資料表」可讓您根據已載入模型中的資料來新增資料表。 您會建立[資料分析運算式 (DAX)](/dax/index) 公式來定義資料表的值，而不是從資料來源查詢值並將其載入新的資料表資料行。
@@ -31,11 +31,11 @@ ms.locfileid: "85237863"
 
 **西北部員工**
 
- ![](media/desktop-calculated-tables/calctables_nwempl.png)
+ ![Power BI Desktop 的螢幕擷取畫面，其中顯示西南部員工的表格式資料。](media/desktop-calculated-tables/calctables_nwempl.png)
 
 **西南部員工**
 
- ![](media/desktop-calculated-tables/calctables_swempl.png)
+ ![Power BI Desktop 的螢幕擷取畫面，其中顯示西南部員工的表格式資料。](media/desktop-calculated-tables/calctables_swempl.png)
 
 在 Power BI Desktop 的 [報表檢視] 或 [資料檢視] 中，於 [模型化] 索引標籤的 [計算] 群組中，選取 [新增資料表]。 在 [資料檢視] 中執行起來比較簡單，因為您可立即查看您的新計算資料表。
 

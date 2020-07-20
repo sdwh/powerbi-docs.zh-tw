@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 807ba59066508d063dba2e2f921eff19cf018bc5
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223332"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214589"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>透過 Power BI Desktop 連線到 Project Online 資料
 您可以透過 Power BI Desktop 連接到 Project Online 中的資料。
@@ -37,7 +37,7 @@ ms.locfileid: "85223332"
 
 5. Power BI Desktop 會提示驗證公司或學校帳戶。 請選取組織帳戶，然後輸入您的認證。
    
-   ![](media/desktop-project-online-connect-to-data/image.png)
+   ![Power BI Desktop 的螢幕擷取畫面，其中顯示要連線的認證提示。](media/desktop-project-online-connect-to-data/image.png)
 
 您用來連線到 OData 摘要的帳戶，至少必須有 Project Web App 網站的公事包檢視者存取權。 
 

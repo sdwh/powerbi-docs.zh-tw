@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 03/04/2020
-ms.openlocfilehash: a6cb8575ef5265264cf0c15c4cfcfc4207726a07
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 07/08/2020
+ms.openlocfilehash: 34f4265444d030902474c740dda91f8431d36625
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565572"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216527"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
 
@@ -50,7 +50,8 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 資料列層級安全性 (RLS) | 是 | 是 | DirectQuery (資料來源) 與匯入模式中皆可使用 <br><br>[Power BI 服務](../admin/service-admin-rls.md)中的資料列層級安全性 <br><br>[Power BI 報表伺服器](row-level-security-report-server.md)中的資料列層級安全性 |
 | 全螢幕模式 | 否 | 是 | [Power BI 服務](../consumer/end-user-focus.md)中的全螢幕模式 |
 | 進階 Microsoft 365 共同作業 | 否 | 是 | 使用 Microsoft 365 [在工作區中共同作業](../collaborate-share/service-collaborate-power-bi-workspace.md) |
-| R 視覺效果 | 否 | 是 | 在 Power BI Desktop 中[建立 R 視覺效果](../create-reports/desktop-r-visuals.md)，並將其發佈至 Power BI 服務。 您無法將具有 R 視覺效果的 Power BI 報表，儲存至 Power BI 報表伺服器。  |
+| R 指令碼和視覺效果 | 否 | 是 | 在 Power BI Desktop 中[建立 R 視覺效果](../create-reports/desktop-r-visuals.md)和執行 R 指令碼，並將其發佈至 Power BI 服務。 您無法將具有 R 指令碼或視覺效果的 Power BI 報表儲存至 Power BI 報表伺服器。  |
+| Python 指令碼和視覺效果 | 否 | 是 | 在 Power BI Desktop 中[建立 Python 指令碼](../connect-data/desktop-python-scripts.md)和視覺效果，並將其發佈至 Power BI 服務。 您無法將具有 Python 指令碼或視覺效果的 Power BI 報表，儲存至 Power BI 報表伺服器。 |
 | 預覽功能 | 否 | 是 | [選擇加入 Power BI 服務預覽](../consumer/end-user-preview-features.md)功能 |
 | Power BI 視覺效果 | 是 | 是 | [Power BI 視覺效果](../developer/visuals/power-bi-custom-visuals.md) |
 | 複合模型 | 否 | 是 |

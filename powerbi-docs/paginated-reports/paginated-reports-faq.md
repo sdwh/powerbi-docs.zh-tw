@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/29/2020
-ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.date: 07/08/2020
+ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427561"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216657"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -162,7 +162,7 @@ SaaS 內嵌 (包括安全內嵌支援) 已可供使用。 對於 PaaS 內嵌，�
 
 可以，支援使用來自 v1 與 v2 工作區的應用程式部署編頁報表。 
 
-### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Power BI 中的其他報表特有功能 (例如，將報表磚釘選到儀表板) 將能搭配編頁報表來運作嗎？
+### <a name="will-other-report-specific-features-in-power-bi-like-pinning-report-tiles-to-dashboards-work-with-paginated-reports"></a>Power BI 中的其他報表特定功能 (例如，將報表磚釘選到儀表板) 可搭配編頁報表來運作嗎？
 
 我們計畫要讓報表盡可能地支援服務中相同的主要案例。  在理想的情況下，雖然用來製作這些內容的工具不同，但從取用者觀點來看，這只是其在入口網站清單中的另一份報表。 取用者不在意建立報表的方式；其可完成所需的作業。  此功能同位有個很好的範例就是計劃性的註解支援。 儘管功能本身針對每個報表類型的運作方式可能稍有不同，但您還是能夠針對這兩者使用註解。
 

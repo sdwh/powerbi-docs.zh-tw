@@ -8,28 +8,28 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 21105513bf77a4ede8d788860a99fedaf3a6c48c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278667"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214875"
 ---
 # <a name="referencing-power-query-queries"></a>參考 Power Query 查詢
 
 此文章以使用 Power BI Desktop 的資料模型製作人員為目標。 它提供的指導方針，適用於定義參考其他查詢的 Power Query 查詢。
 
-讓我們清楚說明這是什麼意思：「當某個查詢參考第二個查詢時，就如同第二個查詢中的步驟與第一個中的結合而且先執行。」 
+讓我們清楚說明這是什麼意思：「當某個查詢參考第二個查詢時，就如同第二個查詢中的步驟與第一個中的結合而且先執行。」
 
 請考慮數個查詢：**Query1** 的資料來源是 Web 服務，且其載入已停用。 **Query2**、**Query3** 與 **Query4** 都參考 **Query1**，且其輸出會載入至資料模型。
 
-![查詢相依性檢視，顯示上一段所述的查詢。](media/power-query-referenced-queries/query-dependencies-web-service.png)
+![此圖表顯示查詢相依性檢視，其中顯示上一段所述的查詢。](media/power-query-referenced-queries/query-dependencies-web-service.png)
 
 當資料模型重新整理時，通常會假設 Power Query 是擷取 **Query1** 的結果，且參考查詢會重複使用它。 此想法不正確。 事實上，Power Query 會分別執行 **Query2**、**Query3** 與 **Query4**。
 
 您可以想成 **Query1** 步驟內嵌在 **Query2** 中。 **Query3** 與 **Query4** 的情況也是如此。 下列圖表呈現更清楚的查詢執行方式。
 
-![查詢相依性檢視的修改版本，顯示 Query 2、Query 3 與 Query 4。 三個查詢中的每個都內嵌 Query 1。](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
+![此圖表顯示查詢相依性檢視的修改版本，其中顯示 Query 2、Query 3 與 Query 4。](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
 
 **Query1** 會執行三次。 多次執行可能會導致資料重新整理緩慢，並對資料來源造成負面影響。
 

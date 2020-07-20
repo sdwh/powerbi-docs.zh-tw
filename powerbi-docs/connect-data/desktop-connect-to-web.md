@@ -10,34 +10,34 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7a3444aca5f74dd54ba292548ac5fa1d848f5172
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 618e2acb415d72870fd599142775720955e8ba88
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224000"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214718"
 ---
 # <a name="connect-to-webpages-from-power-bi-desktop"></a>從 Power BI Desktop 連線至網頁
 
 您可以連線至網頁並將其資料匯入 Power BI Desktop，以在您的視覺效果和資料模型中使用。
 
-在 Power BI Desktop 中，從 [主資料夾]  功能區選取 [取得資料] > [Web]  。
+在 Power BI Desktop 中，從 [主資料夾]  功能區選取 [取得資料] > [Web]。
 
-![](media/desktop-connect-to-web/connect-to-web_1.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示 [Web] 選取項目。](media/desktop-connect-to-web/connect-to-web_1.png)
 
 對話方塊隨即出現，並詢問您要從中匯入資料的網頁 URL。
 
-![](media/desktop-connect-to-web/connect-to-web_2.png)
+![[Web] 對話方塊的螢幕擷取畫面，其中顯示 [URL] 欄位。](media/desktop-connect-to-web/connect-to-web_2.png)
 
-您輸入 (或貼上) URL 之後，選取 [確定]  。 Power BI Desktop 會連接至該網頁上，然後在 [導覽]  視窗中顯示網頁的可用資料。 當您選取其中一個可用的資料元素，例如整個網頁的資料表，[導覽]  視窗會在視窗的右側顯示該資料的預覽。
+您輸入 (或貼上) URL 之後，選取 [確定]。 Power BI Desktop 會連接至該網頁上，然後在 [導覽] 視窗中顯示網頁的可用資料。 當您選取其中一個可用的資料元素，例如整個網頁的資料表，[導覽] 視窗會在視窗的右側顯示該資料的預覽。
 
-![](media/desktop-connect-to-web/connect-to-web_3.png)
+![[導覽] 對話方塊的螢幕擷取畫面，其中顯示所選資料表資料的預覽。](media/desktop-connect-to-web/connect-to-web_3.png)
 
-您可以選擇 [編輯]  按鈕，其會啟動 [查詢編輯器]  ，供您在匯入 Power BI Desktop 之前在網頁上修改或轉換資料。 或著您可以選取 [載入]  按鈕，然後匯入您在左窗格中選取的所有資料元素。
+您可以選擇 [編輯] 按鈕，其會啟動 [查詢編輯器]，供您在匯入 Power BI Desktop 之前在網頁上修改或轉換資料。 或著您可以選取 [載入] 按鈕，然後匯入您在左窗格中選取的所有資料元素。
 
-當我們選取 [載入]  時，Power BI Desktop 會匯入選取的項目，並使其能夠在 [欄位]  窗格中使用，其會出現在 Power BI Desktop 中 [報表] 檢視的右側。
+當我們選取 [載入] 時，Power BI Desktop 會匯入選取的項目，並使其能夠在 [欄位] 窗格中使用，其會出現在 Power BI Desktop 中 [報表] 檢視的右側。
 
-![](media/desktop-connect-to-web/connect-to-web_4.png)
+![[欄位] 窗格的螢幕擷取畫面，其中顯示已選取資料表的清單。](media/desktop-connect-to-web/connect-to-web_4.png)
 
 這樣就可以連接到網頁，並將其資料帶入 Power BI Desktop。
 

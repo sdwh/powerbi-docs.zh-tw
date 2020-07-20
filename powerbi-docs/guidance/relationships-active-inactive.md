@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e8ba3203728a72b26d188e96eb1fa66f62f89a55
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273216"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215126"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>作用中與非作用中關聯性指導方針
 
@@ -29,23 +29,23 @@ ms.locfileid: "83273216"
 
 以下是這兩個資料表的部分模型圖表。
 
-![此模型圖表包含兩個資料表：Flight 與 Airport。 下列段落描述關聯性設計。](media/relationships-active-inactive/flight-model-1.png)
+![此圖顯示包含兩個資料表的模型：Flight 與 Airport。 下列段落描述關聯性設計。](media/relationships-active-inactive/flight-model-1.png)
 
-**Flight** 與 **Airport** 資料表之間有兩個模型關聯性。 在 **Flight** 資料表中，**DepartureAirport** 和 **ArrivalAirport** 資料行與 **Airport** 資料表的 **Airport** 資料行相關。 在星狀結構描述設計中，**Airport** 資料表是描述為[角色扮演維度](star-schema.md#role-playing-dimensions)。 在此模型中，這兩個角色是「起飛機場」  與「抵達機場」  。
+**Flight** 與 **Airport** 資料表之間有兩個模型關聯性。 在 **Flight** 資料表中，**DepartureAirport** 和 **ArrivalAirport** 資料行與 **Airport** 資料表的 **Airport** 資料行相關。 在星狀結構描述設計中，**Airport** 資料表是描述為[角色扮演維度](star-schema.md#role-playing-dimensions)。 在此模型中，這兩個角色是「起飛機場」與「抵達機場」。
 
 雖然這種設計適用於關聯式星狀結構描述設計，但不適用於 Power BI 模型。 這是因為模型關聯性是篩選條件傳播的路徑，且這些路徑必須具確定性。 基於這個理由，模型在兩個資料表之間不能有多個作用中關聯性。 因此，一個關聯性為作用中，而另一個為非作用中 (以虛線表示)，如此範例中所述。 具體而言，作用中的是 **ArrivalAirport** 資料行的關聯性。 這表示套用至 **Airport** 資料表的篩選條件會自動傳播至 **Flight** 資料表的 **ArrivalAirport** 資料行。
 
-此模型設計會對資料報告方式施加嚴格的限制。 具體而言，您無法篩選 **Airport** 資料表來自動分離起飛機場的航班詳細資料。 因為報告需求「同時」  涉及起飛與抵達機場的篩選條件 (或分組)，所以需要兩個作用中關聯性。 將此需求轉譯為 Power BI 模型設計，表示模型必須有兩個機場資料表。
+此模型設計會對資料報告方式施加嚴格的限制。 具體而言，您無法篩選 **Airport** 資料表來自動分離起飛機場的航班詳細資料。 因為報告需求「同時」涉及起飛與抵達機場的篩選條件 (或分組)，所以需要兩個作用中關聯性。 將此需求轉譯為 Power BI 模型設計，表示模型必須有兩個機場資料表。
 
 以下是已改善的模型設計。
 
-![此模型圖表現在包含四個資料表：Date、Flight、Departure Airport 與 Arrival Airport。 下列段落描述關聯性設計。](media/relationships-active-inactive/flight-model-2.png)
+![此圖顯示包含四個資料表的模型：Date、Flight、Departure Airport 與 Arrival Airport。](media/relationships-active-inactive/flight-model-2.png)
 
 該模型現在有兩個機場資料表：**Departure Airport** 與 **Arrival Airport**。 這些資料表與 **Flight** 資料表之間的模型關聯性為作用中。 另請注意，**Departure Airport** 與 **Arrival Airport** 資料表中的資料行名稱前面會加上 _Departure_ 或 _Arrival_ 一字。
 
 已改善的模型設計支援產生下列報表設計。
 
-![有兩個交叉分析篩選器與一個資料表視覺效果的報表頁面。 交叉分析篩選器為 [月份] 與 [起飛機場]。 表格視覺效果列出抵達機場與各種統計資料。](media/relationships-active-inactive/flight-report-design.png)
+![此圖顯示包含兩個交叉分析篩選器與一個資料表視覺效果的報表頁面。 交叉分析篩選器為 [月份] 與 [起飛機場]。](media/relationships-active-inactive/flight-report-design.png)
 
 報表頁面是依墨爾本為起飛機場進行篩選，並依抵達機場將表格視覺效果分組。
 
@@ -56,7 +56,7 @@ ms.locfileid: "83273216"
 
 ### <a name="refactoring-methodology"></a>重構方法
 
-以下方法可將模型從單一角色扮演維度類型資料表，重構為「每個角色一個資料表」  的設計。
+以下方法可將模型從單一角色扮演維度類型資料表，重構為「每個角色一個資料表」的設計。
 
 1. 移除任何非作用中關聯性。
 2. 請考慮將角色扮演維度類型資料表重新命名，以更清楚地描述其角色。 在此範例中，**Airport** 資料表與 **Flight** 資料表的 **ArrivalAirport** 資料行相關聯，因此將其重新命名為 **Arrival Airport**。
@@ -70,7 +70,7 @@ ms.locfileid: "83273216"
 
 4. 建立作用中關聯性，以建立新資料表的關聯性。
 5. 請考慮將資料表中的資料行重新命名，使其正確地反映其角色。 在此範例中，所有資料行前面都會加上 _Departure_ 或 _Arrival_ 一字。 這些名稱可確保報表視覺效果預設會有自我描述且明確的標籤。 這也會改善問與答體驗，讓使用者可以輕鬆地撰寫其問題。
-6. 請考慮將描述新增至角色扮演資料表。 (在 [欄位]  窗格中，當報表作者將游標停留在資料表上時，描述會出現在工具提示中)。如此一來，您可以將任何額外篩選條件傳播詳細資料傳達給您的報表作者。
+6. 請考慮將描述新增至角色扮演資料表。 (在 [欄位] 窗格中，當報表作者將游標停留在資料表上時，描述會出現在工具提示中)。如此一來，您可以將任何額外篩選條件傳播詳細資料傳達給您的報表作者。
 
 ## <a name="inactive-relationships"></a>非作用中的關聯性
 
@@ -82,13 +82,13 @@ ms.locfileid: "83273216"
 - **Sales** 資料表中的每個資料列都記錄單一訂單
 - 日期篩選條件幾乎一律會套用至 **OrderDate** 資料行，其一律儲存有效的日期
 - 只有一個量值需要將日期篩選條件傳播到 **ShipDate** 資料行，其中可以包含空白 (直到訂單出貨)
-- 不需要同時篩選 (或分組) 訂單「與」  出貨日期期間
+- 不需要同時篩選 (或分組) 訂單「與」出貨日期期間
 
 以下是這兩個資料表的部分模型圖表。
 
-![此模型圖表包含兩個資料表：Sales 與 Date。 Sales 資料表包含六個量值。 下列段落描述關聯性設計。](media/relationships-active-inactive/sales-model.png)
+![此圖顯示包含兩個資料表的模型：Sales 與 Date。 Sales 資料表包含六個量值。](media/relationships-active-inactive/sales-model.png)
 
-**Sales** 與 **Date** 資料表之間有兩個模型關聯性。 在 **Sales** 資料表中，**OrderDate** 和 **ShipDate** 資料行與 **Date** 資料表的 **Date** 資料行相關聯。 在此模型中，**Date** 資料表的兩個角色是「訂單日期」  與「出貨日期」  。 作用中的是 **OrderDate** 資料行的關聯性。
+**Sales** 與 **Date** 資料表之間有兩個模型關聯性。 在 **Sales** 資料表中，**OrderDate** 和 **ShipDate** 資料行與 **Date** 資料表的 **Date** 資料行相關聯。 在此模型中，**Date** 資料表的兩個角色是「訂單日期」與「出貨日期」。 作用中的是 **OrderDate** 資料行的關聯性。
 
 所有六個量值 (一個除外) 都必須依 **OrderDate** 資料行進行篩選。 不過，**Orders Shipped** 量值必須依 **ShipDate** 資料行進行篩選。
 
@@ -110,7 +110,7 @@ CALCULATE(
 
 此模型設計支援產生下列報表設計。
 
-![有一個交叉分析篩選器與一個表格視覺效果的報表頁面。 交叉分析篩選器為 [季]，而表格視覺效果列出每月銷售統計資料。](media/relationships-active-inactive/sales-report-design.png)
+![此圖顯示包含一個交叉分析篩選器與一個資料表視覺效果的報表頁面。 交叉分析篩選器為 [季]，而表格視覺效果列出每月銷售統計資料。](media/relationships-active-inactive/sales-report-design.png)
 
 報表頁面依季 2019 Q4 進行篩選。 依月份分組的表格視覺效果，並顯示各種銷售統計資料。 **Orders** 與 **Orders Shipped** 量值產生不同結果。 其各自使用相同的摘要邏輯 (計算 **Sales** 資料表的資料列)，但 **Date** 資料表篩選條件傳播不同。
 

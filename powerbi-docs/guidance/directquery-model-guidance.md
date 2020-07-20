@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ace93dfe358c85e54863dece0303c889c6a766b2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 264d3f4a0c611ca01de627b7656584ceb60e7b18
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279587"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214536"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型指南
 
@@ -52,11 +52,11 @@ Azure SQL 資料倉儲和 Azure HDInsight Spark 資料來源都可以直接進�
 
 DirectQuery 模型可以透過許多方式進行最佳化，如下列項目符號清單所述。
 
-- **避免複雜的 Power Query 查詢：** 您可以透過移除套用任何轉換的 Power Query 查詢需求，以達成具效率的模型設計。 這表示每個查詢都會對應到單一關聯式資料庫來源資料表或檢視。 您可以透過選取 [檢視原生查詢]  選項來預覽 Power Query 套用步驟的實際 SQL 查詢陳述式表示。
+- **避免複雜的 Power Query 查詢：** 您可以透過移除套用任何轉換的 Power Query 查詢需求，以達成具效率的模型設計。 這表示每個查詢都會對應到單一關聯式資料庫來源資料表或檢視。 您可以透過選取 [檢視原生查詢] 選項來預覽 Power Query 套用步驟的實際 SQL 查詢陳述式表示。
 
-    ![查詢編輯器的套用步驟會顯示五個步驟。 在最後一個名為「重新命名後資料行」的步驟上按一下滑鼠右鍵即會開啟操作功能表。 其中 [檢視原生查詢] 選項已啟用並已醒目提示。](media/directquery-model-guidance/directquery-model-guidance-query-editor-view-native-query.png)
+    ![Power BI Desktop 的螢幕擷取畫面，其中顯示 [套用的步驟] 底下的 [檢視原生查詢] 選項。](media/directquery-model-guidance/directquery-model-guidance-query-editor-view-native-query.png)
     
-    ![原生查詢視窗會顯示 T-SQL 查詢，該查詢會一起聯結到來源資料表。](media/directquery-model-guidance/directquery-model-guidance-native-query-window.png)
+    ![Power BI Desktop 的螢幕擷取畫面，其中顯示 [原生查詢] 視窗。 查詢陳述式會聯結兩個來源資料表。](media/directquery-model-guidance/directquery-model-guidance-native-query-window.png)
 
 - **檢查計算結果欄的使用和資料類型變更：** DirectQuery 模型支援新增計算和 Power Query 步驟來轉換資料類型。 但是，更佳的效能通常都是透過在可能情況下，於關聯式資料庫來源中具體化轉換結果來達成。
 - **不要使用 Power Query 相對日期篩選：** 您可以在 Power Query 查詢中定義相對日期篩選。 例如，擷取去年建立的銷售訂單 (相對於今天的日期)。 這種篩選類型會轉譯成效率極低的原生查詢，如下所示：
@@ -76,16 +76,16 @@ DirectQuery 模型可以透過許多方式進行最佳化，如下列項目符�
     
     本指導有一項例外，與使用 [COMBINEVALUES](/dax/combinevalues-function-dax) DAX 函式有關。 此函式的目的是支援多資料行模型關聯性。 這個函式會產生多資料行 SQL 聯結述詞，而非產生關聯性使用的運算式。
 - **避免在「唯一識別碼」資料行上包含關聯性：** Power BI 並不原生支援唯一識別碼 (GUID) 資料類型。 在此類型的資料行間定義關聯性時，Power BI 將會使用涉及轉換的聯結來產生來源查詢。 此查詢時間資料轉換經常導致效能不佳。 在此案例經過最佳化之前，唯一因應措施是將資料行具體化為基礎資料庫中的替代資料類型。
-- **隱藏關聯性的單側資料行：** 關聯性的單側資料行應進行隱藏。 (這通常是維度類型資料表的主索引鍵資料行。)隱藏時，即無法在 [欄位]  窗格中使用，因此無法用來設定視覺效果。 若可以使用多側資料行來根據資料行的值分組或篩選報表，即可以將多側資料行維持在可見狀態。 例如，考慮在 **Sales** 和 **Product** 資料表間存在關聯性的模型。 關聯性資料行包含產品的 SKU (庫存單位) 值。 若必須將產品的 SKU 新增至視覺效果，該 SKU 便應只在 **Sales** 資料表中可見。 當使用此資料行來篩選或在視覺效果中進行分組時，Power BI 將會產生不需要將 **Sales** 和 **Product** 資料表進行聯結的查詢。
+- **隱藏關聯性的單側資料行：** 關聯性的單側資料行應進行隱藏。 (這通常是維度類型資料表的主索引鍵資料行。)隱藏時，即無法在 [欄位] 窗格中使用，因此無法用來設定視覺效果。 若可以使用多側資料行來根據資料行的值分組或篩選報表，即可以將多側資料行維持在可見狀態。 例如，考慮在 **Sales** 和 **Product** 資料表間存在關聯性的模型。 關聯性資料行包含產品的 SKU (庫存單位) 值。 若必須將產品的 SKU 新增至視覺效果，該 SKU 便應只在 **Sales** 資料表中可見。 當使用此資料行來篩選或在視覺效果中進行分組時，Power BI 將會產生不需要將 **Sales** 和 **Product** 資料表進行聯結的查詢。
 - **設定關聯性來強制實行完整性：** DirectQuery 關聯性的**假設參考完整性**屬性會決定 Power BI 是否將會使用內部聯結，而非外部聯結來產生來源查詢。 這通常可以改善查詢效能，不過其確實取決於關聯式資料庫來源的詳細規格。 如需詳細資訊，請參閱 [Power BI Desktop 中的採用參考完整性設定](../connect-data/desktop-assume-referential-integrity.md)。
 - **避免使用雙向關聯性篩選：** 使用雙向關聯性篩選可能會導致執行效能不佳的查詢陳述式。 只有在必要時才使用此關聯性功能，這通常是跨橋接資料表實作多對多關聯性的情況。 如需詳細資訊，請參閱 [Power BI Desktop 中的多對多基數關聯性](../transform-model/desktop-many-to-many-relationships.md)。
 - **限制平行查詢：** 您可以設定 DirectQuery 為每個基礎資料來源開啟的連線數量上限。 這會控制同時傳送到資料來源的查詢數。
 
-    ![Power BI Desktop 視窗已開啟，並已選取 [目前檔案 DirectQuery] 頁面。 [每個資料來源的連線數量上限] 屬性已醒目提示。](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
+    ![Power BI Desktop 的螢幕擷取畫面，其中顯示 [DirectQuery 選項] 視窗。](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
     
     設定只會在模型中至少包含一個 DirectQuery 來源時啟用。 該值會套用至所有 DirectQuery 來源，以及任何新增至模型的新 DirectQuery 來源。
 
-    增加 [每個資料來源的連線數量上限]  值可確保有更多查詢 (最多可達指定的最大數目) 可以傳送至基礎資料來源，這在單一頁面上有許多視覺效果時，或是許多使用者同時存取報表時很有用。 一旦達到最大連線數目，進一步的查詢會排入佇列，直到有連線可供使用。 增加此限制會導致基礎資料來源有更多的負載，所以設定不保證能改善整體效能。
+    增加 [每個資料來源的連線數量上限] 值可確保有更多查詢 (最多可達指定的最大數目) 可以傳送至基礎資料來源，這在單一頁面上有許多視覺效果時，或是許多使用者同時存取報表時很有用。 一旦達到最大連線數目，進一步的查詢會排入佇列，直到有連線可供使用。 增加此限制會導致基礎資料來源有更多的負載，所以設定不保證能改善整體效能。
     
     將此模型發佈至 Power BI 時，傳送到基礎資料來源的同時查詢數量上限也會取決於環境。 每個不同環境 (例如 Power BI、Power BI Premium 或 Power BI 報表伺服器) 都可能會施加不同的輸送量條件約束。 如需 Power BI Premium 容量資源限制的詳細資訊，請參閱[部署及管理 Power BI Premium 容量](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment)。
 
@@ -93,19 +93,19 @@ DirectQuery 模型可以透過許多方式進行最佳化，如下列項目符�
 
 以 DirectQuery 資料集為基礎的報表可以透過許多方式進行最佳化，如下列項目符號清單所述。
 
-- **啟用查詢縮小技術：** Power BI Desktop [選項及設定]  包含 [減少查詢] 頁面。 此頁面有三個有用的選項。 您可以預設停用交叉醒目提示和交叉篩選，雖然這可以透過編輯互動來進行覆寫。 您也可以在交叉分析篩選器和篩選上顯示 [套用] 按鈕。 在報表使用者按一下按鈕前，交叉分析篩選器或篩選選項不會進行套用。 若您啟用這些選項，我們建議您在初次建立報表時執行此操作。
+- **啟用查詢縮小技術：** Power BI Desktop [選項及設定] 包含 [減少查詢] 頁面。 此頁面有三個有用的選項。 您可以預設停用交叉醒目提示和交叉篩選，雖然這可以透過編輯互動來進行覆寫。 您也可以在交叉分析篩選器和篩選上顯示 [套用] 按鈕。 在報表使用者按一下按鈕前，交叉分析篩選器或篩選選項不會進行套用。 若您啟用這些選項，我們建議您在初次建立報表時執行此操作。
 
-    ![Power BI Desktop 視窗已開啟，並已選取 [目前檔案查詢縮小] 頁面。 這三個選項都可以用來減少傳送的查詢數，以及為交叉分析篩選器和篩選顯示 [套用] 按鈕。](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-query-reduction.png)
+    ![Power BI Desktop 的螢幕擷取畫面，其中顯示 [選項] 視窗中的 [減少查詢] 篩選。](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-query-reduction.png)
     
 - **先套用篩選：** 初次設計報表時，我們建議您先在報表、頁面或視覺效果層級套用任何適用的篩選，再將欄位對應到視覺效果欄位。 例如，先在 **Year** (年份) 欄位上套用篩選，而非先在 **Country** (國家/地區) 和 **Sales**(銷售) 量值上進行拖曳，再針對特定年份進行篩選。 這是因為建置視覺效果的每個步驟都會傳送查詢，雖然可以在完成第一個查詢之前進行其他變更，但仍會為基礎資料來源帶來不必要的負載。 藉由及早套用篩選，通常可降低這些中繼查詢的成本，並使其更快。 此外，若無法及早套用篩選，便可能會導致超過 1 百萬的資料列限制，如上所述。
-- **限制單頁上的視覺效果數目：** 開啟報表頁面 (以及套用頁面篩選) 時，會重新整理頁面上的所有視覺效果。 但是，Power BI 環境以及 [每個資料來源的連線數量上限]  模型設定會施加可以平行傳送的查詢數限制，如上所述。 因此，隨著頁面視覺效果的數量增加，其以循序方式重新整理的機率也會提高。 這會增加重新整理整個頁面所需的時間，也會增加視覺效果顯示不一致結果 (針對揮發性資料來源) 的機會。 因此，建議您限制任何頁面上的視覺效果數量，並改為擁有較為簡單的頁面。 以單一多資料列卡片視覺效果取代多個卡片視覺效果，可能會導致相似的頁面配置。
+- **限制單頁上的視覺效果數目：** 開啟報表頁面 (以及套用頁面篩選) 時，會重新整理頁面上的所有視覺效果。 但是，Power BI 環境以及 [每個資料來源的連線數量上限] 模型設定會施加可以平行傳送的查詢數限制，如上所述。 因此，隨著頁面視覺效果的數量增加，其以循序方式重新整理的機率也會提高。 這會增加重新整理整個頁面所需的時間，也會增加視覺效果顯示不一致結果 (針對揮發性資料來源) 的機會。 因此，建議您限制任何頁面上的視覺效果數量，並改為擁有較為簡單的頁面。 以單一多資料列卡片視覺效果取代多個卡片視覺效果，可能會導致相似的頁面配置。
 - **關閉視覺效果之間的互動：** 交叉醒目提示和交叉篩選互動，需要將查詢提交至基礎來源。 除非這些互動都是必要的，否則若回應使用者選取的時間長度可能變得相當不合理，便建議您關閉這些功能。 您可以針對整份報告 (如上述的「減少查詢」選項) 或根據案例來關閉這些互動。 如需詳細資訊，請參閱[如何在 Power BI 報表中相互進行視覺效果交叉篩選](../consumer/end-user-interactions.md)。
 
 除了上述最佳化技術清單外，每個下列報告功能都可能導致效能問題：
 
 - **量值篩選：** 包含量值的視覺效果 (或資料行彙總) 可以將篩選套用至這些量值。 例如，以下的視覺效果會根據 **Category** 顯示 **Sales**，但只適用於銷售額超過美金 $1,500 萬元的類別。
 
-    ![資料表視覺效果包含兩個資料行：Category 和 Sales。 [篩選] 窗格會顯示在 Sales 量值上針對值超過美金 $1,500 萬元所進行的篩選。 資料表包含三個資料列，每個資料列都包含超過美金 $1,500 萬元的 Sales 值。](media/directquery-model-guidance/directquery-model-guidance-example-measure-filter.png)
+    ![Power BI Desktop 的螢幕擷取畫面，其中顯示已套用篩選的表格式資料。](media/directquery-model-guidance/directquery-model-guidance-example-measure-filter.png)
     
     
     這可能會導致將兩個查詢傳送到基礎來源：

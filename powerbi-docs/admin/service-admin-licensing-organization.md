@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 276770b677d85e0e125e7dd87bb0a800248d71c2
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85484924"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161465"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>將 Power BI 服務授權提供給組織中的使用者
 
@@ -57,7 +57,7 @@ ms.locfileid: "85484924"
 1. 輸入涵蓋您所有使用者所需的授權數目。
 1. 選取 [自動將所有使用者指派為沒有授權的使用者]，然後簽出。
 
-  ![Power BI 免費自動指派的訂用帳戶](media/service-admin-licensing-organization/m365-auto-assign.png) 
+  ![Power BI 免費自動指派訂閱的螢幕擷取畫面，其中顯示自助式註冊。](media/service-admin-licensing-organization/m365-auto-assign.png)
 
 如果您想要查看組織中哪些使用者可能已經具備授權，請參閱[檢視和管理使用者授權](service-admin-manage-licenses.md)以了解做法。
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3c76fed8f5533ad339904c4f8251a7404270a0ae
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279012"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216588"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>在 Power BI 中監視報表效能
 
@@ -30,12 +30,12 @@ ms.locfileid: "83279012"
 
 ## <a name="use-query-diagnostics"></a>使用查詢診斷
 
-在 Power BI Desktop 中使用[查詢診斷](/power-query/QueryDiagnostics)，以判斷在預覽或套用查詢時 Power Query 所執行的作業。 此外，請使用「診斷步驟」  功能，記錄每個查詢步驟的詳細評估資訊。 結果會在 Power Query 中提供，您可以套用轉換以進一步了解查詢執行。
+在 Power BI Desktop 中使用[查詢診斷](/power-query/QueryDiagnostics)，以判斷在預覽或套用查詢時 Power Query 所執行的作業。 此外，請使用「診斷步驟」功能，記錄每個查詢步驟的詳細評估資訊。 結果會在 Power Query 中提供，您可以套用轉換以進一步了解查詢執行。
 
 > [!NOTE]
-> 查詢診斷目前是預覽功能，因此您必須在 [選項及設定]  中加以啟用。 啟用之後，您可以在 [Power Query 編輯器] 視窗的 [工具]  功能區索引標籤上找到其命令。
+> 查詢診斷目前是預覽功能，因此您必須在 [選項及設定] 中加以啟用。 啟用之後，您可以在 [Power Query 編輯器] 視窗的 [工具] 功能區索引標籤上找到其命令。
 
-![顯示 Power Query 編輯器 [工具] 功能區索引標籤的影像。功能區會顯示 [診斷步驟] 命令、[開始診斷] 命令和 [停止診斷] 命令。](media/monitor-report-performance/power-query-diagnotics.png)
+![Power Query 編輯器 [工具] 功能區索引標籤的螢幕擷取畫面，其中顯示 [診斷步驟] 命令、[開始診斷] 命令和 [停止診斷] 命令。](media/monitor-report-performance/power-query-diagnotics.png)
 
 ## <a name="use-performance-analyzer"></a>使用效能分析器
 
@@ -67,10 +67,10 @@ ms.locfileid: "83279012"
     輸出應該是應用程式和其已開啟連接埠的清單。 尋找 **msmdsrv.exe** 所使用的連接埠，並加以記錄以供稍後使用。 這是您 Power BI Desktop 的執行個體。
 1. 將 SQL Server Profiler 連線至您的 Power BI Desktop 報表：
     1. 開啟 SQL Server Profiler。
-    1. 在 SQL Server Profiler 的 [檔案]  功能表上，選取 [新追蹤]  。
-    1. 針對 [伺服器類型]  ，選取 [Analysis Services]  。
-    1. 針對 [伺服器名稱]  ，輸入 _localhost:[先前記錄的連接埠]_ 。
-    1. 按一下 [執行]  - 現在，SQL Server Profiler 的追蹤已上線，而且正在主動分析 Power BI Desktop 查詢。
+    1. 在 SQL Server Profiler 的 [檔案] 功能表上，選取 [新追蹤]。
+    1. 針對 [伺服器類型]，選取 [Analysis Services]。
+    1. 針對 [伺服器名稱]，輸入 _localhost:[先前記錄的連接埠]_ 。
+    1. 按一下 [執行] - 現在，SQL Server Profiler 的追蹤已上線，而且正在主動分析 Power BI Desktop 查詢。
 1. 當 Power BI Desktop 查詢執行時，您會看到其各自的持續期間和 CPU 時間。 視資料來源類型而定，您可能會看到指出查詢執行方式的其他事件。 您可以使用此資訊來判斷哪些查詢是瓶頸。
 
 使用 SQL Server Profiler 的優點是可以儲存 SQL Server (關聯式) 資料庫追蹤。 追蹤可以變成 [Database Engine Tuning Advisor](/sql/relational-databases/performance/start-and-use-the-database-engine-tuning-advisor) 的輸入。 如此一來，您就可以收到如何微調資料來源的建議。

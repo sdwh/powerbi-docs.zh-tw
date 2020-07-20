@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/02/2020
+ms.date: 07/08/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ee3919be08cfb2af2ad0e82e9f0f35b5d13147c6
-ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
+ms.openlocfilehash: 7b9f69607d2fef823ba67d5af035e1e2064a9a72
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85943323"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162382"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>教學課程：開始在 Power BI 服務中建立
 本教學課程是 *Power BI 服務*的部分功能簡介。 您會在本課程中連接資料、建立報表和儀表板，並詢問資料的相關問題。 您可以在 Power BI 服務中執行更多動作；本教學課程僅為了提高您的興趣。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，建議您參閱[什麼是 Power BI](power-bi-overview.md)。
@@ -224,4 +224,7 @@ ms.locfileid: "85943323"
 
 ## <a name="next-steps"></a>後續步驟
 
-新增更多視覺效果磚，並[重新命名、調整大小、連結和重新置放磚](../create-reports/service-dashboard-edit-tile.md)，讓您的儀表板更美觀。
+探索 Power BI 的 Microsoft Learn 內容系列：
+
+- [學習 Power BI](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/r52to235xrjxk) (英文)
+- [成為 Power BI 資料分析師](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm) (英文)

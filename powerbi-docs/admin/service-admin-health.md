@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 610fe7ea2188d40d42ab91a355df68bc07bb0d84
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3b3faab2a01a00e09560d39e850f40d0672a5863
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228511"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161161"
 ---
 # <a name="track-power-bi-service-health-in-microsoft-365"></a>在 Microsoft 365 中追蹤 Power BI 服務健全狀況
 
@@ -38,7 +38,7 @@ Microsoft 365 系統管理中心提供適用於 Power BI 系統管理員的重�
 
 1. 若要查看詳細資訊，請選取項目的 [顯示詳細資料]。 在下方的螢幕擷取畫面中，您可以看到其他詳細資料，包括最近的狀態更新。
 
-    ![[建議] 詳細資料的螢幕擷取畫面。](media/service-admin-health/advisory-details.png)
+    ![通報詳細資料的螢幕擷取畫面，其中顯示其他資訊。](media/service-admin-health/advisory-details.png)
 
     向下捲動以查看更多資訊，然後當您完成時即可關閉窗格。
 

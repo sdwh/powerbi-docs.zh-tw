@@ -5,14 +5,14 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 04/05/2020
+ms.date: 07/14/2020
 ms.author: painbar
-ms.openlocfilehash: 62d95c09761a22f514bb55b5eadd82a6214fdbeb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9b6efd07aad3d2058e49f81ae21095b618123ee
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235117"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385921"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>使用行動裝置管理 (MDM) 工具從遠端設定 Power BI 應用程式
 
@@ -22,6 +22,7 @@ Power BI 行動裝置應用程式支援下列設定情節：
 
 * 報表伺服器設定 (iOS 和 Android)
 * 資料保護設定 (iOS 和 Android)
+* 停用單一登入 (iOS 與 Android)
 * 互動設定 (iOS 與 Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>報表伺服器設定 (iOS 和 Android)
@@ -45,6 +46,19 @@ Power BI 行動裝置應用程式支援下列設定情節：
 
 >[!NOTE]
 >資料保護設定只會套用在支援生物特徵辨識驗證的 Android 裝置上。
+
+## <a name="disable-single-sign-on-ios-and-android"></a>停用單一登入 (iOS 與 Android)
+
+根據預設，Power BI 行動應用程式可將使用者必須提供使用者名稱和密碼的次數減到最少，為單一使用者提供便利的單一登入體驗。 此單一登入行為是以下列假設為基礎：裝置為使用者的個人裝置，且只有一個使用者使用該裝置和其上的應用程式。
+
+系統管理員可開啟應用程式設定檔中的 **DisableSingleSignOn** 設定，從遠端設定應用程式來停用單一登入，並在使用者登入時明確要求使用者的密碼。
+
+這是透過遠端設定所進行的僅限系統管理員設定。 終端使用者無法變更此設定。
+
+| 索引鍵 | 類型 | 描述 |
+|---|---|---|
+| com.microsoft.powerbi.mobile.DisableSingleSignOn | 布林值 | 預設值為 False。<br><br>使用者登出之後，應用程式不會重複使用現有的認證，但會要求下一個使用者提供密碼，以驗證並連線到 Power BI 服務。
+ |
 
 ## <a name="interaction-settings-ios-and-android"></a>互動設定 (iOS 與 Android)
 

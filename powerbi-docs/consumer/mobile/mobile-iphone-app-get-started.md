@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: 1f71c2c835c729f3a0afe824835deaee719568c2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 989e77eeaa559ac74579c1d981f77f2bca374f01
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219980"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264780"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>開始在 iOS 裝置上使用 Power BI 行動裝置應用程式
 iPhone 和 iPad 的 iOS 版 Microsoft Power BI 應用程式會傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 透過 [Apple Watch](mobile-apple-watch.md)，隨時掌握最即時的資料。  
@@ -66,7 +66,7 @@ iPhone 和 iPad 的 iOS 版 Microsoft Power BI 應用程式會傳遞 Power BI、
 請點選標頭中的放大鏡，開始搜尋您的 Power BI 內容。
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>檢視您最愛的儀表板和報表
-點選導覽列上的 [我的最愛] (![](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png))，檢視 [我的最愛] 頁面。 
+點選導覽列上的 [我的最愛] (![我的最愛圖示](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png))，以檢視 [我的最愛] 頁面。 
 
 閱讀更多以了解 [Power BI 行動裝置應用程式中的我的最愛](mobile-apps-favorites.md)。
 

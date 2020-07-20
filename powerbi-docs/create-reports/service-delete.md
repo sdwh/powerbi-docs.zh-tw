@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f74b90b944f40b5d5ff046f60bd67ca4c3c7eb83
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ff31548801f372fa1e20949e5c109cc9214f55e1
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238414"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264490"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>刪除 Power BI 服務中的絶大部分所有項目
 本文會教導您如何刪除 Power BI 服務中的儀表板、報告、活頁簿、資料集、應用程式、視覺效果和工作區。
@@ -125,7 +125,7 @@ ms.locfileid: "85238414"
 從應用程式清單頁面中刪除應用程式，並不會刪除其他成員的應用程式。
 
 1. 在導覽窗格中，選取 [應用程式] 以開啟應用程式清單頁面。
-2. 將滑鼠游標移至要刪除的應用程式上方，然後選取刪除 ![](media/service-delete/power-bi-delete-report2.png) 圖示。
+2. 將滑鼠游標暫留在要刪除的應用程式上方，然後選取刪除 ![垃圾筒圖示](media/service-delete/power-bi-delete-report2.png)  圖示。
 
    ![選取 [應用程式]](media/service-delete/power-bi-delete-app.png)
 

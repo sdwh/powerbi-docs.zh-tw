@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 178a2f2037a52b1b08e1006123c30eff1af18af6
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: cdb992ba337118c9f7fcfef8335dbc31e6e48032
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393741"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215319"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>在 Power BI Desktop 中設定和使用日期資料表
 
@@ -22,19 +22,19 @@ ms.locfileid: "85393741"
 
 如需此自動行為的詳細資訊，請閱讀 [Power BI Desktop 中的自動日期/時間](desktop-auto-date-time.md)一文。
 
-許多資料分析師都偏好建立自己的日期資料表，這並沒有問題。 在 **Power BI Desktop** 中，您可以指定您的模型要用來作為其**日期資料表**的資料表，並接著使用該資料表的日期資料來建立與日期相關的視覺效果、資料表、快速量值等等。 當您指定自己的日期資料表後，您可以控制模型中建立的日期階層，並將它們用於使用您模型之日期資料表的**快速量值**和其他作業中。 
+許多資料分析師都偏好建立自己的日期資料表，這並沒有問題。 在 **Power BI Desktop** 中，您可以指定您的模型要用來作為其**日期資料表**的資料表，並接著使用該資料表的日期資料來建立與日期相關的視覺效果、資料表、快速量值等等。 當您指定自己的日期資料表後，您可以控制模型中建立的日期階層，並將它們用於使用您模型之日期資料表的**快速量值**和其他作業中。
 
-![](media/desktop-date-tables/date-tables_01.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示 [標記為日期資料表] 對話方塊。](media/desktop-date-tables/date-tables_01.png)
 
 ## <a name="setting-your-own-date-table"></a>設定您自己的日期資料表
 
 若要設定**日期資料表**，請在 [欄位] 窗格中選取您要用來作為日期資料表的資料表，接著以滑鼠右鍵按一下該資料表，並在顯示的功能表中選取 [標記為日期資料表] > [標記為日期資料表]，如下面的影像所示。
 
-![](media/desktop-date-tables/date-tables_02.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示 [欄位] 窗格中的 [標記為日期資料表] 篩選選項。](media/desktop-date-tables/date-tables_02.png)
 
 您也可以選取資料表，然後從 [模型] 功能區選取 [標記為日期資料表]，如下所示。
 
-![](media/desktop-date-tables/date-tables_02b.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示 [標記為日期資料表] 按鈕和選項篩選。](media/desktop-date-tables/date-tables_02b.png)
 
 當您指定您自己的**日期資料表**後，Power BI Desktop 會針對該資料行和其資料執行下列驗證，以確保其中的資料：
 
@@ -51,7 +51,7 @@ ms.locfileid: "85393741"
 
 一旦您指定日期資料表後，您就可以選取該資料表中哪個資料行是日期資料行。 您可以透過在 [欄位] 窗格中選取資料表，然後以滑鼠右鍵按一下該資料表並選取 [標記為日期資料表] > [日期資料表設定]，以指定要使用的資料行。 下列視窗隨即出現，您可以在其中的下拉式方塊中選取要用來作為日期資料表的資料行。
 
-![](media/desktop-date-tables/date-tables_03.png)
+![Power B I Desktop 的螢幕擷取畫面，其中顯示包含重要注意事項的 [標記為日期資料表] 對話方塊。](media/desktop-date-tables/date-tables_03.png)
 
 請務必注意，當您指定自己的日期資料表時，**Power BI Desktop** 不會自動建立階層 (原本將代表您建立到模型中)。 如果您稍後取消選取自己的日期資料表 (而且不再有任何手動設定的日期資料表)，Power BI Desktop 會為您針對資料表中的日期資料行，重新建立自動建立的內建日期資料表。
 
@@ -63,11 +63,11 @@ ms.locfileid: "85393741"
 
 1. 從 [欄位] 窗格選取您的**日期資料表** (如有需要請將它展開)，然後選取要用來作為日期的資料行。
    
-    ![](media/desktop-date-tables/date-tables_04.png) 
+    ![Power B I Desktop 的螢幕擷取畫面，其中顯示 [欄位] 窗格中的 [日期] 篩選。](media/desktop-date-tables/date-tables_04.png) 
 
 2. 在 [模型] 索引標籤上，選取 [資料類型:]，然後按一下下拉式箭號以顯示可用的資料類型。
 
-    ![](media/desktop-date-tables/date-tables_05.png)
+    ![Power B I Desktop 的螢幕擷取畫面，其中顯示已選取 [資料類型] 篩選的 [模型] 索引標籤。](media/desktop-date-tables/date-tables_05.png)
 
 3. 為您的資料行指定資料類型。 
 

@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 6a21288a8f2946bd1e1a874d0810dd9241b1ffe2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83564441"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216764"
 ---
 # <a name="what-is-power-bi"></a>Power BI 是什麼？
 **Power BI** 是軟體服務、應用程式和連接器的集合，它們搭配使用來將不相關的資料來源轉換成相關、視覺上融入的互動式深入剖析。 不論您的資料是簡單的 Excel 試算表，或是一組雲端和內部部署混合式資料倉儲， Power BI 可讓您輕鬆地連線到資料來源、以視覺化方式檢視及探索重要資料，以及與任何人或您想要的任何人共用該資料。
@@ -21,10 +21,10 @@ ms.locfileid: "83564441"
 ## <a name="the-parts-of-power-bi"></a>Power BI 的各部分
 Power BI 包含： 
 - 稱為 **Power BI Desktop** 的 Windows 傳統型應用程式。
-- 稱為 **Power BI 服務**的線上 SaaS (「軟體即服務」  ) 服務。 
+- 稱為 **Power BI 服務**的線上 SaaS (「軟體即服務」) 服務。 
 - 適用於 Windows、iOS 和 Android 裝置的 Power BI **行動裝置應用程式**。
 
-![Power BI Desktop、服務、行動裝置](media/power-bi-overview/power-bi-overview-blocks.png)
+![顯示整合 Power B I Desktop、服務和行動版的圖表。](media/power-bi-overview/power-bi-overview-blocks.png)
 
 這三個元素&mdash;Power BI Desktop、服務以及行動裝置應用程式&mdash;旨在讓您透過最符合您和角色需求的方式來建立、共用和取用商業見解。
 
@@ -45,7 +45,7 @@ Power BI 的使用方式取決於 Power BI 的哪些功能或服務是最適合�
 - 適用於[*設計師*](desktop-what-is-desktop.md)的 Power BI Desktop
 - 適用於[*取用者*](../consumer/end-user-consumer.md)的 Power BI
 - 適用於[*系統管理員*](../admin/service-admin-administering-power-bi-in-your-organization.md)的 Power BI
-- 適用於「開發人員」  的 Power BI
+- 適用於「開發人員」的 Power BI
     * [搭配 Power BI 使用內嵌式分析](../developer/embedded/embedding.md)
     * [什麼是 Azure Power BI Embedded？](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
     * [Power BI 中的視覺效果](../developer/visuals/power-bi-custom-visuals.md)
@@ -63,7 +63,7 @@ Power BI 中的一般工作流程是從在 Power BI Desktop 中連線至資料�
 
 您可以使用 Power BI 報表伺服器提供的多種現成可用工具與服務，來建立、部署及管理內部部署的 Power BI 行動及編頁報表。
 
-![內部部署的圖表](media/power-bi-overview/power-bi-report-server2.png)
+![顯示整合 Power B I Desktop、服務和行動版的圖表。](media/power-bi-overview/power-bi-report-server2.png)
 
 「Power BI 報表伺服器」是一個解決方案，您會將其部署在防火牆後方，然後以各種不同方式 (不論是在網頁瀏覽器中、行動裝置上還是以電子郵件形式檢視) 將報表傳遞給正確的使用者。 而由於「Power BI 報表伺服器」與雲端 Power BI 相容，因此您可以在準備就緒後就移至雲端。 
 

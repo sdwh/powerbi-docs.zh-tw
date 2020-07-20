@@ -10,37 +10,37 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: edbea68fac44811469e0f6f90d68028eeb35be71
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9e10d694940bda465e68f54370d87aab15b628ee
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224371"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216473"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>在 Power BI Desktop 中連接至 OData 摘要
 在 Power BI Desktop 中，您可以連接至 **OData 摘要**並使用基礎資料，就像 Power BI Desktop 中的任何其他資料來源。
 
-若要連接至 OData 摘要，請在 Power BI Desktop 內選取 [主資料夾]  功能區的 [取得資料] > [OData 摘要]  。
+若要連接至 OData 摘要，請在 Power BI Desktop 內選取 [主資料夾] 功能區的 [取得資料] > [OData 摘要]。
 
-![](media/desktop-connect-odata/connect-to-odata_1.png)
+![Power BI Desktop 中 [取得資料] 功能區的螢幕擷取畫面，其中顯示 [OData 摘要] 選取項目。](media/desktop-connect-odata/connect-to-odata_1.png)
 
-在出現的 [OData 摘要]  視窗中，將您的 OData 摘要 URL 輸入或貼到方塊內，然後選取 [確定]  。
+在出現的 [OData 摘要] 視窗中，將您的 OData 摘要 URL 輸入或貼到方塊內，然後選取 [確定]。
 
-![](media/desktop-connect-odata/connect-to-odata_2.png)
+![[OData 摘要] 對話方塊的螢幕擷取畫面，其中顯示 [URL] 欄位。](media/desktop-connect-odata/connect-to-odata_2.png)
 
-Power BI Desktop 連接至 OData 摘要，並在 [導覽]  視窗中顯示可用的資料表和其他資料元素。 當您選取一項元素時，[導覽]  視窗右方窗格會顯示資料的預覽。 您可以選取任何數量的資料表進行匯入。 [導覽]  視窗會顯示目前所選取資料表的預覽。
+Power BI Desktop 連接至 OData 摘要，並在 [導覽] 視窗中顯示可用的資料表和其他資料元素。 當您選取一項元素時，[導覽] 視窗右方窗格會顯示資料的預覽。 您可以選取任何數量的資料表進行匯入。 [導覽] 視窗會顯示目前所選取資料表的預覽。
 
-![](media/desktop-connect-odata/connect-to-odata_3.png)
+![[導覽] 對話方塊的螢幕擷取畫面，其中顯示所選資料表資料的預覽。](media/desktop-connect-odata/connect-to-odata_3.png)
 
-您可以選擇 [編輯]  按鈕，其會啟動 [查詢編輯器]  ，供您在匯入 Power BI Desktop 之前從 OData 摘要修改或轉換資料。 或著您可以選取 [載入]  按鈕，然後匯入您在左窗格中選取的所有資料元素。
+您可以選擇 [編輯] 按鈕，其會啟動 [查詢編輯器]，供您在匯入 Power BI Desktop 之前從 OData 摘要修改或轉換資料。 或著您可以選取 [載入] 按鈕，然後匯入您在左窗格中選取的所有資料元素。
 
-當我們選取 [載入]  時，Power BI Desktop 會匯入選取的元素，並顯示匯入進度的 [載入]  視窗。
+當我們選取 [載入] 時，Power BI Desktop 會匯入選取的元素，並顯示匯入進度的 [載入] 視窗。
 
-![](media/desktop-connect-odata/connect-to-odata_4.png)
+![[載入] 對話方塊的螢幕擷取畫面，其中顯示匯入進度。](media/desktop-connect-odata/connect-to-odata_4.png)
 
-完成後，Power BI Desktop 會讓選取的資料表和其他資料元素可以在 [欄位]  窗格中使用，其會出現在 Power BI Desktop 中 [報表]  檢視的右側。
+完成後，Power BI Desktop 會讓選取的資料表和其他資料元素可以在 [欄位] 窗格中使用，其會出現在 Power BI Desktop 中 [報表] 檢視的右側。
 
-![](media/desktop-connect-odata/connect-to-odata_5.png)
+![[欄位] 窗格的螢幕擷取畫面，其中顯示已選取資料表的清單。](media/desktop-connect-odata/connect-to-odata_5.png)
 
 這樣就大功告成了！
 

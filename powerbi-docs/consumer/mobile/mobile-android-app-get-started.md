@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/06/2020
 ms.author: painbar
-ms.openlocfilehash: a12f4d81e2cae913ddddd26ca3bd9c820ad716ca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 725890e3650ff05e0b90e7678bb83e0bc5d01050
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233029"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263018"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>開始在 Android 裝置上使用 Power BI 行動裝置應用程式
 Microsoft Power BI for Android 應用程式傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 
@@ -80,7 +80,7 @@ Power BI 可以在多種不同的 Android 裝置 (執行 Android 5.0 作業系�
 請點選標頭中的放大鏡，開始搜尋您的 Power BI 內容。
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>檢視您最愛的儀表板和報表
-點選導覽列上的 [我的最愛] (![](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png))，檢視 [我的最愛] 頁面。 
+點選導覽列上的 [我的最愛] (![我的最愛圖示](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png))，以檢視 [我的最愛] 頁面。 
 
 閱讀更多以了解 [Power BI 行動裝置應用程式中的我的最愛](mobile-apps-favorites.md)。
 

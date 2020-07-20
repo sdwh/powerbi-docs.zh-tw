@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 17c19fbdf1c5057d287f50531f2b679a19e3a30e
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: ca0a33f42c1b2fd466df9af59bb649ae73d7d594
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939444"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161368"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者
 
@@ -62,7 +62,7 @@ Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與�
 
 1. 輸入 [電子郵件地址] 和 [個人訊息]。
 
-    ![Azure AD 入口網站 [新增來賓使用者] 對話方塊的螢幕擷取畫面。](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
+    ![[新增來賓使用者] 對話方塊的螢幕擷取畫面，包含醒目提示的 [電子郵件] 和 [訊息] 欄位。](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
 
 1. 選取 [邀請]。
 
@@ -70,17 +70,17 @@ Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與�
 
 來賓使用者必須在收到的電子郵件邀請中選取 [開始使用]。 系統即會將該來賓使用者新增至組織。
 
-![來賓使用者電子郵件邀請的螢幕擷取畫面。](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
+![來賓使用者電子郵件邀請的螢幕擷取畫面，包含醒目提示的 [開始使用]。](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
 
 ### <a name="ad-hoc-invites"></a>臨時邀請
 
 若要隨時邀請外部使用者，請透過共用功能將其新增至您的儀表板或報表，或透過存取頁面新增至您的應用程式。 以下範例是邀請外部使用者使用應用程式時該執行的作業。
 
-![將外部使用者新增至 Power BI 中應用程式存取清單的螢幕擷取畫面。](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
+![將外部使用者新增至 Power B I 中應用程式存取清單的螢幕擷取畫面。](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
 來賓使用者會收到電子郵件，指出您已與其共用應用程式。
 
-![已與來賓使用者共用應用程式的電子郵件螢幕擷取畫面](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
+![共用應用程式時，來賓使用者所收到電子郵件的螢幕擷取畫面。](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
 來賓使用者必須使用其組織電子郵件地址來登入。 系統會在他們登入之後提示他們接受邀請。 登入之後，系統會為來賓使用者開啟應用程式。 若要返回應用程式，則來賓使用者需將連結加入書籤，或儲存電子郵件。
 
@@ -94,19 +94,19 @@ Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與�
 
 將工作區指派給 [Power BI Premium 容量](service-premium-what-is.md)能讓來賓使用者使用應用程式，而不需要 Power BI Pro 授權。 Power BI Premium 還可讓應用程式充分利用其他功能，像是增加重新整理頻率、專用容量和大型模型等。
 
-![搭配 Power BI Premium 之來賓使用者體驗的圖表。](media/service-admin-azure-ad-b2b/license-approach-1.png)
+![此圖顯示使用 Power B I Premium 的來賓使用者體驗。](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>將 Power BI Pro 授權指派給來賓使用者
 
 將組織的 Power BI Pro 授權指派給來賓使用者，讓該來賓使用者能夠檢視與其共用的內容。 如需指派授權的詳細資訊，請參閱[在 [授權] 頁面上將授權指派給使用者](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)。 將 Pro 授權指派給來賓使用者之前，請參閱[授權條款網站](https://www.microsoft.com/licensing/terms)，以確保符合 Microsoft 授權合約的規範。
 
-![從您的租用戶指派 Pro 授權之來賓使用者體驗的圖表。](media/service-admin-azure-ad-b2b/license-approach-2.png)
+![此圖顯示從租用戶獲得指派 Pro 授權的來賓使用者體驗。](media/service-admin-azure-ad-b2b/license-approach-2.png)
 
 ### <a name="guest-user-brings-their-own-power-bi-pro-license"></a>來賓使用者帶來自己的 Power BI Pro 授權
 
 來賓使用者可能已經擁有透過其自己組織獲得指派的 Power BI Pro 授權。
 
-![來賓使用者攜帶自己的授權時之體驗的圖表。](media/service-admin-azure-ad-b2b/license-approach-3.png)
+![此圖顯示來賓使用者攜帶自身授權的體驗。](media/service-admin-azure-ad-b2b/license-approach-3.png)
 
 ## <a name="guest-users-who-can-edit-and-manage-content"></a>可以編輯和管理內容的來賓使用者
 
@@ -118,7 +118,7 @@ Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與�
 
 2. 尋找 [租用戶 URL] 旁邊的值。 與您所授權的來賓使用者共用租用戶 URL。
 
-    ![顯示來賓使用者租用戶 URL 的 [關於 Power BI] 對話方塊螢幕擷取畫面。](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
+    ![[關於 Power B I] 對話方塊的螢幕擷取畫面，包含醒目提示的來賓使用者租用戶 U R L 。](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 

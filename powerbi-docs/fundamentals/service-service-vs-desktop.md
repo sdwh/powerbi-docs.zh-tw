@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0be1f3aeb48e4596566c36c1ee8cfadeb3c33d10
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349210"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214012"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop 與 Power BI 服務的比較
 
 在比較 Power BI Desktop 與 Power BI 服務的文氏圖表中，中間區域顯示兩者重疊的情形。 您可以在 Power BI Desktop 或服務中執行某些工作。 文氏圖表兩側顯示應用程式和服務的唯一功能。  
 
-![Power BI Desktop 和服務的文氏圖](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
+![顯示 Power BI Desktop 與 Power BI 服務之間關聯性的卞氏圖表。](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
 **Power BI Desktop** 是您在本機電腦上為免費應用程式安裝的完整資料分析和報表建立工具。 其中包含查詢編輯器，您可以在其中連接到許多不同的資料來源，並將它們合併 (通常稱為「模型化」) 成為一個資料模型。 然後，您可以根據該資料模型來設計報表。 [Power BI Desktop 使用者入門指南](desktop-getting-started.md)會逐步介紹此程序。
 
@@ -33,7 +33,7 @@ ms.locfileid: "83349210"
 
 在應用程式和服務中，您可以建置和編輯「報表」。 報表可以有一或多個頁面，以及視覺效果與視覺效果的集合。 您可以新增書籤、按鈕、篩選和鑽研，以增強您報表中的導覽。
 
-![在 Power BI Desktop 或服務中編輯報表](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
+![Power BI Desktop 與 Power BI 服務的螢幕擷取畫面，包含編號的區段。](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
 Power BI Desktop 和服務中的報表編輯器很類似。 它們由三個區段組成：  
 
