@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: 概觀
+    - name: 總覽
       expanded: true
       items:
         - name: Power BI 中的資料來源
@@ -156,8 +156,6 @@
           items:
             - name: 從檔案取得資料
               href: service-get-data-from-files.md
-            - name: 從 Excel 到精彩的報表
-              href: service-from-excel-to-stunning-report.md
             - name: 從 Excel 活頁簿檔案取得資料
               href: service-excel-workbook-files.md
             - name: 從 Power BI Desktop 檔案取得資料
