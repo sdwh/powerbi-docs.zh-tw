@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/11/2020
+ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b9c4a8f4695f8d701eba535180194d29dd8bdec
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5fbaeaafb14fc935e26b4a2d13acf9dc09ea188f
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238179"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409534"
 ---
 # <a name="add-multiple-fields-to-a-hierarchy-slicer"></a>新增多個欄位到階層交叉分析篩選器
 
@@ -22,22 +22,41 @@ ms.locfileid: "85238179"
 
 若要在單一交叉分析篩選器中篩選多個相關欄位，您可以透過建置所謂的「階層」交叉分析篩選器來完成此動作。 您可以在 Power BI Desktop 或 Power BI 服務中建立這些交叉分析篩選器。
 
-:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy.png" alt-text="Power BI 中的階層交叉分析篩選器":::
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy.png" alt-text="Power BI 中階層交叉分析篩選器的螢幕擷取畫面。":::
 
 當您將多個欄位新增至交叉分析篩選器時，該交叉分析篩選器預設會顯示箭號，或在可展開以顯示下一個層級項目的項目旁邊顯示「＞形箭號」。
 
-:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-arrow.png" alt-text="Power BI 中的階層交叉分析篩選器下拉式清單":::
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-arrow.png" alt-text="Power BI 中階層交叉分析篩選器下拉式清單的螢幕擷取畫面。":::
  
  
 當您為項目選取一個或多個子系時，您會看到最上層項目的半選取圓形。
  
-:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-semi-selected.png" alt-text="Power BI 中的單選階層交叉分析篩選器":::
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-semi-selected.png" alt-text="Power BI 中單選階層交叉分析篩選器的螢幕擷取畫面。":::
 
 ## <a name="format-the-slicer"></a>設定交叉分析篩選器的格式
 
 交叉分析篩選器的行為尚未變更。 您也可以將交叉分析篩選器設定為您所要的風格。 例如，您可以將其設定為單選模式。 或者，您可以在清單與下拉式清單之間切換。 
 
-:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-dropdown.png" alt-text="階層交叉分析篩選器已格式化為下拉式交叉分析篩選器":::
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-dropdown.png" alt-text="階層交叉分析篩選器已格式化為下拉式交叉分析篩選器的螢幕擷取畫面。":::
+
+您也可以進行下列格式變更。
+
+### <a name="change-the-title"></a>變更標題
+
+您可以編輯任何交叉分析篩選器的標題，但是此功能特別適用於階層交叉分析篩選器。 根據預設，階層交叉分析篩選器的名稱是階層中欄位名稱的清單。
+
+在此範例中，交叉分析篩選器的標題會列出階層中的三個欄位：類型、平台與名稱。
+
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-title.png" alt-text="具有 [類型]、[平台] 與 [名稱] 欄位之階層交叉分析篩選器的螢幕擷取畫面。":::
+
+若要變更名稱，請選取交叉分析篩選器，然後選取 [格式] 窗格。 在 [交叉分析篩選器標頭] 下，您會在 [標題文字] 方塊中看見交叉分析篩選器的目前名稱。
+
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-edit-title.png" alt-text="具有目前標題之 [格式] 窗格的螢幕擷取畫面。":::
+
+選取文字並加入新的名稱。
+
+:::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-new-title.png" alt-text="階層交叉分析篩選器之新標題的螢幕擷取畫面。":::
+
 
 ### <a name="change-the-expandcollapse-icon"></a>變更展開/摺疊圖示
 
@@ -47,7 +66,7 @@ ms.locfileid: "85238179"
 1. 展開 [項目]，然後選取 [展開/摺疊圖示]。
 1. 選擇 [＞形箭號]、[加號/減號] 或 [插入號]。
  
-    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-caret.png" alt-text="選取階層交叉分析篩選器的展開/摺疊圖示":::
+    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-caret.png" alt-text="為階層交叉分析篩選器選取展開/摺疊圖示的螢幕擷取畫面。":::
  
 ### <a name="change-the-indentation"></a>變更縮排
 
@@ -56,7 +75,7 @@ ms.locfileid: "85238179"
 1. 選取交叉分析篩選器，然後選取 [格式]。
 1. 展開 [項目]，然後將 [逐步的配置縮排] 往較小或較大的方向拖曳。 您也可以直接在方塊中輸入數字。
 
-    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-indentation.png" alt-text="設定階層交叉分析篩選器縮排":::
+    :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-indentation.png" alt-text="設定階層交叉分析篩選器縮排的螢幕擷取畫面。":::
 
 ## <a name="next-steps"></a>後續步驟
 

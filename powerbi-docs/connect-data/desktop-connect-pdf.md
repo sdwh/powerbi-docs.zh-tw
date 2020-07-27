@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e68d860800f2265923189e470bc633589e612c11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 785ad7b7d10a164f8257f8aacab177116c0b553b
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224155"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459615"
 ---
 # <a name="connect-to-pdf-files-in-power-bi-desktop"></a>連線至 Power BI Desktop 中的 PDF 檔案
 在 Power BI Desktop 中，您可以連線至 **PDF 檔案**並使用此檔案內附的資料，如同使用 Power BI Desktop 中的任何其他資料來源。
@@ -39,6 +39,10 @@ ms.locfileid: "85224155"
 從 2018 年 11 月推出的 **Power BI Desktop** 版本開始，您可以將 [起始頁]  和 [結束頁]  指定為 PDF 連線的選擇性參數。 您也可以使用下列格式，以 M 公式語言指定這些參數：
 
 `Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
+
+## <a name="limitations-and-considerations"></a>限制與考量
+
+在 Premium 容量中的資料集上使用 PDF 連接器時，PDF 連接器不會正確地建立連線。 若要讓 PDF 連接器能夠處理 Premium 容量中的資料集，請將該資料集設定為使用閘道，並確認目標為該資料集的連線會通過閘道。  
 
 
 ## <a name="next-steps"></a>後續步驟

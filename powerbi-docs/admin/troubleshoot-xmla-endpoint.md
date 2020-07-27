@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 06/16/2020
+ms.date: 07/16/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: be55180f57fec683b8da426e6c73bb95d6365d2f
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 5d6e3af615a73f8e4a3db42406bf94e33f16a2a3
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485522"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459661"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>針對 XMLA 端點連線能力進行疑難排解
 
@@ -89,7 +89,7 @@ Power BI Premium 中的 XMLA 端點依賴原生的 Analysis Services 通訊協�
 
 建議您為表格式模型指定 1500 (或更高) 相容性層級。 此相容性層級支援大部分的功能和資料來源類型。 較新的相容性層級會與較早的層級回溯相容。
 
-### <a name="unsupported-data-providers"></a>不支援的資料提供者
+### <a name="supported-data-providers"></a>支援的資料提供者
 
 在 1500 相容性層級上，Power BI 支援下列資料來源類型：
 

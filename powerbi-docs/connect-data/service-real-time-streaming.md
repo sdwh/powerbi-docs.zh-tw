@@ -6,25 +6,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/21/2020
+ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 0472baffa765f1a1e7d39e365e40a1f596472a16
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: cfe184b1f2bd34796dea8982117e3ba90561fa31
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264398"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459684"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI 中的即時串流
-您可以使用 Power BI 即時串流，即時串流資料及更新儀表板。 您也可以建立可在 Power BI 中建立的任何視覺效果或儀表板，進而顯示及更新即時資料和視覺效果。 串流資料的裝置和來源可以是 Factory 感應器、社交媒體來源、服務使用計量，以及可從中收集或傳送即時資料的任何其他項目。
+搭配即時串流的 Power BI 可讓您即時串流資料及更新儀表板。 在 Power BI 中建立的任何視覺效果或儀表板，都能顯示及更新即時資料和視覺效果。 串流資料的裝置與來源可以是工廠感應器、社交媒體來源、服務使用計量，或任何其他時效性資料收集器或傳送器。
 
 ![[環境感應器] 儀表板的螢幕擷取畫面，即時顯示資料的結果。](media/service-real-time-streaming/real-time-streaming-10.png)
 
-本文將說明如何在 Power BI 設定即時串流資料集。 但在這之前，請務必了解設計用來顯示於磚 (和儀表板) 中的即時資料集類型，以及這些資料集之間的差異。
+本文將說明如何在 Power BI 設定即時串流資料集。 首先，請務必了解設計用來顯示於圖格 (與儀表板) 中的即時資料集類型，以及那些資料集之間的差異。
 
 ## <a name="types-of-real-time-datasets"></a>即時資料集的類型
-有三種專為在即時儀表板上顯示而設計的即時資料集︰
+有三種即時資料集是專為在即時儀表板上顯示而設計的︰
 
 * 推送資料集
 * 串流資料集
@@ -43,20 +43,20 @@ ms.locfileid: "86264398"
 * 視覺效果釘選到儀表板之後，您可以使用**問與答**，以自然語言提問推送資料集問題。 進行**問與答**查詢之後，您可以將結果產生的視覺效果釘選回儀表板，該儀表板「也會」即時更新。
 
 ### <a name="streaming-dataset"></a>串流資料集
-使用**串流資料集**時，資料也會被發送到 Power BI 服務，不過有一個重要的差異：Power BI 只會將資料儲存到暫時快取，且該快取很快就會到期。 暫存快取只用來顯示具有短暫歷史感的視覺效果，例如具有一小時時間期間的折線圖。
+使用**串流資料集**時，資料也會被發送到 Power BI 服務，不過有一個重要的差異：Power BI 只會將資料儲存到暫時快取，且該快取很快就會到期。 暫存快取只用來顯示具有短暫歷史感的視覺效果，例如具有一小時時間範圍的折線圖。
 
 使用**串流資料集**時，「沒有」基礎資料庫，因此您「無法」使用從資料流流入的資料來建置報表視覺效果。 因此，您不能使用報表功能，例如篩選、Power BI 視覺效果和其他報表功能。
 
-視覺化串流資料集的唯一方法是新增一個磚，並使用串流資料集作為**自訂串流資料**資料來源。 以**串流資料集**為基礎的自訂串流磚最適合用於快速顯示即時資料。 將資料推送到 Power BI 服務與更新視覺效果兩者之間的延遲極短，因為資料不需要進入資料庫或從資料庫讀取。
+視覺化串流資料集的唯一方法是新增一個圖格，並使用串流資料集作為**自訂串流資料**來源。 以**串流資料集**為基礎的自訂串流磚最適合用於快速顯示即時資料。 將資料推送到 Power BI 服務與更新視覺效果兩者之間的延遲很短，因為資料不需要進入資料庫或從資料庫讀取。
 
 實際上，串流資料集和其隨附的串流視覺效果最適合使用的情況為，必須在推送與視覺化資料時將兩者之間的延遲降到最低。 此外，最佳做法是讓資料以可以依現狀視覺化的格式推送，而不需要任何額外的彙總。 依現狀即已就緒的資料範例包括溫度，以及預先計算出的平均值。
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub 串流資料集
-使用 **PubNub** 串流資料集，Power BI Web 用戶端會使用 PubNub SDK 讀取現有的 PubNub 資料流，而且 Power BI 服務不會儲存任何資料。 因為此呼叫會直接從 Web 用戶端進行，所以如果只允許來自網路的允許清單輸出流量，則必須將流向 PubNub 的流量列為允許。 請參閱支援文章中[將 PubNub 的輸出流量列入允許清單](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-) \(英文\) 的相關指示。
+使用 **PubNub** 串流資料集，Power BI Web 用戶端會使用 PubNub SDK 讀取現有的 PubNub 資料流。 Power BI 服務不會儲存任何資料。 因為此呼叫會直接從 Web 用戶端進行，所以如果只允許來自網路的允許清單輸出流量，則必須將流向 PubNub 的流量列為允許。 請參閱支援文章中[將 PubNub 的輸出流量列入白名單](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-) \(英文\) 的相關指示。
 
 如同**串流資料集**，**PubNub 串流資料集**在 Power BI 沒有基礎資料庫，因此無法對流入的資料建立報表視覺效果，且無法利用報表功能，例如篩選、Power BI 視覺效果等。 這麼一來，**PubNub 串流資料集**也只能藉由新增磚至儀表板，並設定 PubNub 資料流作為來源的方式來進行視覺化。
 
-以 **PubNub 串流資料集**為基礎的磚最適合用於快速顯示即時資料。 因為 Power BI 直接連接至 PubNub 資料流，所以將資料推送到 Power BI 服務，與更新視覺效果兩者之間的延遲極短。
+以 **PubNub 串流資料集**為基礎的磚最適合用於快速顯示即時資料。 因為 Power BI 直接連線至 PubNub 資料流，所以將資料推送到 Power BI 服務，與更新視覺效果兩者之間的延遲很短。
 
 ### <a name="streaming-dataset-matrix"></a>串流資料集矩陣
 下列資料表 (或矩陣，如果您喜歡的話) 描述三種類型的即時串流資料集，並列出每一種的功能和限制。
@@ -98,7 +98,7 @@ ms.locfileid: "86264398"
 
 ![[新增串流資料集] 的螢幕擷取畫面，其中顯示已啟用的歷程資料分析。](media/service-real-time-streaming/real-time-streaming_0c.png)
 
-當 [歷史資料分析] 停用 (它預設為停用) 時，您會建立**串流資料集**，如本文稍早所述。 當 [歷史資料分析]為「啟用」時，建立的資料集變成同時為**串流資料集**和**推送資料集**。 這相當於使用 Power BI REST API 來建立資料集，並將其 <預設模式> 設為 *pushStreaming*，如本文稍早所述。
+當 [歷程資料分析] 停用 (預設為停用) 時，您會建立**串流資料集**，如此文章稍早所述。 當 [歷史資料分析]為「啟用」時，建立的資料集變成同時為**串流資料集**和**推送資料集**。 這相當於使用 Power BI REST API 來建立資料集，並將其 <預設模式> 設為 *pushStreaming*，如本文稍早所述。
 
 > [!NOTE]
 > 對於使用 Power BI 服務 UI 所建立的串流資料集，如之前的段落中所述，不需要 Azure AD 驗證。 在這類的資料集，資料集擁有者會收到具有 rowkey 的 URL，它授權要求者將資料推送到資料集，而不必使用 Azure AD OAuth 持有人權杖。 但是，Azure AD (AAD) 方法仍適用於將資料推送到資料集。
@@ -108,7 +108,7 @@ ms.locfileid: "86264398"
 ### <a name="using-azure-stream-analytics-to-push-data"></a>使用 Azure 串流分析推送資料
 您可以新增 Power BI 作為 **Azure 串流分析** (ASA) 內的輸出，然後即時在 Power BI 服務中視覺化那些資料流。 本節描述有關該程序之發生方式的技術詳細資料。
 
-Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流，並將 <預設模式> 設為 *pushStreaming* (請參閱本文稍早的章節，以取得 <預設模式> 的資訊)，這會導致資料集可以利用**推送**和**串流**。 在資料集建立期間，Azure 串流分析也會將 **retentionPolicy** 旗標設定為 *basicFIFO*；使用此設定時，支援其推送資料集的資料庫可儲存 200,000 個資料列，而且在達到該限制之後，資料列會以先進先出 (FIFO) 的方式卸除。
+Azure 串流分析使用 Power BI REST API 建立目標為 Power BI 的輸出資料流，若將 *defaultMode* 設定為 *pushStreaming*，會產生可以利用**推送**與**串流**的資料集。 建立資料集時，Azure 串流分析會將 **retentionPolicy** 旗標設定為 *basicFIFO*。 若使用此設定，支援其推送資料集的資料庫可儲存 200,000 個資料列，而且在達到該限制之後，資料列會以先進先出 (FIFO) 的方式卸除。
 
 > [!CAUTION]
 > 如果 Azure 串流分析查詢導致對 Power BI 的輸出非常快速 (例如，每秒一次或兩次)，Azure 串流分析將會把那些輸出批次處理成單一要求。 這可能會導致要求大小超過串流磚限制。 在此情況下，如前一節所述，串流磚便無法轉譯。 在這種情況下，最佳做法是減緩資料輸出至 Power BI 的速率，比方說，不要用每秒最大值，而是將它設定為最大值超過 10 秒。
@@ -180,7 +180,7 @@ Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流
 1. 在 [Power BI 服務] 中，選取儀表板 (或建立新的儀表板)，然後選取 [新增磚] > [自訂串流資料]，再選取 [下一步] 按鈕。
    
    ![儀表板的螢幕擷取畫面，其中顯示含有 [自訂串流資料] 區段的 [新增磚]。](media/service-real-time-streaming/real-time-streaming_1.png)
-2. 如果您還沒有串流資料來源，請選取 [管理資料] 連結 ([下一步] 按鈕的正上方)，然後從視窗右上方的連結選取 \[+ Add streaming data] \(+ 新增串流資料)。 選取 [PubNub]，然後選取 [下一步]。
+2. 如果您還沒有串流資料來源，請選取 [管理資料] 連結 ([下一步] 按鈕的正上方)，然後從視窗右上方的連結選取 [+ Add streaming data] \(+ 新增串流資料\)。 選取 [PubNub]，然後選取 [下一步]。
 3. 建立您的資料集名稱，然後將下列值貼到出現的視窗中，再選取 [下一步]：
    
    訂閱機碼：
@@ -212,13 +212,14 @@ Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流
 
 #### <a name="how-do-i-see-the-latest-value-on-a-push-dataset-how-about-streaming-dataset"></a>如何查看推送資料集上的最新值？ 串流資料集呢？
 串流資料集是設計為顯示最新的資料。 您可以使用 [卡] 串流視覺效果輕鬆地查看最新的數值。 不幸的是，卡並不支援「日期時間」 或「文字」類型的資料。
-針對推送資料集，假設您在結構描述有時間戳記，則可以嘗試使用最後的 N 個篩選來建立報表視覺效果。
+
+針對推送資料集，當您在結構描述中有時間戳記時，您可以嘗試使用最後 N 個篩選來建立報表視覺效果。
 
 #### <a name="can-i-connect-to-push-or-streaming-datasets-in-power-bi-desktop"></a>我可以在 Power BI Desktop 中連接到推送或串流資料集嗎？
-推送和混合式資料集可在 Power BI Desktop 中即時連線，但無法在 Power BI Desktop 中連線其他串流資料集。
+推送和混合式資料集可在 Power BI Desktop 中即時連線。 無法在 Power BI Desktop 中連線到其他串流資料集。
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>就上一個問題，如何對即時資料集執行任何模型？
-無法對串流資料集使用模型，因為資料不會永久儲存。 對於推送資料集，您可以使用更新資料集/資料表 REST API 來新增量值和關聯性。 
+無法對串流資料集使用模型，因為資料不會永久儲存。 針對推送資料集，您可以使用建立資料集 REST API 來建立具有關聯性與量值的資料集和/或使用更新資料表 REST API 將量值加入現有的資料表。 
 
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>如何清除推送資料集上的所有值？ 串流資料集呢？
 在推送資料集上，您可以使用刪除資料列 REST API 呼叫。 目前沒有任何方法可清除串流資料集的資料，但資料會在一個小時之後自行清除。
@@ -235,7 +236,7 @@ Azure 串流分析使用 Power BI REST API 建立對 Power BI 的輸出資料流
 
 ## <a name="automatic-page-refresh"></a>自動重新整理頁面
 
-自動頁面重新整理會在報表頁面層級運作，並可讓報表作者設定頁面中視覺效果 (只有在取用頁面時才會是作用中) 的重新整理間隔。 自動頁面重新整理僅適用於 DirectQuery 資料來源。 最小重新整理間隔取決於發行報表的工作區類型，以及進階工作區的容量管理員設定。
+自動頁面重新整理會在報表頁面層級運作，而且可讓您設定視覺效果 (只有在取用頁面時才會是作用中) 的重新整理間隔。 自動頁面重新整理僅適用於 DirectQuery 資料來源。 最小重新整理間隔取決於報表發佈所在的工作區類型，以及 Premium 工作區的容量管理員設定。
 
 若要深入了解自動頁面重新整理，請參閱[自動頁面重新整理](../create-reports/desktop-automatic-page-refresh.md)一文。
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e82dde5022bf0ad28d37e0ed9a8ac9553fbbd75d
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: aa8277a8d0ddea43aff356ced32c9edad8710c93
+ms.sourcegitcommit: a4e06e401abc67dffab52f34e268467def42a97e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485890"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "86875041"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>訂閱 Power BI 服務中的報表或儀表板 
 
@@ -25,7 +25,7 @@ ms.locfileid: "85485890"
 
 讓您最重要的儀表板和報表維持最新的狀態從沒這麼容易過。 訂閱對您來說最重要的報表頁面和儀表板，Power BI 就會以電子郵件寄送快照集到您的收件匣。 您要告訴 Power BI 需要收到電子郵件的頻率︰每天、每週，或在資料重新整理後。 您甚至可以設定特定的時間，讓 Power BI 傳送電子郵件或立即執行。  針對每個報表或儀表板，您總計可以設定最多 24 個不同的訂用帳戶。
 
-電子郵件和快照集將使用 Power BI 設定中設定的語言 (請參閱 [Power BI 支援的語言與國家/地區](../fundamentals/supported-languages-countries-regions.md))。 如果未定義任何語言，Power BI 會使用您目前瀏覽器中地區設定的語言。 若要查看或設定語言喜好設定，請選取齒輪圖示 ![齒輪圖示](./media/end-user-subscribe/power-bi-settings-icon.png) > [設定] > [一般] > [語言]。 
+電子郵件和快照集將使用 Power BI 設定中設定的語言 (請參閱 [Power BI 支援的語言與國家/地區](../fundamentals/supported-languages-countries-regions.md))。 如果未定義任何語言，Power BI 就會使用英文遞補。 若要查看或設定語言喜好設定，請選取齒輪圖示 ![齒輪圖示](./media/end-user-subscribe/power-bi-settings-icon.png) > [設定] > [一般] > [語言]。 
 
 ![[語言] 下拉式清單](./media/end-user-subscribe/power-bi-language.png)
 

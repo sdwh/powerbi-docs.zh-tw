@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 04/22/2020
+ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 056d69a866b0b56e83557e77462e03e3e00a2c8d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218509"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409505"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>在 Power BI 中使用相對時間交叉分析篩選器與篩選條件
 
@@ -22,18 +22,12 @@ ms.locfileid: "85218509"
 
 隨著快速重新整理案例的出現，以較小時間範圍篩選的能力相當實用。 利用相對時間交叉分析篩選器或相對時間篩選條件，可將時間篩選條件套用到資料模型中的任何日期或時間資料行。 例如，您可使用相對時間交叉分析篩選器來只顯示過去一分鐘或一個小時內的影片檢視。 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="相對時間範例":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="相對時間範例的螢幕擷取畫面。":::
 
 您不需要搭配[自動頁面重新整理](../create-reports/desktop-automatic-page-refresh.md)功能來使用此功能。 但是，許多相對時間案例相當適合與自動頁面重新整理功能搭配使用。  
 
 > [!NOTE]
 > 當在頁面或報表層級套用相對時間篩選條件或交叉分析篩選器時，所有該頁面上視覺效果或報表都會使用共用「錨點」  時間來篩選到完全一致的相同時間範圍。 因為視覺效果的執行時間可能會有些許不同，這個共用錨點時間可確保視覺效果在頁面或整個報表上都會同步。 如需詳細資訊，請閱讀本文的[錨點時間](#understanding-anchor-time)。
-
-## <a name="turn-on-relative-time-preview"></a>開啟相對時間預覽
-
-相對時間篩選條件目前處於預覽階段，因此需要開啟功能切換。 請移至 [檔案]   > [選項及設定]   > [選項]  。 在 [全域設定]   > [預覽功能]  下方，確認已選取 [相對時間篩選條件]  。
-
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-preview.png" alt-text="設定相對時間預覽選項":::
 
 ## <a name="create-a-relative-time-slicer-or-filter"></a>建立相對時間交叉分析篩選器或篩選條件
 
@@ -43,43 +37,43 @@ ms.locfileid: "85218509"
 
 1. 將日期或時間欄位拖曳到畫布。
 
-2. 選取 [交叉分析篩選器]  視覺效果類型。
+2. 選取 [交叉分析篩選器] 視覺效果類型。
 
-    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="建立時間交叉分析篩選器":::
+    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="建立時間交叉分析篩選器的螢幕擷取畫面。":::
 
 ### <a name="create-a-filter"></a>建立篩選
  
-- 將日期或時間欄位拖曳到 [此視覺效果]  、[此頁面]  或 [所有頁面]  的 [篩選條件] 窗格。
+- 將日期或時間欄位拖曳到 [此視覺效果]、[此頁面] 或 [所有頁面] 的 [篩選條件] 窗格。
 
 ### <a name="set-relative-time"></a>設定相對時間 
 
-接下來，您會將篩選條件類型變更為 [相對時間]  。
+接下來，您會將篩選條件類型變更為 [相對時間]。
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="變更為相對時間":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="變更為相對時間的螢幕擷取畫面。":::
  
 以下是其在交叉分析篩選器中的外觀：
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="交叉分析篩選器中的相對時間":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="交叉分析篩選器中相對時間的螢幕擷取畫面。":::
 
 以下是其在篩選條件卡中的外觀： 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="篩選條件中的相對時間":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="篩選中相對時間的螢幕擷取畫面。":::
  
-使用這個新的篩選條件類型，即可選擇根據 [最後]  、[下一個]  或 [此時間期間]  進行篩選： 
+使用這個新的篩選條件類型，即可根據 [最後]、[下一個] 或 [此時間期間] 篩選： 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="選擇 [最後]、[下一個] 或 [此時間期間]":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="選擇 [最後]、[下一個] 或 [此時間期間] 的螢幕擷取畫面。":::
  
-您可使用整數和時間單位來指定時間範圍：[分鐘]  或 [小時]  。
+您可使用整數和時間單位來指定時間範圍：[分鐘] 或 [小時]。
  
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="選擇 [分鐘] 或 [小時]":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="選擇分鐘或小時的螢幕擷取畫面。":::
 
 若需要節省畫布上的空間，則亦可在 [篩選條件] 窗格中將相對時間篩選條件作為篩選條件卡建立。
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="改為在篩選條件中設定相對時間":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="在篩選條件中改為設定相對時間的螢幕擷取畫面。":::
  
 ## <a name="understanding-anchor-time"></a>了解錨點時間
 
-當篩選條件套用到頁面或是報表層級時，該頁面或報表上的所有視覺效果都會同步到相同且一致的時間範圍。 這些查詢其發行時間會相對於稱為「錨點時間」  的時間。 錨點時間會自動在下列情況下重新整理：
+當篩選條件套用到頁面或是報表層級時，該頁面或報表上的所有視覺效果都會同步到相同且一致的時間範圍。 這些查詢其發行時間會相對於稱為「錨點時間」的時間。 錨點時間會自動在下列情況下重新整理：
 
 - 初始頁面載入。
 - 手動重新整理。
@@ -101,7 +95,7 @@ ms.locfileid: "85218509"
     - 其無法透過內嵌 API 支援。
     - 不支援發佈至 Web。
 
-- **查詢快取**：我們使用用戶端快取。 因此，假設您指定「最後 1 分鐘」，然後指定「最後 5 分鐘」，最後又回到「最後 1 分鐘」。 此時，除非重新整理頁面或頁面自動重新整理，否則會看到與其第一次執行時相同的結果。
+- **查詢快取**：我們會使用用戶端快取。 假設您指定「最後 1 分鐘」，然後指定「最後 5 分鐘」，最後又回到「最後 1 分鐘」。 此時，除非重新整理頁面或頁面自動重新整理，否則會看到與其第一次執行時相同的結果。
 
 ## <a name="next-steps"></a>後續步驟
 

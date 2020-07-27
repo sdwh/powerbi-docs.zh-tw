@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 002a50fd2e8e55d5ec06d7f15420ae8299861b37
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034282"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557202"
 ---
 # <a name="understand-the-deployment-process-preview"></a>了解部署程序 (預覽)
 
@@ -152,11 +152,11 @@ ms.locfileid: "86034282"
 
 建立適用於每個部署管線階段的應用程式，讓您可以從使用者的觀點測試每個應用程式更新。 部署管線可讓您輕鬆管理此程序。 使用工作區卡片中的發佈或檢視按鈕，在特定管線階段中發佈或檢視應用程式。
 
-[![發佈應用程式](media/deployment-pipelines-process/publish.png "發佈應用程式")](media/deployment-pipelines-process/publish.png#lightbox)
+[![醒目提示 [發佈應用程式] 按鈕的螢幕擷取畫面，其位於生產環境階段的右下角。](media/deployment-pipelines-process/publish.png)](media/deployment-pipelines-process/publish.png#lightbox)
 
 在生產階段，左下角的主要動作按鈕會在 Power BI 中開啟更新應用程式頁面，讓應用程式使用者能夠使用任何內容更新。
 
-[![更新應用程式](media/deployment-pipelines-process/update-app.png "更新應用程式")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![醒目提示 [更新應用程式] 按鈕的螢幕擷取畫面，其位於生產環境階段的右下角。](media/deployment-pipelines-process/update-app.png)](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >部署程序不包含更新應用程式內容或設定。 若要將變更套用到內容或設定，您必須在必要的管線階段手動更新應用程式。

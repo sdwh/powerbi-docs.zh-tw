@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 6e9ed3217a7ee589eaf1469ba179ef8c8bc474e9
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354723"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557248"
 ---
 # <a name="get-started-with-deployment-pipelines-preview"></a>開始使用部署管線 (預覽)
 
@@ -31,7 +31,7 @@ ms.locfileid: "85354723"
 >[!NOTE]
 > 如果您先前已建立管線，或有與您共用的管線，則您也可以看到 [部署管線] 按鈕。
 
-![部署管線登陸頁面](media/deployment-pipelines-get-started/creating-pipeline.png)
+![部署管線登陸頁面的螢幕擷取畫面。](media/deployment-pipelines-get-started/creating-pipeline.png)
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>步驟 1 - 建立部署管線
 
@@ -84,7 +84,7 @@ ms.locfileid: "85354723"
 
 選取要從中部署的階段，然後按一下 [部署] 按鈕。 部署程序會在目標階段中建立重複的工作區。 此工作區包含目前階段中現有的所有內容。
 
-[![部署](media/deployment-pipelines-get-started/deploy.png "部署所有內容")](media/deployment-pipelines-get-started/deploy.png#lightbox)
+[![顯示部署管線中適用於 [開發] 與 [測試] 階段之部署按鈕的螢幕擷取畫面。](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>選擇性部署
 
@@ -92,7 +92,7 @@ ms.locfileid: "85354723"
 
 由於儀表板、報表與資料集是相關聯且具有相依性的，因此您可以使用選取相關項目按鈕來選取那些項目相依的所有項目。 例如，如果您想要將報表部署到下一個階段，按一下選取相關項目按鈕將會標示報表所連線的資料集，這樣就會同時部署兩者，且報表不會損毀。
 
-[![選擇性部署](media/deployment-pipelines-get-started/selective-deploy.png "選擇性部署")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
+[![顯示部署管線中選擇性部署選項的螢幕擷取畫面，其於選取 [顯示更多] 選項之後提供。](media/deployment-pipelines-get-started/selective-deploy.png)](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
 
 >[!NOTE]
 > * 如果報表或儀表板所相依的項目不存在於您要部署至的階段中，您就無法將其部署至下一個階段。
@@ -104,7 +104,7 @@ ms.locfileid: "85354723"
 
 只有當先前階段的內容是空白時，才能部署到先前的階段。 當部署到先前階段時，您無法選取特定項目。 系統將會部署階段中的所有內容。
 
-[![回溯部署](media/deployment-pipelines-get-started/deploy-back.png "回溯部署")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
+[![顯示 [部署至上一個階段] 按鈕的螢幕擷取畫面，其於 [測試] 或 [生產環境] 階段的功能表中提供。](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
 ## <a name="step-4---create-dataset-rules"></a>步驟 4 - 建立資料集規則
 
@@ -121,15 +121,15 @@ ms.locfileid: "85354723"
 
 1. 在您想要建立資料集規則的管線階段中，按一下 [部署設定]。
 
-    ![部署設定](media/deployment-pipelines-get-started/deployment-settings.png)
+    ![[部署設定] 按鈕的螢幕擷取畫面，其位於每個部署管線階段的右上角。](media/deployment-pipelines-get-started/deployment-settings.png)
 
 2. 從 [部署設定] 窗格中，選取您想要為其建立規則的資料集。
 
-    [![資料集規則](media/deployment-pipelines-get-started/dataset-rules.png "選取資料集")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
+    [![顯示選取資料集以建立資料集規則的螢幕擷取畫面。](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
 3. 選取您要建立的規則類型、展開清單，然後按一下 [新增規則]。
 
-     [![新增規則](media/deployment-pipelines-get-started/add-rule.png "新增規則")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
+     [![顯示選取 [資料來源規則] 並按一下 [新增規則] 選項的螢幕擷取畫面。](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
 ### <a name="dataset-rule-types"></a>資料集規則類型
 
@@ -152,6 +152,8 @@ ms.locfileid: "85354723"
 * 移除或刪除項目時，也會刪除其規則。 無法還原這些規則。
 
 * 如果規則中定義的資料來源或參數已變更或從來源資料集移除，此規則將會是無效的，且部署將會失敗。
+
+* 無法針對類型為 *Any* 或 *Binary* 的參數定義參數規則。 如需詳細資訊，請參閱[資料集更新參數限制](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters) \(英文\)。
 
 * 只能針對下列資料來源定義資料來源規則：
     * Azure Analysis 服務
@@ -180,7 +182,7 @@ ms.locfileid: "85354723"
 
 當兩個連續階段有內容時，系統會根據內容項目中繼資料來比較內容。 此比較不包括比較各個階段之間的資料或重新整理時間。
 
- [![部署流程](media/deployment-pipelines-get-started/deployment-flow.png "比較階段")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
+ [![顯示具有其比較指標之部署管線的螢幕擷取畫面。](media/deployment-pipelines-get-started/deployment-flow.png)](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
 
 為了讓您快速取得兩個連續階段之間差異的視覺化見解，兩者間會顯示比較圖示指標。 比較指標有兩種狀態：
 
@@ -201,13 +203,13 @@ ms.locfileid: "85354723"
     >[!NOTE]
     >部署不會影響「遺漏的位置」項目。
 
- [![比較](media/deployment-pipelines-get-started/compare.png "比較檢視")](media/deployment-pipelines-get-started/compare.png#lightbox)
+ [![顯示 [比較] 選項的螢幕擷取畫面，其可展開 [比較] 檢視並允許在部署管線階段之間比較項目。](media/deployment-pipelines-get-started/compare.png)](media/deployment-pipelines-get-started/compare.png#lightbox)
 
 ## <a name="overriding-content"></a>覆寫內容
 
 當您對來源階段中的內容進行變更後再進行部署時，系統會覆寫您在目標階段中變更的內容。 按一下 [部署] 之後，您會收到一則警告，列出將會覆寫的項目數目。
 
-![已取代內容的警告](media/deployment-pipelines-get-started/replaced-content.png)
+![已取代內容警告的螢幕擷取畫面，其會在部署將於您要部署到的階段中導致對項目的變更時顯示。](media/deployment-pipelines-get-started/replaced-content.png)
 
 您可以在[了解部署程序](deployment-pipelines-process.md)中，深入了解[會複製哪些項目到下一個階段](deployment-pipelines-process.md#deployed-items)，以及[不會複製哪些項目](deployment-pipelines-process.md#unsupported-items)。
 

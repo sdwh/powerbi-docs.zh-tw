@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/08/2020
-ms.openlocfilehash: 037fbdf3c1e4c01bac91e6089f9fa1c7dd1635d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 07/14/2020
+ms.openlocfilehash: 94cd4fd652fc1b06a73e1ea319a65e1aa5b46c7e
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238987"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437207"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>將 Power BI 視覺效果發佈至合作夥伴中心
 
@@ -23,7 +23,7 @@ ms.locfileid: "85238987"
 
 您可以在 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) \(英文\) 尋找適用於 Microsoft 產品與服務的 SaaS 應用程式與增益集。
 
-![Office 市集](media/office-store/appsource-01.png)
+![AppSource 中 Power BI 視覺效果的螢幕擷取畫面。](media/office-store/appsource-01.png)
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>準備提交您的 Power BI 視覺效果
 
@@ -61,7 +61,7 @@ ms.locfileid: "85238987"
 
 ## <a name="submitting-to-appsource"></a>提交至 AppSource
 
-若要將您的 Power BI 視覺效果提交至 AppSource，您需要從 Power BI 小組取得應用程式套件，然後將它提交至合作夥伴中心。 
+若要將您的 Power BI 視覺效果提交至 AppSource，您需要從 Power BI 小組取得應用程式套件，然後將它提交至合作夥伴中心。
 
 ### <a name="getting-the-app-package"></a>取得應用程式套件
 
@@ -73,6 +73,11 @@ Power BI 小組必須檢查檔案中是否有新的 Power BI 視覺效果提交�
 
 若要將您的 Power BI 視覺效果提交至合作夥伴中心，您必須向合作夥伴中心註冊。 如果您尚未註冊，請[在合作夥伴中心建立開發人員帳戶](https://docs.microsoft.com/office/dev/store/open-a-developer-account) \(英文\)。
 
+>[!NOTE]
+>**個別的發行者**可以使用下列其中一種方法來提交 Power BI 視覺效果：
+>* 如果您擁有舊的賣方儀表板帳戶，您可以繼續使用此帳戶的認證來登入合作夥伴中心。
+>* 如果您沒有舊的賣方儀表板帳戶，且尚未註冊到合作夥伴中心，您將必須使用公司電子郵件來[在合作夥伴中心申請開發人員帳戶](https://docs.microsoft.com/office/dev/store/open-a-developer-account) \(英文\)。
+
 遵循下列步驟來將您的 Power BI 視覺效果提交至合作夥伴中心。 如需提交程序的詳細資訊，請參閱[透過合作夥伴中心將 Office 方案提交至 AppSource](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource) \(英文\)。
 
 1. 登入 [合作夥伴中心]  。
@@ -83,7 +88,7 @@ Power BI 小組必須檢查檔案中是否有新的 Power BI 視覺效果提交�
 
 4. 選取 [建立新的]  ，然後從下拉式功能表中選取 [Power BI 視覺效果]  。
 
-    ![Office 市集](media/office-store/power-bi-visual.png)
+    ![於合作夥伴中心的 [Office 市集] 索引標籤中建立新 Power BI 視覺效果的螢幕擷取畫面。](media/office-store/power-bi-visual.png)
 
 5. 在 [建立新的 Power BI 視覺效果]  視窗中，輸入 Power BI 視覺效果的名稱，然後選取 [建立]  。
 

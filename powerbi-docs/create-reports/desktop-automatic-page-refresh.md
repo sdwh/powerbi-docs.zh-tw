@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1febf93d35500d56f5b3b104487725f33d7b17ad
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a1e42b4901e8659bb5d999294f29a80a0389280
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234179"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557225"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop"></a>Power BI Desktop 自動頁面重新整理 
 
@@ -147,6 +147,7 @@ Power BI *工作區*位於容量之內。 其代表安全性、共同作業和�
 * 自動頁面重新整理不支援匯入、LiveConnect 與推送儲存模式。  
 * 支援至少有一個 DirectQuery 資料來源的複合模型。
 * Power BI Desktop 沒有重新整理間隔的限制。 間隔可以是每秒的頻率。 當報表發佈至 Power BI 服務時，就會套用特定限制，如此文章[稍早](#restrictions-on-refresh-intervals)所述。
+* SharePoint Online 內嵌不支援自動頁面重新整理。
 
 ### <a name="performance-diagnostics"></a>效能診斷
 
